@@ -68,7 +68,10 @@ are also, unlike the payload, constrained by physics that anybody can write down
 The obvious guess is that a long mission is a propulsion problem. **It is not**, and a few lines of
 derivation show why. The specific energy of a Keplerian orbit is
 
-$$\mathcal{E} = \frac{v^{2}}{2} - \frac{\mu}{r} = -\frac{\mu}{2a}$$
+$$
+\mathcal{E} = \frac{v^{2}}{2} - \frac{\mu}{r} = -\frac{\mu}{2a}
+\tag{1}
+$$
 
 which depends on the semi-major axis $a$ and on nothing else. At 400 kilometres it is
 **-29.40 megajoules per kilogram**, and because a conservative field cannot change it,
@@ -143,7 +146,10 @@ lineage in that the smaller aircraft came first and the larger one inherited its
 **The two published ratios are not reciprocals of one another.** For a linear scale factor $s$ the inverse
 is $1/s$, and
 
-$$\frac{1}{0.80} = 1.25, \qquad \frac{1}{1.20} = 0.833,$$
+$$
+\frac{1}{0.80} = 1.25, \qquad \frac{1}{1.20} = 0.833,
+\tag{2}
+$$
 
 so the 80 percent figure implies a derivative of 125 percent and the 120 percent figure implies a subscale
 vehicle of 83 percent. Both are rounded descriptions of one geometry, and neither should be read as more
@@ -198,13 +204,19 @@ Everything in this section follows from two published numbers, the altitude and 
 relations that appear in every astrodynamics text. The [orbital period][ref_orbital_period] of a circular
 orbit of radius $r$ about a body of gravitational parameter $\mu$ is
 
-$$T = 2\pi \sqrt{\frac{r^{3}}{\mu}}$$
+$$
+T = 2\pi \sqrt{\frac{r^{3}}{\mu}}
+\tag{3}
+$$
 
 where $r$ is the geocentric radius, being the Earth's equatorial radius of 6,378.137 kilometres plus the
 altitude, and $\mu$ is 398,600.4418 cubic kilometres per second squared. At an altitude of 400 kilometres
 this gives a period of **92.56 minutes**, and the circular speed
 
-$$v_{c} = \sqrt{\frac{\mu}{r}}$$
+$$
+v_{c} = \sqrt{\frac{\mu}{r}}
+\tag{4}
+$$
 
 is **7.6686 kilometres per second**. Those two numbers do most of the work that follows.
 
@@ -215,7 +227,10 @@ radius and it lies on the night side. Taking a cylindrical shadow, which neglect
 finite angular size and errs in the conservative direction for a power budget, the fraction of an orbit
 spent in shadow is
 
-$$f_{E} = \frac{1}{\pi} \arccos\!\left( \frac{\sqrt{r^{2} - R_{\oplus}^{2}}}{r \cos \beta} \right)$$
+$$
+f_{E} = \frac{1}{\pi} \arccos\!\left( \frac{\sqrt{r^{2} - R_{\oplus}^{2}}}{r \cos \beta} \right)
+\tag{5}
+$$
 
 where $\beta$ is the [beta angle][ref_beta_angle], the angle between the Sun vector and the orbit plane. At
 400 kilometres with the Sun in the orbit plane this gives **39.01 percent**, which is **36.11 minutes** of
@@ -224,7 +239,10 @@ shadow in every 92.56 minute orbit.
 **The interesting feature of that relation is where it stops having a solution.** The argument of the
 inverse cosine reaches unity, and the eclipse vanishes entirely, when
 
-$$\beta > \beta^{*} = \arcsin\!\left( \frac{R_{\oplus}}{r} \right)$$
+$$
+\beta > \beta^{*} = \arcsin\!\left( \frac{R_{\oplus}}{r} \right)
+\tag{6}
+$$
 
 which at 400 kilometres is **70.22 degrees**. A vehicle that can reach that beta angle enjoys periods of
 continuous sunlight, during which its batteries are not cycled at all.
@@ -234,7 +252,10 @@ available at inclination $i$ is $i$ plus the Earth's obliquity of 23.44 degrees.
 missions, numbered OTV-1 to OTV-4 in the programme's Orbital Test Vehicle designation, are catalogued at
 inclinations between 38.02 and 43.49 degrees, and the sixth at 45.08 \[[General Catalog of Artificial Space Objects][ref_gcat]\]. Their ceilings are
 
-$$\beta_{\max} = i + 23.44^{\circ}, \qquad 43.49^{\circ} + 23.44^{\circ} = 66.93^{\circ}, \qquad 45.08^{\circ} + 23.44^{\circ} = 68.52^{\circ} \;<\; \beta^{*} = 70.22^{\circ},$$
+$$
+\beta_{\max} = i + 23.44^{\circ}, \qquad 43.49^{\circ} + 23.44^{\circ} = 66.93^{\circ}, \qquad 45.08^{\circ} + 23.44^{\circ} = 68.52^{\circ} \;<\; \beta^{*} = 70.22^{\circ},
+\tag{7}
+$$
 
 which are below the threshold. The threshold rises as the orbit descends, so the lower of those orbits
 fall short of it by more. The same sum gives every row of the table below.
@@ -257,7 +278,10 @@ at 45.08 degrees is **35.76 percent**, and the fraction of sampled geometries th
 The average is taken over a uniform grid of $J$ node positions $\Omega_{j}$ and $K$ solar ecliptic
 longitudes $\lambda_{k}$,
 
-$$\bar{f}_{E} = \frac{1}{J K} \sum_{j=1}^{J} \sum_{k=1}^{K} f_{E}\!\left( \beta(\Omega_{j}, \lambda_{k}) \right), \qquad J = 720, \quad K = 60,$$
+$$
+\bar{f}_{E} = \frac{1}{J K} \sum_{j=1}^{J} \sum_{k=1}^{K} f_{E}\!\left( \beta(\Omega_{j}, \lambda_{k}) \right), \qquad J = 720, \quad K = 60,
+\tag{8}
+$$
 
 with $\beta$ from the Sun vector and orbit normal as given in the next section, and the share of
 geometries that eclipse at all is the fraction of those $43{,}200$ grid points at which $f_{E} > 0$.
@@ -270,7 +294,10 @@ Averaging over the node is only legitimate if the node turns during the mission.
 rate follows from the Earth's oblateness. The dominant secular effect of the second zonal harmonic $J_{2}$
 on a near-circular orbit is a regression of the ascending node at
 
-$$\dot{\Omega} = -\frac{3}{2} J_{2} \left( \frac{R_{\oplus}}{p} \right)^{2} \sqrt{\frac{\mu}{a^{3}}} \, \cos i$$
+$$
+\dot{\Omega} = -\frac{3}{2} J_{2} \left( \frac{R_{\oplus}}{p} \right)^{2} \sqrt{\frac{\mu}{a^{3}}} \, \cos i
+\tag{9}
+$$
 
 where $p$ is the semi-latus rectum, equal to the radius for a circular orbit, and the square root is the
 mean motion. The sixth mission is catalogued at 379 by 399 kilometres and 45.08 degrees \[[General Catalog of Artificial Space Objects][ref_gcat]\],
@@ -285,13 +312,19 @@ and is represented here by a circular orbit at 400 kilometres. At that altitude 
 
 The beta angle itself follows from the Sun vector and the orbit normal,
 
-$$\sin \beta = \cos \delta_{\odot} \sin i \sin(\Omega - \alpha_{\odot}) + \sin \delta_{\odot} \cos i$$
+$$
+\sin \beta = \cos \delta_{\odot} \sin i \sin(\Omega - \alpha_{\odot}) + \sin \delta_{\odot} \cos i
+\tag{10}
+$$
 
 with $\delta_{\odot}$ and $\alpha_{\odot}$ the solar declination and right ascension.
 **The geometry therefore repeats at the beat between the node's regression and the Sun's annual motion**
 rather than at either rate alone,
 
-$$T_{\beta} = \frac{360^{\circ}}{\lvert \dot{\Omega} - \dot{\lambda}_{\odot} \rvert}$$
+$$
+T_{\beta} = \frac{360^{\circ}}{\lvert \dot{\Omega} - \dot{\lambda}_{\odot} \rvert}
+\tag{11}
+$$
 
 which gives **53.95 days**.
 
@@ -305,7 +338,10 @@ single beta angle for a flight of this length would be quoting a transient.
 
 The sixth mission lasted 908.88 days. At a 92.56 minute period that is
 
-$$N_{\text{orb}} = \frac{t_{\text{mission}}}{T} = \frac{908.88 \times 86{,}400}{5{,}553.6} = 14{,}140$$
+$$
+N_{\text{orb}} = \frac{t_{\text{mission}}}{T} = \frac{908.88 \times 86{,}400}{5{,}553.6} = 14{,}140
+\tag{12}
+$$
 
 and because the vehicle's inclination admitted no full-sun period,
 **every one of those 14,140 orbits carried an eclipse and therefore a charge and discharge cycle.** At 300
@@ -326,7 +362,10 @@ The payload bay is published as 2.1 metres by 1.2 metres. The Space Force fact s
 reachable at the time of writing, so the figure is cited to the [encyclopaedic specification][ref_x37] that
 reproduces it. The planform area is
 
-$$A_{\text{bay}} = 2.1 \times 1.2 = 2.52 \ \text{square metres}.$$
+$$
+A_{\text{bay}} = 2.1 \times 1.2 = 2.52 \ \text{square metres}.
+\tag{13}
+$$
 
 The solar array is stowed conformally inside it and deploys from the open bay
 \[[This Is Our First Look At The Secretive X-37B Spaceplane With Its Cargo Bay Doors Open][ref_otv_bay_open]\],
@@ -335,7 +374,10 @@ so the array area is bounded by what can be folded into a volume of that size.
 
 A sun-pointed array of area $A$ generates
 
-$$P_{\text{array}} = S \, A \, \eta \, \kappa$$
+$$
+P_{\text{array}} = S \, A \, \eta \, \kappa
+\tag{14}
+$$
 
 where $S$ is the solar constant of 1,361 watts per square metre, $\eta$ is the cell efficiency, taken as
 0.30 for the [gallium arsenide][ref_gaas] cells the vehicle is reported to use \[[Boeing X-37][ref_x37]\], and
@@ -344,7 +386,10 @@ $\kappa$ is a packing factor taken as 0.85.
 The array does not merely carry the load. It must also refill the battery during the sunlit fraction of the
 orbit, so for a load that runs continuously
 
-$$\frac{P_{\text{array}}}{P_{\text{load}}} = 1 + \frac{f_{E}}{(1 - f_{E})\,\eta_{c}\,\eta_{d}}$$
+$$
+\frac{P_{\text{array}}}{P_{\text{load}}} = 1 + \frac{f_{E}}{(1 - f_{E})\,\eta_{c}\,\eta_{d}}
+\tag{15}
+$$
 
 where $\eta_{c}$ and $\eta_{d}$ are the charge and discharge efficiencies, both taken as 0.90. At an eclipse
 fraction of 39.01 percent this ratio is **1.790**, so an array must be very nearly twice the size the load
@@ -361,7 +406,10 @@ alone would suggest.
 **A six square metre array, a generous reading of what folds out of a bay of 2.52 square metres, carries 1,164 watts continuously.**
 The row follows from the two relations above,
 
-$$P_{\text{load}} = \frac{S \, A \, \eta \, \kappa}{P_{\text{array}} / P_{\text{load}}} = \frac{1{,}361 \times 6 \times 0.30 \times 0.85}{1.7896} = \frac{2{,}082.3}{1.7896} = 1{,}164 \ \text{watts},$$
+$$
+P_{\text{load}} = \frac{S \, A \, \eta \, \kappa}{P_{\text{array}} / P_{\text{load}}} = \frac{1{,}361 \times 6 \times 0.30 \times 0.85}{1.7896} = \frac{2{,}082.3}{1.7896} = 1{,}164 \ \text{watts},
+\tag{16}
+$$
 
 where 1.7896 is the ratio quoted above as 1.790 before rounding.
 
@@ -389,14 +437,20 @@ point.
 Every watt the vehicle consumes becomes heat, and the heat has to leave. A radiator at temperature $T_{r}$
 facing a sink at $T_{s}$ rejects
 
-$$q = \varepsilon \sigma \left( T_{r}^{4} - T_{s}^{4} \right)$$
+$$
+q = \varepsilon \sigma \left( T_{r}^{4} - T_{s}^{4} \right)
+\tag{17}
+$$
 
 per unit area, where $\varepsilon$ is the emissivity and $\sigma$ is the
 [Stefan-Boltzmann constant][ref_stefan_boltzmann]. **The sink is not deep space.** A surface that sees the
 Earth absorbs outgoing longwave radiation and reflected sunlight, and the temperature it cannot radiate
 below follows from
 
-$$T_{s} = \left( \frac{F \left( \varepsilon q_{\text{IR}} + \alpha_{\oplus} \alpha_{s} S \right)}{\varepsilon \sigma} \right)^{1/4}$$
+$$
+T_{s} = \left( \frac{F \left( \varepsilon q_{\text{IR}} + \alpha_{\oplus} \alpha_{s} S \right)}{\varepsilon \sigma} \right)^{1/4}
+\tag{18}
+$$
 
 with $F$ the view factor to the Earth, $q_{\text{IR}}$ the outgoing longwave flux of about 237 watts per
 square metre, $\alpha_{\oplus}$ the albedo of about 0.30 and $\alpha_{s}$ the solar absorptivity of a white
@@ -413,7 +467,10 @@ temperature of **232.8 kelvin**.
 
 Inverting for the area a given dissipation demands,
 
-$$A_{r} = \frac{Q}{\varepsilon \sigma \left( T_{r}^{4} - T_{s}^{4} \right)}$$
+$$
+A_{r} = \frac{Q}{\varepsilon \sigma \left( T_{r}^{4} - T_{s}^{4} \right)}
+\tag{19}
+$$
 
 so a kilowatt at 20 degrees Celsius needs 4.66 square metres and the same kilowatt at 40 degrees needs 3.11.
 **The fourth power is doing the work**, and a radiator that may run hotter is a radiator that may be
@@ -429,7 +486,10 @@ Flat doors of 2.1 metres by 0.6 metres give 2.52 square metres and reject **540 
 Celsius. Curved doors radiating from both faces at 40 degrees Celsius reach **1,623 watts**. Each figure is
 the door area times the net flux from the table, carried unrounded,
 
-$$Q_{\text{flat}} = 2 \times (2.1 \times 0.6) \times 214.40 = 540 \ \text{watts}, \qquad Q_{\text{curved}} = 2 \times 2.52 \times 321.935 = 1{,}623 \ \text{watts},$$
+$$
+Q_{\text{flat}} = 2 \times (2.1 \times 0.6) \times 214.40 = 540 \ \text{watts}, \qquad Q_{\text{curved}} = 2 \times 2.52 \times 321.935 = 1{,}623 \ \text{watts},
+\tag{20}
+$$
 
 where the leading factor of two counts the two doors in the first case and the two radiating faces in the
 second.
@@ -464,13 +524,19 @@ bounds agree to some precision would be claiming more than two upper bounds can 
 
 The energy drawn from the battery in one eclipse is
 
-$$E = \frac{P_{\text{load}} \, t_{E}}{\eta_{d}}$$
+$$
+E = \frac{P_{\text{load}} \, t_{E}}{\eta_{d}}
+\tag{21}
+$$
 
 which for a one kilowatt load across a 36.11 minute eclipse is **668.7 watt hours**. The installed capacity
 must exceed that by the reciprocal of the depth of discharge $\delta$, and the mass follows from the cell
 specific energy $w$,
 
-$$C = \frac{E}{\delta}, \qquad m_{b} = \frac{E}{\delta \, w} = \frac{P_{\text{load}} \, t_{E}}{\eta_{d} \, \delta \, w}.$$
+$$
+C = \frac{E}{\delta}, \qquad m_{b} = \frac{E}{\delta \, w} = \frac{P_{\text{load}} \, t_{E}}{\eta_{d} \, \delta \, w}.
+\tag{22}
+$$
 
 **The mass is inversely proportional to the depth of discharge and to nothing else that the designer controls cheaply.**
 
@@ -488,7 +554,10 @@ wants a shallow cycle, and a shallow cycle is heavy.
 invert. The standard empirical form for a secondary cell in low Earth orbit is an inverse power law between
 cycle life and depth of discharge,
 
-$$N_{\text{cyc}} \, \delta^{k} = \text{constant}, \qquad\text{equivalently}\qquad \frac{N_{\text{cyc}}}{N_{\text{ref}}} = \left( \frac{\delta_{\text{ref}}}{\delta} \right)^{k}$$
+$$
+N_{\text{cyc}} \, \delta^{k} = \text{constant}, \qquad\text{equivalently}\qquad \frac{N_{\text{cyc}}}{N_{\text{ref}}} = \left( \frac{\delta_{\text{ref}}}{\delta} \right)^{k}
+\tag{23}
+$$
 
 which the literature below establishes across several chemistries.
 
@@ -501,7 +570,10 @@ which the literature below establishes across several chemistries.
 Anchoring it at an assumed reference point of 30,000 cycles at 30 percent, the depth of discharge that a
 14,140-cycle mission admits is
 
-$$\delta = \delta_{\text{ref}} \left( \frac{N_{\text{ref}}}{N_{\text{cyc}}} \right)^{1/k}$$
+$$
+\delta = \delta_{\text{ref}} \left( \frac{N_{\text{ref}}}{N_{\text{cyc}}} \right)^{1/k}
+\tag{24}
+$$
 
 | Exponent | Admissible depth of discharge | Battery mass per kilowatt |
 |---|---|---|
@@ -514,7 +586,10 @@ $$\delta = \delta_{\text{ref}} \left( \frac{N_{\text{ref}}}{N_{\text{cyc}}} \rig
 plausible range the required depth of discharge sits between 38 and 50 percent. The two ends of the table
 are
 
-$$\delta_{k=3} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/3} = 0.385, \qquad \delta_{k=1.5} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/1.5} = 0.495,$$
+$$
+\delta_{k=3} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/3} = 0.385, \qquad \delta_{k=1.5} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/1.5} = 0.495,
+\tag{25}
+$$
 
 and the mass column is the battery relation above at $P_{\text{load}} = 1$ kilowatt and
 $w = 100$ watt hours per kilogram, for instance $m_{b} = 668.7 / (0.437 \times 100) = 15.3$ kilograms at
@@ -545,14 +620,20 @@ small fraction of a five-tonne vehicle.
 
 A vehicle in low orbit decelerates at
 
-$$a_{D} = \frac{1}{2} \rho v^{2} \frac{C_{D} A_{\text{ref}}}{m}$$
+$$
+a_{D} = \frac{1}{2} \rho v^{2} \frac{C_{D} A_{\text{ref}}}{m}
+\tag{26}
+$$
 
 and holding the orbit against that costs a velocity increment equal to the deceleration integrated over the
 mission. Writing $B = m / (C_{D} A_{\text{ref}})$ for the
 [ballistic coefficient][ref_ballistic_coefficient], so that a larger value means a vehicle less troubled by
 drag, the makeup requirement over a mission of duration $t$ is
 
-$$\Delta v = \frac{\rho v^{2}}{2 B} \, t.$$
+$$
+\Delta v = \frac{\rho v^{2}}{2 B} \, t.
+\tag{27}
+$$
 
 Density comes from a piecewise exponential model at nominal solar activity. The drag area $C_{D} A$ is taken
 as 8 square metres, which is not published. The mass is the published launch mass of 4,990 kilograms, the
@@ -561,11 +642,17 @@ for every mass in this article so
 that the drag requirement and the propellant budget that pays for it describe one vehicle. Propellant use
 lowers the mass by at most a tenth over a mission. The ballistic coefficient is then
 
-$$B = \frac{m}{C_{D} A_{\text{ref}}} = \frac{4{,}990}{8} = 623.75 \ \text{kilograms per square metre},$$
+$$
+B = \frac{m}{C_{D} A_{\text{ref}}} = \frac{4{,}990}{8} = 623.75 \ \text{kilograms per square metre},
+\tag{28}
+$$
 
 and at 400 kilometres, with $v = 7{,}668.6$ metres per second and $t = 908.88 \times 86{,}400$ seconds,
 
-$$\Delta v = \frac{3.725 \times 10^{-12} \times 7{,}668.6^{2}}{2 \times 623.75} \times 7.853 \times 10^{7} = 13.79 \ \text{metres per second}.$$
+$$
+\Delta v = \frac{3.725 \times 10^{-12} \times 7{,}668.6^{2}}{2 \times 623.75} \times 7.853 \times 10^{7} = 13.79 \ \text{metres per second}.
+\tag{29}
+$$
 
 The requirement over 908.88 days at each altitude is as follows.
 
@@ -584,13 +671,19 @@ The propellant each of those increments costs follows from inverting the
 [rocket equation][ref_rocket_equation]. Writing $m_{0}$ for the mass before the burn and $I_{sp}$ for the
 specific impulse,
 
-$$\Delta v = I_{sp} \, g_{0} \ln \frac{m_{0}}{m_{0} - m_{p}}, \qquad \frac{m_{p}}{m_{0}} = 1 - \exp\!\left( -\frac{\Delta v}{I_{sp} g_{0}} \right)$$
+$$
+\Delta v = I_{sp} \, g_{0} \ln \frac{m_{0}}{m_{0} - m_{p}}, \qquad \frac{m_{p}}{m_{0}} = 1 - \exp\!\left( -\frac{\Delta v}{I_{sp} g_{0}} \right)
+\tag{30}
+$$
 
 and read the second form for the table above.
 **A 500 kilogram hypergolic propellant load at 300 seconds specific impulse on a 4,990 kilogram vehicle buys 310.6 metres per second.**
 The first form gives it directly,
 
-$$\Delta v_{\text{budget}} = 300 \times 9.80665 \times \ln \frac{4{,}990}{4{,}990 - 500} = 2{,}942.0 \times 0.10558 = 310.6 \ \text{metres per second}.$$
+$$
+\Delta v_{\text{budget}} = 300 \times 9.80665 \times \ln \frac{4{,}990}{4{,}990 - 500} = 2{,}942.0 \times 0.10558 = 310.6 \ \text{metres per second}.
+\tag{31}
+$$
 
 Spending the entire budget on drag makeup and nothing else would sustain 908.88 days at
 **245.4 kilometres**, and spending half of it would sustain the same mission at **275.7 kilometres**.
@@ -598,7 +691,10 @@ Spending the entire budget on drag makeup and nothing else would sustain 908.88 
 The table's propellant column applies the second form to the same 4,990 kilogram mass, so that at the two
 ends of the tracked band
 
-$$m_{p}^{300} = 4{,}990 \left[ 1 - e^{-90.85 / (300 \times 9.80665)} \right] = 151.7, \qquad m_{p}^{400} = 4{,}990 \left[ 1 - e^{-13.79 / (300 \times 9.80665)} \right] = 23.3$$
+$$
+m_{p}^{300} = 4{,}990 \left[ 1 - e^{-90.85 / (300 \times 9.80665)} \right] = 151.7, \qquad m_{p}^{400} = 4{,}990 \left[ 1 - e^{-13.79 / (300 \times 9.80665)} \right] = 23.3
+\tag{32}
+$$
 
 kilograms, and the floor of 245.4 kilometres is the altitude $h^{*}$ at which the makeup requirement
 exhausts the budget, $\rho(h^{*}) \, v^{2} t / (2B) = 310.6$ metres per second.
@@ -618,7 +714,10 @@ not suit one that lets the orbit sink and recovers it later.
 **Holding 400 kilometres continuously costs 13.79 metres per second over 908.88 days. Letting the orbit decay for the whole mission and recovering at the end costs 18.47 metres per second**,
 a ratio of
 
-$$\frac{\Delta v_{\text{decay}}}{\Delta v_{\text{hold}}} = \frac{18.47}{13.79} = 1.339,$$
+$$
+\frac{\Delta v_{\text{decay}}}{\Delta v_{\text{hold}}} = \frac{18.47}{13.79} = 1.339,
+\tag{33}
+$$
 
 and the uncontrolled orbit would have fallen to **367.5 kilometres** by then. The first figure is the
 makeup relation evaluated at 400 kilometres above. The second is the same deceleration integrated along the
@@ -628,7 +727,10 @@ The relation that produces the second figure is the secular decay of the semi-ma
 acceleration $a_{D}$. Differentiating the specific energy displayed earlier and substituting the work drag
 does per unit time,
 
-$$\frac{d\mathcal{E}}{dt} = -a_{D} v = \frac{\mu}{2a^{2}} \frac{da}{dt} \qquad \Longrightarrow \qquad \frac{da}{dt} = -\frac{2 a^{2} v}{\mu} \, a_{D}$$
+$$
+\frac{d\mathcal{E}}{dt} = -a_{D} v = \frac{\mu}{2a^{2}} \frac{da}{dt} \qquad \Longrightarrow \qquad \frac{da}{dt} = -\frac{2 a^{2} v}{\mu} \, a_{D}
+\tag{34}
+$$
 
 and integrating it gives the decayed altitude.
 
@@ -648,7 +750,10 @@ Thermospheric density at a fixed altitude varies by roughly an order of magnitud
 solar maximum, and the model used above is a nominal one.
 **The makeup requirement is exactly linear in density**, since
 
-$$\Delta v = \frac{\rho v^{2}}{2 B} t \qquad \Longrightarrow \qquad \frac{\Delta v(\zeta \rho)}{\Delta v(\rho)} = \zeta$$
+$$
+\Delta v = \frac{\rho v^{2}}{2 B} t \qquad \Longrightarrow \qquad \frac{\Delta v(\zeta \rho)}{\Delta v(\rho)} = \zeta
+\tag{35}
+$$
 
 for any multiplier $\zeta$, so a bracket on the density passes straight through to a bracket on the answer
 and nothing needs recomputing. **Applying the variation to the result rather than to the model**, the drag
@@ -706,12 +811,18 @@ agency phase and has civil applications.
 The convective heat flux at a stagnation point follows the [Sutton and Graves][ref_sutton_graves]
 correlation
 
-$$\dot{q}_{s} = k \sqrt{\frac{\rho}{R_{n}}} \, v^{3}$$
+$$
+\dot{q}_{s} = k \sqrt{\frac{\rho}{R_{n}}} \, v^{3}
+\tag{36}
+$$
 
 with $k$ equal to 1.7415 times ten to the minus fourth in SI units for air, $\rho$ the free-stream density,
 $R_{n}$ the nose radius and $v$ the speed. A surface in radiative equilibrium reaches
 
-$$T_{w} = \left( \frac{\dot{q}_{s}}{\varepsilon \sigma} \right)^{1/4}.$$
+$$
+T_{w} = \left( \frac{\dot{q}_{s}}{\varepsilon \sigma} \right)^{1/4}.
+\tag{37}
+$$
 
 At a representative peak-heating condition of 7,500 metres per second and the density at 70 kilometres, the
 results are as follows.
@@ -753,20 +864,32 @@ material has to make up the difference. **TUFROC exists to relieve precisely tha
 An entry vehicle in [equilibrium glide][ref_equilibrium_glide] holds the vertical force balance, so the
 vertical component of lift makes up the difference between weight and centrifugal relief
 
-$$L \cos \phi = m \left( g - \frac{v^{2}}{r} \right)$$
+$$
+L \cos \phi = m \left( g - \frac{v^{2}}{r} \right)
+\tag{38}
+$$
 
 where $\phi$ is the bank angle. The remaining horizontal component turns the velocity vector at
 
-$$\frac{d\psi}{dt} = \frac{\left( g - v^{2}/r \right) \tan \phi}{v}$$
+$$
+\frac{d\psi}{dt} = \frac{\left( g - v^{2}/r \right) \tan \phi}{v}
+\tag{39}
+$$
 
 while the deceleration is the lift divided by the lift-to-drag ratio
 
-$$\frac{dv}{dt} = -\frac{1}{L/D} \cdot \frac{g - v^{2}/r}{\cos \phi}.$$
+$$
+\frac{dv}{dt} = -\frac{1}{L/D} \cdot \frac{g - v^{2}/r}{\cos \phi}.
+\tag{40}
+$$
 
 **Dividing the first by the second removes the altitude term entirely**, because both carry the same factor,
 and what remains is
 
-$$\frac{d\psi}{dv} = -\frac{(L/D) \sin \phi}{v}, \qquad \Delta\psi = (L/D) \sin \phi \, \ln\!\left( \frac{v_{i}}{v_{f}} \right).$$
+$$
+\frac{d\psi}{dv} = -\frac{(L/D) \sin \phi}{v}, \qquad \Delta\psi = (L/D) \sin \phi \, \ln\!\left( \frac{v_{i}}{v_{f}} \right).
+\tag{41}
+$$
 
 **The heading a vehicle can turn during entry depends on its lift-to-drag ratio, its bank angle and the ratio of entry speed to terminal speed, and on nothing else.**
 Not on its mass, not on its wing area, not on the density of the atmosphere it flies through. At a
@@ -796,11 +919,17 @@ The heading identity gives the direction but not the displacement, and for that 
 integrated. Working in the velocity domain, where the equilibrium-glide deceleration supplies the element of
 time,
 
-$$dt = -\frac{dv}{a_{D}}, \qquad a_{D} = \frac{1}{L/D} \cdot \frac{g - v^{2}/r}{\cos \phi}$$
+$$
+dt = -\frac{dv}{a_{D}}, \qquad a_{D} = \frac{1}{L/D} \cdot \frac{g - v^{2}/r}{\cos \phi}
+\tag{42}
+$$
 
 the crossrange and downrange are the two components of the ground track,
 
-$$y = \int_{v_{f}}^{v_{i}} \frac{v \sin \psi(v)}{a_{D}(v)} \, dv, \qquad x = \int_{v_{f}}^{v_{i}} \frac{v \cos \psi(v)}{a_{D}(v)} \, dv$$
+$$
+y = \int_{v_{f}}^{v_{i}} \frac{v \sin \psi(v)}{a_{D}(v)} \, dv, \qquad x = \int_{v_{f}}^{v_{i}} \frac{v \cos \psi(v)}{a_{D}(v)} \, dv
+\tag{43}
+$$
 
 with $\psi(v)$ taken from the identity above.
 **Unlike the heading, the displacement does not shed the altitude term**, because the deceleration appears
@@ -827,7 +956,10 @@ Force's wish to return to Vandenberg after a single orbit \[[The Space Shuttle D
 Taking a hypersonic lift-to-drag ratio near 1.1 as representative of the orbiter, the table's row at that ratio
 converts as
 
-$$y = \frac{1{,}397.8 \ \text{km}}{1.852 \ \text{km per nautical mile}} = 754.7 \ \text{nautical miles}, \qquad \frac{754.7}{1{,}100} = 0.686 .$$
+$$
+y = \frac{1{,}397.8 \ \text{km}}{1.852 \ \text{km per nautical mile}} = 754.7 \ \text{nautical miles}, \qquad \frac{754.7}{1{,}100} = 0.686 .
+\tag{44}
+$$
 
 **This model returns 755 nautical miles at the same ratio, 0.686 of the requirement, a shortfall that is expected and gives no cause for concern.**
 A single constant bank angle is not the optimal control and a real entry modulates it, so a constant-bank
@@ -840,7 +972,10 @@ The crossrange is also insensitive to the terminal speed at which the glide is d
 because the terminal speed is a modelling choice and is not measured. Both figures are the crossrange
 integral above re-evaluated with $v_{f}$ changed, and their spread relative to the 900 metre per second case is
 
-$$\frac{y(700) - y(1{,}200)}{y(900)} = \frac{1{,}411 - 1{,}371}{1{,}397.8} = 0.029 .$$
+$$
+\frac{y(700) - y(1{,}200)}{y(900)} = \frac{1{,}411 - 1{,}371}{1{,}397.8} = 0.029 .
+\tag{45}
+$$
 
 - [Levinsky 1962][research_levinsky_1962]
 - [Bryson and Denham 1962][research_bryson_denham_1962]
@@ -918,7 +1053,10 @@ enough for orbit maintenance, modest phasing and a deorbit burn, and is nowhere 
 change of any consequence. Two circular orbits of the same radius carry the same speed, so the increment
 between them closes an isosceles triangle and costs
 
-$$\Delta v = 2 v \sin\!\left( \frac{\Delta i}{2} \right).$$
+$$
+\Delta v = 2 v \sin\!\left( \frac{\Delta i}{2} \right).
+\tag{46}
+$$
 
 **A change from 40 degrees to 54.5 degrees at 400 kilometres therefore costs 1,935.5 metres per second**,
 or **6.23 times** the whole propulsive budget, so the differing inclinations between missions are
@@ -947,12 +1085,18 @@ turns in a cylindrical corridor around the runway, and an approach and landing p
 fixed energy budget. Two relations set the size of the problem. A glide trades height for distance at the
 lift-to-drag ratio,
 
-$$R = \left( \frac{L}{D} \right) h$$
+$$
+R = \left( \frac{L}{D} \right) h
+\tag{47}
+$$
 
 which carries no mass, no wing area and no air density, and the total available is the specific energy
 expressed as a height,
 
-$$h_{E} = h + \frac{v^{2}}{2 g}.$$
+$$
+h_{E} = h + \frac{v^{2}}{2 g}.
+\tag{48}
+$$
 
 At 30 kilometres and 900 metres per second the energy height is **71.30 kilometres** while a straight glide
 at a subsonic lift-to-drag ratio of 4.5 covers **135 kilometres**.
@@ -986,7 +1130,10 @@ the Kennedy Space Center with no human in the loop at all.
 Comparing two vehicles that are not geometrically similar is best done by measuring the exponent that
 relates them. For a quantity $Q$ and a length $\ell$,
 
-$$Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} / Q_{2} \right)}{\ln \left( \ell_{1} / \ell_{2} \right)}$$
+$$
+Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} / Q_{2} \right)}{\ln \left( \ell_{1} / \ell_{2} \right)}
+\tag{49}
+$$
 
 and geometric similarity would give $n = 3$ for both a volume and a mass at constant density.
 
@@ -1000,7 +1147,10 @@ square-cube penalty in its clearest form. A geometrically similar orbiter scaled
 mass **1,072 kilograms**. The X-37B masses 4,990, a factor of **4.655**. Both follow from the cube of the
 length ratio,
 
-$$m_{\text{similar}} = 78{,}000 \left( \frac{8.92}{37.24} \right)^{3} = 1{,}072 \ \text{kilograms}, \qquad \frac{4{,}990}{1{,}072} = 4.655 .$$
+$$
+m_{\text{similar}} = 78{,}000 \left( \frac{8.92}{37.24} \right)^{3} = 1{,}072 \ \text{kilograms}, \qquad \frac{4{,}990}{1{,}072} = 4.655 .
+\tag{50}
+$$
 
 - [Blackstock 1970][research_blackstock_1970]
 - [Design criteria and candidate electrical power systems for a...][research_merrifielddv_1972]
@@ -1014,7 +1164,10 @@ and actuators barely scale at all, and structure cannot thin below minimum gauge
 carries a fixed overhead that the payload bay pays for. The [published payload capacity][ref_x37] of 227
 kilograms, against the launch mass of 4,990 kilograms, is a payload fraction of
 
-$$\frac{m_{\text{payload}}}{m_{\text{launch}}} = \frac{227}{4{,}990} = 4.55 \ \text{percent}.$$
+$$
+\frac{m_{\text{payload}}}{m_{\text{launch}}} = \frac{227}{4{,}990} = 4.55 \ \text{percent}.
+\tag{51}
+$$
 
 **This is a vehicle whose reusable airframe, thermal protection, power system and autonomy consume almost the entire mass budget, leaving a payload fraction that would embarrass an expendable upper stage.**
 That is not a criticism. It is the definition of what the vehicle is for.
@@ -1057,7 +1210,10 @@ seventh mission was also the only one flown in a highly elliptical orbit \[[Boei
 **The number that matters operationally is not the longest mission but the duty cycle.** The first launch
 and the seventh landing are 5,433 days apart, so
 
-$$\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.57}{5{,}433} = 77.46 \text{ percent}$$
+$$
+\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.57}{5{,}433} = 77.46 \text{ percent}
+\tag{52}
+$$
 
 **For more than three quarters of fifteen years an X-37B has been in orbit**, on two airframes, and the
 individual durations add up to that claim.
@@ -1076,7 +1232,10 @@ OTV-7 launched into a highly elliptical orbit, catalogued with a perigee of 336 
 37,895 kilometres and an inclination of 59.27 degrees \[[General Catalog of Artificial Space Objects][ref_gcat]\]. The two apsides fix the orbit
 completely,
 
-$$a = \frac{r_{p} + r_{a}}{2}, \qquad e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}}, \qquad p = a \left( 1 - e^{2} \right)$$
+$$
+a = \frac{r_{p} + r_{a}}{2}, \qquad e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}}, \qquad p = a \left( 1 - e^{2} \right)
+\tag{53}
+$$
 
 giving a semi-major axis of **25,494 kilometres**, an eccentricity of **0.7366** and, through Kepler's third
 law, a period of **11.25 hours**. **No previous X-37B mission had left low Earth orbit** \[[Boeing X-37][ref_x37]\].
@@ -1098,13 +1257,19 @@ and its rarity is the reason to take it seriously.
 
 The speed at any point on an orbit follows from the [vis-viva][ref_vis_viva] relation
 
-$$v = \sqrt{\mu \left( \frac{2}{r} - \frac{1}{a} \right)}$$
+$$
+v = \sqrt{\mu \left( \frac{2}{r} - \frac{1}{a} \right)}
+\tag{54}
+$$
 
 which gives a perigee speed of **10.1538 kilometres per second** on the elliptical orbit against
 **7.7050 kilometres per second** for a circular orbit at the same altitude. Circularising propulsively at
 perigee therefore costs
 
-$$\Delta v = v_{p} - v_{c} = 2{,}448.8 \text{ metres per second}.$$
+$$
+\Delta v = v_{p} - v_{c} = 2{,}448.8 \text{ metres per second}.
+\tag{55}
+$$
 
 **The vehicle's entire propulsive budget, on the 500 kilogram assumption used throughout, is 310.6 metres per second.**
 The manoeuvre the atmosphere performed is **7.88 times** everything the engine could have done.
@@ -1115,11 +1280,18 @@ the vehicle moves slowest and a given impulse moves the opposite apsis furthest,
 $r_{a}$ fixed at 44,273.1 kilometres and the semi-major axis falling by half the perigee change, from
 25,493.6 to 25,375.6 kilometres,
 
-$$\Delta v_{\text{lower}} = \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}493.6} \right)} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}375.6} \right)} = 1{,}539.85 - 1{,}516.06 = 23.79 \ \text{metres per second}.$$
+$$
+\Delta v_{\text{lower}} = \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}493.6} \right)} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}375.6} \right)} = 1{,}539.85 - 1{,}516.06 = 23.79 \ \text{metres per second}.
+\tag{56}
+$$
 
 That purchase then takes 2,449 metres per second from the atmosphere, a **leverage of 103 to one**,
 
-$$\frac{v_{p} - v_{c}}{\Delta v_{\text{lower}}} = \frac{2{,}448.8}{23.79} = 102.9 .$$
+$$
+\frac{v_{p} - v_{c}}{\Delta v_{\text{lower}}} = \frac{2{,}448.8}{23.79} = 102.9 .
+\tag{57}
+$$
+
 **That ratio is the entire argument for aerobraking, and it needs no opinion to support it.**
 
 ### A Feasibility Estimate That Was Wrong, and the Calculation That Overturned It
@@ -1128,13 +1300,19 @@ Drag removes velocity at each perigee passage. The decrement is the drag deceler
 arc, and taking the true anomaly $\nu$ as the independent variable keeps the quadrature well conditioned
 near perigee where the whole contribution lies,
 
-$$\Delta v_{\text{pass}} = \int \frac{\rho(r) \, v^{2}}{2 B} \, dt = \int_{-\nu_{0}}^{\nu_{0}} \frac{\rho(r) \, v^{2}}{2 B} \cdot \frac{r^{2}}{\sqrt{\mu p}} \, d\nu$$
+$$
+\Delta v_{\text{pass}} = \int \frac{\rho(r) \, v^{2}}{2 B} \, dt = \int_{-\nu_{0}}^{\nu_{0}} \frac{\rho(r) \, v^{2}}{2 B} \cdot \frac{r^{2}}{\sqrt{\mu p}} \, d\nu
+\tag{58}
+$$
 
 where $\sqrt{\mu p}$ is the specific angular momentum and $r$ follows the conic $r = p / (1 + e \cos \nu)$.
 Each pass leaves the perigee where it is and lowers the apogee, and the new apogee follows from the reduced
 perigee speed through the vis-viva relation inverted for the semi-major axis,
 
-$$a' = \left( \frac{2}{r_{p}} - \frac{(v_{p} - \Delta v_{\text{pass}})^{2}}{\mu} \right)^{-1}, \qquad r_{a}' = 2 a' - r_{p}.$$
+$$
+a' = \left( \frac{2}{r_{p}} - \frac{(v_{p} - \Delta v_{\text{pass}})^{2}}{\mu} \right)^{-1}, \qquad r_{a}' = 2 a' - r_{p}.
+\tag{59}
+$$
 
 - [Analysis of the Fully Numerical Predictor-Corrector...][research_juliambriden_danielamatz]
 - [Moses et al][research_rwmoses_jsgreen]
@@ -1157,7 +1335,10 @@ Aerobraking was announced in October 2024 and the vehicle landed on 7 March 2025
 available. At the initial 11.25 hour period that is about **320 passes**, which would demand
 **7.65 metres per second** per pass,
 
-$$N = \frac{150 \times 24}{11.253} = 319.9, \qquad \frac{2{,}448.8}{319.9} = 7.65 \ \text{metres per second},$$
+$$
+N = \frac{150 \times 24}{11.253} = 319.9, \qquad \frac{2{,}448.8}{319.9} = 7.65 \ \text{metres per second},
+\tag{60}
+$$
 
 and no perigee in that table delivers it above the entry interface.
 
@@ -1174,7 +1355,10 @@ Running the walk-down properly, with the orbit updated after every pass, gives a
 **A perigee near 100 kilometres fits the calendar and the ones above it do not.** Against the roughly 150
 days available, the walk-down times at 100 and 110 kilometres fall on either side,
 
-$$99.7 \ \text{days} \;<\; 150 \ \text{days} \;<\; 480.7 \ \text{days}.$$
+$$
+99.7 \ \text{days} \;<\; 150 \ \text{days} \;<\; 480.7 \ \text{days}.
+\tag{61}
+$$
 
 The fixed-period estimate
 said the manoeuvre was infeasible at every perigee, and it was wrong, because it held constant the one
@@ -1196,7 +1380,10 @@ radius is **25.74 watts per square centimetre** and the radiative equilibrium te
 correlation with the model density of $5.297 \times 10^{-7}$ kilograms per cubic metre at 100 kilometres, and
 the radiative balance at an emissivity of 0.85, give
 
-$$\dot{q}_{s} = 1.7415 \times 10^{-4} \sqrt{\frac{5.297 \times 10^{-7}}{0.30}} \, (10{,}361.1)^{3} = 2.574 \times 10^{5} \ \text{W/m}^{2}, \qquad T_{w} = \left( \frac{\dot{q}_{s}}{0.85 \, \sigma} \right)^{1/4} = 1{,}520 \ \text{K},$$
+$$
+\dot{q}_{s} = 1.7415 \times 10^{-4} \sqrt{\frac{5.297 \times 10^{-7}}{0.30}} \, (10{,}361.1)^{3} = 2.574 \times 10^{5} \ \text{W/m}^{2}, \qquad T_{w} = \left( \frac{\dot{q}_{s}}{0.85 \, \sigma} \right)^{1/4} = 1{,}520 \ \text{K},
+\tag{62}
+$$
 
 and the ratio to the full-entry flux at the same nose radius is $25.74 / 125.62 = 0.205$.
 **The vehicle is not reentering five hundred and seventy-nine times. It is grazing.**
@@ -1207,7 +1394,10 @@ A spacecraft built to aerobrake makes itself as light and as broad as it can, an
 proportionality rather than a preference. The drag integral carries the ballistic coefficient as a single
 divisor, so
 
-$$\Delta v_{\text{pass}} \propto \frac{1}{B} \qquad \Longrightarrow \qquad N_{\text{passes}} \propto B$$
+$$
+\Delta v_{\text{pass}} \propto \frac{1}{B} \qquad \Longrightarrow \qquad N_{\text{passes}} \propto B
+\tag{63}
+$$
 
 at a fixed perigee.
 **Halving the ballistic coefficient halves the number of passes, and at a fixed orbital period it halves the calendar.**
@@ -1216,7 +1406,10 @@ of 37.5 square metres at a pre-aerobraking mass of about 1,400 kilograms
 \[[Mars Reconnaissance Orbiter Operational Aerobraking Phase Assessment][ref_mro_aerobraking]\]. With a drag
 coefficient of 2.0, assumed here as typical of free molecular flow and not taken from that source,
 
-$$B_{\text{MRO}} = \frac{1{,}400}{2.0 \times 37.5} = 18.7 \ \text{kilograms per square metre}, \qquad \frac{B_{\text{X-37B}}}{B_{\text{MRO}}} = \frac{623.75}{18.67} = 33.4 .$$
+$$
+B_{\text{MRO}} = \frac{1{,}400}{2.0 \times 37.5} = 18.7 \ \text{kilograms per square metre}, \qquad \frac{B_{\text{X-37B}}}{B_{\text{MRO}}} = \frac{623.75}{18.67} = 33.4 .
+\tag{64}
+$$
 
 **The X-37B, a dense body with a small array, sits near 624**, a ratio of **33.4**.
 
@@ -2521,6 +2714,592 @@ with published dimensions, public orbital elements and a textbook can recover th
 budget, its endurance mechanism and the arithmetic of its most novel manoeuvre.
 **What that analyst cannot recover is the only thing the programme was built to do**, and the gap fairly
 summarises what classification achieves and what it costs.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 64 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 64, 46 are established and 18 are bespoke.
+All relations are evaluated in the International System, with altitudes and orbital radii quoted in kilometres and heat fluxes in watts per square centimetre in the tables, and the article's own notation table resolves the colliding symbols, so $\mathcal{E}$ is the specific orbital energy while $\varepsilon$ is the emissivity, $a$ is the semi-major axis, $\delta$ is the depth of discharge while $\delta_{\odot}$ is the solar declination, $T$ is the orbital period while every temperature carries a subscript, and $N_{\text{orb}}$ and $N_{\text{cyc}}$ are counted separately though shown to coincide.
+
+**Equation 1, Specific Energy of a Keplerian Orbit.**
+The specific orbital energy is the kinetic less the potential energy per unit mass and depends only on the semi-major axis.
+
+$$
+\mathcal{E} = \frac{v^{2}}{2} - \frac{\mu}{r} = -\frac{\mu}{2a}
+\tag{1}
+$$
+
+**Equation 2, Reciprocals of the Published Scale Factors.**
+The reciprocal of the 80 percent figure is 1.25 and that of the 120 percent figure is 0.833, so the two published ratios are not reciprocals of each other.
+[Boeing X-37][ref_x37]
+
+$$
+\frac{1}{0.80} = 1.25, \qquad \frac{1}{1.20} = 0.833,
+\tag{2}
+$$
+
+**Equation 3, Period of a Circular Orbit.**
+The period of a circular orbit is two pi times the square root of the cube of the radius over the gravitational parameter.
+[orbital period][ref_orbital_period]
+
+$$
+T = 2\pi \sqrt{\frac{r^{3}}{\mu}}
+\tag{3}
+$$
+
+**Equation 4, Circular Orbital Speed.**
+The circular speed is the square root of the gravitational parameter over the radius.
+[orbital period][ref_orbital_period]
+
+$$
+v_{c} = \sqrt{\frac{\mu}{r}}
+\tag{4}
+$$
+
+**Equation 5, Eclipse Fraction of a Circular Orbit in a Cylindrical Shadow.**
+Treating the shadow as a cylinder, which neglects the penumbra, the fraction of the orbit in eclipse follows from the radius, the Earth radius and the beta angle.
+[beta angle][ref_beta_angle]
+
+$$
+f_{E} = \frac{1}{\pi} \arccos\!\left( \frac{\sqrt{r^{2} - R_{\oplus}^{2}}}{r \cos \beta} \right)
+\tag{5}
+$$
+
+**Equation 6, Beta Angle Above Which Eclipse Vanishes.**
+The eclipse vanishes when the beta angle exceeds the inverse sine of the Earth radius over the orbital radius.
+[beta angle][ref_beta_angle]
+
+$$
+\beta > \beta^{*} = \arcsin\!\left( \frac{R_{\oplus}}{r} \right)
+\tag{6}
+$$
+
+**Equation 7, Largest Reachable Beta Angle.**
+The largest beta angle at an inclination is the inclination plus the obliquity of the ecliptic, which for the catalogued inclinations stays below the full-sun threshold.
+[General Catalog of Artificial Space Objects][ref_gcat]
+
+$$
+\beta_{\max} = i + 23.44^{\circ}, \qquad 43.49^{\circ} + 23.44^{\circ} = 66.93^{\circ}, \qquad 45.08^{\circ} + 23.44^{\circ} = 68.52^{\circ} \;<\; \beta^{*} = 70.22^{\circ},
+\tag{7}
+$$
+
+*Equation 8, Bespoke Mean Eclipse Fraction Over Node and Season.*
+The eclipse fraction is averaged over a uniform grid of 720 node positions and 60 solar longitudes, a sampling the article constructs.
+
+$$
+\bar{f}_{E} = \frac{1}{J K} \sum_{j=1}^{J} \sum_{k=1}^{K} f_{E}\!\left( \beta(\Omega_{j}, \lambda_{k}) \right), \qquad J = 720, \quad K = 60,
+\tag{8}
+$$
+
+**Equation 9, Nodal Regression Due to the Second Zonal Harmonic.**
+The dominant secular effect of the Earth's oblateness regresses the ascending node of a near-circular orbit at a rate set by the second zonal harmonic, the radius and the inclination.
+
+$$
+\dot{\Omega} = -\frac{3}{2} J_{2} \left( \frac{R_{\oplus}}{p} \right)^{2} \sqrt{\frac{\mu}{a^{3}}} \, \cos i
+\tag{9}
+$$
+
+**Equation 10, Beta Angle From the Sun Vector and Orbit Normal.**
+The sine of the beta angle follows from the solar declination and right ascension, the inclination and the node.
+
+$$
+\sin \beta = \cos \delta_{\odot} \sin i \sin(\Omega - \alpha_{\odot}) + \sin \delta_{\odot} \cos i
+\tag{10}
+$$
+
+**Equation 11, Beat Period of the Beta Angle.**
+The beta angle geometry repeats at the beat between the nodal regression and the Sun's annual motion.
+
+$$
+T_{\beta} = \frac{360^{\circ}}{\lvert \dot{\Omega} - \dot{\lambda}_{\odot} \rvert}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Orbit Count of the Sixth Mission.*
+The published mission duration over the period of a circular orbit at 400 kilometres, the representative altitude the article takes for the catalogued orbit, gives 14,140 orbits.
+
+$$
+N_{\text{orb}} = \frac{t_{\text{mission}}}{T} = \frac{908.88 \times 86{,}400}{5{,}553.6} = 14{,}140
+\tag{12}
+$$
+
+**Equation 13, Planform Area of the Payload Bay.**
+The published bay dimensions of 2.1 by 1.2 metres give 2.52 square metres.
+[Boeing X-37][ref_x37]
+
+$$
+A_{\text{bay}} = 2.1 \times 1.2 = 2.52 \ \text{square metres}.
+\tag{13}
+$$
+
+**Equation 14, Power of a Sun-Pointed Array.**
+A sun-pointed array generates the solar constant times its area times the cell efficiency times the packing factor.
+
+$$
+P_{\text{array}} = S \, A \, \eta \, \kappa
+\tag{14}
+$$
+
+**Equation 15, Array to Load Power Ratio With Eclipse Recharge.**
+An array carrying a continuous load must also recharge the battery in sunlight, so its power exceeds the load by a term in the eclipse fraction and the charge and discharge efficiencies.
+
+$$
+\frac{P_{\text{array}}}{P_{\text{load}}} = 1 + \frac{f_{E}}{(1 - f_{E})\,\eta_{c}\,\eta_{d}}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Continuous Load Supported by a Six Square Metre Array.*
+The load is evaluated for an assumed array of six square metres, cell efficiency of 0.30, packing factor of 0.85 and charge and discharge efficiencies of 0.90.
+
+$$
+P_{\text{load}} = \frac{S \, A \, \eta \, \kappa}{P_{\text{array}} / P_{\text{load}}} = \frac{1{,}361 \times 6 \times 0.30 \times 0.85}{1.7896} = \frac{2{,}082.3}{1.7896} = 1{,}164 \ \text{watts},
+\tag{16}
+$$
+
+**Equation 17, Net Radiative Flux From a Radiator.**
+A radiator rejects its emissivity times the Stefan-Boltzmann constant times the difference of the fourth powers of its temperature and the sink temperature.
+[Stefan-Boltzmann constant][ref_stefan_boltzmann]
+
+$$
+q = \varepsilon \sigma \left( T_{r}^{4} - T_{s}^{4} \right)
+\tag{17}
+$$
+
+**Equation 18, Effective Sink Temperature Near the Earth.**
+The sink temperature follows from the balance of emitted radiation against absorbed outgoing longwave flux and reflected sunlight over the view factor to the Earth.
+[Stefan-Boltzmann constant][ref_stefan_boltzmann]
+
+$$
+T_{s} = \left( \frac{F \left( \varepsilon q_{\text{IR}} + \alpha_{\oplus} \alpha_{s} S \right)}{\varepsilon \sigma} \right)^{1/4}
+\tag{18}
+$$
+
+**Equation 19, Radiator Area for a Given Dissipation.**
+Inverting the net flux gives the radiator area a given dissipation demands.
+
+$$
+A_{r} = \frac{Q}{\varepsilon \sigma \left( T_{r}^{4} - T_{s}^{4} \right)}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Heat Rejected by the Payload Bay Doors.*
+The door rejection uses an assumed emissivity of 0.85, a sink temperature from an assumed view factor of one half, and assumed radiator temperatures of 20 and 40 degrees Celsius.
+
+$$
+Q_{\text{flat}} = 2 \times (2.1 \times 0.6) \times 214.40 = 540 \ \text{watts}, \qquad Q_{\text{curved}} = 2 \times 2.52 \times 321.935 = 1{,}623 \ \text{watts},
+\tag{20}
+$$
+
+**Equation 21, Battery Energy Drawn in One Eclipse.**
+The energy drawn from the battery is the load times the eclipse duration over the discharge efficiency.
+
+$$
+E = \frac{P_{\text{load}} \, t_{E}}{\eta_{d}}
+\tag{21}
+$$
+
+**Equation 22, Installed Capacity and Battery Mass.**
+The installed capacity is the energy drawn over the depth of discharge, and the mass is that capacity over the cell specific energy.
+
+$$
+C = \frac{E}{\delta}, \qquad m_{b} = \frac{E}{\delta \, w} = \frac{P_{\text{load}} \, t_{E}}{\eta_{d} \, \delta \, w}.
+\tag{22}
+$$
+
+**Equation 23, Inverse Power Law of Cycle Life.**
+The standard empirical form for a secondary cell in low Earth orbit makes cycle life inversely proportional to a power of the depth of discharge.
+[Rickman][research_stevenlrickman]
+
+$$
+N_{\text{cyc}} \, \delta^{k} = \text{constant}, \qquad\text{equivalently}\qquad \frac{N_{\text{cyc}}}{N_{\text{ref}}} = \left( \frac{\delta_{\text{ref}}}{\delta} \right)^{k}
+\tag{23}
+$$
+
+**Equation 24, Admissible Depth of Discharge for a Cycle Count.**
+Inverting the power law gives the depth of discharge that a required cycle count admits relative to a reference point.
+
+$$
+\delta = \delta_{\text{ref}} \left( \frac{N_{\text{ref}}}{N_{\text{cyc}}} \right)^{1/k}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Admissible Depth of Discharge for the Sixth Mission.*
+The power law is anchored at an assumed reference of 30,000 cycles at 30 percent and evaluated at the extreme exponents of 1.5 and 3.
+
+$$
+\delta_{k=3} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/3} = 0.385, \qquad \delta_{k=1.5} = 0.30 \left( \frac{30{,}000}{14{,}140} \right)^{1/1.5} = 0.495,
+\tag{25}
+$$
+
+**Equation 26, Drag Deceleration.**
+The drag deceleration is the dynamic pressure times the drag coefficient and reference area over the mass.
+[ballistic coefficient][ref_ballistic_coefficient]
+
+$$
+a_{D} = \frac{1}{2} \rho v^{2} \frac{C_{D} A_{\text{ref}}}{m}
+\tag{26}
+$$
+
+**Equation 27, Drag Makeup Over a Mission.**
+Holding the orbit at constant density costs the dynamic pressure over the ballistic coefficient, multiplied by the mission duration.
+[ballistic coefficient][ref_ballistic_coefficient]
+
+$$
+\Delta v = \frac{\rho v^{2}}{2 B} \, t.
+\tag{27}
+$$
+
+*Equation 28, Bespoke Ballistic Coefficient of the X-37B.*
+The published launch mass is divided by a drag area of eight square metres that the article assumes.
+[Boeing X-37][ref_x37]
+
+$$
+B = \frac{m}{C_{D} A_{\text{ref}}} = \frac{4{,}990}{8} = 623.75 \ \text{kilograms per square metre},
+\tag{28}
+$$
+
+*Equation 29, Bespoke Drag Makeup at 400 Kilometres.*
+The makeup over the sixth mission is evaluated with the assumed ballistic coefficient and a nominal piecewise exponential density model.
+
+$$
+\Delta v = \frac{3.725 \times 10^{-12} \times 7{,}668.6^{2}}{2 \times 623.75} \times 7.853 \times 10^{7} = 13.79 \ \text{metres per second}.
+\tag{29}
+$$
+
+**Equation 30, Tsiolkovsky Rocket Equation and Propellant Fraction.**
+The velocity increment is the effective exhaust velocity times the logarithm of the mass ratio, and inverting it gives the propellant fraction.
+[rocket equation][ref_rocket_equation]
+
+$$
+\Delta v = I_{sp} \, g_{0} \ln \frac{m_{0}}{m_{0} - m_{p}}, \qquad \frac{m_{p}}{m_{0}} = 1 - \exp\!\left( -\frac{\Delta v}{I_{sp} g_{0}} \right)
+\tag{30}
+$$
+
+*Equation 31, Bespoke Propulsive Budget of the X-37B.*
+The rocket equation is evaluated for a propellant load of 500 kilograms at a specific impulse of 300 seconds, both values the article assumes.
+[rocket equation][ref_rocket_equation]
+
+$$
+\Delta v_{\text{budget}} = 300 \times 9.80665 \times \ln \frac{4{,}990}{4{,}990 - 500} = 2{,}942.0 \times 0.10558 = 310.6 \ \text{metres per second}.
+\tag{31}
+$$
+
+*Equation 32, Bespoke Propellant for Drag Makeup at 300 and 400 Kilometres.*
+The propellant fraction is evaluated at the assumed specific impulse for the makeup increments that rest on the assumed ballistic coefficient.
+
+$$
+m_{p}^{300} = 4{,}990 \left[ 1 - e^{-90.85 / (300 \times 9.80665)} \right] = 151.7, \qquad m_{p}^{400} = 4{,}990 \left[ 1 - e^{-13.79 / (300 \times 9.80665)} \right] = 23.3
+\tag{32}
+$$
+
+*Equation 33, Bespoke Penalty of Letting the Orbit Decay.*
+The ratio of the makeup for a decaying orbit to that for a held orbit rests on the assumed ballistic coefficient and the nominal density model.
+
+$$
+\frac{\Delta v_{\text{decay}}}{\Delta v_{\text{hold}}} = \frac{18.47}{13.79} = 1.339,
+\tag{33}
+$$
+
+**Equation 34, Secular Decay of the Semi-Major Axis Under Drag.**
+Equating the rate of change of orbital energy to the work done by drag gives the rate at which the semi-major axis decays.
+
+$$
+\frac{d\mathcal{E}}{dt} = -a_{D} v = \frac{\mu}{2a^{2}} \frac{da}{dt} \qquad \Longrightarrow \qquad \frac{da}{dt} = -\frac{2 a^{2} v}{\mu} \, a_{D}
+\tag{34}
+$$
+
+**Equation 35, Linearity of the Makeup in Density.**
+Because the makeup requirement is linear in density, scaling the density by a multiplier scales the requirement by the same multiplier.
+
+$$
+\Delta v = \frac{\rho v^{2}}{2 B} t \qquad \Longrightarrow \qquad \frac{\Delta v(\zeta \rho)}{\Delta v(\rho)} = \zeta
+\tag{35}
+$$
+
+**Equation 36, Sutton and Graves Stagnation-Point Heat Flux.**
+The convective stagnation-point flux is a constant times the square root of density over nose radius times the cube of speed.
+[Sutton and Graves][ref_sutton_graves]
+
+$$
+\dot{q}_{s} = k \sqrt{\frac{\rho}{R_{n}}} \, v^{3}
+\tag{36}
+$$
+
+**Equation 37, Radiative Equilibrium Wall Temperature.**
+A surface in radiative equilibrium reaches the fourth root of the heat flux over the emissivity times the Stefan-Boltzmann constant.
+
+$$
+T_{w} = \left( \frac{\dot{q}_{s}}{\varepsilon \sigma} \right)^{1/4}.
+\tag{37}
+$$
+
+**Equation 38, Vertical Force Balance in Equilibrium Glide.**
+In equilibrium glide the vertical component of lift balances weight less centrifugal relief.
+[equilibrium glide][ref_equilibrium_glide]
+
+$$
+L \cos \phi = m \left( g - \frac{v^{2}}{r} \right)
+\tag{38}
+$$
+
+**Equation 39, Heading Rate in Equilibrium Glide.**
+The horizontal component of lift turns the velocity vector at a rate set by the bank angle and the gravity less centrifugal term.
+[equilibrium glide][ref_equilibrium_glide]
+
+$$
+\frac{d\psi}{dt} = \frac{\left( g - v^{2}/r \right) \tan \phi}{v}
+\tag{39}
+$$
+
+**Equation 40, Deceleration in Equilibrium Glide.**
+The deceleration is the lift divided by the lift-to-drag ratio, expressed through the vertical balance.
+
+$$
+\frac{dv}{dt} = -\frac{1}{L/D} \cdot \frac{g - v^{2}/r}{\cos \phi}.
+\tag{40}
+$$
+
+**Equation 41, Heading Change Independent of Altitude.**
+At constant lift-to-drag ratio and bank angle, dividing the heading rate by the deceleration removes the altitude term, so the heading change depends only on those two and the speed ratio.
+
+$$
+\frac{d\psi}{dv} = -\frac{(L/D) \sin \phi}{v}, \qquad \Delta\psi = (L/D) \sin \phi \, \ln\!\left( \frac{v_{i}}{v_{f}} \right).
+\tag{41}
+$$
+
+**Equation 42, Time Element in the Velocity Domain.**
+The equilibrium-glide deceleration supplies the element of time as a function of speed.
+
+$$
+dt = -\frac{dv}{a_{D}}, \qquad a_{D} = \frac{1}{L/D} \cdot \frac{g - v^{2}/r}{\cos \phi}
+\tag{42}
+$$
+
+**Equation 43, Crossrange and Downrange Integrals.**
+The crossrange and downrange are the two components of the ground track integrated over speed.
+
+$$
+y = \int_{v_{f}}^{v_{i}} \frac{v \sin \psi(v)}{a_{D}(v)} \, dv, \qquad x = \int_{v_{f}}^{v_{i}} \frac{v \cos \psi(v)}{a_{D}(v)} \, dv
+\tag{43}
+$$
+
+*Equation 44, Bespoke Constant-Bank Crossrange Against the Shuttle Requirement.*
+Taking a hypersonic lift-to-drag ratio of 1.1 as representative of the orbiter, the constant-bank crossrange is 0.686 of the 1,100 nautical mile requirement.
+[The Space Shuttle Decision][ref_shuttle_decision]
+
+$$
+y = \frac{1{,}397.8 \ \text{km}}{1.852 \ \text{km per nautical mile}} = 754.7 \ \text{nautical miles}, \qquad \frac{754.7}{1{,}100} = 0.686 .
+\tag{44}
+$$
+
+*Equation 45, Bespoke Sensitivity of Crossrange to the Terminal Speed.*
+Moving the terminal speed, a modelling choice the article makes, from 700 to 1,200 metres per second changes the crossrange by 2.9 percent.
+
+$$
+\frac{y(700) - y(1{,}200)}{y(900)} = \frac{1{,}411 - 1{,}371}{1{,}397.8} = 0.029 .
+\tag{45}
+$$
+
+**Equation 46, Plane Change Between Circular Orbits.**
+Two circular orbits of equal radius are joined by an isosceles velocity triangle, so the plane change costs twice the speed times the sine of half the inclination change.
+
+$$
+\Delta v = 2 v \sin\!\left( \frac{\Delta i}{2} \right).
+\tag{46}
+$$
+
+**Equation 47, Glide Range.**
+A glide trades height for distance at the lift-to-drag ratio.
+
+$$
+R = \left( \frac{L}{D} \right) h
+\tag{47}
+$$
+
+**Equation 48, Energy Height.**
+The energy height is the altitude plus the kinetic energy expressed as a height.
+
+$$
+h_{E} = h + \frac{v^{2}}{2 g}.
+\tag{48}
+$$
+
+**Equation 49, Scaling Exponent Between Two Vehicles.**
+For a quantity that scales as a power of a length, the exponent is the ratio of the logarithms of the two quantity and length ratios.
+
+$$
+Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} / Q_{2} \right)}{\ln \left( \ell_{1} / \ell_{2} \right)}
+\tag{49}
+$$
+
+**Equation 50, Mass of a Geometrically Similar Orbiter.**
+Scaling the Shuttle orbiter's launch mass by the cube of the length ratio, the cube law of geometric similarity at constant density, gives 1,072 kilograms against the X-37B's 4,990.
+
+$$
+m_{\text{similar}} = 78{,}000 \left( \frac{8.92}{37.24} \right)^{3} = 1{,}072 \ \text{kilograms}, \qquad \frac{4{,}990}{1{,}072} = 4.655 .
+\tag{50}
+$$
+
+**Equation 51, Payload Fraction.**
+The published payload capacity over the launch mass gives a payload fraction of 4.55 percent.
+[Boeing X-37][ref_x37]
+
+$$
+\frac{m_{\text{payload}}}{m_{\text{launch}}} = \frac{227}{4{,}990} = 4.55 \ \text{percent}.
+\tag{51}
+$$
+
+**Equation 52, Fleet Duty Cycle.**
+The summed durations of the seven completed missions over the span from first launch to seventh landing give a duty cycle of 77.46 percent.
+[Boeing X-37][ref_x37]
+
+$$
+\Phi = \frac{\sum_{k} t_{k}}{t_{\text{span}}} = \frac{4{,}208.57}{5{,}433} = 77.46 \text{ percent}
+\tag{52}
+$$
+
+**Equation 53, Semi-Major Axis, Eccentricity and Semi-Latus Rectum From the Apsides.**
+The catalogued perigee and apogee radii fix the semi-major axis, the eccentricity and the semi-latus rectum.
+[General Catalog of Artificial Space Objects][ref_gcat]
+
+$$
+a = \frac{r_{p} + r_{a}}{2}, \qquad e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}}, \qquad p = a \left( 1 - e^{2} \right)
+\tag{53}
+$$
+
+**Equation 54, Vis-Viva Relation.**
+The speed at any point on an orbit follows from the gravitational parameter, the radius and the semi-major axis.
+[vis-viva][ref_vis_viva]
+
+$$
+v = \sqrt{\mu \left( \frac{2}{r} - \frac{1}{a} \right)}
+\tag{54}
+$$
+
+**Equation 55, Velocity Removed by Aerobraking.**
+The difference between the perigee speed of the catalogued elliptical orbit and the circular speed at that altitude is 2,448.8 metres per second.
+[vis-viva][ref_vis_viva]
+
+$$
+\Delta v = v_{p} - v_{c} = 2{,}448.8 \text{ metres per second}.
+\tag{55}
+$$
+
+*Equation 56, Bespoke Cost of Lowering Perigee to 100 Kilometres.*
+Lowering perigee to 100 kilometres, a target altitude the article assumes, costs the difference of two apogee speeds from the vis-viva relation.
+
+$$
+\Delta v_{\text{lower}} = \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}493.6} \right)} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{25{,}375.6} \right)} = 1{,}539.85 - 1{,}516.06 = 23.79 \ \text{metres per second}.
+\tag{56}
+$$
+
+*Equation 57, Bespoke Leverage of Aerobraking.*
+The velocity the atmosphere removes over the cost of lowering perigee to the assumed 100 kilometres gives a leverage of 102.9.
+
+$$
+\frac{v_{p} - v_{c}}{\Delta v_{\text{lower}}} = \frac{2{,}448.8}{23.79} = 102.9 .
+\tag{57}
+$$
+
+**Equation 58, Velocity Removed per Perigee Pass.**
+The decrement per pass is the drag deceleration integrated along the arc, written with the true anomaly as the independent variable.
+
+$$
+\Delta v_{\text{pass}} = \int \frac{\rho(r) \, v^{2}}{2 B} \, dt = \int_{-\nu_{0}}^{\nu_{0}} \frac{\rho(r) \, v^{2}}{2 B} \cdot \frac{r^{2}}{\sqrt{\mu p}} \, d\nu
+\tag{58}
+$$
+
+**Equation 59, Apogee After One Pass.**
+Inverting the vis-viva relation at the reduced perigee speed gives the new semi-major axis and apogee radius.
+
+$$
+a' = \left( \frac{2}{r_{p}} - \frac{(v_{p} - \Delta v_{\text{pass}})^{2}}{\mu} \right)^{-1}, \qquad r_{a}' = 2 a' - r_{p}.
+\tag{59}
+$$
+
+*Equation 60, Bespoke Fixed-Period Estimate of the Required Decrement.*
+Holding the initial period constant over roughly 150 days gives about 320 passes and a demanded 7.65 metres per second per pass.
+
+$$
+N = \frac{150 \times 24}{11.253} = 319.9, \qquad \frac{2{,}448.8}{319.9} = 7.65 \ \text{metres per second},
+\tag{60}
+$$
+
+*Equation 61, Bespoke Walk-Down Times Against the Calendar.*
+The walk-down computed with the assumed ballistic coefficient and nominal density places the roughly 150 days available between the times at 100 and 110 kilometres.
+
+$$
+99.7 \ \text{days} \;<\; 150 \ \text{days} \;<\; 480.7 \ \text{days}.
+\tag{61}
+$$
+
+*Equation 62, Bespoke Heating on an Aerobraking Pass.*
+The stagnation flux and wall temperature are evaluated at the assumed 100 kilometre perigee, an assumed nose radius of 0.30 metres and an assumed emissivity of 0.85.
+
+$$
+\dot{q}_{s} = 1.7415 \times 10^{-4} \sqrt{\frac{5.297 \times 10^{-7}}{0.30}} \, (10{,}361.1)^{3} = 2.574 \times 10^{5} \ \text{W/m}^{2}, \qquad T_{w} = \left( \frac{\dot{q}_{s}}{0.85 \, \sigma} \right)^{1/4} = 1{,}520 \ \text{K},
+\tag{62}
+$$
+
+**Equation 63, Pass Count Proportional to the Ballistic Coefficient.**
+Because the drag integral carries the ballistic coefficient as a single divisor, the number of passes at a fixed perigee is proportional to it.
+
+$$
+\Delta v_{\text{pass}} \propto \frac{1}{B} \qquad \Longrightarrow \qquad N_{\text{passes}} \propto B
+\tag{63}
+$$
+
+*Equation 64, Bespoke Ballistic Coefficient of the Mars Reconnaissance Orbiter.*
+The published drag area and mass are combined with a drag coefficient of 2.0 that the article assumes for free molecular flow.
+[Mars Reconnaissance Orbiter Operational Aerobraking Phase Assessment][ref_mro_aerobraking]
+
+$$
+B_{\text{MRO}} = \frac{1{,}400}{2.0 \times 37.5} = 18.7 \ \text{kilograms per square metre}, \qquad \frac{B_{\text{X-37B}}}{B_{\text{MRO}}} = \frac{623.75}{18.67} = 33.4 .
+\tag{64}
+$$
+
+### Notation
+
+- $\mathcal{E}$, the specific orbital energy
+- $\mu$, the gravitational parameter of the Earth
+- $a$, the semi-major axis
+- $v_{c}$, the circular orbital speed
+- $R_{\oplus}$, the equatorial radius of the Earth
+- $f_{E}$, the eclipse fraction, with $\bar{f}_{E}$ its mean over node and season
+- $\beta$, the beta angle, with $\beta^{*}$ the threshold above which eclipse vanishes
+- $J_{2}$, the second zonal harmonic of the Earth's gravity field
+- $\dot{\Omega}$, the rate of nodal regression
+- $T_{\beta}$, the beat period of the beta angle
+- $N_{\text{orb}}$, the number of orbits, with $N_{\text{cyc}}$ the number of battery cycles
+- $P_{\text{array}}$, the array power, with $P_{\text{load}}$ the continuous load
+- $\eta$, the cell efficiency, with $\eta_{c}$ and $\eta_{d}$ the charge and discharge efficiencies
+- $\kappa$, the packing factor of the array
+- $\varepsilon$, the emissivity
+- $\sigma$, the Stefan-Boltzmann constant
+- $T_{s}$, the sink temperature, with $T_{r}$ the radiator temperature and $T_{w}$ the wall temperature
+- $\alpha_{s}$, the solar absorptivity, with $\alpha_{\oplus}$ the albedo of the Earth
+- $\delta$, the depth of discharge
+- $w$, the cell specific energy
+- $m_{b}$, the battery mass
+- $A_{\text{ref}}$, the drag reference area, while $A$ is the solar array area
+- $B$, the ballistic coefficient
+- $a_{D}$, the drag deceleration
+- $I_{sp}$, the specific impulse in seconds
+- $\dot{q}_{s}$, the stagnation-point heat flux
+- $R_{n}$, the nose radius
+- $\phi$, the bank angle
+- $\psi$, the heading angle
+- $h_{E}$, the energy height
+- $\Phi$, the duty cycle
+- $e$, the eccentricity
+- $r_{p}$, the perigee radius, with $r_{a}$ the apogee radius
+- $v_{p}$, the perigee speed
+- $\Delta v_{\text{pass}}$, the velocity removed per perigee pass
 
 ## References
 

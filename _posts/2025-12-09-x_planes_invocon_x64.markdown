@@ -130,11 +130,17 @@ Set those two numbers beside the parent vehicle of the sibling designation, whos
 
 **Three elementary relations underlie this section**, and they are written down because every number below is one of them evaluated twice. Let $L$ be the length in metre, $D_b$ the body diameter in metre, $f$ the fineness ratio \[[fineness ratio][ref_fineness]\], dimensionless, $A$ the reference frontal area in square metre, $S$ the wetted side area of the equivalent cylinder in square metre, and $V_c$ its enclosed volume in cubic metre.
 
-$$ f \equiv \frac{L}{D_b}, \qquad A = \frac{\pi D_b^2}{4}, \qquad S = \pi D_b L, \qquad V_c = A L $$
+$$
+ f \equiv \frac{L}{D_b}, \qquad A = \frac{\pi D_b^2}{4}, \qquad S = \pi D_b L, \qquad V_c = A L 
+\tag{1}
+$$
 
 **Two of the comparisons below are therefore not independent measurements but consequences**, and saying which is which keeps the argument honest. Read as scaling laws at fixed shape,
 
-$$ A \propto D_b^{2}, \qquad S \propto D_b L, \qquad V_c \propto D_b^{2} L $$
+$$
+ A \propto D_b^{2}, \qquad S \propto D_b L, \qquad V_c \propto D_b^{2} L 
+\tag{2}
+$$
 
 **The frontal-area ratio is the square of the diameter ratio and nothing else.** So the figure of 1.72 quoted below is 1.3123 squared, and the volume ratio of 0.7705 is that same 1.72 multiplied by the length ratio of 0.4474. **Neither is a separate fact about the vehicles**, and a reader who checked them against each other would find them consistent by construction rather than by agreement.
 
@@ -150,7 +156,10 @@ $$ A \propto D_b^{2}, \qquad S \propto D_b L, \qquad V_c \propto D_b^{2} L $$
 
 **The X-64A is 44.7 percent of the RS1's length and 131.2 percent of its diameter.** Its fineness ratio, being length divided by diameter, is **5.0** against the RS1's **14.67**, so the parent vehicle is **2.93 times as slender**. Both published figures for the X-64A are approximate and both are round in both unit systems, forty feet by eight and twelve metres by two point four, so **the exactness of 5.0 is an artefact of the rounding, and the defensible statement is a fineness ratio of about five**. With lengths in metre the ratios are
 
-$$ \frac{12.0}{26.8224} = 0.4474, \qquad \frac{2.4}{1.8288} = 1.3123, \qquad f = \frac{12.0}{2.4} = 5.00 \quad \text{against} \quad \frac{26.8224}{1.8288} = 14.667, \qquad \frac{14.667}{5.00} = 2.933 $$
+$$
+ \frac{12.0}{26.8224} = 0.4474, \qquad \frac{2.4}{1.8288} = 1.3123, \qquad f = \frac{12.0}{2.4} = 5.00 \quad \text{against} \quad \frac{26.8224}{1.8288} = 14.667, \qquad \frac{14.667}{5.00} = 2.933 
+\tag{3}
+$$
 
 A fineness ratio of five is not a launch-vehicle proportion. It is nearer to that of a lander or an early sounding rocket, and its consequences are arithmetic.
 
@@ -164,7 +173,10 @@ A fineness ratio of five is not a launch-vehicle proportion. It is nearer to tha
 
 **And the enclosed volume says the shortness is not a matter of being a smaller vehicle.** The X-64A's cylinder holds 54.29 cubic metres against the RS1's 70.46, which is **77.1 percent of the volume in 44.7 percent of the length**. It is not a scaled-down launch vehicle. It is a differently proportioned one. In cubic metre,
 
-$$ V_c = \frac{\pi \left( 2.4 \right)^2}{4} \left( 12.0 \right) = 54.29, \qquad V_c = \frac{\pi \left( 1.8288 \right)^2}{4} \left( 26.8224 \right) = 70.46, \qquad \frac{54.29}{70.46} = 1.7222 \times 0.4474 = 0.7705 $$
+$$
+ V_c = \frac{\pi \left( 2.4 \right)^2}{4} \left( 12.0 \right) = 54.29, \qquad V_c = \frac{\pi \left( 1.8288 \right)^2}{4} \left( 26.8224 \right) = 70.46, \qquad \frac{54.29}{70.46} = 1.7222 \times 0.4474 = 0.7705 
+\tag{4}
+$$
 
 **The proportion is what a recoverable vehicle wants.** Four legs deployed from a 2.4 metre body give a footprint whose radius is a larger fraction of the vehicle's height than the same legs on a 26.8 metre body could, the centre of mass of a returning stage sits lower on a short body, and the aerodynamic surfaces that steer a descent have a shorter moment arm to work against. **Every one of those favours the short vehicle, and every one of them costs drag on the way up.** The section on the measurement shows where that cost is paid.
 
@@ -174,17 +186,26 @@ Everything that follows depends on what an instrument bolted to a rocket senses,
 
 Let $F$ be the thrust in newton, $D$ the aerodynamic drag in newton, $m$ the instantaneous mass in kilogram, $g$ the local gravitational acceleration in metre per second squared, $\gamma$ the flight-path angle in radian and $v$ the speed in metre per second. Newton's second law along the flight path reads
 
-$$ m \frac{\mathrm{d} v}{\mathrm{d} t} = F - D - m g \sin \gamma $$
+$$
+ m \frac{\mathrm{d} v}{\mathrm{d} t} = F - D - m g \sin \gamma 
+\tag{5}
+$$
 
 which contains four quantities of which one is wanted and three are not. **A body-mounted accelerometer does not measure $\mathrm{d}v / \mathrm{d}t$.** It measures specific force, being the non-gravitational force per unit mass \[[proper acceleration][ref_specific_force]\], because a freely falling accelerometer reads zero. Write $a_s$ for the sensed specific force in metre per second squared. Then
 
-$$ a_s = \frac{F - D}{m}, \qquad F = m \, a_s + D $$
+$$
+ a_s = \frac{F - D}{m}, \qquad F = m \, a_s + D 
+\tag{6}
+$$
 
 **The gravitational term has vanished and it has vanished exactly.** An accelerometer's blindness to gravity, which is an inconvenience for navigation, is the property that makes it the right instrument for measuring thrust, because the largest term in the equation of motion is the one it declines to see. **It is why a thrust measurement in flight is possible at all without knowing where the vehicle is.**
 
 **One assumption is buried in that identity.** Thrust and drag are written as though both act along the flight path, which is true at zero angle of attack and not otherwise. An accelerometer aligned with the body axis measures the body-axial component of the total non-gravitational force, and the aerodynamic force resolves onto that axis through the angle of attack. Let $\alpha$ be the angle of attack in radian, $N_a$ the aerodynamic normal force in newton, and $X_a$ the axial aerodynamic force in newton.
 
-$$ a_s = \frac{F - X_a}{m}, \qquad X_a = D \cos \alpha - N_a \sin \alpha $$
+$$
+ a_s = \frac{F - X_a}{m}, \qquad X_a = D \cos \alpha - N_a \sin \alpha 
+\tag{7}
+$$
 
 **At zero angle of attack $X_a$ is the drag and the identity above is exact.** Away from it the normal force contributes a forward axial component, so a vehicle at angle of attack has a smaller retarding axial force than its drag, and an analysis that substituted $D$ for $X_a$ would understate the thrust it recovered.
 
@@ -192,7 +213,10 @@ $$ a_s = \frac{F - X_a}{m}, \qquad X_a = D \cos \alpha - N_a \sin \alpha $$
 
 **What remains is a sum of three quantities and only one of them is measured directly.** The specific force is measured. **The mass is inferred rather than measured**, from an initial value and an integrated propellant flow. Let $m_0$ be the initial mass in kilogram and $\dot{m}$ the propellant mass flow in kilogram per second.
 
-$$ m(t) = m_0 - \int_{0}^{t} \dot{m}(s) \, \mathrm{d}s $$
+$$
+ m(t) = m_0 - \int_{0}^{t} \dot{m}(s) \, \mathrm{d}s 
+\tag{8}
+$$
 
 **That integral is why the mass error grows through the burn rather than staying where the loading scales left it.** A constant relative error in the flow measurement accumulates into an absolute mass error proportional to the propellant already spent, so the mass term in the budget below is at its worst late in the flight, at the opposite end from where the altitude-compensation signal lives.
 
@@ -325,11 +349,17 @@ The methodology the field settled on is independent of how thrust is calculated 
 
 Treat the three errors as independent and propagate them through $F = m a_s + D$. Let $\delta$ denote the uncertainty in whatever follows it. Then
 
-$$ \left( \delta F \right)^2 = \left( a_s \, \delta m \right)^2 + \left( m \, \delta a_s \right)^2 + \left( \delta D \right)^2 $$
+$$
+ \left( \delta F \right)^2 = \left( a_s \, \delta m \right)^2 + \left( m \, \delta a_s \right)^2 + \left( \delta D \right)^2 
+\tag{9}
+$$
 
 Divide by $F^2$ and introduce the drag fraction $d \equiv D / F$, dimensionless. Because $m a_s = F - D = (1 - d) F$, the mass and accelerometer terms both carry that factor while the drag term carries $d$.
 
-$$ \left( \frac{\delta F}{F} \right)^2 = \left( 1 - d \right)^2 \left[ \left( \frac{\delta m}{m} \right)^2 + \left( \frac{\delta a_s}{a_s} \right)^2 \right] + d^2 \left( \frac{\delta D}{D} \right)^2 $$
+$$
+ \left( \frac{\delta F}{F} \right)^2 = \left( 1 - d \right)^2 \left[ \left( \frac{\delta m}{m} \right)^2 + \left( \frac{\delta a_s}{a_s} \right)^2 \right] + d^2 \left( \frac{\delta D}{D} \right)^2 
+\tag{10}
+$$
 
 **The budget is complete as written, and its structure is the finding.** The two terms a designer can improve by buying better instruments are attenuated by $1 - d$, which is close to one. **The term that cannot be improved by any instrument on the vehicle is amplified by $d$**, which is small, so the drag model's accuracy is multiplied by a small number before it reaches the answer. Whether that suffices can be settled by arithmetic.
 
@@ -339,7 +369,10 @@ $$ \left( \frac{\delta F}{F} \right)^2 = \left( 1 - d \right)^2 \left[ \left( \f
 
 Set the drag error to zero and the budget collapses to the instrument terms alone.
 
-$$ \frac{\delta F}{F}\Big\rvert_{d = 0} = \sqrt{ \left( \frac{\delta m}{m} \right)^2 + \left( \frac{\delta a_s}{a_s} \right)^2 } $$
+$$
+ \frac{\delta F}{F}\Big\rvert_{d = 0} = \sqrt{ \left( \frac{\delta m}{m} \right)^2 + \left( \frac{\delta a_s}{a_s} \right)^2 } 
+\tag{11}
+$$
 
 | Mass bookkeeping | Accelerometer | Thrust error at zero drag | As a share of a 5.3 percent effect |
 |---|---|---|---|
@@ -349,7 +382,10 @@ $$ \frac{\delta F}{F}\Big\rvert_{d = 0} = \sqrt{ \left( \frac{\delta m}{m} \righ
 
 Evaluated on the first row, with the effect $\Delta = 0.053$,
 
-$$ \frac{\delta F}{F}\Big\rvert_{d = 0} = \sqrt{ \left( 0.010 \right)^2 + \left( 0.005 \right)^2 } = 0.01118, \qquad \frac{0.01118}{0.053} = 0.211 $$
+$$
+ \frac{\delta F}{F}\Big\rvert_{d = 0} = \sqrt{ \left( 0.010 \right)^2 + \left( 0.005 \right)^2 } = 0.01118, \qquad \frac{0.01118}{0.053} = 0.211 
+\tag{12}
+$$
 
 **Against a five point three percent effect, the instrument floor alone consumes between a tenth and two fifths of the budget.** A mass bookkeeping good to one percent and an accelerometer good to half a percent give 1.12 percent, which is 21.1 percent of the smaller of the X-63 article's two gain figures. **Tightening the instruments to half a percent and two tenths of a percent gives 0.54 percent, which is 10.2 percent of it.** Loosening them to two percent and one percent gives 2.24 percent, or 42.2 percent of the effect. **So even a vehicle flying in vacuum with a perfect drag model would spend a tenth of its error budget before the atmosphere was mentioned**, and mass bookkeeping is the larger of the two contributions in every case.
 
@@ -359,23 +395,38 @@ The drag fraction $d$ follows the dynamic pressure, so the shape of the dynamic-
 
 Let $\rho$ be the atmospheric mass density in kilogram per cubic metre and $q$ the dynamic pressure \[[dynamic pressure][ref_dynamic_pressure]\] in pascal, with $C_D$ the drag coefficient, dimensionless, and $A$ the reference frontal area in square metre.
 
-$$ q = \tfrac{1}{2} \rho v^2, \qquad D = q \, C_D A $$
+$$
+ q = \tfrac{1}{2} \rho v^2, \qquad D = q \, C_D A 
+\tag{13}
+$$
 
 The density comes from the 1976 United States Standard Atmosphere, whose defining constants give pressure and temperature by layer and from which density follows by the perfect-gas law without tabulation, as in the standard itself \[[U.S. Standard Atmosphere 1976 1976][ref_usatm1976]\]. Let $R$ be the specific gas constant of air in joule per kilogram kelvin and $T$ the temperature in kelvin.
 
-$$ \rho(h) = \frac{p_a(h)}{R \, T(h)} $$
+$$
+ \rho(h) = \frac{p_a(h)}{R \, T(h)} 
+\tag{14}
+$$
 
 **Both of those come from the layer structure and neither is tabulated here** \[[defining constants and abbreviated tables][ref_atm_constants]\]. Let $T_0$, $p_0$ and $h_0$ be the temperature, pressure and altitude at the base of a layer, in kelvin, pascal and metre, and $\lambda$ its lapse rate in kelvin per metre.
 
-$$ T(h) = T_0 + \lambda \left( h - h_0 \right) $$
+$$
+ T(h) = T_0 + \lambda \left( h - h_0 \right) 
+\tag{15}
+$$
 
-$$ p_a(h) = p_0 \left( 1 + \frac{\lambda \left( h - h_0 \right)}{T_0} \right)^{-\frac{g_0}{R \lambda}}, \qquad p_a(h) = p_0 \exp\left( -\frac{g_0 \left( h - h_0 \right)}{R T_0} \right) $$
+$$
+ p_a(h) = p_0 \left( 1 + \frac{\lambda \left( h - h_0 \right)}{T_0} \right)^{-\frac{g_0}{R \lambda}}, \qquad p_a(h) = p_0 \exp\left( -\frac{g_0 \left( h - h_0 \right)}{R T_0} \right) 
+\tag{16}
+$$
 
 **The second form is the limit of the first as the lapse rate goes to zero** and is the form an isothermal layer needs. No other relation in the article is needed alongside its degenerate case.
 
 **The speed of sound and the Mach number follow, and the ratio of specific heats needs a new letter.** [The X-63A article][related_post_a360_abl_space_systems_x63] wrote that ratio $\gamma$, which has already been spent on the flight-path angle, so it is written $\kappa$ here. Let $c$ be the speed of sound in metre per second and $M$ the Mach number, dimensionless.
 
-$$ c = \sqrt{\kappa R T}, \qquad M = \frac{v}{c} $$
+$$
+ c = \sqrt{\kappa R T}, \qquad M = \frac{v}{c} 
+\tag{17}
+$$
 
 **These relations give 1.225000 kilogram per cubic metre at sea level and 0.363918 at 11 kilometres, against the standard's published 1.2250 and 0.36391, and a sound speed of 340.294 metres per second against the standard's 340.294** \[[defining constants and abbreviated tables][ref_atm_constants]\].
 
@@ -383,7 +434,10 @@ $$ c = \sqrt{\kappa R T}, \qquad M = \frac{v}{c} $$
 
 The natural length for a density profile is the density scale height \[[scale height][ref_scale_height]\], and in a layer with a lapse rate it differs from the pressure scale height that [the X-63A article][related_post_a360_abl_space_systems_x63] used. Let $\lambda$ be the lapse rate in kelvin per metre and $H_\rho$ the density scale height in metre.
 
-$$ H_\rho \equiv -\frac{\rho}{\mathrm{d}\rho / \mathrm{d}h} = \frac{R \, T}{g_0 + R \lambda} $$
+$$
+ H_\rho \equiv -\frac{\rho}{\mathrm{d}\rho / \mathrm{d}h} = \frac{R \, T}{g_0 + R \lambda} 
+\tag{18}
+$$
 
 **The lapse rate enters added to the gravitational term, and in the troposphere it is negative and therefore makes the denominator smaller.** So $H_\rho$ exceeds $H_p$ there, which is to say **density falls more slowly with altitude than pressure does**, and the reason is that cooling air is denser at a given pressure, so the temperature drop partly offsets the pressure drop rather than compounding it. At sea level the two are 10,416 metres and 8,435. **In an isothermal layer the lapse rate vanishes and the two coincide exactly**, which the relations above reproduce at 15 kilometres to nine decimal places, the cheapest available check that the closed form is right. Across the layers where a trajectory spends its dynamic pressure the closed form agrees with a numerical difference of the density profile to better than two parts in a thousand million.
 
@@ -391,7 +445,10 @@ $$ H_\rho \equiv -\frac{\rho}{\mathrm{d}\rho / \mathrm{d}h} = \frac{R \, T}{g_0 
 
 Differentiate the logarithm of the dynamic pressure along the trajectory and set it to zero. Using $\mathrm{d}h / \mathrm{d}t = v \sin \gamma$ and the definition of the density scale height,
 
-$$ \frac{\mathrm{d}}{\mathrm{d}t} \ln q = -\frac{v \sin \gamma}{H_\rho} + \frac{2}{v}\frac{\mathrm{d}v}{\mathrm{d}t} = 0 \qquad \Longrightarrow \qquad v^2 \sin \gamma = 2 H_\rho \frac{\mathrm{d}v}{\mathrm{d}t} $$
+$$
+ \frac{\mathrm{d}}{\mathrm{d}t} \ln q = -\frac{v \sin \gamma}{H_\rho} + \frac{2}{v}\frac{\mathrm{d}v}{\mathrm{d}t} = 0 \qquad \Longrightarrow \qquad v^2 \sin \gamma = 2 H_\rho \frac{\mathrm{d}v}{\mathrm{d}t} 
+\tag{19}
+$$
 
 **Maximum dynamic pressure occurs where the vertical speed divided by the density scale height equals twice the relative rate of acceleration.** The relation is exact, it holds for any atmosphere and any trajectory, and it contains nothing about the vehicle. It was checked at the computed peak of five ascent profiles and **the worst disagreement between its two sides is 4.5 parts in a million**, a residual set by the resolution of the golden-section search rather than by any error in the relation.
 
@@ -405,7 +462,10 @@ Written as a statement about competition it is easier to read. **Dynamic pressur
 
 The repair is to stop choosing the altitude. A rocket flying a gravity turn \[[gravity turn][ref_gravity_turn]\] has its altitude fixed by the integral of the vertical component of its speed, so a speed law and a pitch program determine it, and **the published cut-off altitude then fixes the remaining parameter instead of being assumed alongside it**. Let $k$ be a pitch exponent, dimensionless.
 
-$$ \gamma(t) = \frac{\pi}{2}\left( 1 - \frac{t}{t_b} \right)^{k}, \qquad v(t) = v_b \left( \frac{t}{t_b} \right)^{p}, \qquad h(t) = \int_{0}^{t} v(s) \sin \gamma(s) \, \mathrm{d}s $$
+$$
+ \gamma(t) = \frac{\pi}{2}\left( 1 - \frac{t}{t_b} \right)^{k}, \qquad v(t) = v_b \left( \frac{t}{t_b} \right)^{p}, \qquad h(t) = \int_{0}^{t} v(s) \sin \gamma(s) \, \mathrm{d}s 
+\tag{20}
+$$
 
 The published reference mission gives liftoff at zero and main engine cut-off at 160 seconds, 75 kilometres and 2.6 kilometres per second \[[ABL Payload User's Guide][ref_abl_pug]\]. **Requiring $h(t_b) = 75$ kilometres determines $k$ for each speed exponent**, by bisection on a monotone function, and what is left is one swept assumption rather than two.
 
@@ -421,13 +481,19 @@ The published reference mission gives liftoff at zero and main engine cut-off at
 
 Since $\rho c^2 = \kappa p_a$, the dynamic pressure needs only the ambient pressure and the Mach number. For the central profile, with a speed exponent of 1.0, the peak at 8,760.5 metres and Mach 1.792 lies in the troposphere, where $T_0 = 288.15$ kelvin, $p_0 = 101{,}325$ pascal and $\lambda = -0.0065$ kelvin per metre, so in kelvin and pascal
 
-$$ q = \tfrac{1}{2} \rho v^2 = \tfrac{1}{2} \kappa \, p_a M^2, \qquad T = 288.15 - 0.0065 \left( 8{,}760.5 \right) = 231.21, \qquad p_a = 101{,}325 \left( \frac{231.21}{288.15} \right)^{5.2559} = 31{,}853, \qquad q = \tfrac{1}{2} \left( 1.4 \right) \left( 31{,}853 \right) \left( 1.792 \right)^2 = 71{,}603 $$
+$$
+ q = \tfrac{1}{2} \rho v^2 = \tfrac{1}{2} \kappa \, p_a M^2, \qquad T = 288.15 - 0.0065 \left( 8{,}760.5 \right) = 231.21, \qquad p_a = 101{,}325 \left( \frac{231.21}{288.15} \right)^{5.2559} = 31{,}853, \qquad q = \tfrac{1}{2} \left( 1.4 \right) \left( 31{,}853 \right) \left( 1.792 \right)^2 = 71{,}603 
+\tag{21}
+$$
 
 which reproduces the 71.60 kilopascal of the table, the exponent being $-g_0 / (R \lambda)$.
 
 **One numerical coincidence should be defused before a reader finds it.** For the central profile the peak sits at 8,761 metres, and the density scale height there, with $R = 287.053$ joule per kilogram kelvin, is
 
-$$ H_\rho = \frac{R \, T}{g_0 + R \lambda} = \frac{\left( 287.053 \right) \left( 231.21 \right)}{9.80665 - \left( 287.053 \right) \left( 0.0065 \right)} = 8{,}358, \qquad \frac{8{,}761}{8{,}358} = 1.048 $$
+$$
+ H_\rho = \frac{R \, T}{g_0 + R \lambda} = \frac{\left( 287.053 \right) \left( 231.21 \right)}{9.80665 - \left( 287.053 \right) \left( 0.0065 \right)} = 8{,}358, \qquad \frac{8{,}761}{8{,}358} = 1.048 
+\tag{22}
+$$
 
 in metre, so the ratio is 1.048. [The previous article][related_post_a360_abl_space_systems_x63] reported a sea-level pressure scale height of 8,434.9 metres, and the inconsistent pairing of two power laws described above puts its peak dynamic pressure at an altitude of 8,434.5 metres, which looks like a theorem. **It is not one.** The two quantities are different functions of different variables evaluated at different altitudes, and the agreement arises from that inconsistent trajectory alone. **Across the consistent family the ratio of peak altitude to local density scale height runs from 0.92 to 1.40 and is not a constant.**
 
@@ -437,7 +503,10 @@ Now the two histories can be laid against each other, and the result is the oppo
 
 The altitude-compensation effect is driven by the pressure-time integral, because [the previous article][related_post_a360_abl_space_systems_x63] showed that a fixed nozzle's whole atmospheric penalty is its exit area multiplied by that integral. Let $J$ be it, in pascal second.
 
-$$ J = \int_{0}^{t_b} p_a\left( t \right) \, \mathrm{d}t $$
+$$
+ J = \int_{0}^{t_b} p_a\left( t \right) \, \mathrm{d}t 
+\tag{23}
+$$
 
 **The measurement difficulty is driven by the dynamic pressure instead.** Both quantities are largest early, so the natural expectation is that they peak together and that the confounder is worst where the signal lives.
 
@@ -453,7 +522,10 @@ $$ J = \int_{0}^{t_b} p_a\left( t \right) \, \mathrm{d}t $$
 
 **By the time dynamic pressure peaks, between 83.6 and 95.3 percent of the pressure-time integral has already been collected.** And at the moment half the integral is in hand, dynamic pressure stands at only **8.2 to 57.2 percent** of the value it will reach. Write $\chi$ for the share of the pressure-time integral collected by time $t$, dimensionless, $t_{1/2}$ for the time at which it reaches one half and $t_q$ for the time of peak dynamic pressure, both in second.
 
-$$ \chi\left( t \right) = \frac{1}{J} \int_{0}^{t} p_a\left( s \right) \mathrm{d}s, \qquad \chi\left( t_{1/2} \right) = \tfrac{1}{2}, \qquad \chi\left( t_q \right) = 0.836 \text{ to } 0.953, \qquad \frac{t_q}{t_{1/2}} = \frac{25.039}{11.946} = 2.096 \text{ to } \frac{70.295}{28.292} = 2.485 $$
+$$
+ \chi\left( t \right) = \frac{1}{J} \int_{0}^{t} p_a\left( s \right) \mathrm{d}s, \qquad \chi\left( t_{1/2} \right) = \tfrac{1}{2}, \qquad \chi\left( t_q \right) = 0.836 \text{ to } 0.953, \qquad \frac{t_q}{t_{1/2}} = \frac{25.039}{11.946} = 2.096 \text{ to } \frac{70.295}{28.292} = 2.485 
+\tag{24}
+$$
 
 **So the experiment is better posed than the arithmetic of the error budget alone suggests.** The seconds that carry the altitude-compensation signal are seconds in which the atmosphere is dense enough to matter thermodynamically and the vehicle is still slow enough that the drag force is a modest fraction of thrust. **Pressure matters at low altitude and drag matters at high speed, and a rocket is at low altitude before it is at high speed.** That separation is not an accident of this trajectory. It follows from the fact that ambient pressure depends on position while drag depends on position and on the square of speed, so the drag term is the later of the two to develop.
 
@@ -463,13 +535,22 @@ $$ \chi\left( t \right) = \frac{1}{J} \int_{0}^{t} p_a\left( s \right) \mathrm{d
 
 **The drag fraction has carried the argument so far and has not yet been written down in terms of anything a designer chooses.** The omission needs repairing before the budget is read as a requirement, because the written form shows which unknowns matter and which cancel.
 
-$$ d \equiv \frac{D}{F} = \frac{q \, C_D A}{F} $$
+$$
+ d \equiv \frac{D}{F} = \frac{q \, C_D A}{F} 
+\tag{25}
+$$
 
 Two groups turn that into a statement about the vehicle rather than about its absolute size. Let $m_0$ be the initial mass in kilogram, $\psi$ the initial thrust-to-weight ratio, dimensionless, and $B$ the ballistic coefficient in kilogram per square metre.
 
-$$ \psi \equiv \frac{F}{m_0 g_0}, \qquad B \equiv \frac{m_0}{C_D A} $$
+$$
+ \psi \equiv \frac{F}{m_0 g_0}, \qquad B \equiv \frac{m_0}{C_D A} 
+\tag{26}
+$$
 
-$$ d = \frac{q}{\psi \, g_0 B} $$
+$$
+ d = \frac{q}{\psi \, g_0 B} 
+\tag{27}
+$$
 
 **The flight appears once, as the dynamic pressure, and the vehicle appears twice, as a thrust-to-weight ratio and a ballistic coefficient.** Neither the mass nor the reference area survives on its own. **The form is useful because a designer knows a thrust-to-weight ratio and a ballistic coefficient without being able to quote either of the quantities inside them**, and because it separates what the trajectory does from what the vehicle is.
 
@@ -477,7 +558,10 @@ $$ d = \frac{q}{\psi \, g_0 B} $$
 
 **One thing the form does give without any of those numbers.** Since $\psi$, $g_0$ and $B$ are constant through the burn to the accuracy that matters here, the drag fraction is proportional to the dynamic pressure, so its shape in time is the dynamic-pressure history and its ratio between two instants is theirs.
 
-$$ \frac{d\left( t_1 \right)}{d\left( t_2 \right)} = \frac{q\left( t_1 \right)}{q\left( t_2 \right)} $$
+$$
+ \frac{d\left( t_1 \right)}{d\left( t_2 \right)} = \frac{q\left( t_1 \right)}{q\left( t_2 \right)} 
+\tag{28}
+$$
 
 **This proportionality licenses the comparison made below** between the drag fraction during the seconds that carry the signal and its value at the peak, because the ratio of the two is a ratio of dynamic pressures and both of those are computed.
 
@@ -504,7 +588,10 @@ With the timing established, the budget can be read as a requirement rather than
 
 Inverting the budget gives the requirement directly. Write $\beta$ for the share of the effect the drag term is allowed, dimensionless. For the drag term alone to be that share of an effect of size $\Delta$,
 
-$$ d \, \frac{\delta D}{D} \le \beta \Delta \qquad \Longrightarrow \qquad \frac{\delta D}{D} \le \frac{\beta \Delta}{d} $$
+$$
+ d \, \frac{\delta D}{D} \le \beta \Delta \qquad \Longrightarrow \qquad \frac{\delta D}{D} \le \frac{\beta \Delta}{d} 
+\tag{29}
+$$
 
 | Drag fraction | For a tenth of the effect | For a quarter | For a half | For all of it |
 |---|---|---|---|---|
@@ -519,7 +606,10 @@ $$ d \, \frac{\delta D}{D} \le \beta \Delta \qquad \Longrightarrow \qquad \frac{
 
 The useful single number is the drag fraction at which the total error equals the effect being measured. Write $d_{\mathrm{crit}}$ for it, dimensionless, and $\Delta$ for the size of the effect as a fraction, dimensionless. The condition is the budget set equal to the effect.
 
-$$ \left( 1 - d_{\mathrm{crit}} \right)^{2} \left[ \left( \frac{\delta m}{m} \right)^{2} + \left( \frac{\delta a_s}{a_s} \right)^{2} \right] + d_{\mathrm{crit}}^{2} \left( \frac{\delta D}{D} \right)^{2} = \Delta^{2} $$
+$$
+ \left( 1 - d_{\mathrm{crit}} \right)^{2} \left[ \left( \frac{\delta m}{m} \right)^{2} + \left( \frac{\delta a_s}{a_s} \right)^{2} \right] + d_{\mathrm{crit}}^{2} \left( \frac{\delta D}{D} \right)^{2} = \Delta^{2} 
+\tag{30}
+$$
 
 **That is a quadratic in $d_{\mathrm{crit}}$ and it is solved by bisection rather than by formula**, because the left side is monotone in $d_{\mathrm{crit}}$ wherever the drag-model error exceeds the instrument terms, and only in that regime is the question interesting. Solving it at fixed drag-model accuracy gives the following.
 
@@ -534,7 +624,10 @@ $$ \left( 1 - d_{\mathrm{crit}} \right)^{2} \left[ \left( \frac{\delta m}{m} \ri
 
 **The comparison that matters is against the drag fraction during the seconds that carry the signal, not against its peak.** Dynamic pressure at the half-signal time is 8.2 to 57.2 percent of its peak value, so the drag fraction there is the same fraction of its peak. **Even a peak drag fraction of three tenths, which would be high for a launch vehicle, gives between 0.025 and 0.17 during the window that carries half the effect.** Against a critical value of 0.209 for a quarter-accurate drag model, that is inside the feasible region across most of the family and marginal at its fast end. By the ratio relation of the previous subsection,
 
-$$ d\left( t_{1/2} \right) = d\left( t_q \right) \frac{q\left( t_{1/2} \right)}{q\left( t_q \right)} = 0.30 \times 0.082 = 0.025 \quad \text{to} \quad 0.30 \times 0.572 = 0.172, \qquad \frac{57.20}{8.201} = 6.97 $$
+$$
+ d\left( t_{1/2} \right) = d\left( t_q \right) \frac{q\left( t_{1/2} \right)}{q\left( t_q \right)} = 0.30 \times 0.082 = 0.025 \quad \text{to} \quad 0.30 \times 0.572 = 0.172, \qquad \frac{57.20}{8.201} = 6.97 
+\tag{31}
+$$
 
 **So the verdict on the measurement is that it works, and that it works because of when the signal arrives rather than because of how good the instruments are.** An accelerometer twice as good gains a factor of two on a term that is already small. **Flying a profile that reaches altitude before it reaches speed buys a factor of about seven on the term that dominates**, the last ratio above. The trajectory is the instrument.
 
@@ -562,17 +655,26 @@ One consequence of the laboratory's sentence about separate vehicles deserves st
 
 A fin-stabilised vehicle is statically stable when its centre of pressure lies aft of its centre of mass, and the convention states the separation in calibres, being multiples of the body diameter. Let $x_{cp}$ and $x_{cm}$ be the axial positions of the centre of pressure and the centre of mass in metre, $D_b$ the body diameter in metre, and $S_m$ the static margin in calibre, dimensionless.
 
-$$ S_m = \frac{x_{cp} - x_{cm}}{D_b} $$
+$$
+ S_m = \frac{x_{cp} - x_{cm}}{D_b} 
+\tag{32}
+$$
 
 **The comparison below uses a margin of one calibre, and what one calibre costs depends entirely on how slender the vehicle is.** Expressed as a fraction of the vehicle's length, with $L$ the length in metre and $f = L / D_b$ the fineness ratio,
 
-$$ \frac{x_{cp} - x_{cm}}{L} = \frac{S_m}{f} $$
+$$
+ \frac{x_{cp} - x_{cm}}{L} = \frac{S_m}{f} 
+\tag{33}
+$$
 
 **One calibre of margin on this vehicle is 20 percent of its length. One calibre on its sibling's parent is 6.8 percent.** The ratio is 2.93, the fineness ratio again, and it follows from published dimensions with no aerodynamics in it. A short vehicle has to move its centre of pressure nearly three times as far, measured against the only length it has, to obtain the same conventional margin.
 
 **So the legs have to be fins rather than merely being stowed alongside.** A body of revolution generates little restoring moment, and slender-body theory quantifies how little. Let $C_{N\alpha}$ be the normal-force coefficient slope per radian, referenced to the frontal area, dimensionless.
 
-$$ C_{N\alpha,\,\mathrm{nose}} = 2, \qquad C_{N\alpha,\,\mathrm{body}} = 0 $$
+$$
+ C_{N\alpha,\,\mathrm{nose}} = 2, \qquad C_{N\alpha,\,\mathrm{body}} = 0 
+\tag{34}
+$$
 
 **The nose contributes a slope of two per radian and the cylindrical body contributes nothing at all**, in inviscid slender-body theory and at small angle of attack. **Both halves of that come from the 1967 report that made the method a convention** \[[Barrowman 1967][ref_barrowman]\], which was read in full for this article. Its equation 3-66 gives the body normal-force coefficient derivative in subsonic flow as twice the ratio of the nose base area to the reference area, so a nose whose base is the reference area contributes two. **And its derivation requires the body components to be slender and free of discontinuities in cross-sectional area or its derivative**, so a constant-diameter cylinder contributes nothing. The nose contribution also acts near the front of the vehicle, forward of any plausible centre of mass, **so the bare airframe is statically unstable and every scrap of restoring moment has to come from the aft surfaces.**
 
@@ -586,15 +688,24 @@ On the ground the same four surfaces become a support polygon, and the mathemati
 
 Let $N$ be the number of legs, dimensionless, equally spaced on a circle of radius $r$ in metre, and let $h_{cm}$ be the height of the centre of mass above the ground in metre. Tipping occurs when the centre of mass passes outside the convex hull of the contact points \[[convex hull][ref_convex_hull]\]. If the vehicle tilts by $\theta$ in the direction $\phi$, the ground projection of the centre of mass moves $h_{cm} \tan \theta$, so the critical tilt is set by the distance from the axis to the hull boundary in that direction. Write $\ell(\phi)$ for that distance in metre, calling it the lever arm, **because $\rho$ is already the atmospheric density above**.
 
-$$ \tan \theta_{\mathrm{tip}}\left( \phi \right) = \frac{\ell\left( \phi \right)}{h_{cm}} $$
+$$
+ \tan \theta_{\mathrm{tip}}\left( \phi \right) = \frac{\ell\left( \phi \right)}{h_{cm}} 
+\tag{35}
+$$
 
 For a regular polygon with vertices at the legs, $\ell$ has a closed form. Let $a$ be the angle from the nearest leg, so that $\lvert a \rvert \le \pi / N$.
 
-$$ \ell\left( \phi \right) = \frac{r \cos\left( \pi / N \right)}{\cos\left( \pi / N - \lvert a \rvert \right)}, \qquad \ell_{\max} = r, \qquad \ell_{\min} = r \cos\left( \frac{\pi}{N} \right) $$
+$$
+ \ell\left( \phi \right) = \frac{r \cos\left( \pi / N \right)}{\cos\left( \pi / N - \lvert a \rvert \right)}, \qquad \ell_{\max} = r, \qquad \ell_{\min} = r \cos\left( \frac{\pi}{N} \right) 
+\tag{36}
+$$
 
 **The lever arm is not the support function of the hull, and the two are easy to conflate.** The support function \[[support function of a convex set][ref_support_function]\] gives the distance from the axis to a supporting line perpendicular to a direction, where the lever arm gives the distance along a ray to the hull boundary. Let $h_s$ be the support function in metre, with the legs at angles $\theta_k = 2 \pi k / N$ in radian.
 
-$$ h_s\left( \phi \right) = \max_{k} \, r \cos\left( \theta_k - \phi \right) = r \cos a $$
+$$
+ h_s\left( \phi \right) = \max_{k} \, r \cos\left( \theta_k - \phi \right) = r \cos a 
+\tag{37}
+$$
 
 **The two agree only at the extremes.** Both run from $r \cos(\pi / N)$ to $r$, so the anisotropy below is the same for either, and between those directions the lever arm is the smaller of the two because a ray reaches the boundary before the supporting line does. **Tipping is a question about the boundary along a ray, so the lever arm is the right object**, and a footprint that was not a regular polygon would separate them in range as well as in shape.
 
@@ -604,7 +715,10 @@ $$ h_s\left( \phi \right) = \max_{k} \, r \cos\left( \theta_k - \phi \right) = r
 
 #### The Anisotropy Is the Same Closed Form the X-63A Article Derived
 
-$$ \frac{\ell_{\max}}{\ell_{\min}} = \frac{1}{\cos\left( \pi / N \right)} $$
+$$
+ \frac{\ell_{\max}}{\ell_{\min}} = \frac{1}{\cos\left( \pi / N \right)} 
+\tag{38}
+$$
 
 **Character for character, this is the ratio of best-direction to guaranteed control authority that [the previous article][related_post_a360_abl_space_systems_x63] derived for differential throttling of a ring of thrusters.** The same regular polygon governs how evenly a ring of engines can steer and how evenly a ring of legs can stand.
 
@@ -619,7 +733,10 @@ $$ \frac{\ell_{\max}}{\ell_{\min}} = \frac{1}{\cos\left( \pi / N \right)} $$
 
 **For four legs the anisotropy is exactly the square root of two.** A four-legged vehicle tolerates 41.4 percent more tilt falling across a leg than falling between two, and **a three-legged one tolerates exactly twice as much**. **Eight legs bring it to 8.2 percent and twelve to 3.5 percent**, and the returns diminish as the cosine flattens.
 
-$$ \frac{1}{\cos\left( \pi / 3 \right)} = 2, \qquad \frac{1}{\cos\left( \pi / 4 \right)} = \sqrt{2} = 1.4142, \qquad \frac{1}{\cos\left( \pi / 8 \right)} = 1.0824, \qquad \frac{1}{\cos\left( \pi / 12 \right)} = 1.0353 $$
+$$
+ \frac{1}{\cos\left( \pi / 3 \right)} = 2, \qquad \frac{1}{\cos\left( \pi / 4 \right)} = \sqrt{2} = 1.4142, \qquad \frac{1}{\cos\left( \pi / 8 \right)} = 1.0824, \qquad \frac{1}{\cos\left( \pi / 12 \right)} = 1.0353 
+\tag{39}
+$$
 
 #### Why This Polygon Has N Sides and the X-63A's Had N or 2N
 
@@ -627,7 +744,10 @@ $$ \frac{1}{\cos\left( \pi / 3 \right)} = 2, \qquad \frac{1}{\cos\left( \pi / 4 
 
 Write $m_h$ for the number of sides of the footprint hull and $m_c$ for the number of sides of the X-63 article's control polygon, both dimensionless.
 
-$$ m_h = N \quad \text{for every } N, \qquad m_c = \begin{cases} N, & N \text{ even} \\ 2N, & N \text{ odd} \end{cases} $$
+$$
+ m_h = N \quad \text{for every } N, \qquad m_c = \begin{cases} N, & N \text{ even} \\ 2N, & N \text{ odd} \end{cases} 
+\tag{40}
+$$
 
 **The difference is the construction and not the geometry.** The X-63 article's object was a maximum over throttle patterns of a sum of $\max\left( \cos, 0 \right)$ terms, and that truncation puts a breakpoint wherever a module crosses the boundary of the forward half plane. For an odd ring those crossings interleave into two families and the count doubles. **Here the object is the convex hull of the contact points, whose support function is piecewise linear with one piece per vertex, and there is no half-plane to cross.** No truncation, no parity.
 
@@ -637,7 +757,10 @@ $$ m_h = N \quad \text{for every } N, \qquad m_c = \begin{cases} N, & N \text{ e
 
 The leg reach and the centre-of-mass height of a returning X-64A are not published, so both are swept. A body radius of 1.2 metres sets the lower bound on the footprint radius, since legs cannot retract inside the hull, and a 12 metre vehicle returning nearly empty puts its centre of mass low. In metre,
 
-$$ r \ge \frac{D_b}{2} = 1.2, \qquad \ell_{\min} = r \cos\left( \frac{\pi}{4} \right) = 0.8485 \quad \text{at} \quad r = 1.2, \qquad \ell_{\min} = 2.1213 \quad \text{at} \quad r = 3.0 $$
+$$
+ r \ge \frac{D_b}{2} = 1.2, \qquad \ell_{\min} = r \cos\left( \frac{\pi}{4} \right) = 0.8485 \quad \text{at} \quad r = 1.2, \qquad \ell_{\min} = 2.1213 \quad \text{at} \quad r = 3.0 
+\tag{41}
+$$
 
 | Footprint radius | Centre-of-mass height | Worst direction, across a gap | Best direction, over a leg | Shortest lever arm | Longest lever arm |
 |---|---|---|---|---|---|
@@ -660,7 +783,10 @@ $$ r \ge \frac{D_b}{2} = 1.2, \qquad \ell_{\min} = r \cos\left( \frac{\pi}{4} \r
 
 **Across that sweep the worst-direction tilt tolerance runs from 8.05 to 35.26 degrees.** The favourable corner, being legs reaching 3 metres on a vehicle whose centre of mass is 3 metres up, tolerates 35.26 degrees across a gap and 45.00 degrees over a leg. **The unfavourable corner, legs no wider than the body on a vehicle whose mass sits at half its height, tolerates 8.05 degrees.** A landing gear that reaches only to the body radius is not a landing gear. That arithmetic is why legs that the description says presumably rotate downward must also reach outward beyond the body \[[Invocon X-64][ref_ds_x64]\].
 
-$$ \theta_{\mathrm{tip}} = \tan^{-1} \frac{\ell_{\min}}{h_{cm}} = \tan^{-1} \frac{0.8485}{6.0} = 8.05 \text{ degrees}, \qquad \tan^{-1} \frac{2.1213}{3.0} = 35.26 \text{ degrees}, \qquad \tan^{-1} \frac{\ell_{\max}}{h_{cm}} = \tan^{-1} \frac{3.0}{3.0} = 45.00 \text{ degrees} $$
+$$
+ \theta_{\mathrm{tip}} = \tan^{-1} \frac{\ell_{\min}}{h_{cm}} = \tan^{-1} \frac{0.8485}{6.0} = 8.05 \text{ degrees}, \qquad \tan^{-1} \frac{2.1213}{3.0} = 35.26 \text{ degrees}, \qquad \tan^{-1} \frac{\ell_{\max}}{h_{cm}} = \tan^{-1} \frac{3.0}{3.0} = 45.00 \text{ degrees} 
+\tag{42}
+$$
 
 ### The Limits of a Sensor Ring
 
@@ -670,23 +796,35 @@ What the flight was meant to observe was established in [the previous article][r
 
 Expand the quantity measured around the annulus as a Fourier series in the azimuthal angle. Let $\vartheta$ be that angle in radian, $\mu$ the azimuthal harmonic index, dimensionless, and $A_\mu$ and $B_\mu$ the coefficients in whatever unit the measurand carries.
 
-$$ \Psi\left( \vartheta \right) = A_0 + \sum_{\mu = 1}^{\infty} \left[ A_\mu \cos \mu \vartheta + B_\mu \sin \mu \vartheta \right] $$
+$$
+ \Psi\left( \vartheta \right) = A_0 + \sum_{\mu = 1}^{\infty} \left[ A_\mu \cos \mu \vartheta + B_\mu \sin \mu \vartheta \right] 
+\tag{43}
+$$
 
 **The harmonics are not interchangeable and each means something physical.** The zeroth is the mean, the thrust-bearing quantity. The first is a net lateral resultant, or side load. The second is an ovalisation. **Harmonics at the leg count and its multiples are whatever the legs themselves impose on the flow.**
 
 Sample at $N$ sensors equally spaced at $\vartheta_j = 2 \pi j / N$. **The estimator for each coefficient is a sum over the sensors, and it makes the counting argument concrete.**
 
-$$ \hat{A}_\mu = \frac{2}{N}\sum_{j=0}^{N-1} \Psi\left( \vartheta_j \right) \cos \mu \vartheta_j, \qquad \hat{B}_\mu = \frac{2}{N}\sum_{j=0}^{N-1} \Psi\left( \vartheta_j \right) \sin \mu \vartheta_j $$
+$$
+ \hat{A}_\mu = \frac{2}{N}\sum_{j=0}^{N-1} \Psi\left( \vartheta_j \right) \cos \mu \vartheta_j, \qquad \hat{B}_\mu = \frac{2}{N}\sum_{j=0}^{N-1} \Psi\left( \vartheta_j \right) \sin \mu \vartheta_j 
+\tag{44}
+$$
 
 **The counting is the sampling theorem applied to a circle rather than to a line**, and the theorem is cited from its original statements instead of an encyclopaedia's summary of them \[[Shannon 1949][ref_shannon_1949]\] \[[Nyquist 2002][ref_nyquist_1928]\]. **Neither was read for this article and both are cited at second hand.** **What makes the circular case finite rather than a limit is that the domain is compact**, so the harmonics are indexed by integers and the count is exact where the line's version is a bandwidth condition.
 
 **Each sensor contributes one number, so $N$ sensors deliver $N$ numbers and no more.** Recovering the mean costs one of them and recovering each harmonic costs two, being a cosine coefficient and a sine coefficient, so the harmonics resolvable in both phases are bounded by a count rather than by anything physical.
 
-$$ 1 + 2 \mu_{\max} \le N \qquad \Longrightarrow \qquad \mu_{\max} = \left\lfloor \frac{N - 1}{2} \right\rfloor $$
+$$
+ 1 + 2 \mu_{\max} \le N \qquad \Longrightarrow \qquad \mu_{\max} = \left\lfloor \frac{N - 1}{2} \right\rfloor 
+\tag{45}
+$$
 
 And the harmonics above that limit are not lost but misread \[[aliasing][ref_aliasing]\] \[[discrete Fourier transform][ref_dft]\]. **The discrete transform sees harmonic $\mu$ as harmonic $\mu \bmod N$, folded into the resolvable range.**
 
-$$ \mu \; \longmapsto \; \min\left( \mu \bmod N, \; N - \left( \mu \bmod N \right) \right) $$
+$$
+ \mu \; \longmapsto \; \min\left( \mu \bmod N, \; N - \left( \mu \bmod N \right) \right) 
+\tag{46}
+$$
 
 | Sensors on the ring | Harmonics resolved in both phases | Harmonic resolved in one phase only | Harmonic that aliases onto the mean | Sensors needed for a four-lobed pattern |
 |---|---|---|---|---|
@@ -703,7 +841,10 @@ $$ \mu \; \longmapsto \; \min\left( \mu \bmod N, \; N - \left( \mu \bmod N \righ
 
 This vehicle's geometry produces the sharp case.
 
-$$ \frac{1}{N}\sum_{j=0}^{N-1} \cos\left( N \, \vartheta_j + \varphi \right) = \cos \varphi \qquad \text{for every } N \text{ and every } \varphi $$
+$$
+ \frac{1}{N}\sum_{j=0}^{N-1} \cos\left( N \, \vartheta_j + \varphi \right) = \cos \varphi \qquad \text{for every } N \text{ and every } \varphi 
+\tag{47}
+$$
 
 **Harmonic $N$ sampled at $N$ points has exactly the same discrete mean as harmonic zero.** Not approximately, and not for particular phases. The sum above was evaluated at five sensor counts and returns 1 at zero phase and one half at a phase of sixty degrees, the cosine of the phase in both cases, matching harmonic zero term for term.
 
@@ -729,7 +870,10 @@ The word the award uses is `highly instrumented` \[[AFRL awards agreements under
 
 Let $n_c$ be the number of channels, dimensionless, $f_s$ the per-channel sample rate in hertz, $b$ the bits per sample, dimensionless, and $\mathcal{R}$ the aggregate rate in bit per second.
 
-$$ \mathcal{R} = n_c f_s b, \qquad V = \frac{\mathcal{R} \, t_b}{8} $$
+$$
+ \mathcal{R} = n_c f_s b, \qquad V = \frac{\mathcal{R} \, t_b}{8} 
+\tag{48}
+$$
 
 where $V$ is the volume written over a burn in byte.
 
@@ -747,7 +891,10 @@ where $V$ is the volume written over a burn in byte.
 
 **The deficit is best expressed as a ratio.** Let $\mathcal{R}_\ell$ be the downlink capacity in bit per second and $\eta_\ell$ the deficit, dimensionless.
 
-$$ \eta_\ell = \frac{\mathcal{R}}{\mathcal{R}_\ell} = \frac{n_c f_s b}{\mathcal{R}_\ell} $$
+$$
+ \eta_\ell = \frac{\mathcal{R}}{\mathcal{R}_\ell} = \frac{n_c f_s b}{\mathcal{R}_\ell} 
+\tag{49}
+$$
 
 **The volume is trivial and the rate is not.** **No telemetry capacity for either ARISE vehicle is published**, so the comparison below is against a range rather than a number, and the range is an assumption of this article. The range assumed is one half to twenty megabits per second, and the table gives the deficit across that span instead of at one value.
 
@@ -1010,7 +1157,10 @@ Chemical rocket engines treated as whole engines, their design, cycles, performa
 
 **The vehicle is two published numbers and this article has built a great deal on them.** A height of about 12 metres and a diameter of about 2.4 metres, both approximate, both reported at second hand from a release this article could not retrieve. **Every geometric conclusion here inherits that provenance**, including the fineness ratio, the frontal-area comparison and the static-margin argument. If either figure is wrong by twenty percent the fineness ratio moves by at most a quarter, and the parent vehicle remains 2.35 times as slender in the worst case, so the ordering against the sibling vehicle survives, and no stronger robustness claim is warranted.
 
-$$ f = \frac{12.0}{2.4} = 5.00, \qquad \frac{1.2 \times 12.0}{2.4} = 6.00, \qquad \frac{12.0}{0.8 \times 2.4} = 6.25, \qquad \frac{0.8 \times 12.0}{2.4} = 4.00, \qquad \frac{12.0}{1.2 \times 2.4} = 4.17, \qquad \frac{14.67}{6.25} = 2.35 $$
+$$
+ f = \frac{12.0}{2.4} = 5.00, \qquad \frac{1.2 \times 12.0}{2.4} = 6.00, \qquad \frac{12.0}{0.8 \times 2.4} = 6.25, \qquad \frac{0.8 \times 12.0}{2.4} = 4.00, \qquad \frac{12.0}{1.2 \times 2.4} = 4.17, \qquad \frac{14.67}{6.25} = 2.35 
+\tag{50}
+$$
 
 **The error budget is a structure and not a prediction.** It sets out how the uncertainty in recovered thrust depends on the drag fraction and the drag-model accuracy. **It cannot say what the drag fraction was**, because that needs the vehicle's mass, its drag coefficient and its thrust, none of which is public, and the budget is therefore presented as a function of the quantity it cannot evaluate.
 
@@ -1186,6 +1336,498 @@ $$ f = \frac{12.0}{2.4} = 5.00, \qquad \frac{1.2 \times 12.0}{2.4} = 6.00, \qqua
 **The legs on the ground are the same polygon the other article found in the sky.** The ratio of best to worst tip-over direction is $1 / \cos(\pi / N)$, character for character the anisotropy of differential-throttling authority, **exactly the square root of two for four legs and exactly two for three.** The footprint has $N$ sides for every count where the control polygon had $N$ or $2N$, and the difference is a half-plane truncation rather than anything geometric.
 
 **Neither vehicle is recorded as having flown.** One contractor lost two rockets and left the launch business \[[RS1, Gunter's Space Page][ref_gunter_rs1]\]. **The other is still an instrumentation house**, and lists no launch vehicle among its products \[[Invocon][ref_invocon_home]\]. **Whether it ever thought of itself as anything else is not something an award record can settle**, and this article does not claim it. The register still carries both numbers, allocated on the same day, with the same hundred and one characters against each, **and it still gives a reader no way to tell that the two machines behind them were never the same machine** \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 50 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 50, 31 are established and 19 are bespoke.
+Lengths are in metres, pressures in pascals and densities in kilograms per cubic metre, tilt angles are evaluated in degrees although the notation key states radians, and several letters are reassigned from the X-63A article, so $\gamma$ is the flight-path angle and the ratio of specific heats is written $\kappa$, $\rho$ is the atmospheric density and the lever arm is written $\ell$, $\delta$ prefixes an uncertainty while $\Delta$ is the size of the effect, $N$ counts legs and elsewhere sensors on a ring, $\mu$ is an azimuthal harmonic index, and $V$ is a data volume in bytes while $V_c$ is a volume in cubic metres.
+
+**Equation 1, Fineness Ratio, Frontal Area, Wetted Area and Volume of a Cylinder.**
+The fineness ratio is length over diameter, and the frontal area, side area and enclosed volume of the equivalent cylinder follow from the same two dimensions.
+[fineness ratio][ref_fineness]
+
+$$
+ f \equiv \frac{L}{D_b}, \qquad A = \frac{\pi D_b^2}{4}, \qquad S = \pi D_b L, \qquad V_c = A L 
+\tag{1}
+$$
+
+**Equation 2, Scaling of Area and Volume at Fixed Shape.**
+The frontal area scales with the square of the diameter, the side area with diameter times length and the volume with the square of the diameter times the length.
+
+$$
+ A \propto D_b^{2}, \qquad S \propto D_b L, \qquad V_c \propto D_b^{2} L 
+\tag{2}
+$$
+
+**Equation 3, Length, Diameter and Fineness Ratios of the Two Vehicles.**
+The published dimensions give the X-64A 44.7 percent of the RS1's length, 131.2 percent of its diameter and a fineness ratio of about five against 14.67.
+
+$$
+ \frac{12.0}{26.8224} = 0.4474, \qquad \frac{2.4}{1.8288} = 1.3123, \qquad f = \frac{12.0}{2.4} = 5.00 \quad \text{against} \quad \frac{26.8224}{1.8288} = 14.667, \qquad \frac{14.667}{5.00} = 2.933 
+\tag{3}
+$$
+
+*Equation 4, Bespoke Enclosed Volumes of the Equivalent Cylinders.*
+Treating each vehicle as a cylinder of its published length and diameter, a simplification the article chooses, gives the X-64A 77.1 percent of the RS1's volume.
+
+$$
+ V_c = \frac{\pi \left( 2.4 \right)^2}{4} \left( 12.0 \right) = 54.29, \qquad V_c = \frac{\pi \left( 1.8288 \right)^2}{4} \left( 26.8224 \right) = 70.46, \qquad \frac{54.29}{70.46} = 1.7222 \times 0.4474 = 0.7705 
+\tag{4}
+$$
+
+**Equation 5, Equation of Motion Along the Flight Path.**
+Newton's second law along the flight path balances the mass times the acceleration against thrust, drag and the component of weight.
+
+$$
+ m \frac{\mathrm{d} v}{\mathrm{d} t} = F - D - m g \sin \gamma 
+\tag{5}
+$$
+
+**Equation 6, Specific Force Sensed by an Accelerometer.**
+A body-mounted accelerometer senses the non-gravitational force per unit mass, so the thrust is the mass times the sensed specific force plus the drag.
+[proper acceleration][ref_specific_force]
+
+$$
+ a_s = \frac{F - D}{m}, \qquad F = m \, a_s + D 
+\tag{6}
+$$
+
+**Equation 7, Specific Force Along the Body Axis at Angle of Attack.**
+Along the body axis the accelerometer senses thrust less the axial aerodynamic force, which is the drag and normal force resolved through the angle of attack.
+
+$$
+ a_s = \frac{F - X_a}{m}, \qquad X_a = D \cos \alpha - N_a \sin \alpha 
+\tag{7}
+$$
+
+**Equation 8, Vehicle Mass From the Integrated Propellant Flow.**
+The instantaneous mass is the initial mass less the integral of the propellant mass flow.
+
+$$
+ m(t) = m_0 - \int_{0}^{t} \dot{m}(s) \, \mathrm{d}s 
+\tag{8}
+$$
+
+**Equation 9, Propagation of Independent Errors Into Thrust.**
+Treating the mass, accelerometer and drag errors as independent, the thrust error adds their contributions in quadrature.
+
+$$
+ \left( \delta F \right)^2 = \left( a_s \, \delta m \right)^2 + \left( m \, \delta a_s \right)^2 + \left( \delta D \right)^2 
+\tag{9}
+$$
+
+*Equation 10, Bespoke Relative Thrust Error Budget in the Drag Fraction.*
+Dividing by the thrust and introducing the drag fraction, the article's budget attenuates the instrument terms by one less the drag fraction and scales the drag-model term by the drag fraction.
+
+$$
+ \left( \frac{\delta F}{F} \right)^2 = \left( 1 - d \right)^2 \left[ \left( \frac{\delta m}{m} \right)^2 + \left( \frac{\delta a_s}{a_s} \right)^2 \right] + d^2 \left( \frac{\delta D}{D} \right)^2 
+\tag{10}
+$$
+
+*Equation 11, Bespoke Instrument Floor at Zero Drag.*
+With no drag the article's budget collapses to the root sum of squares of the mass and accelerometer errors.
+
+$$
+ \frac{\delta F}{F}\Big\rvert_{d = 0} = \sqrt{ \left( \frac{\delta m}{m} \right)^2 + \left( \frac{\delta a_s}{a_s} \right)^2 } 
+\tag{11}
+$$
+
+*Equation 12, Bespoke Instrument Floor Against the Effect.*
+Assumed errors of one percent in mass and half a percent in specific force give a floor of 1.12 percent, which is 21.1 percent of the 5.3 percent gain carried over from the X-63A article.
+
+$$
+ \frac{\delta F}{F}\Big\rvert_{d = 0} = \sqrt{ \left( 0.010 \right)^2 + \left( 0.005 \right)^2 } = 0.01118, \qquad \frac{0.01118}{0.053} = 0.211 
+\tag{12}
+$$
+
+**Equation 13, Dynamic Pressure and Drag.**
+The dynamic pressure is half the density times the square of the speed, and the drag is the dynamic pressure times the drag coefficient and the reference area.
+[dynamic pressure][ref_dynamic_pressure]
+
+$$
+ q = \tfrac{1}{2} \rho v^2, \qquad D = q \, C_D A 
+\tag{13}
+$$
+
+**Equation 14, Density From the Perfect Gas Law.**
+The density at an altitude follows from the standard atmosphere pressure and temperature through the perfect gas law.
+[U.S. Standard Atmosphere 1976 1976][ref_usatm1976]
+
+$$
+ \rho(h) = \frac{p_a(h)}{R \, T(h)} 
+\tag{14}
+$$
+
+**Equation 15, Temperature in a Layer of the Standard Atmosphere.**
+The temperature rises or falls linearly from the base of a layer at its lapse rate.
+[defining constants and abbreviated tables][ref_atm_constants]
+
+$$
+ T(h) = T_0 + \lambda \left( h - h_0 \right) 
+\tag{15}
+$$
+
+**Equation 16, Pressure in a Layer of the 1976 Standard Atmosphere.**
+The pressure follows the hydrostatic power law in a layer with a lapse rate and the exponential form in an isothermal layer.
+[U.S. Standard Atmosphere 1976 1976][ref_usatm1976]
+[defining constants and abbreviated tables][ref_atm_constants]
+
+$$
+ p_a(h) = p_0 \left( 1 + \frac{\lambda \left( h - h_0 \right)}{T_0} \right)^{-\frac{g_0}{R \lambda}}, \qquad p_a(h) = p_0 \exp\left( -\frac{g_0 \left( h - h_0 \right)}{R T_0} \right) 
+\tag{16}
+$$
+
+**Equation 17, Speed of Sound and Mach Number.**
+The speed of sound follows from the ratio of specific heats, the gas constant and the temperature, and the Mach number is the speed over it.
+[defining constants and abbreviated tables][ref_atm_constants]
+
+$$
+ c = \sqrt{\kappa R T}, \qquad M = \frac{v}{c} 
+\tag{17}
+$$
+
+**Equation 18, Density Scale Height in a Layer With a Lapse Rate.**
+The density scale height is the gas constant times the temperature over standard gravity plus the gas constant times the lapse rate, so it equals the pressure scale height only in an isothermal layer.
+[scale height][ref_scale_height]
+
+$$
+ H_\rho \equiv -\frac{\rho}{\mathrm{d}\rho / \mathrm{d}h} = \frac{R \, T}{g_0 + R \lambda} 
+\tag{18}
+$$
+
+**Equation 19, Condition for Maximum Dynamic Pressure.**
+Setting the derivative of the logarithm of dynamic pressure to zero places its peak where the vertical speed over the density scale height equals twice the relative rate of acceleration.
+
+$$
+ \frac{\mathrm{d}}{\mathrm{d}t} \ln q = -\frac{v \sin \gamma}{H_\rho} + \frac{2}{v}\frac{\mathrm{d}v}{\mathrm{d}t} = 0 \qquad \Longrightarrow \qquad v^2 \sin \gamma = 2 H_\rho \frac{\mathrm{d}v}{\mathrm{d}t} 
+\tag{19}
+$$
+
+*Equation 20, Bespoke Gravity-Turn Ascent Model.*
+The article models the flight-path angle by a pitch-program exponent and the speed by a power law in time, and integrates the vertical speed to the altitude, with the exponents chosen so that the published cut-off of 75 kilometres is met.
+[gravity turn][ref_gravity_turn]
+[ABL Payload User's Guide][ref_abl_pug]
+
+$$
+ \gamma(t) = \frac{\pi}{2}\left( 1 - \frac{t}{t_b} \right)^{k}, \qquad v(t) = v_b \left( \frac{t}{t_b} \right)^{p}, \qquad h(t) = \int_{0}^{t} v(s) \sin \gamma(s) \, \mathrm{d}s 
+\tag{20}
+$$
+
+*Equation 21, Bespoke Peak Dynamic Pressure of the Central Profile.*
+The peak dynamic pressure of 71.6 kilopascals is evaluated at the altitude and Mach number that the central profile, with a speed exponent the article takes as 1.0, gives.
+
+$$
+ q = \tfrac{1}{2} \rho v^2 = \tfrac{1}{2} \kappa \, p_a M^2, \qquad T = 288.15 - 0.0065 \left( 8{,}760.5 \right) = 231.21, \qquad p_a = 101{,}325 \left( \frac{231.21}{288.15} \right)^{5.2559} = 31{,}853, \qquad q = \tfrac{1}{2} \left( 1.4 \right) \left( 31{,}853 \right) \left( 1.792 \right)^2 = 71{,}603 
+\tag{21}
+$$
+
+*Equation 22, Bespoke Density Scale Height at the Central Peak.*
+The density scale height evaluated at the central profile's peak altitude is 8,358 metres, so the ratio of 1.048 between the two is a property of that assumed profile and not a constant.
+
+$$
+ H_\rho = \frac{R \, T}{g_0 + R \lambda} = \frac{\left( 287.053 \right) \left( 231.21 \right)}{9.80665 - \left( 287.053 \right) \left( 0.0065 \right)} = 8{,}358, \qquad \frac{8{,}761}{8{,}358} = 1.048 
+\tag{22}
+$$
+
+**Equation 23, Pressure-Time Integral.**
+The pressure-time integral is the integral of ambient pressure over the burn.
+
+$$
+ J = \int_{0}^{t_b} p_a\left( t \right) \, \mathrm{d}t 
+\tag{23}
+$$
+
+*Equation 24, Bespoke Share of the Pressure-Time Integral Collected by a Time.*
+The article defines the fraction of the integral collected by a given time and evaluates it at the peak of dynamic pressure across its family of assumed ascent profiles.
+
+$$
+ \chi\left( t \right) = \frac{1}{J} \int_{0}^{t} p_a\left( s \right) \mathrm{d}s, \qquad \chi\left( t_{1/2} \right) = \tfrac{1}{2}, \qquad \chi\left( t_q \right) = 0.836 \text{ to } 0.953, \qquad \frac{t_q}{t_{1/2}} = \frac{25.039}{11.946} = 2.096 \text{ to } \frac{70.295}{28.292} = 2.485 
+\tag{24}
+$$
+
+*Equation 25, Bespoke Drag Fraction.*
+The article defines the drag fraction as the drag over the thrust, written through the dynamic pressure, drag coefficient and frontal area.
+
+$$
+ d \equiv \frac{D}{F} = \frac{q \, C_D A}{F} 
+\tag{25}
+$$
+
+**Equation 26, Thrust-to-Weight Ratio and Ballistic Coefficient.**
+The initial thrust-to-weight ratio is thrust over initial weight, and the ballistic coefficient is initial mass over drag coefficient times reference area.
+
+$$
+ \psi \equiv \frac{F}{m_0 g_0}, \qquad B \equiv \frac{m_0}{C_D A} 
+\tag{26}
+$$
+
+*Equation 27, Bespoke Drag Fraction in Vehicle Groups.*
+Combining the article's drag fraction with the two groups gives it as the dynamic pressure over the thrust-to-weight ratio, standard gravity and the ballistic coefficient.
+
+$$
+ d = \frac{q}{\psi \, g_0 B} 
+\tag{27}
+$$
+
+*Equation 28, Bespoke Drag Fraction Proportional to Dynamic Pressure.*
+Holding the thrust and drag coefficient constant through the burn, as the article assumes, the ratio of drag fractions at two instants is the ratio of dynamic pressures.
+
+$$
+ \frac{d\left( t_1 \right)}{d\left( t_2 \right)} = \frac{q\left( t_1 \right)}{q\left( t_2 \right)} 
+\tag{28}
+$$
+
+*Equation 29, Bespoke Drag-Model Accuracy Requirement.*
+Inverting the article's budget for a drag term allowed a share $\beta$ of an effect $\Delta$ gives the drag-model accuracy required at each drag fraction.
+
+$$
+ d \, \frac{\delta D}{D} \le \beta \Delta \qquad \Longrightarrow \qquad \frac{\delta D}{D} \le \frac{\beta \Delta}{d} 
+\tag{29}
+$$
+
+*Equation 30, Bespoke Critical Drag Fraction.*
+The article's critical drag fraction is the one at which the whole budget equals the effect being measured.
+
+$$
+ \left( 1 - d_{\mathrm{crit}} \right)^{2} \left[ \left( \frac{\delta m}{m} \right)^{2} + \left( \frac{\delta a_s}{a_s} \right)^{2} \right] + d_{\mathrm{crit}}^{2} \left( \frac{\delta D}{D} \right)^{2} = \Delta^{2} 
+\tag{30}
+$$
+
+*Equation 31, Bespoke Drag Fraction at the Half-Signal Time.*
+A peak drag fraction of three tenths, which the article takes as a high value, scales with the dynamic pressure ratio to between 0.025 and 0.17 at the time half the signal is collected.
+
+$$
+ d\left( t_{1/2} \right) = d\left( t_q \right) \frac{q\left( t_{1/2} \right)}{q\left( t_q \right)} = 0.30 \times 0.082 = 0.025 \quad \text{to} \quad 0.30 \times 0.572 = 0.172, \qquad \frac{57.20}{8.201} = 6.97 
+\tag{31}
+$$
+
+**Equation 32, Static Margin in Calibres.**
+The static margin is the distance of the centre of pressure aft of the centre of mass divided by the body diameter.
+
+$$
+ S_m = \frac{x_{cp} - x_{cm}}{D_b} 
+\tag{32}
+$$
+
+**Equation 33, Static Margin as a Fraction of Length.**
+A margin in calibres is that margin over the fineness ratio when measured as a fraction of the vehicle's length.
+
+$$
+ \frac{x_{cp} - x_{cm}}{L} = \frac{S_m}{f} 
+\tag{33}
+$$
+
+**Equation 34, Slender-Body Normal-Force Slopes of Nose and Cylinder.**
+In inviscid slender-body theory the nose contributes a normal-force slope of two per radian and a cylindrical body contributes none.
+[Barrowman 1967][ref_barrowman]
+
+$$
+ C_{N\alpha,\,\mathrm{nose}} = 2, \qquad C_{N\alpha,\,\mathrm{body}} = 0 
+\tag{34}
+$$
+
+**Equation 35, Tip-Over Angle.**
+A vehicle tips when the ground projection of its centre of mass leaves the convex hull of its contact points, at a tilt whose tangent is the lever arm over the height of the centre of mass.
+[convex hull][ref_convex_hull]
+
+$$
+ \tan \theta_{\mathrm{tip}}\left( \phi \right) = \frac{\ell\left( \phi \right)}{h_{cm}} 
+\tag{35}
+$$
+
+**Equation 36, Lever Arm of a Regular Polygon Footprint.**
+For legs at the vertices of a regular polygon the distance along a ray to the hull boundary runs from the circumradius over a leg to the inradius across a gap.
+
+$$
+ \ell\left( \phi \right) = \frac{r \cos\left( \pi / N \right)}{\cos\left( \pi / N - \lvert a \rvert \right)}, \qquad \ell_{\max} = r, \qquad \ell_{\min} = r \cos\left( \frac{\pi}{N} \right) 
+\tag{36}
+$$
+
+**Equation 37, Support Function of a Regular Polygon.**
+The support function of the footprint is the largest projection of a leg position onto the direction, which is the circumradius times the cosine of the angle from the nearest leg.
+[support function of a convex set][ref_support_function]
+
+$$
+ h_s\left( \phi \right) = \max_{k} \, r \cos\left( \theta_k - \phi \right) = r \cos a 
+\tag{37}
+$$
+
+**Equation 38, Anisotropy of a Regular Polygon Footprint.**
+The ratio of the longest to the shortest lever arm is the secant of pi over the number of legs.
+
+$$
+ \frac{\ell_{\max}}{\ell_{\min}} = \frac{1}{\cos\left( \pi / N \right)} 
+\tag{38}
+$$
+
+**Equation 39, Anisotropy for Three, Four, Eight and Twelve Legs.**
+The secant of pi over the leg count is exactly two for three legs and the square root of two for four.
+
+$$
+ \frac{1}{\cos\left( \pi / 3 \right)} = 2, \qquad \frac{1}{\cos\left( \pi / 4 \right)} = \sqrt{2} = 1.4142, \qquad \frac{1}{\cos\left( \pi / 8 \right)} = 1.0824, \qquad \frac{1}{\cos\left( \pi / 12 \right)} = 1.0353 
+\tag{39}
+$$
+
+*Equation 40, Bespoke Sides of the Footprint Hull Against the X-63A Control Polygon.*
+The footprint hull has one side per leg for every count, while the control polygon of the X-63A article's idealised throttled ring has $N$ sides for even counts and $2N$ for odd ones.
+
+$$
+ m_h = N \quad \text{for every } N, \qquad m_c = \begin{cases} N, & N \text{ even} \\ 2N, & N \text{ odd} \end{cases} 
+\tag{40}
+$$
+
+*Equation 41, Bespoke Shortest Lever Arm Over the Assumed Footprint Radii.*
+The footprint radius, which is not published, is swept from the body radius of 1.2 metres to an assumed 3.0 metres for four legs.
+
+$$
+ r \ge \frac{D_b}{2} = 1.2, \qquad \ell_{\min} = r \cos\left( \frac{\pi}{4} \right) = 0.8485 \quad \text{at} \quad r = 1.2, \qquad \ell_{\min} = 2.1213 \quad \text{at} \quad r = 3.0 
+\tag{41}
+$$
+
+*Equation 42, Bespoke Tip-Over Angles Over the Assumed Sweep.*
+The tip-over angle is evaluated at assumed footprint radii and centre-of-mass heights, giving 8.05 degrees in the least favourable corner and 35.26 degrees across a gap in the most favourable.
+[Invocon X-64][ref_ds_x64]
+
+$$
+ \theta_{\mathrm{tip}} = \tan^{-1} \frac{\ell_{\min}}{h_{cm}} = \tan^{-1} \frac{0.8485}{6.0} = 8.05 \text{ degrees}, \qquad \tan^{-1} \frac{2.1213}{3.0} = 35.26 \text{ degrees}, \qquad \tan^{-1} \frac{\ell_{\max}}{h_{cm}} = \tan^{-1} \frac{3.0}{3.0} = 45.00 \text{ degrees} 
+\tag{42}
+$$
+
+**Equation 43, Azimuthal Fourier Series.**
+A quantity distributed around the annulus is expanded as a mean plus cosine and sine harmonics in the azimuthal angle.
+
+$$
+ \Psi\left( \vartheta \right) = A_0 + \sum_{\mu = 1}^{\infty} \left[ A_\mu \cos \mu \vartheta + B_\mu \sin \mu \vartheta \right] 
+\tag{43}
+$$
+
+**Equation 44, Discrete Estimators of the Harmonic Coefficients.**
+With $N$ equally spaced sensors each coefficient is estimated by a weighted sum of the sensor readings.
+[Shannon 1949][ref_shannon_1949]
+[Nyquist 2002][ref_nyquist_1928]
+
+$$
+ \hat{A}_\mu = \frac{2}{N}\sum_{j=0}^{N-1} \Psi\left( \vartheta_j \right) \cos \mu \vartheta_j, \qquad \hat{B}_\mu = \frac{2}{N}\sum_{j=0}^{N-1} \Psi\left( \vartheta_j \right) \sin \mu \vartheta_j 
+\tag{44}
+$$
+
+**Equation 45, Highest Harmonic Resolvable in Both Phases.**
+The mean costs one sensor and each harmonic two, so $N$ sensors resolve harmonics up to the floor of half of $N$ less one.
+[aliasing][ref_aliasing]
+[discrete Fourier transform][ref_dft]
+
+$$
+ 1 + 2 \mu_{\max} \le N \qquad \Longrightarrow \qquad \mu_{\max} = \left\lfloor \frac{N - 1}{2} \right\rfloor 
+\tag{45}
+$$
+
+**Equation 46, Aliasing of an Azimuthal Harmonic.**
+The discrete transform folds harmonic $\mu$ onto harmonic $\mu$ modulo $N$, reflected into the resolvable range.
+[aliasing][ref_aliasing]
+[discrete Fourier transform][ref_dft]
+
+$$
+ \mu \; \longmapsto \; \min\left( \mu \bmod N, \; N - \left( \mu \bmod N \right) \right) 
+\tag{46}
+$$
+
+**Equation 47, Harmonic N Aliases Onto the Mean.**
+Harmonic $N$ sampled at $N$ equally spaced points has the same discrete mean as a constant of the same phase.
+
+$$
+ \frac{1}{N}\sum_{j=0}^{N-1} \cos\left( N \, \vartheta_j + \varphi \right) = \cos \varphi \qquad \text{for every } N \text{ and every } \varphi 
+\tag{47}
+$$
+
+**Equation 48, Aggregate Data Rate and Volume.**
+The aggregate rate is the channel count times the sample rate times the bits per sample, and the volume over a burn is that rate times the burn time in bytes.
+
+$$
+ \mathcal{R} = n_c f_s b, \qquad V = \frac{\mathcal{R} \, t_b}{8} 
+\tag{48}
+$$
+
+*Equation 49, Bespoke Telemetry Deficit Ratio.*
+The article defines the deficit as the aggregate data rate over the downlink capacity, which it compares across an assumed capacity of one half to twenty megabits per second.
+
+$$
+ \eta_\ell = \frac{\mathcal{R}}{\mathcal{R}_\ell} = \frac{n_c f_s b}{\mathcal{R}_\ell} 
+\tag{49}
+$$
+
+*Equation 50, Bespoke Sensitivity of the Fineness Ratio to Twenty Percent Errors.*
+Perturbing each published dimension by an assumed twenty percent moves the fineness ratio between 4.00 and 6.25 and leaves the parent vehicle at least 2.35 times as slender.
+
+$$
+ f = \frac{12.0}{2.4} = 5.00, \qquad \frac{1.2 \times 12.0}{2.4} = 6.00, \qquad \frac{12.0}{0.8 \times 2.4} = 6.25, \qquad \frac{0.8 \times 12.0}{2.4} = 4.00, \qquad \frac{12.0}{1.2 \times 2.4} = 4.17, \qquad \frac{14.67}{6.25} = 2.35 
+\tag{50}
+$$
+
+### Notation
+
+- $f$, the fineness ratio, being length divided by diameter
+- $D_b$, the body diameter
+- $L$, the vehicle length
+- $A$, the reference frontal area
+- $S$, the wetted side area of the equivalent cylinder
+- $V_c$, the enclosed volume of the equivalent cylinder
+- $F$, the thrust
+- $D$, the aerodynamic drag
+- $m$, the instantaneous vehicle mass, with $m_0$ the initial mass
+- $\gamma$, the flight-path angle above the horizontal
+- $a_s$, the specific force sensed by a body-mounted accelerometer
+- $X_a$, the axial component of the aerodynamic force
+- $N_a$, the aerodynamic normal force
+- $\alpha$, the angle of attack
+- $\dot{m}$, the propellant mass flow
+- $\delta$, the uncertainty in the quantity that follows it
+- $d$, the drag fraction, being drag divided by thrust
+- $\Delta$, the size of the effect being measured, as a fraction
+- $q$, the dynamic pressure
+- $\rho$, the atmospheric mass density
+- $C_D$, the drag coefficient
+- $\lambda$, the temperature lapse rate of an atmospheric layer
+- $\kappa$, the ratio of specific heats of air
+- $c$, the speed of sound in the atmosphere
+- $M$, the Mach number
+- $H_\rho$, the density scale height of the atmosphere
+- $k$, the pitch-program exponent
+- $p$, the speed-profile exponent
+- $v_b$, the speed at main engine cut-off
+- $J$, the time integral of ambient pressure over the burn
+- $\chi$, the share of the pressure-time integral collected by a given time
+- $t_{1/2}$, the time by which half the pressure-time integral is collected
+- $t_q$, the time of peak dynamic pressure
+- $\psi$, the initial thrust-to-weight ratio
+- $B$, the ballistic coefficient, being initial mass over drag area
+- $\beta$, the share of the effect allotted to the drag term
+- $d_{\mathrm{crit}}$, the drag fraction at which the total error equals the effect
+- $S_m$, the static margin in calibres
+- $x_{cp}$, the axial position of the centre of pressure, with $x_{cm}$ that of the centre of mass
+- $C_{N\alpha,\,\mathrm{nose}}$, the normal-force coefficient slope of the nose alone, referenced to the frontal area
+- $\theta_{\mathrm{tip}}$, the tilt angle at which the vehicle tips over
+- $h_{cm}$, the height of the centre of mass above the ground
+- $\ell$, the lever arm from the tilt axis to the footprint boundary
+- $\ell_{\min}$, the shortest lever arm, across the gap between two legs, with $\ell_{\max}$ the longest
+- $h_s$, the support function of the footprint hull
+- $r$, the radius of the circle of legs
+- $m_h$, the number of sides of the footprint hull, with $m_c$ that of the X-63A article's control polygon
+- $\Psi$, the measurand distributed around the annulus
+- $\vartheta$, the azimuthal angle around the annulus
+- $\mu$, the azimuthal harmonic index
+- $\mu_{\max}$, the highest azimuthal harmonic resolvable in both phases
+- $\hat{A}_\mu$, the estimate of the cosine coefficient from a finite ring of sensors, with $\hat{B}_\mu$ that of the sine coefficient
+- $\mathcal{R}$, the aggregate data rate
+- $\mathcal{R}_\ell$, the downlink capacity
+- $\eta_\ell$, the ratio of aggregate data rate to downlink capacity
+- $n_c$, the number of instrumentation channels
+- $f_s$, the per-channel sample rate
 
 ## References
 

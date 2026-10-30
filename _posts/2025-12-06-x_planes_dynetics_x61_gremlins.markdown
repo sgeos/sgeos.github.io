@@ -54,12 +54,14 @@ The programme was announced in 2015 by the Defense Advanced Research Projects Ag
 
 $$
 \frac{145\ \text{lb}}{100\ \text{lb}} = 1.45
+\tag{1}
 $$
 
 **A stated duration is rare in a programme record and this one can be measured against the outcome.** Four years from the Request for Information falls on 9 November 2018. The first free flight came 5.04 years after the request, or **1.26 times the plan**, and the airborne recovery that was the full-system demonstration came 6.97 years after it, giving **1.74 times**. Counted in days from 9 November 2014 to the first free flight on 23 November 2019 and to the recovery on 29 October 2021, against a plan of four years of 365.25 days each, the two ratios are these.
 
 $$
 \frac{1{,}840\ \text{days}}{4 \times 365.25\ \text{days}} = \frac{5.04\ \text{years}}{4\ \text{years}} = 1.26 , \qquad \frac{2{,}546\ \text{days}}{4 \times 365.25\ \text{days}} = \frac{6.97\ \text{years}}{4\ \text{years}} = 1.74
+\tag{2}
 $$
 
 **The agency also named its antecedents, and it named them correctly.** The 2015 programme announcement says the effort aims to leverage prior success in developing automated aerial refuelling and the agency's current efforts to create advanced capture systems for ships \[[DARPA][ref_darpa_2015]\], the second of which is the Tern programme and the shipboard capture work that came out of it \[[DARPA][ref_darpa_tern_2015]\] \[[Tern][ref_darpa_tern]\]. **Both are the right ancestors**, and the article's comparison sections reach the same two by a different route.
@@ -100,6 +102,7 @@ The likeliest reading is that the register records the date the allocation was m
 
 $$
 \frac{5{,}852{,}178.74\ \text{dollars}}{52{,}365{,}639.91\ \text{dollars}} = 0.1118
+\tag{3}
 $$
 
 ## Sizing From First Principles
@@ -114,12 +117,14 @@ Induced drag depends on the square of the weight divided by the square of the sp
 
 $$
 D_i = \frac{W^2}{q \, \pi b_v^2 e}
+\tag{4}
 $$
 
 Collecting the two published quantities into one parameter removes every other property of the aeroplane from the comparison.
 
 $$
 \Lambda = \frac{W^2}{b_v^2} \qquad \Longrightarrow \qquad D_i = \frac{\Lambda}{q \, \pi e}
+\tag{5}
 $$
 
 **Wing area is published for none of the three vehicles and is needed for none of them.** The X-61A spans 3.47 metres at 680 kilograms, the AGM-86B spans 3.66 metres at 1,458 kilograms and the BGM-109 spans 2.67 metres at 1,315 kilograms \[[Dynetics X-61 Gremlins][ref_x61_wikipedia]\] \[[AGM-86 ALCM][ref_alcm]\] \[[BGM-109 Tomahawk][ref_tomahawk]\].
@@ -138,16 +143,19 @@ The wing area is not published. **It is also not needed as an estimate, because 
 
 $$
 L = q S C_L = W \quad \Longrightarrow \quad C_L = \frac{2 W}{\rho V^2 S}
+\tag{6}
 $$
 
 $$
 S \;\geq\; \frac{2 W}{\rho V^2 C_{L_{\max}}}
+\tag{7}
 $$
 
 Read the other way round, the same relation is the lowest speed at which a given wing can hold the vehicle up at all.
 
 $$
 V_{\min} = \sqrt{\frac{2 W}{\rho S \, C_{L_{\max}}}}
+\tag{8}
 $$
 
 The vehicle demonstrably held formation with a C-130 and was photographed doing so, so its wing is at least large enough for level flight at the transport's speed. Across formation speeds taken as 150 to 200 knots, and across lift coefficients of 1.0 and 1.2 taken for a plain wing with no high-lift device, the floor comes out as follows.
@@ -162,6 +170,7 @@ Taking the middle of that, at 1.43 square metres, the published span implies an 
 
 $$
 C_D = C_{D_0} + \frac{C_L^2}{\pi A e} , \qquad A = \frac{b_v^2}{S} , \qquad \bar{c} = \frac{S}{b_v}
+\tag{9}
 $$
 
 The relations are the standard ones and are set out in any of the design texts \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\] \[[Anderson, Aircraft performance and design][book_anderson_performance]\]. **Every one of those is an upper or lower bound and not a measurement**, and the sections below say which way each of them errs whenever it matters.
@@ -172,6 +181,7 @@ The relations are the standard ones and are set out in any of the design texts \
 
 $$
 \left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D_0}}} , \qquad C_{L_{\mathrm{opt}}} = \sqrt{\pi A e \, C_{D_0}} , \qquad C_{D_{\min}} = 2 C_{D_0}
+\tag{10}
 $$
 
 At the reference wing area the aspect ratio is 8.4, and at a zero-lift drag coefficient of 0.030 with a span efficiency of 0.80 the ceiling is **13.27**, reached at a lift coefficient of 0.796. **So the band the range section carries is not arbitrary. Its upper end is very nearly the best the geometry allows**, and the middle of it is where a real airframe with a turbofan hung on it would sit.
@@ -182,6 +192,7 @@ A best-range cruise holds that lift coefficient, so the speed it corresponds to 
 
 $$
 V_{\mathrm{md}} = \sqrt{\frac{2 W}{\rho S \, C_{L_{\mathrm{opt}}}}}
+\tag{11}
 $$
 
 | Altitude | Speed at the best lift to drag ratio | Mach number |
@@ -194,6 +205,7 @@ $$
 
 $$
 M = \frac{V_{\mathrm{md}}}{a} = \frac{175.5\ \text{m/s}}{\sqrt{1.4 \times 287.05 \times 218.8}\ \text{m/s}} = \frac{175.5}{296.5} = 0.59
+\tag{12}
 $$
 
 It gives an independent reason to read the figure as a chosen cruise condition rather than as a limit, reached without any reference to the engine.
@@ -210,14 +222,17 @@ The consequence is computable and it needs three relations. An engine delivers l
 
 $$
 T(h, M) = T_0 \left( \frac{\rho}{\rho_0} \right)^{0.9} \left( 1 + \tfrac{1}{2} \left( \gamma - 1 \right) M^2 \right)^{1/2}
+\tag{13}
 $$
 
 $$
 C_D = C_{D_0} + \frac{C_L^2}{\pi A e} + K_w \left( M - M_{\mathrm{dd}} \right)^3 \quad \text{for } M > M_{\mathrm{dd}}
+\tag{14}
 $$
 
 $$
 T(h, M_{\max}) = D(h, M_{\max})
+\tag{15}
 $$
 
 **Both the lapse exponent and the wave-drag coefficient are assumed**, and both are chosen to flatter the larger rating rather than the smaller, because the conclusion is that even a generous installed thrust fails to make the published Mach number a ceiling.
@@ -235,6 +250,7 @@ The result is not what one would expect.
 
 $$
 P_s = \frac{\left( T - D \right) V}{W}
+\tag{16}
 $$
 
 At the published Mach number the specific excess power on the smaller rating is 27.9 metres per second, a climb rate a cruise missile has no use for. **A vehicle that must rejoin a moving aeroplane at a time and place it does not control needs margin that a vehicle flying to a fixed point on the ground does not**, and the thrust to weight shows that margin.
@@ -247,18 +263,21 @@ The mission the programme's announcement described is to fly out 300 to 500 naut
 
 $$
 R = \frac{V}{c \, g} \frac{L}{D} \ln \frac{m_i}{m_f} \quad \Longrightarrow \quad 1 - \frac{m_f}{m_i} = 1 - \exp \left( - \frac{R \, c \, g}{V \, L/D} \right)
+\tag{17}
 $$
 
 Every altitude in this article enters through the same three lines, being a linear temperature lapse through the troposphere, the hydrostatic pressure that follows from it, and the perfect gas law.
 
 $$
 \Theta = \Theta_0 + \beta_0 h , \qquad \frac{p}{p_0} = \left( \frac{\Theta}{\Theta_0} \right)^{-g / \beta_0 R_{\mathrm{air}}} , \qquad \rho = \frac{p}{R_{\mathrm{air}} \Theta}
+\tag{18}
 $$
 
 The speed that range is flown at is a Mach number rather than a speed, so it depends on the temperature and therefore on the altitude \[[International Standard Atmosphere][ref_icao_atmosphere]\] \[[Dynamic pressure][ref_dynamic_pressure]\].
 
 $$
 q = \tfrac{1}{2} \rho V^2 , \qquad V = M a , \qquad a = \sqrt{\gamma R_{\mathrm{air}} \Theta}
+\tag{19}
 $$
 
 At the published Mach number and at 25,000 feet the true airspeed is 185.8 metres per second, equal to 361 knots.
@@ -267,6 +286,7 @@ At the published Mach number and at 25,000 feet the true airspeed is 185.8 metre
 
 $$
 \text{endurance} = \frac{1}{c \, g} \frac{L}{D} \ln \frac{m_i}{m_f} = \frac{R}{V}
+\tag{20}
 $$
 
 | Lift to drag ratio | Fuel out and back | Fuel flow in the hold | Total with one hour of hold | Left for structure and systems |
@@ -279,6 +299,7 @@ $$
 
 $$
 \frac{m_b}{m} = \frac{80.2 + 51.4 \times 1}{680} = \frac{131.6}{680} = 0.194 , \qquad m - m_b - m_p = 680 - 131.6 - 65.7 = 482.7\ \text{kg}
+\tag{21}
 $$
 
 **The specific fuel consumption assumed here is not published for this engine and the lift to drag ratio is not published for this airframe**, so all three rows are given rather than one.
@@ -291,12 +312,14 @@ A wing carrying lift sheds a vortex sheet that rolls up into a pair of counter-r
 
 $$
 \Gamma = \frac{W}{\rho V b'} , \qquad b' = k_b b , \qquad k_b = \frac{\pi}{4}
+\tag{22}
 $$
 
 **The elliptic assumption concerns the carrier's wing rather than the vehicle, and it can be tested from published figures.** A transport at an ordinary cruise lift coefficient carries a loading close to elliptic, and one scraping its maximum does not.
 
 $$
 C_{L_c} = \frac{2 W_c}{\rho V^2 S_c} , \qquad A_c = \frac{b^2}{S_c}
+\tag{23}
 $$
 
 The carrier on the first free flight was a C-130A \[[Kratos][ref_kratos_first_flight]\], and its wing area is 162.1 square metres \[[Lockheed C-130 Hercules][ref_c130]\]. Its weight is taken midway between an empty weight of 59,164 pounds \[[This Day in Aviation][ref_tdia_c130a]\] and a maximum of 124,200 pounds \[[Aeropedia][ref_aeropedia_c130a]\]. **The two sources do not agree on the pair**, since the first gives a takeoff weight of 122,245 pounds and the second an empty weight of 63,000, so the mid weight lies between 90,705 and 93,600 pounds against the 91,682 taken here, and every wake figure below that scales with weight moves by between 1.1 percent down and 2.1 percent up. At a recovery speed of 200 knots at 10,000 feet and that weight, the C-130's lift coefficient is **0.525** on an aspect ratio of 10.07. **That lift coefficient marks an unremarkable cruise condition, so the assumption is an ordinary one**, and this article can establish no more about it.
@@ -305,6 +328,7 @@ The circulation can then be reached a second way, from the lift coefficient rath
 
 $$
 \Gamma = \frac{V S_c C_{L_c}}{2 b'} \qquad \text{which must equal} \qquad \frac{W_c}{\rho V b'}
+\tag{24}
 $$
 
 The two agree to **16 digits**, which they must, because the second expression is the first with the lift written out. **Exact agreement between equivalent formulations is what they ought to produce and is no evidence that the physics is right.** It tests transcription, and the article does not present it as a confirmation.
@@ -313,12 +337,14 @@ The C-130 spans 40.41 metres \[[Lockheed C-130 Hercules][ref_c130]\], so the vor
 
 $$
 w_d = \frac{\Gamma}{2 \pi b'}
+\tag{25}
 $$
 
 That descent is 0.692 metres per second. The rate counts for less than how far it gets in the time available, and that time is set by how far aft the station is and how fast the carrier is going.
 
 $$
 \Delta z = w_d \frac{x}{V}
+\tag{26}
 $$
 
 **It is slow enough to be irrelevant over the distances that matter here.** In the time the flow takes to travel the 125 feet from the wing to the formation station the pair sinks 0.26 metres, less than the length of the vehicle. **The wake does not move out of the way, and the station has to be chosen rather than waited for.**
@@ -329,24 +355,28 @@ A single straight vortex induces a velocity that falls off as the reciprocal of 
 
 $$
 v_\theta = \frac{\Gamma}{2 \pi r}
+\tag{27}
 $$
 
 On the centreline, directly below the aircraft, the two cores are equidistant, so their horizontal components cancel and their vertical components add.
 
 $$
 w(z) = \frac{\Gamma b'}{2 \pi \left[ \left( b'/2 \right)^2 + z^2 \right]}
+\tag{28}
 $$
 
 **What a station keeper fights is not the downwash but its gradient**, because a uniform downward flow is trimmed out once and forgotten while a gradient turns a small position error into a changed airspeed and angle of attack.
 
 $$
 \frac{\mathrm{d} w}{\mathrm{d} z} = - \frac{\Gamma b'}{\pi} \frac{z}{\left[ \left( b'/2 \right)^2 + z^2 \right]^2}
+\tag{29}
 $$
 
 That gradient is zero at the centreline of the wake and zero far below it, so it has a maximum in between. Differentiating once more and setting the result to zero gives the depth of that maximum.
 
 $$
 \frac{\mathrm{d}^2 w}{\mathrm{d} z^2} = 0 \quad \Longrightarrow \quad z_\star = \frac{b'}{2 \sqrt{3}} = \frac{\pi b}{8 \sqrt{3}}
+\tag{30}
 $$
 
 **The circulation cancels. So does the weight, the speed, the density and the altitude.** The worst depth at which to hold station behind a transport aeroplane is a fixed fraction of its wing span and nothing else, and for the C-130 it is 9.16 metres, or 30.1 feet.
@@ -373,40 +403,47 @@ A cable towed through air carries its weight and its drag, and in steady flight 
 
 $$
 f_t = \tfrac{1}{2} \rho V^2 d \, \pi C_f \cos^2 \theta , \qquad f_n = \tfrac{1}{2} \rho V^2 d \, C_{D_n} \sin^2 \theta
+\tag{31}
 $$
 
 $$
 \frac{\mathrm{d} T_c}{\mathrm{d} s} = \mu g \sin \theta + f_t , \qquad T_c \frac{\mathrm{d} \theta}{\mathrm{d} s} = \mu g \cos \theta - f_n
+\tag{32}
 $$
 
 The shape follows from the inclination by two quadratures, and those turn an angle into a position.
 
 $$
 x(s) = \int_0^s \cos \theta \, \mathrm{d}s' , \qquad z(s) = \int_0^s \sin \theta \, \mathrm{d}s'
+\tag{33}
 $$
 
 The boundary condition at the body end is exact rather than assumed, because a body in equilibrium has the cable pulling along the resultant of the body's drag and weight.
 
 $$
 T_c(0) = \sqrt{D_b^2 + W_b^2} , \qquad \tan \theta(0) = \frac{W_b}{D_b}
+\tag{34}
 $$
 
 **Far from the body the inclination stops changing**, and where it stops changing the normal component of the cable's drag exactly carries the normal component of its weight.
 
 $$
 \frac{\mathrm{d} \theta}{\mathrm{d} s} = 0 \quad \Longrightarrow \quad \frac{\sin^2 \theta_c}{\cos \theta_c} = \frac{2 \mu g}{\rho V^2 d \, C_{D_n}}
+\tag{35}
 $$
 
 **That angle contains no tension and no length.** A cable settles to it whatever is on the end and however much of it is paid out, so the depth below the tow point and the distance behind it are locked to each other by a ratio the operator cannot choose.
 
 $$
 \frac{\text{trail}}{\text{depth}} \longrightarrow \cot \theta_c , \qquad \ell \longrightarrow \frac{z}{\sin \theta_c}
+\tag{36}
 $$
 
 At 200 knots at 10,000 feet the airspeed is 102.89 metres per second and the atmosphere relations give a density of 0.9046 kilograms per cubic metre. Taking 0.40 kilograms per metre for a ten millimetre steel wire rope, the tabulated mass of a ten millimetre six by nineteen rope with a steel core \[[Katradis, 6×19 IWRC wire rope][ref_katradis_6x19]\], and a normal drag coefficient taken as 1.2 for its circular section, the equilibrium relation gives the first row of the table. The other two rows repeat it at 0.10 kilograms per metre, taken for a synthetic rope of the same diameter, and at 0.14 kilograms per metre for a six millimetre steel rope, whose tabulated mass is 0.144 \[[Katradis, 6×19 IWRC wire rope][ref_katradis_6x19]\].
 
 $$
 \frac{\sin^2 \theta_c}{\cos \theta_c} = \frac{2 \times 0.40 \times 9.807}{0.9046 \times 102.89^2 \times 0.010 \times 1.2} = 0.0683 \quad \Longrightarrow \quad \theta_c = 14.9^\circ , \qquad \cot \theta_c = 3.76 , \qquad \frac{100\ \text{ft}}{\sin \theta_c} = 389\ \text{ft}
+\tag{37}
 $$
 
 The numbers are these.
@@ -421,12 +458,14 @@ The numbers are these.
 
 $$
 T_c(0) = \sqrt{200^2 + \left( 50 \times 9.807 \right)^2} = 529.6\ \text{N} , \qquad \theta(0) = \arctan \frac{490.4}{200} = 67.8^\circ
+\tag{38}
 $$
 
 **A body 125 feet below and 125 feet behind would need a forty-five degree cable, and the arithmetic gives its cost.** A ten millimetre cable hanging at forty-five degrees at this speed would have to weigh 4.14 kilograms per metre, 10.4 times the 0.40 kilograms per metre taken above for steel wire rope of that diameter. At forty-five degrees the left side of the equilibrium relation is the reciprocal of the square root of two, so the relation can be solved for the linear density directly.
 
 $$
 \theta_c = 45^\circ \quad \Longrightarrow \quad \mu = \frac{\rho V^2 d \, C_{D_n}}{2 \sqrt{2} \, g} = \frac{0.9046 \times 102.89^2 \times 0.010 \times 1.2}{2 \sqrt{2} \times 9.807} = 4.14\ \text{kg/m} , \qquad \frac{4.14}{0.40} = 10.4
+\tag{39}
 $$
 
 **The forward calculation fails to produce the geometry, and the failure locates the design decision.** A passive cable cannot put a docking device where the docking device has to be without either an impractical length of it or an impossible cable, so the body on the end has to fly. **The Bullet is attitude-controlled for that reason**, a conclusion reached by finding out what would happen if it were not.
@@ -437,6 +476,7 @@ A cable under tension carries transverse waves, and a cable of finite length car
 
 $$
 v_c = \sqrt{\frac{T_c}{\mu}} , \qquad F_k = \frac{k v_c}{2 \ell}
+\tag{40}
 $$
 
 For the 150 metre steel rope at the tension computed above, the wave speed is 52.9 metres per second and the first three transverse modes lie at 0.176, 0.352 and 0.529 hertz. **The fundamental has a period of 5.67 seconds.**
@@ -447,16 +487,19 @@ A cable is not only a string. It is a string being dragged sideways through air 
 
 $$
 \mu \frac{\partial^2 y}{\partial t^2} + c_a \frac{\partial y}{\partial t} = T_c \frac{\partial^2 y}{\partial s^2}
+\tag{41}
 $$
 
 $$
 c_a = \rho V d \, C_{D_n} \sin \theta_c
+\tag{42}
 $$
 
 Divided by twice the mass per unit length and the modal frequency, that coefficient is a damping ratio in the ordinary sense.
 
 $$
 \omega_k = \frac{k \pi v_c}{\ell} , \qquad \zeta_k = \frac{c_a}{2 \mu \omega_k}
+\tag{43}
 $$
 
 At this speed and density the coefficient is **0.287 kilograms per metre per second**, and the consequence is large.
@@ -487,10 +530,12 @@ A vertical gust of velocity u meeting a vehicle travelling at V changes the angl
 
 $$
 \Delta \alpha = \frac{u}{V} , \qquad \Delta L = \tfrac{1}{2} \rho V^2 S \, C_{L_\alpha} \Delta \alpha
+\tag{44}
 $$
 
 $$
 \Delta n = \frac{\rho V C_{L_\alpha} u}{2 \, W / S} , \qquad \alpha = g \, \Delta n
+\tag{45}
 $$
 
 **High wing loading is an advantage here and this vehicle has a great deal of it.** At the reference area derived earlier, which is a floor and therefore makes the wing loading an upper bound, a gust of one metre per second produces an incremental load factor of 0.032, an acceleration of 0.314 metres per second squared.
@@ -499,6 +544,7 @@ That sounds negligible until it is integrated twice.
 
 $$
 t_d = \sqrt{\frac{2 \delta}{\alpha}}
+\tag{46}
 $$
 
 | Gust | Acceleration | Out of a six inch window in | Out of a twelve inch window in |
@@ -514,10 +560,12 @@ $$
 
 $$
 \Phi_w(\omega) = \frac{\sigma_w^2 \lambda_w}{\pi V} \frac{1 + \tfrac{8}{3} \left( 1.339 \lambda_w \omega / V \right)^2}{\left[ 1 + \left( 1.339 \lambda_w \omega / V \right)^2 \right]^{11/6}}
+\tag{47}
 $$
 
 $$
 \sigma_w^2 = \int_0^\infty \Phi_w(\omega) \, \mathrm{d} \omega , \qquad \sigma_b^2 = \int_0^{\omega_n} \Phi_w(\omega) \, \mathrm{d} \omega
+\tag{48}
 $$
 
 **The quantity that counts is the share of the total falling inside the loop's band**, because energy above the loop's natural frequency is filtered by the vehicle's mass and energy below it is what the loop has to fight.
@@ -530,6 +578,7 @@ The spectrum is the von Kármán form \[[Von Kármán wind turbulence model][ref
 
 $$
 \frac{t_d}{\tau} = \frac{1}{\tau} \sqrt{\frac{2 \delta}{\alpha}}
+\tag{49}
 $$
 
 Taking a reaction time of a quarter of a second and a datalink round trip of a tenth, both assumed rather than measured, the budget is 0.35 seconds against a drift time of 0.99 seconds. **The margin is 2.82, uncomfortable and far from decisive.**
@@ -538,6 +587,7 @@ Taking a reaction time of a quarter of a second and a datalink round trip of a t
 
 $$
 \arg \mathrm{e}^{- \mathrm{j} \omega \tau} = - \omega \tau \qquad \Longrightarrow \qquad \omega_c \leq \frac{\pi / 2 - \phi_m}{\tau}
+\tag{50}
 $$
 
 | Phase margin | Crossover a 0.35 second loop allows |
@@ -558,6 +608,7 @@ A position hold that must keep the vehicle inside the window against a steady ac
 
 $$
 \omega_n \;\geq\; \sqrt{\frac{\alpha}{\delta}}
+\tag{51}
 $$
 
 For the six inch window that is 0.228 hertz, and for the twelve inch window 0.161 hertz. **The cable's first three transverse modes lie at 0.176, 0.352 and 0.529 hertz.**
@@ -570,18 +621,21 @@ For the six inch window that is 0.228 hertz, and for the twelve inch window 0.16
 
 $$
 \mathcal{S} = \frac{1}{1 + \mathcal{L}} , \qquad \mathcal{T} = \frac{\mathcal{L}}{1 + \mathcal{L}} , \qquad \mathcal{S} + \mathcal{T} = 1
+\tag{52}
 $$
 
 **That a loop cannot reject a disturbance at every frequency is not a rule of thumb. It is an identity.** For a stable loop whose transfer function falls off by at least two orders, the integral of the logarithm of the sensitivity magnitude over all frequencies is exactly zero, so attenuation bought below the crossover is paid for with amplification above it.
 
 $$
 \int_0^\infty \ln \left| \mathcal{S} \left( \mathrm{j} \omega \right) \right| \mathrm{d} \omega = 0
+\tag{53}
 $$
 
 **But a second-order position loop has two standard forms.** Putting the damping term in the forward path leaves a zero in the closed-loop transfer. Putting it in a minor feedback loop around the plant does not.
 
 $$
 \mathcal{S}_{\mathrm{f}} = \frac{\left( \mathrm{j} \omega \right)^2}{\left( \mathrm{j} \omega \right)^2 + 2 \zeta \omega_n \mathrm{j} \omega + \omega_n^2} , \qquad \mathcal{S}_{\mathrm{m}} = \frac{\mathrm{j} \omega \left( \mathrm{j} \omega + 2 \zeta \omega_n \right)}{\left( \mathrm{j} \omega \right)^2 + 2 \zeta \omega_n \mathrm{j} \omega + \omega_n^2}
+\tag{54}
 $$
 
 **That difference looks like a convention and is not. It is a difference of relative degree, and the integral above exposes it.** The minor-loop form has an open loop that falls off by two orders, so its integral is zero and the amplification is compulsory. The forward-path form falls off by only one, so the integral is finite and negative and the loop is free to sit below unity everywhere.
@@ -627,6 +681,7 @@ The vehicle's own dependent systems are what any small jet needs and one thing m
 
 $$
 \frac{\Theta_t}{\Theta} = 1 + \tfrac{1}{2} \left( \gamma - 1 \right) M^2 , \qquad \frac{p_t}{p} = \left( \frac{\Theta_t}{\Theta} \right)^{\gamma / \left( \gamma - 1 \right)}
+\tag{55}
 $$
 
 | Mach number | Total to static pressure | Total to static temperature |
@@ -656,6 +711,7 @@ Dynetics states that it built 5 X-61As and flew **9 sorties totalling 18 hours**
 
 $$
 1 + 1 + 3 + 4 = 9\ \text{sorties} , \qquad 5 - 2 = 3\ \text{vehicles} , \qquad 1.68 + 2.20 + 7.00 + 6.70 = 17.58\ \text{h}
+\tag{56}
 $$
 
 ### The First Flight Was Not When Everyone Says It Was
@@ -682,6 +738,7 @@ The fourth series flew in October 2021. Three vehicles flew four sorties for 6.7
 
 $$
 N_d \;\geq\; 9 + 1 = 10 \quad \Longrightarrow \quad \frac{1}{N_d} \;\leq\; 0.10
+\tag{57}
 $$
 
 ### The Contract Outlived the Flying by Four Years and Stopped Paying After Forty-Seven Days
@@ -692,12 +749,14 @@ $$
 
 $$
 2 + 30 + 15 = 47\ \text{days} , \qquad \frac{2{,}497{,}155.40 + 165{,}393.81}{82{,}680{,}983.37} = \frac{2{,}662{,}549.21}{82{,}680{,}983.37} = 0.0322
+\tag{58}
 $$
 
 **The period of performance is another matter.** The Phase 3 contract runs to 31 October 2025 \[[DARPA Phase III contract][ref_usa_hr001118c0071]\], 1,463 days or 4.01 years after the recovery. Four years from 29 October 2021 include the leap day of February 2024, and two more days reach the end of the period. **So the contract stayed open for four years after it stopped spending**, carried by modifications that move no money at all.
 
 $$
 4 \times 365 + 1 + 2 = 1{,}463\ \text{days} , \qquad \frac{1{,}463\ \text{days}}{365.25\ \text{days per year}} = 4.01\ \text{years}
+\tag{59}
 $$
 
 **The shape is the opposite of the [X-60A][related_post_a357_generation_orbit_x60]'s, and the contrast is instructive.** That programme obligated 30.1 percent of its money after it stopped being publicly visible, and its last positive line paid to ship equipment. **This one stopped paying almost immediately and stayed open anyway.** A contract that is open and unfunded is a different object from one that is quietly spending, and the two programmes are one of each.
@@ -714,6 +773,7 @@ The Phase 3 demonstration objectives included **a final flight test to demonstra
 
 $$
 \frac{30\ \text{min}}{4} = 7.5\ \text{min} , \qquad 1.4\ \text{h} \times 60\ \text{min per hour} = 84\ \text{min} , \qquad \frac{84\ \text{min}}{7.5\ \text{min}} = 11.2
+\tag{60}
 $$
 
 The recovery that was achieved occurred inside a mission of 84 minutes that recovered one vehicle. **The ratio is 11.2, and the article notes at once that the flight was not an attempt at the rate.** The mission was an attempt to capture one vehicle once, the prerequisite, and it succeeded. **The number measures the distance between the prerequisite and the objective, and the programme stopped with that distance still to cover.**
@@ -738,16 +798,19 @@ The second objective is the reuse. **A design life of 20 uses is a claim about r
 
 $$
 P_N = \left( 1 - \epsilon \right)^N
+\tag{61}
 $$
 
 $$
 \bar{n} = \sum_{k=1}^{N} \left( 1 - \epsilon \right)^{k-1} = \frac{1 - \left( 1 - \epsilon \right)^N}{\epsilon}
+\tag{62}
 $$
 
 **And that sum has a ceiling the design life cannot pass.** As the life grows without bound the expected sorties approach the reciprocal of the loss rate and stop, so beyond a certain point specifying a longer life gains nothing.
 
 $$
 \lim_{N \to \infty} \bar{n} = \frac{1}{\epsilon}
+\tag{63}
 $$
 
 | Loss rate per sortie | Sorties a twenty-use airframe delivers | The ceiling at any life | Airframe cost per sortie |
@@ -765,6 +828,7 @@ $$
 
 $$
 n_a = \frac{n_r}{\bar{n}} , \qquad \frac{C}{\bar{n}} \text{, and a sortie really carries } C / \bar{n}
+\tag{64}
 $$
 
 A campaign of one hundred sorties needs 100 airframes if each is expendable, **5.49 if each has a twenty-use life at a one percent loss rate, and 22.4 at the rate the development programme showed.** **The ratio between the last two is 4.07**, the cost in airframes bought, stored and carried of a reliability that nobody measured. **The development rate is not a prediction and the article has already said so.** It is the only rate the record contains.
@@ -773,12 +837,14 @@ A campaign of one hundred sorties needs 100 airframes if each is expendable, **5
 
 $$
 \frac{C}{N} + C_r + \frac{C_s}{n_s} \;<\; C_e
+\tag{65}
 $$
 
 The reusable architecture pays when the amortised airframe, plus whatever a refurbishment costs, plus that sortie's share of the recovery aircraft, comes to less than the expendable vehicle it replaces. **Three of those four terms are not public.** The one that is gives a floor that owes nothing to the others.
 
 $$
 C_e \;>\; \frac{C}{N} \qquad \text{whatever } C_r \text{ and } C_s \text{ may be}
+\tag{66}
 $$
 
 | Uses achieved | Airframe cost per sortie |
@@ -795,6 +861,7 @@ $$
 
 $$
 N^\star = \frac{C}{C_e - C_r - C_s / n_s}
+\tag{67}
 $$
 
 With refurbishment and the recovery sortie set to zero, the most favourable case for reuse and therefore a lower bound on the answer, the break-even is the flyaway cost divided by whatever the expendable costs.
@@ -830,6 +897,7 @@ Between 2009 and 2011 a body of work appeared on what its authors called the **a
 
 $$
 E = \tfrac{1}{2} m \, \Delta V^2
+\tag{68}
 $$
 
 A Corona recovery capsule massed about 54.55 kilograms \[[Discoverer 13][ref_discoverer_13]\] and descended under its canopy at a few metres per second while the recovery aircraft flew past at a speed taken as 150 knots. **The relative kinetic energy at the snatch is therefore roughly 165.1 kilojoules**, essentially all of it the aircraft's airspeed.
@@ -846,6 +914,7 @@ The X-61A arrives at its docking device having already matched speed with it.
 
 $$
 \bar{F} x_s = \tfrac{1}{2} m \, \Delta V^2 \qquad \Longrightarrow \qquad \frac{\bar{F}}{W} = \frac{\Delta V^2}{2 g \, x_s}
+\tag{69}
 $$
 
 | Engagement | Distance | Mean force | As a multiple of the captured weight |
@@ -883,6 +952,7 @@ Three quantitative things follow from the record.
 
 $$
 \epsilon = \frac{2}{9} = 0.222 , \qquad \bar{n} = \frac{1 - \left( 7/9 \right)^{20}}{2/9} = 4.47 , \qquad \frac{\bar{n}}{N} = \frac{4.47}{20} = 0.224
+\tag{70}
 $$
 
 **The two halves of that sentence meet.** A design life saturates against attrition, so a twenty-use requirement makes sense only if the loss rate is well below five percent per sortie. **At the rate the development programme showed, a twenty-use airframe delivers 4.47 sorties**, 22.4 percent of what the requirement asks for. **Nobody claims that rate is what a mature system would show**, and this article does not either. The record does show that the requirement and the only measured rate are on opposite sides of the point where the requirement stops meaning anything.
@@ -1061,6 +1131,7 @@ The survey behind this article holds **5,700 research records**, drawn from the 
 
 $$
 b_p = \frac{b_v - w}{2}
+\tag{71}
 $$
 
 Each panel is 1.45 metres, 0.345 of the body it must lie along, and the deployed span is 6.09 body widths. **Those two requirements pull opposite ways and the article has not priced the conflict**, because the chord is not published and the panel's stowed thickness is not either.
@@ -1378,6 +1449,689 @@ Every symbol used in a display equation is declared in the table below with one 
 **The contract tells more than the publicity does.** The last positive obligation is 47 days after the recovery, and the period of performance then ran on for 1,463 days carrying nothing but zero-dollar modifications. **A programme that stops paying and stays open has decided something.** The [X-60A][related_post_a357_generation_orbit_x60] did the reverse, obligating 30.1 percent of its money after it stopped being visible, and ending by paying to ship equipment.
 
 **Two articles, two programmes, and the same lesson from opposite directions.** The publicity is not the record. **Here it is the money that stops speaking first**, and there it was the money that went on speaking after everything else had stopped.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 71 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 71, 51 are established and 20 are bespoke.
+The sizing, wake, cable and control relations are evaluated in the International System while speeds, altitudes and stand-off distances are often quoted in knots and feet, and several letters are marked to avoid collisions, so $\Theta$ is the static temperature because $T$ is the thrust and $T_c$ the cable tension, $\ell$ is the cable length because $L$ is the lift, $e$ is the span efficiency while the upright $\mathrm{e}$ is the base of the natural logarithm, $\alpha$ is the acceleration a gust produces while $\Delta \alpha$ is an increment in angle of attack, $c$ is the thrust specific fuel consumption while $\bar{c}$ is the mean chord, $b$ is the carrier span while $b_v$ is the vehicle span, and $w$ is the centreline downwash except in the folded panel relation, where it is the body width.
+
+**Equation 1, Payload Capacity Against the Requested Class.**
+The published payload of 145 pounds is 1.45 times the payload class of 100 pounds or less that the Request for Information named.
+[DARPA Request for Information][ref_darpa_rfi_2014]
+[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x61]
+
+$$
+\frac{145\ \text{lb}}{100\ \text{lb}} = 1.45
+\tag{1}
+$$
+
+**Equation 2, Schedule Ratios Against the Four-Year Plan.**
+The intervals from the Request for Information to the first free flight and to the airborne recovery, counted in days from the recorded dates, are 1.26 and 1.74 times the four years the request asked for.
+
+$$
+\frac{1{,}840\ \text{days}}{4 \times 365.25\ \text{days}} = \frac{5.04\ \text{years}}{4\ \text{years}} = 1.26 , \qquad \frac{2{,}546\ \text{days}}{4 \times 365.25\ \text{days}} = \frac{6.97\ \text{years}}{4\ \text{years}} = 1.74
+\tag{2}
+$$
+
+**Equation 3, Share of the Phase 3 Contract Attributed to the Pandemic.**
+The modification of 9 March 2021 that names the pandemic obligates 11.18 percent of the Phase 3 contract total.
+[DARPA Phase III contract][ref_usa_hr001118c0071]
+
+$$
+\frac{5{,}852{,}178.74\ \text{dollars}}{52{,}365{,}639.91\ \text{dollars}} = 0.1118
+\tag{3}
+$$
+
+**Equation 4, Induced Drag of an Elliptically Loaded Wing.**
+The induced drag is the square of the weight divided by the dynamic pressure, pi, the square of the span and the span efficiency.
+[Lift-induced drag][ref_induced_drag]
+[Fleeman, Missile design and systems engineering][book_fleeman]
+
+$$
+D_i = \frac{W^2}{q \, \pi b_v^2 e}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Induced-Drag Parameter.*
+The article collects the square of the weight over the square of the span into one parameter $\Lambda$, so that two vehicles compared at the same dynamic pressure and span efficiency differ in induced drag only through it.
+
+$$
+\Lambda = \frac{W^2}{b_v^2} \qquad \Longrightarrow \qquad D_i = \frac{\Lambda}{q \, \pi e}
+\tag{5}
+$$
+
+**Equation 6, Lift Equals Weight in Level Flight.**
+In level flight the lift equals the weight, which fixes the lift coefficient for a given density, speed and wing area.
+
+$$
+L = q S C_L = W \quad \Longrightarrow \quad C_L = \frac{2 W}{\rho V^2 S}
+\tag{6}
+$$
+
+**Equation 7, Wing Area Floor Set by the Maximum Lift Coefficient.**
+A wing that holds the vehicle up at a given speed must have at least the area that the maximum lift coefficient allows.
+
+$$
+S \;\geq\; \frac{2 W}{\rho V^2 C_{L_{\max}}}
+\tag{7}
+$$
+
+**Equation 8, Minimum Level Flight Speed.**
+The lowest speed at which a wing of given area can support the weight is set by the maximum lift coefficient.
+
+$$
+V_{\min} = \sqrt{\frac{2 W}{\rho S \, C_{L_{\max}}}}
+\tag{8}
+$$
+
+**Equation 9, Parabolic Drag Polar, Aspect Ratio and Mean Chord.**
+The drag coefficient is the zero-lift drag plus the induced term, and the aspect ratio and mean chord follow from the span and the wing area.
+[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
+[Anderson, Aircraft performance and design][book_anderson_performance]
+
+$$
+C_D = C_{D_0} + \frac{C_L^2}{\pi A e} , \qquad A = \frac{b_v^2}{S} , \qquad \bar{c} = \frac{S}{b_v}
+\tag{9}
+$$
+
+**Equation 10, Maximum Lift to Drag Ratio of the Parabolic Polar.**
+Minimising the drag of the parabolic polar gives the maximum lift to drag ratio and its lift coefficient, at which the drag coefficient is twice the zero-lift value.
+[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
+[Anderson, Aircraft performance and design][book_anderson_performance]
+
+$$
+\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D_0}}} , \qquad C_{L_{\mathrm{opt}}} = \sqrt{\pi A e \, C_{D_0}} , \qquad C_{D_{\min}} = 2 C_{D_0}
+\tag{10}
+$$
+
+**Equation 11, Speed for Minimum Drag.**
+The speed at the best lift to drag ratio is the level flight speed at the optimum lift coefficient.
+
+$$
+V_{\mathrm{md}} = \sqrt{\frac{2 W}{\rho S \, C_{L_{\mathrm{opt}}}}}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Best-Range Mach Number at 35,000 Feet.*
+The speed of 175.5 metres per second rests on the reference wing area of 1.43 square metres taken from the middle of the floor, an assumed zero-lift drag coefficient of 0.030 and an assumed span efficiency of 0.80, and is divided by the standard atmosphere speed of sound.
+[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x61]
+
+$$
+M = \frac{V_{\mathrm{md}}}{a} = \frac{175.5\ \text{m/s}}{\sqrt{1.4 \times 287.05 \times 218.8}\ \text{m/s}} = \frac{175.5}{296.5} = 0.59
+\tag{12}
+$$
+
+*Equation 13, Bespoke Thrust Lapse Model.*
+The installed thrust is modelled as the static thrust times the density ratio raised to an assumed exponent of 0.9, times a ram recovery factor in the Mach number.
+
+$$
+T(h, M) = T_0 \left( \frac{\rho}{\rho_0} \right)^{0.9} \left( 1 + \tfrac{1}{2} \left( \gamma - 1 \right) M^2 \right)^{1/2}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Drag Polar With a Cubic Wave Drag Rise.*
+The parabolic polar is extended above the drag divergence Mach number by a cubic wave drag term whose coefficient $K_w$ the article assumes.
+
+$$
+C_D = C_{D_0} + \frac{C_L^2}{\pi A e} + K_w \left( M - M_{\mathrm{dd}} \right)^3 \quad \text{for } M > M_{\mathrm{dd}}
+\tag{14}
+$$
+
+**Equation 15, Level Flight Maximum Speed Condition.**
+The level flight maximum Mach number at an altitude is the one at which the available thrust equals the drag.
+
+$$
+T(h, M_{\max}) = D(h, M_{\max})
+\tag{15}
+$$
+
+**Equation 16, Specific Excess Power.**
+The specific excess power is the excess of thrust over drag times the speed, divided by the weight.
+
+$$
+P_s = \frac{\left( T - D \right) V}{W}
+\tag{16}
+$$
+
+**Equation 17, Breguet Range Equation and Cruise Fuel Fraction.**
+The jet form of the Breguet range equation, inverted, gives the fraction of the starting mass burned over a cruise of given range.
+[Range, the aeronautical quantity][ref_breguet]
+
+$$
+R = \frac{V}{c \, g} \frac{L}{D} \ln \frac{m_i}{m_f} \quad \Longrightarrow \quad 1 - \frac{m_f}{m_i} = 1 - \exp \left( - \frac{R \, c \, g}{V \, L/D} \right)
+\tag{17}
+$$
+
+**Equation 18, Standard Atmosphere in the Troposphere.**
+The temperature falls linearly with altitude, the pressure follows hydrostatically from that lapse and the density follows from the perfect gas law.
+[International Standard Atmosphere][ref_icao_atmosphere]
+
+$$
+\Theta = \Theta_0 + \beta_0 h , \qquad \frac{p}{p_0} = \left( \frac{\Theta}{\Theta_0} \right)^{-g / \beta_0 R_{\mathrm{air}}} , \qquad \rho = \frac{p}{R_{\mathrm{air}} \Theta}
+\tag{18}
+$$
+
+**Equation 19, Dynamic Pressure, True Airspeed and Speed of Sound.**
+The dynamic pressure is half the density times the square of the speed, the speed is the Mach number times the speed of sound, and the speed of sound depends on the temperature alone.
+[International Standard Atmosphere][ref_icao_atmosphere]
+[Dynamic pressure][ref_dynamic_pressure]
+
+$$
+q = \tfrac{1}{2} \rho V^2 , \qquad V = M a , \qquad a = \sqrt{\gamma R_{\mathrm{air}} \Theta}
+\tag{19}
+$$
+
+**Equation 20, Breguet Endurance Equation.**
+The endurance is the Breguet range divided by the speed, so the same relation gives time instead of distance.
+[Range, the aeronautical quantity][ref_breguet]
+
+$$
+\text{endurance} = \frac{1}{c \, g} \frac{L}{D} \ln \frac{m_i}{m_f} = \frac{R}{V}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Mission Fuel Fraction at a Lift to Drag Ratio of Nine.*
+The fuel for the out and back legs and one hour of hold is taken at the middle lift to drag ratio of 9 and an assumed specific fuel consumption, neither published for this vehicle, and set against the published gross mass and payload.
+[Dynetics X-61 Gremlins][ref_x61_wikipedia]
+
+$$
+\frac{m_b}{m} = \frac{80.2 + 51.4 \times 1}{680} = \frac{131.6}{680} = 0.194 , \qquad m - m_b - m_p = 680 - 131.6 - 65.7 = 482.7\ \text{kg}
+\tag{21}
+$$
+
+**Equation 22, Circulation and Vortex Spacing of an Elliptic Wing.**
+The circulation of each trailing vortex is the weight over the density, speed and vortex spacing, and for elliptic loading the spacing is a quarter of pi times the span.
+[Lifting-line theory][ref_lifting_line]
+[Wake turbulence][ref_wake_turbulence]
+[Horseshoe vortex][ref_horseshoe_vortex]
+[McCormick, Aerodynamics, aeronautics, and flight mechanics][book_mccormick]
+
+$$
+\Gamma = \frac{W}{\rho V b'} , \qquad b' = k_b b , \qquad k_b = \frac{\pi}{4}
+\tag{22}
+$$
+
+**Equation 23, Lift Coefficient and Aspect Ratio of the Carrier.**
+The carrier's lift coefficient follows from its weight, wing area and the flight condition, and its aspect ratio from its span and wing area.
+
+$$
+C_{L_c} = \frac{2 W_c}{\rho V^2 S_c} , \qquad A_c = \frac{b^2}{S_c}
+\tag{23}
+$$
+
+**Equation 24, Circulation From the Lift Coefficient.**
+The circulation written from the lift coefficient is identical to the one written from the weight, so their agreement checks transcription only.
+
+$$
+\Gamma = \frac{V S_c C_{L_c}}{2 b'} \qquad \text{which must equal} \qquad \frac{W_c}{\rho V b'}
+\tag{24}
+$$
+
+**Equation 25, Self-Induced Descent of a Vortex Pair.**
+A pair of counter-rotating vortices descends at the circulation divided by two pi times their spacing.
+
+$$
+w_d = \frac{\Gamma}{2 \pi b'}
+\tag{25}
+$$
+
+**Equation 26, Descent of the Wake Over a Stand-Off Distance.**
+The vortex pair sinks by its descent rate times the time the flow takes to travel aft to the formation station.
+
+$$
+\Delta z = w_d \frac{x}{V}
+\tag{26}
+$$
+
+**Equation 27, Velocity Induced by a Straight Line Vortex.**
+A straight vortex induces a circling velocity equal to the circulation over two pi times the distance from its core.
+
+$$
+v_\theta = \frac{\Gamma}{2 \pi r}
+\tag{27}
+$$
+
+**Equation 28, Centreline Downwash Below a Vortex Pair.**
+On the centreline the vertical components of the two cores add, giving the downwash as a function of the depth below the vortex plane.
+
+$$
+w(z) = \frac{\Gamma b'}{2 \pi \left[ \left( b'/2 \right)^2 + z^2 \right]}
+\tag{28}
+$$
+
+**Equation 29, Vertical Gradient of the Centreline Downwash.**
+Differentiating the centreline downwash with respect to depth gives the gradient that a station keeper has to fight.
+
+$$
+\frac{\mathrm{d} w}{\mathrm{d} z} = - \frac{\Gamma b'}{\pi} \frac{z}{\left[ \left( b'/2 \right)^2 + z^2 \right]^2}
+\tag{29}
+$$
+
+**Equation 30, Depth of the Largest Downwash Gradient.**
+Setting the second derivative to zero places the largest gradient at a depth fixed by the vortex spacing alone, which under elliptic loading is a fixed fraction of the carrier span.
+
+$$
+\frac{\mathrm{d}^2 w}{\mathrm{d} z^2} = 0 \quad \Longrightarrow \quad z_\star = \frac{b'}{2 \sqrt{3}} = \frac{\pi b}{8 \sqrt{3}}
+\tag{30}
+$$
+
+**Equation 31, Aerodynamic Loading on a Towed Cable.**
+The tangential and normal forces per unit length on an inclined cable follow from the skin friction and crossflow drag coefficients of its circular section.
+
+$$
+f_t = \tfrac{1}{2} \rho V^2 d \, \pi C_f \cos^2 \theta , \qquad f_n = \tfrac{1}{2} \rho V^2 d \, C_{D_n} \sin^2 \theta
+\tag{31}
+$$
+
+**Equation 32, Equilibrium of a Towed Cable.**
+Resolving along and normal to the local tangent balances the change in tension and in inclination against the cable's weight and aerodynamic loading.
+
+$$
+\frac{\mathrm{d} T_c}{\mathrm{d} s} = \mu g \sin \theta + f_t , \qquad T_c \frac{\mathrm{d} \theta}{\mathrm{d} s} = \mu g \cos \theta - f_n
+\tag{32}
+$$
+
+**Equation 33, Cable Shape From Its Inclination.**
+The horizontal and vertical positions along the cable are the integrals of the cosine and sine of the inclination over arc length.
+
+$$
+x(s) = \int_0^s \cos \theta \, \mathrm{d}s' , \qquad z(s) = \int_0^s \sin \theta \, \mathrm{d}s'
+\tag{33}
+$$
+
+**Equation 34, Boundary Condition at the Towed Body.**
+At the body the cable pulls along the resultant of the body's drag and weight, which fixes the starting tension and inclination.
+
+$$
+T_c(0) = \sqrt{D_b^2 + W_b^2} , \qquad \tan \theta(0) = \frac{W_b}{D_b}
+\tag{34}
+$$
+
+**Equation 35, Critical Angle of a Towed Cable.**
+Far from the body the inclination settles to the angle at which the normal drag of the cable carries the normal component of its weight.
+
+$$
+\frac{\mathrm{d} \theta}{\mathrm{d} s} = 0 \quad \Longrightarrow \quad \frac{\sin^2 \theta_c}{\cos \theta_c} = \frac{2 \mu g}{\rho V^2 d \, C_{D_n}}
+\tag{35}
+$$
+
+**Equation 36, Trail and Length at the Critical Angle.**
+At the critical angle the ratio of trail to depth tends to its cotangent and the paid-out length to the depth over its sine.
+
+$$
+\frac{\text{trail}}{\text{depth}} \longrightarrow \cot \theta_c , \qquad \ell \longrightarrow \frac{z}{\sin \theta_c}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Critical Angle of a Ten Millimetre Steel Rope.*
+The critical angle is evaluated at 200 knots at 10,000 feet for the tabulated steel rope mass with a normal drag coefficient of 1.2 that the article takes for the circular section.
+[Katradis, 6×19 IWRC wire rope][ref_katradis_6x19]
+
+$$
+\frac{\sin^2 \theta_c}{\cos \theta_c} = \frac{2 \times 0.40 \times 9.807}{0.9046 \times 102.89^2 \times 0.010 \times 1.2} = 0.0683 \quad \Longrightarrow \quad \theta_c = 14.9^\circ , \qquad \cot \theta_c = 3.76 , \qquad \frac{100\ \text{ft}}{\sin \theta_c} = 389\ \text{ft}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Starting Tension and Inclination.*
+The boundary condition is evaluated for a towed body that the article takes to weigh 50 kilograms and to have 200 newtons of drag.
+
+$$
+T_c(0) = \sqrt{200^2 + \left( 50 \times 9.807 \right)^2} = 529.6\ \text{N} , \qquad \theta(0) = \arctan \frac{490.4}{200} = 67.8^\circ
+\tag{38}
+$$
+
+*Equation 39, Bespoke Cable Mass Needed for a Forty-Five Degree Hang.*
+Solving the critical angle relation for the linear density at forty-five degrees, with the assumed normal drag coefficient of 1.2, gives a cable 10.4 times heavier than the tabulated steel rope.
+
+$$
+\theta_c = 45^\circ \quad \Longrightarrow \quad \mu = \frac{\rho V^2 d \, C_{D_n}}{2 \sqrt{2} \, g} = \frac{0.9046 \times 102.89^2 \times 0.010 \times 1.2}{2 \sqrt{2} \times 9.807} = 4.14\ \text{kg/m} , \qquad \frac{4.14}{0.40} = 10.4
+\tag{39}
+$$
+
+**Equation 40, Wave Speed and Modal Frequencies of a Taut String.**
+A string under tension carries transverse waves at the square root of tension over linear density, and a finite length carries standing modes at integer multiples of the fundamental.
+[Vibrating string][ref_vibrating_string]
+
+$$
+v_c = \sqrt{\frac{T_c}{\mu}} , \qquad F_k = \frac{k v_c}{2 \ell}
+\tag{40}
+$$
+
+**Equation 41, Damped String Equation.**
+Adding a viscous damping term per unit length to the taut string gives a first-order term in the transverse velocity.
+
+$$
+\mu \frac{\partial^2 y}{\partial t^2} + c_a \frac{\partial y}{\partial t} = T_c \frac{\partial^2 y}{\partial s^2}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Aerodynamic Damping Coefficient of the Cable.*
+Linearising the crossflow drag about the critical inclination, a small-perturbation assumption the article chooses, gives the damping force per unit length per unit transverse velocity.
+
+$$
+c_a = \rho V d \, C_{D_n} \sin \theta_c
+\tag{42}
+$$
+
+**Equation 43, Modal Frequency and Damping Ratio.**
+The circular frequency of each mode follows from the wave speed and length, and the damping coefficient divided by twice the linear density and that frequency is its damping ratio.
+
+$$
+\omega_k = \frac{k \pi v_c}{\ell} , \qquad \zeta_k = \frac{c_a}{2 \mu \omega_k}
+\tag{43}
+$$
+
+**Equation 44, Sharp-Edged Gust Increment in Angle of Attack and Lift.**
+A vertical gust changes the angle of attack by the ratio of gust velocity to airspeed and the lift in proportion through the lift-curve slope.
+[Etkin and Reid, Dynamics of flight][book_etkin_reid]
+[Nelson, Flight stability and automatic control][book_nelson]
+
+$$
+\Delta \alpha = \frac{u}{V} , \qquad \Delta L = \tfrac{1}{2} \rho V^2 S \, C_{L_\alpha} \Delta \alpha
+\tag{44}
+$$
+
+**Equation 45, Gust Load Factor and Acceleration.**
+The incremental load factor of a sharp-edged gust is inversely proportional to the wing loading, and times gravity it is an acceleration.
+[Etkin and Reid, Dynamics of flight][book_etkin_reid]
+[Nelson, Flight stability and automatic control][book_nelson]
+
+$$
+\Delta n = \frac{\rho V C_{L_\alpha} u}{2 \, W / S} , \qquad \alpha = g \, \Delta n
+\tag{45}
+$$
+
+**Equation 46, Drift Time Under Constant Acceleration.**
+A vehicle accelerated uniformly from rest leaves a window of half width $\delta$ in the square root of twice $\delta$ over the acceleration.
+
+$$
+t_d = \sqrt{\frac{2 \delta}{\alpha}}
+\tag{46}
+$$
+
+**Equation 47, Von Kármán Spectrum of Vertical Turbulence.**
+The power spectral density of vertical gust velocity in the von Kármán form is set by the intensity, the scale length and the airspeed.
+[Von Kármán wind turbulence model][ref_von_karman]
+
+$$
+\Phi_w(\omega) = \frac{\sigma_w^2 \lambda_w}{\pi V} \frac{1 + \tfrac{8}{3} \left( 1.339 \lambda_w \omega / V \right)^2}{\left[ 1 + \left( 1.339 \lambda_w \omega / V \right)^2 \right]^{11/6}}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Share of Gust Variance Below the Loop Frequency.*
+The total variance is the integral of the spectrum, and the article defines the part a position loop has to fight as the integral up to the loop's natural frequency.
+[Von Kármán wind turbulence model][ref_von_karman]
+
+$$
+\sigma_w^2 = \int_0^\infty \Phi_w(\omega) \, \mathrm{d} \omega , \qquad \sigma_b^2 = \int_0^{\omega_n} \Phi_w(\omega) \, \mathrm{d} \omega
+\tag{48}
+$$
+
+*Equation 49, Bespoke Ratio of Drift Time to Human Loop Delay.*
+The article compares the drift time out of the capture window with the reaction time plus link latency of a human operator as a figure of merit.
+
+$$
+\frac{t_d}{\tau} = \frac{1}{\tau} \sqrt{\frac{2 \delta}{\alpha}}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Crossover Limit Set by a Pure Delay.*
+The phase lag of a pure delay grows with frequency, and allowing the rest of the loop a ninety-degree lag, as the article assumes, bounds the crossover for a given phase margin.
+
+$$
+\arg \mathrm{e}^{- \mathrm{j} \omega \tau} = - \omega \tau \qquad \Longrightarrow \qquad \omega_c \leq \frac{\pi / 2 - \phi_m}{\tau}
+\tag{50}
+$$
+
+**Equation 51, Bandwidth Needed To Hold Position Against a Steady Acceleration.**
+A second-order position loop holds a steady acceleration with an offset of the acceleration over the square of its natural frequency, so fitting the window sets a floor on that frequency.
+[Stevens and Lewis, Aircraft control and simulation][book_stevens_lewis]
+[Beard and McLain, Small unmanned aircraft][book_beard_mclain]
+
+$$
+\omega_n \;\geq\; \sqrt{\frac{\alpha}{\delta}}
+\tag{51}
+$$
+
+**Equation 52, Sensitivity and Complementary Sensitivity.**
+The sensitivity and the complementary sensitivity of a feedback loop are defined from the open loop and always sum to one.
+
+$$
+\mathcal{S} = \frac{1}{1 + \mathcal{L}} , \qquad \mathcal{T} = \frac{\mathcal{L}}{1 + \mathcal{L}} , \qquad \mathcal{S} + \mathcal{T} = 1
+\tag{52}
+$$
+
+**Equation 53, Bode Sensitivity Integral.**
+For a stable loop that rolls off by at least two orders the integral of the logarithm of the sensitivity magnitude over frequency is zero.
+
+$$
+\int_0^\infty \ln \left| \mathcal{S} \left( \mathrm{j} \omega \right) \right| \mathrm{d} \omega = 0
+\tag{53}
+$$
+
+**Equation 54, Sensitivity of Two Second-Order Loop Architectures.**
+Placing the damping term in the forward path or in a minor feedback loop gives two sensitivity functions that differ in relative degree.
+
+$$
+\mathcal{S}_{\mathrm{f}} = \frac{\left( \mathrm{j} \omega \right)^2}{\left( \mathrm{j} \omega \right)^2 + 2 \zeta \omega_n \mathrm{j} \omega + \omega_n^2} , \qquad \mathcal{S}_{\mathrm{m}} = \frac{\mathrm{j} \omega \left( \mathrm{j} \omega + 2 \zeta \omega_n \right)}{\left( \mathrm{j} \omega \right)^2 + 2 \zeta \omega_n \mathrm{j} \omega + \omega_n^2}
+\tag{54}
+$$
+
+**Equation 55, Isentropic Total to Static Ratios.**
+Bringing the flow isentropically to rest raises the temperature and pressure by ratios that depend on the Mach number and the ratio of specific heats alone.
+
+$$
+\frac{\Theta_t}{\Theta} = 1 + \tfrac{1}{2} \left( \gamma - 1 \right) M^2 , \qquad \frac{p_t}{p} = \left( \frac{\Theta_t}{\Theta} \right)^{\gamma / \left( \gamma - 1 \right)}
+\tag{55}
+$$
+
+**Equation 56, Reassembly of Sorties, Vehicles and Hours.**
+The sorties, surviving vehicles and flight hours reported across the four test series sum to the stated totals within rounding.
+
+$$
+1 + 1 + 3 + 4 = 9\ \text{sorties} , \qquad 5 - 2 = 3\ \text{vehicles} , \qquad 1.68 + 2.20 + 7.00 + 6.70 = 17.58\ \text{h}
+\tag{56}
+$$
+
+**Equation 57, Bound on Docking Success Rate.**
+At least ten docking attempts and one capture in the public record bound the success rate at no more than ten percent.
+
+$$
+N_d \;\geq\; 9 + 1 = 10 \quad \Longrightarrow \quad \frac{1}{N_d} \;\leq\; 0.10
+\tag{57}
+$$
+
+**Equation 58, Obligations After the Last Flight Test.**
+The two positive modifications after the airborne recovery fall within 47 days of it and amount to 3.22 percent of the three contracts' total.
+[DARPA Phase III contract][ref_usa_hr001118c0071]
+
+$$
+2 + 30 + 15 = 47\ \text{days} , \qquad \frac{2{,}497{,}155.40 + 165{,}393.81}{82{,}680{,}983.37} = \frac{2{,}662{,}549.21}{82{,}680{,}983.37} = 0.0322
+\tag{58}
+$$
+
+**Equation 59, Period of Performance After the Recovery.**
+Counting four years with one leap day plus two days gives 1,463 days, or 4.01 years, from the recovery to the end of the Phase 3 period of performance.
+[DARPA Phase III contract][ref_usa_hr001118c0071]
+
+$$
+4 \times 365 + 1 + 2 = 1{,}463\ \text{days} , \qquad \frac{1{,}463\ \text{days}}{365.25\ \text{days per year}} = 4.01\ \text{years}
+\tag{59}
+$$
+
+**Equation 60, Achieved Recovery Time Against the Objective.**
+The objective of four Gremlins Air Vehicles in thirty minutes is one every 7.5 minutes, and the 84 minute mission that recovered one vehicle is 11.2 times that.
+[Kratos][ref_kratos_first_flight]
+[Leidos][ref_leidos_captured]
+
+$$
+\frac{30\ \text{min}}{4} = 7.5\ \text{min} , \qquad 1.4\ \text{h} \times 60\ \text{min per hour} = 84\ \text{min} , \qquad \frac{84\ \text{min}}{7.5\ \text{min}} = 11.2
+\tag{60}
+$$
+
+*Equation 61, Bespoke Probability of Surviving the Design Life.*
+The article takes the loss probability as constant and independent from sortie to sortie, so an airframe survives all $N$ uses with probability $\left( 1 - \epsilon \right)^N$.
+
+$$
+P_N = \left( 1 - \epsilon \right)^N
+\tag{61}
+$$
+
+*Equation 62, Bespoke Expected Sorties per Airframe.*
+Under the same constant and independent loss probability the expected number of sorties an airframe delivers is a truncated geometric sum.
+
+$$
+\bar{n} = \sum_{k=1}^{N} \left( 1 - \epsilon \right)^{k-1} = \frac{1 - \left( 1 - \epsilon \right)^N}{\epsilon}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Ceiling on Expected Sorties.*
+Under the constant loss probability the expected sorties approach the reciprocal of the loss rate as the design life grows without bound.
+
+$$
+\lim_{N \to \infty} \bar{n} = \frac{1}{\epsilon}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Fleet Size and Cost per Sortie.*
+The article sizes a fleet as the sorties a campaign requires over the expected sorties per airframe, and spreads the flyaway cost over those expected sorties.
+
+$$
+n_a = \frac{n_r}{\bar{n}} , \qquad \frac{C}{\bar{n}} \text{, and a sortie really carries } C / \bar{n}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Break-Even Condition for Reuse.*
+The article's cost model has reuse pay when the amortised airframe, the refurbishment and the share of a recovery sortie together cost less than the expendable vehicle.
+
+$$
+\frac{C}{N} + C_r + \frac{C_s}{n_s} \;<\; C_e
+\tag{65}
+$$
+
+*Equation 66, Bespoke Floor on the Expendable Cost.*
+Dropping the refurbishment and recovery sortie terms, which are not public, leaves a floor on the expendable cost that reuse must beat.
+
+$$
+C_e \;>\; \frac{C}{N} \qquad \text{whatever } C_r \text{ and } C_s \text{ may be}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Break-Even Number of Uses.*
+Inverting the article's cost inequality gives the number of uses at which reuse breaks even.
+
+$$
+N^\star = \frac{C}{C_e - C_r - C_s / n_s}
+\tag{67}
+$$
+
+**Equation 68, Relative Kinetic Energy at Contact.**
+The relative kinetic energy at contact is half the captured mass times the square of the closing speed.
+
+$$
+E = \tfrac{1}{2} m \, \Delta V^2
+\tag{68}
+$$
+
+**Equation 69, Mean Arresting Force From the Work-Energy Balance.**
+The mean force times the arresting distance equals the relative kinetic energy, which gives the force as a multiple of the captured weight.
+
+$$
+\bar{F} x_s = \tfrac{1}{2} m \, \Delta V^2 \qquad \Longrightarrow \qquad \frac{\bar{F}}{W} = \frac{\Delta V^2}{2 g \, x_s}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Expected Sorties at the Development Loss Rate.*
+The development record of two airframes lost in nine sorties is taken as a constant per-sortie loss probability in the article's geometric model, giving 4.47 sorties from a twenty-use life.
+
+$$
+\epsilon = \frac{2}{9} = 0.222 , \qquad \bar{n} = \frac{1 - \left( 7/9 \right)^{20}}{2/9} = 4.47 , \qquad \frac{\bar{n}}{N} = \frac{4.47}{20} = 0.224
+\tag{70}
+$$
+
+**Equation 71, Semispan of a Folded Wing Panel.**
+Each folded panel spans half the difference between the deployed span and the body width.
+[Dynetics X-61 Gremlins][ref_x61_wikipedia]
+
+$$
+b_p = \frac{b_v - w}{2}
+\tag{71}
+$$
+
+### Notation
+
+- $\rho$, the air density, in kilograms per cubic metre
+- $\Theta$, the static temperature, written thus because thrust and cable tension have both taken the usual symbol
+- $a$, the speed of sound
+- $\gamma$, the ratio of specific heats for air
+- $R_{\mathrm{air}}$, the specific gas constant for dry air
+- $V$, the true airspeed
+- $M$, the Mach number
+- $q$, the dynamic pressure, in pascals
+- $W$, the weight of the air vehicle, except where a subscript marks the carrier or the towed body
+- $S$, the wing reference area of the air vehicle
+- $b_v$, the wing span of the air vehicle
+- $b$, the wing span of the carrier aircraft
+- $A$, the wing aspect ratio
+- $e$, the span efficiency factor, which is not the base of the natural logarithm
+- $D_i$, the induced drag
+- $\Lambda$, the induced-drag parameter, being the square of weight over the square of span
+- $C_{L_{\max}}$, the maximum lift coefficient
+- $C_{D_0}$, the zero-lift drag coefficient
+- $C_{L_{\mathrm{opt}}}$, the lift coefficient at the best lift to drag ratio
+- $V_{\mathrm{md}}$, the speed at which the lift to drag ratio is largest
+- $T_0$, the static thrust of the engine
+- $K_w$, the coefficient of the wave drag rise
+- $M_{\mathrm{dd}}$, the drag divergence Mach number
+- $P_s$, the specific excess power
+- $c$, the thrust specific fuel consumption, as fuel mass per unit thrust per unit time
+- $R$, the range
+- $m_i$, the mass at the start of a cruise segment, with $m_f$ the mass at its end
+- $\Gamma$, the circulation of one trailing vortex
+- $b'$, the lateral separation of the trailing vortex pair
+- $k_b$, the vortex spacing ratio
+- $w_d$, the self-induced descent rate of the vortex pair
+- $z_\star$, the depth at which the downwash gradient is largest
+- $T_c$, the cable tension, subscripted because thrust has the bare symbol
+- $\mu$, the mass of cable per unit length
+- $d$, the cable diameter
+- $C_{D_n}$, the normal drag coefficient of the cable in crossflow
+- $C_f$, the tangential skin friction coefficient of the cable
+- $\theta_c$, the asymptotic inclination a towed cable settles to, the critical angle
+- $\ell$, the paid-out cable length, written thus because lift has taken the usual symbol
+- $v_c$, the transverse wave speed along the cable
+- $F_k$, the frequency of the kth transverse mode of the cable
+- $c_a$, the aerodynamic damping force per unit length of cable per unit transverse velocity
+- $\zeta_k$, the damping ratio of the kth transverse mode of the cable
+- $C_{L_\alpha}$, the lift-curve slope, written out because the bare symbol is the speed of sound here
+- $\Delta n$, the incremental load factor produced by a gust
+- $\delta$, the half width of the capture window
+- $t_d$, the time for an uncontrolled vehicle to cross the capture window
+- $\omega_n$, the undamped natural frequency of the position loop
+- $\tau$, the reaction time plus link latency in a human control loop
+- $\Phi_w$, the power spectral density of the vertical gust velocity
+- $\sigma_w$, the root mean square vertical gust velocity, with $\sigma_b$ its part below the loop frequency
+- $\lambda_w$, the turbulence scale length
+- $\omega_c$, the crossover frequency of the loop
+- $\phi_m$, the phase margin
+- $\mathcal{S}$, the sensitivity function, being the transfer from disturbance to error
+- $\mathcal{T}$, the complementary sensitivity function
+- $\mathcal{L}$, the open loop transfer function of the position hold
+- $\epsilon$, the probability that an airframe is lost on any one sortie
+- $N$, the number of uses one air vehicle is required to survive
+- $\bar{n}$, the expected sorties one airframe delivers
+- $C_e$, the unit cost of the expendable vehicle that reuse has to beat
+- $C$, the flyaway cost of one air vehicle
+- $\Delta V$, the closing speed at contact
+- $\bar{F}$, the mean force during a capture
+- $x_s$, the distance over which a capture is arrested
+- $b_p$, the semispan of one folded wing panel
 
 ## References
 

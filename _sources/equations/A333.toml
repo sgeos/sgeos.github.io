@@ -1,0 +1,407 @@
+# Equation classification for A333. Read by `python3 _lib/equations.py`.
+
+caution = "Every ratio with a subscript $m$ refers the 28 percent model to the full-scale aircraft it represents, speeds are quoted in knots while the dynamics are evaluated in the International System, and several letters are reused, so $\\sigma$ is the growth rate of the directional divergence, $\\tau$ is a fixed delay, $T$ is the thrust except in Sutherland's law, where it is a temperature, $R$ is the nozzle authority ratio and then the turn radius, and $N$ is a yawing moment."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Froude, Reynolds and Mach Numbers"
+gloss = "The Froude number is the ratio of inertia to gravity, the Reynolds number that of inertia to viscosity and the Mach number that of speed to the speed of sound."
+cite = ["ref_froude", "ref_reynolds"]
+digest = "e6ac5db80fce3288"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Model to Full-Scale Ratios in Common Air"
+gloss = "With the air held common, each of the three ratios depends only on the length ratio and the velocity ratio, so only one of them can be matched."
+cite = ["ref_similitude"]
+digest = "2c6b7fe1ba4bb1e5"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Velocity and Time Ratios Under Froude Matching"
+gloss = "Matching the Froude number sets the velocity and time ratios to the square root of the length ratio, 0.5292 at 28 percent scale."
+cite = []
+digest = "2a9db6c3da93d021"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Angular Rate and Angular Acceleration Ratios"
+gloss = "Under Froude matching angular rates scale as one over the square root of the length ratio and angular accelerations as one over the length ratio."
+cite = []
+digest = "b7e6b94b7d7a5dad"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Mass, Inertia and Reynolds Number Ratios"
+gloss = "Under Froude matching in common air mass scales as the cube of length, inertia as its fifth power and Reynolds number as its three-halves power."
+cite = []
+digest = "296ca19b7abc6f2e"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Force, Moment and Inertia Ratios"
+gloss = "With density common the force ratio is the cube of the length ratio, the moment ratio its fourth power and the inertia ratio its fifth power."
+cite = []
+digest = "2128f7547a864611"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Angular Acceleration Ratio From Moment and Inertia"
+gloss = "The moment ratio over the inertia ratio gives an angular acceleration ratio of one over the length ratio."
+cite = []
+digest = "fcf1d6de6a6d6530"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Full-Scale Weight Implied by Froude Scaling"
+gloss = "Dividing the published model weight by the cube of the length ratio gives the 56,715 pound aircraft that the model represents."
+cite = ["research_walkerlaurencea_1997"]
+digest = "13674afd7253acdf"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Full-Scale Equivalent Speeds"
+gloss = "Dividing the published dynamic pressure limit speed and approach speed by the velocity ratio gives full-scale equivalents of 459.2 and 211.6 knots."
+cite = ["research_walkerlaurencea_1997"]
+digest = "c8f5887ac1d64823"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Amplification of a Fixed Delay"
+gloss = "A delay fixed in milliseconds is worth one over the square root of the length ratio more against the model's dynamics than against the full-scale aircraft's."
+cite = []
+digest = "10ad40c8da289db2"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Yawing Moment in Sideslip"
+gloss = "The yawing moment is the dynamic pressure times the wing area times the span times the directional stability derivative times the sideslip."
+cite = []
+digest = "1715d51d4cb8ede1"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Munk Slender-Body Directional Derivative"
+gloss = "Slender-body theory gives the destabilising directional derivative of a body from its volume through the apparent-mass difference."
+cite = ["research_munkmaxm_1924", "research_allenhjulian_perkinsedwardw_1951"]
+digest = "4476dc75b31d5dc1"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Wing Area Inverted From the Approach"
+gloss = "The unpublished wing area is inverted from the approach speed with a landing weight the article takes at 35 percent of usable fuel and an assumed approach lift coefficient of 0.8."
+cite = []
+digest = "c4a4b2245267c7fb"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Aspect Ratio and Mean Chord"
+gloss = "The published span with the inverted wing area gives an aspect ratio of 3.235 and a mean chord of 0.982 metres."
+cite = []
+digest = "064abc37465b9879"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Wing Loading"
+gloss = "The published gross weight over the inverted wing area gives a wing loading of 1,777 newtons per square metre."
+cite = []
+digest = "3b2f1098f62ff305"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Undamped Yaw Divergence"
+gloss = "Neglecting yaw damping, an assumption the article chooses, the yaw equation of a directionally unstable aircraft grows at a rate set by the derivative, the dynamic pressure and the yaw inertia."
+cite = []
+digest = "ce3ba8803c076c91"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Modal Doubling Time"
+gloss = "The growing eigen-solution doubles in the natural logarithm of two divided by the growth rate."
+cite = []
+digest = "e2c9becb72409753"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Doubling Time From Rest"
+gloss = "A disturbance released from rest follows a hyperbolic cosine and doubles in the inverse hyperbolic cosine of two over the growth rate, 1.900 times the modal time."
+cite = []
+digest = "7530c00350f33c09"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Doubling Times With the Derived Derivative"
+gloss = "The modal doubling times use the slender-body derivative at the middle of an assumed fuselage volume bracket and an assumed radius of gyration of 0.35 of the length."
+cite = []
+digest = "37fdecd855ef6df6"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Crossover as a Multiple of the Growth Rate"
+gloss = "The crossover frequency is set at a multiple of the unstable growth rate that the article chooses as a design rule."
+cite = []
+digest = "a34f549b9510e5d0"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Phase Lag of a Pure Delay"
+gloss = "A pure delay contributes a phase lag equal to the frequency times the delay."
+cite = []
+digest = "737811dcce2816d1"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Delay Budget of the Loop"
+gloss = "Equating the delay's phase lag at the chosen crossover to a required phase margin gives the largest delay the loop can tolerate."
+cite = []
+digest = "f4a0177962095239"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Yawing Moment of the Vectored Nozzle"
+gloss = "The nozzle moment is the published thrust times a moment arm of 2.220 metres and a deflection of 20 degrees that the article takes as representative."
+cite = []
+digest = "847490702cb88b12"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Speed at Which the Nozzle Alone Fails"
+gloss = "The nozzle authority ratio at 243 knots, which rests on the assumed derivative and nozzle geometry, falls as the square of speed and reaches one at 350.5 knots."
+cite = ["ref_nasa_x36"]
+digest = "e03c8b1cdbb44f90"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Yawing Moment of a Split Aileron"
+gloss = "The yawing moment of a drag rudder is the dynamic pressure times the panel area times the drag increment times its spanwise arm."
+cite = []
+digest = "3b0b46531c5c08bd"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Crossover Speed of Split Aileron and Nozzle"
+gloss = "At the top of the assumed drag increment bracket the split aileron's moment, rising with the square of speed, equals the constant nozzle moment at 216.3 knots."
+cite = ["ref_nasa_x36"]
+digest = "8523bcb26928461e"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Fuel Fraction and Thrust to Weight Ratio"
+gloss = "The published usable fuel and thrust each divided by the takeoff gross weight give 0.1301 and 0.5622."
+cite = ["research_walkerlaurencea_1997"]
+digest = "b7c076b4b6a643bc"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Mean Fuel Flow Over a Mean Sortie"
+gloss = "Taking the full 162 pounds of fuel as burned over every mean sortie of 1,815 seconds gives a fuel flow and a thrust specific consumption that bound the true value from below."
+cite = ["ref_f112"]
+digest = "3dde6517ef3552cb"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Fuel Flow Over a Typical Flight"
+gloss = "The same fuel burned over a typical 40 minute flight, the midpoint of the stated 35 to 45 minutes, gives a lower consumption still."
+cite = []
+digest = "186feb26800e24a2"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Sutherland's Law for Viscosity"
+gloss = "Sutherland's law gives the dynamic viscosity of air at sea-level temperature as 1.7894 times ten to the minus five pascal seconds."
+cite = []
+digest = "2e458971ba7b4d4d"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Reynolds Number of the Model"
+gloss = "The Reynolds number at maximum speed is evaluated on the mean chord that the inverted wing area gives."
+cite = []
+digest = "ce695244e3071f6a"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Reynolds Number at Full Scale"
+gloss = "Dividing the model Reynolds number on the inverted chord by the three-halves power of the length ratio gives 56.70 million at full scale."
+cite = []
+digest = "f67691b30604ef25"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Turn Rate and Radius in a Level Turn"
+gloss = "A level turn at a load factor has a turn rate of gravity times the square root of the load factor squared less one over the speed, and the corresponding radius."
+cite = []
+digest = "fe0aea7fb735d16b"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Corner Speed"
+gloss = "The speed at which the published load factor limit meets the lift limit uses the inverted wing area and a maximum lift coefficient that no source gives."
+cite = []
+digest = "72126f94b87f2783"
+
+[[symbol]]
+tex = '\mathrm{Fr}'
+meaning = "the Froude number"
+
+[[symbol]]
+tex = '\mathrm{Re}'
+meaning = "the Reynolds number, with subscripts $m$ and $f$ for model and full scale"
+
+[[symbol]]
+tex = '\mathrm{M}'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the kinematic viscosity"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the length ratio of model to full scale"
+
+[[symbol]]
+tex = 'r_V'
+meaning = "the velocity ratio, with $r_t$, $r_\\omega$, $r_m$, $r_I$, $r_F$ and $r_M$ the ratios of time, angular rate, mass, inertia, force and moment"
+
+[[symbol]]
+tex = 'W_f'
+meaning = "the full-scale weight, with $W_m$ the model weight"
+
+[[symbol]]
+tex = 'V_f'
+meaning = "the full-scale speed, with $V_m$ the model speed"
+
+[[symbol]]
+tex = 'N'
+meaning = "the yawing moment"
+
+[[symbol]]
+tex = 'C_{n\beta}'
+meaning = "the directional stability derivative"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the sideslip angle"
+
+[[symbol]]
+tex = 'k_2 - k_1'
+meaning = "the apparent-mass difference of the fuselage"
+
+[[symbol]]
+tex = '\mathrm{Vol}'
+meaning = "the fuselage volume"
+
+[[symbol]]
+tex = '\mathrm{AR}'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'I_{zz}'
+meaning = "the yaw moment of inertia"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the growth rate of the directional divergence"
+
+[[symbol]]
+tex = 't_{2}'
+meaning = "the modal doubling time, with $t_{2}^{\\text{rest}}$ the doubling time from rest"
+
+[[symbol]]
+tex = '\omega_c'
+meaning = "the crossover frequency"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the multiple of the growth rate at which the loop crosses over"
+
+[[symbol]]
+tex = '\tau'
+meaning = "a fixed delay, with $\\tau_{\\max}$ the delay budget"
+
+[[symbol]]
+tex = '\phi_m'
+meaning = "the phase margin"
+
+[[symbol]]
+tex = 'N_{\text{vec}}'
+meaning = "the yawing moment of the vectored nozzle"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the moment arm of the nozzle"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the nozzle deflection"
+
+[[symbol]]
+tex = 'R_{243}'
+meaning = "the nozzle authority ratio at 243 knots"
+
+[[symbol]]
+tex = 'S_p'
+meaning = "the split aileron panel area"
+
+[[symbol]]
+tex = '\Delta C_D'
+meaning = "the drag increment of the split aileron"
+
+[[symbol]]
+tex = '\dot{w}_f'
+meaning = "the fuel flow"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the dynamic viscosity"
+
+[[symbol]]
+tex = '\dot\psi'
+meaning = "the turn rate"
+
+[[symbol]]
+tex = 'V^{*}'
+meaning = "the corner speed"
+
+[[symbol]]
+tex = 'C_{L\max}'
+meaning = "the maximum lift coefficient"

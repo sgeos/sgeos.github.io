@@ -108,6 +108,7 @@ The row reads `1 Pratt & Whitney F100` \[[Parsch, DOD 4120.15-L Addendum][ref_md
 
 $$
 F = \frac{T_n - T_d}{T_n - T_0}
+\tag{1}
 $$
 
 **That fraction is 13.3 percent.** Seven-eighths of this aeroplane's flying life as VISTA happened before it was an X-plane, and it is still flying, so the fraction is still falling relative to what it would have been had the number come first.
@@ -136,6 +137,7 @@ The X-60A's money outlived its publicity by three years and ended by paying to s
 
 $$
 \sum_k v_k = V
+\tag{2}
 $$
 
 **The registry publishes the left side and the right side independently.** The transactions are filed one at a time by the contracting office as money moves and the award total is a separate field. **Agreement between them is therefore evidence for both, and disagreement would be a defect in one.** That position is stronger than quoting either alone. **17 of the 18 agree to the cent.** The one that does not is excluded because part of it falls past this article's date \[[USAspending][ref_usaspending]\].
@@ -159,6 +161,7 @@ $$
 
 $$
 \rho_p = \frac{V_p}{V_{\text{all}}} , \qquad \rho_{\text{Calspan}} = \frac{23{,}611{,}921.77}{29{,}085{,}924.37} = 0.812 , \qquad \rho_{\text{Lockheed Martin}} = \frac{5{,}474{,}002.60}{29{,}085{,}924.37} = 0.188
+\tag{3}
 $$
 
 **The split follows the division of labour the press releases describe**, with the laboratory responsible for the simulation system and the prime contractor for the airframe and the autonomy interface \[[VISTA X-62 Advancing Autonomy and Changing the Face of Air Power, Lockheed Martin, 13 February 2023][ref_lm_press]\].
@@ -205,6 +208,7 @@ In-flight simulation on this aeroplane is done by a second flight control system
 
 $$
 \begin{bmatrix} \delta_s \\ \delta_d \end{bmatrix} = \tfrac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} \delta_L \\ \delta_R \end{bmatrix} , \qquad \det = - \tfrac{1}{2} \ne 0
+\tag{4}
 $$
 
 **The argument needs only a non-zero determinant.** Two surfaces yield two independent commands exactly when the map between them can be undone, so the pair contributes two columns to the control effectiveness matrix. **A single all-moving tail, or two surfaces mechanically ganged, would contribute one**, and the next sections show what a missing column costs. So the system has **a symmetric stabilator, a symmetric flap and a throttle in the longitudinal axis**, and **a differential stabilator, an aileron and a rudder in the lateral-directional axis**. **3 in each.**
@@ -223,24 +227,28 @@ Two linear systems are in play. The first is the host aeroplane, whose state is 
 
 $$
 \dot{x} = A x + B u , \qquad \dot{x}_m = A_m x_m + B_m u_m
+\tag{5}
 $$
 
 The simulation is achieved by a control law that watches both systems and drives the host's surfaces \[[Model reference adaptive control][ref_mrac]\].
 
 $$
 u = K_x x + K_m x_m + K_u u_m
+\tag{6}
 $$
 
 Substituting one into the other gives the closed loop.
 
 $$
 \dot{x} = \left( A + B K_x \right) x + B K_m x_m + B K_u u_m
+\tag{7}
 $$
 
 **For the host's state to equal the model's state at every instant, given that the two start together, the closed loop must be the model.** Matching the two expressions term by term gives a pair of conditions on the gains.
 
 $$
 B \left( K_x + K_m \right) = A_m - A , \qquad B K_u = B_m
+\tag{8}
 $$
 
 **Notice what has happened. The unknowns are gains, the equations are linear in them, and the question is no longer about aeroplanes at all.** It is the question of whether two matrix equations have a solution, and that question has a standard answer.
@@ -251,24 +259,28 @@ A linear equation of the form $ B X = Y $ has an exact solution if and only if e
 
 $$
 \Pi = I - B B^{+}
+\tag{9}
 $$
 
 **And the conditions for exact model following are that this projector annihilates both right-hand sides.**
 
 $$
 \Pi \left( A_m - A \right) = 0 , \qquad \Pi B_m = 0
+\tag{10}
 $$
 
 **Nothing more is required. A NASA Technical Memorandum of October 1967 states and proves the result** \[[Erzberger, Analysis and Design of Model Following Control Systems by State Space Techniques, NASA Technical Memorandum X-61189, 18 October 1967][ref_erzberger_1967]\]. When the conditions hold, the gains follow immediately, and they are the least-squares solution because in this case the least-squares solution is exact \[[Asseo, Application of Optimal Control to Perfect Model Following, Journal of Aircraft, 1970][ref_asseo_1970]\].
 
 $$
 K_x + K_m = B^{+} \left( A_m - A \right) , \qquad K_u = B^{+} B_m
+\tag{11}
 $$
 
 **That difference is the quantity the rest of this article is about, so it receives a name.**
 
 $$
 \Delta A = A_m - A
+\tag{12}
 $$
 
 **Read the first condition in words.** The simulation demands a change of dynamics, being the difference between the model's dynamics matrix and the host's. **Every column of that difference must be producible by some combination of the host's controls.** The host's aerodynamics, its inertia, its speed and its altitude appear nowhere except through $ B $, and the model's realism appears nowhere except through $ A_m $. **The condition is about reach and not about power.**
@@ -283,18 +295,21 @@ When it is not zero, the least-squares gains leave a residual.
 
 $$
 E = \Pi \left( A_m - A \right)
+\tag{13}
 $$
 
 And the error between the host and the model obeys an equation that repays a second reading \[[Anderson and Schmidt, Error Dynamics and Perfect Model Following With Application to Flight Control, Journal of Guidance, Control, and Dynamics, 1991][ref_anderson_1991]\].
 
 $$
 \dot{e} = \left( A + B K_x \right) e + E x_m + \left( B K_u - B_m \right) u_m
+\tag{14}
 $$
 
 **Setting the derivative to zero says how large that error settles to**, and the expression contains the residual and nothing the designer can still choose.
 
 $$
 \dot{e} = 0 \quad \Longrightarrow \quad e_\infty = - \left( A + B K_x \right)^{-1} \Pi \, \Delta A \, x_m
+\tag{15}
 $$
 
 **The first term of the error equation is a stable homogeneous response and a designer can make it as fast as the hardware allows.** The second term is not. **It is driven by the model's state**, which means that the harder the simulated aeroplane is manoeuvring, the larger the error, and no choice of $ K_x $ removes it because $ E $ does not contain $ K_x $. **A model-following error of this kind cannot be tuned away. It can only be designed away, by changing $ B $, which means by changing which surfaces the system is allowed to move.**
@@ -305,6 +320,7 @@ The projector's rank is fixed by the rank of the control effectiveness matrix.
 
 $$
 \operatorname{rank} \Pi = n - \operatorname{rank} B \; \ge \; n - m
+\tag{16}
 $$
 
 **For the conditions to hold for an arbitrary model, the projector must be zero, and that requires the host's controls to span the whole state space.** Written out for each axis of an aeroplane, this is a counting statement about hardware.
@@ -328,6 +344,7 @@ $$
 
 $$
 y = C x \quad \Longrightarrow \quad \left( I - \left( C B \right) \left( C B \right)^{+} \right) C \, \Delta A = 0
+\tag{17}
 $$
 
 **The projector has shrunk.** It is now built from the product of the output matrix and the control matrix and no longer from the control matrix alone, and that product has at most as many rows as there are outputs. **A simulation that only has to reproduce pitch rate and normal acceleration is asking for less than one that has to reproduce the whole state vector.**
@@ -344,24 +361,28 @@ The short period in those two states has a standard form, and the one below is w
 
 $$
 \begin{bmatrix} \dot{\alpha} \\ \dot{q} \end{bmatrix} = \begin{bmatrix} Z_\alpha & 1 \\ M_\alpha & M_q \end{bmatrix} \begin{bmatrix} \alpha \\ q \end{bmatrix}
+\tag{18}
 $$
 
 **A two-by-two matrix carries its frequency and damping in its trace and its determinant**, so a pair of matrices can be read as two aeroplanes rather than as eight numbers.
 
 $$
 \omega_n = \sqrt{\det A} , \qquad 2 \zeta \omega_n = - \operatorname{tr} A
+\tag{19}
 $$
 
 **The numbers below are representative rather than measured.** The host and the model are plausible short-period pairs chosen to make the arithmetic legible, the control effectivenesses are in the ratio a horizontal tail and a trailing-edge flap stand in, and **nothing in the conclusion depends on the particular values**, only on the fact that a tail makes much more moment than lift and a flap makes much more lift than moment. The published F-16 aerodynamic data is tabular and graphical, with no closed form \[[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]\], so the matrices below are not computed from it. The host, the model and the two pitch controls are these, with the tail as the first column of the control matrix and the trailing-edge flap as the second.
 
 $$
 A = \begin{bmatrix} -1.20 & 1.00 \\ -8.00 & -1.50 \end{bmatrix} , \qquad A_m = \begin{bmatrix} -0.60 & 1.00 \\ 2.00 & -0.40 \end{bmatrix} , \qquad B = \begin{bmatrix} -0.09 & -0.20 \\ -9.00 & -1.00 \end{bmatrix}
+\tag{20}
 $$
 
 **Read through the relation above, the two matrices describe two quite different aeroplanes.** The host has a determinant of 9.8 per second squared, which is positive, so it is an ordinary oscillatory short period at **3.13 radians per second with a damping ratio of 0.431**, giving a damped period of 2.22 seconds. **The model's determinant is -1.76, which is negative**, and a negative determinant means the pair is not oscillatory at all.
 
 $$
 \det A < 0 \quad \Longrightarrow \quad \lambda = \tfrac{1}{2} \left( \operatorname{tr} A + \sqrt{\operatorname{tr}^2 A - 4 \det A} \right) > 0 , \qquad t_2 = \frac{\ln 2}{\lambda}
+\tag{21}
 $$
 
 **The model diverges, with a root of 0.918 per second and a time to double amplitude of 0.755 seconds.** A negative determinant is negative longitudinal static stability, which the school's textbook gives a chapter and which the F-16 itself has below Mach 1 \[[General Dynamics F-16 Fighting Falcon][ref_f16]\] \[[USAF Test Pilot School, Flying Qualities Phase, Chapter 5, Longitudinal Static Stability][ref_tps_ch5]\] \[[Relaxed stability][ref_relaxed_stability]\]. That is the aeroplane the student is asked to fly, and the simulation's job is to move the determinant by 11.56 per second squared, from stable to divergent, using the surfaces of an aeroplane that is neither.
@@ -370,12 +391,14 @@ With two independent pitch controls the projector has rank 0 and the residual is
 
 $$
 \Pi = I - \frac{b \, b^{\mathrm{T}}}{b^{\mathrm{T}} b}
+\tag{22}
 $$
 
 **The projector removes the direction the control points in and leaves everything perpendicular to it untouched.** A tail column points almost entirely along the pitching-moment axis, so what survives the projector is almost entirely the lift axis. **The residual is therefore not spread over the problem.** Writing the surviving fraction row by row says so in numbers.
 
 $$
 \eta_\alpha = \frac{\left\| \left( \Pi \, \Delta A \right)_\alpha \right\|}{\left\| \Delta A_\alpha \right\|} , \qquad \eta_q = \frac{\left\| \left( \Pi \, \Delta A \right)_q \right\|}{\left\| \Delta A_q \right\|}
+\tag{23}
 $$
 
 | Row of the dynamics matrix | Change demanded | Change unreachable | Fraction unreachable |
@@ -391,6 +414,7 @@ $$
 
 $$
 \frac{n_z}{\alpha} = \frac{\bar{q} \, S \, C_{L_\alpha}}{W}
+\tag{24}
 $$
 
 **Every term on the right belongs to the host.** The dynamic pressure is the host's speed and altitude, the area is the host's wing and the slope is the host's aerodynamics. **A pitch control changes none of them**, so the acceleration a given angle of attack produces is whatever the F-16 produces, whatever the model says it should be.
@@ -407,12 +431,14 @@ A control surface that produces a normal force at a station aft of the centre of
 
 $$
 M_f = - \frac{\ell_f}{\bar{c}} Z_f , \qquad M_h = - \frac{\ell_h}{\bar{c}} Z_h
+\tag{25}
 $$
 
 Substituting into the two-by-two block that maps the two lifting controls onto normal force and pitching moment gives a determinant that collapses.
 
 $$
 \det \begin{bmatrix} Z_f & Z_h \\ M_f & M_h \end{bmatrix} = \frac{Z_f Z_h}{\bar{c}} \left( \ell_f - \ell_h \right)
+\tag{26}
 $$
 
 **The control effectivenesses appear as a product and the geometry appears as a difference.** Make either surface twice as powerful and the determinant doubles. **Move the two surfaces to the same station and the determinant is zero however powerful they are**, because two forces applied at one point are one force.
@@ -423,12 +449,14 @@ $$
 
 $$
 \kappa = \frac{\sigma_{\max}}{\sigma_{\min}}
+\tag{27}
 $$
 
 **The relation behind that sentence is displayed below, because the article has so far treated deflection as free when it is the scarcest thing the aeroplane has.** The gains solve the matching condition, the deflection is the gains acting on the state, and the worst case over states of a given size is bounded by the demanded change divided by the smallest singular value.
 
 $$
 u = \left( K_x + K_m \right) x , \qquad \left\| K_x + K_m \right\| \le \frac{\left\| \Delta A \right\|}{\sigma_{\min} \left( B \right)}
+\tag{28}
 $$
 
 | Separation between the two lifting controls | Condition number |
@@ -449,6 +477,7 @@ With two columns the control matrix is square and invertible, so the matching co
 
 $$
 \Delta A = A_m - A = \begin{bmatrix} 0.60 & 0 \\ 10.00 & 1.10 \end{bmatrix} , \qquad \begin{bmatrix} \gamma_s \\ \gamma_f \end{bmatrix} = B^{-1} \begin{bmatrix} 0.60 \\ 10.00 \end{bmatrix} = \frac{1}{-1.71} \begin{bmatrix} -1.00 & 0.20 \\ 9.00 & -0.09 \end{bmatrix} \begin{bmatrix} 0.60 \\ 10.00 \end{bmatrix} = \begin{bmatrix} -0.8187 \\ -2.6316 \end{bmatrix}
+\tag{29}
 $$
 
 The simulation of the previous section therefore demands **0.82 degrees of symmetric tail and 2.63 degrees of symmetric flap for every degree of angle of attack.** Both are gradients rather than deflections, and the quotient is what matters. **The flap is asked for more than three times as much**, because it is the weaker lift producer of the two and must supply all of the change in lift.
@@ -462,6 +491,7 @@ The simulation of the previous section therefore demands **0.82 degrees of symme
 
 $$
 \delta = \left| \gamma \right| \alpha , \qquad \alpha_{\text{sat}} = \frac{\delta_{\max}}{\left| \gamma \right|} , \qquad \frac{21.5}{2.6316} = 8.17 , \qquad \frac{25}{0.8187} = 30.5 , \qquad \frac{2.6316 \times 5 / 21.5}{0.8187 \times 5 / 25} = \frac{0.6120}{0.1637} = 3.74
+\tag{30}
 $$
 
 **That reverses the intuition the rank argument leaves.** The tail is the powerful surface and the flap is the afterthought, and the counting bound requires only that the flap be there. **The deflection arithmetic says the flap is what runs out**, so the envelope of aeroplanes this machine can imitate is set by its weakest control rather than by its strongest.
@@ -484,24 +514,28 @@ A surface commanded to oscillate must move fastest as it passes through zero, an
 
 $$
 \delta \left( t \right) = \hat{\delta} \sin \omega t \qquad \Longrightarrow \qquad \left| \dot{\delta} \right|_{\max} = \hat{\delta} \omega \le R
+\tag{31}
 $$
 
 **Divide the rate limit by the deflection limit and the result has the dimensions of a frequency.** It is the highest frequency at which the surface can still reach its stops.
 
 $$
 \omega_c = \frac{R}{\delta_{\max}}
+\tag{32}
 $$
 
 Above it the usable amplitude falls as the reciprocal of frequency, so the fraction of authority available is a simple ratio \[[Describing function][ref_describing_function]\].
 
 $$
 \frac{\hat{\delta} \left( \omega \right)}{\delta_{\max}} = \min \left( 1 , \frac{\omega_c}{\omega} \right)
+\tag{33}
 $$
 
 **At the short period, for any surface whose corner frequency falls below it, that ratio alone gives the answer.**
 
 $$
 \frac{\hat{\delta} \left( \omega_{sp} \right)}{\delta_{\max}} = \frac{\omega_c}{\omega_{sp}} \qquad \text{whenever} \qquad \omega_c < \omega_{sp}
+\tag{34}
 $$
 
 **These are the published limits, with the corner frequency computed from the two columns beside it.**
@@ -520,12 +554,14 @@ $$
 
 $$
 \omega_c = \frac{60}{25} = 2.40 , \qquad \frac{\omega_c}{2 \pi} = 0.382 , \qquad \frac{\hat{\delta} \left( \omega_{sp} \right)}{\delta_{\max}} = \frac{2.40}{4} = 0.60 , \qquad \hat{\delta} = 0.60 \times 25 = 15
+\tag{35}
 $$
 
 **The differential tail is the opposite case and the contrast is exact.** It has the least deflection of any of them and the same rate limit as the stabilator, so its corner frequency is higher by the ratio of the two deflection limits, 4.65 against 4.65. The common rate limit cancels.
 
 $$
 \frac{\omega_{c,d}}{\omega_{c,s}} = \frac{R / 5.375}{R / 25.0} = \frac{25.0}{5.375} = 4.65 , \qquad \frac{11.16}{2.40} = 4.65
+\tag{36}
 $$
 
 **The surface with a fifth of the authority has more than four times the bandwidth at full authority**, and at the short period it is not rate limited at all.
@@ -540,6 +576,7 @@ $$
 
 $$
 \omega_c = \frac{25.0}{25.0} = 1.00 , \qquad \frac{\tau_l}{\tau} = \frac{0.136}{0.0495} = 2.75 , \qquad \frac{\hat{\delta} \left( \omega_{sp} \right)}{\delta_{\max}} = \frac{1.00}{4} = 0.25
+\tag{37}
 $$
 
 **And the second flight control system does not command it.** The published account of what the system drives lists the trailing-edge flaps and omits the leading-edge ones \[[F-16 VISTA, MATV and NF-16D, Variable-stability In-flight Simulator Test Aircraft, F-16.net][ref_f16net_vista]\].
@@ -550,6 +587,7 @@ $$
 
 $$
 \delta_l = 1.38 \, \frac{2 s + \omega_p}{s + \omega_p} \, \alpha - 9.05 \, \frac{\bar{q}}{P_s} + 1.45 , \qquad \omega_p = 7.25
+\tag{38}
 $$
 
 **Read the three terms.** A lead network on angle of attack, a subtraction proportional to the ratio of dynamic to static pressure, and a constant bias. The network passes 1.38 degrees of flap per degree of angle of attack in steady flight and asks for 2.76 above its pole, because its numerator's coefficient of the Laplace variable is twice its denominator's. **It is a lead of two, with a zero at 3.625 and a pole at 7.25 radians per second.**
@@ -558,6 +596,7 @@ $$
 
 $$
 \frac{\delta_l \left( s \right)}{\alpha \left( s \right)} = 1.38 \, \frac{2 s + \omega_p}{s + \omega_p} \cdot \frac{1}{\tau_l s + 1} , \qquad \omega_p \tau_l = 0.986
+\tag{39}
 $$
 
 **The product of the schedule's pole and the actuator's time constant is 0.986.** If the two corners coincided exactly it would be one. **They very nearly do**, so the pole the network introduces and the pole the hardware introduces sit on top of one another, and above that frequency the combined response has one zero and two poles and therefore falls rather than rises.
@@ -574,10 +613,12 @@ The table and the phase both come from the series transfer function above, evalu
 
 $$
 \left| \frac{\delta_l}{\alpha} \left( j \omega \right) \right| = 1.38 \, \frac{\sqrt{4 \omega^2 + \omega_p^2}}{\sqrt{\omega^2 + \omega_p^2}} \cdot \frac{1}{\sqrt{\tau_l^2 \omega^2 + 1}} , \qquad \varphi \left( \omega \right) = \arctan \frac{2 \omega}{\omega_p} - \arctan \frac{\omega}{\omega_p} - \arctan \tau_l \omega
+\tag{40}
 $$
 
 $$
 \frac{1.853}{1.028} = 1.80 , \qquad \frac{1.853 \times 0.440}{1.028 \times 0.991} = 0.80 , \qquad \frac{1.80}{0.80} = 2.25 , \qquad \varphi \left( 15 \right) = 76.4 - 64.2 - 63.9 = - 51.7 \ \text{degrees}
+\tag{41}
 $$
 
 **This article makes no claim that the coincidence was deliberate or that anyone has noticed it.** The schedule was designed for an aeroplane and the actuator was sized for a surface, and a near-cancellation between two poles chosen for different purposes is as likely to be an accident as a design. **The surface the simulation might have wanted is in any case already carrying a command it cannot execute**, a third reason on top of the two the previous paragraphs give, and the public record does not say which of the three governed.
@@ -590,18 +631,21 @@ Every surface but the leading-edge flap is modelled as a first-order lag of 0.04
 
 $$
 \frac{\delta \left( s \right)}{\delta_c \left( s \right)} = \frac{1}{\tau s + 1} , \qquad \omega_a = \frac{1}{\tau}
+\tag{42}
 $$
 
 That corner frequency is 20.2 radians per second, or 3.22 hertz, and the phase it costs grows with frequency.
 
 $$
 \varphi \left( \omega \right) = - \arctan \left( \omega \tau \right)
+\tag{43}
 $$
 
 **At the short period it is 11.2 degrees**, and at low frequency the lag behaves as a pure time delay of the same time constant.
 
 $$
 \frac{1}{\tau s + 1} \; \simeq \; e^{- \tau s} \qquad \text{whenever} \qquad \omega \tau \ll 1
+\tag{44}
 $$
 
 **The approximation is very good across the band this article uses.** The phase a first-order lag contributes differs from a pure delay's by 0.018 of a degree at two radians per second, 0.145 at four and 1.086 at eight. **So calling the actuator a delay of 49.5 milliseconds describes the hardware and is no mere convenience.**
@@ -610,12 +654,14 @@ $$
 
 $$
 \tau_e \left( \text{host and model} \right) = \tau_e \left( \text{host} \right) + \tau_e \left( \text{model} \right) \; \ge \; \tau_e \left( \text{host} \right)
+\tag{45}
 $$
 
 **That inequality carries the argument, and it has no escape in it.** Both terms are non-negative, so the sum is at least the first, and the first comes from the host's actuators.
 
 $$
 \tau_s \; \ge \; \tau + \frac{3}{2 f_s}
+\tag{46}
 $$
 
 **A variable-stability aeroplane can make any aeroplane sluggish and it cannot make any aeroplane crisp.** It can add lag, it can add instability, it can add a hundred milliseconds of transport delay and show a student what that feels like. **It cannot subtract its own hardware.** The set of aeroplanes it can faithfully reproduce is bounded below, and the bound is the host's equivalent delay.
@@ -636,12 +682,14 @@ Pilot-induced oscillation, for which aircraft-pilot coupling has been proposed a
 
 $$
 \left| \dot{\delta} \right| = R \quad \Longrightarrow \quad \hat{\delta}_o = \frac{\pi R}{2 \omega}
+\tag{47}
 $$
 
 The fundamental of a triangular wave is eight over pi squared times its amplitude, so the gain the element presents is the quotient of that fundamental and the input.
 
 $$
 \left| N \right| = \frac{8}{\pi^2} \cdot \frac{\hat{\delta}_o}{\hat{\delta}} = \frac{4 R}{\pi \, \hat{\delta} \, \omega}
+\tag{48}
 $$
 
 **The gain falls as the reciprocal of frequency and as the reciprocal of amplitude**, an amplitude-dependent bandwidth that makes the phenomenon hard to predict from a linear model. **The tighter the pilot tries to control, the larger the command and the smaller the gain the aeroplane returns.** The result is a positive feedback between effort and difficulty, and it explains why the phenomenon appears in demanding tasks and is absent in gentle ones.
@@ -671,12 +719,14 @@ $$
 
 $$
 Y_p \left( s \right) Y_c \left( s \right) \; \simeq \; \frac{\omega_{co} \, e^{- \tau_e s}}{s}
+\tag{49}
 $$
 
 **The consequence is that the pilot supplies whatever the aeroplane lacks, and the one thing no adaptation supplies is phase.** An integrator alone leaves ninety degrees of margin at crossover, and a transport delay eats into it linearly.
 
 $$
 \varphi_m = \frac{\pi}{2} - \omega_{co} \tau_e
+\tag{50}
 $$
 
 **So the delay floor is a fixed tax on the pilot's margin, charged before the simulated aeroplane has contributed anything.**
@@ -690,6 +740,7 @@ $$
 
 $$
 \frac{\omega_{co} \tau_e}{\pi / 2} , \qquad \frac{3 \times 0.0745}{1.5708} = 0.1423 , \qquad \frac{6 \times 0.0745}{1.5708} = 0.2846
+\tag{51}
 $$
 
 The crossover frequencies are assumed and are named as assumptions. **The delay is published.**
@@ -698,6 +749,7 @@ The crossover frequencies are assumed and are named as assumptions. **The delay 
 
 $$
 \varphi_m = 0 \quad \Longrightarrow \quad \omega_{co} = \frac{\pi}{2 \tau_e}
+\tag{52}
 $$
 
 **That is 21.08 radians per second for the floor and 31.73 for the actuator alone.** Both are far above where a human pilot works, **so the ceiling is not the binding constraint.** What binds is the tax, which is paid at every crossover frequency and which the simulation cannot refund.
@@ -730,12 +782,14 @@ The standard instrument is the Cooper-Harper rating scale, which is a decision t
 
 $$
 r_1 < r_2 \; \iff \; g \left( r_1 \right) < g \left( r_2 \right) \qquad \text{for every strictly increasing } g
+\tag{53}
 $$
 
 **So a statistic is meaningful on such a scale exactly when it commutes with every such relabelling**, and that single test separates the summaries that are allowed from the summaries that are not.
 
 $$
 \operatorname{med} \left( g \left( r \right) \right) = g \left( \operatorname{med} \left( r \right) \right) , \qquad \operatorname{mean} \left( g \left( r \right) \right) \ne g \left( \operatorname{mean} \left( r \right) \right)
+\tag{54}
 $$
 
 **The median is the middle element and relabelling the elements does not change which one is in the middle.** The mean is a sum divided by a count, and a sum depends on the distances between the labels, and those distances are what an ordinal scale declines to supply.
@@ -772,6 +826,7 @@ An autonomous agent developed for an uncrewed aircraft is written against that a
 
 $$
 \Pi = 0 \quad \Longrightarrow \quad G_{cl} \left( s \right) = C \left( s I - A_m \right)^{-1} B_m = G_m \left( s \right)
+\tag{55}
 $$
 
 **When the projector vanishes, the thing the agent is flying is not an approximation of the model. It is the model.** The host's dynamics matrix has been cancelled out of the closed loop entirely and what remains contains only the model's. **If the host could not reproduce the target vehicle's dynamics exactly, the agent would be flying something other than the aeroplane it was trained on**, and a result obtained that way would say less than it appeared to.
@@ -1265,6 +1320,552 @@ For twenty-nine years it lied to pilots. It was an NF-16D, a status prefix meani
 **The register's sentence is not official wording and the compiler marks it as reconstructed, yet the accounting system corroborates it.** Three months after the redesignation the Air Force obligated 799,956.00 dollars under a line that names the Skyborg programme. **The two records are maintained for unrelated purposes and they agree.** That agreement is the strongest thing this series has been able to say about a reconstructed description since the register stopped being a primary source one article ago.
 
 **What the next article inherits is a register that has now been unofficial for two designations running**, and the X-63A, allocated 10.2 months after this one, is the third \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\].
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 55 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 55, 42 are established and 13 are bespoke.
+The dynamics matrices are in inverse seconds and carry representative rather than measured values, surface deflections and rates are evaluated in degrees and degrees per second although the notation key states radians, and several letters depart from their usual meanings, so $e$ is the model-following state error while $e^{- \tau s}$ is the exponential of a delay, $P_s$ is the static pressure and not a specific excess power, $\gamma$ is a deflection gradient and not a ratio of specific heats, $g$ is a relabelling of the rating scale and not gravity, $A$ is a generic two-by-two matrix in the trace and determinant relation, and $V$ and $v$ are obligations in dollars.
+
+*Equation 1, Bespoke Fraction of the Flying Life Carried Under an X Number.*
+The article defines the share of the aeroplane's life as the Variable Stability In-flight Simulator Test Aircraft, VISTA, that it has flown with an X designation, measured from the first flight and the designation date to the date of the article.
+[General Dynamics X-62 VISTA][ref_x62_wikipedia]
+[Flight Test Files, Viper X, Vintage Aviation News][ref_vintage_viper_x]
+[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]
+
+$$
+F = \frac{T_n - T_d}{T_n - T_0}
+\tag{1}
+$$
+
+**Equation 2, Transactions Sum to the Award Total.**
+The obligations of an award's transactions, filed one at a time, sum to the separately stated award total.
+[USAspending][ref_usaspending]
+
+$$
+\sum_k v_k = V
+\tag{2}
+$$
+
+**Equation 3, Contractor Shares of the Recorded Obligation.**
+Each contractor's share is its subtotal divided by the whole record, giving Calspan 81.2 percent and Lockheed Martin 18.8 percent.
+
+$$
+\rho_p = \frac{V_p}{V_{\text{all}}} , \qquad \rho_{\text{Calspan}} = \frac{23{,}611{,}921.77}{29{,}085{,}924.37} = 0.812 , \qquad \rho_{\text{Lockheed Martin}} = \frac{5{,}474{,}002.60}{29{,}085{,}924.37} = 0.188
+\tag{3}
+$$
+
+**Equation 4, Symmetric and Differential Tail Commands.**
+The symmetric and differential commands are an invertible change of basis on the left and right tail deflections, so the pair supplies two independent controls.
+
+$$
+\begin{bmatrix} \delta_s \\ \delta_d \end{bmatrix} = \tfrac{1}{2} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} \delta_L \\ \delta_R \end{bmatrix} , \qquad \det = - \tfrac{1}{2} \ne 0
+\tag{4}
+$$
+
+**Equation 5, Linear Models of the Host and the Simulated Aeroplane.**
+The host and the model are each a linear state-space system with its own dynamics and control effectiveness matrices.
+[Stevens, Lewis and Johnson, Aircraft Control and Simulation][book_stevens_lewis]
+[McRuer, Ashkenas and Graham, Aircraft Dynamics and Automatic Control][book_mcruer_dynamics]
+
+$$
+\dot{x} = A x + B u , \qquad \dot{x}_m = A_m x_m + B_m u_m
+\tag{5}
+$$
+
+**Equation 6, Model-Following Control Law.**
+The host's controls are a linear combination of its own state, the model's state and the model's control input.
+[Model reference adaptive control][ref_mrac]
+
+$$
+u = K_x x + K_m x_m + K_u u_m
+\tag{6}
+$$
+
+**Equation 7, Closed Loop Under Model Following.**
+Substituting the control law into the host's dynamics gives the closed-loop state equation.
+
+$$
+\dot{x} = \left( A + B K_x \right) x + B K_m x_m + B K_u u_m
+\tag{7}
+$$
+
+**Equation 8, Matching Conditions on the Gains.**
+For the host to follow the model exactly, the closed loop must equal the model term by term, which gives two linear conditions on the gains.
+
+$$
+B \left( K_x + K_m \right) = A_m - A , \qquad B K_u = B_m
+\tag{8}
+$$
+
+**Equation 9, Projector Onto the Unreachable Subspace.**
+The identity minus the control matrix times its Moore-Penrose pseudoinverse projects onto the complement of the column space of the control matrix.
+[Moore-Penrose inverse][ref_pseudoinverse]
+[Projection, the linear algebraic operation][ref_projection]
+
+$$
+\Pi = I - B B^{+}
+\tag{9}
+$$
+
+**Equation 10, Erzberger Conditions for Perfect Model Following.**
+Exact model following is possible if and only if the projector annihilates both the demanded change of dynamics and the model's control matrix.
+[Erzberger, Analysis and Design of Model Following Control Systems by State Space Techniques, NASA Technical Memorandum X-61189, 18 October 1967][ref_erzberger_1967]
+
+$$
+\Pi \left( A_m - A \right) = 0 , \qquad \Pi B_m = 0
+\tag{10}
+$$
+
+**Equation 11, Least-Squares Model-Following Gains.**
+When the conditions hold, the gains are the pseudoinverse solutions of the matching conditions, which are then exact.
+[Erzberger, Analysis and Design of Model Following Control Systems by State Space Techniques, NASA Technical Memorandum X-61189, 18 October 1967][ref_erzberger_1967]
+[Asseo, Application of Optimal Control to Perfect Model Following, Journal of Aircraft, 1970][ref_asseo_1970]
+
+$$
+K_x + K_m = B^{+} \left( A_m - A \right) , \qquad K_u = B^{+} B_m
+\tag{11}
+$$
+
+**Equation 12, Demanded Change of Dynamics.**
+The change of dynamics a simulation demands is the model's dynamics matrix less the host's.
+
+$$
+\Delta A = A_m - A
+\tag{12}
+$$
+
+**Equation 13, Unmatchable Residual.**
+The part of the demanded change that the projector leaves is the residual no control law can produce.
+
+$$
+E = \Pi \left( A_m - A \right)
+\tag{13}
+$$
+
+**Equation 14, Model-Following Error Dynamics.**
+The state error between host and model obeys a stable homogeneous response driven by the residual acting on the model's state and by any mismatch in the input gains.
+[Anderson and Schmidt, Error Dynamics and Perfect Model Following With Application to Flight Control, Journal of Guidance, Control, and Dynamics, 1991][ref_anderson_1991]
+
+$$
+\dot{e} = \left( A + B K_x \right) e + E x_m + \left( B K_u - B_m \right) u_m
+\tag{14}
+$$
+
+**Equation 15, Steady Model-Following Error.**
+Setting the error derivative to zero gives a steady error that depends on the residual and the model's state and that no choice of feedback gain removes.
+[Anderson and Schmidt, Error Dynamics and Perfect Model Following With Application to Flight Control, Journal of Guidance, Control, and Dynamics, 1991][ref_anderson_1991]
+
+$$
+\dot{e} = 0 \quad \Longrightarrow \quad e_\infty = - \left( A + B K_x \right)^{-1} \Pi \, \Delta A \, x_m
+\tag{15}
+$$
+
+**Equation 16, Rank of the Projector.**
+The rank of the projector is the number of states less the rank of the control matrix, and so at least the number of states less the number of controls.
+
+$$
+\operatorname{rank} \Pi = n - \operatorname{rank} B \; \ge \; n - m
+\tag{16}
+$$
+
+**Equation 17, Output Model-Following Condition.**
+Matching an output rather than the full state replaces the projector with one built from the product of the output and control matrices.
+[Stevens, Lewis and Johnson, Aircraft Control and Simulation][book_stevens_lewis]
+
+$$
+y = C x \quad \Longrightarrow \quad \left( I - \left( C B \right) \left( C B \right)^{+} \right) C \, \Delta A = 0
+\tag{17}
+$$
+
+**Equation 18, Short-Period Equations of Motion.**
+The short period in angle of attack and pitch rate is a two-by-two linear system with the pitch-rate coefficient of the angle-of-attack equation normalised to unity.
+[Etkin and Reid, Dynamics of Flight, Stability and Control][book_etkin_reid]
+[Cook, Flight Dynamics Principles][book_cook]
+[USAF Test Pilot School, Flying Qualities Phase, Chapter 4, Equations of Motion][ref_tps_ch4]
+[USAF Test Pilot School, Flying Qualities Phase, Chapter 8, Dynamics][ref_tps_ch8]
+
+$$
+\begin{bmatrix} \dot{\alpha} \\ \dot{q} \end{bmatrix} = \begin{bmatrix} Z_\alpha & 1 \\ M_\alpha & M_q \end{bmatrix} \begin{bmatrix} \alpha \\ q \end{bmatrix}
+\tag{18}
+$$
+
+**Equation 19, Natural Frequency and Damping From the Trace and Determinant.**
+For a two-by-two dynamics matrix the natural frequency is the square root of the determinant and twice the damping times the frequency is minus the trace.
+
+$$
+\omega_n = \sqrt{\det A} , \qquad 2 \zeta \omega_n = - \operatorname{tr} A
+\tag{19}
+$$
+
+*Equation 20, Bespoke Host, Model and Control Matrices.*
+The host, the model and the two pitch controls are representative short-period matrices chosen to make the arithmetic legible, with a tail column that makes much more moment than lift and a flap column the reverse.
+[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]
+
+$$
+A = \begin{bmatrix} -1.20 & 1.00 \\ -8.00 & -1.50 \end{bmatrix} , \qquad A_m = \begin{bmatrix} -0.60 & 1.00 \\ 2.00 & -0.40 \end{bmatrix} , \qquad B = \begin{bmatrix} -0.09 & -0.20 \\ -9.00 & -1.00 \end{bmatrix}
+\tag{20}
+$$
+
+**Equation 21, Divergent Root and Time to Double.**
+A negative determinant gives a positive real eigenvalue, and the time to double amplitude is the natural logarithm of two divided by it.
+[USAF Test Pilot School, Flying Qualities Phase, Chapter 5, Longitudinal Static Stability][ref_tps_ch5]
+
+$$
+\det A < 0 \quad \Longrightarrow \quad \lambda = \tfrac{1}{2} \left( \operatorname{tr} A + \sqrt{\operatorname{tr}^2 A - 4 \det A} \right) > 0 , \qquad t_2 = \frac{\ln 2}{\lambda}
+\tag{21}
+$$
+
+**Equation 22, Projector for a Single Control Column.**
+With one control column the projector removes the direction of that column and leaves the perpendicular subspace untouched.
+
+$$
+\Pi = I - \frac{b \, b^{\mathrm{T}}}{b^{\mathrm{T}} b}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Unreachable Fraction of Each Row.*
+The article defines, for each row of the demanded change, the norm of the residual over the norm of the demanded change as the fraction no control law can produce.
+
+$$
+\eta_\alpha = \frac{\left\| \left( \Pi \, \Delta A \right)_\alpha \right\|}{\left\| \Delta A_\alpha \right\|} , \qquad \eta_q = \frac{\left\| \left( \Pi \, \Delta A \right)_q \right\|}{\left\| \Delta A_q \right\|}
+\tag{23}
+$$
+
+**Equation 24, Normal Load Factor per Unit Angle of Attack.**
+The load factor a given angle of attack produces is the dynamic pressure times the wing area and lift-curve slope, divided by the weight.
+
+$$
+\frac{n_z}{\alpha} = \frac{\bar{q} \, S \, C_{L_\alpha}}{W}
+\tag{24}
+$$
+
+**Equation 25, Pitching Moment of a Lifting Surface.**
+A surface that produces a normal force aft of the centre of gravity produces a pitching moment proportional to it, with the arm measured in mean aerodynamic chords.
+[Etkin and Reid, Dynamics of Flight, Stability and Control][book_etkin_reid]
+[Nelson, Flight Stability and Automatic Control][book_nelson]
+
+$$
+M_f = - \frac{\ell_f}{\bar{c}} Z_f , \qquad M_h = - \frac{\ell_h}{\bar{c}} Z_h
+\tag{25}
+$$
+
+**Equation 26, Determinant of Two Lifting Controls.**
+The determinant of the block mapping two lifting controls onto normal force and pitching moment is the product of their effectivenesses times the difference of their stations.
+
+$$
+\det \begin{bmatrix} Z_f & Z_h \\ M_f & M_h \end{bmatrix} = \frac{Z_f Z_h}{\bar{c}} \left( \ell_f - \ell_h \right)
+\tag{26}
+$$
+
+**Equation 27, Condition Number.**
+The condition number of a matrix is its largest singular value divided by its smallest.
+[Condition number][ref_condition_number]
+[Singular value decomposition][ref_singular_value]
+
+$$
+\kappa = \frac{\sigma_{\max}}{\sigma_{\min}}
+\tag{27}
+$$
+
+**Equation 28, Gain Bound From the Smallest Singular Value.**
+The matching gains, and so the deflections they command, are bounded by the norm of the demanded change divided by the smallest singular value of the control matrix.
+
+$$
+u = \left( K_x + K_m \right) x , \qquad \left\| K_x + K_m \right\| \le \frac{\left\| \Delta A \right\|}{\sigma_{\min} \left( B \right)}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Deflection Gradients in the Worked Simulation.*
+Solving the matching condition with the representative host, model and control matrices gives the symmetric tail and flap deflection per unit angle of attack.
+
+$$
+\Delta A = A_m - A = \begin{bmatrix} 0.60 & 0 \\ 10.00 & 1.10 \end{bmatrix} , \qquad \begin{bmatrix} \gamma_s \\ \gamma_f \end{bmatrix} = B^{-1} \begin{bmatrix} 0.60 \\ 10.00 \end{bmatrix} = \frac{1}{-1.71} \begin{bmatrix} -1.00 & 0.20 \\ 9.00 & -0.09 \end{bmatrix} \begin{bmatrix} 0.60 \\ 10.00 \end{bmatrix} = \begin{bmatrix} -0.8187 \\ -2.6316 \end{bmatrix}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Saturation Angles of Attack.*
+The representative deflection gradients are carried against the published limits of 25 degrees for the tail and 21.5 degrees for the flap, so the flap saturates first, at 8.17 degrees of angle of attack.
+[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]
+
+$$
+\delta = \left| \gamma \right| \alpha , \qquad \alpha_{\text{sat}} = \frac{\delta_{\max}}{\left| \gamma \right|} , \qquad \frac{21.5}{2.6316} = 8.17 , \qquad \frac{25}{0.8187} = 30.5 , \qquad \frac{2.6316 \times 5 / 21.5}{0.8187 \times 5 / 25} = \frac{0.6120}{0.1637} = 3.74
+\tag{30}
+$$
+
+**Equation 31, Peak Rate of a Sinusoidal Deflection.**
+A sinusoidal deflection moves fastest through zero at the amplitude times the frequency, which must not exceed the rate limit.
+[Slew rate][ref_slew_rate]
+
+$$
+\delta \left( t \right) = \hat{\delta} \sin \omega t \qquad \Longrightarrow \qquad \left| \dot{\delta} \right|_{\max} = \hat{\delta} \omega \le R
+\tag{31}
+$$
+
+*Equation 32, Bespoke Full-Deflection Corner Frequency.*
+The article defines the corner frequency of a surface as its rate limit divided by its deflection limit, the highest frequency at which it can still reach its stops.
+
+$$
+\omega_c = \frac{R}{\delta_{\max}}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Fraction of Authority Available at a Frequency.*
+Above the article's corner frequency the usable amplitude falls as the reciprocal of frequency, so the available fraction of travel is the lesser of one and the corner frequency over the frequency.
+[Describing function][ref_describing_function]
+
+$$
+\frac{\hat{\delta} \left( \omega \right)}{\delta_{\max}} = \min \left( 1 , \frac{\omega_c}{\omega} \right)
+\tag{33}
+$$
+
+*Equation 34, Bespoke Fraction of Authority at the Short Period.*
+At the short-period frequency a surface whose corner frequency lies below it reaches only the ratio of the two frequencies of its travel.
+
+$$
+\frac{\hat{\delta} \left( \omega_{sp} \right)}{\delta_{\max}} = \frac{\omega_c}{\omega_{sp}} \qquad \text{whenever} \qquad \omega_c < \omega_{sp}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Stabilator Authority at a Representative Short Period.*
+The published rate limit of 60 degrees per second and deflection limit of 25 degrees give a corner of 2.40 radians per second, which at a short period the article assumes to be 4 radians per second leaves 60 percent of the travel.
+
+$$
+\omega_c = \frac{60}{25} = 2.40 , \qquad \frac{\omega_c}{2 \pi} = 0.382 , \qquad \frac{\hat{\delta} \left( \omega_{sp} \right)}{\delta_{\max}} = \frac{2.40}{4} = 0.60 , \qquad \hat{\delta} = 0.60 \times 25 = 15
+\tag{35}
+$$
+
+*Equation 36, Bespoke Ratio of Differential to Symmetric Tail Corner Frequencies.*
+With a common rate limit, the ratio of the two corner frequencies is the inverse ratio of the published deflection limits.
+
+$$
+\frac{\omega_{c,d}}{\omega_{c,s}} = \frac{R / 5.375}{R / 25.0} = \frac{25.0}{5.375} = 4.65 , \qquad \frac{11.16}{2.40} = 4.65
+\tag{36}
+$$
+
+*Equation 37, Bespoke Leading-Edge Flap Corner, Lag Ratio and Authority.*
+The published travel and rate give the leading-edge flap a corner of one radian per second and an actuator lag 2.75 times the others, and at the assumed short period of 4 radians per second it reaches a quarter of its travel.
+[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]
+
+$$
+\omega_c = \frac{25.0}{25.0} = 1.00 , \qquad \frac{\tau_l}{\tau} = \frac{0.136}{0.0495} = 2.75 , \qquad \frac{\hat{\delta} \left( \omega_{sp} \right)}{\delta_{\max}} = \frac{1.00}{4} = 0.25
+\tag{37}
+$$
+
+**Equation 38, Published Leading-Edge Flap Schedule.**
+The leading-edge flap is scheduled by a lead network on angle of attack, a term in the ratio of dynamic to static pressure and a constant bias.
+[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]
+
+$$
+\delta_l = 1.38 \, \frac{2 s + \omega_p}{s + \omega_p} \, \alpha - 9.05 \, \frac{\bar{q}}{P_s} + 1.45 , \qquad \omega_p = 7.25
+\tag{38}
+$$
+
+**Equation 39, Leading-Edge Flap Schedule in Series With Its Actuator.**
+Putting the published schedule in series with the published first-order actuator lag gives the surface's response to angle of attack, with the schedule pole and actuator corner nearly coincident.
+
+$$
+\frac{\delta_l \left( s \right)}{\alpha \left( s \right)} = 1.38 \, \frac{2 s + \omega_p}{s + \omega_p} \cdot \frac{1}{\tau_l s + 1} , \qquad \omega_p \tau_l = 0.986
+\tag{39}
+$$
+
+**Equation 40, Gain and Phase of the Series Response.**
+Evaluating the series transfer function on the imaginary axis gives its magnitude and phase as functions of frequency.
+
+$$
+\left| \frac{\delta_l}{\alpha} \left( j \omega \right) \right| = 1.38 \, \frac{\sqrt{4 \omega^2 + \omega_p^2}}{\sqrt{\omega^2 + \omega_p^2}} \cdot \frac{1}{\sqrt{\tau_l^2 \omega^2 + 1}} , \qquad \varphi \left( \omega \right) = \arctan \frac{2 \omega}{\omega_p} - \arctan \frac{\omega}{\omega_p} - \arctan \tau_l \omega
+\tag{40}
+$$
+
+**Equation 41, Gain Rises and Phase at Fifteen Radians per Second.**
+The magnitudes at fifteen and at one radian per second, with and without the actuator factor, give the gain rises and the phase of the series response.
+
+$$
+\frac{1.853}{1.028} = 1.80 , \qquad \frac{1.853 \times 0.440}{1.028 \times 0.991} = 0.80 , \qquad \frac{1.80}{0.80} = 2.25 , \qquad \varphi \left( 15 \right) = 76.4 - 64.2 - 63.9 = - 51.7 \ \text{degrees}
+\tag{41}
+$$
+
+**Equation 42, First-Order Actuator Lag.**
+Every surface but the leading-edge flap follows its command through a first-order lag of the published time constant, with a corner at its reciprocal.
+[Nguyen, Ogburn, Gilbert, Kibler, Brown and Deal, Simulator Study of Stall and Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability, NASA Technical Paper 1538, December 1979][ref_tp1538]
+
+$$
+\frac{\delta \left( s \right)}{\delta_c \left( s \right)} = \frac{1}{\tau s + 1} , \qquad \omega_a = \frac{1}{\tau}
+\tag{42}
+$$
+
+**Equation 43, Phase of a First-Order Lag.**
+The phase of a first-order lag is minus the arctangent of the frequency times the time constant.
+
+$$
+\varphi \left( \omega \right) = - \arctan \left( \omega \tau \right)
+\tag{43}
+$$
+
+**Equation 44, First-Order Lag as a Pure Delay at Low Frequency.**
+At frequencies well below its corner a first-order lag behaves as a pure time delay of the same time constant.
+
+$$
+\frac{1}{\tau s + 1} \; \simeq \; e^{- \tau s} \qquad \text{whenever} \qquad \omega \tau \ll 1
+\tag{44}
+$$
+
+**Equation 45, Equivalent Delays in Series Add.**
+The equivalent delay of a host and a model in series is the sum of their delays, and so is never less than the host's alone.
+
+$$
+\tau_e \left( \text{host and model} \right) = \tau_e \left( \text{host} \right) + \tau_e \left( \text{model} \right) \; \ge \; \tau_e \left( \text{host} \right)
+\tag{45}
+$$
+
+*Equation 46, Bespoke Floor on the Simulated Delay.*
+The article bounds the delay a pilot meets below by the actuator lag plus half a frame of sampling and one frame of transport, an implementation it assumes.
+
+$$
+\tau_s \; \ge \; \tau + \frac{3}{2 f_s}
+\tag{46}
+$$
+
+**Equation 47, Output Amplitude of a Saturated Rate Limiter.**
+A rate limiter deep in saturation produces a triangular wave whose amplitude follows from the rate limit and the frequency alone.
+[Describing function][ref_describing_function]
+[Slotine and Li, Applied Nonlinear Control][book_slotine]
+
+$$
+\left| \dot{\delta} \right| = R \quad \Longrightarrow \quad \hat{\delta}_o = \frac{\pi R}{2 \omega}
+\tag{47}
+$$
+
+**Equation 48, Describing Function of a Saturated Rate Limiter.**
+The fundamental of the triangular output divided by the input amplitude gives a gain that falls with both frequency and amplitude.
+[Describing function][ref_describing_function]
+[Slotine and Li, Applied Nonlinear Control][book_slotine]
+
+$$
+\left| N \right| = \frac{8}{\pi^2} \cdot \frac{\hat{\delta}_o}{\hat{\delta}} = \frac{4 R}{\pi \, \hat{\delta} \, \omega}
+\tag{48}
+$$
+
+**Equation 49, McRuer Crossover Model.**
+A trained pilot adapts until the combined pilot and vehicle open loop looks like an integrator with a delay near the crossover frequency.
+[McRuer and Krendel, Mathematical Models of Human Pilot Behavior][book_mcruer_pilot]
+[McRuer, Ashkenas and Graham, Aircraft Dynamics and Automatic Control][book_mcruer_dynamics]
+
+$$
+Y_p \left( s \right) Y_c \left( s \right) \; \simeq \; \frac{\omega_{co} \, e^{- \tau_e s}}{s}
+\tag{49}
+$$
+
+**Equation 50, Phase Margin of the Crossover Model.**
+The crossover model leaves ninety degrees of margin less the phase the effective delay costs at crossover.
+
+$$
+\varphi_m = \frac{\pi}{2} - \omega_{co} \tau_e
+\tag{50}
+$$
+
+*Equation 51, Bespoke Share of the Margin Consumed by the Delay Floor.*
+The phase the floor of 74.5 milliseconds costs is divided by the ninety degrees an integrator leaves, at crossover frequencies of three and six radians per second that the article assumes.
+
+$$
+\frac{\omega_{co} \tau_e}{\pi / 2} , \qquad \frac{3 \times 0.0745}{1.5708} = 0.1423 , \qquad \frac{6 \times 0.0745}{1.5708} = 0.2846
+\tag{51}
+$$
+
+**Equation 52, Crossover at Which the Phase Margin Vanishes.**
+Setting the phase margin of the crossover model to zero gives the highest crossover frequency the delay allows.
+
+$$
+\varphi_m = 0 \quad \Longrightarrow \quad \omega_{co} = \frac{\pi}{2 \tau_e}
+\tag{52}
+$$
+
+**Equation 53, Invariance of an Ordinal Scale.**
+An ordinal scale is one whose order survives every strictly increasing relabelling of its points.
+
+$$
+r_1 < r_2 \; \iff \; g \left( r_1 \right) < g \left( r_2 \right) \qquad \text{for every strictly increasing } g
+\tag{53}
+$$
+
+**Equation 54, Median Commutes With Relabelling and the Mean Does Not.**
+The median of relabelled ratings is the relabelled median, while the mean of relabelled ratings is in general not the relabelled mean.
+
+$$
+\operatorname{med} \left( g \left( r \right) \right) = g \left( \operatorname{med} \left( r \right) \right) , \qquad \operatorname{mean} \left( g \left( r \right) \right) \ne g \left( \operatorname{mean} \left( r \right) \right)
+\tag{54}
+$$
+
+**Equation 55, Closed Loop Equals the Model When the Projector Vanishes.**
+When the projector is zero the closed-loop transfer function of the host is exactly that of the model, with the host's dynamics cancelled.
+
+$$
+\Pi = 0 \quad \Longrightarrow \quad G_{cl} \left( s \right) = C \left( s I - A_m \right)^{-1} B_m = G_m \left( s \right)
+\tag{55}
+$$
+
+### Notation
+
+- $x$, the state vector of the host aeroplane, with $x_m$ that of the model being simulated
+- $u$, the control vector of the host aeroplane, with $u_m$ that of the model
+- $A$, the dynamics matrix of the host aeroplane
+- $A_m$, the dynamics matrix of the model being simulated
+- $B$, the control effectiveness matrix of the host aeroplane
+- $B_m$, the control effectiveness matrix of the model being simulated
+- $K_x$, the feedback gain matrix on the host's own state
+- $K_m$, the gain matrix on the model's state
+- $K_u$, the gain matrix on the model's control input
+- $B^{+}$, the Moore-Penrose pseudoinverse of the control effectiveness matrix
+- $\Pi$, the orthogonal projector onto the subspace no combination of the host's controls can reach
+- $\Delta A$, the change of dynamics the simulation demands
+- $E$, the unmatchable residual of the demanded change
+- $e_\infty$, the steady model-following error left by a residual no gain removes
+- $C$, the output matrix, selecting what the pilot is given to feel
+- $Z_\alpha$, the normal force derivative with respect to angle of attack
+- $M_\alpha$, the pitching moment derivative with respect to angle of attack
+- $M_q$, the pitching moment derivative with respect to pitch rate
+- $\omega_n$, the undamped natural frequency of a second-order pair
+- $\zeta$, the damping ratio
+- $\lambda$, the eigenvalue of a dynamics matrix
+- $t_2$, the time for a divergence to double in amplitude
+- $\eta_\alpha$, the fraction of the angle-of-attack row's demanded change that no control law can produce, with $\eta_q$ that of the pitch-rate row
+- $n_z$, the normal load factor
+- $\bar{q}$, the dynamic pressure
+- $C_{L_\alpha}$, the lift-curve slope per radian
+- $\ell_f$, the distance of the flap's centre of pressure aft of the centre of gravity, with $\ell_h$ that of the horizontal tail
+- $\bar{c}$, the mean aerodynamic chord
+- $\kappa$, the condition number of a matrix
+- $\sigma_{\min}$, the smallest singular value of a matrix
+- $\gamma_s$, the symmetric tail deflection per unit angle of attack, with $\gamma_f$ that of the flap
+- $\alpha_{\text{sat}}$, the angle of attack at which a surface reaches its deflection limit
+- $\delta_{\max}$, the deflection limit of a control surface
+- $R$, the rate limit of a control surface actuator
+- $\hat{\delta}$, the amplitude of a sinusoidal surface deflection
+- $\omega_c$, the full-deflection corner frequency of a surface
+- $\omega_{sp}$, the short-period natural frequency
+- $\delta_l$, the leading-edge flap deflection
+- $\omega_p$, the pole of the published leading-edge flap schedule
+- $P_s$, the static pressure
+- $\tau$, the first-order lag time constant of a surface actuator, with $\tau_l$ that of the leading-edge flap
+- $\tau_s$, the equivalent time delay of the simulated aeroplane as the pilot meets it
+- $f_s$, the frame rate of the digital implementation
+- $\tau_e$, the equivalent time delay of a cascade as the pilot meets it
+- $\hat{\delta}_o$, the amplitude of the triangular output of a saturated rate limiter
+- $N$, the describing function of a nonlinear element
+- $Y_p$, the describing function of the human pilot, with $Y_c$ the transfer function of the controlled element
+- $\omega_{co}$, the crossover frequency of the pilot and vehicle loop
+- $\varphi_m$, the phase margin
+- $g$, a strictly increasing map of the rating scale onto itself
+- $\rho_p$, the share of the whole record's obligation that one contractor carries
+- $V_{\text{all}}$, the obligation summed over the whole record
+- $F$, the fraction of its flying life the aeroplane has carried an X number
+- $T_n$, the date of the article, with $T_d$ the designation date and $T_0$ the first flight
+- $G_{cl}$, the closed-loop transfer function of the host under model following, with $G_m$ that of the model
 
 ## References
 

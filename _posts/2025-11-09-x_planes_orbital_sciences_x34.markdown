@@ -120,13 +120,19 @@ them.
 **Those three quantities are related by [the definition of specific impulse][ref_isp].** Writing $F$ for
 thrust, $\dot{m}$ for mass flow and $g_0$ for standard gravity,
 
-$$I_{sp} = \frac{F}{\dot{m} \, g_0}$$
+$$
+I_{sp} = \frac{F}{\dot{m} \, g_0}
+\tag{1}
+$$
 
 in the form [Sutton sets out for propulsion analysis][book_rocket_propulsion_elements].
 
 Converting the thrust to 266,893 newtons, which is 266.9 kilonewtons, and substituting,
 
-$$I_{sp} = \frac{266{,}893}{91.90 \times 9.80665} = 296.14 \ \text{s}$$
+$$
+I_{sp} = \frac{266{,}893}{91.90 \times 9.80665} = 296.14 \ \text{s}
+\tag{2}
+$$
 
 **against a quoted 314, which is 5.69 percent adrift.** A disagreement of that size in a quoted set is
 either an error or a distinction, and here it is a distinction, though not the one it first appears to be.
@@ -144,12 +150,18 @@ at an engine mixture ratio of 2.17 in both.
 The same schematic gives the flows, 195.5 pounds per second into the main chamber and 7.10 into the gas
 generator, so the total is
 
-$$\dot{m} = \left(195.5 + 7.10\right) \times 0.45359237 = 202.6 \times 0.45359237 = 91.90 \ \text{kg/s}$$
+$$
+\dot{m} = \left(195.5 + 7.10\right) \times 0.45359237 = 202.6 \times 0.45359237 = 91.90 \ \text{kg/s}
+\tag{3}
+$$
 
 **which is the quoted flow, now derived from the primary record.** Put back through the definition with each
 nozzle's own thrust, 284,415 newtons for the flight nozzle and 266,698 for the ground nozzle,
 
-$$I_{sp}^{30} = \frac{284{,}415}{91.90 \times 9.80665} = 315.6 \ \text{s} \qquad I_{sp}^{15} = \frac{266{,}698}{91.90 \times 9.80665} = 295.9 \ \text{s}$$
+$$
+I_{sp}^{30} = \frac{284{,}415}{91.90 \times 9.80665} = 315.6 \ \text{s} \qquad I_{sp}^{15} = \frac{266{,}698}{91.90 \times 9.80665} = 295.9 \ \text{s}
+\tag{4}
+$$
 
 with the superscript naming the area ratio, against the published 314 and 296. **Each configuration closes on its own figures to within half a percent, and the 5.69 percent gap was never in the engine.**
 The 296.14 seconds the quoted set implies is, to within rounding, the ground nozzle's impulse.
@@ -164,7 +176,10 @@ overboard rather than expanded through the main nozzle, where it would contribut
 Writing $\dot{m}_c$ for the chamber flow and $\dot{m}_{gg}$ for the gas generator flow, the schematic gives
 the generator's share directly,
 
-$$\frac{\dot{m}_{gg}}{\dot{m}} = \frac{7.10}{202.6} = 0.0350$$
+$$
+\frac{\dot{m}_{gg}}{\dot{m}} = \frac{7.10}{202.6} = 0.0350
+\tag{5}
+$$
 
 **which is 3.50 percent of the total.** A gas generator typically spends between three and seven percent of
 the propellant it pumps, a range set out in
@@ -175,11 +190,17 @@ so the published cycle lands inside the range the architecture uses, near its ec
 88.68 kilograms per second, and taking the turbine exhaust as contributing no thrust, the chamber alone would
 deliver
 
-$$I_{sp,c} = \frac{F}{\dot{m}_c \, g_0} = \frac{284{,}415}{88.68 \times 9.80665} = 327.05 \ \text{s}$$
+$$
+I_{sp,c} = \frac{F}{\dot{m}_c \, g_0} = \frac{284{,}415}{88.68 \times 9.80665} = 327.05 \ \text{s}
+\tag{6}
+$$
 
 against the 315.59 seconds the whole flow gives, so
 
-$$\Delta I_{sp} = 327.05 - 315.59 = 11.46 \ \text{s}$$
+$$
+\Delta I_{sp} = 327.05 - 315.59 = 11.46 \ \text{s}
+\tag{7}
+$$
 
 which is an upper bound, because a turbine exhaust duct recovers a little thrust.
 **The two percentages are identical by necessity.** The fractional impulse the cycle costs
@@ -192,14 +213,20 @@ Two clusters below, on liquid rocket engines, turbopumps and combustion and on r
 **The vehicle's propellant load and the engine's flow rate give a burn time**, and it can be checked against
 the longest engine test the programme published.
 
-$$t_b = \frac{m_p}{\dot{m}} = \frac{13{,}600}{91.90} = 148.0 \ \text{s}$$
+$$
+t_b = \frac{m_p}{\dot{m}} = \frac{13{,}600}{91.90} = 148.0 \ \text{s}
+\tag{8}
+$$
 
 **The longest hot fire in the engine development record ran 159.03 seconds against 159.0 planned**, in a
 test on 14 May 1999 recorded in the test table of
 [the development status report on the MC-1 engine][research_ballardrichardo_olivetim_2000]. Writing
 $t_{\text{test}}$ for that duration, the margin over the mission burn is
 
-$$\frac{t_{\text{test}}}{t_b} = \frac{159.03}{148.0} = 1.075$$
+$$
+\frac{t_{\text{test}}}{t_b} = \frac{159.03}{148.0} = 1.075
+\tag{9}
+$$
 
 The masses, the flow rate and
 the test duration were published separately and by different parts of the programme, and they describe one
@@ -212,20 +239,32 @@ vehicle burning one propellant load with about seven and a half percent to spare
 answer is a check on the published masses. The effective exhaust velocity is the flight engine's published
 impulse of 314 seconds, which already carries the cost of the cycle, times standard gravity,
 
-$$v_e = I_{sp} \, g_0 = 314 \times 9.80665 = 3{,}079.3 \ \text{m/s}$$
+$$
+v_e = I_{sp} \, g_0 = 314 \times 9.80665 = 3{,}079.3 \ \text{m/s}
+\tag{10}
+$$
 
 **which is 3,079.3 metres per second.** The mass ratio is the release mass over the burnout mass,
 
-$$\frac{m_0}{m_f} = \frac{21{,}800}{8{,}200} = 2.6585$$
+$$
+\frac{m_0}{m_f} = \frac{21{,}800}{8{,}200} = 2.6585
+\tag{11}
+$$
 
 so the ideal velocity increment is
 
-$$\Delta v = v_e \ln\!\left(\frac{m_0}{m_f}\right) = 3{,}010.9 \ \text{m/s}$$
+$$
+\Delta v = v_e \ln\!\left(\frac{m_0}{m_f}\right) = 3{,}010.9 \ \text{m/s}
+\tag{12}
+$$
 
 **The ideal increment is 3,010.9 metres per second, and adding the 236.1 the carrier aircraft already supplied gives 3,247.0**,
 against a Mach 8 objective which at the burnout altitude is about 2,400 metres per second.
 
-$$3{,}247.0 - 2{,}400 = 847.0 \ \text{m/s}$$
+$$
+3{,}247.0 - 2{,}400 = 847.0 \ \text{m/s}
+\tag{13}
+$$
 
 **leaving 847.0 metres per second, or 26.1 percent of the ideal total, for gravity, drag and steering.** A
 vehicle whose ideal increment exceeded its objective by only a few percent would be claiming no losses at
@@ -235,7 +274,10 @@ masses rather than on the trajectory.
 
 **The thrust to weight at release follows from the same figures,**
 
-$$\frac{F}{m_0 g_0} = \frac{284{,}415}{21{,}800 \times 9.80665} = 1.330$$
+$$
+\frac{F}{m_0 g_0} = \frac{284{,}415}{21{,}800 \times 9.80665} = 1.330
+\tag{14}
+$$
 
 **and a vehicle released in level flight needs no more than one**, because the wing is already carrying it.
 Being above one lets an air-launched vehicle pitch up immediately instead of sinking while it
@@ -243,7 +285,10 @@ accelerates.
 
 The masses also fix the propellant mass fraction,
 
-$$\zeta = \frac{13{,}600}{21{,}800} = 0.6239$$
+$$
+\zeta = \frac{13{,}600}{21{,}800} = 0.6239
+\tag{15}
+$$
 
 **or 62.4 percent, against 73.7 for [the X-33][related_post_a330_lockheed_martin_x33] and the 89.0 percent an orbital vehicle needs.** The X-34 is
 further from an orbital mass fraction than the X-33 was, and neither was required to be close, because
@@ -266,29 +311,44 @@ engine to make. An ablative liner is a moulding.
 chamber flow, the chamber pressure $p_c$ and the [characteristic velocity][ref_cstar] $c^{\ast}$ of liquid
 oxygen burning with [RP-1 kerosene][ref_rp1], the throat area follows from
 
-$$A_t = \frac{\dot{m}_c \, c^{\ast}}{p_c}$$
+$$
+A_t = \frac{\dot{m}_c \, c^{\ast}}{p_c}
+\tag{16}
+$$
 
 **Here the throat is published, so the relation can be run the other way.** It is 8.25 inches across in
 [the nozzle design report][research_peterswarren_rogerspat_2000], which is 0.20955 metres, so
 
-$$A_t = \frac{\pi D_t^2}{4} = \frac{\pi \times 0.20955^2}{4} = 0.034488 \ \text{m}^2$$
+$$
+A_t = \frac{\pi D_t^2}{4} = \frac{\pi \times 0.20955^2}{4} = 0.034488 \ \text{m}^2
+\tag{17}
+$$
 
 and with the nominal chamber pressure of 652 pounds per square inch, or 4.495 megapascals, that
 [the development status report][research_ballardrichardo_olivetim_2000] lists among the engine's
 requirements, and the chamber flow of 88.68 kilograms per second,
 
-$$c^{\ast} = \frac{p_c A_t}{\dot{m}_c} = \frac{4.495 \times 10^6 \times 0.034488}{88.68} = 1{,}748 \ \text{m/s}$$
+$$
+c^{\ast} = \frac{p_c A_t}{\dot{m}_c} = \frac{4.495 \times 10^6 \times 0.034488}{88.68} = 1{,}748 \ \text{m/s}
+\tag{18}
+$$
 
 The same report's engine schematic shows 633 pounds per square inch in the chamber at its operating point,
 which would lower the characteristic velocity by 2.9 percent, and the requirement figure is used here as the
 nominal one. The vacuum thrust coefficient at the flight nozzle's thrust is then
 
-$$C_F = \frac{F}{p_c A_t} = \frac{284{,}415}{4.495 \times 10^6 \times 0.034488} = 1.8345$$
+$$
+C_F = \frac{F}{p_c A_t} = \frac{284{,}415}{4.495 \times 10^6 \times 0.034488} = 1.8345
+\tag{19}
+$$
 
 **Those two quantities divide the engine's performance between its two halves**, since the characteristic
 velocity describes everything upstream of the throat and the thrust coefficient everything downstream,
 
-$$I_{sp} = \frac{C_F \, c^{\ast}}{g_0}$$
+$$
+I_{sp} = \frac{C_F \, c^{\ast}}{g_0}
+\tag{20}
+$$
 
 **That relation is shown for its structure and not as a check.** The characteristic velocity above was
 derived from the same pressure, area and chamber flow, so multiplying the two factors returns the chamber
@@ -296,7 +356,10 @@ impulse of 327.05 seconds by construction, and presenting the agreement as confi
 
 The area ratio then fixes the exit. The flight nozzle's ratio is approximately 30 in both reports, so
 
-$$A_e = \varepsilon A_t = 30 \times 0.034488 = 1.0346 \ \text{m}^2$$
+$$
+A_e = \varepsilon A_t = 30 \times 0.034488 = 1.0346 \ \text{m}^2
+\tag{21}
+$$
 
 **an exit 1.148 metres across**, which is a check on the published ratio, because a nozzle wider than the
 vehicle could not have been fitted to it.
@@ -309,13 +372,19 @@ balance is instructive because it fails.
 **Start with the heat the wall has to survive.** The standard estimate for a rocket throat is the Bartz
 correlation, which gives the gas-side heat transfer coefficient as
 
-$$h_g = \frac{0.026}{D_t^{0.2}}\left(\frac{\mu^{0.2} c_p}{\mathrm{Pr}^{0.6}}\right)\left(\frac{p_c}{c^{\ast}}\right)^{0.8}\left(\frac{D_t}{R_c}\right)^{0.1}$$
+$$
+h_g = \frac{0.026}{D_t^{0.2}}\left(\frac{\mu^{0.2} c_p}{\mathrm{Pr}^{0.6}}\right)\left(\frac{p_c}{c^{\ast}}\right)^{0.8}\left(\frac{D_t}{R_c}\right)^{0.1}
+\tag{22}
+$$
 
 With a chamber at about 3,500 kelvin and gas properties typical of liquid oxygen burning with kerosene, that
 gives 8,674 watts per square metre per kelvin, taking the throat's radius of curvature equal to its diameter. The heat arriving is the coefficient times the difference
 between the recovery temperature and the ablating surface,
 
-$$q = h_g \left(T_{aw} - T_w\right) = 8{,}674 \times \left(3{,}150 - 1{,}900\right) = 10.84 \ \text{MW/m}^2$$
+$$
+q = h_g \left(T_{aw} - T_w\right) = 8{,}674 \times \left(3{,}150 - 1{,}900\right) = 10.84 \ \text{MW/m}^2
+\tag{23}
+$$
 
 **Ten megawatts per square metre is the order of magnitude a rocket throat delivers.** The correlation is
 good to perhaps a factor of two, a limit stated here because what follows depends on it.
@@ -324,13 +393,19 @@ good to perhaps a factor of two, a limit stated here because what follows depend
 energy each kilogram carries away, so writing $H_{\text{eff}}$ for that effective heat of ablation and
 $\rho_a$ for the material density,
 
-$$\dot{s} = \frac{q}{\rho_a H_{\text{eff}}}$$
+$$
+\dot{s} = \frac{q}{\rho_a H_{\text{eff}}}
+\tag{24}
+$$
 
 **Run it forwards with the energy the material can actually absorb.** On representative property values,
 heating silica phenolic from room temperature to 1,900 kelvin takes about 1.76 megajoules per kilogram and
 vaporising the silica about 12, so
 
-$$H_{\text{absorb}} = 13.76 \ \text{MJ/kg} \qquad \Rightarrow \qquad \dot{s} = 0.463 \ \text{mm/s}$$
+$$
+H_{\text{absorb}} = 13.76 \ \text{MJ/kg} \qquad \Rightarrow \qquad \dot{s} = 0.463 \ \text{mm/s}
+\tag{25}
+$$
 
 **Over the 148 second burn that rate removes 68.6 millimetres, an absurd figure.** A throat losing that much would
 not survive, and ablative chambers of this class do not behave that way.
@@ -340,7 +415,10 @@ requirement of under 2 mils per second, which is 0.051 millimetres per second, a
 after 66 firings totalling 1,803 seconds, so a tenth of a millimetre per second is a generous upper figure,
 and putting that in gives
 
-$$H_{\text{eff}} = \frac{q}{\rho_a \dot{s}} = \frac{10.84 \times 10^6}{1{,}700 \times 10^{-4}} = 63.8 \ \text{MJ/kg}$$
+$$
+H_{\text{eff}} = \frac{q}{\rho_a \dot{s}} = \frac{10.84 \times 10^6}{1{,}700 \times 10^{-4}} = 63.8 \ \text{MJ/kg}
+\tag{26}
+$$
 
 **against 13.76 that the material can absorb, a ratio of 4.6, which a slower recession would only raise.**
 
@@ -367,7 +445,10 @@ some forty years settled when the engine was designed.
 
 At the upper figure of a tenth of a millimetre per second the liner loses
 
-$$\Delta s = \dot{s} \, t_b = 10^{-4} \times 148.0 = 14.8 \ \text{mm}$$
+$$
+\Delta s = \dot{s} \, t_b = 10^{-4} \times 148.0 = 14.8 \ \text{mm}
+\tag{27}
+$$
 
 over a full burn, so a chamber built to fly one mission needs a consumable layer of the order of a
 centimetre and a half, and at the published erosion requirement about half that.
@@ -398,13 +479,22 @@ Taking a release at 38,000 feet, which is 11,582 metres and is the approximate l
 [the engine development report][research_ballardrichardo_olivetim_2000] gives for the X-34, at an assumed
 Mach 0.8, the specific energy the aircraft has already supplied is potential plus kinetic,
 
-$$e = g_0 h + \frac{v^2}{2}$$
+$$
+e = g_0 h + \frac{v^2}{2}
+\tag{28}
+$$
 
-$$e = 9.80665 \times 11{,}582 + \frac{236.1^2}{2} = 141{,}446 \ \text{J/kg}$$
+$$
+e = 9.80665 \times 11{,}582 + \frac{236.1^2}{2} = 141{,}446 \ \text{J/kg}
+\tag{29}
+$$
 
 **The total is 141.4 kilojoules per kilogram.** Expressed as the velocity increment that energy would buy,
 
-$$\Delta v_{\text{equiv}} = \sqrt{2e} = 531.9 \ \text{m/s}$$
+$$
+\Delta v_{\text{equiv}} = \sqrt{2e} = 531.9 \ \text{m/s}
+\tag{30}
+$$
 
 **The figure is 5.7 percent of a 9,300 metre per second orbital budget.** An argument for air launch from
 the altitude and the speed argues from the smallest of its benefits.
@@ -412,12 +502,18 @@ the altitude and the speed argues from the smallest of its benefits.
 **The larger measurable benefit is that the nozzle never sees sea level.** Thrust falls below its vacuum
 value by the ambient pressure acting over the exit area,
 
-$$F = F_{vac} - p_a A_e$$
+$$
+F = F_{vac} - p_a A_e
+\tag{31}
+$$
 
 so with the flight nozzle's exit area of 1.0346 square metres, and ambient pressures of 101,325 pascals at sea
 level and 20,646 at the release altitude, the thrust recovered by launching high is
 
-$$\left(101{,}325 - 20{,}646\right) \times 1.0346 = 83{,}470 \ \text{N}$$
+$$
+\left(101{,}325 - 20{,}646\right) \times 1.0346 = 83{,}470 \ \text{N}
+\tag{32}
+$$
 
 which is 83,470 newtons, the difference between a loss at sea level of 104.83 kilonewtons and one at the
 release altitude of only 21.36.
@@ -439,20 +535,29 @@ and it has no equation.
 
 Writing $r$ for the mixture ratio, the bulk density of a propellant combination is
 
-$$\rho_{\text{bulk}} = \left[\frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}\right]^{-1}$$
+$$
+\rho_{\text{bulk}} = \left[\frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}\right]^{-1}
+\tag{33}
+$$
 
 **The densities come from [Huzel and Huang's design text][book_design_of_liquid_propellant_rocket_eng].**
 Its table of cryogenic propellants gives liquid oxygen 1.142 grams per cubic centimetre at its normal boiling
 point, and its table of storable propellants gives RP-1 between 0.80 and 0.82 at 68 degrees Fahrenheit, so
 taking the middle of that range,
 
-$$\rho_o = 1{,}142 \ \text{kg/m}^3 \qquad \rho_f = \frac{800 + 820}{2} = 810 \ \text{kg/m}^3$$
+$$
+\rho_o = 1{,}142 \ \text{kg/m}^3 \qquad \rho_f = \frac{800 + 820}{2} = 810 \ \text{kg/m}^3
+\tag{34}
+$$
 
 and the hydrogen side keeps [the previous article's][related_post_a330_lockheed_martin_x33] 70.85 kilograms
 per cubic metre. At the engine mixture
 ratio of 2.17 that the development status report publishes,
 
-$$\rho_{\text{bulk}} = \left[\frac{1}{3.17}\frac{1}{810} + \frac{2.17}{3.17}\frac{1}{1{,}142}\right]^{-1} = 1{,}011.2 \ \text{kg/m}^3$$
+$$
+\rho_{\text{bulk}} = \left[\frac{1}{3.17}\frac{1}{810} + \frac{2.17}{3.17}\frac{1}{1{,}142}\right]^{-1} = 1{,}011.2 \ \text{kg/m}^3
+\tag{35}
+$$
 
 **For kerosene and oxygen that is 1,011.2 kilograms per cubic metre, against 343.4 for hydrogen and oxygen at 5.5, a ratio of 2.945.**
 The [X-33][related_post_a330_lockheed_martin_x33] article, which assumed a generic kerosene mixture ratio of
@@ -462,7 +567,10 @@ X-34.
 
 **The fuel share of the propellant mass is fixed by the mixture ratio alone,**
 
-$$\frac{m_f}{m_p} = \frac{1}{1+r} = \frac{1}{3.17} = 0.3155$$
+$$
+\frac{m_f}{m_p} = \frac{1}{1+r} = \frac{1}{3.17} = 0.3155
+\tag{36}
+$$
 
 **or 31.5 percent, so the X-34 carried 4,290 kilograms of kerosene against 9,310 of oxygen.**
 
@@ -472,7 +580,10 @@ and 74.6 percent of its volume, so the fuel tank is the vehicle.
 
 The consequence is easiest to see in the load the X-34 carried.
 
-$$\frac{13{,}600}{1{,}011.2} = 13.45 \ \text{m}^3 \qquad \text{against} \qquad \frac{13{,}600}{343.4} = 39.61 \ \text{m}^3$$
+$$
+\frac{13{,}600}{1{,}011.2} = 13.45 \ \text{m}^3 \qquad \text{against} \qquad \frac{13{,}600}{343.4} = 39.61 \ \text{m}^3
+\tag{37}
+$$
 
 **An extra 26.16 cubic metres, on a vehicle 17.77 metres long, is not a packaging problem. It is a different aeroplane.**
 
@@ -481,14 +592,20 @@ $$\frac{13{,}600}{1{,}011.2} = 13.45 \ \text{m}^3 \qquad \text{against} \qquad \
 **The X-33 article proved that the membrane tank fraction contains no length.** A thin vessel of volume $V$
 at pressure $p$ has mass $k \rho_w p V / \sigma$ and holds $\rho_p V$ of propellant, so
 
-$$\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{k \, \rho_w \, p}{\sigma \, \rho_p}$$
+$$
+\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{k \, \rho_w \, p}{\sigma \, \rho_p}
+\tag{38}
+$$
 
 **and the size cancels.** That cancellation is why a subscale tank was a valid test of a full-scale tank
 technology. It was the strongest thing the previous article had to say about demonstrators.
 
 **It cancels only while stress sets the thickness.** The membrane thickness a pressure demands is
 
-$$t = \frac{pR}{\sigma}$$
+$$
+t = \frac{pR}{\sigma}
+\tag{39}
+$$
 
 which falls with the radius, while the thinnest laminate anybody can lay up does not fall at all. Taking the
 same construction and pressure as the previous article so the comparison is controlled, and sizing the walls
@@ -505,11 +622,17 @@ wall thickness stops depending on the pressure at all, and the tank fraction fol
 cylinder of radius $R$ whose wall is two facesheets each at the minimum gauge, the wall mass and the
 propellant mass per unit length are
 
-$$m'_{\text{wall}} = \rho_w \left(2 \pi R\right) \left(2 t_{\text{gauge}}\right) \qquad m'_{\text{prop}} = \rho_p \pi R^2$$
+$$
+m'_{\text{wall}} = \rho_w \left(2 \pi R\right) \left(2 t_{\text{gauge}}\right) \qquad m'_{\text{prop}} = \rho_p \pi R^2
+\tag{40}
+$$
 
 so the length and the constant both cancel, leaving
 
-$$\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{4 \rho_w t_{\text{gauge}}}{\rho_p R}$$
+$$
+\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{4 \rho_w t_{\text{gauge}}}{\rho_p R}
+\tag{41}
+$$
 
 **which goes as one over the radius instead of being independent of it.**
 
@@ -533,7 +656,10 @@ because of manufacture rather than because of mechanics.
 previous article's laminate density of 1,570 kilograms per cubic metre and minimum gauge of one millimetre,
 the gauge-limited fraction for the two bulk densities above is
 
-$$\frac{4 \times 1{,}570 \times 0.001}{343.4 \times 0.75} = 0.0244 \qquad \text{against} \qquad \frac{4 \times 1{,}570 \times 0.001}{1{,}011.2 \times 0.75} = 0.0083$$
+$$
+\frac{4 \times 1{,}570 \times 0.001}{343.4 \times 0.75} = 0.0244 \qquad \text{against} \qquad \frac{4 \times 1{,}570 \times 0.001}{1{,}011.2 \times 0.75} = 0.0083
+\tag{42}
+$$
 
 so a hydrogen and oxygen tank is 2.44 percent of the propellant it holds and a kerosene and oxygen tank is
 0.83, **a factor of 2.945 which is exactly the ratio of the two bulk densities**, since everything else in
@@ -546,7 +672,10 @@ its size and rescued by what it chose to burn.
 [The agency's fact sheet][ref_nasa_x34_factsheet] gives a length of 58.3 feet and a wingspan of 27.7 feet,
 which at 0.3048 metres to the foot are
 
-$$L = 58.3 \times 0.3048 = 17.77 \ \text{m} \qquad b = 27.7 \times 0.3048 = 8.44 \ \text{m}$$
+$$
+L = 58.3 \times 0.3048 = 17.77 \ \text{m} \qquad b = 27.7 \times 0.3048 = 8.44 \ \text{m}
+\tag{43}
+$$
 
 It had a composite airframe with composite propellant tanks, silica-based tiles and
 [flexible blankets][research_wursterkathryne_rileychristopherj_1998] for thermal protection, and it was to land
@@ -555,9 +684,15 @@ itself on a runway without a pilot.
 **The same fact sheet gives an unfuelled weight of 18,000 pounds and 30,000 pounds of liquid oxygen and kerosene.**
 At 0.45359237 kilograms to the pound, and writing $m_e$ for the empty mass and $m_0$ for the release mass,
 
-$$m_e = 18{,}000 \times 0.45359237 = 8{,}165 \ \text{kg} \qquad m_p = 30{,}000 \times 0.45359237 = 13{,}608 \ \text{kg}$$
+$$
+m_e = 18{,}000 \times 0.45359237 = 8{,}165 \ \text{kg} \qquad m_p = 30{,}000 \times 0.45359237 = 13{,}608 \ \text{kg}
+\tag{44}
+$$
 
-$$m_0 = m_e + m_p = 48{,}000 \ \text{lb} = 21{,}772 \ \text{kg}$$
+$$
+m_0 = m_e + m_p = 48{,}000 \ \text{lb} = 21{,}772 \ \text{kg}
+\tag{45}
+$$
 
 **This article rounds the 8,165, 13,608 and 21,772 kilograms to 8,200, 13,600 and 21,800**, and the sum
 still closes after rounding. The closure holds by construction and is no check, because the fact sheet
@@ -636,7 +771,10 @@ the benefits did not justify continued investment and that the funds of
 [the initiative that replaced both][ref_sli] should go to higher priority needs. The oversight body
 [examined the two cancelled programmes together][ref_gao_x33x34] later that year.
 
-$$\frac{348 - 86}{86} = 3.05$$
+$$
+\frac{348 - 86}{86} = 3.05
+\tag{46}
+$$
 
 **A growth of 305 percent on the rounded figures, and the arithmetic is not the interesting part.** The
 oversight body, working from unrounded ones, gives 307 percent. What the number measures is.
@@ -694,9 +832,15 @@ The X-34's release mass is the fact sheet's 48,000 pounds, the sum displayed in 
 The X-34's spending is reported as [just under 112 million dollars][ref_x34], and the X-33's as about
 1,280 million, being the [922 million the agency and 357 million Lockheed Martin put in][ref_x33].
 
-$$\frac{112 \times 10^6}{48{,}000} = 2{,}333 \ \text{dollars per pound}$$
+$$
+\frac{112 \times 10^6}{48{,}000} = 2{,}333 \ \text{dollars per pound}
+\tag{47}
+$$
 
-$$\frac{1{,}280 \times 10^6}{285{,}000} = 4{,}491 \ \text{dollars per pound}$$
+$$
+\frac{1{,}280 \times 10^6}{285{,}000} = 4{,}491 \ \text{dollars per pound}
+\tag{48}
+$$
 
 **The X-34 comes to 2,333 dollars per pound against the X-33's 4,491, so on money actually spent the low-cost vehicle was 1.92 times cheaper per pound of vehicle**,
 and both programmes ended without a powered flight, so the comparison is between two equivalently incomplete
@@ -704,7 +848,10 @@ efforts.
 
 **Now do it with the money it would have taken to fly the thing safely.**
 
-$$\frac{348 \times 10^6}{48{,}000} = 7{,}250 \ \text{dollars per pound}$$
+$$
+\frac{348 \times 10^6}{48{,}000} = 7{,}250 \ \text{dollars per pound}
+\tag{49}
+$$
 
 **The result, 7,250 dollars per pound, is 1.61 times the X-33's actual spend per pound.** The vehicle built to
 be cheap would have cost more per pound to finish than the vehicle everyone remembers as the expensive one.
@@ -819,7 +966,11 @@ Its cluster, launch economics, small launchers and reusability, includes the ind
 from an initial offer of six million dollars to about forty million by 2017 for some 450 kilograms to low
 orbit,
 
-$$\frac{40{,}000{,}000}{450} \approx 89{,}000 \ \text{dollars per kilogram}$$
+$$
+\frac{40{,}000{,}000}{450} \approx 89{,}000 \ \text{dollars per kilogram}
+\tag{50}
+$$
+
 **A later attempt, [Virgin Orbit's LauncherOne][ref_virgin_orbit], put a liquid-fuelled orbital rocket under a widebody airliner and flew it six times between 2020 and 2023.**
 Four of the six reached orbit.
 **The operator filed for bankruptcy in April 2023 and was wound up the following month**, its remaining
@@ -1202,6 +1353,473 @@ smaller one.
 
 **This series has now met a designation marking an absence of demand in the [X-27][related_post_a324_lockheed_x27], an absence of knowledge in the [X-30][related_post_a327_rockwell_x30], an answer nobody wanted in the [X-33][related_post_a330_lockheed_martin_x33], and here a vehicle that was finished, was never asked a question it could fail, and was scrapped.**
 Of the four it is the only one that was ready.
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 50 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 50, 32 are established and 18 are bespoke.
+Weights are quoted in pounds and evaluated in kilograms, every relation is worked in the International System with specific impulse in seconds, and several letters are reused, so $m_f$ is the burnout mass in the rocket equation but the fuel mass in the mixture ratio relation, $t$ is a wall thickness while $t_b$ is the burn time, $e$ is a specific energy, $\mu$ is the gas viscosity in the Bartz correlation, and $\varepsilon$ is the nozzle area ratio.
+
+**Equation 1, Definition of Specific Impulse.**
+The specific impulse is the thrust divided by the propellant mass flow and standard gravity.
+[the definition of specific impulse][ref_isp]
+[Sutton sets out for propulsion analysis][book_rocket_propulsion_elements]
+
+$$
+I_{sp} = \frac{F}{\dot{m} \, g_0}
+\tag{1}
+$$
+
+**Equation 2, Specific Impulse Implied by the Usually Quoted Figures.**
+Putting the usually quoted thrust and mass flow through the definition gives 296.14 seconds, 5.69 percent below the quoted 314.
+[Fastrac engine][ref_fastrac]
+
+$$
+I_{sp} = \frac{266{,}893}{91.90 \times 9.80665} = 296.14 \ \text{s}
+\tag{2}
+$$
+
+**Equation 3, Total Engine Mass Flow.**
+The main chamber and gas generator flows published in the engine schematic sum to 202.6 pounds per second, which is the quoted 91.90 kilograms per second.
+[Ballard, Olive and Turner][research_ballardrichardo_olivetim_2000]
+
+$$
+\dot{m} = \left(195.5 + 7.10\right) \times 0.45359237 = 202.6 \times 0.45359237 = 91.90 \ \text{kg/s}
+\tag{3}
+$$
+
+**Equation 4, Specific Impulse of Each Nozzle on Its Own Thrust.**
+Each nozzle's published thrust over the total flow closes on its own published impulse to within half a percent, so the quoted set paired the ground nozzle's thrust with the flight nozzle's impulse.
+[Ballard, Olive and Turner][research_ballardrichardo_olivetim_2000]
+
+$$
+I_{sp}^{30} = \frac{284{,}415}{91.90 \times 9.80665} = 315.6 \ \text{s} \qquad I_{sp}^{15} = \frac{266{,}698}{91.90 \times 9.80665} = 295.9 \ \text{s}
+\tag{4}
+$$
+
+**Equation 5, Gas Generator Share of the Flow.**
+The published gas generator flow is 3.50 percent of the total, inside the range of three to seven percent that the cycle typically spends.
+[Ballard, Olive and Turner][research_ballardrichardo_olivetim_2000]
+[Huzel and Huang's design text on liquid propellant rocket engines][book_design_of_liquid_propellant_rocket_eng]
+
+$$
+\frac{\dot{m}_{gg}}{\dot{m}} = \frac{7.10}{202.6} = 0.0350
+\tag{5}
+$$
+
+*Equation 6, Bespoke Chamber Specific Impulse With No Turbine Thrust.*
+The flight thrust is divided by the chamber flow alone on the assumption that the turbine exhaust contributes no thrust.
+[Huzel and Huang's design text on liquid propellant rocket engines][book_design_of_liquid_propellant_rocket_eng]
+
+$$
+I_{sp,c} = \frac{F}{\dot{m}_c \, g_0} = \frac{284{,}415}{88.68 \times 9.80665} = 327.05 \ \text{s}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Impulse Cost of the Gas Generator Cycle.*
+The difference between the chamber and engine impulses rests on the same assumption of a thrustless turbine exhaust and is therefore an upper bound.
+
+$$
+\Delta I_{sp} = 327.05 - 315.59 = 11.46 \ \text{s}
+\tag{7}
+$$
+
+**Equation 8, Burn Time of the Propellant Load.**
+The published propellant load divided by the engine flow gives a burn time of 148.0 seconds.
+
+$$
+t_b = \frac{m_p}{\dot{m}} = \frac{13{,}600}{91.90} = 148.0 \ \text{s}
+\tag{8}
+$$
+
+**Equation 9, Margin of the Longest Test Over the Mission Burn.**
+The longest recorded hot fire of 159.03 seconds exceeds the mission burn by about seven and a half percent.
+[Ballard, Olive and Turner][research_ballardrichardo_olivetim_2000]
+
+$$
+\frac{t_{\text{test}}}{t_b} = \frac{159.03}{148.0} = 1.075
+\tag{9}
+$$
+
+**Equation 10, Effective Exhaust Velocity.**
+The published flight impulse times standard gravity gives an effective exhaust velocity of 3,079.3 metres per second.
+
+$$
+v_e = I_{sp} \, g_0 = 314 \times 9.80665 = 3{,}079.3 \ \text{m/s}
+\tag{10}
+$$
+
+**Equation 11, Mass Ratio From the Published Masses.**
+The release mass over the empty mass taken as the burnout mass gives a mass ratio of 2.6585.
+
+$$
+\frac{m_0}{m_f} = \frac{21{,}800}{8{,}200} = 2.6585
+\tag{11}
+$$
+
+**Equation 12, Tsiolkovsky Rocket Equation Evaluated for the X-34.**
+The effective exhaust velocity times the logarithm of the mass ratio gives an ideal velocity increment of 3,010.9 metres per second.
+
+$$
+\Delta v = v_e \ln\!\left(\frac{m_0}{m_f}\right) = 3{,}010.9 \ \text{m/s}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Allowance Left for Losses.*
+The ideal increment plus the carrier contribution at an assumed release Mach number of 0.8 is set against a Mach 8 objective taken as about 2,400 metres per second, leaving 847.0 metres per second for losses.
+
+$$
+3{,}247.0 - 2{,}400 = 847.0 \ \text{m/s}
+\tag{13}
+$$
+
+**Equation 14, Thrust to Weight at Release.**
+The flight nozzle's vacuum thrust over the release weight gives a thrust to weight ratio of 1.330.
+
+$$
+\frac{F}{m_0 g_0} = \frac{284{,}415}{21{,}800 \times 9.80665} = 1.330
+\tag{14}
+$$
+
+**Equation 15, Propellant Mass Fraction.**
+The propellant load over the release mass gives a propellant mass fraction of 62.4 percent.
+
+$$
+\zeta = \frac{13{,}600}{21{,}800} = 0.6239
+\tag{15}
+$$
+
+**Equation 16, Throat Area From the Characteristic Velocity.**
+The throat area is the chamber flow times the characteristic velocity divided by the chamber pressure.
+[characteristic velocity][ref_cstar]
+
+$$
+A_t = \frac{\dot{m}_c \, c^{\ast}}{p_c}
+\tag{16}
+$$
+
+**Equation 17, Area of the Published Throat.**
+The published throat diameter of 8.25 inches gives a throat area of 0.034488 square metres.
+[the nozzle design report][research_peterswarren_rogerspat_2000]
+
+$$
+A_t = \frac{\pi D_t^2}{4} = \frac{\pi \times 0.20955^2}{4} = 0.034488 \ \text{m}^2
+\tag{17}
+$$
+
+**Equation 18, Characteristic Velocity From Published Chamber Figures.**
+The definition run in reverse with the published chamber pressure requirement, throat area and chamber flow gives a characteristic velocity of 1,748 metres per second.
+[Ballard, Olive and Turner][research_ballardrichardo_olivetim_2000]
+
+$$
+c^{\ast} = \frac{p_c A_t}{\dot{m}_c} = \frac{4.495 \times 10^6 \times 0.034488}{88.68} = 1{,}748 \ \text{m/s}
+\tag{18}
+$$
+
+**Equation 19, Vacuum Thrust Coefficient.**
+The thrust coefficient is the flight thrust divided by the chamber pressure and the throat area, here 1.8345.
+
+$$
+C_F = \frac{F}{p_c A_t} = \frac{284{,}415}{4.495 \times 10^6 \times 0.034488} = 1.8345
+\tag{19}
+$$
+
+**Equation 20, Specific Impulse as Thrust Coefficient Times Characteristic Velocity.**
+The specific impulse factors into the thrust coefficient, which describes the nozzle, and the characteristic velocity, which describes the chamber, divided by standard gravity.
+
+$$
+I_{sp} = \frac{C_F \, c^{\ast}}{g_0}
+\tag{20}
+$$
+
+**Equation 21, Exit Area From the Area Ratio.**
+The published area ratio of about 30 times the throat area gives an exit area of 1.0346 square metres.
+
+$$
+A_e = \varepsilon A_t = 30 \times 0.034488 = 1.0346 \ \text{m}^2
+\tag{21}
+$$
+
+**Equation 22, Bartz Correlation for Gas-Side Heat Transfer.**
+The Bartz correlation gives the gas-side heat transfer coefficient at the throat from the gas properties, the chamber pressure, the characteristic velocity and the throat geometry.
+
+$$
+h_g = \frac{0.026}{D_t^{0.2}}\left(\frac{\mu^{0.2} c_p}{\mathrm{Pr}^{0.6}}\right)\left(\frac{p_c}{c^{\ast}}\right)^{0.8}\left(\frac{D_t}{R_c}\right)^{0.1}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Throat Heat Flux.*
+The convective flux is evaluated with a coefficient from typical kerosene and oxygen gas properties and a throat curvature radius equal to its diameter, a recovery temperature of 3,150 kelvin and an ablating surface at 1,900 kelvin, all values the article assumes.
+
+$$
+q = h_g \left(T_{aw} - T_w\right) = 8{,}674 \times \left(3{,}150 - 1{,}900\right) = 10.84 \ \text{MW/m}^2
+\tag{23}
+$$
+
+**Equation 24, Steady Recession Rate From an Ablation Energy Balance.**
+The recession rate is the arriving heat flux divided by the material density and the effective heat of ablation.
+
+$$
+\dot{s} = \frac{q}{\rho_a H_{\text{eff}}}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Forward Recession Rate From Absorbed Energy.*
+The recession rate is computed on representative property values for silica phenolic that the article assumes, an absorbed energy of 13.76 megajoules per kilogram, and gives an implausible 0.463 millimetres per second.
+
+$$
+H_{\text{absorb}} = 13.76 \ \text{MJ/kg} \qquad \Rightarrow \qquad \dot{s} = 0.463 \ \text{mm/s}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Effective Heat of Ablation Implied by the Recession Rate.*
+The balance is inverted with an assumed upper recession rate of a tenth of a millimetre per second and an assumed density of 1,700 kilograms per cubic metre, giving 63.8 megajoules per kilogram.
+[the nozzle design report][research_peterswarren_rogerspat_2000]
+
+$$
+H_{\text{eff}} = \frac{q}{\rho_a \dot{s}} = \frac{10.84 \times 10^6}{1{,}700 \times 10^{-4}} = 63.8 \ \text{MJ/kg}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Liner Consumed Over One Burn.*
+The assumed upper recession rate of a tenth of a millimetre per second over the 148 second burn removes 14.8 millimetres of liner.
+
+$$
+\Delta s = \dot{s} \, t_b = 10^{-4} \times 148.0 = 14.8 \ \text{mm}
+\tag{27}
+$$
+
+**Equation 28, Specific Energy.**
+The specific energy is the potential energy per unit mass plus the kinetic energy per unit mass.
+
+$$
+e = g_0 h + \frac{v^2}{2}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Specific Energy Donated by the Carrier.*
+The specific energy is evaluated at the published release altitude of 38,000 feet and an assumed Mach 0.8.
+[Ballard, Olive and Turner][research_ballardrichardo_olivetim_2000]
+
+$$
+e = 9.80665 \times 11{,}582 + \frac{236.1^2}{2} = 141{,}446 \ \text{J/kg}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Velocity Equivalent of the Carrier's Energy.*
+The specific energy at the assumed release speed is converted to the velocity increment that would supply it, 531.9 metres per second.
+
+$$
+\Delta v_{\text{equiv}} = \sqrt{2e} = 531.9 \ \text{m/s}
+\tag{30}
+$$
+
+**Equation 31, Thrust Corrected for Ambient Pressure.**
+The thrust falls below its vacuum value by the ambient pressure acting over the nozzle exit area.
+
+$$
+F = F_{vac} - p_a A_e
+\tag{31}
+$$
+
+**Equation 32, Thrust Recovered by Launching at Altitude.**
+The difference in standard atmosphere pressure between sea level and the release altitude, acting over the exit area, recovers 83,470 newtons.
+
+$$
+\left(101{,}325 - 20{,}646\right) \times 1.0346 = 83{,}470 \ \text{N}
+\tag{32}
+$$
+
+**Equation 33, Bulk Density of a Propellant Combination.**
+The bulk density is the reciprocal of the mass-weighted mean of the reciprocal fuel and oxidiser densities at a given mixture ratio.
+[Huzel and Huang's design text on liquid propellant rocket engines][book_design_of_liquid_propellant_rocket_eng]
+
+$$
+\rho_{\text{bulk}} = \left[\frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}\right]^{-1}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Propellant Densities at the Midpoint of the Kerosene Range.*
+The liquid oxygen density is the tabulated value, while the kerosene density is the midpoint of the stated range of 800 to 820 kilograms per cubic metre.
+[Huzel and Huang's design text on liquid propellant rocket engines][book_design_of_liquid_propellant_rocket_eng]
+
+$$
+\rho_o = 1{,}142 \ \text{kg/m}^3 \qquad \rho_f = \frac{800 + 820}{2} = 810 \ \text{kg/m}^3
+\tag{34}
+$$
+
+*Equation 35, Bespoke Bulk Density of Kerosene and Oxygen.*
+The bulk density at the published mixture ratio of 2.17 uses the midpoint kerosene density, giving 1,011.2 kilograms per cubic metre.
+
+$$
+\rho_{\text{bulk}} = \left[\frac{1}{3.17}\frac{1}{810} + \frac{2.17}{3.17}\frac{1}{1{,}142}\right]^{-1} = 1{,}011.2 \ \text{kg/m}^3
+\tag{35}
+$$
+
+**Equation 36, Fuel Share of the Propellant Mass.**
+At the published mixture ratio of 2.17 the fuel is one part in 3.17 of the propellant mass.
+
+$$
+\frac{m_f}{m_p} = \frac{1}{1+r} = \frac{1}{3.17} = 0.3155
+\tag{36}
+$$
+
+*Equation 37, Bespoke Volume of the Load Under Two Propellant Choices.*
+The propellant load is divided by the midpoint kerosene bulk density and by a hydrogen and oxygen bulk density at an assumed mixture ratio of 5.5.
+[X-33][related_post_a330_lockheed_martin_x33]
+
+$$
+\frac{13{,}600}{1{,}011.2} = 13.45 \ \text{m}^3 \qquad \text{against} \qquad \frac{13{,}600}{343.4} = 39.61 \ \text{m}^3
+\tag{37}
+$$
+
+**Equation 38, Tank to Propellant Mass Ratio of an Ideal Vessel.**
+For a thin pressure vessel sized by stress the tank mass over the propellant mass contains no length, so the ratio is independent of size.
+
+$$
+\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{k \, \rho_w \, p}{\sigma \, \rho_p}
+\tag{38}
+$$
+
+**Equation 39, Membrane Thickness of a Cylindrical Wall.**
+The wall thickness that a pressure demands is the pressure times the radius divided by the allowable stress.
+[Bruhn sets out for flight vehicle structures][book_analysis_and_design_of_flight_vehicle_st]
+
+$$
+t = \frac{pR}{\sigma}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Wall and Propellant Mass per Unit Length at Minimum Gauge.*
+The wall is taken as two facesheets each at the minimum gauge, a construction the article assumes, so the wall mass grows with the radius while the propellant mass grows with its square.
+
+$$
+m'_{\text{wall}} = \rho_w \left(2 \pi R\right) \left(2 t_{\text{gauge}}\right) \qquad m'_{\text{prop}} = \rho_p \pi R^2
+\tag{40}
+$$
+
+*Equation 41, Bespoke Gauge-Limited Tank Fraction.*
+Under the minimum gauge assumption the tank to propellant mass ratio falls as one over the radius instead of being independent of it.
+
+$$
+\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{4 \rho_w t_{\text{gauge}}}{\rho_p R}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Gauge-Limited Tank Fractions for Two Propellants.*
+The gauge-limited fraction is evaluated at an assumed tank radius of 0.75 metres with the laminate density and minimum gauge of the previous article and the two bulk densities above.
+
+$$
+\frac{4 \times 1{,}570 \times 0.001}{343.4 \times 0.75} = 0.0244 \qquad \text{against} \qquad \frac{4 \times 1{,}570 \times 0.001}{1{,}011.2 \times 0.75} = 0.0083
+\tag{42}
+$$
+
+**Equation 43, Length and Span in Metres.**
+The published length and span are converted from feet to metres.
+[The agency's fact sheet][ref_nasa_x34_factsheet]
+
+$$
+L = 58.3 \times 0.3048 = 17.77 \ \text{m} \qquad b = 27.7 \times 0.3048 = 8.44 \ \text{m}
+\tag{43}
+$$
+
+**Equation 44, Empty and Propellant Masses in Kilograms.**
+The published unfuelled weight and propellant weight are converted from pounds to kilograms.
+
+$$
+m_e = 18{,}000 \times 0.45359237 = 8{,}165 \ \text{kg} \qquad m_p = 30{,}000 \times 0.45359237 = 13{,}608 \ \text{kg}
+\tag{44}
+$$
+
+**Equation 45, Release Mass.**
+The release mass is the sum of the empty and propellant masses, 48,000 pounds or 21,772 kilograms.
+
+$$
+m_0 = m_e + m_p = 48{,}000 \ \text{lb} = 21{,}772 \ \text{kg}
+\tag{45}
+$$
+
+**Equation 46, Projected Growth of the Programme Cost.**
+The estimated requirement of 348 million dollars against 86 million budgeted is a growth of 305 percent on the rounded figures.
+[the General Accounting Office][ref_gao_826t]
+
+$$
+\frac{348 - 86}{86} = 3.05
+\tag{46}
+$$
+
+*Equation 47, Bespoke Spend per Pound of the X-34.*
+The figure of merit the article defines divides the reported spending of 112 million dollars by the release weight of 48,000 pounds.
+[Orbital Sciences X-34][ref_x34]
+
+$$
+\frac{112 \times 10^6}{48{,}000} = 2{,}333 \ \text{dollars per pound}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Spend per Pound of the X-33.*
+The same figure of merit divides about 1,280 million dollars of combined spending by the X-33 gross weight of 285,000 pounds.
+[the X-33][ref_x33]
+
+$$
+\frac{1{,}280 \times 10^6}{285{,}000} = 4{,}491 \ \text{dollars per pound}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Projected Cost per Pound to Finish the X-34.*
+The figure of merit is evaluated with the estimated total requirement of 348 million dollars in place of the money spent.
+
+$$
+\frac{348 \times 10^6}{48{,}000} = 7{,}250 \ \text{dollars per pound}
+\tag{49}
+$$
+
+**Equation 50, Price per Kilogram of the Air-Launched Booster.**
+A price of about forty million dollars for some 450 kilograms to low orbit is about 89,000 dollars per kilogram.
+[an air-launched satellite booster][ref_pegasus]
+
+$$
+\frac{40{,}000{,}000}{450} \approx 89{,}000 \ \text{dollars per kilogram}
+\tag{50}
+$$
+
+### Notation
+
+- $I_{sp}$, the specific impulse in seconds, with $I_{sp,c}$ the impulse of the chamber flow alone
+- $F$, the thrust, with $F_{vac}$ the vacuum thrust
+- $\dot{m}$, the total propellant mass flow, with $\dot{m}_c$ the chamber flow and $\dot{m}_{gg}$ the gas generator flow
+- $g_0$, standard gravity
+- $t_b$, the burn time, with $t_{\text{test}}$ the longest test duration
+- $v_e$, the effective exhaust velocity
+- $m_0$, the release mass, with $m_e$ the empty mass and $m_p$ the propellant mass
+- $\Delta v$, the ideal velocity increment
+- $\zeta$, the propellant mass fraction
+- $A_t$, the throat area, with $A_e$ the exit area and $D_t$ the throat diameter
+- $c^{\ast}$, the characteristic velocity
+- $p_c$, the chamber pressure, with $p_a$ the ambient pressure
+- $C_F$, the thrust coefficient
+- $\varepsilon$, the nozzle area ratio
+- $h_g$, the gas-side heat transfer coefficient
+- $R_c$, the radius of curvature of the throat
+- $\mathrm{Pr}$, the Prandtl number of the combustion gas
+- $T_{aw}$, the recovery temperature, with $T_w$ the temperature of the ablating surface
+- $\dot{s}$, the recession rate, with $\Delta s$ the depth removed over a burn
+- $\rho_a$, the density of the ablative material
+- $H_{\text{eff}}$, the effective heat of ablation, with $H_{\text{absorb}}$ the energy the material can absorb
+- $e$, the specific energy supplied by the carrier aircraft
+- $\rho_{\text{bulk}}$, the bulk density of the propellant combination
+- $\rho_f$, the fuel density, with $\rho_o$ the oxidiser density
+- $r$, the mixture ratio
+- $\rho_w$, the wall material density
+- $\rho_p$, the propellant bulk density in the tank relations
+- $\sigma$, the allowable stress of the wall
+- $t_{\text{gauge}}$, the minimum gauge of one facesheet
+- $R$, the tank radius
+
 ## References
 
 <!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->

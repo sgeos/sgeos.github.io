@@ -1,0 +1,631 @@
+# Equation classification for A361. Read by `python3 _lib/equations.py`.
+
+caution = "Lengths are in metres, pressures in pascals and densities in kilograms per cubic metre, tilt angles are evaluated in degrees although the notation key states radians, and several letters are reassigned from the X-63A article, so $\\gamma$ is the flight-path angle and the ratio of specific heats is written $\\kappa$, $\\rho$ is the atmospheric density and the lever arm is written $\\ell$, $\\delta$ prefixes an uncertainty while $\\Delta$ is the size of the effect, $N$ counts legs and elsewhere sensors on a ring, $\\mu$ is an azimuthal harmonic index, and $V$ is a data volume in bytes while $V_c$ is a volume in cubic metres."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Fineness Ratio, Frontal Area, Wetted Area and Volume of a Cylinder"
+gloss = "The fineness ratio is length over diameter, and the frontal area, side area and enclosed volume of the equivalent cylinder follow from the same two dimensions."
+cite = ["ref_fineness"]
+digest = "4df0688a2477c0d2"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Scaling of Area and Volume at Fixed Shape"
+gloss = "The frontal area scales with the square of the diameter, the side area with diameter times length and the volume with the square of the diameter times the length."
+cite = []
+digest = "8fbde9cbf0df44af"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Length, Diameter and Fineness Ratios of the Two Vehicles"
+gloss = "The published dimensions give the X-64A 44.7 percent of the RS1's length, 131.2 percent of its diameter and a fineness ratio of about five against 14.67."
+cite = []
+digest = "4df4940f7a717580"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Enclosed Volumes of the Equivalent Cylinders"
+gloss = "Treating each vehicle as a cylinder of its published length and diameter, a simplification the article chooses, gives the X-64A 77.1 percent of the RS1's volume."
+cite = []
+digest = "555e443b7820ba63"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Equation of Motion Along the Flight Path"
+gloss = "Newton's second law along the flight path balances the mass times the acceleration against thrust, drag and the component of weight."
+cite = []
+digest = "f2698cefd9a3fe44"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Specific Force Sensed by an Accelerometer"
+gloss = "A body-mounted accelerometer senses the non-gravitational force per unit mass, so the thrust is the mass times the sensed specific force plus the drag."
+cite = ["ref_specific_force"]
+digest = "a84be207dd2d4f37"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Specific Force Along the Body Axis at Angle of Attack"
+gloss = "Along the body axis the accelerometer senses thrust less the axial aerodynamic force, which is the drag and normal force resolved through the angle of attack."
+cite = []
+digest = "6de9c7f6b9b3e2c6"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Vehicle Mass From the Integrated Propellant Flow"
+gloss = "The instantaneous mass is the initial mass less the integral of the propellant mass flow."
+cite = []
+digest = "b8a6def62bc7eda9"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Propagation of Independent Errors Into Thrust"
+gloss = "Treating the mass, accelerometer and drag errors as independent, the thrust error adds their contributions in quadrature."
+cite = []
+digest = "af1d01b5a3fd979b"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Relative Thrust Error Budget in the Drag Fraction"
+gloss = "Dividing by the thrust and introducing the drag fraction, the article's budget attenuates the instrument terms by one less the drag fraction and scales the drag-model term by the drag fraction."
+cite = []
+digest = "0f498f5e30bdd514"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Instrument Floor at Zero Drag"
+gloss = "With no drag the article's budget collapses to the root sum of squares of the mass and accelerometer errors."
+cite = []
+digest = "a0941091ce2b4b70"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Instrument Floor Against the Effect"
+gloss = "Assumed errors of one percent in mass and half a percent in specific force give a floor of 1.12 percent, which is 21.1 percent of the 5.3 percent gain carried over from the X-63A article."
+cite = []
+digest = "b6de3d31bcefab8f"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Dynamic Pressure and Drag"
+gloss = "The dynamic pressure is half the density times the square of the speed, and the drag is the dynamic pressure times the drag coefficient and the reference area."
+cite = ["ref_dynamic_pressure"]
+digest = "7a070ea300821d17"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Density From the Perfect Gas Law"
+gloss = "The density at an altitude follows from the standard atmosphere pressure and temperature through the perfect gas law."
+cite = ["ref_usatm1976"]
+digest = "e595406ad15af8b4"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Temperature in a Layer of the Standard Atmosphere"
+gloss = "The temperature rises or falls linearly from the base of a layer at its lapse rate."
+cite = ["ref_atm_constants"]
+digest = "870e40ee82e37be9"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Pressure in a Layer of the 1976 Standard Atmosphere"
+gloss = "The pressure follows the hydrostatic power law in a layer with a lapse rate and the exponential form in an isothermal layer."
+cite = ["ref_usatm1976", "ref_atm_constants"]
+digest = "eae90dd32e3d4217"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Speed of Sound and Mach Number"
+gloss = "The speed of sound follows from the ratio of specific heats, the gas constant and the temperature, and the Mach number is the speed over it."
+cite = ["ref_atm_constants"]
+digest = "f031a620ec183de3"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Density Scale Height in a Layer With a Lapse Rate"
+gloss = "The density scale height is the gas constant times the temperature over standard gravity plus the gas constant times the lapse rate, so it equals the pressure scale height only in an isothermal layer."
+cite = ["ref_scale_height"]
+digest = "7b38375df2743ae9"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Condition for Maximum Dynamic Pressure"
+gloss = "Setting the derivative of the logarithm of dynamic pressure to zero places its peak where the vertical speed over the density scale height equals twice the relative rate of acceleration."
+cite = []
+digest = "03a4dd20ac8043d4"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Gravity-Turn Ascent Model"
+gloss = "The article models the flight-path angle by a pitch-program exponent and the speed by a power law in time, and integrates the vertical speed to the altitude, with the exponents chosen so that the published cut-off of 75 kilometres is met."
+cite = ["ref_gravity_turn", "ref_abl_pug"]
+digest = "c31af314c4f07be0"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Peak Dynamic Pressure of the Central Profile"
+gloss = "The peak dynamic pressure of 71.6 kilopascals is evaluated at the altitude and Mach number that the central profile, with a speed exponent the article takes as 1.0, gives."
+cite = []
+digest = "28e4173f298bcee0"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Density Scale Height at the Central Peak"
+gloss = "The density scale height evaluated at the central profile's peak altitude is 8,358 metres, so the ratio of 1.048 between the two is a property of that assumed profile and not a constant."
+cite = []
+digest = "ec37cd46b38fbb99"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Pressure-Time Integral"
+gloss = "The pressure-time integral is the integral of ambient pressure over the burn."
+cite = []
+digest = "fc37371eb6bf57af"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Share of the Pressure-Time Integral Collected by a Time"
+gloss = "The article defines the fraction of the integral collected by a given time and evaluates it at the peak of dynamic pressure across its family of assumed ascent profiles."
+cite = []
+digest = "f8ce0e73bc7d6b29"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Drag Fraction"
+gloss = "The article defines the drag fraction as the drag over the thrust, written through the dynamic pressure, drag coefficient and frontal area."
+cite = []
+digest = "c89be1874d43c0ff"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Thrust-to-Weight Ratio and Ballistic Coefficient"
+gloss = "The initial thrust-to-weight ratio is thrust over initial weight, and the ballistic coefficient is initial mass over drag coefficient times reference area."
+cite = []
+digest = "e1f671f992ec34c6"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Drag Fraction in Vehicle Groups"
+gloss = "Combining the article's drag fraction with the two groups gives it as the dynamic pressure over the thrust-to-weight ratio, standard gravity and the ballistic coefficient."
+cite = []
+digest = "c84fe454aaa180d2"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Drag Fraction Proportional to Dynamic Pressure"
+gloss = "Holding the thrust and drag coefficient constant through the burn, as the article assumes, the ratio of drag fractions at two instants is the ratio of dynamic pressures."
+cite = []
+digest = "64b9544ddfad33cf"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Drag-Model Accuracy Requirement"
+gloss = "Inverting the article's budget for a drag term allowed a share $\\beta$ of an effect $\\Delta$ gives the drag-model accuracy required at each drag fraction."
+cite = []
+digest = "6c249ade69ad2254"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Critical Drag Fraction"
+gloss = "The article's critical drag fraction is the one at which the whole budget equals the effect being measured."
+cite = []
+digest = "9bc521f322317f66"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Drag Fraction at the Half-Signal Time"
+gloss = "A peak drag fraction of three tenths, which the article takes as a high value, scales with the dynamic pressure ratio to between 0.025 and 0.17 at the time half the signal is collected."
+cite = []
+digest = "a849930eb6ea8678"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Static Margin in Calibres"
+gloss = "The static margin is the distance of the centre of pressure aft of the centre of mass divided by the body diameter."
+cite = []
+digest = "5cffca34ddd00f61"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Static Margin as a Fraction of Length"
+gloss = "A margin in calibres is that margin over the fineness ratio when measured as a fraction of the vehicle's length."
+cite = []
+digest = "a41d3b5ee87d09c9"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Slender-Body Normal-Force Slopes of Nose and Cylinder"
+gloss = "In inviscid slender-body theory the nose contributes a normal-force slope of two per radian and a cylindrical body contributes none."
+cite = ["ref_barrowman"]
+digest = "08b556e3f9f5969d"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Tip-Over Angle"
+gloss = "A vehicle tips when the ground projection of its centre of mass leaves the convex hull of its contact points, at a tilt whose tangent is the lever arm over the height of the centre of mass."
+cite = ["ref_convex_hull"]
+digest = "f640580dfadd60bc"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Lever Arm of a Regular Polygon Footprint"
+gloss = "For legs at the vertices of a regular polygon the distance along a ray to the hull boundary runs from the circumradius over a leg to the inradius across a gap."
+cite = []
+digest = "e8bd41579fb6d58a"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Support Function of a Regular Polygon"
+gloss = "The support function of the footprint is the largest projection of a leg position onto the direction, which is the circumradius times the cosine of the angle from the nearest leg."
+cite = ["ref_support_function"]
+digest = "1ce363647d633417"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Anisotropy of a Regular Polygon Footprint"
+gloss = "The ratio of the longest to the shortest lever arm is the secant of pi over the number of legs."
+cite = []
+digest = "b5e41162ea72958c"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Anisotropy for Three, Four, Eight and Twelve Legs"
+gloss = "The secant of pi over the leg count is exactly two for three legs and the square root of two for four."
+cite = []
+digest = "3ec5a7d19518ab2d"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Sides of the Footprint Hull Against the X-63A Control Polygon"
+gloss = "The footprint hull has one side per leg for every count, while the control polygon of the X-63A article's idealised throttled ring has $N$ sides for even counts and $2N$ for odd ones."
+cite = []
+digest = "1c55dffdb2eb3d7f"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Shortest Lever Arm Over the Assumed Footprint Radii"
+gloss = "The footprint radius, which is not published, is swept from the body radius of 1.2 metres to an assumed 3.0 metres for four legs."
+cite = []
+digest = "e7168b8db8c1adfd"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Tip-Over Angles Over the Assumed Sweep"
+gloss = "The tip-over angle is evaluated at assumed footprint radii and centre-of-mass heights, giving 8.05 degrees in the least favourable corner and 35.26 degrees across a gap in the most favourable."
+cite = ["ref_ds_x64"]
+digest = "cc0abcd9b9fbdeea"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Azimuthal Fourier Series"
+gloss = "A quantity distributed around the annulus is expanded as a mean plus cosine and sine harmonics in the azimuthal angle."
+cite = []
+digest = "1e52a0e5d6275899"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Discrete Estimators of the Harmonic Coefficients"
+gloss = "With $N$ equally spaced sensors each coefficient is estimated by a weighted sum of the sensor readings."
+cite = ["ref_shannon_1949", "ref_nyquist_1928"]
+digest = "cc7aa0f619c70430"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Highest Harmonic Resolvable in Both Phases"
+gloss = "The mean costs one sensor and each harmonic two, so $N$ sensors resolve harmonics up to the floor of half of $N$ less one."
+cite = ["ref_aliasing", "ref_dft"]
+digest = "0d289218efa2d3cd"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Aliasing of an Azimuthal Harmonic"
+gloss = "The discrete transform folds harmonic $\\mu$ onto harmonic $\\mu$ modulo $N$, reflected into the resolvable range."
+cite = ["ref_aliasing", "ref_dft"]
+digest = "d5efd21998f85892"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Harmonic N Aliases Onto the Mean"
+gloss = "Harmonic $N$ sampled at $N$ equally spaced points has the same discrete mean as a constant of the same phase."
+cite = []
+digest = "316749f3bddb743b"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Aggregate Data Rate and Volume"
+gloss = "The aggregate rate is the channel count times the sample rate times the bits per sample, and the volume over a burn is that rate times the burn time in bytes."
+cite = []
+digest = "47b6abbca026f223"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Telemetry Deficit Ratio"
+gloss = "The article defines the deficit as the aggregate data rate over the downlink capacity, which it compares across an assumed capacity of one half to twenty megabits per second."
+cite = []
+digest = "7f589b1df9efd8f6"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Sensitivity of the Fineness Ratio to Twenty Percent Errors"
+gloss = "Perturbing each published dimension by an assumed twenty percent moves the fineness ratio between 4.00 and 6.25 and leaves the parent vehicle at least 2.35 times as slender."
+cite = []
+digest = "1333402af7448c7a"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fineness ratio, being length divided by diameter"
+
+[[symbol]]
+tex = 'D_b'
+meaning = "the body diameter"
+
+[[symbol]]
+tex = 'L'
+meaning = "the vehicle length"
+
+[[symbol]]
+tex = 'A'
+meaning = "the reference frontal area"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wetted side area of the equivalent cylinder"
+
+[[symbol]]
+tex = 'V_c'
+meaning = "the enclosed volume of the equivalent cylinder"
+
+[[symbol]]
+tex = 'F'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'D'
+meaning = "the aerodynamic drag"
+
+[[symbol]]
+tex = 'm'
+meaning = "the instantaneous vehicle mass, with $m_0$ the initial mass"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the flight-path angle above the horizontal"
+
+[[symbol]]
+tex = 'a_s'
+meaning = "the specific force sensed by a body-mounted accelerometer"
+
+[[symbol]]
+tex = 'X_a'
+meaning = "the axial component of the aerodynamic force"
+
+[[symbol]]
+tex = 'N_a'
+meaning = "the aerodynamic normal force"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the angle of attack"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the propellant mass flow"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the uncertainty in the quantity that follows it"
+
+[[symbol]]
+tex = 'd'
+meaning = "the drag fraction, being drag divided by thrust"
+
+[[symbol]]
+tex = '\Delta'
+meaning = "the size of the effect being measured, as a fraction"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the atmospheric mass density"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the temperature lapse rate of an atmospheric layer"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the ratio of specific heats of air"
+
+[[symbol]]
+tex = 'c'
+meaning = "the speed of sound in the atmosphere"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = 'H_\rho'
+meaning = "the density scale height of the atmosphere"
+
+[[symbol]]
+tex = 'k'
+meaning = "the pitch-program exponent"
+
+[[symbol]]
+tex = 'p'
+meaning = "the speed-profile exponent"
+
+[[symbol]]
+tex = 'v_b'
+meaning = "the speed at main engine cut-off"
+
+[[symbol]]
+tex = 'J'
+meaning = "the time integral of ambient pressure over the burn"
+
+[[symbol]]
+tex = '\chi'
+meaning = "the share of the pressure-time integral collected by a given time"
+
+[[symbol]]
+tex = 't_{1/2}'
+meaning = "the time by which half the pressure-time integral is collected"
+
+[[symbol]]
+tex = 't_q'
+meaning = "the time of peak dynamic pressure"
+
+[[symbol]]
+tex = '\psi'
+meaning = "the initial thrust-to-weight ratio"
+
+[[symbol]]
+tex = 'B'
+meaning = "the ballistic coefficient, being initial mass over drag area"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the share of the effect allotted to the drag term"
+
+[[symbol]]
+tex = 'd_{\mathrm{crit}}'
+meaning = "the drag fraction at which the total error equals the effect"
+
+[[symbol]]
+tex = 'S_m'
+meaning = "the static margin in calibres"
+
+[[symbol]]
+tex = 'x_{cp}'
+meaning = "the axial position of the centre of pressure, with $x_{cm}$ that of the centre of mass"
+
+[[symbol]]
+tex = 'C_{N\alpha,\,\mathrm{nose}}'
+meaning = "the normal-force coefficient slope of the nose alone, referenced to the frontal area"
+
+[[symbol]]
+tex = '\theta_{\mathrm{tip}}'
+meaning = "the tilt angle at which the vehicle tips over"
+
+[[symbol]]
+tex = 'h_{cm}'
+meaning = "the height of the centre of mass above the ground"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the lever arm from the tilt axis to the footprint boundary"
+
+[[symbol]]
+tex = '\ell_{\min}'
+meaning = "the shortest lever arm, across the gap between two legs, with $\\ell_{\\max}$ the longest"
+
+[[symbol]]
+tex = 'h_s'
+meaning = "the support function of the footprint hull"
+
+[[symbol]]
+tex = 'r'
+meaning = "the radius of the circle of legs"
+
+[[symbol]]
+tex = 'm_h'
+meaning = "the number of sides of the footprint hull, with $m_c$ that of the X-63A article's control polygon"
+
+[[symbol]]
+tex = '\Psi'
+meaning = "the measurand distributed around the annulus"
+
+[[symbol]]
+tex = '\vartheta'
+meaning = "the azimuthal angle around the annulus"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the azimuthal harmonic index"
+
+[[symbol]]
+tex = '\mu_{\max}'
+meaning = "the highest azimuthal harmonic resolvable in both phases"
+
+[[symbol]]
+tex = '\hat{A}_\mu'
+meaning = "the estimate of the cosine coefficient from a finite ring of sensors, with $\\hat{B}_\\mu$ that of the sine coefficient"
+
+[[symbol]]
+tex = '\mathcal{R}'
+meaning = "the aggregate data rate"
+
+[[symbol]]
+tex = '\mathcal{R}_\ell'
+meaning = "the downlink capacity"
+
+[[symbol]]
+tex = '\eta_\ell'
+meaning = "the ratio of aggregate data rate to downlink capacity"
+
+[[symbol]]
+tex = 'n_c'
+meaning = "the number of instrumentation channels"
+
+[[symbol]]
+tex = 'f_s'
+meaning = "the per-channel sample rate"

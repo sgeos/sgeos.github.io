@@ -1,0 +1,431 @@
+# Equation classification for A366. Read by `python3 _lib/equations.py`.
+
+caution = "Design numbers are symbols and carry no unit, intervals between dates are in days unless they are marked in years, a rate counts new research allocations per year of 365.2425 days, and $h$ always means the highest research design number allocated at the time named, which the article reads as the instruction's last approved number."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Block of Skipped Numbers and the Interval Between Allocations"
+gloss = "The block is the seven consecutive research numbers 69 through 75, and the X-76A was allocated 61 days after the X-68A."
+cite = ["ref_mds_addendum"]
+digest = "94aaa6f9c6bf4967"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Pointer, Advance and Numbers Passed"
+gloss = "The article tracks the highest research number allocated so far, its advance at each new allocation and the count of numbers that advance passes, a measure carried over from the X-67 article."
+cite = ["related_post_a364_x67_slot_taken_by_xq67"]
+digest = "31e808fe3c2aa74c"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Total of Numbers Passed"
+gloss = "Summing the article's count of numbers passed over the 22 steps gives four single gaps and one gap of seven, eleven in all."
+cite = []
+digest = "d57ce72cbd39fad7"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Comparison of the X-76A Step With Earlier Gaps"
+gloss = "The seven numbers that the step allocating the X-76A passed exceed the four that every earlier step in the window passed together."
+cite = []
+digest = "e4a87835ab5c0703"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Bounds on the Publication Lags"
+gloss = "The archived copies of the register bracket the date each row first became public, which places it 32 to 49 days after the article's date and at least 87 and 148 days after the two allocations."
+cite = ["ref_mds_addendum_wb_2026_01", "ref_mds_addendum_wb_2026_02"]
+digest = "4ea70f39f754b159"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Two Definitions of the Next Number"
+gloss = "The article writes the next number as one above the highest allocation, which gives 77, and as one above the highest allocation made in sequence, the compiler's convention, which gives 69."
+cite = ["ref_missing_mds"]
+digest = "061d12305b58206e"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Forced Timing of In-Sequence Allocations in the Block"
+gloss = "Under the reading that the block was allocated in sequence but not released, every number in it must have been allocated between the X-68A and the X-76A, because an earlier allocation would have put the X-68A below the pointer."
+cite = ["ref_dafi_16_401_2020"]
+digest = "e9436c47711b8c9e"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Estimated Rate of New Research Allocations"
+gloss = "The rate is the 22 new allocations after the first divided by the 26.289 years the register's research allocations span, which is 0.8368 a year."
+cite = ["ref_mds_addendum"]
+digest = "21b847195fab7d9d"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Expected Allocations in the Window"
+gloss = "The expected count of new allocations in the 61-day window is the estimated rate times the window, which is 0.1398."
+cite = []
+digest = "04f6e4189e25fe90"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Poisson Probability of Seven Allocations in the Window"
+gloss = "Treating new allocations as a Poisson process at the estimated rate, an assumption the article states is a convenience, the probability of seven or more in the window is $1.83 \\times 10^{-10}$."
+cite = []
+digest = "1e32c8bbd406f8b3"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke First-Term Approximation to the Tail"
+gloss = "The Poisson tail is dominated by its first term, which lies within 1.8 percent of the full tail at the observed mean."
+cite = []
+digest = "611f39473e73c613"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Scaling of the Tail With the Rate"
+gloss = "Multiplying the rate by a factor scales the article's Poisson tail by about the seventh power of the factor times an exponential correction."
+cite = []
+digest = "5192f2d7f888e3fa"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Seven Numbers as Years of Research Allocation"
+gloss = "At the estimated rate, seven new research allocations take 8.36 years."
+cite = []
+digest = "901b135545ac86cf"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Rate Multiplier at a Five Percent Tail"
+gloss = "Solving the article's Poisson model for the multiplier at which seven allocations in the window reach a probability of 0.05 gives 23.51, or about twenty new numbers a year."
+cite = []
+digest = "c3110649902331b3"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Distance of the Tail Below the Threshold"
+gloss = "At the observed rate the article's Poisson tail lies 8.44 orders of magnitude below the conventional 0.05 threshold."
+cite = []
+digest = "b355318be4e8f551"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Reading of the Request and Discretion Clauses"
+gloss = "The article reads the instruction as accepting a request only for one above the highest approved number, so that any allocation above that must be a discretionary skip by the allocating office."
+cite = ["ref_dafi_16_401_2020"]
+digest = "7a2dd4f79f095d5a"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Lag of the Sponsor's Statement"
+gloss = "The sponsor's announcement of 9 March 2026 came 85 days after the article's date."
+cite = ["ref_darpa_x76"]
+digest = "cd7add9ed9bf8dc0"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Two-Digit Year Encoding"
+gloss = "A design number between 1 and 99 can stand for a year only as the year's last two digits, which is the year modulo one hundred."
+cite = ["ref_dafi_16_401_2020"]
+digest = "5324a831548b15d8"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Publication Lag of an Allocation"
+gloss = "The lag is the date an allocation became public less the date it was allocated, which is negative when the announcement came first."
+cite = []
+digest = "1180d8318b32570b"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Numbers Passed by the YMV-75A"
+gloss = "The vertical-takeoff series' highest number before the YMV-75A was 25, so the 75 passed the 49 numbers between them."
+cite = ["ref_mds_addendum"]
+digest = "21ca1e197c334216"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Numbers Passed by the X-50A and the X-76A"
+gloss = "The X-50A passed one number and the X-76A seven, the 49 was issued 464 days after the X-50A, and the two allocations are 23 years apart."
+cite = ["ref_mds_addendum"]
+digest = "c847d6254dfa37ea"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Tally of Reasons for Out-of-Sequence Numbers"
+gloss = "The reason classes assigned to the register's 24 notes sum to 25, because the ES-14A's note gives two reasons."
+cite = []
+digest = "6c5437162388dedf"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Share of Departures With No Recorded Reason"
+gloss = "Eight of the 24 notes recording a departure from sequence give no reason, which is one third."
+cite = []
+digest = "948eeab9e1a42f39"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Distribution of the Range of Uniform Points"
+gloss = "For $J$ points placed independently and uniformly over a window, the probability that their range is at most a given fraction of the window follows from order statistics."
+cite = []
+digest = "128ad824353f4110"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Probability of the Founding-Year Cluster Under a Uniform Null"
+gloss = "Under a uniform null over a window from 19 August 1998 to the end of November 2025 that the article drew after seeing the cluster, three allocations fall within 329 days with probability 0.00320, a scale rather than a test."
+cite = []
+digest = "e0529d6468d9deca"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Share of Allocations Following the Rule as Written"
+gloss = "Six of the 23 allocation events since November 2020 that had a predecessor took one above the highest number in their basic mission, which is 0.261."
+cite = ["ref_mds_addendum"]
+digest = "b146d8d7edcf5c35"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Share With the RQ-170 Row Set Aside"
+gloss = "Setting aside the RQ-170 row, whose official form the compiler leaves uncertain, makes the XRQ-73A one above the unmanned maximum and raises the share to seven of 23."
+cite = ["ref_mds_addendum"]
+digest = "752013ed1832b882"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Share Following the Rule in the Research Series"
+gloss = "The research series took the next number at all four of its events from 2021 to 2023 and at neither of its two events in 2025."
+cite = ["ref_mds_addendum"]
+digest = "06da750a8d771de6"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Ordinal Position of a Design Number"
+gloss = "Reading the design number as an ordinal, the article defines the ordinal position as the design number less the count of never-allocated numbers below it."
+cite = ["ref_dafi_16_401_2020"]
+digest = "20de2dac00c1286d"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Ordinal Position of the X-76A"
+gloss = "Assuming that every number below 76 absent from the compiler's list was allocated, the X-76A is at most the sixty-fourth research allocation and its number overstates its place by 18.75 percent."
+cite = ["ref_missing_mds"]
+digest = "fb07c9684e96edcc"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Overstatement Before and After the X-76A"
+gloss = "Under the same assumption the X-68A was at most the sixty-third allocation, and the share of printed numbers that stand for no aircraft rose from 0.0735 to 0.158."
+cite = ["ref_missing_mds"]
+digest = "8bf42bc30881154f"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Condition for Encoding a Year Under the 2020 Rule"
+gloss = "Reading the 2020 rule literally, a year can be encoded in two digits only if its last two digits exceed the current pointer."
+cite = ["ref_dafi_16_401_2020"]
+digest = "a52359faf1b2a2e3"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Two-Digit Numbers Above the Research Pointer"
+gloss = "With the research pointer at 76, the two-digit numbers still above it are the 23 from 77 through 99."
+cite = []
+digest = "45bac3a973ca2afd"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Share of a Century Still Encodable"
+gloss = "Those 23 values are 0.23 of the years in any century."
+cite = []
+digest = "4a873aa8f1447c4c"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Overcount of an Observer Reading the Number as an Ordinal"
+gloss = "An observer who read the X-76A as the seventy-sixth research aircraft would overcount by the twelve numbers that the article's ordinal position removes."
+cite = []
+digest = "800157d259f5aeb1"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Minimum-Variance Unbiased Serial Number Estimator"
+gloss = "The classical estimate of the total issued from $\\kappa$ distinct serial numbers with largest $m$ is $m$ times one plus the reciprocal of $\\kappa$, less one."
+cite = ["research_anthonylee_stevenmiller_2023", "research_ruggles_brodie_1947"]
+digest = "67c5758108442573"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Next Numbers in the Unmanned Series"
+gloss = "Applied to the unmanned series, the article's two definitions give 29 and 30 for the compiler's convention, which the RQ-29A and YRQ-30A took, against 171 for one above the highest allocation."
+cite = ["ref_mds_addendum"]
+digest = "37c7eec71ceff2f8"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Shares of Commemorative Naming Titles"
+gloss = "Of the 186 records in the commemorative naming cluster, 51 titles name an anniversary, commemoration or memory, 32 name renaming and 24 name a regime or political transition."
+cite = []
+digest = "77a97953c64b4247"
+
+[[symbol]]
+tex = '\mathcal{B}'
+meaning = "the block of research numbers 69 through 75"
+
+[[symbol]]
+tex = 't_{68}'
+meaning = "the allocation date of the X-68A, with $t_{76}$, $t_{49}$ and $t_{50}$ those of the X-76A, the X-49A and the X-50A"
+
+[[symbol]]
+tex = 't_n'
+meaning = "the allocation date of design number $n$"
+
+[[symbol]]
+tex = 't_{\mathrm{pub}}'
+meaning = "the first appearance of a row in an archived copy of the register"
+
+[[symbol]]
+tex = 't_{\mathrm{d}}'
+meaning = "this article's editorial date of 14 December 2025"
+
+[[symbol]]
+tex = 't_{\mathrm{DARPA}}'
+meaning = "the announcement by the Defense Advanced Research Projects Agency of 9 March 2026"
+
+[[symbol]]
+tex = 'n_k'
+meaning = "the design number of the $k$th new research allocation in date order"
+
+[[symbol]]
+tex = 'h_k'
+meaning = "the highest research design number allocated up to allocation $k$, with $h_t$ the highest before time $t$"
+
+[[symbol]]
+tex = '\Delta_k'
+meaning = "the advance of that highest number at allocation $k$"
+
+[[symbol]]
+tex = 's_k'
+meaning = "the numbers passed at allocation $k$, with $s_{50}$ and $s_{76}$ those passed by the X-50A and the X-76A"
+
+[[symbol]]
+tex = 'K'
+meaning = "the number of new research allocations in the register, and the step that allocated the X-76A"
+
+[[symbol]]
+tex = '\mathcal{A}'
+meaning = "the set of research design numbers allocated"
+
+[[symbol]]
+tex = '\mathcal{C}'
+meaning = "the subset of $\\mathcal{A}$ judged chosen out of sequence"
+
+[[symbol]]
+tex = '\nu^{\mathrm{hi}}'
+meaning = "the next number as one above the highest allocated"
+
+[[symbol]]
+tex = '\nu^{\mathrm{c}}'
+meaning = "the next number as one above the highest allocated in sequence"
+
+[[symbol]]
+tex = 'T'
+meaning = "the span of the research allocations, in years"
+
+[[symbol]]
+tex = '\hat{\lambda}'
+meaning = "the estimated rate of new research allocations, per year"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the window between the X-68A and the X-76A, in days"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the expected allocations in that window, $\\hat{\\lambda}\\tau$"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of allocations in that window under the Poisson model"
+
+[[symbol]]
+tex = 'c^{\star}'
+meaning = "the multiplier on the rate at which the tail reaches 0.05, with $c$ a general multiplier"
+
+[[symbol]]
+tex = 'y'
+meaning = "a calendar year"
+
+[[symbol]]
+tex = '\delta t'
+meaning = "the public announcement date minus the allocation date, in days"
+
+[[symbol]]
+tex = 'J'
+meaning = "the number of founding-year allocations"
+
+[[symbol]]
+tex = 'R'
+meaning = "the range of their allocation dates"
+
+[[symbol]]
+tex = 'W'
+meaning = "the register's window, with $w$ the observed span of the founding-year class and $x$ the ratio of the two"
+
+[[symbol]]
+tex = 'f_X'
+meaning = "the fraction of allocation events following the rule as written within the research series, with $f$ the fraction across the register"
+
+[[symbol]]
+tex = 'G'
+meaning = "the set of research design numbers never allocated"
+
+[[symbol]]
+tex = 'o(n)'
+meaning = "the ordinal position of design number $n$ among those actually allocated"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the number of distinct serial numbers an observer has seen"
+
+[[symbol]]
+tex = '\hat{M}'
+meaning = "the estimate of the total number issued, from the largest serial number seen $m$"

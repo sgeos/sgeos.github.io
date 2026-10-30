@@ -1,0 +1,491 @@
+# Equation classification for A347. Read by `python3 _lib/equations.py`.
+
+caution = "The rotor, surface and wake relations are evaluated in feet, pounds force, slugs and knots at sea level, with the 130 knot conversion condition taken as 219.4 feet per second, and several letters are reused, so $M$ is a pitching moment in the trim relation and a Mach number elsewhere, $A$ is the rotor disc area while $A\\!R$ is an aspect ratio, $a$ is the speed of sound in the Mach relations and the lift-curve slope in Helmbold's relation, $D$ is the rotor diameter in the span ratios and a download elsewhere, and $N$ is the number of blades."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Schedule Overrun Factor"
+gloss = "Ninety-nine months from June 1998 to the termination in September 2006, against a plan of thirty-seven months, is a factor of 2.68."
+cite = ["ref_boeing_first_flight", "ref_flightglobal_cancel"]
+digest = "c36614c193f1eda9"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Advance Ratio"
+gloss = "The advance ratio is the flight speed divided by the rotor tip speed."
+cite = []
+digest = "477abf1720836cf3"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Advance Ratio of a Stopping Rotor"
+gloss = "As the rotor speed falls to zero at constant flight speed the advance ratio grows without bound."
+cite = []
+digest = "084c90eb8c74344f"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Tip Speed at the Conventional Limit"
+gloss = "The tip speed that places conversion entry exactly at an advance ratio of 0.40 is evaluated at the 130 knot conversion condition of the computational study, taking the approximate conventional limit of 0.40 as a sharp boundary."
+cite = ["research_harrisfranklind_2008", "research_pandya_aftosmis_2001"]
+digest = "6514552e74569131"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Reverse Flow Region as a Fraction of the Disc"
+gloss = "The reverse flow region is a circle of diameter $\\mu R$ on the retreating side, so its share of the disc area is one quarter of the square of the advance ratio."
+cite = []
+digest = "2b324897788e293b"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Reverse Flow Share at Advance Ratios of One and Two"
+gloss = "The quadratic share gives a quarter of the disc at an advance ratio of one and the whole disc at two, beyond which the relation no longer applies."
+cite = []
+digest = "f145ad9bfea49d10"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Tip Speed at Which Reverse Flow Covers the Disc"
+gloss = "At the 130 knot conversion speed the reverse flow region covers the whole disc when the tip speed has fallen to half the flight speed."
+cite = ["research_pandya_aftosmis_2001"]
+digest = "96949e5ccdfc61a0"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Retreating Tip Velocity"
+gloss = "The retreating tip moves through the air at the tip speed less the flight speed, which vanishes at an advance ratio of one."
+cite = []
+digest = "c9aa4a59bb6d8ff3"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Advancing Tip Mach Number"
+gloss = "The advancing tip Mach number is the sum of the tip speed and flight speed divided by the speed of sound."
+cite = []
+digest = "bffc3fa60a96d779"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Rotor Thrust from the Thrust Coefficient"
+gloss = "Rotor thrust is the thrust coefficient times the air density, the disc area and the square of the tip speed."
+cite = ["book_leishman", "book_johnson_helicopter_theory", "book_seddon"]
+digest = "dae3a7efaff26f47"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Lift Ratio Under Rotor Slowing"
+gloss = "At constant thrust coefficient the rotor lift falls as the square of the fraction of rotor speed remaining."
+cite = ["book_leishman", "book_johnson_helicopter_theory", "book_seddon"]
+digest = "bc6335434ad0ae06"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Blade Element Lift"
+gloss = "The lift of a blade element is the local dynamic pressure times the chord, the section lift coefficient and the element length."
+cite = []
+digest = "758aa32ebc64b524"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Local Velocity at a Blade Element"
+gloss = "The velocity normal to a blade element is the rotational speed at its radius plus the component of flight speed at its azimuth."
+cite = []
+digest = "383505d995b7141a"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Vertical Lift Balance"
+gloss = "The lift of the rotor, canard, horizontal tail and fuselage together equals the weight."
+cite = ["research_pandya_aftosmis_2001"]
+digest = "d7e7e06e5828fcca"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Dynamic Pressure at the Conversion Speed"
+gloss = "The dynamic pressure at 130 knots and standard sea-level density is 57.2 pounds per square foot."
+cite = []
+digest = "7418829be13bc932"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Lifting Area Required to Carry the Weight"
+gloss = "The area needed to carry the weight is the weight divided by the dynamic pressure and the lift coefficient."
+cite = ["ref_boeing_first_flight"]
+digest = "bb3791b52fe2eec8"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Canard and Tail Span Against Rotor Diameter"
+gloss = "The published canard and tail spans of 8.9 and 8.1 feet are 0.742 and 0.675 of the twelve foot rotor diameter."
+cite = ["ref_boeing_first_flight"]
+digest = "ac4e0b4f0cb0737a"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Disc Loading of the X-50A"
+gloss = "The published gross weight of 1,460 pounds over the 113.1 square foot disc gives a disc loading of 12.9 pounds per square foot."
+cite = ["ref_boeing_first_flight"]
+digest = "edd3dbbbe5f6dad4"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Hover Induced Velocity"
+gloss = "Momentum theory gives the hover induced velocity from the disc loading and sea-level density as 52.1 feet per second."
+cite = ["book_gessow", "book_bramwell"]
+digest = "8b2cc83970969793"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Slipstream Dynamic Pressure Equals Disc Loading"
+gloss = "The fully developed slipstream at twice the induced velocity has a dynamic pressure exactly equal to the disc loading."
+cite = ["book_gessow", "book_bramwell"]
+digest = "fd251ead490dbd27"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Download on a Surface in the Slipstream"
+gloss = "The download on a surface broadside to the fully developed slipstream is its dynamic pressure times the surface area and drag coefficient."
+cite = []
+digest = "c6930a55c689f5f5"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Download as a Fraction of Weight"
+gloss = "Dividing the download by the weight cancels the disc loading and leaves the ratio of surface area times drag coefficient to disc area."
+cite = []
+digest = "feb7795959366a5c"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Ideal Induced Power in the Hover"
+gloss = "The ideal induced power is the weight times the induced velocity, 138.3 horsepower at the published gross weight."
+cite = []
+digest = "f62e1654339944bc"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Figure of Merit"
+gloss = "The figure of merit is the ratio of ideal induced power to the actual power required in the hover."
+cite = []
+digest = "205247688d538631"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Wake Skew Angle"
+gloss = "The wake skews aft from the vertical through an angle whose tangent is the flight speed over the induced velocity."
+cite = []
+digest = "7138d547b154ab37"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Forward Boundary of the Wake"
+gloss = "The article models the wake sheet from the forward edge of the disc as descending at the hover induced velocity while convecting aft at the flight speed, so its forward boundary at a given drop retreats linearly with speed."
+cite = []
+digest = "3d9d904814b99207"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Speed at Which a Surface Clears the Wake"
+gloss = "Under the straight-line wake model a surface at a given station and drop leaves the wake once the forward boundary passes it."
+cite = []
+digest = "764d3ccf9cc47777"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Clearing Speeds of the Canard and Tail"
+gloss = "The clearing speeds use surface stations the article estimates from the overall dimensions, 4.0 to 5.0 feet from the hub and 2.5 to 3.5 feet below the rotor plane."
+cite = []
+digest = "c8324cf8b0dae148"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Ratio of Tail to Canard Clearing Speeds"
+gloss = "In the ratio the induced velocity and the drop cancel, leaving the ratio of distances from the forward edge of the disc at the estimated stations of 4.5 feet ahead of and behind the hub."
+cite = []
+digest = "356962bf2ad956eb"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Pitching Moment of the Two Downloads"
+gloss = "The article takes the pitching moment in the hover and early transition as the tail download moment less the canard download moment, neglecting every other contribution."
+cite = []
+digest = "5f51464eeb949cbd"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Equivalent Centre of Gravity Shift"
+gloss = "The loss of the canard download moment is expressed as an equivalent shift of the centre of gravity, evaluated at drag coefficients the article takes as 0.6 to 1.2 and at its estimated canard arm."
+cite = []
+digest = "6e72e0b23e4fe7fb"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Required Product of Area and Lift Coefficient"
+gloss = "Level flight requires the product of wing area and lift coefficient to equal the weight divided by the dynamic pressure, which scales inversely with the square of speed."
+cite = []
+digest = "06f696d4c883b02c"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Ratio of Required Area Lift Products at Cruise and Maximum Speed"
+gloss = "Between the published cruise of about 150 knots and maximum of about 380 knots the required product of area and lift coefficient changes by the square of the speed ratio, 6.42."
+cite = ["ref_x50_wikipedia"]
+digest = "6156fe8dd22d2faa"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Sea-Level Mach Number at Maximum Speed"
+gloss = "The published maximum speed of about 380 knots is Mach 0.574 at the sea-level speed of sound."
+cite = ["ref_x50_wikipedia"]
+digest = "f8b0656addf3ab0c"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Tip Jet Thrust"
+gloss = "A tip nozzle already moving at the tip speed produces thrust equal to its mass flow times the jet velocity relative to the moving nozzle."
+cite = []
+digest = "c6d6ab2dc0ab36a4"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Power Delivered by Tip Jets"
+gloss = "The power delivered to the rotor is the tip jet thrust acting through the tip speed, summed over the blades."
+cite = []
+digest = "898d23f36556753c"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Froude Propulsive Efficiency"
+gloss = "The efficiency of a jet doing work on a body moving at a given speed depends only on the ratio of jet velocity to that speed."
+cite = []
+digest = "803fc1a10e0c1a8d"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Power Penalty of the Reaction Drive"
+gloss = "The penalty divides an assumed mechanical transmission efficiency of 0.97 by Froude efficiencies of 0.667 and 0.400 computed at assumed tip speeds and exhaust velocities."
+cite = []
+digest = "f920dd0c8e50255c"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Aspect Ratio of a Rectangular Planform"
+gloss = "The aspect ratio is the span squared over the area, which for a rectangular planform reduces to span over chord."
+cite = []
+digest = "7a5d7b0ec0b3333e"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Helmbold Lift-Curve Slope"
+gloss = "Helmbold's relation gives the lift-curve slope of a low aspect ratio wing in terms of its aspect ratio."
+cite = []
+digest = "20d36524a4b88610"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the advance ratio"
+
+[[symbol]]
+tex = 'V'
+meaning = "the flight speed"
+
+[[symbol]]
+tex = '\Omega R'
+meaning = "the rotor tip speed"
+
+[[symbol]]
+tex = '\Omega'
+meaning = "the rotor speed, with $\\Omega_0$ its full value"
+
+[[symbol]]
+tex = 'R'
+meaning = "the rotor radius"
+
+[[symbol]]
+tex = 'A_{\text{rev}}'
+meaning = "the area of the reverse flow region"
+
+[[symbol]]
+tex = 'A'
+meaning = "the rotor disc area"
+
+[[symbol]]
+tex = 'V_{\text{ret}}'
+meaning = "the velocity of the retreating tip"
+
+[[symbol]]
+tex = 'M_{\text{adv}}'
+meaning = "the advancing tip Mach number"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound, and in Helmbold's relation the lift-curve slope per radian"
+
+[[symbol]]
+tex = 'T'
+meaning = "the rotor thrust"
+
+[[symbol]]
+tex = 'C_T'
+meaning = "the rotor thrust coefficient"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, taken at sea level"
+
+[[symbol]]
+tex = 'L_0'
+meaning = "the rotor lift at full rotor speed, with $L$ the lift at reduced speed"
+
+[[symbol]]
+tex = 'U'
+meaning = "the local velocity at a blade element"
+
+[[symbol]]
+tex = 'C_l'
+meaning = "the section lift coefficient"
+
+[[symbol]]
+tex = '\psi'
+meaning = "the blade azimuth"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'S'
+meaning = "the lifting surface area"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'b_{\text{canard}}'
+meaning = "the canard span, with $b_{\\text{tail}}$ the horizontal tail span"
+
+[[symbol]]
+tex = 'v_i'
+meaning = "the hover induced velocity"
+
+[[symbol]]
+tex = 'q_{\text{slip}}'
+meaning = "the dynamic pressure of the fully developed slipstream"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient of a surface broadside to the slipstream"
+
+[[symbol]]
+tex = 'P_i'
+meaning = "the ideal induced power"
+
+[[symbol]]
+tex = '\mathrm{FM}'
+meaning = "the figure of merit, the ratio of ideal to required hover power"
+
+[[symbol]]
+tex = '\chi'
+meaning = "the wake skew angle from the vertical"
+
+[[symbol]]
+tex = 'x_w'
+meaning = "the longitudinal position of the forward boundary of the wake"
+
+[[symbol]]
+tex = 'h'
+meaning = "the vertical drop of a surface below the rotor plane"
+
+[[symbol]]
+tex = 'x_s'
+meaning = "the longitudinal station of a surface, with $x_{\\text{canard}}$ and $x_{\\text{tail}}$ those of the canard and tail"
+
+[[symbol]]
+tex = 'V_{\text{clear}}'
+meaning = "the flight speed at which a surface clears the wake"
+
+[[symbol]]
+tex = 'l_{\text{tail}}'
+meaning = "the moment arm of the tail download, with $l_{\\text{canard}}$ that of the canard"
+
+[[symbol]]
+tex = '\Delta x_{cg}'
+meaning = "the equivalent shift of the centre of gravity"
+
+[[symbol]]
+tex = 'S_c'
+meaning = "the canard area, with $l_c$ its moment arm"
+
+[[symbol]]
+tex = 'T_{\text{tip}}'
+meaning = "the thrust of one tip nozzle"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow through one tip nozzle"
+
+[[symbol]]
+tex = 'V_j'
+meaning = "the jet exhaust velocity"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of blades"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the Froude propulsive efficiency"
+
+[[symbol]]
+tex = 'A\!R'
+meaning = "the aspect ratio"
+
+[[symbol]]
+tex = 'c'
+meaning = "the blade chord"

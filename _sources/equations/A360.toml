@@ -1,0 +1,647 @@
+# Equation classification for A360. Read by `python3 _lib/equations.py`.
+
+caution = "Every relation is in the International System, with thrust in newtons and pressure in pascals except where a published table is checked in pounds force, and several letters take two meanings, so $L$ is the loss of a fixed nozzle against the envelope and then the distance from the engine plane to the centre of mass, $k$ indexes a module and is also the separation threshold ratio, $n$ is the shape exponent of the ascent profile and then a count of engines, $M$ is a Mach number while $M\\left( \\phi \\right)$ is a control moment, and $p$ is a static pressure except in the binomial tail, where it is a probability per engine start."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Rocket Thrust Equation"
+gloss = "The thrust is the momentum flux out of the nozzle plus the net pressure force on its exit plane."
+cite = ["ref_huzel", "ref_sp8120"]
+digest = "785414fc20d702f8"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Thrust as an Affine Function of Ambient Pressure"
+gloss = "Grouping the terms that do not involve the atmosphere into a vacuum thrust shows that thrust falls linearly with ambient pressure at a slope of minus the exit area."
+cite = []
+digest = "121d9919d9892b3f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Thrust Coefficient and Area Ratio"
+gloss = "The thrust coefficient is the thrust over chamber pressure times throat area, and the area ratio is the exit area over the throat area."
+cite = ["ref_huzel", "ref_sp8120"]
+digest = "d75a9c66e756718d"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Thrust Coefficient Against Ambient Pressure"
+gloss = "Dividing the affine law by chamber pressure times throat area gives the thrust coefficient as its vacuum value less the area ratio times the ambient to chamber pressure ratio."
+cite = ["ref_huzel", "ref_sp8120"]
+digest = "273741e39f0f2acb"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Vandenkerckhove Constant"
+gloss = "The Vandenkerckhove constant collects the throat conditions of an isentropic nozzle as a function of the ratio of specific heats alone."
+cite = ["ref_huzel", "ref_sp8120"]
+digest = "7a780e7dd0e80c98"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Isentropic Area and Pressure Ratios"
+gloss = "The local area ratio and the local static to chamber pressure ratio of isentropic flow follow from the Mach number and the ratio of specific heats."
+cite = ["ref_huzel", "ref_sp8120"]
+digest = "f6ceb9dbf65d76b6"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Vacuum Thrust Coefficient of an Ideal Nozzle"
+gloss = "The vacuum thrust coefficient is a momentum term set by the exit pressure ratio plus the exit plane pressure term against a vacuum."
+cite = ["ref_huzel", "ref_sp8120"]
+digest = "f10bf9914216184d"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Characteristic Velocity and Specific Impulse"
+gloss = "The characteristic velocity carries the propellant and chamber, the thrust coefficient carries the nozzle and atmosphere, and the specific impulse is their product over standard gravity."
+cite = []
+digest = "9fe3c66f30bea74b"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Pressure-Time Integral and Delivered Impulse"
+gloss = "The whole atmospheric penalty of a fixed nozzle over a burn is its exit area times the time integral of ambient pressure."
+cite = []
+digest = "6df1b932f186c2fc"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Marginal Vacuum Thrust of Exit Area"
+gloss = "With the one-dimensional momentum equation, the vacuum thrust gained by an increment of exit area is the exit pressure acting on that increment."
+cite = []
+digest = "dd1199000a2ee5de"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Thrust as Vacuum Thrust Less a Linear Term"
+gloss = "The thrust against an atmosphere is the vacuum thrust as a function of exit area less the ambient pressure times the exit area, the pairing of a Legendre transform."
+cite = []
+digest = "e3d8e8b56a276cba"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Derivative of the Thrust Coefficient With Area Ratio"
+gloss = "The derivative of the thrust coefficient with respect to area ratio is the pressure difference across the exit plane over the chamber pressure."
+cite = []
+digest = "44e47d8b2e8a26cf"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Envelope of Fixed Nozzles as a Legendre Transform"
+gloss = "The best thrust any fixed nozzle can give at an ambient pressure is the upper envelope of the family of straight lines, which is the Legendre transform of the vacuum thrust and the thrust of an ideal altitude-compensating nozzle."
+cite = ["ref_legendre", "ref_convex_conjugate"]
+digest = "323d8b0e14217a49"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Fenchel-Young Inequality for Nozzle Thrust"
+gloss = "The thrust of any fixed nozzle at any ambient pressure is at most that of the envelope, with equality only where the nozzle is matched."
+cite = []
+digest = "daebfd86d37f0ee9"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Inverse Legendre Transform"
+gloss = "The vacuum thrust of every fixed nozzle can be recovered from the envelope by a minimisation over ambient pressure."
+cite = []
+digest = "f613785fdd86d5f5"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Slope and Convexity of the Envelope"
+gloss = "By the envelope theorem the slope of the envelope is minus the optimal exit area, and the envelope is convex because the optimal nozzle shrinks as ambient pressure rises."
+cite = ["ref_envelope_theorem"]
+digest = "3f63983d63edcdd2"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Loss of a Fixed Nozzle as a Bregman Divergence"
+gloss = "The loss of a nozzle matched at one ambient pressure, measured against the envelope at another, is the Bregman divergence of the envelope generated at the design point."
+cite = ["ref_bregman", "ref_envelope_theorem"]
+digest = "cf7016202d940f31"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Loss as an Integral of Exit Area Mismatch"
+gloss = "The loss is the integral over ambient pressure of the difference between the fitted exit area and the exit area the envelope would choose."
+cite = []
+digest = "c127d99445aea75a"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Delivered Impulse of a Fixed Nozzle"
+gloss = "Because the thrust coefficient is affine in ambient pressure, the burn-integrated coefficient is the vacuum value times the burn time less the area ratio times the pressure-time integral over chamber pressure."
+cite = []
+digest = "771d4a04f82466b5"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Mean-in-Time Rule for the Optimal Fixed Nozzle"
+gloss = "Maximising delivered impulse at a chamber pressure held constant through the burn, the objective the article chooses, sets the exit pressure of the best fixed nozzle equal to the time-averaged ambient pressure."
+cite = []
+digest = "0349ac1853291357"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Burn-Averaged Ambient Pressure and the Selected Area Ratio"
+gloss = "The article's rule selects the area ratio whose exit pressure equals the ambient pressure averaged over the burn time."
+cite = ["ref_optimum_ratio_2019"]
+digest = "7c954b40241eba2c"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Power-Law Ascent Profile"
+gloss = "The first-stage altitude is modelled as the cut-off altitude times a power of the fraction of burn time, with an exponent the article sweeps from 1.5 to 3.0 because the trajectory is not published."
+cite = []
+digest = "d4d78aa097e245ce"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Pressure in a Layer of the 1976 Standard Atmosphere"
+gloss = "The pressure in a layer with a temperature lapse and in an isothermal layer follows the two hydrostatic forms of the 1976 United States Standard Atmosphere."
+cite = ["ref_usatm1976", "ref_atm_constants"]
+digest = "d813c56629daf3db"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Pressure Scale Height"
+gloss = "The pressure scale height is the gas constant times the temperature over standard gravity."
+cite = []
+digest = "05b9c2c39dd1b089"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Pressure-Time Integral for an Isothermal Constant-Rate Climb"
+gloss = "For an isothermal atmosphere climbed at a constant rate, both simplifications the article chooses, the integral saturates at sea-level pressure times the scale height over the climb rate."
+cite = []
+digest = "dff848b13df8dcc8"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Fractional Impulse Gain of the Ideal Spike"
+gloss = "The article's figure of merit is the burn-integrated thrust coefficient of the ideal altitude-compensating nozzle over that of the best fixed nozzle, less one."
+cite = []
+digest = "e6a39674220d3b73"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Exit to Ambient Pressure Ratio at Liftoff"
+gloss = "Under the article's mean-in-time rule the optimal nozzle's exit pressure at liftoff is the burn-averaged ambient pressure divided by sea-level pressure."
+cite = []
+digest = "e2519b3ad0ccacc5"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Separation Criterion at Sea Level"
+gloss = "A flow that separates below a threshold ratio of exit to ambient pressure limits the area ratio to the one whose exit pressure is the threshold times sea-level pressure."
+cite = []
+digest = "65435288fbf07df0"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Morrisette and Goldberg Separation Correlation for Contoured Nozzles"
+gloss = "The ratio of separation wall pressure to ambient pressure for contoured nozzles is a second-order fit in the separation Mach number between Mach 2.4 and 4.5."
+cite = ["ref_tp1207"]
+digest = "d93c6f581f38acb9"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Margin of the Optimal Area Ratio Below the Separation Limit"
+gloss = "The article defines the margin as one less the ratio of the trajectory-optimal area ratio to the separation-limited one, evaluated on its assumed chamber pressures and power-law ascent."
+cite = []
+digest = "657d64bd04e365de"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Thrust Decomposition of a Truncated Plug"
+gloss = "The thrust of a truncated plug is the axial force on the wetted surface plus the base pressure acting on the exposed base."
+cite = []
+digest = "9455fb66a4c8f7da"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Open and Closed Wake Regimes of a Plug Base"
+gloss = "In the open wake the base pressure follows the ambient pressure, and in the closed wake it is set by the recirculation instead."
+cite = ["ref_mach_disc_1975", "ref_plug_flowfields_2001"]
+digest = "8e2c6bc6cb0996f7"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Control Moment of a Throttled Ring"
+gloss = "The article idealises the steering engines as $N$ equal modules equally spaced on a ring, so the moment about a horizontal axis is the throttle-weighted sum of their projected arms."
+cite = []
+digest = "109ecef0b5e6df6d"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Balance of an Equally Spaced Ring"
+gloss = "The cosines of equally spaced angles sum to zero for every direction, so a ring of equal thrusters all wide open applies no moment."
+cite = []
+digest = "5f49138d9d4c0738"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Optimal Bang-Bang Control Moment"
+gloss = "With every module throttleable over the same depth, the best pattern opens the forward half and closes the rear half to its floor, giving a moment proportional to the support function of a regular polygon."
+cite = []
+digest = "b575d1c68e787821"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Mean of the Positive Part of a Cosine"
+gloss = "The mean of the positive part of a cosine over a full turn is the reciprocal of pi."
+cite = []
+digest = "fa7fd67f971830f3"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Direction-Averaged Control Authority"
+gloss = "Averaged over all commanded directions the idealised ring's normalised moment is the throttle depth over pi, independent of the module count."
+cite = []
+digest = "eb9215219c52684a"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Directions at Which the Open Set Changes"
+gloss = "The vertices of the idealised ring's moment polygon lie where a module crosses the boundary of the forward half plane."
+cite = []
+digest = "3577e5c8e373ed62"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Number of Sides of the Moment Polygon"
+gloss = "The idealised ring's moment polygon has $N$ sides for an even module count and $2N$ for an odd one."
+cite = []
+digest = "8ff528d368b3aee7"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Guaranteed and Best-Case Control Authority"
+gloss = "The smallest and largest normalised moments of the idealised ring follow in closed form from the number of polygon sides, and their ratio is the secant of pi over that number."
+cite = []
+digest = "3037368ef704dd80"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Guaranteed Authority for Four Module Counts"
+gloss = "The guaranteed authority is evaluated at an assumed throttle depth of two tenths for rings of eight, nine, twelve and sixteen modules."
+cite = []
+digest = "aafbee626bebbbaa"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Advantage of a Nine-Module Ring"
+gloss = "At the assumed throttle depth of two tenths, nine modules guarantee 1.31 percent more authority than twelve and 4.41 percent more than eight."
+cite = []
+digest = "ed1c427288bba04c"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Thrust and Moment Lost With One Module"
+gloss = "Removing one module from the balanced idealised ring costs one part in $N$ of thrust and leaves an unbalanced moment of up to one part in $N$."
+cite = []
+digest = "b39db69fec6ecb5a"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Control Moment of the Surviving Ring"
+gloss = "After one module fails, the idealised ring's moment is the sum over the remaining modules alone, which is a different sum and not a scaled copy of the intact one."
+cite = []
+digest = "41cc94e9ea246049"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Authority Retained After One Module Fails"
+gloss = "The article defines the retained fraction as the guaranteed moment of the surviving ring over that of the intact ring with full throttle range, giving 58.6 percent for eight modules and 65.3 percent for nine."
+cite = []
+digest = "19987d73d015ae01"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Equivalent Gimbal Angle of Differential Throttling"
+gloss = "Equating a gimballed engine's moment to the idealised ring's direction-averaged moment gives an equivalent deflection proportional to the throttle depth and the ratio of ring radius to moment arm."
+cite = []
+digest = "9b2bfc027e21f26a"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Check of the Published Thrust Table"
+gloss = "The stated total exceeds nine engines at the stated per-engine thrust by 22.24 percent and matches eleven engines to 135 parts per million."
+cite = ["ref_ds_x63"]
+digest = "799cd6f2a845c453"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "First Tangential Acoustic Mode of a Cylindrical Chamber"
+gloss = "The frequency of the first tangential mode is the first stationary point of the Bessel function of order one times the speed of sound over pi times the chamber diameter, which inverts to give the diameter."
+cite = []
+digest = "9152e90aa455cee0"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Frozen Speed of Sound in the Combustion Products"
+gloss = "The frozen speed of sound follows from the ratio of specific heats, the universal gas constant, the chamber temperature and the mean molar mass."
+cite = ["ref_sp8124", "ref_sp8107"]
+digest = "1a245f2c339f3e80"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Throat Area and Chamber Pressure From the Chamber Diameter"
+gloss = "The throat area follows from the chamber diameter and contraction ratio, and the chamber pressure from the thrust, the thrust coefficient and that area."
+cite = []
+digest = "d3a041ea3b7c5f30"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Overlap of the Recovered and Assumed Chamber Pressure Bands"
+gloss = "The overlap of the band recovered from the instability frequency with the band of 3 to 10 megapascal that the article assumes on general grounds is 93.5 percent of the first and 82.0 percent of the second."
+cite = []
+digest = "e2dcbf7636e026de"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Binomial Tail for Two or More Failures"
+gloss = "If engine starts are independent with a common probability of instability, the chance of two or more among $n$ engines is one minus the probabilities of none and of exactly one."
+cite = []
+digest = "bac36559f08d645c"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Interval From the End of Water Supply to the Buckling"
+gloss = "The reported times give 714 seconds from the mobile water stores running out to the structure buckling, and the reported half second of main-stage combustion is 3.8 percent of the planned thirteen."
+cite = ["ref_abl_staticfire"]
+digest = "479ad27b5b750f3d"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Payload Sensitivity to First-Stage Velocity Increment"
+gloss = "Holding the second stage's propellant and structure fixed, as the article chooses, the rocket equation gives a fractional payload gain that exceeds the velocity gain over the second-stage exhaust velocity."
+cite = []
+digest = "fcb5d8879181c912"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Payload Worth of One Percent of Exhaust Velocity"
+gloss = "The gain is evaluated with the staging speed of 2.6 kilometres per second taken as a floor on the first-stage increment and an assumed second-stage exhaust velocity of 3,000 to 3,400 metres per second."
+cite = []
+digest = "48799e1d1e7fb2a5"
+
+[[symbol]]
+tex = 'F'
+meaning = "the thrust"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow of propellant"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the exhaust velocity at the exit plane"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the static pressure of the exhaust at the exit plane"
+
+[[symbol]]
+tex = 'p_a'
+meaning = "the ambient atmospheric pressure"
+
+[[symbol]]
+tex = 'A_e'
+meaning = "the area of the nozzle exit plane"
+
+[[symbol]]
+tex = 'A_t'
+meaning = "the area of the nozzle throat"
+
+[[symbol]]
+tex = 'F_{\mathrm{vac}}'
+meaning = "the thrust the same nozzle would produce against a vacuum"
+
+[[symbol]]
+tex = 'p_c'
+meaning = "the chamber pressure"
+
+[[symbol]]
+tex = 'C_F'
+meaning = "the thrust coefficient"
+
+[[symbol]]
+tex = 'C_{F,\mathrm{vac}}'
+meaning = "the thrust coefficient in vacuum"
+
+[[symbol]]
+tex = 'C_F^{\star}'
+meaning = "the thrust coefficient of the ideal altitude-compensating nozzle"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the ratio of exit area to throat area"
+
+[[symbol]]
+tex = '\varepsilon^{\star}'
+meaning = "the area ratio the mean-in-time rule selects"
+
+[[symbol]]
+tex = '\varepsilon_{\mathrm{sep}}'
+meaning = "the largest area ratio that avoids separation at sea level"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats"
+
+[[symbol]]
+tex = '\Gamma'
+meaning = "the Vandenkerckhove constant"
+
+[[symbol]]
+tex = 'c^{\star}'
+meaning = "the characteristic velocity"
+
+[[symbol]]
+tex = 'T_c'
+meaning = "the chamber temperature"
+
+[[symbol]]
+tex = '\bar{M}'
+meaning = "the mean molar mass of the combustion products"
+
+[[symbol]]
+tex = 'R_u'
+meaning = "the universal gas constant"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 'J'
+meaning = "the time integral of ambient pressure over the burn"
+
+[[symbol]]
+tex = 't_b'
+meaning = "the burn duration of the first stage"
+
+[[symbol]]
+tex = 'G'
+meaning = "the vacuum thrust regarded as a function of exit area"
+
+[[symbol]]
+tex = 'F^{\star}'
+meaning = "the upper envelope of the thrust of all fixed nozzles"
+
+[[symbol]]
+tex = 'p_d'
+meaning = "the ambient pressure at which a fixed nozzle is matched, with $A_d$ its exit area"
+
+[[symbol]]
+tex = '\bar{p}_a'
+meaning = "the burn-averaged ambient pressure"
+
+[[symbol]]
+tex = 'h_b'
+meaning = "the altitude at main engine cut-off"
+
+[[symbol]]
+tex = 'H'
+meaning = "the pressure scale height of the atmosphere"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the temperature lapse rate of an atmospheric layer"
+
+[[symbol]]
+tex = 'p_{\mathrm{SL}}'
+meaning = "the sea-level pressure of the standard atmosphere"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the fractional impulse gain of the ideal spike"
+
+[[symbol]]
+tex = 'M_s'
+meaning = "the Mach number at the point where the flow separates from the wall, with $p_s$ the wall pressure there"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the margin in area ratio of the trajectory-optimal nozzle below the separation limit"
+
+[[symbol]]
+tex = 'F_w'
+meaning = "the axial force on the wetted surface of a plug"
+
+[[symbol]]
+tex = 'p_b'
+meaning = "the pressure acting on the exposed base of a truncated plug, with $A_b$ the area of that base"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of thruster modules on the ring"
+
+[[symbol]]
+tex = 'r'
+meaning = "the radius of the ring of thruster modules"
+
+[[symbol]]
+tex = '\tau_k'
+meaning = "the throttle fraction of module $k$"
+
+[[symbol]]
+tex = '\theta_k'
+meaning = "the angular position of module $k$ on the ring"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the available throttle depth"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the direction of the commanded moment"
+
+[[symbol]]
+tex = 'M_{\mathrm{out}}'
+meaning = "the unbalanced moment left by the loss of one module"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the fraction of guaranteed steering authority retained after one module fails"
+
+[[symbol]]
+tex = 'f_{1T}'
+meaning = "the frequency of the first tangential acoustic mode"
+
+[[symbol]]
+tex = '\alpha_{1T}'
+meaning = "the first stationary point of the Bessel function of order one"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the contraction ratio, chamber area over throat area"
+
+[[symbol]]
+tex = 'c_{e,2}'
+meaning = "the effective exhaust velocity of the second stage"
+
+[[symbol]]
+tex = '\Delta m_p'
+meaning = "the payload mass bought by a gain in first-stage velocity increment"

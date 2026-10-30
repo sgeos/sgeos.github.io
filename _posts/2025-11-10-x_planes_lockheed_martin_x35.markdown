@@ -150,11 +150,17 @@ installation, not by an airframe.
 accelerates a mass flow $\dot{m}$ from rest to a velocity $v$ produces a thrust and carries away a kinetic
 power,
 
-$$T = \dot{m} v \qquad \text{and} \qquad P = \tfrac{1}{2} \dot{m} v^{2}$$
+$$
+T = \dot{m} v \qquad \text{and} \qquad P = \tfrac{1}{2} \dot{m} v^{2}
+\tag{1}
+$$
 
 and eliminating the velocity between them gives the relation that governs every lift system ever built,
 
-$$T = \sqrt{2 P \dot{m}}$$
+$$
+T = \sqrt{2 P \dot{m}}
+\tag{2}
+$$
 
 **At a fixed power, thrust rises as the square root of the mass flow.**
 
@@ -166,7 +172,10 @@ not one extra joule was spent.
 **Said the other way round, in the form that makes the design decision obvious, thrust per unit power is inversely proportional to jet velocity.**
 Dividing the two definitions, not eliminating between them,
 
-$$\frac{T}{P} = \frac{\dot{m} v}{\tfrac{1}{2} \dot{m} v^{2}} = \frac{2}{v}$$
+$$
+\frac{T}{P} = \frac{\dot{m} v}{\tfrac{1}{2} \dot{m} v^{2}} = \frac{2}{v}
+\tag{3}
+$$
 
 A hovering aeroplane wants the slowest, fattest jet it can arrange. A supersonic aeroplane wants the
 opposite.
@@ -180,21 +189,33 @@ thrust, and absorbs twenty-nine thousand shaft horsepower.
 
 Writing $D$ for the diameter, the disc area is
 
-$$A = \frac{\pi D^{2}}{4} = \frac{\pi \times 1.27^{2}}{4} = 1.2668 \ \text{m}^{2}$$
+$$
+A = \frac{\pi D^{2}}{4} = \frac{\pi \times 1.27^{2}}{4} = 1.2668 \ \text{m}^{2}
+\tag{4}
+$$
 
 [Momentum theory][ref_momentum] treats the fan as a disc across which pressure jumps, with air arriving at
 rest and leaving at a velocity that is twice the velocity through the disc itself. Writing $v_i$ for the
 induced velocity at the disc and $\rho$ for sea-level density, thrust and mass flow give
 
-$$T = 2 \rho A v_i^{2} \qquad \Rightarrow \qquad v_i = \sqrt{\frac{T}{2 \rho A}}$$
+$$
+T = 2 \rho A v_i^{2} \qquad \Rightarrow \qquad v_i = \sqrt{\frac{T}{2 \rho A}}
+\tag{5}
+$$
 
 and substituting twenty thousand pounds force, which is 88,964 newtons,
 
-$$v_i = \sqrt{\frac{88{,}964}{2 \times 1.225 \times 1.2668}} = 169.3 \ \text{m/s}$$
+$$
+v_i = \sqrt{\frac{88{,}964}{2 \times 1.225 \times 1.2668}} = 169.3 \ \text{m/s}
+\tag{6}
+$$
 
 so the fully developed jet runs at 338.6 metres per second and the mass flow through the disc is
 
-$$\dot{m} = \rho A v_i = 1.225 \times 1.2668 \times 169.3 = 262.7 \ \text{kg/s}$$
+$$
+\dot{m} = \rho A v_i = 1.225 \times 1.2668 \times 169.3 = 262.7 \ \text{kg/s}
+\tag{7}
+$$
 
 **which is 579.2 pounds per second.** The figure is nearly twice the engine
 core flow that the inversion in a later section recovers.
@@ -202,12 +223,18 @@ core flow that the inversion in a later section recovers.
 
 The ideal power such a disc requires is the thrust times the induced velocity,
 
-$$P_{\text{ideal}} = T v_i = 88{,}964 \times 169.3 = 15.06 \ \text{MW}$$
+$$
+P_{\text{ideal}} = T v_i = 88{,}964 \times 169.3 = 15.06 \ \text{MW}
+\tag{8}
+$$
 
 against the 21.63 megawatts that twenty-nine thousand shaft horsepower delivers, so the fan's
 figure of merit is
 
-$$\mathrm{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{15.06}{21.63} = 0.697$$
+$$
+\mathrm{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{15.06}{21.63} = 0.697
+\tag{9}
+$$
 
 **The previous article recovered the same 0.697 while examining the rival**, from the same three
 numbers, and it belongs to the X-35's fan and not the X-32's. A figure of merit near seven tenths is
@@ -223,7 +250,10 @@ arithmetic and not on the physics.
 The [lift system's three published contributors][ref_liftfan] are the fan at twenty thousand pounds force,
 the three-bearing swivel module at eighteen thousand, and two roll posts at 1,950 pounds force each, giving
 
-$$T_{\text{total}} = 20{,}000 + 18{,}000 + 2 \times 1{,}950 = 41{,}900 \ \text{lbf}$$
+$$
+T_{\text{total}} = 20{,}000 + 18{,}000 + 2 \times 1{,}950 = 41{,}900 \ \text{lbf}
+\tag{10}
+$$
 
 Those are the figures published for the production LiftSystem, and the 2001 company releases credit the
 X-35B with [nearly 40,000 pounds of vertical force][ref_lm_conversion].
@@ -231,7 +261,10 @@ X-35B with [nearly 40,000 pounds of vertical force][ref_lm_conversion].
 installation of the same engine, which is [what the rival built][ref_x32], has that dry thrust and nothing else to
 hover on. So the shaft-driven arrangement multiplies the available vertical thrust by
 
-$$\frac{41{,}900}{25{,}000} = 1.676$$
+$$
+\frac{41{,}900}{25{,}000} = 1.676
+\tag{11}
+$$
 
 **and it does so without burning any more fuel.** The engine is producing the same power either way.
 
@@ -240,11 +273,17 @@ $$\frac{41{,}900}{25{,}000} = 1.676$$
 **The square-root law shows where that factor came from, and inverting it yields a number the manufacturer never released.**
 If the augmentation is entirely the mass-flow effect, then
 
-$$\frac{T_{\text{total}}}{T_{\text{dry}}} = \sqrt{\frac{\dot{m}_{\text{fan}} + \dot{m}_{\text{core}}}{\dot{m}_{\text{core}}}}$$
+$$
+\frac{T_{\text{total}}}{T_{\text{dry}}} = \sqrt{\frac{\dot{m}_{\text{fan}} + \dot{m}_{\text{core}}}{\dot{m}_{\text{core}}}}
+\tag{12}
+$$
 
 and solving for the core mass flow, which no source cited here gives,
 
-$$\dot{m}_{\text{core}} = \frac{\dot{m}_{\text{fan}}}{r^{2} - 1} = \frac{579.2}{1.676^{2} - 1} = 320.2 \ \text{lb/s}$$
+$$
+\dot{m}_{\text{core}} = \frac{\dot{m}_{\text{fan}}}{r^{2} - 1} = \frac{579.2}{1.676^{2} - 1} = 320.2 \ \text{lb/s}
+\tag{13}
+$$
 
 **Because no cited source gives an airflow figure for the engine, the inversion cannot be checked against a published value.**
 It is reached from three numbers about thrust and one about a fan, none of which concerns engine
@@ -260,11 +299,17 @@ mechanism alone would require, and it has not measured the engine.
 **Momentum theory hands over a second quantity for free, as the X-32 article also shows.**
 The disc loading is thrust over disc area,
 
-$$\frac{T}{A} = \frac{88{,}964}{1.2668} = 70.2 \ \text{kPa}$$
+$$
+\frac{T}{A} = \frac{88{,}964}{1.2668} = 70.2 \ \text{kPa}
+\tag{14}
+$$
 
 and the dynamic pressure in the fully developed jet is
 
-$$q_{\text{jet}} = \tfrac{1}{2} \rho \left(2 v_i\right)^{2} = 2 \rho v_i^{2} = \frac{T}{A}$$
+$$
+q_{\text{jet}} = \tfrac{1}{2} \rho \left(2 v_i\right)^{2} = 2 \rho v_i^{2} = \frac{T}{A}
+\tag{15}
+$$
 
 **so the dynamic pressure the jet puts on the ground is the disc loading, exactly.** The equality is an
 algebraic identity of the ideal disc and holds for any thrust, area and density.
@@ -279,11 +324,17 @@ The core stream is a different animal. Its footprint pressure needs the nozzle e
 published, so it is reached from the mass flow already recovered. For a jet expanded to ambient pressure at
 exit temperature $T_e$, continuity gives the area and the footprint follows,
 
-$$\rho_e = \frac{p_0}{R T_e} \qquad \text{and} \qquad A_e = \frac{\dot{m}_{\text{core}}}{\rho_e v_e}$$
+$$
+\rho_e = \frac{p_0}{R T_e} \qquad \text{and} \qquad A_e = \frac{\dot{m}_{\text{core}}}{\rho_e v_e}
+\tag{16}
+$$
 
 so the pressure the core jet applies to the surface below it is
 
-$$\frac{T_r}{A_e} = \frac{T_r \, \rho_e v_e}{\dot{m}_{\text{core}}}$$
+$$
+\frac{T_r}{A_e} = \frac{T_r \, \rho_e v_e}{\dot{m}_{\text{core}}}
+\tag{17}
+$$
 
 At roughly nine hundred kelvin the exit density is 0.3922 kilograms per cubic metre, and taking a dry
 military exit velocity between 550 and 650 metres per second,
@@ -299,7 +350,10 @@ The fan's efflux leaves at ambient temperature plus the 46.8 kelvin the compress
 pressure ratio $\Pi$ derived under The Torque Nobody Mentions, the isentropic relation gives the exit
 temperature directly,
 
-$$T_{\text{fan}} = T_0 \, \Pi^{\frac{\gamma - 1}{\gamma}} = 288.15 \times 1.693^{0.2857} = 334.9 \ \text{K}$$
+$$
+T_{\text{fan}} = T_0 \, \Pi^{\frac{\gamma - 1}{\gamma}} = 288.15 \times 1.693^{0.2857} = 334.9 \ \text{K}
+\tag{18}
+$$
 
 The core's is taken here to leave at about nine hundred kelvin.
 
@@ -316,12 +370,18 @@ refinement. **In fact counter-rotation makes the aircraft controllable.**
 A single-rotation fan absorbing shaft power $P$ at angular velocity $\omega$ applies a reaction torque to
 the airframe of
 
-$$Q = \frac{P}{\omega}$$
+$$
+Q = \frac{P}{\omega}
+\tag{19}
+$$
 
 and in a hover there is nothing to react it against except the roll posts, which exist to control the
 aircraft and not to trim it. The roll posts supply a couple of
 
-$$C = 2 F_{\text{post}} \ell$$
+$$
+C = 2 F_{\text{post}} \ell
+\tag{20}
+$$
 
 where $\ell$ is the distance from the centreline.
 **The fan's rotational speed is not given in any source cited here, so the relation is inverted, not evaluated.** Asking
@@ -338,26 +398,41 @@ what speed would make the reaction torque consume the entire roll-post couple gi
 speed can be built from quantities already computed. The fan raises total pressure by the jet's dynamic
 head, giving a pressure ratio of
 
-$$\Pi = \frac{p_0 + q_{\text{jet}}}{p_0} = \frac{101{,}325 + 70{,}229}{101{,}325} = 1.693$$
+$$
+\Pi = \frac{p_0 + q_{\text{jet}}}{p_0} = \frac{101{,}325 + 70{,}229}{101{,}325} = 1.693
+\tag{21}
+$$
 
 For an isentropic compression the total temperature rise follows from the pressure ratio,
 
-$$\Delta T_0 = T_0 \left(\Pi^{\frac{\gamma - 1}{\gamma}} - 1\right) = 288.15 \times \left(1.693^{0.2857} - 1\right) = 46.8 \ \text{K}$$
+$$
+\Delta T_0 = T_0 \left(\Pi^{\frac{\gamma - 1}{\gamma}} - 1\right) = 288.15 \times \left(1.693^{0.2857} - 1\right) = 46.8 \ \text{K}
+\tag{22}
+$$
 
 so the fan does specific work of
 
-$$w = c_p \Delta T_0 = 1004.7 \times 46.8 = 47.0 \ \text{kJ/kg}$$
+$$
+w = c_p \Delta T_0 = 1004.7 \times 46.8 = 47.0 \ \text{kJ/kg}
+\tag{23}
+$$
 
 and the air leaves it at 334.9 kelvin, which is the number the ground-environment argument above relies on.
 Writing $\psi$ for the stage loading coefficient and taking the work as shared between two stages, the blade
 speed follows from
 
-$$U = \sqrt{\frac{c_p \Delta T_0}{2 \psi}} = \sqrt{\frac{47{,}002}{2 \times 0.40}} = 242.4 \ \text{m/s}$$
+$$
+U = \sqrt{\frac{c_p \Delta T_0}{2 \psi}} = \sqrt{\frac{47{,}002}{2 \times 0.40}} = 242.4 \ \text{m/s}
+\tag{24}
+$$
 
 **which is a tip Mach number of 0.712**, comfortable for a transonic stage and a check that the assumed
 loading coefficient is not absurd. The rotational speed is then
 
-$$N = \frac{60 U}{\pi D} = \frac{60 \times 242.4}{\pi \times 1.27} = 3{,}645 \ \text{rpm}$$
+$$
+N = \frac{60 U}{\pi D} = \frac{60 \times 242.4}{\pi \times 1.27} = 3{,}645 \ \text{rpm}
+\tag{25}
+$$
 
 **That estimate sits inside the threshold band and near its middle.** The supportable claim is therefore not
 that counter-rotation saved a stated percentage, but that
@@ -376,15 +451,24 @@ through a slipping clutch transmitting a torque $Q$ that may vary however it lik
 a rate $Q \omega_s$. The inertia receives work at a rate $Q \omega$.
 **The difference is destroyed in the clutch.** Over the whole engagement the impulse fixes the total,
 
-$$\int Q \, dt = I \omega_s \qquad \Rightarrow \qquad W_{\text{in}} = \omega_s \int Q \, dt = I \omega_s^{2}$$
+$$
+\int Q \, dt = I \omega_s \qquad \Rightarrow \qquad W_{\text{in}} = \omega_s \int Q \, dt = I \omega_s^{2}
+\tag{26}
+$$
 
 while the inertia ends up holding
 
-$$E_{\text{fan}} = \tfrac{1}{2} I \omega_s^{2}$$
+$$
+E_{\text{fan}} = \tfrac{1}{2} I \omega_s^{2}
+\tag{27}
+$$
 
 so the energy destroyed is the difference,
 
-$$E_{\text{clutch}} = I \omega_s^{2} - \tfrac{1}{2} I \omega_s^{2} = \tfrac{1}{2} I \omega_s^{2}$$
+$$
+E_{\text{clutch}} = I \omega_s^{2} - \tfrac{1}{2} I \omega_s^{2} = \tfrac{1}{2} I \omega_s^{2}
+\tag{28}
+$$
 
 **Exactly half of the energy drawn from the engine during the engagement is destroyed as heat in the clutch, and nothing about that fraction depends on how the engagement is managed.**
 A slow, gentle engagement destroys exactly as much as a violent one. Integrating the equations of motion
@@ -401,7 +485,10 @@ fraction of 0.5 in all three cases, as the impulse argument requires.
 
 **The last column is the useful one, and the bracket does not weaken it.** It is
 
-$$\tau = \frac{E_{\text{fan}}}{P_{\text{shaft}}} = \frac{I \omega_s^{2}}{2 P_{\text{shaft}}}$$
+$$
+\tau = \frac{E_{\text{fan}}}{P_{\text{shaft}}} = \frac{I \omega_s^{2}}{2 P_{\text{shaft}}}
+\tag{29}
+$$
 
 the fan's stored kinetic energy divided by the power it absorbs when running, which has the dimensions of
 time, and across the bracket it stays under a fifth of a second.
@@ -410,7 +497,10 @@ time, and across the bracket it stays under a fifth of a second.
 **The heat has to go somewhere, and the same bracket gives its effect on the clutch.** For a plate pack of mass $m_p$ and
 specific heat $c_p$, an adiabatic engagement raises its temperature by
 
-$$\Delta T_p = \frac{E_{\text{clutch}}}{m_p c_p} = \frac{I \omega_s^{2}}{2 m_p c_p}$$
+$$
+\Delta T_p = \frac{E_{\text{clutch}}}{m_p c_p} = \frac{I \omega_s^{2}}{2 m_p c_p}
+\tag{30}
+$$
 
 and for an assumed twenty kilograms of carbon at 710 joules per kilogram kelvin that is
 **128.3, 189.8 and 256.5 kelvin** across the three inertias.
@@ -424,7 +514,10 @@ engagement time $t$ of nine seconds.
 **Combining that time with the rated shaft power gives a bound that assumes nothing about the fan.** At
 most the rated power can flow for at most that time, and at most half of it can be destroyed, so
 
-$$E_{\text{clutch}} \le \tfrac{1}{2} P t = \tfrac{1}{2} \times 21.63 \times 10^{6} \times 9 = 97.3 \ \text{MJ}$$
+$$
+E_{\text{clutch}} \le \tfrac{1}{2} P t = \tfrac{1}{2} \times 21.63 \times 10^{6} \times 9 = 97.3 \ \text{MJ}
+\tag{31}
+$$
 
 **That bound is absurd and its absurdity is the finding.** Ninety-seven megajoules deposited into an assumed
 twenty kilograms of carbon would raise its temperature by about 6,853 kelvin, which is beyond the
@@ -433,7 +526,10 @@ vaporisation point of anything. The engagement therefore cannot be anywhere near
 **Comparing the bound with the bracket gives the size of the margin.** Spreading the bracketed dissipation over the assumed
 nine seconds and dividing by the bound's rate, which is half the shaft power, gives
 
-$$\frac{E_{\text{clutch}} / t}{\tfrac{1}{2} P} = \frac{E_{\text{clutch}}}{\tfrac{1}{2} P t} = \frac{1.82}{97.3} = 0.0187 \quad \text{to} \quad \frac{3.64}{97.3} = 0.0374$$
+$$
+\frac{E_{\text{clutch}} / t}{\tfrac{1}{2} P} = \frac{E_{\text{clutch}}}{\tfrac{1}{2} P t} = \frac{1.82}{97.3} = 0.0187 \quad \text{to} \quad \frac{3.64}{97.3} = 0.0374
+\tag{32}
+$$
 
 across the inertia bracket, so the mean dissipation is between 1.9 and 3.7 percent of the most the shaft could feed into the clutch.
 The bound exceeds the dissipation across the inertia bracket for any engagement longer than about a
@@ -451,7 +547,10 @@ vertically. **All of that horizontal momentum has to be destroyed, and the react
 
 Writing $\dot{m}$ for the fan's mass flow and $V$ for true airspeed,
 
-$$D_{\text{mom}} = \dot{m} V$$
+$$
+D_{\text{mom}} = \dot{m} V
+\tag{33}
+$$
 
 which is exact and needs nothing beyond the flow the disc analysis already produced.
 **The same mass flow follows from thrust over jet velocity**, since the ideal disc has
@@ -469,7 +568,10 @@ $T = \dot{m} v_j$ identically.
 That is 30.4 percent of everything the rear nozzle can produce, and on its own it would decelerate the
 aircraft at
 
-$$a = \frac{D_{\text{mom}}}{m} = \frac{24{,}329}{15{,}422} = 1.578 \ \text{m/s}^{2} = 0.1609 \, g$$
+$$
+a = \frac{D_{\text{mom}}}{m} = \frac{24{,}329}{15{,}422} = 1.578 \ \text{m/s}^{2} = 0.1609 \, g
+\tag{34}
+$$
 
 **These figures give quantitative content to the claim that the conversion was the hard event.** Nothing about
 hovering, going supersonic or landing vertically produces a step change of that size. Opening the doors and
@@ -485,11 +587,17 @@ that would matter. [Pitch control in the hover comes from shifting thrust betwee
 nozzle][ref_liftfan], and an authority of
 ten percent of the fan's thrust acting on its moment arm gives
 
-$$M_{\text{avail}} = 0.10 \, T_f x_f = 0.10 \times 88{,}964 \times 3.553 = 31{,}606 \ \text{N m}$$
+$$
+M_{\text{avail}} = 0.10 \, T_f x_f = 0.10 \times 88{,}964 \times 3.553 = 31{,}606 \ \text{N m}
+\tag{35}
+$$
 
 Setting that equal to the momentum-drag moment gives the height at which the two are equal,
 
-$$h^{*} = \frac{M_{\text{avail}}}{D_{\text{mom}}} = \frac{31{,}606}{24{,}329} = 1.299 \ \text{m}$$
+$$
+h^{*} = \frac{M_{\text{avail}}}{D_{\text{mom}}} = \frac{31{,}606}{24{,}329} = 1.299 \ \text{m}
+\tag{36}
+$$
 
 **If the dorsal fan inlet sits roughly a metre above the centre of gravity, which is an estimate and not a published figure, the threshold is not comfortably far away.**
 What can be said is that the momentum drag's pitching moment is of the same order as the trim authority
@@ -502,13 +610,19 @@ switch.
 The only vertical forces are the fan ahead of the centre of gravity and the rear nozzle behind it, and in
 steady hover their moments must cancel,
 
-$$T_f x_f = T_r x_r$$
+$$
+T_f x_f = T_r x_r
+\tag{37}
+$$
 
 Both thrusts are fixed by the hardware, so
 **this equation does not determine the trim. It determines where the centre of gravity has to be.** Writing
 $L$ for the separation between the two,
 
-$$\frac{x_f}{L} = \frac{T_r}{T_f + T_r} = \frac{18{,}000}{38{,}000} = 0.4737$$
+$$
+\frac{x_f}{L} = \frac{T_r}{T_f + T_r} = \frac{18{,}000}{38{,}000} = 0.4737
+\tag{38}
+$$
 
 **The centre of gravity must sit at 47.37 percent of the distance from the fan to the rear nozzle**, and for
 an assumed separation of 7.5 metres that is 3.553 metres behind the fan and 3.947 metres ahead of the
@@ -539,7 +653,10 @@ At a fixed corrected operating point the physical mass flow, and with it the thr
 inlet total temperature.
 **This relation needs a thrust and a temperature in the same expression, and the article has used $T$ for thrust throughout, so thrust is written $F$ here and only here.**
 
-$$\frac{F}{F_{0}} = \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T}$$
+$$
+\frac{F}{F_{0}} = \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T}
+\tag{39}
+$$
 
 | Inlet rise, K | Thrust retained | Vertical thrust, lbf | Hover margin |
 |---|---|---|---|
@@ -552,7 +669,10 @@ $$\frac{F}{F_{0}} = \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T}$$
 The losses are 3.354, 6.490, 9.430 and 14.786 percent respectively.
 **Inverting for the rise that consumes the margin entirely gives**
 
-$$\Delta T_{\text{crit}} = T_{\text{amb}} \left(\frac{F_{\text{total}}}{W} - 1\right) = 288.15 \times 0.2324 = 66.95 \ \text{K}$$
+$$
+\Delta T_{\text{crit}} = T_{\text{amb}} \left(\frac{F_{\text{total}}}{W} - 1\right) = 288.15 \times 0.2324 = 66.95 \ \text{K}
+\tag{40}
+$$
 
 **At 34,000 pounds the X-35B could tolerate a 66.95 kelvin inlet temperature rise before it could no longer hold itself up.**
 That single number measures the value of the cold fan. It accounts for the architecture's choice to place a large volume
@@ -581,7 +701,11 @@ The rear nozzle redirects the core exhaust downward through a jointed pipe whose
 rotated relative to one another, [sweep the nozzle through ninety-five degrees in 2.5 seconds][ref_liftfan], a
 mean slew rate of
 
-$$\dot{\delta} = \frac{\Delta \delta}{\Delta t} = \frac{95^{\circ}}{2.5 \ \text{s}} = 38.0 \ \text{deg/s}$$
+$$
+\dot{\delta} = \frac{\Delta \delta}{\Delta t} = \frac{95^{\circ}}{2.5 \ \text{s}} = 38.0 \ \text{deg/s}
+\tag{41}
+$$
+
 **The elegance is that a purely rotational mechanism produces a large angular deflection**, so the sealing
 problem is a set of rotating joints rather than a set of sliding ones, at a station carrying the full core
 efflux.
@@ -590,12 +714,18 @@ efflux.
 joint whose mating plane is inclined at an angle $\beta$ to the duct axis. Rolling one side relative to the
 other by $\phi$ deflects the downstream axis by $\delta$, where
 
-$$\cos\delta = \cos^{2}\beta + \sin^{2}\beta \cos\phi$$
+$$
+\cos\delta = \cos^{2}\beta + \sin^{2}\beta \cos\phi
+\tag{42}
+$$
 
 At half a turn it reduces to $\delta = 2\beta$, so
 **one joint can bend the duct by twice its cant angle and no more.**
 
-$$\beta_{\text{single}} = \frac{95^{\circ}}{2} = 47.5^{\circ}$$
+$$
+\beta_{\text{single}} = \frac{95^{\circ}}{2} = 47.5^{\circ}
+\tag{43}
+$$
 
 **A single bearing would therefore need its mating plane canted at 47.5 degrees**, which is an extraordinary
 angle for a pressure-tight rotating seal carrying the full exhaust of an augmented turbofan. Such a joint
@@ -607,7 +737,10 @@ more, because the second can only undo what the first did.
 **Mirror the second joint and the two add to $4\beta$, and three alternating joints reach $6\beta$**, which
 the search confirmed to the grid resolution at a cant of fifteen degrees.
 
-$$\beta_{\text{three}} = \frac{95^{\circ}}{6} = 15.83^{\circ}$$
+$$
+\beta_{\text{three}} = \frac{95^{\circ}}{6} = 15.83^{\circ}
+\tag{44}
+$$
 
 **Sixteen degrees is an ordinary cant for a rotating duct joint.** So the count of bearings follows from the
 angle a sealed joint can tolerate, divided into the deflection the aircraft needs.
@@ -634,17 +767,26 @@ the rear nozzle laterally, and roll from the posts.
 **The earlier counter-rotation result can be turned from a fraction into something a pilot would feel.** The
 posts supply a couple, and dividing by the roll moment of inertia gives an angular acceleration,
 
-$$\dot{p} = \frac{2 F_{\text{post}} \ell}{I_{xx}}$$
+$$
+\dot{p} = \frac{2 F_{\text{post}} \ell}{I_{xx}}
+\tag{45}
+$$
 
 The inertia is not published, so it is estimated from a radius of gyration taken as a fraction of span and
 reported across a bracket. At 0.22 of the span,
 
-$$I_{xx} = m k_x^{2} = 15{,}422 \times 2.213^{2} = 75{,}400 \ \text{kg m}^{2}$$
+$$
+I_{xx} = m k_x^{2} = 15{,}422 \times 2.213^{2} = 75{,}400 \ \text{kg m}^{2}
+\tag{46}
+$$
 
 **which is 75,400 kilogram metres squared**, and with the posts at 3.5 metres from the centreline the couple
 of 60,718 newton metres gives
 
-$$\dot{p} = \frac{60{,}718}{75{,}400} = 0.805 \ \text{rad/s}^{2} = 46.07 \ \text{deg/s}^{2}$$
+$$
+\dot{p} = \frac{60{,}718}{75{,}400} = 0.805 \ \text{rad/s}^{2} = 46.07 \ \text{deg/s}^{2}
+\tag{47}
+$$
 
 **which is a healthy figure for a hovering aircraft.** Across the plausible bracket of radius of gyration
 and post position it runs from 30.6 to 55.7 degrees per second squared.
@@ -653,7 +795,10 @@ and post position it runs from 30.6 to 55.7 degrees per second squared.
 estimated above is 56,655 newton metres, which is **93.31 percent of the couple**, leaving 4,063 newton
 metres and
 
-$$\dot{p}_{\text{residual}} = \frac{4{,}063}{75{,}400} = 3.083 \ \text{deg/s}^{2}$$
+$$
+\dot{p}_{\text{residual}} = \frac{4{,}063}{75{,}400} = 3.083 \ \text{deg/s}^{2}
+\tag{48}
+$$
 
 **Three degrees per second squared is not a degraded control system. It is not a control system.** A pilot
 holding a hover in a crosswind would have had about one fifteenth of the roll acceleration the aircraft
@@ -674,12 +819,18 @@ stronger landing gear.
 **The size of that constraint can be estimated.** The fan bay is at least the swept
 volume of the fan itself,
 
-$$V = \frac{\pi D^{2}}{4} \ell$$
+$$
+V = \frac{\pi D^{2}}{4} \ell
+\tag{49}
+$$
 
 and for the fifty-inch fan over an assumed bay length between 1.2 and 1.6 metres that is 1.52 to 2.03 cubic
 metres. Filled with fuel at 800 kilograms per cubic metre instead,
 
-$$W_{\text{fuel}} = \rho_f V = 800 \times 1.773 = 1{,}419 \ \text{kg} = 3{,}128 \ \text{lb}$$
+$$
+W_{\text{fuel}} = \rho_f V = 800 \times 1.773 = 1{,}419 \ \text{kg} = 3{,}128 \ \text{lb}
+\tag{50}
+$$
 
 **so the hovering variant gives up roughly three thousand pounds of internal fuel to the fan**, running from
 2,681 pounds at the short bay to 3,575 at the long one.
@@ -771,24 +922,39 @@ the section headed The Takeoff Did Not Have to Be Short bounds it between 34,197
 **At unstick the weight is carried by two things, and only two.** Writing $L$ for wing lift, $T_v$ for
 whatever the lift system points downward and $W$ for weight, an aircraft leaves the ground once
 
-$$L + T_v \ge W, \qquad L = \tfrac{1}{2} \rho V^{2} S C_L$$
+$$
+L + T_v \ge W, \qquad L = \tfrac{1}{2} \rho V^{2} S C_L
+\tag{51}
+$$
 
 The fan and the roll posts point downward whatever the rear nozzle does,
 
-$$T_f = 20{,}000 + 2 \times 1{,}950 = 23{,}900 \ \text{lbf}$$
+$$
+T_f = 20{,}000 + 2 \times 1{,}950 = 23{,}900 \ \text{lbf}
+\tag{52}
+$$
 
 and a rear nozzle of thrust $T_r$ deflected by $\theta$ below the horizontal adds $T_r \sin\theta$.
 **Assuming that the rear nozzle delivers its published 18,000 pounds force at eighty knots**, the Mission X vectoring to 60 degrees gives
 
-$$T_v = T_f + T_r \sin\theta = 23{,}900 + 18{,}000 \sin 60^{\circ} = 23{,}900 + 15{,}588 = 39{,}488 \ \text{lbf}$$
+$$
+T_v = T_f + T_r \sin\theta = 23{,}900 + 18{,}000 \sin 60^{\circ} = 23{,}900 + 15{,}588 = 39{,}488 \ \text{lbf}
+\tag{53}
+$$
 
 At eighty knots over 41.81 square metres of wing the dynamic pressure times area is
 
-$$\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 41.156^{2} \times 41.81 = 43{,}376 \ \text{N} = 9{,}751 \ \text{lbf}$$
+$$
+\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 41.156^{2} \times 41.81 = 43{,}376 \ \text{N} = 9{,}751 \ \text{lbf}
+\tag{54}
+$$
 
 so the lift coefficient the record requires is at most what the heaviest weight in the bracket demands,
 
-$$C_L \ge \frac{W - T_v}{\tfrac{1}{2} \rho V^{2} S} = \frac{45{,}697 - 39{,}488}{9{,}751} = 0.637$$
+$$
+C_L \ge \frac{W - T_v}{\tfrac{1}{2} \rho V^{2} S} = \frac{45{,}697 - 39{,}488}{9{,}751} = 0.637
+\tag{55}
+$$
 
 **The finding is that the record cannot pin a lift coefficient.** At any weight up to 39,488 pounds the
 vectored lift system alone exceeds the weight and the required coefficient is zero or negative, and at
@@ -798,11 +964,17 @@ system was carrying at least 86 percent of the aircraft.
 
 **The 26 July takeoff can be read the same way, and it too leaves the coefficient open.** At sixty knots
 
-$$\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 30.867^{2} \times 41.81 = 24{,}399 \ \text{N} = 5{,}485 \ \text{lbf}$$
+$$
+\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 30.867^{2} \times 41.81 = 24{,}399 \ \text{N} = 5{,}485 \ \text{lbf}
+\tag{56}
+$$
 
 and the deflection that balances the weight at unstick is
 
-$$\sin\theta = \frac{W - T_f - C_L \, \tfrac{1}{2} \rho V^{2} S}{T_r}$$
+$$
+\sin\theta = \frac{W - T_f - C_L \, \tfrac{1}{2} \rho V^{2} S}{T_r}
+\tag{57}
+$$
 
 which depends on both the unpublished weight and the unknown coefficient,
 
@@ -827,12 +999,18 @@ until that moment, so the wing was carrying the whole weight when the fan engage
 density, as the momentum drag figure also does, which is an assumption, the coefficient the wing was flying
 at follows from
 
-$$C_L = \frac{W}{\tfrac{1}{2} \rho V^{2} S}, \qquad \tfrac{1}{2} \times 1.225 \times 92.6^{2} \times 41.81 = 219{,}588 \ \text{N} = 49{,}365 \ \text{lbf}$$
+$$
+C_L = \frac{W}{\tfrac{1}{2} \rho V^{2} S}, \qquad \tfrac{1}{2} \times 1.225 \times 92.6^{2} \times 41.81 = 219{,}588 \ \text{N} = 49{,}365 \ \text{lbf}
+\tag{58}
+$$
 
 which for any weight between the 30,697 pound empty weight taken for the bracket and the 45,697 pounds of a
 full internal fuel load is
 
-$$C_L = \frac{30{,}697}{49{,}365} = 0.622 \quad \text{to} \quad \frac{45{,}697}{49{,}365} = 0.926$$
+$$
+C_L = \frac{30{,}697}{49{,}365} = 0.622 \quad \text{to} \quad \frac{45{,}697}{49{,}365} = 0.926
+\tag{59}
+$$
 
 **The X-35B made its first in-flight conversion where lift was already free.** That is the safest place to
 engage a lift fan, because a failure of the engagement leaves an aircraft that is already flying.
@@ -846,17 +1024,26 @@ lift coefficient, which no source gives, so this article does not state one.
 **The 200 foot figure does not survive the arithmetic.** Reaching eighty knots from rest in 200 feet takes
 a mean acceleration of
 
-$$\bar{a} = \frac{V^{2}}{2 s} = \frac{41.156^{2}}{2 \times 60.96} = 13.89 \ \text{m/s}^{2} = 1.417 \, g$$
+$$
+\bar{a} = \frac{V^{2}}{2 s} = \frac{41.156^{2}}{2 \times 60.96} = 13.89 \ \text{m/s}^{2} = 1.417 \, g
+\tag{60}
+$$
 
 and even if every pound of the lift system's published thrust pointed aft, with no drag and no rolling
 friction, the lightest weight in the bracket allows at most
 
-$$\frac{a_{\max}}{g} = \frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}197} = 1.225$$
+$$
+\frac{a_{\max}}{g} = \frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}197} = 1.225
+\tag{61}
+$$
 
 In fact only the rear nozzle points aft during a roll, and its 18,000 pounds force at that weight gives a
 frictionless, dragless minimum of
 
-$$s_{\min} = \frac{V^{2}}{2 g \, T_r / W} = \frac{41.156^{2}}{2 \times 9.80665 \times 0.5264} = 164.1 \ \text{m} = 538.3 \ \text{ft}$$
+$$
+s_{\min} = \frac{V^{2}}{2 g \, T_r / W} = \frac{41.156^{2}}{2 \times 9.80665 \times 0.5264} = 164.1 \ \text{m} = 538.3 \ \text{ft}
+\tag{62}
+$$
 
 **So the 200 feet and the eighty knots cannot both describe a roll from brake release.** The account was
 written for a general readership after the event, and one of the two figures, or what the distance was
@@ -868,25 +1055,40 @@ than the 538 foot minimum, and this article relies on the speed.
 and moving only at unstick, which is what the Mission X account describes and is an assumption for 26 July,
 the equation of motion is
 
-$$m \frac{dV}{dt} = T_r \cos\theta - \mu \left(W - T_v\right) - \tfrac{1}{2} \rho V^{2} S C_{D_0}, \qquad \theta = 0$$
+$$
+m \frac{dV}{dt} = T_r \cos\theta - \mu \left(W - T_v\right) - \tfrac{1}{2} \rho V^{2} S C_{D_0}, \qquad \theta = 0
+\tag{63}
+$$
 
 Writing $A$ for the constant part of the acceleration and $B$ for the quadratic drag coefficient divided by
 mass, this integrates in closed form to
 
-$$s = \frac{1}{2B} \ln\!\left(\frac{A}{A - B V^{2}}\right)$$
+$$
+s = \frac{1}{2B} \ln\!\left(\frac{A}{A - B V^{2}}\right)
+\tag{64}
+$$
 
 and at the 34,000 pound floor for that flight, substituting $A = 5.104$ and $B = 4.151 \times 10^{-5}$,
 
-$$s_{\min} = 93.69 \ \text{m} = 307.4 \ \text{ft}$$
+$$
+s_{\min} = 93.69 \ \text{m} = 307.4 \ \text{ft}
+\tag{65}
+$$
 
 The quoted roll $s_q$ needs a mean acceleration of
 
-$$\bar{a} = \frac{V^{2}}{2 s_q} = \frac{30.867^{2}}{2 \times 152.4} = 3.126 \ \text{m/s}^{2} = 0.3187 \, g$$
+$$
+\bar{a} = \frac{V^{2}}{2 s_q} = \frac{30.867^{2}}{2 \times 152.4} = 3.126 \ \text{m/s}^{2} = 0.3187 \, g
+\tag{66}
+$$
 
 against the acceleration available, which is $A$ less the drag term evaluated at half the squared unstick
 speed,
 
-$$a_{\text{avail}} = A - \tfrac{1}{2} B V^{2}$$
+$$
+a_{\text{avail}} = A - \tfrac{1}{2} B V^{2}
+\tag{67}
+$$
 
 Across the weight bracket for that flight,
 
@@ -908,13 +1110,19 @@ in the next paragraph.
 
 **Total vertical thrust is 41,900 pounds force, and the largest weight it can hold up follows immediately,**
 
-$$W_{\max} = \frac{T_{\text{total}}}{g} = \frac{186{,}381}{9.80665} = 19{,}006 \ \text{kg} = 41{,}900 \ \text{lb}$$
+$$
+W_{\max} = \frac{T_{\text{total}}}{g} = \frac{186{,}381}{9.80665} = 19{,}006 \ \text{kg} = 41{,}900 \ \text{lb}
+\tag{68}
+$$
 
 The numerical coincidence between the weight limit in pounds and the thrust in pounds force is an artefact
 of the unit system rather than a result. At the 34,000 pounds the aircraft is
 [documented to have weighed][ref_lm_completion] on the 26 July flight, the margin is
 
-$$\frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}000} = 1.232$$
+$$
+\frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}000} = 1.232
+\tag{69}
+$$
 
 **so at that weight the X-35B could have taken off vertically.** It had already done so
 [seventeen times in late June][ref_lm_conversion].
@@ -928,7 +1136,10 @@ weight plus the [15,000 pounds of internal fuel][ref_x35] the aircraft could hol
 3,500 pounds, and neglecting the pilot and the test instrumentation, both of which add to every weight in the
 bracket,
 
-$$W_{\text{TO}} = W_{\text{empty}} + W_{\text{fuel}}, \qquad 30{,}697 + 3{,}500 = 34{,}197 \ \le \ W_{\text{TO}} \ \le \ 30{,}697 + 15{,}000 = 45{,}697 \ \text{lb}$$
+$$
+W_{\text{TO}} = W_{\text{empty}} + W_{\text{fuel}}, \qquad 30{,}697 + 3{,}500 = 34{,}197 \ \le \ W_{\text{TO}} \ \le \ 30{,}697 + 15{,}000 = 45{,}697 \ \text{lb}
+\tag{70}
+$$
 
 **The empty weight in that bracket is the least certain input, and no weighing record for the X-35B is public.**
 The [X-35 reference][ref_x35] gives 26,500 pounds for the X-35A and 30,697 pounds for the X-35B. Another
@@ -944,7 +1155,10 @@ closely than the demonstrator's.
 
 At the ceiling the margin is
 
-$$\frac{T_{\text{total}}}{W_{\text{TO}}} = \frac{41{,}900}{45{,}697} = 0.9169$$
+$$
+\frac{T_{\text{total}}}{W_{\text{TO}}} = \frac{41{,}900}{45{,}697} = 0.9169
+\tag{71}
+$$
 
 **which is below unity, so at full internal fuel the X-35B could not have taken off vertically at all.**
 Vertical takeoff needs a weight below 41,900 pounds, which is a fuel load below 11,203 pounds, or about three
@@ -973,22 +1187,34 @@ from the standard
 atmosphere. Below the tropopause the temperature falls linearly and the hydrostatic
 equation integrates to a power law,
 
-$$T = T_{\text{SL}} - Lh \qquad \text{and} \qquad p = p_{\text{SL}} \left(\frac{T}{T_{\text{SL}}}\right)^{\frac{g_0}{RL}}$$
+$$
+T = T_{\text{SL}} - Lh \qquad \text{and} \qquad p = p_{\text{SL}} \left(\frac{T}{T_{\text{SL}}}\right)^{\frac{g_0}{RL}}
+\tag{72}
+$$
 
 whose exponent is
 
-$$\frac{g_0}{RL} = \frac{9.80665}{287.05 \times 0.0065} = 5.2559$$
+$$
+\frac{g_0}{RL} = \frac{9.80665}{287.05 \times 0.0065} = 5.2559
+\tag{73}
+$$
 
 At 7,620 metres this gives a static temperature of 238.62 kelvin and a pressure of 37,601 pascals, so the
 density and speed of sound are
 
-$$\rho = \frac{p}{RT} = 0.5489 \ \text{kg/m}^{3} \qquad \text{and} \qquad a = \sqrt{\gamma R T} = 309.7 \ \text{m/s}$$
+$$
+\rho = \frac{p}{RT} = 0.5489 \ \text{kg/m}^{3} \qquad \text{and} \qquad a = \sqrt{\gamma R T} = 309.7 \ \text{m/s}
+\tag{74}
+$$
 
 and the aircraft was travelling at 325.2 metres per second.
 **The density ratio against sea level is 0.4481**, which is the number the thrust available depends on. The
 stagnation temperature follows from the energy equation,
 
-$$T_0 = T + \frac{V^{2}}{2 c_p} = 238.62 + \frac{325.2^{2}}{2 \times 1004.7} = 291.2 \ \text{K}$$
+$$
+T_0 = T + \frac{V^{2}}{2 c_p} = 238.62 + \frac{325.2^{2}}{2 \times 1004.7} = 291.2 \ \text{K}
+\tag{75}
+$$
 
 **which is 18.1 degrees Celsius.** The hottest air the airframe met during its supersonic dash was 3.1
 kelvin warmer than a standard day at sea level.
@@ -1000,28 +1226,46 @@ support.
 Nor was thrust scarce, and the drag can be built up from its parts rather than taken as one lumped
 coefficient. The dynamic pressure is
 
-$$q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \times 0.5489 \times 325.2^{2} = 29{,}018 \ \text{Pa}$$
+$$
+q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \times 0.5489 \times 325.2^{2} = 29{,}018 \ \text{Pa}
+\tag{76}
+$$
 
 **which is 29,018 pascals**, and the lift coefficient the aircraft needs at that pressure is small,
 
-$$C_L = \frac{W}{qS} = \frac{151{,}240}{29{,}018 \times 41.81} = 0.1247$$
+$$
+C_L = \frac{W}{qS} = \frac{151{,}240}{29{,}018 \times 41.81} = 0.1247
+\tag{77}
+$$
 
 The wing's aspect ratio is $b^2/S = 2.42$, so with an assumed Oswald efficiency of 0.75 the induced drag
 coefficient is
 
-$$C_{D_i} = \frac{C_L^{2}}{\pi \, \mathrm{AR} \, e} = \frac{0.1247^{2}}{\pi \times 2.42 \times 0.75} = 0.002726$$
+$$
+C_{D_i} = \frac{C_L^{2}}{\pi \, \mathrm{AR} \, e} = \frac{0.1247^{2}}{\pi \times 2.42 \times 0.75} = 0.002726
+\tag{78}
+$$
 
 **which is negligible**, so the dash is a pure zero-lift
 and wave-drag problem. Adding an assumed subsonic zero-lift coefficient of 0.018 and a wave-drag increment
 of 0.017 at the transonic peak,
 
-$$C_D = C_{D_0} + C_{D_w} + C_{D_i} = 0.018 + 0.017 + 0.002726 = 0.03773$$
+$$
+C_D = C_{D_0} + C_{D_w} + C_{D_i} = 0.018 + 0.017 + 0.002726 = 0.03773
+\tag{79}
+$$
 
-$$D = q S C_D = 29{,}018 \times 41.81 \times 0.03773 = 45{,}771 \ \text{N} = 10{,}289 \ \text{lbf}$$
+$$
+D = q S C_D = 29{,}018 \times 41.81 \times 0.03773 = 45{,}771 \ \text{N} = 10{,}289 \ \text{lbf}
+\tag{80}
+$$
 
 Thrust available falls with density, and taking the usual power-law form,
 
-$$T = T_{\text{SL}} \sigma^{n} = 40{,}000 \times 0.4481^{0.7} = 40{,}000 \times 0.5701 = 22{,}805 \ \text{lbf}$$
+$$
+T = T_{\text{SL}} \sigma^{n} = 40{,}000 \times 0.4481^{0.7} = 40{,}000 \times 0.5701 = 22{,}805 \ \text{lbf}
+\tag{81}
+$$
 
 **so 22,805 pounds force is available**, against a drag of 10,289.
 
@@ -1029,7 +1273,10 @@ $$T = T_{\text{SL}} \sigma^{n} = 40{,}000 \times 0.4481^{0.7} = 40{,}000 \times 
 thrust available runs from 24,711 down to 17,925 pounds force and the ratio of thrust to drag from 2.589 to
 1.878, so the margin survives the range. Taking the build-up,
 
-$$\frac{T}{D} = \frac{22{,}805}{10{,}289} = 2.216 \qquad \text{or} \qquad \frac{D}{T} = \frac{10{,}289}{22{,}805} = 0.451$$
+$$
+\frac{T}{D} = \frac{22{,}805}{10{,}289} = 2.216 \qquad \text{or} \qquad \frac{D}{T} = \frac{10{,}289}{22{,}805} = 0.451
+\tag{82}
+$$
 
 so holding the dash uses 45.1 percent of the thrust available.
 **The ratio of 2.216 stands against 2.389 from a lumped coefficient of 0.035, which would have given a drag of 9,546 pounds force.**
@@ -1048,7 +1295,10 @@ fuel burned during the climb, the dash and the recovery is a pound the lift syst
 With the same assumed burn of 3,500 pounds the landing weight is $W_{\text{land}} = W_{\text{TO}} - W_{\text{fuel}}$,
 and the ordering improves the margin by the factor
 
-$$\frac{T_{\text{total}} / W_{\text{land}}}{T_{\text{total}} / W_{\text{TO}}} = \frac{W_{\text{TO}}}{W_{\text{TO}} - W_{\text{fuel}}}$$
+$$
+\frac{T_{\text{total}} / W_{\text{land}}}{T_{\text{total}} / W_{\text{TO}}} = \frac{W_{\text{TO}}}{W_{\text{TO}} - W_{\text{fuel}}}
+\tag{83}
+$$
 
 which needs no thrust figure at all. Across the takeoff-weight bracket of the previous section,
 
@@ -1061,7 +1311,10 @@ which needs no thrust figure at all. Across the takeoff-weight bracket of the pr
 lightest point of the sortie and the gain from the ordering runs from 1.083 to 1.114, but at the ceiling the
 landing margin is 0.993, and after the 3.354 percent loss of a ten kelvin inlet rise it falls further,
 
-$$\frac{T_{\text{total}}}{W_{\text{land}}} \cdot \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T} = \frac{41{,}900}{42{,}197} \times \frac{288.15}{298.15} = 0.960$$
+$$
+\frac{T_{\text{total}}}{W_{\text{land}}} \cdot \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T} = \frac{41{,}900}{42{,}197} \times \frac{288.15}{298.15} = 0.960
+\tag{84}
+$$
 
 **The vertical landing that ended Mission X therefore bounds its takeoff weight.** With the assumed burn the
 landing weight lies within the sea-level vertical thrust only for a takeoff weight below 45,400 pounds, which
@@ -1912,6 +2165,737 @@ architectural property legible in one flight to people who would never read a te
 honestly, because the property was real and the rival did not have it.
 **What it was not is the experiment.** The experiment was the clutch engaging in flight on 9 July, and
 nobody remembers the date.
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 84 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 84, 48 are established and 36 are bespoke.
+Thrusts and weights are quoted in pounds force and pounds while the relations are evaluated in newtons, kilograms and metres per second, and several letters are reused, so $T$ is a thrust except where a subscript or the standard atmosphere relation makes it a temperature, the thrust is written $F$ in the inlet temperature relations, $L$ is the separation of the fan and the rear nozzle and then the temperature lapse rate, $\ell$ is a roll-post arm and then a bay length, $V$ is the true airspeed except in the fan bay relation, where it is a volume, $A$ is the disc area except in the ground roll, where it is the constant part of the acceleration, $c_p$ is the specific heat of air except in the clutch heating relation, and $r$ in the core flow inversion is the thrust multiplication ratio.
+
+**Equation 1, Thrust and Kinetic Power of a Jet.**
+A jet accelerating a mass flow from rest produces a thrust equal to the mass flow times the jet velocity and carries away half the mass flow times the velocity squared as kinetic power.
+
+$$
+T = \dot{m} v \qquad \text{and} \qquad P = \tfrac{1}{2} \dot{m} v^{2}
+\tag{1}
+$$
+
+**Equation 2, Thrust at Fixed Power.**
+Eliminating the jet velocity shows that at a fixed power the thrust rises as the square root of the mass flow.
+
+$$
+T = \sqrt{2 P \dot{m}}
+\tag{2}
+$$
+
+**Equation 3, Thrust per Unit Power.**
+Dividing the thrust by the kinetic power shows that the thrust obtained from each unit of power is inversely proportional to the jet velocity.
+
+$$
+\frac{T}{P} = \frac{\dot{m} v}{\tfrac{1}{2} \dot{m} v^{2}} = \frac{2}{v}
+\tag{3}
+$$
+
+**Equation 4, Disc Area of the Lift Fan.**
+The published fifty-inch diameter gives a disc area of 1.2668 square metres.
+[Rolls-Royce LiftFan][ref_liftfan]
+
+$$
+A = \frac{\pi D^{2}}{4} = \frac{\pi \times 1.27^{2}}{4} = 1.2668 \ \text{m}^{2}
+\tag{4}
+$$
+
+**Equation 5, Momentum Theory Thrust and Induced Velocity.**
+Momentum theory gives the thrust of an ideal actuator disc as twice the density times the disc area times the induced velocity squared, which inverts for the induced velocity.
+[Momentum theory][ref_momentum]
+
+$$
+T = 2 \rho A v_i^{2} \qquad \Rightarrow \qquad v_i = \sqrt{\frac{T}{2 \rho A}}
+\tag{5}
+$$
+
+**Equation 6, Induced Velocity of the Lift Fan.**
+The published thrust and disc area at sea-level density give an induced velocity of 169.3 metres per second at the disc.
+[Momentum theory][ref_momentum]
+
+$$
+v_i = \sqrt{\frac{88{,}964}{2 \times 1.225 \times 1.2668}} = 169.3 \ \text{m/s}
+\tag{6}
+$$
+
+**Equation 7, Mass Flow Through the Fan.**
+The density times the disc area times the induced velocity gives a mass flow of 262.7 kilograms per second.
+
+$$
+\dot{m} = \rho A v_i = 1.225 \times 1.2668 \times 169.3 = 262.7 \ \text{kg/s}
+\tag{7}
+$$
+
+**Equation 8, Ideal Power of the Disc.**
+The ideal power an actuator disc requires is its thrust times the induced velocity, here 15.06 megawatts.
+
+$$
+P_{\text{ideal}} = T v_i = 88{,}964 \times 169.3 = 15.06 \ \text{MW}
+\tag{8}
+$$
+
+**Equation 9, Figure of Merit of the Lift Fan.**
+The ratio of ideal to published shaft power gives a figure of merit of 0.697.
+
+$$
+\mathrm{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{15.06}{21.63} = 0.697
+\tag{9}
+$$
+
+**Equation 10, Total Published Vertical Thrust.**
+The fan, the three-bearing swivel module and the two roll posts sum to 41,900 pounds force of vertical thrust.
+[Rolls-Royce LiftFan][ref_liftfan]
+
+$$
+T_{\text{total}} = 20{,}000 + 18{,}000 + 2 \times 1{,}950 = 41{,}900 \ \text{lbf}
+\tag{10}
+$$
+
+**Equation 11, Multiplication of Vertical Thrust Over the Dry Engine.**
+The total vertical thrust over the published dry thrust of the engine gives a factor of 1.676.
+[Lockheed Martin X-35][ref_x35]
+
+$$
+\frac{41{,}900}{25{,}000} = 1.676
+\tag{11}
+$$
+
+*Equation 12, Bespoke Thrust Multiplication as a Pure Mass Flow Effect.*
+The thrust ratio is written as the square root of the total to core mass flow ratio on the assumption that the whole augmentation is the mass flow effect at unchanged power with ideal jets.
+
+$$
+\frac{T_{\text{total}}}{T_{\text{dry}}} = \sqrt{\frac{\dot{m}_{\text{fan}} + \dot{m}_{\text{core}}}{\dot{m}_{\text{core}}}}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Core Mass Flow Recovered by Inversion.*
+Inverting the pure mass flow model with the fan flow from momentum theory recovers an unpublished core flow of 320.2 pounds per second.
+
+$$
+\dot{m}_{\text{core}} = \frac{\dot{m}_{\text{fan}}}{r^{2} - 1} = \frac{579.2}{1.676^{2} - 1} = 320.2 \ \text{lb/s}
+\tag{13}
+$$
+
+**Equation 14, Disc Loading of the Fan.**
+The published thrust over the disc area gives a disc loading of 70.2 kilopascals.
+
+$$
+\frac{T}{A} = \frac{88{,}964}{1.2668} = 70.2 \ \text{kPa}
+\tag{14}
+$$
+
+**Equation 15, Jet Dynamic Pressure Equals the Disc Loading.**
+For an ideal actuator disc the dynamic pressure of the fully developed jet is identically the disc loading.
+
+$$
+q_{\text{jet}} = \tfrac{1}{2} \rho \left(2 v_i\right)^{2} = 2 \rho v_i^{2} = \frac{T}{A}
+\tag{15}
+$$
+
+**Equation 16, Exit Density and Area From Continuity.**
+For a jet expanded to ambient pressure the ideal gas law gives the exit density and continuity gives the exit area from the mass flow.
+
+$$
+\rho_e = \frac{p_0}{R T_e} \qquad \text{and} \qquad A_e = \frac{\dot{m}_{\text{core}}}{\rho_e v_e}
+\tag{16}
+$$
+
+**Equation 17, Footprint Pressure of the Core Jet.**
+The rear thrust over the exit area, rewritten through continuity, gives the pressure the core jet applies to the surface below.
+
+$$
+\frac{T_r}{A_e} = \frac{T_r \, \rho_e v_e}{\dot{m}_{\text{core}}}
+\tag{17}
+$$
+
+**Equation 18, Isentropic Exit Temperature of the Fan.**
+The isentropic relation applied to the fan pressure ratio from momentum theory gives an efflux temperature of 334.9 kelvin.
+
+$$
+T_{\text{fan}} = T_0 \, \Pi^{\frac{\gamma - 1}{\gamma}} = 288.15 \times 1.693^{0.2857} = 334.9 \ \text{K}
+\tag{18}
+$$
+
+**Equation 19, Reaction Torque of a Single-Rotation Fan.**
+A fan absorbing a shaft power at an angular velocity applies a reaction torque equal to the power over the angular velocity.
+
+$$
+Q = \frac{P}{\omega}
+\tag{19}
+$$
+
+**Equation 20, Roll-Post Couple.**
+Two roll posts each producing a force at a distance from the centreline supply a couple of twice the force times the arm.
+
+$$
+C = 2 F_{\text{post}} \ell
+\tag{20}
+$$
+
+**Equation 21, Fan Pressure Ratio From the Jet Dynamic Head.**
+The ideal disc raises total pressure by the jet dynamic head, which gives a fan pressure ratio of 1.693.
+
+$$
+\Pi = \frac{p_0 + q_{\text{jet}}}{p_0} = \frac{101{,}325 + 70{,}229}{101{,}325} = 1.693
+\tag{21}
+$$
+
+**Equation 22, Isentropic Total Temperature Rise.**
+For an isentropic compression the total temperature rise follows from the pressure ratio, here 46.8 kelvin.
+
+$$
+\Delta T_0 = T_0 \left(\Pi^{\frac{\gamma - 1}{\gamma}} - 1\right) = 288.15 \times \left(1.693^{0.2857} - 1\right) = 46.8 \ \text{K}
+\tag{22}
+$$
+
+**Equation 23, Specific Work of the Fan.**
+The specific work is the specific heat at constant pressure times the total temperature rise.
+
+$$
+w = c_p \Delta T_0 = 1004.7 \times 46.8 = 47.0 \ \text{kJ/kg}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Blade Speed From an Assumed Stage Loading.*
+The blade speed follows from the specific work with the work shared equally between two stages and an assumed stage loading coefficient of 0.40.
+
+$$
+U = \sqrt{\frac{c_p \Delta T_0}{2 \psi}} = \sqrt{\frac{47{,}002}{2 \times 0.40}} = 242.4 \ \text{m/s}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Rotational Speed of the Fan.*
+The blade speed from the assumed loading coefficient over the fan circumference gives an estimated 3,645 revolutions per minute.
+
+$$
+N = \frac{60 U}{\pi D} = \frac{60 \times 242.4}{\pi \times 1.27} = 3{,}645 \ \text{rpm}
+\tag{25}
+$$
+
+**Equation 26, Work Drawn During a Slipping Clutch Engagement.**
+For a source at constant angular velocity driving an inertia from rest, the torque impulse fixes the work drawn at the inertia times the source speed squared.
+
+$$
+\int Q \, dt = I \omega_s \qquad \Rightarrow \qquad W_{\text{in}} = \omega_s \int Q \, dt = I \omega_s^{2}
+\tag{26}
+$$
+
+**Equation 27, Kinetic Energy of the Fan.**
+The fan ends the engagement holding half its inertia times the source speed squared.
+
+$$
+E_{\text{fan}} = \tfrac{1}{2} I \omega_s^{2}
+\tag{27}
+$$
+
+**Equation 28, Energy Destroyed in the Clutch.**
+The difference between the work drawn and the energy stored shows that exactly half the energy drawn is dissipated, independent of the torque history.
+
+$$
+E_{\text{clutch}} = I \omega_s^{2} - \tfrac{1}{2} I \omega_s^{2} = \tfrac{1}{2} I \omega_s^{2}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Stored Energy Expressed as a Time.*
+The article defines a time scale as the fan's stored kinetic energy over the shaft power, evaluated across a bracket of assumed polar moments of inertia.
+
+$$
+\tau = \frac{E_{\text{fan}}}{P_{\text{shaft}}} = \frac{I \omega_s^{2}}{2 P_{\text{shaft}}}
+\tag{29}
+$$
+
+**Equation 30, Adiabatic Temperature Rise of the Clutch Plates.**
+The dissipated energy over the mass and specific heat of the plate pack gives its temperature rise in an adiabatic engagement.
+
+$$
+\Delta T_p = \frac{E_{\text{clutch}}}{m_p c_p} = \frac{I \omega_s^{2}}{2 m_p c_p}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Upper Bound on Clutch Dissipation.*
+At most half the rated shaft power can be destroyed over an engagement time the article assumes to be nine seconds, which bounds the dissipation at 97.3 megajoules.
+
+$$
+E_{\text{clutch}} \le \tfrac{1}{2} P t = \tfrac{1}{2} \times 21.63 \times 10^{6} \times 9 = 97.3 \ \text{MJ}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Dissipation as a Share of the Bound.*
+The bracketed dissipation for the assumed inertias, spread over the assumed nine seconds, is between 1.9 and 3.7 percent of the bound.
+
+$$
+\frac{E_{\text{clutch}} / t}{\tfrac{1}{2} P} = \frac{E_{\text{clutch}}}{\tfrac{1}{2} P t} = \frac{1.82}{97.3} = 0.0187 \quad \text{to} \quad \frac{3.64}{97.3} = 0.0374
+\tag{32}
+$$
+
+**Equation 33, Momentum Drag of the Lift Fan.**
+A fan ingesting air at the flight speed and discharging it vertically suffers a drag equal to its mass flow times the true airspeed.
+
+$$
+D_{\text{mom}} = \dot{m} V
+\tag{33}
+$$
+
+*Equation 34, Bespoke Deceleration From Momentum Drag at Conversion.*
+The momentum drag at 180 knots is computed with the sea-level fan mass flow, an assumption at the conversion altitude, and divided by a mass of 34,000 pounds.
+[eleven days earlier][ref_lm_conversion]
+
+$$
+a = \frac{D_{\text{mom}}}{m} = \frac{24{,}329}{15{,}422} = 1.578 \ \text{m/s}^{2} = 0.1609 \, g
+\tag{34}
+$$
+
+*Equation 35, Bespoke Available Pitch Moment.*
+The pitch moment available is taken as an assumed ten percent of the fan thrust acting on a moment arm that rests on an assumed fan to nozzle separation of 7.5 metres.
+[Rolls-Royce LiftFan][ref_liftfan]
+
+$$
+M_{\text{avail}} = 0.10 \, T_f x_f = 0.10 \times 88{,}964 \times 3.553 = 31{,}606 \ \text{N m}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Inlet Height at Which Momentum Drag Exhausts Pitch Authority.*
+The assumed pitch moment over the momentum drag gives the inlet height of 1.299 metres at which the two are equal.
+
+$$
+h^{*} = \frac{M_{\text{avail}}}{D_{\text{mom}}} = \frac{31{,}606}{24{,}329} = 1.299 \ \text{m}
+\tag{36}
+$$
+
+**Equation 37, Hover Moment Balance.**
+In steady hover the moment of the fan thrust about the centre of gravity cancels that of the rear nozzle.
+
+$$
+T_f x_f = T_r x_r
+\tag{37}
+$$
+
+**Equation 38, Centre of Gravity Fixed by the Hover Balance.**
+The moment balance with the published fan and rear nozzle thrusts places the centre of gravity at 47.37 percent of the separation behind the fan.
+
+$$
+\frac{x_f}{L} = \frac{T_r}{T_f + T_r} = \frac{18{,}000}{38{,}000} = 0.4737
+\tag{38}
+$$
+
+*Equation 39, Bespoke Thrust Lapse With Inlet Temperature.*
+The thrust is taken to fall as the inverse of inlet total temperature, a simplification the article adopts for a fixed corrected operating point.
+
+$$
+\frac{F}{F_{0}} = \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Critical Inlet Temperature Rise.*
+Inverting the assumed thrust lapse at a weight of 34,000 pounds gives the inlet temperature rise of 66.95 kelvin that consumes the hover margin.
+
+$$
+\Delta T_{\text{crit}} = T_{\text{amb}} \left(\frac{F_{\text{total}}}{W} - 1\right) = 288.15 \times 0.2324 = 66.95 \ \text{K}
+\tag{40}
+$$
+
+**Equation 41, Mean Slew Rate of the Swivel Module.**
+The published sweep of ninety-five degrees in 2.5 seconds is a mean slew rate of 38.0 degrees per second.
+[Rolls-Royce LiftFan][ref_liftfan]
+
+$$
+\dot{\delta} = \frac{\Delta \delta}{\Delta t} = \frac{95^{\circ}}{2.5 \ \text{s}} = 38.0 \ \text{deg/s}
+\tag{41}
+$$
+
+**Equation 42, Deflection of a Single Canted Joint.**
+Rolling one side of a joint canted at an angle to the duct axis deflects the downstream axis by an amount that reaches twice the cant at half a turn.
+
+$$
+\cos\delta = \cos^{2}\beta + \sin^{2}\beta \cos\phi
+\tag{42}
+$$
+
+**Equation 43, Cant Required of a Single Bearing.**
+A single joint must be canted at half the required ninety-five degree deflection, or 47.5 degrees.
+
+$$
+\beta_{\text{single}} = \frac{95^{\circ}}{2} = 47.5^{\circ}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Cant Required of Three Alternating Bearings.*
+Taking three alternating joints to reach six times their common cant, a result of the article's own numerical search, the required cant is 15.83 degrees.
+
+$$
+\beta_{\text{three}} = \frac{95^{\circ}}{6} = 15.83^{\circ}
+\tag{44}
+$$
+
+**Equation 45, Roll Acceleration From the Roll Posts.**
+The roll angular acceleration is the roll-post couple divided by the roll moment of inertia.
+
+$$
+\dot{p} = \frac{2 F_{\text{post}} \ell}{I_{xx}}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Roll Moment of Inertia.*
+The roll inertia is estimated with a radius of gyration the article assumes to be 0.22 of the span.
+
+$$
+I_{xx} = m k_x^{2} = 15{,}422 \times 2.213^{2} = 75{,}400 \ \text{kg m}^{2}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Roll Acceleration With the Posts at 3.5 Metres.*
+The roll acceleration uses the assumed roll inertia and an assumed roll-post arm of 3.5 metres.
+
+$$
+\dot{p} = \frac{60{,}718}{75{,}400} = 0.805 \ \text{rad/s}^{2} = 46.07 \ \text{deg/s}^{2}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Residual Roll Acceleration With a Single-Rotation Fan.*
+The roll acceleration left after a single-rotation fan's reaction torque at the estimated speed is about three degrees per second squared.
+
+$$
+\dot{p}_{\text{residual}} = \frac{4{,}063}{75{,}400} = 3.083 \ \text{deg/s}^{2}
+\tag{48}
+$$
+
+**Equation 49, Swept Volume of the Fan.**
+The fan bay is at least the swept volume of the fan, its disc area times the bay length.
+
+$$
+V = \frac{\pi D^{2}}{4} \ell
+\tag{49}
+$$
+
+*Equation 50, Bespoke Fuel Displaced by the Fan Bay.*
+The fuel weight lost to the fan uses a bay length near the middle of an assumed range of 1.2 to 1.6 metres and an assumed fuel density of 800 kilograms per cubic metre.
+
+$$
+W_{\text{fuel}} = \rho_f V = 800 \times 1.773 = 1{,}419 \ \text{kg} = 3{,}128 \ \text{lb}
+\tag{50}
+$$
+
+**Equation 51, Unstick Condition and Lift Equation.**
+An aircraft leaves the ground once wing lift and downward lift system thrust together reach the weight, with lift given by the standard lift equation.
+
+$$
+L + T_v \ge W, \qquad L = \tfrac{1}{2} \rho V^{2} S C_L
+\tag{51}
+$$
+
+**Equation 52, Thrust That Points Down Whatever the Nozzle Does.**
+The published fan thrust and the two roll posts sum to 23,900 pounds force.
+
+$$
+T_f = 20{,}000 + 2 \times 1{,}950 = 23{,}900 \ \text{lbf}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Vectored Lift at the Mission X Unstick.*
+The vertical thrust assumes that the rear nozzle delivers its published 18,000 pounds force at eighty knots when vectored to 60 degrees.
+
+$$
+T_v = T_f + T_r \sin\theta = 23{,}900 + 18{,}000 \sin 60^{\circ} = 23{,}900 + 15{,}588 = 39{,}488 \ \text{lbf}
+\tag{53}
+$$
+
+**Equation 54, Dynamic Pressure Times Wing Area at Eighty Knots.**
+At eighty knots and sea-level density over the wing area the product of dynamic pressure and area is 9,751 pounds force.
+
+$$
+\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 41.156^{2} \times 41.81 = 43{,}376 \ \text{N} = 9{,}751 \ \text{lbf}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Upper Bound on the Unstick Lift Coefficient.*
+The lift coefficient required at the ceiling of the article's weight bracket, with the assumed vectored thrust, is at most 0.637.
+
+$$
+C_L \ge \frac{W - T_v}{\tfrac{1}{2} \rho V^{2} S} = \frac{45{,}697 - 39{,}488}{9{,}751} = 0.637
+\tag{55}
+$$
+
+**Equation 56, Dynamic Pressure Times Wing Area at Sixty Knots.**
+At sixty knots and sea-level density the product of dynamic pressure and wing area is 5,485 pounds force.
+
+$$
+\tfrac{1}{2} \rho V^{2} S = \tfrac{1}{2} \times 1.225 \times 30.867^{2} \times 41.81 = 24{,}399 \ \text{N} = 5{,}485 \ \text{lbf}
+\tag{56}
+$$
+
+**Equation 57, Nozzle Deflection That Balances the Weight.**
+Solving the unstick condition for the nozzle deflection gives its sine in terms of the weight, the downward thrust, the wing lift and the rear thrust.
+
+$$
+\sin\theta = \frac{W - T_f - C_L \, \tfrac{1}{2} \rho V^{2} S}{T_r}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Lift Coefficient at the First Conversion.*
+The lift coefficient at the 180 knot conversion is evaluated at sea-level density, which the article states as an assumption at 9,000 feet.
+[eleven days earlier][ref_lm_conversion]
+
+$$
+C_L = \frac{W}{\tfrac{1}{2} \rho V^{2} S}, \qquad \tfrac{1}{2} \times 1.225 \times 92.6^{2} \times 41.81 = 219{,}588 \ \text{N} = 49{,}365 \ \text{lbf}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Lift Coefficient Range at Conversion.*
+Across a weight bracket from the empty weight taken for it to full internal fuel, the sea-level coefficient runs from 0.622 to 0.926.
+
+$$
+C_L = \frac{30{,}697}{49{,}365} = 0.622 \quad \text{to} \quad \frac{45{,}697}{49{,}365} = 0.926
+\tag{59}
+$$
+
+**Equation 60, Mean Acceleration for the Quoted Mission X Roll.**
+Reaching eighty knots from rest in the quoted 200 feet requires a mean acceleration of 1.417 times standard gravity.
+
+$$
+\bar{a} = \frac{V^{2}}{2 s} = \frac{41.156^{2}}{2 \times 60.96} = 13.89 \ \text{m/s}^{2} = 1.417 \, g
+\tag{60}
+$$
+
+*Equation 61, Bespoke Maximum Acceleration With All Thrust Aft.*
+Pointing all published thrust aft with no drag or friction at the bracket floor of 34,197 pounds, which rests on an assumed fuel burn, allows at most 1.225 times standard gravity.
+
+$$
+\frac{a_{\max}}{g} = \frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}197} = 1.225
+\tag{61}
+$$
+
+*Equation 62, Bespoke Frictionless Minimum Ground Roll.*
+Only the rear nozzle thrust at the bracket floor weight, with no drag or rolling friction, gives a minimum roll of 538.3 feet.
+
+$$
+s_{\min} = \frac{V^{2}}{2 g \, T_r / W} = \frac{41.156^{2}}{2 \times 9.80665 \times 0.5264} = 164.1 \ \text{m} = 538.3 \ \text{ft}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Ground Roll Equation of Motion.*
+The equation of motion takes the rear nozzle as pointing aft until unstick, an assumption for the 26 July flight, with rolling friction and zero-lift drag.
+
+$$
+m \frac{dV}{dt} = T_r \cos\theta - \mu \left(W - T_v\right) - \tfrac{1}{2} \rho V^{2} S C_{D_0}, \qquad \theta = 0
+\tag{63}
+$$
+
+**Equation 64, Closed-Form Distance Under Constant and Quadratic Deceleration.**
+Integrating an acceleration made of a constant part less a term in the square of speed gives the distance in closed form.
+
+$$
+s = \frac{1}{2B} \ln\!\left(\frac{A}{A - B V^{2}}\right)
+\tag{64}
+$$
+
+*Equation 65, Bespoke Minimum Roll on 26 July.*
+The closed form evaluated with the constants built from the assumed friction and drag at 34,000 pounds gives a minimum roll of 307.4 feet.
+
+$$
+s_{\min} = 93.69 \ \text{m} = 307.4 \ \text{ft}
+\tag{65}
+$$
+
+**Equation 66, Mean Acceleration for the Quoted 26 July Roll.**
+The quoted roll of about five hundred feet to sixty knots requires a mean acceleration of 0.3187 times standard gravity.
+
+$$
+\bar{a} = \frac{V^{2}}{2 s_q} = \frac{30.867^{2}}{2 \times 152.4} = 3.126 \ \text{m/s}^{2} = 0.3187 \, g
+\tag{66}
+$$
+
+*Equation 67, Bespoke Acceleration Available During the Roll.*
+The acceleration available is approximated by the constant part less the drag term evaluated at half the squared unstick speed.
+
+$$
+a_{\text{avail}} = A - \tfrac{1}{2} B V^{2}
+\tag{67}
+$$
+
+**Equation 68, Largest Weight the Lift System Can Hold.**
+The total vertical thrust over standard gravity gives a largest supportable weight of 41,900 pounds.
+
+$$
+W_{\max} = \frac{T_{\text{total}}}{g} = \frac{186{,}381}{9.80665} = 19{,}006 \ \text{kg} = 41{,}900 \ \text{lb}
+\tag{68}
+$$
+
+**Equation 69, Hover Margin at the Documented Weight.**
+The total vertical thrust over the documented 34,000 pounds gives a margin of 1.232.
+[flown to about Mach 1.2][ref_lm_completion]
+
+$$
+\frac{T_{\text{total}}}{W} = \frac{41{,}900}{34{,}000} = 1.232
+\tag{69}
+$$
+
+*Equation 70, Bespoke Mission X Takeoff Weight Bracket.*
+The takeoff weight is bracketed between the empty weight plus an assumed burn of 3,500 pounds and the empty weight plus full internal fuel, neglecting the pilot and instrumentation.
+[Lockheed Martin X-35][ref_x35]
+
+$$
+W_{\text{TO}} = W_{\text{empty}} + W_{\text{fuel}}, \qquad 30{,}697 + 3{,}500 = 34{,}197 \ \le \ W_{\text{TO}} \ \le \ 30{,}697 + 15{,}000 = 45{,}697 \ \text{lb}
+\tag{70}
+$$
+
+*Equation 71, Bespoke Hover Margin at the Ceiling of the Bracket.*
+At the ceiling of the article's bracket the margin falls to 0.9169, so vertical takeoff at full internal fuel was impossible.
+
+$$
+\frac{T_{\text{total}}}{W_{\text{TO}}} = \frac{41{,}900}{45{,}697} = 0.9169
+\tag{71}
+$$
+
+**Equation 72, Temperature and Pressure in the Standard Troposphere.**
+Below the tropopause the temperature falls linearly with altitude and the hydrostatic equation integrates to a power law in pressure.
+
+$$
+T = T_{\text{SL}} - Lh \qquad \text{and} \qquad p = p_{\text{SL}} \left(\frac{T}{T_{\text{SL}}}\right)^{\frac{g_0}{RL}}
+\tag{72}
+$$
+
+**Equation 73, Exponent of the Tropospheric Pressure Law.**
+Standard gravity over the gas constant and the lapse rate gives an exponent of 5.2559.
+
+$$
+\frac{g_0}{RL} = \frac{9.80665}{287.05 \times 0.0065} = 5.2559
+\tag{73}
+$$
+
+**Equation 74, Density and Speed of Sound at Twenty-Five Thousand Feet.**
+The ideal gas law and the speed of sound relation give the density and speed of sound at 7,620 metres in the standard atmosphere.
+
+$$
+\rho = \frac{p}{RT} = 0.5489 \ \text{kg/m}^{3} \qquad \text{and} \qquad a = \sqrt{\gamma R T} = 309.7 \ \text{m/s}
+\tag{74}
+$$
+
+**Equation 75, Stagnation Temperature of the Supersonic Dash.**
+The energy equation gives a stagnation temperature of 291.2 kelvin at Mach 1.05 and twenty-five thousand feet.
+
+$$
+T_0 = T + \frac{V^{2}}{2 c_p} = 238.62 + \frac{325.2^{2}}{2 \times 1004.7} = 291.2 \ \text{K}
+\tag{75}
+$$
+
+**Equation 76, Dynamic Pressure of the Dash.**
+Half the standard density times the speed squared gives 29,018 pascals at Mach 1.05.
+
+$$
+q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \times 0.5489 \times 325.2^{2} = 29{,}018 \ \text{Pa}
+\tag{76}
+$$
+
+*Equation 77, Bespoke Lift Coefficient of the Dash.*
+The lift coefficient takes the dash weight as 34,000 pounds, the figure documented for a different flight.
+
+$$
+C_L = \frac{W}{qS} = \frac{151{,}240}{29{,}018 \times 41.81} = 0.1247
+\tag{77}
+$$
+
+*Equation 78, Bespoke Induced Drag Coefficient of the Dash.*
+The induced drag coefficient uses an Oswald efficiency the article assumes to be 0.75.
+
+$$
+C_{D_i} = \frac{C_L^{2}}{\pi \, \mathrm{AR} \, e} = \frac{0.1247^{2}}{\pi \times 2.42 \times 0.75} = 0.002726
+\tag{78}
+$$
+
+*Equation 79, Bespoke Drag Build-Up of the Dash.*
+The drag coefficient adds an assumed zero-lift coefficient of 0.018 and an assumed wave-drag increment of 0.017 to the induced term.
+
+$$
+C_D = C_{D_0} + C_{D_w} + C_{D_i} = 0.018 + 0.017 + 0.002726 = 0.03773
+\tag{79}
+$$
+
+*Equation 80, Bespoke Drag of the Dash.*
+The dynamic pressure times the wing area times the assumed drag build-up gives a drag of 10,289 pounds force.
+
+$$
+D = q S C_D = 29{,}018 \times 41.81 \times 0.03773 = 45{,}771 \ \text{N} = 10{,}289 \ \text{lbf}
+\tag{80}
+$$
+
+*Equation 81, Bespoke Thrust Available at Altitude.*
+The thrust available is a sea-level thrust of 40,000 pounds force times the density ratio raised to an exponent the article assumes to be 0.7.
+
+$$
+T = T_{\text{SL}} \sigma^{n} = 40{,}000 \times 0.4481^{0.7} = 40{,}000 \times 0.5701 = 22{,}805 \ \text{lbf}
+\tag{81}
+$$
+
+*Equation 82, Bespoke Thrust to Drag Margin of the Dash.*
+The assumed thrust lapse against the assumed drag build-up gives a thrust to drag ratio of 2.216.
+
+$$
+\frac{T}{D} = \frac{22{,}805}{10{,}289} = 2.216 \qquad \text{or} \qquad \frac{D}{T} = \frac{10{,}289}{22{,}805} = 0.451
+\tag{82}
+$$
+
+*Equation 83, Bespoke Gain in Hover Margin From Landing Last.*
+The article defines the gain from the ordering as the ratio of landing to takeoff margin, which reduces to the takeoff weight over the takeoff weight less the assumed fuel burn.
+
+$$
+\frac{T_{\text{total}} / W_{\text{land}}}{T_{\text{total}} / W_{\text{TO}}} = \frac{W_{\text{TO}}}{W_{\text{TO}} - W_{\text{fuel}}}
+\tag{83}
+$$
+
+*Equation 84, Bespoke Landing Margin at the Ceiling With a Hot Inlet.*
+At the ceiling landing weight the margin is reduced by the assumed thrust lapse for a ten kelvin inlet temperature rise to 0.960.
+
+$$
+\frac{T_{\text{total}}}{W_{\text{land}}} \cdot \frac{T_{\text{amb}}}{T_{\text{amb}} + \Delta T} = \frac{41{,}900}{42{,}197} \times \frac{288.15}{298.15} = 0.960
+\tag{84}
+$$
+
+### Notation
+
+- $\dot{m}$, the mass flow, with $\dot{m}_{\text{fan}}$ the fan flow and $\dot{m}_{\text{core}}$ the engine core flow
+- $v_i$, the induced velocity at the disc
+- $P_{\text{shaft}}$, the shaft power absorbed by the fan, with $P_{\text{ideal}}$ the ideal power of the disc
+- $\mathrm{FM}$, the figure of merit of the fan
+- $T_{\text{total}}$, the total vertical thrust of the lift system, with $T_{\text{dry}}$ the dry thrust of the engine
+- $T_f$, the thrust of the lift fan, with $T_r$ the thrust of the rear nozzle and $T_v$ the downward thrust of the lift system
+- $x_f$, the distance of the fan behind or ahead of the centre of gravity, with $x_r$ that of the rear nozzle
+- $q_{\text{jet}}$, the dynamic pressure of the fully developed jet
+- $\Pi$, the fan pressure ratio
+- $\psi$, the stage loading coefficient
+- $U$, the blade speed
+- $Q$, the torque
+- $F_{\text{post}}$, the thrust of one roll post
+- $\ell$, the roll-post arm, and in the fan bay relation the bay length
+- $\omega_s$, the angular velocity of the driving source
+- $I_{xx}$, the roll moment of inertia, with $k_x$ the radius of gyration in roll
+- $E_{\text{clutch}}$, the energy dissipated in the clutch, with $E_{\text{fan}}$ the kinetic energy of the fan
+- $\tau$, the stored energy of the fan expressed as a time
+- $D_{\text{mom}}$, the momentum drag of the lift fan
+- $M_{\text{avail}}$, the pitch moment available, with $h^{*}$ the inlet height at which it equals the momentum drag moment
+- $\Delta T_0$, the total temperature rise across the fan, with $\Delta T$ an inlet temperature rise
+- $T_{\text{amb}}$, the ambient temperature
+- $\delta$, the deflection of the duct axis
+- $\beta$, the cant angle of a joint
+- $\phi$, the relative roll angle of the two sides of a joint
+- $\dot{p}$, the roll angular acceleration
+- $W_{\text{TO}}$, the takeoff weight, with $W_{\text{land}}$ the landing weight and $W_{\text{empty}}$ the empty weight
+- $W_{\text{fuel}}$, the fuel weight
+- $\theta$, the deflection of the rear nozzle below the horizontal
+- $\mu$, the rolling friction coefficient
+- $C_{D_0}$, the zero-lift drag coefficient, with $C_{D_w}$ the wave-drag increment and $C_{D_i}$ the induced drag coefficient
+- $\mathrm{AR}$, the wing aspect ratio
+- $\sigma$, the density ratio against sea level
+- $T_{\text{SL}}$, a sea-level value, the sea-level temperature in the atmosphere relation and the sea-level thrust in the thrust lapse
+
 ## References
 
 <!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->

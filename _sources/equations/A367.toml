@@ -1,0 +1,487 @@
+# Equation classification for A367. Read by `python3 _lib/equations.py`.
+
+caution = "The relations are evaluated in the International System while weights are quoted in pounds, disk loadings in pounds per square foot and speeds in knots as the solicitation states them, and the hover results rest on an assumed figure of merit of 0.75, drive efficiency of 0.90 and download of 10 percent, while the cruise results rest on a thrust lapse factor swept from 0.5 to 0.7."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Ideal Induced Power in Hover"
+gloss = "Momentum theory gives the induced power of an ideal rotor system as the weight to the three-halves power over the square root of twice the density times the disk area."
+cite = []
+digest = "a7ad12962d6a204c"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Effect of Doubling the Disk Area on Ideal Power"
+gloss = "At fixed weight and density, doubling the disk area multiplies the ideal induced power by the reciprocal of the square root of two, a saving of 29 percent."
+cite = []
+digest = "bf2c97ac8d6dcb3b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Publication and Announcement Lags of the Register Row"
+gloss = "The archived copies of the register place the row's first public appearance 31 to 48 days after the article's date and 87 to 104 days after the allocation, and the announcement came 84 days after the article's date."
+cite = ["ref_mds_addendum_wb_2025_12", "ref_mds_addendum"]
+digest = "6fcccb3e1e5cde9d"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Phase 1 Funding of the Solicitation"
+gloss = "The 15 million dollars for Phase 1A and the 60 million for Phase 1B make up the solicitation's 75 million dollars for Phase 1."
+cite = ["ref_sprint_qa", "ref_sprint_baa"]
+digest = "ffd98f691086a8f8"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Decomposition of Aurora's Contract"
+gloss = "Aurora's obligations before the Phase 1B modification, at that modification and after it sum exactly to the contract total of 33,301,718 dollars."
+cite = ["ref_award_aurora"]
+digest = "ec53c6aa790abe8e"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Recorded Phase 1A Obligations"
+gloss = "Aurora's pre-option obligations with the Piasecki and Northrop Grumman totals sum to 15,194,105 dollars, which exceeds the solicitation's Phase 1A figure by 194,105 dollars."
+cite = ["ref_award_aurora", "ref_award_piasecki", "ref_award_northrop"]
+digest = "ab0f3632bde6a7de"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Bound on Bell's Instrument Under a Phase 1 Ceiling"
+gloss = "If the solicitation's 75 million dollars had held as a ceiling on Phase 1, a premise the Phase 1A overrun shows did not hold, Bell's instrument could not have exceeded 31,347,488 dollars."
+cite = ["ref_award_aurora"]
+digest = "17d452b85c54cf8e"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Slip of First Flight"
+gloss = "The solicitation's goal of first flight 42 months after the award gives 1 May 2027, and taking the plan of early 2028 as 1 January 2028 makes the slip at least eight months."
+cite = ["ref_sprint_baa"]
+digest = "c22f9ce11212ff10"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Intervals From Solicitation to Award and From Award to Allocation"
+gloss = "The first award came 236 days after the solicitation was posted, and the designation was allocated 719 days after that award."
+cite = []
+digest = "61c348f95d7e6254"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Budget Shortfall, Growth and Total"
+gloss = "Fiscal year 2024 was executed 9.639 million dollars below its request, fiscal year 2025 rose 27.5 percent from request to actual, fiscal year 2026 fell 13.9 percent from its request to the latest book, and the latest figures for fiscal years 2024 to 2027 sum to 169.661 million dollars."
+cite = ["ref_darpa_pb2024", "ref_darpa_pb2025", "ref_darpa_pb2026", "ref_darpa_pb2027"]
+digest = "0d8ee36f2e9552c7"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Troposphere of the Standard Atmosphere"
+gloss = "Below 11 kilometres the temperature falls linearly with altitude, the pressure follows from the hydrostatic relation, the density from the equation of state and the speed of sound from the temperature."
+cite = ["ref_atm76"]
+digest = "d5eeda142a4eddfc"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Hot-Day Increase in Induced Power"
+gloss = "Induced power at fixed weight and disk area scales as the inverse square root of density, so the solicitation's hover condition of 4,000 feet on a 95 degree Fahrenheit day costs 11.3 percent before any engine lapse."
+cite = ["ref_sprint_overview", "ref_atm76"]
+digest = "2a03d8cf26d3a8d2"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Take-Off Power of the Family Against the Base Model"
+gloss = "The take-off ratings of the other models in the certificated family lie between 0.982 and 1.069 times the base model's 1,879 kilowatts."
+cite = ["ref_easa_ct7"]
+digest = "90c22232d6209e3b"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Installed Take-Off Power"
+gloss = "Two turboshafts at the certificated take-off rating give 3,758 kilowatts."
+cite = ["ref_easa_ct7"]
+digest = "ad4f1e12886a6e7a"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Hover Power With Figure of Merit, Drive Loss and Download"
+gloss = "The shaft power to hover is the ideal induced power for a thrust raised by the wing download, divided by the rotor figure of merit and the drive efficiency and written in terms of disk loading."
+cite = []
+digest = "558ff1068538af57"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Heaviest Weight the Installed Power Can Hover"
+gloss = "Setting the hover power equal to the installed power and solving for weight gives the heaviest aeroplane that can hover at a chosen disk loading."
+cite = []
+digest = "7b55e9ac9fcb8574"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Highest Disk Loading at Which a Weight Can Hover"
+gloss = "Solving the hover power relation for disk loading at a given weight gives the highest disk loading at which that weight can still hover."
+cite = []
+digest = "1380cc010318b052"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Radius of Each of Two Equal Rotors"
+gloss = "Each rotor's radius follows from the total disk area, weight over disk loading, shared equally between two circular disks."
+cite = []
+digest = "95f515f310b36bd4"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Disk Loading Limit on the Hot Day"
+gloss = "At the assumed figure of merit, drive efficiency and download, the sea-level limit of 55.6 pounds per square foot scales with the density ratio to 44.9 on the solicitation's hot day."
+cite = []
+digest = "69287ae9e2be8c19"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Hover Weight at the XV-15's Disk Loading"
+gloss = "At the assumed hover efficiencies and the XV-15's published disk loading of 13.2 pounds per square foot, two turboshafts would hover about 30,800 pounds, twice the solicitation's heaviest weight."
+cite = ["ref_xv15_history"]
+digest = "9719034ac946f2d3"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Hot-Day Ratio of Hover Weights"
+gloss = "At fixed power and disk loading the heaviest hover weight scales as the square root of density, so the hot day costs about 10 percent of hover weight before engine lapse."
+cite = []
+digest = "cf8fd0cfdc0d39e3"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Induced Velocity at the Disk"
+gloss = "Momentum theory gives the induced velocity at the disk in hover as the square root of the thrust per unit disk area, including the download, over twice the density."
+cite = []
+digest = "0d2a374e2e4f4482"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Dynamic Pressure of the Hover Wake"
+gloss = "Because the fully developed wake moves at twice the induced velocity, its dynamic pressure equals the thrust per unit disk area at any altitude and on any day."
+cite = []
+digest = "bad157fa6d09627a"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Thrust Lapse of the Turbofan"
+gloss = "For want of a published lapse, the article models the turbofan's thrust as its sea-level static thrust times the density ratio times a Mach factor it sweeps from 0.5 to 0.7."
+cite = ["ref_easa_pw308"]
+digest = "3de0780007a55717"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Largest Drag Area the Jet Can Push"
+gloss = "Under the article's lapse model the density ratio cancels, so the largest equivalent flat-plate drag area at a given true airspeed is the same at every altitude."
+cite = []
+digest = "3e50a219de04d968"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Required Lift-to-Drag Ratio"
+gloss = "With thrust equal to drag and lift equal to weight, the article's lapse model gives the lift-to-drag ratio the aircraft must reach as weight over available thrust."
+cite = []
+digest = "58bd1ac0f152d443"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Lowest Density Ratio for Level Flight"
+gloss = "Turning the required ratio around gives the lowest density ratio, and so the highest altitude, at which a given lift-to-drag ratio still allows level flight under the article's lapse model."
+cite = []
+digest = "9f6c99231f3dcbe5"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Thrust Power of the Turbofan in Cruise"
+gloss = "At 400 knots and 15,000 feet and a lapse factor of 0.6 taken at the middle of the assumed range, the turbofan's thrust power is 2.42 megawatts."
+cite = []
+digest = "aaa6697c99d01b18"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Thrust Power Against Shaft Power"
+gloss = "The turbofan's cruise thrust power at the assumed lapse factor is 0.79 of the two turboshafts' maximum continuous shaft power."
+cite = []
+digest = "69564f1838bdd63f"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Helical Tip Mach Number"
+gloss = "A proprotor tip in axial flight moves at the vector sum of its tip speed and the flight speed, so its helical tip Mach number is that resultant over the speed of sound."
+cite = ["research_dittmar_hall_1991"]
+digest = "d83511f42d24e7e5"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Largest Tip Speed Under a Helical Tip Mach Limit"
+gloss = "Holding the helical tip Mach number to a limit bounds the tip speed by the speed of sound times the square root of the limit squared less the flight Mach number squared."
+cite = []
+digest = "6e75b18dce18e1f3"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Airspeed at Which No Tip Speed Satisfies the Limit"
+gloss = "When the flight speed equals the helical tip Mach limit times the speed of sound, no positive tip speed satisfies the limit."
+cite = []
+digest = "e75b9b485965ec81"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Allowed Tip Speed Fraction and Advance Ratio"
+gloss = "The article expresses the allowed tip speed as a fraction of the XV-15's airplane-mode tip speed under an assumed helical tip Mach limit of 0.85, together with the advance ratio that results."
+cite = ["ref_xv15_history"]
+digest = "8c42e54a40e65e85"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Wing Stall Speed"
+gloss = "The stall speed is the square root of twice the wing loading over the sea-level density times the maximum lift coefficient."
+cite = []
+digest = "131cf4112510e85d"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Dry Mass of the Engines on the One-Turbofan Reading"
+gloss = "Reading the register's engine cell as one turbofan and two turboshafts, the certificated dry masses sum to 1,110.7 kilograms."
+cite = ["ref_easa_ct7", "ref_easa_pw308"]
+digest = "927b2ef5c12d8e0e"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Engine Mass Fraction"
+gloss = "On the one-turbofan reading the bare engines are 0.163 of gross mass at the solicitation's 15,000 pounds and 0.306 at its 8,000 pounds."
+cite = []
+digest = "7971d066280ab7c7"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Specific Power and Static Thrust-to-Weight Ratio"
+gloss = "The turboshaft's certificated take-off power over its dry mass is 7.7 kilowatts per kilogram, and the turbofan's static thrust over its dry weight is 5.1."
+cite = ["ref_easa_ct7", "ref_easa_pw308"]
+digest = "90818f8f8d83ac4d"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Turbofan Static Thrust Against Gross Weight"
+gloss = "The turbofan's sea-level static thrust is 0.47 of the weight at 15,000 pounds and 0.88 at 8,000 pounds, so it alone could not hover the aircraft."
+cite = []
+digest = "c83682874fa8b435"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Proprotor Speed and Speed Reduction"
+gloss = "A proprotor of a given radius and tip speed turns at a rotational speed that, set against the turboshaft output speed, fixes the reduction the drive system must make."
+cite = ["ref_easa_ct7"]
+digest = "ce700fbb5cd6a8ef"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Drag Ceiling With More Than One Turbofan"
+gloss = "Under the article's lapse model the drag ceiling scales with the number of turbofans, so a second turbofan would double the drag budget."
+cite = []
+digest = "4e31ac2eb33528ec"
+
+[[symbol]]
+tex = 'W'
+meaning = "the gross weight"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the gross mass, with $W = m_0 g$"
+
+[[symbol]]
+tex = 'm_e'
+meaning = "the dry mass of the three engines together"
+
+[[symbol]]
+tex = '\mu_e'
+meaning = "the engine mass fraction, $m_e / m_0$"
+
+[[symbol]]
+tex = 'P_h'
+meaning = "the shaft power required to hover out of ground effect, with $P$ the installed shaft power of the two turboshafts"
+
+[[symbol]]
+tex = 'P_{\mathrm{ideal}}'
+meaning = "the induced power of an ideal rotor system in hover"
+
+[[symbol]]
+tex = 'P_F'
+meaning = "the thrust power of the turbofan, $F V$"
+
+[[symbol]]
+tex = '\mathrm{FM}'
+meaning = "the rotor figure of merit in hover, assumed 0.75"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the transmission and accessory efficiency in hover, assumed 0.90"
+
+[[symbol]]
+tex = 'd'
+meaning = "the wing download as a fraction of weight, assumed 0.10"
+
+[[symbol]]
+tex = 'A'
+meaning = "the total disk area of the two proprotors"
+
+[[symbol]]
+tex = 'w'
+meaning = "the disk loading, $W / A$"
+
+[[symbol]]
+tex = 'r'
+meaning = "the radius of one proprotor"
+
+[[symbol]]
+tex = 'v_h'
+meaning = "the induced velocity at the disk in hover"
+
+[[symbol]]
+tex = '\rho_0'
+meaning = "the sea-level standard density, 1.225 kilograms per cubic metre, with $\\rho$ the air density"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the density ratio, $\\rho / \\rho_0$"
+
+[[symbol]]
+tex = 'T_0'
+meaning = "the sea-level standard temperature, 288.15 kelvin, with $T$ the air temperature"
+
+[[symbol]]
+tex = 'p_0'
+meaning = "the sea-level standard pressure, 101,325 pascals, with $p$ the air pressure"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the tropospheric temperature lapse rate, 0.0065 kelvin per metre"
+
+[[symbol]]
+tex = 'h'
+meaning = "the geopotential altitude"
+
+[[symbol]]
+tex = 'R'
+meaning = "the specific gas constant of air, 287.05 joules per kilogram kelvin"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats of air, 1.4"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound"
+
+[[symbol]]
+tex = 'F_0'
+meaning = "the turbofan sea-level static thrust at a stated rating, with $F$ its thrust at altitude and speed"
+
+[[symbol]]
+tex = '\varphi'
+meaning = "the turbofan's thrust lapse factor at cruise Mach number, swept 0.5 to 0.7"
+
+[[symbol]]
+tex = 'f_{\max}'
+meaning = "the largest equivalent flat-plate drag area the jet can push"
+
+[[symbol]]
+tex = 'V'
+meaning = "the true airspeed"
+
+[[symbol]]
+tex = 'M_h'
+meaning = "the helical tip Mach number of a proprotor in axial flight, with $M_{h,\\max}$ its limit"
+
+[[symbol]]
+tex = 'V_t'
+meaning = "the proprotor tip speed"
+
+[[symbol]]
+tex = 'V_s'
+meaning = "the wing stall speed"
+
+[[symbol]]
+tex = 'C_{L}^{\max}'
+meaning = "the maximum lift coefficient, assumed 1.6"
+
+[[symbol]]
+tex = 'E'
+meaning = "the lift-to-drag ratio, $L / D$"
+
+[[symbol]]
+tex = 'q_w'
+meaning = "the dynamic pressure of the fully developed hover wake"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the proprotor tip speed as a fraction of the XV-15's airplane-mode tip speed"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the proprotor advance ratio in axial flight"
+
+[[symbol]]
+tex = 'N_r'
+meaning = "the proprotor speed in revolutions per minute, with $N_e$ the turboshaft output speed"
+
+[[symbol]]
+tex = '\mathcal{G}'
+meaning = "the speed reduction from turboshaft output to proprotor, $N_e / N_r$"
+
+[[symbol]]
+tex = 'n_F'
+meaning = "the number of turbofans fitted"
+
+[[symbol]]
+tex = 't_{\mathrm{pub}}'
+meaning = "the row's first public appearance, with $t_{\\mathrm{a}}$ the allocation and $t_{\\mathrm{d}}$ this article's date"
+
+[[symbol]]
+tex = 't_{\mathrm{ff}}'
+meaning = "first flight, as a goal or a plan, with $t_{\\mathrm{award}}$ the first Phase 1A award and $t_{\\mathrm{BAA}}$ the solicitation"
+
+[[symbol]]
+tex = 'B_{\mathrm{Bell}}'
+meaning = "the value of Bell's Phase 1 instrument"

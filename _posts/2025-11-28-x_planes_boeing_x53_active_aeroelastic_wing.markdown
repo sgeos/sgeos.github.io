@@ -44,20 +44,32 @@ Deflect an aileron down and it does two things. It increases the camber of the s
 area $A$, skin thickness $t$ and perimeter $\oint \mathrm{d}s$, the Bredt-Batho result gives a torsional
 rigidity \[[Megson, Aircraft structures for engineering students][book_megson]\] \[[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]\]
 
-$$GJ \;=\; \frac{4 A^{2} G\, t}{\oint \mathrm{d}s},$$
+$$
+GJ \;=\; \frac{4 A^{2} G\, t}{\oint \mathrm{d}s},
+\tag{1}
+$$
 
 while the mass of that skin per unit span is
 
-$$m' \;=\; \rho_{s}\, t \oint \mathrm{d}s .$$
+$$
+m' \;=\; \rho_{s}\, t \oint \mathrm{d}s .
+\tag{2}
+$$
 
 **Both are linear in the same thickness**, so eliminating it,
 
-$$GJ \;=\; \frac{4 A^{2} G}{\bigl( \oint \mathrm{d}s \bigr)^{2}} \cdot \frac{m'}{\rho_{s}}
-\qquad\Longrightarrow\qquad GJ \;\propto\; m' .$$
+$$
+GJ \;=\; \frac{4 A^{2} G}{\bigl( \oint \mathrm{d}s \bigr)^{2}} \cdot \frac{m'}{\rho_{s}}
+\qquad\Longrightarrow\qquad GJ \;\propto\; m' .
+\tag{3}
+$$
 
 **And the reversal dynamic pressure is proportional to torsional stiffness.** So to first order
 
-$$q_{R} \;\propto\; K_\theta \;\propto\; GJ \;\propto\; m',$$
+$$
+q_{R} \;\propto\; K_\theta \;\propto\; GJ \;\propto\; m',
+\tag{4}
+$$
 
 which compresses the problem into one line. **Reversal margin is bought linearly in structural mass**, and
 it is bought at the corner of the envelope and carried everywhere else in it.
@@ -109,7 +121,10 @@ The programme set four requirements for whatever aeroplane would host it \[[Clar
 
 **Every claim in this article concerns dynamic pressure**, because the reversal condition is defined on that variable. For air density $\rho$ and true airspeed $V$,
 
-$$q \;=\; \tfrac{1}{2} \rho V^{2},$$
+$$
+q \;=\; \tfrac{1}{2} \rho V^{2},
+\tag{5}
+$$
 
 and since $V = M a$ with $a$ the local speed of sound, a Mach number and an altitude together fix it \[[Dynamic Pressure][ref_dynamic_pressure]\] \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere_ref]\].
 
@@ -119,35 +134,56 @@ and since $V = M a$ with $a$ the local speed of sound, a Mach number and an alti
 
 Equilibrium of moments about the elastic axis gives
 
-$$K_\theta \,\theta \;=\; q S c \, C_{m,\delta}\, \delta \;+\; q S e \, C_{L,\alpha}\, \theta ,$$
+$$
+K_\theta \,\theta \;=\; q S c \, C_{m,\delta}\, \delta \;+\; q S e \, C_{L,\alpha}\, \theta ,
+\tag{6}
+$$
 
 so that
 
-$$\theta \;=\; \frac{q S c \, C_{m,\delta}\, \delta}{K_\theta \;-\; q S e \, C_{L,\alpha}} .$$
+$$
+\theta \;=\; \frac{q S c \, C_{m,\delta}\, \delta}{K_\theta \;-\; q S e \, C_{L,\alpha}} .
+\tag{7}
+$$
 
 **The denominator vanishing is divergence**, the other classical aeroelastic limit and one the programme stayed clear of,
 
-$$q_{D} \;=\; \frac{K_\theta}{S e \, C_{L,\alpha}} .$$
+$$
+q_{D} \;=\; \frac{K_\theta}{S e \, C_{L,\alpha}} .
+\tag{8}
+$$
 
 **The lift the surface delivers is the camber term plus the twist term,**
 
-$$\Delta L \;=\; q S \bigl( C_{L,\delta}\, \delta \;+\; C_{L,\alpha}\, \theta \bigr),$$
+$$
+\Delta L \;=\; q S \bigl( C_{L,\delta}\, \delta \;+\; C_{L,\alpha}\, \theta \bigr),
+\tag{9}
+$$
 
 and setting that to zero and substituting the twist gives the reversal dynamic pressure,
 
-$$q_{R} \;=\; \frac{C_{L,\delta}\, K_\theta}{S \, C_{L,\alpha} \bigl( e\, C_{L,\delta} \;-\; c\, C_{m,\delta} \bigr)} ,$$
+$$
+q_{R} \;=\; \frac{C_{L,\delta}\, K_\theta}{S \, C_{L,\alpha} \bigl( e\, C_{L,\delta} \;-\; c\, C_{m,\delta} \bigr)} ,
+\tag{10}
+$$
 
 which is positive because $C_{m,\delta}$ is negative and the bracket is therefore positive.
 
 **The bracket is usually reduced.** The flap's own lift acting at the offset $e$ is small beside its pitching moment acting on the chord, so $e\,C_{L,\delta} \ll -c\,C_{m,\delta}$ and the textbook form drops it,
 
-$$q_{R} \;\approx\; \frac{-\,C_{L,\delta}\, K_\theta}{S c \, C_{L,\alpha} C_{m,\delta}} .$$
+$$
+q_{R} \;\approx\; \frac{-\,C_{L,\delta}\, K_\theta}{S c \, C_{L,\alpha} C_{m,\delta}} .
+\tag{11}
+$$
 
 **The article uses the reduced form and says that it is reduced**, because the dropped term is the one that makes the expression exact rather than the one that makes it useful.
 
 **The rolling effectiveness of a trailing-edge surface then falls linearly toward it,**
 
-$$\frac{C_{l,\delta}(q)}{C_{l,\delta}(0)} \;=\; 1 \;-\; \frac{q}{q_{R}},$$
+$$
+\frac{C_{l,\delta}(q)}{C_{l,\delta}(0)} \;=\; 1 \;-\; \frac{q}{q_{R}},
+\tag{12}
+$$
 
 reaching zero at $q_R$ and going negative above it \[[Bisplinghoff, Aeroelasticity][book_bisplinghoff]\] \[[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]\] \[[Wright and Cooper, Introduction to aircraft aeroelasticity and loads][book_wright_cooper]\] \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\].
 
@@ -156,10 +192,13 @@ reaching zero at $q_R$ and going negative above it \[[Bisplinghoff, Aeroelastici
 **A third is more important than either, and it appears only when the two limits are divided.** Taking the
 reduced reversal expression against the divergence expression, the stiffness cancels,
 
-$$\frac{q_{R}}{q_{D}} \;=\;
+$$
+\frac{q_{R}}{q_{D}} \;=\;
 \frac{-\,C_{L,\delta}\, K_\theta}{S c \, C_{L,\alpha} C_{m,\delta}}
 \cdot \frac{S e \, C_{L,\alpha}}{K_\theta}
-\;=\; \frac{-\,C_{L,\delta}\, e}{c \, C_{m,\delta}} .$$
+\;=\; \frac{-\,C_{L,\delta}\, e}{c \, C_{m,\delta}} .
+\tag{13}
+$$
 
 **$K_\theta$ is gone.** Whether a wing reverses before it diverges is fixed by its aerodynamics and by
 where its elastic axis sits, and **stiffening the wing moves both limits together and changes neither's
@@ -178,9 +217,12 @@ the second once. The programme stayed clear of both \[[Clarke et al. 2005][resea
 
 **The consequence is stated most cleanly as a pair of limits.** As torsional stiffness falls, a trailing-edge surface loses authority and a leading-edge surface gains it,
 
-$$\frac{\partial\, C_{l,\delta}^{\mathrm{TE}}}{\partial K_\theta} \;>\; 0
+$$
+\frac{\partial\, C_{l,\delta}^{\mathrm{TE}}}{\partial K_\theta} \;>\; 0
 \qquad\text{against}\qquad
-\frac{\partial\, C_{l,\delta}^{\mathrm{LE}}}{\partial K_\theta} \;<\; 0 ,$$
+\frac{\partial\, C_{l,\delta}^{\mathrm{LE}}}{\partial K_\theta} \;<\; 0 ,
+\tag{14}
+$$
 
 with the trailing-edge surface recovering its authority as the wing is stiffened and the leading-edge surface losing it.
 
@@ -202,13 +244,16 @@ with the trailing-edge surface recovering its authority as the wing is stiffened
 **The boundaries are conditions on dynamic pressure and can be written as such.** Writing
 $\eta_{\mathrm{TE}}(q)$ and $\eta_{\mathrm{LE}}(q)$ for the two rolling effectivenesses,
 
-$$\text{region} \;=\;
+$$
+\text{region} \;=\;
 \begin{cases}
 \mathrm{I}, & \eta_{\mathrm{LE}} \approx 0, \\[2pt]
 \mathrm{II}, & \eta_{\mathrm{LE}} \approx \eta_{\mathrm{TE}} > 0, \\[2pt]
 \mathrm{III}, & \eta_{\mathrm{TE}} = 0 \ \text{ and } \ \eta_{\mathrm{LE}} > 0, \\[2pt]
 \mathrm{IV}, & \eta_{\mathrm{TE}} < 0 ,
-\end{cases}$$
+\end{cases}
+\tag{15}
+$$
 
 so that the boundary between III and IV is $q = q_{R}$ exactly. **Region III is a point in the simple
 model and a band in a real wing**, because a wing has a spanwise distribution of stiffness and its
@@ -222,7 +267,10 @@ sections do not all reverse at once.
 
 **The outboard flap also moves three times faster.** The inboard surface retains a rate limit of 15 degrees per second and the outboard surface gets 45, against the aileron's 100 \[[Clarke et al. 2005][research_clarke_allen_2005]\]. For rate limit $\dot{\delta}_{\max}$ the ratio is
 
-$$\frac{\dot{\delta}_{\max}^{\mathrm{OLEF}}}{\dot{\delta}_{\max}^{\mathrm{ILEF}}} \;=\; \frac{45\ \text{deg/s}}{15\ \text{deg/s}} \;=\; 3 ,$$
+$$
+\frac{\dot{\delta}_{\max}^{\mathrm{OLEF}}}{\dot{\delta}_{\max}^{\mathrm{ILEF}}} \;=\; \frac{45\ \text{deg/s}}{15\ \text{deg/s}} \;=\; 3 ,
+\tag{16}
+$$
 
 where OLEF and ILEF denote the outboard and inboard leading-edge flaps. **Every figure in the table below is the report's** \[[Clarke et al. 2005][research_clarke_allen_2005]\].
 
@@ -243,7 +291,10 @@ where OLEF and ILEF denote the outboard and inboard leading-edge flaps. **Every 
 
 **A hinge moment is a dynamic pressure times a geometry times a coefficient,**
 
-$$H \;=\; q\, S_{f}\, \bar{c}_{f} \bigl( C_{h,\alpha}\, \alpha \;+\; C_{h,\delta}\, \delta \bigr),$$
+$$
+H \;=\; q\, S_{f}\, \bar{c}_{f} \bigl( C_{h,\alpha}\, \alpha \;+\; C_{h,\delta}\, \delta \bigr),
+\tag{17}
+$$
 
 for a surface of area $S_{f}$ and mean chord $\bar{c}_{f}$ aft of its hinge. **It grows with dynamic
 pressure exactly as the twist that drives reversal does**, so the corner of the envelope where the
@@ -251,40 +302,55 @@ technology becomes interesting is the same corner where the surface becomes hard
 
 **The actuator's side of that contest is a force on a lever,**
 
-$$M_{\mathrm{act}} \;=\; F \, r ,$$
+$$
+M_{\mathrm{act}} \;=\; F \, r ,
+\tag{18}
+$$
 
 and the report's own table gives the force, the arm and the structural limit in adjacent columns,
 without ever multiplying the first two together.
 
 **Multiplying them is alarming.** The aileron actuator delivers
 
-$$M_{\mathrm{act}} \;=\; 13{,}100\ \text{lb} \times 4.0\ \text{in}
+$$
+M_{\mathrm{act}} \;=\; 13{,}100\ \text{lb} \times 4.0\ \text{in}
 \;=\; 52{,}400\ \text{in-lb}
-\qquad\text{against a structural limit of}\qquad 50{,}000\ \text{in-lb},$$
+\qquad\text{against a structural limit of}\qquad 50{,}000\ \text{in-lb},
+\tag{19}
+$$
 
 which exceeds it by 4.8 percent. **The margin is the ratio of capability to limit, less one,**
 
-$$\varepsilon \;=\; \frac{M_{\mathrm{act}}}{M_{\mathrm{lim}}} \;-\; 1 ,
+$$
+\varepsilon \;=\; \frac{M_{\mathrm{act}}}{M_{\mathrm{lim}}} \;-\; 1 ,
 \qquad
-\varepsilon_{\mathrm{aileron}} \;=\; \frac{52{,}400}{50{,}000} \;-\; 1 \;=\; 0.048 ,$$
+\varepsilon_{\mathrm{aileron}} \;=\; \frac{52{,}400}{50{,}000} \;-\; 1 \;=\; 0.048 ,
+\tag{20}
+$$
 
 for structural limit $M_{\mathrm{lim}}$, with a positive $\varepsilon$ meaning the actuator can exceed
 the limit. The subscript TEF denotes the trailing-edge flap. **The trailing-edge flap exceeds its limit on the same arithmetic.** Its actuator
 delivers 18,060 pounds on a 9.08 inch arm against a positive limit of 157,000 inch-pounds,
 
-$$\varepsilon_{\mathrm{TEF}} \;=\; \frac{18{,}060\ \text{lb} \times 9.08\ \text{in}}{157{,}000\ \text{in-lb}} \;-\; 1
-\;=\; \frac{163{,}985}{157{,}000} \;-\; 1 \;\approx\; 0.044 ,$$
+$$
+\varepsilon_{\mathrm{TEF}} \;=\; \frac{18{,}060\ \text{lb} \times 9.08\ \text{in}}{157{,}000\ \text{in-lb}} \;-\; 1
+\;=\; \frac{163{,}985}{157{,}000} \;-\; 1 \;\approx\; 0.044 ,
+\tag{21}
+$$
 
 or 4.4 percent. **The leading-edge flaps are driven by rotary actuators rated directly as a moment**, so
 no arm enters. The inboard actuator's 333,000 inch-pounds is set against the inboard flap's negative
 limit of 240,000, and the outboard actuator's 81,560 inch-pounds against the outboard flap's limits of
 119,000 and 90,000,
 
-$$\varepsilon_{\mathrm{ILEF}}^{-} \;=\; \frac{333{,}000}{240{,}000} \;-\; 1 \;=\; 0.3875 ,
+$$
+\varepsilon_{\mathrm{ILEF}}^{-} \;=\; \frac{333{,}000}{240{,}000} \;-\; 1 \;=\; 0.3875 ,
 \qquad
 \varepsilon_{\mathrm{OLEF}}^{+} \;=\; \frac{81{,}560}{119{,}000} \;-\; 1 \;\approx\; -0.315 ,
 \qquad
-\varepsilon_{\mathrm{OLEF}}^{-} \;=\; \frac{81{,}560}{90{,}000} \;-\; 1 \;\approx\; -0.094 .$$
+\varepsilon_{\mathrm{OLEF}}^{-} \;=\; \frac{81{,}560}{90{,}000} \;-\; 1 \;\approx\; -0.094 .
+\tag{22}
+$$
 
 **So the inboard leading-edge flap's rotary actuator exceeds its negative limit by 38.75 percent**, and
 the outboard actuator falls short of both of its limits. Every force, arm, moment and limit here is the
@@ -326,11 +392,17 @@ boundary \[[Clarke et al. 2005][research_clarke_allen_2005]\]. **The structure w
 
 **Computing the dynamic pressure at each of them shows what was lost.** Taking the standard atmosphere and $q = \tfrac{1}{2}\rho V^2$,
 
-$$q(1.2,\ 15{,}000\ \text{ft}) \;\approx\; 1{,}204\ \text{psf}
+$$
+q(1.2,\ 15{,}000\ \text{ft}) \;\approx\; 1{,}204\ \text{psf}
 \qquad\text{against}\qquad
-q(1.3,\ 15{,}000\ \text{ft}) \;\approx\; 1{,}413\ \text{psf},$$
+q(1.3,\ 15{,}000\ \text{ft}) \;\approx\; 1{,}413\ \text{psf},
+\tag{23}
+$$
 
-$$q(1.2,\ 10{,}000\ \text{ft}) \;\approx\; 1{,}467\ \text{psf}.$$
+$$
+q(1.2,\ 10{,}000\ \text{ft}) \;\approx\; 1{,}467\ \text{psf}.
+\tag{24}
+$$
 
 **The report's illustration of the four regions plots its dynamic-pressure axis from 600 to 1,400 pounds per square foot, and draws the trailing-edge flap's reversal crossing at about 1,000 and the aileron's at about 1,200** \[[Clarke et al. 2005][research_clarke_allen_2005]\]. **That figure is captioned as a typical fighter and not as the X-53**, so it fixes no reversal value for this aeroplane and the article claims none.
 
@@ -339,15 +411,21 @@ $$q(1.2,\ 10{,}000\ \text{ft}) \;\approx\; 1{,}467\ \text{psf}.$$
 **The shortfall is better stated as a ratio than as a gap, and its size depends on which conditions are
 compared.** The highest nominal condition actually flown was Mach 1.1 at 10,000 feet, and against it
 
-$$\frac{q(1.3,\ 15{,}000)}{q(1.1,\ 10{,}000)} \;\approx\; \frac{1{,}413}{1{,}233} \;\approx\; 1.146
+$$
+\frac{q(1.3,\ 15{,}000)}{q(1.1,\ 10{,}000)} \;\approx\; \frac{1{,}413}{1{,}233} \;\approx\; 1.146
 \qquad\text{and}\qquad
-\frac{q(1.2,\ 10{,}000)}{q(1.1,\ 10{,}000)} \;\approx\; \frac{1{,}467}{1{,}233} \;\approx\; 1.190,$$
+\frac{q(1.2,\ 10{,}000)}{q(1.1,\ 10{,}000)} \;\approx\; \frac{1{,}467}{1{,}233} \;\approx\; 1.190,
+\tag{25}
+$$
 
 so on nominal conditions the aeroplane was short of its two unflown points by 14.6 and 19.0 percent of
 dynamic pressure. **The true conditions close most of that gap.** The report's calibrated air data put
 that flown point at Mach 1.16 and 9,800 feet \[[Clarke et al. 2005][research_clarke_allen_2005]\], where
 
-$$q(1.16,\ 9{,}800\ \text{ft}) \;\approx\; 1{,}381\ \text{psf},$$
+$$
+q(1.16,\ 9{,}800\ \text{ft}) \;\approx\; 1{,}381\ \text{psf},
+\tag{26}
+$$
 
 within 2.3 and 6.2 percent of the two unflown nominal points. **That is a near miss**, and the report
 records that both unflown points were already expected to lie outside the aeroplane's level-flight
@@ -367,27 +445,39 @@ performance, with shallow dives the hoped-for way in \[[Clarke et al. 2005][rese
 from one equation.** For roll inertia $I_{x}$, span $b$, control derivative $C_{l,\delta}$ and damping
 derivative $C_{l,p}$, which is negative,
 
-$$I_{x}\, \dot{p} \;=\; q S b \left( C_{l,\delta}\, \delta \;+\; C_{l,p}\, \frac{p b}{2V} \right).$$
+$$
+I_{x}\, \dot{p} \;=\; q S b \left( C_{l,\delta}\, \delta \;+\; C_{l,p}\, \frac{p b}{2V} \right).
+\tag{27}
+$$
 
 **Steady state gives the helix angle**, the classical measure of rolling power, which for a rigid wing
 is independent of dynamic pressure,
 
-$$\frac{p_{\mathrm{ss}} b}{2V} \;=\; -\,\frac{C_{l,\delta}}{C_{l,p}}\, \delta .$$
+$$
+\frac{p_{\mathrm{ss}} b}{2V} \;=\; -\,\frac{C_{l,\delta}}{C_{l,p}}\, \delta .
+\tag{28}
+$$
 
 **On a flexible wing $C_{l,\delta}$ is the quantity that decays toward reversal**, so the helix angle
 decays with it, restating the effectiveness ratio above in different clothes.
 
 **The transient gives the time constant,**
 
-$$\tau_{R} \;=\; -\,\frac{2 I_{x} V}{q S b^{2} C_{l,p}}
-\;=\; -\,\frac{4 I_{x}}{\rho V S b^{2} C_{l,p}} ,$$
+$$
+\tau_{R} \;=\; -\,\frac{2 I_{x} V}{q S b^{2} C_{l,p}}
+\;=\; -\,\frac{4 I_{x}}{\rho V S b^{2} C_{l,p}} ,
+\tag{29}
+$$
 
 **so the roll mode gets faster as speed rises**, falling like $1/V$ at fixed density. That is why the
 measured constants are short and why a fast roll mode was a concern rather than a prize.
 
 **Bank angle follows from integrating the first-order response,**
 
-$$\phi(t) \;=\; p_{\mathrm{ss}} \Bigl[\, t \;-\; \tau_{R} \bigl( 1 - e^{-t/\tau_{R}} \bigr) \Bigr],$$
+$$
+\phi(t) \;=\; p_{\mathrm{ss}} \Bigl[\, t \;-\; \tau_{R} \bigl( 1 - e^{-t/\tau_{R}} \bigr) \Bigr],
+\tag{30}
+$$
 
 and a time-to-bank criterion is that expression inverted at a stated angle. **With time constants of
 order a tenth of a second and criteria written at 50, 90 and 180 degrees, the exponential term is
@@ -404,8 +494,11 @@ testing roll rate and not roll damping.
 
 **None of the three was near its upper limit.** The slowest, supersonic at 0.60 seconds, sits at
 
-$$\frac{\tau_{\mathrm{level\,1}}}{\tau_{R}}
-\;=\; \frac{1.0}{0.60} \;\approx\; 1.67,$$
+$$
+\frac{\tau_{\mathrm{level\,1}}}{\tau_{R}}
+\;=\; \frac{1.0}{0.60} \;\approx\; 1.67,
+\tag{31}
+$$
 
 **so even the slowest measured roll mode beat its level 1 goal by two thirds again.**
 
@@ -417,8 +510,11 @@ $$\frac{\tau_{\mathrm{level\,1}}}{\tau_{R}}
 
 **Stated as a ratio, with the subscript AAW standing for the Active Aeroelastic Wing,**
 
-$$\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
-\;\in\; \bigl[\, 0.80,\ 0.85 \,\bigr],$$
+$$
+\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
+\;\in\; \bigl[\, 0.80,\ 0.85 \,\bigr],
+\tag{32}
+$$
 
 **and the aeroplane in the denominator is using a control effector the one in the numerator was not.**
 
@@ -743,6 +839,355 @@ and cannot push it past divergence by stiffening**, so the alternative the X-53 
 find merits a search.
 
 **So this is a demonstration that stopped one region short of its name.** The Active Aeroelastic Wing showed that a flexible wing can be flown as a control effector and did not show what happens past the point where the classical answer runs out. **The classical answer is stiffness, stiffness is heavy by a factor that is now written down, and the aeroplane built to find an alternative could not reach the condition that makes the alternative necessary.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 32 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 32, 29 are established and 3 are bespoke.
+Dynamic pressures are in pounds per square foot at standard atmosphere conditions, actuator and structural moments are in inch-pounds, surface rates are in degrees per second and time constants in seconds, the reversal and divergence relations are those of a typical section with a single torsional degree of freedom rather than of the real wing, and a positive actuator margin $\varepsilon$ means the actuator can exceed the structural limit of its surface.
+
+**Equation 1, Bredt-Batho Torsional Rigidity of a Thin-Walled Box.**
+The Bredt-Batho result gives the torsional rigidity of a closed thin-walled section as four times the square of the enclosed area times the shear modulus and skin thickness, divided by the perimeter.
+[Megson, Aircraft structures for engineering students][book_megson]
+[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]
+
+$$
+GJ \;=\; \frac{4 A^{2} G\, t}{\oint \mathrm{d}s},
+\tag{1}
+$$
+
+**Equation 2, Skin Mass per Unit Span.**
+The mass of the skin per unit span is its density times its thickness times the perimeter.
+
+$$
+m' \;=\; \rho_{s}\, t \oint \mathrm{d}s .
+\tag{2}
+$$
+
+*Equation 3, Bespoke Proportionality of Torsional Rigidity to Skin Mass.*
+Eliminating the thickness between the two relations, with the enclosed area and perimeter held fixed as the article assumes, makes torsional rigidity proportional to skin mass per unit span.
+
+$$
+GJ \;=\; \frac{4 A^{2} G}{\bigl( \oint \mathrm{d}s \bigr)^{2}} \cdot \frac{m'}{\rho_{s}}
+\qquad\Longrightarrow\qquad GJ \;\propto\; m' .
+\tag{3}
+$$
+
+*Equation 4, Bespoke Proportionality of Reversal Pressure to Structural Mass.*
+Chaining the reversal dynamic pressure to torsional stiffness and stiffness to skin mass gives, to first order and at fixed geometry, a reversal margin bought linearly in structural mass.
+
+$$
+q_{R} \;\propto\; K_\theta \;\propto\; GJ \;\propto\; m',
+\tag{4}
+$$
+
+**Equation 5, Dynamic Pressure.**
+The dynamic pressure is half the air density times the square of the true airspeed.
+[Dynamic Pressure][ref_dynamic_pressure]
+
+$$
+q \;=\; \tfrac{1}{2} \rho V^{2},
+\tag{5}
+$$
+
+**Equation 6, Moment Equilibrium of a Typical Section With a Control Surface.**
+The elastic restoring moment of the twisted section balances the control surface pitching moment and the moment of the lift that the twist itself generates at the offset $e$.
+
+$$
+K_\theta \,\theta \;=\; q S c \, C_{m,\delta}\, \delta \;+\; q S e \, C_{L,\alpha}\, \theta ,
+\tag{6}
+$$
+
+**Equation 7, Elastic Twist of the Typical Section.**
+Solving the equilibrium for the twist gives a ratio whose denominator is the torsional stiffness less the aerodynamic moment slope.
+
+$$
+\theta \;=\; \frac{q S c \, C_{m,\delta}\, \delta}{K_\theta \;-\; q S e \, C_{L,\alpha}} .
+\tag{7}
+$$
+
+**Equation 8, Divergence Dynamic Pressure of a Typical Section.**
+The divergence dynamic pressure, at which the twist denominator vanishes, is the torsional stiffness divided by the product of area, offset and lift-curve slope.
+
+$$
+q_{D} \;=\; \frac{K_\theta}{S e \, C_{L,\alpha}} .
+\tag{8}
+$$
+
+**Equation 9, Lift Increment From Camber and Twist.**
+The lift increment from a control deflection is the sum of the direct camber term and the term from the elastic twist it induces.
+
+$$
+\Delta L \;=\; q S \bigl( C_{L,\delta}\, \delta \;+\; C_{L,\alpha}\, \theta \bigr),
+\tag{9}
+$$
+
+**Equation 10, Control Reversal Dynamic Pressure.**
+Setting the lift increment to zero and substituting the twist gives the dynamic pressure at which the control surface reverses.
+
+$$
+q_{R} \;=\; \frac{C_{L,\delta}\, K_\theta}{S \, C_{L,\alpha} \bigl( e\, C_{L,\delta} \;-\; c\, C_{m,\delta} \bigr)} ,
+\tag{10}
+$$
+
+**Equation 11, Reduced Reversal Dynamic Pressure.**
+The textbook form drops the flap's own lift acting at the offset beside its pitching moment acting on the chord.
+[Bisplinghoff, Aeroelasticity][book_bisplinghoff]
+[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]
+
+$$
+q_{R} \;\approx\; \frac{-\,C_{L,\delta}\, K_\theta}{S c \, C_{L,\alpha} C_{m,\delta}} .
+\tag{11}
+$$
+
+**Equation 12, Linear Decay of Rolling Effectiveness With Dynamic Pressure.**
+The rolling effectiveness of a trailing-edge surface relative to its rigid value falls linearly with dynamic pressure, reaching zero at the reversal pressure.
+[Bisplinghoff, Aeroelasticity][book_bisplinghoff]
+[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]
+[Wright and Cooper, Introduction to aircraft aeroelasticity and loads][book_wright_cooper]
+[Etkin and Reid, Dynamics of flight][book_etkin_reid]
+
+$$
+\frac{C_{l,\delta}(q)}{C_{l,\delta}(0)} \;=\; 1 \;-\; \frac{q}{q_{R}},
+\tag{12}
+$$
+
+**Equation 13, Ratio of Reversal to Divergence Dynamic Pressure.**
+Dividing the reduced reversal pressure by the divergence pressure cancels the torsional stiffness, so the order of the two limits is fixed by the aerodynamics and the position of the elastic axis.
+[Bisplinghoff, Aeroelasticity][book_bisplinghoff]
+[Hodges and Pierce, Introduction to structural dynamics and aeroelasticity][book_hodges_pierce]
+
+$$
+\frac{q_{R}}{q_{D}} \;=\;
+\frac{-\,C_{L,\delta}\, K_\theta}{S c \, C_{L,\alpha} C_{m,\delta}}
+\cdot \frac{S e \, C_{L,\alpha}}{K_\theta}
+\;=\; \frac{-\,C_{L,\delta}\, e}{c \, C_{m,\delta}} .
+\tag{13}
+$$
+
+**Equation 14, Opposite Stiffness Sensitivities of Trailing-Edge and Leading-Edge Surfaces.**
+The rolling effectiveness of a trailing-edge surface rises with torsional stiffness while that of a leading-edge surface falls, as the flight test report records.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+\frac{\partial\, C_{l,\delta}^{\mathrm{TE}}}{\partial K_\theta} \;>\; 0
+\qquad\text{against}\qquad
+\frac{\partial\, C_{l,\delta}^{\mathrm{LE}}}{\partial K_\theta} \;<\; 0 ,
+\tag{14}
+$$
+
+*Equation 15, Bespoke Conditions Defining the Four Control Regions.*
+The article writes the four regions of the report's illustration as conditions on the trailing-edge and leading-edge rolling effectivenesses, so that the boundary between regions III and IV falls exactly at the reversal pressure of the simple model.
+
+$$
+\text{region} \;=\;
+\begin{cases}
+\mathrm{I}, & \eta_{\mathrm{LE}} \approx 0, \\[2pt]
+\mathrm{II}, & \eta_{\mathrm{LE}} \approx \eta_{\mathrm{TE}} > 0, \\[2pt]
+\mathrm{III}, & \eta_{\mathrm{TE}} = 0 \ \text{ and } \ \eta_{\mathrm{LE}} > 0, \\[2pt]
+\mathrm{IV}, & \eta_{\mathrm{TE}} < 0 ,
+\end{cases}
+\tag{15}
+$$
+
+**Equation 16, Ratio of Outboard to Inboard Leading-Edge Flap Rate Limits.**
+The outboard leading-edge flap rate limit of 45 degrees per second is three times the inboard limit of 15.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+\frac{\dot{\delta}_{\max}^{\mathrm{OLEF}}}{\dot{\delta}_{\max}^{\mathrm{ILEF}}} \;=\; \frac{45\ \text{deg/s}}{15\ \text{deg/s}} \;=\; 3 ,
+\tag{16}
+$$
+
+**Equation 17, Hinge Moment of a Control Surface.**
+The hinge moment is the dynamic pressure times the surface area and mean chord aft of the hinge times a coefficient linear in angle of attack and deflection.
+
+$$
+H \;=\; q\, S_{f}\, \bar{c}_{f} \bigl( C_{h,\alpha}\, \alpha \;+\; C_{h,\delta}\, \delta \bigr),
+\tag{17}
+$$
+
+**Equation 18, Actuator Moment as Force Times Arm.**
+The moment a linear actuator applies is its force times its moment arm.
+
+$$
+M_{\mathrm{act}} \;=\; F \, r ,
+\tag{18}
+$$
+
+**Equation 19, Aileron Actuator Moment Against Its Structural Limit.**
+The reported aileron actuator force on its reported arm gives 52,400 inch-pounds, above the reported structural limit of 50,000.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+M_{\mathrm{act}} \;=\; 13{,}100\ \text{lb} \times 4.0\ \text{in}
+\;=\; 52{,}400\ \text{in-lb}
+\qquad\text{against a structural limit of}\qquad 50{,}000\ \text{in-lb},
+\tag{19}
+$$
+
+**Equation 20, Actuator Margin Over the Structural Limit.**
+The margin is the ratio of actuator capability to structural limit less one, which for the aileron is 4.8 percent.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+\varepsilon \;=\; \frac{M_{\mathrm{act}}}{M_{\mathrm{lim}}} \;-\; 1 ,
+\qquad
+\varepsilon_{\mathrm{aileron}} \;=\; \frac{52{,}400}{50{,}000} \;-\; 1 \;=\; 0.048 ,
+\tag{20}
+$$
+
+**Equation 21, Trailing-Edge Flap Actuator Margin.**
+The reported trailing-edge flap actuator force and arm exceed the positive structural limit by about 4.4 percent.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+\varepsilon_{\mathrm{TEF}} \;=\; \frac{18{,}060\ \text{lb} \times 9.08\ \text{in}}{157{,}000\ \text{in-lb}} \;-\; 1
+\;=\; \frac{163{,}985}{157{,}000} \;-\; 1 \;\approx\; 0.044 ,
+\tag{21}
+$$
+
+**Equation 22, Leading-Edge Flap Actuator Margins.**
+The inboard rotary actuator exceeds its negative limit by 38.75 percent while the outboard actuator falls short of both its limits, every figure being the report's.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+\varepsilon_{\mathrm{ILEF}}^{-} \;=\; \frac{333{,}000}{240{,}000} \;-\; 1 \;=\; 0.3875 ,
+\qquad
+\varepsilon_{\mathrm{OLEF}}^{+} \;=\; \frac{81{,}560}{119{,}000} \;-\; 1 \;\approx\; -0.315 ,
+\qquad
+\varepsilon_{\mathrm{OLEF}}^{-} \;=\; \frac{81{,}560}{90{,}000} \;-\; 1 \;\approx\; -0.094 .
+\tag{22}
+$$
+
+**Equation 23, Dynamic Pressure at the Unflown Points at Fifteen Thousand Feet.**
+The standard atmosphere gives about 1,204 and 1,413 pounds per square foot at Mach 1.2 and Mach 1.3 at 15,000 feet.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+q(1.2,\ 15{,}000\ \text{ft}) \;\approx\; 1{,}204\ \text{psf}
+\qquad\text{against}\qquad
+q(1.3,\ 15{,}000\ \text{ft}) \;\approx\; 1{,}413\ \text{psf},
+\tag{23}
+$$
+
+**Equation 24, Dynamic Pressure at the Unflown Point at Ten Thousand Feet.**
+The standard atmosphere gives about 1,467 pounds per square foot at Mach 1.2 at 10,000 feet.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+q(1.2,\ 10{,}000\ \text{ft}) \;\approx\; 1{,}467\ \text{psf}.
+\tag{24}
+$$
+
+**Equation 25, Ratios of Unflown to Highest Flown Nominal Dynamic Pressure.**
+Against the highest nominal condition flown, Mach 1.1 at 10,000 feet, the two unflown points lie 14.6 and 19.0 percent higher in dynamic pressure.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+\frac{q(1.3,\ 15{,}000)}{q(1.1,\ 10{,}000)} \;\approx\; \frac{1{,}413}{1{,}233} \;\approx\; 1.146
+\qquad\text{and}\qquad
+\frac{q(1.2,\ 10{,}000)}{q(1.1,\ 10{,}000)} \;\approx\; \frac{1{,}467}{1{,}233} \;\approx\; 1.190,
+\tag{25}
+$$
+
+**Equation 26, Dynamic Pressure at the Calibrated Flown Condition.**
+At the calibrated condition of Mach 1.16 and 9,800 feet the standard atmosphere gives about 1,381 pounds per square foot.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+q(1.16,\ 9{,}800\ \text{ft}) \;\approx\; 1{,}381\ \text{psf},
+\tag{26}
+$$
+
+**Equation 27, Single-Degree-of-Freedom Roll Equation.**
+The roll acceleration times the roll inertia equals the rolling moment from control deflection plus the damping moment proportional to the nondimensional roll rate.
+
+$$
+I_{x}\, \dot{p} \;=\; q S b \left( C_{l,\delta}\, \delta \;+\; C_{l,p}\, \frac{p b}{2V} \right).
+\tag{27}
+$$
+
+**Equation 28, Steady-State Helix Angle.**
+In steady roll the helix angle is the ratio of control to damping derivative times the deflection, independent of dynamic pressure for a rigid wing.
+
+$$
+\frac{p_{\mathrm{ss}} b}{2V} \;=\; -\,\frac{C_{l,\delta}}{C_{l,p}}\, \delta .
+\tag{28}
+$$
+
+**Equation 29, Roll-Mode Time Constant.**
+The roll-mode time constant is the roll inertia divided by the damping moment per unit roll rate, so it shortens as speed rises at fixed density.
+
+$$
+\tau_{R} \;=\; -\,\frac{2 I_{x} V}{q S b^{2} C_{l,p}}
+\;=\; -\,\frac{4 I_{x}}{\rho V S b^{2} C_{l,p}} ,
+\tag{29}
+$$
+
+**Equation 30, Bank Angle of a First-Order Roll Response.**
+Integrating the first-order roll response from rest gives the bank angle as the steady roll rate times the elapsed time less a lag of one time constant that decays exponentially.
+
+$$
+\phi(t) \;=\; p_{\mathrm{ss}} \Bigl[\, t \;-\; \tau_{R} \bigl( 1 - e^{-t/\tau_{R}} \bigr) \Bigr],
+\tag{30}
+$$
+
+**Equation 31, Margin of the Slowest Roll Mode to the Level 1 Limit.**
+The level 1 limit of 1.0 seconds is about 1.67 times the slowest measured roll-mode time constant of 0.60 seconds.
+[Clarke et al. 2005][research_clarke_allen_2005]
+
+$$
+\frac{\tau_{\mathrm{level\,1}}}{\tau_{R}}
+\;=\; \frac{1.0}{0.60} \;\approx\; 1.67,
+\tag{31}
+$$
+
+**Equation 32, Roll Rate Relative to the Production Aircraft.**
+Roll rates by active wing control alone were 80 to 85 percent of those of a production F/A-18, which used its differential tail as well.
+[Active Aeroelastic Wing Flight Research, NASA Facts FS-2005-03-061 DFRC][ref_aaw_factsheet]
+
+$$
+\frac{p_{\mathrm{AAW}}}{p_{\mathrm{prod}}}
+\;\in\; \bigl[\, 0.80,\ 0.85 \,\bigr],
+\tag{32}
+$$
+
+### Notation
+
+- $GJ$, the torsional rigidity of the wing box, with $G$ the shear modulus
+- $\oint \mathrm{d}s$, the perimeter of the torsion box, with $A$ its enclosed area and $t$ its skin thickness
+- $\rho_{s}$, the density of the skin material
+- $q_{R}$, the control reversal dynamic pressure
+- $q_{D}$, the divergence dynamic pressure
+- $K_\theta$, the torsional stiffness of the section about its elastic axis
+- $\theta$, the elastic twist of the section
+- $C_{m,\delta}$, the pitching moment derivative of the control surface, negative for a trailing-edge surface deflected down
+- $C_{L,\alpha}$, the lift-curve slope
+- $C_{L,\delta}$, the lift derivative of the control surface
+- $e$, the distance of the aerodynamic centre ahead of the elastic axis
+- $c$, the chord of the section
+- $\delta$, the control surface deflection
+- $C_{l,\delta}$, the rolling moment derivative of a control surface
+- $\eta_{\mathrm{TE}}$, the rolling effectiveness of the trailing-edge surfaces, with $\eta_{\mathrm{LE}}$ that of the leading-edge surfaces
+- $\dot{\delta}_{\max}$, the surface rate limit
+- $H$, the hinge moment
+- $S_{f}$, the area of the control surface aft of its hinge, with $\bar{c}_{f}$ its mean chord
+- $M_{\mathrm{act}}$, the moment the actuator can apply, with $F$ its force and $r$ its arm
+- $M_{\mathrm{lim}}$, the structural limit moment of the surface
+- $\varepsilon$, the actuator margin over the structural limit
+- $I_{x}$, the roll moment of inertia
+- $C_{l,p}$, the roll damping derivative, which is negative
+- $p_{\mathrm{ss}}$, the steady-state roll rate
+- $\tau_{R}$, the roll-mode time constant
+- $\phi$, the bank angle
+- $q$, the dynamic pressure
+- $\rho$, the air density
 
 ## References
 

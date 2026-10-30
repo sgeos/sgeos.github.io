@@ -1,0 +1,963 @@
+# Equation classification for A357. Read by `python3 _lib/equations.py`.
+
+caution = "Pressures are in pascals except where the published dynamic pressure is quoted in pounds per square foot, speeds are in metres per second, masses in kilograms, thrusts in newtons and costs in dollars, altitudes are geometric or geopotential as the symbol table distinguishes, and every figure taken from the integrated ascent rests on a commanded pitch programme, an interpolated drag coefficient and an assumed specific impulse rather than on a published trajectory."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Inlet Air Mass Flow"
+gloss = "The mass flow an inlet of given capture area swallows is the density times the speed times the area, or twice the dynamic pressure over the speed times the area."
+cite = []
+digest = "2547e2669ac23a3b"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Captured Mass Flux at Mach 6 Mid-Band"
+gloss = "The mass flux per unit capture area is evaluated at 1,500 pounds per square foot, the midpoint the article takes of the one to two thousand band, with the Mach 6 speed scaled from the Mach 5 corridor speed."
+cite = []
+digest = "68a1a643986d5754"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Transition Reynolds Number"
+gloss = "Boundary-layer transition depends on a Reynolds number based on the distance from the leading edge."
+cite = []
+digest = "9db50bd94b3216e0"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Wall-to-Recovery Temperature Ratio"
+gloss = "Transition also depends on the ratio of the wall temperature to the temperature an insulated wall would reach."
+cite = []
+digest = "251e2364b39f4669"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Dynamic Pressure"
+gloss = "The dynamic pressure is half the density times the square of the true airspeed."
+cite = []
+digest = "8bed29c3ff1db806"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Perfect Gas Law"
+gloss = "For a perfect gas the density is the pressure over the gas constant times the temperature."
+cite = []
+digest = "6af362043e249315"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Speed of Sound and True Airspeed"
+gloss = "The speed of sound depends on temperature alone, and the true airspeed is the Mach number times that speed."
+cite = []
+digest = "dae04dddd847a99f"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Dynamic Pressure in Terms of Pressure and Mach Number"
+gloss = "Substituting the gas law and the speed of sound cancels the temperature, leaving half the ratio of specific heats times the pressure times the square of the Mach number."
+cite = []
+digest = "875d6924edc2fb96"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Working Form of Dynamic Pressure for Air"
+gloss = "With a ratio of specific heats of 1.4 the dynamic pressure is 0.7 times the pressure times the square of the Mach number."
+cite = []
+digest = "b5de82aa92c12b12"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Pressure From Dynamic Pressure and Mach Number"
+gloss = "Inverting the working form gives the ambient pressure that a dynamic pressure and a Mach number fix."
+cite = []
+digest = "6dafaf770bd733e6"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Dynamic Pressure of the Published Test Condition"
+gloss = "Mach 5 at the published altitude of seventy thousand feet, where the standard atmosphere gives 4,512.9 pascals, corresponds to a dynamic pressure of about 1,649 pounds per square foot."
+cite = ["book_heiser_pratt", "book_anderson_hypersonic"]
+digest = "4efce422c38c79d0"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Hydrostatic Equation"
+gloss = "The pressure gradient with altitude is minus the gravity times the density, or with the gas law minus the gravity times the pressure over the gas constant times the temperature."
+cite = ["ref_us_standard_atmosphere"]
+digest = "d74fefbe33079d20"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Geopotential Altitude"
+gloss = "Geopotential altitude folds the variation of gravity into the altitude coordinate through the effective Earth radius."
+cite = ["ref_us_standard_atmosphere"]
+digest = "fad7fb9800367bfe"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Piecewise Linear Temperature Profile"
+gloss = "In the standard atmosphere the temperature is linear in geopotential altitude within each layer."
+cite = []
+digest = "573715ea0d83d720"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Pressure in a Layer With Nonzero Lapse Rate"
+gloss = "Integrating the hydrostatic equation through a layer with a nonzero lapse rate gives a power law in the temperature ratio."
+cite = []
+digest = "d207d665856c1490"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Pressure in an Isothermal Layer"
+gloss = "Through an isothermal layer the pressure decays exponentially with geopotential altitude."
+cite = ["ref_icao_atmosphere"]
+digest = "ef35a3aa35d80800"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Pressure Scale Height"
+gloss = "The scale height is the gas constant times the temperature over standard gravity."
+cite = ["ref_icao_atmosphere"]
+digest = "6dff0e999709f2ec"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Altitude Sensitivity of Dynamic Pressure at Fixed Mach Number"
+gloss = "At fixed Mach number the dynamic pressure inherits the pressure's logarithmic gradient, minus one over the scale height."
+cite = []
+digest = "d0c14b6d9eb3b000"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Finite Change of Dynamic Pressure per Kilometre"
+gloss = "At the 6,378 metre scale height of the corridor altitude a kilometre of climb removes 14.51 percent of the dynamic pressure."
+cite = []
+digest = "ce34d0a523c2a475"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Slope of a Constant Dynamic Pressure Line"
+gloss = "Along a line of constant dynamic pressure the logarithm of the Mach number rises with altitude at one over twice the scale height."
+cite = []
+digest = "14d303f2517d14f4"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Stagnation Temperature Ratio"
+gloss = "The energy equation for a perfect gas gives the stagnation temperature ratio as one plus half of one less than the ratio of specific heats times the square of the Mach number."
+cite = []
+digest = "e664589ec1efbd5c"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Stagnation Enthalpy"
+gloss = "The stagnation enthalpy per unit mass is the specific heat at constant pressure times the stagnation temperature."
+cite = []
+digest = "edcd3ea7b2d6fc49"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Isentropic Stagnation Pressure Ratio"
+gloss = "The stagnation pressure ratio follows from the isentropic relation."
+cite = []
+digest = "4376cab09f1c536b"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Recovery Factor"
+gloss = "The recovery factor is the square root of the Prandtl number in a laminar boundary layer and its cube root in a turbulent one."
+cite = []
+digest = "3d304b0dee810be9"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Adiabatic Wall Recovery Temperature"
+gloss = "The recovery temperature applies the recovery factor to the stagnation temperature rise."
+cite = ["book_anderson_hypersonic", "book_bertin"]
+digest = "0602ce4963f415ab"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Sutherland's Law"
+gloss = "Sutherland's law gives the viscosity of air as a function of temperature."
+cite = []
+digest = "f0194914c444d4e5"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number is the density times the speed times a reference length over the viscosity."
+cite = []
+digest = "bf42e511cad117c3"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Unit Reynolds Number"
+gloss = "The unit Reynolds number is the Reynolds number per metre of length, reported when the test article length is not fixed."
+cite = []
+digest = "5d3ad6199cae37ae"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Sutton-Graves Stagnation-Point Heating"
+gloss = "The convective heat flux at a stagnation point scales as the square root of density over nose radius and the cube of velocity."
+cite = ["ref_sutton_graves", "book_vinh"]
+digest = "96d0b6c83dde5fff"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Rocket Thrust"
+gloss = "Rocket thrust is the momentum flux of the jet plus the pressure difference at the exit plane times the exit area."
+cite = []
+digest = "a3482f740c488460"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Effective Exhaust Velocity and Specific Impulse"
+gloss = "The effective exhaust velocity is thrust over mass flow, and the specific impulse is that velocity over standard gravity."
+cite = []
+digest = "8deef7b5039956b0"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Characteristic Velocity and Thrust Coefficient"
+gloss = "The thrust separates into the characteristic velocity of the chamber and the thrust coefficient of the nozzle."
+cite = []
+digest = "47df510ff85cf000"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Nozzle Area Ratio"
+gloss = "The nozzle area ratio is the exit area over the throat area."
+cite = []
+digest = "2adcb1ab1ae86c60"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Isentropic Area-Mach Relation for the Nozzle"
+gloss = "The area ratio and the exit Mach number of a convergent-divergent nozzle are related through the isentropic area-Mach relation."
+cite = []
+digest = "2c01f05c7b6af0d9"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Choked Mass Flow Through a Throat"
+gloss = "The mass flow through a choked throat is set by the chamber pressure, the throat area and the chamber temperature through the Vandenkerckhove function."
+cite = []
+digest = "1f0b047018955bd1"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Product of Chamber Pressure and Throat Area"
+gloss = "Taking a characteristic velocity of 1,800 metres per second, a typical value the article assumes because none is published for this engine, gives the product of chamber pressure and throat area from the mass flow alone."
+cite = []
+digest = "1106ff49daf37647"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Altitude Variation of Rocket Thrust"
+gloss = "With a fixed nozzle the thrust rises from its sea-level value toward the vacuum thrust as the ambient pressure on the exit area falls."
+cite = ["ref_ursa_hadley_variants"]
+digest = "56722a0306e5c4b5"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Thrust-to-Weight Ratio at Release"
+gloss = "The published sea-level thrust of 5,000 pounds against the published gross mass of 1,360 kilograms gives a thrust-to-weight ratio of 1.668."
+cite = ["ref_dusrm_x60", "ref_ursa_hadley_variants"]
+digest = "6934d8e4b9c1851e"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Kinematic Velocity Increment With Climb"
+gloss = "The article counts the climb as velocity through its potential energy, taking the increment as the speed whose kinetic energy equals that of the corridor plus the climb, less the release speed."
+cite = []
+digest = "4fa83717cb746994"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Kinematic Increment From Release to the Corridor"
+gloss = "The increment is evaluated from a release at twelve kilometres and Mach 0.8, a release condition the article takes, to the Mach 5 corridor 9,300 metres higher."
+cite = ["ref_dusrm_x60"]
+digest = "82de7ed4cd5b501e"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Velocity Increment Including Gravity and Drag Losses"
+gloss = "The velocity increment the rocket must supply is the kinematic increment plus the integrated gravity and drag losses."
+cite = []
+digest = "15acf2fe494c278b"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The rocket equation converts a velocity increment into the logarithm of the mass ratio through the effective exhaust velocity."
+cite = []
+digest = "3b7aee0eb9fd9dad"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Mass Ratio and Propellant Fraction"
+gloss = "Inverting the rocket equation gives the mass ratio and the propellant fraction that a velocity increment demands."
+cite = []
+digest = "3a09b0aac0b9282b"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Vehicle Mass Budget"
+gloss = "The ignition mass is the sum of the propellant, the structural and inert mass and the payload."
+cite = []
+digest = "88593db193839633"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Propellant Mass Flow and Burn Duration"
+gloss = "The mass flow is thrust over specific impulse times standard gravity, and the burn duration is the propellant mass over that flow."
+cite = []
+digest = "f43df94a0f29d128"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Hand-Calculated Burn Duration"
+gloss = "The burn duration of 75 seconds rests on a specific impulse of 290 seconds and a loss allowance of 300 metres per second, both of which the article assumes."
+cite = []
+digest = "2f8af475626b357b"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Oxidiser and Fuel Masses From the Mixture Ratio"
+gloss = "The mixture ratio splits the propellant mass into its oxidiser and fuel parts."
+cite = []
+digest = "7337fd4685c982a7"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Propellant Volume"
+gloss = "The propellant volume is the sum of the oxidiser and fuel masses over their densities."
+cite = []
+digest = "bec7c8fdf3e2dd6c"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Booster Diameter From the Propellant Volume"
+gloss = "The article recovers the unpublished diameter by assuming cylindrical tanks at the full body diameter that occupy seventy percent of the booster length."
+cite = ["ref_dusrm_x60"]
+digest = "64116f0f41892940"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Fineness Ratio and Frontal Area"
+gloss = "The fineness ratio is the booster length over its diameter and the frontal area is that of a circle of the diameter."
+cite = []
+digest = "48a7802d9b4103ae"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Bulk Density of the Loaded Propellant"
+gloss = "At the oxidiser to fuel mixture ratio of 2.3 that the article assumes, the loaded propellant has a bulk density of 1,015.3 kilograms per cubic metre."
+cite = []
+digest = "c9423fc5bc95b0dc"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Ratio of Span to Diameter"
+gloss = "The span over the recovered diameter is a check of the recovered geometry against an ordinary slender configuration."
+cite = []
+digest = "7192372a66dac0c9"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Equation of Motion Along the Flight Path"
+gloss = "Along the flight path the mass times the acceleration is the thrust less the drag and the component of weight."
+cite = []
+digest = "212e9623c588c0a3"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Equation of Motion Across the Flight Path"
+gloss = "Across the flight path the mass times the speed times the turn rate is the lift less the normal component of weight."
+cite = []
+digest = "d534b0ff7257cb1b"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Lift and Drag"
+gloss = "Lift and drag are the dynamic pressure times the reference area times their coefficients."
+cite = []
+digest = "de9e141625891434"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Ballistic Coefficient"
+gloss = "The ballistic coefficient is the mass over the drag coefficient times the reference area."
+cite = []
+digest = "8c9d81226a43f5a3"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Altitude Rate and Mass Flow"
+gloss = "The altitude rises at the speed times the sine of the flight path angle while the mass falls at the propellant flow rate."
+cite = []
+digest = "48a60e48188b5c1b"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Linear Pitch Programme"
+gloss = "The article commands the flight path angle to run linearly from the release angle to the burnout angle over the burn."
+cite = []
+digest = "23f7c0f2d10c77a9"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Interpolated Drag Coefficient"
+gloss = "The article interpolates the drag coefficient linearly between anchor points it chooses to reproduce the shape every slender supersonic body shares."
+cite = []
+digest = "f55c8ba8d153805e"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Lift Required by the Commanded Turn"
+gloss = "Rearranging the normal equation gives the lift that the commanded pitch programme requires at each instant."
+cite = []
+digest = "293dbc74e4de67b6"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Structural Coefficient and Payload Fraction"
+gloss = "A stage is judged by its structural coefficient, the inert share of inert plus propellant mass, and by its payload fraction."
+cite = ["ref_pegasus"]
+digest = "17ff23a9f1580c53"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Atmospheric Mass Above the Release Altitude"
+gloss = "The air column above an altitude has a mass per area equal to its pressure over gravity, so a release at the twelve kilometres the article takes is above 80.9 percent of the atmosphere's mass."
+cite = []
+digest = "29a42309747f9286"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Cost per Second of Test Condition"
+gloss = "The article's figure of merit divides the total cost obligated by the number of flights times the dwell at condition."
+cite = []
+digest = "30e6deb931f47405"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Cost per Second With No Flights"
+gloss = "With the obligated 30,921,064.62 dollars and no flights flown, the article's figure of merit is undefined."
+cite = []
+digest = "93fc363fef63ea0e"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Dwell at Condition"
+gloss = "The dwell is the time within the burn that the Mach number spends above a threshold the article sets for being at condition."
+cite = []
+digest = "c5482c8ee30ab8ab"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Split of Cost per Flight"
+gloss = "The article separates the cost per flight into a development share that falls with the flight count and a marginal cost that does not."
+cite = []
+digest = "458095d2ddbf4e65"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Dwell Fraction of the Integrated Burn"
+gloss = "On the article's integrated ascent with the Mach 6 propellant load the vehicle spends 12.2 seconds above Mach 5, 13.9 percent of the burn."
+cite = []
+digest = "47165e24defbabdb"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Steady Flight Along the Path"
+gloss = "At constant speed the thrust balances the drag plus the component of weight along the flight path."
+cite = []
+digest = "fdc8b6cf6f720e13"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Flight Path Angle for a Steady State"
+gloss = "The steady flight path angle has a sine equal to the excess of thrust over drag divided by the weight."
+cite = []
+digest = "eed74f2e8644b865"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Condition for No Steady State"
+gloss = "When the thrust exceeds the drag plus the whole weight, the required sine exceeds one and no steady state exists."
+cite = []
+digest = "87f34466578498e5"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Throttle Setting to Hold Speed"
+gloss = "The throttle setting that holds speed is the drag over the rated thrust."
+cite = []
+digest = "c8970042bb8e4848"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Injector Pressure Drop"
+gloss = "The pressure drop across a fixed injector orifice follows the square of the flow, and so the square of the throttle setting."
+cite = ["book_sutton_biblarz", "book_huzel_huang"]
+digest = "9a6a9adea8e56d0e"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Range of Dynamic Pressure Across Pitch Programmes"
+gloss = "Across the 53 pitch programmes the article integrates, the dynamic pressure at first reaching Mach 5 spans a factor of 72.8."
+cite = []
+digest = "a8ef20eb69ffdc04"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Statutory Thrust Exceeds Lift Test"
+gloss = "The statute defines a suborbital rocket in part by thrust exceeding lift for the majority of the powered ascent."
+cite = ["ref_usc_50902"]
+digest = "6fa70c028c4baba3"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Load Factor Form of the Statutory Test"
+gloss = "Thrust exceeds lift whenever the aerodynamic load factor is below the thrust-to-weight ratio, 1.668 at release."
+cite = []
+digest = "0cfe9b3beb20ec1a"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Specific Energy and Angular Momentum at Burnout"
+gloss = "The burnout speed, radius and flight path angle give the specific orbital energy and specific angular momentum of the coasting ellipse."
+cite = []
+digest = "ede32302b2036450"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Semi-Major Axis, Eccentricity and Perigee of the Coasting Ellipse"
+gloss = "The energy and angular momentum fix the semi-major axis and eccentricity of the coasting ellipse and hence its perigee radius."
+cite = []
+digest = "d99dd8ab1d6e082d"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Vacuum Instantaneous Impact Point Test"
+gloss = "The vacuum instantaneous impact point stays on the Earth when the perigee radius of the coasting ellipse is below the Earth's radius."
+cite = ["ref_usc_50902"]
+digest = "1bdac9bf5844dc04"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Burnout Speed Against Circular Orbital Speed"
+gloss = "The burnout speed of the article's integrated ascent is 22.9 percent of the circular orbital speed at the burnout radius."
+cite = []
+digest = "6e7b969c62dc6b06"
+
+[[symbol]]
+tex = '\dot{m}_a'
+meaning = "the mass flow of air an inlet captures"
+
+[[symbol]]
+tex = 'A_c'
+meaning = "the inlet capture area of an air-breathing test article"
+
+[[symbol]]
+tex = '\mathit{Re}_x'
+meaning = "the Reynolds number based on distance from the leading edge"
+
+[[symbol]]
+tex = 'x_t'
+meaning = "the distance from the leading edge at which the boundary layer goes turbulent"
+
+[[symbol]]
+tex = 'T_w'
+meaning = "the wall temperature of the test article"
+
+[[symbol]]
+tex = 'T_r'
+meaning = "the adiabatic wall recovery temperature"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats of air"
+
+[[symbol]]
+tex = 'R_e'
+meaning = "the effective radius of the Earth used by the standard atmosphere"
+
+[[symbol]]
+tex = 'h_b'
+meaning = "the geopotential altitude of the base of an atmospheric layer"
+
+[[symbol]]
+tex = 'T_b'
+meaning = "the temperature at the base of an atmospheric layer"
+
+[[symbol]]
+tex = 'p_b'
+meaning = "the pressure at the base of an atmospheric layer"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the temperature lapse rate of an atmospheric layer"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, the constant that defines specific impulse"
+
+[[symbol]]
+tex = 'H'
+meaning = "the pressure scale height of the atmosphere"
+
+[[symbol]]
+tex = '\Delta q'
+meaning = "a change in dynamic pressure"
+
+[[symbol]]
+tex = '\Delta z'
+meaning = "the altitude gained between release and the corridor"
+
+[[symbol]]
+tex = 'T_0'
+meaning = "the stagnation temperature"
+
+[[symbol]]
+tex = 'h_0'
+meaning = "the stagnation enthalpy per unit mass"
+
+[[symbol]]
+tex = 'p_0'
+meaning = "the stagnation pressure"
+
+[[symbol]]
+tex = 'r_f'
+meaning = "the recovery factor, the fraction of the stagnation temperature rise a wall actually sees"
+
+[[symbol]]
+tex = '\mathit{Pr}'
+meaning = "the Prandtl number of air"
+
+[[symbol]]
+tex = 'S_u'
+meaning = "the Sutherland constant for air, with $C_1$ the Sutherland coefficient"
+
+[[symbol]]
+tex = 'L_r'
+meaning = "a reference length"
+
+[[symbol]]
+tex = '\dot{Q}'
+meaning = "the stagnation-point convective heat flux"
+
+[[symbol]]
+tex = 'k_s'
+meaning = "the Sutton-Graves constant for air"
+
+[[symbol]]
+tex = 'R_n'
+meaning = "the nose radius of the test article"
+
+[[symbol]]
+tex = 'v_j'
+meaning = "the nozzle exit velocity of the jet"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the nozzle exit pressure, with $p_a$ the ambient pressure at the exit plane"
+
+[[symbol]]
+tex = 'A_e'
+meaning = "the nozzle exit area"
+
+[[symbol]]
+tex = 'A_t'
+meaning = "the nozzle throat area"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the effective exhaust velocity"
+
+[[symbol]]
+tex = 'I_s'
+meaning = "the specific impulse"
+
+[[symbol]]
+tex = 'c_*'
+meaning = "the characteristic velocity of the propellant combination"
+
+[[symbol]]
+tex = 'C_F'
+meaning = "the nozzle thrust coefficient"
+
+[[symbol]]
+tex = 'p_c'
+meaning = "the chamber pressure"
+
+[[symbol]]
+tex = '\epsilon'
+meaning = "the nozzle area ratio"
+
+[[symbol]]
+tex = 'M_x'
+meaning = "the Mach number at the nozzle exit plane"
+
+[[symbol]]
+tex = '\Gamma'
+meaning = "the Vandenkerckhove function of the ratio of specific heats"
+
+[[symbol]]
+tex = 'T_c'
+meaning = "the combustion chamber temperature"
+
+[[symbol]]
+tex = 'F_v'
+meaning = "the vacuum thrust of the engine"
+
+[[symbol]]
+tex = 'V_0'
+meaning = "the release velocity, the true airspeed at separation from the carrier"
+
+[[symbol]]
+tex = '\Delta V_k'
+meaning = "the kinematic velocity increment"
+
+[[symbol]]
+tex = '\Delta V_g'
+meaning = "the velocity lost to gravity during powered ascent"
+
+[[symbol]]
+tex = '\Delta V_d'
+meaning = "the velocity lost to drag during powered ascent"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the vehicle mass at engine ignition, with $m_f$ the mass at burnout"
+
+[[symbol]]
+tex = 'm_p'
+meaning = "the usable propellant mass"
+
+[[symbol]]
+tex = 'm_s'
+meaning = "the structural and inert mass of the vehicle"
+
+[[symbol]]
+tex = 'm_l'
+meaning = "the payload mass"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the propellant mass fraction"
+
+[[symbol]]
+tex = 't_b'
+meaning = "the powered burn duration"
+
+[[symbol]]
+tex = 'r_m'
+meaning = "the oxidiser to fuel mixture ratio by mass"
+
+[[symbol]]
+tex = 'm_o'
+meaning = "the oxidiser mass, with $m_u$ the fuel mass"
+
+[[symbol]]
+tex = '\rho_o'
+meaning = "the density of liquid oxygen at its normal boiling point, with $\\rho_u$ that of the kerosene fuel"
+
+[[symbol]]
+tex = 'V_p'
+meaning = "the total propellant volume"
+
+[[symbol]]
+tex = 'l_t'
+meaning = "the length of the propellant tankage"
+
+[[symbol]]
+tex = 'f_r'
+meaning = "the fineness ratio of the booster, with $l_b$ the booster length"
+
+[[symbol]]
+tex = 'A_f'
+meaning = "the frontal area of the booster"
+
+[[symbol]]
+tex = '\rho_b'
+meaning = "the bulk density of the loaded propellant"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the flight path angle above the horizontal"
+
+[[symbol]]
+tex = 'C_l'
+meaning = "the lift coefficient, with $C_d$ the drag coefficient"
+
+[[symbol]]
+tex = '\beta_b'
+meaning = "the ballistic coefficient"
+
+[[symbol]]
+tex = '\theta_c'
+meaning = "the flight path angle the pitch programme commands, with $\\theta_0$ the release angle and $\\theta_b$ the commanded burnout angle"
+
+[[symbol]]
+tex = 'M_i'
+meaning = "the Mach number at an anchor point of the drag model"
+
+[[symbol]]
+tex = '\sigma_s'
+meaning = "the structural coefficient, the inert mass as a share of inert plus propellant"
+
+[[symbol]]
+tex = 'f_l'
+meaning = "the payload mass fraction"
+
+[[symbol]]
+tex = 'c_s'
+meaning = "the cost per second of test condition delivered"
+
+[[symbol]]
+tex = 'C_t'
+meaning = "the total cost obligated against the programme"
+
+[[symbol]]
+tex = 'N_f'
+meaning = "the number of flights flown"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the time a payload spends inside the test corridor on one flight"
+
+[[symbol]]
+tex = 'M_d'
+meaning = "the Mach number above which a flight counts as being at condition"
+
+[[symbol]]
+tex = 'c_m'
+meaning = "the marginal cost of one further flight"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the throttle setting, as a fraction of rated thrust"
+
+[[symbol]]
+tex = '\Delta p_j'
+meaning = "the pressure drop across the injector"
+
+[[symbol]]
+tex = 'C_j'
+meaning = "the discharge coefficient of an injector orifice, with $A_j$ the total orifice area"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the specific orbital energy of the burnout state"
+
+[[symbol]]
+tex = '\mu_E'
+meaning = "the gravitational parameter of the Earth"
+
+[[symbol]]
+tex = 'r_b'
+meaning = "the geocentric radius at burnout"
+
+[[symbol]]
+tex = 'a_s'
+meaning = "the semi-major axis of the coasting ellipse"
+
+[[symbol]]
+tex = 'e_c'
+meaning = "the eccentricity of the coasting ellipse"
+
+[[symbol]]
+tex = 'r_p'
+meaning = "the perigee radius of the coasting ellipse"
+
+[[symbol]]
+tex = 'R_m'
+meaning = "the volumetric mean radius of the Earth"
+
+[[symbol]]
+tex = 'V_c'
+meaning = "the circular orbital speed at the burnout radius"

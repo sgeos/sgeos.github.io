@@ -1,0 +1,667 @@
+# Equation classification for A356. Read by `python3 _lib/equations.py`.
+
+caution = "Pressures, densities and speeds are in units of the International System at standard atmosphere conditions, while weights and thrusts are quoted from the builder in pounds and speeds from the National Aeronautics and Space Administration in miles per hour, levels are in decibels referred to 20 micropascals, and perceived level in decibels on the Mark VII scale is a psychophysical quantity whose differences are not pressure ratios, so a percentage reduction depends on whether it is stated in pressure, energy or loudness."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Mach Angle and Prandtl-Glauert Parameter"
+gloss = "The Mach cone has a half-angle whose sine is the reciprocal of the Mach number, and its cotangent is the Prandtl-Glauert parameter."
+cite = ["book_liepmann"]
+digest = "91b2a1cd9c7bcbce"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Far-Field Overpressure From the F-Function"
+gloss = "Linearised supersonic theory gives the far-field overpressure ratio as proportional to Whitham's F-function and inversely to the square root of distance."
+cite = ["research_whitham_1952", "book_whitham"]
+digest = "753eef7d629a4e55"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Whitham F-Function"
+gloss = "The F-function is an Abel transform of the second derivative of the equivalent area distribution."
+cite = ["research_whitham_1952", "book_whitham"]
+digest = "fc890979891672fe"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Equivalent Area Including Lift"
+gloss = "The equivalent area is the volume cross-section plus a term proportional to the lift carried ahead of each station."
+cite = ["book_ashley_landahl", "book_jones"]
+digest = "d2297ff1c576af1d"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Lift-Induced Equivalent Area at the Tail"
+gloss = "Integrated over the whole aircraft in level flight, the lift term collapses to the weight over twice the dynamic pressure times the Prandtl-Glauert parameter, independent of shape."
+cite = []
+digest = "c4f7b201a7513f76"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Lift-Induced Equivalent Area at the Design Point"
+gloss = "The equivalent area is evaluated with the published maximum design gross weight standing for the cruise lift, a choice the article makes, and the standard atmosphere dynamic pressure at Mach 1.4 and 55,000 feet."
+cite = ["ref_lm_card"]
+digest = "149fa3dec6fe9891"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Diameter of the Lift-Induced Equivalent Body"
+gloss = "A body of revolution carrying that equivalent area, taken at the maximum design gross weight, would be 2.32 metres across."
+cite = []
+digest = "0b72410d9740c4de"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Altitude Ratio of the Lift-Induced Equivalent Area"
+gloss = "At fixed weight and Mach number the lift-induced area scales inversely with dynamic pressure, so it is 2.06 times larger at 55,000 feet than at 40,000."
+cite = []
+digest = "4579622a57006a66"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Von Karman Slender-Body Wave Drag"
+gloss = "The wave drag is a double integral of the second derivative of the same equivalent area with a logarithmic kernel."
+cite = ["book_kuchemann", "ref_area_rule"]
+digest = "90d5c427bc5bf51b"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Cylindrical Spreading of a Weak Disturbance"
+gloss = "A weak disturbance from a line source falls with the square root of distance because its energy spreads over a cylinder."
+cite = ["book_pierce"]
+digest = "379a8439cbe30fc7"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Far-Field Decay of Sonic Boom Amplitude and Duration"
+gloss = "Whitham's far-field result makes the overpressure fall as the minus three-quarters power of distance and the signature lengthen as the one-quarter power."
+cite = ["book_whitham", "book_maglieri"]
+digest = "d6d4add703b0ce45"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Acoustic Intensity"
+gloss = "The intensity of an acoustic wave is its mean square pressure over the characteristic impedance of the medium."
+cite = ["book_kinsler"]
+digest = "d9cb47162800a817"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Decay of Acoustic Energy Along the Ray"
+gloss = "Combining the far-field exponents gives an energy per unit length that falls as the minus one-quarter power of distance, the energy that the shocks dissipate."
+cite = []
+digest = "4ca478eabf7696c1"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Speed of Sound in a Perfect Gas"
+gloss = "The local speed of sound follows from the temperature at each altitude."
+cite = ["ref_us_standard_atmosphere", "book_anderson"]
+digest = "6a395b1d76b05124"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Temperature Profile of the Standard Atmosphere"
+gloss = "The temperature falls linearly in the troposphere and is constant in the isothermal layer above the tropopause."
+cite = ["ref_us_standard_atmosphere"]
+digest = "238659f087bf128e"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Pressure and Density in the Isothermal Layer"
+gloss = "In the isothermal layer the pressure decays exponentially from its tropopause value and the density follows from the gas law."
+cite = ["ref_us_standard_atmosphere", "ref_icao_atmosphere"]
+digest = "1ad917e79f0f4a75"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Dynamic Pressure at the Design Cruise"
+gloss = "At the standard atmosphere density for 55,000 feet and a speed of Mach 1.4 the dynamic pressure is 12,512 pascals."
+cite = []
+digest = "4651d3707df4ddd8"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Ray Invariant in a Stratified Atmosphere"
+gloss = "In a horizontally stratified medium the cosine of the ray elevation over the local sound speed is conserved, a form of Snell's law."
+cite = ["book_pierce"]
+digest = "73fd9080d0ddb1cb"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Mach Cutoff Number"
+gloss = "The boom reaches the ground only above the Mach number equal to the ratio of the sound speed at the ground to that at cruise altitude."
+cite = ["book_maglieri"]
+digest = "abb16017561d6a22"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Cutoff Mach Number at the Design Altitude"
+gloss = "In the standard atmosphere the cutoff Mach number from 55,000 feet is 1.153, well below the design Mach number of 1.4."
+cite = ["ref_us_standard_atmosphere"]
+digest = "365b90cbcf6a4215"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Horizontal Slowness of an Azimuthal Ray"
+gloss = "For a wave normal at azimuth $\\phi$ around the Mach cone, the magnitude of the horizontal slowness is invariant along the ray."
+cite = ["book_pierce", "research_haefelirc_hayeswd_1969"]
+digest = "e89c0ff574329843"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Lateral Cutoff Azimuth"
+gloss = "A ray reaches the ground only while its slowness admits a real vertical direction there, which at the design condition requires an azimuth of at least 45.4 degrees."
+cite = ["research_haefelirc_hayeswd_1969"]
+digest = "6035b2d5a04dca4a"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Lateral Ray Path"
+gloss = "The lateral offset of a ray follows from integrating the slope that the invariant fixes from cruise altitude to the ground."
+cite = ["book_pierce"]
+digest = "ff4d3ca15c5cc672"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Boom Carpet Half-Width and Width"
+gloss = "Integrating the ray path numerically through the standard atmosphere places the widest-arriving ray 29.6 kilometres to the side, a carpet of 59.2 kilometres."
+cite = []
+digest = "c077b04876b900f0"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Check of the Ray Tracer Against the Published Rule of Thumb"
+gloss = "The same tracer at Mach 2 falls 3.9 percent short of the published one mile per thousand feet, and the Mach 1.4 carpet is 69.6 percent of the Mach 2 carpet."
+cite = ["ref_nasa_fs016"]
+digest = "47497f340caf9eba"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Design Cruise Speed"
+gloss = "The design Mach number times the speed of sound at cruise altitude gives 413.1 metres per second, which reproduces the published 925 miles per hour."
+cite = ["ref_nasa_quesst_aircraft"]
+digest = "f9b12cf940d9d3bf"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Sound Pressure Level"
+gloss = "An overpressure becomes a level as twenty times the base-ten logarithm of its ratio to the reference pressure."
+cite = ["book_kinsler"]
+digest = "44b9423522d79442"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Ground Reflection Factor"
+gloss = "The overpressure at the ground is the incident overpressure times a reflection factor close to two."
+cite = []
+digest = "117bb975dbece7ab"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Ground Impedance Implied by a Reflection Factor of 1.9"
+gloss = "For a locally reacting surface at normal incidence, the reflection factor of 1.9 that the article adopts from inside the measured range of 1.8 to 2.0 corresponds to a normalised ground impedance of 19."
+cite = ["research_carlsonhw_1978"]
+digest = "403a5bcb0afb6d8f"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Taylor Thickness of a Weak Shock"
+gloss = "The steady thickness of a weak shock in a viscous, heat-conducting gas is inversely proportional to its strength, and its rise time is that thickness over the sound speed."
+cite = ["book_hamilton_blackstock"]
+digest = "97a964e3a8a733d0"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Diffusivity of Sound"
+gloss = "The diffusivity of sound gathers the shear and bulk viscosities and the thermal conduction term."
+cite = ["ref_bulk_viscosity"]
+digest = "e68b5f43483d9d5b"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Classical Rise Time Against Measurement"
+gloss = "At sea level and the low-boom overpressure the classical rise time is 5.2 microseconds, about 192 times shorter than the measured millisecond."
+cite = ["research_cleveland_blackstock_1994", "research_maglieridomenicj_sothcottvictore_1990"]
+digest = "50edbac6bb6f6340"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Classical Absorption Coefficient"
+gloss = "Classical absorption from viscosity and conduction rises as the square of frequency and gives 0.159 decibels a kilometre at 1,000 hertz."
+cite = []
+digest = "c0552503c8c26d55"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Steepening Distance and Least Unshocked Rise Time"
+gloss = "A compression of rise time $\\tau$ steepens into a shock after a distance that falls with its amplitude, and inverting it over the propagation distance gives the least rise time that arrives unshocked."
+cite = ["book_hamilton_blackstock", "book_whitham"]
+digest = "973f1d88b534d0ad"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Indicative Least Rise Time"
+gloss = "Evaluating the least rise time at sea-level conditions over the whole path from cruise altitude, an indicative choice the article makes for a stratified atmosphere, gives about six milliseconds."
+cite = []
+digest = "bec135fe1ad33ad1"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "N-Wave Pressure Signature"
+gloss = "The classical far-field signature falls linearly from the front shock through zero to an equal rear shock over the duration $T_s$."
+cite = ["book_whitham", "book_maglieri"]
+digest = "577bb078e3900399"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Lower Bound on Signature Duration"
+gloss = "No signature can be shorter than the time the aircraft takes to travel its own length, 73 milliseconds at the design speed."
+cite = []
+digest = "035fdbe2f5bf162c"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Positive-Phase Impulse"
+gloss = "The impulse of the positive phase of the N-wave is one quarter of the peak overpressure times the duration."
+cite = ["book_kinsler", "ref_sae_arp865"]
+digest = "3e348d8de3131be8"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Sound Exposure Level at the Shortest Duration"
+gloss = "The sound exposure of the N-wave is evaluated at the published overpressure and at the shortest possible duration, a bound the article takes as the duration, giving 101 decibels."
+cite = []
+digest = "66de7eba9975f705"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Spectrum of a Smoothed Step"
+gloss = "The article models the front of the signature as a step smoothed with a single rise time, whose spectrum falls as one over frequency until the smoothing takes hold."
+cite = ["research_pierce_1970"]
+digest = "25536b60ddeeb269"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Corner Frequency of the Front"
+gloss = "The spectrum steepens above a corner frequency of one over two pi times the rise time."
+cite = []
+digest = "e42aa97ea9619988"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Stevens Mark VII Perceived Level and Loudness"
+gloss = "The Mark VII scale sets one sone at forty decibels of perceived level and doubles the loudness for every 32 decibels."
+cite = ["research_stevens_1972", "ref_sone"]
+digest = "888a518630da4a84"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Loudness of the Target and of Concorde"
+gloss = "Perceived levels of 75 and 105 correspond to loudnesses of 2.134 and 4.088 sones."
+cite = []
+digest = "d5246fd219624a27"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Loudness Reduction Against a Pressure Reading of the Same Decibels"
+gloss = "In loudness the reduction from 105 to 75 is 47.8 percent, whereas reading the same thirty decibels as a pressure ratio gives 96.8 percent."
+cite = ["research_doebler_rathsam_2019"]
+digest = "cf24916263c80da0"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Loudness Reduction for Other Concorde Baselines"
+gloss = "Because a loudness ratio depends only on a difference of perceived level, baselines of 108 and 110 give reductions of 51.1 and 53.1 percent."
+cite = []
+digest = "c661161306a2ec4c"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Overpressure and Energy Reductions"
+gloss = "The published overpressures give a reduction of 84.5 percent, and thirty decibels read as an energy ratio gives 99.9 percent."
+cite = []
+digest = "271320ef481d4d5a"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Split of the Reduction Into Amplitude and Shape"
+gloss = "The article treats the amplitude term as if perceived level obeyed the decibel rule for peak overpressure, an assumption the sources do not make, and attributes the remaining 13.8 decibels to shape."
+cite = ["ref_nasa_release_18_020", "research_doebler_rathsam_2019"]
+digest = "7b11835dccd37ca0"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Slenderness Ratio"
+gloss = "The article compares aircraft by a slenderness ratio it defines as overall length divided by span."
+cite = []
+digest = "5c750f7c9194065e"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Spread of Published Lengths and Their Slenderness"
+gloss = "The three published lengths differ by 5.87 feet, and against the card's span they give slenderness ratios of 3.18, 3.36 and 3.38."
+cite = ["ref_lm_card", "ref_nasa_quesst_aircraft", "ref_x59_overview"]
+digest = "23d8163b2d411800"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Sum of the Published Weights Against the Gross Weight"
+gloss = "The card's empty, fuel and payload weights sum to 23,600 pounds, 2.9 percent short of its maximum design gross weight."
+cite = ["ref_lm_card"]
+digest = "0e9b52bd18cc2374"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Sears-Haack Minimum Wave Drag"
+gloss = "The minimum wave drag of a body of revolution of given length and volume falls as the square of the volume over the fourth power of the length."
+cite = ["book_ashley_landahl", "ref_area_rule"]
+digest = "7246d969a0f65a63"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Length Scaling of Wave and Friction Drag"
+gloss = "The article sets the Sears-Haack fourth-power fall in wave drag against a friction drag it takes as proportional to wetted area and a wetted area it takes as proportional to length at fixed volume."
+cite = []
+digest = "3da350b307bd100b"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Sutherland's Law"
+gloss = "Sutherland's law gives the viscosity of air as a function of temperature from a reference value and the Sutherland constant."
+cite = ["book_anderson", "book_raymer"]
+digest = "e2a5b7aa5b1d610a"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Reynolds Number at the Design Cruise"
+gloss = "The Reynolds number on overall length at the cruise density, speed and viscosity is about 129 million."
+cite = []
+digest = "ee2b002c1128d63b"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Turbulent Flat-Plate Skin Friction"
+gloss = "The Schlichting turbulent flat-plate correlation gives a mean skin friction coefficient of 0.00206, and the friction drag is the dynamic pressure times that coefficient times the wetted area."
+cite = []
+digest = "76dc78ea117781c3"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Breguet Range in Terms of Mach Number"
+gloss = "The cruise range is the Mach number times the sound speed over the thrust specific fuel consumption, times the lift-to-drag ratio and the logarithm of the weight ratio."
+cite = ["book_raymer", "ref_breguet_range"]
+digest = "855e25fc750235f8"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Thrust Lapse With Density"
+gloss = "The installed net thrust falls as a power of the density ratio."
+cite = []
+digest = "2ed21fe0daadddb2"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Collected Range Coefficient"
+gloss = "Grouping the known terms with the card's fuel and gross weights, which assumes the whole fuel load is burned in cruise, gives a coefficient of 165 metres per second that multiplies the unpublished ratio of lift-to-drag ratio to consumption."
+cite = ["ref_breguet_range"]
+digest = "04574bda8b7f97c7"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Thrust Bound at the Cruise Density"
+gloss = "With a lapse exponent of one that the article takes, the published sea-level thrust of 22,000 pounds lapses to an indicative 2,634 pounds at the cruise density."
+cite = ["ref_f414"]
+digest = "e715a2262226c688"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "First Flight Against the Design Cruise"
+gloss = "The first flight reached 24.9 percent of the design cruise speed and 21.8 percent of the design cruise altitude."
+cite = ["ref_nasa_first_flight", "ref_nasa_quesst_aircraft"]
+digest = "75704298c0df8b72"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the Mach angle"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the Prandtl-Glauert parameter, $\\sqrt{M^2-1}$"
+
+[[symbol]]
+tex = 'p_a'
+meaning = "the ambient pressure at the aircraft"
+
+[[symbol]]
+tex = 'F(\zeta)'
+meaning = "Whitham's F-function, with $\\zeta$ the retarded streamwise coordinate in which it is written"
+
+[[symbol]]
+tex = 'A_e'
+meaning = "the equivalent area distribution"
+
+[[symbol]]
+tex = 'A_V'
+meaning = "the part of the equivalent area contributed by volume alone"
+
+[[symbol]]
+tex = 'q'
+meaning = "the free-stream dynamic pressure"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'd_e'
+meaning = "the diameter of a circle whose area is the lift-induced equivalent area"
+
+[[symbol]]
+tex = 'D_w'
+meaning = "the wave drag"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the overall length of the aircraft"
+
+[[symbol]]
+tex = 'T_s'
+meaning = "the duration of the ground signature"
+
+[[symbol]]
+tex = '\Pi(r)'
+meaning = "the acoustic energy per unit length of a cylinder of radius $r$"
+
+[[symbol]]
+tex = 'c(z)'
+meaning = "the local speed of sound at altitude $z$"
+
+[[symbol]]
+tex = 'z_a'
+meaning = "the aircraft's cruise altitude"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the elevation angle of an acoustic ray above the horizontal"
+
+[[symbol]]
+tex = 'M_c'
+meaning = "the cutoff Mach number, below which no boom reaches the ground"
+
+[[symbol]]
+tex = 'u'
+meaning = "the horizontal slowness of a ray, which is invariant in a stratified atmosphere"
+
+[[symbol]]
+tex = '\phi_c'
+meaning = "the azimuth below which a ray no longer reaches the ground"
+
+[[symbol]]
+tex = 'y_c'
+meaning = "the half-width of the boom carpet"
+
+[[symbol]]
+tex = 'L_p'
+meaning = "the sound pressure level"
+
+[[symbol]]
+tex = 'p_r'
+meaning = "the reference pressure of the decibel scale, 20 micropascals"
+
+[[symbol]]
+tex = 'K_R'
+meaning = "the ground reflection factor"
+
+[[symbol]]
+tex = 'R_g'
+meaning = "the pressure reflection coefficient at the ground"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the normalised specific acoustic impedance of the ground"
+
+[[symbol]]
+tex = '\delta_d'
+meaning = "the diffusivity of sound in air"
+
+[[symbol]]
+tex = '\eta_B'
+meaning = "the bulk viscosity of air"
+
+[[symbol]]
+tex = '\tau_m'
+meaning = "the least front rise time that avoids coalescence over a given distance"
+
+[[symbol]]
+tex = 'x_s'
+meaning = "the distance in which a compression steepens into a shock"
+
+[[symbol]]
+tex = 'I_p'
+meaning = "the positive-phase impulse of the signature"
+
+[[symbol]]
+tex = 'E_s'
+meaning = "the sound exposure of the signature"
+
+[[symbol]]
+tex = 'L_E'
+meaning = "the sound exposure level"
+
+[[symbol]]
+tex = 'f_c'
+meaning = "the corner frequency above which a shock's spectrum steepens"
+
+[[symbol]]
+tex = 'PL'
+meaning = "the Stevens Mark VII perceived level, in decibels"
+
+[[symbol]]
+tex = 'S(75)'
+meaning = "the total loudness in sones at a perceived level of 75"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the slenderness ratio, overall length divided by span"
+
+[[symbol]]
+tex = '\Omega'
+meaning = "the volume of the equivalent body of revolution"
+
+[[symbol]]
+tex = 'D_f'
+meaning = "the skin friction drag"
+
+[[symbol]]
+tex = 'S_w'
+meaning = "the wetted area"
+
+[[symbol]]
+tex = 'C_S'
+meaning = "Sutherland's constant for air"
+
+[[symbol]]
+tex = 'Re'
+meaning = "the Reynolds number based on overall length"
+
+[[symbol]]
+tex = 'C_f'
+meaning = "the mean skin friction coefficient"
+
+[[symbol]]
+tex = 'R_c'
+meaning = "the still-air cruise range"
+
+[[symbol]]
+tex = 'c_t'
+meaning = "the thrust specific fuel consumption"
+
+[[symbol]]
+tex = 'W_i'
+meaning = "the aircraft weight at the start of cruise, with $W_f$ that at the end"
+
+[[symbol]]
+tex = 'F_N'
+meaning = "the installed net thrust, with $F_{N0}$ its value at sea level and the same Mach number"

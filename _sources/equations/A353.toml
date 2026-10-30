@@ -1,0 +1,443 @@
+# Equation classification for A353. Read by `python3 _lib/equations.py`.
+
+caution = "Airspeeds are in knots as the flight test report quotes them without stating whether they are equivalent or true, the one dynamic pressure evaluated in pascals converts a knot figure at the lake-bed density, damping ratios and the aspect ratio factor $\\Lambda$ are dimensionless, and $\\Lambda$ here multiplies the aspect ratio and is not a sweep angle."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Logarithmic Decrement"
+gloss = "The logarithm of the ratio of consecutive peaks of a decaying oscillation is fixed by the damping ratio alone."
+cite = ["ref_damping_ratio", "book_ewins"]
+digest = "d3c251f627c0bf04"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Peak Ratio per Cycle From the Damping Ratio"
+gloss = "Inverting the decrement gives the fraction of its amplitude a damped oscillation keeps from one cycle to the next."
+cite = []
+digest = "e0ca276819705fda"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Closed Loop Damping Requirement"
+gloss = "The programme required a closed loop damping ratio above 0.04 at every cleared condition."
+cite = ["ref_beyond_flutter"]
+digest = "e9b7f04a89d10295"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Peak Ratio at the Damping Gate"
+gloss = "At a damping ratio of 0.04 an oscillation keeps about 78 percent of its amplitude each cycle."
+cite = ["ref_damping_ratio"]
+digest = "93593a8a9a5c05ca"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Airworthiness Flutter Margin"
+gloss = "The airworthiness rule requires freedom from flutter up to fifteen percent in equivalent airspeed above the design dive speed."
+cite = ["ref_far_25_629", "ref_far_25_335"]
+digest = "2a57179a571f660c"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Dynamic Pressure"
+gloss = "The dynamic pressure is half the air density times the square of the true airspeed."
+cite = ["ref_dynamic_pressure"]
+digest = "c976802f60bd439f"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Equivalent Airspeed"
+gloss = "The equivalent airspeed is the true airspeed scaled by the square root of the density ratio, so that it preserves the dynamic pressure."
+cite = ["ref_equivalent_airspeed"]
+digest = "7c9b84936c4739ec"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Flutter Margin in Dynamic Pressure"
+gloss = "A fifteen percent margin in equivalent airspeed is a margin of about thirty-two percent in dynamic pressure."
+cite = ["ref_far_25_629"]
+digest = "b2a956d759d3a850"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Density Ratio at the Lake Bed"
+gloss = "The standard atmosphere at about 2,300 feet gives a density ratio of 0.934 and a square root of 0.967."
+cite = ["ref_us_standard_atmosphere", "ref_rogers_dry_lake"]
+digest = "7d4c8f70f3675c47"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Dynamic Pressure at the First Flutter Mechanism"
+gloss = "The 111 knot onset speed is converted to metres per second and combined with the standard density at the lake-bed elevation, which the article takes for the flight condition, to give about 1.87 kilopascals."
+cite = []
+digest = "8cbdc517af712bad"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Induced Drag Coefficient"
+gloss = "The induced drag coefficient is the square of the lift coefficient over pi times aspect ratio times span efficiency."
+cite = ["ref_aspect_ratio", "book_megson"]
+digest = "c2a74f14e0806d86"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Induced Drag Ratio for a Scaled Aspect Ratio"
+gloss = "At fixed lift coefficient and span efficiency, multiplying the aspect ratio by $\\Lambda$ divides the induced drag by $\\Lambda$."
+cite = ["ref_aspect_ratio"]
+digest = "91544c6664ff0f15"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Induced Drag Ratios at the Programme Goal"
+gloss = "The programme goal of thirty to forty percent more aspect ratio gives induced drag ratios of 0.769 and 0.714."
+cite = ["ref_aspect_ratio", "ref_x56_factsheet"]
+digest = "1f1ba2159965a7bd"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Fundamental Bending Frequency of a Uniform Cantilever"
+gloss = "The fundamental bending frequency of a uniform cantilever is set by its stiffness, its mass per length and the square of its length through the coefficient 1.8751."
+cite = ["book_ewins", "book_hodges_pierce"]
+digest = "891378f145c452d4"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Scaling of the Cantilever Bending Frequency"
+gloss = "The bending frequency rises with the square root of stiffness over mass per length and falls with the square of the semispan."
+cite = []
+digest = "081257d96a627481"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Short Period Frequency Proportional to Airspeed"
+gloss = "At fixed density the short period frequency rises in proportion to airspeed because its aerodynamic restoring moment grows with dynamic pressure."
+cite = ["book_nelson", "book_stengel"]
+digest = "055a6efc3eabca57"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Body Freedom Flutter as Frequency Coincidence"
+gloss = "The article idealises body freedom flutter as the speed at which the rising short period frequency meets the wing bending frequency, although the real mechanism involves the coupled system."
+cite = ["ref_beyond_flutter"]
+digest = "6e52f6112a16de69"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Flutter Speed Scaling With Wing Stiffness and Semispan"
+gloss = "Under the uniform cantilever and frequency coincidence idealisations the flutter speed inherits the bending frequency scaling exactly."
+cite = ["book_bisplinghoff", "book_wright_cooper"]
+digest = "503fd1870d09ecdd"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Span From Aspect Ratio at Fixed Area"
+gloss = "At fixed wing area the span is the square root of aspect ratio times area, so it grows as the square root of aspect ratio."
+cite = ["ref_aspect_ratio"]
+digest = "8043f8aee257fc76"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Stiffness Needed to Hold the Flutter Speed"
+gloss = "Holding the flutter speed constant under the cantilever scaling at fixed area requires the bending stiffness to grow as the fourth power of the span ratio, which is the square of the aspect ratio factor."
+cite = []
+digest = "be941b6b265e6078"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Stiffness Ratios at the Programme Goal"
+gloss = "The idealised stiffness scaling at aspect ratio factors of 1.3 and 1.4 calls for 1.69 and 1.96 times the bending stiffness."
+cite = []
+digest = "f00561ac03a9f259"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Aerodynamic Prize Against Structural Price"
+gloss = "The article sets the reciprocal gain in induced drag beside the square-law cost in bending stiffness that its idealised scaling gives."
+cite = []
+digest = "415b7484581fb9a2"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Aspect Ratio"
+gloss = "The aspect ratio is the square of the span over the wing area."
+cite = ["ref_aspect_ratio"]
+digest = "515bf4ba1759cd31"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "State Count of the Aeroservoelastic Model"
+gloss = "The model's 325 states are the reported sum of rigid body, structural, aerodynamic lag, actuator, engine and sensor states."
+cite = ["ref_beyond_flutter"]
+digest = "a09d27421132b49d"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Reduced Frequency"
+gloss = "The reduced frequency compares the time the air takes to cross the half chord with the period of the oscillation."
+cite = ["book_bisplinghoff", "book_dowell"]
+digest = "41fd115065a6ae98"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Zimmerman and Weissenburger Flutter Margin"
+gloss = "The Zimmerman and Weissenburger parameter combines the frequencies and decay rates of the two coalescing modes into one stability measure that falls to zero at flutter."
+cite = ["research_zimmerman_weissenburger_1964", "research_weissenburger_zimmerman_1963"]
+digest = "bac00d082f99908f"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Quadratic Extrapolation of the Flutter Margin"
+gloss = "A second order curve in airspeed is fitted to the parameter and its zero is taken as the predicted flutter speed."
+cite = ["ref_beyond_flutter"]
+digest = "6e02538a37cf7ce3"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Relative Error of the Flutter Prediction"
+gloss = "A prediction within one knot of the observed 111 knots carries a relative error of under one percent."
+cite = ["ref_beyond_flutter"]
+digest = "c477e14b50a492b6"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Shift of the Flutter Boundary With Fuel State"
+gloss = "Flutter onset moved from about 111 knots at low fuel and forward centre of gravity to about 114 knots at high fuel and aft centre of gravity."
+cite = ["ref_beyond_flutter"]
+digest = "c45e7f372a02dc5d"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Damping Ratio From Growth Over Three Cycles"
+gloss = "Inverting the logarithmic decrement gives the negative damping ratio that produces an amplitude growth factor $G$ over three cycles."
+cite = ["ref_damping_ratio"]
+digest = "0b1497ec074b0f9e"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Negative Damping for Assumed Growth Factors"
+gloss = "Because the test limit is not published, the article evaluates the inversion at growth factors of three and ten over three cycles that it chooses as bounds."
+cite = []
+digest = "b4c7efa3f50c3c8a"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Cycles to Double Amplitude"
+gloss = "The number of cycles an unstable oscillation takes to double in amplitude depends only on its damping ratio."
+cite = ["book_wright_cooper"]
+digest = "970a25fd96d8ca98"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Doubling Cycles at Illustrative Damping Ratios"
+gloss = "At damping ratios of minus 0.02 and minus 0.05, values the article chooses for illustration, an oscillation doubles in about 5.5 and 2.2 cycles."
+cite = []
+digest = "b5dec43672f6c8ce"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Describing Function of an Actuator Deadband"
+gloss = "The describing function of a deadband gives the effective gain it presents to a sinusoid as a function of the ratio of deadband width to amplitude."
+cite = ["ref_deadband"]
+digest = "9d290d9251b68c24"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Limits of the Deadband Describing Function"
+gloss = "The effective gain rises from zero at the edge of the deadband to one at large amplitude."
+cite = ["ref_deadband"]
+digest = "fac5d53617a5661d"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Change in Local Angle of Attack From Section Plunge"
+gloss = "A section moving upward into a stream meets it at an angle reduced by the arctangent of the plunge rate over the airspeed."
+cite = ["book_etkin"]
+digest = "bd62f5e4251ec8db"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Angle of Attack Loss at Takeoff"
+gloss = "At the reported takeoff speed of 65 knots a wingtip rising at one metre per second, a rate the article chooses for illustration, loses 1.71 degrees of local angle of attack."
+cite = ["ref_beyond_flutter"]
+digest = "1850fe81f4bed2a2"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Margin From Takeoff Speed to Flutter Onset"
+gloss = "The 111 knot flutter onset lay 46 knots above the 65 knot takeoff speed."
+cite = ["ref_beyond_flutter"]
+digest = "f26b9e5bd6b61a0a"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Gaps to the Second Flutter Mechanism"
+gloss = "The second mechanism, predicted at 138 to 144 knots, lies three to nine knots above the 135 knot maximum level speed and eighteen knots above the 120 knot cleared envelope."
+cite = ["ref_beyond_flutter"]
+digest = "7b1ada3be24f417a"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Speed and Dynamic Pressure Ratios of the Two Mechanisms"
+gloss = "The second mechanism lies 24 percent above the first in airspeed and, by the square law, 55 percent above it in dynamic pressure."
+cite = ["ref_dynamic_pressure"]
+digest = "93dce0519b7d4b34"
+
+[[symbol]]
+tex = 'x_n'
+meaning = "the amplitude of the $n$th peak"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the damping ratio, with $\\zeta_c$ the closed loop value"
+
+[[symbol]]
+tex = 'V_F'
+meaning = "the flutter speed, with $\\hat{V}_F$ its prediction"
+
+[[symbol]]
+tex = 'V_D'
+meaning = "the design dive speed"
+
+[[symbol]]
+tex = 'V_E'
+meaning = "the equivalent airspeed"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the density ratio of the standard atmosphere"
+
+[[symbol]]
+tex = '\rho_0'
+meaning = "the sea-level air density"
+
+[[symbol]]
+tex = 'q_F'
+meaning = "the dynamic pressure at the flutter speed, with $q_D$ that at the design dive speed"
+
+[[symbol]]
+tex = 'q_1'
+meaning = "the dynamic pressure at the first flutter mechanism, with $q_2$ that at the second"
+
+[[symbol]]
+tex = 'C_{D_i}'
+meaning = "the induced drag coefficient"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'AR'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the factor by which the aspect ratio is increased"
+
+[[symbol]]
+tex = '\omega_b'
+meaning = "the fundamental wing bending frequency"
+
+[[symbol]]
+tex = 'EI'
+meaning = "the bending stiffness of the wing"
+
+[[symbol]]
+tex = '\kappa_1 L'
+meaning = "the first cantilever eigenvalue, with $L$ the semispan"
+
+[[symbol]]
+tex = '\omega_{sp}'
+meaning = "the short period frequency"
+
+[[symbol]]
+tex = 'n_s'
+meaning = "the number of states in the aeroservoelastic model"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean chord"
+
+[[symbol]]
+tex = '\omega_1'
+meaning = "the frequency of the first coalescing mode, with $\\omega_2$ that of the second"
+
+[[symbol]]
+tex = '\beta_1'
+meaning = "the decay rate of the first coalescing mode, with $\\beta_2$ that of the second"
+
+[[symbol]]
+tex = 'G'
+meaning = "the amplitude growth factor over three cycles"
+
+[[symbol]]
+tex = 'n_2'
+meaning = "the number of cycles to double the amplitude"
+
+[[symbol]]
+tex = 'N(A)'
+meaning = "the describing function of the deadband at amplitude $A$, with $d$ the deadband half-width"
+
+[[symbol]]
+tex = '\Delta\alpha'
+meaning = "the change in local angle of attack"
+
+[[symbol]]
+tex = '\dot{h}'
+meaning = "the plunge rate of the wing section"
+
+[[symbol]]
+tex = 'V_{TO}'
+meaning = "the takeoff speed"
+
+[[symbol]]
+tex = 'V_1'
+meaning = "the onset speed of the first flutter mechanism, with $V_2$ that of the second"
+
+[[symbol]]
+tex = 'V_{\max}'
+meaning = "the maximum level flight speed"
+
+[[symbol]]
+tex = 'V_c'
+meaning = "the highest airspeed cleared in flight"

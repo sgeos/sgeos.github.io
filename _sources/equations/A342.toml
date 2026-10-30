@@ -1,0 +1,247 @@
+# Equation classification for A342. Read by `python3 _lib/equations.py`.
+
+caution = "Times in the fan-out relations are in any one consistent unit, so the fan-out, the utilisation and the ratio of neglect time to interaction time are pure numbers, while the masses are in kilograms and the published thrusts are converted from pounds force to newtons before they enter a thrust to weight ratio."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Fan-Out of a Remotely Piloted Aircraft"
+gloss = "With a neglect time of zero the fan-out relation gives a ratio of exactly one vehicle per operator."
+cite = ["ref_fanout_acm"]
+digest = "8061e04b9947cd1f"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Service Condition for One Operator and Many Vehicles"
+gloss = "An operator cycling among identical vehicles can serve $N$ of them only if $N$ interaction times fit within the neglect time plus one interaction time."
+cite = ["ref_fanout_acm"]
+digest = "209bf64560a66287"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Fan-Out Relation"
+gloss = "The fan-out is the neglect time plus the interaction time divided by the interaction time, the largest number of vehicles that satisfies the service condition."
+cite = ["ref_fanout_acm"]
+digest = "f289e09ebd3ac530"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Operator Utilisation as the Reciprocal of Fan-Out"
+gloss = "The operator hours committed per vehicle hour equal the fraction of each cycle spent in interaction, which is the reciprocal of the fan-out."
+cite = []
+digest = "c2965a645d49393c"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Cost of a Sortie as a Function of Fan-Out"
+gloss = "The article models the cost of a sortie as an airframe cost plus a crew cost divided by the fan-out, so that only the second term responds to autonomy."
+cite = []
+digest = "9680b951390ceb1a"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Lower Bound on Neglect Time from the Two-Vehicle Demonstration"
+gloss = "The demonstrated control of two vehicles by one operator bounds the fan-out at two or more, which by the fan-out relation requires a neglect time at least equal to the interaction time."
+cite = []
+digest = "6cbd629f70b3f0b8"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Required Ratio of Neglect Time to Interaction Time"
+gloss = "Rearranging the fan-out relation gives the ratio of neglect time to interaction time as the fan-out less one."
+cite = []
+digest = "99e50f8a16213dab"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Fan-Out with a Switch Cost"
+gloss = "The article adds a switch cost to the denominator of the fan-out relation on the assumption that time spent re-establishing context is time spent on no vehicle."
+cite = ["ref_task_switching"]
+digest = "dd644552d0045885"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Payload Fractions of the X-45A and X-45C"
+gloss = "The published internal payloads divided by the published gross masses give payload fractions that agree to four significant figures."
+cite = ["ref_parsch_x45"]
+digest = "c09da6612f3224a7"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Exponent of Mass on Span"
+gloss = "The exponent of a power law through the two published masses and spans is the ratio of the logarithms of their ratios, 2.977."
+cite = []
+digest = "a9d3dfecc92d3fb8"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Exponent of Payload on Span and the Payload Ratio"
+gloss = "The same exponent computed from the published payloads is 2.976, and the payload ratio is exactly three."
+cite = ["ref_parsch_x45"]
+digest = "dcac4abba93ec834"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Thrust to Weight Ratios of the X-45A and X-45C"
+gloss = "The published sea-level thrusts divided by the weights of the published gross masses give 0.516 for the X-45A and 0.190 for the X-45C."
+cite = ["ref_parsch_x45"]
+digest = "c01c5957b3d369e4"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Thrust Equals Drag at the Ceiling"
+gloss = "At the ceiling the available thrust balances the drag, so the lift to drag ratio the aircraft must reach is the weight over the available thrust."
+cite = []
+digest = "dc8366757de1a347"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Thrust Lapse of a Fixed Engine"
+gloss = "The available thrust scales the sea-level rating by the ratio of total pressure to its sea-level value and the inverse square root of the ratio of total temperature, the corrected mass flow scaling of a fixed engine."
+cite = ["book_mattingly_engine_design", "book_cumpsty"]
+digest = "1b5702d36e2df4ea"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Approach Thrust Fraction"
+gloss = "The steady glide relation gives the thrust to weight ratio an approach requires, and the article defines the approach thrust fraction as that requirement taken against the sea-level rating."
+cite = []
+digest = "2edd1d7dce7fe309"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Approach Speed, Wing Area and Crosswind Sideslip"
+gloss = "The approach speed is 1.3 times the stall speed, the wing area follows from span and aspect ratio, and the sideslip is the angle whose tangent is the crosswind over the approach speed."
+cite = []
+digest = "4bf8c5e2818cc805"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Crosswind Demand Index"
+gloss = "The article takes the yaw demand that thrust vectoring must meet as the product of the dynamic pressure and the crosswind sideslip, which assumes the airframe derivatives are common to the two aircraft compared."
+cite = []
+digest = "6749df2e334ab960"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Net Crosswind Margin Relative to the F-22"
+gloss = "The margin is a ratio of ratios the article defines, the approach thrust fraction relative to the F-22 divided by the demand index relative to the F-22, in which the airframe constants are assumed to cancel."
+cite = []
+digest = "d08877c6a600f376"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Fan-Out with Link Latency"
+gloss = "The article adds a delay of twice the one-way latency to every interaction, so that latency lengthens the interaction without lengthening the neglect."
+cite = []
+digest = "09f7a6a7fd9b4c7e"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Flight Rate of the X-45A Programme"
+gloss = "Sixty-four flights over thirty-eight months give a mean rate of 1.68 flights per month."
+cite = ["ref_parsch_x45"]
+digest = "33342c5dcd930638"
+
+[[symbol]]
+tex = 'FO'
+meaning = "the fan-out, the number of vehicles one operator can supervise"
+
+[[symbol]]
+tex = 'NT'
+meaning = "the neglect time, how long a vehicle can be left alone before it needs attention"
+
+[[symbol]]
+tex = 'IT'
+meaning = "the interaction time, how long the operator must spend on a vehicle once it needs attention, with $IT_{0}$ its value without link delay"
+
+[[symbol]]
+tex = 'SC'
+meaning = "the switch cost, the time spent re-establishing context when moving between vehicles"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of vehicles served by one operator"
+
+[[symbol]]
+tex = 'u'
+meaning = "the operator utilisation"
+
+[[symbol]]
+tex = 'C_{a}'
+meaning = "the cost of putting an airframe over the target"
+
+[[symbol]]
+tex = 'C_{c}'
+meaning = "the crew cost of a manned sortie"
+
+[[symbol]]
+tex = 'b^{\,n}'
+meaning = "the span raised to the scaling exponent $n$"
+
+[[symbol]]
+tex = 'T_{\text{SL}}'
+meaning = "the sea-level static thrust rating"
+
+[[symbol]]
+tex = 'T_{\text{avail}}'
+meaning = "the thrust available at altitude and Mach number"
+
+[[symbol]]
+tex = 'L/D'
+meaning = "the lift to drag ratio"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the glide slope angle"
+
+[[symbol]]
+tex = '\Pi'
+meaning = "the approach thrust fraction, the required approach thrust as a fraction of the sea-level rating"
+
+[[symbol]]
+tex = 'V_{\text{app}}'
+meaning = "the approach speed"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'A\!R'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'V_{c}'
+meaning = "the crosswind speed"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the sideslip angle a crosswind produces"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the one-way link latency"

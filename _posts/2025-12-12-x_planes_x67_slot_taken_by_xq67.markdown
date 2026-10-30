@@ -166,6 +166,7 @@ $$
 + \lvert \mathcal{R}_{\mathrm{cell}} \rvert
 + \lvert \mathcal{R}_{\mathrm{span}} \rvert
 + \lvert \mathcal{R}_{\mathrm{row}} \rvert
+\tag{1}
 $$
 
 **So 103 of the 539 rows carry a mark of some kind**, and five of them are among the seven rows
@@ -195,6 +196,7 @@ decomposition of the set above.
 
 $$
 A \;=\; A_{\mathrm{out}} \,\sqcup\, A_{\mathrm{in}}
+\tag{2}
 $$
 
 **The register opens on 19 August 1998, so a designation allocated before that date is absent from it
@@ -217,6 +219,7 @@ $d_{\max}$ gives the completeness of the record directly.
 
 $$
 \gamma_A \;=\; \frac{\lvert A \rvert}{d_{\max} - d_{\min} + 1}
+\tag{3}
 $$
 
 **That evaluates to 37.5 percent.** More than a third of the positions in the span the
@@ -227,6 +230,7 @@ window is the count of dated rows divided by the interval they span.
 
 $$
 \lambda \;=\; \frac{n}{t_n - t_1}
+\tag{4}
 $$
 
 **The 29 dated research rows span 26.289 years, so $\lambda$ is
@@ -235,6 +239,7 @@ them into years of the series' output.
 
 $$
 \Delta t_A \;=\; \frac{\lvert A_{\mathrm{in}} \rvert}{\lambda}
+\tag{5}
 $$
 
 **That is 9.07 years.** A series issuing roughly one number a year has lost
@@ -469,6 +474,7 @@ again.
 
 $$
 \varsigma_i \;=\; \frac{c_i}{\sum_j c_j}
+\tag{6}
 $$
 
 **The firm that eventually built the aeroplane already held 43.60 percent of that money**,
@@ -480,6 +486,7 @@ between them they hold 23 of the register's 31 research rows** \[[Parsch, DOD 41
 
 $$
 \frac{23}{31} \;=\; 74.2\,\%
+\tag{7}
 $$
 
 The smallest of the five platform-sharing awards went to Aurora Flight
@@ -508,6 +515,7 @@ a relative deviation from a reference.
 
 $$
 \epsilon \;=\; \frac{c - c_{\mathrm{ref}}}{c_{\mathrm{ref}}}
+\tag{8}
 $$
 
 **Against those figures the award record shows one contract at 3.8410 times its reported base
@@ -556,6 +564,7 @@ relation this section needs.
 
 $$
 f \;=\; \frac{t_{\mathrm{event}} - t_{\mathrm{start}}}{t_{\mathrm{end}} - t_{\mathrm{start}}}
+\tag{9}
 $$
 
 **Measured against the 855 days from build contract to first flight, the number arrived
@@ -795,14 +804,17 @@ $\mathcal{A}_t$ be the set of design numbers allocated in a basic mission before
 
 $$
 \nu^{\mathrm{hi}}_t \;=\; 1 + \max \mathcal{A}_t
+\tag{10}
 $$
 
 $$
 \nu^{\mathrm{seq}}_t \;=\; \min \bigl\{\, n \ge 1 \;:\; n \notin \mathcal{A}_t \,\bigr\}
+\tag{11}
 $$
 
 $$
 \nu^{\mathrm{rec}}_t \;=\; 1 + d\bigl(\arg\max_{\,a \in \mathcal{A}_t} t_a\bigr)
+\tag{12}
 $$
 
 **The first is one above the highest number ever allocated. The second is the lowest number never
@@ -1031,6 +1043,7 @@ Write a designation as an ordered tuple of those fields.
 
 $$
 \mathcal{D} \;=\; \bigl(\, p,\; q,\; m,\; d,\; s \,\bigr)
+\tag{13}
 $$
 
 **Here $p$ is the status prefix, $q$ the modified mission symbol, $m$ the basic mission symbol,
@@ -1048,6 +1061,7 @@ has the following capacity.
 
 $$
 N_c \;=\; N_d \, N_s
+\tag{14}
 $$
 
 **With $N_d$ equal to 999 and $N_s$ equal to 24 that is 23,976
@@ -1174,6 +1188,7 @@ mission, then the $k$th design number allocated in that mission is $k$ itself.
 
 $$
 d_k \;=\; k
+\tag{15}
 $$
 
 **That form cannot be tested against this register, and saying why is half the measurement.** The
@@ -1183,6 +1198,7 @@ removes the origin.**
 
 $$
 \Delta_k \;=\; d_k - d_{k-1} \;=\; 1
+\tag{16}
 $$
 
 **So the instruction's definition implies that each new design number exceeds the previous new one by
@@ -1205,6 +1221,7 @@ $$
 \theta_{\Delta}^{X} \;=\; \frac{15}{22} \;=\; 68.2\,\%,
 \qquad
 \theta_{\Delta}^{Q} \;=\; \frac{9}{29} \;=\; 31.0\,\%
+\tag{17}
 $$
 
 ### The Increment and the Pointer Measure Different Things, and the Article Needs Both
@@ -1217,6 +1234,7 @@ $$
 \nu_k \;=\; \max_{\,j \le k} d_j
 \qquad\text{and}\qquad
 \alpha_k \;=\; \nu_k - \nu_{k-1}
+\tag{18}
 $$
 
 **The two differ exactly when a number below the pointer is allocated**, and there the identity is
@@ -1226,6 +1244,7 @@ $$
 \alpha_k \;=\; 0
 \qquad\Longleftrightarrow\qquad
 d_k \;\le\; \nu_{k-1}
+\tag{19}
 $$
 
 **An allocation below the pointer makes its increment negative and inflates the next one by the same amount**,
@@ -1234,6 +1253,7 @@ not have that defect, and the numbers actually skipped are the advances in exces
 
 $$
 \lvert A_{\mathrm{skip}} \rvert \;=\; \sum_{k \,:\, \alpha_k > 1} \bigl(\alpha_k - 1\bigr)
+\tag{20}
 $$
 
 **For the research series that sum is eleven, across five advances greater than one,
@@ -1242,6 +1262,7 @@ obedience rate is therefore the share of advances equal to one.
 
 $$
 \theta \;=\; \frac{\lvert \{\, k : \alpha_k = 1 \,\} \rvert}{\lvert \{\, k \,\} \rvert}
+\tag{21}
 $$
 
 **That is 72.7 percent for the research series and 50.4 percent across the whole
@@ -1258,6 +1279,7 @@ $$
 \theta^{M} \;=\; \frac{17}{33} \;=\; 51.5\,\%,
 \qquad
 \theta^{Q} \;=\; \frac{13}{29} \;=\; 44.8\,\%
+\tag{22}
 $$
 
 **The X-67 was lost from the one numbering sequence in this register that mostly does follow the
@@ -1323,6 +1345,7 @@ $$
 \mathsf{purpose} : \mathcal{N} \to \mathcal{T}
 \qquad\text{and}\qquad
 \mathsf{maker} : \mathcal{N} \to \mathcal{F}
+\tag{23}
 $$
 
 **The first reading, that a design number indexes a purpose, requires the purpose map to be
@@ -1330,6 +1353,7 @@ injective.** Two different numbers must not carry the same official statement.
 
 $$
 \mathsf{purpose}(x) = \mathsf{purpose}(y) \;\Longrightarrow\; x = y
+\tag{24}
 $$
 
 **It is not injective and the failures are counted.** Over 490 distinct descriptions of
@@ -1342,6 +1366,7 @@ one number name the same firm.
 $$
 \lvert \{\, \mathsf{maker}(w) \;:\; w \in \mathcal{N}^{-1}(x) \,\} \rvert \;=\; 1
 \qquad\text{for every } x \in \mathcal{N}
+\tag{25}
 $$
 
 **It is not well defined either.** Of 235 mission-and-number pairs,
@@ -1364,6 +1389,7 @@ $$
 \frac{\lvert \mathcal{M} \rvert}{\lvert \mathcal{N}_{>1} \rvert} \;=\; 26.2\,\%
 \qquad\text{and}\qquad
 \frac{\lvert \mathcal{M} \rvert}{\lvert \mathcal{N} \rvert} \;=\; 11.5\,\%
+\tag{26}
 $$
 
 **The first is as a share of the 103 numbers that carry more than one row, which is the
@@ -1390,6 +1416,7 @@ by the procedure is one more than the last approved design number of that basic 
 
 $$
 \nu_k \;=\; 1 + \max_{\,j < k} d_j
+\tag{27}
 $$
 
 **If every allocation takes the next number then $d_k = \nu_k$ for all $k$, the sequence is a deterministic function of its history, and a designation carries no information beyond its order.**
@@ -1398,6 +1425,7 @@ quantity that carries anything is the departure.
 
 $$
 \delta_k \;=\; d_k - \nu_k
+\tag{28}
 $$
 
 **An in-sequence allocation has $\delta_k = 0$.** The information a chosen number can carry is bounded
@@ -1406,6 +1434,7 @@ top of the field.
 
 $$
 I(\nu) \;=\; \log_2\!\bigl(N_d - \nu + 1\bigr)
+\tag{29}
 $$
 
 **The zero is better written as a conditional entropy than asserted**, because in that form
@@ -1415,6 +1444,7 @@ $$
 H\bigl(d_k \,\big|\, d_1, \ldots, d_{k-1}\bigr) \;=\; 0
 \qquad\text{whenever}\qquad
 d_k = \nu_{k-1} + 1
+\tag{30}
 $$
 
 **At the research series' position in July 2023 that bound is 9.8657 bits, against
@@ -1444,6 +1474,7 @@ uniform and its entropy is 2.5850 bits, which equals the maximum
 
 $$
 H \;=\; -\sum_i \pi_i \log_2 \pi_i \;=\; \log_2 n \quad\text{when every observation is distinct}
+\tag{31}
 $$
 
 **That coincidence is a warning and not a result, and it is labelled as one.** With
@@ -1461,6 +1492,7 @@ middle of that transition.**
 
 $$
 I_{\Sigma} \;=\; \sum_{k \,:\, \delta_k > 0} \log_2\!\bigl(N_d - \nu_k + 1\bigr)
+\tag{32}
 $$
 
 **That is 59.5355 bits across the six dated out-of-sequence unmanned allocations,
@@ -1506,12 +1538,14 @@ per-draw hit probability $\pi$ is 0.049020.
 $$
 \pi \;=\; \frac{\bar{\tau}}{B} \qquad\text{and}\qquad
 \Pr\!\left[\,N_h \ge k\,\right] \;=\; \sum_{i=k}^{n} \binom{n}{i} \, \pi^{\,i} \, (1-\pi)^{\,n-i}
+\tag{33}
 $$
 
 **The expectation is the more legible quantity and it comes first.**
 
 $$
 \mathbb{E}\bigl[N_h\bigr] \;=\; n \, \pi
+\tag{34}
 $$
 
 **At six draws and a per-draw probability of 0.049020 that is 0.2941 accidental
@@ -1594,6 +1628,7 @@ across the family. The family then holds the common parts once and the distinct 
 
 $$
 U \;=\; C \;+\; S\,\bigl(P - C\bigr)
+\tag{35}
 $$
 
 **Against wholly bespoke designs, which hold $SP$ distinct parts, the ratio is the quantity that matters,
@@ -1601,6 +1636,7 @@ and writing the shared fraction as $\phi = C/P$ reduces it to two variables.**
 
 $$
 \rho \;=\; \frac{U}{S P} \;=\; \frac{1}{S} \;+\; \left(1 - \frac{1}{S}\right)\bigl(1 - \phi\bigr)
+\tag{36}
 $$
 
 **The limits are the test of the expression and both are right.** At $\phi = 1$ every part is shared and
@@ -1612,6 +1648,7 @@ ratio is 0.7000 for two species and 0.6000 for three.**
 
 $$
 \frac{\partial \rho}{\partial \phi} \;=\; -\left(1 - \frac{1}{S}\right)
+\tag{37}
 $$
 
 **At three species that is -0.6667**, so each percentage point of sharing removes two thirds of a
@@ -1640,6 +1677,7 @@ by which unit cost falls when quantity doubles.
 $$
 c(Q) \;=\; c_1 \, Q^{-b} \qquad\text{with}\qquad 2^{-b} = r
 \qquad\text{so}\qquad b \;=\; -\log_2 r
+\tag{38}
 $$
 
 **An eighty-five percent progress ratio gives $b$ equal to 0.23447 and a ninety percent ratio gives
@@ -1651,6 +1689,7 @@ $$
 Q_{\mathrm{shared}} \;=\; S \, Q_{\mathrm{species}}
 \qquad\text{and}\qquad
 Q_{\mathrm{bespoke}} \;=\; Q_{\mathrm{species}}
+\tag{39}
 $$
 
 **The bespoke fraction is built at the quantity of one species and gains nothing. The shared fraction is
@@ -1658,6 +1697,7 @@ built at $S$ times that quantity and slides down the curve by $S^{-b}$.** The tw
 
 $$
 \kappa \;=\; \bigl(1 - \phi\bigr) \;+\; \phi \, S^{-b}
+\tag{40}
 $$
 
 **At a shared fraction of three fifths, three species and an eighty-five percent curve, $\kappa$ is
@@ -1667,6 +1707,7 @@ argument an argument about one negative number.**
 
 $$
 \kappa \;=\; 1 + a\,\phi \qquad\text{where}\qquad a \;=\; S^{-b} - 1 \;<\; 0
+\tag{41}
 $$
 
 **For three species on an eighty-five percent curve the slope $a$ is -0.22709, and for two
@@ -1675,6 +1716,7 @@ this model is linear in the shared fraction.
 
 $$
 \frac{\partial \kappa}{\partial \phi} \;=\; a \;=\; S^{-b} - 1
+\tag{42}
 $$
 
 **At three species that is -0.22709.** Because $a$ is negative for every $S$ greater than one, this
@@ -1684,12 +1726,14 @@ $$
 \lim_{S \to \infty} a \;=\; -1
 \qquad\text{so}\qquad
 \lim_{S \to \infty} \kappa \;=\; 1 - \phi
+\tag{43}
 $$
 
 **So no family, however large, saves more in unit cost than the fraction it shares.**
 
 $$
 \sup_{S} \bigl(1 - \kappa\bigr) \;=\; \phi
+\tag{44}
 $$
 
 **At a three-fifths shared fraction the ceiling is 60.00 percent at any family size**, against
@@ -1699,6 +1743,7 @@ $S$, and the solution exists only below the ceiling.
 
 $$
 S \;=\; \left(1 - \frac{1 - \kappa}{\phi}\right)^{-1/b}
+\tag{45}
 $$
 
 **A tenth of unit cost needs 2.176 species at a three-fifths shared fraction, a fifth needs
@@ -1721,12 +1766,14 @@ gives a degenerate answer.**
 $$
 \kappa_{\mathrm{eff}} \;=\; \bigl(1 + a\,\phi\bigr)\bigl(1 + \eta\,\phi\bigr)
 \;=\; 1 + (a + \eta)\,\phi + a\,\eta\,\phi^{2}
+\tag{46}
 $$
 
 **The curvature settles it in one line.**
 
 $$
 \frac{\partial^{2} \kappa_{\mathrm{eff}}}{\partial \phi^{2}} \;=\; 2\,a\,\eta
+\tag{47}
 $$
 
 **That is negative for every admissible pair, being -0.13625 at three species and a penalty
@@ -1739,6 +1786,7 @@ $$
 \bigl(1 + a\bigr)\bigl(1 + \eta\bigr) < 1
 \qquad\Longleftrightarrow\qquad
 \eta \;<\; \frac{-a}{1 + a}
+\tag{48}
 $$
 
 **For three species on an eighty-five percent curve that threshold is 29.38 percent, and for
@@ -1751,11 +1799,13 @@ should rise rather than stay flat.
 
 $$
 \kappa_{\mathrm{eff}} \;=\; \bigl(1 + a\,\phi\bigr)\bigl(1 + \eta\,\phi^{2}\bigr)
+\tag{49}
 $$
 
 $$
 \frac{\partial \kappa_{\mathrm{eff}}}{\partial \phi}
 \;=\; 3\,a\,\eta\,\phi^{2} \;+\; 2\,\eta\,\phi \;+\; a \;=\; 0
+\tag{50}
 $$
 
 **That first-order condition is a quadratic in $\phi$ and its discriminant is the quantity that decides
@@ -1763,10 +1813,12 @@ whether an interior optimum exists at all.**
 
 $$
 \Theta \;=\; 4\eta^{2} - 12\,a^{2}\eta \;=\; 4\eta\bigl(\eta - 3a^{2}\bigr)
+\tag{51}
 $$
 
 $$
 \phi^{\ast} \;=\; \frac{-2\eta + \sqrt{\Theta}}{6\,a\,\eta}
+\tag{52}
 $$
 
 **So an interior optimum exists only when the penalty coefficient clears a threshold set by the slope
@@ -1774,6 +1826,7 @@ alone.**
 
 $$
 \eta \;>\; \eta_{\ast} \;=\; 3 a^{2}
+\tag{53}
 $$
 
 **That is 15.47 percent for three species on an eighty-five percent curve and
@@ -1782,6 +1835,7 @@ the slope's.
 
 $$
 \lim_{S \to \infty} \eta_{\ast} \;=\; 3
+\tag{54}
 $$
 
 **So a sufficiently large family tolerates a sharing penalty of 300 percent before an interior
@@ -1798,6 +1852,7 @@ $$
 \kappa_{\mathrm{eff}}(\phi^{\ast}) \;=\; \bigl(1 + a\,\phi^{\ast}\bigr)\bigl(1 + \eta\,\phi^{\ast 2}\bigr) \;=\; 0.95235,
 \qquad
 \kappa_{\mathrm{eff}}(1) \;=\; \bigl(1 + a\bigr)\bigl(1 + \eta\bigr) \;=\; 1.00479
+\tag{55}
 $$
 
 The optimum shared fraction is 44.63 percent, at which the effective cost factor is
@@ -1821,10 +1876,12 @@ $$
 \mathcal{C}_{\mathrm{platform}} \;=\; \mathcal{C}_g + S\,c_s
 \qquad\text{against}\qquad
 \mathcal{C}_{\mathrm{bespoke}} \;=\; S\,c_b
+\tag{56}
 $$
 
 $$
 S^{\ast} \;=\; \frac{\mathcal{C}_g}{c_b - c_s}
+\tag{57}
 $$
 
 **That relation cannot be evaluated here, because $c_b$ is unknown and $S$ is one.** Inverting it is the
@@ -1832,6 +1889,7 @@ only direction the data supports.
 
 $$
 c_b \;=\; c_s + \frac{\mathcal{C}_g}{S}
+\tag{58}
 $$
 
 **Reading the genus cost as the platform-sharing programme's total of 24,479,631.19 dollar and the first species at the Off-Board Sensing Station award of 67,986,112.00 dollar, the figures follow.**
@@ -1846,6 +1904,7 @@ $$
 c_b\big|_{S=2} \;=\; 67{,}986{,}112.00 + \frac{24{,}479{,}631.19}{2} \;\approx\; 80{,}225{,}927.59,
 \qquad
 \frac{c_b - c_s}{c_s} \;=\; \frac{24{,}479{,}631.19}{2 \times 67{,}986{,}112.00} \;=\; 18.00\,\%
+\tag{59}
 $$
 
 **So a second species repays the chassis only if a bespoke demonstrator would have cost at least 80,225,927.59 dollar, which is 18.00 percent more than the first species cost.**
@@ -1859,6 +1918,7 @@ programme manager would want.**
 
 $$
 \frac{\partial S^{\ast}}{\partial \mathcal{C}_g} \;=\; \frac{1}{c_b - c_s}
+\tag{60}
 $$
 
 **At the two-species figures above that is one additional species required for every
@@ -1878,6 +1938,7 @@ exponentially and let a design hold the value it had when it was frozen.**
 
 $$
 F(t) \;=\; F_0 \, e^{g t}
+\tag{61}
 $$
 
 **A design frozen at the start of an interval of length $T$ delivers $F_0$ throughout, so the ratio of
@@ -1887,10 +1948,12 @@ closed form.**
 $$
 \bar{\varrho} \;=\; \frac{1}{T}\int_{0}^{T} e^{-g t}\,\mathrm{d}t
 \;=\; \frac{1 - e^{-g T}}{g T}
+\tag{62}
 $$
 
 $$
 \sigma \;=\; 1 - \bar{\varrho} \;=\; 1 - \frac{1 - e^{-gT}}{gT}
+\tag{63}
 $$
 
 **The shortfall $\sigma$ has the right limits and a useful small-argument form.** As $T$ tends to zero it
@@ -1899,6 +1962,7 @@ the freeze interval.
 
 $$
 \sigma \;=\; \frac{gT}{2} - \frac{(gT)^{2}}{6} + O\!\bigl((gT)^{3}\bigr)
+\tag{64}
 $$
 
 **Taking a two-year doubling of available capability gives $g$ equal to 0.34657 per year**, from the
@@ -1906,6 +1970,7 @@ relation below, the only place a rate enters.
 
 $$
 g \;=\; \frac{\ln 2}{T_2}
+\tag{65}
 $$
 
 | Freeze interval in years | Capability shortfall |
@@ -1920,6 +1985,7 @@ $$
 $$
 \frac{\partial \sigma}{\partial T}
 \;=\; \frac{1 - \bigl(1 + gT\bigr)e^{-gT}}{g T^{2}}
+\tag{66}
 $$
 
 **That is positive for every positive argument, so the shortfall increases with the freeze without
@@ -1933,6 +1999,7 @@ $$
 \sigma \;\approx\; 1 - \frac{1}{gT}
 \qquad\text{for}\qquad
 gT \gg 1
+\tag{67}
 $$
 
 **At fifteen years that approximation gives 80.76 percent against the exact
@@ -1944,6 +2011,7 @@ the table carries.
 
 $$
 \Delta\sigma \;=\; \sigma(T_{\mathrm{old}}) - \sigma(T_{\mathrm{new}})
+\tag{68}
 $$
 
 **That is 43.05 percentage points.** That is the quantitative content of the refresh claim and **it is much larger
@@ -2106,6 +2174,7 @@ more than one cluster, and the mean number of clusters a title matches says how 
 
 $$
 \bar{m} \;=\; \frac{1}{K} \sum_{c} \lvert \mathcal{K}_c \rvert
+\tag{69}
 $$
 
 **That is 1.0649 clusters per record across 1,181 matches, and 72 titles match
@@ -2286,6 +2355,7 @@ $$
 + \lvert \mathcal{B}_{\mathrm{hand}} \rvert
 + \lvert \mathcal{B}_{\mathrm{rel}} \rvert
 + \lvert \mathcal{B}_{\mathrm{res}} \rvert
+\tag{70}
 $$
 
 **22 are hand-written references to the register, the instructions, the
@@ -2386,6 +2456,7 @@ primaries.
 
 $$
 \varpi \;=\; \frac{K_{\mathrm{reports}} + K_{\mathrm{defence}}}{K}
+\tag{71}
 $$
 
 Of the 1,109 research records, 130 are reports held by the reports server or the defence registry, so
@@ -2793,6 +2864,704 @@ gives one address, and it does not exist
 the Department did not publish.** The designation is empty, the emptiness is irreversible, the mechanism
 is in the instruction, **and the only place a reader can see the gap at all is a table a private citizen
 rebuilt because the official one was withdrawn.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 71 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 71, 14 are established and 57 are bespoke.
+Design numbers and the fields of a designation are symbols in a code and carry no unit, so every quantity here is a count, a share, a number of bits in base two, a number of years or a sum in United States dollars, and shares are kept distinct from differences in percentage points.
+
+*Equation 1, Bespoke Partition of Register Rows by Officiality.*
+The article sorts the register's rows into four disjoint states, official, marked at the cell, marked at the span and marked at the row, so that every officiality count adds up to the whole register.
+
+$$
+\lvert \mathcal{R} \rvert \;=\; \lvert \mathcal{R}_{\mathrm{off}} \rvert
++ \lvert \mathcal{R}_{\mathrm{cell}} \rvert
++ \lvert \mathcal{R}_{\mathrm{span}} \rvert
++ \lvert \mathcal{R}_{\mathrm{row}} \rvert
+\tag{1}
+$$
+
+*Equation 2, Bespoke Decomposition of the Absent Numbers.*
+The article divides the set of absent design numbers into those allocated before the register opens and those missing inside its window, of which only the second kind is evidence about the register.
+
+$$
+A \;=\; A_{\mathrm{out}} \,\sqcup\, A_{\mathrm{in}}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Absent Share of a Series Span.*
+The article measures the completeness of the record as the count of absent numbers over the count of positions between the lowest and highest design numbers, which evaluates to 37.5 percent for the research series.
+
+$$
+\gamma_A \;=\; \frac{\lvert A \rvert}{d_{\max} - d_{\min} + 1}
+\tag{3}
+$$
+
+**Equation 4, Mean Allocation Rate.**
+The allocation rate is the count of dated rows divided by the interval from the first to the last of them, which gives 1.1031 research allocations a year.
+
+$$
+\lambda \;=\; \frac{n}{t_n - t_1}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Absent Numbers as Years of Output.*
+The article converts the numbers missing inside the register's window into years of the series' own output by dividing their count by the allocation rate, a conversion that assumes the rate is uniform.
+
+$$
+\Delta t_A \;=\; \frac{\lvert A_{\mathrm{in}} \rvert}{\lambda}
+\tag{5}
+$$
+
+**Equation 6, Share of One Award in a Set of Awards.**
+The share of one award is its value divided by the sum of the values of every award in the set.
+
+$$
+\varsigma_i \;=\; \frac{c_i}{\sum_j c_j}
+\tag{6}
+$$
+
+**Equation 7, Share of Research Rows Held by the Five Firms.**
+The five firms that received the platform-sharing awards hold 23 of the register's 31 research rows, which is 74.2 percent.
+[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]
+
+$$
+\frac{23}{31} \;=\; 74.2\,\%
+\tag{7}
+$$
+
+**Equation 8, Relative Deviation From a Reference Figure.**
+The relative deviation is the difference between an outturn and a reported reference figure, divided by the reference figure.
+
+$$
+\epsilon \;=\; \frac{c - c_{\mathrm{ref}}}{c_{\mathrm{ref}}}
+\tag{8}
+$$
+
+**Equation 9, Position of an Event Within an Interval.**
+The position of an event is its time after the start of an interval as a fraction of the interval's length, so zero is the start and one is the end.
+
+$$
+f \;=\; \frac{t_{\mathrm{event}} - t_{\mathrm{start}}}{t_{\mathrm{end}} - t_{\mathrm{start}}}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Next Number Above the Highest Allocation.*
+The first of the article's three senses of the next number is one above the highest design number allocated in the basic mission before the date.
+
+$$
+\nu^{\mathrm{hi}}_t \;=\; 1 + \max \mathcal{A}_t
+\tag{10}
+$$
+
+*Equation 11, Bespoke Lowest Unallocated Number.*
+The second of the article's three senses of the next number is the lowest positive design number that had never been allocated in the basic mission before the date.
+
+$$
+\nu^{\mathrm{seq}}_t \;=\; \min \bigl\{\, n \ge 1 \;:\; n \notin \mathcal{A}_t \,\bigr\}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Next Number After the Most Recent Allocation.*
+The third of the article's three senses of the next number is one above the design number of the most recent allocation, whatever its size.
+
+$$
+\nu^{\mathrm{rec}}_t \;=\; 1 + d\bigl(\arg\max_{\,a \in \mathcal{A}_t} t_a\bigr)
+\tag{12}
+$$
+
+**Equation 13, Designation as an Ordered Tuple of Its Fields.**
+A designation is written as the ordered tuple of the status prefix, modified mission, basic mission, design number and design series that the instruction defines.
+[DAFI 16-401][ref_dafi_16_401_2020]
+
+$$
+\mathcal{D} \;=\; \bigl(\, p,\; q,\; m,\; d,\; s \,\bigr)
+\tag{13}
+$$
+
+**Equation 14, Capacity of the Number and Series Field.**
+The distinct number and series codes available within one basic mission are the product of the 999 design numbers and the 24 permitted series letters, which is 23,976.
+[DAFI 16-401][ref_dafi_16_401_2020]
+
+$$
+N_c \;=\; N_d \, N_s
+\tag{14}
+$$
+
+*Equation 15, Bespoke Ordinal Reading of the Design Number.*
+The article reads the instruction's sixteenth-approved-designator sentence as the claim that the $k$th design number allocated in a basic mission equals $k$.
+
+$$
+d_k \;=\; k
+\tag{15}
+$$
+
+*Equation 16, Bespoke Unit Increment Implied by the Ordinal Reading.*
+Differencing the ordinal reading removes the unknown origin of each sequence and leaves the testable prediction that every new design number exceeds the previous new one by one.
+
+$$
+\Delta_k \;=\; d_k - d_{k-1} \;=\; 1
+\tag{16}
+$$
+
+*Equation 17, Bespoke Share of Unit Increments.*
+The article measures adherence to the ordinal reading as the share of increments equal to one, with filtered counts of fifteen of 22 for the research series and nine of 29 for the unmanned series.
+
+$$
+\theta_{\Delta} \;=\; \frac{\lvert \{\, k : \Delta_k = 1 \,\} \rvert}{\lvert \{\, k \,\} \rvert},
+\qquad
+\theta_{\Delta}^{X} \;=\; \frac{15}{22} \;=\; 68.2\,\%,
+\qquad
+\theta_{\Delta}^{Q} \;=\; \frac{9}{29} \;=\; 31.0\,\%
+\tag{17}
+$$
+
+*Equation 18, Bespoke Allocation Pointer and Its Advance.*
+The article writes the pointer as the running maximum of the design numbers allocated so far and defines its advance as the change in that maximum at each allocation.
+
+$$
+\nu_k \;=\; \max_{\,j \le k} d_j
+\qquad\text{and}\qquad
+\alpha_k \;=\; \nu_k - \nu_{k-1}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Zero Advance Below the Pointer.*
+The pointer fails to advance exactly when the number allocated is no greater than the previous running maximum, which follows from the article's definition of the pointer.
+
+$$
+\alpha_k \;=\; 0
+\qquad\Longleftrightarrow\qquad
+d_k \;\le\; \nu_{k-1}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Count of Skipped Numbers.*
+The article counts the numbers skipped as the sum of each pointer advance in excess of one, which avoids the double count that increments give when a number below the pointer is allocated.
+
+$$
+\lvert A_{\mathrm{skip}} \rvert \;=\; \sum_{k \,:\, \alpha_k > 1} \bigl(\alpha_k - 1\bigr)
+\tag{20}
+$$
+
+*Equation 21, Bespoke Obedience Rate of a Series.*
+The article defines the obedience rate of a basic mission as the share of pointer advances equal to exactly one.
+
+$$
+\theta \;=\; \frac{\lvert \{\, k : \alpha_k = 1 \,\} \rvert}{\lvert \{\, k \,\} \rvert}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Obedience Rates of the X, M and Q Series.*
+The article's obedience rate evaluated on the register gives 72.7 percent for the research series, 51.5 percent for the multi-mission series and 44.8 percent for the unmanned series.
+
+$$
+\theta^{X} \;=\; \frac{16}{22} \;=\; 72.7\,\%,
+\qquad
+\theta^{M} \;=\; \frac{17}{33} \;=\; 51.5\,\%,
+\qquad
+\theta^{Q} \;=\; \frac{13}{29} \;=\; 44.8\,\%
+\tag{22}
+$$
+
+*Equation 23, Bespoke Purpose and Maker Maps.*
+The article models the register as supplying two maps out of its mission-and-number pairs, one to official statements of purpose and one to leading firm names.
+
+$$
+\mathsf{purpose} : \mathcal{N} \to \mathcal{T}
+\qquad\text{and}\qquad
+\mathsf{maker} : \mathcal{N} \to \mathcal{F}
+\tag{23}
+$$
+
+**Equation 24, Injectivity of the Purpose Map.**
+The reading that a design number indexes a purpose requires the purpose map to be injective, so that two different numbers never carry the same official statement.
+
+$$
+\mathsf{purpose}(x) = \mathsf{purpose}(y) \;\Longrightarrow\; x = y
+\tag{24}
+$$
+
+**Equation 25, Well-Definedness of the Maker Map.**
+The reading that a design number indexes an organisation requires every register row on one mission-and-number pair to name the same leading firm.
+
+$$
+\lvert \{\, \mathsf{maker}(w) \;:\; w \in \mathcal{N}^{-1}(x) \,\} \rvert \;=\; 1
+\qquad\text{for every } x \in \mathcal{N}
+\tag{25}
+$$
+
+**Equation 26, Shares of Pairs Naming More Than One Firm.**
+The 27 pairs naming more than one leading firm are 26.2 percent of the 103 pairs carrying more than one row and 11.5 percent of all 235 pairs.
+
+$$
+\frac{\lvert \mathcal{M} \rvert}{\lvert \mathcal{N}_{>1} \rvert} \;=\; 26.2\,\%
+\qquad\text{and}\qquad
+\frac{\lvert \mathcal{M} \rvert}{\lvert \mathcal{N} \rvert} \;=\; 11.5\,\%
+\tag{26}
+$$
+
+*Equation 27, Bespoke Number a Sequential Allocator Would Issue.*
+The article formalises the instruction's next-in-series procedure as one more than the largest design number allocated before the $k$th allocation, which reads the last approved number as the highest one.
+[DAFI 16-401][ref_dafi_16_401_2020]
+
+$$
+\nu_k \;=\; 1 + \max_{\,j < k} d_j
+\tag{27}
+$$
+
+*Equation 28, Bespoke Departure From the Sequential Number.*
+The article defines the departure of an allocation as its design number less the number a sequential allocator would have issued, so an in-sequence allocation has a departure of zero.
+
+$$
+\delta_k \;=\; d_k - \nu_k
+\tag{28}
+$$
+
+*Equation 29, Bespoke Information Bound on a Chosen Number.*
+The article bounds the information a chosen number can carry by the base-two logarithm of the count of positions from the sequential number to the top of the field, assuming that every such position was open to the choice.
+
+$$
+I(\nu) \;=\; \log_2\!\bigl(N_d - \nu + 1\bigr)
+\tag{29}
+$$
+
+*Equation 30, Bespoke Zero Conditional Entropy of an In-Sequence Allocation.*
+The article states that a design number carries no information given its history whenever it is one above the previous pointer, writing the absence of choice as a conditional entropy of zero.
+
+$$
+H\bigl(d_k \,\big|\, d_1, \ldots, d_{k-1}\bigr) \;=\; 0
+\qquad\text{whenever}\qquad
+d_k = \nu_{k-1} + 1
+\tag{30}
+$$
+
+**Equation 31, Shannon Entropy of the Departures.**
+The Shannon entropy of the empirical distribution of departures equals the base-two logarithm of the sample size when every observation is distinct, which is 2.5850 bits for six observations.
+
+$$
+H \;=\; -\sum_i \pi_i \log_2 \pi_i \;=\; \log_2 n \quad\text{when every observation is distinct}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Total Information in the Departures.*
+The article sums its information bound over every allocation with a positive departure, which gives 59.5355 bits across the six dated out-of-sequence unmanned allocations.
+
+$$
+I_{\Sigma} \;=\; \sum_{k \,:\, \delta_k > 0} \log_2\!\bigl(N_d - \nu_k + 1\bigr)
+\tag{32}
+$$
+
+*Equation 33, Bespoke Null Model of Accidental Hits.*
+The article's null model draws each allocation uniformly from a band of 68 values, so the per-draw hit probability is the mean count of next-in-series values inside the band over its width and the count of hits is binomial.
+
+$$
+\pi \;=\; \frac{\bar{\tau}}{B} \qquad\text{and}\qquad
+\Pr\!\left[\,N_h \ge k\,\right] \;=\; \sum_{i=k}^{n} \binom{n}{i} \, \pi^{\,i} \, (1-\pi)^{\,n-i}
+\tag{33}
+$$
+
+**Equation 34, Mean of a Binomial Count.**
+The expected number of accidental hits is the number of draws times the per-draw hit probability, which is 0.2941 for six draws.
+
+$$
+\mathbb{E}\bigl[N_h\bigr] \;=\; n \, \pi
+\tag{34}
+$$
+
+*Equation 35, Bespoke Part Count of a Family.*
+The article counts the distinct parts of a family of species that would each have the same number of parts if designed alone as the common parts held once plus the remaining parts of each species held separately.
+
+$$
+U \;=\; C \;+\; S\,\bigl(P - C\bigr)
+\tag{35}
+$$
+
+*Equation 36, Bespoke Distinct-Part Ratio.*
+The article divides the family's distinct parts by the total of wholly bespoke designs and writes the ratio in terms of the species count and the shared fraction alone.
+
+$$
+\rho \;=\; \frac{U}{S P} \;=\; \frac{1}{S} \;+\; \left(1 - \frac{1}{S}\right)\bigl(1 - \phi\bigr)
+\tag{36}
+$$
+
+*Equation 37, Bespoke Gradient of the Distinct-Part Ratio.*
+The distinct-part ratio is linear in the shared fraction, so in the article's model the first shared part is worth as much as the last.
+
+$$
+\frac{\partial \rho}{\partial \phi} \;=\; -\left(1 - \frac{1}{S}\right)
+\tag{37}
+$$
+
+**Equation 38, Wright Learning Curve.**
+Unit cost falls as a power of cumulative quantity, and the learning exponent is minus the base-two logarithm of the progress ratio by which cost falls at each doubling.
+
+$$
+c(Q) \;=\; c_1 \, Q^{-b} \qquad\text{with}\qquad 2^{-b} = r
+\qquad\text{so}\qquad b \;=\; -\log_2 r
+\tag{38}
+$$
+
+*Equation 39, Bespoke Production Quantities of the Shared and Bespoke Fractions.*
+The article assumes that the shared fraction of each aeroplane is built at the quantity of the whole family while the bespoke fraction is built at the quantity of one species.
+
+$$
+Q_{\mathrm{shared}} \;=\; S \, Q_{\mathrm{species}}
+\qquad\text{and}\qquad
+Q_{\mathrm{bespoke}} \;=\; Q_{\mathrm{species}}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Fleet-Average Unit Cost Factor.*
+Under the article's assumption that the two fractions ride separate learning curves, the cost factor against bespoke designs is the bespoke fraction plus the shared fraction discounted by the family size raised to minus the learning exponent.
+
+$$
+\kappa \;=\; \bigl(1 - \phi\bigr) \;+\; \phi \, S^{-b}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Sharing Slope.*
+The article rewrites the cost factor as one plus a negative slope times the shared fraction, with the slope set by the family size and the learning exponent.
+
+$$
+\kappa \;=\; 1 + a\,\phi \qquad\text{where}\qquad a \;=\; S^{-b} - 1 \;<\; 0
+\tag{41}
+$$
+
+*Equation 42, Bespoke Gradient of the Cost Factor.*
+The gradient of the cost factor with respect to the shared fraction is the sharing slope itself, which is negative for every family of more than one species.
+
+$$
+\frac{\partial \kappa}{\partial \phi} \;=\; a \;=\; S^{-b} - 1
+\tag{42}
+$$
+
+*Equation 43, Bespoke Limit of the Cost Factor for a Large Family.*
+As the family grows without bound the sharing slope tends to minus one and the cost factor tends to one less the shared fraction.
+
+$$
+\lim_{S \to \infty} a \;=\; -1
+\qquad\text{so}\qquad
+\lim_{S \to \infty} \kappa \;=\; 1 - \phi
+\tag{43}
+$$
+
+*Equation 44, Bespoke Ceiling on the Unit Cost Saving.*
+In the article's model no family of any size saves a larger fraction of unit cost than the fraction it shares.
+
+$$
+\sup_{S} \bigl(1 - \kappa\bigr) \;=\; \phi
+\tag{44}
+$$
+
+*Equation 45, Bespoke Species Needed for a Stated Saving.*
+Solving the article's cost factor for the family size gives the number of species a stated saving requires, which exists only below the ceiling set by the shared fraction.
+
+$$
+S \;=\; \left(1 - \frac{1 - \kappa}{\phi}\right)^{-1/b}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Effective Cost With a Linear Sharing Penalty.*
+The article multiplies the cost factor by a penalty on delivered capability proportional to the shared fraction, which yields a quadratic in that fraction.
+
+$$
+\kappa_{\mathrm{eff}} \;=\; \bigl(1 + a\,\phi\bigr)\bigl(1 + \eta\,\phi\bigr)
+\;=\; 1 + (a + \eta)\,\phi + a\,\eta\,\phi^{2}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Curvature Under a Linear Penalty.*
+The curvature of the effective cost under a linear penalty is twice the product of the slope and the penalty coefficient, which is negative, so the stationary point is a maximum.
+
+$$
+\frac{\partial^{2} \kappa_{\mathrm{eff}}}{\partial \phi^{2}} \;=\; 2\,a\,\eta
+\tag{47}
+$$
+
+*Equation 48, Bespoke Condition for Full Commonality Under a Linear Penalty.*
+With the optimum at a corner, full commonality beats none exactly when the penalty coefficient falls below the negated slope over one plus the slope, which is 29.38 percent for three species on an eighty-five percent curve.
+
+$$
+\bigl(1 + a\bigr)\bigl(1 + \eta\bigr) < 1
+\qquad\Longleftrightarrow\qquad
+\eta \;<\; \frac{-a}{1 + a}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Effective Cost With a Quadratic Sharing Penalty.*
+The article takes the penalty on delivered capability to grow as the square of the shared fraction, on the argument that the first parts shared are the cheapest to share.
+
+$$
+\kappa_{\mathrm{eff}} \;=\; \bigl(1 + a\,\phi\bigr)\bigl(1 + \eta\,\phi^{2}\bigr)
+\tag{49}
+$$
+
+*Equation 50, Bespoke First-Order Condition Under a Quadratic Penalty.*
+Setting the derivative of the effective cost under a quadratic penalty to zero gives a quadratic equation in the shared fraction.
+
+$$
+\frac{\partial \kappa_{\mathrm{eff}}}{\partial \phi}
+\;=\; 3\,a\,\eta\,\phi^{2} \;+\; 2\,\eta\,\phi \;+\; a \;=\; 0
+\tag{50}
+$$
+
+*Equation 51, Bespoke Discriminant of the First-Order Condition.*
+The discriminant of the first-order condition decides whether the article's quadratic-penalty model has an interior optimum at all.
+
+$$
+\Theta \;=\; 4\eta^{2} - 12\,a^{2}\eta \;=\; 4\eta\bigl(\eta - 3a^{2}\bigr)
+\tag{51}
+$$
+
+*Equation 52, Bespoke Optimal Shared Fraction.*
+The root of the first-order condition gives the shared fraction that minimises the effective cost in the article's quadratic-penalty model.
+
+$$
+\phi^{\ast} \;=\; \frac{-2\eta + \sqrt{\Theta}}{6\,a\,\eta}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Threshold Penalty for an Interior Optimum.*
+An interior optimum exists only when the penalty coefficient exceeds three times the square of the sharing slope, which is 15.47 percent for three species on an eighty-five percent curve.
+
+$$
+\eta \;>\; \eta_{\ast} \;=\; 3 a^{2}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Limit of the Threshold Penalty.*
+Because the sharing slope tends to minus one for a large family, the threshold penalty tends to three.
+
+$$
+\lim_{S \to \infty} \eta_{\ast} \;=\; 3
+\tag{54}
+$$
+
+*Equation 55, Bespoke Optimum at a Thirty Percent Penalty.*
+At an assumed penalty coefficient of 30 percent, three species and an assumed eighty-five percent progress ratio, the optimal shared fraction is 44.63 percent with an effective cost factor of 0.95235 against 1.00479 at full commonality.
+
+$$
+\phi^{\ast} \;=\; 0.4463,
+\qquad
+\kappa_{\mathrm{eff}}(\phi^{\ast}) \;=\; \bigl(1 + a\,\phi^{\ast}\bigr)\bigl(1 + \eta\,\phi^{\ast 2}\bigr) \;=\; 0.95235,
+\qquad
+\kappa_{\mathrm{eff}}(1) \;=\; \bigl(1 + a\bigr)\bigl(1 + \eta\bigr) \;=\; 1.00479
+\tag{55}
+$$
+
+*Equation 56, Bespoke Development Cost of a Platform Against Bespoke Types.*
+The article compares a genus developed once with each species added at its own cost against the same number of wholly bespoke types each developed in full.
+
+$$
+\mathcal{C}_{\mathrm{platform}} \;=\; \mathcal{C}_g + S\,c_s
+\qquad\text{against}\qquad
+\mathcal{C}_{\mathrm{bespoke}} \;=\; S\,c_b
+\tag{56}
+$$
+
+*Equation 57, Bespoke Break-Even Species Count.*
+Equating the two development costs gives the number of species at which the genus repays its own development cost.
+
+$$
+S^{\ast} \;=\; \frac{\mathcal{C}_g}{c_b - c_s}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Development Cost Implied for a Bespoke Type.*
+Inverting the break-even gives the development cost a bespoke type would need to have had for a family of a given size to repay the genus.
+
+$$
+c_b \;=\; c_s + \frac{\mathcal{C}_g}{S}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Break-Even Bespoke Cost at Two Species.*
+Reading the genus cost as the platform-sharing programme's total of 24,479,631.19 dollars and the first species as the Off-Board Sensing Station award of 67,986,112.00 dollars, a second species repays the chassis only if a bespoke demonstrator would have cost 18.00 percent more.
+
+$$
+c_b\big|_{S=2} \;=\; 67{,}986{,}112.00 + \frac{24{,}479{,}631.19}{2} \;\approx\; 80{,}225{,}927.59,
+\qquad
+\frac{c_b - c_s}{c_s} \;=\; \frac{24{,}479{,}631.19}{2 \times 67{,}986{,}112.00} \;=\; 18.00\,\%
+\tag{59}
+$$
+
+*Equation 60, Bespoke Sensitivity of the Break-Even to the Genus Cost.*
+The break-even species count rises by the reciprocal of the cost saving per species for each dollar added to the genus cost.
+
+$$
+\frac{\partial S^{\ast}}{\partial \mathcal{C}_g} \;=\; \frac{1}{c_b - c_s}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Exponential Growth of Available Capability.*
+The article assumes that the capability available at the frontier grows exponentially from its value when a design is frozen.
+[GA-ASI first flight release][ref_gaasi_firstflight]
+[AFRL first flight release][ref_afrl_firstflight]
+
+$$
+F(t) \;=\; F_0 \, e^{g t}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Time-Average Ratio of Delivered to Available Capability.*
+Under the article's exponential growth and a design that keeps its frozen capability, the time average of delivered over available capability across a freeze interval has a closed form.
+
+$$
+\bar{\varrho} \;=\; \frac{1}{T}\int_{0}^{T} e^{-g t}\,\mathrm{d}t
+\;=\; \frac{1 - e^{-g T}}{g T}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Capability Shortfall.*
+The article defines the capability shortfall as one less the time-average ratio of delivered to available capability.
+
+$$
+\sigma \;=\; 1 - \bar{\varrho} \;=\; 1 - \frac{1 - e^{-gT}}{gT}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Small-Argument Expansion of the Shortfall.*
+For a short freeze the shortfall is about half the product of the growth rate and the freeze interval, less a second-order correction.
+
+$$
+\sigma \;=\; \frac{gT}{2} - \frac{(gT)^{2}}{6} + O\!\bigl((gT)^{3}\bigr)
+\tag{64}
+$$
+
+**Equation 65, Growth Rate From a Doubling Time.**
+The rate of exponential growth is the natural logarithm of two divided by the doubling time, so a two-year doubling gives 0.34657 per year.
+
+$$
+g \;=\; \frac{\ln 2}{T_2}
+\tag{65}
+$$
+
+*Equation 66, Bespoke Sensitivity of the Shortfall to the Freeze Interval.*
+The derivative of the article's shortfall with respect to the freeze interval is positive for every positive interval, so a longer freeze always costs more capability.
+
+$$
+\frac{\partial \sigma}{\partial T}
+\;=\; \frac{1 - \bigl(1 + gT\bigr)e^{-gT}}{g T^{2}}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Long-Freeze Approximation of the Shortfall.*
+When the product of growth rate and freeze interval is large the exponential term vanishes and the shortfall is about one less the reciprocal of that product.
+
+$$
+\sigma \;\approx\; 1 - \frac{1}{gT}
+\qquad\text{for}\qquad
+gT \gg 1
+\tag{67}
+$$
+
+*Equation 68, Bespoke Gain From Shortening the Freeze.*
+The gain is the shortfall at the old freeze interval less the shortfall at the new one, which is 43.05 percentage points from fifteen years to three under the assumed two-year doubling.
+
+$$
+\Delta\sigma \;=\; \sigma(T_{\mathrm{old}}) - \sigma(T_{\mathrm{new}})
+\tag{68}
+$$
+
+*Equation 69, Bespoke Mean Clusters per Admitted Record.*
+The article measures overlap between its literature clusters as the total number of cluster matches divided by the admitted research records, which is 1.0649 clusters per record.
+
+$$
+\bar{m} \;=\; \frac{1}{K} \sum_{c} \lvert \mathcal{K}_c \rvert
+\tag{69}
+$$
+
+*Equation 70, Bespoke Partition of the Reference Base by Provenance.*
+The article partitions its 1,198 reference definitions into primary sources, hand-written references, related posts and research records.
+
+$$
+\lvert \mathcal{B} \rvert \;=\; \lvert \mathcal{B}_{\mathrm{prim}} \rvert
++ \lvert \mathcal{B}_{\mathrm{hand}} \rvert
++ \lvert \mathcal{B}_{\mathrm{rel}} \rvert
++ \lvert \mathcal{B}_{\mathrm{res}} \rvert
+\tag{70}
+$$
+
+*Equation 71, Bespoke Report-Primary Share.*
+The article defines the report-primary share as the research records held by the reports server or the defence registry as a fraction of all admitted research records.
+
+$$
+\varpi \;=\; \frac{K_{\mathrm{reports}} + K_{\mathrm{defence}}}{K}
+\tag{71}
+$$
+
+### Notation
+
+- $\mathcal{R}$, the register's rows, partitioned by officiality
+- $A_{\mathrm{in}}$, the design numbers absent from inside the register's window, with $A_{\mathrm{out}}$ those allocated before it opens
+- $\gamma_A$, absent numbers as a share of the span
+- $\lambda$, allocations per unit time in one basic mission
+- $\Delta t_A$, the absent numbers expressed as the series' own output, in years
+- $\varsigma_i$, one award as a share of a set of awards
+- $\epsilon$, the relative deviation of an outturn from a reference figure
+- $\nu^{\mathrm{hi}}_t$, one above the highest number allocated before a date
+- $\nu^{\mathrm{seq}}_t$, the lowest number never allocated before a date
+- $\nu^{\mathrm{rec}}_t$, one above the most recently allocated number
+- $\mathcal{A}_t$, the design numbers allocated in a basic mission before a date
+- $\mathcal{D}$, a designation written as an ordered tuple of its fields $p$, $q$, $m$, $d$ and $s$
+- $N_c$, the distinct number-and-series codes within one basic mission
+- $N_d$, the design numbers available within one basic mission
+- $N_s$, the series letters available, the alphabet less two
+- $d_k$, the design number of the $k$th allocation
+- $\Delta_k$, the increment between consecutive new design numbers
+- $\theta_{\Delta}$, the share of increments equal to one
+- $\nu_k$, the number a sequential allocator would issue at the $k$th allocation
+- $\alpha_k$, the advance of the pointer at the $k$th first allocation
+- $\theta$, the share of pointer advances equal to one
+- $\mathcal{N}$, the set of mission-and-number pairs the register carries, with $\mathcal{N}_{>1}$ those carrying more than one row
+- $\mathcal{M}$, the pairs naming more than one leading firm
+- $\mathcal{T}$, the set of official statements of purpose
+- $\mathcal{F}$, the set of leading firm names
+- $\delta_k$, the departure of an allocation from the sequential number
+- $I(\nu)$, the information a chosen number can carry at a given ceiling, in bits
+- $\pi_i$, the probability of the $i$th departure value
+- $I_{\Sigma}$, the total information the departures could carry, in bits
+- $\bar{\tau}$, the mean count of next-in-series values falling inside the band
+- $B$, the width of the band the null model draws from
+- $H$, the entropy of the observed departures, in bits
+- $N_h$, the number of accidental hits under the null model
+- $U$, the distinct parts the family holds in total
+- $S$, the number of species raised on one genus
+- $P$, the parts in one species if it were designed alone
+- $C$, the parts common across the family
+- $Q$, the cumulative production quantity
+- $r$, the progress ratio, the cost factor per doubling of quantity
+- $b$, the learning exponent, minus the base-two logarithm of the progress ratio
+- $a$, the sharing slope, equal to $S$ to the minus $b$ less one, always negative
+- $\phi$, the shared fraction of a species, equal to $C$ over $P$
+- $\rho$, distinct parts as a fraction of the bespoke total
+- $c_1$, the unit cost of the first article
+- $\kappa$, the fleet-average unit cost factor against bespoke designs, with $\kappa_{\mathrm{eff}}$ the factor after the sharing penalty
+- $\eta$, the sharing penalty coefficient on delivered capability, with $\eta_{\ast}$ the value above which an interior optimum exists
+- $\Theta$, the discriminant of the first-order condition for the optimum
+- $\phi^{\ast}$, the shared fraction minimising effective cost
+- $\mathcal{C}_g$, the non-recurring cost of developing the genus
+- $c_s$, the non-recurring cost of one species on the genus
+- $c_b$, the non-recurring cost of one wholly bespoke aircraft type
+- $S^{\ast}$, the species at which the genus repays its own development cost
+- $g$, the exponential growth rate of available capability, per year
+- $T$, the interval a design is held frozen between refreshes, in years
+- $F_0$, the capability available when a design is frozen
+- $T_2$, the doubling time of available capability
+- $\bar{\varrho}$, the time-average ratio of delivered to available capability
+- $\sigma$, the time-average capability shortfall, one less the ratio above
+- $\bar{m}$, the mean clusters whose phrases an admitted title carries
+- $\mathcal{K}_c$, the records whose titles carry one cluster's characteristic phrases
+- $\mathcal{B}$, the article's reference definitions, partitioned by provenance
+- $K$, the research records the survey admits
+- $\varpi$, report primaries as a share of the admitted records
 
 ## References
 

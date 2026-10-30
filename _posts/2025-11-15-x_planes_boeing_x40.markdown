@@ -62,7 +62,10 @@ five free flights the orbiter was ballasted to approximately 150,000 pounds
 \[[Approach and Landing Test final evaluation 1978][research_alt_final_1978]\], so for vehicle weight $W$
 the weight ratio is
 
-$$\frac{W_{\text{X-40A}}}{W_{\text{orbiter}}} = \frac{2{,}600}{150{,}000} = 0.0173 < \frac{1}{50}$$
+$$
+\frac{W_{\text{X-40A}}}{W_{\text{orbiter}}} = \frac{2{,}600}{150{,}000} = 0.0173 < \frac{1}{50}
+\tag{1}
+$$
 
 **and the X-40A weighed under a fiftieth of the vehicle whose method it borrowed.**
 
@@ -127,77 +130,122 @@ $\rho$ the air density and $\mu$ the dynamic viscosity of air. The Froude number
 to gravitational force and governs any motion in which weight and trajectory curvature both matter, which
 is every part of an approach and landing.
 
-$$\mathrm{Fr} = \frac{V^{2}}{gL}$$
+$$
+\mathrm{Fr} = \frac{V^{2}}{gL}
+\tag{2}
+$$
 
 The Reynolds number compares inertial force to viscous force and governs the behaviour of the boundary
 layer, and therefore the lift and drag coefficients the vehicle achieves.
 
-$$\mathrm{Re} = \frac{\rho V L}{\mu}$$
+$$
+\mathrm{Re} = \frac{\rho V L}{\mu}
+\tag{3}
+$$
 
 Let $\lambda$ be the geometric scale ratio of model to full-scale vehicle. **Similarity requires
 that the two vehicles share a value of the parameter**, and for the Froude number the requirement reads
 
-$$\frac{V_{m}^{2}}{g L_{m}} = \frac{V_{f}^{2}}{g L_{f}}$$
+$$
+\frac{V_{m}^{2}}{g L_{m}} = \frac{V_{f}^{2}}{g L_{f}}
+\tag{4}
+$$
 
 which fixes the speed ratio, because $g$ is the same for both and $V^{2}$ must therefore scale as $L$.
 
-$$\frac{V_{m}}{V_{f}} = \sqrt{\lambda}$$
+$$
+\frac{V_{m}}{V_{f}} = \sqrt{\lambda}
+\tag{5}
+$$
 
 Time follows immediately, since a length divided by a speed is a time, and this relation makes
 a subscale free-flight test interpretable at all.
 
-$$\frac{t_{m}}{t_{f}} = \sqrt{\lambda}$$
+$$
+\frac{t_{m}}{t_{f}} = \sqrt{\lambda}
+\tag{6}
+$$
 
 **Angular rates therefore go up rather than down**, the first result with a consequence for the
 flight control system.
 
-$$\frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{\lambda}}$$
+$$
+\frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{\lambda}}
+\tag{7}
+$$
 
 Substituting the Froude-matched speed into the Reynolds number gives the mismatch that cannot be avoided,
 since the model flies in the same air as the full-scale vehicle and $\rho$ and $\mu$ therefore cancel.
 
-$$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = \frac{V_{m} L_{m}}{V_{f} L_{f}} = \sqrt{\lambda} \cdot \lambda$$
+$$
+\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = \frac{V_{m} L_{m}}{V_{f} L_{f}} = \sqrt{\lambda} \cdot \lambda
+\tag{8}
+$$
 
-$$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = \lambda^{3/2}$$
+$$
+\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = \lambda^{3/2}
+\tag{9}
+$$
 
 **The Mach number takes care of itself here, and the reason matters.** Both vehicles fly the approach
 subsonically, so compressibility is a small correction for each and the Froude-matched speed reduction
 moves the model further from the transonic regime rather than toward it.
 
-$$\frac{\mathrm{Ma}_{m}}{\mathrm{Ma}_{f}} = \sqrt{\lambda}$$
+$$
+\frac{\mathrm{Ma}_{m}}{\mathrm{Ma}_{f}} = \sqrt{\lambda}
+\tag{10}
+$$
 
 **The dynamic pressure scales linearly**, and it governs the aerodynamic loads and,
 through them, the structural design case.
 
-$$\frac{\bar{q}_{m}}{\bar{q}_{f}} = \frac{\rho V_{m}^{2}}{\rho V_{f}^{2}} = \lambda$$
+$$
+\frac{\bar{q}_{m}}{\bar{q}_{f}} = \frac{\rho V_{m}^{2}}{\rho V_{f}^{2}} = \lambda
+\tag{11}
+$$
 
 **And the mass condition is usually forgotten.** Froude similarity requires the model to
 have the same relative density as the vehicle, so its weight must scale as the cube of the length ratio.
 
-$$\frac{W_{m}}{W_{f}} = \lambda^{3}$$
+$$
+\frac{W_{m}}{W_{f}} = \lambda^{3}
+\tag{12}
+$$
 
 Equivalently, and more usefully for an aircraft, the wing loading must scale linearly, since weight goes
 as $\lambda^{3}$ and reference area as $\lambda^{2}$.
 
-$$\frac{(W/S)_{m}}{(W/S)_{f}} = \lambda$$
+$$
+\frac{(W/S)_{m}}{(W/S)_{f}} = \lambda
+\tag{13}
+$$
 
 **The rotational condition follows from the same requirement and governs the autopilot.**
 A moment of inertia is a mass times the square of a length, so under mass similarity it scales as the
 fifth power of the length ratio.
 
-$$\frac{I_{m}}{I_{f}} = \frac{m_{m}}{m_{f}} \left(\frac{L_{m}}{L_{f}}\right)^{2} = \lambda^{3} \lambda^{2} = \lambda^{5}$$
+$$
+\frac{I_{m}}{I_{f}} = \frac{m_{m}}{m_{f}} \left(\frac{L_{m}}{L_{f}}\right)^{2} = \lambda^{3} \lambda^{2} = \lambda^{5}
+\tag{14}
+$$
 
 **The standard single parameter that expresses all of this at once is the relative density**, which
 compares the vehicle's mass to the mass of the air in a volume defined by its dimensions. Let $m$ be
 the mass, $S$ the reference area and $l$ a reference length.
 
-$$\mu = \frac{m}{\rho S l}$$
+$$
+\mu = \frac{m}{\rho S l}
+\tag{15}
+$$
 
 **Dynamic similarity of a free-flight model holds when the relative densities match**, and the
 free-flight testing literature usually writes the requirement in this form
 \[[Chambers 2010][research_chambers_2010]\].
 
-$$\mu_{m} = \mu_{f}$$
+$$
+\mu_{m} = \mu_{f}
+\tag{16}
+$$
 
 ### The Scale Ratio Is Disputed and the Dispute Is Resolvable
 
@@ -213,14 +261,23 @@ to ninety percent \[[Boeing X-40][ref_x40]\].
 \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\], and the X-37B is
 29 feet 3 inches long with a span of 14 feet 11 inches \[[Boeing X-37][ref_x37]\].
 
-$$\lambda_{\text{length}} = \frac{6.71}{8.92} = 0.752$$
+$$
+\lambda_{\text{length}} = \frac{6.71}{8.92} = 0.752
+\tag{17}
+$$
 
-$$\lambda_{\text{span}} = \frac{3.66}{4.55} = 0.804$$
+$$
+\lambda_{\text{span}} = \frac{3.66}{4.55} = 0.804
+\tag{18}
+$$
 
 **Taking the mean of the two gives $\lambda = 0.778$**, and the check on that value is the reciprocal,
 since the sources state the scale-up in the other direction.
 
-$$\frac{1}{\lambda} = \frac{1}{0.778} = 1.285$$
+$$
+\frac{1}{\lambda} = \frac{1}{0.778} = 1.285
+\tag{19}
+$$
 
 against the "about 120 percent" that the sources give for the X-37 relative to the X-40A
 \[[Boeing X-37][ref_x37]\]. **The agreement is adequate at eight points and the ninety percent figure is
@@ -237,7 +294,10 @@ literature about the best documented parameter of the aircraft.**
 **This is the result the article turns on.** At $\lambda = 0.778$, Froude similarity requires a model
 weight of
 
-$$W_{m} = W_{f} \lambda^{3} = 11{,}000 \times 0.778^{3} = 5{,}186 \ \text{lb}$$
+$$
+W_{m} = W_{f} \lambda^{3} = 11{,}000 \times 0.778^{3} = 5{,}186 \ \text{lb}
+\tag{20}
+$$
 
 for the X-37B's published maximum takeoff weight of 11,000 lb \[[Boeing X-37][ref_x37]\], against a published X-40A weight of about **2,600 lb**
 \[[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]\].
@@ -246,7 +306,10 @@ for the X-37B's published maximum takeoff weight of 11,000 lb \[[Boeing X-37][re
 Read the other way, the mass ratio implies a scale ratio of its own, nowhere near the geometric
 one.
 
-$$\lambda_{\text{mass}} = \left(\frac{2{,}600}{11{,}000}\right)^{1/3} = 0.618$$
+$$
+\lambda_{\text{mass}} = \left(\frac{2{,}600}{11{,}000}\right)^{1/3} = 0.618
+\tag{21}
+$$
 
 **A geometric ratio of 0.778 against a mass-implied ratio of 0.618 is not a scale model.** It is a vehicle of
 approximately the right shape and substantially the wrong density.
@@ -255,25 +318,43 @@ approximately the right shape and substantially the wrong density.
 the estimated reference area of 100 square feet for the X-40A and scaling it by $\lambda^{2}$ for the
 X-37 gives 165 square feet, so the two wing loadings are
 
-$$\left(\frac{W}{S}\right)_{m} = \frac{2{,}600}{100} = 26.0 \ \text{lb/ft}^{2} \qquad \left(\frac{W}{S}\right)_{f} = \frac{11{,}000}{165} = 66.6 \ \text{lb/ft}^{2}$$
+$$
+\left(\frac{W}{S}\right)_{m} = \frac{2{,}600}{100} = 26.0 \ \text{lb/ft}^{2} \qquad \left(\frac{W}{S}\right)_{f} = \frac{11{,}000}{165} = 66.6 \ \text{lb/ft}^{2}
+\tag{22}
+$$
 
-$$\frac{(W/S)_{m}}{(W/S)_{f}} = 0.391 \quad \text{against a required} \quad \lambda = 0.778$$
+$$
+\frac{(W/S)_{m}}{(W/S)_{f}} = 0.391 \quad \text{against a required} \quad \lambda = 0.778
+\tag{23}
+$$
 
 **Since speed goes as the square root of wing loading at a given lift coefficient**, the consequence is a
 vehicle flying substantially slower than similarity demands.
 
-$$\frac{V_{m}}{V_{f}} = \sqrt{0.391} = 0.625 \quad \text{against a required} \quad \sqrt{\lambda} = 0.882$$
+$$
+\frac{V_{m}}{V_{f}} = \sqrt{0.391} = 0.625 \quad \text{against a required} \quad \sqrt{\lambda} = 0.882
+\tag{24}
+$$
 
-$$\frac{0.625}{0.882} = 0.708$$
+$$
+\frac{0.625}{0.882} = 0.708
+\tag{25}
+$$
 
 **The model therefore flew at about 71 percent of its dynamically similar speed.**
 
 **The relative density gives the same answer in the parameter the free-flight literature uses.**
 With the mass in slugs, the estimated areas above and the vehicle lengths as reference lengths,
 
-$$\mu_{m} = \frac{80.8}{(0.001869)(100)(22.0)} = 19.7 \qquad \mu_{f} = \frac{341.9}{(0.001869)(165)(29.25)} = 37.9$$
+$$
+\mu_{m} = \frac{80.8}{(0.001869)(100)(22.0)} = 19.7 \qquad \mu_{f} = \frac{341.9}{(0.001869)(165)(29.25)} = 37.9
+\tag{26}
+$$
 
-$$\frac{\mu_{m}}{\mu_{f}} = 0.519 \quad \text{against a required} \quad 1.000$$
+$$
+\frac{\mu_{m}}{\mu_{f}} = 0.519 \quad \text{against a required} \quad 1.000
+\tag{27}
+$$
 
 **Two independent formulations land on the same factor of two**, and no internal check on the finding
 is stronger, since the wing loading route and the relative density route share only the
@@ -289,7 +370,10 @@ preserve a similarity nobody intended to exploit would have been a strange use o
 **The usual objection to subscale free flight barely applies here**, because the X-40A was
 not very sub. At $\lambda = 0.778$ the Reynolds ratio is
 
-$$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.778^{3/2} = 0.686$$
+$$
+\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.778^{3/2} = 0.686
+\tag{28}
+$$
 
 **A boundary layer at 69 percent of full-scale Reynolds number is a mild extrapolation**, far milder than
 the one or two orders of magnitude that a conventional dynamically scaled drop model accepts.
@@ -297,20 +381,29 @@ the one or two orders of magnitude that a conventional dynamically scaled drop m
 22 percent dynamically scaled drop model of the F/A-18E/F \[[Croom et al. 2000][research_croom_2000]\],
 and at that ratio the same relation gives
 
-$$\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.22^{3/2} = 0.103$$
+$$
+\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.22^{3/2} = 0.103
+\tag{29}
+$$
 
 or about a tenth of full scale. **The X-40A sat at 69 percent where a conventional drop model sits near 10**, and on that
 measure it was barely a subscale article at all.
 
 **The absolute value matters as much as the ratio and sits comfortably high.** Taking the density at 8,000 feet as 0.001869 slug per cubic foot and the dynamic viscosity as $3.58 \times 10^{-7}$ slug per foot second, values that follow from the defining relations of the 1976 standard atmosphere \[[U.S. Standard Atmosphere 1976 1976][ref_atm76]\], the Reynolds number on the 22 foot length at 428 feet per second is
 
-$$\mathrm{Re} = \frac{(0.001869)(428)(22.0)}{3.58 \times 10^{-7}} = 4.92 \times 10^{7}$$
+$$
+\mathrm{Re} = \frac{(0.001869)(428)(22.0)}{3.58 \times 10^{-7}} = 4.92 \times 10^{7}
+\tag{30}
+$$
 
 **A Reynolds number near fifty million is far above any transition-sensitive regime**, so a 31 percent
 shortfall against the full-scale vehicle moves the flow along a part of the curve where little changes.
 **The Mach number confirms the same benign picture.** With the speed of sound at 8,000 feet equal to 1,085 feet per second in the same standard \[[U.S. Standard Atmosphere 1976 1976][ref_atm76]\],
 
-$$\mathrm{Ma} = \frac{428}{1{,}085} = 0.394$$
+$$
+\mathrm{Ma} = \frac{428}{1{,}085} = 0.394
+\tag{31}
+$$
 
 and that lies well below the drag rise, so **neither of the two dimensionless numbers the model could not match
 was doing much harm.** The sensitivity across the disputed scale figures is
@@ -343,28 +436,46 @@ descent that does not test it.
 
 Mean sink rate is the released altitude divided by the duration.
 
-$$\dot{h} = \frac{15{,}050}{75} = 200.7 \ \text{ft/s}$$
+$$
+\dot{h} = \frac{15{,}050}{75} = 200.7 \ \text{ft/s}
+\tag{32}
+$$
 
 **The sink rate and the speed along the flight path are related by the flight path angle**, and through
 that relation the two published figures combine into a third.
 
-$$\dot{h} = V \sin\gamma$$
+$$
+\dot{h} = V \sin\gamma
+\tag{33}
+$$
 
 The flight path angle follows directly.
 
-$$\gamma = \arcsin\left(\frac{200.7}{428}\right) = 28.0^{\circ}$$
+$$
+\gamma = \arcsin\left(\frac{200.7}{428}\right) = 28.0^{\circ}
+\tag{34}
+$$
 
 **In a steady glide the weight is balanced by lift across the path and by drag along it**, and the ratio
 follows from that balance.
 
-$$L = W \cos\gamma \qquad D = W \sin\gamma$$
+$$
+L = W \cos\gamma \qquad D = W \sin\gamma
+\tag{35}
+$$
 
 **The effective lift to drag ratio is therefore the cotangent of the flight path angle**, a
 number that describes what kind of approach this was.
 
-$$\frac{L}{D} = \frac{W\cos\gamma}{W\sin\gamma} = \cot\gamma$$
+$$
+\frac{L}{D} = \frac{W\cos\gamma}{W\sin\gamma} = \cot\gamma
+\tag{36}
+$$
 
-$$\left(\frac{L}{D}\right)_{\text{eff}} = \cot 28.0^{\circ} = 1.88$$
+$$
+\left(\frac{L}{D}\right)_{\text{eff}} = \cot 28.0^{\circ} = 1.88
+\tag{37}
+$$
 
 **An effective ratio of 1.88 is a steep energy-management descent and not a best-glide profile**, and the
 comparison is drawn from measured flight data. A survey of flight-determined subsonic lift and
@@ -387,23 +498,38 @@ flyable and unforgiving**, and an autonomous attempt at it should be read in tha
 **Ground range in a steady glide is the height multiplied by the lift to drag ratio**, the force
 balance above rewritten for distance.
 
-$$R = h \cot\gamma = h \left(\frac{L}{D}\right)$$
+$$
+R = h \cot\gamma = h \left(\frac{L}{D}\right)
+\tag{38}
+$$
 
-$$R = \frac{15{,}050}{\tan 28.0^{\circ}} = 28{,}353 \ \text{ft} = 4.67 \ \text{nautical miles}$$
+$$
+R = \frac{15{,}050}{\tan 28.0^{\circ}} = 28{,}353 \ \text{ft} = 4.67 \ \text{nautical miles}
+\tag{39}
+$$
 
 **The energy accounting shows how little of the height became speed.** The specific energy available at
 release, taking the release from a hover so that the initial kinetic term is negligible, is
 
-$$\frac{E}{m} = g h = (32.174)(15{,}050) = 484{,}219 \ \text{ft}^{2}/\text{s}^{2}$$
+$$
+\frac{E}{m} = g h = (32.174)(15{,}050) = 484{,}219 \ \text{ft}^{2}/\text{s}^{2}
+\tag{40}
+$$
 
 against a kinetic term at 428 feet per second of
 
-$$\frac{V^{2}}{2} = \frac{428^{2}}{2} = 91{,}592 \ \text{ft}^{2}/\text{s}^{2}$$
+$$
+\frac{V^{2}}{2} = \frac{428^{2}}{2} = 91{,}592 \ \text{ft}^{2}/\text{s}^{2}
+\tag{41}
+$$
 
 **so 18.9 percent of the available energy was carried as speed and 81.1 percent was spent against drag.**
 Put another way, a body falling freely from that height with no drag at all would arrive at
 
-$$V = \sqrt{2gh} = \sqrt{2(32.174)(15{,}050)} = 984 \ \text{ft/s}$$
+$$
+V = \sqrt{2gh} = \sqrt{2(32.174)(15{,}050)} = 984 \ \text{ft/s}
+\tag{42}
+$$
 
 **more than twice the speed the vehicle reached**, so the descent was dominated by
 drag and was not an acceleration.
@@ -412,7 +538,10 @@ drag and was not an acceleration.
 converts the observed descent into its full-scale equivalent, because time is the one quantity whose
 scaling depends on geometry alone.
 
-$$t_{f} = \frac{t_{m}}{\sqrt{\lambda}} = \frac{75}{\sqrt{0.778}} = 85.0 \ \text{s}$$
+$$
+t_{f} = \frac{t_{m}}{\sqrt{\lambda}} = \frac{75}{\sqrt{0.778}} = 85.0 \ \text{s}
+\tag{43}
+$$
 
 **A 75 second rehearsal stands in for an 85 second event**, and that comparison is legitimate in a way
 that the speeds and the trajectory are not, because it uses only the length ratio and not the mass.
@@ -421,12 +550,18 @@ that the speeds and the trajectory are not, because it uses only the length rati
 \[[Boeing X-37 and X-40][ref_x37_x40]\] some 2.5 miles from the end of the runway
 \[[Boeing X-40][ref_x40]\], which at 5,280 feet to the mile is a straight-line ratio of
 
-$$\frac{2.5 \times 5{,}280}{9{,}000} = \frac{13{,}200}{9{,}000} = 1.47$$
+$$
+\frac{2.5 \times 5{,}280}{9{,}000} = \frac{13{,}200}{9{,}000} = 1.47
+\tag{44}
+$$
 
 and the figure falls if the release altitude of about 10,000 feet given by the Air Force museum is used
 \[[Boeing X-40A][ref_nmusaf_x40]\].
 
-$$\frac{13{,}200}{10{,}000} = 1.32$$
+$$
+\frac{13{,}200}{10{,}000} = 1.32
+\tag{45}
+$$
 
 **Both are below the 1.88 of the 2001 flights**, and the article does not
 resolve which release altitude is correct.
@@ -437,21 +572,33 @@ resolve which release altitude is correct.
 steady glide supplies a bound instead. The lift balancing the weight component perpendicular to the
 flight path is
 
-$$L = W \cos\gamma = 2{,}600 \cos 28.0^{\circ} = 2{,}297 \ \text{lb}$$
+$$
+L = W \cos\gamma = 2{,}600 \cos 28.0^{\circ} = 2{,}297 \ \text{lb}
+\tag{46}
+$$
 
 and the same lift is produced aerodynamically, in the equation that converts a force into a
 geometry.
 
-$$L = \tfrac{1}{2} \rho V^{2} S C_{L}$$
+$$
+L = \tfrac{1}{2} \rho V^{2} S C_{L}
+\tag{47}
+$$
 
 Taking the density at a mean altitude of 8,000 feet as 0.001869 slug per cubic foot \[[U.S. Standard Atmosphere 1976 1976][ref_atm76]\], the dynamic pressure
 at 428 feet per second is
 
-$$\bar{q} = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2}(0.001869)(428)^{2} = 171.2 \ \text{lb/ft}^{2}$$
+$$
+\bar{q} = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2}(0.001869)(428)^{2} = 171.2 \ \text{lb/ft}^{2}
+\tag{48}
+$$
 
 which fixes the product of reference area and lift coefficient without fixing either.
 
-$$S C_{L} = \frac{2{,}297}{171.2} = 13.42 \ \text{ft}^{2}$$
+$$
+S C_{L} = \frac{2{,}297}{171.2} = 13.42 \ \text{ft}^{2}
+\tag{49}
+$$
 
 **A planform area near 100 square feet is geometrically plausible for a 22 by 12 foot vehicle**, and it
 implies a lift coefficient of 0.134 and a wing loading of 26 pounds per square foot. **Both are stated as
@@ -475,16 +622,25 @@ the X-40A**, through the manned lifting body programme \[[Thompson 1966][researc
 and that inheritance partly explains why a one million dollar article could be flown with confidence on its first attempt. **The aspect ratio is the property that explains the flight data.**
 With a span of 12 feet and an estimated planform of 100 square feet,
 
-$$AR = \frac{b^{2}}{S} = \frac{12^{2}}{100} = 1.44$$
+$$
+AR = \frac{b^{2}}{S} = \frac{12^{2}}{100} = 1.44
+\tag{50}
+$$
 
 **An aspect ratio near 1.4 sets an induced drag penalty that no amount of cleanliness overcomes**, since
 the induced drag coefficient varies inversely with aspect ratio for a given lift coefficient.
 
-$$C_{D_{i}} = \frac{C_{L}^{2}}{\pi e AR}$$
+$$
+C_{D_{i}} = \frac{C_{L}^{2}}{\pi e AR}
+\tag{51}
+$$
 
 At the measured lift coefficient of 0.134 and an Oswald efficiency of 0.6, the induced contribution is
 
-$$C_{D_{i}} = \frac{0.134^{2}}{\pi (0.6)(1.44)} = 0.0066$$
+$$
+C_{D_{i}} = \frac{0.134^{2}}{\pi (0.6)(1.44)} = 0.0066
+\tag{52}
+$$
 
 a value small in absolute terms and small relative to the base and profile drag of a blunt lifting body,
 **and that is the point.** At low lift coefficient this shape is dominated by pressure drag rather than
@@ -502,7 +658,10 @@ the vehicle was fitted with navigation systems before the series began
 Froude similarity angular rates scale as the inverse square root of the length ratio, so at
 $\lambda = 0.778$ the model's angular rates are
 
-$$\frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{0.778}} = 1.134$$
+$$
+\frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{0.778}} = 1.134
+\tag{53}
+$$
 
 **times those of the full-scale vehicle.** A control system that stabilises the smaller vehicle is
 working about 13 percent faster than it would need to on the larger one.
@@ -513,16 +672,28 @@ this reversal is the strongest single argument for the programme.
 asserted.** Dynamic similarity requires the inertia ratio to be $\lambda^{5}$, while the actual inertia
 ratio is the mass ratio times the square of the length ratio.
 
-$$\left(\frac{I_{m}}{I_{f}}\right)_{\text{required}} = 0.778^{5} = 0.285$$
+$$
+\left(\frac{I_{m}}{I_{f}}\right)_{\text{required}} = 0.778^{5} = 0.285
+\tag{54}
+$$
 
-$$\left(\frac{I_{m}}{I_{f}}\right)_{\text{actual}} = (0.236)(0.778)^{2} = 0.143$$
+$$
+\left(\frac{I_{m}}{I_{f}}\right)_{\text{actual}} = (0.236)(0.778)^{2} = 0.143
+\tag{55}
+$$
 
-$$\frac{0.143}{0.285} = 0.502$$
+$$
+\frac{0.143}{0.285} = 0.502
+\tag{56}
+$$
 
 **The vehicle carried half the rotational inertia that similarity demanded.** Since angular acceleration
 is a moment divided by an inertia, the response to a given control moment is correspondingly quicker.
 
-$$\ddot{\theta} = \frac{M}{I} \quad \Longrightarrow \quad \frac{\ddot{\theta}_{\text{actual}}}{\ddot{\theta}_{\text{similar}}} = \frac{0.285}{0.143} = 1.99$$
+$$
+\ddot{\theta} = \frac{M}{I} \quad \Longrightarrow \quad \frac{\ddot{\theta}_{\text{actual}}}{\ddot{\theta}_{\text{similar}}} = \frac{0.285}{0.143} = 1.99
+\tag{57}
+$$
 
 **The plant responded about twice as fast as a dynamically similar model would have.** Combined with the
 13 percent rate increase from the geometric scale, the control system was exercised against something
@@ -536,7 +707,10 @@ touched down left of the centreline and then tracked to within 7 feet of it
 runway, and the ground track to the point of measurement is at least that long, so the angle subtended is
 at most
 
-$$\theta \le \frac{7}{13{,}200} = 5.30 \times 10^{-4} \ \text{rad} = 1.82 \ \text{arcmin}$$
+$$
+\theta \le \frac{7}{13{,}200} = 5.30 \times 10^{-4} \ \text{rad} = 1.82 \ \text{arcmin}
+\tag{58}
+$$
 
 **which is no more than 0.053 percent of the distance flown.** The programme should be judged on that
 number, the only figure in the record that speaks directly to whether the autonomy worked. **The
@@ -550,14 +724,20 @@ protection system and no orbital loads, the design case is the landing. Touchdow
 the energy the gear must absorb, and for a gear stroke $s$ absorbing a sink rate $\dot{h}$ at touchdown
 the mean deceleration is
 
-$$a = \frac{\dot{h}^{2}}{2s}$$
+$$
+a = \frac{\dot{h}^{2}}{2s}
+\tag{59}
+$$
 
 **The touchdown sink rate for this class is measured rather than guessed at.** A statistical analysis of
 landing contact conditions across three lifting-body research vehicles supplies the distribution a gear
 designer would work from \[[Larson 1972][research_larson_1972]\], and the value used here sits
 inside it. **A representative touchdown sink of 3 feet per second into a 6 inch stroke gives**
 
-$$a = \frac{3^{2}}{2(0.5)} = 9 \ \text{ft/s}^{2}$$
+$$
+a = \frac{3^{2}}{2(0.5)} = 9 \ \text{ft/s}^{2}
+\tag{60}
+$$
 
 which is about 0.28 g, and the case is undemanding because the vehicle is light.
 **The gear was sized by a mass the operational vehicle would not have had**, and the structural
@@ -566,12 +746,18 @@ results therefore do not transfer either.
 **The rollout is equally gentle and equally uninformative.** The vehicle stopped in a little over 7,000
 feet \[[Boeing X-40][ref_x40]\], so the mean deceleration for a touchdown speed $V_{td}$ is
 
-$$a = \frac{V_{td}^{2}}{2 s} = \frac{V_{td}^{2}}{14{,}000}$$
+$$
+a = \frac{V_{td}^{2}}{2 s} = \frac{V_{td}^{2}}{14{,}000}
+\tag{61}
+$$
 
 **No touchdown speed is published**, so the figure is bracketed rather than stated. At 150 feet per second
 the mean deceleration is 1.61 feet per second squared, and at 200 feet per second it is 2.86.
 
-$$a\big|_{150} = 0.050 \ g \qquad a\big|_{200} = 0.089 \ g$$
+$$
+a\big|_{150} = 0.050 \ g \qquad a\big|_{200} = 0.089 \ g
+\tag{62}
+$$
 
 **Under a tenth of a gravity in either case**, the result a light vehicle with no thrust reverser and a
 very long runway produces. **The X-37A overran a runway in 2006 at about 120 percent of the linear scale** \[[Boeing X-37][ref_x37]\], and the calculation above shows why the X-40A's rollout, made at a mass the larger vehicle did not share, said nothing useful about that.
@@ -587,12 +773,18 @@ very long runway produces. **The X-37A overran a runway in 2006 at about 120 per
 **The heavier helicopter bought altitude, and altitude is the test article's entire energy budget.** For
 an unpowered vehicle the available specific energy at release is
 
-$$\frac{E}{m} = gh + \tfrac{1}{2}V_{0}^{2}$$
+$$
+\frac{E}{m} = gh + \tfrac{1}{2}V_{0}^{2}
+\tag{63}
+$$
 
 and with release from a hover the second term is nearly zero, so **the whole flight is paid for by
 height.** The two release altitudes therefore differ by exactly their ratio.
 
-$$\frac{(E/m)_{2001}}{(E/m)_{1998}} = \frac{g(15{,}050)}{g(9{,}000)} = \frac{15{,}050}{9{,}000} = 1.672$$
+$$
+\frac{(E/m)_{2001}}{(E/m)_{1998}} = \frac{g(15{,}050)}{g(9{,}000)} = \frac{15{,}050}{9{,}000} = 1.672
+\tag{64}
+$$
 
 **The heavier helicopter supplied 67.2 percent more energy**, and the 2001 series spent it on manoeuvres more complex than the straight-in approach flown first \[[X-40A second free flight successful][ref_sciencedaily_x40]\].
 
@@ -734,9 +926,15 @@ can be made numerically.** Eight successes and no failures is a small sample, an
 bound says how small. For $n$ trials with no observed failure, the upper limit on the failure probability
 $p$ at confidence $1 - \alpha$ follows from requiring that $n$ successes be no less likely than $\alpha$.
 
-$$(1 - p)^{n} = \alpha \quad \Longrightarrow \quad p_{\max} = 1 - \alpha^{1/n}$$
+$$
+(1 - p)^{n} = \alpha \quad \Longrightarrow \quad p_{\max} = 1 - \alpha^{1/n}
+\tag{65}
+$$
 
-$$p_{\max} = 1 - 0.05^{1/8} = 0.312$$
+$$
+p_{\max} = 1 - 0.05^{1/8} = 0.312
+\tag{66}
+$$
 
 **Eight clean landings bound the failure rate only below about 31 percent at 95 percent confidence.**
 The bound describes the sample size rather than the vehicle, and in that precise sense
@@ -750,7 +948,10 @@ management logic for a heavier vehicle, and the 2006 overrun is what that gap lo
 **The cost per flight is the other number that makes the programme look sensible.** One million dollars of
 fabrication across eight free flights is
 
-$$\frac{1{,}000{,}000}{8} = 125{,}000 \ \text{dollars per flight}$$
+$$
+\frac{1{,}000{,}000}{8} = 125{,}000 \ \text{dollars per flight}
+\tag{67}
+$$
 
 **before operating costs, which no source gives.** Whatever the true total, a programme that buys
 eight autonomous landings at this order of magnitude is buying them cheaply, and the argument for the
@@ -1041,6 +1242,603 @@ came in 2006**, when the 120 percent vehicle built on that shape overran the run
 flight.
 
 The next article returns to a vehicle designed to be shot down.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 67 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 67, 39 are established and 28 are bespoke.
+The flight relations are evaluated in customary units, with lengths in feet, weights in pounds, masses in slugs and speeds in feet per second, subscripts $m$ and $f$ mark the X-40A model and the full-scale X-37, and several letters are reused, so $\mu$ is the dynamic viscosity in the Reynolds number but the relative density from the similarity parameter onward, $\theta$ is a pitch angle in the angular acceleration relation and the angle subtended by the landing error after it, and $s$ is a gear stroke and then a rollout distance.
+
+**Equation 1, Weight Ratio of the X-40A to the Ballasted Orbiter.**
+The published X-40A weight over the approximately 150,000 pounds of the ballasted orbiter gives a ratio below one fiftieth.
+[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]
+[Approach and Landing Test final evaluation 1978][research_alt_final_1978]
+
+$$
+\frac{W_{\text{X-40A}}}{W_{\text{orbiter}}} = \frac{2{,}600}{150{,}000} = 0.0173 < \frac{1}{50}
+\tag{1}
+$$
+
+**Equation 2, Froude Number.**
+The Froude number compares inertial to gravitational force.
+[Chambers 2010][research_chambers_2010]
+
+$$
+\mathrm{Fr} = \frac{V^{2}}{gL}
+\tag{2}
+$$
+
+**Equation 3, Reynolds Number.**
+The Reynolds number compares inertial to viscous force and governs the boundary layer.
+
+$$
+\mathrm{Re} = \frac{\rho V L}{\mu}
+\tag{3}
+$$
+
+**Equation 4, Froude Similarity Requirement.**
+Similarity requires the model and the full-scale vehicle to share a Froude number.
+
+$$
+\frac{V_{m}^{2}}{g L_{m}} = \frac{V_{f}^{2}}{g L_{f}}
+\tag{4}
+$$
+
+**Equation 5, Speed Ratio Under Froude Similarity.**
+Since gravity is common to both, the speed ratio is the square root of the length ratio.
+
+$$
+\frac{V_{m}}{V_{f}} = \sqrt{\lambda}
+\tag{5}
+$$
+
+**Equation 6, Time Ratio Under Froude Similarity.**
+A length divided by a speed is a time, so the time ratio is also the square root of the length ratio.
+
+$$
+\frac{t_{m}}{t_{f}} = \sqrt{\lambda}
+\tag{6}
+$$
+
+**Equation 7, Angular Rate Ratio Under Froude Similarity.**
+Angular rates scale as the inverse square root of the length ratio and therefore rise in the model.
+
+$$
+\frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{\lambda}}
+\tag{7}
+$$
+
+**Equation 8, Reynolds Number Ratio in Common Air.**
+Substituting the Froude-matched speed into the Reynolds number with density and viscosity common gives the product of the speed and length ratios.
+
+$$
+\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = \frac{V_{m} L_{m}}{V_{f} L_{f}} = \sqrt{\lambda} \cdot \lambda
+\tag{8}
+$$
+
+**Equation 9, Reynolds Number Ratio as a Power of Scale.**
+The Reynolds number ratio under Froude similarity in common air is the length ratio to the three-halves power.
+
+$$
+\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = \lambda^{3/2}
+\tag{9}
+$$
+
+**Equation 10, Mach Number Ratio Under Froude Similarity.**
+With the speed of sound common the Mach number ratio equals the speed ratio.
+
+$$
+\frac{\mathrm{Ma}_{m}}{\mathrm{Ma}_{f}} = \sqrt{\lambda}
+\tag{10}
+$$
+
+**Equation 11, Dynamic Pressure Ratio Under Froude Similarity.**
+With density common the dynamic pressure scales linearly with the length ratio.
+
+$$
+\frac{\bar{q}_{m}}{\bar{q}_{f}} = \frac{\rho V_{m}^{2}}{\rho V_{f}^{2}} = \lambda
+\tag{11}
+$$
+
+**Equation 12, Weight Ratio Under Froude Similarity.**
+Equal relative density requires the model weight to scale as the cube of the length ratio.
+
+$$
+\frac{W_{m}}{W_{f}} = \lambda^{3}
+\tag{12}
+$$
+
+**Equation 13, Wing Loading Ratio Under Froude Similarity.**
+Weight scaling as the cube and area as the square of the length ratio make the wing loading scale linearly.
+
+$$
+\frac{(W/S)_{m}}{(W/S)_{f}} = \lambda
+\tag{13}
+$$
+
+**Equation 14, Inertia Ratio Under Mass Similarity.**
+A moment of inertia is a mass times a length squared, so under mass similarity it scales as the fifth power of the length ratio.
+
+$$
+\frac{I_{m}}{I_{f}} = \frac{m_{m}}{m_{f}} \left(\frac{L_{m}}{L_{f}}\right)^{2} = \lambda^{3} \lambda^{2} = \lambda^{5}
+\tag{14}
+$$
+
+**Equation 15, Relative Density.**
+The relative density compares the vehicle's mass to the mass of air in a volume defined by its reference area and length.
+[Chambers 2010][research_chambers_2010]
+
+$$
+\mu = \frac{m}{\rho S l}
+\tag{15}
+$$
+
+**Equation 16, Relative Density Similarity Condition.**
+Dynamic similarity of a free-flight model holds when the relative densities of model and full-scale vehicle match.
+[Chambers 2010][research_chambers_2010]
+
+$$
+\mu_{m} = \mu_{f}
+\tag{16}
+$$
+
+**Equation 17, Length Ratio From the Published Lengths.**
+The published lengths of the X-40A and X-37B give a length ratio of 0.752.
+[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]
+[Boeing X-37][ref_x37]
+
+$$
+\lambda_{\text{length}} = \frac{6.71}{8.92} = 0.752
+\tag{17}
+$$
+
+**Equation 18, Span Ratio From the Published Spans.**
+The published spans give a span ratio of 0.804.
+[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]
+[Boeing X-37][ref_x37]
+
+$$
+\lambda_{\text{span}} = \frac{3.66}{4.55} = 0.804
+\tag{18}
+$$
+
+*Equation 19, Bespoke Reciprocal of the Mean Scale Ratio.*
+The scale ratio is taken as 0.778, the mean of the length and span ratios, and its reciprocal is checked against the published figure of about 120 percent.
+[Boeing X-37][ref_x37]
+
+$$
+\frac{1}{\lambda} = \frac{1}{0.778} = 1.285
+\tag{19}
+$$
+
+*Equation 20, Bespoke Dynamically Similar Model Weight.*
+Froude similarity at the mean scale ratio of 0.778 requires a model weight of 5,186 pounds from the published X-37B maximum takeoff weight.
+[Boeing X-37][ref_x37]
+
+$$
+W_{m} = W_{f} \lambda^{3} = 11{,}000 \times 0.778^{3} = 5{,}186 \ \text{lb}
+\tag{20}
+$$
+
+**Equation 21, Scale Ratio Implied by the Mass Ratio.**
+The cube root of the published weight ratio implies a scale ratio of 0.618, well below the geometric one.
+[Boeing and the Air Force flight test the Space Maneuver Vehicle][ref_boeing_1998]
+[Boeing X-37][ref_x37]
+
+$$
+\lambda_{\text{mass}} = \left(\frac{2{,}600}{11{,}000}\right)^{1/3} = 0.618
+\tag{21}
+$$
+
+*Equation 22, Bespoke Wing Loadings of Model and Full-Scale Vehicle.*
+The wing loadings use an estimated X-40A reference area of 100 square feet and its scaling by the square of the mean scale ratio to 165 square feet.
+
+$$
+\left(\frac{W}{S}\right)_{m} = \frac{2{,}600}{100} = 26.0 \ \text{lb/ft}^{2} \qquad \left(\frac{W}{S}\right)_{f} = \frac{11{,}000}{165} = 66.6 \ \text{lb/ft}^{2}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Wing Loading Ratio Against the Requirement.*
+The ratio of the estimated wing loadings is 0.391 against a required value equal to the mean scale ratio.
+
+$$
+\frac{(W/S)_{m}}{(W/S)_{f}} = 0.391 \quad \text{against a required} \quad \lambda = 0.778
+\tag{23}
+$$
+
+*Equation 24, Bespoke Speed Ratio Against the Requirement.*
+Taking speed to vary as the square root of wing loading at a given lift coefficient, the estimated loadings give a speed ratio of 0.625 against a required 0.882.
+
+$$
+\frac{V_{m}}{V_{f}} = \sqrt{0.391} = 0.625 \quad \text{against a required} \quad \sqrt{\lambda} = 0.882
+\tag{24}
+$$
+
+*Equation 25, Bespoke Fraction of the Dynamically Similar Speed.*
+The ratio of the estimated to the required speed ratio is 0.708.
+
+$$
+\frac{0.625}{0.882} = 0.708
+\tag{25}
+$$
+
+*Equation 26, Bespoke Relative Densities of Model and Full-Scale Vehicle.*
+The relative densities use the estimated reference areas, the vehicle lengths and the standard density at a mean altitude of 8,000 feet that the article takes.
+
+$$
+\mu_{m} = \frac{80.8}{(0.001869)(100)(22.0)} = 19.7 \qquad \mu_{f} = \frac{341.9}{(0.001869)(165)(29.25)} = 37.9
+\tag{26}
+$$
+
+*Equation 27, Bespoke Relative Density Ratio Against the Requirement.*
+The ratio of the estimated relative densities is 0.519 against a required value of one.
+
+$$
+\frac{\mu_{m}}{\mu_{f}} = 0.519 \quad \text{against a required} \quad 1.000
+\tag{27}
+$$
+
+*Equation 28, Bespoke Reynolds Number Ratio of the X-40A.*
+The Reynolds number ratio is evaluated at the mean scale ratio of 0.778.
+
+$$
+\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.778^{3/2} = 0.686
+\tag{28}
+$$
+
+**Equation 29, Reynolds Number Ratio of a 22 Percent Drop Model.**
+At the published 22 percent scale of the F/A-18E/F drop model the same relation gives about a tenth of full scale.
+[Croom et al. 2000][research_croom_2000]
+
+$$
+\frac{\mathrm{Re}_{m}}{\mathrm{Re}_{f}} = 0.22^{3/2} = 0.103
+\tag{29}
+$$
+
+*Equation 30, Bespoke Absolute Reynolds Number of the X-40A.*
+The Reynolds number on the 22 foot length at 428 feet per second uses standard atmosphere density and viscosity at a mean altitude of 8,000 feet that the article takes as representative.
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+\mathrm{Re} = \frac{(0.001869)(428)(22.0)}{3.58 \times 10^{-7}} = 4.92 \times 10^{7}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Mach Number of the X-40A.*
+The published speed over the standard speed of sound at the representative altitude of 8,000 feet gives a Mach number of 0.394.
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+\mathrm{Ma} = \frac{428}{1{,}085} = 0.394
+\tag{31}
+$$
+
+*Equation 32, Bespoke Mean Sink Rate of the 12 April Flight.*
+The release altitude of the 12 April flight is paired with the 75 second descent stated for the series, a pairing the article makes because no duration is given for that flight.
+[X-40A Space Maneuvering Vehicle][ref_nasa_x40]
+
+$$
+\dot{h} = \frac{15{,}050}{75} = 200.7 \ \text{ft/s}
+\tag{32}
+$$
+
+**Equation 33, Sink Rate and Flight Path Angle.**
+The sink rate is the speed along the flight path times the sine of the flight path angle.
+
+$$
+\dot{h} = V \sin\gamma
+\tag{33}
+$$
+
+*Equation 34, Bespoke Flight Path Angle of the 12 April Flight.*
+The paired mean sink rate over the published speed gives a flight path angle of 28.0 degrees.
+
+$$
+\gamma = \arcsin\left(\frac{200.7}{428}\right) = 28.0^{\circ}
+\tag{34}
+$$
+
+**Equation 35, Force Balance in a Steady Glide.**
+In a steady glide lift balances the weight component across the path and drag the component along it.
+
+$$
+L = W \cos\gamma \qquad D = W \sin\gamma
+\tag{35}
+$$
+
+**Equation 36, Lift to Drag Ratio as the Cotangent of the Glide Angle.**
+The ratio of the two balances makes the lift to drag ratio the cotangent of the flight path angle.
+
+$$
+\frac{L}{D} = \frac{W\cos\gamma}{W\sin\gamma} = \cot\gamma
+\tag{36}
+$$
+
+*Equation 37, Bespoke Effective Lift to Drag Ratio.*
+The flight path angle from the paired sink rate gives an effective lift to drag ratio of 1.88.
+
+$$
+\left(\frac{L}{D}\right)_{\text{eff}} = \cot 28.0^{\circ} = 1.88
+\tag{37}
+$$
+
+**Equation 38, Ground Range in a Steady Glide.**
+The ground range is the height multiplied by the lift to drag ratio.
+
+$$
+R = h \cot\gamma = h \left(\frac{L}{D}\right)
+\tag{38}
+$$
+
+*Equation 39, Bespoke Ground Range of the 12 April Flight.*
+The release altitude over the tangent of the paired flight path angle gives 4.67 nautical miles.
+
+$$
+R = \frac{15{,}050}{\tan 28.0^{\circ}} = 28{,}353 \ \text{ft} = 4.67 \ \text{nautical miles}
+\tag{39}
+$$
+
+**Equation 40, Specific Energy at Release.**
+Releasing from a hover makes the initial kinetic term negligible, so the available specific energy is gravity times the release altitude.
+
+$$
+\frac{E}{m} = g h = (32.174)(15{,}050) = 484{,}219 \ \text{ft}^{2}/\text{s}^{2}
+\tag{40}
+$$
+
+**Equation 41, Kinetic Energy per Unit Mass at the Published Speed.**
+Half the published speed squared is 18.9 percent of the specific energy available at release.
+
+$$
+\frac{V^{2}}{2} = \frac{428^{2}}{2} = 91{,}592 \ \text{ft}^{2}/\text{s}^{2}
+\tag{41}
+$$
+
+**Equation 42, Free-Fall Speed From the Release Altitude.**
+A body falling from the release altitude without drag would reach 984 feet per second, more than twice the speed reached.
+
+$$
+V = \sqrt{2gh} = \sqrt{2(32.174)(15{,}050)} = 984 \ \text{ft/s}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Full-Scale Equivalent of the Descent Time.*
+The series descent time of 75 seconds divided by the square root of the mean scale ratio stands for an 85 second full-scale event.
+
+$$
+t_{f} = \frac{t_{m}}{\sqrt{\lambda}} = \frac{75}{\sqrt{0.778}} = 85.0 \ \text{s}
+\tag{43}
+$$
+
+**Equation 44, Range to Height Ratio of the 1998 Flight.**
+The published distance of 2.5 miles over the release altitude of about 9,000 feet gives a straight-line ratio of 1.47.
+[X-40][ref_x40]
+[Boeing X-37 and X-40][ref_x37_x40]
+
+$$
+\frac{2.5 \times 5{,}280}{9{,}000} = \frac{13{,}200}{9{,}000} = 1.47
+\tag{44}
+$$
+
+**Equation 45, Range to Height Ratio at the Alternative Altitude.**
+The museum's release altitude of about 10,000 feet lowers the ratio to 1.32.
+[Boeing X-40A][ref_nmusaf_x40]
+
+$$
+\frac{13{,}200}{10{,}000} = 1.32
+\tag{45}
+$$
+
+*Equation 46, Bespoke Lift in the 12 April Glide.*
+The lift balancing the weight across the path is evaluated at the paired flight path angle of 28.0 degrees.
+
+$$
+L = W \cos\gamma = 2{,}600 \cos 28.0^{\circ} = 2{,}297 \ \text{lb}
+\tag{46}
+$$
+
+**Equation 47, Lift Equation.**
+Lift is the dynamic pressure times the reference area times the lift coefficient.
+
+$$
+L = \tfrac{1}{2} \rho V^{2} S C_{L}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Dynamic Pressure at the Representative Altitude.*
+Half the standard density at a mean altitude of 8,000 feet, which the article takes, times the published speed squared gives 171.2 pounds per square foot.
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+\bar{q} = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2}(0.001869)(428)^{2} = 171.2 \ \text{lb/ft}^{2}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Product of Reference Area and Lift Coefficient.*
+The lift from the paired path angle over the dynamic pressure at the representative altitude fixes the product of area and lift coefficient at 13.42 square feet.
+
+$$
+S C_{L} = \frac{2{,}297}{171.2} = 13.42 \ \text{ft}^{2}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Aspect Ratio.*
+The published span with an estimated planform area of 100 square feet gives an aspect ratio of 1.44.
+
+$$
+AR = \frac{b^{2}}{S} = \frac{12^{2}}{100} = 1.44
+\tag{50}
+$$
+
+**Equation 51, Induced Drag Coefficient.**
+The induced drag coefficient is the lift coefficient squared over pi times the Oswald efficiency times the aspect ratio.
+
+$$
+C_{D_{i}} = \frac{C_{L}^{2}}{\pi e AR}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Induced Drag Coefficient of the X-40A.*
+The induced drag is evaluated with the lift coefficient implied by the estimated area, the estimated aspect ratio and an Oswald efficiency of 0.6 that the article assumes.
+
+$$
+C_{D_{i}} = \frac{0.134^{2}}{\pi (0.6)(1.44)} = 0.0066
+\tag{52}
+$$
+
+*Equation 53, Bespoke Angular Rate Ratio at the Mean Scale.*
+At the mean scale ratio of 0.778 the model's angular rates are 1.134 times those of the full-scale vehicle.
+
+$$
+\frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{0.778}} = 1.134
+\tag{53}
+$$
+
+*Equation 54, Bespoke Required Inertia Ratio.*
+Dynamic similarity at the mean scale ratio requires an inertia ratio of 0.285.
+
+$$
+\left(\frac{I_{m}}{I_{f}}\right)_{\text{required}} = 0.778^{5} = 0.285
+\tag{54}
+$$
+
+*Equation 55, Bespoke Actual Inertia Ratio.*
+The published mass ratio times the square of the mean scale ratio gives an actual inertia ratio of 0.143.
+
+$$
+\left(\frac{I_{m}}{I_{f}}\right)_{\text{actual}} = (0.236)(0.778)^{2} = 0.143
+\tag{55}
+$$
+
+*Equation 56, Bespoke Fraction of the Required Inertia.*
+The actual over the required inertia ratio shows the vehicle carried about half the rotational inertia that similarity demanded.
+
+$$
+\frac{0.143}{0.285} = 0.502
+\tag{56}
+$$
+
+*Equation 57, Bespoke Angular Acceleration Against a Similar Model.*
+Angular acceleration is moment over inertia, so the inertia ratios built on the mean scale ratio make the plant respond about twice as fast as a similar model.
+
+$$
+\ddot{\theta} = \frac{M}{I} \quad \Longrightarrow \quad \frac{\ddot{\theta}_{\text{actual}}}{\ddot{\theta}_{\text{similar}}} = \frac{0.285}{0.143} = 1.99
+\tag{57}
+$$
+
+**Equation 58, Angle Subtended by the Landing Error.**
+The published seven foot tracking error over the published 13,200 foot distance subtends at most 1.82 minutes of arc.
+[X-40][ref_x40]
+
+$$
+\theta \le \frac{7}{13{,}200} = 5.30 \times 10^{-4} \ \text{rad} = 1.82 \ \text{arcmin}
+\tag{58}
+$$
+
+**Equation 59, Mean Deceleration Over a Stroke.**
+A sink rate arrested over a gear stroke imposes a mean deceleration of the sink rate squared over twice the stroke.
+
+$$
+a = \frac{\dot{h}^{2}}{2s}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Gear Deceleration at Touchdown.*
+A representative touchdown sink rate of three feet per second into an assumed six inch stroke gives about 0.28 times standard gravity.
+[Larson 1972][research_larson_1972]
+
+$$
+a = \frac{3^{2}}{2(0.5)} = 9 \ \text{ft/s}^{2}
+\tag{60}
+$$
+
+**Equation 61, Mean Rollout Deceleration.**
+The published rollout of about 7,000 feet gives the mean deceleration as the touchdown speed squared over 14,000 feet.
+[X-40][ref_x40]
+
+$$
+a = \frac{V_{td}^{2}}{2 s} = \frac{V_{td}^{2}}{14{,}000}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Rollout Deceleration Bracket.*
+The rollout deceleration is evaluated at assumed touchdown speeds of 150 and 200 feet per second, since none is published.
+
+$$
+a\big|_{150} = 0.050 \ g \qquad a\big|_{200} = 0.089 \ g
+\tag{62}
+$$
+
+**Equation 63, Specific Energy of an Unpowered Vehicle at Release.**
+The available specific energy at release is the potential term plus the kinetic term of the release speed.
+
+$$
+\frac{E}{m} = gh + \tfrac{1}{2}V_{0}^{2}
+\tag{63}
+$$
+
+**Equation 64, Ratio of Release Energies.**
+With release from a hover the energies of the 2001 and 1998 releases stand in the ratio of their published altitudes, 1.672.
+[X-40A second free flight successful][ref_sciencedaily_x40]
+
+$$
+\frac{(E/m)_{2001}}{(E/m)_{1998}} = \frac{g(15{,}050)}{g(9{,}000)} = \frac{15{,}050}{9{,}000} = 1.672
+\tag{64}
+$$
+
+**Equation 65, One-Sided Upper Bound on Failure Probability.**
+For a number of trials with no observed failure, requiring that run of successes to be no less likely than the significance level bounds the failure probability.
+
+$$
+(1 - p)^{n} = \alpha \quad \Longrightarrow \quad p_{\max} = 1 - \alpha^{1/n}
+\tag{65}
+$$
+
+**Equation 66, Upper Bound After Eight Clean Landings.**
+Eight successes bound the failure probability below 0.312 at 95 percent confidence.
+
+$$
+p_{\max} = 1 - 0.05^{1/8} = 0.312
+\tag{66}
+$$
+
+**Equation 67, Fabrication Cost per Flight.**
+One million dollars of fabrication across eight free flights is 125,000 dollars per flight before operating costs.
+
+$$
+\frac{1{,}000{,}000}{8} = 125{,}000 \ \text{dollars per flight}
+\tag{67}
+$$
+
+### Notation
+
+- $W_{\text{X-40A}}$, the X-40A weight, with $W_{\text{orbiter}}$ the ballasted weight of the orbiter
+- $\mathrm{Fr}$, the Froude number
+- $\mathrm{Re}$, the Reynolds number
+- $\mathrm{Ma}$, the Mach number
+- $\lambda$, the geometric scale ratio of model to full-scale vehicle, with $\lambda_{\text{length}}$, $\lambda_{\text{span}}$ and $\lambda_{\text{mass}}$ the ratios from length, span and mass
+- $V_{m}$, the model speed, with $V_{f}$ the full-scale speed
+- $t_{m}$, the model time, with $t_{f}$ the full-scale time
+- $\omega_{m}$, the model angular rate, with $\omega_{f}$ the full-scale angular rate
+- $\bar{q}$, the dynamic pressure
+- $I_{m}$, the model moment of inertia, with $I_{f}$ the full-scale moment of inertia
+- $\mu$, the dynamic viscosity in the Reynolds number, and the relative density from the similarity parameter onward
+- $\dot{h}$, the sink rate
+- $\gamma$, the flight path angle
+- $\left(\frac{L}{D}\right)_{\text{eff}}$, the effective lift to drag ratio
+- $R$, the ground range
+- $C_{D_{i}}$, the induced drag coefficient
+- $e$, the Oswald efficiency
+- $AR$, the aspect ratio
+- $\ddot{\theta}$, the angular acceleration
+- $V_{td}$, the touchdown speed
+- $p_{\max}$, the upper bound on the failure probability
+- $\alpha$, the significance level
 
 ## References
 

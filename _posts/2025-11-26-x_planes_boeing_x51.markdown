@@ -30,6 +30,7 @@ This is the fifty-second article in the [X-Planes series][related_post_a297_fram
 
 $$
 \frac{210}{11} = 19.1
+\tag{1}
 $$
 
 **On the ten second figure the ratio is 21.0**, and every comparison below that rests on it would strengthen.
@@ -54,18 +55,21 @@ $$
 
 $$
 \frac{T_0}{T} = 1 + \frac{\gamma - 1}{2} M^2
+\tag{2}
 $$
 
 **Stagnation temperature is what the air arrives with and no amount of ducting changes it.** Bringing the flow to rest converts the whole of its kinetic energy into heat, and at the X-51A's cruise condition that gives
 
 $$
 T_0 = T \left( 1 + \tfrac{\gamma - 1}{2} M^2 \right) = 216.65 \times 6.202 = 1{,}343.7 \ \mathrm{K}
+\tag{3}
 $$
 
 **being 1,070.5 degrees Celsius before a drop of fuel has been added**, the static temperature at both cruise altitudes being taken from the standard atmosphere \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere_ref]\] \[[U.S. Standard Atmosphere 1976 1976][research_us_standard_atmosphere]\]. At the X-43's Mach 9.68 and its altitude of about 110,000 feet \[[Voland et al. 2005][research_x43_technology]\], where the standard atmosphere gives 232.4 kelvin, the same relation gives 4,588.4 kelvin, or 4,315.2 degrees Celsius, and
 
 $$
 \frac{T_{0,\text{X-43}}}{T_{0,\text{X-51}}} = 3.41
+\tag{4}
 $$
 
 **Air at four thousand kelvin is not air any more.** Oxygen begins to dissociate appreciably above about two thousand kelvin \[[Anderson, Hypersonic and high-temperature gas dynamics][book_anderson_hypersonic]\], and a gas whose molecules have been pulled apart absorbs the energy of combustion into reassembling itself rather than into pushing on a nozzle.
@@ -74,6 +78,7 @@ $$
 
 $$
 \frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\!\gamma / (\gamma - 1)} = 594
+\tag{5}
 $$
 
 **and its density by a factor of 95.8.** A duct that captured that flow and stopped it would be holding 594 times the ambient pressure, which at the fourth flight's altitude is about 42 atmospheres, at more than a thousand degrees. It would be a pressure vessel.
@@ -82,6 +87,7 @@ $$
 
 $$
 q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} \gamma p M^2
+\tag{6}
 $$
 
 **At Mach 5.1 that is 18.2 times the static pressure**, and the cruise value on the fourth flight was 2,750 pounds per square foot, against 1,640 on the first, because the fourth flight was flown ten thousand feet lower where the air is 1.62 times denser \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\] \[[X-51 scramjet engine demonstrator, GlobalSecurity][ref_x51_globalsecurity]\].
@@ -98,18 +104,21 @@ $$
 
 $$
 \tan \theta = 2 \cot \beta \, \frac{M_1^2 \sin^2 \beta - 1}{M_1^2 (\gamma + \cos 2\beta) + 2}
+\tag{7}
 $$
 
 **The flow responds not to the free-stream Mach number but to its component normal to the shock.**
 
 $$
 M_{n1} = M_1 \sin \beta
+\tag{8}
 $$
 
 **and that component alone determines the pressure rise.**
 
 $$
 \frac{p_2}{p_1} = 1 + \frac{2 \gamma}{\gamma + 1} \left( M_{n1}^2 - 1 \right)
+\tag{9}
 $$
 
 **For a given free-stream Mach number and a given wedge angle there are two attached solutions, and in practice the weaker one occurs**, and above a maximum deflection angle there is no attached solution at all and the shock stands off as a bow wave \[[Anderson, Modern compressible flow][book_anderson_modern]\]. **A waverider is a shape designed backwards from a chosen shock.** The method makes the shape unusual, and the shape works only near the Mach number it was cut for.
@@ -126,6 +135,7 @@ $$
 
 $$
 \dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{\rho}{R_n}} \, V^3
+\tag{10}
 $$
 
 **The nose radius is not published and a waverider wants it small** \[[Boeing X-51, Directory of U.S. Military Rockets and Missiles][ref_x51_designation]\], so the result is a range. At the fourth flight's condition, with density 0.1163 kilograms per cubic metre and velocity 1,504.9 metres per second,
@@ -133,12 +143,14 @@ $$
 $$
 R_n = 5 \ \mathrm{mm} \Rightarrow \dot{q} = 2.86 \ \mathrm{MW/m^2} \qquad
 R_n = 50 \ \mathrm{mm} \Rightarrow \dot{q} = 0.91 \ \mathrm{MW/m^2}
+\tag{11}
 $$
 
 **A surface that has to lose that by radiation alone reaches**
 
 $$
 T_{\text{rad}} = \left( \frac{\dot{q}}{\varepsilon \sigma} \right)^{\!1/4}
+\tag{12}
 $$
 
 **giving 2,545 degrees Celsius for the sharp edge and 1,840 for the blunt one**, taking emissivity as 0.8. **Both are far above the melting range of a nickel superalloy**, 1,290 to 1,350 degrees Celsius for INCONEL alloy 625 \[[INCONEL alloy 625, Special Metals Corporation][ref_inconel625]\].
@@ -149,6 +161,7 @@ $$
 
 $$
 \frac{\dot{q}_{\text{X-43}}}{\dot{q}_{\text{X-51}}} \approx \left( \frac{2958.5}{1504.9} \right)^{\!3} = 7.60
+\tag{13}
 $$
 
 **and a comparison of the two aeroplanes usually stops at that number.** The X-43 flew hotter. It flew more than three times hotter in stagnation temperature and more than seven times harder in heating rate.
@@ -157,12 +170,14 @@ $$
 
 $$
 Q = \int_0^{t} \dot{q} \, \mathrm{d}t
+\tag{14}
 $$
 
 **And the two flights differ by a factor of nineteen in the upper limit.** Taking the heating rates as constant across each burn, which overstates neither case badly,
 
 $$
 \frac{Q_{\text{X-51}}}{Q_{\text{X-43}}} = \frac{19.1}{7.60} = 2.51
+\tag{15}
 $$
 
 **The slower aeroplane absorbed more than two and a half times as much heat.** The programme turns on that sentence. It means that an eleven second flight and a two hundred and ten second flight are not the same experiment conducted for different lengths of time. **They are different experiments.**
@@ -171,6 +186,7 @@ $$
 
 $$
 \delta \approx \sqrt{\alpha t}
+\tag{16}
 $$
 
 **and for a nickel superalloy, whose diffusivity is about 3.5 millionths of a square metre per second, the two flights differ like this.** The manufacturer's conductivity, density and specific heat for INCONEL alloy 625 give 2.8 millionths at room temperature and 4.6 millionths at 982 degrees Celsius \[[INCONEL alloy 625, Special Metals Corporation][ref_inconel625]\], so 3.5 is a mid-range value.
@@ -178,12 +194,14 @@ $$
 $$
 \delta_{\text{X-43}} = \sqrt{(3.5 \times 10^{-6})(11)} = 6.2 \ \mathrm{mm} \qquad
 \delta_{\text{X-51}} = \sqrt{(3.5 \times 10^{-6})(210)} = 27.1 \ \mathrm{mm}
+\tag{17}
 $$
 
 **a ratio of**
 
 $$
 \frac{\delta_{\text{X-51}}}{\delta_{\text{X-43}}} = \sqrt{\frac{210}{11}} = 4.37
+\tag{18}
 $$
 
 **Six millimetres is a skin. Twenty-seven millimetres is not something an aeroplane can carry as dead mass**, and that difference separates the two experiments.
@@ -207,12 +225,14 @@ $$
 $$
 \frac{E_{\text{boost}}}{E_{\text{cruise}}} = \left( \frac{V_{\text{boost}}}{V_{\text{cruise}}} \right)^{\!2}
 = \left( \frac{4646.8}{4937.2} \right)^{\!2} = 0.886
+\tag{19}
 $$
 
 **The rocket supplied 88.6 percent of the kinetic energy in twenty-six seconds. The scramjet supplied 11.4 percent in two hundred and ten**, taking
 
 $$
 \frac{210}{26} = 8.08
+\tag{20}
 $$
 
 **times as long to do an eighth as much.**
@@ -227,6 +247,7 @@ $$
 
 $$
 \frac{270}{4000} = 6.75\%
+\tag{21}
 $$
 
 **of its empty weight**, and that same 270 pounds was the engine's coolant \[[Boeing X-51A WaveRider breaks record in first flight][ref_boeing_first_flight]\].
@@ -235,12 +256,14 @@ $$
 
 $$
 \dot{m}_f = \frac{270}{210} = 1.286 \ \mathrm{lb/s}
+\tag{22}
 $$
 
 **The cooling that fuel flow provides is finite and computable.** Taking the physical and endothermic heat sink of a cracked hydrocarbon fuel at 2,500 to 3,500 kilojoules per kilogram, which a review of the endothermic fuel literature gives for fuels of eight to fifteen carbon atoms, or 1,075 to 1,505 British thermal units per pound \[[Dinda et al. 2021][research_dinda_vuchuru_2021]\] \[[Petley and Jones 1990][research_endothermic_mach5]\] \[[Morris et al. 2002][research_heat_sink_fuel_protocol]\], the cooling power available while the engine runs is
 
 $$
 P_{\text{cool}} = \dot{m}_f \, h_{\text{sink}} = 1.286 \times (1075 \ \text{to} \ 1505) = 1{,}382 \ \text{to} \ 1{,}935 \ \mathrm{Btu/s}
+\tag{23}
 $$
 
 **being between 1,458 and 2,041 kilowatts.**
@@ -249,6 +272,7 @@ $$
 
 $$
 \frac{h_{\text{sink}}}{h_{\text{combustion}}} = \frac{1075 \ \text{to} \ 1505}{18700} = 5.7\% \ \text{to} \ 8.0\%
+\tag{24}
 $$
 
 **of the heat it releases.** The coolant capacity of the system is between a twelfth and a seventeenth of the energy the system is producing, and the two are the same substance, and you cannot increase one without spending the other.
@@ -265,6 +289,7 @@ $$
 
 $$
 \frac{0.75}{300} = 0.25\%
+\tag{25}
 $$
 
 **of the overall length**, and a seal at that interface has to stay sealed through that growth while hot gas is on one side.
@@ -273,12 +298,14 @@ $$
 
 $$
 \Delta L = \alpha L \, \Delta T
+\tag{26}
 $$
 
 **so solving for the length that gives three quarters of an inch**, at a linear expansion coefficient of 15.6 millionths per kelvin, the mean for INCONEL alloy 625 between room temperature and 821 degrees Celsius \[[INCONEL alloy 625, Special Metals Corporation][ref_inconel625]\], and a temperature rise of eight hundred kelvin,
 
 $$
 L = \frac{\Delta L}{\alpha \, \Delta T} = \frac{0.75}{(15.6 \times 10^{-6})(800)} = 60 \ \mathrm{in} = 5.0 \ \mathrm{ft}
+\tag{27}
 $$
 
 **a plausible engine for a twenty-five foot vehicle**, offered as a consistency check on the published growth rather than as a measurement of anything.
@@ -297,12 +324,14 @@ $$
 
 $$
 \frac{A}{A^*} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{(\gamma + 1) / 2(\gamma - 1)}
+\tag{28}
 $$
 
 **gives 27.07 at Mach 5.1**, and a normal shock at that Mach number leaves only 5.72 percent of the total pressure, which enlarges the sonic area by the inverse of that fraction. Requiring the throat to be at least the enlarged sonic area gives the Kantrowitz condition,
 
 $$
 \frac{A_{th}}{A_i} \ \geq \ \frac{1}{(p_{02}/p_{01}) \, (A/A^*)_{M_1}} = 0.646
+\tag{29}
 $$
 
 **so the throat cannot be smaller than about two thirds of the capture area, and the internal contraction cannot exceed about 1.55.** A designer wanting more compression than that has to get it outside the inlet, on the forebody, and that requirement is the other reason for this vehicle's shape.
@@ -332,6 +361,7 @@ $$
 
 $$
 \frac{300 \times 10^6}{353} = \$849{,}858 \ \text{per second}
+\tag{30}
 $$
 
 **of scramjet operation.** The figure is offered as a measure of how expensive this kind of knowledge is and not as a judgement, since the alternative to buying it was not buying it.
@@ -344,6 +374,7 @@ $$
 
 $$
 \dot{m}_{\text{air}} = \frac{\dot{m}_f}{\phi \, f_{\text{st}}} = \frac{1.286}{0.0682} = 18.9 \ \mathrm{lb/s}
+\tag{31}
 $$
 
 **and twice that if it ran at half stoichiometric.**
@@ -354,18 +385,21 @@ $$
 
 $$
 R = V \, I_{sp} \, \frac{L}{D} \, \ln \frac{W_0}{W_1}
+\tag{32}
 $$
 
 **The vehicle carried 270 pounds of fuel on a 4,000 pound empty weight** \[[Boeing X-51 Waverider][ref_x51_wikipedia]\], so the mass ratio is 1.0675 and its logarithm is 0.0653. The powered distance is the cruise speed multiplied by the burn time,
 
 $$
 R = (1504.9)(210) = 316 \ \mathrm{km} = 171 \ \mathrm{nmi}
+\tag{33}
 $$
 
 **and solving the range relation for what the vehicle must have had gives a product rather than a value.**
 
 $$
 I_{sp} \, \frac{L}{D} = \frac{R}{V \ln (W_0 / W_1)} = 3{,}215
+\tag{34}
 $$
 
 **The programme published neither factor and the flight cannot separate them.** At a lift-to-drag ratio of 3 the specific impulse is 1,072 seconds. At 2 it is 1,607 and at 4 it is 804.
@@ -374,12 +408,14 @@ $$
 
 $$
 F_{\text{net}} = \frac{m \, \Delta(\tfrac{1}{2} V^2)}{t \, V} = 167 \ \mathrm{lbf}
+\tag{35}
 $$
 
 **which against the measured fuel flow is a net specific impulse of**
 
 $$
 I_{sp,\text{net}} = \frac{F_{\text{net}}}{\dot{m}_f} = \frac{167}{1.286} = 130 \ \mathrm{s}
+\tag{36}
 $$
 
 **This is a lower bound and it omits the climb**, because the altitude at booster separation is not published and any climb is energy the engine also had to supply.
@@ -388,6 +424,7 @@ $$
 
 $$
 \frac{I_{sp,\text{net}}}{I_{sp}} = 8.1\% \ \text{to} \ 16.1\%
+\tag{37}
 $$
 
 **Between 84 and 92 percent of what the engine made went into pushing the vehicle through the air rather than into speeding it up.** Such a figure is ordinary for a cruise vehicle, which by definition is spending its thrust on drag. **The figure is stated here because it shows where a running engine's output went**, and it describes the engine only on the one flight on which the engine ran until its fuel was gone.
@@ -410,12 +447,14 @@ $$
 
 $$
 \frac{143}{300} = 47.7\% \qquad \frac{210}{300} = 70.0\%
+\tag{38}
 $$
 
 **At the fourth flight's demonstrated consumption, three hundred seconds would have required**
 
 $$
 m_f = \dot{m}_f \, t = 1.286 \times 300 = 385.7 \ \mathrm{lb}
+\tag{39}
 $$
 
 **which is 42.9 percent more fuel than the vehicle carried.** The 300 second goal and the 270 pound tank were not compatible at the flow rate the engine used. **The article does not know which of the two was the later number**, and notes only that the flight which succeeded ran the tank dry rather than running out of objectives.
@@ -709,6 +748,392 @@ Rocket propulsion other than as the booster that got this vehicle to its start l
 **Why a seal could end a flight of minutes is arithmetic, and this article has done it.** A flight nineteen times longer than the X-43's, at under a third the stagnation temperature and under a seventh the heating rate, still absorbs more than two and a half times the heat. **Duration is not a scaling of the same problem. It is the arrival of a different one**, in which the structure reaches equilibrium, every joint has to hold while the engine grows a quarter of a percent, and the engine's coolant is the fuel you are trying to burn, whose capacity to absorb heat is between a twelfth and a seventeenth of the heat it makes.
 
 **And after all of it, the engine added about eleven percent of the vehicle's energy while a rocket added eighty-nine.** A cruise demonstration looks like that, and the split also measures the gap between demonstrating cruise and having an aircraft.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 39 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 39, 28 are established and 11 are bespoke.
+Temperatures are in kelvin, heat fluxes in megawatts per square metre and speeds in metres per second, while weights, fuel flows and forces are in pounds, cooling power is in British thermal units per second and the engine length is in inches, and $\alpha$ is the thermal diffusivity in the diffusion-length relations but the linear expansion coefficient in the thermal-growth relations.
+
+**Equation 1, Ratio of X-51A to X-43 Powered Duration.**
+The two hundred and ten second burn of the fourth X-51A flight divided by the eleven second burn of the X-43 gives a factor of about nineteen.
+[Voland et al. 2005][research_x43_technology]
+
+$$
+\frac{210}{11} = 19.1
+\tag{1}
+$$
+
+**Equation 2, Stagnation Temperature Ratio.**
+The isentropic stagnation temperature ratio rises with the square of the Mach number, scaled by half of one less than the ratio of specific heats.
+[Scramjet][ref_scramjet]
+
+$$
+\frac{T_0}{T} = 1 + \frac{\gamma - 1}{2} M^2
+\tag{2}
+$$
+
+**Equation 3, Stagnation Temperature at the Fourth Flight Condition.**
+The stagnation temperature at Mach 5.1 follows from the standard atmosphere static temperature of 216.65 kelvin at the cruise altitude.
+[U.S. Standard Atmosphere][ref_us_standard_atmosphere_ref]
+[U.S. Standard Atmosphere 1976 1976][research_us_standard_atmosphere]
+
+$$
+T_0 = T \left( 1 + \tfrac{\gamma - 1}{2} M^2 \right) = 216.65 \times 6.202 = 1{,}343.7 \ \mathrm{K}
+\tag{3}
+$$
+
+**Equation 4, Ratio of X-43 to X-51A Stagnation Temperature.**
+The same relation at the X-43 Mach number of 9.68 and its altitude of about 110,000 feet gives a stagnation temperature 3.41 times that of the X-51A.
+[Voland et al. 2005][research_x43_technology]
+
+$$
+\frac{T_{0,\text{X-43}}}{T_{0,\text{X-51}}} = 3.41
+\tag{4}
+$$
+
+**Equation 5, Isentropic Stagnation Pressure Ratio.**
+Bringing the Mach 5.1 flow to rest isentropically would raise its pressure by a factor of 594.
+[Anderson, Hypersonic and high-temperature gas dynamics][book_anderson_hypersonic]
+
+$$
+\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\!\gamma / (\gamma - 1)} = 594
+\tag{5}
+$$
+
+**Equation 6, Dynamic Pressure in Terms of Static Pressure and Mach Number.**
+The dynamic pressure of a perfect gas is half the ratio of specific heats times the static pressure times the square of the Mach number.
+
+$$
+q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} \gamma p M^2
+\tag{6}
+$$
+
+**Equation 7, Theta-Beta-Mach Relation.**
+The theta-beta-Mach relation connects the flow deflection angle of an attached oblique shock to the shock wave angle and the upstream Mach number.
+
+$$
+\tan \theta = 2 \cot \beta \, \frac{M_1^2 \sin^2 \beta - 1}{M_1^2 (\gamma + \cos 2\beta) + 2}
+\tag{7}
+$$
+
+**Equation 8, Normal Component of the Upstream Mach Number.**
+The component of the upstream Mach number normal to an oblique shock is the Mach number times the sine of the shock wave angle.
+
+$$
+M_{n1} = M_1 \sin \beta
+\tag{8}
+$$
+
+**Equation 9, Static Pressure Ratio Across a Shock.**
+The static pressure ratio across a shock depends only on the normal Mach number and the ratio of specific heats.
+[Anderson, Modern compressible flow][book_anderson_modern]
+
+$$
+\frac{p_2}{p_1} = 1 + \frac{2 \gamma}{\gamma + 1} \left( M_{n1}^2 - 1 \right)
+\tag{9}
+$$
+
+**Equation 10, Sutton and Graves Stagnation-Point Heating Correlation.**
+The Sutton and Graves correlation gives the convective stagnation-point heat flux in units of the International System as proportional to the square root of density over nose radius and the cube of velocity.
+[Bertin, Hypersonic aerothermodynamics][book_bertin]
+
+$$
+\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{\rho}{R_n}} \, V^3
+\tag{10}
+$$
+
+*Equation 11, Bespoke Stagnation-Point Heating Bracket for Assumed Nose Radii.*
+Because the nose radius is not published, the article evaluates the correlation at the fourth flight condition for two radii it chooses, five and fifty millimetres.
+
+$$
+R_n = 5 \ \mathrm{mm} \Rightarrow \dot{q} = 2.86 \ \mathrm{MW/m^2} \qquad
+R_n = 50 \ \mathrm{mm} \Rightarrow \dot{q} = 0.91 \ \mathrm{MW/m^2}
+\tag{11}
+$$
+
+**Equation 12, Radiative Equilibrium Temperature.**
+A surface that rejects the incident heat flux by radiation alone reaches the temperature at which its emitted flux, the emissivity times the Stefan-Boltzmann constant times the fourth power of temperature, balances the input.
+
+$$
+T_{\text{rad}} = \left( \frac{\dot{q}}{\varepsilon \sigma} \right)^{\!1/4}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Heating-Rate Ratio on Velocity Alone.*
+The ratio of X-43 to X-51A heating takes only the cube of the velocity ratio, an assumption the article chooses that sets the density and nose radius terms equal for the two vehicles.
+
+$$
+\frac{\dot{q}_{\text{X-43}}}{\dot{q}_{\text{X-51}}} \approx \left( \frac{2958.5}{1504.9} \right)^{\!3} = 7.60
+\tag{13}
+$$
+
+**Equation 14, Integrated Heat Load.**
+The heat load per unit area is the time integral of the heat flux over the exposure.
+
+$$
+Q = \int_0^{t} \dot{q} \, \mathrm{d}t
+\tag{14}
+$$
+
+*Equation 15, Bespoke Ratio of Integrated Heat Loads.*
+Taking each heating rate as constant across its burn, an assumption the article adopts, the ratio of heat loads is the duration ratio divided by the heating-rate ratio.
+
+$$
+\frac{Q_{\text{X-51}}}{Q_{\text{X-43}}} = \frac{19.1}{7.60} = 2.51
+\tag{15}
+$$
+
+**Equation 16, Thermal Diffusion Length.**
+The depth to which heat penetrates a solid scales as the square root of the thermal diffusivity times the exposure time.
+
+$$
+\delta \approx \sqrt{\alpha t}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Diffusion Depths for a Mid-Range Diffusivity.*
+The diffusion depths of the two flights are evaluated at a diffusivity of 3.5 millionths of a square metre per second, a mid-range value the article takes between the manufacturer's room-temperature and high-temperature figures for INCONEL alloy 625.
+[INCONEL alloy 625, Special Metals Corporation][ref_inconel625]
+
+$$
+\delta_{\text{X-43}} = \sqrt{(3.5 \times 10^{-6})(11)} = 6.2 \ \mathrm{mm} \qquad
+\delta_{\text{X-51}} = \sqrt{(3.5 \times 10^{-6})(210)} = 27.1 \ \mathrm{mm}
+\tag{17}
+$$
+
+**Equation 18, Ratio of Diffusion Depths.**
+The ratio of the two diffusion depths is the square root of the ratio of the burn durations, so the diffusivity cancels.
+
+$$
+\frac{\delta_{\text{X-51}}}{\delta_{\text{X-43}}} = \sqrt{\frac{210}{11}} = 4.37
+\tag{18}
+$$
+
+**Equation 19, Kinetic Energy Share Supplied by the Booster.**
+Because kinetic energy goes as the square of speed, the booster's share of the final kinetic energy is the square of the ratio of the Mach 4.8 separation speed to the Mach 5.1 cruise speed.
+[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]
+
+$$
+\frac{E_{\text{boost}}}{E_{\text{cruise}}} = \left( \frac{V_{\text{boost}}}{V_{\text{cruise}}} \right)^{\!2}
+= \left( \frac{4646.8}{4937.2} \right)^{\!2} = 0.886
+\tag{19}
+$$
+
+**Equation 20, Ratio of Scramjet to Booster Burn Duration.**
+The two hundred and ten second scramjet burn is about eight times the twenty-six second booster burn.
+[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]
+
+$$
+\frac{210}{26} = 8.08
+\tag{20}
+$$
+
+**Equation 21, Fuel Load as a Fraction of Empty Weight.**
+The 270 pounds of JP-7 is 6.75 percent of the 4,000 pound empty weight.
+[Boeing X-51 Waverider][ref_x51_wikipedia]
+
+$$
+\frac{270}{4000} = 6.75\%
+\tag{21}
+$$
+
+**Equation 22, Average Fuel Flow on the Fourth Flight.**
+The fourth flight burned the tank dry, so its average fuel flow is the 270 pound load divided by the 210 second burn.
+[Boeing X-51A WaveRider sets record with successful fourth flight][ref_boeing_fourth_flight]
+[Boeing X-51 Waverider][ref_x51_wikipedia]
+
+$$
+\dot{m}_f = \frac{270}{210} = 1.286 \ \mathrm{lb/s}
+\tag{22}
+$$
+
+**Equation 23, Cooling Power of the Fuel Flow.**
+The cooling power available is the fuel flow times the physical and endothermic heat sink, evaluated across the published range for cracked hydrocarbon fuels.
+[Dinda et al. 2021][research_dinda_vuchuru_2021]
+[Petley and Jones 1990][research_endothermic_mach5]
+[Morris et al. 2002][research_heat_sink_fuel_protocol]
+
+$$
+P_{\text{cool}} = \dot{m}_f \, h_{\text{sink}} = 1.286 \times (1075 \ \text{to} \ 1505) = 1{,}382 \ \text{to} \ 1{,}935 \ \mathrm{Btu/s}
+\tag{23}
+$$
+
+**Equation 24, Heat Sink as a Fraction of Heat of Combustion.**
+The heat the fuel can absorb is 5.7 to 8.0 percent of the minimum net heat of combustion that its specification sets.
+[Jp-7][ref_jp7]
+
+$$
+\frac{h_{\text{sink}}}{h_{\text{combustion}}} = \frac{1075 \ \text{to} \ 1505}{18700} = 5.7\% \ \text{to} \ 8.0\%
+\tag{24}
+$$
+
+**Equation 25, Thermal Growth as a Fraction of Vehicle Length.**
+The published three quarters of an inch of engine growth is a quarter of a percent of the three hundred inch vehicle length.
+[Modified X-51A Waverider ready for next hypersonic test, United States Air Force][ref_afrl_modified_x51]
+[Boeing X-51 Waverider][ref_x51_wikipedia]
+
+$$
+\frac{0.75}{300} = 0.25\%
+\tag{25}
+$$
+
+**Equation 26, Linear Thermal Expansion.**
+The change in length of a member is its expansion coefficient times its length times the temperature rise.
+
+$$
+\Delta L = \alpha L \, \Delta T
+\tag{26}
+$$
+
+*Equation 27, Bespoke Engine Length Implied by the Thermal Growth.*
+Solving the expansion relation for length with the published growth and the manufacturer's mean coefficient for INCONEL alloy 625 rests on a temperature rise of eight hundred kelvin that the article assumes, and yields a consistency check of about five feet.
+[INCONEL alloy 625, Special Metals Corporation][ref_inconel625]
+
+$$
+L = \frac{\Delta L}{\alpha \, \Delta T} = \frac{0.75}{(15.6 \times 10^{-6})(800)} = 60 \ \mathrm{in} = 5.0 \ \mathrm{ft}
+\tag{27}
+$$
+
+**Equation 28, Isentropic Area-Mach Relation.**
+The isentropic area-Mach relation gives the ratio of a duct area to the sonic throat area at a given Mach number.
+
+$$
+\frac{A}{A^*} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{(\gamma + 1) / 2(\gamma - 1)}
+\tag{28}
+$$
+
+**Equation 29, Kantrowitz Self-Starting Limit.**
+The Kantrowitz condition requires the throat to pass the flow after a normal shock at the entrance, which at Mach 5.1 bounds the throat at no less than 0.646 of the capture area.
+[Anderson, Modern compressible flow][book_anderson_modern]
+
+$$
+\frac{A_{th}}{A_i} \ \geq \ \frac{1}{(p_{02}/p_{01}) \, (A/A^*)_{M_1}} = 0.646
+\tag{29}
+$$
+
+**Equation 30, Programme Cost per Second of Powered Flight.**
+Three hundred million dollars divided by the 353 seconds of powered flight across the programme gives about 850,000 dollars per second.
+
+$$
+\frac{300 \times 10^6}{353} = \$849{,}858 \ \text{per second}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Air Mass Flow at Stoichiometric Combustion.*
+The captured air flow is the measured fuel flow divided by a stoichiometric ratio derived for an average fuel formula of $\mathrm{C_{12}H_{23}}$, at an equivalence ratio of one that the article assumes.
+
+$$
+\dot{m}_{\text{air}} = \frac{\dot{m}_f}{\phi \, f_{\text{st}}} = \frac{1.286}{0.0682} = 18.9 \ \mathrm{lb/s}
+\tag{31}
+$$
+
+**Equation 32, Breguet Range Equation.**
+The Breguet relation gives the cruise range of an air-breather as speed times specific impulse times lift-to-drag ratio times the logarithm of the weight ratio.
+[Heiser and Pratt, Hypersonic airbreathing propulsion][book_heiser_pratt]
+
+$$
+R = V \, I_{sp} \, \frac{L}{D} \, \ln \frac{W_0}{W_1}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Powered Distance at Constant Cruise Speed.*
+The powered distance takes the Mach 5.1 speed at sixty thousand feet as constant across the whole 210 second burn, although the vehicle accelerated from Mach 4.8.
+
+$$
+R = (1504.9)(210) = 316 \ \mathrm{km} = 171 \ \mathrm{nmi}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Product of Specific Impulse and Lift-to-Drag Ratio.*
+Solving the Breguet relation with the powered distance gives the product of specific impulse and lift-to-drag ratio, a cruise relation the article applies to an accelerating flight.
+
+$$
+I_{sp} \, \frac{L}{D} = \frac{R}{V \ln (W_0 / W_1)} = 3{,}215
+\tag{34}
+$$
+
+*Equation 35, Bespoke Average Net Force From the Gain in Kinetic Energy.*
+The average net force is the gain in kinetic energy over the burn divided by the distance flown, a construction the article chooses that omits the unpublished climb and so gives a lower bound.
+
+$$
+F_{\text{net}} = \frac{m \, \Delta(\tfrac{1}{2} V^2)}{t \, V} = 167 \ \mathrm{lbf}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Net Specific Impulse.*
+Dividing the average net force by the measured fuel flow gives a net specific impulse of about 130 seconds, a lower bound that inherits the omission of the climb.
+
+$$
+I_{sp,\text{net}} = \frac{F_{\text{net}}}{\dot{m}_f} = \frac{167}{1.286} = 130 \ \mathrm{s}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Fraction of Engine Output Converted to Acceleration.*
+The net specific impulse is divided by the gross specific impulse that the article infers for lift-to-drag ratios of two to four that it assumes.
+
+$$
+\frac{I_{sp,\text{net}}}{I_{sp}} = 8.1\% \ \text{to} \ 16.1\%
+\tag{37}
+$$
+
+**Equation 38, Burn Durations as Fractions of the Target.**
+The 143 and 210 second burns are 47.7 and 70.0 percent of the programme's three hundred second target.
+[Boeing X-51 Waverider][ref_x51_wikipedia]
+
+$$
+\frac{143}{300} = 47.7\% \qquad \frac{210}{300} = 70.0\%
+\tag{38}
+$$
+
+**Equation 39, Fuel Required for the Target Burn.**
+At the demonstrated fuel flow a three hundred second burn would require about 386 pounds of fuel.
+
+$$
+m_f = \dot{m}_f \, t = 1.286 \times 300 = 385.7 \ \mathrm{lb}
+\tag{39}
+$$
+
+### Notation
+
+- $T_0$, the stagnation temperature, with $T$ the static temperature
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $M$, the Mach number, with $M_1$ the upstream value
+- $p_0$, the stagnation pressure, with $p$ the static pressure
+- $q$, the dynamic pressure
+- $\rho$, the air density
+- $\theta$, the flow deflection angle
+- $\beta$, the shock wave angle
+- $M_{n1}$, the component of the upstream Mach number normal to the shock
+- $p_2$, the static pressure behind the shock, with $p_1$ the pressure ahead of it
+- $\dot{q}$, the stagnation-point heat flux
+- $R_n$, the nose or leading-edge radius
+- $T_{\text{rad}}$, the radiative equilibrium temperature
+- $\varepsilon$, the surface emissivity
+- $\sigma$, the Stefan-Boltzmann constant
+- $Q$, the integrated heat load per unit area
+- $\delta$, the thermal diffusion length
+- $\alpha$, the thermal diffusivity in the diffusion relations and the linear expansion coefficient in the growth relations
+- $\dot{m}_f$, the fuel mass flow
+- $h_{\text{sink}}$, the physical and endothermic heat sink of the fuel per unit mass
+- $h_{\text{combustion}}$, the net heat of combustion of the fuel per unit mass
+- $P_{\text{cool}}$, the cooling power of the fuel flow
+- $\Delta L$, the thermal growth of the engine, with $L$ its length
+- $\Delta T$, the temperature rise
+- $A^*$, the sonic throat area
+- $A_{th}$, the inlet throat area, with $A_i$ the capture area
+- $p_{02}$, the total pressure behind a normal shock, with $p_{01}$ the total pressure ahead of it
+- $\phi$, the equivalence ratio
+- $f_{\text{st}}$, the stoichiometric fuel-to-air ratio
+- $I_{sp}$, the specific impulse in seconds, with $I_{sp,\text{net}}$ the net value after drag
+- $W_0$, the weight at the start of cruise, with $W_1$ the weight at the end
+- $F_{\text{net}}$, the average net accelerating force
+- $m_f$, the fuel mass
 
 ## References
 

@@ -44,7 +44,10 @@ The third and fourth are the two X-48B airframes, of which only the second flew 
 
 **Two numbers are published separately and their ratio is not approximate.** NASA's fact sheet and the flight-test papers give the X-48B a span of 20.4 feet and call it an 8.5 percent scale vehicle \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Risch et al. 2009][research_taylor_x48b_progress]\], and Boeing gives the full-scale aeroplane a span of 240 feet \[[Boeing flies X-48C blended wing body research aircraft][ref_boeing_x48c_release]\]. Taking the ratio,
 
-$$n = \frac{20.4\ \text{ft}}{240\ \text{ft}} = 0.085000$$
+$$
+n = \frac{20.4\ \text{ft}}{240\ \text{ft}} = 0.085000
+\tag{1}
+$$
 
 **which agrees with the published 8.5 percent to fourteen decimal places.** The agreement establishes that the reference vehicle is a real design with a fixed span and that its span was no round number attached afterwards, and every relation below inherits that exactness.
 
@@ -52,35 +55,59 @@ $$n = \frac{20.4\ \text{ft}}{240\ \text{ft}} = 0.085000$$
 
 **Two dimensionless groups compete and only one can be held.** The Froude number is the ratio of inertial to gravitational force and the Reynolds number is the ratio of inertial to viscous force,
 
-$$Fr = \frac{V^{2}}{Lg}, \qquad Re = \frac{VL}{\nu}$$
+$$
+Fr = \frac{V^{2}}{Lg}, \qquad Re = \frac{VL}{\nu}
+\tag{2}
+$$
 
 **Setting the model's Froude number equal to the aeroplane's fixes the speed ratio**, and it does so without reference to the air at all,
 
-$$\frac{V_m^{2}}{L_m g} = \frac{V_f^{2}}{L_f g} \implies r_V = \frac{V_m}{V_f} = \sqrt{\frac{L_m}{L_f}} = \sqrt{n}$$
+$$
+\frac{V_m^{2}}{L_m g} = \frac{V_f^{2}}{L_f g} \implies r_V = \frac{V_m}{V_f} = \sqrt{\frac{L_m}{L_f}} = \sqrt{n}
+\tag{3}
+$$
 
 **The mass condition is a separate requirement, and it is usually forgotten.** A dynamic model must also match the relative density factor, which compares the model's mass to the air it displaces,
 
-$$\sigma = \frac{m}{\rho l^{3}}$$
+$$
+\sigma = \frac{m}{\rho l^{3}}
+\tag{4}
+$$
 
 so that the weight ratio carries an atmospheric term,
 
-$$r_W = \frac{n^{3}}{\sigma}$$
+$$
+r_W = \frac{n^{3}}{\sigma}
+\tag{5}
+$$
 
 **When the model and the aeroplane fly in the same air, $\sigma$ is one and the term disappears.** The article returns to what happens when they do not.
 
 Holding the Froude number and the relative density fixed determines every other ratio by dimensions alone. With $n$ the length ratio and the model flying in the same air as the aeroplane,
 
-$$r_V = \sqrt{n}, \qquad r_t = \sqrt{n}, \qquad r_\omega = \frac{1}{\sqrt{n}}$$
+$$
+r_V = \sqrt{n}, \qquad r_t = \sqrt{n}, \qquad r_\omega = \frac{1}{\sqrt{n}}
+\tag{6}
+$$
 
-$$r_W = n^3, \qquad r_I = n^5, \qquad r_{Re} = n^{3/2}$$
+$$
+r_W = n^3, \qquad r_I = n^5, \qquad r_{Re} = n^{3/2}
+\tag{7}
+$$
 
 **The Reynolds ratio is not an independent choice but a consequence**, being the product of the speed ratio already fixed by Froude and the length ratio,
 
-$$r_{Re} = r_V \, r_L = n^{1/2} \cdot n = n^{3/2}$$
+$$
+r_{Re} = r_V \, r_L = n^{1/2} \cdot n = n^{3/2}
+\tag{8}
+$$
 
 **and that single line states the cost of the decision in full.** Two further ratios follow the same way and both matter later. The dynamic pressure and the wing loading go as
 
-$$r_q = \frac{\rho V_m^{2}}{\rho V_f^{2}} = r_V^{2} = n, \qquad r_{W/S} = \frac{n^{3}}{n^{2}} = n$$
+$$
+r_q = \frac{\rho V_m^{2}}{\rho V_f^{2}} = r_V^{2} = n, \qquad r_{W/S} = \frac{n^{3}}{n^{2}} = n
+\tag{9}
+$$
 
 **The weight goes as the cube because it is a force and a force at matched Froude number scales as $\rho V^2 L^2$, which is $n \cdot n^2$.** The underlying rigid-body equations are standard \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\]. The exponent of three halves in the Reynolds row comes from that product of the velocity and length ratios.
 
@@ -103,15 +130,24 @@ At $n = 0.085$ these evaluate to the following.
 
 **Time compression constrains the pilot as much as the aeroplane.** Any interval scales as
 
-$$t_m = t_f \sqrt{n} = 0.2915 \, t_f$$
+$$
+t_m = t_f \sqrt{n} = 0.2915 \, t_f
+\tag{10}
+$$
 
 so a motion that the full-scale aeroplane would develop over three seconds develops in the model in
 
-$$t_m = 3 \times 0.2915 = 0.875\ \text{s}$$
+$$
+t_m = 3 \times 0.2915 = 0.875\ \text{s}
+\tag{11}
+$$
 
 **and the angular rates that go with it are faster by the reciprocal,**
 
-$$r_\omega = \frac{1}{\sqrt{n}} = 3.430$$
+$$
+r_\omega = \frac{1}{\sqrt{n}} = 3.430
+\tag{12}
+$$
 
 The aeroplane is on a dry lake bed and the pilot is in a ground station, and **the pilot's reaction time is not multiplied by 0.2915 to match.** \[[Risch et al. 2009][research_taylor_x48b_progress]\]
 
@@ -119,7 +155,10 @@ NASA's account of dynamic model testing acknowledges the problem, noting that be
 
 **This series has measured this before at a gentler scale.** The [X-36][related_post_a333_mcdonnell_douglas_x36] was a 28 percent remotely piloted tailless demonstrator \[[X-36 Tailless Fighter Agility Research Aircraft, NASA][ref_nasa_x36]\], and the same relations give a time compression of 1.890 and a Reynolds penalty of 6.75. Against it,
 
-$$\frac{r_t^{-1}(0.085)}{r_t^{-1}(0.28)} = 1.815, \qquad \frac{r_{Re}^{-1}(0.085)}{r_{Re}^{-1}(0.28)} = 5.979$$
+$$
+\frac{r_t^{-1}(0.085)}{r_t^{-1}(0.28)} = 1.815, \qquad \frac{r_{Re}^{-1}(0.085)}{r_{Re}^{-1}(0.28)} = 5.979
+\tag{13}
+$$
 
 **The X-48B's pilot faced dynamics 1.815 times faster than the X-36's, and its aerodynamics were 5.979 times further from full scale.** The X-36 article argued that a scale factor is a statement about what an experiment is able to measure. The X-48B repeats that argument at nearly twice the severity.
 
@@ -127,33 +166,51 @@ $$\frac{r_t^{-1}(0.085)}{r_t^{-1}(0.28)} = 1.815, \qquad \frac{r_{Re}^{-1}(0.085
 
 **A ratio of 40.35 does not locate either aeroplane on the Reynolds scale**, and the absolute values decide whether the mismatch matters. Using a reference chord and the published maximum speed of 118 knots \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\],
 
-$$Re = \frac{V c}{\nu}, \qquad c = \frac{S}{b} = \frac{100.5}{20.4} = 4.926\ \text{ft}$$
+$$
+Re = \frac{V c}{\nu}, \qquad c = \frac{S}{b} = \frac{100.5}{20.4} = 4.926\ \text{ft}
+\tag{14}
+$$
 
 **The programme's correlation update supplies the wing area of 100.5 square feet** \[[Vicroy 2011][research_vicroy_correlation]\]. **The ratio below does not depend on it**, because the chord cancels.
 
 At sea level, with $\nu_0 = 1.5723 \times 10^{-4}\ \text{ft}^2/\text{s}$,
 
-$$Re_{\text{model}} = \frac{199.2 \times 4.926}{1.5723 \times 10^{-4}} = 6.24 \times 10^{6}$$
+$$
+Re_{\text{model}} = \frac{199.2 \times 4.926}{1.5723 \times 10^{-4}} = 6.24 \times 10^{6}
+\tag{15}
+$$
 
 and the corresponding full-scale condition, at $V_f = V_m/\sqrt{n}$ and $c_f = c/n$,
 
-$$Re_{\text{full}} = \frac{683.1 \times 58.0}{1.5723 \times 10^{-4}} = 2.52 \times 10^{8}$$
+$$
+Re_{\text{full}} = \frac{683.1 \times 58.0}{1.5723 \times 10^{-4}} = 2.52 \times 10^{8}
+\tag{16}
+$$
 
 **Both are above the range where a boundary layer is deciding whether to be turbulent at all, and they are two orders of magnitude apart.**
 
 **The published speed also checks the scaling.** Inverting the speed ratio on the model's maximum,
 
-$$V_f = \frac{118}{\sqrt{0.085}} = 404.7\ \text{kt}$$
+$$
+V_f = \frac{118}{\sqrt{0.085}} = 404.7\ \text{kt}
+\tag{17}
+$$
 
 **a sensible cruise speed for a large subsonic transport**, and a second piece of evidence for a real reference design.
 
 **The atmosphere then makes the mismatch worse, and nowhere else in this article does the standard atmosphere earn its keep.** The model flew to a ceiling of 10,000 feet \[[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]\] \[[Vicroy 2011][research_vicroy_correlation]\], inside a working area that reached from the ground to 10,000 feet above mean sea level \[[Risch et al. 2009][research_taylor_x48b_progress]\], while the full-scale aeroplane's low-speed regime is near the ground. Kinematic viscosity rises with altitude,
 
-$$\nu(h) = \frac{\mu(h)}{\rho(h)}, \qquad \frac{\nu(10{,}000)}{\nu(0)} = \frac{2.0135 \times 10^{-4}}{1.5723 \times 10^{-4}} = 1.281$$
+$$
+\nu(h) = \frac{\mu(h)}{\rho(h)}, \qquad \frac{\nu(10{,}000)}{\nu(0)} = \frac{2.0135 \times 10^{-4}}{1.5723 \times 10^{-4}} = 1.281
+\tag{18}
+$$
 
 so a model tested at its ceiling against an aeroplane approaching at sea level suffers
 
-$$P_{\text{effective}} = n^{-3/2} \times \frac{\nu(10{,}000)}{\nu(0)} = 40.35 \times 1.281 = 51.7$$
+$$
+P_{\text{effective}} = n^{-3/2} \times \frac{\nu(10{,}000)}{\nu(0)} = 40.35 \times 1.281 = 51.7
+\tag{19}
+$$
 
 **The effective penalty therefore lies between 40.35 and 51.7, depending on the test altitude**, and the larger figure applies to any manoeuvre flown high.
 
@@ -161,7 +218,10 @@ $$P_{\text{effective}} = n^{-3/2} \times \frac{\nu(10{,}000)}{\nu(0)} = 40.35 \t
 
 **The penalty is a function of span alone once the reference is fixed**, since $n = b/b_{\text{ref}}$ gives
 
-$$P(b) = \left(\frac{b_{\text{ref}}}{b}\right)^{3/2}, \qquad \tau(b) = \left(\frac{b_{\text{ref}}}{b}\right)^{1/2}$$
+$$
+P(b) = \left(\frac{b_{\text{ref}}}{b}\right)^{3/2}, \qquad \tau(b) = \left(\frac{b_{\text{ref}}}{b}\right)^{1/2}
+\tag{20}
+$$
 
 Evaluated against the X-48B's 240-foot reference, the three spans NASA planned or flew price out as follows. The 12-foot model is the 5 percent free-flight model of the Langley Full-Scale Tunnel \[[Vicroy 2011][research_vicroy_correlation]\].
 
@@ -173,7 +233,10 @@ Evaluated against the X-48B's 240-foot reference, the three spans NASA planned o
 
 **The cost of the substitution is a ratio of two such penalties and needs no other quantity,**
 
-$$\frac{P(20.4)}{P(35)} = \left(\frac{35}{20.4}\right)^{3/2} = 2.247, \qquad \frac{\tau(20.4)}{\tau(35)} = \left(\frac{35}{20.4}\right)^{1/2} = 1.310$$
+$$
+\frac{P(20.4)}{P(35)} = \left(\frac{35}{20.4}\right)^{3/2} = 2.247, \qquad \frac{\tau(20.4)}{\tau(35)} = \left(\frac{35}{20.4}\right)^{1/2} = 1.310
+\tag{21}
+$$
 
 **Cancelling the 35-foot aeroplane and flying the 20.4-foot one multiplied the Reynolds shortfall by 2.247 and made the aeroplane 31 percent quicker in its own time.** Those two factors price the 2002 decision in the only units that can express it. **The table holds the reference fixed, because the substitution posed that comparison.** The X-48A itself was described as a 14 percent vehicle of the 450-passenger study aircraft, which implies a reference span of 250 feet, close to the 249 feet of the BWB-450 baseline, and against that reference its own time compression is 2.673 and its own Reynolds penalty 19.09 \[[X-48 Blended Wing Body, GlobalSecurity][ref_x48_globalsecurity]\] \[[Liebeck 2004][research_liebeck_bwb]\]. **It is not an argument that the decision was wrong**, since a 35-foot vehicle is a different programme in cost, airspace and risk, but it is the quantity the decision traded.
 
@@ -181,11 +244,17 @@ $$\frac{P(20.4)}{P(35)} = \left(\frac{35}{20.4}\right)^{3/2} = 2.247, \qquad \fr
 
 **A dynamically scaled model is weight-scaled, so the relation can be run backwards.** Taking the maximum weight of 525 pounds given in the flight-test papers \[[Risch et al. 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\] and inverting the cube,
 
-$$W_{\text{full}} = \frac{525\ \text{lb}}{n^3} = 8.549 \times 10^{5}\ \text{lb}$$
+$$
+W_{\text{full}} = \frac{525\ \text{lb}}{n^3} = 8.549 \times 10^{5}\ \text{lb}
+\tag{22}
+$$
 
 **That figure assumes $\sigma = 1$, the term the earlier section set aside.** Restoring it,
 
-$$W_{\text{full}} = \frac{W_m}{n^{3}} \cdot \frac{\rho_f}{\rho_m}$$
+$$
+W_{\text{full}} = \frac{W_m}{n^{3}} \cdot \frac{\rho_f}{\rho_m}
+\tag{23}
+$$
 
 and evaluating for three readings of where the model's condition sits,
 
@@ -199,15 +268,24 @@ The field reading takes the lake bed at about 2,300 feet \[[Rogers Dry Lake][ref
 
 **No technical source consulted states the reference vehicle's weight, so the figure is a derivation.** A magazine account published before the first flight calls the X-48B a scaled-down model of a theoretical 500-ton, 240-foot-wide aircraft \[[Jacobs 2007, Thinking outside the tube, Wired][ref_wired_outside_tube]\]. Read as 1,000,000 pounds, that round figure lies inside the range above, and the three readings come to 0.855, 0.915 and 1.158 of it. The derivation can also be tested against a published design. Among the sources consulted, the only blended wing body design with both a published weight and a published span is Liebeck's second-generation airliner, sized for 800 passengers, with a maximum takeoff gross weight of 823,000 pounds on a span of 280 feet \[[Liebeck 2004][research_liebeck_bwb]\]. Scaling that design geometrically to a 240-foot span,
 
-$$W(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{3} = 518{,}274\ \text{lb}$$
+$$
+W(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{3} = 518{,}274\ \text{lb}
+\tag{24}
+$$
 
 gives a comparison of
 
-$$\frac{W_{\text{full}}}{W(240)} = \frac{854{,}875}{518{,}274} = 1.649$$
+$$
+\frac{W_{\text{full}}}{W(240)} = \frac{854{,}875}{518{,}274} = 1.649
+\tag{25}
+$$
 
 **Geometric scaling holds the shape and lets the wing loading grow with span.** Holding the wing loading instead makes weight follow the square of span,
 
-$$W_{2}(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{2} = 604{,}653\ \text{lb}$$
+$$
+W_{2}(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{2} = 604{,}653\ \text{lb}
+\tag{26}
+$$
 
 and the two laws differ by the factor 280/240, or 1.167. Against each,
 
@@ -225,11 +303,20 @@ so the vehicle implied by the model's weight is **between 1.414 and 1.649 times 
 
 **Thrust is a force, so it scales as $n^3$, and thrust to weight is therefore the same number for the model and the aeroplane.** That makes it directly checkable, with the installed thrust of 54 pounds an engine from the flight-test papers \[[Risch et al. 2009][research_taylor_x48b_progress]\] \[[Regan 2008][research_regan_x48b_stability]\] and the full-scale thrust from Liebeck's design \[[Liebeck 2004][research_liebeck_bwb]\].
 
-$$\left(\frac{T}{W}\right)_{\text{model}} = \frac{3 \times 54\ \text{lbf}}{525\ \text{lb}} = 0.3086$$
+$$
+\left(\frac{T}{W}\right)_{\text{model}} = \frac{3 \times 54\ \text{lbf}}{525\ \text{lb}} = 0.3086
+\tag{27}
+$$
 
-$$\left(\frac{T}{W}\right)_{\text{full}} = \frac{3 \times 61{,}600\ \text{lbf}}{823{,}000\ \text{lb}} = 0.2245$$
+$$
+\left(\frac{T}{W}\right)_{\text{full}} = \frac{3 \times 61{,}600\ \text{lbf}}{823{,}000\ \text{lb}} = 0.2245
+\tag{28}
+$$
 
-$$\frac{(T/W)_{\text{model}}}{(T/W)_{\text{full}}} = \frac{0.3086}{0.2245} = 1.374$$
+$$
+\frac{(T/W)_{\text{model}}}{(T/W)_{\text{full}}} = \frac{0.3086}{0.2245} = 1.374
+\tag{29}
+$$
 
 **The model carries 1.374 times the thrust to weight of the aeroplane it represents.** Such a margin is no defect. A model that must take off from a lake bed, climb to a test altitude inside a small working area and go around from an approach needs margin the transport does not.
 
@@ -237,17 +324,29 @@ $$\frac{(T/W)_{\text{model}}}{(T/W)_{\text{full}}} = \frac{0.3086}{0.2245} = 1.3
 
 **The quantity that matters for engine-out is the asymmetric thrust carried as a fraction of weight**, which for $N_e$ equal engines with one failed is
 
-$$\frac{\Delta T}{W} = \frac{T}{W} \cdot \frac{1}{N_e}$$
+$$
+\frac{\Delta T}{W} = \frac{T}{W} \cdot \frac{1}{N_e}
+\tag{30}
+$$
 
 **Evaluating for the two models and for the full-scale trijet,**
 
-$$\left(\frac{\Delta T}{W}\right)_{B} = \frac{0.3086}{3} = 0.10286, \qquad \left(\frac{\Delta T}{W}\right)_{C} = \frac{0.3560}{2} = 0.17800$$
+$$
+\left(\frac{\Delta T}{W}\right)_{B} = \frac{0.3086}{3} = 0.10286, \qquad \left(\frac{\Delta T}{W}\right)_{C} = \frac{0.3560}{2} = 0.17800
+\tag{31}
+$$
 
-$$\left(\frac{\Delta T}{W}\right)_{\text{full}} = \frac{0.2245}{3} = 0.07485$$
+$$
+\left(\frac{\Delta T}{W}\right)_{\text{full}} = \frac{0.2245}{3} = 0.07485
+\tag{32}
+$$
 
 **against which the two aeroplanes stand at**
 
-$$\frac{0.10286}{0.07485} = 1.374, \qquad \frac{0.17800}{0.07485} = 2.378, \qquad \frac{0.17800}{0.10286} = 1.731$$
+$$
+\frac{0.10286}{0.07485} = 1.374, \qquad \frac{0.17800}{0.07485} = 2.378, \qquad \frac{0.17800}{0.10286} = 1.731
+\tag{33}
+$$
 
 An engine-out yaw moment is a thrust asymmetry, so a model with 37 percent more thrust to weight produces a proportionally larger upset than the full-scale aeroplane would at the same flight condition. **Engine-out control was a stated flight-test objective**, specified at low speed, in the takeoff configuration and at minimum operating empty weight with an outboard engine failed \[[Risch et al. 2009][research_taylor_x48b_progress]\]. In the first 39 flights it was evaluated at a benign condition, each engine in turn reduced to idle, and found satisfactory \[[Risch et al. 2009][research_taylor_x48b_progress]\]. **So the specified test is harder than the aeroplane will face, and a pass is conservative.** **The X-48C's engine-out case is harder still, at 2.378 times the full-scale upset**, because losing one engine of two removes half the thrust where losing one of three removes a third, and the C model's thrust to weight is higher as well. This tilt errs on the comfortable side, the opposite of the tilt found in [X-Planes: Lockheed Martin X-35][related_post_a332_lockheed_martin_x35].
 
@@ -282,11 +381,17 @@ The figures in the table are from the fact sheet, the flight-test papers, the co
 
 **The second is the moment arm.** Directional authority from a vertical surface scales with the tail volume coefficient,
 
-$$V_v = \frac{S_v \, l_v}{S \, b}$$
+$$
+V_v = \frac{S_v \, l_v}{S \, b}
+\tag{34}
+$$
 
 in which $l_v$ is the distance from the centre of gravity to the surface's aerodynamic centre. **On a swept planform, moving a surface inboard moves it forward**, because the structure it attaches to sweeps aft with span,
 
-$$\Delta l_v = \Delta y \, \tan \Lambda$$
+$$
+\Delta l_v = \Delta y \, \tan \Lambda
+\tag{35}
+$$
 
 **The sweep angle of the X-48's outer trailing edge is not published in any source consulted**, so the shift appears here only as a sensitivity. Taking the winglets from the tip at $y = 10.2$ ft to a station near the exhaust ducts at roughly 2.5 ft, so $\Delta y = 7.7$ ft,
 
@@ -328,7 +433,10 @@ Testing proceeded in blocks. Envelope expansion came first, then parameter ident
 
 **The stall results carry angles, and the difference between the two leading-edge configurations is large.**
 
-$$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stall}}^{\text{slats in}} = 14^\circ, \qquad \Delta\alpha = 10^\circ$$
+$$
+\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stall}}^{\text{slats in}} = 14^\circ, \qquad \Delta\alpha = 10^\circ
+\tag{36}
+$$
 
 **Slats extended, the aeroplane stalled successfully to 24 degrees and remained controllable three degrees beyond the angle of maximum lift.** Slats retracted, it reached 14 degrees \[[Vicroy 2011][research_vicroy_correlation]\]. **Ten degrees is not a refinement.** It gives the clearest available measure of how much the leading edge governs this configuration's behaviour, which matters because the leading edge is where the Reynolds sensitivity lives.
 
@@ -572,7 +680,10 @@ $$\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stal
 
 **The BWB-17 does not fit the same arithmetic.** At 6 percent scale and 120 pounds \[[Liebeck 2004][research_liebeck_bwb]\],
 
-$$b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \frac{120}{0.06^{3}} = 555{,}556\ \text{lb}$$
+$$
+b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \frac{120}{0.06^{3}} = 555{,}556\ \text{lb}
+\tag{37}
+$$
 
 **The implied span agrees with the 280 feet of Liebeck's second-generation design to within 1.2 percent, and the implied weight falls at 0.675 of that design's 823,000 pounds**, so either the BWB-17 answered to an earlier and lighter reference design or it was not weight-scaled to the vehicle described in the same paper. **The record does not say which**, and this article does not guess.
 
@@ -672,6 +783,365 @@ The acoustic measurements and the shielding result of the X-48C, which need a no
 **What the X-48 proved is that a control system can hold a large tailless transport at low speed and recover it from its own edge, three and a half times faster than the aeroplane will have to.** In 2000 that was the open question and it is no longer.
 
 **The most useful thing in the record is not a result but a lesson about instruments.** Asked where its ground-to-flight comparisons were poor, the programme does not name the stall or the scale factor. It names first the support that held the model in the tunnel \[[Vicroy 2011][research_vicroy_correlation]\]. **A campaign that spent nearly six years and 122 flights worrying about Reynolds number was caught out by the supports that held its tunnel models**, and the lesson is worth more to the next programme than any number in this article.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 37 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 37, 26 are established and 11 are bespoke.
+Lengths, speeds, weights and thrusts are in feet, knots, pounds and pounds force, every ratio $r$ is model over full scale with $n$ the length ratio, and $\sigma$ is the relative density factor in its definition but stands for the ratio of full-scale to model air density in the weight ratio, so that it is one when both fly in the same air.
+
+**Equation 1, Scale Factor from the Published Spans.**
+The published span of 20.4 feet over the published reference span of 240 feet gives a length ratio of 0.085000, which agrees with the published 8.5 percent scale.
+[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]
+[Risch et al. 2009][research_taylor_x48b_progress]
+[Boeing flies X-48C blended wing body research aircraft][ref_boeing_x48c_release]
+
+$$
+n = \frac{20.4\ \text{ft}}{240\ \text{ft}} = 0.085000
+\tag{1}
+$$
+
+**Equation 2, Froude and Reynolds Numbers.**
+The Froude number is the ratio of inertial to gravitational force and the Reynolds number the ratio of inertial to viscous force.
+
+$$
+Fr = \frac{V^{2}}{Lg}, \qquad Re = \frac{VL}{\nu}
+\tag{2}
+$$
+
+**Equation 3, Speed Ratio under Froude Matching.**
+Equal Froude numbers for model and aeroplane fix the speed ratio at the square root of the length ratio.
+
+$$
+\frac{V_m^{2}}{L_m g} = \frac{V_f^{2}}{L_f g} \implies r_V = \frac{V_m}{V_f} = \sqrt{\frac{L_m}{L_f}} = \sqrt{n}
+\tag{3}
+$$
+
+**Equation 4, Relative Density Factor.**
+The relative density factor compares the mass of a body with the mass of air that a cube of its characteristic length contains.
+
+$$
+\sigma = \frac{m}{\rho l^{3}}
+\tag{4}
+$$
+
+**Equation 5, Weight Ratio with an Atmospheric Term.**
+Matching the relative density factor makes the weight ratio the cube of the length ratio divided by a density term that is one when model and aeroplane fly in the same air.
+
+$$
+r_W = \frac{n^{3}}{\sigma}
+\tag{5}
+$$
+
+**Equation 6, Froude Scaling of Speed, Time and Angular Rate.**
+For a dynamically scaled model in the same air, speed and time scale as the square root of the length ratio and angular rate as its reciprocal.
+
+$$
+r_V = \sqrt{n}, \qquad r_t = \sqrt{n}, \qquad r_\omega = \frac{1}{\sqrt{n}}
+\tag{6}
+$$
+
+**Equation 7, Froude Scaling of Weight, Inertia and Reynolds Number.**
+For the same model, weight scales as the cube of the length ratio, moment of inertia as its fifth power and Reynolds number as its power of three halves.
+
+$$
+r_W = n^3, \qquad r_I = n^5, \qquad r_{Re} = n^{3/2}
+\tag{7}
+$$
+
+**Equation 8, Reynolds Ratio as a Consequence of Froude Matching.**
+With kinematic viscosity unchanged, the Reynolds ratio is the product of the speed ratio fixed by Froude matching and the length ratio.
+
+$$
+r_{Re} = r_V \, r_L = n^{1/2} \cdot n = n^{3/2}
+\tag{8}
+$$
+
+**Equation 9, Dynamic Pressure and Wing Loading Ratios.**
+In the same air both the dynamic pressure and the wing loading scale linearly with the length ratio.
+[Etkin and Reid, Dynamics of flight][book_etkin_reid]
+[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]
+
+$$
+r_q = \frac{\rho V_m^{2}}{\rho V_f^{2}} = r_V^{2} = n, \qquad r_{W/S} = \frac{n^{3}}{n^{2}} = n
+\tag{9}
+$$
+
+**Equation 10, Time Compression of the X-48B.**
+Any interval in the model is the full-scale interval times the square root of the length ratio, or 0.2915 of it.
+
+$$
+t_m = t_f \sqrt{n} = 0.2915 \, t_f
+\tag{10}
+$$
+
+*Equation 11, Bespoke Model Duration of a Three-Second Motion.*
+A full-scale motion of three seconds, an illustrative duration the article chooses, takes 0.875 seconds in the model.
+
+$$
+t_m = 3 \times 0.2915 = 0.875\ \text{s}
+\tag{11}
+$$
+
+**Equation 12, Angular Rate Ratio of the X-48B.**
+Angular rates in the model are faster than at full scale by the reciprocal of the square root of the length ratio, a factor of 3.430.
+[Chambers 2010][research_chambers_modeling_flight]
+
+$$
+r_\omega = \frac{1}{\sqrt{n}} = 3.430
+\tag{12}
+$$
+
+**Equation 13, Time and Reynolds Ratios of the X-48B Against the X-36.**
+The Froude scaling laws evaluated at the published scales of 8.5 and 28 percent give the X-48B dynamics 1.815 times faster and a Reynolds shortfall 5.979 times larger than those of the X-36.
+[X-36 Tailless Fighter Agility Research Aircraft, NASA][ref_nasa_x36]
+
+$$
+\frac{r_t^{-1}(0.085)}{r_t^{-1}(0.28)} = 1.815, \qquad \frac{r_{Re}^{-1}(0.085)}{r_{Re}^{-1}(0.28)} = 5.979
+\tag{13}
+$$
+
+**Equation 14, Reynolds Number on the Mean Geometric Chord.**
+The Reynolds number is formed on a reference chord taken as the published wing area divided by the published span, which gives 4.926 feet.
+[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]
+[Vicroy 2011][research_vicroy_correlation]
+
+$$
+Re = \frac{V c}{\nu}, \qquad c = \frac{S}{b} = \frac{100.5}{20.4} = 4.926\ \text{ft}
+\tag{14}
+$$
+
+**Equation 15, Model Reynolds Number at Maximum Speed at Sea Level.**
+The published maximum speed of 118 knots on the mean geometric chord with the sea-level kinematic viscosity of the standard atmosphere gives a model Reynolds number of $6.24 \times 10^{6}$.
+[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]
+[Vicroy 2011][research_vicroy_correlation]
+
+$$
+Re_{\text{model}} = \frac{199.2 \times 4.926}{1.5723 \times 10^{-4}} = 6.24 \times 10^{6}
+\tag{15}
+$$
+
+**Equation 16, Full-Scale Reynolds Number at the Corresponding Condition.**
+Scaling the model speed and chord to full size by the Froude relations and keeping the sea-level viscosity gives a full-scale Reynolds number of $2.52 \times 10^{8}$.
+
+$$
+Re_{\text{full}} = \frac{683.1 \times 58.0}{1.5723 \times 10^{-4}} = 2.52 \times 10^{8}
+\tag{16}
+$$
+
+**Equation 17, Full-Scale Speed Implied by the Model Maximum.**
+Inverting the Froude speed ratio on the published model maximum of 118 knots gives a full-scale speed of 404.7 knots.
+[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]
+
+$$
+V_f = \frac{118}{\sqrt{0.085}} = 404.7\ \text{kt}
+\tag{17}
+$$
+
+**Equation 18, Kinematic Viscosity Ratio at the Model Ceiling.**
+Kinematic viscosity is dynamic viscosity over density, and the standard atmosphere makes it 1.281 times larger at the published ceiling of 10,000 feet than at sea level.
+[X-48 Hybrid/Blended Wing Body, NASA Dryden Fact Sheet FS-090][ref_nasa_fs090]
+
+$$
+\nu(h) = \frac{\mu(h)}{\rho(h)}, \qquad \frac{\nu(10{,}000)}{\nu(0)} = \frac{2.0135 \times 10^{-4}}{1.5723 \times 10^{-4}} = 1.281
+\tag{18}
+$$
+
+*Equation 19, Bespoke Effective Reynolds Penalty at the Ceiling.*
+The article defines an effective penalty as the Froude Reynolds penalty multiplied by the viscosity ratio for a model flown at its ceiling against an aeroplane approaching at sea level.
+
+$$
+P_{\text{effective}} = n^{-3/2} \times \frac{\nu(10{,}000)}{\nu(0)} = 40.35 \times 1.281 = 51.7
+\tag{19}
+$$
+
+*Equation 20, Bespoke Reynolds Penalty and Time Compression as Functions of Span.*
+The article writes its Reynolds penalty and time compression as functions of model span alone, with the reference span held fixed at 240 feet.
+
+$$
+P(b) = \left(\frac{b_{\text{ref}}}{b}\right)^{3/2}, \qquad \tau(b) = \left(\frac{b_{\text{ref}}}{b}\right)^{1/2}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Cost of Substituting the X-48B for the X-48A.*
+The ratio of the two span-based penalties, with the reference span held at 240 feet for both vehicles, prices the substitution of the 20.4-foot model for the 35-foot one.
+
+$$
+\frac{P(20.4)}{P(35)} = \left(\frac{35}{20.4}\right)^{3/2} = 2.247, \qquad \frac{\tau(20.4)}{\tau(35)} = \left(\frac{35}{20.4}\right)^{1/2} = 1.310
+\tag{21}
+$$
+
+*Equation 22, Bespoke Full-Scale Weight Implied by the Model Weight.*
+Inverting the cube law on the published maximum model weight of 525 pounds assumes that the model was weight-scaled in the same air as the aeroplane, a relative density term of one.
+[Risch et al. 2009][research_taylor_x48b_progress]
+[Regan 2008][research_regan_x48b_stability]
+
+$$
+W_{\text{full}} = \frac{525\ \text{lb}}{n^3} = 8.549 \times 10^{5}\ \text{lb}
+\tag{22}
+$$
+
+**Equation 23, Implied Full-Scale Weight with the Density Ratio Restored.**
+Restoring the density term, the implied full-scale weight is the model weight over the cube of the length ratio times the ratio of full-scale to model air density.
+
+$$
+W_{\text{full}} = \frac{W_m}{n^{3}} \cdot \frac{\rho_f}{\rho_m}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Liebeck Design Scaled by the Cube of Span.*
+Scaling Liebeck's 823,000 pound design from 280 to 240 feet assumes geometric similarity, so that weight follows the cube of span.
+[Liebeck 2004][research_liebeck_bwb]
+
+$$
+W(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{3} = 518{,}274\ \text{lb}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Implied Weight Over the Cube-Scaled Design.*
+The ratio sets the weight implied by the model under a relative density term of one against the Liebeck design scaled by the cube of span.
+[Liebeck 2004][research_liebeck_bwb]
+
+$$
+\frac{W_{\text{full}}}{W(240)} = \frac{854{,}875}{518{,}274} = 1.649
+\tag{25}
+$$
+
+*Equation 26, Bespoke Liebeck Design Scaled by the Square of Span.*
+Scaling the same design to a 240-foot span under the alternative assumption of constant wing loading makes weight follow the square of span.
+[Liebeck 2004][research_liebeck_bwb]
+
+$$
+W_{2}(240) = 823{,}000 \times \left(\frac{240}{280}\right)^{2} = 604{,}653\ \text{lb}
+\tag{26}
+$$
+
+**Equation 27, Thrust to Weight Ratio of the X-48B.**
+Three engines of 54 pounds installed thrust against the published maximum weight of 525 pounds give a thrust to weight ratio of 0.3086.
+[Risch et al. 2009][research_taylor_x48b_progress]
+[Regan 2008][research_regan_x48b_stability]
+
+$$
+\left(\frac{T}{W}\right)_{\text{model}} = \frac{3 \times 54\ \text{lbf}}{525\ \text{lb}} = 0.3086
+\tag{27}
+$$
+
+**Equation 28, Thrust to Weight Ratio of the Liebeck Design.**
+Three engines of 61,600 pounds thrust against the published gross weight of 823,000 pounds give a thrust to weight ratio of 0.2245.
+[Liebeck 2004][research_liebeck_bwb]
+
+$$
+\left(\frac{T}{W}\right)_{\text{full}} = \frac{3 \times 61{,}600\ \text{lbf}}{823{,}000\ \text{lb}} = 0.2245
+\tag{28}
+$$
+
+*Equation 29, Bespoke Thrust to Weight of the Model Over the Full Scale.*
+Taking Liebeck's design as the full-scale aeroplane that the model represents, the model carries 1.374 times its thrust to weight ratio.
+
+$$
+\frac{(T/W)_{\text{model}}}{(T/W)_{\text{full}}} = \frac{0.3086}{0.2245} = 1.374
+\tag{29}
+$$
+
+**Equation 30, Asymmetric Thrust Fraction with One Engine Failed.**
+With one of $N_e$ equal engines failed, the asymmetric thrust as a fraction of weight is the thrust to weight ratio divided by the engine count.
+
+$$
+\frac{\Delta T}{W} = \frac{T}{W} \cdot \frac{1}{N_e}
+\tag{30}
+$$
+
+**Equation 31, Asymmetric Thrust Fractions of the X-48B and X-48C.**
+The asymmetric thrust fraction is 0.10286 for the three-engine X-48B and 0.17800 for the two-engine X-48C at the fact sheet's 89 pounds an engine.
+
+$$
+\left(\frac{\Delta T}{W}\right)_{B} = \frac{0.3086}{3} = 0.10286, \qquad \left(\frac{\Delta T}{W}\right)_{C} = \frac{0.3560}{2} = 0.17800
+\tag{31}
+$$
+
+**Equation 32, Asymmetric Thrust Fraction of the Liebeck Trijet.**
+The same fraction for the three-engine Liebeck design is 0.07485.
+
+$$
+\left(\frac{\Delta T}{W}\right)_{\text{full}} = \frac{0.2245}{3} = 0.07485
+\tag{32}
+$$
+
+*Equation 33, Bespoke Engine-Out Asymmetry Ratios.*
+The ratios set each model's asymmetric thrust fraction against that of Liebeck's design, taken as the full-scale aeroplane, and the X-48C against the X-48B.
+
+$$
+\frac{0.10286}{0.07485} = 1.374, \qquad \frac{0.17800}{0.07485} = 2.378, \qquad \frac{0.17800}{0.10286} = 1.731
+\tag{33}
+$$
+
+**Equation 34, Vertical Tail Volume Coefficient.**
+The directional tail volume coefficient is the vertical surface area times its moment arm divided by the wing area and span.
+
+$$
+V_v = \frac{S_v \, l_v}{S \, b}
+\tag{34}
+$$
+
+**Equation 35, Moment Arm Shift on a Swept Trailing Edge.**
+Moving a surface inboard along a trailing edge swept at angle $\Lambda$ moves it forward by the spanwise shift times the tangent of the sweep.
+
+$$
+\Delta l_v = \Delta y \, \tan \Lambda
+\tag{35}
+$$
+
+**Equation 36, Measured Stall Angles with Slats Extended and Retracted.**
+The correlation update reports stall at 24 degrees with slats extended and 14 degrees with slats retracted, a difference of ten degrees.
+[Vicroy 2011][research_vicroy_correlation]
+
+$$
+\alpha_{\text{stall}}^{\text{slats out}} = 24^\circ, \qquad \alpha_{\text{stall}}^{\text{slats in}} = 14^\circ, \qquad \Delta\alpha = 10^\circ
+\tag{36}
+$$
+
+*Equation 37, Bespoke Reference Span and Weight Implied by the BWB-17.*
+The published 6 percent scale and 17-foot span give a reference span of 283 feet, and inverting the cube law on the published 120 pounds assumes the model was weight-scaled in the same air.
+[Liebeck 2004][research_liebeck_bwb]
+
+$$
+b_{\text{ref}} = \frac{17}{0.06} = 283\ \text{ft}, \qquad W_{\text{full}} = \frac{120}{0.06^{3}} = 555{,}556\ \text{lb}
+\tag{37}
+$$
+
+### Notation
+
+- $n$, the length ratio of model to full scale
+- $Fr$, the Froude number
+- $Re$, the Reynolds number
+- $\nu$, the kinematic viscosity, with $\nu_0$ its sea-level value
+- $L_m$, the model length, with $L_f$ the full-scale length
+- $V_m$, the model speed, with $V_f$ the full-scale speed
+- $r_V$, the speed ratio, with $r_t$, $r_\omega$, $r_W$, $r_I$, $r_{Re}$, $r_q$ and $r_{W/S}$ the ratios of time, angular rate, weight, moment of inertia, Reynolds number, dynamic pressure and wing loading
+- $\sigma$, the relative density factor in its definition, and in the weight ratio the ratio of full-scale to model air density
+- $\rho$, the air density, with $\rho_f$ and $\rho_m$ its values at the full-scale and model conditions
+- $m$, the mass
+- $l$, the characteristic length
+- $c$, the reference chord, taken as wing area over span
+- $S$, the wing reference area, with $S_v$ the area of a vertical surface
+- $b$, the wing span, with $b_{\text{ref}}$ the full-scale reference span
+- $\mu$, the dynamic viscosity
+- $P_{\text{effective}}$, the effective Reynolds penalty at the model ceiling
+- $P(b)$, the Reynolds penalty as a function of model span, with $\tau(b)$ the time compression
+- $W_{\text{full}}$, the implied full-scale weight, with $W_m$ the model weight
+- $\frac{T}{W}$, the thrust to weight ratio
+- $N_e$, the number of engines
+- $\Delta T$, the asymmetric thrust with one engine failed
+- $V_v$, the vertical tail volume coefficient
+- $l_v$, the distance from the centre of gravity to the aerodynamic centre of the vertical surface
+- $\Delta y$, the inboard shift of the surface along the span
+- $\Lambda$, the sweep angle of the outer trailing edge
+- $\alpha_{\text{stall}}$, the stall angle of attack
 
 ## References
 

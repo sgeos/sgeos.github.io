@@ -1,0 +1,319 @@
+# Equation classification for A344. Read by `python3 _lib/equations.py`.
+
+caution = "Speeds are quoted in knots and converted at 0.5144 metres per second to the knot, masses and areas move between pounds, kilograms, square feet and square metres, and several letters are reused, so $\\gamma$ is the glide slope in the approach relations and the ratio of specific heats in the standard atmosphere, $a$ is a deceleration in the arrestment and the speed of sound at altitude, $c$ is the speed of light in the range model and the specific fuel consumption in the Breguet relation, and $T$ is a tropospheric delay, a thrust and a temperature in different sections."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Touchdown Displacement from a Height Error"
+gloss = "A height error at the ramp moves the touchdown point along the deck by that error divided by the tangent of the glide slope."
+cite = []
+digest = "e89cdcb693778417"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Height Equivalent of a Pendant Spacing"
+gloss = "Read the other way, the same geometry gives the height error that moves the touchdown point by one wire spacing."
+cite = []
+digest = "6a9935416870f739"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Closure Speed on a Carrier Making Twenty-Five Knots"
+gloss = "The closure speed subtracts a ship speed of twenty-five knots, a value the article takes as representative, from the approach speed of 145 knots."
+cite = []
+digest = "3db267820e33b949"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Pseudorange Error Model"
+gloss = "The range a receiver measures to a satellite is the true range plus the satellite clock offset, the ionospheric and tropospheric delays and a noise term."
+cite = ["book_misra_enge"]
+digest = "d210418671f63798"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Between-Receiver Single Difference"
+gloss = "Differencing the pseudoranges of two receivers to the same satellite removes the satellite clock offset exactly and leaves the difference in true range with small residual atmospheric and noise terms."
+cite = ["book_misra_enge"]
+digest = "9fc350cbf49351f1"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Constant Deceleration over a Stopping Distance"
+gloss = "Under constant deceleration a body brought to rest from speed $v$ in distance $s$ decelerates at $v^{2}/2s$."
+cite = ["ref_navair_first_trap"]
+digest = "c405131be6fa4c1f"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Stopping Time under Constant Deceleration"
+gloss = "Under the same constant deceleration the time to rest is twice the stopping distance divided by the initial speed."
+cite = ["ref_navair_first_trap"]
+digest = "ecd23778d9ead4f1"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Speed Relative to the Deck"
+gloss = "The speed relative to the deck is the airspeed less the wind over the deck."
+cite = []
+digest = "e98a63faa07a239c"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Wing Loading of the X-47B in SI Units"
+gloss = "The published gross mass of 19,000 kilograms on the published wing area of 88.59 square metres gives a wing loading of 2,103 newtons per square metre."
+cite = []
+digest = "7625077be777138f"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Maximum Lift Coefficient If 145 Knots Were the Stall"
+gloss = "Treating the quoted 145 knots as a stalling speed at sea-level density, a reading the article tests in order to reject it, gives a maximum lift coefficient of 0.617."
+cite = []
+digest = "dfeae1e6c5a78567"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Kinetic Energy Absorbed by the Arresting Gear"
+gloss = "The kinetic energy of the aeroplane at the published maximum takeoff mass and the quoted 145 knots is 56.2 megajoules."
+cite = []
+digest = "3d229678a578c579"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Newton's Second Law for the Hook Load"
+gloss = "The hook load is the mass of the aeroplane times its deceleration."
+cite = []
+digest = "ca68a59c36c3f075"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Ship Travel During the Arrestment"
+gloss = "The distance the deck moves beneath the aeroplane takes a ship speed of twenty-five knots, which the article assumes, over the stopping time of 2.86 seconds."
+cite = []
+digest = "dae11ddde7a70f98"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Mass and Thrust Ratios of the X-47B to the X-47A"
+gloss = "The published gross masses and thrusts of the two aircraft give a mass ratio of 7.60 and a thrust ratio of 5.01."
+cite = ["ref_parsch_x47"]
+digest = "16f22c0db7da2e80"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Aspect Ratio of the X-47B Wing"
+gloss = "The aspect ratio is the square of the published span over the published wing area."
+cite = ["ref_x47b_wikipedia"]
+digest = "1e0a1a7cd034f8a4"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Descent Rate on a Glide Slope"
+gloss = "The rate of descent along a glide slope is the approach speed times the sine of the glide slope angle."
+cite = []
+digest = "77f824147a91d1b3"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Thrust to Weight Ratio of the X-47B"
+gloss = "The published thrust of 71.2 kilonewtons over the weight of the published gross mass gives a thrust to weight ratio of 0.382."
+cite = ["ref_parsch_x47"]
+digest = "a4dc8e4901515baa"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Fan-Out of a Supervised Vehicle"
+gloss = "The fan-out is the number of vehicles one operator can serve, the sum of neglect time and interaction time divided by the interaction time."
+cite = []
+digest = "3c79786c116fa195"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Payload Fraction of the X-47B"
+gloss = "The published payload of 2,040 kilograms over the published gross mass of 19,000 kilograms gives a payload fraction of 0.10737."
+cite = ["ref_parsch_x47"]
+digest = "c4668da1f6e4a56b"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Ratio of Actual to Predicted Gross Mass"
+gloss = "The ratio sets the published gross mass against the 32,539 pounds that the previous article predicted from its inherited payload fraction of 0.12293."
+cite = ["ref_parsch_x47"]
+digest = "e527f1afaf4a78fc"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Wing Loading of the X-47B in Imperial Units"
+gloss = "The published gross mass of 41,888 pounds on the published wing area of 953.6 square feet gives a wing loading of 43.9 pounds per square foot."
+cite = ["ref_parsch_x47"]
+digest = "db34d22506c4461d"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Breguet Fuel Fraction"
+gloss = "Inverting the Breguet range relation for a jet gives the fuel fraction that a range costs at a given speed, specific fuel consumption and lift to drag ratio."
+cite = []
+digest = "b02122df0bdc9706"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Cruise Speed at Mach 0.75 and Forty Thousand Feet"
+gloss = "The standard atmosphere gives the temperature and speed of sound above the tropopause, and the cruise speed takes an assumed Mach number of 0.75 because no cruise condition is published."
+cite = ["research_u_s_standard_1976"]
+digest = "0ffbd7c4be7b26bc"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Discrepancy Between the Published Gross Masses"
+gloss = "The encyclopaedia's maximum takeoff mass of 20,185 kilograms exceeds the directory's 19,000 kilograms by 6.24 percent."
+cite = ["ref_parsch_x47", "ref_x47b_wikipedia"]
+digest = "d52b5a159a38a28b"
+
+[[symbol]]
+tex = '\Delta h'
+meaning = "the height error at the ramp, or the height equivalent of one wire spacing"
+
+[[symbol]]
+tex = '\Delta x'
+meaning = "the displacement of the touchdown point along the deck, or the pendant spacing"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the glide slope angle in the approach relations, and the ratio of specific heats, taken as 1.4 for air, in the standard atmosphere relation"
+
+[[symbol]]
+tex = 'v_{\text{ship}}'
+meaning = "the speed of the ship"
+
+[[symbol]]
+tex = 'v_{\text{closure}}'
+meaning = "the closure speed between the aeroplane and the deck"
+
+[[symbol]]
+tex = '\rho_{i}'
+meaning = "the pseudorange that receiver $i$ measures to one satellite"
+
+[[symbol]]
+tex = 'r_{i}'
+meaning = "the true range from receiver $i$ to the satellite"
+
+[[symbol]]
+tex = '\delta t_{\text{sat}}'
+meaning = "the satellite clock offset, multiplied by the speed of light $c$"
+
+[[symbol]]
+tex = 'I_{i}'
+meaning = "the ionospheric delay at receiver $i$"
+
+[[symbol]]
+tex = 'T_{i}'
+meaning = "the tropospheric delay at receiver $i$"
+
+[[symbol]]
+tex = '\varepsilon_{i}'
+meaning = "the measurement noise at receiver $i$"
+
+[[symbol]]
+tex = 'a'
+meaning = "the deceleration in the arrestment, and the speed of sound in the standard atmosphere relation"
+
+[[symbol]]
+tex = 's'
+meaning = "the stopping distance along the deck"
+
+[[symbol]]
+tex = 'v_{\text{wod}}'
+meaning = "the wind over the deck"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = 'm'
+meaning = "the mass of the aeroplane"
+
+[[symbol]]
+tex = 'V'
+meaning = "the airspeed, which is the approach speed in the descent relation and the cruise speed in the Breguet relation"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, taken at sea level"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'E'
+meaning = "the kinetic energy the arresting gear absorbs"
+
+[[symbol]]
+tex = 'F'
+meaning = "the hook load"
+
+[[symbol]]
+tex = 'A\!R'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = 'w'
+meaning = "the rate of descent along the glide slope"
+
+[[symbol]]
+tex = 'FO'
+meaning = "the fan-out, the number of vehicles one operator can supervise"
+
+[[symbol]]
+tex = 'NT'
+meaning = "the neglect time, how long a vehicle can be left alone before it needs attention"
+
+[[symbol]]
+tex = 'IT'
+meaning = "the interaction time, how long the operator must spend on a vehicle once it needs attention"
+
+[[symbol]]
+tex = '\zeta_{\text{fuel}}'
+meaning = "the fuel fraction of gross mass"
+
+[[symbol]]
+tex = 'R \, c'
+meaning = "the range $R$ times the specific fuel consumption $c$"
+
+[[symbol]]
+tex = 'L/D'
+meaning = "the lift to drag ratio"

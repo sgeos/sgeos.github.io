@@ -1,0 +1,627 @@
+# Equation classification for A337. Read by `python3 _lib/equations.py`.
+
+caution = "The flight relations are evaluated in customary units, with lengths in feet, weights in pounds, masses in slugs and speeds in feet per second, subscripts $m$ and $f$ mark the X-40A model and the full-scale X-37, and several letters are reused, so $\\mu$ is the dynamic viscosity in the Reynolds number but the relative density from the similarity parameter onward, $\\theta$ is a pitch angle in the angular acceleration relation and the angle subtended by the landing error after it, and $s$ is a gear stroke and then a rollout distance."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Weight Ratio of the X-40A to the Ballasted Orbiter"
+gloss = "The published X-40A weight over the approximately 150,000 pounds of the ballasted orbiter gives a ratio below one fiftieth."
+cite = ["ref_boeing_1998", "research_alt_final_1978"]
+digest = "ed4edb72b4e45e99"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Froude Number"
+gloss = "The Froude number compares inertial to gravitational force."
+cite = ["research_chambers_2010"]
+digest = "fd9d18eda5c8e064"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number compares inertial to viscous force and governs the boundary layer."
+cite = []
+digest = "8f8b27a65283cbfd"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Froude Similarity Requirement"
+gloss = "Similarity requires the model and the full-scale vehicle to share a Froude number."
+cite = []
+digest = "44965c0c94371aa3"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Speed Ratio Under Froude Similarity"
+gloss = "Since gravity is common to both, the speed ratio is the square root of the length ratio."
+cite = []
+digest = "ef1a4556baa360f7"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Time Ratio Under Froude Similarity"
+gloss = "A length divided by a speed is a time, so the time ratio is also the square root of the length ratio."
+cite = []
+digest = "ccf8a252507687fd"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Angular Rate Ratio Under Froude Similarity"
+gloss = "Angular rates scale as the inverse square root of the length ratio and therefore rise in the model."
+cite = []
+digest = "85709bd6639803ae"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Reynolds Number Ratio in Common Air"
+gloss = "Substituting the Froude-matched speed into the Reynolds number with density and viscosity common gives the product of the speed and length ratios."
+cite = []
+digest = "ad0fc5ca21d217ef"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Reynolds Number Ratio as a Power of Scale"
+gloss = "The Reynolds number ratio under Froude similarity in common air is the length ratio to the three-halves power."
+cite = []
+digest = "cb3d6fbde852cc6c"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Mach Number Ratio Under Froude Similarity"
+gloss = "With the speed of sound common the Mach number ratio equals the speed ratio."
+cite = []
+digest = "2295781dd23c585d"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Dynamic Pressure Ratio Under Froude Similarity"
+gloss = "With density common the dynamic pressure scales linearly with the length ratio."
+cite = []
+digest = "32dfd0bcb4e54c38"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Weight Ratio Under Froude Similarity"
+gloss = "Equal relative density requires the model weight to scale as the cube of the length ratio."
+cite = []
+digest = "43daee961ca8f389"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Wing Loading Ratio Under Froude Similarity"
+gloss = "Weight scaling as the cube and area as the square of the length ratio make the wing loading scale linearly."
+cite = []
+digest = "fa8bd929b3dabc6c"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Inertia Ratio Under Mass Similarity"
+gloss = "A moment of inertia is a mass times a length squared, so under mass similarity it scales as the fifth power of the length ratio."
+cite = []
+digest = "331a55e7c72fefe0"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Relative Density"
+gloss = "The relative density compares the vehicle's mass to the mass of air in a volume defined by its reference area and length."
+cite = ["research_chambers_2010"]
+digest = "b6d32f57b510ab9d"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Relative Density Similarity Condition"
+gloss = "Dynamic similarity of a free-flight model holds when the relative densities of model and full-scale vehicle match."
+cite = ["research_chambers_2010"]
+digest = "fbe613e0527ef694"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Length Ratio From the Published Lengths"
+gloss = "The published lengths of the X-40A and X-37B give a length ratio of 0.752."
+cite = ["ref_boeing_1998", "ref_x37"]
+digest = "8c37fb8a8bcc464d"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Span Ratio From the Published Spans"
+gloss = "The published spans give a span ratio of 0.804."
+cite = ["ref_boeing_1998", "ref_x37"]
+digest = "9349c1c5b294d4ef"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Reciprocal of the Mean Scale Ratio"
+gloss = "The scale ratio is taken as 0.778, the mean of the length and span ratios, and its reciprocal is checked against the published figure of about 120 percent."
+cite = ["ref_x37"]
+digest = "3287c6391e8041da"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Dynamically Similar Model Weight"
+gloss = "Froude similarity at the mean scale ratio of 0.778 requires a model weight of 5,186 pounds from the published X-37B maximum takeoff weight."
+cite = ["ref_x37"]
+digest = "5084a5ee91c267fa"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Scale Ratio Implied by the Mass Ratio"
+gloss = "The cube root of the published weight ratio implies a scale ratio of 0.618, well below the geometric one."
+cite = ["ref_boeing_1998", "ref_x37"]
+digest = "c99a50e40c6ac6f2"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Wing Loadings of Model and Full-Scale Vehicle"
+gloss = "The wing loadings use an estimated X-40A reference area of 100 square feet and its scaling by the square of the mean scale ratio to 165 square feet."
+cite = []
+digest = "6ece747b6a2a95db"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Wing Loading Ratio Against the Requirement"
+gloss = "The ratio of the estimated wing loadings is 0.391 against a required value equal to the mean scale ratio."
+cite = []
+digest = "d2bc9d26283b350b"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Speed Ratio Against the Requirement"
+gloss = "Taking speed to vary as the square root of wing loading at a given lift coefficient, the estimated loadings give a speed ratio of 0.625 against a required 0.882."
+cite = []
+digest = "ea3d3fe9f73dbf22"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Fraction of the Dynamically Similar Speed"
+gloss = "The ratio of the estimated to the required speed ratio is 0.708."
+cite = []
+digest = "6fb3dc70c1f41067"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Relative Densities of Model and Full-Scale Vehicle"
+gloss = "The relative densities use the estimated reference areas, the vehicle lengths and the standard density at a mean altitude of 8,000 feet that the article takes."
+cite = []
+digest = "81828509ca980565"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Relative Density Ratio Against the Requirement"
+gloss = "The ratio of the estimated relative densities is 0.519 against a required value of one."
+cite = []
+digest = "6804af185f3cbc41"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Reynolds Number Ratio of the X-40A"
+gloss = "The Reynolds number ratio is evaluated at the mean scale ratio of 0.778."
+cite = []
+digest = "ec1ae8826d2e0c4b"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Reynolds Number Ratio of a 22 Percent Drop Model"
+gloss = "At the published 22 percent scale of the F/A-18E/F drop model the same relation gives about a tenth of full scale."
+cite = ["research_croom_2000"]
+digest = "a039f5a808224a25"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Absolute Reynolds Number of the X-40A"
+gloss = "The Reynolds number on the 22 foot length at 428 feet per second uses standard atmosphere density and viscosity at a mean altitude of 8,000 feet that the article takes as representative."
+cite = ["ref_atm76"]
+digest = "e2e2a12d1df23734"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Mach Number of the X-40A"
+gloss = "The published speed over the standard speed of sound at the representative altitude of 8,000 feet gives a Mach number of 0.394."
+cite = ["ref_atm76"]
+digest = "81316226c8c20a26"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Mean Sink Rate of the 12 April Flight"
+gloss = "The release altitude of the 12 April flight is paired with the 75 second descent stated for the series, a pairing the article makes because no duration is given for that flight."
+cite = ["ref_nasa_x40"]
+digest = "06318a0069b0ef41"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Sink Rate and Flight Path Angle"
+gloss = "The sink rate is the speed along the flight path times the sine of the flight path angle."
+cite = []
+digest = "b3adf521f27feb25"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Flight Path Angle of the 12 April Flight"
+gloss = "The paired mean sink rate over the published speed gives a flight path angle of 28.0 degrees."
+cite = []
+digest = "d84b833a65b573c7"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Force Balance in a Steady Glide"
+gloss = "In a steady glide lift balances the weight component across the path and drag the component along it."
+cite = []
+digest = "37a7c75900b24f62"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Lift to Drag Ratio as the Cotangent of the Glide Angle"
+gloss = "The ratio of the two balances makes the lift to drag ratio the cotangent of the flight path angle."
+cite = []
+digest = "0f6a6db20e5b2da2"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Effective Lift to Drag Ratio"
+gloss = "The flight path angle from the paired sink rate gives an effective lift to drag ratio of 1.88."
+cite = []
+digest = "33867c824e5a6b62"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Ground Range in a Steady Glide"
+gloss = "The ground range is the height multiplied by the lift to drag ratio."
+cite = []
+digest = "bc63c1ecba879dd6"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Ground Range of the 12 April Flight"
+gloss = "The release altitude over the tangent of the paired flight path angle gives 4.67 nautical miles."
+cite = []
+digest = "74661eabab72c78a"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Specific Energy at Release"
+gloss = "Releasing from a hover makes the initial kinetic term negligible, so the available specific energy is gravity times the release altitude."
+cite = []
+digest = "101d530650e24bc2"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Kinetic Energy per Unit Mass at the Published Speed"
+gloss = "Half the published speed squared is 18.9 percent of the specific energy available at release."
+cite = []
+digest = "2160e3aec133e673"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Free-Fall Speed From the Release Altitude"
+gloss = "A body falling from the release altitude without drag would reach 984 feet per second, more than twice the speed reached."
+cite = []
+digest = "4a4f047f67a0a1d0"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Full-Scale Equivalent of the Descent Time"
+gloss = "The series descent time of 75 seconds divided by the square root of the mean scale ratio stands for an 85 second full-scale event."
+cite = []
+digest = "4a7d8eee49e916b7"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Range to Height Ratio of the 1998 Flight"
+gloss = "The published distance of 2.5 miles over the release altitude of about 9,000 feet gives a straight-line ratio of 1.47."
+cite = ["ref_x40", "ref_x37_x40"]
+digest = "bb21d57e37951b8c"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Range to Height Ratio at the Alternative Altitude"
+gloss = "The museum's release altitude of about 10,000 feet lowers the ratio to 1.32."
+cite = ["ref_nmusaf_x40"]
+digest = "114ab4195a85d990"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Lift in the 12 April Glide"
+gloss = "The lift balancing the weight across the path is evaluated at the paired flight path angle of 28.0 degrees."
+cite = []
+digest = "8c9b664950b87393"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Lift Equation"
+gloss = "Lift is the dynamic pressure times the reference area times the lift coefficient."
+cite = []
+digest = "fa3c067d06cb99aa"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Dynamic Pressure at the Representative Altitude"
+gloss = "Half the standard density at a mean altitude of 8,000 feet, which the article takes, times the published speed squared gives 171.2 pounds per square foot."
+cite = ["ref_atm76"]
+digest = "abc26810a7086a62"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Product of Reference Area and Lift Coefficient"
+gloss = "The lift from the paired path angle over the dynamic pressure at the representative altitude fixes the product of area and lift coefficient at 13.42 square feet."
+cite = []
+digest = "80d203dbfd5e1dd9"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Aspect Ratio"
+gloss = "The published span with an estimated planform area of 100 square feet gives an aspect ratio of 1.44."
+cite = []
+digest = "19a1121e26f63b28"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Induced Drag Coefficient"
+gloss = "The induced drag coefficient is the lift coefficient squared over pi times the Oswald efficiency times the aspect ratio."
+cite = []
+digest = "17a043881d103ee5"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Induced Drag Coefficient of the X-40A"
+gloss = "The induced drag is evaluated with the lift coefficient implied by the estimated area, the estimated aspect ratio and an Oswald efficiency of 0.6 that the article assumes."
+cite = []
+digest = "b38b29a9399c57f1"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Angular Rate Ratio at the Mean Scale"
+gloss = "At the mean scale ratio of 0.778 the model's angular rates are 1.134 times those of the full-scale vehicle."
+cite = []
+digest = "3cbe2cb6f1a3595c"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Required Inertia Ratio"
+gloss = "Dynamic similarity at the mean scale ratio requires an inertia ratio of 0.285."
+cite = []
+digest = "5be1434dbbd481ae"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Actual Inertia Ratio"
+gloss = "The published mass ratio times the square of the mean scale ratio gives an actual inertia ratio of 0.143."
+cite = []
+digest = "b18de75d8d6f2470"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Fraction of the Required Inertia"
+gloss = "The actual over the required inertia ratio shows the vehicle carried about half the rotational inertia that similarity demanded."
+cite = []
+digest = "55f430ba908970ff"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Angular Acceleration Against a Similar Model"
+gloss = "Angular acceleration is moment over inertia, so the inertia ratios built on the mean scale ratio make the plant respond about twice as fast as a similar model."
+cite = []
+digest = "51094a19c672e27c"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Angle Subtended by the Landing Error"
+gloss = "The published seven foot tracking error over the published 13,200 foot distance subtends at most 1.82 minutes of arc."
+cite = ["ref_x40"]
+digest = "3037dc6460d7490c"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Mean Deceleration Over a Stroke"
+gloss = "A sink rate arrested over a gear stroke imposes a mean deceleration of the sink rate squared over twice the stroke."
+cite = []
+digest = "0be78e827c41a1d4"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Gear Deceleration at Touchdown"
+gloss = "A representative touchdown sink rate of three feet per second into an assumed six inch stroke gives about 0.28 times standard gravity."
+cite = ["research_larson_1972"]
+digest = "fe41a4a212908bed"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Mean Rollout Deceleration"
+gloss = "The published rollout of about 7,000 feet gives the mean deceleration as the touchdown speed squared over 14,000 feet."
+cite = ["ref_x40"]
+digest = "81d3e9395eaab8fc"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Rollout Deceleration Bracket"
+gloss = "The rollout deceleration is evaluated at assumed touchdown speeds of 150 and 200 feet per second, since none is published."
+cite = []
+digest = "2cb45164f0377082"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Specific Energy of an Unpowered Vehicle at Release"
+gloss = "The available specific energy at release is the potential term plus the kinetic term of the release speed."
+cite = []
+digest = "8b75ab1b12c26d1b"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Ratio of Release Energies"
+gloss = "With release from a hover the energies of the 2001 and 1998 releases stand in the ratio of their published altitudes, 1.672."
+cite = ["ref_sciencedaily_x40"]
+digest = "13f6b960e85d54a9"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "One-Sided Upper Bound on Failure Probability"
+gloss = "For a number of trials with no observed failure, requiring that run of successes to be no less likely than the significance level bounds the failure probability."
+cite = []
+digest = "6e08556726a8a368"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Upper Bound After Eight Clean Landings"
+gloss = "Eight successes bound the failure probability below 0.312 at 95 percent confidence."
+cite = []
+digest = "8ec62d6c19c97734"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Fabrication Cost per Flight"
+gloss = "One million dollars of fabrication across eight free flights is 125,000 dollars per flight before operating costs."
+cite = []
+digest = "6988ad0e49d0db89"
+
+[[symbol]]
+tex = 'W_{\text{X-40A}}'
+meaning = "the X-40A weight, with $W_{\\text{orbiter}}$ the ballasted weight of the orbiter"
+
+[[symbol]]
+tex = '\mathrm{Fr}'
+meaning = "the Froude number"
+
+[[symbol]]
+tex = '\mathrm{Re}'
+meaning = "the Reynolds number"
+
+[[symbol]]
+tex = '\mathrm{Ma}'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the geometric scale ratio of model to full-scale vehicle, with $\\lambda_{\\text{length}}$, $\\lambda_{\\text{span}}$ and $\\lambda_{\\text{mass}}$ the ratios from length, span and mass"
+
+[[symbol]]
+tex = 'V_{m}'
+meaning = "the model speed, with $V_{f}$ the full-scale speed"
+
+[[symbol]]
+tex = 't_{m}'
+meaning = "the model time, with $t_{f}$ the full-scale time"
+
+[[symbol]]
+tex = '\omega_{m}'
+meaning = "the model angular rate, with $\\omega_{f}$ the full-scale angular rate"
+
+[[symbol]]
+tex = '\bar{q}'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'I_{m}'
+meaning = "the model moment of inertia, with $I_{f}$ the full-scale moment of inertia"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the dynamic viscosity in the Reynolds number, and the relative density from the similarity parameter onward"
+
+[[symbol]]
+tex = '\dot{h}'
+meaning = "the sink rate"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the flight path angle"
+
+[[symbol]]
+tex = '\left(\frac{L}{D}\right)_{\text{eff}}'
+meaning = "the effective lift to drag ratio"
+
+[[symbol]]
+tex = 'R'
+meaning = "the ground range"
+
+[[symbol]]
+tex = 'C_{D_{i}}'
+meaning = "the induced drag coefficient"
+
+[[symbol]]
+tex = 'e'
+meaning = "the Oswald efficiency"
+
+[[symbol]]
+tex = 'AR'
+meaning = "the aspect ratio"
+
+[[symbol]]
+tex = '\ddot{\theta}'
+meaning = "the angular acceleration"
+
+[[symbol]]
+tex = 'V_{td}'
+meaning = "the touchdown speed"
+
+[[symbol]]
+tex = 'p_{\max}'
+meaning = "the upper bound on the failure probability"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the significance level"

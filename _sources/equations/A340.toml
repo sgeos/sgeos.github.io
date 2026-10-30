@@ -1,0 +1,531 @@
+# Equation classification for A340. Read by `python3 _lib/equations.py`.
+
+caution = "Altitudes, masses, dynamic pressures and nose temperatures are quoted in feet, pounds, pounds per square foot and degrees Fahrenheit while the gas dynamics is evaluated in the International System with the 1976 standard atmosphere and $\\gamma = 1.4$, and several letters are reused, so $p_{0}$ is the ambient pressure in the thrust relation and the total pressure in the isentropic relation, $a$ is the speed of sound and then an acceleration, $\\theta$ is a wedge turning angle and then an oscillation amplitude, $f$ is an oscillation frequency and then a fraction of margin, $k$ is the heating constant while $k_{\\max}$ is a gain factor, and $m$ is a mass and then a stability margin."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Net Axial Force"
+gloss = "The net axial force of an integrated airframe and engine is the thrust less the drag, the single quantity whose sign the flights set out to establish."
+cite = []
+digest = "d17d87afe8956b65"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Uninstalled Thrust"
+gloss = "Uninstalled thrust is the exit momentum flux less the captured momentum flux, plus the exit pressure excess acting over the exit area."
+cite = ["book_heiser_pratt"]
+digest = "a61f6027eb90f076"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Captured Air Mass Flow"
+gloss = "The captured air mass flow is the density times the flight velocity times the capture area."
+cite = []
+digest = "c373285d85c08426"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Stoichiometric Fuel to Air Ratio of Hydrogen"
+gloss = "Two moles of hydrogen per mole of oxygen, with the oxygen mole fraction and mean molar mass of air from the 1976 standard atmosphere, give a stoichiometric fuel to air mass ratio of 0.0292."
+cite = ["research_us_atmos_1976"]
+digest = "f5b56fbc1efda3b0"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Thrust Dominated by the Velocity Difference"
+gloss = "Because the fuel flow is under three percent of the air flow and the pressure term is set aside, the thrust is approximately the captured mass flow times the difference between exit and flight velocity."
+cite = []
+digest = "fc689dce75ba3e3f"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Thrust per Unit Captured Air Flow"
+gloss = "The specific thrust is evaluated with an exit velocity five percent above the flight velocity, an excess the article takes as an illustration, at the two flight speeds."
+cite = []
+digest = "42fca12dcbdbbc02"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Stagnation Temperature"
+gloss = "Air brought isentropically to rest from Mach number $M$ reaches the stagnation temperature of a calorically perfect gas."
+cite = ["research_naca_1135", "book_anderson_hypersonic"]
+digest = "65ff0663a518c90e"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Stagnation Temperature at Mach 6.83"
+gloss = "The stagnation relation evaluated at the reported Mach 6.83 with the standard-atmosphere static temperature at 95,000 feet gives 2,329 kelvin."
+cite = ["research_us_atmos_1976", "research_marshall_corpening_2005"]
+digest = "773ca23455f28060"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Stagnation Temperature at Mach 9.68"
+gloss = "The stagnation relation evaluated at the reported Mach 9.68 with the standard-atmosphere static temperature at 110,000 feet gives 4,588 kelvin."
+cite = ["research_us_atmos_1976", "research_marshall_2005"]
+digest = "824818e5d1c412c0"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Static Temperature at a Sonic Throat"
+gloss = "Flow decelerated isentropically to sonic conditions, as a ramjet inlet would take it, has a static temperature equal to the stagnation temperature divided by 1.2."
+cite = ["research_naca_1135"]
+digest = "e7d16b39484273c0"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Isentropic Total to Static Pressure Ratio"
+gloss = "The ratio of total to static pressure available to a perfect inlet follows from the isentropic relation at the flight Mach number."
+cite = ["research_naca_1135"]
+digest = "a1f5ee3653b8231c"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Dynamic Pressure"
+gloss = "Dynamic pressure is half the density times the square of the velocity."
+cite = []
+digest = "c976802f60bd439f"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Flight Velocity and Speed of Sound"
+gloss = "The flight velocity is the Mach number times the speed of sound, which for a perfect gas depends on temperature alone."
+cite = []
+digest = "2ae027daa67880f5"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Standard-Atmosphere Dynamic Pressure on the Second Flight"
+gloss = "Dynamic pressure at Mach 6.83 and 95,000 feet in the 1976 standard atmosphere is about 955 pounds per square foot."
+cite = ["research_us_atmos_1976"]
+digest = "708a9573bb45bda9"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Standard-Atmosphere Dynamic Pressure on the Third Flight"
+gloss = "Dynamic pressure at Mach 9.68 and 110,000 feet in the 1976 standard atmosphere is about 973 pounds per square foot."
+cite = ["research_us_atmos_1976"]
+digest = "2b0ef428d03a1cd3"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Departure of Standard-Atmosphere from Reported Dynamic Pressure"
+gloss = "The standard-atmosphere figures differ from the reported dynamic pressures of 980 and 930 pounds per square foot by minus 2.6 and plus 4.6 percent."
+cite = ["research_voland_2005"]
+digest = "fef8a755255235ce"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Kantrowitz Starting Criterion"
+gloss = "A fixed-geometry inlet starts when its throat can pass the flow behind a normal shock at the capture plane, which bounds the contraction ratio through the isentropic area ratio at the post-shock Mach number."
+cite = ["research_kantrowitz_1945"]
+digest = "890f3300bfa56d4e"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Axial Acceleration from Net Force"
+gloss = "Newton's second law gives the axial acceleration as the net of thrust and drag divided by the vehicle mass."
+cite = []
+digest = "d9c87d578a6306b5"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Oblique Shock Angle Relation"
+gloss = "The theta-beta-Mach relation ties the wedge turning angle to the shock wave angle at a given free-stream Mach number."
+cite = ["research_naca_1135"]
+digest = "cfb02bef20f79a19"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Oblique Shock Pressure and Temperature Ratios"
+gloss = "The pressure and temperature jumps across an oblique shock are the normal-shock relations applied to the normal component of the upstream Mach number."
+cite = ["research_naca_1135"]
+digest = "7425d2c6e7ec45b1"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Rayleigh Flow Stagnation Temperature Ratio"
+gloss = "In frictionless constant-area flow with heat addition the ratio of stagnation temperature to its value at thermal choking bounds the heat that a combustor entering at Mach number $M$ may add."
+cite = ["research_naca_1135"]
+digest = "80a40e37986072a0"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Combustor Residence Time"
+gloss = "The residence time is the combustor length divided by the mean flow velocity through it."
+cite = []
+digest = "9f671f585bb35e32"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Sutton and Graves Stagnation-Point Heating"
+gloss = "The convective heat flux at a stagnation point scales with the square root of density over nose radius and the cube of velocity, with a constant that carries the gas chemistry."
+cite = ["research_sutton_graves_1971", "research_fay_riddell_1958"]
+digest = "08e03fcf2d72f8ad"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Heating Ratio of the Two Flights at Equal Radius"
+gloss = "At equal nose radius the Sutton and Graves correlation gives the Mach 9.68 heating as 2.09 times the Mach 6.83 heating, from the cube of the velocity ratio and the root of the density ratio."
+cite = []
+digest = "4677ea07e21616cf"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Fahrenheit to Kelvin Conversion of Predicted Nose Temperatures"
+gloss = "The predicted nose temperatures of 3,000 and 4,000 degrees Fahrenheit are 1,922 and 2,478 kelvin."
+cite = ["research_ohlhorst_2005"]
+digest = "689a868cde2b3119"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Heating Ratio with the Blunter Third Nose"
+gloss = "The documented change of nose radius from 0.030 to 0.050 inch reduces the heating ratio between the flights from 2.09 to 1.62 under the square-root dependence on radius."
+cite = ["research_ohlhorst_2005"]
+digest = "438dcf09d0d0ef96"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Distance Flown Under Power"
+gloss = "The distance covered under power is the flight velocity times the burn time."
+cite = []
+digest = "47c3ed444f9cfdff"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Powered Distances of the Two Flights"
+gloss = "The flight velocities and the reported burn times of 11 and 10.5 seconds give powered distances of 22.6 and 31.1 kilometres."
+cite = ["research_voland_2005"]
+digest = "edf0414a28e3642c"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Shortfall of Computed Against Reported Distances"
+gloss = "The computed powered distances fall short of the reported 15 and 20 miles by 6.3 and 3.5 percent."
+cite = ["research_voland_2005"]
+digest = "b3558ee147ccf3d6"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Research Vehicle Share of the Stack"
+gloss = "The published masses and lengths give the research vehicle as 7.2 percent of the stack mass at drop and 24 percent of its length."
+cite = ["research_mib_2003"]
+digest = "86f5fdb80a805408"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Stack Excess over the Pylon Limit"
+gloss = "The 41,750 pound stack exceeded the original 41,400 pound limit of the B-52B pylon by 350 pounds."
+cite = ["research_mib_2003", "research_peebles_2007"]
+digest = "3c88fc772ed5f5b6"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Dynamic Pressure Ratio of the Low Launch"
+gloss = "The ratio of standard-atmosphere static pressures at 20,000 and 40,000 feet gives about 2.5, under the assumption, which the article states the trajectories do not confirm, that each stack passes a given Mach number about 20,000 feet apart in altitude."
+cite = ["research_us_atmos_1976", "research_reubush_2003"]
+digest = "6b6d59cb10e7e27e"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Oscillation Cycles from Anomaly to Overload"
+gloss = "The reported 2.00 seconds from anomaly to structural overload at the reported 2.5 hertz is five cycles."
+cite = ["research_mib_2003"]
+digest = "519c9a2bec718751"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Exponentially Diverging Oscillation"
+gloss = "A divergent oscillation has an envelope that grows exponentially at rate $\\sigma$, which follows from the amplitude ratio over an interval."
+cite = []
+digest = "cb5fe585af38bbe8"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Damping Ratio from Growth Rate and Frequency"
+gloss = "The damping ratio of a second-order mode is minus the growth rate over the modulus of the root, negative for a divergence."
+cite = []
+digest = "55f4b40d605e5cea"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Gain Margin in Decibels"
+gloss = "A gain margin in decibels is twenty times the common logarithm of the factor by which the loop gain may rise before the stability boundary."
+cite = []
+digest = "9b41b2031df58cf4"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Fraction of Gain Margin Lost"
+gloss = "The reported correction from 8 to 2 decibels removed 83 percent of the permissible gain factor above unity."
+cite = ["research_mib_2003"]
+digest = "9324b530519b5002"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Additive Margin Model"
+gloss = "The article models the true margin as the nominal margin reduced by the sum of the magnitudes of the individual modelling errors, an assumption that the errors add without cancellation."
+cite = []
+digest = "f9ecbe460fb93023"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Instability Condition for Equal Errors"
+gloss = "When each of $n$ errors is assumed to consume the same fraction $f$ of the nominal margin, the additive model is unstable exactly when $n f$ exceeds one, although each error alone leaves a positive margin."
+cite = []
+digest = "cfe854460af8ffa9"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Shortfall of Separation Mach Number and Dynamic Pressure"
+gloss = "The achieved separation conditions of the second flight fall short of their targets by 1.8 percent in Mach number and 3.9 percent in dynamic pressure."
+cite = ["research_marshall_corpening_2005"]
+digest = "3698851e3944f89b"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Phase Durations of the Second Flight"
+gloss = "The reported cowl, tare, fuelled and manoeuvre phases sum to 39.5 seconds against the reported cowl closure at 39 seconds."
+cite = ["research_marshall_corpening_2005"]
+digest = "7c3344d87d469821"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Phase Durations of the Third Flight"
+gloss = "The reported cowl opening, tare and fuelled phases sum to 21.5 seconds against the reported cowl closure at 22 seconds."
+cite = ["research_marshall_2005", "research_voland_2005"]
+digest = "1aa82db3d2f36cc2"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Thrust as a Fractional Velocity Increment"
+gloss = "The approximate thrust is rewritten as the captured momentum flux times the fractional excess of exit over flight velocity."
+cite = []
+digest = "eb655d7d89b3c8fc"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Mach Number Increments of the Speed Records"
+gloss = "The second flight exceeded the SR-71's Mach 3.32 by 3.51 and the third exceeded the second by 2.85 in Mach number."
+cite = ["research_peebles_2007"]
+digest = "0e1ee29a948da091"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Reynolds Number and Sutherland's Law"
+gloss = "The Reynolds number is the ratio of inertial to viscous forces over a reference length, with the dynamic viscosity of air from Sutherland's law."
+cite = []
+digest = "e047431648dc7c0a"
+
+[[symbol]]
+tex = 'F_{\text{net}}'
+meaning = "the net axial force"
+
+[[symbol]]
+tex = 'F_{\text{thrust}}'
+meaning = "the uninstalled thrust"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag"
+
+[[symbol]]
+tex = '\dot{m}_{0}'
+meaning = "the captured air mass flow, with $\\dot{m}_{e}$ the mass flow at the exit"
+
+[[symbol]]
+tex = 'V_{0}'
+meaning = "the flight velocity, with $V_{e}$ the exit velocity"
+
+[[symbol]]
+tex = 'p_{e}'
+meaning = "the static pressure at the exit, with $p_{0}$ the ambient pressure in the thrust relation"
+
+[[symbol]]
+tex = 'A_{c}'
+meaning = "the capture area, with $A_{e}$ the exit area"
+
+[[symbol]]
+tex = 'f_{\text{st}}'
+meaning = "the stoichiometric fuel to air mass ratio"
+
+[[symbol]]
+tex = 'x_{\mathrm{O_2}}'
+meaning = "the mole fraction of oxygen in air"
+
+[[symbol]]
+tex = '\mathcal{M}_{\text{air}}'
+meaning = "the mean molar mass of air, with $\\mathcal{M}_{\\mathrm{H_2}}$ the molar mass of hydrogen"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number, with $M_{2}$ the Mach number behind a normal shock in the starting criterion"
+
+[[symbol]]
+tex = 'T_{0}'
+meaning = "the stagnation temperature, with $T$ the static temperature"
+
+[[symbol]]
+tex = 'T_{0}^{*}'
+meaning = "the stagnation temperature at thermal choking"
+
+[[symbol]]
+tex = '\frac{p_{0}}{p}'
+meaning = "the ratio of total to static pressure"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'V'
+meaning = "the flight velocity"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound, and in the acceleration relation the axial acceleration"
+
+[[symbol]]
+tex = 'R'
+meaning = "the specific gas constant of air"
+
+[[symbol]]
+tex = 'A/A^{*}'
+meaning = "the isentropic area ratio"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the wedge turning angle, and in the divergence relation the oscillation amplitude with $\\theta_{0}$ its initial value"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the shock wave angle"
+
+[[symbol]]
+tex = 'M_{n1}'
+meaning = "the normal component of the upstream Mach number"
+
+[[symbol]]
+tex = 't_{\text{res}}'
+meaning = "the combustor residence time, with $L_{c}$ the combustor length and $V_{c}$ the combustor flow velocity"
+
+[[symbol]]
+tex = '\dot{q}_{s}'
+meaning = "the stagnation-point heat flux"
+
+[[symbol]]
+tex = 'R_{n}'
+meaning = "the leading-edge radius"
+
+[[symbol]]
+tex = 'k'
+meaning = "the heating constant of the Sutton and Graves correlation"
+
+[[symbol]]
+tex = 'd'
+meaning = "the distance flown under power"
+
+[[symbol]]
+tex = 't_{\text{burn}}'
+meaning = "the powered burn time"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the growth rate of the oscillation envelope"
+
+[[symbol]]
+tex = '\omega'
+meaning = "the angular frequency of the oscillation"
+
+[[symbol]]
+tex = 'f'
+meaning = "the oscillation frequency in hertz, and in the margin relations the fraction of nominal margin each error consumes"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the damping ratio"
+
+[[symbol]]
+tex = '\mathrm{GM}_{\text{dB}}'
+meaning = "the gain margin in decibels"
+
+[[symbol]]
+tex = 'k_{\max}'
+meaning = "the permissible gain factor, with $k_{8}$ and $k_{2}$ its values at 8 and 2 decibels"
+
+[[symbol]]
+tex = 'm_{\text{true}}'
+meaning = "the true stability margin, with $m_{\\text{nominal}}$ the nominal margin"
+
+[[symbol]]
+tex = 'e_{i}'
+meaning = "the $i$th modelling error"
+
+[[symbol]]
+tex = 'n'
+meaning = "the number of oscillation cycles, and in the margin relations the number of modelling errors"
+
+[[symbol]]
+tex = '\mathrm{Re}'
+meaning = "the Reynolds number"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the dynamic viscosity"
+
+[[symbol]]
+tex = 'L'
+meaning = "the reference length"

@@ -32,6 +32,7 @@ That question is older than the aeroplane by at least forty years, and no flight
 
 $$
 \frac{99}{37} = 2.68
+\tag{1}
 $$
 
 **and the demonstration the money was for never happened.** Two airframes were built and both were destroyed \[[Boeing X-50 Dragonfly][ref_x50_wikipedia]\]. **A press report put the programme at fifty-two million dollars when it was cancelled** \[[X-50A Dragonfly concept canned, New Atlas][ref_newatlas_canned]\], against the agreement's twenty-four million dollars, twelve million from each party \[[Dragonfly canard rotor wing unmanned aerial vehicle, Federation of American Scientists][ref_fas_crw]\], and the sources consulted give no official final figure.
@@ -64,6 +65,7 @@ The advance ratio relates flight speed to rotor tip speed. It was the subject of
 
 $$
 \mu = \frac{V}{\Omega R}
+\tag{2}
 $$
 
 **The rotorcraft literature treats advance ratios between hover and about** $\mu = 0.40$ **as the helicopter's range** \[[Harris 2008][research_harrisfranklind_2008]\], **and the X-49A reached 0.442** \[[X-49][related_post_a346_piasecki_x49]\]. The X-49 existed to push that number up by a little.
@@ -72,12 +74,14 @@ $$
 
 $$
 \lim_{\Omega \to 0} \frac{V}{\Omega R} = \infty
+\tag{3}
 $$
 
 **The X-50A's rotor tip speed appears in none of the sources consulted**, so the entry condition is computed across the range conventional practice would suggest. At the 130 knot conversion condition of the sole public computational study \[[Pandya and Aftosmis 2001][research_pandya_aftosmis_2001]\], a tip speed of 500 feet per second gives $\mu = 0.439$ and a tip speed of 700 feet per second gives $\mu = 0.313$. The tip speed that would place the entry exactly at the conventional limit is
 
 $$
 \Omega R = \frac{V}{0.40} = \frac{219.4}{0.40} = 548.5 \ \mathrm{ft/s}
+\tag{4}
 $$
 
 **which sits in the middle of that range.** So the X-50A most likely began its conversion at about the advance ratio where the X-49A ran out of aeroplane, and then went further in a direction no conventional rotor can go.
@@ -86,18 +90,21 @@ $$
 
 $$
 \frac{A_{\text{rev}}}{A} = \frac{\pi (\mu R / 2)^2}{\pi R^2} = \frac{\mu^2}{4}
+\tag{5}
 $$
 
 **At the conversion entry that is between 2.46 and 4.81 percent of the disc**, which is unremarkable and is about what the X-49A carried at its maximum speed. The relation is quadratic, and it does not stop.
 
 $$
 \mu = 1 \ \Rightarrow \ \frac{A_{\text{rev}}}{A} = 25\% \qquad \mu = 2 \ \Rightarrow \ \frac{A_{\text{rev}}}{A} = 100\%
+\tag{6}
 $$
 
 **At an advance ratio of two the reverse flow region covers the entire disc.** Holding the conversion speed of 219.4 feet per second, that happens when the tip speed has fallen to
 
 $$
 \Omega R = \frac{V}{2} = 109.7 \ \mathrm{ft/s}
+\tag{7}
 $$
 
 **which is 20 percent of the tip speed the aeroplane most likely entered conversion at, and the rotor still has all of that left to lose.** The quadratic form is exact only up to that point, since beyond an advance ratio of two the circle it describes is larger than the disc and there is no more disc left to cover.
@@ -106,12 +113,14 @@ $$
 
 $$
 V_{\text{ret}} = \Omega R - V = \Omega R \,(1 - \mu)
+\tag{8}
 $$
 
 **which vanishes at an advance ratio of one and is negative beyond it**, so from that point the retreating blade travels backwards through the air along its entire length. The advancing blade has the opposite problem, a compressibility one,
 
 $$
 M_{\text{adv}} = \frac{\Omega R + V}{a}
+\tag{9}
 $$
 
 **giving between 0.644 and 0.824 at conversion entry**, falling as the rotor slows, so compressibility alone gets easier on the way down.
@@ -122,12 +131,14 @@ Rotor thrust in hover follows from the thrust coefficient, in the standard form 
 
 $$
 T = C_T \rho A (\Omega R)^2
+\tag{10}
 $$
 
 **Halving the rotor speed quarters the available thrust at constant thrust coefficient.**
 
 $$
 \frac{L}{L_0} = \left( \frac{\Omega}{\Omega_0} \right)^{\!2}
+\tag{11}
 $$
 
 | Rotor speed remaining | Lift remaining |
@@ -141,12 +152,14 @@ $$
 
 $$
 \mathrm{d}L = \tfrac{1}{2} \rho U^2 c \, C_l \, \mathrm{d}r
+\tag{12}
 $$
 
 with the local velocity
 
 $$
 U(r, \psi) = \Omega r + V \sin \psi
+\tag{13}
 $$
 
 **and the sine term survives when the first term goes to zero.** A stopped rotor is not a rotor with no velocity over it. It is a wing with the flow arriving from one side.
@@ -163,6 +176,7 @@ A rotor that is slowing to a stop is therefore losing its lift on a square law, 
 
 $$
 L_{\text{rotor}} + L_{\text{canard}} + L_{\text{tail}} + L_{\text{fuselage}} = W
+\tag{14}
 $$
 
 **Driving the first term to zero forces the others to make up the difference**, and they have to do it at whatever airspeed the conversion happens at.
@@ -177,12 +191,14 @@ At the conversion condition the canard and tail carry the entire aircraft. The d
 
 $$
 q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} (0.0023769)(219.4)^2 = 57.2 \ \mathrm{lbf/ft^2}
+\tag{15}
 $$
 
 and the area required to carry the gross weight follows.
 
 $$
 S = \frac{W}{q \, C_L}
+\tag{16}
 $$
 
 **At a lift coefficient of 1.2, which a flapped canard and a full-flying tail can reach, the required area is 21.3 square feet. At 0.8 it is 31.9 square feet.** The published gross weight of 1,460 pounds is Boeing's figure at first flight \[[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]\].
@@ -195,6 +211,7 @@ $$
 
 $$
 \frac{b_{\text{canard}}}{D} = 0.742 \qquad \frac{b_{\text{tail}}}{D} = 0.675
+\tag{17}
 $$
 
 **Two lifting surfaces, each spanning between two thirds and three quarters of the rotor diameter, sit directly underneath the rotor.** Here both surfaces exist to carry the whole aircraft at conversion, which the manufacturer describes as the canard and tail picking up the aerodynamic load as forward speed increases \[[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]\], and that requirement sets their size.
@@ -205,30 +222,35 @@ $$
 
 $$
 \frac{W}{A} = \frac{1460}{113.1} = 12.9 \ \mathrm{lbf/ft^2}
+\tag{18}
 $$
 
 **The figure is 1.33 times the disc loading computed for the X-49A in the previous article**, on an aeroplane one fifteenth of its weight. The hover induced velocity follows from momentum theory \[[Gessow and Myers, Aerodynamics of the helicopter][book_gessow]\] \[[Bramwell, Bramwell's helicopter dynamics][book_bramwell]\].
 
 $$
 v_i = \sqrt{\frac{W}{2 \rho A}} = \sqrt{\frac{12.9}{2(0.0023769)}} = 52.1 \ \mathrm{ft/s}
+\tag{19}
 $$
 
 The fully developed slipstream moves at twice that, being 104.2 feet per second or 61.75 knots, and its dynamic pressure is equal to the disc loading exactly.
 
 $$
 q_{\text{slip}} = \tfrac{1}{2} \rho (2 v_i)^2 = \frac{W}{A} = 12.9 \ \mathrm{lbf/ft^2}
+\tag{20}
 $$
 
 **Between 21 and 32 square feet of lifting surface thus sits in a 12.9 pound per square foot slipstream in hover.** The download on that surface is
 
 $$
 D = q_{\text{slip}} \, S \, C_D = \frac{W}{A} S \, C_D
+\tag{21}
 $$
 
 **and expressed as a fraction of the weight the disc area cancels out of the geometry entirely.**
 
 $$
 \frac{D}{W} = \frac{S \, C_D}{A}
+\tag{22}
 $$
 
 Taking a drag coefficient of unity for surfaces with flaps deployed gives a download of 12.9 pounds per square foot, and against the mid-range area of 25.5 square feet, being the lift coefficient of unity case, that is 22.6 percent of the gross weight. At a drag coefficient of 0.6 it is 13.5 percent and at 1.2 it is 27.1 percent.
@@ -237,12 +259,14 @@ Taking a drag coefficient of unity for surfaces with flaps deployed gives a down
 
 $$
 P_i = W v_i = (1460)(52.1) = 76{,}082 \ \mathrm{ft \, lbf/s} = 138.3 \ \mathrm{hp}
+\tag{23}
 $$
 
 and the real figure follows from the figure of merit,
 
 $$
 \mathrm{FM} = \frac{W v_i}{P_{\text{actual}}}
+\tag{24}
 $$
 
 **which at 0.6 to 0.7 puts the rotor power between 198 and 231 horsepower**, before any of the reaction drive losses discussed below.
@@ -257,6 +281,7 @@ $$
 
 $$
 \tan \chi = \frac{V}{v_i}
+\tag{25}
 $$
 
 | Airspeed | Skew angle |
@@ -271,18 +296,21 @@ $$
 
 $$
 x_w = R - h \, \frac{V}{v_i}
+\tag{26}
 $$
 
 **A surface at longitudinal station** $x_s$ **is therefore clear of the wake once** $x_w < x_s$, which happens at
 
 $$
 V_{\text{clear}} = v_i \, \frac{R - x_s}{h}
+\tag{27}
 $$
 
 **The longitudinal stations are estimated from the overall dimensions and are not published**, so the result is a range. Taking the canard 4.0 to 5.0 feet ahead of the hub, the tail 4.0 to 5.0 feet behind it, and both 2.5 to 3.5 feet below the rotor plane gives
 
 $$
 V_{\text{clear, canard}} \approx 9 \ \text{to} \ 25 \ \mathrm{kt} \qquad V_{\text{clear, tail}} \approx 88 \ \text{to} \ 136 \ \mathrm{kt}
+\tag{28}
 $$
 
 **with nominal values of 15 knots and 108 knots.** Between those two speeds the canard is out of the wake and the tail is still in it.
@@ -291,6 +319,7 @@ $$
 
 $$
 \frac{V_{\text{clear, tail}}}{V_{\text{clear, canard}}} = \frac{R - x_{\text{tail}}}{R - x_{\text{canard}}} = \frac{10.5}{1.5} = 7.0
+\tag{29}
 $$
 
 **So whatever the induced velocity really is, and however far below the rotor the surfaces sit, the tail stays in the wake to several times the airspeed at which the canard leaves it, roughly seven times at the estimated stations.** The induced velocity and the vertical drop cancel from this ratio. The longitudinal stations do not, and they are estimated.
@@ -299,12 +328,14 @@ $$
 
 $$
 M = D_{\text{tail}} \, l_{\text{tail}} - D_{\text{canard}} \, l_{\text{canard}}
+\tag{30}
 $$
 
 and the swing as the canard clears is the loss of the second term. **Expressed as the shift in centre of gravity it is equivalent to**, a form that means something without a published control moment,
 
 $$
 \Delta x_{cg} = \frac{q_{\text{slip}} \, S_c \, C_D \, l_c}{W}
+\tag{31}
 $$
 
 **that is 3.7 inches at a drag coefficient of 0.6, 6.1 inches at 1.0 and 7.3 inches at 1.2**, being between 5.1 and 10.2 percent of the rotor radius, appearing over a speed band the aircraft crosses in a few seconds.
@@ -325,18 +356,21 @@ $$
 
 $$
 S \, C_L = \frac{W}{q} = \frac{2W}{\rho V^2}
+\tag{32}
 $$
 
 **At 150 knots that product is 19.17 square feet and at 380 knots it is 2.99**, a ratio of
 
 $$
 \frac{(S C_L)_{\text{cruise}}}{(S C_L)_{\text{max}}} = \left( \frac{V_{\text{max}}}{V_{\text{cruise}}} \right)^{\!2} = \left( \frac{380}{150} \right)^{\!2} = 6.42
+\tag{33}
 $$
 
 **and the maximum speed itself is only**
 
 $$
 M = \frac{V}{a} = \frac{641.4}{1116.4} = 0.574
+\tag{34}
 $$
 
 **at sea level, so compressibility is not what sizes this wing.** The wing is sized by the requirement to be a rotor, and every fixed-wing condition it meets afterwards finds it enormously oversized. **The oversizing is no criticism of the design. It defines the configuration.**
@@ -355,12 +389,14 @@ $$
 
 $$
 T_{\text{tip}} = \dot{m} \, (V_j - \Omega R)
+\tag{35}
 $$
 
 **and the power delivered to the rotor is that thrust acting through the tip speed**, summed over the blades.
 
 $$
 P = N \, T_{\text{tip}} \, \Omega R
+\tag{36}
 $$
 
 **Those two expressions fight each other.** Raising the tip speed raises the second and lowers the first, and the product has a maximum that no published figure for this aeroplane allows to be located.
@@ -373,6 +409,7 @@ $$
 
 $$
 \eta = \frac{2}{1 + V_j / V}
+\tag{37}
 $$
 
 For a tip jet the relevant body speed is the rotor tip speed. **Neither the tip speed nor the exhaust velocity is published for this aeroplane**, so the result is computed across the plausible ranges. At a tip speed of 700 feet per second and an exhaust velocity of 1,400 feet per second the efficiency is 0.667. At a tip speed of 500 and an exhaust velocity of 2,000 it is 0.400.
@@ -381,6 +418,7 @@ For a tip jet the relevant body speed is the rotor tip speed. **Neither the tip 
 
 $$
 \frac{0.97}{0.667} = 1.5 \qquad \text{and} \qquad \frac{0.97}{0.400} = 2.4
+\tag{38}
 $$
 
 **in the power required to turn the rotor.** The estimate is first-order and ignores the pressure losses of ducting hot gas through a rotating hub and along a rotating blade, which are real and make the true penalty worse.
@@ -407,12 +445,14 @@ $$
 
 $$
 A\!R = \frac{b^2}{S} = \frac{b^2}{b \, c} = \frac{b}{c}
+\tag{39}
 $$
 
 **is between 3 and 6 for a chord between four and two feet**, well below the aspect ratios of light aeroplanes and sailplanes. A wing that stubby loses a large part of its lift-curve slope, which Helmbold's relation gives as
 
 $$
 a = \frac{2 \pi A\!R}{2 + \sqrt{A\!R^2 + 4}}
+\tag{40}
 $$
 
 | Chord | Aspect ratio | Lift-curve slope, per radian | Loss against two-dimensional |
@@ -785,6 +825,403 @@ Rotor system structural design and blade manufacture, the detailed control law i
 **Three programmes across forty years have the same result to report.** Hughes designed a tip-jet rotor/wing between 1965 and 1968, and no record that it was built appears in the material reviewed here. Sikorsky built an X-wing and never flew it with its rotor turning. Boeing built two Dragonflies, flew them at least nine times and converted neither.
 
 **None of the three programmes stopped and restarted a rotor in flight.** The manoeuvre has been demonstrated in a wind tunnel, more than thirty times on one X-wing rotor in 1979, and the record consulted here holds no flight in which a rotor was both stopped and restarted, the nearest being the 2013 prototype that spun up a locked rotor from fixed-wing flight \[[Hybrid RotorWing conducts in-flight fixed/rotary transition, Rotor & Wing][ref_rotorwing_stoprotor]\].
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 40 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 40, 32 are established and 8 are bespoke.
+The rotor, surface and wake relations are evaluated in feet, pounds force, slugs and knots at sea level, with the 130 knot conversion condition taken as 219.4 feet per second, and several letters are reused, so $M$ is a pitching moment in the trim relation and a Mach number elsewhere, $A$ is the rotor disc area while $A\!R$ is an aspect ratio, $a$ is the speed of sound in the Mach relations and the lift-curve slope in Helmbold's relation, $D$ is the rotor diameter in the span ratios and a download elsewhere, and $N$ is the number of blades.
+
+**Equation 1, Schedule Overrun Factor.**
+Ninety-nine months from June 1998 to the termination in September 2006, against a plan of thirty-seven months, is a factor of 2.68.
+[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]
+[DARPA pulls plug on X-50 stopped-rotor concept, FlightGlobal][ref_flightglobal_cancel]
+
+$$
+\frac{99}{37} = 2.68
+\tag{1}
+$$
+
+**Equation 2, Advance Ratio.**
+The advance ratio is the flight speed divided by the rotor tip speed.
+
+$$
+\mu = \frac{V}{\Omega R}
+\tag{2}
+$$
+
+**Equation 3, Advance Ratio of a Stopping Rotor.**
+As the rotor speed falls to zero at constant flight speed the advance ratio grows without bound.
+
+$$
+\lim_{\Omega \to 0} \frac{V}{\Omega R} = \infty
+\tag{3}
+$$
+
+*Equation 4, Bespoke Tip Speed at the Conventional Limit.*
+The tip speed that places conversion entry exactly at an advance ratio of 0.40 is evaluated at the 130 knot conversion condition of the computational study, taking the approximate conventional limit of 0.40 as a sharp boundary.
+[Harris 2008][research_harrisfranklind_2008]
+[Pandya and Aftosmis 2001][research_pandya_aftosmis_2001]
+
+$$
+\Omega R = \frac{V}{0.40} = \frac{219.4}{0.40} = 548.5 \ \mathrm{ft/s}
+\tag{4}
+$$
+
+**Equation 5, Reverse Flow Region as a Fraction of the Disc.**
+The reverse flow region is a circle of diameter $\mu R$ on the retreating side, so its share of the disc area is one quarter of the square of the advance ratio.
+
+$$
+\frac{A_{\text{rev}}}{A} = \frac{\pi (\mu R / 2)^2}{\pi R^2} = \frac{\mu^2}{4}
+\tag{5}
+$$
+
+**Equation 6, Reverse Flow Share at Advance Ratios of One and Two.**
+The quadratic share gives a quarter of the disc at an advance ratio of one and the whole disc at two, beyond which the relation no longer applies.
+
+$$
+\mu = 1 \ \Rightarrow \ \frac{A_{\text{rev}}}{A} = 25\% \qquad \mu = 2 \ \Rightarrow \ \frac{A_{\text{rev}}}{A} = 100\%
+\tag{6}
+$$
+
+**Equation 7, Tip Speed at Which Reverse Flow Covers the Disc.**
+At the 130 knot conversion speed the reverse flow region covers the whole disc when the tip speed has fallen to half the flight speed.
+[Pandya and Aftosmis 2001][research_pandya_aftosmis_2001]
+
+$$
+\Omega R = \frac{V}{2} = 109.7 \ \mathrm{ft/s}
+\tag{7}
+$$
+
+**Equation 8, Retreating Tip Velocity.**
+The retreating tip moves through the air at the tip speed less the flight speed, which vanishes at an advance ratio of one.
+
+$$
+V_{\text{ret}} = \Omega R - V = \Omega R \,(1 - \mu)
+\tag{8}
+$$
+
+**Equation 9, Advancing Tip Mach Number.**
+The advancing tip Mach number is the sum of the tip speed and flight speed divided by the speed of sound.
+
+$$
+M_{\text{adv}} = \frac{\Omega R + V}{a}
+\tag{9}
+$$
+
+**Equation 10, Rotor Thrust from the Thrust Coefficient.**
+Rotor thrust is the thrust coefficient times the air density, the disc area and the square of the tip speed.
+[Leishman, Principles of helicopter aerodynamics][book_leishman]
+[Johnson, Helicopter theory][book_johnson_helicopter_theory]
+[Seddon, Basic helicopter aerodynamics][book_seddon]
+
+$$
+T = C_T \rho A (\Omega R)^2
+\tag{10}
+$$
+
+**Equation 11, Lift Ratio Under Rotor Slowing.**
+At constant thrust coefficient the rotor lift falls as the square of the fraction of rotor speed remaining.
+[Leishman, Principles of helicopter aerodynamics][book_leishman]
+[Johnson, Helicopter theory][book_johnson_helicopter_theory]
+[Seddon, Basic helicopter aerodynamics][book_seddon]
+
+$$
+\frac{L}{L_0} = \left( \frac{\Omega}{\Omega_0} \right)^{\!2}
+\tag{11}
+$$
+
+**Equation 12, Blade Element Lift.**
+The lift of a blade element is the local dynamic pressure times the chord, the section lift coefficient and the element length.
+
+$$
+\mathrm{d}L = \tfrac{1}{2} \rho U^2 c \, C_l \, \mathrm{d}r
+\tag{12}
+$$
+
+**Equation 13, Local Velocity at a Blade Element.**
+The velocity normal to a blade element is the rotational speed at its radius plus the component of flight speed at its azimuth.
+
+$$
+U(r, \psi) = \Omega r + V \sin \psi
+\tag{13}
+$$
+
+**Equation 14, Vertical Lift Balance.**
+The lift of the rotor, canard, horizontal tail and fuselage together equals the weight.
+[Pandya and Aftosmis 2001][research_pandya_aftosmis_2001]
+
+$$
+L_{\text{rotor}} + L_{\text{canard}} + L_{\text{tail}} + L_{\text{fuselage}} = W
+\tag{14}
+$$
+
+**Equation 15, Dynamic Pressure at the Conversion Speed.**
+The dynamic pressure at 130 knots and standard sea-level density is 57.2 pounds per square foot.
+
+$$
+q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} (0.0023769)(219.4)^2 = 57.2 \ \mathrm{lbf/ft^2}
+\tag{15}
+$$
+
+**Equation 16, Lifting Area Required to Carry the Weight.**
+The area needed to carry the weight is the weight divided by the dynamic pressure and the lift coefficient.
+[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]
+
+$$
+S = \frac{W}{q \, C_L}
+\tag{16}
+$$
+
+**Equation 17, Canard and Tail Span Against Rotor Diameter.**
+The published canard and tail spans of 8.9 and 8.1 feet are 0.742 and 0.675 of the twelve foot rotor diameter.
+[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]
+
+$$
+\frac{b_{\text{canard}}}{D} = 0.742 \qquad \frac{b_{\text{tail}}}{D} = 0.675
+\tag{17}
+$$
+
+**Equation 18, Disc Loading of the X-50A.**
+The published gross weight of 1,460 pounds over the 113.1 square foot disc gives a disc loading of 12.9 pounds per square foot.
+[The revolutionary Boeing Canard Rotor/Wing aircraft begins flight testing][ref_boeing_first_flight]
+
+$$
+\frac{W}{A} = \frac{1460}{113.1} = 12.9 \ \mathrm{lbf/ft^2}
+\tag{18}
+$$
+
+**Equation 19, Hover Induced Velocity.**
+Momentum theory gives the hover induced velocity from the disc loading and sea-level density as 52.1 feet per second.
+[Gessow and Myers, Aerodynamics of the helicopter][book_gessow]
+[Bramwell, Bramwell's helicopter dynamics][book_bramwell]
+
+$$
+v_i = \sqrt{\frac{W}{2 \rho A}} = \sqrt{\frac{12.9}{2(0.0023769)}} = 52.1 \ \mathrm{ft/s}
+\tag{19}
+$$
+
+**Equation 20, Slipstream Dynamic Pressure Equals Disc Loading.**
+The fully developed slipstream at twice the induced velocity has a dynamic pressure exactly equal to the disc loading.
+[Gessow and Myers, Aerodynamics of the helicopter][book_gessow]
+[Bramwell, Bramwell's helicopter dynamics][book_bramwell]
+
+$$
+q_{\text{slip}} = \tfrac{1}{2} \rho (2 v_i)^2 = \frac{W}{A} = 12.9 \ \mathrm{lbf/ft^2}
+\tag{20}
+$$
+
+**Equation 21, Download on a Surface in the Slipstream.**
+The download on a surface broadside to the fully developed slipstream is its dynamic pressure times the surface area and drag coefficient.
+
+$$
+D = q_{\text{slip}} \, S \, C_D = \frac{W}{A} S \, C_D
+\tag{21}
+$$
+
+**Equation 22, Download as a Fraction of Weight.**
+Dividing the download by the weight cancels the disc loading and leaves the ratio of surface area times drag coefficient to disc area.
+
+$$
+\frac{D}{W} = \frac{S \, C_D}{A}
+\tag{22}
+$$
+
+**Equation 23, Ideal Induced Power in the Hover.**
+The ideal induced power is the weight times the induced velocity, 138.3 horsepower at the published gross weight.
+
+$$
+P_i = W v_i = (1460)(52.1) = 76{,}082 \ \mathrm{ft \, lbf/s} = 138.3 \ \mathrm{hp}
+\tag{23}
+$$
+
+**Equation 24, Figure of Merit.**
+The figure of merit is the ratio of ideal induced power to the actual power required in the hover.
+
+$$
+\mathrm{FM} = \frac{W v_i}{P_{\text{actual}}}
+\tag{24}
+$$
+
+**Equation 25, Wake Skew Angle.**
+The wake skews aft from the vertical through an angle whose tangent is the flight speed over the induced velocity.
+
+$$
+\tan \chi = \frac{V}{v_i}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Forward Boundary of the Wake.*
+The article models the wake sheet from the forward edge of the disc as descending at the hover induced velocity while convecting aft at the flight speed, so its forward boundary at a given drop retreats linearly with speed.
+
+$$
+x_w = R - h \, \frac{V}{v_i}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Speed at Which a Surface Clears the Wake.*
+Under the straight-line wake model a surface at a given station and drop leaves the wake once the forward boundary passes it.
+
+$$
+V_{\text{clear}} = v_i \, \frac{R - x_s}{h}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Clearing Speeds of the Canard and Tail.*
+The clearing speeds use surface stations the article estimates from the overall dimensions, 4.0 to 5.0 feet from the hub and 2.5 to 3.5 feet below the rotor plane.
+
+$$
+V_{\text{clear, canard}} \approx 9 \ \text{to} \ 25 \ \mathrm{kt} \qquad V_{\text{clear, tail}} \approx 88 \ \text{to} \ 136 \ \mathrm{kt}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Ratio of Tail to Canard Clearing Speeds.*
+In the ratio the induced velocity and the drop cancel, leaving the ratio of distances from the forward edge of the disc at the estimated stations of 4.5 feet ahead of and behind the hub.
+
+$$
+\frac{V_{\text{clear, tail}}}{V_{\text{clear, canard}}} = \frac{R - x_{\text{tail}}}{R - x_{\text{canard}}} = \frac{10.5}{1.5} = 7.0
+\tag{29}
+$$
+
+*Equation 30, Bespoke Pitching Moment of the Two Downloads.*
+The article takes the pitching moment in the hover and early transition as the tail download moment less the canard download moment, neglecting every other contribution.
+
+$$
+M = D_{\text{tail}} \, l_{\text{tail}} - D_{\text{canard}} \, l_{\text{canard}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Equivalent Centre of Gravity Shift.*
+The loss of the canard download moment is expressed as an equivalent shift of the centre of gravity, evaluated at drag coefficients the article takes as 0.6 to 1.2 and at its estimated canard arm.
+
+$$
+\Delta x_{cg} = \frac{q_{\text{slip}} \, S_c \, C_D \, l_c}{W}
+\tag{31}
+$$
+
+**Equation 32, Required Product of Area and Lift Coefficient.**
+Level flight requires the product of wing area and lift coefficient to equal the weight divided by the dynamic pressure, which scales inversely with the square of speed.
+
+$$
+S \, C_L = \frac{W}{q} = \frac{2W}{\rho V^2}
+\tag{32}
+$$
+
+**Equation 33, Ratio of Required Area Lift Products at Cruise and Maximum Speed.**
+Between the published cruise of about 150 knots and maximum of about 380 knots the required product of area and lift coefficient changes by the square of the speed ratio, 6.42.
+[Boeing X-50 Dragonfly][ref_x50_wikipedia]
+
+$$
+\frac{(S C_L)_{\text{cruise}}}{(S C_L)_{\text{max}}} = \left( \frac{V_{\text{max}}}{V_{\text{cruise}}} \right)^{\!2} = \left( \frac{380}{150} \right)^{\!2} = 6.42
+\tag{33}
+$$
+
+**Equation 34, Sea-Level Mach Number at Maximum Speed.**
+The published maximum speed of about 380 knots is Mach 0.574 at the sea-level speed of sound.
+[Boeing X-50 Dragonfly][ref_x50_wikipedia]
+
+$$
+M = \frac{V}{a} = \frac{641.4}{1116.4} = 0.574
+\tag{34}
+$$
+
+**Equation 35, Tip Jet Thrust.**
+A tip nozzle already moving at the tip speed produces thrust equal to its mass flow times the jet velocity relative to the moving nozzle.
+
+$$
+T_{\text{tip}} = \dot{m} \, (V_j - \Omega R)
+\tag{35}
+$$
+
+**Equation 36, Power Delivered by Tip Jets.**
+The power delivered to the rotor is the tip jet thrust acting through the tip speed, summed over the blades.
+
+$$
+P = N \, T_{\text{tip}} \, \Omega R
+\tag{36}
+$$
+
+**Equation 37, Froude Propulsive Efficiency.**
+The efficiency of a jet doing work on a body moving at a given speed depends only on the ratio of jet velocity to that speed.
+
+$$
+\eta = \frac{2}{1 + V_j / V}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Power Penalty of the Reaction Drive.*
+The penalty divides an assumed mechanical transmission efficiency of 0.97 by Froude efficiencies of 0.667 and 0.400 computed at assumed tip speeds and exhaust velocities.
+
+$$
+\frac{0.97}{0.667} = 1.5 \qquad \text{and} \qquad \frac{0.97}{0.400} = 2.4
+\tag{38}
+$$
+
+**Equation 39, Aspect Ratio of a Rectangular Planform.**
+The aspect ratio is the span squared over the area, which for a rectangular planform reduces to span over chord.
+
+$$
+A\!R = \frac{b^2}{S} = \frac{b^2}{b \, c} = \frac{b}{c}
+\tag{39}
+$$
+
+**Equation 40, Helmbold Lift-Curve Slope.**
+Helmbold's relation gives the lift-curve slope of a low aspect ratio wing in terms of its aspect ratio.
+
+$$
+a = \frac{2 \pi A\!R}{2 + \sqrt{A\!R^2 + 4}}
+\tag{40}
+$$
+
+### Notation
+
+- $\mu$, the advance ratio
+- $V$, the flight speed
+- $\Omega R$, the rotor tip speed
+- $\Omega$, the rotor speed, with $\Omega_0$ its full value
+- $R$, the rotor radius
+- $A_{\text{rev}}$, the area of the reverse flow region
+- $A$, the rotor disc area
+- $V_{\text{ret}}$, the velocity of the retreating tip
+- $M_{\text{adv}}$, the advancing tip Mach number
+- $a$, the speed of sound, and in Helmbold's relation the lift-curve slope per radian
+- $T$, the rotor thrust
+- $C_T$, the rotor thrust coefficient
+- $\rho$, the air density, taken at sea level
+- $L_0$, the rotor lift at full rotor speed, with $L$ the lift at reduced speed
+- $U$, the local velocity at a blade element
+- $C_l$, the section lift coefficient
+- $\psi$, the blade azimuth
+- $W$, the weight
+- $q$, the dynamic pressure
+- $S$, the lifting surface area
+- $C_L$, the lift coefficient
+- $b_{\text{canard}}$, the canard span, with $b_{\text{tail}}$ the horizontal tail span
+- $v_i$, the hover induced velocity
+- $q_{\text{slip}}$, the dynamic pressure of the fully developed slipstream
+- $C_D$, the drag coefficient of a surface broadside to the slipstream
+- $P_i$, the ideal induced power
+- $\mathrm{FM}$, the figure of merit, the ratio of ideal to required hover power
+- $\chi$, the wake skew angle from the vertical
+- $x_w$, the longitudinal position of the forward boundary of the wake
+- $h$, the vertical drop of a surface below the rotor plane
+- $x_s$, the longitudinal station of a surface, with $x_{\text{canard}}$ and $x_{\text{tail}}$ those of the canard and tail
+- $V_{\text{clear}}$, the flight speed at which a surface clears the wake
+- $l_{\text{tail}}$, the moment arm of the tail download, with $l_{\text{canard}}$ that of the canard
+- $\Delta x_{cg}$, the equivalent shift of the centre of gravity
+- $S_c$, the canard area, with $l_c$ its moment arm
+- $T_{\text{tip}}$, the thrust of one tip nozzle
+- $\dot{m}$, the mass flow through one tip nozzle
+- $V_j$, the jet exhaust velocity
+- $N$, the number of blades
+- $\eta$, the Froude propulsive efficiency
+- $A\!R$, the aspect ratio
+- $c$, the blade chord
 
 ## References
 

@@ -25,7 +25,10 @@ This is the forty-sixth article in the [X-Planes series][related_post_a297_frami
 
 That question needs stating carefully, because it is easy to state it in a way that is either trivially true or unfalsifiable. **A remotely piloted aircraft has a ratio of one by construction**, since an operator who never looks away has a neglect time of zero and
 
-$$NT = 0 \qquad \Longrightarrow \qquad FO = \frac{0 + IT}{IT} = 1$$
+$$
+NT = 0 \qquad \Longrightarrow \qquad FO = \frac{0 + IT}{IT} = 1
+\tag{1}
+$$
 
 The pilot has moved from the cockpit to a container and is committed to that airframe for the whole sortie, and what has been bought is that no crew is aboard to be lost. **Those are real and they are not the argument that was being made.** The argument being made was that unmanned aircraft would be cheaper to operate in numbers, and that argument is arithmetic about people.
 
@@ -59,23 +62,35 @@ The pilot has moved from the cockpit to a container and is committed to that air
 
 Let $NT$ be the neglect time, meaning how long a vehicle can be left alone before it needs attention, and $IT$ the interaction time, meaning how long the operator must spend on it once it does. **An operator cycling around a set of identical vehicles can serve them all if and only if the time spent away from any one of them covers the others.** Serving $N$ vehicles takes $N$ interaction times, and each vehicle can wait for at most its neglect time plus the interaction it then receives, so
 
-$$N \, IT \le NT + IT$$
+$$
+N \, IT \le NT + IT
+\tag{2}
+$$
 
 and the largest $N$ satisfying it is the fan-out,
 
-$$FO = \frac{NT + IT}{IT}$$
+$$
+FO = \frac{NT + IT}{IT}
+\tag{3}
+$$
 
 **Neglect tolerance is measured rather than assumed in that literature**, by putting an operator in a multitasking environment and observing how long each machine survives unattended \[[Crandall et al. 2005][research_crandall_goodrich_2005]\], and the measurement framework the field settled on is itself a published object \[[Steinfeld et al. 2006][research_steinfeld_fong_2006]\].
 
 **The operator's committed time follows immediately and is the quantity an air force buys.**
 
-$$\frac{\text{operator hours}}{\text{vehicle hour}} = \frac{1}{FO} \qquad u = \frac{IT}{NT + IT} = \frac{1}{FO}$$
+$$
+\frac{\text{operator hours}}{\text{vehicle hour}} = \frac{1}{FO} \qquad u = \frac{IT}{NT + IT} = \frac{1}{FO}
+\tag{4}
+$$
 
 **The operator's utilisation and the reciprocal of the fan-out are the same number.** A fully occupied operator is therefore a fan-out of one by definition, and no amount of interface work changes that.
 
 **The cost argument the programme was making follows from it in one line.** With $C_{a}$ the cost of putting an airframe over the target and $C_{c}$ the crew cost of a manned sortie,
 
-$$C = C_{a} + \frac{C_{c}}{FO}$$
+$$
+C = C_{a} + \frac{C_{c}}{FO}
+\tag{5}
+$$
 
 **Only the second term responds to autonomy.** An unmanned aeroplane at a fan-out of one has removed the risk to the crew and none of the crew cost. That arithmetic underlies the opening claim that the ratio is the whole argument.
 
@@ -85,7 +100,10 @@ $$C = C_{a} + \frac{C_{c}}{FO}$$
 
 **One operator and two vehicles bounds the ratio from below, and the relation then bounds the autonomy from below.** An operator who directed two vehicles has shown a fan-out of at least two, so
 
-$$FO = \frac{NT + IT}{IT} \ge 2 \qquad \Longrightarrow \qquad NT \ge IT$$
+$$
+FO = \frac{NT + IT}{IT} \ge 2 \qquad \Longrightarrow \qquad NT \ge IT
+\tag{6}
+$$
 
 **The X-45A could be neglected for at least as long as it took to attend to it.** That is the least autonomy the vehicle can have had, expressed as a ratio, and none of the sources used publishes the ratio in any form. **With a switch cost the same demonstration yields a stronger bound**, since $(NT + IT)/(IT + SC) \ge 2$ gives $NT \ge IT + 2\,SC$, so any time the operator lost in moving between the two vehicles was covered by neglect time as well. **What the demonstration does not bound is the ratio from above.** No source reports one operator attempting three X-45As, so the flights cannot say whether a third could have been supervised, and they give neither time in seconds.
 
@@ -97,7 +115,10 @@ $$FO = \frac{NT + IT}{IT} \ge 2 \qquad \Longrightarrow \qquad NT \ge IT$$
 
 **The relation is unforgiving about what a better ratio costs.** Rearranging,
 
-$$\frac{NT}{IT} = FO - 1$$
+$$
+\frac{NT}{IT} = FO - 1
+\tag{7}
+$$
 
 | fan-out | required $NT/IT$ | improvement over the X-45A, at most |
 |---|---|---|
@@ -115,7 +136,10 @@ $$\frac{NT}{IT} = FO - 1$$
 
 **An operator moving between vehicles pays for the move.** Later work presents a feasibility test for a team that applies when the cost of switching attention between robots or tasks can become prohibitive, and establishes that switch costs can be high and that different tasks impose different ones \[[Goodrich et al. 2005, Task switching and multi-robot teams][ref_task_switching]\]. The form used here adds a switch cost $SC$ to the denominator, since the time spent re-establishing context is time not spent on any vehicle,
 
-$$FO = \frac{NT + IT}{IT + SC}$$
+$$
+FO = \frac{NT + IT}{IT + SC}
+\tag{8}
+$$
 
 | switch cost | fan-out at $NT = 3\,IT$ |
 |---|---|
@@ -147,17 +171,26 @@ $$FO = \frac{NT + IT}{IT + SC}$$
 
 **The two aircraft carry the same payload fraction, and the rest of the table follows from that fact.**
 
-$$\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{680}{5{,}530} = 0.12297 \qquad \frac{2{,}040}{16{,}600} = 0.12289$$
+$$
+\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{680}{5{,}530} = 0.12297 \qquad \frac{2{,}040}{16{,}600} = 0.12289
+\tag{9}
+$$
 
 **They agree to four significant figures, and their ratio is 0.99940.** Nothing in the sources suggests it was intended, and the arithmetic confirms it happened.
 
 **The mass then scales as very nearly the cube of the span, which looks like geometric similarity and is not.**
 
-$$m \propto b^{\,n} \qquad n = \frac{\ln \left( m_{2} / m_{1} \right)}{\ln \left( b_{2} / b_{1} \right)} = \frac{\ln \left( 16{,}600 / 5{,}530 \right)}{\ln \left( 14.9 / 10.3 \right)} = 2.977$$
+$$
+m \propto b^{\,n} \qquad n = \frac{\ln \left( m_{2} / m_{1} \right)}{\ln \left( b_{2} / b_{1} \right)} = \frac{\ln \left( 16{,}600 / 5{,}530 \right)}{\ln \left( 14.9 / 10.3 \right)} = 2.977
+\tag{10}
+$$
 
 **The same exponent computed from the payloads instead of the masses gives 2.976.** The two agree, and the agreement explains the scaling.
 
-$$\frac{\ln \left( 2{,}040 / 680 \right)}{\ln \left( 14.9 / 10.3 \right)} = 2.976 \qquad \frac{m_{\text{payload},2}}{m_{\text{payload},1}} = 3.0000$$
+$$
+\frac{\ln \left( 2{,}040 / 680 \right)}{\ln \left( 14.9 / 10.3 \right)} = 2.976 \qquad \frac{m_{\text{payload},2}}{m_{\text{payload},1}} = 3.0000
+\tag{11}
+$$
 
 **The payload was tripled exactly, the payload fraction was held, and the gross mass therefore tripled too.** The span then followed from the mass rather than the mass from the span.
 
@@ -165,7 +198,10 @@ $$\frac{\ln \left( 2{,}040 / 680 \right)}{\ln \left( 14.9 / 10.3 \right)} = 2.97
 
 **What is not similar at all is the performance.**
 
-$$\frac{T}{W} = \frac{T_{\text{SL}}}{m \, g} \qquad \left. \frac{T}{W} \right|_{\text{X-45A}} = \frac{28{,}000}{5{,}530 \times 9.80665} = 0.516 \qquad \left. \frac{T}{W} \right|_{\text{X-45C}} = 0.190$$
+$$
+\frac{T}{W} = \frac{T_{\text{SL}}}{m \, g} \qquad \left. \frac{T}{W} \right|_{\text{X-45A}} = \frac{28{,}000}{5{,}530 \times 9.80665} = 0.516 \qquad \left. \frac{T}{W} \right|_{\text{X-45C}} = 0.190
+\tag{12}
+$$
 
 **A factor of 2.71.** The X-45C is three times the mass on ten percent more thrust, because it is an operational aeroplane carrying three times the payload two and a half times as far, and the demonstrator was a lightly loaded airframe on a proportionally large engine. **Geometrically similar in mass and nothing like each other in the air.**
 
@@ -175,11 +211,17 @@ $$\frac{T}{W} = \frac{T_{\text{SL}}}{m \, g} \qquad \left. \frac{T}{W} \right|_{
 
 **The test available is whether the low figure can hold the vehicle's stated ceiling.** At the ceiling the thrust available equals the drag, so
 
-$$T_{\text{avail}}(h, M) = \frac{W}{L/D} \qquad \Longrightarrow \qquad \frac{L}{D} = \frac{W}{T_{\text{avail}}}$$
+$$
+T_{\text{avail}}(h, M) = \frac{W}{L/D} \qquad \Longrightarrow \qquad \frac{L}{D} = \frac{W}{T_{\text{avail}}}
+\tag{13}
+$$
 
 with the installed thrust following the corrected mass flow of a fixed engine, the standard corrected-parameter machinery of engine performance \[[Mattingly, Aircraft engine design][book_mattingly_engine_design]\] \[[Cumpsty, Jet propulsion][book_cumpsty]\],
 
-$$T_{\text{avail}} = T_{\text{SL}} \, \frac{p}{p_{\text{SL}}} \, \frac{\left( 1 + 0.2 M^{2} \right)^{3.5}}{\sqrt{\left( T / T_{\text{SL}} \right) \left( 1 + 0.2 M^{2} \right)}}$$
+$$
+T_{\text{avail}} = T_{\text{SL}} \, \frac{p}{p_{\text{SL}}} \, \frac{\left( 1 + 0.2 M^{2} \right)^{3.5}}{\sqrt{\left( T / T_{\text{SL}} \right) \left( 1 + 0.2 M^{2} \right)}}
+\tag{14}
+$$
 
 At 40,000 feet and Mach 0.85 the weight is 162.8 kilonewtons and the three candidate ratings give
 
@@ -217,19 +259,31 @@ At 40,000 feet and Mach 0.85 the weight is 162.8 kilonewtons and the three candi
 
 **The thrust an approach requires is the one relation in this comparison that does not involve the wing at all.** On a glide slope $\gamma$ at a lift to drag ratio $L/D$,
 
-$$\frac{T}{W} = \frac{1}{L/D} - \sin \gamma \qquad \Pi = \frac{W}{T_{\text{SL}}} \left( \frac{1}{L/D} - \sin \gamma \right)$$
+$$
+\frac{T}{W} = \frac{1}{L/D} - \sin \gamma \qquad \Pi = \frac{W}{T_{\text{SL}}} \left( \frac{1}{L/D} - \sin \gamma \right)
+\tag{15}
+$$
 
 which for the X-45A at a landing lift to drag ratio of nine on three degrees gives $\Pi = 0.114$. **The approach speed and the sideslip a crosswind produces do involve the wing**, through
 
-$$V_{\text{app}} = 1.3 \sqrt{\frac{2 m g}{\rho \, S \, C_{L,\max}}} \qquad S = \frac{b^{2}}{A\!R} \qquad \beta = \arctan \frac{V_{c}}{V_{\text{app}}}$$
+$$
+V_{\text{app}} = 1.3 \sqrt{\frac{2 m g}{\rho \, S \, C_{L,\max}}} \qquad S = \frac{b^{2}}{A\!R} \qquad \beta = \arctan \frac{V_{c}}{V_{\text{app}}}
+\tag{16}
+$$
 
 and the demand the vectoring must meet is the product of the dynamic pressure and that angle,
 
-$$D \equiv q \, \beta = \tfrac{1}{2} \rho V_{\text{app}}^{2} \arctan \frac{V_{c}}{V_{\text{app}}}$$
+$$
+D \equiv q \, \beta = \tfrac{1}{2} \rho V_{\text{app}}^{2} \arctan \frac{V_{c}}{V_{\text{app}}}
+\tag{17}
+$$
 
 **The comparison is then a ratio of ratios, in which the airframe constants of the previous article's case appear in both halves and cancel.**
 
-$$\text{margin} = \frac{\Pi / \Pi_{\text{F-22}}}{D / D_{\text{F-22}}}$$
+$$
+\text{margin} = \frac{\Pi / \Pi_{\text{F-22}}}{D / D_{\text{F-22}}}
+\tag{18}
+$$
 
 | | X-45A | F-22, from the previous article |
 |---|---|---|
@@ -268,7 +322,10 @@ $$\text{margin} = \frac{\Pi / \Pi_{\text{F-22}}}{D / D_{\text{F-22}}}$$
 
 **The coupling is not qualitative, and writing it down fixes what a latency figure would be worth.** A round trip of $\tau$ each way is added to every interaction, so
 
-$$IT = IT_{0} + 2\tau \qquad \Longrightarrow \qquad FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau + SC}$$
+$$
+IT = IT_{0} + 2\tau \qquad \Longrightarrow \qquad FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau + SC}
+\tag{19}
+$$
 
 **Latency appears in the numerator and the denominator and does not cancel**, because it lengthens the interaction without lengthening the neglect.
 
@@ -294,7 +351,10 @@ $$IT = IT_{0} + 2\tau \qquad \Longrightarrow \qquad FO = \frac{NT + IT_{0} + 2\t
 
 **Sixty-four flights over thirty-eight months** \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\].
 
-$$\dot{n} = \frac{64}{38} = 1.68 \ \text{flights per month}$$
+$$
+\dot{n} = \frac{64}{38} = 1.68 \ \text{flights per month}
+\tag{20}
+$$
 
 **That rate reflects what was under test.** The record runs in software blocks \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], and a T-33 carried the vehicle's management system computers in flight before the X-45A first flew, and the arrangement allowed each mission to be rehearsed on it to validate the mission plan and train the team \[[X-45 Unmanned Combat Air Vehicle, NASA][ref_x45_nasa]\], serving for software checkout and mission planning verification \[[Cosentino 2008b][research_cosentinogaryb_2008]\]. **A programme that flew more often would have been testing something else.**
 
@@ -674,6 +734,211 @@ The record, as the directory \[[Parsch, Boeing X-45 and X-46, Directory of U.S. 
 **Two further findings concern figures that look wrong and are not.** The X-45C's quoted thrust looks far too low for its engine family, and tested against the vehicle's stated ceiling it turns out to be admissible and to pin the aeroplane's lift to drag ratio at 16.3 or better, which no source used here publishes. **The two figures corroborate rather than conflict, a weaker result than an error and a truer one.** And the X-45A flew sixty-four times in a tailless configuration yawed in part by thrust vectoring, close to the one the [previous article][related_post_a341_x44_two_aircraft] derived could not meet an operational crosswind requirement. **It is not a counterexample.** Its approach carries 11.4 percent of maximum thrust against the 7.2 percent of the case that article computed, leaving it better off by between 1.28 and 1.98 times across every plausible wing, and the rest is the caveat that article already stated, since a demonstrator at a test range may wait for the wind and an operational aeroplane may not.
 
 **What the programme changed is what a demonstrator is now expected to demonstrate.** The X-45A's milestones are software blocks, its flight rate of 1.68 a month is consistent with testing done largely on the ground and on a surrogate, and its airframe was a fixture for its flight control laws. **The configuration propagated to the aircraft that followed and the programme itself was cancelled before its successor vehicle flew.** The aeroplane that answered the question is in a museum, and the question it answered is still the one being asked.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 20 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 20, 14 are established and 6 are bespoke.
+Times in the fan-out relations are in any one consistent unit, so the fan-out, the utilisation and the ratio of neglect time to interaction time are pure numbers, while the masses are in kilograms and the published thrusts are converted from pounds force to newtons before they enter a thrust to weight ratio.
+
+**Equation 1, Fan-Out of a Remotely Piloted Aircraft.**
+With a neglect time of zero the fan-out relation gives a ratio of exactly one vehicle per operator.
+[Olsen and Wood 2004, Fan-out, measuring human control of multiple robots][ref_fanout_acm]
+
+$$
+NT = 0 \qquad \Longrightarrow \qquad FO = \frac{0 + IT}{IT} = 1
+\tag{1}
+$$
+
+**Equation 2, Service Condition for One Operator and Many Vehicles.**
+An operator cycling among identical vehicles can serve $N$ of them only if $N$ interaction times fit within the neglect time plus one interaction time.
+[Olsen and Wood 2004, Fan-out, measuring human control of multiple robots][ref_fanout_acm]
+
+$$
+N \, IT \le NT + IT
+\tag{2}
+$$
+
+**Equation 3, Fan-Out Relation.**
+The fan-out is the neglect time plus the interaction time divided by the interaction time, the largest number of vehicles that satisfies the service condition.
+[Olsen and Wood 2004, Fan-out, measuring human control of multiple robots][ref_fanout_acm]
+
+$$
+FO = \frac{NT + IT}{IT}
+\tag{3}
+$$
+
+**Equation 4, Operator Utilisation as the Reciprocal of Fan-Out.**
+The operator hours committed per vehicle hour equal the fraction of each cycle spent in interaction, which is the reciprocal of the fan-out.
+
+$$
+\frac{\text{operator hours}}{\text{vehicle hour}} = \frac{1}{FO} \qquad u = \frac{IT}{NT + IT} = \frac{1}{FO}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Cost of a Sortie as a Function of Fan-Out.*
+The article models the cost of a sortie as an airframe cost plus a crew cost divided by the fan-out, so that only the second term responds to autonomy.
+
+$$
+C = C_{a} + \frac{C_{c}}{FO}
+\tag{5}
+$$
+
+**Equation 6, Lower Bound on Neglect Time from the Two-Vehicle Demonstration.**
+The demonstrated control of two vehicles by one operator bounds the fan-out at two or more, which by the fan-out relation requires a neglect time at least equal to the interaction time.
+
+$$
+FO = \frac{NT + IT}{IT} \ge 2 \qquad \Longrightarrow \qquad NT \ge IT
+\tag{6}
+$$
+
+**Equation 7, Required Ratio of Neglect Time to Interaction Time.**
+Rearranging the fan-out relation gives the ratio of neglect time to interaction time as the fan-out less one.
+
+$$
+\frac{NT}{IT} = FO - 1
+\tag{7}
+$$
+
+*Equation 8, Bespoke Fan-Out with a Switch Cost.*
+The article adds a switch cost to the denominator of the fan-out relation on the assumption that time spent re-establishing context is time spent on no vehicle.
+[Goodrich et al. 2005, Task switching and multi-robot teams][ref_task_switching]
+
+$$
+FO = \frac{NT + IT}{IT + SC}
+\tag{8}
+$$
+
+**Equation 9, Payload Fractions of the X-45A and X-45C.**
+The published internal payloads divided by the published gross masses give payload fractions that agree to four significant figures.
+[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
+
+$$
+\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{680}{5{,}530} = 0.12297 \qquad \frac{2{,}040}{16{,}600} = 0.12289
+\tag{9}
+$$
+
+**Equation 10, Exponent of Mass on Span.**
+The exponent of a power law through the two published masses and spans is the ratio of the logarithms of their ratios, 2.977.
+
+$$
+m \propto b^{\,n} \qquad n = \frac{\ln \left( m_{2} / m_{1} \right)}{\ln \left( b_{2} / b_{1} \right)} = \frac{\ln \left( 16{,}600 / 5{,}530 \right)}{\ln \left( 14.9 / 10.3 \right)} = 2.977
+\tag{10}
+$$
+
+**Equation 11, Exponent of Payload on Span and the Payload Ratio.**
+The same exponent computed from the published payloads is 2.976, and the payload ratio is exactly three.
+[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
+
+$$
+\frac{\ln \left( 2{,}040 / 680 \right)}{\ln \left( 14.9 / 10.3 \right)} = 2.976 \qquad \frac{m_{\text{payload},2}}{m_{\text{payload},1}} = 3.0000
+\tag{11}
+$$
+
+**Equation 12, Thrust to Weight Ratios of the X-45A and X-45C.**
+The published sea-level thrusts divided by the weights of the published gross masses give 0.516 for the X-45A and 0.190 for the X-45C.
+[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
+
+$$
+\frac{T}{W} = \frac{T_{\text{SL}}}{m \, g} \qquad \left. \frac{T}{W} \right|_{\text{X-45A}} = \frac{28{,}000}{5{,}530 \times 9.80665} = 0.516 \qquad \left. \frac{T}{W} \right|_{\text{X-45C}} = 0.190
+\tag{12}
+$$
+
+**Equation 13, Thrust Equals Drag at the Ceiling.**
+At the ceiling the available thrust balances the drag, so the lift to drag ratio the aircraft must reach is the weight over the available thrust.
+
+$$
+T_{\text{avail}}(h, M) = \frac{W}{L/D} \qquad \Longrightarrow \qquad \frac{L}{D} = \frac{W}{T_{\text{avail}}}
+\tag{13}
+$$
+
+**Equation 14, Thrust Lapse of a Fixed Engine.**
+The available thrust scales the sea-level rating by the ratio of total pressure to its sea-level value and the inverse square root of the ratio of total temperature, the corrected mass flow scaling of a fixed engine.
+[Mattingly, Aircraft engine design][book_mattingly_engine_design]
+[Cumpsty, Jet propulsion][book_cumpsty]
+
+$$
+T_{\text{avail}} = T_{\text{SL}} \, \frac{p}{p_{\text{SL}}} \, \frac{\left( 1 + 0.2 M^{2} \right)^{3.5}}{\sqrt{\left( T / T_{\text{SL}} \right) \left( 1 + 0.2 M^{2} \right)}}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Approach Thrust Fraction.*
+The steady glide relation gives the thrust to weight ratio an approach requires, and the article defines the approach thrust fraction as that requirement taken against the sea-level rating.
+
+$$
+\frac{T}{W} = \frac{1}{L/D} - \sin \gamma \qquad \Pi = \frac{W}{T_{\text{SL}}} \left( \frac{1}{L/D} - \sin \gamma \right)
+\tag{15}
+$$
+
+**Equation 16, Approach Speed, Wing Area and Crosswind Sideslip.**
+The approach speed is 1.3 times the stall speed, the wing area follows from span and aspect ratio, and the sideslip is the angle whose tangent is the crosswind over the approach speed.
+
+$$
+V_{\text{app}} = 1.3 \sqrt{\frac{2 m g}{\rho \, S \, C_{L,\max}}} \qquad S = \frac{b^{2}}{A\!R} \qquad \beta = \arctan \frac{V_{c}}{V_{\text{app}}}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Crosswind Demand Index.*
+The article takes the yaw demand that thrust vectoring must meet as the product of the dynamic pressure and the crosswind sideslip, which assumes the airframe derivatives are common to the two aircraft compared.
+
+$$
+D \equiv q \, \beta = \tfrac{1}{2} \rho V_{\text{app}}^{2} \arctan \frac{V_{c}}{V_{\text{app}}}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Net Crosswind Margin Relative to the F-22.*
+The margin is a ratio of ratios the article defines, the approach thrust fraction relative to the F-22 divided by the demand index relative to the F-22, in which the airframe constants are assumed to cancel.
+
+$$
+\text{margin} = \frac{\Pi / \Pi_{\text{F-22}}}{D / D_{\text{F-22}}}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Fan-Out with Link Latency.*
+The article adds a delay of twice the one-way latency to every interaction, so that latency lengthens the interaction without lengthening the neglect.
+
+$$
+IT = IT_{0} + 2\tau \qquad \Longrightarrow \qquad FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau + SC}
+\tag{19}
+$$
+
+**Equation 20, Flight Rate of the X-45A Programme.**
+Sixty-four flights over thirty-eight months give a mean rate of 1.68 flights per month.
+[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
+
+$$
+\dot{n} = \frac{64}{38} = 1.68 \ \text{flights per month}
+\tag{20}
+$$
+
+### Notation
+
+- $FO$, the fan-out, the number of vehicles one operator can supervise
+- $NT$, the neglect time, how long a vehicle can be left alone before it needs attention
+- $IT$, the interaction time, how long the operator must spend on a vehicle once it needs attention, with $IT_{0}$ its value without link delay
+- $SC$, the switch cost, the time spent re-establishing context when moving between vehicles
+- $N$, the number of vehicles served by one operator
+- $u$, the operator utilisation
+- $C_{a}$, the cost of putting an airframe over the target
+- $C_{c}$, the crew cost of a manned sortie
+- $b^{\,n}$, the span raised to the scaling exponent $n$
+- $T_{\text{SL}}$, the sea-level static thrust rating
+- $T_{\text{avail}}$, the thrust available at altitude and Mach number
+- $L/D$, the lift to drag ratio
+- $\gamma$, the glide slope angle
+- $\Pi$, the approach thrust fraction, the required approach thrust as a fraction of the sea-level rating
+- $V_{\text{app}}$, the approach speed
+- $C_{L,\max}$, the maximum lift coefficient
+- $A\!R$, the wing aspect ratio
+- $V_{c}$, the crosswind speed
+- $\beta$, the sideslip angle a crosswind produces
+- $\rho$, the air density
+- $\tau$, the one-way link latency
 
 ## References
 

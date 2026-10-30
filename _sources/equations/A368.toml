@@ -1,0 +1,507 @@
+# Equation classification for A368. Read by `python3 _lib/equations.py`.
+
+caution = "Every quantity here is a count, a share, a probability, a number of bits or an interval in days, the entry year of an early number is a proxy dated two ways that the article calls P1 and P2, and several classifications, among them the keystone class and the comparison verdict, are one reader's readings of each article rather than measurements."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Assignment Relation Between Numbers and Programmes"
+gloss = "Following the first article, the synthesis writes the designation system as a relation between the design numbers 1 to 76 and the set of programmes, with no assumption that it is a function."
+cite = ["related_post_a297_framing"]
+digest = "4d7a53760683bbaa"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Condition for the Relation to Be a Function"
+gloss = "The relation is a function on its domain only if no design number is applied to two different programmes."
+cite = []
+digest = "12a10d194ffcb515"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Condition for the Relation to Be Injective"
+gloss = "The relation is injective only if no programme holds two different design numbers."
+cite = []
+digest = "1913ded251c93ad5"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Share of Numbers Assigned to a Programme"
+gloss = "Counting the X-23 as assigned because a vehicle flew under it, although no allocation request for it is recorded, 65 of the 76 design numbers went to a programme, a share of 0.855."
+cite = ["ref_missing_mds"]
+digest = "90bd77e25e67c53e"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Decomposition of the Unassigned Numbers"
+gloss = "The series divides the eleven unassigned numbers into one reserved, one refused, two taken into the drone pool and seven passed over in the block."
+cite = ["related_post_a336_x39_reserved_never_assigned", "related_post_a349_x52_designation_refused", "related_post_a366_x69_through_x75_leapfrogged_block"]
+digest = "d33f3c25c9e8cbdd"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Share With the X-23 Counted as Unassigned"
+gloss = "Counting the X-23 as unassigned instead, because no allocation request for it is recorded, lowers the share to 64 of 76."
+cite = ["related_post_a320_martin_marietta_x23"]
+digest = "64976f9a08584aad"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Monotonicity of Allocation"
+gloss = "The assignment is monotone if a higher design number is never allocated before a lower one."
+cite = []
+digest = "5842b53b1b17ac00"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Kendall Rank Correlation"
+gloss = "Kendall's rank correlation is the count of concordant pairs less the count of discordant pairs, divided by the number of pairs."
+cite = ["ref_kendall_1938"]
+digest = "23597a0e2eb25e27"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Rank Correlation of Number and Allocation Date"
+gloss = "Over the 23 research numbers whose first allocation the register records, 250 of the 253 pairs are concordant and one is discordant, which gives a rank correlation of 0.984."
+cite = ["ref_kendall_1938", "ref_mds_addendum"]
+digest = "cc9f988b9acb7981"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Accounting Identity for the Pairs"
+gloss = "Every pair is concordant, discordant or tied on date, so the three counts sum to the 253 pairs."
+cite = []
+digest = "182637a17664c8e3"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Advance Over the High-Water Mark"
+gloss = "The article defines the advance of an allocation as its design number less the highest number allocated before it, so a counter would give an advance of one every time."
+cite = ["related_post_a364_x67_slot_taken_by_xq67"]
+digest = "1afc6e6de8c3ceb6"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Share of Advances Equal to One"
+gloss = "Sixteen of the register's 22 research advances equal one, a share of 0.727, the figure the X-67 article measured."
+cite = ["related_post_a364_x67_slot_taken_by_xq67"]
+digest = "678d3a8b3cecd8e9"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Telescoping of the Positive Advances"
+gloss = "Because the high-water mark moves only on a positive advance, the positive parts of the advances sum to the span of the walk from 44 to 76."
+cite = []
+digest = "c63958aa87a96751"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Count of Permanently Skipped Numbers"
+gloss = "The numbers passed over by advances greater than one, less the one later backfilled, give ten permanently skipped numbers, which agrees with a direct count of the gaps between 44 and 76."
+cite = ["ref_mds_addendum"]
+digest = "41fdcaec996f26af"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Index of Dispersion"
+gloss = "The index of dispersion is the sample variance of the counts per decade divided by their mean, which is one in expectation for a Poisson process."
+cite = ["ref_fisher_1950", "ref_cochran_1954"]
+digest = "cae020589642c54c"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Dispersion Test Statistic"
+gloss = "Under the null hypothesis of a constant rate, the number of decades less one times the index of dispersion follows a chi-square distribution with that many degrees of freedom."
+cite = ["ref_fisher_1950", "ref_cochran_1954"]
+digest = "224cad2418e06b12"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Dispersion of Entries Under the P2 Dating"
+gloss = "Under the P2 dating, which prefers the register's allocation date and then the article's designation date, the decade counts give an index of 3.60 and a statistic of 28.8 on eight degrees of freedom."
+cite = []
+digest = "b5b90c5cb1f84558"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Dispersion of Entries Under the P1 Dating"
+gloss = "Under the P1 dating, which takes the earliest recorded event, the decade counts give an index of 2.90 and a statistic of 23.2."
+cite = []
+digest = "62a669f17f7e3e75"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Chi-Square Tail for Eight Degrees of Freedom"
+gloss = "For an even number of degrees of freedom the chi-square upper tail has a closed form as an exponential times a finite Poisson sum."
+cite = []
+digest = "728d89d455f82a21"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Shannon Entropy of the Sponsor Mentions"
+gloss = "The diversity of sponsorship in a decade is the Shannon entropy of the shares of its sponsor mentions across the sponsor classes."
+cite = ["ref_shannon_1948"]
+digest = "bf02662e5d0675ee"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Sponsor Entropy of the 1950s"
+gloss = "The 1950s' 26 sponsor mentions, 16 Air Force, 6 for the National Advisory Committee for Aeronautics and 4 Navy, have an entropy of 1.33 bits."
+cite = []
+digest = "f73b8786aee1eda2"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Pielou Evenness"
+gloss = "The evenness is the entropy divided by its maximum for the number of classes present, which separates balance from the number of classes."
+cite = ["ref_pielou_1966"]
+digest = "12d6426dad72776f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Wilson Score Interval"
+gloss = "The Wilson interval for an observed proportion, which behaves well at small samples and near zero or one, is centred on an adjusted proportion with a half-width from the normal quantile."
+cite = ["ref_wilson_1927"]
+digest = "33e79a4117642487"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Hypergeometric Probability of a Two-by-Two Table"
+gloss = "With the margins fixed, the probability of exactly $a$ crewed vehicles in the early group is hypergeometric."
+cite = ["ref_fisher_1935"]
+digest = "31517daacf8d01c5"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Two-Sided Fisher Exact Probability"
+gloss = "Summing the probabilities of every table no more probable than the observed one gives Fisher's two-sided probability, 0.00138 for the crewed shares."
+cite = ["ref_fisher_1935"]
+digest = "19b24b927228ba98"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Difference in Crewed Shares"
+gloss = "The crewed share fell from 0.714 before 1990 to 0.267 from 1990, a difference of 0.448."
+cite = []
+digest = "68c116aa2d8e2a8a"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Odds Ratio of a Crewed Vehicle"
+gloss = "The odds of a crewed vehicle before 1990 divided by the odds after is 6.88."
+cite = []
+digest = "856384dcdd760557"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Woolf Interval for the Odds Ratio"
+gloss = "Woolf's method on the logarithmic scale gives a 95 percent interval of 2.17 to 21.8 for the odds ratio, which excludes one."
+cite = ["ref_woolf_1955"]
+digest = "d91f98b61a103576"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Odds Ratio Among Aircraft Alone"
+gloss = "Among aircraft alone, 18 of 19 before 1990 and 8 of 22 from 1990 carried a pilot, an odds ratio of 31.5."
+cite = []
+digest = "059dcf17540f8198"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Share of Numbers Classified as Measurement"
+gloss = "Under the article's one-reader classification of each keystone, 25 of the 65 vehicle numbers are classified as measurement, a share of 0.385."
+cite = []
+digest = "ba1f25407cddf137"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Sample Size to Detect a Difference in Proportions"
+gloss = "The normal approximation for two independent proportions gives the sample per period needed for a two-sided test at the 5 percent level to detect a difference four times in five."
+cite = ["ref_fleiss_1980"]
+digest = "26a17b65879cc4e4"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Measurement Shares Entering the Sample Size"
+gloss = "The measurement shares of 0.483 before 1990 and 0.314 from 1990, both from the article's one-reader classification, and their mean of 0.399 give a required sample of 131 per period."
+cite = []
+digest = "6e64bcf2c8720123"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Share of Vehicles Whose Programmes Ended Unflown"
+gloss = "Fifteen of the 65 vehicle numbers belong to programmes that ended without a flight, a share of 0.231, once the three programmes still running are set aside."
+cite = []
+digest = "180c2d6eadc7fc6a"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Interval From First Flight to Designation"
+gloss = "The interval is the designation date less the first flight date, so a positive value means the aeroplane flew first."
+cite = []
+digest = "9532f8489c885bc3"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Share of Vehicles Designated After First Flight"
+gloss = "Six of the 22 flown vehicles whose articles date both events were designated after their first flight, a share of 0.273."
+cite = []
+digest = "0c06a992589ca2ba"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Intervals the Record Dates to the Day"
+gloss = "The X-28, X-55 and X-62 were designated 349, 139 and 10,658 days after first flight."
+cite = ["related_post_a359_lockheed_martin_x62_vista"]
+digest = "7cd04049261f4e36"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Share of Mixed Verdicts"
+gloss = "Under the article's reading of each comparison of ground prediction with flight, 23 of the 29 comparisons that reached flight data are mixed, a share of 0.793."
+cite = []
+digest = "4f6f1ebec0abe1db"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Information Gain as Entropy Reduction"
+gloss = "For a quantity with Gaussian uncertainty the information gained is half the base-two logarithm of the ratio of prior to posterior variance."
+cite = ["related_post_a297_framing"]
+digest = "cb6423032d1df13a"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Information Returned in the X-1 Example"
+gloss = "The first article's illustrative variance ratio of 400 returns 4.32 bits on one number."
+cite = ["related_post_a297_framing"]
+digest = "7976e3af3c114d82"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Share of Drone Rows Out of Sequence"
+gloss = "Nine of the register's 69 Q rows carry a design number out of the Q sequence, a share of 0.130."
+cite = ["ref_mds_addendum"]
+digest = "fdd42b4ec3989d5e"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Span of the Founding-Year Class"
+gloss = "The YMV-75A and the X-76A, the first and last of the three founding-year numbers, were allocated 329 days apart."
+cite = ["related_post_a366_x69_through_x75_leapfrogged_block"]
+digest = "4d1e3114e9bec61c"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Officiality Counts of the Research Rows"
+gloss = "The article's four officiality states divide the 31 research rows into 21 official, 7 with the compiler's description, 2 absent from released data and 1 partly marked, so 0.677 carry the government's wording throughout."
+cite = ["ref_mds_addendum"]
+digest = "5cb1270a0515284d"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Bounds on the Register's Publication Lag"
+gloss = "The archived copies bound the interval from allocation to first public appearance at 148 to 165 days for the X-68A and 87 to 104 days for the X-76A."
+cite = ["ref_mds_addendum_wb_2026_01", "ref_mds_addendum_wb_2026_02"]
+digest = "b560f4ce46cdd5b6"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Share of Numbers Given to Something That Flew"
+gloss = "Forty-seven numbers went to a vehicle that flew, 0.618 of all 76 numbers and 0.723 of the 65 that went to a vehicle."
+cite = []
+digest = "7474459ba14946ef"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Bonferroni Correction of the Crewed Result"
+gloss = "Multiplying the crewed result's probability by the seven tests reported gives 0.0097, which remains below 0.01."
+cite = ["ref_dunn_1961"]
+digest = "e8944921dabe507e"
+
+[[symbol]]
+tex = 'D'
+meaning = "the set of design numbers from 1 to 76"
+
+[[symbol]]
+tex = 'P'
+meaning = "the set of programmes"
+
+[[symbol]]
+tex = 'R'
+meaning = "the assignment relation between numbers and programmes"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the share of numbers that went to a programme"
+
+[[symbol]]
+tex = 'U'
+meaning = "the set of unassigned design numbers"
+
+[[symbol]]
+tex = 't(n)'
+meaning = "the allocation date of design number $n$"
+
+[[symbol]]
+tex = '\tau'
+meaning = "Kendall's rank correlation between number and date"
+
+[[symbol]]
+tex = 'C'
+meaning = "the count of concordant pairs"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the count of discordant pairs"
+
+[[symbol]]
+tex = 'T'
+meaning = "the count of pairs tied on date"
+
+[[symbol]]
+tex = 'm'
+meaning = "the count of numbers in an ordering"
+
+[[symbol]]
+tex = 'h\_k'
+meaning = "the highest design number allocated before the $k$th allocation"
+
+[[symbol]]
+tex = 'n\_k'
+meaning = "the design number of the $k$th allocation"
+
+[[symbol]]
+tex = 'a\_k'
+meaning = "the advance of the $k$th allocation over the highest number before it"
+
+[[symbol]]
+tex = 's\_1'
+meaning = "the share of advances equal to one"
+
+[[symbol]]
+tex = 'B'
+meaning = "the count of passed-over numbers later backfilled"
+
+[[symbol]]
+tex = 'K'
+meaning = "the number of advances"
+
+[[symbol]]
+tex = 'x\_j'
+meaning = "the count of numbers entering in decade $j$"
+
+[[symbol]]
+tex = '\bar{x}'
+meaning = "the mean count per decade"
+
+[[symbol]]
+tex = 'S^2'
+meaning = "the sample variance of the counts per decade"
+
+[[symbol]]
+tex = '\mathcal{D}'
+meaning = "the index of dispersion"
+
+[[symbol]]
+tex = 'J'
+meaning = "the number of decades"
+
+[[symbol]]
+tex = '\chi^2'
+meaning = "the dispersion test statistic"
+
+[[symbol]]
+tex = 'p'
+meaning = "a probability under a stated null hypothesis"
+
+[[symbol]]
+tex = 'H'
+meaning = "the Shannon entropy of a sponsor distribution, in bits"
+
+[[symbol]]
+tex = 'q\_i'
+meaning = "the share of sponsor mentions in class $i$"
+
+[[symbol]]
+tex = '\hat{\pi}'
+meaning = "an observed proportion"
+
+[[symbol]]
+tex = 'N'
+meaning = "the size of a sample"
+
+[[symbol]]
+tex = '\bar{\pi}'
+meaning = "the mean of two observed proportions"
+
+[[symbol]]
+tex = 'N^{*}'
+meaning = "the sample per period needed to detect a difference"
+
+[[symbol]]
+tex = 'z'
+meaning = "the standard normal quantile for 95 percent"
+
+[[symbol]]
+tex = '\Delta t'
+meaning = "the interval from first flight to designation, in days"
+
+[[symbol]]
+tex = '\psi'
+meaning = "an odds ratio, with $a$, $b$, $c$ and $d$ the four cells of a two-by-two table"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the interval from allocation to first appearance in the public register, in days"
+
+[[symbol]]
+tex = '\sigma\_0'
+meaning = "the prior standard deviation of a measured quantity, against the posterior one after the programme"
+
+[[symbol]]
+tex = 'I'
+meaning = "the information a programme returns, in bits"

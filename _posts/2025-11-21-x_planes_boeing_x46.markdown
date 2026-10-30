@@ -31,11 +31,17 @@ That needs stating carefully. **A carrier aeroplane is heavy for reasons that ha
 
 Written as a relation, the argument of the article reduces to one inequality. Let $\zeta_{\text{empty}}$ be the empty weight as a fraction of gross, let $\Delta_{\text{deck}}$ be what carrier suitability adds and $\Delta_{\text{crew}}$ what removing the crew saves, both as fractions of the same gross weight. Then
 
-$$\zeta_{\text{empty}} = \zeta_{\text{ref}} + \Delta_{\text{deck}} - \Delta_{\text{crew}}$$
+$$
+\zeta_{\text{empty}} = \zeta_{\text{ref}} + \Delta_{\text{deck}} - \Delta_{\text{crew}}
+\tag{1}
+$$
 
 and the requirement is satisfiable only if
 
-$$\Delta_{\text{crew}} - \Delta_{\text{deck}} \ \ge \ \zeta_{\text{ref}} - \zeta_{\text{req}}$$
+$$
+\Delta_{\text{crew}} - \Delta_{\text{deck}} \ \ge \ \zeta_{\text{ref}} - \zeta_{\text{req}}
+\tag{2}
+$$
 
 **The sections below attempt to put a number on the right-hand side**, since $\zeta_{\text{ref}}$ is what manned carrier aircraft achieve and $\zeta_{\text{req}}$ the requirement's target. **Neither delta is published for any aircraft.** Their difference is bounded below, and neither is estimated on its own.
 
@@ -79,19 +85,31 @@ The requirement, as the open record gives it, is a payload of four thousand poun
 
 **The previous article measured a design constant of this manufacturer's unmanned line.** The X-45A carries 680 kilograms of a gross 5,530 and the X-45C carries 2,040 of 16,600, and the two payload fractions agree to four significant figures across a tripling of payload \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] \[[previous article][related_post_a342_boeing_x45]\],
 
-$$\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{680}{5{,}530} = 0.12297 \qquad \frac{2{,}040}{16{,}600} = 0.12289$$
+$$
+\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{680}{5{,}530} = 0.12297 \qquad \frac{2{,}040}{16{,}600} = 0.12289
+\tag{3}
+$$
 
 **Two aircraft agreeing to four figures is too close to be an accident and indicates a design practice.** A vehicle Boeing never built may reasonably be assumed to share that practice, and no other property, with the two it did. Taking the mean,
 
-$$\overline{PF} = 0.12293$$
+$$
+\overline{PF} = 0.12293
+\tag{4}
+$$
 
 **The requirement then fixes the size before any aerodynamics are considered.** A payload of four thousand pounds at that fraction gives
 
-$$m_{\text{gross}} = \frac{4{,}000}{0.12293} = 32{,}539 \ \text{lb}$$
+$$
+m_{\text{gross}} = \frac{4{,}000}{0.12293} = 32{,}539 \ \text{lb}
+\tag{5}
+$$
 
 or 14,760 kilograms. Against the two aircraft that were built,
 
-$$\frac{32{,}539}{36{,}597} = 0.889 \qquad \frac{32{,}539}{12{,}192} = 2.67$$
+$$
+\frac{32{,}539}{36{,}597} = 0.889 \qquad \frac{32{,}539}{12{,}192} = 2.67
+\tag{6}
+$$
 
 **That is 11.1 percent lighter than the X-45C and 2.67 times the X-45A**, and it places the X-46A firmly in the larger class and out of the demonstrator class.
 
@@ -99,35 +117,59 @@ $$\frac{32{,}539}{36{,}597} = 0.889 \qquad \frac{32{,}539}{12{,}192} = 2.67$$
 
 **The mission is three segments and each has a closed-form weight ratio.** For a cruise leg the Breguet range relation gives the ratio of weights across the leg,
 
-$$R = \frac{V}{c} \left( \frac{L}{D} \right) \ln \frac{W_{0}}{W_{1}} \qquad \Longrightarrow \qquad \frac{W_{1}}{W_{0}} = \exp \left( - \frac{R c}{V (L/D)} \right)$$
+$$
+R = \frac{V}{c} \left( \frac{L}{D} \right) \ln \frac{W_{0}}{W_{1}} \qquad \Longrightarrow \qquad \frac{W_{1}}{W_{0}} = \exp \left( - \frac{R c}{V (L/D)} \right)
+\tag{7}
+$$
 
 and for a loiter leg, where the aircraft is buying time rather than distance, the endurance form applies,
 
-$$E = \frac{1}{c} \left( \frac{L}{D} \right) \ln \frac{W_{0}}{W_{1}} \qquad \Longrightarrow \qquad \frac{W_{1}}{W_{0}} = \exp \left( - \frac{E c}{(L/D)} \right)$$
+$$
+E = \frac{1}{c} \left( \frac{L}{D} \right) \ln \frac{W_{0}}{W_{1}} \qquad \Longrightarrow \qquad \frac{W_{1}}{W_{0}} = \exp \left( - \frac{E c}{(L/D)} \right)
+\tag{8}
+$$
 
 **Both are standard and both are stated here because the remainder of the section is arithmetic on them** \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\] \[[Anderson, Aircraft performance and design][book_anderson_performance]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\].
 
 The assumptions are as follows and each is varied afterwards. Cruise is taken at 40,000 feet and Mach 0.75. **Forty thousand feet is above the tropopause**, so the standard atmosphere holds the temperature constant at its 11 kilometre value and the speed of sound with it \[[U.S. Standard Atmosphere 1976 1976][research_u_s_standard_1976]\] \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\],
 
-$$T = 288.15 - 0.0065 \times 11{,}000 = 216.65 \ \text{K} \qquad a = \sqrt{\gamma R T} = 295.07 \ \text{m/s}$$
+$$
+T = 288.15 - 0.0065 \times 11{,}000 = 216.65 \ \text{K} \qquad a = \sqrt{\gamma R T} = 295.07 \ \text{m/s}
+\tag{9}
+$$
 
-$$V = M a = 0.75 \times 295.07 = 221.30 \ \text{m/s} = 430.2 \ \text{kn}$$
+$$
+V = M a = 0.75 \times 295.07 = 221.30 \ \text{m/s} = 430.2 \ \text{kn}
+\tag{10}
+$$
 
 The cruise lift to drag ratio is taken as 16, just below the lower bound of 16.3 that the previous article pinned for the X-45C from that aircraft's stated ceiling and thrust \[[previous article][related_post_a342_boeing_x45]\]. The loiter value is taken as 18, since loiter is flown nearer the best lift to drag ratio than cruise is. **Specific fuel consumption is taken as 0.80 per hour in cruise and 0.75 in loiter**, values typical of a non-augmented turbofan.
 
 The three segment ratios are then
 
-$$\frac{W_{1}}{W_{0}} \bigg|_{\text{out}} = 0.9272 \qquad \frac{W_{1}}{W_{0}} \bigg|_{\text{loiter}} = 0.6065 \qquad \frac{W_{1}}{W_{0}} \bigg|_{\text{back}} = 0.9272$$
+$$
+\frac{W_{1}}{W_{0}} \bigg|_{\text{out}} = 0.9272 \qquad \frac{W_{1}}{W_{0}} \bigg|_{\text{loiter}} = 0.6065 \qquad \frac{W_{1}}{W_{0}} \bigg|_{\text{back}} = 0.9272
+\tag{11}
+$$
 
 **Segment ratios multiply, and that alone makes a mission of several legs tractable.** With a five percent reserve,
 
-$$\zeta_{\text{fuel}} = 1 - \prod_{i} \frac{W_{i+1}}{W_{i}} + 0.05 = 1 - 0.9272 \times 0.6065 \times 0.9272 + 0.05 = 0.5285$$
+$$
+\zeta_{\text{fuel}} = 1 - \prod_{i} \frac{W_{i+1}}{W_{i}} + 0.05 = 1 - 0.9272 \times 0.6065 \times 0.9272 + 0.05 = 0.5285
+\tag{12}
+$$
 
 **More than half the aeroplane is fuel**, and the loiter leg accounts for most of it. Splitting the product shows where it goes,
 
-$$\zeta_{\text{cruise}} = 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} = 0.1402$$
+$$
+\zeta_{\text{cruise}} = 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} = 0.1402
+\tag{13}
+$$
 
-$$\zeta_{\text{loiter}} = \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} \right] = 0.3383$$
+$$
+\zeta_{\text{loiter}} = \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} \right] = 0.3383
+\tag{14}
+$$
 
 **The two cruise legs together cost 14.0 percent of the takeoff weight and the twelve hours on station cost 33.8**, and those two with the five percent reserve are the 0.5285 above. **The loiter is charged after the outbound leg has already burned fuel**, so it costs 33.8. Applied to the takeoff weight, its ratio would suggest 39.3.
 
@@ -135,11 +177,17 @@ $$\zeta_{\text{loiter}} = \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left(
 
 **The weight fractions must sum to one, and that closes the problem.**
 
-$$\zeta_{\text{empty}} + \zeta_{\text{payload}} + \zeta_{\text{fuel}} = 1$$
+$$
+\zeta_{\text{empty}} + \zeta_{\text{payload}} + \zeta_{\text{fuel}} = 1
+\tag{15}
+$$
 
 **Every term on the left except the first is now known**, so the requirement fixes the empty-weight fraction,
 
-$$\zeta_{\text{empty}} = 1 - 0.12293 - 0.5285 = 0.3485$$
+$$
+\zeta_{\text{empty}} = 1 - 0.12293 - 0.5285 = 0.3485
+\tag{16}
+$$
 
 **This fraction is the central result of the article.** The UCAV-N requirement, taken at face value and with the manufacturer's payload fraction, demands an airframe whose empty weight is under thirty-five percent of its gross weight, **and it demands it of an aeroplane that must also survive being stopped by a wire.**
 
@@ -155,7 +203,10 @@ $$\zeta_{\text{empty}} = 1 - 0.12293 - 0.5285 = 0.3485$$
 
 Each row is the same fraction the requirement was solved for, and the smallest exceeds it by
 
-$$\zeta_{\text{empty}} = \frac{W_{\text{empty}}}{W_{\max}} \qquad 0.441 - 0.3485 = 0.0925$$
+$$
+\zeta_{\text{empty}} = \frac{W_{\text{empty}}}{W_{\max}} \qquad 0.441 - 0.3485 = 0.0925
+\tag{17}
+$$
 
 **No carrier aeroplane in that table comes within nine points of the demanded fraction** \[[Grumman A-6 Intruder][ref_a6_wikipedia]\] \[[Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]\] \[[Lockheed S-3 Viking][ref_s3_wikipedia]\]. The S-3A is the closest analogue by mission, being a carrier-based twin-turbofan aeroplane built for long endurance rather than for speed, yet it has the highest fraction of the three.
 
@@ -167,15 +218,27 @@ $$\zeta_{\text{empty}} = \frac{W_{\text{empty}}}{W_{\max}} \qquad 0.441 - 0.3485
 
 Every row below assumes an empty-weight fraction of 0.42, the light end of what a carrier airframe plausibly achieves, and the payload fraction is what remains after the fuel,
 
-$$\zeta_{\text{payload}} = 1 - 0.42 - \zeta_{\text{fuel}} \qquad m_{\text{gross}} = \frac{4{,}000}{\zeta_{\text{payload}}}$$
+$$
+\zeta_{\text{payload}} = 1 - 0.42 - \zeta_{\text{fuel}} \qquad m_{\text{gross}} = \frac{4{,}000}{\zeta_{\text{payload}}}
+\tag{18}
+$$
 
 **Each reading is a different product of the same segment ratios**, and that product is all that distinguishes them,
 
-$$\zeta_{\text{fuel}}^{\text{strike}} = 1 - (0.9272)^{2} + 0.05 = 0.190$$
+$$
+\zeta_{\text{fuel}}^{\text{strike}} = 1 - (0.9272)^{2} + 0.05 = 0.190
+\tag{19}
+$$
 
-$$\zeta_{\text{fuel}}^{\text{station}} = 1 - 0.6065 + 0.05 = 0.443$$
+$$
+\zeta_{\text{fuel}}^{\text{station}} = 1 - 0.6065 + 0.05 = 0.443
+\tag{20}
+$$
 
-$$\zeta_{\text{fuel}}^{\text{both}} = 1 - (0.9272)^{2} (0.6065) + 0.05 = 0.529$$
+$$
+\zeta_{\text{fuel}}^{\text{both}} = 1 - (0.9272)^{2} (0.6065) + 0.05 = 0.529
+\tag{21}
+$$
 
 | reading | fuel fraction | payload fraction available | gross mass for 4,000 lb |
 |---|---|---|---|
@@ -185,7 +248,10 @@ $$\zeta_{\text{fuel}}^{\text{both}} = 1 - (0.9272)^{2} (0.6065) + 0.05 = 0.529$$
 
 **The third row cannot be right.** An aeroplane of seventy-eight thousand pounds is larger than an F/A-18E at maximum takeoff weight \[[Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]\] and is not what anybody was proposing to put on a deck as a demonstrator. **The first row is equally implausible in the other direction.** A payload fraction of 0.390 against the family constant is
 
-$$\frac{0.390}{0.12293} = 3.17$$
+$$
+\frac{0.390}{0.12293} = 3.17
+\tag{22}
+$$
 
 **more than three times what this manufacturer's aircraft achieve**, so an aeroplane meeting the strike reading at that weight would not be one Boeing was building.
 
@@ -195,9 +261,15 @@ $$\frac{0.390}{0.12293} = 3.17$$
 
 **Turning the calculation around is more informative than the closure test.** Fixing the payload fraction at the family value and assuming an empty-weight fraction, the loiter time follows,
 
-$$\zeta_{\text{end}} = \zeta_{\text{empty}} + \zeta_{\text{payload}} = 1 - \zeta_{\text{fuel}} \qquad \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} = \frac{\zeta_{\text{end}}}{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}}$$
+$$
+\zeta_{\text{end}} = \zeta_{\text{empty}} + \zeta_{\text{payload}} = 1 - \zeta_{\text{fuel}} \qquad \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} = \frac{\zeta_{\text{end}}}{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}}
+\tag{23}
+$$
 
-$$E = \frac{L/D}{c} \, \ln \frac{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}}{\zeta_{\text{end}}}$$
+$$
+E = \frac{L/D}{c} \, \ln \frac{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}}{\zeta_{\text{end}}}
+\tag{24}
+$$
 
 | empty fraction | fuel fraction | loiter at 650 nm radius, hours |
 |---|---|---|
@@ -212,11 +284,17 @@ $$E = \frac{L/D}{c} \, \ln \frac{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text
 
 **The table is close to linear and its slope is the useful number.** Differentiating the loiter relation with respect to the empty-weight fraction, at fixed payload fraction and reserve,
 
-$$\frac{\partial E}{\partial \zeta_{\text{empty}}} = - \frac{L/D}{c} \, \frac{1}{\zeta_{\text{end}}} = -44.2 \ \text{hours per unit}$$
+$$
+\frac{\partial E}{\partial \zeta_{\text{empty}}} = - \frac{L/D}{c} \, \frac{1}{\zeta_{\text{end}}} = -44.2 \ \text{hours per unit}
+\tag{25}
+$$
 
 which is 0.442 hours per point of empty-weight fraction. **Closing the remaining 0.97 hours therefore costs about two points**, and solving the relation exactly gives
 
-$$\zeta_{\text{empty}} = 0.3985 \quad \text{for} \quad E = 12 \ \text{hours}$$
+$$
+\zeta_{\text{empty}} = 0.3985 \quad \text{for} \quad E = 12 \ \text{hours}
+\tag{26}
+$$
 
 **The requirement sits 2.1 points of empty-weight fraction away from being met**, a more informative result than a bare verdict on whether it closes.
 
@@ -224,7 +302,10 @@ $$\zeta_{\text{empty}} = 0.3985 \quad \text{for} \quad E = 12 \ \text{hours}$$
 
 **The loiter lift to drag ratio and the loiter specific fuel consumption carry the result.** Both enter only through the loiter ratio, so the demanded fraction has a closed form in them,
 
-$$\zeta_{\text{empty}} (L/D, c) = 1 - \overline{PF} - \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}}^{2} \exp \left( - \frac{E c}{L/D} \right) + 0.05 \right]$$
+$$
+\zeta_{\text{empty}} (L/D, c) = 1 - \overline{PF} - \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}}^{2} \exp \left( - \frac{E c}{L/D} \right) + 0.05 \right]
+\tag{27}
+$$
 
 | loiter $L/D$ | $c$ per hour | empty fraction demanded |
 |---|---|---|
@@ -244,13 +325,19 @@ $$\zeta_{\text{empty}} (L/D, c) = 1 - \overline{PF} - \left[ 1 - \left( \frac{W_
 
 **An approach speed limit is a wing loading limit once the maximum lift coefficient is chosen.**
 
-$$V_{\text{app}} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L,\max}}} \qquad \Longrightarrow \qquad \frac{W}{S} = \tfrac{1}{2} \rho V_{\text{app}}^{2} C_{L,\max}$$
+$$
+V_{\text{app}} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L,\max}}} \qquad \Longrightarrow \qquad \frac{W}{S} = \tfrac{1}{2} \rho V_{\text{app}}^{2} C_{L,\max}
+\tag{28}
+$$
 
 **A tailless aeroplane has a low maximum lift coefficient and cannot easily be given a high one**, because trailing-edge high-lift devices produce a nose-down pitching moment that a tailless configuration has no tail to balance \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\]. **The configuration is chosen for signature before it is chosen for aerodynamics** \[[Knott, Shaeffer and Tuley, Radar cross section][book_knott]\], and it has a documented history far older than the jet age \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\].
 
 **The wing loading then fixes the area, and the aspect ratio turns the area into a span.** Both relations are needed to read the table and neither is more than a definition \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\],
 
-$$S = \frac{W}{(W/S)} \qquad A\!R = \frac{b^{2}}{S} \qquad \Longrightarrow \qquad b = \sqrt{A\!R \cdot S}$$
+$$
+S = \frac{W}{(W/S)} \qquad A\!R = \frac{b^{2}}{S} \qquad \Longrightarrow \qquad b = \sqrt{A\!R \cdot S}
+\tag{29}
+$$
 
 At the gross mass the requirement implies,
 
@@ -265,7 +352,10 @@ At the gross mass the requirement implies,
 
 **The first row lands on the aeroplane Boeing built.** The X-45C spans 14.9 metres \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\], or 48.89 feet, and a 130-knot approach at a maximum lift coefficient of 1.2 and an aspect ratio of 5 gives 48.68,
 
-$$\frac{\left| 48.68 - 48.89 \right|}{48.89} = 0.0043$$
+$$
+\frac{\left| 48.68 - 48.89 \right|}{48.89} = 0.0043
+\tag{30}
+$$
 
 **That agreement checks consistency without deriving anything, and the difference matters.** Three parameters were chosen to produce it, being the approach speed, the maximum lift coefficient and the aspect ratio, and other combinations in the same table give spans from 34 to 45 feet. **What the table establishes is that the requirement and the built aeroplane occupy the same region of the design space**. A calculation with three free parameters can establish no more.
 
@@ -283,7 +373,10 @@ $$\frac{\left| 48.68 - 48.89 \right|}{48.89} = 0.0043$$
 
 **The April 2003 announcement itemises what the naval version required**, being structural changes, landing gear, a tailhook and avionics for precision approach and landing \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\]. **Every item on that list is mass** and every item is charged against the empty-weight fraction the endurance requirement needs to be small,
 
-$$\Delta_{\text{deck}} = \frac{m_{\text{hook}} + m_{\text{gear}} + m_{\text{structure}} + m_{\text{avionics}}}{m_{\text{gross}}}$$
+$$
+\Delta_{\text{deck}} = \frac{m_{\text{hook}} + m_{\text{gear}} + m_{\text{structure}} + m_{\text{avionics}}}{m_{\text{gross}}}
+\tag{31}
+$$
 
 **No term on the right is published for this aircraft or for any comparable one.** The deck penalty is bounded here only through its difference from the crew saving.
 
@@ -293,7 +386,10 @@ $$\Delta_{\text{deck}} = \frac{m_{\text{hook}} + m_{\text{gear}} + m_{\text{stru
 
 **No engine is stated for the X-46A.** The X-45A carried a Honeywell F124 of 28.0 kilonewtons and the X-45C a General Electric F404-GE-102D rated at 31.0 \[[previous article][related_post_a342_boeing_x45]\] \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\]. **A vehicle of 32,539 pounds would need appreciably more than either.** Installed thrust follows from the thrust to weight ratio directly \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\],
 
-$$T = \left( \frac{T}{W} \right) W_{\text{gross}}$$
+$$
+T = \left( \frac{T}{W} \right) W_{\text{gross}}
+\tag{32}
+$$
 
 | $T/W$ | thrust, lbf | thrust, kN |
 |---|---|---|
@@ -307,11 +403,17 @@ $$T = \left( \frac{T}{W} \right) W_{\text{gross}}$$
 
 **The naval requirement makes the supervisory problem harder in a specific way.** The previous article established the fan-out relation, in which the number of vehicles one operator can hold is one plus the ratio of neglect time to interaction time \[[previous article][related_post_a342_boeing_x45]\],
 
-$$FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}$$
+$$
+FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}
+\tag{33}
+$$
 
 **Latency enters by lengthening interaction without lengthening neglect**, so a two-way delay $\tau$ acts only on the denominator,
 
-$$FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau}$$
+$$
+FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau}
+\tag{34}
+$$
 
 **A carrier is a moving airfield**, and recovery aboard it is the least neglectable phase of the sortie. **This article does not compute a fan-out for the X-46A**, because nothing about its ground station or its autonomy was published, and inventing one would be arithmetic without a datum.
 
@@ -343,7 +445,10 @@ $$FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau}$$
 
 **The substantive answer is that the requirement survived the designation.** The X-45C was announced as a single design serving both services, with a naval variant adding carrier equipment, and it carried two two-thousand-pound Joint Direct Attack Munitions \[[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]\]. **Four thousand pounds matches the UCAV-N payload requirement to the pound** \[[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]\]. The X-45C's actual internal payload of 2,040 kilograms \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] comes to 4,497 pounds and carries the requirement with margin,
 
-$$\frac{4{,}497}{4{,}000} - 1 = 0.124$$
+$$
+\frac{4{,}497}{4{,}000} - 1 = 0.124
+\tag{35}
+$$
 
 **The naval wing planform moved into the surviving aeroplane** \[[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]\] \[[previous article][related_post_a342_boeing_x45]\], so the aerodynamic work outlived the programme that paid for it.
 
@@ -608,11 +713,17 @@ $$\frac{4{,}497}{4{,}000} - 1 = 0.124$$
 
 **The Breguet relations assume a constant lift to drag ratio and a constant specific fuel consumption over each segment**, and neither is constant. The relations used above are the closed-form solution of the fuel-flow equation \[[Anderson, Aircraft performance and design][book_anderson_performance]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\],
 
-$$\frac{dW}{dt} = - c \, T = - c \, \frac{W}{L/D}$$
+$$
+\frac{dW}{dt} = - c \, T = - c \, \frac{W}{L/D}
+\tag{36}
+$$
 
 under exactly that assumption, and a real analysis would integrate
 
-$$E = \int_{W_{1}}^{W_{0}} \frac{L/D}{c \, W} \, dW$$
+$$
+E = \int_{W_{1}}^{W_{0}} \frac{L/D}{c \, W} \, dW
+\tag{37}
+$$
 
 with the ratio and the consumption varying along the path. Over a twelve-hour loiter the aircraft becomes much lighter and its best lift to drag ratio moves. **The error is in the direction of pessimism**, since an aircraft flown at its optimum as it lightens does better than one flown at a fixed condition, so the demanded empty fraction is if anything a little less severe than stated.
 
@@ -762,6 +873,369 @@ with the ratio and the consumption varying along the path. Over a twelve-hour lo
 **The requirement outlived the designation more completely than that.** The X-45C carried two two-thousand-pound weapons, which is the naval payload requirement exactly, and the carrier demonstration the X-46A was contracted to work toward was performed in the next decade by the competing contractor, whose X-47A had flown once in February 2003 while this aeroplane was still drawings.
 
 **Boeing's announcement of the replacement does not mention the X-46.** For an aircraft that was never built, that absence is the most precise description of what happened to it that the record contains.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 37 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 37, 12 are established and 25 are bespoke.
+Weights and masses are quoted in pounds and in kilograms and every weight fraction is a share of the gross weight at takeoff, specific fuel consumption is per hour and endurance in hours, and $R$ is the cruise range in the Breguet relation but the gas constant of air in the speed of sound.
+
+*Equation 1, Bespoke Empty-Weight Budget of a Naval Unmanned Aircraft.*
+The article writes the empty-weight fraction as that of a manned reference aircraft plus a carrier suitability penalty less a crew saving, both taken as fractions of the same gross weight.
+
+$$
+\zeta_{\text{empty}} = \zeta_{\text{ref}} + \Delta_{\text{deck}} - \Delta_{\text{crew}}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Condition for the Requirement to Close.*
+The budget is satisfiable only if the crew saving exceeds the deck penalty by at least the gap between the reference and the required empty-weight fractions.
+
+$$
+\Delta_{\text{crew}} - \Delta_{\text{deck}} \ \ge \ \zeta_{\text{ref}} - \zeta_{\text{req}}
+\tag{2}
+$$
+
+**Equation 3, Payload Fractions of the X-45A and X-45C.**
+The published internal payloads divided by the published gross masses give payload fractions that agree to four significant figures.
+[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
+[X-45][related_post_a342_boeing_x45]
+
+$$
+\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{680}{5{,}530} = 0.12297 \qquad \frac{2{,}040}{16{,}600} = 0.12289
+\tag{3}
+$$
+
+*Equation 4, Bespoke Inherited Payload Fraction.*
+The mean of the two published payload fractions is taken as a design constant on the assumption that the unbuilt X-46A shares the manufacturer's practice.
+[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
+
+$$
+\overline{PF} = 0.12293
+\tag{4}
+$$
+
+*Equation 5, Bespoke Gross Weight Implied by the Requirement.*
+The required payload of four thousand pounds divided by the inherited payload fraction gives a gross weight of 32,539 pounds.
+
+$$
+m_{\text{gross}} = \frac{4{,}000}{0.12293} = 32{,}539 \ \text{lb}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Implied Gross Weight Against the Built Aircraft.*
+The implied gross weight is 0.889 of the X-45C and 2.67 times the X-45A, a comparison that inherits the assumed payload fraction.
+
+$$
+\frac{32{,}539}{36{,}597} = 0.889 \qquad \frac{32{,}539}{12{,}192} = 2.67
+\tag{6}
+$$
+
+**Equation 7, Breguet Range Relation.**
+The cruise range at constant lift to drag ratio and specific fuel consumption gives the weight ratio across the leg as an exponential of range times consumption over speed times lift to drag ratio.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
+[Anderson, Aircraft performance and design][book_anderson_performance]
+[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]
+
+$$
+R = \frac{V}{c} \left( \frac{L}{D} \right) \ln \frac{W_{0}}{W_{1}} \qquad \Longrightarrow \qquad \frac{W_{1}}{W_{0}} = \exp \left( - \frac{R c}{V (L/D)} \right)
+\tag{7}
+$$
+
+**Equation 8, Breguet Endurance Relation.**
+The endurance form gives the weight ratio across a loiter as an exponential of time on station times consumption over lift to drag ratio.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
+[Anderson, Aircraft performance and design][book_anderson_performance]
+[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]
+
+$$
+E = \frac{1}{c} \left( \frac{L}{D} \right) \ln \frac{W_{0}}{W_{1}} \qquad \Longrightarrow \qquad \frac{W_{1}}{W_{0}} = \exp \left( - \frac{E c}{(L/D)} \right)
+\tag{8}
+$$
+
+**Equation 9, Temperature and Speed of Sound Above the Tropopause.**
+The standard atmosphere holds the temperature at its eleven kilometre value of 216.65 kelvin above the tropopause, which gives a speed of sound of 295.07 metres per second.
+[U.S. Standard Atmosphere 1976 1976][research_u_s_standard_1976]
+
+$$
+T = 288.15 - 0.0065 \times 11{,}000 = 216.65 \ \text{K} \qquad a = \sqrt{\gamma R T} = 295.07 \ \text{m/s}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Cruise Speed.*
+The cruise speed takes a Mach number of 0.75 at forty thousand feet, a cruise condition the article assumes.
+
+$$
+V = M a = 0.75 \times 295.07 = 221.30 \ \text{m/s} = 430.2 \ \text{kn}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Segment Weight Ratios.*
+The Breguet relations give the segment ratios for a radius of 650 nautical miles and twelve hours on station with an assumed cruise lift to drag ratio of 16, loiter value of 18 and specific fuel consumption of 0.80 and 0.75 per hour.
+
+$$
+\frac{W_{1}}{W_{0}} \bigg|_{\text{out}} = 0.9272 \qquad \frac{W_{1}}{W_{0}} \bigg|_{\text{loiter}} = 0.6065 \qquad \frac{W_{1}}{W_{0}} \bigg|_{\text{back}} = 0.9272
+\tag{11}
+$$
+
+*Equation 12, Bespoke Mission Fuel Fraction.*
+The fuel fraction is one less the product of the segment ratios plus a reserve of five percent of gross weight that the article assumes, giving 0.5285.
+
+$$
+\zeta_{\text{fuel}} = 1 - \prod_{i} \frac{W_{i+1}}{W_{i}} + 0.05 = 1 - 0.9272 \times 0.6065 \times 0.9272 + 0.05 = 0.5285
+\tag{12}
+$$
+
+*Equation 13, Bespoke Fuel Fraction of the Two Cruise Legs.*
+The fuel burned outbound and back under the assumed cruise values is 14.0 percent of the takeoff weight.
+
+$$
+\zeta_{\text{cruise}} = 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} = 0.1402
+\tag{13}
+$$
+
+*Equation 14, Bespoke Fuel Fraction of the Loiter.*
+The loiter is charged against the weight that remains after the outbound leg, so under the assumed loiter values it costs 33.8 percent of the takeoff weight.
+
+$$
+\zeta_{\text{loiter}} = \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}} \left( \frac{W_{1}}{W_{0}} \right)_{\text{back}} \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} \right] = 0.3383
+\tag{14}
+$$
+
+**Equation 15, Closure of the Weight Fractions.**
+The empty, payload and fuel fractions of the gross weight sum to one.
+
+$$
+\zeta_{\text{empty}} + \zeta_{\text{payload}} + \zeta_{\text{fuel}} = 1
+\tag{15}
+$$
+
+*Equation 16, Bespoke Empty-Weight Fraction the Requirement Demands.*
+Closing the weight fractions with the inherited payload fraction and the assumed mission fuel fraction gives a demanded empty-weight fraction of 0.3485.
+
+$$
+\zeta_{\text{empty}} = 1 - 0.12293 - 0.5285 = 0.3485
+\tag{16}
+$$
+
+*Equation 17, Bespoke Gap to the Lightest Carrier Aircraft.*
+The empty-weight fraction is the published empty weight over the published maximum weight, and the lightest of the three carrier aircraft exceeds the demanded fraction by 0.0925.
+[Grumman A-6 Intruder][ref_a6_wikipedia]
+[Boeing F/A-18E/F Super Hornet][ref_fa18ef_wikipedia]
+[Lockheed S-3 Viking][ref_s3_wikipedia]
+
+$$
+\zeta_{\text{empty}} = \frac{W_{\text{empty}}}{W_{\max}} \qquad 0.441 - 0.3485 = 0.0925
+\tag{17}
+$$
+
+*Equation 18, Bespoke Payload Fraction and Gross Mass of a Separate Mission.*
+Each mission reading assumes an empty-weight fraction of 0.42, so the payload fraction is what remains after the fuel and the gross mass follows from the four thousand pound payload.
+
+$$
+\zeta_{\text{payload}} = 1 - 0.42 - \zeta_{\text{fuel}} \qquad m_{\text{gross}} = \frac{4{,}000}{\zeta_{\text{payload}}}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Fuel Fraction of the Strike Reading.*
+A radius of 650 nautical miles out and back with no loiter, under the assumed cruise values and five percent reserve, needs a fuel fraction of 0.190.
+
+$$
+\zeta_{\text{fuel}}^{\text{strike}} = 1 - (0.9272)^{2} + 0.05 = 0.190
+\tag{19}
+$$
+
+*Equation 20, Bespoke Fuel Fraction of the Station Reading.*
+Twelve hours on station with no transit, under the assumed loiter values and five percent reserve, needs a fuel fraction of 0.443.
+
+$$
+\zeta_{\text{fuel}}^{\text{station}} = 1 - 0.6065 + 0.05 = 0.443
+\tag{20}
+$$
+
+*Equation 21, Bespoke Fuel Fraction of the Combined Reading.*
+The full profile of transit, twelve hours on station and return, under the assumed values and five percent reserve, needs a fuel fraction of 0.529.
+
+$$
+\zeta_{\text{fuel}}^{\text{both}} = 1 - (0.9272)^{2} (0.6065) + 0.05 = 0.529
+\tag{21}
+$$
+
+*Equation 22, Bespoke Strike Payload Fraction Against the Family Constant.*
+The payload fraction of 0.390 that the strike reading leaves at an assumed empty-weight fraction of 0.42 is 3.17 times the inherited payload fraction.
+
+$$
+\frac{0.390}{0.12293} = 3.17
+\tag{22}
+$$
+
+*Equation 23, Bespoke End-of-Mission Fraction and Required Loiter Ratio.*
+The weight left at the end of the mission is the empty and payload fractions together, and dividing it by the two cruise ratios gives the loiter ratio the mission permits, a closure that carries no fuel reserve.
+
+$$
+\zeta_{\text{end}} = \zeta_{\text{empty}} + \zeta_{\text{payload}} = 1 - \zeta_{\text{fuel}} \qquad \left( \frac{W_{1}}{W_{0}} \right)_{\text{loiter}} = \frac{\zeta_{\text{end}}}{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Loiter Time at the Inherited Payload Fraction.*
+Inverting the endurance relation gives the time on station at the full radius for an assumed empty-weight fraction, with the inherited payload fraction and no fuel reserve.
+
+$$
+E = \frac{L/D}{c} \, \ln \frac{(W_{1}/W_{0})_{\text{out}} (W_{1}/W_{0})_{\text{back}}}{\zeta_{\text{end}}}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Sensitivity of Loiter Time to Empty-Weight Fraction.*
+Differentiating the loiter relation at an assumed loiter lift to drag ratio of 18, specific fuel consumption of 0.75 per hour and empty-weight fraction of 0.42 gives a loss of 44.2 hours per unit of empty-weight fraction.
+
+$$
+\frac{\partial E}{\partial \zeta_{\text{empty}}} = - \frac{L/D}{c} \, \frac{1}{\zeta_{\text{end}}} = -44.2 \ \text{hours per unit}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Empty-Weight Fraction for Twelve Hours on Station.*
+Solving the loiter relation for twelve hours under the assumed loiter values and with no fuel reserve gives an empty-weight fraction of 0.3985.
+
+$$
+\zeta_{\text{empty}} = 0.3985 \quad \text{for} \quad E = 12 \ \text{hours}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Demanded Empty-Weight Fraction as a Function of the Loiter Values.*
+The demanded empty-weight fraction is written in closed form in the loiter lift to drag ratio and specific fuel consumption, holding the inherited payload fraction, the assumed cruise ratios and the five percent reserve.
+
+$$
+\zeta_{\text{empty}} (L/D, c) = 1 - \overline{PF} - \left[ 1 - \left( \frac{W_{1}}{W_{0}} \right)_{\text{out}}^{2} \exp \left( - \frac{E c}{L/D} \right) + 0.05 \right]
+\tag{27}
+$$
+
+**Equation 28, Approach Speed and Wing Loading.**
+The lift equation at the maximum lift coefficient turns an approach speed limit into a wing loading limit.
+
+$$
+V_{\text{app}} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L,\max}}} \qquad \Longrightarrow \qquad \frac{W}{S} = \tfrac{1}{2} \rho V_{\text{app}}^{2} C_{L,\max}
+\tag{28}
+$$
+
+**Equation 29, Wing Area and Span from Wing Loading and Aspect Ratio.**
+The wing loading fixes the area and the aspect ratio turns the area into a span.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]
+
+$$
+S = \frac{W}{(W/S)} \qquad A\!R = \frac{b^{2}}{S} \qquad \Longrightarrow \qquad b = \sqrt{A\!R \cdot S}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Span Agreement with the X-45C.*
+The span computed for an approach of 130 knots, a maximum lift coefficient of 1.2 and an aspect ratio of 5, three values the article chooses, differs from the published X-45C span by 0.43 percent.
+[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
+
+$$
+\frac{\left| 48.68 - 48.89 \right|}{48.89} = 0.0043
+\tag{30}
+$$
+
+*Equation 31, Bespoke Carrier Suitability Penalty.*
+The article defines the deck penalty as the mass of tailhook, landing gear, structural change and approach avionics as a fraction of gross mass, none of which is published.
+[Boeing to develop new X-45C UCAV for Air Force and Navy demonstrations][ref_boeing_x45c_release]
+
+$$
+\Delta_{\text{deck}} = \frac{m_{\text{hook}} + m_{\text{gear}} + m_{\text{structure}} + m_{\text{avionics}}}{m_{\text{gross}}}
+\tag{31}
+$$
+
+**Equation 32, Installed Thrust from Thrust to Weight Ratio.**
+The installed thrust is the thrust to weight ratio times the gross weight.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]
+
+$$
+T = \left( \frac{T}{W} \right) W_{\text{gross}}
+\tag{32}
+$$
+
+**Equation 33, Fan-Out Relation.**
+The number of vehicles one operator can hold is one plus the ratio of neglect time to interaction time.
+[X-45][related_post_a342_boeing_x45]
+
+$$
+FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Fan-Out with Link Latency.*
+The article adds twice the link delay to every interaction, so that latency lengthens the interaction without lengthening the neglect.
+
+$$
+FO = \frac{NT + IT_{0} + 2\tau}{IT_{0} + 2\tau}
+\tag{34}
+$$
+
+**Equation 35, Payload Margin of the X-45C over the Requirement.**
+The published internal payload of 2,040 kilograms, or 4,497 pounds, exceeds the four thousand pound requirement by 12.4 percent.
+[Parsch, Boeing X-45 and X-46, Directory of U.S. Military Rockets and Missiles][ref_parsch_x45]
+[Chronicle of the Salty Dogs, Center for the Study of the Drone][ref_bard_chronicle]
+
+$$
+\frac{4{,}497}{4{,}000} - 1 = 0.124
+\tag{35}
+$$
+
+**Equation 36, Fuel Flow at Constant Lift to Drag Ratio.**
+The rate of weight loss is the specific fuel consumption times the thrust, which in level flight is the weight over the lift to drag ratio.
+[Anderson, Aircraft performance and design][book_anderson_performance]
+[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
+
+$$
+\frac{dW}{dt} = - c \, T = - c \, \frac{W}{L/D}
+\tag{36}
+$$
+
+**Equation 37, Endurance as an Integral over Weight.**
+The endurance is the integral of lift to drag ratio over specific fuel consumption times weight, which reduces to the Breguet form when both are constant.
+[Anderson, Aircraft performance and design][book_anderson_performance]
+[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
+
+$$
+E = \int_{W_{1}}^{W_{0}} \frac{L/D}{c \, W} \, dW
+\tag{37}
+$$
+
+### Notation
+
+- $\zeta_{\text{empty}}$, the empty weight as a fraction of gross weight, with $\zeta_{\text{payload}}$ and $\zeta_{\text{fuel}}$ the payload and fuel fractions
+- $\zeta_{\text{ref}}$, the empty-weight fraction that manned carrier aircraft achieve
+- $\zeta_{\text{req}}$, the empty-weight fraction the requirement targets
+- $\Delta_{\text{deck}}$, the weight that carrier suitability adds, as a fraction of gross weight
+- $\Delta_{\text{crew}}$, the weight that removing the crew saves, as a fraction of gross weight
+- $\overline{PF}$, the mean payload fraction of the X-45A and X-45C
+- $\zeta_{\text{end}}$, the weight remaining at the end of the mission as a fraction of gross weight
+- $W_{0}$, the weight at the start of a segment, with $W_{1}$ the weight at its end
+- $L/D$, the lift to drag ratio
+- $c$, the specific fuel consumption, per hour
+- $E$, the endurance, the time on station
+- $V$, the true airspeed
+- $M$, the Mach number
+- $a$, the speed of sound
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $V_{\text{app}}$, the approach speed
+- $C_{L,\max}$, the maximum lift coefficient
+- $\rho$, the air density
+- $W/S$, the wing loading
+- $A\!R$, the wing aspect ratio
+- $b$, the wing span
+- $FO$, the fan-out, the number of vehicles one operator can supervise
+- $NT$, the neglect time, how long a vehicle can be left alone before it needs attention
+- $IT$, the interaction time, with $IT_{0}$ its value without link delay
+- $\tau$, the link delay
 
 ## References
 

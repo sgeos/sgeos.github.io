@@ -144,7 +144,10 @@ A lifting body arriving on a runway touches down at something near ninety metres
 lifting bodies landed at about 200 miles per hour \[[NASA account of the lifting bodies][ref_nasa_lifting_bodies]\]. The kinetic
 energy that the landing system, the brakes and the runway between them must dissipate is
 
-$$E = \tfrac{1}{2} m v^{2}$$
+$$
+E = \tfrac{1}{2} m v^{2}
+\tag{1}
+$$
 
 which for the 11,340 kilogram vehicle at that speed is **45.93 megajoules**.
 
@@ -153,13 +156,22 @@ weight against the **resultant** aerodynamic force rather than against lift alon
 [ram-air canopy][ref_parafoil] is a wing rather than a drag device, so the airspeed follows from a resultant
 coefficient,
 
-$$C_{R} = C_{L} \sqrt{1 + \frac{1}{(L/D)^{2}}}, \qquad V = \sqrt{\frac{2 W}{\rho S C_{R}}}$$
+$$
+C_{R} = C_{L} \sqrt{1 + \frac{1}{(L/D)^{2}}}, \qquad V = \sqrt{\frac{2 W}{\rho S C_{R}}}
+\tag{2}
+$$
 
 and the two components follow from the glide angle, which is fixed by the glide ratio alone,
 
-$$\delta = \arctan \frac{1}{L/D},$$
+$$
+\delta = \arctan \frac{1}{L/D},
+\tag{3}
+$$
 
-$$V_{\text{vertical}} = V \sin \delta = \frac{V}{\sqrt{1 + (L/D)^{2}}}, \qquad V_{\text{horizontal}} = V \cos \delta = (L/D) \, V_{\text{vertical}}.$$
+$$
+V_{\text{vertical}} = V \sin \delta = \frac{V}{\sqrt{1 + (L/D)^{2}}}, \qquad V_{\text{horizontal}} = V \cos \delta = (L/D) \, V_{\text{vertical}}.
+\tag{4}
+$$
 
 At a glide ratio of three that angle is **18.43 degrees** below the horizontal.
 
@@ -175,7 +187,10 @@ airspeed, with **16.68 forward and 5.56 down**. Its kinetic energy is **1.752 me
 **The ratio is 26.2 to one**, and the mass cancels out of it entirely, so the ratio is the square of the
 speed ratio and depends on no property of the vehicle at all.
 
-$$\frac{E_{\text{runway}}}{E_{\text{parafoil}}} = \left( \frac{v_{\text{runway}}}{V} \right)^{2} = 26.2$$
+$$
+\frac{E_{\text{runway}}}{E_{\text{parafoil}}} = \left( \frac{v_{\text{runway}}}{V} \right)^{2} = 26.2
+\tag{5}
+$$
 
 **That is what the runway costs.** A vehicle that lands horizontally arrives carrying twenty-six times the
 energy of one that lands under a canopy, and every part of the airframe that touches the ground has to be
@@ -193,12 +208,18 @@ built for it.
 **The lift coefficient of 0.80 is the least defensible input in this article, so its sensitivity is computed separately.**
 It appears once, under a radical, so every speed varies as
 
-$$V \propto C_{L}^{-1/2}$$
+$$
+V \propto C_{L}^{-1/2}
+\tag{6}
+$$
 
 and the parafoil's kinetic energy therefore as $C_{L}^{-1}$, which makes the energy ratio vary as the
 **first** power,
 
-$$\frac{E_{\text{runway}}}{E_{\text{parafoil}}} \propto C_{L}.$$
+$$
+\frac{E_{\text{runway}}}{E_{\text{parafoil}}} \propto C_{L}.
+\tag{7}
+$$
 
 | Lift coefficient | Sink rate | Against 0.80 | Energy ratio |
 |---|---|---|---|
@@ -225,7 +246,10 @@ assumed.
 In steady glide the horizontal speed is the vertical multiplied by the glide ratio, so the two kinetic
 energies stand in the ratio
 
-$$\frac{E_{\text{horizontal}}}{E_{\text{vertical}}} = \frac{\tfrac{1}{2} m V_{\text{horizontal}}^{2}}{\tfrac{1}{2} m V_{\text{vertical}}^{2}} = (L/D)^{2}$$
+$$
+\frac{E_{\text{horizontal}}}{E_{\text{vertical}}} = \frac{\tfrac{1}{2} m V_{\text{horizontal}}^{2}}{\tfrac{1}{2} m V_{\text{vertical}}^{2}} = (L/D)^{2}
+\tag{8}
+$$
 
 **exactly, with no mass, no area and no air density appearing.** At a glide ratio of three the forward
 motion carries **9.0 times** the energy of the descent.
@@ -243,7 +267,10 @@ Converting only five percent of what is available takes the sink rate from 5.56 
 descent, then since the forward energy is $(L/D)^{2}$ times the vertical, the vertical energy falls to
 $1 - \eta (L/D)^{2}$ of its value, and with the unrounded sink rate of 5.559 metres per second
 
-$$V_{\text{vertical}}' = V_{\text{vertical}} \sqrt{1 - \eta \, (L/D)^{2}} = 5.559 \sqrt{1 - 0.05 \times 9} = 4.12 \text{ metres per second}.$$
+$$
+V_{\text{vertical}}' = V_{\text{vertical}} \sqrt{1 - \eta \, (L/D)^{2}} = 5.559 \sqrt{1 - 0.05 \times 9} = 4.12 \text{ metres per second}.
+\tag{9}
+$$
 
 - [Meyn and Bennett 1991][research_meynlarrya_bennettmarks_1991]
 - [Further development and flight test of an autonomous...][research_murrayjamese_simalexg_1994]
@@ -254,7 +281,10 @@ $$V_{\text{vertical}}' = V_{\text{vertical}} \sqrt{1 - \eta \, (L/D)^{2}} = 5.55
 
 A vertical arrival arrested over a stroke $s$ imposes a mean deceleration
 
-$$\bar{a} = \frac{V_{\text{vertical}}^{2}}{2 s}.$$
+$$
+\bar{a} = \frac{V_{\text{vertical}}^{2}}{2 s}.
+\tag{10}
+$$
 
 | Arresting stroke | Deceleration at 5.56 metres per second |
 |---|---|
@@ -265,7 +295,10 @@ $$\bar{a} = \frac{V_{\text{vertical}}^{2}}{2 s}.$$
 
 After a flare to 4.12 metres per second the same thirty centimetres gives **2.89 g**,
 
-$$\frac{\bar{a}}{g_{0}} = \frac{(4.122 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 2.89,$$
+$$
+\frac{\bar{a}}{g_{0}} = \frac{(4.122 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 2.89,
+\tag{11}
+$$
 
 where $g_{0}$ is standard gravity and 4.122 metres per second is the unrounded flared sink rate.
 
@@ -274,7 +307,10 @@ vehicle in an impact. It rolls out over hundreds of metres, and the rollout is w
 Arresting ninety metres per second in thirty centimetres would be **1,376.6 g**, which is not a landing but a
 crash,
 
-$$\frac{\bar{a}}{g_{0}} = \frac{(90 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 1{,}376.6.$$
+$$
+\frac{\bar{a}}{g_{0}} = \frac{(90 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 1{,}376.6.
+\tag{12}
+$$
 
 **The parafoil converts a distance problem into a stroke problem**, and a stroke of half a metre is
 something a seat and a crushable structure can provide while a runway is something a nation must build.
@@ -292,19 +328,28 @@ something a seat and a crushable structure can provide while a runway is somethi
 The canopy carries a [wing loading][ref_wing_loading] of **159.6 newtons per square metre**, which is
 **16.27 kilograms per square metre** or **3.33 pounds per square foot**,
 
-$$\frac{W}{S} = \frac{11{,}340 \times 9.80665}{696.8} = 159.6 \ \text{N/m}^{2}, \qquad \frac{m}{S} = \frac{11{,}340}{696.8} = 16.27 \ \text{kg/m}^{2}, \qquad \frac{25{,}000 \ \text{lb}}{7{,}500 \ \text{ft}^{2}} = 3.33 \ \text{lb/ft}^{2}.$$
+$$
+\frac{W}{S} = \frac{11{,}340 \times 9.80665}{696.8} = 159.6 \ \text{N/m}^{2}, \qquad \frac{m}{S} = \frac{11{,}340}{696.8} = 16.27 \ \text{kg/m}^{2}, \qquad \frac{25{,}000 \ \text{lb}}{7{,}500 \ \text{ft}^{2}} = 3.33 \ \text{lb/ft}^{2}.
+\tag{13}
+$$
 
 Most student skydivers start between 0.7 and 0.9 pounds per square foot, and experienced jumpers fly between
 1.1 and 1.8 \[[Wingload Calculator, Skydive Perris][ref_perris_wingload]\]. So this canopy is loaded
 **3.7 to 4.8 times** as heavily as a student's and **1.9 to 3.0 times** as heavily as an experienced
 jumper's,
 
-$$\frac{3.333}{0.9} = 3.70, \quad \frac{3.333}{0.7} = 4.76, \qquad \frac{3.333}{1.8} = 1.85, \quad \frac{3.333}{1.1} = 3.03.$$
+$$
+\frac{3.333}{0.9} = 3.70, \quad \frac{3.333}{0.7} = 4.76, \qquad \frac{3.333}{1.8} = 1.85, \quad \frac{3.333}{1.1} = 3.03.
+\tag{14}
+$$
 
 **The area follows from the sink rate the designer will accept, and it follows steeply.** Inverting the
 glide relation for area,
 
-$$S = \frac{2 W}{\rho \, C_{R} \, V^{2}} \qquad\text{with}\qquad V = V_{\text{vertical}} \sqrt{1 + (L/D)^{2}}$$
+$$
+S = \frac{2 W}{\rho \, C_{R} \, V^{2}} \qquad\text{with}\qquad V = V_{\text{vertical}} \sqrt{1 + (L/D)^{2}}
+\tag{15}
+$$
 
 so the area needed varies as the inverse square of the sink rate.
 
@@ -334,7 +379,10 @@ canopy large. **The claim is only partly true, and the arithmetic shows by how m
 independent of the crew, being the airframe, the heat shield, the deorbit stage and the avionics, and
 scaling the remainder with the seat count $c$,
 
-$$m(c) = m_{\text{empty}} \left( \phi + (1 - \phi) \frac{c}{c_{\max}} \right) + m_{\text{crew}} \, c$$
+$$
+m(c) = m_{\text{empty}} \left( \phi + (1 - \phi) \frac{c}{c_{\max}} \right) + m_{\text{crew}} \, c
+\tag{16}
+$$
 
 with $\phi$ taken as 0.55 and $m_{\text{crew}}$ as 97.3 kilograms. Anchoring on the sink rate of the flown
 canopy, so that the seven-crew row reproduces the flown area by construction,
@@ -350,7 +398,10 @@ canopy, so that the seven-crew row reproduces the flown area by construction,
 shield, the avionics and the deorbit stage do not shrink with the crew. At a fixed sink rate the area
 relation makes area proportional to mass, so
 
-$$\frac{S(1)}{S(7)} = \frac{m(1)}{m(7)} = \frac{6{,}645}{11{,}340} = 0.586.$$
+$$
+\frac{S(1)}{S(7)} = \frac{m(1)}{m(7)} = \frac{6{,}645}{11{,}340} = 0.586.
+\tag{17}
+$$
 
 **Six of the seven seats cost about forty percent of the canopy area**, and the fixed overhead costs the
 rest.
@@ -389,7 +440,10 @@ The flown system inflated the canopy in five [reefed][ref_reefing] stages \[[NAS
 several hundred kilometres per hour and a ram-air canopy cannot be opened anywhere near that \[[NASA X-38][ref_x38]\]. A drogue
 brings it down first, and the area needed follows from the steady descent condition,
 
-$$S_{d} = \frac{2 W}{\rho \, C_{D} \, V_{\text{target}}^{2}}.$$
+$$
+S_{d} = \frac{2 W}{\rho \, C_{D} \, V_{\text{target}}^{2}}.
+\tag{18}
+$$
 
 | Target speed | Drogue area at a drag coefficient of 0.55 |
 |---|---|
@@ -400,7 +454,10 @@ $$S_{d} = \frac{2 W}{\rho \, C_{D} \, V_{\text{target}}^{2}}.$$
 **The drogue this model asks for is a large parachute too**, at 452.8 square metres or
 **65.0 percent** of the main canopy,
 
-$$\frac{S_{d}}{S} = \frac{452.8}{696.8} = 0.650.$$
+$$
+\frac{S_{d}}{S} = \frac{452.8}{696.8} = 0.650.
+\tag{19}
+$$
 
 The flown drogue was smaller, at 60 feet in diameter
 \[[NASA's X-38 crew rescue craft tests road to Earth][ref_dryden_release_2000]\], which is about 263 square
@@ -418,15 +475,24 @@ second cannot be opened until the first has done its work.
 At a deployment speed near twenty-seven metres per second, the 60 miles per hour that the encyclopaedia gives
 \[[NASA X-38][ref_x38]\], the dynamic pressure is
 
-$$q = \tfrac{1}{2} \rho V^{2} = 446.5 \text{ pascals}$$
+$$
+q = \tfrac{1}{2} \rho V^{2} = 446.5 \text{ pascals}
+\tag{20}
+$$
 
 and a fully inflated canopy of 696.8 square metres at a drag coefficient of 0.75 would pull
 
-$$F = q \, S \, C_{D} = 233.3 \text{ kilonewtons},$$
+$$
+F = q \, S \, C_{D} = 233.3 \text{ kilonewtons},
+\tag{21}
+$$
 
 which on 11,340 kilograms is **2.10 g** steady. Inverting for the area a deceleration limit admits,
 
-$$S_{\text{admissible}} = \frac{m \, g_{\text{limit}} \, g_{0}}{q \, C_{D}}$$
+$$
+S_{\text{admissible}} = \frac{m \, g_{\text{limit}} \, g_{0}}{q \, C_{D}}
+\tag{22}
+$$
 
 gives **996.2 square metres** at three g, or **1.43 times the flown canopy.**
 
@@ -435,7 +501,10 @@ gives **996.2 square metres** at three g, or **1.43 times the flown canopy.**
 **Inverting for the speed at which the steady load would bite is more informative than the area**, and it
 attaches a margin to the claim instead of leaving the reader to assume one is large,
 
-$$V_{\text{limit}} = \sqrt{\frac{2 \, m \, g_{\text{limit}} \, g_{0}}{\rho \, S \, C_{D}}}.$$
+$$
+V_{\text{limit}} = \sqrt{\frac{2 \, m \, g_{\text{limit}} \, g_{0}}{\rho \, S \, C_{D}}}.
+\tag{23}
+$$
 
 | Deceleration limit | Speed at which the full canopy reaches it | Against the deployment speed |
 |---|---|---|
@@ -455,7 +524,10 @@ That qualification matters, so the article states it alongside the three g figur
 
 Adding an opening-shock factor does not close the gap either, since even at the high end of the usual range,
 
-$$F_{\text{peak}} = \Lambda \, q \, S \, C_{D}, \qquad \Lambda \in [1.5, 2.5]$$
+$$
+F_{\text{peak}} = \Lambda \, q \, S \, C_{D}, \qquad \Lambda \in [1.5, 2.5]
+\tag{24}
+$$
 
 the peak reaches **5.25 g**, which a seated and restrained crew survives.
 
@@ -492,7 +564,10 @@ and the [X-37][related_post_a334_boeing_x37], treat crossrange as a figure of me
 A parafoil steers only within its glide cone from the point of deployment. The reach is height traded
 for distance at the glide ratio,
 
-$$R = \left( \frac{L}{D} \right) h,$$
+$$
+R = \left( \frac{L}{D} \right) h,
+\tag{25}
+$$
 
 into which neither mass nor area nor air density enters, and at a glide ratio of three from six kilometres it is
 **18.0 kilometres**. The [X-37][related_post_a334_boeing_x37] article computed **1,397.8 kilometres** of
@@ -544,12 +619,18 @@ The vehicle deorbits from a station orbit near four hundred kilometres
 \[[International Space Station][ref_iss]\]. Lowering perigee far enough to
 guarantee entry costs
 
-$$v = \sqrt{\mu \left( \frac{2}{r} - \frac{1}{a} \right)}, \qquad a = \frac{r_{a} + r_{p}}{2}$$
+$$
+v = \sqrt{\mu \left( \frac{2}{r} - \frac{1}{a} \right)}, \qquad a = \frac{r_{a} + r_{p}}{2}
+\tag{26}
+$$
 
 so that lowering perigee from a circular orbit costs the difference between the circular speed and the speed
 on the transfer at the same radius,
 
-$$\Delta v = \sqrt{\frac{\mu}{r_{a}}} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{a} \right)} = 132.8 \text{ metres per second},$$
+$$
+\Delta v = \sqrt{\frac{\mu}{r_{a}}} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{a} \right)} = 132.8 \text{ metres per second},
+\tag{27}
+$$
 
 a task that fell to the deorbit propulsion stage that GenCorp Aerojet was developing for V-201
 \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\].
@@ -557,14 +638,20 @@ a task that fell to the deorbit propulsion stage that GenCorp Aerojet was develo
 The deceleration that follows is what the crew feels, and for a shallow entry it is nearly independent of
 the vehicle. The [Allen and Eggers][ref_allen_eggers] result for a ballistic entry gives the peak as
 
-$$a_{\text{peak}} = \frac{v_{e}^{2} \sin \gamma_{e}}{2 e H}$$
+$$
+a_{\text{peak}} = \frac{v_{e}^{2} \sin \gamma_{e}}{2 e H}
+\tag{28}
+$$
 
 where $H$ is the density scale height and $\gamma_{e}$ the entry flight path angle,
 **and the ballistic coefficient does not appear at all.** At an entry speed of 7,800 metres per second and a
 path angle of 1.4 degrees this is **3.87 g**. Lift relieves part of it, by the factor by which the vertical
 force balance is eased,
 
-$$k = \frac{1}{\sqrt{1 + (L/D)^{2}}}, \qquad a_{\text{lifting}} = k \, a_{\text{peak}}$$
+$$
+k = \frac{1}{\sqrt{1 + (L/D)^{2}}}, \qquad a_{\text{lifting}} = k \, a_{\text{peak}}
+\tag{29}
+$$
 
 which at a lift-to-drag ratio of 0.8 is **0.7809**.
 
@@ -724,7 +811,10 @@ The X-38 inherited the X-24A outer mould line, enlarged it and thickened its rea
 Measuring the exponent that relates the two,
 for a quantity $Q$ and a length $\ell$,
 
-$$Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} / Q_{2} \right)}{\ln \left( \ell_{1} / \ell_{2} \right)}$$
+$$
+Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} / Q_{2} \right)}{\ln \left( \ell_{1} / \ell_{2} \right)}
+\tag{30}
+$$
 
 | Quantity | X-24A | X-38 Crew Return Vehicle | Ratio |
 |---|---|---|---|
@@ -741,8 +831,11 @@ Crew Return Vehicle is 30 feet long with a gross weight of 25,000 pounds, which 
 **Mass scales as length to the 3.295 against 3 for geometric similarity.** A geometrically similar X-24A
 grown to 9.14 metres would mass **10,618 kilograms**, and the X-38 masses 11,340, **a factor of 1.068**,
 
-$$n = \frac{\ln (11{,}340 / 5{,}443)}{\ln (9.14 / 7.315)} = \frac{\ln 2.0834}{\ln 1.2495} = 3.295, \qquad
-m_{\text{similar}} = 5{,}443 \times 1.2495^{3} = 10{,}618 \ \text{kg}, \qquad \frac{11{,}340}{10{,}618} = 1.068.$$
+$$
+n = \frac{\ln (11{,}340 / 5{,}443)}{\ln (9.14 / 7.315)} = \frac{\ln 2.0834}{\ln 1.2495} = 3.295, \qquad
+m_{\text{similar}} = 5{,}443 \times 1.2495^{3} = 10{,}618 \ \text{kg}, \qquad \frac{11{,}340}{10{,}618} = 1.068.
+\tag{31}
+$$
 
 **The exponent stays above 3 across the uncertainty in both inputs.** The vehicle's builder gives
 approximately 5,500 pounds empty with tankage for approximately 5,500 pounds of propellants and gases
@@ -751,8 +844,11 @@ approximately 5,500 pounds empty with tankage for approximately 5,500 pounds of 
 metres \[[In-Flight Subsonic Lift and Drag Characteristics Unique to Blunt-Based Lifting Reentry Vehicles][research_saltzmanedwinj_wangkcharles_2007]\].
 Taking each in turn,
 
-$$n_{11{,}000\ \text{lb}} = \frac{\ln (11{,}340 / 4{,}990)}{\ln 1.2495} = 3.69, \qquad
-n_{24.5\ \text{ft}} = \frac{\ln 2.0834}{\ln (9.14 / 7.468)} = 3.63,$$
+$$
+n_{11{,}000\ \text{lb}} = \frac{\ln (11{,}340 / 4{,}990)}{\ln 1.2495} = 3.69, \qquad
+n_{24.5\ \text{ft}} = \frac{\ln 2.0834}{\ln (9.14 / 7.468)} = 3.63,
+\tag{32}
+$$
 
 and both exceed 3. **The margin over geometric similarity is real but modest**, and its size
 hinges on approximate figures for a vehicle whose launch weight no source gives exactly.
@@ -813,7 +909,10 @@ when the project's cancellation was announced on 29 April 2002 \[[NASA X-38][ref
 The atmospheric vehicles are **81.7 percent** of the orbital vehicle by length, being 24.5 feet long
 \[[NASA account of the X-38 prototype crew return vehicle][ref_nasa_x38]\] against 30,
 
-$$\frac{\ell_{\text{atmospheric}}}{\ell_{\text{orbital}}} = \frac{24.5 \ \text{ft}}{30 \ \text{ft}} = 0.817,$$
+$$
+\frac{\ell_{\text{atmospheric}}}{\ell_{\text{orbital}}} = \frac{24.5 \ \text{ft}}{30 \ \text{ft}} = 0.817,
+\tag{33}
+$$
 
 and they flew at between 15,000 and 24,000 pounds, which are 6,804 and 10,886 kilograms, against its 11,340
 \[[NASA X-38][ref_x38]\]. The 24,000 pound maximum is the encyclopaedia's figure. The NASA account gives
@@ -832,7 +931,10 @@ orbital V-201 immediately after, so it does not separate the drop-test vehicles 
 it came so close is a square root. At fixed canopy area and fixed coefficients the glide relation leaves
 only the weight under the radical, so
 
-$$V_{\text{vertical}} \propto \sqrt{m} \qquad \Longrightarrow \qquad \frac{\Delta V}{V} \approx \frac{1}{2} \frac{\Delta m}{m}.$$
+$$
+V_{\text{vertical}} \propto \sqrt{m} \qquad \Longrightarrow \qquad \frac{\Delta V}{V} \approx \frac{1}{2} \frac{\Delta m}{m}.
+\tag{34}
+$$
 
 **A mass shortfall of 4.00 percent is therefore a sink shortfall of about 2 percent**, and the landing
 system was tested close to its design condition. **The square root is doing the work**, since the same
@@ -1818,6 +1920,328 @@ that would have demonstrated it was ninety percent complete when the station it 
 a size its existing lifeboat could already carry.
 **The X-38 was cancelled not because it failed but because the requirement went away**, which explains why
 its record is thin.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 34 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 34, 24 are established and 10 are bespoke.
+All relations are evaluated in the International System, with weights and areas also quoted in pounds and square feet where the sources give them, and the article's notation table resolves the colliding symbols, so $V$ is a speed under the canopy while $v$ is every other speed, $a$ is a semi-major axis while every acceleration carries a bar or a subscript, $e$ is the base of the natural logarithm, $H$ is the atmospheric scale height, and $L/D$ is about 3 for the canopy but about 0.8 for the vehicle in entry.
+
+**Equation 1, Kinetic Energy at Touchdown.**
+The kinetic energy the landing system must dissipate is half the mass times the speed squared.
+
+$$
+E = \tfrac{1}{2} m v^{2}
+\tag{1}
+$$
+
+**Equation 2, Resultant Force Coefficient and Glide Speed.**
+A gliding canopy balances weight against the resultant aerodynamic force, so its airspeed follows from the resultant coefficient, the wing loading and the density.
+[ram-air canopy][ref_parafoil]
+
+$$
+C_{R} = C_{L} \sqrt{1 + \frac{1}{(L/D)^{2}}}, \qquad V = \sqrt{\frac{2 W}{\rho S C_{R}}}
+\tag{2}
+$$
+
+**Equation 3, Glide Angle.**
+The glide angle below the horizontal is the inverse tangent of one over the glide ratio.
+
+$$
+\delta = \arctan \frac{1}{L/D},
+\tag{3}
+$$
+
+**Equation 4, Vertical and Horizontal Components of the Glide.**
+The sink rate and forward speed are the airspeed resolved through the glide angle, the forward speed being the glide ratio times the sink rate.
+
+$$
+V_{\text{vertical}} = V \sin \delta = \frac{V}{\sqrt{1 + (L/D)^{2}}}, \qquad V_{\text{horizontal}} = V \cos \delta = (L/D) \, V_{\text{vertical}}.
+\tag{4}
+$$
+
+*Equation 5, Bespoke Energy Ratio of Runway and Parafoil Landings.*
+The ratio is the square of the speed ratio between a runway touchdown taken at ninety metres per second and a canopy flown at an assumed lift coefficient of 0.80 and glide ratio of 3.
+
+$$
+\frac{E_{\text{runway}}}{E_{\text{parafoil}}} = \left( \frac{v_{\text{runway}}}{V} \right)^{2} = 26.2
+\tag{5}
+$$
+
+**Equation 6, Speed Proportional to the Inverse Root of Lift Coefficient.**
+The lift coefficient appears once under a radical, so every canopy speed varies as its inverse square root.
+
+$$
+V \propto C_{L}^{-1/2}
+\tag{6}
+$$
+
+**Equation 7, Energy Ratio Proportional to Lift Coefficient.**
+Since the canopy kinetic energy varies inversely with the lift coefficient, the energy ratio varies as its first power.
+
+$$
+\frac{E_{\text{runway}}}{E_{\text{parafoil}}} \propto C_{L}.
+\tag{7}
+$$
+
+**Equation 8, Ratio of Forward to Vertical Kinetic Energy.**
+In steady glide the forward kinetic energy is the square of the glide ratio times the vertical kinetic energy, with no mass, area or density appearing.
+
+$$
+\frac{E_{\text{horizontal}}}{E_{\text{vertical}}} = \frac{\tfrac{1}{2} m V_{\text{horizontal}}^{2}}{\tfrac{1}{2} m V_{\text{vertical}}^{2}} = (L/D)^{2}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Sink Rate After a Partial Flare.*
+The flared sink rate assumes the canopy converts five percent of the forward energy into arrested descent.
+
+$$
+V_{\text{vertical}}' = V_{\text{vertical}} \sqrt{1 - \eta \, (L/D)^{2}} = 5.559 \sqrt{1 - 0.05 \times 9} = 4.12 \text{ metres per second}.
+\tag{9}
+$$
+
+**Equation 10, Mean Deceleration Over an Arresting Stroke.**
+A vertical arrival arrested over a stroke imposes a mean deceleration of the sink rate squared over twice the stroke.
+
+$$
+\bar{a} = \frac{V_{\text{vertical}}^{2}}{2 s}.
+\tag{10}
+$$
+
+*Equation 11, Bespoke Deceleration After a Flare Over Thirty Centimetres.*
+The flared sink rate, which rests on the assumed lift coefficient and flare fraction, arrested over an assumed thirty centimetre stroke gives 2.89 times standard gravity.
+
+$$
+\frac{\bar{a}}{g_{0}} = \frac{(4.122 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 2.89,
+\tag{11}
+$$
+
+*Equation 12, Bespoke Deceleration of a Runway Speed Over Thirty Centimetres.*
+Arresting a touchdown speed taken as ninety metres per second over the same assumed stroke gives 1,376.6 times standard gravity.
+
+$$
+\frac{\bar{a}}{g_{0}} = \frac{(90 \text{ m/s})^{2}}{2 \times 0.30 \text{ m} \times 9.80665 \text{ m/s}^{2}} = 1{,}376.6.
+\tag{12}
+$$
+
+**Equation 13, Wing Loading of the Canopy.**
+The published vehicle mass over the published canopy area gives 159.6 newtons per square metre, or 3.33 pounds per square foot.
+[wing loading][ref_wing_loading]
+
+$$
+\frac{W}{S} = \frac{11{,}340 \times 9.80665}{696.8} = 159.6 \ \text{N/m}^{2}, \qquad \frac{m}{S} = \frac{11{,}340}{696.8} = 16.27 \ \text{kg/m}^{2}, \qquad \frac{25{,}000 \ \text{lb}}{7{,}500 \ \text{ft}^{2}} = 3.33 \ \text{lb/ft}^{2}.
+\tag{13}
+$$
+
+**Equation 14, Canopy Loading Against Skydiving Canopies.**
+Dividing the canopy loading by the published student and experienced ranges gives multiples of 3.7 to 4.8 and 1.9 to 3.0.
+[Wingload Calculator, Skydive Perris][ref_perris_wingload]
+
+$$
+\frac{3.333}{0.9} = 3.70, \quad \frac{3.333}{0.7} = 4.76, \qquad \frac{3.333}{1.8} = 1.85, \quad \frac{3.333}{1.1} = 3.03.
+\tag{14}
+$$
+
+**Equation 15, Canopy Area for a Demanded Sink Rate.**
+Inverting the glide relation gives the canopy area, which varies as the inverse square of the sink rate.
+
+$$
+S = \frac{2 W}{\rho \, C_{R} \, V^{2}} \qquad\text{with}\qquad V = V_{\text{vertical}} \sqrt{1 + (L/D)^{2}}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Mass Model in the Crew Count.*
+The vehicle mass is modelled as a fixed fraction of the empty mass, taken as 0.55, plus a remainder scaling with the seat count and a crew mass of 97.3 kilograms per seat.
+
+$$
+m(c) = m_{\text{empty}} \left( \phi + (1 - \phi) \frac{c}{c_{\max}} \right) + m_{\text{crew}} \, c
+\tag{16}
+$$
+
+*Equation 17, Bespoke Canopy Area for a Single-Seat Vehicle.*
+At a fixed sink rate the area is proportional to mass, so the assumed mass model gives a single-seat canopy of 0.586 of the flown area.
+
+$$
+\frac{S(1)}{S(7)} = \frac{m(1)}{m(7)} = \frac{6{,}645}{11{,}340} = 0.586.
+\tag{17}
+$$
+
+**Equation 18, Drogue Area for a Target Speed.**
+The drogue area follows from the steady descent condition at a target speed.
+
+$$
+S_{d} = \frac{2 W}{\rho \, C_{D} \, V_{\text{target}}^{2}}.
+\tag{18}
+$$
+
+*Equation 19, Bespoke Drogue Area as a Share of the Main Canopy.*
+The drogue area at an assumed drag coefficient of 0.55 and a target speed of 27 metres per second is 0.650 of the main canopy.
+
+$$
+\frac{S_{d}}{S} = \frac{452.8}{696.8} = 0.650.
+\tag{19}
+$$
+
+**Equation 20, Dynamic Pressure at Deployment.**
+At the published deployment speed of about 27 metres per second and sea-level density the dynamic pressure is 446.5 pascals.
+[X-38][ref_x38]
+
+$$
+q = \tfrac{1}{2} \rho V^{2} = 446.5 \text{ pascals}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Steady Load of the Full Canopy.*
+The steady drag of the fully inflated canopy uses a drag coefficient of 0.75 that the article assumes.
+
+$$
+F = q \, S \, C_{D} = 233.3 \text{ kilonewtons},
+\tag{21}
+$$
+
+**Equation 22, Canopy Area Admitted by a Deceleration Limit.**
+Inverting the steady drag gives the largest canopy area a deceleration limit admits at a given dynamic pressure.
+
+$$
+S_{\text{admissible}} = \frac{m \, g_{\text{limit}} \, g_{0}}{q \, C_{D}}
+\tag{22}
+$$
+
+**Equation 23, Speed at Which the Steady Load Reaches a Limit.**
+Inverting the steady drag for speed gives the speed at which the full canopy reaches a given deceleration limit.
+
+$$
+V_{\text{limit}} = \sqrt{\frac{2 \, m \, g_{\text{limit}} \, g_{0}}{\rho \, S \, C_{D}}}.
+\tag{23}
+$$
+
+**Equation 24, Peak Load With an Opening-Shock Factor.**
+The peak opening load is the steady load multiplied by an opening-shock factor in the usual range of 1.5 to 2.5.
+
+$$
+F_{\text{peak}} = \Lambda \, q \, S \, C_{D}, \qquad \Lambda \in [1.5, 2.5]
+\tag{24}
+$$
+
+**Equation 25, Glide Range.**
+The reach of a canopy is its height traded for distance at the glide ratio.
+
+$$
+R = \left( \frac{L}{D} \right) h,
+\tag{25}
+$$
+
+**Equation 26, Vis-Viva Relation and Transfer Semi-Major Axis.**
+The speed on an orbit follows from the vis-viva relation, with the semi-major axis of the transfer the mean of its apsis radii.
+
+$$
+v = \sqrt{\mu \left( \frac{2}{r} - \frac{1}{a} \right)}, \qquad a = \frac{r_{a} + r_{p}}{2}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Cost of Lowering Perigee for Deorbit.*
+Lowering perigee from a circular station orbit near four hundred kilometres to a perigee the article chooses costs 132.8 metres per second.
+
+$$
+\Delta v = \sqrt{\frac{\mu}{r_{a}}} - \sqrt{\mu \left( \frac{2}{r_{a}} - \frac{1}{a} \right)} = 132.8 \text{ metres per second},
+\tag{27}
+$$
+
+**Equation 28, Allen and Eggers Peak Deceleration.**
+For a ballistic entry the peak deceleration depends on the entry speed, the entry path angle and the density scale height, and not on the ballistic coefficient.
+[Allen and Eggers][ref_allen_eggers]
+
+$$
+a_{\text{peak}} = \frac{v_{e}^{2} \sin \gamma_{e}}{2 e H}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Lift Relief of the Peak Deceleration.*
+The peak is reduced by a relief factor of one over the square root of one plus the lift-to-drag ratio squared, an approximation the article takes from the eased vertical force balance.
+
+$$
+k = \frac{1}{\sqrt{1 + (L/D)^{2}}}, \qquad a_{\text{lifting}} = k \, a_{\text{peak}}
+\tag{29}
+$$
+
+**Equation 30, Scaling Exponent Between Two Vehicles.**
+For a quantity that scales as a power of a length, the exponent is the ratio of the logarithms of the two quantity and length ratios.
+
+$$
+Q \propto \ell^{\,n} \qquad \Longrightarrow \qquad n = \frac{\ln \left( Q_{1} / Q_{2} \right)}{\ln \left( \ell_{1} / \ell_{2} \right)}
+\tag{30}
+$$
+
+**Equation 31, Measured Mass Exponent From the X-24A to the X-38.**
+The sourced lengths and launch masses give a mass exponent of 3.295, and the cube law of geometric similarity gives a mass 1.068 times below the X-38's.
+[Pilot safety for the X-24A lifting body vehicle][ref_cochrane_graham_1971]
+[Wingless flight][book_rdalereed_1997]
+[X-38][ref_x38]
+
+$$
+n = \frac{\ln (11{,}340 / 5{,}443)}{\ln (9.14 / 7.315)} = \frac{\ln 2.0834}{\ln 1.2495} = 3.295, \qquad
+m_{\text{similar}} = 5{,}443 \times 1.2495^{3} = 10{,}618 \ \text{kg}, \qquad \frac{11{,}340}{10{,}618} = 1.068.
+\tag{31}
+$$
+
+**Equation 32, Mass Exponent Under the Alternative Sourced Inputs.**
+Taking in turn the builder's mass of about 11,000 pounds and the tabulated length of 24.50 feet gives exponents of 3.69 and 3.63.
+[Pilot safety for the X-24A lifting body vehicle][ref_cochrane_graham_1971]
+[In-Flight Subsonic Lift and Drag Characteristics Unique to Blunt-Based Lifting Reentry Vehicles][research_saltzmanedwinj_wangkcharles_2007]
+
+$$
+n_{11{,}000\ \text{lb}} = \frac{\ln (11{,}340 / 4{,}990)}{\ln 1.2495} = 3.69, \qquad
+n_{24.5\ \text{ft}} = \frac{\ln 2.0834}{\ln (9.14 / 7.468)} = 3.63,
+\tag{32}
+$$
+
+**Equation 33, Length Ratio of the Atmospheric to the Orbital Vehicle.**
+The published lengths of 24.5 and 30 feet give a ratio of 0.817.
+[space agency's account][ref_nasa_x38]
+
+$$
+\frac{\ell_{\text{atmospheric}}}{\ell_{\text{orbital}}} = \frac{24.5 \ \text{ft}}{30 \ \text{ft}} = 0.817,
+\tag{33}
+$$
+
+**Equation 34, Sink Rate Proportional to the Square Root of Mass.**
+At fixed canopy area and coefficients the sink rate varies as the square root of mass, so a fractional mass shortfall halves into the sink rate.
+
+$$
+V_{\text{vertical}} \propto \sqrt{m} \qquad \Longrightarrow \qquad \frac{\Delta V}{V} \approx \frac{1}{2} \frac{\Delta m}{m}.
+\tag{34}
+$$
+
+### Notation
+
+- $C_{R}$, the resultant force coefficient
+- $L/D$, the lift-to-drag ratio, about 3 for the canopy and about 0.8 for the vehicle in entry
+- $S$, the canopy area, with $S_{d}$ the drogue area
+- $\delta$, the glide angle below the horizontal
+- $V_{\text{vertical}}$, the sink rate under the canopy, with $V_{\text{horizontal}}$ the forward speed
+- $E_{\text{runway}}$, the kinetic energy at a runway touchdown, with $E_{\text{parafoil}}$ that under the canopy
+- $\eta$, the fraction of the forward energy the flare converts into arrested descent
+- $\bar{a}$, the mean deceleration over an arresting stroke
+- $s$, the arresting stroke
+- $g_{0}$, standard gravity
+- $\phi$, the fraction of the empty mass independent of the crew
+- $c$, the crew count, with $c_{\max}$ the full complement of seven
+- $m_{\text{crew}}$, the mass added per crew member
+- $g_{\text{limit}}$, a deceleration limit in multiples of standard gravity
+- $\Lambda$, the opening-shock factor
+- $\mu$, the gravitational parameter of the Earth
+- $a$, the semi-major axis
+- $r_{a}$, the apogee radius, with $r_{p}$ the perigee radius
+- $v_{e}$, the entry speed
+- $\gamma_{e}$, the entry flight path angle
+- $H$, the atmospheric scale height
+- $k$, the lift relief factor
+- $n$, the scaling exponent
 
 ## References
 

@@ -1,0 +1,667 @@
+# Equation classification for A341. Read by `python3 _lib/equations.py`.
+
+caution = "Thrust and weight are quoted in pounds, kilonewtons and kilograms while the derivation runs in the International System with angles in radians and tables in degrees, and several letters are reused, so $N$ is a yawing moment except in the register count, where it is the highest number issued, $\\sigma$ is a radar cross section and then the density ratio, $\\lambda$ is a radar wavelength and then the divergence rate, $\\tau$ is the rudder effectiveness and then a transport delay, $\\gamma$ is the ratio of specific heats and then the glide path angle, $T$ is a temperature and then a thrust, $n$ is the thrust lapse exponent and then the load factor, and $\\delta$ is a nozzle deflection while $\\delta_{2}$ is a total pressure ratio."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Yawing Moment from Sideslip and the Directional Stability Condition"
+gloss = "The aerodynamic yawing moment is linear in sideslip through the directional stability derivative, and the aeroplane is statically stable in yaw only when that derivative is positive."
+cite = ["research_gilruthrr_1943"]
+digest = "000f5872bfde71ed"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Vertical Tail Volume Coefficient"
+gloss = "The tail volume coefficient is the fin area times its moment arm divided by the wing area times the span."
+cite = ["book_raymer", "book_torenbeek"]
+digest = "b3579459234a8adc"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Rudder Control Derivative from Tail Volume"
+gloss = "The rudder control derivative is the tail volume coefficient multiplied by the fin lift-curve slope, the rudder effectiveness and the dynamic pressure ratio at the tail."
+cite = ["research_campbelljohnp_mckinneymariono_1951", "research_tollthomasa_queijomj_1948", "research_jonesarthurl_alksnealberta_1951"]
+digest = "e788439ce53384d2"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Radar Cross Section of a Flat Plate"
+gloss = "A flat plate viewed at normal incidence returns a cross section proportional to the square of its area divided by the square of the wavelength."
+cite = ["book_knott"]
+digest = "cc456d904a251dd5"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Radar Cross Section of a Right-Angle Dihedral"
+gloss = "Two plates meeting at a right angle return a cross section set by the product of the squares of their dimensions over a wide range of aspect angles."
+cite = ["book_knott"]
+digest = "f13704b26df154a2"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Count of Vehicles a Finite Register Can Name"
+gloss = "The article counts the vehicles a consecutive register can name as the highest number issued less the numbers reserved and never used plus the numbers issued more than once."
+cite = ["related_post_a336_x39_reserved_never_assigned"]
+digest = "b58fb7df25cbd045"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Required Aerodynamic Yawing Moment"
+gloss = "The yawing moment that must be produced is the dynamic pressure times wing area and span times the magnitude of the directional stability derivative times the sideslip."
+cite = []
+digest = "0d7ab858a20aa478"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Yawing Moment Available from a Deflected Jet"
+gloss = "A jet of gross thrust deflected through an angle at a distance aft of the centre of gravity produces a yawing moment equal to the thrust times that arm times the sine of the deflection."
+cite = []
+digest = "7d5b9498a005ec12"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Ratio of Available to Required Yawing Moment"
+gloss = "The article defines its figure of merit as the vectored moment available divided by the aerodynamic moment required at a given sideslip."
+cite = []
+digest = "54247fbde4e1eb0a"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Propulsive Tail Volume"
+gloss = "The article defines a propulsive tail volume as the maximum vectored moment divided by the dynamic pressure, wing area and span, so that it can be compared with a rudder control derivative."
+cite = []
+digest = "906d011b216c62e6"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Required Jet Deflection"
+gloss = "Equating the vectored and the required moments gives the sine of the jet deflection a control system must command."
+cite = []
+digest = "970dc3a5dc1f4922"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Dynamic Pressure in Terms of Static Pressure and Mach Number"
+gloss = "The perfect gas law and the definition of Mach number turn the dynamic pressure into $0.7 p M^{2}$ for a ratio of specific heats of 1.4."
+cite = ["book_yechout", "book_schmidt", "book_roskam", "book_anderson"]
+digest = "47b34c36250135eb"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Mass Flow at Constant Corrected Flow"
+gloss = "The article models the engine as a fixed-geometry machine at maximum corrected rotational speed, so that its corrected mass flow is constant and the physical mass flow follows the compressor-face total conditions."
+cite = ["book_mattingly_propulsion", "book_cumpsty"]
+digest = "721323adb9d7a887"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Compressor-Face Total Pressure and Temperature Ratios"
+gloss = "The isentropic ram relations give the total pressure and temperature at the compressor face from the ambient conditions and the flight Mach number, with the pressure reduced by the inlet recovery."
+cite = []
+digest = "aa630c9636f2f444"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Mass Flow Scaling with Ram Compression"
+gloss = "Under the constant corrected flow assumption and a ratio of specific heats of 1.4, the physical mass flow scales with ambient pressure, inlet recovery and the cube of the ram term over the root of ambient temperature."
+cite = []
+digest = "0b22009ee1aaef12"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Ideal Nozzle Exhaust Velocity"
+gloss = "The jet velocity of a nozzle expanding from a fixed total temperature depends on the nozzle pressure ratio through the isentropic expansion relation."
+cite = []
+digest = "1e3b39dc4652e841"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Gross Thrust of a Nozzle"
+gloss = "Gross thrust is the mass flow times the jet velocity plus a pressure thrust that vanishes for a nozzle expanded to ambient pressure."
+cite = []
+digest = "e5c3ec811f6caf85"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Cancellation of Static Pressure in the Moment Ratio"
+gloss = "Taking the jet velocity as constant across the envelope, the ambient static pressure appears to the same power above and below the moment ratio and cancels."
+cite = []
+digest = "e3b1d45db5a66f96"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Moment Ratio Above the Tropopause"
+gloss = "In the isothermal region of the standard atmosphere, with the jet velocity held constant, the moment ratio depends on Mach number alone."
+cite = []
+digest = "621dc1177d7fbd64"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Temperature of the Standard Atmosphere"
+gloss = "The standard atmosphere lapses linearly in temperature up to eleven kilometres and holds 216.65 kelvin above it."
+cite = ["research_u_s_standard_1976"]
+digest = "8daad14199b30aca"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Temperature Residue of the Moment Ratio Below the Tropopause"
+gloss = "Below the tropopause the moment ratio, with jet velocity held constant, falls from its isothermal value by the square root of the tropopause temperature over the local temperature."
+cite = ["research_u_s_standard_1976"]
+digest = "a764ac9f2d886c71"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Mach Dependence of the Moment Ratio at Ideal Recovery"
+gloss = "With ideal inlet recovery and constant jet velocity the Mach dependence of the moment ratio is the cube of the ram term divided by the square of the Mach number."
+cite = []
+digest = "60f79cf4c0b66862"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Stationarity Condition at Ideal Recovery"
+gloss = "Differentiating the ideal Mach dependence with respect to the square of the Mach number gives a derivative that vanishes where that square equals 2.5."
+cite = []
+digest = "ea57e7b9c7d37ce2"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Worst Mach Number and Minimum at Ideal Recovery"
+gloss = "The ideal Mach dependence has its minimum of exactly 1.35 at a Mach number of the square root of 2.5."
+cite = []
+digest = "5a2e5eeb28c21a44"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Military Specification Inlet Pressure Recovery"
+gloss = "The military specification correlation gives full recovery up to Mach one and a recovery falling with the 1.35 power of the supersonic excess above it."
+cite = ["ref_nasa_grc_inlet"]
+digest = "0d0295c79c7efd60"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Stationarity Condition with Inlet Recovery"
+gloss = "With the military specification recovery the condition for the minimum of the moment ratio becomes a transcendental equation that the article solves by golden-section search."
+cite = ["ref_nasa_grc_inlet"]
+digest = "25acb7ad21fce47d"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Sideslip Produced by a Crosswind"
+gloss = "A crosswind of fixed speed produces a sideslip equal to the arctangent of the crosswind over the true airspeed, which for small angles is the ratio itself."
+cite = []
+digest = "7df833d3f74e9ae6"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Crosswind Scaling of the Required Moment"
+gloss = "With sideslip set by a crosswind of fixed speed under the small-angle approximation, the required moment scales with ambient pressure times Mach number over the root of temperature."
+cite = []
+digest = "6fd103be1eb0729d"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Scaling of the Available Moment"
+gloss = "Under the constant corrected flow and constant jet velocity assumptions, the available moment scales with ambient pressure, inlet recovery and the cube of the ram term over the root of temperature."
+cite = []
+digest = "e72090e7abbbf60c"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Crosswind Identity"
+gloss = "With sideslip set by a crosswind of fixed speed, pressure and temperature cancel and the ratio of required to available moment depends on Mach number alone."
+cite = []
+digest = "60a60c388d12179f"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Derivative of the Crosswind Demand"
+gloss = "Differentiating the ideal-recovery crosswind demand with respect to Mach number gives a derivative proportional to one minus the square of the Mach number, so the demand peaks at Mach one."
+cite = []
+digest = "ed8ff80624e7145a"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Peak Crosswind Demand at Mach One"
+gloss = "Evaluated at Mach one with ideal recovery, the crosswind demand reaches its maximum of the reciprocal of 1.728, a pure number."
+cite = []
+digest = "0b11cfe868c6b1ce"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Relative Error of the Small-Angle Arctangent"
+gloss = "The leading term of the series for the arctangent gives the relative error of replacing it by its argument as minus one third of the square of the argument."
+cite = []
+digest = "8decd980a64f5d70"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Thrust to Weight Ratio on a Glide Slope"
+gloss = "The thrust to weight ratio on a three degree glide slope is evaluated with a landing-configuration lift to drag ratio of six, a value the article assumes."
+cite = []
+digest = "77c11e20692562ce"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Throttle Fraction That Restores the Demonstrated Margin"
+gloss = "The article requires the ratio of demanded to available moment on approach to equal that demonstrated by the X-31 at Mach 1.2, so that the geometry and aerodynamic derivatives cancel and only dynamic pressure, sideslip and mass flow remain."
+cite = []
+digest = "ec82e2281af31751"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Throttle Setting Required on Approach"
+gloss = "The throttle fraction of 0.384 follows for a sea-level approach at 150 knots in a 15 metre per second crosswind, conditions the article assumes, against 0.072 needed on the glide slope with an assumed lift to drag ratio of six and a landing weight near twenty tonnes."
+cite = []
+digest = "5f1ca324aae14110"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Lift to Drag Ratio Implied by Thrust in Level Flight"
+gloss = "In level flight thrust equals drag, so a given throttle fraction fixes the lift to drag ratio as the weight divided by the thrust."
+cite = []
+digest = "ac217e064849be48"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Engine-Out Trim Angle of a Vectored Nozzle"
+gloss = "Balancing the yawing moments of the axial and lateral components of the live engine's thrust gives a trim angle whose tangent is the lateral offset over the moment arm, independent of thrust."
+cite = []
+digest = "2b34156ba20b630d"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Axial Thrust Retained While Trimming an Engine Failure"
+gloss = "The axial component of the deflected thrust is the gross thrust times the moment arm over the distance from the centre of gravity to the nozzle."
+cite = []
+digest = "ce09427660be1270"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Engine-Out Trim Angle with Windmilling Drag"
+gloss = "Adding the windmilling drag of the dead engine to the asymmetry raises the tangent of the trim angle in proportion to the drag over the live thrust."
+cite = []
+digest = "5c0c2de889b2ebe3"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Fin Size Required by an Engine Failure"
+gloss = "Setting the fin's yawing moment at full rudder equal to the thrust asymmetry gives the product of fin area and arm required, which grows as the dynamic pressure falls."
+cite = []
+digest = "5c4bd2dfc1165998"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Divergence Rate and Time to Double of the Directional Mode"
+gloss = "Treating the tailless directional mode as a single degree of freedom in yaw, the divergence rate is the square root of the destabilising moment per radian over the yawing moment of inertia, and the time to double is the logarithm of two over that rate."
+cite = []
+digest = "c4064e1215fd741f"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Crossover Frequency for an Unstable Pole"
+gloss = "The article takes the loop crossover as two to three times the divergence rate, a rule of thumb for stabilising a real unstable pole."
+cite = []
+digest = "d988a87ed62256c6"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Transport Delay Budget"
+gloss = "A pure delay spends phase in proportion to the crossover, so with the crossover set at two to three times the divergence rate the allowable delay is the phase budget divided by that multiple of the rate."
+cite = ["research_berrydt_powersbg_1980", "research_berrydt_1985"]
+digest = "cd3636812efb9e3a"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Wing Area Ratio of the X-44A to the X-36"
+gloss = "Taking wing area as proportional to the square of span, the X-44A span of 9.144 metres against the X-36 span of 3.17 metres implies 8.32 times the wing."
+cite = ["research_walkerlaurencea_1997"]
+digest = "c99c5b42dd611610"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Ceiling Thrust Balance with Thrust Lapse"
+gloss = "The article takes thrust at the published service ceiling to equal the drag at the best lift to drag ratio and models thrust as lapsing with a power of the density ratio."
+cite = ["ref_darkstar_wikipedia"]
+digest = "6f7450a7048842f3"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Parabolic Drag Polar and Aspect Ratio"
+gloss = "The drag coefficient is the zero-lift drag plus the square of the lift coefficient over $\\pi e A\\!R$, with the aspect ratio the square of the span over the area."
+cite = ["book_raymer", "book_filippone"]
+digest = "057e56a5484b5f4e"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Lift Coefficient and Lift to Drag Ratio at Best Glide"
+gloss = "The best lift to drag ratio of a parabolic polar occurs where induced drag equals zero-lift drag, which fixes the lift coefficient and gives the ratio as that coefficient over twice the zero-lift drag."
+cite = ["book_raymer", "book_filippone"]
+digest = "004b875736cd9cc5"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Speed and Wing Loading at a Given Lift Coefficient"
+gloss = "Lift equal to weight fixes the speed for a given density, wing area and lift coefficient, and equivalently the wing loading."
+cite = ["book_raymer", "book_filippone"]
+digest = "f1d8d9d63ce9bd9d"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Thrust Lapse Exponent of the DarkStar Engine"
+gloss = "The exponent is calibrated from a ceiling thrust of 1,747 newtons computed with an assumed 42 square metre wing, an Oswald efficiency of 0.85 and a zero-lift drag coefficient of 0.015, against the published 8.45 kilonewton sea-level rating and a density ratio of 0.1936."
+cite = ["research_wbaileyoswald_1932"]
+digest = "d2bc70f160172cc5"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Force Components of a Two-Dimensional Nozzle"
+gloss = "A nozzle whose flaps deflect the jet in one plane produces axial and normal components and no side force."
+cite = ["ref_f22_wikipedia", "ref_f119_wikipedia"]
+digest = "20b670353f33a5a9"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Force Components of a Nozzle with Deflecting Sidewalls"
+gloss = "A second deflection by the sidewalls produces a side force and reduces the axial force through the product of the cosines of the pitch and yaw angles."
+cite = []
+digest = "069570d09afd03ad"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Fuel Volume Scaling of an Enlarged Wing"
+gloss = "Assuming the wing is scaled in plan at fixed thickness ratio and aspect ratio, its internal volume grows as the three-halves power of its area."
+cite = ["ref_x44_manta_wikipedia"]
+digest = "0e36fb594c0d625c"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Load Factor and Sustained Turn Rate"
+gloss = "The load factor is the dynamic pressure times the lift coefficient over the wing loading, and the turn rate follows from the load factor and the speed."
+cite = []
+digest = "393ce67b607c62f1"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Munk Yawing Moment of a Slender Body"
+gloss = "A slender fuselage in sideslip carries a destabilising yawing moment proportional to its volume and to the difference of its apparent-mass factors."
+cite = ["research_munkmaxm_1924", "research_multhopph_1942"]
+digest = "e48ca150dce15742"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Yawing Moment Commanded by a Sideslip Error"
+gloss = "A sideslip measurement error is indistinguishable from a real sideslip and so commands a yawing moment coefficient equal to the stability derivative times the error."
+cite = []
+digest = "9833f95c056b3b0d"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Gearing from Sideslip to Nozzle Deflection"
+gloss = "Differentiating the required-deflection relation gives the nozzle deflection needed per unit of sideslip."
+cite = []
+digest = "6080344fb0e772c6"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Quasi-Tailless Rudder Schedule"
+gloss = "The X-31 quasi-tailless technique schedules the rudder against sideslip so as to cancel a chosen fraction of the vertical tail's stabilising contribution."
+cite = ["research_bosworthjohnt_stolikerpc_1996"]
+digest = "50ec2c16200e46cd"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Moment Ratio with Varying Jet Velocity"
+gloss = "Relaxing the constant jet velocity assumption carries the Mach dependence of the jet velocity into the moment ratio, which the article evaluates at an overall engine pressure ratio of eight."
+cite = []
+digest = "221606f63c294ded"
+
+[[symbol]]
+tex = 'C_{n\beta}'
+meaning = "the directional stability derivative, with $C_{n\\beta, \\text{tail}}$ the tail contribution and $C_{n\\beta, \\text{fus}}$ the fuselage contribution"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the sideslip angle"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span, and in the dihedral relation a plate dimension"
+
+[[symbol]]
+tex = 'N'
+meaning = "the yawing moment, with $N_{\\text{req}}$ the moment required and $N_{\\text{av}}$ the moment available, and in the register count the highest number issued"
+
+[[symbol]]
+tex = 'V_{v}'
+meaning = "the vertical tail volume coefficient"
+
+[[symbol]]
+tex = 'S_{v}'
+meaning = "the fin area"
+
+[[symbol]]
+tex = 'l_{v}'
+meaning = "the fin moment arm"
+
+[[symbol]]
+tex = 'C_{n \delta_{r}}'
+meaning = "the rudder control derivative"
+
+[[symbol]]
+tex = 'a_{v}'
+meaning = "the fin lift-curve slope"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the rudder effectiveness, and in the delay budget a pure transport delay"
+
+[[symbol]]
+tex = '\eta_{v}'
+meaning = "the dynamic pressure ratio at the tail"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the radar cross section, and in the thrust lapse relation the density ratio of the standard atmosphere"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the radar wavelength, and in the divergence relation the divergence rate of the directional mode"
+
+[[symbol]]
+tex = 'F_{g}'
+meaning = "the gross thrust passing through the nozzles"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the distance from the centre of gravity to the nozzle exit"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the yaw deflection angle of the jet, with $\\delta_{p}$ the pitch flap angle and $\\delta_{y}$ the sidewall angle of a two-dimensional nozzle"
+
+[[symbol]]
+tex = '\mathcal{R}'
+meaning = "the ratio of available to required yawing moment"
+
+[[symbol]]
+tex = 'V_{p}'
+meaning = "the propulsive tail volume"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air, and in the glide slope relation the flight path angle"
+
+[[symbol]]
+tex = 'p'
+meaning = "the ambient static pressure, with $p_{\\text{SL}}$ its sea-level value"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = 'T'
+meaning = "the ambient temperature, with $T_{\\text{SL}}$ its sea-level value, and in the thrust relations a thrust"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the physical engine mass flow, with $\\dot{m}_{\\text{ref}}$ its value at sea level static conditions"
+
+[[symbol]]
+tex = '\delta_{2}'
+meaning = "the compressor-face total pressure referred to sea level static conditions"
+
+[[symbol]]
+tex = '\theta_{2}'
+meaning = "the compressor-face total temperature referred to sea level static conditions"
+
+[[symbol]]
+tex = '\eta_{r}'
+meaning = "the inlet total pressure recovery"
+
+[[symbol]]
+tex = 'V_{j}'
+meaning = "the jet velocity"
+
+[[symbol]]
+tex = 'T_{t7}'
+meaning = "the nozzle total temperature fixed by the afterburner limit"
+
+[[symbol]]
+tex = 'V_{c}'
+meaning = "the crosswind speed"
+
+[[symbol]]
+tex = '\Pi'
+meaning = "the throttle fraction"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = 'y'
+meaning = "the lateral distance of the live engine from the centreline"
+
+[[symbol]]
+tex = 'D_{\text{wm}}'
+meaning = "the windmilling drag of the dead engine"
+
+[[symbol]]
+tex = 'I_{z}'
+meaning = "the yawing moment of inertia"
+
+[[symbol]]
+tex = 't_{2}'
+meaning = "the time to double a disturbance"
+
+[[symbol]]
+tex = '\omega_{c}'
+meaning = "the loop crossover frequency"
+
+[[symbol]]
+tex = 'k'
+meaning = "the ratio of crossover frequency to divergence rate, and with subscripts the apparent-mass factors of the Munk moment"
+
+[[symbol]]
+tex = '\Delta \phi'
+meaning = "the phase spent by a transport delay at crossover"
+
+[[symbol]]
+tex = 'n'
+meaning = "the thrust lapse exponent in the ceiling relation, and the load factor in the turn relation"
+
+[[symbol]]
+tex = 'e'
+meaning = "the Oswald efficiency, taken as 0.85"
+
+[[symbol]]
+tex = 'A\!R'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'C_{D_{0}}'
+meaning = "the zero-lift drag coefficient"
+
+[[symbol]]
+tex = 'C_{L}^{\ast}'
+meaning = "the lift coefficient at the best lift to drag ratio"
+
+[[symbol]]
+tex = '\dot{\psi}'
+meaning = "the sustained turn rate"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the fraction of the vertical tail's stabilising contribution cancelled by the rudder"
+
+[[symbol]]
+tex = '\varepsilon_{\beta}'
+meaning = "the error in the measured sideslip"

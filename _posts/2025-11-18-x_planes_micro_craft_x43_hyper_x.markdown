@@ -44,16 +44,25 @@ one can put a thrust stand and no surface across which thrust and drag are separ
 **What the vehicle produces is a single net axial force**, and the design question is whether that
 force has the sign the designer intended.
 
-$$F_{\text{net}} = F_{\text{thrust}} - D$$
+$$
+F_{\text{net}} = F_{\text{thrust}} - D
+\tag{1}
+$$
 
 **That equation is trivial, and it contains the whole problem.** Writing out the thrust term shows why.
 Uninstalled thrust is a momentum difference plus a pressure term,
 
-$$F_{\text{thrust}} = \dot{m}_{e} V_{e} - \dot{m}_{0} V_{0} + \left( p_{e} - p_{0} \right) A_{e}$$
+$$
+F_{\text{thrust}} = \dot{m}_{e} V_{e} - \dot{m}_{0} V_{0} + \left( p_{e} - p_{0} \right) A_{e}
+\tag{2}
+$$
 
 and the captured air flow is
 
-$$\dot{m}_{0} = \rho V_{0} A_{c}$$
+$$
+\dot{m}_{0} = \rho V_{0} A_{c}
+\tag{3}
+$$
 
 **For a hydrogen scramjet at stoichiometric the fuel flow is about 2.9 percent of the air flow.** Two
 moles of hydrogen burn each mole of oxygen, and air carries oxygen at a mole fraction $x_{\mathrm{O_2}}$
@@ -61,17 +70,26 @@ of 0.209476 and a mean molar mass $\mathcal{M}_{\text{air}}$ of 28.9644 grams pe
 standard atmosphere\[[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]\], so the stoichiometric
 fuel to air mass ratio is
 
-$$f_{\text{st}} = \frac{2 \mathcal{M}_{\mathrm{H_2}} \, x_{\mathrm{O_2}}}{\mathcal{M}_{\text{air}}} = \frac{2 \times 2.016 \times 0.209476}{28.9644} = 0.0292$$
+$$
+f_{\text{st}} = \frac{2 \mathcal{M}_{\mathrm{H_2}} \, x_{\mathrm{O_2}}}{\mathcal{M}_{\text{air}}} = \frac{2 \times 2.016 \times 0.209476}{28.9644} = 0.0292
+\tag{4}
+$$
 
 with $\mathcal{M}_{\mathrm{H_2}}$ the molar mass of hydrogen. The two mass flows are therefore nearly
 equal and the thrust is dominated by the velocity difference,
 
-$$F_{\text{thrust}} \approx \dot{m}_{0} \left( V_{e} - V_{0} \right)$$
+$$
+F_{\text{thrust}} \approx \dot{m}_{0} \left( V_{e} - V_{0} \right)
+\tag{5}
+$$
 
 **The exit velocity exceeds the flight velocity by a few percent, not by a factor.** Taking a five
 percent excess as an illustration, the thrust per unit of captured air flow is
 
-$$\frac{F_{\text{thrust}}}{\dot{m}_{0}} = 0.05 \, V_{0} = 0.05 \times 2{,}056 = 103 \ \tfrac{\text{N}}{\text{kg/s}} \qquad 0.05 \times 2{,}959 = 148 \ \tfrac{\text{N}}{\text{kg/s}}$$
+$$
+\frac{F_{\text{thrust}}}{\dot{m}_{0}} = 0.05 \, V_{0} = 0.05 \times 2{,}056 = 103 \ \tfrac{\text{N}}{\text{kg/s}} \qquad 0.05 \times 2{,}959 = 148 \ \tfrac{\text{N}}{\text{kg/s}}
+\tag{6}
+$$
 
 at the Mach 6.83 and Mach 9.68 flight speeds derived below. **Everything in the engine is spent on that few percent**, and the drag
 is subtracted from it afterwards. At the flight condition, both terms are large
@@ -158,22 +176,34 @@ Air brought to rest from a high Mach number arrives at its stagnation temperatur
 perfect gas of ratio of specific heats $\gamma$, moving at Mach number $M$ through air at static
 temperature $T$,
 
-$$T_{0} = T \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)$$
+$$
+T_{0} = T \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)
+\tag{7}
+$$
 
 **The two powered flights reached Mach 6.83 in nearly level flight at about 95,000 feet and Mach 9.68
 at about 110,000 feet**, the maximum powered Mach numbers the flight reports give\[[Marshall et al. 2005a][research_marshall_corpening_2005]\]\[[Marshall et al. 2005b][research_marshall_2005]\]\[[Voland et al. 2005][research_voland_2005]\].
 Taking the static temperature at each altitude from the 1976 standard atmosphere, 225.5 and 232.4
 kelvin\[[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]\], the relation evaluates to
 
-$$T_{0} = 225.5 \left( 1 + 0.2 \times 6.83^{2} \right) = 2{,}329 \ \text{K}$$
+$$
+T_{0} = 225.5 \left( 1 + 0.2 \times 6.83^{2} \right) = 2{,}329 \ \text{K}
+\tag{8}
+$$
 
-$$T_{0} = 232.4 \left( 1 + 0.2 \times 9.68^{2} \right) = 4{,}588 \ \text{K}$$
+$$
+T_{0} = 232.4 \left( 1 + 0.2 \times 9.68^{2} \right) = 4{,}588 \ \text{K}
+\tag{9}
+$$
 
 **A ramjet works by decelerating the flow to subsonic speed before burning it.** If this vehicle's
 inlet had done that, taking the flow only as far as sonic conditions, the static temperature entering
 the combustor would be
 
-$$T_{\text{throat}} = \frac{T_{0}}{1 + \frac{\gamma - 1}{2}} = \frac{T_{0}}{1.2}$$
+$$
+T_{\text{throat}} = \frac{T_{0}}{1 + \frac{\gamma - 1}{2}} = \frac{T_{0}}{1.2}
+\tag{10}
+$$
 
 which is 1,941 kelvin at Mach 6.83 and 3,824 kelvin at Mach 9.68.
 
@@ -186,7 +216,10 @@ is too slow at the residence times involved.
 **On the pressure side, the same relation identifies the inlet as the hard part.** The total pressure
 ratio available at those conditions is
 
-$$\frac{p_{0}}{p} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}$$
+$$
+\frac{p_{0}}{p} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{11}
+$$
 
 which is 3,543 at Mach 6.83 and 34,178 at Mach 9.68. **A perfect inlet would
 deliver all of it and a real one loses total pressure across every shock**, with the losses
@@ -202,11 +235,17 @@ combustor, which keeps the static temperature low enough that the air survives t
 An air-breathing engine's thrust scales with the mass of air it captures, which scales with density,
 while the structural and thermal loads scale with dynamic pressure,
 
-$$q = \tfrac{1}{2} \rho V^{2}$$
+$$
+q = \tfrac{1}{2} \rho V^{2}
+\tag{12}
+$$
 
 with the flight velocity following from the Mach number and the local speed of sound,
 
-$$V = M a \qquad a = \sqrt{\gamma R T}$$
+$$
+V = M a \qquad a = \sqrt{\gamma R T}
+\tag{13}
+$$
 
 **A vehicle accelerating through the hypersonic range therefore flies a corridor rather than a
 trajectory**, climbing as it accelerates so that the dynamic pressure stays roughly constant. Taking
@@ -220,9 +259,15 @@ altitudes and the two flight Mach numbers gives
 
 Worked out at the two conditions,
 
-$$q_{2} = \tfrac{1}{2} \times 0.0216 \times 2{,}056^{2} = 45.7 \ \text{kPa} = 955 \ \text{lbf/ft}^{2}$$
+$$
+q_{2} = \tfrac{1}{2} \times 0.0216 \times 2{,}056^{2} = 45.7 \ \text{kPa} = 955 \ \text{lbf/ft}^{2}
+\tag{14}
+$$
 
-$$q_{3} = \tfrac{1}{2} \times 0.01065 \times 2{,}959^{2} = 46.6 \ \text{kPa} = 973 \ \text{lbf/ft}^{2}$$
+$$
+q_{3} = \tfrac{1}{2} \times 0.01065 \times 2{,}959^{2} = 46.6 \ \text{kPa} = 973 \ \text{lbf/ft}^{2}
+\tag{15}
+$$
 
 **The design point was a dynamic pressure of about 1,000 pounds per square foot at about 100,000
 feet**\[[Voland et al. 2005][research_voland_2005]\], and the standard-atmosphere values above
@@ -235,7 +280,10 @@ four sites around the range, in order to compute Mach number and dynamic
 pressure\[[Karlgaard et al. 2004][research_karlgaard_tartabini_2004]\]. The relative departure
 of each standard-atmosphere figure from the reported one is
 
-$$\frac{q_{\text{std}} - q_{\text{rep}}}{q_{\text{rep}}} = \frac{955 - 980}{980} = -2.6 \ \% \qquad \frac{973 - 930}{930} = +4.6 \ \%$$
+$$
+\frac{q_{\text{std}} - q_{\text{rep}}}{q_{\text{rep}}} = \frac{955 - 980}{980} = -2.6 \ \% \qquad \frac{973 - 930}{930} = +4.6 \ \%
+\tag{16}
+$$
 
 **So the reported dynamic pressures differ from each other by 50 pounds per square foot, about five
 percent, where the standard atmosphere places them within 18 of each other.** Since
@@ -253,7 +301,10 @@ not been improved on as a first estimate**\[[Kantrowitz and Donaldson 1945][rese
 **It sets how much contraction a fixed-geometry inlet may have and still start**, by requiring that the flow behind a normal shock at
 the capture plane can pass the throat,
 
-$$\frac{A_{\text{throat}}}{A_{\text{capture}}} \geq \frac{1}{A/A^{*} \big|_{M_{2}}} \qquad M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2} M^{2}}{\gamma M^{2} - \frac{\gamma-1}{2}}$$
+$$
+\frac{A_{\text{throat}}}{A_{\text{capture}}} \geq \frac{1}{A/A^{*} \big|_{M_{2}}} \qquad M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2} M^{2}}{\gamma M^{2} - \frac{\gamma-1}{2}}
+\tag{17}
+$$
 
 Evaluated across the range of interest this gives a maximum contraction ratio of 1.60 to 1 at Mach 7
 and 1.63 to 1 at Mach 10.
@@ -267,7 +318,10 @@ inlet buys very little here and costs a great deal.**
 
 The vehicle's net axial force produces an acceleration,
 
-$$a = \frac{F_{\text{net}}}{m} = \frac{F_{\text{thrust}} - D}{m}$$
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{F_{\text{thrust}} - D}{m}
+\tag{18}
+$$
 
 At the research vehicle's mass of about 3,000 pounds\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\], the net force corresponding to a measurable acceleration is small.
 
@@ -292,12 +346,18 @@ the cowl\[[Engelund et al. 1999][research_engelund_1999]\]. **Each of those is g
 relation**\[[Ames Research Staff 1953][research_naca_1135]\], which ties the wedge turning angle
 $\theta$ to the shock angle $\beta$ at free stream Mach number $M$,
 
-$$\tan \theta = 2 \cot \beta \, \frac{M^{2} \sin^{2} \beta - 1}{M^{2} \left( \gamma + \cos 2 \beta \right) + 2}$$
+$$
+\tan \theta = 2 \cot \beta \, \frac{M^{2} \sin^{2} \beta - 1}{M^{2} \left( \gamma + \cos 2 \beta \right) + 2}
+\tag{19}
+$$
 
 and the property jumps across the shock follow from the normal component
 $M_{n1} = M \sin \beta$,
 
-$$\frac{p_{2}}{p_{1}} = 1 + \frac{2 \gamma}{\gamma + 1} \left( M_{n1}^{2} - 1 \right) \qquad \frac{T_{2}}{T_{1}} = \frac{p_{2}}{p_{1}} \cdot \frac{2 + \left( \gamma - 1 \right) M_{n1}^{2}}{\left( \gamma + 1 \right) M_{n1}^{2}}$$
+$$
+\frac{p_{2}}{p_{1}} = 1 + \frac{2 \gamma}{\gamma + 1} \left( M_{n1}^{2} - 1 \right) \qquad \frac{T_{2}}{T_{1}} = \frac{p_{2}}{p_{1}} \cdot \frac{2 + \left( \gamma - 1 \right) M_{n1}^{2}}{\left( \gamma + 1 \right) M_{n1}^{2}}
+\tag{20}
+$$
 
 At the Mach 7 condition, representative turning angles give
 
@@ -330,7 +390,10 @@ chemical.** Rayleigh flow, meaning frictionless flow in a constant area duct wit
 the Mach number toward unity from either side\[[Ames Research Staff 1953][research_naca_1135]\], and the maximum heat addition is fixed by the ratio of
 the stagnation temperature to its value at choking,
 
-$$\frac{T_{0}}{T_{0}^{*}} = \frac{\left( \gamma + 1 \right) M^{2} \left[ 2 + \left( \gamma - 1 \right) M^{2} \right]}{\left( 1 + \gamma M^{2} \right)^{2}}$$
+$$
+\frac{T_{0}}{T_{0}^{*}} = \frac{\left( \gamma + 1 \right) M^{2} \left[ 2 + \left( \gamma - 1 \right) M^{2} \right]}{\left( 1 + \gamma M^{2} \right)^{2}}
+\tag{21}
+$$
 
 | Combustor entry Mach | $T_{0}/T_{0}^{*}$ | Permissible $T_{0}$ rise |
 |---|---|---|
@@ -357,7 +420,10 @@ subsonic-combustion mode, the condition that drives a shock train upstream.
 **The combustor has about a millisecond to work in and often much less.** Taking the combustor
 velocity as a fraction of flight velocity and a representative length for a vehicle of this size,
 
-$$t_{\text{res}} = \frac{L_{c}}{V_{c}}$$
+$$
+t_{\text{res}} = \frac{L_{c}}{V_{c}}
+\tag{22}
+$$
 
 gives residence times of roughly 970 microseconds at Mach 6.83 and 680 at Mach 9.68, for a one metre
 combustor at half the flight speed. Both are illustrative values assumed here, and neither is a
@@ -383,7 +449,10 @@ state and the propulsion state are coupled.
 
 Stagnation point convective heating scales as
 
-$$\dot{q}_{s} = k \sqrt{\frac{\rho}{R_{n}}} \, V^{3}$$
+$$
+\dot{q}_{s} = k \sqrt{\frac{\rho}{R_{n}}} \, V^{3}
+\tag{23}
+$$
 
 with $R_{n}$ the leading edge radius. **The correlation is that of Sutton and
 Graves**\[[Sutton and Graves 1971][research_sutton_graves_1971]\], which generalises the dissociated-air
@@ -401,7 +470,10 @@ at that radius at the two flight conditions the correlation gives
 
 The ratio between the two conditions at equal radius decomposes cleanly,
 
-$$\frac{\dot{q}_{3}}{\dot{q}_{2}} = \left( \frac{V_{3}}{V_{2}} \right)^{3} \sqrt{\frac{\rho_{3}}{\rho_{2}}} = \left( 1.439 \right)^{3} \times \sqrt{0.492} = 2.98 \times 0.702 = 2.09$$
+$$
+\frac{\dot{q}_{3}}{\dot{q}_{2}} = \left( \frac{V_{3}}{V_{2}} \right)^{3} \sqrt{\frac{\rho_{3}}{\rho_{2}}} = \left( 1.439 \right)^{3} \times \sqrt{0.492} = 2.98 \times 0.702 = 2.09
+\tag{24}
+$$
 
 **Mach 9.68 doubles the leading edge heating of Mach 6.83**, at dynamic pressures within five percent of
 each other, because the cube of a 1.44 velocity ratio beats the square root of a 0.49 density ratio.
@@ -419,7 +491,10 @@ The Mach 10 overview confirms the solid Haynes alloy vertical tails and the carb
 edges of the third vehicle\[[Marshall et al. 2005b][research_marshall_2005]\]. In kelvin the two
 predicted nose temperatures are
 
-$$T_{\text{K}} = \tfrac{5}{9} \left( T_{\text{F}} - 32 \right) + 273.15 \qquad 3{,}000 \ {}^{\circ}\text{F} = 1{,}922 \ \text{K} \qquad 4{,}000 \ {}^{\circ}\text{F} = 2{,}478 \ \text{K}$$
+$$
+T_{\text{K}} = \tfrac{5}{9} \left( T_{\text{F}} - 32 \right) + 273.15 \qquad 3{,}000 \ {}^{\circ}\text{F} = 1{,}922 \ \text{K} \qquad 4{,}000 \ {}^{\circ}\text{F} = 2{,}478 \ \text{K}
+\tag{25}
+$$
 
 well below the stagnation temperatures of 2,329 and 4,588 kelvin derived above, as they must be for a
 nose that conducts heat away and radiates it, and the gap is far wider at Mach 10.
@@ -428,7 +503,10 @@ nose that conducts heat away and radiates it, and the gap is far wider at Mach 1
 radius, so the third vehicle's nose at 1.270 millimetres stood against the second vehicle's design
 radius in the ratio
 
-$$\frac{\dot{q}_{3}}{\dot{q}_{2}} = 2.09 \times \sqrt{\frac{0.030}{0.050}} = 2.09 \times 0.775 = 1.62$$
+$$
+\frac{\dot{q}_{3}}{\dot{q}_{2}} = 2.09 \times \sqrt{\frac{0.030}{0.050}} = 2.09 \times 0.775 = 1.62
+\tag{26}
+$$
 
 which in the correlation is 13.06 megawatts per square metre at the third flight's nose against 8.06
 at the second's.
@@ -445,7 +523,10 @@ aerodynamic model\[[Davidson et al. 1999][research_davidson_1999]\], and its pow
 lasted about eleven seconds on each flight\[[Voland et al. 2005][research_voland_2005]\]. At the
 flight speeds that is a short distance,
 
-$$d = V t_{\text{burn}}$$
+$$
+d = V t_{\text{burn}}
+\tag{27}
+$$
 
 | | $V$, m/s | $t_{\text{burn}}$, s | $d$, km | $d$, statute miles | Reported, miles |
 |---|---|---|---|---|---|
@@ -457,11 +538,17 @@ records the second vehicle accelerating under its own power for 15 miles in 11 s
 covering 20 miles in 10.5 seconds of powered flight\[[Voland et al. 2005][research_voland_2005]\].
 Worked out,
 
-$$d_{2} = 2{,}056 \times 11 = 22.6 \ \text{km} \qquad d_{3} = 2{,}959 \times 10.5 = 31.1 \ \text{km}$$
+$$
+d_{2} = 2{,}056 \times 11 = 22.6 \ \text{km} \qquad d_{3} = 2{,}959 \times 10.5 = 31.1 \ \text{km}
+\tag{28}
+$$
 
 **The computed distances fall short of the reported ones**, by
 
-$$1 - \frac{22.6}{15 \times 1.609} = 6.3 \ \% \qquad 1 - \frac{31.1}{20 \times 1.609} = 3.5 \ \%$$
+$$
+1 - \frac{22.6}{15 \times 1.609} = 6.3 \ \% \qquad 1 - \frac{31.1}{20 \times 1.609} = 3.5 \ \%
+\tag{29}
+$$
 
 and both are larger than rounding to the nearest mile explains, which is 3.3 and 2.5 percent. The reports do not say
 whether their miles are measured along the ground track or the flight path, or from which speed, so
@@ -479,7 +566,10 @@ during captive flight and initiated separation. The whole assembly was 589 inche
 
 **The proportions explain the first flight.**
 
-$$\frac{m_{\text{HXRV}}}{m_{\text{stack}}} = \frac{3{,}000}{41{,}750} = 0.072 \qquad \frac{L_{\text{HXRV}}}{L_{\text{stack}}} = \frac{12}{49.1} = 0.244$$
+$$
+\frac{m_{\text{HXRV}}}{m_{\text{stack}}} = \frac{3{,}000}{41{,}750} = 0.072 \qquad \frac{L_{\text{HXRV}}}{L_{\text{stack}}} = \frac{12}{49.1} = 0.244
+\tag{30}
+$$
 
 | | Value | Share of stack |
 |---|---|---|
@@ -501,7 +591,10 @@ absorb the surplus. The Mach 7 flight needed 10,600 pounds of it, which would ha
 the B-52B's 41,400 pound limit on its X-15 pylon, a limit later raised, and the stack above weighed
 41,750 pounds at drop, over the original limit by
 
-$$41{,}750 - 41{,}400 = 350 \ \text{lb}$$
+$$
+41{,}750 - 41{,}400 = 350 \ \text{lb}
+\tag{31}
+$$
 
 The alternatives were to remove propellant from the
 motor or to launch lower and slower, at about 20,000 feet and Mach 0.5 instead of the standard 40,000
@@ -513,7 +606,10 @@ flight\[[Reubush et al. 2003][research_reubush_2003]\].
 **The factor follows from the atmosphere.** At a given Mach number dynamic pressure is proportional to
 static pressure,
 
-$$q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \gamma p M^{2} \qquad \frac{q_{20{,}000}}{q_{40{,}000}} = \frac{p_{20{,}000}}{p_{40{,}000}} = \frac{46{,}601}{18{,}823} = 2.48$$
+$$
+q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \gamma p M^{2} \qquad \frac{q_{20{,}000}}{q_{40{,}000}} = \frac{p_{20{,}000}}{p_{40{,}000}} = \frac{46{,}601}{18{,}823} = 2.48
+\tag{32}
+$$
 
 with the static pressures those of the 1976 standard
 atmosphere\[[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]\] in pascals. The comparison assumes
@@ -559,7 +655,10 @@ release\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 Each interval is the difference of successive event times, and the number of oscillation cycles in
 an interval is its duration times the frequency $f$,
 
-$$\Delta t = t_{\text{overload}} - t_{\text{anomaly}} = 13.5 - 11.5 = 2.00 \ \text{s} \qquad n = f \, \Delta t = 2.5 \times 2.00 = 5$$
+$$
+\Delta t = t_{\text{overload}} - t_{\text{anomaly}} = 13.5 - 11.5 = 2.00 \ \text{s} \qquad n = f \, \Delta t = 2.5 \times 2.00 = 5
+\tag{33}
+$$
 
 **At 2.5 hertz, two seconds is five cycles.** The vehicle went from nominal to structural failure in
 five cycles of a diverging oscillation, a useful fact about the class of failure.
@@ -570,11 +669,17 @@ seconds\[[Reubush et al. 2003][research_reubush_2003]\].
 
 **How unstable was it? Less than one might expect.** A diverging oscillation grows as
 
-$$\theta(t) = \theta_{0} \, e^{\sigma t} \cos \omega t \qquad \sigma = \frac{1}{t} \ln \frac{\theta(t)}{\theta_{0}}$$
+$$
+\theta(t) = \theta_{0} \, e^{\sigma t} \cos \omega t \qquad \sigma = \frac{1}{t} \ln \frac{\theta(t)}{\theta_{0}}
+\tag{34}
+$$
 
 and the corresponding damping ratio, negative for a divergence, is
 
-$$\zeta = \frac{-\sigma}{\sqrt{\sigma^{2} + \omega^{2}}} \qquad \omega = 2 \pi f$$
+$$
+\zeta = \frac{-\sigma}{\sqrt{\sigma^{2} + \omega^{2}}} \qquad \omega = 2 \pi f
+\tag{35}
+$$
 
 | Amplitude growth over 2.0 s | $\sigma$, s⁻¹ | $\zeta$ |
 |---|---|---|
@@ -602,7 +707,10 @@ models brought the prediction to under 2 decibels\[[X-43A Mishap Investigation B
 A gain margin in decibels is the factor by which the loop gain may rise before the system reaches the
 stability boundary,
 
-$$\mathrm{GM}_{\text{dB}} = 20 \log_{10} k_{\max}$$
+$$
+\mathrm{GM}_{\text{dB}} = 20 \log_{10} k_{\max}
+\tag{36}
+$$
 
 so those three figures correspond to gain factors of
 
@@ -614,7 +722,10 @@ so those three figures correspond to gain factors of
 
 **The available overshoot above unity fell from 1.51 to 0.26, a loss of 83 percent of the entire margin**,
 
-$$\frac{k_{8} - k_{2}}{k_{8} - 1} = \frac{2.512 - 1.259}{2.512 - 1} = 0.83$$
+$$
+\frac{k_{8} - k_{2}}{k_{8} - 1} = \frac{2.512 - 1.259}{2.512 - 1} = 0.83
+\tag{37}
+$$
 
 with $k_{8}$ and $k_{2}$ the permissible gain factors at 8 and 2 decibels, and it took the vehicle from
 two decibels above its requirement to more than four decibels below it.
@@ -637,13 +748,19 @@ survivable\[[X-43A Mishap Investigation Board 2003][research_mib_2003]\].
 **The arithmetic shows why no single analysis could have found it.** Let the true
 margin be the nominal margin reduced by the modelling errors,
 
-$$m_{\text{true}} = m_{\text{nominal}} - \sum_{i=1}^{n} \lvert e_{i} \rvert$$
+$$
+m_{\text{true}} = m_{\text{nominal}} - \sum_{i=1}^{n} \lvert e_{i} \rvert
+\tag{38}
+$$
 
 and let each error consume a fraction $f$ of the nominal margin, so that $\lvert e_{i} \rvert = f \, m_{\text{nominal}}$.
 **Any single analysis reports a healthy margin whenever $f < 1$.** The system is nonetheless unstable
 when the errors combine,
 
-$$m_{\text{true}} < 0 \iff n f > 1$$
+$$
+m_{\text{true}} < 0 \iff n f > 1
+\tag{39}
+$$
 
 | Terms $n$ | Each consumes $f$ | Each analysis reports | Combination consumes |
 |---|---|---|---|
@@ -716,7 +833,10 @@ atmosphere\[[Marshall et al. 2005a][research_marshall_corpening_2005]\],
 each deviation being the achieved value less the target, so that the relative shortfalls in Mach
 number and dynamic pressure are
 
-$$\frac{6.946 - 7.075}{7.075} = -1.8 \ \% \qquad \frac{1{,}024 - 1{,}066}{1{,}066} = -3.9 \ \%$$
+$$
+\frac{6.946 - 7.075}{7.075} = -1.8 \ \% \qquad \frac{1{,}024 - 1{,}066}{1{,}066} = -3.9 \ \%
+\tag{40}
+$$
 
 **The engine test ran on schedule.** The cowl door opened 2.5 seconds after separation, five seconds of
 fuel-off tare data followed, and the scramjet was fuelled for approximately 11 seconds, reaching a
@@ -724,7 +844,10 @@ maximum powered Mach number of 6.83, before a further fuel-off tare and a cowl-o
 identification manoeuvre, 4 seconds and 17 seconds long. The cowl closed 39 seconds after
 separation, which the reported phases account for to within half a second,
 
-$$2.5 + 5 + 11 + 4 + 17 = 39.5 \ \text{s}$$
+$$
+2.5 + 5 + 11 + 4 + 17 = 39.5 \ \text{s}
+\tag{41}
+$$
 
 after which the vehicle flew a controlled descent with further manoeuvres and splashed down in the open ocean without
 recovery\[[Marshall et al. 2005a][research_marshall_corpening_2005]\]. **The guidance and control overview gives the fuelled portion as approximately 10 seconds**\[[Bahm et al. 2005][research_bahm_2005]\], one second fewer. With that figure the phases fall half a second short of the 39-second cowl closure, where 11 seconds leave them half a second over, and this article keeps the chief engineer's 11 seconds, which the technology summary also gives. The NASA history adds that the
@@ -776,7 +899,10 @@ separation\[[Marshall et al. 2005b][research_marshall_2005]\]. With the 3 second
 second post-test tare of the technology summary\[[Voland et al. 2005][research_voland_2005]\],
 the phases again account for the reported time,
 
-$$2.5 + 3 + 10 + 6 = 21.5 \ \text{s}$$
+$$
+2.5 + 3 + 10 + 6 = 21.5 \ \text{s}
+\tag{42}
+$$
 
 against 22 seconds, with no cowl-open manoeuvres on this flight because of concern for the
 cowl\[[Voland et al. 2005][research_voland_2005]\]. The ignition sequence ran on silane for
@@ -790,7 +916,10 @@ test design.** At Mach 7 the engine accelerated the vehicle. At Mach 10 it was a
 vehicle and did\[[Voland et al. 2005][research_voland_2005]\]. The thrust relation shows why the second is the harder demand. Rewriting it as a
 fractional velocity increment,
 
-$$F_{\text{thrust}} \approx \dot{m}_{0} V_{0} \left( \frac{V_{e}}{V_{0}} - 1 \right)$$
+$$
+F_{\text{thrust}} \approx \dot{m}_{0} V_{0} \left( \frac{V_{e}}{V_{0}} - 1 \right)
+\tag{43}
+$$
 
 **the heat release per unit mass of air is fixed by the fuel and the air, so the energy the engine can
 add does not grow with flight speed while the kinetic energy of the captured flow grows as its
@@ -804,7 +933,10 @@ designed for\[[Peebles 2007][research_peebles_2007]\].
 time, in the words of NASA's history.** That history sets the second flight's Mach 6.83 against the Mach 3.32 an SR-71 reached in 1976, and the
 third flight's Mach 9.68 against the second's\[[Peebles 2007][research_peebles_2007]\], increments of
 
-$$6.83 - 3.32 = 3.51 \qquad 9.68 - 6.83 = 2.85$$
+$$
+6.83 - 3.32 = 3.51 \qquad 9.68 - 6.83 = 2.85
+\tag{44}
+$$
 
 in Mach number. Reported as physics, the pair shows that the thrust-drag margin is positive at Mach 7
 and can be held at zero at Mach 9.68.
@@ -1210,7 +1342,10 @@ which is recorded in the Epistemic State.
 foot vehicle as evidence about hypersonic air-breathing propulsion generally, and the quantity that
 refuses to scale is the Reynolds number,
 
-$$\mathrm{Re} = \frac{\rho V L}{\mu} \qquad \mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}$$
+$$
+\mathrm{Re} = \frac{\rho V L}{\mu} \qquad \mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}
+\tag{45}
+$$
 
 At the two flight conditions the dynamic viscosity is $1.47 \times 10^{-5}$ and
 $1.51 \times 10^{-5}$ pascal seconds, giving a length Reynolds number of
@@ -1525,6 +1660,457 @@ flight at Mach 7 and ten and a half at Mach 9.68 remain the extent of what this 
 **What survives is a calibration and a caution, and the caution may outlast the calibration.** The
 engine data applies to hydrogen scramjets at Mach 7 and 10.
 **The finding that a positive margin with an uncertainty larger than itself is indistinguishable from a negative one holds everywhere.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 45 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 45, 41 are established and 4 are bespoke.
+Altitudes, masses, dynamic pressures and nose temperatures are quoted in feet, pounds, pounds per square foot and degrees Fahrenheit while the gas dynamics is evaluated in the International System with the 1976 standard atmosphere and $\gamma = 1.4$, and several letters are reused, so $p_{0}$ is the ambient pressure in the thrust relation and the total pressure in the isentropic relation, $a$ is the speed of sound and then an acceleration, $\theta$ is a wedge turning angle and then an oscillation amplitude, $f$ is an oscillation frequency and then a fraction of margin, $k$ is the heating constant while $k_{\max}$ is a gain factor, and $m$ is a mass and then a stability margin.
+
+**Equation 1, Net Axial Force.**
+The net axial force of an integrated airframe and engine is the thrust less the drag, the single quantity whose sign the flights set out to establish.
+
+$$
+F_{\text{net}} = F_{\text{thrust}} - D
+\tag{1}
+$$
+
+**Equation 2, Uninstalled Thrust.**
+Uninstalled thrust is the exit momentum flux less the captured momentum flux, plus the exit pressure excess acting over the exit area.
+[Heiser and Pratt][book_heiser_pratt]
+
+$$
+F_{\text{thrust}} = \dot{m}_{e} V_{e} - \dot{m}_{0} V_{0} + \left( p_{e} - p_{0} \right) A_{e}
+\tag{2}
+$$
+
+**Equation 3, Captured Air Mass Flow.**
+The captured air mass flow is the density times the flight velocity times the capture area.
+
+$$
+\dot{m}_{0} = \rho V_{0} A_{c}
+\tag{3}
+$$
+
+**Equation 4, Stoichiometric Fuel to Air Ratio of Hydrogen.**
+Two moles of hydrogen per mole of oxygen, with the oxygen mole fraction and mean molar mass of air from the 1976 standard atmosphere, give a stoichiometric fuel to air mass ratio of 0.0292.
+[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]
+
+$$
+f_{\text{st}} = \frac{2 \mathcal{M}_{\mathrm{H_2}} \, x_{\mathrm{O_2}}}{\mathcal{M}_{\text{air}}} = \frac{2 \times 2.016 \times 0.209476}{28.9644} = 0.0292
+\tag{4}
+$$
+
+**Equation 5, Thrust Dominated by the Velocity Difference.**
+Because the fuel flow is under three percent of the air flow and the pressure term is set aside, the thrust is approximately the captured mass flow times the difference between exit and flight velocity.
+
+$$
+F_{\text{thrust}} \approx \dot{m}_{0} \left( V_{e} - V_{0} \right)
+\tag{5}
+$$
+
+*Equation 6, Bespoke Thrust per Unit Captured Air Flow.*
+The specific thrust is evaluated with an exit velocity five percent above the flight velocity, an excess the article takes as an illustration, at the two flight speeds.
+
+$$
+\frac{F_{\text{thrust}}}{\dot{m}_{0}} = 0.05 \, V_{0} = 0.05 \times 2{,}056 = 103 \ \tfrac{\text{N}}{\text{kg/s}} \qquad 0.05 \times 2{,}959 = 148 \ \tfrac{\text{N}}{\text{kg/s}}
+\tag{6}
+$$
+
+**Equation 7, Stagnation Temperature.**
+Air brought isentropically to rest from Mach number $M$ reaches the stagnation temperature of a calorically perfect gas.
+[Ames Research Staff 1953][research_naca_1135]
+[Anderson][book_anderson_hypersonic]
+
+$$
+T_{0} = T \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)
+\tag{7}
+$$
+
+**Equation 8, Stagnation Temperature at Mach 6.83.**
+The stagnation relation evaluated at the reported Mach 6.83 with the standard-atmosphere static temperature at 95,000 feet gives 2,329 kelvin.
+[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]
+[Marshall et al. 2005a][research_marshall_corpening_2005]
+
+$$
+T_{0} = 225.5 \left( 1 + 0.2 \times 6.83^{2} \right) = 2{,}329 \ \text{K}
+\tag{8}
+$$
+
+**Equation 9, Stagnation Temperature at Mach 9.68.**
+The stagnation relation evaluated at the reported Mach 9.68 with the standard-atmosphere static temperature at 110,000 feet gives 4,588 kelvin.
+[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]
+[Marshall et al. 2005b][research_marshall_2005]
+
+$$
+T_{0} = 232.4 \left( 1 + 0.2 \times 9.68^{2} \right) = 4{,}588 \ \text{K}
+\tag{9}
+$$
+
+**Equation 10, Static Temperature at a Sonic Throat.**
+Flow decelerated isentropically to sonic conditions, as a ramjet inlet would take it, has a static temperature equal to the stagnation temperature divided by 1.2.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+T_{\text{throat}} = \frac{T_{0}}{1 + \frac{\gamma - 1}{2}} = \frac{T_{0}}{1.2}
+\tag{10}
+$$
+
+**Equation 11, Isentropic Total to Static Pressure Ratio.**
+The ratio of total to static pressure available to a perfect inlet follows from the isentropic relation at the flight Mach number.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{p_{0}}{p} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{11}
+$$
+
+**Equation 12, Dynamic Pressure.**
+Dynamic pressure is half the density times the square of the velocity.
+
+$$
+q = \tfrac{1}{2} \rho V^{2}
+\tag{12}
+$$
+
+**Equation 13, Flight Velocity and Speed of Sound.**
+The flight velocity is the Mach number times the speed of sound, which for a perfect gas depends on temperature alone.
+
+$$
+V = M a \qquad a = \sqrt{\gamma R T}
+\tag{13}
+$$
+
+**Equation 14, Standard-Atmosphere Dynamic Pressure on the Second Flight.**
+Dynamic pressure at Mach 6.83 and 95,000 feet in the 1976 standard atmosphere is about 955 pounds per square foot.
+[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]
+
+$$
+q_{2} = \tfrac{1}{2} \times 0.0216 \times 2{,}056^{2} = 45.7 \ \text{kPa} = 955 \ \text{lbf/ft}^{2}
+\tag{14}
+$$
+
+**Equation 15, Standard-Atmosphere Dynamic Pressure on the Third Flight.**
+Dynamic pressure at Mach 9.68 and 110,000 feet in the 1976 standard atmosphere is about 973 pounds per square foot.
+[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]
+
+$$
+q_{3} = \tfrac{1}{2} \times 0.01065 \times 2{,}959^{2} = 46.6 \ \text{kPa} = 973 \ \text{lbf/ft}^{2}
+\tag{15}
+$$
+
+**Equation 16, Departure of Standard-Atmosphere from Reported Dynamic Pressure.**
+The standard-atmosphere figures differ from the reported dynamic pressures of 980 and 930 pounds per square foot by minus 2.6 and plus 4.6 percent.
+[Voland et al. 2005][research_voland_2005]
+
+$$
+\frac{q_{\text{std}} - q_{\text{rep}}}{q_{\text{rep}}} = \frac{955 - 980}{980} = -2.6 \ \% \qquad \frac{973 - 930}{930} = +4.6 \ \%
+\tag{16}
+$$
+
+**Equation 17, Kantrowitz Starting Criterion.**
+A fixed-geometry inlet starts when its throat can pass the flow behind a normal shock at the capture plane, which bounds the contraction ratio through the isentropic area ratio at the post-shock Mach number.
+[Kantrowitz and Donaldson 1945][research_kantrowitz_1945]
+
+$$
+\frac{A_{\text{throat}}}{A_{\text{capture}}} \geq \frac{1}{A/A^{*} \big|_{M_{2}}} \qquad M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2} M^{2}}{\gamma M^{2} - \frac{\gamma-1}{2}}
+\tag{17}
+$$
+
+**Equation 18, Axial Acceleration from Net Force.**
+Newton's second law gives the axial acceleration as the net of thrust and drag divided by the vehicle mass.
+
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{F_{\text{thrust}} - D}{m}
+\tag{18}
+$$
+
+**Equation 19, Oblique Shock Angle Relation.**
+The theta-beta-Mach relation ties the wedge turning angle to the shock wave angle at a given free-stream Mach number.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\tan \theta = 2 \cot \beta \, \frac{M^{2} \sin^{2} \beta - 1}{M^{2} \left( \gamma + \cos 2 \beta \right) + 2}
+\tag{19}
+$$
+
+**Equation 20, Oblique Shock Pressure and Temperature Ratios.**
+The pressure and temperature jumps across an oblique shock are the normal-shock relations applied to the normal component of the upstream Mach number.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{p_{2}}{p_{1}} = 1 + \frac{2 \gamma}{\gamma + 1} \left( M_{n1}^{2} - 1 \right) \qquad \frac{T_{2}}{T_{1}} = \frac{p_{2}}{p_{1}} \cdot \frac{2 + \left( \gamma - 1 \right) M_{n1}^{2}}{\left( \gamma + 1 \right) M_{n1}^{2}}
+\tag{20}
+$$
+
+**Equation 21, Rayleigh Flow Stagnation Temperature Ratio.**
+In frictionless constant-area flow with heat addition the ratio of stagnation temperature to its value at thermal choking bounds the heat that a combustor entering at Mach number $M$ may add.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{T_{0}}{T_{0}^{*}} = \frac{\left( \gamma + 1 \right) M^{2} \left[ 2 + \left( \gamma - 1 \right) M^{2} \right]}{\left( 1 + \gamma M^{2} \right)^{2}}
+\tag{21}
+$$
+
+**Equation 22, Combustor Residence Time.**
+The residence time is the combustor length divided by the mean flow velocity through it.
+
+$$
+t_{\text{res}} = \frac{L_{c}}{V_{c}}
+\tag{22}
+$$
+
+**Equation 23, Sutton and Graves Stagnation-Point Heating.**
+The convective heat flux at a stagnation point scales with the square root of density over nose radius and the cube of velocity, with a constant that carries the gas chemistry.
+[Sutton and Graves 1971][research_sutton_graves_1971]
+[Fay and Riddell 1958][research_fay_riddell_1958]
+
+$$
+\dot{q}_{s} = k \sqrt{\frac{\rho}{R_{n}}} \, V^{3}
+\tag{23}
+$$
+
+**Equation 24, Heating Ratio of the Two Flights at Equal Radius.**
+At equal nose radius the Sutton and Graves correlation gives the Mach 9.68 heating as 2.09 times the Mach 6.83 heating, from the cube of the velocity ratio and the root of the density ratio.
+
+$$
+\frac{\dot{q}_{3}}{\dot{q}_{2}} = \left( \frac{V_{3}}{V_{2}} \right)^{3} \sqrt{\frac{\rho_{3}}{\rho_{2}}} = \left( 1.439 \right)^{3} \times \sqrt{0.492} = 2.98 \times 0.702 = 2.09
+\tag{24}
+$$
+
+**Equation 25, Fahrenheit to Kelvin Conversion of Predicted Nose Temperatures.**
+The predicted nose temperatures of 3,000 and 4,000 degrees Fahrenheit are 1,922 and 2,478 kelvin.
+[Ohlhorst et al. 2005][research_ohlhorst_2005]
+
+$$
+T_{\text{K}} = \tfrac{5}{9} \left( T_{\text{F}} - 32 \right) + 273.15 \qquad 3{,}000 \ {}^{\circ}\text{F} = 1{,}922 \ \text{K} \qquad 4{,}000 \ {}^{\circ}\text{F} = 2{,}478 \ \text{K}
+\tag{25}
+$$
+
+**Equation 26, Heating Ratio with the Blunter Third Nose.**
+The documented change of nose radius from 0.030 to 0.050 inch reduces the heating ratio between the flights from 2.09 to 1.62 under the square-root dependence on radius.
+[Ohlhorst et al. 2005][research_ohlhorst_2005]
+
+$$
+\frac{\dot{q}_{3}}{\dot{q}_{2}} = 2.09 \times \sqrt{\frac{0.030}{0.050}} = 2.09 \times 0.775 = 1.62
+\tag{26}
+$$
+
+**Equation 27, Distance Flown Under Power.**
+The distance covered under power is the flight velocity times the burn time.
+
+$$
+d = V t_{\text{burn}}
+\tag{27}
+$$
+
+**Equation 28, Powered Distances of the Two Flights.**
+The flight velocities and the reported burn times of 11 and 10.5 seconds give powered distances of 22.6 and 31.1 kilometres.
+[Voland et al. 2005][research_voland_2005]
+
+$$
+d_{2} = 2{,}056 \times 11 = 22.6 \ \text{km} \qquad d_{3} = 2{,}959 \times 10.5 = 31.1 \ \text{km}
+\tag{28}
+$$
+
+**Equation 29, Shortfall of Computed Against Reported Distances.**
+The computed powered distances fall short of the reported 15 and 20 miles by 6.3 and 3.5 percent.
+[Voland et al. 2005][research_voland_2005]
+
+$$
+1 - \frac{22.6}{15 \times 1.609} = 6.3 \ \% \qquad 1 - \frac{31.1}{20 \times 1.609} = 3.5 \ \%
+\tag{29}
+$$
+
+**Equation 30, Research Vehicle Share of the Stack.**
+The published masses and lengths give the research vehicle as 7.2 percent of the stack mass at drop and 24 percent of its length.
+[X-43A Mishap Investigation Board 2003][research_mib_2003]
+
+$$
+\frac{m_{\text{HXRV}}}{m_{\text{stack}}} = \frac{3{,}000}{41{,}750} = 0.072 \qquad \frac{L_{\text{HXRV}}}{L_{\text{stack}}} = \frac{12}{49.1} = 0.244
+\tag{30}
+$$
+
+**Equation 31, Stack Excess over the Pylon Limit.**
+The 41,750 pound stack exceeded the original 41,400 pound limit of the B-52B pylon by 350 pounds.
+[X-43A Mishap Investigation Board 2003][research_mib_2003]
+[Peebles 2007][research_peebles_2007]
+
+$$
+41{,}750 - 41{,}400 = 350 \ \text{lb}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Dynamic Pressure Ratio of the Low Launch.*
+The ratio of standard-atmosphere static pressures at 20,000 and 40,000 feet gives about 2.5, under the assumption, which the article states the trajectories do not confirm, that each stack passes a given Mach number about 20,000 feet apart in altitude.
+[U.S. Standard Atmosphere 1976 1976][research_us_atmos_1976]
+[Reubush et al. 2003][research_reubush_2003]
+
+$$
+q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \gamma p M^{2} \qquad \frac{q_{20{,}000}}{q_{40{,}000}} = \frac{p_{20{,}000}}{p_{40{,}000}} = \frac{46{,}601}{18{,}823} = 2.48
+\tag{32}
+$$
+
+**Equation 33, Oscillation Cycles from Anomaly to Overload.**
+The reported 2.00 seconds from anomaly to structural overload at the reported 2.5 hertz is five cycles.
+[X-43A Mishap Investigation Board 2003][research_mib_2003]
+
+$$
+\Delta t = t_{\text{overload}} - t_{\text{anomaly}} = 13.5 - 11.5 = 2.00 \ \text{s} \qquad n = f \, \Delta t = 2.5 \times 2.00 = 5
+\tag{33}
+$$
+
+**Equation 34, Exponentially Diverging Oscillation.**
+A divergent oscillation has an envelope that grows exponentially at rate $\sigma$, which follows from the amplitude ratio over an interval.
+
+$$
+\theta(t) = \theta_{0} \, e^{\sigma t} \cos \omega t \qquad \sigma = \frac{1}{t} \ln \frac{\theta(t)}{\theta_{0}}
+\tag{34}
+$$
+
+**Equation 35, Damping Ratio from Growth Rate and Frequency.**
+The damping ratio of a second-order mode is minus the growth rate over the modulus of the root, negative for a divergence.
+
+$$
+\zeta = \frac{-\sigma}{\sqrt{\sigma^{2} + \omega^{2}}} \qquad \omega = 2 \pi f
+\tag{35}
+$$
+
+**Equation 36, Gain Margin in Decibels.**
+A gain margin in decibels is twenty times the common logarithm of the factor by which the loop gain may rise before the stability boundary.
+
+$$
+\mathrm{GM}_{\text{dB}} = 20 \log_{10} k_{\max}
+\tag{36}
+$$
+
+**Equation 37, Fraction of Gain Margin Lost.**
+The reported correction from 8 to 2 decibels removed 83 percent of the permissible gain factor above unity.
+[X-43A Mishap Investigation Board 2003][research_mib_2003]
+
+$$
+\frac{k_{8} - k_{2}}{k_{8} - 1} = \frac{2.512 - 1.259}{2.512 - 1} = 0.83
+\tag{37}
+$$
+
+*Equation 38, Bespoke Additive Margin Model.*
+The article models the true margin as the nominal margin reduced by the sum of the magnitudes of the individual modelling errors, an assumption that the errors add without cancellation.
+
+$$
+m_{\text{true}} = m_{\text{nominal}} - \sum_{i=1}^{n} \lvert e_{i} \rvert
+\tag{38}
+$$
+
+*Equation 39, Bespoke Instability Condition for Equal Errors.*
+When each of $n$ errors is assumed to consume the same fraction $f$ of the nominal margin, the additive model is unstable exactly when $n f$ exceeds one, although each error alone leaves a positive margin.
+
+$$
+m_{\text{true}} < 0 \iff n f > 1
+\tag{39}
+$$
+
+**Equation 40, Shortfall of Separation Mach Number and Dynamic Pressure.**
+The achieved separation conditions of the second flight fall short of their targets by 1.8 percent in Mach number and 3.9 percent in dynamic pressure.
+[Marshall et al. 2005a][research_marshall_corpening_2005]
+
+$$
+\frac{6.946 - 7.075}{7.075} = -1.8 \ \% \qquad \frac{1{,}024 - 1{,}066}{1{,}066} = -3.9 \ \%
+\tag{40}
+$$
+
+**Equation 41, Phase Durations of the Second Flight.**
+The reported cowl, tare, fuelled and manoeuvre phases sum to 39.5 seconds against the reported cowl closure at 39 seconds.
+[Marshall et al. 2005a][research_marshall_corpening_2005]
+
+$$
+2.5 + 5 + 11 + 4 + 17 = 39.5 \ \text{s}
+\tag{41}
+$$
+
+**Equation 42, Phase Durations of the Third Flight.**
+The reported cowl opening, tare and fuelled phases sum to 21.5 seconds against the reported cowl closure at 22 seconds.
+[Marshall et al. 2005b][research_marshall_2005]
+[Voland et al. 2005][research_voland_2005]
+
+$$
+2.5 + 3 + 10 + 6 = 21.5 \ \text{s}
+\tag{42}
+$$
+
+**Equation 43, Thrust as a Fractional Velocity Increment.**
+The approximate thrust is rewritten as the captured momentum flux times the fractional excess of exit over flight velocity.
+
+$$
+F_{\text{thrust}} \approx \dot{m}_{0} V_{0} \left( \frac{V_{e}}{V_{0}} - 1 \right)
+\tag{43}
+$$
+
+**Equation 44, Mach Number Increments of the Speed Records.**
+The second flight exceeded the SR-71's Mach 3.32 by 3.51 and the third exceeded the second by 2.85 in Mach number.
+[Peebles 2007][research_peebles_2007]
+
+$$
+6.83 - 3.32 = 3.51 \qquad 9.68 - 6.83 = 2.85
+\tag{44}
+$$
+
+**Equation 45, Reynolds Number and Sutherland's Law.**
+The Reynolds number is the ratio of inertial to viscous forces over a reference length, with the dynamic viscosity of air from Sutherland's law.
+
+$$
+\mathrm{Re} = \frac{\rho V L}{\mu} \qquad \mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}
+\tag{45}
+$$
+
+### Notation
+
+- $F_{\text{net}}$, the net axial force
+- $F_{\text{thrust}}$, the uninstalled thrust
+- $D$, the drag
+- $\dot{m}_{0}$, the captured air mass flow, with $\dot{m}_{e}$ the mass flow at the exit
+- $V_{0}$, the flight velocity, with $V_{e}$ the exit velocity
+- $p_{e}$, the static pressure at the exit, with $p_{0}$ the ambient pressure in the thrust relation
+- $A_{c}$, the capture area, with $A_{e}$ the exit area
+- $f_{\text{st}}$, the stoichiometric fuel to air mass ratio
+- $x_{\mathrm{O_2}}$, the mole fraction of oxygen in air
+- $\mathcal{M}_{\text{air}}$, the mean molar mass of air, with $\mathcal{M}_{\mathrm{H_2}}$ the molar mass of hydrogen
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $M$, the Mach number, with $M_{2}$ the Mach number behind a normal shock in the starting criterion
+- $T_{0}$, the stagnation temperature, with $T$ the static temperature
+- $T_{0}^{*}$, the stagnation temperature at thermal choking
+- $\frac{p_{0}}{p}$, the ratio of total to static pressure
+- $q$, the dynamic pressure
+- $\rho$, the air density
+- $V$, the flight velocity
+- $a$, the speed of sound, and in the acceleration relation the axial acceleration
+- $R$, the specific gas constant of air
+- $A/A^{*}$, the isentropic area ratio
+- $\theta$, the wedge turning angle, and in the divergence relation the oscillation amplitude with $\theta_{0}$ its initial value
+- $\beta$, the shock wave angle
+- $M_{n1}$, the normal component of the upstream Mach number
+- $t_{\text{res}}$, the combustor residence time, with $L_{c}$ the combustor length and $V_{c}$ the combustor flow velocity
+- $\dot{q}_{s}$, the stagnation-point heat flux
+- $R_{n}$, the leading-edge radius
+- $k$, the heating constant of the Sutton and Graves correlation
+- $d$, the distance flown under power
+- $t_{\text{burn}}$, the powered burn time
+- $\sigma$, the growth rate of the oscillation envelope
+- $\omega$, the angular frequency of the oscillation
+- $f$, the oscillation frequency in hertz, and in the margin relations the fraction of nominal margin each error consumes
+- $\zeta$, the damping ratio
+- $\mathrm{GM}_{\text{dB}}$, the gain margin in decibels
+- $k_{\max}$, the permissible gain factor, with $k_{8}$ and $k_{2}$ its values at 8 and 2 decibels
+- $m_{\text{true}}$, the true stability margin, with $m_{\text{nominal}}$ the nominal margin
+- $e_{i}$, the $i$th modelling error
+- $n$, the number of oscillation cycles, and in the margin relations the number of modelling errors
+- $\mathrm{Re}$, the Reynolds number
+- $\mu$, the dynamic viscosity
+- $L$, the reference length
 
 ## References
 

@@ -34,12 +34,14 @@ The X-76A designation was allocated on 20 October 2025 to Bell Textron for the S
 
 $$
 P_{\mathrm{ideal}} = \frac{W^{3/2}}{\sqrt{2 \rho A}},
+\tag{1}
 $$
 
 so at fixed weight and density, doubling the disk area changes the ideal power by the factor
 
 $$
 \frac{P_{\mathrm{ideal}}(2A)}{P_{\mathrm{ideal}}(A)} = \frac{1}{\sqrt{2}} = 0.707,
+\tag{2}
 $$
 
 a saving of 29 percent. The sizing section adds the figure of merit, the transmission loss and the wing download to this ideal, and quantifies the cruise half of the tension from the helical tip Mach number.
@@ -86,6 +88,7 @@ a saving of 29 percent. The sizing section adds the figure of merit, the transmi
 
 $$
 t_{\mathrm{pub}} - t_{\mathrm{d}} \in [\,31,\ 48\,]\ \text{days}, \qquad t_{\mathrm{pub}} - t_{\mathrm{a}} \in [\,87,\ 104\,]\ \text{days}, \qquad t_{\mathrm{DARPA}} - t_{\mathrm{d}} = 84\ \text{days}.
+\tag{3}
 $$
 
 The compiler's note on the row, read in the current copy, quotes DARPA's statement that the out-of-sequence number is "a deliberate nod to the revolutionary spirit of 1776" \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\], which is 84 days after this article's date. **This article uses the row as a fact about the aeroplane and dates every use of it.** The [X-69 through X-75][related_post_a366_x69_through_x75_leapfrogged_block] article measured this lag and treats the number's meaning, and neither is revisited here.
@@ -117,6 +120,7 @@ The compiler's note on the row, read in the current copy, quotes DARPA's stateme
 
 $$
 15 + 60 = 75\ \text{million dollars}.
+\tag{4}
 $$
 
 Engine modifications were allowed, but "modifications that include the engine core are not allowed". A proposer could switch instruments between phases, an other transaction for Phase 1 and a regulation-based contract for Phase 2 being given as the example. **And "the SPRINT X-Plane is not intended to transition to an operational system"** \[[SPRINT questions and answers][ref_sprint_qa]\], which the budget books, describing a demonstrator that transitions for further risk reduction flight testing, do not contradict, since that transition is of the test aircraft and not to production \[[DARPA budget justification, fiscal year 2026][ref_darpa_pb2026]\].
@@ -143,18 +147,21 @@ Engine modifications were allowed, but "modifications that include the engine co
 
 $$
 4{,}843{,}311 + 12{,}974{,}331 + 15{,}484{,}076 = 33{,}301{,}718\ \text{dollars}.
+\tag{5}
 $$
 
 **The three recorded Phase 1A obligations sum to 15,194,105 dollars**, Aurora's pre-option figure with Piasecki's and Northrop Grumman's totals,
 
 $$
 4{,}843{,}311 + 4{,}944{,}700 + 5{,}406{,}094 = 15{,}194{,}105 = 15{,}000{,}000 + 194{,}105\ \text{dollars},
+\tag{6}
 $$
 
 **which already exceeds the solicitation's Phase 1A figure by 194,105 dollars before Bell's share is counted.** So the planning figure for Phase 1A was not a cap on what was obligated, and a figure that was not a cap for one sub-phase is weak evidence of a cap for the phase. **The three recorded contracts together total 43,652,512 dollars**, and if the solicitation's 75 million dollars for Phase 1 had held as a ceiling,
 
 $$
 B_{\mathrm{Bell}} \le 75{,}000{,}000 - (33{,}301{,}718 + 4{,}944{,}700 + 5{,}406{,}094) = 31{,}347{,}488\ \text{dollars}.
+\tag{7}
 $$
 
 **Bell's Phase 1 instrument could then not have exceeded 31,347,488 dollars, but the Phase 1A overrun shows that the premise of that bound did not hold for the first sub-phase**, so it is stated as the bound the planning figure implies and not as an estimate of what Bell received.
@@ -183,12 +190,14 @@ $$
 
 $$
 t_{\mathrm{ff}}^{\mathrm{goal}} = t_{\mathrm{award}} + 42\ \text{months} = 1\ \text{May}\ 2027, \qquad t_{\mathrm{ff}}^{\mathrm{plan}} - t_{\mathrm{ff}}^{\mathrm{goal}} \ge 8\ \text{months}, \qquad t_{\mathrm{ff}}^{\mathrm{plan}} - t_{\mathrm{award}} \ge 50\ \text{months},
+\tag{8}
 $$
 
 and the 42-month goal is 1,277 days. **The programme's other intervals set the pace against which that slip is measured**, 236 days from the solicitation's posting to the first award, and 719 days from that award to the designation's allocation,
 
 $$
 t_{\mathrm{award}} - t_{\mathrm{BAA}} = 236\ \text{days}, \qquad t_{\mathrm{a}} - t_{\mathrm{award}} = 719\ \text{days}.
+\tag{9}
 $$
 
 The comparison is between a goal and a plan, both of them documents, and implies no engineering difficulty, since no source read for this article describes one.
@@ -212,6 +221,7 @@ The comparison is between a goal and a plan, both of them documents, and implies
 
 $$
 22.663 - 13.024 = 9.639, \qquad \frac{47.000}{36.866} - 1 = 0.275, \qquad 1 - \frac{47.524}{55.200} = 0.139, \qquad 13.024 + 47.000 + 47.524 + 62.113 = 169.661.
+\tag{10}
 $$
 
 None of these figures is a contract value, and none of them can be reconciled with the award record's 43.65 million without Bell's missing instrument.
@@ -298,12 +308,14 @@ None of these figures is a contract value, and none of them can be reconciled wi
 
 $$
 T = T_0 - \Lambda h, \qquad p = p_0 \left( \frac{T}{T_0} \right)^{g / (\Lambda R)}, \qquad \rho = \frac{p}{R T}, \qquad a = \sqrt{\gamma R T}.
+\tag{11}
 $$
 
 **The solicitation's hover condition is 4,000 feet on a 95 degree Fahrenheit day** \[[SPRINT proposers day slides][ref_sprint_overview]\], which the slides give as an altitude and a temperature without naming the kind of altitude, and which this article reads as a pressure altitude. Holding pressure on the standard profile and raising temperature to 308.15 kelvin gives a density of 0.9893 kilograms per cubic metre, a density ratio of 0.8076. **Since induced power at fixed weight and disk area scales as the inverse square root of density**, the hot-day condition costs
 
 $$
 \sqrt{\frac{\rho_0}{\rho_{\mathrm{hot}}}} = \sqrt{\frac{1.225}{0.9893}} = 1.113,
+\tag{12}
 $$
 
 an 11.3 percent increase in induced power, before any loss of engine power with temperature, which this article does not model. **The turboshafts' hot-day lapse appears in none of the sources**, so every hot-day result below is optimistic by that unmodelled amount.
@@ -314,12 +326,14 @@ an 11.3 percent increase in induced power, before any loss of engine power with 
 
 $$
 \frac{1845}{1879} = 0.982, \qquad \frac{2009}{1879} = 1.069.
+\tag{13}
 $$
 
 Two engines give
 
 $$
 P = 2 \times 1879\ \text{kW} = 3758\ \text{kW}
+\tag{14}
 $$
 
 at take-off and 3,046 kilowatts at maximum continuous.
@@ -328,18 +342,21 @@ at take-off and 3,046 kilowatts at maximum continuous.
 
 $$
 P_h = \frac{W (1 + d)^{3/2}}{\mathrm{FM}\, \eta} \sqrt{\frac{w}{2 \rho}}.
+\tag{15}
 $$
 
 **Setting $P\_h$ equal to the installed power and solving for weight gives the heaviest aeroplane the two turboshafts can hover at a chosen disk loading**,
 
 $$
 W_{\max} = \frac{P\, \mathrm{FM}\, \eta}{(1 + d)^{3/2}} \sqrt{\frac{2 \rho}{w}},
+\tag{16}
 $$
 
 and solving instead for disk loading at the solicitation's heaviest weight gives the highest disk loading at which that weight can still hover,
 
 $$
 w_{\max} = 2 \rho \left( \frac{P\, \mathrm{FM}\, \eta}{W (1 + d)^{3/2}} \right)^{2}.
+\tag{17}
 $$
 
 **These depend on the three hover assumptions, and the table states them at the assumed values.** None of the three is taken from a measurement of the X-76 or quoted from a report. The figure of merit of full-scale tiltrotor proprotors was measured at Ames Research Center's outdoor facility in the 1980s, for the XV-15's metal and composite blades and a model of the V-22's \[[Felker et al. 1986a][research_felker_maisel_1986]\] \[[Felker et al. 1985][research_felker_betzina_1985]\], and the magnitude of the wing download for typical tiltrotor configurations is the subject of a review of that research \[[Felker 1988][research_felker_1988]\]. **This article read those reports' abstracts and one report's text, and it does not quote a figure from them**, because the measured values sit in plotted and tabulated data whose extracted text is not reliable. The assumed values are typical of that literature's subject and are labelled as assumptions throughout. Weights are in pounds, disk loadings in pounds per square foot, and the power fraction is the share of the two engines' take-off power needed to hover 15,000 pounds at sea level.
@@ -357,24 +374,28 @@ $$
 
 $$
 r = \sqrt{\frac{W}{2 \pi w}}.
+\tag{18}
 $$
 
 **Two CT7-8s hover 15,000 pounds at sea level at any disk loading up to about 55.6 pounds per square foot**, which corresponds to rotors of about 4.0 metres diameter each. Since the limit is proportional to density, on the solicitation's hot day before engine lapse it falls to
 
 $$
 w_{\max}^{\mathrm{hot}} = \sigma_{\mathrm{hot}}\, w_{\max} = 0.8076 \times 55.6\ \text{psf} = 44.9\ \text{psf}.
+\tag{19}
 $$
 
 **At the XV-15's disk loading they would hover about 30,800 pounds at sea level**, twice the solicitation's heaviest figure,
 
 $$
 \frac{W_{\max}(w = 13.2\ \text{psf})}{15{,}000\ \text{lb}} = \frac{30{,}775}{15{,}000} = 2.05.
+\tag{20}
 $$
 
 **Every hot-day weight in the table is the same fraction of its sea-level neighbour**, because the heaviest hover weight scales as the square root of density at fixed power and disk loading,
 
 $$
 \frac{W_{\max}(\rho_{\mathrm{hot}})}{W_{\max}(\rho_0)} = \sqrt{\frac{\rho_{\mathrm{hot}}}{\rho_0}} = \sqrt{0.8076} = 0.899,
+\tag{21}
 $$
 
 the hot day's 10 percent penalty on hover weight before any engine lapse. **The turboshafts are not the constraint on the X-76's weight at any conventional tiltrotor disk loading.** Either the aircraft is heavier than the solicitation's guidance, which the guidance explicitly permits, or it hovers with a large power margin, or it hovers at a disk loading well above a conventional tiltrotor's, and the engines alone cannot say which. **Two observations favour the third.** Folded blades must lie along their nacelles, and Bell's patent on a stowed-blade clamp describes a blade "foldable to a stowed position extending substantially parallel to the pylon" \[[US 2021/0078695][ref_pat_us20210078695]\], so blade length is bounded by nacelle length. And the solicitation set no disk loading limit \[[SPRINT broad agency announcement][ref_sprint_baa]\]. **Both are inferences about the X-76, not facts about it.**
@@ -385,12 +406,14 @@ the hot day's 10 percent penalty on hover weight before any engine lapse. **The 
 
 $$
 v_h = \sqrt{\frac{(1 + d)\, w}{2 \rho}},
+\tag{22}
 $$
 
 and the fully developed wake below an ideal rotor moves at twice that. At sea level, the XV-15's disk loading gives 16.8 metres per second at the disk and 33.7 in the wake. **A disk loading of 20 gives 20.7 and 41.5, and a disk loading of 60 gives 35.9 and 71.8.** The wake speed rises with the square root of disk loading. **What the ground and a person standing on it feel is the wake's dynamic pressure, and that has a cleaner form**, since squaring twice the induced velocity cancels the density,
 
 $$
 q_w = \tfrac{1}{2} \rho \left( 2 v_h \right)^2 = \tfrac{1}{2} \rho \cdot \frac{4 (1 + d)\, w}{2 \rho} = (1 + d)\, w.
+\tag{23}
 $$
 
 **The fully developed wake's dynamic pressure equals the rotor's thrust per unit disk area, at any altitude and on any day.** At the XV-15's disk loading it is 695 pascals, 14.5 pounds per square foot, at a disk loading of 20 it is 1,053 pascals, and at 60 it is 3,160 pascals, 66 pounds per square foot. **A stop-fold aircraft that shortens its blades to stow them pays for cruise speed in downwash, in exact proportion to the disk loading it accepts**, and downwash is the quantity runway independence is about. The literature on outwash and its effect on people standing near a hovering aircraft is cited in the survey below, and one of its studies is titled for that question \[[Calvert and Wenren 2019][research_calvert_wenren_2019_2]\], which this article cites for its title only.
@@ -401,6 +424,7 @@ $$
 
 $$
 F = F_0\, \sigma\, \varphi,
+\tag{24}
 $$
 
 and sweeps the factor $\varphi$ from 0.5 to 0.7 at cruise Mach numbers. **That range is an assumption, not a measurement of this engine**, and the results are stated across it.
@@ -409,6 +433,7 @@ and sweeps the factor $\varphi$ from 0.5 to 0.7 at cruise Mach numbers. **That r
 
 $$
 f_{\max} = \frac{F}{q} = \frac{F_0\, \sigma\, \varphi}{\tfrac{1}{2} \sigma \rho_0 V^2} = \frac{2 F_0\, \varphi}{\rho_0 V^2}.
+\tag{25}
 $$
 
 **The density ratio cancels, so the largest drag area the jet can push at a given true airspeed is the same at every altitude**, to the extent that the lapse factor is. At 400 knots true airspeed the coefficient $2 F\_0 / (\rho\_0 V^2)$ is 1.200 square metres and at 450 knots it is 0.948. **Across the swept lapse factor, the X-76 can carry at most 0.60 to 0.84 square metres of equivalent drag area at 400 knots, 6.5 to 9.0 square feet, and 0.47 to 0.66 square metres at 450 knots.** That budget includes the induced drag of lifting the aircraft, so the parasite budget is smaller still. **It must hold the fuselage, the wing, two nacelles with their folded blades, the tails and the inlet**, which explains why the folded configuration has to be clean and why Bell has patented a chined spinner and blade fairings for the folded rotor, the abstract describing blades "folded down" in forward flight against fairings that cover them \[[US 12,030,623][ref_pat_us12030623]\].
@@ -417,12 +442,14 @@ $$
 
 $$
 \left( \frac{L}{D} \right)_{\mathrm{req}} = \frac{W}{F} = \frac{W}{F_0\, \sigma\, \varphi}.
+\tag{26}
 $$
 
 At 15,000 pounds and the middle of the lapse range, the required ratio is 5.68 at 15,000 feet, 6.70 at 20,000, 7.97 at 25,000 and 9.55 at 30,000. At 8,000 pounds it is 3.03 at 15,000 feet and 5.09 at 30,000. **The requirement rises with altitude because thrust falls with density while weight does not**, so the bottom of the solicitation's altitude band is where the turbofan most easily meets the speed requirement, and **a heavy X-76 would most plausibly demonstrate 400 knots near 15,000 feet.** The claim follows from the model alone. **Turned around, the same relation gives the highest altitude at which a given lift-to-drag ratio still allows 400 knots**, since level flight needs the density ratio to be at least
 
 $$
 \sigma_{\min} = \frac{W}{F_0\, \varphi\, E},
+\tag{27}
 $$
 
 which at 15,000 pounds and the middle of the lapse range is 0.595 for $E = 6$, 0.447 for $E = 8$ and 0.357 for $E = 10$, standard-atmosphere altitudes of about 16,700, 25,100 and 31,200 feet. **A lift-to-drag ratio near 6 in the folded cruise configuration would confine a 15,000 pound X-76 to the bottom of the solicitation's band**, and the band's top needs a ratio near 10.
@@ -431,12 +458,14 @@ which at 15,000 pounds and the middle of the lapse range is 0.595 for $E = 6$, 0
 
 $$
 P_F = F V = 31.13\ \text{kN} \times 0.6292 \times 0.6 \times 205.8\ \text{m/s} = 2.42\ \text{MW},
+\tag{28}
 $$
 
 against 3.05 megawatts of maximum continuous shaft power from the two CT7-8s,
 
 $$
 \frac{P_F}{P_{\mathrm{mcp}}} = \frac{2.42\ \text{MW}}{3.05\ \text{MW}} = 0.79.
+\tag{29}
 $$
 
 **The aircraft thus carries two power sources of the same order and uses one at a time**, the cost of having two propulsion systems and the reason Bell's patents describe drive systems that let an otherwise idle lift engine contribute thrust in cruise through a pylon-mounted ducted fan \[[US 11,325,719][ref_pat_us11325719]\], or that couple and decouple rotors and thrust fans through clutches in one gearbox \[[US 11,577,831][ref_pat_us11577831]\]. **Whether the X-76 does either has not been disclosed.**
@@ -447,6 +476,7 @@ $$
 
 $$
 M_h = \frac{\sqrt{V^2 + V_t^2}}{a}.
+\tag{30}
 $$
 
 **The XV-15 turned its 25-foot proprotors at 517 revolutions per minute in airplane mode and 589 in helicopter mode**, tip speeds of 206.3 and 235.0 metres per second \[[The History of the XV-15 Tilt Rotor Research Aircraft][ref_xv15_history]\]. **The hover figure can be checked against a measurement.** At sea level 235.0 metres per second is a tip Mach number of 0.69, inside the range of 0.60 to 0.73 over which a full-scale XV-15 rotor's hover performance was measured, a range across which that test found "very little effect on rotor performance due to tip Mach number variations" \[[Felker et al. 1985][research_felker_betzina_1985]\]. The height-velocity envelope in that history's appendix reaches about 300 knots true at 16,000 feet \[[The History of the XV-15 Tilt Rotor Research Aircraft][ref_xv15_history]\], where its airplane-mode helical tip Mach number is 0.80. **At the X-76's speeds the same tip speed is no longer workable.** At 400 knots and 15,000 feet it gives 0.90, and at 450 knots and 25,000 feet it gives 1.00, a tip that is sonic.
@@ -455,18 +485,21 @@ $$
 
 $$
 V_t \le a \sqrt{M_{h,\max}^2 - M^2},
+\tag{31}
 $$
 
 and taking 0.85 as that limit, which is an assumption, the XV-15's airplane-mode tip speed is exceeded above 350 knots at 15,000 feet and above 318 knots at 25,000. **To hold the limit at 450 knots and 25,000 feet the rotor would have to turn at about 61 percent of that tip speed**, and at 400 knots and 15,000 feet at about 88 percent. **And at an airspeed equal to the limit times the speed of sound no tip speed at all satisfies it**,
 
 $$
 V_{\mathrm{wall}} = M_{h,\max}\, a,
+\tag{32}
 $$
 
 which is 532 knots at 15,000 feet and 512 knots at 25,000. **The objective of 450 knots is therefore not beyond the compressibility wall**, but it is in the region where a proprotor must be slowed so far that its advance ratio is high and its thrust per unit of tip speed is poor. **The two quantities make that concrete.** The tip speed allowed as a fraction of the XV-15's, and the advance ratio that results, are
 
 $$
 \kappa = \frac{a \sqrt{M_{h,\max}^2 - M^2}}{V_t^{\mathrm{XV15}}}, \qquad \lambda = \frac{V}{\kappa\, V_t^{\mathrm{XV15}}},
+\tag{33}
 $$
 
 which give $\kappa = 0.877$ and $\lambda = 1.14$ at 400 knots and 15,000 feet, and $\kappa = 0.607$ and $\lambda = 1.85$ at 450 knots and 25,000 feet. **The XV-15 at its 300 knots ran at an advance ratio of 0.75**, so the X-76's objective asks a proprotor for two and a half times the advance ratio of the aircraft that proved the configuration. That, with whirl flutter, is the case for stopping the rotor rather than slowing it. **Bell's paper states the conclusion and not this arithmetic**, that the stop-fold configuration can "make the rotor disappear" in cruise \[[Schank et al. 2025][research_schank_xin_2025]\].
@@ -477,6 +510,7 @@ which give $\kappa = 0.877$ and $\lambda = 1.14$ at 400 knots and 15,000 feet, a
 
 $$
 V_s = \sqrt{\frac{2\, (W/S)}{\rho_0\, C_{L}^{\max}}},
+\tag{34}
 $$
 
 which at sea level, taking a maximum lift coefficient of 1.6, is 105 knots at a wing loading of 60 pounds per square foot, 122 at 80 and 136 at 100. **The wing loading of the X-76 is not public and those three values are illustrative.** The historical literature puts the stopping speed in the range that result implies. Engle and Sambell placed rotor stopping "in the 120 to 200-knot speed range" in 1969 \[[Engle and Sambell 1969][research_engle_sambell_1969]\], and the full-scale folding rotor tested in 1972 completed more than forty start and stop sequences at tunnel speeds up to 175 knots, making "smooth start/stop transitions" in about two seconds \[[Large Scale Wind Tunnel 1972][research_reportcr114464_1972]\]. **The conversion corridor of a stop-fold aircraft is therefore a band bounded below by the wing, at the illustrative stall speeds between 105 and 136 knots, and above by the loads on a rotor being stopped and on blades being folded in a moving airstream, which the historical tests put between 175 and 200 knots**, and a stopped blade at the wrong angle can go unstable in a way a turning blade does not, a full-scale test having found "violent dynamic instabilities" of a stopped blade that its author concluded were a type of stall flutter \[[White 1969][research_white_1969]\].
@@ -487,24 +521,28 @@ which at sea level, taking a maximum lift coefficient of 1.6, is 105 knots at a 
 
 $$
 m_e = 2 \times 243.6 + 623.5 = 1110.7\ \text{kg}.
+\tag{35}
 $$
 
 As a fraction of gross mass,
 
 $$
 \mu_e = \frac{m_e}{m_0} = \frac{1110.7\ \text{kg}}{6803.9\ \text{kg}} = 0.163 \quad \text{at 15,000 lb}, \qquad \frac{1110.7\ \text{kg}}{3628.7\ \text{kg}} = 0.306 \quad \text{at 8,000 lb}.
+\tag{36}
 $$
 
 **Bare engines at 16 percent of gross mass, before transmissions, shafts, the fold mechanism, inlets and nacelles, put the X-76 at the heavy end of the solicitation's range or above it.** At the light end the bare engines alone would be almost a third of the aircraft. **This is the article's one line of evidence that the demonstrator is heavier than 15,000 pounds or close to it**, an inference from certificated engine data and not a statement about the aircraft. The hover power margin is not a second line, because the section on installed power found that it is equally consistent with a heavier aircraft, a large power margin or a high disk loading, and that two observations favour the high disk loading. The turboshafts' specific power and the turbofan's static thrust-to-weight ratio are
 
 $$
 \frac{1879\ \text{kW}}{243.6\ \text{kg}} = 7.7\ \text{kW/kg}, \qquad \frac{31.15\ \text{kN}}{623.5\ \text{kg} \times g} = 5.1,
+\tag{37}
 $$
 
 so **the turbofan is the heavier of the two systems for the job it does**, carrying the aircraft only in the one flight phase that a proprotor cannot reach. **And the turbofan alone could not lift the aircraft.** Its static thrust is a fraction of the weight at both ends of the solicitation's range,
 
 $$
 \frac{F_0}{W} = \frac{31.15\ \text{kN}}{66.72\ \text{kN}} = 0.47 \quad \text{at 15,000 lb}, \qquad \frac{31.15\ \text{kN}}{35.59\ \text{kN}} = 0.88 \quad \text{at 8,000 lb},
+\tag{38}
 $$
 
 so even a jet vectored downward could not hover the X-76. The hover must be the rotors', and the conversion is a hand-over between two systems rather than a change of attitude of one.
@@ -549,6 +587,7 @@ so even a jet vectored downward could not hover the X-76. The hover must be the 
 
 $$
 N_r = \frac{60\, V_t}{2 \pi r}, \qquad \mathcal{G} = \frac{N_e}{N_r} = \frac{2 \pi r\, N_e}{60\, V_t}.
+\tag{39}
 $$
 
 At the XV-15's own rotor speeds the reduction would be 37.3 in hover and 42.4 in airplane mode. **For a 15,000 pound X-76 at the XV-15's hover tip speed of 235 metres per second**, the rotor radii of the hover table give a proprotor speed of 547 revolutions per minute and a reduction of 40.1 at the XV-15's disk loading, 674 and 32.6 at a disk loading of 20, and 1,167 and 18.8 at a disk loading of 60. **A small stowable rotor needs a smaller reduction, a weight saving in the gearbox that partly offsets the weight of the fold**, and like every statement here about the X-76's rotor it depends on a disk loading that is not public. **The data sheet read is issue 10, dated 19 December 2025, four days after the article's date**, and the base model's ratings and mass quoted here are those of that issue. **A turboshaft of this family is a natural choice for the solicitation's existing-engine rule**, being the commercial counterpart of the T700 engines, which with the CT7 power 20 of the 47 rows whose basic mission symbol is H in the copy of the register last updated on 23 August 2026. **Whether the X-76's two turboshafts run in cruise, idle, or shut down is not public**, and the answer matters for fuel, for restart reliability before the rotors are unfolded, and for the thermal management system the budget book names.
@@ -722,6 +761,7 @@ At the XV-15's own rotor speeds the reduction would be 37.3 in hover and 42.4 in
 
 $$
 f_{\max} = \frac{2\, n_F\, F_0\, \varphi}{\rho_0 V^2},
+\tag{40}
 $$
 
 **so if the X-76 carries two turbofans, the drag budget doubles and the certificate point disappears**, and no source this article found excludes that.
@@ -857,6 +897,409 @@ $$
 **The concept is at least sixty years old in the open literature and was shown at full scale in a wind tunnel in 1972**, when a folding 25-foot proprotor was stopped and started more than forty times. It was then set aside for its weight, its complexity, and the lack of a convertible engine that could drive rotors and make jet thrust in one machine. **The 1980s built that engine and proposed folding tiltrotor demonstrators around it, and none was built.** The X-76 accepts the weight and the complexity and goes around the engine, because its solicitation required existing engines so that engine development could not delay first flight. **The earlier literature judged separate lift and cruise engines the heavier choice, and the X-76 makes it anyway.** The solicitation's existing-engine rule explains why, and the competing finalist's identical choice, a turbofan and a turboshaft in a fan-in-wing aircraft, supports the reading that the rule and not the configuration drove it.
 
 **On 15 December 2025 nothing had flown, the designation was not public, and the schedule had moved by at least eight months against the solicitation's goal.** The programme's documents disagree on when its second phase began, a contractor's mirror misdates two of its releases by a year, and the contract that is building the aircraft was not found in the public award record. **The question the X-76 exists to answer, the conversion, remains open**, because hovering and fast cruise have each been done and the sequence between them, in flight, with a real wing and a real jet, has not.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 40 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 40, 26 are established and 14 are bespoke.
+The relations are evaluated in the International System while weights are quoted in pounds, disk loadings in pounds per square foot and speeds in knots as the solicitation states them, and the hover results rest on an assumed figure of merit of 0.75, drive efficiency of 0.90 and download of 10 percent, while the cruise results rest on a thrust lapse factor swept from 0.5 to 0.7.
+
+**Equation 1, Ideal Induced Power in Hover.**
+Momentum theory gives the induced power of an ideal rotor system as the weight to the three-halves power over the square root of twice the density times the disk area.
+
+$$
+P_{\mathrm{ideal}} = \frac{W^{3/2}}{\sqrt{2 \rho A}},
+\tag{1}
+$$
+
+**Equation 2, Effect of Doubling the Disk Area on Ideal Power.**
+At fixed weight and density, doubling the disk area multiplies the ideal induced power by the reciprocal of the square root of two, a saving of 29 percent.
+
+$$
+\frac{P_{\mathrm{ideal}}(2A)}{P_{\mathrm{ideal}}(A)} = \frac{1}{\sqrt{2}} = 0.707,
+\tag{2}
+$$
+
+**Equation 3, Publication and Announcement Lags of the Register Row.**
+The archived copies of the register place the row's first public appearance 31 to 48 days after the article's date and 87 to 104 days after the allocation, and the announcement came 84 days after the article's date.
+[Parsch, DOD 4120.15-L Addendum, as archived on 10 December 2025][ref_mds_addendum_wb_2025_12]
+[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]
+
+$$
+t_{\mathrm{pub}} - t_{\mathrm{d}} \in [\,31,\ 48\,]\ \text{days}, \qquad t_{\mathrm{pub}} - t_{\mathrm{a}} \in [\,87,\ 104\,]\ \text{days}, \qquad t_{\mathrm{DARPA}} - t_{\mathrm{d}} = 84\ \text{days}.
+\tag{3}
+$$
+
+**Equation 4, Phase 1 Funding of the Solicitation.**
+The 15 million dollars for Phase 1A and the 60 million for Phase 1B make up the solicitation's 75 million dollars for Phase 1.
+[SPRINT questions and answers][ref_sprint_qa]
+[SPRINT broad agency announcement][ref_sprint_baa]
+
+$$
+15 + 60 = 75\ \text{million dollars}.
+\tag{4}
+$$
+
+**Equation 5, Decomposition of Aurora's Contract.**
+Aurora's obligations before the Phase 1B modification, at that modification and after it sum exactly to the contract total of 33,301,718 dollars.
+[Award HR001124C0325 to Aurora Flight Sciences][ref_award_aurora]
+
+$$
+4{,}843{,}311 + 12{,}974{,}331 + 15{,}484{,}076 = 33{,}301{,}718\ \text{dollars}.
+\tag{5}
+$$
+
+**Equation 6, Recorded Phase 1A Obligations.**
+Aurora's pre-option obligations with the Piasecki and Northrop Grumman totals sum to 15,194,105 dollars, which exceeds the solicitation's Phase 1A figure by 194,105 dollars.
+[Award HR001124C0325 to Aurora Flight Sciences][ref_award_aurora]
+[Award HR001124C0326 to Piasecki Aircraft][ref_award_piasecki]
+[Award HR001124C0327 to Northrop Grumman][ref_award_northrop]
+
+$$
+4{,}843{,}311 + 4{,}944{,}700 + 5{,}406{,}094 = 15{,}194{,}105 = 15{,}000{,}000 + 194{,}105\ \text{dollars},
+\tag{6}
+$$
+
+*Equation 7, Bespoke Bound on Bell's Instrument Under a Phase 1 Ceiling.*
+If the solicitation's 75 million dollars had held as a ceiling on Phase 1, a premise the Phase 1A overrun shows did not hold, Bell's instrument could not have exceeded 31,347,488 dollars.
+[Award HR001124C0325 to Aurora Flight Sciences][ref_award_aurora]
+
+$$
+B_{\mathrm{Bell}} \le 75{,}000{,}000 - (33{,}301{,}718 + 4{,}944{,}700 + 5{,}406{,}094) = 31{,}347{,}488\ \text{dollars}.
+\tag{7}
+$$
+
+*Equation 8, Bespoke Slip of First Flight.*
+The solicitation's goal of first flight 42 months after the award gives 1 May 2027, and taking the plan of early 2028 as 1 January 2028 makes the slip at least eight months.
+[SPRINT broad agency announcement][ref_sprint_baa]
+
+$$
+t_{\mathrm{ff}}^{\mathrm{goal}} = t_{\mathrm{award}} + 42\ \text{months} = 1\ \text{May}\ 2027, \qquad t_{\mathrm{ff}}^{\mathrm{plan}} - t_{\mathrm{ff}}^{\mathrm{goal}} \ge 8\ \text{months}, \qquad t_{\mathrm{ff}}^{\mathrm{plan}} - t_{\mathrm{award}} \ge 50\ \text{months},
+\tag{8}
+$$
+
+**Equation 9, Intervals From Solicitation to Award and From Award to Allocation.**
+The first award came 236 days after the solicitation was posted, and the designation was allocated 719 days after that award.
+
+$$
+t_{\mathrm{award}} - t_{\mathrm{BAA}} = 236\ \text{days}, \qquad t_{\mathrm{a}} - t_{\mathrm{award}} = 719\ \text{days}.
+\tag{9}
+$$
+
+**Equation 10, Budget Shortfall, Growth and Total.**
+Fiscal year 2024 was executed 9.639 million dollars below its request, fiscal year 2025 rose 27.5 percent from request to actual, fiscal year 2026 fell 13.9 percent from its request to the latest book, and the latest figures for fiscal years 2024 to 2027 sum to 169.661 million dollars.
+[DARPA budget justification, fiscal year 2024][ref_darpa_pb2024]
+[DARPA budget justification, fiscal year 2025][ref_darpa_pb2025]
+[DARPA budget justification, fiscal year 2026][ref_darpa_pb2026]
+[DARPA budget justification, fiscal year 2027][ref_darpa_pb2027]
+
+$$
+22.663 - 13.024 = 9.639, \qquad \frac{47.000}{36.866} - 1 = 0.275, \qquad 1 - \frac{47.524}{55.200} = 0.139, \qquad 13.024 + 47.000 + 47.524 + 62.113 = 169.661.
+\tag{10}
+$$
+
+**Equation 11, Troposphere of the Standard Atmosphere.**
+Below 11 kilometres the temperature falls linearly with altitude, the pressure follows from the hydrostatic relation, the density from the equation of state and the speed of sound from the temperature.
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+T = T_0 - \Lambda h, \qquad p = p_0 \left( \frac{T}{T_0} \right)^{g / (\Lambda R)}, \qquad \rho = \frac{p}{R T}, \qquad a = \sqrt{\gamma R T}.
+\tag{11}
+$$
+
+**Equation 12, Hot-Day Increase in Induced Power.**
+Induced power at fixed weight and disk area scales as the inverse square root of density, so the solicitation's hover condition of 4,000 feet on a 95 degree Fahrenheit day costs 11.3 percent before any engine lapse.
+[SPRINT proposers day slides][ref_sprint_overview]
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+\sqrt{\frac{\rho_0}{\rho_{\mathrm{hot}}}} = \sqrt{\frac{1.225}{0.9893}} = 1.113,
+\tag{12}
+$$
+
+**Equation 13, Take-Off Power of the Family Against the Base Model.**
+The take-off ratings of the other models in the certificated family lie between 0.982 and 1.069 times the base model's 1,879 kilowatts.
+[Type-certificate data sheet for the CT7 series][ref_easa_ct7]
+
+$$
+\frac{1845}{1879} = 0.982, \qquad \frac{2009}{1879} = 1.069.
+\tag{13}
+$$
+
+**Equation 14, Installed Take-Off Power.**
+Two turboshafts at the certificated take-off rating give 3,758 kilowatts.
+[Type-certificate data sheet for the CT7 series][ref_easa_ct7]
+
+$$
+P = 2 \times 1879\ \text{kW} = 3758\ \text{kW}
+\tag{14}
+$$
+
+**Equation 15, Hover Power With Figure of Merit, Drive Loss and Download.**
+The shaft power to hover is the ideal induced power for a thrust raised by the wing download, divided by the rotor figure of merit and the drive efficiency and written in terms of disk loading.
+
+$$
+P_h = \frac{W (1 + d)^{3/2}}{\mathrm{FM}\, \eta} \sqrt{\frac{w}{2 \rho}}.
+\tag{15}
+$$
+
+**Equation 16, Heaviest Weight the Installed Power Can Hover.**
+Setting the hover power equal to the installed power and solving for weight gives the heaviest aeroplane that can hover at a chosen disk loading.
+
+$$
+W_{\max} = \frac{P\, \mathrm{FM}\, \eta}{(1 + d)^{3/2}} \sqrt{\frac{2 \rho}{w}},
+\tag{16}
+$$
+
+**Equation 17, Highest Disk Loading at Which a Weight Can Hover.**
+Solving the hover power relation for disk loading at a given weight gives the highest disk loading at which that weight can still hover.
+
+$$
+w_{\max} = 2 \rho \left( \frac{P\, \mathrm{FM}\, \eta}{W (1 + d)^{3/2}} \right)^{2}.
+\tag{17}
+$$
+
+**Equation 18, Radius of Each of Two Equal Rotors.**
+Each rotor's radius follows from the total disk area, weight over disk loading, shared equally between two circular disks.
+
+$$
+r = \sqrt{\frac{W}{2 \pi w}}.
+\tag{18}
+$$
+
+*Equation 19, Bespoke Disk Loading Limit on the Hot Day.*
+At the assumed figure of merit, drive efficiency and download, the sea-level limit of 55.6 pounds per square foot scales with the density ratio to 44.9 on the solicitation's hot day.
+
+$$
+w_{\max}^{\mathrm{hot}} = \sigma_{\mathrm{hot}}\, w_{\max} = 0.8076 \times 55.6\ \text{psf} = 44.9\ \text{psf}.
+\tag{19}
+$$
+
+*Equation 20, Bespoke Hover Weight at the XV-15's Disk Loading.*
+At the assumed hover efficiencies and the XV-15's published disk loading of 13.2 pounds per square foot, two turboshafts would hover about 30,800 pounds, twice the solicitation's heaviest weight.
+[The History of the XV-15 Tilt Rotor Research Aircraft][ref_xv15_history]
+
+$$
+\frac{W_{\max}(w = 13.2\ \text{psf})}{15{,}000\ \text{lb}} = \frac{30{,}775}{15{,}000} = 2.05.
+\tag{20}
+$$
+
+**Equation 21, Hot-Day Ratio of Hover Weights.**
+At fixed power and disk loading the heaviest hover weight scales as the square root of density, so the hot day costs about 10 percent of hover weight before engine lapse.
+
+$$
+\frac{W_{\max}(\rho_{\mathrm{hot}})}{W_{\max}(\rho_0)} = \sqrt{\frac{\rho_{\mathrm{hot}}}{\rho_0}} = \sqrt{0.8076} = 0.899,
+\tag{21}
+$$
+
+**Equation 22, Induced Velocity at the Disk.**
+Momentum theory gives the induced velocity at the disk in hover as the square root of the thrust per unit disk area, including the download, over twice the density.
+
+$$
+v_h = \sqrt{\frac{(1 + d)\, w}{2 \rho}},
+\tag{22}
+$$
+
+**Equation 23, Dynamic Pressure of the Hover Wake.**
+Because the fully developed wake moves at twice the induced velocity, its dynamic pressure equals the thrust per unit disk area at any altitude and on any day.
+
+$$
+q_w = \tfrac{1}{2} \rho \left( 2 v_h \right)^2 = \tfrac{1}{2} \rho \cdot \frac{4 (1 + d)\, w}{2 \rho} = (1 + d)\, w.
+\tag{23}
+$$
+
+*Equation 24, Bespoke Thrust Lapse of the Turbofan.*
+For want of a published lapse, the article models the turbofan's thrust as its sea-level static thrust times the density ratio times a Mach factor it sweeps from 0.5 to 0.7.
+[Type-certificate data sheet for the PW308 series][ref_easa_pw308]
+
+$$
+F = F_0\, \sigma\, \varphi,
+\tag{24}
+$$
+
+*Equation 25, Bespoke Largest Drag Area the Jet Can Push.*
+Under the article's lapse model the density ratio cancels, so the largest equivalent flat-plate drag area at a given true airspeed is the same at every altitude.
+
+$$
+f_{\max} = \frac{F}{q} = \frac{F_0\, \sigma\, \varphi}{\tfrac{1}{2} \sigma \rho_0 V^2} = \frac{2 F_0\, \varphi}{\rho_0 V^2}.
+\tag{25}
+$$
+
+*Equation 26, Bespoke Required Lift-to-Drag Ratio.*
+With thrust equal to drag and lift equal to weight, the article's lapse model gives the lift-to-drag ratio the aircraft must reach as weight over available thrust.
+
+$$
+\left( \frac{L}{D} \right)_{\mathrm{req}} = \frac{W}{F} = \frac{W}{F_0\, \sigma\, \varphi}.
+\tag{26}
+$$
+
+*Equation 27, Bespoke Lowest Density Ratio for Level Flight.*
+Turning the required ratio around gives the lowest density ratio, and so the highest altitude, at which a given lift-to-drag ratio still allows level flight under the article's lapse model.
+
+$$
+\sigma_{\min} = \frac{W}{F_0\, \varphi\, E},
+\tag{27}
+$$
+
+*Equation 28, Bespoke Thrust Power of the Turbofan in Cruise.*
+At 400 knots and 15,000 feet and a lapse factor of 0.6 taken at the middle of the assumed range, the turbofan's thrust power is 2.42 megawatts.
+
+$$
+P_F = F V = 31.13\ \text{kN} \times 0.6292 \times 0.6 \times 205.8\ \text{m/s} = 2.42\ \text{MW},
+\tag{28}
+$$
+
+*Equation 29, Bespoke Thrust Power Against Shaft Power.*
+The turbofan's cruise thrust power at the assumed lapse factor is 0.79 of the two turboshafts' maximum continuous shaft power.
+
+$$
+\frac{P_F}{P_{\mathrm{mcp}}} = \frac{2.42\ \text{MW}}{3.05\ \text{MW}} = 0.79.
+\tag{29}
+$$
+
+**Equation 30, Helical Tip Mach Number.**
+A proprotor tip in axial flight moves at the vector sum of its tip speed and the flight speed, so its helical tip Mach number is that resultant over the speed of sound.
+[Dittmar and Hall 1991][research_dittmar_hall_1991]
+
+$$
+M_h = \frac{\sqrt{V^2 + V_t^2}}{a}.
+\tag{30}
+$$
+
+**Equation 31, Largest Tip Speed Under a Helical Tip Mach Limit.**
+Holding the helical tip Mach number to a limit bounds the tip speed by the speed of sound times the square root of the limit squared less the flight Mach number squared.
+
+$$
+V_t \le a \sqrt{M_{h,\max}^2 - M^2},
+\tag{31}
+$$
+
+**Equation 32, Airspeed at Which No Tip Speed Satisfies the Limit.**
+When the flight speed equals the helical tip Mach limit times the speed of sound, no positive tip speed satisfies the limit.
+
+$$
+V_{\mathrm{wall}} = M_{h,\max}\, a,
+\tag{32}
+$$
+
+*Equation 33, Bespoke Allowed Tip Speed Fraction and Advance Ratio.*
+The article expresses the allowed tip speed as a fraction of the XV-15's airplane-mode tip speed under an assumed helical tip Mach limit of 0.85, together with the advance ratio that results.
+[The History of the XV-15 Tilt Rotor Research Aircraft][ref_xv15_history]
+
+$$
+\kappa = \frac{a \sqrt{M_{h,\max}^2 - M^2}}{V_t^{\mathrm{XV15}}}, \qquad \lambda = \frac{V}{\kappa\, V_t^{\mathrm{XV15}}},
+\tag{33}
+$$
+
+**Equation 34, Wing Stall Speed.**
+The stall speed is the square root of twice the wing loading over the sea-level density times the maximum lift coefficient.
+
+$$
+V_s = \sqrt{\frac{2\, (W/S)}{\rho_0\, C_{L}^{\max}}},
+\tag{34}
+$$
+
+*Equation 35, Bespoke Dry Mass of the Engines on the One-Turbofan Reading.*
+Reading the register's engine cell as one turbofan and two turboshafts, the certificated dry masses sum to 1,110.7 kilograms.
+[Type-certificate data sheet for the CT7 series][ref_easa_ct7]
+[Type-certificate data sheet for the PW308 series][ref_easa_pw308]
+
+$$
+m_e = 2 \times 243.6 + 623.5 = 1110.7\ \text{kg}.
+\tag{35}
+$$
+
+*Equation 36, Bespoke Engine Mass Fraction.*
+On the one-turbofan reading the bare engines are 0.163 of gross mass at the solicitation's 15,000 pounds and 0.306 at its 8,000 pounds.
+
+$$
+\mu_e = \frac{m_e}{m_0} = \frac{1110.7\ \text{kg}}{6803.9\ \text{kg}} = 0.163 \quad \text{at 15,000 lb}, \qquad \frac{1110.7\ \text{kg}}{3628.7\ \text{kg}} = 0.306 \quad \text{at 8,000 lb}.
+\tag{36}
+$$
+
+**Equation 37, Specific Power and Static Thrust-to-Weight Ratio.**
+The turboshaft's certificated take-off power over its dry mass is 7.7 kilowatts per kilogram, and the turbofan's static thrust over its dry weight is 5.1.
+[Type-certificate data sheet for the CT7 series][ref_easa_ct7]
+[Type-certificate data sheet for the PW308 series][ref_easa_pw308]
+
+$$
+\frac{1879\ \text{kW}}{243.6\ \text{kg}} = 7.7\ \text{kW/kg}, \qquad \frac{31.15\ \text{kN}}{623.5\ \text{kg} \times g} = 5.1,
+\tag{37}
+$$
+
+**Equation 38, Turbofan Static Thrust Against Gross Weight.**
+The turbofan's sea-level static thrust is 0.47 of the weight at 15,000 pounds and 0.88 at 8,000 pounds, so it alone could not hover the aircraft.
+
+$$
+\frac{F_0}{W} = \frac{31.15\ \text{kN}}{66.72\ \text{kN}} = 0.47 \quad \text{at 15,000 lb}, \qquad \frac{31.15\ \text{kN}}{35.59\ \text{kN}} = 0.88 \quad \text{at 8,000 lb},
+\tag{38}
+$$
+
+**Equation 39, Proprotor Speed and Speed Reduction.**
+A proprotor of a given radius and tip speed turns at a rotational speed that, set against the turboshaft output speed, fixes the reduction the drive system must make.
+[Type-certificate data sheet for the CT7 series][ref_easa_ct7]
+
+$$
+N_r = \frac{60\, V_t}{2 \pi r}, \qquad \mathcal{G} = \frac{N_e}{N_r} = \frac{2 \pi r\, N_e}{60\, V_t}.
+\tag{39}
+$$
+
+*Equation 40, Bespoke Drag Ceiling With More Than One Turbofan.*
+Under the article's lapse model the drag ceiling scales with the number of turbofans, so a second turbofan would double the drag budget.
+
+$$
+f_{\max} = \frac{2\, n_F\, F_0\, \varphi}{\rho_0 V^2},
+\tag{40}
+$$
+
+### Notation
+
+- $W$, the gross weight
+- $m_0$, the gross mass, with $W = m_0 g$
+- $m_e$, the dry mass of the three engines together
+- $\mu_e$, the engine mass fraction, $m_e / m_0$
+- $P_h$, the shaft power required to hover out of ground effect, with $P$ the installed shaft power of the two turboshafts
+- $P_{\mathrm{ideal}}$, the induced power of an ideal rotor system in hover
+- $P_F$, the thrust power of the turbofan, $F V$
+- $\mathrm{FM}$, the rotor figure of merit in hover, assumed 0.75
+- $\eta$, the transmission and accessory efficiency in hover, assumed 0.90
+- $d$, the wing download as a fraction of weight, assumed 0.10
+- $A$, the total disk area of the two proprotors
+- $w$, the disk loading, $W / A$
+- $r$, the radius of one proprotor
+- $v_h$, the induced velocity at the disk in hover
+- $\rho_0$, the sea-level standard density, 1.225 kilograms per cubic metre, with $\rho$ the air density
+- $\sigma$, the density ratio, $\rho / \rho_0$
+- $T_0$, the sea-level standard temperature, 288.15 kelvin, with $T$ the air temperature
+- $p_0$, the sea-level standard pressure, 101,325 pascals, with $p$ the air pressure
+- $\Lambda$, the tropospheric temperature lapse rate, 0.0065 kelvin per metre
+- $h$, the geopotential altitude
+- $R$, the specific gas constant of air, 287.05 joules per kilogram kelvin
+- $\gamma$, the ratio of specific heats of air, 1.4
+- $a$, the speed of sound
+- $F_0$, the turbofan sea-level static thrust at a stated rating, with $F$ its thrust at altitude and speed
+- $\varphi$, the turbofan's thrust lapse factor at cruise Mach number, swept 0.5 to 0.7
+- $f_{\max}$, the largest equivalent flat-plate drag area the jet can push
+- $V$, the true airspeed
+- $M_h$, the helical tip Mach number of a proprotor in axial flight, with $M_{h,\max}$ its limit
+- $V_t$, the proprotor tip speed
+- $V_s$, the wing stall speed
+- $C_{L}^{\max}$, the maximum lift coefficient, assumed 1.6
+- $E$, the lift-to-drag ratio, $L / D$
+- $q_w$, the dynamic pressure of the fully developed hover wake
+- $\kappa$, the proprotor tip speed as a fraction of the XV-15's airplane-mode tip speed
+- $\lambda$, the proprotor advance ratio in axial flight
+- $N_r$, the proprotor speed in revolutions per minute, with $N_e$ the turboshaft output speed
+- $\mathcal{G}$, the speed reduction from turboshaft output to proprotor, $N_e / N_r$
+- $n_F$, the number of turbofans fitted
+- $t_{\mathrm{pub}}$, the row's first public appearance, with $t_{\mathrm{a}}$ the allocation and $t_{\mathrm{d}}$ this article's date
+- $t_{\mathrm{ff}}$, first flight, as a goal or a plan, with $t_{\mathrm{award}}$ the first Phase 1A award and $t_{\mathrm{BAA}}$ the solicitation
+- $B_{\mathrm{Bell}}$, the value of Bell's Phase 1 instrument
 
 ## References
 

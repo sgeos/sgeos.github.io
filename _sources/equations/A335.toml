@@ -1,0 +1,367 @@
+# Equation classification for A335. Read by `python3 _lib/equations.py`.
+
+caution = "All relations are evaluated in the International System, with weights and areas also quoted in pounds and square feet where the sources give them, and the article's notation table resolves the colliding symbols, so $V$ is a speed under the canopy while $v$ is every other speed, $a$ is a semi-major axis while every acceleration carries a bar or a subscript, $e$ is the base of the natural logarithm, $H$ is the atmospheric scale height, and $L/D$ is about 3 for the canopy but about 0.8 for the vehicle in entry."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Kinetic Energy at Touchdown"
+gloss = "The kinetic energy the landing system must dissipate is half the mass times the speed squared."
+cite = []
+digest = "0c4bf773f7a61936"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Resultant Force Coefficient and Glide Speed"
+gloss = "A gliding canopy balances weight against the resultant aerodynamic force, so its airspeed follows from the resultant coefficient, the wing loading and the density."
+cite = ["ref_parafoil"]
+digest = "de5741ab748335bc"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Glide Angle"
+gloss = "The glide angle below the horizontal is the inverse tangent of one over the glide ratio."
+cite = []
+digest = "c530d70f2291e10c"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Vertical and Horizontal Components of the Glide"
+gloss = "The sink rate and forward speed are the airspeed resolved through the glide angle, the forward speed being the glide ratio times the sink rate."
+cite = []
+digest = "60368ad214107a25"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Energy Ratio of Runway and Parafoil Landings"
+gloss = "The ratio is the square of the speed ratio between a runway touchdown taken at ninety metres per second and a canopy flown at an assumed lift coefficient of 0.80 and glide ratio of 3."
+cite = []
+digest = "acb976667fd7c5ac"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Speed Proportional to the Inverse Root of Lift Coefficient"
+gloss = "The lift coefficient appears once under a radical, so every canopy speed varies as its inverse square root."
+cite = []
+digest = "dc154f3dc5c9f49d"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Energy Ratio Proportional to Lift Coefficient"
+gloss = "Since the canopy kinetic energy varies inversely with the lift coefficient, the energy ratio varies as its first power."
+cite = []
+digest = "822c1c8dc978855c"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Ratio of Forward to Vertical Kinetic Energy"
+gloss = "In steady glide the forward kinetic energy is the square of the glide ratio times the vertical kinetic energy, with no mass, area or density appearing."
+cite = []
+digest = "c396a86dac30c08b"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Sink Rate After a Partial Flare"
+gloss = "The flared sink rate assumes the canopy converts five percent of the forward energy into arrested descent."
+cite = []
+digest = "e944e6e00df8a3be"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Mean Deceleration Over an Arresting Stroke"
+gloss = "A vertical arrival arrested over a stroke imposes a mean deceleration of the sink rate squared over twice the stroke."
+cite = []
+digest = "0bc4da8c3b0d18dd"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Deceleration After a Flare Over Thirty Centimetres"
+gloss = "The flared sink rate, which rests on the assumed lift coefficient and flare fraction, arrested over an assumed thirty centimetre stroke gives 2.89 times standard gravity."
+cite = []
+digest = "5285f40bf387bf59"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Deceleration of a Runway Speed Over Thirty Centimetres"
+gloss = "Arresting a touchdown speed taken as ninety metres per second over the same assumed stroke gives 1,376.6 times standard gravity."
+cite = []
+digest = "b62d17003604ea08"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Wing Loading of the Canopy"
+gloss = "The published vehicle mass over the published canopy area gives 159.6 newtons per square metre, or 3.33 pounds per square foot."
+cite = ["ref_wing_loading"]
+digest = "60fb5847bc12c1b1"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Canopy Loading Against Skydiving Canopies"
+gloss = "Dividing the canopy loading by the published student and experienced ranges gives multiples of 3.7 to 4.8 and 1.9 to 3.0."
+cite = ["ref_perris_wingload"]
+digest = "b9cb590e6a1a6698"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Canopy Area for a Demanded Sink Rate"
+gloss = "Inverting the glide relation gives the canopy area, which varies as the inverse square of the sink rate."
+cite = []
+digest = "d406b041a5b83503"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Mass Model in the Crew Count"
+gloss = "The vehicle mass is modelled as a fixed fraction of the empty mass, taken as 0.55, plus a remainder scaling with the seat count and a crew mass of 97.3 kilograms per seat."
+cite = []
+digest = "381949747bc3cd39"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Canopy Area for a Single-Seat Vehicle"
+gloss = "At a fixed sink rate the area is proportional to mass, so the assumed mass model gives a single-seat canopy of 0.586 of the flown area."
+cite = []
+digest = "8733533378ed898c"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Drogue Area for a Target Speed"
+gloss = "The drogue area follows from the steady descent condition at a target speed."
+cite = []
+digest = "99d24253fbdbc050"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Drogue Area as a Share of the Main Canopy"
+gloss = "The drogue area at an assumed drag coefficient of 0.55 and a target speed of 27 metres per second is 0.650 of the main canopy."
+cite = []
+digest = "01c4b5e67ef685a4"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Dynamic Pressure at Deployment"
+gloss = "At the published deployment speed of about 27 metres per second and sea-level density the dynamic pressure is 446.5 pascals."
+cite = ["ref_x38"]
+digest = "614c99be2ad8c71f"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Steady Load of the Full Canopy"
+gloss = "The steady drag of the fully inflated canopy uses a drag coefficient of 0.75 that the article assumes."
+cite = []
+digest = "1bd4b61e3e74af41"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Canopy Area Admitted by a Deceleration Limit"
+gloss = "Inverting the steady drag gives the largest canopy area a deceleration limit admits at a given dynamic pressure."
+cite = []
+digest = "03dda0866f1e7f45"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Speed at Which the Steady Load Reaches a Limit"
+gloss = "Inverting the steady drag for speed gives the speed at which the full canopy reaches a given deceleration limit."
+cite = []
+digest = "c4c3b011133d057c"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Peak Load With an Opening-Shock Factor"
+gloss = "The peak opening load is the steady load multiplied by an opening-shock factor in the usual range of 1.5 to 2.5."
+cite = []
+digest = "5f11058ac3d59a1c"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Glide Range"
+gloss = "The reach of a canopy is its height traded for distance at the glide ratio."
+cite = []
+digest = "9fa8e7c6ee8daab6"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Vis-Viva Relation and Transfer Semi-Major Axis"
+gloss = "The speed on an orbit follows from the vis-viva relation, with the semi-major axis of the transfer the mean of its apsis radii."
+cite = []
+digest = "f2416786c89d57dd"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Cost of Lowering Perigee for Deorbit"
+gloss = "Lowering perigee from a circular station orbit near four hundred kilometres to a perigee the article chooses costs 132.8 metres per second."
+cite = []
+digest = "abc968d1f2d3f091"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Allen and Eggers Peak Deceleration"
+gloss = "For a ballistic entry the peak deceleration depends on the entry speed, the entry path angle and the density scale height, and not on the ballistic coefficient."
+cite = ["ref_allen_eggers"]
+digest = "dbf768cc07b014d9"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Lift Relief of the Peak Deceleration"
+gloss = "The peak is reduced by a relief factor of one over the square root of one plus the lift-to-drag ratio squared, an approximation the article takes from the eased vertical force balance."
+cite = []
+digest = "00b2713d8ec8e61e"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Scaling Exponent Between Two Vehicles"
+gloss = "For a quantity that scales as a power of a length, the exponent is the ratio of the logarithms of the two quantity and length ratios."
+cite = []
+digest = "9cd767141d8d36df"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Measured Mass Exponent From the X-24A to the X-38"
+gloss = "The sourced lengths and launch masses give a mass exponent of 3.295, and the cube law of geometric similarity gives a mass 1.068 times below the X-38's."
+cite = ["ref_cochrane_graham_1971", "book_rdalereed_1997", "ref_x38"]
+digest = "bbaa65f7c9897d1b"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Mass Exponent Under the Alternative Sourced Inputs"
+gloss = "Taking in turn the builder's mass of about 11,000 pounds and the tabulated length of 24.50 feet gives exponents of 3.69 and 3.63."
+cite = ["ref_cochrane_graham_1971", "research_saltzmanedwinj_wangkcharles_2007"]
+digest = "b6bce6dbe3549f32"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Length Ratio of the Atmospheric to the Orbital Vehicle"
+gloss = "The published lengths of 24.5 and 30 feet give a ratio of 0.817."
+cite = ["ref_nasa_x38"]
+digest = "7cda18c389ea8f7e"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Sink Rate Proportional to the Square Root of Mass"
+gloss = "At fixed canopy area and coefficients the sink rate varies as the square root of mass, so a fractional mass shortfall halves into the sink rate."
+cite = []
+digest = "e90262bb2b43442e"
+
+[[symbol]]
+tex = 'C_{R}'
+meaning = "the resultant force coefficient"
+
+[[symbol]]
+tex = 'L/D'
+meaning = "the lift-to-drag ratio, about 3 for the canopy and about 0.8 for the vehicle in entry"
+
+[[symbol]]
+tex = 'S'
+meaning = "the canopy area, with $S_{d}$ the drogue area"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the glide angle below the horizontal"
+
+[[symbol]]
+tex = 'V_{\text{vertical}}'
+meaning = "the sink rate under the canopy, with $V_{\\text{horizontal}}$ the forward speed"
+
+[[symbol]]
+tex = 'E_{\text{runway}}'
+meaning = "the kinetic energy at a runway touchdown, with $E_{\\text{parafoil}}$ that under the canopy"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the fraction of the forward energy the flare converts into arrested descent"
+
+[[symbol]]
+tex = '\bar{a}'
+meaning = "the mean deceleration over an arresting stroke"
+
+[[symbol]]
+tex = 's'
+meaning = "the arresting stroke"
+
+[[symbol]]
+tex = 'g_{0}'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the fraction of the empty mass independent of the crew"
+
+[[symbol]]
+tex = 'c'
+meaning = "the crew count, with $c_{\\max}$ the full complement of seven"
+
+[[symbol]]
+tex = 'm_{\text{crew}}'
+meaning = "the mass added per crew member"
+
+[[symbol]]
+tex = 'g_{\text{limit}}'
+meaning = "a deceleration limit in multiples of standard gravity"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the opening-shock factor"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the Earth"
+
+[[symbol]]
+tex = 'a'
+meaning = "the semi-major axis"
+
+[[symbol]]
+tex = 'r_{a}'
+meaning = "the apogee radius, with $r_{p}$ the perigee radius"
+
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the entry speed"
+
+[[symbol]]
+tex = '\gamma_{e}'
+meaning = "the entry flight path angle"
+
+[[symbol]]
+tex = 'H'
+meaning = "the atmospheric scale height"
+
+[[symbol]]
+tex = 'k'
+meaning = "the lift relief factor"
+
+[[symbol]]
+tex = 'n'
+meaning = "the scaling exponent"

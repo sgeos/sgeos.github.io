@@ -1,0 +1,479 @@
+# Equation classification for A346. Read by `python3 _lib/equations.py`.
+
+caution = "The rotor and wing relations are evaluated in feet, pounds, slugs and knots at sea level, with a knot taken as 1.68781 feet per second, and several letters are reused, so $N$ is the blade count in the solidity and the rotor speed in revolutions per minute in the slowed-rotor relation, $A$ is the rotor disc area while $A_d$ is the duct disc area, $T$ and $P$ are the rotor thrust and power in the hover relations and the propulsor thrust and power in the duct relations, and $f$ is the fraction of weight the wing carries while $f_e$ is the equivalent flat plate area."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Advancing and Retreating Tip Speeds"
+gloss = "In forward flight the advancing tip sees the tip speed plus the flight speed and the retreating tip sees their difference."
+cite = ["book_prouty", "book_stepniewski"]
+digest = "455d58d7aadaa5f2"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Advance Ratio"
+gloss = "The advance ratio is the flight speed divided by the rotor tip speed."
+cite = ["book_prouty", "book_stepniewski"]
+digest = "477abf1720836cf3"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Dynamic Pressure at the Retreating Tip"
+gloss = "The dynamic pressure at the retreating tip falls relative to the hover as the square of one minus the advance ratio."
+cite = ["book_leishman", "book_johnson_helicopter_theory"]
+digest = "769efa7606b4c46a"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Required Lift Coefficient at the Retreating Tip"
+gloss = "To carry the same section lift at reduced dynamic pressure the retreating tip needs a lift coefficient larger by the inverse square of one minus the advance ratio."
+cite = ["book_leishman", "book_johnson_helicopter_theory"]
+digest = "d599821ecb09deb0"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Reverse Flow Region as a Fraction of the Disc"
+gloss = "The reverse flow region is a circle of diameter $\\mu R$ tangent to the hub, so its share of the disc area is one quarter of the square of the advance ratio."
+cite = ["research_blade_response_high_mu"]
+digest = "2586d871cde83162"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Seahawk Rotor Radius from the Published Diameter"
+gloss = "Half the published rotor diameter of 53 feet 8 inches is 26.83 feet, which agrees with the radius in the National Aeronautics and Space Administration airloads report."
+cite = ["ref_sh60_wikipedia", "ref_nasa_uh60a_airloads"]
+digest = "ef80ae1378c31784"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Rotor Tip Speed of the X-49A"
+gloss = "The tip speed of 724.9 feet per second follows from the UH-60A rotor speed of 258 revolutions per minute and radius of 26.83 feet, on the assumption that the YSH-60F rotor shares that published geometry and speed."
+cite = ["ref_nasa_uh60a_airloads"]
+digest = "7abf45df26b6ec8f"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Hover Tip Mach Number"
+gloss = "The assumed tip speed divided by the standard sea-level speed of sound of 1,116.45 feet per second gives a hover tip Mach number of 0.649, a derived value that no source publishes for this rotor."
+cite = ["research_us_standard_atmosphere"]
+digest = "39f6c415b607ca39"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Rotor Solidity from the Nominal Chord"
+gloss = "The solidity is the blade area divided by the disc area, and four blades of the nominal 1.73 foot chord give 0.0821 against the reported geometric solidity of 0.0826."
+cite = ["ref_nasa_uh60a_airloads"]
+digest = "37adbf6ef3a0a3ad"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Blade Loading at Mission Gross Weight"
+gloss = "The blade loading coefficient evaluated at the SH-60B mission gross weight of 17,758 pounds and sea-level density is 0.0761, on the assumed UH-60A rotor geometry and tip speed."
+cite = ["book_bramwell", "ref_sh60_wikipedia"]
+digest = "51df1a7e44ef01be"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Practical Cruise Limit Converted to Knots"
+gloss = "The magazine figure of about 140 statute miles per hour converts to 121.7 knots."
+cite = ["ref_airspace_hot_rod"]
+digest = "f7333415a5655248"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Lift Carried by a Wing"
+gloss = "A wing carrying a fraction $f$ of the weight must generate that lift from the dynamic pressure, its area and its lift coefficient."
+cite = []
+digest = "6dc30b0558699b16"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Wing Area Required at 190 Knots"
+gloss = "The lift equation solved for wing area is evaluated at the dynamic pressure of 190 knots, the demonstrated maximum speed as this article reads the published kilometre figure."
+cite = []
+digest = "8b252a2374867bd2"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Rotor Blade Loading of the Compound"
+gloss = "The rotor blade loading is reduced in exact proportion to the share of weight the wing takes, a model that assumes the wing carries its fraction with no interference or download on the rotor."
+cite = []
+digest = "45d17f0ec0550f91"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Tip Speed That Holds the Advancing Tip at Mach 0.90"
+gloss = "Holding the advancing tip at a chosen Mach 0.90 at the never-exceed speed of 220 knots, which is the article's reading of the published figure, requires a tip speed of 633.5 feet per second."
+cite = []
+digest = "8dcbe258a996b856"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Rotor Speed Reduction Required"
+gloss = "The required tip speed on the 26.83 foot radius is 225.5 revolutions per minute, a reduction of 12.6 percent from the assumed Seahawk rotor speed of 258."
+cite = []
+digest = "e9c54fa8bd5f2f75"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Conversion Weight Against Empty and Maximum Weight"
+gloss = "The 1,600 pound conversion is expressed against the SH-60B empty and maximum take-off weights, on the stated assumption that those figures apply to the YSH-60F."
+cite = ["ref_x49_wikipedia", "ref_sh60_wikipedia"]
+digest = "38c59be77df29296"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Useful Load of the SH-60B"
+gloss = "The useful load is the published maximum take-off weight less the published empty weight, and equals the payload the same reference states."
+cite = ["ref_sh60_wikipedia"]
+digest = "12c43727e9487f04"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Conversion Weight as a Share of Useful Load"
+gloss = "The 1,600 pound conversion takes 23.9 percent of the SH-60B useful load, on the stated assumption that the SH-60B weights apply to the YSH-60F."
+cite = []
+digest = "ddb35be5e874c262"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Disc Loading at Maximum Gross Weight"
+gloss = "The published maximum take-off weight divided by the disc area of the published rotor diameter gives a disc loading of 9.68 pounds per square foot."
+cite = []
+digest = "9e836ca37942565f"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Induced Velocity and Slipstream Dynamic Pressure in the Hover"
+gloss = "Momentum theory gives the induced velocity from the disc loading and sea-level density, and the fully developed slipstream at twice that velocity has a dynamic pressure equal to the disc loading."
+cite = ["book_mccormick"]
+digest = "db37f2fa89f9c5b9"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Download per Unit Wing Area"
+gloss = "The download per square foot of wing is the slipstream dynamic pressure times a broadside drag coefficient the article takes as 1.2 to 1.5."
+cite = []
+digest = "44b3669b750b625e"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Hover Power Penalty of Download"
+gloss = "The rotor must lift the weight plus the download, and by momentum theory the hover power rises as the three-halves power of the thrust ratio."
+cite = []
+digest = "8158a48ae3c4875c"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Stranded Engine Power"
+gloss = "Two engines of 1,890 shaft horsepower against a gearbox rated at 3,400 strand 380 shaft horsepower, 10.1 percent of take-off power, on the assumption that the YSH-60F carried the improved durability gearbox."
+cite = ["ref_sh60_wikipedia", "ref_patent_us6898975"]
+digest = "5596eb7c492d487a"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Helicopter Power Components and Parasite Power"
+gloss = "Helicopter power is the sum of induced, profile and parasite terms, and the parasite power rises as the cube of speed times the equivalent flat plate area."
+cite = ["book_prouty"]
+digest = "678f3c772a3934e4"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Parasite Power Ratio Between Baseline and Demonstrated Speed"
+gloss = "At fixed flat plate area the parasite power rises by the cube of the speed ratio, evaluated between an assumed baseline cruise of 130 knots and the 190 knots this article reads as the demonstrated maximum."
+cite = []
+digest = "539e1c24e6789bf4"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Momentum and Energy Flux of an Actuator Disc"
+gloss = "The thrust of an actuator disc is the mass flow times the far wake velocity and its power is the kinetic energy flux, which equals the thrust times the velocity at the disc."
+cite = []
+digest = "582a730cc6cad92d"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Slipstream Contraction of an Open Rotor"
+gloss = "Since the far wake moves at twice the velocity at the disc, continuity contracts the slipstream to half the disc area."
+cite = []
+digest = "66d0e6c0c2c005c0"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Mass Flow and Exit Velocity of a Ducted Propulsor"
+gloss = "With the exit area held by the duct, the mass flow is set at the disc and the exit velocity is the disc velocity divided by the ratio of exit to disc area."
+cite = ["research_ducted_prop_theory", "research_ducted_propeller_study"]
+digest = "fa8c9af869620834"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Thrust and Power of a Ducted Propulsor"
+gloss = "The ducted actuator disc thrust is the mass flow times the exit velocity and its power is the kinetic energy flux of the exit stream."
+cite = ["research_ducted_prop_theory", "research_ducted_propeller_study"]
+digest = "6b59e3a7beccd7d1"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Static Thrust Augmentation of a Duct"
+gloss = "Eliminating the disc velocity at constant power and disc area gives a thrust ratio over the open rotor of the cube root of twice the exit area ratio."
+cite = ["research_ducted_prop_theory", "research_ducted_propeller_study"]
+digest = "cad42916595ca0eb"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Augmentation with the Exit at the Disc Area"
+gloss = "A duct that holds the exit area equal to the disc area gives 26 percent more static thrust than an open rotor for the same power."
+cite = []
+digest = "bbcec350e0af33a6"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Encyclopaedia Speeds Converted to Knots"
+gloss = "The published maximum, cruise and never-exceed speeds of 350, 250 and 410 kilometres per hour convert to 189.0, 135.0 and 221.4 knots."
+cite = ["ref_x49_wikipedia"]
+digest = "5fb36168c94ff3a9"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Check of the Adopted Speeds"
+gloss = "The 190 and 220 knot values the article adopts convert to 351.9 and 407.4 kilometres per hour, which supports reading the published figures as rounded conversions."
+cite = []
+digest = "57ce453f02170fa6"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Shortfall Against the Speed Objective"
+gloss = "The shortfall is the 200 knot objective less the 190 knots this article takes as the demonstrated maximum."
+cite = ["ref_x49_globalsecurity"]
+digest = "2c6a8681f5d0aa64"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Speed Comparison with the 16H-1A"
+gloss = "The 190 knots this article takes as the X-49A maximum converts to 218.65 statute miles per hour, 6.35 below the 225 miles per hour of the 16H-1A."
+cite = ["ref_piasecki_16h1a", "ref_robb_vertiflite"]
+digest = "179c95cd26b2b731"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Ratio of Power Loadings"
+gloss = "The ratio sets the 16H-1A at 10,800 pounds and 1,250 horsepower against the X-49A at the SH-60B maximum weight and an assumed 3,400 shaft horsepower gearbox rating."
+cite = ["ref_pathfinder_wikipedia", "ref_piasecki_16h1a"]
+digest = "10d6a18a7092bb01"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Advancing Tip Mach Number"
+gloss = "The advancing tip Mach number is the sum of the tip speed and flight speed divided by the speed of sound."
+cite = []
+digest = "bffc3fa60a96d779"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Ratio of Power Loadings at the Lighter Gross Weight"
+gloss = "Taking the 16H-1A gross weight as the 8,000 pounds of the Vertipedia database, with the same assumed X-49A gearbox rating, brings the ratio to 0.994."
+cite = ["ref_vertipedia_16h1a"]
+digest = "a1414cdcb9bff0c6"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Ratio of Power Loadings at the Lower Engine Rating"
+gloss = "Taking the 16H-1A engine as 1,050 shaft horsepower from the manufacturer's narrative, with the same assumed X-49A gearbox rating, raises the ratio to 1.598."
+cite = ["ref_piasecki_16h1a"]
+digest = "d474ce9227b8e0d4"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Manufacturer's Speed Against the Adopted Maximum"
+gloss = "The 203 miles per hour the company gave converts to 176.4 knots, 13.6 knots below the 190 knots this article adopts."
+cite = ["ref_airspace_hot_rod"]
+digest = "f90cc2d06949290d"
+
+[[symbol]]
+tex = '\Omega R'
+meaning = "the rotor tip speed"
+
+[[symbol]]
+tex = 'V'
+meaning = "the flight speed"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the advance ratio"
+
+[[symbol]]
+tex = 'R'
+meaning = "the rotor radius"
+
+[[symbol]]
+tex = 'q_{\text{ret}}'
+meaning = "the dynamic pressure at the retreating tip, with $q_{\\text{hover}}$ its value in the hover"
+
+[[symbol]]
+tex = 'c_{\ell,\text{req}}'
+meaning = "the section lift coefficient required at the retreating tip, with $c_{\\ell,\\text{hover}}$ its value in the hover"
+
+[[symbol]]
+tex = 'A_{\text{reverse}}'
+meaning = "the area of the reverse flow region"
+
+[[symbol]]
+tex = 'A'
+meaning = "the rotor disc area"
+
+[[symbol]]
+tex = 'M_{\text{tip}}^{\text{hover}}'
+meaning = "the hover tip Mach number"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the rotor solidity"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of blades, and in the slowed-rotor relation the rotor speed in revolutions per minute"
+
+[[symbol]]
+tex = 'c'
+meaning = "the blade chord"
+
+[[symbol]]
+tex = 'C_T'
+meaning = "the rotor thrust coefficient"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, taken at sea level"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fraction of the weight carried by the wing"
+
+[[symbol]]
+tex = 'S_w'
+meaning = "the wing area"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'v_i'
+meaning = "the induced velocity at the rotor disc"
+
+[[symbol]]
+tex = 'q_{\text{slip}}'
+meaning = "the dynamic pressure of the fully developed slipstream"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient of the wing broadside to the slipstream"
+
+[[symbol]]
+tex = 'D_{\text{dn}}'
+meaning = "the download on the wing"
+
+[[symbol]]
+tex = 'T_{\text{req}}'
+meaning = "the rotor thrust required in the hover"
+
+[[symbol]]
+tex = 'P_0'
+meaning = "the hover power without download"
+
+[[symbol]]
+tex = 'P_p'
+meaning = "the parasite power, with $P_i$ and $P_o$ the induced and profile power"
+
+[[symbol]]
+tex = 'f_e'
+meaning = "the equivalent flat plate area"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow through the disc"
+
+[[symbol]]
+tex = 'w'
+meaning = "the far wake velocity of an open rotor"
+
+[[symbol]]
+tex = 'A_d'
+meaning = "the disc area of the propulsor"
+
+[[symbol]]
+tex = 'v_d'
+meaning = "the velocity at the disc"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the exit velocity of the ducted flow"
+
+[[symbol]]
+tex = '\sigma_d'
+meaning = "the ratio of duct exit area to disc area"
+
+[[symbol]]
+tex = 'T_{\text{open}}'
+meaning = "the thrust of an open rotor at the same power and disc area"
+
+[[symbol]]
+tex = 'M_{\text{adv}}'
+meaning = "the advancing tip Mach number"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound"
+
+[[symbol]]
+tex = 'W_{\text{useful}}'
+meaning = "the useful load"

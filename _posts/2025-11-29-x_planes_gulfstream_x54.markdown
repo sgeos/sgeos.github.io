@@ -46,17 +46,26 @@ Parsch obtained the data in this addendum from official Department of Defense so
 
 Every point on the airframe that displaces air sends out a disturbance. Above the speed of sound those disturbances cannot run ahead, so they pile onto a cone trailing the aeroplane at the Mach angle \[[Mach Number][ref_mach_number]\] \[[Liepmann and Roshko, Elements of gasdynamics][book_liepmann_roshko]\]
 
-$$\mu \;=\; \arcsin\!\left(\frac{1}{M}\right),$$
+$$
+\mu \;=\; \arcsin\!\left(\frac{1}{M}\right),
+\tag{1}
+$$
 
 where the speed of sound in a perfect gas depends on temperature and on nothing else \[[Anderson, Modern compressible flow][book_anderson_compressible]\],
 
-$$a \;=\; \sqrt{\gamma R T}.$$
+$$
+a \;=\; \sqrt{\gamma R T}.
+\tag{2}
+$$
 
 At Mach 1.4 the Mach angle is 45.6 degrees and at Mach 1.8 it is 33.7 degrees, so a faster aeroplane drags a narrower cone behind it.
 
 **The wave does not travel straight down and that matters later.** A ray leaves normal to the cone surface, so it makes the Mach angle with the vertical, and the distance it covers from cruise altitude $h$ to the ground is \[[Haefeli et al. 1969a][research_hayes_cr1299]\]
 
-$$r \;=\; \frac{h}{\cos\mu} \;=\; \frac{h}{\sqrt{1 - M^{-2}}}.$$
+$$
+r \;=\; \frac{h}{\cos\mu} \;=\; \frac{h}{\sqrt{1 - M^{-2}}}.
+\tag{3}
+$$
 
 At Mach 1.4 from 45,000 feet that is 19,598 metres of air against an altitude of 13,716, a path 42.9 percent longer than the altitude suggests.
 
@@ -64,17 +73,26 @@ At Mach 1.4 from 45,000 feet that is 19,598 metres of air against an altitude of
 
 **What turns that structure into a boom is that the strong parts travel faster than the weak parts.** A weak shock does not propagate at the speed of sound. It propagates slightly faster, by an amount proportional to its own strength \[[Whitham, Linear and nonlinear waves][book_whitham]\] \[[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]\]
 
-$$\frac{U}{a} \;=\; 1 \;+\; \frac{\gamma+1}{4\gamma}\,\frac{\Delta p}{p} \;+\; \mathcal{O}\!\left(\frac{\Delta p}{p}\right)^{2}.$$
+$$
+\frac{U}{a} \;=\; 1 \;+\; \frac{\gamma+1}{4\gamma}\,\frac{\Delta p}{p} \;+\; \mathcal{O}\!\left(\frac{\Delta p}{p}\right)^{2}.
+\tag{4}
+$$
 
 **So the front of the signature catches the middle and the back of it catches the middle from behind.** Given enough distance the structure collapses into two shocks with a linear expansion between them, which is the N-wave everybody on the ground actually hears \[[Sonic Boom][ref_sonic_boom]\] \[[N-Wave][ref_n_wave]\] \[[Pierce, Acoustics, an introduction to its physical principles and applications][book_pierce]\].
 
 **The shape it decays into has a name and a form.** For a positive-phase duration $T_{N}$ the waveform is a straight line between two jumps, the symbol carrying a subscript because $T$ is already the temperature in this article \[[Darden 1976][research_darden_1976]\] \[[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]\],
 
-$$\Delta p(t) \;=\; \Delta p_{\max}\left(1 - \frac{2t}{T_{N}}\right), \qquad 0 \le t \le T_{N},$$
+$$
+\Delta p(t) \;=\; \Delta p_{\max}\left(1 - \frac{2t}{T_{N}}\right), \qquad 0 \le t \le T_{N},
+\tag{5}
+$$
 
 whose positive-phase impulse follows immediately, and which matters because loudness depends on the shape and not only on the peak \[[McCurdy 1994][research_boom_shapes_risetimes]\],
 
-$$I \;=\; \int_{0}^{T_{N}/2}\Delta p(t)\,\mathrm{d}t \;=\; \frac{\Delta p_{\max} T_{N}}{4}.$$
+$$
+I \;=\; \int_{0}^{T_{N}/2}\Delta p(t)\,\mathrm{d}t \;=\; \frac{\Delta p_{\max} T_{N}}{4}.
+\tag{6}
+$$
 
 **The crucial point here is easy to miss.** The N-wave is not what the aeroplane makes. **The N-wave is what any shape decays into**, and two isolated shocks with nothing between them make it loud, because they present the ear with two near-instantaneous pressure steps.
 
@@ -92,32 +110,50 @@ $$I \;=\; \int_{0}^{T_{N}/2}\Delta p(t)\,\mathrm{d}t \;=\; \frac{\Delta p_{\max}
 
 Whitham showed in 1952 that the far-field disturbance of a slender supersonic body is governed by a single function of one variable, computed from the body's cross-sectional area distribution \[[Whitham 1952][research_whitham_1952]\] \[[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]\]
 
-$$F(y) \;=\; \frac{1}{2\pi}\int_{0}^{y} \frac{A_e''(\xi)}{\sqrt{y-\xi}}\;\mathrm{d}\xi .$$
+$$
+F(y) \;=\; \frac{1}{2\pi}\int_{0}^{y} \frac{A_e''(\xi)}{\sqrt{y-\xi}}\;\mathrm{d}\xi .
+\tag{7}
+$$
 
 **The subscript matters.** $A_e$ is not the geometric cross-section. It is the equivalent area, which adds to the physical area a term representing the lift the aeroplane is carrying, because a lifting surface displaces the air whether or not it is thick \[[Darden 1976][research_darden_1976]\]
 
-$$A_e(x) \;=\; A(x) \;+\; \frac{\beta}{2q}\int_{0}^{x} \ell(\xi)\,\mathrm{d}\xi ,
-\qquad \beta = \sqrt{M^{2}-1}.$$
+$$
+A_e(x) \;=\; A(x) \;+\; \frac{\beta}{2q}\int_{0}^{x} \ell(\xi)\,\mathrm{d}\xi ,
+\qquad \beta = \sqrt{M^{2}-1}.
+\tag{8}
+$$
 
 **An aeroplane's boom is therefore partly a consequence of its weight**, and all of the lift enters the equivalent area by the tail,
 
-$$A_{L}(l) \;=\; \frac{\beta W}{2q},$$
+$$
+A_{L}(l) \;=\; \frac{\beta W}{2q},
+\tag{9}
+$$
 
 so a heavier aeroplane at the same length is louder for reasons no amount of shaping can remove \[[Area Rule][ref_area_rule]\].
 
 **The penalty follows a square root, a milder law than proportionality.** A fully aged N-wave amplitude goes as the square root of the F-function amplitude, and the F-function amplitude is linear in the lift \[[McLean 1965][research_mclean_nonasymptotic]\] \[[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]\], so
 
-$$\Delta p \;\propto\; W^{1/2}.$$
+$$
+\Delta p \;\propto\; W^{1/2}.
+\tag{10}
+$$
 
 **Doubling the aeroplane's weight costs only 41.4 percent in overpressure.** No other exponent in this subject is generous.
 
 Before nonlinear steepening takes hold, the pressure disturbance at distance $r$ follows from $F$ directly \[[On the propagation of weak shock waves][research_whitham_1956]\],
 
-$$\frac{\Delta p}{p_\infty} \;=\; \frac{\gamma M^{2}}{\sqrt{2\beta}}\,\frac{F(y)}{\sqrt{r}} ,$$
+$$
+\frac{\Delta p}{p_\infty} \;=\; \frac{\gamma M^{2}}{\sqrt{2\beta}}\,\frac{F(y)}{\sqrt{r}} ,
+\tag{11}
+$$
 
 and once the wave has aged into an N-wave the amplitude and the duration take the classical exponents \[[On the propagation of weak shock waves][research_whitham_1956]\] \[[Haefeli et al. 1969a][research_hayes_cr1299]\]
 
-$$\Delta p \;\propto\; r^{-3/4}, \qquad \Delta t \;\propto\; r^{1/4}.$$
+$$
+\Delta p \;\propto\; r^{-3/4}, \qquad \Delta t \;\propto\; r^{1/4}.
+\tag{12}
+$$
 
 **The obvious reading of those two exponents is wrong.** Doubling the distance costs 40.5 percent of the overpressure and buys 18.9 percent more duration, which sounds like a great deal. **The trouble is that an aeroplane cannot double its cruise altitude.** Climbing from 45,000 feet to 50,000 feet is an 11.1 percent increase in distance and buys 7.6 percent off the overpressure, and halving the boom by climbing alone would require 113,393 feet.
 
@@ -129,8 +165,11 @@ Hayes supplied the other half in 1972, showing how the signature propagates thro
 
 **The mathematics also contains a serious catch.** The wave drag of a slender body in linearised supersonic flow is a functional of the same second derivative that sets the F-function \[[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]\],
 
-$$D \;=\; -\frac{q}{2\pi}\int_{0}^{l}\!\!\int_{0}^{l} A_e''(x_{1})\,A_e''(x_{2})\,
-\ln\lvert x_{1}-x_{2}\rvert \;\mathrm{d}x_{1}\,\mathrm{d}x_{2}.$$
+$$
+D \;=\; -\frac{q}{2\pi}\int_{0}^{l}\!\!\int_{0}^{l} A_e''(x_{1})\,A_e''(x_{2})\,
+\ln\lvert x_{1}-x_{2}\rvert \;\mathrm{d}x_{1}\,\mathrm{d}x_{2}.
+\tag{13}
+$$
 
 **So the boom and the drag are two different functionals of one function**, and the distribution that minimises the first is not the distribution that minimises the second. **A low-boom aeroplane pays for its quietness in cruise efficiency**, and the design literature that follows accordingly treats the two objectives as a trade.
 
@@ -200,16 +239,25 @@ It forbids a civil aircraft from exceeding Mach 1 over the United States, except
 
 Below the tropopause the temperature falls linearly and hydrostatic equilibrium in a perfect gas fixes the pressure \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\],
 
-$$T(z) \;=\; T_{0} - Lz, \qquad
-p(z) \;=\; p_{0}\left(\frac{T(z)}{T_{0}}\right)^{g/LR},$$
+$$
+T(z) \;=\; T_{0} - Lz, \qquad
+p(z) \;=\; p_{0}\left(\frac{T(z)}{T_{0}}\right)^{g/LR},
+\tag{14}
+$$
 
 with $L = 0.0065$ kelvin per metre giving an exponent of 5.2559. Above it the temperature is constant to a first approximation and the pressure falls exponentially with a scale height of 6,341.6 metres \[[U.S. Standard Atmosphere 1976 1976][research_us_standard_atmosphere_1976]\],
 
-$$p(z) \;=\; p_{11}\exp\!\left[-\frac{g\,(z - z_{11})}{R\,T_{11}}\right].$$
+$$
+p(z) \;=\; p_{11}\exp\!\left[-\frac{g\,(z - z_{11})}{R\,T_{11}}\right].
+\tag{15}
+$$
 
 **The dynamic pressure follows from the pressure and the Mach number alone**, and this form is the useful one because a flight test report states both \[[Liepmann and Roshko, Elements of gasdynamics][book_liepmann_roshko]\],
 
-$$q \;=\; \tfrac{1}{2}\rho V^{2} \;=\; \frac{\gamma}{2}\,p\,M^{2}.$$
+$$
+q \;=\; \tfrac{1}{2}\rho V^{2} \;=\; \frac{\gamma}{2}\,p\,M^{2}.
+\tag{16}
+$$
 
 **That relation is also a check on the record and the record passes it.** The Quiet Spike report gives a design dynamic pressure of 685 pounds per square foot and a design Mach number of 1.8 at 45,000 feet. **Inverting the relation at that altitude gives Mach 1.782**, which agrees with the stated figure to within the rounding of the inputs.
 
@@ -219,17 +267,26 @@ $$q \;=\; \tfrac{1}{2}\rho V^{2} \;=\; \frac{\gamma}{2}\,p\,M^{2}.$$
 
 Two shocks separated by a distance $s$ along the ray close on each other at a rate set by the difference in their strengths \[[On the propagation of weak shock waves][research_whitham_1956]\]. The separation is written $s$ because $\ell$ is already the lift per unit length above, and the coalescence distance is written $\mathcal{L}$ to keep it clear of the lapse rate $L$. Substituting the propagation speed,
 
-$$\Delta U \;=\; a\,\frac{\gamma+1}{4\gamma}\,\frac{\Delta p}{p},$$
+$$
+\Delta U \;=\; a\,\frac{\gamma+1}{4\gamma}\,\frac{\Delta p}{p},
+\tag{17}
+$$
 
 so the stronger overtakes the weaker after a travel distance
 
-$$\mathcal{L} \;=\; \frac{a\,s}{\Delta U_{1}-\Delta U_{2}} \;=\; s\,\frac{4\gamma}{(\gamma+1)}\left[\frac{\Delta p_{1}-\Delta p_{2}}{p}\right]^{-1}.$$
+$$
+\mathcal{L} \;=\; \frac{a\,s}{\Delta U_{1}-\Delta U_{2}} \;=\; s\,\frac{4\gamma}{(\gamma+1)}\left[\frac{\Delta p_{1}-\Delta p_{2}}{p}\right]^{-1}.
+\tag{18}
+$$
 
 **The speed of sound cancels**, so the result depends on altitude only through the pressure ratio, and that independence is the reason to make the estimate at all.
 
 **The expression is an old one.** It is the aging length of nonlinear acoustics, being the distance over which a wave of length $s$ and strength $\Delta p / p$ distorts into its asymptotic form,
 
-$$r_{\text{age}} \;\sim\; s\,\frac{4\gamma}{(\gamma+1)}\,\frac{p}{\Delta p}.$$
+$$
+r_{\text{age}} \;\sim\; s\,\frac{4\gamma}{(\gamma+1)}\,\frac{p}{\Delta p}.
+\tag{19}
+$$
 
 **So the question of whether a spike survives to the ground and the question of when a signature becomes an N-wave are the same question**, asked with different words, and the classical theory answers both \[[Whitham, Linear and nonlinear waves][book_whitham]\] \[[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]\].
 
@@ -253,9 +310,12 @@ $$r_{\text{age}} \;\sim\; s\,\frac{4\gamma}{(\gamma+1)}\,\frac{p}{\Delta p}.$$
 
 Writing the strength difference as $\delta(r) = \delta_{0}\sqrt{r_{0}/r}$ and integrating the separation to zero \[[Darden et al. 1989][research_boom_methodology_status]\],
 
-$$\frac{\mathrm{d}s}{\mathrm{d}r} \;=\; -\frac{\gamma+1}{4\gamma}\,\delta_{0}\sqrt{\frac{r_{0}}{r}}
+$$
+\frac{\mathrm{d}s}{\mathrm{d}r} \;=\; -\frac{\gamma+1}{4\gamma}\,\delta_{0}\sqrt{\frac{r_{0}}{r}}
 \qquad\Longrightarrow\qquad
-\sqrt{r_{c}} \;=\; \sqrt{r_{0}} \;+\; \frac{\mathcal{L}}{2\sqrt{r_{0}}},$$
+\sqrt{r_{c}} \;=\; \sqrt{r_{0}} \;+\; \frac{\mathcal{L}}{2\sqrt{r_{0}}},
+\tag{20}
+$$
 
 where $\mathcal{L}$ is exactly the plane-wave answer above and $r_{0}$ is the distance at which $\delta_{0}$ is quoted, taken here as one aeroplane length.
 
@@ -283,17 +343,26 @@ The atmosphere is stratified, so rays bend. It is turbulent, so the wavefront is
 
 **The bending is Snell's law with a continuously varying index and it has one conserved quantity.** For a horizontally stratified medium the ray parameter is invariant along a ray \[[Pierce, Acoustics, an introduction to its physical principles and applications][book_pierce]\],
 
-$$\frac{a(z)}{\cos\theta(z)} \;=\; V_{t} \;=\; \text{constant},$$
+$$
+\frac{a(z)}{\cos\theta(z)} \;=\; V_{t} \;=\; \text{constant},
+\tag{21}
+$$
 
 where $\theta$ is the ray's angle below the horizontal and $V_{t}$ is the horizontal trace velocity of the wavefront. **This subsection and The Alternative That Never Needed the Aeroplane both follow from that line**, because a ray turns horizontal exactly where $a(z)$ reaches $V_{t}$, and it turns before the ground whenever the air below is fast enough.
 
 **Of the three, absorption decides loudness.** In a real gas a shock has a finite thickness, set by a steady balance between nonlinear steepening and diffusion, and the profile that balance produces is a hyperbolic tangent \[[Blackstock, Fundamentals of physical acoustics][book_blackstock]\],
 
-$$\Delta p(t) \;=\; \frac{\Delta p_{\max}}{2}\left[1 - \tanh\!\left(\frac{t}{\tau}\right)\right],$$
+$$
+\Delta p(t) \;=\; \frac{\Delta p_{\max}}{2}\left[1 - \tanh\!\left(\frac{t}{\tau}\right)\right],
+\tag{22}
+$$
 
 whose width varies inversely with the amplitude,
 
-$$\tau \;\propto\; \frac{1}{\Delta p}.$$
+$$
+\tau \;\propto\; \frac{1}{\Delta p}.
+\tag{23}
+$$
 
 **A weaker boom therefore rises more slowly as well as less far**, and both changes reduce the perceived loudness, which is a happy accident the discipline relies on \[[Blackstock, Fundamentals of physical acoustics][book_blackstock]\].
 
@@ -309,12 +378,18 @@ The propagation codes that carry this work are the space agency's own, and they 
 
 **A units problem comes first.** An overpressure becomes a level in the ordinary acoustic way \[[A loudness calculation procedure applied to shaped sonic booms][research_loudness_procedure]\],
 
-$$L_{p} \;=\; 20\log_{10}\!\left(\frac{\Delta p}{p_{\mathrm{ref}}}\right),
-\qquad p_{\mathrm{ref}} = 20\ \mu\mathrm{Pa},$$
+$$
+L_{p} \;=\; 20\log_{10}\!\left(\frac{\Delta p}{p_{\mathrm{ref}}}\right),
+\qquad p_{\mathrm{ref}} = 20\ \mu\mathrm{Pa},
+\tag{24}
+$$
 
 with the reference pressure 20 micropascals. **A Concorde at Mach 2 and 52,000 feet laid down 1.94 pounds per square foot** \[[NASA Facts FS-2003-11-016, Sonic Booms][ref_nasa_sonic_booms]\], which is 92.9 pascals, or 133.3 decibels peak. As a fraction of the pressure the air is already at,
 
-$$\frac{\Delta p}{p_{\infty}} \;=\; 9.17 \times 10^{-4},$$
+$$
+\frac{\Delta p}{p_{\infty}} \;=\; 9.17 \times 10^{-4},
+\tag{25}
+$$
 
 which is one part in 1,090. **A boom is a very small pressure change arriving very fast**, and that second half alone makes it loud.
 
@@ -322,9 +397,12 @@ which is one part in 1,090. **A boom is a very small pressure change arriving ve
 
 **A ground measurement is also not the incident wave.** The surface reflects, and the two arrivals superpose, so a gauge on the ground reads, with $\mathcal{R}$ distinguished from the gas constant $R$ \[[Stansbery et al. 1999][research_midfield_signatures]\],
 
-$$\Delta p_{\text{measured}} \;=\; (1 + \mathcal{R})\,\Delta p_{\text{incident}}
+$$
+\Delta p_{\text{measured}} \;=\; (1 + \mathcal{R})\,\Delta p_{\text{incident}}
 \;\approx\; 1.9\,\Delta p_{\text{incident}},
-\qquad \mathcal{R} \approx 0.9,$$
+\qquad \mathcal{R} \approx 0.9,
+\tag{26}
+$$
 
 for a hard surface. **A rule written about the measured quantity is therefore written about roughly twice the wave the aeroplane sent.** The doubling is a measurement convention and makes no physical claim, but it needs stating once.
 
@@ -332,8 +410,11 @@ The metric the discipline settled on is the perceived level in decibels, compute
 
 The sound exposure level, being the energy of the event referred to one second, is the other quantity in constant use,
 
-$$\mathrm{SEL} \;=\; 10\log_{10}\!\left[\frac{1}{t_{\mathrm{ref}}}\int \frac{p^{2}(t)}{p_{\mathrm{ref}}^{2}}\,\mathrm{d}t\right],
-\qquad t_{\mathrm{ref}} = 1\ \mathrm{s}.$$
+$$
+\mathrm{SEL} \;=\; 10\log_{10}\!\left[\frac{1}{t_{\mathrm{ref}}}\int \frac{p^{2}(t)}{p_{\mathrm{ref}}^{2}}\,\mathrm{d}t\right],
+\qquad t_{\mathrm{ref}} = 1\ \mathrm{s}.
+\tag{27}
+$$
 
 **Neither number settles the question, because only what people report can.** The space agency has run human response programmes on this question since the 1960s, and it has run them in laboratories, in purpose-built simulators, and in people's own houses \[[Shepherd 1992][research_human_response_overview]\] \[[McCurdy et al. 2004][research_simulated_booms_homes]\] \[[Shepherd et al. 1992][research_boom_acceptability]\].
 
@@ -353,13 +434,19 @@ The speed of sound rises with temperature, and the atmosphere is warmer near the
 
 The condition is that the shock's intersection with the ground, which travels at the aeroplane's speed, must outrun sound at ground level. Since $a=\sqrt{\gamma R T}$, the Mach number falls out as a temperature ratio and nothing else,
 
-$$M_{\mathrm{co}} \;=\; \frac{a_{\text{ground}}}{a_{\text{cruise}}} \;=\; \sqrt{\frac{T_{\text{ground}}}{T_{\text{cruise}}}}.$$
+$$
+M_{\mathrm{co}} \;=\; \frac{a_{\text{ground}}}{a_{\text{cruise}}} \;=\; \sqrt{\frac{T_{\text{ground}}}{T_{\text{cruise}}}}.
+\tag{28}
+$$
 
 **For the standard atmosphere above the tropopause this gives 1.153**, a value very nearly independent of altitude, because the temperature above 11 kilometres is constant \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\] \[[Anderson, Modern compressible flow][book_anderson_compressible]\].
 
 **The ray invariant also locates the turning, and the location is uncomfortably sensitive.** Below the tropopause the temperature is linear in height, so setting $a(z)$ equal to the trace velocity and squaring gives a turning altitude that is a straight line in the square of the Mach number \[[Coulouvrat 2002][research_coulouvrat_shadow]\],
 
-$$z_{\text{turn}} \;=\; \frac{T_{0} - M^{2}\,T_{\text{cruise}}}{L}.$$
+$$
+z_{\text{turn}} \;=\; \frac{T_{0} - M^{2}\,T_{\text{cruise}}}{L}.
+\tag{29}
+$$
 
 **At Mach 1.10 the ray turns at 4,001 metres, and at Mach 1.15 it turns at 251 metres.** A five-hundredths increase in Mach number collapses the shadow zone from 13,125 feet to 823, which is the margin an operator is managing.
 
@@ -369,17 +456,23 @@ $$z_{\text{turn}} \;=\; \frac{T_{0} - M^{2}\,T_{\text{cruise}}}{L}.$$
 
 **The catch is in the temperature ratio, and there is a second term the still-air form leaves out.** Wind adds to the propagation speed along the ray, so the quantity that matters is an effective sound speed, which adds the wind component to the thermodynamic one \[[Haefeli et al. 1969a][research_hayes_cr1299]\],
 
-$$c_{\mathrm{eff}}(z) \;=\; a(z) + \mathbf{u}(z)\cdot\hat{\mathbf{n}},
+$$
+c_{\mathrm{eff}}(z) \;=\; a(z) + \mathbf{u}(z)\cdot\hat{\mathbf{n}},
 \qquad
-M_{\mathrm{co}} \;=\; \frac{c_{\mathrm{eff}}(0)}{a(z_{\text{cruise}})} .$$
+M_{\mathrm{co}} \;=\; \frac{c_{\mathrm{eff}}(0)}{a(z_{\text{cruise}})} .
+\tag{30}
+$$
 
 **A ground temperature ten kelvin warmer or cooler moves the cutoff Mach number by 0.02 either way, a spread of 0.04, on its own**, and a tailwind at the surface moves it further. **So the technique is not a chart but a forecast**, and an operator using it is betting on an atmosphere it did not measure.
 
 **The same ratio also bounds the boom carpet.** A ray leaving at azimuth $\phi$ from the track carries a horizontal trace velocity reduced by the cosine, so it reaches the ground only while
 
-$$M\cos\phi \;\ge\; M_{\mathrm{co}}
+$$
+M\cos\phi \;\ge\; M_{\mathrm{co}}
 \qquad\Longrightarrow\qquad
-\phi_{\max} \;=\; \arccos\!\left(\frac{M_{\mathrm{co}}}{M}\right).$$
+\phi_{\max} \;=\; \arccos\!\left(\frac{M_{\mathrm{co}}}{M}\right).
+\tag{31}
+$$
 
 **At Mach 1.4 that is 34.5 degrees**, and it widens to 50.2 degrees at Mach 1.8. **A supersonic aeroplane does not boom everything beneath it**, and the width of what it does boom is set by the same temperature ratio as the cutoff \[[Cliatt et al. 2016a][research_faint_lateral_cutoff]\].
 
@@ -635,6 +728,353 @@ The X-54A's registry entry made a narrower promise than most. It promised ground
 **The lesson is not that the aeroplane was unnecessary.** The X-59 exists, which is the strongest possible argument that somebody still needs what the X-54 was for. **The lesson is that an aeroplane whose justification is a rulemaking has tied itself to a clock it does not control**, and this one was overtaken by its own regulation in much the way its predecessor's shocklets were overtaken by the aeroplane carrying them.
 
 **The number was allocated 17.6 years before the date on this article. The rule is being repealed, its replacement flew last month, and X-54A has still never been built.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 31 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 31, 30 are established and 1 are bespoke.
+Atmospheric relations are in units of the International System, with altitudes in metres, temperatures in kelvin and pressures in pascals, while overpressures and dynamic pressures quoted from flight reports are in pounds per square foot and levels are in decibels referred to 20 micropascals, and several letters are kept apart deliberately, so $T$ is the temperature and $T_{N}$ the N-wave duration, $L$ is the lapse rate and $\mathcal{L}$ the coalescence distance, $R$ is the gas constant and $\mathcal{R}$ the ground reflection coefficient.
+
+**Equation 1, Mach Angle.**
+The disturbances of a supersonic body lie on a cone whose half-angle has a sine equal to the reciprocal of the Mach number.
+[Mach Number][ref_mach_number]
+[Liepmann and Roshko, Elements of gasdynamics][book_liepmann_roshko]
+
+$$
+\mu \;=\; \arcsin\!\left(\frac{1}{M}\right),
+\tag{1}
+$$
+
+**Equation 2, Speed of Sound in a Perfect Gas.**
+The speed of sound in a perfect gas is the square root of the ratio of specific heats times the gas constant times the absolute temperature.
+[Anderson, Modern compressible flow][book_anderson_compressible]
+
+$$
+a \;=\; \sqrt{\gamma R T}.
+\tag{2}
+$$
+
+**Equation 3, Straight Ray Path From Cruise Altitude to the Ground.**
+A ray leaving normal to the Mach cone makes the Mach angle with the vertical, so its straight path to the ground is the altitude divided by the cosine of that angle.
+[Haefeli et al. 1969a][research_hayes_cr1299]
+
+$$
+r \;=\; \frac{h}{\cos\mu} \;=\; \frac{h}{\sqrt{1 - M^{-2}}}.
+\tag{3}
+$$
+
+**Equation 4, Propagation Speed of a Weak Shock.**
+A weak shock outruns the speed of sound by a fraction proportional to its strength, with coefficient the ratio of one more than the ratio of specific heats to four times that ratio.
+[Whitham, Linear and nonlinear waves][book_whitham]
+[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]
+
+$$
+\frac{U}{a} \;=\; 1 \;+\; \frac{\gamma+1}{4\gamma}\,\frac{\Delta p}{p} \;+\; \mathcal{O}\!\left(\frac{\Delta p}{p}\right)^{2}.
+\tag{4}
+$$
+
+**Equation 5, Linear Pressure Profile of an N-Wave.**
+The N-wave is a linear fall in overpressure from its peak to its negative peak between two jumps over the duration $T_{N}$.
+[Darden 1976][research_darden_1976]
+[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]
+
+$$
+\Delta p(t) \;=\; \Delta p_{\max}\left(1 - \frac{2t}{T_{N}}\right), \qquad 0 \le t \le T_{N},
+\tag{5}
+$$
+
+**Equation 6, Positive-Phase Impulse of an N-Wave.**
+Integrating the overpressure over the positive half of the N-wave gives an impulse of one quarter of the peak overpressure times the duration $T_{N}$.
+[McCurdy 1994][research_boom_shapes_risetimes]
+
+$$
+I \;=\; \int_{0}^{T_{N}/2}\Delta p(t)\,\mathrm{d}t \;=\; \frac{\Delta p_{\max} T_{N}}{4}.
+\tag{6}
+$$
+
+**Equation 7, Whitham F-Function.**
+Whitham's F-function gives the far-field disturbance of a slender supersonic body as an Abel-type integral of the second derivative of its equivalent area distribution.
+[Whitham 1952][research_whitham_1952]
+[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]
+
+$$
+F(y) \;=\; \frac{1}{2\pi}\int_{0}^{y} \frac{A_e''(\xi)}{\sqrt{y-\xi}}\;\mathrm{d}\xi .
+\tag{7}
+$$
+
+**Equation 8, Equivalent Area Including Lift.**
+The equivalent area adds to the physical cross-section a term proportional to the lift carried ahead of each station, so a lifting surface displaces the air whether or not it is thick.
+[Darden 1976][research_darden_1976]
+
+$$
+A_e(x) \;=\; A(x) \;+\; \frac{\beta}{2q}\int_{0}^{x} \ell(\xi)\,\mathrm{d}\xi ,
+\qquad \beta = \sqrt{M^{2}-1}.
+\tag{8}
+$$
+
+**Equation 9, Lift Contribution to the Equivalent Area at the Tail.**
+By the tail all of the lift has entered the equivalent area, contributing $\beta W / 2q$ whatever the shaping.
+
+$$
+A_{L}(l) \;=\; \frac{\beta W}{2q},
+\tag{9}
+$$
+
+**Equation 10, Square-Root Dependence of Overpressure on Weight.**
+A fully aged N-wave amplitude goes as the square root of the F-function amplitude, which is linear in the lift, so overpressure scales as the square root of weight.
+[McLean 1965][research_mclean_nonasymptotic]
+[Application of sonic-boom minimization concepts in supersonic transport design][research_carlson_sst_design]
+
+$$
+\Delta p \;\propto\; W^{1/2}.
+\tag{10}
+$$
+
+**Equation 11, Near-Field Overpressure From the F-Function.**
+Before nonlinear steepening, the overpressure ratio is proportional to the F-function and falls as the inverse square root of distance.
+[On the propagation of weak shock waves][research_whitham_1956]
+
+$$
+\frac{\Delta p}{p_\infty} \;=\; \frac{\gamma M^{2}}{\sqrt{2\beta}}\,\frac{F(y)}{\sqrt{r}} ,
+\tag{11}
+$$
+
+**Equation 12, Far-Field Decay of N-Wave Amplitude and Duration.**
+Once aged into an N-wave, the overpressure falls as the minus three-quarters power of distance and the duration grows as its one-quarter power.
+[On the propagation of weak shock waves][research_whitham_1956]
+[Haefeli et al. 1969a][research_hayes_cr1299]
+
+$$
+\Delta p \;\propto\; r^{-3/4}, \qquad \Delta t \;\propto\; r^{1/4}.
+\tag{12}
+$$
+
+**Equation 13, Slender-Body Wave Drag Functional.**
+In linearised supersonic flow the wave drag of a slender body is a double integral of the second derivative of the same equivalent area distribution with a logarithmic kernel.
+[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]
+
+$$
+D \;=\; -\frac{q}{2\pi}\int_{0}^{l}\!\!\int_{0}^{l} A_e''(x_{1})\,A_e''(x_{2})\,
+\ln\lvert x_{1}-x_{2}\rvert \;\mathrm{d}x_{1}\,\mathrm{d}x_{2}.
+\tag{13}
+$$
+
+**Equation 14, Troposphere of the Standard Atmosphere.**
+Below the tropopause the temperature falls linearly with altitude and hydrostatic equilibrium in a perfect gas makes the pressure a power of the temperature ratio.
+[U.S. Standard Atmosphere][ref_us_standard_atmosphere]
+
+$$
+T(z) \;=\; T_{0} - Lz, \qquad
+p(z) \;=\; p_{0}\left(\frac{T(z)}{T_{0}}\right)^{g/LR},
+\tag{14}
+$$
+
+**Equation 15, Isothermal Layer of the Standard Atmosphere.**
+Above the tropopause the temperature is constant and the pressure falls exponentially with altitude.
+[U.S. Standard Atmosphere 1976 1976][research_us_standard_atmosphere_1976]
+
+$$
+p(z) \;=\; p_{11}\exp\!\left[-\frac{g\,(z - z_{11})}{R\,T_{11}}\right].
+\tag{15}
+$$
+
+**Equation 16, Dynamic Pressure in Terms of Static Pressure and Mach Number.**
+The dynamic pressure of a perfect gas is half the ratio of specific heats times the static pressure times the square of the Mach number.
+[Liepmann and Roshko, Elements of gasdynamics][book_liepmann_roshko]
+
+$$
+q \;=\; \tfrac{1}{2}\rho V^{2} \;=\; \frac{\gamma}{2}\,p\,M^{2}.
+\tag{16}
+$$
+
+**Equation 17, Excess Propagation Speed of a Weak Shock.**
+The speed by which a weak shock exceeds the speed of sound is the speed of sound times the strength coefficient times the pressure ratio.
+[On the propagation of weak shock waves][research_whitham_1956]
+
+$$
+\Delta U \;=\; a\,\frac{\gamma+1}{4\gamma}\,\frac{\Delta p}{p},
+\tag{17}
+$$
+
+**Equation 18, Coalescence Distance of Two Shocks.**
+Two shocks a distance $s$ apart merge after a travel distance equal to $s$ divided by the difference in their excess speeds, in which the speed of sound cancels.
+[On the propagation of weak shock waves][research_whitham_1956]
+
+$$
+\mathcal{L} \;=\; \frac{a\,s}{\Delta U_{1}-\Delta U_{2}} \;=\; s\,\frac{4\gamma}{(\gamma+1)}\left[\frac{\Delta p_{1}-\Delta p_{2}}{p}\right]^{-1}.
+\tag{18}
+$$
+
+**Equation 19, Aging Length of a Weak Wave.**
+The aging length of nonlinear acoustics is the distance over which a wave of length $s$ and relative strength $\Delta p / p$ distorts into its asymptotic form.
+[Whitham, Linear and nonlinear waves][book_whitham]
+[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]
+
+$$
+r_{\text{age}} \;\sim\; s\,\frac{4\gamma}{(\gamma+1)}\,\frac{p}{\Delta p}.
+\tag{19}
+$$
+
+*Equation 20, Bespoke Coalescence Distance With Cylindrical Spreading.*
+The article lets the strength difference between the two shocks decay as the inverse square root of distance from a reference distance it takes as one aeroplane length, and integrates the separation to zero.
+[Darden et al. 1989][research_boom_methodology_status]
+
+$$
+\frac{\mathrm{d}s}{\mathrm{d}r} \;=\; -\frac{\gamma+1}{4\gamma}\,\delta_{0}\sqrt{\frac{r_{0}}{r}}
+\qquad\Longrightarrow\qquad
+\sqrt{r_{c}} \;=\; \sqrt{r_{0}} \;+\; \frac{\mathcal{L}}{2\sqrt{r_{0}}},
+\tag{20}
+$$
+
+**Equation 21, Ray Invariant in a Stratified Atmosphere.**
+In a horizontally stratified medium the local speed of sound divided by the cosine of the ray angle below the horizontal is conserved along a ray as the trace velocity.
+[Pierce, Acoustics, an introduction to its physical principles and applications][book_pierce]
+
+$$
+\frac{a(z)}{\cos\theta(z)} \;=\; V_{t} \;=\; \text{constant},
+\tag{21}
+$$
+
+**Equation 22, Hyperbolic Tangent Shock Profile.**
+A steady balance between nonlinear steepening and diffusion gives a shock front with a hyperbolic tangent profile of characteristic time $\tau$.
+[Blackstock, Fundamentals of physical acoustics][book_blackstock]
+
+$$
+\Delta p(t) \;=\; \frac{\Delta p_{\max}}{2}\left[1 - \tanh\!\left(\frac{t}{\tau}\right)\right],
+\tag{22}
+$$
+
+**Equation 23, Inverse Dependence of Shock Thickness on Amplitude.**
+The rise time of the steady shock varies inversely with its amplitude, so a weaker boom also rises more slowly.
+[Blackstock, Fundamentals of physical acoustics][book_blackstock]
+
+$$
+\tau \;\propto\; \frac{1}{\Delta p}.
+\tag{23}
+$$
+
+**Equation 24, Sound Pressure Level.**
+An overpressure becomes a level as twenty times the base-ten logarithm of its ratio to the reference pressure of 20 micropascals.
+[A loudness calculation procedure applied to shaped sonic booms][research_loudness_procedure]
+
+$$
+L_{p} \;=\; 20\log_{10}\!\left(\frac{\Delta p}{p_{\mathrm{ref}}}\right),
+\qquad p_{\mathrm{ref}} = 20\ \mu\mathrm{Pa},
+\tag{24}
+$$
+
+**Equation 25, Concorde Overpressure as a Fraction of Ambient Pressure.**
+The measured Concorde overpressure of 1.94 pounds per square foot at Mach 2 and 52,000 feet is about one part in 1,090 of the ambient pressure.
+[NASA Facts FS-2003-11-016, Sonic Booms][ref_nasa_sonic_booms]
+
+$$
+\frac{\Delta p}{p_{\infty}} \;=\; 9.17 \times 10^{-4},
+\tag{25}
+$$
+
+**Equation 26, Ground Reflection of the Incident Wave.**
+A gauge on a hard surface reads the incident wave plus its reflection, about 1.9 times the incident overpressure for a reflection coefficient near 0.9.
+[Stansbery et al. 1999][research_midfield_signatures]
+
+$$
+\Delta p_{\text{measured}} \;=\; (1 + \mathcal{R})\,\Delta p_{\text{incident}}
+\;\approx\; 1.9\,\Delta p_{\text{incident}},
+\qquad \mathcal{R} \approx 0.9,
+\tag{26}
+$$
+
+**Equation 27, Sound Exposure Level.**
+The sound exposure level is ten times the base-ten logarithm of the time integral of the squared pressure ratio, referred to one second.
+
+$$
+\mathrm{SEL} \;=\; 10\log_{10}\!\left[\frac{1}{t_{\mathrm{ref}}}\int \frac{p^{2}(t)}{p_{\mathrm{ref}}^{2}}\,\mathrm{d}t\right],
+\qquad t_{\mathrm{ref}} = 1\ \mathrm{s}.
+\tag{27}
+$$
+
+**Equation 28, Mach Cutoff Number in Still Air.**
+A boom fails to reach the ground when the shock's ground intersection is slower than sound at the surface, so the cutoff Mach number is the square root of the ratio of ground to cruise temperature.
+[U.S. Standard Atmosphere][ref_us_standard_atmosphere]
+[Anderson, Modern compressible flow][book_anderson_compressible]
+
+$$
+M_{\mathrm{co}} \;=\; \frac{a_{\text{ground}}}{a_{\text{cruise}}} \;=\; \sqrt{\frac{T_{\text{ground}}}{T_{\text{cruise}}}}.
+\tag{28}
+$$
+
+**Equation 29, Turning Altitude in the Standard Troposphere.**
+Setting the linear tropospheric speed of sound equal to the trace velocity gives a turning altitude linear in the square of the Mach number.
+[Coulouvrat 2002][research_coulouvrat_shadow]
+
+$$
+z_{\text{turn}} \;=\; \frac{T_{0} - M^{2}\,T_{\text{cruise}}}{L}.
+\tag{29}
+$$
+
+**Equation 30, Effective Sound Speed and Cutoff Mach Number With Wind.**
+Wind adds its component along the ray to the thermodynamic speed of sound, so the cutoff Mach number is the ratio of the effective ground sound speed to the sound speed at cruise altitude.
+[Haefeli et al. 1969a][research_hayes_cr1299]
+
+$$
+c_{\mathrm{eff}}(z) \;=\; a(z) + \mathbf{u}(z)\cdot\hat{\mathbf{n}},
+\qquad
+M_{\mathrm{co}} \;=\; \frac{c_{\mathrm{eff}}(0)}{a(z_{\text{cruise}})} .
+\tag{30}
+$$
+
+**Equation 31, Lateral Extent of the Boom Carpet.**
+A ray leaving at azimuth $\phi$ reaches the ground only while the Mach number times the cosine of the azimuth exceeds the cutoff Mach number, which bounds the half-width of the carpet.
+[Cliatt et al. 2016a][research_faint_lateral_cutoff]
+
+$$
+M\cos\phi \;\ge\; M_{\mathrm{co}}
+\qquad\Longrightarrow\qquad
+\phi_{\max} \;=\; \arccos\!\left(\frac{M_{\mathrm{co}}}{M}\right).
+\tag{31}
+$$
+
+### Notation
+
+- $\mu$, the Mach angle
+- $M$, the flight Mach number
+- $a$, the speed of sound
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $R$, the specific gas constant of air
+- $h$, the cruise altitude
+- $U$, the propagation speed of a weak shock
+- $\Delta p$, the overpressure, with $\Delta p_{\max}$ its peak
+- $p_\infty$, the ambient pressure at cruise altitude
+- $T_{N}$, the duration of the N-wave
+- $F(y)$, Whitham's F-function
+- $A_e$, the equivalent area distribution, with $A$ the geometric cross-section
+- $\ell$, the lift per unit length
+- $\beta$, the Prandtl-Glauert factor $\sqrt{M^{2}-1}$
+- $A_{L}$, the lift contribution to the equivalent area at the tail
+- $W$, the aircraft weight
+- $q$, the dynamic pressure
+- $D$, the wave drag
+- $L$, the temperature lapse rate of the troposphere
+- $T_{11}$, the temperature of the isothermal layer, with $p_{11}$ and $z_{11}$ the pressure and altitude at its base
+- $\mathcal{L}$, the coalescence distance of two shocks
+- $r_{\text{age}}$, the aging length
+- $\delta_{0}$, the strength difference between two shocks at the reference distance $r_{0}$
+- $r_{c}$, the coalescence distance corrected for spreading
+- $V_{t}$, the horizontal trace velocity of the wavefront
+- $\theta$, the ray angle below the horizontal
+- $\tau$, the characteristic rise time of the shock
+- $L_{p}$, the sound pressure level
+- $p_{\mathrm{ref}}$, the reference pressure of 20 micropascals
+- $\mathcal{R}$, the ground reflection coefficient
+- $\mathrm{SEL}$, the sound exposure level
+- $M_{\mathrm{co}}$, the cutoff Mach number
+- $z_{\text{turn}}$, the altitude at which a ray turns horizontal
+- $c_{\mathrm{eff}}$, the effective sound speed including the wind component along the ray
+- $\phi$, the azimuth of a ray from the ground track
 
 ## References
 

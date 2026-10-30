@@ -74,6 +74,7 @@ The airframe began as a Fairchild Dornier 328JET, a regional jet of thirty to th
 
 $$
 D \approx \frac{E_{f}\,t_{\text{face}}\,h_{c}^{2}}{2}
+\tag{1}
 $$
 
 so a 1.5 millimetre facesheet across a 25 millimetre core is stiffer in bending, by a factor of about 208, than the same two facesheets would be laid solid against each other. **A process with one atmosphere of consolidation makes a thin facesheet well**, and the arrangement therefore suits the method. **It also makes the method harder**, because the air under a facesheet must find its way out past a core that is trying to seal it in, a difficulty the literature documents \[[Levy et al. 2015][research_air_evacuation_sandwich]\]. The vertical tail was fibre placed from a conventional prepreg tape, its skins precured in an autoclave \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\]. The work was done at the Advanced Development Programs facility at Air Force Plant 42 in Palmdale \[[Skunk Works][ref_skunk_works]\] \[[United States Air Force Plant 42][ref_plant42]\].
@@ -94,12 +95,14 @@ An autoclave is therefore a pressure vessel, and a pressure vessel scales badly.
 
 $$
 t_{w} = \frac{p\,r}{\sigma_{\text{allow}}}
+\tag{2}
 $$
 
 The shell mass is the density times the shell area times that thickness, and the shell area is itself proportional to the radius times the length.
 
 $$
 m_{\text{shell}} = 2 \pi \rho \, r \, L \, t_{w} = \frac{2 \pi \rho \, p \, r^{2} L}{\sigma_{\text{allow}}}
+\tag{3}
 $$
 
 **For a vessel whose length keeps pace with its diameter the steel therefore goes as the cube of the diameter.** Doubling every dimension multiplies the shell by eight, as the arithmetic below confirms.
@@ -122,12 +125,14 @@ $$
 \Delta p_{\text{bag}} = p_{\text{amb}} - p_{\text{in}}
 \qquad\qquad
 \Delta p_{\text{autoclave}} = p_{\text{gauge}} + p_{\text{amb}} - p_{\text{in}}
+\tag{4}
 $$
 
 **The gauge pressure in the autoclave term is the only difference between the two processes.** Setting the bag pressure to zero in both gives the ratio the rest of this article turns on.
 
 $$
 \frac{\Delta p_{\text{autoclave}}}{\Delta p_{\text{bag}}} = 1 + \frac{p_{\text{gauge}}}{p_{\text{amb}}}
+\tag{5}
 $$
 
 **A vacuum bag can never press harder than the weather allows, and the ceiling falls with the elevation of the factory floor.** The autoclave's ratio, by contrast, rises with elevation, because the denominator falls while the gauge pressure does not.
@@ -136,6 +141,7 @@ The standard atmosphere gives the ambient pressure as a function of geopotential
 
 $$
 p(h) = p_{0}\left(1 - \frac{\lambda h}{T_{0}}\right)^{\frac{g}{R_{\text{air}}\lambda}}
+\tag{6}
 $$
 
 Here $R_{\text{air}}$ is the specific gas constant of air, a different quantity from the molar gas constant $R$ that appears in the cure kinetics below. With the sea level values and a lapse rate of 0.0065 kelvin per metre the exponent is 5.256. **Air Force Plant 42 stands at 2,542.5 feet** in the Federal Aviation Administration's airport record, which is 775.0 metres, and the encyclopaedia entry rounds it to 2,542 feet \[[Palmdale USAF Plant 42 Airport, Airport Data, Federal Aviation Administration][ref_faa_pmd]\] \[[United States Air Force Plant 42][ref_plant42]\]. The relation gives 92.36 kilopascals there against 101.33 at sea level.
@@ -152,6 +158,7 @@ $$
 \left.\frac{\mathrm{d}p}{\mathrm{d}h}\right|_{0} = -\frac{p_{0}\,g}{R_{\text{air}} T_{0}} = -\frac{p_{0}}{H}
 \qquad\qquad
 H = \frac{R_{\text{air}} T_{0}}{g}
+\tag{7}
 $$
 
 with a scale height $H$ of 8,435 metres, which works out at **1.081 inches of mercury per thousand feet**. **The round figure of one inch is 7.5 percent low against that derivative.**
@@ -164,18 +171,21 @@ with a scale height $H$ of 8,435 metres, which works out at **1.081 inches of me
 
 $$
 V_{1} = V_{0}\,\frac{p_{0}}{p_{1}}
+\tag{8}
 $$
 
 The void fraction is not the void volume, because compressing the gas shrinks the laminate as well. With the solid taken as incompressible beside a gas, an initial void fraction $\phi_{0}$ becomes
 
 $$
 \phi_{1} = \frac{\phi_{0}\,p_{0}/p_{1}}{\left(1-\phi_{0}\right) + \phi_{0}\,p_{0}/p_{1}}
+\tag{9}
 $$
 
 **A process engineer asks the inverse question.** The concern is not what a given pressure achieves but what pressure a given specification demands, and solving the relation for the pressure ratio answers it.
 
 $$
 \frac{p_{1}}{p_{0}} = \frac{\phi_{0}}{\phi_{1}}\cdot\frac{1-\phi_{1}}{1-\phi_{0}}
+\tag{10}
 $$
 
 **Now put a real number through it.** A government and industry team cured the same prepreg family the X-55 used, after it had been left out of the freezer for thirty-five days, and measured 8.3 percent voids by acid digestion against 0.1 percent for the fresh material \[[Sutter et al. 2010][research_sutter_comparison]\]. **Taking that laminate into a full autoclave and squeezing it would leave 1.22 percent.** Primary structure requires less than 1 percent \[[Out-of-Autoclave Prepregs, Hype or Revolution, CompositesWorld][ref_cw_ooa]\], and reaching that from 8.3 percent by compression alone needs a pressure ratio of 8.96, which is more than an autoclave supplies.
@@ -184,12 +194,14 @@ $$
 
 $$
 p_{\text{void}} - p_{\text{resin}} = \frac{2\gamma}{r}
+\tag{11}
 $$
 
 **That relation decides where each process runs out.** Setting the excess equal to the available consolidation pressure gives the radius below which a void cannot be closed by pressure at all.
 
 $$
 r_{\text{min}} = \frac{2\gamma}{\Delta p}
+\tag{12}
 $$
 
 With a surface tension of 0.035 newtons per metre for an uncured epoxy, **a vacuum bag at Air Force Plant 42 stops at 0.758 micrometres and a full autoclave at 0.103**. **The autoclave's real advantage is not that it squeezes harder in bulk. It is that it reaches voids 7.35 times smaller**, and the factor is the pressure ratio exactly, because the radius is inversely proportional to it. A one micrometre void sustains 10.15 pounds per square inch on its own account, which is 76 percent of everything a bag can bring to bear.
@@ -198,30 +210,35 @@ With a surface tension of 0.035 newtons per metre for an uncured epoxy, **a vacu
 
 $$
 c = k_{H}\,p
+\tag{13}
 $$
 
 and by driving resin into places air had been. **An out-of-autoclave prepreg does the same job by architecture instead.** The tows are only partially impregnated, so dry fibre bundles form a connected network of channels through which air and volatiles can be drawn out under vacuum before the resin flows and seals them \[[Grunenfelder et al. 2013][research_outtime_tow_impregnation]\] \[[Helmus et al. 2015a][research_coupled_evacuation]\]. Flow through that network is a Darcy problem, with the volumetric flux set by the permeability, the viscosity and the pressure gradient \[[Darcy's Law][ref_darcy]\].
 
 $$
 q = -\frac{k}{\mu}\,\nabla p
+\tag{14}
 $$
 
 The permeability of a bed of fibres is set by their diameter and by how tightly they are packed, in the form the composites literature writes as the Kozeny-Carman relation.
 
 $$
 k = \frac{d_{f}^{2}\,\left(1 - V_{f}\right)^{3}}{\kappa\,V_{f}^{2}}
+\tag{15}
 $$
 
 For seven micrometre carbon fibre at a fibre volume fraction of 0.55 that is about $9.23 \times 10^{-13}$ square metres. Taking a linear gradient over a path of length $L$ and a porosity $\varphi$, the time for the flow to sweep that path is
 
 $$
 t_{\text{sweep}} = \frac{\mu\,\varphi\,L^{2}}{k\,\Delta p}
+\tag{16}
 $$
 
 **Working that relation shows which fluid governs the process.** Two different fluids move through those channels. **Air leaves them, and resin closes them**, and their viscosities differ by a factor of 540,541.
 
 $$
 \frac{t_{\text{resin}}}{t_{\text{air}}} = \frac{\mu_{\text{resin}}}{\mu_{\text{air}}}
+\tag{17}
 $$
 
 **Gas escape is not the bottleneck and was never going to be.** At 13.39 pounds per square inch, air crosses ten millimetres of dry tow in 0.01 seconds, and **four hours of vacuum would clear 12.1 metres of it**. The same path takes resin 1.47 hours to fill. **The length of the path is not the constraint on a part this size**, and since the time goes as the square of the length, a permeability a hundred times worse would still clear more than a metre.
@@ -238,36 +255,42 @@ A thermoset cure is a chemical reaction whose progress is measured as the fracti
 
 $$
 \alpha(t) = \frac{H(t)}{H_{\text{ult}}}
+\tag{18}
 $$
 
 Epoxy amine cure is autocatalytic, its rate rising from zero before it falls, and the calorimetric literature fits it with a two-constant model of the following form \[[Vyazovkin and Sbirrazzuoli 1996][research_vyazovkin_sbirrazzuoli_1996]\] \[[Keenan 1987][research_keenan_1987]\].
 
 $$
 \frac{\mathrm{d}\alpha}{\mathrm{d}t} = \left(k_{1} + k_{2}\,\alpha^{m}\right)\left(1 - \alpha\right)^{n}
+\tag{19}
 $$
 
 **Both rate constants follow an Arrhenius law**, so the time to reach a given degree of cure rises exponentially as the temperature falls \[[Arrhenius Equation][ref_arrhenius]\] \[[Kratz et al. 2012][research_kratz_thermal_models]\].
 
 $$
 t \;=\; A_{0} \exp\!\left(\frac{E_{a}}{R\,T}\right)
+\tag{20}
 $$
 
 **The datasheet supplies two points on that curve and does not divide them.** It offers twenty hours at 80 degrees Celsius and two hours at 130, both as oven vacuum bag cures \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. **A factor of ten in time across fifty kelvin is an activation energy.**
 
 $$
 E_{a} \;=\; R\,\frac{\ln\!\left(t_{1}/t_{2}\right)}{1/T_{1} - 1/T_{2}}
+\tag{21}
 $$
 
 With the dwells in hours, the temperatures in kelvin and the molar gas constant at 8.314 joules per mole per kelvin, the two datasheet points give
 
 $$
 E_{a} = 8.314 \times \frac{\ln\left(20/2\right)}{1/353.15 - 1/403.15} = \frac{19.14}{3.512 \times 10^{-4}} \approx 54{,}510
+\tag{22}
 $$
 
 joules per mole. **That gives 54.5 kilojoules per mole**, which sits within the 50 to 60 kilojoules per mole normally observed for epoxy amine systems, so the two-point fit is not an artefact \[[Zhang and Vyazovkin 2007][research_zhang_vyazovkin_2007]\] \[[Kratz et al. 2012][research_kratz_thermal_models]\] \[[Strong, Fundamentals of composites manufacturing][book_strong]\]. With it, the price of any temperature reduction follows directly.
 
 $$
 \frac{t_{\text{lo}}}{t_{\text{hi}}} = \exp\!\left[\frac{E_{a}}{R}\left(\frac{1}{T_{\text{lo}}} - \frac{1}{T_{\text{hi}}}\right)\right]
+\tag{23}
 $$
 
 **Ten degrees, from 120 to 130, costs 1.51 times the dwell and sixty degrees, from 120 to 180, costs 9.1.**
@@ -280,6 +303,7 @@ $$
 t_{\text{lo}} = 2 \exp\left[6{,}556 \left(\frac{1}{393.15} - \frac{1}{403.15}\right)\right] \approx 3.025,
 \qquad
 \frac{4}{3.025} - 1 \approx 0.322
+\tag{24}
 $$
 
 **The datasheet recommends four** \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\]. The recommendation is 32.2 percent longer than the kinetics require, and that difference is not an error in either. **A cure schedule is not a kinetics prediction.** It carries margin, and the question is where that margin goes.
@@ -288,6 +312,7 @@ $$
 
 $$
 \tau = \frac{L^{2}}{\alpha_{\text{th}}}
+\tag{25}
 $$
 
 and at an assumed through-thickness diffusivity of $3 \times 10^{-7}$ square metres a second, a representative value for a carbon epoxy laminate, even a six millimetre laminate equilibrates in two minutes, set against the four hour dwell of 14,400 seconds,
@@ -296,6 +321,7 @@ $$
 \tau = \frac{\left(6 \times 10^{-3}\right)^{2}}{3 \times 10^{-7}} = 120,
 \qquad
 \frac{\tau}{t} = \frac{120}{14{,}400} \approx 0.0083
+\tag{26}
 $$
 
 with $\tau$ in seconds \[[Thermal Diffusivity][ref_thermal_diffusivity]\] \[[Krach and Advani 1996][research_void_thermal_conductivity]\]. **The same is not true of a thick laminate, where the cure cycle has to be designed around the conduction and sometimes around a cooling step in the middle of it** \[[Kim and Lee 1997][research_thick_laminate_cure_cycle]\]. **That is 0.83 percent of a four hour dwell**, too small to count as a margin, and a diffusivity ten times smaller would still make it only 8.3 percent.
@@ -306,6 +332,7 @@ $$
 \mathrm{Nu} = C_{Nu}\,\mathrm{Re}^{0.8}\,\mathrm{Pr}^{1/3}
 \qquad\Longrightarrow\qquad
 \frac{h_{\text{autoclave}}}{h_{\text{oven}}} \sim \left(\frac{p_{\text{autoclave}}}{p_{\text{oven}}}\right)^{0.8}
+\tag{27}
 $$
 
 **At the same pressure ratio that governs consolidation, the coefficient rises by a factor of 4.93**, falling to 3.31 if the exponent is taken as 0.6, an assumed lower end of the range correlations give.
@@ -314,6 +341,7 @@ $$
 \frac{h_{\text{autoclave}}}{h_{\text{oven}}} \sim 7.35^{0.8} \approx 4.93,
 \qquad
 7.35^{0.6} \approx 3.31
+\tag{28}
 $$
 
 **The experimental literature supports the direction if not the coefficient**, autoclave pressure, temperature and the timing of vacuum application all showing up in measured laminate quality \[[Koushyar et al. 2011][research_autoclave_pressure_vacuum_time]\]. **The autoclave's pressure does two jobs at once.** It closes voids and it moves heat, and a shop that gives up the first gives up the second in the same transaction.
@@ -326,6 +354,7 @@ The glass transition of a curing thermoset rises as it reacts, and the DiBenedet
 
 $$
 \frac{T_{g} - T_{g0}}{T_{g\infty} - T_{g0}} = \frac{\lambda_{D}\,\alpha}{1 - \left(1 - \lambda_{D}\right)\alpha}
+\tag{29}
 $$
 
 **When that glass transition overtakes the cure temperature the resin vitrifies**, the molecules stop moving far enough to find each other, and the reaction slows by orders of magnitude. **The cure stops at whatever conversion the temperature can hold.** Setting $T_{g}$ equal to the cure temperature and inverting for the conversion gives the ceiling. The table below takes the fully cured glass transition at the datasheet's 180 degrees, and takes an uncured glass transition of minus 20 degrees and a curvature parameter $\lambda_{D}$ of 0.5 as assumptions, because neither is published for this resin \[[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]\].
@@ -334,6 +363,7 @@ $$
 \alpha_{\text{vit}} = \frac{f}{\lambda_{D} + \left(1 - \lambda_{D}\right) f}
 \qquad\qquad
 f = \frac{T_{\text{cure}} - T_{g0}}{T_{g\infty} - T_{g0}}
+\tag{30}
 $$
 
 | Cure temperature | Conversion it can reach | Glass transition there |
@@ -351,6 +381,7 @@ f = \frac{120 - \left(-20\right)}{180 - \left(-20\right)} = 0.70,
 \alpha_{\text{vit}} = \frac{0.70}{0.5 + 0.5 \times 0.70} \approx 0.824,
 \qquad
 \frac{0.90}{0.5 + 0.5 \times 0.90} \approx 0.947
+\tag{31}
 $$
 
 where 0.90 is the reduced value $f$ for 160 degrees.
@@ -361,6 +392,7 @@ $$
 \alpha_{\text{vit}} = \frac{120/180}{0.7 + 0.3 \times 120/180} \approx 0.741,
 \qquad
 \alpha_{\text{vit}} = \frac{160/220}{0.3 + 0.7 \times 160/220} \approx 0.899
+\tag{32}
 $$
 
 The first is an uncured value of zero with $\lambda_{D}$ of 0.7, and the second an uncured value of minus 40 degrees with $\lambda_{D}$ of 0.3. **The number is assumption-dependent and the conclusion is not.** At the post-cure temperature the conversion is exactly one for every combination in that grid, and every lower temperature is strictly below it, **because vitrification is defined by the glass transition meeting the cure temperature and nothing else enters that definition.**
@@ -375,6 +407,7 @@ $$
 \frac{4 + 2}{2} = 3,
 \qquad
 \frac{20 + 2}{2} = 11
+\tag{33}
 $$
 
 for the 120 degree and 80 degree routes, with every dwell in hours.
@@ -410,6 +443,7 @@ $$
 C_{i} = C_{1}\,i^{b}
 \qquad\qquad
 b = \frac{\ln \varrho}{\ln 2}
+\tag{34}
 $$
 
 At a progress ratio $\varrho$ of 0.90 the hundredth unit costs 0.497 of the first, and at 0.85 it costs 0.34. **A simpler assembly costs less per aeroplane and also has fewer things left to learn about**, a second-order effect the part-count literature reports and this article does not attempt to size \[[Apostolopoulos and Kassapoglou* 2002][research_recurring_cost_part_size]\].
@@ -418,6 +452,7 @@ At a progress ratio $\varrho$ of 0.90 the hundredth unit costs 0.497 of the firs
 
 $$
 n_{\text{break-even}} = \frac{C_{\text{programme}}}{\Delta C_{\text{per aircraft}}}
+\tag{35}
 $$
 
 | Assumption | Saving an aeroplane | Aeroplanes to repay the programme |
@@ -462,12 +497,14 @@ The tests already quoted make that concrete. The same prepreg family at thirty-f
 
 $$
 A_{\text{skin}} = \frac{\pi D L}{2}
+\tag{36}
 $$
 
 For skins 19.8 metres long over a nine foot diameter that is 85 square metres \[[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]\] \[[Lockheed Martin X-55][ref_x55_wikipedia]\]. Laying $N$ plies over it inside the out-life demands a sustained rate of
 
 $$
 \dot{A} = \frac{N\,A_{\text{skin}}}{t_{\text{out}}\,h_{\text{day}}}
+\tag{37}
 $$
 
 | Facesheet plies | Working hours a day | Ply area | Rate needed inside the out-life |
@@ -482,6 +519,7 @@ $$
 
 $$
 N_{\text{max}} = \frac{\dot{A}\,t_{\text{out}}\,h_{\text{day}}}{A_{\text{skin}}}
+\tag{38}
 $$
 
 plies on a shell of that size before the material is out of time.
@@ -845,6 +883,417 @@ The aerodynamics of the aeroplane, which were the Dornier's and were not modifie
 **One number in this article deserves to be kept for its own sake.** The pressure a vacuum bag can apply is the pressure of the air outside it, so the consolidation available to an out-of-autoclave process at Air Force Plant 42 is 13.39 pounds per square inch against the 14.7 of sea level, and the material datasheet asks for a vacuum the site's entire atmosphere cannot supply. **A manufacturing specification for an aeroplane turns out to depend on the elevation of the floor it is built on.**
 
 **The number arrived 139 days after the first flight, which is the right order for a designation that was recognising a result rather than authorising an attempt.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 38 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 38, 28 are established and 10 are bespoke.
+Consolidation pressures are in pounds per square inch, cure dwells in hours, temperatures in kelvin in the Arrhenius relations but in degrees Celsius in the glass transition relations, where only differences enter, and lengths and areas in metres, while several letters are reused, so $D$ is the sandwich bending stiffness and then the fuselage diameter, $L$ a vessel, flow path, laminate or skin length, $H$ the scale height and $H(t)$ the reaction heat released, $h$ an altitude, a heat transfer coefficient or working hours a day, $\alpha$ the degree of cure and $\alpha_{\text{th}}$ a thermal diffusivity, and $R$ the molar gas constant while $R_{\text{air}}$ is the specific gas constant of air.
+
+**Equation 1, Bending Stiffness of a Sandwich Panel.**
+A sandwich takes its bending stiffness almost wholly from two facesheets held apart by the core, approximately half the facesheet modulus times the facesheet thickness times the square of the core depth.
+
+$$
+D \approx \frac{E_{f}\,t_{\text{face}}\,h_{c}^{2}}{2}
+\tag{1}
+$$
+
+**Equation 2, Thin-Walled Pressure Vessel Wall Thickness.**
+Hoop stress fixes the wall thickness of a cylindrical vessel as the pressure times the radius over the allowable stress.
+[Pressure Vessel][ref_pressure_vessel]
+
+$$
+t_{w} = \frac{p\,r}{\sigma_{\text{allow}}}
+\tag{2}
+$$
+
+**Equation 3, Shell Mass of a Cylindrical Pressure Vessel.**
+The shell mass is the density times the shell area times the wall thickness, so it rises with the square of the radius times the length.
+[Pressure Vessel][ref_pressure_vessel]
+
+$$
+m_{\text{shell}} = 2 \pi \rho \, r \, L \, t_{w} = \frac{2 \pi \rho \, p \, r^{2} L}{\sigma_{\text{allow}}}
+\tag{3}
+$$
+
+**Equation 4, Consolidation Pressure Under a Bag and in an Autoclave.**
+A vacuum bag consolidates with the ambient pressure less the pressure inside the bag, and an autoclave adds its gauge pressure to that differential.
+[Vacuum Bag Moulding][ref_vacuum_bagging]
+
+$$
+\Delta p_{\text{bag}} = p_{\text{amb}} - p_{\text{in}}
+\qquad\qquad
+\Delta p_{\text{autoclave}} = p_{\text{gauge}} + p_{\text{amb}} - p_{\text{in}}
+\tag{4}
+$$
+
+**Equation 5, Ratio of Autoclave to Vacuum Bag Consolidation Pressure.**
+With the bag fully evacuated the ratio of autoclave to bag consolidation pressure is one plus the gauge pressure over the ambient pressure.
+
+$$
+\frac{\Delta p_{\text{autoclave}}}{\Delta p_{\text{bag}}} = 1 + \frac{p_{\text{gauge}}}{p_{\text{amb}}}
+\tag{5}
+$$
+
+**Equation 6, Pressure in the Standard Troposphere.**
+The standard atmosphere gives the ambient pressure below the tropopause as a power of the linearly falling temperature ratio.
+[U.S. Standard Atmosphere][ref_us_standard_atmosphere]
+[Barometric Formula][ref_barometric]
+
+$$
+p(h) = p_{0}\left(1 - \frac{\lambda h}{T_{0}}\right)^{\frac{g}{R_{\text{air}}\lambda}}
+\tag{6}
+$$
+
+**Equation 7, Sea-Level Pressure Gradient and Scale Height.**
+Differentiating the hydrostatic balance at sea level gives a pressure gradient equal to the sea-level pressure over the scale height.
+
+$$
+\left.\frac{\mathrm{d}p}{\mathrm{d}h}\right|_{0} = -\frac{p_{0}\,g}{R_{\text{air}} T_{0}} = -\frac{p_{0}}{H}
+\qquad\qquad
+H = \frac{R_{\text{air}} T_{0}}{g}
+\tag{7}
+$$
+
+**Equation 8, Boyle's Law for an Entrapped Gas.**
+At constant temperature the volume of an entrapped gas is inversely proportional to its pressure.
+[Boyle's Law][ref_boyle]
+
+$$
+V_{1} = V_{0}\,\frac{p_{0}}{p_{1}}
+\tag{8}
+$$
+
+**Equation 9, Void Fraction After Isothermal Compression.**
+With the solid taken as incompressible beside the gas, compressing the voids by Boyle's law changes the void fraction as the compressed void volume over the new total volume.
+[Boyle's Law][ref_boyle]
+
+$$
+\phi_{1} = \frac{\phi_{0}\,p_{0}/p_{1}}{\left(1-\phi_{0}\right) + \phi_{0}\,p_{0}/p_{1}}
+\tag{9}
+$$
+
+**Equation 10, Pressure Ratio Required for a Target Void Fraction.**
+Inverting the void fraction relation gives the pressure ratio that a specified final void fraction demands.
+
+$$
+\frac{p_{1}}{p_{0}} = \frac{\phi_{0}}{\phi_{1}}\cdot\frac{1-\phi_{1}}{1-\phi_{0}}
+\tag{10}
+$$
+
+**Equation 11, Laplace Pressure of a Void.**
+The gas in a spherical void exceeds the resin pressure by twice the surface tension over the void radius.
+[Laplace Pressure][ref_laplace_pressure]
+
+$$
+p_{\text{void}} - p_{\text{resin}} = \frac{2\gamma}{r}
+\tag{11}
+$$
+
+**Equation 12, Smallest Void Radius Closed by a Given Pressure.**
+Setting the Laplace excess equal to the available consolidation pressure gives the radius below which pressure cannot close a void.
+[Laplace Pressure][ref_laplace_pressure]
+
+$$
+r_{\text{min}} = \frac{2\gamma}{\Delta p}
+\tag{12}
+$$
+
+**Equation 13, Henry's Law.**
+The concentration of gas dissolved in the resin is proportional to the pressure applied.
+[Henry's Law][ref_henry]
+
+$$
+c = k_{H}\,p
+\tag{13}
+$$
+
+**Equation 14, Darcy's Law.**
+The volumetric flux through a porous medium is the permeability over the viscosity times the pressure gradient.
+[Darcy's Law][ref_darcy]
+
+$$
+q = -\frac{k}{\mu}\,\nabla p
+\tag{14}
+$$
+
+**Equation 15, Kozeny-Carman Permeability of a Fibre Bed.**
+The Kozeny-Carman relation sets the permeability of a fibre bed by the square of the fibre diameter and the cube of the open fraction over the square of the fibre volume fraction and the Kozeny constant.
+
+$$
+k = \frac{d_{f}^{2}\,\left(1 - V_{f}\right)^{3}}{\kappa\,V_{f}^{2}}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Sweep Time Through a Dry Tow Network.*
+The article takes a linear pressure gradient over the path to estimate the time a fluid needs to sweep the channel network as viscosity times porosity times the square of the path length over permeability times pressure difference.
+
+$$
+t_{\text{sweep}} = \frac{\mu\,\varphi\,L^{2}}{k\,\Delta p}
+\tag{16}
+$$
+
+**Equation 17, Ratio of Resin to Air Sweep Times.**
+For the same path, permeability and pressure difference the two sweep times stand in the ratio of the two viscosities.
+
+$$
+\frac{t_{\text{resin}}}{t_{\text{air}}} = \frac{\mu_{\text{resin}}}{\mu_{\text{air}}}
+\tag{17}
+$$
+
+**Equation 18, Degree of Cure.**
+The degree of cure is the reaction heat released so far as a fraction of the ultimate heat of reaction, as a calorimeter reports it.
+[Thermosetting Polymer][ref_thermosetting]
+
+$$
+\alpha(t) = \frac{H(t)}{H_{\text{ult}}}
+\tag{18}
+$$
+
+**Equation 19, Autocatalytic Cure Rate Model.**
+The two-constant autocatalytic model fits epoxy amine cure with a rate that rises from zero before it falls.
+[Vyazovkin and Sbirrazzuoli 1996][research_vyazovkin_sbirrazzuoli_1996]
+[Keenan 1987][research_keenan_1987]
+
+$$
+\frac{\mathrm{d}\alpha}{\mathrm{d}t} = \left(k_{1} + k_{2}\,\alpha^{m}\right)\left(1 - \alpha\right)^{n}
+\tag{19}
+$$
+
+**Equation 20, Arrhenius Dependence of Cure Time on Temperature.**
+Because both rate constants follow an Arrhenius law, the time to reach a given degree of cure rises exponentially as the temperature falls.
+[Arrhenius Equation][ref_arrhenius]
+[Kratz et al. 2012][research_kratz_thermal_models]
+
+$$
+t \;=\; A_{0} \exp\!\left(\frac{E_{a}}{R\,T}\right)
+\tag{20}
+$$
+
+**Equation 21, Activation Energy From Two Isothermal Dwells.**
+Two dwells at two temperatures that reach the same state fix an activation energy through the logarithm of their ratio over the difference of reciprocal temperatures.
+[Arrhenius Equation][ref_arrhenius]
+
+$$
+E_{a} \;=\; R\,\frac{\ln\!\left(t_{1}/t_{2}\right)}{1/T_{1} - 1/T_{2}}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Apparent Activation Energy From the Datasheet Cures.*
+The datasheet's twenty hours at 80 degrees Celsius and two hours at 130 are treated as reaching a common state, an assumption the article adopts although the cures are not iso-conversional, giving an apparent activation energy of about 54.5 kilojoules per mole.
+[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]
+
+$$
+E_{a} = 8.314 \times \frac{\ln\left(20/2\right)}{1/353.15 - 1/403.15} = \frac{19.14}{3.512 \times 10^{-4}} \approx 54{,}510
+\tag{22}
+$$
+
+**Equation 23, Arrhenius Ratio of Dwell Times.**
+The ratio of dwell times at two temperatures is the exponential of the activation energy over the gas constant times the difference of reciprocal temperatures.
+
+$$
+\frac{t_{\text{lo}}}{t_{\text{hi}}} = \exp\!\left[\frac{E_{a}}{R}\left(\frac{1}{T_{\text{lo}}} - \frac{1}{T_{\text{hi}}}\right)\right]
+\tag{23}
+$$
+
+*Equation 24, Bespoke Predicted Dwell at 120 Degrees and the Datasheet Margin.*
+Extrapolating from two hours at 130 degrees with the fitted apparent activation energy predicts about three hours at 120, so the datasheet's four hours carries a margin of about 32 percent.
+[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]
+
+$$
+t_{\text{lo}} = 2 \exp\left[6{,}556 \left(\frac{1}{393.15} - \frac{1}{403.15}\right)\right] \approx 3.025,
+\qquad
+\frac{4}{3.025} - 1 \approx 0.322
+\tag{24}
+$$
+
+**Equation 25, Fourier Conduction Time of a Laminate.**
+The time for heat to equilibrate across a laminate is the square of its thickness over its through-thickness diffusivity.
+
+$$
+\tau = \frac{L^{2}}{\alpha_{\text{th}}}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Conduction Time of a Six Millimetre Laminate.*
+At a through-thickness diffusivity of three ten-millionths of a square metre per second, a representative value the article assumes, a six millimetre laminate equilibrates in two minutes, under one percent of the four hour dwell.
+[Thermal Diffusivity][ref_thermal_diffusivity]
+
+$$
+\tau = \frac{\left(6 \times 10^{-3}\right)^{2}}{3 \times 10^{-7}} = 120,
+\qquad
+\frac{\tau}{t} = \frac{120}{14{,}400} \approx 0.0083
+\tag{26}
+$$
+
+*Equation 27, Bespoke Pressure Scaling of the Convective Coefficient.*
+The Dittus-Boelter form makes the convective coefficient scale as the 0.8 power of gas pressure once the article holds velocity, temperature and geometry equal between the oven and the autoclave.
+[Nusselt Number][ref_nusselt]
+
+$$
+\mathrm{Nu} = C_{Nu}\,\mathrm{Re}^{0.8}\,\mathrm{Pr}^{1/3}
+\qquad\Longrightarrow\qquad
+\frac{h_{\text{autoclave}}}{h_{\text{oven}}} \sim \left(\frac{p_{\text{autoclave}}}{p_{\text{oven}}}\right)^{0.8}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Convective Advantage of the Autoclave.*
+At the consolidation pressure ratio of 7.35 the coefficient rises by about 4.93, or by 3.31 at an exponent of 0.6 that the article assumes as the lower end of the range.
+
+$$
+\frac{h_{\text{autoclave}}}{h_{\text{oven}}} \sim 7.35^{0.8} \approx 4.93,
+\qquad
+7.35^{0.6} \approx 3.31
+\tag{28}
+$$
+
+**Equation 29, DiBenedetto Relation.**
+The DiBenedetto relation gives the rise of the glass transition temperature with degree of cure between its uncured and fully cured values.
+[Glass Transition][ref_glass_transition]
+
+$$
+\frac{T_{g} - T_{g0}}{T_{g\infty} - T_{g0}} = \frac{\lambda_{D}\,\alpha}{1 - \left(1 - \lambda_{D}\right)\alpha}
+\tag{29}
+$$
+
+**Equation 30, Vitrification Limit on the Degree of Cure.**
+Setting the glass transition equal to the cure temperature and inverting the DiBenedetto relation gives the conversion at which the resin vitrifies.
+
+$$
+\alpha_{\text{vit}} = \frac{f}{\lambda_{D} + \left(1 - \lambda_{D}\right) f}
+\qquad\qquad
+f = \frac{T_{\text{cure}} - T_{g0}}{T_{g\infty} - T_{g0}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Vitrification Ceilings at 120 and 160 Degrees.*
+With the datasheet's fully cured glass transition of 180 degrees and an uncured value of minus 20 degrees and a curvature parameter of 0.5 that the article assumes, a 120 degree cure stops near 0.824 and the wet glass transition of 160 degrees demands 0.947.
+[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]
+
+$$
+f = \frac{120 - \left(-20\right)}{180 - \left(-20\right)} = 0.70,
+\qquad
+\alpha_{\text{vit}} = \frac{0.70}{0.5 + 0.5 \times 0.70} \approx 0.824,
+\qquad
+\frac{0.90}{0.5 + 0.5 \times 0.90} \approx 0.947
+\tag{31}
+$$
+
+*Equation 32, Bespoke Sensitivity of the 120 Degree Ceiling.*
+The corners of a grid of uncured glass transitions and curvature parameters that the article assumes representative move the 120 degree ceiling between 0.741 and 0.899.
+
+$$
+\alpha_{\text{vit}} = \frac{120/180}{0.7 + 0.3 \times 120/180} \approx 0.741,
+\qquad
+\alpha_{\text{vit}} = \frac{160/220}{0.3 + 0.7 \times 160/220} \approx 0.899
+\tag{32}
+$$
+
+**Equation 33, Total Dwell of Two-Stage Cures Against the Autoclave.**
+Adding the datasheet's post-cure to each low-temperature cure gives total dwells of three and eleven times the autoclave-only dwell.
+[MTM45-1 Prepreg Technical Data Sheet, Cytec Industrial Materials][ref_mtm45_datasheet]
+
+$$
+\frac{t_{\text{init}} + t_{\text{post}}}{t_{\text{ac}}},
+\qquad
+\frac{4 + 2}{2} = 3,
+\qquad
+\frac{20 + 2}{2} = 11
+\tag{33}
+$$
+
+**Equation 34, Wright Learning Curve.**
+Recurring unit cost falls as a power of the cumulative unit number, with an exponent equal to the logarithm of the progress ratio over the logarithm of two.
+[Experience Curve Effects][ref_learning_curve]
+[Military Airframe Costs: The Effects of Advanced Materials and Manufacturing Processes][research_rand_airframe_costs]
+
+$$
+C_{i} = C_{1}\,i^{b}
+\qquad\qquad
+b = \frac{\ln \varrho}{\ln 2}
+\tag{34}
+$$
+
+**Equation 35, Break-Even Production Run.**
+The number of aircraft needed to repay a programme is its cost divided by the recurring saving per aircraft.
+
+$$
+n_{\text{break-even}} = \frac{C_{\text{programme}}}{\Delta C_{\text{per aircraft}}}
+\tag{35}
+$$
+
+**Equation 36, Surface Area of a Fuselage Half-Shell.**
+One fuselage half is half a cylinder, so its surface is half of pi times the diameter times the length.
+[Advanced Composite Cargo Aircraft Proves Large Structure Practicality, CompositesWorld][ref_cw_acca]
+
+$$
+A_{\text{skin}} = \frac{\pi D L}{2}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Layup Rate Demanded by the Out-Life.*
+The article requires every ply of a half-shell to be laid within one out-life window at a constant rate, which sets the sustained rate as plies times skin area over the out-life in working hours.
+
+$$
+\dot{A} = \frac{N\,A_{\text{skin}}}{t_{\text{out}}\,h_{\text{day}}}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Maximum Plies Within the Out-Life.*
+Inverting the same single-window construction gives the most plies a shop of a given sustained rate can lay on the shell before the material is out of time.
+
+$$
+N_{\text{max}} = \frac{\dot{A}\,t_{\text{out}}\,h_{\text{day}}}{A_{\text{skin}}}
+\tag{38}
+$$
+
+### Notation
+
+- $E_{f}$, the facesheet modulus, with $t_{\text{face}}$ the facesheet thickness
+- $h_{c}$, the core depth
+- $t_{w}$, the vessel wall thickness
+- $\sigma_{\text{allow}}$, the allowable wall stress
+- $m_{\text{shell}}$, the shell mass of the vessel
+- $p_{\text{amb}}$, the ambient pressure
+- $p_{\text{gauge}}$, the autoclave gauge pressure
+- $p_{\text{in}}$, the pressure inside the bag
+- $\Delta p_{\text{bag}}$, the consolidation pressure under a vacuum bag, with $\Delta p_{\text{autoclave}}$ that in an autoclave
+- $\lambda h$, the product of the lapse rate $\lambda$ and the geopotential altitude $h$
+- $R_{\text{air}}$, the specific gas constant of air
+- $\phi_{0}$, the initial void fraction, with $\phi_{1}$ the void fraction after compression
+- $\gamma$, the surface tension of the uncured resin
+- $r_{\text{min}}$, the smallest void radius that the consolidation pressure can close
+- $k_{H}$, the Henry's law constant
+- $k$, the permeability of the fibre bed
+- $\mu$, the dynamic viscosity of the fluid
+- $d_{f}$, the fibre diameter
+- $V_{f}$, the fibre volume fraction
+- $\kappa$, the Kozeny constant
+- $\varphi$, the porosity of the channel network
+- $t_{\text{sweep}}$, the time for a fluid to sweep the flow path
+- $\alpha$, the degree of cure
+- $H_{\text{ult}}$, the ultimate heat of reaction
+- $E_{a}$, the activation energy
+- $\alpha_{\text{th}}$, the through-thickness thermal diffusivity
+- $\mathrm{Nu}$, the Nusselt number
+- $h_{\text{autoclave}}$, the convective heat transfer coefficient in the autoclave, with $h_{\text{oven}}$ that in an oven
+- $T_{g}$, the glass transition temperature
+- $T_{g0}$, the glass transition temperature of the uncured resin, with $T_{g\infty}$ that of the fully cured resin
+- $\lambda_{D}$, the DiBenedetto curvature parameter
+- $\alpha_{\text{vit}}$, the degree of cure at vitrification
+- $C_{i}$, the recurring cost of the $i$th unit, with $C_{1}$ that of the first
+- $\varrho$, the progress ratio
+- $n_{\text{break-even}}$, the number of aircraft needed to repay the programme
+- $A_{\text{skin}}$, the skin area of one fuselage half-shell
+- $\dot{A}$, the sustained layup rate
+- $t_{\text{out}}$, the out-life of the prepreg in days
+- $h_{\text{day}}$, the working hours a day
+- $N_{\text{max}}$, the most plies that can be laid within the out-life
 
 ## References
 

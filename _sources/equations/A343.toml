@@ -1,0 +1,399 @@
+# Equation classification for A343. Read by `python3 _lib/equations.py`.
+
+caution = "Weights and masses are quoted in pounds and in kilograms and every weight fraction is a share of the gross weight at takeoff, specific fuel consumption is per hour and endurance in hours, and $R$ is the cruise range in the Breguet relation but the gas constant of air in the speed of sound."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Empty-Weight Budget of a Naval Unmanned Aircraft"
+gloss = "The article writes the empty-weight fraction as that of a manned reference aircraft plus a carrier suitability penalty less a crew saving, both taken as fractions of the same gross weight."
+cite = []
+digest = "d65c83a1b888c7a4"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Condition for the Requirement to Close"
+gloss = "The budget is satisfiable only if the crew saving exceeds the deck penalty by at least the gap between the reference and the required empty-weight fractions."
+cite = []
+digest = "ec5941c6bdd4dab0"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Payload Fractions of the X-45A and X-45C"
+gloss = "The published internal payloads divided by the published gross masses give payload fractions that agree to four significant figures."
+cite = ["ref_parsch_x45", "related_post_a342_boeing_x45"]
+digest = "c09da6612f3224a7"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Inherited Payload Fraction"
+gloss = "The mean of the two published payload fractions is taken as a design constant on the assumption that the unbuilt X-46A shares the manufacturer's practice."
+cite = ["ref_parsch_x45"]
+digest = "4a1ba3dbe5ebd8fe"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Gross Weight Implied by the Requirement"
+gloss = "The required payload of four thousand pounds divided by the inherited payload fraction gives a gross weight of 32,539 pounds."
+cite = []
+digest = "9ba93fe32c76cade"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Implied Gross Weight Against the Built Aircraft"
+gloss = "The implied gross weight is 0.889 of the X-45C and 2.67 times the X-45A, a comparison that inherits the assumed payload fraction."
+cite = []
+digest = "2e20e550c2304141"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Breguet Range Relation"
+gloss = "The cruise range at constant lift to drag ratio and specific fuel consumption gives the weight ratio across the leg as an exponential of range times consumption over speed times lift to drag ratio."
+cite = ["book_raymer", "book_torenbeek", "book_anderson_performance", "book_nicolai"]
+digest = "7e984366d3f90ebe"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Breguet Endurance Relation"
+gloss = "The endurance form gives the weight ratio across a loiter as an exponential of time on station times consumption over lift to drag ratio."
+cite = ["book_raymer", "book_torenbeek", "book_anderson_performance", "book_nicolai"]
+digest = "7fc601bb16bd99b6"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Temperature and Speed of Sound Above the Tropopause"
+gloss = "The standard atmosphere holds the temperature at its eleven kilometre value of 216.65 kelvin above the tropopause, which gives a speed of sound of 295.07 metres per second."
+cite = ["research_u_s_standard_1976"]
+digest = "b5f54a94a864c22d"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Cruise Speed"
+gloss = "The cruise speed takes a Mach number of 0.75 at forty thousand feet, a cruise condition the article assumes."
+cite = []
+digest = "23b419be79bd918f"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Segment Weight Ratios"
+gloss = "The Breguet relations give the segment ratios for a radius of 650 nautical miles and twelve hours on station with an assumed cruise lift to drag ratio of 16, loiter value of 18 and specific fuel consumption of 0.80 and 0.75 per hour."
+cite = []
+digest = "a3872979fdc4946a"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Mission Fuel Fraction"
+gloss = "The fuel fraction is one less the product of the segment ratios plus a reserve of five percent of gross weight that the article assumes, giving 0.5285."
+cite = []
+digest = "102d1aeba9c88966"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Fuel Fraction of the Two Cruise Legs"
+gloss = "The fuel burned outbound and back under the assumed cruise values is 14.0 percent of the takeoff weight."
+cite = []
+digest = "7648c01b89330f2e"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Fuel Fraction of the Loiter"
+gloss = "The loiter is charged against the weight that remains after the outbound leg, so under the assumed loiter values it costs 33.8 percent of the takeoff weight."
+cite = []
+digest = "02549684ecfa8b3e"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Closure of the Weight Fractions"
+gloss = "The empty, payload and fuel fractions of the gross weight sum to one."
+cite = []
+digest = "6f498658a63b4f78"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Empty-Weight Fraction the Requirement Demands"
+gloss = "Closing the weight fractions with the inherited payload fraction and the assumed mission fuel fraction gives a demanded empty-weight fraction of 0.3485."
+cite = []
+digest = "68effee92729fe25"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Gap to the Lightest Carrier Aircraft"
+gloss = "The empty-weight fraction is the published empty weight over the published maximum weight, and the lightest of the three carrier aircraft exceeds the demanded fraction by 0.0925."
+cite = ["ref_a6_wikipedia", "ref_fa18ef_wikipedia", "ref_s3_wikipedia"]
+digest = "f7f2fbf53ecff565"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Payload Fraction and Gross Mass of a Separate Mission"
+gloss = "Each mission reading assumes an empty-weight fraction of 0.42, so the payload fraction is what remains after the fuel and the gross mass follows from the four thousand pound payload."
+cite = []
+digest = "e2a6de0315ada144"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Fuel Fraction of the Strike Reading"
+gloss = "A radius of 650 nautical miles out and back with no loiter, under the assumed cruise values and five percent reserve, needs a fuel fraction of 0.190."
+cite = []
+digest = "8f857f78ebb8efec"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Fuel Fraction of the Station Reading"
+gloss = "Twelve hours on station with no transit, under the assumed loiter values and five percent reserve, needs a fuel fraction of 0.443."
+cite = []
+digest = "6e91d1fdf69f79e5"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Fuel Fraction of the Combined Reading"
+gloss = "The full profile of transit, twelve hours on station and return, under the assumed values and five percent reserve, needs a fuel fraction of 0.529."
+cite = []
+digest = "ba9ac35d05ac9ea6"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Strike Payload Fraction Against the Family Constant"
+gloss = "The payload fraction of 0.390 that the strike reading leaves at an assumed empty-weight fraction of 0.42 is 3.17 times the inherited payload fraction."
+cite = []
+digest = "e740b264109ab879"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke End-of-Mission Fraction and Required Loiter Ratio"
+gloss = "The weight left at the end of the mission is the empty and payload fractions together, and dividing it by the two cruise ratios gives the loiter ratio the mission permits, a closure that carries no fuel reserve."
+cite = []
+digest = "c8bea7ffe297e9ec"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Loiter Time at the Inherited Payload Fraction"
+gloss = "Inverting the endurance relation gives the time on station at the full radius for an assumed empty-weight fraction, with the inherited payload fraction and no fuel reserve."
+cite = []
+digest = "99902f4e215d24a9"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Sensitivity of Loiter Time to Empty-Weight Fraction"
+gloss = "Differentiating the loiter relation at an assumed loiter lift to drag ratio of 18, specific fuel consumption of 0.75 per hour and empty-weight fraction of 0.42 gives a loss of 44.2 hours per unit of empty-weight fraction."
+cite = []
+digest = "6673487da27eb8ac"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Empty-Weight Fraction for Twelve Hours on Station"
+gloss = "Solving the loiter relation for twelve hours under the assumed loiter values and with no fuel reserve gives an empty-weight fraction of 0.3985."
+cite = []
+digest = "1fd0aa3971cafa4f"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Demanded Empty-Weight Fraction as a Function of the Loiter Values"
+gloss = "The demanded empty-weight fraction is written in closed form in the loiter lift to drag ratio and specific fuel consumption, holding the inherited payload fraction, the assumed cruise ratios and the five percent reserve."
+cite = []
+digest = "c573c8e430190ebf"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Approach Speed and Wing Loading"
+gloss = "The lift equation at the maximum lift coefficient turns an approach speed limit into a wing loading limit."
+cite = []
+digest = "3ad6fc597033dfe9"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Wing Area and Span from Wing Loading and Aspect Ratio"
+gloss = "The wing loading fixes the area and the aspect ratio turns the area into a span."
+cite = ["book_raymer", "book_nicolai"]
+digest = "fabd809b1604e7a9"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Span Agreement with the X-45C"
+gloss = "The span computed for an approach of 130 knots, a maximum lift coefficient of 1.2 and an aspect ratio of 5, three values the article chooses, differs from the published X-45C span by 0.43 percent."
+cite = ["ref_parsch_x45"]
+digest = "25ddd059328664a8"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Carrier Suitability Penalty"
+gloss = "The article defines the deck penalty as the mass of tailhook, landing gear, structural change and approach avionics as a fraction of gross mass, none of which is published."
+cite = ["ref_boeing_x45c_release"]
+digest = "aa4d6254a0b4403c"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Installed Thrust from Thrust to Weight Ratio"
+gloss = "The installed thrust is the thrust to weight ratio times the gross weight."
+cite = ["book_raymer", "book_nicolai"]
+digest = "ea19ba4cb05cae08"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Fan-Out Relation"
+gloss = "The number of vehicles one operator can hold is one plus the ratio of neglect time to interaction time."
+cite = ["related_post_a342_boeing_x45"]
+digest = "3c79786c116fa195"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Fan-Out with Link Latency"
+gloss = "The article adds twice the link delay to every interaction, so that latency lengthens the interaction without lengthening the neglect."
+cite = []
+digest = "ca2ebdce5de7a2ce"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Payload Margin of the X-45C over the Requirement"
+gloss = "The published internal payload of 2,040 kilograms, or 4,497 pounds, exceeds the four thousand pound requirement by 12.4 percent."
+cite = ["ref_parsch_x45", "ref_bard_chronicle"]
+digest = "ebe31ba6dc2e8657"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Fuel Flow at Constant Lift to Drag Ratio"
+gloss = "The rate of weight loss is the specific fuel consumption times the thrust, which in level flight is the weight over the lift to drag ratio."
+cite = ["book_anderson_performance", "book_torenbeek"]
+digest = "38dc528b67cc6eac"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Endurance as an Integral over Weight"
+gloss = "The endurance is the integral of lift to drag ratio over specific fuel consumption times weight, which reduces to the Breguet form when both are constant."
+cite = ["book_anderson_performance", "book_torenbeek"]
+digest = "3a9ecb2de35db362"
+
+[[symbol]]
+tex = '\zeta_{\text{empty}}'
+meaning = "the empty weight as a fraction of gross weight, with $\\zeta_{\\text{payload}}$ and $\\zeta_{\\text{fuel}}$ the payload and fuel fractions"
+
+[[symbol]]
+tex = '\zeta_{\text{ref}}'
+meaning = "the empty-weight fraction that manned carrier aircraft achieve"
+
+[[symbol]]
+tex = '\zeta_{\text{req}}'
+meaning = "the empty-weight fraction the requirement targets"
+
+[[symbol]]
+tex = '\Delta_{\text{deck}}'
+meaning = "the weight that carrier suitability adds, as a fraction of gross weight"
+
+[[symbol]]
+tex = '\Delta_{\text{crew}}'
+meaning = "the weight that removing the crew saves, as a fraction of gross weight"
+
+[[symbol]]
+tex = '\overline{PF}'
+meaning = "the mean payload fraction of the X-45A and X-45C"
+
+[[symbol]]
+tex = '\zeta_{\text{end}}'
+meaning = "the weight remaining at the end of the mission as a fraction of gross weight"
+
+[[symbol]]
+tex = 'W_{0}'
+meaning = "the weight at the start of a segment, with $W_{1}$ the weight at its end"
+
+[[symbol]]
+tex = 'L/D'
+meaning = "the lift to drag ratio"
+
+[[symbol]]
+tex = 'c'
+meaning = "the specific fuel consumption, per hour"
+
+[[symbol]]
+tex = 'E'
+meaning = "the endurance, the time on station"
+
+[[symbol]]
+tex = 'V'
+meaning = "the true airspeed"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'V_{\text{app}}'
+meaning = "the approach speed"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'W/S'
+meaning = "the wing loading"
+
+[[symbol]]
+tex = 'A\!R'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = 'FO'
+meaning = "the fan-out, the number of vehicles one operator can supervise"
+
+[[symbol]]
+tex = 'NT'
+meaning = "the neglect time, how long a vehicle can be left alone before it needs attention"
+
+[[symbol]]
+tex = 'IT'
+meaning = "the interaction time, with $IT_{0}$ its value without link delay"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the link delay"

@@ -168,12 +168,14 @@ This is the fifty-ninth article in the [X-Planes series][related_post_a297_frami
 
 $$
 \dot{d} \;=\; \frac{d_L - d_F}{t_L - t_F}
+\tag{1}
 $$
 
 **That evaluates to 1.385 numbers per year.** The design number field runs to 999 before the instruction has to widen it, and the instruction says what happens then, which is that the range expands to 9999 \[[DAFI 16-401][ref_dafi_16_401_2020]\]. So the headroom and the price of a skip follow immediately.
 
 $$
 t_{999} \;=\; \frac{999 - d_L}{\dot{d}} \qquad\text{and}\qquad \Delta t_s \;=\; \frac{1}{\dot{d}}
+\tag{2}
 $$
 
 **The sequence has about 666.6 years of numbers left at the present rate, and one skipped number costs about 8.7 months of allocation.** **What the X series lost by giving up 58 is eight or nine months of numbering out of six and a half centuries of supply.**
@@ -217,10 +219,12 @@ $$
 
 $$
 W_0 \;=\; W_e \;+\; W_p \;+\; W_f
+\tag{3}
 $$
 
 $$
 \zeta \;=\; \frac{W_f}{W_0} \;=\; 1 \;-\; \frac{W_e + W_p}{W_0}
+\tag{4}
 $$
 
 **The empty mass is 41.7 percent of the maximum and the fuel is 38.3 percent with both payload stations filled**, which is 1,043.3 kg of fuel \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\] \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\]. **The remaining six tenths of the maximum mass is useful load, and fuel takes nearly two thirds of it.**
@@ -229,6 +233,7 @@ $$
 
 $$
 \Pi_p \;=\; \frac{W_p}{W_0}
+\tag{5}
 $$
 
 **The Valkyrie carries 20 percent of its maximum mass as payload.** The [X-46][related_post_a343_boeing_x46] measured the Boeing unmanned combat air vehicle family at 12.29 percent, and found the figure constant to three significant figures across a tripling of payload. **The Valkyrie's is 1.627 times that.**
@@ -241,10 +246,12 @@ $$
 
 $$
 a_s \;=\; \sqrt{\gamma \, \mathcal{R} \, \Theta}
+\tag{6}
 $$
 
 $$
 M \;=\; \frac{V}{a_s} \;=\; \frac{V}{\sqrt{\gamma \, \mathcal{R} \, \Theta}}
+\tag{7}
 $$
 
 **At sea level the standard atmosphere gives 340.3 metres per second and at the quoted ceiling it gives 295.1** \[[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]\] \[[International Standard Atmosphere][ref_icao_atmosphere]\]. Evaluating the quoted speeds against both gives the following.
@@ -265,6 +272,7 @@ $$
 
 $$
 q \;=\; \tfrac{1}{2} \, \rho \, V^{2} \;=\; \tfrac{1}{2} \, \gamma \, p \, M^{2}
+\tag{8}
 $$
 
 **At 476 knots at the ceiling the dynamic pressure is 7.1 kilopascals. At 566 knots at sea level it is 51.9**, which is 7.3 times as much. **The structure is sized by the second and the mission is flown at the first**, and the register's mention of flight down to fifty feet means the second is not hypothetical \[[Kratos XQ-58 Valkyrie][ref_ds_q58]\].
@@ -277,12 +285,14 @@ $$
 
 $$
 \bar{s} \;=\; \sum_{k=1}^{N} p^{\,k-1} \;=\; \frac{1 - p^{N}}{1 - p}
+\tag{9}
 $$
 
 **The limit as the design life grows without bound is the quantity that governs the design.**
 
 $$
 \lim_{N \to \infty} \bar{s} \;=\; \frac{1}{1-p}
+\tag{10}
 $$
 
 **Building a longer life than that gains nothing, because the aeroplane will not live to use it.** With $p = 0.90$ the attrition-limited life is 10 sorties, with $p = 0.95$ it is 20, and with $p = 0.99$ it is 100. **Those are hard ceilings set by the threat and not by the structure.**
@@ -291,12 +301,14 @@ $$
 
 $$
 N^{\star} \;\simeq\; \frac{1}{1-p} \qquad\text{and}\qquad \eta_L \;=\; \frac{\bar{s}}{N} \;=\; \frac{1-p^{N}}{N\,(1-p)}
+\tag{11}
 $$
 
 **Stated as a probability, the same result is starker.**
 
 $$
 \Pr\{\text{the airframe reaches } N\} \;=\; p^{N}
+\tag{12}
 $$
 
 **An airframe surviving nine sorties in ten reaches a life of ten with probability 0.3487 and a life of a hundred with probability 0.00002656.** **Qualifying a structure for a hundred sorties in that environment is qualifying it for an outcome that happens about once in forty thousand airframes.**
@@ -315,6 +327,7 @@ $$
 
 $$
 \bar{C} \;=\; \frac{C_a}{\bar{s}} \;+\; C_{op} \;=\; \frac{C_a\,(1-p)}{1 - p^{N}} \;+\; C_{op}
+\tag{13}
 $$
 
 **Two unit costs are published and they assume different production rates.** The airframe is stated to be producible at four million dollars each at fifty aircraft per year, and possibly under two million at more than a hundred per year \[[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]\]. **At a survival probability of 0.90 and a life long enough not to bind, the airframe cost per sortie is 400,011 dollars at the higher unit cost and 200,005 dollars at the lower.** At 0.95 the same figures fall to 201,191 and 100,596 dollars.
@@ -323,6 +336,7 @@ $$
 
 $$
 \bar{C} \;\to\; C_a \, (1-p) \qquad\text{and}\qquad \frac{\partial \bar{C}}{\partial p} \;=\; -\, C_a
+\tag{14}
 $$
 
 **The cost per sortie becomes the unit cost multiplied by the probability of loss, and the derivative with respect to survivability is the unit cost itself.** **A single percentage point of survival probability is worth one percent of the airframe price, per sortie, at every value of the probability.** At four million dollars that is 40,000 dollars a sortie and at two million it is 20,000.
@@ -335,6 +349,7 @@ $$
 
 $$
 C_a \, (1 - p) \;<\; C_x \, (1 - p_x) \qquad\Longrightarrow\qquad p^{\star} \;=\; 1 \;-\; \frac{C_x}{C_a} \, (1 - p_x)
+\tag{15}
 $$
 
 **Only the ratio of the two unit costs appears, and the price of neither is needed.** Against an aeroplane twenty times its cost that survives 99 of every 100 sorties, the attritable aeroplane is cheaper per sortie whenever it survives more than 0.8 of its own.
@@ -368,6 +383,7 @@ $$
 
 $$
 n_{ac} \;=\; \left\lceil \frac{S_{req}}{\bar{s}} \right\rceil
+\tag{16}
 $$
 
 **A thousand sorties at a survival probability of 0.90 needs 100 airframes, and at 0.95 it needs 51.** **Five percentage points of survivability halves the fleet.** The derivative above gave the same result, here expressed in the unit a programme office orders in.
@@ -378,18 +394,21 @@ $$
 
 $$
 C_u \;=\; C_1 \, u^{\,\beta}, \qquad \beta \;=\; \frac{\ln \phi}{\ln 2}
+\tag{17}
 $$
 
 **Solving the same relation for the progress ratio turns the two published costs into a testable claim.**
 
 $$
 \phi \;=\; \left( \frac{C_B}{C_A} \right)^{\!\!\frac{1}{\log_2 (u_B / u_A)}}
+\tag{18}
 $$
 
 **Read as a learning curve, the published pair implies a progress ratio of 0.5 and an exponent of -1.** It halves unit cost for one doubling of output. **Airframe learning curves are conventionally quoted between 80 and 85 percent** \[[Roskam, Airplane design part VIII, airplane cost estimation][book_roskam]\] \[[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]\] \[[Experience curve effects][ref_learning_curve]\], and the number of doublings such a curve needs to halve a cost is not one.
 
 $$
 \nu \;=\; \frac{\ln \tfrac{1}{2}}{\ln \phi}
+\tag{19}
 $$
 
 **On an 85 percent curve it takes 4.27 doublings to halve the unit cost.** The same doubling that the published figures take from four million to two million would take an 85 percent curve to 3,400,000 dollars, and an 80 percent curve to 3,200,000.
@@ -406,12 +425,14 @@ $$
 
 $$
 n_i \, C_i \;>\; \frac{C_a}{\bar{s}}
+\tag{20}
 $$
 
 **The comparison against a munition forms the other side of the same argument.** An attritable aeroplane delivering $N_w$ weapons per sortie competes with a cruise missile of cost $C_m$ that delivers its effect once.
 
 $$
 \frac{C_a}{\bar{s}\,N_w} \;+\; C_w \;<\; C_m
+\tag{21}
 $$
 
 #### Why Survivability Is Expensive
@@ -420,6 +441,7 @@ $$
 
 $$
 R_d \;\propto\; \Sigma^{\,1/4} \qquad\Longrightarrow\qquad \frac{\Sigma'}{\Sigma} \;=\; \left( \frac{R_d'}{R_d} \right)^{\!4}
+\tag{22}
 $$
 
 **A fourth-root law is brutal in the direction the designer wants to go.** Halving the range at which the vehicle is seen costs a factor of 16 in cross-section. Quartering it costs a factor of 256. **A tenfold reduction in cross-section, a serious and expensive piece of engineering, leaves a detection range of 0.5623 of the original**, removing rather less than half of it.
@@ -450,18 +472,21 @@ $$
 
 $$
 \int_0^{t_b} T_b \, \mathrm{d}t \;=\; m \, V_{LO} \;-\; \int_0^{t_b} \left( T_e - D - \mu \, F_N \right) \mathrm{d}t
+\tag{23}
 $$
 
 **Discarding the engine contribution and the losses together gives an upper bound that is safe in the useful direction.**
 
 $$
 I_{req} \;\le\; m_0 \, V_{LO}
+\tag{24}
 $$
 
 **The propellant needed follows from the specific impulse** \[[Specific impulse][ref_specific_impulse]\].
 
 $$
 m_p \;=\; \frac{I_{req}}{g_0 \, I_{sp}}
+\tag{25}
 $$
 
 **Evaluated at the maximum mass and an assumed specific impulse of 230 seconds for the solid booster, the propellant required is small.** The propellant varies inversely with the specific impulse, so a higher value only reduces the figures below.
@@ -479,6 +504,7 @@ $$
 
 $$
 L_r \;=\; \frac{V_{LO}^{2}}{2 \, a}
+\tag{26}
 $$
 
 **At a lift-off speed of 50 m per second that is 25.5 m**, a length a trailer can carry.
@@ -489,12 +515,14 @@ $$
 
 $$
 V_t \;=\; \sqrt{\frac{2 \, W}{\rho \, C_{D_p} \, S_p}}
+\tag{27}
 $$
 
 **Solving for the canopy instead gives the size the recovery requires, since the canopy dimensions are not published either.**
 
 $$
 S_p \;=\; \frac{2 \, W}{\rho \, C_{D_p} \, V_t^{2}} \qquad\Longrightarrow\qquad D_p \;=\; \sqrt{\frac{4 \, S_p}{\pi}}
+\tag{28}
 $$
 
 **At the empty mass, sea level density and a canopy drag coefficient of 0.85, the requirement is as follows.** The coefficient was measured in a wind tunnel for flat circular and extended-skirt recovery parachutes of an unmanned aircraft above six metres per second \[[Vu et al. 2021][research_vu_le_2021]\].
@@ -513,6 +541,7 @@ $$
 
 $$
 F \;=\; k_s \, \tfrac{1}{2} \, \rho \, V_d^{2} \, C_{D_p} \, S_p
+\tag{29}
 $$
 
 **The shock factor is the term that carries the physics this expression leaves out**, being the peak of the opening transient against the steady drag at the same speed, a quantity obtained by measurement \[[Knacke, Parachute recovery systems design manual][book_knacke]\] \[[Wolf and Fallon 2011][research_wolf_fallon_2011]\].
@@ -525,6 +554,7 @@ $$
 
 $$
 V_d \;\le\; \sqrt{\frac{2 \, n_g \, m_e \, g_0}{\rho \, C_{D_p} \, S_p}}
+\tag{30}
 $$
 
 **The full canopy may be opened at 25.3 metres per second for ten times gravity and 17.9 for five.** **Those are speeds well below anything this aeroplane flies at**, so something else has to take it from cruise to there.
@@ -533,6 +563,7 @@ $$
 
 $$
 \frac{S_r}{S_p} \;=\; \frac{2 \, n_g \, m_e \, g_0}{\rho \, C_{D_p} \, V_d^{2} \, S_p}
+\tag{31}
 $$
 
 **At 60 metres per second the first stage may present 59.3 square metres for ten times gravity, being 0.1778 of the full canopy, or 29.7 square metres for five, being 0.0889.** **This recovery therefore requires reefing to about a fifth of the full area.**
@@ -545,6 +576,7 @@ $$
 
 $$
 x_d \;=\; V_w \, \frac{h_d}{V_t}
+\tag{32}
 $$
 
 **From a thousand metres at eight metres per second the descent lasts 125 seconds, and a ten metre per second wind carries the vehicle 1,250 metres downwind.** **Runway independence buys freedom from the airfield and pays for it in a recovery footprint over a kilometre across**, which trades one constraint for another. **The trade is real and has a cost**, and the fact sheet's phrase about maximum operational flexibility does not mention it \[[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]\].
@@ -553,6 +585,7 @@ $$
 
 $$
 \frac{E_c}{E_t} \;=\; \frac{m_0}{m_e} \left( \frac{V}{V_t} \right)^{2}
+\tag{33}
 $$
 
 **The kinetic energy at cruise is 81.6 MJ and the kinetic energy at an eight metre per second touchdown is 0.036 MJ.** **The recovery sequence disposes of more than 99.9 percent of the aeroplane's energy before the parachute is asked to do anything at all**, and the parachute handles what is left. That work is done by the airframe decelerating aerodynamically, using the same drag the cruise section is trying to minimise.
@@ -565,12 +598,14 @@ $$
 
 $$
 R \;=\; \frac{V}{c}\,\frac{L}{D}\,\ln\!\left(\frac{W_0}{W_1}\right)
+\tag{34}
 $$
 
 **Rearranged for the lift-to-drag ratio the published range demands, it becomes a test.**
 
 $$
 \left(\frac{L}{D}\right)_{\text{req}} \;=\; \frac{R\,c}{V\,\ln\!\left(\dfrac{W_0}{W_0 - W_f}\right)}
+\tag{35}
 $$
 
 **With the published range, the published cruise speed and the fuel fraction computed above, the product of speed over consumption and lift-to-drag must be 11,492,953 m.** Evaluating at three plausible consumption figures gives the following.
@@ -589,6 +624,7 @@ $$
 
 $$
 T_{req} \;=\; \frac{W}{L/D}
+\tag{36}
 $$
 
 **At the mid-cruise weight and the derived lift-to-drag ratio the thrust required is 2,068 newtons**, which is 0.2325 of the installed 8,896. **An aeroplane cruising on less than a quarter of its sea level thrust is unremarkable**, since thrust lapses with density and the remainder serves climb and acceleration.
@@ -597,6 +633,7 @@ $$
 
 $$
 \dot{W}_f \;=\; c \, T_{req} \qquad\text{and}\qquad t \;=\; \frac{W_f}{c \, T_{req}}
+\tag{37}
 $$
 
 **That gives 168.7 kilograms an hour and an endurance of 6.18 hours with every kilogram of fuel spent in cruise.** Multiplying by the cruise speed returns 5,451 kilometres against the published 5,556. **The two agree to within two percent, and the residual is the rounding in the lift-to-drag ratio and the use of a mid-cruise weight in place of the integral.** **A closure this tight gives the earlier argument about the engine class its weight**, since a model that could not reproduce its input would be no evidence at all.
@@ -619,16 +656,19 @@ $$
 
 $$
 T(h) \;=\; T_0 \, \sigma^{\,\kappa}, \qquad \sigma \;=\; \frac{\rho(h)}{\rho_0}
+\tag{38}
 $$
 
 $$
 T_0 \, \sigma^{\,\kappa} \;=\; D \;=\; \frac{W}{L/D} \qquad\Longrightarrow\qquad \left(\frac{L}{D}\right)_{\text{ceil}} \;=\; \frac{W}{T_0 \, \sigma^{\,\kappa}}
+\tag{39}
 $$
 
 **The density ratio comes from the standard atmosphere** \[[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]\] \[[International Standard Atmosphere][ref_icao_atmosphere]\].
 
 $$
 \sigma \;=\; \left(1 - \frac{\lambda h}{\Theta_0}\right)^{\frac{g}{\lambda \mathcal{R}} - 1} \qquad\text{and}\qquad \sigma \;=\; \sigma_{11} \, \exp\!\left(-\frac{g\,h}{\mathcal{R}\,\Theta_{11}}\right)
+\tag{40}
 $$
 
 **At 13,716 m the density ratio is 0.1936.** Taking the sea level thrust as 8,896 N and the weight as that of the aeroplane with half its fuel gone, the lift-to-drag ratio needed to hold the quoted ceiling is 12.53 under a linear lapse, 9.02 under an exponent of 0.8 and 7.65 under an exponent of 0.7.
@@ -1110,6 +1150,415 @@ $$
 **The true claim is narrower, and the article can support it.** The XQ-58A is the earliest allocation whose number the registry states outright was taken from the X series, the 72 being recorded as unclear and the 73 as probable \[[Missing USAF and DOD Aircraft Designations][ref_missing_mds]\]. **It is the first case where the registry is certain, not the first case.**
 
 **The X-58 is not a missing aeroplane.** It is a number that was spent in another series while it was still the next one due, by an authority that was not obliged to say so and did not.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 40 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 40, 28 are established and 12 are bespoke.
+Masses are in kilograms and forces in newtons, speeds in metres per second although the specification quotes knots, costs in dollars, design-number rates in numbers per year and probabilities per sortie, and the attrition and cost relations rest on a constant and independent probability of surviving each sortie, which is a modelling choice rather than a measured property of the aeroplane.
+
+**Equation 1, Rate of Design Number Consumption.**
+The mean rate at which the X series consumes numbers is the span of design numbers in the register divided by the span of dates, which evaluates to 1.385 numbers per year.
+[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]
+
+$$
+\dot{d} \;=\; \frac{d_L - d_F}{t_L - t_F}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Headroom and Cost of One Skipped Number.*
+Extrapolating the mean rate as constant, an assumption the article makes, gives the time remaining before the field reaches 999 and the allocation time that one skipped number costs.
+[DAFI 16-401][ref_dafi_16_401_2020]
+
+$$
+t_{999} \;=\; \frac{999 - d_L}{\dot{d}} \qquad\text{and}\qquad \Delta t_s \;=\; \frac{1}{\dot{d}}
+\tag{2}
+$$
+
+**Equation 3, Mass Budget.**
+The maximum mass is the sum of the empty mass, the payload and the fuel.
+
+$$
+W_0 \;=\; W_e \;+\; W_p \;+\; W_f
+\tag{3}
+$$
+
+**Equation 4, Fuel Fraction.**
+The fuel fraction is one less the empty and payload fractions of the maximum mass, 38.3 percent with both payload stations filled.
+[Kratos XQ-58 Valkyrie][ref_ds_q58]
+[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]
+
+$$
+\zeta \;=\; \frac{W_f}{W_0} \;=\; 1 \;-\; \frac{W_e + W_p}{W_0}
+\tag{4}
+$$
+
+**Equation 5, Payload Fraction.**
+The payload fraction is the payload weight over the maximum weight, 20 percent for the Valkyrie.
+[Kratos XQ-58 Valkyrie][ref_ds_q58]
+[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]
+
+$$
+\Pi_p \;=\; \frac{W_p}{W_0}
+\tag{5}
+$$
+
+**Equation 6, Speed of Sound.**
+The speed of sound in air depends only on temperature through the ratio of specific heats and the specific gas constant.
+
+$$
+a_s \;=\; \sqrt{\gamma \, \mathcal{R} \, \Theta}
+\tag{6}
+$$
+
+**Equation 7, Mach Number.**
+The Mach number is the true airspeed over the local speed of sound.
+[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]
+[International Standard Atmosphere][ref_icao_atmosphere]
+
+$$
+M \;=\; \frac{V}{a_s} \;=\; \frac{V}{\sqrt{\gamma \, \mathcal{R} \, \Theta}}
+\tag{7}
+$$
+
+**Equation 8, Dynamic Pressure in Terms of Static Pressure and Mach Number.**
+The dynamic pressure is half the density times the square of the airspeed, or half the ratio of specific heats times the static pressure times the square of the Mach number.
+
+$$
+q \;=\; \tfrac{1}{2} \, \rho \, V^{2} \;=\; \tfrac{1}{2} \, \gamma \, p \, M^{2}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Expected Sorties per Airframe.*
+Taking a constant and independent probability of surviving each sortie, the article writes the expected sorties of an airframe with a finite design life as a truncated geometric sum.
+[Geometric distribution][ref_geometric_distribution]
+
+$$
+\bar{s} \;=\; \sum_{k=1}^{N} p^{\,k-1} \;=\; \frac{1 - p^{N}}{1 - p}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Attrition-Limited Life.*
+As the design life grows without bound the expected sorties under the constant survival model tend to one over the probability of loss.
+
+$$
+\lim_{N \to \infty} \bar{s} \;=\; \frac{1}{1-p}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Matched Design Life and Life Utilisation.*
+The article sets the design life equal to the attrition-limited life and defines the fraction of the design life actually used under the same model.
+
+$$
+N^{\star} \;\simeq\; \frac{1}{1-p} \qquad\text{and}\qquad \eta_L \;=\; \frac{\bar{s}}{N} \;=\; \frac{1-p^{N}}{N\,(1-p)}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Probability of Reaching the Design Life.*
+Under independent sorties an airframe reaches its design life with probability equal to the survival probability raised to that life.
+
+$$
+\Pr\{\text{the airframe reaches } N\} \;=\; p^{N}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Expected Cost per Sortie.*
+The article amortises the unit cost over the expected sorties of the survival model and adds the operating cost of one sortie.
+
+$$
+\bar{C} \;=\; \frac{C_a}{\bar{s}} \;+\; C_{op} \;=\; \frac{C_a\,(1-p)}{1 - p^{N}} \;+\; C_{op}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Cost per Sortie When the Life Does Not Bind.*
+Once the design life stops binding, the amortised cost tends to the unit cost times the probability of loss, so a point of survival probability is worth one percent of the airframe price per sortie.
+[Kratos XQ-58 Valkyrie][ref_xq58_wikipedia]
+
+$$
+\bar{C} \;\to\; C_a \, (1-p) \qquad\text{and}\qquad \frac{\partial \bar{C}}{\partial p} \;=\; -\, C_a
+\tag{14}
+$$
+
+*Equation 15, Bespoke Break-Even Survival Probability Against a Costlier Aircraft.*
+Equating the limiting costs per sortie of the attritable aircraft and an aircraft not meant to be lost gives the survival probability at which the two cost the same, which depends only on the ratio of unit costs.
+
+$$
+C_a \, (1 - p) \;<\; C_x \, (1 - p_x) \qquad\Longrightarrow\qquad p^{\star} \;=\; 1 \;-\; \frac{C_x}{C_a} \, (1 - p_x)
+\tag{15}
+$$
+
+*Equation 16, Bespoke Airframes Needed for a Campaign.*
+Dividing the sorties a campaign requires by the expected sorties per airframe of the survival model, rounded up, gives the airframes to buy.
+
+$$
+n_{ac} \;=\; \left\lceil \frac{S_{req}}{\bar{s}} \right\rceil
+\tag{16}
+$$
+
+**Equation 17, Learning Curve.**
+Unit cost falls with cumulative production as a power of the unit number, with an exponent set by the progress ratio.
+[Experience curve effects][ref_learning_curve]
+[Roskam, Airplane design part VIII, airplane cost estimation][book_roskam]
+
+$$
+C_u \;=\; C_1 \, u^{\,\beta}, \qquad \beta \;=\; \frac{\ln \phi}{\ln 2}
+\tag{17}
+$$
+
+**Equation 18, Progress Ratio From Two Unit Costs.**
+Inverting the learning curve gives the progress ratio from two unit costs and the number of doublings between their production quantities.
+
+$$
+\phi \;=\; \left( \frac{C_B}{C_A} \right)^{\!\!\frac{1}{\log_2 (u_B / u_A)}}
+\tag{18}
+$$
+
+**Equation 19, Doublings Needed to Halve the Unit Cost.**
+The number of doublings of output needed to halve the unit cost is the logarithm of one half over the logarithm of the progress ratio.
+[Roskam, Airplane design part VIII, airplane cost estimation][book_roskam]
+[Nicolai and Carichner, Fundamentals of aircraft and airship design][book_nicolai]
+
+$$
+\nu \;=\; \frac{\ln \tfrac{1}{2}}{\ln \phi}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Cost-Imposing Exchange Condition.*
+The article states the exchange as favouring the attacker when the cost of the interceptors expended exceeds the airframe cost amortised over its expected sorties.
+[Factsheet Technology, XQ-58A Valkyrie][ref_afrl_factsheet]
+
+$$
+n_i \, C_i \;>\; \frac{C_a}{\bar{s}}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Comparison With a Cruise Missile.*
+The attritable aircraft is preferred when its amortised airframe cost per weapon delivered plus the weapon cost is below the cost of a cruise missile, a condition the article constructs.
+
+$$
+\frac{C_a}{\bar{s}\,N_w} \;+\; C_w \;<\; C_m
+\tag{21}
+$$
+
+**Equation 22, Fourth-Root Dependence of Detection Range on Cross-Section.**
+Because returned power falls as the fourth power of range, detection range varies as the fourth root of the radar cross-section.
+[Knott, Shaeffer and Tuley, Radar cross section][book_knott]
+
+$$
+R_d \;\propto\; \Sigma^{\,1/4} \qquad\Longrightarrow\qquad \frac{\Sigma'}{\Sigma} \;=\; \left( \frac{R_d'}{R_d} \right)^{\!4}
+\tag{22}
+$$
+
+**Equation 23, Impulse Balance Along the Launch Rail.**
+The booster impulse equals the momentum at lift-off less the net impulse of engine thrust, drag and rail friction during the run.
+
+$$
+\int_0^{t_b} T_b \, \mathrm{d}t \;=\; m \, V_{LO} \;-\; \int_0^{t_b} \left( T_e - D - \mu \, F_N \right) \mathrm{d}t
+\tag{23}
+$$
+
+*Equation 24, Bespoke Upper Bound on the Booster Impulse.*
+Discarding the engine contribution and the losses together, a simplification the article adopts, bounds the required impulse by the launch mass times the lift-off speed.
+
+$$
+I_{req} \;\le\; m_0 \, V_{LO}
+\tag{24}
+$$
+
+**Equation 25, Propellant Mass From Specific Impulse.**
+The propellant needed is the required impulse divided by standard gravity times the specific impulse.
+[Specific impulse][ref_specific_impulse]
+
+$$
+m_p \;=\; \frac{I_{req}}{g_0 \, I_{sp}}
+\tag{25}
+$$
+
+**Equation 26, Launch Rail Length.**
+Under constant acceleration the rail length is the square of the lift-off speed over twice the acceleration.
+
+$$
+L_r \;=\; \frac{V_{LO}^{2}}{2 \, a}
+\tag{26}
+$$
+
+**Equation 27, Terminal Velocity Under a Canopy.**
+The steady descent speed under a canopy follows from equating weight to the canopy drag.
+[Knacke, Parachute recovery systems design manual][book_knacke]
+
+$$
+V_t \;=\; \sqrt{\frac{2 \, W}{\rho \, C_{D_p} \, S_p}}
+\tag{27}
+$$
+
+**Equation 28, Canopy Area and Equivalent Diameter.**
+Solving the descent relation for the canopy gives the area that a chosen touchdown speed requires and its equivalent circular diameter.
+[Knacke, Parachute recovery systems design manual][book_knacke]
+
+$$
+S_p \;=\; \frac{2 \, W}{\rho \, C_{D_p} \, V_t^{2}} \qquad\Longrightarrow\qquad D_p \;=\; \sqrt{\frac{4 \, S_p}{\pi}}
+\tag{28}
+$$
+
+**Equation 29, Parachute Opening Force.**
+The opening force is the steady canopy drag at the deployment speed multiplied by a measured opening shock factor.
+[Knacke, Parachute recovery systems design manual][book_knacke]
+[Wolf and Fallon 2011][research_wolf_fallon_2011]
+
+$$
+F \;=\; k_s \, \tfrac{1}{2} \, \rho \, V_d^{2} \, C_{D_p} \, S_p
+\tag{29}
+$$
+
+**Equation 30, Deployment Speed Limit for a Permitted Load Factor.**
+Solving the opening force for speed gives the highest speed at which the full canopy may be opened without exceeding a load factor on the empty mass.
+
+$$
+V_d \;\le\; \sqrt{\frac{2 \, n_g \, m_e \, g_0}{\rho \, C_{D_p} \, S_p}}
+\tag{30}
+$$
+
+**Equation 31, Reefed Canopy Area for a Permitted Load Factor.**
+The reefed area that holds the opening load to a permitted load factor at a given deployment speed follows from the same relation.
+[Knacke, Parachute recovery systems design manual][book_knacke]
+
+$$
+\frac{S_r}{S_p} \;=\; \frac{2 \, n_g \, m_e \, g_0}{\rho \, C_{D_p} \, V_d^{2} \, S_p}
+\tag{31}
+$$
+
+**Equation 32, Drift Under the Canopy.**
+The downwind drift is the wind speed times the descent time, the release height over the descent speed.
+
+$$
+x_d \;=\; V_w \, \frac{h_d}{V_t}
+\tag{32}
+$$
+
+**Equation 33, Ratio of Cruise to Touchdown Kinetic Energy.**
+The ratio of kinetic energies at cruise and at touchdown is the mass ratio times the square of the speed ratio.
+
+$$
+\frac{E_c}{E_t} \;=\; \frac{m_0}{m_e} \left( \frac{V}{V_t} \right)^{2}
+\tag{33}
+$$
+
+**Equation 34, Breguet Range Equation for a Jet.**
+The jet range is the speed over the thrust specific fuel consumption times the lift-to-drag ratio times the logarithm of the weight ratio.
+[Anderson, Aircraft performance and design][book_anderson]
+[Mattingly, Heiser and Pratt, Aircraft engine design][book_mattingly]
+
+$$
+R \;=\; \frac{V}{c}\,\frac{L}{D}\,\ln\!\left(\frac{W_0}{W_1}\right)
+\tag{34}
+$$
+
+**Equation 35, Lift-to-Drag Ratio Required by the Published Range.**
+Rearranging the range equation gives the lift-to-drag ratio that the published range, cruise speed and fuel fraction demand at a given consumption.
+
+$$
+\left(\frac{L}{D}\right)_{\text{req}} \;=\; \frac{R\,c}{V\,\ln\!\left(\dfrac{W_0}{W_0 - W_f}\right)}
+\tag{35}
+$$
+
+**Equation 36, Thrust Required in Cruise.**
+In steady level cruise the thrust required is the weight over the lift-to-drag ratio.
+
+$$
+T_{req} \;=\; \frac{W}{L/D}
+\tag{36}
+$$
+
+**Equation 37, Cruise Fuel Flow and Endurance.**
+The fuel flow is the consumption times the thrust required, and the endurance is the fuel weight over that flow.
+
+$$
+\dot{W}_f \;=\; c \, T_{req} \qquad\text{and}\qquad t \;=\; \frac{W_f}{c \, T_{req}}
+\tag{37}
+$$
+
+**Equation 38, Thrust Lapse With Density.**
+Available thrust falls with altitude as a power of the density ratio set by a lapse exponent.
+[Mattingly, Heiser and Pratt, Aircraft engine design][book_mattingly]
+
+$$
+T(h) \;=\; T_0 \, \sigma^{\,\kappa}, \qquad \sigma \;=\; \frac{\rho(h)}{\rho_0}
+\tag{38}
+$$
+
+**Equation 39, Lift-to-Drag Ratio Implied by the Ceiling.**
+At the ceiling the lapsed thrust equals the drag, which fixes the lift-to-drag ratio needed to hold it.
+[Mattingly, Heiser and Pratt, Aircraft engine design][book_mattingly]
+
+$$
+T_0 \, \sigma^{\,\kappa} \;=\; D \;=\; \frac{W}{L/D} \qquad\Longrightarrow\qquad \left(\frac{L}{D}\right)_{\text{ceil}} \;=\; \frac{W}{T_0 \, \sigma^{\,\kappa}}
+\tag{39}
+$$
+
+**Equation 40, Density Ratio of the Standard Atmosphere.**
+The standard atmosphere gives the density ratio as a power law of temperature in the troposphere and an exponential decay in the isothermal layer above it.
+[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]
+[International Standard Atmosphere][ref_icao_atmosphere]
+
+$$
+\sigma \;=\; \left(1 - \frac{\lambda h}{\Theta_0}\right)^{\frac{g}{\lambda \mathcal{R}} - 1} \qquad\text{and}\qquad \sigma \;=\; \sigma_{11} \, \exp\!\left(-\frac{g\,h}{\mathcal{R}\,\Theta_{11}}\right)
+\tag{40}
+$$
+
+### Notation
+
+- $\dot{d}$, the rate at which the series consumes design numbers
+- $d_L$, the highest design number allocated, with $d_F$ the design number of the earliest X allocation
+- $t_{999}$, the time for the sequence to reach the end of its field
+- $\Delta t_s$, the allocation time one skipped number costs
+- $W_0$, the weight at the start of cruise, with $W_1$ the weight at the end
+- $W_e$, the empty weight
+- $W_p$, the payload weight
+- $W_f$, the weight of the fuel
+- $\zeta$, the fuel fraction
+- $\Pi_p$, the payload fraction
+- $a_s$, the speed of sound
+- $\Theta$, the air temperature
+- $\mathcal{R}$, the specific gas constant for air
+- $\bar{s}$, the expected number of sorties one airframe delivers
+- $p$, the probability of surviving one sortie
+- $N^{\star}$, the design life matched to the survival probability, with $N$ the design life in sorties
+- $\eta_L$, the fraction of the design life actually used
+- $\bar{C}$, the expected cost per sortie
+- $C_a$, the unit cost of one airframe
+- $C_{op}$, the operating cost of one sortie
+- $p^{\star}$, the survival probability at which the two aeroplanes cost the same
+- $C_x$, the unit cost of an aeroplane that is not meant to be lost, with $p_x$ its probability of surviving one sortie
+- $n_{ac}$, the airframes needed
+- $S_{req}$, the sorties the campaign requires
+- $\phi$, the progress ratio, the cost factor per doubling of output
+- $\nu$, the doublings of output needed to halve the unit cost
+- $n_i$, the interceptors expended to remove one aeroplane, each of cost $C_i$
+- $N_w$, the weapons delivered per sortie
+- $R_d$, the range at which the vehicle is detected
+- $\Sigma$, the radar cross-section
+- $V_{LO}$, the lift-off speed
+- $I_{req}$, the booster impulse required
+- $I_{sp}$, the booster specific impulse
+- $L_r$, the launch rail length
+- $V_t$, the steady descent speed under the canopy
+- $C_{D_p}$, the canopy drag coefficient
+- $S_p$, the canopy area
+- $k_s$, the opening shock factor
+- $V_d$, the speed at which the canopy is deployed
+- $n_g$, the load factor the airframe may take on opening
+- $S_r$, the reefed canopy area
+- $x_d$, the distance the vehicle drifts under the canopy
+- $E_c$, the kinetic energy in cruise, with $E_t$ that at touchdown
+- $c$, the thrust specific fuel consumption
+- $T_{req}$, the thrust required in cruise
+- $\kappa$, the thrust lapse exponent
+- $\sigma$, the density ratio
 
 ## References
 

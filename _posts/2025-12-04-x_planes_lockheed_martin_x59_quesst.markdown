@@ -58,6 +58,7 @@ $$
 \sin\mu = \frac{1}{M}
 \qquad\qquad
 \cot\mu = \sqrt{M^2 - 1} = \beta
+\tag{1}
 $$
 
 At the design cruise Mach number of 1.4 the Mach angle is 45.6 degrees, so the cone is broad rather than needle-like \[[Liepmann and Roshko, Elements of gasdynamics][book_liepmann]\].
@@ -70,6 +71,7 @@ Linearised supersonic theory reduces an aircraft, for the purpose of what it sou
 
 $$
 \frac{\Delta p}{p_a} = \frac{\gamma M^2}{\sqrt{2\beta r}}\; F(\zeta)
+\tag{2}
 $$
 
 Here $F$ is Whitham's F-function, and the entire influence of shape, size, weight and attitude enters the far field through it \[[Whitham 1952][research_whitham_1952]\] \[[Whitham, Linear and nonlinear waves][book_whitham]\]. **A body's near field is complicated and its far field is one curve**, and that reduction is why sonic boom minimisation is a tractable design problem.
@@ -79,12 +81,14 @@ The F-function is obtained from the second derivative of an equivalent area dist
 $$
 F(\zeta) = \frac{1}{2\pi} \int_0^{\zeta}
 \frac{A_e''(x)}{\sqrt{\zeta - x}}\; \mathrm{d}x
+\tag{3}
 $$
 
 And the equivalent area is not the aeroplane's cross-section. It is the cross-section plus a term that accounts for lift \[[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]\] \[[Jones, Wing theory][book_jones]\].
 
 $$
 A_e(x) = A_V(x) + \frac{\beta}{2q} \int_0^{x} L'(\xi)\; \mathrm{d}\xi
+\tag{4}
 $$
 
 **That second term is why a sonic boom cannot be designed away by making the aeroplane thin.** The aeroplane must hold itself up, and holding itself up means turning air downwards, and turning air downwards is indistinguishable at a distance from occupying volume. **A wing that carries weight has an equivalent area whether or not it has any thickness.**
@@ -96,6 +100,7 @@ Integrating the lift term over the whole aeroplane collapses it, because the int
 $$
 A_e(\ell) - A_V(\ell) = \frac{\beta}{2q} \int_0^{\ell} L'(\xi)\,\mathrm{d}\xi
 = \frac{\beta\,W}{2q}
+\tag{5}
 $$
 
 **Everything about the aeroplane's shape has dropped out.** What remains is the weight divided by twice the dynamic pressure, multiplied by a Mach number factor. **A designer may redistribute this area along the length and may not reduce it**, because reducing it means either weighing less or flying faster and lower.
@@ -106,6 +111,7 @@ $$
 \frac{\beta\,W}{2q}
 = \frac{0.9798 \times 108,092}{2 \times 12,512}
 = 4.232\ \text{square metres}
+\tag{6}
 $$
 
 **A body of revolution with that cross-section is 2.32 metres across**, since a circle of area $A$ has diameter $2\sqrt{A/\pi}$.
@@ -113,6 +119,7 @@ $$
 $$
 d_e = 2 \sqrt{ \frac{\beta\,W}{2q\,\pi} } = 2 \sqrt{ \frac{ 4.232 }{\pi} }
 = 2.32\ \text{metres}
+\tag{7}
 $$
 
 The aeroplane is ninety-nine feet long and under thirty feet in span \[[X-59 Aircraft Overview and Status][ref_x59_overview]\], and a photograph of it shows a fuselage visibly slimmer than that. **The aeroplane's volume is a minority contributor to its signature. Its weight is the majority**, an inference this article draws from the relation above and finds stated in no source.
@@ -123,6 +130,7 @@ $$
 \frac{ 4.232 }{ 2.058 }
 = \frac{ 25,730 }{ 12,512 }
 = 2.06
+\tag{8}
 $$
 
 **Altitude cannot be chosen freely in this problem, and the two effects it has are opposed.**
@@ -132,6 +140,7 @@ The same equivalent area governs the wave drag through von Karman's double integ
 $$
 D_w = -\frac{q}{2\pi} \int_0^{\ell}\!\!\int_0^{\ell}
 A_e''(x)\, A_e''(\xi)\, \ln|x - \xi| \; \mathrm{d}x \, \mathrm{d}\xi
+\tag{9}
 $$
 
 **So the loudness and the drag are computed from the same curve.** The two objectives are therefore not independent, and neither are they aligned, and **a change made to quieten the aeroplane is a change to its drag whether the designer wants it to be or not.**
@@ -142,6 +151,7 @@ A weak disturbance spreading from a line source in three dimensions has its ampl
 
 $$
 \Delta p \propto r^{-1/2}
+\tag{10}
 $$
 
 **A sonic boom does not obey that law.** Whitham's far-field result for a slender body gives a stronger decay, and a signature that grows longer as it weakens \[[Whitham, Linear and nonlinear waves][book_whitham]\] \[[Maglieri and others, Sonic boom, six decades of research][book_maglieri]\].
@@ -150,12 +160,14 @@ $$
 \Delta p \propto r^{-3/4}
 \qquad\qquad
 T_s \propto r^{1/4}
+\tag{11}
 $$
 
 The discrepancy has a physical cause, which can be found by asking where the energy has gone. The intensity of an acoustic wave is its mean square pressure divided by the impedance of the medium \[[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]\].
 
 $$
 I = \frac{p^2}{\rho\, c}
+\tag{12}
 $$
 
 The acoustic energy carried across unit length of a cylinder of radius $r$ is therefore the circumference times the intensity times the duration of the wave.
@@ -163,6 +175,7 @@ The acoustic energy carried across unit length of a cylinder of radius $r$ is th
 $$
 \Pi(r) \;\sim\; r\, \frac{(\Delta p)^2}{\rho c}\, T_s
 \;\propto\; r \cdot r^{-3/2} \cdot r^{1/4} = r^{-1/4}
+\tag{13}
 $$
 
 **The energy falls as the minus one quarter power of the distance, so about 15.9 percent of it goes missing at every doubling, and it goes missing because the wave has shocks in it.** A shock is an irreversible compression. It converts ordered acoustic energy into heat, and it does so continuously as the wave propagates, and the classical linear result omits it.
@@ -177,6 +190,7 @@ The atmosphere is not uniform. In the troposphere the temperature falls with alt
 
 $$
 c(z) = \sqrt{\gamma R\,T(z)}
+\tag{14}
 $$
 
 $$
@@ -185,6 +199,7 @@ T(z) =
 T_0 - \lambda z, & 0 \le z \le z_1 \\
 T_1, & z_1 < z \le z_2
 \end{cases}
+\tag{15}
 $$
 
 **The pressure and the density follow from the same two layers**, and every quantity later in this article that needs a dynamic pressure, a Reynolds number or an impedance passes through them \[[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]\] \[[International Standard Atmosphere][ref_icao_atmosphere]\].
@@ -193,6 +208,7 @@ $$
 p(z) = p_1 \exp\!\left[ -\frac{g\,(z - z_1)}{R\,T_1} \right]
 \qquad\qquad
 \rho(z) = \frac{p(z)}{R\,T(z)}
+\tag{16}
 $$
 
 At the design cruise altitude this gives 9,119.8 pascals and 0.14664 kilograms a cubic metre, which is 12 percent of the sea-level density.
@@ -200,18 +216,21 @@ At the design cruise altitude this gives 9,119.8 pascals and 0.14664 kilograms a
 $$
 q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2} \times 0.14664 \times
 413.1^2 = 12,512\ \text{pascals}
+\tag{17}
 $$
 
 For a horizontally stratified medium the ray direction obeys an invariant of the same form as Snell's law in optics \[[Pierce, Acoustics][book_pierce]\].
 
 $$
 \frac{\cos\theta(z)}{c(z)} = \mathrm{constant}
+\tag{18}
 $$
 
 The consequence is a threshold. The horizontal trace speed of the wave along the ground equals the aircraft's speed, and a wave whose trace speed is below the local speed of sound cannot propagate as a wave at that level. **So there is a Mach number below which the boom turns over in the air and never reaches the ground.**
 
 $$
 M_c = \frac{c(0)}{c(z_a)}
+\tag{19}
 $$
 
 That condition is standard in the sonic boom literature and gives the term Mach cutoff its name \[[Maglieri and others, Sonic boom, six decades of research][book_maglieri]\]. Evaluated for the design cruise altitude of 55,000 feet in the standard atmosphere, which is 16,764 metres and lies in the isothermal layer above the tropopause at 216.65 kelvin \[[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]\], this gives the following.
@@ -220,6 +239,7 @@ $$
 M_c = \frac{ 340.29 }{ 295.07 } = 1.153
 \qquad\text{against}\qquad
 M = 1.4
+\tag{20}
 $$
 
 **The design cruise Mach number is 21.4 percent above cutoff.** And the cutoff ratio has a maximum, because the atmosphere has a coldest layer. Sweeping the standard atmosphere from the ground to 30 kilometres, the largest value the ratio takes anywhere is 1.153. **So Mach 1.4 produces a boom that reaches the ground from every altitude, and no choice of cruise height would prevent it.**
@@ -241,6 +261,7 @@ $$
 $$
 u = \frac{\sqrt{\sin^2\mu + \cos^2\mu \, \cos^2\phi}}{c(z_a)}
 = \text{constant along the ray}
+\tag{21}
 $$
 
 **A ray reaches the ground only if that invariant still admits a real vertical direction there** \[[Haefeli et al. 1969b][research_haefelirc_hayeswd_1969]\].
@@ -249,6 +270,7 @@ $$
 u\, c(0) \le 1
 \qquad\Longleftrightarrow\qquad
 \phi \ge \phi_c = 45.4^{\circ}
+\tag{22}
 $$
 
 At the design condition the cutoff azimuth is 45.4 degrees, so **rays leaving the cone more sideways than that turn over in the air and are never heard.** The straight-down ray reaches the ground by the shortest path, and every other ray reaching the ground lands further out.
@@ -259,6 +281,7 @@ $$
 \frac{\mathrm{d}y}{\mathrm{d}z}
 = \frac{u\,c(z)}{\sqrt{1 - \left[ u\,c(z) \right]^2}}
 \;\cdot\; \frac{\cos\mu\,\cos\phi}{\sqrt{\sin^2\mu + \cos^2\mu\,\cos^2\phi}}
+\tag{23}
 $$
 
 **Integrated numerically through the standard atmosphere, the widest-arriving ray lands 29.6 kilometres to the side.**
@@ -267,6 +290,7 @@ $$
 y_c = 29.6\ \text{km}
 \qquad\Longrightarrow\qquad
 2 y_c = 59.2\ \text{km}
+\tag{24}
 $$
 
 **A ray tracer is credible only where it reproduces a known result, and this one can be tested.** The rule of thumb NASA publishes is about one mile of boom carpet for every thousand feet of altitude, stated without a Mach number \[[NASA Facts FS-2003-11-016, Sonic Booms][ref_nasa_fs016]\]. **The same tracer run at Mach 2 from the same altitude gives 85 kilometres against the rule's 88.5**, which is short of it by 3.9 percent. **That agreement is the evidence for believing the Mach 1.4 answer**, and it also explains it, because the Mach 1.4 carpet is only 69.6 percent of the Mach 2 one from the same height. Carried to two decimals, the Mach 2 carpet is 85.03 kilometres, the Mach 1.4 carpet is 59.17 and the rule gives 55 statute miles from 55,000 feet.
@@ -275,6 +299,7 @@ $$
 1 - \frac{85.03}{55 \times 1.609344} = 1 - \frac{85.03}{88.51} = 3.9\%
 \qquad\qquad
 \frac{59.17}{85.03} = 69.6\%
+\tag{25}
 $$
 
 **Flying slower narrows the carpet as well as quietening it.**
@@ -288,6 +313,7 @@ Multiplying the design Mach number by the speed of sound at the cruise altitude 
 $$
 V = M\, c(z_a) = 1.4 \times 295.07
 = 413.1\ \mathrm{m/s} = 924.1\ \mathrm{mph}
+\tag{26}
 $$
 
 NASA has published 925 miles per hour for this aeroplane on its public pages and 940 miles per hour in the contract announcement \[[NASA Release 18-020][ref_nasa_release_18_020]\] \[[Quesst, the Aircraft][ref_nasa_quesst_aircraft]\]. **The first reproduces from Mach 1.4 at the cruise altitude to within 0.1 percent.** The second corresponds to Mach 1.42 at the same altitude.
@@ -300,12 +326,14 @@ A pressure signature is converted to a level on the decibel scale in the ordinar
 
 $$
 L_p = 20 \log_{10} \frac{\Delta p}{p_r}
+\tag{27}
 $$
 
 **The overpressure a person experiences is not the one the aeroplane sent.** The ground is a nearly rigid boundary, so the incident wave and its reflection superpose and the pressure at a listener's ear is close to twice the incident value.
 
 $$
 \Delta p_g = K_R\, \Delta p_i
+\tag{28}
 $$
 
 A perfectly rigid surface gives exactly two, because the normal velocity must vanish there and the reflected wave arrives in phase with the incident one. **Real ground is not perfectly rigid.** Flight tests have recorded reflection factors from about 1.8 to 2.0, the lower values generally over sandy or marshy terrain \[[Carlson 1978][research_carlsonhw_1978]\], and this article uses 1.9, inside that range.
@@ -318,6 +346,7 @@ R_g = \frac{\sigma - 1}{\sigma + 1}
 K_R = 1 + R_g
 \qquad\Longrightarrow\qquad
 \sigma = 19
+\tag{29}
 $$
 
 **A factor of 1.9 corresponds to a normalised impedance of 19**, and the measured low end of 1.8 to an impedance of 9, by the same relation. **The conventional constant therefore describes the soil**, which agrees with the lower factors having been recorded over softer ground. Nor is the factor constant where the incidence is oblique, as it is for a boom arriving at the edge of its carpet, and it departs furthest from two where the geometry is awkward, near the threshold Mach number and at the edge of the carpet \[[Thomas 1971b][research_thomas_1971]\].
@@ -336,12 +365,14 @@ $$
 \delta = \frac{4\, \delta_d\, \rho_0\, c_0}{(\gamma + 1)\, \Delta p}
 \qquad\qquad
 \tau = \frac{\delta}{c_0}
+\tag{30}
 $$
 
 $$
 \delta_d = \frac{1}{\rho_0}
 \left[ \frac{4}{3}\eta + \eta_B
 + \kappa \left( \frac{1}{c_v} - \frac{1}{c_p} \right) \right]
+\tag{31}
 $$
 
 The bracket is the shear and bulk viscosities and the thermal conduction term together \[[Volume viscosity][ref_bulk_viscosity]\]. For air at sea level the diffusivity of sound is about 3.658 times ten to the minus five square metres a second. Evaluating the thickness for the illustrative low-boom overpressure gives 1.769 millimetres, and therefore a rise time as follows.
@@ -350,6 +381,7 @@ $$
 \tau = 5.2\ \text{microseconds}
 \qquad\text{against a measured}\qquad
 \tau \approx 1\ \text{millisecond}
+\tag{32}
 $$
 
 **Classical theory is wrong here by a factor of about 192, which is 2.3 orders of magnitude.** Measured sonic boom rise times are of the order of a millisecond, not a microsecond, and the discrepancy has been known since booms were first recorded properly \[[Maglieri and Sothcott 1990][research_maglieridomenicj_sothcottvictore_1990]\] \[[Cleveland and Blackstock 1994][research_cleveland_blackstock_1994]\] \[[Holst-Jensen 1981][research_holstjensen_1981]\]. **The discrepancy is neither a small correction nor an experimental error.**
@@ -363,6 +395,7 @@ $$
 \qquad\Longrightarrow\qquad
 0.159\ \text{decibels a kilometre at}\ 
 1,000\ \text{hertz}
+\tag{33}
 $$
 
 **That is 0.159 decibels a kilometre at 1,000 hertz, against a tabulated atmospheric value of 5.6 at 20 degrees Celsius and 40 to 70 percent relative humidity** \[[Smith, Physical Audio Signal Processing, Air Absorption][ref_jos_air_absorption]\], so classical theory is short by a factor of about 35. **The rise time and the absorption are the same failure counted twice**, and the mechanism that repairs both is molecular relaxation.
@@ -377,11 +410,13 @@ $$
 x_s = \frac{2\,\rho_0\, c_0^3\, \tau}{(\gamma + 1)\, \Delta p}
 \qquad\Longrightarrow\qquad
 \tau_m = \frac{(\gamma + 1)\, \Delta p\, z_a}{2\,\rho_0\, c_0^3}
+\tag{34}
 $$
 
 $$
 \tau_m = 5.99\ \text{milliseconds}
 = 8.2\%\ \text{of the shortest possible signature}
+\tag{35}
 $$
 
 **Evaluated at sea level conditions as an indicative bound, the front must take about 5.99 milliseconds to rise.** The bound is indicative because the propagation is through an atmosphere whose density and sound speed vary by a factor of several along the path, and evaluating it at the ground overstates the steepening near the aeroplane and understates it near the listener. **It should be read as an order of magnitude.**
@@ -395,6 +430,7 @@ The classical far-field signature is a straight line from the front shock down t
 $$
 p(t) = \Delta p \left( 1 - \frac{2t}{T_s} \right),
 \qquad 0 \le t \le T_s
+\tag{36}
 $$
 
 Its duration has a floor. **Nothing can make the signature shorter than the time the aeroplane takes to travel its length**, because the front of the disturbance is made at the nose and the rear at the tail.
@@ -402,12 +438,14 @@ Its duration has a floor. **Nothing can make the signature shorter than the time
 $$
 T_s \ge \frac{\ell}{V} = \frac{30.18}{413.1}
 = 73\ \text{milliseconds}
+\tag{37}
 $$
 
 From the waveform and the duration follow the two integral quantities that a structure and an ear respectively respond to \[[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]\] \[[SAE ARP865][ref_sae_arp865]\].
 
 $$
 I_p = \int_0^{T_s/2} p(t)\,\mathrm{d}t = \frac{\Delta p\, T_s}{4}
+\tag{38}
 $$
 
 $$
@@ -415,6 +453,7 @@ E_s = \int_0^{T_s} p^2(t)\,\mathrm{d}t = \frac{(\Delta p)^2 T_s}{3}
 \qquad\qquad
 L_E = 10 \log_{10} \frac{E_s}{p_r^2 \times 1\,\text{s}}
 = 101
+\tag{39}
 $$
 
 **At the published overpressure and the shortest possible duration the sound exposure level is 101 decibels.** That is a third metric alongside the peak level of 117.1 decibels and the perceived level of 75, and **the three are not translations of one another**. A metric that integrates over the event rewards a short signature, a metric that reads the peak ignores the duration entirely, and only the perceived level attempts to weight by what the ear does with the spectrum.
@@ -425,10 +464,12 @@ Model the front of the signature as a smoothed step of rise time $\tau$. Its Fou
 
 $$
 |P(f)| \propto \frac{1}{f \sqrt{1 + (2\pi f \tau)^2}}
+\tag{40}
 $$
 
 $$
 f_c = \frac{1}{2\pi\tau}
+\tag{41}
 $$
 
 A rise time of one millisecond places the corner at 159.2 hertz. A rise time of ten milliseconds places it at 15.9 hertz. At 1,000 hertz, which lies inside the band where human hearing is most sensitive, the difference between those two signatures is 19.9 decibels. **The result is not special to that frequency.** Well above both corners the amplitude falls as the reciprocal of the rise time, so a tenfold rise time is worth twenty decibels at every such frequency, and the evaluation at a kilohertz illustrates a general result.
@@ -445,6 +486,7 @@ $$
 PL = 40 + 32 \log_2 S
 \qquad\Longleftrightarrow\qquad
 S = 2^{(PL - 40)/32}
+\tag{42}
 $$
 
 One sone is forty decibels of perceived level by construction, and a factor of two in loudness costs 32 decibels. Evaluating the two figures that are usually compared gives the following.
@@ -453,6 +495,7 @@ $$
 S(75) = 2.134
 \qquad\qquad
 S(105) = 4.088
+\tag{43}
 $$
 
 **The programme's target is 47.8 percent quieter than Concorde in the units the scale is built to express** \[[Fastl and Zwicker, Psychoacoustics, facts and models][book_zwicker_fastl]\], and not the ninety percent that has been published \[[What We Know About the Mysterious Supersonic Lockheed Martin X-59 Quesst, Simple Flying][ref_simpleflying_2025]\]. And the baseline is not agreed. Published figures for Concorde's perceived level include 105, which NASA's acousticians call the commonly quoted value and verified by simulation \[[Doebler and Rathsam 2020][research_doebler_rathsam_2019]\], 108 \[[NASA unveils a supersonic plane with a quiet boom, Physics Today][ref_feder_2024]\] and 110 \[[The Next NASA X-Plane, Born to Boom, Machine Design][ref_machinedesign_2018]\], which give a range from 47.8 to 53.1 percent. **No reading of any published pair reaches ninety.**
@@ -461,6 +504,7 @@ $$
 1 - \frac{S(75)}{S(105)} = 47.8\%
 \qquad\text{against}\qquad
 1 - 10^{-30/20} = 96.8\%
+\tag{44}
 $$
 
 The range follows from the same scale, since the ratio of two loudnesses depends only on the difference of their perceived levels.
@@ -471,6 +515,7 @@ $$
 1 - 2^{-33/32} = 1 - 0.48929 = 51.1\%,
 \qquad
 1 - 2^{-35/32} = 1 - 0.46854 = 53.1\%
+\tag{45}
 $$
 
 #### Where the Ninety Percent Comes From
@@ -483,6 +528,7 @@ $$
 1 - \frac{ 0.3 }{ 1.94 } = 84.5\%
 \qquad\qquad
 1 - 10^{-30/10} = 99.9\%
+\tag{46}
 $$
 
 This article does not claim the programme has overstated its case. **It claims that a figure quoted without its unit is not a claim at all**, and that the difference between halving a loudness and removing ninety-seven percent of a pressure is the difference the Mark VII scale exists to express.
@@ -497,6 +543,7 @@ $$
 \underbrace{20\log_{10}\dfrac{\Delta p_i(\text{Concorde})}{\Delta p_i(\text{X-59})}}_{ 16.2 }
 \;+\;
 \underbrace{\text{what the shape contributes}}_{ 13.8 }
+\tag{47}
 $$
 
 **About 54 percent of the claimed reduction is amplitude and the rest is shape.** The amplitude term is 16.2 decibels and the residual is 13.8.
@@ -509,6 +556,7 @@ The obligation to spread the equivalent area smoothly over as long a distance as
 
 $$
 \Lambda = \frac{\ell}{b}
+\tag{48}
 $$
 
 | Aircraft | Length over span |
@@ -535,6 +583,7 @@ $$
 \qquad\qquad
 \Lambda = \frac{\ell}{b} = \frac{ 93.83 }{29.5},\ \frac{ 99 }{29.5},\ \frac{ 99.7 }{29.5}
 = 3.18,\ 3.36,\ 3.38
+\tag{49}
 $$
 
 **The aeroplane is the most slender of the comparison set on any of the three**, so the finding above does not turn on which is used, and the table was computed from the project overview's figure.
@@ -550,6 +599,7 @@ $$
 = 23,600\ \text{pounds}
 \qquad\qquad
 \frac{ 24,300 - 23,600 }{ 24,300 } = \frac{ 700 }{ 24,300 } = 2.9\%
+\tag{50}
 $$
 
 **The difference is small and its cause is not stated.** A gross weight commonly carries a margin, and a card of this kind is not an engineering document. **It is recorded because this article's equivalent-area result is computed from the gross weight**, and a reader who prefers to add the parts would get an answer 2.9 percent smaller.
@@ -560,12 +610,14 @@ $$
 
 $$
 D_w = \frac{128\, q\, \Omega^2}{\pi\, \ell^4}
+\tag{51}
 $$
 
 $$
 D_w \propto \ell^{-4}
 \qquad\text{against}\qquad
 D_f \propto S_w \propto \ell
+\tag{52}
 $$
 
 **Against a twenty metre body of the same volume, the X-59's 30.18 metres carry a wave drag smaller by a factor of 5.18 and a wetted area larger by a factor of about 1.51.** An exponent of four beats an exponent of one, so **the exponents favour length heavily**, which is the opposite of what the preceding paragraph alone would suggest and is why supersonic aeroplanes were long and thin before anybody cared what they sounded like.
@@ -578,16 +630,19 @@ $$
 \eta(T) = \eta_r
 \left( \frac{T}{T_r} \right)^{3/2}
 \frac{T_r + C_S}{T + C_S}
+\tag{53}
 $$
 
 $$
 Re = \frac{\rho V \ell}{\eta} = 128.6 \times 10^{6}
+\tag{54}
 $$
 
 $$
 C_f = \frac{0.455}{(\log_{10} Re)^{2.58}} = 0.00206
 \qquad\qquad
 D_f = q\, C_f\, S_w
+\tag{55}
 $$
 
 **The skin friction coefficient is 0.00206 and the friction drag is 25.7 newtons for every square metre of wetted area.** **The total is not computed, because the wetted area is not published**, and multiplying by an estimate would produce a drag figure that was a statement about the estimate. That figure is a flat-plate incompressible value and a compressible correction would reduce it, so **it is an upper bound on the coefficient and is treated as one.**
@@ -598,10 +653,12 @@ The cruise performance of the aeroplane follows the ordinary relations \[[Raymer
 
 $$
 R_c = \frac{M\, c}{c_t}\; \frac{L}{D}\; \ln \frac{W_i}{W_f}
+\tag{56}
 $$
 
 $$
 \frac{F_N}{F_{N0}} = \left( \frac{\rho}{\rho_0} \right)^{n}
+\tag{57}
 $$
 
 **The builder's card supplies the weights and the remaining uncertainty then collapses into one product.** The fuel is 8,000 pounds of a gross 24,300, which is 32.9 percent, so the logarithm in the range relation is 0.3993 and everything else that is known can be gathered into a single coefficient.
@@ -609,6 +666,7 @@ $$
 $$
 R_c = \underbrace{V \ln \frac{W_i}{W_f}}_{ 165\ \text{m/s} }
 \;\cdot\; \frac{L/D}{c_t}
+\tag{58}
 $$
 
 The form is the ordinary one and only the grouping is this article's \[[Range (aeronautics)][ref_breguet_range]\] \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\].
@@ -624,6 +682,7 @@ $$
 \qquad\Longrightarrow\qquad
 F_N = F_{N0}\, \frac{\rho}{\rho_0} = 22,000 \times \frac{ 0.14664 }{1.225}
 = 2,634\ \text{pounds}
+\tag{59}
 $$
 
 **With an exponent of one the engine retains 12 percent of its sea-level thrust at the cruise density**, which against the published 22,000 pounds of sea-level thrust is 2,634 pounds \[[General Electric F414][ref_f414]\]. **That is an indicative bound.** A real installation at Mach 1.4 recovers a great deal through ram compression, so the true installed thrust is higher, and the exponent for this installation is not published either.
@@ -765,6 +824,7 @@ $$
 \frac{ 230\ \text{mph} }{ 925\ \text{mph} } = 24.9\%
 \qquad\qquad
 \frac{ 12,000\ \text{ft} }{ 55,000\ \text{ft} } = 21.8\%
+\tag{60}
 $$
 
 **That is 24.9 percent of the design cruise speed, at 21.8 percent of the design cruise altitude, with the gear extended.** As of this article's date, 37 days later, **the aeroplane had made 1 flight and had never been supersonic** \[[NASA's X-59 Completes Second Flight][ref_nasa_second_flight]\].
@@ -1203,6 +1263,694 @@ All are computed from the published inputs named beside them by the relations di
 **And what is being measured is not a point but a strip.** Tracing rays through the standard atmosphere, the carpet is 59.2 kilometres wide and the boom lands 19.29 kilometres behind the aeroplane that made it. **At Mach 2 the tracer agrees with the literature's rule of thumb to within 3.9 percent**, which is the reason to believe the Mach 1.4 figure, and the Mach 1.4 carpet is only 69.6 percent of the Mach 2 one. **Flying slower narrows the carpet as well as quietening it**, and the arithmetic gives that for nothing. **No source consulted for this article states it**, which describes what was read and is silent on what the programme says.
 
 **At the editorial date the aeroplane had flown once, for 67 minutes, at 24.9 percent of its design cruise speed, with the landing gear down** \[[X-59 First Flight][ref_nasa_first_flight]\]. It had never been supersonic \[[NASA's X-59 Completes Second Flight][ref_nasa_second_flight]\]. The contract that built it named 31 December 2021 and the flights over cities were to begin in mid-2022 \[[NASA Release 18-020][ref_nasa_release_18_020]\]. **The register's claim about this aeroplane is written in the future tense, and at the time of writing the future tense was still correct.** The entry says that the aircraft **is** a research aircraft and that it **will create** a shaped sonic boom signature. The first half had been true since the aeroplane was rolled out. **The second half was still a promise.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 60 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 60, 48 are established and 12 are bespoke.
+Pressures, densities and speeds are in units of the International System at standard atmosphere conditions, while weights and thrusts are quoted from the builder in pounds and speeds from the National Aeronautics and Space Administration in miles per hour, levels are in decibels referred to 20 micropascals, and perceived level in decibels on the Mark VII scale is a psychophysical quantity whose differences are not pressure ratios, so a percentage reduction depends on whether it is stated in pressure, energy or loudness.
+
+**Equation 1, Mach Angle and Prandtl-Glauert Parameter.**
+The Mach cone has a half-angle whose sine is the reciprocal of the Mach number, and its cotangent is the Prandtl-Glauert parameter.
+[Liepmann and Roshko, Elements of gasdynamics][book_liepmann]
+
+$$
+\sin\mu = \frac{1}{M}
+\qquad\qquad
+\cot\mu = \sqrt{M^2 - 1} = \beta
+\tag{1}
+$$
+
+**Equation 2, Far-Field Overpressure From the F-Function.**
+Linearised supersonic theory gives the far-field overpressure ratio as proportional to Whitham's F-function and inversely to the square root of distance.
+[Whitham 1952][research_whitham_1952]
+[Whitham, Linear and nonlinear waves][book_whitham]
+
+$$
+\frac{\Delta p}{p_a} = \frac{\gamma M^2}{\sqrt{2\beta r}}\; F(\zeta)
+\tag{2}
+$$
+
+**Equation 3, Whitham F-Function.**
+The F-function is an Abel transform of the second derivative of the equivalent area distribution.
+[Whitham 1952][research_whitham_1952]
+[Whitham, Linear and nonlinear waves][book_whitham]
+
+$$
+F(\zeta) = \frac{1}{2\pi} \int_0^{\zeta}
+\frac{A_e''(x)}{\sqrt{\zeta - x}}\; \mathrm{d}x
+\tag{3}
+$$
+
+**Equation 4, Equivalent Area Including Lift.**
+The equivalent area is the volume cross-section plus a term proportional to the lift carried ahead of each station.
+[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]
+[Jones, Wing theory][book_jones]
+
+$$
+A_e(x) = A_V(x) + \frac{\beta}{2q} \int_0^{x} L'(\xi)\; \mathrm{d}\xi
+\tag{4}
+$$
+
+**Equation 5, Lift-Induced Equivalent Area at the Tail.**
+Integrated over the whole aircraft in level flight, the lift term collapses to the weight over twice the dynamic pressure times the Prandtl-Glauert parameter, independent of shape.
+
+$$
+A_e(\ell) - A_V(\ell) = \frac{\beta}{2q} \int_0^{\ell} L'(\xi)\,\mathrm{d}\xi
+= \frac{\beta\,W}{2q}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Lift-Induced Equivalent Area at the Design Point.*
+The equivalent area is evaluated with the published maximum design gross weight standing for the cruise lift, a choice the article makes, and the standard atmosphere dynamic pressure at Mach 1.4 and 55,000 feet.
+[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]
+
+$$
+\frac{\beta\,W}{2q}
+= \frac{0.9798 \times 108,092}{2 \times 12,512}
+= 4.232\ \text{square metres}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Diameter of the Lift-Induced Equivalent Body.*
+A body of revolution carrying that equivalent area, taken at the maximum design gross weight, would be 2.32 metres across.
+
+$$
+d_e = 2 \sqrt{ \frac{\beta\,W}{2q\,\pi} } = 2 \sqrt{ \frac{ 4.232 }{\pi} }
+= 2.32\ \text{metres}
+\tag{7}
+$$
+
+**Equation 8, Altitude Ratio of the Lift-Induced Equivalent Area.**
+At fixed weight and Mach number the lift-induced area scales inversely with dynamic pressure, so it is 2.06 times larger at 55,000 feet than at 40,000.
+
+$$
+\frac{ 4.232 }{ 2.058 }
+= \frac{ 25,730 }{ 12,512 }
+= 2.06
+\tag{8}
+$$
+
+**Equation 9, Von Karman Slender-Body Wave Drag.**
+The wave drag is a double integral of the second derivative of the same equivalent area with a logarithmic kernel.
+[Kuchemann, The aerodynamic design of aircraft][book_kuchemann]
+[Area rule][ref_area_rule]
+
+$$
+D_w = -\frac{q}{2\pi} \int_0^{\ell}\!\!\int_0^{\ell}
+A_e''(x)\, A_e''(\xi)\, \ln|x - \xi| \; \mathrm{d}x \, \mathrm{d}\xi
+\tag{9}
+$$
+
+**Equation 10, Cylindrical Spreading of a Weak Disturbance.**
+A weak disturbance from a line source falls with the square root of distance because its energy spreads over a cylinder.
+[Pierce, Acoustics][book_pierce]
+
+$$
+\Delta p \propto r^{-1/2}
+\tag{10}
+$$
+
+**Equation 11, Far-Field Decay of Sonic Boom Amplitude and Duration.**
+Whitham's far-field result makes the overpressure fall as the minus three-quarters power of distance and the signature lengthen as the one-quarter power.
+[Whitham, Linear and nonlinear waves][book_whitham]
+[Maglieri and others, Sonic boom, six decades of research][book_maglieri]
+
+$$
+\Delta p \propto r^{-3/4}
+\qquad\qquad
+T_s \propto r^{1/4}
+\tag{11}
+$$
+
+**Equation 12, Acoustic Intensity.**
+The intensity of an acoustic wave is its mean square pressure over the characteristic impedance of the medium.
+[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]
+
+$$
+I = \frac{p^2}{\rho\, c}
+\tag{12}
+$$
+
+**Equation 13, Decay of Acoustic Energy Along the Ray.**
+Combining the far-field exponents gives an energy per unit length that falls as the minus one-quarter power of distance, the energy that the shocks dissipate.
+
+$$
+\Pi(r) \;\sim\; r\, \frac{(\Delta p)^2}{\rho c}\, T_s
+\;\propto\; r \cdot r^{-3/2} \cdot r^{1/4} = r^{-1/4}
+\tag{13}
+$$
+
+**Equation 14, Speed of Sound in a Perfect Gas.**
+The local speed of sound follows from the temperature at each altitude.
+[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]
+[Anderson, Modern compressible flow][book_anderson]
+
+$$
+c(z) = \sqrt{\gamma R\,T(z)}
+\tag{14}
+$$
+
+**Equation 15, Temperature Profile of the Standard Atmosphere.**
+The temperature falls linearly in the troposphere and is constant in the isothermal layer above the tropopause.
+[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]
+
+$$
+T(z) =
+\begin{cases}
+T_0 - \lambda z, & 0 \le z \le z_1 \\
+T_1, & z_1 < z \le z_2
+\end{cases}
+\tag{15}
+$$
+
+**Equation 16, Pressure and Density in the Isothermal Layer.**
+In the isothermal layer the pressure decays exponentially from its tropopause value and the density follows from the gas law.
+[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]
+[International Standard Atmosphere][ref_icao_atmosphere]
+
+$$
+p(z) = p_1 \exp\!\left[ -\frac{g\,(z - z_1)}{R\,T_1} \right]
+\qquad\qquad
+\rho(z) = \frac{p(z)}{R\,T(z)}
+\tag{16}
+$$
+
+**Equation 17, Dynamic Pressure at the Design Cruise.**
+At the standard atmosphere density for 55,000 feet and a speed of Mach 1.4 the dynamic pressure is 12,512 pascals.
+
+$$
+q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2} \times 0.14664 \times
+413.1^2 = 12,512\ \text{pascals}
+\tag{17}
+$$
+
+**Equation 18, Ray Invariant in a Stratified Atmosphere.**
+In a horizontally stratified medium the cosine of the ray elevation over the local sound speed is conserved, a form of Snell's law.
+[Pierce, Acoustics][book_pierce]
+
+$$
+\frac{\cos\theta(z)}{c(z)} = \mathrm{constant}
+\tag{18}
+$$
+
+**Equation 19, Mach Cutoff Number.**
+The boom reaches the ground only above the Mach number equal to the ratio of the sound speed at the ground to that at cruise altitude.
+[Maglieri and others, Sonic boom, six decades of research][book_maglieri]
+
+$$
+M_c = \frac{c(0)}{c(z_a)}
+\tag{19}
+$$
+
+**Equation 20, Cutoff Mach Number at the Design Altitude.**
+In the standard atmosphere the cutoff Mach number from 55,000 feet is 1.153, well below the design Mach number of 1.4.
+[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]
+
+$$
+M_c = \frac{ 340.29 }{ 295.07 } = 1.153
+\qquad\text{against}\qquad
+M = 1.4
+\tag{20}
+$$
+
+**Equation 21, Horizontal Slowness of an Azimuthal Ray.**
+For a wave normal at azimuth $\phi$ around the Mach cone, the magnitude of the horizontal slowness is invariant along the ray.
+[Pierce, Acoustics][book_pierce]
+[Haefeli et al. 1969b][research_haefelirc_hayeswd_1969]
+
+$$
+u = \frac{\sqrt{\sin^2\mu + \cos^2\mu \, \cos^2\phi}}{c(z_a)}
+= \text{constant along the ray}
+\tag{21}
+$$
+
+**Equation 22, Lateral Cutoff Azimuth.**
+A ray reaches the ground only while its slowness admits a real vertical direction there, which at the design condition requires an azimuth of at least 45.4 degrees.
+[Haefeli et al. 1969b][research_haefelirc_hayeswd_1969]
+
+$$
+u\, c(0) \le 1
+\qquad\Longleftrightarrow\qquad
+\phi \ge \phi_c = 45.4^{\circ}
+\tag{22}
+$$
+
+**Equation 23, Lateral Ray Path.**
+The lateral offset of a ray follows from integrating the slope that the invariant fixes from cruise altitude to the ground.
+[Pierce, Acoustics][book_pierce]
+
+$$
+\frac{\mathrm{d}y}{\mathrm{d}z}
+= \frac{u\,c(z)}{\sqrt{1 - \left[ u\,c(z) \right]^2}}
+\;\cdot\; \frac{\cos\mu\,\cos\phi}{\sqrt{\sin^2\mu + \cos^2\mu\,\cos^2\phi}}
+\tag{23}
+$$
+
+**Equation 24, Boom Carpet Half-Width and Width.**
+Integrating the ray path numerically through the standard atmosphere places the widest-arriving ray 29.6 kilometres to the side, a carpet of 59.2 kilometres.
+
+$$
+y_c = 29.6\ \text{km}
+\qquad\Longrightarrow\qquad
+2 y_c = 59.2\ \text{km}
+\tag{24}
+$$
+
+**Equation 25, Check of the Ray Tracer Against the Published Rule of Thumb.**
+The same tracer at Mach 2 falls 3.9 percent short of the published one mile per thousand feet, and the Mach 1.4 carpet is 69.6 percent of the Mach 2 carpet.
+[NASA Facts FS-2003-11-016, Sonic Booms][ref_nasa_fs016]
+
+$$
+1 - \frac{85.03}{55 \times 1.609344} = 1 - \frac{85.03}{88.51} = 3.9\%
+\qquad\qquad
+\frac{59.17}{85.03} = 69.6\%
+\tag{25}
+$$
+
+**Equation 26, Design Cruise Speed.**
+The design Mach number times the speed of sound at cruise altitude gives 413.1 metres per second, which reproduces the published 925 miles per hour.
+[Quesst, the Aircraft][ref_nasa_quesst_aircraft]
+
+$$
+V = M\, c(z_a) = 1.4 \times 295.07
+= 413.1\ \mathrm{m/s} = 924.1\ \mathrm{mph}
+\tag{26}
+$$
+
+**Equation 27, Sound Pressure Level.**
+An overpressure becomes a level as twenty times the base-ten logarithm of its ratio to the reference pressure.
+[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]
+
+$$
+L_p = 20 \log_{10} \frac{\Delta p}{p_r}
+\tag{27}
+$$
+
+**Equation 28, Ground Reflection Factor.**
+The overpressure at the ground is the incident overpressure times a reflection factor close to two.
+
+$$
+\Delta p_g = K_R\, \Delta p_i
+\tag{28}
+$$
+
+*Equation 29, Bespoke Ground Impedance Implied by a Reflection Factor of 1.9.*
+For a locally reacting surface at normal incidence, the reflection factor of 1.9 that the article adopts from inside the measured range of 1.8 to 2.0 corresponds to a normalised ground impedance of 19.
+[Carlson 1978][research_carlsonhw_1978]
+
+$$
+R_g = \frac{\sigma - 1}{\sigma + 1}
+\qquad\qquad
+K_R = 1 + R_g
+\qquad\Longrightarrow\qquad
+\sigma = 19
+\tag{29}
+$$
+
+**Equation 30, Taylor Thickness of a Weak Shock.**
+The steady thickness of a weak shock in a viscous, heat-conducting gas is inversely proportional to its strength, and its rise time is that thickness over the sound speed.
+[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]
+
+$$
+\delta = \frac{4\, \delta_d\, \rho_0\, c_0}{(\gamma + 1)\, \Delta p}
+\qquad\qquad
+\tau = \frac{\delta}{c_0}
+\tag{30}
+$$
+
+**Equation 31, Diffusivity of Sound.**
+The diffusivity of sound gathers the shear and bulk viscosities and the thermal conduction term.
+[Volume viscosity][ref_bulk_viscosity]
+
+$$
+\delta_d = \frac{1}{\rho_0}
+\left[ \frac{4}{3}\eta + \eta_B
++ \kappa \left( \frac{1}{c_v} - \frac{1}{c_p} \right) \right]
+\tag{31}
+$$
+
+**Equation 32, Classical Rise Time Against Measurement.**
+At sea level and the low-boom overpressure the classical rise time is 5.2 microseconds, about 192 times shorter than the measured millisecond.
+[Cleveland and Blackstock 1994][research_cleveland_blackstock_1994]
+[Maglieri and Sothcott 1990][research_maglieridomenicj_sothcottvictore_1990]
+
+$$
+\tau = 5.2\ \text{microseconds}
+\qquad\text{against a measured}\qquad
+\tau \approx 1\ \text{millisecond}
+\tag{32}
+$$
+
+**Equation 33, Classical Absorption Coefficient.**
+Classical absorption from viscosity and conduction rises as the square of frequency and gives 0.159 decibels a kilometre at 1,000 hertz.
+
+$$
+\alpha = \frac{\omega^2 \delta_d}{2 c_0^3}
+\qquad\Longrightarrow\qquad
+0.159\ \text{decibels a kilometre at}\ 
+1,000\ \text{hertz}
+\tag{33}
+$$
+
+**Equation 34, Steepening Distance and Least Unshocked Rise Time.**
+A compression of rise time $\tau$ steepens into a shock after a distance that falls with its amplitude, and inverting it over the propagation distance gives the least rise time that arrives unshocked.
+[Hamilton and Blackstock, Nonlinear acoustics][book_hamilton_blackstock]
+[Whitham, Linear and nonlinear waves][book_whitham]
+
+$$
+x_s = \frac{2\,\rho_0\, c_0^3\, \tau}{(\gamma + 1)\, \Delta p}
+\qquad\Longrightarrow\qquad
+\tau_m = \frac{(\gamma + 1)\, \Delta p\, z_a}{2\,\rho_0\, c_0^3}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Indicative Least Rise Time.*
+Evaluating the least rise time at sea-level conditions over the whole path from cruise altitude, an indicative choice the article makes for a stratified atmosphere, gives about six milliseconds.
+
+$$
+\tau_m = 5.99\ \text{milliseconds}
+= 8.2\%\ \text{of the shortest possible signature}
+\tag{35}
+$$
+
+**Equation 36, N-Wave Pressure Signature.**
+The classical far-field signature falls linearly from the front shock through zero to an equal rear shock over the duration $T_s$.
+[Whitham, Linear and nonlinear waves][book_whitham]
+[Maglieri and others, Sonic boom, six decades of research][book_maglieri]
+
+$$
+p(t) = \Delta p \left( 1 - \frac{2t}{T_s} \right),
+\qquad 0 \le t \le T_s
+\tag{36}
+$$
+
+**Equation 37, Lower Bound on Signature Duration.**
+No signature can be shorter than the time the aircraft takes to travel its own length, 73 milliseconds at the design speed.
+
+$$
+T_s \ge \frac{\ell}{V} = \frac{30.18}{413.1}
+= 73\ \text{milliseconds}
+\tag{37}
+$$
+
+**Equation 38, Positive-Phase Impulse.**
+The impulse of the positive phase of the N-wave is one quarter of the peak overpressure times the duration.
+[Kinsler, Frey, Coppens and Sanders, Fundamentals of acoustics][book_kinsler]
+[SAE ARP865][ref_sae_arp865]
+
+$$
+I_p = \int_0^{T_s/2} p(t)\,\mathrm{d}t = \frac{\Delta p\, T_s}{4}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Sound Exposure Level at the Shortest Duration.*
+The sound exposure of the N-wave is evaluated at the published overpressure and at the shortest possible duration, a bound the article takes as the duration, giving 101 decibels.
+
+$$
+E_s = \int_0^{T_s} p^2(t)\,\mathrm{d}t = \frac{(\Delta p)^2 T_s}{3}
+\qquad\qquad
+L_E = 10 \log_{10} \frac{E_s}{p_r^2 \times 1\,\text{s}}
+= 101
+\tag{39}
+$$
+
+*Equation 40, Bespoke Spectrum of a Smoothed Step.*
+The article models the front of the signature as a step smoothed with a single rise time, whose spectrum falls as one over frequency until the smoothing takes hold.
+[Pierce 1970][research_pierce_1970]
+
+$$
+|P(f)| \propto \frac{1}{f \sqrt{1 + (2\pi f \tau)^2}}
+\tag{40}
+$$
+
+**Equation 41, Corner Frequency of the Front.**
+The spectrum steepens above a corner frequency of one over two pi times the rise time.
+
+$$
+f_c = \frac{1}{2\pi\tau}
+\tag{41}
+$$
+
+**Equation 42, Stevens Mark VII Perceived Level and Loudness.**
+The Mark VII scale sets one sone at forty decibels of perceived level and doubles the loudness for every 32 decibels.
+[Stevens 1972][research_stevens_1972]
+[Sone][ref_sone]
+
+$$
+PL = 40 + 32 \log_2 S
+\qquad\Longleftrightarrow\qquad
+S = 2^{(PL - 40)/32}
+\tag{42}
+$$
+
+**Equation 43, Loudness of the Target and of Concorde.**
+Perceived levels of 75 and 105 correspond to loudnesses of 2.134 and 4.088 sones.
+
+$$
+S(75) = 2.134
+\qquad\qquad
+S(105) = 4.088
+\tag{43}
+$$
+
+**Equation 44, Loudness Reduction Against a Pressure Reading of the Same Decibels.**
+In loudness the reduction from 105 to 75 is 47.8 percent, whereas reading the same thirty decibels as a pressure ratio gives 96.8 percent.
+[Doebler and Rathsam 2020][research_doebler_rathsam_2019]
+
+$$
+1 - \frac{S(75)}{S(105)} = 47.8\%
+\qquad\text{against}\qquad
+1 - 10^{-30/20} = 96.8\%
+\tag{44}
+$$
+
+**Equation 45, Loudness Reduction for Other Concorde Baselines.**
+Because a loudness ratio depends only on a difference of perceived level, baselines of 108 and 110 give reductions of 51.1 and 53.1 percent.
+
+$$
+1 - \frac{S(75)}{S(PL)} = 1 - 2^{(75 - PL)/32}
+\qquad\Longrightarrow\qquad
+1 - 2^{-33/32} = 1 - 0.48929 = 51.1\%,
+\qquad
+1 - 2^{-35/32} = 1 - 0.46854 = 53.1\%
+\tag{45}
+$$
+
+**Equation 46, Overpressure and Energy Reductions.**
+The published overpressures give a reduction of 84.5 percent, and thirty decibels read as an energy ratio gives 99.9 percent.
+
+$$
+1 - \frac{ 0.3 }{ 1.94 } = 84.5\%
+\qquad\qquad
+1 - 10^{-30/10} = 99.9\%
+\tag{46}
+$$
+
+*Equation 47, Bespoke Split of the Reduction Into Amplitude and Shape.*
+The article treats the amplitude term as if perceived level obeyed the decibel rule for peak overpressure, an assumption the sources do not make, and attributes the remaining 13.8 decibels to shape.
+[NASA Release 18-020][ref_nasa_release_18_020]
+[Doebler and Rathsam 2020][research_doebler_rathsam_2019]
+
+$$
+\underbrace{PL_{\text{Concorde}} - PL_{\text{X-59}}}_{ 30 }
+\;=\;
+\underbrace{20\log_{10}\dfrac{\Delta p_i(\text{Concorde})}{\Delta p_i(\text{X-59})}}_{ 16.2 }
+\;+\;
+\underbrace{\text{what the shape contributes}}_{ 13.8 }
+\tag{47}
+$$
+
+*Equation 48, Bespoke Slenderness Ratio.*
+The article compares aircraft by a slenderness ratio it defines as overall length divided by span.
+
+$$
+\Lambda = \frac{\ell}{b}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Spread of Published Lengths and Their Slenderness.*
+The three published lengths differ by 5.87 feet, and against the card's span they give slenderness ratios of 3.18, 3.36 and 3.38.
+[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]
+[Quesst, the Aircraft][ref_nasa_quesst_aircraft]
+[X-59 Aircraft Overview and Status][ref_x59_overview]
+
+$$
+\Delta\ell = 99.7 - 93.83 = 5.87\ \text{feet}
+= 5.9\%\ \text{of}\ 99.7
+\qquad\qquad
+\Lambda = \frac{\ell}{b} = \frac{ 93.83 }{29.5},\ \frac{ 99 }{29.5},\ \frac{ 99.7 }{29.5}
+= 3.18,\ 3.36,\ 3.38
+\tag{49}
+$$
+
+**Equation 50, Sum of the Published Weights Against the Gross Weight.**
+The card's empty, fuel and payload weights sum to 23,600 pounds, 2.9 percent short of its maximum design gross weight.
+[Silencing the Sonic Boom, X-59 Product Card][ref_lm_card]
+
+$$
+\underbrace{ 15,000 }_{\text{empty}} + \underbrace{ 8,000 }_{\text{fuel}} + \underbrace{ 600 }_{\text{payload}}
+= 23,600\ \text{pounds}
+\qquad\qquad
+\frac{ 24,300 - 23,600 }{ 24,300 } = \frac{ 700 }{ 24,300 } = 2.9\%
+\tag{50}
+$$
+
+**Equation 51, Sears-Haack Minimum Wave Drag.**
+The minimum wave drag of a body of revolution of given length and volume falls as the square of the volume over the fourth power of the length.
+[Ashley and Landahl, Aerodynamics of wings and bodies][book_ashley_landahl]
+[Area rule][ref_area_rule]
+
+$$
+D_w = \frac{128\, q\, \Omega^2}{\pi\, \ell^4}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Length Scaling of Wave and Friction Drag.*
+The article sets the Sears-Haack fourth-power fall in wave drag against a friction drag it takes as proportional to wetted area and a wetted area it takes as proportional to length at fixed volume.
+
+$$
+D_w \propto \ell^{-4}
+\qquad\text{against}\qquad
+D_f \propto S_w \propto \ell
+\tag{52}
+$$
+
+**Equation 53, Sutherland's Law.**
+Sutherland's law gives the viscosity of air as a function of temperature from a reference value and the Sutherland constant.
+[Anderson, Modern compressible flow][book_anderson]
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+
+$$
+\eta(T) = \eta_r
+\left( \frac{T}{T_r} \right)^{3/2}
+\frac{T_r + C_S}{T + C_S}
+\tag{53}
+$$
+
+**Equation 54, Reynolds Number at the Design Cruise.**
+The Reynolds number on overall length at the cruise density, speed and viscosity is about 129 million.
+
+$$
+Re = \frac{\rho V \ell}{\eta} = 128.6 \times 10^{6}
+\tag{54}
+$$
+
+**Equation 55, Turbulent Flat-Plate Skin Friction.**
+The Schlichting turbulent flat-plate correlation gives a mean skin friction coefficient of 0.00206, and the friction drag is the dynamic pressure times that coefficient times the wetted area.
+
+$$
+C_f = \frac{0.455}{(\log_{10} Re)^{2.58}} = 0.00206
+\qquad\qquad
+D_f = q\, C_f\, S_w
+\tag{55}
+$$
+
+**Equation 56, Breguet Range in Terms of Mach Number.**
+The cruise range is the Mach number times the sound speed over the thrust specific fuel consumption, times the lift-to-drag ratio and the logarithm of the weight ratio.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Range (aeronautics)][ref_breguet_range]
+
+$$
+R_c = \frac{M\, c}{c_t}\; \frac{L}{D}\; \ln \frac{W_i}{W_f}
+\tag{56}
+$$
+
+**Equation 57, Thrust Lapse With Density.**
+The installed net thrust falls as a power of the density ratio.
+
+$$
+\frac{F_N}{F_{N0}} = \left( \frac{\rho}{\rho_0} \right)^{n}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Collected Range Coefficient.*
+Grouping the known terms with the card's fuel and gross weights, which assumes the whole fuel load is burned in cruise, gives a coefficient of 165 metres per second that multiplies the unpublished ratio of lift-to-drag ratio to consumption.
+[Range (aeronautics)][ref_breguet_range]
+
+$$
+R_c = \underbrace{V \ln \frac{W_i}{W_f}}_{ 165\ \text{m/s} }
+\;\cdot\; \frac{L/D}{c_t}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Thrust Bound at the Cruise Density.*
+With a lapse exponent of one that the article takes, the published sea-level thrust of 22,000 pounds lapses to an indicative 2,634 pounds at the cruise density.
+[General Electric F414][ref_f414]
+
+$$
+\frac{\rho}{\rho_0} = \frac{ 0.14664 }{1.225} = 0.1197
+\qquad\Longrightarrow\qquad
+F_N = F_{N0}\, \frac{\rho}{\rho_0} = 22,000 \times \frac{ 0.14664 }{1.225}
+= 2,634\ \text{pounds}
+\tag{59}
+$$
+
+**Equation 60, First Flight Against the Design Cruise.**
+The first flight reached 24.9 percent of the design cruise speed and 21.8 percent of the design cruise altitude.
+[X-59 First Flight][ref_nasa_first_flight]
+[Quesst, the Aircraft][ref_nasa_quesst_aircraft]
+
+$$
+\frac{ 230\ \text{mph} }{ 925\ \text{mph} } = 24.9\%
+\qquad\qquad
+\frac{ 12,000\ \text{ft} }{ 55,000\ \text{ft} } = 21.8\%
+\tag{60}
+$$
+
+### Notation
+
+- $\mu$, the Mach angle
+- $\beta$, the Prandtl-Glauert parameter, $\sqrt{M^2-1}$
+- $p_a$, the ambient pressure at the aircraft
+- $F(\zeta)$, Whitham's F-function, with $\zeta$ the retarded streamwise coordinate in which it is written
+- $A_e$, the equivalent area distribution
+- $A_V$, the part of the equivalent area contributed by volume alone
+- $q$, the free-stream dynamic pressure
+- $W$, the aircraft weight
+- $d_e$, the diameter of a circle whose area is the lift-induced equivalent area
+- $D_w$, the wave drag
+- $\ell$, the overall length of the aircraft
+- $T_s$, the duration of the ground signature
+- $\Pi(r)$, the acoustic energy per unit length of a cylinder of radius $r$
+- $c(z)$, the local speed of sound at altitude $z$
+- $z_a$, the aircraft's cruise altitude
+- $\theta$, the elevation angle of an acoustic ray above the horizontal
+- $M_c$, the cutoff Mach number, below which no boom reaches the ground
+- $u$, the horizontal slowness of a ray, which is invariant in a stratified atmosphere
+- $\phi_c$, the azimuth below which a ray no longer reaches the ground
+- $y_c$, the half-width of the boom carpet
+- $L_p$, the sound pressure level
+- $p_r$, the reference pressure of the decibel scale, 20 micropascals
+- $K_R$, the ground reflection factor
+- $R_g$, the pressure reflection coefficient at the ground
+- $\sigma$, the normalised specific acoustic impedance of the ground
+- $\delta_d$, the diffusivity of sound in air
+- $\eta_B$, the bulk viscosity of air
+- $\tau_m$, the least front rise time that avoids coalescence over a given distance
+- $x_s$, the distance in which a compression steepens into a shock
+- $I_p$, the positive-phase impulse of the signature
+- $E_s$, the sound exposure of the signature
+- $L_E$, the sound exposure level
+- $f_c$, the corner frequency above which a shock's spectrum steepens
+- $PL$, the Stevens Mark VII perceived level, in decibels
+- $S(75)$, the total loudness in sones at a perceived level of 75
+- $\Lambda$, the slenderness ratio, overall length divided by span
+- $\Omega$, the volume of the equivalent body of revolution
+- $D_f$, the skin friction drag
+- $S_w$, the wetted area
+- $C_S$, Sutherland's constant for air
+- $Re$, the Reynolds number based on overall length
+- $C_f$, the mean skin friction coefficient
+- $R_c$, the still-air cruise range
+- $c_t$, the thrust specific fuel consumption
+- $W_i$, the aircraft weight at the start of cruise, with $W_f$ that at the end
+- $F_N$, the installed net thrust, with $F_{N0}$ its value at sea level and the same Mach number
 
 ## References
 

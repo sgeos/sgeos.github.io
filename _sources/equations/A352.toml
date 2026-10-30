@@ -1,0 +1,467 @@
+# Equation classification for A352. Read by `python3 _lib/equations.py`.
+
+caution = "Consolidation pressures are in pounds per square inch, cure dwells in hours, temperatures in kelvin in the Arrhenius relations but in degrees Celsius in the glass transition relations, where only differences enter, and lengths and areas in metres, while several letters are reused, so $D$ is the sandwich bending stiffness and then the fuselage diameter, $L$ a vessel, flow path, laminate or skin length, $H$ the scale height and $H(t)$ the reaction heat released, $h$ an altitude, a heat transfer coefficient or working hours a day, $\\alpha$ the degree of cure and $\\alpha_{\\text{th}}$ a thermal diffusivity, and $R$ the molar gas constant while $R_{\\text{air}}$ is the specific gas constant of air."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Bending Stiffness of a Sandwich Panel"
+gloss = "A sandwich takes its bending stiffness almost wholly from two facesheets held apart by the core, approximately half the facesheet modulus times the facesheet thickness times the square of the core depth."
+cite = []
+digest = "61959f7e1bf8dcc5"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Thin-Walled Pressure Vessel Wall Thickness"
+gloss = "Hoop stress fixes the wall thickness of a cylindrical vessel as the pressure times the radius over the allowable stress."
+cite = ["ref_pressure_vessel"]
+digest = "63eb254ed1609d6e"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Shell Mass of a Cylindrical Pressure Vessel"
+gloss = "The shell mass is the density times the shell area times the wall thickness, so it rises with the square of the radius times the length."
+cite = ["ref_pressure_vessel"]
+digest = "a520cb31108f4e78"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Consolidation Pressure Under a Bag and in an Autoclave"
+gloss = "A vacuum bag consolidates with the ambient pressure less the pressure inside the bag, and an autoclave adds its gauge pressure to that differential."
+cite = ["ref_vacuum_bagging"]
+digest = "dc25c36175072b5d"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Ratio of Autoclave to Vacuum Bag Consolidation Pressure"
+gloss = "With the bag fully evacuated the ratio of autoclave to bag consolidation pressure is one plus the gauge pressure over the ambient pressure."
+cite = []
+digest = "258537b305d32162"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Pressure in the Standard Troposphere"
+gloss = "The standard atmosphere gives the ambient pressure below the tropopause as a power of the linearly falling temperature ratio."
+cite = ["ref_us_standard_atmosphere", "ref_barometric"]
+digest = "bf67817c52c15705"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Sea-Level Pressure Gradient and Scale Height"
+gloss = "Differentiating the hydrostatic balance at sea level gives a pressure gradient equal to the sea-level pressure over the scale height."
+cite = []
+digest = "0ba8dc82cdf161d9"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Boyle's Law for an Entrapped Gas"
+gloss = "At constant temperature the volume of an entrapped gas is inversely proportional to its pressure."
+cite = ["ref_boyle"]
+digest = "26ef5f1414597d28"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Void Fraction After Isothermal Compression"
+gloss = "With the solid taken as incompressible beside the gas, compressing the voids by Boyle's law changes the void fraction as the compressed void volume over the new total volume."
+cite = ["ref_boyle"]
+digest = "62ec6001b8b5b1c3"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Pressure Ratio Required for a Target Void Fraction"
+gloss = "Inverting the void fraction relation gives the pressure ratio that a specified final void fraction demands."
+cite = []
+digest = "4bde4f5dd60fdc28"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Laplace Pressure of a Void"
+gloss = "The gas in a spherical void exceeds the resin pressure by twice the surface tension over the void radius."
+cite = ["ref_laplace_pressure"]
+digest = "6e84fe87e55f6665"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Smallest Void Radius Closed by a Given Pressure"
+gloss = "Setting the Laplace excess equal to the available consolidation pressure gives the radius below which pressure cannot close a void."
+cite = ["ref_laplace_pressure"]
+digest = "8e7f16e7c5c520c3"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Henry's Law"
+gloss = "The concentration of gas dissolved in the resin is proportional to the pressure applied."
+cite = ["ref_henry"]
+digest = "5fc997a145bba973"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Darcy's Law"
+gloss = "The volumetric flux through a porous medium is the permeability over the viscosity times the pressure gradient."
+cite = ["ref_darcy"]
+digest = "d1eabac11443852f"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Kozeny-Carman Permeability of a Fibre Bed"
+gloss = "The Kozeny-Carman relation sets the permeability of a fibre bed by the square of the fibre diameter and the cube of the open fraction over the square of the fibre volume fraction and the Kozeny constant."
+cite = []
+digest = "3c50b86f448fd61f"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Sweep Time Through a Dry Tow Network"
+gloss = "The article takes a linear pressure gradient over the path to estimate the time a fluid needs to sweep the channel network as viscosity times porosity times the square of the path length over permeability times pressure difference."
+cite = []
+digest = "281b2376207becaa"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Ratio of Resin to Air Sweep Times"
+gloss = "For the same path, permeability and pressure difference the two sweep times stand in the ratio of the two viscosities."
+cite = []
+digest = "cce288293947af01"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Degree of Cure"
+gloss = "The degree of cure is the reaction heat released so far as a fraction of the ultimate heat of reaction, as a calorimeter reports it."
+cite = ["ref_thermosetting"]
+digest = "6f27028cb99c4f29"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Autocatalytic Cure Rate Model"
+gloss = "The two-constant autocatalytic model fits epoxy amine cure with a rate that rises from zero before it falls."
+cite = ["research_vyazovkin_sbirrazzuoli_1996", "research_keenan_1987"]
+digest = "f4689cb1c029709a"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Arrhenius Dependence of Cure Time on Temperature"
+gloss = "Because both rate constants follow an Arrhenius law, the time to reach a given degree of cure rises exponentially as the temperature falls."
+cite = ["ref_arrhenius", "research_kratz_thermal_models"]
+digest = "bc405971164c1708"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Activation Energy From Two Isothermal Dwells"
+gloss = "Two dwells at two temperatures that reach the same state fix an activation energy through the logarithm of their ratio over the difference of reciprocal temperatures."
+cite = ["ref_arrhenius"]
+digest = "ae5841c4ad6890cd"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Apparent Activation Energy From the Datasheet Cures"
+gloss = "The datasheet's twenty hours at 80 degrees Celsius and two hours at 130 are treated as reaching a common state, an assumption the article adopts although the cures are not iso-conversional, giving an apparent activation energy of about 54.5 kilojoules per mole."
+cite = ["ref_mtm45_datasheet"]
+digest = "5c76cedf5a6d4f64"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Arrhenius Ratio of Dwell Times"
+gloss = "The ratio of dwell times at two temperatures is the exponential of the activation energy over the gas constant times the difference of reciprocal temperatures."
+cite = []
+digest = "e27792b472e6eca2"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Predicted Dwell at 120 Degrees and the Datasheet Margin"
+gloss = "Extrapolating from two hours at 130 degrees with the fitted apparent activation energy predicts about three hours at 120, so the datasheet's four hours carries a margin of about 32 percent."
+cite = ["ref_mtm45_datasheet"]
+digest = "9a21caaf10d4ce45"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Fourier Conduction Time of a Laminate"
+gloss = "The time for heat to equilibrate across a laminate is the square of its thickness over its through-thickness diffusivity."
+cite = []
+digest = "4fd82b9425b2bcc5"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Conduction Time of a Six Millimetre Laminate"
+gloss = "At a through-thickness diffusivity of three ten-millionths of a square metre per second, a representative value the article assumes, a six millimetre laminate equilibrates in two minutes, under one percent of the four hour dwell."
+cite = ["ref_thermal_diffusivity"]
+digest = "7cb7684d811c54af"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Pressure Scaling of the Convective Coefficient"
+gloss = "The Dittus-Boelter form makes the convective coefficient scale as the 0.8 power of gas pressure once the article holds velocity, temperature and geometry equal between the oven and the autoclave."
+cite = ["ref_nusselt"]
+digest = "b813166891d04803"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Convective Advantage of the Autoclave"
+gloss = "At the consolidation pressure ratio of 7.35 the coefficient rises by about 4.93, or by 3.31 at an exponent of 0.6 that the article assumes as the lower end of the range."
+cite = []
+digest = "2918298db7841bee"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "DiBenedetto Relation"
+gloss = "The DiBenedetto relation gives the rise of the glass transition temperature with degree of cure between its uncured and fully cured values."
+cite = ["ref_glass_transition"]
+digest = "fcfae203821c0dad"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Vitrification Limit on the Degree of Cure"
+gloss = "Setting the glass transition equal to the cure temperature and inverting the DiBenedetto relation gives the conversion at which the resin vitrifies."
+cite = []
+digest = "4d2cbc5a08317c15"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Vitrification Ceilings at 120 and 160 Degrees"
+gloss = "With the datasheet's fully cured glass transition of 180 degrees and an uncured value of minus 20 degrees and a curvature parameter of 0.5 that the article assumes, a 120 degree cure stops near 0.824 and the wet glass transition of 160 degrees demands 0.947."
+cite = ["ref_mtm45_datasheet"]
+digest = "18c8c66cd2f7a729"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Sensitivity of the 120 Degree Ceiling"
+gloss = "The corners of a grid of uncured glass transitions and curvature parameters that the article assumes representative move the 120 degree ceiling between 0.741 and 0.899."
+cite = []
+digest = "0c06674a52684dfc"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Total Dwell of Two-Stage Cures Against the Autoclave"
+gloss = "Adding the datasheet's post-cure to each low-temperature cure gives total dwells of three and eleven times the autoclave-only dwell."
+cite = ["ref_mtm45_datasheet"]
+digest = "98cf2f03f2f61882"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Wright Learning Curve"
+gloss = "Recurring unit cost falls as a power of the cumulative unit number, with an exponent equal to the logarithm of the progress ratio over the logarithm of two."
+cite = ["ref_learning_curve", "research_rand_airframe_costs"]
+digest = "c80e6195712dc47d"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Break-Even Production Run"
+gloss = "The number of aircraft needed to repay a programme is its cost divided by the recurring saving per aircraft."
+cite = []
+digest = "d7c88054aef6a6df"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Surface Area of a Fuselage Half-Shell"
+gloss = "One fuselage half is half a cylinder, so its surface is half of pi times the diameter times the length."
+cite = ["ref_cw_acca"]
+digest = "ca6a1c9e90c6c8d0"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Layup Rate Demanded by the Out-Life"
+gloss = "The article requires every ply of a half-shell to be laid within one out-life window at a constant rate, which sets the sustained rate as plies times skin area over the out-life in working hours."
+cite = []
+digest = "25fef11435f8bad6"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Maximum Plies Within the Out-Life"
+gloss = "Inverting the same single-window construction gives the most plies a shop of a given sustained rate can lay on the shell before the material is out of time."
+cite = []
+digest = "f23be9c00ca018cb"
+
+[[symbol]]
+tex = 'E_{f}'
+meaning = "the facesheet modulus, with $t_{\\text{face}}$ the facesheet thickness"
+
+[[symbol]]
+tex = 'h_{c}'
+meaning = "the core depth"
+
+[[symbol]]
+tex = 't_{w}'
+meaning = "the vessel wall thickness"
+
+[[symbol]]
+tex = '\sigma_{\text{allow}}'
+meaning = "the allowable wall stress"
+
+[[symbol]]
+tex = 'm_{\text{shell}}'
+meaning = "the shell mass of the vessel"
+
+[[symbol]]
+tex = 'p_{\text{amb}}'
+meaning = "the ambient pressure"
+
+[[symbol]]
+tex = 'p_{\text{gauge}}'
+meaning = "the autoclave gauge pressure"
+
+[[symbol]]
+tex = 'p_{\text{in}}'
+meaning = "the pressure inside the bag"
+
+[[symbol]]
+tex = '\Delta p_{\text{bag}}'
+meaning = "the consolidation pressure under a vacuum bag, with $\\Delta p_{\\text{autoclave}}$ that in an autoclave"
+
+[[symbol]]
+tex = '\lambda h'
+meaning = "the product of the lapse rate $\\lambda$ and the geopotential altitude $h$"
+
+[[symbol]]
+tex = 'R_{\text{air}}'
+meaning = "the specific gas constant of air"
+
+[[symbol]]
+tex = '\phi_{0}'
+meaning = "the initial void fraction, with $\\phi_{1}$ the void fraction after compression"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the surface tension of the uncured resin"
+
+[[symbol]]
+tex = 'r_{\text{min}}'
+meaning = "the smallest void radius that the consolidation pressure can close"
+
+[[symbol]]
+tex = 'k_{H}'
+meaning = "the Henry's law constant"
+
+[[symbol]]
+tex = 'k'
+meaning = "the permeability of the fibre bed"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the dynamic viscosity of the fluid"
+
+[[symbol]]
+tex = 'd_{f}'
+meaning = "the fibre diameter"
+
+[[symbol]]
+tex = 'V_{f}'
+meaning = "the fibre volume fraction"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the Kozeny constant"
+
+[[symbol]]
+tex = '\varphi'
+meaning = "the porosity of the channel network"
+
+[[symbol]]
+tex = 't_{\text{sweep}}'
+meaning = "the time for a fluid to sweep the flow path"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the degree of cure"
+
+[[symbol]]
+tex = 'H_{\text{ult}}'
+meaning = "the ultimate heat of reaction"
+
+[[symbol]]
+tex = 'E_{a}'
+meaning = "the activation energy"
+
+[[symbol]]
+tex = '\alpha_{\text{th}}'
+meaning = "the through-thickness thermal diffusivity"
+
+[[symbol]]
+tex = '\mathrm{Nu}'
+meaning = "the Nusselt number"
+
+[[symbol]]
+tex = 'h_{\text{autoclave}}'
+meaning = "the convective heat transfer coefficient in the autoclave, with $h_{\\text{oven}}$ that in an oven"
+
+[[symbol]]
+tex = 'T_{g}'
+meaning = "the glass transition temperature"
+
+[[symbol]]
+tex = 'T_{g0}'
+meaning = "the glass transition temperature of the uncured resin, with $T_{g\\infty}$ that of the fully cured resin"
+
+[[symbol]]
+tex = '\lambda_{D}'
+meaning = "the DiBenedetto curvature parameter"
+
+[[symbol]]
+tex = '\alpha_{\text{vit}}'
+meaning = "the degree of cure at vitrification"
+
+[[symbol]]
+tex = 'C_{i}'
+meaning = "the recurring cost of the $i$th unit, with $C_{1}$ that of the first"
+
+[[symbol]]
+tex = '\varrho'
+meaning = "the progress ratio"
+
+[[symbol]]
+tex = 'n_{\text{break-even}}'
+meaning = "the number of aircraft needed to repay the programme"
+
+[[symbol]]
+tex = 'A_{\text{skin}}'
+meaning = "the skin area of one fuselage half-shell"
+
+[[symbol]]
+tex = '\dot{A}'
+meaning = "the sustained layup rate"
+
+[[symbol]]
+tex = 't_{\text{out}}'
+meaning = "the out-life of the prepreg in days"
+
+[[symbol]]
+tex = 'h_{\text{day}}'
+meaning = "the working hours a day"
+
+[[symbol]]
+tex = 'N_{\text{max}}'
+meaning = "the most plies that can be laid within the out-life"

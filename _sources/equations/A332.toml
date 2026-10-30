@@ -1,0 +1,811 @@
+# Equation classification for A332. Read by `python3 _lib/equations.py`.
+
+caution = "Thrusts and weights are quoted in pounds force and pounds while the relations are evaluated in newtons, kilograms and metres per second, and several letters are reused, so $T$ is a thrust except where a subscript or the standard atmosphere relation makes it a temperature, the thrust is written $F$ in the inlet temperature relations, $L$ is the separation of the fan and the rear nozzle and then the temperature lapse rate, $\\ell$ is a roll-post arm and then a bay length, $V$ is the true airspeed except in the fan bay relation, where it is a volume, $A$ is the disc area except in the ground roll, where it is the constant part of the acceleration, $c_p$ is the specific heat of air except in the clutch heating relation, and $r$ in the core flow inversion is the thrust multiplication ratio."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Thrust and Kinetic Power of a Jet"
+gloss = "A jet accelerating a mass flow from rest produces a thrust equal to the mass flow times the jet velocity and carries away half the mass flow times the velocity squared as kinetic power."
+cite = []
+digest = "293e152ceb3f9905"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Thrust at Fixed Power"
+gloss = "Eliminating the jet velocity shows that at a fixed power the thrust rises as the square root of the mass flow."
+cite = []
+digest = "5c7874b9057095c3"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Thrust per Unit Power"
+gloss = "Dividing the thrust by the kinetic power shows that the thrust obtained from each unit of power is inversely proportional to the jet velocity."
+cite = []
+digest = "719291df50111391"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Disc Area of the Lift Fan"
+gloss = "The published fifty-inch diameter gives a disc area of 1.2668 square metres."
+cite = ["ref_liftfan"]
+digest = "65d490a28a51154b"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Momentum Theory Thrust and Induced Velocity"
+gloss = "Momentum theory gives the thrust of an ideal actuator disc as twice the density times the disc area times the induced velocity squared, which inverts for the induced velocity."
+cite = ["ref_momentum"]
+digest = "69be8f4dde46fa6d"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Induced Velocity of the Lift Fan"
+gloss = "The published thrust and disc area at sea-level density give an induced velocity of 169.3 metres per second at the disc."
+cite = ["ref_momentum"]
+digest = "99985c7875475d66"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Mass Flow Through the Fan"
+gloss = "The density times the disc area times the induced velocity gives a mass flow of 262.7 kilograms per second."
+cite = []
+digest = "fad0976747339a83"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Ideal Power of the Disc"
+gloss = "The ideal power an actuator disc requires is its thrust times the induced velocity, here 15.06 megawatts."
+cite = []
+digest = "f315235a0fd48fc9"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Figure of Merit of the Lift Fan"
+gloss = "The ratio of ideal to published shaft power gives a figure of merit of 0.697."
+cite = []
+digest = "0f93786a2e28662d"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Total Published Vertical Thrust"
+gloss = "The fan, the three-bearing swivel module and the two roll posts sum to 41,900 pounds force of vertical thrust."
+cite = ["ref_liftfan"]
+digest = "dd909524e7656d9c"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Multiplication of Vertical Thrust Over the Dry Engine"
+gloss = "The total vertical thrust over the published dry thrust of the engine gives a factor of 1.676."
+cite = ["ref_x35"]
+digest = "c5840f9db0cdca8c"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Thrust Multiplication as a Pure Mass Flow Effect"
+gloss = "The thrust ratio is written as the square root of the total to core mass flow ratio on the assumption that the whole augmentation is the mass flow effect at unchanged power with ideal jets."
+cite = []
+digest = "ccf0f8088b521c77"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Core Mass Flow Recovered by Inversion"
+gloss = "Inverting the pure mass flow model with the fan flow from momentum theory recovers an unpublished core flow of 320.2 pounds per second."
+cite = []
+digest = "a98f21fd33d2b5a3"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Disc Loading of the Fan"
+gloss = "The published thrust over the disc area gives a disc loading of 70.2 kilopascals."
+cite = []
+digest = "802fc8e13a81c5d2"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Jet Dynamic Pressure Equals the Disc Loading"
+gloss = "For an ideal actuator disc the dynamic pressure of the fully developed jet is identically the disc loading."
+cite = []
+digest = "d30415d8511a5772"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Exit Density and Area From Continuity"
+gloss = "For a jet expanded to ambient pressure the ideal gas law gives the exit density and continuity gives the exit area from the mass flow."
+cite = []
+digest = "f93b51c11467b679"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Footprint Pressure of the Core Jet"
+gloss = "The rear thrust over the exit area, rewritten through continuity, gives the pressure the core jet applies to the surface below."
+cite = []
+digest = "b2cef59585d5cc71"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Isentropic Exit Temperature of the Fan"
+gloss = "The isentropic relation applied to the fan pressure ratio from momentum theory gives an efflux temperature of 334.9 kelvin."
+cite = []
+digest = "ac5de8fed8bcadd6"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Reaction Torque of a Single-Rotation Fan"
+gloss = "A fan absorbing a shaft power at an angular velocity applies a reaction torque equal to the power over the angular velocity."
+cite = []
+digest = "f7ad9041654b8fca"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Roll-Post Couple"
+gloss = "Two roll posts each producing a force at a distance from the centreline supply a couple of twice the force times the arm."
+cite = []
+digest = "6b28425c5fa5a029"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Fan Pressure Ratio From the Jet Dynamic Head"
+gloss = "The ideal disc raises total pressure by the jet dynamic head, which gives a fan pressure ratio of 1.693."
+cite = []
+digest = "6989bd86ac0c0810"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Isentropic Total Temperature Rise"
+gloss = "For an isentropic compression the total temperature rise follows from the pressure ratio, here 46.8 kelvin."
+cite = []
+digest = "68f0c6db41b5bc0f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Specific Work of the Fan"
+gloss = "The specific work is the specific heat at constant pressure times the total temperature rise."
+cite = []
+digest = "309079b0ee65b69c"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Blade Speed From an Assumed Stage Loading"
+gloss = "The blade speed follows from the specific work with the work shared equally between two stages and an assumed stage loading coefficient of 0.40."
+cite = []
+digest = "b8dff52d4e7fbd6f"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Rotational Speed of the Fan"
+gloss = "The blade speed from the assumed loading coefficient over the fan circumference gives an estimated 3,645 revolutions per minute."
+cite = []
+digest = "86a303f498218646"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Work Drawn During a Slipping Clutch Engagement"
+gloss = "For a source at constant angular velocity driving an inertia from rest, the torque impulse fixes the work drawn at the inertia times the source speed squared."
+cite = []
+digest = "9f1d6e33e0aaeedf"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Kinetic Energy of the Fan"
+gloss = "The fan ends the engagement holding half its inertia times the source speed squared."
+cite = []
+digest = "4f2704acee852f8a"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Energy Destroyed in the Clutch"
+gloss = "The difference between the work drawn and the energy stored shows that exactly half the energy drawn is dissipated, independent of the torque history."
+cite = []
+digest = "3e15f5d99cb1c05c"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Stored Energy Expressed as a Time"
+gloss = "The article defines a time scale as the fan's stored kinetic energy over the shaft power, evaluated across a bracket of assumed polar moments of inertia."
+cite = []
+digest = "a92819bd5d24ff0e"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Adiabatic Temperature Rise of the Clutch Plates"
+gloss = "The dissipated energy over the mass and specific heat of the plate pack gives its temperature rise in an adiabatic engagement."
+cite = []
+digest = "a6c86f719b326b1c"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Upper Bound on Clutch Dissipation"
+gloss = "At most half the rated shaft power can be destroyed over an engagement time the article assumes to be nine seconds, which bounds the dissipation at 97.3 megajoules."
+cite = []
+digest = "b15ea82736e4a1f1"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Dissipation as a Share of the Bound"
+gloss = "The bracketed dissipation for the assumed inertias, spread over the assumed nine seconds, is between 1.9 and 3.7 percent of the bound."
+cite = []
+digest = "2a111bf2cd7bca54"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Momentum Drag of the Lift Fan"
+gloss = "A fan ingesting air at the flight speed and discharging it vertically suffers a drag equal to its mass flow times the true airspeed."
+cite = []
+digest = "49e7773ed51c9e86"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Deceleration From Momentum Drag at Conversion"
+gloss = "The momentum drag at 180 knots is computed with the sea-level fan mass flow, an assumption at the conversion altitude, and divided by a mass of 34,000 pounds."
+cite = ["ref_lm_conversion"]
+digest = "2eca48f6a136332a"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Available Pitch Moment"
+gloss = "The pitch moment available is taken as an assumed ten percent of the fan thrust acting on a moment arm that rests on an assumed fan to nozzle separation of 7.5 metres."
+cite = ["ref_liftfan"]
+digest = "f6fa0c5ee11a439d"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Inlet Height at Which Momentum Drag Exhausts Pitch Authority"
+gloss = "The assumed pitch moment over the momentum drag gives the inlet height of 1.299 metres at which the two are equal."
+cite = []
+digest = "5475ba41e1f6a7ba"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Hover Moment Balance"
+gloss = "In steady hover the moment of the fan thrust about the centre of gravity cancels that of the rear nozzle."
+cite = []
+digest = "74cdac9beeb92bb1"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Centre of Gravity Fixed by the Hover Balance"
+gloss = "The moment balance with the published fan and rear nozzle thrusts places the centre of gravity at 47.37 percent of the separation behind the fan."
+cite = []
+digest = "905e6e57fa6f30a0"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Thrust Lapse With Inlet Temperature"
+gloss = "The thrust is taken to fall as the inverse of inlet total temperature, a simplification the article adopts for a fixed corrected operating point."
+cite = []
+digest = "10cb7494dc70fa13"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Critical Inlet Temperature Rise"
+gloss = "Inverting the assumed thrust lapse at a weight of 34,000 pounds gives the inlet temperature rise of 66.95 kelvin that consumes the hover margin."
+cite = []
+digest = "fd497aea648e429d"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Mean Slew Rate of the Swivel Module"
+gloss = "The published sweep of ninety-five degrees in 2.5 seconds is a mean slew rate of 38.0 degrees per second."
+cite = ["ref_liftfan"]
+digest = "dee87875c64cac2c"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Deflection of a Single Canted Joint"
+gloss = "Rolling one side of a joint canted at an angle to the duct axis deflects the downstream axis by an amount that reaches twice the cant at half a turn."
+cite = []
+digest = "e1a3c623cd0c4546"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Cant Required of a Single Bearing"
+gloss = "A single joint must be canted at half the required ninety-five degree deflection, or 47.5 degrees."
+cite = []
+digest = "7173fe7956b6204a"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Cant Required of Three Alternating Bearings"
+gloss = "Taking three alternating joints to reach six times their common cant, a result of the article's own numerical search, the required cant is 15.83 degrees."
+cite = []
+digest = "b1d4d4bc4f67cd12"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Roll Acceleration From the Roll Posts"
+gloss = "The roll angular acceleration is the roll-post couple divided by the roll moment of inertia."
+cite = []
+digest = "023a6655e5910c4c"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Roll Moment of Inertia"
+gloss = "The roll inertia is estimated with a radius of gyration the article assumes to be 0.22 of the span."
+cite = []
+digest = "d9bbd875fc1e2725"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Roll Acceleration With the Posts at 3.5 Metres"
+gloss = "The roll acceleration uses the assumed roll inertia and an assumed roll-post arm of 3.5 metres."
+cite = []
+digest = "33a802487c74f771"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Residual Roll Acceleration With a Single-Rotation Fan"
+gloss = "The roll acceleration left after a single-rotation fan's reaction torque at the estimated speed is about three degrees per second squared."
+cite = []
+digest = "1b1d33aa2ed31b7c"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Swept Volume of the Fan"
+gloss = "The fan bay is at least the swept volume of the fan, its disc area times the bay length."
+cite = []
+digest = "7ec8f0ead39cba62"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Fuel Displaced by the Fan Bay"
+gloss = "The fuel weight lost to the fan uses a bay length near the middle of an assumed range of 1.2 to 1.6 metres and an assumed fuel density of 800 kilograms per cubic metre."
+cite = []
+digest = "4d635f96d577b4d8"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Unstick Condition and Lift Equation"
+gloss = "An aircraft leaves the ground once wing lift and downward lift system thrust together reach the weight, with lift given by the standard lift equation."
+cite = []
+digest = "4e7c469ce2f485be"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Thrust That Points Down Whatever the Nozzle Does"
+gloss = "The published fan thrust and the two roll posts sum to 23,900 pounds force."
+cite = []
+digest = "0aa614a609cbc2cf"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Vectored Lift at the Mission X Unstick"
+gloss = "The vertical thrust assumes that the rear nozzle delivers its published 18,000 pounds force at eighty knots when vectored to 60 degrees."
+cite = []
+digest = "5ee85277bd9f351a"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Dynamic Pressure Times Wing Area at Eighty Knots"
+gloss = "At eighty knots and sea-level density over the wing area the product of dynamic pressure and area is 9,751 pounds force."
+cite = []
+digest = "95a295e155c2cf7b"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Upper Bound on the Unstick Lift Coefficient"
+gloss = "The lift coefficient required at the ceiling of the article's weight bracket, with the assumed vectored thrust, is at most 0.637."
+cite = []
+digest = "233430c1bc9fbb26"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Dynamic Pressure Times Wing Area at Sixty Knots"
+gloss = "At sixty knots and sea-level density the product of dynamic pressure and wing area is 5,485 pounds force."
+cite = []
+digest = "52afdf8ba7c28dcb"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Nozzle Deflection That Balances the Weight"
+gloss = "Solving the unstick condition for the nozzle deflection gives its sine in terms of the weight, the downward thrust, the wing lift and the rear thrust."
+cite = []
+digest = "86497162499b9560"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Lift Coefficient at the First Conversion"
+gloss = "The lift coefficient at the 180 knot conversion is evaluated at sea-level density, which the article states as an assumption at 9,000 feet."
+cite = ["ref_lm_conversion"]
+digest = "b5ac8e2b53b5223e"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Lift Coefficient Range at Conversion"
+gloss = "Across a weight bracket from the empty weight taken for it to full internal fuel, the sea-level coefficient runs from 0.622 to 0.926."
+cite = []
+digest = "ec426b750c232556"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Mean Acceleration for the Quoted Mission X Roll"
+gloss = "Reaching eighty knots from rest in the quoted 200 feet requires a mean acceleration of 1.417 times standard gravity."
+cite = []
+digest = "dbe4174b5c084324"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Maximum Acceleration With All Thrust Aft"
+gloss = "Pointing all published thrust aft with no drag or friction at the bracket floor of 34,197 pounds, which rests on an assumed fuel burn, allows at most 1.225 times standard gravity."
+cite = []
+digest = "f4f10f4862c6bf91"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Frictionless Minimum Ground Roll"
+gloss = "Only the rear nozzle thrust at the bracket floor weight, with no drag or rolling friction, gives a minimum roll of 538.3 feet."
+cite = []
+digest = "da75af831f85b653"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Ground Roll Equation of Motion"
+gloss = "The equation of motion takes the rear nozzle as pointing aft until unstick, an assumption for the 26 July flight, with rolling friction and zero-lift drag."
+cite = []
+digest = "1fef1dca42071852"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Closed-Form Distance Under Constant and Quadratic Deceleration"
+gloss = "Integrating an acceleration made of a constant part less a term in the square of speed gives the distance in closed form."
+cite = []
+digest = "7b90252b9e34ee29"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Minimum Roll on 26 July"
+gloss = "The closed form evaluated with the constants built from the assumed friction and drag at 34,000 pounds gives a minimum roll of 307.4 feet."
+cite = []
+digest = "f18c46a86859d101"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Mean Acceleration for the Quoted 26 July Roll"
+gloss = "The quoted roll of about five hundred feet to sixty knots requires a mean acceleration of 0.3187 times standard gravity."
+cite = []
+digest = "9ea5abafa7e73f16"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Acceleration Available During the Roll"
+gloss = "The acceleration available is approximated by the constant part less the drag term evaluated at half the squared unstick speed."
+cite = []
+digest = "dff11035b67ccfaa"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Largest Weight the Lift System Can Hold"
+gloss = "The total vertical thrust over standard gravity gives a largest supportable weight of 41,900 pounds."
+cite = []
+digest = "ebb9f0f3b9b1c79a"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Hover Margin at the Documented Weight"
+gloss = "The total vertical thrust over the documented 34,000 pounds gives a margin of 1.232."
+cite = ["ref_lm_completion"]
+digest = "a6acb49454aec932"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Mission X Takeoff Weight Bracket"
+gloss = "The takeoff weight is bracketed between the empty weight plus an assumed burn of 3,500 pounds and the empty weight plus full internal fuel, neglecting the pilot and instrumentation."
+cite = ["ref_x35"]
+digest = "71c858e448a82691"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Hover Margin at the Ceiling of the Bracket"
+gloss = "At the ceiling of the article's bracket the margin falls to 0.9169, so vertical takeoff at full internal fuel was impossible."
+cite = []
+digest = "9519b1d300fb8f68"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Temperature and Pressure in the Standard Troposphere"
+gloss = "Below the tropopause the temperature falls linearly with altitude and the hydrostatic equation integrates to a power law in pressure."
+cite = []
+digest = "b30340a251ac6943"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Exponent of the Tropospheric Pressure Law"
+gloss = "Standard gravity over the gas constant and the lapse rate gives an exponent of 5.2559."
+cite = []
+digest = "34ca3f89b56c68c3"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Density and Speed of Sound at Twenty-Five Thousand Feet"
+gloss = "The ideal gas law and the speed of sound relation give the density and speed of sound at 7,620 metres in the standard atmosphere."
+cite = []
+digest = "26e60312c194986d"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Stagnation Temperature of the Supersonic Dash"
+gloss = "The energy equation gives a stagnation temperature of 291.2 kelvin at Mach 1.05 and twenty-five thousand feet."
+cite = []
+digest = "2b2637738cf79fcf"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Dynamic Pressure of the Dash"
+gloss = "Half the standard density times the speed squared gives 29,018 pascals at Mach 1.05."
+cite = []
+digest = "08b3cfd9fde29c15"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Lift Coefficient of the Dash"
+gloss = "The lift coefficient takes the dash weight as 34,000 pounds, the figure documented for a different flight."
+cite = []
+digest = "ea48b652e26bd612"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Induced Drag Coefficient of the Dash"
+gloss = "The induced drag coefficient uses an Oswald efficiency the article assumes to be 0.75."
+cite = []
+digest = "8e1d6481fe5e858b"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Drag Build-Up of the Dash"
+gloss = "The drag coefficient adds an assumed zero-lift coefficient of 0.018 and an assumed wave-drag increment of 0.017 to the induced term."
+cite = []
+digest = "0d47e388ddac2e22"
+
+[[equation]]
+tag = 80
+class = "bespoke"
+title = "Bespoke Drag of the Dash"
+gloss = "The dynamic pressure times the wing area times the assumed drag build-up gives a drag of 10,289 pounds force."
+cite = []
+digest = "87f31c6ea9343707"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Thrust Available at Altitude"
+gloss = "The thrust available is a sea-level thrust of 40,000 pounds force times the density ratio raised to an exponent the article assumes to be 0.7."
+cite = []
+digest = "dbbd07d3984026a7"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Thrust to Drag Margin of the Dash"
+gloss = "The assumed thrust lapse against the assumed drag build-up gives a thrust to drag ratio of 2.216."
+cite = []
+digest = "ccc6c71c553439b0"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Gain in Hover Margin From Landing Last"
+gloss = "The article defines the gain from the ordering as the ratio of landing to takeoff margin, which reduces to the takeoff weight over the takeoff weight less the assumed fuel burn."
+cite = []
+digest = "fd6b4b4f6d1bf7ac"
+
+[[equation]]
+tag = 84
+class = "bespoke"
+title = "Bespoke Landing Margin at the Ceiling With a Hot Inlet"
+gloss = "At the ceiling landing weight the margin is reduced by the assumed thrust lapse for a ten kelvin inlet temperature rise to 0.960."
+cite = []
+digest = "1edd1b2677cde895"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow, with $\\dot{m}_{\\text{fan}}$ the fan flow and $\\dot{m}_{\\text{core}}$ the engine core flow"
+
+[[symbol]]
+tex = 'v_i'
+meaning = "the induced velocity at the disc"
+
+[[symbol]]
+tex = 'P_{\text{shaft}}'
+meaning = "the shaft power absorbed by the fan, with $P_{\\text{ideal}}$ the ideal power of the disc"
+
+[[symbol]]
+tex = '\mathrm{FM}'
+meaning = "the figure of merit of the fan"
+
+[[symbol]]
+tex = 'T_{\text{total}}'
+meaning = "the total vertical thrust of the lift system, with $T_{\\text{dry}}$ the dry thrust of the engine"
+
+[[symbol]]
+tex = 'T_f'
+meaning = "the thrust of the lift fan, with $T_r$ the thrust of the rear nozzle and $T_v$ the downward thrust of the lift system"
+
+[[symbol]]
+tex = 'x_f'
+meaning = "the distance of the fan behind or ahead of the centre of gravity, with $x_r$ that of the rear nozzle"
+
+[[symbol]]
+tex = 'q_{\text{jet}}'
+meaning = "the dynamic pressure of the fully developed jet"
+
+[[symbol]]
+tex = '\Pi'
+meaning = "the fan pressure ratio"
+
+[[symbol]]
+tex = '\psi'
+meaning = "the stage loading coefficient"
+
+[[symbol]]
+tex = 'U'
+meaning = "the blade speed"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the torque"
+
+[[symbol]]
+tex = 'F_{\text{post}}'
+meaning = "the thrust of one roll post"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the roll-post arm, and in the fan bay relation the bay length"
+
+[[symbol]]
+tex = '\omega_s'
+meaning = "the angular velocity of the driving source"
+
+[[symbol]]
+tex = 'I_{xx}'
+meaning = "the roll moment of inertia, with $k_x$ the radius of gyration in roll"
+
+[[symbol]]
+tex = 'E_{\text{clutch}}'
+meaning = "the energy dissipated in the clutch, with $E_{\\text{fan}}$ the kinetic energy of the fan"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the stored energy of the fan expressed as a time"
+
+[[symbol]]
+tex = 'D_{\text{mom}}'
+meaning = "the momentum drag of the lift fan"
+
+[[symbol]]
+tex = 'M_{\text{avail}}'
+meaning = "the pitch moment available, with $h^{*}$ the inlet height at which it equals the momentum drag moment"
+
+[[symbol]]
+tex = '\Delta T_0'
+meaning = "the total temperature rise across the fan, with $\\Delta T$ an inlet temperature rise"
+
+[[symbol]]
+tex = 'T_{\text{amb}}'
+meaning = "the ambient temperature"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the deflection of the duct axis"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the cant angle of a joint"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the relative roll angle of the two sides of a joint"
+
+[[symbol]]
+tex = '\dot{p}'
+meaning = "the roll angular acceleration"
+
+[[symbol]]
+tex = 'W_{\text{TO}}'
+meaning = "the takeoff weight, with $W_{\\text{land}}$ the landing weight and $W_{\\text{empty}}$ the empty weight"
+
+[[symbol]]
+tex = 'W_{\text{fuel}}'
+meaning = "the fuel weight"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the deflection of the rear nozzle below the horizontal"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the rolling friction coefficient"
+
+[[symbol]]
+tex = 'C_{D_0}'
+meaning = "the zero-lift drag coefficient, with $C_{D_w}$ the wave-drag increment and $C_{D_i}$ the induced drag coefficient"
+
+[[symbol]]
+tex = '\mathrm{AR}'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the density ratio against sea level"
+
+[[symbol]]
+tex = 'T_{\text{SL}}'
+meaning = "a sea-level value, the sea-level temperature in the atmosphere relation and the sea-level thrust in the thrust lapse"

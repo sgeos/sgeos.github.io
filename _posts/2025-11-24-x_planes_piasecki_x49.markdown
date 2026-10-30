@@ -50,25 +50,40 @@ In October 2000 the Naval Air Systems Command awarded Piasecki a demonstration c
 
 **A rotor blade advancing into the flight direction sees its own rotational speed plus the aeroplane's. A blade retreating sees the difference.** With tip speed $\Omega R$ and flight speed $V$, the two tips see
 
-$$V_{\text{adv}} = \Omega R + V, \qquad V_{\text{ret}} = \Omega R - V$$
+$$
+V_{\text{adv}} = \Omega R + V, \qquad V_{\text{ret}} = \Omega R - V
+\tag{1}
+$$
 
 **The ratio of flight speed to tip speed, the advance ratio, is the governing parameter** \[[Prouty, Helicopter performance, stability and control][book_prouty]\] \[[Stepniewski and Keys, Rotary-wing aerodynamics][book_stepniewski]\]**,**
 
-$$\mu = \frac{V}{\Omega R}$$
+$$
+\mu = \frac{V}{\Omega R}
+\tag{2}
+$$
 
 **Two separate limits close in as $\mu$ rises and they are not the same limit** \[[Leishman, Principles of helicopter aerodynamics][book_leishman]\] \[[Johnson, Helicopter theory][book_johnson_helicopter_theory]\].
 
 **The retreating blade loses dynamic pressure as the square of its local velocity**, so to carry the same section lift it needs a lift coefficient larger by the inverse of that ratio,
 
-$$\frac{q_{\text{ret}}}{q_{\text{hover}}} = \left(\frac{\Omega R - V}{\Omega R}\right)^{2} = (1-\mu)^{2}$$
+$$
+\frac{q_{\text{ret}}}{q_{\text{hover}}} = \left(\frac{\Omega R - V}{\Omega R}\right)^{2} = (1-\mu)^{2}
+\tag{3}
+$$
 
-$$\frac{c_{\ell,\text{req}}}{c_{\ell,\text{hover}}} = \frac{1}{(1-\mu)^{2}}$$
+$$
+\frac{c_{\ell,\text{req}}}{c_{\ell,\text{hover}}} = \frac{1}{(1-\mu)^{2}}
+\tag{4}
+$$
 
 **At the baseline cruise that factor is 2.06. At the demonstrated 190 knots it is 3.22.** The retreating tip is being asked for more than three times the lift coefficient it needs in the hover, and aerofoils have a ceiling.
 
 **There is also a region where the blade flies backwards.** Inboard on the retreating side, the flight speed exceeds the local rotational speed, and the reverse flow region is a circle of diameter $\mu R$ tangent to the hub,
 
-$$\frac{A_{\text{reverse}}}{A} = \frac{\pi (\mu R/2)^{2}}{\pi R^{2}} = \frac{\mu^{2}}{4}$$
+$$
+\frac{A_{\text{reverse}}}{A} = \frac{\pi (\mu R/2)^{2}}{\pi R^{2}} = \frac{\mu^{2}}{4}
+\tag{5}
+$$
 
 **which grows as the square and more than doubles between cruise and the demonstrated speed**, from 2.29 percent of the disc to 4.89, reaching 6.56 at the never-exceed speed \[[Jenkins 1966][research_blade_response_high_mu]\].
 
@@ -78,21 +93,36 @@ $$\frac{A_{\text{reverse}}}{A} = \frac{\pi (\mu R/2)^{2}}{\pi R^{2}} = \frac{\mu
 
 **The Seahawk's rotor is 53 feet 8 inches in diameter** \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. The National Aeronautics and Space Administration, or NASA, instrumented the UH-60A's rotor for its airloads flight programme, and that report gives a radius of 26.83 feet, four blades of 20.76 inch nominal chord, a geometric solidity of 0.0826 and a 100 percent rotor speed of 258 revolutions per minute \[[Kufeld, Romander, Dominguez and Dromiack, UH-60A airloads flight test program, NASA/TM-2019-220317][ref_nasa_uh60a_airloads]\]. The two radii agree,
 
-$$\frac{53 + 8/12}{2} = 26.83\ \text{ft}$$
+$$
+\frac{53 + 8/12}{2} = 26.83\ \text{ft}
+\tag{6}
+$$
 
 and the YSH-60F is assumed here to share the UH-60A rotor's published geometry and speed, since the X-49A's rotor dimensions go unstated in every source read. The sea-level speed of sound is 340.29 metres per second in the standard atmosphere \[[U.S. Standard Atmosphere 1976 1976][research_us_standard_atmosphere]\], being $\sqrt{\gamma R^{*} T_0 / M_0}$ with $\gamma = 1.4$, $R^{*} = 8.31432$ joules per mole per kelvin, $T_0 = 288.15$ kelvin and $M_0 = 0.0289644$ kilograms per mole, which is 340.294 metres per second or 1,116.45 feet per second. The tip speed and the hover tip Mach number at sea level are then
 
-$$\Omega R = \frac{258 \times 2\pi}{60} \times 26.83 = 724.9\ \text{ft/s}$$
+$$
+\Omega R = \frac{258 \times 2\pi}{60} \times 26.83 = 724.9\ \text{ft/s}
+\tag{7}
+$$
 
-$$M_{\text{tip}}^{\text{hover}} = \frac{724.9}{1116.45} = 0.649$$
+$$
+M_{\text{tip}}^{\text{hover}} = \frac{724.9}{1116.45} = 0.649
+\tag{8}
+$$
 
 **The sources publish no hover tip Mach number for this rotor**, so 0.649 is a derived value that cannot check the inputs. From the nominal chord of 1.73 feet the solidity is
 
-$$\sigma = \frac{N c}{\pi R} = \frac{4 \times 1.73}{\pi \times 26.83} = 0.0821$$
+$$
+\sigma = \frac{N c}{\pi R} = \frac{4 \times 1.73}{\pi \times 26.83} = 0.0821
+\tag{9}
+$$
 
 slightly below the report's geometric solidity of 0.0826, which the blade loading below uses. The encyclopaedia entry on the Seahawk gives the SH-60B an anti-submarine mission gross weight of 17,758 pounds \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. With disc area $A = \pi R^2 = 2{,}261.5\ \text{ft}^2$ and following the standard non-dimensionalisation \[[Bramwell, Done and Balmford, Bramwell's helicopter dynamics][book_bramwell]\], the blade loading at that weight is
 
-$$\frac{C_T}{\sigma} = \frac{W}{\rho A (\Omega R)^{2} \sigma} = \frac{17{,}758}{0.0023769 \times 2{,}261.5 \times 724.9^{2} \times 0.0826} = 0.0761$$
+$$
+\frac{C_T}{\sigma} = \frac{W}{\rho A (\Omega R)^{2} \sigma} = \frac{17{,}758}{0.0023769 \times 2{,}261.5 \times 724.9^{2} \times 0.0826} = 0.0761
+\tag{10}
+$$
 
 **which is an ordinary helicopter number and shows no strain.**
 
@@ -107,7 +137,10 @@ The advance ratios follow.
 
 **The 130 knot baseline is an assumed round cruise speed for the unmodified aeroplane. It is not a published SH-60F figure.** A magazine account puts the Black Hawk's practical limit at cruise speed at about 140 miles per hour \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\], which with 6,076.12 feet to the nautical mile and 5,280 to the statute mile is
 
-$$140 \times \frac{5280}{6076.12} = 121.7\ \text{kt}$$
+$$
+140 \times \frac{5280}{6076.12} = 121.7\ \text{kt}
+\tag{11}
+$$
 
 so the assumed baseline is of the same order as the family's cruise and serves only to anchor the first row. The 190 and 220 knot rows depend on a reading of the published speeds, stated in The Flight Test Record.
 
@@ -115,9 +148,15 @@ so the assumed baseline is of the same order as the family's cruise and serves o
 
 **Offloading is a dynamic pressure argument. It explains why compounding works at speed and is useless in the hover.** A wing carrying a fraction $f$ of the weight needs
 
-$$f W = \tfrac{1}{2} \rho V^{2} S_w C_L$$
+$$
+f W = \tfrac{1}{2} \rho V^{2} S_w C_L
+\tag{12}
+$$
 
-$$S_w = \frac{f W}{q C_L}, \qquad q(190\ \text{kt}) = 122.2\ \text{lb/ft}^{2}$$
+$$
+S_w = \frac{f W}{q C_L}, \qquad q(190\ \text{kt}) = 122.2\ \text{lb/ft}^{2}
+\tag{13}
+$$
 
 **At 190 knots the air is doing enough work that a modest wing carries a great deal.** Taking the maximum gross weight,
 
@@ -130,7 +169,10 @@ $$S_w = \frac{f W}{q C_L}, \qquad q(190\ \text{kt}) = 122.2\ \text{lb/ft}^{2}$$
 
 **What the rotor then sees is the blade loading reduced in proportion,**
 
-$$\left(\frac{C_T}{\sigma}\right)_{\text{compound}} = (1-f)\left(\frac{C_T}{\sigma}\right)_{\text{pure}}$$
+$$
+\left(\frac{C_T}{\sigma}\right)_{\text{compound}} = (1-f)\left(\frac{C_T}{\sigma}\right)_{\text{pure}}
+\tag{14}
+$$
 
 **and there is no more to the mechanism.** Halving the rotor's share halves the lift coefficient the retreating blade must find, which brings the 3.22 factor computed above down to 1.61 and no further.
 
@@ -144,9 +186,15 @@ $$\left(\frac{C_T}{\sigma}\right)_{\text{compound}} = (1-f)\left(\frac{C_T}{\sig
 
 **So the aeroplane had to slow its rotor, and none of the sources reports that this one did.** The encyclopaedia entry on the X-49 states that the wing was intended to offload the rotor so that it could be slowed \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\], and gives no rotor speed. Holding the advancing tip at Mach 0.90 at the never-exceed speed would require
 
-$$\Omega R = 0.90 \times 1116.45 - 220 \times 1.68781 = 633.5\ \text{ft/s}$$
+$$
+\Omega R = 0.90 \times 1116.45 - 220 \times 1.68781 = 633.5\ \text{ft/s}
+\tag{15}
+$$
 
-$$N = \frac{633.5}{26.83} \times \frac{60}{2\pi} = 225.5\ \text{rpm}, \qquad 1 - \frac{225.5}{258} = 12.6\ \text{percent}$$
+$$
+N = \frac{633.5}{26.83} \times \frac{60}{2\pi} = 225.5\ \text{rpm}, \qquad 1 - \frac{225.5}{258} = 12.6\ \text{percent}
+\tag{16}
+$$
 
 **Phase one was flown inside the existing Seahawk envelope** \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\], a limit set by what the airframe and its rotor system were cleared for. Aerodynamics did not set it. **If the rotor turned at Seahawk speed, then at that speed the advancing tip runs out before the retreating one does.**
 
@@ -156,15 +204,24 @@ $$N = \frac{633.5}{26.83} \times \frac{60}{2\pi} = 225.5\ \text{rpm}, \qquad 1 -
 
 **The conversion added about 1,600 pounds** \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. The same Seahawk entry gives the SH-60B an empty weight of 15,200 pounds and a maximum take-off weight of 21,884 \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\], and applying those SH-60B figures to the YSH-60F is an assumption. Against the empty weight and the maximum the addition is
 
-$$\frac{1600}{15200} = 10.5\ \text{percent}, \qquad \frac{1600}{21884} = 7.3\ \text{percent}$$
+$$
+\frac{1600}{15200} = 10.5\ \text{percent}, \qquad \frac{1600}{21884} = 7.3\ \text{percent}
+\tag{17}
+$$
 
 **But empty weight is the wrong denominator.** What a modification spends is useful load, the difference between maximum gross and empty,
 
-$$W_{\text{useful}} = 21{,}884 - 15{,}200 = 6{,}684\ \text{lb}$$
+$$
+W_{\text{useful}} = 21{,}884 - 15{,}200 = 6{,}684\ \text{lb}
+\tag{18}
+$$
 
 which equals the payload the same reference states \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\], and
 
-$$\frac{1600}{6684} = 23.9\ \text{percent}$$
+$$
+\frac{1600}{6684} = 23.9\ \text{percent}
+\tag{19}
+$$
 
 **Nearly a quarter of everything the aeroplane could otherwise have carried** by any conceptual-design standard \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Anderson, Aircraft performance and design][book_anderson_performance]\]. On a naval helicopter whose useful load is the mission, that comes out of payload, fuel or both, and 23.9 percent is the number an operator would be shown.
 
@@ -172,19 +229,31 @@ $$\frac{1600}{6684} = 23.9\ \text{percent}$$
 
 **A wing under a rotor is a lift-producing device in hover only in the wrong direction.** At maximum gross weight the disc loading is
 
-$$\frac{W}{A} = \frac{21884}{2261.5} = 9.68\ \text{lb/ft}^{2}$$
+$$
+\frac{W}{A} = \frac{21884}{2261.5} = 9.68\ \text{lb/ft}^{2}
+\tag{20}
+$$
 
 and momentum theory gives the induced velocity and the fully developed slipstream dynamic pressure as \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\]
 
-$$v_i = \sqrt{\frac{W/A}{2\rho}} = 45.1\ \text{ft/s}, \qquad q_{\text{slip}} = \tfrac{1}{2}\rho (2 v_i)^{2} = 9.68\ \text{lb/ft}^{2}$$
+$$
+v_i = \sqrt{\frac{W/A}{2\rho}} = 45.1\ \text{ft/s}, \qquad q_{\text{slip}} = \tfrac{1}{2}\rho (2 v_i)^{2} = 9.68\ \text{lb/ft}^{2}
+\tag{21}
+$$
 
 **The slipstream dynamic pressure equals the disc loading exactly. The two expressions are the same statement written twice, so the match is no coincidence.** For a wing broadside to that flow with a drag coefficient between 1.2 and 1.5, the download is
 
-$$\frac{D}{S_w} = q_{\text{slip}} C_D = 11.6\ \text{to}\ 14.5\ \text{lb per square foot of wing}$$
+$$
+\frac{D}{S_w} = q_{\text{slip}} C_D = 11.6\ \text{to}\ 14.5\ \text{lb per square foot of wing}
+\tag{22}
+$$
 
 **Download is paid for as extra thrust, and thrust in the hover is paid for as power.** The rotor must lift the aeroplane and its own download, so
 
-$$T_{\text{req}} = W + D_{\text{dn}}, \qquad \frac{P}{P_0} = \left(\frac{T_{\text{req}}}{W}\right)^{3/2}$$
+$$
+T_{\text{req}} = W + D_{\text{dn}}, \qquad \frac{P}{P_0} = \left(\frac{T_{\text{req}}}{W}\right)^{3/2}
+\tag{23}
+$$
 
 **by momentum theory, so a download of five percent of gross weight costs about 7.6 percent more hover power**, and the penalty compounds against a transmission that has none to give.
 
@@ -194,7 +263,10 @@ $$T_{\text{req}} = W + D_{\text{dn}}, \qquad \frac{P}{P_0} = \left(\frac{T_{\tex
 
 **In the Seahawk entry the SH-60B has two T700-GE-401C turboshafts of 1,890 shaft horsepower each for take-off** \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. The original UH-60A transmission is rated at 2,828 horsepower of dual input at a rotor speed of 258 revolutions per minute \[[Mitchell, Oswald and Coe, Testing of UH-60A helicopter transmission, NASA TP-2626][ref_nasa_tp2626]\], and a defence patent on gearbox vibration states that 2,828 shaft horsepower defines 100 percent dual-engine power across the Black Hawk and Seahawk family while the improved durability gearbox of the SH-60B has a continuous rating of 3,400 \[[Blunt, Synchronous averaging of epicyclic sun gear vibration, US Patent 6,898,975][ref_patent_us6898975]\]. That the YSH-60F carried that gearbox is assumed here, and no source read confirms it. Then
 
-$$2 \times 1890 - 3400 = 380\ \text{shp}, \qquad \frac{380}{3780} = 10.1\ \text{percent}$$
+$$
+2 \times 1890 - 3400 = 380\ \text{shp}, \qquad \frac{380}{3780} = 10.1\ \text{percent}
+\tag{24}
+$$
 
 **so 380 horsepower, 10.1 percent of what the engines make for take-off, cannot reach the rotor.**
 
@@ -202,11 +274,17 @@ $$2 \times 1890 - 3400 = 380\ \text{shp}, \qquad \frac{380}{3780} = 10.1\ \text{
 
 **A second reason phase two was a drag programme is a cube law.** Helicopter power divides into induced, profile and parasite terms, and only the last rises steeply with speed \[[Prouty, Helicopter performance, stability and control][book_prouty]\],
 
-$$P = P_i + P_o + P_p, \qquad P_p = \tfrac{1}{2}\rho V^{3} f_e$$
+$$
+P = P_i + P_o + P_p, \qquad P_p = \tfrac{1}{2}\rho V^{3} f_e
+\tag{25}
+$$
 
 in which $f_e$ is the equivalent flat plate area. Going from the baseline to the demonstrated speed,
 
-$$\frac{P_p(190)}{P_p(130)} = \left(\frac{190}{130}\right)^{3} = 3.12$$
+$$
+\frac{P_p(190)}{P_p(130)} = \left(\frac{190}{130}\right)^{3} = 3.12
+\tag{26}
+$$
 
 **and reaching the 200 knot objective would have cost 3.64 times the baseline parasite power.** A hub fairing and retracting gear attack $f_e$ directly, the only term in that expression a retrofit can change cheaply. **Against a transmission with 380 horsepower already stranded, that is where the margin had to come from.**
 
@@ -235,27 +313,45 @@ The X-49A column follows the sections above. The 16H-1A's base airframe, rotor d
 
 **A shrouded propulsor is not merely a propeller with a guard around it.** An open rotor's slipstream contracts, and by how much follows from momentum theory alone. Thrust is the momentum flux and power is the kinetic energy flux,
 
-$$T = \dot{m}\, w, \qquad P = \tfrac{1}{2}\dot{m}\, w^{2} = T v_i$$
+$$
+T = \dot{m}\, w, \qquad P = \tfrac{1}{2}\dot{m}\, w^{2} = T v_i
+\tag{27}
+$$
 
 which together give $w = 2 v_i$, so the far wake moves at twice the velocity at the disc, and continuity then fixes the area,
 
-$$A_\infty v_\infty = A_d v_d \implies \frac{A_\infty}{A_d} = \frac{v_d}{2 v_d} = \frac{1}{2}$$
+$$
+A_\infty v_\infty = A_d v_d \implies \frac{A_\infty}{A_d} = \frac{v_d}{2 v_d} = \frac{1}{2}
+\tag{28}
+$$
 
 **The slipstream contracts to half the disc area, and half the useful acceleration therefore happens downstream of the rotor where no shroud can recover it.** **A duct that holds the exit area open prevents that contraction**, and the actuator disc relations change accordingly. With exit area $A_e$, disc area $A_d$ and $\sigma_d = A_e/A_d$,
 
-$$\dot{m} = \rho A_d v_d, \qquad v_e = \frac{v_d}{\sigma_d}$$
+$$
+\dot{m} = \rho A_d v_d, \qquad v_e = \frac{v_d}{\sigma_d}
+\tag{29}
+$$
 
-$$T = \dot{m} v_e = \frac{\rho A_d v_d^{2}}{\sigma_d}, \qquad P = \tfrac{1}{2}\dot{m} v_e^{2} = \frac{\rho A_d v_d^{3}}{2\sigma_d^{2}}$$
+$$
+T = \dot{m} v_e = \frac{\rho A_d v_d^{2}}{\sigma_d}, \qquad P = \tfrac{1}{2}\dot{m} v_e^{2} = \frac{\rho A_d v_d^{3}}{2\sigma_d^{2}}
+\tag{30}
+$$
 
 **The duct's report literature is largely a 1950s and 1960s one** \[[Theodorsen 1960b][research_ducted_prop_theory]\] \[[Meyerhoff and Zvengrowski 1962][research_ducted_propeller_study]\].
 
 **Eliminating $v_d$ at constant power gives the augmentation,**
 
-$$\frac{T}{T_{\text{open}}} = (2\sigma_d)^{1/3}$$
+$$
+\frac{T}{T_{\text{open}}} = (2\sigma_d)^{1/3}
+\tag{31}
+$$
 
 **An open rotor is the case $\sigma_d = 1/2$, which returns unity as it must.** A duct that holds the exit at the disc area gives
 
-$$\frac{T}{T_{\text{open}}} = 2^{1/3} = 1.26$$
+$$
+\frac{T}{T_{\text{open}}} = 2^{1/3} = 1.26
+\tag{32}
+$$
 
 **Twenty-six percent more static thrust for the same power and the same disc area**, and a mildly diffusing duct at $\sigma_d = 1.2$ gives 1.34.
 
@@ -271,11 +367,17 @@ $$\frac{T}{T_{\text{open}}} = 2^{1/3} = 1.26$$
 
 **The demonstrated maximum speed is stated in no primary document read for this article.** The encyclopaedia article on the aeroplane gives a maximum of 350 kilometres per hour, a cruise of 250 and a never-exceed speed of 410 \[[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]\]. With 1.852 kilometres to the nautical mile these are
 
-$$\frac{350}{1.852} = 189.0\ \text{kt}, \qquad \frac{250}{1.852} = 135.0\ \text{kt}, \qquad \frac{410}{1.852} = 221.4\ \text{kt}$$
+$$
+\frac{350}{1.852} = 189.0\ \text{kt}, \qquad \frac{250}{1.852} = 135.0\ \text{kt}, \qquad \frac{410}{1.852} = 221.4\ \text{kt}
+\tag{33}
+$$
 
 **This article takes the maximum as 190 knots and the never-exceed speed as 220 knots**, reading the kilometre figures as conversions rounded to two significant figures, since
 
-$$190 \times 1.852 = 351.9\ \text{km/h}, \qquad 220 \times 1.852 = 407.4\ \text{km/h}$$
+$$
+190 \times 1.852 = 351.9\ \text{km/h}, \qquad 220 \times 1.852 = 407.4\ \text{km/h}
+\tag{34}
+$$
 
 and both round to the published values. That reading is an assumption, and the discussion of where the framing breaks down sets it against a lower figure the manufacturer gave the press.
 
@@ -285,7 +387,10 @@ and both round to the published values. That reading is an assumption, and the d
 
 **The speed objective was set on the ground and flight fell short of it.** The programme target was 200 knots \[[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]\], and against the 190 knots this article takes as the demonstrated maximum the shortfall is
 
-$$200 - 190 = 10\ \text{kt}, \qquad \frac{10}{200} = 5\ \text{percent of the objective}$$
+$$
+200 - 190 = 10\ \text{kt}, \qquad \frac{10}{200} = 5\ \text{percent of the objective}
+\tag{35}
+$$
 
 The discussion under What the Data Changed attributes the shortfall to a first phase flown inside the existing Seahawk envelope with the drag clean-up and the third engine unbuilt, and the Epistemic State section classes that attribution as inference rather than analysis.
 
@@ -301,11 +406,17 @@ The discussion under What the Data Changed attributes the shortfall to a first p
 
 **The 16H-1A had reached 225 miles per hour by April 1966 on a single 1,250 horsepower turbine** \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] \[[Robb, Hybrid helicopters, Vertiflite][ref_robb_vertiflite]\], **at a gross weight a general reference gives as 10,800 pounds** \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\]. The X-49A's 190 knots, with 6,076.12 feet to the nautical mile and 5,280 to the statute mile, compares with it as
 
-$$190 \times \frac{6076.12}{5280} = 218.65\ \text{mph}, \qquad 225 - 218.65 = 6.35\ \text{mph}, \qquad 225 \times \frac{5280}{6076.12} = 195.5\ \text{kt}$$
+$$
+190 \times \frac{6076.12}{5280} = 218.65\ \text{mph}, \qquad 225 - 218.65 = 6.35\ \text{mph}, \qquad 225 \times \frac{5280}{6076.12} = 195.5\ \text{kt}
+\tag{36}
+$$
 
 a speed reached in the first test phase of 2007 and 2008 with 3,400 horsepower at the gearbox and twice the weight. **The comparison is a ratio of power loadings and needs nothing else,**
 
-$$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}250}{21{,}884/3{,}400} = \frac{8.64}{6.44} = 1.342$$
+$$
+\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}250}{21{,}884/3{,}400} = \frac{8.64}{6.44} = 1.342
+\tag{37}
+$$
 
 **The later aeroplane had 1.342 times the power per pound and was 6.35 miles per hour slower.**
 
@@ -323,7 +434,10 @@ $$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}250}{21{,}884/3{,}400} = 
 
 **Even the unbuilt phase two would have run into the advancing blade.** The advancing tip Mach number is fixed by two terms and a retrofit can change only one of them,
 
-$$M_{\text{adv}} = \frac{\Omega R + V}{a}$$
+$$
+M_{\text{adv}} = \frac{\Omega R + V}{a}
+\tag{38}
+$$
 
 At 200 knots on the Seahawk rotor speed that is Mach 0.952. **A drag clean-up buys thrust and a third engine buys power, and neither of them buys Mach number.** The only remaining variable is rotor speed, and slowing a rotor on a production helicopter changes its dynamics, its autorotation entry and its clearance.
 
@@ -543,13 +657,19 @@ At 200 knots on the Seahawk rotor speed that is Mach 0.952. **A drag clean-up bu
 
 **The 16H-1A's gross weight is quoted three ways, and the opening comparison depends on which.** The general encyclopaedia gives 10,800 pounds \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\]. The Vertical Flight Society's aircraft database gives a maximum gross weight of 8,000 pounds \[[Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]\], and the manufacturer's empty weight of 4,450 and useful load of 3,450 pounds \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\] sum to 7,900. The same database gives an empty weight of 4,550 pounds and the general encyclopaedia 4,800. At 8,000 pounds the ratio of power loadings becomes
 
-$$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{8{,}000/1{,}250}{21{,}884/3{,}400} = \frac{6.40}{6.44} = 0.994$$
+$$
+\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{8{,}000/1{,}250}{21{,}884/3{,}400} = \frac{6.40}{6.44} = 0.994
+\tag{39}
+$$
 
 **so at the lighter figure the two aeroplanes carry essentially the same power per pound and the ratio of 1.342 disappears.** The article keeps 10,800 pounds because the comparison was built on it, and the opening comparison is no firmer than that choice.
 
 **The 16H-1A's engine rating is quoted two ways on the manufacturer's own page.** Its specification table gives the T58-GE-8 as 1,250 horsepower, and its narrative says the T-58 fitted in the 1964 modification was rated at 1,050 shaft horsepower \[[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]\]. The general encyclopaedia gives 1,250 \[[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]\], and the article carries 1,250 on those two. At 1,050 shaft horsepower and 10,800 pounds the ratio of power loadings would be
 
-$$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}050}{21{,}884/3{,}400} = \frac{10.29}{6.44} = 1.598$$
+$$
+\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}050}{21{,}884/3{,}400} = \frac{10.29}{6.44} = 1.598
+\tag{40}
+$$
 
 **so the lower rating would widen the gap**, while the lighter weight above removes it. The two uncertainties pull in opposite directions, and no document read settles either.
 
@@ -559,7 +679,10 @@ $$\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}050}{21{,}884/3{,}400} = 
 
 **The demonstrated speed is a converted figure, and the one speed the manufacturer is quoted as giving is lower.** A magazine account of the October 2008 demonstration reports that a Navy rule capped the flyby at about 200 miles per hour and that the company said the X-49A had reached 203 miles per hour in a slight descent \[[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]\]. In knots, and against the 190 this article carries, that is
 
-$$203 \times \frac{5280}{6076.12} = 176.4\ \text{kt}, \qquad 190 - 176.4 = 13.6\ \text{kt}$$
+$$
+203 \times \frac{5280}{6076.12} = 176.4\ \text{kt}, \qquad 190 - 176.4 = 13.6\ \text{kt}
+\tag{41}
+$$
 
 The manufacturer's own release places the first phase inside the SH-60's NATOPS limit \[[Piasecki's X-49A SpeedHawk VTDP compound helicopter completes initial phase one flight testing, Piasecki Aircraft Corporation][ref_piasecki_x49a_phase1]\], and the encyclopaedia gives the Seahawk a never-exceed speed of 180 knots \[[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]\]. **No source this article could read reconciles the converted 190 knots with the quoted 203 miles per hour.** If the lower figure is the true maximum, every number derived here at 190 knots, among them the advance ratio of 0.442 and the advancing tip Mach number of 0.937, describes a speed the aeroplane did not reach.
 
@@ -664,6 +787,424 @@ The Dragonfly canard rotor wing, which is the next article. The Cheyenne compoun
 **Neither a drag clean-up nor a third engine moves a Mach number.** The only term left is the rotor speed, and lowering it by the required 12.6 percent is a different aeroplane, with different dynamics, a different autorotation entry and a fresh clearance to earn. **The programme stopped where the cheap variables ran out.**
 
 **The designation is the same story in another register.** The number was skipped so that a more interesting-sounding aeroplane could have a rounder one, and the aeroplane that got the round number crashed twice and never converted. **The X-49 took the number nobody wanted and flew more than eighty hours with it.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 41 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 41, 22 are established and 19 are bespoke.
+The rotor and wing relations are evaluated in feet, pounds, slugs and knots at sea level, with a knot taken as 1.68781 feet per second, and several letters are reused, so $N$ is the blade count in the solidity and the rotor speed in revolutions per minute in the slowed-rotor relation, $A$ is the rotor disc area while $A_d$ is the duct disc area, $T$ and $P$ are the rotor thrust and power in the hover relations and the propulsor thrust and power in the duct relations, and $f$ is the fraction of weight the wing carries while $f_e$ is the equivalent flat plate area.
+
+**Equation 1, Advancing and Retreating Tip Speeds.**
+In forward flight the advancing tip sees the tip speed plus the flight speed and the retreating tip sees their difference.
+[Prouty, Helicopter performance, stability and control][book_prouty]
+[Stepniewski and Keys, Rotary-wing aerodynamics][book_stepniewski]
+
+$$
+V_{\text{adv}} = \Omega R + V, \qquad V_{\text{ret}} = \Omega R - V
+\tag{1}
+$$
+
+**Equation 2, Advance Ratio.**
+The advance ratio is the flight speed divided by the rotor tip speed.
+[Prouty, Helicopter performance, stability and control][book_prouty]
+[Stepniewski and Keys, Rotary-wing aerodynamics][book_stepniewski]
+
+$$
+\mu = \frac{V}{\Omega R}
+\tag{2}
+$$
+
+**Equation 3, Dynamic Pressure at the Retreating Tip.**
+The dynamic pressure at the retreating tip falls relative to the hover as the square of one minus the advance ratio.
+[Leishman, Principles of helicopter aerodynamics][book_leishman]
+[Johnson, Helicopter theory][book_johnson_helicopter_theory]
+
+$$
+\frac{q_{\text{ret}}}{q_{\text{hover}}} = \left(\frac{\Omega R - V}{\Omega R}\right)^{2} = (1-\mu)^{2}
+\tag{3}
+$$
+
+**Equation 4, Required Lift Coefficient at the Retreating Tip.**
+To carry the same section lift at reduced dynamic pressure the retreating tip needs a lift coefficient larger by the inverse square of one minus the advance ratio.
+[Leishman, Principles of helicopter aerodynamics][book_leishman]
+[Johnson, Helicopter theory][book_johnson_helicopter_theory]
+
+$$
+\frac{c_{\ell,\text{req}}}{c_{\ell,\text{hover}}} = \frac{1}{(1-\mu)^{2}}
+\tag{4}
+$$
+
+**Equation 5, Reverse Flow Region as a Fraction of the Disc.**
+The reverse flow region is a circle of diameter $\mu R$ tangent to the hub, so its share of the disc area is one quarter of the square of the advance ratio.
+[Jenkins 1966][research_blade_response_high_mu]
+
+$$
+\frac{A_{\text{reverse}}}{A} = \frac{\pi (\mu R/2)^{2}}{\pi R^{2}} = \frac{\mu^{2}}{4}
+\tag{5}
+$$
+
+**Equation 6, Seahawk Rotor Radius from the Published Diameter.**
+Half the published rotor diameter of 53 feet 8 inches is 26.83 feet, which agrees with the radius in the National Aeronautics and Space Administration airloads report.
+[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]
+[Kufeld, Romander, Dominguez and Dromiack, UH-60A airloads flight test program, NASA/TM-2019-220317][ref_nasa_uh60a_airloads]
+
+$$
+\frac{53 + 8/12}{2} = 26.83\ \text{ft}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Rotor Tip Speed of the X-49A.*
+The tip speed of 724.9 feet per second follows from the UH-60A rotor speed of 258 revolutions per minute and radius of 26.83 feet, on the assumption that the YSH-60F rotor shares that published geometry and speed.
+[Kufeld, Romander, Dominguez and Dromiack, UH-60A airloads flight test program, NASA/TM-2019-220317][ref_nasa_uh60a_airloads]
+
+$$
+\Omega R = \frac{258 \times 2\pi}{60} \times 26.83 = 724.9\ \text{ft/s}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Hover Tip Mach Number.*
+The assumed tip speed divided by the standard sea-level speed of sound of 1,116.45 feet per second gives a hover tip Mach number of 0.649, a derived value that no source publishes for this rotor.
+[U.S. Standard Atmosphere 1976 1976][research_us_standard_atmosphere]
+
+$$
+M_{\text{tip}}^{\text{hover}} = \frac{724.9}{1116.45} = 0.649
+\tag{8}
+$$
+
+**Equation 9, Rotor Solidity from the Nominal Chord.**
+The solidity is the blade area divided by the disc area, and four blades of the nominal 1.73 foot chord give 0.0821 against the reported geometric solidity of 0.0826.
+[Kufeld, Romander, Dominguez and Dromiack, UH-60A airloads flight test program, NASA/TM-2019-220317][ref_nasa_uh60a_airloads]
+
+$$
+\sigma = \frac{N c}{\pi R} = \frac{4 \times 1.73}{\pi \times 26.83} = 0.0821
+\tag{9}
+$$
+
+*Equation 10, Bespoke Blade Loading at Mission Gross Weight.*
+The blade loading coefficient evaluated at the SH-60B mission gross weight of 17,758 pounds and sea-level density is 0.0761, on the assumed UH-60A rotor geometry and tip speed.
+[Bramwell, Done and Balmford, Bramwell's helicopter dynamics][book_bramwell]
+[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]
+
+$$
+\frac{C_T}{\sigma} = \frac{W}{\rho A (\Omega R)^{2} \sigma} = \frac{17{,}758}{0.0023769 \times 2{,}261.5 \times 724.9^{2} \times 0.0826} = 0.0761
+\tag{10}
+$$
+
+**Equation 11, Practical Cruise Limit Converted to Knots.**
+The magazine figure of about 140 statute miles per hour converts to 121.7 knots.
+[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]
+
+$$
+140 \times \frac{5280}{6076.12} = 121.7\ \text{kt}
+\tag{11}
+$$
+
+**Equation 12, Lift Carried by a Wing.**
+A wing carrying a fraction $f$ of the weight must generate that lift from the dynamic pressure, its area and its lift coefficient.
+
+$$
+f W = \tfrac{1}{2} \rho V^{2} S_w C_L
+\tag{12}
+$$
+
+*Equation 13, Bespoke Wing Area Required at 190 Knots.*
+The lift equation solved for wing area is evaluated at the dynamic pressure of 190 knots, the demonstrated maximum speed as this article reads the published kilometre figure.
+
+$$
+S_w = \frac{f W}{q C_L}, \qquad q(190\ \text{kt}) = 122.2\ \text{lb/ft}^{2}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Rotor Blade Loading of the Compound.*
+The rotor blade loading is reduced in exact proportion to the share of weight the wing takes, a model that assumes the wing carries its fraction with no interference or download on the rotor.
+
+$$
+\left(\frac{C_T}{\sigma}\right)_{\text{compound}} = (1-f)\left(\frac{C_T}{\sigma}\right)_{\text{pure}}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Tip Speed That Holds the Advancing Tip at Mach 0.90.*
+Holding the advancing tip at a chosen Mach 0.90 at the never-exceed speed of 220 knots, which is the article's reading of the published figure, requires a tip speed of 633.5 feet per second.
+
+$$
+\Omega R = 0.90 \times 1116.45 - 220 \times 1.68781 = 633.5\ \text{ft/s}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Rotor Speed Reduction Required.*
+The required tip speed on the 26.83 foot radius is 225.5 revolutions per minute, a reduction of 12.6 percent from the assumed Seahawk rotor speed of 258.
+
+$$
+N = \frac{633.5}{26.83} \times \frac{60}{2\pi} = 225.5\ \text{rpm}, \qquad 1 - \frac{225.5}{258} = 12.6\ \text{percent}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Conversion Weight Against Empty and Maximum Weight.*
+The 1,600 pound conversion is expressed against the SH-60B empty and maximum take-off weights, on the stated assumption that those figures apply to the YSH-60F.
+[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]
+[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]
+
+$$
+\frac{1600}{15200} = 10.5\ \text{percent}, \qquad \frac{1600}{21884} = 7.3\ \text{percent}
+\tag{17}
+$$
+
+**Equation 18, Useful Load of the SH-60B.**
+The useful load is the published maximum take-off weight less the published empty weight, and equals the payload the same reference states.
+[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]
+
+$$
+W_{\text{useful}} = 21{,}884 - 15{,}200 = 6{,}684\ \text{lb}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Conversion Weight as a Share of Useful Load.*
+The 1,600 pound conversion takes 23.9 percent of the SH-60B useful load, on the stated assumption that the SH-60B weights apply to the YSH-60F.
+
+$$
+\frac{1600}{6684} = 23.9\ \text{percent}
+\tag{19}
+$$
+
+**Equation 20, Disc Loading at Maximum Gross Weight.**
+The published maximum take-off weight divided by the disc area of the published rotor diameter gives a disc loading of 9.68 pounds per square foot.
+
+$$
+\frac{W}{A} = \frac{21884}{2261.5} = 9.68\ \text{lb/ft}^{2}
+\tag{20}
+$$
+
+**Equation 21, Induced Velocity and Slipstream Dynamic Pressure in the Hover.**
+Momentum theory gives the induced velocity from the disc loading and sea-level density, and the fully developed slipstream at twice that velocity has a dynamic pressure equal to the disc loading.
+[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]
+
+$$
+v_i = \sqrt{\frac{W/A}{2\rho}} = 45.1\ \text{ft/s}, \qquad q_{\text{slip}} = \tfrac{1}{2}\rho (2 v_i)^{2} = 9.68\ \text{lb/ft}^{2}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Download per Unit Wing Area.*
+The download per square foot of wing is the slipstream dynamic pressure times a broadside drag coefficient the article takes as 1.2 to 1.5.
+
+$$
+\frac{D}{S_w} = q_{\text{slip}} C_D = 11.6\ \text{to}\ 14.5\ \text{lb per square foot of wing}
+\tag{22}
+$$
+
+**Equation 23, Hover Power Penalty of Download.**
+The rotor must lift the weight plus the download, and by momentum theory the hover power rises as the three-halves power of the thrust ratio.
+
+$$
+T_{\text{req}} = W + D_{\text{dn}}, \qquad \frac{P}{P_0} = \left(\frac{T_{\text{req}}}{W}\right)^{3/2}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Stranded Engine Power.*
+Two engines of 1,890 shaft horsepower against a gearbox rated at 3,400 strand 380 shaft horsepower, 10.1 percent of take-off power, on the assumption that the YSH-60F carried the improved durability gearbox.
+[Sikorsky SH-60 Seahawk][ref_sh60_wikipedia]
+[Blunt, Synchronous averaging of epicyclic sun gear vibration, US Patent 6,898,975][ref_patent_us6898975]
+
+$$
+2 \times 1890 - 3400 = 380\ \text{shp}, \qquad \frac{380}{3780} = 10.1\ \text{percent}
+\tag{24}
+$$
+
+**Equation 25, Helicopter Power Components and Parasite Power.**
+Helicopter power is the sum of induced, profile and parasite terms, and the parasite power rises as the cube of speed times the equivalent flat plate area.
+[Prouty, Helicopter performance, stability and control][book_prouty]
+
+$$
+P = P_i + P_o + P_p, \qquad P_p = \tfrac{1}{2}\rho V^{3} f_e
+\tag{25}
+$$
+
+*Equation 26, Bespoke Parasite Power Ratio Between Baseline and Demonstrated Speed.*
+At fixed flat plate area the parasite power rises by the cube of the speed ratio, evaluated between an assumed baseline cruise of 130 knots and the 190 knots this article reads as the demonstrated maximum.
+
+$$
+\frac{P_p(190)}{P_p(130)} = \left(\frac{190}{130}\right)^{3} = 3.12
+\tag{26}
+$$
+
+**Equation 27, Momentum and Energy Flux of an Actuator Disc.**
+The thrust of an actuator disc is the mass flow times the far wake velocity and its power is the kinetic energy flux, which equals the thrust times the velocity at the disc.
+
+$$
+T = \dot{m}\, w, \qquad P = \tfrac{1}{2}\dot{m}\, w^{2} = T v_i
+\tag{27}
+$$
+
+**Equation 28, Slipstream Contraction of an Open Rotor.**
+Since the far wake moves at twice the velocity at the disc, continuity contracts the slipstream to half the disc area.
+
+$$
+A_\infty v_\infty = A_d v_d \implies \frac{A_\infty}{A_d} = \frac{v_d}{2 v_d} = \frac{1}{2}
+\tag{28}
+$$
+
+**Equation 29, Mass Flow and Exit Velocity of a Ducted Propulsor.**
+With the exit area held by the duct, the mass flow is set at the disc and the exit velocity is the disc velocity divided by the ratio of exit to disc area.
+[Theodorsen 1960b][research_ducted_prop_theory]
+[Meyerhoff and Zvengrowski 1962][research_ducted_propeller_study]
+
+$$
+\dot{m} = \rho A_d v_d, \qquad v_e = \frac{v_d}{\sigma_d}
+\tag{29}
+$$
+
+**Equation 30, Thrust and Power of a Ducted Propulsor.**
+The ducted actuator disc thrust is the mass flow times the exit velocity and its power is the kinetic energy flux of the exit stream.
+[Theodorsen 1960b][research_ducted_prop_theory]
+[Meyerhoff and Zvengrowski 1962][research_ducted_propeller_study]
+
+$$
+T = \dot{m} v_e = \frac{\rho A_d v_d^{2}}{\sigma_d}, \qquad P = \tfrac{1}{2}\dot{m} v_e^{2} = \frac{\rho A_d v_d^{3}}{2\sigma_d^{2}}
+\tag{30}
+$$
+
+**Equation 31, Static Thrust Augmentation of a Duct.**
+Eliminating the disc velocity at constant power and disc area gives a thrust ratio over the open rotor of the cube root of twice the exit area ratio.
+[Theodorsen 1960b][research_ducted_prop_theory]
+[Meyerhoff and Zvengrowski 1962][research_ducted_propeller_study]
+
+$$
+\frac{T}{T_{\text{open}}} = (2\sigma_d)^{1/3}
+\tag{31}
+$$
+
+**Equation 32, Augmentation with the Exit at the Disc Area.**
+A duct that holds the exit area equal to the disc area gives 26 percent more static thrust than an open rotor for the same power.
+
+$$
+\frac{T}{T_{\text{open}}} = 2^{1/3} = 1.26
+\tag{32}
+$$
+
+**Equation 33, Encyclopaedia Speeds Converted to Knots.**
+The published maximum, cruise and never-exceed speeds of 350, 250 and 410 kilometres per hour convert to 189.0, 135.0 and 221.4 knots.
+[Piasecki X-49 SpeedHawk][ref_x49_wikipedia]
+
+$$
+\frac{350}{1.852} = 189.0\ \text{kt}, \qquad \frac{250}{1.852} = 135.0\ \text{kt}, \qquad \frac{410}{1.852} = 221.4\ \text{kt}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Check of the Adopted Speeds.*
+The 190 and 220 knot values the article adopts convert to 351.9 and 407.4 kilometres per hour, which supports reading the published figures as rounded conversions.
+
+$$
+190 \times 1.852 = 351.9\ \text{km/h}, \qquad 220 \times 1.852 = 407.4\ \text{km/h}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Shortfall Against the Speed Objective.*
+The shortfall is the 200 knot objective less the 190 knots this article takes as the demonstrated maximum.
+[X-49 SpeedHawk vectored thrust ducted propeller, GlobalSecurity][ref_x49_globalsecurity]
+
+$$
+200 - 190 = 10\ \text{kt}, \qquad \frac{10}{200} = 5\ \text{percent of the objective}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Speed Comparison with the 16H-1A.*
+The 190 knots this article takes as the X-49A maximum converts to 218.65 statute miles per hour, 6.35 below the 225 miles per hour of the 16H-1A.
+[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]
+[Robb, Hybrid helicopters, Vertiflite][ref_robb_vertiflite]
+
+$$
+190 \times \frac{6076.12}{5280} = 218.65\ \text{mph}, \qquad 225 - 218.65 = 6.35\ \text{mph}, \qquad 225 \times \frac{5280}{6076.12} = 195.5\ \text{kt}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Ratio of Power Loadings.*
+The ratio sets the 16H-1A at 10,800 pounds and 1,250 horsepower against the X-49A at the SH-60B maximum weight and an assumed 3,400 shaft horsepower gearbox rating.
+[Piasecki 16H Pathfinder][ref_pathfinder_wikipedia]
+[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]
+
+$$
+\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}250}{21{,}884/3{,}400} = \frac{8.64}{6.44} = 1.342
+\tag{37}
+$$
+
+**Equation 38, Advancing Tip Mach Number.**
+The advancing tip Mach number is the sum of the tip speed and flight speed divided by the speed of sound.
+
+$$
+M_{\text{adv}} = \frac{\Omega R + V}{a}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Ratio of Power Loadings at the Lighter Gross Weight.*
+Taking the 16H-1A gross weight as the 8,000 pounds of the Vertipedia database, with the same assumed X-49A gearbox rating, brings the ratio to 0.994.
+[Piasecki 16H-1A Pathfinder II, Vertipedia][ref_vertipedia_16h1a]
+
+$$
+\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{8{,}000/1{,}250}{21{,}884/3{,}400} = \frac{6.40}{6.44} = 0.994
+\tag{39}
+$$
+
+*Equation 40, Bespoke Ratio of Power Loadings at the Lower Engine Rating.*
+Taking the 16H-1A engine as 1,050 shaft horsepower from the manufacturer's narrative, with the same assumed X-49A gearbox rating, raises the ratio to 1.598.
+[16H-1A Pathfinder II, Piasecki Aircraft Corporation][ref_piasecki_16h1a]
+
+$$
+\frac{(W/P)_{16H}}{(W/P)_{X49}} = \frac{10{,}800/1{,}050}{21{,}884/3{,}400} = \frac{10.29}{6.44} = 1.598
+\tag{40}
+$$
+
+*Equation 41, Bespoke Manufacturer's Speed Against the Adopted Maximum.*
+The 203 miles per hour the company gave converts to 176.4 knots, 13.6 knots below the 190 knots this article adopts.
+[Chiles, Hot-rod helicopters, Air & Space][ref_airspace_hot_rod]
+
+$$
+203 \times \frac{5280}{6076.12} = 176.4\ \text{kt}, \qquad 190 - 176.4 = 13.6\ \text{kt}
+\tag{41}
+$$
+
+### Notation
+
+- $\Omega R$, the rotor tip speed
+- $V$, the flight speed
+- $\mu$, the advance ratio
+- $R$, the rotor radius
+- $q_{\text{ret}}$, the dynamic pressure at the retreating tip, with $q_{\text{hover}}$ its value in the hover
+- $c_{\ell,\text{req}}$, the section lift coefficient required at the retreating tip, with $c_{\ell,\text{hover}}$ its value in the hover
+- $A_{\text{reverse}}$, the area of the reverse flow region
+- $A$, the rotor disc area
+- $M_{\text{tip}}^{\text{hover}}$, the hover tip Mach number
+- $\sigma$, the rotor solidity
+- $N$, the number of blades, and in the slowed-rotor relation the rotor speed in revolutions per minute
+- $c$, the blade chord
+- $C_T$, the rotor thrust coefficient
+- $W$, the weight
+- $\rho$, the air density, taken at sea level
+- $f$, the fraction of the weight carried by the wing
+- $S_w$, the wing area
+- $C_L$, the lift coefficient
+- $q$, the dynamic pressure
+- $v_i$, the induced velocity at the rotor disc
+- $q_{\text{slip}}$, the dynamic pressure of the fully developed slipstream
+- $C_D$, the drag coefficient of the wing broadside to the slipstream
+- $D_{\text{dn}}$, the download on the wing
+- $T_{\text{req}}$, the rotor thrust required in the hover
+- $P_0$, the hover power without download
+- $P_p$, the parasite power, with $P_i$ and $P_o$ the induced and profile power
+- $f_e$, the equivalent flat plate area
+- $\dot{m}$, the mass flow through the disc
+- $w$, the far wake velocity of an open rotor
+- $A_d$, the disc area of the propulsor
+- $v_d$, the velocity at the disc
+- $v_e$, the exit velocity of the ducted flow
+- $\sigma_d$, the ratio of duct exit area to disc area
+- $T_{\text{open}}$, the thrust of an open rotor at the same power and disc area
+- $M_{\text{adv}}$, the advancing tip Mach number
+- $a$, the speed of sound
+- $W_{\text{useful}}$, the useful load
 
 ## References
 

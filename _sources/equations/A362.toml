@@ -1,0 +1,707 @@
+# Equation classification for A362. Read by `python3 _lib/equations.py`.
+
+caution = "The aerodynamic and engine relations are evaluated in the International System, with thirty thousand feet taken as a geopotential altitude of 9,144 metres and the aircraft weight quoted in pounds, the wing area of 16 square metres is a reference value the article takes because none is published, and a few letters need care, so $\\delta$ is a compressor-face pressure ratio while $\\delta F$ is a thrust decrement, $\\mu$ is the dynamic viscosity while the subscript in $C_\\mu$ marks the momentum coefficient, $B$ is the bypass ratio while the bold $\\mathbf{B}$ is the control effectiveness matrix, and $\\mathcal{A}$ is the amplification while $A^{*}$ and $A$ are areas."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Spread of the Published Weights"
+gloss = "The contractor's gross weight of 7,200 pounds exceeds the 7,000 pounds given elsewhere by 2.86 percent of the lower figure."
+cite = ["ref_aurora_x65", "ref_ds_x65"]
+digest = "70f95a2bf21a74cb"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Unexercised Share of the Georgia Tech Ceiling"
+gloss = "One less the ratio of obligation to ceiling shows that 45.1 percent of the Georgia Tech Research Corporation ceiling was never exercised."
+cite = ["ref_usaspending"]
+digest = "32845a8e21e45ed3"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Aurora's Share of the Early Contracts and the Total Obligation"
+gloss = "Aurora took 48.4 percent of the obligations across the three early contracts and left 16.1 percent of its ceiling unexercised, and the four contracts total 143,556,412 dollars."
+cite = ["ref_usaspending"]
+digest = "d5dccea9984b01fc"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Phase 3 Obligation Against the Announced Value"
+gloss = "The obligated total on the combined Phase 2 and Phase 3 contract is 2.25 times the announced Phase 2 value, and the first obligation was 6.89 percent of it."
+cite = ["ref_usaspending"]
+digest = "afb058e19fe33562"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Jet Momentum Flux and Momentum Coefficient"
+gloss = "The momentum coefficient is the jet momentum flux divided by the free-stream dynamic pressure times a reference area."
+cite = ["research_review_afc_2024"]
+digest = "4d4ff92567311701"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Aerodynamic Force Increment"
+gloss = "The force increment is the lift-coefficient increment times the dynamic pressure and the reference area."
+cite = []
+digest = "53e48f5899c7e007"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Amplification as Force per Unit Jet Momentum"
+gloss = "The amplification, the force produced per unit of jet momentum supplied, is the lift-coefficient increment over the momentum coefficient, with the flight condition cancelling."
+cite = []
+digest = "7accde529f19dbd1"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Secant Amplification Against the Actuation Efficiency"
+gloss = "The amplification is the secant of the lift response curve while the actuation efficiency reported in the literature is its tangent."
+cite = ["research_review_afc_2024"]
+digest = "b89555e2b126b4c7"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Three Regimes of the Lift Response to Blowing"
+gloss = "The actuation efficiency is near zero below a threshold momentum coefficient, large in the separation-control band and tends to one once the flow is fully attached."
+cite = ["research_review_afc_2024"]
+digest = "eacf17f92c24b737"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Bleed Mass Flow at Fixed Corrected Spool Speed"
+gloss = "Holding the engine at a fixed corrected spool speed, as the article assumes, makes the bled mass flow the bleed fraction times the reference flow times the corrected-flow factor of the compressor face."
+cite = []
+digest = "c6c244fdb1dcc3b5"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Mass Flow of a Compressor at Fixed Shaft Power"
+gloss = "A compressor driven at a fixed shaft power passes a mass flow equal to that power over the specific heat times the total-temperature rise."
+cite = []
+digest = "259d1f703f130c53"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Troposphere Temperature and Pressure"
+gloss = "The temperature falls linearly with geopotential altitude and the pressure follows by integrating the hydrostatic relation against the ideal gas law."
+cite = []
+digest = "641a145f9bc4129d"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Stratosphere Pressure, Density and Speed of Sound"
+gloss = "Above the tropopause the pressure falls exponentially at constant temperature, the density follows from the ideal gas law and the speed of sound from the temperature."
+cite = []
+digest = "dcdec847958dd34e"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Dynamic Pressure in Pressure and Mach Number"
+gloss = "The dynamic pressure is exactly half the ratio of specific heats times the static pressure times the square of the Mach number."
+cite = []
+digest = "68f9ebd01fe68395"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Total Conditions at the Compressor Face"
+gloss = "With full inlet recovery the compressor-face total pressure and temperature follow from the flight Mach number, and are normalised on sea-level standard values."
+cite = []
+digest = "78f821257a95fc80"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Corrected Mass Flow Invariant"
+gloss = "At a fixed corrected spool speed a turbomachine passes a fixed corrected mass flow."
+cite = []
+digest = "004dcfda3973af95"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Compressor Temperature Ratio and Specific Work"
+gloss = "The total-temperature ratio of a compressor follows from its pressure ratio and isentropic efficiency, and the specific work from that ratio."
+cite = []
+digest = "3eb1f3df98af938a"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Choking Condition and Choked Jet Velocity"
+gloss = "A nozzle above the critical pressure ratio passes sonic flow at its throat, with a jet velocity set by the plenum total temperature alone."
+cite = []
+digest = "15c5af6bdc147fbc"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Plenum Total Temperature of Bled Air"
+gloss = "Taking the plenum at the compressor discharge temperature with no loss on the way, as the article does, gives the plenum total temperature from the flight Mach number and the compressor pressure ratio and efficiency."
+cite = []
+digest = "e757a860824e92a4"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Nozzle Pressure Ratio of the Bleed System"
+gloss = "Taking the plenum at the compressor discharge pressure with no duct loss gives a nozzle pressure ratio that depends on the compressor pressure ratio and the Mach number alone."
+cite = []
+digest = "e94e776b2f95895a"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Momentum Coefficient of an Engine-Bled Effector System"
+gloss = "Assembling the article's bleed flow at fixed corrected speed, the choked jet velocity and the dynamic pressure gives a momentum coefficient from which altitude and ambient temperature cancel."
+cite = []
+digest = "b28e4eea394b4bba"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Mach-Number Factor of the Bleed-Fed Momentum Coefficient"
+gloss = "The Mach dependence surviving in the article's bleed-fed momentum coefficient is the inlet total-pressure factor over the square of the Mach number."
+cite = []
+digest = "de6e5e3d590db6fe"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Turning Point of the Mach Factor"
+gloss = "Differentiating the logarithm of the article's Mach factor shows that it has its minimum at Mach $\\sqrt{2}$ whatever the ratio of specific heats."
+cite = []
+digest = "28a8be8ad9595dfa"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Minimum Value of the Mach Factor"
+gloss = "At Mach $\\sqrt{2}$ the inlet factor equals the ratio of specific heats, which gives the minimum of the article's Mach factor in closed form."
+cite = []
+digest = "f03851b64de264cc"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Authority Ratio of Flow Control to a Conventional Surface"
+gloss = "The article defines the authority ratio as the force of a flow-control effector over that of a conventional surface at full deflection, from which the dynamic pressure cancels."
+cite = []
+digest = "27f7f689a7f8c68d"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Crossover Mach Number"
+gloss = "The article's crossover is the Mach number at which its authority ratio reaches one, found from the Mach factor relative to a reference condition."
+cite = []
+digest = "22f875ab167e8aee"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Authority Ratio at an Assumed Amplification of Thirty"
+gloss = "Taking an amplification of 30 against a conventional surface worth 0.05 in lift coefficient, both values the article assumes, gives 56.7 percent of the hinge's authority at Mach 0.7 and a crossover at Mach 0.485."
+cite = []
+digest = "776b217b15e034c8"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Amplification Required To Match a Conventional Surface"
+gloss = "Inverting the authority ratio gives the amplification needed for the article's momentum coefficient to match a conventional surface."
+cite = []
+digest = "eec4c2b50f4e170a"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Local Momentum Coefficient and Concentration Factor"
+gloss = "The article references the momentum coefficient to the area one effector influences and defines the concentration factor as the wing area over that area."
+cite = []
+digest = "50d6543162fc80d7"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Influenced Area for a Target Local Coefficient"
+gloss = "Inverting the article's local momentum coefficient gives the area over which a given jet momentum lands a target value."
+cite = []
+digest = "cb8b641402354ff6"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Bleed Fraction Required for a Target Momentum Coefficient"
+gloss = "Because the article's momentum coefficient is proportional to the bleed fraction, the fraction needed for a target coefficient is that target over the coefficient a bleed of unity would give, which cannot exceed one."
+cite = []
+digest = "d0643f5740dd70ac"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Bleed Fractions for the Measured Thresholds"
+gloss = "Scaling from the reference case at an assumed bleed fraction of 8 percent, the lowest measured threshold needs 6.77 percent of core flow and the super-circulation threshold of three percent needs 254 percent."
+cite = []
+digest = "3c15115ff84b2103"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Control Moment and Moment Coefficient"
+gloss = "A force increment at a moment arm produces a moment, and dividing by dynamic pressure, wing area and span gives its coefficient."
+cite = []
+digest = "b4cf9a1341aba87c"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Rolling Moment at an Amplification of Thirty"
+gloss = "The article's air budget at an assumed amplification of 30, placed at a quarter of the span on the assumed reference area of 16 square metres, gives a rolling-moment coefficient of 0.00709."
+cite = []
+digest = "0f87e2344ca088b8"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Jet Velocity Ratio"
+gloss = "The jet velocity ratio is the jet velocity over the free-stream velocity, which must exceed one for blowing to energise the boundary layer."
+cite = ["research_review_afc_2024"]
+digest = "8be1ae666e428289"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Mass Flow Through a Choked Orifice"
+gloss = "A choked orifice passes a mass flow proportional to its throat area and plenum total pressure and inversely proportional to the square root of the plenum total temperature."
+cite = []
+digest = "feee77c57d3db810"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Throat Area for a Given Choked Mass Flow"
+gloss = "Inverting the choked flow relation gives a throat area inversely proportional to the plenum pressure at a fixed mass flow and temperature."
+cite = []
+digest = "8d81a6d55d45b83e"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Throat Area Ratios Across Plenum Schedules"
+gloss = "Against the nozzle pressure ratio of 19.419 that the article's assumed compressor gives, regulating the plenum to ratios of 1.5 and 4 enlarges the throat by 12.95 and 4.85 times."
+cite = []
+digest = "a72f21b4cac087b2"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Compressible Mass Flux Through the Engine Face"
+gloss = "The mass flow through a circular face is the face area times the density, Mach number and speed of sound reached by expanding sea-level total conditions to the face Mach number."
+cite = []
+digest = "82c2a7c748ee036b"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Static Thrust as Exit Momentum Flux"
+gloss = "At static conditions there is no ram drag, so the thrust is the mass flow times the exit velocity and inverts exactly for the mass flow."
+cite = []
+digest = "327fb7270294e4a0"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Core Flow and Bleed Share From the Bypass Ratio"
+gloss = "The core flow is the total flow over one plus the bypass ratio, so a bleed fraction of core flow is that fraction over one plus the bypass ratio of total flow."
+cite = []
+digest = "cb1f77a47d62a162"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Lower Bound on the Thrust Cost of Bleed"
+gloss = "At an assumed bleed fraction of 8 percent and an assumed bypass ratio of 3.3, the momentum lost with the bled air bounds the thrust decrement below at 1.86 percent."
+cite = []
+digest = "68c3ed9790a89494"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Reduced Excitation Frequency"
+gloss = "The reduced frequency is the excitation frequency times the chord over the free-stream velocity, which inverts for the frequency."
+cite = ["research_review_afc_2024"]
+digest = "fda7ceb95d34331c"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Mean Chord, Aspect Ratio, Wing Loading and Lift Coefficient"
+gloss = "The mean chord and aspect ratio follow from the span and wing area, and the level flight lift coefficient is the wing loading over the dynamic pressure."
+cite = []
+digest = "0fd433572d32ec4c"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Configuration Count and Flights Required"
+gloss = "The article counts each conventional surface as locked or free on each wing set, giving a power of two, and the flights needed as the second-order term count over the usable test points per flight, rounded up."
+cite = []
+digest = "82891759f6d75ce0"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Derivative Count of a Linear Effector Model"
+gloss = "In the linear model the article considers, effectors superpose and contribute one control derivative per effector per axis."
+cite = []
+digest = "15e153b8b0756e39"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Term Count of a Second-Order Effector Model"
+gloss = "Adding one interaction term for each pair of effectors gives the article's second-order model 315 terms for fourteen effectors on three axes."
+cite = []
+digest = "fb541ff73a0542d9"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Control Allocation Problem"
+gloss = "The demanded moment is the control effectiveness matrix times a vector of effector demands drawn from an admissible set."
+cite = []
+digest = "f99dbd0996c0ef9c"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Full Row Rank Condition"
+gloss = "All three axes can be commanded only if the control effectiveness matrix has full row rank."
+cite = []
+digest = "f50519bc083c7057"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Box and Shared-Plenum Admissible Sets"
+gloss = "The article models conventional surfaces by individual limits, a box, and the flow-control effectors by one shared air supply, a simplex."
+cite = []
+digest = "465e48787e5781c3"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Areas of a Planar Zonotope and Convex Hull"
+gloss = "The area of a planar zonotope is the sum of the absolute determinants of all pairs of generators, and that of a convex polygon fanned from the origin is half the sum over adjacent pairs."
+cite = []
+digest = "a1df583a78e9cc23"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Limiting Advantage of a Shared Plenum"
+gloss = "For the article's tractable case of unit columns spread evenly over a half plane, the ratio of shared-supply to equal-share moment area tends to $\\pi^2 / 2$."
+cite = []
+digest = "55d207a0d28ade10"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Outcome Against Request"
+gloss = "The outcome of each fiscal year is expressed as its difference from the request as a fraction of the request."
+cite = ["ref_darpa_rdte_2020", "ref_darpa_rdte_2021"]
+digest = "3da21e487cb651ec"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "First-Year Excess and Mean Later Shortfall"
+gloss = "Fiscal year 2020 came in 81.33 percent above its request, and the five later years fell short by a mean of 16.29 percent."
+cite = ["ref_darpa_rdte_2020", "ref_darpa_rdte_2025"]
+digest = "ea68e7482872fedc"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Totals of Requests and Outcomes"
+gloss = "The column sums give a shortfall of 10.73 percent over fiscal years 2020 to 2025, appropriations 1.0555 times the obligations through 2024, and a 2026 request of 10.45 percent of the 2024 outcome."
+cite = ["ref_darpa_rdte_2024", "ref_darpa_rdte_2026"]
+digest = "cb3fdd7c630672f0"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Reynolds Number and Sutherland's Law"
+gloss = "The chord Reynolds number is the ratio of inertial to viscous forces, with the viscosity of air from Sutherland's law."
+cite = []
+digest = "4476cd8a7eb24119"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Computed Coefficient Against the Demonstrated Range"
+gloss = "The wing-referenced coefficient of 0.0945 percent from the article's assumed bleed budget is compared with the range of 0.03 to 0.32 percent the report used."
+cite = ["research_seifert_pack_2000"]
+digest = "f07878454632e308"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Momentum Coefficient at Mach 0.25"
+gloss = "Scaling the article's reference coefficient by its Mach factor to the report's Mach number gives 0.5579 percent, 1.74 times the highest quoted value."
+cite = ["research_seifert_pack_2000"]
+digest = "47084612009af144"
+
+[[symbol]]
+tex = '\dot{m}_j'
+meaning = "the jet mass flow delivered to the effectors"
+
+[[symbol]]
+tex = 'V_j'
+meaning = "the effector jet velocity at the orifice"
+
+[[symbol]]
+tex = 'J'
+meaning = "the jet momentum flux supplied by the effectors"
+
+[[symbol]]
+tex = 'q'
+meaning = "the free-stream dynamic pressure"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'C_\mu'
+meaning = "the momentum coefficient referenced to the wing"
+
+[[symbol]]
+tex = '\Delta C_L'
+meaning = "the lift-coefficient increment produced by an effector"
+
+[[symbol]]
+tex = '\Delta L'
+meaning = "the aerodynamic force increment produced by an effector"
+
+[[symbol]]
+tex = '\mathcal{A}'
+meaning = "the amplification, aerodynamic force per unit jet momentum"
+
+[[symbol]]
+tex = '\mathcal{A}_{\mathrm{loc}}'
+meaning = "the actuation efficiency, the slope of the lift increment against the momentum coefficient"
+
+[[symbol]]
+tex = 'C_{\mu,0}'
+meaning = "the threshold momentum coefficient below which nothing happens, with $C_{\\mu,1}$ the one above which the flow is fully attached"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the bleed fraction of engine core mass flow"
+
+[[symbol]]
+tex = '\dot{m}_{\mathrm{ref}}'
+meaning = "the engine sea-level static mass flow of the bleed source stream"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the ratio of compressor-face total pressure to sea-level standard pressure"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the ratio of compressor-face total temperature to sea-level standard temperature"
+
+[[symbol]]
+tex = 'P'
+meaning = "the shaft power delivered to the air by a dedicated compressor"
+
+[[symbol]]
+tex = 'c_p'
+meaning = "the specific heat at constant pressure"
+
+[[symbol]]
+tex = 'T_{\mathrm{sl}}'
+meaning = "the sea-level standard temperature, with $p_{\\mathrm{sl}}$ the sea-level standard pressure"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the troposphere lapse rate"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 'R'
+meaning = "the specific gas constant for dry air"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for dry air"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the inlet total-condition factor"
+
+[[symbol]]
+tex = 'p_t'
+meaning = "the plenum total pressure"
+
+[[symbol]]
+tex = 'T_t'
+meaning = "the plenum total temperature"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the compressor total-temperature ratio"
+
+[[symbol]]
+tex = '\pi_c'
+meaning = "the compressor total-pressure ratio"
+
+[[symbol]]
+tex = '\eta_c'
+meaning = "the compressor isentropic efficiency"
+
+[[symbol]]
+tex = 'w_c'
+meaning = "the compressor specific work"
+
+[[symbol]]
+tex = '\mathrm{NPR}'
+meaning = "the nozzle pressure ratio, plenum total to ambient static"
+
+[[symbol]]
+tex = 'G'
+meaning = "the Mach-number factor of the bleed-fed momentum coefficient"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the authority ratio, flow-control force over conventional-surface force"
+
+[[symbol]]
+tex = '\Delta C_{L,\mathrm{conv}}'
+meaning = "the lift-coefficient increment produced by a conventional surface at full deflection"
+
+[[symbol]]
+tex = 'M_{\times}'
+meaning = "the crossover Mach number at which the authority ratio reaches unity"
+
+[[symbol]]
+tex = 'C_{\mu,\ell}'
+meaning = "the momentum coefficient referenced to the area one effector influences"
+
+[[symbol]]
+tex = 'S_\ell'
+meaning = "the area of surface one effector influences"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the concentration factor, wing area over influenced area"
+
+[[symbol]]
+tex = '\mathcal{M}'
+meaning = "the control moment"
+
+[[symbol]]
+tex = 'C_{\mathcal{M}}'
+meaning = "the moment coefficient referenced to the span"
+
+[[symbol]]
+tex = '\mathrm{VR}'
+meaning = "the jet velocity ratio"
+
+[[symbol]]
+tex = 'A^{*}'
+meaning = "the total choked throat area of the effectors"
+
+[[symbol]]
+tex = 'D_f'
+meaning = "the engine face diameter"
+
+[[symbol]]
+tex = 'M_f'
+meaning = "the axial Mach number at the engine face"
+
+[[symbol]]
+tex = 'F_{\mathrm{sls}}'
+meaning = "the sea-level static thrust"
+
+[[symbol]]
+tex = 'V_e'
+meaning = "the engine exit velocity at static conditions"
+
+[[symbol]]
+tex = 'B'
+meaning = "the engine bypass ratio"
+
+[[symbol]]
+tex = '\delta F'
+meaning = "the thrust decrement caused by bleed"
+
+[[symbol]]
+tex = 'F^{+}'
+meaning = "the reduced excitation frequency"
+
+[[symbol]]
+tex = 'f_e'
+meaning = "the effector excitation frequency"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the reference chord, taken as area over span"
+
+[[symbol]]
+tex = 'AR'
+meaning = "the aspect ratio"
+
+[[symbol]]
+tex = 'N_c'
+meaning = "the distinct locked-or-free configurations across every wing set"
+
+[[symbol]]
+tex = 'N_f'
+meaning = "the flights needed to over-determine a model"
+
+[[symbol]]
+tex = 'N_2'
+meaning = "the terms in a second-order effector model with pairwise interactions"
+
+[[symbol]]
+tex = '\mathbf{B}'
+meaning = "the control effectiveness matrix, three rows by one column per effector"
+
+[[symbol]]
+tex = '\mathbf{u}'
+meaning = "the vector of effector demands"
+
+[[symbol]]
+tex = '\bar{u}'
+meaning = "the supply limit on effector demand"
+
+[[symbol]]
+tex = '\mathcal{H}'
+meaning = "the reachable moment set under a shared supply, a convex hull"
+
+[[symbol]]
+tex = '\mathrm{Re}'
+meaning = "the Reynolds number on the reference chord"
+
+[[symbol]]
+tex = 'S_\mu'
+meaning = "Sutherland's temperature for air"

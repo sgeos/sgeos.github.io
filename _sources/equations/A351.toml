@@ -1,0 +1,391 @@
+# Equation classification for A351. Read by `python3 _lib/equations.py`.
+
+caution = "Atmospheric relations are in units of the International System, with altitudes in metres, temperatures in kelvin and pressures in pascals, while overpressures and dynamic pressures quoted from flight reports are in pounds per square foot and levels are in decibels referred to 20 micropascals, and several letters are kept apart deliberately, so $T$ is the temperature and $T_{N}$ the N-wave duration, $L$ is the lapse rate and $\\mathcal{L}$ the coalescence distance, $R$ is the gas constant and $\\mathcal{R}$ the ground reflection coefficient."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Mach Angle"
+gloss = "The disturbances of a supersonic body lie on a cone whose half-angle has a sine equal to the reciprocal of the Mach number."
+cite = ["ref_mach_number", "book_liepmann_roshko"]
+digest = "230a29e5f829f3e8"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Speed of Sound in a Perfect Gas"
+gloss = "The speed of sound in a perfect gas is the square root of the ratio of specific heats times the gas constant times the absolute temperature."
+cite = ["book_anderson_compressible"]
+digest = "8d5e475fb50a704d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Straight Ray Path From Cruise Altitude to the Ground"
+gloss = "A ray leaving normal to the Mach cone makes the Mach angle with the vertical, so its straight path to the ground is the altitude divided by the cosine of that angle."
+cite = ["research_hayes_cr1299"]
+digest = "f239a6d52ebf709b"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Propagation Speed of a Weak Shock"
+gloss = "A weak shock outruns the speed of sound by a fraction proportional to its strength, with coefficient the ratio of one more than the ratio of specific heats to four times that ratio."
+cite = ["book_whitham", "book_hamilton_blackstock"]
+digest = "dff1b89e4e8e872d"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Linear Pressure Profile of an N-Wave"
+gloss = "The N-wave is a linear fall in overpressure from its peak to its negative peak between two jumps over the duration $T_{N}$."
+cite = ["research_darden_1976", "research_carlson_sst_design"]
+digest = "501a00ea8b17192e"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Positive-Phase Impulse of an N-Wave"
+gloss = "Integrating the overpressure over the positive half of the N-wave gives an impulse of one quarter of the peak overpressure times the duration $T_{N}$."
+cite = ["research_boom_shapes_risetimes"]
+digest = "24522eef3380ea5d"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Whitham F-Function"
+gloss = "Whitham's F-function gives the far-field disturbance of a slender supersonic body as an Abel-type integral of the second derivative of its equivalent area distribution."
+cite = ["research_whitham_1952", "book_ashley_landahl"]
+digest = "5f737ea6ee0cebd7"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Equivalent Area Including Lift"
+gloss = "The equivalent area adds to the physical cross-section a term proportional to the lift carried ahead of each station, so a lifting surface displaces the air whether or not it is thick."
+cite = ["research_darden_1976"]
+digest = "d75edcdb9fdb36d2"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Lift Contribution to the Equivalent Area at the Tail"
+gloss = "By the tail all of the lift has entered the equivalent area, contributing $\\beta W / 2q$ whatever the shaping."
+cite = []
+digest = "b17f37ad664dcb69"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Square-Root Dependence of Overpressure on Weight"
+gloss = "A fully aged N-wave amplitude goes as the square root of the F-function amplitude, which is linear in the lift, so overpressure scales as the square root of weight."
+cite = ["research_mclean_nonasymptotic", "research_carlson_sst_design"]
+digest = "8bb3f5760da69fc2"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Near-Field Overpressure From the F-Function"
+gloss = "Before nonlinear steepening, the overpressure ratio is proportional to the F-function and falls as the inverse square root of distance."
+cite = ["research_whitham_1956"]
+digest = "2945ec946416c25c"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Far-Field Decay of N-Wave Amplitude and Duration"
+gloss = "Once aged into an N-wave, the overpressure falls as the minus three-quarters power of distance and the duration grows as its one-quarter power."
+cite = ["research_whitham_1956", "research_hayes_cr1299"]
+digest = "a14b5371aa369f76"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Slender-Body Wave Drag Functional"
+gloss = "In linearised supersonic flow the wave drag of a slender body is a double integral of the second derivative of the same equivalent area distribution with a logarithmic kernel."
+cite = ["book_ashley_landahl"]
+digest = "f29421caca12d178"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Troposphere of the Standard Atmosphere"
+gloss = "Below the tropopause the temperature falls linearly with altitude and hydrostatic equilibrium in a perfect gas makes the pressure a power of the temperature ratio."
+cite = ["ref_us_standard_atmosphere"]
+digest = "a90a23c5e8554dbf"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Isothermal Layer of the Standard Atmosphere"
+gloss = "Above the tropopause the temperature is constant and the pressure falls exponentially with altitude."
+cite = ["research_us_standard_atmosphere_1976"]
+digest = "0f05468245844fbf"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Dynamic Pressure in Terms of Static Pressure and Mach Number"
+gloss = "The dynamic pressure of a perfect gas is half the ratio of specific heats times the static pressure times the square of the Mach number."
+cite = ["book_liepmann_roshko"]
+digest = "607146bb00e50121"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Excess Propagation Speed of a Weak Shock"
+gloss = "The speed by which a weak shock exceeds the speed of sound is the speed of sound times the strength coefficient times the pressure ratio."
+cite = ["research_whitham_1956"]
+digest = "7b4a47f28d7adcc6"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Coalescence Distance of Two Shocks"
+gloss = "Two shocks a distance $s$ apart merge after a travel distance equal to $s$ divided by the difference in their excess speeds, in which the speed of sound cancels."
+cite = ["research_whitham_1956"]
+digest = "c07343975c9afdcd"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Aging Length of a Weak Wave"
+gloss = "The aging length of nonlinear acoustics is the distance over which a wave of length $s$ and relative strength $\\Delta p / p$ distorts into its asymptotic form."
+cite = ["book_whitham", "book_hamilton_blackstock"]
+digest = "1a96099b87ba0fa5"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Coalescence Distance With Cylindrical Spreading"
+gloss = "The article lets the strength difference between the two shocks decay as the inverse square root of distance from a reference distance it takes as one aeroplane length, and integrates the separation to zero."
+cite = ["research_boom_methodology_status"]
+digest = "dc011c14e38c0c96"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Ray Invariant in a Stratified Atmosphere"
+gloss = "In a horizontally stratified medium the local speed of sound divided by the cosine of the ray angle below the horizontal is conserved along a ray as the trace velocity."
+cite = ["book_pierce"]
+digest = "ea4922fdb00b83f9"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Hyperbolic Tangent Shock Profile"
+gloss = "A steady balance between nonlinear steepening and diffusion gives a shock front with a hyperbolic tangent profile of characteristic time $\\tau$."
+cite = ["book_blackstock"]
+digest = "09619686b77ea8bb"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Inverse Dependence of Shock Thickness on Amplitude"
+gloss = "The rise time of the steady shock varies inversely with its amplitude, so a weaker boom also rises more slowly."
+cite = ["book_blackstock"]
+digest = "0cff5cc25b38ad4d"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Sound Pressure Level"
+gloss = "An overpressure becomes a level as twenty times the base-ten logarithm of its ratio to the reference pressure of 20 micropascals."
+cite = ["research_loudness_procedure"]
+digest = "b880ab8e97af8e36"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Concorde Overpressure as a Fraction of Ambient Pressure"
+gloss = "The measured Concorde overpressure of 1.94 pounds per square foot at Mach 2 and 52,000 feet is about one part in 1,090 of the ambient pressure."
+cite = ["ref_nasa_sonic_booms"]
+digest = "a1d24be4ac81ade3"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Ground Reflection of the Incident Wave"
+gloss = "A gauge on a hard surface reads the incident wave plus its reflection, about 1.9 times the incident overpressure for a reflection coefficient near 0.9."
+cite = ["research_midfield_signatures"]
+digest = "607c63396cb56b04"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Sound Exposure Level"
+gloss = "The sound exposure level is ten times the base-ten logarithm of the time integral of the squared pressure ratio, referred to one second."
+cite = []
+digest = "6969b1e47fd66f93"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Mach Cutoff Number in Still Air"
+gloss = "A boom fails to reach the ground when the shock's ground intersection is slower than sound at the surface, so the cutoff Mach number is the square root of the ratio of ground to cruise temperature."
+cite = ["ref_us_standard_atmosphere", "book_anderson_compressible"]
+digest = "3d3035385fb8e147"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Turning Altitude in the Standard Troposphere"
+gloss = "Setting the linear tropospheric speed of sound equal to the trace velocity gives a turning altitude linear in the square of the Mach number."
+cite = ["research_coulouvrat_shadow"]
+digest = "60c3d89131b422ad"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Effective Sound Speed and Cutoff Mach Number With Wind"
+gloss = "Wind adds its component along the ray to the thermodynamic speed of sound, so the cutoff Mach number is the ratio of the effective ground sound speed to the sound speed at cruise altitude."
+cite = ["research_hayes_cr1299"]
+digest = "c253f820d5b04a5b"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Lateral Extent of the Boom Carpet"
+gloss = "A ray leaving at azimuth $\\phi$ reaches the ground only while the Mach number times the cosine of the azimuth exceeds the cutoff Mach number, which bounds the half-width of the carpet."
+cite = ["research_faint_lateral_cutoff"]
+digest = "19f219e2e6262bc7"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the Mach angle"
+
+[[symbol]]
+tex = 'M'
+meaning = "the flight Mach number"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'R'
+meaning = "the specific gas constant of air"
+
+[[symbol]]
+tex = 'h'
+meaning = "the cruise altitude"
+
+[[symbol]]
+tex = 'U'
+meaning = "the propagation speed of a weak shock"
+
+[[symbol]]
+tex = '\Delta p'
+meaning = "the overpressure, with $\\Delta p_{\\max}$ its peak"
+
+[[symbol]]
+tex = 'p_\infty'
+meaning = "the ambient pressure at cruise altitude"
+
+[[symbol]]
+tex = 'T_{N}'
+meaning = "the duration of the N-wave"
+
+[[symbol]]
+tex = 'F(y)'
+meaning = "Whitham's F-function"
+
+[[symbol]]
+tex = 'A_e'
+meaning = "the equivalent area distribution, with $A$ the geometric cross-section"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the lift per unit length"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the Prandtl-Glauert factor $\\sqrt{M^{2}-1}$"
+
+[[symbol]]
+tex = 'A_{L}'
+meaning = "the lift contribution to the equivalent area at the tail"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'D'
+meaning = "the wave drag"
+
+[[symbol]]
+tex = 'L'
+meaning = "the temperature lapse rate of the troposphere"
+
+[[symbol]]
+tex = 'T_{11}'
+meaning = "the temperature of the isothermal layer, with $p_{11}$ and $z_{11}$ the pressure and altitude at its base"
+
+[[symbol]]
+tex = '\mathcal{L}'
+meaning = "the coalescence distance of two shocks"
+
+[[symbol]]
+tex = 'r_{\text{age}}'
+meaning = "the aging length"
+
+[[symbol]]
+tex = '\delta_{0}'
+meaning = "the strength difference between two shocks at the reference distance $r_{0}$"
+
+[[symbol]]
+tex = 'r_{c}'
+meaning = "the coalescence distance corrected for spreading"
+
+[[symbol]]
+tex = 'V_{t}'
+meaning = "the horizontal trace velocity of the wavefront"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the ray angle below the horizontal"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the characteristic rise time of the shock"
+
+[[symbol]]
+tex = 'L_{p}'
+meaning = "the sound pressure level"
+
+[[symbol]]
+tex = 'p_{\mathrm{ref}}'
+meaning = "the reference pressure of 20 micropascals"
+
+[[symbol]]
+tex = '\mathcal{R}'
+meaning = "the ground reflection coefficient"
+
+[[symbol]]
+tex = '\mathrm{SEL}'
+meaning = "the sound exposure level"
+
+[[symbol]]
+tex = 'M_{\mathrm{co}}'
+meaning = "the cutoff Mach number"
+
+[[symbol]]
+tex = 'z_{\text{turn}}'
+meaning = "the altitude at which a ray turns horizontal"
+
+[[symbol]]
+tex = 'c_{\mathrm{eff}}'
+meaning = "the effective sound speed including the wind component along the ray"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the azimuth of a ray from the ground track"

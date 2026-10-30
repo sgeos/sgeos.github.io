@@ -76,6 +76,7 @@ before release, the keystone parameter is their ratio.
 
 $$
 \mu \;=\; \frac{m_s}{m_0}
+\tag{1}
 $$
 
 **At a fighter's mass fraction every consequence below is negligible and at this vehicle's it is
@@ -92,6 +93,7 @@ $$
 \mu_v \;=\; \frac{2 \times 161.5\ \text{kg}}{1{,}800\ \text{kg}} \;=\; 0.1794,
 \qquad
 \frac{\mu_v}{\mu_f} \;=\; 29.9 \;\approx\; 30
+\tag{2}
 $$
 
 **The fact sheet's figures are 37,500 and 81,000 pounds, converted here at the exact definition of
@@ -112,6 +114,7 @@ $$
 \qquad
 36{,}741.0\ \text{kg} - 36{,}450\ \text{kg} \;=\; 291\ \text{kg}.
 \end{aligned}
+\tag{3}
 $$
 
 **The missile's mass is variant-dependent and the choice is stated.** The service's fact sheet for
@@ -127,6 +130,7 @@ $$
 335\ \text{lb} \times 0.45359237\ \tfrac{\text{kg}}{\text{lb}} \;=\; 151.95\ \text{kg},
 \qquad
 \frac{151.95\ \text{kg}}{161.5\ \text{kg}} \;=\; 0.941
+\tag{4}
 $$
 
 **That factor describes the two launchers alone, because the missile's mass
@@ -137,6 +141,7 @@ $$
 \frac{\mu_v}{\mu_f}
 \;=\; \frac{n\, m_s / m_{0,v}}{m_s / m_{0,f}}
 \;=\; n\, \frac{m_{0,f}}{m_{0,v}}
+\tag{5}
 $$
 
 **Two missiles and a launcher mass ratio of about fifteen give 30**, the
@@ -154,6 +159,7 @@ after the store has gone.
 
 $$
 \alpha \;=\; \frac{\mu}{1 - \mu}
+\tag{6}
 $$
 
 **At small $\mu$ the amplification is indistinguishable from $\mu$ and at large $\mu$ it
@@ -161,6 +167,7 @@ diverges, and its rate of divergence takes one line.** Differentiating gives
 
 $$
 \frac{d\alpha}{d\mu} \;=\; \frac{1}{(1-\mu)^2}
+\tag{7}
 $$
 
 **so the amplification grows at 1.012 times the mass fraction's rate at the
@@ -180,6 +187,7 @@ $$
 \alpha_v \;=\; \frac{323\ \text{kg}}{1{,}800\ \text{kg} - 323\ \text{kg}} \;=\; 0.2187,
 \qquad
 \alpha\big|_{\mu = 0.5} \;=\; \frac{0.5}{1 - 0.5} \;=\; 1
+\tag{8}
 $$
 
 **Nothing about this aircraft's mass, span, wing area or internal geometry is published**, so $\mu$
@@ -193,6 +201,7 @@ $$
 \mu\big|_{m_0 = 1{,}000\ \text{kg}} \;=\; \frac{323\ \text{kg}}{1{,}000\ \text{kg}} \;=\; 0.323,
 \qquad
 \mu\big|_{m_0 = 3{,}000\ \text{kg}} \;=\; \frac{323\ \text{kg}}{3{,}000\ \text{kg}} \;=\; 0.108
+\tag{9}
 $$
 
 ## The Register Row, and the One Official Word in Its Description
@@ -369,6 +378,7 @@ $$
 24.000 + 36.000 + 36.000 + 45.527 + 64.213 \;=\; 205.740,
 \qquad
 \frac{148.306\ \text{million dollars}}{205.740\ \text{million dollars}} \;=\; 0.721
+\tag{10}
 $$
 
 The remainder is not accounted for by any award in the record that carries this programme. It may
@@ -496,6 +506,7 @@ column is the spread over the lowest figure in the same way.
 
 $$
 \frac{64.213 - 36.742}{36.742} \;=\; \frac{27.471}{36.742} \;=\; 0.748
+\tag{11}
 $$
 
 A request that grew by three quarters in execution is consistent with a programme being
@@ -615,6 +626,7 @@ and its trim, and all four follow from the one ratio.** The mass after release i
 
 $$
 m_1 \;=\; m_0 - m_s \;=\; m_0 (1 - \mu)
+\tag{12}
 $$
 
 **The centre of gravity is where the problem starts.** Taking moments about any datum before and
@@ -623,6 +635,7 @@ remaining vehicle's centre of gravity sits at
 
 $$
 x_{cg,1} \;=\; \frac{m_0 x_{cg,0} - m_s x_s}{m_0 - m_s}
+\tag{13}
 $$
 
 which, substituting $x_s = x_{cg,0} + d_s$ and dividing through by $m_0$, reduces to a shift that
@@ -630,6 +643,7 @@ depends only on $\mu$ and the arm.
 
 $$
 \Delta x \;=\; x_{cg,1} - x_{cg,0} \;=\; -\,\frac{\mu}{1-\mu}\, d_s \;=\; -\,\alpha\, d_s
+\tag{14}
 $$
 
 **The sign is the physically obvious one.** Releasing a store that sits aft of
@@ -648,6 +662,7 @@ $$
 a_z \;=\; \frac{L - m_1 g_0}{m_1}
 \;=\; g_0\,\frac{m_0 - m_1}{m_1}
 \;=\; \alpha\, g_0
+\tag{15}
 $$
 
 **The amplification factor appears a third time, now as a load factor step.** The fighter of the
@@ -660,6 +675,7 @@ speed and dynamic pressure the required lift coefficient steps down by the mass 
 
 $$
 C_{L,1} \;=\; (1 - \mu)\, C_{L,0}
+\tag{16}
 $$
 
 **a 17.94 percent reduction, commanded through the same control surfaces that are
@@ -675,6 +691,7 @@ entire change in static margin is therefore the centre-of-gravity shift expresse
 
 $$
 \Delta K \;=\; -\,\frac{\Delta x}{\bar c} \;=\; \frac{\alpha\, d_s}{\bar c}
+\tag{17}
 $$
 
 **This result turns the government's sentence from an engineering
@@ -694,6 +711,7 @@ $[K_{\min}, K_{\max}]$ both before and after release bounds the arm.
 
 $$
 \lvert d_s \rvert \;\le\; \frac{\bar c\,(K_{\max} - K_{\min})}{\alpha}
+\tag{18}
 $$
 
 **So the admissible store arm is inversely proportional to the amplification factor.** At a fighter's
@@ -710,6 +728,7 @@ magnitude $C_L \Delta x/\bar c$, which the longitudinal control must cancel.
 $$
 \Delta\delta \;=\; \frac{C_L}{C_{m\delta}}\cdot\frac{\Delta x}{\bar c}
 \;=\; -\,\frac{C_L\,\alpha\, d_s}{C_{m\delta}\,\bar c}
+\tag{19}
 $$
 
 **The deflection is proportional to the lift coefficient**, so the release is hardest to trim out at
@@ -726,6 +745,7 @@ opposite effect.
 $$
 I_{y,1} \;=\; \underbrace{I_{y,0} - I_s - m_s d_s^2}_{\text{about the old centre of gravity}}
 \;-\; m_1 \Delta x^2
+\tag{20}
 $$
 
 **The second term is small when $\mu$ is small and is not negligible here.** An analysis that stops
@@ -740,6 +760,7 @@ hold against.
 
 $$
 M_x \;=\; m_s\, g_0\, n_z\, y_s
+\tag{21}
 $$
 
 Setting that against the roll control's authority at the current dynamic pressure gives the deflection
@@ -747,6 +768,7 @@ required to hold the wings level.
 
 $$
 \delta_{\text{roll}} \;=\; \frac{\mu\, m_0\, g_0\, n_z\, y_s}{q\,S\,b\,C_{l\delta}}
+\tag{22}
 $$
 
 **This scales with $\mu$ directly rather than with $\alpha$**, because the asymmetry is a weight and
@@ -761,6 +783,7 @@ $$
 \dot p \;=\; \frac{M_x}{I_x},
 \qquad
 \phi(t) \;=\; \tfrac12\, \dot p\, t^2
+\tag{23}
 $$
 
 **and no roll inertia for this vehicle is published, so $I_x$ is estimated as $m_1 k_x^2$ with the
@@ -777,6 +800,7 @@ M_x &\;=\; 161.5\ \text{kg} \times 9.80665\ \text{m s}^{-2} \times 1 \times 0.3\
 \qquad
 \phi(0.5\ \text{s}) \;=\; \tfrac12 \times 1.812 \times 0.5^2 \;=\; 0.2265\ \text{rad} \;=\; 12.98^\circ
 \end{aligned}
+\tag{24}
 $$
 
 **The estimate brackets $k_x$ between 0.3 and 0.5 metres and $y_s$ between 0.2 and 0.4 metres**, and its two
@@ -786,6 +810,7 @@ $$
 \phi\big|_{k_x = 0.5,\ y_s = 0.2} \;=\; \frac{161.5 \times 9.80665 \times 0.2}{2 \times 1{,}638.5 \times 0.5^2}\, (0.5)^2 \;=\; 0.0967\ \text{rad} \;=\; 5.5^\circ,
 \qquad
 \phi\big|_{k_x = 0.3,\ y_s = 0.4} \;=\; \frac{161.5 \times 9.80665 \times 0.4}{2 \times 1{,}638.5 \times 0.3^2}\, (0.5)^2 \;=\; 0.537\ \text{rad} \;=\; 30.8^\circ
+\tag{25}
 $$
 
 **Half a second is a generous allowance for a control
@@ -799,6 +824,7 @@ $v_e$ to the store gives the vehicle a recoil in the opposite direction.
 
 $$
 \Delta V_r \;=\; \frac{m_s}{m_1}\, v_e \;=\; \alpha\, v_e
+\tag{26}
 $$
 
 **At an assumed ejection velocity of 7 metres a second** the vehicle takes 1.53 metres a
@@ -816,6 +842,7 @@ $$
 v_{rel} \;=\; \frac{J}{m_r},
 \qquad
 m_r \;=\; \frac{m_s\, m_1}{m_0} \;=\; \mu\,(1-\mu)\, m_0
+\tag{27}
 $$
 
 **which for one missile here is 147 kilograms against the missile's 161.5.**
@@ -827,6 +854,7 @@ $$
 \frac{E_c^{(1)}}{E_c}
 \;=\; \frac{\alpha}{1 + \alpha}
 \;=\; \mu
+\tag{28}
 $$
 
 **The launcher absorbs exactly its store's mass fraction of every cartridge it fires.** A fighter
@@ -840,6 +868,7 @@ arm $d_s$ for a stroke time $\tau$ delivers an angular impulse.
 
 $$
 \dot\theta \;=\; \frac{F_e\, d_s\, \tau}{I_{y}}
+\tag{29}
 $$
 
 **The inertia in that denominator is the inertia after release**, computed with both corrections
@@ -852,6 +881,7 @@ of a slender body of uniform density is estimated as
 
 $$
 I_y \;\approx\; \tfrac{1}{12}\, m_1\, l^2
+\tag{30}
 $$
 
 **which at 6 metres of length gives 4,916 kilogram square metres, and the
@@ -879,12 +909,14 @@ effective specific impulse directly.
 
 $$
 I_{sp} \;=\; \frac{1}{c_T\, g_0}
+\tag{31}
 $$
 
 The ratio of the two is the premise.
 
 $$
 \Lambda \;=\; \frac{I_{sp,\text{air}}}{I_{sp,\text{rocket}}}
+\tag{32}
 $$
 
 **At 3,500 seconds for a small turbofan and 235 seconds for a solid motor, $\Lambda$ is about
@@ -907,6 +939,7 @@ T_a(h) \;=\; T_{a,0} - \Gamma h,
 p_a(h) \;=\; p_{a,0}\left(\frac{T_a}{T_{a,0}}\right)^{g_0 / (\Gamma R)},
 \qquad
 \rho \;=\; \frac{p_a}{R\, T_a}
+\tag{33}
 $$
 
 **With a lapse rate of 6.5 kelvin per kilometre and a sea-level temperature of
@@ -916,6 +949,7 @@ cubic metre. The sound speed follows from the gas alone,
 
 $$
 a \;=\; \sqrt{\kappa\, R\, T_a}
+\tag{34}
 $$
 
 **which evaluates to 296.5 metres per second.** Those are the two numbers every coast, cruise
@@ -940,6 +974,7 @@ Z \;=\; \frac{r_0\, h}{r_0 - h}
 \;=\; 10{,}685.9\ \text{m},
 \qquad
 \frac{Z - h}{h} \;=\; \frac{h}{r_0 - h} \;=\; 0.00168
+\tag{35}
 $$
 
 **so the geometric difference is 17.9 metres, or 1.7 parts in a thousand.** Read the other way,
@@ -959,6 +994,7 @@ m\,V\frac{dV}{ds} \;=\; -\tfrac12 \rho V^2 C_D A
 V(s) \;=\; V_b\, e^{-s/\ell},
 \qquad
 \ell \;=\; \frac{2m}{\rho\, C_D A}
+\tag{36}
 $$
 
 **For a missile of the mass and diameter the programme expects to carry, at cruise altitude, $\ell$
@@ -968,6 +1004,7 @@ coming to rest.
 
 $$
 s_{\max} \;=\; \ell \ln\!\frac{V_b}{V_f}
+\tag{37}
 $$
 
 **At a burnout speed of 1,186 metres a second and a terminal requirement of Mach
@@ -985,6 +1022,7 @@ against the designer.
 
 $$
 V_b \;=\; V_f\, e^{s_{\max}/\ell}
+\tag{38}
 $$
 
 ### What It Costs Each Vehicle to Buy the Same Distance
@@ -996,6 +1034,7 @@ that into propellant.
 
 $$
 \zeta_p \;=\; 1 - \exp\!\left(-\frac{\Delta V}{I_{sp,\text{rocket}}\, g_0}\right)
+\tag{39}
 $$
 
 **The propellant fraction rises from 0.402 to 0.746.** A missile that is already
@@ -1012,6 +1051,7 @@ the mass it is carrying,
 $$
 dR \;=\; V\, dt
 \;=\; -\,V\, I_{sp}\, \frac{L}{D}\, \frac{dm}{m}
+\tag{40}
 $$
 
 **and the logarithm appears on integration rather than by assumption.** The missile's logarithm
@@ -1022,6 +1062,7 @@ $$
 R_c \;=\; V\, I_{sp}\, \frac{L}{D}\, \ln\!\frac{1}{1-\zeta}
 \qquad\Longrightarrow\qquad
 \zeta \;=\; 1 - \exp\!\left(-\frac{R_c}{V\, I_{sp}\, (L/D)}\right)
+\tag{41}
 $$
 
 **Flying 112 kilometres costs the carrier a fuel fraction of 0.013.**
@@ -1035,6 +1076,7 @@ $$
 \frac{dR_c}{dm_f} \;=\; \frac{V\, I_{sp}\, (L/D)}{m},
 \qquad
 \frac{dR_m}{dm_p} \;=\; \frac{\ell}{V_b}\,\frac{I_{sp,r}\, g_0}{m_s}
+\tag{42}
 $$
 
 **and the next kilogram of fuel buys the carrier 4,901 metres while the next kilogram of
@@ -1054,6 +1096,7 @@ total is additive and the gain is a ratio.
 
 $$
 G \;=\; \frac{R_c + R_m}{R_m} \;=\; 1 + \frac{R_c}{R_m}
+\tag{43}
 $$
 
 **In this honest form the benefit is linear rather than exponential.** A carrier flying
@@ -1070,6 +1113,7 @@ fly-out multiplies its arrival energy by the reciprocal.
 
 $$
 \frac{E_f(s)}{E_f(s + R_c)} \;=\; \exp\!\left(\frac{2 R_c}{\ell}\right)
+\tag{44}
 $$
 
 **Evaluated at a carrier range of several hundred kilometres this expression returns factors in the
@@ -1089,6 +1133,7 @@ The reduced reaction time, which the second stated benefit also claims, follows 
 $$
 t \;=\; \int_0^{s}\frac{ds'}{V_b\, e^{-s'/\ell}}
 \;=\; \frac{\ell}{V_b}\left(e^{s/\ell} - 1\right)
+\tag{45}
 $$
 
 **Flight time is convex in distance**, so the last kilometres of a long shot cost disproportionately
@@ -1172,6 +1217,7 @@ figure gives that airframe a thrust to weight ratio of 0.486.
 
 $$
 \frac{T}{W} \;=\; \frac{T}{m\, g_0}
+\tag{46}
 $$
 
 **Across the swept mass range the ratio runs from 0.680 at 1,000 kilograms to
@@ -1185,6 +1231,7 @@ $$
 \sin\gamma \;=\; \frac{T}{W} - \frac{1}{L/D},
 \qquad
 P_s \;=\; V \sin\gamma
+\tag{47}
 $$
 
 **where the second expression is the specific excess power at constant speed.** At sea level the
@@ -1196,6 +1243,7 @@ density.** Taking the simplest lapse,
 
 $$
 T(h) \;\approx\; T_0\, \frac{\rho}{\rho_0}
+\tag{48}
 $$
 
 **the density ratio at cruise altitude is 0.31, and the climb table collapses.** At
@@ -1228,6 +1276,7 @@ $$
 143.9\ \text{in} \times 0.0254\ \tfrac{\text{m}}{\text{in}} \;=\; 3.655\ \text{m},
 \qquad
 7\ \text{in} \times 25.4\ \tfrac{\text{mm}}{\text{in}} \;=\; 177.8\ \text{mm}
+\tag{49}
 $$
 
 **A vehicle that carries it internally cannot be shorter than that
@@ -1265,6 +1314,7 @@ $$
 I_h\, \ddot\theta_h \;=\; M_h - M_{a}(\theta_h),
 \qquad
 t_d \;=\; \sqrt{\frac{2\, I_h\, \Delta\theta_h}{M_h}}
+\tag{50}
 $$
 
 **where $M_a$ is the aerodynamic moment resisting or assisting the panel, which depends on the
@@ -1384,6 +1434,7 @@ leaves at the cartridge impulse over its own mass and then falls, so the separat
 
 $$
 s(t) \;=\; \frac{J}{m_s}\, t \;+\; \tfrac12\, g_0\, t^2
+\tag{51}
 $$
 
 **and the pit therefore measures the impulse, the tip-off rate and the mechanism's repeatability,
@@ -1409,6 +1460,7 @@ $$
 \frac{v_{rel}^{\mathrm{flight}}}{v_{rel}^{\mathrm{pit}}}
 \;=\; \frac{m_s}{m_r}
 \;=\; \frac{1}{1-\mu}
+\tag{52}
 $$
 
 **A cartridge that gives the simulant 7 metres a second in the pit separates the same
@@ -1427,6 +1479,7 @@ a trajectory deviation that grows exactly as the gravity term does,
 
 $$
 \Delta s(t) \;=\; \tfrac12\, \frac{F_a}{m_s}\, t^2
+\tag{53}
 $$
 
 **so a store trajectory cannot be separated into a mechanism part and an aerodynamic part by
@@ -1484,6 +1537,7 @@ $$
 \frac{1}{1 - 323/1{,}800} \;=\; 1.219,
 \qquad
 7\ \text{m s}^{-1} \times 1.099 \;=\; 7.69\ \text{m s}^{-1}
+\tag{54}
 $$
 
 **That is a
@@ -2038,6 +2092,596 @@ old and unannounced, the flight test campaign had not begun, and captive carry h
 been promised by three consecutive books for three different years. **The question
 remains open, and a good one**, because the answer transfers to every vehicle that tries
 to carry a weapon it is barely larger than.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 54 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 54, 33 are established and 21 are bespoke.
+Masses are in kilograms, lengths in metres and angles in radians, with the sources' pound and inch figures converted at the exact definitions, and several letters are fixed by the symbol table, so $K$ is the static margin while $\kappa$ is the ratio of specific heats, $a$ is the speed of sound while $a_z$ is an acceleration, and $\mu$ is the store mass fraction rather than a gravitational parameter.
+
+**Equation 1, Store Mass Fraction.**
+The store mass fraction is the mass of the store released divided by the mass of the vehicle immediately before release.
+
+$$
+\mu \;=\; \frac{m_s}{m_0}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Store Mass Fractions of the Fighter and This Vehicle.*
+The fractions take the fighter at the 26,875 kilogram midpoint of its published empty and maximum masses and this vehicle at an assumed 1,800 kilograms, which gives two missiles a fraction about 30 times the fighter's one.
+[AIM-120 AMRAAM][ref_amraam]
+[F-15E fact sheet][ref_f15e]
+
+$$
+\mu_f \;=\; \frac{161.5\ \text{kg}}{26{,}875\ \text{kg}} \;=\; 0.00601,
+\qquad
+\mu_v \;=\; \frac{2 \times 161.5\ \text{kg}}{1{,}800\ \text{kg}} \;=\; 0.1794,
+\qquad
+\frac{\mu_v}{\mu_f} \;=\; 29.9 \;\approx\; 30
+\tag{2}
+$$
+
+*Equation 3, Bespoke Midpoint Mass of the Fighter.*
+The fact sheet's 37,500 and 81,000 pounds are converted at the exact definition of the pound and reduced to their midpoint of 26,875 kilograms, which the article adopts as the fighter's mass.
+[F-15E fact sheet][ref_f15e]
+
+$$
+\begin{aligned}
+37{,}500\ \text{lb} \times 0.45359237\ \tfrac{\text{kg}}{\text{lb}} &\;=\; 17{,}009.7\ \text{kg},
+\qquad
+81{,}000\ \text{lb} \times 0.45359237\ \tfrac{\text{kg}}{\text{lb}} \;=\; 36{,}741.0\ \text{kg}, \\
+\tfrac12\,(17{,}009.7 + 36{,}741.0)\ \text{kg} &\;=\; 26{,}875\ \text{kg},
+\qquad
+36{,}741.0\ \text{kg} - 36{,}450\ \text{kg} \;=\; 291\ \text{kg}.
+\end{aligned}
+\tag{3}
+$$
+
+**Equation 4, Baseline Missile Mass Against the Chosen Variant.**
+The baseline missile's 335 pounds converts to 151.95 kilograms, which is 0.941 of the 161.5 kilogram variant the article carries.
+[AIM-120 fact sheet][ref_amraam_fs]
+
+$$
+335\ \text{lb} \times 0.45359237\ \tfrac{\text{kg}}{\text{lb}} \;=\; 151.95\ \text{kg},
+\qquad
+\frac{151.95\ \text{kg}}{161.5\ \text{kg}} \;=\; 0.941
+\tag{4}
+$$
+
+**Equation 5, Ratio of the Two Mass Fractions.**
+Dividing the two definitions of the store mass fraction for the same missile cancels its mass and leaves the store count times the ratio of the two launcher masses.
+
+$$
+\frac{\mu_v}{\mu_f}
+\;=\; \frac{n\, m_s / m_{0,v}}{m_s / m_{0,f}}
+\;=\; n\, \frac{m_{0,f}}{m_{0,v}}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Release Amplification Factor.*
+The article defines the release amplification factor as the store mass fraction divided by one less that fraction, which equals the store mass over the mass that remains.
+
+$$
+\alpha \;=\; \frac{\mu}{1 - \mu}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Rate of Growth of the Amplification.*
+The derivative of the amplification factor with respect to the store mass fraction is the reciprocal of the square of one less that fraction, so it diverges as the fraction approaches one.
+
+$$
+\frac{d\alpha}{d\mu} \;=\; \frac{1}{(1-\mu)^2}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Amplification Factors of the Fighter and This Vehicle.*
+The amplification is evaluated at the fighter's midpoint mass, at the assumed 1,800 kilogram vehicle releasing two missiles and at a fraction of one half, where it reaches one.
+
+$$
+\alpha_f \;=\; \frac{161.5\ \text{kg}}{26{,}875\ \text{kg} - 161.5\ \text{kg}} \;=\; 0.00605,
+\qquad
+\alpha_v \;=\; \frac{323\ \text{kg}}{1{,}800\ \text{kg} - 323\ \text{kg}} \;=\; 0.2187,
+\qquad
+\alpha\big|_{\mu = 0.5} \;=\; \frac{0.5}{1 - 0.5} \;=\; 1
+\tag{8}
+$$
+
+*Equation 9, Bespoke Mass Fraction Across the Bracketed Vehicle Mass.*
+Because no mass is published for the aircraft, the article brackets it between 1,000 and 3,000 kilograms, which gives a pair of missiles a fraction from 0.323 down to 0.108.
+
+$$
+\mu\big|_{m_0 = 1{,}000\ \text{kg}} \;=\; \frac{323\ \text{kg}}{1{,}000\ \text{kg}} \;=\; 0.323,
+\qquad
+\mu\big|_{m_0 = 3{,}000\ \text{kg}} \;=\; \frac{323\ \text{kg}}{3{,}000\ \text{kg}} \;=\; 0.108
+\tag{9}
+$$
+
+*Equation 10, Bespoke Share of Reported Funding Placed in Awards.*
+The funding total takes the largest of the figures the budget books give for each of fiscal years 2021 to 2025, a selection the article chose, and the awards in the record are 72.1 percent of it.
+
+$$
+24.000 + 36.000 + 36.000 + 45.527 + 64.213 \;=\; 205.740,
+\qquad
+\frac{148.306\ \text{million dollars}}{205.740\ \text{million dollars}} \;=\; 0.721
+\tag{10}
+$$
+
+**Equation 11, Spread of the Fiscal Year Figures.**
+The largest figure reported for the year exceeds the lowest by 27.471 million dollars, which is 74.8 percent of the lowest.
+[DARPA PB2025 justification][ref_darpa_pb2025]
+[DARPA PB2026 justification][ref_darpa_pb2026]
+[DARPA PB2027 justification][ref_darpa_pb2027]
+
+$$
+\frac{64.213 - 36.742}{36.742} \;=\; \frac{27.471}{36.742} \;=\; 0.748
+\tag{11}
+$$
+
+**Equation 12, Mass After Release.**
+The mass after release is the mass before release less the store mass, which is the original mass times one less the store mass fraction.
+
+$$
+m_1 \;=\; m_0 - m_s \;=\; m_0 (1 - \mu)
+\tag{12}
+$$
+
+**Equation 13, Centre of Gravity After Release.**
+Taking moments about a fixed datum before and after release places the remaining vehicle's centre of gravity at the mass-weighted difference of the two first moments divided by the remaining mass.
+
+$$
+x_{cg,1} \;=\; \frac{m_0 x_{cg,0} - m_s x_s}{m_0 - m_s}
+\tag{13}
+$$
+
+**Equation 14, Shift of the Centre of Gravity.**
+Substituting the store arm into the moment balance reduces the shift of the centre of gravity to minus the amplification factor times the store arm.
+
+$$
+\Delta x \;=\; x_{cg,1} - x_{cg,0} \;=\; -\,\frac{\mu}{1-\mu}\, d_s \;=\; -\,\alpha\, d_s
+\tag{14}
+$$
+
+**Equation 15, Vertical Acceleration at Release.**
+With lift unchanged at the instant of release and the weight stepped down, Newton's second law gives the remaining vehicle an upward acceleration of the amplification factor times standard gravity.
+
+$$
+a_z \;=\; \frac{L - m_1 g_0}{m_1}
+\;=\; g_0\,\frac{m_0 - m_1}{m_1}
+\;=\; \alpha\, g_0
+\tag{15}
+$$
+
+**Equation 16, Lift Coefficient for Level Flight After Release.**
+At constant speed and dynamic pressure the lift coefficient needed for level flight falls in proportion to the mass that remains.
+
+$$
+C_{L,1} \;=\; (1 - \mu)\, C_{L,0}
+\tag{16}
+$$
+
+**Equation 17, Change in Static Margin From an Internal Release.**
+With the neutral point fixed because an internal store contributes no lift, the change in static margin is the centre-of-gravity shift expressed in mean aerodynamic chords.
+
+$$
+\Delta K \;=\; -\,\frac{\Delta x}{\bar c} \;=\; \frac{\alpha\, d_s}{\bar c}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Admissible Store Arm.*
+Requiring the static margin to stay within a chosen band both before and after release bounds the store arm by the chord times the width of the band over the amplification factor.
+
+$$
+\lvert d_s \rvert \;\le\; \frac{\bar c\,(K_{\max} - K_{\min})}{\alpha}
+\tag{18}
+$$
+
+**Equation 19, Trim Deflection After Release.**
+The longitudinal control must cancel the pitching moment that the shifted centre of gravity creates, which takes a deflection proportional to the lift coefficient and the shift and inversely proportional to the control power.
+
+$$
+\Delta\delta \;=\; \frac{C_L}{C_{m\delta}}\cdot\frac{\Delta x}{\bar c}
+\;=\; -\,\frac{C_L\,\alpha\, d_s}{C_{m\delta}\,\bar c}
+\tag{19}
+$$
+
+**Equation 20, Pitch Inertia After Release.**
+The store's own inertia and its parallel-axis term leave with it, and the remaining inertia is then transferred to the new centre of gravity by a second parallel-axis correction.
+
+$$
+I_{y,1} \;=\; \underbrace{I_{y,0} - I_s - m_s d_s^2}_{\text{about the old centre of gravity}}
+\;-\; m_1 \Delta x^2
+\tag{20}
+$$
+
+**Equation 21, Rolling Moment From an Asymmetric Store.**
+A single remaining store at a spanwise station produces a rolling moment equal to its weight times the load factor times its station.
+
+$$
+M_x \;=\; m_s\, g_0\, n_z\, y_s
+\tag{21}
+$$
+
+**Equation 22, Roll Control Deflection to Hold the Wings Level.**
+Setting the asymmetric rolling moment against the roll control's authority at the current dynamic pressure gives the deflection required to hold the wings level.
+
+$$
+\delta_{\text{roll}} \;=\; \frac{\mu\, m_0\, g_0\, n_z\, y_s}{q\,S\,b\,C_{l\delta}}
+\tag{22}
+$$
+
+**Equation 23, Open-Loop Roll Acceleration and Bank Growth.**
+The rolling moment over the roll inertia gives a constant angular acceleration, and from rest the bank angle grows as half that acceleration times the square of the time.
+
+$$
+\dot p \;=\; \frac{M_x}{I_x},
+\qquad
+\phi(t) \;=\; \tfrac12\, \dot p\, t^2
+\tag{23}
+$$
+
+*Equation 24, Bespoke Roll Transient Half a Second After Release.*
+The transient takes an assumed 1,800 kilogram vehicle, an assumed roll radius of gyration of 0.4 metres and an assumed store station of 0.3 metres at a load factor of one, which gives about 13 degrees of bank after half a second.
+
+$$
+\begin{aligned}
+M_x &\;=\; 161.5\ \text{kg} \times 9.80665\ \text{m s}^{-2} \times 1 \times 0.3\ \text{m} \;=\; 475\ \text{N m}, \\
+\dot p &\;=\; \frac{475\ \text{N m}}{1{,}638.5\ \text{kg} \times (0.4\ \text{m})^2} \;=\; 1.812\ \text{rad s}^{-2},
+\qquad
+\phi(0.5\ \text{s}) \;=\; \tfrac12 \times 1.812 \times 0.5^2 \;=\; 0.2265\ \text{rad} \;=\; 12.98^\circ
+\end{aligned}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Bounds on the Roll Transient.*
+The corners of the article's assumed brackets on the roll radius of gyration and the store station bound the bank angle after half a second between about 6 and 31 degrees.
+
+$$
+\phi\big|_{k_x = 0.5,\ y_s = 0.2} \;=\; \frac{161.5 \times 9.80665 \times 0.2}{2 \times 1{,}638.5 \times 0.5^2}\, (0.5)^2 \;=\; 0.0967\ \text{rad} \;=\; 5.5^\circ,
+\qquad
+\phi\big|_{k_x = 0.3,\ y_s = 0.4} \;=\; \frac{161.5 \times 9.80665 \times 0.4}{2 \times 1{,}638.5 \times 0.3^2}\, (0.5)^2 \;=\; 0.537\ \text{rad} \;=\; 30.8^\circ
+\tag{25}
+$$
+
+**Equation 26, Recoil Velocity of the Launcher.**
+Conservation of momentum gives the vehicle a recoil equal to the ejection velocity times the ratio of the store mass to the remaining mass, which is the amplification factor.
+
+$$
+\Delta V_r \;=\; \frac{m_s}{m_1}\, v_e \;=\; \alpha\, v_e
+\tag{26}
+$$
+
+**Equation 27, Relative Separation Velocity and Reduced Mass.**
+Treating the ejection as a two-body problem, the relative separation velocity is the cartridge impulse divided by the reduced mass of store and launcher.
+
+$$
+v_{rel} \;=\; \frac{J}{m_r},
+\qquad
+m_r \;=\; \frac{m_s\, m_1}{m_0} \;=\; \mu\,(1-\mu)\, m_0
+\tag{27}
+$$
+
+**Equation 28, Launcher's Share of the Cartridge Energy.**
+Momentum conservation alone gives the launcher a share of the cartridge energy equal to the store mass fraction.
+
+$$
+\frac{E_c^{(1)}}{E_c}
+\;=\; \frac{\alpha}{1 + \alpha}
+\;=\; \mu
+\tag{28}
+$$
+
+**Equation 29, Pitch Rate From the Ejector's Angular Impulse.**
+An ejector force acting at the store arm for the stroke time delivers an angular impulse, and dividing by the pitch inertia after release gives the pitch rate imparted.
+
+$$
+\dot\theta \;=\; \frac{F_e\, d_s\, \tau}{I_{y}}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Pitch Inertia of a Uniform Slender Body.*
+The article estimates the pitch inertia by assuming the vehicle is a slender body of uniform density, which gives one twelfth of its mass times the square of its length.
+
+$$
+I_y \;\approx\; \tfrac{1}{12}\, m_1\, l^2
+\tag{30}
+$$
+
+**Equation 31, Effective Specific Impulse From Fuel Consumption.**
+An engine's effective specific impulse is the reciprocal of its thrust specific fuel consumption times standard gravity.
+
+$$
+I_{sp} \;=\; \frac{1}{c_T\, g_0}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Ratio of Air-Breathing to Rocket Specific Impulse.*
+The article states its premise as the ratio of air-breathing to rocket specific impulse, about fifteen for a small turbofan at 3,500 seconds against a solid motor at 235 seconds.
+
+$$
+\Lambda \;=\; \frac{I_{sp,\text{air}}}{I_{sp,\text{rocket}}}
+\tag{32}
+$$
+
+**Equation 33, Troposphere of the Standard Atmosphere.**
+The temperature falls linearly with geopotential height, the pressure follows from hydrostatic balance with the ideal gas law, and the density follows from the equation of state.
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+T_a(h) \;=\; T_{a,0} - \Gamma h,
+\qquad
+p_a(h) \;=\; p_{a,0}\left(\frac{T_a}{T_{a,0}}\right)^{g_0 / (\Gamma R)},
+\qquad
+\rho \;=\; \frac{p_a}{R\, T_a}
+\tag{33}
+$$
+
+**Equation 34, Speed of Sound in an Ideal Gas.**
+The speed of sound is the square root of the ratio of specific heats times the specific gas constant times the temperature.
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+a \;=\; \sqrt{\kappa\, R\, T_a}
+\tag{34}
+$$
+
+**Equation 35, Geometric Height From Geopotential Height.**
+The standard atmosphere's effective Earth radius converts the cruise geopotential height of 10,668 metres to a geometric height of 10,685.9 metres, a difference of 1.7 parts in a thousand.
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+Z \;=\; \frac{r_0\, h}{r_0 - h}
+\;=\; \frac{6{,}356{,}766 \times 10{,}668}{6{,}346{,}098}\ \text{m}
+\;=\; 10{,}685.9\ \text{m},
+\qquad
+\frac{Z - h}{h} \;=\; \frac{h}{r_0 - h} \;=\; 0.00168
+\tag{35}
+$$
+
+*Equation 36, Bespoke Exponential Speed Decay of a Coasting Missile.*
+Neglecting gravity and holding the density and drag coefficient constant along the coast, the article writes the deceleration against distance and obtains a speed that decays exponentially with a characteristic length.
+
+$$
+m\,V\frac{dV}{ds} \;=\; -\tfrac12 \rho V^2 C_D A
+\qquad\Longrightarrow\qquad
+V(s) \;=\; V_b\, e^{-s/\ell},
+\qquad
+\ell \;=\; \frac{2m}{\rho\, C_D A}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Reach Under a Terminal Speed Requirement.*
+In the article's exponential coast model the reach is the decay length times the natural logarithm of the ratio of burnout speed to the required arrival speed.
+
+$$
+s_{\max} \;=\; \ell \ln\!\frac{V_b}{V_f}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Burnout Speed for a Required Reach.*
+Inverting the article's coast model gives the burnout speed a motor must deliver, which grows exponentially with the reach required.
+
+$$
+V_b \;=\; V_f\, e^{s_{\max}/\ell}
+\tag{38}
+$$
+
+**Equation 39, Propellant Fraction From the Rocket Equation.**
+The rocket equation gives the propellant fraction needed for a velocity increment as one less the exponential of minus that increment over the effective exhaust velocity.
+
+$$
+\zeta_p \;=\; 1 - \exp\!\left(-\frac{\Delta V}{I_{sp,\text{rocket}}\, g_0}\right)
+\tag{39}
+$$
+
+**Equation 40, Breguet Range Differential.**
+In steady cruise the thrust equals the weight over the lift-to-drag ratio, so each increment of distance costs fuel in proportion to the mass carried.
+
+$$
+dR \;=\; V\, dt
+\;=\; -\,V\, I_{sp}\, \frac{L}{D}\, \frac{dm}{m}
+\tag{40}
+$$
+
+**Equation 41, Breguet Range and Fuel Fraction.**
+Integrating the range differential gives the Breguet range, and inverting it gives the fuel fraction the carrier spends to fly a given distance.
+
+$$
+R_c \;=\; V\, I_{sp}\, \frac{L}{D}\, \ln\!\frac{1}{1-\zeta}
+\qquad\Longrightarrow\qquad
+\zeta \;=\; 1 - \exp\!\left(-\frac{R_c}{V\, I_{sp}\, (L/D)}\right)
+\tag{41}
+$$
+
+*Equation 42, Bespoke Marginal Exchange Rates of Distance for Mass.*
+The derivative of the Breguet range is set against the derivative of the article's coast-model reach with respect to propellant, which compares what the next kilogram buys the carrier and the missile.
+
+$$
+\frac{dR_c}{dm_f} \;=\; \frac{V\, I_{sp}\, (L/D)}{m},
+\qquad
+\frac{dR_m}{dm_p} \;=\; \frac{\ell}{V_b}\,\frac{I_{sp,r}\, g_0}{m_s}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Reach Gain.*
+The article defines the reach gain as the carrier's range plus the missile's over the missile's alone, an additive measure that makes the benefit linear in the carrier's range.
+
+$$
+G \;=\; \frac{R_c + R_m}{R_m} \;=\; 1 + \frac{R_c}{R_m}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Arrival Energy Ratio From Carrier Transit.*
+Under the article's exponential coast model, removing the carrier's transit from the missile's fly-out multiplies its arrival kinetic energy by the exponential of twice the carrier range over the decay length.
+[DARPA PB2022 justification][ref_darpa_pb2022]
+
+$$
+\frac{E_f(s)}{E_f(s + R_c)} \;=\; \exp\!\left(\frac{2 R_c}{\ell}\right)
+\tag{44}
+$$
+
+*Equation 45, Bespoke Time of Flight of a Coasting Missile.*
+Integrating the reciprocal of the article's exponentially decaying speed over distance gives a time of flight that is convex in the distance flown.
+
+$$
+t \;=\; \int_0^{s}\frac{ds'}{V_b\, e^{-s'/\ell}}
+\;=\; \frac{\ell}{V_b}\left(e^{s/\ell} - 1\right)
+\tag{45}
+$$
+
+**Equation 46, Thrust-to-Weight Ratio.**
+The thrust-to-weight ratio is the thrust divided by the mass times standard gravity.
+
+$$
+\frac{T}{W} \;=\; \frac{T}{m\, g_0}
+\tag{46}
+$$
+
+**Equation 47, Steady Climb Gradient and Specific Excess Power.**
+In a steady climb the sine of the flight-path angle is the thrust-to-weight ratio less the reciprocal of the lift-to-drag ratio, and the specific excess power is the speed times that sine.
+
+$$
+\sin\gamma \;=\; \frac{T}{W} - \frac{1}{L/D},
+\qquad
+P_s \;=\; V \sin\gamma
+\tag{47}
+$$
+
+*Equation 48, Bespoke Thrust Lapse With Density.*
+The article takes the simplest lapse, in which a turbojet's thrust falls in proportion to the air density ratio.
+
+$$
+T(h) \;\approx\; T_0\, \frac{\rho}{\rho_0}
+\tag{48}
+$$
+
+**Equation 49, Missile Length and Diameter in Metric Units.**
+The fact sheet's length of 143.9 inches and diameter of 7 inches convert at the exact definition of the inch to 3.655 metres and 177.8 millimetres.
+[AIM-120 fact sheet][ref_amraam_fs]
+
+$$
+143.9\ \text{in} \times 0.0254\ \tfrac{\text{m}}{\text{in}} \;=\; 3.655\ \text{m},
+\qquad
+7\ \text{in} \times 25.4\ \tfrac{\text{mm}}{\text{in}} \;=\; 177.8\ \text{mm}
+\tag{49}
+$$
+
+**Equation 50, Hinge Rotation and Deployment Time.**
+A folding panel obeys the rigid-body rotation equation about its hinge, and from rest under a constant torque the time to sweep a given angle is the square root of twice the inertia times the angle over the torque.
+
+$$
+I_h\, \ddot\theta_h \;=\; M_h - M_{a}(\theta_h),
+\qquad
+t_d \;=\; \sqrt{\frac{2\, I_h\, \Delta\theta_h}{M_h}}
+\tag{50}
+$$
+
+**Equation 51, Separation Distance With the Launcher Clamped.**
+With the launcher clamped, the store leaves at the cartridge impulse over its own mass and then falls under gravity.
+
+$$
+s(t) \;=\; \frac{J}{m_s}\, t \;+\; \tfrac12\, g_0\, t^2
+\tag{51}
+$$
+
+**Equation 52, Flight to Pit Ratio of Separation Speeds.**
+In flight the impulse divides by the reduced mass rather than the store mass, so the separation speed exceeds the pit value by the reciprocal of one less the store mass fraction.
+
+$$
+\frac{v_{rel}^{\mathrm{flight}}}{v_{rel}^{\mathrm{pit}}}
+\;=\; \frac{m_s}{m_r}
+\;=\; \frac{1}{1-\mu}
+\tag{52}
+$$
+
+**Equation 53, Trajectory Deviation From an Aerodynamic Force.**
+A constant aerodynamic force on the separating store displaces it by half the force over the store mass times the square of the time, the same form as the gravity term.
+
+$$
+\Delta s(t) \;=\; \tfrac12\, \frac{F_a}{m_s}\, t^2
+\tag{53}
+$$
+
+*Equation 54, Bespoke Pit Correction for This Vehicle.*
+The correction is evaluated at an assumed vehicle mass of 1,800 kilograms, which gives 9.9 percent for one missile and 21.9 percent for both, so 7 metres a second in the pit becomes 7.69 in flight.
+
+$$
+\frac{1}{1 - 161.5/1{,}800} \;=\; 1.099,
+\qquad
+\frac{1}{1 - 323/1{,}800} \;=\; 1.219,
+\qquad
+7\ \text{m s}^{-1} \times 1.099 \;=\; 7.69\ \text{m s}^{-1}
+\tag{54}
+$$
+
+### Notation
+
+- $m_s$, the mass of the store released
+- $m_0$, the mass of the vehicle immediately before release
+- $m_1$, the mass of the vehicle immediately after release
+- $\mu$, the store mass fraction, the keystone
+- $\alpha$, the release amplification factor, $\mu$ over one less $\mu$
+- $n_z$, the load factor at release, lift divided by weight
+- $x_s$, the station of the store's centre of mass, measured positive aft
+- $x_{cg,0}$, the station of the vehicle's centre of gravity before release, with $x_{cg,1}$ the station after
+- $d_s$, the store arm, positive for a store aft of the centre of gravity
+- $\Delta x$, the shift in the centre of gravity caused by the release
+- $\bar c$, the mean aerodynamic chord
+- $\Delta K$, the change in the static margin $K$, the distance from the centre of gravity to the neutral point in chords
+- $y_s$, the spanwise station of the store
+- $C_L$, the lift coefficient
+- $C_{m\delta}$, the pitching moment per radian of longitudinal control
+- $C_{l\delta}$, the rolling moment per radian of lateral control
+- $I_s$, the store's moment of inertia about its own centre of mass
+- $I_{y,1}$, the pitch moment of inertia after release, written $I_y$ elsewhere
+- $v_e$, the velocity imparted to the store by the ejector
+- $\Delta V_r$, the vehicle's recoil velocity
+- $F_e$, the ejector force
+- $\tau$, the ejector stroke duration
+- $\dot\theta$, the pitch rate
+- $g_0$, standard gravity, 9.80665 metres per second squared by definition
+- $c_T$, the thrust specific fuel consumption
+- $I_{sp}$, the specific impulse in seconds
+- $\Lambda$, the ratio of air-breathing to rocket specific impulse
+- $L/D$, the lift-to-drag ratio in cruise
+- $\zeta$, the fuel mass fraction, with $\zeta_p$ the missile's propellant fraction
+- $R_c$, the range flown by the carrier vehicle
+- $R_m$, the range flown by the missile under its own power
+- $G$, the reach gain, total reach divided by the missile's alone
+- $\ell$, the ballistic decay length of a coasting missile
+- $C_D$, the drag coefficient
+- $V_b$, the missile velocity at motor burnout
+- $V_f$, the missile speed at arrival, the terminal requirement
+- $s_{\max}$, the reach of the missile at the terminal speed requirement
+- $E_f$, the missile kinetic energy at arrival
+- $M_x$, the rolling moment
+- $a_z$, the net vertical acceleration after release
+- $m_r$, the reduced mass of the store and launcher pair
+- $E_c^{(1)}$, the launcher's share of the cartridge energy $E_c$
+- $I_x$, the roll moment of inertia
+- $k_x$, the roll radius of gyration
+- $\dot p$, the roll acceleration, the rate of change of the roll rate
+- $\phi$, the bank angle
+- $J$, the ejector cartridge impulse
+- $v_{rel}$, the relative separation velocity of store and launcher
+- $F_a$, the aerodynamic force on the separating store
+- $\gamma$, the flight-path angle
+- $P_s$, the specific excess power
+- $I_h$, the hinge-axis inertia of one folding panel
+- $M_h$, the hinge drive torque
+- $\theta_h$, the panel fold angle
+- $t_d$, the deployment time
+- $Z$, the geometric height
+- $r_0$, the effective Earth radius of the 1976 standard atmosphere
+- $T_a$, the air temperature
+- $p_a$, the static pressure
+- $\Gamma$, the tropospheric lapse rate
+- $\kappa$, the ratio of specific heats
+- $\rho$, the air density, with $\rho_0$ its sea-level value
 
 ## References
 

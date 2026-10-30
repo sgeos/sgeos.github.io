@@ -1,0 +1,511 @@
+# Equation classification for A355. Read by `python3 _lib/equations.py`.
+
+caution = "Masses are in kilograms and forces in newtons, speeds in metres per second although the specification quotes knots, costs in dollars, design-number rates in numbers per year and probabilities per sortie, and the attrition and cost relations rest on a constant and independent probability of surviving each sortie, which is a modelling choice rather than a measured property of the aeroplane."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Rate of Design Number Consumption"
+gloss = "The mean rate at which the X series consumes numbers is the span of design numbers in the register divided by the span of dates, which evaluates to 1.385 numbers per year."
+cite = ["ref_mds_addendum"]
+digest = "ff76c17402356717"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Headroom and Cost of One Skipped Number"
+gloss = "Extrapolating the mean rate as constant, an assumption the article makes, gives the time remaining before the field reaches 999 and the allocation time that one skipped number costs."
+cite = ["ref_dafi_16_401_2020"]
+digest = "82552544684fe18b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Mass Budget"
+gloss = "The maximum mass is the sum of the empty mass, the payload and the fuel."
+cite = []
+digest = "cf9d0f49b41a52bb"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Fuel Fraction"
+gloss = "The fuel fraction is one less the empty and payload fractions of the maximum mass, 38.3 percent with both payload stations filled."
+cite = ["ref_ds_q58", "ref_xq58_wikipedia"]
+digest = "a0a440549e17452f"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Payload Fraction"
+gloss = "The payload fraction is the payload weight over the maximum weight, 20 percent for the Valkyrie."
+cite = ["ref_ds_q58", "ref_xq58_wikipedia"]
+digest = "beaa58ad99f87d00"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Speed of Sound"
+gloss = "The speed of sound in air depends only on temperature through the ratio of specific heats and the specific gas constant."
+cite = []
+digest = "97872606df9ab5f3"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Mach Number"
+gloss = "The Mach number is the true airspeed over the local speed of sound."
+cite = ["ref_us_standard_atmosphere", "ref_icao_atmosphere"]
+digest = "8b220962128f1c37"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Dynamic Pressure in Terms of Static Pressure and Mach Number"
+gloss = "The dynamic pressure is half the density times the square of the airspeed, or half the ratio of specific heats times the static pressure times the square of the Mach number."
+cite = []
+digest = "6f4d90ee59bf232e"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Expected Sorties per Airframe"
+gloss = "Taking a constant and independent probability of surviving each sortie, the article writes the expected sorties of an airframe with a finite design life as a truncated geometric sum."
+cite = ["ref_geometric_distribution"]
+digest = "42e306b0f6a73296"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Attrition-Limited Life"
+gloss = "As the design life grows without bound the expected sorties under the constant survival model tend to one over the probability of loss."
+cite = []
+digest = "fecee18ad3ae0379"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Matched Design Life and Life Utilisation"
+gloss = "The article sets the design life equal to the attrition-limited life and defines the fraction of the design life actually used under the same model."
+cite = []
+digest = "bdcfe65eca52ec54"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Probability of Reaching the Design Life"
+gloss = "Under independent sorties an airframe reaches its design life with probability equal to the survival probability raised to that life."
+cite = []
+digest = "035e706ec80092d2"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Expected Cost per Sortie"
+gloss = "The article amortises the unit cost over the expected sorties of the survival model and adds the operating cost of one sortie."
+cite = []
+digest = "1b5295efe21add01"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Cost per Sortie When the Life Does Not Bind"
+gloss = "Once the design life stops binding, the amortised cost tends to the unit cost times the probability of loss, so a point of survival probability is worth one percent of the airframe price per sortie."
+cite = ["ref_xq58_wikipedia"]
+digest = "11fef99b86bdcc80"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Break-Even Survival Probability Against a Costlier Aircraft"
+gloss = "Equating the limiting costs per sortie of the attritable aircraft and an aircraft not meant to be lost gives the survival probability at which the two cost the same, which depends only on the ratio of unit costs."
+cite = []
+digest = "2cfaa09041cf05cc"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Airframes Needed for a Campaign"
+gloss = "Dividing the sorties a campaign requires by the expected sorties per airframe of the survival model, rounded up, gives the airframes to buy."
+cite = []
+digest = "d0ae892074f7a8d2"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Learning Curve"
+gloss = "Unit cost falls with cumulative production as a power of the unit number, with an exponent set by the progress ratio."
+cite = ["ref_learning_curve", "book_roskam"]
+digest = "ec674eab8cc98561"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Progress Ratio From Two Unit Costs"
+gloss = "Inverting the learning curve gives the progress ratio from two unit costs and the number of doublings between their production quantities."
+cite = []
+digest = "982f6aa26e4b3157"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Doublings Needed to Halve the Unit Cost"
+gloss = "The number of doublings of output needed to halve the unit cost is the logarithm of one half over the logarithm of the progress ratio."
+cite = ["book_roskam", "book_nicolai"]
+digest = "80aa01383d390942"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Cost-Imposing Exchange Condition"
+gloss = "The article states the exchange as favouring the attacker when the cost of the interceptors expended exceeds the airframe cost amortised over its expected sorties."
+cite = ["ref_afrl_factsheet"]
+digest = "62aa3075a871b0d7"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Comparison With a Cruise Missile"
+gloss = "The attritable aircraft is preferred when its amortised airframe cost per weapon delivered plus the weapon cost is below the cost of a cruise missile, a condition the article constructs."
+cite = []
+digest = "3fb1ca1973cc8198"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Fourth-Root Dependence of Detection Range on Cross-Section"
+gloss = "Because returned power falls as the fourth power of range, detection range varies as the fourth root of the radar cross-section."
+cite = ["book_knott"]
+digest = "b2865a1630d38b55"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Impulse Balance Along the Launch Rail"
+gloss = "The booster impulse equals the momentum at lift-off less the net impulse of engine thrust, drag and rail friction during the run."
+cite = []
+digest = "ab8b12c4b31af0c6"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Upper Bound on the Booster Impulse"
+gloss = "Discarding the engine contribution and the losses together, a simplification the article adopts, bounds the required impulse by the launch mass times the lift-off speed."
+cite = []
+digest = "1414f03d97fe6aaa"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Propellant Mass From Specific Impulse"
+gloss = "The propellant needed is the required impulse divided by standard gravity times the specific impulse."
+cite = ["ref_specific_impulse"]
+digest = "ff0773f1e76849b5"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Launch Rail Length"
+gloss = "Under constant acceleration the rail length is the square of the lift-off speed over twice the acceleration."
+cite = []
+digest = "2f4a6c8dd06f1f80"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Terminal Velocity Under a Canopy"
+gloss = "The steady descent speed under a canopy follows from equating weight to the canopy drag."
+cite = ["book_knacke"]
+digest = "6e84d10736f5503b"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Canopy Area and Equivalent Diameter"
+gloss = "Solving the descent relation for the canopy gives the area that a chosen touchdown speed requires and its equivalent circular diameter."
+cite = ["book_knacke"]
+digest = "6fedb032cb39e9f7"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Parachute Opening Force"
+gloss = "The opening force is the steady canopy drag at the deployment speed multiplied by a measured opening shock factor."
+cite = ["book_knacke", "research_wolf_fallon_2011"]
+digest = "8337aeed79cfe6cc"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Deployment Speed Limit for a Permitted Load Factor"
+gloss = "Solving the opening force for speed gives the highest speed at which the full canopy may be opened without exceeding a load factor on the empty mass."
+cite = []
+digest = "e272e6c3960aa756"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Reefed Canopy Area for a Permitted Load Factor"
+gloss = "The reefed area that holds the opening load to a permitted load factor at a given deployment speed follows from the same relation."
+cite = ["book_knacke"]
+digest = "127d9ac64957fcff"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Drift Under the Canopy"
+gloss = "The downwind drift is the wind speed times the descent time, the release height over the descent speed."
+cite = []
+digest = "4abcf0082ab7290e"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Ratio of Cruise to Touchdown Kinetic Energy"
+gloss = "The ratio of kinetic energies at cruise and at touchdown is the mass ratio times the square of the speed ratio."
+cite = []
+digest = "17a514d6d85b31f4"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Breguet Range Equation for a Jet"
+gloss = "The jet range is the speed over the thrust specific fuel consumption times the lift-to-drag ratio times the logarithm of the weight ratio."
+cite = ["book_anderson", "book_mattingly"]
+digest = "386f19260555db1d"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Lift-to-Drag Ratio Required by the Published Range"
+gloss = "Rearranging the range equation gives the lift-to-drag ratio that the published range, cruise speed and fuel fraction demand at a given consumption."
+cite = []
+digest = "8655f2a0c95e603f"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Thrust Required in Cruise"
+gloss = "In steady level cruise the thrust required is the weight over the lift-to-drag ratio."
+cite = []
+digest = "097196e5acffcc34"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Cruise Fuel Flow and Endurance"
+gloss = "The fuel flow is the consumption times the thrust required, and the endurance is the fuel weight over that flow."
+cite = []
+digest = "7a0d32e99cb20f7c"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Thrust Lapse With Density"
+gloss = "Available thrust falls with altitude as a power of the density ratio set by a lapse exponent."
+cite = ["book_mattingly"]
+digest = "1caa9d0c79d645be"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Lift-to-Drag Ratio Implied by the Ceiling"
+gloss = "At the ceiling the lapsed thrust equals the drag, which fixes the lift-to-drag ratio needed to hold it."
+cite = ["book_mattingly"]
+digest = "96ff113d609a96e2"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Density Ratio of the Standard Atmosphere"
+gloss = "The standard atmosphere gives the density ratio as a power law of temperature in the troposphere and an exponential decay in the isothermal layer above it."
+cite = ["ref_us_standard_atmosphere", "ref_icao_atmosphere"]
+digest = "b0d6ff4f4e052ca2"
+
+[[symbol]]
+tex = '\dot{d}'
+meaning = "the rate at which the series consumes design numbers"
+
+[[symbol]]
+tex = 'd_L'
+meaning = "the highest design number allocated, with $d_F$ the design number of the earliest X allocation"
+
+[[symbol]]
+tex = 't_{999}'
+meaning = "the time for the sequence to reach the end of its field"
+
+[[symbol]]
+tex = '\Delta t_s'
+meaning = "the allocation time one skipped number costs"
+
+[[symbol]]
+tex = 'W_0'
+meaning = "the weight at the start of cruise, with $W_1$ the weight at the end"
+
+[[symbol]]
+tex = 'W_e'
+meaning = "the empty weight"
+
+[[symbol]]
+tex = 'W_p'
+meaning = "the payload weight"
+
+[[symbol]]
+tex = 'W_f'
+meaning = "the weight of the fuel"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the fuel fraction"
+
+[[symbol]]
+tex = '\Pi_p'
+meaning = "the payload fraction"
+
+[[symbol]]
+tex = 'a_s'
+meaning = "the speed of sound"
+
+[[symbol]]
+tex = '\Theta'
+meaning = "the air temperature"
+
+[[symbol]]
+tex = '\mathcal{R}'
+meaning = "the specific gas constant for air"
+
+[[symbol]]
+tex = '\bar{s}'
+meaning = "the expected number of sorties one airframe delivers"
+
+[[symbol]]
+tex = 'p'
+meaning = "the probability of surviving one sortie"
+
+[[symbol]]
+tex = 'N^{\star}'
+meaning = "the design life matched to the survival probability, with $N$ the design life in sorties"
+
+[[symbol]]
+tex = '\eta_L'
+meaning = "the fraction of the design life actually used"
+
+[[symbol]]
+tex = '\bar{C}'
+meaning = "the expected cost per sortie"
+
+[[symbol]]
+tex = 'C_a'
+meaning = "the unit cost of one airframe"
+
+[[symbol]]
+tex = 'C_{op}'
+meaning = "the operating cost of one sortie"
+
+[[symbol]]
+tex = 'p^{\star}'
+meaning = "the survival probability at which the two aeroplanes cost the same"
+
+[[symbol]]
+tex = 'C_x'
+meaning = "the unit cost of an aeroplane that is not meant to be lost, with $p_x$ its probability of surviving one sortie"
+
+[[symbol]]
+tex = 'n_{ac}'
+meaning = "the airframes needed"
+
+[[symbol]]
+tex = 'S_{req}'
+meaning = "the sorties the campaign requires"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the progress ratio, the cost factor per doubling of output"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the doublings of output needed to halve the unit cost"
+
+[[symbol]]
+tex = 'n_i'
+meaning = "the interceptors expended to remove one aeroplane, each of cost $C_i$"
+
+[[symbol]]
+tex = 'N_w'
+meaning = "the weapons delivered per sortie"
+
+[[symbol]]
+tex = 'R_d'
+meaning = "the range at which the vehicle is detected"
+
+[[symbol]]
+tex = '\Sigma'
+meaning = "the radar cross-section"
+
+[[symbol]]
+tex = 'V_{LO}'
+meaning = "the lift-off speed"
+
+[[symbol]]
+tex = 'I_{req}'
+meaning = "the booster impulse required"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the booster specific impulse"
+
+[[symbol]]
+tex = 'L_r'
+meaning = "the launch rail length"
+
+[[symbol]]
+tex = 'V_t'
+meaning = "the steady descent speed under the canopy"
+
+[[symbol]]
+tex = 'C_{D_p}'
+meaning = "the canopy drag coefficient"
+
+[[symbol]]
+tex = 'S_p'
+meaning = "the canopy area"
+
+[[symbol]]
+tex = 'k_s'
+meaning = "the opening shock factor"
+
+[[symbol]]
+tex = 'V_d'
+meaning = "the speed at which the canopy is deployed"
+
+[[symbol]]
+tex = 'n_g'
+meaning = "the load factor the airframe may take on opening"
+
+[[symbol]]
+tex = 'S_r'
+meaning = "the reefed canopy area"
+
+[[symbol]]
+tex = 'x_d'
+meaning = "the distance the vehicle drifts under the canopy"
+
+[[symbol]]
+tex = 'E_c'
+meaning = "the kinetic energy in cruise, with $E_t$ that at touchdown"
+
+[[symbol]]
+tex = 'c'
+meaning = "the thrust specific fuel consumption"
+
+[[symbol]]
+tex = 'T_{req}'
+meaning = "the thrust required in cruise"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the thrust lapse exponent"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the density ratio"

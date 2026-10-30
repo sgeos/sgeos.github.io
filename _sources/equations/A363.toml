@@ -1,0 +1,1031 @@
+# Equation classification for A363. Read by `python3 _lib/equations.py`.
+
+caution = "The structural and geometric relations follow the contractor's report in feet, inches, pounds and pounds per square inch while the atmosphere is evaluated in the International System, and several letters need care, so $\\delta$ is the induced-drag fraction of total cruise drag, $L$ is the wing lift at the design load factor while $L/D$ is the lift-to-drag ratio, $e$ is the airplane efficiency factor while $e^{-X}$ is an exponential, $\\mathcal{I}$ is the second moment of area of the strut while $\\mathcal{I}(\\lambda)$ is the taper integral, $\\varepsilon$ is a logarithmic error in aspect ratio, and $h$ is a geopotential altitude except in the ground-effect group, where it is a height above the ground."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Share of the Agreement Paid Before First Flight"
+gloss = "The milestones that fall due before first flight carry 98.82 percent of the agreement's payments."
+cite = ["ref_fsaa"]
+digest = "6c35b87ae34efda8"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Share of the Agreement Reached Before the Pause"
+gloss = "Through milestone nine the agreement had paid 153 of its 425 million dollars, 36.00 percent of the total."
+cite = ["ref_fsaa"]
+digest = "744c19a50a97c998"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Revision Between Two Budget Books"
+gloss = "A revision is the fractional change between two projections of the same fiscal year."
+cite = ["ref_nasa_cj_2025", "ref_nasa_ts_2026"]
+digest = "d9595c5e514c5016"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Aspect Ratio From Span and Area"
+gloss = "The aspect ratio is the square of the span over the reference area, which the published span and area reproduce to the printed digits."
+cite = ["ref_cr_phase4"]
+digest = "f8e6ecd07749d380"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Standard Atmosphere Temperature"
+gloss = "The temperature falls linearly with geopotential altitude up to the tropopause and is constant above it."
+cite = []
+digest = "d91a820b0c042b11"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Standard Atmosphere Pressure"
+gloss = "The pressure follows a power law of the temperature ratio in the troposphere and falls exponentially in the isothermal layer above."
+cite = []
+digest = "0f67d8d18117dd09"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Speed of Sound and True Airspeed"
+gloss = "The speed of sound follows from the temperature, and the true airspeed is the Mach number times it."
+cite = []
+digest = "d674dc1d02ce6ed4"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Dynamic Pressure in Pressure and Mach Number"
+gloss = "The dynamic pressure is half the density times the square of the speed, which equals half the ratio of specific heats times the pressure times the square of the Mach number."
+cite = []
+digest = "ca2defe2aa9d8c1c"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Lift Equation"
+gloss = "In level flight the weight equals the lift coefficient times the dynamic pressure and the wing area, which fixes the lift coefficient."
+cite = []
+digest = "bce9b7383da30d3c"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Lift Coefficient at the Stated Cruise Condition"
+gloss = "At the maximum take-off weight, the published wing area and the buildup's stated 40,000 feet and Mach 0.80, the lift coefficient is 0.5594 against the 0.695 the same table states."
+cite = ["ref_cr_phase4"]
+digest = "c307fd5b1589fab9"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Altitude at Which the Stated Lift Coefficient Holds"
+gloss = "Inverting the lift equation at maximum take-off weight and Mach 0.80 places the stated lift coefficient at 44,515 feet, within 78 feet of the report's optimum cruise altitude."
+cite = ["ref_cr_phase4"]
+digest = "580211495ee2d71e"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Four-Part Cruise Drag Buildup"
+gloss = "The report bookkeeps cruise drag as parasite, induced, compressibility and trim terms, with the laminar-flow credit carried in the compressibility term."
+cite = ["ref_cr_phase4"]
+digest = "94bb2944c3cae5e9"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Lift-to-Drag Ratio"
+gloss = "The lift-to-drag ratio is the lift coefficient over the drag coefficient."
+cite = []
+digest = "32a1837fc5016282"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Parasite Drag From Equivalent Flat Plate Area"
+gloss = "The parasite drag coefficient is the equivalent flat plate area divided by the reference area."
+cite = ["ref_cr_phase4"]
+digest = "944390aaf8000010"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Induced Drag Coefficient"
+gloss = "The induced drag coefficient is the square of the lift coefficient over pi, the aspect ratio and the airplane efficiency factor."
+cite = ["ref_cr_phase4"]
+digest = "733a939b7ab784fb"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Induced-Drag Fraction"
+gloss = "The article defines the induced-drag fraction as the induced drag coefficient over the total, which it evaluates from the report's buildup as 0.3351."
+cite = []
+digest = "a2f3d84af3290dc4"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Design Lift at the Load Factor"
+gloss = "The design lift is the load factor times the weight."
+cite = []
+digest = "cb08c4fe783d3f2e"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Elliptic Spanwise Lift Distribution"
+gloss = "An elliptic distribution places the local lift per unit span in proportion to the square root of one less the square of the station."
+cite = []
+digest = "b127aea8470b2d82"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Normalisation of the Elliptic Load"
+gloss = "The constant in front of the elliptic distribution is fixed by requiring the load to integrate to the total lift."
+cite = []
+digest = "b349c2aa8ebd9036"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Bending Moment From the Outboard Load"
+gloss = "The bending moment at a station is the integral of the load outboard of it against its moment arm."
+cite = []
+digest = "4cd1a690e2352c86"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Bending Moment of an Elliptically Loaded Wing"
+gloss = "For elliptic loading the moment integral has a closed form in the fraction of semispan."
+cite = []
+digest = "f09509e84dc3d6d5"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Root Bending Moment of an Elliptic Wing"
+gloss = "At the root the elliptic moment collapses to the lift times the span over three pi."
+cite = []
+digest = "b2857f038cda96a9"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Root Moment From the Centroid of a Semi-Ellipse"
+gloss = "Half the lift acting at the centroid of a semi-ellipse gives the same root moment, a check on the closed form."
+cite = []
+digest = "a18f66010d2fd180"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Cap Area of a Two-Cap Wing Box"
+gloss = "The article models the wing box as two bending caps at a separation set by a shape factor it takes as 0.90 of the section depth, so each cap needs the moment over the stress and that separation."
+cite = []
+digest = "b7e4fce58d00957a"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Chord of a Straight-Taper Wing"
+gloss = "The chord of a straight-taper wing falls linearly from the root, and the root chord follows from the area, span and taper ratio."
+cite = []
+digest = "c76ff285c148e91f"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Bending Material as an Integral of Cap Area"
+gloss = "In the article's two-cap model the bending material is four times the material density times the semispan integral of one cap area."
+cite = []
+digest = "0a2ed075b0160211"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Taper Integral of the Moment Shape"
+gloss = "The article collects the geometric part of its bending-material model into one integral of the moment shape function against the chord distribution."
+cite = []
+digest = "206cfaf73b81e029"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Bending Material in Span and Area"
+gloss = "Substituting the moment, depth and chord into the article's two-cap model gives the bending material in terms of the span, lift, taper and wing area."
+cite = []
+digest = "084e27f7d73c7c26"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Three-Halves Power Law of Bending Material"
+gloss = "Replacing the span by the aspect ratio shows that, at fixed area, design lift and thickness ratio, the article's two-cap model scales as the three-halves power of aspect ratio."
+cite = []
+digest = "b9e41016f07dedb0"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Exponent Measured by Logarithmic Differencing"
+gloss = "Differencing the article's closed form logarithmically between two aspect ratios returns the exponent of 1.5 exactly."
+cite = []
+digest = "0c60e293d223a71e"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Sweep Correction to Bending Material"
+gloss = "The article lengthens the structural beam and the moment arm each by the secant of the sweep, so its bending material grows as the inverse square of the cosine of the sweep."
+cite = []
+digest = "e67315ea4b99abfb"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Breguet Fuel Burn and Its Linearisation"
+gloss = "The Breguet relation gives the cruise fuel as the weight times one less an exponential of range, fuel consumption and drag-to-lift ratio, which for a small fuel fraction reduces to a product."
+cite = []
+digest = "44227b560aee775c"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Cruise Lift Coefficient at Fixed Area and Condition"
+gloss = "At fixed area, altitude and Mach number the cruise lift coefficient is whatever the weight requires."
+cite = []
+digest = "c189798e1c78b43f"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Fuel Burn at Fixed Area and Cruise Condition"
+gloss = "Holding wing area and cruise condition fixed, the case the article chooses, the linearised fuel burn is proportional to the drag coefficient times the dynamic pressure and the area."
+cite = []
+digest = "2c2d92c2c80ec474"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Parasite and Induced Parts of Fuel Burn at Fixed Area"
+gloss = "In the article's fixed-area case the fuel splits into a parasite term independent of aspect ratio and an induced term in the square of the weight over the aspect ratio."
+cite = []
+digest = "5532aa937a4b98ad"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Weight Elasticity and the Fixed-Area Fuel Slope"
+gloss = "With the weight elasticity defined as the logarithmic derivative of weight with aspect ratio, the article's fixed-area fuel slope is the induced-drag fraction times twice the elasticity less one."
+cite = []
+digest = "4fde30ab2e73d95b"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Optimality Condition at Fixed Area"
+gloss = "In the article's fixed-area case fuel burn is stationary when the weight elasticity is one half."
+cite = []
+digest = "dabbf41de027ffb4"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Stationary Point of the Induced Term"
+gloss = "At fixed area and condition the induced drag goes as the square of the weight over the aspect ratio, whose logarithm is stationary at the same elasticity of one half."
+cite = []
+digest = "04155bd31983541c"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Fuel Burn at Fixed Cruise Lift Coefficient"
+gloss = "Holding the cruise lift coefficient fixed instead, the second case the article chooses, the linearised fuel is the weight over the lift coefficient times the parabolic drag polar."
+cite = []
+digest = "ca8d7f23799c47bc"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Fixed-Lift Fuel Slope"
+gloss = "In the article's fixed-lift case the logarithmic slope of fuel with aspect ratio is the weight elasticity less the induced-drag fraction."
+cite = []
+digest = "98f8b9613b3857b4"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Optimality Condition at Fixed Lift Coefficient"
+gloss = "In the article's fixed-lift case fuel burn is stationary where the weight elasticity equals the induced-drag fraction."
+cite = []
+digest = "3d7d90e064e0cb05"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Elasticity of a Power-Law Weight Group"
+gloss = "If the aspect-ratio-sensitive weight group obeys a power law, as the article assumes, the elasticity is the exponent times that group's share of the weight."
+cite = []
+digest = "4d78e1dcf7ed4e04"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Exponent Required for the Present Aspect Ratio To Be Optimal"
+gloss = "Solving the article's power-law elasticity for the exponent that would make the present aspect ratio stationary gives 3.64 at fixed area and 2.44 at fixed lift."
+cite = []
+digest = "79a76f2acc6aa5b0"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Anchoring of the Weight Coefficient"
+gloss = "The coefficient of the article's power-law weight group is anchored on the published group weights, with everything else assigned to the fixed weight."
+cite = []
+digest = "420a1200b3ac7565"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Fuel-Optimal Aspect Ratio at Fixed Lift"
+gloss = "With the anchored power law, the article's fixed-lift condition is satisfied at an aspect ratio of 25.1, 28.3 percent above the configuration's."
+cite = []
+digest = "8f91381af3ce7172"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Derivatives of the Elasticity and the Induced Fraction"
+gloss = "Differentiating the article's power-law elasticity and the induced-drag fraction with respect to the logarithm of aspect ratio gives the two parts of the curvature."
+cite = []
+digest = "8a20e2acf71a5a4a"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Curvature of the Fixed-Lift Fuel Objective"
+gloss = "The second logarithmic derivative of the article's fixed-lift fuel objective is the sum of those two parts."
+cite = []
+digest = "3143e94d7d9d7a31"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Curvature at the Optimum"
+gloss = "At the article's stationary point the curvature depends only on the induced-drag fraction and the weight exponent."
+cite = []
+digest = "64dd35ea2891bfe1"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Logarithmic Error in Aspect Ratio"
+gloss = "The article measures the departure from the optimum as the natural logarithm of the optimal over the actual aspect ratio, which makes the expansion symmetric."
+cite = []
+digest = "f6d4519fcb4086f5"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Quadratic Fuel Penalty of an Aspect-Ratio Error"
+gloss = "Expanding the article's linearised objective to second order gives a fuel penalty of half the curvature times the square of the logarithmic error."
+cite = []
+digest = "ef25b83d854f4fb2"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Fuel Penalty of the Present Aspect Ratio"
+gloss = "At the article's optimum of 25.1 the present aspect ratio of 19.565 costs about 1.90 percent of cruise fuel under the linearised expansion."
+cite = []
+digest = "f85428c1ee826cab"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Fuel Fraction and Breguet Exponent From the Published Weights"
+gloss = "The published usable fuel and take-off weight fix the fuel fraction at 0.2002 and the Breguet exponent at 0.2234."
+cite = ["ref_cr_phase4"]
+digest = "93f522fefd018bf4"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Overstatement of the Linearised Breguet Relation"
+gloss = "At this Breguet exponent replacing one less the exponential by the exponent overstates the fuel by 11.585 percent."
+cite = []
+digest = "a8b03e7f0eb753ed"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Breguet Correction Factor"
+gloss = "The article defines a correction factor in the Breguet exponent that carries the exponential through and tends to one as the fuel fraction vanishes."
+cite = []
+digest = "03144d21d9a7f016"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Exact Logarithmic Differential of Fuel Burn"
+gloss = "With the correction factor the logarithmic change in fuel is that of the weight plus the factor times that of the Breguet exponent."
+cite = []
+digest = "b7a487a43dba4878"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Exact Fixed-Lift Optimality Condition"
+gloss = "Carrying the exponential through, the article's fixed-lift condition becomes an elasticity equal to the correction factor times the induced-drag fraction."
+cite = []
+digest = "a36a460fded16ed4"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Exact Fixed-Area Optimality Condition"
+gloss = "Carrying the exponential through, the article's fixed-area condition becomes a ratio that reduces to one half as the fuel fraction vanishes."
+cite = []
+digest = "873c0a57e6719ec9"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Exact Curvature at the Optimum"
+gloss = "The article's exact curvature at the fixed-lift optimum carries one extra term in the derivative of the correction factor."
+cite = []
+digest = "bc6ff509a558d2b6"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Derivative of the Breguet Correction Factor"
+gloss = "The derivative of the article's correction factor with respect to the Breguet exponent is given in closed form."
+cite = []
+digest = "3083537b24c70b15"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Shortfalls of the Elasticity Readings Against the Exact Target"
+gloss = "Each reading of the weight elasticity falls short of the article's exact fixed-lift target of 0.299 by the fraction shown, from 8.07 percent on the over-generous accounting to 74.10 percent on bending material alone."
+cite = []
+digest = "cc645779d837da02"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Conversion Between the Two Code C Span Bounds"
+gloss = "The bound of 118 feet is 35.9664 metres and the bound of 36 metres is 118.1102 feet, a difference of 1.3228 inches."
+cite = ["ref_faa_ac_airport_design"]
+digest = "b5065c9f222ff2ac"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Span Margins Against the Reference-Code Bounds"
+gloss = "Each margin is the bound less the span in inches, giving 7.24 and 12 inches unfolded and zero against the exclusive bound of the Federal Aviation Administration when folded."
+cite = []
+digest = "995b7e05914b9806"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Aspect Ratio at the Folded Span"
+gloss = "At the published wing area the folded span of 118 feet gives an aspect ratio of 9.427."
+cite = []
+digest = "33de4883284323ad"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Aspect Ratio Gain From the Fold"
+gloss = "At fixed area the ratio of the two aspect ratios is the square of the span ratio, 2.076."
+cite = []
+digest = "b4ac0ea810a98fb1"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Difference Between the Two Folded Margins"
+gloss = "The margins of the folded span against the bounds of the International Civil Aviation Organization and the Federal Aviation Administration differ by the 1.3228 inches of the soft conversion."
+cite = []
+digest = "6fce5c27d0bcf5dc"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Lift-to-Drag Ratio at the Folded Aspect Ratio"
+gloss = "The article rebuilds the drag buildup at the folded aspect ratio while holding every other term unchanged, giving a lift-to-drag ratio of 18.97 against 25.79."
+cite = []
+digest = "0d69fb2dddb30fe6"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Span Removed by the Fold"
+gloss = "The fold removes half the difference between the unfolded and folded spans, 26 feet on each side."
+cite = ["ref_tm_airport_ops"]
+digest = "ccecd0a4ab28a5f9"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Unit-Load Deflections of a Uniform Beam"
+gloss = "By the unit-load method on a beam the article takes to be of uniform stiffness, the deflections from the distributed load and from a unit load at the brace station are two integrals against the same virtual moment."
+cite = []
+digest = "16582ea607d896ad"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Prop Force of the Brace"
+gloss = "The unit deflection is the cube of the station over three times the stiffness, so the article's prop force is the ratio of the two deflections and the stiffness cancels."
+cite = []
+digest = "fa521f7745315dad"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Braced Bending Moment"
+gloss = "The article's braced moment is the cantilever moment less the prop force times its arm inboard of the attachment."
+cite = []
+digest = "c7f0f9b5b9f56fea"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Bending-Material Integral and Relief Factor"
+gloss = "The article defines the relief factor as the integral of the braced moment magnitude against the inverse chord over the same integral for the cantilever."
+cite = []
+digest = "c5e8ca4e41c1a22b"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Non-Optimum Factor"
+gloss = "The published bending material over the article's relieved model estimate gives a non-optimum factor of 7.88, a quantity that the methodology literature also names."
+cite = ["research_wing_weight_1981"]
+digest = "d668b4355e8b240b"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Axial Force and Horizontal Reaction of an Inclined Strut"
+gloss = "A pin-ended strut at a dihedral delivers vertical relief as the vertical component of its axial force, so the axial force is the relief over the sine of the dihedral."
+cite = ["ref_cr_phase4"]
+digest = "fc7267022b153d58"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Euler Critical Buckling Load"
+gloss = "The critical load of a column is pi squared times its bending stiffness over the square of its effective length."
+cite = []
+digest = "0cb83d932aa65d2e"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Effect of a Mid-Length Brace on Buckling"
+gloss = "Halving the effective length with a jury strut multiplies the critical load by four."
+cite = []
+digest = "65f4f0d25897e6a9"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Bending Material of a Geometrically Similar Truss"
+gloss = "For a truss whose attachment station, dihedral and proportions scale with the span, as the article assumes, the braced weight law is the cantilever law times a constant relief factor."
+cite = []
+digest = "72c7baabf815f882"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Sensitivity of the Optimum to the Weight Coefficient"
+gloss = "In the article's limit of small weight and induced-drag fractions the optimum aspect ratio goes as the weight coefficient to the power minus one over the exponent plus one, minus two fifths at the three-halves law."
+cite = []
+digest = "94b8ce3ce7d1f966"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Korn Relation for Drag-Divergence Mach Number"
+gloss = "The semi-empirical Korn relation gives the drag-divergence Mach number of a swept section from an airfoil-technology constant, the thickness ratio and the lift coefficient."
+cite = ["ref_cr_phase2_vol1"]
+digest = "cded39ab3bb4cc83"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Korn Relation Inverted for Thickness"
+gloss = "Because the Korn relation is linear in thickness, it inverts exactly for the thickness ratio that reaches a given drag-divergence Mach number."
+cite = []
+digest = "7b16204f7db755cd"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Korn Relation as a Cubic in the Secant of Sweep"
+gloss = "Writing the secant of the sweep as $s$ turns the Korn relation into a cubic whose derivative is a quadratic."
+cite = []
+digest = "d4451674211a9184"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Sweep at Which the Korn Relation Peaks"
+gloss = "The turning point of the Korn relation is the positive root of that quadratic, which gives the sweep beyond which more sweep lowers the drag-divergence Mach number."
+cite = []
+digest = "26d1164774c8fb88"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Bending Material Cost of Thinning and Sweeping"
+gloss = "The article's weight model, inverse in thickness and in the square of the cosine of sweep, prices the Phase IV change from Phase III at a factor of 1.29 on bending material."
+cite = []
+digest = "dc7dc9005f196e2e"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Fuel Volume Deficit"
+gloss = "The deficit is the required fuel volume less the available volume, as a fraction of the requirement."
+cite = ["ref_cr_phase4"]
+digest = "15592e0ca11365c8"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Flutter Speed Margin"
+gloss = "The margin is the flutter speed over the speed the certification basis requires, less one."
+cite = ["ref_cr_phase4"]
+digest = "8873a900a053bc79"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Ground-Effect Group"
+gloss = "The ratio of span to twice the height above the ground governs the upwash an image vortex system induces at the wing."
+cite = []
+digest = "12385613f470f077"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Fuel Reductions as Percentage Points and as Percentages"
+gloss = "The difference of two reductions against a baseline and the percentage change between the two configurations share a numerator and differ in denominator."
+cite = []
+digest = "0a5f956755fa14c9"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Ratio of the Two Statements of the Fuel Change"
+gloss = "The ratio of the percentage change in fuel to the percentage-point change in reduction is the baseline over the first configuration, 2.3279."
+cite = ["ref_cr_phase4"]
+digest = "eb2b72799dbaed65"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Advantages and Costs in the Like-for-Like Comparison"
+gloss = "The truss-braced aircraft's start-of-climb lift-to-drag ratio is 12.92 percent better, while it needs 25.65 percent more sea-level static thrust and cruises 4,250 feet higher."
+cite = ["ref_recine_2025"]
+digest = "111736f7bdda85bb"
+
+[[equation]]
+tag = 89
+class = "bespoke"
+title = "Bespoke Apparent Weight Elasticity of a Pair"
+gloss = "The article takes the logarithm of the weight ratio over the logarithm of the aspect-ratio ratio of two otherwise different aircraft as an apparent elasticity."
+cite = ["ref_recine_2025"]
+digest = "da5548b319dee56a"
+
+[[equation]]
+tag = 90
+class = "bespoke"
+title = "Bespoke Shortfall of the Largest Apparent Elasticity"
+gloss = "The largest apparent elasticity falls 66.8 percent short of the article's exact fixed-lift target of 0.299."
+cite = []
+digest = "b8723b4f251c5d71"
+
+[[equation]]
+tag = 91
+class = "standard"
+title = "Braced Wing and Strut Weight Against the Cantilever"
+gloss = "The braced wing alone weighs 1.38 or 4.28 percent more than the cantilever wing on the two calibrations, and with the strut 24.58 or 28.10 percent more."
+cite = ["ref_recine_2025"]
+digest = "f3082c5e1452ee49"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Primary Fraction and Period Count of the Survey"
+gloss = "The article summarises its reference survey by the fraction of research records from report servers and the count of records from 2015 onward."
+cite = []
+digest = "fcb43067a96dc841"
+
+[[symbol]]
+tex = '\mu_i'
+meaning = "the payment attached to milestone $i$"
+
+[[symbol]]
+tex = '\mathcal{P}_{\mathrm{new}}'
+meaning = "a budget projection for one fiscal year in the later book, with $\\mathcal{P}_{\\mathrm{old}}$ that in the earlier book"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'A^{*}'
+meaning = "the aspect ratio at which fuel burn is stationary"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span, tip to tip"
+
+[[symbol]]
+tex = 'b_f'
+meaning = "the folded wing span"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'T_{\mathrm{sl}}'
+meaning = "the sea-level standard temperature, with $p_{\\mathrm{sl}}$ the sea-level standard pressure"
+
+[[symbol]]
+tex = '\lambda_a'
+meaning = "the troposphere lapse rate"
+
+[[symbol]]
+tex = 'h_{\mathrm{t}}'
+meaning = "the tropopause altitude"
+
+[[symbol]]
+tex = 'R_a'
+meaning = "the specific gas constant for air"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for dry air"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound at the cruise condition"
+
+[[symbol]]
+tex = 'q'
+meaning = "the free-stream dynamic pressure"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the cruise lift coefficient"
+
+[[symbol]]
+tex = 'p^{\ast}'
+meaning = "the ambient pressure at which the drag buildup's lift coefficient holds"
+
+[[symbol]]
+tex = 'h^{\ast}'
+meaning = "the geopotential altitude at which the drag buildup's lift coefficient holds"
+
+[[symbol]]
+tex = 'C_{D,0}'
+meaning = "the parasite drag coefficient, the incompressible zero-lift part"
+
+[[symbol]]
+tex = 'C_{D,i}'
+meaning = "the induced drag coefficient"
+
+[[symbol]]
+tex = 'C_{D,c}'
+meaning = "the compressibility drag coefficient, which also carries the laminar-flow credit"
+
+[[symbol]]
+tex = 'C_{D,t}'
+meaning = "the trim drag coefficient"
+
+[[symbol]]
+tex = '\mathcal{F}'
+meaning = "the equivalent flat plate area"
+
+[[symbol]]
+tex = 'e'
+meaning = "the airplane efficiency factor for drag due to lift"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the induced-drag fraction of total cruise drag"
+
+[[symbol]]
+tex = '\mathcal{N}'
+meaning = "the design load factor"
+
+[[symbol]]
+tex = 'L'
+meaning = "the total lift carried by the wing at the design load factor"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the local lift per unit span"
+
+[[symbol]]
+tex = '\mathcal{M}'
+meaning = "the wing bending moment about the structural axis"
+
+[[symbol]]
+tex = '\mathcal{A}_c'
+meaning = "the cross-sectional area of one bending cap"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the allowable stress in the cap material"
+
+[[symbol]]
+tex = 'h_c'
+meaning = "the separation between the centroids of the upper and lower caps"
+
+[[symbol]]
+tex = '\kappa_h'
+meaning = "the ratio of cap-centroid separation to maximum section depth"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the wing thickness-to-chord ratio"
+
+[[symbol]]
+tex = 'c_r'
+meaning = "the root chord"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the wing taper ratio, tip chord over root chord"
+
+[[symbol]]
+tex = 'W_b'
+meaning = "the bending material weight of the wing"
+
+[[symbol]]
+tex = '\rho_m'
+meaning = "the density of the cap material"
+
+[[symbol]]
+tex = '\mathcal{I}(\lambda)'
+meaning = "the taper integral of the moment shape against the chord"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the wing quarter-chord sweep angle"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the fuel burned over the cruise leg"
+
+[[symbol]]
+tex = 'c_T'
+meaning = "the thrust specific fuel consumption"
+
+[[symbol]]
+tex = 'R'
+meaning = "the cruise range"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the weight elasticity, the logarithmic derivative of aircraft weight with respect to aspect ratio"
+
+[[symbol]]
+tex = 'W_w'
+meaning = "the aspect-ratio-sensitive weight group"
+
+[[symbol]]
+tex = 'W_0'
+meaning = "the part of aircraft weight that does not change with aspect ratio"
+
+[[symbol]]
+tex = 'k_w'
+meaning = "the coefficient of the aspect-ratio-sensitive weight group"
+
+[[symbol]]
+tex = '\omega'
+meaning = "the aspect-ratio-sensitive weight as a fraction of aircraft weight"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the fractional error in aspect ratio, measured logarithmically"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the fuel fraction, fuel burned over aircraft weight"
+
+[[symbol]]
+tex = 'X'
+meaning = "the Breguet exponent"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the Breguet correction factor"
+
+[[symbol]]
+tex = '\Delta'
+meaning = "the span margin against a reference-code bound"
+
+[[symbol]]
+tex = 'b_{\mathrm{bound}}'
+meaning = "a span bound of an aerodrome reference code, in feet"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the station of the brace attachment as a fraction of semispan"
+
+[[symbol]]
+tex = 'E'
+meaning = "the Young's modulus of the cap material in the fibre direction"
+
+[[symbol]]
+tex = 'P'
+meaning = "the vertical relief force the brace delivers at its attachment"
+
+[[symbol]]
+tex = '\mathcal{B}'
+meaning = "the bending-material integral, braced or unbraced"
+
+[[symbol]]
+tex = 'k_{\mathrm{no}}'
+meaning = "the non-optimum factor, published bending material over the model's"
+
+[[symbol]]
+tex = '\Gamma'
+meaning = "the main strut dihedral angle"
+
+[[symbol]]
+tex = 'T_s'
+meaning = "the axial force in the main strut"
+
+[[symbol]]
+tex = 'P_{\mathrm{cr}}'
+meaning = "the Euler critical buckling load of the strut"
+
+[[symbol]]
+tex = 'K'
+meaning = "the effective-length factor in the Euler buckling load"
+
+[[symbol]]
+tex = '\mathcal{L}_s'
+meaning = "the unsupported length of the strut in buckling"
+
+[[symbol]]
+tex = 'M_{dd}'
+meaning = "the drag-divergence Mach number"
+
+[[symbol]]
+tex = '\kappa_A'
+meaning = "the Korn airfoil-technology constant"
+
+[[symbol]]
+tex = 's'
+meaning = "the secant of the wing sweep angle"
+
+[[symbol]]
+tex = '\mathcal{V}_{\mathrm{required}}'
+meaning = "the fuel volume required, with $\\mathcal{V}_{\\mathrm{available}}$ the volume available"
+
+[[symbol]]
+tex = '\Sigma'
+meaning = "the ground-effect group, span over twice the height"
+
+[[symbol]]
+tex = 'r_i'
+meaning = "the fuel-burn reduction of configuration $i$ against the baseline"
+
+[[symbol]]
+tex = '\beta_i'
+meaning = "the block fuel per seat of configuration $i$"
+
+[[symbol]]
+tex = '\mathcal{R}'
+meaning = "the set of research records in the reference survey"

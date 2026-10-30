@@ -1,0 +1,823 @@
+# Equation classification for A364. Read by `python3 _lib/equations.py`.
+
+caution = "Design numbers and the fields of a designation are symbols in a code and carry no unit, so every quantity here is a count, a share, a number of bits in base two, a number of years or a sum in United States dollars, and shares are kept distinct from differences in percentage points."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Partition of Register Rows by Officiality"
+gloss = "The article sorts the register's rows into four disjoint states, official, marked at the cell, marked at the span and marked at the row, so that every officiality count adds up to the whole register."
+cite = []
+digest = "70f0c9206eb33c26"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Decomposition of the Absent Numbers"
+gloss = "The article divides the set of absent design numbers into those allocated before the register opens and those missing inside its window, of which only the second kind is evidence about the register."
+cite = []
+digest = "0d8d251b84e6a4f1"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Absent Share of a Series Span"
+gloss = "The article measures the completeness of the record as the count of absent numbers over the count of positions between the lowest and highest design numbers, which evaluates to 37.5 percent for the research series."
+cite = []
+digest = "7d08c7063df821ad"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Mean Allocation Rate"
+gloss = "The allocation rate is the count of dated rows divided by the interval from the first to the last of them, which gives 1.1031 research allocations a year."
+cite = []
+digest = "210e936917859dab"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Absent Numbers as Years of Output"
+gloss = "The article converts the numbers missing inside the register's window into years of the series' own output by dividing their count by the allocation rate, a conversion that assumes the rate is uniform."
+cite = []
+digest = "361d06218b3e336d"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Share of One Award in a Set of Awards"
+gloss = "The share of one award is its value divided by the sum of the values of every award in the set."
+cite = []
+digest = "70b2ea8ce1ce02bd"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Share of Research Rows Held by the Five Firms"
+gloss = "The five firms that received the platform-sharing awards hold 23 of the register's 31 research rows, which is 74.2 percent."
+cite = ["ref_mds_addendum"]
+digest = "953381c207753514"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Relative Deviation From a Reference Figure"
+gloss = "The relative deviation is the difference between an outturn and a reported reference figure, divided by the reference figure."
+cite = []
+digest = "a19ec07b1967e717"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Position of an Event Within an Interval"
+gloss = "The position of an event is its time after the start of an interval as a fraction of the interval's length, so zero is the start and one is the end."
+cite = []
+digest = "9d6e216b74fb804f"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Next Number Above the Highest Allocation"
+gloss = "The first of the article's three senses of the next number is one above the highest design number allocated in the basic mission before the date."
+cite = []
+digest = "ad34e4458da40960"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Lowest Unallocated Number"
+gloss = "The second of the article's three senses of the next number is the lowest positive design number that had never been allocated in the basic mission before the date."
+cite = []
+digest = "5053f6a655d109ca"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Next Number After the Most Recent Allocation"
+gloss = "The third of the article's three senses of the next number is one above the design number of the most recent allocation, whatever its size."
+cite = []
+digest = "6b675dfd332b417f"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Designation as an Ordered Tuple of Its Fields"
+gloss = "A designation is written as the ordered tuple of the status prefix, modified mission, basic mission, design number and design series that the instruction defines."
+cite = ["ref_dafi_16_401_2020"]
+digest = "abe701ec3524cc07"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Capacity of the Number and Series Field"
+gloss = "The distinct number and series codes available within one basic mission are the product of the 999 design numbers and the 24 permitted series letters, which is 23,976."
+cite = ["ref_dafi_16_401_2020"]
+digest = "75bba9548cba7874"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Ordinal Reading of the Design Number"
+gloss = "The article reads the instruction's sixteenth-approved-designator sentence as the claim that the $k$th design number allocated in a basic mission equals $k$."
+cite = []
+digest = "49671ad48c0dfb04"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Unit Increment Implied by the Ordinal Reading"
+gloss = "Differencing the ordinal reading removes the unknown origin of each sequence and leaves the testable prediction that every new design number exceeds the previous new one by one."
+cite = []
+digest = "442b7fd7d09d68ad"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Share of Unit Increments"
+gloss = "The article measures adherence to the ordinal reading as the share of increments equal to one, with filtered counts of fifteen of 22 for the research series and nine of 29 for the unmanned series."
+cite = []
+digest = "38cf79698abd6600"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Allocation Pointer and Its Advance"
+gloss = "The article writes the pointer as the running maximum of the design numbers allocated so far and defines its advance as the change in that maximum at each allocation."
+cite = []
+digest = "eba859ba1719c690"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Zero Advance Below the Pointer"
+gloss = "The pointer fails to advance exactly when the number allocated is no greater than the previous running maximum, which follows from the article's definition of the pointer."
+cite = []
+digest = "3f6f2a3e3fd7c47f"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Count of Skipped Numbers"
+gloss = "The article counts the numbers skipped as the sum of each pointer advance in excess of one, which avoids the double count that increments give when a number below the pointer is allocated."
+cite = []
+digest = "126614294e59170e"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Obedience Rate of a Series"
+gloss = "The article defines the obedience rate of a basic mission as the share of pointer advances equal to exactly one."
+cite = []
+digest = "295f3ea9ad7ebe42"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Obedience Rates of the X, M and Q Series"
+gloss = "The article's obedience rate evaluated on the register gives 72.7 percent for the research series, 51.5 percent for the multi-mission series and 44.8 percent for the unmanned series."
+cite = []
+digest = "af38e48fefc74da2"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Purpose and Maker Maps"
+gloss = "The article models the register as supplying two maps out of its mission-and-number pairs, one to official statements of purpose and one to leading firm names."
+cite = []
+digest = "7529dedb6b284265"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Injectivity of the Purpose Map"
+gloss = "The reading that a design number indexes a purpose requires the purpose map to be injective, so that two different numbers never carry the same official statement."
+cite = []
+digest = "a08d0e0230461558"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Well-Definedness of the Maker Map"
+gloss = "The reading that a design number indexes an organisation requires every register row on one mission-and-number pair to name the same leading firm."
+cite = []
+digest = "9a5addba5df47472"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Shares of Pairs Naming More Than One Firm"
+gloss = "The 27 pairs naming more than one leading firm are 26.2 percent of the 103 pairs carrying more than one row and 11.5 percent of all 235 pairs."
+cite = []
+digest = "a9e21fca263e3378"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Number a Sequential Allocator Would Issue"
+gloss = "The article formalises the instruction's next-in-series procedure as one more than the largest design number allocated before the $k$th allocation, which reads the last approved number as the highest one."
+cite = ["ref_dafi_16_401_2020"]
+digest = "aa2adbffcc4bf7ad"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Departure From the Sequential Number"
+gloss = "The article defines the departure of an allocation as its design number less the number a sequential allocator would have issued, so an in-sequence allocation has a departure of zero."
+cite = []
+digest = "1d41e6c8c8c2fa12"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Information Bound on a Chosen Number"
+gloss = "The article bounds the information a chosen number can carry by the base-two logarithm of the count of positions from the sequential number to the top of the field, assuming that every such position was open to the choice."
+cite = []
+digest = "b429c7a578d67795"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Zero Conditional Entropy of an In-Sequence Allocation"
+gloss = "The article states that a design number carries no information given its history whenever it is one above the previous pointer, writing the absence of choice as a conditional entropy of zero."
+cite = []
+digest = "bb6faf01a031af69"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Shannon Entropy of the Departures"
+gloss = "The Shannon entropy of the empirical distribution of departures equals the base-two logarithm of the sample size when every observation is distinct, which is 2.5850 bits for six observations."
+cite = []
+digest = "73ddea46e4009b42"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Total Information in the Departures"
+gloss = "The article sums its information bound over every allocation with a positive departure, which gives 59.5355 bits across the six dated out-of-sequence unmanned allocations."
+cite = []
+digest = "a4ca4a47aefca74b"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Null Model of Accidental Hits"
+gloss = "The article's null model draws each allocation uniformly from a band of 68 values, so the per-draw hit probability is the mean count of next-in-series values inside the band over its width and the count of hits is binomial."
+cite = []
+digest = "5e16bd0d2f0df19e"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Mean of a Binomial Count"
+gloss = "The expected number of accidental hits is the number of draws times the per-draw hit probability, which is 0.2941 for six draws."
+cite = []
+digest = "832d1c37836b8e0a"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Part Count of a Family"
+gloss = "The article counts the distinct parts of a family of species that would each have the same number of parts if designed alone as the common parts held once plus the remaining parts of each species held separately."
+cite = []
+digest = "4f8405c26708a9c8"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Distinct-Part Ratio"
+gloss = "The article divides the family's distinct parts by the total of wholly bespoke designs and writes the ratio in terms of the species count and the shared fraction alone."
+cite = []
+digest = "4a08c49a84a9a7a1"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Gradient of the Distinct-Part Ratio"
+gloss = "The distinct-part ratio is linear in the shared fraction, so in the article's model the first shared part is worth as much as the last."
+cite = []
+digest = "701b9c50dae7e768"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Wright Learning Curve"
+gloss = "Unit cost falls as a power of cumulative quantity, and the learning exponent is minus the base-two logarithm of the progress ratio by which cost falls at each doubling."
+cite = []
+digest = "5c1ea92cc0c9b5f0"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Production Quantities of the Shared and Bespoke Fractions"
+gloss = "The article assumes that the shared fraction of each aeroplane is built at the quantity of the whole family while the bespoke fraction is built at the quantity of one species."
+cite = []
+digest = "dd6f42b68e668ef2"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Fleet-Average Unit Cost Factor"
+gloss = "Under the article's assumption that the two fractions ride separate learning curves, the cost factor against bespoke designs is the bespoke fraction plus the shared fraction discounted by the family size raised to minus the learning exponent."
+cite = []
+digest = "a1ba2bafd3ffc4e8"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Sharing Slope"
+gloss = "The article rewrites the cost factor as one plus a negative slope times the shared fraction, with the slope set by the family size and the learning exponent."
+cite = []
+digest = "8325336cb613518d"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Gradient of the Cost Factor"
+gloss = "The gradient of the cost factor with respect to the shared fraction is the sharing slope itself, which is negative for every family of more than one species."
+cite = []
+digest = "3e908ecde9a8eb96"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Limit of the Cost Factor for a Large Family"
+gloss = "As the family grows without bound the sharing slope tends to minus one and the cost factor tends to one less the shared fraction."
+cite = []
+digest = "7fdb8135d37e47fd"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Ceiling on the Unit Cost Saving"
+gloss = "In the article's model no family of any size saves a larger fraction of unit cost than the fraction it shares."
+cite = []
+digest = "a8b54acb02ebf29b"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Species Needed for a Stated Saving"
+gloss = "Solving the article's cost factor for the family size gives the number of species a stated saving requires, which exists only below the ceiling set by the shared fraction."
+cite = []
+digest = "898a1ef91699c5ec"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Effective Cost With a Linear Sharing Penalty"
+gloss = "The article multiplies the cost factor by a penalty on delivered capability proportional to the shared fraction, which yields a quadratic in that fraction."
+cite = []
+digest = "54d8673646fb0147"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Curvature Under a Linear Penalty"
+gloss = "The curvature of the effective cost under a linear penalty is twice the product of the slope and the penalty coefficient, which is negative, so the stationary point is a maximum."
+cite = []
+digest = "70d45f4a90c091d7"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Condition for Full Commonality Under a Linear Penalty"
+gloss = "With the optimum at a corner, full commonality beats none exactly when the penalty coefficient falls below the negated slope over one plus the slope, which is 29.38 percent for three species on an eighty-five percent curve."
+cite = []
+digest = "b888417a479b7f75"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Effective Cost With a Quadratic Sharing Penalty"
+gloss = "The article takes the penalty on delivered capability to grow as the square of the shared fraction, on the argument that the first parts shared are the cheapest to share."
+cite = []
+digest = "ab956104295bf043"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke First-Order Condition Under a Quadratic Penalty"
+gloss = "Setting the derivative of the effective cost under a quadratic penalty to zero gives a quadratic equation in the shared fraction."
+cite = []
+digest = "fe34a60ff3470bf0"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Discriminant of the First-Order Condition"
+gloss = "The discriminant of the first-order condition decides whether the article's quadratic-penalty model has an interior optimum at all."
+cite = []
+digest = "5a67c1485fe9f638"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Optimal Shared Fraction"
+gloss = "The root of the first-order condition gives the shared fraction that minimises the effective cost in the article's quadratic-penalty model."
+cite = []
+digest = "286b891cd11f1529"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Threshold Penalty for an Interior Optimum"
+gloss = "An interior optimum exists only when the penalty coefficient exceeds three times the square of the sharing slope, which is 15.47 percent for three species on an eighty-five percent curve."
+cite = []
+digest = "3b80533db45f5e47"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Limit of the Threshold Penalty"
+gloss = "Because the sharing slope tends to minus one for a large family, the threshold penalty tends to three."
+cite = []
+digest = "cc57e88ea7d3ff4e"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Optimum at a Thirty Percent Penalty"
+gloss = "At an assumed penalty coefficient of 30 percent, three species and an assumed eighty-five percent progress ratio, the optimal shared fraction is 44.63 percent with an effective cost factor of 0.95235 against 1.00479 at full commonality."
+cite = []
+digest = "58dbf19941ad05fe"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Development Cost of a Platform Against Bespoke Types"
+gloss = "The article compares a genus developed once with each species added at its own cost against the same number of wholly bespoke types each developed in full."
+cite = []
+digest = "39cda84852a70def"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Break-Even Species Count"
+gloss = "Equating the two development costs gives the number of species at which the genus repays its own development cost."
+cite = []
+digest = "6336a238fe133c96"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Development Cost Implied for a Bespoke Type"
+gloss = "Inverting the break-even gives the development cost a bespoke type would need to have had for a family of a given size to repay the genus."
+cite = []
+digest = "a31b0296e2bf768d"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Break-Even Bespoke Cost at Two Species"
+gloss = "Reading the genus cost as the platform-sharing programme's total of 24,479,631.19 dollars and the first species as the Off-Board Sensing Station award of 67,986,112.00 dollars, a second species repays the chassis only if a bespoke demonstrator would have cost 18.00 percent more."
+cite = []
+digest = "fad2b86b70b728c5"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Sensitivity of the Break-Even to the Genus Cost"
+gloss = "The break-even species count rises by the reciprocal of the cost saving per species for each dollar added to the genus cost."
+cite = []
+digest = "859e235a67b7bfe6"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Exponential Growth of Available Capability"
+gloss = "The article assumes that the capability available at the frontier grows exponentially from its value when a design is frozen."
+cite = ["ref_gaasi_firstflight", "ref_afrl_firstflight"]
+digest = "0980a3a73f3e045b"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Time-Average Ratio of Delivered to Available Capability"
+gloss = "Under the article's exponential growth and a design that keeps its frozen capability, the time average of delivered over available capability across a freeze interval has a closed form."
+cite = []
+digest = "7379b5eab95dc61e"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Capability Shortfall"
+gloss = "The article defines the capability shortfall as one less the time-average ratio of delivered to available capability."
+cite = []
+digest = "e08e6ad390ed8918"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Small-Argument Expansion of the Shortfall"
+gloss = "For a short freeze the shortfall is about half the product of the growth rate and the freeze interval, less a second-order correction."
+cite = []
+digest = "0c9a53f13eb0759a"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Growth Rate From a Doubling Time"
+gloss = "The rate of exponential growth is the natural logarithm of two divided by the doubling time, so a two-year doubling gives 0.34657 per year."
+cite = []
+digest = "d2b7e1b96e68d74e"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Sensitivity of the Shortfall to the Freeze Interval"
+gloss = "The derivative of the article's shortfall with respect to the freeze interval is positive for every positive interval, so a longer freeze always costs more capability."
+cite = []
+digest = "dafeb1ac390f3951"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Long-Freeze Approximation of the Shortfall"
+gloss = "When the product of growth rate and freeze interval is large the exponential term vanishes and the shortfall is about one less the reciprocal of that product."
+cite = []
+digest = "6479566da0c6517e"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Gain From Shortening the Freeze"
+gloss = "The gain is the shortfall at the old freeze interval less the shortfall at the new one, which is 43.05 percentage points from fifteen years to three under the assumed two-year doubling."
+cite = []
+digest = "982862db172ded67"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Mean Clusters per Admitted Record"
+gloss = "The article measures overlap between its literature clusters as the total number of cluster matches divided by the admitted research records, which is 1.0649 clusters per record."
+cite = []
+digest = "09aaed4da81b0572"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Partition of the Reference Base by Provenance"
+gloss = "The article partitions its 1,198 reference definitions into primary sources, hand-written references, related posts and research records."
+cite = []
+digest = "561032a44e2170eb"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Report-Primary Share"
+gloss = "The article defines the report-primary share as the research records held by the reports server or the defence registry as a fraction of all admitted research records."
+cite = []
+digest = "7afea0455fec71ef"
+
+[[symbol]]
+tex = '\mathcal{R}'
+meaning = "the register's rows, partitioned by officiality"
+
+[[symbol]]
+tex = 'A_{\mathrm{in}}'
+meaning = "the design numbers absent from inside the register's window, with $A_{\\mathrm{out}}$ those allocated before it opens"
+
+[[symbol]]
+tex = '\gamma_A'
+meaning = "absent numbers as a share of the span"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "allocations per unit time in one basic mission"
+
+[[symbol]]
+tex = '\Delta t_A'
+meaning = "the absent numbers expressed as the series' own output, in years"
+
+[[symbol]]
+tex = '\varsigma_i'
+meaning = "one award as a share of a set of awards"
+
+[[symbol]]
+tex = '\epsilon'
+meaning = "the relative deviation of an outturn from a reference figure"
+
+[[symbol]]
+tex = '\nu^{\mathrm{hi}}_t'
+meaning = "one above the highest number allocated before a date"
+
+[[symbol]]
+tex = '\nu^{\mathrm{seq}}_t'
+meaning = "the lowest number never allocated before a date"
+
+[[symbol]]
+tex = '\nu^{\mathrm{rec}}_t'
+meaning = "one above the most recently allocated number"
+
+[[symbol]]
+tex = '\mathcal{A}_t'
+meaning = "the design numbers allocated in a basic mission before a date"
+
+[[symbol]]
+tex = '\mathcal{D}'
+meaning = "a designation written as an ordered tuple of its fields $p$, $q$, $m$, $d$ and $s$"
+
+[[symbol]]
+tex = 'N_c'
+meaning = "the distinct number-and-series codes within one basic mission"
+
+[[symbol]]
+tex = 'N_d'
+meaning = "the design numbers available within one basic mission"
+
+[[symbol]]
+tex = 'N_s'
+meaning = "the series letters available, the alphabet less two"
+
+[[symbol]]
+tex = 'd_k'
+meaning = "the design number of the $k$th allocation"
+
+[[symbol]]
+tex = '\Delta_k'
+meaning = "the increment between consecutive new design numbers"
+
+[[symbol]]
+tex = '\theta_{\Delta}'
+meaning = "the share of increments equal to one"
+
+[[symbol]]
+tex = '\nu_k'
+meaning = "the number a sequential allocator would issue at the $k$th allocation"
+
+[[symbol]]
+tex = '\alpha_k'
+meaning = "the advance of the pointer at the $k$th first allocation"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the share of pointer advances equal to one"
+
+[[symbol]]
+tex = '\mathcal{N}'
+meaning = "the set of mission-and-number pairs the register carries, with $\\mathcal{N}_{>1}$ those carrying more than one row"
+
+[[symbol]]
+tex = '\mathcal{M}'
+meaning = "the pairs naming more than one leading firm"
+
+[[symbol]]
+tex = '\mathcal{T}'
+meaning = "the set of official statements of purpose"
+
+[[symbol]]
+tex = '\mathcal{F}'
+meaning = "the set of leading firm names"
+
+[[symbol]]
+tex = '\delta_k'
+meaning = "the departure of an allocation from the sequential number"
+
+[[symbol]]
+tex = 'I(\nu)'
+meaning = "the information a chosen number can carry at a given ceiling, in bits"
+
+[[symbol]]
+tex = '\pi_i'
+meaning = "the probability of the $i$th departure value"
+
+[[symbol]]
+tex = 'I_{\Sigma}'
+meaning = "the total information the departures could carry, in bits"
+
+[[symbol]]
+tex = '\bar{\tau}'
+meaning = "the mean count of next-in-series values falling inside the band"
+
+[[symbol]]
+tex = 'B'
+meaning = "the width of the band the null model draws from"
+
+[[symbol]]
+tex = 'H'
+meaning = "the entropy of the observed departures, in bits"
+
+[[symbol]]
+tex = 'N_h'
+meaning = "the number of accidental hits under the null model"
+
+[[symbol]]
+tex = 'U'
+meaning = "the distinct parts the family holds in total"
+
+[[symbol]]
+tex = 'S'
+meaning = "the number of species raised on one genus"
+
+[[symbol]]
+tex = 'P'
+meaning = "the parts in one species if it were designed alone"
+
+[[symbol]]
+tex = 'C'
+meaning = "the parts common across the family"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the cumulative production quantity"
+
+[[symbol]]
+tex = 'r'
+meaning = "the progress ratio, the cost factor per doubling of quantity"
+
+[[symbol]]
+tex = 'b'
+meaning = "the learning exponent, minus the base-two logarithm of the progress ratio"
+
+[[symbol]]
+tex = 'a'
+meaning = "the sharing slope, equal to $S$ to the minus $b$ less one, always negative"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the shared fraction of a species, equal to $C$ over $P$"
+
+[[symbol]]
+tex = '\rho'
+meaning = "distinct parts as a fraction of the bespoke total"
+
+[[symbol]]
+tex = 'c_1'
+meaning = "the unit cost of the first article"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the fleet-average unit cost factor against bespoke designs, with $\\kappa_{\\mathrm{eff}}$ the factor after the sharing penalty"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the sharing penalty coefficient on delivered capability, with $\\eta_{\\ast}$ the value above which an interior optimum exists"
+
+[[symbol]]
+tex = '\Theta'
+meaning = "the discriminant of the first-order condition for the optimum"
+
+[[symbol]]
+tex = '\phi^{\ast}'
+meaning = "the shared fraction minimising effective cost"
+
+[[symbol]]
+tex = '\mathcal{C}_g'
+meaning = "the non-recurring cost of developing the genus"
+
+[[symbol]]
+tex = 'c_s'
+meaning = "the non-recurring cost of one species on the genus"
+
+[[symbol]]
+tex = 'c_b'
+meaning = "the non-recurring cost of one wholly bespoke aircraft type"
+
+[[symbol]]
+tex = 'S^{\ast}'
+meaning = "the species at which the genus repays its own development cost"
+
+[[symbol]]
+tex = 'g'
+meaning = "the exponential growth rate of available capability, per year"
+
+[[symbol]]
+tex = 'T'
+meaning = "the interval a design is held frozen between refreshes, in years"
+
+[[symbol]]
+tex = 'F_0'
+meaning = "the capability available when a design is frozen"
+
+[[symbol]]
+tex = 'T_2'
+meaning = "the doubling time of available capability"
+
+[[symbol]]
+tex = '\bar{\varrho}'
+meaning = "the time-average ratio of delivered to available capability"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the time-average capability shortfall, one less the ratio above"
+
+[[symbol]]
+tex = '\bar{m}'
+meaning = "the mean clusters whose phrases an admitted title carries"
+
+[[symbol]]
+tex = '\mathcal{K}_c'
+meaning = "the records whose titles carry one cluster's characteristic phrases"
+
+[[symbol]]
+tex = '\mathcal{B}'
+meaning = "the article's reference definitions, partitioned by provenance"
+
+[[symbol]]
+tex = 'K'
+meaning = "the research records the survey admits"
+
+[[symbol]]
+tex = '\varpi'
+meaning = "report primaries as a share of the admitted records"

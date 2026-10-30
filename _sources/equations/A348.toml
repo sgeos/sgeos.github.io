@@ -1,0 +1,447 @@
+# Equation classification for A348. Read by `python3 _lib/equations.py`.
+
+caution = "Temperatures are in kelvin, heat fluxes in megawatts per square metre and speeds in metres per second, while weights, fuel flows and forces are in pounds, cooling power is in British thermal units per second and the engine length is in inches, and $\\alpha$ is the thermal diffusivity in the diffusion-length relations but the linear expansion coefficient in the thermal-growth relations."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Ratio of X-51A to X-43 Powered Duration"
+gloss = "The two hundred and ten second burn of the fourth X-51A flight divided by the eleven second burn of the X-43 gives a factor of about nineteen."
+cite = ["research_x43_technology"]
+digest = "56d59170df124563"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Stagnation Temperature Ratio"
+gloss = "The isentropic stagnation temperature ratio rises with the square of the Mach number, scaled by half of one less than the ratio of specific heats."
+cite = ["ref_scramjet"]
+digest = "4418433253a0925f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Stagnation Temperature at the Fourth Flight Condition"
+gloss = "The stagnation temperature at Mach 5.1 follows from the standard atmosphere static temperature of 216.65 kelvin at the cruise altitude."
+cite = ["ref_us_standard_atmosphere_ref", "research_us_standard_atmosphere"]
+digest = "7d07a424a3d94583"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Ratio of X-43 to X-51A Stagnation Temperature"
+gloss = "The same relation at the X-43 Mach number of 9.68 and its altitude of about 110,000 feet gives a stagnation temperature 3.41 times that of the X-51A."
+cite = ["research_x43_technology"]
+digest = "af87ed46be2e268a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Isentropic Stagnation Pressure Ratio"
+gloss = "Bringing the Mach 5.1 flow to rest isentropically would raise its pressure by a factor of 594."
+cite = ["book_anderson_hypersonic"]
+digest = "a9a88f3153d1c851"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Dynamic Pressure in Terms of Static Pressure and Mach Number"
+gloss = "The dynamic pressure of a perfect gas is half the ratio of specific heats times the static pressure times the square of the Mach number."
+cite = []
+digest = "4de11978e8f3a87e"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Theta-Beta-Mach Relation"
+gloss = "The theta-beta-Mach relation connects the flow deflection angle of an attached oblique shock to the shock wave angle and the upstream Mach number."
+cite = []
+digest = "4eb70ed92a624362"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Normal Component of the Upstream Mach Number"
+gloss = "The component of the upstream Mach number normal to an oblique shock is the Mach number times the sine of the shock wave angle."
+cite = []
+digest = "85418836780d39a0"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Static Pressure Ratio Across a Shock"
+gloss = "The static pressure ratio across a shock depends only on the normal Mach number and the ratio of specific heats."
+cite = ["book_anderson_modern"]
+digest = "c4e7d06f8872b5c0"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Sutton and Graves Stagnation-Point Heating Correlation"
+gloss = "The Sutton and Graves correlation gives the convective stagnation-point heat flux in units of the International System as proportional to the square root of density over nose radius and the cube of velocity."
+cite = ["book_bertin"]
+digest = "1e3517d941a94970"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Stagnation-Point Heating Bracket for Assumed Nose Radii"
+gloss = "Because the nose radius is not published, the article evaluates the correlation at the fourth flight condition for two radii it chooses, five and fifty millimetres."
+cite = []
+digest = "6a469939538360cb"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Radiative Equilibrium Temperature"
+gloss = "A surface that rejects the incident heat flux by radiation alone reaches the temperature at which its emitted flux, the emissivity times the Stefan-Boltzmann constant times the fourth power of temperature, balances the input."
+cite = []
+digest = "0aae4e0e1b37dcf8"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Heating-Rate Ratio on Velocity Alone"
+gloss = "The ratio of X-43 to X-51A heating takes only the cube of the velocity ratio, an assumption the article chooses that sets the density and nose radius terms equal for the two vehicles."
+cite = []
+digest = "b6011e21207668d7"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Integrated Heat Load"
+gloss = "The heat load per unit area is the time integral of the heat flux over the exposure."
+cite = []
+digest = "d2cce586c8ab19e3"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Ratio of Integrated Heat Loads"
+gloss = "Taking each heating rate as constant across its burn, an assumption the article adopts, the ratio of heat loads is the duration ratio divided by the heating-rate ratio."
+cite = []
+digest = "e795311b475af71a"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Thermal Diffusion Length"
+gloss = "The depth to which heat penetrates a solid scales as the square root of the thermal diffusivity times the exposure time."
+cite = []
+digest = "1db47420aec77111"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Diffusion Depths for a Mid-Range Diffusivity"
+gloss = "The diffusion depths of the two flights are evaluated at a diffusivity of 3.5 millionths of a square metre per second, a mid-range value the article takes between the manufacturer's room-temperature and high-temperature figures for INCONEL alloy 625."
+cite = ["ref_inconel625"]
+digest = "a3bed266e5ec380f"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Ratio of Diffusion Depths"
+gloss = "The ratio of the two diffusion depths is the square root of the ratio of the burn durations, so the diffusivity cancels."
+cite = []
+digest = "0e13522bc40539b0"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Kinetic Energy Share Supplied by the Booster"
+gloss = "Because kinetic energy goes as the square of speed, the booster's share of the final kinetic energy is the square of the ratio of the Mach 4.8 separation speed to the Mach 5.1 cruise speed."
+cite = ["ref_boeing_fourth_flight"]
+digest = "ab56aa19166c46da"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Ratio of Scramjet to Booster Burn Duration"
+gloss = "The two hundred and ten second scramjet burn is about eight times the twenty-six second booster burn."
+cite = ["ref_boeing_fourth_flight"]
+digest = "ffc7a5bd0724437f"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Fuel Load as a Fraction of Empty Weight"
+gloss = "The 270 pounds of JP-7 is 6.75 percent of the 4,000 pound empty weight."
+cite = ["ref_x51_wikipedia"]
+digest = "4746261440762f4a"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Average Fuel Flow on the Fourth Flight"
+gloss = "The fourth flight burned the tank dry, so its average fuel flow is the 270 pound load divided by the 210 second burn."
+cite = ["ref_boeing_fourth_flight", "ref_x51_wikipedia"]
+digest = "6f1133d099dcf6a5"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Cooling Power of the Fuel Flow"
+gloss = "The cooling power available is the fuel flow times the physical and endothermic heat sink, evaluated across the published range for cracked hydrocarbon fuels."
+cite = ["research_dinda_vuchuru_2021", "research_endothermic_mach5", "research_heat_sink_fuel_protocol"]
+digest = "0bdf41c449cfc22f"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Heat Sink as a Fraction of Heat of Combustion"
+gloss = "The heat the fuel can absorb is 5.7 to 8.0 percent of the minimum net heat of combustion that its specification sets."
+cite = ["ref_jp7"]
+digest = "f4a286a128237e81"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Thermal Growth as a Fraction of Vehicle Length"
+gloss = "The published three quarters of an inch of engine growth is a quarter of a percent of the three hundred inch vehicle length."
+cite = ["ref_afrl_modified_x51", "ref_x51_wikipedia"]
+digest = "1174a2c5776b93e6"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Linear Thermal Expansion"
+gloss = "The change in length of a member is its expansion coefficient times its length times the temperature rise."
+cite = []
+digest = "526571b03d51af54"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Engine Length Implied by the Thermal Growth"
+gloss = "Solving the expansion relation for length with the published growth and the manufacturer's mean coefficient for INCONEL alloy 625 rests on a temperature rise of eight hundred kelvin that the article assumes, and yields a consistency check of about five feet."
+cite = ["ref_inconel625"]
+digest = "79f79b8ba410d90d"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Isentropic Area-Mach Relation"
+gloss = "The isentropic area-Mach relation gives the ratio of a duct area to the sonic throat area at a given Mach number."
+cite = []
+digest = "dd35ab1ed9396267"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Kantrowitz Self-Starting Limit"
+gloss = "The Kantrowitz condition requires the throat to pass the flow after a normal shock at the entrance, which at Mach 5.1 bounds the throat at no less than 0.646 of the capture area."
+cite = ["book_anderson_modern"]
+digest = "c784126e5e88f20e"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Programme Cost per Second of Powered Flight"
+gloss = "Three hundred million dollars divided by the 353 seconds of powered flight across the programme gives about 850,000 dollars per second."
+cite = []
+digest = "69d2bb0321ac697c"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Air Mass Flow at Stoichiometric Combustion"
+gloss = "The captured air flow is the measured fuel flow divided by a stoichiometric ratio derived for an average fuel formula of $\\mathrm{C_{12}H_{23}}$, at an equivalence ratio of one that the article assumes."
+cite = []
+digest = "ebc09d9a593038d0"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Breguet Range Equation"
+gloss = "The Breguet relation gives the cruise range of an air-breather as speed times specific impulse times lift-to-drag ratio times the logarithm of the weight ratio."
+cite = ["book_heiser_pratt"]
+digest = "5e897c9242ff0797"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Powered Distance at Constant Cruise Speed"
+gloss = "The powered distance takes the Mach 5.1 speed at sixty thousand feet as constant across the whole 210 second burn, although the vehicle accelerated from Mach 4.8."
+cite = []
+digest = "1ff769fb5cc69acf"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Product of Specific Impulse and Lift-to-Drag Ratio"
+gloss = "Solving the Breguet relation with the powered distance gives the product of specific impulse and lift-to-drag ratio, a cruise relation the article applies to an accelerating flight."
+cite = []
+digest = "c609b6acba09a76a"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Average Net Force From the Gain in Kinetic Energy"
+gloss = "The average net force is the gain in kinetic energy over the burn divided by the distance flown, a construction the article chooses that omits the unpublished climb and so gives a lower bound."
+cite = []
+digest = "358ac11c3120378f"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Net Specific Impulse"
+gloss = "Dividing the average net force by the measured fuel flow gives a net specific impulse of about 130 seconds, a lower bound that inherits the omission of the climb."
+cite = []
+digest = "eab4b2e0f526ccb3"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Fraction of Engine Output Converted to Acceleration"
+gloss = "The net specific impulse is divided by the gross specific impulse that the article infers for lift-to-drag ratios of two to four that it assumes."
+cite = []
+digest = "c3de8af40393a110"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Burn Durations as Fractions of the Target"
+gloss = "The 143 and 210 second burns are 47.7 and 70.0 percent of the programme's three hundred second target."
+cite = ["ref_x51_wikipedia"]
+digest = "5d79d817c2a54ec2"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Fuel Required for the Target Burn"
+gloss = "At the demonstrated fuel flow a three hundred second burn would require about 386 pounds of fuel."
+cite = []
+digest = "918145574c9e57e1"
+
+[[symbol]]
+tex = 'T_0'
+meaning = "the stagnation temperature, with $T$ the static temperature"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number, with $M_1$ the upstream value"
+
+[[symbol]]
+tex = 'p_0'
+meaning = "the stagnation pressure, with $p$ the static pressure"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the flow deflection angle"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the shock wave angle"
+
+[[symbol]]
+tex = 'M_{n1}'
+meaning = "the component of the upstream Mach number normal to the shock"
+
+[[symbol]]
+tex = 'p_2'
+meaning = "the static pressure behind the shock, with $p_1$ the pressure ahead of it"
+
+[[symbol]]
+tex = '\dot{q}'
+meaning = "the stagnation-point heat flux"
+
+[[symbol]]
+tex = 'R_n'
+meaning = "the nose or leading-edge radius"
+
+[[symbol]]
+tex = 'T_{\text{rad}}'
+meaning = "the radiative equilibrium temperature"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the surface emissivity"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the integrated heat load per unit area"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the thermal diffusion length"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the thermal diffusivity in the diffusion relations and the linear expansion coefficient in the growth relations"
+
+[[symbol]]
+tex = '\dot{m}_f'
+meaning = "the fuel mass flow"
+
+[[symbol]]
+tex = 'h_{\text{sink}}'
+meaning = "the physical and endothermic heat sink of the fuel per unit mass"
+
+[[symbol]]
+tex = 'h_{\text{combustion}}'
+meaning = "the net heat of combustion of the fuel per unit mass"
+
+[[symbol]]
+tex = 'P_{\text{cool}}'
+meaning = "the cooling power of the fuel flow"
+
+[[symbol]]
+tex = '\Delta L'
+meaning = "the thermal growth of the engine, with $L$ its length"
+
+[[symbol]]
+tex = '\Delta T'
+meaning = "the temperature rise"
+
+[[symbol]]
+tex = 'A^*'
+meaning = "the sonic throat area"
+
+[[symbol]]
+tex = 'A_{th}'
+meaning = "the inlet throat area, with $A_i$ the capture area"
+
+[[symbol]]
+tex = 'p_{02}'
+meaning = "the total pressure behind a normal shock, with $p_{01}$ the total pressure ahead of it"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the equivalence ratio"
+
+[[symbol]]
+tex = 'f_{\text{st}}'
+meaning = "the stoichiometric fuel-to-air ratio"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds, with $I_{sp,\\text{net}}$ the net value after drag"
+
+[[symbol]]
+tex = 'W_0'
+meaning = "the weight at the start of cruise, with $W_1$ the weight at the end"
+
+[[symbol]]
+tex = 'F_{\text{net}}'
+meaning = "the average net accelerating force"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the fuel mass"

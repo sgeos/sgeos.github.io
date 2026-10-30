@@ -1,0 +1,363 @@
+# Equation classification for A349. Read by `python3 _lib/equations.py`.
+
+caution = "Design numbers, counts and multiplicities are dimensionless integers, durations are in years, the ambiguity measure is in bits, and every similarity score is a dimensionless number between zero and one that depends on which measure and which rendering of the two names is adopted, so scores from different measures are not interchangeable."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Next Available Design Number"
+gloss = "The article formalises the instruction's next available consecutive number as the least natural number not already used up within the basic mission, counting numbers passed over as used up."
+cite = ["ref_afi_16_401_2005"]
+digest = "a66d2634784c1ad0"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Available Design Numbers Within a Mission"
+gloss = "The numbers still available are those of the instruction's range from one to 999 that are not already used up, and the next assignment is the least of them."
+cite = ["ref_afi_16_401_2005"]
+digest = "13497b5e21dac513"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Monotonicity of the Allocated and Available Sets"
+gloss = "Because the instruction forbids reuse of a retired designation, the used-up set can only grow over time and the available set can only shrink."
+cite = ["ref_afi_16_401_2005"]
+digest = "6a4b1506444e00e6"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Three-State Partition of the Design Numbers"
+gloss = "The article partitions the range into allocated, marked not used and available numbers, adding the middle state that the master list records and the instruction never mentions."
+cite = ["ref_missing_mds"]
+digest = "80238e403dc2550a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Departure of the Assigned Number From the Sequence Rule"
+gloss = "The assigned number 53 exceeds the number 52 that the sequence rule names by one."
+cite = ["ref_missing_mds"]
+digest = "3dd3349bd55e5dac"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Size of the Series Symbol Alphabet"
+gloss = "Excluding the letters I and O, which the instruction prohibits as series symbols, leaves an alphabet of twenty-four letters."
+cite = ["ref_afi_16_401_2005"]
+digest = "8e5ccb5909e39463"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Designation Space of a Mission Under the 2005 Issue"
+gloss = "With 999 design numbers and twenty-four series symbols, a basic mission can hold 23,976 designations."
+cite = ["ref_afi_16_401_2005"]
+digest = "9764e33f27d4a854"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Designation Space of a Mission Under the 2020 Issue"
+gloss = "Extending the design number to four digits, as the 2020 issue provides, raises the space to 239,976 designations."
+cite = ["ref_dafi_16_401_2020"]
+digest = "fca0cecc40f124b5"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Intervals Before the Written Authority to Skip"
+gloss = "The 2014 issue that first grants the authority to skip came eight years after the refusal and twenty years after the earliest issue read."
+cite = ["ref_afi_16_401_2014"]
+digest = "eb11b5edf743e4f5"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Count of Missions Skipping Thirteen by Custom"
+gloss = "Six basic mission series lack the design number 13 by the unwritten custom of skipping it."
+cite = ["ref_missing_mds"]
+digest = "f5b96f452349929e"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Designation as a Pair of Mission and Number"
+gloss = "An assigned designation is a pair of a basic mission symbol and a design number issued within that mission, and such pairs are unique by construction."
+cite = []
+digest = "c8ef29ee2f45788d"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Projection Onto the Design Number"
+gloss = "The article models a channel that preserves only the design number as a projection that discards the mission symbol, a supposition it infers from the refusals."
+cite = []
+digest = "eff8f3d499e14234"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Fibre of Indistinguishable Designations"
+gloss = "The designations that a listener hearing only the number cannot separate form the fibre of the projection, and its size is the multiplicity of that number."
+cite = []
+digest = "0ac473a9e4993556"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Number of Distinct Designations in the Register"
+gloss = "The register holds as many distinct designations as the sum of the sizes of the allocated sets over all missions."
+cite = []
+digest = "b1c87e30f9bfd648"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Number of Designations Distinguishable by Number Alone"
+gloss = "The count of design numbers in use is equated with the largest number issued in any mission, which holds only when every number up to that maximum has been issued in at least one series."
+cite = []
+digest = "ecf8ed14205eeb65"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Multiplicity of a Design Number"
+gloss = "The multiplicity of a design number is the number of basic mission series that have issued it."
+cite = []
+digest = "0f20523e8a7aa29b"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Count of Colliding Designation Pairs"
+gloss = "The article measures collisions as the number of unordered pairs of series that share a design number, summed over all numbers."
+cite = []
+digest = "8ae497654da1b134"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Ratio of Register Size to Channel Capacity"
+gloss = "The article defines the factor by which the register outruns a number-only channel as the ratio of designations to distinct numbers, equal to the mean multiplicity."
+cite = []
+digest = "8973c00f3e403d82"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Probability of Correct Attribution"
+gloss = "Under a uniform prior over the series that hold a number, an idealisation the article states, a listener attributes a spoken number correctly with probability one over its multiplicity."
+cite = []
+digest = "26c0800adb83315c"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Residual Uncertainty in Bits"
+gloss = "The same uniform prior gives a residual uncertainty of the base-two logarithm of the multiplicity, the information a number-only channel discards."
+cite = []
+digest = "3633ff2e833933c7"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Ambiguity Added by Approving the F-35"
+gloss = "Approving the F-35 on top of the X-35 doubled the multiplicity of 35 and so, under the uniform prior, added one bit of ambiguity."
+cite = []
+digest = "d169dc0606886bd8"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Ambiguity Withheld by Refusing the X-52"
+gloss = "Refusing the X-52 left the multiplicity of 52 at one, so under the uniform prior the refusal added no ambiguity."
+cite = []
+digest = "923cd570fec8eb7d"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Occupancy Duration of a Design Number"
+gloss = "A number is occupied from its allocation until the last aircraft carrying it retires, since the instruction forbids reuse."
+cite = ["ref_afi_16_401_2005"]
+digest = "9c04fea2251fe5e1"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Occupancy of the Number 52"
+gloss = "The occupancy of the B-52 is bounded below by taking 2050 as the retirement year, a representative value the article takes from expected service into the 2050s."
+cite = ["ref_b52"]
+digest = "584afe49b21d8e11"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Split of the B-52 Occupancy at the Refusal"
+gloss = "The ninety-five year occupancy is divided at 2006 into fifty-one years served and forty-four expected, the latter resting on the assumed retirement year of 2050."
+cite = ["ref_b52"]
+digest = "bb89fe0817ca190a"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Levenshtein Edit Distance Recurrence"
+gloss = "The edit distance between two strings is the least number of single-character insertions, deletions and substitutions, computed by the standard dynamic programming recurrence."
+cite = ["ref_levenshtein"]
+digest = "4830bcfb3c65283a"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Normalised Edit Similarity of X-52 and B-52"
+gloss = "One minus the edit distance divided by the length of the longer string gives a similarity of 0.75 for the written pair."
+cite = []
+digest = "50ed7d686b395670"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Longest Common Subsequence Similarity"
+gloss = "The length of the longest common subsequence divided by the length of the longer string also gives 0.75 for the written pair."
+cite = []
+digest = "2aee1248d6369bad"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Character Bigram Sets of the Two Designations"
+gloss = "Each designation is reduced to its set of adjacent character pairs, and the two sets share two of their three members."
+cite = []
+digest = "0eae0d6137019df8"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Dice Coefficient on Character Bigrams"
+gloss = "The Dice coefficient, twice the shared bigrams over the total, is about 0.667 for the written pair."
+cite = []
+digest = "c5a8feffc57a550b"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Edit Similarity of the Spoken Forms"
+gloss = "The edit similarity is evaluated on the spoken renderings ex fifty two and bee fifty two, a spelling of the spoken forms the article chooses, and gives about 0.846."
+cite = []
+digest = "5900d211ee18a8fd"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Word-Level Similarity of the Spoken Forms"
+gloss = "Treating the spoken forms as sequences of three words, a tokenisation the article chooses, one differing word in three gives about 0.667."
+cite = []
+digest = "cdc26259b4c78292"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Threshold Rule for Refusing a Designation"
+gloss = "The article states the decision rule that a written refusal would need, refusing a proposed designation when its greatest similarity to any designation in use reaches a threshold."
+cite = []
+digest = "4dac9a0693d88ede"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Similarity Bands of the Drug Name Guidance"
+gloss = "The Food and Drug Administration guidance classes a combined orthographic and phonetic score as highly similar at seventy percent or more, moderately similar from fifty-five to sixty-nine percent and of low similarity at fifty-four percent or less."
+cite = ["ref_fda_naming"]
+digest = "301c3678c7fa9ec1"
+
+[[symbol]]
+tex = 'n^{\star}'
+meaning = "the next available design number that the sequence rule names"
+
+[[symbol]]
+tex = 'A_m'
+meaning = "the set of design numbers used up within basic mission $m$"
+
+[[symbol]]
+tex = 'V_m'
+meaning = "the set of design numbers still available within basic mission $m$"
+
+[[symbol]]
+tex = 'U_m'
+meaning = "the set of design numbers marked not used within basic mission $m$"
+
+[[symbol]]
+tex = 'M'
+meaning = "the set of basic mission symbols"
+
+[[symbol]]
+tex = '|S|'
+meaning = "the number of permitted series symbols"
+
+[[symbol]]
+tex = 'N_m'
+meaning = "the size of the designation space of a basic mission"
+
+[[symbol]]
+tex = '\mathrm{MDS}'
+meaning = "the set of assigned designations, each a pair of mission symbol and design number"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the projection that keeps only the design number"
+
+[[symbol]]
+tex = 'o_k'
+meaning = "the multiplicity of design number $k$, the number of series that have issued it"
+
+[[symbol]]
+tex = 'C'
+meaning = "the count of colliding designation pairs"
+
+[[symbol]]
+tex = 'R'
+meaning = "the ratio of register size to the number of distinct design numbers"
+
+[[symbol]]
+tex = 'H(k)'
+meaning = "the residual uncertainty in bits after hearing design number $k$ alone"
+
+[[symbol]]
+tex = 'T_{\text{occupied}}'
+meaning = "the time a design number stays occupied"
+
+[[symbol]]
+tex = 'd_{i,j}'
+meaning = "the edit distance between the first $i$ characters of $a$ and the first $j$ characters of $b$"
+
+[[symbol]]
+tex = '\ell_a'
+meaning = "the length of string $a$, with $\\ell_b$ that of string $b$"
+
+[[symbol]]
+tex = 's(a, b)'
+meaning = "the normalised edit similarity of two strings"
+
+[[symbol]]
+tex = 's_{\mathrm{LCS}}'
+meaning = "the longest common subsequence similarity"
+
+[[symbol]]
+tex = '\mathcal{B}'
+meaning = "the set of character bigrams of a string"
+
+[[symbol]]
+tex = 's_{\mathrm{Dice}}'
+meaning = "the Dice coefficient on character bigrams"
+
+[[symbol]]
+tex = '\mathcal{A}'
+meaning = "the set of designations already in use"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the similarity threshold for refusal"

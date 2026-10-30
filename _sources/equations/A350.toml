@@ -1,0 +1,371 @@
+# Equation classification for A350. Read by `python3 _lib/equations.py`.
+
+caution = "Dynamic pressures are in pounds per square foot at standard atmosphere conditions, actuator and structural moments are in inch-pounds, surface rates are in degrees per second and time constants in seconds, the reversal and divergence relations are those of a typical section with a single torsional degree of freedom rather than of the real wing, and a positive actuator margin $\\varepsilon$ means the actuator can exceed the structural limit of its surface."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Bredt-Batho Torsional Rigidity of a Thin-Walled Box"
+gloss = "The Bredt-Batho result gives the torsional rigidity of a closed thin-walled section as four times the square of the enclosed area times the shear modulus and skin thickness, divided by the perimeter."
+cite = ["book_megson", "book_hodges_pierce"]
+digest = "b2135b3ad4eff7f7"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Skin Mass per Unit Span"
+gloss = "The mass of the skin per unit span is its density times its thickness times the perimeter."
+cite = []
+digest = "640edf5a4b896c4a"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Proportionality of Torsional Rigidity to Skin Mass"
+gloss = "Eliminating the thickness between the two relations, with the enclosed area and perimeter held fixed as the article assumes, makes torsional rigidity proportional to skin mass per unit span."
+cite = []
+digest = "5cdf8a6dc0f5c2a3"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Proportionality of Reversal Pressure to Structural Mass"
+gloss = "Chaining the reversal dynamic pressure to torsional stiffness and stiffness to skin mass gives, to first order and at fixed geometry, a reversal margin bought linearly in structural mass."
+cite = []
+digest = "60b69677fbc6fe57"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Dynamic Pressure"
+gloss = "The dynamic pressure is half the air density times the square of the true airspeed."
+cite = ["ref_dynamic_pressure"]
+digest = "a830f4c7d71bf507"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Moment Equilibrium of a Typical Section With a Control Surface"
+gloss = "The elastic restoring moment of the twisted section balances the control surface pitching moment and the moment of the lift that the twist itself generates at the offset $e$."
+cite = []
+digest = "f1007699f8e69716"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Elastic Twist of the Typical Section"
+gloss = "Solving the equilibrium for the twist gives a ratio whose denominator is the torsional stiffness less the aerodynamic moment slope."
+cite = []
+digest = "c6f4ac8b2c159cb7"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Divergence Dynamic Pressure of a Typical Section"
+gloss = "The divergence dynamic pressure, at which the twist denominator vanishes, is the torsional stiffness divided by the product of area, offset and lift-curve slope."
+cite = []
+digest = "8f3295e5a8c7baf6"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Lift Increment From Camber and Twist"
+gloss = "The lift increment from a control deflection is the sum of the direct camber term and the term from the elastic twist it induces."
+cite = []
+digest = "7d4691eda8cae34d"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Control Reversal Dynamic Pressure"
+gloss = "Setting the lift increment to zero and substituting the twist gives the dynamic pressure at which the control surface reverses."
+cite = []
+digest = "768e6da6d4e5dc9a"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Reduced Reversal Dynamic Pressure"
+gloss = "The textbook form drops the flap's own lift acting at the offset beside its pitching moment acting on the chord."
+cite = ["book_bisplinghoff", "book_hodges_pierce"]
+digest = "646211eb071866c1"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Linear Decay of Rolling Effectiveness With Dynamic Pressure"
+gloss = "The rolling effectiveness of a trailing-edge surface relative to its rigid value falls linearly with dynamic pressure, reaching zero at the reversal pressure."
+cite = ["book_bisplinghoff", "book_hodges_pierce", "book_wright_cooper", "book_etkin_reid"]
+digest = "ccb1b4e1ba6c80a5"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Ratio of Reversal to Divergence Dynamic Pressure"
+gloss = "Dividing the reduced reversal pressure by the divergence pressure cancels the torsional stiffness, so the order of the two limits is fixed by the aerodynamics and the position of the elastic axis."
+cite = ["book_bisplinghoff", "book_hodges_pierce"]
+digest = "45a54f0ca7827733"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Opposite Stiffness Sensitivities of Trailing-Edge and Leading-Edge Surfaces"
+gloss = "The rolling effectiveness of a trailing-edge surface rises with torsional stiffness while that of a leading-edge surface falls, as the flight test report records."
+cite = ["research_clarke_allen_2005"]
+digest = "f1cce1976b451b00"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Conditions Defining the Four Control Regions"
+gloss = "The article writes the four regions of the report's illustration as conditions on the trailing-edge and leading-edge rolling effectivenesses, so that the boundary between regions III and IV falls exactly at the reversal pressure of the simple model."
+cite = []
+digest = "f88194c84ff37a23"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Ratio of Outboard to Inboard Leading-Edge Flap Rate Limits"
+gloss = "The outboard leading-edge flap rate limit of 45 degrees per second is three times the inboard limit of 15."
+cite = ["research_clarke_allen_2005"]
+digest = "121282ddb657885c"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Hinge Moment of a Control Surface"
+gloss = "The hinge moment is the dynamic pressure times the surface area and mean chord aft of the hinge times a coefficient linear in angle of attack and deflection."
+cite = []
+digest = "a5e87feec50dda81"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Actuator Moment as Force Times Arm"
+gloss = "The moment a linear actuator applies is its force times its moment arm."
+cite = []
+digest = "d5a114dd81874bc2"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Aileron Actuator Moment Against Its Structural Limit"
+gloss = "The reported aileron actuator force on its reported arm gives 52,400 inch-pounds, above the reported structural limit of 50,000."
+cite = ["research_clarke_allen_2005"]
+digest = "f3223675d7ae7711"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Actuator Margin Over the Structural Limit"
+gloss = "The margin is the ratio of actuator capability to structural limit less one, which for the aileron is 4.8 percent."
+cite = ["research_clarke_allen_2005"]
+digest = "1e2c856c665e4670"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Trailing-Edge Flap Actuator Margin"
+gloss = "The reported trailing-edge flap actuator force and arm exceed the positive structural limit by about 4.4 percent."
+cite = ["research_clarke_allen_2005"]
+digest = "ff20a9ba40984e89"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Leading-Edge Flap Actuator Margins"
+gloss = "The inboard rotary actuator exceeds its negative limit by 38.75 percent while the outboard actuator falls short of both its limits, every figure being the report's."
+cite = ["research_clarke_allen_2005"]
+digest = "6075da1174658009"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Dynamic Pressure at the Unflown Points at Fifteen Thousand Feet"
+gloss = "The standard atmosphere gives about 1,204 and 1,413 pounds per square foot at Mach 1.2 and Mach 1.3 at 15,000 feet."
+cite = ["research_clarke_allen_2005"]
+digest = "903c15a812ad0685"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Dynamic Pressure at the Unflown Point at Ten Thousand Feet"
+gloss = "The standard atmosphere gives about 1,467 pounds per square foot at Mach 1.2 at 10,000 feet."
+cite = ["research_clarke_allen_2005"]
+digest = "4ab98cf5688db87b"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Ratios of Unflown to Highest Flown Nominal Dynamic Pressure"
+gloss = "Against the highest nominal condition flown, Mach 1.1 at 10,000 feet, the two unflown points lie 14.6 and 19.0 percent higher in dynamic pressure."
+cite = ["research_clarke_allen_2005"]
+digest = "5d4c5ed34137b0b0"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Dynamic Pressure at the Calibrated Flown Condition"
+gloss = "At the calibrated condition of Mach 1.16 and 9,800 feet the standard atmosphere gives about 1,381 pounds per square foot."
+cite = ["research_clarke_allen_2005"]
+digest = "db697834931dacb3"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Single-Degree-of-Freedom Roll Equation"
+gloss = "The roll acceleration times the roll inertia equals the rolling moment from control deflection plus the damping moment proportional to the nondimensional roll rate."
+cite = []
+digest = "8fc92f90db1a1789"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Steady-State Helix Angle"
+gloss = "In steady roll the helix angle is the ratio of control to damping derivative times the deflection, independent of dynamic pressure for a rigid wing."
+cite = []
+digest = "f2090e36bf2ae857"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Roll-Mode Time Constant"
+gloss = "The roll-mode time constant is the roll inertia divided by the damping moment per unit roll rate, so it shortens as speed rises at fixed density."
+cite = []
+digest = "57b76c271f764b77"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Bank Angle of a First-Order Roll Response"
+gloss = "Integrating the first-order roll response from rest gives the bank angle as the steady roll rate times the elapsed time less a lag of one time constant that decays exponentially."
+cite = []
+digest = "dc882d52948a669d"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Margin of the Slowest Roll Mode to the Level 1 Limit"
+gloss = "The level 1 limit of 1.0 seconds is about 1.67 times the slowest measured roll-mode time constant of 0.60 seconds."
+cite = ["research_clarke_allen_2005"]
+digest = "90093e135f80f7b5"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Roll Rate Relative to the Production Aircraft"
+gloss = "Roll rates by active wing control alone were 80 to 85 percent of those of a production F/A-18, which used its differential tail as well."
+cite = ["ref_aaw_factsheet"]
+digest = "bccc182ebd9b96c8"
+
+[[symbol]]
+tex = 'GJ'
+meaning = "the torsional rigidity of the wing box, with $G$ the shear modulus"
+
+[[symbol]]
+tex = '\oint \mathrm{d}s'
+meaning = "the perimeter of the torsion box, with $A$ its enclosed area and $t$ its skin thickness"
+
+[[symbol]]
+tex = '\rho_{s}'
+meaning = "the density of the skin material"
+
+[[symbol]]
+tex = 'q_{R}'
+meaning = "the control reversal dynamic pressure"
+
+[[symbol]]
+tex = 'q_{D}'
+meaning = "the divergence dynamic pressure"
+
+[[symbol]]
+tex = 'K_\theta'
+meaning = "the torsional stiffness of the section about its elastic axis"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the elastic twist of the section"
+
+[[symbol]]
+tex = 'C_{m,\delta}'
+meaning = "the pitching moment derivative of the control surface, negative for a trailing-edge surface deflected down"
+
+[[symbol]]
+tex = 'C_{L,\alpha}'
+meaning = "the lift-curve slope"
+
+[[symbol]]
+tex = 'C_{L,\delta}'
+meaning = "the lift derivative of the control surface"
+
+[[symbol]]
+tex = 'e'
+meaning = "the distance of the aerodynamic centre ahead of the elastic axis"
+
+[[symbol]]
+tex = 'c'
+meaning = "the chord of the section"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the control surface deflection"
+
+[[symbol]]
+tex = 'C_{l,\delta}'
+meaning = "the rolling moment derivative of a control surface"
+
+[[symbol]]
+tex = '\eta_{\mathrm{TE}}'
+meaning = "the rolling effectiveness of the trailing-edge surfaces, with $\\eta_{\\mathrm{LE}}$ that of the leading-edge surfaces"
+
+[[symbol]]
+tex = '\dot{\delta}_{\max}'
+meaning = "the surface rate limit"
+
+[[symbol]]
+tex = 'H'
+meaning = "the hinge moment"
+
+[[symbol]]
+tex = 'S_{f}'
+meaning = "the area of the control surface aft of its hinge, with $\\bar{c}_{f}$ its mean chord"
+
+[[symbol]]
+tex = 'M_{\mathrm{act}}'
+meaning = "the moment the actuator can apply, with $F$ its force and $r$ its arm"
+
+[[symbol]]
+tex = 'M_{\mathrm{lim}}'
+meaning = "the structural limit moment of the surface"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the actuator margin over the structural limit"
+
+[[symbol]]
+tex = 'I_{x}'
+meaning = "the roll moment of inertia"
+
+[[symbol]]
+tex = 'C_{l,p}'
+meaning = "the roll damping derivative, which is negative"
+
+[[symbol]]
+tex = 'p_{\mathrm{ss}}'
+meaning = "the steady-state roll rate"
+
+[[symbol]]
+tex = '\tau_{R}'
+meaning = "the roll-mode time constant"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the bank angle"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"

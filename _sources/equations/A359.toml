@@ -1,0 +1,663 @@
+# Equation classification for A359. Read by `python3 _lib/equations.py`.
+
+caution = "The dynamics matrices are in inverse seconds and carry representative rather than measured values, surface deflections and rates are evaluated in degrees and degrees per second although the notation key states radians, and several letters depart from their usual meanings, so $e$ is the model-following state error while $e^{- \\tau s}$ is the exponential of a delay, $P_s$ is the static pressure and not a specific excess power, $\\gamma$ is a deflection gradient and not a ratio of specific heats, $g$ is a relabelling of the rating scale and not gravity, $A$ is a generic two-by-two matrix in the trace and determinant relation, and $V$ and $v$ are obligations in dollars."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Fraction of the Flying Life Carried Under an X Number"
+gloss = "The article defines the share of the aeroplane's life as the Variable Stability In-flight Simulator Test Aircraft, VISTA, that it has flown with an X designation, measured from the first flight and the designation date to the date of the article."
+cite = ["ref_x62_wikipedia", "ref_vintage_viper_x", "ref_mds_addendum"]
+digest = "c7ff694d915d8ef4"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Transactions Sum to the Award Total"
+gloss = "The obligations of an award's transactions, filed one at a time, sum to the separately stated award total."
+cite = ["ref_usaspending"]
+digest = "fd5aa6ed83bb930e"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Contractor Shares of the Recorded Obligation"
+gloss = "Each contractor's share is its subtotal divided by the whole record, giving Calspan 81.2 percent and Lockheed Martin 18.8 percent."
+cite = []
+digest = "4232114d79ba0ea2"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Symmetric and Differential Tail Commands"
+gloss = "The symmetric and differential commands are an invertible change of basis on the left and right tail deflections, so the pair supplies two independent controls."
+cite = []
+digest = "7cdf3a3ecb96395a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Linear Models of the Host and the Simulated Aeroplane"
+gloss = "The host and the model are each a linear state-space system with its own dynamics and control effectiveness matrices."
+cite = ["book_stevens_lewis", "book_mcruer_dynamics"]
+digest = "605fb2fbad23c0b6"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Model-Following Control Law"
+gloss = "The host's controls are a linear combination of its own state, the model's state and the model's control input."
+cite = ["ref_mrac"]
+digest = "1b3f6b4cf00ba7f0"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Closed Loop Under Model Following"
+gloss = "Substituting the control law into the host's dynamics gives the closed-loop state equation."
+cite = []
+digest = "ec73e84bbe651ca6"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Matching Conditions on the Gains"
+gloss = "For the host to follow the model exactly, the closed loop must equal the model term by term, which gives two linear conditions on the gains."
+cite = []
+digest = "44df429bf54a88fa"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Projector Onto the Unreachable Subspace"
+gloss = "The identity minus the control matrix times its Moore-Penrose pseudoinverse projects onto the complement of the column space of the control matrix."
+cite = ["ref_pseudoinverse", "ref_projection"]
+digest = "7dabae794a55a222"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Erzberger Conditions for Perfect Model Following"
+gloss = "Exact model following is possible if and only if the projector annihilates both the demanded change of dynamics and the model's control matrix."
+cite = ["ref_erzberger_1967"]
+digest = "b8cf7e72295941ef"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Least-Squares Model-Following Gains"
+gloss = "When the conditions hold, the gains are the pseudoinverse solutions of the matching conditions, which are then exact."
+cite = ["ref_erzberger_1967", "ref_asseo_1970"]
+digest = "0973d1c6a9c91627"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Demanded Change of Dynamics"
+gloss = "The change of dynamics a simulation demands is the model's dynamics matrix less the host's."
+cite = []
+digest = "fb5cd47bd58c6d5c"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Unmatchable Residual"
+gloss = "The part of the demanded change that the projector leaves is the residual no control law can produce."
+cite = []
+digest = "553c63881b8ab4f7"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Model-Following Error Dynamics"
+gloss = "The state error between host and model obeys a stable homogeneous response driven by the residual acting on the model's state and by any mismatch in the input gains."
+cite = ["ref_anderson_1991"]
+digest = "10966c43eec32e74"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Steady Model-Following Error"
+gloss = "Setting the error derivative to zero gives a steady error that depends on the residual and the model's state and that no choice of feedback gain removes."
+cite = ["ref_anderson_1991"]
+digest = "ec2978fa43161d4c"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Rank of the Projector"
+gloss = "The rank of the projector is the number of states less the rank of the control matrix, and so at least the number of states less the number of controls."
+cite = []
+digest = "510e790c9390306d"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Output Model-Following Condition"
+gloss = "Matching an output rather than the full state replaces the projector with one built from the product of the output and control matrices."
+cite = ["book_stevens_lewis"]
+digest = "7ebdca99b6641dbb"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Short-Period Equations of Motion"
+gloss = "The short period in angle of attack and pitch rate is a two-by-two linear system with the pitch-rate coefficient of the angle-of-attack equation normalised to unity."
+cite = ["book_etkin_reid", "book_cook", "ref_tps_ch4", "ref_tps_ch8"]
+digest = "d1ed74843e4c8a5e"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Natural Frequency and Damping From the Trace and Determinant"
+gloss = "For a two-by-two dynamics matrix the natural frequency is the square root of the determinant and twice the damping times the frequency is minus the trace."
+cite = []
+digest = "d1ad4fdee7fb514e"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Host, Model and Control Matrices"
+gloss = "The host, the model and the two pitch controls are representative short-period matrices chosen to make the arithmetic legible, with a tail column that makes much more moment than lift and a flap column the reverse."
+cite = ["ref_tp1538"]
+digest = "6a7d98cde6744152"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Divergent Root and Time to Double"
+gloss = "A negative determinant gives a positive real eigenvalue, and the time to double amplitude is the natural logarithm of two divided by it."
+cite = ["ref_tps_ch5"]
+digest = "aff3ab6c043d3b7e"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Projector for a Single Control Column"
+gloss = "With one control column the projector removes the direction of that column and leaves the perpendicular subspace untouched."
+cite = []
+digest = "efcbc5a936f92f33"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Unreachable Fraction of Each Row"
+gloss = "The article defines, for each row of the demanded change, the norm of the residual over the norm of the demanded change as the fraction no control law can produce."
+cite = []
+digest = "7599cba5dc95bf95"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Normal Load Factor per Unit Angle of Attack"
+gloss = "The load factor a given angle of attack produces is the dynamic pressure times the wing area and lift-curve slope, divided by the weight."
+cite = []
+digest = "f7293e2ffacc49f4"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Pitching Moment of a Lifting Surface"
+gloss = "A surface that produces a normal force aft of the centre of gravity produces a pitching moment proportional to it, with the arm measured in mean aerodynamic chords."
+cite = ["book_etkin_reid", "book_nelson"]
+digest = "21a15ee99a273df0"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Determinant of Two Lifting Controls"
+gloss = "The determinant of the block mapping two lifting controls onto normal force and pitching moment is the product of their effectivenesses times the difference of their stations."
+cite = []
+digest = "6b1f3b3090123da4"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Condition Number"
+gloss = "The condition number of a matrix is its largest singular value divided by its smallest."
+cite = ["ref_condition_number", "ref_singular_value"]
+digest = "97c54513c228c5d1"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Gain Bound From the Smallest Singular Value"
+gloss = "The matching gains, and so the deflections they command, are bounded by the norm of the demanded change divided by the smallest singular value of the control matrix."
+cite = []
+digest = "5c65e5eedd0862d1"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Deflection Gradients in the Worked Simulation"
+gloss = "Solving the matching condition with the representative host, model and control matrices gives the symmetric tail and flap deflection per unit angle of attack."
+cite = []
+digest = "5397f53792baaf31"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Saturation Angles of Attack"
+gloss = "The representative deflection gradients are carried against the published limits of 25 degrees for the tail and 21.5 degrees for the flap, so the flap saturates first, at 8.17 degrees of angle of attack."
+cite = ["ref_tp1538"]
+digest = "6831c09e162d5270"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Peak Rate of a Sinusoidal Deflection"
+gloss = "A sinusoidal deflection moves fastest through zero at the amplitude times the frequency, which must not exceed the rate limit."
+cite = ["ref_slew_rate"]
+digest = "203ba07970ccfeb0"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Full-Deflection Corner Frequency"
+gloss = "The article defines the corner frequency of a surface as its rate limit divided by its deflection limit, the highest frequency at which it can still reach its stops."
+cite = []
+digest = "d01249b24301eef5"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Fraction of Authority Available at a Frequency"
+gloss = "Above the article's corner frequency the usable amplitude falls as the reciprocal of frequency, so the available fraction of travel is the lesser of one and the corner frequency over the frequency."
+cite = ["ref_describing_function"]
+digest = "59cf43b89bae7756"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Fraction of Authority at the Short Period"
+gloss = "At the short-period frequency a surface whose corner frequency lies below it reaches only the ratio of the two frequencies of its travel."
+cite = []
+digest = "dac68d8e41a8ef70"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Stabilator Authority at a Representative Short Period"
+gloss = "The published rate limit of 60 degrees per second and deflection limit of 25 degrees give a corner of 2.40 radians per second, which at a short period the article assumes to be 4 radians per second leaves 60 percent of the travel."
+cite = []
+digest = "01ae7e15741cdbd5"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Ratio of Differential to Symmetric Tail Corner Frequencies"
+gloss = "With a common rate limit, the ratio of the two corner frequencies is the inverse ratio of the published deflection limits."
+cite = []
+digest = "54d3c92328a208c1"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Leading-Edge Flap Corner, Lag Ratio and Authority"
+gloss = "The published travel and rate give the leading-edge flap a corner of one radian per second and an actuator lag 2.75 times the others, and at the assumed short period of 4 radians per second it reaches a quarter of its travel."
+cite = ["ref_tp1538"]
+digest = "1297dd83b4e1f9d3"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Published Leading-Edge Flap Schedule"
+gloss = "The leading-edge flap is scheduled by a lead network on angle of attack, a term in the ratio of dynamic to static pressure and a constant bias."
+cite = ["ref_tp1538"]
+digest = "77786729669f8e20"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Leading-Edge Flap Schedule in Series With Its Actuator"
+gloss = "Putting the published schedule in series with the published first-order actuator lag gives the surface's response to angle of attack, with the schedule pole and actuator corner nearly coincident."
+cite = []
+digest = "6fac0b2bdcc4cba1"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Gain and Phase of the Series Response"
+gloss = "Evaluating the series transfer function on the imaginary axis gives its magnitude and phase as functions of frequency."
+cite = []
+digest = "e58db1b163c3330b"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Gain Rises and Phase at Fifteen Radians per Second"
+gloss = "The magnitudes at fifteen and at one radian per second, with and without the actuator factor, give the gain rises and the phase of the series response."
+cite = []
+digest = "6098d93fd26f5382"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "First-Order Actuator Lag"
+gloss = "Every surface but the leading-edge flap follows its command through a first-order lag of the published time constant, with a corner at its reciprocal."
+cite = ["ref_tp1538"]
+digest = "374612840863eff9"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Phase of a First-Order Lag"
+gloss = "The phase of a first-order lag is minus the arctangent of the frequency times the time constant."
+cite = []
+digest = "af7d00eca2a0cc87"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "First-Order Lag as a Pure Delay at Low Frequency"
+gloss = "At frequencies well below its corner a first-order lag behaves as a pure time delay of the same time constant."
+cite = []
+digest = "dd5963e279af15ca"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Equivalent Delays in Series Add"
+gloss = "The equivalent delay of a host and a model in series is the sum of their delays, and so is never less than the host's alone."
+cite = []
+digest = "800476bb605b3a11"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Floor on the Simulated Delay"
+gloss = "The article bounds the delay a pilot meets below by the actuator lag plus half a frame of sampling and one frame of transport, an implementation it assumes."
+cite = []
+digest = "beac2d22dec09bd3"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Output Amplitude of a Saturated Rate Limiter"
+gloss = "A rate limiter deep in saturation produces a triangular wave whose amplitude follows from the rate limit and the frequency alone."
+cite = ["ref_describing_function", "book_slotine"]
+digest = "916d57feed8e5ae9"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Describing Function of a Saturated Rate Limiter"
+gloss = "The fundamental of the triangular output divided by the input amplitude gives a gain that falls with both frequency and amplitude."
+cite = ["ref_describing_function", "book_slotine"]
+digest = "2397bb2537dd8d23"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "McRuer Crossover Model"
+gloss = "A trained pilot adapts until the combined pilot and vehicle open loop looks like an integrator with a delay near the crossover frequency."
+cite = ["book_mcruer_pilot", "book_mcruer_dynamics"]
+digest = "69bc4e53bd705575"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Phase Margin of the Crossover Model"
+gloss = "The crossover model leaves ninety degrees of margin less the phase the effective delay costs at crossover."
+cite = []
+digest = "3307a10ea646576a"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Share of the Margin Consumed by the Delay Floor"
+gloss = "The phase the floor of 74.5 milliseconds costs is divided by the ninety degrees an integrator leaves, at crossover frequencies of three and six radians per second that the article assumes."
+cite = []
+digest = "0f9041895a78ef9b"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Crossover at Which the Phase Margin Vanishes"
+gloss = "Setting the phase margin of the crossover model to zero gives the highest crossover frequency the delay allows."
+cite = []
+digest = "4f4e5ddcd19c413e"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Invariance of an Ordinal Scale"
+gloss = "An ordinal scale is one whose order survives every strictly increasing relabelling of its points."
+cite = []
+digest = "8501862a7adc7f9f"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Median Commutes With Relabelling and the Mean Does Not"
+gloss = "The median of relabelled ratings is the relabelled median, while the mean of relabelled ratings is in general not the relabelled mean."
+cite = []
+digest = "b6538c702227676f"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Closed Loop Equals the Model When the Projector Vanishes"
+gloss = "When the projector is zero the closed-loop transfer function of the host is exactly that of the model, with the host's dynamics cancelled."
+cite = []
+digest = "2633c0fa3925ddbc"
+
+[[symbol]]
+tex = 'x'
+meaning = "the state vector of the host aeroplane, with $x_m$ that of the model being simulated"
+
+[[symbol]]
+tex = 'u'
+meaning = "the control vector of the host aeroplane, with $u_m$ that of the model"
+
+[[symbol]]
+tex = 'A'
+meaning = "the dynamics matrix of the host aeroplane"
+
+[[symbol]]
+tex = 'A_m'
+meaning = "the dynamics matrix of the model being simulated"
+
+[[symbol]]
+tex = 'B'
+meaning = "the control effectiveness matrix of the host aeroplane"
+
+[[symbol]]
+tex = 'B_m'
+meaning = "the control effectiveness matrix of the model being simulated"
+
+[[symbol]]
+tex = 'K_x'
+meaning = "the feedback gain matrix on the host's own state"
+
+[[symbol]]
+tex = 'K_m'
+meaning = "the gain matrix on the model's state"
+
+[[symbol]]
+tex = 'K_u'
+meaning = "the gain matrix on the model's control input"
+
+[[symbol]]
+tex = 'B^{+}'
+meaning = "the Moore-Penrose pseudoinverse of the control effectiveness matrix"
+
+[[symbol]]
+tex = '\Pi'
+meaning = "the orthogonal projector onto the subspace no combination of the host's controls can reach"
+
+[[symbol]]
+tex = '\Delta A'
+meaning = "the change of dynamics the simulation demands"
+
+[[symbol]]
+tex = 'E'
+meaning = "the unmatchable residual of the demanded change"
+
+[[symbol]]
+tex = 'e_\infty'
+meaning = "the steady model-following error left by a residual no gain removes"
+
+[[symbol]]
+tex = 'C'
+meaning = "the output matrix, selecting what the pilot is given to feel"
+
+[[symbol]]
+tex = 'Z_\alpha'
+meaning = "the normal force derivative with respect to angle of attack"
+
+[[symbol]]
+tex = 'M_\alpha'
+meaning = "the pitching moment derivative with respect to angle of attack"
+
+[[symbol]]
+tex = 'M_q'
+meaning = "the pitching moment derivative with respect to pitch rate"
+
+[[symbol]]
+tex = '\omega_n'
+meaning = "the undamped natural frequency of a second-order pair"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the damping ratio"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the eigenvalue of a dynamics matrix"
+
+[[symbol]]
+tex = 't_2'
+meaning = "the time for a divergence to double in amplitude"
+
+[[symbol]]
+tex = '\eta_\alpha'
+meaning = "the fraction of the angle-of-attack row's demanded change that no control law can produce, with $\\eta_q$ that of the pitch-rate row"
+
+[[symbol]]
+tex = 'n_z'
+meaning = "the normal load factor"
+
+[[symbol]]
+tex = '\bar{q}'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'C_{L_\alpha}'
+meaning = "the lift-curve slope per radian"
+
+[[symbol]]
+tex = '\ell_f'
+meaning = "the distance of the flap's centre of pressure aft of the centre of gravity, with $\\ell_h$ that of the horizontal tail"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the condition number of a matrix"
+
+[[symbol]]
+tex = '\sigma_{\min}'
+meaning = "the smallest singular value of a matrix"
+
+[[symbol]]
+tex = '\gamma_s'
+meaning = "the symmetric tail deflection per unit angle of attack, with $\\gamma_f$ that of the flap"
+
+[[symbol]]
+tex = '\alpha_{\text{sat}}'
+meaning = "the angle of attack at which a surface reaches its deflection limit"
+
+[[symbol]]
+tex = '\delta_{\max}'
+meaning = "the deflection limit of a control surface"
+
+[[symbol]]
+tex = 'R'
+meaning = "the rate limit of a control surface actuator"
+
+[[symbol]]
+tex = '\hat{\delta}'
+meaning = "the amplitude of a sinusoidal surface deflection"
+
+[[symbol]]
+tex = '\omega_c'
+meaning = "the full-deflection corner frequency of a surface"
+
+[[symbol]]
+tex = '\omega_{sp}'
+meaning = "the short-period natural frequency"
+
+[[symbol]]
+tex = '\delta_l'
+meaning = "the leading-edge flap deflection"
+
+[[symbol]]
+tex = '\omega_p'
+meaning = "the pole of the published leading-edge flap schedule"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the static pressure"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the first-order lag time constant of a surface actuator, with $\\tau_l$ that of the leading-edge flap"
+
+[[symbol]]
+tex = '\tau_s'
+meaning = "the equivalent time delay of the simulated aeroplane as the pilot meets it"
+
+[[symbol]]
+tex = 'f_s'
+meaning = "the frame rate of the digital implementation"
+
+[[symbol]]
+tex = '\tau_e'
+meaning = "the equivalent time delay of a cascade as the pilot meets it"
+
+[[symbol]]
+tex = '\hat{\delta}_o'
+meaning = "the amplitude of the triangular output of a saturated rate limiter"
+
+[[symbol]]
+tex = 'N'
+meaning = "the describing function of a nonlinear element"
+
+[[symbol]]
+tex = 'Y_p'
+meaning = "the describing function of the human pilot, with $Y_c$ the transfer function of the controlled element"
+
+[[symbol]]
+tex = '\omega_{co}'
+meaning = "the crossover frequency of the pilot and vehicle loop"
+
+[[symbol]]
+tex = '\varphi_m'
+meaning = "the phase margin"
+
+[[symbol]]
+tex = 'g'
+meaning = "a strictly increasing map of the rating scale onto itself"
+
+[[symbol]]
+tex = '\rho_p'
+meaning = "the share of the whole record's obligation that one contractor carries"
+
+[[symbol]]
+tex = 'V_{\text{all}}'
+meaning = "the obligation summed over the whole record"
+
+[[symbol]]
+tex = 'F'
+meaning = "the fraction of its flying life the aeroplane has carried an X number"
+
+[[symbol]]
+tex = 'T_n'
+meaning = "the date of the article, with $T_d$ the designation date and $T_0$ the first flight"
+
+[[symbol]]
+tex = 'G_{cl}'
+meaning = "the closed-loop transfer function of the host under model following, with $G_m$ that of the model"

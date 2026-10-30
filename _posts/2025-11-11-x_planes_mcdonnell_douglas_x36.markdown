@@ -121,13 +121,19 @@ of sound. The general requirement that a model reproduce its original is [simili
 Writing $V$ for speed, $L$ for a length, $g$ for gravity, $\nu$ for kinematic viscosity and $a$ for the
 speed of sound,
 
-$$\mathrm{Fr} = \frac{V^{2}}{gL} \qquad \mathrm{Re} = \frac{VL}{\nu} \qquad \mathrm{M} = \frac{V}{a}$$
+$$
+\mathrm{Fr} = \frac{V^{2}}{gL} \qquad \mathrm{Re} = \frac{VL}{\nu} \qquad \mathrm{M} = \frac{V}{a}
+\tag{1}
+$$
 
 **A model in the same air as the full-scale aircraft has only one free variable, its speed**, so it
 can match one of the three and must accept whatever the other two become. Writing $\lambda$ for the length
 ratio and $r_V$ for the velocity ratio,
 
-$$\frac{\mathrm{Fr}_m}{\mathrm{Fr}_f} = \frac{r_V^{2}}{\lambda} \qquad \frac{\mathrm{Re}_m}{\mathrm{Re}_f} = r_V \lambda \qquad \frac{\mathrm{M}_m}{\mathrm{M}_f} = r_V$$
+$$
+\frac{\mathrm{Fr}_m}{\mathrm{Fr}_f} = \frac{r_V^{2}}{\lambda} \qquad \frac{\mathrm{Re}_m}{\mathrm{Re}_f} = r_V \lambda \qquad \frac{\mathrm{M}_m}{\mathrm{M}_f} = r_V
+\tag{2}
+$$
 
 At $\lambda = 0.28$ the three choices are these.
 
@@ -154,21 +160,36 @@ The Contemporary Literature takes this subject up mainly in its cluster on simil
 
 Setting the Froude ratio to one gives $r_V = \sqrt{\lambda}$, and the rest follows by dimensions alone.
 
-$$r_V = r_t = \sqrt{\lambda} = \sqrt{0.28} = 0.5292$$
+$$
+r_V = r_t = \sqrt{\lambda} = \sqrt{0.28} = 0.5292
+\tag{3}
+$$
 
-$$r_\omega = \frac{1}{\sqrt{\lambda}} = 1.8898 \qquad r_{\dot\omega} = \frac{1}{\lambda} = 3.571$$
+$$
+r_\omega = \frac{1}{\sqrt{\lambda}} = 1.8898 \qquad r_{\dot\omega} = \frac{1}{\lambda} = 3.571
+\tag{4}
+$$
 
-$$r_m = \lambda^{3} \qquad r_I = \lambda^{5} = 0.001721 \qquad r_{\mathrm{Re}} = \lambda^{3/2} = 0.1482$$
+$$
+r_m = \lambda^{3} \qquad r_I = \lambda^{5} = 0.001721 \qquad r_{\mathrm{Re}} = \lambda^{3/2} = 0.1482
+\tag{5}
+$$
 
 **Deriving the mass and inertia exponents is better than quoting them.** Holding density common makes mass
 go as volume, the cube of length. A moment is a force times a length and a force at matched Froude number
 goes as mass, so
 
-$$r_F = \lambda^{3} \qquad r_M = r_F \lambda = \lambda^{4} \qquad r_I = r_m \lambda^{2} = \lambda^{5}$$
+$$
+r_F = \lambda^{3} \qquad r_M = r_F \lambda = \lambda^{4} \qquad r_I = r_m \lambda^{2} = \lambda^{5}
+\tag{6}
+$$
 
 and the angular acceleration ratio is the moment ratio over the inertia ratio,
 
-$$r_{\dot\omega} = \frac{\lambda^{4}}{\lambda^{5}} = \frac{1}{\lambda} = 3.571$$
+$$
+r_{\dot\omega} = \frac{\lambda^{4}}{\lambda^{5}} = \frac{1}{\lambda} = 3.571
+\tag{7}
+$$
 
 **Each of those is an identity in the scale factor and holds at every value of it, not at 0.28 alone**,
 because each exponent follows from dimensions and not from the particular aircraft.
@@ -191,7 +212,10 @@ section below computes both Reynolds numbers so that the factor does not have to
 **If the aeroplane is a Froude-scaled model then its weight fixes the aeroplane it stands for**,
 because mass scales as the cube of length. Inverting,
 
-$$W_f = \frac{W_m}{\lambda^{3}} = \frac{1{,}245}{0.28^{3}} = 56{,}715 \ \text{lb}$$
+$$
+W_f = \frac{W_m}{\lambda^{3}} = \frac{1{,}245}{0.28^{3}} = 56{,}715 \ \text{lb}
+\tag{8}
+$$
 
 and its operating empty weight likewise gives 49,335 pounds, while its dimensions give a full-scale length of 19.82
 metres and a span of 11.34 metres. The 1,270 pound maximum weight of the [published specification][ref_x36]
@@ -206,7 +230,10 @@ and it did not fail.
 The speeds convert the same way. [Walker 1997][research_walkerlaurencea_1997] gives a dynamic pressure limit of 200 pounds per square foot, equal
 to 243 knots at sea level, and a 112 knot approach speed, and dividing each by the velocity ratio gives the full-scale equivalent,
 
-$$V_f = \frac{V_m}{\sqrt{\lambda}} = \frac{243}{0.5292} = 459.2 \ \text{kt} \qquad V_f = \frac{112}{0.5292} = 211.6 \ \text{kt}$$
+$$
+V_f = \frac{V_m}{\sqrt{\lambda}} = \frac{243}{0.5292} = 459.2 \ \text{kt} \qquad V_f = \frac{112}{0.5292} = 211.6 \ \text{kt}
+\tag{9}
+$$
 
 for model speed $V_m$ and full-scale speed $V_f$.
 **A 212 knot approach is fast for a fighter.**
@@ -223,7 +250,10 @@ by cameras, encoders, radio links and displays, the same whatever the
 aeroplane is doing. So its significance, measured against the dynamics it is trying to control, is
 multiplied by
 
-$$\frac{1}{\sqrt{\lambda}} = 1.8898$$
+$$
+\frac{1}{\sqrt{\lambda}} = 1.8898
+\tag{10}
+$$
 
 | Delay in the link | Worth this much at full scale |
 |---|---|
@@ -256,7 +286,10 @@ gravity produces an opposing moment that grows with the same sideslip. The sum i
 derivative. Writing $N$ for yawing moment, $q$ for dynamic pressure, $S$ for wing area, $b$ for span and
 $\beta$ for sideslip,
 
-$$N = q S b \, C_{n\beta} \, \beta$$
+$$
+N = q S b \, C_{n\beta} \, \beta
+\tag{11}
+$$
 
 **With a fin, $C_{n\beta}$ is positive and the aircraft weathercocks. Without one it is negative and the aircraft diverges.**
 The rest of this section follows from that sign change.
@@ -271,7 +304,10 @@ cross-flow drag, was published in
 [Allen and Perkins 1951][research_allenhjulian_perkinsedwardw_1951].
 **Both are the primary sources for the relation this article displays.** The derivative per radian is
 
-$$C_{n\beta}^{\text{body}} = -\left(k_2 - k_1\right) \frac{2 \, \mathrm{Vol}}{S b}$$
+$$
+C_{n\beta}^{\text{body}} = -\left(k_2 - k_1\right) \frac{2 \, \mathrm{Vol}}{S b}
+\tag{12}
+$$
 
 **The fuselage volume is not published either, so it is bracketed.**
 
@@ -291,13 +327,22 @@ carried through the tables that follow, and neither replaces the other.
 dynamic pressure of 2,033 pascals, and a landing weight of about 1,140 pounds or 5,070 newtons, taken as the operating empty weight with 35 percent of the usable fuel remaining, fix the product of area and lift coefficient, and at an approach
 coefficient of 0.8 that gives
 
-$$S = \frac{W}{q C_L} = \frac{5{,}070}{2{,}033 \times 0.8} = 3.117 \ \text{m}^{2}$$
+$$
+S = \frac{W}{q C_L} = \frac{5{,}070}{2{,}033 \times 0.8} = 3.117 \ \text{m}^{2}
+\tag{13}
+$$
 
 and the geometry follows from it,
 
-$$\mathrm{AR} = \frac{b^{2}}{S} = \frac{3.175^{2}}{3.117} = 3.235 \qquad \bar{c} = \frac{S}{b} = 0.982 \ \text{m}$$
+$$
+\mathrm{AR} = \frac{b^{2}}{S} = \frac{3.175^{2}}{3.117} = 3.235 \qquad \bar{c} = \frac{S}{b} = 0.982 \ \text{m}
+\tag{14}
+$$
 
-$$\frac{W}{S} = \frac{1{,}245 \times 0.4536 \times 9.807}{3.117} = 1{,}777 \ \text{N/m}^{2}$$
+$$
+\frac{W}{S} = \frac{1{,}245 \times 0.4536 \times 9.807}{3.117} = 1{,}777 \ \text{N/m}^{2}
+\tag{15}
+$$
 
 **The wing loading is therefore 1,777 newtons per square metre at takeoff gross weight**, which at 28 percent scale
 corresponds to 6,346 at full size, since wing loading scales as the length ratio.
@@ -310,7 +355,10 @@ does not depend on the choice.
 
 Neglecting damping, the yaw equation for a directionally unstable aircraft is
 
-$$I_{zz} \ddot{\beta} = \lvert C_{n\beta} \rvert q S b \, \beta \qquad \Rightarrow \qquad \ddot{\beta} = \sigma^{2} \beta$$
+$$
+I_{zz} \ddot{\beta} = \lvert C_{n\beta} \rvert q S b \, \beta \qquad \Rightarrow \qquad \ddot{\beta} = \sigma^{2} \beta
+\tag{16}
+$$
 
 which grows instead of oscillating. The yaw inertia is unpublished, so it is estimated from a radius of
 gyration taken as a fraction of length and reported across a bracket.
@@ -318,12 +366,18 @@ gyration taken as a fraction of length and reported across a bracket.
 **There are two answers to how long a doubling takes and they differ by a factor that is constant.**
 The flight dynamics convention measures the growing eigen-solution,
 
-$$t_{2} = \frac{\ln 2}{\sigma}$$
+$$
+t_{2} = \frac{\ln 2}{\sigma}
+\tag{17}
+$$
 
 while a disturbance **released from rest** follows a hyperbolic cosine rather than an exponential,
 because it starts with no yaw rate at all, and needs
 
-$$t_{2}^{\text{rest}} = \frac{\operatorname{arccosh} 2}{\sigma} = 1.900 \, t_{2}$$
+$$
+t_{2}^{\text{rest}} = \frac{\operatorname{arccosh} 2}{\sigma} = 1.900 \, t_{2}
+\tag{18}
+$$
 
 **The ratio is arccosh 2 over ln 2, it is 1.900, and it depends on nothing.** The growth rate cancels from
 it, so it holds at every growth rate, and integrating the equation of motion under each of the two initial
@@ -339,7 +393,10 @@ conditions reproduces both times without evaluating an exponent.
 the growth rate rises from 0.806 to 1.172 per second at approach and from 1.748 to 2.543 at maximum speed,
 so the modal doubling times fall to **0.591 seconds and 0.273 seconds**,
 
-$$t_{2} = \frac{\ln 2}{1.172} = 0.591 \ \text{s} \qquad t_{2} = \frac{\ln 2}{2.543} = 0.273 \ \text{s}$$
+$$
+t_{2} = \frac{\ln 2}{1.172} = 0.591 \ \text{s} \qquad t_{2} = \frac{\ln 2}{2.543} = 0.273 \ \text{s}
+\tag{19}
+$$
 
 by the modal relation above.
 
@@ -361,17 +418,26 @@ A loop that stabilises an unstable pole must cross over above it, because below 
 not yet doing anything. Writing $\omega_c$ for the crossover frequency and taking a multiple $\kappa$ of the
 growth rate,
 
-$$\omega_c = \kappa \sigma$$
+$$
+\omega_c = \kappa \sigma
+\tag{20}
+$$
 
 **A pure delay contributes phase lag in direct proportion to frequency**, and that proportionality makes delay
 dangerous and not merely annoying,
 
-$$\Delta\phi = \omega \tau$$
+$$
+\Delta\phi = \omega \tau
+\tag{21}
+$$
 
 so at crossover the delay consumes $\omega_c \tau$ of phase. Setting that equal to the phase margin a
 designer insists on gives the entire delay budget of the loop,
 
-$$\tau_{\max} = \frac{\phi_m}{\omega_c} = \frac{\phi_m}{\kappa \sigma}$$
+$$
+\tau_{\max} = \frac{\phi_m}{\omega_c} = \frac{\phi_m}{\kappa \sigma}
+\tag{22}
+$$
 
 **And $\sigma$ scales as one over the square root of the scale factor, so the budget scales as its square root.**
 The amplification of 1.8898 reappears here in the units a control engineer would use.
@@ -412,7 +478,10 @@ for one flight condition is sized for all of them.
 **A vectored nozzle carries no $q$ at all.** Its moment is thrust times the sine of a deflection times a
 moment arm,
 
-$$N_{\text{vec}} = T \ell \sin\delta = 3{,}114 \times 2.220 \times \sin 20^{\circ} = 2{,}364 \ \text{N m}$$
+$$
+N_{\text{vec}} = T \ell \sin\delta = 3{,}114 \times 2.220 \times \sin 20^{\circ} = 2{,}364 \ \text{N m}
+\tag{23}
+$$
 
 so the ratio of what the nozzle can do to what the aerodynamics demand goes as one over dynamic pressure.
 **The nozzle is strongest exactly where the fin is weakest.**
@@ -427,7 +496,10 @@ so the ratio of what the nozzle can do to what the aerodynamics demand goes as o
 **Inverting for the speed at which the nozzle alone can no longer hold ten degrees of sideslip gives 350.5 knots**,
 because the nozzle authority ratio $R$ falls as the square of speed from its value $R_{243}$ at 243 knots,
 
-$$R(V) = R_{243} \left(\frac{243}{V}\right)^{2} = 1 \qquad \Rightarrow \qquad V_{\text{vec}} = 243 \sqrt{R_{243}} = 243 \sqrt{2.080} = 350.5 \ \text{kt}$$
+$$
+R(V) = R_{243} \left(\frac{243}{V}\right)^{2} = 1 \qquad \Rightarrow \qquad V_{\text{vec}} = 243 \sqrt{R_{243}} = 243 \sqrt{2.080} = 350.5 \ \text{kt}
+\tag{24}
+$$
 
 which is above anything this aircraft ever flew, and well above the
 [206 knots it reached][ref_nasa_x36].
@@ -438,7 +510,10 @@ which is above anything this aircraft ever flew, and well above the
 A split aileron opens above and below to add drag on one wing, and the yawing moment is that drag increment
 acting at its spanwise centroid,
 
-$$N_{\text{dr}} = q \, S_p \, \Delta C_D \, y$$
+$$
+N_{\text{dr}} = q \, S_p \, \Delta C_D \, y
+\tag{25}
+$$
 
 where $S_p$ is the panel area and $y$ the arm, here 1.111 metres at 35 percent of span.
 
@@ -457,7 +532,10 @@ At the bottom of the bracket the nozzle dominates everywhere and the split ailer
 The drag rudder's moment rises as the square of speed while the nozzle's is constant, so a split-aileron
 moment that is a share $s$ of the nozzle's at 243 knots equals it at
 
-$$V_{\times} = \frac{243}{\sqrt{s}} = \frac{243}{\sqrt{1.262}} = 216.3 \ \text{kt}$$
+$$
+V_{\times} = \frac{243}{\sqrt{s}} = \frac{243}{\sqrt{1.262}} = 216.3 \ \text{kt}
+\tag{26}
+$$
 
 which lies inside the 243 knot limit and a little above the 206 knots the aircraft is [recorded][ref_nasa_x36] as reaching.
 
@@ -483,7 +561,10 @@ open into upper and lower halves to make drag on one side, and a [thrust-vectori
 [published specification][ref_x36], and the fuel fraction and the thrust to weight ratio are the usable
 fuel and the thrust each divided by the takeoff gross weight,
 
-$$\frac{162}{1{,}245} = 0.1301 \qquad \frac{700}{1{,}245} = 0.5622$$
+$$
+\frac{162}{1{,}245} = 0.1301 \qquad \frac{700}{1{,}245} = 0.5622
+\tag{27}
+$$
 
 The [programme account][ref_nasa_x36] gives rounder figures, about 1,250 pounds fully fuelled, 19 feet long
 and three feet high, with about 700 pounds of thrust. The [Parsch directory][ref_parsch] also
@@ -558,7 +639,10 @@ with no pilot aboard and a mean sortie of half an hour is a brisk rate and not a
 **The fuel load and the mean sortie together imply a fuel flow, useful as a check on the engine class but not as a datum.**
 A mean sortie of 1,815 seconds burning 162 pounds gives
 
-$$\dot{w}_f = \frac{162}{1815/3600} = 321.2 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.459$$
+$$
+\dot{w}_f = \frac{162}{1815/3600} = 321.2 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.459
+\tag{28}
+$$
 
 **A mean thrust specific fuel consumption of 0.459 pounds per pound force per hour, referred to maximum thrust, sits below the 0.683 of the [Williams F107][ref_f112] from which the F112 was developed**,
 as it should, because the engine did not run at maximum thrust for a whole sortie. **It is a weak check and it passes**,
@@ -566,7 +650,10 @@ and the result is reported here as weak without dressing it up. The mean sortie 
 programme account gives for a typical research flight, so the mean includes shorter flights and the full fuel load
 was not burned on every one. Taking a typical 40 minute flight on the same 162 pounds instead gives
 
-$$\dot{w}_f = \frac{162}{40/60} = 243 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.347$$
+$$
+\dot{w}_f = \frac{162}{40/60} = 243 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.347
+\tag{29}
+$$
 
 which is lower again, so the check gives a lower bound on the consumption rather than measuring it.
 
@@ -604,14 +691,23 @@ For the later work on reconfigurable control, see the cluster on adaptive, neura
 factor of 6.749, which sounds fatal until both numbers are computed. The Reynolds number needs the
 viscosity, which here comes from Sutherland's law,
 
-$$\mu = \mu_0 \left(\frac{T}{T_0}\right)^{3/2} \frac{T_0 + 110.4}{T + 110.4} = 1.7894 \times 10^{-5} \ \text{Pa s}$$
+$$
+\mu = \mu_0 \left(\frac{T}{T_0}\right)^{3/2} \frac{T_0 + 110.4}{T + 110.4} = 1.7894 \times 10^{-5} \ \text{Pa s}
+\tag{30}
+$$
 
-$$\mathrm{Re} = \frac{\rho V \bar{c}}{\mu} = \frac{1.225 \times 125.0 \times 0.982}{1.7894 \times 10^{-5}} = 8.40 \times 10^{6}$$
+$$
+\mathrm{Re} = \frac{\rho V \bar{c}}{\mu} = \frac{1.225 \times 125.0 \times 0.982}{1.7894 \times 10^{-5}} = 8.40 \times 10^{6}
+\tag{31}
+$$
 
 so the model runs at **8.40 million** on the mean chord at maximum speed and **3.872 million** on approach,
 while the full-scale aircraft at the corresponding condition would run at
 
-$$\mathrm{Re}_f = \frac{\mathrm{Re}_m}{\lambda^{3/2}} = \frac{8.40 \times 10^{6}}{0.1482} = 56.70 \times 10^{6}$$
+$$
+\mathrm{Re}_f = \frac{\mathrm{Re}_m}{\lambda^{3/2}} = \frac{8.40 \times 10^{6}}{0.1482} = 56.70 \times 10^{6}
+\tag{32}
+$$
 
 **Both of those are deep in the fully turbulent regime.** The penalty does not move the model into a
 different flow regime for attached flow, and that counts as a genuine and slightly surprising mitigation.
@@ -630,7 +726,10 @@ The Contemporary Literature collects the work on this check mainly in two cluste
 **The published load factor limit is enough to compute the aircraft's turn performance, and doing so produces the scaling result a second time from an entirely different quantity.**
 A level turn at load factor $n$ has
 
-$$\dot\psi = \frac{g\sqrt{n^{2} - 1}}{V} \qquad R = \frac{V^{2}}{g\sqrt{n^{2} - 1}}$$
+$$
+\dot\psi = \frac{g\sqrt{n^{2} - 1}}{V} \qquad R = \frac{V^{2}}{g\sqrt{n^{2} - 1}}
+\tag{33}
+$$
 
 | Speed | Turn rate | Radius | Rate expressed at full scale |
 |---|---|---|---|
@@ -646,7 +745,10 @@ and its delay budget shrinks.
 
 The corner speed, where the load factor limit meets the lift limit, follows from the same figures,
 
-$$V^{*} = \sqrt{\frac{2 n W}{\rho S C_{L\max}}} = 213.7 \ \text{kt}$$
+$$
+V^{*} = \sqrt{\frac{2 n W}{\rho S C_{L\max}}} = 213.7 \ \text{kt}
+\tag{34}
+$$
 
 **which sits below the 243 knot maximum**, so the aircraft could reach the most demanding point of its
 manoeuvre envelope.
@@ -1284,6 +1386,336 @@ The X-36's divergence doubled in well under a second, nearly twice as fast as it
 would have, and a pilot on the ground held it there through a delay that counted for nearly twice its
 length in clock time.
 **That is a better result than the programme claimed for itself, and nobody said so because the factor is hidden inside the scale.**
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 34 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 34, 19 are established and 15 are bespoke.
+Every ratio with a subscript $m$ refers the 28 percent model to the full-scale aircraft it represents, speeds are quoted in knots while the dynamics are evaluated in the International System, and several letters are reused, so $\sigma$ is the growth rate of the directional divergence, $\tau$ is a fixed delay, $T$ is the thrust except in Sutherland's law, where it is a temperature, $R$ is the nozzle authority ratio and then the turn radius, and $N$ is a yawing moment.
+
+**Equation 1, Froude, Reynolds and Mach Numbers.**
+The Froude number is the ratio of inertia to gravity, the Reynolds number that of inertia to viscosity and the Mach number that of speed to the speed of sound.
+[Froude number][ref_froude]
+[Reynolds number][ref_reynolds]
+
+$$
+\mathrm{Fr} = \frac{V^{2}}{gL} \qquad \mathrm{Re} = \frac{VL}{\nu} \qquad \mathrm{M} = \frac{V}{a}
+\tag{1}
+$$
+
+**Equation 2, Model to Full-Scale Ratios in Common Air.**
+With the air held common, each of the three ratios depends only on the length ratio and the velocity ratio, so only one of them can be matched.
+[similitude][ref_similitude]
+
+$$
+\frac{\mathrm{Fr}_m}{\mathrm{Fr}_f} = \frac{r_V^{2}}{\lambda} \qquad \frac{\mathrm{Re}_m}{\mathrm{Re}_f} = r_V \lambda \qquad \frac{\mathrm{M}_m}{\mathrm{M}_f} = r_V
+\tag{2}
+$$
+
+**Equation 3, Velocity and Time Ratios Under Froude Matching.**
+Matching the Froude number sets the velocity and time ratios to the square root of the length ratio, 0.5292 at 28 percent scale.
+
+$$
+r_V = r_t = \sqrt{\lambda} = \sqrt{0.28} = 0.5292
+\tag{3}
+$$
+
+**Equation 4, Angular Rate and Angular Acceleration Ratios.**
+Under Froude matching angular rates scale as one over the square root of the length ratio and angular accelerations as one over the length ratio.
+
+$$
+r_\omega = \frac{1}{\sqrt{\lambda}} = 1.8898 \qquad r_{\dot\omega} = \frac{1}{\lambda} = 3.571
+\tag{4}
+$$
+
+**Equation 5, Mass, Inertia and Reynolds Number Ratios.**
+Under Froude matching in common air mass scales as the cube of length, inertia as its fifth power and Reynolds number as its three-halves power.
+
+$$
+r_m = \lambda^{3} \qquad r_I = \lambda^{5} = 0.001721 \qquad r_{\mathrm{Re}} = \lambda^{3/2} = 0.1482
+\tag{5}
+$$
+
+**Equation 6, Force, Moment and Inertia Ratios.**
+With density common the force ratio is the cube of the length ratio, the moment ratio its fourth power and the inertia ratio its fifth power.
+
+$$
+r_F = \lambda^{3} \qquad r_M = r_F \lambda = \lambda^{4} \qquad r_I = r_m \lambda^{2} = \lambda^{5}
+\tag{6}
+$$
+
+**Equation 7, Angular Acceleration Ratio From Moment and Inertia.**
+The moment ratio over the inertia ratio gives an angular acceleration ratio of one over the length ratio.
+
+$$
+r_{\dot\omega} = \frac{\lambda^{4}}{\lambda^{5}} = \frac{1}{\lambda} = 3.571
+\tag{7}
+$$
+
+**Equation 8, Full-Scale Weight Implied by Froude Scaling.**
+Dividing the published model weight by the cube of the length ratio gives the 56,715 pound aircraft that the model represents.
+[Walker 1997][research_walkerlaurencea_1997]
+
+$$
+W_f = \frac{W_m}{\lambda^{3}} = \frac{1{,}245}{0.28^{3}} = 56{,}715 \ \text{lb}
+\tag{8}
+$$
+
+**Equation 9, Full-Scale Equivalent Speeds.**
+Dividing the published dynamic pressure limit speed and approach speed by the velocity ratio gives full-scale equivalents of 459.2 and 211.6 knots.
+[Walker 1997][research_walkerlaurencea_1997]
+
+$$
+V_f = \frac{V_m}{\sqrt{\lambda}} = \frac{243}{0.5292} = 459.2 \ \text{kt} \qquad V_f = \frac{112}{0.5292} = 211.6 \ \text{kt}
+\tag{9}
+$$
+
+**Equation 10, Amplification of a Fixed Delay.**
+A delay fixed in milliseconds is worth one over the square root of the length ratio more against the model's dynamics than against the full-scale aircraft's.
+
+$$
+\frac{1}{\sqrt{\lambda}} = 1.8898
+\tag{10}
+$$
+
+**Equation 11, Yawing Moment in Sideslip.**
+The yawing moment is the dynamic pressure times the wing area times the span times the directional stability derivative times the sideslip.
+
+$$
+N = q S b \, C_{n\beta} \, \beta
+\tag{11}
+$$
+
+**Equation 12, Munk Slender-Body Directional Derivative.**
+Slender-body theory gives the destabilising directional derivative of a body from its volume through the apparent-mass difference.
+[a study of the aerodynamic forces on airship hulls][research_munkmaxm_1924]
+[Allen and Perkins 1951][research_allenhjulian_perkinsedwardw_1951]
+
+$$
+C_{n\beta}^{\text{body}} = -\left(k_2 - k_1\right) \frac{2 \, \mathrm{Vol}}{S b}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Wing Area Inverted From the Approach.*
+The unpublished wing area is inverted from the approach speed with a landing weight the article takes at 35 percent of usable fuel and an assumed approach lift coefficient of 0.8.
+
+$$
+S = \frac{W}{q C_L} = \frac{5{,}070}{2{,}033 \times 0.8} = 3.117 \ \text{m}^{2}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Aspect Ratio and Mean Chord.*
+The published span with the inverted wing area gives an aspect ratio of 3.235 and a mean chord of 0.982 metres.
+
+$$
+\mathrm{AR} = \frac{b^{2}}{S} = \frac{3.175^{2}}{3.117} = 3.235 \qquad \bar{c} = \frac{S}{b} = 0.982 \ \text{m}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Wing Loading.*
+The published gross weight over the inverted wing area gives a wing loading of 1,777 newtons per square metre.
+
+$$
+\frac{W}{S} = \frac{1{,}245 \times 0.4536 \times 9.807}{3.117} = 1{,}777 \ \text{N/m}^{2}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Undamped Yaw Divergence.*
+Neglecting yaw damping, an assumption the article chooses, the yaw equation of a directionally unstable aircraft grows at a rate set by the derivative, the dynamic pressure and the yaw inertia.
+
+$$
+I_{zz} \ddot{\beta} = \lvert C_{n\beta} \rvert q S b \, \beta \qquad \Rightarrow \qquad \ddot{\beta} = \sigma^{2} \beta
+\tag{16}
+$$
+
+**Equation 17, Modal Doubling Time.**
+The growing eigen-solution doubles in the natural logarithm of two divided by the growth rate.
+
+$$
+t_{2} = \frac{\ln 2}{\sigma}
+\tag{17}
+$$
+
+**Equation 18, Doubling Time From Rest.**
+A disturbance released from rest follows a hyperbolic cosine and doubles in the inverse hyperbolic cosine of two over the growth rate, 1.900 times the modal time.
+
+$$
+t_{2}^{\text{rest}} = \frac{\operatorname{arccosh} 2}{\sigma} = 1.900 \, t_{2}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Doubling Times With the Derived Derivative.*
+The modal doubling times use the slender-body derivative at the middle of an assumed fuselage volume bracket and an assumed radius of gyration of 0.35 of the length.
+
+$$
+t_{2} = \frac{\ln 2}{1.172} = 0.591 \ \text{s} \qquad t_{2} = \frac{\ln 2}{2.543} = 0.273 \ \text{s}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Crossover as a Multiple of the Growth Rate.*
+The crossover frequency is set at a multiple of the unstable growth rate that the article chooses as a design rule.
+
+$$
+\omega_c = \kappa \sigma
+\tag{20}
+$$
+
+**Equation 21, Phase Lag of a Pure Delay.**
+A pure delay contributes a phase lag equal to the frequency times the delay.
+
+$$
+\Delta\phi = \omega \tau
+\tag{21}
+$$
+
+*Equation 22, Bespoke Delay Budget of the Loop.*
+Equating the delay's phase lag at the chosen crossover to a required phase margin gives the largest delay the loop can tolerate.
+
+$$
+\tau_{\max} = \frac{\phi_m}{\omega_c} = \frac{\phi_m}{\kappa \sigma}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Yawing Moment of the Vectored Nozzle.*
+The nozzle moment is the published thrust times a moment arm of 2.220 metres and a deflection of 20 degrees that the article takes as representative.
+
+$$
+N_{\text{vec}} = T \ell \sin\delta = 3{,}114 \times 2.220 \times \sin 20^{\circ} = 2{,}364 \ \text{N m}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Speed at Which the Nozzle Alone Fails.*
+The nozzle authority ratio at 243 knots, which rests on the assumed derivative and nozzle geometry, falls as the square of speed and reaches one at 350.5 knots.
+[National Aeronautics and Space Administration's programme account][ref_nasa_x36]
+
+$$
+R(V) = R_{243} \left(\frac{243}{V}\right)^{2} = 1 \qquad \Rightarrow \qquad V_{\text{vec}} = 243 \sqrt{R_{243}} = 243 \sqrt{2.080} = 350.5 \ \text{kt}
+\tag{24}
+$$
+
+**Equation 25, Yawing Moment of a Split Aileron.**
+The yawing moment of a drag rudder is the dynamic pressure times the panel area times the drag increment times its spanwise arm.
+
+$$
+N_{\text{dr}} = q \, S_p \, \Delta C_D \, y
+\tag{25}
+$$
+
+*Equation 26, Bespoke Crossover Speed of Split Aileron and Nozzle.*
+At the top of the assumed drag increment bracket the split aileron's moment, rising with the square of speed, equals the constant nozzle moment at 216.3 knots.
+[National Aeronautics and Space Administration's programme account][ref_nasa_x36]
+
+$$
+V_{\times} = \frac{243}{\sqrt{s}} = \frac{243}{\sqrt{1.262}} = 216.3 \ \text{kt}
+\tag{26}
+$$
+
+**Equation 27, Fuel Fraction and Thrust to Weight Ratio.**
+The published usable fuel and thrust each divided by the takeoff gross weight give 0.1301 and 0.5622.
+[Walker 1997][research_walkerlaurencea_1997]
+
+$$
+\frac{162}{1{,}245} = 0.1301 \qquad \frac{700}{1{,}245} = 0.5622
+\tag{27}
+$$
+
+*Equation 28, Bespoke Mean Fuel Flow Over a Mean Sortie.*
+Taking the full 162 pounds of fuel as burned over every mean sortie of 1,815 seconds gives a fuel flow and a thrust specific consumption that bound the true value from below.
+[Williams F112 turbofan][ref_f112]
+
+$$
+\dot{w}_f = \frac{162}{1815/3600} = 321.2 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.459
+\tag{28}
+$$
+
+*Equation 29, Bespoke Fuel Flow Over a Typical Flight.*
+The same fuel burned over a typical 40 minute flight, the midpoint of the stated 35 to 45 minutes, gives a lower consumption still.
+
+$$
+\dot{w}_f = \frac{162}{40/60} = 243 \ \text{lb/h} \qquad \Rightarrow \qquad \frac{\dot{w}_f}{T} = 0.347
+\tag{29}
+$$
+
+**Equation 30, Sutherland's Law for Viscosity.**
+Sutherland's law gives the dynamic viscosity of air at sea-level temperature as 1.7894 times ten to the minus five pascal seconds.
+
+$$
+\mu = \mu_0 \left(\frac{T}{T_0}\right)^{3/2} \frac{T_0 + 110.4}{T + 110.4} = 1.7894 \times 10^{-5} \ \text{Pa s}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Reynolds Number of the Model.*
+The Reynolds number at maximum speed is evaluated on the mean chord that the inverted wing area gives.
+
+$$
+\mathrm{Re} = \frac{\rho V \bar{c}}{\mu} = \frac{1.225 \times 125.0 \times 0.982}{1.7894 \times 10^{-5}} = 8.40 \times 10^{6}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Reynolds Number at Full Scale.*
+Dividing the model Reynolds number on the inverted chord by the three-halves power of the length ratio gives 56.70 million at full scale.
+
+$$
+\mathrm{Re}_f = \frac{\mathrm{Re}_m}{\lambda^{3/2}} = \frac{8.40 \times 10^{6}}{0.1482} = 56.70 \times 10^{6}
+\tag{32}
+$$
+
+**Equation 33, Turn Rate and Radius in a Level Turn.**
+A level turn at a load factor has a turn rate of gravity times the square root of the load factor squared less one over the speed, and the corresponding radius.
+
+$$
+\dot\psi = \frac{g\sqrt{n^{2} - 1}}{V} \qquad R = \frac{V^{2}}{g\sqrt{n^{2} - 1}}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Corner Speed.*
+The speed at which the published load factor limit meets the lift limit uses the inverted wing area and a maximum lift coefficient that no source gives.
+
+$$
+V^{*} = \sqrt{\frac{2 n W}{\rho S C_{L\max}}} = 213.7 \ \text{kt}
+\tag{34}
+$$
+
+### Notation
+
+- $\mathrm{Fr}$, the Froude number
+- $\mathrm{Re}$, the Reynolds number, with subscripts $m$ and $f$ for model and full scale
+- $\mathrm{M}$, the Mach number
+- $\nu$, the kinematic viscosity
+- $\lambda$, the length ratio of model to full scale
+- $r_V$, the velocity ratio, with $r_t$, $r_\omega$, $r_m$, $r_I$, $r_F$ and $r_M$ the ratios of time, angular rate, mass, inertia, force and moment
+- $W_f$, the full-scale weight, with $W_m$ the model weight
+- $V_f$, the full-scale speed, with $V_m$ the model speed
+- $N$, the yawing moment
+- $C_{n\beta}$, the directional stability derivative
+- $\beta$, the sideslip angle
+- $k_2 - k_1$, the apparent-mass difference of the fuselage
+- $\mathrm{Vol}$, the fuselage volume
+- $\mathrm{AR}$, the wing aspect ratio
+- $\bar{c}$, the mean aerodynamic chord
+- $I_{zz}$, the yaw moment of inertia
+- $\sigma$, the growth rate of the directional divergence
+- $t_{2}$, the modal doubling time, with $t_{2}^{\text{rest}}$ the doubling time from rest
+- $\omega_c$, the crossover frequency
+- $\kappa$, the multiple of the growth rate at which the loop crosses over
+- $\tau$, a fixed delay, with $\tau_{\max}$ the delay budget
+- $\phi_m$, the phase margin
+- $N_{\text{vec}}$, the yawing moment of the vectored nozzle
+- $\ell$, the moment arm of the nozzle
+- $\delta$, the nozzle deflection
+- $R_{243}$, the nozzle authority ratio at 243 knots
+- $S_p$, the split aileron panel area
+- $\Delta C_D$, the drag increment of the split aileron
+- $\dot{w}_f$, the fuel flow
+- $\mu$, the dynamic viscosity
+- $\dot\psi$, the turn rate
+- $V^{*}$, the corner speed
+- $C_{L\max}$, the maximum lift coefficient
+
 ## References
 
 <!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->

@@ -188,25 +188,40 @@ Consider a thin walled pressure vessel of internal pressure $p$ enclosing volume
 material of density $\rho_{m}$ and allowable stress $\sigma$. For a cylinder the hoop stress governs,
 and the wall thickness required is
 
-$$t = \frac{p r}{\sigma}$$
+$$
+t = \frac{p r}{\sigma}
+\tag{1}
+$$
 
 where $r$ is the internal radius. The mass of the cylindrical wall of length $L$ is then the wall
 volume times the material density, which is
 
-$$m_{t} = \rho_{m} \, 2 \pi r L t = \rho_{m} \, 2 \pi r L \frac{p r}{\sigma} = 2 \frac{p}{\sigma / \rho_{m}} \pi r^{2} L$$
+$$
+m_{t} = \rho_{m} \, 2 \pi r L t = \rho_{m} \, 2 \pi r L \frac{p r}{\sigma} = 2 \frac{p}{\sigma / \rho_{m}} \pi r^{2} L
+\tag{2}
+$$
 
 and since $\pi r^{2} L$ is the enclosed volume $V$, this collapses to
 
-$$m_{t} = 2 \frac{p V}{\sigma / \rho_{m}}$$
+$$
+m_{t} = 2 \frac{p V}{\sigma / \rho_{m}}
+\tag{3}
+$$
 
 The same exercise for a sphere, where the wall thickness required is $t = p r / 2 \sigma$, gives
 
-$$m_{t} = \frac{3}{2} \frac{p V}{\sigma / \rho_{m}}$$
+$$
+m_{t} = \frac{3}{2} \frac{p V}{\sigma / \rho_{m}}
+\tag{4}
+$$
 
 **The general result is that tank mass depends on the product of pressure and volume divided by the
 specific strength of the material, with the shape entering only through a small constant.**
 
-$$m_{t} = k \frac{p V}{\sigma / \rho_{m}} \qquad k = \tfrac{3}{2} \text{ to } 2$$
+$$
+m_{t} = k \frac{p V}{\sigma / \rho_{m}} \qquad k = \tfrac{3}{2} \text{ to } 2
+\tag{5}
+$$
 
 **Nothing in that relation scales away.** The radius cancels. A larger tank is not more efficient than
 a smaller one, contrary to the intuition carried over from unpressurised structures where
@@ -216,7 +231,10 @@ proportion to how much propellant it carries and how hard it squeezes it.**
 Now divide by the propellant mass. If the propellant has bulk density $\rho_{p}$, then the propellant
 mass is $m_{p} = \rho_{p} V$, and
 
-$$\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{p} \left( \sigma / \rho_{m} \right)}$$
+$$
+\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{p} \left( \sigma / \rho_{m} \right)}
+\tag{6}
+$$
 
 **This is the keystone, and it has exactly three levers.** Lower the pressure, which means lowering
 chamber pressure and giving up performance and nozzle size. Raise the propellant bulk density.
@@ -230,7 +248,10 @@ density
 $\rho_{o}$ and fuel density $\rho_{f}$, follows from the fact that the volumes add while the masses
 combine in the ratio,
 
-$$\rho_{b} = \frac{1 + \mathit{MR}}{\dfrac{\mathit{MR}}{\rho_{o}} + \dfrac{1}{\rho_{f}}}$$
+$$
+\rho_{b} = \frac{1 + \mathit{MR}}{\dfrac{\mathit{MR}}{\rho_{o}} + \dfrac{1}{\rho_{f}}}
+\tag{7}
+$$
 
 The engine ran at a mixture ratio of 4.7 on ninety percent hydrogen peroxide, known as high test
 peroxide or HTP, and the jet fuel JP-8\[[Ross et al. 2000][research_ross_2000]\].
@@ -238,16 +259,25 @@ Taking the oxidiser density as 1.387 grams per cubic centimetre and the fuel as 
 here and listed under Assumed Values, the bulk density
 is
 
-$$\rho_{b} = \frac{5.7}{\dfrac{4.7}{1.387} + \dfrac{1}{0.804}} = 1.230 \ \text{g/cm}^{3}$$
+$$
+\rho_{b} = \frac{5.7}{\dfrac{4.7}{1.387} + \dfrac{1}{0.804}} = 1.230 \ \text{g/cm}^{3}
+\tag{8}
+$$
 
 **The figure of merit that matters for a volume-limited or pressure-limited stage is not specific
 impulse but density impulse**, being the product of bulk density and specific impulse,
 
-$$I_{\rho} = \rho_{b} I_{sp}$$
+$$
+I_{\rho} = \rho_{b} I_{sp}
+\tag{9}
+$$
 
 At a delivered vacuum specific impulse of 275 seconds\[[Ross et al. 2000][research_ross_2000]\],
 
-$$I_{\rho} = 1.230 \times 275 = 338 \ \text{g}\,\text{cm}^{-3}\,\text{s}$$
+$$
+I_{\rho} = 1.230 \times 275 = 338 \ \text{g}\,\text{cm}^{-3}\,\text{s}
+\tag{10}
+$$
 
 **The comparison is the argument**, and the figures for the three other combinations are
 representative values assumed here rather than figures from any source on this vehicle.
@@ -274,11 +304,17 @@ used for propellant tanks and whose properties are tabulated in the standard
 reviews\[[Simon et al. 1991][research_simon_1991]\]\[[Wagner and Keller 1974][research_nasa_sp8088]\], with a yield
 strength near 400 megapascals at a density of 2,840 kilograms per cubic metre, it is
 
-$$\frac{\sigma}{\rho_{m}} = \frac{400 \times 10^{6}}{2840} = 1.41 \times 10^{5} \ \text{J/kg}$$
+$$
+\frac{\sigma}{\rho_{m}} = \frac{400 \times 10^{6}}{2840} = 1.41 \times 10^{5} \ \text{J/kg}
+\tag{11}
+$$
 
 The materials argument reduces to the ratio of the two,
 
-$$\frac{\left( \sigma / \rho_{m} \right)_{\text{composite}}}{\left( \sigma / \rho_{m} \right)_{\text{aluminium}}} = \frac{1.0 \ \text{to} \ 1.6 \times 10^{6}}{1.41 \times 10^{5}} = 7.1 \ \text{to} \ 11.4$$
+$$
+\frac{\left( \sigma / \rho_{m} \right)_{\text{composite}}}{\left( \sigma / \rho_{m} \right)_{\text{aluminium}}} = \frac{1.0 \ \text{to} \ 1.6 \times 10^{6}}{1.41 \times 10^{5}} = 7.1 \ \text{to} \ 11.4
+\tag{12}
+$$
 
 **The composite advantage is a factor of between seven and eleven.** Applied to the same tank at the
 same pressure, that is the difference between a tank that costs nearly a tenth of the propellant mass
@@ -295,13 +331,19 @@ tanks removes both its mass and the volume it occupied.
 membrane statics.** A cylinder of radius $R$ under internal pressure $p$ carries a hoop load and an
 axial load per unit length of
 
-$$N_{\theta} = p R \qquad N_{z} = \frac{p R}{2}$$
+$$
+N_{\theta} = p R \qquad N_{z} = \frac{p R}{2}
+\tag{13}
+$$
 
 so the hoop direction is loaded exactly twice as hard as the axial one. If a single helical fibre
 family laid at angle $\alpha$ to the axis is to carry both, netting analysis, which credits the fibres
 with all the load and the resin with none\[[Hossain et al. 2013][research_hossain_2013]\], requires
 
-$$\tan^{2} \alpha = \frac{N_{\theta}}{N_{z}} = 2 \qquad \text{so} \qquad \alpha = \arctan \sqrt{2} = 54.7^{\circ}$$
+$$
+\tan^{2} \alpha = \frac{N_{\theta}}{N_{z}} = 2 \qquad \text{so} \qquad \alpha = \arctan \sqrt{2} = 54.7^{\circ}
+\tag{14}
+$$
 
 **That angle depends on the two-to-one load ratio and on nothing else**, so
 a winding machine and a mandrel are
@@ -317,32 +359,50 @@ because it explains the choice, not because it would size the vessel.**
 describe the same burn.** The engine was rated for 36.0 pounds per second over a 200 second burn\[[Ross et al. 2000][research_ross_2000]\],
 which is a load of
 
-$$m_{p} = \dot{m} \, t_{b} = 36.0 \times 200 = 7{,}200 \ \text{lbm}$$
+$$
+m_{p} = \dot{m} \, t_{b} = 36.0 \times 200 = 7{,}200 \ \text{lbm}
+\tag{15}
+$$
 
 The stage that was built carried far less. The structures paper gives tank volumes of 44.8 cubic feet
 for the oxidiser and 15.5 for the fuel, a structure 190 inches long and 50 inches in diameter, and a
 flight burn of 110 seconds\[[Guerrero et al. 2004][research_guerrero_2004]\]. At the same flowrate that burn consumes
 
-$$m_{p} = 36.0 \times 110 = 3{,}960 \ \text{lbm}$$
+$$
+m_{p} = 36.0 \times 110 = 3{,}960 \ \text{lbm}
+\tag{16}
+$$
 
 and the mixture ratio splits it, since the two flows are in the ratio $\mathit{MR}$ by mass,
 
-$$m_{o} = m_{p} \frac{\mathit{MR}}{1 + \mathit{MR}} = 3{,}960 \times \frac{4.7}{5.7} = 3{,}265 \ \text{lbm} \qquad m_{f} = \frac{m_{p}}{1 + \mathit{MR}} = \frac{3{,}960}{5.7} = 695 \ \text{lbm}$$
+$$
+m_{o} = m_{p} \frac{\mathit{MR}}{1 + \mathit{MR}} = 3{,}960 \times \frac{4.7}{5.7} = 3{,}265 \ \text{lbm} \qquad m_{f} = \frac{m_{p}}{1 + \mathit{MR}} = \frac{3{,}960}{5.7} = 695 \ \text{lbm}
+\tag{17}
+$$
 
 Dividing each by its density gives the volume it occupies, and setting the sum against the two tanks
 gives the fill,
 
-$$V_{o} = \frac{m_{o}}{\rho_{o}} = \frac{3{,}265}{86.6} = 37.7 \ \text{ft}^{3} \qquad V_{f} = \frac{m_{f}}{\rho_{f}} = \frac{695}{50.2} = 13.8 \ \text{ft}^{3} \qquad \frac{37.7 + 13.8}{44.8 + 15.5} = \frac{51.5}{60.3} = 0.855$$
+$$
+V_{o} = \frac{m_{o}}{\rho_{o}} = \frac{3{,}265}{86.6} = 37.7 \ \text{ft}^{3} \qquad V_{f} = \frac{m_{f}}{\rho_{f}} = \frac{695}{50.2} = 13.8 \ \text{ft}^{3} \qquad \frac{37.7 + 13.8}{44.8 + 15.5} = \frac{51.5}{60.3} = 0.855
+\tag{18}
+$$
 
 **So the 110 second burn fills about 85 percent of the tanks**, and the remainder is ullage and margin.
 Full, the tanks would hold
 
-$$44.8 \times 86.6 = 3{,}879 \ \text{lbm} \qquad 15.5 \times 50.2 = 778 \ \text{lbm} \qquad \frac{3{,}879 + 778}{36.0} = 129 \ \text{s}$$
+$$
+44.8 \times 86.6 = 3{,}879 \ \text{lbm} \qquad 15.5 \times 50.2 = 778 \ \text{lbm} \qquad \frac{3{,}879 + 778}{36.0} = 129 \ \text{s}
+\tag{19}
+$$
 
 which is 129 seconds of running and nowhere near the engine's 200 second rating. The volume ratio of the
 tanks is also not the one the engine table implies,
 
-$$\frac{V_{o}}{V_{f}} = \frac{44.8}{15.5} = 2.89 \qquad \text{against} \qquad \mathit{MR} \, \frac{\rho_{f}}{\rho_{o}} = 4.7 \times \frac{50.2}{86.6} = 2.72$$
+$$
+\frac{V_{o}}{V_{f}} = \frac{44.8}{15.5} = 2.89 \qquad \text{against} \qquad \mathit{MR} \, \frac{\rho_{f}}{\rho_{o}} = 4.7 \times \frac{50.2}{86.6} = 2.72
+\tag{20}
+$$
 
 and read backwards at these densities the tanks correspond to a mixture ratio of
 $2.89 \times 86.6 / 50.2 = 4.99$. **The record does not say why the tanks were sized this way.**
@@ -352,12 +412,18 @@ which is 7.584 megapascals and is taken up in the next subsection, to the 60.3 c
 metres the tanks enclose gives the tank mass for each candidate material. Taking the cylindrical
 constant and the composite design allowable as the worked instance,
 
-$$m_{t} = k \frac{p V}{\sigma / \rho_{m}} = 2 \times \frac{7.584 \times 10^{6} \times 1.708}{1.0 \times 10^{6}} = 25.9 \ \text{kg}$$
+$$
+m_{t} = k \frac{p V}{\sigma / \rho_{m}} = 2 \times \frac{7.584 \times 10^{6} \times 1.708}{1.0 \times 10^{6}} = 25.9 \ \text{kg}
+\tag{21}
+$$
 
 and the fraction of the propellant those tanks hold follows from the keystone without reference to the
 volume,
 
-$$\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{b} \left( \sigma / \rho_{m} \right)} = \frac{2 \times 7.584 \times 10^{6}}{1230 \times 1.0 \times 10^{6}} = 0.0123$$
+$$
+\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{b} \left( \sigma / \rho_{m} \right)} = \frac{2 \times 7.584 \times 10^{6}}{1230 \times 1.0 \times 10^{6}} = 0.0123
+\tag{22}
+$$
 
 | Material | $\sigma / \rho_{m}$, J/kg | $m_{t}$, kg | Fraction of propellant mass |
 |---|---|---|---|
@@ -376,21 +442,30 @@ any of those omissions**, because they apply to both materials.
 the propellant tanks is 1,100 pounds per square inch absolute, the hydrostatic proof test took both
 tanks to 150 percent of it, and the design carries a burst safety factor of 2.0\[[Guerrero et al. 2004][research_guerrero_2004]\], so
 
-$$p_{\text{proof}} = 1.5 \, p_{\text{MEOP}} = 1.5 \times 1{,}100 = 1{,}650 \ \text{psia} \qquad p_{\text{burst}} \geq 2.0 \times 1{,}100 = 2{,}200 \ \text{psia}$$
+$$
+p_{\text{proof}} = 1.5 \, p_{\text{MEOP}} = 1.5 \times 1{,}100 = 1{,}650 \ \text{psia} \qquad p_{\text{burst}} \geq 2.0 \times 1{,}100 = 2{,}200 \ \text{psia}
+\tag{23}
+$$
 
 where MEOP is the maximum expected operating pressure.
 
 **The engine paper bounds the same number from below without ever mentioning the tank.** A pressure-fed
 system must deliver propellant to the chamber against every loss between the tank and the chamber, so
 
-$$p_{\text{tank}} \geq p_{c} + \Delta p_{\text{bed}} + \Delta p_{\text{inj}} + \Delta p_{\text{line}}$$
+$$
+p_{\text{tank}} \geq p_{c} + \Delta p_{\text{bed}} + \Delta p_{\text{inj}} + \Delta p_{\text{line}}
+\tag{24}
+$$
 
 The chamber ran at 500 pounds per square inch absolute, and the measured catalyst bed pressure drop was
 136 pounds per square inch for the flight-like bed and 164 for the cartridge bed\[[Ross et al. 2000][research_ross_2000]\]. **That establishes a
 floor of 636 pounds per square inch absolute on the oxidiser side before any injector, feed line,
 regulator or flow control loss is counted at all**, and the operating pressure leaves
 
-$$1{,}100 - 636 = 464 \ \text{psi} \qquad \frac{464}{1{,}100} = 0.42$$
+$$
+1{,}100 - 636 = 464 \ \text{psi} \qquad \frac{464}{1{,}100} = 0.42
+\tag{25}
+$$
 
 for those losses, 42 percent of the tank pressure, to be shared by the injector, the lines, the
 regulators and the cavitating venturis described below.
@@ -401,7 +476,10 @@ oxidiser tank higher and 140 with the fuel tank higher, although its requirement
 140\[[Guerrero et al. 2004][research_guerrero_2004]\]. Only the oxidiser passes through the catalyst bed\[[Ross et al. 2000][research_ross_2000]\], so the oxidiser tank must run above the fuel
 tank by at least the bed drop, and the larger design difference covers it,
 
-$$195 - 136 = 59 \ \text{psi}$$
+$$
+195 - 136 = 59 \ \text{psi}
+\tag{26}
+$$
 
 with room to spare. That reading is an inference, and the paper does not give the reason for the
 asymmetry.
@@ -414,17 +492,26 @@ impulse are known.
 
 The velocity increment available from a stage follows from the rocket equation,
 
-$$\Delta V = g I_{sp} \ln \frac{m_{0}}{m_{f}} = c \ln \frac{m_{0}}{m_{f}}$$
+$$
+\Delta V = g I_{sp} \ln \frac{m_{0}}{m_{f}} = c \ln \frac{m_{0}}{m_{f}}
+\tag{27}
+$$
 
 where $m_{0}$ is the mass at ignition, $m_{f}$ the mass at burnout, and $c$ the effective exhaust
 velocity,
 
-$$c = g I_{sp} = 32.174 \times 275 = 8{,}848 \ \text{ft/s} = 2{,}697 \ \text{m/s}$$
+$$
+c = g I_{sp} = 32.174 \times 275 = 8{,}848 \ \text{ft/s} = 2{,}697 \ \text{m/s}
+\tag{28}
+$$
 
 The propellant load of the stage as built is the 3,960 pounds of the 110 second burn, so the two masses
 are
 
-$$m_{0} = m_{p} + m_{i} + m_{\ell} \qquad m_{f} = m_{i} + m_{\ell}$$
+$$
+m_{0} = m_{p} + m_{i} + m_{\ell} \qquad m_{f} = m_{i} + m_{\ell}
+\tag{29}
+$$
 
 with $m_{i}$ the inert mass and $m_{\ell}$ the payload. **The engine alone accounts for 258 pounds of
 the inert mass** in the component weight estimate NASA published\[[McNeal and Anderson 1999][research_mcneal_1999]\], so the inert masses swept below,
@@ -454,11 +541,17 @@ dilution, more than the peroxide, sets the temperature of the products**, and th
 Assumed Values.
 The reaction is
 
-$$\mathrm{H_{2}O_{2}} \ (l) \longrightarrow \mathrm{H_{2}O} \ (l) + \tfrac{1}{2} \mathrm{O_{2}} \ (g) \qquad \Delta H = -98.0 \ \text{kJ/mol}$$
+$$
+\mathrm{H_{2}O_{2}} \ (l) \longrightarrow \mathrm{H_{2}O} \ (l) + \tfrac{1}{2} \mathrm{O_{2}} \ (g) \qquad \Delta H = -98.0 \ \text{kJ/mol}
+\tag{30}
+$$
 
 which per unit mass of pure peroxide releases
 
-$$q = \frac{98.0 \times 10^{3}}{34.01 \times 10^{-3}} = 2.88 \ \text{MJ/kg}$$
+$$
+q = \frac{98.0 \times 10^{3}}{34.01 \times 10^{-3}} = 2.88 \ \text{MJ/kg}
+\tag{31}
+$$
 
 At ninety percent concentration only that fraction reacts, giving 2.59 megajoules per kilogram of
 solution, and the products per kilogram of solution are 0.577 kilograms of water, of which the
@@ -466,11 +559,17 @@ dilution water is part, and 0.423 kilograms of oxygen. That heat must first rais
 and vaporise it, which consumes 0.18 and 1.30 megajoules respectively, leaving 1.11 megajoules to
 superheat the mixture. With a mixture heat capacity of
 
-$$c_{p} = 0.577 \times 2100 + 0.423 \times 980 = 1{,}626 \ \text{J/kg K}$$
+$$
+c_{p} = 0.577 \times 2100 + 0.423 \times 980 = 1{,}626 \ \text{J/kg K}
+\tag{32}
+$$
 
 the temperature rise above boiling is
 
-$$\Delta T = \frac{1.11 \times 10^{6}}{1{,}626} = 683 \ \text{K} \qquad \text{so} \qquad T \approx 780 \ ^{\circ}\text{C}$$
+$$
+\Delta T = \frac{1.11 \times 10^{6}}{1{,}626} = 683 \ \text{K} \qquad \text{so} \qquad T \approx 780 \ ^{\circ}\text{C}
+\tag{33}
+$$
 
 **The published figure is not a single number**, since the decomposition temperature depends on
 the pressure at which the decomposition occurs as well as on the
@@ -493,12 +592,18 @@ inches followed\[[Ross et al. 2000][research_ross_2000]\].
 **A contraction ratio of seven sets the gas speed.** The isentropic area relation fixes the
 chamber Mach number from the ratio of chamber area to throat area,
 
-$$\frac{A_{c}}{A_{t}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) \right]^{\frac{\gamma + 1}{2(\gamma - 1)}}$$
+$$
+\frac{A_{c}}{A_{t}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) \right]^{\frac{\gamma + 1}{2(\gamma - 1)}}
+\tag{34}
+$$
 
 and at a ratio of 7.1 with an assumed ratio of specific heats of 1.25 the subsonic root is $M = 0.083$. The
 static temperature is then within a tenth of a percent of the stagnation value,
 
-$$\frac{T}{T_{0}} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{-1} = 0.999$$
+$$
+\frac{T}{T_{0}} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{-1} = 0.999
+\tag{35}
+$$
 
 **So the chamber is very nearly a stagnant reservoir of hot decomposition products**, the
 condition under which injected fuel has time to heat and ignite. The paper's choice of a
@@ -507,12 +612,18 @@ geometry.
 
 **The catalyst bed can be sized from the same table.** It passes only the oxidiser, so
 
-$$\dot{m}_{o} = \dot{m} \frac{\mathit{MR}}{1 + \mathit{MR}} = 36.0 \times \frac{4.7}{5.7} = 29.7 \ \text{lb/s}$$
+$$
+\dot{m}_{o} = \dot{m} \frac{\mathit{MR}}{1 + \mathit{MR}} = 36.0 \times \frac{4.7}{5.7} = 29.7 \ \text{lb/s}
+\tag{36}
+$$
 
 and at the published bed mass flux of 0.4 pounds per second per square inch, which the authors place
 inside the historical operating range for silver screen beds\[[Ross et al. 2000][research_ross_2000]\], the bed frontal area and diameter are
 
-$$A_{\text{bed}} = \frac{\dot{m}_{o}}{G} = \frac{29.7}{0.4} = 74.2 \ \text{in}^{2} \qquad D_{\text{bed}} = 2 \sqrt{\frac{A_{\text{bed}}}{\pi}} = 9.72 \ \text{in}$$
+$$
+A_{\text{bed}} = \frac{\dot{m}_{o}}{G} = \frac{29.7}{0.4} = 74.2 \ \text{in}^{2} \qquad D_{\text{bed}} = 2 \sqrt{\frac{A_{\text{bed}}}{\pi}} = 9.72 \ \text{in}
+\tag{37}
+$$
 
 **A bed of 9.72 inches sits inside a chamber of 10 inches with almost nothing to spare**, the
 first of three independent consistency checks this article makes on the published table. The mass
@@ -525,7 +636,10 @@ catalyst bed developed an 18 hertz pressure oscillation as the peroxide flow was
 12 pounds per second, which the authors call about one third of the design rate, and that the onset
 recurred at that flow every time\[[Johnson et al. 2000][research_johnson_anderson_2000]\]. Against the oxidiser flow derived above,
 
-$$\frac{12}{29.7} = 0.40$$
+$$
+\frac{12}{29.7} = 0.40
+\tag{38}
+$$
 
 The authors built a dynamic model of the bed and chamber, correlated it against the test data, traced
 the instability to channelling that let the decomposition plane sink deep into the bed, and report a
@@ -535,7 +649,10 @@ combustion chamber configuration that removed it, after which the engine ran sta
 throttling the engine demonstrated reached 20 percent in bipropellant mode and 10 percent in
 monopropellant mode\[[Ross et al. 2000][research_ross_2000]\], which taken as fractions of design oxidiser flow are
 
-$$0.20 \times 29.7 = 5.9 \ \text{lb/s} \qquad 0.10 \times 29.7 = 3.0 \ \text{lb/s}$$
+$$
+0.20 \times 29.7 = 5.9 \ \text{lb/s} \qquad 0.10 \times 29.7 = 3.0 \ \text{lb/s}
+\tag{39}
+$$
 
 both below the 12 pound per second onset, and the instability test itself began stably at about 6 pounds
 per second\[[Johnson et al. 2000][research_johnson_anderson_2000]\]. **The fix bought passage through 12 pounds per second on the way to full flow**,
@@ -567,11 +684,17 @@ The published operating point is compact enough to reproduce in full.
 **That table can be checked against itself, and it does not quite close.** Thrust, flowrate and specific
 impulse are related by
 
-$$F = \dot{m} \, I_{sp}$$
+$$
+F = \dot{m} \, I_{sp}
+\tag{40}
+$$
 
 and $36.0 \times 275 = 9{,}900$ pounds of thrust, against the 10,000 stated. **The discrepancy is one percent**, and it resolves either way,
 
-$$\dot{m} = \frac{F}{I_{sp}} = \frac{10{,}000}{275} = 36.36 \ \text{lb/s} \qquad \text{or} \qquad I_{sp} = \frac{F}{\dot{m}} = \frac{10{,}000}{36.0} = 277.8 \ \text{s}$$
+$$
+\dot{m} = \frac{F}{I_{sp}} = \frac{10{,}000}{275} = 36.36 \ \text{lb/s} \qquad \text{or} \qquad I_{sp} = \frac{F}{\dot{m}} = \frac{10{,}000}{36.0} = 277.8 \ \text{s}
+\tag{41}
+$$
 
 **The earlier papers explain the discrepancy.** The 1999 papers give the same thrust, flowrate, chamber
 pressure, area ratios, burn time and envelope, but on 85 percent peroxide at a mixture ratio of 6.0 with
@@ -581,46 +704,70 @@ impulse and carried thrust and flowrate over unchanged. Its 275 seconds is itsel
 from a demonstrated characteristic velocity efficiency of 0.97 and an assumed nozzle efficiency of
 0.98\[[Ross et al. 2000][research_ross_2000]\], which together imply an ideal value of
 
-$$I_{sp,\text{ideal}} = \frac{275}{0.97 \times 0.98} = 289.3 \ \text{s}$$
+$$
+I_{sp,\text{ideal}} = \frac{275}{0.97 \times 0.98} = 289.3 \ \text{s}
+\tag{42}
+$$
 
 The instability paper prints yet another operating point, 9,480 pounds of vacuum thrust at 485 pounds
 per square inch with 30.2 pounds per second of peroxide and 5.8 of fuel and a specific impulse of 264
 seconds\[[Johnson et al. 2000][research_johnson_anderson_2000]\], which is
 
-$$\mathit{MR} = \frac{30.2}{5.8} = 5.21 \qquad \frac{9{,}480}{30.2 + 5.8} = 263.3 \ \text{s}$$
+$$
+\mathit{MR} = \frac{30.2}{5.8} = 5.21 \qquad \frac{9{,}480}{30.2 + 5.8} = 263.3 \ \text{s}
+\tag{43}
+$$
 
 **The table is a design point that moved between papers**, and a one percent non-closure is what
 carrying two of its numbers across a revision leaves behind.
 
 From the contraction ratio and chamber diameter the throat area is
 
-$$A_{t} = \frac{A_{c}}{\varepsilon_{c}} = \frac{\pi (10/2)^{2}}{7.1} = 11.06 \ \text{in}^{2}$$
+$$
+A_{t} = \frac{A_{c}}{\varepsilon_{c}} = \frac{\pi (10/2)^{2}}{7.1} = 11.06 \ \text{in}^{2}
+\tag{44}
+$$
 
 from which the throat diameter, exit area and exit diameter follow,
 
-$$D_{t} = 2 \sqrt{\frac{A_{t}}{\pi}} = 3.75 \ \text{in} \qquad A_{e} = \varepsilon A_{t} = 40 \times 11.06 = 442 \ \text{in}^{2} \qquad D_{e} = 2 \sqrt{\frac{A_{e}}{\pi}} = 23.7 \ \text{in}$$
+$$
+D_{t} = 2 \sqrt{\frac{A_{t}}{\pi}} = 3.75 \ \text{in} \qquad A_{e} = \varepsilon A_{t} = 40 \times 11.06 = 442 \ \text{in}^{2} \qquad D_{e} = 2 \sqrt{\frac{A_{e}}{\pi}} = 23.7 \ \text{in}
+\tag{45}
+$$
 
 **An exit diameter of 23.7 inches fits comfortably inside the stated 40 inch engine envelope**, and the
 1999 paper's thrust chamber drawing prints a throat diameter of 3.74 inches and an exit diameter of 23.7
 inches\[[Anderson et al. 1999][research_anderson_usfe]\], which is the second of the three checks. The characteristic velocity
 implied by the published flowrate is
 
-$$c^{*} = \frac{p_{c} A_{t} g}{\dot{m}} = \frac{500 \times 11.06 \times 32.174}{36.0} = 4{,}943 \ \text{ft/s}$$
+$$
+c^{*} = \frac{p_{c} A_{t} g}{\dot{m}} = \frac{500 \times 11.06 \times 32.174}{36.0} = 4{,}943 \ \text{ft/s}
+\tag{46}
+$$
 
 and the thrust coefficient implied by the published thrust is
 
-$$C_{F} = \frac{F}{p_{c} A_{t}} = \frac{10{,}000}{500 \times 11.06} = 1.808$$
+$$
+C_{F} = \frac{F}{p_{c} A_{t}} = \frac{10{,}000}{500 \times 11.06} = 1.808
+\tag{47}
+$$
 
 **That figure has to be compared against something, and the something is the ideal nozzle.** The
 relations below are those of the nozzle design criteria monograph and of the standard design
 handbook\[[Liquid Rocket Engine Nozzles 1976][research_nasa_sp8120]\]\[[Huzel and Huang 1967][research_huzel_1967]\]. For
 isentropic flow the vacuum thrust coefficient at area ratio $\varepsilon$ is
 
-$$C_{F,\text{vac}} = \sqrt{\frac{2 \gamma^{2}}{\gamma - 1} \left( \frac{2}{\gamma + 1} \right)^{\frac{\gamma + 1}{\gamma - 1}} \left[ 1 - \left( \frac{p_{e}}{p_{c}} \right)^{\frac{\gamma - 1}{\gamma}} \right]} + \varepsilon \frac{p_{e}}{p_{c}}$$
+$$
+C_{F,\text{vac}} = \sqrt{\frac{2 \gamma^{2}}{\gamma - 1} \left( \frac{2}{\gamma + 1} \right)^{\frac{\gamma + 1}{\gamma - 1}} \left[ 1 - \left( \frac{p_{e}}{p_{c}} \right)^{\frac{\gamma - 1}{\gamma}} \right]} + \varepsilon \frac{p_{e}}{p_{c}}
+\tag{48}
+$$
 
 where the exit pressure ratio is fixed by the area ratio through
 
-$$\varepsilon = \frac{1}{\left( \dfrac{\gamma + 1}{2} \right)^{\frac{1}{\gamma - 1}} \left( \dfrac{p_{e}}{p_{c}} \right)^{\frac{1}{\gamma}} \sqrt{\dfrac{\gamma + 1}{\gamma - 1} \left[ 1 - \left( \dfrac{p_{e}}{p_{c}} \right)^{\frac{\gamma - 1}{\gamma}} \right]}}$$
+$$
+\varepsilon = \frac{1}{\left( \dfrac{\gamma + 1}{2} \right)^{\frac{1}{\gamma - 1}} \left( \dfrac{p_{e}}{p_{c}} \right)^{\frac{1}{\gamma}} \sqrt{\dfrac{\gamma + 1}{\gamma - 1} \left[ 1 - \left( \dfrac{p_{e}}{p_{c}} \right)^{\frac{\gamma - 1}{\gamma}} \right]}}
+\tag{49}
+$$
 
 Solving the second for $p_{e}/p_{c}$ at $\varepsilon = 40$ and substituting gives 1.884 at an assumed ratio of
 specific heats of 1.20 and 1.835 at 1.25. **The implied 1.808 sits just below both**, which is where a
@@ -629,12 +776,18 @@ third check is the only one of the three that could have embarrassed the paper**
 coefficient above the ideal value would mean the stated thrust and chamber pressure could not both be
 true. The ratio of the implied to the ideal value is a nozzle efficiency,
 
-$$\frac{1.808}{1.884} = 0.960 \qquad \frac{1.808}{1.835} = 0.985$$
+$$
+\frac{1.808}{1.884} = 0.960 \qquad \frac{1.808}{1.835} = 0.985
+\tag{50}
+$$
 
 and the paper's assumed 0.98 lies between the two. **Combining the two implied quantities cannot decide
 between 275 and 277.8 seconds**, because
 
-$$I_{sp} = \frac{c^{*} C_{F}}{g} = \frac{p_{c} A_{t} g}{\dot{m}} \cdot \frac{F}{p_{c} A_{t}} \cdot \frac{1}{g} = \frac{F}{\dot{m}}$$
+$$
+I_{sp} = \frac{c^{*} C_{F}}{g} = \frac{p_{c} A_{t} g}{\dot{m}} \cdot \frac{F}{p_{c} A_{t}} \cdot \frac{1}{g} = \frac{F}{\dot{m}}
+\tag{51}
+$$
 
 identically, and the geometry cancels. The analysis in this article uses 275 wherever the published value
 serves, which is nowhere that the one percent changes a conclusion.
@@ -649,13 +802,22 @@ flux\[[Liquid Rocket Engine Self-Cooled 1977][research_nasa_sp8124]\]. An ablati
 drifts off its design point. For a 200 second burn the programme set an allowable erosion rate of 0.001
 inches per second on the throat radius\[[Ross et al. 2000][research_ross_2000]\], which is a total radius growth of
 
-$$\Delta r = \dot{r} \, t_{b} = 0.001 \times 200 = 0.200 \ \text{in}$$
+$$
+\Delta r = \dot{r} \, t_{b} = 0.001 \times 200 = 0.200 \ \text{in}
+\tag{52}
+$$
 
 Against a throat radius of 1.876 inches the eroded throat and its area are
 
-$$r_{2} = r_{1} + \Delta r = 1.876 + 0.200 = 2.076 \ \text{in} \qquad A_{t,2} = \pi r_{2}^{2} = 13.55 \ \text{in}^{2}$$
+$$
+r_{2} = r_{1} + \Delta r = 1.876 + 0.200 = 2.076 \ \text{in} \qquad A_{t,2} = \pi r_{2}^{2} = 13.55 \ \text{in}^{2}
+\tag{53}
+$$
 
-$$\frac{A_{t,2}}{A_{t,1}} - 1 = \frac{13.55}{11.06} - 1 = 22.5 \ \text{percent}$$
+$$
+\frac{A_{t,2}}{A_{t,1}} - 1 = \frac{13.55}{11.06} - 1 = 22.5 \ \text{percent}
+\tag{54}
+$$
 
 **That sounds fatal, and the flow control is why it is not.**
 
@@ -665,35 +827,56 @@ characterised\[[Ulas 2006][research_ulas_2006]\]. Once the pressure at a venturi
 vapour pressure of the liquid, the liquid flashes and the throat chokes, and the mass flow then depends
 only on conditions upstream of it,
 
-$$\dot{m} = C_{d} A_{v} \sqrt{2 \rho \left( p_{u} - p_{v} \right)}$$
+$$
+\dot{m} = C_{d} A_{v} \sqrt{2 \rho \left( p_{u} - p_{v} \right)}
+\tag{55}
+$$
 
 where $p_{u}$ is the upstream pressure, $p_{v}$ the vapour pressure and $A_{v}$ the venturi throat
 area. **Downstream pressure does not appear**, and it has no effect at all so long as it stays below
 the recovery limit at which the cavity collapses. **With mass flow fixed, chamber pressure falls in
 exact proportion as the throat opens**, because
 
-$$p_{c} = \frac{\dot{m} \, c^{*}}{A_{t} \, g} \qquad \text{so} \qquad p_{c} A_{t} = \text{constant}$$
+$$
+p_{c} = \frac{\dot{m} \, c^{*}}{A_{t} \, g} \qquad \text{so} \qquad p_{c} A_{t} = \text{constant}
+\tag{56}
+$$
 
 and thrust, which is the product of the thrust coefficient with that constant,
 
-$$F = C_{F} \, p_{c} A_{t} = C_{F} \frac{\dot{m} c^{*}}{g}$$
+$$
+F = C_{F} \, p_{c} A_{t} = C_{F} \frac{\dot{m} c^{*}}{g}
+\tag{57}
+$$
 
 depends on the thrust coefficient alone. The thrust coefficient depends on the expansion ratio, and as
 the throat opens with the exit area fixed the expansion ratio falls,
 
-$$\varepsilon_{2} = \frac{A_{e}}{A_{t,2}} = \frac{442}{13.55} = 32.7$$
+$$
+\varepsilon_{2} = \frac{A_{e}}{A_{t,2}} = \frac{442}{13.55} = 32.7
+\tag{58}
+$$
 
 Solving the area-ratio relation at 32.7 as before gives
 
-$$C_{F,\text{vac}} : \ 1.8843 \rightarrow 1.8669 \ (\gamma = 1.20) \qquad 1.8346 \rightarrow 1.8203 \ (\gamma = 1.25)$$
+$$
+C_{F,\text{vac}} : \ 1.8843 \rightarrow 1.8669 \ (\gamma = 1.20) \qquad 1.8346 \rightarrow 1.8203 \ (\gamma = 1.25)
+\tag{59}
+$$
 
-$$\frac{1.8669}{1.8843} - 1 = -0.92 \ \text{percent} \qquad \frac{1.8203}{1.8346} - 1 = -0.78 \ \text{percent}$$
+$$
+\frac{1.8669}{1.8843} - 1 = -0.92 \ \text{percent} \qquad \frac{1.8203}{1.8346} - 1 = -0.78 \ \text{percent}
+\tag{60}
+$$
 
 **Over that range the vacuum thrust coefficient falls by under one percent.** The stage's own 110 second
 burn at the same rate grows the throat radius by 0.110 inches, the area by 12.1 percent and leaves an
 expansion ratio of 35.7, and the same relation gives
 
-$$\frac{1.8746}{1.8843} - 1 = -0.51 \ \text{percent} \qquad \frac{1.8267}{1.8346} - 1 = -0.43 \ \text{percent}$$
+$$
+\frac{1.8746}{1.8843} - 1 = -0.51 \ \text{percent} \qquad \frac{1.8267}{1.8346} - 1 = -0.43 \ \text{percent}
+\tag{61}
+$$
 
 **A 22.5 percent change in throat geometry therefore produces about a one percent change in thrust.**
 This insensitivity lets the paper state that the thrust requirement of 10,000 pounds within ten percent is
@@ -706,11 +889,17 @@ supplies.** In the 140 second test of 19 May 1999 the chamber pressure began at 
 inch and ended 35 pounds lower, and the paper attributes the drop to throat erosion\[[Ross et al. 2000][research_ross_2000]\]. Since the
 area-pressure product is constant,
 
-$$\frac{A_{t,2}}{A_{t,1}} = \frac{p_{c,1}}{p_{c,2}} \qquad \text{and} \qquad \frac{r_{2}}{r_{1}} = \sqrt{\frac{p_{c,1}}{p_{c,2}}}$$
+$$
+\frac{A_{t,2}}{A_{t,1}} = \frac{p_{c,1}}{p_{c,2}} \qquad \text{and} \qquad \frac{r_{2}}{r_{1}} = \sqrt{\frac{p_{c,1}}{p_{c,2}}}
+\tag{62}
+$$
 
 so the erosion rate implied by the pressure history alone is
 
-$$\dot{r} = \frac{r_{1}}{t} \left( \sqrt{\frac{p_{c,1}}{p_{c,2}}} - 1 \right) = \frac{1.876}{140} \left( \sqrt{\frac{495}{460}} - 1 \right) = 0.00050 \ \text{in/s}$$
+$$
+\dot{r} = \frac{r_{1}}{t} \left( \sqrt{\frac{p_{c,1}}{p_{c,2}}} - 1 \right) = \frac{1.876}{140} \left( \sqrt{\frac{495}{460}} - 1 \right) = 0.00050 \ \text{in/s}
+\tag{63}
+$$
 
 **That figure is an average over the whole throat, and the throat did not erode evenly.** The 140 second
 test ran the steam port injector, without fuel film cooling, at a mixture ratio of 4.9 on 85 percent
@@ -754,7 +943,10 @@ of 250 degrees that the authors tie to the target erosion rate\[[Ross et al. 200
 **The programme chose the ring injector and the choice was correct for an ablative nozzle**, because
 the additional specific impulse,
 
-$$298 - 275 = 23 \ \text{s}$$
+$$
+298 - 275 = 23 \ \text{s}
+\tag{64}
+$$
 
 is worth less than an engine that survives its burn. The
 authors record that the Gamma derivative retains potential for a regeneratively cooled nozzle, where
@@ -836,16 +1028,25 @@ pressurant has expanded to fill both tanks, 1.708 cubic metres, at the operating
 megapascals, so with a helium gas constant of 2,077 joules per kilogram kelvin and an assumed gas
 temperature of 300 kelvin
 
-$$m_{g} = \frac{p_{t} V}{R_{\text{He}} T} = \frac{7.584 \times 10^{6} \times 1.708}{2077 \times 300} = 20.78 \ \text{kg}$$
+$$
+m_{g} = \frac{p_{t} V}{R_{\text{He}} T} = \frac{7.584 \times 10^{6} \times 1.708}{2077 \times 300} = 20.78 \ \text{kg}
+\tag{65}
+$$
 
 and since the storage bottle cannot be emptied below the tank pressure it feeds, a further fraction
 stays behind,
 
-$$m_{\text{stored}} = \frac{m_{g}}{1 - p_{t}/p_{b}} = \frac{20.78}{1 - 1{,}100/6{,}000} = \frac{20.78}{0.8167} = 25.4 \ \text{kg}$$
+$$
+m_{\text{stored}} = \frac{m_{g}}{1 - p_{t}/p_{b}} = \frac{20.78}{1 - 1{,}100/6{,}000} = \frac{20.78}{0.8167} = 25.4 \ \text{kg}
+\tag{66}
+$$
 
 occupying, at 6,000 pounds per square inch or 41.37 megapascals,
 
-$$V_{b} = \frac{m_{\text{stored}} R_{\text{He}} T}{p_{b}} = \frac{25.4 \times 2077 \times 300}{41.37 \times 10^{6}} = 0.383 \ \text{m}^{3} = 13.5 \ \text{ft}^{3} = 23{,}390 \ \text{in}^{3}$$
+$$
+V_{b} = \frac{m_{\text{stored}} R_{\text{He}} T}{p_{b}} = \frac{25.4 \times 2077 \times 300}{41.37 \times 10^{6}} = 0.383 \ \text{m}^{3} = 13.5 \ \text{ft}^{3} = 23{,}390 \ \text{in}^{3}
+\tag{67}
+$$
 
 **These are isothermal figures and therefore lower bounds**, because real blowdown cools the gas and a
 colder gas is denser, so more mass is needed to hold the same pressure. **A bottle of at least 13.5
@@ -860,7 +1061,10 @@ permeation barrier, a full-scale design 50 inches in diameter to be refined from
 and an anticipated ratio of pressure times volume to weight of 1.92 million inches. Applied to the
 isothermal minimum volume, that ratio gives the least bottle weight,
 
-$$W_{b} = \frac{p_{b} V_{b}}{(pV/W)} = \frac{6{,}000 \times 23{,}390}{1.92 \times 10^{6}} = 73.1 \ \text{lb}$$
+$$
+W_{b} = \frac{p_{b} V_{b}}{(pV/W)} = \frac{6{,}000 \times 23{,}390}{1.92 \times 10^{6}} = 73.1 \ \text{lb}
+\tag{68}
+$$
 
 The same gas supply purged the system, actuated the bipropellant valves, and fed the propellant
 management thrusters that settled the propellants against the tank outlets before engine start\[[Anderson et al. 1999][research_anderson_usfe]\].
@@ -875,9 +1079,15 @@ roll authority\[[Anderson et al. 1999][research_anderson_usfe]\]. Cold gas is th
 stated. For a perfect gas expanded to vacuum, taking nitrogen at an assumed 300 kelvin with a ratio of
 specific heats of 1.4, the limiting exhaust speed is
 
-$$v_{\max} = \sqrt{\frac{2 \gamma R T}{\gamma - 1}} = \sqrt{\frac{2 \times 1.4 \times 296.8 \times 300}{0.4}} = 789 \ \text{m/s}$$
+$$
+v_{\max} = \sqrt{\frac{2 \gamma R T}{\gamma - 1}} = \sqrt{\frac{2 \times 1.4 \times 296.8 \times 300}{0.4}} = 789 \ \text{m/s}
+\tag{69}
+$$
 
-$$I_{sp} = \frac{v_{\max}}{g} = 80 \ \text{s}$$
+$$
+I_{sp} = \frac{v_{\max}}{g} = 80 \ \text{s}
+\tag{70}
+$$
 
 **The figure is under a third of the main engine's specific impulse**, and a real cold gas thruster delivers
 less again. **It is the right choice anyway**, because the total impulse required for attitude
@@ -952,7 +1162,10 @@ and held for five minutes. Fifty pressure cycles to the operating pressure follo
 leakage, and the strains measured at the operating pressure were under half the material
 allowables\[[Guerrero et al. 2004][research_guerrero_2004]\],
 
-$$\frac{\varepsilon_{\text{tank}}}{\varepsilon_{\text{allow}}} = \frac{0.0054}{0.015} = 0.36 \qquad \frac{\varepsilon_{\text{skirt}}}{\varepsilon_{\text{allow}}} = \frac{0.0032}{0.0082} = 0.39$$
+$$
+\frac{\varepsilon_{\text{tank}}}{\varepsilon_{\text{allow}}} = \frac{0.0054}{0.015} = 0.36 \qquad \frac{\varepsilon_{\text{skirt}}}{\varepsilon_{\text{allow}}} = \frac{0.0032}{0.0082} = 0.39
+\tag{71}
+$$
 
 for the largest measured strain $\varepsilon$ against the tensile strain allowable. Construction and
 component testing continued through the middle of 2003 at a low level of activity\[[USFE X-42][ref_x42_parsch]\].
@@ -1748,6 +1961,664 @@ administered in the late 1990s.
 programme was built to demonstrate, being a peroxide and hydrocarbon engine at useful thrust and a
 composite common-bulkhead tank compatible with concentrated peroxide, both reached ground test before
 the programme ended. **That is a reasonable return for a vehicle that never left the ground.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 71 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 71, 50 are established and 21 are bespoke.
+The engine and propellant relations are evaluated in pounds, inches, pounds per square inch and seconds while the tank mass, thermochemistry and pressurant relations are evaluated in the International System, and several letters are reused, so $m_{f}$ is the fuel mass in the propellant split and the burnout mass in the rocket equation, $R$ is a cylinder radius in the membrane loads and the gas constant of nitrogen in the cold gas relation, $\varepsilon$ is the nozzle area ratio except in the final strain ratios, and $\gamma$ is the ratio of specific heats of the decomposition products in the chamber and nozzle relations and of nitrogen in the cold gas relation.
+
+**Equation 1, Hoop Stress Wall Thickness of a Thin Cylinder.**
+A thin cylindrical wall under internal pressure carries the hoop stress, so the thickness required is the pressure times the radius over the allowable stress.
+[Huzel and Huang 1967][research_huzel_1967]
+[Sutton and Biblarz][book_sutton_biblarz]
+
+$$
+t = \frac{p r}{\sigma}
+\tag{1}
+$$
+
+**Equation 2, Wall Mass of a Thin Cylindrical Tank.**
+The wall mass is the wall volume times the material density, and substituting the hoop thickness leaves the pressure over the specific strength times the enclosed volume.
+
+$$
+m_{t} = \rho_{m} \, 2 \pi r L t = \rho_{m} \, 2 \pi r L \frac{p r}{\sigma} = 2 \frac{p}{\sigma / \rho_{m}} \pi r^{2} L
+\tag{2}
+$$
+
+**Equation 3, Cylindrical Tank Mass in Pressure and Volume.**
+Writing the enclosed volume for $\pi r^{2} L$ shows that the wall mass of a cylinder is twice the product of pressure and volume over the specific strength.
+
+$$
+m_{t} = 2 \frac{p V}{\sigma / \rho_{m}}
+\tag{3}
+$$
+
+**Equation 4, Spherical Tank Mass in Pressure and Volume.**
+The same exercise for a sphere, with half the wall thickness, gives a constant of three halves in place of two.
+
+$$
+m_{t} = \frac{3}{2} \frac{p V}{\sigma / \rho_{m}}
+\tag{4}
+$$
+
+**Equation 5, General Pressure Vessel Mass Relation.**
+The mass of a thin pressure vessel is a shape constant between three halves and two times the product of pressure and volume over the specific strength, so the radius cancels and size brings no economy.
+
+$$
+m_{t} = k \frac{p V}{\sigma / \rho_{m}} \qquad k = \tfrac{3}{2} \text{ to } 2
+\tag{5}
+$$
+
+**Equation 6, Tank Mass as a Fraction of Propellant Mass.**
+Dividing the vessel mass by the propellant mass shows that the tank fraction rises with pressure and falls with propellant bulk density and material specific strength.
+
+$$
+\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{p} \left( \sigma / \rho_{m} \right)}
+\tag{6}
+$$
+
+**Equation 7, Bulk Density of a Bipropellant.**
+The volumes of oxidiser and fuel add while their masses stand in the mixture ratio, which gives the bulk density of the combination.
+
+$$
+\rho_{b} = \frac{1 + \mathit{MR}}{\dfrac{\mathit{MR}}{\rho_{o}} + \dfrac{1}{\rho_{f}}}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Bulk Density of Peroxide and JP-8.*
+The bulk density at the published mixture ratio of 4.7 uses an oxidiser density of 1.387 and a fuel density of 0.804 grams per cubic centimetre, values the article assumes.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+\rho_{b} = \frac{5.7}{\dfrac{4.7}{1.387} + \dfrac{1}{0.804}} = 1.230 \ \text{g/cm}^{3}
+\tag{8}
+$$
+
+**Equation 9, Density Impulse.**
+Density impulse is the product of bulk density and specific impulse, the figure of merit for a stage limited by volume or pressure.
+
+$$
+I_{\rho} = \rho_{b} I_{sp}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Density Impulse of Peroxide and JP-8.*
+The published vacuum specific impulse of 275 seconds is multiplied by the bulk density obtained from the assumed propellant densities.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+I_{\rho} = 1.230 \times 275 = 338 \ \text{g}\,\text{cm}^{-3}\,\text{s}
+\tag{10}
+$$
+
+**Equation 11, Specific Strength of Aluminium 2219-T87.**
+A yield strength near 400 megapascals over a density of 2,840 kilograms per cubic metre gives the specific strength of the tank alloy.
+[Simon et al. 1991][research_simon_1991]
+[Wagner and Keller 1974][research_nasa_sp8088]
+
+$$
+\frac{\sigma}{\rho_{m}} = \frac{400 \times 10^{6}}{2840} = 1.41 \times 10^{5} \ \text{J/kg}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Specific Strength Advantage of the Composite.*
+The ratio of composite to aluminium specific strength takes the composite between $1.0 \times 10^{6}$ and $1.6 \times 10^{6}$ joules per kilogram, a range the article assumes between a design allowable and the fibre limit.
+
+$$
+\frac{\left( \sigma / \rho_{m} \right)_{\text{composite}}}{\left( \sigma / \rho_{m} \right)_{\text{aluminium}}} = \frac{1.0 \ \text{to} \ 1.6 \times 10^{6}}{1.41 \times 10^{5}} = 7.1 \ \text{to} \ 11.4
+\tag{12}
+$$
+
+**Equation 13, Membrane Loads in a Pressurised Cylinder.**
+A cylinder under internal pressure carries a hoop load per unit length of pressure times radius and an axial load of half that.
+
+$$
+N_{\theta} = p R \qquad N_{z} = \frac{p R}{2}
+\tag{13}
+$$
+
+**Equation 14, Netting Analysis Winding Angle.**
+Netting analysis credits a single helical fibre family with the whole load, and the two to one ratio of hoop to axial load then fixes the winding angle at 54.7 degrees.
+[Hossain et al. 2013][research_hossain_2013]
+
+$$
+\tan^{2} \alpha = \frac{N_{\theta}}{N_{z}} = 2 \qquad \text{so} \qquad \alpha = \arctan \sqrt{2} = 54.7^{\circ}
+\tag{14}
+$$
+
+**Equation 15, Propellant Load of the Rated Burn.**
+The rated flowrate of 36.0 pounds per second over the rated 200 second burn gives a load of 7,200 pounds.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+m_{p} = \dot{m} \, t_{b} = 36.0 \times 200 = 7{,}200 \ \text{lbm}
+\tag{15}
+$$
+
+**Equation 16, Propellant Load of the Flight Burn.**
+The same flowrate over the published 110 second flight burn gives a load of 3,960 pounds.
+[Guerrero et al. 2004][research_guerrero_2004]
+[Ross et al. 2000][research_ross_2000]
+
+$$
+m_{p} = 36.0 \times 110 = 3{,}960 \ \text{lbm}
+\tag{16}
+$$
+
+**Equation 17, Oxidiser and Fuel Masses at the Mixture Ratio.**
+The mixture ratio of 4.7 by mass divides the flight load into its oxidiser and fuel shares.
+
+$$
+m_{o} = m_{p} \frac{\mathit{MR}}{1 + \mathit{MR}} = 3{,}960 \times \frac{4.7}{5.7} = 3{,}265 \ \text{lbm} \qquad m_{f} = \frac{m_{p}}{1 + \mathit{MR}} = \frac{3{,}960}{5.7} = 695 \ \text{lbm}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Propellant Volumes and Tank Fill.*
+The oxidiser and fuel volumes use densities of 86.6 and 50.2 pounds per cubic foot, the assumed propellant densities, and their sum against the published tank volumes gives a fill of 0.855.
+
+$$
+V_{o} = \frac{m_{o}}{\rho_{o}} = \frac{3{,}265}{86.6} = 37.7 \ \text{ft}^{3} \qquad V_{f} = \frac{m_{f}}{\rho_{f}} = \frac{695}{50.2} = 13.8 \ \text{ft}^{3} \qquad \frac{37.7 + 13.8}{44.8 + 15.5} = \frac{51.5}{60.3} = 0.855
+\tag{18}
+$$
+
+*Equation 19, Bespoke Full Tank Capacity and Burn Time.*
+Filling the published tank volumes at the assumed propellant densities gives a capacity that the rated flowrate would consume in 129 seconds.
+
+$$
+44.8 \times 86.6 = 3{,}879 \ \text{lbm} \qquad 15.5 \times 50.2 = 778 \ \text{lbm} \qquad \frac{3{,}879 + 778}{36.0} = 129 \ \text{s}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Tank Volume Ratio Against the Mixture Ratio.*
+The published tank volume ratio of 2.89 is set against the volume ratio of 2.72 that the mixture ratio implies at the assumed propellant densities.
+
+$$
+\frac{V_{o}}{V_{f}} = \frac{44.8}{15.5} = 2.89 \qquad \text{against} \qquad \mathit{MR} \, \frac{\rho_{f}}{\rho_{o}} = 4.7 \times \frac{50.2}{86.6} = 2.72
+\tag{20}
+$$
+
+*Equation 21, Bespoke Ideal Composite Tank Mass.*
+The vessel mass relation is evaluated at the published operating pressure and tank volume with the cylindrical constant of two and a composite design allowable of $1.0 \times 10^{6}$ joules per kilogram that the article assumes.
+
+$$
+m_{t} = k \frac{p V}{\sigma / \rho_{m}} = 2 \times \frac{7.584 \times 10^{6} \times 1.708}{1.0 \times 10^{6}} = 25.9 \ \text{kg}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Ideal Composite Tank Fraction.*
+The tank fraction of 1.23 percent follows from the published pressure, the cylindrical constant, the assumed composite allowable and the bulk density from the assumed propellant densities.
+
+$$
+\frac{m_{t}}{m_{p}} = \frac{k p}{\rho_{b} \left( \sigma / \rho_{m} \right)} = \frac{2 \times 7.584 \times 10^{6}}{1230 \times 1.0 \times 10^{6}} = 0.0123
+\tag{22}
+$$
+
+**Equation 23, Proof and Burst Pressures.**
+The published hydrostatic proof factor of 1.5 and burst safety factor of 2.0 applied to the maximum expected operating pressure, or MEOP, of 1,100 pounds per square inch absolute give the proof and minimum burst pressures.
+[Guerrero et al. 2004][research_guerrero_2004]
+
+$$
+p_{\text{proof}} = 1.5 \, p_{\text{MEOP}} = 1.5 \times 1{,}100 = 1{,}650 \ \text{psia} \qquad p_{\text{burst}} \geq 2.0 \times 1{,}100 = 2{,}200 \ \text{psia}
+\tag{23}
+$$
+
+**Equation 24, Pressure-Fed Tank Pressure Requirement.**
+A pressure-fed tank must exceed the chamber pressure by every loss between the tank and the chamber, here the catalyst bed, injector and line losses.
+
+$$
+p_{\text{tank}} \geq p_{c} + \Delta p_{\text{bed}} + \Delta p_{\text{inj}} + \Delta p_{\text{line}}
+\tag{24}
+$$
+
+**Equation 25, Pressure Margin Above the Chamber and Bed.**
+Subtracting the published chamber pressure and measured bed drop from the published operating pressure leaves 464 pounds per square inch, 42 percent of the tank pressure, for the remaining losses.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+1{,}100 - 636 = 464 \ \text{psi} \qquad \frac{464}{1{,}100} = 0.42
+\tag{25}
+$$
+
+**Equation 26, Bulkhead Pressure Difference Above the Bed Drop.**
+The published oxidiser-high bulkhead pressure difference of 195 pounds per square inch exceeds the measured bed drop of 136 by 59.
+[Guerrero et al. 2004][research_guerrero_2004]
+[Ross et al. 2000][research_ross_2000]
+
+$$
+195 - 136 = 59 \ \text{psi}
+\tag{26}
+$$
+
+**Equation 27, Tsiolkovsky Rocket Equation.**
+The velocity increment is the effective exhaust velocity times the natural logarithm of the ratio of ignition to burnout mass.
+
+$$
+\Delta V = g I_{sp} \ln \frac{m_{0}}{m_{f}} = c \ln \frac{m_{0}}{m_{f}}
+\tag{27}
+$$
+
+**Equation 28, Effective Exhaust Velocity of the Engine.**
+Standard gravity times the published delivered specific impulse of 275 seconds gives an effective exhaust velocity of 2,697 metres per second.
+
+$$
+c = g I_{sp} = 32.174 \times 275 = 8{,}848 \ \text{ft/s} = 2{,}697 \ \text{m/s}
+\tag{28}
+$$
+
+**Equation 29, Ignition and Burnout Masses of the Stage.**
+The ignition mass is the sum of propellant, inert mass and payload, and the burnout mass omits the propellant.
+
+$$
+m_{0} = m_{p} + m_{i} + m_{\ell} \qquad m_{f} = m_{i} + m_{\ell}
+\tag{29}
+$$
+
+**Equation 30, Decomposition of Hydrogen Peroxide.**
+Liquid hydrogen peroxide decomposes into liquid water and gaseous oxygen with a reaction enthalpy of $-98.0$ kilojoules per mole.
+
+$$
+\mathrm{H_{2}O_{2}} \ (l) \longrightarrow \mathrm{H_{2}O} \ (l) + \tfrac{1}{2} \mathrm{O_{2}} \ (g) \qquad \Delta H = -98.0 \ \text{kJ/mol}
+\tag{30}
+$$
+
+**Equation 31, Heat Released per Unit Mass of Peroxide.**
+Dividing the reaction enthalpy by the molar mass of hydrogen peroxide gives the heat released per kilogram of pure peroxide.
+
+$$
+q = \frac{98.0 \times 10^{3}}{34.01 \times 10^{-3}} = 2.88 \ \text{MJ/kg}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Heat Capacity of the Decomposition Products.*
+The heat capacity of the products is the mass-weighted sum of constant heat capacities of 2,100 for steam and 980 joules per kilogram kelvin for oxygen, values the article assumes.
+
+$$
+c_{p} = 0.577 \times 2100 + 0.423 \times 980 = 1{,}626 \ \text{J/kg K}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Decomposition Temperature from an Energy Balance.*
+The heat left after boiling the water is divided by a heat capacity held constant, an assumption that makes the balance overshoot the published temperature by about six percent.
+[Walsh and Sutton 2002][research_walsh_2002]
+
+$$
+\Delta T = \frac{1.11 \times 10^{6}}{1{,}626} = 683 \ \text{K} \qquad \text{so} \qquad T \approx 780 \ ^{\circ}\text{C}
+\tag{33}
+$$
+
+**Equation 34, Isentropic Area Relation.**
+The ratio of a flow area to the sonic throat area fixes the Mach number of isentropic flow for a given ratio of specific heats.
+
+$$
+\frac{A_{c}}{A_{t}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^{2} \right) \right]^{\frac{\gamma + 1}{2(\gamma - 1)}}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Static to Stagnation Temperature in the Chamber.*
+At the chamber Mach number of 0.083 obtained from the contraction ratio with an assumed ratio of specific heats of 1.25, the static temperature is within a tenth of a percent of the stagnation value.
+
+$$
+\frac{T}{T_{0}} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{-1} = 0.999
+\tag{35}
+$$
+
+**Equation 36, Oxidiser Flowrate.**
+The mixture ratio of 4.7 assigns 29.7 of the published 36.0 pounds per second of flow to the oxidiser.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+\dot{m}_{o} = \dot{m} \frac{\mathit{MR}}{1 + \mathit{MR}} = 36.0 \times \frac{4.7}{5.7} = 29.7 \ \text{lb/s}
+\tag{36}
+$$
+
+**Equation 37, Catalyst Bed Frontal Area and Diameter.**
+The oxidiser flowrate over the published bed mass flux of 0.4 pounds per second per square inch gives the bed frontal area and a diameter of 9.72 inches.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+A_{\text{bed}} = \frac{\dot{m}_{o}}{G} = \frac{29.7}{0.4} = 74.2 \ \text{in}^{2} \qquad D_{\text{bed}} = 2 \sqrt{\frac{A_{\text{bed}}}{\pi}} = 9.72 \ \text{in}
+\tag{37}
+$$
+
+**Equation 38, Instability Onset as a Fraction of Design Oxidiser Flow.**
+The reported onset of the 18 hertz oscillation at about 12 pounds per second is 40 percent of the design oxidiser flow.
+[Johnson et al. 2000][research_johnson_anderson_2000]
+
+$$
+\frac{12}{29.7} = 0.40
+\tag{38}
+$$
+
+**Equation 39, Demonstrated Throttle Points in Oxidiser Flow.**
+The demonstrated throttle fractions of 20 and 10 percent of the design oxidiser flow are 5.9 and 3.0 pounds per second.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+0.20 \times 29.7 = 5.9 \ \text{lb/s} \qquad 0.10 \times 29.7 = 3.0 \ \text{lb/s}
+\tag{39}
+$$
+
+**Equation 40, Thrust from Flowrate and Specific Impulse.**
+Thrust in pounds is the weight flowrate times the specific impulse in seconds.
+
+$$
+F = \dot{m} \, I_{sp}
+\tag{40}
+$$
+
+**Equation 41, Closure of the Published Engine Table.**
+Holding the published thrust fixed and solving for either the flowrate or the specific impulse shows that the table misses closure by one percent.
+[McNeal and Anderson 1999][research_mcneal_1999]
+[Anderson et al. 1999][research_anderson_usfe]
+
+$$
+\dot{m} = \frac{F}{I_{sp}} = \frac{10{,}000}{275} = 36.36 \ \text{lb/s} \qquad \text{or} \qquad I_{sp} = \frac{F}{\dot{m}} = \frac{10{,}000}{36.0} = 277.8 \ \text{s}
+\tag{41}
+$$
+
+**Equation 42, Ideal Specific Impulse Behind the Prediction.**
+The predicted 275 seconds divided by the demonstrated characteristic velocity efficiency of 0.97 and the paper's nozzle efficiency of 0.98 gives an ideal value of 289.3 seconds.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+I_{sp,\text{ideal}} = \frac{275}{0.97 \times 0.98} = 289.3 \ \text{s}
+\tag{42}
+$$
+
+**Equation 43, Mixture Ratio and Specific Impulse of the Instability Paper.**
+The flows and thrust printed in the instability paper give a mixture ratio of 5.21 and a specific impulse of 263.3 seconds.
+[Johnson et al. 2000][research_johnson_anderson_2000]
+
+$$
+\mathit{MR} = \frac{30.2}{5.8} = 5.21 \qquad \frac{9{,}480}{30.2 + 5.8} = 263.3 \ \text{s}
+\tag{43}
+$$
+
+**Equation 44, Throat Area from the Contraction Ratio.**
+The published chamber diameter of ten inches and contraction ratio of 7.1 give a throat area of 11.06 square inches.
+
+$$
+A_{t} = \frac{A_{c}}{\varepsilon_{c}} = \frac{\pi (10/2)^{2}}{7.1} = 11.06 \ \text{in}^{2}
+\tag{44}
+$$
+
+**Equation 45, Throat Diameter, Exit Area and Exit Diameter.**
+The throat area and the published expansion ratio of 40 give a throat diameter of 3.75 inches and an exit diameter of 23.7 inches.
+[Anderson et al. 1999][research_anderson_usfe]
+
+$$
+D_{t} = 2 \sqrt{\frac{A_{t}}{\pi}} = 3.75 \ \text{in} \qquad A_{e} = \varepsilon A_{t} = 40 \times 11.06 = 442 \ \text{in}^{2} \qquad D_{e} = 2 \sqrt{\frac{A_{e}}{\pi}} = 23.7 \ \text{in}
+\tag{45}
+$$
+
+**Equation 46, Characteristic Velocity from the Published Flowrate.**
+The characteristic velocity is the chamber pressure times the throat area over the mass flowrate, evaluated at the published operating point.
+
+$$
+c^{*} = \frac{p_{c} A_{t} g}{\dot{m}} = \frac{500 \times 11.06 \times 32.174}{36.0} = 4{,}943 \ \text{ft/s}
+\tag{46}
+$$
+
+**Equation 47, Thrust Coefficient from the Published Thrust.**
+The thrust coefficient is the thrust over the product of chamber pressure and throat area, evaluated at the published operating point.
+
+$$
+C_{F} = \frac{F}{p_{c} A_{t}} = \frac{10{,}000}{500 \times 11.06} = 1.808
+\tag{47}
+$$
+
+**Equation 48, Ideal Vacuum Thrust Coefficient.**
+Isentropic expansion gives the vacuum thrust coefficient as the momentum term at the exit pressure ratio plus the pressure term at the area ratio.
+[Liquid Rocket Engine Nozzles 1976][research_nasa_sp8120]
+[Huzel and Huang 1967][research_huzel_1967]
+
+$$
+C_{F,\text{vac}} = \sqrt{\frac{2 \gamma^{2}}{\gamma - 1} \left( \frac{2}{\gamma + 1} \right)^{\frac{\gamma + 1}{\gamma - 1}} \left[ 1 - \left( \frac{p_{e}}{p_{c}} \right)^{\frac{\gamma - 1}{\gamma}} \right]} + \varepsilon \frac{p_{e}}{p_{c}}
+\tag{48}
+$$
+
+**Equation 49, Area Ratio and Exit Pressure Ratio.**
+Isentropic expansion relates the nozzle area ratio to the ratio of exit to chamber pressure.
+[Liquid Rocket Engine Nozzles 1976][research_nasa_sp8120]
+[Huzel and Huang 1967][research_huzel_1967]
+
+$$
+\varepsilon = \frac{1}{\left( \dfrac{\gamma + 1}{2} \right)^{\frac{1}{\gamma - 1}} \left( \dfrac{p_{e}}{p_{c}} \right)^{\frac{1}{\gamma}} \sqrt{\dfrac{\gamma + 1}{\gamma - 1} \left[ 1 - \left( \dfrac{p_{e}}{p_{c}} \right)^{\frac{\gamma - 1}{\gamma}} \right]}}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Implied Nozzle Efficiency.*
+The implied thrust coefficient is divided by ideal values computed at assumed ratios of specific heats of 1.20 and 1.25, which bracket the efficiency between 0.960 and 0.985.
+
+$$
+\frac{1.808}{1.884} = 0.960 \qquad \frac{1.808}{1.835} = 0.985
+\tag{50}
+$$
+
+**Equation 51, Specific Impulse from Characteristic Velocity and Thrust Coefficient.**
+The product of characteristic velocity and thrust coefficient over standard gravity reduces identically to thrust over flowrate, so the geometry cancels.
+
+$$
+I_{sp} = \frac{c^{*} C_{F}}{g} = \frac{p_{c} A_{t} g}{\dot{m}} \cdot \frac{F}{p_{c} A_{t}} \cdot \frac{1}{g} = \frac{F}{\dot{m}}
+\tag{51}
+$$
+
+**Equation 52, Throat Radius Growth over the Rated Burn.**
+The published allowable erosion rate of 0.001 inches per second over the 200 second burn grows the throat radius by 0.200 inches.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+\Delta r = \dot{r} \, t_{b} = 0.001 \times 200 = 0.200 \ \text{in}
+\tag{52}
+$$
+
+**Equation 53, Eroded Throat Radius and Area.**
+Adding the erosion allowance to the throat radius of 1.876 inches gives the eroded radius and area.
+
+$$
+r_{2} = r_{1} + \Delta r = 1.876 + 0.200 = 2.076 \ \text{in} \qquad A_{t,2} = \pi r_{2}^{2} = 13.55 \ \text{in}^{2}
+\tag{53}
+$$
+
+**Equation 54, Fractional Growth of Throat Area.**
+The eroded throat area exceeds the original by 22.5 percent.
+
+$$
+\frac{A_{t,2}}{A_{t,1}} - 1 = \frac{13.55}{11.06} - 1 = 22.5 \ \text{percent}
+\tag{54}
+$$
+
+**Equation 55, Cavitating Venturi Mass Flow.**
+Once the venturi throat cavitates the mass flow depends only on the discharge coefficient, the throat area, the liquid density and the difference between upstream and vapour pressure.
+[Ulas 2006][research_ulas_2006]
+
+$$
+\dot{m} = C_{d} A_{v} \sqrt{2 \rho \left( p_{u} - p_{v} \right)}
+\tag{55}
+$$
+
+**Equation 56, Chamber Pressure at Fixed Mass Flow.**
+With mass flow and characteristic velocity fixed, chamber pressure varies inversely with throat area so that their product is constant.
+
+$$
+p_{c} = \frac{\dot{m} \, c^{*}}{A_{t} \, g} \qquad \text{so} \qquad p_{c} A_{t} = \text{constant}
+\tag{56}
+$$
+
+**Equation 57, Thrust at Fixed Mass Flow.**
+Thrust is the thrust coefficient times the constant product of chamber pressure and throat area, so at fixed flow it depends on the thrust coefficient alone.
+
+$$
+F = C_{F} \, p_{c} A_{t} = C_{F} \frac{\dot{m} c^{*}}{g}
+\tag{57}
+$$
+
+**Equation 58, Expansion Ratio of the Eroded Nozzle.**
+The fixed exit area over the eroded throat area gives an expansion ratio of 32.7.
+
+$$
+\varepsilon_{2} = \frac{A_{e}}{A_{t,2}} = \frac{442}{13.55} = 32.7
+\tag{58}
+$$
+
+*Equation 59, Bespoke Vacuum Thrust Coefficient Before and After Erosion.*
+The ideal vacuum thrust coefficient is evaluated at expansion ratios of 40 and 32.7 for assumed ratios of specific heats of 1.20 and 1.25.
+
+$$
+C_{F,\text{vac}} : \ 1.8843 \rightarrow 1.8669 \ (\gamma = 1.20) \qquad 1.8346 \rightarrow 1.8203 \ (\gamma = 1.25)
+\tag{59}
+$$
+
+*Equation 60, Bespoke Thrust Change over the Rated Burn.*
+The ideal thrust coefficients at the assumed ratios of specific heats fall by under one percent between the new and the fully eroded throat.
+
+$$
+\frac{1.8669}{1.8843} - 1 = -0.92 \ \text{percent} \qquad \frac{1.8203}{1.8346} - 1 = -0.78 \ \text{percent}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Thrust Change over the Flight Burn.*
+Over the 110 second flight burn the ideal thrust coefficient at the assumed ratios of specific heats falls by about half a percent.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+\frac{1.8746}{1.8843} - 1 = -0.51 \ \text{percent} \qquad \frac{1.8267}{1.8346} - 1 = -0.43 \ \text{percent}
+\tag{61}
+$$
+
+**Equation 62, Throat Growth from the Chamber Pressure History.**
+Because the product of chamber pressure and throat area is constant at fixed flow, the area ratio is the inverse pressure ratio and the radius ratio its square root.
+
+$$
+\frac{A_{t,2}}{A_{t,1}} = \frac{p_{c,1}}{p_{c,2}} \qquad \text{and} \qquad \frac{r_{2}}{r_{1}} = \sqrt{\frac{p_{c,1}}{p_{c,2}}}
+\tag{62}
+$$
+
+**Equation 63, Average Erosion Rate from the 140 Second Test.**
+The reported pressure fall from 495 to 460 pounds per square inch over 140 seconds implies an average throat erosion rate of 0.00050 inches per second.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+\dot{r} = \frac{r_{1}}{t} \left( \sqrt{\frac{p_{c,1}}{p_{c,2}}} - 1 \right) = \frac{1.876}{140} \left( \sqrt{\frac{495}{460}} - 1 \right) = 0.00050 \ \text{in/s}
+\tag{63}
+$$
+
+**Equation 64, Specific Impulse Forgone with the Ring Injector.**
+The steam port injector's 298 seconds exceeds the ring injector's 275 seconds by 23 seconds.
+[Ross et al. 2000][research_ross_2000]
+
+$$
+298 - 275 = 23 \ \text{s}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Pressurant Mass at Burnout.*
+The ideal gas law gives the helium filling both tanks at the operating pressure, with a gas temperature of 300 kelvin that the article assumes.
+
+$$
+m_{g} = \frac{p_{t} V}{R_{\text{He}} T} = \frac{7.584 \times 10^{6} \times 1.708}{2077 \times 300} = 20.78 \ \text{kg}
+\tag{65}
+$$
+
+*Equation 66, Bespoke Stored Pressurant Mass.*
+The helium that remains in a bottle that cannot be emptied below the tank pressure is added to the burnout mass from the assumed gas temperature, an isothermal lower bound.
+
+$$
+m_{\text{stored}} = \frac{m_{g}}{1 - p_{t}/p_{b}} = \frac{20.78}{1 - 1{,}100/6{,}000} = \frac{20.78}{0.8167} = 25.4 \ \text{kg}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Minimum Pressurant Bottle Volume.*
+The ideal gas law at the published bottle pressure of 6,000 pounds per square inch and the assumed temperature of 300 kelvin gives an isothermal minimum volume of 13.5 cubic feet.
+
+$$
+V_{b} = \frac{m_{\text{stored}} R_{\text{He}} T}{p_{b}} = \frac{25.4 \times 2077 \times 300}{41.37 \times 10^{6}} = 0.383 \ \text{m}^{3} = 13.5 \ \text{ft}^{3} = 23{,}390 \ \text{in}^{3}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Minimum Pressurant Bottle Weight.*
+The anticipated ratio of pressure times volume to weight of 1.92 million inches is applied to the isothermal minimum volume obtained at the assumed gas temperature.
+[DeLay and Munafo 2001][research_delay_2001]
+
+$$
+W_{b} = \frac{p_{b} V_{b}}{(pV/W)} = \frac{6{,}000 \times 23{,}390}{1.92 \times 10^{6}} = 73.1 \ \text{lb}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Limiting Exhaust Speed of Cold Nitrogen.*
+The limiting exhaust speed of a perfect gas expanded to vacuum is evaluated for nitrogen at a temperature of 300 kelvin that the article assumes.
+
+$$
+v_{\max} = \sqrt{\frac{2 \gamma R T}{\gamma - 1}} = \sqrt{\frac{2 \times 1.4 \times 296.8 \times 300}{0.4}} = 789 \ \text{m/s}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Limiting Specific Impulse of Cold Nitrogen.*
+The limiting exhaust speed over standard gravity gives about 80 seconds, under a third of the main engine's specific impulse.
+
+$$
+I_{sp} = \frac{v_{\max}}{g} = 80 \ \text{s}
+\tag{70}
+$$
+
+**Equation 71, Measured Strains Against the Allowables.**
+The largest measured strains in the tank and the skirt at the operating pressure are 0.36 and 0.39 of their tensile strain allowables.
+[Guerrero et al. 2004][research_guerrero_2004]
+
+$$
+\frac{\varepsilon_{\text{tank}}}{\varepsilon_{\text{allow}}} = \frac{0.0054}{0.015} = 0.36 \qquad \frac{\varepsilon_{\text{skirt}}}{\varepsilon_{\text{allow}}} = \frac{0.0032}{0.0082} = 0.39
+\tag{71}
+$$
+
+### Notation
+
+- $p$, the internal pressure
+- $V$, the enclosed volume
+- $\sigma$, the allowable stress, with $\sigma / \rho_{m}$ the specific strength
+- $\rho_{m}$, the density of the tank material
+- $m_{t}$, the tank wall mass
+- $k$, the shape constant, two for a cylinder and three halves for a sphere
+- $\rho_{p}$, the propellant bulk density
+- $m_{p}$, the propellant mass
+- $\mathit{MR}$, the mass mixture ratio of oxidiser to fuel
+- $\rho_{o}$, the oxidiser density, with $\rho_{f}$ the fuel density
+- $\rho_{b}$, the bulk density of the bipropellant
+- $I_{\rho}$, the density impulse
+- $I_{sp}$, the specific impulse in seconds
+- $N_{\theta}$, the hoop load per unit length, with $N_{z}$ the axial load
+- $\alpha$, the fibre winding angle from the axis
+- $\dot{m}$, the propellant flowrate, with $\dot{m}_{o}$ the oxidiser flowrate
+- $t_{b}$, the burn time
+- $\Delta V$, the velocity increment
+- $m_{0}$, the mass at ignition, with $m_{f}$ the mass at burnout in the rocket equation and the fuel mass in the propellant split
+- $m_{i}$, the inert mass, with $m_{\ell}$ the payload
+- $c$, the effective exhaust velocity
+- $g$, standard gravity
+- $c_{p}$, the heat capacity of the decomposition products
+- $A_{c}$, the chamber area, with $A_{t}$ the throat area and $A_{e}$ the exit area
+- $M$, the Mach number
+- $\gamma$, the ratio of specific heats, of the decomposition products in the chamber and nozzle relations and of nitrogen in the cold gas relation
+- $G$, the catalyst bed mass flux
+- $F$, the thrust
+- $p_{c}$, the chamber pressure
+- $c^{*}$, the characteristic velocity
+- $C_{F}$, the thrust coefficient
+- $\varepsilon$, the nozzle area ratio, with $\varepsilon_{c}$ the contraction ratio and, in the final relation, the measured strain
+- $p_{e}$, the nozzle exit pressure
+- $\dot{r}$, the throat erosion rate
+- $C_{d}$, the venturi discharge coefficient
+- $A_{v}$, the venturi throat area
+- $p_{u}$, the pressure upstream of the venturi, with $p_{v}$ the vapour pressure
+- $m_{g}$, the pressurant mass needed at burnout
+- $p_{t}$, the tank operating pressure, with $p_{b}$ the pressurant bottle pressure
+- $R_{\text{He}}$, the gas constant of helium
+- $v_{\max}$, the limiting exhaust speed of a cold gas expanded to vacuum
 
 ## References
 

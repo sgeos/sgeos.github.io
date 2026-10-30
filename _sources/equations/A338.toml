@@ -1,0 +1,447 @@
+# Equation classification for A338. Read by `python3 _lib/equations.py`.
+
+caution = "Mach numbers in this article are a fixed speed scale of 295 metres per second rather than local Mach numbers, ranges are quoted in both kilometres and nautical miles, and the letter $R$ alone is a glide range while $R_{e}$ is the radius of the Earth and $R_{n}$ the leading-edge radius."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Half Great Circle of the Earth"
+gloss = "The farthest point on Earth from any launch site is half a great circle away, 20,015 kilometres or 10,807 nautical miles on the mean radius."
+cite = []
+digest = "ac7bb9eba147036b"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Planned Range Against the Cruise Vehicle's Figure"
+gloss = "The published planned range of 17,000 kilometres stands within two percent of the cruise vehicle's 9,000 nautical miles."
+cite = ["ref_acton_2015", "ref_falcon"]
+digest = "48915eda4c1cf0c7"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Circular Speed at the Surface"
+gloss = "The speed at which a body would orbit at the surface is the square root of gravity times the Earth radius, 7,904 metres per second."
+cite = []
+digest = "c4119f932c3c3294"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Equilibrium Glide Lift"
+gloss = "The lift a steady glide requires is the weight less the centrifugal relief of the curved path."
+cite = []
+digest = "db225fc621549e2e"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Equilibrium Glide Range of Eggers"
+gloss = "Integrating the equilibrium glide from an initial speed to rest gives a range linear in the lift to drag ratio and logarithmic in the speed term."
+cite = ["research_eggers_1955", "research_eggers_1958"]
+digest = "d8545a94541a384f"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Sensitivity of Range to Lift to Drag Ratio"
+gloss = "Since range is linear in the lift to drag ratio, a fractional loss of the ratio is the same fractional loss of range."
+cite = []
+digest = "9f5d6a69d5cdf023"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Lift to Drag Ratio Required for a Range"
+gloss = "Solving the equilibrium glide range for the ratio gives the demand that a fixed distance places on the shape."
+cite = []
+digest = "b0de3463201e91d4"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Fixed Speed Scale for Mach Numbers"
+gloss = "Speeds are converted from Mach numbers on a fixed scale of 295 metres per second, the isothermal-layer speed of sound of the standard atmosphere, which the article adopts as a convention rather than a local value."
+cite = ["ref_usa76"]
+digest = "87ddac5c32d26bf8"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Küchemann Barrier for Hypersonic Lift to Drag Ratio"
+gloss = "Küchemann's correlation gives the attainable maximum lift to drag ratio of a hypersonic configuration as four times the Mach number plus three, over the Mach number."
+cite = ["research_kuchemann_1965"]
+digest = "9e965f6c649e1261"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Mach Number Where Demand Meets the Barrier"
+gloss = "Equating the ratio required for a range of 9,000 nautical miles, which the article takes as the glider's requirement, to the Küchemann ceiling on the fixed speed scale defines the minimum entry speed."
+cite = []
+digest = "08c9e31c890d1af0"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Minimum Entry Speed"
+gloss = "The numerical root on the fixed speed scale and the attributed range requirement is Mach 22.2, or 83 percent of orbital speed."
+cite = []
+digest = "21b3eee8f983cac0"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Effect of Using the Local Speed of Sound"
+gloss = "Replacing the fixed 295 metres per second scale with the local speed of sound at 40 kilometres raises the Küchemann ceiling at Mach 20 by about one percent."
+cite = []
+digest = "1a1e48dfd021e668"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Planned Glide Duration and Distance"
+gloss = "The published reconstruction of the trajectory gives a planned glide of 1,178 seconds covering 4,800 kilometres."
+cite = ["ref_acton_2015"]
+digest = "62a09b6c06cf00eb"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Equilibrium Glide Range Between Two Speeds"
+gloss = "The range between two speeds is the difference of the two ranges to rest."
+cite = []
+digest = "c923b527204341e9"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Range of the Planned Glide"
+gloss = "The range between the reconstructed initial speed and a final speed of 2,250 metres per second, the midpoint of the reconstructed range, at the published ratio of 2.6 is 4,783 kilometres."
+cite = []
+digest = "b93de340b860b27a"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Entry Speed Needed for the Original Mission"
+gloss = "Inverting the range relation at the published ratio of 2.6 for the 9,000 nautical miles the article attributes to the glider gives 93.1 percent of orbital speed."
+cite = []
+digest = "9948d87a8a20e78f"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Entry Speed in Metres per Second and Mach Number"
+gloss = "The required fraction of orbital speed is 7,357 metres per second, which is Mach 24.9 on the fixed speed scale."
+cite = []
+digest = "526805e84812cc40"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Published Glide Start Speed as a Fraction of Orbital Speed"
+gloss = "The published glide start speed of 6,900 metres per second is 87.3 percent of orbital speed."
+cite = ["ref_acton_2015"]
+digest = "3723a87ff2216444"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Deceleration in Equilibrium Glide"
+gloss = "The deceleration along the path is the drag over the mass, the lift requirement divided by the lift to drag ratio."
+cite = []
+digest = "6eeb8fd5b515e535"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Time to Decelerate in Equilibrium Glide"
+gloss = "Separating and integrating the glide deceleration gives the time between two speeds as a difference of inverse hyperbolic tangents."
+cite = []
+digest = "83a3131f1ee237be"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Duration of the Planned Glide"
+gloss = "The time between the reconstructed initial speed and the midpoint final speed of 2,250 metres per second at the published ratio is 1,187 seconds."
+cite = []
+digest = "4eb0a5b84402348e"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Density Required for Lift in Equilibrium Glide"
+gloss = "The lift condition fixes the air density from the weight, the centrifugal relief, the speed and the product of reference area and lift coefficient."
+cite = []
+digest = "dc6b5950bad578fd"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Weight of the Glider"
+gloss = "The published mass of about 900 kilograms gives a weight of 8,826 newtons."
+cite = ["ref_x41_parsch"]
+digest = "651f2787ff057ed7"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Corridor Density at Seven Kilometres per Second"
+gloss = "The density is evaluated with a product of reference area and lift coefficient of 0.45 square metres that the article assumes."
+cite = []
+digest = "8f39d311280dbefd"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Exponential Atmosphere"
+gloss = "An isothermal exponential atmosphere gives density from a sea-level value and a scale height, and inverts for altitude."
+cite = []
+digest = "cb057b326825f2b3"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Corridor Altitude"
+gloss = "The assumed corridor density converted through a single exponential fit with a scale height of 6.9 kilometres gives 61.2 kilometres, about three kilometres below the standard atmosphere value."
+cite = ["ref_usa76"]
+digest = "14eb14511bcf95e4"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Lift Coefficient at the Corridor"
+gloss = "The lift coefficient implied at the corridor rests on an assumed reference area of two square metres."
+cite = []
+digest = "8e848c8281cb6dea"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Stagnation Heating Coefficient From the Sutton and Graves Constant"
+gloss = "Taking the stagnation pressure as the density times the speed squared and the enthalpy difference as half the speed squared, the usual hypersonic approximations, converts the published coefficient to 1.748 times ten to the minus four."
+cite = ["research_sutton_graves_1971"]
+digest = "a1b46733008befb7"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Stagnation-Point Heat Flux"
+gloss = "The convective stagnation-point flux is a constant times the square root of density over leading-edge radius times the cube of speed."
+cite = []
+digest = "e242821eca914a88"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Radiative Equilibrium Temperature"
+gloss = "A surface rejecting heat by radiation alone reaches the fourth root of the heat flux over the emissivity times the Stefan-Boltzmann constant."
+cite = []
+digest = "c4688f9ce38a0b60"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Heating of a Sharp Edge at the Corridor"
+gloss = "The flux and equilibrium temperature are evaluated for a leading-edge radius of 50 millimetres, an assumed emissivity of 0.85 and the assumed corridor density."
+cite = []
+digest = "8c11047ae0fc3839"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Published Surface Temperature in Kelvin"
+gloss = "The published expected surface temperature of more than 3,500 degrees Fahrenheit converts to 2,200 kelvin."
+cite = ["ref_lat_2012"]
+digest = "02006225f881ba8b"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Heat Flux Rejected at the Design Temperature"
+gloss = "A surface at 2,200 kelvin with an emissivity of 0.85, which the article assumes, can reject 1.13 megawatts per square metre."
+cite = []
+digest = "b2de1de4ecf1d4c5"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Leading-Edge Radius That Holds the Design Temperature"
+gloss = "Equating the stagnation flux at the assumed corridor density to the radiation at the design temperature and assumed emissivity gives a leading-edge radius of 0.484 metres."
+cite = []
+digest = "20982e7f4c1539c2"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Fraction of Orbital Energy Required"
+gloss = "Specific kinetic energy goes as the square of speed, so the fraction of orbital energy required is the square of the speed fraction."
+cite = []
+digest = "78de129d7b458af9"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Fractions of Orbital Energy at the Two Entry Speeds"
+gloss = "The two speed fractions, which rest on the fixed speed scale and the attributed range requirement, require 69 and 87 percent of orbital energy."
+cite = []
+digest = "654a7d52433cc4d5"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Mass Ratio From the Rocket Equation"
+gloss = "The ratio of stack mass to delivered mass is the exponential of the velocity increment over the effective exhaust velocity."
+cite = []
+digest = "3b6292eb9334adf0"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Mass Ratio of a Solid Booster"
+gloss = "The mass ratio is evaluated at an assumed solid-propellant specific impulse of 280 seconds and the lower entry speed of 6,537 metres per second."
+cite = []
+digest = "c4c57932288bf33d"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Launcher Mass Against Glider Mass"
+gloss = "The published Minotaur IV launch mass over the published glider mass gives a ratio of order 96."
+cite = ["ref_minotaur"]
+digest = "a87a4b865fb11e8c"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Time of Mach 17 Against the Planned Glide Start"
+gloss = "Counting the 139 seconds from the return to the atmosphere, as the published reconstruction does, places Mach 17 at 574 seconds, before the planned glide start at 620 seconds."
+cite = ["ref_acton_2015"]
+digest = "b8fd6d6c03739ded"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Mean Deceleration of the First Flight"
+gloss = "The mean deceleration from the published re-entry speed to Mach 17, converted on the fixed speed scale, is 7.16 metres per second squared."
+cite = []
+digest = "08916476155fe4fc"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Equilibrium Glide Deceleration at the Re-entry Speed"
+gloss = "The glide relation at the published re-entry speed and lift to drag ratio of 2.6 gives 1.59 metres per second squared."
+cite = ["ref_acton_2015"]
+digest = "29fca9c3f0ab8884"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Flight Duration as a Share of the Planned Mission"
+gloss = "Nine minutes against the planned 1,798 second mission is 0.30 of it."
+cite = ["ref_acton_2015"]
+digest = "d5aa356339270591"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Speed Scale Implied by the Agency's Statement"
+gloss = "The published 13,000 miles per hour at Mach 20 implies a scale of 290.6 metres per second, close to the 295 metres per second convention."
+cite = ["ref_darpa_fs2010"]
+digest = "08e18a92547dd619"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Payload Against Vehicle Mass"
+gloss = "The published payload of 1,000 pounds over the published vehicle mass of about 900 kilograms is half the vehicle."
+cite = ["ref_woolf_2011", "ref_x41_parsch"]
+digest = "70472d004df94f1c"
+
+[[symbol]]
+tex = 'R_{e}'
+meaning = "the radius of the Earth"
+
+[[symbol]]
+tex = 'V_{c}'
+meaning = "the circular speed at the surface"
+
+[[symbol]]
+tex = 'R'
+meaning = "the glide range"
+
+[[symbol]]
+tex = 'L/D'
+meaning = "the lift to drag ratio, with $\\left(\\frac{L}{D}\\right)_{\\max}$ the Küchemann ceiling"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number on the fixed speed scale"
+
+[[symbol]]
+tex = 'a'
+meaning = "the fixed speed scale of 295 metres per second"
+
+[[symbol]]
+tex = 'V_{i}'
+meaning = "the initial glide speed, with $V_{f}$ the final glide speed"
+
+[[symbol]]
+tex = 'M_{\min}'
+meaning = "the minimum entry Mach number, with $V_{\\min}$ the corresponding speed"
+
+[[symbol]]
+tex = 't_{5}'
+meaning = "the planned end of the glide, with $t_{4}$ its start and $t_{2}$ the return to the atmosphere"
+
+[[symbol]]
+tex = 'x_{5}'
+meaning = "the downrange position at the end of the glide, with $x_{4}$ its start and $x_{2}$ the point of re-entry"
+
+[[symbol]]
+tex = 'C_{L}'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = '\rho_{0}'
+meaning = "the sea-level air density"
+
+[[symbol]]
+tex = 'H'
+meaning = "the scale height of the exponential atmosphere"
+
+[[symbol]]
+tex = 'k'
+meaning = "the stagnation heating coefficient"
+
+[[symbol]]
+tex = 'R_{n}'
+meaning = "the leading-edge radius"
+
+[[symbol]]
+tex = '\dot{q}'
+meaning = "the stagnation-point heat flux, with $\\dot{q}_{d}$ the flux rejected at the design temperature"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the emissivity"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 'T_{d}'
+meaning = "the design temperature"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse of the booster in seconds"
+
+[[symbol]]
+tex = 'm_{0}'
+meaning = "the stack mass, with $m_{f}$ the delivered mass"

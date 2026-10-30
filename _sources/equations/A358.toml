@@ -1,0 +1,835 @@
+# Equation classification for A358. Read by `python3 _lib/equations.py`.
+
+caution = "The sizing, wake, cable and control relations are evaluated in the International System while speeds, altitudes and stand-off distances are often quoted in knots and feet, and several letters are marked to avoid collisions, so $\\Theta$ is the static temperature because $T$ is the thrust and $T_c$ the cable tension, $\\ell$ is the cable length because $L$ is the lift, $e$ is the span efficiency while the upright $\\mathrm{e}$ is the base of the natural logarithm, $\\alpha$ is the acceleration a gust produces while $\\Delta \\alpha$ is an increment in angle of attack, $c$ is the thrust specific fuel consumption while $\\bar{c}$ is the mean chord, $b$ is the carrier span while $b_v$ is the vehicle span, and $w$ is the centreline downwash except in the folded panel relation, where it is the body width."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Payload Capacity Against the Requested Class"
+gloss = "The published payload of 145 pounds is 1.45 times the payload class of 100 pounds or less that the Request for Information named."
+cite = ["ref_darpa_rfi_2014", "ref_dusrm_x61"]
+digest = "caf84af8dd387542"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Schedule Ratios Against the Four-Year Plan"
+gloss = "The intervals from the Request for Information to the first free flight and to the airborne recovery, counted in days from the recorded dates, are 1.26 and 1.74 times the four years the request asked for."
+cite = []
+digest = "cf60b7680a67bddf"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Share of the Phase 3 Contract Attributed to the Pandemic"
+gloss = "The modification of 9 March 2021 that names the pandemic obligates 11.18 percent of the Phase 3 contract total."
+cite = ["ref_usa_hr001118c0071"]
+digest = "b1d8afd749b67a46"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Induced Drag of an Elliptically Loaded Wing"
+gloss = "The induced drag is the square of the weight divided by the dynamic pressure, pi, the square of the span and the span efficiency."
+cite = ["ref_induced_drag", "book_fleeman"]
+digest = "e5c68078a172b4f3"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Induced-Drag Parameter"
+gloss = "The article collects the square of the weight over the square of the span into one parameter $\\Lambda$, so that two vehicles compared at the same dynamic pressure and span efficiency differ in induced drag only through it."
+cite = []
+digest = "b69550f4cd55c0d9"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Lift Equals Weight in Level Flight"
+gloss = "In level flight the lift equals the weight, which fixes the lift coefficient for a given density, speed and wing area."
+cite = []
+digest = "0d616b7f8842a492"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Wing Area Floor Set by the Maximum Lift Coefficient"
+gloss = "A wing that holds the vehicle up at a given speed must have at least the area that the maximum lift coefficient allows."
+cite = []
+digest = "ab1a5bb20ad6e771"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Minimum Level Flight Speed"
+gloss = "The lowest speed at which a wing of given area can support the weight is set by the maximum lift coefficient."
+cite = []
+digest = "ce269d15d8b054c2"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Parabolic Drag Polar, Aspect Ratio and Mean Chord"
+gloss = "The drag coefficient is the zero-lift drag plus the induced term, and the aspect ratio and mean chord follow from the span and the wing area."
+cite = ["book_torenbeek", "book_anderson_performance"]
+digest = "e0efbad4c755c32b"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Maximum Lift to Drag Ratio of the Parabolic Polar"
+gloss = "Minimising the drag of the parabolic polar gives the maximum lift to drag ratio and its lift coefficient, at which the drag coefficient is twice the zero-lift value."
+cite = ["book_torenbeek", "book_anderson_performance"]
+digest = "0c52f6d5c031ab78"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Speed for Minimum Drag"
+gloss = "The speed at the best lift to drag ratio is the level flight speed at the optimum lift coefficient."
+cite = []
+digest = "ce7e879ee348047d"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Best-Range Mach Number at 35,000 Feet"
+gloss = "The speed of 175.5 metres per second rests on the reference wing area of 1.43 square metres taken from the middle of the floor, an assumed zero-lift drag coefficient of 0.030 and an assumed span efficiency of 0.80, and is divided by the standard atmosphere speed of sound."
+cite = ["ref_dusrm_x61"]
+digest = "5100ba9eb4ce4337"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Thrust Lapse Model"
+gloss = "The installed thrust is modelled as the static thrust times the density ratio raised to an assumed exponent of 0.9, times a ram recovery factor in the Mach number."
+cite = []
+digest = "2e1567c3c6ba6396"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Drag Polar With a Cubic Wave Drag Rise"
+gloss = "The parabolic polar is extended above the drag divergence Mach number by a cubic wave drag term whose coefficient $K_w$ the article assumes."
+cite = []
+digest = "d2e596a82f40c032"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Level Flight Maximum Speed Condition"
+gloss = "The level flight maximum Mach number at an altitude is the one at which the available thrust equals the drag."
+cite = []
+digest = "0a5b7c5e04644d2b"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Specific Excess Power"
+gloss = "The specific excess power is the excess of thrust over drag times the speed, divided by the weight."
+cite = []
+digest = "40444d2e57a0e8ad"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Breguet Range Equation and Cruise Fuel Fraction"
+gloss = "The jet form of the Breguet range equation, inverted, gives the fraction of the starting mass burned over a cruise of given range."
+cite = ["ref_breguet"]
+digest = "bff07ef40a6d7900"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Standard Atmosphere in the Troposphere"
+gloss = "The temperature falls linearly with altitude, the pressure follows hydrostatically from that lapse and the density follows from the perfect gas law."
+cite = ["ref_icao_atmosphere"]
+digest = "80e1c05d0d0c5051"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Dynamic Pressure, True Airspeed and Speed of Sound"
+gloss = "The dynamic pressure is half the density times the square of the speed, the speed is the Mach number times the speed of sound, and the speed of sound depends on the temperature alone."
+cite = ["ref_icao_atmosphere", "ref_dynamic_pressure"]
+digest = "29ec0308b329162d"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Breguet Endurance Equation"
+gloss = "The endurance is the Breguet range divided by the speed, so the same relation gives time instead of distance."
+cite = ["ref_breguet"]
+digest = "081208970b115bd5"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Mission Fuel Fraction at a Lift to Drag Ratio of Nine"
+gloss = "The fuel for the out and back legs and one hour of hold is taken at the middle lift to drag ratio of 9 and an assumed specific fuel consumption, neither published for this vehicle, and set against the published gross mass and payload."
+cite = ["ref_x61_wikipedia"]
+digest = "e59a2fb3116a23fe"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Circulation and Vortex Spacing of an Elliptic Wing"
+gloss = "The circulation of each trailing vortex is the weight over the density, speed and vortex spacing, and for elliptic loading the spacing is a quarter of pi times the span."
+cite = ["ref_lifting_line", "ref_wake_turbulence", "ref_horseshoe_vortex", "book_mccormick"]
+digest = "2795628b2a06534e"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Lift Coefficient and Aspect Ratio of the Carrier"
+gloss = "The carrier's lift coefficient follows from its weight, wing area and the flight condition, and its aspect ratio from its span and wing area."
+cite = []
+digest = "d9d6151b5921da01"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Circulation From the Lift Coefficient"
+gloss = "The circulation written from the lift coefficient is identical to the one written from the weight, so their agreement checks transcription only."
+cite = []
+digest = "03273b6cec9e44d1"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Self-Induced Descent of a Vortex Pair"
+gloss = "A pair of counter-rotating vortices descends at the circulation divided by two pi times their spacing."
+cite = []
+digest = "6612149489303a15"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Descent of the Wake Over a Stand-Off Distance"
+gloss = "The vortex pair sinks by its descent rate times the time the flow takes to travel aft to the formation station."
+cite = []
+digest = "864d9cb4356ca3c6"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Velocity Induced by a Straight Line Vortex"
+gloss = "A straight vortex induces a circling velocity equal to the circulation over two pi times the distance from its core."
+cite = []
+digest = "785bb49e1b625096"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Centreline Downwash Below a Vortex Pair"
+gloss = "On the centreline the vertical components of the two cores add, giving the downwash as a function of the depth below the vortex plane."
+cite = []
+digest = "af4655fb616f9cfd"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Vertical Gradient of the Centreline Downwash"
+gloss = "Differentiating the centreline downwash with respect to depth gives the gradient that a station keeper has to fight."
+cite = []
+digest = "dcadb07d086fcc71"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Depth of the Largest Downwash Gradient"
+gloss = "Setting the second derivative to zero places the largest gradient at a depth fixed by the vortex spacing alone, which under elliptic loading is a fixed fraction of the carrier span."
+cite = []
+digest = "b5925043367f7e59"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Aerodynamic Loading on a Towed Cable"
+gloss = "The tangential and normal forces per unit length on an inclined cable follow from the skin friction and crossflow drag coefficients of its circular section."
+cite = []
+digest = "80d7f37519a452ed"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Equilibrium of a Towed Cable"
+gloss = "Resolving along and normal to the local tangent balances the change in tension and in inclination against the cable's weight and aerodynamic loading."
+cite = []
+digest = "b8f33f09933a3112"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Cable Shape From Its Inclination"
+gloss = "The horizontal and vertical positions along the cable are the integrals of the cosine and sine of the inclination over arc length."
+cite = []
+digest = "5736c1a527e684be"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Boundary Condition at the Towed Body"
+gloss = "At the body the cable pulls along the resultant of the body's drag and weight, which fixes the starting tension and inclination."
+cite = []
+digest = "7daefb938057fbfb"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Critical Angle of a Towed Cable"
+gloss = "Far from the body the inclination settles to the angle at which the normal drag of the cable carries the normal component of its weight."
+cite = []
+digest = "a2789edeb249f9cb"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Trail and Length at the Critical Angle"
+gloss = "At the critical angle the ratio of trail to depth tends to its cotangent and the paid-out length to the depth over its sine."
+cite = []
+digest = "05da3873c2f579f3"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Critical Angle of a Ten Millimetre Steel Rope"
+gloss = "The critical angle is evaluated at 200 knots at 10,000 feet for the tabulated steel rope mass with a normal drag coefficient of 1.2 that the article takes for the circular section."
+cite = ["ref_katradis_6x19"]
+digest = "2102a5f9ef5a33b0"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Starting Tension and Inclination"
+gloss = "The boundary condition is evaluated for a towed body that the article takes to weigh 50 kilograms and to have 200 newtons of drag."
+cite = []
+digest = "8f76f96cfba9f31a"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Cable Mass Needed for a Forty-Five Degree Hang"
+gloss = "Solving the critical angle relation for the linear density at forty-five degrees, with the assumed normal drag coefficient of 1.2, gives a cable 10.4 times heavier than the tabulated steel rope."
+cite = []
+digest = "6b82cb38a91f8777"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Wave Speed and Modal Frequencies of a Taut String"
+gloss = "A string under tension carries transverse waves at the square root of tension over linear density, and a finite length carries standing modes at integer multiples of the fundamental."
+cite = ["ref_vibrating_string"]
+digest = "2d379ab5b87a22f7"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Damped String Equation"
+gloss = "Adding a viscous damping term per unit length to the taut string gives a first-order term in the transverse velocity."
+cite = []
+digest = "294e118a72deca27"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Aerodynamic Damping Coefficient of the Cable"
+gloss = "Linearising the crossflow drag about the critical inclination, a small-perturbation assumption the article chooses, gives the damping force per unit length per unit transverse velocity."
+cite = []
+digest = "18154ca404d6ab20"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Modal Frequency and Damping Ratio"
+gloss = "The circular frequency of each mode follows from the wave speed and length, and the damping coefficient divided by twice the linear density and that frequency is its damping ratio."
+cite = []
+digest = "8b7c3c104125fd4b"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Sharp-Edged Gust Increment in Angle of Attack and Lift"
+gloss = "A vertical gust changes the angle of attack by the ratio of gust velocity to airspeed and the lift in proportion through the lift-curve slope."
+cite = ["book_etkin_reid", "book_nelson"]
+digest = "b836ee56a384950b"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Gust Load Factor and Acceleration"
+gloss = "The incremental load factor of a sharp-edged gust is inversely proportional to the wing loading, and times gravity it is an acceleration."
+cite = ["book_etkin_reid", "book_nelson"]
+digest = "aead995615d4081c"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Drift Time Under Constant Acceleration"
+gloss = "A vehicle accelerated uniformly from rest leaves a window of half width $\\delta$ in the square root of twice $\\delta$ over the acceleration."
+cite = []
+digest = "6633cbd1361bb6a7"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Von Kármán Spectrum of Vertical Turbulence"
+gloss = "The power spectral density of vertical gust velocity in the von Kármán form is set by the intensity, the scale length and the airspeed."
+cite = ["ref_von_karman"]
+digest = "dc2fa63fd97247e5"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Share of Gust Variance Below the Loop Frequency"
+gloss = "The total variance is the integral of the spectrum, and the article defines the part a position loop has to fight as the integral up to the loop's natural frequency."
+cite = ["ref_von_karman"]
+digest = "eb474c7e3b085808"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Ratio of Drift Time to Human Loop Delay"
+gloss = "The article compares the drift time out of the capture window with the reaction time plus link latency of a human operator as a figure of merit."
+cite = []
+digest = "42c835bef2497c4d"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Crossover Limit Set by a Pure Delay"
+gloss = "The phase lag of a pure delay grows with frequency, and allowing the rest of the loop a ninety-degree lag, as the article assumes, bounds the crossover for a given phase margin."
+cite = []
+digest = "56d000c9a74cd0d7"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Bandwidth Needed To Hold Position Against a Steady Acceleration"
+gloss = "A second-order position loop holds a steady acceleration with an offset of the acceleration over the square of its natural frequency, so fitting the window sets a floor on that frequency."
+cite = ["book_stevens_lewis", "book_beard_mclain"]
+digest = "81f09eafef8b1cd3"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Sensitivity and Complementary Sensitivity"
+gloss = "The sensitivity and the complementary sensitivity of a feedback loop are defined from the open loop and always sum to one."
+cite = []
+digest = "43db7c73ed06c77e"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Bode Sensitivity Integral"
+gloss = "For a stable loop that rolls off by at least two orders the integral of the logarithm of the sensitivity magnitude over frequency is zero."
+cite = []
+digest = "07a4d7fd0fff97e5"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Sensitivity of Two Second-Order Loop Architectures"
+gloss = "Placing the damping term in the forward path or in a minor feedback loop gives two sensitivity functions that differ in relative degree."
+cite = []
+digest = "7c8dafcc2ffb75c3"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Isentropic Total to Static Ratios"
+gloss = "Bringing the flow isentropically to rest raises the temperature and pressure by ratios that depend on the Mach number and the ratio of specific heats alone."
+cite = []
+digest = "677f8ccabf77c5f5"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Reassembly of Sorties, Vehicles and Hours"
+gloss = "The sorties, surviving vehicles and flight hours reported across the four test series sum to the stated totals within rounding."
+cite = []
+digest = "f66b53817550c617"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Bound on Docking Success Rate"
+gloss = "At least ten docking attempts and one capture in the public record bound the success rate at no more than ten percent."
+cite = []
+digest = "6ccc07a6a4a7fa22"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Obligations After the Last Flight Test"
+gloss = "The two positive modifications after the airborne recovery fall within 47 days of it and amount to 3.22 percent of the three contracts' total."
+cite = ["ref_usa_hr001118c0071"]
+digest = "fd9308c51890e1f9"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Period of Performance After the Recovery"
+gloss = "Counting four years with one leap day plus two days gives 1,463 days, or 4.01 years, from the recovery to the end of the Phase 3 period of performance."
+cite = ["ref_usa_hr001118c0071"]
+digest = "f96e71e5798d0ddc"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Achieved Recovery Time Against the Objective"
+gloss = "The objective of four Gremlins Air Vehicles in thirty minutes is one every 7.5 minutes, and the 84 minute mission that recovered one vehicle is 11.2 times that."
+cite = ["ref_kratos_first_flight", "ref_leidos_captured"]
+digest = "d13eabbc7cc9391b"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Probability of Surviving the Design Life"
+gloss = "The article takes the loss probability as constant and independent from sortie to sortie, so an airframe survives all $N$ uses with probability $\\left( 1 - \\epsilon \\right)^N$."
+cite = []
+digest = "9cc36bf6829d2c4d"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Expected Sorties per Airframe"
+gloss = "Under the same constant and independent loss probability the expected number of sorties an airframe delivers is a truncated geometric sum."
+cite = []
+digest = "98a9f76633257d3f"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Ceiling on Expected Sorties"
+gloss = "Under the constant loss probability the expected sorties approach the reciprocal of the loss rate as the design life grows without bound."
+cite = []
+digest = "ad613911b3b9a027"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Fleet Size and Cost per Sortie"
+gloss = "The article sizes a fleet as the sorties a campaign requires over the expected sorties per airframe, and spreads the flyaway cost over those expected sorties."
+cite = []
+digest = "36eec7c3b1a9e9c2"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Break-Even Condition for Reuse"
+gloss = "The article's cost model has reuse pay when the amortised airframe, the refurbishment and the share of a recovery sortie together cost less than the expendable vehicle."
+cite = []
+digest = "1c07807a826ecc29"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Floor on the Expendable Cost"
+gloss = "Dropping the refurbishment and recovery sortie terms, which are not public, leaves a floor on the expendable cost that reuse must beat."
+cite = []
+digest = "04942bd2700b6d41"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Break-Even Number of Uses"
+gloss = "Inverting the article's cost inequality gives the number of uses at which reuse breaks even."
+cite = []
+digest = "2e18f256c1f063eb"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Relative Kinetic Energy at Contact"
+gloss = "The relative kinetic energy at contact is half the captured mass times the square of the closing speed."
+cite = []
+digest = "15a6bb007630c289"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Mean Arresting Force From the Work-Energy Balance"
+gloss = "The mean force times the arresting distance equals the relative kinetic energy, which gives the force as a multiple of the captured weight."
+cite = []
+digest = "3a63dd29e63e83ab"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Expected Sorties at the Development Loss Rate"
+gloss = "The development record of two airframes lost in nine sorties is taken as a constant per-sortie loss probability in the article's geometric model, giving 4.47 sorties from a twenty-use life."
+cite = []
+digest = "7314fe79104a6170"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Semispan of a Folded Wing Panel"
+gloss = "Each folded panel spans half the difference between the deployed span and the body width."
+cite = ["ref_x61_wikipedia"]
+digest = "8c0bc9831b370528"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, in kilograms per cubic metre"
+
+[[symbol]]
+tex = '\Theta'
+meaning = "the static temperature, written thus because thrust and cable tension have both taken the usual symbol"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats for air"
+
+[[symbol]]
+tex = 'R_{\mathrm{air}}'
+meaning = "the specific gas constant for dry air"
+
+[[symbol]]
+tex = 'V'
+meaning = "the true airspeed"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure, in pascals"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight of the air vehicle, except where a subscript marks the carrier or the towed body"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area of the air vehicle"
+
+[[symbol]]
+tex = 'b_v'
+meaning = "the wing span of the air vehicle"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span of the carrier aircraft"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'e'
+meaning = "the span efficiency factor, which is not the base of the natural logarithm"
+
+[[symbol]]
+tex = 'D_i'
+meaning = "the induced drag"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the induced-drag parameter, being the square of weight over the square of span"
+
+[[symbol]]
+tex = 'C_{L_{\max}}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'C_{D_0}'
+meaning = "the zero-lift drag coefficient"
+
+[[symbol]]
+tex = 'C_{L_{\mathrm{opt}}}'
+meaning = "the lift coefficient at the best lift to drag ratio"
+
+[[symbol]]
+tex = 'V_{\mathrm{md}}'
+meaning = "the speed at which the lift to drag ratio is largest"
+
+[[symbol]]
+tex = 'T_0'
+meaning = "the static thrust of the engine"
+
+[[symbol]]
+tex = 'K_w'
+meaning = "the coefficient of the wave drag rise"
+
+[[symbol]]
+tex = 'M_{\mathrm{dd}}'
+meaning = "the drag divergence Mach number"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'c'
+meaning = "the thrust specific fuel consumption, as fuel mass per unit thrust per unit time"
+
+[[symbol]]
+tex = 'R'
+meaning = "the range"
+
+[[symbol]]
+tex = 'm_i'
+meaning = "the mass at the start of a cruise segment, with $m_f$ the mass at its end"
+
+[[symbol]]
+tex = '\Gamma'
+meaning = "the circulation of one trailing vortex"
+
+[[symbol]]
+tex = '''b''''
+meaning = "the lateral separation of the trailing vortex pair"
+
+[[symbol]]
+tex = 'k_b'
+meaning = "the vortex spacing ratio"
+
+[[symbol]]
+tex = 'w_d'
+meaning = "the self-induced descent rate of the vortex pair"
+
+[[symbol]]
+tex = 'z_\star'
+meaning = "the depth at which the downwash gradient is largest"
+
+[[symbol]]
+tex = 'T_c'
+meaning = "the cable tension, subscripted because thrust has the bare symbol"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the mass of cable per unit length"
+
+[[symbol]]
+tex = 'd'
+meaning = "the cable diameter"
+
+[[symbol]]
+tex = 'C_{D_n}'
+meaning = "the normal drag coefficient of the cable in crossflow"
+
+[[symbol]]
+tex = 'C_f'
+meaning = "the tangential skin friction coefficient of the cable"
+
+[[symbol]]
+tex = '\theta_c'
+meaning = "the asymptotic inclination a towed cable settles to, the critical angle"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the paid-out cable length, written thus because lift has taken the usual symbol"
+
+[[symbol]]
+tex = 'v_c'
+meaning = "the transverse wave speed along the cable"
+
+[[symbol]]
+tex = 'F_k'
+meaning = "the frequency of the kth transverse mode of the cable"
+
+[[symbol]]
+tex = 'c_a'
+meaning = "the aerodynamic damping force per unit length of cable per unit transverse velocity"
+
+[[symbol]]
+tex = '\zeta_k'
+meaning = "the damping ratio of the kth transverse mode of the cable"
+
+[[symbol]]
+tex = 'C_{L_\alpha}'
+meaning = "the lift-curve slope, written out because the bare symbol is the speed of sound here"
+
+[[symbol]]
+tex = '\Delta n'
+meaning = "the incremental load factor produced by a gust"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the half width of the capture window"
+
+[[symbol]]
+tex = 't_d'
+meaning = "the time for an uncontrolled vehicle to cross the capture window"
+
+[[symbol]]
+tex = '\omega_n'
+meaning = "the undamped natural frequency of the position loop"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the reaction time plus link latency in a human control loop"
+
+[[symbol]]
+tex = '\Phi_w'
+meaning = "the power spectral density of the vertical gust velocity"
+
+[[symbol]]
+tex = '\sigma_w'
+meaning = "the root mean square vertical gust velocity, with $\\sigma_b$ its part below the loop frequency"
+
+[[symbol]]
+tex = '\lambda_w'
+meaning = "the turbulence scale length"
+
+[[symbol]]
+tex = '\omega_c'
+meaning = "the crossover frequency of the loop"
+
+[[symbol]]
+tex = '\phi_m'
+meaning = "the phase margin"
+
+[[symbol]]
+tex = '\mathcal{S}'
+meaning = "the sensitivity function, being the transfer from disturbance to error"
+
+[[symbol]]
+tex = '\mathcal{T}'
+meaning = "the complementary sensitivity function"
+
+[[symbol]]
+tex = '\mathcal{L}'
+meaning = "the open loop transfer function of the position hold"
+
+[[symbol]]
+tex = '\epsilon'
+meaning = "the probability that an airframe is lost on any one sortie"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of uses one air vehicle is required to survive"
+
+[[symbol]]
+tex = '\bar{n}'
+meaning = "the expected sorties one airframe delivers"
+
+[[symbol]]
+tex = 'C_e'
+meaning = "the unit cost of the expendable vehicle that reuse has to beat"
+
+[[symbol]]
+tex = 'C'
+meaning = "the flyaway cost of one air vehicle"
+
+[[symbol]]
+tex = '\Delta V'
+meaning = "the closing speed at contact"
+
+[[symbol]]
+tex = '\bar{F}'
+meaning = "the mean force during a capture"
+
+[[symbol]]
+tex = 'x_s'
+meaning = "the distance over which a capture is arrested"
+
+[[symbol]]
+tex = 'b_p'
+meaning = "the semispan of one folded wing panel"

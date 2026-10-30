@@ -1,0 +1,603 @@
+# Equation classification for A354. Read by `python3 _lib/equations.py`.
+
+caution = "Areas are in square metres, speeds inside the equations in metres per second although the stall speeds are quoted in knots, powers in kilowatts, energies in kilowatt hours, specific energies in watt hours per kilogram, ranges in kilometres and torque in newton metres, and $e$ is the span efficiency while $e_b$ and $e_f$ are the specific energies of the battery and the fuel, with Roman numerals marking the Mod I to Mod IV configurations."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Ratio of Mod III to Original Wing Area"
+gloss = "The reported wing areas give a Mod III wing of 42 percent of the area of the wing it replaced."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "7f17c9138076d0a9"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Wing Loading"
+gloss = "The wing loading is the weight a wing must carry per unit of its own area."
+cite = []
+digest = "c284364bb8bd640b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Ratio of Wing Loadings at Equal Mass"
+gloss = "At the same mass the wing loading rises by the reciprocal of the area ratio, a factor of 2.38."
+cite = []
+digest = "fc5078515a404130"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Lift Equation"
+gloss = "Lift is the dynamic pressure times the wing area times the lift coefficient."
+cite = ["ref_lift_coefficient"]
+digest = "f1fb54e9c1a68315"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Stall Speed"
+gloss = "The stall speed is set by the wing loading, the air density and the maximum lift coefficient."
+cite = ["ref_wing_loading", "ref_stall_speed", "ref_lift_coefficient"]
+digest = "c27eb7b8b350aadb"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Dynamic Pressure in a Propeller Slipstream"
+gloss = "A propeller ahead of a wing adds a velocity increment that raises the local dynamic pressure above the free-stream value."
+cite = ["ref_dynamic_pressure"]
+digest = "abff2fc8f820be9a"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Blown Span Fraction"
+gloss = "The article takes each slipstream to cover one propeller diameter of span, with the diameter rounded to 1.9 feet, so that twelve propellers blow about seventy percent of the span."
+cite = ["research_x57_high_lift_control_schedule"]
+digest = "fcfd41b567df0947"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Total High-Lift Propeller Disc Area"
+gloss = "The twelve discs of the rounded diameter give a total disc area of 3.16 square metres."
+cite = []
+digest = "7d48d8be78496e96"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Slipstream Lift Multiple"
+gloss = "The article models the blown fraction as seeing a uniformly increased velocity at unchanged lift coefficient and the rest the free stream, and sets the weighted lift multiple equal to the area ratio."
+cite = []
+digest = "22dd329be91b6607"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Velocity Increase if the Whole Wing Were Blown"
+gloss = "Under the slipstream model a fully blown wing would need a 54 percent velocity increase to supply the factor of 2.38."
+cite = []
+digest = "447a09b2255ed2c3"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Velocity Increase for the Blown Fraction"
+gloss = "Under the slipstream model, with seventy percent of the span blown, the blown part needs a 73 percent velocity increase."
+cite = []
+digest = "38e89d4e92b18aef"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Slipstream Velocity Increment at the Stall Speed"
+gloss = "The model's velocity increase applied at the 58 knot stall speed gives an increment of about 22 metres per second."
+cite = []
+digest = "052c771fbf6f2525"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Actuator Disc Thrust"
+gloss = "Momentum theory gives the thrust of an ideal actuator disc from the disc area, the induced velocity and the free stream, with the far-wake increment twice the induced velocity."
+cite = ["ref_momentum_theory", "book_glauert"]
+digest = "ef1481676b8d7fd2"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Ideal Power for the Whole Lift Factor"
+gloss = "The ideal actuator disc power to produce the slipstream model's increment is about 139 kilowatts."
+cite = []
+digest = "a1f21c901a62bcc6"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Ideal Power Against Installed High-Lift Power"
+gloss = "That ideal requirement is 92 percent of the 151 kilowatts installed, on the assumption that the propellers supply the whole factor of 2.38."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "324f02b9e2f2049d"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Real Power at an Assumed Propulsive Efficiency"
+gloss = "At a propulsive efficiency of 75 percent that the article assumes, the power requirement exceeds the installed power."
+cite = []
+digest = "9429cdaabed7c76d"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Stall Speed Scaled to the Mod II Mass"
+gloss = "Scaling the production stall speed of 55 knots by the square root of the mass ratio reproduces the tabulated Mod II figure of 58 knots."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "cf4e2b2fd1f74aac"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Maximum Lift Coefficient From a Stall Speed"
+gloss = "The maximum lift coefficient follows from the stall speed, the mass, the wing area and the sea-level density."
+cite = ["ref_lift_coefficient"]
+digest = "f9101d4d74b5beea"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Landing Lift Coefficients of Mod II, Mod IV and the Blown Wing"
+gloss = "The tabulated landing stall speeds at 1,361 kilograms give maximum lift coefficients of 1.658, 2.496 and 3.954, the last agreeing with the design figure."
+cite = ["research_x57_flight_performance_estimates", "research_x57_high_lift_control_schedule"]
+digest = "7f25511282cd297d"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Division of the Lift Factor Between Flap and Propellers"
+gloss = "The flapped small wing supplies a factor of 1.505 and the propellers the remaining 1.584, whose product recovers the 2.38."
+cite = []
+digest = "7bc893d77937e1b2"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Design Lift Coefficient Against the Unblown Wing"
+gloss = "The design lift coefficient of 4.35, sized with a ten percent margin, is 1.743 times the unblown Mod IV value."
+cite = ["research_x57_high_lift_control_schedule"]
+digest = "ec4627215c2981ab"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Velocity Increase for the Design Lift Factor"
+gloss = "Put through the article's slipstream model, the design factor of 1.743 needs a velocity increase of 44 percent on the blown span."
+cite = []
+digest = "3a1fce86a8c2305d"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Power for the Design Lift Factor"
+gloss = "The ideal power for that increment is 66.6 kilowatts, and at the assumed 75 percent propulsive efficiency 88.7 kilowatts, below the installed power."
+cite = []
+digest = "aa33a1c4a7f5f9ca"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Design Shaft Power and Thrust of the High-Lift Propellers"
+gloss = "Twelve propellers at the published design point of 10.7 kilowatts and 215 newtons give 128.4 kilowatts and 2,580 newtons."
+cite = ["research_x57_high_lift_control_schedule"]
+digest = "56eb8e8bb4b0ec4b"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Actuator Disc Evaluation of the Design Thrust"
+gloss = "Treating the design thrust as twelve actuator discs of the published diameter gives the induced velocity, an ideal power of 99.5 kilowatts and an ideal to shaft power ratio of 0.775."
+cite = ["ref_momentum_theory"]
+digest = "1fedf005a3c41f67"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Design Slipstream Against the Model Requirement"
+gloss = "The far-wake increment implied by the design thrust, 58 percent of the stall speed, exceeds the 44 percent that the article's slipstream model requires."
+cite = []
+digest = "40ef702febc3885b"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Ratio of Wetted Areas"
+gloss = "The reported wetted areas, including the high-lift nacelles, fall by 18 percent."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "c941e4f2591139af"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Induced Drag in Terms of Span"
+gloss = "At given lift and speed the induced drag is set by the square of the span and the span efficiency, not by the aspect ratio."
+cite = ["ref_induced_drag"]
+digest = "f02782ded05f31b8"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Ratio of Induced Drag From the Span Reduction"
+gloss = "At equal lift, speed and span efficiency the shorter Mod III span raises the induced drag by 32 percent, as the report also concludes."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "86b7f1dd577e4d93"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Cruise Lift-to-Drag Gains of Mod III Over Mod II"
+gloss = "The report's cruise lift-to-drag ratios give a gain of 40 percent without thrust and 53 percent with cruise thrust."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "85dc6e4c745223a2"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Effect of Thrust on Lift-to-Drag Ratio"
+gloss = "Cruise thrust costs Mod II about seven percent of its lift-to-drag ratio and gains Mod III about two percent on the report's figures."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "a43d6f2481ed5a14"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Aspect Ratio"
+gloss = "The aspect ratio is the square of the span over the wing area, which allows a published set of span, area and aspect ratio to be checked."
+cite = ["ref_aspect_ratio"]
+digest = "515bf4ba1759cd31"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Installed High-Lift and Cruise Motor Power"
+gloss = "Twelve high-lift motors of 12.6 kilowatts give 151.2 kilowatts and two cruise motors of 72 kilowatts give 144."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "389c101e93197c4a"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "High-Lift Power Against the Original Engines"
+gloss = "The high-lift installation is three percent more powerful than the two 73.5 kilowatt piston engines it replaced."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "83676517ed2fcd60"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Propeller Advance Ratio"
+gloss = "The advance ratio is the airspeed over the product of rotational speed and diameter."
+cite = ["ref_propeller"]
+digest = "3fd93ab7bfeb578c"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Advance Ratios of the Cruise and High-Lift Propellers"
+gloss = "At their design points the cruise propellers run at an advance ratio of 1.34 and the high-lift propellers at 0.68."
+cite = []
+digest = "7e04f08c07dc2cee"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Specific Power of the Cruise Motor and the Rotax Engine"
+gloss = "The cruise motor with its propeller gives 1.36 kilowatts per kilogram against about 1.30 for the Rotax engine with its gearbox."
+cite = ["ref_nasa_x57", "ref_rotax_912_uls"]
+digest = "2113aae16e7b2b5e"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Cruise Motor Torque"
+gloss = "Torque is power over angular speed, giving 255 newton metres at the 72 kilowatt peak rating and 2,700 revolutions per minute."
+cite = ["research_x57_x_57_traction_power_and_command", "research_x57_cruise_motor_inverter_failures"]
+digest = "bcda642f87a18125"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Cruise Power Fraction at Reduced Speed"
+gloss = "At full torque the cruise motor power falls in proportion to speed, to two thirds at 1,800 revolutions per minute."
+cite = []
+digest = "c18b9b935252b4a5"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Specific Energy of the Battery Pack"
+gloss = "The 47 kilowatt hours of effective energy in 390 kilograms of battery is 120 watt hours per kilogram."
+cite = ["research_x57_battery_cell_to_system"]
+digest = "88afe65e737bec10"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Module Voltage, Capacity and Energy"
+gloss = "Sixteen cells in series of twenty in parallel give a module of 57.6 volts, 60 ampere hours and 3,456 watt hours."
+cite = ["research_x57_traction_power_system", "research_x57_battery_cell_to_system"]
+digest = "d34026f33fdeabf4"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Nominal Pack Energy and Voltage Limits"
+gloss = "Sixteen modules give 55.3 kilowatt hours, and 128 cells in series give a nominal 461 volts and a maximum of 538."
+cite = ["research_x57_traction_power_system"]
+digest = "7f642c9ac7015b0f"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Effective Fraction of Nominal Energy"
+gloss = "The design counted 47 of the nominal 55.3 kilowatt hours as effective, a fraction of 0.85."
+cite = []
+digest = "2a08f7bfd1ab297c"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Specific Energy of the Fuel"
+gloss = "A lower heating value of 43.5 megajoules per kilogram is about 12,100 watt hours per kilogram."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "a12038c2f1223229"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Ratio of Fuel to Battery Specific Energy"
+gloss = "Fuel carries about a hundred times more energy per kilogram than this battery pack."
+cite = []
+digest = "59af57031f5039e4"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Discharge Rate With Every Motor at Peak"
+gloss = "Running all fourteen motors at their 295.2 kilowatt combined peak would draw 6.3 times the effective energy per hour."
+cite = []
+digest = "3cebddcd2bd25bf4"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Endurance With Every Motor at Peak"
+gloss = "At that combined peak the effective energy would last 0.159 hours, under ten minutes."
+cite = []
+digest = "c5a851cd08b664f3"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Baseline Profile Energy Against Effective Energy"
+gloss = "The baseline flight profile was predicted to need 98 percent of the effective energy."
+cite = ["research_x57_battery_cell_to_system"]
+digest = "a9a540c4afe8d1ea"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Endurance at the Continuous Requirement"
+gloss = "At the 120 kilowatts the two subsystems had to sustain continuously, the effective energy lasts 0.39 hours."
+cite = ["research_x57_battery_cell_to_system"]
+digest = "dc1194158c0b7da6"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Pack Current at Nominal and Minimum Voltage"
+gloss = "At 60 kilowatts the current is 130 amperes at the 461 volt nominal and 176 at the 340 volt landing floor."
+cite = ["research_x57_x_57_traction_power_and_command"]
+digest = "2e3a3d9fbf68b508"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Net Energy Disadvantage Per Kilogram"
+gloss = "The hundredfold specific energy deficit divided by the threefold drivetrain efficiency advantage on the report's figures leaves the battery thirty-three times worse off per kilogram."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "fb2389da910852b7"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Decomposition of the Energy Goal"
+gloss = "The fivefold energy goal is the efficiency gain from 28 to 92 percent multiplied by a factor of 1.5 from the configuration."
+cite = ["research_x57_flight_performance_estimates"]
+digest = "10ec2138a01add91"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Combined Energy Reduction of Mod III"
+gloss = "Multiplying the report's Mod II energy ratios by the Mod III cruise lift-to-drag gain combines estimates made at different conditions, an inference the article draws and the report does not state."
+cite = []
+digest = "0f0e562add544647"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Electric Aircraft Range"
+gloss = "The steady cruise range of an electric aircraft is the stored energy times the drivetrain and propulsive efficiencies over the weight, times the lift-to-drag ratio."
+cite = ["ref_breguet", "ref_lift_to_drag"]
+digest = "439768c4e531760e"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Upper Bound on Mod II and Mod III Range"
+gloss = "Spending all 47 kilowatt hours at the cruise point with a propulsive efficiency of 75 percent that the article assumes gives upper bounds of 75 and 116 kilometres."
+cite = []
+digest = "5f2bbd0b6a5a6cf4"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Cruise Motor Controller Switching Voltage and Current"
+gloss = "The cruise motor controller switched at the 538 volt bus maximum and 200 amperes peak per phase."
+cite = ["research_x57_cruise_motor_inverter_failures"]
+digest = "e03a9cd576aabf3f"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Controller Heat Limit and Throughput"
+gloss = "At 97 percent efficiency the 330 watt heat limit corresponds to 11 kilowatts of throughput."
+cite = ["research_x57_x_57_traction_power_and_command"]
+digest = "a25f9d371fa7929b"
+
+[[symbol]]
+tex = 'S_1'
+meaning = "the Mod III wing area, with $S_0$ the original wing area"
+
+[[symbol]]
+tex = 'W/S'
+meaning = "the wing loading"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'C_{L,max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'V_s'
+meaning = "the stall speed"
+
+[[symbol]]
+tex = 'q_w'
+meaning = "the dynamic pressure over the blown wing"
+
+[[symbol]]
+tex = '\Delta V'
+meaning = "the slipstream velocity increment"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fraction of the span in a slipstream"
+
+[[symbol]]
+tex = 'd'
+meaning = "the propeller diameter"
+
+[[symbol]]
+tex = 'b_1'
+meaning = "the Mod III span, with $b_0$ the original span"
+
+[[symbol]]
+tex = 'A_h'
+meaning = "the total disc area of the high-lift propellers"
+
+[[symbol]]
+tex = 'x'
+meaning = "the fractional velocity increase over the blown span"
+
+[[symbol]]
+tex = 'v_i'
+meaning = "the induced velocity at the disc"
+
+[[symbol]]
+tex = 'P_i'
+meaning = "the ideal induced power"
+
+[[symbol]]
+tex = 'P_h'
+meaning = "the installed high-lift motor power"
+
+[[symbol]]
+tex = '\eta_{pr}'
+meaning = "the propulsive efficiency"
+
+[[symbol]]
+tex = 'C_{L,hl}'
+meaning = "the maximum lift coefficient with the high-lift propellers running"
+
+[[symbol]]
+tex = 'C_{L,goal}'
+meaning = "the design maximum lift coefficient"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the design shaft power of the high-lift propellers"
+
+[[symbol]]
+tex = 'S_{w,1}'
+meaning = "the Mod III wetted area, with $S_{w,0}$ the original"
+
+[[symbol]]
+tex = 'D_i'
+meaning = "the induced drag"
+
+[[symbol]]
+tex = 'e'
+meaning = "the span efficiency"
+
+[[symbol]]
+tex = 'AR'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'P_c'
+meaning = "the installed cruise motor power"
+
+[[symbol]]
+tex = 'J'
+meaning = "the propeller advance ratio"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the motor torque"
+
+[[symbol]]
+tex = '\Omega'
+meaning = "the angular speed of the motor"
+
+[[symbol]]
+tex = 'e_b'
+meaning = "the specific energy of the battery pack"
+
+[[symbol]]
+tex = 'e_f'
+meaning = "the specific energy of the fuel"
+
+[[symbol]]
+tex = 'E_{nom}'
+meaning = "the nominal pack energy"
+
+[[symbol]]
+tex = 'C_r'
+meaning = "the discharge rate as a multiple of capacity per hour"
+
+[[symbol]]
+tex = 'E_{prof}'
+meaning = "the energy predicted for the baseline flight profile"
+
+[[symbol]]
+tex = 'V_b'
+meaning = "the pack voltage"
+
+[[symbol]]
+tex = '\eta_e'
+meaning = "the electric drivetrain efficiency, with $\\eta_p$ the piston engine efficiency"
+
+[[symbol]]
+tex = '\eta_c'
+meaning = "the motor controller efficiency"
+
+[[symbol]]
+tex = 'P_{loss}'
+meaning = "the heat dissipated in the controller"

@@ -48,12 +48,18 @@ able to manoeuvre **3,000 nautical miles** across range \[[Woolf 2011][ref_woolf
 point on Earth from any launch site is half a great circle away, so for Earth radius $R_{e}$ the global
 requirement is bounded by
 
-$$\pi R_{e} = \pi \times 6{,}371 \ \text{km} = 20{,}015 \ \text{km} = 10{,}807 \ \text{nautical miles}$$
+$$
+\pi R_{e} = \pi \times 6{,}371 \ \text{km} = 20{,}015 \ \text{km} = 10{,}807 \ \text{nautical miles}
+\tag{1}
+$$
 
 **A published trajectory analysis of the vehicle that flew gives its planned range as 17,000 kilometres**
 \[[Acton 2015a][ref_acton_2015]\], matching the cruise vehicle's figure to within two percent.
 
-$$\frac{17{,}000 \ \text{km}}{9{,}000 \times 1.852 \ \text{km}} = \frac{17{,}000}{16{,}668} = 1.020$$
+$$
+\frac{17{,}000 \ \text{km}}{9{,}000 \times 1.852 \ \text{km}} = \frac{17{,}000}{16{,}668} = 1.020
+\tag{2}
+$$
 
 This article therefore takes 9,000 nautical miles as the glider's range requirement, and the discussion
 of where the framing breaks down examines what follows if that attribution is wrong.
@@ -117,12 +123,18 @@ have nothing to do with. **Both are failures of the same register**, and the
 small.** Let $V$ be the vehicle's speed, $R_{e}$ the radius of the Earth and $g$ the acceleration due to
 gravity. The speed at which a body would orbit at the surface is
 
-$$V_{c} = \sqrt{g R_{e}} = \sqrt{(9.80665)(6.371 \times 10^{6})} = 7{,}904 \ \text{m/s}$$
+$$
+V_{c} = \sqrt{g R_{e}} = \sqrt{(9.80665)(6.371 \times 10^{6})} = 7{,}904 \ \text{m/s}
+\tag{3}
+$$
 
 **At a fraction of that speed the vehicle is partly in orbit already.** The lift a steady glide requires is
 the weight less the centrifugal relief. That balance is the equilibrium glide condition.
 
-$$L = W \left( 1 - \frac{V^{2}}{V_{c}^{2}} \right)$$
+$$
+L = W \left( 1 - \frac{V^{2}}{V_{c}^{2}} \right)
+\tag{4}
+$$
 
 Integrating the resulting equation of motion over a glide that decelerates from an initial speed $V$ gives
 the classical equilibrium glide range, in which the entire vehicle enters only through its lift to drag
@@ -132,7 +144,10 @@ long-range hypervelocity vehicles that Eggers and his colleagues published in 19
 **written before any such vehicle existed**, and its framing of the choice between ballistic, skip and
 glide trajectories frames the analysis that follows.
 
-$$R = \left(\frac{L}{D}\right) \frac{R_{e}}{2} \ln \left( \frac{1}{1 - V^{2}/V_{c}^{2}} \right)$$
+$$
+R = \left(\frac{L}{D}\right) \frac{R_{e}}{2} \ln \left( \frac{1}{1 - V^{2}/V_{c}^{2}} \right)
+\tag{5}
+$$
 
 **That relation carries the argument of this article.** By it, range is bought with two things only,
 being the aerodynamic efficiency of the shape and the speed it is launched at, **and that neither can be
@@ -141,7 +156,10 @@ classified away.**
 **Range is strictly linear in the ratio and strongly non-linear in speed**, which sets where the design
 effort goes.
 
-$$\frac{\partial R}{R} = \frac{\partial (L/D)}{L/D}$$
+$$
+\frac{\partial R}{R} = \frac{\partial (L/D)}{L/D}
+\tag{6}
+$$
 
 **A ten percent loss of aerodynamic efficiency is a ten percent loss of range**, so anything that blunts
 the shape is paid for directly, and the sizing below ends by blunting the shape.
@@ -149,7 +167,10 @@ the shape is paid for directly, and the sizing below ends by blunting the shape.
 **Inverting it for the stated requirement gives the design space.** Solving the range relation for the
 ratio gives the demand placed on the shape by a fixed distance.
 
-$$\frac{L}{D} = \frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - V^{2}/V_{c}^{2}}\right)}$$
+$$
+\frac{L}{D} = \frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - V^{2}/V_{c}^{2}}\right)}
+\tag{7}
+$$
 
 **Entry speeds are quoted here as Mach numbers on a fixed speed scale of 295 metres per second.** That is
 the speed of sound the 1976 standard atmosphere tabulates, 295.07 metres per second, through its isothermal
@@ -159,7 +180,10 @@ works out as 290.6 metres per second for each Mach number. At 40 kilometres the 
 metres per second \[[U.S. Standard Atmosphere 1976 1976][ref_usa76]\]. **The Mach numbers quoted here are
 a speed scale and not local Mach numbers**, and the conversion is
 
-$$V = M a \qquad a \approx 295 \ \text{m/s}$$
+$$
+V = M a \qquad a \approx 295 \ \text{m/s}
+\tag{8}
+$$
 
 For a range of 9,000 nautical miles, being 16,668 kilometres, the required ratio at each entry speed is
 
@@ -178,7 +202,10 @@ the attainable maximum for a hypersonic configuration as a function of Mach numb
 \[[Küchemann 1965][research_kuchemann_1965]\], and the general shape of the difficulty was
 stated even earlier \[[Allen 1958][research_allen_1958]\] \[[Allen 1962][research_allen_1962]\].
 
-$$\left(\frac{L}{D}\right)_{\max} \approx \frac{4(M + 3)}{M} = 4 + \frac{12}{M}$$
+$$
+\left(\frac{L}{D}\right)_{\max} \approx \frac{4(M + 3)}{M} = 4 + \frac{12}{M}
+\tag{9}
+$$
 
 **The published analysis of the flight tests uses the same correlation in its second form, and the same
 range relation as the next section**, and it concludes that the vehicle's ratio sits well below the
@@ -188,11 +215,17 @@ ceiling because heat management rather than aerodynamics limited it \[[Acton 201
 Mach 20 is not merely hard but unavailable to any shape. **The mission becomes available at the Mach
 number where demand and ceiling meet**, which is the root of
 
-$$\frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - (M a / V_{c})^{2}}\right)} = \frac{4(M + 3)}{M}$$
+$$
+\frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - (M a / V_{c})^{2}}\right)} = \frac{4(M + 3)}{M}
+\tag{10}
+$$
 
 and solving it numerically gives
 
-$$M_{\min} = 22.2 \qquad V_{\min} = 6{,}537 \ \text{m/s} = 0.83 \ V_{c}$$
+$$
+M_{\min} = 22.2 \qquad V_{\min} = 6{,}537 \ \text{m/s} = 0.83 \ V_{c}
+\tag{11}
+$$
 
 **The vehicle must therefore be boosted to at least 83 percent of orbital speed**. That demand falls
 on the launch vehicle and not on the glider, and it explains why the programme carried a launch
@@ -203,7 +236,10 @@ scale.** At 40 kilometres a given speed is a local Mach number smaller by the fa
 the ceiling by about 1 percent. Solved with the local value, the minimum speed is 6,521 metres per second,
 still 83 percent of orbital speed, so the conclusion does not depend on the convention.
 
-$$\frac{4 + 12 \times 317.19/5{,}900}{4 + 12/20} = \frac{4.645}{4.600} = 1.010$$
+$$
+\frac{4 + 12 \times 317.19/5{,}900}{4 + 12/20} = \frac{4.645}{4.600} = 1.010
+\tag{12}
+$$
 
 **The ceiling is a correlation, and measurements on hypersonic shapes can be set beside it.** Wind tunnel
 and free-flight characterisations of hypersonic glider and all-body configurations
@@ -234,16 +270,25 @@ atmosphere. Its fitted trajectory puts the start of the glide at $x_{4} - x_{2} 
 at a speed of about **5,500 metres per second**, and the end of the glide between **2,000 and 2,500
 metres per second** \[[Acton 2015a][ref_acton_2015]\]. The planned glide therefore lasted and covered
 
-$$t_{5} - t_{4} = 1{,}798 - 620 = 1{,}178 \ \text{s} \qquad x_{5} - x_{4} = 5{,}900 - 1{,}100 = 4{,}800 \ \text{km}$$
+$$
+t_{5} - t_{4} = 1{,}798 - 620 = 1{,}178 \ \text{s} \qquad x_{5} - x_{4} = 5{,}900 - 1{,}100 = 4{,}800 \ \text{km}
+\tag{13}
+$$
 
 **The range relation applies between any two speeds**, being the difference of two ranges to rest.
 
-$$R = \left(\frac{L}{D}\right) \frac{R_{e}}{2} \ln \left( \frac{1 - V_{f}^{2}/V_{c}^{2}}{1 - V_{i}^{2}/V_{c}^{2}} \right)$$
+$$
+R = \left(\frac{L}{D}\right) \frac{R_{e}}{2} \ln \left( \frac{1 - V_{f}^{2}/V_{c}^{2}}{1 - V_{i}^{2}/V_{c}^{2}} \right)
+\tag{14}
+$$
 
 Taking the initial speed $V_{i}$ as 5,500 metres per second and the final speed $V_{f}$ as the middle of
 the reconstructed range, 2,250 metres per second, gives
 
-$$R = 2.6 \times 3{,}185.5 \ \text{km} \times \ln\left(\frac{1 - 0.2847^{2}}{1 - 0.6958^{2}}\right) = 2.6 \times 3{,}185.5 \times \ln(1.7815) = 4{,}783 \ \text{km}$$
+$$
+R = 2.6 \times 3{,}185.5 \ \text{km} \times \ln\left(\frac{1 - 0.2847^{2}}{1 - 0.6958^{2}}\right) = 2.6 \times 3{,}185.5 \times \ln(1.7815) = 4{,}783 \ \text{km}
+\tag{15}
+$$
 
 against the planned **4,800 kilometres**. **The agreement is close, but it does not validate the model
 independently.** The speeds are the analysis's own fitted estimates, obtained with this ratio in a model of
@@ -253,9 +298,15 @@ close enough to trust for design.
 
 **Asking what the demonstrated ratio would need for the original mission closes the loop.**
 
-$$\frac{V}{V_{c}} = \sqrt{1 - \exp\left(-\frac{16{,}668}{2.6 \times 3{,}185.5}\right)} = 0.931$$
+$$
+\frac{V}{V_{c}} = \sqrt{1 - \exp\left(-\frac{16{,}668}{2.6 \times 3{,}185.5}\right)} = 0.931
+\tag{16}
+$$
 
-$$V = 7{,}357 \ \text{m/s} = \text{Mach } 24.9 \ \text{at } 295 \ \text{m/s}$$
+$$
+V = 7{,}357 \ \text{m/s} = \text{Mach } 24.9 \ \text{at } 295 \ \text{m/s}
+\tag{17}
+$$
 
 **The Hypersonic Technology Vehicle 2 would have needed boosting to 93 percent of orbital speed to make
 the nine thousand mile requirement by gliding alone.** Acton, who also credits the distance
@@ -264,23 +315,35 @@ second \[[Acton 2015a][ref_acton_2015]\], which is 87 percent of orbital speed. 
 a launch to orbit, which puts a number on the observation that boost-glide weapons and
 space launch are the same problem wearing different labels.
 
-$$\frac{6{,}900}{7{,}904} = 0.873$$
+$$
+\frac{6{,}900}{7{,}904} = 0.873
+\tag{18}
+$$
 
 **The same model predicts how long the glide should take.** The deceleration along the path is the drag
 divided by the mass, and drag is the lift divided by the ratio.
 
-$$\frac{dV}{dt} = -\frac{g\left(1 - V^{2}/V_{c}^{2}\right)}{L/D}$$
+$$
+\frac{dV}{dt} = -\frac{g\left(1 - V^{2}/V_{c}^{2}\right)}{L/D}
+\tag{19}
+$$
 
 **The deceleration is gentle, and it explains the flight time.** At Mach 20 it is 1.67 metres per second
 squared, or 0.17 of a gravity, rising to 0.36 of a gravity by 2,000 metres per second as the vehicle slows
 and the centrifugal relief disappears. Separating and integrating gives the time to decelerate from an
 initial speed to a final one.
 
-$$t = \left(\frac{L}{D}\right) \frac{V_{c}}{g} \left[ \operatorname{artanh}\left(\frac{V_{i}}{V_{c}}\right) - \operatorname{artanh}\left(\frac{V_{f}}{V_{c}}\right) \right]$$
+$$
+t = \left(\frac{L}{D}\right) \frac{V_{c}}{g} \left[ \operatorname{artanh}\left(\frac{V_{i}}{V_{c}}\right) - \operatorname{artanh}\left(\frac{V_{f}}{V_{c}}\right) \right]
+\tag{20}
+$$
 
 **Evaluating it between the same two speeds recovers the planned glide duration.**
 
-$$t = 2.6 \times \frac{7{,}904}{9.80665} \left[ \operatorname{artanh}(0.6958) - \operatorname{artanh}(0.2847) \right] = 2.6 \times 806.0 \times 0.5664 = 1{,}187 \ \text{s}$$
+$$
+t = 2.6 \times \frac{7{,}904}{9.80665} \left[ \operatorname{artanh}(0.6958) - \operatorname{artanh}(0.2847) \right] = 2.6 \times 806.0 \times 0.5664 = 1{,}187 \ \text{s}
+\tag{21}
+$$
 
 against the planned **1,178 seconds**. **The ratio and the reconstructed speeds reproduce both the
 distance and the duration of the planned glide to within one percent**, with the caveat above applying
@@ -295,15 +358,24 @@ The lift condition fixes the density. Let $S$ be the reference area, $C_{L}$ the
 the weight, taking the published mass of about **900 kilograms**
 \[[X-41 CAV][ref_x41_parsch]\].
 
-$$\rho = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{V^{2} S C_{L}}$$
+$$
+\rho = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{V^{2} S C_{L}}
+\tag{22}
+$$
 
 The weight follows from the published mass.
 
-$$W = m g = (900)(9.80665) = 8{,}826 \ \text{N}$$
+$$
+W = m g = (900)(9.80665) = 8{,}826 \ \text{N}
+\tag{23}
+$$
 
 At 7,000 metres per second and an assumed $S C_{L}$ of 0.45 square metres this gives
 
-$$\rho = \frac{2 (8{,}826)(0.2157)}{(7{,}000)^{2}(0.45)} = 1.73 \times 10^{-4} \ \text{kg/m}^{3}$$
+$$
+\rho = \frac{2 (8{,}826)(0.2157)}{(7{,}000)^{2}(0.45)} = 1.73 \times 10^{-4} \ \text{kg/m}^{3}
+\tag{24}
+$$
 
 **Converting a density to an altitude needs a model of the atmosphere**, and a single exponential fit
 from the standard sea-level density $\rho_{0}$ of 1.225 kilograms per cubic metre, with a scale height $H$ of
@@ -311,9 +383,15 @@ from the standard sea-level density $\rho_{0}$ of 1.225 kilograms per cubic metr
 pressure scale height of 7,421 metres at about 40 kilometres and 7,241 metres at about 61.6 kilometres
 \[[U.S. Standard Atmosphere 1976 1976][ref_usa76]\].
 
-$$\rho = \rho_{0} \exp\left(-\frac{h}{H}\right) \qquad h = -H \ln\left(\frac{\rho}{\rho_{0}}\right)$$
+$$
+\rho = \rho_{0} \exp\left(-\frac{h}{H}\right) \qquad h = -H \ln\left(\frac{\rho}{\rho_{0}}\right)
+\tag{25}
+$$
 
-$$h = -6{,}900 \ln\left(\frac{1.73 \times 10^{-4}}{1.225}\right) = 61.2 \ \text{km}$$
+$$
+h = -6{,}900 \ln\left(\frac{1.73 \times 10^{-4}}{1.225}\right) = 61.2 \ \text{km}
+\tag{26}
+$$
 
 **which is the corridor altitude used below**, as an approximate figure. The standard atmosphere places
 this density between 63.6 and 64.1 kilometres \[[U.S. Standard Atmosphere 1976 1976][ref_usa76]\], so the fit
@@ -321,7 +399,10 @@ puts the corridor about 3 kilometres low. The temperatures that follow depend on
 altitude, so they do not change. The lift coefficient implied is small, as it must be at this
 speed, and depends on an unpublished reference area.
 
-$$C_{L} = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{\rho V^{2} S} = 0.225 \ \text{at} \ S = 2 \ \text{m}^{2}$$
+$$
+C_{L} = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{\rho V^{2} S} = 0.225 \ \text{at} \ S = 2 \ \text{m}^{2}
+\tag{27}
+$$
 
 The heating condition then follows from the stagnation-point
 correlation, in which $R_{n}$ is the leading-edge radius and $k$ is $1.7415 \times 10^{-4}$ in SI units,
@@ -331,7 +412,10 @@ stagnation pressure and the enthalpy difference \[[Sutton and Graves 1971][resea
 Taking the stagnation pressure as $\rho V^{2}$ in atmospheres and the enthalpy difference as $V^{2}/2$, which
 are the usual hypersonic approximations, converts it to
 
-$$k \approx \frac{0.1113}{2 \sqrt{101{,}325}} = \frac{0.1113}{636.6} = 1.748 \times 10^{-4}$$
+$$
+k \approx \frac{0.1113}{2 \sqrt{101{,}325}} = \frac{0.1113}{636.6} = 1.748 \times 10^{-4}
+\tag{28}
+$$
 
 which the value used here matches to within 0.4 percent. **The correlation form descends from a long line of stagnation-point work**, running
 from the theory of heat transfer in dissociated and partially ionised air
@@ -342,28 +426,43 @@ from the theory of heat transfer in dissociated and partially ionised air
 \[[Tauber and Sutton 1991][research_tauber_sutton_1991]\]. **The convective form used here is the simplest
 member of that family**, adequate for a bound and no more.
 
-$$\dot{q} = k \sqrt{\frac{\rho}{R_{n}}} \, V^{3}$$
+$$
+\dot{q} = k \sqrt{\frac{\rho}{R_{n}}} \, V^{3}
+\tag{29}
+$$
 
 A surface that rejects that heat by radiation alone reaches an equilibrium temperature, where $\varepsilon$
 is the emissivity, taken here as 0.85, and $\sigma$ the Stefan-Boltzmann constant of
 $5.67 \times 10^{-8}$ watts per square metre per kelvin to the fourth power.
 
-$$T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4}$$
+$$
+T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4}
+\tag{30}
+$$
 
 **For a sharp edge of 50 millimetres radius at the corridor point that gives**
 
-$$\dot{q} = 3.51 \ \text{MW/m}^{2} \qquad T = 2{,}921 \ \text{K}$$
+$$
+\dot{q} = 3.51 \ \text{MW/m}^{2} \qquad T = 2{,}921 \ \text{K}
+\tag{31}
+$$
 
 against the surface temperature the vehicle was expected to reach, published as **more than 3,500 degrees
 Fahrenheit** \[[Pentagon releases results of 13,000-mph test flight over Pacific][ref_lat_2012]\]
 \[[Hypersonic Technology Vehicle 2][ref_htv2]\], which
 converts as
 
-$$T_{d} = \frac{5}{9}\left(3{,}500 - 32\right) + 273.15 = 1{,}926.7 + 273.15 = 2{,}200 \ \text{K}$$
+$$
+T_{d} = \frac{5}{9}\left(3{,}500 - 32\right) + 273.15 = 1{,}926.7 + 273.15 = 2{,}200 \ \text{K}
+\tag{32}
+$$
 
 and which this article calls the design temperature $T_{d}$. The radiating surface can reject only
 
-$$\dot{q}_{d} = \varepsilon \sigma T_{d}^{4} = (0.85)(5.67 \times 10^{-8})(2{,}200)^{4} = 1.13 \ \text{MW/m}^{2}$$
+$$
+\dot{q}_{d} = \varepsilon \sigma T_{d}^{4} = (0.85)(5.67 \times 10^{-8})(2{,}200)^{4} = 1.13 \ \text{MW/m}^{2}
+\tag{33}
+$$
 
 which is less than a third of the 3.51 megawatts per square metre arriving at the sharp edge.
 
@@ -371,7 +470,10 @@ which is less than a third of the 3.51 megawatts per square metre arriving at th
 
 **Holding the design temperature at the corridor point requires a leading-edge radius of**
 
-$$R_{n} = \rho \left(\frac{k V^{3}}{\varepsilon \sigma T_{d}^{4}}\right)^{2} = 0.484 \ \text{m}$$
+$$
+R_{n} = \rho \left(\frac{k V^{3}}{\varepsilon \sigma T_{d}^{4}}\right)^{2} = 0.484 \ \text{m}
+\tag{34}
+$$
 
 **on a vehicle 3.5 to 4.5 metres long** \[[X-41 CAV][ref_x41_parsch]\]. A nose radius of nearly half a metre
 is more than a tenth of the vehicle's length. Thin wings with sharp leading edges are what a high lift to
@@ -445,9 +547,15 @@ The published reconstruction of the first flight puts the glider's return into t
 phrase can be made exact. Specific kinetic energy goes as the square of speed, so the fraction of orbital
 energy required is
 
-$$\frac{E/m}{(E/m)_{\text{orbital}}} = \frac{V^{2}}{V_{c}^{2}}$$
+$$
+\frac{E/m}{(E/m)_{\text{orbital}}} = \frac{V^{2}}{V_{c}^{2}}
+\tag{35}
+$$
 
-$$\left(0.83\right)^{2} = 0.69 \qquad \left(0.931\right)^{2} = 0.87$$
+$$
+\left(0.83\right)^{2} = 0.69 \qquad \left(0.931\right)^{2} = 0.87
+\tag{36}
+$$
 
 **Between 69 and 87 percent of the energy of reaching orbit**, spent on a vehicle that then throws all of
 it away in the atmosphere.
@@ -455,18 +563,27 @@ it away in the atmosphere.
 **The mass consequence follows from the rocket equation**, where $I_{sp}$ is the specific impulse of the
 booster and $m_{0}/m_{f}$ the ratio of stack mass to delivered mass.
 
-$$\frac{m_{0}}{m_{f}} = \exp\left(\frac{\Delta V}{g I_{sp}}\right)$$
+$$
+\frac{m_{0}}{m_{f}} = \exp\left(\frac{\Delta V}{g I_{sp}}\right)
+\tag{37}
+$$
 
 At an assumed solid-propellant specific impulse of 280 seconds and the lower of the two speeds this gives
 
-$$\frac{m_{0}}{m_{f}} = \exp\left(\frac{6{,}537}{(9.80665)(280)}\right) = 10.8$$
+$$
+\frac{m_{0}}{m_{f}} = \exp\left(\frac{6{,}537}{(9.80665)(280)}\right) = 10.8
+\tag{38}
+$$
 
 **so a 900 kilogram glider needs something near ten tonnes of stack before losses**, and the vehicle
 actually used was far larger. The four-stage Minotaur IV has a launch mass of 86,300 kilograms
 \[[Minotaur IV][ref_minotaur]\], and the Lite configuration omits only the small fourth stage, so against
 the glider's mass the ratio is of order
 
-$$\frac{86{,}300}{900} = 96$$
+$$
+\frac{86{,}300}{900} = 96
+\tag{39}
+$$
 
 **The cheap alternative to an intercontinental ballistic missile turns out to need most of one.**
 
@@ -496,17 +613,26 @@ that knowledge of several key aerodynamic parameters in that flight regime was l
 **The first flight never reached its glide.** Reading the 139 seconds as running from the return to the
 atmosphere, as the published reconstruction does, places Mach 17 at
 
-$$t_{2} + 139 = 435 + 139 = 574 \ \text{s} < t_{4} = 620 \ \text{s}$$
+$$
+t_{2} + 139 = 435 + 139 = 574 \ \text{s} < t_{4} = 620 \ \text{s}
+\tag{40}
+$$
 
 so the data end before the planned start of the glide \[[Acton 2015a][ref_acton_2015]\]. The deceleration
 confirms it. Converting Mach 17 on the 295 metres per second scale gives 5,015 metres per second, and
 the average deceleration from the 6,010 metres per second of re-entry is
 
-$$\bar{a} = \frac{6{,}010 - 5{,}015}{139} = 7.16 \ \text{m/s}^{2} = 0.73 \ g$$
+$$
+\bar{a} = \frac{6{,}010 - 5{,}015}{139} = 7.16 \ \text{m/s}^{2} = 0.73 \ g
+\tag{41}
+$$
 
 against the glide relation's
 
-$$\frac{g\left(1 - 0.760^{2}\right)}{2.6} = 1.59 \ \text{m/s}^{2} = 0.16 \ g$$
+$$
+\frac{g\left(1 - 0.760^{2}\right)}{2.6} = 1.59 \ \text{m/s}^{2} = 0.16 \ g
+\tag{42}
+$$
 
 at the same entry speed. **Four and a half times the glide's deceleration is the signature of the pull-up
 out of the dive**, and Acton concludes that equilibrium gliding was not achieved on that
@@ -526,7 +652,10 @@ minutes into the flight the vehicle met a series of shocks that culminated in th
 **Neither flight lasted a third of its planned mission.** Taking the planned end of the glide 1,798 seconds
 after launch \[[Acton 2015a][ref_acton_2015]\] as the length of the mission,
 
-$$\frac{9 \times 60}{1{,}798} = 0.30$$
+$$
+\frac{9 \times 60}{1{,}798} = 0.30
+\tag{43}
+$$
 
 **There was no third flight.** An originally planned third test was cancelled
 \[[X-41 CAV][ref_x41_parsch]\], and no further test of the vehicle has taken place
@@ -546,7 +675,10 @@ that plan to set against flight. The same fact sheet gives the speed as Mach 20
 \[[Falcon HTV-2 fact sheet 2010][ref_darpa_fs2010]\], and the two statements together imply the speed scale
 the agency used, which is close to this article's convention of 295 metres per second.
 
-$$13{,}000 \ \text{mph} \times \frac{1{,}609.344 \ \text{m}}{3{,}600 \ \text{s}} = 5{,}812 \ \text{m/s} \qquad \frac{5{,}812}{20} = 290.6 \ \text{m/s} \qquad 20 \times 295 = 5{,}900 \ \text{m/s}$$
+$$
+13{,}000 \ \text{mph} \times \frac{1{,}609.344 \ \text{m}}{3{,}600 \ \text{s}} = 5{,}812 \ \text{m/s} \qquad \frac{5{,}812}{20} = 290.6 \ \text{m/s} \qquad 20 \times 295 = 5{,}900 \ \text{m/s}
+\tag{44}
+$$
 
 **Speed arrived as planned and temperature is not on the record.** Both flights reached the Mach 20 regime,
 the first returning data from Mach 22 \[[Falcon HTV-2][ref_darpa_htv2]\] and the second flying under
@@ -947,7 +1079,10 @@ two cannot be the same vehicle.** The payload figure attached to the Common Aero
 \[[Woolf 2011][ref_woolf_2011]\] \[[X-41 Common Aero Vehicle][ref_x41_wiki]\], against a Hypersonic Technology Vehicle mass of about 900
 kilograms \[[X-41 CAV][ref_x41_parsch]\].
 
-$$\frac{1{,}000 \ \text{lb}}{900 \ \text{kg}} = \frac{454}{900} = 0.50$$
+$$
+\frac{1{,}000 \ \text{lb}}{900 \ \text{kg}} = \frac{454}{900} = 0.50
+\tag{45}
+$$
 
 **A payload half the mass of the whole vehicle is not credible for a hypersonic glider**, so either the
 payload figure describes a larger design than the one that flew, or the mass figure describes a stripped
@@ -1006,6 +1141,420 @@ was validated and that the surprise was thermal.**
 published before the vehicle flew.
 
 The next article returns to a vehicle whose designation is not in doubt.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 45 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 45, 28 are established and 17 are bespoke.
+Mach numbers in this article are a fixed speed scale of 295 metres per second rather than local Mach numbers, ranges are quoted in both kilometres and nautical miles, and the letter $R$ alone is a glide range while $R_{e}$ is the radius of the Earth and $R_{n}$ the leading-edge radius.
+
+**Equation 1, Half Great Circle of the Earth.**
+The farthest point on Earth from any launch site is half a great circle away, 20,015 kilometres or 10,807 nautical miles on the mean radius.
+
+$$
+\pi R_{e} = \pi \times 6{,}371 \ \text{km} = 20{,}015 \ \text{km} = 10{,}807 \ \text{nautical miles}
+\tag{1}
+$$
+
+**Equation 2, Planned Range Against the Cruise Vehicle's Figure.**
+The published planned range of 17,000 kilometres stands within two percent of the cruise vehicle's 9,000 nautical miles.
+[Acton 2015a][ref_acton_2015]
+[DARPA Falcon Project][ref_falcon]
+
+$$
+\frac{17{,}000 \ \text{km}}{9{,}000 \times 1.852 \ \text{km}} = \frac{17{,}000}{16{,}668} = 1.020
+\tag{2}
+$$
+
+**Equation 3, Circular Speed at the Surface.**
+The speed at which a body would orbit at the surface is the square root of gravity times the Earth radius, 7,904 metres per second.
+
+$$
+V_{c} = \sqrt{g R_{e}} = \sqrt{(9.80665)(6.371 \times 10^{6})} = 7{,}904 \ \text{m/s}
+\tag{3}
+$$
+
+**Equation 4, Equilibrium Glide Lift.**
+The lift a steady glide requires is the weight less the centrifugal relief of the curved path.
+
+$$
+L = W \left( 1 - \frac{V^{2}}{V_{c}^{2}} \right)
+\tag{4}
+$$
+
+**Equation 5, Equilibrium Glide Range of Eggers.**
+Integrating the equilibrium glide from an initial speed to rest gives a range linear in the lift to drag ratio and logarithmic in the speed term.
+[Eggers et al. 1955][research_eggers_1955]
+[Eggers et al. 1958][research_eggers_1958]
+
+$$
+R = \left(\frac{L}{D}\right) \frac{R_{e}}{2} \ln \left( \frac{1}{1 - V^{2}/V_{c}^{2}} \right)
+\tag{5}
+$$
+
+**Equation 6, Sensitivity of Range to Lift to Drag Ratio.**
+Since range is linear in the lift to drag ratio, a fractional loss of the ratio is the same fractional loss of range.
+
+$$
+\frac{\partial R}{R} = \frac{\partial (L/D)}{L/D}
+\tag{6}
+$$
+
+**Equation 7, Lift to Drag Ratio Required for a Range.**
+Solving the equilibrium glide range for the ratio gives the demand that a fixed distance places on the shape.
+
+$$
+\frac{L}{D} = \frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - V^{2}/V_{c}^{2}}\right)}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Fixed Speed Scale for Mach Numbers.*
+Speeds are converted from Mach numbers on a fixed scale of 295 metres per second, the isothermal-layer speed of sound of the standard atmosphere, which the article adopts as a convention rather than a local value.
+[U.S. Standard Atmosphere 1976 1976][ref_usa76]
+
+$$
+V = M a \qquad a \approx 295 \ \text{m/s}
+\tag{8}
+$$
+
+**Equation 9, Küchemann Barrier for Hypersonic Lift to Drag Ratio.**
+Küchemann's correlation gives the attainable maximum lift to drag ratio of a hypersonic configuration as four times the Mach number plus three, over the Mach number.
+[Küchemann 1965][research_kuchemann_1965]
+
+$$
+\left(\frac{L}{D}\right)_{\max} \approx \frac{4(M + 3)}{M} = 4 + \frac{12}{M}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Mach Number Where Demand Meets the Barrier.*
+Equating the ratio required for a range of 9,000 nautical miles, which the article takes as the glider's requirement, to the Küchemann ceiling on the fixed speed scale defines the minimum entry speed.
+
+$$
+\frac{R}{\dfrac{R_{e}}{2} \ln\left(\dfrac{1}{1 - (M a / V_{c})^{2}}\right)} = \frac{4(M + 3)}{M}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Minimum Entry Speed.*
+The numerical root on the fixed speed scale and the attributed range requirement is Mach 22.2, or 83 percent of orbital speed.
+
+$$
+M_{\min} = 22.2 \qquad V_{\min} = 6{,}537 \ \text{m/s} = 0.83 \ V_{c}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Effect of Using the Local Speed of Sound.*
+Replacing the fixed 295 metres per second scale with the local speed of sound at 40 kilometres raises the Küchemann ceiling at Mach 20 by about one percent.
+
+$$
+\frac{4 + 12 \times 317.19/5{,}900}{4 + 12/20} = \frac{4.645}{4.600} = 1.010
+\tag{12}
+$$
+
+**Equation 13, Planned Glide Duration and Distance.**
+The published reconstruction of the trajectory gives a planned glide of 1,178 seconds covering 4,800 kilometres.
+[Acton 2015a][ref_acton_2015]
+
+$$
+t_{5} - t_{4} = 1{,}798 - 620 = 1{,}178 \ \text{s} \qquad x_{5} - x_{4} = 5{,}900 - 1{,}100 = 4{,}800 \ \text{km}
+\tag{13}
+$$
+
+**Equation 14, Equilibrium Glide Range Between Two Speeds.**
+The range between two speeds is the difference of the two ranges to rest.
+
+$$
+R = \left(\frac{L}{D}\right) \frac{R_{e}}{2} \ln \left( \frac{1 - V_{f}^{2}/V_{c}^{2}}{1 - V_{i}^{2}/V_{c}^{2}} \right)
+\tag{14}
+$$
+
+*Equation 15, Bespoke Range of the Planned Glide.*
+The range between the reconstructed initial speed and a final speed of 2,250 metres per second, the midpoint of the reconstructed range, at the published ratio of 2.6 is 4,783 kilometres.
+
+$$
+R = 2.6 \times 3{,}185.5 \ \text{km} \times \ln\left(\frac{1 - 0.2847^{2}}{1 - 0.6958^{2}}\right) = 2.6 \times 3{,}185.5 \times \ln(1.7815) = 4{,}783 \ \text{km}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Entry Speed Needed for the Original Mission.*
+Inverting the range relation at the published ratio of 2.6 for the 9,000 nautical miles the article attributes to the glider gives 93.1 percent of orbital speed.
+
+$$
+\frac{V}{V_{c}} = \sqrt{1 - \exp\left(-\frac{16{,}668}{2.6 \times 3{,}185.5}\right)} = 0.931
+\tag{16}
+$$
+
+*Equation 17, Bespoke Entry Speed in Metres per Second and Mach Number.*
+The required fraction of orbital speed is 7,357 metres per second, which is Mach 24.9 on the fixed speed scale.
+
+$$
+V = 7{,}357 \ \text{m/s} = \text{Mach } 24.9 \ \text{at } 295 \ \text{m/s}
+\tag{17}
+$$
+
+**Equation 18, Published Glide Start Speed as a Fraction of Orbital Speed.**
+The published glide start speed of 6,900 metres per second is 87.3 percent of orbital speed.
+[Acton 2015a][ref_acton_2015]
+
+$$
+\frac{6{,}900}{7{,}904} = 0.873
+\tag{18}
+$$
+
+**Equation 19, Deceleration in Equilibrium Glide.**
+The deceleration along the path is the drag over the mass, the lift requirement divided by the lift to drag ratio.
+
+$$
+\frac{dV}{dt} = -\frac{g\left(1 - V^{2}/V_{c}^{2}\right)}{L/D}
+\tag{19}
+$$
+
+**Equation 20, Time to Decelerate in Equilibrium Glide.**
+Separating and integrating the glide deceleration gives the time between two speeds as a difference of inverse hyperbolic tangents.
+
+$$
+t = \left(\frac{L}{D}\right) \frac{V_{c}}{g} \left[ \operatorname{artanh}\left(\frac{V_{i}}{V_{c}}\right) - \operatorname{artanh}\left(\frac{V_{f}}{V_{c}}\right) \right]
+\tag{20}
+$$
+
+*Equation 21, Bespoke Duration of the Planned Glide.*
+The time between the reconstructed initial speed and the midpoint final speed of 2,250 metres per second at the published ratio is 1,187 seconds.
+
+$$
+t = 2.6 \times \frac{7{,}904}{9.80665} \left[ \operatorname{artanh}(0.6958) - \operatorname{artanh}(0.2847) \right] = 2.6 \times 806.0 \times 0.5664 = 1{,}187 \ \text{s}
+\tag{21}
+$$
+
+**Equation 22, Density Required for Lift in Equilibrium Glide.**
+The lift condition fixes the air density from the weight, the centrifugal relief, the speed and the product of reference area and lift coefficient.
+
+$$
+\rho = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{V^{2} S C_{L}}
+\tag{22}
+$$
+
+**Equation 23, Weight of the Glider.**
+The published mass of about 900 kilograms gives a weight of 8,826 newtons.
+[X-41 CAV][ref_x41_parsch]
+
+$$
+W = m g = (900)(9.80665) = 8{,}826 \ \text{N}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Corridor Density at Seven Kilometres per Second.*
+The density is evaluated with a product of reference area and lift coefficient of 0.45 square metres that the article assumes.
+
+$$
+\rho = \frac{2 (8{,}826)(0.2157)}{(7{,}000)^{2}(0.45)} = 1.73 \times 10^{-4} \ \text{kg/m}^{3}
+\tag{24}
+$$
+
+**Equation 25, Exponential Atmosphere.**
+An isothermal exponential atmosphere gives density from a sea-level value and a scale height, and inverts for altitude.
+
+$$
+\rho = \rho_{0} \exp\left(-\frac{h}{H}\right) \qquad h = -H \ln\left(\frac{\rho}{\rho_{0}}\right)
+\tag{25}
+$$
+
+*Equation 26, Bespoke Corridor Altitude.*
+The assumed corridor density converted through a single exponential fit with a scale height of 6.9 kilometres gives 61.2 kilometres, about three kilometres below the standard atmosphere value.
+[U.S. Standard Atmosphere 1976 1976][ref_usa76]
+
+$$
+h = -6{,}900 \ln\left(\frac{1.73 \times 10^{-4}}{1.225}\right) = 61.2 \ \text{km}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Lift Coefficient at the Corridor.*
+The lift coefficient implied at the corridor rests on an assumed reference area of two square metres.
+
+$$
+C_{L} = \frac{2 W \left(1 - V^{2}/V_{c}^{2}\right)}{\rho V^{2} S} = 0.225 \ \text{at} \ S = 2 \ \text{m}^{2}
+\tag{27}
+$$
+
+**Equation 28, Stagnation Heating Coefficient From the Sutton and Graves Constant.**
+Taking the stagnation pressure as the density times the speed squared and the enthalpy difference as half the speed squared, the usual hypersonic approximations, converts the published coefficient to 1.748 times ten to the minus four.
+[Sutton and Graves 1971][research_sutton_graves_1971]
+
+$$
+k \approx \frac{0.1113}{2 \sqrt{101{,}325}} = \frac{0.1113}{636.6} = 1.748 \times 10^{-4}
+\tag{28}
+$$
+
+**Equation 29, Stagnation-Point Heat Flux.**
+The convective stagnation-point flux is a constant times the square root of density over leading-edge radius times the cube of speed.
+
+$$
+\dot{q} = k \sqrt{\frac{\rho}{R_{n}}} \, V^{3}
+\tag{29}
+$$
+
+**Equation 30, Radiative Equilibrium Temperature.**
+A surface rejecting heat by radiation alone reaches the fourth root of the heat flux over the emissivity times the Stefan-Boltzmann constant.
+
+$$
+T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Heating of a Sharp Edge at the Corridor.*
+The flux and equilibrium temperature are evaluated for a leading-edge radius of 50 millimetres, an assumed emissivity of 0.85 and the assumed corridor density.
+
+$$
+\dot{q} = 3.51 \ \text{MW/m}^{2} \qquad T = 2{,}921 \ \text{K}
+\tag{31}
+$$
+
+**Equation 32, Published Surface Temperature in Kelvin.**
+The published expected surface temperature of more than 3,500 degrees Fahrenheit converts to 2,200 kelvin.
+[Pentagon releases results of 13,000-mph test flight over Pacific][ref_lat_2012]
+
+$$
+T_{d} = \frac{5}{9}\left(3{,}500 - 32\right) + 273.15 = 1{,}926.7 + 273.15 = 2{,}200 \ \text{K}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Heat Flux Rejected at the Design Temperature.*
+A surface at 2,200 kelvin with an emissivity of 0.85, which the article assumes, can reject 1.13 megawatts per square metre.
+
+$$
+\dot{q}_{d} = \varepsilon \sigma T_{d}^{4} = (0.85)(5.67 \times 10^{-8})(2{,}200)^{4} = 1.13 \ \text{MW/m}^{2}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Leading-Edge Radius That Holds the Design Temperature.*
+Equating the stagnation flux at the assumed corridor density to the radiation at the design temperature and assumed emissivity gives a leading-edge radius of 0.484 metres.
+
+$$
+R_{n} = \rho \left(\frac{k V^{3}}{\varepsilon \sigma T_{d}^{4}}\right)^{2} = 0.484 \ \text{m}
+\tag{34}
+$$
+
+**Equation 35, Fraction of Orbital Energy Required.**
+Specific kinetic energy goes as the square of speed, so the fraction of orbital energy required is the square of the speed fraction.
+
+$$
+\frac{E/m}{(E/m)_{\text{orbital}}} = \frac{V^{2}}{V_{c}^{2}}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Fractions of Orbital Energy at the Two Entry Speeds.*
+The two speed fractions, which rest on the fixed speed scale and the attributed range requirement, require 69 and 87 percent of orbital energy.
+
+$$
+\left(0.83\right)^{2} = 0.69 \qquad \left(0.931\right)^{2} = 0.87
+\tag{36}
+$$
+
+**Equation 37, Mass Ratio From the Rocket Equation.**
+The ratio of stack mass to delivered mass is the exponential of the velocity increment over the effective exhaust velocity.
+
+$$
+\frac{m_{0}}{m_{f}} = \exp\left(\frac{\Delta V}{g I_{sp}}\right)
+\tag{37}
+$$
+
+*Equation 38, Bespoke Mass Ratio of a Solid Booster.*
+The mass ratio is evaluated at an assumed solid-propellant specific impulse of 280 seconds and the lower entry speed of 6,537 metres per second.
+
+$$
+\frac{m_{0}}{m_{f}} = \exp\left(\frac{6{,}537}{(9.80665)(280)}\right) = 10.8
+\tag{38}
+$$
+
+**Equation 39, Launcher Mass Against Glider Mass.**
+The published Minotaur IV launch mass over the published glider mass gives a ratio of order 96.
+[Minotaur IV][ref_minotaur]
+
+$$
+\frac{86{,}300}{900} = 96
+\tag{39}
+$$
+
+**Equation 40, Time of Mach 17 Against the Planned Glide Start.**
+Counting the 139 seconds from the return to the atmosphere, as the published reconstruction does, places Mach 17 at 574 seconds, before the planned glide start at 620 seconds.
+[Acton 2015a][ref_acton_2015]
+
+$$
+t_{2} + 139 = 435 + 139 = 574 \ \text{s} < t_{4} = 620 \ \text{s}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Mean Deceleration of the First Flight.*
+The mean deceleration from the published re-entry speed to Mach 17, converted on the fixed speed scale, is 7.16 metres per second squared.
+
+$$
+\bar{a} = \frac{6{,}010 - 5{,}015}{139} = 7.16 \ \text{m/s}^{2} = 0.73 \ g
+\tag{41}
+$$
+
+**Equation 42, Equilibrium Glide Deceleration at the Re-entry Speed.**
+The glide relation at the published re-entry speed and lift to drag ratio of 2.6 gives 1.59 metres per second squared.
+[Acton 2015a][ref_acton_2015]
+
+$$
+\frac{g\left(1 - 0.760^{2}\right)}{2.6} = 1.59 \ \text{m/s}^{2} = 0.16 \ g
+\tag{42}
+$$
+
+**Equation 43, Flight Duration as a Share of the Planned Mission.**
+Nine minutes against the planned 1,798 second mission is 0.30 of it.
+[Acton 2015a][ref_acton_2015]
+
+$$
+\frac{9 \times 60}{1{,}798} = 0.30
+\tag{43}
+$$
+
+**Equation 44, Speed Scale Implied by the Agency's Statement.**
+The published 13,000 miles per hour at Mach 20 implies a scale of 290.6 metres per second, close to the 295 metres per second convention.
+[Falcon HTV-2 fact sheet 2010][ref_darpa_fs2010]
+
+$$
+13{,}000 \ \text{mph} \times \frac{1{,}609.344 \ \text{m}}{3{,}600 \ \text{s}} = 5{,}812 \ \text{m/s} \qquad \frac{5{,}812}{20} = 290.6 \ \text{m/s} \qquad 20 \times 295 = 5{,}900 \ \text{m/s}
+\tag{44}
+$$
+
+**Equation 45, Payload Against Vehicle Mass.**
+The published payload of 1,000 pounds over the published vehicle mass of about 900 kilograms is half the vehicle.
+[Woolf 2011][ref_woolf_2011]
+[X-41 CAV][ref_x41_parsch]
+
+$$
+\frac{1{,}000 \ \text{lb}}{900 \ \text{kg}} = \frac{454}{900} = 0.50
+\tag{45}
+$$
+
+### Notation
+
+- $R_{e}$, the radius of the Earth
+- $V_{c}$, the circular speed at the surface
+- $R$, the glide range
+- $L/D$, the lift to drag ratio, with $\left(\frac{L}{D}\right)_{\max}$ the Küchemann ceiling
+- $M$, the Mach number on the fixed speed scale
+- $a$, the fixed speed scale of 295 metres per second
+- $V_{i}$, the initial glide speed, with $V_{f}$ the final glide speed
+- $M_{\min}$, the minimum entry Mach number, with $V_{\min}$ the corresponding speed
+- $t_{5}$, the planned end of the glide, with $t_{4}$ its start and $t_{2}$ the return to the atmosphere
+- $x_{5}$, the downrange position at the end of the glide, with $x_{4}$ its start and $x_{2}$ the point of re-entry
+- $C_{L}$, the lift coefficient
+- $\rho_{0}$, the sea-level air density
+- $H$, the scale height of the exponential atmosphere
+- $k$, the stagnation heating coefficient
+- $R_{n}$, the leading-edge radius
+- $\dot{q}$, the stagnation-point heat flux, with $\dot{q}_{d}$ the flux rejected at the design temperature
+- $\varepsilon$, the emissivity
+- $\sigma$, the Stefan-Boltzmann constant
+- $T_{d}$, the design temperature
+- $I_{sp}$, the specific impulse of the booster in seconds
+- $m_{0}$, the stack mass, with $m_{f}$ the delivered mass
 
 ## References
 

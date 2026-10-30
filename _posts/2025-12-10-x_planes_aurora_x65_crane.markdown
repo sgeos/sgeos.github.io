@@ -42,7 +42,10 @@ The encyclopedia entry on the aircraft describes it as having a joined tandem wi
 
 **And the aircraft's weight is given three ways.** DARPA's release says the aircraft is `7,000+` pound \[[DARPA moves forward on the X-65][ref_darpa_news]\], the encyclopedia entry and the Defense News report say 7,000 pound \[[Aurora X-65 CRANE][ref_ds_x65]\] \[[two-year flight delay][ref_defensenews_delay]\], and the contractor's page gives 7,200 pound gross weight \[[X-65 experimental aircraft][ref_aurora_x65]\]. **The spread is 200 pound**, which as a share of the lower figure is
 
-$$ \frac{7{,}200 - 7{,}000}{7{,}000} = 0.0286 , $$
+$$
+ \frac{7{,}200 - 7{,}000}{7{,}000} = 0.0286 , 
+\tag{1}
+$$
 
 or 2.86 percent, and the contractor's figure is used where a single number is needed, with a note each time.
 
@@ -65,13 +68,19 @@ The narrative account is short. DARPA began CRANE in 2020, invited three contrac
 
 **And the downselect itself is visible as an exercised option.** Aurora's contract shows an option exercised on 29 June 2021 worth 8,312,272 dollars and Lockheed Martin's shows one exercised on 12 August 2021 worth 10,135,107 dollars. **Georgia Tech Research Corporation has no option exercise at any date.** Its last funding action is 13 April 2022 for 192,823 dollars, and 5,581,362 dollars of its ceiling, being 45.1 percent, was never exercised \[[USAspending][ref_usaspending]\]. **The record therefore dates the cut from three to two to the middle of 2021**, which no source consulted states in words. The unexercised share of a ceiling is one less the ratio of obligation to ceiling, which for Georgia Tech Research Corporation is
 
-$$ 1 - \frac{6{,}795{,}148}{12{,}376{,}510} = \frac{5{,}581{,}362}{12{,}376{,}510} = 0.451 . $$
+$$
+ 1 - \frac{6{,}795{,}148}{12{,}376{,}510} = \frac{5{,}581{,}362}{12{,}376{,}510} = 0.451 . 
+\tag{2}
+$$
 
 **Georgia Tech was also on different terms.** Its contract is priced cost no fee where both companies are cost plus fixed fee, and the record classifies it as an other United States entity where both companies are a United States owned business. **A university research corporation took no fee for the same work**, and it alone of the three was not carried forward \[[USAspending][ref_usaspending]\].
 
 From the obligations and ceilings in the table above,
 
-$$ \frac{23{,}811{,}305}{49{,}184{,}174} = 0.484 , \qquad 1 - \frac{23{,}811{,}305}{28{,}368{,}394} = \frac{4{,}557{,}089}{28{,}368{,}394} = 0.161 , \qquad 49{,}184{,}174 + 94{,}372{,}238 = 143{,}556{,}412 , $$
+$$
+ \frac{23{,}811{,}305}{49{,}184{,}174} = 0.484 , \qquad 1 - \frac{23{,}811{,}305}{28{,}368{,}394} = \frac{4{,}557{,}089}{28{,}368{,}394} = 0.161 , \qquad 49{,}184{,}174 + 94{,}372{,}238 = 143{,}556{,}412 , 
+\tag{3}
+$$
 
 so Aurora took 48.4 percent of the 49,184,174 dollars obligated across the three early contracts, and left 4,557,089 dollars, or 16.1 percent, of its own ceiling unexercised. **Total obligations across all four CRANE contracts are 143,556,412 dollars.**
 
@@ -81,7 +90,10 @@ Press accounts report that DARPA awarded Aurora a 42 million dollar contract in 
 
 **The two figures are not in conflict, for a reason that deserves stating.** Phase 2 and Phase 3 were placed on one instrument, so the announced Phase 2 value and the eventual obligated total on the same contract number are different quantities. **The initial obligation on the day the contract began was 6,500,000 dollars, 6.9 percent of what the contract eventually carried.** \[[USAspending][ref_usaspending]\] The two ratios are
 
-$$ \frac{94{,}372{,}238}{42{,}000{,}000} = 2.25 , \qquad \frac{6{,}500{,}000}{94{,}372{,}238} = 0.0689 . $$
+$$
+ \frac{94{,}372{,}238}{42{,}000{,}000} = 2.25 , \qquad \frac{6{,}500{,}000}{94{,}372{,}238} = 0.0689 . 
+\tag{4}
+$$
 
 | Date | Obligation, dollar | Cumulative, dollar |
 |---|---|---|
@@ -237,17 +249,26 @@ Every symbol below is declared here and nowhere carries a second meaning.
 
 The standard figure of merit for a blown flow-control device is the momentum coefficient, being the momentum flux the jet supplies divided by the product of free-stream dynamic pressure and a reference area. Let $\dot{m}\_j$ be the jet mass flow in kilogram per second, $V_j$ the jet velocity in metre per second, $q$ the free-stream dynamic pressure in pascal, $S$ the reference area in square metre, and $C_\mu$ the momentum coefficient, dimensionless.
 
-$$ J = \dot{m}_j V_j, \qquad C_\mu = \frac{J}{q S} $$
+$$
+ J = \dot{m}_j V_j, \qquad C_\mu = \frac{J}{q S} 
+\tag{5}
+$$
 
 where $J$ is the jet momentum flux in newton. **Since the numerator and the denominator are both forces, the ratio is dimensionless**, and the review cited above attributes the precise formulation to Poisson-Quinton \[[Abdolahipour 2024][research_review_afc_2024]\].
 
 The force the device produces is a different quantity, an aerodynamic force increment obtained because the jet changed where the flow separated. Let $\Delta C_L$ be the resulting lift-coefficient increment, dimensionless, and $\Delta L$ the force increment in newton.
 
-$$ \Delta L = \Delta C_L \, q S $$
+$$
+ \Delta L = \Delta C_L \, q S 
+\tag{6}
+$$
 
 **Dividing one by the other gives an exact identity, and the identity contains the entire question of whether active flow control is a control technology or a thruster in disguise.** Let $\mathcal{A}$ be the amplification, being aerodynamic force produced per unit of jet momentum supplied, dimensionless.
 
-$$ \mathcal{A} = \frac{\Delta L}{\dot{m}_j V_j} = \frac{\Delta C_L \, q S}{C_\mu \, q S} = \frac{\Delta C_L}{C_\mu} $$
+$$
+ \mathcal{A} = \frac{\Delta L}{\dot{m}_j V_j} = \frac{\Delta C_L \, q S}{C_\mu \, q S} = \frac{\Delta C_L}{C_\mu} 
+\tag{7}
+$$
 
 **The flight condition cancels completely.** The amplification, a ratio of two dimensionless numbers, is indifferent to altitude, speed and area. **A value of one means the device is a rocket, producing exactly the force its own jet reaction would produce and nothing more. A value far above one means the jet is a trigger rather than a force.**
 
@@ -263,13 +284,19 @@ $$ \mathcal{A} = \frac{\Delta L}{\dot{m}_j V_j} = \frac{\Delta C_L \, q S}{C_\mu
 
 **The ratio above is a secant and the quantity the literature plots is the tangent, and the distinction matters because the curve is not a line.**
 
-$$ \mathcal{A} = \frac{\Delta C_L}{C_\mu} \quad \text{against} \quad \mathcal{A}_{\mathrm{loc}} = \frac{\mathrm{d} \, \Delta C_L}{\mathrm{d} C_\mu} $$
+$$
+ \mathcal{A} = \frac{\Delta C_L}{C_\mu} \quad \text{against} \quad \mathcal{A}_{\mathrm{loc}} = \frac{\mathrm{d} \, \Delta C_L}{\mathrm{d} C_\mu} 
+\tag{8}
+$$
 
 **The review calls the second one the actuation efficiency and reports that it falls through the transition between the two regimes** \[[Abdolahipour 2024][research_review_afc_2024]\]. The two agree only where the curve passes through the origin with constant slope, which it does not. **The secant is used throughout, because it converts an available momentum into an available force**, and the tangent tells a designer whether more air would help.
 
 **Separation control lives at the top of that table and circulation control at the bottom, because of the shape of the underlying curve.** At very small momentum coefficient nothing happens, because the jet is too weak to change where the boundary layer leaves the surface. Above a threshold the lift increment rises steeply, and amplification is largest in this regime. At large momentum coefficient the flow is fully attached, further blowing simply adds circulation, and the returns fall toward unity as the device becomes a thruster. **So there is an optimal momentum coefficient, neither small nor large**, which turns the design problem into one of landing in a band rather than of maximising a quantity. Writing $C_{\mu,0}$ for the threshold below which nothing happens and $C_{\mu,1}$ for the one above which the flow is fully attached,
 
-$$ \mathcal{A}_{\mathrm{loc}} \approx 0 \;\; \text{for} \;\; C_\mu < C_{\mu,0}, \qquad \mathcal{A}_{\mathrm{loc}} \gg 1 \;\; \text{for} \;\; C_{\mu,0} < C_\mu < C_{\mu,1}, \qquad \mathcal{A}_{\mathrm{loc}} \to 1 \;\; \text{for} \;\; C_\mu > C_{\mu,1} $$
+$$
+ \mathcal{A}_{\mathrm{loc}} \approx 0 \;\; \text{for} \;\; C_\mu < C_{\mu,0}, \qquad \mathcal{A}_{\mathrm{loc}} \gg 1 \;\; \text{for} \;\; C_{\mu,0} < C_\mu < C_{\mu,1}, \qquad \mathcal{A}_{\mathrm{loc}} \to 1 \;\; \text{for} \;\; C_\mu > C_{\mu,1} 
+\tag{9}
+$$
 
 **The review puts $C_{\mu,1}$ between three and five percent** and reports measured values of $C_{\mu,0}$ well below one percent, both of which are taken up below \[[Abdolahipour 2024][research_review_afc_2024]\].
 
@@ -281,11 +308,17 @@ DARPA's release says the aircraft uses `jets of air from a pressurized source` \
 
 **The first architecture bleeds the engine.** At a fixed corrected spool speed a gas turbine passes a constant corrected mass flow, so its actual mass flow follows the total pressure at its face divided by the square root of the total temperature there. Let $\dot{m}\_{\mathrm{ref}}$ be the engine's sea-level static mass flow in kilogram per second, $\delta$ the ratio of compressor-face total pressure to sea-level standard pressure and $\theta$ the ratio of compressor-face total temperature to sea-level standard temperature, both dimensionless, and $\beta$ the bleed fraction, dimensionless.
 
-$$ \dot{m}_j = \beta \, \dot{m}_{\mathrm{ref}} \, \frac{\delta}{\sqrt{\theta}} $$
+$$
+ \dot{m}_j = \beta \, \dot{m}_{\mathrm{ref}} \, \frac{\delta}{\sqrt{\theta}} 
+\tag{10}
+$$
 
 **The second architecture drives a compressor at a fixed shaft power.** Let $P$ be the shaft power delivered to the air in watt, $c_p$ the specific heat at constant pressure in joule per kilogram kelvin, and $\Delta T$ the total-temperature rise in kelvin.
 
-$$ \dot{m}_j = \frac{P}{c_p \, \Delta T} $$
+$$
+ \dot{m}_j = \frac{P}{c_p \, \Delta T} 
+\tag{11}
+$$
 
 **The first depends on ambient pressure and the second does not, and that single difference propagates into opposite conclusions about the flight envelope.**
 
@@ -295,13 +328,19 @@ $$ \dot{m}_j = \frac{P}{c_p \, \Delta T} $$
 
 In the troposphere the temperature falls linearly. Let $h$ be the geopotential altitude in metre, $\lambda$ the lapse rate in kelvin per metre, $g_0$ the standard gravity in metre per second squared, and $T_{\mathrm{sl}}$ and $p_{\mathrm{sl}}$ the sea-level standard temperature and pressure.
 
-$$ T\left( h \right) = T_{\mathrm{sl}} + \lambda h, \qquad p\left( h \right) = p_{\mathrm{sl}} \left( \frac{T\left( h \right)}{T_{\mathrm{sl}}} \right)^{- \frac{g_0}{\lambda R}} $$
+$$
+ T\left( h \right) = T_{\mathrm{sl}} + \lambda h, \qquad p\left( h \right) = p_{\mathrm{sl}} \left( \frac{T\left( h \right)}{T_{\mathrm{sl}}} \right)^{- \frac{g_0}{\lambda R}} 
+\tag{12}
+$$
 
 **The exponent is not a fitted constant.** It follows from integrating the hydrostatic relation $\mathrm{d}p = - \rho g_0 \, \mathrm{d}h$ against the ideal gas law with a linear temperature profile.
 
 Above the tropopause the temperature is constant and the pressure falls exponentially, with $h_{\mathrm{trop}}$ the tropopause altitude in metre and $T_{\mathrm{trop}}$ and $p_{\mathrm{trop}}$ the conditions there.
 
-$$ p\left( h \right) = p_{\mathrm{trop}} \exp\left( - \frac{g_0 \left( h - h_{\mathrm{trop}} \right)}{R \, T_{\mathrm{trop}}} \right), \qquad \rho = \frac{p}{R T}, \qquad a = \sqrt{\gamma R T} $$
+$$
+ p\left( h \right) = p_{\mathrm{trop}} \exp\left( - \frac{g_0 \left( h - h_{\mathrm{trop}} \right)}{R \, T_{\mathrm{trop}}} \right), \qquad \rho = \frac{p}{R T}, \qquad a = \sqrt{\gamma R T} 
+\tag{13}
+$$
 
 **At thirty thousand feet, taken as a geopotential altitude of 9,144 metre, those give 228.714 kelvin, 30,089.6 pascal, 0.458312 kilogram per cubic metre and a speed of sound of 303.174 metre per second.**
 
@@ -309,7 +348,10 @@ $$ p\left( h \right) = p_{\mathrm{trop}} \exp\left( - \frac{g_0 \left( h - h_{\m
 
 Dynamic pressure is defined as half the density times the square of the speed, and rewriting it in terms of pressure and Mach number is not an approximation. With $\rho$ the density in kilogram per cubic metre, $V$ the true airspeed in metre per second, $M$ the Mach number, dimensionless, $p$ the ambient static pressure in pascal, $T$ the ambient static temperature in kelvin, $R$ the specific gas constant in joule per kilogram kelvin and $\gamma$ the ratio of specific heats, dimensionless,
 
-$$ q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} \rho \, \gamma R T M^2 = \tfrac{\gamma}{2} \, p \, M^2 $$
+$$
+ q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} \rho \, \gamma R T M^2 = \tfrac{\gamma}{2} \, p \, M^2 
+\tag{14}
+$$
 
 because $p = \rho R T$ and the speed of sound satisfies $a^2 = \gamma R T$. **At a fixed Mach number the dynamic pressure is exactly proportional to the ambient pressure, a fact the bleed architecture exploits.** The two routes to $q$ were computed independently and agree to better than one part in $10^{15}$.
 
@@ -317,11 +359,17 @@ because $p = \rho R T$ and the speed of sound satisfies $a^2 = \gamma R T$. **At
 
 **The bled mass flow above is written in terms of $\delta$ and $\theta$, which are the compressor-face total conditions normalised on sea level**, and the total conditions follow from the flight Mach number alone under full inlet recovery.
 
-$$ p_{t} = p \, \sigma^{\frac{\gamma}{\gamma-1}}, \qquad T_{t} = T \sigma, \qquad \delta = \frac{p_t}{p_{\mathrm{sl}}}, \qquad \theta = \frac{T_t}{T_{\mathrm{sl}}} $$
+$$
+ p_{t} = p \, \sigma^{\frac{\gamma}{\gamma-1}}, \qquad T_{t} = T \sigma, \qquad \delta = \frac{p_t}{p_{\mathrm{sl}}}, \qquad \theta = \frac{T_t}{T_{\mathrm{sl}}} 
+\tag{15}
+$$
 
 **The invariant that makes the bled mass flow predictable at all is the corrected flow.** At a fixed corrected spool speed a turbomachine passes a fixed value of
 
-$$ \dot{m} \frac{\sqrt{\theta}}{\delta} = \text{constant} $$
+$$
+ \dot{m} \frac{\sqrt{\theta}}{\delta} = \text{constant} 
+\tag{16}
+$$
 
 and inverting it gives the bled flow above. **At thirty thousand feet and Mach 0.7 the factors are $\sigma$ of 1.0980, $\delta$ of 0.4119 and $\theta$ of 0.8715**, so the compressor face sees 41.74 kilopascal and 251.1 kelvin. **The corrected flow recomputed from the actual flow at ten altitudes returns 10.0 kilogram per second every time**, the invariance the derivation assumes.
 
@@ -329,7 +377,10 @@ and inverting it gives the bled flow above. **At thirty thousand feet and Mach 0
 
 The compressor's total-temperature ratio follows from its pressure ratio and its efficiency. Let $\tau$ be that ratio, dimensionless, and $w_c$ the specific work in joule per kilogram.
 
-$$ \tau = 1 + \frac{\pi_c^{\frac{\gamma-1}{\gamma}} - 1}{\eta_c}, \qquad w_c = c_p \, T_{t} \left( \tau - 1 \right) $$
+$$
+ \tau = 1 + \frac{\pi_c^{\frac{\gamma-1}{\gamma}} - 1}{\eta_c}, \qquad w_c = c_p \, T_{t} \left( \tau - 1 \right) 
+\tag{17}
+$$
 
 **At a pressure ratio of 14 and an efficiency of 0.85 the temperature ratio is 2.3241, against 2.1255 for ideal compression, and the work already spent on each kilogram of bled air is 334.1 kilojoule.** A bleed throws that work away, so air taken from the discharge of a single-stage centrifugal compressor is the most expensive air in the engine.
 
@@ -337,17 +388,26 @@ $$ \tau = 1 + \frac{\pi_c^{\frac{\gamma-1}{\gamma}} - 1}{\eta_c}, \qquad w_c = c
 
 A nozzle whose plenum exceeds the ambient pressure by more than the critical ratio passes sonic flow at its throat, and the exit velocity is then the local speed of sound there. Let $T_t$ be the plenum total temperature in kelvin.
 
-$$ \frac{p_{t}}{p} \ge \left( \frac{\gamma + 1}{2} \right)^{\frac{\gamma}{\gamma - 1}} \approx 1.8929, \qquad V_j = \sqrt{\frac{2 \gamma R \, T_{t}}{\gamma + 1}} $$
+$$
+ \frac{p_{t}}{p} \ge \left( \frac{\gamma + 1}{2} \right)^{\frac{\gamma}{\gamma - 1}} \approx 1.8929, \qquad V_j = \sqrt{\frac{2 \gamma R \, T_{t}}{\gamma + 1}} 
+\tag{18}
+$$
 
 **The jet velocity depends on the plenum total temperature and on nothing else.** Not on altitude, not on the plenum pressure, not on the flight speed except through the total temperature. The cancellation needs this second fact.
 
 Air bled from a compressor of pressure ratio $\pi_c$ arrives hot. Let $\eta_c$ be the compressor isentropic efficiency, dimensionless, and let the inlet total-condition factor be $\sigma$.
 
-$$ \sigma = 1 + \frac{\gamma - 1}{2} M^2, \qquad T_{t} = T \sigma \left( 1 + \frac{\pi_c^{\frac{\gamma-1}{\gamma}} - 1}{\eta_c} \right) $$
+$$
+ \sigma = 1 + \frac{\gamma - 1}{2} M^2, \qquad T_{t} = T \sigma \left( 1 + \frac{\pi_c^{\frac{\gamma-1}{\gamma}} - 1}{\eta_c} \right) 
+\tag{19}
+$$
 
 **The nozzle pressure ratio also has a closed form, and the altitude does not appear in it.** Let $\mathrm{NPR}$ be the plenum-to-ambient pressure ratio, dimensionless.
 
-$$ \mathrm{NPR} = \frac{\pi_c \, p_t}{p} = \pi_c \, \sigma^{\frac{\gamma}{\gamma-1}} $$
+$$
+ \mathrm{NPR} = \frac{\pi_c \, p_t}{p} = \pi_c \, \sigma^{\frac{\gamma}{\gamma-1}} 
+\tag{20}
+$$
 
 **The ambient pressure divides out before anything is computed.**
 
@@ -364,7 +424,10 @@ $$ \mathrm{NPR} = \frac{\pi_c \, p_t}{p} = \pi_c \, \sigma^{\frac{\gamma}{\gamma
 
 Assemble the three results. The bled mass flow carries $p \sigma^{\gamma/(\gamma-1)}$ over $\sqrt{T \sigma}$, the choked jet velocity carries $\sqrt{T \sigma \tau}$ where $\tau$ is the compressor total-temperature ratio, and the dynamic pressure carries $p M^2$. Writing $p_{\mathrm{sl}}$ and $T_{\mathrm{sl}}$ for the sea-level standard pressure and temperature,
 
-$$ C_\mu = \frac{2 \beta \, \dot{m}_{\mathrm{ref}}}{\gamma \, p_{\mathrm{sl}} \, S} \sqrt{\frac{2 \gamma R \, T_{\mathrm{sl}} \, \tau}{\gamma + 1}} \; \cdot \; \frac{\sigma^{\frac{\gamma}{\gamma-1}}}{M^2} $$
+$$
+ C_\mu = \frac{2 \beta \, \dot{m}_{\mathrm{ref}}}{\gamma \, p_{\mathrm{sl}} \, S} \sqrt{\frac{2 \gamma R \, T_{\mathrm{sl}} \, \tau}{\gamma + 1}} \; \cdot \; \frac{\sigma^{\frac{\gamma}{\gamma-1}}}{M^2} 
+\tag{21}
+$$
 
 **Every trace of altitude is gone, and so is the ambient temperature, and so is one of the two appearances of $\sigma$.** The ambient pressures cancel because corrected flow makes the bled mass flow proportional to pressure and the compressible identity makes dynamic pressure proportional to pressure. **The ambient temperatures cancel for a different reason**, because corrected flow divides by the square root of the total temperature while a choked jet fed from that same air multiplies by it. **The inlet factor cancels once for the same reason the temperature does**, since the same ram rise that warms the compressor face warms the jet.
 
@@ -391,7 +454,10 @@ $$ C_\mu = \frac{2 \beta \, \dot{m}_{\mathrm{ref}}}{\gamma \, p_{\mathrm{sl}} \,
 
 What survives is a function of Mach number alone, up to the constant. Let $G$ be that factor, dimensionless.
 
-$$ G\left( M \right) = \frac{\sigma^{\frac{\gamma}{\gamma-1}}}{M^2} = \frac{\left( 1 + 0.2 M^2 \right)^{3.5}}{M^2} $$
+$$
+ G\left( M \right) = \frac{\sigma^{\frac{\gamma}{\gamma-1}}}{M^2} = \frac{\left( 1 + 0.2 M^2 \right)^{3.5}}{M^2} 
+\tag{22}
+$$
 
 at $\gamma = 1.4$. **The numerator is the inlet's total-pressure recovery, which works in the aircraft's favour.**
 
@@ -409,11 +475,17 @@ at $\gamma = 1.4$. **The numerator is the inlet's total-pressure recovery, which
 
 **The factor has a minimum, located exactly at Mach $\sqrt{2}$.** Taking logarithms and differentiating,
 
-$$ \frac{\mathrm{d} \ln G}{\mathrm{d} M} = \frac{\gamma}{\gamma - 1} \cdot \frac{\sigma'}{\sigma} - \frac{2}{M} = \frac{\gamma M}{\sigma} - \frac{2}{M} $$
+$$
+ \frac{\mathrm{d} \ln G}{\mathrm{d} M} = \frac{\gamma}{\gamma - 1} \cdot \frac{\sigma'}{\sigma} - \frac{2}{M} = \frac{\gamma M}{\sigma} - \frac{2}{M} 
+\tag{23}
+$$
 
 which vanishes when $\gamma M^2 = 2 \sigma = 2 + \left( \gamma - 1 \right) M^2$, that is when $M^2 = 2$. **The specific-heat ratio cancels and the turning point is at Mach 1.4142 whatever the gas is.** Since $\sigma\left(\sqrt{2}\right) = \gamma$ exactly, the minimum value has a closed form.
 
-$$ G_{\min} = \frac{\gamma^{\frac{\gamma}{\gamma-1}}}{2} = 1.6234 $$
+$$
+ G_{\min} = \frac{\gamma^{\frac{\gamma}{\gamma-1}}}{2} = 1.6234 
+\tag{24}
+$$
 
 **The closed form, a direct evaluation and a brute-force search over three hundred thousand Mach numbers agree to one part in $10^{15}$.**
 
@@ -423,13 +495,19 @@ $$ G_{\min} = \frac{\gamma^{\frac{\gamma}{\gamma-1}}}{2} = 1.6234 $$
 
 The aircraft's central question can now be written in one line. Let $\Delta L_{\mathrm{AFC}}$ be the force increment an active-flow-control effector delivers in newton, where the subscript is the programme's abbreviation for active flow control, $\Delta L_{\mathrm{conv}}$ the force increment a conventional surface delivers in newton, $\Delta C_{L,\mathrm{conv}}$ the lift-coefficient increment that surface delivers at full deflection, dimensionless, and $\Lambda$ the authority ratio, dimensionless.
 
-$$ \Lambda = \frac{\Delta L_{\mathrm{AFC}}}{\Delta L_{\mathrm{conv}}} = \frac{\mathcal{A} \, C_\mu \, q S}{\Delta C_{L,\mathrm{conv}} \, q S} = \frac{\mathcal{A} \, C_\mu}{\Delta C_{L,\mathrm{conv}}} $$
+$$
+ \Lambda = \frac{\Delta L_{\mathrm{AFC}}}{\Delta L_{\mathrm{conv}}} = \frac{\mathcal{A} \, C_\mu \, q S}{\Delta C_{L,\mathrm{conv}} \, q S} = \frac{\mathcal{A} \, C_\mu}{\Delta C_{L,\mathrm{conv}}} 
+\tag{25}
+$$
 
 **The dynamic pressure cancels again, so the authority ratio inherits the altitude independence of the momentum coefficient and inherits its Mach dependence entire.** A conventional surface produces a moment proportional to dynamic pressure, and so does an active-flow-control effector, for the surprising reason that the engine feeding it swallows more air at lower altitude in almost exactly the same proportion.
 
 **The crossover is defined by a condition, the Mach number at which the ratio reaches one, and involves no fitting.**
 
-$$ \Lambda\left( M_{\times} \right) = 1 \quad \Longleftrightarrow \quad \mathcal{A} \, C_\mu\left( M_{\times} \right) = \Delta C_{L,\mathrm{conv}} \quad \Longleftrightarrow \quad G\left( M_{\times} \right) = \frac{\Delta C_{L,\mathrm{conv}}}{\mathcal{A}} \cdot \frac{G\left( M_{0} \right)}{C_\mu\left( M_{0} \right)} $$
+$$
+ \Lambda\left( M_{\times} \right) = 1 \quad \Longleftrightarrow \quad \mathcal{A} \, C_\mu\left( M_{\times} \right) = \Delta C_{L,\mathrm{conv}} \quad \Longleftrightarrow \quad G\left( M_{\times} \right) = \frac{\Delta C_{L,\mathrm{conv}}}{\mathcal{A}} \cdot \frac{G\left( M_{0} \right)}{C_\mu\left( M_{0} \right)} 
+\tag{26}
+$$
 
 for any reference Mach number $M_0$. **The root is unique below Mach $\sqrt{2}$ because $G$ is strictly decreasing there**, as established above, so a bisection is admissible as well as convenient.
 
@@ -443,7 +521,10 @@ for any reference Mach number $M_0$. **The root is unique below Mach $\sqrt{2}$ 
 
 **Take an amplification of 30 against a conventional surface worth 0.05 in lift coefficient.** The authority ratio at the top of the envelope is 0.567, so **active flow control delivers 56.7 percent of the hinge's authority at Mach 0.7 and falls short by 43.3 percent.** At Mach 0.2 the same hardware delivers 5.15 times the hinge's authority. **The crossover is at Mach 0.485.** With the momentum coefficient and the Mach factor from the tables above,
 
-$$ \Lambda\left( 0.7 \right) = \frac{30 \times 0.000945066}{0.05} = 0.567 , \qquad \Lambda\left( 0.2 \right) = 0.567 \times \frac{G\left( 0.2 \right)}{G\left( 0.7 \right)} = 0.567 \times \frac{25.7070}{2.8308} = 5.15 , \qquad G\left( M_{\times} \right) = \frac{0.05}{30} \cdot \frac{2.8308}{0.000945066} = 4.992 , $$
+$$
+ \Lambda\left( 0.7 \right) = \frac{30 \times 0.000945066}{0.05} = 0.567 , \qquad \Lambda\left( 0.2 \right) = 0.567 \times \frac{G\left( 0.2 \right)}{G\left( 0.7 \right)} = 0.567 \times \frac{25.7070}{2.8308} = 5.15 , \qquad G\left( M_{\times} \right) = \frac{0.05}{30} \cdot \frac{2.8308}{0.000945066} = 4.992 , 
+\tag{27}
+$$
 
 and the Mach number at which $G$ falls to 4.992 is 0.485.
 
@@ -455,7 +536,10 @@ and the Mach number at which $G$ falls to 4.992 is 0.485.
 
 Inverting the ratio gives the amplification required.
 
-$$ \mathcal{A}_{\mathrm{req}} = \frac{\Delta C_{L,\mathrm{conv}}}{C_\mu} $$
+$$
+ \mathcal{A}_{\mathrm{req}} = \frac{\Delta C_{L,\mathrm{conv}}}{C_\mu} 
+\tag{28}
+$$
 
 At the reference condition the momentum coefficient is 0.000945, so **matching a conventional surface worth 0.02 needs an amplification of 21.2, matching one worth 0.05 needs 52.9, and matching one worth 0.10 needs 105.8.** **Which of those is reachable is the open question, and the published record brackets it without settling it.** The review's summary of separation-control studies reports a gain in lift of 53 percent on a flapped NACA 0015 with its flap at 35 degrees at a momentum coefficient of 0.3 percent, and gains in maximum lift of 12 to 35 percent at coefficients of 0.082 to 0.14 percent \[[Abdolahipour 2024][research_review_afc_2024]\]. **The review gives those gains relative to each baseline and not as increments, so the amplification they imply is an inference**, and on a baseline lift coefficient near one it exceeds a hundred in every one of those cases. **By the arithmetic, then, this class of system can replace a weak control surface at cruise at any amplification the literature suggests, and can replace a strong one only if the amplification at cruise reaches the hundred that those low-speed experiments imply**, a quantitative version of the claim the programme was built to test.
 
@@ -465,13 +549,19 @@ At the reference condition the momentum coefficient is 0.000945, so **matching a
 
 An effector does not act on the whole wing. It acts on the region whose separation behaviour it changes. Let $S_\ell$ be that area in square metre, $C_{\mu,\ell}$ the local momentum coefficient, dimensionless, and $\kappa$ the concentration factor, dimensionless.
 
-$$ C_{\mu,\ell} = \frac{\dot{m}_j V_j}{q S_\ell}, \qquad \kappa = \frac{S}{S_\ell} = \frac{C_{\mu,\ell}}{C_\mu} $$
+$$
+ C_{\mu,\ell} = \frac{\dot{m}_j V_j}{q S_\ell}, \qquad \kappa = \frac{S}{S_\ell} = \frac{C_{\mu,\ell}}{C_\mu} 
+\tag{29}
+$$
 
 **The force is unchanged by that choice, a point that is easy to get wrong.** The force increment is $\mathcal{A} \dot{m}\_j V_j$, the amplification times the momentum supplied, and no reference area appears in it. **What the choice changes is which value of the amplification applies**, because the amplification is a function of the local momentum coefficient and not of the wing-referenced one. **Concentrating the air does not create force. It moves the device along its amplification curve.**
 
 Inverting for the area that lands a given local coefficient gives the relation the design has to satisfy.
 
-$$ S_\ell = \frac{\dot{m}_j V_j}{C_{\mu,\ell} \, q} $$
+$$
+ S_\ell = \frac{\dot{m}_j V_j}{C_{\mu,\ell} \, q} 
+\tag{30}
+$$
 
 | Target local momentum coefficient | What it is | Influenced area, square metre | Share of the wing | Concentration factor | Area per effector, square metre |
 |---|---|---|---|---|---|
@@ -485,7 +575,10 @@ $$ S_\ell = \frac{\dot{m}_j V_j}{C_{\mu,\ell} \, q} $$
 
 Because the momentum coefficient is exactly proportional to the bleed fraction, the inversion is one line. Let $C_\mu^{\,1}$ be the coefficient a bleed fraction of unity would give.
 
-$$ C_\mu = \beta \, C_\mu^{\,1} \quad \Longrightarrow \quad \beta_{\mathrm{req}} = \frac{C_\mu^{\,\mathrm{target}}}{C_\mu^{\,1}}, \qquad \beta_{\mathrm{req}} \le 1 $$
+$$
+ C_\mu = \beta \, C_\mu^{\,1} \quad \Longrightarrow \quad \beta_{\mathrm{req}} = \frac{C_\mu^{\,\mathrm{target}}}{C_\mu^{\,1}}, \qquad \beta_{\mathrm{req}} \le 1 
+\tag{31}
+$$
 
 **The last inequality is no convention. It states that the engine cannot bleed more core flow than it has**, and it decides which rows below are physical.
 
@@ -499,7 +592,10 @@ $$ C_\mu = \beta \, C_\mu^{\,1} \quad \Longrightarrow \quad \beta_{\mathrm{req}}
 
 **Reaching the lowest coefficient at which a lift response has been measured takes 6.77 percent of core flow, and a measured reattachment takes 28.78 percent.** Reaching the super-circulation threshold of three percent would take 253.95 percent of core flow, **or two and a half times the core flow the engine has**, and five percent would take 423.25 percent. The coefficient a bleed fraction of unity would deliver follows from the reference case, and each row is the target over it,
 
-$$ C_\mu^{\,1} = \frac{0.000945066}{0.08} = 0.0118133 , \qquad \frac{0.0008}{0.0118133} = 0.0677 , \qquad \frac{0.0034}{0.0118133} = 0.2878 , \qquad \frac{0.03}{0.0118133} = 2.5395 , \qquad \frac{0.05}{0.0118133} = 4.2325 . $$
+$$
+ C_\mu^{\,1} = \frac{0.000945066}{0.08} = 0.0118133 , \qquad \frac{0.0008}{0.0118133} = 0.0677 , \qquad \frac{0.0034}{0.0118133} = 0.2878 , \qquad \frac{0.03}{0.0118133} = 2.5395 , \qquad \frac{0.05}{0.0118133} = 4.2325 . 
+\tag{32}
+$$
 
 **So the assumed bleed fraction of 8 percent is slightly more than the lowest measured threshold needs and far short of super-circulation**, which places this aircraft's air budget in the separation-control regime by arithmetic rather than by assumption. **A control system changes a moment rather than a lift, which needs a local effect at a long moment arm, and the concentration factor is what makes that affordable.** The same arithmetic that forbids the first permits the second.
 
@@ -525,7 +621,10 @@ The regime boundary is defined phenomenologically as the coefficient that just s
 
 **Every figure so far has been a force and an aeroplane is commanded with moments.** The conversion is trivial, and it gives the meaning of the phrase above about a local effect at a long moment arm. Let $y$ be the moment arm in metre, $\mathcal{M}$ the moment in newton metre and $C_{\mathcal{M}}$ its coefficient on the span, dimensionless.
 
-$$ \mathcal{M} = \Delta L \, y = \mathcal{A} \, J \, y, \qquad C_{\mathcal{M}} = \frac{\mathcal{M}}{q \, S \, b} $$
+$$
+ \mathcal{M} = \Delta L \, y = \mathcal{A} \, J \, y, \qquad C_{\mathcal{M}} = \frac{\mathcal{M}}{q \, S \, b} 
+\tag{33}
+$$
 
 | Moment arm, metre | Moment at an amplification of thirty, newton metre | Moment coefficient on the span |
 |---|---|---|
@@ -536,7 +635,10 @@ $$ \mathcal{M} = \Delta L \, y = \mathcal{A} \, J \, y, \qquad C_{\mathcal{M}} =
 
 **The whole air budget at an amplification of thirty is 4,682 newton, and placed at a quarter of the span, being 2.286 metre, that is 10,703 newton metre or a rolling-moment coefficient of 0.00709.** The jet's own reaction, without any amplification, is 156.1 newton. With the dynamic pressure of 10,320.7 pascal at the reference condition and the span of 9.144 metre,
 
-$$ \mathcal{A} J = 30 \times 156.06 = 4{,}682 , \qquad \mathcal{M} = 4{,}682 \times 2.286 = 10{,}703 , \qquad C_{\mathcal{M}} = \frac{10{,}703}{10{,}320.7 \times 16 \times 9.144} = 0.00709 . $$
+$$
+ \mathcal{A} J = 30 \times 156.06 = 4{,}682 , \qquad \mathcal{M} = 4{,}682 \times 2.286 = 10{,}703 , \qquad C_{\mathcal{M}} = \frac{10{,}703}{10{,}320.7 \times 16 \times 9.144} = 0.00709 . 
+\tag{34}
+$$
 
 **This is why the moment arm does more work than the amplification in a control application, and why the effectors are on the outboard wings.** Doubling the arm doubles the moment for no extra air, where doubling the amplification requires a different flow regime. **A high-lift system has no such lever, because lift acts where it acts.**
 
@@ -546,7 +648,10 @@ $$ \mathcal{A} J = 30 \times 156.06 = 4{,}682 , \qquad \mathcal{M} = 4{,}682 \ti
 
 Let $\mathrm{VR}$ be the jet velocity ratio, dimensionless, with $V_\infty$ the free-stream velocity in metre per second.
 
-$$ \mathrm{VR} = \frac{V_j}{V_\infty} $$
+$$
+ \mathrm{VR} = \frac{V_j}{V_\infty} 
+\tag{35}
+$$
 
 **The condition the review reports is that the velocity ratio must exceed unity**, because otherwise the injected air reduces rather than increases the momentum the boundary layer carries, making separation more likely. **At the reference condition the jet leaves at 442 metre per second against a free stream of 212.2 metre per second, so the velocity ratio is 2.083.** At Mach 0.2 it is 7.29. **The condition is met across the envelope with margin.**
 
@@ -558,11 +663,17 @@ $$ \mathrm{VR} = \frac{V_j}{V_\infty} $$
 
 A choked orifice passes a mass flow set by its area and its plenum conditions. Let $A^{*}$ be the total throat area in square metre and $p_t$ the plenum total pressure in pascal.
 
-$$ \dot{m}_j = A^{*} \, \frac{p_t}{\sqrt{T_t}} \sqrt{\frac{\gamma}{R}} \left( \frac{\gamma+1}{2} \right)^{-\frac{\gamma+1}{2\left(\gamma-1\right)}} $$
+$$
+ \dot{m}_j = A^{*} \, \frac{p_t}{\sqrt{T_t}} \sqrt{\frac{\gamma}{R}} \left( \frac{\gamma+1}{2} \right)^{-\frac{\gamma+1}{2\left(\gamma-1\right)}} 
+\tag{36}
+$$
 
 The constant evaluates to 0.040415 in square-root kelvin second per metre. **The table below computes its inverse.**
 
-$$ A^{*} = \frac{\dot{m}_j \sqrt{T_t}}{p_t} \left[ \sqrt{\frac{\gamma}{R}} \left( \frac{\gamma+1}{2} \right)^{-\frac{\gamma+1}{2\left(\gamma-1\right)}} \right]^{-1} \; \propto \; \frac{1}{p_t} $$
+$$
+ A^{*} = \frac{\dot{m}_j \sqrt{T_t}}{p_t} \left[ \sqrt{\frac{\gamma}{R}} \left( \frac{\gamma+1}{2} \right)^{-\frac{\gamma+1}{2\left(\gamma-1\right)}} \right]^{-1} \; \propto \; \frac{1}{p_t} 
+\tag{37}
+$$
 
 **The area is inversely proportional to the plenum pressure at a fixed mass flow and depends on nothing else that varies**, so the last column of the table is exactly the reciprocal of the first.
 
@@ -577,7 +688,10 @@ $$ A^{*} = \frac{\dot{m}_j \sqrt{T_t}}{p_t} \left[ \sqrt{\frac{\gamma}{R}} \left
 
 **The momentum coefficient is identical in every row of that table, to twelve significant figures, and the throat area varies by a factor of 12.95 across it.** Since the area is inversely proportional to the plenum pressure,
 
-$$ \frac{A^{*}\left( 1.5 \right)}{A^{*}\left( 19.419 \right)} = \frac{19.419}{1.5} = 12.95 , \qquad \frac{A^{*}\left( 4 \right)}{A^{*}\left( 19.419 \right)} = \frac{19.419}{4} = 4.85 , $$
+$$
+ \frac{A^{*}\left( 1.5 \right)}{A^{*}\left( 19.419 \right)} = \frac{19.419}{1.5} = 12.95 , \qquad \frac{A^{*}\left( 4 \right)}{A^{*}\left( 19.419 \right)} = \frac{19.419}{4} = 4.85 , 
+\tag{38}
+$$
 
 where the argument is the nozzle pressure ratio. A choked jet's velocity depends on its plenum temperature alone, so regulating the plenum pressure down changes the orifice and changes nothing else. **The altitude result therefore survives any plenum schedule that keeps the nozzle choked**, a useful robustness, because no plenum pressure for this aircraft is published.
 
@@ -603,13 +717,19 @@ The NASA test report on the FJ44-3A, read in full, describes the engine's archit
 
 The geometric route passes the compressible mass flow through a circular face. Let $D_f$ be the fan diameter in metre and $M_f$ the axial Mach number at the face, dimensionless.
 
-$$ \frac{\dot{m}}{A} = \rho_f M_f a_f , \qquad \dot{m} = \frac{\pi D_f^2}{4} \cdot \frac{p_{\mathrm{sl}}}{\sqrt{T_{\mathrm{sl}}}} \sqrt{\frac{\gamma}{R}} \, M_f \, \sigma_f^{- \frac{\gamma+1}{2\left(\gamma-1\right)}} $$
+$$
+ \frac{\dot{m}}{A} = \rho_f M_f a_f , \qquad \dot{m} = \frac{\pi D_f^2}{4} \cdot \frac{p_{\mathrm{sl}}}{\sqrt{T_{\mathrm{sl}}}} \sqrt{\frac{\gamma}{R}} \, M_f \, \sigma_f^{- \frac{\gamma+1}{2\left(\gamma-1\right)}} 
+\tag{39}
+$$
 
 where the face quantities are the static conditions reached by expanding sea-level total conditions to $M_f$, and $\sigma_f$ is the total-condition factor at the face. **At a face Mach number of 0.55 that is 192.2 kilogram per second per square metre**, and the second form agrees with the first to one part in ten to the ninth.
 
 The thermodynamic route inverts the static thrust. **At static conditions there is no ram drag to subtract, so the thrust is exactly the exit momentum flux and the inversion is exact.** Let $F_{\mathrm{sls}}$ be the sea-level static thrust in newton and $V_e$ the exit velocity in metre per second.
 
-$$ F_{\mathrm{sls}} = \dot{m} V_e, \qquad \dot{m} = \frac{F_{\mathrm{sls}}}{V_e} $$
+$$
+ F_{\mathrm{sls}} = \dot{m} V_e, \qquad \dot{m} = \frac{F_{\mathrm{sls}}}{V_e} 
+\tag{40}
+$$
 
 | Route | Assumption swept | Mass flow, kilogram per second |
 |---|---|---|
@@ -621,13 +741,19 @@ $$ F_{\mathrm{sls}} = \dot{m} V_e, \qquad \dot{m} = \frac{F_{\mathrm{sls}}}{V_e}
 
 Bleed comes from the core, so the bypass ratio divides it. Let $B$ be the bypass ratio, dimensionless.
 
-$$ \dot{m}_{\mathrm{core}} = \frac{\dot{m}_{\mathrm{total}}}{1 + B}, \qquad \frac{\dot{m}_j}{\dot{m}_{\mathrm{total}}} = \frac{\beta}{1 + B} $$
+$$
+ \dot{m}_{\mathrm{core}} = \frac{\dot{m}_{\mathrm{total}}}{1 + B}, \qquad \frac{\dot{m}_j}{\dot{m}_{\mathrm{total}}} = \frac{\beta}{1 + B} 
+\tag{41}
+$$
 
 **At an assumed bypass ratio of 3.3 the core flow is 10.0 kilogram per second, and a bleed fraction of 8 percent of core flow gives 0.3530 kilogram per second of air at 584 kelvin leaving at 442 metre per second.** As a share of total engine flow that bleed is 1.860 percent.
 
 **That share is also a lower bound on the thrust the bleed costs, and a lower bound is all that is claimed.** The bled air is gone from the exhaust, so at minimum its share of the momentum flux is lost.
 
-$$ \frac{\delta F}{F} \ge \frac{\beta}{1 + B} = 1.860 \text{ percent} $$
+$$
+ \frac{\delta F}{F} \ge \frac{\beta}{1 + B} = 1.860 \text{ percent} 
+\tag{42}
+$$
 
 **The true figure is larger and remains uncomputed**, because the compressor work of 334.1 kilojoule per kilogram is also wasted and the turbine has less flow with which to drive the fan. **The inequality is the defensible statement, and the gap between it and the truth is the size of the cycle rematching**, which needs an engine deck.
 
@@ -639,7 +765,10 @@ $$ \frac{\delta F}{F} \ge \frac{\beta}{1 + B} = 1.860 \text{ percent} $$
 
 The fluid-mechanical frequency is set by the convective time over the surface being controlled. Let $F^{+}$ be the reduced frequency, dimensionless, $f_e$ the excitation frequency in hertz, $\bar{c}$ the reference chord in metre and $V_\infty$ the free-stream velocity in metre per second.
 
-$$ F^{+} = \frac{f_e \, \bar{c}}{V_\infty}, \qquad f_e = \frac{F^{+} V_\infty}{\bar{c}} $$
+$$
+ F^{+} = \frac{f_e \, \bar{c}}{V_\infty}, \qquad f_e = \frac{F^{+} V_\infty}{\bar{c}} 
+\tag{43}
+$$
 
 **The band is not this article's guess.** A comprehensive analysis of airfoil flow-control studies reports that in the majority of cases the optimal reduced frequency for controlling post-stall separation falls between 0.3 and 4, and the same range applies to an excited shear layer and to a deflected flap \[[Abdolahipour 2024][research_review_afc_2024]\]. **Individual optima reported in that review cluster near unity**, at 0.65, 0.8, 0.85, 1.284, 1.3 and 1.5 in six separate studies, with one at 6 where the target was a separation bubble. **There is also evidence that reduced frequencies of ten and twenty work**, which the review attributes to a different group and explains by the spread of surface curvature, upstream conditions and excitation method across experiments.
 
@@ -668,7 +797,10 @@ The aircraft is described as a joined tandem wing in a diamond configuration wit
 
 No wing area is published. The relations that turn a span and an area into the quantities the tables below carry are elementary. Let $b$ be the span in metre, $AR$ the aspect ratio, dimensionless, $W$ the weight in newton and $W/S$ the wing loading in pascal.
 
-$$ \bar{c} = \frac{S}{b}, \qquad AR = \frac{b^2}{S} = \frac{b}{\bar{c}}, \qquad \frac{W}{S}, \qquad C_L = \frac{W}{q S} = \frac{W/S}{q} $$
+$$
+ \bar{c} = \frac{S}{b}, \qquad AR = \frac{b^2}{S} = \frac{b}{\bar{c}}, \qquad \frac{W}{S}, \qquad C_L = \frac{W}{q S} = \frac{W/S}{q} 
+\tag{44}
+$$
 
 **At a reference area of 16 square metres and the published span the mean chord is 1.750 metre, the aspect ratio 5.226, the wing loading 2.00 kilopascal and the lift coefficient in level flight at Mach 0.7 and thirty thousand feet 0.1939.** The thrust-to-weight ratio on the contractor's weight is 0.4167 and the engine is 7.29 percent of it.
 
@@ -707,7 +839,10 @@ A joined tandem wing carries lift on two surfaces, so a single reference area is
 
 The configuration count is a power of two and the flight count is a ceiling. Let $n_s$ be the number of conventional surfaces, $n_w$ the number of wing sets, $N_c$ the configuration count and $N_f$ the flights needed at $k$ usable test points each.
 
-$$ N_c = 2^{n_s} n_w, \qquad N_f = \left\lceil \frac{N_2}{k} \right\rceil $$
+$$
+ N_c = 2^{n_s} n_w, \qquad N_f = \left\lceil \frac{N_2}{k} \right\rceil 
+\tag{45}
+$$
 
 | Quantity | Count |
 |---|---|
@@ -727,11 +862,17 @@ $$ N_c = 2^{n_s} n_w, \qquad N_f = \left\lceil \frac{N_2}{k} \right\rceil $$
 
 Let $n$ be the number of effectors, dimensionless, and $n_a$ the number of axes. A linear model in which effectors superpose has one control derivative per effector per axis.
 
-$$ N_1 = n \, n_a $$
+$$
+ N_1 = n \, n_a 
+\tag{46}
+$$
 
 A model that allows every pair of effectors to interact adds one term per pair.
 
-$$ N_2 = n_a \left( n + \binom{n}{2} \right) = n_a \left( n + \frac{n \left( n - 1 \right)}{2} \right) $$
+$$
+ N_2 = n_a \left( n + \binom{n}{2} \right) = n_a \left( n + \frac{n \left( n - 1 \right)}{2} \right) 
+\tag{47}
+$$
 
 **For fourteen effectors on three axes that is 42 derivatives in the linear case and 315 terms with every pairwise interaction included.** At thirty usable test points per flight, identifying the full second-order model needs about eleven flights. **A hundred flights would visit 0.61 percent of the lock-out configurations and would over-determine the second-order model many times over.**
 
@@ -745,17 +886,26 @@ $$ N_2 = n_a \left( n + \binom{n}{2} \right) = n_a \left( n + \frac{n \left( n -
 
 **The problem has a standard form.** Let $\mathbf{u}$ be the vector of effector demands, dimensionless and of length $n_e$, $\mathbf{B}$ the control effectiveness matrix of three rows and $n_e$ columns, and $\mathbf{m}$ the demanded moment vector in newton metre.
 
-$$ \mathbf{m} = \mathbf{B} \mathbf{u}, \qquad \mathbf{u} \in \mathcal{U} $$
+$$
+ \mathbf{m} = \mathbf{B} \mathbf{u}, \qquad \mathbf{u} \in \mathcal{U} 
+\tag{48}
+$$
 
 **Three axes can be commanded at all only if the effectiveness matrix has full row rank**, so a lock-out that reduces the rank below three removes an axis entirely rather than weakening it.
 
-$$ \operatorname{rank} \mathbf{B} = 3 $$
+$$
+ \operatorname{rank} \mathbf{B} = 3 
+\tag{49}
+$$
 
 **The reachable set is the image of the admissible set**, being $\mathbf{B} \mathcal{U}$, and in that image this aircraft differs from the classical case.
 
 **For this aircraft the admissible set has a feature the classical version does not.** Conventional surfaces are constrained individually, each by its own deflection and rate limits, which makes $\mathcal{U}$ a box. **The flow-control effectors are constrained collectively, because they share one plenum.** Commanding two effectors hard at once does not cost twice the deflection, it costs twice the air, and the air is one budget.
 
-$$ \mathcal{U}_{\mathrm{box}} = \left\{ \mathbf{u} : 0 \le u_i \le \bar{u} \right\}, \qquad \mathcal{U}_{\mathrm{plenum}} = \left\{ \mathbf{u} : u_i \ge 0, \; \sum_i u_i \le \bar{u} \right\} $$
+$$
+ \mathcal{U}_{\mathrm{box}} = \left\{ \mathbf{u} : 0 \le u_i \le \bar{u} \right\}, \qquad \mathcal{U}_{\mathrm{plenum}} = \left\{ \mathbf{u} : u_i \ge 0, \; \sum_i u_i \le \bar{u} \right\} 
+\tag{50}
+$$
 
 **The first is a box and the second is a simplex, and their images are different shapes.** The image of a box under a linear map is a zonotope, being the Minkowski sum of segments along the columns. **The image of a simplex is the convex hull of the images of its vertices**, which for a simplex with a vertex at the origin is the hull of the origin together with the columns.
 
@@ -765,7 +915,10 @@ $$ \mathcal{U}_{\mathrm{box}} = \left\{ \mathbf{u} : 0 \le u_i \le \bar{u} \righ
 
 For a tractable case take two axes and $n_e$ effectors whose columns are unit vectors spread evenly over a half plane, a half plane because an effector that can only blow has one-sided authority. The zonotope and hull areas then have closed forms.
 
-$$ \operatorname{area} \mathcal{Z} = \sum_{i < j} \left\lvert \det \left( \mathbf{b}_i , \mathbf{b}_j \right) \right\rvert, \qquad \operatorname{area} \mathcal{H} = \tfrac{1}{2} \sum_i \left\lvert \det \left( \mathbf{b}_i , \mathbf{b}_{i+1} \right) \right\rvert $$
+$$
+ \operatorname{area} \mathcal{Z} = \sum_{i < j} \left\lvert \det \left( \mathbf{b}_i , \mathbf{b}_j \right) \right\rvert, \qquad \operatorname{area} \mathcal{H} = \tfrac{1}{2} \sum_i \left\lvert \det \left( \mathbf{b}_i , \mathbf{b}_{i+1} \right) \right\rvert 
+\tag{51}
+$$
 
 | Effectors | Independent, each at the full supply | Shared supply, demands summing to the supply | Independent, each at an equal share of one supply | Shared over equal shares |
 |---|---|---|---|---|
@@ -778,7 +931,10 @@ $$ \operatorname{area} \mathcal{Z} = \sum_{i < j} \left\lvert \det \left( \mathb
 
 **At fourteen effectors the shared plenum reaches 4.9360 times the moment area that equal fixed shares of the same total supply would reach**, and the ratio converges. **It converges to an exact closed form.** As the effector count grows the hull tends to a half disc and the equal-share zonotope tends to the reciprocal of pi, so
 
-$$ \lim_{n_e \to \infty} \frac{\operatorname{area} \mathcal{H}}{\operatorname{area} \mathcal{Z} / n_e^2} = \frac{\pi / 2}{1 / \pi} = \frac{\pi^2}{2} = 4.9348 $$
+$$
+ \lim_{n_e \to \infty} \frac{\operatorname{area} \mathcal{H}}{\operatorname{area} \mathcal{Z} / n_e^2} = \frac{\pi / 2}{1 / \pi} = \frac{\pi^2}{2} = 4.9348 
+\tag{52}
+$$
 
 **At a hundred effectors the computed areas are 1.5708 and 0.31831, and the computed ratio is within a part in ten thousand of the limit.**
 
@@ -804,7 +960,10 @@ The record of what was planned is as follows. Fabrication was under way at facil
 
 The quantity tabulated against each year is the outcome against the request, expressed as a fraction so that years of different size are comparable. Let $r$ be the request and $o$ the outcome, both in dollars.
 
-$$ \frac{o - r}{r} $$
+$$
+ \frac{o - r}{r} 
+\tag{53}
+$$
 
 | Fiscal year | Requested | Later estimated | Finally recorded | Outcome against request |
 |---|---|---|---|---|
@@ -818,11 +977,17 @@ $$ \frac{o - r}{r} $$
 
 **The first year came in 81.33 percent above its request and every year since has come in below.** Fiscal year 2020 was requested at 13.000 million dollars, estimated at 20.000 and recorded at 23.573. **From fiscal year 2021 to fiscal year 2025 the programme was funded below its request five times out of five, at a mean shortfall of 16.29 percent.** The worst single year is fiscal year 2023, requested at 52.685 million and recorded at 40.565 million, which is -23.00 percent. The first figure and the mean of the five shortfalls are
 
-$$ \frac{23.573 - 13.000}{13.000} = 0.8133 , \qquad \frac{0.0554 + 0.1930 + 0.2300 + 0.1401 + 0.1959}{5} = 0.1629 . $$
+$$
+ \frac{23.573 - 13.000}{13.000} = 0.8133 , \qquad \frac{0.0554 + 0.1930 + 0.2300 + 0.1401 + 0.1959}{5} = 0.1629 . 
+\tag{54}
+$$
 
 **Across fiscal years 2020 to 2025 the programme asked for 196.507 million dollars and is expected to receive 175.416 million, a shortfall of 10.73 percent, and counting the fiscal year 2026 request of 4.000 million in both the totals are 200.507 and 179.416 million.** Appropriations through fiscal year 2024 total 151.523 million dollars against 143,556,412 dollars obligated across the four contracts, a ratio of 1.0555, **the right sort of agreement, because obligations lag appropriations**. Summing the table's columns,
 
-$$ \sum_{2020}^{2025} r = 196.507 , \qquad \sum_{2020}^{2025} o = 175.416 , \qquad 1 - \frac{175.416}{196.507} = 0.1073 , \qquad \sum_{2020}^{2024} o = 151.523 , \qquad \frac{151.523 \times 10^{6}}{143{,}556{,}412} = 1.0555 , \qquad \frac{4.000}{38.264} = 0.1045 . $$
+$$
+ \sum_{2020}^{2025} r = 196.507 , \qquad \sum_{2020}^{2025} o = 175.416 , \qquad 1 - \frac{175.416}{196.507} = 0.1073 , \qquad \sum_{2020}^{2024} o = 151.523 , \qquad \frac{151.523 \times 10^{6}}{143{,}556{,}412} = 1.0555 , \qquad \frac{4.000}{38.264} = 0.1045 . 
+\tag{55}
+$$
 
 **The fiscal year 2026 request is 4.000 million, equal to 10.5 percent of what fiscal year 2024 received.** It is also the only round number in the series, every other figure carrying three decimal places. **A round number among precise ones is the signature of a placeholder.**
 
@@ -1046,7 +1211,10 @@ DARPA's release opens by observing that in December 1903 the Wright brothers fle
 
 The Reynolds number on a chord is the ratio of inertial to viscous forces. Let $\mathrm{Re}$ be that number, dimensionless, and $\mu$ the dynamic viscosity in pascal second, which for air follows Sutherland's law with constants $C_1$ in kilogram per metre second per root kelvin and $S_\mu$ in kelvin.
 
-$$ \mathrm{Re} = \frac{\rho V \bar{c}}{\mu}, \qquad \mu\left( T \right) = \frac{C_1 \, T^{3/2}}{T + S_\mu} $$
+$$
+ \mathrm{Re} = \frac{\rho V \bar{c}}{\mu}, \qquad \mu\left( T \right) = \frac{C_1 \, T^{3/2}}{T + S_\mu} 
+\tag{56}
+$$
 
 with $C_1$ of $1.458 \times 10^{-6}$ and $S_\mu$ of 110.4 kelvin. **That returns 1.7894 times ten to the minus five pascal second at sea level.** **At Mach 0.7 and thirty thousand feet on a chord of 1.750 metre the X-65A flies at 11.44 million.**
 
@@ -1078,11 +1246,17 @@ The Reynolds numbers in the first column are those the review reports for each s
 
 **The wing-referenced coefficient this article computes, 0.0945 percent, sits inside the range that report used, 0.03 to 0.32 percent.** It reaches two of the five quoted cases with no concentration at all, and the largest needs a factor of 3.39. **The report states its own uncertainty on that coefficient as plus or minus 25 percent of the quoted values** \[[Seifert and Pack 2000a][research_seifert_pack_2000]\], a primary-sourced error bar and not an assumption of this analysis. The third column is the computed coefficient over the quoted one and the fourth is its reciprocal where that exceeds one, so at the two ends of the range
 
-$$ \frac{0.0945}{0.03} = 3.150 , \qquad \frac{0.32}{0.0945} = 3.39 . $$
+$$
+ \frac{0.0945}{0.03} = 3.150 , \qquad \frac{0.32}{0.0945} = 3.39 . 
+\tag{57}
+$$
 
 **At that report's Mach number of 0.25 the bleed budget delivers 0.5579 percent, 1.74 times its highest quoted value.** So the air budget is not marginal at the condition where the method was demonstrated. **It is marginal only where this aircraft wants to fly**, and the factor of 5.903 between the two is the Mach dependence derived above and nothing else.
 
-$$ C_\mu\left( 0.25 \right) = 0.000945066 \times \frac{G\left( 0.25 \right)}{G\left( 0.7 \right)} = 0.000945066 \times \frac{16.711}{2.8308} = 0.005579 , \qquad \frac{0.5579}{0.32} = 1.74 $$
+$$
+ C_\mu\left( 0.25 \right) = 0.000945066 \times \frac{G\left( 0.25 \right)}{G\left( 0.7 \right)} = 0.000945066 \times \frac{16.711}{2.8308} = 0.005579 , \qquad \frac{0.5579}{0.32} = 1.74 
+\tag{58}
+$$
 
 ### And the Primary Names This Article's Keystone as the Open Problem
 
@@ -1290,6 +1464,562 @@ The momentum a bleed-fed effector can deliver is **exactly independent of altitu
 **None of it has flown.** The programme has asked for 200.507 million dollars across seven budget years and expects 179.416 million, has been funded below its request in every year since fiscal year 2021 at a mean shortfall of 16.29 percent, promised its critical design review in four consecutive books for three different fiscal years, and was paused and restructured into an arrangement the federal award record cannot represent. **Its period of performance expired 69 days before this article's dateline with the fuselage unfinished.**
 
 **The last thing to say is about the programme's name.** It is called CRANE, for Control of Revolutionary Aircraft with Novel Effectors, and its acronym returns a logging-crane fatality, a book of rhymes and an illustrated book by Walter Crane. The phrase `novel effectors` returns fungal pathogens. **The words that find this aircraft's actual prior art are `hingeless control effectors`, which no document this article read from the programme uses**, and even those mean helicopter rotor hubs if you ask the wrong registry. **An aircraft meant to break a century-old paradigm was given a name under which the work it descends from cannot be found.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 58 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 58, 33 are established and 25 are bespoke.
+The aerodynamic and engine relations are evaluated in the International System, with thirty thousand feet taken as a geopotential altitude of 9,144 metres and the aircraft weight quoted in pounds, the wing area of 16 square metres is a reference value the article takes because none is published, and a few letters need care, so $\delta$ is a compressor-face pressure ratio while $\delta F$ is a thrust decrement, $\mu$ is the dynamic viscosity while the subscript in $C_\mu$ marks the momentum coefficient, $B$ is the bypass ratio while the bold $\mathbf{B}$ is the control effectiveness matrix, and $\mathcal{A}$ is the amplification while $A^{*}$ and $A$ are areas.
+
+**Equation 1, Spread of the Published Weights.**
+The contractor's gross weight of 7,200 pounds exceeds the 7,000 pounds given elsewhere by 2.86 percent of the lower figure.
+[X-65 experimental aircraft][ref_aurora_x65]
+[Aurora X-65 CRANE][ref_ds_x65]
+
+$$
+ \frac{7{,}200 - 7{,}000}{7{,}000} = 0.0286 , 
+\tag{1}
+$$
+
+**Equation 2, Unexercised Share of the Georgia Tech Ceiling.**
+One less the ratio of obligation to ceiling shows that 45.1 percent of the Georgia Tech Research Corporation ceiling was never exercised.
+[USAspending][ref_usaspending]
+
+$$
+ 1 - \frac{6{,}795{,}148}{12{,}376{,}510} = \frac{5{,}581{,}362}{12{,}376{,}510} = 0.451 . 
+\tag{2}
+$$
+
+**Equation 3, Aurora's Share of the Early Contracts and the Total Obligation.**
+Aurora took 48.4 percent of the obligations across the three early contracts and left 16.1 percent of its ceiling unexercised, and the four contracts total 143,556,412 dollars.
+[USAspending][ref_usaspending]
+
+$$
+ \frac{23{,}811{,}305}{49{,}184{,}174} = 0.484 , \qquad 1 - \frac{23{,}811{,}305}{28{,}368{,}394} = \frac{4{,}557{,}089}{28{,}368{,}394} = 0.161 , \qquad 49{,}184{,}174 + 94{,}372{,}238 = 143{,}556{,}412 , 
+\tag{3}
+$$
+
+**Equation 4, Phase 3 Obligation Against the Announced Value.**
+The obligated total on the combined Phase 2 and Phase 3 contract is 2.25 times the announced Phase 2 value, and the first obligation was 6.89 percent of it.
+[USAspending][ref_usaspending]
+
+$$
+ \frac{94{,}372{,}238}{42{,}000{,}000} = 2.25 , \qquad \frac{6{,}500{,}000}{94{,}372{,}238} = 0.0689 . 
+\tag{4}
+$$
+
+**Equation 5, Jet Momentum Flux and Momentum Coefficient.**
+The momentum coefficient is the jet momentum flux divided by the free-stream dynamic pressure times a reference area.
+[Abdolahipour 2024][research_review_afc_2024]
+
+$$
+ J = \dot{m}_j V_j, \qquad C_\mu = \frac{J}{q S} 
+\tag{5}
+$$
+
+**Equation 6, Aerodynamic Force Increment.**
+The force increment is the lift-coefficient increment times the dynamic pressure and the reference area.
+
+$$
+ \Delta L = \Delta C_L \, q S 
+\tag{6}
+$$
+
+**Equation 7, Amplification as Force per Unit Jet Momentum.**
+The amplification, the force produced per unit of jet momentum supplied, is the lift-coefficient increment over the momentum coefficient, with the flight condition cancelling.
+
+$$
+ \mathcal{A} = \frac{\Delta L}{\dot{m}_j V_j} = \frac{\Delta C_L \, q S}{C_\mu \, q S} = \frac{\Delta C_L}{C_\mu} 
+\tag{7}
+$$
+
+**Equation 8, Secant Amplification Against the Actuation Efficiency.**
+The amplification is the secant of the lift response curve while the actuation efficiency reported in the literature is its tangent.
+[Abdolahipour 2024][research_review_afc_2024]
+
+$$
+ \mathcal{A} = \frac{\Delta C_L}{C_\mu} \quad \text{against} \quad \mathcal{A}_{\mathrm{loc}} = \frac{\mathrm{d} \, \Delta C_L}{\mathrm{d} C_\mu} 
+\tag{8}
+$$
+
+**Equation 9, Three Regimes of the Lift Response to Blowing.**
+The actuation efficiency is near zero below a threshold momentum coefficient, large in the separation-control band and tends to one once the flow is fully attached.
+[Abdolahipour 2024][research_review_afc_2024]
+
+$$
+ \mathcal{A}_{\mathrm{loc}} \approx 0 \;\; \text{for} \;\; C_\mu < C_{\mu,0}, \qquad \mathcal{A}_{\mathrm{loc}} \gg 1 \;\; \text{for} \;\; C_{\mu,0} < C_\mu < C_{\mu,1}, \qquad \mathcal{A}_{\mathrm{loc}} \to 1 \;\; \text{for} \;\; C_\mu > C_{\mu,1} 
+\tag{9}
+$$
+
+*Equation 10, Bespoke Bleed Mass Flow at Fixed Corrected Spool Speed.*
+Holding the engine at a fixed corrected spool speed, as the article assumes, makes the bled mass flow the bleed fraction times the reference flow times the corrected-flow factor of the compressor face.
+
+$$
+ \dot{m}_j = \beta \, \dot{m}_{\mathrm{ref}} \, \frac{\delta}{\sqrt{\theta}} 
+\tag{10}
+$$
+
+**Equation 11, Mass Flow of a Compressor at Fixed Shaft Power.**
+A compressor driven at a fixed shaft power passes a mass flow equal to that power over the specific heat times the total-temperature rise.
+
+$$
+ \dot{m}_j = \frac{P}{c_p \, \Delta T} 
+\tag{11}
+$$
+
+**Equation 12, Troposphere Temperature and Pressure.**
+The temperature falls linearly with geopotential altitude and the pressure follows by integrating the hydrostatic relation against the ideal gas law.
+
+$$
+ T\left( h \right) = T_{\mathrm{sl}} + \lambda h, \qquad p\left( h \right) = p_{\mathrm{sl}} \left( \frac{T\left( h \right)}{T_{\mathrm{sl}}} \right)^{- \frac{g_0}{\lambda R}} 
+\tag{12}
+$$
+
+**Equation 13, Stratosphere Pressure, Density and Speed of Sound.**
+Above the tropopause the pressure falls exponentially at constant temperature, the density follows from the ideal gas law and the speed of sound from the temperature.
+
+$$
+ p\left( h \right) = p_{\mathrm{trop}} \exp\left( - \frac{g_0 \left( h - h_{\mathrm{trop}} \right)}{R \, T_{\mathrm{trop}}} \right), \qquad \rho = \frac{p}{R T}, \qquad a = \sqrt{\gamma R T} 
+\tag{13}
+$$
+
+**Equation 14, Dynamic Pressure in Pressure and Mach Number.**
+The dynamic pressure is exactly half the ratio of specific heats times the static pressure times the square of the Mach number.
+
+$$
+ q = \tfrac{1}{2} \rho V^2 = \tfrac{1}{2} \rho \, \gamma R T M^2 = \tfrac{\gamma}{2} \, p \, M^2 
+\tag{14}
+$$
+
+**Equation 15, Total Conditions at the Compressor Face.**
+With full inlet recovery the compressor-face total pressure and temperature follow from the flight Mach number, and are normalised on sea-level standard values.
+
+$$
+ p_{t} = p \, \sigma^{\frac{\gamma}{\gamma-1}}, \qquad T_{t} = T \sigma, \qquad \delta = \frac{p_t}{p_{\mathrm{sl}}}, \qquad \theta = \frac{T_t}{T_{\mathrm{sl}}} 
+\tag{15}
+$$
+
+**Equation 16, Corrected Mass Flow Invariant.**
+At a fixed corrected spool speed a turbomachine passes a fixed corrected mass flow.
+
+$$
+ \dot{m} \frac{\sqrt{\theta}}{\delta} = \text{constant} 
+\tag{16}
+$$
+
+**Equation 17, Compressor Temperature Ratio and Specific Work.**
+The total-temperature ratio of a compressor follows from its pressure ratio and isentropic efficiency, and the specific work from that ratio.
+
+$$
+ \tau = 1 + \frac{\pi_c^{\frac{\gamma-1}{\gamma}} - 1}{\eta_c}, \qquad w_c = c_p \, T_{t} \left( \tau - 1 \right) 
+\tag{17}
+$$
+
+**Equation 18, Choking Condition and Choked Jet Velocity.**
+A nozzle above the critical pressure ratio passes sonic flow at its throat, with a jet velocity set by the plenum total temperature alone.
+
+$$
+ \frac{p_{t}}{p} \ge \left( \frac{\gamma + 1}{2} \right)^{\frac{\gamma}{\gamma - 1}} \approx 1.8929, \qquad V_j = \sqrt{\frac{2 \gamma R \, T_{t}}{\gamma + 1}} 
+\tag{18}
+$$
+
+*Equation 19, Bespoke Plenum Total Temperature of Bled Air.*
+Taking the plenum at the compressor discharge temperature with no loss on the way, as the article does, gives the plenum total temperature from the flight Mach number and the compressor pressure ratio and efficiency.
+
+$$
+ \sigma = 1 + \frac{\gamma - 1}{2} M^2, \qquad T_{t} = T \sigma \left( 1 + \frac{\pi_c^{\frac{\gamma-1}{\gamma}} - 1}{\eta_c} \right) 
+\tag{19}
+$$
+
+*Equation 20, Bespoke Nozzle Pressure Ratio of the Bleed System.*
+Taking the plenum at the compressor discharge pressure with no duct loss gives a nozzle pressure ratio that depends on the compressor pressure ratio and the Mach number alone.
+
+$$
+ \mathrm{NPR} = \frac{\pi_c \, p_t}{p} = \pi_c \, \sigma^{\frac{\gamma}{\gamma-1}} 
+\tag{20}
+$$
+
+*Equation 21, Bespoke Momentum Coefficient of an Engine-Bled Effector System.*
+Assembling the article's bleed flow at fixed corrected speed, the choked jet velocity and the dynamic pressure gives a momentum coefficient from which altitude and ambient temperature cancel.
+
+$$
+ C_\mu = \frac{2 \beta \, \dot{m}_{\mathrm{ref}}}{\gamma \, p_{\mathrm{sl}} \, S} \sqrt{\frac{2 \gamma R \, T_{\mathrm{sl}} \, \tau}{\gamma + 1}} \; \cdot \; \frac{\sigma^{\frac{\gamma}{\gamma-1}}}{M^2} 
+\tag{21}
+$$
+
+*Equation 22, Bespoke Mach-Number Factor of the Bleed-Fed Momentum Coefficient.*
+The Mach dependence surviving in the article's bleed-fed momentum coefficient is the inlet total-pressure factor over the square of the Mach number.
+
+$$
+ G\left( M \right) = \frac{\sigma^{\frac{\gamma}{\gamma-1}}}{M^2} = \frac{\left( 1 + 0.2 M^2 \right)^{3.5}}{M^2} 
+\tag{22}
+$$
+
+*Equation 23, Bespoke Turning Point of the Mach Factor.*
+Differentiating the logarithm of the article's Mach factor shows that it has its minimum at Mach $\sqrt{2}$ whatever the ratio of specific heats.
+
+$$
+ \frac{\mathrm{d} \ln G}{\mathrm{d} M} = \frac{\gamma}{\gamma - 1} \cdot \frac{\sigma'}{\sigma} - \frac{2}{M} = \frac{\gamma M}{\sigma} - \frac{2}{M} 
+\tag{23}
+$$
+
+*Equation 24, Bespoke Minimum Value of the Mach Factor.*
+At Mach $\sqrt{2}$ the inlet factor equals the ratio of specific heats, which gives the minimum of the article's Mach factor in closed form.
+
+$$
+ G_{\min} = \frac{\gamma^{\frac{\gamma}{\gamma-1}}}{2} = 1.6234 
+\tag{24}
+$$
+
+*Equation 25, Bespoke Authority Ratio of Flow Control to a Conventional Surface.*
+The article defines the authority ratio as the force of a flow-control effector over that of a conventional surface at full deflection, from which the dynamic pressure cancels.
+
+$$
+ \Lambda = \frac{\Delta L_{\mathrm{AFC}}}{\Delta L_{\mathrm{conv}}} = \frac{\mathcal{A} \, C_\mu \, q S}{\Delta C_{L,\mathrm{conv}} \, q S} = \frac{\mathcal{A} \, C_\mu}{\Delta C_{L,\mathrm{conv}}} 
+\tag{25}
+$$
+
+*Equation 26, Bespoke Crossover Mach Number.*
+The article's crossover is the Mach number at which its authority ratio reaches one, found from the Mach factor relative to a reference condition.
+
+$$
+ \Lambda\left( M_{\times} \right) = 1 \quad \Longleftrightarrow \quad \mathcal{A} \, C_\mu\left( M_{\times} \right) = \Delta C_{L,\mathrm{conv}} \quad \Longleftrightarrow \quad G\left( M_{\times} \right) = \frac{\Delta C_{L,\mathrm{conv}}}{\mathcal{A}} \cdot \frac{G\left( M_{0} \right)}{C_\mu\left( M_{0} \right)} 
+\tag{26}
+$$
+
+*Equation 27, Bespoke Authority Ratio at an Assumed Amplification of Thirty.*
+Taking an amplification of 30 against a conventional surface worth 0.05 in lift coefficient, both values the article assumes, gives 56.7 percent of the hinge's authority at Mach 0.7 and a crossover at Mach 0.485.
+
+$$
+ \Lambda\left( 0.7 \right) = \frac{30 \times 0.000945066}{0.05} = 0.567 , \qquad \Lambda\left( 0.2 \right) = 0.567 \times \frac{G\left( 0.2 \right)}{G\left( 0.7 \right)} = 0.567 \times \frac{25.7070}{2.8308} = 5.15 , \qquad G\left( M_{\times} \right) = \frac{0.05}{30} \cdot \frac{2.8308}{0.000945066} = 4.992 , 
+\tag{27}
+$$
+
+*Equation 28, Bespoke Amplification Required To Match a Conventional Surface.*
+Inverting the authority ratio gives the amplification needed for the article's momentum coefficient to match a conventional surface.
+
+$$
+ \mathcal{A}_{\mathrm{req}} = \frac{\Delta C_{L,\mathrm{conv}}}{C_\mu} 
+\tag{28}
+$$
+
+*Equation 29, Bespoke Local Momentum Coefficient and Concentration Factor.*
+The article references the momentum coefficient to the area one effector influences and defines the concentration factor as the wing area over that area.
+
+$$
+ C_{\mu,\ell} = \frac{\dot{m}_j V_j}{q S_\ell}, \qquad \kappa = \frac{S}{S_\ell} = \frac{C_{\mu,\ell}}{C_\mu} 
+\tag{29}
+$$
+
+*Equation 30, Bespoke Influenced Area for a Target Local Coefficient.*
+Inverting the article's local momentum coefficient gives the area over which a given jet momentum lands a target value.
+
+$$
+ S_\ell = \frac{\dot{m}_j V_j}{C_{\mu,\ell} \, q} 
+\tag{30}
+$$
+
+*Equation 31, Bespoke Bleed Fraction Required for a Target Momentum Coefficient.*
+Because the article's momentum coefficient is proportional to the bleed fraction, the fraction needed for a target coefficient is that target over the coefficient a bleed of unity would give, which cannot exceed one.
+
+$$
+ C_\mu = \beta \, C_\mu^{\,1} \quad \Longrightarrow \quad \beta_{\mathrm{req}} = \frac{C_\mu^{\,\mathrm{target}}}{C_\mu^{\,1}}, \qquad \beta_{\mathrm{req}} \le 1 
+\tag{31}
+$$
+
+*Equation 32, Bespoke Bleed Fractions for the Measured Thresholds.*
+Scaling from the reference case at an assumed bleed fraction of 8 percent, the lowest measured threshold needs 6.77 percent of core flow and the super-circulation threshold of three percent needs 254 percent.
+
+$$
+ C_\mu^{\,1} = \frac{0.000945066}{0.08} = 0.0118133 , \qquad \frac{0.0008}{0.0118133} = 0.0677 , \qquad \frac{0.0034}{0.0118133} = 0.2878 , \qquad \frac{0.03}{0.0118133} = 2.5395 , \qquad \frac{0.05}{0.0118133} = 4.2325 . 
+\tag{32}
+$$
+
+**Equation 33, Control Moment and Moment Coefficient.**
+A force increment at a moment arm produces a moment, and dividing by dynamic pressure, wing area and span gives its coefficient.
+
+$$
+ \mathcal{M} = \Delta L \, y = \mathcal{A} \, J \, y, \qquad C_{\mathcal{M}} = \frac{\mathcal{M}}{q \, S \, b} 
+\tag{33}
+$$
+
+*Equation 34, Bespoke Rolling Moment at an Amplification of Thirty.*
+The article's air budget at an assumed amplification of 30, placed at a quarter of the span on the assumed reference area of 16 square metres, gives a rolling-moment coefficient of 0.00709.
+
+$$
+ \mathcal{A} J = 30 \times 156.06 = 4{,}682 , \qquad \mathcal{M} = 4{,}682 \times 2.286 = 10{,}703 , \qquad C_{\mathcal{M}} = \frac{10{,}703}{10{,}320.7 \times 16 \times 9.144} = 0.00709 . 
+\tag{34}
+$$
+
+**Equation 35, Jet Velocity Ratio.**
+The jet velocity ratio is the jet velocity over the free-stream velocity, which must exceed one for blowing to energise the boundary layer.
+[Abdolahipour 2024][research_review_afc_2024]
+
+$$
+ \mathrm{VR} = \frac{V_j}{V_\infty} 
+\tag{35}
+$$
+
+**Equation 36, Mass Flow Through a Choked Orifice.**
+A choked orifice passes a mass flow proportional to its throat area and plenum total pressure and inversely proportional to the square root of the plenum total temperature.
+
+$$
+ \dot{m}_j = A^{*} \, \frac{p_t}{\sqrt{T_t}} \sqrt{\frac{\gamma}{R}} \left( \frac{\gamma+1}{2} \right)^{-\frac{\gamma+1}{2\left(\gamma-1\right)}} 
+\tag{36}
+$$
+
+**Equation 37, Throat Area for a Given Choked Mass Flow.**
+Inverting the choked flow relation gives a throat area inversely proportional to the plenum pressure at a fixed mass flow and temperature.
+
+$$
+ A^{*} = \frac{\dot{m}_j \sqrt{T_t}}{p_t} \left[ \sqrt{\frac{\gamma}{R}} \left( \frac{\gamma+1}{2} \right)^{-\frac{\gamma+1}{2\left(\gamma-1\right)}} \right]^{-1} \; \propto \; \frac{1}{p_t} 
+\tag{37}
+$$
+
+*Equation 38, Bespoke Throat Area Ratios Across Plenum Schedules.*
+Against the nozzle pressure ratio of 19.419 that the article's assumed compressor gives, regulating the plenum to ratios of 1.5 and 4 enlarges the throat by 12.95 and 4.85 times.
+
+$$
+ \frac{A^{*}\left( 1.5 \right)}{A^{*}\left( 19.419 \right)} = \frac{19.419}{1.5} = 12.95 , \qquad \frac{A^{*}\left( 4 \right)}{A^{*}\left( 19.419 \right)} = \frac{19.419}{4} = 4.85 , 
+\tag{38}
+$$
+
+**Equation 39, Compressible Mass Flux Through the Engine Face.**
+The mass flow through a circular face is the face area times the density, Mach number and speed of sound reached by expanding sea-level total conditions to the face Mach number.
+
+$$
+ \frac{\dot{m}}{A} = \rho_f M_f a_f , \qquad \dot{m} = \frac{\pi D_f^2}{4} \cdot \frac{p_{\mathrm{sl}}}{\sqrt{T_{\mathrm{sl}}}} \sqrt{\frac{\gamma}{R}} \, M_f \, \sigma_f^{- \frac{\gamma+1}{2\left(\gamma-1\right)}} 
+\tag{39}
+$$
+
+**Equation 40, Static Thrust as Exit Momentum Flux.**
+At static conditions there is no ram drag, so the thrust is the mass flow times the exit velocity and inverts exactly for the mass flow.
+
+$$
+ F_{\mathrm{sls}} = \dot{m} V_e, \qquad \dot{m} = \frac{F_{\mathrm{sls}}}{V_e} 
+\tag{40}
+$$
+
+**Equation 41, Core Flow and Bleed Share From the Bypass Ratio.**
+The core flow is the total flow over one plus the bypass ratio, so a bleed fraction of core flow is that fraction over one plus the bypass ratio of total flow.
+
+$$
+ \dot{m}_{\mathrm{core}} = \frac{\dot{m}_{\mathrm{total}}}{1 + B}, \qquad \frac{\dot{m}_j}{\dot{m}_{\mathrm{total}}} = \frac{\beta}{1 + B} 
+\tag{41}
+$$
+
+*Equation 42, Bespoke Lower Bound on the Thrust Cost of Bleed.*
+At an assumed bleed fraction of 8 percent and an assumed bypass ratio of 3.3, the momentum lost with the bled air bounds the thrust decrement below at 1.86 percent.
+
+$$
+ \frac{\delta F}{F} \ge \frac{\beta}{1 + B} = 1.860 \text{ percent} 
+\tag{42}
+$$
+
+**Equation 43, Reduced Excitation Frequency.**
+The reduced frequency is the excitation frequency times the chord over the free-stream velocity, which inverts for the frequency.
+[Abdolahipour 2024][research_review_afc_2024]
+
+$$
+ F^{+} = \frac{f_e \, \bar{c}}{V_\infty}, \qquad f_e = \frac{F^{+} V_\infty}{\bar{c}} 
+\tag{43}
+$$
+
+**Equation 44, Mean Chord, Aspect Ratio, Wing Loading and Lift Coefficient.**
+The mean chord and aspect ratio follow from the span and wing area, and the level flight lift coefficient is the wing loading over the dynamic pressure.
+
+$$
+ \bar{c} = \frac{S}{b}, \qquad AR = \frac{b^2}{S} = \frac{b}{\bar{c}}, \qquad \frac{W}{S}, \qquad C_L = \frac{W}{q S} = \frac{W/S}{q} 
+\tag{44}
+$$
+
+*Equation 45, Bespoke Configuration Count and Flights Required.*
+The article counts each conventional surface as locked or free on each wing set, giving a power of two, and the flights needed as the second-order term count over the usable test points per flight, rounded up.
+
+$$
+ N_c = 2^{n_s} n_w, \qquad N_f = \left\lceil \frac{N_2}{k} \right\rceil 
+\tag{45}
+$$
+
+*Equation 46, Bespoke Derivative Count of a Linear Effector Model.*
+In the linear model the article considers, effectors superpose and contribute one control derivative per effector per axis.
+
+$$
+ N_1 = n \, n_a 
+\tag{46}
+$$
+
+*Equation 47, Bespoke Term Count of a Second-Order Effector Model.*
+Adding one interaction term for each pair of effectors gives the article's second-order model 315 terms for fourteen effectors on three axes.
+
+$$
+ N_2 = n_a \left( n + \binom{n}{2} \right) = n_a \left( n + \frac{n \left( n - 1 \right)}{2} \right) 
+\tag{47}
+$$
+
+**Equation 48, Control Allocation Problem.**
+The demanded moment is the control effectiveness matrix times a vector of effector demands drawn from an admissible set.
+
+$$
+ \mathbf{m} = \mathbf{B} \mathbf{u}, \qquad \mathbf{u} \in \mathcal{U} 
+\tag{48}
+$$
+
+**Equation 49, Full Row Rank Condition.**
+All three axes can be commanded only if the control effectiveness matrix has full row rank.
+
+$$
+ \operatorname{rank} \mathbf{B} = 3 
+\tag{49}
+$$
+
+*Equation 50, Bespoke Box and Shared-Plenum Admissible Sets.*
+The article models conventional surfaces by individual limits, a box, and the flow-control effectors by one shared air supply, a simplex.
+
+$$
+ \mathcal{U}_{\mathrm{box}} = \left\{ \mathbf{u} : 0 \le u_i \le \bar{u} \right\}, \qquad \mathcal{U}_{\mathrm{plenum}} = \left\{ \mathbf{u} : u_i \ge 0, \; \sum_i u_i \le \bar{u} \right\} 
+\tag{50}
+$$
+
+**Equation 51, Areas of a Planar Zonotope and Convex Hull.**
+The area of a planar zonotope is the sum of the absolute determinants of all pairs of generators, and that of a convex polygon fanned from the origin is half the sum over adjacent pairs.
+
+$$
+ \operatorname{area} \mathcal{Z} = \sum_{i < j} \left\lvert \det \left( \mathbf{b}_i , \mathbf{b}_j \right) \right\rvert, \qquad \operatorname{area} \mathcal{H} = \tfrac{1}{2} \sum_i \left\lvert \det \left( \mathbf{b}_i , \mathbf{b}_{i+1} \right) \right\rvert 
+\tag{51}
+$$
+
+*Equation 52, Bespoke Limiting Advantage of a Shared Plenum.*
+For the article's tractable case of unit columns spread evenly over a half plane, the ratio of shared-supply to equal-share moment area tends to $\pi^2 / 2$.
+
+$$
+ \lim_{n_e \to \infty} \frac{\operatorname{area} \mathcal{H}}{\operatorname{area} \mathcal{Z} / n_e^2} = \frac{\pi / 2}{1 / \pi} = \frac{\pi^2}{2} = 4.9348 
+\tag{52}
+$$
+
+**Equation 53, Outcome Against Request.**
+The outcome of each fiscal year is expressed as its difference from the request as a fraction of the request.
+[PB2020][ref_darpa_rdte_2020]
+[PB2021][ref_darpa_rdte_2021]
+
+$$
+ \frac{o - r}{r} 
+\tag{53}
+$$
+
+**Equation 54, First-Year Excess and Mean Later Shortfall.**
+Fiscal year 2020 came in 81.33 percent above its request, and the five later years fell short by a mean of 16.29 percent.
+[PB2020][ref_darpa_rdte_2020]
+[PB2025][ref_darpa_rdte_2025]
+
+$$
+ \frac{23.573 - 13.000}{13.000} = 0.8133 , \qquad \frac{0.0554 + 0.1930 + 0.2300 + 0.1401 + 0.1959}{5} = 0.1629 . 
+\tag{54}
+$$
+
+**Equation 55, Totals of Requests and Outcomes.**
+The column sums give a shortfall of 10.73 percent over fiscal years 2020 to 2025, appropriations 1.0555 times the obligations through 2024, and a 2026 request of 10.45 percent of the 2024 outcome.
+[PB2024][ref_darpa_rdte_2024]
+[DARPA RDT&E justification, PB2026][ref_darpa_rdte_2026]
+
+$$
+ \sum_{2020}^{2025} r = 196.507 , \qquad \sum_{2020}^{2025} o = 175.416 , \qquad 1 - \frac{175.416}{196.507} = 0.1073 , \qquad \sum_{2020}^{2024} o = 151.523 , \qquad \frac{151.523 \times 10^{6}}{143{,}556{,}412} = 1.0555 , \qquad \frac{4.000}{38.264} = 0.1045 . 
+\tag{55}
+$$
+
+**Equation 56, Reynolds Number and Sutherland's Law.**
+The chord Reynolds number is the ratio of inertial to viscous forces, with the viscosity of air from Sutherland's law.
+
+$$
+ \mathrm{Re} = \frac{\rho V \bar{c}}{\mu}, \qquad \mu\left( T \right) = \frac{C_1 \, T^{3/2}}{T + S_\mu} 
+\tag{56}
+$$
+
+*Equation 57, Bespoke Computed Coefficient Against the Demonstrated Range.*
+The wing-referenced coefficient of 0.0945 percent from the article's assumed bleed budget is compared with the range of 0.03 to 0.32 percent the report used.
+[Seifert and Pack 2000a][research_seifert_pack_2000]
+
+$$
+ \frac{0.0945}{0.03} = 3.150 , \qquad \frac{0.32}{0.0945} = 3.39 . 
+\tag{57}
+$$
+
+*Equation 58, Bespoke Momentum Coefficient at Mach 0.25.*
+Scaling the article's reference coefficient by its Mach factor to the report's Mach number gives 0.5579 percent, 1.74 times the highest quoted value.
+[Seifert and Pack 2000a][research_seifert_pack_2000]
+
+$$
+ C_\mu\left( 0.25 \right) = 0.000945066 \times \frac{G\left( 0.25 \right)}{G\left( 0.7 \right)} = 0.000945066 \times \frac{16.711}{2.8308} = 0.005579 , \qquad \frac{0.5579}{0.32} = 1.74 
+\tag{58}
+$$
+
+### Notation
+
+- $\dot{m}_j$, the jet mass flow delivered to the effectors
+- $V_j$, the effector jet velocity at the orifice
+- $J$, the jet momentum flux supplied by the effectors
+- $q$, the free-stream dynamic pressure
+- $S$, the wing reference area
+- $C_\mu$, the momentum coefficient referenced to the wing
+- $\Delta C_L$, the lift-coefficient increment produced by an effector
+- $\Delta L$, the aerodynamic force increment produced by an effector
+- $\mathcal{A}$, the amplification, aerodynamic force per unit jet momentum
+- $\mathcal{A}_{\mathrm{loc}}$, the actuation efficiency, the slope of the lift increment against the momentum coefficient
+- $C_{\mu,0}$, the threshold momentum coefficient below which nothing happens, with $C_{\mu,1}$ the one above which the flow is fully attached
+- $\beta$, the bleed fraction of engine core mass flow
+- $\dot{m}_{\mathrm{ref}}$, the engine sea-level static mass flow of the bleed source stream
+- $\delta$, the ratio of compressor-face total pressure to sea-level standard pressure
+- $\theta$, the ratio of compressor-face total temperature to sea-level standard temperature
+- $P$, the shaft power delivered to the air by a dedicated compressor
+- $c_p$, the specific heat at constant pressure
+- $T_{\mathrm{sl}}$, the sea-level standard temperature, with $p_{\mathrm{sl}}$ the sea-level standard pressure
+- $\lambda$, the troposphere lapse rate
+- $g_0$, standard gravity
+- $R$, the specific gas constant for dry air
+- $\gamma$, the ratio of specific heats, taken as 1.4 for dry air
+- $\sigma$, the inlet total-condition factor
+- $p_t$, the plenum total pressure
+- $T_t$, the plenum total temperature
+- $\tau$, the compressor total-temperature ratio
+- $\pi_c$, the compressor total-pressure ratio
+- $\eta_c$, the compressor isentropic efficiency
+- $w_c$, the compressor specific work
+- $\mathrm{NPR}$, the nozzle pressure ratio, plenum total to ambient static
+- $G$, the Mach-number factor of the bleed-fed momentum coefficient
+- $\Lambda$, the authority ratio, flow-control force over conventional-surface force
+- $\Delta C_{L,\mathrm{conv}}$, the lift-coefficient increment produced by a conventional surface at full deflection
+- $M_{\times}$, the crossover Mach number at which the authority ratio reaches unity
+- $C_{\mu,\ell}$, the momentum coefficient referenced to the area one effector influences
+- $S_\ell$, the area of surface one effector influences
+- $\kappa$, the concentration factor, wing area over influenced area
+- $\mathcal{M}$, the control moment
+- $C_{\mathcal{M}}$, the moment coefficient referenced to the span
+- $\mathrm{VR}$, the jet velocity ratio
+- $A^{*}$, the total choked throat area of the effectors
+- $D_f$, the engine face diameter
+- $M_f$, the axial Mach number at the engine face
+- $F_{\mathrm{sls}}$, the sea-level static thrust
+- $V_e$, the engine exit velocity at static conditions
+- $B$, the engine bypass ratio
+- $\delta F$, the thrust decrement caused by bleed
+- $F^{+}$, the reduced excitation frequency
+- $f_e$, the effector excitation frequency
+- $\bar{c}$, the reference chord, taken as area over span
+- $AR$, the aspect ratio
+- $N_c$, the distinct locked-or-free configurations across every wing set
+- $N_f$, the flights needed to over-determine a model
+- $N_2$, the terms in a second-order effector model with pairwise interactions
+- $\mathbf{B}$, the control effectiveness matrix, three rows by one column per effector
+- $\mathbf{u}$, the vector of effector demands
+- $\bar{u}$, the supply limit on effector demand
+- $\mathcal{H}$, the reachable moment set under a shared supply, a convex hull
+- $\mathrm{Re}$, the Reynolds number on the reference chord
+- $S_\mu$, Sutherland's temperature for air
 
 ## References
 

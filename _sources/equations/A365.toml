@@ -1,0 +1,683 @@
+# Equation classification for A365. Read by `python3 _lib/equations.py`.
+
+caution = "Masses are in kilograms, lengths in metres and angles in radians, with the sources' pound and inch figures converted at the exact definitions, and several letters are fixed by the symbol table, so $K$ is the static margin while $\\kappa$ is the ratio of specific heats, $a$ is the speed of sound while $a_z$ is an acceleration, and $\\mu$ is the store mass fraction rather than a gravitational parameter."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Store Mass Fraction"
+gloss = "The store mass fraction is the mass of the store released divided by the mass of the vehicle immediately before release."
+cite = []
+digest = "910f6dedd9009dae"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Store Mass Fractions of the Fighter and This Vehicle"
+gloss = "The fractions take the fighter at the 26,875 kilogram midpoint of its published empty and maximum masses and this vehicle at an assumed 1,800 kilograms, which gives two missiles a fraction about 30 times the fighter's one."
+cite = ["ref_amraam", "ref_f15e"]
+digest = "a08ffe714585930e"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Midpoint Mass of the Fighter"
+gloss = "The fact sheet's 37,500 and 81,000 pounds are converted at the exact definition of the pound and reduced to their midpoint of 26,875 kilograms, which the article adopts as the fighter's mass."
+cite = ["ref_f15e"]
+digest = "a45a6cdcc9a27f20"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Baseline Missile Mass Against the Chosen Variant"
+gloss = "The baseline missile's 335 pounds converts to 151.95 kilograms, which is 0.941 of the 161.5 kilogram variant the article carries."
+cite = ["ref_amraam_fs"]
+digest = "530411a6f024cceb"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Ratio of the Two Mass Fractions"
+gloss = "Dividing the two definitions of the store mass fraction for the same missile cancels its mass and leaves the store count times the ratio of the two launcher masses."
+cite = []
+digest = "caeb4b646f264090"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Release Amplification Factor"
+gloss = "The article defines the release amplification factor as the store mass fraction divided by one less that fraction, which equals the store mass over the mass that remains."
+cite = []
+digest = "00dd5f21a34d8508"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Rate of Growth of the Amplification"
+gloss = "The derivative of the amplification factor with respect to the store mass fraction is the reciprocal of the square of one less that fraction, so it diverges as the fraction approaches one."
+cite = []
+digest = "86b046a708a839eb"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Amplification Factors of the Fighter and This Vehicle"
+gloss = "The amplification is evaluated at the fighter's midpoint mass, at the assumed 1,800 kilogram vehicle releasing two missiles and at a fraction of one half, where it reaches one."
+cite = []
+digest = "9eedd0acdd213939"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Mass Fraction Across the Bracketed Vehicle Mass"
+gloss = "Because no mass is published for the aircraft, the article brackets it between 1,000 and 3,000 kilograms, which gives a pair of missiles a fraction from 0.323 down to 0.108."
+cite = []
+digest = "57aca9bce374d08f"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Share of Reported Funding Placed in Awards"
+gloss = "The funding total takes the largest of the figures the budget books give for each of fiscal years 2021 to 2025, a selection the article chose, and the awards in the record are 72.1 percent of it."
+cite = []
+digest = "8cb67f56b119eaf8"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Spread of the Fiscal Year Figures"
+gloss = "The largest figure reported for the year exceeds the lowest by 27.471 million dollars, which is 74.8 percent of the lowest."
+cite = ["ref_darpa_pb2025", "ref_darpa_pb2026", "ref_darpa_pb2027"]
+digest = "cc0b9c24518989ba"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Mass After Release"
+gloss = "The mass after release is the mass before release less the store mass, which is the original mass times one less the store mass fraction."
+cite = []
+digest = "952d7c9bf7cd9a79"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Centre of Gravity After Release"
+gloss = "Taking moments about a fixed datum before and after release places the remaining vehicle's centre of gravity at the mass-weighted difference of the two first moments divided by the remaining mass."
+cite = []
+digest = "bba28ed6d7f32b8a"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Shift of the Centre of Gravity"
+gloss = "Substituting the store arm into the moment balance reduces the shift of the centre of gravity to minus the amplification factor times the store arm."
+cite = []
+digest = "1da6f71ddfc1437c"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Vertical Acceleration at Release"
+gloss = "With lift unchanged at the instant of release and the weight stepped down, Newton's second law gives the remaining vehicle an upward acceleration of the amplification factor times standard gravity."
+cite = []
+digest = "9b6f998547480c09"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Lift Coefficient for Level Flight After Release"
+gloss = "At constant speed and dynamic pressure the lift coefficient needed for level flight falls in proportion to the mass that remains."
+cite = []
+digest = "fee5a7c7d1c69d0c"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Change in Static Margin From an Internal Release"
+gloss = "With the neutral point fixed because an internal store contributes no lift, the change in static margin is the centre-of-gravity shift expressed in mean aerodynamic chords."
+cite = []
+digest = "67a36a5a6db18d4c"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Admissible Store Arm"
+gloss = "Requiring the static margin to stay within a chosen band both before and after release bounds the store arm by the chord times the width of the band over the amplification factor."
+cite = []
+digest = "5e7f1cbb7c3d1edd"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Trim Deflection After Release"
+gloss = "The longitudinal control must cancel the pitching moment that the shifted centre of gravity creates, which takes a deflection proportional to the lift coefficient and the shift and inversely proportional to the control power."
+cite = []
+digest = "20f76517d5a63a70"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Pitch Inertia After Release"
+gloss = "The store's own inertia and its parallel-axis term leave with it, and the remaining inertia is then transferred to the new centre of gravity by a second parallel-axis correction."
+cite = []
+digest = "50bfdd6f3c92f7e9"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Rolling Moment From an Asymmetric Store"
+gloss = "A single remaining store at a spanwise station produces a rolling moment equal to its weight times the load factor times its station."
+cite = []
+digest = "da1c25cd998920a2"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Roll Control Deflection to Hold the Wings Level"
+gloss = "Setting the asymmetric rolling moment against the roll control's authority at the current dynamic pressure gives the deflection required to hold the wings level."
+cite = []
+digest = "4fd53d9315fc9a46"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Open-Loop Roll Acceleration and Bank Growth"
+gloss = "The rolling moment over the roll inertia gives a constant angular acceleration, and from rest the bank angle grows as half that acceleration times the square of the time."
+cite = []
+digest = "409435ee1900dc3b"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Roll Transient Half a Second After Release"
+gloss = "The transient takes an assumed 1,800 kilogram vehicle, an assumed roll radius of gyration of 0.4 metres and an assumed store station of 0.3 metres at a load factor of one, which gives about 13 degrees of bank after half a second."
+cite = []
+digest = "ac39e58cc070b016"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Bounds on the Roll Transient"
+gloss = "The corners of the article's assumed brackets on the roll radius of gyration and the store station bound the bank angle after half a second between about 6 and 31 degrees."
+cite = []
+digest = "a9953ddc78ac84e2"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Recoil Velocity of the Launcher"
+gloss = "Conservation of momentum gives the vehicle a recoil equal to the ejection velocity times the ratio of the store mass to the remaining mass, which is the amplification factor."
+cite = []
+digest = "8bb5f1678f64038c"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Relative Separation Velocity and Reduced Mass"
+gloss = "Treating the ejection as a two-body problem, the relative separation velocity is the cartridge impulse divided by the reduced mass of store and launcher."
+cite = []
+digest = "8bc1afa1159a9bf4"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Launcher's Share of the Cartridge Energy"
+gloss = "Momentum conservation alone gives the launcher a share of the cartridge energy equal to the store mass fraction."
+cite = []
+digest = "ebab6af5a6495c83"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Pitch Rate From the Ejector's Angular Impulse"
+gloss = "An ejector force acting at the store arm for the stroke time delivers an angular impulse, and dividing by the pitch inertia after release gives the pitch rate imparted."
+cite = []
+digest = "55f845d711d7ac3f"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Pitch Inertia of a Uniform Slender Body"
+gloss = "The article estimates the pitch inertia by assuming the vehicle is a slender body of uniform density, which gives one twelfth of its mass times the square of its length."
+cite = []
+digest = "a8dd51ee5c94f938"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Effective Specific Impulse From Fuel Consumption"
+gloss = "An engine's effective specific impulse is the reciprocal of its thrust specific fuel consumption times standard gravity."
+cite = []
+digest = "bd61469c42e3b77e"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Ratio of Air-Breathing to Rocket Specific Impulse"
+gloss = "The article states its premise as the ratio of air-breathing to rocket specific impulse, about fifteen for a small turbofan at 3,500 seconds against a solid motor at 235 seconds."
+cite = []
+digest = "cf0ea28246b3f178"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Troposphere of the Standard Atmosphere"
+gloss = "The temperature falls linearly with geopotential height, the pressure follows from hydrostatic balance with the ideal gas law, and the density follows from the equation of state."
+cite = ["ref_atm76"]
+digest = "b4a4475c93e833a9"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Speed of Sound in an Ideal Gas"
+gloss = "The speed of sound is the square root of the ratio of specific heats times the specific gas constant times the temperature."
+cite = ["ref_atm76"]
+digest = "ac66ea4636e1c667"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Geometric Height From Geopotential Height"
+gloss = "The standard atmosphere's effective Earth radius converts the cruise geopotential height of 10,668 metres to a geometric height of 10,685.9 metres, a difference of 1.7 parts in a thousand."
+cite = ["ref_atm76"]
+digest = "1af8eff47b25f872"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Exponential Speed Decay of a Coasting Missile"
+gloss = "Neglecting gravity and holding the density and drag coefficient constant along the coast, the article writes the deceleration against distance and obtains a speed that decays exponentially with a characteristic length."
+cite = []
+digest = "b5e3d49ba6c8c445"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Reach Under a Terminal Speed Requirement"
+gloss = "In the article's exponential coast model the reach is the decay length times the natural logarithm of the ratio of burnout speed to the required arrival speed."
+cite = []
+digest = "0478ab88bccae8f1"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Burnout Speed for a Required Reach"
+gloss = "Inverting the article's coast model gives the burnout speed a motor must deliver, which grows exponentially with the reach required."
+cite = []
+digest = "d0e6fe9dffda08f7"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Propellant Fraction From the Rocket Equation"
+gloss = "The rocket equation gives the propellant fraction needed for a velocity increment as one less the exponential of minus that increment over the effective exhaust velocity."
+cite = []
+digest = "7c26634aa24a4ad3"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Breguet Range Differential"
+gloss = "In steady cruise the thrust equals the weight over the lift-to-drag ratio, so each increment of distance costs fuel in proportion to the mass carried."
+cite = []
+digest = "525b69e77c0e6cfb"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Breguet Range and Fuel Fraction"
+gloss = "Integrating the range differential gives the Breguet range, and inverting it gives the fuel fraction the carrier spends to fly a given distance."
+cite = []
+digest = "03300990ea84077e"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Marginal Exchange Rates of Distance for Mass"
+gloss = "The derivative of the Breguet range is set against the derivative of the article's coast-model reach with respect to propellant, which compares what the next kilogram buys the carrier and the missile."
+cite = []
+digest = "c520579ae9e38338"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Reach Gain"
+gloss = "The article defines the reach gain as the carrier's range plus the missile's over the missile's alone, an additive measure that makes the benefit linear in the carrier's range."
+cite = []
+digest = "75f34d1c115c2281"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Arrival Energy Ratio From Carrier Transit"
+gloss = "Under the article's exponential coast model, removing the carrier's transit from the missile's fly-out multiplies its arrival kinetic energy by the exponential of twice the carrier range over the decay length."
+cite = ["ref_darpa_pb2022"]
+digest = "dbb1761a70453856"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Time of Flight of a Coasting Missile"
+gloss = "Integrating the reciprocal of the article's exponentially decaying speed over distance gives a time of flight that is convex in the distance flown."
+cite = []
+digest = "b0faf742b4d67994"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Thrust-to-Weight Ratio"
+gloss = "The thrust-to-weight ratio is the thrust divided by the mass times standard gravity."
+cite = []
+digest = "3e0e153d7cd9ac99"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Steady Climb Gradient and Specific Excess Power"
+gloss = "In a steady climb the sine of the flight-path angle is the thrust-to-weight ratio less the reciprocal of the lift-to-drag ratio, and the specific excess power is the speed times that sine."
+cite = []
+digest = "cf93a5b8dedbde64"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Thrust Lapse With Density"
+gloss = "The article takes the simplest lapse, in which a turbojet's thrust falls in proportion to the air density ratio."
+cite = []
+digest = "8c7a42d601e7e809"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Missile Length and Diameter in Metric Units"
+gloss = "The fact sheet's length of 143.9 inches and diameter of 7 inches convert at the exact definition of the inch to 3.655 metres and 177.8 millimetres."
+cite = ["ref_amraam_fs"]
+digest = "af049bb9f1478d83"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Hinge Rotation and Deployment Time"
+gloss = "A folding panel obeys the rigid-body rotation equation about its hinge, and from rest under a constant torque the time to sweep a given angle is the square root of twice the inertia times the angle over the torque."
+cite = []
+digest = "b11f73566b4bb5fc"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Separation Distance With the Launcher Clamped"
+gloss = "With the launcher clamped, the store leaves at the cartridge impulse over its own mass and then falls under gravity."
+cite = []
+digest = "bb7fad0fdbecc8fe"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Flight to Pit Ratio of Separation Speeds"
+gloss = "In flight the impulse divides by the reduced mass rather than the store mass, so the separation speed exceeds the pit value by the reciprocal of one less the store mass fraction."
+cite = []
+digest = "7d3ff92bcaa11bfe"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Trajectory Deviation From an Aerodynamic Force"
+gloss = "A constant aerodynamic force on the separating store displaces it by half the force over the store mass times the square of the time, the same form as the gravity term."
+cite = []
+digest = "5f1814ae1678a104"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Pit Correction for This Vehicle"
+gloss = "The correction is evaluated at an assumed vehicle mass of 1,800 kilograms, which gives 9.9 percent for one missile and 21.9 percent for both, so 7 metres a second in the pit becomes 7.69 in flight."
+cite = []
+digest = "81e7092bdd61d8be"
+
+[[symbol]]
+tex = 'm_s'
+meaning = "the mass of the store released"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the mass of the vehicle immediately before release"
+
+[[symbol]]
+tex = 'm_1'
+meaning = "the mass of the vehicle immediately after release"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the store mass fraction, the keystone"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the release amplification factor, $\\mu$ over one less $\\mu$"
+
+[[symbol]]
+tex = 'n_z'
+meaning = "the load factor at release, lift divided by weight"
+
+[[symbol]]
+tex = 'x_s'
+meaning = "the station of the store's centre of mass, measured positive aft"
+
+[[symbol]]
+tex = 'x_{cg,0}'
+meaning = "the station of the vehicle's centre of gravity before release, with $x_{cg,1}$ the station after"
+
+[[symbol]]
+tex = 'd_s'
+meaning = "the store arm, positive for a store aft of the centre of gravity"
+
+[[symbol]]
+tex = '\Delta x'
+meaning = "the shift in the centre of gravity caused by the release"
+
+[[symbol]]
+tex = '\bar c'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = '\Delta K'
+meaning = "the change in the static margin $K$, the distance from the centre of gravity to the neutral point in chords"
+
+[[symbol]]
+tex = 'y_s'
+meaning = "the spanwise station of the store"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'C_{m\delta}'
+meaning = "the pitching moment per radian of longitudinal control"
+
+[[symbol]]
+tex = 'C_{l\delta}'
+meaning = "the rolling moment per radian of lateral control"
+
+[[symbol]]
+tex = 'I_s'
+meaning = "the store's moment of inertia about its own centre of mass"
+
+[[symbol]]
+tex = 'I_{y,1}'
+meaning = "the pitch moment of inertia after release, written $I_y$ elsewhere"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the velocity imparted to the store by the ejector"
+
+[[symbol]]
+tex = '\Delta V_r'
+meaning = "the vehicle's recoil velocity"
+
+[[symbol]]
+tex = 'F_e'
+meaning = "the ejector force"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the ejector stroke duration"
+
+[[symbol]]
+tex = '\dot\theta'
+meaning = "the pitch rate"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.80665 metres per second squared by definition"
+
+[[symbol]]
+tex = 'c_T'
+meaning = "the thrust specific fuel consumption"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the ratio of air-breathing to rocket specific impulse"
+
+[[symbol]]
+tex = 'L/D'
+meaning = "the lift-to-drag ratio in cruise"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the fuel mass fraction, with $\\zeta_p$ the missile's propellant fraction"
+
+[[symbol]]
+tex = 'R_c'
+meaning = "the range flown by the carrier vehicle"
+
+[[symbol]]
+tex = 'R_m'
+meaning = "the range flown by the missile under its own power"
+
+[[symbol]]
+tex = 'G'
+meaning = "the reach gain, total reach divided by the missile's alone"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the ballistic decay length of a coasting missile"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = 'V_b'
+meaning = "the missile velocity at motor burnout"
+
+[[symbol]]
+tex = 'V_f'
+meaning = "the missile speed at arrival, the terminal requirement"
+
+[[symbol]]
+tex = 's_{\max}'
+meaning = "the reach of the missile at the terminal speed requirement"
+
+[[symbol]]
+tex = 'E_f'
+meaning = "the missile kinetic energy at arrival"
+
+[[symbol]]
+tex = 'M_x'
+meaning = "the rolling moment"
+
+[[symbol]]
+tex = 'a_z'
+meaning = "the net vertical acceleration after release"
+
+[[symbol]]
+tex = 'm_r'
+meaning = "the reduced mass of the store and launcher pair"
+
+[[symbol]]
+tex = 'E_c^{(1)}'
+meaning = "the launcher's share of the cartridge energy $E_c$"
+
+[[symbol]]
+tex = 'I_x'
+meaning = "the roll moment of inertia"
+
+[[symbol]]
+tex = 'k_x'
+meaning = "the roll radius of gyration"
+
+[[symbol]]
+tex = '\dot p'
+meaning = "the roll acceleration, the rate of change of the roll rate"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the bank angle"
+
+[[symbol]]
+tex = 'J'
+meaning = "the ejector cartridge impulse"
+
+[[symbol]]
+tex = 'v_{rel}'
+meaning = "the relative separation velocity of store and launcher"
+
+[[symbol]]
+tex = 'F_a'
+meaning = "the aerodynamic force on the separating store"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the flight-path angle"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'I_h'
+meaning = "the hinge-axis inertia of one folding panel"
+
+[[symbol]]
+tex = 'M_h'
+meaning = "the hinge drive torque"
+
+[[symbol]]
+tex = '\theta_h'
+meaning = "the panel fold angle"
+
+[[symbol]]
+tex = 't_d'
+meaning = "the deployment time"
+
+[[symbol]]
+tex = 'Z'
+meaning = "the geometric height"
+
+[[symbol]]
+tex = 'r_0'
+meaning = "the effective Earth radius of the 1976 standard atmosphere"
+
+[[symbol]]
+tex = 'T_a'
+meaning = "the air temperature"
+
+[[symbol]]
+tex = 'p_a'
+meaning = "the static pressure"
+
+[[symbol]]
+tex = '\Gamma'
+meaning = "the tropospheric lapse rate"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the ratio of specific heats"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, with $\\rho_0$ its sea-level value"

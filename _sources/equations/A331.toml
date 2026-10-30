@@ -1,0 +1,523 @@
+# Equation classification for A331. Read by `python3 _lib/equations.py`.
+
+caution = "Weights are quoted in pounds and evaluated in kilograms, every relation is worked in the International System with specific impulse in seconds, and several letters are reused, so $m_f$ is the burnout mass in the rocket equation but the fuel mass in the mixture ratio relation, $t$ is a wall thickness while $t_b$ is the burn time, $e$ is a specific energy, $\\mu$ is the gas viscosity in the Bartz correlation, and $\\varepsilon$ is the nozzle area ratio."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Definition of Specific Impulse"
+gloss = "The specific impulse is the thrust divided by the propellant mass flow and standard gravity."
+cite = ["ref_isp", "book_rocket_propulsion_elements"]
+digest = "7142d9531f756342"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Specific Impulse Implied by the Usually Quoted Figures"
+gloss = "Putting the usually quoted thrust and mass flow through the definition gives 296.14 seconds, 5.69 percent below the quoted 314."
+cite = ["ref_fastrac"]
+digest = "1f0acf779ce64de2"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Total Engine Mass Flow"
+gloss = "The main chamber and gas generator flows published in the engine schematic sum to 202.6 pounds per second, which is the quoted 91.90 kilograms per second."
+cite = ["research_ballardrichardo_olivetim_2000"]
+digest = "ba5a93fcb7f680da"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Specific Impulse of Each Nozzle on Its Own Thrust"
+gloss = "Each nozzle's published thrust over the total flow closes on its own published impulse to within half a percent, so the quoted set paired the ground nozzle's thrust with the flight nozzle's impulse."
+cite = ["research_ballardrichardo_olivetim_2000"]
+digest = "e163c2c27e964433"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Gas Generator Share of the Flow"
+gloss = "The published gas generator flow is 3.50 percent of the total, inside the range of three to seven percent that the cycle typically spends."
+cite = ["research_ballardrichardo_olivetim_2000", "book_design_of_liquid_propellant_rocket_eng"]
+digest = "a6f8fe76e6d5a46f"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Chamber Specific Impulse With No Turbine Thrust"
+gloss = "The flight thrust is divided by the chamber flow alone on the assumption that the turbine exhaust contributes no thrust."
+cite = ["book_design_of_liquid_propellant_rocket_eng"]
+digest = "c264119bd0da238d"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Impulse Cost of the Gas Generator Cycle"
+gloss = "The difference between the chamber and engine impulses rests on the same assumption of a thrustless turbine exhaust and is therefore an upper bound."
+cite = []
+digest = "7f112de29c6466cd"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Burn Time of the Propellant Load"
+gloss = "The published propellant load divided by the engine flow gives a burn time of 148.0 seconds."
+cite = []
+digest = "452afa3c2143a0ea"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Margin of the Longest Test Over the Mission Burn"
+gloss = "The longest recorded hot fire of 159.03 seconds exceeds the mission burn by about seven and a half percent."
+cite = ["research_ballardrichardo_olivetim_2000"]
+digest = "a9bde76d5c85723f"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Effective Exhaust Velocity"
+gloss = "The published flight impulse times standard gravity gives an effective exhaust velocity of 3,079.3 metres per second."
+cite = []
+digest = "16d8679683a292e8"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Mass Ratio From the Published Masses"
+gloss = "The release mass over the empty mass taken as the burnout mass gives a mass ratio of 2.6585."
+cite = []
+digest = "d415bd1af8ade7d8"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Tsiolkovsky Rocket Equation Evaluated for the X-34"
+gloss = "The effective exhaust velocity times the logarithm of the mass ratio gives an ideal velocity increment of 3,010.9 metres per second."
+cite = []
+digest = "69c16d8d9ed29719"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Allowance Left for Losses"
+gloss = "The ideal increment plus the carrier contribution at an assumed release Mach number of 0.8 is set against a Mach 8 objective taken as about 2,400 metres per second, leaving 847.0 metres per second for losses."
+cite = []
+digest = "69779851f554e8b2"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Thrust to Weight at Release"
+gloss = "The flight nozzle's vacuum thrust over the release weight gives a thrust to weight ratio of 1.330."
+cite = []
+digest = "8e52d63baa60c391"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Propellant Mass Fraction"
+gloss = "The propellant load over the release mass gives a propellant mass fraction of 62.4 percent."
+cite = []
+digest = "1feda0f1405079be"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Throat Area From the Characteristic Velocity"
+gloss = "The throat area is the chamber flow times the characteristic velocity divided by the chamber pressure."
+cite = ["ref_cstar"]
+digest = "ac01d0ee4228e679"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Area of the Published Throat"
+gloss = "The published throat diameter of 8.25 inches gives a throat area of 0.034488 square metres."
+cite = ["research_peterswarren_rogerspat_2000"]
+digest = "a2e4e33ce82c17c5"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Characteristic Velocity From Published Chamber Figures"
+gloss = "The definition run in reverse with the published chamber pressure requirement, throat area and chamber flow gives a characteristic velocity of 1,748 metres per second."
+cite = ["research_ballardrichardo_olivetim_2000"]
+digest = "44a457231e8b32e2"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Vacuum Thrust Coefficient"
+gloss = "The thrust coefficient is the flight thrust divided by the chamber pressure and the throat area, here 1.8345."
+cite = []
+digest = "84d5ba49b6517b51"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Specific Impulse as Thrust Coefficient Times Characteristic Velocity"
+gloss = "The specific impulse factors into the thrust coefficient, which describes the nozzle, and the characteristic velocity, which describes the chamber, divided by standard gravity."
+cite = []
+digest = "a7c7ff39b80347a4"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Exit Area From the Area Ratio"
+gloss = "The published area ratio of about 30 times the throat area gives an exit area of 1.0346 square metres."
+cite = []
+digest = "435bac6c8d389f38"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Bartz Correlation for Gas-Side Heat Transfer"
+gloss = "The Bartz correlation gives the gas-side heat transfer coefficient at the throat from the gas properties, the chamber pressure, the characteristic velocity and the throat geometry."
+cite = []
+digest = "555144fcc5872d69"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Throat Heat Flux"
+gloss = "The convective flux is evaluated with a coefficient from typical kerosene and oxygen gas properties and a throat curvature radius equal to its diameter, a recovery temperature of 3,150 kelvin and an ablating surface at 1,900 kelvin, all values the article assumes."
+cite = []
+digest = "6ed88d0b8670f5f2"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Steady Recession Rate From an Ablation Energy Balance"
+gloss = "The recession rate is the arriving heat flux divided by the material density and the effective heat of ablation."
+cite = []
+digest = "e86b2e578a0019b0"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Forward Recession Rate From Absorbed Energy"
+gloss = "The recession rate is computed on representative property values for silica phenolic that the article assumes, an absorbed energy of 13.76 megajoules per kilogram, and gives an implausible 0.463 millimetres per second."
+cite = []
+digest = "36d0f5e67b91e11d"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Effective Heat of Ablation Implied by the Recession Rate"
+gloss = "The balance is inverted with an assumed upper recession rate of a tenth of a millimetre per second and an assumed density of 1,700 kilograms per cubic metre, giving 63.8 megajoules per kilogram."
+cite = ["research_peterswarren_rogerspat_2000"]
+digest = "be2ad08a34f0572f"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Liner Consumed Over One Burn"
+gloss = "The assumed upper recession rate of a tenth of a millimetre per second over the 148 second burn removes 14.8 millimetres of liner."
+cite = []
+digest = "cbfdc20c88277387"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Specific Energy"
+gloss = "The specific energy is the potential energy per unit mass plus the kinetic energy per unit mass."
+cite = []
+digest = "12f037e08fc54f08"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Specific Energy Donated by the Carrier"
+gloss = "The specific energy is evaluated at the published release altitude of 38,000 feet and an assumed Mach 0.8."
+cite = ["research_ballardrichardo_olivetim_2000"]
+digest = "ea913974b4c7dafb"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Velocity Equivalent of the Carrier's Energy"
+gloss = "The specific energy at the assumed release speed is converted to the velocity increment that would supply it, 531.9 metres per second."
+cite = []
+digest = "8ab17fadfd0cd447"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Thrust Corrected for Ambient Pressure"
+gloss = "The thrust falls below its vacuum value by the ambient pressure acting over the nozzle exit area."
+cite = []
+digest = "bea12785e35ebcf4"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Thrust Recovered by Launching at Altitude"
+gloss = "The difference in standard atmosphere pressure between sea level and the release altitude, acting over the exit area, recovers 83,470 newtons."
+cite = []
+digest = "f899b35dd3c168bc"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Bulk Density of a Propellant Combination"
+gloss = "The bulk density is the reciprocal of the mass-weighted mean of the reciprocal fuel and oxidiser densities at a given mixture ratio."
+cite = ["book_design_of_liquid_propellant_rocket_eng"]
+digest = "d6c721de6782af82"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Propellant Densities at the Midpoint of the Kerosene Range"
+gloss = "The liquid oxygen density is the tabulated value, while the kerosene density is the midpoint of the stated range of 800 to 820 kilograms per cubic metre."
+cite = ["book_design_of_liquid_propellant_rocket_eng"]
+digest = "38e7328300c6b2d7"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Bulk Density of Kerosene and Oxygen"
+gloss = "The bulk density at the published mixture ratio of 2.17 uses the midpoint kerosene density, giving 1,011.2 kilograms per cubic metre."
+cite = []
+digest = "7d71914f0b65c2e0"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Fuel Share of the Propellant Mass"
+gloss = "At the published mixture ratio of 2.17 the fuel is one part in 3.17 of the propellant mass."
+cite = []
+digest = "2a0a3f66973fff08"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Volume of the Load Under Two Propellant Choices"
+gloss = "The propellant load is divided by the midpoint kerosene bulk density and by a hydrogen and oxygen bulk density at an assumed mixture ratio of 5.5."
+cite = ["related_post_a330_lockheed_martin_x33"]
+digest = "2355d9f6057bdf65"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Tank to Propellant Mass Ratio of an Ideal Vessel"
+gloss = "For a thin pressure vessel sized by stress the tank mass over the propellant mass contains no length, so the ratio is independent of size."
+cite = []
+digest = "63c861322e7f01e5"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Membrane Thickness of a Cylindrical Wall"
+gloss = "The wall thickness that a pressure demands is the pressure times the radius divided by the allowable stress."
+cite = ["book_analysis_and_design_of_flight_vehicle_st"]
+digest = "65e8a42a11d9c746"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Wall and Propellant Mass per Unit Length at Minimum Gauge"
+gloss = "The wall is taken as two facesheets each at the minimum gauge, a construction the article assumes, so the wall mass grows with the radius while the propellant mass grows with its square."
+cite = []
+digest = "8d18ab5e609fc97a"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Gauge-Limited Tank Fraction"
+gloss = "Under the minimum gauge assumption the tank to propellant mass ratio falls as one over the radius instead of being independent of it."
+cite = []
+digest = "ee1f40baa854d357"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Gauge-Limited Tank Fractions for Two Propellants"
+gloss = "The gauge-limited fraction is evaluated at an assumed tank radius of 0.75 metres with the laminate density and minimum gauge of the previous article and the two bulk densities above."
+cite = []
+digest = "5076e06e79aa017b"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Length and Span in Metres"
+gloss = "The published length and span are converted from feet to metres."
+cite = ["ref_nasa_x34_factsheet"]
+digest = "62d77e80255b3092"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Empty and Propellant Masses in Kilograms"
+gloss = "The published unfuelled weight and propellant weight are converted from pounds to kilograms."
+cite = []
+digest = "ce39710ec5a1b824"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Release Mass"
+gloss = "The release mass is the sum of the empty and propellant masses, 48,000 pounds or 21,772 kilograms."
+cite = []
+digest = "fa353087c2369d5a"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Projected Growth of the Programme Cost"
+gloss = "The estimated requirement of 348 million dollars against 86 million budgeted is a growth of 305 percent on the rounded figures."
+cite = ["ref_gao_826t"]
+digest = "3b21d1998397c485"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Spend per Pound of the X-34"
+gloss = "The figure of merit the article defines divides the reported spending of 112 million dollars by the release weight of 48,000 pounds."
+cite = ["ref_x34"]
+digest = "368486ebcbf22f9c"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Spend per Pound of the X-33"
+gloss = "The same figure of merit divides about 1,280 million dollars of combined spending by the X-33 gross weight of 285,000 pounds."
+cite = ["ref_x33"]
+digest = "885add6149076a1b"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Projected Cost per Pound to Finish the X-34"
+gloss = "The figure of merit is evaluated with the estimated total requirement of 348 million dollars in place of the money spent."
+cite = []
+digest = "bf88bbd195e425d5"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Price per Kilogram of the Air-Launched Booster"
+gloss = "A price of about forty million dollars for some 450 kilograms to low orbit is about 89,000 dollars per kilogram."
+cite = ["ref_pegasus"]
+digest = "cfceef4b5699bc8c"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds, with $I_{sp,c}$ the impulse of the chamber flow alone"
+
+[[symbol]]
+tex = 'F'
+meaning = "the thrust, with $F_{vac}$ the vacuum thrust"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the total propellant mass flow, with $\\dot{m}_c$ the chamber flow and $\\dot{m}_{gg}$ the gas generator flow"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 't_b'
+meaning = "the burn time, with $t_{\\text{test}}$ the longest test duration"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the effective exhaust velocity"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the release mass, with $m_e$ the empty mass and $m_p$ the propellant mass"
+
+[[symbol]]
+tex = '\Delta v'
+meaning = "the ideal velocity increment"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the propellant mass fraction"
+
+[[symbol]]
+tex = 'A_t'
+meaning = "the throat area, with $A_e$ the exit area and $D_t$ the throat diameter"
+
+[[symbol]]
+tex = 'c^{\ast}'
+meaning = "the characteristic velocity"
+
+[[symbol]]
+tex = 'p_c'
+meaning = "the chamber pressure, with $p_a$ the ambient pressure"
+
+[[symbol]]
+tex = 'C_F'
+meaning = "the thrust coefficient"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the nozzle area ratio"
+
+[[symbol]]
+tex = 'h_g'
+meaning = "the gas-side heat transfer coefficient"
+
+[[symbol]]
+tex = 'R_c'
+meaning = "the radius of curvature of the throat"
+
+[[symbol]]
+tex = '\mathrm{Pr}'
+meaning = "the Prandtl number of the combustion gas"
+
+[[symbol]]
+tex = 'T_{aw}'
+meaning = "the recovery temperature, with $T_w$ the temperature of the ablating surface"
+
+[[symbol]]
+tex = '\dot{s}'
+meaning = "the recession rate, with $\\Delta s$ the depth removed over a burn"
+
+[[symbol]]
+tex = '\rho_a'
+meaning = "the density of the ablative material"
+
+[[symbol]]
+tex = 'H_{\text{eff}}'
+meaning = "the effective heat of ablation, with $H_{\\text{absorb}}$ the energy the material can absorb"
+
+[[symbol]]
+tex = 'e'
+meaning = "the specific energy supplied by the carrier aircraft"
+
+[[symbol]]
+tex = '\rho_{\text{bulk}}'
+meaning = "the bulk density of the propellant combination"
+
+[[symbol]]
+tex = '\rho_f'
+meaning = "the fuel density, with $\\rho_o$ the oxidiser density"
+
+[[symbol]]
+tex = 'r'
+meaning = "the mixture ratio"
+
+[[symbol]]
+tex = '\rho_w'
+meaning = "the wall material density"
+
+[[symbol]]
+tex = '\rho_p'
+meaning = "the propellant bulk density in the tank relations"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the allowable stress of the wall"
+
+[[symbol]]
+tex = 't_{\text{gauge}}'
+meaning = "the minimum gauge of one facesheet"
+
+[[symbol]]
+tex = 'R'
+meaning = "the tank radius"

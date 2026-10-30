@@ -1,0 +1,655 @@
+# Equation classification for A334. Read by `python3 _lib/equations.py`.
+
+caution = "All relations are evaluated in the International System, with altitudes and orbital radii quoted in kilometres and heat fluxes in watts per square centimetre in the tables, and the article's own notation table resolves the colliding symbols, so $\\mathcal{E}$ is the specific orbital energy while $\\varepsilon$ is the emissivity, $a$ is the semi-major axis, $\\delta$ is the depth of discharge while $\\delta_{\\odot}$ is the solar declination, $T$ is the orbital period while every temperature carries a subscript, and $N_{\\text{orb}}$ and $N_{\\text{cyc}}$ are counted separately though shown to coincide."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Specific Energy of a Keplerian Orbit"
+gloss = "The specific orbital energy is the kinetic less the potential energy per unit mass and depends only on the semi-major axis."
+cite = []
+digest = "71d2680d7450bb3c"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Reciprocals of the Published Scale Factors"
+gloss = "The reciprocal of the 80 percent figure is 1.25 and that of the 120 percent figure is 0.833, so the two published ratios are not reciprocals of each other."
+cite = ["ref_x37"]
+digest = "607d53094ea4a5de"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Period of a Circular Orbit"
+gloss = "The period of a circular orbit is two pi times the square root of the cube of the radius over the gravitational parameter."
+cite = ["ref_orbital_period"]
+digest = "809a8c2464f1f036"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Circular Orbital Speed"
+gloss = "The circular speed is the square root of the gravitational parameter over the radius."
+cite = ["ref_orbital_period"]
+digest = "dce458f629828ced"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Eclipse Fraction of a Circular Orbit in a Cylindrical Shadow"
+gloss = "Treating the shadow as a cylinder, which neglects the penumbra, the fraction of the orbit in eclipse follows from the radius, the Earth radius and the beta angle."
+cite = ["ref_beta_angle"]
+digest = "f9ba540742d7d817"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Beta Angle Above Which Eclipse Vanishes"
+gloss = "The eclipse vanishes when the beta angle exceeds the inverse sine of the Earth radius over the orbital radius."
+cite = ["ref_beta_angle"]
+digest = "ade60dcb847c4f11"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Largest Reachable Beta Angle"
+gloss = "The largest beta angle at an inclination is the inclination plus the obliquity of the ecliptic, which for the catalogued inclinations stays below the full-sun threshold."
+cite = ["ref_gcat"]
+digest = "c93e5dc22bdaf7d5"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Mean Eclipse Fraction Over Node and Season"
+gloss = "The eclipse fraction is averaged over a uniform grid of 720 node positions and 60 solar longitudes, a sampling the article constructs."
+cite = []
+digest = "f4130a8299b079af"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Nodal Regression Due to the Second Zonal Harmonic"
+gloss = "The dominant secular effect of the Earth's oblateness regresses the ascending node of a near-circular orbit at a rate set by the second zonal harmonic, the radius and the inclination."
+cite = []
+digest = "d5741ce23a53ee4a"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Beta Angle From the Sun Vector and Orbit Normal"
+gloss = "The sine of the beta angle follows from the solar declination and right ascension, the inclination and the node."
+cite = []
+digest = "bd9339b2abe75a9d"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Beat Period of the Beta Angle"
+gloss = "The beta angle geometry repeats at the beat between the nodal regression and the Sun's annual motion."
+cite = []
+digest = "b6e97f9046f700f2"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Orbit Count of the Sixth Mission"
+gloss = "The published mission duration over the period of a circular orbit at 400 kilometres, the representative altitude the article takes for the catalogued orbit, gives 14,140 orbits."
+cite = []
+digest = "c4911d76816ff9d5"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Planform Area of the Payload Bay"
+gloss = "The published bay dimensions of 2.1 by 1.2 metres give 2.52 square metres."
+cite = ["ref_x37"]
+digest = "00963115acf5c7f0"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Power of a Sun-Pointed Array"
+gloss = "A sun-pointed array generates the solar constant times its area times the cell efficiency times the packing factor."
+cite = []
+digest = "010e0a1bf990245e"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Array to Load Power Ratio With Eclipse Recharge"
+gloss = "An array carrying a continuous load must also recharge the battery in sunlight, so its power exceeds the load by a term in the eclipse fraction and the charge and discharge efficiencies."
+cite = []
+digest = "0b319d787b6ef1bf"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Continuous Load Supported by a Six Square Metre Array"
+gloss = "The load is evaluated for an assumed array of six square metres, cell efficiency of 0.30, packing factor of 0.85 and charge and discharge efficiencies of 0.90."
+cite = []
+digest = "015a0ca156389090"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Net Radiative Flux From a Radiator"
+gloss = "A radiator rejects its emissivity times the Stefan-Boltzmann constant times the difference of the fourth powers of its temperature and the sink temperature."
+cite = ["ref_stefan_boltzmann"]
+digest = "fa80c8ee32ca3943"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Effective Sink Temperature Near the Earth"
+gloss = "The sink temperature follows from the balance of emitted radiation against absorbed outgoing longwave flux and reflected sunlight over the view factor to the Earth."
+cite = ["ref_stefan_boltzmann"]
+digest = "418869903faa52e8"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Radiator Area for a Given Dissipation"
+gloss = "Inverting the net flux gives the radiator area a given dissipation demands."
+cite = []
+digest = "d448b51de0fb81ec"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Heat Rejected by the Payload Bay Doors"
+gloss = "The door rejection uses an assumed emissivity of 0.85, a sink temperature from an assumed view factor of one half, and assumed radiator temperatures of 20 and 40 degrees Celsius."
+cite = []
+digest = "539b78513ddf966c"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Battery Energy Drawn in One Eclipse"
+gloss = "The energy drawn from the battery is the load times the eclipse duration over the discharge efficiency."
+cite = []
+digest = "e354578e30ae6eb2"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Installed Capacity and Battery Mass"
+gloss = "The installed capacity is the energy drawn over the depth of discharge, and the mass is that capacity over the cell specific energy."
+cite = []
+digest = "910c365b8fb0dff0"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Inverse Power Law of Cycle Life"
+gloss = "The standard empirical form for a secondary cell in low Earth orbit makes cycle life inversely proportional to a power of the depth of discharge."
+cite = ["research_stevenlrickman"]
+digest = "283f1c7fd778c2e6"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Admissible Depth of Discharge for a Cycle Count"
+gloss = "Inverting the power law gives the depth of discharge that a required cycle count admits relative to a reference point."
+cite = []
+digest = "6bd081b03cdf6d01"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Admissible Depth of Discharge for the Sixth Mission"
+gloss = "The power law is anchored at an assumed reference of 30,000 cycles at 30 percent and evaluated at the extreme exponents of 1.5 and 3."
+cite = []
+digest = "f9dd1dfd763e4f1b"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Drag Deceleration"
+gloss = "The drag deceleration is the dynamic pressure times the drag coefficient and reference area over the mass."
+cite = ["ref_ballistic_coefficient"]
+digest = "4dd36ab22a43f1f7"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Drag Makeup Over a Mission"
+gloss = "Holding the orbit at constant density costs the dynamic pressure over the ballistic coefficient, multiplied by the mission duration."
+cite = ["ref_ballistic_coefficient"]
+digest = "2a25d1fafa50ccc7"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient of the X-37B"
+gloss = "The published launch mass is divided by a drag area of eight square metres that the article assumes."
+cite = ["ref_x37"]
+digest = "0cf740328edb32c6"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Drag Makeup at 400 Kilometres"
+gloss = "The makeup over the sixth mission is evaluated with the assumed ballistic coefficient and a nominal piecewise exponential density model."
+cite = []
+digest = "ac5720d66950483c"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Tsiolkovsky Rocket Equation and Propellant Fraction"
+gloss = "The velocity increment is the effective exhaust velocity times the logarithm of the mass ratio, and inverting it gives the propellant fraction."
+cite = ["ref_rocket_equation"]
+digest = "5ca28cbb95259ba3"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Propulsive Budget of the X-37B"
+gloss = "The rocket equation is evaluated for a propellant load of 500 kilograms at a specific impulse of 300 seconds, both values the article assumes."
+cite = ["ref_rocket_equation"]
+digest = "129b90aeb6a74133"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Propellant for Drag Makeup at 300 and 400 Kilometres"
+gloss = "The propellant fraction is evaluated at the assumed specific impulse for the makeup increments that rest on the assumed ballistic coefficient."
+cite = []
+digest = "cff5bcc5ac6a2325"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Penalty of Letting the Orbit Decay"
+gloss = "The ratio of the makeup for a decaying orbit to that for a held orbit rests on the assumed ballistic coefficient and the nominal density model."
+cite = []
+digest = "ee0a7d88de2b1b69"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Secular Decay of the Semi-Major Axis Under Drag"
+gloss = "Equating the rate of change of orbital energy to the work done by drag gives the rate at which the semi-major axis decays."
+cite = []
+digest = "db0153d5a5e185cf"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Linearity of the Makeup in Density"
+gloss = "Because the makeup requirement is linear in density, scaling the density by a multiplier scales the requirement by the same multiplier."
+cite = []
+digest = "061f696faf82ff97"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Sutton and Graves Stagnation-Point Heat Flux"
+gloss = "The convective stagnation-point flux is a constant times the square root of density over nose radius times the cube of speed."
+cite = ["ref_sutton_graves"]
+digest = "3de05229c91e4a21"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Radiative Equilibrium Wall Temperature"
+gloss = "A surface in radiative equilibrium reaches the fourth root of the heat flux over the emissivity times the Stefan-Boltzmann constant."
+cite = []
+digest = "6679970cb4b9d390"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Vertical Force Balance in Equilibrium Glide"
+gloss = "In equilibrium glide the vertical component of lift balances weight less centrifugal relief."
+cite = ["ref_equilibrium_glide"]
+digest = "31f0e4af55c3833f"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Heading Rate in Equilibrium Glide"
+gloss = "The horizontal component of lift turns the velocity vector at a rate set by the bank angle and the gravity less centrifugal term."
+cite = ["ref_equilibrium_glide"]
+digest = "d711b228930f9402"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Deceleration in Equilibrium Glide"
+gloss = "The deceleration is the lift divided by the lift-to-drag ratio, expressed through the vertical balance."
+cite = []
+digest = "d638029f1dd7192d"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Heading Change Independent of Altitude"
+gloss = "At constant lift-to-drag ratio and bank angle, dividing the heading rate by the deceleration removes the altitude term, so the heading change depends only on those two and the speed ratio."
+cite = []
+digest = "3649bddcfa5ef3e2"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Time Element in the Velocity Domain"
+gloss = "The equilibrium-glide deceleration supplies the element of time as a function of speed."
+cite = []
+digest = "3c407241d40ced3c"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Crossrange and Downrange Integrals"
+gloss = "The crossrange and downrange are the two components of the ground track integrated over speed."
+cite = []
+digest = "477a6d18581c8706"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Constant-Bank Crossrange Against the Shuttle Requirement"
+gloss = "Taking a hypersonic lift-to-drag ratio of 1.1 as representative of the orbiter, the constant-bank crossrange is 0.686 of the 1,100 nautical mile requirement."
+cite = ["ref_shuttle_decision"]
+digest = "72f0b24ab7bc55c7"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Sensitivity of Crossrange to the Terminal Speed"
+gloss = "Moving the terminal speed, a modelling choice the article makes, from 700 to 1,200 metres per second changes the crossrange by 2.9 percent."
+cite = []
+digest = "128c77a60f007e35"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Plane Change Between Circular Orbits"
+gloss = "Two circular orbits of equal radius are joined by an isosceles velocity triangle, so the plane change costs twice the speed times the sine of half the inclination change."
+cite = []
+digest = "6be9c17984d9522e"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Glide Range"
+gloss = "A glide trades height for distance at the lift-to-drag ratio."
+cite = []
+digest = "59c8406ff94bcb5a"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Energy Height"
+gloss = "The energy height is the altitude plus the kinetic energy expressed as a height."
+cite = []
+digest = "8f1f94f34b3d44ff"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Scaling Exponent Between Two Vehicles"
+gloss = "For a quantity that scales as a power of a length, the exponent is the ratio of the logarithms of the two quantity and length ratios."
+cite = []
+digest = "9cd767141d8d36df"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Mass of a Geometrically Similar Orbiter"
+gloss = "Scaling the Shuttle orbiter's launch mass by the cube of the length ratio, the cube law of geometric similarity at constant density, gives 1,072 kilograms against the X-37B's 4,990."
+cite = []
+digest = "e06cb951ceaf15b5"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Payload Fraction"
+gloss = "The published payload capacity over the launch mass gives a payload fraction of 4.55 percent."
+cite = ["ref_x37"]
+digest = "52303a5c38af4404"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Fleet Duty Cycle"
+gloss = "The summed durations of the seven completed missions over the span from first launch to seventh landing give a duty cycle of 77.46 percent."
+cite = ["ref_x37"]
+digest = "213aebad3b243cdb"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Semi-Major Axis, Eccentricity and Semi-Latus Rectum From the Apsides"
+gloss = "The catalogued perigee and apogee radii fix the semi-major axis, the eccentricity and the semi-latus rectum."
+cite = ["ref_gcat"]
+digest = "6eb16d262cac2e48"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Vis-Viva Relation"
+gloss = "The speed at any point on an orbit follows from the gravitational parameter, the radius and the semi-major axis."
+cite = ["ref_vis_viva"]
+digest = "ad2bd1eeeb33cb24"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Velocity Removed by Aerobraking"
+gloss = "The difference between the perigee speed of the catalogued elliptical orbit and the circular speed at that altitude is 2,448.8 metres per second."
+cite = ["ref_vis_viva"]
+digest = "081e19c087e994e4"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Cost of Lowering Perigee to 100 Kilometres"
+gloss = "Lowering perigee to 100 kilometres, a target altitude the article assumes, costs the difference of two apogee speeds from the vis-viva relation."
+cite = []
+digest = "42b5c72dc1406193"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Leverage of Aerobraking"
+gloss = "The velocity the atmosphere removes over the cost of lowering perigee to the assumed 100 kilometres gives a leverage of 102.9."
+cite = []
+digest = "4e3ec2e7d9875050"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Velocity Removed per Perigee Pass"
+gloss = "The decrement per pass is the drag deceleration integrated along the arc, written with the true anomaly as the independent variable."
+cite = []
+digest = "ecb4fc98d0807003"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Apogee After One Pass"
+gloss = "Inverting the vis-viva relation at the reduced perigee speed gives the new semi-major axis and apogee radius."
+cite = []
+digest = "134bb88292bf9109"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Fixed-Period Estimate of the Required Decrement"
+gloss = "Holding the initial period constant over roughly 150 days gives about 320 passes and a demanded 7.65 metres per second per pass."
+cite = []
+digest = "0883aa4bf2124d23"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Walk-Down Times Against the Calendar"
+gloss = "The walk-down computed with the assumed ballistic coefficient and nominal density places the roughly 150 days available between the times at 100 and 110 kilometres."
+cite = []
+digest = "14707139da01dd44"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Heating on an Aerobraking Pass"
+gloss = "The stagnation flux and wall temperature are evaluated at the assumed 100 kilometre perigee, an assumed nose radius of 0.30 metres and an assumed emissivity of 0.85."
+cite = []
+digest = "4c985bbc02075a8b"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Pass Count Proportional to the Ballistic Coefficient"
+gloss = "Because the drag integral carries the ballistic coefficient as a single divisor, the number of passes at a fixed perigee is proportional to it."
+cite = []
+digest = "6b0a3224847a42dc"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient of the Mars Reconnaissance Orbiter"
+gloss = "The published drag area and mass are combined with a drag coefficient of 2.0 that the article assumes for free molecular flow."
+cite = ["ref_mro_aerobraking"]
+digest = "1a78229e2c83c8a6"
+
+[[symbol]]
+tex = '\mathcal{E}'
+meaning = "the specific orbital energy"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the Earth"
+
+[[symbol]]
+tex = 'a'
+meaning = "the semi-major axis"
+
+[[symbol]]
+tex = 'v_{c}'
+meaning = "the circular orbital speed"
+
+[[symbol]]
+tex = 'R_{\oplus}'
+meaning = "the equatorial radius of the Earth"
+
+[[symbol]]
+tex = 'f_{E}'
+meaning = "the eclipse fraction, with $\\bar{f}_{E}$ its mean over node and season"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the beta angle, with $\\beta^{*}$ the threshold above which eclipse vanishes"
+
+[[symbol]]
+tex = 'J_{2}'
+meaning = "the second zonal harmonic of the Earth's gravity field"
+
+[[symbol]]
+tex = '\dot{\Omega}'
+meaning = "the rate of nodal regression"
+
+[[symbol]]
+tex = 'T_{\beta}'
+meaning = "the beat period of the beta angle"
+
+[[symbol]]
+tex = 'N_{\text{orb}}'
+meaning = "the number of orbits, with $N_{\\text{cyc}}$ the number of battery cycles"
+
+[[symbol]]
+tex = 'P_{\text{array}}'
+meaning = "the array power, with $P_{\\text{load}}$ the continuous load"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the cell efficiency, with $\\eta_{c}$ and $\\eta_{d}$ the charge and discharge efficiencies"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the packing factor of the array"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the emissivity"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 'T_{s}'
+meaning = "the sink temperature, with $T_{r}$ the radiator temperature and $T_{w}$ the wall temperature"
+
+[[symbol]]
+tex = '\alpha_{s}'
+meaning = "the solar absorptivity, with $\\alpha_{\\oplus}$ the albedo of the Earth"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the depth of discharge"
+
+[[symbol]]
+tex = 'w'
+meaning = "the cell specific energy"
+
+[[symbol]]
+tex = 'm_{b}'
+meaning = "the battery mass"
+
+[[symbol]]
+tex = 'A_{\text{ref}}'
+meaning = "the drag reference area, while $A$ is the solar array area"
+
+[[symbol]]
+tex = 'B'
+meaning = "the ballistic coefficient"
+
+[[symbol]]
+tex = 'a_{D}'
+meaning = "the drag deceleration"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = '\dot{q}_{s}'
+meaning = "the stagnation-point heat flux"
+
+[[symbol]]
+tex = 'R_{n}'
+meaning = "the nose radius"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the bank angle"
+
+[[symbol]]
+tex = '\psi'
+meaning = "the heading angle"
+
+[[symbol]]
+tex = 'h_{E}'
+meaning = "the energy height"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the duty cycle"
+
+[[symbol]]
+tex = 'e'
+meaning = "the eccentricity"
+
+[[symbol]]
+tex = 'r_{p}'
+meaning = "the perigee radius, with $r_{a}$ the apogee radius"
+
+[[symbol]]
+tex = 'v_{p}'
+meaning = "the perigee speed"
+
+[[symbol]]
+tex = '\Delta v_{\text{pass}}'
+meaning = "the velocity removed per perigee pass"

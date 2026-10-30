@@ -49,11 +49,17 @@ This is the forty-eighth article in the [X-Planes series][related_post_a297_fram
 
 **A glide slope converts height into distance along the deck, and the conversion is unfavourable.** For a glide slope $\gamma$, a height error $\Delta h$ at the ramp displaces the touchdown point by
 
-$$\Delta x = \frac{\Delta h}{\tan \gamma}$$
+$$
+\Delta x = \frac{\Delta h}{\tan \gamma}
+\tag{1}
+$$
 
 **At the 3.5 degrees of a normal carrier approach, one foot of height becomes 16.35 feet along the deck.** The glide slope is steepened to as much as four degrees in heavy seas and lowered in high winds \[[The meatball, Air & Space][ref_meatball_airspace]\], and at three degrees a foot becomes 19.08 feet. The same relation read the other way yields what a wire is worth in height,
 
-$$\Delta h = \Delta x \tan \gamma$$
+$$
+\Delta h = \Delta x \tan \gamma
+\tag{2}
+$$
 
 | pendant spacing, ft | glide slope, degrees | height per wire, ft | height per wire, cm |
 |---|---|---|---|
@@ -70,17 +76,26 @@ $$\Delta h = \Delta x \tan \gamma$$
 
 **The ship does not wait.** A carrier making twenty-five knots covers 12.9 metres every second, and an aeroplane closing at 145 knots against that deck closes at 61.7 metres per second.
 
-$$v_{\text{closure}} = v_{\text{aircraft}} - v_{\text{ship}} = (145 - 25) \times 0.5144 = 61.7 \ \text{m/s}$$
+$$
+v_{\text{closure}} = v_{\text{aircraft}} - v_{\text{ship}} = (145 - 25) \times 0.5144 = 61.7 \ \text{m/s}
+\tag{3}
+$$
 
 **At a hundred updates a second the deck moves 12.9 centimetres between one fix and the next**, and the aeroplane closes 61.7 centimetres. **A navigation solution referenced to the earth would have to carry the ship's position error into the aeroplane's**, and those errors do not cancel because they come from different receivers at different times.
 
 **A differential measurement between the two removes most of what they share.** Write the range each receiver measures to one satellite as the true range plus the errors,
 
-$$\rho_{i} = r_{i} + c \, \delta t_{\text{sat}} + I_{i} + T_{i} + \varepsilon_{i}$$
+$$
+\rho_{i} = r_{i} + c \, \delta t_{\text{sat}} + I_{i} + T_{i} + \varepsilon_{i}
+\tag{4}
+$$
 
 with a satellite clock offset, an ionospheric and a tropospheric delay and a noise term. **Differencing the two receivers cancels every term the two have in common,**
 
-$$\rho_{A} - \rho_{B} = (r_{A} - r_{B}) + (I_{A} - I_{B}) + (T_{A} - T_{B}) + (\varepsilon_{A} - \varepsilon_{B})$$
+$$
+\rho_{A} - \rho_{B} = (r_{A} - r_{B}) + (I_{A} - I_{B}) + (T_{A} - T_{B}) + (\varepsilon_{A} - \varepsilon_{B})
+\tag{5}
+$$
 
 **and the satellite clock error is gone exactly** while the atmospheric terms are gone very nearly, because two receivers a few miles apart look through almost the same atmosphere at almost the same satellites. **What is left is the vector between them**, the quantity the deck problem needs, known far better than either position separately \[[Misra and Enge, Global Positioning System, signals, measurements and performance][book_misra_enge]\]. **The same principle underlies the joint precision approach and landing system the services later fielded** \[[Joint Precision Approach and Landing System, Collins Aerospace][ref_jpals_collins]\]. **The X-47A carried the Navy's Shipboard Relative Global Positioning System**, which the specialist directory describes as necessary for automatic pin-point landings on a moving deck \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and on the X-47B's final approach on 10 July 2013 a hypersensitive version of the same satellite navigation technology guided the hook to the deck \[[New age in carrier aviation takes off with X-47B landing][ref_first_trap]\]. **The programme manager described the X-47B's guidance as precision relative navigation technology**, a Precision Global Positioning System scheme that lets the aeroplane know where it is relative to the ship \[[Navy's unmanned carrier aircraft performs first touch and go][ref_first_cat]\]. The geometry above demands such a solution.
 
@@ -90,11 +105,17 @@ $$\rho_{A} - \rho_{B} = (r_{A} - r_{B}) + (I_{A} - I_{B}) + (T_{A} - T_{B}) + (\
 
 **The landing is over in about three seconds and is the most violent thing the airframe does.** The Navy's account of the first engagement has it bringing the aeroplane from approximately 145 knots to a stop in less than 350 feet \[[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]\]. Taking constant deceleration,
 
-$$a = \frac{v^{2}}{2s}$$
+$$
+a = \frac{v^{2}}{2s}
+\tag{6}
+$$
 
 with the time to rest following from the same assumption,
 
-$$t = \frac{2s}{v}$$
+$$
+t = \frac{2s}{v}
+\tag{7}
+$$
 
 | reading of the speed | deceleration, m/s² | in g | time to stop, s |
 |---|---|---|---|
@@ -103,17 +124,26 @@ $$t = \frac{2s}{v}$$
 
 **The two readings differ by a factor of one and a half.** Working the relations through settles the choice, and the argument is dimensional rather than documentary. **A stopping distance measured aboard a ship is measured along the deck**, so it must be paired with a speed relative to that deck,
 
-$$v_{\text{deck}} = v_{\text{air}} - v_{\text{wod}}$$
+$$
+v_{\text{deck}} = v_{\text{air}} - v_{\text{wod}}
+\tag{8}
+$$
 
 where $v_{\text{wod}}$ is the wind over the deck, which a carrier generates by steaming into wind. **Pairing a deck distance with an airspeed mixes two reference frames**, and the first row does so.
 
 **The aeroplane's wing then indicates which figure the 145 knots is.** Its wing loading follows from the mass and the area given below,
 
-$$\frac{W}{S} = \frac{19{,}000 \times 9.80665}{88.59} = 2{,}103 \ \text{N/m}^{2} = 43.9 \ \text{lb/ft}^{2}$$
+$$
+\frac{W}{S} = \frac{19{,}000 \times 9.80665}{88.59} = 2{,}103 \ \text{N/m}^{2} = 43.9 \ \text{lb/ft}^{2}
+\tag{9}
+$$
 
 and treating the quoted speed as a stalling speed would then require
 
-$$C_{L,\max} = \frac{2 (W/S)}{\rho V^{2}} = \frac{2 \times 2{,}103}{1.225 \times 74.6^{2}} = 0.617$$
+$$
+C_{L,\max} = \frac{2 (W/S)}{\rho V^{2}} = \frac{2 \times 2{,}103}{1.225 \times 74.6^{2}} = 0.617
+\tag{10}
+$$
 
 **which is too low even for a tailless planform.** Treating it instead as an approach airspeed gives a sensible margin over the stall,
 
@@ -128,13 +158,19 @@ $$C_{L,\max} = \frac{2 (W/S)}{\rho V^{2}} = \frac{2 \times 2{,}103}{1.225 \times
 
 The energy the gear absorbs is computed directly,
 
-$$E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 20{,}185 \times 74.6^{2} = 56.2 \ \text{MJ}$$
+$$
+E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 20{,}185 \times 74.6^{2} = 56.2 \ \text{MJ}
+\tag{11}
+$$
 
 **Fifty-six megajoules is about eleven times the kinetic energy of a car of 1,250 kilograms at two hundred miles an hour**, taken out of the aeroplane in under three seconds by a hook and a wire.
 
 **The force that does it is set by the same deceleration, and the structure is built around that number,**
 
-$$F = m a$$
+$$
+F = m a
+\tag{12}
+$$
 
 | reading of the speed | deceleration, m/s² | hook load, kN | as a multiple of the aeroplane's weight |
 |---|---|---|---|
@@ -145,7 +181,10 @@ $$F = m a$$
 
 **The deck does not stop while this happens.** A ship making twenty-five knots runs
 
-$$d_{\text{ship}} = v_{\text{ship}} \, t = 12.86 \times 2.86 = 36.8 \ \text{m}$$
+$$
+d_{\text{ship}} = v_{\text{ship}} \, t = 12.86 \times 2.86 = 36.8 \ \text{m}
+\tag{13}
+$$
 
 **under the aeroplane during the arrestment**, more than a hundred feet of ship passing beneath an aircraft that is itself travelling only 350 feet along it.
 
@@ -165,13 +204,19 @@ $$d_{\text{ship}} = v_{\text{ship}} \, t = 12.86 \times 2.86 = 36.8 \ \text{m}$$
 
 **The X-47A is a proof of concept and the X-47B is an aeroplane**, and the two ratios say how far apart,
 
-$$\frac{m_{B}}{m_{A}} = \frac{19{,}000}{2{,}500} = 7.60 \qquad \frac{T_{B}}{T_{A}} = \frac{71.2}{14.2} = 5.01$$
+$$
+\frac{m_{B}}{m_{A}} = \frac{19{,}000}{2{,}500} = 7.60 \qquad \frac{T_{B}}{T_{A}} = \frac{71.2}{14.2} = 5.01
+\tag{14}
+$$
 
 **Mass grew faster than thrust**, so the larger aircraft has the lower thrust to weight ratio, and the second was given the joint programme's payload of 2,040 kilograms \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] while the weapons bays of the first were sized for dummy stores that simulated flight loads \[[Northrop Grumman X-47A Pegasus][ref_x47a_wikipedia]\].
 
 **The X-47B's wing is the part to measure.** Its span is 62.1 feet, folding to 30.9, over a wing area of 953.6 square feet \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], which makes the aspect ratio
 
-$$A\!R = \frac{b^{2}}{S} = \frac{62.1^{2}}{953.6} = 4.04$$
+$$
+A\!R = \frac{b^{2}}{S} = \frac{62.1^{2}}{953.6} = 4.04
+\tag{15}
+$$
 
 **A folding wing is a structural penalty accepted for a deck-space reason**, and halving the span is what reduces the deck space the aeroplane occupies aboard a carrier \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\]. **The tailless planform is a signature decision before it is an aerodynamic one** \[[Knott, Shaeffer and Tuley, Radar cross section][book_knott]\], with a history far older than the jet age \[[Wooldridge, Winged wonders, the story of the flying wings][book_wooldridge]\], and the stability a fin would supply is replaced by feedback \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\]. **The vehicle class has a longer history than this programme** \[[Unmanned combat aerial vehicle][ref_ucav_wikipedia]\].
 
@@ -187,7 +232,10 @@ $$A\!R = \frac{b^{2}}{S} = \frac{62.1^{2}}{953.6} = 4.04$$
 
 **That descent rate is not a free choice, it is the glide slope and the approach speed multiplied together,**
 
-$$w = V \sin \gamma$$
+$$
+w = V \sin \gamma
+\tag{16}
+$$
 
 | glide slope | at 145 kn | at 120 kn |
 |---|---|---|
@@ -201,7 +249,10 @@ $$w = V \sin \gamma$$
 
 **One Pratt and Whitney F100-PW-220U of 71.2 kilonewtons** \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], from the engine family of the F-15 and F-16 \[[Pratt and Whitney F100][ref_f100_wikipedia]\], modified for this aeroplane as a turbofan without afterburning rated at 16,000 pounds of dry thrust \[[F100-PW-220U powered X-47B, Pratt and Whitney][ref_pw_f100_220u]\]. Against the gross mass this gives
 
-$$\frac{T}{W} = \frac{71.2}{19{,}000 \times 9.80665 \times 10^{-3}} = 0.382$$
+$$
+\frac{T}{W} = \frac{71.2}{19{,}000 \times 9.80665 \times 10^{-3}} = 0.382
+\tag{17}
+$$
 
 **The previous article estimated that an aeroplane of this class would need a thrust to weight ratio between 0.30 and 0.40** and computed the thrust that implied. **The measured value falls inside that band**, so this is one of the few quantitative predictions in that article the record can confirm.
 
@@ -209,7 +260,10 @@ $$\frac{T}{W} = \frac{71.2}{19{,}000 \times 9.80665 \times 10^{-3}} = 0.382$$
 
 **The fan-out relation set out in the article on the X-45 governs here too** \[[previous article on the X-45][related_post_a342_boeing_x45]\], with $FO$ the fan-out, $NT$ the neglect time a vehicle tolerates unattended and $IT$ the interaction time an operator spends on it,
 
-$$FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}$$
+$$
+FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}
+\tag{18}
+$$
 
 **The X-47B's demonstrations were single-vehicle**, so no fan-out above one is claimed for it, and the article does not compute one. **It demonstrated instead that the neglect time can include the recovery**, the phase a manned aeroplane cannot delegate at all.
 
@@ -265,21 +319,33 @@ The dates are those of the encyclopaedia entry \[[Northrop Grumman X-47B][ref_x4
 
 **It predicted the wrong gross mass and it named the reason in advance.** That article inherited a payload fraction of 0.12293, measured across two Boeing aircraft, and computed a gross mass of 32,539 pounds for a four thousand pound payload \[[previous article][related_post_a343_boeing_x46]\]. **The X-47B carries 2,040 kilograms, which is the payload set for both of the joint programme's aircraft, the X-45C among them, at a gross mass of 19,000 kilograms** \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], so
 
-$$\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{2{,}040}{19{,}000} = 0.10737$$
+$$
+\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{2{,}040}{19{,}000} = 0.10737
+\tag{19}
+$$
 
 **against the 0.12293 that was assumed.** The mass follows,
 
-$$\frac{m_{\text{actual}}}{m_{\text{predicted}}} = \frac{41{,}888}{32{,}539} = 1.287$$
+$$
+\frac{m_{\text{actual}}}{m_{\text{predicted}}} = \frac{41{,}888}{32{,}539} = 1.287
+\tag{20}
+$$
 
 **The previous article said this would happen and said why.** It recorded that the inherited payload fraction was its weakest load-bearing assumption, and that a naval variant might not hold it because carrier equipment is charged to empty weight and a designer under that pressure may trade payload fraction rather than accept a larger aeroplane \[[previous article][related_post_a343_boeing_x46]\]. **The X-47B did both.** It has a lower payload fraction and is a larger aeroplane. The failure is the predicted one, in the predicted direction, and larger than predicted in magnitude.
 
 **A second prediction failed differently, and more revealingly.** That article argued that the carrier approach speed limit caps wing loading and therefore sizes the wing, and it computed wing loadings between 68.7 and 142.4 pounds per square foot \[[previous article][related_post_a343_boeing_x46]\]. **The X-47B's wing loading is 43.9 pounds per square foot at the directory's gross mass**, below every row in that table.
 
-$$\frac{W}{S} = \frac{41{,}888}{953.6} = 43.9 \ \text{lb/ft}^{2}$$
+$$
+\frac{W}{S} = \frac{41{,}888}{953.6} = 43.9 \ \text{lb/ft}^{2}
+\tag{21}
+$$
 
 **So the approach constraint is real and it did not size this wing.** Something else did, and the candidate that can be tested is fuel volume. **The Breguet range relation gives the fuel the published range costs.** The encyclopaedia entry gives a range of 2,100 nautical miles \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\] and the specialist directory 3,500 \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\], and both are carried,
 
-$$\zeta_{\text{fuel}} = 1 - \exp \left( - \frac{R \, c}{V (L/D)} \right)$$
+$$
+\zeta_{\text{fuel}} = 1 - \exp \left( - \frac{R \, c}{V (L/D)} \right)
+\tag{22}
+$$
 
 | lift to drag ratio | fuel fraction for 2,100 nm | fuel, kg | fuel fraction for 3,500 nm | fuel, kg |
 |---|---|---|---|---|
@@ -289,7 +355,10 @@ $$\zeta_{\text{fuel}} = 1 - \exp \left( - \frac{R \, c}{V (L/D)} \right)$$
 
 **Between three and a half and seven tonnes of fuel, depending on which published range is taken.** No cruise condition is published, so the one behind that table is assumed, being Mach 0.75 at 40,000 feet and a specific fuel consumption of 0.80 per hour. The encyclopaedia gives a cruise speed above Mach 0.9 and a ceiling of 42,000 feet \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], and at Mach 0.9 the fuel for 2,100 nautical miles falls to between 3,143 and 3,941 kilograms, about fifteen percent less, so the assumption moves the figure without changing its size. Turning a Mach number at altitude into the speed the range relation wants takes the standard atmosphere,
 
-$$T = 216.65 \ \text{K} \qquad a = \sqrt{\gamma R T} = 295.07 \ \text{m/s} \qquad V = 0.75 a = 430.2 \ \text{kn}$$
+$$
+T = 216.65 \ \text{K} \qquad a = \sqrt{\gamma R T} = 295.07 \ \text{m/s} \qquad V = 0.75 a = 430.2 \ \text{kn}
+\tag{23}
+$$
 
 with the temperature and the constants taken from the standard atmosphere \[[U.S. Standard Atmosphere 1976 1976][research_u_s_standard_1976]\] \[[Air Force Test Pilot School Edwards Afb Ca 1962][research_airforcetestpilotschooledwardsafbca_1962]\].
 
@@ -485,7 +554,10 @@ with the temperature and the constants taken from the standard atmosphere \[[U.S
 
 **The gross mass figures disagree between sources by six percent.** The specialist directory gives 19,000 kilograms \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] and the encyclopaedia entry a maximum takeoff weight of 44,501 pounds, which is 20,185 kilograms \[[Northrop Grumman X-47B][ref_x47b_wikipedia]\], and the directory warns that its own figures may be inaccurate,
 
-$$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
+$$
+\frac{20{,}185}{19{,}000} - 1 = 0.0624
+\tag{24}
+$$
 
 **Every mass fraction in this article moves by about six percent between those readings**, and the conclusions do not turn on which is right because the differences being argued about are larger than that.
 
@@ -634,6 +706,256 @@ $$\frac{20{,}185}{19{,}000} - 1 = 0.0624$$
 **This article also scores the previous one, whose sizing had no aeroplane to check it against.** That article predicted a gross mass of 32,539 pounds from an inherited payload fraction of 0.12293, and named that fraction as its weakest assumption because a designer under carrier weight pressure might trade it to avoid a larger aeroplane \[[previous article][related_post_a343_boeing_x46]\]. **The X-47B carries the same payload as the X-45C at a fraction of 0.10737 and a mass 1.287 times the prediction.** \[[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]\] Both predicted changes appeared, each larger than foreseen.
 
 **One prediction held and one failed usefully.** The thrust to weight ratio of 0.382 fell inside the assumed band. **The approach speed constraint, which that article used to size a wing, is met by this aeroplane with room to spare and therefore did not size its wing.** A constraint that binds in an argument and not in the hardware is a true constraint used in the wrong role, the most useful lesson this aeroplane holds for the one before it.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 24 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 24, 19 are established and 5 are bespoke.
+Speeds are quoted in knots and converted at 0.5144 metres per second to the knot, masses and areas move between pounds, kilograms, square feet and square metres, and several letters are reused, so $\gamma$ is the glide slope in the approach relations and the ratio of specific heats in the standard atmosphere, $a$ is a deceleration in the arrestment and the speed of sound at altitude, $c$ is the speed of light in the range model and the specific fuel consumption in the Breguet relation, and $T$ is a tropospheric delay, a thrust and a temperature in different sections.
+
+**Equation 1, Touchdown Displacement from a Height Error.**
+A height error at the ramp moves the touchdown point along the deck by that error divided by the tangent of the glide slope.
+
+$$
+\Delta x = \frac{\Delta h}{\tan \gamma}
+\tag{1}
+$$
+
+**Equation 2, Height Equivalent of a Pendant Spacing.**
+Read the other way, the same geometry gives the height error that moves the touchdown point by one wire spacing.
+
+$$
+\Delta h = \Delta x \tan \gamma
+\tag{2}
+$$
+
+*Equation 3, Bespoke Closure Speed on a Carrier Making Twenty-Five Knots.*
+The closure speed subtracts a ship speed of twenty-five knots, a value the article takes as representative, from the approach speed of 145 knots.
+
+$$
+v_{\text{closure}} = v_{\text{aircraft}} - v_{\text{ship}} = (145 - 25) \times 0.5144 = 61.7 \ \text{m/s}
+\tag{3}
+$$
+
+**Equation 4, Pseudorange Error Model.**
+The range a receiver measures to a satellite is the true range plus the satellite clock offset, the ionospheric and tropospheric delays and a noise term.
+[Misra and Enge, Global Positioning System, signals, measurements and performance][book_misra_enge]
+
+$$
+\rho_{i} = r_{i} + c \, \delta t_{\text{sat}} + I_{i} + T_{i} + \varepsilon_{i}
+\tag{4}
+$$
+
+**Equation 5, Between-Receiver Single Difference.**
+Differencing the pseudoranges of two receivers to the same satellite removes the satellite clock offset exactly and leaves the difference in true range with small residual atmospheric and noise terms.
+[Misra and Enge, Global Positioning System, signals, measurements and performance][book_misra_enge]
+
+$$
+\rho_{A} - \rho_{B} = (r_{A} - r_{B}) + (I_{A} - I_{B}) + (T_{A} - T_{B}) + (\varepsilon_{A} - \varepsilon_{B})
+\tag{5}
+$$
+
+**Equation 6, Constant Deceleration over a Stopping Distance.**
+Under constant deceleration a body brought to rest from speed $v$ in distance $s$ decelerates at $v^{2}/2s$.
+[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]
+
+$$
+a = \frac{v^{2}}{2s}
+\tag{6}
+$$
+
+**Equation 7, Stopping Time under Constant Deceleration.**
+Under the same constant deceleration the time to rest is twice the stopping distance divided by the initial speed.
+[Unmanned X-47B makes historic landing aboard USS George H.W. Bush, NAVAIR][ref_navair_first_trap]
+
+$$
+t = \frac{2s}{v}
+\tag{7}
+$$
+
+**Equation 8, Speed Relative to the Deck.**
+The speed relative to the deck is the airspeed less the wind over the deck.
+
+$$
+v_{\text{deck}} = v_{\text{air}} - v_{\text{wod}}
+\tag{8}
+$$
+
+**Equation 9, Wing Loading of the X-47B in SI Units.**
+The published gross mass of 19,000 kilograms on the published wing area of 88.59 square metres gives a wing loading of 2,103 newtons per square metre.
+
+$$
+\frac{W}{S} = \frac{19{,}000 \times 9.80665}{88.59} = 2{,}103 \ \text{N/m}^{2} = 43.9 \ \text{lb/ft}^{2}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Maximum Lift Coefficient If 145 Knots Were the Stall.*
+Treating the quoted 145 knots as a stalling speed at sea-level density, a reading the article tests in order to reject it, gives a maximum lift coefficient of 0.617.
+
+$$
+C_{L,\max} = \frac{2 (W/S)}{\rho V^{2}} = \frac{2 \times 2{,}103}{1.225 \times 74.6^{2}} = 0.617
+\tag{10}
+$$
+
+**Equation 11, Kinetic Energy Absorbed by the Arresting Gear.**
+The kinetic energy of the aeroplane at the published maximum takeoff mass and the quoted 145 knots is 56.2 megajoules.
+
+$$
+E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 20{,}185 \times 74.6^{2} = 56.2 \ \text{MJ}
+\tag{11}
+$$
+
+**Equation 12, Newton's Second Law for the Hook Load.**
+The hook load is the mass of the aeroplane times its deceleration.
+
+$$
+F = m a
+\tag{12}
+$$
+
+*Equation 13, Bespoke Ship Travel During the Arrestment.*
+The distance the deck moves beneath the aeroplane takes a ship speed of twenty-five knots, which the article assumes, over the stopping time of 2.86 seconds.
+
+$$
+d_{\text{ship}} = v_{\text{ship}} \, t = 12.86 \times 2.86 = 36.8 \ \text{m}
+\tag{13}
+$$
+
+**Equation 14, Mass and Thrust Ratios of the X-47B to the X-47A.**
+The published gross masses and thrusts of the two aircraft give a mass ratio of 7.60 and a thrust ratio of 5.01.
+[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]
+
+$$
+\frac{m_{B}}{m_{A}} = \frac{19{,}000}{2{,}500} = 7.60 \qquad \frac{T_{B}}{T_{A}} = \frac{71.2}{14.2} = 5.01
+\tag{14}
+$$
+
+**Equation 15, Aspect Ratio of the X-47B Wing.**
+The aspect ratio is the square of the published span over the published wing area.
+[Northrop Grumman X-47B][ref_x47b_wikipedia]
+
+$$
+A\!R = \frac{b^{2}}{S} = \frac{62.1^{2}}{953.6} = 4.04
+\tag{15}
+$$
+
+**Equation 16, Descent Rate on a Glide Slope.**
+The rate of descent along a glide slope is the approach speed times the sine of the glide slope angle.
+
+$$
+w = V \sin \gamma
+\tag{16}
+$$
+
+**Equation 17, Thrust to Weight Ratio of the X-47B.**
+The published thrust of 71.2 kilonewtons over the weight of the published gross mass gives a thrust to weight ratio of 0.382.
+[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]
+
+$$
+\frac{T}{W} = \frac{71.2}{19{,}000 \times 9.80665 \times 10^{-3}} = 0.382
+\tag{17}
+$$
+
+**Equation 18, Fan-Out of a Supervised Vehicle.**
+The fan-out is the number of vehicles one operator can serve, the sum of neglect time and interaction time divided by the interaction time.
+
+$$
+FO = \frac{NT + IT}{IT} = 1 + \frac{NT}{IT}
+\tag{18}
+$$
+
+**Equation 19, Payload Fraction of the X-47B.**
+The published payload of 2,040 kilograms over the published gross mass of 19,000 kilograms gives a payload fraction of 0.10737.
+[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]
+
+$$
+\frac{m_{\text{payload}}}{m_{\text{gross}}} = \frac{2{,}040}{19{,}000} = 0.10737
+\tag{19}
+$$
+
+*Equation 20, Bespoke Ratio of Actual to Predicted Gross Mass.*
+The ratio sets the published gross mass against the 32,539 pounds that the previous article predicted from its inherited payload fraction of 0.12293.
+[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]
+
+$$
+\frac{m_{\text{actual}}}{m_{\text{predicted}}} = \frac{41{,}888}{32{,}539} = 1.287
+\tag{20}
+$$
+
+**Equation 21, Wing Loading of the X-47B in Imperial Units.**
+The published gross mass of 41,888 pounds on the published wing area of 953.6 square feet gives a wing loading of 43.9 pounds per square foot.
+[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]
+
+$$
+\frac{W}{S} = \frac{41{,}888}{953.6} = 43.9 \ \text{lb/ft}^{2}
+\tag{21}
+$$
+
+**Equation 22, Breguet Fuel Fraction.**
+Inverting the Breguet range relation for a jet gives the fuel fraction that a range costs at a given speed, specific fuel consumption and lift to drag ratio.
+
+$$
+\zeta_{\text{fuel}} = 1 - \exp \left( - \frac{R \, c}{V (L/D)} \right)
+\tag{22}
+$$
+
+*Equation 23, Bespoke Cruise Speed at Mach 0.75 and Forty Thousand Feet.*
+The standard atmosphere gives the temperature and speed of sound above the tropopause, and the cruise speed takes an assumed Mach number of 0.75 because no cruise condition is published.
+[U.S. Standard Atmosphere 1976 1976][research_u_s_standard_1976]
+
+$$
+T = 216.65 \ \text{K} \qquad a = \sqrt{\gamma R T} = 295.07 \ \text{m/s} \qquad V = 0.75 a = 430.2 \ \text{kn}
+\tag{23}
+$$
+
+**Equation 24, Discrepancy Between the Published Gross Masses.**
+The encyclopaedia's maximum takeoff mass of 20,185 kilograms exceeds the directory's 19,000 kilograms by 6.24 percent.
+[Parsch, Northrop Grumman X-47, Directory of U.S. Military Rockets and Missiles][ref_parsch_x47]
+[Northrop Grumman X-47B][ref_x47b_wikipedia]
+
+$$
+\frac{20{,}185}{19{,}000} - 1 = 0.0624
+\tag{24}
+$$
+
+### Notation
+
+- $\Delta h$, the height error at the ramp, or the height equivalent of one wire spacing
+- $\Delta x$, the displacement of the touchdown point along the deck, or the pendant spacing
+- $\gamma$, the glide slope angle in the approach relations, and the ratio of specific heats, taken as 1.4 for air, in the standard atmosphere relation
+- $v_{\text{ship}}$, the speed of the ship
+- $v_{\text{closure}}$, the closure speed between the aeroplane and the deck
+- $\rho_{i}$, the pseudorange that receiver $i$ measures to one satellite
+- $r_{i}$, the true range from receiver $i$ to the satellite
+- $\delta t_{\text{sat}}$, the satellite clock offset, multiplied by the speed of light $c$
+- $I_{i}$, the ionospheric delay at receiver $i$
+- $T_{i}$, the tropospheric delay at receiver $i$
+- $\varepsilon_{i}$, the measurement noise at receiver $i$
+- $a$, the deceleration in the arrestment, and the speed of sound in the standard atmosphere relation
+- $s$, the stopping distance along the deck
+- $v_{\text{wod}}$, the wind over the deck
+- $W$, the weight
+- $m$, the mass of the aeroplane
+- $V$, the airspeed, which is the approach speed in the descent relation and the cruise speed in the Breguet relation
+- $S$, the wing reference area
+- $\rho$, the air density, taken at sea level
+- $C_{L,\max}$, the maximum lift coefficient
+- $E$, the kinetic energy the arresting gear absorbs
+- $F$, the hook load
+- $A\!R$, the wing aspect ratio
+- $b$, the wing span
+- $w$, the rate of descent along the glide slope
+- $FO$, the fan-out, the number of vehicles one operator can supervise
+- $NT$, the neglect time, how long a vehicle can be left alone before it needs attention
+- $IT$, the interaction time, how long the operator must spend on a vehicle once it needs attention
+- $\zeta_{\text{fuel}}$, the fuel fraction of gross mass
+- $R \, c$, the range $R$ times the specific fuel consumption $c$
+- $L/D$, the lift to drag ratio
 
 ## References
 

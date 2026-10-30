@@ -1,0 +1,735 @@
+# Equation classification for A339. Read by `python3 _lib/equations.py`.
+
+caution = "The engine and propellant relations are evaluated in pounds, inches, pounds per square inch and seconds while the tank mass, thermochemistry and pressurant relations are evaluated in the International System, and several letters are reused, so $m_{f}$ is the fuel mass in the propellant split and the burnout mass in the rocket equation, $R$ is a cylinder radius in the membrane loads and the gas constant of nitrogen in the cold gas relation, $\\varepsilon$ is the nozzle area ratio except in the final strain ratios, and $\\gamma$ is the ratio of specific heats of the decomposition products in the chamber and nozzle relations and of nitrogen in the cold gas relation."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Hoop Stress Wall Thickness of a Thin Cylinder"
+gloss = "A thin cylindrical wall under internal pressure carries the hoop stress, so the thickness required is the pressure times the radius over the allowable stress."
+cite = ["research_huzel_1967", "book_sutton_biblarz"]
+digest = "0e427db78a569d24"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Wall Mass of a Thin Cylindrical Tank"
+gloss = "The wall mass is the wall volume times the material density, and substituting the hoop thickness leaves the pressure over the specific strength times the enclosed volume."
+cite = []
+digest = "0f6dc572984b015f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Cylindrical Tank Mass in Pressure and Volume"
+gloss = "Writing the enclosed volume for $\\pi r^{2} L$ shows that the wall mass of a cylinder is twice the product of pressure and volume over the specific strength."
+cite = []
+digest = "d245ee2ee3c0f9ba"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Spherical Tank Mass in Pressure and Volume"
+gloss = "The same exercise for a sphere, with half the wall thickness, gives a constant of three halves in place of two."
+cite = []
+digest = "885a3546be8a50ef"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "General Pressure Vessel Mass Relation"
+gloss = "The mass of a thin pressure vessel is a shape constant between three halves and two times the product of pressure and volume over the specific strength, so the radius cancels and size brings no economy."
+cite = []
+digest = "1bd0a3a9cf79a612"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Tank Mass as a Fraction of Propellant Mass"
+gloss = "Dividing the vessel mass by the propellant mass shows that the tank fraction rises with pressure and falls with propellant bulk density and material specific strength."
+cite = []
+digest = "e5939c642c795e2a"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Bulk Density of a Bipropellant"
+gloss = "The volumes of oxidiser and fuel add while their masses stand in the mixture ratio, which gives the bulk density of the combination."
+cite = []
+digest = "f6b26df7c9f0795e"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Bulk Density of Peroxide and JP-8"
+gloss = "The bulk density at the published mixture ratio of 4.7 uses an oxidiser density of 1.387 and a fuel density of 0.804 grams per cubic centimetre, values the article assumes."
+cite = ["research_ross_2000"]
+digest = "97f11b1b0445fadb"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Density Impulse"
+gloss = "Density impulse is the product of bulk density and specific impulse, the figure of merit for a stage limited by volume or pressure."
+cite = []
+digest = "6ba39e62bb5b98c4"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Density Impulse of Peroxide and JP-8"
+gloss = "The published vacuum specific impulse of 275 seconds is multiplied by the bulk density obtained from the assumed propellant densities."
+cite = ["research_ross_2000"]
+digest = "f28358c2490fe07f"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Specific Strength of Aluminium 2219-T87"
+gloss = "A yield strength near 400 megapascals over a density of 2,840 kilograms per cubic metre gives the specific strength of the tank alloy."
+cite = ["research_simon_1991", "research_nasa_sp8088"]
+digest = "1ea923be3e54c976"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Specific Strength Advantage of the Composite"
+gloss = "The ratio of composite to aluminium specific strength takes the composite between $1.0 \\times 10^{6}$ and $1.6 \\times 10^{6}$ joules per kilogram, a range the article assumes between a design allowable and the fibre limit."
+cite = []
+digest = "b508485bb0ec4895"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Membrane Loads in a Pressurised Cylinder"
+gloss = "A cylinder under internal pressure carries a hoop load per unit length of pressure times radius and an axial load of half that."
+cite = []
+digest = "de66ff158d1f9daa"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Netting Analysis Winding Angle"
+gloss = "Netting analysis credits a single helical fibre family with the whole load, and the two to one ratio of hoop to axial load then fixes the winding angle at 54.7 degrees."
+cite = ["research_hossain_2013"]
+digest = "f7bde1034822fa21"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Propellant Load of the Rated Burn"
+gloss = "The rated flowrate of 36.0 pounds per second over the rated 200 second burn gives a load of 7,200 pounds."
+cite = ["research_ross_2000"]
+digest = "d6ec11ac9bf28838"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Propellant Load of the Flight Burn"
+gloss = "The same flowrate over the published 110 second flight burn gives a load of 3,960 pounds."
+cite = ["research_guerrero_2004", "research_ross_2000"]
+digest = "71cec5146c696c67"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Oxidiser and Fuel Masses at the Mixture Ratio"
+gloss = "The mixture ratio of 4.7 by mass divides the flight load into its oxidiser and fuel shares."
+cite = []
+digest = "363adf1372efc73c"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Propellant Volumes and Tank Fill"
+gloss = "The oxidiser and fuel volumes use densities of 86.6 and 50.2 pounds per cubic foot, the assumed propellant densities, and their sum against the published tank volumes gives a fill of 0.855."
+cite = []
+digest = "78ba2e227ec3c4ae"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Full Tank Capacity and Burn Time"
+gloss = "Filling the published tank volumes at the assumed propellant densities gives a capacity that the rated flowrate would consume in 129 seconds."
+cite = []
+digest = "01d33430ea2140e0"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Tank Volume Ratio Against the Mixture Ratio"
+gloss = "The published tank volume ratio of 2.89 is set against the volume ratio of 2.72 that the mixture ratio implies at the assumed propellant densities."
+cite = []
+digest = "e12ae596afc01f19"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Ideal Composite Tank Mass"
+gloss = "The vessel mass relation is evaluated at the published operating pressure and tank volume with the cylindrical constant of two and a composite design allowable of $1.0 \\times 10^{6}$ joules per kilogram that the article assumes."
+cite = []
+digest = "a9524dbe5ea252fb"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Ideal Composite Tank Fraction"
+gloss = "The tank fraction of 1.23 percent follows from the published pressure, the cylindrical constant, the assumed composite allowable and the bulk density from the assumed propellant densities."
+cite = []
+digest = "ee35102c3a8ba52f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Proof and Burst Pressures"
+gloss = "The published hydrostatic proof factor of 1.5 and burst safety factor of 2.0 applied to the maximum expected operating pressure, or MEOP, of 1,100 pounds per square inch absolute give the proof and minimum burst pressures."
+cite = ["research_guerrero_2004"]
+digest = "d0c0f395f4350a74"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Pressure-Fed Tank Pressure Requirement"
+gloss = "A pressure-fed tank must exceed the chamber pressure by every loss between the tank and the chamber, here the catalyst bed, injector and line losses."
+cite = []
+digest = "fa557fc6a17e69d4"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Pressure Margin Above the Chamber and Bed"
+gloss = "Subtracting the published chamber pressure and measured bed drop from the published operating pressure leaves 464 pounds per square inch, 42 percent of the tank pressure, for the remaining losses."
+cite = ["research_ross_2000"]
+digest = "8a71ffd3d83de27a"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Bulkhead Pressure Difference Above the Bed Drop"
+gloss = "The published oxidiser-high bulkhead pressure difference of 195 pounds per square inch exceeds the measured bed drop of 136 by 59."
+cite = ["research_guerrero_2004", "research_ross_2000"]
+digest = "4e87cc242b05e160"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The velocity increment is the effective exhaust velocity times the natural logarithm of the ratio of ignition to burnout mass."
+cite = []
+digest = "8dffbd468e5dcf15"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Effective Exhaust Velocity of the Engine"
+gloss = "Standard gravity times the published delivered specific impulse of 275 seconds gives an effective exhaust velocity of 2,697 metres per second."
+cite = []
+digest = "56ee9889648a9642"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Ignition and Burnout Masses of the Stage"
+gloss = "The ignition mass is the sum of propellant, inert mass and payload, and the burnout mass omits the propellant."
+cite = []
+digest = "93d156009ccc4424"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Decomposition of Hydrogen Peroxide"
+gloss = "Liquid hydrogen peroxide decomposes into liquid water and gaseous oxygen with a reaction enthalpy of $-98.0$ kilojoules per mole."
+cite = []
+digest = "769404177b7eee67"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Heat Released per Unit Mass of Peroxide"
+gloss = "Dividing the reaction enthalpy by the molar mass of hydrogen peroxide gives the heat released per kilogram of pure peroxide."
+cite = []
+digest = "8b5a62c661a58955"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Heat Capacity of the Decomposition Products"
+gloss = "The heat capacity of the products is the mass-weighted sum of constant heat capacities of 2,100 for steam and 980 joules per kilogram kelvin for oxygen, values the article assumes."
+cite = []
+digest = "b36b8426efab81e0"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Decomposition Temperature from an Energy Balance"
+gloss = "The heat left after boiling the water is divided by a heat capacity held constant, an assumption that makes the balance overshoot the published temperature by about six percent."
+cite = ["research_walsh_2002"]
+digest = "c82028468c68969f"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Isentropic Area Relation"
+gloss = "The ratio of a flow area to the sonic throat area fixes the Mach number of isentropic flow for a given ratio of specific heats."
+cite = []
+digest = "b9721927efe2d987"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Static to Stagnation Temperature in the Chamber"
+gloss = "At the chamber Mach number of 0.083 obtained from the contraction ratio with an assumed ratio of specific heats of 1.25, the static temperature is within a tenth of a percent of the stagnation value."
+cite = []
+digest = "2469794d21ac0b8f"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Oxidiser Flowrate"
+gloss = "The mixture ratio of 4.7 assigns 29.7 of the published 36.0 pounds per second of flow to the oxidiser."
+cite = ["research_ross_2000"]
+digest = "f7d413677ebdff6b"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Catalyst Bed Frontal Area and Diameter"
+gloss = "The oxidiser flowrate over the published bed mass flux of 0.4 pounds per second per square inch gives the bed frontal area and a diameter of 9.72 inches."
+cite = ["research_ross_2000"]
+digest = "a206a95b1bb40feb"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Instability Onset as a Fraction of Design Oxidiser Flow"
+gloss = "The reported onset of the 18 hertz oscillation at about 12 pounds per second is 40 percent of the design oxidiser flow."
+cite = ["research_johnson_anderson_2000"]
+digest = "a286f9a1ce29754c"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Demonstrated Throttle Points in Oxidiser Flow"
+gloss = "The demonstrated throttle fractions of 20 and 10 percent of the design oxidiser flow are 5.9 and 3.0 pounds per second."
+cite = ["research_ross_2000"]
+digest = "a8c6399efb6f3a33"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Thrust from Flowrate and Specific Impulse"
+gloss = "Thrust in pounds is the weight flowrate times the specific impulse in seconds."
+cite = []
+digest = "44047ff594919970"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Closure of the Published Engine Table"
+gloss = "Holding the published thrust fixed and solving for either the flowrate or the specific impulse shows that the table misses closure by one percent."
+cite = ["research_mcneal_1999", "research_anderson_usfe"]
+digest = "569a178677d23580"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Ideal Specific Impulse Behind the Prediction"
+gloss = "The predicted 275 seconds divided by the demonstrated characteristic velocity efficiency of 0.97 and the paper's nozzle efficiency of 0.98 gives an ideal value of 289.3 seconds."
+cite = ["research_ross_2000"]
+digest = "460a0bf16893ab23"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Mixture Ratio and Specific Impulse of the Instability Paper"
+gloss = "The flows and thrust printed in the instability paper give a mixture ratio of 5.21 and a specific impulse of 263.3 seconds."
+cite = ["research_johnson_anderson_2000"]
+digest = "1ce67e468bcb3937"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Throat Area from the Contraction Ratio"
+gloss = "The published chamber diameter of ten inches and contraction ratio of 7.1 give a throat area of 11.06 square inches."
+cite = []
+digest = "55efb3fe760a3452"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Throat Diameter, Exit Area and Exit Diameter"
+gloss = "The throat area and the published expansion ratio of 40 give a throat diameter of 3.75 inches and an exit diameter of 23.7 inches."
+cite = ["research_anderson_usfe"]
+digest = "6609a77358998498"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Characteristic Velocity from the Published Flowrate"
+gloss = "The characteristic velocity is the chamber pressure times the throat area over the mass flowrate, evaluated at the published operating point."
+cite = []
+digest = "1023b1a806e164e4"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Thrust Coefficient from the Published Thrust"
+gloss = "The thrust coefficient is the thrust over the product of chamber pressure and throat area, evaluated at the published operating point."
+cite = []
+digest = "a0bd0559f47bc858"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Ideal Vacuum Thrust Coefficient"
+gloss = "Isentropic expansion gives the vacuum thrust coefficient as the momentum term at the exit pressure ratio plus the pressure term at the area ratio."
+cite = ["research_nasa_sp8120", "research_huzel_1967"]
+digest = "a00ba4afe1c7e837"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Area Ratio and Exit Pressure Ratio"
+gloss = "Isentropic expansion relates the nozzle area ratio to the ratio of exit to chamber pressure."
+cite = ["research_nasa_sp8120", "research_huzel_1967"]
+digest = "38d15b0d8828a982"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Implied Nozzle Efficiency"
+gloss = "The implied thrust coefficient is divided by ideal values computed at assumed ratios of specific heats of 1.20 and 1.25, which bracket the efficiency between 0.960 and 0.985."
+cite = []
+digest = "136774096de4f23a"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Specific Impulse from Characteristic Velocity and Thrust Coefficient"
+gloss = "The product of characteristic velocity and thrust coefficient over standard gravity reduces identically to thrust over flowrate, so the geometry cancels."
+cite = []
+digest = "ae649bc1099d41e8"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Throat Radius Growth over the Rated Burn"
+gloss = "The published allowable erosion rate of 0.001 inches per second over the 200 second burn grows the throat radius by 0.200 inches."
+cite = ["research_ross_2000"]
+digest = "65f005bc8088e6ab"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Eroded Throat Radius and Area"
+gloss = "Adding the erosion allowance to the throat radius of 1.876 inches gives the eroded radius and area."
+cite = []
+digest = "38d4e951626b1581"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Fractional Growth of Throat Area"
+gloss = "The eroded throat area exceeds the original by 22.5 percent."
+cite = []
+digest = "647eefff8853e9e6"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Cavitating Venturi Mass Flow"
+gloss = "Once the venturi throat cavitates the mass flow depends only on the discharge coefficient, the throat area, the liquid density and the difference between upstream and vapour pressure."
+cite = ["research_ulas_2006"]
+digest = "53ab266dbbc1b9fe"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Chamber Pressure at Fixed Mass Flow"
+gloss = "With mass flow and characteristic velocity fixed, chamber pressure varies inversely with throat area so that their product is constant."
+cite = []
+digest = "593a200dde686e0a"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Thrust at Fixed Mass Flow"
+gloss = "Thrust is the thrust coefficient times the constant product of chamber pressure and throat area, so at fixed flow it depends on the thrust coefficient alone."
+cite = []
+digest = "6363c6c93f0d3983"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Expansion Ratio of the Eroded Nozzle"
+gloss = "The fixed exit area over the eroded throat area gives an expansion ratio of 32.7."
+cite = []
+digest = "1ae189baa159f4cd"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Vacuum Thrust Coefficient Before and After Erosion"
+gloss = "The ideal vacuum thrust coefficient is evaluated at expansion ratios of 40 and 32.7 for assumed ratios of specific heats of 1.20 and 1.25."
+cite = []
+digest = "8b42fbed1084a051"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Thrust Change over the Rated Burn"
+gloss = "The ideal thrust coefficients at the assumed ratios of specific heats fall by under one percent between the new and the fully eroded throat."
+cite = []
+digest = "1127edebe29b6515"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Thrust Change over the Flight Burn"
+gloss = "Over the 110 second flight burn the ideal thrust coefficient at the assumed ratios of specific heats falls by about half a percent."
+cite = ["research_ross_2000"]
+digest = "f1bc9a6f9b6ea251"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Throat Growth from the Chamber Pressure History"
+gloss = "Because the product of chamber pressure and throat area is constant at fixed flow, the area ratio is the inverse pressure ratio and the radius ratio its square root."
+cite = []
+digest = "d6af8b1295c7cef5"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Average Erosion Rate from the 140 Second Test"
+gloss = "The reported pressure fall from 495 to 460 pounds per square inch over 140 seconds implies an average throat erosion rate of 0.00050 inches per second."
+cite = ["research_ross_2000"]
+digest = "c14fa70c32ab08b6"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Specific Impulse Forgone with the Ring Injector"
+gloss = "The steam port injector's 298 seconds exceeds the ring injector's 275 seconds by 23 seconds."
+cite = ["research_ross_2000"]
+digest = "5c7e4f73e681b926"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Pressurant Mass at Burnout"
+gloss = "The ideal gas law gives the helium filling both tanks at the operating pressure, with a gas temperature of 300 kelvin that the article assumes."
+cite = []
+digest = "5431e9a698ed1406"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Stored Pressurant Mass"
+gloss = "The helium that remains in a bottle that cannot be emptied below the tank pressure is added to the burnout mass from the assumed gas temperature, an isothermal lower bound."
+cite = []
+digest = "d33e90384d37ed3b"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Minimum Pressurant Bottle Volume"
+gloss = "The ideal gas law at the published bottle pressure of 6,000 pounds per square inch and the assumed temperature of 300 kelvin gives an isothermal minimum volume of 13.5 cubic feet."
+cite = []
+digest = "a79ef62250ec2300"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Minimum Pressurant Bottle Weight"
+gloss = "The anticipated ratio of pressure times volume to weight of 1.92 million inches is applied to the isothermal minimum volume obtained at the assumed gas temperature."
+cite = ["research_delay_2001"]
+digest = "19feb64d3ad31a96"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Limiting Exhaust Speed of Cold Nitrogen"
+gloss = "The limiting exhaust speed of a perfect gas expanded to vacuum is evaluated for nitrogen at a temperature of 300 kelvin that the article assumes."
+cite = []
+digest = "5c267d7be6fec7f1"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Limiting Specific Impulse of Cold Nitrogen"
+gloss = "The limiting exhaust speed over standard gravity gives about 80 seconds, under a third of the main engine's specific impulse."
+cite = []
+digest = "bc5a8535c706042b"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Measured Strains Against the Allowables"
+gloss = "The largest measured strains in the tank and the skirt at the operating pressure are 0.36 and 0.39 of their tensile strain allowables."
+cite = ["research_guerrero_2004"]
+digest = "4fbd90299486d826"
+
+[[symbol]]
+tex = 'p'
+meaning = "the internal pressure"
+
+[[symbol]]
+tex = 'V'
+meaning = "the enclosed volume"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the allowable stress, with $\\sigma / \\rho_{m}$ the specific strength"
+
+[[symbol]]
+tex = '\rho_{m}'
+meaning = "the density of the tank material"
+
+[[symbol]]
+tex = 'm_{t}'
+meaning = "the tank wall mass"
+
+[[symbol]]
+tex = 'k'
+meaning = "the shape constant, two for a cylinder and three halves for a sphere"
+
+[[symbol]]
+tex = '\rho_{p}'
+meaning = "the propellant bulk density"
+
+[[symbol]]
+tex = 'm_{p}'
+meaning = "the propellant mass"
+
+[[symbol]]
+tex = '\mathit{MR}'
+meaning = "the mass mixture ratio of oxidiser to fuel"
+
+[[symbol]]
+tex = '\rho_{o}'
+meaning = "the oxidiser density, with $\\rho_{f}$ the fuel density"
+
+[[symbol]]
+tex = '\rho_{b}'
+meaning = "the bulk density of the bipropellant"
+
+[[symbol]]
+tex = 'I_{\rho}'
+meaning = "the density impulse"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'N_{\theta}'
+meaning = "the hoop load per unit length, with $N_{z}$ the axial load"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the fibre winding angle from the axis"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the propellant flowrate, with $\\dot{m}_{o}$ the oxidiser flowrate"
+
+[[symbol]]
+tex = 't_{b}'
+meaning = "the burn time"
+
+[[symbol]]
+tex = '\Delta V'
+meaning = "the velocity increment"
+
+[[symbol]]
+tex = 'm_{0}'
+meaning = "the mass at ignition, with $m_{f}$ the mass at burnout in the rocket equation and the fuel mass in the propellant split"
+
+[[symbol]]
+tex = 'm_{i}'
+meaning = "the inert mass, with $m_{\\ell}$ the payload"
+
+[[symbol]]
+tex = 'c'
+meaning = "the effective exhaust velocity"
+
+[[symbol]]
+tex = 'g'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 'c_{p}'
+meaning = "the heat capacity of the decomposition products"
+
+[[symbol]]
+tex = 'A_{c}'
+meaning = "the chamber area, with $A_{t}$ the throat area and $A_{e}$ the exit area"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, of the decomposition products in the chamber and nozzle relations and of nitrogen in the cold gas relation"
+
+[[symbol]]
+tex = 'G'
+meaning = "the catalyst bed mass flux"
+
+[[symbol]]
+tex = 'F'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'p_{c}'
+meaning = "the chamber pressure"
+
+[[symbol]]
+tex = 'c^{*}'
+meaning = "the characteristic velocity"
+
+[[symbol]]
+tex = 'C_{F}'
+meaning = "the thrust coefficient"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the nozzle area ratio, with $\\varepsilon_{c}$ the contraction ratio and, in the final relation, the measured strain"
+
+[[symbol]]
+tex = 'p_{e}'
+meaning = "the nozzle exit pressure"
+
+[[symbol]]
+tex = '\dot{r}'
+meaning = "the throat erosion rate"
+
+[[symbol]]
+tex = 'C_{d}'
+meaning = "the venturi discharge coefficient"
+
+[[symbol]]
+tex = 'A_{v}'
+meaning = "the venturi throat area"
+
+[[symbol]]
+tex = 'p_{u}'
+meaning = "the pressure upstream of the venturi, with $p_{v}$ the vapour pressure"
+
+[[symbol]]
+tex = 'm_{g}'
+meaning = "the pressurant mass needed at burnout"
+
+[[symbol]]
+tex = 'p_{t}'
+meaning = "the tank operating pressure, with $p_{b}$ the pressurant bottle pressure"
+
+[[symbol]]
+tex = 'R_{\text{He}}'
+meaning = "the gas constant of helium"
+
+[[symbol]]
+tex = 'v_{\max}'
+meaning = "the limiting exhaust speed of a cold gas expanded to vacuum"

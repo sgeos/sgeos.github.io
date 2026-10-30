@@ -34,6 +34,7 @@ The condition it sold is a region of the Mach-altitude plane that hypersonic har
 
 $$
 \dot{m}_a \;=\; \rho V A_c \;=\; \frac{2 q}{V} \, A_c
+\tag{1}
 $$
 
 **So the corridor is set by what the engine can breathe.** At the middle of the band the flux is a usable number.
@@ -42,6 +43,7 @@ $$
 \frac{\dot{m}_a}{A_c} \bigg|_{M = 6} \;=\; \frac{2 \times 1500 \times 47.88\ \text{Pa}}
 {1,479.5\ \text{m/s} \times 6/5}
   \;=\; 80.4\ \text{kg}\,\text{m}^{-2}\text{s}^{-1}
+\tag{2}
 $$
 
 **And the flux falls as the Mach number rises at fixed dynamic pressure**, from 97 kilograms per square metre per second at Mach 5 to 59.8 at Mach 8, because the same $q$ is being delivered at a higher speed and therefore a lower density. An engine that wants more air as it goes faster has to be flown deeper into the atmosphere. The corridor exists to manage that tension.
@@ -50,12 +52,14 @@ Thermal protection has to be exposed to a real stagnation enthalpy for a real du
 
 $$
 \mathit{Re}_x \;=\; \frac{\rho V x_t}{\mu}
+\tag{3}
 $$
 
 It also depends on the ratio of the wall temperature to the temperature the wall would reach if it were insulated.
 
 $$
 \frac{T_w}{T_r}
+\tag{4}
 $$
 
 **A ground tunnel does not get those two and the free-stream disturbance environment right at the same time**, and the programme was built on that argument.
@@ -239,18 +243,21 @@ Dynamic pressure is defined from the density and the true airspeed.
 
 $$
 q = \tfrac{1}{2} \rho V^2
+\tag{5}
 $$
 
 For a perfect gas the density is set by the pressure and the temperature.
 
 $$
 \rho = \frac{p}{R T}
+\tag{6}
 $$
 
 And the speed of sound is set by the temperature alone, so the true airspeed is the Mach number times a function of temperature.
 
 $$
 a = \sqrt{\gamma R T}, \qquad V = M a
+\tag{7}
 $$
 
 Substituting both into the definition, **the temperature cancels exactly**.
@@ -259,12 +266,14 @@ $$
 q \;=\; \tfrac{1}{2} \rho V^2
   \;=\; \tfrac{1}{2} \left( \frac{p}{R T} \right) \left( \gamma R T \right) M^2
   \;=\; \tfrac{1}{2} \gamma p M^2
+\tag{8}
 $$
 
 With $\gamma = 1.4$ for air, the working form is one multiplication.
 
 $$
 q \;=\; 0.7 \, p \, M^2
+\tag{9}
 $$
 
 **The result is counter-intuitive in a useful direction.** A hypersonic vehicle's aerothermal environment is dominated by temperature, and its structural loading is dominated by dynamic pressure, and the two are decoupled in the sense that the second does not know about the first. Whether the air at 25 kilometres is at 220 kelvin or 240 kelvin changes the speed of sound, the true airspeed at a given Mach number and the density, and it changes all three in a way that leaves $q$ untouched. **A dynamic pressure specification fixes ambient static pressure and Mach number, and therefore altitude and Mach number.**
@@ -275,6 +284,7 @@ The check is arithmetic, and it is performed here. At 21,300 metres the standard
 
 $$
 p \;=\; \frac{2 q}{\gamma M^2}
+\tag{10}
 $$
 
 Read the other way, the published pair is a dynamic pressure.
@@ -282,6 +292,7 @@ Read the other way, the published pair is a dynamic pressure.
 $$
 q \;=\; \tfrac{1}{2} \times 1.4 \times 4,512.9\ \text{Pa} \times 5^2
   \;=\; 78,976\ \text{Pa} \;=\; 1,649\ \text{lbf/ft}^2
+\tag{11}
 $$
 
 **1,649 pounds per square foot is squarely inside the band that air-breathing hypersonic propulsion is tested in**, which the textbook literature places at roughly one to two thousand \[[Heiser and Pratt][book_heiser_pratt]\] \[[Anderson][book_anderson_hypersonic]\]. The two numbers the Air Force published are not a speed and a ceiling. **They are a scramjet test condition, written in the only units a press release can use.**
@@ -292,18 +303,21 @@ Everything above needs a pressure as a function of altitude, and this article us
 
 $$
 \frac{dp}{dh} = -\, g \rho = -\, \frac{g p}{R T}
+\tag{12}
 $$
 
 Geopotential altitude exists to fold gravity into the altitude coordinate, so that gravity need not be carried as a variable.
 
 $$
 h = \frac{R_e \, z}{R_e + z}
+\tag{13}
 $$
 
 Temperature is piecewise linear in geopotential altitude.
 
 $$
 T(h) = T_b + \lambda \, (h - h_b)
+\tag{14}
 $$
 
 Integrating the hydrostatic equation through a layer with a nonzero lapse rate gives a power law.
@@ -311,6 +325,7 @@ Integrating the hydrostatic equation through a layer with a nonzero lapse rate g
 $$
 p(h) \;=\; p_b \left[ 1 + \frac{\lambda \, (h - h_b)}{T_b} \right]^{-g_0 / (R \lambda)}
 \qquad (\lambda \neq 0)
+\tag{15}
 $$
 
 And through an isothermal layer, such as the one between 11 and 20 geopotential kilometres in which the X-60A is released, an exponential \[[International Standard Atmosphere][ref_icao_atmosphere]\].
@@ -318,12 +333,14 @@ And through an isothermal layer, such as the one between 11 and 20 geopotential 
 $$
 p(h) \;=\; p_b \, \exp\!\left[ -\, \frac{g_0 \, (h - h_b)}{R \, T_b} \right]
 \qquad (\lambda = 0)
+\tag{16}
 $$
 
 The exponential decay constant is the scale height.
 
 $$
 H = \frac{R T}{g_0}
+\tag{17}
 $$
 
 At the corridor altitude the scale height is 6,378 metres. **That single number governs how hard the corridor is to hold**, because at fixed Mach the dynamic pressure inherits the pressure's altitude dependence exactly.
@@ -331,6 +348,7 @@ At the corridor altitude the scale height is 6,378 metres. **That single number 
 $$
 \frac{1}{q} \frac{\partial q}{\partial z} \bigg|_{M} \;=\; \frac{1}{p} \frac{dp}{dz}
   \;=\; -\, \frac{1}{H}
+\tag{18}
 $$
 
 That is the differential form. The finite-difference form is what a guidance law has to work with.
@@ -338,6 +356,7 @@ That is the differential form. The finite-difference form is what a guidance law
 $$
 \frac{\Delta q}{q} \;=\; 1 - \exp\!\left( -\, \frac{\Delta z}{H} \right)
   \;=\; 14.51\ \text{percent per kilometre}
+\tag{19}
 $$
 
 **A kilometre of altitude is 14.51 percent of dynamic pressure.** Holding $q$ to within ten percent at fixed Mach therefore means holding altitude to within about seven hundred metres, on a vehicle climbing at several hundred metres per second. That is the control problem stated as a number. It is why a corridor is not merely narrow but difficult.
@@ -346,6 +365,7 @@ The same relation read along the corridor rather than across it gives the slope 
 
 $$
 \frac{d(\ln M)}{dz} \bigg|_{q} \;=\; \frac{1}{2H}
+\tag{20}
 $$
 
 ### Where the Corridor Sits
@@ -369,10 +389,12 @@ Stagnation temperature follows from the energy equation for a perfect gas.
 
 $$
 \frac{T_0}{T} \;=\; 1 + \frac{\gamma - 1}{2} M^2
+\tag{21}
 $$
 
 $$
 h_0 = c_p T_0
+\tag{22}
 $$
 
 At the middle of the band, on a 1,500 pound per square foot line, the numbers are the argument for the whole programme.
@@ -387,6 +409,7 @@ The stagnation pressure ratio comes from the isentropic relation.
 
 $$
 \frac{p_0}{p} \;=\; \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\gamma / (\gamma - 1)}
+\tag{23}
 $$
 
 **The first column overstates what a wall actually reaches, and by a knowable amount.** A surface in a moving boundary layer recovers only part of the stagnation temperature rise, and the fraction is set by the Prandtl number.
@@ -394,10 +417,12 @@ $$
 $$
 r_f \;=\; \mathit{Pr}^{1/2} \;\; \text{(laminar)}, \qquad
 r_f \;=\; \mathit{Pr}^{1/3} \;\; \text{(turbulent)}
+\tag{24}
 $$
 
 $$
 T_r \;=\; T \left( 1 + r_f \, \frac{\gamma - 1}{2} M^2 \right)
+\tag{25}
 $$
 
 With a Prandtl number of 0.71 the recovery factor is 0.843 laminar and 0.892 turbulent, so the turbulent recovery temperature at Mach 6 is 1,639 kelvin against a stagnation value of 1,811. **The correction is 9.5 percent and it runs the safe way**, so stagnation temperature is the figure a specification quotes and recovery temperature is the figure a designer sizes to.
@@ -408,16 +433,19 @@ The Reynolds number in the fourth column uses Sutherland's law for viscosity.
 
 $$
 \mu = \frac{C_1 \, T^{3/2}}{T + S_u}
+\tag{26}
 $$
 
 $$
 \mathit{Re} = \frac{\rho V L_r}{\mu}
+\tag{27}
 $$
 
 The fourth column of the table above is that quantity per metre of length, which is how a flight condition is reported when the test article's length is not yet decided.
 
 $$
 \frac{\mathit{Re}}{L_r} \;=\; \frac{\rho V}{\mu}
+\tag{28}
 $$
 
 **Unit Reynolds number is a quantity ground facilities are known to have difficulty matching alongside the others**, and it decides where the boundary layer goes turbulent, which decides the heating, which decides the thermal protection mass. A tunnel matching Mach number and stagnation enthalpy at the wrong Reynolds number produces a laminar answer to a turbulent question.
@@ -426,6 +454,7 @@ The heating a test article receives at a stagnation point scales with the square
 
 $$
 \dot{Q} \;=\; k_s \sqrt{\frac{\rho}{R_n}} \; V^3
+\tag{29}
 $$
 
 **The cube on velocity is the reason the corridor is expensive and the square root on density is the reason it is a corridor at all.** Doubling the Mach number multiplies the heat flux eightfold at fixed density, and the only way to buy that back is to climb, which costs the dynamic pressure the air-breathing payload came for.
@@ -440,20 +469,24 @@ Thrust for any rocket engine is momentum flux plus a pressure term at the exit p
 
 $$
 F = \dot{m} \, v_j + \left( p_e - p_a \right) A_e
+\tag{30}
 $$
 
 $$
 v_e = \frac{F}{\dot{m}}, \qquad I_s = \frac{F}{\dot{m} \, g_0}
+\tag{31}
 $$
 
 The chamber and nozzle contributions separate cleanly, and engine test data are reported in that form.
 
 $$
 c_* = \frac{p_c A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_c A_t}, \qquad F = \dot{m} \, c_* \, C_F
+\tag{32}
 $$
 
 $$
 \epsilon = \frac{A_e}{A_t}
+\tag{33}
 $$
 
 The area ratio and the exit Mach number are the same fact written two ways, through the relation every convergent-divergent nozzle obeys.
@@ -461,6 +494,7 @@ The area ratio and the exit Mach number are the same fact written two ways, thro
 $$
 \epsilon \;=\; \frac{A_e}{A_t} \;=\; \frac{1}{M_x}
 \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_x^2 \right) \right]^{(\gamma + 1) / (2(\gamma - 1))}
+\tag{34}
 $$
 
 **Neither the chamber pressure nor the throat area is published, and one can be traded for the other rather than invented.** The mass flow through a choked throat is fixed by the chamber conditions and the throat area.
@@ -468,12 +502,14 @@ $$
 $$
 \dot{m} \;=\; \frac{\Gamma \, p_c A_t}{\sqrt{R \, T_c}}, \qquad
 \Gamma \;=\; \sqrt{\gamma} \left( \frac{2}{\gamma + 1} \right)^{(\gamma + 1) / (2(\gamma - 1))}
+\tag{35}
 $$
 
 With $\Gamma$ equal to 0.6847 for air, and taking a characteristic velocity of 1,800 metres per second, which is typical for liquid oxygen and kerosene and is **not published for this engine**, the product of chamber pressure and throat area follows from the mass flow alone.
 
 $$
 p_c A_t \;=\; \dot{m} \, c_* \;=\; 14,078\ \text{N}
+\tag{36}
 $$
 
 **That is one number standing in for two.** At a chamber pressure of four megapascals the throat is 66.9 millimetres across, at seven it is 50.6, and at ten it is 42.3. A staged combustion cycle is chosen when high chamber pressure is wanted, so the throat is more likely nearer the last figure than the first, and the article does not pretend to know which.
@@ -482,6 +518,7 @@ $$
 
 $$
 F(z) \;=\; F_v - p(z) \, A_e, \qquad F_v = F(0) + p_b(0) \, A_e
+\tag{37}
 $$
 
 **The correction cannot be computed, and why it cannot is stated here in place of a guess.** Ursa Major lists three qualified Hadley variants, being a 5,000 pound sea-level engine, a 6,500 pound vacuum engine and a hypersonic version developed with Stratolaunch \[[Ursa Major][ref_ursa_hadley_variants]\]. **Those are three different nozzles and not one engine at three altitudes**, so the 1,500 pound difference between the first two does not give $A_e$ for the first. It follows only that the X-60A's thrust above twelve kilometres exceeds 5,000 pounds by an unpublished margin, and therefore that **every performance figure in this article computed from 5,000 pounds is a floor rather than an estimate.**
@@ -491,6 +528,7 @@ The thrust-to-weight ratio at release follows from the published gross mass of 1
 $$
 \frac{F}{W} \;=\; \frac{22,241\ \text{N}}{13,337\ \text{N}}
   \;=\; 1.668
+\tag{38}
 $$
 
 **1.668 is a low number for a rocket and a very high one for an aeroplane**, and the X-60A is the second of those in the register and the first of those in the physics. A launch vehicle lifting from a pad needs a ratio above one to leave the pad at all. This vehicle is released in flight already moving, so it needs only enough to overcome drag and the component of weight along its path, and 1.668 is generous for that.
@@ -503,12 +541,14 @@ Release is at high subsonic speed in a climb \[[Directory of U.S. Military Rocke
 
 $$
 \Delta V_k \;=\; \sqrt{ V^2 + 2 g_0 \, \Delta z } \; - \; V_0
+\tag{39}
 $$
 
 $$
 \Delta V_k \;=\; \sqrt{ (1,479.5)^2
   + 2 \times 9.80665 \times 9,300 } \; - \; 236.1
   \;=\; 1,303.9\ \text{m/s}
+\tag{40}
 $$
 
 Losses to gravity and drag are not part of that number and have to be carried explicitly.
@@ -517,32 +557,38 @@ $$
 \Delta V \;=\; \Delta V_k + \Delta V_g + \Delta V_d, \qquad
 \Delta V_g = \int_0^{t_b} g \sin\theta \; dt, \qquad
 \Delta V_d = \int_0^{t_b} \frac{D}{m} \; dt
+\tag{41}
 $$
 
 The rocket equation then converts a velocity increment into a mass ratio.
 
 $$
 \Delta V \;=\; I_s \, g_0 \, \ln\!\left( \frac{m_0}{m_f} \right)
+\tag{42}
 $$
 
 $$
 \frac{m_0}{m_f} \;=\; \exp\!\left( \frac{\Delta V}{I_s g_0} \right), \qquad
 \zeta \;=\; \frac{m_p}{m_0} \;=\; 1 - \exp\!\left( -\, \frac{\Delta V}{I_s g_0} \right)
+\tag{43}
 $$
 
 $$
 m_0 = m_p + m_s + m_l
+\tag{44}
 $$
 
 At an assumed specific impulse of 290 seconds, which is typical for liquid oxygen and kerosene and is **not published for this engine**, the effective exhaust velocity is 2,843.9 metres per second and the mass ratio for a 300 metre per second loss allowance is 1.7576. That is a propellant fraction of 0.4311 and a propellant load of 586.2 kilograms out of 1,360.
 
 $$
 \dot{m} = \frac{F}{I_s \, g_0}, \qquad t_b = \frac{m_p}{\dot{m}}
+\tag{45}
 $$
 
 $$
 t_b \;=\; \frac{586.2\ \text{kg}}{7.821\ \text{kg/s}}
   \;=\; 75\ \text{s}
+\tag{46}
 $$
 
 **A burn of 75 seconds is long for a vehicle this size and that is the design.** The Black Brant sounding rocket motor, whose loaded weight of 2,827 pounds is 1,282 kilograms and close to this vehicle's gross mass, has an action time of 27.5 seconds \[[NASA Sounding Rockets User Handbook][ref_nasa_sounding_rockets_handbook]\]. This one burns for over a minute, because the product is time at condition and a coast is time spent decelerating.
@@ -557,18 +603,22 @@ Liquid oxygen and kerosene burn near a mixture ratio of 2.3 to 1, which splits t
 
 $$
 m_o \;=\; m_p \, \frac{r_m}{1 + r_m}, \qquad m_u \;=\; \frac{m_p}{1 + r_m}
+\tag{47}
 $$
 
 $$
 V_p \;=\; \frac{m_o}{\rho_o} + \frac{m_u}{\rho_u}
+\tag{48}
 $$
 
 $$
 d \;=\; 2 \sqrt{ \frac{V_p}{\pi \, l_t} }
+\tag{49}
 $$
 
 $$
 f_r = \frac{l_b}{d}, \qquad A_f = \frac{\pi d^2}{4}
+\tag{50}
 $$
 
 **The recovery is an estimate with three assumptions in it, and all three are stated.** The mixture ratio is assumed, the tankage is assumed to occupy seventy percent of the 4.9 metre booster \[[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]\], and the tanks are assumed cylindrical at the full body diameter. Under those assumptions the propellant volume is 0.6763 cubic metres and the diameter is **0.501 metres**, giving a fineness ratio of 9.8 and a span of 3.39 diameters.
@@ -577,6 +627,7 @@ The same two numbers give the density the tankage has to carry.
 
 $$
 \rho_b \;=\; \frac{m_p}{V_p} \;=\; 1,015.3\ \text{kg}\,\text{m}^{-3}
+\tag{51}
 $$
 
 **A loaded liquid oxygen and kerosene stage is very nearly the density of water**, at 1.015 times it. That ratio is a useful sanity check on any propellant volume, and it explains why launch vehicles are mostly empty space by mass and mostly full by volume.
@@ -585,6 +636,7 @@ The span follows the same way.
 
 $$
 \frac{S}{d}
+\tag{52}
 $$
 
 **Those three numbers are mutually consistent with a vehicle that exists in photographs.** No other check is available. A body of nine to ten calibres with a small cruciform or planar fin set at three and a half diameters of span is an ordinary slender supersonic configuration, and a wildly wrong diameter would have produced a body of four calibres or of twenty.
@@ -597,24 +649,29 @@ The ascent is two ordinary equations, one along the flight path and one across i
 
 $$
 m \frac{dV}{dt} \;=\; F - D - m g \sin\theta
+\tag{53}
 $$
 
 $$
 m V \frac{d\theta}{dt} \;=\; L - m g \cos\theta
+\tag{54}
 $$
 
 $$
 L = \tfrac{1}{2} \rho V^2 S C_l, \qquad D = \tfrac{1}{2} \rho V^2 S C_d
+\tag{55}
 $$
 
 $$
 \beta_b = \frac{m}{C_d S}
+\tag{56}
 $$
 
 Two kinematic relations close the set, one for altitude and one for the mass the engine is consuming.
 
 $$
 \frac{dz}{dt} \;=\; V \sin\theta, \qquad \frac{dm}{dt} \;=\; -\, \dot{m}
+\tag{57}
 $$
 
 The pitch programme is the only thing left free. It is commanded rather than solved, running linearly from the release angle to the burnout angle over the burn.
@@ -622,6 +679,7 @@ The pitch programme is the only thing left free. It is commanded rather than sol
 $$
 \theta_c(t) \;=\; \theta_0 + \left( \theta_b - \theta_0 \right)
 \min\!\left( 1, \; \frac{t}{t_b} \right)
+\tag{58}
 $$
 
 The drag coefficient is interpolated between anchor points that reproduce the shape every slender supersonic body shares, being a low subsonic value, a transonic peak near Mach 1.2 and a slow supersonic decline.
@@ -629,6 +687,7 @@ The drag coefficient is interpolated between anchor points that reproduce the sh
 $$
 C_d(M) \;=\; C_d(M_i) + \left[ C_d(M_i') - C_d(M_i) \right]
 \frac{M - M_i}{M_i' - M_i}, \qquad M_i \le M \le M_i'
+\tag{59}
 $$
 
 **This article integrates those equations, and what that integration is and is not needs to be clear.** No trajectory for the X-60A appears in the programme's releases. What follows is a two-degree-of-freedom point-mass ascent on a commanded pitch programme, using the published mass, the published sea-level thrust and the fixed-point geometry above, with a drag coefficient taken from the shape every slender supersonic body shares rather than from this vehicle. **It shows what the published corridor costs. It does not show what the programme intended to fly.**
@@ -637,6 +696,7 @@ The lift is not modelled. It is solved for by rearranging the flight-path equati
 
 $$
 L \;=\; m V \frac{d\theta}{dt} + m g \cos\theta
+\tag{60}
 $$
 
 **A lift coefficient guessed from an artist's impression would put a fabricated number on both sides of the statutory comparison of thrust with lift made below.**
@@ -655,6 +715,7 @@ A stage is judged on two ratios rather than on either mass alone.
 
 $$
 \sigma_s \;=\; \frac{m_s}{m_s + m_p}, \qquad f_l \;=\; \frac{m_l}{m_0}
+\tag{61}
 $$
 
 **The payload fraction is 23.5 percent and the structural coefficient at Mach 8 is 18 percent**, against 34 at Mach 6 and 42.7 at Mach 5. The first two stages of the air-launched Pegasus XL, whose published empty, propellant and gross masses agree, come to 0.084 and 0.096 \[[Pegasus rocket][ref_pegasus]\], so **the hardest case here is more generous than a launcher stage has to be**, and the published payload and the top of the published speed range are compatible. **The budget closes with room.**
@@ -664,6 +725,7 @@ The computed losses are modest, which the geometry explains. Drag costs 243.6 me
 $$
 \frac{m}{S} \bigg|_{\text{above } z} \;=\; \frac{p(z)}{g_0}, \qquad
 1 - \frac{p(z)}{p_b(0)} \;=\; 80.9\ \text{percent}
+\tag{62}
 $$
 
 **A vehicle released at twelve kilometres has already been carried above 80.9 percent of the atmosphere's mass**, leaving 1,978 kilograms per square metre overhead against 10,332 at sea level. The peak drag coefficient of 0.62 then occurs transonically, where the dynamic pressure is still small.
@@ -733,18 +795,21 @@ The figure of merit to apply is the one the programme itself invited with the wi
 
 $$
 c_s \;=\; \frac{C_t}{N_f \, \tau}
+\tag{63}
 $$
 
 The denominator has two factors and one of them is known exactly.
 
 $$
 c_s \;=\; \frac{30,921,064.62}{N_f \, \tau} \quad \text{with} \quad N_f = 0
+\tag{64}
 $$
 
 The denominator's other factor is a dwell, meaning the time a flight spends above the Mach number that counts as being at condition.
 
 $$
 \tau \;=\; \int_{0}^{t_b} dt \;\; \text{over the interval where} \;\; M(t) \ge M_d
+\tag{65}
 $$
 
 **0 flights were flown and 0 seconds of test condition were delivered.** The cost per second of hypersonic condition supplied by the X-60A is not large. It is undefined.
@@ -755,6 +820,7 @@ $$
 
 $$
 \frac{C_t}{N_f} \;=\; \frac{C_t}{N_f} \bigg|_{\text{development}} + \; c_m
+\tag{66}
 $$
 
 The first term falls as the reciprocal of the flight count and the second does not fall at all, so an average cost per flight approaches the marginal cost from above and never reaches it. The honest reading is the third column. At ten flights the figure approaches a quarter of a million dollars per second of hypersonic condition, and whether that is cheap depends entirely on what a second of the same condition costs in a ground facility. The programme never got to make that comparison.
@@ -766,6 +832,7 @@ The first term falls as the reciprocal of the flight count and the second does n
 $$
 \frac{\tau}{t_b} \;=\; \frac{12.2}{87.8}
   \;=\; 13.9\ \text{percent}
+\tag{67}
 $$
 
 The register's phrase for what the vehicle does is *at cruise flight conditions* \[[Parsch, DOD 4120.15-L Addendum][ref_mds_addendum]\], and a cruise is a steady state. The next section asks whether one exists.
@@ -778,12 +845,14 @@ At constant speed the thrust must balance the drag plus the component of weight 
 
 $$
 F \;=\; D + W \sin\theta
+\tag{68}
 $$
 
 That is one equation in one unknown, so the flight path angle a cruise would require is not a choice.
 
 $$
 \sin\theta \;=\; \frac{F - D}{W}
+\tag{69}
 $$
 
 **The largest the weight term can be is the whole weight, which happens in a vertical climb**, so the test has an answer that does not depend on the trajectory at all.
@@ -791,6 +860,7 @@ $$
 $$
 F \;>\; D + W \quad \Longrightarrow \quad \sin\theta > 1 \quad \Longrightarrow \quad
 \text{no steady state exists}
+\tag{70}
 $$
 
 At Mach 6 on the published dynamic pressure of 1,649 pounds per square foot, which is 23,652 metres, the drag on the derived frontal area is 3,842 newtons. The vehicle at burnout weighs 6,604 newtons. **Drag plus full weight is 10,446 newtons and the engine at its rated sea-level thrust produces 22,241**, which is 2.13 times as much. The flight path angle that would absorb the excess needs a sine of 2.79, and no angle has one.
@@ -801,6 +871,7 @@ At Mach 6 on the published dynamic pressure of 1,649 pounds per square foot, whi
 
 $$
 \phi \;=\; \frac{D}{F} \bigg|_{\text{rated}}
+\tag{71}
 $$
 
 | Dynamic pressure | Altitude at Mach 6 | Drag | Throttle setting to hold speed |
@@ -815,6 +886,7 @@ $$
 $$
 \Delta p_j \;=\; \frac{1}{2 \rho_b} \left( \frac{\dot{m}}{C_j A_j} \right)^2
 \;\propto\; \dot{m}^2 \;\propto\; \phi^2
+\tag{72}
 $$
 
 **A throttle ratio therefore costs the square of itself in injector stiffness.** At twenty percent thrust the drop is 4 percent of its rated value, at ten percent it is 1, and at five percent it is 0.25. An engine throttled far enough becomes unstable before it becomes quiet, and so deep throttling is an engine programme rather than a control setting \[[Sutton and Biblarz][book_sutton_biblarz]\] \[[Huzel and Huang][book_huzel_huang]\]. The deep throttling demonstrator derived from the RL10 for a lunar lander descent stage was built for that one requirement, and it reached a stable minimum of 5.9 percent of rated thrust only after its low-power combustion instabilities had been mitigated \[[Giuliano et al. 2010b][research_giulianovictorj_leonardtimothyg_2010]\].
@@ -831,6 +903,7 @@ Flying the integrated ascent on 53 pitch programmes, with the same vehicle and t
 
 $$
 \frac{q_{\max}}{q_{\min}} \bigg|_{M \ge 5} \;=\; 72.8
+\tag{73}
 $$
 
 The altitude at which it happens ranges from 55.7 thousand feet to 147.9 thousand feet.
@@ -885,6 +958,7 @@ The Commercial Space Launch Act defines a launch vehicle as a vehicle built to o
 
 $$
 F \;>\; L \qquad \text{for the majority of } \; 0 \le t \le t_b
+\tag{74}
 $$
 
 Because the vehicle's lift coefficient is unpublished, this article does not guess it. The integration solves for the lift the commanded pitch programme requires at each instant, and compares that to the thrust.
@@ -892,6 +966,7 @@ Because the vehicle's lift coefficient is unpublished, this article does not gue
 $$
 n \;=\; \frac{L}{W}, \qquad
 F > L \quad \Longleftrightarrow \quad n < \frac{F}{W} \;=\; 1.668
+\tag{75}
 $$
 
 **Across all 53 pitch programmes, thrust exceeds lift for 100 percent of powered ascent in the worst case.** The largest lift demanded anywhere in the set is 0.591 of the thrust. The statute's threshold is a majority, and the set is unanimous.
@@ -907,6 +982,7 @@ $$
 $$
 \varepsilon \;=\; \frac{V^2}{2} - \frac{\mu_E}{r_b}, \qquad
 \ell \;=\; r_b V \cos\theta
+\tag{76}
 $$
 
 Those two fix the coasting ellipse completely.
@@ -915,6 +991,7 @@ $$
 a_s \;=\; -\, \frac{\mu_E}{2 \varepsilon}, \qquad
 e_c \;=\; \sqrt{ 1 + \frac{2 \varepsilon \ell^2}{\mu_E^2} }, \qquad
 r_p \;=\; a_s \left( 1 - e_c \right)
+\tag{77}
 $$
 
 And the ellipse either reaches the surface or it does not.
@@ -922,6 +999,7 @@ And the ellipse either reaches the surface or it does not.
 $$
 r_p \;<\; R_m \quad \Longleftrightarrow \quad
 \text{the vacuum instantaneous impact point does not leave the surface}
+\tag{78}
 $$
 
 On the integrated trajectory the vehicle burns out at 1,805.9 metres per second and 24,209 metres. **The resulting ellipse has a semi-major axis of 0.515 Earth radii and an eccentricity of 0.9477, giving a perigee radius of 171,811 metres**, which is about 6,199 kilometres below the surface. The impact point is not merely on the Earth. It is deep inside it.
@@ -931,6 +1009,7 @@ The same state read against orbital speed says how far from orbit the vehicle is
 $$
 V_c \;=\; \sqrt{\frac{\mu_E}{r_b}}, \qquad
 \frac{V}{V_c} \;=\; 22.9\ \text{percent}
+\tag{79}
 $$
 
 **Burnout speed is 22.9 percent of circular orbital speed at that altitude and 5.2 percent of the kinetic energy.** Those ratios quantify the observation that an endoatmospheric testbed and a launch vehicle are not the same kind of machine even though both are rockets. **Both halves of the statutory definition are satisfied, and neither was satisfied by assertion.**
@@ -1247,6 +1326,785 @@ The physics underneath the programme is a single relation. **Dynamic pressure is
 **The engine flew.** Four years after the month in which the X-60A was to have made its first flight, the Hadley lit on Stratolaunch's Talon-A1. **The condition the X-60A was built to sell is now sold by somebody else, from a different airframe, without a number from the X series.**
 
 **And the cost per second of hypersonic condition delivered by the X-60A remains undefined**, because the programme's own figure of merit has a denominator, and the denominator is zero.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 79 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 79, 62 are established and 17 are bespoke.
+Pressures are in pascals except where the published dynamic pressure is quoted in pounds per square foot, speeds are in metres per second, masses in kilograms, thrusts in newtons and costs in dollars, altitudes are geometric or geopotential as the symbol table distinguishes, and every figure taken from the integrated ascent rests on a commanded pitch programme, an interpolated drag coefficient and an assumed specific impulse rather than on a published trajectory.
+
+**Equation 1, Inlet Air Mass Flow.**
+The mass flow an inlet of given capture area swallows is the density times the speed times the area, or twice the dynamic pressure over the speed times the area.
+
+$$
+\dot{m}_a \;=\; \rho V A_c \;=\; \frac{2 q}{V} \, A_c
+\tag{1}
+$$
+
+*Equation 2, Bespoke Captured Mass Flux at Mach 6 Mid-Band.*
+The mass flux per unit capture area is evaluated at 1,500 pounds per square foot, the midpoint the article takes of the one to two thousand band, with the Mach 6 speed scaled from the Mach 5 corridor speed.
+
+$$
+\frac{\dot{m}_a}{A_c} \bigg|_{M = 6} \;=\; \frac{2 \times 1500 \times 47.88\ \text{Pa}}
+{1,479.5\ \text{m/s} \times 6/5}
+  \;=\; 80.4\ \text{kg}\,\text{m}^{-2}\text{s}^{-1}
+\tag{2}
+$$
+
+**Equation 3, Transition Reynolds Number.**
+Boundary-layer transition depends on a Reynolds number based on the distance from the leading edge.
+
+$$
+\mathit{Re}_x \;=\; \frac{\rho V x_t}{\mu}
+\tag{3}
+$$
+
+**Equation 4, Wall-to-Recovery Temperature Ratio.**
+Transition also depends on the ratio of the wall temperature to the temperature an insulated wall would reach.
+
+$$
+\frac{T_w}{T_r}
+\tag{4}
+$$
+
+**Equation 5, Dynamic Pressure.**
+The dynamic pressure is half the density times the square of the true airspeed.
+
+$$
+q = \tfrac{1}{2} \rho V^2
+\tag{5}
+$$
+
+**Equation 6, Perfect Gas Law.**
+For a perfect gas the density is the pressure over the gas constant times the temperature.
+
+$$
+\rho = \frac{p}{R T}
+\tag{6}
+$$
+
+**Equation 7, Speed of Sound and True Airspeed.**
+The speed of sound depends on temperature alone, and the true airspeed is the Mach number times that speed.
+
+$$
+a = \sqrt{\gamma R T}, \qquad V = M a
+\tag{7}
+$$
+
+**Equation 8, Dynamic Pressure in Terms of Pressure and Mach Number.**
+Substituting the gas law and the speed of sound cancels the temperature, leaving half the ratio of specific heats times the pressure times the square of the Mach number.
+
+$$
+q \;=\; \tfrac{1}{2} \rho V^2
+  \;=\; \tfrac{1}{2} \left( \frac{p}{R T} \right) \left( \gamma R T \right) M^2
+  \;=\; \tfrac{1}{2} \gamma p M^2
+\tag{8}
+$$
+
+**Equation 9, Working Form of Dynamic Pressure for Air.**
+With a ratio of specific heats of 1.4 the dynamic pressure is 0.7 times the pressure times the square of the Mach number.
+
+$$
+q \;=\; 0.7 \, p \, M^2
+\tag{9}
+$$
+
+**Equation 10, Pressure From Dynamic Pressure and Mach Number.**
+Inverting the working form gives the ambient pressure that a dynamic pressure and a Mach number fix.
+
+$$
+p \;=\; \frac{2 q}{\gamma M^2}
+\tag{10}
+$$
+
+**Equation 11, Dynamic Pressure of the Published Test Condition.**
+Mach 5 at the published altitude of seventy thousand feet, where the standard atmosphere gives 4,512.9 pascals, corresponds to a dynamic pressure of about 1,649 pounds per square foot.
+[Heiser and Pratt][book_heiser_pratt]
+[Anderson][book_anderson_hypersonic]
+
+$$
+q \;=\; \tfrac{1}{2} \times 1.4 \times 4,512.9\ \text{Pa} \times 5^2
+  \;=\; 78,976\ \text{Pa} \;=\; 1,649\ \text{lbf/ft}^2
+\tag{11}
+$$
+
+**Equation 12, Hydrostatic Equation.**
+The pressure gradient with altitude is minus the gravity times the density, or with the gas law minus the gravity times the pressure over the gas constant times the temperature.
+[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]
+
+$$
+\frac{dp}{dh} = -\, g \rho = -\, \frac{g p}{R T}
+\tag{12}
+$$
+
+**Equation 13, Geopotential Altitude.**
+Geopotential altitude folds the variation of gravity into the altitude coordinate through the effective Earth radius.
+[U.S. Standard Atmosphere 1976 1976][ref_us_standard_atmosphere]
+
+$$
+h = \frac{R_e \, z}{R_e + z}
+\tag{13}
+$$
+
+**Equation 14, Piecewise Linear Temperature Profile.**
+In the standard atmosphere the temperature is linear in geopotential altitude within each layer.
+
+$$
+T(h) = T_b + \lambda \, (h - h_b)
+\tag{14}
+$$
+
+**Equation 15, Pressure in a Layer With Nonzero Lapse Rate.**
+Integrating the hydrostatic equation through a layer with a nonzero lapse rate gives a power law in the temperature ratio.
+
+$$
+p(h) \;=\; p_b \left[ 1 + \frac{\lambda \, (h - h_b)}{T_b} \right]^{-g_0 / (R \lambda)}
+\qquad (\lambda \neq 0)
+\tag{15}
+$$
+
+**Equation 16, Pressure in an Isothermal Layer.**
+Through an isothermal layer the pressure decays exponentially with geopotential altitude.
+[International Standard Atmosphere][ref_icao_atmosphere]
+
+$$
+p(h) \;=\; p_b \, \exp\!\left[ -\, \frac{g_0 \, (h - h_b)}{R \, T_b} \right]
+\qquad (\lambda = 0)
+\tag{16}
+$$
+
+**Equation 17, Pressure Scale Height.**
+The scale height is the gas constant times the temperature over standard gravity.
+[International Standard Atmosphere][ref_icao_atmosphere]
+
+$$
+H = \frac{R T}{g_0}
+\tag{17}
+$$
+
+**Equation 18, Altitude Sensitivity of Dynamic Pressure at Fixed Mach Number.**
+At fixed Mach number the dynamic pressure inherits the pressure's logarithmic gradient, minus one over the scale height.
+
+$$
+\frac{1}{q} \frac{\partial q}{\partial z} \bigg|_{M} \;=\; \frac{1}{p} \frac{dp}{dz}
+  \;=\; -\, \frac{1}{H}
+\tag{18}
+$$
+
+**Equation 19, Finite Change of Dynamic Pressure per Kilometre.**
+At the 6,378 metre scale height of the corridor altitude a kilometre of climb removes 14.51 percent of the dynamic pressure.
+
+$$
+\frac{\Delta q}{q} \;=\; 1 - \exp\!\left( -\, \frac{\Delta z}{H} \right)
+  \;=\; 14.51\ \text{percent per kilometre}
+\tag{19}
+$$
+
+**Equation 20, Slope of a Constant Dynamic Pressure Line.**
+Along a line of constant dynamic pressure the logarithm of the Mach number rises with altitude at one over twice the scale height.
+
+$$
+\frac{d(\ln M)}{dz} \bigg|_{q} \;=\; \frac{1}{2H}
+\tag{20}
+$$
+
+**Equation 21, Stagnation Temperature Ratio.**
+The energy equation for a perfect gas gives the stagnation temperature ratio as one plus half of one less than the ratio of specific heats times the square of the Mach number.
+
+$$
+\frac{T_0}{T} \;=\; 1 + \frac{\gamma - 1}{2} M^2
+\tag{21}
+$$
+
+**Equation 22, Stagnation Enthalpy.**
+The stagnation enthalpy per unit mass is the specific heat at constant pressure times the stagnation temperature.
+
+$$
+h_0 = c_p T_0
+\tag{22}
+$$
+
+**Equation 23, Isentropic Stagnation Pressure Ratio.**
+The stagnation pressure ratio follows from the isentropic relation.
+
+$$
+\frac{p_0}{p} \;=\; \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\gamma / (\gamma - 1)}
+\tag{23}
+$$
+
+**Equation 24, Recovery Factor.**
+The recovery factor is the square root of the Prandtl number in a laminar boundary layer and its cube root in a turbulent one.
+
+$$
+r_f \;=\; \mathit{Pr}^{1/2} \;\; \text{(laminar)}, \qquad
+r_f \;=\; \mathit{Pr}^{1/3} \;\; \text{(turbulent)}
+\tag{24}
+$$
+
+**Equation 25, Adiabatic Wall Recovery Temperature.**
+The recovery temperature applies the recovery factor to the stagnation temperature rise.
+[Anderson][book_anderson_hypersonic]
+[Bertin][book_bertin]
+
+$$
+T_r \;=\; T \left( 1 + r_f \, \frac{\gamma - 1}{2} M^2 \right)
+\tag{25}
+$$
+
+**Equation 26, Sutherland's Law.**
+Sutherland's law gives the viscosity of air as a function of temperature.
+
+$$
+\mu = \frac{C_1 \, T^{3/2}}{T + S_u}
+\tag{26}
+$$
+
+**Equation 27, Reynolds Number.**
+The Reynolds number is the density times the speed times a reference length over the viscosity.
+
+$$
+\mathit{Re} = \frac{\rho V L_r}{\mu}
+\tag{27}
+$$
+
+**Equation 28, Unit Reynolds Number.**
+The unit Reynolds number is the Reynolds number per metre of length, reported when the test article length is not fixed.
+
+$$
+\frac{\mathit{Re}}{L_r} \;=\; \frac{\rho V}{\mu}
+\tag{28}
+$$
+
+**Equation 29, Sutton-Graves Stagnation-Point Heating.**
+The convective heat flux at a stagnation point scales as the square root of density over nose radius and the cube of velocity.
+[Atmospheric entry][ref_sutton_graves]
+[Vinh, Busemann and Culp][book_vinh]
+
+$$
+\dot{Q} \;=\; k_s \sqrt{\frac{\rho}{R_n}} \; V^3
+\tag{29}
+$$
+
+**Equation 30, Rocket Thrust.**
+Rocket thrust is the momentum flux of the jet plus the pressure difference at the exit plane times the exit area.
+
+$$
+F = \dot{m} \, v_j + \left( p_e - p_a \right) A_e
+\tag{30}
+$$
+
+**Equation 31, Effective Exhaust Velocity and Specific Impulse.**
+The effective exhaust velocity is thrust over mass flow, and the specific impulse is that velocity over standard gravity.
+
+$$
+v_e = \frac{F}{\dot{m}}, \qquad I_s = \frac{F}{\dot{m} \, g_0}
+\tag{31}
+$$
+
+**Equation 32, Characteristic Velocity and Thrust Coefficient.**
+The thrust separates into the characteristic velocity of the chamber and the thrust coefficient of the nozzle.
+
+$$
+c_* = \frac{p_c A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_c A_t}, \qquad F = \dot{m} \, c_* \, C_F
+\tag{32}
+$$
+
+**Equation 33, Nozzle Area Ratio.**
+The nozzle area ratio is the exit area over the throat area.
+
+$$
+\epsilon = \frac{A_e}{A_t}
+\tag{33}
+$$
+
+**Equation 34, Isentropic Area-Mach Relation for the Nozzle.**
+The area ratio and the exit Mach number of a convergent-divergent nozzle are related through the isentropic area-Mach relation.
+
+$$
+\epsilon \;=\; \frac{A_e}{A_t} \;=\; \frac{1}{M_x}
+\left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_x^2 \right) \right]^{(\gamma + 1) / (2(\gamma - 1))}
+\tag{34}
+$$
+
+**Equation 35, Choked Mass Flow Through a Throat.**
+The mass flow through a choked throat is set by the chamber pressure, the throat area and the chamber temperature through the Vandenkerckhove function.
+
+$$
+\dot{m} \;=\; \frac{\Gamma \, p_c A_t}{\sqrt{R \, T_c}}, \qquad
+\Gamma \;=\; \sqrt{\gamma} \left( \frac{2}{\gamma + 1} \right)^{(\gamma + 1) / (2(\gamma - 1))}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Product of Chamber Pressure and Throat Area.*
+Taking a characteristic velocity of 1,800 metres per second, a typical value the article assumes because none is published for this engine, gives the product of chamber pressure and throat area from the mass flow alone.
+
+$$
+p_c A_t \;=\; \dot{m} \, c_* \;=\; 14,078\ \text{N}
+\tag{36}
+$$
+
+**Equation 37, Altitude Variation of Rocket Thrust.**
+With a fixed nozzle the thrust rises from its sea-level value toward the vacuum thrust as the ambient pressure on the exit area falls.
+[Ursa Major][ref_ursa_hadley_variants]
+
+$$
+F(z) \;=\; F_v - p(z) \, A_e, \qquad F_v = F(0) + p_b(0) \, A_e
+\tag{37}
+$$
+
+**Equation 38, Thrust-to-Weight Ratio at Release.**
+The published sea-level thrust of 5,000 pounds against the published gross mass of 1,360 kilograms gives a thrust-to-weight ratio of 1.668.
+[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]
+[Ursa Major][ref_ursa_hadley_variants]
+
+$$
+\frac{F}{W} \;=\; \frac{22,241\ \text{N}}{13,337\ \text{N}}
+  \;=\; 1.668
+\tag{38}
+$$
+
+*Equation 39, Bespoke Kinematic Velocity Increment With Climb.*
+The article counts the climb as velocity through its potential energy, taking the increment as the speed whose kinetic energy equals that of the corridor plus the climb, less the release speed.
+
+$$
+\Delta V_k \;=\; \sqrt{ V^2 + 2 g_0 \, \Delta z } \; - \; V_0
+\tag{39}
+$$
+
+*Equation 40, Bespoke Kinematic Increment From Release to the Corridor.*
+The increment is evaluated from a release at twelve kilometres and Mach 0.8, a release condition the article takes, to the Mach 5 corridor 9,300 metres higher.
+[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]
+
+$$
+\Delta V_k \;=\; \sqrt{ (1,479.5)^2
+  + 2 \times 9.80665 \times 9,300 } \; - \; 236.1
+  \;=\; 1,303.9\ \text{m/s}
+\tag{40}
+$$
+
+**Equation 41, Velocity Increment Including Gravity and Drag Losses.**
+The velocity increment the rocket must supply is the kinematic increment plus the integrated gravity and drag losses.
+
+$$
+\Delta V \;=\; \Delta V_k + \Delta V_g + \Delta V_d, \qquad
+\Delta V_g = \int_0^{t_b} g \sin\theta \; dt, \qquad
+\Delta V_d = \int_0^{t_b} \frac{D}{m} \; dt
+\tag{41}
+$$
+
+**Equation 42, Tsiolkovsky Rocket Equation.**
+The rocket equation converts a velocity increment into the logarithm of the mass ratio through the effective exhaust velocity.
+
+$$
+\Delta V \;=\; I_s \, g_0 \, \ln\!\left( \frac{m_0}{m_f} \right)
+\tag{42}
+$$
+
+**Equation 43, Mass Ratio and Propellant Fraction.**
+Inverting the rocket equation gives the mass ratio and the propellant fraction that a velocity increment demands.
+
+$$
+\frac{m_0}{m_f} \;=\; \exp\!\left( \frac{\Delta V}{I_s g_0} \right), \qquad
+\zeta \;=\; \frac{m_p}{m_0} \;=\; 1 - \exp\!\left( -\, \frac{\Delta V}{I_s g_0} \right)
+\tag{43}
+$$
+
+**Equation 44, Vehicle Mass Budget.**
+The ignition mass is the sum of the propellant, the structural and inert mass and the payload.
+
+$$
+m_0 = m_p + m_s + m_l
+\tag{44}
+$$
+
+**Equation 45, Propellant Mass Flow and Burn Duration.**
+The mass flow is thrust over specific impulse times standard gravity, and the burn duration is the propellant mass over that flow.
+
+$$
+\dot{m} = \frac{F}{I_s \, g_0}, \qquad t_b = \frac{m_p}{\dot{m}}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Hand-Calculated Burn Duration.*
+The burn duration of 75 seconds rests on a specific impulse of 290 seconds and a loss allowance of 300 metres per second, both of which the article assumes.
+
+$$
+t_b \;=\; \frac{586.2\ \text{kg}}{7.821\ \text{kg/s}}
+  \;=\; 75\ \text{s}
+\tag{46}
+$$
+
+**Equation 47, Oxidiser and Fuel Masses From the Mixture Ratio.**
+The mixture ratio splits the propellant mass into its oxidiser and fuel parts.
+
+$$
+m_o \;=\; m_p \, \frac{r_m}{1 + r_m}, \qquad m_u \;=\; \frac{m_p}{1 + r_m}
+\tag{47}
+$$
+
+**Equation 48, Propellant Volume.**
+The propellant volume is the sum of the oxidiser and fuel masses over their densities.
+
+$$
+V_p \;=\; \frac{m_o}{\rho_o} + \frac{m_u}{\rho_u}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Booster Diameter From the Propellant Volume.*
+The article recovers the unpublished diameter by assuming cylindrical tanks at the full body diameter that occupy seventy percent of the booster length.
+[Directory of U.S. Military Rockets and Missiles][ref_dusrm_x60]
+
+$$
+d \;=\; 2 \sqrt{ \frac{V_p}{\pi \, l_t} }
+\tag{49}
+$$
+
+**Equation 50, Fineness Ratio and Frontal Area.**
+The fineness ratio is the booster length over its diameter and the frontal area is that of a circle of the diameter.
+
+$$
+f_r = \frac{l_b}{d}, \qquad A_f = \frac{\pi d^2}{4}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Bulk Density of the Loaded Propellant.*
+At the oxidiser to fuel mixture ratio of 2.3 that the article assumes, the loaded propellant has a bulk density of 1,015.3 kilograms per cubic metre.
+
+$$
+\rho_b \;=\; \frac{m_p}{V_p} \;=\; 1,015.3\ \text{kg}\,\text{m}^{-3}
+\tag{51}
+$$
+
+**Equation 52, Ratio of Span to Diameter.**
+The span over the recovered diameter is a check of the recovered geometry against an ordinary slender configuration.
+
+$$
+\frac{S}{d}
+\tag{52}
+$$
+
+**Equation 53, Equation of Motion Along the Flight Path.**
+Along the flight path the mass times the acceleration is the thrust less the drag and the component of weight.
+
+$$
+m \frac{dV}{dt} \;=\; F - D - m g \sin\theta
+\tag{53}
+$$
+
+**Equation 54, Equation of Motion Across the Flight Path.**
+Across the flight path the mass times the speed times the turn rate is the lift less the normal component of weight.
+
+$$
+m V \frac{d\theta}{dt} \;=\; L - m g \cos\theta
+\tag{54}
+$$
+
+**Equation 55, Lift and Drag.**
+Lift and drag are the dynamic pressure times the reference area times their coefficients.
+
+$$
+L = \tfrac{1}{2} \rho V^2 S C_l, \qquad D = \tfrac{1}{2} \rho V^2 S C_d
+\tag{55}
+$$
+
+**Equation 56, Ballistic Coefficient.**
+The ballistic coefficient is the mass over the drag coefficient times the reference area.
+
+$$
+\beta_b = \frac{m}{C_d S}
+\tag{56}
+$$
+
+**Equation 57, Altitude Rate and Mass Flow.**
+The altitude rises at the speed times the sine of the flight path angle while the mass falls at the propellant flow rate.
+
+$$
+\frac{dz}{dt} \;=\; V \sin\theta, \qquad \frac{dm}{dt} \;=\; -\, \dot{m}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Linear Pitch Programme.*
+The article commands the flight path angle to run linearly from the release angle to the burnout angle over the burn.
+
+$$
+\theta_c(t) \;=\; \theta_0 + \left( \theta_b - \theta_0 \right)
+\min\!\left( 1, \; \frac{t}{t_b} \right)
+\tag{58}
+$$
+
+*Equation 59, Bespoke Interpolated Drag Coefficient.*
+The article interpolates the drag coefficient linearly between anchor points it chooses to reproduce the shape every slender supersonic body shares.
+
+$$
+C_d(M) \;=\; C_d(M_i) + \left[ C_d(M_i') - C_d(M_i) \right]
+\frac{M - M_i}{M_i' - M_i}, \qquad M_i \le M \le M_i'
+\tag{59}
+$$
+
+**Equation 60, Lift Required by the Commanded Turn.**
+Rearranging the normal equation gives the lift that the commanded pitch programme requires at each instant.
+
+$$
+L \;=\; m V \frac{d\theta}{dt} + m g \cos\theta
+\tag{60}
+$$
+
+**Equation 61, Structural Coefficient and Payload Fraction.**
+A stage is judged by its structural coefficient, the inert share of inert plus propellant mass, and by its payload fraction.
+[Pegasus rocket][ref_pegasus]
+
+$$
+\sigma_s \;=\; \frac{m_s}{m_s + m_p}, \qquad f_l \;=\; \frac{m_l}{m_0}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Atmospheric Mass Above the Release Altitude.*
+The air column above an altitude has a mass per area equal to its pressure over gravity, so a release at the twelve kilometres the article takes is above 80.9 percent of the atmosphere's mass.
+
+$$
+\frac{m}{S} \bigg|_{\text{above } z} \;=\; \frac{p(z)}{g_0}, \qquad
+1 - \frac{p(z)}{p_b(0)} \;=\; 80.9\ \text{percent}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Cost per Second of Test Condition.*
+The article's figure of merit divides the total cost obligated by the number of flights times the dwell at condition.
+
+$$
+c_s \;=\; \frac{C_t}{N_f \, \tau}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Cost per Second With No Flights.*
+With the obligated 30,921,064.62 dollars and no flights flown, the article's figure of merit is undefined.
+
+$$
+c_s \;=\; \frac{30,921,064.62}{N_f \, \tau} \quad \text{with} \quad N_f = 0
+\tag{64}
+$$
+
+*Equation 65, Bespoke Dwell at Condition.*
+The dwell is the time within the burn that the Mach number spends above a threshold the article sets for being at condition.
+
+$$
+\tau \;=\; \int_{0}^{t_b} dt \;\; \text{over the interval where} \;\; M(t) \ge M_d
+\tag{65}
+$$
+
+*Equation 66, Bespoke Split of Cost per Flight.*
+The article separates the cost per flight into a development share that falls with the flight count and a marginal cost that does not.
+
+$$
+\frac{C_t}{N_f} \;=\; \frac{C_t}{N_f} \bigg|_{\text{development}} + \; c_m
+\tag{66}
+$$
+
+*Equation 67, Bespoke Dwell Fraction of the Integrated Burn.*
+On the article's integrated ascent with the Mach 6 propellant load the vehicle spends 12.2 seconds above Mach 5, 13.9 percent of the burn.
+
+$$
+\frac{\tau}{t_b} \;=\; \frac{12.2}{87.8}
+  \;=\; 13.9\ \text{percent}
+\tag{67}
+$$
+
+**Equation 68, Steady Flight Along the Path.**
+At constant speed the thrust balances the drag plus the component of weight along the flight path.
+
+$$
+F \;=\; D + W \sin\theta
+\tag{68}
+$$
+
+**Equation 69, Flight Path Angle for a Steady State.**
+The steady flight path angle has a sine equal to the excess of thrust over drag divided by the weight.
+
+$$
+\sin\theta \;=\; \frac{F - D}{W}
+\tag{69}
+$$
+
+**Equation 70, Condition for No Steady State.**
+When the thrust exceeds the drag plus the whole weight, the required sine exceeds one and no steady state exists.
+
+$$
+F \;>\; D + W \quad \Longrightarrow \quad \sin\theta > 1 \quad \Longrightarrow \quad
+\text{no steady state exists}
+\tag{70}
+$$
+
+**Equation 71, Throttle Setting to Hold Speed.**
+The throttle setting that holds speed is the drag over the rated thrust.
+
+$$
+\phi \;=\; \frac{D}{F} \bigg|_{\text{rated}}
+\tag{71}
+$$
+
+**Equation 72, Injector Pressure Drop.**
+The pressure drop across a fixed injector orifice follows the square of the flow, and so the square of the throttle setting.
+[Sutton and Biblarz][book_sutton_biblarz]
+[Huzel and Huang][book_huzel_huang]
+
+$$
+\Delta p_j \;=\; \frac{1}{2 \rho_b} \left( \frac{\dot{m}}{C_j A_j} \right)^2
+\;\propto\; \dot{m}^2 \;\propto\; \phi^2
+\tag{72}
+$$
+
+*Equation 73, Bespoke Range of Dynamic Pressure Across Pitch Programmes.*
+Across the 53 pitch programmes the article integrates, the dynamic pressure at first reaching Mach 5 spans a factor of 72.8.
+
+$$
+\frac{q_{\max}}{q_{\min}} \bigg|_{M \ge 5} \;=\; 72.8
+\tag{73}
+$$
+
+**Equation 74, Statutory Thrust Exceeds Lift Test.**
+The statute defines a suborbital rocket in part by thrust exceeding lift for the majority of the powered ascent.
+[51 U.S.C. 50902][ref_usc_50902]
+
+$$
+F \;>\; L \qquad \text{for the majority of } \; 0 \le t \le t_b
+\tag{74}
+$$
+
+**Equation 75, Load Factor Form of the Statutory Test.**
+Thrust exceeds lift whenever the aerodynamic load factor is below the thrust-to-weight ratio, 1.668 at release.
+
+$$
+n \;=\; \frac{L}{W}, \qquad
+F > L \quad \Longleftrightarrow \quad n < \frac{F}{W} \;=\; 1.668
+\tag{75}
+$$
+
+**Equation 76, Specific Energy and Angular Momentum at Burnout.**
+The burnout speed, radius and flight path angle give the specific orbital energy and specific angular momentum of the coasting ellipse.
+
+$$
+\varepsilon \;=\; \frac{V^2}{2} - \frac{\mu_E}{r_b}, \qquad
+\ell \;=\; r_b V \cos\theta
+\tag{76}
+$$
+
+**Equation 77, Semi-Major Axis, Eccentricity and Perigee of the Coasting Ellipse.**
+The energy and angular momentum fix the semi-major axis and eccentricity of the coasting ellipse and hence its perigee radius.
+
+$$
+a_s \;=\; -\, \frac{\mu_E}{2 \varepsilon}, \qquad
+e_c \;=\; \sqrt{ 1 + \frac{2 \varepsilon \ell^2}{\mu_E^2} }, \qquad
+r_p \;=\; a_s \left( 1 - e_c \right)
+\tag{77}
+$$
+
+**Equation 78, Vacuum Instantaneous Impact Point Test.**
+The vacuum instantaneous impact point stays on the Earth when the perigee radius of the coasting ellipse is below the Earth's radius.
+[51 U.S.C. 50902][ref_usc_50902]
+
+$$
+r_p \;<\; R_m \quad \Longleftrightarrow \quad
+\text{the vacuum instantaneous impact point does not leave the surface}
+\tag{78}
+$$
+
+*Equation 79, Bespoke Burnout Speed Against Circular Orbital Speed.*
+The burnout speed of the article's integrated ascent is 22.9 percent of the circular orbital speed at the burnout radius.
+
+$$
+V_c \;=\; \sqrt{\frac{\mu_E}{r_b}}, \qquad
+\frac{V}{V_c} \;=\; 22.9\ \text{percent}
+\tag{79}
+$$
+
+### Notation
+
+- $\dot{m}_a$, the mass flow of air an inlet captures
+- $A_c$, the inlet capture area of an air-breathing test article
+- $\mathit{Re}_x$, the Reynolds number based on distance from the leading edge
+- $x_t$, the distance from the leading edge at which the boundary layer goes turbulent
+- $T_w$, the wall temperature of the test article
+- $T_r$, the adiabatic wall recovery temperature
+- $\gamma$, the ratio of specific heats of air
+- $R_e$, the effective radius of the Earth used by the standard atmosphere
+- $h_b$, the geopotential altitude of the base of an atmospheric layer
+- $T_b$, the temperature at the base of an atmospheric layer
+- $p_b$, the pressure at the base of an atmospheric layer
+- $\lambda$, the temperature lapse rate of an atmospheric layer
+- $g_0$, standard gravity, the constant that defines specific impulse
+- $H$, the pressure scale height of the atmosphere
+- $\Delta q$, a change in dynamic pressure
+- $\Delta z$, the altitude gained between release and the corridor
+- $T_0$, the stagnation temperature
+- $h_0$, the stagnation enthalpy per unit mass
+- $p_0$, the stagnation pressure
+- $r_f$, the recovery factor, the fraction of the stagnation temperature rise a wall actually sees
+- $\mathit{Pr}$, the Prandtl number of air
+- $S_u$, the Sutherland constant for air, with $C_1$ the Sutherland coefficient
+- $L_r$, a reference length
+- $\dot{Q}$, the stagnation-point convective heat flux
+- $k_s$, the Sutton-Graves constant for air
+- $R_n$, the nose radius of the test article
+- $v_j$, the nozzle exit velocity of the jet
+- $p_e$, the nozzle exit pressure, with $p_a$ the ambient pressure at the exit plane
+- $A_e$, the nozzle exit area
+- $A_t$, the nozzle throat area
+- $v_e$, the effective exhaust velocity
+- $I_s$, the specific impulse
+- $c_*$, the characteristic velocity of the propellant combination
+- $C_F$, the nozzle thrust coefficient
+- $p_c$, the chamber pressure
+- $\epsilon$, the nozzle area ratio
+- $M_x$, the Mach number at the nozzle exit plane
+- $\Gamma$, the Vandenkerckhove function of the ratio of specific heats
+- $T_c$, the combustion chamber temperature
+- $F_v$, the vacuum thrust of the engine
+- $V_0$, the release velocity, the true airspeed at separation from the carrier
+- $\Delta V_k$, the kinematic velocity increment
+- $\Delta V_g$, the velocity lost to gravity during powered ascent
+- $\Delta V_d$, the velocity lost to drag during powered ascent
+- $m_0$, the vehicle mass at engine ignition, with $m_f$ the mass at burnout
+- $m_p$, the usable propellant mass
+- $m_s$, the structural and inert mass of the vehicle
+- $m_l$, the payload mass
+- $\zeta$, the propellant mass fraction
+- $t_b$, the powered burn duration
+- $r_m$, the oxidiser to fuel mixture ratio by mass
+- $m_o$, the oxidiser mass, with $m_u$ the fuel mass
+- $\rho_o$, the density of liquid oxygen at its normal boiling point, with $\rho_u$ that of the kerosene fuel
+- $V_p$, the total propellant volume
+- $l_t$, the length of the propellant tankage
+- $f_r$, the fineness ratio of the booster, with $l_b$ the booster length
+- $A_f$, the frontal area of the booster
+- $\rho_b$, the bulk density of the loaded propellant
+- $\theta$, the flight path angle above the horizontal
+- $C_l$, the lift coefficient, with $C_d$ the drag coefficient
+- $\beta_b$, the ballistic coefficient
+- $\theta_c$, the flight path angle the pitch programme commands, with $\theta_0$ the release angle and $\theta_b$ the commanded burnout angle
+- $M_i$, the Mach number at an anchor point of the drag model
+- $\sigma_s$, the structural coefficient, the inert mass as a share of inert plus propellant
+- $f_l$, the payload mass fraction
+- $c_s$, the cost per second of test condition delivered
+- $C_t$, the total cost obligated against the programme
+- $N_f$, the number of flights flown
+- $\tau$, the time a payload spends inside the test corridor on one flight
+- $M_d$, the Mach number above which a flight counts as being at condition
+- $c_m$, the marginal cost of one further flight
+- $\phi$, the throttle setting, as a fraction of rated thrust
+- $\Delta p_j$, the pressure drop across the injector
+- $C_j$, the discharge coefficient of an injector orifice, with $A_j$ the total orifice area
+- $\varepsilon$, the specific orbital energy of the burnout state
+- $\mu_E$, the gravitational parameter of the Earth
+- $r_b$, the geocentric radius at burnout
+- $a_s$, the semi-major axis of the coasting ellipse
+- $e_c$, the eccentricity of the coasting ellipse
+- $r_p$, the perigee radius of the coasting ellipse
+- $R_m$, the volumetric mean radius of the Earth
+- $V_c$, the circular orbital speed at the burnout radius
 
 ## References
 

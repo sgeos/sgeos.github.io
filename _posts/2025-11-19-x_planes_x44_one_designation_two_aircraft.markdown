@@ -25,15 +25,24 @@ This is the forty-fifth article in the [X-Planes series][related_post_a297_frami
 
 A vertical tail exists to supply two different things that are easy to confuse. It supplies **static directional stability**, meaning a restoring moment that grows with sideslip and points the nose back into the wind, and it supplies **control power**, meaning a moment the pilot can command at will. The stability condition is a sign condition on one derivative. It is written out because the article concerns what happens when it fails. **The requirement that it be satisfied at all is older than the jet age**, having been set out in the report that first turned pilot opinion into numbers \[[Gilruth 1943][research_gilruthrr_1943]\].
 
-$$N = q S b \, C_{n\beta} \, \beta \qquad \text{stable} \iff C_{n\beta} > 0$$
+$$
+N = q S b \, C_{n\beta} \, \beta \qquad \text{stable} \iff C_{n\beta} > 0
+\tag{1}
+$$
 
 **Deleting the tail removes both, and the two are replaced by different mechanisms.** Stability is replaced by feedback, which is a matter of sensors, computation and actuator bandwidth. Control power is replaced by thrust deflection, which is a matter of how much momentum flows through the nozzle and how far that nozzle sits behind the centre of gravity. **The distinction between the two is standard and is made in every treatment of the subject** \[[Etkin and Reid, Dynamics of flight][book_etkin_reid]\] \[[Nelson, Flight stability and automatic control][book_nelson]\] \[[Perkins and Hage, Airplane performance, stability and control][book_perkins_hage]\], and the conventional way of sizing the surface that supplies both is a tail volume coefficient,
 
-$$V_{v} = \frac{S_{v} \, l_{v}}{S \, b}$$
+$$
+V_{v} = \frac{S_{v} \, l_{v}}{S \, b}
+\tag{2}
+$$
 
 which is a ratio of areas and arms carrying no propulsion term at all \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]\]. The authority that coefficient buys follows from it directly, with $a_{v}$ the fin's lift-curve slope, $\tau$ the rudder effectiveness and $\eta_{v}$ the dynamic pressure ratio at the tail.
 
-$$C_{n \delta_{r}} = - V_{v} \, a_{v} \, \tau \, \eta_{v}$$
+$$
+C_{n \delta_{r}} = - V_{v} \, a_{v} \, \tau \, \eta_{v}
+\tag{3}
+$$
 
 **The methods for putting numbers into that expression are themselves primary literature** \[[Campbell and McKinney 1951][research_campbelljohnp_mckinneymariono_1951]\] \[[Toll and Queijo 1948][research_tollthomasa_queijomj_1948]\] \[[Jones and Alksne 1951][research_jonesarthurl_alksnealberta_1951]\], and the swept-wing and supersonic cases needed separate treatments because the subsonic charts do not carry over.
 
@@ -43,11 +52,17 @@ $$C_{n \delta_{r}} = - V_{v} \, a_{v} \, \tau \, \eta_{v}$$
 
 **The reason to delete it is not aerodynamic elegance.** A vertical tail is the single largest contributor to the radar cross section of an otherwise carefully shaped aeroplane, because a flat surface standing perpendicular to the wing is a corner reflector for every illumination in the horizontal plane, and the shaping literature has said so for as long as it has existed \[[Knott, Shaeffer and Tuley, Radar cross section][book_knott]\]. A flat plate of area $A$ returns
 
-$$\sigma_{\text{plate}} = \frac{4 \pi A^{2}}{\lambda^{2}}$$
+$$
+\sigma_{\text{plate}} = \frac{4 \pi A^{2}}{\lambda^{2}}
+\tag{4}
+$$
 
 at normal incidence, and a dihedral formed by two such plates meeting at a right angle returns
 
-$$\sigma_{\text{dihedral}} = \frac{8 \pi a^{2} b^{2}}{\lambda^{2}}$$
+$$
+\sigma_{\text{dihedral}} = \frac{8 \pi a^{2} b^{2}}{\lambda^{2}}
+\tag{5}
+$$
 
 over a wide range of aspect angles rather than at one. **The second relation is why a fin is expensive and the first is not the whole story.** A flat plate is a large return in one direction and a corner is a large return in many, and the persistence across angle, unlike the peak, is what a designer cannot shape away. It also carries a trim drag penalty, a weight penalty, an actuation penalty and, on a supersonic aeroplane, a wave drag penalty. **The MANTA's own advertised benefits were reduced mechanical complexity, greater internal fuel volume and greater agility** \[[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]\] \[[X-44 MANTA Multi-Axis No-Tail Aircraft, GlobalSecurity][ref_globalsecurity_x44]\], four different disciplines each wanting the same part removed.
 
@@ -91,7 +106,10 @@ The [X-39][related_post_a336_x39_reserved_never_assigned] was reserved and never
 
 **One structural observation survives without resolving anything, and arithmetic establishes it.** The X-planes numbering is a finite resource issued consecutively and never replenished, the mechanism on which the [X-39 article][related_post_a336_x39_reserved_never_assigned] builds its permanence argument. Writing $N$ for the highest number issued, $r$ for those reserved and never used and $c$ for those issued more than once, the vehicles the sequence can name is
 
-$$V = N - r + c$$
+$$
+V = N - r + c
+\tag{6}
+$$
 
 while the numbers consumed is $N$ alone. **A collision is the only term in that expression that adds a vehicle without consuming a number**, so it is the one anomaly class that costs the register nothing and the reader everything. The register's accounting cannot see it, because $N$ is what the register stores and $c$ is not.
 
@@ -105,29 +123,47 @@ while the numbers consumed is $N$ alone. **A collision is the only term in that 
 
 Let $q$ be the dynamic pressure, $S$ the wing reference area, $b$ the span, $C_{n\beta}$ the directional stability derivative and $\beta$ the sideslip angle. The aerodynamic yawing moment that must be produced, whether to trim a disturbance or to restrain a divergence, is
 
-$$N_{\text{req}} = q S b \left| C_{n\beta} \right| \beta$$
+$$
+N_{\text{req}} = q S b \left| C_{n\beta} \right| \beta
+\tag{7}
+$$
 
 Let $F_{g}$ be the gross thrust passing through the nozzles, $\ell$ the distance from the centre of gravity to the nozzle exit and $\delta$ the yaw deflection angle of the jet. The moment available is
 
-$$N_{\text{av}} = F_{g} \ell \sin \delta$$
+$$
+N_{\text{av}} = F_{g} \ell \sin \delta
+\tag{8}
+$$
 
 **The argument turns on the ratio of these two.**
 
-$$\mathcal{R} \equiv \frac{N_{\text{av}}}{N_{\text{req}}} = \frac{F_{g} \ell \sin \delta}{q S b \left| C_{n\beta} \right| \beta}$$
+$$
+\mathcal{R} \equiv \frac{N_{\text{av}}}{N_{\text{req}}} = \frac{F_{g} \ell \sin \delta}{q S b \left| C_{n\beta} \right| \beta}
+\tag{9}
+$$
 
 **The available moment can be put in the same currency as the rudder, and doing so is the cleanest way to see what the exchange costs.** Dividing the vectored moment by $q S b$ gives a propulsive tail volume, a dimensionless number directly comparable with the $C_{n \delta_{r}}$ above.
 
-$$V_{p} \equiv \frac{F_{g} \, \ell \, \sin \delta_{\max}}{q \, S \, b}$$
+$$
+V_{p} \equiv \frac{F_{g} \, \ell \, \sin \delta_{\max}}{q \, S \, b}
+\tag{10}
+$$
 
 **The article's central finding is that this quantity does not behave like a rudder's.** A rudder's coefficient is fixed by geometry. This one carries the thrust in its numerator and the dynamic pressure in its denominator, so it falls as the aeroplane goes faster and collapses when the throttle closes.
 
 **Inverting the ratio for the quantity a control system commands gives the required deflection.**
 
-$$\sin \delta = \frac{q \, S \, b \, \left| C_{n\beta} \right| \beta}{F_{g} \, \ell}$$
+$$
+\sin \delta = \frac{q \, S \, b \, \left| C_{n\beta} \right| \beta}{F_{g} \, \ell}
+\tag{11}
+$$
 
 **Dynamic pressure is not independent of static pressure, and writing it in those terms is the step the rest of the derivation needs.** With $\gamma$ the ratio of specific heats, $p$ the ambient static pressure and $M$ the Mach number,
 
-$$q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \rho M^{2} \gamma R T = \tfrac{1}{2} \gamma p M^{2} = 0.7 \, p M^{2}$$
+$$
+q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \rho M^{2} \gamma R T = \tfrac{1}{2} \gamma p M^{2} = 0.7 \, p M^{2}
+\tag{12}
+$$
 
 The moment form above is the standard linearised one \[[Yechout and Morris, Introduction to aircraft flight mechanics][book_yechout]\] \[[Schmidt, Modern flight dynamics][book_schmidt]\] \[[Roskam, Airplane flight dynamics and automatic flight controls][book_roskam]\], and the substitution for dynamic pressure follows from the definition of Mach number and the perfect gas law together \[[Anderson, Fundamentals of aerodynamics][book_anderson]\] \[[McCormick, Aerodynamics, aeronautics and flight mechanics][book_mccormick]\]. **The substitution is an exact identity.** Evaluating both forms at every flight condition in the analysis gives the same dynamic pressure to within one part in a million.
 
@@ -135,48 +171,75 @@ The moment form above is the standard linearised one \[[Yechout and Morris, Intr
 
 **Gross thrust varies, and the way it varies produces the result.** A fixed-geometry engine running at its maximum corrected rotational speed passes a constant corrected mass flow, so the physical mass flow follows the total conditions at the compressor face. With $\delta_{2}$ and $\theta_{2}$ the total pressure and total temperature at that station referred to sea level static conditions,
 
-$$\dot{m} = \dot{m}_{\text{ref}} \frac{\delta_{2}}{\sqrt{\theta_{2}}}$$
+$$
+\dot{m} = \dot{m}_{\text{ref}} \frac{\delta_{2}}{\sqrt{\theta_{2}}}
+\tag{13}
+$$
 
 **This corrected-parameter machinery is general to engine performance** \[[Mattingly, Elements of gas turbine propulsion][book_mattingly_propulsion]\] \[[Cumpsty, Jet propulsion][book_cumpsty]\]. It is used here for one property, the variation of physical mass flow with ambient conditions.
 
 The total conditions follow from the ambient conditions and the flight Mach number through the isentropic relations, reduced by the inlet total pressure recovery $\eta_{r}$,
 
-$$\delta_{2} = \frac{p}{p_{\text{SL}}} \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}} \eta_{r}
+$$
+\delta_{2} = \frac{p}{p_{\text{SL}}} \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}} \eta_{r}
 \qquad
-\theta_{2} = \frac{T}{T_{\text{SL}}} \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)$$
+\theta_{2} = \frac{T}{T_{\text{SL}}} \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)
+\tag{14}
+$$
 
 which for $\gamma = 1.4$ gives, after cancelling one half power of the ram term,
 
-$$\dot{m} \propto \frac{p}{p_{\text{SL}}} \, \eta_{r} \, \frac{\left( 1 + 0.2 M^{2} \right)^{3}}{\sqrt{T / T_{\text{SL}}}}$$
+$$
+\dot{m} \propto \frac{p}{p_{\text{SL}}} \, \eta_{r} \, \frac{\left( 1 + 0.2 M^{2} \right)^{3}}{\sqrt{T / T_{\text{SL}}}}
+\tag{15}
+$$
 
 **Gross thrust is that mass flow times a jet velocity, and the jet velocity varies too.** For a nozzle expanding from a total temperature $T_{t7}$ fixed by the afterburner limit,
 
-$$V_{j} = \sqrt{2 \, c_{p} \, T_{t7} \left[ 1 - \left( \frac{p}{p_{t7}} \right)^{\frac{\gamma - 1}{\gamma}} \right]}$$
+$$
+V_{j} = \sqrt{2 \, c_{p} \, T_{t7} \left[ 1 - \left( \frac{p}{p_{t7}} \right)^{\frac{\gamma - 1}{\gamma}} \right]}
+\tag{16}
+$$
 
 **Everything on the right is fixed by the engine except the nozzle pressure ratio, which rises with flight Mach number through the same ram term the mass flow carries.** The derivation first treats $V_{j}$ as constant, which is the simpler and, as shown under Where the Framing Breaks Down, the more pessimistic choice, and then relaxes it and reports how much the answer moves.
 
-$$F_{g} = \dot{m} V_{j} + \left( p_{e} - p \right) A_{e} \approx \dot{m} V_{j}$$
+$$
+F_{g} = \dot{m} V_{j} + \left( p_{e} - p \right) A_{e} \approx \dot{m} V_{j}
+\tag{17}
+$$
 
 ### The Static Pressure Cancels Exactly
 
 **Assembling the ratio, the ambient static pressure appears once in the numerator and once in the denominator, to the same power.**
 
-$$\mathcal{R} \propto \frac{ \dfrac{p}{p_{\text{SL}}} \eta_{r} \dfrac{(1 + 0.2 M^{2})^{3}}{\sqrt{T/T_{\text{SL}}}} }{ 0.7 \, p M^{2} }
-= \frac{ \eta_{r} \left( 1 + 0.2 M^{2} \right)^{3} }{ 0.7 \, p_{\text{SL}} \, M^{2} \sqrt{T/T_{\text{SL}}} }$$
+$$
+\mathcal{R} \propto \frac{ \dfrac{p}{p_{\text{SL}}} \eta_{r} \dfrac{(1 + 0.2 M^{2})^{3}}{\sqrt{T/T_{\text{SL}}}} }{ 0.7 \, p M^{2} }
+= \frac{ \eta_{r} \left( 1 + 0.2 M^{2} \right)^{3} }{ 0.7 \, p_{\text{SL}} \, M^{2} \sqrt{T/T_{\text{SL}}} }
+\tag{18}
+$$
 
 **The pressure is gone, so the ratio does not depend on altitude except through temperature.** Above the tropopause the standard atmosphere holds temperature constant at 216.65 kelvin, so in that region **the ratio is a function of Mach number alone.**
 
-$$\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3}}{M^{2}} \qquad h > 11 \ \text{km}$$
+$$
+\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3}}{M^{2}} \qquad h > 11 \ \text{km}
+\tag{19}
+$$
 
 **The cancellation can also be confirmed numerically.** Evaluated through the full standard atmosphere at Mach 1.2, the ratio takes the same value at five altitudes from 11,000 metres to 65,000 feet to within one part in ten to the twelfth, and the closed form above reproduces the atmosphere-driven value exactly at three further altitudes. **The cancellation is a structural property of the ratio, independent of numerical coincidence.**
 
 **Below the tropopause the cancellation is only partial, because temperature varies there.** The residue is the remaining temperature term, which needs no empirical curve because the standard atmosphere supplies it in closed form,
 
-$$T(h) = T_{\text{SL}} - L h \quad (h \le 11 \ \text{km}) \qquad T(h) = 216.65 \ \text{K} \quad (h > 11 \ \text{km})$$
+$$
+T(h) = T_{\text{SL}} - L h \quad (h \le 11 \ \text{km}) \qquad T(h) = 216.65 \ \text{K} \quad (h > 11 \ \text{km})
+\tag{20}
+$$
 
 so the ratio at altitude $h$ relative to the isothermal region is
 
-$$\frac{\mathcal{R}(h)}{\mathcal{R}(h > 11 \ \text{km})} = \sqrt{\frac{T_{11}}{T(h)}}$$
+$$
+\frac{\mathcal{R}(h)}{\mathcal{R}(h > 11 \ \text{km})} = \sqrt{\frac{T_{11}}{T(h)}}
+\tag{21}
+$$
 
 The lapse rate, the tropopause altitude and the isothermal temperature above it are the standard values \[[U.S. Standard Atmosphere 1976 1976][research_u_s_standard_1976]\], and every altitude quoted is a pressure altitude in that model rather than a geometric one.
 
@@ -198,25 +261,40 @@ The lapse rate, the tropopause altitude and the isothermal temperature above it 
 
 Taking ideal recovery for a moment, the Mach dependence is
 
-$$f(M) = \frac{\left( 1 + 0.2 M^{2} \right)^{3}}{M^{2}}$$
+$$
+f(M) = \frac{\left( 1 + 0.2 M^{2} \right)^{3}}{M^{2}}
+\tag{22}
+$$
 
 Differentiating with respect to $u = M^{2}$,
 
-$$\frac{d}{du} \left[ \frac{(1 + 0.2u)^{3}}{u} \right] = \frac{(1 + 0.2u)^{2} \left( 0.4 u - 1 \right)}{u^{2}}$$
+$$
+\frac{d}{du} \left[ \frac{(1 + 0.2u)^{3}}{u} \right] = \frac{(1 + 0.2u)^{2} \left( 0.4 u - 1 \right)}{u^{2}}
+\tag{23}
+$$
 
 **which vanishes at $u = 2.5$, so the worst Mach number is exactly $\sqrt{5/2}$.**
 
-$$M^{\ast} = \sqrt{2.5} = 1.5811 \qquad f(M^{\ast}) = \frac{1.5^{3}}{2.5} = \frac{3.375}{2.5} = 1.35$$
+$$
+M^{\ast} = \sqrt{2.5} = 1.5811 \qquad f(M^{\ast}) = \frac{1.5^{3}}{2.5} = \frac{3.375}{2.5} = 1.35
+\tag{24}
+$$
 
 **Both the location and the value are exact, and both can be recovered without the algebra.** Bisection on a numerically differenced derivative finds the same minimising Mach number to six decimal places, and the function evaluated there equals 1.35 to machine precision.
 
 **Adding a realistic inlet total pressure recovery moves the minimum and does not remove it.** The standard correlation, the military specification recovery that NASA's Glenn Research Center gives as a good first estimate above Mach one while noting that actual inlets usually recover somewhat less \[[NASA Glenn Research Center, Inlet performance][ref_nasa_grc_inlet]\], is
 
-$$\eta_{r}(M) = \begin{cases} 1 & M \le 1 \\ 1 - 0.075 \, (M - 1)^{1.35} & M > 1 \end{cases}$$
+$$
+\eta_{r}(M) = \begin{cases} 1 & M \le 1 \\ 1 - 0.075 \, (M - 1)^{1.35} & M > 1 \end{cases}
+\tag{25}
+$$
 
 and with it the stationarity condition is no longer solvable in closed form, because differentiating the product gives
 
-$$\frac{\eta_{r}'(M)}{\eta_{r}(M)} + \frac{1.2 M}{1 + 0.2 M^{2}} - \frac{2}{M} = 0$$
+$$
+\frac{\eta_{r}'(M)}{\eta_{r}(M)} + \frac{1.2 M}{1 + 0.2 M^{2}} - \frac{2}{M} = 0
+\tag{26}
+$$
 
 which is transcendental and is solved by golden-section search. The ideal closed form remains the exact reference from which the corrected minimum is displaced.
 
@@ -245,33 +323,54 @@ which is transcendental and is solved by golden-section search. The ideal closed
 
 **The comparison above holds the sideslip angle fixed, which is right for a manoeuvre and wrong for a wind.** A crosswind, or a lateral gust, has a fixed speed rather than a fixed angle, and the angle it produces grows as the aeroplane slows. With $V_{c}$ the crosswind speed,
 
-$$\beta = \arctan \frac{V_{c}}{V} \approx \frac{V_{c}}{V} = \frac{V_{c}}{M \sqrt{\gamma R T}}$$
+$$
+\beta = \arctan \frac{V_{c}}{V} \approx \frac{V_{c}}{V} = \frac{V_{c}}{M \sqrt{\gamma R T}}
+\tag{27}
+$$
 
 Substituting into the required moment,
 
-$$N_{\text{req}} \propto q \beta = 0.7 \, p M^{2} \cdot \frac{V_{c}}{M \sqrt{\gamma R T}} \propto \frac{p M}{\sqrt{T}}$$
+$$
+N_{\text{req}} \propto q \beta = 0.7 \, p M^{2} \cdot \frac{V_{c}}{M \sqrt{\gamma R T}} \propto \frac{p M}{\sqrt{T}}
+\tag{28}
+$$
 
 **and the available moment already carries the same pressure and the same square root of temperature.**
 
-$$N_{\text{av}} \propto \frac{p \, \eta_{r} \left( 1 + 0.2 M^{2} \right)^{3}}{\sqrt{T}}$$
+$$
+N_{\text{av}} \propto \frac{p \, \eta_{r} \left( 1 + 0.2 M^{2} \right)^{3}}{\sqrt{T}}
+\tag{29}
+$$
 
 **Both cancel. The required vector angle for a crosswind of given speed depends on Mach number and on no other variable.**
 
-$$\frac{N_{\text{req}}}{N_{\text{av}}} \propto \frac{M}{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3}}$$
+$$
+\frac{N_{\text{req}}}{N_{\text{av}}} \propto \frac{M}{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3}}
+\tag{30}
+$$
 
 **No pressure, no temperature, no altitude, no density and no true airspeed.** Evaluated at Mach 0.8 at five altitudes from sea level to 55,000 feet with the throttle held, the required angle agrees to better than four parts in ten thousand, the residue being the difference between the arctangent and its argument.
 
 **Differentiating gives a result cleaner than the last one.**
 
-$$\frac{d}{dM} \left[ M \left( 1 + 0.2 M^{2} \right)^{-3} \right] = \frac{1 - M^{2}}{\left( 1 + 0.2 M^{2} \right)^{4}}$$
+$$
+\frac{d}{dM} \left[ M \left( 1 + 0.2 M^{2} \right)^{-3} \right] = \frac{1 - M^{2}}{\left( 1 + 0.2 M^{2} \right)^{4}}
+\tag{31}
+$$
 
 **The crosswind demand peaks at exactly Mach one**, at every altitude, in every atmosphere, for every crosswind speed and for every aeroplane. Evaluating the ideal form there gives a maximum that is a pure number,
 
-$$h(1) = \frac{1}{(1 + 0.2)^{3}} = \frac{1}{1.728} = 0.578704$$
+$$
+h(1) = \frac{1}{(1 + 0.2)^{3}} = \frac{1}{1.728} = 0.578704
+\tag{32}
+$$
 
 **The only approximation in the derivation is the small-angle step**, and its error is bounded and third order,
 
-$$\frac{\arctan x - x}{\arctan x} \approx - \frac{x^{2}}{3}$$
+$$
+\frac{\arctan x - x}{\arctan x} \approx - \frac{x^{2}}{3}
+\tag{33}
+$$
 
 **Its size and its variation are two different quantities and only the second one matters here.** The error itself reaches 1.25 percent at the eleven degrees of sideslip a fifteen metre per second crosswind produces on approach, and falls to 0.06 percent at the 2.43 degrees the same crosswind produces at the demonstration point. **But the cancellation shown above is a comparison between altitudes at one Mach number**, and the approximation is very nearly the same at all of them, so what survives into that comparison is only how much the error moves. At Mach 0.8 it moves by 3.3 parts in ten thousand between sea level and the tropopause. **That variation is all of the residue in the comparison across altitudes reported above, an artefact of the approximation with no physical content.**
 
@@ -295,23 +394,35 @@ $$\frac{\arctan x - x}{\arctan x} \approx - \frac{x^{2}}{3}$$
 
 An aeroplane descending a three degree glide slope at a lift to drag ratio of six in the landing configuration needs a thrust of
 
-$$\frac{T}{W} = \frac{1}{L/D} - \sin \gamma = \frac{1}{6} - \sin 3^{\circ} = 0.16667 - 0.05234 = 0.11433$$
+$$
+\frac{T}{W} = \frac{1}{L/D} - \sin \gamma = \frac{1}{6} - \sin 3^{\circ} = 0.16667 - 0.05234 = 0.11433
+\tag{34}
+$$
 
 which for a landing weight near twenty tonnes, close to the F-22's empty weight of 19,700 kilograms \[[Lockheed Martin F-22 Raptor][ref_f22_wikipedia]\], against two engines rated at 35,000 pounds or 156 kilonewtons each \[[Pratt and Whitney F119][ref_f119_wikipedia]\], is about **7.2 percent of the maximum available thrust.** The same engine source reports actual thrust of 164.6 to 173.5 kilonewtons, which would put that fraction between 6.5 and 6.8 percent, so the rated figure is the cautious choice. **The control authority falls with it, because the control authority is the thrust.**
 
 **Inverting for the throttle setting that restores the demonstrated margin gives the size of the problem.** Writing $\Pi$ for the throttle fraction and requiring the ratio of demanded to available moment to match the demonstrated one,
 
-$$\Pi = \frac{q_{\text{app}} \, \beta_{\text{app}}}{q_{\text{dem}} \, \beta_{\text{dem}}} \cdot \frac{\dot{m}(M_{\text{dem}}, h_{\text{dem}})}{\dot{m}(M_{\text{app}}, 0)}$$
+$$
+\Pi = \frac{q_{\text{app}} \, \beta_{\text{app}}}{q_{\text{dem}} \, \beta_{\text{dem}}} \cdot \frac{\dot{m}(M_{\text{dem}}, h_{\text{dem}})}{\dot{m}(M_{\text{app}}, 0)}
+\tag{35}
+$$
 
 **in which the wing area, the span, the yaw derivative, the moment arm and the maximum deflection have all cancelled**, because they appear identically in both conditions. Taking the X-31's Mach 1.2 point at maximum thrust as the unit of adequacy, and requiring the same ratio on a sea-level approach at 150 knots in a 15 metre per second crosswind, the throttle must stand at
 
-$$\text{throttle} = 0.384 \qquad \text{against } 0.072 \text{ needed to fly the glide slope}$$
+$$
+\text{throttle} = 0.384 \qquad \text{against } 0.072 \text{ needed to fly the glide slope}
+\tag{36}
+$$
 
 **a factor of 5.33.** The landing-configuration ratio of six is an assumption. The approach and landing study flown with a straight-wing fighter at Edwards in 1959 measured a peak ratio of about four with gear and flaps extended at zero thrust \[[Matranga and Armstrong, Approach and landing investigation at lift-drag ratios of 2 to 4 utilizing a straight-wing fighter airplane][ref_matranga_armstrong_low_ld]\], and at four the glide slope needs 12.4 percent of maximum thrust and the factor is 3.09. **The aeroplane must carry three to five times the thrust its flight path needs, purely in order to have the yaw control its flight path does not need until something goes wrong.**
 
 **That requirement is not merely expensive. It is impossible, and saying why is the strongest result in this article.** An aeroplane in level flight at a given thrust has a lift to drag ratio fixed by that thrust and its weight, by the most elementary relation available.
 
-$$T = D = \frac{W}{L/D} \qquad \Longrightarrow \qquad \frac{L}{D} = \frac{W}{\Pi \, T_{\max}}$$
+$$
+T = D = \frac{W}{L/D} \qquad \Longrightarrow \qquad \frac{L}{D} = \frac{W}{\Pi \, T_{\max}}
+\tag{37}
+$$
 
 At 38.4 percent of maximum thrust, the implied ratio is
 
@@ -333,17 +444,26 @@ At 38.4 percent of maximum thrust, the implied ratio is
 
 Let the live engine sit a lateral distance $y$ from the centreline with its nozzle a distance $\ell$ aft of the centre of gravity, and let it be deflected through an angle $\delta$. Its axial component produces a yawing moment about the centre of gravity of $F_{g} y \cos \delta$ toward the dead side, and its lateral component produces $F_{g} \ell \sin \delta$ the other way. Setting them equal,
 
-$$F_{g} \ell \sin \delta = F_{g} y \cos \delta \qquad \Longrightarrow \qquad \tan \delta = \frac{y}{\ell}$$
+$$
+F_{g} \ell \sin \delta = F_{g} y \cos \delta \qquad \Longrightarrow \qquad \tan \delta = \frac{y}{\ell}
+\tag{38}
+$$
 
 **The thrust cancels identically.** The vector angle needed to trim an engine failure depends on nothing but where the engines are. It does not depend on how much thrust the live engine is making, on altitude, on speed, on the atmosphere or on any aerodynamic property of the aeroplane.
 
 **Two consequences follow from the same balance and neither needs a number.** The axial thrust the aeroplane keeps while trimming is
 
-$$F_{\text{axial}} = F_{g} \cos \delta = F_{g} \frac{\ell}{\sqrt{y^{2} + \ell^{2}}}$$
+$$
+F_{\text{axial}} = F_{g} \cos \delta = F_{g} \frac{\ell}{\sqrt{y^{2} + \ell^{2}}}
+\tag{39}
+$$
 
 which at the angles in the table below costs under two percent, and the windmilling drag of the dead engine adds to the asymmetry it must cancel, so
 
-$$\tan \delta = \frac{y \left( F_{g} + D_{\text{wm}} \right)}{\ell \, F_{g}}$$
+$$
+\tan \delta = \frac{y \left( F_{g} + D_{\text{wm}} \right)}{\ell \, F_{g}}
+\tag{40}
+$$
 
 **Solving the moment balance numerically without cancelling the thrust by hand gives the same angle**, at thrusts spanning three orders of magnitude from one kilonewton to one meganewton, agreeing with the arctangent to within one part in a billion.
 
@@ -361,7 +481,10 @@ $$\tan \delta = \frac{y \left( F_{g} + D_{\text{wm}} \right)}{\ell \, F_{g}}$$
 
 **A relation explains why a fin is large and a nozzle need not be, without appeal to intuition.** Setting the fin's yawing moment equal to the thrust asymmetry and solving for the geometry gives
 
-$$S_{v} \, l_{v} = \frac{T \, y}{q \, a_{v} \, \tau \, \eta_{v} \, \delta_{r,\max}}$$
+$$
+S_{v} \, l_{v} = \frac{T \, y}{q \, a_{v} \, \tau \, \eta_{v} \, \delta_{r,\max}}
+\tag{41}
+$$
 
 **The dynamic pressure sits in the denominator, so the requirement blows up as the aeroplane slows.** Halving the speed at which the failure must be survived quadruples the fin the aeroplane must carry for the rest of its life, and every one of the terms above except $q$ is a constant of the design. A fin must therefore be sized for the engine-out case at the lowest speed at which it can occur. **A nozzle's authority and the asymmetry it must cancel are the same quantity**, so the case is speed-independent by construction. **The engine-out requirement, one of the two classic fin-sizing cases, does not size a thrust-vectored aeroplane.**
 
@@ -373,7 +496,10 @@ $$S_{v} \, l_{v} = \frac{T \, y}{q \, a_{v} \, \tau \, \eta_{v} \, \delta_{r,\ma
 
 With the tail removed the directional mode diverges without oscillating, and its growth rate follows from the yawing moment of inertia $I_{z}$.
 
-$$\lambda = \sqrt{\frac{q S b \left| C_{n\beta} \right|}{I_{z}}} \qquad t_{2} = \frac{\ln 2}{\lambda}$$
+$$
+\lambda = \sqrt{\frac{q S b \left| C_{n\beta} \right|}{I_{z}}} \qquad t_{2} = \frac{\ln 2}{\lambda}
+\tag{42}
+$$
 
 **Neither the yaw derivative of a tailless F-22 nor its yawing inertia has been published**, so the table brackets both across their plausible ranges and asserts no value.
 
@@ -389,11 +515,17 @@ $$\lambda = \sqrt{\frac{q S b \left| C_{n\beta} \right|}{I_{z}}} \qquad t_{2} = 
 
 **A time to double does not by itself place a requirement on the hardware. Turning it into a budget does, and a budget forces a conclusion an amplification cannot.** Stabilising a real pole at $\lambda$ demands a loop crossover some multiple of it,
 
-$$\omega_{c} = k \lambda \qquad k \approx 2 \ \text{to} \ 3$$
+$$
+\omega_{c} = k \lambda \qquad k \approx 2 \ \text{to} \ 3
+\tag{43}
+$$
 
 and a pure transport delay $\tau$ anywhere in that loop spends phase in direct proportion to the crossover it must survive,
 
-$$\Delta \phi = \omega_{c} \tau \qquad \Longrightarrow \qquad \tau_{\max} = \frac{\Delta \phi}{k \lambda}$$
+$$
+\Delta \phi = \omega_{c} \tau \qquad \Longrightarrow \qquad \tau_{\max} = \frac{\Delta \phi}{k \lambda}
+\tag{44}
+$$
 
 **That delay has been measured in flight.** Pure time delays were deliberately inserted into the control system of the F-8 digital fly-by-wire aeroplane and flown in low lift to drag landings \[[Berry et al. 1980][research_berrydt_powersbg_1980]\], and a later evaluation in pitch and roll found their effect strongly dependent on the task and severe in roll for landings in turbulence \[[Berry 1985][research_berrydt_1985]\]. **The budget below therefore draws on flight data as well as on a phase argument.**
 
@@ -414,21 +546,33 @@ Budgeting thirty degrees of phase margin to delay alone, and taking the middle o
 
 **The most useful comparison available is not to another unmanned aircraft. It is to the X-36, which used the same engine.** The [X-36][related_post_a333_mcdonnell_douglas_x36] carried an F112 of the 700 pound force thrust class in an airframe of 10.4 feet or 3.17 metres span and 1,245 pounds or 565 kilograms takeoff gross weight, giving a thrust to weight ratio of 0.56 \[[Walker 1997][research_walkerlaurencea_1997]\]. **The X-44A spans 2.88 times as much on the same thrust**, which taking wing area as proportional to the square of span is a factor of
 
-$$\left( \frac{9.144}{3.17} \right)^{2} = 8.32$$
+$$
+\left( \frac{9.144}{3.17} \right)^{2} = 8.32
+\tag{45}
+$$
 
 **more wing on the same engine.** Two aircraft with one powerplant and an eight-fold difference in wing area are not variants of a concept. They are answers to different questions, and the wing records the difference.
 
 **Calibrating the thrust lapse on the DarkStar puts a number on the rest.** The DarkStar published a service ceiling of 45,000 feet, a gross weight of 3,856 kilograms and a Williams FJ44-1A of 8.45 kilonewtons \[[Lockheed Martin RQ-3 DarkStar][ref_darkstar_wikipedia]\]. At the ceiling, thrust available equals drag at the best lift to drag ratio, so
 
-$$T_{\text{SL}} \sigma^{n} = \frac{W}{(L/D)_{\max}} \qquad (L/D)_{\max} = \tfrac{1}{2} \sqrt{\frac{\pi e A\!R}{C_{D_{0}}}}$$
+$$
+T_{\text{SL}} \sigma^{n} = \frac{W}{(L/D)_{\max}} \qquad (L/D)_{\max} = \tfrac{1}{2} \sqrt{\frac{\pi e A\!R}{C_{D_{0}}}}
+\tag{46}
+$$
 
 The second of those comes from a parabolic drag polar,
 
-$$C_{D} = C_{D_{0}} + \frac{C_{L}^{2}}{\pi e A\!R} \qquad A\!R = \frac{b^{2}}{S}$$
+$$
+C_{D} = C_{D_{0}} + \frac{C_{L}^{2}}{\pi e A\!R} \qquad A\!R = \frac{b^{2}}{S}
+\tag{47}
+$$
 
 maximised where the induced drag equals the zero-lift drag exactly, which fixes the lift coefficient the aeroplane must fly at,
 
-$$C_{L}^{\ast} = \sqrt{C_{D_{0}} \, \pi e A\!R} \qquad \left( \frac{L}{D} \right)_{\max} = \frac{C_{L}^{\ast}}{2 \, C_{D_{0}}}$$
+$$
+C_{L}^{\ast} = \sqrt{C_{D_{0}} \, \pi e A\!R} \qquad \left( \frac{L}{D} \right)_{\max} = \frac{C_{L}^{\ast}}{2 \, C_{D_{0}}}
+\tag{48}
+$$
 
 That polar and the best ratio it yields are the forms every preliminary design text gives \[[Raymer, Aircraft design, a conceptual approach][book_raymer]\] \[[Filippone, Advanced aircraft flight performance][book_filippone]\], and the thrust lapse exponent is the quantity that a design text would supply from a table and that the calibration below measures instead \[[Mattingly, Aircraft engine design][book_mattingly_engine_design]\].
 
@@ -436,11 +580,17 @@ The efficiency factor $e$ in the polar's denominator carries the name of the rep
 
 **The middle relation also fixes the ceiling speed, which is therefore not free either.**
 
-$$V = \sqrt{\frac{2 W}{\rho \, S \, C_{L}^{\ast}}} \qquad \frac{W}{S} = \frac{\rho V^{2} C_{L}^{\ast}}{2}$$
+$$
+V = \sqrt{\frac{2 W}{\rho \, S \, C_{L}^{\ast}}} \qquad \frac{W}{S} = \frac{\rho V^{2} C_{L}^{\ast}}{2}
+\tag{49}
+$$
 
 Taking a 42 square metre wing, which gives an aspect ratio of 10.53, an Oswald efficiency of 0.85 and a zero-lift drag coefficient of 0.015, the lift coefficient at best ratio is 0.6494, the best ratio is 21.65 and the required thrust at the ceiling is 1,747 newtons. The density ratio there is 0.1936, so
 
-$$n = \frac{\ln \left( 1747 / 8450 \right)}{\ln 0.1936} = 0.960$$
+$$
+n = \frac{\ln \left( 1747 / 8450 \right)}{\ln 0.1936} = 0.960
+\tag{50}
+$$
 
 **The calibration expresses the lapse in density ratio rather than in pressure ratio.** The two differ by the temperature ratio, and at that altitude the density ratio is a third larger than the pressure ratio, so the choice of variable is not academic.
 
@@ -472,11 +622,17 @@ $$n = \frac{\ln \left( 1747 / 8450 \right)}{\ln 0.1936} = 0.960$$
 
 **A two-dimensional nozzle deflects in the plane of its flaps and in no other.** The flaps rotate the jet through $\delta_{p}$ in one plane, and the components that reach the airframe are
 
-$$F_{x} = F_{g} \cos \delta_{p} \qquad F_{z} = F_{g} \sin \delta_{p} \qquad F_{y} = 0$$
+$$
+F_{x} = F_{g} \cos \delta_{p} \qquad F_{z} = F_{g} \sin \delta_{p} \qquad F_{y} = 0
+\tag{51}
+$$
 
 **The zero side force is the problem.** Producing yaw from the same nozzle requires the sidewalls to become deflecting surfaces, giving a second independent angle and a side force that did not previously exist,
 
-$$F_{y} = F_{g} \cos \delta_{p} \sin \delta_{y} \qquad F_{x} = F_{g} \cos \delta_{p} \cos \delta_{y}$$
+$$
+F_{y} = F_{g} \cos \delta_{p} \sin \delta_{y} \qquad F_{x} = F_{g} \cos \delta_{p} \cos \delta_{y}
+\tag{52}
+$$
 
 **The product form is why the cross-coupling question had to be measured instead of assumed**, and yaw vectoring calls for new hardware in the same envelope, which no new schedule for the existing hardware could supply. **The MANTA is therefore not a subtraction from the F-22. It is a subtraction and an addition, and the addition is the harder half.**
 
@@ -490,15 +646,24 @@ $$F_{y} = F_{g} \cos \delta_{p} \sin \delta_{y} \qquad F_{x} = F_{g} \cos \delta
 
 A larger delta gains fuel volume, and volume grows faster than area, because a wing scaled in plan at fixed thickness ratio and aspect ratio gains depth as well as span.
 
-$$\text{Vol} \propto \left( \frac{t}{c} \right) \frac{S^{3/2}}{\sqrt{A\!R}} \qquad \Longrightarrow \qquad \frac{\text{Vol}_{2}}{\text{Vol}_{1}} = \left( \frac{S_{2}}{S_{1}} \right)^{3/2}$$
+$$
+\text{Vol} \propto \left( \frac{t}{c} \right) \frac{S^{3/2}}{\sqrt{A\!R}} \qquad \Longrightarrow \qquad \frac{\text{Vol}_{2}}{\text{Vol}_{1}} = \left( \frac{S_{2}}{S_{1}} \right)^{3/2}
+\tag{53}
+$$
 
 **A quarter more wing is forty percent more fuel**, a better return than the linear reading of the claim suggests. It also brings a lower wing loading at fixed weight, and through it sustained turn rate at altitude,
 
-$$n = \frac{q \, C_{L}}{W/S} \qquad \dot{\psi} = \frac{g \sqrt{n^{2} - 1}}{V}$$
+$$
+n = \frac{q \, C_{L}}{W/S} \qquad \dot{\psi} = \frac{g \sqrt{n^{2} - 1}}{V}
+\tag{54}
+$$
 
 **It costs wave drag and it costs directional stability**, and the second of those has a form that needs displaying because the article later has to assume a value for it. A slender body in sideslip carries the Munk moment, which is destabilising and depends on volume rather than on area,
 
-$$C_{n\beta, \text{fus}} = - \frac{2 \left( k_{2} - k_{1} \right) \text{Vol}_{\text{fus}}}{S \, b}$$
+$$
+C_{n\beta, \text{fus}} = - \frac{2 \left( k_{2} - k_{1} \right) \text{Vol}_{\text{fus}}}{S \, b}
+\tag{55}
+$$
 
 **That relation is a hundred years old and was derived for airships.** Munk obtained the moment on a slender body in a stream in 1924, and the apparent-mass factor in the numerator is his \[[Munk 1924][research_munkmaxm_1924]\]. Multhopp adapted it to the aeroplane fuselage \[[Multhopp 1942][research_multhopph_1942]\], and Allen and Perkins added the viscous cross-flow term that the inviscid theory omits and that matters at the angles a fighter reaches \[[Allen and Perkins 1951][research_allenhjulian_perkinsedwardw_1951]\]. **The article uses the inviscid form, which is the conservative one for its purpose**, since the cross-flow contribution grows with angle of attack and would make the aeroplane less stable still.
 
@@ -518,11 +683,17 @@ $$C_{n\beta, \text{fus}} = - \frac{2 \left( k_{2} - k_{1} \right) \text{Vol}_{\t
 
 **The obvious way to size that requirement is to ask what a measurement error costs, and the answer is that static accuracy is not what binds.** A sideslip error is indistinguishable from a real sideslip, so it commands a real moment,
 
-$$\Delta C_{n} = \left| C_{n\beta} \right| \varepsilon_{\beta}$$
+$$
+\Delta C_{n} = \left| C_{n\beta} \right| \varepsilon_{\beta}
+\tag{56}
+$$
 
 and the gearing from sideslip to nozzle follows from the required-deflection relation already displayed,
 
-$$\frac{d \delta}{d \beta} = \frac{q S b \left| C_{n\beta} \right|}{F_{g} \, \ell \, \cos \delta}$$
+$$
+\frac{d \delta}{d \beta} = \frac{q S b \left| C_{n\beta} \right|}{F_{g} \, \ell \, \cos \delta}
+\tag{57}
+$$
 
 **Both come out mild.** The gearing is 1.13 nozzle degrees per sideslip degree at the demonstration point and 1.35 on the approach, and a half-degree measurement error costs 2.9 percent of the available authority. **A static accuracy requirement of half a degree is not a hard requirement.**
 
@@ -538,7 +709,10 @@ $$\frac{d \delta}{d \beta} = \frac{q S b \left| C_{n\beta} \right|}{F_{g} \, \el
 
 **The quasi-tailless experiment is the substantive flight record for the MANTA's question.** The technique was to use the rudder to cancel the stabilising effect of the vertical tail, and then to restabilise and control the aeroplane with yaw thrust vector commands \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. **The cancellation is a scheduled rudder command, involving no mechanical change, so it can be written down.** With $\kappa$ the fraction of the tail to be removed,
 
-$$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \beta$$
+$$
+\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \beta
+\tag{58}
+$$
 
 **Setting $\kappa$ to one gives the hundred percent case that was flown and any smaller value gives a reduced-tail aeroplane**, which is how one airframe produced a family of configurations instead of a single data point. The gearing is steep. A tail contributing 0.15 per radian against a rudder worth 0.0788 per radian demands 1.9 degrees of rudder for every degree of sideslip, so the technique spends most of a real control surface to simulate the absence of one. The result is a real aeroplane behaving like a tailless one without building a tailless one, possible only because the aeroplane already carried thrust vectoring paddles for a different purpose \[[Rockwell-MBB X-31][ref_x31_wikipedia]\] \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\] \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\]. **The series began in March 1994.** The demonstration condition was Mach 1.2 at 37,500 feet with a simulated one hundred percent vertical tail reduction, and the manoeuvres flown were doublets, bank-to-bank rolls and wind-up turns. The quasi-tailless mode was also flown subsonically in precision approaches and ground attack profiles \[[Huber and Schellenger 1994][research_huberpeter_schellengerharveyg_1994]\] \[[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]\].
 
@@ -784,7 +958,10 @@ $$\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \
 
 **The ratio treats jet velocity as constant across the envelope, which it is not. Relaxing that assumption moves the answer in the article's favour.** Carrying the jet velocity relation through the ratio gives
 
-$$\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3} V_{j}(M)}{M^{2}}$$
+$$
+\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3} V_{j}(M)}{M^{2}}
+\tag{59}
+$$
 
 and at an overall engine pressure ratio of eight the jet velocity rises by **25.7 percent** from the approach to Mach 2.25, which is far from constant.
 
@@ -985,6 +1162,579 @@ and at an overall engine pressure ratio of eight the jet velocity rises by **25.
 **The aeroplane that did exist was built in the year its predecessor was cancelled and flew two years later, and almost nothing about it has been released.** The museum's figures, a maximum of 176 miles per hour, an hour and a half and 230 miles, describe a short-range demonstrator, and a cruise at a reconnaissance ceiling would have needed about twice that speed. **They bound its wing loading at no more than about twice the DarkStar's, and below the DarkStar's if it cruised above about 23,000 feet**, so the wing loading cannot say what the aircraft was for. **The endurance can, and it agrees with the programme's stated purpose of demonstrating a configuration and a factory.**
 
 **The last observation concerns the designation instead of either aeroplane.** The X-planes sequence is a finite resource issued once and never replenished, and a number spent twice is still a number spent once. **The register carries no record of the ambiguity, the specialist directory carries no page for the number, and the encyclopaedia has resolved the collision by writing two articles and noting that they appear to be unrelated.** The cost of the confusion falls entirely on whoever reads the record later, which in this instance is this article.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 59 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 59, 32 are established and 27 are bespoke.
+Thrust and weight are quoted in pounds, kilonewtons and kilograms while the derivation runs in the International System with angles in radians and tables in degrees, and several letters are reused, so $N$ is a yawing moment except in the register count, where it is the highest number issued, $\sigma$ is a radar cross section and then the density ratio, $\lambda$ is a radar wavelength and then the divergence rate, $\tau$ is the rudder effectiveness and then a transport delay, $\gamma$ is the ratio of specific heats and then the glide path angle, $T$ is a temperature and then a thrust, $n$ is the thrust lapse exponent and then the load factor, and $\delta$ is a nozzle deflection while $\delta_{2}$ is a total pressure ratio.
+
+**Equation 1, Yawing Moment from Sideslip and the Directional Stability Condition.**
+The aerodynamic yawing moment is linear in sideslip through the directional stability derivative, and the aeroplane is statically stable in yaw only when that derivative is positive.
+[Gilruth 1943][research_gilruthrr_1943]
+
+$$
+N = q S b \, C_{n\beta} \, \beta \qquad \text{stable} \iff C_{n\beta} > 0
+\tag{1}
+$$
+
+**Equation 2, Vertical Tail Volume Coefficient.**
+The tail volume coefficient is the fin area times its moment arm divided by the wing area times the span.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Torenbeek, Synthesis of subsonic airplane design][book_torenbeek]
+
+$$
+V_{v} = \frac{S_{v} \, l_{v}}{S \, b}
+\tag{2}
+$$
+
+**Equation 3, Rudder Control Derivative from Tail Volume.**
+The rudder control derivative is the tail volume coefficient multiplied by the fin lift-curve slope, the rudder effectiveness and the dynamic pressure ratio at the tail.
+[Campbell and McKinney 1951][research_campbelljohnp_mckinneymariono_1951]
+[Toll and Queijo 1948][research_tollthomasa_queijomj_1948]
+[Jones and Alksne 1951][research_jonesarthurl_alksnealberta_1951]
+
+$$
+C_{n \delta_{r}} = - V_{v} \, a_{v} \, \tau \, \eta_{v}
+\tag{3}
+$$
+
+**Equation 4, Radar Cross Section of a Flat Plate.**
+A flat plate viewed at normal incidence returns a cross section proportional to the square of its area divided by the square of the wavelength.
+[Knott, Shaeffer and Tuley, Radar cross section][book_knott]
+
+$$
+\sigma_{\text{plate}} = \frac{4 \pi A^{2}}{\lambda^{2}}
+\tag{4}
+$$
+
+**Equation 5, Radar Cross Section of a Right-Angle Dihedral.**
+Two plates meeting at a right angle return a cross section set by the product of the squares of their dimensions over a wide range of aspect angles.
+[Knott, Shaeffer and Tuley, Radar cross section][book_knott]
+
+$$
+\sigma_{\text{dihedral}} = \frac{8 \pi a^{2} b^{2}}{\lambda^{2}}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Count of Vehicles a Finite Register Can Name.*
+The article counts the vehicles a consecutive register can name as the highest number issued less the numbers reserved and never used plus the numbers issued more than once.
+[X-39][related_post_a336_x39_reserved_never_assigned]
+
+$$
+V = N - r + c
+\tag{6}
+$$
+
+**Equation 7, Required Aerodynamic Yawing Moment.**
+The yawing moment that must be produced is the dynamic pressure times wing area and span times the magnitude of the directional stability derivative times the sideslip.
+
+$$
+N_{\text{req}} = q S b \left| C_{n\beta} \right| \beta
+\tag{7}
+$$
+
+**Equation 8, Yawing Moment Available from a Deflected Jet.**
+A jet of gross thrust deflected through an angle at a distance aft of the centre of gravity produces a yawing moment equal to the thrust times that arm times the sine of the deflection.
+
+$$
+N_{\text{av}} = F_{g} \ell \sin \delta
+\tag{8}
+$$
+
+*Equation 9, Bespoke Ratio of Available to Required Yawing Moment.*
+The article defines its figure of merit as the vectored moment available divided by the aerodynamic moment required at a given sideslip.
+
+$$
+\mathcal{R} \equiv \frac{N_{\text{av}}}{N_{\text{req}}} = \frac{F_{g} \ell \sin \delta}{q S b \left| C_{n\beta} \right| \beta}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Propulsive Tail Volume.*
+The article defines a propulsive tail volume as the maximum vectored moment divided by the dynamic pressure, wing area and span, so that it can be compared with a rudder control derivative.
+
+$$
+V_{p} \equiv \frac{F_{g} \, \ell \, \sin \delta_{\max}}{q \, S \, b}
+\tag{10}
+$$
+
+**Equation 11, Required Jet Deflection.**
+Equating the vectored and the required moments gives the sine of the jet deflection a control system must command.
+
+$$
+\sin \delta = \frac{q \, S \, b \, \left| C_{n\beta} \right| \beta}{F_{g} \, \ell}
+\tag{11}
+$$
+
+**Equation 12, Dynamic Pressure in Terms of Static Pressure and Mach Number.**
+The perfect gas law and the definition of Mach number turn the dynamic pressure into $0.7 p M^{2}$ for a ratio of specific heats of 1.4.
+[Yechout and Morris, Introduction to aircraft flight mechanics][book_yechout]
+[Schmidt, Modern flight dynamics][book_schmidt]
+[Roskam, Airplane flight dynamics and automatic flight controls][book_roskam]
+[Anderson, Fundamentals of aerodynamics][book_anderson]
+
+$$
+q = \tfrac{1}{2} \rho V^{2} = \tfrac{1}{2} \rho M^{2} \gamma R T = \tfrac{1}{2} \gamma p M^{2} = 0.7 \, p M^{2}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Mass Flow at Constant Corrected Flow.*
+The article models the engine as a fixed-geometry machine at maximum corrected rotational speed, so that its corrected mass flow is constant and the physical mass flow follows the compressor-face total conditions.
+[Mattingly, Elements of gas turbine propulsion][book_mattingly_propulsion]
+[Cumpsty, Jet propulsion][book_cumpsty]
+
+$$
+\dot{m} = \dot{m}_{\text{ref}} \frac{\delta_{2}}{\sqrt{\theta_{2}}}
+\tag{13}
+$$
+
+**Equation 14, Compressor-Face Total Pressure and Temperature Ratios.**
+The isentropic ram relations give the total pressure and temperature at the compressor face from the ambient conditions and the flight Mach number, with the pressure reduced by the inlet recovery.
+
+$$
+\delta_{2} = \frac{p}{p_{\text{SL}}} \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}} \eta_{r}
+\qquad
+\theta_{2} = \frac{T}{T_{\text{SL}}} \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)
+\tag{14}
+$$
+
+*Equation 15, Bespoke Mass Flow Scaling with Ram Compression.*
+Under the constant corrected flow assumption and a ratio of specific heats of 1.4, the physical mass flow scales with ambient pressure, inlet recovery and the cube of the ram term over the root of ambient temperature.
+
+$$
+\dot{m} \propto \frac{p}{p_{\text{SL}}} \, \eta_{r} \, \frac{\left( 1 + 0.2 M^{2} \right)^{3}}{\sqrt{T / T_{\text{SL}}}}
+\tag{15}
+$$
+
+**Equation 16, Ideal Nozzle Exhaust Velocity.**
+The jet velocity of a nozzle expanding from a fixed total temperature depends on the nozzle pressure ratio through the isentropic expansion relation.
+
+$$
+V_{j} = \sqrt{2 \, c_{p} \, T_{t7} \left[ 1 - \left( \frac{p}{p_{t7}} \right)^{\frac{\gamma - 1}{\gamma}} \right]}
+\tag{16}
+$$
+
+**Equation 17, Gross Thrust of a Nozzle.**
+Gross thrust is the mass flow times the jet velocity plus a pressure thrust that vanishes for a nozzle expanded to ambient pressure.
+
+$$
+F_{g} = \dot{m} V_{j} + \left( p_{e} - p \right) A_{e} \approx \dot{m} V_{j}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Cancellation of Static Pressure in the Moment Ratio.*
+Taking the jet velocity as constant across the envelope, the ambient static pressure appears to the same power above and below the moment ratio and cancels.
+
+$$
+\mathcal{R} \propto \frac{ \dfrac{p}{p_{\text{SL}}} \eta_{r} \dfrac{(1 + 0.2 M^{2})^{3}}{\sqrt{T/T_{\text{SL}}}} }{ 0.7 \, p M^{2} }
+= \frac{ \eta_{r} \left( 1 + 0.2 M^{2} \right)^{3} }{ 0.7 \, p_{\text{SL}} \, M^{2} \sqrt{T/T_{\text{SL}}} }
+\tag{18}
+$$
+
+*Equation 19, Bespoke Moment Ratio Above the Tropopause.*
+In the isothermal region of the standard atmosphere, with the jet velocity held constant, the moment ratio depends on Mach number alone.
+
+$$
+\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3}}{M^{2}} \qquad h > 11 \ \text{km}
+\tag{19}
+$$
+
+**Equation 20, Temperature of the Standard Atmosphere.**
+The standard atmosphere lapses linearly in temperature up to eleven kilometres and holds 216.65 kelvin above it.
+[U.S. Standard Atmosphere 1976 1976][research_u_s_standard_1976]
+
+$$
+T(h) = T_{\text{SL}} - L h \quad (h \le 11 \ \text{km}) \qquad T(h) = 216.65 \ \text{K} \quad (h > 11 \ \text{km})
+\tag{20}
+$$
+
+*Equation 21, Bespoke Temperature Residue of the Moment Ratio Below the Tropopause.*
+Below the tropopause the moment ratio, with jet velocity held constant, falls from its isothermal value by the square root of the tropopause temperature over the local temperature.
+[U.S. Standard Atmosphere 1976 1976][research_u_s_standard_1976]
+
+$$
+\frac{\mathcal{R}(h)}{\mathcal{R}(h > 11 \ \text{km})} = \sqrt{\frac{T_{11}}{T(h)}}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Mach Dependence of the Moment Ratio at Ideal Recovery.*
+With ideal inlet recovery and constant jet velocity the Mach dependence of the moment ratio is the cube of the ram term divided by the square of the Mach number.
+
+$$
+f(M) = \frac{\left( 1 + 0.2 M^{2} \right)^{3}}{M^{2}}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Stationarity Condition at Ideal Recovery.*
+Differentiating the ideal Mach dependence with respect to the square of the Mach number gives a derivative that vanishes where that square equals 2.5.
+
+$$
+\frac{d}{du} \left[ \frac{(1 + 0.2u)^{3}}{u} \right] = \frac{(1 + 0.2u)^{2} \left( 0.4 u - 1 \right)}{u^{2}}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Worst Mach Number and Minimum at Ideal Recovery.*
+The ideal Mach dependence has its minimum of exactly 1.35 at a Mach number of the square root of 2.5.
+
+$$
+M^{\ast} = \sqrt{2.5} = 1.5811 \qquad f(M^{\ast}) = \frac{1.5^{3}}{2.5} = \frac{3.375}{2.5} = 1.35
+\tag{24}
+$$
+
+**Equation 25, Military Specification Inlet Pressure Recovery.**
+The military specification correlation gives full recovery up to Mach one and a recovery falling with the 1.35 power of the supersonic excess above it.
+[NASA Glenn Research Center, Inlet performance][ref_nasa_grc_inlet]
+
+$$
+\eta_{r}(M) = \begin{cases} 1 & M \le 1 \\ 1 - 0.075 \, (M - 1)^{1.35} & M > 1 \end{cases}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Stationarity Condition with Inlet Recovery.*
+With the military specification recovery the condition for the minimum of the moment ratio becomes a transcendental equation that the article solves by golden-section search.
+[NASA Glenn Research Center, Inlet performance][ref_nasa_grc_inlet]
+
+$$
+\frac{\eta_{r}'(M)}{\eta_{r}(M)} + \frac{1.2 M}{1 + 0.2 M^{2}} - \frac{2}{M} = 0
+\tag{26}
+$$
+
+**Equation 27, Sideslip Produced by a Crosswind.**
+A crosswind of fixed speed produces a sideslip equal to the arctangent of the crosswind over the true airspeed, which for small angles is the ratio itself.
+
+$$
+\beta = \arctan \frac{V_{c}}{V} \approx \frac{V_{c}}{V} = \frac{V_{c}}{M \sqrt{\gamma R T}}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Crosswind Scaling of the Required Moment.*
+With sideslip set by a crosswind of fixed speed under the small-angle approximation, the required moment scales with ambient pressure times Mach number over the root of temperature.
+
+$$
+N_{\text{req}} \propto q \beta = 0.7 \, p M^{2} \cdot \frac{V_{c}}{M \sqrt{\gamma R T}} \propto \frac{p M}{\sqrt{T}}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Scaling of the Available Moment.*
+Under the constant corrected flow and constant jet velocity assumptions, the available moment scales with ambient pressure, inlet recovery and the cube of the ram term over the root of temperature.
+
+$$
+N_{\text{av}} \propto \frac{p \, \eta_{r} \left( 1 + 0.2 M^{2} \right)^{3}}{\sqrt{T}}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Crosswind Identity.*
+With sideslip set by a crosswind of fixed speed, pressure and temperature cancel and the ratio of required to available moment depends on Mach number alone.
+
+$$
+\frac{N_{\text{req}}}{N_{\text{av}}} \propto \frac{M}{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Derivative of the Crosswind Demand.*
+Differentiating the ideal-recovery crosswind demand with respect to Mach number gives a derivative proportional to one minus the square of the Mach number, so the demand peaks at Mach one.
+
+$$
+\frac{d}{dM} \left[ M \left( 1 + 0.2 M^{2} \right)^{-3} \right] = \frac{1 - M^{2}}{\left( 1 + 0.2 M^{2} \right)^{4}}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Peak Crosswind Demand at Mach One.*
+Evaluated at Mach one with ideal recovery, the crosswind demand reaches its maximum of the reciprocal of 1.728, a pure number.
+
+$$
+h(1) = \frac{1}{(1 + 0.2)^{3}} = \frac{1}{1.728} = 0.578704
+\tag{32}
+$$
+
+**Equation 33, Relative Error of the Small-Angle Arctangent.**
+The leading term of the series for the arctangent gives the relative error of replacing it by its argument as minus one third of the square of the argument.
+
+$$
+\frac{\arctan x - x}{\arctan x} \approx - \frac{x^{2}}{3}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Thrust to Weight Ratio on a Glide Slope.*
+The thrust to weight ratio on a three degree glide slope is evaluated with a landing-configuration lift to drag ratio of six, a value the article assumes.
+
+$$
+\frac{T}{W} = \frac{1}{L/D} - \sin \gamma = \frac{1}{6} - \sin 3^{\circ} = 0.16667 - 0.05234 = 0.11433
+\tag{34}
+$$
+
+*Equation 35, Bespoke Throttle Fraction That Restores the Demonstrated Margin.*
+The article requires the ratio of demanded to available moment on approach to equal that demonstrated by the X-31 at Mach 1.2, so that the geometry and aerodynamic derivatives cancel and only dynamic pressure, sideslip and mass flow remain.
+
+$$
+\Pi = \frac{q_{\text{app}} \, \beta_{\text{app}}}{q_{\text{dem}} \, \beta_{\text{dem}}} \cdot \frac{\dot{m}(M_{\text{dem}}, h_{\text{dem}})}{\dot{m}(M_{\text{app}}, 0)}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Throttle Setting Required on Approach.*
+The throttle fraction of 0.384 follows for a sea-level approach at 150 knots in a 15 metre per second crosswind, conditions the article assumes, against 0.072 needed on the glide slope with an assumed lift to drag ratio of six and a landing weight near twenty tonnes.
+
+$$
+\text{throttle} = 0.384 \qquad \text{against } 0.072 \text{ needed to fly the glide slope}
+\tag{36}
+$$
+
+**Equation 37, Lift to Drag Ratio Implied by Thrust in Level Flight.**
+In level flight thrust equals drag, so a given throttle fraction fixes the lift to drag ratio as the weight divided by the thrust.
+
+$$
+T = D = \frac{W}{L/D} \qquad \Longrightarrow \qquad \frac{L}{D} = \frac{W}{\Pi \, T_{\max}}
+\tag{37}
+$$
+
+**Equation 38, Engine-Out Trim Angle of a Vectored Nozzle.**
+Balancing the yawing moments of the axial and lateral components of the live engine's thrust gives a trim angle whose tangent is the lateral offset over the moment arm, independent of thrust.
+
+$$
+F_{g} \ell \sin \delta = F_{g} y \cos \delta \qquad \Longrightarrow \qquad \tan \delta = \frac{y}{\ell}
+\tag{38}
+$$
+
+**Equation 39, Axial Thrust Retained While Trimming an Engine Failure.**
+The axial component of the deflected thrust is the gross thrust times the moment arm over the distance from the centre of gravity to the nozzle.
+
+$$
+F_{\text{axial}} = F_{g} \cos \delta = F_{g} \frac{\ell}{\sqrt{y^{2} + \ell^{2}}}
+\tag{39}
+$$
+
+**Equation 40, Engine-Out Trim Angle with Windmilling Drag.**
+Adding the windmilling drag of the dead engine to the asymmetry raises the tangent of the trim angle in proportion to the drag over the live thrust.
+
+$$
+\tan \delta = \frac{y \left( F_{g} + D_{\text{wm}} \right)}{\ell \, F_{g}}
+\tag{40}
+$$
+
+**Equation 41, Fin Size Required by an Engine Failure.**
+Setting the fin's yawing moment at full rudder equal to the thrust asymmetry gives the product of fin area and arm required, which grows as the dynamic pressure falls.
+
+$$
+S_{v} \, l_{v} = \frac{T \, y}{q \, a_{v} \, \tau \, \eta_{v} \, \delta_{r,\max}}
+\tag{41}
+$$
+
+**Equation 42, Divergence Rate and Time to Double of the Directional Mode.**
+Treating the tailless directional mode as a single degree of freedom in yaw, the divergence rate is the square root of the destabilising moment per radian over the yawing moment of inertia, and the time to double is the logarithm of two over that rate.
+
+$$
+\lambda = \sqrt{\frac{q S b \left| C_{n\beta} \right|}{I_{z}}} \qquad t_{2} = \frac{\ln 2}{\lambda}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Crossover Frequency for an Unstable Pole.*
+The article takes the loop crossover as two to three times the divergence rate, a rule of thumb for stabilising a real unstable pole.
+
+$$
+\omega_{c} = k \lambda \qquad k \approx 2 \ \text{to} \ 3
+\tag{43}
+$$
+
+*Equation 44, Bespoke Transport Delay Budget.*
+A pure delay spends phase in proportion to the crossover, so with the crossover set at two to three times the divergence rate the allowable delay is the phase budget divided by that multiple of the rate.
+[Berry et al. 1980][research_berrydt_powersbg_1980]
+[Berry 1985][research_berrydt_1985]
+
+$$
+\Delta \phi = \omega_{c} \tau \qquad \Longrightarrow \qquad \tau_{\max} = \frac{\Delta \phi}{k \lambda}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Wing Area Ratio of the X-44A to the X-36.*
+Taking wing area as proportional to the square of span, the X-44A span of 9.144 metres against the X-36 span of 3.17 metres implies 8.32 times the wing.
+[Walker 1997][research_walkerlaurencea_1997]
+
+$$
+\left( \frac{9.144}{3.17} \right)^{2} = 8.32
+\tag{45}
+$$
+
+*Equation 46, Bespoke Ceiling Thrust Balance with Thrust Lapse.*
+The article takes thrust at the published service ceiling to equal the drag at the best lift to drag ratio and models thrust as lapsing with a power of the density ratio.
+[Lockheed Martin RQ-3 DarkStar][ref_darkstar_wikipedia]
+
+$$
+T_{\text{SL}} \sigma^{n} = \frac{W}{(L/D)_{\max}} \qquad (L/D)_{\max} = \tfrac{1}{2} \sqrt{\frac{\pi e A\!R}{C_{D_{0}}}}
+\tag{46}
+$$
+
+**Equation 47, Parabolic Drag Polar and Aspect Ratio.**
+The drag coefficient is the zero-lift drag plus the square of the lift coefficient over $\pi e A\!R$, with the aspect ratio the square of the span over the area.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Filippone, Advanced aircraft flight performance][book_filippone]
+
+$$
+C_{D} = C_{D_{0}} + \frac{C_{L}^{2}}{\pi e A\!R} \qquad A\!R = \frac{b^{2}}{S}
+\tag{47}
+$$
+
+**Equation 48, Lift Coefficient and Lift to Drag Ratio at Best Glide.**
+The best lift to drag ratio of a parabolic polar occurs where induced drag equals zero-lift drag, which fixes the lift coefficient and gives the ratio as that coefficient over twice the zero-lift drag.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Filippone, Advanced aircraft flight performance][book_filippone]
+
+$$
+C_{L}^{\ast} = \sqrt{C_{D_{0}} \, \pi e A\!R} \qquad \left( \frac{L}{D} \right)_{\max} = \frac{C_{L}^{\ast}}{2 \, C_{D_{0}}}
+\tag{48}
+$$
+
+**Equation 49, Speed and Wing Loading at a Given Lift Coefficient.**
+Lift equal to weight fixes the speed for a given density, wing area and lift coefficient, and equivalently the wing loading.
+[Raymer, Aircraft design, a conceptual approach][book_raymer]
+[Filippone, Advanced aircraft flight performance][book_filippone]
+
+$$
+V = \sqrt{\frac{2 W}{\rho \, S \, C_{L}^{\ast}}} \qquad \frac{W}{S} = \frac{\rho V^{2} C_{L}^{\ast}}{2}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Thrust Lapse Exponent of the DarkStar Engine.*
+The exponent is calibrated from a ceiling thrust of 1,747 newtons computed with an assumed 42 square metre wing, an Oswald efficiency of 0.85 and a zero-lift drag coefficient of 0.015, against the published 8.45 kilonewton sea-level rating and a density ratio of 0.1936.
+[Oswald 1932][research_wbaileyoswald_1932]
+
+$$
+n = \frac{\ln \left( 1747 / 8450 \right)}{\ln 0.1936} = 0.960
+\tag{50}
+$$
+
+**Equation 51, Force Components of a Two-Dimensional Nozzle.**
+A nozzle whose flaps deflect the jet in one plane produces axial and normal components and no side force.
+[Lockheed Martin F-22 Raptor][ref_f22_wikipedia]
+[Pratt and Whitney F119][ref_f119_wikipedia]
+
+$$
+F_{x} = F_{g} \cos \delta_{p} \qquad F_{z} = F_{g} \sin \delta_{p} \qquad F_{y} = 0
+\tag{51}
+$$
+
+**Equation 52, Force Components of a Nozzle with Deflecting Sidewalls.**
+A second deflection by the sidewalls produces a side force and reduces the axial force through the product of the cosines of the pitch and yaw angles.
+
+$$
+F_{y} = F_{g} \cos \delta_{p} \sin \delta_{y} \qquad F_{x} = F_{g} \cos \delta_{p} \cos \delta_{y}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Fuel Volume Scaling of an Enlarged Wing.*
+Assuming the wing is scaled in plan at fixed thickness ratio and aspect ratio, its internal volume grows as the three-halves power of its area.
+[Lockheed Martin X-44 MANTA][ref_x44_manta_wikipedia]
+
+$$
+\text{Vol} \propto \left( \frac{t}{c} \right) \frac{S^{3/2}}{\sqrt{A\!R}} \qquad \Longrightarrow \qquad \frac{\text{Vol}_{2}}{\text{Vol}_{1}} = \left( \frac{S_{2}}{S_{1}} \right)^{3/2}
+\tag{53}
+$$
+
+**Equation 54, Load Factor and Sustained Turn Rate.**
+The load factor is the dynamic pressure times the lift coefficient over the wing loading, and the turn rate follows from the load factor and the speed.
+
+$$
+n = \frac{q \, C_{L}}{W/S} \qquad \dot{\psi} = \frac{g \sqrt{n^{2} - 1}}{V}
+\tag{54}
+$$
+
+**Equation 55, Munk Yawing Moment of a Slender Body.**
+A slender fuselage in sideslip carries a destabilising yawing moment proportional to its volume and to the difference of its apparent-mass factors.
+[Munk 1924][research_munkmaxm_1924]
+[Multhopp 1942][research_multhopph_1942]
+
+$$
+C_{n\beta, \text{fus}} = - \frac{2 \left( k_{2} - k_{1} \right) \text{Vol}_{\text{fus}}}{S \, b}
+\tag{55}
+$$
+
+**Equation 56, Yawing Moment Commanded by a Sideslip Error.**
+A sideslip measurement error is indistinguishable from a real sideslip and so commands a yawing moment coefficient equal to the stability derivative times the error.
+
+$$
+\Delta C_{n} = \left| C_{n\beta} \right| \varepsilon_{\beta}
+\tag{56}
+$$
+
+**Equation 57, Gearing from Sideslip to Nozzle Deflection.**
+Differentiating the required-deflection relation gives the nozzle deflection needed per unit of sideslip.
+
+$$
+\frac{d \delta}{d \beta} = \frac{q S b \left| C_{n\beta} \right|}{F_{g} \, \ell \, \cos \delta}
+\tag{57}
+$$
+
+**Equation 58, Quasi-Tailless Rudder Schedule.**
+The X-31 quasi-tailless technique schedules the rudder against sideslip so as to cancel a chosen fraction of the vertical tail's stabilising contribution.
+[Bosworth and Stoliker 1996][research_bosworthjohnt_stolikerpc_1996]
+
+$$
+\delta_{r} = - \kappa \, \frac{C_{n\beta, \text{tail}}}{C_{n \delta_{r}}} \, \beta
+\tag{58}
+$$
+
+*Equation 59, Bespoke Moment Ratio with Varying Jet Velocity.*
+Relaxing the constant jet velocity assumption carries the Mach dependence of the jet velocity into the moment ratio, which the article evaluates at an overall engine pressure ratio of eight.
+
+$$
+\mathcal{R}(M) \propto \frac{\eta_{r}(M) \left( 1 + 0.2 M^{2} \right)^{3} V_{j}(M)}{M^{2}}
+\tag{59}
+$$
+
+### Notation
+
+- $C_{n\beta}$, the directional stability derivative, with $C_{n\beta, \text{tail}}$ the tail contribution and $C_{n\beta, \text{fus}}$ the fuselage contribution
+- $\beta$, the sideslip angle
+- $q$, the dynamic pressure
+- $S$, the wing reference area
+- $b$, the wing span, and in the dihedral relation a plate dimension
+- $N$, the yawing moment, with $N_{\text{req}}$ the moment required and $N_{\text{av}}$ the moment available, and in the register count the highest number issued
+- $V_{v}$, the vertical tail volume coefficient
+- $S_{v}$, the fin area
+- $l_{v}$, the fin moment arm
+- $C_{n \delta_{r}}$, the rudder control derivative
+- $a_{v}$, the fin lift-curve slope
+- $\tau$, the rudder effectiveness, and in the delay budget a pure transport delay
+- $\eta_{v}$, the dynamic pressure ratio at the tail
+- $\sigma$, the radar cross section, and in the thrust lapse relation the density ratio of the standard atmosphere
+- $\lambda$, the radar wavelength, and in the divergence relation the divergence rate of the directional mode
+- $F_{g}$, the gross thrust passing through the nozzles
+- $\ell$, the distance from the centre of gravity to the nozzle exit
+- $\delta$, the yaw deflection angle of the jet, with $\delta_{p}$ the pitch flap angle and $\delta_{y}$ the sidewall angle of a two-dimensional nozzle
+- $\mathcal{R}$, the ratio of available to required yawing moment
+- $V_{p}$, the propulsive tail volume
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air, and in the glide slope relation the flight path angle
+- $p$, the ambient static pressure, with $p_{\text{SL}}$ its sea-level value
+- $M$, the Mach number
+- $T$, the ambient temperature, with $T_{\text{SL}}$ its sea-level value, and in the thrust relations a thrust
+- $\dot{m}$, the physical engine mass flow, with $\dot{m}_{\text{ref}}$ its value at sea level static conditions
+- $\delta_{2}$, the compressor-face total pressure referred to sea level static conditions
+- $\theta_{2}$, the compressor-face total temperature referred to sea level static conditions
+- $\eta_{r}$, the inlet total pressure recovery
+- $V_{j}$, the jet velocity
+- $T_{t7}$, the nozzle total temperature fixed by the afterburner limit
+- $V_{c}$, the crosswind speed
+- $\Pi$, the throttle fraction
+- $W$, the weight
+- $y$, the lateral distance of the live engine from the centreline
+- $D_{\text{wm}}$, the windmilling drag of the dead engine
+- $I_{z}$, the yawing moment of inertia
+- $t_{2}$, the time to double a disturbance
+- $\omega_{c}$, the loop crossover frequency
+- $k$, the ratio of crossover frequency to divergence rate, and with subscripts the apparent-mass factors of the Munk moment
+- $\Delta \phi$, the phase spent by a transport delay at crossover
+- $n$, the thrust lapse exponent in the ceiling relation, and the load factor in the turn relation
+- $e$, the Oswald efficiency, taken as 0.85
+- $A\!R$, the wing aspect ratio
+- $C_{D_{0}}$, the zero-lift drag coefficient
+- $C_{L}^{\ast}$, the lift coefficient at the best lift to drag ratio
+- $\dot{\psi}$, the sustained turn rate
+- $\kappa$, the fraction of the vertical tail's stabilising contribution cancelled by the rudder
+- $\varepsilon_{\beta}$, the error in the measured sideslip
 
 ## References
 

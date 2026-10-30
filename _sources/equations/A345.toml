@@ -1,0 +1,403 @@
+# Equation classification for A345. Read by `python3 _lib/equations.py`.
+
+caution = "Lengths, speeds, weights and thrusts are in feet, knots, pounds and pounds force, every ratio $r$ is model over full scale with $n$ the length ratio, and $\\sigma$ is the relative density factor in its definition but stands for the ratio of full-scale to model air density in the weight ratio, so that it is one when both fly in the same air."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Scale Factor from the Published Spans"
+gloss = "The published span of 20.4 feet over the published reference span of 240 feet gives a length ratio of 0.085000, which agrees with the published 8.5 percent scale."
+cite = ["ref_nasa_fs090", "research_taylor_x48b_progress", "ref_boeing_x48c_release"]
+digest = "7e5eef2544077413"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Froude and Reynolds Numbers"
+gloss = "The Froude number is the ratio of inertial to gravitational force and the Reynolds number the ratio of inertial to viscous force."
+cite = []
+digest = "bdd1efac0a453a7a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Speed Ratio under Froude Matching"
+gloss = "Equal Froude numbers for model and aeroplane fix the speed ratio at the square root of the length ratio."
+cite = []
+digest = "ce9f5a0458b8dabd"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Relative Density Factor"
+gloss = "The relative density factor compares the mass of a body with the mass of air that a cube of its characteristic length contains."
+cite = []
+digest = "d70369b0727b11c9"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Weight Ratio with an Atmospheric Term"
+gloss = "Matching the relative density factor makes the weight ratio the cube of the length ratio divided by a density term that is one when model and aeroplane fly in the same air."
+cite = []
+digest = "00ab2412e632177a"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Froude Scaling of Speed, Time and Angular Rate"
+gloss = "For a dynamically scaled model in the same air, speed and time scale as the square root of the length ratio and angular rate as its reciprocal."
+cite = []
+digest = "d40bdaeb8fe80a83"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Froude Scaling of Weight, Inertia and Reynolds Number"
+gloss = "For the same model, weight scales as the cube of the length ratio, moment of inertia as its fifth power and Reynolds number as its power of three halves."
+cite = []
+digest = "bcc052afd95ad438"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Reynolds Ratio as a Consequence of Froude Matching"
+gloss = "With kinematic viscosity unchanged, the Reynolds ratio is the product of the speed ratio fixed by Froude matching and the length ratio."
+cite = []
+digest = "46819fc6323aba70"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Dynamic Pressure and Wing Loading Ratios"
+gloss = "In the same air both the dynamic pressure and the wing loading scale linearly with the length ratio."
+cite = ["book_etkin_reid", "book_mccormick"]
+digest = "7905645d59a7e607"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Time Compression of the X-48B"
+gloss = "Any interval in the model is the full-scale interval times the square root of the length ratio, or 0.2915 of it."
+cite = []
+digest = "dd961b592729f2da"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Model Duration of a Three-Second Motion"
+gloss = "A full-scale motion of three seconds, an illustrative duration the article chooses, takes 0.875 seconds in the model."
+cite = []
+digest = "c7f44b46afadaf65"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Angular Rate Ratio of the X-48B"
+gloss = "Angular rates in the model are faster than at full scale by the reciprocal of the square root of the length ratio, a factor of 3.430."
+cite = ["research_chambers_modeling_flight"]
+digest = "e67eb7846c766ca1"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Time and Reynolds Ratios of the X-48B Against the X-36"
+gloss = "The Froude scaling laws evaluated at the published scales of 8.5 and 28 percent give the X-48B dynamics 1.815 times faster and a Reynolds shortfall 5.979 times larger than those of the X-36."
+cite = ["ref_nasa_x36"]
+digest = "a33483629748c6fa"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Reynolds Number on the Mean Geometric Chord"
+gloss = "The Reynolds number is formed on a reference chord taken as the published wing area divided by the published span, which gives 4.926 feet."
+cite = ["ref_nasa_fs090", "research_vicroy_correlation"]
+digest = "48931ebbd361a003"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Model Reynolds Number at Maximum Speed at Sea Level"
+gloss = "The published maximum speed of 118 knots on the mean geometric chord with the sea-level kinematic viscosity of the standard atmosphere gives a model Reynolds number of $6.24 \\times 10^{6}$."
+cite = ["ref_nasa_fs090", "research_vicroy_correlation"]
+digest = "0d9ccfbbd214fccf"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Full-Scale Reynolds Number at the Corresponding Condition"
+gloss = "Scaling the model speed and chord to full size by the Froude relations and keeping the sea-level viscosity gives a full-scale Reynolds number of $2.52 \\times 10^{8}$."
+cite = []
+digest = "2bfac46f946d1805"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Full-Scale Speed Implied by the Model Maximum"
+gloss = "Inverting the Froude speed ratio on the published model maximum of 118 knots gives a full-scale speed of 404.7 knots."
+cite = ["ref_nasa_fs090"]
+digest = "0407513adcdc5c9e"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Kinematic Viscosity Ratio at the Model Ceiling"
+gloss = "Kinematic viscosity is dynamic viscosity over density, and the standard atmosphere makes it 1.281 times larger at the published ceiling of 10,000 feet than at sea level."
+cite = ["ref_nasa_fs090"]
+digest = "92b678d1652f2053"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Effective Reynolds Penalty at the Ceiling"
+gloss = "The article defines an effective penalty as the Froude Reynolds penalty multiplied by the viscosity ratio for a model flown at its ceiling against an aeroplane approaching at sea level."
+cite = []
+digest = "ec1762d1d13a38a2"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Reynolds Penalty and Time Compression as Functions of Span"
+gloss = "The article writes its Reynolds penalty and time compression as functions of model span alone, with the reference span held fixed at 240 feet."
+cite = []
+digest = "8cbf6424e07b1bb5"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Cost of Substituting the X-48B for the X-48A"
+gloss = "The ratio of the two span-based penalties, with the reference span held at 240 feet for both vehicles, prices the substitution of the 20.4-foot model for the 35-foot one."
+cite = []
+digest = "d420f723f6ef5143"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Full-Scale Weight Implied by the Model Weight"
+gloss = "Inverting the cube law on the published maximum model weight of 525 pounds assumes that the model was weight-scaled in the same air as the aeroplane, a relative density term of one."
+cite = ["research_taylor_x48b_progress", "research_regan_x48b_stability"]
+digest = "71d112d317697ec1"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Implied Full-Scale Weight with the Density Ratio Restored"
+gloss = "Restoring the density term, the implied full-scale weight is the model weight over the cube of the length ratio times the ratio of full-scale to model air density."
+cite = []
+digest = "0cfdd7c9cb407ad4"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Liebeck Design Scaled by the Cube of Span"
+gloss = "Scaling Liebeck's 823,000 pound design from 280 to 240 feet assumes geometric similarity, so that weight follows the cube of span."
+cite = ["research_liebeck_bwb"]
+digest = "cfb69e7f53d3cf4f"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Implied Weight Over the Cube-Scaled Design"
+gloss = "The ratio sets the weight implied by the model under a relative density term of one against the Liebeck design scaled by the cube of span."
+cite = ["research_liebeck_bwb"]
+digest = "5596a251891ac752"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Liebeck Design Scaled by the Square of Span"
+gloss = "Scaling the same design to a 240-foot span under the alternative assumption of constant wing loading makes weight follow the square of span."
+cite = ["research_liebeck_bwb"]
+digest = "02bda453282df177"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Thrust to Weight Ratio of the X-48B"
+gloss = "Three engines of 54 pounds installed thrust against the published maximum weight of 525 pounds give a thrust to weight ratio of 0.3086."
+cite = ["research_taylor_x48b_progress", "research_regan_x48b_stability"]
+digest = "4f11fbc001529ad9"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Thrust to Weight Ratio of the Liebeck Design"
+gloss = "Three engines of 61,600 pounds thrust against the published gross weight of 823,000 pounds give a thrust to weight ratio of 0.2245."
+cite = ["research_liebeck_bwb"]
+digest = "509ab9a62531ce32"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Thrust to Weight of the Model Over the Full Scale"
+gloss = "Taking Liebeck's design as the full-scale aeroplane that the model represents, the model carries 1.374 times its thrust to weight ratio."
+cite = []
+digest = "8a55cdfc1ef20e9e"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Asymmetric Thrust Fraction with One Engine Failed"
+gloss = "With one of $N_e$ equal engines failed, the asymmetric thrust as a fraction of weight is the thrust to weight ratio divided by the engine count."
+cite = []
+digest = "e745c68aad16f90c"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Asymmetric Thrust Fractions of the X-48B and X-48C"
+gloss = "The asymmetric thrust fraction is 0.10286 for the three-engine X-48B and 0.17800 for the two-engine X-48C at the fact sheet's 89 pounds an engine."
+cite = []
+digest = "968ec2361d975b4b"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Asymmetric Thrust Fraction of the Liebeck Trijet"
+gloss = "The same fraction for the three-engine Liebeck design is 0.07485."
+cite = []
+digest = "b3ed9bd031517398"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Engine-Out Asymmetry Ratios"
+gloss = "The ratios set each model's asymmetric thrust fraction against that of Liebeck's design, taken as the full-scale aeroplane, and the X-48C against the X-48B."
+cite = []
+digest = "49602ec09b766915"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Vertical Tail Volume Coefficient"
+gloss = "The directional tail volume coefficient is the vertical surface area times its moment arm divided by the wing area and span."
+cite = []
+digest = "e1d02c351e0bbc1b"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Moment Arm Shift on a Swept Trailing Edge"
+gloss = "Moving a surface inboard along a trailing edge swept at angle $\\Lambda$ moves it forward by the spanwise shift times the tangent of the sweep."
+cite = []
+digest = "4ed079505cdda540"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Measured Stall Angles with Slats Extended and Retracted"
+gloss = "The correlation update reports stall at 24 degrees with slats extended and 14 degrees with slats retracted, a difference of ten degrees."
+cite = ["research_vicroy_correlation"]
+digest = "fba195d245650719"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Reference Span and Weight Implied by the BWB-17"
+gloss = "The published 6 percent scale and 17-foot span give a reference span of 283 feet, and inverting the cube law on the published 120 pounds assumes the model was weight-scaled in the same air."
+cite = ["research_liebeck_bwb"]
+digest = "b94bba992954d6a6"
+
+[[symbol]]
+tex = 'n'
+meaning = "the length ratio of model to full scale"
+
+[[symbol]]
+tex = 'Fr'
+meaning = "the Froude number"
+
+[[symbol]]
+tex = 'Re'
+meaning = "the Reynolds number"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the kinematic viscosity, with $\\nu_0$ its sea-level value"
+
+[[symbol]]
+tex = 'L_m'
+meaning = "the model length, with $L_f$ the full-scale length"
+
+[[symbol]]
+tex = 'V_m'
+meaning = "the model speed, with $V_f$ the full-scale speed"
+
+[[symbol]]
+tex = 'r_V'
+meaning = "the speed ratio, with $r_t$, $r_\\omega$, $r_W$, $r_I$, $r_{Re}$, $r_q$ and $r_{W/S}$ the ratios of time, angular rate, weight, moment of inertia, Reynolds number, dynamic pressure and wing loading"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the relative density factor in its definition, and in the weight ratio the ratio of full-scale to model air density"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, with $\\rho_f$ and $\\rho_m$ its values at the full-scale and model conditions"
+
+[[symbol]]
+tex = 'm'
+meaning = "the mass"
+
+[[symbol]]
+tex = 'l'
+meaning = "the characteristic length"
+
+[[symbol]]
+tex = 'c'
+meaning = "the reference chord, taken as wing area over span"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area, with $S_v$ the area of a vertical surface"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span, with $b_{\\text{ref}}$ the full-scale reference span"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the dynamic viscosity"
+
+[[symbol]]
+tex = 'P_{\text{effective}}'
+meaning = "the effective Reynolds penalty at the model ceiling"
+
+[[symbol]]
+tex = 'P(b)'
+meaning = "the Reynolds penalty as a function of model span, with $\\tau(b)$ the time compression"
+
+[[symbol]]
+tex = 'W_{\text{full}}'
+meaning = "the implied full-scale weight, with $W_m$ the model weight"
+
+[[symbol]]
+tex = '\frac{T}{W}'
+meaning = "the thrust to weight ratio"
+
+[[symbol]]
+tex = 'N_e'
+meaning = "the number of engines"
+
+[[symbol]]
+tex = '\Delta T'
+meaning = "the asymmetric thrust with one engine failed"
+
+[[symbol]]
+tex = 'V_v'
+meaning = "the vertical tail volume coefficient"
+
+[[symbol]]
+tex = 'l_v'
+meaning = "the distance from the centre of gravity to the aerodynamic centre of the vertical surface"
+
+[[symbol]]
+tex = '\Delta y'
+meaning = "the inboard shift of the surface along the span"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the sweep angle of the outer trailing edge"
+
+[[symbol]]
+tex = '\alpha_{\text{stall}}'
+meaning = "the stall angle of attack"

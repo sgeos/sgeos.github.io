@@ -83,28 +83,33 @@ The programme was organised as a sequence of modifications, each flyable in prin
 
 $$
 \frac{S_1}{S_0} = \frac{6.19}{14.76} = 0.419
+\tag{1}
 $$
 
 **A wing that small cannot land the aeroplane.** At the same mass the wing loading rises by the reciprocal of that ratio.
 
 $$
 \frac{W}{S} \quad\text{is what a wing must carry per unit of its own area}
+\tag{2}
 $$
 
 $$
 \frac{(W/S)_1}{(W/S)_0} = \frac{S_0}{S_1} = 2.38
+\tag{3}
 $$
 
 Lift is the product of dynamic pressure, wing area and a lift coefficient \[[Lift Coefficient][ref_lift_coefficient]\].
 
 $$
 L = \tfrac{1}{2}\rho V^{2} S\, C_L
+\tag{4}
 $$
 
 Stall speed depends on wing loading and on the maximum lift coefficient the wing can reach \[[Wing Loading][ref_wing_loading]\] \[[Stall, Fluid Dynamics][ref_stall_speed]\] \[[Lift Coefficient][ref_lift_coefficient]\].
 
 $$
 V_s = \sqrt{\frac{2}{\rho}\,\frac{W}{S}\,\frac{1}{C_{L,max}}}
+\tag{5}
 $$
 
 **So holding the stall speed while multiplying the wing loading by 2.38 requires multiplying the maximum lift coefficient by 2.38.** **The twelve propellers along the leading edge exist to supply most of that factor**, and the report says so in as many words, that the high-lift propellers were designed to increase the dynamic pressure over the wing at low speeds to reduce the stall speed of the highly loaded wing to be comparable to that of the Mod II configuration \[[Borer][research_x57_flight_performance_estimates]\]. The flap on the new wing supplies the rest, and a later subsection divides the factor between the two.
@@ -115,6 +120,7 @@ $$
 
 $$
 q_w = \tfrac{1}{2}\rho\,(V + \Delta V)^{2} \;>\; \tfrac{1}{2}\rho V^{2}
+\tag{6}
 $$
 
 **A propeller ahead of a wing raises the local dynamic pressure** \[[Dynamic Pressure][ref_dynamic_pressure]\] \[[U.S. Standard Atmosphere][ref_us_standard_atmosphere]\], and lift goes as dynamic pressure, so a wing in a slipstream makes more lift at the same airspeed and the same angle of attack \[[Litherland et al][research_x57_x_57_maxwell_high_lift_propeller_3]\] \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
@@ -127,30 +133,36 @@ $$
 
 $$
 f = \frac{12\,d}{b_1} = \frac{6.95}{9.94} = 0.70
+\tag{7}
 $$
 
 $$
 A_h = 12\,\frac{\pi d^{2}}{4} = 3.16
+\tag{8}
 $$
 
 **So roughly seventy percent of the span sits in a slipstream and the rest of the wing makes its lift the ordinary way.** If the blown fraction sees a velocity higher by a factor of one plus some increment, and the rest sees the free stream, then the whole wing's lift multiple is a weighted sum \[[Lift Coefficient][ref_lift_coefficient]\] \[[Slipstream][ref_slipstream]\].
 
 $$
 f\,(1+x)^{2} + (1-f) = \frac{S_0}{S_1}
+\tag{9}
 $$
 
 **Blowing the whole wing would need a 54 percent velocity increase. Blowing seventy percent of it needs 73 percent** \[[Dynamic Pressure][ref_dynamic_pressure]\].
 
 $$
 x_{whole} = \sqrt{2.38} - 1 = 0.544
+\tag{10}
 $$
 
 $$
 x = \sqrt{1 + \frac{2.38 - 1}{0.70}} - 1 = 0.726
+\tag{11}
 $$
 
 $$
 \Delta V = x\,V_s = 0.726 \times 29.8 = 21.7
+\tag{12}
 $$
 
 **At a stall speed of 58 knots the blown part of the wing must see an airflow moving 22 metres per second faster than the aeroplane is.**
@@ -159,20 +171,24 @@ $$
 
 $$
 T = 2\rho A_h v_i \,(V_s + v_i), \qquad v_i = \tfrac{1}{2}\Delta V
+\tag{13}
 $$
 
 $$
 P_i = T\,(V_s + v_i) = 139
+\tag{14}
 $$
 
 $$
 \frac{P_i}{P_h} = \frac{139}{151} = 0.92
+\tag{15}
 $$
 
 **The ideal requirement is 139 kilowatts against 151 installed, which is 92 percent** \[[Borer][research_x57_flight_performance_estimates]\]. An actuator disc has no profile drag, no swirl loss, no tip loss, no motor loss and no controller loss. **The real requirement is larger than the ideal one, and at the propulsive efficiency of 75 percent assumed here it exceeds the installed power.**
 
 $$
 \frac{P_i}{\eta_{pr}} = \frac{139}{0.75} = 185 \;>\; P_h
+\tag{16}
 $$
 
 **This does not mean the design was wrong. It means the propellers were never asked for all of it.**
@@ -185,38 +201,45 @@ A slipstream does more to a wing than speed the air up. It arrives with swirl, i
 
 $$
 V_{s,II} = V_{s,I}\sqrt{\frac{m_{II}}{m_{I}}} = 55\sqrt{\frac{1361}{1230}} = 57.9
+\tag{17}
 $$
 
 **Every lift coefficient follows from a stall speed, a mass and a wing area** \[[Lift Coefficient][ref_lift_coefficient]\]. At 1,361 kilograms and sea level density the three landing stall speeds give these.
 
 $$
 C_{L,max} = \frac{2\,m\,g}{\rho\,V_{s0}^{2}\,S}
+\tag{18}
 $$
 
 $$
 C_{L,II} = 1.658, \qquad C_{L,IV} = 2.496, \qquad C_{L,hl} = 3.954
+\tag{19}
 $$
 
 **The blown figure is the design figure.** Borer and Patterson give the lift coefficient at the target stall speed of 58 knots as 3.95, referred to the reference wing area of 66.67 square feet, which is 6.19 square metres, and the value recomputed here from the tabulated speed agrees \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
 
 $$
 \frac{C_{L,IV}}{C_{L,II}} = 1.505, \qquad \frac{C_{L,hl}}{C_{L,IV}} = \left(\frac{73}{58}\right)^{2} = 1.584, \qquad 1.505 \times 1.584 = 2.384
+\tag{20}
 $$
 
 **The small wing with its flap already reaches a maximum lift coefficient half as large again as the production wing, and the propellers have to supply the remaining factor of 1.58, not 2.38.** The high-lift system was sized with a margin, a design lift coefficient of 4.35, ten percent above the requirement, because the interaction of twelve slipstreams with a wing was not expected to be captured fully by the design tools \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
 
 $$
 \frac{C_{L,goal}}{C_{L,IV}} = \frac{4.35}{2.496} = 1.743
+\tag{21}
 $$
 
 **Put back into the same slipstream model, that factor asks for a much smaller velocity increase.**
 
 $$
 x = \sqrt{1 + \frac{1.743 - 1}{0.699}} - 1 = 0.436
+\tag{22}
 $$
 
 $$
 P_i = 66.6, \qquad \frac{P_i}{\eta_{pr}} = \frac{66.6}{0.75} = 88.7 \;<\; P_h
+\tag{23}
 $$
 
 **On the same assumed propulsive efficiency the requirement is now 59 percent of the installed power, rather than more than all of it** \[[Momentum Theory][ref_momentum_theory]\].
@@ -225,16 +248,19 @@ $$
 
 $$
 P_s = 12 \times 10.7 = 128.4, \qquad T = 12 \times 215 = 2580
+\tag{24}
 $$
 
 That shaft power is 85 percent of the 12.6 kilowatt motor rating. Treating the design thrust as twelve actuator discs of the published 0.576 metre diameter gives the induced velocity, the ideal power and the velocity added in the far wake.
 
 $$
 v_i = 8.73, \qquad P_i = T\,(V_s + v_i) = 99.5, \qquad \frac{P_i}{P_s} = 0.775
+\tag{25}
 $$
 
 $$
 \frac{2\,v_i}{V_s} = 0.585 \;>\; 0.436
+\tag{26}
 $$
 
 **The design thrust implies a slipstream 58 percent faster than the aeroplane, against the 44 percent the credited model needs.** The report reaches the same conclusion in its own terms, that more detailed investigations indicated the high-lift propeller system may have been able to provide an even higher maximum lift coefficient, so that the minimum steady flight speed observed in flight would likely have been lower \[[Borer][research_x57_flight_performance_estimates]\]. The design also had to turn the propellers about 400 revolutions per minute faster than first intended, because the passively folding blades were predicted to deploy to about 80 degrees from the axis rather than 90, losing 2.5 to 4.5 degrees of pitch \[[Borer and Patterson][research_x57_high_lift_control_schedule]\].
@@ -251,6 +277,7 @@ $$
 
 $$
 \frac{S_{w,1}}{S_{w,0}} = \frac{55.5}{67.8} = 0.819
+\tag{27}
 $$
 
 **The wing area fell by 58 percent and the wetted area fell by 18 percent.** The report gives 67.8 square metres becoming 55.5, a figure that already includes the high-lift nacelles \[[Borer][research_x57_flight_performance_estimates]\].
@@ -259,12 +286,14 @@ $$
 
 $$
 D_i = \frac{L^{2}}{\tfrac{1}{2}\rho V^{2}\,\pi\, b^{2} e}
+\tag{28}
 $$
 
 The new wing has almost twice the aspect ratio of the old one and a **shorter** span, 9.94 metres against 11.40 \[[Borer][research_x57_flight_performance_estimates]\].
 
 $$
 \frac{D_{i,1}}{D_{i,0}} = \left(\frac{b_0}{b_1}\right)^{2}= \left(\frac{11.40}{9.94}\right)^{2} = 1.32
+\tag{29}
 $$
 
 **So the induced drag rose by 32 percent while the parasite drag fell by 18.** Borer states the same result independently, that the reduction in span led to higher induced drag for Mod III and IV despite the higher aspect ratio of the Mod III/IV wing, and increased the importance of the aeropropulsive benefit of the wingtip-mounted propellers \[[Borer][research_x57_flight_performance_estimates]\].
@@ -275,12 +304,14 @@ $$
 
 $$
 \frac{13.3}{9.5} = 1.40, \qquad \frac{13.5}{8.8} = 1.53
+\tag{30}
 $$
 
 **The small wing is worth 40 percent at the cruise point, and putting the propellers at the tips raises that to 53.** The difference lies in what thrust does to each aeroplane.
 
 $$
 \frac{8.8}{9.5} = 0.93, \qquad \frac{13.5}{13.3} = 1.02
+\tag{31}
 $$
 
 **Thrust costs Mod II seven percent of its lift to drag ratio and gains Mod III about one and a half percent.** The report accounts for the difference this way. On Mod II the slipstream scrubs the wing and nacelle and its swirl disturbs the lift distribution, while on Mod III less wetted area sits in the slipstream and the swirl counters the wingtip vortex \[[Borer][research_x57_flight_performance_estimates]\].
@@ -291,6 +322,7 @@ $$
 
 $$
 AR = \frac{b^{2}}{S}
+\tag{32}
 $$
 
 For the original wing the three agree to better than one percent. **For the new wing they do not.** A span of 9.94 metres and an area of 6.19 square metres give an aspect ratio of 15.96, against the 15.0 the same paragraph states, a disagreement of 6.4 percent.
@@ -307,22 +339,26 @@ For the original wing the three agree to better than one percent. **For the new 
 
 $$
 P_h = 12 \times 12.6 = 151.2, \qquad P_c = 2 \times 72 = 144
+\tag{33}
 $$
 
 **That installation is more powerful than the two piston engines it replaced.** The two Rotax engines were rated at 73.5 kilowatts each, 147 kilowatts between them, and drove the aeroplane through its entire flight envelope \[[Borer][research_x57_flight_performance_estimates]\]. The high-lift propellers produce 151 kilowatts and are switched off in cruise, then folded flat against their nacelles \[[Litherland and Derlaga 2019][research_x57_folding_conformal_blades]\].
 
 $$
 \frac{P_h}{P_0} = \frac{151.2}{147.0} = 1.03
+\tag{34}
 $$
 
 **The two propeller sets are designed for different jobs and the advance ratio shows it** \[[Propeller, Aeronautics][ref_propeller]\].
 
 $$
 J = \frac{V}{n\,d}
+\tag{35}
 $$
 
 $$
 J_{cruise} = 1.34, \qquad J_{lift} = 0.68
+\tag{36}
 $$
 
 **The high-lift propellers run at half the advance ratio of the cruise pair**, the mark of a propeller built to move a lot of air slowly beside one built to move a little air quickly.
@@ -331,6 +367,7 @@ $$
 
 $$
 \frac{72}{53.1} = 1.36 \quad \text{against} \quad \frac{73.5}{56.6} = 1.30
+\tag{37}
 $$
 
 **A cruise motor with its propeller manages 1.36 kilowatts per kilogram against about 1.30 for the Rotax it replaced**, on the combined motor and propeller mass of 117 pounds that NASA's specification table gives \[[X-57 Maxwell Overview, NASA][ref_nasa_x57]\] and the 56.6 kilogram engine with its reduction gearbox and without a propeller \[[Rotax 912 ULS/S, BRP-Rotax][ref_rotax_912_uls]\]. That comparison charges the motor with a propeller and the engine with none. The cruise propeller was budgeted at 15.4 kilograms at the preliminary design review \[[SCEPTOR X-57 Critical Design Review, Day 1 Package, NASA][ref_sceptor_cdr]\], so the bare motor is about 37.7 kilograms and gives about 1.9 kilowatts per kilogram, nearly half as much again as the Rotax. The bare figure leaves out the two controllers that each motor needs \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\]. Each controller delivers 39 kilowatts nominal and 55 in emergency overdrive at about 7 kilowatts per kilogram \[[Terry et al, X-57 Cruise Motor Controller Design and Testing][ref_x57_cmc]\], so a pair adds between about 11 and 16 kilograms, and the motor with its controllers gives between 1.35 and 1.48 kilowatts per kilogram, between 4 and 14 percent above the Rotax. **Once the controllers are counted, the gain is real and it is modest.** The same NASA page also describes each cruise motor and propeller as weighing about 57 pounds, in a sentence that gives the Rotax with its propeller as about 125 pounds. As a motor and propeller mass the 57 cannot be right, because after the 15.4 kilogram propeller it would leave about 10.5 kilograms for a motor whose designers gave its active electromagnetic parts alone 22.2 kilograms against a system target of 35 kilograms \[[Dubois et al. 2016a][research_duboisarthur_vandergeestmartin_2016]\]. That target and the propeller come to about 111 pounds, close to the table's 117. The 57 matches the Rotax's 56.6 kilograms, and the likelier reading, which the page does not confirm, is that the engine's mass was restated in kilograms under the wrong unit. What distributed electric propulsion offers is not power density but divisibility, since an electric motor loses little efficiency as it is made smaller \[[Borer et al. 2016][research_borer_patterson_2016]\].
@@ -341,6 +378,7 @@ $$
 
 $$
 Q = \frac{P}{\Omega} = \frac{72\,000}{2\pi \times 2700/60} = 255
+\tag{38}
 $$
 
 Both ratings give the same torque, 255 newton metres, the figure the controller documentation states at 2,700 revolutions per minute \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\], so the continuous rating is the peak torque at a lower speed.
@@ -349,6 +387,7 @@ Both ratings give the same torque, 255 newton metres, the figure the controller 
 
 $$
 \frac{P_{1800}}{P_{2700}} = \frac{1800}{2700} = 0.67
+\tag{39}
 $$
 
 At full torque the cruise motors then deliver two thirds of their peak power, and the asymmetry on a failure falls with it. **The wingtip propellers that the drag trade needed are also the configuration's most dangerous failure.**
@@ -361,22 +400,26 @@ At full torque the cruise motors then deliver two thirds of their peak power, an
 
 $$
 e_b = \frac{E}{m} = \frac{47\times 10^{3}}{390} = 120\ \text{watt hours per kilogram}
+\tag{40}
 $$
 
 **The pack is built up from a commercial cell.** The cell is the Samsung INR18650-30Q, of 3.0 ampere hours at 3.6 volts nominal and 4.2 volts maximum. Twenty cells in parallel make a brick, sixteen bricks in series make a module of 320 cells, and eight modules make each of the two packs, 2,560 cells to a pack and 5,120 on the aeroplane \[[Clarke][research_x57_traction_power_system]\] \[[Hernandez Lugo et al. 2018][research_x57_battery_cell_to_system]\].
 
 $$
 V_m = 16 \times 3.6 = 57.6, \qquad C_m = 20 \times 3.0 = 60, \qquad E_m = 57.6 \times 60 = 3456
+\tag{41}
 $$
 
 $$
 E_{nom} = 16 \times 3.456 = 55.3, \qquad V_{nom} = 128 \times 3.6 = 461, \qquad V_{max} = 128 \times 4.2 = 538
+\tag{42}
 $$
 
 **The pack's 538 volt ceiling is 128 cells at full charge**, the bus voltage the motor controllers were built for, and its 320 volt floor is 2.5 volts a cell \[[Clarke][research_x57_traction_power_system]\] \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\]. Of the nominal 55.3 kilowatt hours the design counted 47 as effective.
 
 $$
 \frac{E}{E_{nom}} = \frac{47}{55.3} = 0.85
+\tag{43}
 $$
 
 The as-built figure is lower again, two batteries of 23 kilowatt hours usable capacity each \[[Wallace et al][research_x57_development_of_the_x_57_mod]\]. The sources do not itemise the difference, but two of its causes are documented. The flight plan required landing above 340 volts, because below that voltage the cruise motor controllers cannot deliver full torque at full speed, and cell imbalance reduces the energy available unless charge is shuttled between cells or the pack is derated \[[Reynolds et al][research_x57_flight_test_approach_for_x_57]\] \[[Clarke][research_x57_traction_power_system]\].
@@ -385,10 +428,12 @@ The as-built figure is lower again, two batteries of 23 kilowatt hours usable ca
 
 $$
 e_f = \frac{43.5 \times 10^{6}}{3600} = 1.21 \times 10^{4}
+\tag{44}
 $$
 
 $$
 \frac{e_f}{e_b} = 100
+\tag{45}
 $$
 
 **Fuel carries a hundred times more energy per kilogram than this battery pack did.**
@@ -397,10 +442,12 @@ $$
 
 $$
 C_r = \frac{P}{E} = \frac{295.2}{47} = 6.3
+\tag{46}
 $$
 
 $$
 t = \frac{E}{P} = \frac{47}{295.2} = 0.159
+\tag{47}
 $$
 
 **Running everything at once would empty the pack in under ten minutes and would draw six times its own capacity per hour**, which is a demanding discharge for a pack sized by energy rather than by power \[[Lithium-Ion Battery][ref_lithium_ion]\] \[[Linden, Handbook of batteries][book_linden]\]. Nothing in the mission asks for that, since the high-lift motors are used only at the ends of the flight, but it bounds what the pack and its wiring had to be built for \[[Clarke][research_x57_traction_power_system]\].
@@ -409,18 +456,21 @@ $$
 
 $$
 \frac{E_{prof}}{E} = \frac{46.2}{47.0} = 0.98
+\tag{48}
 $$
 
 **The baseline flight was predicted to use 98 percent of the effective energy.** For that reason the battery dominated the flight planning set out below. At the 120 kilowatts the two subsystems had to sustain continuously, the effective energy lasts under 24 minutes.
 
 $$
 t = \frac{E}{P} = \frac{47}{120} = 0.39
+\tag{49}
 $$
 
 **The current a pack must carry rises as its voltage falls**, since the power the motors ask for does not fall with it \[[Clarke et al][research_x57_x_57_traction_power_and_command]\].
 
 $$
 I = \frac{P}{V_b}, \qquad \frac{60\,000}{461} = 130, \qquad \frac{60\,000}{340} = 176
+\tag{50}
 $$
 
 At 60 kilowatts a pack at its 461 volt nominal delivers 130 amperes, and at 340 volts it must deliver 176. The modelled reference mission drew more than 175 amperes during takeoff and about 150 during climb and cruise, against an inline fuse rated at 200 amperes that derates for steady current to 160 amperes at 25 degrees Celsius and 143 at 50 \[[Clarke][research_x57_traction_power_system]\] \[[Clarke et al][research_x57_x_57_traction_power_and_command]\]. A larger fuse would not have protected the ground crew from arc flash during maintenance, so the fuse was slightly undersized for the loads at the temperatures a cabin could reach \[[Clarke et al][research_x57_x_57_traction_power_and_command]\].
@@ -429,6 +479,7 @@ At 60 kilowatts a pack at its 461 volt nominal delivers 130 amperes, and at 340 
 
 $$
 \frac{e_f\,\eta_p}{e_b\,\eta_e} = \frac{100 \times 0.30}{0.90} = 33
+\tag{51}
 $$
 
 **The efficiency advantage is a factor of three and the energy deficit is a factor of a hundred, so the aeroplane is still thirty-three times worse off per kilogram.** Better packaging does not close a gap of that size. **It is why X-57 flight planning was constrained to missions of less than thirty minutes** \[[Borer][research_x57_flight_performance_estimates]\].
@@ -437,12 +488,14 @@ $$
 
 $$
 \frac{0.92}{0.28} \times 1.5 = 3.29 \times 1.5 = 4.9
+\tag{52}
 $$
 
 Mod III adds its 53 percent lift to drag gain at the cruise point to the Mod II ratios.
 
 $$
 2.6 \times 1.53 = 4.0, \qquad 2.9 \times 1.53 = 4.4
+\tag{53}
 $$
 
 **On the report's estimates the full configuration would have come within reach of the goal at cruise.** These are products of estimates made at different conditions, so the result is an inference, and the report states no such figure.
@@ -451,10 +504,12 @@ $$
 
 $$
 R = \frac{E\,\eta_e\,\eta_{pr}}{m\,g}\;\frac{L}{D}
+\tag{54}
 $$
 
 $$
 R_{II} = 75, \qquad R_{III} = 116
+\tag{55}
 $$
 
 **Spending all 47 kilowatt hours at the 150 knot cruise point, with the report's 90 percent drivetrain efficiency, the 75 percent propulsive efficiency assumed here and the powered lift to drag ratios of 8.8 and 13.5, gives 75 kilometres for Mod II and 116 for Mod III.** That is an upper bound, since it leaves nothing for takeoff, climb, descent or reserve, and the flight test plan described below shows how much less was usable in practice.
@@ -491,6 +546,7 @@ Converting stored direct current into the alternating current a motor wants is t
 
 $$
 V_{dc} = 538, \qquad I_{pk} = 200
+\tag{56}
 $$
 
 The cruise motor controller switched at 538 volts and 200 amperes peak per phase. **The typical failure mode is a short circuit with the potential for material ejection, which often destroys the drive circuit and the printed circuit board with it** \[[Clarke and Terry][research_x57_cruise_motor_inverter_failures]\].
@@ -513,6 +569,7 @@ The cruise motor controller switched at 538 volts and 200 amperes peak per phase
 
 $$
 P_{loss} = (1 - \eta_c)\,P, \qquad \frac{330}{0.03} = 11\,000
+\tag{57}
 $$
 
 At 97 percent that limit corresponds to 11 kilowatts of throughput, and the fast-switching discrete silicon carbide design measured 98.3 percent \[[Clarke et al][research_x57_x_57_traction_power_and_command]\].
@@ -801,6 +858,556 @@ The entry is not wrong. **The wing was designed optimally for the electric motor
 **A designation register has a column for the contractor, the sponsor, the engines and the mission, and for this row the engines column is empty.** That blank turned out to mean nothing, since ninety-four rows share it. **The blank that would have mattered is the one no register has**, a column for whether the parts exist yet at the maturity the plan assumed.
 
 **The X-57's entry is the longest in its class because the design was finished.** The design being finished is not the same as the parts being ready, and a register can record only the first.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 57 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 57, 44 are established and 13 are bespoke.
+Areas are in square metres, speeds inside the equations in metres per second although the stall speeds are quoted in knots, powers in kilowatts, energies in kilowatt hours, specific energies in watt hours per kilogram, ranges in kilometres and torque in newton metres, and $e$ is the span efficiency while $e_b$ and $e_f$ are the specific energies of the battery and the fuel, with Roman numerals marking the Mod I to Mod IV configurations.
+
+**Equation 1, Ratio of Mod III to Original Wing Area.**
+The reported wing areas give a Mod III wing of 42 percent of the area of the wing it replaced.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{S_1}{S_0} = \frac{6.19}{14.76} = 0.419
+\tag{1}
+$$
+
+**Equation 2, Wing Loading.**
+The wing loading is the weight a wing must carry per unit of its own area.
+
+$$
+\frac{W}{S} \quad\text{is what a wing must carry per unit of its own area}
+\tag{2}
+$$
+
+**Equation 3, Ratio of Wing Loadings at Equal Mass.**
+At the same mass the wing loading rises by the reciprocal of the area ratio, a factor of 2.38.
+
+$$
+\frac{(W/S)_1}{(W/S)_0} = \frac{S_0}{S_1} = 2.38
+\tag{3}
+$$
+
+**Equation 4, Lift Equation.**
+Lift is the dynamic pressure times the wing area times the lift coefficient.
+[Lift Coefficient][ref_lift_coefficient]
+
+$$
+L = \tfrac{1}{2}\rho V^{2} S\, C_L
+\tag{4}
+$$
+
+**Equation 5, Stall Speed.**
+The stall speed is set by the wing loading, the air density and the maximum lift coefficient.
+[Wing Loading][ref_wing_loading]
+[Stall, Fluid Dynamics][ref_stall_speed]
+[Lift Coefficient][ref_lift_coefficient]
+
+$$
+V_s = \sqrt{\frac{2}{\rho}\,\frac{W}{S}\,\frac{1}{C_{L,max}}}
+\tag{5}
+$$
+
+**Equation 6, Dynamic Pressure in a Propeller Slipstream.**
+A propeller ahead of a wing adds a velocity increment that raises the local dynamic pressure above the free-stream value.
+[Dynamic Pressure][ref_dynamic_pressure]
+
+$$
+q_w = \tfrac{1}{2}\rho\,(V + \Delta V)^{2} \;>\; \tfrac{1}{2}\rho V^{2}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Blown Span Fraction.*
+The article takes each slipstream to cover one propeller diameter of span, with the diameter rounded to 1.9 feet, so that twelve propellers blow about seventy percent of the span.
+[Borer and Patterson][research_x57_high_lift_control_schedule]
+
+$$
+f = \frac{12\,d}{b_1} = \frac{6.95}{9.94} = 0.70
+\tag{7}
+$$
+
+**Equation 8, Total High-Lift Propeller Disc Area.**
+The twelve discs of the rounded diameter give a total disc area of 3.16 square metres.
+
+$$
+A_h = 12\,\frac{\pi d^{2}}{4} = 3.16
+\tag{8}
+$$
+
+*Equation 9, Bespoke Slipstream Lift Multiple.*
+The article models the blown fraction as seeing a uniformly increased velocity at unchanged lift coefficient and the rest the free stream, and sets the weighted lift multiple equal to the area ratio.
+
+$$
+f\,(1+x)^{2} + (1-f) = \frac{S_0}{S_1}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Velocity Increase if the Whole Wing Were Blown.*
+Under the slipstream model a fully blown wing would need a 54 percent velocity increase to supply the factor of 2.38.
+
+$$
+x_{whole} = \sqrt{2.38} - 1 = 0.544
+\tag{10}
+$$
+
+*Equation 11, Bespoke Velocity Increase for the Blown Fraction.*
+Under the slipstream model, with seventy percent of the span blown, the blown part needs a 73 percent velocity increase.
+
+$$
+x = \sqrt{1 + \frac{2.38 - 1}{0.70}} - 1 = 0.726
+\tag{11}
+$$
+
+*Equation 12, Bespoke Slipstream Velocity Increment at the Stall Speed.*
+The model's velocity increase applied at the 58 knot stall speed gives an increment of about 22 metres per second.
+
+$$
+\Delta V = x\,V_s = 0.726 \times 29.8 = 21.7
+\tag{12}
+$$
+
+**Equation 13, Actuator Disc Thrust.**
+Momentum theory gives the thrust of an ideal actuator disc from the disc area, the induced velocity and the free stream, with the far-wake increment twice the induced velocity.
+[Momentum Theory][ref_momentum_theory]
+[Glauert, The elements of aerofoil and airscrew theory][book_glauert]
+
+$$
+T = 2\rho A_h v_i \,(V_s + v_i), \qquad v_i = \tfrac{1}{2}\Delta V
+\tag{13}
+$$
+
+*Equation 14, Bespoke Ideal Power for the Whole Lift Factor.*
+The ideal actuator disc power to produce the slipstream model's increment is about 139 kilowatts.
+
+$$
+P_i = T\,(V_s + v_i) = 139
+\tag{14}
+$$
+
+*Equation 15, Bespoke Ideal Power Against Installed High-Lift Power.*
+That ideal requirement is 92 percent of the 151 kilowatts installed, on the assumption that the propellers supply the whole factor of 2.38.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{P_i}{P_h} = \frac{139}{151} = 0.92
+\tag{15}
+$$
+
+*Equation 16, Bespoke Real Power at an Assumed Propulsive Efficiency.*
+At a propulsive efficiency of 75 percent that the article assumes, the power requirement exceeds the installed power.
+
+$$
+\frac{P_i}{\eta_{pr}} = \frac{139}{0.75} = 185 \;>\; P_h
+\tag{16}
+$$
+
+**Equation 17, Stall Speed Scaled to the Mod II Mass.**
+Scaling the production stall speed of 55 knots by the square root of the mass ratio reproduces the tabulated Mod II figure of 58 knots.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+V_{s,II} = V_{s,I}\sqrt{\frac{m_{II}}{m_{I}}} = 55\sqrt{\frac{1361}{1230}} = 57.9
+\tag{17}
+$$
+
+**Equation 18, Maximum Lift Coefficient From a Stall Speed.**
+The maximum lift coefficient follows from the stall speed, the mass, the wing area and the sea-level density.
+[Lift Coefficient][ref_lift_coefficient]
+
+$$
+C_{L,max} = \frac{2\,m\,g}{\rho\,V_{s0}^{2}\,S}
+\tag{18}
+$$
+
+**Equation 19, Landing Lift Coefficients of Mod II, Mod IV and the Blown Wing.**
+The tabulated landing stall speeds at 1,361 kilograms give maximum lift coefficients of 1.658, 2.496 and 3.954, the last agreeing with the design figure.
+[Borer][research_x57_flight_performance_estimates]
+[Borer and Patterson][research_x57_high_lift_control_schedule]
+
+$$
+C_{L,II} = 1.658, \qquad C_{L,IV} = 2.496, \qquad C_{L,hl} = 3.954
+\tag{19}
+$$
+
+**Equation 20, Division of the Lift Factor Between Flap and Propellers.**
+The flapped small wing supplies a factor of 1.505 and the propellers the remaining 1.584, whose product recovers the 2.38.
+
+$$
+\frac{C_{L,IV}}{C_{L,II}} = 1.505, \qquad \frac{C_{L,hl}}{C_{L,IV}} = \left(\frac{73}{58}\right)^{2} = 1.584, \qquad 1.505 \times 1.584 = 2.384
+\tag{20}
+$$
+
+**Equation 21, Design Lift Coefficient Against the Unblown Wing.**
+The design lift coefficient of 4.35, sized with a ten percent margin, is 1.743 times the unblown Mod IV value.
+[Borer and Patterson][research_x57_high_lift_control_schedule]
+
+$$
+\frac{C_{L,goal}}{C_{L,IV}} = \frac{4.35}{2.496} = 1.743
+\tag{21}
+$$
+
+*Equation 22, Bespoke Velocity Increase for the Design Lift Factor.*
+Put through the article's slipstream model, the design factor of 1.743 needs a velocity increase of 44 percent on the blown span.
+
+$$
+x = \sqrt{1 + \frac{1.743 - 1}{0.699}} - 1 = 0.436
+\tag{22}
+$$
+
+*Equation 23, Bespoke Power for the Design Lift Factor.*
+The ideal power for that increment is 66.6 kilowatts, and at the assumed 75 percent propulsive efficiency 88.7 kilowatts, below the installed power.
+
+$$
+P_i = 66.6, \qquad \frac{P_i}{\eta_{pr}} = \frac{66.6}{0.75} = 88.7 \;<\; P_h
+\tag{23}
+$$
+
+**Equation 24, Design Shaft Power and Thrust of the High-Lift Propellers.**
+Twelve propellers at the published design point of 10.7 kilowatts and 215 newtons give 128.4 kilowatts and 2,580 newtons.
+[Borer and Patterson][research_x57_high_lift_control_schedule]
+
+$$
+P_s = 12 \times 10.7 = 128.4, \qquad T = 12 \times 215 = 2580
+\tag{24}
+$$
+
+**Equation 25, Actuator Disc Evaluation of the Design Thrust.**
+Treating the design thrust as twelve actuator discs of the published diameter gives the induced velocity, an ideal power of 99.5 kilowatts and an ideal to shaft power ratio of 0.775.
+[Momentum Theory][ref_momentum_theory]
+
+$$
+v_i = 8.73, \qquad P_i = T\,(V_s + v_i) = 99.5, \qquad \frac{P_i}{P_s} = 0.775
+\tag{25}
+$$
+
+*Equation 26, Bespoke Design Slipstream Against the Model Requirement.*
+The far-wake increment implied by the design thrust, 58 percent of the stall speed, exceeds the 44 percent that the article's slipstream model requires.
+
+$$
+\frac{2\,v_i}{V_s} = 0.585 \;>\; 0.436
+\tag{26}
+$$
+
+**Equation 27, Ratio of Wetted Areas.**
+The reported wetted areas, including the high-lift nacelles, fall by 18 percent.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{S_{w,1}}{S_{w,0}} = \frac{55.5}{67.8} = 0.819
+\tag{27}
+$$
+
+**Equation 28, Induced Drag in Terms of Span.**
+At given lift and speed the induced drag is set by the square of the span and the span efficiency, not by the aspect ratio.
+[Lift-Induced Drag][ref_induced_drag]
+
+$$
+D_i = \frac{L^{2}}{\tfrac{1}{2}\rho V^{2}\,\pi\, b^{2} e}
+\tag{28}
+$$
+
+**Equation 29, Ratio of Induced Drag From the Span Reduction.**
+At equal lift, speed and span efficiency the shorter Mod III span raises the induced drag by 32 percent, as the report also concludes.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{D_{i,1}}{D_{i,0}} = \left(\frac{b_0}{b_1}\right)^{2}= \left(\frac{11.40}{9.94}\right)^{2} = 1.32
+\tag{29}
+$$
+
+**Equation 30, Cruise Lift-to-Drag Gains of Mod III Over Mod II.**
+The report's cruise lift-to-drag ratios give a gain of 40 percent without thrust and 53 percent with cruise thrust.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{13.3}{9.5} = 1.40, \qquad \frac{13.5}{8.8} = 1.53
+\tag{30}
+$$
+
+**Equation 31, Effect of Thrust on Lift-to-Drag Ratio.**
+Cruise thrust costs Mod II about seven percent of its lift-to-drag ratio and gains Mod III about two percent on the report's figures.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{8.8}{9.5} = 0.93, \qquad \frac{13.5}{13.3} = 1.02
+\tag{31}
+$$
+
+**Equation 32, Aspect Ratio.**
+The aspect ratio is the square of the span over the wing area, which allows a published set of span, area and aspect ratio to be checked.
+[Aspect Ratio, Aeronautics][ref_aspect_ratio]
+
+$$
+AR = \frac{b^{2}}{S}
+\tag{32}
+$$
+
+**Equation 33, Installed High-Lift and Cruise Motor Power.**
+Twelve high-lift motors of 12.6 kilowatts give 151.2 kilowatts and two cruise motors of 72 kilowatts give 144.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+P_h = 12 \times 12.6 = 151.2, \qquad P_c = 2 \times 72 = 144
+\tag{33}
+$$
+
+**Equation 34, High-Lift Power Against the Original Engines.**
+The high-lift installation is three percent more powerful than the two 73.5 kilowatt piston engines it replaced.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{P_h}{P_0} = \frac{151.2}{147.0} = 1.03
+\tag{34}
+$$
+
+**Equation 35, Propeller Advance Ratio.**
+The advance ratio is the airspeed over the product of rotational speed and diameter.
+[Propeller, Aeronautics][ref_propeller]
+
+$$
+J = \frac{V}{n\,d}
+\tag{35}
+$$
+
+**Equation 36, Advance Ratios of the Cruise and High-Lift Propellers.**
+At their design points the cruise propellers run at an advance ratio of 1.34 and the high-lift propellers at 0.68.
+
+$$
+J_{cruise} = 1.34, \qquad J_{lift} = 0.68
+\tag{36}
+$$
+
+**Equation 37, Specific Power of the Cruise Motor and the Rotax Engine.**
+The cruise motor with its propeller gives 1.36 kilowatts per kilogram against about 1.30 for the Rotax engine with its gearbox.
+[X-57 Maxwell Overview, NASA][ref_nasa_x57]
+[Rotax 912 ULS/S, BRP-Rotax][ref_rotax_912_uls]
+
+$$
+\frac{72}{53.1} = 1.36 \quad \text{against} \quad \frac{73.5}{56.6} = 1.30
+\tag{37}
+$$
+
+**Equation 38, Cruise Motor Torque.**
+Torque is power over angular speed, giving 255 newton metres at the 72 kilowatt peak rating and 2,700 revolutions per minute.
+[Clarke et al][research_x57_x_57_traction_power_and_command]
+[Clarke and Terry][research_x57_cruise_motor_inverter_failures]
+
+$$
+Q = \frac{P}{\Omega} = \frac{72\,000}{2\pi \times 2700/60} = 255
+\tag{38}
+$$
+
+**Equation 39, Cruise Power Fraction at Reduced Speed.**
+At full torque the cruise motor power falls in proportion to speed, to two thirds at 1,800 revolutions per minute.
+
+$$
+\frac{P_{1800}}{P_{2700}} = \frac{1800}{2700} = 0.67
+\tag{39}
+$$
+
+**Equation 40, Specific Energy of the Battery Pack.**
+The 47 kilowatt hours of effective energy in 390 kilograms of battery is 120 watt hours per kilogram.
+[Hernandez Lugo et al. 2018][research_x57_battery_cell_to_system]
+
+$$
+e_b = \frac{E}{m} = \frac{47\times 10^{3}}{390} = 120\ \text{watt hours per kilogram}
+\tag{40}
+$$
+
+**Equation 41, Module Voltage, Capacity and Energy.**
+Sixteen cells in series of twenty in parallel give a module of 57.6 volts, 60 ampere hours and 3,456 watt hours.
+[Clarke][research_x57_traction_power_system]
+[Hernandez Lugo et al. 2018][research_x57_battery_cell_to_system]
+
+$$
+V_m = 16 \times 3.6 = 57.6, \qquad C_m = 20 \times 3.0 = 60, \qquad E_m = 57.6 \times 60 = 3456
+\tag{41}
+$$
+
+**Equation 42, Nominal Pack Energy and Voltage Limits.**
+Sixteen modules give 55.3 kilowatt hours, and 128 cells in series give a nominal 461 volts and a maximum of 538.
+[Clarke][research_x57_traction_power_system]
+
+$$
+E_{nom} = 16 \times 3.456 = 55.3, \qquad V_{nom} = 128 \times 3.6 = 461, \qquad V_{max} = 128 \times 4.2 = 538
+\tag{42}
+$$
+
+**Equation 43, Effective Fraction of Nominal Energy.**
+The design counted 47 of the nominal 55.3 kilowatt hours as effective, a fraction of 0.85.
+
+$$
+\frac{E}{E_{nom}} = \frac{47}{55.3} = 0.85
+\tag{43}
+$$
+
+**Equation 44, Specific Energy of the Fuel.**
+A lower heating value of 43.5 megajoules per kilogram is about 12,100 watt hours per kilogram.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+e_f = \frac{43.5 \times 10^{6}}{3600} = 1.21 \times 10^{4}
+\tag{44}
+$$
+
+**Equation 45, Ratio of Fuel to Battery Specific Energy.**
+Fuel carries about a hundred times more energy per kilogram than this battery pack.
+
+$$
+\frac{e_f}{e_b} = 100
+\tag{45}
+$$
+
+**Equation 46, Discharge Rate With Every Motor at Peak.**
+Running all fourteen motors at their 295.2 kilowatt combined peak would draw 6.3 times the effective energy per hour.
+
+$$
+C_r = \frac{P}{E} = \frac{295.2}{47} = 6.3
+\tag{46}
+$$
+
+**Equation 47, Endurance With Every Motor at Peak.**
+At that combined peak the effective energy would last 0.159 hours, under ten minutes.
+
+$$
+t = \frac{E}{P} = \frac{47}{295.2} = 0.159
+\tag{47}
+$$
+
+**Equation 48, Baseline Profile Energy Against Effective Energy.**
+The baseline flight profile was predicted to need 98 percent of the effective energy.
+[Hernandez Lugo et al. 2018][research_x57_battery_cell_to_system]
+
+$$
+\frac{E_{prof}}{E} = \frac{46.2}{47.0} = 0.98
+\tag{48}
+$$
+
+**Equation 49, Endurance at the Continuous Requirement.**
+At the 120 kilowatts the two subsystems had to sustain continuously, the effective energy lasts 0.39 hours.
+[Hernandez Lugo et al. 2018][research_x57_battery_cell_to_system]
+
+$$
+t = \frac{E}{P} = \frac{47}{120} = 0.39
+\tag{49}
+$$
+
+**Equation 50, Pack Current at Nominal and Minimum Voltage.**
+At 60 kilowatts the current is 130 amperes at the 461 volt nominal and 176 at the 340 volt landing floor.
+[Clarke et al][research_x57_x_57_traction_power_and_command]
+
+$$
+I = \frac{P}{V_b}, \qquad \frac{60\,000}{461} = 130, \qquad \frac{60\,000}{340} = 176
+\tag{50}
+$$
+
+**Equation 51, Net Energy Disadvantage Per Kilogram.**
+The hundredfold specific energy deficit divided by the threefold drivetrain efficiency advantage on the report's figures leaves the battery thirty-three times worse off per kilogram.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{e_f\,\eta_p}{e_b\,\eta_e} = \frac{100 \times 0.30}{0.90} = 33
+\tag{51}
+$$
+
+**Equation 52, Decomposition of the Energy Goal.**
+The fivefold energy goal is the efficiency gain from 28 to 92 percent multiplied by a factor of 1.5 from the configuration.
+[Borer][research_x57_flight_performance_estimates]
+
+$$
+\frac{0.92}{0.28} \times 1.5 = 3.29 \times 1.5 = 4.9
+\tag{52}
+$$
+
+*Equation 53, Bespoke Combined Energy Reduction of Mod III.*
+Multiplying the report's Mod II energy ratios by the Mod III cruise lift-to-drag gain combines estimates made at different conditions, an inference the article draws and the report does not state.
+
+$$
+2.6 \times 1.53 = 4.0, \qquad 2.9 \times 1.53 = 4.4
+\tag{53}
+$$
+
+**Equation 54, Electric Aircraft Range.**
+The steady cruise range of an electric aircraft is the stored energy times the drivetrain and propulsive efficiencies over the weight, times the lift-to-drag ratio.
+[Range, Aeronautics][ref_breguet]
+[Lift-to-Drag Ratio][ref_lift_to_drag]
+
+$$
+R = \frac{E\,\eta_e\,\eta_{pr}}{m\,g}\;\frac{L}{D}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Upper Bound on Mod II and Mod III Range.*
+Spending all 47 kilowatt hours at the cruise point with a propulsive efficiency of 75 percent that the article assumes gives upper bounds of 75 and 116 kilometres.
+
+$$
+R_{II} = 75, \qquad R_{III} = 116
+\tag{55}
+$$
+
+**Equation 56, Cruise Motor Controller Switching Voltage and Current.**
+The cruise motor controller switched at the 538 volt bus maximum and 200 amperes peak per phase.
+[Clarke and Terry][research_x57_cruise_motor_inverter_failures]
+
+$$
+V_{dc} = 538, \qquad I_{pk} = 200
+\tag{56}
+$$
+
+**Equation 57, Controller Heat Limit and Throughput.**
+At 97 percent efficiency the 330 watt heat limit corresponds to 11 kilowatts of throughput.
+[Clarke et al][research_x57_x_57_traction_power_and_command]
+
+$$
+P_{loss} = (1 - \eta_c)\,P, \qquad \frac{330}{0.03} = 11\,000
+\tag{57}
+$$
+
+### Notation
+
+- $S_1$, the Mod III wing area, with $S_0$ the original wing area
+- $W/S$, the wing loading
+- $C_L$, the lift coefficient
+- $C_{L,max}$, the maximum lift coefficient
+- $V_s$, the stall speed
+- $q_w$, the dynamic pressure over the blown wing
+- $\Delta V$, the slipstream velocity increment
+- $f$, the fraction of the span in a slipstream
+- $d$, the propeller diameter
+- $b_1$, the Mod III span, with $b_0$ the original span
+- $A_h$, the total disc area of the high-lift propellers
+- $x$, the fractional velocity increase over the blown span
+- $v_i$, the induced velocity at the disc
+- $P_i$, the ideal induced power
+- $P_h$, the installed high-lift motor power
+- $\eta_{pr}$, the propulsive efficiency
+- $C_{L,hl}$, the maximum lift coefficient with the high-lift propellers running
+- $C_{L,goal}$, the design maximum lift coefficient
+- $P_s$, the design shaft power of the high-lift propellers
+- $S_{w,1}$, the Mod III wetted area, with $S_{w,0}$ the original
+- $D_i$, the induced drag
+- $e$, the span efficiency
+- $AR$, the wing aspect ratio
+- $P_c$, the installed cruise motor power
+- $J$, the propeller advance ratio
+- $Q$, the motor torque
+- $\Omega$, the angular speed of the motor
+- $e_b$, the specific energy of the battery pack
+- $e_f$, the specific energy of the fuel
+- $E_{nom}$, the nominal pack energy
+- $C_r$, the discharge rate as a multiple of capacity per hour
+- $E_{prof}$, the energy predicted for the baseline flight profile
+- $V_b$, the pack voltage
+- $\eta_e$, the electric drivetrain efficiency, with $\eta_p$ the piston engine efficiency
+- $\eta_c$, the motor controller efficiency
+- $P_{loss}$, the heat dissipated in the controller
 
 ## References
 

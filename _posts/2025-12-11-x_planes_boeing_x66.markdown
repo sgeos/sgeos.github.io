@@ -96,7 +96,10 @@ Appendix A.2 of the agreement lists **27 funded milestones** with an acceptance 
 **Ninety-eight point eight percent of NASA's money is paid before the aeroplane leaves the ground**,
 a fact about the schedule and therefore an arithmetic one.
 
-$$ \frac{\displaystyle\sum_{i < i_{\mathrm{ff}}} \mu_i}{\displaystyle\sum_{i} \mu_i} = 0.988235 $$
+$$
+ \frac{\displaystyle\sum_{i < i_{\mathrm{ff}}} \mu_i}{\displaystyle\sum_{i} \mu_i} = 0.988235 
+\tag{1}
+$$
 
 Milestone 24 is first flight, due **September 2028**, and it pays **1.5 million dollar** \[[Funded Space Act Agreement][ref_fsaa]\]. Everything before it comes to **420 million dollar**, which is **98.824 percent** of the agreement. The largest single milestone is **27.25 million dollar** and is therefore **18.17 times** the payment for flying the aircraft, and the smallest of all is the **0.50 million dollar** closeout review.
 
@@ -110,7 +113,10 @@ On 24 April 2025 NASA reported that it and Boeing were evaluating an updated app
 
 **The pause landed in the narrowest possible gap in that schedule.** Milestone nine fell due in February 2025 and the next milestone was **number 10, the Wing / Strut Critical Design Review, due May 2025 with a payment of 25 million dollar** \[[Funded Space Act Agreement][ref_fsaa]\]. Through the February milestone the agreement had reached **153 million dollar**, or **36.00 percent** of its total.
 
-$$ \frac{\displaystyle\sum_{i \le 9} \mu_i}{\displaystyle\sum_{i} \mu_i} = \frac{153.00}{425.00} = 0.3600 $$
+$$
+ \frac{\displaystyle\sum_{i \le 9} \mu_i}{\displaystyle\sum_{i} \mu_i} = \frac{153.00}{425.00} = 0.3600 
+\tag{2}
+$$
 
 **So the programme stopped immediately before the review that would have frozen the wing and strut for fabrication, and the thing it announced it would keep doing is wing research.** That is no coincidence, and it happened in the open. It is what a partner does when it has learned what it wanted from a design phase and does not want the build.
 
@@ -165,7 +171,10 @@ year.** Read against one another, the three successive books show what happened 
 
 **A revision between two budget books is a fractional change in a projection of the same year.**
 
-$$ \text{revision} = \frac{\mathcal{P}_{\mathrm{new}} - \mathcal{P}_{\mathrm{old}}}{\mathcal{P}_{\mathrm{old}}} $$
+$$
+ \text{revision} = \frac{\mathcal{P}_{\mathrm{new}} - \mathcal{P}_{\mathrm{old}}}{\mathcal{P}_{\mathrm{old}}} 
+\tag{3}
+$$
 
 **The same programme line, projected one year apart, falls by 67.8 percent in fiscal
 year 2029.** The FY2025 justification put fiscal year 2029 at **342.0 million dollar** and the FY2026 technical supplement puts it at **110.0 million dollar**. The Other Projects line within it, the line that holds this project, goes from **167.6** to **100.0 million dollar** for fiscal year 2026 \[[FY2025 justification][ref_nasa_cj_2025]\]. The programme itself is requested at **167.2 million dollar** for fiscal year 2026. The whole aeronautics account falls from **935.0** to **588.7 million dollar**, a reduction of **37.0 percent** \[[FY2026 technical supplement][ref_nasa_ts_2026]\].
@@ -294,7 +303,10 @@ change an updated approach. **So the agency used both words on the same day for 
 
 The Phase IV final report gives the Mach 0.80 configuration, designated 1104-001-RG, a span of **170 feet**, a projected reference area of **1477.109 square feet**, a taper ratio of **0.346**, a quarter-chord sweep of **22.47 degrees** and an average thickness-to-chord ratio of **0.104** \[[SUGAR Phase IV final report][ref_cr_phase4]\]. It also states an aspect ratio of 19.565, which is not an independent datum.
 
-$$ A = \frac{b^2}{S} $$
+$$
+ A = \frac{b^2}{S} 
+\tag{4}
+$$
 
 Substituting gives **19.5652**, which agrees with the stated 19.565 to the last digit the report prints. The check is trivial and is run because the rest of this section leans on all three numbers being mutually consistent.
 
@@ -307,29 +319,47 @@ The standard atmosphere is needed first. Let $h$ be geopotential altitude in met
 and $p_{\mathrm{sl}}$ the sea-level standard temperature and pressure, $\lambda_a$ the troposphere
 lapse rate, $h_{\mathrm{t}}$ the tropopause altitude, and $R_a$ the specific gas constant for air.
 
-$$ T(h) = \begin{cases} T_{\mathrm{sl}} - \lambda_a h, & h \le h_{\mathrm{t}} \\[4pt] T_{\mathrm{sl}} - \lambda_a h_{\mathrm{t}}, & h > h_{\mathrm{t}} \end{cases} $$
+$$
+ T(h) = \begin{cases} T_{\mathrm{sl}} - \lambda_a h, & h \le h_{\mathrm{t}} \\[4pt] T_{\mathrm{sl}} - \lambda_a h_{\mathrm{t}}, & h > h_{\mathrm{t}} \end{cases} 
+\tag{5}
+$$
 
-$$ p(h) = \begin{cases} p_{\mathrm{sl}} \left(\dfrac{T(h)}{T_{\mathrm{sl}}}\right)^{g_0/(R_a \lambda_a)}, & h \le h_{\mathrm{t}} \\[6pt] p(h_{\mathrm{t}}) \exp\left(-\dfrac{g_0 \left(h - h_{\mathrm{t}}\right)}{R_a T(h_{\mathrm{t}})}\right), & h > h_{\mathrm{t}} \end{cases} $$
+$$
+ p(h) = \begin{cases} p_{\mathrm{sl}} \left(\dfrac{T(h)}{T_{\mathrm{sl}}}\right)^{g_0/(R_a \lambda_a)}, & h \le h_{\mathrm{t}} \\[6pt] p(h_{\mathrm{t}}) \exp\left(-\dfrac{g_0 \left(h - h_{\mathrm{t}}\right)}{R_a T(h_{\mathrm{t}})}\right), & h > h_{\mathrm{t}} \end{cases} 
+\tag{6}
+$$
 
 **The stratospheric branch is exponential and not a power law**, because the lapse rate is zero
 there and the power-law exponent diverges. The speed of sound and the dynamic pressure follow.
 
-$$ a = \sqrt{\gamma R_a T}, \qquad V = M a $$
+$$
+ a = \sqrt{\gamma R_a T}, \qquad V = M a 
+\tag{7}
+$$
 
-$$ q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2}\gamma p M^2 $$
+$$
+ q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2}\gamma p M^2 
+\tag{8}
+$$
 
 **The second form of the dynamic pressure is used throughout**, because it needs only
 pressure and Mach number and never forms a density or a velocity, which removes two opportunities
 for a unit error. The lift equation then fixes the lift coefficient.
 
-$$ W = C_L \, q \, S \qquad \Longrightarrow \qquad C_L = \frac{W}{q S} $$
+$$
+ W = C_L \, q \, S \qquad \Longrightarrow \qquad C_L = \frac{W}{q S} 
+\tag{9}
+$$
 
 **At the buildup's stated altitude of 40,000 feet and Mach 0.80 the three disagree.** The pressure is **18,753.9 pascal**, the speed
 of sound **295.07 metre per second**, the true airspeed **458.9 knot**, and the dynamic
 pressure **175.474 pound per square foot**. At the maximum take-off weight of 145,000 pound
 over 1477.109 square feet that gives
 
-$$ C_L = \frac{W}{qS} = 0.5594 $$
+$$
+ C_L = \frac{W}{qS} = 0.5594 
+\tag{10}
+$$
 
 **against the 0.695 the same table states** \[[SUGAR Phase IV final report][ref_cr_phase4]\]. The three entries are therefore not a flight
 condition. **Either the lift coefficient belongs to a different altitude, or it belongs to a weight
@@ -339,7 +369,10 @@ condition. **Either the lift coefficient belongs to a different altitude, or it 
 Mach 0.80 the lift equation fixes the pressure, and since that pressure lies below the tropopause
 value of 22,632 pascal, the stratospheric branch of the atmosphere returns the altitude $h^{\ast}$.
 
-$$ p^{\ast} = \frac{2W}{\gamma M^2 S C_L} = 315.28 \ \text{lbf/ft}^2 = 15095.6 \ \text{Pa}, \qquad h^{\ast} = h_{\mathrm{t}} + \frac{R_a T(h_{\mathrm{t}})}{g_0}\ln\frac{p(h_{\mathrm{t}})}{p^{\ast}} = 13568.1 \ \text{m} $$
+$$
+ p^{\ast} = \frac{2W}{\gamma M^2 S C_L} = 315.28 \ \text{lbf/ft}^2 = 15095.6 \ \text{Pa}, \qquad h^{\ast} = h_{\mathrm{t}} + \frac{R_a T(h_{\mathrm{t}})}{g_0}\ln\frac{p(h_{\mathrm{t}})}{p^{\ast}} = 13568.1 \ \text{m} 
+\tag{11}
+$$
 
 That is **44,515 feet**, and the
 report's own optimum cruise altitude at maximum take-off weight, from a different table in the same
@@ -357,11 +390,17 @@ state it describes.
 
 The drag at cruise is bookkept in the report in four parts, being parasite drag, induced drag, compressibility drag and trim drag, with the laminar-flow credit carried inside the compressibility term by a convention the report states explicitly and which makes that term negative.
 
-$$ C_D = C_{D,0} + C_{D,i} + C_{D,c} + C_{D,t} $$
+$$
+ C_D = C_{D,0} + C_{D,i} + C_{D,c} + C_{D,t} 
+\tag{12}
+$$
 
 The published values at Mach **0.80** and a lift coefficient of **0.695** are $C_{D,0}$ of 0.01880, $C_{D,i}$ of 0.00903, $C_{D,c}$ of -0.00143 and $C_{D,t}$ of 0.00054, totalling 0.02695 \[[SUGAR Phase IV final report][ref_cr_phase4]\]. Summing them gives 0.02694, which differs from the printed total only in the last digit, as rounding of four printed terms allows, and the lift-to-drag ratio is the quotient of the lift coefficient and the printed total.
 
-$$ \frac{L}{D} = \frac{C_L}{C_D} $$
+$$
+ \frac{L}{D} = \frac{C_L}{C_D} 
+\tag{13}
+$$
 
 That gives **25.788**, the value the report prints.
 
@@ -369,7 +408,10 @@ That gives **25.788**, the value the report prints.
 it was built from.** An equivalent flat plate area $\mathcal{F}$ is the area that would produce the same drag
 at unit drag coefficient, so dividing it by the reference area returns the coefficient.
 
-$$ C_{D,0} = \frac{\mathcal{F}}{S} $$
+$$
+ C_{D,0} = \frac{\mathcal{F}}{S} 
+\tag{14}
+$$
 
 The buildup's flat plate areas total **27.7722 square feet** over a reference area of
 1477.109, which gives **0.0188017** against the published 0.01880, an error of
@@ -380,11 +422,17 @@ feet**, amounting to **12.422 percent of the parasite drag area**, and a drag co
 
 This article needs the induced term, and the report also gives an airplane efficiency factor of **0.8707** \[[SUGAR Phase IV final report][ref_cr_phase4]\], which allows the induced term to be recomputed rather than accepted.
 
-$$ C_{D,i} = \frac{C_L^2}{\pi A e} $$
+$$
+ C_{D,i} = \frac{C_L^2}{\pi A e} 
+\tag{15}
+$$
 
 That gives **0.009026** against the published 0.00903, an error of **0.050 percent**. **A textbook relation reproducing a contractor's computational-fluid-dynamics-anchored buildup to five decimal places matters more than it appears**, because it licenses every manipulation of the induced term that follows. The quantity the keystone turns on is its share of the total.
 
-$$ \delta = \frac{C_{D,i}}{C_D} $$
+$$
+ \delta = \frac{C_{D,i}}{C_D} 
+\tag{16}
+$$
 
 **For this aeroplane at its design cruise point, $\delta$ is 0.3351**, so **33.51 percent of cruise drag is the price of holding the aeroplane up**. That number is measured from the report and not assumed. It is one of the two quantities every optimality condition below is written in, the other being the weight elasticity.
 
@@ -397,25 +445,43 @@ Take an elliptic spanload, the distribution that minimises induced drag for a gi
 The design lift itself is the load factor times the weight, and that product supplies the 2.5 used
 below.
 
-$$ L = \mathcal{N} W $$
+$$
+ L = \mathcal{N} W 
+\tag{17}
+$$
 
-$$ \ell(y) = \frac{4L}{\pi b} \sqrt{1 - \left(\frac{2y}{b}\right)^2} $$
+$$
+ \ell(y) = \frac{4L}{\pi b} \sqrt{1 - \left(\frac{2y}{b}\right)^2} 
+\tag{18}
+$$
 
 The constant in front is not a choice. It is fixed by requiring the load to integrate to the lift.
 
-$$ \int_{-b/2}^{b/2} \ell(y)\,dy = \frac{4L}{\pi b}\cdot\frac{b}{2}\int_{-1}^{1}\sqrt{1-u^2}\,du = \frac{2L}{\pi}\cdot\frac{\pi}{2} = L $$
+$$
+ \int_{-b/2}^{b/2} \ell(y)\,dy = \frac{4L}{\pi b}\cdot\frac{b}{2}\int_{-1}^{1}\sqrt{1-u^2}\,du = \frac{2L}{\pi}\cdot\frac{\pi}{2} = L 
+\tag{19}
+$$
 
 Write $u = 2y/b$ for the station as a fraction of semispan. The bending moment at a station is the integral of the load outboard of it against its moment arm.
 
-$$ \mathcal{M}(u) = \int_{u}^{1} \ell \left(\frac{b}{2}\right)^2 (v - u) \, dv $$
+$$
+ \mathcal{M}(u) = \int_{u}^{1} \ell \left(\frac{b}{2}\right)^2 (v - u) \, dv 
+\tag{20}
+$$
 
 Both integrals in that expression are elementary, and the result is a closed form.
 
-$$ \mathcal{M}(u) = \frac{L b}{\pi} \left[ \frac{1}{3}\left(1-u^2\right)^{3/2} - \frac{u}{2}\left( \frac{\pi}{2} - u\sqrt{1-u^2} - \arcsin u \right) \right] $$
+$$
+ \mathcal{M}(u) = \frac{L b}{\pi} \left[ \frac{1}{3}\left(1-u^2\right)^{3/2} - \frac{u}{2}\left( \frac{\pi}{2} - u\sqrt{1-u^2} - \arcsin u \right) \right] 
+\tag{21}
+$$
 
 At the root this collapses.
 
-$$ \mathcal{M}(0) = \frac{L b}{3\pi} $$
+$$
+ \mathcal{M}(0) = \frac{L b}{3\pi} 
+\tag{22}
+$$
 
 At the design load factor of 2.5 and the published take-off weight, that root moment is **78.46 million pound inch**.
 
@@ -423,36 +489,60 @@ At the design load factor of 2.5 and the published take-off weight, that root mo
 semi-ellipse lies at $4(b/2)/(3\pi)$ from the root, and half the lift acting at that arm gives the
 same moment.
 
-$$ \mathcal{M}(0) = \frac{L}{2}\cdot\frac{4}{3\pi}\cdot\frac{b}{2} = \frac{Lb}{3\pi} $$
+$$
+ \mathcal{M}(0) = \frac{L}{2}\cdot\frac{4}{3\pi}\cdot\frac{b}{2} = \frac{Lb}{3\pi} 
+\tag{23}
+$$
 
 Numerical quadrature of the moment integral at the root and at five interior stations agrees with the closed form to better than one part in a million, **the second of the two confirmations**.
 
 Now the structure. A wing box resists bending with material concentrated top and bottom at a separation $h_c$, and if the allowable stress is $\sigma$ then each cap needs a cross-sectional area of $\mathcal{M}/(\sigma h_c)$.
 
-$$ \mathcal{A}_c(u) = \frac{\mathcal{M}(u)}{\sigma h_c(u)}, \qquad h_c(u) = \kappa_h \, \tau \, c(u) $$
+$$
+ \mathcal{A}_c(u) = \frac{\mathcal{M}(u)}{\sigma h_c(u)}, \qquad h_c(u) = \kappa_h \, \tau \, c(u) 
+\tag{24}
+$$
 
 Here $\tau$ is the thickness-to-chord ratio and $\kappa_h$ is the ratio of cap-centroid separation to maximum section depth, the one shape factor this model cannot derive, taken here as 0.90. For a straight-taper wing the chord and the root chord follow from the area and the taper ratio.
 
-$$ c(u) = c_r\left[1 - (1-\lambda)u\right], \qquad c_r = \frac{2S}{b\,(1+\lambda)} $$
+$$
+ c(u) = c_r\left[1 - (1-\lambda)u\right], \qquad c_r = \frac{2S}{b\,(1+\lambda)} 
+\tag{25}
+$$
 
 The bending material is two caps at every station integrated across the whole span, which by symmetry is four times the semispan integral of one cap.
 
-$$ W_b = 4\rho_m \left(\frac{b}{2}\right)\int_0^1 \mathcal{A}_c(u)\,du $$
+$$
+ W_b = 4\rho_m \left(\frac{b}{2}\right)\int_0^1 \mathcal{A}_c(u)\,du 
+\tag{26}
+$$
 
 Substituting the moment, the depth and the chord, and collecting the purely geometric part into a single integral, gives the result this article needs. Let $f(u)$ denote the bracketed shape function in the moment expression above.
 
-$$ \mathcal{I}(\lambda) = \int_0^1 \frac{f(u)}{1 - (1-\lambda)u}\,du $$
+$$
+ \mathcal{I}(\lambda) = \int_0^1 \frac{f(u)}{1 - (1-\lambda)u}\,du 
+\tag{27}
+$$
 
-$$ W_b = \frac{\rho_m \, b^3 \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau \, S} $$
+$$
+ W_b = \frac{\rho_m \, b^3 \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau \, S} 
+\tag{28}
+$$
 
 Finally replace the span by the aspect ratio, using $b = \sqrt{AS}$.
 
-$$ W_b = \frac{\rho_m \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau} \; A^{3/2} \, S^{1/2} $$
+$$
+ W_b = \frac{\rho_m \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau} \; A^{3/2} \, S^{1/2} 
+\tag{29}
+$$
 
 **At fixed area, fixed design lift and fixed thickness ratio the bending material scales exactly as the three-halves power of aspect ratio.** The exponent is not an empirical fit. It is the product of one power of span from the moment arm, one from the length of the beam, and a half from the chord shrinking as span grows at fixed area. The same statement can be measured rather than read, by differencing the closed form
 logarithmically between two aspect ratios.
 
-$$ n = \frac{\ln\left[W_b(A_2)/W_b(A_1)\right]}{\ln\left(A_2/A_1\right)} $$
+$$
+ n = \frac{\ln\left[W_b(A_2)/W_b(A_1)\right]}{\ln\left(A_2/A_1\right)} 
+\tag{30}
+$$
 
 Between aspect ratios of ten and thirty that returns **1.5000**, and any other pair returns the
 same value, since the closed form is an exact power law in aspect ratio.
@@ -467,7 +557,10 @@ The report's group weight statement is unusually generous. It does not merely gi
 beam is longer than its projected semispan by the secant of the sweep angle, and the moment arm from
 the load to that beam grows by the same factor, so the bending material carries the square.
 
-$$ \frac{W_b(\Lambda)}{W_b(0)} = \frac{1}{\cos^2 \Lambda} $$
+$$
+ \frac{W_b(\Lambda)}{W_b(0)} = \frac{1}{\cos^2 \Lambda} 
+\tag{31}
+$$
 
 Evaluating the model with the report's allowable stress of 90,000 pound per square inch, its
 material density of 0.067 pound per cubic inch, a load factor of 2.5, the published geometry and
@@ -499,34 +592,55 @@ the same place**, that a span trade has no answer until an objective is named.
 
 Start from the fuel. Over a cruise leg of range $R$ at true airspeed $V$ with thrust specific fuel consumption $c_T$, the Breguet relation gives the fuel burned, and for a fuel fraction small enough that the exponential may be linearised it reduces to a product.
 
-$$ m_f = W\left[1 - \exp\left(-\frac{R\,c_T}{V}\frac{C_D}{C_L}\right)\right] \approx \frac{R\,c_T}{V}\,\frac{C_D}{C_L}\,W $$
+$$
+ m_f = W\left[1 - \exp\left(-\frac{R\,c_T}{V}\frac{C_D}{C_L}\right)\right] \approx \frac{R\,c_T}{V}\,\frac{C_D}{C_L}\,W 
+\tag{32}
+$$
 
 ### Case One, Wing Area and Cruise Condition Held
 
 Hold the wing area and the cruise altitude and Mach number, so the dynamic pressure $q$ is fixed, and let the span grow. Then the cruise lift coefficient is not a free choice, because it is whatever the weight requires.
 
-$$ C_L = \frac{W}{q S} $$
+$$
+ C_L = \frac{W}{q S} 
+\tag{33}
+$$
 
 Substituting that into the fuel expression produces a cancellation.
 
-$$ m_f \propto \frac{C_D}{C_L}\,W = C_D \, q S $$
+$$
+ m_f \propto \frac{C_D}{C_L}\,W = C_D \, q S 
+\tag{34}
+$$
 
 **The weight has vanished from the front of the expression and reappears inside the drag**, because the induced term is quadratic in lift coefficient and therefore quadratic in weight.
 
-$$ m_f \propto q S C_{D,0} + \frac{W^2}{q S \pi A e} $$
+$$
+ m_f \propto q S C_{D,0} + \frac{W^2}{q S \pi A e} 
+\tag{35}
+$$
 
 Only the second term depends on the aspect ratio, through the explicit $A$ in the denominator and through the weight growing with $A$. Taking the logarithmic derivative, with $\nu$ denoting the elasticity of aircraft weight with respect to aspect ratio, gives the result.
 
-$$ \nu = \frac{d \ln W}{d \ln A}, \qquad \frac{d \ln m_f}{d \ln A} = \delta\left(2\nu - 1\right) $$
+$$
+ \nu = \frac{d \ln W}{d \ln A}, \qquad \frac{d \ln m_f}{d \ln A} = \delta\left(2\nu - 1\right) 
+\tag{36}
+$$
 
-$$ \nu^{*} = \tfrac{1}{2} $$
+$$
+ \nu^{*} = \tfrac{1}{2} 
+\tag{37}
+$$
 
 **At fixed wing area and fixed cruise condition, the fuel-burn-optimal aspect ratio is reached when a one percent increase in aspect ratio costs exactly half a percent in aircraft weight.** It does not depend on the span efficiency, on the parasite drag, on the altitude, on the Mach number, on the range, on the specific fuel consumption, or on the absolute weight of anything. **The induced-drag fraction $\delta$ appears in the slope and cancels out of the condition.**
 
 The mechanism is easy to state once seen. At fixed area and fixed cruise condition the induced drag
 is proportional to $W^2/A$, and a stationary point of that is a stationary point of its logarithm.
 
-$$ \frac{d}{d\ln A}\ln\left(\frac{W^2}{A}\right) = 2\nu - 1 = 0 $$
+$$
+ \frac{d}{d\ln A}\ln\left(\frac{W^2}{A}\right) = 2\nu - 1 = 0 
+\tag{38}
+$$
 
 The derivation ends there.
 
@@ -534,13 +648,22 @@ The derivation ends there.
 
 Now hold the cruise lift coefficient instead, as a conceptual-design sizing loop does, because the area is chosen to put the aeroplane at a good lift coefficient and is therefore not an independent variable. Then
 
-$$ m_f \propto \frac{W}{C_L}\left(C_{D,0} + \frac{C_L^2}{\pi A e}\right) $$
+$$
+ m_f \propto \frac{W}{C_L}\left(C_{D,0} + \frac{C_L^2}{\pi A e}\right) 
+\tag{39}
+$$
 
 and the logarithmic derivative is simpler still.
 
-$$ \frac{d \ln m_f}{d \ln A} = \nu - \delta $$
+$$
+ \frac{d \ln m_f}{d \ln A} = \nu - \delta 
+\tag{40}
+$$
 
-$$ \nu^{*} = \delta $$
+$$
+ \nu^{*} = \delta 
+\tag{41}
+$$
 
 **At fixed cruise lift coefficient, the fuel-burn-optimal aspect ratio lies where the weight elasticity equals the induced-drag fraction of total drag.** Where the first condition discarded $\delta$, the second is $\delta$. Both are exact and both are parameter-free in their own terms, and **they call for different aspect ratios on the same aeroplane**, which is the sense in which the phrase "optimum aspect ratio" is incomplete without its constraint set.
 
@@ -550,7 +673,10 @@ For this aeroplane the two targets are therefore $\nu = 0.5$ and $\nu = $0.3351.
 
 If the aspect-ratio-sensitive weight group obeys a power law then the elasticity has a simple form. Let $W_w = k_w A^n$ be that group, $W_0$ the rest of the aeroplane, and $\omega$ the group's share of the total.
 
-$$ W = W_0 + k_w A^n, \qquad \omega = \frac{k_w A^n}{W}, \qquad \nu = n\,\omega $$
+$$
+ W = W_0 + k_w A^n, \qquad \omega = \frac{k_w A^n}{W}, \qquad \nu = n\,\omega 
+\tag{42}
+$$
 
 **So the elasticity is the exponent times the weight fraction, and both factors are measurable.** The exponent is the three halves derived above. The weight fraction depends on how much of the aeroplane one is willing to call aspect-ratio-sensitive, and since that is a judgement rather than a measurement, the table below sweeps it from the narrowest defensible choice to a deliberately over-generous one.
 
@@ -566,7 +692,10 @@ $$ W = W_0 + k_w A^n, \qquad \omega = \frac{k_w A^n}{W}, \qquad \nu = n\,\omega 
 **The result can be inverted into a single falsifiable statement**, by solving $\nu = n\omega$ for
 the exponent that would make the present aspect ratio stationary.
 
-$$ n_{\mathrm{required}} = \frac{\nu^{*}}{\omega} = \frac{\nu^{*} W}{W_w} $$
+$$
+ n_{\mathrm{required}} = \frac{\nu^{*}}{\omega} = \frac{\nu^{*} W}{W_w} 
+\tag{43}
+$$
 
 For aspect ratio 19.565 to be stationary, the wing group and truss group together would have to
 grow with aspect ratio as a power of **3.64** under the fixed-area criterion, or
@@ -579,12 +708,18 @@ The statements above are local. They evaluate a derivative at the design point a
 The coefficient is anchored on the published weights rather than estimated, which leaves no free
 parameter in the power law at all.
 
-$$ k_w = \frac{W_w}{A^{n}}, \qquad W_0 = W - W_w $$
+$$
+ k_w = \frac{W_w}{A^{n}}, \qquad W_0 = W - W_w 
+\tag{44}
+$$
 
 With $k_w$ so anchored and everything else in $W_0$, the fixed-lift condition $\nu = \delta$ is
 satisfied at
 
-$$ A^{*} = 25.100 $$
+$$
+ A^{*} = 25.100 
+\tag{45}
+$$
 
 which is **28.3 percent above** the configuration's 19.565. At that point the elasticity and the induced-drag fraction agree to better than one part in a million, the bisection's check on itself. At fixed area, that aspect ratio corresponds to a span of **192.5 feet**, **13.3 percent** beyond the 170 feet the aeroplane has.
 
@@ -594,26 +729,41 @@ which is **28.3 percent above** the configuration's 19.565. At that point the el
 
 Differentiate the fixed-lift slope a second time. With $\nu = n\omega$ the two pieces are
 
-$$ \frac{d(n\omega)}{d\ln A} = n^2\omega\left(1-\omega\right), \qquad \frac{d\delta}{d\ln A} = -\delta\left(1-\delta\right) $$
+$$
+ \frac{d(n\omega)}{d\ln A} = n^2\omega\left(1-\omega\right), \qquad \frac{d\delta}{d\ln A} = -\delta\left(1-\delta\right) 
+\tag{46}
+$$
 
 so that
 
-$$ \frac{d^2 \ln m_f}{d(\ln A)^2} = n^2\omega\left(1-\omega\right) + \delta\left(1-\delta\right) $$
+$$
+ \frac{d^2 \ln m_f}{d(\ln A)^2} = n^2\omega\left(1-\omega\right) + \delta\left(1-\delta\right) 
+\tag{47}
+$$
 
 and at the stationary point, where $\delta = n\omega$, the weight fraction can be eliminated entirely.
 
-$$ \left.\frac{d^2 \ln m_f}{d(\ln A)^2}\right|_{A^{*}} = \delta\left(n + 1 - 2\delta\right) $$
+$$
+ \left.\frac{d^2 \ln m_f}{d(\ln A)^2}\right|_{A^{*}} = \delta\left(n + 1 - 2\delta\right) 
+\tag{48}
+$$
 
 **The curvature of the fuel-burn objective at its optimum depends on nothing but the
 induced-drag fraction there and the weight exponent.** For $\delta = $0.3351 and $n = 3/2$ it is
 **0.6131**. The error is measured logarithmically, and that choice makes the expansion
 symmetric in over-design and under-design.
 
-$$ \varepsilon = \ln\frac{A^{*}}{A} $$
+$$
+ \varepsilon = \ln\frac{A^{*}}{A} 
+\tag{49}
+$$
 
 The fractional fuel penalty follows immediately.
 
-$$ \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,\delta\left(n + 1 - 2\delta\right)\varepsilon^2 $$
+$$
+ \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,\delta\left(n + 1 - 2\delta\right)\varepsilon^2 
+\tag{50}
+$$
 
 | Error in aspect ratio | Fuel penalty, percent |
 |---|---|
@@ -624,7 +774,10 @@ $$ \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,\delta\left(n + 1 - 2\delta\righ
 At the design value the stationary aspect ratio is 28.3 percent above the configuration's, and the
 expansion gives the penalty.
 
-$$ \varepsilon = \ln\frac{25.100}{19.565} = 0.2491, \qquad \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,(0.6131)\,(0.2491)^2 = 0.0190 $$
+$$
+ \varepsilon = \ln\frac{25.100}{19.565} = 0.2491, \qquad \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,(0.6131)\,(0.2491)^2 = 0.0190 
+\tag{51}
+$$
 
 **Being 28.3 percent below optimum costs 1.90 percent in cruise fuel.** That number changes the meaning of everything above, and the subsection headed Dropping the Linearisation revises it downward again by dropping the linearisation it rests on.
 
@@ -638,29 +791,47 @@ direction that strengthens the article's conclusion rather than weakening it.**
 The aeroplane's usable fuel is **29,028 pound** of a take-off weight of 145,000 \[[SUGAR Phase IV final report][ref_cr_phase4]\], so the
 fuel fraction and the Breguet exponent are fixed by the published weights alone.
 
-$$ \zeta = \frac{m_f}{W} = 0.200193, \qquad X = -\ln\left(1 - \zeta\right) = 0.223385 $$
+$$
+ \zeta = \frac{m_f}{W} = 0.200193, \qquad X = -\ln\left(1 - \zeta\right) = 0.223385 
+\tag{52}
+$$
 
 **The linearisation replaces $1 - e^{-X}$ by $X$, and at this fuel fraction it overstates the fuel by
 11.585 percent.**
 
-$$ \frac{X}{1 - e^{-X}} - 1 = 0.115847 $$
+$$
+ \frac{X}{1 - e^{-X}} - 1 = 0.115847 
+\tag{53}
+$$
 
 Carrying the exponential through instead introduces one factor, and that factor is all that changes.
 Let $\Phi$ be it.
 
-$$ \Phi(X) = \frac{X e^{-X}}{1 - e^{-X}}, \qquad \Phi(X) \to 1 \ \text{ as } X \to 0 $$
+$$
+ \Phi(X) = \frac{X e^{-X}}{1 - e^{-X}}, \qquad \Phi(X) \to 1 \ \text{ as } X \to 0 
+\tag{54}
+$$
 
-$$ d \ln m_f = d \ln W + \Phi(X)\, d \ln X $$
+$$
+ d \ln m_f = d \ln W + \Phi(X)\, d \ln X 
+\tag{55}
+$$
 
 **That single line completes the generalisation**, because $X$ is proportional to the ratio of drag to
 lift coefficient and its logarithmic derivative is what the two cases above already computed. For
 the fixed-lift case $X$ does not depend on the weight at all, so
 
-$$ \frac{d \ln m_f}{d \ln A} = \nu - \Phi \delta \qquad \Longrightarrow \qquad \nu^{*} = \Phi \delta $$
+$$
+ \frac{d \ln m_f}{d \ln A} = \nu - \Phi \delta \qquad \Longrightarrow \qquad \nu^{*} = \Phi \delta 
+\tag{56}
+$$
 
 and for the fixed-area case $X$ carries a factor of one over the weight, so
 
-$$ \frac{d \ln m_f}{d \ln A} = \nu\left(1 - \Phi\right) + \Phi \delta \left(2\nu - 1\right) \qquad \Longrightarrow \qquad \nu^{*} = \frac{\Phi \delta}{1 - \Phi + 2 \Phi \delta} $$
+$$
+ \frac{d \ln m_f}{d \ln A} = \nu\left(1 - \Phi\right) + \Phi \delta \left(2\nu - 1\right) \qquad \Longrightarrow \qquad \nu^{*} = \frac{\Phi \delta}{1 - \Phi + 2 \Phi \delta} 
+\tag{57}
+$$
 
 **Both reduce to the results above as the fuel fraction vanishes**, the first to $\delta$ and the
 second to one half, since $\Phi \to 1$ in that limit.
@@ -673,9 +844,15 @@ second to one half, since $\Phi \to 1$ in that limit.
 **The exact targets are lower, so the aeroplane is closer to its optimum than the
 linearised treatment said.** The curvature changes too, and its closed form carries one extra term.
 
-$$ \left.\frac{d^2 \ln m_f}{d(\ln A)^2}\right|_{A^{*}} = \Phi \delta \left(n + 1 - \delta - \Phi \delta\right) + \Phi'(X)\, X \delta^2 $$
+$$
+ \left.\frac{d^2 \ln m_f}{d(\ln A)^2}\right|_{A^{*}} = \Phi \delta \left(n + 1 - \delta - \Phi \delta\right) + \Phi'(X)\, X \delta^2 
+\tag{58}
+$$
 
-$$ \Phi'(X) = \frac{e^{-X}\left[\left(1-X\right)\left(1 - e^{-X}\right) - X e^{-X}\right]}{\left(1 - e^{-X}\right)^2} $$
+$$
+ \Phi'(X) = \frac{e^{-X}\left[\left(1-X\right)\left(1 - e^{-X}\right) - X e^{-X}\right]}{\left(1 - e^{-X}\right)^2} 
+\tag{59}
+$$
 
 **That expression also reduces to $\delta(n+1-2\delta)$ in the limit**, since $\Phi \to 1$ and
 $\Phi' X \to 0$. Evaluated here it gives **0.503772** against the linearised
@@ -702,7 +879,10 @@ defensible readings are short by **74.10 percent** counting bending material
 alone and **31.05 percent** counting the whole wing and truss at the three-halves
 power. Each shortfall is the fractional distance of an elasticity below the exact target.
 
-$$ 1 - \frac{\nu}{\nu^{\ast}}\,: \qquad 1 - \frac{0.2749}{0.299033} = 0.0807, \qquad 1 - \frac{0.07746}{0.299033} = 0.7410, \qquad 1 - \frac{0.20618}{0.299033} = 0.3105 $$
+$$
+ 1 - \frac{\nu}{\nu^{\ast}}\,: \qquad 1 - \frac{0.2749}{0.299033} = 0.0807, \qquad 1 - \frac{0.07746}{0.299033} = 0.7410, \qquad 1 - \frac{0.20618}{0.299033} = 0.3105 
+\tag{60}
+$$
 
 **An article that only reported the linearised numbers would be overstating its own case.**
 
@@ -787,7 +967,10 @@ writing governs.** They are not equal. **118 feet is 35.9664 metre and 36 metre 
 118.1102 feet, a difference of 1.3228 inch**, and that difference is the rounding
 the circular warns about.
 
-$$ 118 \times 0.3048 = 35.9664 \ \text{m}, \qquad \frac{36}{0.3048} = 118.1102 \ \text{ft}, \qquad 12\,(118.1102 - 118) = 1.3228 \ \text{in} $$
+$$
+ 118 \times 0.3048 = 35.9664 \ \text{m}, \qquad \frac{36}{0.3048} = 118.1102 \ \text{ft}, \qquad 12\,(118.1102 - 118) = 1.3228 \ \text{in} 
+\tag{61}
+$$
 
 ICAO's Annex 14 states its limit in metres natively \[[SUGAR Phase II volume I][ref_cr_phase2_vol1]\], so **the same fold
 station clears Code C and does not reach Group III**, and the apparent latitude between them is an
@@ -808,7 +991,10 @@ The Phase IV report gives the fold station for the Mach 0.80 wing.
 **Putting both spans against both regulators gives the tightest numbers in this article.** Each
 margin is the bound less the span in inches, with ICAO's Code D bound of 52 metre converted to feet.
 
-$$ \Delta = 12\,(b_{\mathrm{bound}} - b), \qquad 12\left(\frac{52}{0.3048} - 170\right) = 7.24, \qquad 12\,(171 - 170) = 12, \qquad 12\,(118 - 118) = 0 $$
+$$
+ \Delta = 12\,(b_{\mathrm{bound}} - b), \qquad 12\left(\frac{52}{0.3048} - 170\right) = 7.24, \qquad 12\,(171 - 170) = 12, \qquad 12\,(118 - 118) = 0 
+\tag{62}
+$$
 
 | Configuration | Span, foot | ICAO bound, foot | ICAO margin, inch | FAA bound, foot | FAA margin, inch |
 |---|---|---|---|---|---|
@@ -837,22 +1023,34 @@ The unfolded span is less dramatic and still tight, at the 7.24 and 12 inch the 
 
 The arithmetic of the fold produces the largest aerodynamic effect this article computes. **Ask what aspect ratio the Code C box permits at this wing area without folding.**
 
-$$ A_{\mathrm{folded}} = \frac{b_f^2}{S} $$
+$$
+ A_{\mathrm{folded}} = \frac{b_f^2}{S} 
+\tag{63}
+$$
 
 That gives **9.427**. At fixed area the ratio of the two aspect ratios is the square of
 the ratio of the two spans, so the factor the fold delivers needs no area at all.
 
-$$ \frac{A}{A_{\mathrm{folded}}} = \left(\frac{b}{b_f}\right)^2 = 2.076 $$
+$$
+ \frac{A}{A_{\mathrm{folded}}} = \left(\frac{b}{b_f}\right)^2 = 2.076 
+\tag{64}
+$$
 
 **And the two margins that constrain the two spans are differences rather than ratios**. That is
 why they are quoted in inches and why the exclusive FAA bound makes one of them exactly zero.
 
-$$ \Delta_{\mathrm{ICAO}} = \frac{36}{0.3048} - b_f, \qquad \Delta_{\mathrm{FAA}} = 118 - b_f, \qquad \Delta_{\mathrm{ICAO}} - \Delta_{\mathrm{FAA}} = 1.3228 \ \text{inch} $$
+$$
+ \Delta_{\mathrm{ICAO}} = \frac{36}{0.3048} - b_f, \qquad \Delta_{\mathrm{FAA}} = 118 - b_f, \qquad \Delta_{\mathrm{ICAO}} - \Delta_{\mathrm{FAA}} = 1.3228 \ \text{inch} 
+\tag{65}
+$$
 
 Since induced drag goes as the inverse of aspect ratio, the drag consequence follows by rebuilding
 the buildup at the folded aspect ratio and leaving every other term alone.
 
-$$ \left.\frac{L}{D}\right|_{\mathrm{folded}} = \frac{C_L}{C_{D,0} + C_{D,c} + C_{D,t} + \dfrac{C_L^2}{\pi A_{\mathrm{folded}} e}} $$
+$$
+ \left.\frac{L}{D}\right|_{\mathrm{folded}} = \frac{C_L}{C_{D,0} + C_{D,c} + C_{D,t} + \dfrac{C_L^2}{\pi A_{\mathrm{folded}} e}} 
+\tag{66}
+$$
 
 | Quantity | Span-limited to 118 feet | Folding to 170 feet |
 |---|---|---|
@@ -866,7 +1064,10 @@ $$ \left.\frac{L}{D}\right|_{\mathrm{folded}} = \frac{C_L}{C_{D,0} + C_{D,c} + C
 
 The fold itself is not small.
 
-$$ \text{span folded per side} = \frac{b - b_f}{2} = 26 \ \text{foot} $$
+$$
+ \text{span folded per side} = \frac{b - b_f}{2} = 26 \ \text{foot} 
+\tag{67}
+$$
 
 It removes **26 feet per side**, which is **30.6 percent of
 semispan**, and the March 2025 technical memorandum on airport operations notes that the hinges are assumed to sit where the primary strut attaches to the wing, so the folded span and the truss length are the same **118 feet** \[[airport operations memorandum][ref_tm_airport_ops]\]. **The structural attachment station and the regulatory boundary are the same station.** That is either an elegant piece of integration or a constraint masquerading as one, and the record does not say which came first.
@@ -902,21 +1103,33 @@ By the unit-load method, the deflection at $\eta$ from the distributed load and 
 $\eta$ are two integrals against the same virtual moment $m(u) = \eta - u$, taken over a beam of
 uniform stiffness.
 
-$$ w_{\mathrm{load}}(\eta) = \frac{1}{E\mathcal{I}}\int_0^{\eta} \mathcal{M}(u)\left(\eta - u\right) du, \qquad w_{\mathrm{unit}}(\eta) = \frac{1}{E\mathcal{I}}\int_0^{\eta} \left(\eta - u\right)^2 du $$
+$$
+ w_{\mathrm{load}}(\eta) = \frac{1}{E\mathcal{I}}\int_0^{\eta} \mathcal{M}(u)\left(\eta - u\right) du, \qquad w_{\mathrm{unit}}(\eta) = \frac{1}{E\mathcal{I}}\int_0^{\eta} \left(\eta - u\right)^2 du 
+\tag{68}
+$$
 
 **The second integral is elementary and the stiffness cancels in the ratio**, so the prop
 force does not depend on how stiff the wing is, only on where the prop is.
 
-$$ w_{\mathrm{unit}}(\eta) = \frac{\eta^3}{3 E\mathcal{I}}, \qquad P = \frac{w_{\mathrm{load}}}{w_{\mathrm{unit}}} = \frac{3}{\eta^3}\int_0^{\eta} f(u)\left(\eta - u\right) du $$
+$$
+ w_{\mathrm{unit}}(\eta) = \frac{\eta^3}{3 E\mathcal{I}}, \qquad P = \frac{w_{\mathrm{load}}}{w_{\mathrm{unit}}} = \frac{3}{\eta^3}\int_0^{\eta} f(u)\left(\eta - u\right) du 
+\tag{69}
+$$
 
 Numerical quadrature of the unit-load integral reproduces $\eta^3/3$ to nine decimal places at four
 stations. The braced moment is then the cantilever moment less the prop's contribution inboard of the attachment.
 
-$$ \mathcal{M}_{\mathrm{braced}}(u) = \mathcal{M}(u) - P \left(\frac{b}{2}\right)\max(\eta - u,\, 0) $$
+$$
+ \mathcal{M}_{\mathrm{braced}}(u) = \mathcal{M}(u) - P \left(\frac{b}{2}\right)\max(\eta - u,\, 0) 
+\tag{70}
+$$
 
 The quantity that sets bending material is not the moment but the integral of its magnitude against the inverse of the chord, since that is what appeared in the weight derivation. Call that integral $\mathcal{B}$, and the relief factor is the ratio of the braced value to the unbraced one.
 
-$$ \mathcal{B}(\eta) = \int_0^1 \frac{\left|\mathcal{M}_{\mathrm{braced}}(u)\right|}{1-(1-\lambda)u}\,du, \qquad \text{relief} = \frac{\mathcal{B}(\eta)}{\mathcal{B}(\infty)} $$
+$$
+ \mathcal{B}(\eta) = \int_0^1 \frac{\left|\mathcal{M}_{\mathrm{braced}}(u)\right|}{1-(1-\lambda)u}\,du, \qquad \text{relief} = \frac{\mathcal{B}(\eta)}{\mathcal{B}(\infty)} 
+\tag{71}
+$$
 
 | Prop station, fraction of semispan | Prop force | Bending-material integral, as a fraction of the cantilever |
 |---|---|---|
@@ -938,7 +1151,10 @@ $$ \mathcal{B}(\eta) = \int_0^1 \frac{\left|\mathcal{M}_{\mathrm{braced}}(u)\rig
 **Multiplying the cantilever weight estimate by the best relief factor gives a figure far below the
 published bending material**, and the ratio of the two has a name.
 
-$$ k_{\mathrm{no}} = \frac{W_b^{\,\mathrm{published}}}{\text{relief}\left(\eta,\lambda\right) \, W_b^{\,\mathrm{model}}} = 7.88 $$
+$$
+ k_{\mathrm{no}} = \frac{W_b^{\,\mathrm{published}}}{\text{relief}\left(\eta,\lambda\right) \, W_b^{\,\mathrm{model}}} = 7.88 
+\tag{72}
+$$
 
 That factor measures everything this model omits, and **it is not this article's
 coinage.** A 1981 methodology report prepared for NASA by Grumman Aerospace describes the whole
@@ -962,7 +1178,10 @@ the second.**
 
 The main strut rises at a dihedral of **14.43 degrees** and is pinned at both ends \[[SUGAR Phase IV final report][ref_cr_phase4]\], so it is an axial member, and the vertical relief it delivers is the vertical component of its axial force. Let $\Gamma$ be the dihedral and $T_s$ the axial force.
 
-$$ T_s = \frac{P}{\sin \Gamma}, \qquad \text{horizontal reaction} = \frac{P}{\tan \Gamma} $$
+$$
+ T_s = \frac{P}{\sin \Gamma}, \qquad \text{horizontal reaction} = \frac{P}{\tan \Gamma} 
+\tag{73}
+$$
 
 **To deliver one pound of vertical relief the strut must carry 4.013 pound along its axis and something must react 3.886 pound horizontally.** That single factor explains most of what the group weight statement shows for the truss. The strut group, with its jury and its installation, weighs **3,836 pound**, equal to **23.8 percent of the wing group** and **2.65 percent of take-off weight**. In the finite-element sizing of primary structure alone the strut is **2,323 pound** against the wing box's **5,917 pound**, a ratio of **39.3 percent**, and the three members together come to **8,300 pound** \[[SUGAR Phase IV final report][ref_cr_phase4]\].
 
@@ -978,9 +1197,15 @@ $$ T_s = \frac{P}{\sin \Gamma}, \qquad \text{horizontal reaction} = \frac{P}{\ta
 
 **The jury strut exists for this reason and its payoff is a square.** A pin-ended column braced at mid-length has its effective length halved, and the Euler critical load goes as the inverse square of effective length.
 
-$$ P_{\mathrm{cr}} = \frac{\pi^2 E \mathcal{I}}{\left(K \mathcal{L}_s\right)^2} $$
+$$
+ P_{\mathrm{cr}} = \frac{\pi^2 E \mathcal{I}}{\left(K \mathcal{L}_s\right)^2} 
+\tag{74}
+$$
 
-$$ \frac{P_{\mathrm{cr}}\left(K = \tfrac{1}{2}\right)}{P_{\mathrm{cr}}\left(K = 1\right)} = \left(\frac{1}{1/2}\right)^2 = 4 $$
+$$
+ \frac{P_{\mathrm{cr}}\left(K = \tfrac{1}{2}\right)}{P_{\mathrm{cr}}\left(K = 1\right)} = \left(\frac{1}{1/2}\right)^2 = 4 
+\tag{75}
+$$
 
 **Halving the effective length therefore multiplies the critical load by 4**, and so a member weighing **60 pound** in the sizing study can protect a member weighing **2,323 pound**. The report describes it in these terms.
 
@@ -1000,11 +1225,17 @@ $$ \frac{P_{\mathrm{cr}}\left(K = \tfrac{1}{2}\right)}{P_{\mathrm{cr}}\left(K = 
 
 **A truss might be expected to lower the aspect-ratio exponent, and the derivation shows that it does not.** Consider a truss whose attachment station, dihedral and proportions are held fixed as the span grows, the natural way to scale a configuration. Then every length in the braced problem scales with the span exactly as it does in the cantilever problem, the relief factor is a pure function of $\eta$ and $\lambda$, and the weight law is the cantilever law multiplied by a constant.
 
-$$ W_b^{\,\mathrm{braced}} = \text{relief}(\eta, \lambda) \times \frac{\rho_m \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau} \; A^{3/2} \, S^{1/2} $$
+$$
+ W_b^{\,\mathrm{braced}} = \text{relief}(\eta, \lambda) \times \frac{\rho_m \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau} \; A^{3/2} \, S^{1/2} 
+\tag{76}
+$$
 
 **The exponent is still exactly three halves.** A geometrically similar truss buys $k_w$ and not $n$, and the distinction matters because the two move the optimum differently. In the limit where the sensitive weight fraction and the induced-drag fraction are both small, the stationary condition reduces to a power law whose solution is explicit.
 
-$$ A^{*} \propto k_w^{-1/(n+1)}, \qquad \left.\frac{d\ln A^{*}}{d\ln k_w}\right|_{n=3/2} = -0.4 $$
+$$
+ A^{*} \propto k_w^{-1/(n+1)}, \qquad \left.\frac{d\ln A^{*}}{d\ln k_w}\right|_{n=3/2} = -0.4 
+\tag{77}
+$$
 
 **So a reduction in the weight coefficient moves the optimum aspect ratio by only two fifths of its size in logarithm.** Cutting $k_w$ to nine tenths raises the optimum aspect ratio by **4.30 percent** and cutting it to four fifths raises it by **9.34 percent**. **A truss that halved the bending material would move the optimum aspect ratio by about thirty-two percent, not by a factor of two**, and the flatness result then implies that the fuel consequence of such a move is small.
 
@@ -1051,7 +1282,10 @@ The memorandum on airport operations states the chain in three sentences.
 
 The semi-empirical relation usually attributed to Korn gives the drag-divergence Mach number of a swept wing section in terms of its thickness, its lift coefficient and an airfoil-technology constant. Let $\kappa_A$ be that constant, $\Lambda$ the sweep, $\tau$ the thickness-to-chord ratio and $C_L$ the lift coefficient.
 
-$$ M_{dd} = \frac{\kappa_A}{\cos \Lambda} - \frac{\tau}{\cos^2 \Lambda} - \frac{0.1\,C_L}{\cos^3 \Lambda} $$
+$$
+ M_{dd} = \frac{\kappa_A}{\cos \Lambda} - \frac{\tau}{\cos^2 \Lambda} - \frac{0.1\,C_L}{\cos^3 \Lambda} 
+\tag{78}
+$$
 
 The constant is a property of the airfoil technology, and the programme's Phase II airfoil study, which used this relation, assigned its sections constants of 0.915 to 0.929 \[[SUGAR Phase II volume I][ref_cr_phase2_vol1]\]. The Phase IV report's geometry table lists supercritical sections with divergent trailing edges for both of its configurations, although its aerodynamic design section removed the divergent trailing edge from the Mach 0.80 starting sections and reserved it for use where needed \[[SUGAR Phase IV final report][ref_cr_phase4]\], so 0.95 is the value used here and the margin it predicts is then a test of that choice rather than an assumption.
 
@@ -1086,7 +1320,10 @@ Inverting the relation answers the question the exchange is really about. **Hold
 Running the trade the other way is exact rather than numerical, because the relation is linear in
 thickness.
 
-$$ \tau = \left(\frac{\kappa_A}{\cos \Lambda} - \frac{0.1\,C_L}{\cos^3 \Lambda} - M_{dd}\right)\cos^2 \Lambda $$
+$$
+ \tau = \left(\frac{\kappa_A}{\cos \Lambda} - \frac{0.1\,C_L}{\cos^3 \Lambda} - M_{dd}\right)\cos^2 \Lambda 
+\tag{79}
+$$
 
 **Holding the Phase III sweep and asking what thickness would reach the same drag-divergence Mach
 number gives 0.0766**, a quarter thinner again than the wing actually has and
@@ -1095,12 +1332,18 @@ well outside anything a transport wing box has been built to.
 **The inversion is not single-valued.** The Korn relation rises with sweep only up to a turning point, because the leading term grows as the inverse cosine while the thickness and lift terms grow as the inverse square and the inverse cube. **The turning point has a closed form.** Substituting $s = \sec \Lambda$ makes the relation a
 cubic in $s$ whose derivative is a quadratic.
 
-$$ M_{dd} = \kappa_A s - \tau s^2 - 0.1\,C_L s^3, \qquad \frac{dM_{dd}}{ds} = \kappa_A - 2\tau s - 0.3\,C_L s^2 $$
+$$
+ M_{dd} = \kappa_A s - \tau s^2 - 0.1\,C_L s^3, \qquad \frac{dM_{dd}}{ds} = \kappa_A - 2\tau s - 0.3\,C_L s^2 
+\tag{80}
+$$
 
 Since $\sec \Lambda$ increases with sweep throughout the first quadrant, the turning point is the
 positive root of that quadratic.
 
-$$ s^{*} = \frac{-\tau + \sqrt{\tau^2 + 0.3\,\kappa_A C_L}}{0.3\,C_L}, \qquad \Lambda^{*} = \arccos\frac{1}{s^{*}} $$
+$$
+ s^{*} = \frac{-\tau + \sqrt{\tau^2 + 0.3\,\kappa_A C_L}}{0.3\,C_L}, \qquad \Lambda^{*} = \arccos\frac{1}{s^{*}} 
+\tag{81}
+$$
 
 At this thickness and lift coefficient that gives **53.8022 degrees** and a peak of
 **0.9730**, against **53.8 degrees** from a scan of seven and a half thousand
@@ -1114,7 +1357,10 @@ branch is monotone, and the 27.32 degrees found above lies well inside that bran
 
 The weight derivation above gives the thickness term as an inverse first power and the sweep term as the inverse square of the cosine, so the structural price of the Phase IV change can be stated directly.
 
-$$ \frac{W_b^{\,\mathrm{P4}}}{W_b^{\,\mathrm{P3}}} = \frac{\tau_{\mathrm{P3}}}{\tau_{\mathrm{P4}}} \cdot \frac{\cos^2 \Lambda_{\mathrm{P3}}}{\cos^2 \Lambda_{\mathrm{P4}}} $$
+$$
+ \frac{W_b^{\,\mathrm{P4}}}{W_b^{\,\mathrm{P3}}} = \frac{\tau_{\mathrm{P3}}}{\tau_{\mathrm{P4}}} \cdot \frac{\cos^2 \Lambda_{\mathrm{P3}}}{\cos^2 \Lambda_{\mathrm{P4}}} 
+\tag{82}
+$$
 
 | Change | Factor on bending material |
 |---|---|
@@ -1128,7 +1374,10 @@ $$ \frac{W_b^{\,\mathrm{P4}}}{W_b^{\,\mathrm{P3}}} = \frac{\tau_{\mathrm{P3}}}{\
 
 **The sharpest cost of thinness is not weight and the report's tables show it.** The as-drawn Mach 0.80 configuration requires **4,351 United States gallon** of fuel capacity and has **3,594** available, a deficit of **17.4 percent** of requirement. The as-drawn Mach 0.745 predecessor requires **5,684** and has **5,417**, a deficit of **4.7 percent** \[[SUGAR Phase IV final report][ref_cr_phase4]\].
 
-$$ \text{deficit} = \frac{\mathcal{V}_{\mathrm{required}} - \mathcal{V}_{\mathrm{available}}}{\mathcal{V}_{\mathrm{required}}} $$
+$$
+ \text{deficit} = \frac{\mathcal{V}_{\mathrm{required}} - \mathcal{V}_{\mathrm{available}}}{\mathcal{V}_{\mathrm{required}}} 
+\tag{83}
+$$
 
 **Thinning the wing roughly quadrupled the fractional fuel-volume deficit**, from
 4.7 percent to 17.4 percent, a factor of
@@ -1165,7 +1414,10 @@ Phase IV repeated the analysis on the Mach 0.80 configuration with the doublet-l
 **The margins quoted below are speed margins and the definition matters, because a negative one
 means the flutter speed has fallen below the speed the certification basis requires.**
 
-$$ \text{margin} = \frac{V_{\mathrm{flutter}}}{V_{\mathrm{required}}} - 1 $$
+$$
+ \text{margin} = \frac{V_{\mathrm{flutter}}}{V_{\mathrm{required}}} - 1 
+\tag{84}
+$$
 
 At Mach 0.59, 0.76 and 0.85 the corrections moved margins modestly and in both directions, raising
 the minimum stability margin by about ten percent overall. At **Mach 0.92 and 26,000 feet** the raw doublet-lattice model gave margins near **forty percent** for three of its five mass cases and 22.8 and 28.4 percent for the other two, and the corrected model produced **multiple mechanisms, several with negative margins**, the worst at **minus 37.3 percent** \[[SUGAR Phase IV final report][ref_cr_phase4]\]. The report does not soften it.
@@ -1271,7 +1523,10 @@ The ground plane is represented by an image vortex system reflected
 below it, and the upwash the image induces at the real wing scales with the ratio of span to twice
 the height.
 
-$$ \Sigma = \frac{b}{2h} $$
+$$
+ \Sigma = \frac{b}{2h} 
+\tag{85}
+$$
 
 **For this aeroplane at a given wheel height that group is roughly one and a half times a conventional narrowbody's**,
 because the span of 170 feet is roughly half as large again as the 118-foot Code C limit at which the conventional fleet sits. A larger favourable interference at touchdown lengthens a
@@ -1327,12 +1582,18 @@ The cost appears in two places. **Cruise lift-to-drag ratio falls from 24.958 to
 is exact and worth displaying.** Let $\beta_0$ be the baseline
 block fuel per seat and $\beta_1$ and $\beta_2$ the two configurations.
 
-$$ r_i = 1 - \frac{\beta_i}{\beta_0}, \qquad r_1 - r_2 = \frac{\beta_2 - \beta_1}{\beta_0}, \qquad \frac{\beta_2}{\beta_1} - 1 = \frac{\beta_2 - \beta_1}{\beta_1} $$
+$$
+ r_i = 1 - \frac{\beta_i}{\beta_0}, \qquad r_1 - r_2 = \frac{\beta_2 - \beta_1}{\beta_0}, \qquad \frac{\beta_2}{\beta_1} - 1 = \frac{\beta_2 - \beta_1}{\beta_1} 
+\tag{86}
+$$
 
 **The numerators are identical and the denominators are not**, so the ratio of the two statements is
 a pure number set by the baseline alone.
 
-$$ \frac{\text{percentage change in fuel}}{\text{percentage-point change in reduction}} = \frac{\beta_0}{\beta_1} = 2.3279 $$
+$$
+ \frac{\text{percentage change in fuel}}{\text{percentage-point change in reduction}} = \frac{\beta_0}{\beta_1} = 2.3279 
+\tag{87}
+$$
 
 Its sentence reads that operating at Mach 0.80 has reduced the fuel burn benefit by 1.1 percent
 compared with the Mach 0.745 aircraft \[[SUGAR Phase IV final report][ref_cr_phase4]\]. That 1.1 is the change in a **percentage reduction**, from
@@ -1463,7 +1724,10 @@ outcome for the seven point two percent.
 ratio is **12.92 percent** better. What the short mission does is spend it. Each figure below is the
 truss-braced value with fuel in the wings set against the tube-and-wing value in the table above.
 
-$$ \frac{23.6}{20.9} - 1 = 0.1292, \qquad \frac{23{,}277}{18{,}525} - 1 = 0.2565, \qquad 44{,}750 - 40{,}500 = 4{,}250 \ \text{ft} $$
+$$
+ \frac{23.6}{20.9} - 1 = 0.1292, \qquad \frac{23{,}277}{18{,}525} - 1 = 0.2565, \qquad 44{,}750 - 40{,}500 = 4{,}250 \ \text{ft} 
+\tag{88}
+$$
 
 **The braced aeroplane needs 25.65 percent more sea-level static thrust and cruises
 4,250 feet higher**, and the paper names the cost.
@@ -1485,7 +1749,10 @@ closest thing to a measurement of the weight elasticity that this subject's publ
 contains.** Taking logarithms of the weight ratio over the aspect-ratio ratio gives an apparent
 elasticity.
 
-$$ \nu_{\mathrm{apparent}} = \frac{\ln\left(W_2/W_1\right)}{\ln\left(A_2/A_1\right)} $$
+$$
+ \nu_{\mathrm{apparent}} = \frac{\ln\left(W_2/W_1\right)}{\ln\left(A_2/A_1\right)} 
+\tag{89}
+$$
 
 | Pair | Apparent elasticity on gross weight |
 |---|---|
@@ -1501,7 +1768,10 @@ aeroplane at aspect ratio 19.57 weighs less than the cantilever at aspect ratio
 13**, and on this criterion the aspect ratio should be pushed further still. The shortfall is
 measured as for the Phase IV readings above.
 
-$$ 1 - \frac{0.09926}{0.299033} = 0.668 $$
+$$
+ 1 - \frac{0.09926}{0.299033} = 0.668 
+\tag{90}
+$$
 
 **An apparent elasticity from a pair is not a derivative** and this article does not treat it as
 one, because the two aeroplanes differ in span, area, thrust and altitude as well as in aspect
@@ -1521,7 +1791,10 @@ Each entry is the braced weight over the cantilever's, less one, the wing alone 
 the contractor's calibration and 13,418 pound on the tube-and-wing one, and the strut 2,985 and
 3,065 pound.
 
-$$ \frac{13{,}045}{12{,}867} - 1 = 0.0138, \qquad \frac{13{,}418}{12{,}867} - 1 = 0.0428, \qquad \frac{13{,}045 + 2{,}985}{12{,}867} - 1 = 0.2458, \qquad \frac{13{,}418 + 3{,}065}{12{,}867} - 1 = 0.2810 $$
+$$
+ \frac{13{,}045}{12{,}867} - 1 = 0.0138, \qquad \frac{13{,}418}{12{,}867} - 1 = 0.0428, \qquad \frac{13{,}045 + 2{,}985}{12{,}867} - 1 = 0.2458, \qquad \frac{13{,}418 + 3{,}065}{12{,}867} - 1 = 0.2810 
+\tag{91}
+$$
 
 **The wing alone is only +1.38 percent heavier on the contractor's calibration and
 +4.28 percent on the harsher one, so the strut is almost the whole penalty.** That
@@ -1740,7 +2013,10 @@ using the Aviary framework \[[Aviary optimisation][ref_ttbw_aviary_2024]\].
 because either one alone misleads.** Adding contemporary records lowers the primary fraction while
 raising the period count, so the two are read together.
 
-$$ \text{primary fraction} = \frac{\left|\left\{r : \mathrm{src}(r) \in \{\text{reports}, \text{defence}\}\right\}\right|}{\left|\mathcal{R}\right|}, \qquad \text{period count} = \left|\left\{r : \mathrm{year}(r) \ge 2015\right\}\right| $$
+$$
+ \text{primary fraction} = \frac{\left|\left\{r : \mathrm{src}(r) \in \{\text{reports}, \text{defence}\}\right\}\right|}{\left|\mathcal{R}\right|}, \qquad \text{period count} = \left|\left\{r : \mathrm{year}(r) \ge 2015\right\}\right| 
+\tag{92}
+$$
 
 Of the 3,875 research records, **1,067 come from report servers rather than journal indices, which is 27.5 percent**. **3,688 carry a resolved publication year**, their median is **2012** and they run from **1921 to 2026**. **1,610 are from 2015 onward, which is 43.7 percent**, and **1,161 predate 2000, which is 31.5 percent**.
 
@@ -1942,6 +2218,851 @@ It comes from an airport. **The wing folds at 118 feet and 118 feet is exactly w
 
 **The last word belongs to the report, because its recommendation list sets out what fifteen years of work concluded.** It asks for a dedicated buffet wind-tunnel test, a high-Reynolds-number low-speed entry, a detailed structural integration effort, and **an equivalent optimisation of cantilever and truss-braced aircraft of the same technology level to allow a more fair and transparent comparison of the two configurations**. That last item is a statement, by the organisation with the most to gain, that the comparison on
 which the concept rests had not yet been made on equal terms. **Then it asks for the preliminary design of a demonstrator, the one recommendation that was carried out and the aeroplane that did not fly.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 92 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 92, 47 are established and 45 are bespoke.
+The structural and geometric relations follow the contractor's report in feet, inches, pounds and pounds per square inch while the atmosphere is evaluated in the International System, and several letters need care, so $\delta$ is the induced-drag fraction of total cruise drag, $L$ is the wing lift at the design load factor while $L/D$ is the lift-to-drag ratio, $e$ is the airplane efficiency factor while $e^{-X}$ is an exponential, $\mathcal{I}$ is the second moment of area of the strut while $\mathcal{I}(\lambda)$ is the taper integral, $\varepsilon$ is a logarithmic error in aspect ratio, and $h$ is a geopotential altitude except in the ground-effect group, where it is a height above the ground.
+
+**Equation 1, Share of the Agreement Paid Before First Flight.**
+The milestones that fall due before first flight carry 98.82 percent of the agreement's payments.
+[Funded Space Act Agreement][ref_fsaa]
+
+$$
+ \frac{\displaystyle\sum_{i < i_{\mathrm{ff}}} \mu_i}{\displaystyle\sum_{i} \mu_i} = 0.988235 
+\tag{1}
+$$
+
+**Equation 2, Share of the Agreement Reached Before the Pause.**
+Through milestone nine the agreement had paid 153 of its 425 million dollars, 36.00 percent of the total.
+[Funded Space Act Agreement][ref_fsaa]
+
+$$
+ \frac{\displaystyle\sum_{i \le 9} \mu_i}{\displaystyle\sum_{i} \mu_i} = \frac{153.00}{425.00} = 0.3600 
+\tag{2}
+$$
+
+**Equation 3, Revision Between Two Budget Books.**
+A revision is the fractional change between two projections of the same fiscal year.
+[FY2025 justification][ref_nasa_cj_2025]
+[FY2026 technical supplement][ref_nasa_ts_2026]
+
+$$
+ \text{revision} = \frac{\mathcal{P}_{\mathrm{new}} - \mathcal{P}_{\mathrm{old}}}{\mathcal{P}_{\mathrm{old}}} 
+\tag{3}
+$$
+
+**Equation 4, Aspect Ratio From Span and Area.**
+The aspect ratio is the square of the span over the reference area, which the published span and area reproduce to the printed digits.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ A = \frac{b^2}{S} 
+\tag{4}
+$$
+
+**Equation 5, Standard Atmosphere Temperature.**
+The temperature falls linearly with geopotential altitude up to the tropopause and is constant above it.
+
+$$
+ T(h) = \begin{cases} T_{\mathrm{sl}} - \lambda_a h, & h \le h_{\mathrm{t}} \\[4pt] T_{\mathrm{sl}} - \lambda_a h_{\mathrm{t}}, & h > h_{\mathrm{t}} \end{cases} 
+\tag{5}
+$$
+
+**Equation 6, Standard Atmosphere Pressure.**
+The pressure follows a power law of the temperature ratio in the troposphere and falls exponentially in the isothermal layer above.
+
+$$
+ p(h) = \begin{cases} p_{\mathrm{sl}} \left(\dfrac{T(h)}{T_{\mathrm{sl}}}\right)^{g_0/(R_a \lambda_a)}, & h \le h_{\mathrm{t}} \\[6pt] p(h_{\mathrm{t}}) \exp\left(-\dfrac{g_0 \left(h - h_{\mathrm{t}}\right)}{R_a T(h_{\mathrm{t}})}\right), & h > h_{\mathrm{t}} \end{cases} 
+\tag{6}
+$$
+
+**Equation 7, Speed of Sound and True Airspeed.**
+The speed of sound follows from the temperature, and the true airspeed is the Mach number times it.
+
+$$
+ a = \sqrt{\gamma R_a T}, \qquad V = M a 
+\tag{7}
+$$
+
+**Equation 8, Dynamic Pressure in Pressure and Mach Number.**
+The dynamic pressure is half the density times the square of the speed, which equals half the ratio of specific heats times the pressure times the square of the Mach number.
+
+$$
+ q = \tfrac{1}{2}\rho V^2 = \tfrac{1}{2}\gamma p M^2 
+\tag{8}
+$$
+
+**Equation 9, Lift Equation.**
+In level flight the weight equals the lift coefficient times the dynamic pressure and the wing area, which fixes the lift coefficient.
+
+$$
+ W = C_L \, q \, S \qquad \Longrightarrow \qquad C_L = \frac{W}{q S} 
+\tag{9}
+$$
+
+**Equation 10, Lift Coefficient at the Stated Cruise Condition.**
+At the maximum take-off weight, the published wing area and the buildup's stated 40,000 feet and Mach 0.80, the lift coefficient is 0.5594 against the 0.695 the same table states.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ C_L = \frac{W}{qS} = 0.5594 
+\tag{10}
+$$
+
+**Equation 11, Altitude at Which the Stated Lift Coefficient Holds.**
+Inverting the lift equation at maximum take-off weight and Mach 0.80 places the stated lift coefficient at 44,515 feet, within 78 feet of the report's optimum cruise altitude.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ p^{\ast} = \frac{2W}{\gamma M^2 S C_L} = 315.28 \ \text{lbf/ft}^2 = 15095.6 \ \text{Pa}, \qquad h^{\ast} = h_{\mathrm{t}} + \frac{R_a T(h_{\mathrm{t}})}{g_0}\ln\frac{p(h_{\mathrm{t}})}{p^{\ast}} = 13568.1 \ \text{m} 
+\tag{11}
+$$
+
+**Equation 12, Four-Part Cruise Drag Buildup.**
+The report bookkeeps cruise drag as parasite, induced, compressibility and trim terms, with the laminar-flow credit carried in the compressibility term.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ C_D = C_{D,0} + C_{D,i} + C_{D,c} + C_{D,t} 
+\tag{12}
+$$
+
+**Equation 13, Lift-to-Drag Ratio.**
+The lift-to-drag ratio is the lift coefficient over the drag coefficient.
+
+$$
+ \frac{L}{D} = \frac{C_L}{C_D} 
+\tag{13}
+$$
+
+**Equation 14, Parasite Drag From Equivalent Flat Plate Area.**
+The parasite drag coefficient is the equivalent flat plate area divided by the reference area.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ C_{D,0} = \frac{\mathcal{F}}{S} 
+\tag{14}
+$$
+
+**Equation 15, Induced Drag Coefficient.**
+The induced drag coefficient is the square of the lift coefficient over pi, the aspect ratio and the airplane efficiency factor.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ C_{D,i} = \frac{C_L^2}{\pi A e} 
+\tag{15}
+$$
+
+*Equation 16, Bespoke Induced-Drag Fraction.*
+The article defines the induced-drag fraction as the induced drag coefficient over the total, which it evaluates from the report's buildup as 0.3351.
+
+$$
+ \delta = \frac{C_{D,i}}{C_D} 
+\tag{16}
+$$
+
+**Equation 17, Design Lift at the Load Factor.**
+The design lift is the load factor times the weight.
+
+$$
+ L = \mathcal{N} W 
+\tag{17}
+$$
+
+**Equation 18, Elliptic Spanwise Lift Distribution.**
+An elliptic distribution places the local lift per unit span in proportion to the square root of one less the square of the station.
+
+$$
+ \ell(y) = \frac{4L}{\pi b} \sqrt{1 - \left(\frac{2y}{b}\right)^2} 
+\tag{18}
+$$
+
+**Equation 19, Normalisation of the Elliptic Load.**
+The constant in front of the elliptic distribution is fixed by requiring the load to integrate to the total lift.
+
+$$
+ \int_{-b/2}^{b/2} \ell(y)\,dy = \frac{4L}{\pi b}\cdot\frac{b}{2}\int_{-1}^{1}\sqrt{1-u^2}\,du = \frac{2L}{\pi}\cdot\frac{\pi}{2} = L 
+\tag{19}
+$$
+
+**Equation 20, Bending Moment From the Outboard Load.**
+The bending moment at a station is the integral of the load outboard of it against its moment arm.
+
+$$
+ \mathcal{M}(u) = \int_{u}^{1} \ell \left(\frac{b}{2}\right)^2 (v - u) \, dv 
+\tag{20}
+$$
+
+**Equation 21, Bending Moment of an Elliptically Loaded Wing.**
+For elliptic loading the moment integral has a closed form in the fraction of semispan.
+
+$$
+ \mathcal{M}(u) = \frac{L b}{\pi} \left[ \frac{1}{3}\left(1-u^2\right)^{3/2} - \frac{u}{2}\left( \frac{\pi}{2} - u\sqrt{1-u^2} - \arcsin u \right) \right] 
+\tag{21}
+$$
+
+**Equation 22, Root Bending Moment of an Elliptic Wing.**
+At the root the elliptic moment collapses to the lift times the span over three pi.
+
+$$
+ \mathcal{M}(0) = \frac{L b}{3\pi} 
+\tag{22}
+$$
+
+**Equation 23, Root Moment From the Centroid of a Semi-Ellipse.**
+Half the lift acting at the centroid of a semi-ellipse gives the same root moment, a check on the closed form.
+
+$$
+ \mathcal{M}(0) = \frac{L}{2}\cdot\frac{4}{3\pi}\cdot\frac{b}{2} = \frac{Lb}{3\pi} 
+\tag{23}
+$$
+
+*Equation 24, Bespoke Cap Area of a Two-Cap Wing Box.*
+The article models the wing box as two bending caps at a separation set by a shape factor it takes as 0.90 of the section depth, so each cap needs the moment over the stress and that separation.
+
+$$
+ \mathcal{A}_c(u) = \frac{\mathcal{M}(u)}{\sigma h_c(u)}, \qquad h_c(u) = \kappa_h \, \tau \, c(u) 
+\tag{24}
+$$
+
+**Equation 25, Chord of a Straight-Taper Wing.**
+The chord of a straight-taper wing falls linearly from the root, and the root chord follows from the area, span and taper ratio.
+
+$$
+ c(u) = c_r\left[1 - (1-\lambda)u\right], \qquad c_r = \frac{2S}{b\,(1+\lambda)} 
+\tag{25}
+$$
+
+*Equation 26, Bespoke Bending Material as an Integral of Cap Area.*
+In the article's two-cap model the bending material is four times the material density times the semispan integral of one cap area.
+
+$$
+ W_b = 4\rho_m \left(\frac{b}{2}\right)\int_0^1 \mathcal{A}_c(u)\,du 
+\tag{26}
+$$
+
+*Equation 27, Bespoke Taper Integral of the Moment Shape.*
+The article collects the geometric part of its bending-material model into one integral of the moment shape function against the chord distribution.
+
+$$
+ \mathcal{I}(\lambda) = \int_0^1 \frac{f(u)}{1 - (1-\lambda)u}\,du 
+\tag{27}
+$$
+
+*Equation 28, Bespoke Bending Material in Span and Area.*
+Substituting the moment, depth and chord into the article's two-cap model gives the bending material in terms of the span, lift, taper and wing area.
+
+$$
+ W_b = \frac{\rho_m \, b^3 \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau \, S} 
+\tag{28}
+$$
+
+*Equation 29, Bespoke Three-Halves Power Law of Bending Material.*
+Replacing the span by the aspect ratio shows that, at fixed area, design lift and thickness ratio, the article's two-cap model scales as the three-halves power of aspect ratio.
+
+$$
+ W_b = \frac{\rho_m \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau} \; A^{3/2} \, S^{1/2} 
+\tag{29}
+$$
+
+*Equation 30, Bespoke Exponent Measured by Logarithmic Differencing.*
+Differencing the article's closed form logarithmically between two aspect ratios returns the exponent of 1.5 exactly.
+
+$$
+ n = \frac{\ln\left[W_b(A_2)/W_b(A_1)\right]}{\ln\left(A_2/A_1\right)} 
+\tag{30}
+$$
+
+*Equation 31, Bespoke Sweep Correction to Bending Material.*
+The article lengthens the structural beam and the moment arm each by the secant of the sweep, so its bending material grows as the inverse square of the cosine of the sweep.
+
+$$
+ \frac{W_b(\Lambda)}{W_b(0)} = \frac{1}{\cos^2 \Lambda} 
+\tag{31}
+$$
+
+**Equation 32, Breguet Fuel Burn and Its Linearisation.**
+The Breguet relation gives the cruise fuel as the weight times one less an exponential of range, fuel consumption and drag-to-lift ratio, which for a small fuel fraction reduces to a product.
+
+$$
+ m_f = W\left[1 - \exp\left(-\frac{R\,c_T}{V}\frac{C_D}{C_L}\right)\right] \approx \frac{R\,c_T}{V}\,\frac{C_D}{C_L}\,W 
+\tag{32}
+$$
+
+**Equation 33, Cruise Lift Coefficient at Fixed Area and Condition.**
+At fixed area, altitude and Mach number the cruise lift coefficient is whatever the weight requires.
+
+$$
+ C_L = \frac{W}{q S} 
+\tag{33}
+$$
+
+*Equation 34, Bespoke Fuel Burn at Fixed Area and Cruise Condition.*
+Holding wing area and cruise condition fixed, the case the article chooses, the linearised fuel burn is proportional to the drag coefficient times the dynamic pressure and the area.
+
+$$
+ m_f \propto \frac{C_D}{C_L}\,W = C_D \, q S 
+\tag{34}
+$$
+
+*Equation 35, Bespoke Parasite and Induced Parts of Fuel Burn at Fixed Area.*
+In the article's fixed-area case the fuel splits into a parasite term independent of aspect ratio and an induced term in the square of the weight over the aspect ratio.
+
+$$
+ m_f \propto q S C_{D,0} + \frac{W^2}{q S \pi A e} 
+\tag{35}
+$$
+
+*Equation 36, Bespoke Weight Elasticity and the Fixed-Area Fuel Slope.*
+With the weight elasticity defined as the logarithmic derivative of weight with aspect ratio, the article's fixed-area fuel slope is the induced-drag fraction times twice the elasticity less one.
+
+$$
+ \nu = \frac{d \ln W}{d \ln A}, \qquad \frac{d \ln m_f}{d \ln A} = \delta\left(2\nu - 1\right) 
+\tag{36}
+$$
+
+*Equation 37, Bespoke Optimality Condition at Fixed Area.*
+In the article's fixed-area case fuel burn is stationary when the weight elasticity is one half.
+
+$$
+ \nu^{*} = \tfrac{1}{2} 
+\tag{37}
+$$
+
+*Equation 38, Bespoke Stationary Point of the Induced Term.*
+At fixed area and condition the induced drag goes as the square of the weight over the aspect ratio, whose logarithm is stationary at the same elasticity of one half.
+
+$$
+ \frac{d}{d\ln A}\ln\left(\frac{W^2}{A}\right) = 2\nu - 1 = 0 
+\tag{38}
+$$
+
+*Equation 39, Bespoke Fuel Burn at Fixed Cruise Lift Coefficient.*
+Holding the cruise lift coefficient fixed instead, the second case the article chooses, the linearised fuel is the weight over the lift coefficient times the parabolic drag polar.
+
+$$
+ m_f \propto \frac{W}{C_L}\left(C_{D,0} + \frac{C_L^2}{\pi A e}\right) 
+\tag{39}
+$$
+
+*Equation 40, Bespoke Fixed-Lift Fuel Slope.*
+In the article's fixed-lift case the logarithmic slope of fuel with aspect ratio is the weight elasticity less the induced-drag fraction.
+
+$$
+ \frac{d \ln m_f}{d \ln A} = \nu - \delta 
+\tag{40}
+$$
+
+*Equation 41, Bespoke Optimality Condition at Fixed Lift Coefficient.*
+In the article's fixed-lift case fuel burn is stationary where the weight elasticity equals the induced-drag fraction.
+
+$$
+ \nu^{*} = \delta 
+\tag{41}
+$$
+
+*Equation 42, Bespoke Elasticity of a Power-Law Weight Group.*
+If the aspect-ratio-sensitive weight group obeys a power law, as the article assumes, the elasticity is the exponent times that group's share of the weight.
+
+$$
+ W = W_0 + k_w A^n, \qquad \omega = \frac{k_w A^n}{W}, \qquad \nu = n\,\omega 
+\tag{42}
+$$
+
+*Equation 43, Bespoke Exponent Required for the Present Aspect Ratio To Be Optimal.*
+Solving the article's power-law elasticity for the exponent that would make the present aspect ratio stationary gives 3.64 at fixed area and 2.44 at fixed lift.
+
+$$
+ n_{\mathrm{required}} = \frac{\nu^{*}}{\omega} = \frac{\nu^{*} W}{W_w} 
+\tag{43}
+$$
+
+*Equation 44, Bespoke Anchoring of the Weight Coefficient.*
+The coefficient of the article's power-law weight group is anchored on the published group weights, with everything else assigned to the fixed weight.
+
+$$
+ k_w = \frac{W_w}{A^{n}}, \qquad W_0 = W - W_w 
+\tag{44}
+$$
+
+*Equation 45, Bespoke Fuel-Optimal Aspect Ratio at Fixed Lift.*
+With the anchored power law, the article's fixed-lift condition is satisfied at an aspect ratio of 25.1, 28.3 percent above the configuration's.
+
+$$
+ A^{*} = 25.100 
+\tag{45}
+$$
+
+*Equation 46, Bespoke Derivatives of the Elasticity and the Induced Fraction.*
+Differentiating the article's power-law elasticity and the induced-drag fraction with respect to the logarithm of aspect ratio gives the two parts of the curvature.
+
+$$
+ \frac{d(n\omega)}{d\ln A} = n^2\omega\left(1-\omega\right), \qquad \frac{d\delta}{d\ln A} = -\delta\left(1-\delta\right) 
+\tag{46}
+$$
+
+*Equation 47, Bespoke Curvature of the Fixed-Lift Fuel Objective.*
+The second logarithmic derivative of the article's fixed-lift fuel objective is the sum of those two parts.
+
+$$
+ \frac{d^2 \ln m_f}{d(\ln A)^2} = n^2\omega\left(1-\omega\right) + \delta\left(1-\delta\right) 
+\tag{47}
+$$
+
+*Equation 48, Bespoke Curvature at the Optimum.*
+At the article's stationary point the curvature depends only on the induced-drag fraction and the weight exponent.
+
+$$
+ \left.\frac{d^2 \ln m_f}{d(\ln A)^2}\right|_{A^{*}} = \delta\left(n + 1 - 2\delta\right) 
+\tag{48}
+$$
+
+*Equation 49, Bespoke Logarithmic Error in Aspect Ratio.*
+The article measures the departure from the optimum as the natural logarithm of the optimal over the actual aspect ratio, which makes the expansion symmetric.
+
+$$
+ \varepsilon = \ln\frac{A^{*}}{A} 
+\tag{49}
+$$
+
+*Equation 50, Bespoke Quadratic Fuel Penalty of an Aspect-Ratio Error.*
+Expanding the article's linearised objective to second order gives a fuel penalty of half the curvature times the square of the logarithmic error.
+
+$$
+ \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,\delta\left(n + 1 - 2\delta\right)\varepsilon^2 
+\tag{50}
+$$
+
+*Equation 51, Bespoke Fuel Penalty of the Present Aspect Ratio.*
+At the article's optimum of 25.1 the present aspect ratio of 19.565 costs about 1.90 percent of cruise fuel under the linearised expansion.
+
+$$
+ \varepsilon = \ln\frac{25.100}{19.565} = 0.2491, \qquad \frac{\Delta m_f}{m_f} \approx \tfrac{1}{2}\,(0.6131)\,(0.2491)^2 = 0.0190 
+\tag{51}
+$$
+
+**Equation 52, Fuel Fraction and Breguet Exponent From the Published Weights.**
+The published usable fuel and take-off weight fix the fuel fraction at 0.2002 and the Breguet exponent at 0.2234.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ \zeta = \frac{m_f}{W} = 0.200193, \qquad X = -\ln\left(1 - \zeta\right) = 0.223385 
+\tag{52}
+$$
+
+**Equation 53, Overstatement of the Linearised Breguet Relation.**
+At this Breguet exponent replacing one less the exponential by the exponent overstates the fuel by 11.585 percent.
+
+$$
+ \frac{X}{1 - e^{-X}} - 1 = 0.115847 
+\tag{53}
+$$
+
+*Equation 54, Bespoke Breguet Correction Factor.*
+The article defines a correction factor in the Breguet exponent that carries the exponential through and tends to one as the fuel fraction vanishes.
+
+$$
+ \Phi(X) = \frac{X e^{-X}}{1 - e^{-X}}, \qquad \Phi(X) \to 1 \ \text{ as } X \to 0 
+\tag{54}
+$$
+
+*Equation 55, Bespoke Exact Logarithmic Differential of Fuel Burn.*
+With the correction factor the logarithmic change in fuel is that of the weight plus the factor times that of the Breguet exponent.
+
+$$
+ d \ln m_f = d \ln W + \Phi(X)\, d \ln X 
+\tag{55}
+$$
+
+*Equation 56, Bespoke Exact Fixed-Lift Optimality Condition.*
+Carrying the exponential through, the article's fixed-lift condition becomes an elasticity equal to the correction factor times the induced-drag fraction.
+
+$$
+ \frac{d \ln m_f}{d \ln A} = \nu - \Phi \delta \qquad \Longrightarrow \qquad \nu^{*} = \Phi \delta 
+\tag{56}
+$$
+
+*Equation 57, Bespoke Exact Fixed-Area Optimality Condition.*
+Carrying the exponential through, the article's fixed-area condition becomes a ratio that reduces to one half as the fuel fraction vanishes.
+
+$$
+ \frac{d \ln m_f}{d \ln A} = \nu\left(1 - \Phi\right) + \Phi \delta \left(2\nu - 1\right) \qquad \Longrightarrow \qquad \nu^{*} = \frac{\Phi \delta}{1 - \Phi + 2 \Phi \delta} 
+\tag{57}
+$$
+
+*Equation 58, Bespoke Exact Curvature at the Optimum.*
+The article's exact curvature at the fixed-lift optimum carries one extra term in the derivative of the correction factor.
+
+$$
+ \left.\frac{d^2 \ln m_f}{d(\ln A)^2}\right|_{A^{*}} = \Phi \delta \left(n + 1 - \delta - \Phi \delta\right) + \Phi'(X)\, X \delta^2 
+\tag{58}
+$$
+
+*Equation 59, Bespoke Derivative of the Breguet Correction Factor.*
+The derivative of the article's correction factor with respect to the Breguet exponent is given in closed form.
+
+$$
+ \Phi'(X) = \frac{e^{-X}\left[\left(1-X\right)\left(1 - e^{-X}\right) - X e^{-X}\right]}{\left(1 - e^{-X}\right)^2} 
+\tag{59}
+$$
+
+*Equation 60, Bespoke Shortfalls of the Elasticity Readings Against the Exact Target.*
+Each reading of the weight elasticity falls short of the article's exact fixed-lift target of 0.299 by the fraction shown, from 8.07 percent on the over-generous accounting to 74.10 percent on bending material alone.
+
+$$
+ 1 - \frac{\nu}{\nu^{\ast}}\,: \qquad 1 - \frac{0.2749}{0.299033} = 0.0807, \qquad 1 - \frac{0.07746}{0.299033} = 0.7410, \qquad 1 - \frac{0.20618}{0.299033} = 0.3105 
+\tag{60}
+$$
+
+**Equation 61, Conversion Between the Two Code C Span Bounds.**
+The bound of 118 feet is 35.9664 metres and the bound of 36 metres is 118.1102 feet, a difference of 1.3228 inches.
+[FAA airport design][ref_faa_ac_airport_design]
+
+$$
+ 118 \times 0.3048 = 35.9664 \ \text{m}, \qquad \frac{36}{0.3048} = 118.1102 \ \text{ft}, \qquad 12\,(118.1102 - 118) = 1.3228 \ \text{in} 
+\tag{61}
+$$
+
+**Equation 62, Span Margins Against the Reference-Code Bounds.**
+Each margin is the bound less the span in inches, giving 7.24 and 12 inches unfolded and zero against the exclusive bound of the Federal Aviation Administration when folded.
+
+$$
+ \Delta = 12\,(b_{\mathrm{bound}} - b), \qquad 12\left(\frac{52}{0.3048} - 170\right) = 7.24, \qquad 12\,(171 - 170) = 12, \qquad 12\,(118 - 118) = 0 
+\tag{62}
+$$
+
+**Equation 63, Aspect Ratio at the Folded Span.**
+At the published wing area the folded span of 118 feet gives an aspect ratio of 9.427.
+
+$$
+ A_{\mathrm{folded}} = \frac{b_f^2}{S} 
+\tag{63}
+$$
+
+**Equation 64, Aspect Ratio Gain From the Fold.**
+At fixed area the ratio of the two aspect ratios is the square of the span ratio, 2.076.
+
+$$
+ \frac{A}{A_{\mathrm{folded}}} = \left(\frac{b}{b_f}\right)^2 = 2.076 
+\tag{64}
+$$
+
+**Equation 65, Difference Between the Two Folded Margins.**
+The margins of the folded span against the bounds of the International Civil Aviation Organization and the Federal Aviation Administration differ by the 1.3228 inches of the soft conversion.
+
+$$
+ \Delta_{\mathrm{ICAO}} = \frac{36}{0.3048} - b_f, \qquad \Delta_{\mathrm{FAA}} = 118 - b_f, \qquad \Delta_{\mathrm{ICAO}} - \Delta_{\mathrm{FAA}} = 1.3228 \ \text{inch} 
+\tag{65}
+$$
+
+*Equation 66, Bespoke Lift-to-Drag Ratio at the Folded Aspect Ratio.*
+The article rebuilds the drag buildup at the folded aspect ratio while holding every other term unchanged, giving a lift-to-drag ratio of 18.97 against 25.79.
+
+$$
+ \left.\frac{L}{D}\right|_{\mathrm{folded}} = \frac{C_L}{C_{D,0} + C_{D,c} + C_{D,t} + \dfrac{C_L^2}{\pi A_{\mathrm{folded}} e}} 
+\tag{66}
+$$
+
+**Equation 67, Span Removed by the Fold.**
+The fold removes half the difference between the unfolded and folded spans, 26 feet on each side.
+[airport operations memorandum][ref_tm_airport_ops]
+
+$$
+ \text{span folded per side} = \frac{b - b_f}{2} = 26 \ \text{foot} 
+\tag{67}
+$$
+
+*Equation 68, Bespoke Unit-Load Deflections of a Uniform Beam.*
+By the unit-load method on a beam the article takes to be of uniform stiffness, the deflections from the distributed load and from a unit load at the brace station are two integrals against the same virtual moment.
+
+$$
+ w_{\mathrm{load}}(\eta) = \frac{1}{E\mathcal{I}}\int_0^{\eta} \mathcal{M}(u)\left(\eta - u\right) du, \qquad w_{\mathrm{unit}}(\eta) = \frac{1}{E\mathcal{I}}\int_0^{\eta} \left(\eta - u\right)^2 du 
+\tag{68}
+$$
+
+*Equation 69, Bespoke Prop Force of the Brace.*
+The unit deflection is the cube of the station over three times the stiffness, so the article's prop force is the ratio of the two deflections and the stiffness cancels.
+
+$$
+ w_{\mathrm{unit}}(\eta) = \frac{\eta^3}{3 E\mathcal{I}}, \qquad P = \frac{w_{\mathrm{load}}}{w_{\mathrm{unit}}} = \frac{3}{\eta^3}\int_0^{\eta} f(u)\left(\eta - u\right) du 
+\tag{69}
+$$
+
+*Equation 70, Bespoke Braced Bending Moment.*
+The article's braced moment is the cantilever moment less the prop force times its arm inboard of the attachment.
+
+$$
+ \mathcal{M}_{\mathrm{braced}}(u) = \mathcal{M}(u) - P \left(\frac{b}{2}\right)\max(\eta - u,\, 0) 
+\tag{70}
+$$
+
+*Equation 71, Bespoke Bending-Material Integral and Relief Factor.*
+The article defines the relief factor as the integral of the braced moment magnitude against the inverse chord over the same integral for the cantilever.
+
+$$
+ \mathcal{B}(\eta) = \int_0^1 \frac{\left|\mathcal{M}_{\mathrm{braced}}(u)\right|}{1-(1-\lambda)u}\,du, \qquad \text{relief} = \frac{\mathcal{B}(\eta)}{\mathcal{B}(\infty)} 
+\tag{71}
+$$
+
+*Equation 72, Bespoke Non-Optimum Factor.*
+The published bending material over the article's relieved model estimate gives a non-optimum factor of 7.88, a quantity that the methodology literature also names.
+[York and Labell 1980][research_wing_weight_1981]
+
+$$
+ k_{\mathrm{no}} = \frac{W_b^{\,\mathrm{published}}}{\text{relief}\left(\eta,\lambda\right) \, W_b^{\,\mathrm{model}}} = 7.88 
+\tag{72}
+$$
+
+**Equation 73, Axial Force and Horizontal Reaction of an Inclined Strut.**
+A pin-ended strut at a dihedral delivers vertical relief as the vertical component of its axial force, so the axial force is the relief over the sine of the dihedral.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ T_s = \frac{P}{\sin \Gamma}, \qquad \text{horizontal reaction} = \frac{P}{\tan \Gamma} 
+\tag{73}
+$$
+
+**Equation 74, Euler Critical Buckling Load.**
+The critical load of a column is pi squared times its bending stiffness over the square of its effective length.
+
+$$
+ P_{\mathrm{cr}} = \frac{\pi^2 E \mathcal{I}}{\left(K \mathcal{L}_s\right)^2} 
+\tag{74}
+$$
+
+**Equation 75, Effect of a Mid-Length Brace on Buckling.**
+Halving the effective length with a jury strut multiplies the critical load by four.
+
+$$
+ \frac{P_{\mathrm{cr}}\left(K = \tfrac{1}{2}\right)}{P_{\mathrm{cr}}\left(K = 1\right)} = \left(\frac{1}{1/2}\right)^2 = 4 
+\tag{75}
+$$
+
+*Equation 76, Bespoke Bending Material of a Geometrically Similar Truss.*
+For a truss whose attachment station, dihedral and proportions scale with the span, as the article assumes, the braced weight law is the cantilever law times a constant relief factor.
+
+$$
+ W_b^{\,\mathrm{braced}} = \text{relief}(\eta, \lambda) \times \frac{\rho_m \, L \, \mathcal{I}(\lambda)\,(1+\lambda)}{\pi \, \sigma \, \kappa_h \, \tau} \; A^{3/2} \, S^{1/2} 
+\tag{76}
+$$
+
+*Equation 77, Bespoke Sensitivity of the Optimum to the Weight Coefficient.*
+In the article's limit of small weight and induced-drag fractions the optimum aspect ratio goes as the weight coefficient to the power minus one over the exponent plus one, minus two fifths at the three-halves law.
+
+$$
+ A^{*} \propto k_w^{-1/(n+1)}, \qquad \left.\frac{d\ln A^{*}}{d\ln k_w}\right|_{n=3/2} = -0.4 
+\tag{77}
+$$
+
+**Equation 78, Korn Relation for Drag-Divergence Mach Number.**
+The semi-empirical Korn relation gives the drag-divergence Mach number of a swept section from an airfoil-technology constant, the thickness ratio and the lift coefficient.
+[SUGAR Phase II volume I][ref_cr_phase2_vol1]
+
+$$
+ M_{dd} = \frac{\kappa_A}{\cos \Lambda} - \frac{\tau}{\cos^2 \Lambda} - \frac{0.1\,C_L}{\cos^3 \Lambda} 
+\tag{78}
+$$
+
+**Equation 79, Korn Relation Inverted for Thickness.**
+Because the Korn relation is linear in thickness, it inverts exactly for the thickness ratio that reaches a given drag-divergence Mach number.
+
+$$
+ \tau = \left(\frac{\kappa_A}{\cos \Lambda} - \frac{0.1\,C_L}{\cos^3 \Lambda} - M_{dd}\right)\cos^2 \Lambda 
+\tag{79}
+$$
+
+**Equation 80, Korn Relation as a Cubic in the Secant of Sweep.**
+Writing the secant of the sweep as $s$ turns the Korn relation into a cubic whose derivative is a quadratic.
+
+$$
+ M_{dd} = \kappa_A s - \tau s^2 - 0.1\,C_L s^3, \qquad \frac{dM_{dd}}{ds} = \kappa_A - 2\tau s - 0.3\,C_L s^2 
+\tag{80}
+$$
+
+**Equation 81, Sweep at Which the Korn Relation Peaks.**
+The turning point of the Korn relation is the positive root of that quadratic, which gives the sweep beyond which more sweep lowers the drag-divergence Mach number.
+
+$$
+ s^{*} = \frac{-\tau + \sqrt{\tau^2 + 0.3\,\kappa_A C_L}}{0.3\,C_L}, \qquad \Lambda^{*} = \arccos\frac{1}{s^{*}} 
+\tag{81}
+$$
+
+*Equation 82, Bespoke Bending Material Cost of Thinning and Sweeping.*
+The article's weight model, inverse in thickness and in the square of the cosine of sweep, prices the Phase IV change from Phase III at a factor of 1.29 on bending material.
+
+$$
+ \frac{W_b^{\,\mathrm{P4}}}{W_b^{\,\mathrm{P3}}} = \frac{\tau_{\mathrm{P3}}}{\tau_{\mathrm{P4}}} \cdot \frac{\cos^2 \Lambda_{\mathrm{P3}}}{\cos^2 \Lambda_{\mathrm{P4}}} 
+\tag{82}
+$$
+
+**Equation 83, Fuel Volume Deficit.**
+The deficit is the required fuel volume less the available volume, as a fraction of the requirement.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ \text{deficit} = \frac{\mathcal{V}_{\mathrm{required}} - \mathcal{V}_{\mathrm{available}}}{\mathcal{V}_{\mathrm{required}}} 
+\tag{83}
+$$
+
+**Equation 84, Flutter Speed Margin.**
+The margin is the flutter speed over the speed the certification basis requires, less one.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ \text{margin} = \frac{V_{\mathrm{flutter}}}{V_{\mathrm{required}}} - 1 
+\tag{84}
+$$
+
+**Equation 85, Ground-Effect Group.**
+The ratio of span to twice the height above the ground governs the upwash an image vortex system induces at the wing.
+
+$$
+ \Sigma = \frac{b}{2h} 
+\tag{85}
+$$
+
+**Equation 86, Fuel Reductions as Percentage Points and as Percentages.**
+The difference of two reductions against a baseline and the percentage change between the two configurations share a numerator and differ in denominator.
+
+$$
+ r_i = 1 - \frac{\beta_i}{\beta_0}, \qquad r_1 - r_2 = \frac{\beta_2 - \beta_1}{\beta_0}, \qquad \frac{\beta_2}{\beta_1} - 1 = \frac{\beta_2 - \beta_1}{\beta_1} 
+\tag{86}
+$$
+
+**Equation 87, Ratio of the Two Statements of the Fuel Change.**
+The ratio of the percentage change in fuel to the percentage-point change in reduction is the baseline over the first configuration, 2.3279.
+[SUGAR Phase IV final report][ref_cr_phase4]
+
+$$
+ \frac{\text{percentage change in fuel}}{\text{percentage-point change in reduction}} = \frac{\beta_0}{\beta_1} = 2.3279 
+\tag{87}
+$$
+
+**Equation 88, Advantages and Costs in the Like-for-Like Comparison.**
+The truss-braced aircraft's start-of-climb lift-to-drag ratio is 12.92 percent better, while it needs 25.65 percent more sea-level static thrust and cruises 4,250 feet higher.
+[Recine et al. 2025a][ref_recine_2025]
+
+$$
+ \frac{23.6}{20.9} - 1 = 0.1292, \qquad \frac{23{,}277}{18{,}525} - 1 = 0.2565, \qquad 44{,}750 - 40{,}500 = 4{,}250 \ \text{ft} 
+\tag{88}
+$$
+
+*Equation 89, Bespoke Apparent Weight Elasticity of a Pair.*
+The article takes the logarithm of the weight ratio over the logarithm of the aspect-ratio ratio of two otherwise different aircraft as an apparent elasticity.
+[Recine et al. 2025a][ref_recine_2025]
+
+$$
+ \nu_{\mathrm{apparent}} = \frac{\ln\left(W_2/W_1\right)}{\ln\left(A_2/A_1\right)} 
+\tag{89}
+$$
+
+*Equation 90, Bespoke Shortfall of the Largest Apparent Elasticity.*
+The largest apparent elasticity falls 66.8 percent short of the article's exact fixed-lift target of 0.299.
+
+$$
+ 1 - \frac{0.09926}{0.299033} = 0.668 
+\tag{90}
+$$
+
+**Equation 91, Braced Wing and Strut Weight Against the Cantilever.**
+The braced wing alone weighs 1.38 or 4.28 percent more than the cantilever wing on the two calibrations, and with the strut 24.58 or 28.10 percent more.
+[Recine et al. 2025a][ref_recine_2025]
+
+$$
+ \frac{13{,}045}{12{,}867} - 1 = 0.0138, \qquad \frac{13{,}418}{12{,}867} - 1 = 0.0428, \qquad \frac{13{,}045 + 2{,}985}{12{,}867} - 1 = 0.2458, \qquad \frac{13{,}418 + 3{,}065}{12{,}867} - 1 = 0.2810 
+\tag{91}
+$$
+
+*Equation 92, Bespoke Primary Fraction and Period Count of the Survey.*
+The article summarises its reference survey by the fraction of research records from report servers and the count of records from 2015 onward.
+
+$$
+ \text{primary fraction} = \frac{\left|\left\{r : \mathrm{src}(r) \in \{\text{reports}, \text{defence}\}\right\}\right|}{\left|\mathcal{R}\right|}, \qquad \text{period count} = \left|\left\{r : \mathrm{year}(r) \ge 2015\right\}\right| 
+\tag{92}
+$$
+
+### Notation
+
+- $\mu_i$, the payment attached to milestone $i$
+- $\mathcal{P}_{\mathrm{new}}$, a budget projection for one fiscal year in the later book, with $\mathcal{P}_{\mathrm{old}}$ that in the earlier book
+- $A$, the wing aspect ratio
+- $A^{*}$, the aspect ratio at which fuel burn is stationary
+- $b$, the wing span, tip to tip
+- $b_f$, the folded wing span
+- $S$, the wing reference area
+- $T_{\mathrm{sl}}$, the sea-level standard temperature, with $p_{\mathrm{sl}}$ the sea-level standard pressure
+- $\lambda_a$, the troposphere lapse rate
+- $h_{\mathrm{t}}$, the tropopause altitude
+- $R_a$, the specific gas constant for air
+- $g_0$, standard gravity
+- $\gamma$, the ratio of specific heats, taken as 1.4 for dry air
+- $a$, the speed of sound at the cruise condition
+- $q$, the free-stream dynamic pressure
+- $W$, the aircraft weight
+- $C_L$, the cruise lift coefficient
+- $p^{\ast}$, the ambient pressure at which the drag buildup's lift coefficient holds
+- $h^{\ast}$, the geopotential altitude at which the drag buildup's lift coefficient holds
+- $C_{D,0}$, the parasite drag coefficient, the incompressible zero-lift part
+- $C_{D,i}$, the induced drag coefficient
+- $C_{D,c}$, the compressibility drag coefficient, which also carries the laminar-flow credit
+- $C_{D,t}$, the trim drag coefficient
+- $\mathcal{F}$, the equivalent flat plate area
+- $e$, the airplane efficiency factor for drag due to lift
+- $\delta$, the induced-drag fraction of total cruise drag
+- $\mathcal{N}$, the design load factor
+- $L$, the total lift carried by the wing at the design load factor
+- $\ell$, the local lift per unit span
+- $\mathcal{M}$, the wing bending moment about the structural axis
+- $\mathcal{A}_c$, the cross-sectional area of one bending cap
+- $\sigma$, the allowable stress in the cap material
+- $h_c$, the separation between the centroids of the upper and lower caps
+- $\kappa_h$, the ratio of cap-centroid separation to maximum section depth
+- $\tau$, the wing thickness-to-chord ratio
+- $c_r$, the root chord
+- $\lambda$, the wing taper ratio, tip chord over root chord
+- $W_b$, the bending material weight of the wing
+- $\rho_m$, the density of the cap material
+- $\mathcal{I}(\lambda)$, the taper integral of the moment shape against the chord
+- $\Lambda$, the wing quarter-chord sweep angle
+- $m_f$, the fuel burned over the cruise leg
+- $c_T$, the thrust specific fuel consumption
+- $R$, the cruise range
+- $\nu$, the weight elasticity, the logarithmic derivative of aircraft weight with respect to aspect ratio
+- $W_w$, the aspect-ratio-sensitive weight group
+- $W_0$, the part of aircraft weight that does not change with aspect ratio
+- $k_w$, the coefficient of the aspect-ratio-sensitive weight group
+- $\omega$, the aspect-ratio-sensitive weight as a fraction of aircraft weight
+- $\varepsilon$, the fractional error in aspect ratio, measured logarithmically
+- $\zeta$, the fuel fraction, fuel burned over aircraft weight
+- $X$, the Breguet exponent
+- $\Phi$, the Breguet correction factor
+- $\Delta$, the span margin against a reference-code bound
+- $b_{\mathrm{bound}}$, a span bound of an aerodrome reference code, in feet
+- $\eta$, the station of the brace attachment as a fraction of semispan
+- $E$, the Young's modulus of the cap material in the fibre direction
+- $P$, the vertical relief force the brace delivers at its attachment
+- $\mathcal{B}$, the bending-material integral, braced or unbraced
+- $k_{\mathrm{no}}$, the non-optimum factor, published bending material over the model's
+- $\Gamma$, the main strut dihedral angle
+- $T_s$, the axial force in the main strut
+- $P_{\mathrm{cr}}$, the Euler critical buckling load of the strut
+- $K$, the effective-length factor in the Euler buckling load
+- $\mathcal{L}_s$, the unsupported length of the strut in buckling
+- $M_{dd}$, the drag-divergence Mach number
+- $\kappa_A$, the Korn airfoil-technology constant
+- $s$, the secant of the wing sweep angle
+- $\mathcal{V}_{\mathrm{required}}$, the fuel volume required, with $\mathcal{V}_{\mathrm{available}}$ the volume available
+- $\Sigma$, the ground-effect group, span over twice the height
+- $r_i$, the fuel-burn reduction of configuration $i$ against the baseline
+- $\beta_i$, the block fuel per seat of configuration $i$
+- $\mathcal{R}$, the set of research records in the reference survey
 
 ## References
 
