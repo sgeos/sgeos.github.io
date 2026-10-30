@@ -19,39 +19,63 @@ This sixth article of the series treats the 1900-1924 period during which the Am
 
 The 1900-1924 period produced the largest immigration wave in American history through the completion of the Ellis Island and Angel Island processing era. Total arrivals reached approximately
 
-$$N_{\text{immigrant arrivals, US, 1900 to 1914}} \approx 1.4 \times 10^7, \quad N_{\text{immigrant arrivals, US, 1900 to 1924}} \approx 1.85 \times 10^7$$
+$$
+N_{\text{immigrant arrivals, US, 1900 to 1914}} \approx 1.4 \times 10^7, \quad N_{\text{immigrant arrivals, US, 1900 to 1924}} \approx 1.85 \times 10^7
+\tag{1}
+$$
 
 representing approximately
 
-$$f_{\text{immigrant share, US population}}\bigg|_{1910} \approx 0.145, \quad f_{\text{immigrant share, US population}}\bigg|_{1920} \approx 0.132$$
+$$
+f_{\text{immigrant share, US population}}\bigg|_{1910} \approx 0.145, \quad f_{\text{immigrant share, US population}}\bigg|_{1920} \approx 0.132
+\tag{2}
+$$
 
 the highest sustained foreign-born population share in American history through the late twentieth-century immigration recovery treated in later articles. The [Daniels 2004][book_daniels_2004] Guarding the Golden Door, [Higham et al. 1955][book_higham_1955] Strangers in the Land (already cited in A270), [Gerstle 2001][book_gerstle_2001] American Crucible, and [Zolberg 2006][book_zolberg_2006] A Nation by Design provide the standard treatments.
 
 Peak annual arrivals of the pre-World War I period reached
 
-$$N_{\text{immigrant arrivals, US}}(1907) \approx 1.29 \times 10^6, \quad N_{\text{immigrant arrivals, US}}(1914) \approx 1.22 \times 10^6$$
+$$
+N_{\text{immigrant arrivals, US}}(1907) \approx 1.29 \times 10^6, \quad N_{\text{immigrant arrivals, US}}(1914) \approx 1.22 \times 10^6
+\tag{3}
+$$
 
 representing the highest single-year totals in American history prior to the late-twentieth-century wave. World War I reduced arrivals through Atlantic passage disruption,
 
-$$N_{\text{immigrant arrivals, US}}(1918) \approx 1.1 \times 10^5$$
+$$
+N_{\text{immigrant arrivals, US}}(1918) \approx 1.1 \times 10^5
+\tag{4}
+$$
 
 before postwar recovery reaching approximately 800,000 in 1921 that would trigger the restrictionist legislation treated below. The national composition of arrivals shifted from "old immigration" (British, Irish, German, Scandinavian) to "new immigration" (Italian, Slavic, Jewish, Greek, Middle Eastern),
 
-$$f_{\text{new immigration share, US arrivals}}\bigg|_{1880} \approx 0.10, \quad f_{\text{new immigration share, US arrivals}}\bigg|_{1900} \approx 0.60, \quad f_{\text{new immigration share, US arrivals}}\bigg|_{1910} \approx 0.75$$
+$$
+f_{\text{new immigration share, US arrivals}}\bigg|_{1880} \approx 0.10, \quad f_{\text{new immigration share, US arrivals}}\bigg|_{1900} \approx 0.60, \quad f_{\text{new immigration share, US arrivals}}\bigg|_{1910} \approx 0.75
+\tag{5}
+$$
 
 that restrictionist rhetoric would treat as racially and religiously distinct.
 
 Ellis Island (opened 1892, principal operations through 1924, closed 1954) processed approximately
 
-$$N_{\text{immigrants through Ellis Island, 1892 to 1954}} \approx 1.2 \times 10^7$$
+$$
+N_{\text{immigrants through Ellis Island, 1892 to 1954}} \approx 1.2 \times 10^7
+\tag{6}
+$$
 
 representing the vast majority of the European-source immigration of the period. Primary institutional sources include the [US Immigration Bureau Annual Reports][ref_us_immigration_bureau_reports] and [Dillingham Commission Reports 1911][ref_dillingham_commission_1911] Reports of the Immigration Commission (the forty-two-volume 1907-1911 federal survey shaping the restrictionist framing). Angel Island (opened 1910 in San Francisco Bay) processed approximately
 
-$$N_{\text{immigrants through Angel Island, 1910 to 1940}} \approx 5 \times 10^5$$
+$$
+N_{\text{immigrants through Angel Island, 1910 to 1940}} \approx 5 \times 10^5
+\tag{7}
+$$
 
 representing the Chinese, Japanese, Filipino, Korean, and South Asian immigrant processing under much more restrictive conditions than the Ellis Island counterpart. Rejection rates diverged between the stations,
 
-$$f_{\text{rejection rate, Ellis Island, 1900 to 1924}} \approx 0.02, \quad f_{\text{rejection rate, Angel Island, 1910 to 1940}} \approx 0.18$$
+$$
+f_{\text{rejection rate, Ellis Island, 1900 to 1924}} \approx 0.02, \quad f_{\text{rejection rate, Angel Island, 1910 to 1940}} \approx 0.18
+\tag{8}
+$$
 
 with the Angel Island's higher rate reflecting Chinese Exclusion enforcement, [Immigration Act 1917][ref_immigration_act_1917] (Asiatic Barred Zone plus literacy test), and subsequent restrictive frameworks. The [Cannato 2009][book_cannato_2009] American Passage and [Barde 2008][book_barde_2008] Immigration at the Golden Gate provide the processing station histories. The [Lee and Yung 2010][book_lee_yung_2010] Angel Island treats the Angel Island experience in detail.
 
@@ -59,63 +83,90 @@ with the Angel Island's higher rate reflecting Chinese Exclusion enforcement, [I
 
 Italian migration accelerated through the pre-World War I decade continuing the pattern documented in [A270][related_post_a270_civil_war_and_reconstruction]. Total Italian arrivals through 1924 reached approximately
 
-$$N_{\text{Italian arrivals, US, 1900 to 1914}} \approx 3 \times 10^6, \quad N_{\text{Italian arrivals, US, 1900 to 1924}} \approx 3.8 \times 10^6$$
+$$
+N_{\text{Italian arrivals, US, 1900 to 1914}} \approx 3 \times 10^6, \quad N_{\text{Italian arrivals, US, 1900 to 1924}} \approx 3.8 \times 10^6
+\tag{9}
+$$
 
 with the southern Italian regional composition continuing at approximately
 
-$$f_{\text{southern Italian in US Italian arrivals, 1900 to 1914}} \approx 0.80$$
+$$
+f_{\text{southern Italian in US Italian arrivals, 1900 to 1914}} \approx 0.80
+\tag{10}
+$$
 
 per Immigration Commission origin data. Italian return migration continued at approximately 50% through the pre-World War I period before dropping to approximately
 
-$$f_{\text{Italian return migration rate, post-1918}} \approx 0.15$$
+$$
+f_{\text{Italian return migration rate, post-1918}} \approx 0.15
+\tag{11}
+$$
 
 after the war-induced Atlantic passage disruption and Fascist restrictions on emigration from Italy. The [Mangione et al. 1992][book_mangione_morreale_1992] La Storia (already cited in A270), [Gabaccia 2000][book_gabaccia_2000] Italy's Many Diasporas (already cited), [Vecoli 1969][research_vecoli_1969] Prelates and Peasants (already cited), and [Baily 1999][book_baily_1999] Immigrants in the Lands of Promise provide the fullest treatments.
 
 Italian American Catholic institutional formation proceeded through the expansion of parishes, Scalabrinian and other Italian-focused missionary orders, mutual aid societies (Sons of Italy founded 1905), and gradual integration into the Irish-dominated American Catholic hierarchy. National parish counts among major ethnic Catholic populations by 1920 approached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Italian national parishes, US}}(1920) &\approx 700 \\
 N_{\text{Polish national parishes, US}}(1920) &\approx 800 \\
 N_{\text{German national parishes, US}}(1920) &\approx 1600 \\
 N_{\text{Slovak national parishes, US}}(1920) &\approx 275 \\
 N_{\text{Hungarian national parishes, US}}(1920) &\approx 90 \\
 N_{\text{Lithuanian national parishes, US}}(1920) &\approx 100
-\end{aligned}$$
+\end{aligned}
+\tag{12}
+$$
 
 per Official Catholic Directory data. Italian American religious formation combined mainstream Catholic parish participation with persistent popular Catholic devotional practices including festa celebrations (San Gennaro, Madonna del Carmine, San Rocco, and regional patron saints), home altar (angolo pio) practices, and saint veneration more intense than in Irish or German Catholic communities.
 
 Polish migration to the United States reached considerable scale through the 1870-1924 period with the bulk concentrated in the 1900-1914 decade. Total Polish arrivals reached approximately
 
-$$N_{\text{Polish arrivals, US, 1870 to 1924}} \approx 2.5 \times 10^6, \quad N_{\text{Polish arrivals, US, 1900 to 1914}} \approx 1.5 \times 10^6$$
+$$
+N_{\text{Polish arrivals, US, 1870 to 1924}} \approx 2.5 \times 10^6, \quad N_{\text{Polish arrivals, US, 1900 to 1914}} \approx 1.5 \times 10^6
+\tag{13}
+$$
 
 per Immigration Commission and consular records. Polish migration originated from the partition composition,
 
-$$f_{\text{Russian Partition, Polish arrivals US}} \approx 0.60, \quad f_{\text{Austrian Galician Partition, Polish arrivals US}} \approx 0.25, \quad f_{\text{Prussian Partition, Polish arrivals US}} \approx 0.15$$
+$$
+f_{\text{Russian Partition, Polish arrivals US}} \approx 0.60, \quad f_{\text{Austrian Galician Partition, Polish arrivals US}} \approx 0.25, \quad f_{\text{Prussian Partition, Polish arrivals US}} \approx 0.15
+\tag{14}
+$$
 
 reflecting the partition of Poland treated in European history. The [Bukowczyk 1987][book_bukowczyk_1987] And My Children Did Not Know Me, [Greene 1975][book_greene_1975] For God and Country, [Kuzniewski 1980][book_kuzniewski_1980] Faith and Fatherland, and [Pula 1995][book_pula_1995] Polish Americans provide the treatments.
 
 Polish American Catholic institutional formation proceeded through the establishment of approximately 800 Polish national parishes by 1920, parochial schools (approximately 500 by 1920), fraternal organizations (Polish National Alliance 1880, Polish Roman Catholic Union 1873), and denominational institutions. Polish American religious formation faced significant tension with the Irish-dominated American Catholic hierarchy, producing the 1897 Polish National Catholic Church schism under Francis Hodur at Scranton, Pennsylvania. Primary sources include Hodur's [Hodur 1913][ref_hodur_1913] Confession of Faith of the Polish National Catholic Church and PNCC founding documents. The [Longinqua Oceani 1895][ref_longinqua_oceani_1895] papal encyclical of Leo XIII addressing the American Catholic hierarchy on national parishes and accommodation to American religious pluralism provided the relevant Vatican positioning. The PNCC provided the first substantial American schismatic Catholic body, reaching approximately
 
-$$P_{\text{Polish National Catholic Church membership, peak c. 1960}} \approx 2.7 \times 10^5$$
+$$
+P_{\text{Polish National Catholic Church membership, peak c. 1960}} \approx 2.7 \times 10^5
+\tag{15}
+$$
 
 by mid-twentieth century before subsequent decline. The [Wlodarski 1974][book_wlodarski_1974] The Origin and Growth of the Polish National Catholic Church treats the formation.
 
 Slovak, Czech, Hungarian, Slovene, Croatian, and other Slavic and Central European Catholic populations arrived through the same 1900-1914 window. Approximate arrivals were
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Slovak arrivals, US, 1900 to 1914}} &\approx 5 \times 10^5 \\
 N_{\text{Czech arrivals, US, 1900 to 1914}} &\approx 1 \times 10^5 \\
 N_{\text{Hungarian arrivals, US, 1900 to 1914}} &\approx 4 \times 10^5 \\
 N_{\text{Croatian arrivals, US, 1900 to 1914}} &\approx 3 \times 10^5 \\
 N_{\text{Slovene arrivals, US, 1900 to 1914}} &\approx 1 \times 10^5 \\
 N_{\text{Lithuanian arrivals, US, 1900 to 1914}} &\approx 2.5 \times 10^5
-\end{aligned}$$
+\end{aligned}
+\tag{16}
+$$
 
 per Immigration Commission records. Each national group established national parishes and parochial infrastructure. The [Alexander 1987][book_alexander_1987] The Immigrant Church and Community and [Stolarik 1985][book_stolarik_1985] Growing Up on the South Side treat the Slovak formation. The [Čapek 1920][book_capek_1920] The Cechs (Bohemians) in America treats the Czech formation. The [Puskás 2000][book_puskas_2000] Ties That Bind, Ties That Divide treats the Hungarian formation.
 
 Ukrainian and Ruthenian populations from the Austro-Hungarian Empire's Galicia and Transcarpathian regions arrived as dual-tradition populations combining Byzantine Catholic (Greek Catholic or Uniate, in communion with Rome but with Eastern liturgical practice) and Ukrainian Orthodox identifications. Approximate arrivals reached
 
-$$N_{\text{Ukrainian and Ruthenian arrivals, US, 1880 to 1914}} \approx 5 \times 10^5$$
+$$
+N_{\text{Ukrainian and Ruthenian arrivals, US, 1880 to 1914}} \approx 5 \times 10^5
+\tag{17}
+$$
 
 with marked concentration in Pennsylvania coal mining regions and New York City. The 1907 Vatican appointment of Soter Ortynsky as first Ukrainian Greek Catholic bishop in America provided the institutional formation. The 1929 papal restriction on married Ukrainian Greek Catholic clergy in America (Ea Semper of 1907 and subsequent Cum Data Fuerit of 1929) motivated the Ukrainian Orthodox Church of the United States of America formation (1919) and American Carpatho-Russian Orthodox Diocese formation (1938 under Metropolitan Orestes Chornock, who had led the American Uniate withdrawal from Rome). The [Kuropas 1996][book_kuropas_1996] Ukrainian Americans and [Magocsi 1984][book_magocsi_1984] Our People treat the formations.
 
@@ -123,23 +174,35 @@ with marked concentration in Pennsylvania coal mining regions and New York City.
 
 Eastern European Jewish migration accelerated through the 1900-1914 period continuing the pattern documented in [A270][related_post_a270_civil_war_and_reconstruction]. Total arrivals reached approximately
 
-$$N_{\text{Eastern European Jewish arrivals, US, 1900 to 1914}} \approx 1.6 \times 10^6, \quad N_{\text{Eastern European Jewish arrivals, US, 1881 to 1924}} \approx 2.5 \times 10^6$$
+$$
+N_{\text{Eastern European Jewish arrivals, US, 1900 to 1914}} \approx 1.6 \times 10^6, \quad N_{\text{Eastern European Jewish arrivals, US, 1881 to 1924}} \approx 2.5 \times 10^6
+\tag{18}
+$$
 
 producing the American Jewish population trajectory
 
-$$P_{\text{Jewish, US}}(1900) \approx 1 \times 10^6, \quad P_{\text{Jewish, US}}(1914) \approx 3 \times 10^6, \quad P_{\text{Jewish, US}}(1924) \approx 4 \times 10^6$$
+$$
+P_{\text{Jewish, US}}(1900) \approx 1 \times 10^6, \quad P_{\text{Jewish, US}}(1914) \approx 3 \times 10^6, \quad P_{\text{Jewish, US}}(1924) \approx 4 \times 10^6
+\tag{19}
+$$
 
 per Jewish community demographic records. Push factors included the 1903 Kishinev pogrom, 1905-1907 pogrom wave following the 1905 Russian Revolution, and ongoing anti-Jewish discrimination under Russian Empire policies. The [Sarna 2004][book_sarna_2004] American Judaism (already cited), [Howe 1976][book_howe_1976] World of Our Fathers (already cited), [Klier and Lambroza 1992][book_klier_lambroza_1992] Pogroms, and [Zipperstein 2018][book_zipperstein_2018] Pogrom provide the detailed treatments.
 
 Institutional infrastructure for the mass Jewish immigration expanded considerably. The Hebrew Immigrant Aid Society (HIAS), formed 1902 through the consolidation of earlier Hebrew Sheltering House Society (1889) and Hebrew Immigrant Aid Society (1892), provided the primary Jewish immigrant reception institution. HIAS case volume reached approximately
 
-$$N_{\text{HIAS cases annually, peak c. 1913 to 1914}} \approx 5 \times 10^4, \quad N_{\text{HIAS cumulative cases, 1902 to 1924}} \approx 5 \times 10^5$$
+$$
+N_{\text{HIAS cases annually, peak c. 1913 to 1914}} \approx 5 \times 10^4, \quad N_{\text{HIAS cumulative cases, 1902 to 1924}} \approx 5 \times 10^5
+\tag{20}
+$$
 
 per institutional records. The Educational Alliance at New York's Lower East Side (founded 1889) provided the Americanization and vocational education infrastructure. The 1912 Hadassah Women's Zionist Organization of America founding under Henrietta Szold, the 1914 American Jewish Joint Distribution Committee formation, and the 1918 Union of Orthodox Jewish Congregations founding provided the denominational and transnational infrastructure. Louis Brandeis's 1915-1921 leadership of the Federation of American Zionists (subsequently Zionist Organization of America) transformed American Zionism into mainstream American Jewish institutional position. Primary sources include Brandeis's [Brandeis 1915][ref_brandeis_1915_zionism] Zionism and Patriotism and the [Balfour Declaration 1917][ref_balfour_declaration_1917] British commitment to "national home for the Jewish people in Palestine" that shaped American Zionist mobilization. The [Levine 1997][book_levine_1997] American Zionism from Herzl to the Holocaust and [Diner 1992][book_diner_1992] A Time for Gathering provide the leading treatments.
 
 The Conservative Judaism movement, founded institutionally through the 1886 Jewish Theological Seminary treated in [A270][related_post_a270_civil_war_and_reconstruction], expanded through the 1902-1915 leadership of Solomon Schechter as JTS President. The United Synagogue of America (1913, subsequently United Synagogue of Conservative Judaism) provided the congregational infrastructure. Reform Judaism under the Union of American Hebrew Congregations expanded significantly, adopting the 1937 Columbus Platform that would modify the 1885 Pittsburgh Platform's classical Reform position treated in [A270][related_post_a270_civil_war_and_reconstruction]. Reconstructionist Judaism, articulated by Mordecai Kaplan through his 1934 [Kaplan 1934][ref_kaplan_1934] Judaism as a Civilization and formally organized through the 1922 Society for the Advancement of Judaism, provided the fourth major American Jewish denomination. Approximate American Jewish denominational composition by 1930 was
 
-$$f_{\text{Orthodox share, US Jewish}}\bigg|_{1930} \approx 0.65, \quad f_{\text{Conservative share}}\bigg|_{1930} \approx 0.15, \quad f_{\text{Reform share}}\bigg|_{1930} \approx 0.15, \quad f_{\text{unaffiliated}}\bigg|_{1930} \approx 0.05$$
+$$
+f_{\text{Orthodox share, US Jewish}}\bigg|_{1930} \approx 0.65, \quad f_{\text{Conservative share}}\bigg|_{1930} \approx 0.15, \quad f_{\text{Reform share}}\bigg|_{1930} \approx 0.15, \quad f_{\text{unaffiliated}}\bigg|_{1930} \approx 0.05
+\tag{21}
+$$
 
 with extensive twentieth-century shift toward Conservative predominance treated in article seven. The [Gurock 2009][book_gurock_2009] Orthodox Jews in America and [Karp 1998][book_karp_1998] Jewish Continuity in America treat the denominational formations.
 
@@ -147,13 +210,19 @@ with extensive twentieth-century shift toward Conservative predominance treated 
 
 Greek migration to the United States began in the 1890s and accelerated through the 1900-1924 period. Total arrivals reached approximately
 
-$$N_{\text{Greek arrivals, US, 1890 to 1924}} \approx 5.5 \times 10^5$$
+$$
+N_{\text{Greek arrivals, US, 1890 to 1924}} \approx 5.5 \times 10^5
+\tag{22}
+$$
 
 per Immigration Commission and US Consul records. Push factors included the Ottoman collapse in the Balkan territories, Balkan Wars 1912-1913, and post-World War I population exchanges culminating in the 1923 Treaty of Lausanne population exchange between Greece and Turkey. The [Saloutos 1964][book_saloutos_1964] The Greeks in the United States, [Moskos 1980][book_moskos_1980] Greek Americans, and [Kitroeff 2020][book_kitroeff_2020] The Greeks and the Making of Modern East Mediterranean History provide the principal treatments.
 
 Greek American Orthodox institutional formation proceeded through sizable parish establishment,
 
-$$N_{\text{Greek Orthodox parishes, US}}(1900) \approx 20, \quad N_{\text{Greek Orthodox parishes, US}}(1920) \approx 200, \quad N_{\text{Greek Orthodox parishes, US}}(1940) \approx 300$$
+$$
+N_{\text{Greek Orthodox parishes, US}}(1900) \approx 20, \quad N_{\text{Greek Orthodox parishes, US}}(1920) \approx 200, \quad N_{\text{Greek Orthodox parishes, US}}(1940) \approx 300
+\tag{23}
+$$
 
 initially under the jurisdiction of the Ecumenical Patriarchate of Constantinople through 1908 designation. The 1908 [Patriarchal Tomos 1908][ref_patriarchal_tomos_1908] of Ecumenical Patriarch Joachim III conferring jurisdiction over American Greek Orthodox parishes to the Holy Synod of the Church of Greece and subsequent 1922 [Ecumenical Patriarchate Tomos 1922][ref_ecumenical_patriarchate_tomos_1922] transferring jurisdiction back to direct Constantinopolitan authority provided the institutional jurisdictional framework. The 1922 formation of the Greek Orthodox Archdiocese of North and South America under Archbishop Alexander Rodostolou (subsequently Athenagoras from 1930) provided the consolidated American Greek Orthodox institutional structure. The [Papaioannou 1985][book_papaioannou_1985] The Odyssey of Hellenism in America treats the institutional formation.
 
@@ -163,13 +232,19 @@ Greek American religious formation combined Orthodox parish participation with e
 
 Russian Orthodox presence in the United States traced to the 1794 Alaskan Russian Orthodox mission at Kodiak Island under Valaam monks including Herman of Alaska (subsequently canonized 1970), preceded by fur trader lay presence from the 1780s. The 1867 US purchase of Alaska preserved the existing Alaskan Orthodox institutional structure. Subsequent Russian Orthodox migration to the continental United States accelerated through the 1890-1920 period reaching approximately
 
-$$N_{\text{Russian Orthodox arrivals, US, 1890 to 1920}} \approx 1 \times 10^5$$
+$$
+N_{\text{Russian Orthodox arrivals, US, 1890 to 1920}} \approx 1 \times 10^5
+\tag{24}
+$$
 
 per Immigration Commission records, though the figure is complicated by the overlap with Ukrainian, Ruthenian, Belarusian, and other Slavic Orthodox populations. The [Stokoe and Kishkovsky 1995][book_stokoe_kishkovsky_1995] Orthodox Christians in North America and [Efimov 2020][book_efimov_2020] The History of Russian Orthodox in America provide the most complete treatments.
 
 The 1905 transfer of the Russian Orthodox mission headquarters from San Francisco to New York under Bishop Tikhon (subsequently Patriarch of Moscow 1917-1925 and martyred canonization 1989) provided the institutional consolidation of the American Russian Orthodox presence. American Russian Orthodox parishes reached approximately
 
-$$N_{\text{Russian Orthodox parishes, US}}(1900) \approx 25, \quad N_{\text{Russian Orthodox parishes, US}}(1917) \approx 460, \quad N_{\text{Russian Orthodox faithful, US}}(1917) \approx 3 \times 10^5$$
+$$
+N_{\text{Russian Orthodox parishes, US}}(1900) \approx 25, \quad N_{\text{Russian Orthodox parishes, US}}(1917) \approx 460, \quad N_{\text{Russian Orthodox faithful, US}}(1917) \approx 3 \times 10^5
+\tag{25}
+$$
 
 reflecting appreciable pre-Revolution institutional expansion under direct Moscow Patriarchate support. The 1917 Russian Revolution severed the canonical linkage with the Russian Orthodox Church in Moscow, motivating the 1924 declaration of temporary self-governance by the American Russian Orthodox institutional body (subsequently reorganized as the Russian Orthodox Greek Catholic Church of America under Metropolitan Platon and successors). Primary sources include the [All-Russian Council 1917-1918 Documents][ref_all_russian_council_1917] proceedings restoring the Moscow Patriarchate, Tikhon's [Tikhon 1920 Ukase 362][ref_tikhon_1920_ukase] Ukase No. 362 authorizing diocesan self-governance under separation from Moscow, and 1921 [Karlovtsy Sobor 1921 Documents][ref_karlovtsy_sobor_1921] founding documents of the Russian Orthodox Church Outside Russia (ROCOR). The 1970 autocephaly grant from the Moscow Patriarchate produced the Orthodox Church in America (OCA) as the first canonically autocephalous American Orthodox body treated in later articles.
 
@@ -179,13 +254,19 @@ Parallel Russian Orthodox institutional formation proceeded through the Russian 
 
 Middle Eastern Christian migration to the United States began in the 1880s and accelerated through the 1900-1924 period producing the first considerable American Levantine Christian population. Total arrivals from Ottoman-controlled Greater Syria (comprising present-day Syria, Lebanon, Palestine/Israel, and Jordan) reached approximately
 
-$$N_{\text{Syrian and Lebanese arrivals, US, 1880 to 1924}} \approx 1.3 \times 10^5$$
+$$
+N_{\text{Syrian and Lebanese arrivals, US, 1880 to 1924}} \approx 1.3 \times 10^5
+\tag{26}
+$$
 
 per Immigration Commission records classifying arrivals under "Syrian" umbrella category. The overwhelming majority were Christian (approximately 90%) with smaller Muslim and Druze minorities. The [Naff 1985][book_naff_1985] Becoming American, [Suleiman 1999][book_suleiman_1999] Arabs in America, and [Younis 1995][book_younis_1995] The Coming of the Arabic-Speaking People to the United States provide the standard treatments.
 
 The religious composition of Syrian-Lebanese Christian arrivals combined
 
-$$f_{\text{Maronite Catholic}} \approx 0.40, \quad f_{\text{Antiochian Orthodox}} \approx 0.40, \quad f_{\text{Melkite Greek Catholic}} \approx 0.10, \quad f_{\text{Muslim and Druze}} \approx 0.10$$
+$$
+f_{\text{Maronite Catholic}} \approx 0.40, \quad f_{\text{Antiochian Orthodox}} \approx 0.40, \quad f_{\text{Melkite Greek Catholic}} \approx 0.10, \quad f_{\text{Muslim and Druze}} \approx 0.10
+\tag{27}
+$$
 
 with smaller Chaldean Catholic, Syriac Orthodox, Coptic Egyptian, and other Middle Eastern Christian populations. The Maronite Church, in communion with Rome since the twelfth century Crusader period while maintaining West Syriac liturgical tradition, established American parishes from the 1890s forward. The Maronite Eparchy of Saint Maron of Brooklyn (established 1966) provided the eventual American Maronite ecclesiastical jurisdiction.
 
@@ -197,17 +278,26 @@ Melkite Greek Catholic populations, in communion with Rome while maintaining Byz
 
 The Armenian Genocide of 1915-1923 conducted by the Ottoman government produced approximately
 
-$$N_{\text{Armenian dead, Armenian Genocide, 1915 to 1923}} \approx 1 \times 10^6 \text{ to } 1.5 \times 10^6$$
+$$
+N_{\text{Armenian dead, Armenian Genocide, 1915 to 1923}} \approx 1 \times 10^6 \text{ to } 1.5 \times 10^6
+\tag{28}
+$$
 
 per modern historical reconstruction, alongside extensive dispossession and forced migration. The [Suny 2015][book_suny_2015] They Can Live in the Desert but Nowhere Else, [Akçam 2012][book_akcam_2012] The Young Turks' Crime Against Humanity, and [Balakian 2003][book_balakian_2003] The Burning Tigris provide the fullest treatments. Primary sources include Ambassador Henry Morgenthau's 1918 [Morgenthau 1918][ref_morgenthau_1918] Ambassador Morgenthau's Story (as US Ambassador to Ottoman Empire 1913-1916, the primary American diplomatic eyewitness account), the [Bryce Report 1916][ref_bryce_report_1916] The Treatment of Armenians in the Ottoman Empire prepared by Viscount James Bryce and Arnold Toynbee under British parliamentary commission, and [US State Department Armenian Files 1915-1918][ref_state_dept_armenian_files] providing the comprehensive contemporary diplomatic documentation.
 
 Armenian refugee arrivals in the United States accelerated through the 1915-1924 period. Total Armenian arrivals reached approximately
 
-$$N_{\text{Armenian arrivals, US, 1890 to 1924}} \approx 8 \times 10^4$$
+$$
+N_{\text{Armenian arrivals, US, 1890 to 1924}} \approx 8 \times 10^4
+\tag{29}
+$$
 
 with marked concentration in major centers,
 
-$$P_{\text{Armenian American, Fresno metro c. 1930}} \approx 1.5 \times 10^4, \quad P_{\text{Armenian American, New York metro c. 1930}} \approx 3 \times 10^4, \quad P_{\text{Armenian American, Boston metro c. 1930}} \approx 2 \times 10^4$$
+$$
+P_{\text{Armenian American, Fresno metro c. 1930}} \approx 1.5 \times 10^4, \quad P_{\text{Armenian American, New York metro c. 1930}} \approx 3 \times 10^4, \quad P_{\text{Armenian American, Boston metro c. 1930}} \approx 2 \times 10^4
+\tag{30}
+$$
 
 per American Committee for Relief in the Near East and denominational records. The [Bakalian 1993][book_bakalian_1993] Armenian-Americans and [Mirak 1983][book_mirak_1983] Torn Between Two Lands provide the treatments of Armenian American formation.
 
@@ -215,7 +305,10 @@ Armenian religious institutional formation combined Armenian Apostolic Church (t
 
 The American humanitarian response to the Armenian Genocide mobilized American Protestant missionary networks and broader public philanthropic response. Near East Relief (founded 1915 as American Committee for Armenian and Syrian Relief, subsequently Near East Foundation) provided the primary American humanitarian institutional response, mobilizing approximately
 
-$$C_{\text{Near East Relief cumulative funds raised, 1915 to 1930}} \approx 1.16 \times 10^8 \text{ US dollars nominal}$$
+$$
+C_{\text{Near East Relief cumulative funds raised, 1915 to 1930}} \approx 1.16 \times 10^8 \text{ US dollars nominal}
+\tag{31}
+$$
 
 per institutional records. The [Barton 1930][book_barton_1930] Story of Near East Relief and [Watenpaugh 2015][book_watenpaugh_2015] Bread from Stones treat the humanitarian mobilization.
 
@@ -223,13 +316,19 @@ per institutional records. The [Barton 1930][book_barton_1930] Story of Near Eas
 
 The 1898 US annexation of the Philippines treated in [A270][related_post_a270_civil_war_and_reconstruction] produced the unusual migration category of Filipino "US nationals" who were neither US citizens nor aliens through the 1898-1934 period. The Philippine Organic Act 1902 [Philippine Organic Act 1902][ref_philippine_organic_act_1902] established the classification, and the 1934 Tydings-McDuffie Act (Philippine Independence Act) treated in article seven ended the status. Filipino arrivals through 1924 reached approximately
 
-$$N_{\text{Filipino arrivals, US mainland, 1906 to 1924}} \approx 4.5 \times 10^4, \quad N_{\text{Filipino arrivals, Hawaii, 1906 to 1924}} \approx 6 \times 10^4$$
+$$
+N_{\text{Filipino arrivals, US mainland, 1906 to 1924}} \approx 4.5 \times 10^4, \quad N_{\text{Filipino arrivals, Hawaii, 1906 to 1924}} \approx 6 \times 10^4
+\tag{32}
+$$
 
 with sizable concentration in Hawaiian sugar plantations, California agricultural labor, and Alaska salmon canneries. The [Cordova 1983][book_cordova_1983] Filipinos, [Espana-Maram 2006][book_espana_maram_2006] Creating Masculinity in Los Angeles's Little Manila, and [Fujita-Rony 2003][book_fujita_rony_2003] American Workers, Colonial Power provide the detailed treatments.
 
 Religious composition of Filipino arrivals reflected
 
-$$f_{\text{Catholic among Filipino arrivals}} \approx 0.85, \quad f_{\text{Protestant among Filipino arrivals}} \approx 0.10, \quad f_{\text{Aglipayan and other}} \approx 0.05$$
+$$
+f_{\text{Catholic among Filipino arrivals}} \approx 0.85, \quad f_{\text{Protestant among Filipino arrivals}} \approx 0.10, \quad f_{\text{Aglipayan and other}} \approx 0.05
+\tag{33}
+$$
 
 with the Catholic majority reflecting the 350-year Spanish colonial Catholic evangelization treated in earlier series articles, the Protestant minority from the post-1898 American Protestant missionary evangelization treated in [A270][related_post_a270_civil_war_and_reconstruction], and Aglipayan (Iglesia Filipina Independiente, founded 1902 under Gregorio Aglipay as Filipino nationalist Catholic schism) minority populations. The [Aglipay 1902][ref_aglipay_1902] writings and IFI institutional documents provide the primary sources.
 
@@ -241,13 +340,19 @@ The Foraker Act (Organic Act of 1900) [Foraker Act 1900][ref_foraker_act_1900] p
 
 Puerto Rican migration to the US mainland began with the 1917 citizenship grant and accelerated through the 1920s and post-World War II period. Total Puerto Rican mainland population reached approximately
 
-$$P_{\text{Puerto Rican, US mainland}}(1920) \approx 1.2 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1940) \approx 7 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1960) \approx 8.9 \times 10^5$$
+$$
+P_{\text{Puerto Rican, US mainland}}(1920) \approx 1.2 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1940) \approx 7 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1960) \approx 8.9 \times 10^5
+\tag{34}
+$$
 
 with substantial concentration initially in New York City (particularly East Harlem, subsequently termed "El Barrio," and Bronx). The [Sanchez Korrol 1994][book_sanchez_korrol_1994] From Colonia to Community provides the comprehensive early treatment.
 
 Puerto Rican religious composition reflected
 
-$$f_{\text{Catholic, Puerto Rico}}\bigg|_{1917} \approx 0.90, \quad f_{\text{Catholic, Puerto Rico}}\bigg|_{1960} \approx 0.75, \quad f_{\text{Catholic, Puerto Rico}}\bigg|_{2020} \approx 0.55$$
+$$
+f_{\text{Catholic, Puerto Rico}}\bigg|_{1917} \approx 0.90, \quad f_{\text{Catholic, Puerto Rico}}\bigg|_{1960} \approx 0.75, \quad f_{\text{Catholic, Puerto Rico}}\bigg|_{2020} \approx 0.55
+\tag{35}
+$$
 
 reflecting the 400-year Spanish colonial Catholic evangelization followed by marked twentieth-century Protestant and Pentecostal expansion treated below, with residual African-Puerto Rican religious traditions including Espiritismo and Santería syncretic practices particularly among Afro-Puerto Rican populations.
 
@@ -255,7 +360,10 @@ reflecting the 400-year Spanish colonial Catholic evangelization followed by mar
 
 The Mexican Revolution of 1910-1920 produced extensive refugee flows to the United States. Total Mexican arrivals reached approximately
 
-$$N_{\text{Mexican arrivals, US, 1910 to 1920}} \approx 6.5 \times 10^5, \quad N_{\text{Mexican arrivals, US, 1900 to 1930}} \approx 1.4 \times 10^6$$
+$$
+N_{\text{Mexican arrivals, US, 1910 to 1920}} \approx 6.5 \times 10^5, \quad N_{\text{Mexican arrivals, US, 1900 to 1930}} \approx 1.4 \times 10^6
+\tag{36}
+$$
 
 per Immigration Commission and US Consul records, reshaping the Mexican American population previously concentrated in the 1848 Treaty of Guadalupe Hidalgo-incorporated Southwest treated in [A269][related_post_a269_second_awakening_and_reform]. The [Sanchez 1993][book_sanchez_1993] Becoming Mexican American, [Gutiérrez 1995][book_gutierrez_1995] Walls and Mirrors, and [Balderrama and Rodriguez 2006][book_balderrama_rodriguez_2006] Decade of Betrayal provide the principal treatments.
 
@@ -263,7 +371,10 @@ The 1917 Immigration Act's literacy test and $8 head tax were waived for Mexican
 
 Mexican religious formation was Roman Catholic reflecting the 400-year Spanish colonial Catholic evangelization, though significant Mexican Protestant populations emerged through late nineteenth-century Protestant missionary activity and twentieth-century Pentecostal expansion. The 1917 [Mexican Constitution 1917][ref_mexican_constitution_1917] contained appreciable anticlerical provisions (particularly Articles 3, 5, 24, 27, and 130) restricting Church property ownership, religious education, religious dress in public, and clergy political participation. Subsequent 1926 President Plutarco Elías Calles enforcement of anticlerical provisions ("Calles Law") produced the 1926-1929 Cristero War (Catholic peasant uprising against the anticlerical revolutionary government) which produced additional Catholic refugee flow to the United States including approximately
 
-$$N_{\text{Mexican Catholic refugees, Cristero period, 1926 to 1929}} \approx 2.5 \times 10^5$$
+$$
+N_{\text{Mexican Catholic refugees, Cristero period, 1926 to 1929}} \approx 2.5 \times 10^5
+\tag{37}
+$$
 
 with considerable priests and religious among the refugee population. The [Meyer 1976][book_meyer_1976] The Cristero Rebellion treats the Cristero War. Primary papal sources include Pius XI's 1926 [Iniquis Afflictisque 1926][ref_iniquis_afflictisque_1926] encyclical (On the Persecution of the Church in Mexico) and 1932 [Acerba Animi 1932][ref_acerba_animi_1932] encyclical (On the Persecution of the Church in Mexico), providing the Vatican positioning.
 
@@ -273,13 +384,19 @@ Mexican American Catholic religious formation combined mainstream Catholic paris
 
 Sikh and Punjabi migration to the United States began in the 1899-1908 period with the first arrivals in Vancouver, British Columbia and Pacific coast US destinations. Total South Asian arrivals through the pre-restriction period reached approximately
 
-$$N_{\text{South Asian arrivals, US, 1899 to 1917}} \approx 8 \times 10^3$$
+$$
+N_{\text{South Asian arrivals, US, 1899 to 1917}} \approx 8 \times 10^3
+\tag{38}
+$$
 
 with approximately 85% Punjabi Sikh, approximately 10% Punjabi Muslim, and smaller Hindu populations. The [Leonard 1992][book_leonard_1992] Making Ethnic Choices, [Jensen 1988][book_jensen_1988] Passage from India, [La Brack 1988][book_la_brack_1988] The Sikhs of Northern California, and [Bald 2013][book_bald_2013] Bengali Harlem provide the most complete treatments.
 
 Sikh institutional formation proceeded through the 1912 Stockton gurdwara establishment at Stockton, California (the first Sikh gurdwara in the United States), 1913 Ghadar Party formation at San Francisco under Har Dayal and colleagues combining Indian nationalist mobilization with Sikh community organization, and gurdwara expansion through the California Central Valley. The 1913 California Alien Land Law treated in [A270][related_post_a270_civil_war_and_reconstruction] restricted Sikh agricultural landownership, motivating the California Punjabi-Mexican marriage pattern documented by [Leonard 1992][book_leonard_1992] where Sikh men married Mexican and Mexican-American women (US-born citizens permitting land title workarounds). Approximate marriage-pattern scale reached
 
-$$N_{\text{Punjabi-Mexican marriages, California, 1913 to 1949}} \approx 400, \quad f_{\text{Punjabi Sikh men in California marrying Mexican women, c. 1930}} \gtrsim 0.80$$
+$$
+N_{\text{Punjabi-Mexican marriages, California, 1913 to 1949}} \approx 400, \quad f_{\text{Punjabi Sikh men in California marrying Mexican women, c. 1930}} \gtrsim 0.80
+\tag{39}
+$$
 
 producing the distinctive California Imperial Valley Punjabi-Mexican community formation.
 
@@ -289,19 +406,28 @@ Legal restrictions culminated in the 1917 Immigration Act's Asiatic Barred Zone 
 
 American entry into World War I on 6 April 1917 following the 5 April 1917 congressional declaration mobilized American religious institutions for war support. Primary sources include Wilson's [Wilson 1917 War Message][ref_wilson_1917_war_message] April 2 address to Congress asking for war declaration, the [Selective Service Act 1917][ref_selective_service_act_1917] establishing conscription, and [Selective Service Act 1917][ref_congressional_war_declaration_1917] joint resolution of 6 April 1917. American casualties from the approximately nineteen-month engagement were significant,
 
-$$N_{\text{American military dead, WWI}} \approx 1.17 \times 10^5, \quad N_{\text{American military wounded, WWI}} \approx 2 \times 10^5$$
+$$
+N_{\text{American military dead, WWI}} \approx 1.17 \times 10^5, \quad N_{\text{American military wounded, WWI}} \approx 2 \times 10^5
+\tag{40}
+$$
 
 with substantial proportion of casualties from 1918 Spanish influenza pandemic among military personnel rather than combat. The [Piper 1985][book_piper_1985] The American Churches in World War I, [Gamble 2003][book_gamble_2003] The War for Righteousness, and [Preston 2012][book_preston_2012] Sword of the Spirit, Shield of Faith provide the standard treatments.
 
 American Protestant mainline denominational mobilization was marked, with the Federal Council of Churches (formed 1908, treated in [A270][related_post_a270_civil_war_and_reconstruction]) providing the coordinating institutional framework. The General War-Time Commission of the Churches, formed 1917, coordinated denominational war support activities. Chaplaincy deployment reached approximately
 
-$$N_{\text{US military chaplains, cumulative, WWI}} \approx 2.4 \times 10^3, \quad f_{\text{Protestant among WWI chaplains}} \approx 0.72, \quad f_{\text{Catholic among WWI chaplains}} \approx 0.25, \quad f_{\text{Jewish among WWI chaplains}} \approx 0.03$$
+$$
+N_{\text{US military chaplains, cumulative, WWI}} \approx 2.4 \times 10^3, \quad f_{\text{Protestant among WWI chaplains}} \approx 0.72, \quad f_{\text{Catholic among WWI chaplains}} \approx 0.25, \quad f_{\text{Jewish among WWI chaplains}} \approx 0.03
+\tag{41}
+$$
 
 per War Department records. Catholic and Jewish chaplaincy expansion exceeded the proportions of comparable Civil War chaplaincy deployment treated in [A270][related_post_a270_civil_war_and_reconstruction], reflecting the extensive mass immigration demographic transformation.
 
 The 1917 YMCA War Work Council coordinated extensive American Protestant welfare activity for troops both stateside and in Europe, mobilizing approximately
 
-$$C_{\text{YMCA War Work Council expenditures, 1917 to 1919}} \approx 1.5 \times 10^8 \text{ US dollars nominal}$$
+$$
+C_{\text{YMCA War Work Council expenditures, 1917 to 1919}} \approx 1.5 \times 10^8 \text{ US dollars nominal}
+\tag{42}
+$$
 
 per institutional records. Parallel Knights of Columbus, National Catholic War Council (formed 1917, subsequently National Catholic Welfare Conference), Jewish Welfare Board, YWCA, Salvation Army, and American Library Association welfare organizations coordinated religiously-differentiated welfare activity. The 1918 United War Work Campaign consolidated fundraising across the seven agencies.
 
@@ -313,25 +439,37 @@ The Espionage Act of 15 June 1917 [Selective Service Act 1917][ref_espionage_act
 
 Federal prosecutions under the Espionage and Sedition Acts reached approximately
 
-$$N_{\text{Espionage and Sedition Act prosecutions, 1917 to 1921}} \approx 2 \times 10^3, \quad N_{\text{convictions}} \approx 1 \times 10^3$$
+$$
+N_{\text{Espionage and Sedition Act prosecutions, 1917 to 1921}} \approx 2 \times 10^3, \quad N_{\text{convictions}} \approx 1 \times 10^3
+\tag{43}
+$$
 
 per Department of Justice records. Notable prosecutions included Eugene V. Debs's 1918 conviction for anti-war speech (upheld in [Debs v. United States 1919][ref_debs_v_united_states_1919]), IWW (Industrial Workers of the World) mass arrests under 1917 Espionage Act charges, and Molokan (Russian Spiritual Christian sectarian pacifist) draft-resistance prosecutions treated below. Landmark Supreme Court decisions on the Espionage Act included [Schenck v. United States 1919][ref_schenck_v_united_states_1919] establishing the "clear and present danger" doctrine, [Abrams v. United States 1919][ref_abrams_v_united_states_1919] upholding Sedition Act convictions with Holmes-Brandeis dissent providing the subsequent First Amendment doctrinal foundation, and [Frohwerk v. United States 1919][ref_frohwerk_v_united_states_1919].
 
 German American religious institutions faced considerable wartime suppression. German-language religious services, publications, and parochial schools declined through the 1917-1918 period under mob and state-level suppression. Approximate German-language congregational counts declined from
 
-$$N_{\text{German-language Protestant congregations, US}}(1916) \approx 8 \times 10^3, \quad N_{\text{German-language Protestant congregations, US}}(1924) \approx 4.5 \times 10^3$$
+$$
+N_{\text{German-language Protestant congregations, US}}(1916) \approx 8 \times 10^3, \quad N_{\text{German-language Protestant congregations, US}}(1924) \approx 4.5 \times 10^3
+\tag{44}
+$$
 
 representing approximately 45% decline in German-language institutional infrastructure across the eight-year window. Approximately 20 state legislatures enacted English-only instructional legislation, prohibiting German-language education in parochial and public schools. The 1919 [Nebraska Foreign Language Act][ref_nebraska_foreign_language_act_1919] provided the model that other states replicated, subsequently struck down by the 1923 [Meyer v. Nebraska 1923][ref_meyer_v_nebraska_1923] Supreme Court decision and companion [Bartels v. Iowa 262 1923][ref_bartels_v_iowa_1923] extending the ruling to Iowa, Ohio, and similar statutes. The [Wittke 1936][book_wittke_1936] German-Americans and the World War and [Luebke 1974][book_luebke_1974] Bonds of Loyalty provide the treatments.
 
 Historic peace church draft resistance faced significant persecution. Approximately
 
-$$N_{\text{conscientious objectors, WWI}} \approx 4 \times 10^3, \quad N_{\text{imprisoned conscientious objectors}} \approx 500$$
+$$
+N_{\text{conscientious objectors, WWI}} \approx 4 \times 10^3, \quad N_{\text{imprisoned conscientious objectors}} \approx 500
+\tag{45}
+$$
 
 per American Civil Liberties Union and religious peace organization records. The 1917 Selective Service Act's narrow religious exemption provisions restricted conscientious objection to members of "well-recognized religious sect or organization" whose principles prohibited military participation, limiting protection while permitting some accommodation. The Mennonite, Quaker, Brethren, and Amish populations faced substantial community persecution while individual conscientious objectors experienced imprisonment at Fort Leavenworth, Alcatraz, and other federal facilities. The [Homan 1994][book_homan_1994] American Mennonites and the Great War treats the Mennonite experience. The Molokan pacifist community, primarily Russian Spiritual Christian population that had migrated to Los Angeles from 1904-1912 to escape Russian Empire military conscription, faced marked 1917-1918 draft-resistance prosecutions producing extensive community exodus to Mexico and religious formation preservation. The [Moore 1973][book_moore_1973] Molokan Oral Tradition treats the Molokan formation.
 
 The Palmer Raids of 1919-1920 under Attorney General A. Mitchell Palmer targeted alleged radicals, socialists, anarchists, and "aliens" through mass arrests, detentions, and deportations. Approximately
 
-$$N_{\text{arrests, Palmer Raids}} \approx 1 \times 10^4, \quad N_{\text{deportations}} \approx 5.5 \times 10^2$$
+$$
+N_{\text{arrests, Palmer Raids}} \approx 1 \times 10^4, \quad N_{\text{deportations}} \approx 5.5 \times 10^2
+\tag{46}
+$$
 
 with religious dimensions including sizable targeting of Jewish Eastern European immigrants (perceived as Bolshevism-adjacent given Russian revolutionary linkages) and Italian anarchists (culminating in the 1927 Sacco and Vanzetti execution). The 1918 Immigration Act's "anarchist" deportation provisions and 1920 Emergency Deportation Act extended federal removal authority. The [Cohen 2002][book_cohen_2002] A Consumer's Republic and [Murray et al. 1955][book_murray_1955] Red Scare provide the broader Red Scare treatments.
 
@@ -339,14 +477,17 @@ with religious dimensions including sizable targeting of Jewish Eastern European
 
 The 1917-1923 period produced appreciable race massacres targeting African American populations in Northern and Southern cities. Major documented episodes included
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{East St. Louis massacre} &: 1917, \quad N_{\text{Black dead}} \approx 40 \text{ to } 200 \\
 \text{Chicago massacre} &: 1919, \quad N_{\text{Black dead}} \approx 23, \quad N_{\text{white dead}} \approx 15 \\
 \text{Elaine massacre} &: 1919, \quad N_{\text{Black dead}} \approx 100 \text{ to } 800 \\
 \text{Washington DC riot} &: 1919, \quad N_{\text{Black dead}} \approx 15 \\
 \text{Tulsa massacre} &: 1921, \quad N_{\text{Black dead}} \approx 100 \text{ to } 300 \\
 \text{Rosewood massacre} &: 1923, \quad N_{\text{Black dead}} \approx 6 \text{ to } 27
-\end{aligned}$$
+\end{aligned}
+\tag{47}
+$$
 
 per modern historical reconstruction. The 1919 "Red Summer" produced approximately 25 separate race riots across American cities. The [Krugler 2015][book_krugler_2015] 1919, The Year of Racial Violence and [McWhirter 2011][book_mcwhirter_2011] Red Summer provide the detailed treatments. Primary sources include the [Chicago Commission on Race Relations 1922][ref_chicago_commission_1922] The Negro in Chicago comprehensive study of the 1919 Chicago massacre commissioned by Governor Frank Lowden, [Moore v. Dempsey 1923][ref_moore_v_dempsey_1923] Supreme Court decision addressing Elaine massacre convictions of twelve Black defendants sentenced to death and approximately eighty others to lengthy imprisonment (the decision established federal habeas review of state criminal proceedings involving mob-dominated trials), and Ida B. Wells's 1917 [Wells 1917][ref_wells_1917_east_st_louis] The East St. Louis Massacre.
 
@@ -354,22 +495,28 @@ The 1921 Tulsa Race Massacre destroyed the Greenwood District ("Black Wall Stree
 
 The Great Migration of African Americans from Southern to Northern cities began in the 1916-1917 period, driven by Northern industrial labor demand during World War I combined with ongoing Southern Jim Crow oppression, racial violence, and boll weevil-driven agricultural collapse. Approximate migration totals across the migration waves were
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Black migrants, South to North, 1910 to 1930}} &\approx 1.6 \times 10^6 \\
 N_{\text{Black migrants, South to North, 1940 to 1970}} &\approx 5 \times 10^6 \\
 \text{Total Great Migration}: &\quad \approx 6.6 \times 10^6
-\end{aligned}$$
+\end{aligned}
+\tag{48}
+$$
 
 per US Census reconstruction. The [Wilkerson 2010][book_wilkerson_2010] The Warmth of Other Suns, [Grossman 1989][book_grossman_1989] Land of Hope, and [Marks 1989][book_marks_1989] Farewell to Southern Sharecropping provide the principal treatments.
 
 The religious dimensions of the Great Migration were considerable. Northern urban Black populations concentrated in major destination cities,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{Black, Chicago}}(1910) &\approx 4.4 \times 10^4, \quad P_{\text{Black, Chicago}}(1930) \approx 2.34 \times 10^5 \\
 P_{\text{Black, New York}}(1910) &\approx 9.2 \times 10^4, \quad P_{\text{Black, New York}}(1930) \approx 3.28 \times 10^5 \\
 P_{\text{Black, Detroit}}(1910) &\approx 5.7 \times 10^3, \quad P_{\text{Black, Detroit}}(1930) \approx 1.2 \times 10^5 \\
 P_{\text{Black, Philadelphia}}(1910) &\approx 8.4 \times 10^4, \quad P_{\text{Black, Philadelphia}}(1930) \approx 2.19 \times 10^5
-\end{aligned}$$
+\end{aligned}
+\tag{49}
+$$
 
 transforming the existing Northern Black churches through significant membership expansion. Established Northern Black churches (AME Bethel at Philadelphia, Abyssinian Baptist at New York, Olivet Baptist at Chicago, and others) expanded while Southern Baptist migrant congregations established new storefront churches producing what historians characterize as "urbanization" of the Black church. The [Best 2005][book_best_2005] Passionately Human, No Less Divine treats the transformation.
 
@@ -381,13 +528,19 @@ The 1908 Springfield, Illinois race riot (approximately 16 killed, substantial p
 
 NAACP founding participants combined extensive ethnoreligious coordination. Key founders included W. E. B. Du Bois (African American Congregationalist), Ida B. Wells (African American Methodist), Mary White Ovington (white Unitarian), Oswald Garrison Villard (white Unitarian and grandson of William Lloyd Garrison), Henry Moskowitz (Jewish, subsequently rabbi), Lillian Wald (Jewish Reform), Stephen S. Wise (Reform rabbi), William English Walling (white Socialist), and Charles Edward Russell (white Socialist). NAACP membership expanded substantially,
 
-$$P_{\text{NAACP membership, US}}(1912) \approx 6 \times 10^3, \quad P_{\text{NAACP membership, US}}(1919) \approx 1 \times 10^5, \quad P_{\text{NAACP branches, US}}(1919) \approx 3 \times 10^2$$
+$$
+P_{\text{NAACP membership, US}}(1912) \approx 6 \times 10^3, \quad P_{\text{NAACP membership, US}}(1919) \approx 1 \times 10^5, \quad P_{\text{NAACP branches, US}}(1919) \approx 3 \times 10^2
+\tag{50}
+$$
 
 per institutional records, with sizable Southern chapter formation during and after World War I. The [Crisis][ref_the_crisis] Du Bois-edited monthly (published 1910 forward) reached approximately 100,000 circulation at peak c. 1919, providing the institutional voice.
 
 The National Urban League, formed 1910 at New York through consolidation of Committee on Urban Conditions Among Negroes (1906), National League for the Protection of Colored Women (1905), and Committee for Improving the Industrial Condition of Negroes in New York (1906) under Ruth Standish Baldwin and George Edmund Haynes, provided the parallel institution focused on urban social services and employment mobilization. Urban League membership reached approximately
 
-$$N_{\text{Urban League affiliated agencies, US}}(1920) \approx 20, \quad N_{\text{Urban League agencies}}(1940) \approx 47$$
+$$
+N_{\text{Urban League affiliated agencies, US}}(1920) \approx 20, \quad N_{\text{Urban League agencies}}(1940) \approx 47
+\tag{51}
+$$
 
 per institutional records. The [Weiss 1974][book_weiss_1974] The National Urban League treats the formation.
 
@@ -399,29 +552,41 @@ The religious dimensions of anti-lynching mobilization combined appreciable ecum
 
 Billy Sunday (William Ashley Sunday, 1862-1935), professional baseball player and subsequent Presbyterian evangelist, provided the most extensive American revivalist of the 1908-1920 period, exceeding earlier Dwight L. Moody and later Billy Graham reach at peak. Sunday's ministry from 1908 forward involved tabernacle-based revival campaigns targeting major American cities. Total campaign attendance approached
 
-$$N_{\text{Sunday campaign cumulative attendance, 1908 to 1920}} \approx 1 \times 10^8, \quad N_{\text{documented "trail hitters" (converts)}} \approx 1 \times 10^6$$
+$$
+N_{\text{Sunday campaign cumulative attendance, 1908 to 1920}} \approx 1 \times 10^8, \quad N_{\text{documented "trail hitters" (converts)}} \approx 1 \times 10^6
+\tag{52}
+$$
 
 per contemporary institutional records. Sunday combined evangelical theology with fervent nativism, Prohibition advocacy, and anti-labor union positions producing what historians characterize as "muscular Christianity" applied to Progressive Era social contests. The [Bruns 1992][book_bruns_1992] Preacher and [McLoughlin 1955][book_mcloughlin_1955] Billy Sunday Was His Real Name treat the biography.
 
 Reuben Archer Torrey (1856-1928), Congregationalist evangelist and first Superintendent of Moody Bible Institute (1889-1908) and subsequently Dean of Bible Institute of Los Angeles (1912-1924), provided the parallel systematic evangelistic-institutional leadership. Torrey's extensive world tours (1902-1906 in Australia, New Zealand, Britain, India, and China) produced approximately
 
-$$N_{\text{Torrey world tour attendance, 1902 to 1906}} \sim 1 \times 10^7, \quad N_{\text{documented converts}} \sim 1 \times 10^5$$
+$$
+N_{\text{Torrey world tour attendance, 1902 to 1906}} \sim 1 \times 10^7, \quad N_{\text{documented converts}} \sim 1 \times 10^5
+\tag{53}
+$$
 
 per institutional records. The [Roberts 1996][book_roberts_1996] Reuben A. Torrey treats the biography.
 
 The Bible Institute movement provided the systematic educational infrastructure for fundamentalist and broader evangelical training outside the mainline seminary system. Major institutions included
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Moody Bible Institute (Chicago)} &: 1886 \\
 \text{Nyack Missionary Training College} &: 1882 \\
 \text{Bible Institute of Los Angeles (BIOLA)} &: 1908 \\
 \text{Philadelphia College of the Bible} &: 1913 \\
 \text{Denver Bible Institute (Colorado Christian University)} &: 1914
-\end{aligned}$$
+\end{aligned}
+\tag{54}
+$$
 
 with approximately
 
-$$N_{\text{Bible Institutes, US}}(1900) \approx 20, \quad N_{\text{Bible Institutes, US}}(1925) \approx 100, \quad N_{\text{Bible Institutes, US}}(1970) \approx 250$$
+$$
+N_{\text{Bible Institutes, US}}(1900) \approx 20, \quad N_{\text{Bible Institutes, US}}(1925) \approx 100, \quad N_{\text{Bible Institutes, US}}(1970) \approx 250
+\tag{55}
+$$
 
 per American Association of Bible Colleges records. The [Brereton 1990][book_brereton_1990] Training God's Army treats the Bible Institute movement.
 
@@ -431,7 +596,10 @@ Aimee Semple McPherson (1890-1944), Canadian-born Pentecostal evangelist and fou
 
 The 1927 Foursquare Gospel Church formation by McPherson provided the institutionalization of her ministry through the denominational structure emphasizing four doctrinal points (Christ as Savior, Baptizer with the Holy Spirit, Healer, and Coming King). Denominational growth reached approximately
 
-$$P_{\text{Foursquare Gospel Church membership, US}}(1935) \approx 2 \times 10^4, \quad P_{\text{Foursquare Gospel Church worldwide, contemporary}} \approx 8.8 \times 10^6$$
+$$
+P_{\text{Foursquare Gospel Church membership, US}}(1935) \approx 2 \times 10^4, \quad P_{\text{Foursquare Gospel Church worldwide, contemporary}} \approx 8.8 \times 10^6
+\tag{56}
+$$
 
 with marked twentieth-century global expansion. Primary sources include McPherson's [McPherson 1919][ref_mcpherson_1919] This Is That autobiographical foundational text and [Bridal Call Foursquare][ref_bridal_call_foursquare] denominational magazine.
 
@@ -451,7 +619,10 @@ Interwar American anti-Semitism combined Klan mobilization treated above with sy
 
 Ford's circulation reach was appreciable,
 
-$$C_{\text{Dearborn Independent peak circulation, c. 1924}} \approx 9 \times 10^5, \quad N_{\text{The International Jew copies distributed, cumulative}} \gtrsim 5 \times 10^5$$
+$$
+C_{\text{Dearborn Independent peak circulation, c. 1924}} \approx 9 \times 10^5, \quad N_{\text{The International Jew copies distributed, cumulative}} \gtrsim 5 \times 10^5
+\tag{57}
+$$
 
 per institutional records. Ford's Dearborn Independent operation ceased in December 1927 following Aaron Sapiro libel suit settlement and formal apology to American Jewish community. The consequences for interwar American anti-Semitic mobilization were considerable, providing systematic distribution of conspiratorial anti-Jewish framework exceeding earlier American anti-Semitic distribution.
 
@@ -469,7 +640,10 @@ Alfred E. Smith (1873-1944), New York Governor 1919-1920 and 1923-1928 and 1928 
 
 The 1928 election results reflected substantial religious-political realignment,
 
-$$V_{\text{Herbert Hoover, popular}} \approx 2.14 \times 10^7, \quad V_{\text{Al Smith, popular}} \approx 1.51 \times 10^7, \quad V_{\text{Hoover, electoral}} = 444, \quad V_{\text{Smith, electoral}} = 87$$
+$$
+V_{\text{Herbert Hoover, popular}} \approx 2.14 \times 10^7, \quad V_{\text{Al Smith, popular}} \approx 1.51 \times 10^7, \quad V_{\text{Hoover, electoral}} = 444, \quad V_{\text{Smith, electoral}} = 87
+\tag{58}
+$$
 
 with marked Republican gains including historic Southern breakthrough (Hoover carrying Florida, North Carolina, Tennessee, Texas, and Virginia, the first extensive Republican Southern success since Reconstruction). The religious geography of 1928 results reflected ethnoreligious cleavage, with sizable Catholic urban voting for Smith producing realignment foundation subsequently completed through 1932 and 1936 New Deal coalition treated in article seven.
 
@@ -479,11 +653,17 @@ Primary sources include Smith's [Smith 1927 Catholic Reply][ref_smith_1927_catho
 
 The Japanese American religious formation continued through the 1900-1924 window despite the 1907 Gentlemen's Agreement restriction. The Buddhist Churches of America (BCA, formal 1944 name for the North American Buddhist Mission established 1899) expanded markedly,
 
-$$N_{\text{BCA temples, US}}(1900) = 1, \quad N_{\text{BCA temples, US}}(1920) \approx 30, \quad P_{\text{BCA membership, US}}(1930) \approx 4 \times 10^4$$
+$$
+N_{\text{BCA temples, US}}(1900) = 1, \quad N_{\text{BCA temples, US}}(1920) \approx 30, \quad P_{\text{BCA membership, US}}(1930) \approx 4 \times 10^4
+\tag{59}
+$$
 
 per denominational records, with concentration in California, Pacific Northwest, and Hawaii. Japanese American Christian formation combined Methodist Episcopal, Presbyterian, and Congregational missionary evangelization, reaching approximately
 
-$$P_{\text{Japanese American Christian}}(1930) \approx 1.5 \times 10^4, \quad f_{\text{Christian among Japanese American population}}\bigg|_{1930} \approx 0.15$$
+$$
+P_{\text{Japanese American Christian}}(1930) \approx 1.5 \times 10^4, \quad f_{\text{Christian among Japanese American population}}\bigg|_{1930} \approx 0.15
+\tag{60}
+$$
 
 with appreciable increase during and after World War II internment period treated in article seven. The [Kashima 1977][book_kashima_1977] Buddhism in America (already cited in A270) and [Suzuki 1979][book_suzuki_1979] Ministry in the Assimilation Process treat the formations.
 
@@ -491,7 +671,10 @@ Korean American religious formation began with 1903-1905 Hawaiian sugar plantati
 
 Chinese American religious formation continued patterns documented in [A269][related_post_a269_second_awakening_and_reform] and [A270][related_post_a270_civil_war_and_reconstruction] through ongoing Exclusion Act constraint. Approximately
 
-$$P_{\text{Chinese American, US}}(1900) \approx 1.05 \times 10^5, \quad P_{\text{Chinese American, US}}(1920) \approx 6.2 \times 10^4, \quad P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4$$
+$$
+P_{\text{Chinese American, US}}(1900) \approx 1.05 \times 10^5, \quad P_{\text{Chinese American, US}}(1920) \approx 6.2 \times 10^4, \quad P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4
+\tag{61}
+$$
 
 with significant decline through mid-twentieth century before 1943 Magnuson Act's limited relaxation and 1965 Hart-Celler Act's complete restructuring treated in article eight. Chinese American Christian formation combined Congregational, Presbyterian, Baptist, and Methodist congregations concentrated in California, Oregon, Washington, and major Eastern cities.
 
@@ -501,23 +684,35 @@ Pentecostal religious formation emerged in the early twentieth century combining
 
 The Azusa Street Revival at Los Angeles, California under William J. Seymour (1870-1922, formerly-enslaved African American Holiness minister trained by Parham at Houston), beginning specifically 9 April 1906 and continuing through 1913, provided the most substantial Pentecostal formative event and most influential American religious innovation of the early twentieth century. The 312 Azusa Street storefront mission attracted participants from across racial, class, and denominational lines producing what participants characterized as "color line washed away in the Blood" religious integration exceeding contemporary American Protestant racial norms. Peak Azusa Street attendance reached approximately
 
-$$N_{\text{Azusa Street daily attendance, peak c. 1906 to 1908}} \approx 1.3 \times 10^3, \quad N_{\text{cumulative visitors, Azusa Street revival 1906 to 1913}} \sim 10^5$$
+$$
+N_{\text{Azusa Street daily attendance, peak c. 1906 to 1908}} \approx 1.3 \times 10^3, \quad N_{\text{cumulative visitors, Azusa Street revival 1906 to 1913}} \sim 10^5
+\tag{62}
+$$
 
 per Apostolic Faith newspaper reports and Robeck reconstruction. The [Apostolic Faith 1906][ref_apostolic_faith_1906] newspaper published by Seymour and colleagues provided the primary institutional voice reaching approximately
 
-$$C_{\text{Apostolic Faith circulation, peak c. 1908}} \approx 5 \times 10^4$$
+$$
+C_{\text{Apostolic Faith circulation, peak c. 1908}} \approx 5 \times 10^4
+\tag{63}
+$$
 
 across the American and international Pentecostal networks. The Azusa Street Revival's message spread internationally through participant missionary deployment reaching approximately 50 countries by 1908.
 
 Institutional Pentecostal denominational formation proceeded rapidly through the 1907-1920 period. The Church of God in Christ (COGIC), organized 1897 as Holiness body under Charles Harrison Mason and reorganized 1907 as Pentecostal body following Mason's Azusa Street participation, provided the largest historically Black Pentecostal denomination. COGIC membership reached approximately
 
-$$P_{\text{Church of God in Christ, US}}(1934) \approx 4 \times 10^4, \quad P_{\text{COGIC, US, contemporary}} \approx 6 \times 10^6$$
+$$
+P_{\text{Church of God in Christ, US}}(1934) \approx 4 \times 10^4, \quad P_{\text{COGIC, US, contemporary}} \approx 6 \times 10^6
+\tag{64}
+$$
 
 producing what contemporary scholarship characterizes as the fourth-largest African American denomination. The [Clemmons 1996][book_clemmons_1996] Bishop C. H. Mason and the Roots of the Church of God in Christ treats the formation.
 
 The Assemblies of God, formed 1914 at Hot Springs, Arkansas through the consolidation of predominantly white Pentecostal congregations that had specifically withdrawn from the integrated Azusa Street tradition, provided the largest predominantly white Pentecostal denomination. Assemblies of God membership reached approximately
 
-$$P_{\text{Assemblies of God, US}}(1930) \approx 5 \times 10^4, \quad P_{\text{Assemblies of God, US, contemporary}} \approx 3.1 \times 10^6$$
+$$
+P_{\text{Assemblies of God, US}}(1930) \approx 5 \times 10^4, \quad P_{\text{Assemblies of God, US, contemporary}} \approx 3.1 \times 10^6
+\tag{65}
+$$
 
 with marked twentieth-century global expansion producing approximately 70 million worldwide adherents. The [Blumhofer 1993][book_blumhofer_1993] Restoring the Faith and [Menzies 1971][book_menzies_1971] Anointed to Serve treat the formation.
 
@@ -531,11 +726,17 @@ The 1919 World's Christian Fundamentals Association founding at Philadelphia und
 
 Contest membership scale across the denominational bodies reached sizable proportions,
 
-$$P_{\text{Presbyterian Church USA, US}}(1920) \approx 1.6 \times 10^6, \quad N_{\text{Auburn Affirmation signatories, 1924}} = 1274, \quad N_{\text{PCUSA ministers, 1924}} \approx 1 \times 10^4$$
+$$
+P_{\text{Presbyterian Church USA, US}}(1920) \approx 1.6 \times 10^6, \quad N_{\text{Auburn Affirmation signatories, 1924}} = 1274, \quad N_{\text{PCUSA ministers, 1924}} \approx 1 \times 10^4
+\tag{66}
+$$
 
 with the Auburn Affirmation representing approximately 13% of PCUSA ministerial roster. World's Christian Fundamentals Association membership at founding reached approximately
 
-$$N_{\text{WCFA affiliated ministers, c. 1919}} \sim 6 \times 10^3, \quad N_{\text{denominational bodies represented, WCFA founding}} \geq 25$$
+$$
+N_{\text{WCFA affiliated ministers, c. 1919}} \sim 6 \times 10^3, \quad N_{\text{denominational bodies represented, WCFA founding}} \geq 25
+\tag{67}
+$$
 
 reflecting appreciable cross-denominational fundamentalist coordination.
 
@@ -551,22 +752,31 @@ The second-wave Ku Klux Klan refounded 25 November 1915 at Stone Mountain, Georg
 
 Second-wave Klan membership reached considerable peak scale through the 1921-1925 window,
 
-$$P_{\text{second-wave KKK membership, peak c. 1925}} \approx 4 \times 10^6, \quad f_{\text{male US population, KKK member, peak}} \approx 0.15$$
+$$
+P_{\text{second-wave KKK membership, peak c. 1925}} \approx 4 \times 10^6, \quad f_{\text{male US population, KKK member, peak}} \approx 0.15
+\tag{68}
+$$
 
 representing the single largest American fraternal organization at peak. Klan chapters and Klan-aligned political mobilization emerged across states exceeding Southern regional concentration,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{KKK members, Indiana, peak c. 1925}} &\approx 2.5 \times 10^5 \\
 P_{\text{KKK members, Ohio, peak c. 1925}} &\approx 3 \times 10^5 \\
 P_{\text{KKK members, Texas, peak c. 1925}} &\approx 4 \times 10^5 \\
 P_{\text{KKK members, Oregon, peak c. 1925}} &\approx 5 \times 10^4
-\end{aligned}$$
+\end{aligned}
+\tag{69}
+$$
 
 per MacLean 1994 and Gordon 2017 reconstructions. Klan electoral influence produced state-level office capture including Indiana 1924-1928 gubernatorial control under D. C. Stephenson (until 1925 Stephenson conviction for rape and murder of Madge Oberholtzer discredited the Indiana Klan) and Oregon Compulsory Public Education Act 1922 (Klan-supported anti-parochial-school legislation subsequently struck down by [Pierce v. Society 1925][ref_pierce_v_society_of_sisters_1925]).
 
 The Klan's rapid post-1925 decline followed the Stephenson scandal, increasing mainstream Protestant clerical distance from Klan association, and 1928 Al Smith presidential campaign that mobilized anti-Catholic Klan animus but failed to prevent Smith's Democratic nomination. By 1930 second-wave Klan membership had declined appreciably,
 
-$$P_{\text{second-wave KKK membership}}(1930) \approx 3 \times 10^4$$
+$$
+P_{\text{second-wave KKK membership}}(1930) \approx 3 \times 10^4
+\tag{70}
+$$
 
 representing approximately 99% decline from peak. Subsequent third-wave Klan revival in the 1954-1968 civil rights era treated in article eight was distinct organization.
 
@@ -578,7 +788,10 @@ The Eighteenth Amendment to the United States Constitution [US 18th Amendment 19
 
 Prohibition mobilization culminated decades of temperance activity documented in earlier series articles. The Anti-Saloon League (founded 1893, treated in [A270][related_post_a270_civil_war_and_reconstruction]) provided the primary single-issue prohibitionist organization producing the successful state-level dry majority documented in [A270][related_post_a270_civil_war_and_reconstruction] and subsequent federal Eighteenth Amendment ratification. Primary statutory antecedents include the [Webb-Kenyon Act 1913][ref_webb_kenyon_act_1913] prohibiting interstate shipment of alcohol into dry states, the [Selective Service Act 1917][ref_reed_amendment_1917] wartime prohibition, and the 1919 [Wartime Prohibition Act 1919][ref_wartime_prohibition_act_1919] preceding the Eighteenth Amendment. Aggregate Anti-Saloon League fundraising through the 1900-1919 period reached approximately
 
-$$C_{\text{Anti-Saloon League cumulative fundraising, 1893 to 1919}} \approx 6 \times 10^7 \text{ US dollars nominal}$$
+$$
+C_{\text{Anti-Saloon League cumulative fundraising, 1893 to 1919}} \approx 6 \times 10^7 \text{ US dollars nominal}
+\tag{71}
+$$
 
 per institutional records.
 
@@ -586,17 +799,26 @@ The religious composition of pro-Prohibition mobilization was mainline Protestan
 
 The 18th Amendment ratification proceeded rapidly,
 
-$$N_{\text{states ratifying, 18th Amendment, by 16 January 1919}} = 36, \quad N_{\text{states required for ratification}} = 36, \quad t_{\text{ratification interval from submission}} \approx 13 \text{ months}$$
+$$
+N_{\text{states ratifying, 18th Amendment, by 16 January 1919}} = 36, \quad N_{\text{states required for ratification}} = 36, \quad t_{\text{ratification interval from submission}} \approx 13 \text{ months}
+\tag{72}
+$$
 
 representing the fastest-ratified constitutional amendment to that date. Prohibition enforcement produced marked arrest volume,
 
-$$N_{\text{federal Prohibition arrests, cumulative 1920 to 1933}} \approx 5.4 \times 10^5, \quad N_{\text{federal Prohibition prisoners, peak c. 1932}} \approx 4.3 \times 10^3$$
+$$
+N_{\text{federal Prohibition arrests, cumulative 1920 to 1933}} \approx 5.4 \times 10^5, \quad N_{\text{federal Prohibition prisoners, peak c. 1932}} \approx 4.3 \times 10^3
+\tag{73}
+$$
 
 producing extensive federal criminal justice system expansion beyond historical precedent.
 
 Enforcement effects were sizable. Per-capita alcohol consumption declined greatly,
 
-$$C_{\text{per capita alcohol, US}}(1917) \approx 8 \text{ liters pure ethanol per year}, \quad C_{\text{per capita alcohol, US}}(1921) \approx 3.2 \text{ liters}, \quad C_{\text{per capita alcohol, US}}(1929) \approx 5.5 \text{ liters}$$
+$$
+C_{\text{per capita alcohol, US}}(1917) \approx 8 \text{ liters pure ethanol per year}, \quad C_{\text{per capita alcohol, US}}(1921) \approx 3.2 \text{ liters}, \quad C_{\text{per capita alcohol, US}}(1929) \approx 5.5 \text{ liters}
+\tag{74}
+$$
 
 producing the approximately 30% sustained reduction relative to pre-Prohibition baseline despite extensive bootlegging and illicit consumption. The consequent reduction in alcohol-related mortality and liver cirrhosis was appreciable. The parallel consequences included rapid growth of organized crime (Al Capone Chicago operations, New York Mafia consolidation, bootlegging routes across Canadian and Mexican borders), corruption of federal, state, and local law enforcement, and eventual delegitimation of the enforcement regime. The 1929-1933 Great Depression's fiscal pressures combined with mounting enforcement failures motivated the 1933 [US 21st Amendment 1933][ref_us_21st_amendment_1933] repealing Prohibition, treated in article seven.
 
@@ -606,11 +828,17 @@ The Nineteenth Amendment to the United States Constitution [US 19th Amendment 19
 
 State-level women's suffrage preceded the federal amendment, with considerable pre-1920 state-level enfranchisement,
 
-$$N_{\text{states with full women's suffrage}}(1900) = 4, \quad N_{\text{states with full women's suffrage}}(1918) = 15, \quad N_{\text{states with partial women's suffrage}}(1918) \approx 12$$
+$$
+N_{\text{states with full women's suffrage}}(1900) = 4, \quad N_{\text{states with full women's suffrage}}(1918) = 15, \quad N_{\text{states with partial women's suffrage}}(1918) \approx 12
+\tag{75}
+$$
 
 representing significant state-level advance before the federal amendment. The 19th Amendment ratification proceeded through
 
-$$N_{\text{states required, 19th Amendment ratification}} = 36, \quad t_{\text{ratification interval}} \approx 14 \text{ months}, \quad V_{\text{Tennessee ratification margin, 1920}} = 1$$
+$$
+N_{\text{states required, 19th Amendment ratification}} = 36, \quad t_{\text{ratification interval}} \approx 14 \text{ months}, \quad V_{\text{Tennessee ratification margin, 1920}} = 1
+\tag{76}
+$$
 
 with the Tennessee ratification of 18 August 1920 providing the final required state through the one-vote margin under Harry T. Burn's decisive vote.
 
@@ -626,13 +854,19 @@ Beyond the mainline Protestant African American denominational structures docume
 
 Marcus Garvey's Universal Negro Improvement Association (UNIA), formed 1914 at Kingston, Jamaica and relocated to New York in 1916, provided the largest mass Black nationalist movement in American history to that date. UNIA membership reached approximately
 
-$$P_{\text{UNIA membership, peak c. 1923}} \approx 6 \times 10^5, \quad N_{\text{UNIA divisions worldwide, peak}} \approx 1 \times 10^3$$
+$$
+P_{\text{UNIA membership, peak c. 1923}} \approx 6 \times 10^5, \quad N_{\text{UNIA divisions worldwide, peak}} \approx 1 \times 10^3
+\tag{77}
+$$
 
 per institutional records, though inflated Garveyite claims (4 million or more) exceed documentary support. The UNIA combined Black nationalist political mobilization with religious dimensions including African Orthodox Church formation (1921 under Bishop George Alexander McGuire providing the Black-controlled Anglican-tradition denominational structure) and Ethiopian nationalist religious framework anticipating subsequent Rastafarianism. Garvey's 1923 mail fraud conviction and 1927 deportation disrupted UNIA operations, though successor Garveyite organizations continued through the twentieth century. The [Grant 2008][book_grant_2008] Negro with a Hat treats Garvey's biography and UNIA formation. The [Burkett 1978][book_burkett_1978] Garveyism as a Religious Movement treats the religious dimensions. Primary sources include the 1920 ["Declaration of the Rights 1920][ref_unia_declaration_1920] Declaration of the Rights of the Negro Peoples of the World adopted at the August 1920 UNIA International Convention, [Garvey 1923][ref_garvey_1923_philosophy] Philosophy and Opinions of Marcus Garvey compiled by Amy Jacques-Garvey, and [Negro World][ref_negro_world] weekly newspaper (published 1918-1933) serving as UNIA institutional organ reaching approximately 200,000 circulation at peak.
 
 Moorish Science Temple of America, founded 1913 at Newark, New Jersey under Timothy Drew (Noble Drew Ali, 1886-1929), provided the first extensive American Black Muslim (or proto-Islamic) religious formation. Drew's 1927 [Ali 1927][ref_ali_1927_holy_koran] Holy Koran of the Moorish Science Temple of America (distinct from the Arabic Qur'an) provided the denominational scripture combining Islamic, Christian mystical, Rosicrucian, and Marcus Garvey nationalism elements. Moorish Science Temple membership reached approximately
 
-$$P_{\text{Moorish Science Temple, US, peak c. 1929}} \approx 3 \times 10^4$$
+$$
+P_{\text{Moorish Science Temple, US, peak c. 1929}} \approx 3 \times 10^4
+\tag{78}
+$$
 
 before Ali's 1929 death and consequent institutional fragmentation. The [Nance 2002][book_nance_2002] Mystery of the Moorish Science Temple treats the formation.
 
@@ -640,7 +874,10 @@ The Nation of Islam, founded 1930 at Detroit under Wallace Fard Muhammad and sub
 
 Additional African American new religious movements of the 1900-1924 period included the Father Divine Peace Mission Movement (founded 1907 by George Baker as Peace Mission), the United House of Prayer for All People (founded 1919 by Charles Emmanuel Grace, "Sweet Daddy Grace"), and numerous smaller denominational bodies. Aggregate scale of religio-racial movements reached approximately
 
-$$P_{\text{Father Divine Peace Mission, US, peak c. 1932}} \approx 5 \times 10^4, \quad P_{\text{United House of Prayer, US, peak c. 1960}} \approx 3 \times 10^5$$
+$$
+P_{\text{Father Divine Peace Mission, US, peak c. 1932}} \approx 5 \times 10^4, \quad P_{\text{United House of Prayer, US, peak c. 1960}} \approx 3 \times 10^5
+\tag{79}
+$$
 
 reflecting the creative religious formation of the Great Migration urban Black populations. The [Weisenfeld 2017][book_weisenfeld_2017] New World A-Coming treats the broader religio-racial movement formation.
 
@@ -650,7 +887,8 @@ The 1921 Emergency Quota Act [Emergency Quota Act 1921][ref_emergency_quota_act_
 
 The Johnson-Reed Immigration Act (Immigration Act of 1924) [Johnson-Reed Act 1924][ref_johnson_reed_act_1924] enacted 26 May 1924 provided the more restrictive framework establishing 2% annual quota per national group based on 1890 US Census foreign-born composition. The 1890 base year (predating the mass 1900-1914 immigration wave from southern and eastern Europe) privileged "old immigration" source countries (United Kingdom, Ireland, Germany, Scandinavia) at expense of "new immigration" sources (Italy, Poland, Slovakia, Hungary, Greece, Russia). Approximate quota allocations were
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 Q_{\text{United Kingdom}}(1924) &\approx 6.5 \times 10^4 \\
 Q_{\text{Germany}}(1924) &\approx 5.1 \times 10^4 \\
 Q_{\text{Ireland}}(1924) &\approx 2.9 \times 10^4 \\
@@ -659,7 +897,9 @@ Q_{\text{Poland}}(1924) &\approx 6 \times 10^3 \\
 Q_{\text{Greece}}(1924) &\approx 100 \\
 Q_{\text{China}}(1924) &= 0 \text{ (excluded)} \\
 Q_{\text{Japan}}(1924) &= 0 \text{ (excluded)}
-\end{aligned}$$
+\end{aligned}
+\tag{80}
+$$
 
 producing approximately 90% reduction in Italian quota relative to 1921 baseline, approximately 85% reduction in Polish quota, and complete Asian exclusion. The act's "Asian Barred Zone" extended the 1917 Immigration Act framework to completely exclude Japanese immigration rupturing US-Japan diplomatic relations. Total annual authorized European immigration under Johnson-Reed reached approximately 165,000 relative to pre-restriction 800,000-1,300,000 arrivals.
 
@@ -667,11 +907,17 @@ Intellectual antecedents to the restriction included Madison Grant's 1916 [Grant
 
 The consequence of the 1924 restriction was the effective closure of mass European immigration through the 1965 Immigration and Nationality Act treated in article eight. Annual immigration collapsed relative to pre-restriction levels,
 
-$$N_{\text{arrivals, US}}(1914) \approx 1.22 \times 10^6, \quad N_{\text{arrivals, US}}(1925) \approx 2.9 \times 10^5, \quad N_{\text{authorized immigrant admissions, US}}(1929) \approx 2.8 \times 10^5, \quad N_{\text{admissions}}(1933) \approx 2.3 \times 10^4$$
+$$
+N_{\text{arrivals, US}}(1914) \approx 1.22 \times 10^6, \quad N_{\text{arrivals, US}}(1925) \approx 2.9 \times 10^5, \quad N_{\text{authorized immigrant admissions, US}}(1929) \approx 2.8 \times 10^5, \quad N_{\text{admissions}}(1933) \approx 2.3 \times 10^4
+\tag{81}
+$$
 
 representing approximately 98% reduction from 1914 peak by 1933. Refugee denial through the 1930s produced appreciable human cost,
 
-$$N_{\text{unfilled German quota positions, 1933 to 1938}} \approx 1 \times 10^5, \quad N_{\text{Jewish refugees denied, M.S. St. Louis 1939}} = 937$$
+$$
+N_{\text{unfilled German quota positions, 1933 to 1938}} \approx 1 \times 10^5, \quad N_{\text{Jewish refugees denied, M.S. St. Louis 1939}} = 937
+\tag{82}
+$$
 
 with the 1938-1939 window's quota unavailability preventing Jewish refugee escape from Nazi Germany before the 1941 Final Solution implementation, marking the most significant ethical failure of the restrictionist regime treated in article seven.
 
@@ -705,6 +951,782 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct assessment of the Universal Negro Improvement Association's religious dimensions and its relationship to subsequent Nation of Islam formation?
 - What is the correct empirical characterization of the 1924 Johnson-Reed Act's long-term effects on American ethnoreligious composition through the 1965 Immigration and Nationality Act reform?
 - What is the correct assessment of the relationship between eugenics movement and immigration restriction mobilization?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 82 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 82, 82 are established and 0 are bespoke.
+Populations, members, arrivals and casualties are counted in persons, money is in nominal United States dollars of the period, alcohol consumption is in litres of pure ethanol per person per year, quotas are annual admissions, dates are calendar years of the Common Era, and every share is a fraction between zero and one whose base is named in the equation.
+
+**Equation 1, Immigrant Arrivals from 1900 to 1914 and to 1924.**
+About fourteen million immigrants arrived between 1900 and 1914 and about 18.5 million between 1900 and 1924.
+
+$$
+N_{\text{immigrant arrivals, US, 1900 to 1914}} \approx 1.4 \times 10^7, \quad N_{\text{immigrant arrivals, US, 1900 to 1924}} \approx 1.85 \times 10^7
+\tag{1}
+$$
+
+**Equation 2, Foreign-Born Share of the Population in 1910 and 1920.**
+The foreign-born made up about 14.5 percent of the population in 1910 and about 13.2 percent in 1920.
+
+$$
+f_{\text{immigrant share, US population}}\bigg|_{1910} \approx 0.145, \quad f_{\text{immigrant share, US population}}\bigg|_{1920} \approx 0.132
+\tag{2}
+$$
+
+**Equation 3, Peak Annual Arrivals in 1907 and 1914.**
+Annual immigrant arrivals peaked at about 1.29 million in 1907 and about 1.22 million in 1914.
+
+$$
+N_{\text{immigrant arrivals, US}}(1907) \approx 1.29 \times 10^6, \quad N_{\text{immigrant arrivals, US}}(1914) \approx 1.22 \times 10^6
+\tag{3}
+$$
+
+**Equation 4, Immigrant Arrivals in 1918.**
+Wartime disruption of Atlantic passage cut arrivals to about 110,000 in 1918.
+
+$$
+N_{\text{immigrant arrivals, US}}(1918) \approx 1.1 \times 10^5
+\tag{4}
+$$
+
+**Equation 5, Share of New Immigration in Arrivals.**
+The share of arrivals from the sources of the new immigration rose from about ten percent in 1880 to about sixty percent in 1900 and seventy-five percent in 1910.
+
+$$
+f_{\text{new immigration share, US arrivals}}\bigg|_{1880} \approx 0.10, \quad f_{\text{new immigration share, US arrivals}}\bigg|_{1900} \approx 0.60, \quad f_{\text{new immigration share, US arrivals}}\bigg|_{1910} \approx 0.75
+\tag{5}
+$$
+
+**Equation 6, Immigrants Processed at Ellis Island.**
+Ellis Island processed about twelve million immigrants between 1892 and 1954.
+[US Immigration Bureau Annual Reports][ref_us_immigration_bureau_reports]
+
+$$
+N_{\text{immigrants through Ellis Island, 1892 to 1954}} \approx 1.2 \times 10^7
+\tag{6}
+$$
+
+**Equation 7, Immigrants Processed at Angel Island.**
+Angel Island processed about half a million immigrants between 1910 and 1940.
+
+$$
+N_{\text{immigrants through Angel Island, 1910 to 1940}} \approx 5 \times 10^5
+\tag{7}
+$$
+
+**Equation 8, Rejection Rates at Ellis Island and Angel Island.**
+About two percent of arrivals were rejected at Ellis Island and about eighteen percent at Angel Island.
+[Cannato 2009][book_cannato_2009]
+[Barde 2008][book_barde_2008]
+
+$$
+f_{\text{rejection rate, Ellis Island, 1900 to 1924}} \approx 0.02, \quad f_{\text{rejection rate, Angel Island, 1910 to 1940}} \approx 0.18
+\tag{8}
+$$
+
+**Equation 9, Italian Arrivals from 1900 to 1914 and to 1924.**
+About three million Italians arrived between 1900 and 1914 and about 3.8 million between 1900 and 1924.
+
+$$
+N_{\text{Italian arrivals, US, 1900 to 1914}} \approx 3 \times 10^6, \quad N_{\text{Italian arrivals, US, 1900 to 1924}} \approx 3.8 \times 10^6
+\tag{9}
+$$
+
+**Equation 10, Southern Italian Share of Italian Arrivals.**
+About eighty percent of Italian arrivals between 1900 and 1914 came from the southern regions.
+
+$$
+f_{\text{southern Italian in US Italian arrivals, 1900 to 1914}} \approx 0.80
+\tag{10}
+$$
+
+**Equation 11, Italian Return Migration after 1918.**
+Italian return migration fell from about half of arrivals before the war to about fifteen percent after 1918.
+[Gabaccia 2000][book_gabaccia_2000]
+
+$$
+f_{\text{Italian return migration rate, post-1918}} \approx 0.15
+\tag{11}
+$$
+
+**Equation 12, Catholic National Parishes by Ethnicity in 1920.**
+By 1920 the Official Catholic Directory recorded about 1,600 German, 800 Polish and 700 Italian national parishes with smaller Slovak, Lithuanian and Hungarian counts.
+
+$$
+\begin{aligned}
+N_{\text{Italian national parishes, US}}(1920) &\approx 700 \\
+N_{\text{Polish national parishes, US}}(1920) &\approx 800 \\
+N_{\text{German national parishes, US}}(1920) &\approx 1600 \\
+N_{\text{Slovak national parishes, US}}(1920) &\approx 275 \\
+N_{\text{Hungarian national parishes, US}}(1920) &\approx 90 \\
+N_{\text{Lithuanian national parishes, US}}(1920) &\approx 100
+\end{aligned}
+\tag{12}
+$$
+
+**Equation 13, Polish Arrivals from 1870 to 1924.**
+About two and a half million Poles arrived between 1870 and 1924, about one and a half million of them between 1900 and 1914.
+
+$$
+N_{\text{Polish arrivals, US, 1870 to 1924}} \approx 2.5 \times 10^6, \quad N_{\text{Polish arrivals, US, 1900 to 1914}} \approx 1.5 \times 10^6
+\tag{13}
+$$
+
+**Equation 14, Partition Origins of Polish Arrivals.**
+About sixty percent of Polish arrivals came from the Russian partition, about a quarter from Austrian Galicia and about fifteen percent from the Prussian partition.
+[Bukowczyk 1987][book_bukowczyk_1987]
+[Pula 1995][book_pula_1995]
+
+$$
+f_{\text{Russian Partition, Polish arrivals US}} \approx 0.60, \quad f_{\text{Austrian Galician Partition, Polish arrivals US}} \approx 0.25, \quad f_{\text{Prussian Partition, Polish arrivals US}} \approx 0.15
+\tag{14}
+$$
+
+**Equation 15, Polish National Catholic Church Membership at Its Peak.**
+The Polish National Catholic Church reached about 270,000 members at its peak around 1960.
+[Wlodarski 1974][book_wlodarski_1974]
+
+$$
+P_{\text{Polish National Catholic Church membership, peak c. 1960}} \approx 2.7 \times 10^5
+\tag{15}
+$$
+
+**Equation 16, Slavic and Central European Catholic Arrivals from 1900 to 1914.**
+Between 1900 and 1914 about half a million Slovaks arrived together with smaller Hungarian, Croatian, Lithuanian, Czech and Slovene streams.
+
+$$
+\begin{aligned}
+N_{\text{Slovak arrivals, US, 1900 to 1914}} &\approx 5 \times 10^5 \\
+N_{\text{Czech arrivals, US, 1900 to 1914}} &\approx 1 \times 10^5 \\
+N_{\text{Hungarian arrivals, US, 1900 to 1914}} &\approx 4 \times 10^5 \\
+N_{\text{Croatian arrivals, US, 1900 to 1914}} &\approx 3 \times 10^5 \\
+N_{\text{Slovene arrivals, US, 1900 to 1914}} &\approx 1 \times 10^5 \\
+N_{\text{Lithuanian arrivals, US, 1900 to 1914}} &\approx 2.5 \times 10^5
+\end{aligned}
+\tag{16}
+$$
+
+**Equation 17, Ukrainian and Ruthenian Arrivals from 1880 to 1914.**
+About half a million Ukrainians and Ruthenians arrived between 1880 and 1914.
+[Kuropas 1996][book_kuropas_1996]
+[Magocsi 1984][book_magocsi_1984]
+
+$$
+N_{\text{Ukrainian and Ruthenian arrivals, US, 1880 to 1914}} \approx 5 \times 10^5
+\tag{17}
+$$
+
+**Equation 18, Eastern European Jewish Arrivals to 1924.**
+About 1.6 million Eastern European Jews arrived between 1900 and 1914 and about two and a half million between 1881 and 1924.
+
+$$
+N_{\text{Eastern European Jewish arrivals, US, 1900 to 1914}} \approx 1.6 \times 10^6, \quad N_{\text{Eastern European Jewish arrivals, US, 1881 to 1924}} \approx 2.5 \times 10^6
+\tag{18}
+$$
+
+**Equation 19, Jewish Population of the United States from 1900 to 1924.**
+The Jewish population of the United States grew from about one million in 1900 to about three million in 1914 and about four million in 1924.
+[Sarna 2004][book_sarna_2004]
+
+$$
+P_{\text{Jewish, US}}(1900) \approx 1 \times 10^6, \quad P_{\text{Jewish, US}}(1914) \approx 3 \times 10^6, \quad P_{\text{Jewish, US}}(1924) \approx 4 \times 10^6
+\tag{19}
+$$
+
+**Equation 20, Hebrew Immigrant Aid Society Caseload.**
+The Hebrew Immigrant Aid Society handled about fifty thousand cases a year at its peak around 1913 and about half a million between 1902 and 1924.
+
+$$
+N_{\text{HIAS cases annually, peak c. 1913 to 1914}} \approx 5 \times 10^4, \quad N_{\text{HIAS cumulative cases, 1902 to 1924}} \approx 5 \times 10^5
+\tag{20}
+$$
+
+**Equation 21, Denominational Composition of American Jewry in 1930.**
+American Jews in 1930 were about sixty-five percent Orthodox, fifteen percent Conservative, fifteen percent Reform and five percent unaffiliated.
+[Gurock 2009][book_gurock_2009]
+[Karp 1998][book_karp_1998]
+
+$$
+f_{\text{Orthodox share, US Jewish}}\bigg|_{1930} \approx 0.65, \quad f_{\text{Conservative share}}\bigg|_{1930} \approx 0.15, \quad f_{\text{Reform share}}\bigg|_{1930} \approx 0.15, \quad f_{\text{unaffiliated}}\bigg|_{1930} \approx 0.05
+\tag{21}
+$$
+
+**Equation 22, Greek Arrivals from 1890 to 1924.**
+About 550,000 Greeks arrived between 1890 and 1924.
+[Saloutos 1964][book_saloutos_1964]
+
+$$
+N_{\text{Greek arrivals, US, 1890 to 1924}} \approx 5.5 \times 10^5
+\tag{22}
+$$
+
+**Equation 23, Greek Orthodox Parishes from 1900 to 1940.**
+Greek Orthodox parishes grew from about twenty in 1900 to about two hundred in 1920 and about three hundred in 1940.
+
+$$
+N_{\text{Greek Orthodox parishes, US}}(1900) \approx 20, \quad N_{\text{Greek Orthodox parishes, US}}(1920) \approx 200, \quad N_{\text{Greek Orthodox parishes, US}}(1940) \approx 300
+\tag{23}
+$$
+
+**Equation 24, Russian Orthodox Arrivals from 1890 to 1920.**
+About one hundred thousand Russian Orthodox migrants arrived between 1890 and 1920, a figure blurred by overlap with other Slavic Orthodox populations.
+[Stokoe and Kishkovsky 1995][book_stokoe_kishkovsky_1995]
+
+$$
+N_{\text{Russian Orthodox arrivals, US, 1890 to 1920}} \approx 1 \times 10^5
+\tag{24}
+$$
+
+**Equation 25, Russian Orthodox Parishes and Faithful to 1917.**
+Russian Orthodox parishes grew from about twenty-five in 1900 to about 460 in 1917, serving about 300,000 faithful.
+
+$$
+N_{\text{Russian Orthodox parishes, US}}(1900) \approx 25, \quad N_{\text{Russian Orthodox parishes, US}}(1917) \approx 460, \quad N_{\text{Russian Orthodox faithful, US}}(1917) \approx 3 \times 10^5
+\tag{25}
+$$
+
+**Equation 26, Syrian and Lebanese Arrivals from 1880 to 1924.**
+About 130,000 arrivals from Greater Syria were recorded between 1880 and 1924.
+[Naff 1985][book_naff_1985]
+
+$$
+N_{\text{Syrian and Lebanese arrivals, US, 1880 to 1924}} \approx 1.3 \times 10^5
+\tag{26}
+$$
+
+**Equation 27, Religious Composition of Syrian and Lebanese Arrivals.**
+Syrian and Lebanese arrivals were about forty percent Maronite Catholic, forty percent Antiochian Orthodox, ten percent Melkite Greek Catholic and ten percent Muslim and Druze.
+
+$$
+f_{\text{Maronite Catholic}} \approx 0.40, \quad f_{\text{Antiochian Orthodox}} \approx 0.40, \quad f_{\text{Melkite Greek Catholic}} \approx 0.10, \quad f_{\text{Muslim and Druze}} \approx 0.10
+\tag{27}
+$$
+
+**Equation 28, Dead of the Armenian Genocide.**
+The Armenian Genocide of 1915 to 1923 killed about one to one and a half million Armenians.
+[Suny 2015][book_suny_2015]
+[Akçam 2012][book_akcam_2012]
+
+$$
+N_{\text{Armenian dead, Armenian Genocide, 1915 to 1923}} \approx 1 \times 10^6 \text{ to } 1.5 \times 10^6
+\tag{28}
+$$
+
+**Equation 29, Armenian Arrivals from 1890 to 1924.**
+About eighty thousand Armenians arrived between 1890 and 1924.
+
+$$
+N_{\text{Armenian arrivals, US, 1890 to 1924}} \approx 8 \times 10^4
+\tag{29}
+$$
+
+**Equation 30, Armenian American Centres around 1930.**
+Around 1930 about fifteen thousand Armenian Americans lived in metropolitan Fresno, about thirty thousand in New York and about twenty thousand in Boston.
+[Bakalian 1993][book_bakalian_1993]
+[Mirak 1983][book_mirak_1983]
+
+$$
+P_{\text{Armenian American, Fresno metro c. 1930}} \approx 1.5 \times 10^4, \quad P_{\text{Armenian American, New York metro c. 1930}} \approx 3 \times 10^4, \quad P_{\text{Armenian American, Boston metro c. 1930}} \approx 2 \times 10^4
+\tag{30}
+$$
+
+**Equation 31, Funds Raised by Near East Relief.**
+Near East Relief raised about 116 million nominal dollars between 1915 and 1930.
+[Barton 1930][book_barton_1930]
+[Watenpaugh 2015][book_watenpaugh_2015]
+
+$$
+C_{\text{Near East Relief cumulative funds raised, 1915 to 1930}} \approx 1.16 \times 10^8 \text{ US dollars nominal}
+\tag{31}
+$$
+
+**Equation 32, Filipino Arrivals from 1906 to 1924.**
+About forty-five thousand Filipinos arrived on the mainland and about sixty thousand in Hawaii between 1906 and 1924.
+[Cordova 1983][book_cordova_1983]
+
+$$
+N_{\text{Filipino arrivals, US mainland, 1906 to 1924}} \approx 4.5 \times 10^4, \quad N_{\text{Filipino arrivals, Hawaii, 1906 to 1924}} \approx 6 \times 10^4
+\tag{32}
+$$
+
+**Equation 33, Religious Composition of Filipino Arrivals.**
+Filipino arrivals were about eighty-five percent Catholic, ten percent Protestant and five percent Aglipayan and other.
+
+$$
+f_{\text{Catholic among Filipino arrivals}} \approx 0.85, \quad f_{\text{Protestant among Filipino arrivals}} \approx 0.10, \quad f_{\text{Aglipayan and other}} \approx 0.05
+\tag{33}
+$$
+
+**Equation 34, Puerto Rican Population of the Mainland from 1920 to 1960.**
+The Puerto Rican population of the mainland grew from about twelve thousand in 1920 to about seventy thousand in 1940 and about 890,000 in 1960.
+[Sanchez Korrol 1994][book_sanchez_korrol_1994]
+
+$$
+P_{\text{Puerto Rican, US mainland}}(1920) \approx 1.2 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1940) \approx 7 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1960) \approx 8.9 \times 10^5
+\tag{34}
+$$
+
+**Equation 35, Catholic Share in Puerto Rico from 1917 to 2020.**
+The Catholic share in Puerto Rico fell from about ninety percent in 1917 to about seventy-five percent in 1960 and fifty-five percent in 2020.
+
+$$
+f_{\text{Catholic, Puerto Rico}}\bigg|_{1917} \approx 0.90, \quad f_{\text{Catholic, Puerto Rico}}\bigg|_{1960} \approx 0.75, \quad f_{\text{Catholic, Puerto Rico}}\bigg|_{2020} \approx 0.55
+\tag{35}
+$$
+
+**Equation 36, Mexican Arrivals from 1900 to 1930.**
+About 650,000 Mexicans arrived during the Revolution of 1910 to 1920 and about 1.4 million between 1900 and 1930.
+[Sanchez 1993][book_sanchez_1993]
+
+$$
+N_{\text{Mexican arrivals, US, 1910 to 1920}} \approx 6.5 \times 10^5, \quad N_{\text{Mexican arrivals, US, 1900 to 1930}} \approx 1.4 \times 10^6
+\tag{36}
+$$
+
+**Equation 37, Mexican Catholic Refugees of the Cristero Period.**
+About a quarter of a million Mexican Catholic refugees reached the United States during the Cristero War of 1926 to 1929.
+[Meyer 1976][book_meyer_1976]
+
+$$
+N_{\text{Mexican Catholic refugees, Cristero period, 1926 to 1929}} \approx 2.5 \times 10^5
+\tag{37}
+$$
+
+**Equation 38, South Asian Arrivals from 1899 to 1917.**
+About eight thousand South Asians arrived between 1899 and 1917, most of them Punjabi Sikhs.
+[Leonard 1992][book_leonard_1992]
+[Jensen 1988][book_jensen_1988]
+
+$$
+N_{\text{South Asian arrivals, US, 1899 to 1917}} \approx 8 \times 10^3
+\tag{38}
+$$
+
+**Equation 39, Punjabi and Mexican Marriages in California.**
+About four hundred Punjabi and Mexican marriages were contracted in California between 1913 and 1949, at least about eighty percent of married Punjabi Sikh men around 1930 having Mexican wives.
+[Leonard 1992][book_leonard_1992]
+
+$$
+N_{\text{Punjabi-Mexican marriages, California, 1913 to 1949}} \approx 400, \quad f_{\text{Punjabi Sikh men in California marrying Mexican women, c. 1930}} \gtrsim 0.80
+\tag{39}
+$$
+
+**Equation 40, American Military Dead and Wounded in the First World War.**
+About 117,000 American service members died and about 200,000 were wounded in the First World War.
+
+$$
+N_{\text{American military dead, WWI}} \approx 1.17 \times 10^5, \quad N_{\text{American military wounded, WWI}} \approx 2 \times 10^5
+\tag{40}
+$$
+
+**Equation 41, Military Chaplains of the First World War.**
+About 2,400 chaplains served in the First World War, about seventy-two percent Protestant, twenty-five percent Catholic and three percent Jewish.
+
+$$
+N_{\text{US military chaplains, cumulative, WWI}} \approx 2.4 \times 10^3, \quad f_{\text{Protestant among WWI chaplains}} \approx 0.72, \quad f_{\text{Catholic among WWI chaplains}} \approx 0.25, \quad f_{\text{Jewish among WWI chaplains}} \approx 0.03
+\tag{41}
+$$
+
+**Equation 42, Expenditures of the YMCA War Work Council.**
+The War Work Council of the Young Men's Christian Association spent about 150 million nominal dollars between 1917 and 1919.
+
+$$
+C_{\text{YMCA War Work Council expenditures, 1917 to 1919}} \approx 1.5 \times 10^8 \text{ US dollars nominal}
+\tag{42}
+$$
+
+**Equation 43, Espionage and Sedition Act Prosecutions.**
+About two thousand people were prosecuted and about one thousand convicted under the Espionage and Sedition Acts between 1917 and 1921.
+
+$$
+N_{\text{Espionage and Sedition Act prosecutions, 1917 to 1921}} \approx 2 \times 10^3, \quad N_{\text{convictions}} \approx 1 \times 10^3
+\tag{43}
+$$
+
+**Equation 44, German-Language Protestant Congregations in 1916 and 1924.**
+German-language Protestant congregations fell from about eight thousand in 1916 to about 4,500 in 1924.
+[Luebke 1974][book_luebke_1974]
+
+$$
+N_{\text{German-language Protestant congregations, US}}(1916) \approx 8 \times 10^3, \quad N_{\text{German-language Protestant congregations, US}}(1924) \approx 4.5 \times 10^3
+\tag{44}
+$$
+
+**Equation 45, Conscientious Objectors in the First World War.**
+About four thousand men claimed conscientious objection in the First World War, and about five hundred were imprisoned.
+[Homan 1994][book_homan_1994]
+[Moore 1973][book_moore_1973]
+
+$$
+N_{\text{conscientious objectors, WWI}} \approx 4 \times 10^3, \quad N_{\text{imprisoned conscientious objectors}} \approx 500
+\tag{45}
+$$
+
+**Equation 46, Arrests and Deportations of the Palmer Raids.**
+The Palmer Raids of 1919 and 1920 made about ten thousand arrests and about 550 deportations.
+[Murray et al. 1955][book_murray_1955]
+
+$$
+N_{\text{arrests, Palmer Raids}} \approx 1 \times 10^4, \quad N_{\text{deportations}} \approx 5.5 \times 10^2
+\tag{46}
+$$
+
+**Equation 47, Major Race Massacres from 1917 to 1923.**
+Six major massacres from East St. Louis in 1917 to Rosewood in 1923 killed from a handful to several hundred Black people each.
+[Krugler 2015][book_krugler_2015]
+[McWhirter 2011][book_mcwhirter_2011]
+
+$$
+\begin{aligned}
+\text{East St. Louis massacre} &: 1917, \quad N_{\text{Black dead}} \approx 40 \text{ to } 200 \\
+\text{Chicago massacre} &: 1919, \quad N_{\text{Black dead}} \approx 23, \quad N_{\text{white dead}} \approx 15 \\
+\text{Elaine massacre} &: 1919, \quad N_{\text{Black dead}} \approx 100 \text{ to } 800 \\
+\text{Washington DC riot} &: 1919, \quad N_{\text{Black dead}} \approx 15 \\
+\text{Tulsa massacre} &: 1921, \quad N_{\text{Black dead}} \approx 100 \text{ to } 300 \\
+\text{Rosewood massacre} &: 1923, \quad N_{\text{Black dead}} \approx 6 \text{ to } 27
+\end{aligned}
+\tag{47}
+$$
+
+**Equation 48, Scale of the Great Migration.**
+About 1.6 million Black Southerners moved north between 1910 and 1930 and about five million between 1940 and 1970, about 6.6 million in the two waves.
+[Wilkerson 2010][book_wilkerson_2010]
+[Grossman 1989][book_grossman_1989]
+
+$$
+\begin{aligned}
+N_{\text{Black migrants, South to North, 1910 to 1930}} &\approx 1.6 \times 10^6 \\
+N_{\text{Black migrants, South to North, 1940 to 1970}} &\approx 5 \times 10^6 \\
+\text{Total Great Migration}: &\quad \approx 6.6 \times 10^6
+\end{aligned}
+\tag{48}
+$$
+
+**Equation 49, Black Populations of Four Northern Cities in 1910 and 1930.**
+The Black populations of Chicago, New York, Detroit and Philadelphia grew severalfold between the censuses of 1910 and 1930.
+
+$$
+\begin{aligned}
+P_{\text{Black, Chicago}}(1910) &\approx 4.4 \times 10^4, \quad P_{\text{Black, Chicago}}(1930) \approx 2.34 \times 10^5 \\
+P_{\text{Black, New York}}(1910) &\approx 9.2 \times 10^4, \quad P_{\text{Black, New York}}(1930) \approx 3.28 \times 10^5 \\
+P_{\text{Black, Detroit}}(1910) &\approx 5.7 \times 10^3, \quad P_{\text{Black, Detroit}}(1930) \approx 1.2 \times 10^5 \\
+P_{\text{Black, Philadelphia}}(1910) &\approx 8.4 \times 10^4, \quad P_{\text{Black, Philadelphia}}(1930) \approx 2.19 \times 10^5
+\end{aligned}
+\tag{49}
+$$
+
+**Equation 50, Membership of the NAACP from 1912 to 1919.**
+The National Association for the Advancement of Colored People grew from about six thousand members in 1912 to about one hundred thousand in about three hundred branches in 1919.
+
+$$
+P_{\text{NAACP membership, US}}(1912) \approx 6 \times 10^3, \quad P_{\text{NAACP membership, US}}(1919) \approx 1 \times 10^5, \quad P_{\text{NAACP branches, US}}(1919) \approx 3 \times 10^2
+\tag{50}
+$$
+
+**Equation 51, Urban League Affiliates in 1920 and 1940.**
+The National Urban League had about twenty affiliated agencies in 1920 and about forty-seven in 1940.
+[Weiss 1974][book_weiss_1974]
+
+$$
+N_{\text{Urban League affiliated agencies, US}}(1920) \approx 20, \quad N_{\text{Urban League agencies}}(1940) \approx 47
+\tag{51}
+$$
+
+**Equation 52, Attendance and Converts of the Billy Sunday Campaigns.**
+The campaigns of Billy Sunday between 1908 and 1920 drew a cumulative attendance of about one hundred million and about one million documented converts.
+[Bruns 1992][book_bruns_1992]
+[McLoughlin 1955][book_mcloughlin_1955]
+
+$$
+N_{\text{Sunday campaign cumulative attendance, 1908 to 1920}} \approx 1 \times 10^8, \quad N_{\text{documented "trail hitters" (converts)}} \approx 1 \times 10^6
+\tag{52}
+$$
+
+**Equation 53, Attendance and Converts of the Torrey World Tours.**
+The world tours of Reuben Torrey between 1902 and 1906 drew on the order of ten million attenders and one hundred thousand converts.
+[Roberts 1996][book_roberts_1996]
+
+$$
+N_{\text{Torrey world tour attendance, 1902 to 1906}} \sim 1 \times 10^7, \quad N_{\text{documented converts}} \sim 1 \times 10^5
+\tag{53}
+$$
+
+**Equation 54, Founding Dates of the Major Bible Institutes.**
+The major Bible institutes were founded between Nyack in 1882 and the Denver Bible Institute in 1914.
+
+$$
+\begin{aligned}
+\text{Moody Bible Institute (Chicago)} &: 1886 \\
+\text{Nyack Missionary Training College} &: 1882 \\
+\text{Bible Institute of Los Angeles (BIOLA)} &: 1908 \\
+\text{Philadelphia College of the Bible} &: 1913 \\
+\text{Denver Bible Institute (Colorado Christian University)} &: 1914
+\end{aligned}
+\tag{54}
+$$
+
+**Equation 55, Number of Bible Institutes from 1900 to 1970.**
+Bible institutes numbered about twenty in 1900, about one hundred in 1925 and about 250 in 1970.
+[Brereton 1990][book_brereton_1990]
+
+$$
+N_{\text{Bible Institutes, US}}(1900) \approx 20, \quad N_{\text{Bible Institutes, US}}(1925) \approx 100, \quad N_{\text{Bible Institutes, US}}(1970) \approx 250
+\tag{55}
+$$
+
+**Equation 56, Foursquare Gospel Church Membership.**
+The Foursquare Gospel Church had about twenty thousand members in the United States in 1935 and has about 8.8 million worldwide today.
+
+$$
+P_{\text{Foursquare Gospel Church membership, US}}(1935) \approx 2 \times 10^4, \quad P_{\text{Foursquare Gospel Church worldwide, contemporary}} \approx 8.8 \times 10^6
+\tag{56}
+$$
+
+**Equation 57, Circulation of the Dearborn Independent.**
+The Dearborn Independent reached a peak circulation of about 900,000 around 1924, and at least about half a million copies of The International Jew were distributed.
+
+$$
+C_{\text{Dearborn Independent peak circulation, c. 1924}} \approx 9 \times 10^5, \quad N_{\text{The International Jew copies distributed, cumulative}} \gtrsim 5 \times 10^5
+\tag{57}
+$$
+
+**Equation 58, Popular and Electoral Votes in the Election of 1928.**
+Hoover won about 21.4 million popular votes and 444 electoral votes against about fifteen million and 87 for Smith.
+
+$$
+V_{\text{Herbert Hoover, popular}} \approx 2.14 \times 10^7, \quad V_{\text{Al Smith, popular}} \approx 1.51 \times 10^7, \quad V_{\text{Hoover, electoral}} = 444, \quad V_{\text{Smith, electoral}} = 87
+\tag{58}
+$$
+
+**Equation 59, Temples and Membership of the Buddhist Mission.**
+The Buddhist mission grew from one temple in 1900 to about thirty in 1920 and about forty thousand members in 1930.
+
+$$
+N_{\text{BCA temples, US}}(1900) = 1, \quad N_{\text{BCA temples, US}}(1920) \approx 30, \quad P_{\text{BCA membership, US}}(1930) \approx 4 \times 10^4
+\tag{59}
+$$
+
+**Equation 60, Japanese American Christians in 1930.**
+About fifteen thousand Japanese Americans, about fifteen percent of the population, were Christian in 1930.
+[Kashima 1977][book_kashima_1977]
+[Suzuki 1979][book_suzuki_1979]
+
+$$
+P_{\text{Japanese American Christian}}(1930) \approx 1.5 \times 10^4, \quad f_{\text{Christian among Japanese American population}}\bigg|_{1930} \approx 0.15
+\tag{60}
+$$
+
+**Equation 61, Chinese American Population from 1900 to 1940.**
+The Chinese American population is given as about 105,000 in 1900, about 62,000 in 1920 and about 77,000 in 1940.
+
+$$
+P_{\text{Chinese American, US}}(1900) \approx 1.05 \times 10^5, \quad P_{\text{Chinese American, US}}(1920) \approx 6.2 \times 10^4, \quad P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4
+\tag{61}
+$$
+
+**Equation 62, Attendance at the Azusa Street Revival.**
+Daily attendance at Azusa Street peaked at about 1,300 between 1906 and 1908, with on the order of one hundred thousand visitors between 1906 and 1913.
+[Apostolic Faith 1906][ref_apostolic_faith_1906]
+
+$$
+N_{\text{Azusa Street daily attendance, peak c. 1906 to 1908}} \approx 1.3 \times 10^3, \quad N_{\text{cumulative visitors, Azusa Street revival 1906 to 1913}} \sim 10^5
+\tag{62}
+$$
+
+**Equation 63, Circulation of the Apostolic Faith.**
+The Apostolic Faith newspaper reached a peak circulation of about fifty thousand around 1908.
+[Apostolic Faith 1906][ref_apostolic_faith_1906]
+
+$$
+C_{\text{Apostolic Faith circulation, peak c. 1908}} \approx 5 \times 10^4
+\tag{63}
+$$
+
+**Equation 64, Church of God in Christ Membership.**
+The Church of God in Christ had about forty thousand members in 1934 and has about six million today.
+[Clemmons 1996][book_clemmons_1996]
+
+$$
+P_{\text{Church of God in Christ, US}}(1934) \approx 4 \times 10^4, \quad P_{\text{COGIC, US, contemporary}} \approx 6 \times 10^6
+\tag{64}
+$$
+
+**Equation 65, Assemblies of God Membership.**
+The Assemblies of God had about fifty thousand members in the United States in 1930 and has about 3.1 million today.
+[Blumhofer 1993][book_blumhofer_1993]
+
+$$
+P_{\text{Assemblies of God, US}}(1930) \approx 5 \times 10^4, \quad P_{\text{Assemblies of God, US, contemporary}} \approx 3.1 \times 10^6
+\tag{65}
+$$
+
+**Equation 66, Scale of the Presbyterian Fundamentalist-Modernist Contest.**
+The Presbyterian Church in the United States of America had about 1.6 million members in 1920, and the 1,274 signers of the Auburn Affirmation of 1924 were about thirteen percent of its roughly ten thousand ministers.
+
+$$
+P_{\text{Presbyterian Church USA, US}}(1920) \approx 1.6 \times 10^6, \quad N_{\text{Auburn Affirmation signatories, 1924}} = 1274, \quad N_{\text{PCUSA ministers, 1924}} \approx 1 \times 10^4
+\tag{66}
+$$
+
+**Equation 67, World's Christian Fundamentals Association at Its Founding.**
+The World's Christian Fundamentals Association drew some six thousand affiliated ministers from at least twenty-five denominational bodies around 1919.
+
+$$
+N_{\text{WCFA affiliated ministers, c. 1919}} \sim 6 \times 10^3, \quad N_{\text{denominational bodies represented, WCFA founding}} \geq 25
+\tag{67}
+$$
+
+**Equation 68, Peak Membership of the Second Klan.**
+The second Ku Klux Klan peaked at about four million members around 1925, which the article states as about fifteen percent of the male population.
+
+$$
+P_{\text{second-wave KKK membership, peak c. 1925}} \approx 4 \times 10^6, \quad f_{\text{male US population, KKK member, peak}} \approx 0.15
+\tag{68}
+$$
+
+**Equation 69, Klan Membership in Four States around 1925.**
+Around 1925 the Klan counted about 400,000 members in Texas, 300,000 in Ohio, 250,000 in Indiana and 50,000 in Oregon.
+
+$$
+\begin{aligned}
+P_{\text{KKK members, Indiana, peak c. 1925}} &\approx 2.5 \times 10^5 \\
+P_{\text{KKK members, Ohio, peak c. 1925}} &\approx 3 \times 10^5 \\
+P_{\text{KKK members, Texas, peak c. 1925}} &\approx 4 \times 10^5 \\
+P_{\text{KKK members, Oregon, peak c. 1925}} &\approx 5 \times 10^4
+\end{aligned}
+\tag{69}
+$$
+
+**Equation 70, Klan Membership in 1930.**
+Klan membership fell to about thirty thousand by 1930, a decline of about ninety-nine percent from the peak.
+
+$$
+P_{\text{second-wave KKK membership}}(1930) \approx 3 \times 10^4
+\tag{70}
+$$
+
+**Equation 71, Fundraising of the Anti-Saloon League.**
+The Anti-Saloon League raised about sixty million nominal dollars between 1893 and 1919.
+
+$$
+C_{\text{Anti-Saloon League cumulative fundraising, 1893 to 1919}} \approx 6 \times 10^7 \text{ US dollars nominal}
+\tag{71}
+$$
+
+**Equation 72, Ratification of the Eighteenth Amendment.**
+Thirty-six states, the number required, had ratified the Eighteenth Amendment by 16 January 1919, about thirteen months after its submission.
+
+$$
+N_{\text{states ratifying, 18th Amendment, by 16 January 1919}} = 36, \quad N_{\text{states required for ratification}} = 36, \quad t_{\text{ratification interval from submission}} \approx 13 \text{ months}
+\tag{72}
+$$
+
+**Equation 73, Federal Prohibition Arrests and Prisoners.**
+Federal Prohibition enforcement made about 540,000 arrests between 1920 and 1933 and held about 4,300 prisoners at the peak around 1932.
+
+$$
+N_{\text{federal Prohibition arrests, cumulative 1920 to 1933}} \approx 5.4 \times 10^5, \quad N_{\text{federal Prohibition prisoners, peak c. 1932}} \approx 4.3 \times 10^3
+\tag{73}
+$$
+
+**Equation 74, Per Capita Alcohol Consumption from 1917 to 1929.**
+Per capita consumption fell from about eight litres of pure ethanol a year in 1917 to about 3.2 in 1921 and recovered to about 5.5 by 1929.
+
+$$
+C_{\text{per capita alcohol, US}}(1917) \approx 8 \text{ liters pure ethanol per year}, \quad C_{\text{per capita alcohol, US}}(1921) \approx 3.2 \text{ liters}, \quad C_{\text{per capita alcohol, US}}(1929) \approx 5.5 \text{ liters}
+\tag{74}
+$$
+
+**Equation 75, States with Women's Suffrage in 1900 and 1918.**
+Four states had full women's suffrage in 1900, and by 1918 fifteen had full and about twelve partial suffrage.
+
+$$
+N_{\text{states with full women's suffrage}}(1900) = 4, \quad N_{\text{states with full women's suffrage}}(1918) = 15, \quad N_{\text{states with partial women's suffrage}}(1918) \approx 12
+\tag{75}
+$$
+
+**Equation 76, Ratification of the Nineteenth Amendment.**
+The Nineteenth Amendment needed thirty-six states and was ratified about fourteen months after submission, when Tennessee supplied the last state by a margin of one vote.
+
+$$
+N_{\text{states required, 19th Amendment ratification}} = 36, \quad t_{\text{ratification interval}} \approx 14 \text{ months}, \quad V_{\text{Tennessee ratification margin, 1920}} = 1
+\tag{76}
+$$
+
+**Equation 77, Membership of the Universal Negro Improvement Association.**
+The Universal Negro Improvement Association reached about 600,000 members in about one thousand divisions worldwide around 1923.
+[Grant 2008][book_grant_2008]
+
+$$
+P_{\text{UNIA membership, peak c. 1923}} \approx 6 \times 10^5, \quad N_{\text{UNIA divisions worldwide, peak}} \approx 1 \times 10^3
+\tag{77}
+$$
+
+**Equation 78, Moorish Science Temple Membership at Its Peak.**
+The Moorish Science Temple of America reached about thirty thousand members around 1929.
+[Nance 2002][book_nance_2002]
+
+$$
+P_{\text{Moorish Science Temple, US, peak c. 1929}} \approx 3 \times 10^4
+\tag{78}
+$$
+
+**Equation 79, Peak Membership of Two Religio-Racial Movements.**
+The Peace Mission of Father Divine peaked at about fifty thousand around 1932 and the United House of Prayer at about 300,000 around 1960.
+[Weisenfeld 2017][book_weisenfeld_2017]
+
+$$
+P_{\text{Father Divine Peace Mission, US, peak c. 1932}} \approx 5 \times 10^4, \quad P_{\text{United House of Prayer, US, peak c. 1960}} \approx 3 \times 10^5
+\tag{79}
+$$
+
+**Equation 80, National Origins Quotas of 1924.**
+The quotas favoured the sources of the old immigration, giving tens of thousands of places to the United Kingdom, Germany and Ireland against a few thousand to Italy and Poland, one hundred to Greece and none to China and Japan.
+[Johnson-Reed Act 1924][ref_johnson_reed_act_1924]
+
+$$
+\begin{aligned}
+Q_{\text{United Kingdom}}(1924) &\approx 6.5 \times 10^4 \\
+Q_{\text{Germany}}(1924) &\approx 5.1 \times 10^4 \\
+Q_{\text{Ireland}}(1924) &\approx 2.9 \times 10^4 \\
+Q_{\text{Italy}}(1924) &\approx 3.9 \times 10^3 \\
+Q_{\text{Poland}}(1924) &\approx 6 \times 10^3 \\
+Q_{\text{Greece}}(1924) &\approx 100 \\
+Q_{\text{China}}(1924) &= 0 \text{ (excluded)} \\
+Q_{\text{Japan}}(1924) &= 0 \text{ (excluded)}
+\end{aligned}
+\tag{80}
+$$
+
+**Equation 81, Annual Immigration from 1914 to 1933.**
+Annual immigration fell from about 1.22 million in 1914 to about 290,000 in 1925 and about 23,000 in 1933, a reduction of about ninety-eight percent.
+
+$$
+N_{\text{arrivals, US}}(1914) \approx 1.22 \times 10^6, \quad N_{\text{arrivals, US}}(1925) \approx 2.9 \times 10^5, \quad N_{\text{authorized immigrant admissions, US}}(1929) \approx 2.8 \times 10^5, \quad N_{\text{admissions}}(1933) \approx 2.3 \times 10^4
+\tag{81}
+$$
+
+**Equation 82, Unfilled German Quota and the Voyage of the St. Louis.**
+About one hundred thousand German quota places went unfilled between 1933 and 1938, and 937 refugees aboard the St. Louis were refused in 1939.
+
+$$
+N_{\text{unfilled German quota positions, 1933 to 1938}} \approx 1 \times 10^5, \quad N_{\text{Jewish refugees denied, M.S. St. Louis 1939}} = 937
+\tag{82}
+$$
+
+### Notation
+
+- $f_{\text{immigrant share, US population}}$, the foreign-born share of the population of the United States
+- $f_{\text{new immigration share, US arrivals}}$, the share of arrivals from the sources of the new immigration, chiefly southern and eastern Europe and the Middle East
+- $Q_{\text{Italy}}(1924)$, the annual quota for Italy under the Johnson-Reed Act, one instance of $Q$ for each country
+- $C_{\text{per capita alcohol, US}}$, the per capita alcohol consumption in litres of pure ethanol per year, distinct from the $C$ used elsewhere for funds and circulation
+- $V_{\text{Tennessee ratification margin, 1920}}$, the margin in votes by which Tennessee ratified the Nineteenth Amendment
 
 ## References
 

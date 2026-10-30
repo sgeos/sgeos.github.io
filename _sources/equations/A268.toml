@@ -1,0 +1,287 @@
+# Equation classification for A268. Read by `python3 _lib/equations.py`.
+
+caution = "Populations, converts, arrivals and casualties are counted in persons, dates are calendar years of the Common Era and intervals are in years, growth rates are continuous rates per year, and every share is a fraction between zero and one."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "European Population in 1725 and 1789"
+gloss = "The European population grew about fivefold from about six hundred thousand in the colonies of 1725 to about three million in the United States of 1789."
+cite = []
+digest = "931cb2a6ccaf9b2d"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "African-Descent Population in 1725 and 1789"
+gloss = "The African-descent population of the colonies and later United States grew from about one hundred thousand in 1725 to about 750,000 in 1789."
+cite = []
+digest = "d90776b8e4f4c35b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Enslaved Share and Free Black Population in 1789"
+gloss = "About ninety percent of the African-descent population was enslaved in 1789, leaving a free Black population of about seventy-five thousand."
+cite = []
+digest = "1dd1cfd4ccf69157"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Indigenous Population of the Future United States in 1725 and 1789"
+gloss = "The indigenous population of the territory that would become the United States fell from about half a million in 1725 to about three hundred thousand in 1789."
+cite = ["book_thornton_1987"]
+digest = "6fb507af931f45ce"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Scale of the American Ministry of George Whitefield"
+gloss = "Whitefield made seven American tours between 1739 and 1770 and drew a largest crowd that Franklin estimated by acoustic calculation at about thirty thousand."
+cite = ["book_stout_1991", "book_lambert_1994", "book_franklin_autobiography"]
+digest = "cc3c2abdf99fa986"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Converts in the Peak Years of the Great Awakening"
+gloss = "Documented conversions in the peak years of 1740 to 1742 number about thirty to fifty thousand."
+cite = ["book_butler_1990", "book_kidd_2007"]
+digest = "22af97448166a9a7"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Convert Share of the Colonial Population in 1740"
+gloss = "Taking the midpoint of forty thousand from the stated range of converts and a colonial population of about 850,000 gives a convert share of about 4.7 percent."
+cite = ["book_butler_1990", "book_kidd_2007"]
+digest = "cdc7642751b4aea5"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Duration of the Presbyterian Old Side and New Side Schism"
+gloss = "The Presbyterian schism lasted from 1741 to the reunion of 1758, a span of seventeen years."
+cite = []
+digest = "b5f541a49618c25f"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Methodist Adherents in 1784 and 1820"
+gloss = "Methodist adherents in the United States grew from about fifteen thousand at the organisation of 1784 to about a quarter of a million in 1820."
+cite = ["book_baker_1976", "book_wigger_1998"]
+digest = "a9a18f12024c0faa"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Methodist Growth Rate from 1784 to 1820"
+gloss = "The continuous growth rate implied by the two membership figures over thirty-six years is the logarithm of their ratio divided by the interval, about 0.078 per year."
+cite = ["book_wigger_1998"]
+digest = "c2974008f13c1f94"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Household Reach of Common Sense"
+gloss = "From about 150,000 copies and a colonial population of about two and a half million the article judges that the pamphlet reached about thirty percent of households, a share that rests on its own allowance for public readings."
+cite = []
+digest = "9eba935cd278bb31"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Departure of Northern Anglican Clergy during the Revolution"
+gloss = "About half of the Northern Anglican clergy left their posts between 1776 and 1783."
+cite = ["book_nelson_2001"]
+digest = "724cd6e15ce2bcda"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Haudenosaunee Villages Destroyed in 1779"
+gloss = "The Sullivan-Clinton Campaign of 1779 destroyed about forty Haudenosaunee villages in western New York."
+cite = ["book_mintz_1999"]
+digest = "6ec620553d83537e"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Victims of the Gnadenhutten Massacre"
+gloss = "Pennsylvania militia murdered ninety-six Moravian Native Christians at Gnadenhutten on 8 March 1782, of whom the article counts sixty as women and children."
+cite = ["book_harper_2014"]
+digest = "d83bb3a1ff48d42f"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Dates of Anglican Disestablishment by State"
+gloss = "The Anglican establishments of six states ended between 1776 and 1789, with the Virginia statute of 1786 among them."
+cite = []
+digest = "6740002dfa4eed72"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Lag of the Last State Disestablishment behind the First Amendment"
+gloss = "Massachusetts ended the last state establishment in 1833, forty-two years after the First Amendment of 1791."
+cite = []
+digest = "8d7d085aa57b74ce"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "No Religious Test Clause"
+gloss = "Article VI, Clause 3 of the Constitution forbids any religious test as a qualification for federal office or public trust."
+cite = ["ref_us_constitution_1787", "book_kramnick_moore_2005"]
+digest = "861e54e53ea872a2"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "The Two Religion Clauses of the First Amendment"
+gloss = "The religious provisions of the First Amendment consist of the Establishment Clause and the Free Exercise Clause."
+cite = ["ref_first_amendment_1791"]
+digest = "6e5f1c9075ba0662"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Delay to Incorporation of the Free Exercise Clause"
+gloss = "Cantwell v. Connecticut applied the Free Exercise Clause to the states in 1940, 149 years after 1791."
+cite = ["ref_cantwell_v_connecticut_1940"]
+digest = "04aa3e8c073940c7"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Delay to Incorporation of the Establishment Clause"
+gloss = "Everson v. Board of Education applied the Establishment Clause to the states in 1947, 156 years after 1791."
+cite = ["ref_everson_v_board_of_education_1947"]
+digest = "d74349251e93fd8d"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Electoral Votes in the Election of 1800"
+gloss = "Jefferson received seventy-three electoral votes against sixty-five for Adams, a margin of eight."
+cite = ["book_larson_2007"]
+digest = "eb49444bcf3dee39"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Number of Black Loyalists"
+gloss = "Between fifteen and twenty thousand Black Loyalists supported the Crown in exchange for promises of freedom."
+cite = ["book_pybus_2006", "book_schama_2005"]
+digest = "283e3d039964b40f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Evacuation Destinations of Black Loyalists"
+gloss = "About three thousand Black Loyalists went to Nova Scotia and about five thousand to the Caribbean, and about twelve hundred reached Sierra Leone by 1792."
+cite = ["book_pybus_2006", "book_schama_2005"]
+digest = "05ae08cadc2514a8"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Northern State Emancipation Timeline"
+gloss = "Eight Northern states abolished or began gradually abolishing slavery between the Vermont constitution of 1777 and the New Jersey statute of 1804."
+cite = []
+digest = "a7e4e7d2abd02f45"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "German-Speaking Arrivals from 1683 to 1789"
+gloss = "About one hundred thousand German-speaking migrants arrived between 1683 and 1789."
+cite = ["book_wokeck_1999"]
+digest = "32de5d2af5c0c655"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Anabaptist Populations in 1789"
+gloss = "In 1789 the Amish, Mennonite and Brethren communities numbered about two, ten and three thousand, about fifteen thousand in all."
+cite = ["book_cross_1988", "book_nolt_2015"]
+digest = "199d7f10ba73a507"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Scots-Irish Arrivals from 1717 to 1775"
+gloss = "About a quarter of a million Scots-Irish migrants arrived between 1717 and 1775."
+cite = []
+digest = "78a56fa400b59dc2"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Scots-Irish Share of the Continental Army"
+gloss = "Estimates from service records and demographic reconstruction put about a third of the Continental Army as of Scots-Irish origin."
+cite = []
+digest = "07d75d9c3a4630fd"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Saint-Domingue Refugees to New Orleans in 1809"
+gloss = "About ten thousand refugees from Saint-Domingue reached New Orleans in 1809, roughly equal to the population of the city before their arrival."
+cite = ["book_dessens_2007"]
+digest = "f94923b7f1f2c6ee"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Catholic Population of the United States in 1789"
+gloss = "The Catholic population of the United States in 1789 was about twenty-five thousand, concentrated in Maryland and Pennsylvania."
+cite = []
+digest = "911debccbc33ea6f"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Catholic Share of the Population in 1789"
+gloss = "Dividing about twenty-five thousand Catholics by a national population of about 3.9 million gives a share of about six per thousand."
+cite = []
+digest = "826abb12d44a7895"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Freemason Share of the Founding Fathers"
+gloss = "Between about thirty and fifty percent of the Founding Fathers were Freemasons, depending on how the founders are defined."
+cite = ["book_bullock_1996", "book_tabbert_2005"]
+digest = "293218702f047438"
+
+[[symbol]]
+tex = 'f_{\text{enslaved}}'
+meaning = "the share of the African-descent population held in bondage"
+
+[[symbol]]
+tex = 'f_{\text{converts}}'
+meaning = "the share of the colonial population documented as Awakening converts"
+
+[[symbol]]
+tex = 'r_{\text{Methodist growth, 1784 to 1820}}'
+meaning = "the continuous annual growth rate of Methodist adherence"
+
+[[symbol]]
+tex = 'f_{\text{households reached}}'
+meaning = "the share of colonial households reached by Common Sense through copies and public readings"
+
+[[symbol]]
+tex = '\Delta t_{\text{Free Exercise incorporation}}'
+meaning = "the interval in years from the First Amendment to the application of the Free Exercise Clause to the states"
+
+[[symbol]]
+tex = '\Delta t_{\text{Establishment incorporation}}'
+meaning = "the interval in years from the First Amendment to the application of the Establishment Clause to the states"
+
+[[symbol]]
+tex = 'f_{\text{Catholic}}(1789)'
+meaning = "the Catholic share of the national population in 1789"

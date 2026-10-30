@@ -19,33 +19,49 @@ This fourth article of the series treats the 1789-1861 period from the constitut
 
 The 1789-1861 period exhibits significant expansion and reorganization of the American ethnoreligious formation across the dimensions treated in this article. The population of the United States grew from approximately
 
-$$P_{\text{US}}(1789) \approx 3.9 \times 10^6, \quad P_{\text{US}}(1861) \approx 3.1 \times 10^7$$
+$$
+P_{\text{US}}(1789) \approx 3.9 \times 10^6, \quad P_{\text{US}}(1861) \approx 3.1 \times 10^7
+\tag{1}
+$$
 
 reflecting substantial natural increase combined with marked migration inflow. The composition changed considerably, with the European-descent free population, the African-descent enslaved and free populations, and the indigenous population each following distinct trajectories.
 
 The African-descent population grew from approximately
 
-$$P_{\text{African, US}}(1789) \approx 7.5 \times 10^5, \quad P_{\text{African, US}}(1861) \approx 4.5 \times 10^6$$
+$$
+P_{\text{African, US}}(1789) \approx 7.5 \times 10^5, \quad P_{\text{African, US}}(1861) \approx 4.5 \times 10^6
+\tag{2}
+$$
 
 with the proportion enslaved declining slightly through Northern emancipation offset by continuing Southern expansion,
 
-$$f_{\text{enslaved}}(1789) \approx 0.90, \quad f_{\text{enslaved}}(1861) \approx 0.89$$
+$$
+f_{\text{enslaved}}(1789) \approx 0.90, \quad f_{\text{enslaved}}(1861) \approx 0.89
+\tag{3}
+$$
 
 The indigenous population within the territory that would become the United States continued to decline through removal, warfare, disease, and demographic pressure. Estimates place
 
-$$P_{\text{indigenous, US territory}}(1789) \approx 3 \times 10^5, \quad P_{\text{indigenous, US territory}}(1861) \approx 2.5 \times 10^5$$
+$$
+P_{\text{indigenous, US territory}}(1789) \approx 3 \times 10^5, \quad P_{\text{indigenous, US territory}}(1861) \approx 2.5 \times 10^5
+\tag{4}
+$$
 
 with extensive regional variation and continued displacement to lands west of the Mississippi treated below.
 
 Immigration across the period was sizable, with approximately
 
-$$N_{\text{immigrants, US, 1820 to 1861}} \approx 5 \times 10^6$$
+$$
+N_{\text{immigrants, US, 1820 to 1861}} \approx 5 \times 10^6
+\tag{5}
+$$
 
 arriving across the four decades of the pre-Civil War period. The ethnoreligious composition of the migration included appreciable Irish Catholic (approximately 1.5 million from 1846-1855 alone), German Protestant Catholic and Jewish (approximately 1.5 million across the period), British and Scandinavian Protestant, and smaller streams. The [Daniels 1990][book_daniels_1990] Coming to America, [Bodnar 1985][book_bodnar_1985] The Transplanted, and [Handlin 1951][book_handlin_1951] The Uprooted provide the standard treatments.
 
 The religious geography of the antebellum United States reflected considerable denominational expansion and reorganization. By 1850 the largest denominational formations by adherent count were
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Methodist Episcopal Church (all branches)} &\approx 1.3 \times 10^6 \\
 \text{Baptist (all conventions)} &\approx 8.2 \times 10^5 \\
 \text{Presbyterian (all synods)} &\approx 4.9 \times 10^5 \\
@@ -53,7 +69,9 @@ $$\begin{aligned}
 \text{Roman Catholic} &\approx 1.6 \times 10^6 \\
 \text{Lutheran} &\approx 1.6 \times 10^5 \\
 \text{Episcopal} &\approx 1.4 \times 10^5
-\end{aligned}$$
+\end{aligned}
+\tag{6}
+$$
 
 per the 1850 Census of Religious Bodies, with Catholic populations having overtaken any single Protestant denomination through significant immigration. The [Finke and Stark 1992][book_finke_stark_1992] The Churching of America 1776-2005, [Gaustad and Barlow 2001][book_gaustad_barlow_2001] New Historical Atlas of Religion in America, and [Ahlstrom 1972][book_ahlstrom_1972] provide the quantitative and geographic treatments.
 
@@ -63,7 +81,10 @@ The Second Great Awakening, conventionally dated from approximately 1795 through
 
 Kentucky camp meetings from the 1790s forward produced the frontier revival pattern that would shape subsequent evangelical practice. James McGready (1763-1817), Presbyterian minister at Red River (Logan County, Kentucky), initiated the 1800 Gasper River sacramental meeting that produced the first documented camp meeting. The [1801 Cane Ridge Revival][ref_cane_ridge_revival_1801] in Bourbon County, Kentucky under Barton Warren Stone (1772-1844), reached reported attendance of
 
-$$N_{\text{Cane Ridge attendance}} \sim 1 \times 10^4 \text{ to } 2 \times 10^4$$
+$$
+N_{\text{Cane Ridge attendance}} \sim 1 \times 10^4 \text{ to } 2 \times 10^4
+\tag{7}
+$$
 
 across the several days of the meeting, comprising approximately one-tenth of the Kentucky population at that date. The [Boles 1972][book_boles_1972] The Great Revival, [Conkin 1990][book_conkin_1990] Cane Ridge, and [Johnson 1955][book_johnson_1955] The Frontier Camp Meeting provide the treatments.
 
@@ -77,7 +98,8 @@ Timothy Dwight (1752-1817), President of Yale from 1795 through his death, provi
 
 Second Great Awakening voluntary religious societies produced extensive institutional infrastructure that would shape antebellum American religious and social life. The founding dates of the major benevolent empire organizations form the chronological cluster
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{American Bible Society} &: 1816 \\
 \text{American Colonization Society} &: 1816 \\
 \text{American Sunday School Union} &: 1824 \\
@@ -86,7 +108,9 @@ $$\begin{aligned}
 \text{American Home Missionary Society} &: 1826 \\
 \text{American Peace Society} &: 1828 \\
 \text{American Anti-Slavery Society} &: 1833
-\end{aligned}$$
+\end{aligned}
+\tag{8}
+$$
 
 providing the interlocking network of religious voluntary organizations that historians have termed the benevolent empire. The [American Bible Society founding 1816][ref_american_bible_society_1816], [American Sunday School Union founding 1824][ref_american_sunday_school_union_1824], and the earlier 1810 organization of the [American Board of Commissioners for Foreign Missions][ref_abcfm_1810] provided the institutional infrastructure. The [Foster 1960][book_foster_1960] An Errand of Mercy provides the foundational treatment.
 
@@ -96,31 +120,46 @@ Antebellum denominational growth was sizable across the evangelical denomination
 
 Methodist growth from the 1784 organization treated in [A268][related_post_a268_awakening_and_founding] to the 1850 peak reached approximately
 
-$$P_{\text{Methodist adherents, US}}(1850) \approx 2.7 \times 10^6, \quad \frac{P_{\text{Methodist}}}{P_{\text{US}}}(1850) \approx 0.12$$
+$$
+P_{\text{Methodist adherents, US}}(1850) \approx 2.7 \times 10^6, \quad \frac{P_{\text{Methodist}}}{P_{\text{US}}}(1850) \approx 0.12
+\tag{9}
+$$
 
 representing approximately one-eighth of the American population. The growth mechanism combined the circuit-rider system providing itinerant ministry to frontier populations, the class-meeting weekly small-group discipline providing sustained community formation, and the accessible theological framework combining Arminian free-will theology with perfectionist sanctification doctrine. The [Wigger 1998][book_wigger_1998] Taking Heaven by Storm, [Richey 1991][book_richey_1991] Early American Methodism, and [Andrews 2000][book_andrews_2000] The Methodists and Revolutionary America (already cited) treat the growth pattern.
 
 Baptist growth similarly accelerated through the period, reaching approximately
 
-$$P_{\text{Baptist adherents, US}}(1850) \approx 1.6 \times 10^6$$
+$$
+P_{\text{Baptist adherents, US}}(1850) \approx 1.6 \times 10^6
+\tag{10}
+$$
 
 across the several Baptist formations including Regular, Separate, Freewill, Primitive, and other branches. The 1814 formation of the General Missionary Convention of the Baptist Denomination in the United States of America (Triennial Convention) provided the first American Baptist denominational structure combining autonomy of local congregations with coordinated missionary activity. The [McBeth 1987][book_mcbeth_1987] The Baptist Heritage and [Leonard 2003][book_leonard_2003] Baptists in America provide the detailed treatments.
 
 Presbyterian growth continued through the period but at slower rate than Methodist and Baptist expansion, reaching approximately
 
-$$P_{\text{Presbyterian adherents, US}}(1850) \approx 4.9 \times 10^5$$
+$$
+P_{\text{Presbyterian adherents, US}}(1850) \approx 4.9 \times 10^5
+\tag{11}
+$$
 
 with appreciable denominational divisions treated below. The 1801 Plan of Union between Congregationalists and Presbyterians provided the cooperative missionary framework for the expansion into the western territories, subsequently dissolved during the 1837 Presbyterian Old School / New School split. The [Longfield 2013][book_longfield_2013] Presbyterians and American Culture, [Marsden 1970][book_marsden_1970] The Evangelical Mind and the New School Presbyterian Experience, and [Trinterud 1949][book_trinterud_1949] The Forming of an American Tradition (already cited) treat the developments.
 
 Congregationalist growth stagnated through the period as the Massachusetts and Connecticut base failed to replicate through frontier expansion under the 1801 Plan of Union that delivered Congregationalist frontier populations into Presbyterian denominational structures. Congregationalist populations reached only approximately
 
-$$P_{\text{Congregationalist adherents, US}}(1850) \approx 2.0 \times 10^5$$
+$$
+P_{\text{Congregationalist adherents, US}}(1850) \approx 2.0 \times 10^5
+\tag{12}
+$$
 
 representing the eastern New England base without considerable frontier extension. The [Youngs 1976][book_youngs_1976] The Congregationalists treats the pattern.
 
 Episcopal (formerly Anglican) growth was similarly modest, reaching approximately
 
-$$P_{\text{Episcopal adherents, US}}(1850) \approx 1.4 \times 10^5$$
+$$
+P_{\text{Episcopal adherents, US}}(1850) \approx 1.4 \times 10^5
+\tag{13}
+$$
 
 reflecting the post-Revolutionary institutional reconstruction described in [A268][related_post_a268_awakening_and_founding] and the limited appeal of the liturgical Anglican tradition against the evangelical Methodist and Baptist alternatives on the frontier. The [Mullin 1986][book_mullin_1986] Episcopal Vision and American Reality (already cited) treats the pattern.
 
@@ -132,7 +171,10 @@ The Restoration Movement, initiated by Barton Warren Stone (also of Cane Ridge f
 
 The Millerite movement, based on William Miller's (1782-1849) biblical prophetic calculations predicting the Second Coming of Christ on dates between March 1843 and October 1844 as set forth in his 1836 [Evidence from Scripture and History of the Second Coming of Christ][ref_miller_evidence_second_coming_1836], produced the most substantial millennial mobilization of the antebellum period. Approximately
 
-$$P_{\text{Millerite adherents, US peak, 1844}} \sim 5 \times 10^4 \text{ to } 1 \times 10^5$$
+$$
+P_{\text{Millerite adherents, US peak, 1844}} \sim 5 \times 10^4 \text{ to } 1 \times 10^5
+\tag{14}
+$$
 
 anticipated the Second Coming on the 22 October 1844 date. The failure of the expected event produced the Great Disappointment. The [Rowe 2008][book_rowe_2008] God's Strange Work and [Butler and Numbers 1987][book_numbers_butler_1987] The Disappointed provide the most complete treatments.
 
@@ -150,7 +192,10 @@ Joseph Smith, born at Sharon, Vermont, and raised at Palmyra, New York in the bu
 
 The 1830 organization of the Church of Christ (later renamed The Church of Jesus Christ of Latter Day Saints in 1834 and The Church of Jesus Christ of Latter-day Saints in 1838) at Fayette, New York provided the institutional founding. The early membership grew rapidly, with
 
-$$P_{\text{LDS members}}(1830) \approx 30, \quad P_{\text{LDS members}}(1844) \approx 2.5 \times 10^4, \quad P_{\text{LDS members}}(1861) \approx 1 \times 10^5$$
+$$
+P_{\text{LDS members}}(1830) \approx 30, \quad P_{\text{LDS members}}(1844) \approx 2.5 \times 10^4, \quad P_{\text{LDS members}}(1861) \approx 1 \times 10^5
+\tag{15}
+$$
 
 through missionary activity to the American northeast, midwest, and British Isles. The 1837 opening of the British mission produced extensive British and later Scandinavian conversions that would provide sizable Utah migration in the following decades.
 
@@ -158,15 +203,24 @@ Mormon communal settlements followed the pattern of formation, conflict with nei
 
 Brigham Young (1801-1877) subsequently led the 1846-1847 migration of the majority Mormon population to the Great Basin, arriving at the Salt Lake Valley on 24 July 1847. The Deseret settlement expanded rapidly to reach
 
-$$N_{\text{Mormon settlements, 1860}} \approx 3.5 \times 10^2$$
+$$
+N_{\text{Mormon settlements, 1860}} \approx 3.5 \times 10^2
+\tag{16}
+$$
 
 communities across the Great Basin, Colorado Plateau, and southern California by 1860. Nauvoo, Illinois had reached a peak population of
 
-$$P_{\text{Nauvoo, peak}} \approx 1.5 \times 10^4$$
+$$
+P_{\text{Nauvoo, peak}} \approx 1.5 \times 10^4
+\tag{17}
+$$
 
 by 1844 before the 1846 evacuation to Utah, providing the staging population for the migration. The compound annual growth rate of Mormon membership from 1830 through 1861 was considerable,
 
-$$r_{\text{LDS growth, 1830 to 1861}} = \frac{\ln(1 \times 10^5 / 30)}{31 \text{ years}} \approx 0.26 \text{ per year}$$
+$$
+r_{\text{LDS growth, 1830 to 1861}} = \frac{\ln(1 \times 10^5 / 30)}{31 \text{ years}} \approx 0.26 \text{ per year}
+\tag{18}
+$$
 
 though the earliest years reflect founding-era small-base multiplicative gain. Sustained growth after the 1830s founding period continued at approximately eight to ten percent per year through the antebellum decades, reflecting both the missionary conversion and the high fertility characteristic of Mormon communities. The [Arrington 1985][book_arrington_1985] Brigham Young American Moses and [Bagley 2002][book_bagley_2002] Blood of the Prophets treat the Utah settlement.
 
@@ -180,27 +234,42 @@ Irish migration to the United States accelerated through the antebellum period f
 
 Pre-Famine Irish migration from approximately 1815 through 1845 comprised approximately
 
-$$N_{\text{Irish arrivals, 1815 to 1845}} \approx 8 \times 10^5$$
+$$
+N_{\text{Irish arrivals, 1815 to 1845}} \approx 8 \times 10^5
+\tag{19}
+$$
 
 combining Protestant Scots-Irish (continuing from eighteenth-century patterns treated in [A267][related_post_a267_colonial_folkways] and [A268][related_post_a268_awakening_and_founding]) with marked Catholic Irish from the southern and western Irish counties. The Catholic proportion increased through the period from approximately one-third to approximately two-thirds of the arriving Irish population per the [Miller 1985][book_miller_1985] treatment.
 
 The Great Famine (An Gorta Mór, the Great Hunger) from 1845 through 1852 produced the catastrophic Irish population loss through starvation and disease combined with extensive emigration. The demographic collapse can be characterized as
 
-$$P_{\text{Ireland}}(1845) \approx 8.5 \times 10^6, \quad P_{\text{Ireland}}(1851) \approx 6.5 \times 10^6, \quad \Delta P \approx -2 \times 10^6$$
+$$
+P_{\text{Ireland}}(1845) \approx 8.5 \times 10^6, \quad P_{\text{Ireland}}(1851) \approx 6.5 \times 10^6, \quad \Delta P \approx -2 \times 10^6
+\tag{20}
+$$
 
 with approximately
 
-$$N_{\text{Famine dead}} \approx 1 \times 10^6, \quad N_{\text{Famine emigrated}} \approx 1 \times 10^6$$
+$$
+N_{\text{Famine dead}} \approx 1 \times 10^6, \quad N_{\text{Famine emigrated}} \approx 1 \times 10^6
+\tag{21}
+$$
 
 during the six-year period. Irish arrivals to the United States during the 1846-1855 period totaled approximately
 
-$$N_{\text{Irish arrivals, 1846 to 1855}} \approx 1.5 \times 10^6$$
+$$
+N_{\text{Irish arrivals, 1846 to 1855}} \approx 1.5 \times 10^6
+\tag{22}
+$$
 
 producing the single largest immigration wave of the antebellum period and reshaping the urban populations of the Northeast. The [Kinealy 1994][book_kinealy_1994] This Great Calamity and [Gray 1995][book_gray_1995] The Irish Famine treat the Irish context.
 
 Urban concentration of the Irish Catholic immigrant population was sizable. By 1855 approximately
 
-$$f_{\text{Irish-born, NYC 1855}} \approx 0.28, \quad f_{\text{Irish-born, Boston 1855}} \approx 0.35, \quad f_{\text{Irish-born, Philadelphia 1855}} \approx 0.17$$
+$$
+f_{\text{Irish-born, NYC 1855}} \approx 0.28, \quad f_{\text{Irish-born, Boston 1855}} \approx 0.35, \quad f_{\text{Irish-born, Philadelphia 1855}} \approx 0.17
+\tag{23}
+$$
 
 per the 1855 state census reconstructions in [Ernst 1949][book_ernst_1949] Immigrant Life in New York City. The Irish concentration in the urban labor markets, particularly in domestic service (approximately three-quarters of Irish immigrant women), construction and industrial labor (approximately three-quarters of Irish immigrant men), and transportation-and-service industries produced the occupational patterns that would shape Irish American economic and political development for the following century.
 
@@ -216,16 +285,22 @@ German-speaking migration to the United States continued through the antebellum 
 
 Total German-speaking arrivals across the 1820-1860 period reached approximately
 
-$$N_{\text{German arrivals, 1820 to 1860}} \approx 1.5 \times 10^6$$
+$$
+N_{\text{German arrivals, 1820 to 1860}} \approx 1.5 \times 10^6
+\tag{24}
+$$
 
 concentrated in the 1848-1854 wave that included significant Forty-Eighter Revolutionary refugees. The religious composition included approximately
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Lutheran and Reformed}} &\approx 0.55 \\
 f_{\text{Catholic}} &\approx 0.35 \\
 f_{\text{Jewish}} &\approx 0.05 \\
 f_{\text{Freethinker and other}} &\approx 0.05
-\end{aligned}$$
+\end{aligned}
+\tag{25}
+$$
 
 per the [Kamphoefner 1987][book_kamphoefner_1987] reconstruction, though substantial regional variation existed.
 
@@ -247,7 +322,10 @@ Chinese migration to the United States began with the 1849 California Gold Rush 
 
 Chinese arrivals during the 1849-1861 period totaled approximately
 
-$$N_{\text{Chinese arrivals, 1849 to 1861}} \approx 4.4 \times 10^4$$
+$$
+N_{\text{Chinese arrivals, 1849 to 1861}} \approx 4.4 \times 10^4
+\tag{26}
+$$
 
 concentrated in California mining regions and San Francisco. The overwhelming majority came from the Pearl River Delta region of Guangdong Province, particularly the Sze Yup (Four Districts) and Sam Yup (Three Districts) areas, producing the Cantonese-speaking American Chinese formation that would shape American Chinese cultural and religious life. The [Chen 2000][book_chen_2000] Chinese San Francisco and [Nee and Nee 1972][book_nee_nee_1972] Longtime Californ treat the San Francisco development.
 
@@ -259,7 +337,10 @@ Anti-Chinese violence and legal disabilities emerged rapidly following the initi
 
 Central Pacific Railroad Chinese labor from 1865 forward produced the largest single Chinese employment during the transcontinental railroad construction. Approximately
 
-$$N_{\text{Chinese railroad workers, Central Pacific 1865 to 1869}} \approx 1.5 \times 10^4, \quad f_{\text{Central Pacific workforce Chinese}} \approx 0.90$$
+$$
+N_{\text{Chinese railroad workers, Central Pacific 1865 to 1869}} \approx 1.5 \times 10^4, \quad f_{\text{Central Pacific workforce Chinese}} \approx 0.90
+\tag{27}
+$$
 
 comprised approximately ninety percent of the Central Pacific workforce. The Chinese contribution to the 1869 completion of the transcontinental railroad at Promontory Summit, Utah, though unrecognized in contemporary and subsequent historiography, provided the critical labor without which the railroad completion timeline would have been impossible. The [Chang 2019][book_chang_2019] Ghosts of Gold Mountain provides the modern treatment.
 
@@ -273,7 +354,10 @@ The 1836 publication of [Monk 1836][book_monk_1836] [Awful Disclosures of the Ho
 
 The [Nativist Riots of 1844 1844][ref_philadelphia_nativist_riots_1844], occurring in May and July, produced the most substantial anti-Catholic mob violence of the antebellum period. The conflict arose from the dispute over Catholic children in Philadelphia public schools being permitted to use the Douay Bible rather than the King James Bible for the mandatory school Bible reading. The May 1844 riots and July 1844 riots killed approximately
 
-$$N_{\text{Philadelphia Bible Riots dead}} \approx 20, \quad N_{\text{Catholic churches burned}} = 2$$
+$$
+N_{\text{Philadelphia Bible Riots dead}} \approx 20, \quad N_{\text{Catholic churches burned}} = 2
+\tag{28}
+$$
 
 with significant additional property damage. The St. Michael's and St. Augustine's Catholic churches were burned by Protestant mobs. The [Feldberg 1975][book_feldberg_1975] The Philadelphia Riots of 1844 provides the standard treatment.
 
@@ -281,7 +365,10 @@ The 1849 founding of the Order of the Star Spangled Banner in New York by Charle
 
 American Party political program combined anti-Catholic anti-immigrant provisions (extending naturalization waiting periods to twenty-one years, restricting officeholding to native-born Protestants, imposing Bible reading in public schools using the Protestant version) with broader nativist commitments. The 1856 Millard Fillmore American Party presidential campaign captured approximately
 
-$$f_{\text{Fillmore popular vote, 1856}} \approx 0.22$$
+$$
+f_{\text{Fillmore popular vote, 1856}} \approx 0.22
+\tag{29}
+$$
 
 representing extensive national nativist support before the 1857-1860 party disintegration under the pressure of slavery-related sectional divisions. The subsequent absorption of Northern Know-Nothings into the Republican Party and Southern Know-Nothings into the Constitutional Union Party marked the end of the antebellum nativist party organization.
 
@@ -299,7 +386,10 @@ Theodore Dwight Weld (1803-1895), converted under Charles Finney's revival preac
 
 Harriet Beecher Stowe (1811-1896), daughter of Lyman Beecher and wife of Calvin Stowe, produced the most widely-influential antebellum abolitionist text. Her 1852 [Stowe 1852][book_stowe_1852] [Uncle Tom's Cabin][ref_stowe_uncle_toms_cabin_1852] sold approximately
 
-$$N_{\text{Uncle Tom's Cabin US sales, first year}} \approx 3 \times 10^5$$
+$$
+N_{\text{Uncle Tom's Cabin US sales, first year}} \approx 3 \times 10^5
+\tag{30}
+$$
 
 establishing the book as the bestseller of the nineteenth century. The text mobilized appreciable Northern antislavery sentiment through its narrative treatment of slavery's moral impact on both enslaved and enslaver. Lincoln's documented (though possibly apocryphal) 1862 greeting of Stowe as the little woman who made this great war captures the cultural understanding of Stowe's political impact. The [Hedrick 1994][book_hedrick_1994] Harriet Beecher Stowe treats the biography.
 
@@ -307,7 +397,10 @@ John Brown (1800-1859) provided the most militant antebellum abolitionist leader
 
 The Underground Railroad, the informal network of routes and safe houses assisting escaped enslaved persons in reaching the Northern states or Canada, operated through the antebellum period with considerable participation from Quaker, African Methodist Episcopal, and other religious communities. The estimates of persons assisted through the network range widely, with
 
-$$N_{\text{Underground Railroad assisted, 1830 to 1861}} \sim 3 \times 10^4 \text{ to } 1 \times 10^5$$
+$$
+N_{\text{Underground Railroad assisted, 1830 to 1861}} \sim 3 \times 10^4 \text{ to } 1 \times 10^5
+\tag{31}
+$$
 
 per the [Bordewich 2005][book_bordewich_2005] Bound for Canaan and [Foner 2015][book_foner_2015] Gateway to Freedom treatments. Harriet Tubman (approximately 1822-1913), formerly enslaved, provided the most prominent African American Underground Railroad conductor through her approximately thirteen return trips to Maryland leading approximately seventy enslaved persons to freedom.
 
@@ -335,7 +428,10 @@ The 1844 Methodist Episcopal Church split, provoked by the General Conference de
 
 The 1845 Baptist split, provoked by the refusal of the Baptist Home Mission Society to appoint slaveholder missionaries, produced the founding of the [Southern Baptist Convention][ref_southern_baptist_convention_1845] at Augusta, Georgia in May 1845. The Southern Baptist Convention would subsequently become the largest single Protestant denomination in the United States by the mid-twentieth century, reaching approximately
 
-$$P_{\text{Southern Baptist Convention}}(2020) \approx 1.4 \times 10^7$$
+$$
+P_{\text{Southern Baptist Convention}}(2020) \approx 1.4 \times 10^7
+\tag{32}
+$$
 
 though with marked subsequent decline through the 2020s treated in later articles. The 1995 Southern Baptist Convention formal repudiation of the 1845 founding's proslavery grounding marked the denominational acknowledgment of the historical error. The [Leonard 2003][book_leonard_2003] Baptists in America (already cited) and [Barnes 1954][book_barnes_1954] The Southern Baptist Convention treat the developments.
 
@@ -343,12 +439,15 @@ The 1861 Presbyterian Church in the Confederate States of America organization (
 
 The antebellum denominational splits along North-South lines cluster in the 1837-1861 interval,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Presbyterian Old School / New School} &: 1837 \\
 \text{Methodist Episcopal / Methodist Episcopal Church South} &: 1844\text{-}1845 \\
 \text{Baptist / Southern Baptist Convention} &: 1845 \\
 \text{Presbyterian US / Presbyterian CS} &: 1861
-\end{aligned}$$
+\end{aligned}
+\tag{33}
+$$
 
 preceding the political split of 1861 by intervals ranging from zero years (Presbyterian US/CS) to twenty-four years (Presbyterian Old/New School). Henry Clay's 1855 observation attributed to Calhoun that the denominational splits foreshadowed the political division was prescient. The religious dimensions of the political split are treated more fully in article five.
 
@@ -356,7 +455,10 @@ preceding the political split of 1861 by intervals ranging from zero years (Pres
 
 The [Indian Removal Act 1830][ref_indian_removal_act_1830] signed by President Andrew Jackson and subsequent implementation through treaties and coercion produced the forced removal of approximately
 
-$$N_{\text{Native persons removed east of Mississippi, 1830 to 1850}} \approx 6 \times 10^4$$
+$$
+N_{\text{Native persons removed east of Mississippi, 1830 to 1850}} \approx 6 \times 10^4
+\tag{34}
+$$
 
 from their ancestral lands east of the Mississippi River to Indian Territory (later Oklahoma) west of the Mississippi. The [Saunt 2020][book_saunt_2020] Unworthy Republic, [Wallace 1993][book_wallace_1993] The Long, Bitter Trail, [Anderson 1991_removal][book_anderson_1991_removal] Cherokee Removal, [Perdue and Green 2007][book_perdue_green_2007] The Cherokee Nation and the Trail of Tears, [Ehle 1988][book_ehle_1988] Trail of Tears, [Foreman 1932][book_foreman_1932] Indian Removal, [Satz 1975][book_satz_1975] American Indian Policy in the Jacksonian Era, [Inskeep 2015][book_inskeep_2015] Jacksonland, and [Remini 2001][book_remini_2001] Andrew Jackson and His Indian Wars provide the principal treatments.
 
@@ -366,39 +468,60 @@ The Cherokee Nation resistance produced the most extensive legal challenge to re
 
 The 1835 [Treaty of New Echota][ref_treaty_of_new_echota_1835], signed by a minority faction of the Cherokee including Major Ridge, John Ridge, and Elias Boudinot without the authorization of the Cherokee National Council or Principal Chief John Ross, provided the fraudulent legal basis for Cherokee removal. Approximately
 
-$$N_{\text{Cherokee Treaty of New Echota signers}} \approx 100, \quad P_{\text{Cherokee opposing treaty}} \approx 1.5 \times 10^4$$
+$$
+N_{\text{Cherokee Treaty of New Echota signers}} \approx 100, \quad P_{\text{Cherokee opposing treaty}} \approx 1.5 \times 10^4
+\tag{35}
+$$
 
 The opposition of the overwhelming Cherokee majority was expressed through the Ross-led Cherokee National Council petition to Congress opposing the treaty, but the Senate ratified the treaty by a single vote in 1836. The 1838-1839 forced removal (Trail of Tears) killed approximately
 
-$$N_{\text{Cherokee dead on Trail of Tears}} \approx 4 \times 10^3, \quad \frac{N_{\text{dead}}}{P_{\text{Cherokee removed}}} \approx 0.25$$
+$$
+N_{\text{Cherokee dead on Trail of Tears}} \approx 4 \times 10^3, \quad \frac{N_{\text{dead}}}{P_{\text{Cherokee removed}}} \approx 0.25
+\tag{36}
+$$
 
 representing approximately one-fourth of the Cherokee population removed. The execution of the Ridges and Boudinot in 1839 by Cherokee traditionalists at Tahlequah in Indian Territory marked the violent resolution of the removal-era Cherokee political conflict. The [Perdue and Green 2007][book_perdue_green_2007] provides the most complete treatment.
 
 Choctaw removal from Mississippi under the 1830 Treaty of Dancing Rabbit Creek produced the first implementation of the Removal Act. Approximately
 
-$$N_{\text{Choctaw removed, 1831 to 1833}} \approx 1.3 \times 10^4, \quad N_{\text{Choctaw dead}} \sim 2.5 \times 10^3$$
+$$
+N_{\text{Choctaw removed, 1831 to 1833}} \approx 1.3 \times 10^4, \quad N_{\text{Choctaw dead}} \sim 2.5 \times 10^3
+\tag{37}
+$$
 
 The removal established the administrative and logistical precedent for subsequent removals. The [Debo 1934][book_debo_1934] The Rise and Fall of the Choctaw Republic treats the process.
 
 Chickasaw removal from Mississippi and Alabama under the 1832 and 1834 treaties produced comparatively lower casualties through the Chickasaw negotiation of better financial terms. Approximately
 
-$$N_{\text{Chickasaw removed, 1837 to 1838}} \approx 4 \times 10^3$$
+$$
+N_{\text{Chickasaw removed, 1837 to 1838}} \approx 4 \times 10^3
+\tag{38}
+$$
 
 reached Indian Territory. The [Gibson 1971][book_gibson_1971] The Chickasaws treats the removal.
 
 Creek removal from Alabama and Georgia under the 1832 Treaty of Cusseta produced appreciable violence including the 1836 Creek War with additional casualties. Approximately
 
-$$N_{\text{Creek removed, 1834 to 1837}} \approx 2 \times 10^4, \quad N_{\text{Creek dead}} \sim 3.5 \times 10^3$$
+$$
+N_{\text{Creek removed, 1834 to 1837}} \approx 2 \times 10^4, \quad N_{\text{Creek dead}} \sim 3.5 \times 10^3
+\tag{39}
+$$
 
 The [Green and Green 1982][book_green_1982] The Politics of Indian Removal treats the Creek removal.
 
 Seminole resistance produced the most significant armed opposition to removal. The Second Seminole War (1835-1842) can be characterized as
 
-$$t_{\text{Second Seminole War}} = 7 \text{ years}, \quad N_{\text{US soldier dead}} \approx 1.5 \times 10^3, \quad C_{\text{federal cost}} \approx 4 \times 10^7 \text{ USD}$$
+$$
+t_{\text{Second Seminole War}} = 7 \text{ years}, \quad N_{\text{US soldier dead}} \approx 1.5 \times 10^3, \quad C_{\text{federal cost}} \approx 4 \times 10^7 \text{ USD}
+\tag{40}
+$$
 
 making it the most expensive Indian war in United States history to that date. The war ended with approximately
 
-$$N_{\text{Seminole removed to Indian Territory}} \approx 3 \times 10^3, \quad N_{\text{Seminole remaining in Florida}} \approx 5 \times 10^2$$
+$$
+N_{\text{Seminole removed to Indian Territory}} \approx 3 \times 10^3, \quad N_{\text{Seminole remaining in Florida}} \approx 5 \times 10^2
+\tag{41}
+$$
 
 with the remaining Seminole population continuing in the Everglades and eventually forming the modern Seminole Tribe of Florida and Miccosukee Tribe of Indians of Florida. The [Missall and Missall 2004][book_missall_missall_2004] The Seminole Wars treats the conflict.
 
@@ -408,11 +531,17 @@ The Cherokee adaptation strategy in the decades before removal produced signific
 
 Sequoyah (approximately 1770-1843), also known as George Guess, produced the Cherokee syllabary approximately 1821, providing the first indigenously-developed writing system for a North American Native language. The syllabary comprises
 
-$$N_{\text{Sequoyah syllabary characters}} = 85, \quad t_{\text{Sequoyah syllabary development}} \approx 12 \text{ years}$$
+$$
+N_{\text{Sequoyah syllabary characters}} = 85, \quad t_{\text{Sequoyah syllabary development}} \approx 12 \text{ years}
+\tag{42}
+$$
 
 and permitted widespread Cherokee literacy within a short period after adoption, with
 
-$$f_{\text{Cherokee literate in syllabary by 1830}} \sim 0.5 \text{ to } 0.9$$
+$$
+f_{\text{Cherokee literate in syllabary by 1830}} \sim 0.5 \text{ to } 0.9
+\tag{43}
+$$
 
 per contemporary estimates. The rapid adoption reflected Cherokee cultural investment in literacy and written record. The [Cushman 2011][book_cushman_2011] The Cherokee Syllabary treats the development.
 
@@ -420,7 +549,8 @@ The Cherokee Phoenix, the first Native American newspaper, began publication 21 
 
 The Cherokee institutional development can be characterized as the rapid sequence
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Sequoyah syllabary completed} &: 1821 \\
 \text{Cherokee National Council reorganized} &: 1827 \\
 \text{Cherokee Constitution ratified} &: 26 \text{ July } 1827 \\
@@ -429,7 +559,9 @@ $$\begin{aligned}
 \text{Worcester v. Georgia} &: 1832 \\
 \text{Treaty of New Echota} &: 1835 \\
 \text{Trail of Tears} &: 1838\text{-}1839
-\end{aligned}$$
+\end{aligned}
+\tag{44}
+$$
 
 The 1827 Cherokee Constitution, modeled on the United States Constitution, established the Cherokee National Council, elected Principal Chief, and judicial system providing the formal Cherokee governance structure. The constitution's provisions restricting citizenship to Cherokee descent, Christian religious commitments among officeholders, and slavery accommodation reflect the complex Cherokee accommodation to American cultural and political patterns. The [McLoughlin 1986][book_mcloughlin_1986] treatment covers the development.
 
@@ -445,7 +577,10 @@ The [American Board of Commissioners for Foreign Missions][ref_abcfm_1810], foun
 
 Marcus Whitman (1802-1847) and Narcissa Prentiss Whitman (1808-1847) established the 1836 Waiilatpu mission to the Cayuse near present Walla Walla, Washington. The mission became the most prominent Pacific Northwest Protestant mission and provided the way-station for Oregon Trail settlers from approximately 1843 forward. The November 1847 Whitman Massacre, in which
 
-$$N_{\text{Whitman Massacre dead}} \approx 14, \quad f_{\text{Cayuse population dead from 1847 measles}} \approx 0.5$$
+$$
+N_{\text{Whitman Massacre dead}} \approx 14, \quad f_{\text{Cayuse population dead from 1847 measles}} \approx 0.5
+\tag{45}
+$$
 
 with the approximately half of the Cayuse population killed by the 1847 measles epidemic providing the proximate motivation, marked the end of the Waiilatpu mission and produced the 1848 Cayuse War. The [Jeffrey 1991][book_jeffrey_1991] Converting the West and [Jetté 2004][book_jette_2004] At the Hearth of the Crossed Races treat the mission.
 
@@ -453,7 +588,10 @@ Jesuit missions to the Pacific Northwest and Rocky Mountain peoples under Pierre
 
 Mission schools and later boarding schools expanded through the antebellum period. Approximately
 
-$$N_{\text{Native mission schools, US, 1860}} \approx 3.5 \times 10^2$$
+$$
+N_{\text{Native mission schools, US, 1860}} \approx 3.5 \times 10^2
+\tag{46}
+$$
 
 operated across mission and reservation locations by 1860. The institutional pattern would expand through the late nineteenth century under the federal boarding school policy treated in article six. The [Adams 1995][book_adams_1995] Education for Extinction treats the subsequent boarding school system.
 
@@ -465,7 +603,10 @@ African American religious formation under slavery continued the patterns establ
 
 The extension of Baptist and Methodist evangelical missions to enslaved populations during the Second Great Awakening increased the enslaved population's Christian identification. Approximately
 
-$$f_{\text{enslaved Christian identification}}(1860) \approx 0.30 \text{ to } 0.50$$
+$$
+f_{\text{enslaved Christian identification}}(1860) \approx 0.30 \text{ to } 0.50
+\tag{47}
+$$
 
 per estimates, though the quantitative reconstruction faces sizable methodological difficulty given the documentary limitations. The formal Christian identification combined with traditional African religious retention producing the documented syncretic patterns treated in the previous articles.
 
@@ -481,17 +622,26 @@ Two antebellum enslaved rebellions produced appreciable religious dimensions and
 
 Denmark Vesey (approximately 1767-1822) planned the extensive 1822 Charleston insurrection that would have involved approximately six to nine thousand enslaved and free Black participants across considerable Low Country plantations. Vesey, formerly enslaved and free through the 1799 purchase of his own freedom with lottery winnings, developed the plot through the African Methodist Episcopal Church at Charleston (founded 1817 by Morris Brown), providing the institutional infrastructure for organization. The plot was betrayed before the 16 July 1822 planned uprising. Approximately
 
-$$N_{\text{Vesey plot executed}} = 35, \quad N_{\text{Vesey plot deported}} \approx 30$$
+$$
+N_{\text{Vesey plot executed}} = 35, \quad N_{\text{Vesey plot deported}} \approx 30
+\tag{48}
+$$
 
 with Vesey himself hanged on 2 July 1822. The Charleston AME Church was closed under city ordinance following the plot exposure, producing significant African Methodist decline in the Deep South until the post-Civil War reorganization. The [Egerton 1999][book_egerton_1999] and [Robertson and Robertson 1999][book_robertson_1999] treatments provide the comprehensive analyses.
 
 Nat Turner (1800-1831), Virginia enslaved Baptist preacher and self-reported religious visionary, led the August 1831 Southampton County, Virginia rebellion that killed approximately
 
-$$N_{\text{Nat Turner rebellion white dead}} \approx 60, \quad N_{\text{Turner rebellion enslaved dead in aftermath}} \approx 200$$
+$$
+N_{\text{Nat Turner rebellion white dead}} \approx 60, \quad N_{\text{Turner rebellion enslaved dead in aftermath}} \approx 200
+\tag{49}
+$$
 
 with the rebellion suppressed within duration
 
-$$t_{\text{Turner rebellion active}} \approx 2 \text{ days}, \quad t_{\text{Turner capture to execution}} = 11 \text{ November} - 30 \text{ October} = 12 \text{ days}$$
+$$
+t_{\text{Turner rebellion active}} \approx 2 \text{ days}, \quad t_{\text{Turner capture to execution}} = 11 \text{ November} - 30 \text{ October} = 12 \text{ days}
+\tag{50}
+$$
 
 and Turner captured on 30 October 1831 and executed on 11 November 1831. Turner's extended pre-execution [Confessions][ref_turner_confessions_1831] dictated to attorney Thomas Ruffin Gray provide the most substantial documentary record of the rebellion and the religious framework that motivated it. David Walker's 1829 [Appeal in Four Articles to the Coloured Citizens of the World][ref_walker_appeal_1829], published at Boston and circulated clandestinely in the South, and Henry Highland Garnet's 1843 [Address to the Slaves of the United States][ref_garnet_address_to_the_slaves_1843] delivered at the National Negro Convention at Buffalo, provided the parallel Black abolitionist textual tradition invoking religious sanction for slave resistance. Turner's 28 February 1831 solar eclipse interpretation and August 1831 atmospheric phenomenon interpretation provided the religious signals from which he drew the timing of the rebellion. The [Greenberg 2003][book_greenberg_2003] and [Turner 1831][book_turner_confessions_1831] Confessions treatments provide the leading treatments.
 
@@ -505,13 +655,19 @@ Free African American religious institutional expansion in the Northern states a
 
 African Methodist Episcopal Church expansion under Richard Allen (1760-1831), Daniel Payne (1811-1893), and subsequent leadership provided the most extensive free Black denominational growth. The 1816 formal organization at Philadelphia (treated in [A268][related_post_a268_awakening_and_founding]) expanded through state conferences and missionary activity, reaching approximately
 
-$$P_{\text{AME adherents}}(1860) \approx 2 \times 10^4, \quad P_{\text{AME adherents}}(1870) \approx 4 \times 10^5$$
+$$
+P_{\text{AME adherents}}(1860) \approx 2 \times 10^4, \quad P_{\text{AME adherents}}(1870) \approx 4 \times 10^5
+\tag{51}
+$$
 
 with the sizable 1870 growth reflecting the dramatic expansion into the former Confederate states following emancipation. Daniel Payne's 1852 election as the fourth AME bishop and decades of educational and institutional leadership shaped the denominational formation. The [Newman 2008][book_newman_2008] and [Payne 1891][book_payne_1891] treatments provide the most complete coverage.
 
 African Methodist Episcopal Zion Church expansion under James Varick and successor bishops provided the second major free Black denominational structure. The 1821 formal organization at New York expanded through missionary activity, reaching approximately
 
-$$P_{\text{AME Zion adherents}}(1860) \approx 5 \times 10^4$$
+$$
+P_{\text{AME Zion adherents}}(1860) \approx 5 \times 10^4
+\tag{52}
+$$
 
 with appreciable Underground Railroad and abolitionist activity. The AME Zion designation as "the Freedom Church" reflected the denominational commitment to abolitionist activity, with bishops including Christopher Rush and leaders including Harriet Tubman, Sojourner Truth, and Frederick Douglass involved with the denomination. The [Walls 1974][book_walls_1974] The African Methodist Episcopal Zion Church treats the history.
 
@@ -525,11 +681,17 @@ The 1846-1848 Mexican-American War and the 1848 Treaty of Guadalupe Hidalgo prod
 
 The 1848 Treaty of Guadalupe Hidalgo, ratified 30 May 1848, ceded to the United States approximately
 
-$$A_{\text{Mexican Cession territory}} \approx 1.36 \times 10^6 \text{ km}^2$$
+$$
+A_{\text{Mexican Cession territory}} \approx 1.36 \times 10^6 \text{ km}^2
+\tag{53}
+$$
 
 comprising approximately fifty-five percent of Mexico's pre-war territory, including present-day California, Nevada, Utah, most of Arizona and New Mexico, and portions of Colorado and Wyoming. The Mexican population within the ceded territory numbered approximately
 
-$$P_{\text{Mexican population, Cession territory}}(1848) \approx 8 \times 10^4$$
+$$
+P_{\text{Mexican population, Cession territory}}(1848) \approx 8 \times 10^4
+\tag{54}
+$$
 
 with approximately eighty percent concentrated in the New Mexico Territory (approximately sixty thousand) and significant California (approximately fifteen thousand) and Texas (already annexed 1845, approximately five thousand) populations.
 
@@ -537,7 +699,10 @@ Article IX of the Treaty guaranteed that Mexican inhabitants would be "admitted 
 
 Californio population (Spanish-descent and Mexican inhabitants of California), numbering approximately fifteen thousand in 1848, experienced rapid marginalization following the 1849 Gold Rush that brought approximately three hundred thousand American and international arrivals within two years. The 1851 California Land Act required Mexican-era landholders to prove their titles before federal commissions, producing substantial loss of Californio landholdings through legal costs, fraud, and ultimate confirmation-then-taxation dispossession. Approximately
 
-$$f_{\text{Californio landholdings lost by 1870}} \approx 0.75$$
+$$
+f_{\text{Californio landholdings lost by 1870}} \approx 0.75
+\tag{55}
+$$
 
 per reconstruction in [Pitt 1966][book_pitt_1966] The Decline of the Californios and [Camarillo 1979][book_camarillo_1979] Chicanos in a Changing Society.
 
@@ -569,7 +734,10 @@ The antebellum social reform movements reflected the religious energies of the S
 
 The temperance movement, mobilizing against consumption of alcoholic beverages, emerged through the 1826 American Temperance Society preceded by Lyman Beecher's 1826 [Six Sermons on the Nature, Occasions, Signs, Evils, and Remedy of Intemperance][ref_beecher_six_sermons_on_intemperance_1826], expanded through the 1836 American Temperance Union, and produced considerable state prohibition legislation including the 1851 [Maine Law][ref_maine_law_1851] prohibiting the manufacture and sale of alcoholic beverages in Maine. Approximately
 
-$$N_{\text{state prohibition laws by 1855}} = 13$$
+$$
+N_{\text{state prohibition laws by 1855}} = 13
+\tag{56}
+$$
 
 Northern states had enacted prohibition or restriction laws following the Maine Law model, though most were subsequently repealed or amended. The temperance mobilization was religious in framing, drawing on the Second Great Awakening perfectionism and the voluntary-society infrastructure. The [Tyrrell 1979][book_tyrrell_1979] Sobering Up and [Blocker 1989][book_blocker_1989] American Temperance Movements treat the movement.
 
@@ -587,7 +755,10 @@ The American Colonization Society (ACS), founded 1816 at Washington by Robert Fi
 
 The ACS's 1822 establishment of Cape Mesurado (subsequent Monrovia) provided the initial Liberian settlement. Approximately
 
-$$N_{\text{African American emigrants to Liberia, 1822 to 1861}} \approx 1.3 \times 10^4$$
+$$
+N_{\text{African American emigrants to Liberia, 1822 to 1861}} \approx 1.3 \times 10^4
+\tag{57}
+$$
 
 emigrated across the antebellum period, less than the ACS's ambitions but providing the institutional foundation for the 1847 Liberian independence and subsequent history. The ACS drew extensive support from Northern moderates seeking gradualist solution to slavery and from Southern slaveholders seeking removal of free Black population perceived as threat to slavery. The radical abolitionist tradition treated above rejected the ACS as complicit with slavery. Free Black communities divided over the ACS, with the 1817 Philadelphia meeting under James Forten rejecting colonization while other free Black leaders including Paul Cuffee (whose 1815 voyage to Sierra Leone predated the ACS) and later John Russwurm supporting emigration. The [Sinha 2016][book_sinha_2016] and [Nash 1988][book_nash_1988] (already cited) treatments cover the free Black colonization debate.
 
@@ -597,13 +768,19 @@ Scandinavian migration to the United States began in the 1840s and accelerated t
 
 Norwegian migration began with the 1825 arrival of the Sloopers aboard the Restauration at New York, though sustained migration accelerated only from the 1836 forward. Total Norwegian arrivals through 1861 reached approximately
 
-$$N_{\text{Norwegian arrivals, US, 1825 to 1861}} \approx 4 \times 10^4$$
+$$
+N_{\text{Norwegian arrivals, US, 1825 to 1861}} \approx 4 \times 10^4
+\tag{58}
+$$
 
 concentrated in the Fox River Valley of Illinois, southern Wisconsin, and Minnesota settlements. The Norwegian Lutheran denominational formation produced multiple competing synods reflecting pietist and confessional tendencies. The 1853 formation of the Norwegian Synod under Herman Amberg Preus provided the most significant initial Norwegian Lutheran denominational structure.
 
 Swedish migration began in the 1840s under Erik Jansson's 1846 Bishop Hill communal settlement in Illinois (the Jansonist religious movement) and the broader Lutheran migration. Total Swedish arrivals through 1861 reached approximately
 
-$$N_{\text{Swedish arrivals, US, 1840 to 1861}} \approx 2 \times 10^4$$
+$$
+N_{\text{Swedish arrivals, US, 1840 to 1861}} \approx 2 \times 10^4
+\tag{59}
+$$
 
 with appreciable subsequent expansion post-1865 producing the Augustana Synod (formed 1860). The [Bishop Hill][book_bishop_hill_beijbom] Beijbom treatment covers the Jansonist settlement.
 
@@ -611,7 +788,10 @@ Danish migration to the United States produced smaller presence than Norwegian o
 
 Scandinavian Lutheran institutional consolidation produced significant denominational diversity. By 1900 approximately
 
-$$N_{\text{Scandinavian Lutheran denominations, US}} \approx 15$$
+$$
+N_{\text{Scandinavian Lutheran denominations, US}} \approx 15
+\tag{60}
+$$
 
 separate denominational bodies existed, reflecting national origin, pietist versus confessional tendencies, and theological positions. Subsequent mergers through the twentieth century treated in later articles consolidated the Scandinavian Lutheran presence into the Evangelical Lutheran Church in America (1988).
 
@@ -645,6 +825,588 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct assessment of the religious dimensions of the denominational splits of 1837, 1844, 1845, and 1861 as antecedents to the political split of 1861?
 - What is the correct assessment of the extent and persistence of Mexican Catholic religious practice in the post-1848 Cession territories against the pressures of Anglo-Protestant migration and American Catholic institutional reform?
 - What is the correct empirical characterization of the enslaved Christian religious life given the documentary limitations and the interpretive contest between the accommodationist and resistance readings?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 60 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 60, 60 are established and 0 are bespoke.
+Populations, adherents, arrivals and casualties are counted in persons, dates are calendar years of the Common Era and durations are in years or days as marked, the cost of the Second Seminole War is in nominal dollars of the period, the area of the Mexican Cession is in square kilometres, and every share is a fraction between zero and one.
+
+**Equation 1, Population of the United States in 1789 and 1861.**
+The population of the United States grew from about 3.9 million in 1789 to about thirty-one million in 1861.
+
+$$
+P_{\text{US}}(1789) \approx 3.9 \times 10^6, \quad P_{\text{US}}(1861) \approx 3.1 \times 10^7
+\tag{1}
+$$
+
+**Equation 2, African-Descent Population in 1789 and 1861.**
+The African-descent population grew from about 750,000 in 1789 to about four and a half million in 1861.
+
+$$
+P_{\text{African, US}}(1789) \approx 7.5 \times 10^5, \quad P_{\text{African, US}}(1861) \approx 4.5 \times 10^6
+\tag{2}
+$$
+
+**Equation 3, Enslaved Share in 1789 and 1861.**
+The enslaved share of the African-descent population fell only slightly, from about ninety percent in 1789 to about eighty-nine percent in 1861.
+
+$$
+f_{\text{enslaved}}(1789) \approx 0.90, \quad f_{\text{enslaved}}(1861) \approx 0.89
+\tag{3}
+$$
+
+**Equation 4, Indigenous Population of the Future United States in 1789 and 1861.**
+The indigenous population of the territory that would become the United States fell from about three hundred thousand in 1789 to about a quarter of a million in 1861.
+
+$$
+P_{\text{indigenous, US territory}}(1789) \approx 3 \times 10^5, \quad P_{\text{indigenous, US territory}}(1861) \approx 2.5 \times 10^5
+\tag{4}
+$$
+
+**Equation 5, Immigrants from 1820 to 1861.**
+About five million immigrants arrived in the United States between 1820 and 1861.
+[Daniels 1990][book_daniels_1990]
+
+$$
+N_{\text{immigrants, US, 1820 to 1861}} \approx 5 \times 10^6
+\tag{5}
+$$
+
+**Equation 6, Largest Denominations in 1850.**
+The 1850 Census of Religious Bodies places the Roman Catholic Church above any single Protestant denomination, followed by the Methodist, Baptist and Presbyterian bodies.
+[Finke and Stark 1992][book_finke_stark_1992]
+[Gaustad and Barlow 2001][book_gaustad_barlow_2001]
+
+$$
+\begin{aligned}
+\text{Methodist Episcopal Church (all branches)} &\approx 1.3 \times 10^6 \\
+\text{Baptist (all conventions)} &\approx 8.2 \times 10^5 \\
+\text{Presbyterian (all synods)} &\approx 4.9 \times 10^5 \\
+\text{Congregationalist} &\approx 2.0 \times 10^5 \\
+\text{Roman Catholic} &\approx 1.6 \times 10^6 \\
+\text{Lutheran} &\approx 1.6 \times 10^5 \\
+\text{Episcopal} &\approx 1.4 \times 10^5
+\end{aligned}
+\tag{6}
+$$
+
+**Equation 7, Attendance at the Cane Ridge Revival.**
+The Cane Ridge Revival of 1801 drew a reported attendance of ten to twenty thousand over several days.
+[1801 Cane Ridge Revival][ref_cane_ridge_revival_1801]
+[Conkin 1990][book_conkin_1990]
+
+$$
+N_{\text{Cane Ridge attendance}} \sim 1 \times 10^4 \text{ to } 2 \times 10^4
+\tag{7}
+$$
+
+**Equation 8, Founding Dates of the Benevolent Empire.**
+The principal voluntary societies of the benevolent empire were founded between the American Bible Society in 1816 and the American Anti-Slavery Society in 1833.
+[American Bible Society founding 1816][ref_american_bible_society_1816]
+[American Sunday School Union founding 1824][ref_american_sunday_school_union_1824]
+
+$$
+\begin{aligned}
+\text{American Bible Society} &: 1816 \\
+\text{American Colonization Society} &: 1816 \\
+\text{American Sunday School Union} &: 1824 \\
+\text{American Tract Society} &: 1825 \\
+\text{American Temperance Society} &: 1826 \\
+\text{American Home Missionary Society} &: 1826 \\
+\text{American Peace Society} &: 1828 \\
+\text{American Anti-Slavery Society} &: 1833
+\end{aligned}
+\tag{8}
+$$
+
+**Equation 9, Methodist Adherents and Their Population Share in 1850.**
+Methodist adherents numbered about 2.7 million in 1850, about one eighth of the national population.
+[Wigger 1998][book_wigger_1998]
+
+$$
+P_{\text{Methodist adherents, US}}(1850) \approx 2.7 \times 10^6, \quad \frac{P_{\text{Methodist}}}{P_{\text{US}}}(1850) \approx 0.12
+\tag{9}
+$$
+
+**Equation 10, Baptist Adherents in 1850.**
+The several Baptist formations together counted about 1.6 million adherents in 1850.
+[Leonard 2003][book_leonard_2003]
+[McBeth 1987][book_mcbeth_1987]
+
+$$
+P_{\text{Baptist adherents, US}}(1850) \approx 1.6 \times 10^6
+\tag{10}
+$$
+
+**Equation 11, Presbyterian Adherents in 1850.**
+Presbyterian adherents numbered about 490,000 in 1850.
+[Longfield 2013][book_longfield_2013]
+
+$$
+P_{\text{Presbyterian adherents, US}}(1850) \approx 4.9 \times 10^5
+\tag{11}
+$$
+
+**Equation 12, Congregationalist Adherents in 1850.**
+Congregationalist adherents numbered only about 200,000 in 1850.
+[Youngs 1976][book_youngs_1976]
+
+$$
+P_{\text{Congregationalist adherents, US}}(1850) \approx 2.0 \times 10^5
+\tag{12}
+$$
+
+**Equation 13, Episcopal Adherents in 1850.**
+Episcopal adherents numbered about 140,000 in 1850.
+[Mullin 1986][book_mullin_1986]
+
+$$
+P_{\text{Episcopal adherents, US}}(1850) \approx 1.4 \times 10^5
+\tag{13}
+$$
+
+**Equation 14, Millerite Adherents at the Peak of 1844.**
+About fifty thousand to one hundred thousand Millerites expected the Second Coming on 22 October 1844.
+[Rowe 2008][book_rowe_2008]
+[Butler and Numbers 1987][book_numbers_butler_1987]
+
+$$
+P_{\text{Millerite adherents, US peak, 1844}} \sim 5 \times 10^4 \text{ to } 1 \times 10^5
+\tag{14}
+$$
+
+**Equation 15, Latter-day Saint Membership in 1830, 1844 and 1861.**
+Latter-day Saint membership grew from about thirty in 1830 to about twenty-five thousand in 1844 and about one hundred thousand in 1861.
+
+$$
+P_{\text{LDS members}}(1830) \approx 30, \quad P_{\text{LDS members}}(1844) \approx 2.5 \times 10^4, \quad P_{\text{LDS members}}(1861) \approx 1 \times 10^5
+\tag{15}
+$$
+
+**Equation 16, Mormon Settlements in 1860.**
+About 350 Mormon communities had been founded across the Great Basin, the Colorado Plateau and southern California by 1860.
+
+$$
+N_{\text{Mormon settlements, 1860}} \approx 3.5 \times 10^2
+\tag{16}
+$$
+
+**Equation 17, Peak Population of Nauvoo.**
+Nauvoo, Illinois reached a peak population of about fifteen thousand by 1844.
+
+$$
+P_{\text{Nauvoo, peak}} \approx 1.5 \times 10^4
+\tag{17}
+$$
+
+**Equation 18, Latter-day Saint Growth Rate from 1830 to 1861.**
+The continuous growth rate implied by the membership figures for 1830 and 1861 is the logarithm of their ratio divided by thirty-one years, about 0.26 per year.
+[Arrington 1985][book_arrington_1985]
+
+$$
+r_{\text{LDS growth, 1830 to 1861}} = \frac{\ln(1 \times 10^5 / 30)}{31 \text{ years}} \approx 0.26 \text{ per year}
+\tag{18}
+$$
+
+**Equation 19, Irish Arrivals from 1815 to 1845.**
+About eight hundred thousand Irish migrants arrived between 1815 and 1845, both Protestant and Catholic.
+[Miller 1985][book_miller_1985]
+
+$$
+N_{\text{Irish arrivals, 1815 to 1845}} \approx 8 \times 10^5
+\tag{19}
+$$
+
+**Equation 20, Population of Ireland in 1845 and 1851.**
+The population of Ireland fell from about 8.5 million in 1845 to about 6.5 million in 1851, a loss of about two million.
+
+$$
+P_{\text{Ireland}}(1845) \approx 8.5 \times 10^6, \quad P_{\text{Ireland}}(1851) \approx 6.5 \times 10^6, \quad \Delta P \approx -2 \times 10^6
+\tag{20}
+$$
+
+**Equation 21, Famine Deaths and Emigration.**
+About one million people died and about one million emigrated during the Famine.
+
+$$
+N_{\text{Famine dead}} \approx 1 \times 10^6, \quad N_{\text{Famine emigrated}} \approx 1 \times 10^6
+\tag{21}
+$$
+
+**Equation 22, Irish Arrivals from 1846 to 1855.**
+About one and a half million Irish migrants arrived in the United States between 1846 and 1855.
+[Kinealy 1994][book_kinealy_1994]
+[Gray 1995][book_gray_1995]
+
+$$
+N_{\text{Irish arrivals, 1846 to 1855}} \approx 1.5 \times 10^6
+\tag{22}
+$$
+
+**Equation 23, Irish-Born Shares of Three Cities in 1855.**
+The Irish-born made up about twenty-eight percent of New York, thirty-five percent of Boston and seventeen percent of Philadelphia in 1855.
+[Ernst 1949][book_ernst_1949]
+
+$$
+f_{\text{Irish-born, NYC 1855}} \approx 0.28, \quad f_{\text{Irish-born, Boston 1855}} \approx 0.35, \quad f_{\text{Irish-born, Philadelphia 1855}} \approx 0.17
+\tag{23}
+$$
+
+**Equation 24, German-Speaking Arrivals from 1820 to 1860.**
+About one and a half million German-speaking migrants arrived between 1820 and 1860, most of them in the wave of 1848 to 1854.
+
+$$
+N_{\text{German arrivals, 1820 to 1860}} \approx 1.5 \times 10^6
+\tag{24}
+$$
+
+**Equation 25, Religious Composition of German Migration.**
+German migrants were about fifty-five percent Lutheran and Reformed, thirty-five percent Catholic, five percent Jewish and five percent freethinker and other.
+[Kamphoefner 1987][book_kamphoefner_1987]
+
+$$
+\begin{aligned}
+f_{\text{Lutheran and Reformed}} &\approx 0.55 \\
+f_{\text{Catholic}} &\approx 0.35 \\
+f_{\text{Jewish}} &\approx 0.05 \\
+f_{\text{Freethinker and other}} &\approx 0.05
+\end{aligned}
+\tag{25}
+$$
+
+**Equation 26, Chinese Arrivals from 1849 to 1861.**
+About forty-four thousand Chinese migrants arrived between 1849 and 1861, mostly from the Pearl River Delta.
+[Chen 2000][book_chen_2000]
+
+$$
+N_{\text{Chinese arrivals, 1849 to 1861}} \approx 4.4 \times 10^4
+\tag{26}
+$$
+
+**Equation 27, Chinese Labour on the Central Pacific Railroad.**
+About fifteen thousand Chinese workers made up about ninety percent of the Central Pacific workforce between 1865 and 1869.
+[Chang 2019][book_chang_2019]
+
+$$
+N_{\text{Chinese railroad workers, Central Pacific 1865 to 1869}} \approx 1.5 \times 10^4, \quad f_{\text{Central Pacific workforce Chinese}} \approx 0.90
+\tag{27}
+$$
+
+**Equation 28, Toll of the Philadelphia Bible Riots of 1844.**
+The Philadelphia riots of May and July 1844 killed about twenty people, and Protestant mobs burned two Catholic churches.
+[Feldberg 1975][book_feldberg_1975]
+
+$$
+N_{\text{Philadelphia Bible Riots dead}} \approx 20, \quad N_{\text{Catholic churches burned}} = 2
+\tag{28}
+$$
+
+**Equation 29, Fillmore Share of the Popular Vote in 1856.**
+Millard Fillmore won about twenty-two percent of the popular vote as the American Party candidate in 1856.
+
+$$
+f_{\text{Fillmore popular vote, 1856}} \approx 0.22
+\tag{29}
+$$
+
+**Equation 30, First-Year Sales of Uncle Tom's Cabin.**
+Uncle Tom's Cabin sold about three hundred thousand copies in the United States in its first year.
+[Hedrick 1994][book_hedrick_1994]
+
+$$
+N_{\text{Uncle Tom's Cabin US sales, first year}} \approx 3 \times 10^5
+\tag{30}
+$$
+
+**Equation 31, Persons Assisted by the Underground Railroad.**
+Estimates of the persons the Underground Railroad assisted between 1830 and 1861 range from about thirty thousand to one hundred thousand.
+[Bordewich 2005][book_bordewich_2005]
+[Foner 2015][book_foner_2015]
+
+$$
+N_{\text{Underground Railroad assisted, 1830 to 1861}} \sim 3 \times 10^4 \text{ to } 1 \times 10^5
+\tag{31}
+$$
+
+**Equation 32, Southern Baptist Convention Membership in 2020.**
+The Southern Baptist Convention had about fourteen million members in 2020.
+
+$$
+P_{\text{Southern Baptist Convention}}(2020) \approx 1.4 \times 10^7
+\tag{32}
+$$
+
+**Equation 33, Dates of the Antebellum Denominational Splits.**
+The Presbyterian, Methodist and Baptist bodies divided between 1837 and 1861, from twenty-four years to zero years before the political split.
+
+$$
+\begin{aligned}
+\text{Presbyterian Old School / New School} &: 1837 \\
+\text{Methodist Episcopal / Methodist Episcopal Church South} &: 1844\text{-}1845 \\
+\text{Baptist / Southern Baptist Convention} &: 1845 \\
+\text{Presbyterian US / Presbyterian CS} &: 1861
+\end{aligned}
+\tag{33}
+$$
+
+**Equation 34, Native Persons Removed from East of the Mississippi.**
+About sixty thousand Native people were forcibly removed from east of the Mississippi between 1830 and 1850 under the Indian Removal Act.
+[Indian Removal Act 1830][ref_indian_removal_act_1830]
+[Saunt 2020][book_saunt_2020]
+
+$$
+N_{\text{Native persons removed east of Mississippi, 1830 to 1850}} \approx 6 \times 10^4
+\tag{34}
+$$
+
+**Equation 35, Signers and Opponents of the Treaty of New Echota.**
+About one hundred Cherokee signed the Treaty of New Echota against the opposition of about fifteen thousand.
+[Treaty of New Echota][ref_treaty_of_new_echota_1835]
+
+$$
+N_{\text{Cherokee Treaty of New Echota signers}} \approx 100, \quad P_{\text{Cherokee opposing treaty}} \approx 1.5 \times 10^4
+\tag{35}
+$$
+
+**Equation 36, Cherokee Deaths on the Trail of Tears.**
+About four thousand Cherokee died in the removal of 1838 and 1839, about a quarter of those removed.
+[Perdue and Green 2007][book_perdue_green_2007]
+
+$$
+N_{\text{Cherokee dead on Trail of Tears}} \approx 4 \times 10^3, \quad \frac{N_{\text{dead}}}{P_{\text{Cherokee removed}}} \approx 0.25
+\tag{36}
+$$
+
+**Equation 37, Choctaw Removal from 1831 to 1833.**
+About thirteen thousand Choctaw were removed between 1831 and 1833, and about twenty-five hundred died.
+[Debo 1934][book_debo_1934]
+
+$$
+N_{\text{Choctaw removed, 1831 to 1833}} \approx 1.3 \times 10^4, \quad N_{\text{Choctaw dead}} \sim 2.5 \times 10^3
+\tag{37}
+$$
+
+**Equation 38, Chickasaw Removal from 1837 to 1838.**
+About four thousand Chickasaw reached Indian Territory between 1837 and 1838.
+[Gibson 1971][book_gibson_1971]
+
+$$
+N_{\text{Chickasaw removed, 1837 to 1838}} \approx 4 \times 10^3
+\tag{38}
+$$
+
+**Equation 39, Creek Removal from 1834 to 1837.**
+About twenty thousand Creek were removed between 1834 and 1837, and about thirty-five hundred died.
+[Green and Green 1982][book_green_1982]
+
+$$
+N_{\text{Creek removed, 1834 to 1837}} \approx 2 \times 10^4, \quad N_{\text{Creek dead}} \sim 3.5 \times 10^3
+\tag{39}
+$$
+
+**Equation 40, Duration, Losses and Cost of the Second Seminole War.**
+The Second Seminole War lasted seven years, killed about fifteen hundred United States soldiers and cost the federal government about forty million dollars.
+[Missall and Missall 2004][book_missall_missall_2004]
+
+$$
+t_{\text{Second Seminole War}} = 7 \text{ years}, \quad N_{\text{US soldier dead}} \approx 1.5 \times 10^3, \quad C_{\text{federal cost}} \approx 4 \times 10^7 \text{ USD}
+\tag{40}
+$$
+
+**Equation 41, Seminole Removed and Remaining.**
+About three thousand Seminole were removed to Indian Territory and about five hundred remained in Florida.
+[Missall and Missall 2004][book_missall_missall_2004]
+
+$$
+N_{\text{Seminole removed to Indian Territory}} \approx 3 \times 10^3, \quad N_{\text{Seminole remaining in Florida}} \approx 5 \times 10^2
+\tag{41}
+$$
+
+**Equation 42, Characters and Development Time of the Cherokee Syllabary.**
+The syllabary of Sequoyah has eighty-five characters and took about twelve years to develop.
+
+$$
+N_{\text{Sequoyah syllabary characters}} = 85, \quad t_{\text{Sequoyah syllabary development}} \approx 12 \text{ years}
+\tag{42}
+$$
+
+**Equation 43, Cherokee Literacy in the Syllabary by 1830.**
+Contemporary estimates put Cherokee literacy in the syllabary by 1830 between about half and nine tenths.
+[Cushman 2011][book_cushman_2011]
+
+$$
+f_{\text{Cherokee literate in syllabary by 1830}} \sim 0.5 \text{ to } 0.9
+\tag{43}
+$$
+
+**Equation 44, Chronology of Cherokee Institutional Development and Removal.**
+The Cherokee moved from the completed syllabary of 1821 through a constitution and newspaper to removal in 1838 and 1839 within under two decades.
+
+$$
+\begin{aligned}
+\text{Sequoyah syllabary completed} &: 1821 \\
+\text{Cherokee National Council reorganized} &: 1827 \\
+\text{Cherokee Constitution ratified} &: 26 \text{ July } 1827 \\
+\text{Cherokee Phoenix first issue} &: 21 \text{ February } 1828 \\
+\text{Indian Removal Act} &: 1830 \\
+\text{Worcester v. Georgia} &: 1832 \\
+\text{Treaty of New Echota} &: 1835 \\
+\text{Trail of Tears} &: 1838\text{-}1839
+\end{aligned}
+\tag{44}
+$$
+
+**Equation 45, Whitman Massacre and the Measles Epidemic of 1847.**
+The Whitman Massacre killed about fourteen people after the measles epidemic of 1847 had killed about half of the Cayuse.
+[Jeffrey 1991][book_jeffrey_1991]
+
+$$
+N_{\text{Whitman Massacre dead}} \approx 14, \quad f_{\text{Cayuse population dead from 1847 measles}} \approx 0.5
+\tag{45}
+$$
+
+**Equation 46, Native Mission Schools in 1860.**
+About 350 Native mission schools operated in the United States by 1860.
+
+$$
+N_{\text{Native mission schools, US, 1860}} \approx 3.5 \times 10^2
+\tag{46}
+$$
+
+**Equation 47, Christian Identification among the Enslaved in 1860.**
+Estimates place Christian identification among the enslaved in 1860 at about thirty to fifty percent.
+
+$$
+f_{\text{enslaved Christian identification}}(1860) \approx 0.30 \text{ to } 0.50
+\tag{47}
+$$
+
+**Equation 48, Executions and Deportations after the Vesey Plot.**
+Thirty-five people were executed and about thirty deported after the Vesey plot of 1822.
+[Egerton 1999][book_egerton_1999]
+[Robertson and Robertson 1999][book_robertson_1999]
+
+$$
+N_{\text{Vesey plot executed}} = 35, \quad N_{\text{Vesey plot deported}} \approx 30
+\tag{48}
+$$
+
+**Equation 49, Deaths in and after the Nat Turner Rebellion.**
+The rebellion of 1831 killed about sixty white people, and about two hundred enslaved people were killed in its aftermath.
+
+$$
+N_{\text{Nat Turner rebellion white dead}} \approx 60, \quad N_{\text{Turner rebellion enslaved dead in aftermath}} \approx 200
+\tag{49}
+$$
+
+**Equation 50, Duration of the Turner Rebellion and Interval to Execution.**
+The rebellion was active for about two days, and Turner was executed twelve days after his capture on 30 October 1831.
+[Confessions][ref_turner_confessions_1831]
+
+$$
+t_{\text{Turner rebellion active}} \approx 2 \text{ days}, \quad t_{\text{Turner capture to execution}} = 11 \text{ November} - 30 \text{ October} = 12 \text{ days}
+\tag{50}
+$$
+
+**Equation 51, African Methodist Episcopal Adherents in 1860 and 1870.**
+African Methodist Episcopal adherents grew from about twenty thousand in 1860 to about four hundred thousand in 1870 with the expansion into the former Confederate states.
+[Newman 2008][book_newman_2008]
+
+$$
+P_{\text{AME adherents}}(1860) \approx 2 \times 10^4, \quad P_{\text{AME adherents}}(1870) \approx 4 \times 10^5
+\tag{51}
+$$
+
+**Equation 52, African Methodist Episcopal Zion Adherents in 1860.**
+African Methodist Episcopal Zion adherents numbered about fifty thousand in 1860.
+[Walls 1974][book_walls_1974]
+
+$$
+P_{\text{AME Zion adherents}}(1860) \approx 5 \times 10^4
+\tag{52}
+$$
+
+**Equation 53, Area of the Mexican Cession.**
+The Treaty of Guadalupe Hidalgo ceded about 1.36 million square kilometres, about fifty-five percent of the pre-war territory of Mexico.
+
+$$
+A_{\text{Mexican Cession territory}} \approx 1.36 \times 10^6 \text{ km}^2
+\tag{53}
+$$
+
+**Equation 54, Mexican Population of the Cession Territory in 1848.**
+About eighty thousand Mexicans lived in the ceded territory in 1848, most of them in New Mexico.
+
+$$
+P_{\text{Mexican population, Cession territory}}(1848) \approx 8 \times 10^4
+\tag{54}
+$$
+
+**Equation 55, Californio Landholdings Lost by 1870.**
+About three quarters of Californio landholdings had been lost by 1870 through the title process of the California Land Act.
+[Pitt 1966][book_pitt_1966]
+[Camarillo 1979][book_camarillo_1979]
+
+$$
+f_{\text{Californio landholdings lost by 1870}} \approx 0.75
+\tag{55}
+$$
+
+**Equation 56, State Prohibition Laws by 1855.**
+Thirteen Northern states had enacted prohibition or restriction laws on the Maine Law model by 1855.
+[Maine Law][ref_maine_law_1851]
+[Tyrrell 1979][book_tyrrell_1979]
+
+$$
+N_{\text{state prohibition laws by 1855}} = 13
+\tag{56}
+$$
+
+**Equation 57, African American Emigrants to Liberia from 1822 to 1861.**
+About thirteen thousand African Americans emigrated to Liberia between 1822 and 1861.
+
+$$
+N_{\text{African American emigrants to Liberia, 1822 to 1861}} \approx 1.3 \times 10^4
+\tag{57}
+$$
+
+**Equation 58, Norwegian Arrivals from 1825 to 1861.**
+About forty thousand Norwegian migrants arrived between the voyage of the Restauration in 1825 and 1861.
+
+$$
+N_{\text{Norwegian arrivals, US, 1825 to 1861}} \approx 4 \times 10^4
+\tag{58}
+$$
+
+**Equation 59, Swedish Arrivals from 1840 to 1861.**
+About twenty thousand Swedish migrants arrived between 1840 and 1861.
+
+$$
+N_{\text{Swedish arrivals, US, 1840 to 1861}} \approx 2 \times 10^4
+\tag{59}
+$$
+
+**Equation 60, Scandinavian Lutheran Denominations by 1900.**
+About fifteen separate Scandinavian Lutheran denominational bodies existed in the United States by 1900.
+
+$$
+N_{\text{Scandinavian Lutheran denominations, US}} \approx 15
+\tag{60}
+$$
+
+### Notation
+
+- $P_{\text{US}}$, the population of the United States
+- $f_{\text{enslaved}}$, the share of the African-descent population held in bondage
+- $r_{\text{LDS growth, 1830 to 1861}}$, the continuous annual growth rate of Latter-day Saint membership
+- $C_{\text{federal cost}}$, the federal cost of the Second Seminole War in nominal dollars
+- $A_{\text{Mexican Cession territory}}$, the area of the Mexican Cession
 
 ## References
 

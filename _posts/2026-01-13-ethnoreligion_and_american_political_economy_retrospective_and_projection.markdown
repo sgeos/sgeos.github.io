@@ -19,13 +19,17 @@ This eleventh and final article of the series synthesizes findings across [A266]
 
 The Ethnoreligion and American Political Economy series comprising [A266][related_post_a266_framing] through [A275][related_post_a275_contemporary_sorting_and_new_flows] treated the four-century American ethnoreligious development from pre-colonial Indigenous substrates through 2024 contemporary religious sorting. The ten-article temporal arc reached
 
-$$t_{\text{series temporal coverage}} \approx 1600 \text{ to } 2024, \quad t_{\text{coverage duration}} \approx 425 \text{ years}, \quad N_{\text{series articles}} = 11$$
+$$
+t_{\text{series temporal coverage}} \approx 1600 \text{ to } 2024, \quad t_{\text{coverage duration}} \approx 425 \text{ years}, \quad N_{\text{series articles}} = 11
+\tag{1}
+$$
 
 with approximate 425-year coverage spanning pre-colonial through contemporary periods.
 
 Series article coverage by period was considerable:
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{[A266]} &: \text{Framing and Three Substrates (Indigenous, African, European)} \\
 \text{[A267]} &: \text{Colonial Folkways 1607-1725} \\
 \text{[A268]} &: \text{Awakening and Founding 1725-1789} \\
@@ -36,11 +40,16 @@ $$\begin{aligned}
 \text{[A273]} &: \text{Postwar Transformation and Reopening 1945-1980} \\
 \text{[A274]} &: \text{Full Diversification and Religious Right Consolidation 1980-2000} \\
 \text{[A275]} &: \text{Contemporary Sorting and New Flows 2000-2024}
-\end{aligned}$$
+\end{aligned}
+\tag{2}
+$$
 
 Total series metrics reached significant proportions across ten article corpus,
 
-$$N_{\text{aggregate series lines}} \approx 10800, \quad N_{\text{aggregate series words}} \approx 165600, \quad N_{\text{aggregate series equations}} \approx 610, \quad N_{\text{aggregate series book references}} \approx 1540, \quad N_{\text{aggregate series primary references}} \approx 610$$
+$$
+N_{\text{aggregate series lines}} \approx 10800, \quad N_{\text{aggregate series words}} \approx 165600, \quad N_{\text{aggregate series equations}} \approx 610, \quad N_{\text{aggregate series book references}} \approx 1540, \quad N_{\text{aggregate series primary references}} \approx 610
+\tag{3}
+$$
 
 producing approximate 165,600-word comprehensive treatment exceeding single-article corpus depth. The six-axis analytical framework introduced in [A266][related_post_a266_framing] provided the systematic analytical apparatus applied consistently across articles.
 
@@ -50,13 +59,16 @@ The Indigenous, African, and European substrates introduced in [A266][related_po
 
 Approximate American ethnoreligious composition trajectory across four-century arc reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Indigenous share, US population}}\bigg|_{1600} &\approx 1.00 \text{ (pre-contact estimate)}, \quad f\bigg|_{1900} \approx 0.003, \quad f\bigg|_{2020} \approx 0.028 \\
 f_{\text{African-descent share}}\bigg|_{1700} &\approx 0.10 \text{ (Colonial)}, \quad f\bigg|_{1900} \approx 0.115, \quad f\bigg|_{2020} \approx 0.128 \\
 f_{\text{European-descent share}}\bigg|_{1700} &\approx 0.80 \text{ (Colonial white)}, \quad f\bigg|_{1900} \approx 0.878, \quad f\bigg|_{2020} \approx 0.588 \\
 f_{\text{Asian-descent share}}\bigg|_{1900} &\approx 0.002, \quad f\bigg|_{2020} \approx 0.061 \\
 f_{\text{Hispanic/Latino share}}\bigg|_{1970} &\approx 0.047, \quad f\bigg|_{2020} \approx 0.189
-\end{aligned}$$
+\end{aligned}
+\tag{4}
+$$
 
 per [US Census Historical Statistics][ref_us_census_historical] and [Religious Landscape Study 2014][ref_pew_religious_landscape_2014] and historical reconstruction. The 1900-2020 composition transformation reflects Hart-Celler post-1965 immigration documented in [A273][related_post_a273_postwar_transformation_and_reopening] through [A275][related_post_a275_contemporary_sorting_and_new_flows].
 
@@ -64,14 +76,17 @@ per [US Census Historical Statistics][ref_us_census_historical] and [Religious L
 
 The signal axis characterizes information transmission across American ethnoreligious substrates. Retrospective assessment across ten-article corpus documents substantial transformation. Colonial-era signal combined parish-based oral proclamation with limited literate print culture documented in [A267][related_post_a267_colonial_folkways]. Antebellum signal combined expanded print culture with camp-meeting revival participation documented in [A269][related_post_a269_second_awakening_and_reform]. Twentieth-century signal combined radio broadcasting (documented in [A272][related_post_a272_depression_war_and_refuge] Coughlin and [A273][related_post_a273_postwar_transformation_and_reopening] Graham) with television broadcasting (documented in [A274][related_post_a274_diversification_and_consolidation] televangelism) and digital media (documented in [A275][related_post_a275_contemporary_sorting_and_new_flows] He Gets Us campaign). Approximate signal-medium reach across articles reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 L_{\text{Coughlin radio audience, peak c. 1934-1935}} &\approx 3 \times 10^7 \text{ (A272)} \\
 N_{\text{Graham cumulative crusade attendance, 1949-2005}} &\approx 2.15 \times 10^8 \text{ (A273)} \\
 C_{\text{Social Justice magazine circulation, peak c. 1938}} &\approx 1 \times 10^6 \text{ (A272)} \\
 N_{\text{US religious radio stations}}(1980) &\approx 1.4 \times 10^3 \text{ (A273)} \\
 C_{\text{Left Behind series cumulative sales}} &\approx 8 \times 10^7 \text{ (A274)} \\
 N_{\text{He Gets Us Super Bowl 2024 audience}} &\approx 1.23 \times 10^8 \text{ (A275)}
-\end{aligned}$$
+\end{aligned}
+\tag{5}
+$$
 
 per article documentation. The signal medium transformation reflects broader American media technology transformation.
 
@@ -79,14 +94,17 @@ per article documentation. The signal medium transformation reflects broader Ame
 
 The objective axis characterizes goals across American ethnoreligious substrates. Retrospective assessment documents marked objective transformation. Colonial-era objectives combined religious refuge with colonial economic and political-imperial framework. Antebellum objectives added slavery-abolition tension, temperance mobilization, and religious-nationalist framing. Postbellum objectives added race-restoration versus race-repression frameworks, immigrant community formation, and religious innovation. Twentieth-century objectives added Judeo-Christian civil religion framework, evangelical-Republican political alignment, and religious-political sorting. Approximate movement mobilization peaks across articles reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{WCTU membership, 1900}} &\approx 2 \times 10^5 \text{ (A270)} \\
 P_{\text{Anti-Saloon League fundraising, cumulative 1893-1919}} &\approx 6 \times 10^7 \text{ USD (A271)} \\
 P_{\text{second-wave KKK peak c. 1925}} &\approx 4 \times 10^6 \text{ (A271)} \\
 P_{\text{Moral Majority claimed peak c. 1980}} &\approx 4 \times 10^6 \text{ (A273)} \\
 P_{\text{Christian Coalition peak c. 1995}} &\approx 1.7 \times 10^6 \text{ (A274)} \\
 P_{\text{Promise Keepers Stand in the Gap 1997}} &\approx 7 \times 10^5 \text{ (A274)}
-\end{aligned}$$
+\end{aligned}
+\tag{6}
+$$
 
 per article documentation. Contemporary objectives combine religious right consolidation, Nones expansion, and immigrant religious institutional formation documented across articles.
 
@@ -94,14 +112,17 @@ per article documentation. Contemporary objectives combine religious right conso
 
 The structure axis characterizes ecclesiastical form across American ethnoreligious substrates. Retrospective assessment documents extensive structural transformation. Colonial-era structures combined establishment churches (Congregationalist New England, Anglican Southern colonies) with dissenting Protestant framework documented in [A267][related_post_a267_colonial_folkways]. Post-founding structures produced denominational pluralism under First Amendment framework documented in [A268][related_post_a268_awakening_and_founding]. Antebellum structures produced denominational splits along North-South lines documented in [A269][related_post_a269_second_awakening_and_reform]. Postbellum structures added Black denominational consolidation, immigrant national parishes, and religious innovation documented in [A270][related_post_a270_civil_war_and_reconstruction] and [A271][related_post_a271_mass_immigration_and_closure]. Twentieth-century structures produced mainline-evangelical bifurcation, Catholic institutional consolidation and Vatican II reforms, and Muslim/Hindu/Sikh/Buddhist institutional formation. Approximate institutional structure trajectory across articles reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{immigrant national parishes, US c. 1920}} &\approx 3.6 \times 10^3 \text{ (A271)} \\
 N_{\text{Bible Institutes, US}}(1970) &\approx 2.5 \times 10^2 \text{ (A271)} \\
 N_{\text{US Catholic parishes, peak c. 1970}} &\approx 1.9 \times 10^4 \text{ (A273)} \\
 N_{\text{US megachurches}}(2020) &\approx 1750 \text{ (A274)} \\
 N_{\text{US mosques and Islamic centers}}(2020) &\approx 2.8 \times 10^3 \text{ (A274)} \\
 N_{\text{US Hindu temples}}(2020) &\approx 8 \times 10^2 \text{ (A274)}
-\end{aligned}$$
+\end{aligned}
+\tag{7}
+$$
 
 per article documentation. Contemporary structures reflect denominational splits (UMC 2019-2024) and immigrant institutional consolidation.
 
@@ -113,14 +134,17 @@ The model axis characterizes theological content across American ethnoreligious 
 
 The interaction axis characterizes external relationships across American ethnoreligious substrates. Retrospective assessment documents appreciable interaction transformation. Colonial-era interactions combined European colonial expansion into Indigenous territories, African slave importation, and religious refuge combined with denominational competition documented in [A267][related_post_a267_colonial_folkways]. Antebellum interactions added slavery-abolition confrontation, Indian removal, and immigrant reception documented in [A269][related_post_a269_second_awakening_and_reform]. Postbellum interactions added race massacres and Native dispossession documented in [A270][related_post_a270_civil_war_and_reconstruction]. Twentieth-century interactions added immigration restriction, WWII Japanese internment, civil rights mobilization, and Cold War religious-political mobilization documented in [A272][related_post_a272_depression_war_and_refuge] and [A273][related_post_a273_postwar_transformation_and_reopening]. Approximate immigration and refugee aggregate flows across articles reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Transatlantic slave trade to US, cumulative 1600-1808}} &\approx 3.9 \times 10^5 \text{ (A267)} \\
 N_{\text{mass immigration 1900-1924 cumulative}} &\approx 1.85 \times 10^7 \text{ (A271)} \\
 N_{\text{Japanese American internment, WWII}} &\approx 1.2 \times 10^5 \text{ (A272)} \\
 N_{\text{Southeast Asian refugee admissions 1975-1994}} &\approx 1.05 \times 10^6 \text{ (A273)} \\
 N_{\text{IRCA 1986 legalizations}} &\approx 2.7 \times 10^6 \text{ (A274)} \\
 N_{\text{Uniting for Ukraine 2022-2024 admissions}} &\approx 2.6 \times 10^5 \text{ (A275)}
-\end{aligned}$$
+\end{aligned}
+\tag{8}
+$$
 
 per article documentation. Contemporary interactions include refugee admission, religious-motivated attacks, 2020 racial justice mobilization, and religious-political sorting documented in [A275][related_post_a275_contemporary_sorting_and_new_flows].
 
@@ -132,7 +156,8 @@ The adaptation axis characterizes response to novel circumstances across America
 
 Retrospective assessment identifies load-bearing historical inflection points across four-century American ethnoreligious arc. Approximate inflection points include
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{1607 Jamestown founding} &: \text{English Protestant colonial framework establishment} \\
 \text{1620 Plymouth arrival} &: \text{Pilgrim Separatist framework establishment} \\
 \text{1682 Pennsylvania founding} &: \text{Quaker religious freedom framework} \\
@@ -151,7 +176,9 @@ $$\begin{aligned}
 \text{2001 September 11 attacks} &: \text{Post-9/11 religious-political framework} \\
 \text{2015 Obergefell v. Hodges} &: \text{Same-sex marriage federal recognition} \\
 \text{2022 Dobbs v. Jackson} &: \text{Roe v. Wade reversal and post-Roe framework}
-\end{aligned}$$
+\end{aligned}
+\tag{9}
+$$
 
 Successive inflection points structured American ethnoreligious development through four-century arc.
 
@@ -159,7 +186,10 @@ Successive inflection points structured American ethnoreligious development thro
 
 Canadian ethnoreligious development provides significant comparative case reflecting parallel British colonial framework with substantial distinctive French Catholic Quebec framework. Approximate contemporary Canadian religious composition reached
 
-$$f_{\text{Christian, Canada}}\bigg|_{2020} \approx 0.55, \quad f_{\text{Catholic, Canada}} \approx 0.30, \quad f_{\text{Protestant, Canada}} \approx 0.20, \quad f_{\text{Unaffiliated, Canada}} \approx 0.35, \quad f_{\text{Muslim, Canada}} \approx 0.05, \quad f_{\text{Hindu, Canada}} \approx 0.02, \quad f_{\text{Sikh, Canada}} \approx 0.02$$
+$$
+f_{\text{Christian, Canada}}\bigg|_{2020} \approx 0.55, \quad f_{\text{Catholic, Canada}} \approx 0.30, \quad f_{\text{Protestant, Canada}} \approx 0.20, \quad f_{\text{Unaffiliated, Canada}} \approx 0.35, \quad f_{\text{Muslim, Canada}} \approx 0.05, \quad f_{\text{Hindu, Canada}} \approx 0.02, \quad f_{\text{Sikh, Canada}} \approx 0.02
+\tag{10}
+$$
 
 per [Statistics Canada 2021 Census Religion][ref_statscan_2021_religion]. The [Bowen 2005][book_bowen_2005_canada] Christians in a Secular World and [Beyer 2013][book_beyer_2013_canada] Religion in Canada provide the standard treatments. Canadian development reflects parallel British colonial framework with distinctive Quebec French Catholic framework preserved through 1774 Quebec Act, 1867 British North America Act, and 1982 Constitution Act. Quebec Catholic decline through 1960s Quiet Revolution produced approximately 90%-to-30% Catholic weekly Mass attendance decline across approximately 50-year window, exceeding American Catholic decline. The [Canadian Multiculturalism Act 1988][ref_canadian_multiculturalism_1988] Canadian Multiculturalism Act institutionalized religious pluralism framework exceeding US institutional framework, extending prior [Quebec Act 1774][ref_quebec_act_1774] and [Constitution Act 1982][ref_constitution_act_1982] frameworks.
 
@@ -167,7 +197,10 @@ per [Statistics Canada 2021 Census Religion][ref_statscan_2021_religion]. The [B
 
 Latin American Catholic trajectory provides marked comparative case reflecting Iberian Catholic colonial framework contrasting with British Protestant American framework. Contemporary Latin American religious composition reached
 
-$$f_{\text{Catholic, Latin America aggregate}}\bigg|_{1970} \approx 0.90, \quad f\bigg|_{2020} \approx 0.55, \quad f_{\text{Protestant/Pentecostal, Latin America}}\bigg|_{1970} \approx 0.05, \quad f\bigg|_{2020} \approx 0.20, \quad f_{\text{Unaffiliated, Latin America}}\bigg|_{2020} \approx 0.20$$
+$$
+f_{\text{Catholic, Latin America aggregate}}\bigg|_{1970} \approx 0.90, \quad f\bigg|_{2020} \approx 0.55, \quad f_{\text{Protestant/Pentecostal, Latin America}}\bigg|_{1970} \approx 0.05, \quad f\bigg|_{2020} \approx 0.20, \quad f_{\text{Unaffiliated, Latin America}}\bigg|_{2020} \approx 0.20
+\tag{11}
+$$
 
 per [Pew Latin America Religion 2014][ref_pew_latin_america_2014] Pew Research Latin America Religion study. The [Stoll 1990][book_stoll_1990] Is Latin America Turning Protestant (already cited in A274) and [Chesnut 2003][book_chesnut_2003] Competitive Spirits (already cited in A275) provide the fullest treatments. Approximately 35-percentage-point Catholic decline across 50-year window represents most extensive single-region religious composition transformation of late twentieth and early twenty-first centuries. The Latin American Liberation Theology framework documented in [A273][related_post_a273_postwar_transformation_and_reopening] influenced American Catholic institutional reception documented in [A273][related_post_a273_postwar_transformation_and_reopening] and [A275][related_post_a275_contemporary_sorting_and_new_flows].
 
@@ -175,11 +208,14 @@ per [Pew Latin America Religion 2014][ref_pew_latin_america_2014] Pew Research L
 
 Australian and New Zealand ethnoreligious development provides sizable comparative case reflecting parallel British colonial framework with distinctive Indigenous relations. Approximate contemporary religious composition reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Christian, Australia}}\bigg|_{2021} &\approx 0.44, \quad f_{\text{Unaffiliated}} \approx 0.39, \quad f_{\text{Islamic}} \approx 0.032 \\
 f_{\text{Christian, New Zealand}}\bigg|_{2018} &\approx 0.37, \quad f_{\text{Unaffiliated}} \approx 0.48, \quad f_{\text{Māori religion}} \approx 0.015 \\
 f_{\text{Australian Aboriginal population share}}\bigg|_{2021} &\approx 0.033, \quad f_{\text{Māori share, NZ}}\bigg|_{2018} \approx 0.170
-\end{aligned}$$
+\end{aligned}
+\tag{12}
+$$
 
 per [ABS 2021 Australia Census Religion][ref_abs_2021_religion] Australian Bureau of Statistics 2021 Census and [Stats NZ 2018 Religion][ref_stats_nz_2018_religion] Statistics New Zealand 2018 Census. The [Bouma 2006][book_bouma_2006_australia] Australian Soul provides the comprehensive Australian treatment. New Zealand Māori population share (approximately 17%) exceeds US Native American share (approximately 3%), reflecting distinctive Māori political and demographic recovery through 1840 [Treaty of Waitangi 1840][ref_treaty_of_waitangi_1840] Treaty of Waitangi framework and 1970s-2020s Māori renaissance. Australian and New Zealand unaffiliation rates exceed US unaffiliation, reflecting parallel European secularization pattern.
 
@@ -187,7 +223,10 @@ per [ABS 2021 Australia Census Religion][ref_abs_2021_religion] Australian Burea
 
 British post-imperial ethnoreligious transformation provides inverse comparative case combining parallel Protestant institutional framework with divergent secularization trajectory. Approximate contemporary British religious composition reached
 
-$$f_{\text{Christian, England and Wales}}\bigg|_{2021} \approx 0.46, \quad f_{\text{Unaffiliated}}\bigg|_{2021} \approx 0.37, \quad f_{\text{Muslim}}\bigg|_{2021} \approx 0.066, \quad f_{\text{Hindu}}\bigg|_{2021} \approx 0.017, \quad f_{\text{Sikh}}\bigg|_{2021} \approx 0.009$$
+$$
+f_{\text{Christian, England and Wales}}\bigg|_{2021} \approx 0.46, \quad f_{\text{Unaffiliated}}\bigg|_{2021} \approx 0.37, \quad f_{\text{Muslim}}\bigg|_{2021} \approx 0.066, \quad f_{\text{Hindu}}\bigg|_{2021} \approx 0.017, \quad f_{\text{Sikh}}\bigg|_{2021} \approx 0.009
+\tag{13}
+$$
 
 per [UK ONS 2021 Census Religion][ref_uk_ons_2021_religion] UK Office for National Statistics 2021 Census. The [Bruce 2002][book_bruce_2002_secularization] God Is Dead and [Davie 1994][book_davie_1994_believing] Religion in Britain provide the treatments. British Christian share decline (from approximately 72% in 2001 to 46% in 2021) exceeds US Christian share decline across comparable window. The "believing without belonging" pattern documented by Davie characterizes British post-imperial religious framework contrasting with American "belonging without believing" pattern producing appreciable US-UK comparative divergence despite parallel historical Protestant institutional framework.
 
@@ -195,14 +234,17 @@ per [UK ONS 2021 Census Religion][ref_uk_ons_2021_religion] UK Office for Nation
 
 European post-war secularization provides considerable comparative case reflecting distinctive European trajectory. Approximate contemporary Christian share across major European countries reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Christian, France}}\bigg|_{2020} &\approx 0.51, \quad f_{\text{Unaffiliated}} \approx 0.40 \\
 f_{\text{Christian, Germany}}\bigg|_{2020} &\approx 0.54, \quad f_{\text{Unaffiliated}} \approx 0.37 \\
 f_{\text{Christian, Italy}}\bigg|_{2020} &\approx 0.83, \quad f_{\text{Unaffiliated}} \approx 0.13 \\
 f_{\text{Christian, Netherlands}}\bigg|_{2020} &\approx 0.36, \quad f_{\text{Unaffiliated}} \approx 0.54 \\
 f_{\text{Christian, Sweden}}\bigg|_{2020} &\approx 0.56, \quad f_{\text{Unaffiliated}} \approx 0.39 \\
 f_{\text{Christian, Poland}}\bigg|_{2020} &\approx 0.88, \quad f_{\text{Unaffiliated}} \approx 0.09
-\end{aligned}$$
+\end{aligned}
+\tag{14}
+$$
 
 per [Author 2018][ref_pew_european_religion_2018] Pew Research Being Christian in Western Europe 2018 study. The [Berger 1999][book_berger_1999_desecularization] The Desecularization of the World, [Casanova 1994][book_casanova_1994_public] Public Religions in the Modern World, and [Norris and Inglehart 2004][book_norris_inglehart_2004] Sacred and Secular provide the detailed treatments. European variation between Poland/Italy Catholic retention and Netherlands/Sweden Protestant decline reflects twentieth-century political-religious frameworks. European aggregate unaffiliation exceeds US unaffiliation, though approximately 30% US unaffiliation is approaching European levels through twenty-first century.
 
@@ -210,7 +252,10 @@ per [Author 2018][ref_pew_european_religion_2018] Pew Research Being Christian i
 
 Israeli Zionist ethnoreligious formation provides distinctive comparative case combining religious-national synthesis contrasting with American religious-national distinction. Contemporary Israeli religious composition reached
 
-$$f_{\text{Jewish, Israel}}\bigg|_{2024} \approx 0.74, \quad f_{\text{Muslim, Israel}} \approx 0.18, \quad f_{\text{Christian, Israel}} \approx 0.02, \quad f_{\text{Druze}} \approx 0.015, \quad f_{\text{Palestinian Territories religious composition}} \text{ substantially separate}$$
+$$
+f_{\text{Jewish, Israel}}\bigg|_{2024} \approx 0.74, \quad f_{\text{Muslim, Israel}} \approx 0.18, \quad f_{\text{Christian, Israel}} \approx 0.02, \quad f_{\text{Druze}} \approx 0.015, \quad f_{\text{Palestinian Territories religious composition}} \text{ substantially separate}
+\tag{15}
+$$
 
 per [Israel CBS 2023 Statistical Abstract][ref_israel_cbs_2023] Israeli Central Bureau of Statistics data. The [Ravitzky 1996][book_ravitzky_1996_israel] Messianism, Zionism, and Jewish Religious Radicalism and [Yadgar 2020][book_yadgar_2020_israel] Israel's Jewish Identity Crisis provide the leading treatments. Ongoing Israeli religious-national tensions between Haredi (ultra-Orthodox), religious Zionist, traditional (masorti), secular Jewish populations, and Palestinian Muslim, Christian, and Druze populations structure Israeli ethnoreligious dynamics exceeding American religious-political tensions in institutional intensity.
 
@@ -218,12 +263,15 @@ per [Israel CBS 2023 Statistical Abstract][ref_israel_cbs_2023] Israeli Central 
 
 East Asian religious modernization provides significant comparative case reflecting distinctive Confucian-Buddhist-secular synthesis. Approximate contemporary religious composition reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Unaffiliated/secular, Japan}}\bigg|_{2020} &\approx 0.57, \quad f_{\text{Shinto/Buddhist}} \approx 0.36, \quad f_{\text{Christian}} \approx 0.015 \\
 f_{\text{Unaffiliated, South Korea}}\bigg|_{2015} &\approx 0.56, \quad f_{\text{Christian}} \approx 0.28, \quad f_{\text{Buddhist}} \approx 0.15 \\
 f_{\text{Unaffiliated, China}}\bigg|_{2020} &\approx 0.51, \quad f_{\text{Buddhist and folk}} \approx 0.35, \quad f_{\text{Christian}} \approx 0.05 \\
 f_{\text{Unaffiliated, Taiwan}}\bigg|_{2020} &\approx 0.14, \quad f_{\text{Buddhist and folk}} \approx 0.75, \quad f_{\text{Christian}} \approx 0.04
-\end{aligned}$$
+\end{aligned}
+\tag{16}
+$$
 
 per assorted national census and survey data. The [Yang 2011][book_yang_2011_china] Religion in China and [Reader 2012][book_reader_2012_japan] Religion in Contemporary Japan provide the principal treatments. East Asian religious framework exceeds European or American secularization pattern in institutional depth. Korean Christian expansion (approximately 28% South Korean Christian share by 2015) reflects twentieth-century religious innovation transferred to American Korean American population documented in [A273][related_post_a273_postwar_transformation_and_reopening] and [A274][related_post_a274_diversification_and_consolidation].
 
@@ -233,12 +281,15 @@ Beyond contemporary comparative cases, American ethnoreligious development admit
 
 Approximate deep historical religious composition transformation windows reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 t_{\text{Roman Empire Christianization primary window}} &\approx 313 \text{ to } 380, \quad \Delta t \approx 67 \text{ years} \\
 t_{\text{Anglo-Saxon Christianization}} &\approx 597 \text{ to } 700, \quad \Delta t \approx 103 \text{ years} \\
 t_{\text{Reformation primary window}} &\approx 1517 \text{ to } 1648, \quad \Delta t \approx 131 \text{ years} \\
 t_{\text{American Nones expansion window (2000-2050 projected)}} &\approx 50 \text{ years}
-\end{aligned}$$
+\end{aligned}
+\tag{17}
+$$
 
 Deep historical religious composition transformations exceeded contemporary American religious composition transformation duration, though contemporary American religious composition change exceeds rate. Comparative deep historical analysis demonstrates American ethnoreligious development as characteristic case of broader religious composition transformation pattern combining substrate incorporation with institutional adaptation.
 
@@ -254,13 +305,16 @@ Successive theoretical development of six-axis framework remains open research a
 
 Alternative American ethnoreligious development trajectories admit extensive counterfactual analysis. Major counterfactual scenarios include
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Alternative 1: 1782-1800 established church continuation} &: \text{Individual state established churches (particularly Massachusetts Congregational 1780-1833, Connecticut 1791-1818) alternative continuation would have produced different First Amendment framework} \\
 \text{Alternative 2: Successful 1864 slave insurrection} &: \text{Insurrection-completed emancipation preceding formal Confederate defeat would have produced different Reconstruction religious institutional framework} \\
 \text{Alternative 3: 1876-1877 Reconstruction consolidation} &: \text{Federal military continuation preserving Reconstruction against 1877 Compromise would have reshaped Southern religious-political framework} \\
 \text{Alternative 4: 1924 immigration continuation} &: \text{Johnson-Reed Act failure or repeal preserving pre-1924 immigration would have produced different mid-twentieth century religious composition} \\
 \text{Alternative 5: 1965 Hart-Celler alternative} &: \text{Alternative national-origins-preserving framework or complete open-borders framework would have produced different post-1965 composition}
-\end{aligned}$$
+\end{aligned}
+\tag{18}
+$$
 
 Counterfactual analysis remains speculative given complex causal interactions. The [Fogel and Engerman 1974][book_fogel_engerman_1974_time] Time on the Cross and a range of counterfactual analytical frameworks provide analytical foundations, though comprehensive American ethnoreligious counterfactual analysis remains open research agenda.
 
@@ -268,7 +322,8 @@ Counterfactual analysis remains speculative given complex causal interactions. T
 
 Forward demographic projection for 2024-2050 window builds on documented trends across [A272][related_post_a272_depression_war_and_refuge] through [A275][related_post_a275_contemporary_sorting_and_new_flows]. Approximate projected trajectories include
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{US population, projected}}\bigg|_{2050} &\approx 3.79 \times 10^8, \quad P\bigg|_{2024} \approx 3.36 \times 10^8 \\
 f_{\text{Hispanic/Latino share}}\bigg|_{2050} &\approx 0.28, \quad f\bigg|_{2020} \approx 0.19 \\
 f_{\text{Asian-descent share}}\bigg|_{2050} &\approx 0.09, \quad f\bigg|_{2020} \approx 0.06 \\
@@ -277,7 +332,9 @@ f_{\text{white non-Hispanic share}}\bigg|_{2050} &\approx 0.47, \quad f\bigg|_{2
 f_{\text{foreign-born share}}\bigg|_{2050} &\approx 0.16, \quad f\bigg|_{2020} \approx 0.135 \\
 f_{\text{Christian share, US}}\bigg|_{2050} &\approx 0.52 \text{ (central projection)}, \quad f\bigg|_{2020} \approx 0.63 \\
 f_{\text{Unaffiliated share, US}}\bigg|_{2050} &\approx 0.36 \text{ (central projection)}, \quad f\bigg|_{2020} \approx 0.29
-\end{aligned}$$
+\end{aligned}
+\tag{19}
+$$
 
 per [US Census Bureau 2023][ref_us_census_projections_2023] US Census Bureau 2023 National Population Projections and [Nadeem 2022][ref_pew_modeling_future_2022] Pew Research Modeling the Future of Religion in America projections. 2020-2050 projected transformation includes approximate 11-percentage-point Christian share decline and 7-percentage-point Nones share expansion, continuing approximate 2000-2020 trajectory documented above.
 
@@ -287,7 +344,8 @@ Religious composition projections face sizable uncertainty, particularly regardi
 
 Forward political-religious sorting projection builds on documented 2016-2024 trends. Approximate projected trajectories include continuation of white evangelical Protestant-Republican alignment, Nones-Democratic alignment, and ethnic-religious minority alignment contested. Approximate 2024 election results per Pew Research 2024 validated voter reconstruction reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Trump 2024 white evangelical vote}} &\approx 0.82 \\
 f_{\text{Trump 2024 white Catholic vote}} &\approx 0.61 \\
 f_{\text{Harris 2024 Jewish vote}} &\approx 0.70 \\
@@ -296,7 +354,9 @@ f_{\text{Harris 2024 Nones vote}} &\approx 0.65 \\
 f_{\text{Harris 2024 Black Protestant vote}} &\approx 0.85 \\
 f_{\text{Trump 2024 Hispanic Catholic vote}} &\approx 0.51 \text{ (substantial shift toward Republican)} \\
 f_{\text{Trump 2024 Hispanic Protestant vote}} &\approx 0.65
-\end{aligned}$$
+\end{aligned}
+\tag{20}
+$$
 
 per various 2024 exit polling and validated voter reconstruction. 2024 election Hispanic Catholic and Hispanic Protestant shifts toward Republican produced most substantial single-election ethnic-religious realignment of twenty-first century to date, potentially initiating Hispanic religious-political realignment through 2028-2050 window.
 
@@ -304,7 +364,8 @@ per various 2024 exit polling and validated voter reconstruction. 2024 election 
 
 Forward institutional trajectory projection produces considerable expected denominational transformation. Approximate projected trajectories reach
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{aggregate US mainline Protestant}}(2020) &\approx 1.2 \times 10^7, \quad P(2050)_{\text{projected}} \approx 7 \times 10^6 \\
 P_{\text{US evangelical Protestant}}(2020) &\approx 6 \times 10^7, \quad P(2050)_{\text{projected}} \approx 5.5 \times 10^7 \\
 P_{\text{US Catholic}}(2020) &\approx 5 \times 10^7, \quad P(2050)_{\text{projected}} \approx 4.7 \times 10^7 \\
@@ -313,7 +374,9 @@ P_{\text{US Hindu}}(2020) &\approx 2.5 \times 10^6, \quad P(2050)_{\text{project
 P_{\text{US Buddhist}}(2020) &\approx 2.5 \times 10^6, \quad P(2050)_{\text{projected}} \approx 4 \times 10^6 \\
 P_{\text{US Jewish}}(2020) &\approx 7.5 \times 10^6, \quad P(2050)_{\text{projected}} \approx 7 \times 10^6 \\
 P_{\text{US Nones}}(2020) &\approx 1 \times 10^8, \quad P(2050)_{\text{projected}} \approx 1.4 \times 10^8
-\end{aligned}$$
+\end{aligned}
+\tag{21}
+$$
 
 per [Nadeem 2022][ref_pew_modeling_future_2022] Pew Research Modeling the Future of Religion in America projections and denominational forecasting reconstruction.
 
@@ -321,7 +384,8 @@ per [Nadeem 2022][ref_pew_modeling_future_2022] Pew Research Modeling the Future
 
 Forward projection faces significant load-bearing uncertainties that admit systematic identification. Major uncertainties include
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Uncertainty 1} &: \text{Whether Nones expansion continues to approximately 40\% by 2050 or plateaus at approximately 30-32\%} \\
 \text{Uncertainty 2} &: \text{Whether Hispanic religious-political realignment continues Republican shift or reverses} \\
 \text{Uncertainty 3} &: \text{Whether Muslim American institutional consolidation continues or faces backlash} \\
@@ -329,7 +393,9 @@ $$\begin{aligned}
 \text{Uncertainty 5} &: \text{Whether ongoing 2020s-2030s religious institutional decline continues or reverses} \\
 \text{Uncertainty 6} &: \text{Whether 2028-2050 elections continue current religious sorting or produce realignment} \\
 \text{Uncertainty 7} &: \text{Whether religious institutional response to climate crisis, technological transformation, and various ongoing challenges produces successor religious framework}
-\end{aligned}$$
+\end{aligned}
+\tag{22}
+$$
 
 Uncertainty reflects inherent limits of religious institutional forecasting combined with contingent events.
 
@@ -337,7 +403,8 @@ Uncertainty reflects inherent limits of religious institutional forecasting comb
 
 Systematic falsification framework specifies observations that would refute projection framework. Major falsification criteria include
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Criterion 1} &: \text{If Nones share reverses to approximately 20\% by 2030, forward projection is falsified} \\
 \text{Criterion 2} &: \text{If evangelical Protestant expansion exceeds 70 million by 2035, projection is falsified} \\
 \text{Criterion 3} &: \text{If Catholic aggregate exceeds 55 million by 2035, projection is falsified} \\
@@ -345,7 +412,9 @@ $$\begin{aligned}
 \text{Criterion 5} &: \text{If Hispanic Republican vote share exceeds 60\% in 2028, projection is falsified upward} \\
 \text{Criterion 6} &: \text{If 2035 Muslim American population fails to reach 5 million, projection is falsified downward} \\
 \text{Criterion 7} &: \text{If 2028-2032 elections produce religious-political realignment exceeding 15-percentage-point shift, projection framework requires revision}
-\end{aligned}$$
+\end{aligned}
+\tag{23}
+$$
 
 Falsification criteria enable systematic assessment of projection framework through observation.
 
@@ -373,19 +442,23 @@ The series concludes with load-bearing open questions that remain for future res
 
 Beyond central 2024-2050 projection documented above, systematic alternative scenario analysis identifies potential trajectories. Approximate scenarios include
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Central projection scenario} &: f_{\text{Nones}}(2050) \approx 0.36, \quad f_{\text{Christian}}(2050) \approx 0.52 \\
 \text{Continued acceleration scenario} &: f_{\text{Nones}}(2050) \approx 0.45, \quad f_{\text{Christian}}(2050) \approx 0.42 \\
 \text{Plateau scenario} &: f_{\text{Nones}}(2050) \approx 0.32, \quad f_{\text{Christian}}(2050) \approx 0.57 \\
 \text{Reversal scenario (traditional revival)} &: f_{\text{Nones}}(2050) \approx 0.25, \quad f_{\text{Christian}}(2050) \approx 0.65 \\
 \text{Disruptive scenario (major crisis-driven realignment)} &: f_{\text{Nones}}(2050) \approx 0.30 \text{ to } 0.50 \text{ (high uncertainty)}
-\end{aligned}$$
+\end{aligned}
+\tag{24}
+$$
 
 per Pew Research and several forecasting reconstruction. The central projection reflects continued 2000-2024 trends, though alternative scenarios remain possible under contingent events.
 
 Successive scenario analysis depends on intergenerational religious transmission rates. Approximate religious retention across American generational cohorts reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{intergenerational Catholic retention, US, contemporary}} &\approx 0.60 \text{ (2018 Pew reconstruction)} \\
 f_{\text{intergenerational evangelical Protestant retention}} &\approx 0.65 \\
 f_{\text{intergenerational mainline Protestant retention}} &\approx 0.45 \\
@@ -393,7 +466,9 @@ f_{\text{intergenerational Nones "retention"}} &\approx 0.65 \\
 f_{\text{intergenerational Jewish retention}} &\approx 0.75 \\
 f_{\text{intergenerational Muslim retention}} &\approx 0.77 \\
 f_{\text{intergenerational Hindu retention}} &\approx 0.80
-\end{aligned}$$
+\end{aligned}
+\tag{25}
+$$
 
 per Pew Research 2018 US Religion Survey. Successive intergenerational retention variation structures religious composition projection combined with immigration and conversion patterns.
 
@@ -405,13 +480,16 @@ Contingency analysis identifies events that could modify projected trajectories.
 
 The series methodology combined primary source documentation with systematic scholarly literature review and systematic six-axis analytical framework application. Approximate methodology characteristics include
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{aggregate series primary references, cumulative}} &\approx 640 \\
 N_{\text{aggregate series book references, cumulative}} &\approx 950 \\
 N_{\text{aggregate series research references, cumulative}} &\approx 15 \\
 N_{\text{articles employing four-pass workflow (initial draft, equation density, reference density, publication review)}} &= 11 \\
 N_{\text{cross-references within series}} &\gtrsim 200
-\end{aligned}$$
+\end{aligned}
+\tag{26}
+$$
 
 per series article documentation. Methodology strengths include systematic multi-substrate treatment, periodic organization with historical inflection point identification, extensive primary source documentation, and systematic six-axis analytical framework application.
 
@@ -428,6 +506,410 @@ The American ethnoreligious development reflects substrate incorporation combine
 Forward projection for 2024-2050 window projects religious composition transformation combining Christian share decline to approximately 50-55% by 2050, Nones expansion to approximately 35-40% by 2050, and ethnic-religious minority institutional consolidation. Projection uncertainty admits systematic identification through load-bearing uncertainty enumeration and systematic falsification framework enabling assessment.
 
 The series concludes acknowledging marked ongoing research agenda combining empirical documentation with theoretical analysis and comparative examination. The American ethnoreligious development trajectory continues, with twenty-first-century religious institutional response to challenges producing American ethnoreligious composition and institutional framework through decades.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 26 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 26, 14 are established and 12 are bespoke.
+Every figure is an approximate count, share or monetary amount as reported by the source or earlier article the equation names, a share is a fraction between zero and one rather than a percentage, and figures dated 2050 are projections rather than observations.
+
+*Equation 1, Bespoke Temporal Coverage of the Series.*
+The series is described by the span of years it treats and its count of articles, a self-description in which the year 1600 is the starting point the series chose for the Indigenous substrate.
+
+$$
+t_{\text{series temporal coverage}} \approx 1600 \text{ to } 2024, \quad t_{\text{coverage duration}} \approx 425 \text{ years}, \quad N_{\text{series articles}} = 11
+\tag{1}
+$$
+
+*Equation 2, Bespoke Periodisation of the Series by Article.*
+Each earlier article is assigned a theme and a span of years, a periodisation constructed for the series rather than taken from a source.
+
+$$
+\begin{aligned}
+\text{[A266]} &: \text{Framing and Three Substrates (Indigenous, African, European)} \\
+\text{[A267]} &: \text{Colonial Folkways 1607-1725} \\
+\text{[A268]} &: \text{Awakening and Founding 1725-1789} \\
+\text{[A269]} &: \text{Second Great Awakening and Reform 1789-1861} \\
+\text{[A270]} &: \text{Civil War, Reconstruction, and Continental Consolidation 1861-1900} \\
+\text{[A271]} &: \text{Mass Immigration and Restrictionist Closure 1900-1924} \\
+\text{[A272]} &: \text{Depression, War, and Refuge 1924-1945} \\
+\text{[A273]} &: \text{Postwar Transformation and Reopening 1945-1980} \\
+\text{[A274]} &: \text{Full Diversification and Religious Right Consolidation 1980-2000} \\
+\text{[A275]} &: \text{Contemporary Sorting and New Flows 2000-2024}
+\end{aligned}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Aggregate Size of the Series.*
+The lines, words, display equations and references of the series are totalled approximately as a self-description of the corpus, so the figures depend on the series itself and on what is counted.
+
+$$
+N_{\text{aggregate series lines}} \approx 10800, \quad N_{\text{aggregate series words}} \approx 165600, \quad N_{\text{aggregate series equations}} \approx 610, \quad N_{\text{aggregate series book references}} \approx 1540, \quad N_{\text{aggregate series primary references}} \approx 610
+\tag{3}
+$$
+
+*Equation 4, Bespoke Ethnic Composition Trajectory, 1600 to 2020.*
+Census shares for 1900 and 2020 are joined to colonial values that are rounded estimates and to an Indigenous share of one in 1600 that the article takes as the pre-contact starting point.
+[US Census Historical Statistics][ref_us_census_historical]
+[Religious Landscape Study 2014][ref_pew_religious_landscape_2014]
+
+$$
+\begin{aligned}
+f_{\text{Indigenous share, US population}}\bigg|_{1600} &\approx 1.00 \text{ (pre-contact estimate)}, \quad f\bigg|_{1900} \approx 0.003, \quad f\bigg|_{2020} \approx 0.028 \\
+f_{\text{African-descent share}}\bigg|_{1700} &\approx 0.10 \text{ (Colonial)}, \quad f\bigg|_{1900} \approx 0.115, \quad f\bigg|_{2020} \approx 0.128 \\
+f_{\text{European-descent share}}\bigg|_{1700} &\approx 0.80 \text{ (Colonial white)}, \quad f\bigg|_{1900} \approx 0.878, \quad f\bigg|_{2020} \approx 0.588 \\
+f_{\text{Asian-descent share}}\bigg|_{1900} &\approx 0.002, \quad f\bigg|_{2020} \approx 0.061 \\
+f_{\text{Hispanic/Latino share}}\bigg|_{1970} &\approx 0.047, \quad f\bigg|_{2020} \approx 0.189
+\end{aligned}
+\tag{4}
+$$
+
+**Equation 5, Peak Religious Media Reach Across the Series.**
+Peak audiences, attendance, circulation, station counts and sales for religious broadcasting and publishing are restated from the earlier articles in which each figure was documented.
+[A272][related_post_a272_depression_war_and_refuge]
+[A273][related_post_a273_postwar_transformation_and_reopening]
+[A274][related_post_a274_diversification_and_consolidation]
+[A275][related_post_a275_contemporary_sorting_and_new_flows]
+
+$$
+\begin{aligned}
+L_{\text{Coughlin radio audience, peak c. 1934-1935}} &\approx 3 \times 10^7 \text{ (A272)} \\
+N_{\text{Graham cumulative crusade attendance, 1949-2005}} &\approx 2.15 \times 10^8 \text{ (A273)} \\
+C_{\text{Social Justice magazine circulation, peak c. 1938}} &\approx 1 \times 10^6 \text{ (A272)} \\
+N_{\text{US religious radio stations}}(1980) &\approx 1.4 \times 10^3 \text{ (A273)} \\
+C_{\text{Left Behind series cumulative sales}} &\approx 8 \times 10^7 \text{ (A274)} \\
+N_{\text{He Gets Us Super Bowl 2024 audience}} &\approx 1.23 \times 10^8 \text{ (A275)}
+\end{aligned}
+\tag{5}
+$$
+
+**Equation 6, Peak Movement Mobilisation Across the Series.**
+Peak memberships and cumulative fundraising of religious reform and political movements, from the Woman's Christian Temperance Union to Promise Keepers, are restated from the earlier articles that documented them.
+
+$$
+\begin{aligned}
+P_{\text{WCTU membership, 1900}} &\approx 2 \times 10^5 \text{ (A270)} \\
+P_{\text{Anti-Saloon League fundraising, cumulative 1893-1919}} &\approx 6 \times 10^7 \text{ USD (A271)} \\
+P_{\text{second-wave KKK peak c. 1925}} &\approx 4 \times 10^6 \text{ (A271)} \\
+P_{\text{Moral Majority claimed peak c. 1980}} &\approx 4 \times 10^6 \text{ (A273)} \\
+P_{\text{Christian Coalition peak c. 1995}} &\approx 1.7 \times 10^6 \text{ (A274)} \\
+P_{\text{Promise Keepers Stand in the Gap 1997}} &\approx 7 \times 10^5 \text{ (A274)}
+\end{aligned}
+\tag{6}
+$$
+
+**Equation 7, Institutional Counts Across the Series.**
+Counts of national parishes, Bible institutes, Catholic parishes, megachurches, mosques and Hindu temples are restated from the earlier articles that documented them.
+[A271][related_post_a271_mass_immigration_and_closure]
+
+$$
+\begin{aligned}
+N_{\text{immigrant national parishes, US c. 1920}} &\approx 3.6 \times 10^3 \text{ (A271)} \\
+N_{\text{Bible Institutes, US}}(1970) &\approx 2.5 \times 10^2 \text{ (A271)} \\
+N_{\text{US Catholic parishes, peak c. 1970}} &\approx 1.9 \times 10^4 \text{ (A273)} \\
+N_{\text{US megachurches}}(2020) &\approx 1750 \text{ (A274)} \\
+N_{\text{US mosques and Islamic centers}}(2020) &\approx 2.8 \times 10^3 \text{ (A274)} \\
+N_{\text{US Hindu temples}}(2020) &\approx 8 \times 10^2 \text{ (A274)}
+\end{aligned}
+\tag{7}
+$$
+
+**Equation 8, Major Population Movements Across the Series.**
+Cumulative counts of the slave trade to the United States, mass immigration, wartime internment, refugee admissions and legalisations are restated from the earlier articles that documented them.
+[A267][related_post_a267_colonial_folkways]
+[A272][related_post_a272_depression_war_and_refuge]
+[A273][related_post_a273_postwar_transformation_and_reopening]
+[A275][related_post_a275_contemporary_sorting_and_new_flows]
+
+$$
+\begin{aligned}
+N_{\text{Transatlantic slave trade to US, cumulative 1600-1808}} &\approx 3.9 \times 10^5 \text{ (A267)} \\
+N_{\text{mass immigration 1900-1924 cumulative}} &\approx 1.85 \times 10^7 \text{ (A271)} \\
+N_{\text{Japanese American internment, WWII}} &\approx 1.2 \times 10^5 \text{ (A272)} \\
+N_{\text{Southeast Asian refugee admissions 1975-1994}} &\approx 1.05 \times 10^6 \text{ (A273)} \\
+N_{\text{IRCA 1986 legalizations}} &\approx 2.7 \times 10^6 \text{ (A274)} \\
+N_{\text{Uniting for Ukraine 2022-2024 admissions}} &\approx 2.6 \times 10^5 \text{ (A275)}
+\end{aligned}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Selection of Load-Bearing Inflection Points.*
+Eighteen events from 1607 to 2022 are selected and paired with the transformation each is judged to have produced, a selection that rests on the article's own assessment of causal significance.
+
+$$
+\begin{aligned}
+\text{1607 Jamestown founding} &: \text{English Protestant colonial framework establishment} \\
+\text{1620 Plymouth arrival} &: \text{Pilgrim Separatist framework establishment} \\
+\text{1682 Pennsylvania founding} &: \text{Quaker religious freedom framework} \\
+\text{1730s-1740s First Great Awakening} &: \text{Colonial evangelical revival formation} \\
+\text{1776 Declaration of Independence} &: \text{American national religious-political framework} \\
+\text{1791 Bill of Rights} &: \text{First Amendment religious clauses} \\
+\text{1830s-1840s Second Great Awakening} &: \text{Denominational restructuring and reform mobilization} \\
+\text{1865 Emancipation} &: \text{African American Reconstruction religious formation} \\
+\text{1882 Chinese Exclusion Act} &: \text{First substantial federal immigration restriction} \\
+\text{1924 Johnson-Reed Act} &: \text{National origins quota framework closure} \\
+\text{1954-1968 Civil Rights Movement} &: \text{Religious institutional civil rights mobilization} \\
+\text{1962-1965 Vatican II Council} &: \text{American Catholic institutional transformation} \\
+\text{1965 Hart-Celler Act} &: \text{Restrictionist closure reversal and demographic reopening} \\
+\text{1979 Moral Majority formation} &: \text{Religious Right political consolidation} \\
+\text{1990-2020 Nones expansion} &: \text{Religious unaffiliation demographic transformation} \\
+\text{2001 September 11 attacks} &: \text{Post-9/11 religious-political framework} \\
+\text{2015 Obergefell v. Hodges} &: \text{Same-sex marriage federal recognition} \\
+\text{2022 Dobbs v. Jackson} &: \text{Roe v. Wade reversal and post-Roe framework}
+\end{aligned}
+\tag{9}
+$$
+
+**Equation 10, Religious Composition of Canada.**
+Shares of the Canadian population by religious affiliation are taken from the 2021 census of Statistics Canada.
+[Statistics Canada 2021 Census Religion][ref_statscan_2021_religion]
+
+$$
+f_{\text{Christian, Canada}}\bigg|_{2020} \approx 0.55, \quad f_{\text{Catholic, Canada}} \approx 0.30, \quad f_{\text{Protestant, Canada}} \approx 0.20, \quad f_{\text{Unaffiliated, Canada}} \approx 0.35, \quad f_{\text{Muslim, Canada}} \approx 0.05, \quad f_{\text{Hindu, Canada}} \approx 0.02, \quad f_{\text{Sikh, Canada}} \approx 0.02
+\tag{10}
+$$
+
+**Equation 11, Catholic, Protestant and Unaffiliated Shares in Latin America, 1970 and 2020.**
+Regional shares of Catholic, Protestant or Pentecostal and unaffiliated adherents in Latin America are taken from the Pew Research Center survey of religion in the region.
+[Pew Latin America Religion 2014][ref_pew_latin_america_2014]
+
+$$
+f_{\text{Catholic, Latin America aggregate}}\bigg|_{1970} \approx 0.90, \quad f\bigg|_{2020} \approx 0.55, \quad f_{\text{Protestant/Pentecostal, Latin America}}\bigg|_{1970} \approx 0.05, \quad f\bigg|_{2020} \approx 0.20, \quad f_{\text{Unaffiliated, Latin America}}\bigg|_{2020} \approx 0.20
+\tag{11}
+$$
+
+**Equation 12, Religious Composition and Indigenous Shares in Australia and New Zealand.**
+Christian, unaffiliated and minority religious shares, together with the Aboriginal and Māori population shares, are taken from the 2021 Australian and 2018 New Zealand censuses.
+[ABS 2021 Australia Census Religion][ref_abs_2021_religion]
+[Stats NZ 2018 Religion][ref_stats_nz_2018_religion]
+
+$$
+\begin{aligned}
+f_{\text{Christian, Australia}}\bigg|_{2021} &\approx 0.44, \quad f_{\text{Unaffiliated}} \approx 0.39, \quad f_{\text{Islamic}} \approx 0.032 \\
+f_{\text{Christian, New Zealand}}\bigg|_{2018} &\approx 0.37, \quad f_{\text{Unaffiliated}} \approx 0.48, \quad f_{\text{Māori religion}} \approx 0.015 \\
+f_{\text{Australian Aboriginal population share}}\bigg|_{2021} &\approx 0.033, \quad f_{\text{Māori share, NZ}}\bigg|_{2018} \approx 0.170
+\end{aligned}
+\tag{12}
+$$
+
+**Equation 13, Religious Composition of England and Wales, 2021.**
+Shares of the population of England and Wales by religious affiliation are taken from the 2021 census of the Office for National Statistics.
+[UK ONS 2021 Census Religion][ref_uk_ons_2021_religion]
+
+$$
+f_{\text{Christian, England and Wales}}\bigg|_{2021} \approx 0.46, \quad f_{\text{Unaffiliated}}\bigg|_{2021} \approx 0.37, \quad f_{\text{Muslim}}\bigg|_{2021} \approx 0.066, \quad f_{\text{Hindu}}\bigg|_{2021} \approx 0.017, \quad f_{\text{Sikh}}\bigg|_{2021} \approx 0.009
+\tag{13}
+$$
+
+**Equation 14, Christian and Unaffiliated Shares in Six European Countries.**
+Christian and unaffiliated shares for France, Germany, Italy, the Netherlands, Sweden and Poland are taken from the Pew Research Center study of Christianity in Western Europe.
+[Author 2018][ref_pew_european_religion_2018]
+
+$$
+\begin{aligned}
+f_{\text{Christian, France}}\bigg|_{2020} &\approx 0.51, \quad f_{\text{Unaffiliated}} \approx 0.40 \\
+f_{\text{Christian, Germany}}\bigg|_{2020} &\approx 0.54, \quad f_{\text{Unaffiliated}} \approx 0.37 \\
+f_{\text{Christian, Italy}}\bigg|_{2020} &\approx 0.83, \quad f_{\text{Unaffiliated}} \approx 0.13 \\
+f_{\text{Christian, Netherlands}}\bigg|_{2020} &\approx 0.36, \quad f_{\text{Unaffiliated}} \approx 0.54 \\
+f_{\text{Christian, Sweden}}\bigg|_{2020} &\approx 0.56, \quad f_{\text{Unaffiliated}} \approx 0.39 \\
+f_{\text{Christian, Poland}}\bigg|_{2020} &\approx 0.88, \quad f_{\text{Unaffiliated}} \approx 0.09
+\end{aligned}
+\tag{14}
+$$
+
+**Equation 15, Religious Composition of Israel.**
+Jewish, Muslim, Christian and Druze shares of the Israeli population are taken from the Central Bureau of Statistics of Israel, with the Palestinian Territories counted separately.
+[Israel CBS 2023 Statistical Abstract][ref_israel_cbs_2023]
+
+$$
+f_{\text{Jewish, Israel}}\bigg|_{2024} \approx 0.74, \quad f_{\text{Muslim, Israel}} \approx 0.18, \quad f_{\text{Christian, Israel}} \approx 0.02, \quad f_{\text{Druze}} \approx 0.015, \quad f_{\text{Palestinian Territories religious composition}} \text{ substantially separate}
+\tag{15}
+$$
+
+**Equation 16, Religious Composition of Japan, South Korea, China and Taiwan.**
+Unaffiliated, traditional and Christian shares for four East Asian societies are taken from national census and survey data that the article does not name individually.
+
+$$
+\begin{aligned}
+f_{\text{Unaffiliated/secular, Japan}}\bigg|_{2020} &\approx 0.57, \quad f_{\text{Shinto/Buddhist}} \approx 0.36, \quad f_{\text{Christian}} \approx 0.015 \\
+f_{\text{Unaffiliated, South Korea}}\bigg|_{2015} &\approx 0.56, \quad f_{\text{Christian}} \approx 0.28, \quad f_{\text{Buddhist}} \approx 0.15 \\
+f_{\text{Unaffiliated, China}}\bigg|_{2020} &\approx 0.51, \quad f_{\text{Buddhist and folk}} \approx 0.35, \quad f_{\text{Christian}} \approx 0.05 \\
+f_{\text{Unaffiliated, Taiwan}}\bigg|_{2020} &\approx 0.14, \quad f_{\text{Buddhist and folk}} \approx 0.75, \quad f_{\text{Christian}} \approx 0.04
+\end{aligned}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Durations of Historical Christianisation and Secularisation Windows.*
+Each transformation is bounded by endpoint years the article chose as its primary window, and the American unaffiliated expansion is given an assumed fifty-year window from 2000 to a projected 2050.
+
+$$
+\begin{aligned}
+t_{\text{Roman Empire Christianization primary window}} &\approx 313 \text{ to } 380, \quad \Delta t \approx 67 \text{ years} \\
+t_{\text{Anglo-Saxon Christianization}} &\approx 597 \text{ to } 700, \quad \Delta t \approx 103 \text{ years} \\
+t_{\text{Reformation primary window}} &\approx 1517 \text{ to } 1648, \quad \Delta t \approx 131 \text{ years} \\
+t_{\text{American Nones expansion window (2000-2050 projected)}} &\approx 50 \text{ years}
+\end{aligned}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Counterfactual American Trajectories.*
+Five alternative histories are posed, each assuming a different outcome at a chosen juncture from the early republic to 1965 and stating the change the article expects it would have produced.
+
+$$
+\begin{aligned}
+\text{Alternative 1: 1782-1800 established church continuation} &: \text{Individual state established churches (particularly Massachusetts Congregational 1780-1833, Connecticut 1791-1818) alternative continuation would have produced different First Amendment framework} \\
+\text{Alternative 2: Successful 1864 slave insurrection} &: \text{Insurrection-completed emancipation preceding formal Confederate defeat would have produced different Reconstruction religious institutional framework} \\
+\text{Alternative 3: 1876-1877 Reconstruction consolidation} &: \text{Federal military continuation preserving Reconstruction against 1877 Compromise would have reshaped Southern religious-political framework} \\
+\text{Alternative 4: 1924 immigration continuation} &: \text{Johnson-Reed Act failure or repeal preserving pre-1924 immigration would have produced different mid-twentieth century religious composition} \\
+\text{Alternative 5: 1965 Hart-Celler alternative} &: \text{Alternative national-origins-preserving framework or complete open-borders framework would have produced different post-1965 composition}
+\end{aligned}
+\tag{18}
+$$
+
+**Equation 19, Projected Ethnic and Religious Composition of the United States, 2050.**
+Population and ethnic shares for 2050 follow the 2023 national projections of the Census Bureau, and the Christian and unaffiliated shares follow the central projection of the Pew Research Center.
+[US Census Bureau 2023][ref_us_census_projections_2023]
+[Nadeem 2022][ref_pew_modeling_future_2022]
+
+$$
+\begin{aligned}
+P_{\text{US population, projected}}\bigg|_{2050} &\approx 3.79 \times 10^8, \quad P\bigg|_{2024} \approx 3.36 \times 10^8 \\
+f_{\text{Hispanic/Latino share}}\bigg|_{2050} &\approx 0.28, \quad f\bigg|_{2020} \approx 0.19 \\
+f_{\text{Asian-descent share}}\bigg|_{2050} &\approx 0.09, \quad f\bigg|_{2020} \approx 0.06 \\
+f_{\text{Black share}}\bigg|_{2050} &\approx 0.14, \quad f\bigg|_{2020} \approx 0.13 \\
+f_{\text{white non-Hispanic share}}\bigg|_{2050} &\approx 0.47, \quad f\bigg|_{2020} \approx 0.58 \\
+f_{\text{foreign-born share}}\bigg|_{2050} &\approx 0.16, \quad f\bigg|_{2020} \approx 0.135 \\
+f_{\text{Christian share, US}}\bigg|_{2050} &\approx 0.52 \text{ (central projection)}, \quad f\bigg|_{2020} \approx 0.63 \\
+f_{\text{Unaffiliated share, US}}\bigg|_{2050} &\approx 0.36 \text{ (central projection)}, \quad f\bigg|_{2020} \approx 0.29
+\end{aligned}
+\tag{19}
+$$
+
+**Equation 20, Religious Group Vote Shares in the 2024 Presidential Election.**
+Shares of each religious group voting for Trump or for Harris in 2024 are taken from exit polling and the validated voter reconstruction of the Pew Research Center.
+
+$$
+\begin{aligned}
+f_{\text{Trump 2024 white evangelical vote}} &\approx 0.82 \\
+f_{\text{Trump 2024 white Catholic vote}} &\approx 0.61 \\
+f_{\text{Harris 2024 Jewish vote}} &\approx 0.70 \\
+f_{\text{Harris 2024 Muslim vote}} &\approx 0.20 \text{ (substantial decline reflecting Gaza policy)} \\
+f_{\text{Harris 2024 Nones vote}} &\approx 0.65 \\
+f_{\text{Harris 2024 Black Protestant vote}} &\approx 0.85 \\
+f_{\text{Trump 2024 Hispanic Catholic vote}} &\approx 0.51 \text{ (substantial shift toward Republican)} \\
+f_{\text{Trump 2024 Hispanic Protestant vote}} &\approx 0.65
+\end{aligned}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Projected Adherents by Tradition, 2020 to 2050.*
+Adherent counts for eight traditions are carried to 2050 by a denominational forecasting reconstruction that extends the Pew Research Center projections beyond the groups those projections report.
+[Nadeem 2022][ref_pew_modeling_future_2022]
+
+$$
+\begin{aligned}
+P_{\text{aggregate US mainline Protestant}}(2020) &\approx 1.2 \times 10^7, \quad P(2050)_{\text{projected}} \approx 7 \times 10^6 \\
+P_{\text{US evangelical Protestant}}(2020) &\approx 6 \times 10^7, \quad P(2050)_{\text{projected}} \approx 5.5 \times 10^7 \\
+P_{\text{US Catholic}}(2020) &\approx 5 \times 10^7, \quad P(2050)_{\text{projected}} \approx 4.7 \times 10^7 \\
+P_{\text{US Muslim}}(2020) &\approx 3.5 \times 10^6, \quad P(2050)_{\text{projected}} \approx 8 \times 10^6 \\
+P_{\text{US Hindu}}(2020) &\approx 2.5 \times 10^6, \quad P(2050)_{\text{projected}} \approx 5 \times 10^6 \\
+P_{\text{US Buddhist}}(2020) &\approx 2.5 \times 10^6, \quad P(2050)_{\text{projected}} \approx 4 \times 10^6 \\
+P_{\text{US Jewish}}(2020) &\approx 7.5 \times 10^6, \quad P(2050)_{\text{projected}} \approx 7 \times 10^6 \\
+P_{\text{US Nones}}(2020) &\approx 1 \times 10^8, \quad P(2050)_{\text{projected}} \approx 1.4 \times 10^8
+\end{aligned}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Load-Bearing Uncertainties for the Projection.*
+Seven open questions are identified as the uncertainties on which the forward projection most depends, a list that rests on the article's own judgement.
+
+$$
+\begin{aligned}
+\text{Uncertainty 1} &: \text{Whether Nones expansion continues to approximately 40\% by 2050 or plateaus at approximately 30-32\%} \\
+\text{Uncertainty 2} &: \text{Whether Hispanic religious-political realignment continues Republican shift or reverses} \\
+\text{Uncertainty 3} &: \text{Whether Muslim American institutional consolidation continues or faces backlash} \\
+\text{Uncertainty 4} &: \text{Whether Christian nationalism institutional consolidation continues or fragments} \\
+\text{Uncertainty 5} &: \text{Whether ongoing 2020s-2030s religious institutional decline continues or reverses} \\
+\text{Uncertainty 6} &: \text{Whether 2028-2050 elections continue current religious sorting or produce realignment} \\
+\text{Uncertainty 7} &: \text{Whether religious institutional response to climate crisis, technological transformation, and various ongoing challenges produces successor religious framework}
+\end{aligned}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Falsification Criteria for the Projection.*
+Seven observable thresholds on affiliation shares, adherent counts and vote shares are set by the article as the outcomes that would refute or require revision of its projection.
+
+$$
+\begin{aligned}
+\text{Criterion 1} &: \text{If Nones share reverses to approximately 20\% by 2030, forward projection is falsified} \\
+\text{Criterion 2} &: \text{If evangelical Protestant expansion exceeds 70 million by 2035, projection is falsified} \\
+\text{Criterion 3} &: \text{If Catholic aggregate exceeds 55 million by 2035, projection is falsified} \\
+\text{Criterion 4} &: \text{If 2028 white evangelical Democratic vote share exceeds 25\%, projection is falsified} \\
+\text{Criterion 5} &: \text{If Hispanic Republican vote share exceeds 60\% in 2028, projection is falsified upward} \\
+\text{Criterion 6} &: \text{If 2035 Muslim American population fails to reach 5 million, projection is falsified downward} \\
+\text{Criterion 7} &: \text{If 2028-2032 elections produce religious-political realignment exceeding 15-percentage-point shift, projection framework requires revision}
+\end{aligned}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Alternative Scenarios for Affiliation in 2050.*
+Central, accelerating, plateau, reversal and disruptive scenarios each assign the unaffiliated and Christian shares an assumed value for 2050, with the disruptive scenario left as a range.
+
+$$
+\begin{aligned}
+\text{Central projection scenario} &: f_{\text{Nones}}(2050) \approx 0.36, \quad f_{\text{Christian}}(2050) \approx 0.52 \\
+\text{Continued acceleration scenario} &: f_{\text{Nones}}(2050) \approx 0.45, \quad f_{\text{Christian}}(2050) \approx 0.42 \\
+\text{Plateau scenario} &: f_{\text{Nones}}(2050) \approx 0.32, \quad f_{\text{Christian}}(2050) \approx 0.57 \\
+\text{Reversal scenario (traditional revival)} &: f_{\text{Nones}}(2050) \approx 0.25, \quad f_{\text{Christian}}(2050) \approx 0.65 \\
+\text{Disruptive scenario (major crisis-driven realignment)} &: f_{\text{Nones}}(2050) \approx 0.30 \text{ to } 0.50 \text{ (high uncertainty)}
+\end{aligned}
+\tag{24}
+$$
+
+**Equation 25, Intergenerational Retention by Religious Tradition.**
+The share of those raised in each tradition who remain in it as adults is taken from the 2018 United States religion survey of the Pew Research Center.
+
+$$
+\begin{aligned}
+f_{\text{intergenerational Catholic retention, US, contemporary}} &\approx 0.60 \text{ (2018 Pew reconstruction)} \\
+f_{\text{intergenerational evangelical Protestant retention}} &\approx 0.65 \\
+f_{\text{intergenerational mainline Protestant retention}} &\approx 0.45 \\
+f_{\text{intergenerational Nones "retention"}} &\approx 0.65 \\
+f_{\text{intergenerational Jewish retention}} &\approx 0.75 \\
+f_{\text{intergenerational Muslim retention}} &\approx 0.77 \\
+f_{\text{intergenerational Hindu retention}} &\approx 0.80
+\end{aligned}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Methodology Counts for the Series.*
+Cumulative reference counts, the number of articles that followed the four-pass workflow and a lower bound on cross-references are stated as a self-description of the series.
+
+$$
+\begin{aligned}
+N_{\text{aggregate series primary references, cumulative}} &\approx 640 \\
+N_{\text{aggregate series book references, cumulative}} &\approx 950 \\
+N_{\text{aggregate series research references, cumulative}} &\approx 15 \\
+N_{\text{articles employing four-pass workflow (initial draft, equation density, reference density, publication review)}} &= 11 \\
+N_{\text{cross-references within series}} &\gtrsim 200
+\end{aligned}
+\tag{26}
+$$
+
+### Notation
+
+- $t$, a year or a span of years, identified by its subscript
+- $\Delta t$, the duration in years of a transformation window
+- $N$, a count of persons, institutions, events or items of the series, identified by its subscript
+- $f$, a fraction or share between zero and one, identified by its subscript, with the year of evaluation given by the vertical bar
+- $L$, a radio audience in listeners
+- $C$, a circulation or cumulative sales count of a publication
+- $P$, a membership, a cumulative fundraising amount in United States dollars, or a population or count of adherents, identified by its subscript
 
 ## References
 

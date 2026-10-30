@@ -1,0 +1,715 @@
+# Equation classification for A272. Read by `python3 _lib/equations.py`.
+
+caution = "Every figure is an approximate historical count, share or monetary amount as reported by the source the article names, a share is a fraction between zero and one rather than a percentage, and monetary amounts are nominal United States dollars unless the equation states otherwise."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Average Annual Immigration Under the Quota System, 1925 to 1929"
+gloss = "The mean yearly number of immigrants admitted to the United States under the national origins quotas in the five years before the Depression is a recorded figure."
+cite = ["book_ngai_2004", "book_king_2000", "book_fitzgerald_cook_martin_2014"]
+digest = "12174bb687b4160d"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Foreign-Born Share of the Population, 1920 to 1940"
+gloss = "The census share of the population born abroad fell at each count from 1920 to 1940 as restriction took hold."
+cite = ["book_ngai_2004", "book_king_2000", "book_fitzgerald_cook_martin_2014"]
+digest = "f02b732f49b986da"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Removals in the Mexican Repatriation and the Citizen Share"
+gloss = "The total of deportations and coerced departures from 1929 to 1936, and the share of those removed who were citizens born in the United States, follow the modern reconstruction of Balderrama and Rodriguez."
+cite = ["book_balderrama_rodriguez_2006", "book_hoffman_1974"]
+digest = "8190b5d272cd289c"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Mexican Catholic Parishes, 1929 and 1940"
+gloss = "Counts of Mexican Catholic parishes in the United States before and after the Repatriation are taken from the Official Catholic Directory."
+cite = []
+digest = "e7adc09d3ab0a879"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Protestant Denominational Contributions, 1928 and 1934"
+gloss = "Aggregate nominal giving to Protestant denominations before the crash and at the depth of the Depression is taken from the denominational reports of the Federal Council of Churches."
+cite = []
+digest = "4d91290a02d75775"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "National Unemployment Rate, 1929 to 1940"
+gloss = "The unemployment rate of the United States rose from about three per cent in 1929 to a peak near a quarter in 1933 and remained high in 1940, as recorded by the Bureau of Labor Statistics."
+cite = []
+digest = "b06c3b0d512ebc5c"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Black and Mexican American Unemployment at the Depression Peak"
+gloss = "Unemployment rates for Black and Mexican American workers around 1933 are taken from Bureau of Labor Statistics data and historical reconstruction, the second stated only as a lower bound."
+cite = []
+digest = "7af87cc6bcda20e2"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Democratic Vote Shares by Ethnoreligious Group, 1928 to 1936"
+gloss = "Shares of Catholic, Jewish, Northern African American and white Southern voters casting Democratic ballots before and after the New Deal realignment follow electoral reconstruction."
+cite = ["book_sundquist_1983", "book_andersen_1979", "book_milkis_1993"]
+digest = "1d09f6a3e1eab66a"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Electoral College Results, 1932 and 1936"
+gloss = "The electoral votes won by Roosevelt and by his Republican opponents in 1932 and 1936 are the certified results."
+cite = []
+digest = "1d84c26fb97a191c"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Circulation of The Catholic Worker"
+gloss = "The peak circulation of the newspaper around 1938 and its contemporary circulation are taken from the institutional records of the movement."
+cite = []
+digest = "605d01f078c56bce"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Catholic Worker Houses of Hospitality"
+gloss = "Counts of Catholic Worker houses of hospitality in 1936, in 1941 and at present record the growth of the movement."
+cite = []
+digest = "898b90d3e0a7ee7d"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Enrolment at Union Theological Seminary, 1930 to 1960"
+gloss = "Student enrolment at Union Theological Seminary in 1930, in 1945 and at its peak around 1960 is taken from institutional records."
+cite = []
+digest = "ead4221557881fb8"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Circulation of Christianity and Crisis and Printings of Niebuhr"
+gloss = "The peak circulation of the magazine around 1955 and a lower bound on cumulative printed copies of The Nature and Destiny of Man are taken from institutional records."
+cite = ["ref_christianity_and_crisis_1941"]
+digest = "062f1311ad916364"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Nation of Islam Temples and Membership, 1934 to 1975"
+gloss = "Counts of Nation of Islam temples at three dates and the peak membership around 1970 record the growth of the movement from its Detroit foundation."
+cite = ["book_clegg_1997"]
+digest = "3d87e20077da89a9"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Nation of Islam Business Assets and Landholding"
+gloss = "The aggregate nominal business assets and agricultural acreage of the Nation of Islam at their peak around 1974 are taken from institutional records."
+cite = []
+digest = "505f5274a539a788"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Peak Radio Audience of Father Coughlin"
+gloss = "The estimated weekly listenership of Coughlin's broadcasts at their height in 1934 and 1935 is a figure reported in the historical literature."
+cite = ["book_brinkley_1982", "book_warren_1996"]
+digest = "1dfa84b65f29cab3"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Reach of the Coughlin Organisations"
+gloss = "The peak circulation of Social Justice, the claimed membership of the National Union for Social Justice and the number of stations carrying Coughlin are taken from institutional records and historical reconstruction."
+cite = ["ref_social_justice_magazine", "book_brinkley_1982"]
+digest = "38f81d8dfec8c72f"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Distribution of Mit Brennender Sorge"
+gloss = "Lower bounds on the copies of the 1937 encyclical distributed in Germany and on the parishes that read it on Palm Sunday follow historical reconstruction."
+cite = ["ref_mit_brennender_sorge_1937"]
+digest = "ad43cab49a964a65"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Vote on the Columbus Platform, 1937"
+gloss = "The votes in favour, against and abstaining when the Central Conference of American Rabbis adopted the Columbus Platform are taken from institutional records."
+cite = ["ref_columbus_platform_1937"]
+digest = "d9b01a09c5300c88"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Membership of the Zionist Organization of America, 1933 and 1948"
+gloss = "Membership of the Zionist Organization of America before and after the Holocaust is taken from institutional records."
+cite = []
+digest = "024ae062ea88a9cd"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Tribal Votes on the Indian Reorganization Act"
+gloss = "The number of tribes that voted on the Indian Reorganization Act from 1934 to 1936, the number that adopted constitutions under it and the ratio of the two are taken from Bureau of Indian Affairs records."
+cite = ["ref_bia_reports_1933_1945"]
+digest = "5ac42fa48193f93b"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Native Landholding, 1934 and 1953"
+gloss = "Total acreage held by Native nations at the passage of the Indian Reorganization Act and two decades later records the end of the allotment-era decline."
+cite = []
+digest = "28032c9657135369"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Jewish Emigration from Germany and Austria, 1933 to 1939"
+gloss = "Counts of Jews who emigrated from Germany after 1933 and from Austria after the 1938 annexation are standard historical figures."
+cite = []
+digest = "3773ff764b2677f7"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Jewish Refugee Admissions to the United States, 1933 to 1945"
+gloss = "The cumulative number of Jewish refugees admitted and their share of all refugee admissions follow Immigration Bureau data and historical reconstruction."
+cite = ["book_wyman_1985", "book_feingold_1970", "book_breitman_kraut_1987"]
+digest = "3530dfa2c633f5d1"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Jewish Refugee Admissions by Country of Origin"
+gloss = "Admissions from Germany, Austria, Poland and Czechoslovakia over the refugee period follow the reconstruction of Immigration Service data."
+cite = []
+digest = "5304ff9fe1d83573"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Academic Refugees Placed in American Universities"
+gloss = "The number of displaced scholars placed in positions in the United States by the Emergency Committee in Aid of Displaced German Scholars is taken from institutional records."
+cite = ["book_fermi_1968"]
+digest = "b2a6e7e099652885"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Countries Raising Refugee Commitments at Evian"
+gloss = "Only the Dominican Republic made a substantial new commitment to admit refugees at the 1938 Evian Conference."
+cite = ["ref_evian_conference_1938", "book_wells_2008"]
+digest = "069ab6616c75cd99"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Destruction and Arrests in Kristallnacht"
+gloss = "Counts of synagogues destroyed, Jewish businesses damaged and Jews sent to concentration camps in the pogrom of November 1938 follow historical reconstruction."
+cite = []
+digest = "04f27abbc8dfa621"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "American Opinion on Kristallnacht and Refugee Admission"
+gloss = "The share of Americans disapproving of the pogrom in the Gallup poll of November 1938 and an upper bound on the share favouring more Jewish refugee admissions in polls of 1938 and 1939 are survey results."
+cite = []
+digest = "85941a6556b1eb89"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "German American Bund Membership and Organisation"
+gloss = "The peak membership of the Bund around 1938 and the numbers of its local units and youth camps are taken from institutional records."
+cite = ["book_bell_1973", "book_diamond_1969"]
+digest = "314dd2120bf6b63c"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Attendance at the Madison Square Garden Rally, 1939"
+gloss = "The attendance at the Bund rally of 20 February 1939 is a contemporary reported figure."
+cite = ["book_bell_1973", "book_diamond_1969"]
+digest = "55fb48047c2f9154"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Peak Membership of the Silver Legion"
+gloss = "The membership of Pelley's Silver Legion at its height around 1934 is a reported historical figure."
+cite = []
+digest = "acfc78d6339367cf"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "America First Committee Membership and Chapters"
+gloss = "The peak membership and number of chapters of the America First Committee in 1941 are taken from institutional records."
+cite = ["book_cole_1974", "book_doenecke_2000"]
+digest = "9068d48e0c069b85"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "American Military Service and Casualties in the Second World War"
+gloss = "Cumulative service, deaths and wounded among American forces in the Second World War are taken from War Department records."
+cite = []
+digest = "55827097c5b43c18"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Military Chaplains in the Second World War by Faith"
+gloss = "The cumulative number of chaplains and the Protestant, Catholic and Jewish shares among them are taken from War Department records."
+cite = []
+digest = "8d387f2a63421a74"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Founding Organisations of the United Service Organizations"
+gloss = "The United Service Organizations was formed in 1941 from six named welfare bodies, most of them religious."
+cite = ["ref_roosevelt_uso_letter_1941"]
+digest = "d50d4ee10aa45594"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Scale of United Service Organizations Operations"
+gloss = "The peak number of clubs, the cumulative volunteers and the cumulative service member visits during the war are taken from institutional records."
+cite = []
+digest = "8473d26abf6be0be"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Constant-Dollar Value of Wartime Service Fundraising"
+gloss = "The recorded nominal fundraising of 1941 to 1946 is restated in 2020 dollars with a price conversion whose index and base year the article does not state."
+cite = []
+digest = "c02d2f1066aeac60"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Faith Shares Among Service Organisation Volunteers"
+gloss = "The Protestant, Catholic and Jewish shares of wartime volunteers are reported in the institutional history of the organisation."
+cite = ["book_coffey_1991"]
+digest = "05dfaca819ab9504"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Civilian Public Service Participants by Denomination"
+gloss = "The number of conscientious objectors in Civilian Public Service and the shares from the historic peace churches are standard figures."
+cite = ["book_sibley_jacob_1952"]
+digest = "307cc7fc4d42326f"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Work Performed in Civilian Public Service"
+gloss = "The cumulative work-days of Civilian Public Service and their value at the prevailing wages of 1946 are taken from institutional records."
+cite = []
+digest = "2726f47a1a7e30bf"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Vote in Minersville School District v. Gobitis"
+gloss = "The Supreme Court upheld compulsory flag salute in 1940 by eight votes to one, with Justice Stone dissenting."
+cite = ["ref_minersville_v_gobitis_1940"]
+digest = "1849d8ed935dbb0f"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Violence and Prosecutions Against Jehovah's Witnesses, 1940 to 1943"
+gloss = "Counts of violent incidents, attacked Kingdom Halls and prosecutions of Witness children after Gobitis are taken from American Civil Liberties Union records."
+cite = []
+digest = "c22daaf10fb686c0"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Vote in West Virginia State Board of Education v. Barnette"
+gloss = "The Supreme Court overturned Gobitis in 1943 by six votes to three, about three years after the earlier decision."
+cite = ["ref_west_virginia_v_barnette_1943"]
+digest = "13502612d692eb5b"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Active Jehovah's Witness Publishers, 1940 to 1960"
+gloss = "Counts of active publishers in the United States at three dates are taken from Watch Tower Society records."
+cite = []
+digest = "c930df1bb6c22f93"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Scale of Japanese American Internment"
+gloss = "The number of Japanese Americans interned, the share of them who were citizens born in the United States and the number of War Relocation Authority camps are standard figures."
+cite = ["book_daniels_1993", "book_weglyn_1976"]
+digest = "84e8a06c0b5dd8be"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Peak Populations of Five Internment Camps"
+gloss = "Peak populations of Poston, Tule Lake, Gila River, Heart Mountain and Manzanar are taken from War Relocation Authority records."
+cite = []
+digest = "fc7724be0cfe1f9b"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Constant-Dollar Value of Internment Property Losses"
+gloss = "The estimated nominal property loss of 1942 follows the claims process and the Commission on Wartime Relocation and Internment of Civilians, and its restatement in 2020 dollars uses a price conversion the article does not state."
+cite = ["ref_cwric_1982"]
+digest = "e33c091127288644"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Aggregate Redress Under the Civil Liberties Act of 1988"
+gloss = "Payments of twenty thousand dollars to about eighty-two thousand surviving internees total about one and six tenths billion nominal dollars."
+cite = ["ref_civil_liberties_act_1988"]
+digest = "6e16b0e06653b3a7"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Wartime Closure of Buddhist Temples and Internment of Members"
+gloss = "Lower bounds on the Buddhist temples closed and on the share of Buddhist Churches of America members interned are taken from denominational records."
+cite = ["book_kashima_1977"]
+digest = "8a5e698f05d73a24"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Shinto Shrines on the Mainland and in Hawaii, 1940"
+gloss = "The number of Shinto shrines before the war, of order ten on the mainland and about forty in Hawaii, follows denominational and territorial records."
+cite = []
+digest = "a8caa65ef03095da"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Service and Unit Honours of the 100th Battalion and 442nd Regiment"
+gloss = "The cumulative strength, Presidential Unit Citations and Medals of Honor of the Japanese American combat units are recorded military figures."
+cite = []
+digest = "d7fdd60aa53932a5"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Casualties and Decorations of the 100th Battalion and 442nd Regiment"
+gloss = "Counts of killed, wounded and individual decorations of the Japanese American combat units are taken from Department of Defense records."
+cite = ["book_duus_2005", "book_sterner_2007", "book_asahina_2006"]
+digest = "306af5f8fa67f17c"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Filipino Military Service and Deaths in the Second World War"
+gloss = "Cumulative Filipino service under American command and Filipino military deaths follow historical reconstruction."
+cite = []
+digest = "9246a14611ac6b7e"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Filipino Veterans Equity Compensation Fund, 2009"
+gloss = "The total appropriation, the one-time payments to citizen and non-citizen veterans and the number of surviving claimants are statutory and institutional figures."
+cite = []
+digest = "46d74fe9d2d9d90a"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Catholic Share Among Filipino Service Members"
+gloss = "The Catholic share of Filipino service members in the Second World War reflects the Catholic majority of the Philippine population."
+cite = []
+digest = "198c3a7080bf016e"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Native American Military Service in the Second World War"
+gloss = "The number of Native Americans who served and the share of Native adult men in uniform are taken from War Department and Bureau of Indian Affairs records."
+cite = ["book_bernstein_1991", "book_townsend_2000"]
+digest = "153993632f2e26d8"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Code Talkers by Nation"
+gloss = "Counts of Navajo, Comanche, Choctaw and Meskwaki code talkers follow Department of Defense historical reconstruction."
+cite = ["book_meadows_2002", "book_aaseng_1992"]
+digest = "90d42c7dcc3f2c2d"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Native American Military Deaths and Relative Death Rate"
+gloss = "Native American military deaths and the ratio of the Native per capita military death rate to the general rate are taken from Bureau of Indian Affairs and War Department records."
+cite = []
+digest = "c0aeffac20567505"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Chinese American Military Service in the Second World War"
+gloss = "The number of Chinese Americans who served and the share of Chinese American adult men in uniform are taken from War Department records."
+cite = ["book_wong_2005", "book_chen_2015"]
+digest = "43fd475f548e7929"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Chinese Immigration Quota Under the Magnuson Act"
+gloss = "The Magnuson Act set an annual Chinese quota of one hundred and five against zero under exclusion, far below the per-country ceiling that followed the 1965 Act."
+cite = ["ref_magnuson_act_1943"]
+digest = "aec60253e6c1cda9"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Chinese American Population, 1940 to 1960"
+gloss = "The census Chinese American population at three counts records the postwar growth after repeal of exclusion."
+cite = []
+digest = "6ac995911ef4fd51"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Bracero Contracts and Workers, 1942 to 1964"
+gloss = "Cumulative contracts, the estimated number of distinct workers and the peak annual contracts of the Bracero Program are standard figures."
+cite = []
+digest = "9cee1019cd986415"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Distribution of Bracero Labour by State"
+gloss = "The shares of Bracero labour employed in California, Texas and Arizona with New Mexico are reported figures, with the remainder spread over other states."
+cite = []
+digest = "0a73b85a8b9fb8d9"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Bracero Minimum Hourly Wage, 1942 and 1964"
+gloss = "The minimum hourly wage specified for Bracero workers at the start and end of the programme follows the bilateral agreement between the United States and Mexico."
+cite = []
+digest = "175b8ca225c25ed6"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Sephardic Share of Jewish Refugee Admissions"
+gloss = "The cumulative Jewish refugee admissions and those from Sephardic source populations are taken from Immigration Service and Jewish Immigration Aid Society records."
+cite = ["book_ben_ur_2009", "book_weissbach_2005"]
+digest = "ae459942a37a5d08"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Wallenberg Rescues and War Refugee Board Funding"
+gloss = "The rescues attributed to Wallenberg in Budapest in 1944 and the nominal funds the War Refugee Board allocated to his work are taken from institutional records."
+cite = ["ref_war_refugee_board_1944"]
+digest = "25c096aba8b252be"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Admissions to the Fort Ontario Emergency Refugee Shelter"
+gloss = "The shelter at Oswego admitted nine hundred and eighty-two refugees from eighteen countries in August 1944, most of them Jewish."
+cite = ["book_erbelding_2018"]
+digest = "689ef82d05e1143a"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Rescue Expenditure of the Joint Distribution Committee, 1938 to 1945"
+gloss = "Cumulative nominal rescue and refugee spending by the American Jewish Joint Distribution Committee is taken from institutional records."
+cite = []
+digest = "0427bf789337fd78"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Aggregate American Jewish Rescue Funds, 1942 to 1945"
+gloss = "Total nominal rescue funds raised by American Jewish organisations after the Riegner disclosure are taken from institutional records."
+cite = []
+digest = "8cf95a647cc23a9c"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Affiliation to the National Association of Evangelicals"
+gloss = "Counts of affiliated denominations and their aggregate membership at founding, in 1970 and at present are taken from institutional records."
+cite = ["book_carpenter_1997"]
+digest = "fa86a7c2a50833cb"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Protestant Support for the United Nations, 1944 and 1945"
+gloss = "Shares of clergy and laity in Federal Council of Churches bodies supporting the formation of the United Nations come from institutional polling."
+cite = []
+digest = "a9d5ee2e91a96db7"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Buddhist Affiliation at Manzanar"
+gloss = "The number of Buddhists at Manzanar and their share of the internee population are taken from the denominational census of the War Relocation Authority."
+cite = ["book_williams_2019"]
+digest = "a72452704c680981"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Temples and Membership of the Buddhist Churches of America"
+gloss = "Counts of temples in 1945, in 1960 and at present, with the contemporary membership, are taken from institutional records."
+cite = []
+digest = "e98e178917fa2548"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Wartime Imprisonment of Nation of Islam Members"
+gloss = "The number of members imprisoned for draft resistance and the years of Elijah Muhammad's imprisonment are taken from Federal Bureau of Investigation and Bureau of Prisons records."
+cite = ["book_berg_2005_elijah"]
+digest = "4c1f9bc0eede7040"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Higher Education Under the Servicemen's Readjustment Act"
+gloss = "The number of veterans who used the higher education benefits of the GI Bill, the Servicemen's Readjustment Act of 1944, and the cumulative nominal federal spending are taken from Veterans Administration records."
+cite = ["ref_gi_bill_1944", "book_bennett_1996", "book_frydl_2009"]
+digest = "44460cd251d08acb"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Enrolment at Religious Colleges and Universities, 1940 and 1960"
+gloss = "Enrolment at religiously affiliated institutions of higher education is taken from records of the Office of Education."
+cite = []
+digest = "0ef819fa8a9cfca2"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Suburban Congregations Founded, 1945 to 1960"
+gloss = "Counts of new suburban Protestant churches, Catholic parishes and synagogues in the fifteen postwar years are taken from denominational records."
+cite = []
+digest = "4b4e0f6ae9d9eda2"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Casualties in the Race Riots of 1943"
+gloss = "Injured and dead in the Zoot Suit Riots and the Detroit and Harlem riots follow historical reconstruction."
+cite = ["book_alvarez_2008", "book_pagan_2003", "book_capeci_wilkerson_1991"]
+digest = "a869cabc54dbeb4f"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Threatened March on Washington and Executive Order 8802"
+gloss = "Randolph threatened a march of one hundred thousand people, and Executive Order 8802 followed about five months after his letter to Roosevelt."
+cite = ["ref_executive_order_8802_1941", "book_pfeffer_1990"]
+digest = "267452b68d8d339d"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Complaints Handled by the Fair Employment Practice Committee"
+gloss = "The complaints filed with the Fair Employment Practice Committee from 1941 to 1946 and those resolved through mediation are taken from institutional records."
+cite = []
+digest = "a37672682ab291a7"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Chapters and Membership of the Congress of Racial Equality"
+gloss = "Counts of chapters of the Congress of Racial Equality at three dates and its peak membership around 1964 are taken from institutional records."
+cite = ["book_meier_rudwick_1975"]
+digest = "c041261b6f2e7b4f"
+
+[[symbol]]
+tex = 'N'
+meaning = "a count of persons, institutions or events, identified by its subscript"
+
+[[symbol]]
+tex = 'f'
+meaning = "a fraction or share between zero and one, identified by its subscript, with the year of evaluation given by the vertical bar"
+
+[[symbol]]
+tex = 'P'
+meaning = "a membership, enrolment or population, identified by its subscript"
+
+[[symbol]]
+tex = 'C'
+meaning = "a monetary amount in United States dollars, or the circulation of a publication, identified by its subscript"
+
+[[symbol]]
+tex = 'V'
+meaning = "a count of votes, electoral or judicial"
+
+[[symbol]]
+tex = 'u'
+meaning = "an unemployment rate as a fraction of the labour force"
+
+[[symbol]]
+tex = 'L'
+meaning = "a radio audience in listeners"
+
+[[symbol]]
+tex = 'A'
+meaning = "an area of landholding in acres"
+
+[[symbol]]
+tex = 'T'
+meaning = "a cumulative count of work-days"
+
+[[symbol]]
+tex = 'Q'
+meaning = "an annual immigration quota"
+
+[[symbol]]
+tex = 'W'
+meaning = "a minimum hourly wage in nominal United States dollars"
+
+[[symbol]]
+tex = 'r'
+meaning = "a military death rate per head of population"
+
+[[symbol]]
+tex = 't'
+meaning = "a span of years"
+
+[[symbol]]
+tex = '\Delta t'
+meaning = "an interval in years or months between two events"

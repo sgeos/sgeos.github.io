@@ -21,25 +21,40 @@ The 1861-1865 Civil War produced the most significant religious crisis in Americ
 
 The war casualties were substantial across both sides,
 
-$$N_{\text{Civil War military dead}} \approx 6.2 \times 10^5, \quad N_{\text{Union dead}} \approx 3.6 \times 10^5, \quad N_{\text{Confederate dead}} \approx 2.6 \times 10^5$$
+$$
+N_{\text{Civil War military dead}} \approx 6.2 \times 10^5, \quad N_{\text{Union dead}} \approx 3.6 \times 10^5, \quad N_{\text{Confederate dead}} \approx 2.6 \times 10^5
+\tag{1}
+$$
 
 per modern reconstruction in [Hacker 2011][book_hacker_2011] A Census-Based Count of the Civil War Dead (revising the traditional 620,000 figure upward to approximately 750,000 in the reconstruction). The total exceeded American combat deaths in all subsequent wars combined through the end of the twentieth century. The relative demographic burden was higher for the Confederate side,
 
-$$P_{\text{Union states population, 1860}} \approx 2.2 \times 10^7, \quad P_{\text{Confederate states population, 1860}} \approx 9 \times 10^6$$
+$$
+P_{\text{Union states population, 1860}} \approx 2.2 \times 10^7, \quad P_{\text{Confederate states population, 1860}} \approx 9 \times 10^6
+\tag{2}
+$$
 
 producing per capita death rates approximately
 
-$$\frac{N_{\text{Union dead}}}{P_{\text{Union states}}}\bigg|_{1860} \approx 1.6 \times 10^{-2}, \quad \frac{N_{\text{Confederate dead}}}{P_{\text{Confederate states white}}}\bigg|_{1860} \approx 4.6 \times 10^{-2}$$
+$$
+\frac{N_{\text{Union dead}}}{P_{\text{Union states}}}\bigg|_{1860} \approx 1.6 \times 10^{-2}, \quad \frac{N_{\text{Confederate dead}}}{P_{\text{Confederate states white}}}\bigg|_{1860} \approx 4.6 \times 10^{-2}
+\tag{3}
+$$
 
 with the Confederate white population approximately 5.6 million (the enslaved 3.5 million produced the denominator distinction).
 
 Both Union and Confederate religious mobilization drew on evangelical Protestant frameworks treated in [A269][related_post_a269_second_awakening_and_reform]. The chaplaincy corps deployed across both armies numbered approximately
 
-$$N_{\text{Union chaplains, cumulative}} \approx 2.4 \times 10^3, \quad N_{\text{Confederate chaplains, cumulative}} \approx 6 \times 10^2$$
+$$
+N_{\text{Union chaplains, cumulative}} \approx 2.4 \times 10^3, \quad N_{\text{Confederate chaplains, cumulative}} \approx 6 \times 10^2
+\tag{4}
+$$
 
 with marked denominational representation across Methodist, Baptist, Presbyterian, Episcopal, Catholic, and Jewish traditions on both sides. Approximate denominational shares of the Union chaplaincy were
 
-$$f_{\text{Methodist Union chaplains}} \approx 0.38, \quad f_{\text{Presbyterian Union chaplains}} \approx 0.17, \quad f_{\text{Baptist Union chaplains}} \approx 0.12, \quad f_{\text{Catholic Union chaplains}} \approx 0.03$$
+$$
+f_{\text{Methodist Union chaplains}} \approx 0.38, \quad f_{\text{Presbyterian Union chaplains}} \approx 0.17, \quad f_{\text{Baptist Union chaplains}} \approx 0.12, \quad f_{\text{Catholic Union chaplains}} \approx 0.03
+\tag{5}
+$$
 
 with the first Jewish chaplain (Jacob Frankel, appointed 1862 under the 1862 statutory amendment permitting non-Christian chaplaincy) marking the first extensive federal religious pluralism precedent. The Confederate religious self-understanding, expressed through fast days proclaimed by Jefferson Davis [CSA Davis Fast Day Proclamations][ref_csa_davis_fast_day], Confederate national symbols including Deo Vindice (God Will Vindicate) motto, and Confederate Constitution's explicit invocation of Almighty God [CSA Constitution 1861][ref_csa_constitution_1861] (departing from the US Constitution's silence), asserted divine sanction of the Confederate cause. Confederate proslavery theology found sustained articulation in James Henley Thornwell's 1861 [Thornwell 1861][ref_thornwell_1861] Address to All the Churches of Jesus Christ Throughout the Earth and Southern Presbyterian denominational documents. The Union religious self-understanding, expressed through Lincoln proclamations of fast and thanksgiving days [Lincoln 1863 Thanksgiving Proclamation][ref_lincoln_1863_thanksgiving] and Union chaplaincy activity, similarly asserted divine sanction of the Union cause. The [Faust 1988][book_faust_1988] The Creation of Confederate Nationalism and [Wilson 1980][book_wilson_1980] Baptized in Blood treat the Confederate religious dimensions.
 
@@ -49,7 +64,10 @@ The theological problem of slavery that Noll characterizes as the crisis was the
 
 Lincoln's assassination on 14 April 1865 at Ford's Theatre by John Wilkes Booth, five days after Lee's surrender at Appomattox Court House and one week after Lincoln's Second Inaugural, produced the most significant national religious mourning event in American history to that date. The twenty-day funeral train procession from Washington through Philadelphia, New York, Cleveland, Chicago, and to Springfield, Illinois, with approximately
 
-$$P_{\text{viewers, Lincoln funeral procession, cumulative}} \approx 7 \times 10^6$$
+$$
+P_{\text{viewers, Lincoln funeral procession, cumulative}} \approx 7 \times 10^6
+\tag{6}
+$$
 
 viewers per contemporary and modern reconstruction, provided the ritualized national grieving that historians characterize as substantial consolidation of the "civil religion" concept that Robert Bellah would formalize a century later. Lincoln's transformation into martyr-figure combining Christ-typology (Good Friday assassination) with American national religious symbolism marked the most extensive individual apotheosis in American religious history. The [Peterson 1994][book_peterson_1994] Lincoln in American Memory and [Schwartz 2000][book_schwartz_2000] Abraham Lincoln and the Forge of National Memory provide the fullest treatments.
 
@@ -59,7 +77,10 @@ Sherman's Special Field Orders No. 15 of 16 January 1865 [Sherman 1865][ref_sher
 
 Approximately
 
-$$P_{\text{Black settlers, Sherman Field Order 15 lands, spring 1865}} \approx 4 \times 10^4, \quad A_{\text{acres settled under Field Order 15}} \approx 4 \times 10^5$$
+$$
+P_{\text{Black settlers, Sherman Field Order 15 lands, spring 1865}} \approx 4 \times 10^4, \quad A_{\text{acres settled under Field Order 15}} \approx 4 \times 10^5
+\tag{7}
+$$
 
 resided on the Sherman lands by the spring of 1865 before Andrew Johnson's August 1865 Amnesty Proclamation and subsequent land restoration orders returned the lands to former Confederate owners. The consequence was the effective dispossession of the initial freed settlers and the closure of the most significant realistic land-redistribution opportunity of the Reconstruction period. Thaddeus Stevens's 1865-1867 proposal for comprehensive Southern land redistribution (forty acres each to freedmen from confiscated former Confederate estates) failed to secure Congressional majority, foreclosing the alternative political-economic trajectory that historians have extensively examined.
 
@@ -71,17 +92,26 @@ The Black Codes enacted by former Confederate states in 1865-1866 under Presiden
 
 The Radical Republican Congressional response through the 1866 Civil Rights Act and Reconstruction Amendments superseded the initial Black Codes, though successor Jim Crow legislation would reproduce similar restrictions through facially-neutral formulations by the late nineteenth century. The Convict Leasing System, developed across the former Confederate states from the 1870s forward, provided the institutional continuation of coercive Black labor through the criminal justice system. State prison populations expanded considerably,
 
-$$P_{\text{Southern state prison population}}(1870) \approx 1 \times 10^4, \quad P_{\text{Southern state prison population}}(1900) \approx 6 \times 10^4, \quad f_{\text{Black among Southern state prisoners, c. 1890}} \approx 0.85$$
+$$
+P_{\text{Southern state prison population}}(1870) \approx 1 \times 10^4, \quad P_{\text{Southern state prison population}}(1900) \approx 6 \times 10^4, \quad f_{\text{Black among Southern state prisoners, c. 1890}} \approx 0.85
+\tag{8}
+$$
 
 with extraordinary racial disparity relative to general population shares. Convicts were leased to private employers (coal mines, turpentine and sawmill operations, railroad construction, plantation labor) under arrangements producing mortality rates approximately
 
-$$\mu_{\text{annual mortality, Southern convict lease camps, c. 1880s to 1890s}} \sim 0.10 \text{ to } 0.30$$
+$$
+\mu_{\text{annual mortality, Southern convict lease camps, c. 1880s to 1890s}} \sim 0.10 \text{ to } 0.30
+\tag{9}
+$$
 
 per state and operator, exceeding slavery-era mortality rates given the absence of slaveholder economic incentive to preserve human capital under short-term lease arrangements. The [Mancini 1996][book_mancini_1996] One Dies Get Another and [Oshinsky 1996][book_oshinsky_1996] Worse Than Slavery treat the convict leasing history.
 
 Sharecropping and tenant farming provided the dominant postbellum Southern agricultural labor system replacing slavery. Approximately
 
-$$f_{\text{Southern farmers under sharecropping or tenancy, 1900}} \approx 0.70, \quad f_{\text{Black Southern farmers landowning, 1900}} \approx 0.25$$
+$$
+f_{\text{Southern farmers under sharecropping or tenancy, 1900}} \approx 0.70, \quad f_{\text{Black Southern farmers landowning, 1900}} \approx 0.25
+\tag{10}
+$$
 
 per US Census agricultural data. The sharecropping system, structured through annual contracts under crop-lien laws providing creditor priority to merchant furnishers, produced considerable debt peonage across Black and poor white Southern farming populations. The [Ransom and Sutch 1977][book_ransom_sutch_1977] One Kind of Freedom and [Woodman 1995][book_woodman_1995] New South, New Law provide the detailed treatments. The religious dimensions of sharecropping and convict leasing included significant Black church pastoral engagement with coerced-labor populations and occasional Protestant clergy criticism of labor practices, though mainstream white Southern Protestant institutional endorsement of arrangements predominated.
 
@@ -89,33 +119,51 @@ per US Census agricultural data. The sharecropping system, structured through an
 
 Emancipation proceeded through stages culminating in the 1865 Thirteenth Amendment. The Emancipation Proclamation of 1 January 1863 freed the enslaved in Confederate-held territory (approximately 3.1 million of the approximately 3.9 million enslaved population), providing the war measure that shifted the Union cause from preservation-of-union to emancipation. The 13th Amendment ratified 6 December 1865 provided the formal constitutional abolition of slavery,
 
-$$\text{13th Amendment (1865)}, \quad \text{14th Amendment (1868)}, \quad \text{15th Amendment (1870)}$$
+$$
+\text{13th Amendment (1865)}, \quad \text{14th Amendment (1868)}, \quad \text{15th Amendment (1870)}
+\tag{11}
+$$
 
 with the 14th Amendment providing birthright citizenship and equal protection, and the 15th Amendment providing voting rights protection irrespective of race. The primary constitutional documents [US 13th Amendment 1865][ref_us_13th_amendment], [US 14th Amendment 1868][ref_us_14th_amendment], and [US 15th Amendment 1870][ref_us_15th_amendment] provide the texts. The parallel primary statutory documents include the [U.S. Senate 1866][ref_us_civil_rights_act_1866] and [Civil Rights Act 1875][ref_us_civil_rights_act_1875] providing the enumerated federal protections of civil equality. Subsequent Supreme Court interpretation narrowed the Reconstruction Amendments through the [Slaughterhouse Cases 83 U.S. 1873][ref_slaughter_house_1873], [Civil Rights Cases 109 1883][ref_civil_rights_cases_1883], and [Plessy v. Ferguson 1896][ref_plessy_1896] providing the jurisprudential path from Reconstruction promise to Jim Crow accommodation. The [Foner 1988][book_foner_1988] Reconstruction, [Foner 2019][book_foner_2019] The Second Founding, and [Kaczorowski 2005][book_kaczorowski_2005] The Politics of Judicial Interpretation provide the comprehensive scholarly treatments.
 
 The Freedmen's Bureau (Bureau of Refugees, Freedmen, and Abandoned Lands), established 3 March 1865 [US Freedmen's Bureau Act 1865][ref_freedmens_bureau_act] and continuing through 1872, provided the federal institutional support for the former enslaved population. Approximately
 
-$$N_{\text{Freedmen's Bureau schools, peak}} \approx 4 \times 10^3, \quad N_{\text{Freedmen students, peak}} \approx 2.5 \times 10^5$$
+$$
+N_{\text{Freedmen's Bureau schools, peak}} \approx 4 \times 10^3, \quad N_{\text{Freedmen students, peak}} \approx 2.5 \times 10^5
+\tag{12}
+$$
 
 operated under Bureau supervision combined with missionary society coordination. Federal appropriations for Bureau operations totaled approximately
 
-$$C_{\text{Freedmen's Bureau total appropriations, 1865 to 1872}} \approx 1.7 \times 10^7 \text{ US dollars nominal}$$
+$$
+C_{\text{Freedmen's Bureau total appropriations, 1865 to 1872}} \approx 1.7 \times 10^7 \text{ US dollars nominal}
+\tag{13}
+$$
 
 with the bulk of the expenditure directed to medical care, rations, and educational operations across the former Confederate states. The [Butchart 2010][book_butchart_2010] Schooling the Freed People treats the educational activity. The [Foner 1988][book_foner_1988] treatment covers the broader Bureau history. Commissioner Oliver Otis Howard's [Howard Freedmen's Bureau Annual Reports][ref_howard_freedmens_bureau_reports] provide the primary institutional documentation, and Howard's [Howard 1907][ref_howard_1907] Autobiography of Oliver Otis Howard supplies the retrospective institutional history.
 
 The formerly-enslaved population at Emancipation numbered approximately
 
-$$P_{\text{enslaved, US, 1860}} \approx 3.95 \times 10^6, \quad f_{\text{enslaved in Confederacy, 1860}} \approx 0.95, \quad P_{\text{free Black, US, 1860}} \approx 4.9 \times 10^5$$
+$$
+P_{\text{enslaved, US, 1860}} \approx 3.95 \times 10^6, \quad f_{\text{enslaved in Confederacy, 1860}} \approx 0.95, \quad P_{\text{free Black, US, 1860}} \approx 4.9 \times 10^5
+\tag{14}
+$$
 
 per the 1860 US Census (the last census under the slavery regime). The ratio of enslaved to free Black populations was approximately
 
-$$\frac{P_{\text{enslaved}}}{P_{\text{free Black}}}\bigg|_{1860} \approx 8.1$$
+$$
+\frac{P_{\text{enslaved}}}{P_{\text{free Black}}}\bigg|_{1860} \approx 8.1
+\tag{15}
+$$
 
 reflecting the overwhelming predominance of bondage in the antebellum African-descent population.
 
 Freedmen's Aid Societies, established by Northern denominational bodies including the American Missionary Association (Congregationalist), Baptist Home Mission Society, Methodist Episcopal Freedmen's Aid Society, Presbyterian Committee on Missions for Freedmen, and Quaker Friends' Freedmen's Association, provided the missionary infrastructure that would shape postbellum African American education. The Black colleges and universities founded through this missionary activity including Fisk (1866), Howard (1867), Morehouse (1867), Spelman (1881), Tuskegee (1881, under Booker T. Washington), Hampton (1868), and others provided the institutional foundation for postbellum Black higher education. The institutional expansion produced approximately
 
-$$N_{\text{Historically Black Colleges and Universities, US, 1900}} \approx 90, \quad N_{\text{HBCU, US, contemporary}} \approx 100$$
+$$
+N_{\text{Historically Black Colleges and Universities, US, 1900}} \approx 90, \quad N_{\text{HBCU, US, contemporary}} \approx 100
+\tag{16}
+$$
 
 with the majority established through the 1865 to 1900 window under Freedmen's Aid Society and Freedmen's Bureau coordination. The [Anderson 1988][book_anderson_1988] The Education of Blacks in the South treats the institutional development. The primary sources include Booker T. Washington's 1895 [Atlanta Compromise Address][ref_washington_1895_atlanta] and 1901 [Up from Slavery][ref_washington_1901_up_from_slavery], W. E. B. Du Bois's 1903 [The Souls of Black Folk][ref_dubois_1903_souls] and 1899 [The Philadelphia Negro][ref_dubois_1899_philadelphia_negro], and Ida B. Wells's 1892 [Southern Horrors][ref_wells_1892_southern_horrors] and 1895 [A Red Record][ref_wells_1895_red_record] providing the contemporary theological, sociological, and journalistic analytical frameworks for postbellum African American religious, educational, and civic life.
 
@@ -125,31 +173,46 @@ The postbellum period produced substantial expansion of the Black church denomin
 
 AME Church expansion into the postbellum South was marked. The denomination grew from approximately
 
-$$P_{\text{AME}}(1860) \approx 2 \times 10^4, \quad P_{\text{AME}}(1880) \approx 4 \times 10^5, \quad P_{\text{AME}}(1900) \approx 6.5 \times 10^5$$
+$$
+P_{\text{AME}}(1860) \approx 2 \times 10^4, \quad P_{\text{AME}}(1880) \approx 4 \times 10^5, \quad P_{\text{AME}}(1900) \approx 6.5 \times 10^5
+\tag{17}
+$$
 
 with the vast majority of the postbellum growth coming from former Confederate states. Daniel Payne's leadership through 1893, subsequent AME bishops, and the denominational institutional infrastructure treated in [A269][related_post_a269_second_awakening_and_reform] provided the coordination. Primary sources include Payne's 1888 [Payne 1888][ref_payne_1888] Recollections of Seventy Years autobiography, Payne's 1891 [Payne and Smith 1891][ref_payne_1891] History of the African Methodist Episcopal Church, and the AME [Christian Recorder][ref_christian_recorder] denominational newspaper (founded 1852 as the longest continuously-published Black-controlled newspaper in America).
 
 AME Zion Church expansion similarly accelerated. The denomination reached approximately
 
-$$P_{\text{AME Zion}}(1900) \approx 5.5 \times 10^5$$
+$$
+P_{\text{AME Zion}}(1900) \approx 5.5 \times 10^5
+\tag{18}
+$$
 
 with extensive concentration in North Carolina, Alabama, and other Southern states.
 
 The Colored Methodist Episcopal Church (renamed Christian Methodist Episcopal Church in 1954), organized 1870 at Jackson, Tennessee as the Black Methodist Episcopal Church South withdrawal producing the separate CME denomination, provided the third major Black Methodist denomination. The CME reached approximately
 
-$$P_{\text{CME}}(1900) \approx 2 \times 10^5$$
+$$
+P_{\text{CME}}(1900) \approx 2 \times 10^5
+\tag{19}
+$$
 
 by 1900. The [Lakey 1985][book_lakey_1985] The History of the CME Church treats the formation.
 
 The National Baptist Convention, formally organized 1895 at Atlanta as the consolidation of previously fragmented Black Baptist conventions, provided the largest Black denominational formation of the postbellum period. The Convention reached approximately
 
-$$P_{\text{National Baptist Convention}}(1900) \approx 1.6 \times 10^6$$
+$$
+P_{\text{National Baptist Convention}}(1900) \approx 1.6 \times 10^6
+\tag{20}
+$$
 
 representing the largest Black denomination in America and exceeding the combined AME and AME Zion populations. Subsequent splits produced the National Baptist Convention of America (1915) and Progressive National Baptist Convention (1961) treated in later articles. The [Washington 1985][book_washington_1985] Frustrated Fellowship (already cited in A269) treats the institutional history.
 
 Aggregated Black denominational membership by 1900 approached approximately
 
-$$P_{\text{Black denominational membership, US, 1900}} \approx 3 \times 10^6, \quad f_{\text{African-descent US church membership Black-denominational}}\bigg|_{1900} \approx 0.75$$
+$$
+P_{\text{Black denominational membership, US, 1900}} \approx 3 \times 10^6, \quad f_{\text{African-descent US church membership Black-denominational}}\bigg|_{1900} \approx 0.75
+\tag{21}
+$$
 
 with the remainder distributed across mixed-race denominations (predominantly Methodist Episcopal and Baptist bodies retaining Black membership after the denominational splits) and Catholic, Episcopal, and other bodies.
 
@@ -157,18 +220,24 @@ with the remainder distributed across mixed-race denominations (predominantly Me
 
 Reconstruction proceeded through stages,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Lincoln plan} &: 1863\text{-}1865 \\
 \text{Presidential Reconstruction (Johnson)} &: 1865\text{-}1867 \\
 \text{Congressional Reconstruction} &: 1867\text{-}1877 \\
 \text{Compromise of 1877} &: \text{end of Reconstruction}
-\end{aligned}$$
+\end{aligned}
+\tag{22}
+$$
 
 before terminating with the Compromise of 1877. The [Foner 1988][book_foner_1988] Reconstruction remains the standard modern treatment. The religious dimensions produced sizable Black church political mobilization treated above, Republican Party institutional support in Southern states, and Northern religious oversight of Southern political-religious reconstruction.
 
 The first-wave Ku Klux Klan, organized 1866 at Pulaski, Tennessee under Confederate veterans including Nathan Bedford Forrest as first Grand Wizard, provided the paramilitary organization that would oppose Reconstruction through the violent intimidation of Black voters, Republican officeholders, and Northern missionaries. Klan-associated killings during the peak Reconstruction period totaled approximately
 
-$$N_{\text{Klan and Klan-associated killings, US, 1866 to 1876}} \gtrsim 3 \times 10^3$$
+$$
+N_{\text{Klan and Klan-associated killings, US, 1866 to 1876}} \gtrsim 3 \times 10^3
+\tag{23}
+$$
 
 per the modern reconstruction ([Parsons 2015][book_parsons_2015]) drawing on the primary [Congressional Klan Report 1872][ref_congressional_klan_report_1872] thirteen-volume Joint Select Committee on the Condition of Affairs in the Late Insurrectionary States report. The Klan religious dimensions combined ritualized Protestant symbolism with racist ideology and defense of the antebellum Southern social order. The [Trelease et al. 1971][book_trelease_1971] White Terror and [Parsons 2015][book_parsons_2015] Ku-Klux provide the principal treatments.
 
@@ -176,11 +245,17 @@ The 1870 and 1871 Enforcement Acts [Enforcement Act 1870][ref_us_enforcement_act
 
 Redemption, the process of white Democratic recapture of Southern state governments from Republican Reconstruction governments, proceeded through the 1869-1877 period producing the end of Reconstruction. Federal troop presence in the former Confederate states declined across the Reconstruction period,
 
-$$N_{\text{federal troops, former Confederate states}}(1868) \approx 2 \times 10^4, \quad N_{\text{federal troops, former Confederate states}}(1876) \approx 3 \times 10^3, \quad N_{\text{federal troops, former Confederate states}}(1878) \approx 0$$
+$$
+N_{\text{federal troops, former Confederate states}}(1868) \approx 2 \times 10^4, \quad N_{\text{federal troops, former Confederate states}}(1876) \approx 3 \times 10^3, \quad N_{\text{federal troops, former Confederate states}}(1878) \approx 0
+\tag{24}
+$$
 
 per War Department returns. The 1876 Hayes-Tilden presidential election produced disputed electoral counts,
 
-$$V_{\text{Tilden popular}} \approx 4.29 \times 10^6, \quad V_{\text{Hayes popular}} \approx 4.03 \times 10^6, \quad V_{\text{Hayes electoral}} = 185, \quad V_{\text{Tilden electoral}} = 184$$
+$$
+V_{\text{Tilden popular}} \approx 4.29 \times 10^6, \quad V_{\text{Hayes popular}} \approx 4.03 \times 10^6, \quad V_{\text{Hayes electoral}} = 185, \quad V_{\text{Tilden electoral}} = 184
+\tag{25}
+$$
 
 with the one-vote electoral margin produced through the Electoral Commission resolution of disputed returns from Florida, Louisiana, South Carolina, and Oregon.
 
@@ -190,14 +265,17 @@ The 1877 Compromise resolving the disputed 1876 Hayes-Tilden presidential electi
 
 Race massacres punctuated the Reconstruction and post-Reconstruction periods, providing the violent instrument of white supremacist restoration. Major documented episodes included
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Memphis massacre} &: 1866, \quad N_{\text{Black dead}} \approx 46 \\
 \text{New Orleans massacre} &: 1866, \quad N_{\text{Black dead}} \approx 34 \\
 \text{Colfax massacre} &: 1873, \quad N_{\text{Black dead}} \approx 60 \text{ to } 150 \\
 \text{Hamburg massacre} &: 1876, \quad N_{\text{Black dead}} \approx 6 \\
 \text{Danville riot} &: 1883, \quad N_{\text{Black dead}} \approx 4 \\
 \text{Wilmington coup} &: 1898, \quad N_{\text{Black dead}} \approx 60 \text{ to } 300
-\end{aligned}$$
+\end{aligned}
+\tag{26}
+$$
 
 per modern historical reconstruction. The Colfax massacre of 13 April 1873 at Colfax, Grant Parish, Louisiana produced the most pronounced single-day death toll of the Reconstruction period and precipitated the [United States v. Cruikshank 1876][ref_us_v_cruikshank_1876] Supreme Court case that eviscerated federal enforcement authority under the Enforcement Acts. The [Lane 2008][book_lane_2008] The Day Freedom Died provides the Colfax comprehensive treatment.
 
@@ -205,13 +283,19 @@ The Wilmington coup of 10 November 1898 at Wilmington, North Carolina provided t
 
 Systematic Black disenfranchisement across the former Confederate states proceeded through the late nineteenth and early twentieth centuries through state constitutional revisions and legislation combining poll taxes, literacy tests, grandfather clauses, white primary systems, and residence requirements. The 1890 [The Mississippi Constitution 1890][ref_mississippi_constitution_1890] provided the model with extensive literacy and understanding clauses, subsequently emulated by South Carolina 1895, Louisiana 1898, Alabama 1901, Virginia 1902, and Texas 1902. The Louisiana 1898 [Louisiana Constitution 1898][ref_louisiana_constitution_1898] contributed the grandfather clause exempting from literacy and property requirements those whose ancestors had voted before 1867, exempting white but not Black voters. Registration effects were dramatic,
 
-$$P_{\text{registered Black voters, Louisiana}}(1896) \approx 1.3 \times 10^5, \quad P_{\text{registered Black voters, Louisiana}}(1904) \approx 1.3 \times 10^3$$
+$$
+P_{\text{registered Black voters, Louisiana}}(1896) \approx 1.3 \times 10^5, \quad P_{\text{registered Black voters, Louisiana}}(1904) \approx 1.3 \times 10^3
+\tag{27}
+$$
 
 representing approximately 99% reduction across the eight-year disenfranchisement implementation window. Similar disenfranchisement patterns emerged across the Southern states through the same period. The [Kousser 1974][book_kousser_1974] The Shaping of Southern Politics provides the comprehensive quantitative treatment.
 
 Lynching as extra-legal racial terror escalated through the late nineteenth century, with documented lynchings totaling
 
-$$N_{\text{documented lynchings, US, 1882 to 1900}} \approx 3.2 \times 10^3, \quad f_{\text{Black among lynch victims, US, 1882 to 1900}} \approx 0.72$$
+$$
+N_{\text{documented lynchings, US, 1882 to 1900}} \approx 3.2 \times 10^3, \quad f_{\text{Black among lynch victims, US, 1882 to 1900}} \approx 0.72
+\tag{28}
+$$
 
 per Tuskegee Institute records maintained by Monroe Work through the early twentieth century. The religious dimensions of lynching included considerable white Protestant clergy participation, ritualized elements resembling religious sacrifice practices per James Cone analysis in [Cone 2011][book_cone_2011] The Cross and the Lynching Tree, and Ida B. Wells's contemporaneous documentation and analytical treatment in [Wells 1892][ref_wells_1892_southern_horrors] and [Wells 1895][ref_wells_1895_red_record].
 
@@ -219,7 +303,10 @@ per Tuskegee Institute records maintained by Monroe Work through the early twent
 
 The Homestead Act of 20 May 1862 [Homestead Act 1862 1862][ref_us_homestead_act_1862], enacted during the Civil War with significant Republican support and Southern absence from Congress, provided the federal legal framework transferring approximately
 
-$$A_{\text{Homestead Act patents issued, 1862 to 1934}} \approx 2.7 \times 10^8 \text{ acres}, \quad N_{\text{Homestead patents}} \approx 1.6 \times 10^6$$
+$$
+A_{\text{Homestead Act patents issued, 1862 to 1934}} \approx 2.7 \times 10^8 \text{ acres}, \quad N_{\text{Homestead patents}} \approx 1.6 \times 10^6
+\tag{29}
+$$
 
 from federal to individual ownership, producing what historians have characterized as the largest single legal land redistribution in American history. The [Gates 1968][book_gates_1968] History of Public Land Law Development and [Edwards 2009][book_edwards_2009] Frontier Women and Their Art provide the fullest treatments.
 
@@ -227,7 +314,10 @@ The Homestead Act's ethnoreligious effects were substantial. The 160-acre allotm
 
 The Homestead Act's exclusions were extensive. Black Americans, though nominally eligible after the 1866 Southern Homestead Act, faced sizable practical barriers including limited access to quality lands (Southern Homestead lands were submarginal), credit access limitations, and violent white resistance. Approximate Black homesteading share was
 
-$$f_{\text{Black homesteaders among total Homestead patents, cumulative}} \lesssim 0.02$$
+$$
+f_{\text{Black homesteaders among total Homestead patents, cumulative}} \lesssim 0.02
+\tag{30}
+$$
 
 per modern reconstruction, below the proportion of Black population in Southern states. Native Americans were excluded from the 1862 Act (Native homesteading permitted only after 1875 amendment for those who had abandoned tribal affiliation), and the Homestead Act's operation depended on the prior military and treaty dispossession of Native lands. Chinese and other Asian immigrants were ineligible for naturalization per the 1870 amended Naturalization Act (restricting naturalization to "free white persons" and "persons of African descent"), excluding them from Homestead patents requiring citizenship or declaration of intent.
 
@@ -237,31 +327,46 @@ Chinese Exclusion Act of 6 May 1882 [Chinese Exclusion Act 1882 1882][ref_us_chi
 
 The 1882 Chinese Exclusion Act suspended Chinese laborer immigration for ten years, prohibited Chinese naturalization, and required existing Chinese residents to obtain reentry certificates. Amendments extended and expanded the exclusion,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Chinese Exclusion Act} &: 1882 \\
 \text{Scott Act} &: 1888 \\
 \text{Geary Act} &: 1892 \\
 \text{Chinese Exclusion permanent} &: 1902 \\
 \text{Chinese Exclusion repeal} &: 1943
-\end{aligned}$$
+\end{aligned}
+\tag{31}
+$$
 
 producing the sixty-one-year exclusion period. Primary statutory documents include the [Scott Act 1888][ref_scott_act_1888] and [Geary Act 1892][ref_geary_act_1892] providing the exclusion extensions and enforcement provisions. Landmark Supreme Court cases upholding the exclusion regime included the [Chae Chan Ping v. 1889][ref_chae_chan_ping_1889] (upholding the Scott Act's abrogation of reentry certificates), [Fong Yue Ting v. 1893][ref_fong_yue_ting_1893] (upholding the Geary Act's registration provisions and summary deportation authority), and [United States v. Wong 1898][ref_wong_kim_ark_1898] (establishing the Fourteenth Amendment birthright citizenship of US-born Chinese Americans despite parental non-eligibility for naturalization). The Chinese American population declined during the exclusion period,
 
-$$P_{\text{Chinese, US}}(1880) \approx 1.05 \times 10^5, \quad P_{\text{Chinese, US}}(1900) \approx 8.9 \times 10^4, \quad P_{\text{Chinese, US}}(1920) \approx 6.2 \times 10^4$$
+$$
+P_{\text{Chinese, US}}(1880) \approx 1.05 \times 10^5, \quad P_{\text{Chinese, US}}(1900) \approx 8.9 \times 10^4, \quad P_{\text{Chinese, US}}(1920) \approx 6.2 \times 10^4
+\tag{32}
+$$
 
 as existing residents aged and died without replacement immigration or family formation opportunities. The Chinese sex ratio at entry to the exclusion period was highly skewed,
 
-$$\frac{P_{\text{Chinese male}}}{P_{\text{Chinese female}}}\bigg|_{1880} \approx 21, \quad \frac{P_{\text{Chinese male}}}{P_{\text{Chinese female}}}\bigg|_{1900} \approx 19$$
+$$
+\frac{P_{\text{Chinese male}}}{P_{\text{Chinese female}}}\bigg|_{1880} \approx 21, \quad \frac{P_{\text{Chinese male}}}{P_{\text{Chinese female}}}\bigg|_{1900} \approx 19
+\tag{33}
+$$
 
 producing the limited family formation opportunities that exclusion policy compounded through prevention of spousal migration.
 
 The Chinese share of the California population had risen before the exclusion,
 
-$$f_{\text{Chinese in California population}}\bigg|_{1880} \approx 0.09, \quad f_{\text{Chinese in San Francisco population}}\bigg|_{1880} \approx 0.10$$
+$$
+f_{\text{Chinese in California population}}\bigg|_{1880} \approx 0.09, \quad f_{\text{Chinese in San Francisco population}}\bigg|_{1880} \approx 0.10
+\tag{34}
+$$
 
 producing the demographic conditions that anti-Chinese labor mobilization treated as threat. Chinese labor participation in the 1863 to 1869 transcontinental railroad construction had reached approximately
 
-$$f_{\text{Chinese share, Central Pacific Railroad construction workforce, peak}} \approx 0.90$$
+$$
+f_{\text{Chinese share, Central Pacific Railroad construction workforce, peak}} \approx 0.90
+\tag{35}
+$$
 
 with approximately 15,000 to 20,000 Chinese workers deployed at peak construction.
 
@@ -271,11 +376,17 @@ The religious dimensions of Chinese Exclusion included considerable Protestant m
 
 Scandinavian Lutheran migration accelerated in the postbellum period, with Norwegian, Swedish, and Danish arrivals totaling approximately
 
-$$N_{\text{Scandinavian arrivals, US, 1865 to 1900}} \approx 1.2 \times 10^6$$
+$$
+N_{\text{Scandinavian arrivals, US, 1865 to 1900}} \approx 1.2 \times 10^6
+\tag{36}
+$$
 
 producing substantial expansion of the Midwestern Lutheran presence documented in [A269][related_post_a269_second_awakening_and_reform]. The national composition of that stream was approximately
 
-$$N_{\text{Norwegian arrivals, 1865 to 1900}} \approx 5 \times 10^5, \quad N_{\text{Swedish arrivals, 1865 to 1900}} \approx 6 \times 10^5, \quad N_{\text{Danish arrivals, 1865 to 1900}} \approx 1.5 \times 10^5$$
+$$
+N_{\text{Norwegian arrivals, 1865 to 1900}} \approx 5 \times 10^5, \quad N_{\text{Swedish arrivals, 1865 to 1900}} \approx 6 \times 10^5, \quad N_{\text{Danish arrivals, 1865 to 1900}} \approx 1.5 \times 10^5
+\tag{37}
+$$
 
 per US Immigration Commission and consular records. The [Lovoll 1984][book_lovoll_1984] The Promise of America (already cited in A269), [Ostergren 1988][book_ostergren_1988] A Community Transplanted (already cited), [Nelson 1980][book_nelson_1980] The Lutheran Church Among Norwegian-Americans, and [Barton 1994][book_barton_1994] A Folk Divided (already cited) provide the detailed treatments.
 
@@ -283,7 +394,10 @@ Norwegian Lutheran institutional consolidation produced multiple competing synod
 
 Swedish Augustana Synod, formed 1860 at Clinton, Wisconsin, provided the dominant Swedish American Lutheran denomination through the postbellum decades. Augustana College (founded 1860, subsequently moved to Rock Island, Illinois in 1875) provided the denominational educational infrastructure. The denomination reached approximately
 
-$$P_{\text{Augustana Synod}}(1900) \approx 1.7 \times 10^5$$
+$$
+P_{\text{Augustana Synod}}(1900) \approx 1.7 \times 10^5
+\tag{38}
+$$
 
 by 1900. The [Hasselmo 1976][book_hasselmo_1976] Amerikasvenska treats the Swedish American formation.
 
@@ -291,7 +405,10 @@ Danish Lutheran migration produced two competing synods reflecting the Grundtvig
 
 Aggregated Scandinavian Lutheran membership approached approximately
 
-$$P_{\text{Scandinavian Lutheran, US}}(1900) \approx 4 \times 10^5, \quad P_{\text{Scandinavian Lutheran, US}}(1930) \approx 1.2 \times 10^6$$
+$$
+P_{\text{Scandinavian Lutheran, US}}(1900) \approx 4 \times 10^5, \quad P_{\text{Scandinavian Lutheran, US}}(1930) \approx 1.2 \times 10^6
+\tag{39}
+$$
 
 with the concentration in the upper Midwest region (Minnesota, Wisconsin, Iowa, the Dakotas) producing what historians have termed the "Scandinavian belt" of American religious geography.
 
@@ -301,15 +418,24 @@ Italian migration to the United States began in the 1880s and would accelerate t
 
 Italian arrivals through 1900 totaled approximately
 
-$$N_{\text{Italian arrivals, US, 1880 to 1900}} \approx 1 \times 10^6, \quad N_{\text{Italian arrivals, US, 1900 to 1914}} \approx 3 \times 10^6$$
+$$
+N_{\text{Italian arrivals, US, 1880 to 1900}} \approx 1 \times 10^6, \quad N_{\text{Italian arrivals, US, 1900 to 1914}} \approx 3 \times 10^6
+\tag{40}
+$$
 
 with marked subsequent acceleration through 1924 treated in article six. Southern Italian regional composition dominated,
 
-$$f_{\text{southern Italian in US Italian population, c. 1900}} \approx 0.80$$
+$$
+f_{\text{southern Italian in US Italian population, c. 1900}} \approx 0.80
+\tag{41}
+$$
 
 per Immigration Commission origin data. Italian return migration to Italy was extensive across the period,
 
-$$f_{\text{Italian return migration rate, 1880 to 1914}} \approx 0.5$$
+$$
+f_{\text{Italian return migration rate, 1880 to 1914}} \approx 0.5
+\tag{42}
+$$
 
 producing what historians characterize as the ritorno pattern in which approximately half of Italian arrivals returned to Italy, higher than Irish or Jewish return rates and reflecting the Italian labor-migration character of the initial wave. The overwhelming majority came from the southern Italian regions including Sicily, Calabria, Campania, and Puglia, producing the southern Italian character of American Italian populations that would shape American Catholic and broader American religious life.
 
@@ -325,11 +451,17 @@ Eastern European Jewish migration to the United States began in the 1881 afterma
 
 Eastern European Jewish arrivals through 1900 totaled approximately
 
-$$N_{\text{Eastern European Jewish arrivals, US, 1881 to 1900}} \approx 6 \times 10^5$$
+$$
+N_{\text{Eastern European Jewish arrivals, US, 1881 to 1900}} \approx 6 \times 10^5
+\tag{43}
+$$
 
 transforming the American Jewish population that had previously been German-descent Reform Jewish per [A269][related_post_a269_second_awakening_and_reform]. The total American Jewish population grew from approximately
 
-$$P_{\text{Jewish, US}}(1880) \approx 2.5 \times 10^5, \quad P_{\text{Jewish, US}}(1900) \approx 1 \times 10^6, \quad P_{\text{Jewish, US}}(1924) \approx 4 \times 10^6$$
+$$
+P_{\text{Jewish, US}}(1880) \approx 2.5 \times 10^5, \quad P_{\text{Jewish, US}}(1900) \approx 1 \times 10^6, \quad P_{\text{Jewish, US}}(1924) \approx 4 \times 10^6
+\tag{44}
+$$
 
 through the initial Eastern European wave and continued 1900-1924 acceleration treated in article six.
 
@@ -337,13 +469,19 @@ The religious composition of the Eastern European Jewish immigration was Orthodo
 
 Yiddish language, culture, and religious practice provided the defining feature of Eastern European Jewish American communities through the first half of the twentieth century. The Yiddish press including Forverts (Forward, founded 1897 under Abraham Cahan) provided the broadest circulation Yiddish-language newspaper. Yiddish-language newspaper circulation reached approximately
 
-$$C_{\text{Forverts daily circulation, peak c. 1920s}} \approx 2.75 \times 10^5, \quad C_{\text{Yiddish daily press aggregate, peak c. 1915}} \approx 5 \times 10^5$$
+$$
+C_{\text{Forverts daily circulation, peak c. 1920s}} \approx 2.75 \times 10^5, \quad C_{\text{Yiddish daily press aggregate, peak c. 1915}} \approx 5 \times 10^5
+\tag{45}
+$$
 
 representing the largest non-English language press in American history through the pre-Spanish-language accelerator period treated in later articles. Yiddish theater at New York's Lower East Side produced appreciable American Jewish cultural formation. The [Michels 2005][book_michels_2005] A Fire in Their Hearts and [Kessner 1977][book_kessner_1977] The Golden Door provide the treatments. Primary literary and biographical sources include Abraham Cahan's 1917 [Cahan 1917][ref_cahan_1917] The Rise of David Levinsky (the novel of Eastern European Jewish American upward mobility), Emma Lazarus's 1883 [Lazarus 1883][ref_lazarus_1883] The New Colossus (inscribed on the Statue of Liberty pedestal 1903), Israel Zangwill's 1908 [Zangwill 1908][ref_zangwill_1908] The Melting Pot (providing the melting-pot metaphor to American discourse), Mary Antin's 1912 [Antin 1912][ref_antin_1912] The Promised City, and Isaac Mayer Wise's 1901 [Wise 1901][ref_wise_1901] Reminiscences.
 
 Lower East Side, the New York City neighborhood serving as the primary settlement destination for Eastern European Jewish arrivals, reached approximately
 
-$$P_{\text{Lower East Side Jewish population, peak c. 1910}} \approx 5 \times 10^5$$
+$$
+P_{\text{Lower East Side Jewish population, peak c. 1910}} \approx 5 \times 10^5
+\tag{46}
+$$
 
 with the density approaching approximately five hundred thousand persons per square mile making it the most densely populated urban area in the world at that date. The Jewish neighborhood formation would disperse through the twentieth century as generations relocated to outer boroughs and suburbs.
 
@@ -353,17 +491,26 @@ Japanese migration to the United States began in the 1880s under the Meiji Resto
 
 Japanese arrivals through 1900 totaled approximately
 
-$$N_{\text{Japanese arrivals, US mainland, 1885 to 1900}} \approx 4.8 \times 10^4, \quad N_{\text{Japanese arrivals, Hawaii, 1885 to 1900}} \approx 6.5 \times 10^4$$
+$$
+N_{\text{Japanese arrivals, US mainland, 1885 to 1900}} \approx 4.8 \times 10^4, \quad N_{\text{Japanese arrivals, Hawaii, 1885 to 1900}} \approx 6.5 \times 10^4
+\tag{47}
+$$
 
 concentrated in Hawaii (which the United States would annex in 1898) and the California and Pacific Northwest regions of the continental United States. Total Japanese American population by 1900 reached approximately
 
-$$P_{\text{Japanese, US mainland}}(1900) \approx 2.5 \times 10^4, \quad P_{\text{Japanese, Hawaii}}(1900) \approx 6.1 \times 10^4$$
+$$
+P_{\text{Japanese, US mainland}}(1900) \approx 2.5 \times 10^4, \quad P_{\text{Japanese, Hawaii}}(1900) \approx 6.1 \times 10^4
+\tag{48}
+$$
 
 per US Census reconstruction. The Hawaiian sugar plantation labor market provided the initial major destination through the labor recruitment arrangements between the Japanese government and Hawaiian sugar interests.
 
 Religious traditions among the Japanese immigrant population combined Buddhist (predominantly Jodo Shinshu Pure Land Buddhist), Shinto, and increasingly Christian identifications. Approximate religious composition among Issei (first-generation Japanese American) populations was
 
-$$f_{\text{Buddhist among Issei, c. 1900}} \approx 0.70, \quad f_{\text{Christian among Issei, c. 1900}} \approx 0.15, \quad f_{\text{Shinto or unaffiliated among Issei, c. 1900}} \approx 0.15$$
+$$
+f_{\text{Buddhist among Issei, c. 1900}} \approx 0.70, \quad f_{\text{Christian among Issei, c. 1900}} \approx 0.15, \quad f_{\text{Shinto or unaffiliated among Issei, c. 1900}} \approx 0.15
+\tag{49}
+$$
 
 per census and community survey data. The Buddhist Churches of America, tracing to 1899 arrival of Jodo Shinshu missionaries in San Francisco, provided the institutional Buddhist infrastructure. Shinto shrines were established at Japanese communities though the institutional Shinto tradition faced significant challenges in the American context lacking the home country's state Shinto institutional framework. The [Kashima 1977][book_kashima_1977] Buddhism in America and [Prebish 1999][book_prebish_1999] Luminous Passage treat the developments.
 
@@ -375,7 +522,10 @@ The Dawes General Allotment Act of 8 February 1887 [US Dawes Act 1887][ref_us_da
 
 The Dawes Act authorized the President to divide tribal reservation lands into individual allotments of 160 acres for heads of households, 80 acres for single adults, and 40 acres for minors. The unallotted surplus lands became available for federal sale to non-Native purchasers. The consequence was substantial reduction in the Native landbase from approximately
 
-$$A_{\text{Native landholding, US}}(1887) \approx 1.4 \times 10^8 \text{ acres}, \quad A_{\text{Native landholding, US}}(1934) \approx 4.8 \times 10^7 \text{ acres}$$
+$$
+A_{\text{Native landholding, US}}(1887) \approx 1.4 \times 10^8 \text{ acres}, \quad A_{\text{Native landholding, US}}(1934) \approx 4.8 \times 10^7 \text{ acres}
+\tag{50}
+$$
 
 representing the approximately two-thirds loss of Native landholding across the approximately five decades of the allotment period, per the [Otis 1973][book_otis_1973] and [Hoxie 2001][book_hoxie_2001] reconstructions.
 
@@ -383,11 +533,17 @@ The religious dimensions of the Dawes Act combined Protestant reformist commitme
 
 The scope of allotment reached marked tribal coverage,
 
-$$N_{\text{tribes affected by Dawes Act allotment, 1887 to 1934}} \approx 118, \quad N_{\text{individual allotments issued}} \approx 2.4 \times 10^5$$
+$$
+N_{\text{tribes affected by Dawes Act allotment, 1887 to 1934}} \approx 118, \quad N_{\text{individual allotments issued}} \approx 2.4 \times 10^5
+\tag{51}
+$$
 
 per Bureau of Indian Affairs records. The US Native population reached its historical nadir during the allotment period,
 
-$$P_{\text{Native American, US}}(1890) \approx 2.5 \times 10^5, \quad P_{\text{Native American, US}}(1900) \approx 2.4 \times 10^5, \quad P_{\text{Native American, US}}(1920) \approx 2.4 \times 10^5$$
+$$
+P_{\text{Native American, US}}(1890) \approx 2.5 \times 10^5, \quad P_{\text{Native American, US}}(1900) \approx 2.4 \times 10^5, \quad P_{\text{Native American, US}}(1920) \approx 2.4 \times 10^5
+\tag{52}
+$$
 
 representing the bottom of the centuries-long demographic collapse from pre-contact populations estimated at approximately 5 to 15 million per modern reconstruction.
 
@@ -399,19 +555,31 @@ The federal boarding school system for Native children provided the most extensi
 
 Boarding school enrollment expanded through the late nineteenth and early twentieth centuries. Approximately
 
-$$N_{\text{Native boarding schools, US, 1900}} \approx 25, \quad N_{\text{Native boarding schools, US, peak c. 1930}} \approx 350$$
+$$
+N_{\text{Native boarding schools, US, 1900}} \approx 25, \quad N_{\text{Native boarding schools, US, peak c. 1930}} \approx 350
+\tag{53}
+$$
 
 served approximately
 
-$$N_{\text{Native boarding school enrollment, peak c. 1930}} \approx 6 \times 10^4$$
+$$
+N_{\text{Native boarding school enrollment, peak c. 1930}} \approx 6 \times 10^4
+\tag{54}
+$$
 
 representing approximately one-third of the school-age Native population at peak. Federal appropriations per pupil at the peak boarding-school period averaged approximately
 
-$$C_{\text{per pupil, federal boarding schools, c. 1900}} \approx 175 \text{ US dollars nominal per year}, \quad C_{\text{Carlisle annual budget, c. 1900}} \approx 1.7 \times 10^5 \text{ US dollars nominal}$$
+$$
+C_{\text{per pupil, federal boarding schools, c. 1900}} \approx 175 \text{ US dollars nominal per year}, \quad C_{\text{Carlisle annual budget, c. 1900}} \approx 1.7 \times 10^5 \text{ US dollars nominal}
+\tag{55}
+$$
 
 per Bureau of Indian Affairs annual reports. The systematic separation of Native children from their families for extended periods, prohibition of Native languages and traditional practices, enforced Christian religious observance, and documented physical and sexual abuse in boarding schools produced sizable harm across generations. The 2022 US Department of the Interior Federal Indian Boarding School Initiative report documented approximately
 
-$$N_{\text{documented boarding school child deaths}} \geq 5 \times 10^2$$
+$$
+N_{\text{documented boarding school child deaths}} \geq 5 \times 10^2
+\tag{56}
+$$
 
 with the actual figure likely higher due to documentation limitations. The [US DOI 2022][ref_us_doi_2022] investigation report provides the modern comprehensive treatment.
 
@@ -425,17 +593,26 @@ The broader context of Native prophetic movements included the 1830s-1840s Neoli
 
 Wovoka's 1 January 1889 vision during a solar eclipse revealed the eschatological framework in which ritual dancing would produce the return of the dead ancestors, the removal of the white population, and the restoration of Native lands and traditional life. The Wovoka message texts as preserved in Bureau of American Ethnology reports [Mooney 1896][book_mooney_1896] provide the primary documentary basis. The message spread rapidly across the Great Basin, Great Plains, and other regions through Native visitors to Wovoka and subsequent teaching. Ghost Dance adoption reached substantial proportions of
 
-$$f_{\text{Great Plains Native population Ghost Dance adopters, 1890}} \sim 0.30 \text{ to } 0.50$$
+$$
+f_{\text{Great Plains Native population Ghost Dance adopters, 1890}} \sim 0.30 \text{ to } 0.50
+\tag{57}
+$$
 
 per contemporary estimates, though the rapid spread and rapid decline complicates quantitative reconstruction. Ghost Dance participation spread across approximately
 
-$$N_{\text{tribes adopting Ghost Dance, 1889 to 1890}} \gtrsim 30$$
+$$
+N_{\text{tribes adopting Ghost Dance, 1889 to 1890}} \gtrsim 30
+\tag{58}
+$$
 
 across the Great Basin, Great Plains, Southwest, and California regions per [Mooney 1896][book_mooney_1896] compilation.
 
 The Lakota Ghost Dance interpretation added the ghost shirt tradition (garments believed to protect wearers from bullets) that Lakota traditionalists integrated into the broader Ghost Dance framework. The US federal alarm at the Lakota Ghost Dance mobilization produced the 29 December 1890 Wounded Knee Massacre, in which 7th Cavalry troops killed approximately
 
-$$N_{\text{Wounded Knee Massacre dead}} \approx 250 \text{ to } 300, \quad N_{\text{Lakota women and children among dead}} \approx 200$$
+$$
+N_{\text{Wounded Knee Massacre dead}} \approx 250 \text{ to } 300, \quad N_{\text{Lakota women and children among dead}} \approx 200
+\tag{59}
+$$
 
 specifically-disarmed Miniconjou Lakota under Big Foot at the Pine Ridge Reservation in South Dakota. The massacre marked the end of marked Ghost Dance mobilization and the symbolic closing of the Indian Wars period. The [Utley 1963][book_utley_1963] The Last Days of the Sioux Nation and [Ostler 2004][book_ostler_2004] The Plains Sioux and U.S. Colonialism provide the principal treatments. Primary Lakota testimony includes Black Elk's 1932 [Neihardt 1932][ref_neihardt_1932] Black Elk Speaks (compiled by John Neihardt from Black Elk interviews), Nicholas Black Elk's 1953 [Brown 1953][ref_brown_1953] The Sacred Pipe (compiled by Joseph Epes Brown), Charles Eastman's eyewitness Wounded Knee testimony in [Eastman 1916][ref_eastman_1916], and Bureau of American Ethnology Wounded Knee-related field notes in the [BAE Ghost Dance and Wounded Knee Documentation][ref_bae_ghost_dance_wounded_knee].
 
@@ -445,7 +622,10 @@ The Native American Church, tracing to late nineteenth-century Southern Plains N
 
 The 1918 Oklahoma incorporation of the Native American Church as the first legally-chartered Native American religious organization provided the institutional formalization. The denominational growth extended across extensive Native populations through the twentieth century, reaching approximately
 
-$$P_{\text{Native American Church adherents, US, 2020}} \approx 2.5 \times 10^5, \quad N_{\text{tribes with Native American Church presence, contemporary}} \approx 70$$
+$$
+P_{\text{Native American Church adherents, US, 2020}} \approx 2.5 \times 10^5, \quad N_{\text{tribes with Native American Church presence, contemporary}} \approx 70
+\tag{60}
+$$
 
 per modern estimates, producing the most significant pan-tribal Native religious organization in contemporary America. The 1978 American Indian Religious Freedom Act and 1994 amendments to the Religious Freedom Restoration Act treated in later articles provide the federal legal protections for Native American Church peyote sacramental use.
 
@@ -455,17 +635,26 @@ The late nineteenth century saw appreciable Catholic engagement with the America
 
 The Knights of Labor, established 1869 at Philadelphia under Uriah Stephens and expanded under Terence Powderly (1849-1924, Catholic and Grand Master Workman 1879-1893), provided the major American labor organization of the 1870s and 1880s with considerable Catholic membership. The organization's peak membership reached approximately
 
-$$P_{\text{Knights of Labor membership, peak 1886}} \approx 7 \times 10^5, \quad f_{\text{Catholic membership share, peak}} \gtrsim 0.5$$
+$$
+P_{\text{Knights of Labor membership, peak 1886}} \approx 7 \times 10^5, \quad f_{\text{Catholic membership share, peak}} \gtrsim 0.5
+\tag{61}
+$$
 
 per Knights of Labor records and historical reconstruction. Primary sources include Powderly's 1889 [Powderly 1889][ref_powderly_1889] Thirty Years of Labor and posthumously-published 1940 [Powderly 1940][ref_powderly_1940] The Path I Trod autobiography. The 1886 Cardinal James Gibbons intervention in Rome opposing the proposed papal condemnation of the Knights preserved American Catholic labor movement participation, documented in the [Gibbons 1887][ref_gibbons_1887] memorial to the Vatican and Gibbons's 1876 [Gibbons 1876][ref_gibbons_1876] The Faith of Our Fathers apologetic work (the best-selling American Catholic text of the late nineteenth century). The [O'Toole 2008][book_otoole_2008] The Faithful (already cited) treats the Gibbons intervention.
 
 US Catholic population growth across the postbellum period was significant through the Irish, German, Italian, and Eastern European migration flows,
 
-$$P_{\text{Catholic, US}}(1860) \approx 3.1 \times 10^6, \quad P_{\text{Catholic, US}}(1880) \approx 6.3 \times 10^6, \quad P_{\text{Catholic, US}}(1900) \approx 1.2 \times 10^7$$
+$$
+P_{\text{Catholic, US}}(1860) \approx 3.1 \times 10^6, \quad P_{\text{Catholic, US}}(1880) \approx 6.3 \times 10^6, \quad P_{\text{Catholic, US}}(1900) \approx 1.2 \times 10^7
+\tag{62}
+$$
 
 with the fraction of US population approximately
 
-$$f_{\text{Catholic in US population}}\bigg|_{1860} \approx 0.10, \quad f_{\text{Catholic in US population}}\bigg|_{1900} \approx 0.16$$
+$$
+f_{\text{Catholic in US population}}\bigg|_{1860} \approx 0.10, \quad f_{\text{Catholic in US population}}\bigg|_{1900} \approx 0.16
+\tag{63}
+$$
 
 producing what historians have termed the "immigrant church" character of American Catholicism through the period.
 
@@ -485,11 +674,17 @@ Additional primary Social Gospel texts include Josiah Strong's 1885 [Strong 1885
 
 Social Gospel institutional expressions included the Federal Council of Churches formation (1908), settlement house movement (particularly Hull House at Chicago from 1889 under Jane Addams), Christian Socialist party (from 1889 under Society of Christian Socialists), and labor arbitration and reform advocacy. Settlement house expansion reached approximately
 
-$$N_{\text{settlement houses, US, 1900}} \approx 100, \quad N_{\text{settlement houses, US, 1910}} \approx 400$$
+$$
+N_{\text{settlement houses, US, 1900}} \approx 100, \quad N_{\text{settlement houses, US, 1910}} \approx 400
+\tag{64}
+$$
 
 per National Federation of Settlements records. The Federal Council of Churches at formation combined approximately
 
-$$N_{\text{denominations, Federal Council of Churches, 1908}} = 32, \quad P_{\text{aggregated membership, Federal Council of Churches, 1908}} \approx 1.8 \times 10^7$$
+$$
+N_{\text{denominations, Federal Council of Churches, 1908}} = 32, \quad P_{\text{aggregated membership, Federal Council of Churches, 1908}} \approx 1.8 \times 10^7
+\tag{65}
+$$
 
 providing the institutional coordinating body for mainline American Protestantism through the mid-twentieth century. The Social Gospel would shape mainstream American Protestantism through the early twentieth century treated in article six.
 
@@ -501,11 +696,17 @@ The term WASP emerged in academic usage from Baltzell's 1964 work formalizing th
 
 WASP overrepresentation in American economic and political elites was appreciable through the late nineteenth and twentieth centuries. Approximate WASP shares in elite institutions were
 
-$$f_{\text{WASP among US Presidents through 1960}} \approx 0.97, \quad f_{\text{WASP among Fortune 500 CEOs, 1950}} \approx 0.80, \quad f_{\text{WASP among Ivy League students, c. 1950}} \approx 0.65$$
+$$
+f_{\text{WASP among US Presidents through 1960}} \approx 0.97, \quad f_{\text{WASP among Fortune 500 CEOs, 1950}} \approx 0.80, \quad f_{\text{WASP among Ivy League students, c. 1950}} \approx 0.65
+\tag{66}
+$$
 
 per [Baltzell 1964][book_baltzell_1964] and subsequent reconstruction. The WASP share of the US population itself was much smaller,
 
-$$f_{\text{Anglo-Saxon Protestant in US population}}\bigg|_{1900} \approx 0.35, \quad f_{\text{Anglo-Saxon Protestant in US population}}\bigg|_{1960} \approx 0.25$$
+$$
+f_{\text{Anglo-Saxon Protestant in US population}}\bigg|_{1900} \approx 0.35, \quad f_{\text{Anglo-Saxon Protestant in US population}}\bigg|_{1960} \approx 0.25
+\tag{67}
+$$
 
 producing the stark overrepresentation ratios that Baltzell's analysis documented.
 
@@ -513,7 +714,10 @@ Ivy League transformation from the denominational-religious institutions treated
 
 The Jewish quota admissions restrictions at Harvard, Yale, and Princeton from the 1920s treated in article six developed as WASP institutional response to increasing Jewish student applications. The pre-1920 Ivy League Jewish enrollment had been considerable,
 
-$$f_{\text{Jewish enrollment, Columbia, c. 1918}} \approx 0.20, \quad f_{\text{Jewish enrollment, Harvard, c. 1922}} \approx 0.15$$
+$$
+f_{\text{Jewish enrollment, Columbia, c. 1918}} \approx 0.20, \quad f_{\text{Jewish enrollment, Harvard, c. 1922}} \approx 0.15
+\tag{68}
+$$
 
 before the quota restrictions reduced Jewish admissions through the 1960s. The [Karabel 2005][book_karabel_2005] treatment provides the quantitative reconstruction.
 
@@ -521,19 +725,28 @@ before the quota restrictions reduced Jewish admissions through the 1960s. The [
 
 Muscular Christianity, the late nineteenth-century Protestant movement emphasizing physical fitness, athletic competition, and masculine Christian formation, provided the Protestant response to perceived feminization of American religion through the Second Great Awakening treatment documented in [A269][related_post_a269_second_awakening_and_reform]. The [Putney 2001][book_putney_2001] Muscular Christianity and [Ladd and Mathisen 1999][book_ladd_mathisen_1999] Muscular Christianity provide the detailed treatments. The Young Men's Christian Association (YMCA, founded London 1844, first American 1851) provided the institutional infrastructure that would shape American male Protestant formation. YMCA expansion reached approximately
 
-$$N_{\text{YMCA local associations, US, 1900}} \approx 1.4 \times 10^3, \quad P_{\text{YMCA membership, US, 1900}} \approx 2.6 \times 10^5$$
+$$
+N_{\text{YMCA local associations, US, 1900}} \approx 1.4 \times 10^3, \quad P_{\text{YMCA membership, US, 1900}} \approx 2.6 \times 10^5
+\tag{69}
+$$
 
 with the parallel Young Women's Christian Association (YWCA, first American 1858) providing the women's institutional analog.
 
 The Woman's Christian Temperance Union (WCTU), founded 1874 at Cleveland under leadership including Annie Wittenmyer and subsequent Frances Willard (1839-1898, WCTU President 1879-1898), provided the largest women's organization of the late nineteenth century. Under Willard's "Do Everything" policy, the WCTU expanded beyond temperance advocacy to include women's suffrage, labor reform, prison reform, and broader social reform. The WCTU reached approximately
 
-$$P_{\text{WCTU membership, US, 1900}} \approx 2 \times 10^5$$
+$$
+P_{\text{WCTU membership, US, 1900}} \approx 2 \times 10^5
+\tag{70}
+$$
 
 per membership records. The [Bordin 1981][book_bordin_1981] Frances Willard and [Tyrrell 1991][book_tyrrell_1991] Woman's World Woman's Empire provide the biographical treatments. Primary sources include Willard's 1889 [Willard 1889][ref_willard_1889] Glimpses of Fifty Years autobiography and 1895 [Willard 1895][ref_willard_1895] Do Everything programmatic policy address, together with the WCTU Union Signal newspaper serving as the denominational organ.
 
 The 1893 Anti-Saloon League founding at Oberlin, Ohio provided the narrow-focus prohibitionist organization that would advance the Eighteenth Amendment (1919) treated in article six. The [Kerr 1985][book_kerr_1985] Organized for Prohibition treats the Anti-Saloon League formation. State-level prohibitionist advance across the pre-Eighteenth Amendment period was significant,
 
-$$N_{\text{fully dry states, US}}(1900) \approx 5, \quad N_{\text{fully dry states, US}}(1917) \approx 26, \quad N_{\text{fully dry states, US}}(1919) = 33$$
+$$
+N_{\text{fully dry states, US}}(1900) \approx 5, \quad N_{\text{fully dry states, US}}(1917) \approx 26, \quad N_{\text{fully dry states, US}}(1919) = 33
+\tag{71}
+$$
 
 producing the accumulated state-level dry majority that national Eighteenth Amendment ratification (1919) then completed.
 
@@ -545,7 +758,10 @@ The American Protective Association (APA), founded 13 March 1887 at Clinton, Iow
 
 APA membership peaked at approximately
 
-$$P_{\text{APA membership, peak c. 1894 to 1896}} \approx 5 \times 10^5, \quad N_{\text{APA local councils, peak}} \approx 2 \times 10^3$$
+$$
+P_{\text{APA membership, peak c. 1894 to 1896}} \approx 5 \times 10^5, \quad N_{\text{APA local councils, peak}} \approx 2 \times 10^3
+\tag{72}
+$$
 
 concentrated in the Midwest and West with marked membership in mining, railroad, and factory towns. The APA required members to swear oaths never to vote for Catholic candidates, hire Catholic employees, or enter labor conflict alongside Catholic workers, producing what historians characterize as systematic religious-economic discrimination. The 1893 fabricated "Papal Encyclical" hoax circulated by APA members claiming that Catholics were to massacre Protestants on date (11 September 1893) demonstrated the paranoid conspiratorial framework driving APA mobilization.
 
@@ -559,37 +775,55 @@ The late nineteenth century produced extensive American religious innovation thr
 
 The Church of Jesus Christ of Latter-day Saints continued its 1830 founding trajectory treated in [A269][related_post_a269_second_awakening_and_reform] through the 1852-1890 Utah polygamy public affirmation, 1857-1858 Utah War, 1862 Morrill Anti-Bigamy Act, 1882 Edmunds Act, 1887 Edmunds-Tucker Act, and 1890 Manifesto ending official plural marriage under Wilford Woodruff. Utah statehood followed in 1896. LDS membership reached approximately
 
-$$P_{\text{LDS worldwide}}(1900) \approx 2.7 \times 10^5$$
+$$
+P_{\text{LDS worldwide}}(1900) \approx 2.7 \times 10^5
+\tag{73}
+$$
 
 by 1900 with appreciable subsequent twentieth-century expansion treated in later articles. The [Bushman 2005][book_bushman_2005] Joseph Smith Rough Stone Rolling (already cited in A269) and [Arrington 1985][book_arrington_1985] Brigham Young treat the LDS institutional development.
 
 Christian Science, founded 1866 by Mary Baker Eddy (1821-1910) at Lynn, Massachusetts through her recovery experience following a fall and subsequent 1875 [Eddy 1875][ref_eddy_1875] Science and Health with Key to the Scriptures textual formulation, provided the most pronounced late-century American religious innovation combining idealist metaphysics with spiritual healing practice. The Mother Church (First Church of Christ, Scientist) at Boston was chartered 1879 and rebuilt in the extant form 1894. Christian Science membership reached approximately
 
-$$P_{\text{Christian Science membership, US, 1906}} \approx 8.5 \times 10^4, \quad P_{\text{Christian Science membership, US, peak c. 1930}} \approx 3 \times 10^5$$
+$$
+P_{\text{Christian Science membership, US, 1906}} \approx 8.5 \times 10^4, \quad P_{\text{Christian Science membership, US, peak c. 1930}} \approx 3 \times 10^5
+\tag{74}
+$$
 
 per US Religious Census data. The [Gill 1998][book_gill_1998] Mary Baker Eddy and [Gottschalk 1973][book_gottschalk_1973] The Emergence of Christian Science in American Religious Life treat the formation.
 
 The Watch Tower Bible and Tract Society (subsequently Jehovah's Witnesses), founded 1881 by Charles Taze Russell (1852-1916) at Pittsburgh, Pennsylvania through the Zion's Watch Tower magazine (founded 1879) and Bible study group, provided the chiliastic Adventist-derived movement with detailed eschatological framework predicting dates for Christ's invisible return (initially 1874 per Russell's interpretation, subsequently reframed) and end of "Gentile times" (initially 1914). The [Penton 2015][book_penton_2015] Apocalypse Delayed and [Beckford 1975][book_beckford_1975] The Trumpet of Prophecy treat the formation. Watch Tower membership reached approximately
 
-$$P_{\text{Watch Tower / Jehovah's Witnesses, US, 1900}} \approx 5 \times 10^3$$
+$$
+P_{\text{Watch Tower / Jehovah's Witnesses, US, 1900}} \approx 5 \times 10^3
+\tag{75}
+$$
 
 with significant subsequent twentieth-century growth treated in later articles under Judge Rutherford's 1917-1942 leadership.
 
 The Seventh-day Adventist Church, formally organized 1863 following the 1844 Great Disappointment treated in [A269][related_post_a269_second_awakening_and_reform], provided the dominant successor to Miller's movement under Ellen G. White's (1827-1915) prophetic leadership. Ellen White's extensive published corpus including 1888 [White 1888][ref_white_1888] The Great Controversy provided the denominational theological framework combining Adventist eschatology with Sabbatarian observance, dietary reform, health advocacy (motivating the Battle Creek Sanitarium under John Harvey Kellogg from 1876), and education advocacy. Adventist membership reached approximately
 
-$$P_{\text{Seventh-day Adventist, US, 1900}} \approx 7 \times 10^4, \quad P_{\text{Seventh-day Adventist worldwide, 1900}} \approx 8 \times 10^4$$
+$$
+P_{\text{Seventh-day Adventist, US, 1900}} \approx 7 \times 10^4, \quad P_{\text{Seventh-day Adventist worldwide, 1900}} \approx 8 \times 10^4
+\tag{76}
+$$
 
 with substantial subsequent global expansion (contemporary approximately 22 million).
 
 The Salvation Army, founded 1865 at London by William and Catherine Booth and reaching America in 1880 under George Scott Railton and Salvation Army officers, provided the evangelical urban mission organization combining street evangelism with comprehensive social services. American Salvation Army membership and service reach expanded significantly,
 
-$$N_{\text{Salvation Army corps, US, 1900}} \approx 7 \times 10^2, \quad P_{\text{Salvation Army officers and cadets, US, 1900}} \approx 3 \times 10^3$$
+$$
+N_{\text{Salvation Army corps, US, 1900}} \approx 7 \times 10^2, \quad P_{\text{Salvation Army officers and cadets, US, 1900}} \approx 3 \times 10^3
+\tag{77}
+$$
 
 per denominational records. The [McKinley 1980][book_mckinley_1980] Marching to Glory treats the American Salvation Army formation.
 
 Additional late-nineteenth century new religious movements included the Theosophical Society (founded 1875 at New York by Helena Blavatsky, Henry Steel Olcott, and others as occult-esoteric movement drawing on Buddhist, Hindu, and Western esoteric traditions), the New Thought movement (late-century derivation from Phineas Quimby's mesmeric-metaphysical healing practice, subsequently formalized through Emma Curtis Hopkins, Charles and Myrtle Fillmore's Unity School of Christianity founded 1889, and Ernest Holmes's Religious Science founded 1926), and spiritualism (continuing from the 1848 Fox sisters treated in [A269][related_post_a269_second_awakening_and_reform] through the late-century expansion producing approximately
 
-$$P_{\text{Spiritualist adherents, US, peak c. 1897}} \sim 10^6 \text{ to } 10^7$$
+$$
+P_{\text{Spiritualist adherents, US, peak c. 1897}} \sim 10^6 \text{ to } 10^7
+\tag{78}
+$$
 
 per contemporary and subsequent estimates, though the movement's loose institutional structure complicates reconstruction). The [Braude 1989][book_braude_1989] Radical Spirits treats the Spiritualist movement and its relationship to women's rights and abolitionist mobilization.
 
@@ -597,7 +831,10 @@ per contemporary and subsequent estimates, though the movement's loose instituti
 
 The World's Parliament of Religions of 11-27 September 1893 at Chicago, held as a component of the World's Columbian Exposition celebrating the quadricentennial of Columbus's arrival, provided the most substantial late nineteenth-century American religious event and the inflection point in American religious pluralism awareness. Organized under Presbyterian minister John Henry Barrows as chair, the Parliament brought together approximately
 
-$$N_{\text{presenters, World's Parliament of Religions, 1893}} \approx 4 \times 10^2, \quad N_{\text{sessions}} \approx 200$$
+$$
+N_{\text{presenters, World's Parliament of Religions, 1893}} \approx 4 \times 10^2, \quad N_{\text{sessions}} \approx 200
+\tag{79}
+$$
 
 with extensive representation of Protestant, Catholic, Jewish, Muslim, Buddhist, Hindu, Confucian, Shinto, Bahai, Zoroastrian, and Native American traditions. The [Seager 1995][book_seager_1995] The World's Parliament of Religions and [Ziolkowski 1993][book_ziolkowski_1993] A Museum of Faiths provide the standard treatments.
 
@@ -611,7 +848,10 @@ The Spanish-American War of April-August 1898 marked the inflection point in Ame
 
 The 1898 Treaty of Paris [Avalon Project 1898][ref_treaty_of_paris_1898] concluding the war transferred Cuba to American protectorate status, Puerto Rico and Guam to direct American possession, and the Philippines to American colonial rule under twenty million dollar payment to Spain. The subsequent Philippine-American War of 1899-1902 produced approximately
 
-$$N_{\text{Filipino dead, Philippine-American War}} \approx 2 \times 10^5 \text{ to } 1 \times 10^6, \quad N_{\text{American dead}} \approx 4.2 \times 10^3$$
+$$
+N_{\text{Filipino dead, Philippine-American War}} \approx 2 \times 10^5 \text{ to } 1 \times 10^6, \quad N_{\text{American dead}} \approx 4.2 \times 10^3
+\tag{80}
+$$
 
 with the broad range on Filipino casualties reflecting documentary limitations and inclusion or exclusion of war-induced disease and famine mortality. The [Miller 1982][book_miller_1982] Benevolent Assimilation treats the Philippine-American War.
 
@@ -651,6 +891,728 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct empirical characterization of the Wounded Knee Massacre casualties and the dispute over subsequent Medal of Honor awards?
 - What is the correct assessment of the late nineteenth-century Catholic labor engagement and its causal contribution to American Catholic political-economic formation?
 - What is the correct assessment of the Social Gospel movement's causal contribution to Progressive Era reform mobilization?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 80 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 80, 80 are established and 0 are bespoke.
+Populations, members, arrivals and casualties are counted in persons, land is in acres, money is in nominal United States dollars of the period, dates are calendar years of the Common Era, and every share or death rate is a fraction between zero and one whose denominator is named in the equation.
+
+**Equation 1, Military Dead of the Civil War.**
+The traditional count of Civil War military dead is about 620,000, about 360,000 Union and 260,000 Confederate, which the census-based reconstruction revises upward to about 750,000.
+[Hacker 2011][book_hacker_2011]
+
+$$
+N_{\text{Civil War military dead}} \approx 6.2 \times 10^5, \quad N_{\text{Union dead}} \approx 3.6 \times 10^5, \quad N_{\text{Confederate dead}} \approx 2.6 \times 10^5
+\tag{1}
+$$
+
+**Equation 2, Populations of the Union and Confederate States in 1860.**
+The Union states held about twenty-two million people in 1860 and the Confederate states about nine million.
+
+$$
+P_{\text{Union states population, 1860}} \approx 2.2 \times 10^7, \quad P_{\text{Confederate states population, 1860}} \approx 9 \times 10^6
+\tag{2}
+$$
+
+**Equation 3, Per Capita Military Death Rates of the Union and Confederacy.**
+Dividing each side's dead by its 1860 population, the white population alone for the Confederacy, gives about 1.6 percent for the Union and about 4.6 percent for the Confederacy.
+
+$$
+\frac{N_{\text{Union dead}}}{P_{\text{Union states}}}\bigg|_{1860} \approx 1.6 \times 10^{-2}, \quad \frac{N_{\text{Confederate dead}}}{P_{\text{Confederate states white}}}\bigg|_{1860} \approx 4.6 \times 10^{-2}
+\tag{3}
+$$
+
+**Equation 4, Union and Confederate Chaplains.**
+About 2,400 chaplains served the Union armies and about six hundred the Confederate armies over the course of the war.
+
+$$
+N_{\text{Union chaplains, cumulative}} \approx 2.4 \times 10^3, \quad N_{\text{Confederate chaplains, cumulative}} \approx 6 \times 10^2
+\tag{4}
+$$
+
+**Equation 5, Denominational Shares of the Union Chaplaincy.**
+Methodists made up about thirty-eight percent of Union chaplains, Presbyterians about seventeen, Baptists about twelve and Catholics about three.
+
+$$
+f_{\text{Methodist Union chaplains}} \approx 0.38, \quad f_{\text{Presbyterian Union chaplains}} \approx 0.17, \quad f_{\text{Baptist Union chaplains}} \approx 0.12, \quad f_{\text{Catholic Union chaplains}} \approx 0.03
+\tag{5}
+$$
+
+**Equation 6, Viewers of the Lincoln Funeral Procession.**
+About seven million people viewed the twenty-day Lincoln funeral procession from Washington to Springfield.
+[Peterson 1994][book_peterson_1994]
+[Schwartz 2000][book_schwartz_2000]
+
+$$
+P_{\text{viewers, Lincoln funeral procession, cumulative}} \approx 7 \times 10^6
+\tag{6}
+$$
+
+**Equation 7, Settlement under Field Order 15.**
+About forty thousand freed people settled about four hundred thousand acres under Field Order 15 by the spring of 1865.
+
+$$
+P_{\text{Black settlers, Sherman Field Order 15 lands, spring 1865}} \approx 4 \times 10^4, \quad A_{\text{acres settled under Field Order 15}} \approx 4 \times 10^5
+\tag{7}
+$$
+
+**Equation 8, Southern State Prison Populations from 1870 to 1900.**
+Southern state prison populations grew from about ten thousand in 1870 to about sixty thousand in 1900, about eighty-five percent of them Black around 1890.
+
+$$
+P_{\text{Southern state prison population}}(1870) \approx 1 \times 10^4, \quad P_{\text{Southern state prison population}}(1900) \approx 6 \times 10^4, \quad f_{\text{Black among Southern state prisoners, c. 1890}} \approx 0.85
+\tag{8}
+$$
+
+**Equation 9, Annual Mortality in Southern Convict Lease Camps.**
+Annual mortality in Southern convict lease camps in the 1880s and 1890s ran from about ten to thirty percent depending on state and operator.
+[Mancini 1996][book_mancini_1996]
+[Oshinsky 1996][book_oshinsky_1996]
+
+$$
+\mu_{\text{annual mortality, Southern convict lease camps, c. 1880s to 1890s}} \sim 0.10 \text{ to } 0.30
+\tag{9}
+$$
+
+**Equation 10, Tenancy and Black Landownership in 1900.**
+About seventy percent of Southern farmers worked under sharecropping or tenancy in 1900, and about a quarter of Black Southern farmers owned their land.
+[Ransom and Sutch 1977][book_ransom_sutch_1977]
+
+$$
+f_{\text{Southern farmers under sharecropping or tenancy, 1900}} \approx 0.70, \quad f_{\text{Black Southern farmers landowning, 1900}} \approx 0.25
+\tag{10}
+$$
+
+**Equation 11, Reconstruction Amendments.**
+The Thirteenth, Fourteenth and Fifteenth Amendments were ratified in 1865, 1868 and 1870.
+[US 13th Amendment 1865][ref_us_13th_amendment]
+[US 14th Amendment 1868][ref_us_14th_amendment]
+[US 15th Amendment 1870][ref_us_15th_amendment]
+
+$$
+\text{13th Amendment (1865)}, \quad \text{14th Amendment (1868)}, \quad \text{15th Amendment (1870)}
+\tag{11}
+$$
+
+**Equation 12, Freedmen's Bureau Schools and Students at Peak.**
+At its peak the Freedmen's Bureau supervised about four thousand schools with about a quarter of a million students.
+
+$$
+N_{\text{Freedmen's Bureau schools, peak}} \approx 4 \times 10^3, \quad N_{\text{Freedmen students, peak}} \approx 2.5 \times 10^5
+\tag{12}
+$$
+
+**Equation 13, Freedmen's Bureau Appropriations from 1865 to 1872.**
+Federal appropriations for the Freedmen's Bureau totalled about seventeen million nominal dollars between 1865 and 1872.
+[Foner 1988][book_foner_1988]
+
+$$
+C_{\text{Freedmen's Bureau total appropriations, 1865 to 1872}} \approx 1.7 \times 10^7 \text{ US dollars nominal}
+\tag{13}
+$$
+
+**Equation 14, Enslaved and Free Black Populations in 1860.**
+The 1860 census counted about 3.95 million enslaved people, the article placing about ninety-five percent of them in the Confederacy, and about 490,000 free Black people.
+
+$$
+P_{\text{enslaved, US, 1860}} \approx 3.95 \times 10^6, \quad f_{\text{enslaved in Confederacy, 1860}} \approx 0.95, \quad P_{\text{free Black, US, 1860}} \approx 4.9 \times 10^5
+\tag{14}
+$$
+
+**Equation 15, Ratio of Enslaved to Free Black Population in 1860.**
+The enslaved outnumbered free Black people about eight to one in 1860.
+
+$$
+\frac{P_{\text{enslaved}}}{P_{\text{free Black}}}\bigg|_{1860} \approx 8.1
+\tag{15}
+$$
+
+**Equation 16, Historically Black Colleges and Universities.**
+About ninety historically Black colleges and universities existed by 1900 and about one hundred exist today.
+[Anderson 1988][book_anderson_1988]
+
+$$
+N_{\text{Historically Black Colleges and Universities, US, 1900}} \approx 90, \quad N_{\text{HBCU, US, contemporary}} \approx 100
+\tag{16}
+$$
+
+**Equation 17, African Methodist Episcopal Membership from 1860 to 1900.**
+African Methodist Episcopal membership grew from about twenty thousand in 1860 to about 400,000 in 1880 and 650,000 in 1900.
+
+$$
+P_{\text{AME}}(1860) \approx 2 \times 10^4, \quad P_{\text{AME}}(1880) \approx 4 \times 10^5, \quad P_{\text{AME}}(1900) \approx 6.5 \times 10^5
+\tag{17}
+$$
+
+**Equation 18, African Methodist Episcopal Zion Membership in 1900.**
+African Methodist Episcopal Zion membership reached about 550,000 in 1900.
+
+$$
+P_{\text{AME Zion}}(1900) \approx 5.5 \times 10^5
+\tag{18}
+$$
+
+**Equation 19, Colored Methodist Episcopal Membership in 1900.**
+Colored Methodist Episcopal membership reached about 200,000 in 1900.
+[Lakey 1985][book_lakey_1985]
+
+$$
+P_{\text{CME}}(1900) \approx 2 \times 10^5
+\tag{19}
+$$
+
+**Equation 20, National Baptist Convention Membership in 1900.**
+The National Baptist Convention reached about 1.6 million members in 1900, the largest Black denomination.
+[Washington 1985][book_washington_1985]
+
+$$
+P_{\text{National Baptist Convention}}(1900) \approx 1.6 \times 10^6
+\tag{20}
+$$
+
+**Equation 21, Black Denominational Membership in 1900.**
+Black denominations counted about three million members in 1900, about three quarters of African-descent church membership.
+
+$$
+P_{\text{Black denominational membership, US, 1900}} \approx 3 \times 10^6, \quad f_{\text{African-descent US church membership Black-denominational}}\bigg|_{1900} \approx 0.75
+\tag{21}
+$$
+
+**Equation 22, Stages of Reconstruction.**
+Reconstruction passed from the Lincoln plan through Presidential and Congressional Reconstruction to its end in the Compromise of 1877.
+[Foner 1988][book_foner_1988]
+
+$$
+\begin{aligned}
+\text{Lincoln plan} &: 1863\text{-}1865 \\
+\text{Presidential Reconstruction (Johnson)} &: 1865\text{-}1867 \\
+\text{Congressional Reconstruction} &: 1867\text{-}1877 \\
+\text{Compromise of 1877} &: \text{end of Reconstruction}
+\end{aligned}
+\tag{22}
+$$
+
+**Equation 23, Klan Killings from 1866 to 1876.**
+Klan and Klan-associated killings between 1866 and 1876 numbered at least about three thousand.
+[Parsons 2015][book_parsons_2015]
+[Congressional Klan Report 1872][ref_congressional_klan_report_1872]
+
+$$
+N_{\text{Klan and Klan-associated killings, US, 1866 to 1876}} \gtrsim 3 \times 10^3
+\tag{23}
+$$
+
+**Equation 24, Federal Troops in the Former Confederate States.**
+Federal troops in the former Confederate states fell from about twenty thousand in 1868 to about three thousand in 1876 and to none by 1878.
+
+$$
+N_{\text{federal troops, former Confederate states}}(1868) \approx 2 \times 10^4, \quad N_{\text{federal troops, former Confederate states}}(1876) \approx 3 \times 10^3, \quad N_{\text{federal troops, former Confederate states}}(1878) \approx 0
+\tag{24}
+$$
+
+**Equation 25, Popular and Electoral Votes in the Election of 1876.**
+Tilden won about 4.29 million popular votes against about 4.03 million for Hayes, yet Hayes won the electoral count by 185 to 184.
+
+$$
+V_{\text{Tilden popular}} \approx 4.29 \times 10^6, \quad V_{\text{Hayes popular}} \approx 4.03 \times 10^6, \quad V_{\text{Hayes electoral}} = 185, \quad V_{\text{Tilden electoral}} = 184
+\tag{25}
+$$
+
+**Equation 26, Major Race Massacres from 1866 to 1898.**
+Six major massacres from Memphis in 1866 to the Wilmington coup of 1898 killed from a handful to several hundred Black people each.
+[Lane 2008][book_lane_2008]
+
+$$
+\begin{aligned}
+\text{Memphis massacre} &: 1866, \quad N_{\text{Black dead}} \approx 46 \\
+\text{New Orleans massacre} &: 1866, \quad N_{\text{Black dead}} \approx 34 \\
+\text{Colfax massacre} &: 1873, \quad N_{\text{Black dead}} \approx 60 \text{ to } 150 \\
+\text{Hamburg massacre} &: 1876, \quad N_{\text{Black dead}} \approx 6 \\
+\text{Danville riot} &: 1883, \quad N_{\text{Black dead}} \approx 4 \\
+\text{Wilmington coup} &: 1898, \quad N_{\text{Black dead}} \approx 60 \text{ to } 300
+\end{aligned}
+\tag{26}
+$$
+
+**Equation 27, Registered Black Voters in Louisiana in 1896 and 1904.**
+Registered Black voters in Louisiana fell from about 130,000 in 1896 to about 1,300 in 1904, a reduction of about ninety-nine percent.
+[Kousser 1974][book_kousser_1974]
+
+$$
+P_{\text{registered Black voters, Louisiana}}(1896) \approx 1.3 \times 10^5, \quad P_{\text{registered Black voters, Louisiana}}(1904) \approx 1.3 \times 10^3
+\tag{27}
+$$
+
+**Equation 28, Documented Lynchings from 1882 to 1900.**
+Tuskegee Institute records document about 3,200 lynchings between 1882 and 1900, about seventy-two percent of the victims Black.
+
+$$
+N_{\text{documented lynchings, US, 1882 to 1900}} \approx 3.2 \times 10^3, \quad f_{\text{Black among lynch victims, US, 1882 to 1900}} \approx 0.72
+\tag{28}
+$$
+
+**Equation 29, Land Transferred under the Homestead Act.**
+About 1.6 million homestead patents transferred about 270 million acres from federal to individual ownership between 1862 and 1934.
+[Gates 1968][book_gates_1968]
+
+$$
+A_{\text{Homestead Act patents issued, 1862 to 1934}} \approx 2.7 \times 10^8 \text{ acres}, \quad N_{\text{Homestead patents}} \approx 1.6 \times 10^6
+\tag{29}
+$$
+
+**Equation 30, Black Share of Homestead Patents.**
+Black homesteaders received at most about two percent of all homestead patents.
+
+$$
+f_{\text{Black homesteaders among total Homestead patents, cumulative}} \lesssim 0.02
+\tag{30}
+$$
+
+**Equation 31, Chronology of Chinese Exclusion.**
+Chinese exclusion ran from the Act of 1882 through the Scott and Geary Acts and permanence in 1902 to repeal in 1943, sixty-one years in all.
+[Scott Act 1888][ref_scott_act_1888]
+[Geary Act 1892][ref_geary_act_1892]
+
+$$
+\begin{aligned}
+\text{Chinese Exclusion Act} &: 1882 \\
+\text{Scott Act} &: 1888 \\
+\text{Geary Act} &: 1892 \\
+\text{Chinese Exclusion permanent} &: 1902 \\
+\text{Chinese Exclusion repeal} &: 1943
+\end{aligned}
+\tag{31}
+$$
+
+**Equation 32, Chinese American Population from 1880 to 1920.**
+The Chinese American population fell from about 105,000 in 1880 to about 89,000 in 1900 and 62,000 in 1920.
+
+$$
+P_{\text{Chinese, US}}(1880) \approx 1.05 \times 10^5, \quad P_{\text{Chinese, US}}(1900) \approx 8.9 \times 10^4, \quad P_{\text{Chinese, US}}(1920) \approx 6.2 \times 10^4
+\tag{32}
+$$
+
+**Equation 33, Chinese American Sex Ratio in 1880 and 1900.**
+Chinese American men outnumbered women about twenty-one to one in 1880 and about nineteen to one in 1900.
+
+$$
+\frac{P_{\text{Chinese male}}}{P_{\text{Chinese female}}}\bigg|_{1880} \approx 21, \quad \frac{P_{\text{Chinese male}}}{P_{\text{Chinese female}}}\bigg|_{1900} \approx 19
+\tag{33}
+$$
+
+**Equation 34, Chinese Share of California and San Francisco in 1880.**
+The Chinese made up about nine percent of the California population and about ten percent of the San Francisco population in 1880.
+
+$$
+f_{\text{Chinese in California population}}\bigg|_{1880} \approx 0.09, \quad f_{\text{Chinese in San Francisco population}}\bigg|_{1880} \approx 0.10
+\tag{34}
+$$
+
+**Equation 35, Chinese Share of the Central Pacific Workforce.**
+Chinese workers made up about ninety percent of the Central Pacific construction workforce at its peak.
+
+$$
+f_{\text{Chinese share, Central Pacific Railroad construction workforce, peak}} \approx 0.90
+\tag{35}
+$$
+
+**Equation 36, Scandinavian Arrivals from 1865 to 1900.**
+About 1.2 million Norwegian, Swedish and Danish migrants arrived between 1865 and 1900.
+
+$$
+N_{\text{Scandinavian arrivals, US, 1865 to 1900}} \approx 1.2 \times 10^6
+\tag{36}
+$$
+
+**Equation 37, National Composition of Scandinavian Arrivals.**
+Of the Scandinavian arrivals between 1865 and 1900 about half a million were Norwegian, about 600,000 Swedish and about 150,000 Danish.
+
+$$
+N_{\text{Norwegian arrivals, 1865 to 1900}} \approx 5 \times 10^5, \quad N_{\text{Swedish arrivals, 1865 to 1900}} \approx 6 \times 10^5, \quad N_{\text{Danish arrivals, 1865 to 1900}} \approx 1.5 \times 10^5
+\tag{37}
+$$
+
+**Equation 38, Augustana Synod Membership in 1900.**
+The Swedish Augustana Synod reached about 170,000 members by 1900.
+[Hasselmo 1976][book_hasselmo_1976]
+
+$$
+P_{\text{Augustana Synod}}(1900) \approx 1.7 \times 10^5
+\tag{38}
+$$
+
+**Equation 39, Scandinavian Lutheran Membership in 1900 and 1930.**
+Scandinavian Lutheran membership grew from about 400,000 in 1900 to about 1.2 million in 1930.
+
+$$
+P_{\text{Scandinavian Lutheran, US}}(1900) \approx 4 \times 10^5, \quad P_{\text{Scandinavian Lutheran, US}}(1930) \approx 1.2 \times 10^6
+\tag{39}
+$$
+
+**Equation 40, Italian Arrivals from 1880 to 1914.**
+About one million Italians arrived between 1880 and 1900 and about three million between 1900 and 1914.
+
+$$
+N_{\text{Italian arrivals, US, 1880 to 1900}} \approx 1 \times 10^6, \quad N_{\text{Italian arrivals, US, 1900 to 1914}} \approx 3 \times 10^6
+\tag{40}
+$$
+
+**Equation 41, Southern Italian Share around 1900.**
+About eighty percent of the Italian population of the United States around 1900 came from the southern regions.
+
+$$
+f_{\text{southern Italian in US Italian population, c. 1900}} \approx 0.80
+\tag{41}
+$$
+
+**Equation 42, Italian Return Migration from 1880 to 1914.**
+About half of Italian arrivals between 1880 and 1914 returned to Italy.
+
+$$
+f_{\text{Italian return migration rate, 1880 to 1914}} \approx 0.5
+\tag{42}
+$$
+
+**Equation 43, Eastern European Jewish Arrivals from 1881 to 1900.**
+About 600,000 Eastern European Jews arrived between 1881 and 1900.
+
+$$
+N_{\text{Eastern European Jewish arrivals, US, 1881 to 1900}} \approx 6 \times 10^5
+\tag{43}
+$$
+
+**Equation 44, Jewish Population of the United States from 1880 to 1924.**
+The Jewish population of the United States grew from about a quarter of a million in 1880 to about one million in 1900 and about four million in 1924.
+
+$$
+P_{\text{Jewish, US}}(1880) \approx 2.5 \times 10^5, \quad P_{\text{Jewish, US}}(1900) \approx 1 \times 10^6, \quad P_{\text{Jewish, US}}(1924) \approx 4 \times 10^6
+\tag{44}
+$$
+
+**Equation 45, Peak Circulation of the Yiddish Press.**
+The daily Forverts reached a peak circulation of about 275,000 in the 1920s, and the Yiddish daily press as a whole about half a million around 1915.
+[Michels 2005][book_michels_2005]
+
+$$
+C_{\text{Forverts daily circulation, peak c. 1920s}} \approx 2.75 \times 10^5, \quad C_{\text{Yiddish daily press aggregate, peak c. 1915}} \approx 5 \times 10^5
+\tag{45}
+$$
+
+**Equation 46, Peak Jewish Population of the Lower East Side.**
+The Jewish population of the Lower East Side peaked at about half a million around 1910.
+
+$$
+P_{\text{Lower East Side Jewish population, peak c. 1910}} \approx 5 \times 10^5
+\tag{46}
+$$
+
+**Equation 47, Japanese Arrivals from 1885 to 1900.**
+About forty-eight thousand Japanese migrants arrived on the mainland and about sixty-five thousand in Hawaii between 1885 and 1900.
+
+$$
+N_{\text{Japanese arrivals, US mainland, 1885 to 1900}} \approx 4.8 \times 10^4, \quad N_{\text{Japanese arrivals, Hawaii, 1885 to 1900}} \approx 6.5 \times 10^4
+\tag{47}
+$$
+
+**Equation 48, Japanese American Population in 1900.**
+The 1900 census counted about twenty-five thousand Japanese on the mainland and about sixty-one thousand in Hawaii.
+
+$$
+P_{\text{Japanese, US mainland}}(1900) \approx 2.5 \times 10^4, \quad P_{\text{Japanese, Hawaii}}(1900) \approx 6.1 \times 10^4
+\tag{48}
+$$
+
+**Equation 49, Religious Composition of the Issei around 1900.**
+First-generation Japanese Americans around 1900 were about seventy percent Buddhist, fifteen percent Christian and fifteen percent Shinto or unaffiliated.
+[Kashima 1977][book_kashima_1977]
+
+$$
+f_{\text{Buddhist among Issei, c. 1900}} \approx 0.70, \quad f_{\text{Christian among Issei, c. 1900}} \approx 0.15, \quad f_{\text{Shinto or unaffiliated among Issei, c. 1900}} \approx 0.15
+\tag{49}
+$$
+
+**Equation 50, Native Landholding in 1887 and 1934.**
+Native landholding fell from about 140 million acres in 1887 to about forty-eight million in 1934, a loss of about two thirds under allotment.
+[Otis 1973][book_otis_1973]
+[Hoxie 2001][book_hoxie_2001]
+
+$$
+A_{\text{Native landholding, US}}(1887) \approx 1.4 \times 10^8 \text{ acres}, \quad A_{\text{Native landholding, US}}(1934) \approx 4.8 \times 10^7 \text{ acres}
+\tag{50}
+$$
+
+**Equation 51, Scope of Dawes Act Allotment.**
+Allotment between 1887 and 1934 affected about 118 tribes and issued about 240,000 individual allotments.
+
+$$
+N_{\text{tribes affected by Dawes Act allotment, 1887 to 1934}} \approx 118, \quad N_{\text{individual allotments issued}} \approx 2.4 \times 10^5
+\tag{51}
+$$
+
+**Equation 52, Native American Population at Its Nadir.**
+The Native American population of the United States stood at about a quarter of a million from 1890 to 1920, the nadir of its decline.
+
+$$
+P_{\text{Native American, US}}(1890) \approx 2.5 \times 10^5, \quad P_{\text{Native American, US}}(1900) \approx 2.4 \times 10^5, \quad P_{\text{Native American, US}}(1920) \approx 2.4 \times 10^5
+\tag{52}
+$$
+
+**Equation 53, Native Boarding Schools in 1900 and around 1930.**
+About twenty-five Native boarding schools operated in 1900 and about 350 at the peak around 1930.
+
+$$
+N_{\text{Native boarding schools, US, 1900}} \approx 25, \quad N_{\text{Native boarding schools, US, peak c. 1930}} \approx 350
+\tag{53}
+$$
+
+**Equation 54, Native Boarding School Enrolment at Peak.**
+Native boarding schools enrolled about sixty thousand children at their peak around 1930, about a third of the school-age Native population.
+
+$$
+N_{\text{Native boarding school enrollment, peak c. 1930}} \approx 6 \times 10^4
+\tag{54}
+$$
+
+**Equation 55, Federal Spending per Boarding School Pupil around 1900.**
+Federal spending was about 175 nominal dollars per boarding school pupil per year around 1900, and the annual budget of Carlisle about 170,000 dollars.
+
+$$
+C_{\text{per pupil, federal boarding schools, c. 1900}} \approx 175 \text{ US dollars nominal per year}, \quad C_{\text{Carlisle annual budget, c. 1900}} \approx 1.7 \times 10^5 \text{ US dollars nominal}
+\tag{55}
+$$
+
+**Equation 56, Documented Boarding School Child Deaths.**
+The 2022 Department of the Interior report documented at least about five hundred child deaths in the boarding schools.
+[US DOI 2022][ref_us_doi_2022]
+
+$$
+N_{\text{documented boarding school child deaths}} \geq 5 \times 10^2
+\tag{56}
+$$
+
+**Equation 57, Ghost Dance Adoption on the Great Plains in 1890.**
+Contemporary estimates put Ghost Dance adoption among the Native population of the Great Plains in 1890 at about thirty to fifty percent.
+[Mooney 1896][book_mooney_1896]
+
+$$
+f_{\text{Great Plains Native population Ghost Dance adopters, 1890}} \sim 0.30 \text{ to } 0.50
+\tag{57}
+$$
+
+**Equation 58, Tribes Adopting the Ghost Dance.**
+At least about thirty tribes adopted the Ghost Dance in 1889 and 1890.
+[Mooney 1896][book_mooney_1896]
+
+$$
+N_{\text{tribes adopting Ghost Dance, 1889 to 1890}} \gtrsim 30
+\tag{58}
+$$
+
+**Equation 59, Dead of the Wounded Knee Massacre.**
+The 7th Cavalry killed about 250 to 300 Lakota at Wounded Knee on 29 December 1890, about two hundred of them women and children.
+[Utley 1963][book_utley_1963]
+[Ostler 2004][book_ostler_2004]
+
+$$
+N_{\text{Wounded Knee Massacre dead}} \approx 250 \text{ to } 300, \quad N_{\text{Lakota women and children among dead}} \approx 200
+\tag{59}
+$$
+
+**Equation 60, Native American Church Adherents in 2020.**
+The Native American Church had about a quarter of a million adherents across about seventy tribes in 2020.
+
+$$
+P_{\text{Native American Church adherents, US, 2020}} \approx 2.5 \times 10^5, \quad N_{\text{tribes with Native American Church presence, contemporary}} \approx 70
+\tag{60}
+$$
+
+**Equation 61, Knights of Labor Membership at Its Peak.**
+The Knights of Labor peaked at about 700,000 members in 1886, at least half of them Catholic.
+
+$$
+P_{\text{Knights of Labor membership, peak 1886}} \approx 7 \times 10^5, \quad f_{\text{Catholic membership share, peak}} \gtrsim 0.5
+\tag{61}
+$$
+
+**Equation 62, Catholic Population from 1860 to 1900.**
+The Catholic population of the United States grew from about 3.1 million in 1860 to about 6.3 million in 1880 and about twelve million in 1900.
+
+$$
+P_{\text{Catholic, US}}(1860) \approx 3.1 \times 10^6, \quad P_{\text{Catholic, US}}(1880) \approx 6.3 \times 10^6, \quad P_{\text{Catholic, US}}(1900) \approx 1.2 \times 10^7
+\tag{62}
+$$
+
+**Equation 63, Catholic Share of the Population in 1860 and 1900.**
+Catholics made up about ten percent of the population of the United States in 1860 and about sixteen percent in 1900.
+
+$$
+f_{\text{Catholic in US population}}\bigg|_{1860} \approx 0.10, \quad f_{\text{Catholic in US population}}\bigg|_{1900} \approx 0.16
+\tag{63}
+$$
+
+**Equation 64, Settlement Houses in 1900 and 1910.**
+The number of settlement houses grew from about one hundred in 1900 to about four hundred in 1910.
+
+$$
+N_{\text{settlement houses, US, 1900}} \approx 100, \quad N_{\text{settlement houses, US, 1910}} \approx 400
+\tag{64}
+$$
+
+**Equation 65, Federal Council of Churches at Its Formation.**
+The Federal Council of Churches joined thirty-two denominations with about eighteen million members in 1908.
+
+$$
+N_{\text{denominations, Federal Council of Churches, 1908}} = 32, \quad P_{\text{aggregated membership, Federal Council of Churches, 1908}} \approx 1.8 \times 10^7
+\tag{65}
+$$
+
+**Equation 66, White Anglo-Saxon Protestant Shares of Elite Institutions.**
+White Anglo-Saxon Protestants made up about ninety-seven percent of Presidents through 1960, about eighty percent of Fortune 500 chief executives in 1950 and about sixty-five percent of Ivy League students around 1950.
+[Baltzell 1964][book_baltzell_1964]
+
+$$
+f_{\text{WASP among US Presidents through 1960}} \approx 0.97, \quad f_{\text{WASP among Fortune 500 CEOs, 1950}} \approx 0.80, \quad f_{\text{WASP among Ivy League students, c. 1950}} \approx 0.65
+\tag{66}
+$$
+
+**Equation 67, Anglo-Saxon Protestant Share of the Population in 1900 and 1960.**
+Anglo-Saxon Protestants made up about thirty-five percent of the population in 1900 and about twenty-five percent in 1960.
+[Baltzell 1964][book_baltzell_1964]
+
+$$
+f_{\text{Anglo-Saxon Protestant in US population}}\bigg|_{1900} \approx 0.35, \quad f_{\text{Anglo-Saxon Protestant in US population}}\bigg|_{1960} \approx 0.25
+\tag{67}
+$$
+
+**Equation 68, Jewish Enrolment at Columbia and Harvard before the Quotas.**
+Jewish students made up about twenty percent of Columbia around 1918 and about fifteen percent of Harvard around 1922.
+[Karabel 2005][book_karabel_2005]
+
+$$
+f_{\text{Jewish enrollment, Columbia, c. 1918}} \approx 0.20, \quad f_{\text{Jewish enrollment, Harvard, c. 1922}} \approx 0.15
+\tag{68}
+$$
+
+**Equation 69, Young Men's Christian Association in 1900.**
+The Young Men's Christian Association counted about 1,400 local associations and about 260,000 members in the United States in 1900.
+[Putney 2001][book_putney_2001]
+
+$$
+N_{\text{YMCA local associations, US, 1900}} \approx 1.4 \times 10^3, \quad P_{\text{YMCA membership, US, 1900}} \approx 2.6 \times 10^5
+\tag{69}
+$$
+
+**Equation 70, Woman's Christian Temperance Union Membership in 1900.**
+The Woman's Christian Temperance Union counted about 200,000 members in 1900.
+[Bordin 1981][book_bordin_1981]
+[Tyrrell 1991][book_tyrrell_1991]
+
+$$
+P_{\text{WCTU membership, US, 1900}} \approx 2 \times 10^5
+\tag{70}
+$$
+
+**Equation 71, Fully Dry States from 1900 to 1919.**
+The number of fully dry states rose from about five in 1900 to about twenty-six in 1917 and thirty-three in 1919.
+[Kerr 1985][book_kerr_1985]
+
+$$
+N_{\text{fully dry states, US}}(1900) \approx 5, \quad N_{\text{fully dry states, US}}(1917) \approx 26, \quad N_{\text{fully dry states, US}}(1919) = 33
+\tag{71}
+$$
+
+**Equation 72, American Protective Association at Its Peak.**
+The American Protective Association peaked around 1894 to 1896 at about half a million members in about two thousand local councils.
+
+$$
+P_{\text{APA membership, peak c. 1894 to 1896}} \approx 5 \times 10^5, \quad N_{\text{APA local councils, peak}} \approx 2 \times 10^3
+\tag{72}
+$$
+
+**Equation 73, Latter-day Saint Membership in 1900.**
+Latter-day Saint membership worldwide reached about 270,000 by 1900.
+
+$$
+P_{\text{LDS worldwide}}(1900) \approx 2.7 \times 10^5
+\tag{73}
+$$
+
+**Equation 74, Christian Science Membership in 1906 and around 1930.**
+Christian Science counted about eighty-five thousand members in the United States in 1906 and about 300,000 at its peak around 1930.
+[Gottschalk 1973][book_gottschalk_1973]
+
+$$
+P_{\text{Christian Science membership, US, 1906}} \approx 8.5 \times 10^4, \quad P_{\text{Christian Science membership, US, peak c. 1930}} \approx 3 \times 10^5
+\tag{74}
+$$
+
+**Equation 75, Watch Tower Membership in 1900.**
+The Watch Tower movement, later the Jehovah's Witnesses, counted about five thousand members in the United States in 1900.
+[Penton 2015][book_penton_2015]
+
+$$
+P_{\text{Watch Tower / Jehovah's Witnesses, US, 1900}} \approx 5 \times 10^3
+\tag{75}
+$$
+
+**Equation 76, Seventh-day Adventist Membership in 1900.**
+Seventh-day Adventists numbered about seventy thousand in the United States and about eighty thousand worldwide in 1900.
+
+$$
+P_{\text{Seventh-day Adventist, US, 1900}} \approx 7 \times 10^4, \quad P_{\text{Seventh-day Adventist worldwide, 1900}} \approx 8 \times 10^4
+\tag{76}
+$$
+
+**Equation 77, Salvation Army in the United States in 1900.**
+The Salvation Army in the United States had about seven hundred corps and about three thousand officers and cadets in 1900.
+[McKinley 1980][book_mckinley_1980]
+
+$$
+N_{\text{Salvation Army corps, US, 1900}} \approx 7 \times 10^2, \quad P_{\text{Salvation Army officers and cadets, US, 1900}} \approx 3 \times 10^3
+\tag{77}
+$$
+
+**Equation 78, Spiritualist Adherents at Their Peak.**
+Estimates of Spiritualist adherents at the peak around 1897 range across an order of magnitude from about one million to about ten million.
+[Braude 1989][book_braude_1989]
+
+$$
+P_{\text{Spiritualist adherents, US, peak c. 1897}} \sim 10^6 \text{ to } 10^7
+\tag{78}
+$$
+
+**Equation 79, Scale of the World's Parliament of Religions.**
+The World's Parliament of Religions of 1893 brought together about four hundred presenters across about two hundred sessions.
+[Seager 1995][book_seager_1995]
+[Ziolkowski 1993][book_ziolkowski_1993]
+
+$$
+N_{\text{presenters, World's Parliament of Religions, 1893}} \approx 4 \times 10^2, \quad N_{\text{sessions}} \approx 200
+\tag{79}
+$$
+
+**Equation 80, Dead of the Philippine-American War.**
+The Philippine-American War killed between about 200,000 and one million Filipinos, depending on whether disease and famine are counted, and about 4,200 Americans.
+[Miller 1982][book_miller_1982]
+
+$$
+N_{\text{Filipino dead, Philippine-American War}} \approx 2 \times 10^5 \text{ to } 1 \times 10^6, \quad N_{\text{American dead}} \approx 4.2 \times 10^3
+\tag{80}
+$$
+
+### Notation
+
+- $f_{\text{enslaved in Confederacy, 1860}}$, the share of the enslaved population held in the states that formed the Confederacy
+- $\mu_{\text{annual mortality, Southern convict lease camps, c. 1880s to 1890s}}$, the annual death rate among leased convicts, a fraction per year
+- $A_{\text{Native landholding, US}}$, the land held by Native nations and individuals, in acres
+- $f_{\text{Catholic in US population}}$, the Catholic share of the population of the United States
+- $V_{\text{Hayes electoral}}$, the electoral votes won by Hayes in 1876, one instance of $V$ for each candidate and count
 
 ## References
 

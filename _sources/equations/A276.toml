@@ -1,0 +1,239 @@
+# Equation classification for A276. Read by `python3 _lib/equations.py`.
+
+caution = "Every figure is an approximate count, share or monetary amount as reported by the source or earlier article the equation names, a share is a fraction between zero and one rather than a percentage, and figures dated 2050 are projections rather than observations."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Temporal Coverage of the Series"
+gloss = "The series is described by the span of years it treats and its count of articles, a self-description in which the year 1600 is the starting point the series chose for the Indigenous substrate."
+cite = []
+digest = "f9703bbedfb074c4"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Periodisation of the Series by Article"
+gloss = "Each earlier article is assigned a theme and a span of years, a periodisation constructed for the series rather than taken from a source."
+cite = []
+digest = "b298ff7792be9184"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Aggregate Size of the Series"
+gloss = "The lines, words, display equations and references of the series are totalled approximately as a self-description of the corpus, so the figures depend on the series itself and on what is counted."
+cite = []
+digest = "8a5e6fc827611804"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Ethnic Composition Trajectory, 1600 to 2020"
+gloss = "Census shares for 1900 and 2020 are joined to colonial values that are rounded estimates and to an Indigenous share of one in 1600 that the article takes as the pre-contact starting point."
+cite = ["ref_us_census_historical", "ref_pew_religious_landscape_2014"]
+digest = "da9d162ba2ef0736"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Peak Religious Media Reach Across the Series"
+gloss = "Peak audiences, attendance, circulation, station counts and sales for religious broadcasting and publishing are restated from the earlier articles in which each figure was documented."
+cite = ["related_post_a272_depression_war_and_refuge", "related_post_a273_postwar_transformation_and_reopening", "related_post_a274_diversification_and_consolidation", "related_post_a275_contemporary_sorting_and_new_flows"]
+digest = "1ef6020a0269c309"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Peak Movement Mobilisation Across the Series"
+gloss = "Peak memberships and cumulative fundraising of religious reform and political movements, from the Woman's Christian Temperance Union to Promise Keepers, are restated from the earlier articles that documented them."
+cite = []
+digest = "0c1e17f8ff76135c"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Institutional Counts Across the Series"
+gloss = "Counts of national parishes, Bible institutes, Catholic parishes, megachurches, mosques and Hindu temples are restated from the earlier articles that documented them."
+cite = ["related_post_a271_mass_immigration_and_closure"]
+digest = "9bae29a0569e73f2"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Major Population Movements Across the Series"
+gloss = "Cumulative counts of the slave trade to the United States, mass immigration, wartime internment, refugee admissions and legalisations are restated from the earlier articles that documented them."
+cite = ["related_post_a267_colonial_folkways", "related_post_a272_depression_war_and_refuge", "related_post_a273_postwar_transformation_and_reopening", "related_post_a275_contemporary_sorting_and_new_flows"]
+digest = "308dc5d410868e95"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Selection of Load-Bearing Inflection Points"
+gloss = "Eighteen events from 1607 to 2022 are selected and paired with the transformation each is judged to have produced, a selection that rests on the article's own assessment of causal significance."
+cite = []
+digest = "e5fc1285a4ab30e2"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Religious Composition of Canada"
+gloss = "Shares of the Canadian population by religious affiliation are taken from the 2021 census of Statistics Canada."
+cite = ["ref_statscan_2021_religion"]
+digest = "c9c04eb230fd3203"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Catholic, Protestant and Unaffiliated Shares in Latin America, 1970 and 2020"
+gloss = "Regional shares of Catholic, Protestant or Pentecostal and unaffiliated adherents in Latin America are taken from the Pew Research Center survey of religion in the region."
+cite = ["ref_pew_latin_america_2014"]
+digest = "a5c830bd36040bc3"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Religious Composition and Indigenous Shares in Australia and New Zealand"
+gloss = "Christian, unaffiliated and minority religious shares, together with the Aboriginal and Māori population shares, are taken from the 2021 Australian and 2018 New Zealand censuses."
+cite = ["ref_abs_2021_religion", "ref_stats_nz_2018_religion"]
+digest = "4d6fd0af392181a8"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Religious Composition of England and Wales, 2021"
+gloss = "Shares of the population of England and Wales by religious affiliation are taken from the 2021 census of the Office for National Statistics."
+cite = ["ref_uk_ons_2021_religion"]
+digest = "2f5de74b3045696a"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Christian and Unaffiliated Shares in Six European Countries"
+gloss = "Christian and unaffiliated shares for France, Germany, Italy, the Netherlands, Sweden and Poland are taken from the Pew Research Center study of Christianity in Western Europe."
+cite = ["ref_pew_european_religion_2018"]
+digest = "47086f114f9a53cb"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Religious Composition of Israel"
+gloss = "Jewish, Muslim, Christian and Druze shares of the Israeli population are taken from the Central Bureau of Statistics of Israel, with the Palestinian Territories counted separately."
+cite = ["ref_israel_cbs_2023"]
+digest = "fa69c515ff3adc08"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Religious Composition of Japan, South Korea, China and Taiwan"
+gloss = "Unaffiliated, traditional and Christian shares for four East Asian societies are taken from national census and survey data that the article does not name individually."
+cite = []
+digest = "5d651d9419604ef3"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Durations of Historical Christianisation and Secularisation Windows"
+gloss = "Each transformation is bounded by endpoint years the article chose as its primary window, and the American unaffiliated expansion is given an assumed fifty-year window from 2000 to a projected 2050."
+cite = []
+digest = "3aa8e6c09642f303"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Counterfactual American Trajectories"
+gloss = "Five alternative histories are posed, each assuming a different outcome at a chosen juncture from the early republic to 1965 and stating the change the article expects it would have produced."
+cite = []
+digest = "47d7854c403f5e51"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Projected Ethnic and Religious Composition of the United States, 2050"
+gloss = "Population and ethnic shares for 2050 follow the 2023 national projections of the Census Bureau, and the Christian and unaffiliated shares follow the central projection of the Pew Research Center."
+cite = ["ref_us_census_projections_2023", "ref_pew_modeling_future_2022"]
+digest = "2b7c9c78f19697cd"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Religious Group Vote Shares in the 2024 Presidential Election"
+gloss = "Shares of each religious group voting for Trump or for Harris in 2024 are taken from exit polling and the validated voter reconstruction of the Pew Research Center."
+cite = []
+digest = "b2a4e2bd5af19428"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Projected Adherents by Tradition, 2020 to 2050"
+gloss = "Adherent counts for eight traditions are carried to 2050 by a denominational forecasting reconstruction that extends the Pew Research Center projections beyond the groups those projections report."
+cite = ["ref_pew_modeling_future_2022"]
+digest = "a68643d61730f370"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Load-Bearing Uncertainties for the Projection"
+gloss = "Seven open questions are identified as the uncertainties on which the forward projection most depends, a list that rests on the article's own judgement."
+cite = []
+digest = "bbeaf08b396f61df"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Falsification Criteria for the Projection"
+gloss = "Seven observable thresholds on affiliation shares, adherent counts and vote shares are set by the article as the outcomes that would refute or require revision of its projection."
+cite = []
+digest = "e849dbab59316621"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Alternative Scenarios for Affiliation in 2050"
+gloss = "Central, accelerating, plateau, reversal and disruptive scenarios each assign the unaffiliated and Christian shares an assumed value for 2050, with the disruptive scenario left as a range."
+cite = []
+digest = "237e94aa72ea837d"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Intergenerational Retention by Religious Tradition"
+gloss = "The share of those raised in each tradition who remain in it as adults is taken from the 2018 United States religion survey of the Pew Research Center."
+cite = []
+digest = "cf6c50e1c8143b6f"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Methodology Counts for the Series"
+gloss = "Cumulative reference counts, the number of articles that followed the four-pass workflow and a lower bound on cross-references are stated as a self-description of the series."
+cite = []
+digest = "ab3b4e880657a5a0"
+
+[[symbol]]
+tex = 't'
+meaning = "a year or a span of years, identified by its subscript"
+
+[[symbol]]
+tex = '\Delta t'
+meaning = "the duration in years of a transformation window"
+
+[[symbol]]
+tex = 'N'
+meaning = "a count of persons, institutions, events or items of the series, identified by its subscript"
+
+[[symbol]]
+tex = 'f'
+meaning = "a fraction or share between zero and one, identified by its subscript, with the year of evaluation given by the vertical bar"
+
+[[symbol]]
+tex = 'L'
+meaning = "a radio audience in listeners"
+
+[[symbol]]
+tex = 'C'
+meaning = "a circulation or cumulative sales count of a publication"
+
+[[symbol]]
+tex = 'P'
+meaning = "a membership, a cumulative fundraising amount in United States dollars, or a population or count of adherents, identified by its subscript"

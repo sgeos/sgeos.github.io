@@ -19,11 +19,15 @@ This tenth article of the series treats the 2000-2024 period during which the Am
 
 The 2000-2024 window produced marked American ethnoreligious transformation continuing trends documented in [A274][related_post_a274_diversification_and_consolidation]. Total US foreign-born population reached approximately
 
-$$P_{\text{foreign-born, US}}\bigg|_{2000} \approx 3.11 \times 10^7, \quad P\bigg|_{2010} \approx 3.99 \times 10^7, \quad P\bigg|_{2020} \approx 4.47 \times 10^7, \quad f_{\text{foreign-born share}}\bigg|_{2020} \approx 0.135$$
+$$
+P_{\text{foreign-born, US}}\bigg|_{2000} \approx 3.11 \times 10^7, \quad P\bigg|_{2010} \approx 3.99 \times 10^7, \quad P\bigg|_{2020} \approx 4.47 \times 10^7, \quad f_{\text{foreign-born share}}\bigg|_{2020} \approx 0.135
+\tag{1}
+$$
 
 approximately restoring pre-1924 foreign-born share for the first time since 1924 Johnson-Reed Act documented in [A271][related_post_a271_mass_immigration_and_closure]. Religious composition transformation was extensive. Approximate religious composition trajectory reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Christian, US}}\bigg|_{2000} &\approx 0.82, \quad f\bigg|_{2010} \approx 0.78, \quad f\bigg|_{2020} \approx 0.63, \quad f\bigg|_{2024} \approx 0.62 \\
 f_{\text{White evangelical Protestant, US}}\bigg|_{2000} &\approx 0.23, \quad f\bigg|_{2020} \approx 0.14 \\
 f_{\text{White mainline Protestant, US}}\bigg|_{2000} &\approx 0.18, \quad f\bigg|_{2020} \approx 0.11 \\
@@ -33,7 +37,9 @@ f_{\text{Muslim, US}}\bigg|_{2020} &\approx 0.011 \\
 f_{\text{Hindu, US}}\bigg|_{2020} &\approx 0.007 \\
 f_{\text{Buddhist, US}}\bigg|_{2020} &\approx 0.007 \\
 f_{\text{Unaffiliated, US}}\bigg|_{2000} &\approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2020} \approx 0.29, \quad f\bigg|_{2024} \approx 0.30
-\end{aligned}$$
+\end{aligned}
+\tag{2}
+$$
 
 per Pew Research US Religious Landscape Study and American Religious Identification Survey reconstruction. The 2000-2024 window represented most substantial twenty-four-year American religious demographic transformation in US history. The [Jones 2016][book_jones_2016] The End of White Christian America and [Chaves 2011][book_chaves_2011] American Religion (already cited in A274) provide the standard treatments.
 
@@ -41,13 +47,19 @@ per Pew Research US Religious Landscape Study and American Religious Identificat
 
 The 11 September 2001 al-Qaeda attacks on the World Trade Center and Pentagon produced appreciable American religious institutional response and ongoing Muslim American backlash. Primary presidential addresses included 17 September 2001 [Bush 2001 Islamic Center Address][ref_bush_2001_islamic_center] address at Islamic Center of Washington distinguishing Islam from terrorism and 20 September 2001 [Bush 2001 Joint Session Address][ref_bush_2001_joint_session] Joint Session of Congress address. The 22 July 2004 [9/11 Commission Report 2004][ref_9_11_commission_2004] 9/11 Commission Report provided the comprehensive federal investigation. Total casualties reached
 
-$$N_{\text{9/11 attacks total dead}} = 2977, \quad N_{\text{9/11 attacks injured}} \gtrsim 6 \times 10^3, \quad N_{\text{first responder deaths, subsequent 9/11-related illness through 2020}} \gtrsim 5 \times 10^2$$
+$$
+N_{\text{9/11 attacks total dead}} = 2977, \quad N_{\text{9/11 attacks injured}} \gtrsim 6 \times 10^3, \quad N_{\text{first responder deaths, subsequent 9/11-related illness through 2020}} \gtrsim 5 \times 10^2
+\tag{3}
+$$
 
 per National September 11 Memorial and Museum records. The [Bergen 2011][book_bergen_2011] The Longest War, [Wright 2006][book_wright_2006] The Looming Tower, and [Beydoun 2018][book_beydoun_2018] American Islamophobia provide the fullest treatments.
 
 Post-9/11 Muslim American backlash produced considerable hate incidents,
 
-$$N_{\text{documented anti-Muslim hate crimes, US, 2001}} \approx 481, \quad N\bigg|_{2002} \approx 155, \quad N\bigg|_{2015} \approx 257, \quad N\bigg|_{2016} \approx 307$$
+$$
+N_{\text{documented anti-Muslim hate crimes, US, 2001}} \approx 481, \quad N\bigg|_{2002} \approx 155, \quad N\bigg|_{2015} \approx 257, \quad N\bigg|_{2016} \approx 307
+\tag{4}
+$$
 
 per FBI hate crime statistics, with significant peaks in 2001 immediately following attacks and 2015-2016 following Trump campaign anti-Muslim rhetoric and San Bernardino attack. American Muslim institutional response combined Council on American-Islamic Relations (CAIR) civil rights litigation, Islamic Society of North America (ISNA) public engagement, Muslim Public Affairs Council (MPAC) policy advocacy, and extensive interfaith engagement documented in [A274][related_post_a274_diversification_and_consolidation].
 
@@ -61,11 +73,17 @@ The 20 March 2003 US-led invasion of Iraq produced substantial American religiou
 
 Iraq War casualties reached marked proportions,
 
-$$N_{\text{US military dead, Iraq War 2003-2011}} \approx 4491, \quad N_{\text{US military wounded}} \approx 3.2 \times 10^4, \quad N_{\text{Iraqi civilian dead, various estimates}} \gtrsim 1 \times 10^5, \quad C_{\text{Iraq War aggregate US cost, cumulative through 2020}} \approx 2 \times 10^{12} \text{ USD nominal}$$
+$$
+N_{\text{US military dead, Iraq War 2003-2011}} \approx 4491, \quad N_{\text{US military wounded}} \approx 3.2 \times 10^4, \quad N_{\text{Iraqi civilian dead, various estimates}} \gtrsim 1 \times 10^5, \quad C_{\text{Iraq War aggregate US cost, cumulative through 2020}} \approx 2 \times 10^{12} \text{ USD nominal}
+\tag{5}
+$$
 
 per US Department of Defense, Iraq Body Count, and Congressional Research Service records. Religious institutional opposition emerged through United States Conference of Catholic Bishops (13 November 2002 [USCCB Iraq Statement 2002][ref_usccb_iraq_2002] statement questioning just war criteria compliance), National Council of Churches, assorted mainline Protestant denominational bodies, American Jewish Committee, and Interfaith Alliance. Evangelical Protestant war support emerged through Family Research Council, Focus on the Family, a number of organizations, with approximate 2003 polling reflecting extensive denominational divergence,
 
-$$f_{\text{Iraq War support, white evangelical Protestants}}\bigg|_{2003} \approx 0.77, \quad f_{\text{white mainline Protestants}} \approx 0.55, \quad f_{\text{white Catholics}} \approx 0.42, \quad f_{\text{Black Protestants}} \approx 0.28, \quad f_{\text{Jewish Americans}} \approx 0.36$$
+$$
+f_{\text{Iraq War support, white evangelical Protestants}}\bigg|_{2003} \approx 0.77, \quad f_{\text{white mainline Protestants}} \approx 0.55, \quad f_{\text{white Catholics}} \approx 0.42, \quad f_{\text{Black Protestants}} \approx 0.28, \quad f_{\text{Jewish Americans}} \approx 0.36
+\tag{6}
+$$
 
 per Pew Research 2003 polling reconstruction.
 
@@ -75,13 +93,19 @@ Pope John Paul II's extensive anti-Iraq War advocacy including 5 March 2003 Card
 
 The 2002 Boston Globe Spotlight reporting on Boston Archdiocese Catholic clergy sexual abuse produced inflection point in American Catholic institutional crisis extending through investigations and settlements. Approximate institutional scale reached
 
-$$N_{\text{documented US Catholic priest sexual abuse allegations, 1950 to 2002}} \approx 4400, \quad N_{\text{documented US Catholic clergy sexual abuse victims, 1950 to 2020}} \gtrsim 2 \times 10^4, \quad C_{\text{US Catholic diocesan aggregate settlement expenditure, 1950 to 2020}} \approx 4 \times 10^9 \text{ USD nominal}$$
+$$
+N_{\text{documented US Catholic priest sexual abuse allegations, 1950 to 2002}} \approx 4400, \quad N_{\text{documented US Catholic clergy sexual abuse victims, 1950 to 2020}} \gtrsim 2 \times 10^4, \quad C_{\text{US Catholic diocesan aggregate settlement expenditure, 1950 to 2020}} \approx 4 \times 10^9 \text{ USD nominal}
+\tag{7}
+$$
 
 per John Jay College of Criminal Justice 2004 and 2011 reports and several institutional documentation. The [John Jay Report 2004][ref_john_jay_report_2004] John Jay Report and [John Jay Report 2011][ref_john_jay_report_2011] Causes and Context Report provided the comprehensive institutional analyses commissioned by US Conference of Catholic Bishops. The [Church Allowed Abuse 2002][ref_boston_globe_spotlight_2002] Boston Globe reporting series provided the inaugural mass-media exposure. The [Berry 1992][book_berry_1992] Lead Us Not into Temptation, [Steinfels 2003][book_steinfels_2003] A People Adrift, and [D'Antonio 2016][book_dantonio_2016] Betrayal provide the detailed treatments.
 
 Institutional consequences included 2002 US Conference of Catholic Bishops [SBC Dallas Charter 2002][ref_dallas_charter_2002] Dallas Charter establishing "zero tolerance" framework, 14 August 2018 [Pennsylvania Grand Jury Report 2018][ref_pennsylvania_grand_jury_2018] Pennsylvania Grand Jury Report documenting approximately 1,000 abuse victims across six Pennsylvania dioceses, 10 November 2020 [McCarrick Report 2020][ref_mccarrick_report_2020] Vatican McCarrick Report preceding 2019 McCarrick resignation from cardinalate, and a range of institutional restructuring. Approximate diocesan bankruptcy filings reached
 
-$$N_{\text{US Catholic diocesan Chapter 11 bankruptcy filings, 2004 to 2024}} \approx 30, \quad N_{\text{additional Catholic religious order bankruptcy filings}} \gtrsim 10$$
+$$
+N_{\text{US Catholic diocesan Chapter 11 bankruptcy filings, 2004 to 2024}} \approx 30, \quad N_{\text{additional Catholic religious order bankruptcy filings}} \gtrsim 10
+\tag{8}
+$$
 
 per US Bankruptcy Court records.
 
@@ -89,7 +113,10 @@ per US Bankruptcy Court records.
 
 The 2004 George W. Bush reelection reflected evangelical Protestant voter consolidation combining same-sex marriage state ballot initiative mobilization with evangelical religious framework. Election results reflected appreciable voter alignment,
 
-$$V_{\text{Bush 2004 popular}} \approx 6.20 \times 10^7, \quad V_{\text{Kerry 2004 popular}} \approx 5.90 \times 10^7, \quad V_{\text{Bush 2004 electoral}} = 286, \quad V_{\text{Kerry 2004 electoral}} = 251, \quad f_{\text{white evangelical Bush vote}} \approx 0.78, \quad f_{\text{white Catholic Bush vote}} \approx 0.52, \quad f_{\text{Jewish Bush vote}} \approx 0.24, \quad f_{\text{Black Protestant Bush vote}} \approx 0.13$$
+$$
+V_{\text{Bush 2004 popular}} \approx 6.20 \times 10^7, \quad V_{\text{Kerry 2004 popular}} \approx 5.90 \times 10^7, \quad V_{\text{Bush 2004 electoral}} = 286, \quad V_{\text{Kerry 2004 electoral}} = 251, \quad f_{\text{white evangelical Bush vote}} \approx 0.78, \quad f_{\text{white Catholic Bush vote}} \approx 0.52, \quad f_{\text{Jewish Bush vote}} \approx 0.24, \quad f_{\text{Black Protestant Bush vote}} \approx 0.13
+\tag{9}
+$$
 
 per exit polling reconstruction. 2004 election same-sex marriage state ballot measures in 11 states (all approving state constitutional definitions of marriage as between one man and one woman) produced considerable evangelical voter mobilization, particularly decisive Ohio ballot measure contributing to Bush's Ohio electoral college victory. The [Frank 2004][book_frank_2004] What's the Matter with Kansas and [Wallis 2005][book_wallis_2005] God's Politics (already cited) treat the religious-political dynamics.
 
@@ -97,24 +124,30 @@ per exit polling reconstruction. 2004 election same-sex marriage state ballot me
 
 The same-sex marriage legal trajectory 2003-2015 produced most significant American religious-political controversy of twenty-first century's first two decades. Primary judicial documents include 18 November 2003 [Goodridge v. Department 2003][ref_goodridge_2003] Goodridge v. Department of Public Health (Massachusetts Supreme Judicial Court decision) and 26 June 2013 [Windsor v. United States 2013][ref_windsor_v_us_2013] Windsor v. United States (5-4 Supreme Court decision striking down 1996 Defense of Marriage Act Section 3). Major landmarks included
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Massachusetts Goodridge decision} &: 2003, \text{ first US state same-sex marriage} \\
 \text{California Proposition 8 passage} &: 2008 \text{ ballot} \\
 \text{Perry v. Schwarzenegger federal ruling} &: 2010 \\
 \text{Windsor v. United States DOMA struck down} &: 2013 \\
 \text{Obergefell v. Hodges nationwide same-sex marriage} &: 2015 \\
 \text{Respect for Marriage Act federal statutory protection} &: 2022
-\end{aligned}$$
+\end{aligned}
+\tag{10}
+$$
 
 The [Klarman 2013][book_klarman_2013] From the Closet to the Altar, [Ball 2017][book_ball_2017] The First Amendment and LGBT Equality, and [Frank 2017][book_frank_2017] Awakening treat the comprehensive legal trajectory.
 
 The 26 June 2015 [Obergefell v. Hodges 2015][ref_obergefell_v_hodges_2015] Obergefell v. Hodges 5-4 Supreme Court decision authored by Justice Anthony Kennedy completed federal recognition of same-sex marriage, producing substantial religious institutional realignment. Approximate denominational positions on same-sex marriage by 2020 reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{denominations formally supporting same-sex marriage rites, US}}\bigg|_{2020} &\approx 0.30 \text{ (mainline Protestant majority)} \\
 f_{\text{denominations formally opposing}}\bigg|_{2020} &\approx 0.55 \text{ (evangelical, Catholic, Orthodox, Muslim, Orthodox Jewish)} \\
 f_{\text{denominations divided or transitional}}\bigg|_{2020} &\approx 0.15
-\end{aligned}$$
+\end{aligned}
+\tag{11}
+$$
 
 per various denominational documentation. The 13 December 2022 [Rep. Nadler 2022][ref_respect_for_marriage_2022] Respect for Marriage Act federally protected same-sex marriage against hypothetical future Obergefell reversal.
 
@@ -122,7 +155,10 @@ per various denominational documentation. The 13 December 2022 [Rep. Nadler 2022
 
 The 30 June 2014 [Burwell v. Hobby Lobby 2014][ref_burwell_v_hobby_lobby_2014] Burwell v. Hobby Lobby Stores Supreme Court decision extended 1993 Religious Freedom Restoration Act (RFRA) documented in [A273][related_post_a273_postwar_transformation_and_reopening] protection to closely-held for-profit corporations,
 
-$$V_{\text{Hobby Lobby majority}} = 5, \quad V_{\text{Hobby Lobby dissent}} = 4, \quad N_{\text{closely-held US corporations potentially affected}} \gtrsim 9 \times 10^4$$
+$$
+V_{\text{Hobby Lobby majority}} = 5, \quad V_{\text{Hobby Lobby dissent}} = 4, \quad N_{\text{closely-held US corporations potentially affected}} \gtrsim 9 \times 10^4
+\tag{12}
+$$
 
 permitting religious objection to 2010 Affordable Care Act contraception mandate. Justice Samuel Alito's majority opinion expanded RFRA framework beyond individual and nonprofit religious institution protection to for-profit business framework. The [Sepper 2014][book_sepper_2014_religious] Free Exercise Lochnerism and [Laycock 2018][book_laycock_2018] Religious Liberty Volume 5 provide the leading treatments.
 
@@ -132,7 +168,10 @@ Religious exemption jurisprudence expanded through 2015-2024 window. Major decis
 
 The 2008 Barack Obama election produced marked religious politics dynamics combining first African American major-party presidential candidacy with Obama's United Church of Christ religious identification and Reverend Jeremiah Wright controversy. Election results reflected extensive voter alignment,
 
-$$V_{\text{Obama 2008 popular}} \approx 6.95 \times 10^7, \quad V_{\text{McCain 2008 popular}} \approx 5.99 \times 10^7, \quad V_{\text{Obama 2008 electoral}} = 365, \quad V_{\text{McCain 2008 electoral}} = 173, \quad f_{\text{Obama Black Protestant vote}} \approx 0.96, \quad f_{\text{Obama white evangelical vote}} \approx 0.24, \quad f_{\text{Obama Catholic vote}} \approx 0.54, \quad f_{\text{Obama Jewish vote}} \approx 0.78, \quad f_{\text{Obama Muslim vote}} \approx 0.89, \quad f_{\text{Obama Nones vote}} \approx 0.75$$
+$$
+V_{\text{Obama 2008 popular}} \approx 6.95 \times 10^7, \quad V_{\text{McCain 2008 popular}} \approx 5.99 \times 10^7, \quad V_{\text{Obama 2008 electoral}} = 365, \quad V_{\text{McCain 2008 electoral}} = 173, \quad f_{\text{Obama Black Protestant vote}} \approx 0.96, \quad f_{\text{Obama white evangelical vote}} \approx 0.24, \quad f_{\text{Obama Catholic vote}} \approx 0.54, \quad f_{\text{Obama Jewish vote}} \approx 0.78, \quad f_{\text{Obama Muslim vote}} \approx 0.89, \quad f_{\text{Obama Nones vote}} \approx 0.75
+\tag{13}
+$$
 
 per Pew Research and assorted exit polling reconstruction. The [Miller 2013][book_miller_2013] The Political Voice of Black America and [Cohen 2010][book_cohen_2010] Democracy Remixed provide the principal treatments.
 
@@ -142,13 +181,19 @@ The 13 March 2008 Reverend Jeremiah Wright controversy (ABC News release of Trin
 
 Prosperity gospel expansion through 2000-2024 window produced considerable American evangelical popular religion continuation building on late twentieth-century framework documented in [A274][related_post_a274_diversification_and_consolidation]. Major prosperity gospel figures included Joel Osteen (Lakewood Church Houston, weekly attendance approximately 45,000-55,000), Joyce Meyer (Joyce Meyer Ministries, annual revenue approximately $100 million), Kenneth Copeland (Kenneth Copeland Ministries, personal net worth estimated approximately $760 million), Creflo Dollar (World Changers Church International, Atlanta), and a number of figures. The [Bowler 2013][book_bowler_2013] Blessed, [Harrison 2005][book_harrison_2005] Righteous Riches, and [Sinitiere 2015][book_sinitiere_2015] Salvation with a Smile provide the most complete treatments. Osteen's Your Best Life Now 2004 and differing books reached significant sales,
 
-$$N_{\text{Osteen "Your Best Life Now" cumulative sales through 2020}} \approx 8 \times 10^6, \quad N_{\text{Osteen aggregate book sales, cumulative}} \gtrsim 2 \times 10^7, \quad C_{\text{Lakewood Church annual revenue, peak c. 2020}} \approx 9 \times 10^7 \text{ USD}$$
+$$
+N_{\text{Osteen "Your Best Life Now" cumulative sales through 2020}} \approx 8 \times 10^6, \quad N_{\text{Osteen aggregate book sales, cumulative}} \gtrsim 2 \times 10^7, \quad C_{\text{Lakewood Church annual revenue, peak c. 2020}} \approx 9 \times 10^7 \text{ USD}
+\tag{14}
+$$
 
 per institutional records.
 
 Approximate prosperity gospel American reach reached substantial proportions,
 
-$$f_{\text{US Christians affirming prosperity gospel core tenet ("God will grant financial prosperity to faithful believers")}}\bigg|_{2018} \approx 0.44, \quad f_{\text{same among evangelicals}}\bigg|_{2018} \approx 0.55, \quad f_{\text{same among Pentecostals}}\bigg|_{2018} \approx 0.66$$
+$$
+f_{\text{US Christians affirming prosperity gospel core tenet ("God will grant financial prosperity to faithful believers")}}\bigg|_{2018} \approx 0.44, \quad f_{\text{same among evangelicals}}\bigg|_{2018} \approx 0.55, \quad f_{\text{same among Pentecostals}}\bigg|_{2018} \approx 0.66
+\tag{15}
+$$
 
 per Life Way Research and Pew Research reconstruction. The approximately 44% cross-tradition affirmation reflected mainstream prosperity gospel diffusion beyond historically Pentecostal boundaries.
 
@@ -158,7 +203,10 @@ New Atheism emerged in 2004-2010 window producing most significant American athe
 
 Approximate American atheist and agnostic self-identification reached extensive expansion,
 
-$$f_{\text{atheist self-identification, US}}\bigg|_{2000} \approx 0.02, \quad f\bigg|_{2020} \approx 0.05, \quad f_{\text{agnostic self-identification, US}}\bigg|_{2000} \approx 0.03, \quad f\bigg|_{2020} \approx 0.06$$
+$$
+f_{\text{atheist self-identification, US}}\bigg|_{2000} \approx 0.02, \quad f\bigg|_{2020} \approx 0.05, \quad f_{\text{agnostic self-identification, US}}\bigg|_{2000} \approx 0.03, \quad f\bigg|_{2020} \approx 0.06
+\tag{16}
+$$
 
 per Pew Research reconstruction, though "nothing in particular" unaffiliation exceeded explicit atheist/agnostic identification documented in [A274][related_post_a274_diversification_and_consolidation]. The 2010s New Atheism institutional decline reflected internal controversies including 2011 "Elevatorgate" atheist community sexism disputes and several Sam Harris political controversies producing movement fragmentation.
 
@@ -166,7 +214,10 @@ per Pew Research reconstruction, though "nothing in particular" unaffiliation ex
 
 The rise of religiously unaffiliated Americans continued through 2000-2024 window. Approximate unaffiliated trajectory extended earlier trends documented in [A274][related_post_a274_diversification_and_consolidation],
 
-$$f_{\text{religiously unaffiliated, US}}\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2015} \approx 0.23, \quad f\bigg|_{2020} \approx 0.29, \quad f\bigg|_{2024} \approx 0.30$$
+$$
+f_{\text{religiously unaffiliated, US}}\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2015} \approx 0.23, \quad f\bigg|_{2020} \approx 0.29, \quad f\bigg|_{2024} \approx 0.30
+\tag{17}
+$$
 
 per Pew Research and American Religious Identification Survey reconstruction. 2015-2024 window produced "deconstruction" and "exvangelical" movements documenting evangelical departures. The [Whitehead and Perry 2020][book_whitehead_perry_2020] Taking America Back for God and [Burge 2021][book_burge_2021] The Nones provide the fullest treatments.
 
@@ -178,7 +229,10 @@ Christian nationalism as systematic 2000-2024 American political-theological fra
 
 Approximate Christian nationalist orientation identification reached considerable proportions,
 
-$$f_{\text{US Christian nationalist "Ambassadors" (systematic Christian nationalism affirmation)}}\bigg|_{2020} \approx 0.20, \quad f_{\text{"Accommodators" (partial affirmation)}}\bigg|_{2020} \approx 0.32, \quad f_{\text{"Resisters" (partial rejection)}}\bigg|_{2020} \approx 0.27, \quad f_{\text{"Rejecters" (systematic rejection)}}\bigg|_{2020} \approx 0.21$$
+$$
+f_{\text{US Christian nationalist "Ambassadors" (systematic Christian nationalism affirmation)}}\bigg|_{2020} \approx 0.20, \quad f_{\text{"Accommodators" (partial affirmation)}}\bigg|_{2020} \approx 0.32, \quad f_{\text{"Resisters" (partial rejection)}}\bigg|_{2020} \approx 0.27, \quad f_{\text{"Rejecters" (systematic rejection)}}\bigg|_{2020} \approx 0.21
+\tag{18}
+$$
 
 per Baylor Religion Survey and Whitehead-Perry reconstruction. The 6 January 2021 Capitol attack incorporated Christian nationalist imagery and participants, producing significant scholarly and journalistic attention to Christian nationalism as analytical category.
 
@@ -186,7 +240,10 @@ per Baylor Religion Survey and Whitehead-Perry reconstruction. The 6 January 202
 
 The 2016 Donald Trump election produced substantial evangelical Protestant voter realignment completing 1970s-2016 Religious Right trajectory documented in [A273][related_post_a273_postwar_transformation_and_reopening], [A274][related_post_a274_diversification_and_consolidation], and above. Election results reflected marked voter alignment,
 
-$$V_{\text{Trump 2016 popular}} \approx 6.29 \times 10^7, \quad V_{\text{Clinton 2016 popular}} \approx 6.58 \times 10^7, \quad V_{\text{Trump 2016 electoral}} = 304, \quad V_{\text{Clinton 2016 electoral}} = 227, \quad f_{\text{Trump white evangelical vote}} \approx 0.81, \quad f_{\text{Trump white Catholic vote}} \approx 0.60, \quad f_{\text{Clinton Jewish vote}} \approx 0.71, \quad f_{\text{Clinton Muslim vote}} \approx 0.72, \quad f_{\text{Clinton Nones vote}} \approx 0.68$$
+$$
+V_{\text{Trump 2016 popular}} \approx 6.29 \times 10^7, \quad V_{\text{Clinton 2016 popular}} \approx 6.58 \times 10^7, \quad V_{\text{Trump 2016 electoral}} = 304, \quad V_{\text{Clinton 2016 electoral}} = 227, \quad f_{\text{Trump white evangelical vote}} \approx 0.81, \quad f_{\text{Trump white Catholic vote}} \approx 0.60, \quad f_{\text{Clinton Jewish vote}} \approx 0.71, \quad f_{\text{Clinton Muslim vote}} \approx 0.72, \quad f_{\text{Clinton Nones vote}} \approx 0.68
+\tag{19}
+$$
 
 per Pew Research reconstruction. The [Alberta 2019][book_alberta_2019] American Carnage, [Fea 2018][book_fea_2018] Believe Me, and [Balmer 2021][book_balmer_2021_bad] Bad Faith provide the detailed treatments.
 
@@ -198,7 +255,10 @@ The 2010 Park51 Islamic Community Center controversy (colloquially termed "Groun
 
 Approximate opposition mobilization reached appreciable proportions,
 
-$$f_{\text{US public opposing Park51 project location, 2010 polling}} \approx 0.68, \quad N_{\text{documented anti-Muslim protests at Park51 site, 2010 to 2011}} \gtrsim 15$$
+$$
+f_{\text{US public opposing Park51 project location, 2010 polling}} \approx 0.68, \quad N_{\text{documented anti-Muslim protests at Park51 site, 2010 to 2011}} \gtrsim 15
+\tag{20}
+$$
 
 per differing 2010-2011 polling. The 2011 project cancellation and successor Community Center opening 2013 (reduced scope) completed controversy while broader Islamophobia mobilization framework continued through 2015-2024 window including 2015 Trump campaign anti-Muslim rhetoric, 2017 Muslim ban treated below, and several Islamophobia events.
 
@@ -210,7 +270,10 @@ Major Pope Francis documents produced substantial American Catholic reception. A
 
 American Catholic institutional reception of Pope Francis divided along ideological lines. Approximate 2014 US Catholic Francis approval reached
 
-$$f_{\text{Pope Francis approval, US Catholics}}\bigg|_{2014} \approx 0.85, \quad f_{\text{same}}\bigg|_{2018} \approx 0.75, \quad f_{\text{same}}\bigg|_{2024} \approx 0.75$$
+$$
+f_{\text{Pope Francis approval, US Catholics}}\bigg|_{2014} \approx 0.85, \quad f_{\text{same}}\bigg|_{2018} \approx 0.75, \quad f_{\text{same}}\bigg|_{2024} \approx 0.75
+\tag{21}
+$$
 
 per Pew Research polling, with sizable American conservative Catholic institutional opposition to Francis emerging through a range of controversies including 2018 Cardinal Vigano allegations regarding McCarrick case coverup and 2020-2024 various ongoing institutional contests.
 
@@ -218,7 +281,10 @@ per Pew Research polling, with sizable American conservative Catholic institutio
 
 Southern Baptist Convention (SBC) post-1979 fundamentalist takeover trajectory documented in [A273][related_post_a273_postwar_transformation_and_reopening] continued through 2000-2024 window with appreciable institutional consolidation combined with membership decline. Approximate SBC trajectory reached
 
-$$P_{\text{SBC membership, US}}\bigg|_{2000} \approx 1.63 \times 10^7, \quad P\bigg|_{2010} \approx 1.61 \times 10^7, \quad P\bigg|_{2020} \approx 1.4 \times 10^7, \quad P\bigg|_{2024} \approx 1.28 \times 10^7$$
+$$
+P_{\text{SBC membership, US}}\bigg|_{2000} \approx 1.63 \times 10^7, \quad P\bigg|_{2010} \approx 1.61 \times 10^7, \quad P\bigg|_{2020} \approx 1.4 \times 10^7, \quad P\bigg|_{2024} \approx 1.28 \times 10^7
+\tag{22}
+$$
 
 per SBC Annual Church Profile records. The 2018-2024 SBC decline accelerated approximately 20% cumulative membership loss across 2010-2024 window, reflecting broader Protestant institutional decline documented above.
 
@@ -228,24 +294,33 @@ The 22 May 2022 [SBC Guidepost Report 2022][ref_sbc_guidepost_2022] SBC Executiv
 
 African immigration through 2000-2024 window continued considerable expansion building on 1990s Diversity Visa Program documented in [A274][related_post_a274_diversification_and_consolidation]. Total African-born US population reached approximately
 
-$$P_{\text{African-born, US}}\bigg|_{2000} \approx 8.8 \times 10^5, \quad P\bigg|_{2010} \approx 1.6 \times 10^6, \quad P\bigg|_{2020} \approx 2.4 \times 10^6$$
+$$
+P_{\text{African-born, US}}\bigg|_{2000} \approx 8.8 \times 10^5, \quad P\bigg|_{2010} \approx 1.6 \times 10^6, \quad P\bigg|_{2020} \approx 2.4 \times 10^6
+\tag{23}
+$$
 
 per US Census records, producing approximately 2.7-fold expansion across 2000-2020 window. Major national-origin populations reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{Nigerian American, US}}\bigg|_{2020} &\approx 4.5 \times 10^5 \\
 P_{\text{Ethiopian American, US}}\bigg|_{2020} &\approx 3 \times 10^5 \\
 P_{\text{Somali American, US}}\bigg|_{2020} &\approx 1.7 \times 10^5 \\
 P_{\text{Ghanaian American, US}}\bigg|_{2020} &\approx 1.6 \times 10^5 \\
 P_{\text{Kenyan American, US}}\bigg|_{2020} &\approx 1.5 \times 10^5 \\
 P_{\text{Egyptian American, US}}\bigg|_{2020} &\approx 2.5 \times 10^5
-\end{aligned}$$
+\end{aligned}
+\tag{24}
+$$
 
 per US Census records. The [Arthur 2010][book_arthur_2010] African Diaspora Identities (already cited in A274), [Yankah 2018][book_yankah_2018] African Immigrants and Religious Pluralism (already cited in A274), and [Traore 2019][book_traore_2019] African Immigrants provide the most complete treatments.
 
 African American religious institutional formation continued significant expansion. Nigerian Pentecostal denominational American establishment reached substantial institutional presence,
 
-$$N_{\text{Redeemed Christian Church of God parishes, US}}\bigg|_{2010} \approx 4 \times 10^2, \quad N\bigg|_{2020} \approx 8 \times 10^2, \quad N_{\text{Church of Pentecost (Ghanaian) parishes, US}}\bigg|_{2020} \approx 150$$
+$$
+N_{\text{Redeemed Christian Church of God parishes, US}}\bigg|_{2010} \approx 4 \times 10^2, \quad N\bigg|_{2020} \approx 8 \times 10^2, \quad N_{\text{Church of Pentecost (Ghanaian) parishes, US}}\bigg|_{2020} \approx 150
+\tag{25}
+$$
 
 per institutional records. Ethiopian Orthodox Tewahedo institutional expansion produced approximately 100 US parishes by 2020, and Coptic Egyptian Orthodox institutional expansion produced approximately 200 US parishes by 2020. African American Muslim institutional expansion combined Somali populations documented above with West African and North African populations producing characteristic African-Muslim American institutional framework.
 
@@ -253,28 +328,40 @@ per institutional records. Ethiopian Orthodox Tewahedo institutional expansion p
 
 Latino diversification through 2000-2024 window expanded populations documented in [A273][related_post_a273_postwar_transformation_and_reopening] and [A274][related_post_a274_diversification_and_consolidation]. Total US Hispanic/Latino population reached approximately
 
-$$P_{\text{Hispanic/Latino, US}}\bigg|_{2000} \approx 3.53 \times 10^7, \quad P\bigg|_{2010} \approx 5.05 \times 10^7, \quad P\bigg|_{2020} \approx 6.22 \times 10^7, \quad f_{\text{Hispanic share, US population}}\bigg|_{2020} \approx 0.19$$
+$$
+P_{\text{Hispanic/Latino, US}}\bigg|_{2000} \approx 3.53 \times 10^7, \quad P\bigg|_{2010} \approx 5.05 \times 10^7, \quad P\bigg|_{2020} \approx 6.22 \times 10^7, \quad f_{\text{Hispanic share, US population}}\bigg|_{2020} \approx 0.19
+\tag{26}
+$$
 
 per US Census records. Central American population expansion continued through 2000-2024 window,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{Salvadoran American, US}}\bigg|_{2020} &\approx 2.4 \times 10^6 \\
 P_{\text{Guatemalan American, US}}\bigg|_{2020} &\approx 1.7 \times 10^6 \\
 P_{\text{Honduran American, US}}\bigg|_{2020} &\approx 1.05 \times 10^6 \\
 P_{\text{Nicaraguan American, US}}\bigg|_{2020} &\approx 4.6 \times 10^5
-\end{aligned}$$
+\end{aligned}
+\tag{27}
+$$
 
 per US Census records.
 
 Venezuelan migration accelerated through 2013-2024 window following Nicolás Maduro succession from Hugo Chávez, 2015-present hyperinflation and state collapse, and ongoing political-economic crisis. Total Venezuelan American population reached
 
-$$P_{\text{Venezuelan American, US}}\bigg|_{2000} \approx 9 \times 10^4, \quad P\bigg|_{2010} \approx 2.2 \times 10^5, \quad P\bigg|_{2020} \approx 5.5 \times 10^5, \quad P\bigg|_{2024} \approx 9 \times 10^5$$
+$$
+P_{\text{Venezuelan American, US}}\bigg|_{2000} \approx 9 \times 10^4, \quad P\bigg|_{2010} \approx 2.2 \times 10^5, \quad P\bigg|_{2020} \approx 5.5 \times 10^5, \quad P\bigg|_{2024} \approx 9 \times 10^5
+\tag{28}
+$$
 
 per US Census records. The [Garcia-Ferrer 2022][book_garcia_ferrer_2022] Venezuelan Migration and [Anguiano 2023][book_anguiano_2023] Latino Immigration provide the standard treatments.
 
 Latino religious composition continued marked transformation through 2000-2024 window. Approximate trajectory reached
 
-$$f_{\text{Catholic among US Hispanics}}\bigg|_{2000} \approx 0.67, \quad f\bigg|_{2013} \approx 0.55, \quad f\bigg|_{2020} \approx 0.47, \quad f_{\text{Protestant/Pentecostal among US Hispanics}}\bigg|_{2000} \approx 0.19, \quad f\bigg|_{2020} \approx 0.23, \quad f_{\text{unaffiliated among US Hispanics}}\bigg|_{2000} \approx 0.11, \quad f\bigg|_{2020} \approx 0.23$$
+$$
+f_{\text{Catholic among US Hispanics}}\bigg|_{2000} \approx 0.67, \quad f\bigg|_{2013} \approx 0.55, \quad f\bigg|_{2020} \approx 0.47, \quad f_{\text{Protestant/Pentecostal among US Hispanics}}\bigg|_{2000} \approx 0.19, \quad f\bigg|_{2020} \approx 0.23, \quad f_{\text{unaffiliated among US Hispanics}}\bigg|_{2000} \approx 0.11, \quad f\bigg|_{2020} \approx 0.23
+\tag{29}
+$$
 
 per Pew Research and American Religious Identification Survey reconstruction. The approximately 20-percentage-point Catholic decline across 2000-2020 window represented most rapid single-tradition American religious composition change, combining Pentecostal conversion, unaffiliation, and broader religious identification decline.
 
@@ -282,13 +369,19 @@ per Pew Research and American Religious Identification Survey reconstruction. Th
 
 South Asian mainstreaming through 2000-2024 window produced extensive American Indian American, Pakistani American, and Bangladeshi American professional and institutional integration. Combined South Asian American population reached approximately
 
-$$P_{\text{Indian American, US}}\bigg|_{2020} \approx 4.6 \times 10^6, \quad P_{\text{Pakistani American, US}}\bigg|_{2020} \approx 5.5 \times 10^5, \quad P_{\text{Bangladeshi American, US}}\bigg|_{2020} \approx 2.1 \times 10^5, \quad P_{\text{Nepalese American, US}}\bigg|_{2020} \approx 2 \times 10^5, \quad P_{\text{Sri Lankan American, US}}\bigg|_{2020} \approx 6 \times 10^4$$
+$$
+P_{\text{Indian American, US}}\bigg|_{2020} \approx 4.6 \times 10^6, \quad P_{\text{Pakistani American, US}}\bigg|_{2020} \approx 5.5 \times 10^5, \quad P_{\text{Bangladeshi American, US}}\bigg|_{2020} \approx 2.1 \times 10^5, \quad P_{\text{Nepalese American, US}}\bigg|_{2020} \approx 2 \times 10^5, \quad P_{\text{Sri Lankan American, US}}\bigg|_{2020} \approx 6 \times 10^4
+\tag{30}
+$$
 
 per US Census records. Professional integration produced sizable over-representation in medical, engineering, technology, and assorted professional occupations. The [Lal 2008][book_lal_2008] The Other Indians and [Prashad 2020][book_prashad_2020] India's Search for National Efficiency provide the fullest treatments.
 
 Indian American religious institutional expansion continued considerably,
 
-$$N_{\text{US Hindu temples}}\bigg|_{2000} \approx 4 \times 10^2, \quad N\bigg|_{2020} \approx 8 \times 10^2, \quad N_{\text{US Sikh gurdwaras}}\bigg|_{2000} \approx 130, \quad N\bigg|_{2020} \approx 350, \quad N_{\text{US Jain temples}}\bigg|_{2020} \approx 100$$
+$$
+N_{\text{US Hindu temples}}\bigg|_{2000} \approx 4 \times 10^2, \quad N\bigg|_{2020} \approx 8 \times 10^2, \quad N_{\text{US Sikh gurdwaras}}\bigg|_{2000} \approx 130, \quad N\bigg|_{2020} \approx 350, \quad N_{\text{US Jain temples}}\bigg|_{2020} \approx 100
+\tag{31}
+$$
 
 per institutional records. Political mainstreaming reached inflection points through 2010-2024 window including first Indian American Governor Bobby Jindal (Louisiana 2008-2016), Nikki Haley (South Carolina 2011-2017, subsequently UN Ambassador and 2024 Republican presidential candidate), first Sikh American Vice President Kamala Harris (2021-2025, though Harris's Sikh American paternal grandmother line combined with Jamaican paternal ancestry provided complex ethnic-religious background), first Bangladeshi American state legislator Hansen Clarke (Michigan), first Muslim American state legislator Rashida Tlaib (Michigan) and Ilhan Omar (Minnesota), and a number of others.
 
@@ -296,19 +389,28 @@ per institutional records. Political mainstreaming reached inflection points thr
 
 Post-2001 US refugee admissions produced appreciable admission composition transformation reflecting 2001-2024 Middle Eastern and broader conflict-related refugee flows. Annual US refugee admissions trajectory reached
 
-$$N_{\text{US refugee admissions}}\bigg|_{2000} \approx 7.2 \times 10^4, \quad N\bigg|_{2010} \approx 7.3 \times 10^4, \quad N\bigg|_{2016} \approx 8.5 \times 10^4, \quad N\bigg|_{2017} \approx 5.4 \times 10^4, \quad N\bigg|_{2020} \approx 1.2 \times 10^4, \quad N\bigg|_{2022} \approx 2.6 \times 10^4, \quad N\bigg|_{2024} \approx 1 \times 10^5$$
+$$
+N_{\text{US refugee admissions}}\bigg|_{2000} \approx 7.2 \times 10^4, \quad N\bigg|_{2010} \approx 7.3 \times 10^4, \quad N\bigg|_{2016} \approx 8.5 \times 10^4, \quad N\bigg|_{2017} \approx 5.4 \times 10^4, \quad N\bigg|_{2020} \approx 1.2 \times 10^4, \quad N\bigg|_{2022} \approx 2.6 \times 10^4, \quad N\bigg|_{2024} \approx 1 \times 10^5
+\tag{32}
+$$
 
 per US Office of Refugee Resettlement records. The 2017-2020 Trump administration refugee admission reduction represented 86% decline from 2016 baseline. The [Bruno 2020][book_bruno_2020_refugee] Refugee Admissions and [Bon Tempo 2020][book_bon_tempo_2020] Americans at the Gate provide the treatments.
 
 Iraqi refugee admissions accelerated through 2007-2020 window following 2007 [Iraqi Refugee Admissions Program 2007][ref_iraqi_refugee_program_2007] framework and 2008 [Refugee Crisis in Iraq Act][ref_refugee_crisis_iraq_act_2008] Refugee Crisis in Iraq Act. Total Iraqi refugee admissions reached approximately
 
-$$N_{\text{Iraqi refugee admissions, US, 2007 to 2020}} \approx 1.45 \times 10^5, \quad f_{\text{Christian among Iraqi refugee admissions}} \approx 0.35, \quad f_{\text{Muslim (Sunni and Shia)}} \approx 0.55, \quad f_{\text{Yazidi and other minority}} \approx 0.10$$
+$$
+N_{\text{Iraqi refugee admissions, US, 2007 to 2020}} \approx 1.45 \times 10^5, \quad f_{\text{Christian among Iraqi refugee admissions}} \approx 0.35, \quad f_{\text{Muslim (Sunni and Shia)}} \approx 0.55, \quad f_{\text{Yazidi and other minority}} \approx 0.10
+\tag{33}
+$$
 
 per US State Department Bureau of Population, Refugees, and Migration records. Iraqi Christian (Chaldean Catholic, Assyrian Church of the East, Syriac Orthodox, differing evangelical Protestant) admissions reflected Iraqi Christian persecution under 2003-2020 window conflicts.
 
 Syrian refugee admissions began in 2011 following Syrian Civil War onset. Total Syrian refugee admissions reached approximately
 
-$$N_{\text{Syrian refugee admissions, US, 2011 to 2017}} \approx 2.1 \times 10^4, \quad N_{\text{Syrian refugee admissions, US, 2018 to 2024}} \approx 2.5 \times 10^3$$
+$$
+N_{\text{Syrian refugee admissions, US, 2011 to 2017}} \approx 2.1 \times 10^4, \quad N_{\text{Syrian refugee admissions, US, 2018 to 2024}} \approx 2.5 \times 10^3
+\tag{34}
+$$
 
 per US State Department records, with dramatic decline reflecting Trump administration 2017 refugee ceiling reductions and systematic Syrian exclusion framework. European reception of approximately 1 million Syrian refugees through 2015-2016 exceeded US reception, producing comparative reception disparity noted by religious institutional and civil rights advocacy.
 
@@ -316,13 +418,19 @@ per US State Department records, with dramatic decline reflecting Trump administ
 
 Central American migration through 2000-2024 window continued considerable expansion documented in [A274][related_post_a274_diversification_and_consolidation]. Central American migration events reached numerical scale,
 
-$$N_{\text{unaccompanied minors, US-Mexico border, 2014}} \approx 6.8 \times 10^4, \quad N_{\text{2018 Central American caravan participants, peak}} \approx 7 \times 10^3, \quad N_{\text{US Southwest border encounters, fiscal year 2022}} \approx 2.4 \times 10^6, \quad N_{\text{US Southwest border encounters, fiscal year 2023}} \approx 2.5 \times 10^6$$
+$$
+N_{\text{unaccompanied minors, US-Mexico border, 2014}} \approx 6.8 \times 10^4, \quad N_{\text{2018 Central American caravan participants, peak}} \approx 7 \times 10^3, \quad N_{\text{US Southwest border encounters, fiscal year 2022}} \approx 2.4 \times 10^6, \quad N_{\text{US Southwest border encounters, fiscal year 2023}} \approx 2.5 \times 10^6
+\tag{35}
+$$
 
 producing significant institutional response combining religious voluntary agency (VOLAG) resettlement documented in [A273][related_post_a273_postwar_transformation_and_reopening] and [A274][related_post_a274_diversification_and_consolidation] with Sanctuary Movement continuation. The [De Genova and Peutz 2010][book_de_genova_peutz_2010] The Deportation Regime and [Hondagneu-Sotelo 2007][book_hondagneu_sotelo_2007] Religion and Social Justice for Immigrants provide the detailed treatments.
 
 The 6 April 2018 [Zero Tolerance Policy 2018][ref_zero_tolerance_2018] Trump administration Zero Tolerance immigration policy producing systematic family separation at US-Mexico border produced substantial religious institutional opposition. Approximate separations reached
 
-$$N_{\text{documented US-Mexico border family separations, April 2018 to June 2018}} \approx 5500, \quad N_{\text{additional undocumented separations, cumulative}} \gtrsim 1 \times 10^3$$
+$$
+N_{\text{documented US-Mexico border family separations, April 2018 to June 2018}} \approx 5500, \quad N_{\text{additional undocumented separations, cumulative}} \gtrsim 1 \times 10^3
+\tag{36}
+$$
 
 per US Department of Homeland Security Office of Inspector General reports. Religious institutional condemnation emerged rapidly, with 13 June 2018 US Conference of Catholic Bishops [USCCB Family Separation Statement 2018][ref_usccb_family_separation_2018] statement characterizing separation as "immoral" providing most pronounced American Catholic institutional immigration opposition of twenty-first century. Comparable evangelical Protestant (Franklin Graham, Southern Baptist Ethics and Religious Liberty Commission under Russell Moore), mainline Protestant (United Methodist Church, Presbyterian Church USA, Episcopal Church), Jewish (Union for Reform Judaism, American Jewish Committee), and several religious institutional condemnation accelerated administration policy reversal 20 June 2018 Executive Order.
 
@@ -330,13 +438,19 @@ per US Department of Homeland Security Office of Inspector General reports. Reli
 
 The 27 January 2017 [Executive Order 13769][ref_executive_order_13769_2017] Executive Order 13769 "Protecting the Nation from Foreign Terrorist Entry" (colloquially termed "Muslim ban") suspended entry from seven Muslim-majority countries (Iraq, Iran, Libya, Somalia, Sudan, Syria, Yemen),
 
-$$N_{\text{countries initially banned, EO 13769}} = 7, \quad t_{\text{initial entry suspension}} = 90 \text{ days}, \quad t_{\text{Syrian refugee suspension, complete}} = \text{indefinite}, \quad N_{\text{documented travelers detained at US airports, first weekend}} \gtrsim 700, \quad N_{\text{documented protesters at US airports, first weekend}} \gtrsim 5 \times 10^4$$
+$$
+N_{\text{countries initially banned, EO 13769}} = 7, \quad t_{\text{initial entry suspension}} = 90 \text{ days}, \quad t_{\text{Syrian refugee suspension, complete}} = \text{indefinite}, \quad N_{\text{documented travelers detained at US airports, first weekend}} \gtrsim 700, \quad N_{\text{documented protesters at US airports, first weekend}} \gtrsim 5 \times 10^4
+\tag{37}
+$$
 
 producing extensive immediate national reaction. Revisions through 6 March 2017 [Executive Order 13780 2017][ref_executive_order_13780_2017] Executive Order 13780, 24 September 2017 [Presidential Proclamation 9645 2017][ref_pp_9645_2017] Presidential Proclamation 9645, and 31 January 2020 [Presidential Proclamation 9983 2020][ref_pp_9983_2020] Presidential Proclamation 9983 modified covered countries while maintaining sizable Muslim-majority country restriction framework. The [Chishti and Bolter 2020][book_chishti_bolter_2020] The Trump Administration Immigration Legacy and [Cohn 2019][book_cohn_2019] Trump v. Hawaii provide the leading treatments.
 
 The 26 June 2018 [Trump v. Hawaii 585 2018][ref_trump_v_hawaii_2018] Trump v. Hawaii Supreme Court decision,
 
-$$V_{\text{Trump v. Hawaii majority}} = 5, \quad V_{\text{Trump v. Hawaii dissent}} = 4$$
+$$
+V_{\text{Trump v. Hawaii majority}} = 5, \quad V_{\text{Trump v. Hawaii dissent}} = 4
+\tag{38}
+$$
 
 upheld third revision of travel ban under broad executive authority framework. Chief Justice John Roberts's majority opinion repudiated 1944 Korematsu v. United States precedent documented in [A272][related_post_a272_depression_war_and_refuge] while upholding travel ban itself, producing characteristic doctrinal tension. Religious institutional opposition through amicus brief filings preceded 2021 Biden administration Executive Order rescission of travel ban.
 
@@ -344,11 +458,17 @@ upheld third revision of travel ban under broad executive authority framework. C
 
 The 2021 Afghan evacuation and Operation Allies Welcome program produced appreciable American Afghan population expansion following 15 August 2021 Taliban recapture of Kabul. Total Afghan admissions reached approximately
 
-$$N_{\text{Afghan Operation Allies Refuge/Welcome admissions, US, 2021 to 2023}} \approx 8 \times 10^4, \quad P_{\text{Afghan American, US}}\bigg|_{2020} \approx 1.5 \times 10^5, \quad P\bigg|_{2024} \approx 2.5 \times 10^5$$
+$$
+N_{\text{Afghan Operation Allies Refuge/Welcome admissions, US, 2021 to 2023}} \approx 8 \times 10^4, \quad P_{\text{Afghan American, US}}\bigg|_{2020} \approx 1.5 \times 10^5, \quad P\bigg|_{2024} \approx 2.5 \times 10^5
+\tag{39}
+$$
 
 per US Department of Homeland Security records. Institutional resettlement combined VOLAG framework documented in [A273][related_post_a273_postwar_transformation_and_reopening], Afghan Special Immigrant Visa (SIV) framework for US military interpreters and US embassy employees, and Humanitarian Parole framework. Approximate Afghan admission channel composition reached
 
-$$N_{\text{Afghan SIV admissions, US, 2009 to 2023}} \approx 6 \times 10^4, \quad N_{\text{Afghan Humanitarian Parolees, US, 2021 to 2023}} \approx 7 \times 10^4, \quad N_{\text{Afghan asylees and refugees, US, 2021 to 2023}} \approx 1 \times 10^4$$
+$$
+N_{\text{Afghan SIV admissions, US, 2009 to 2023}} \approx 6 \times 10^4, \quad N_{\text{Afghan Humanitarian Parolees, US, 2021 to 2023}} \approx 7 \times 10^4, \quad N_{\text{Afghan asylees and refugees, US, 2021 to 2023}} \approx 1 \times 10^4
+\tag{40}
+$$
 
 per US Department of Homeland Security records. The [Barfield 2010][book_barfield_2010] Afghanistan and [Coll 2018][book_coll_2018_directorate] Directorate S provide the comprehensive Afghanistan war and refugee context.
 
@@ -356,7 +476,10 @@ per US Department of Homeland Security records. The [Barfield 2010][book_barfiel
 
 The 21 April 2022 [Update on Form I-134A 2022][ref_uniting_for_ukraine_2022] Biden administration Uniting for Ukraine program provided two-year Humanitarian Parole admission for Ukrainian citizens with US-based sponsors following 24 February 2022 Russian invasion of Ukraine. Total Ukrainian admissions reached approximately
 
-$$N_{\text{Uniting for Ukraine admissions, 2022 to 2024}} \approx 2.6 \times 10^5, \quad P_{\text{Ukrainian American, US}}\bigg|_{2020} \approx 1 \times 10^6, \quad P\bigg|_{2024} \approx 1.3 \times 10^6$$
+$$
+N_{\text{Uniting for Ukraine admissions, 2022 to 2024}} \approx 2.6 \times 10^5, \quad P_{\text{Ukrainian American, US}}\bigg|_{2020} \approx 1 \times 10^6, \quad P\bigg|_{2024} \approx 1.3 \times 10^6
+\tag{41}
+$$
 
 per US Citizenship and Immigration Services records. American Ukrainian institutional response through Ukrainian Orthodox Church of the USA (Ecumenical Patriarchate jurisdiction), Ukrainian Greek Catholic Church, Ukrainian National Association, and a range of institutional networks provided considerable reception infrastructure combining pre-existing Ukrainian American community with new arrivals.
 
@@ -364,7 +487,10 @@ per US Citizenship and Immigration Services records. American Ukrainian institut
 
 Cuban migration accelerated through 2021-2024 window producing most significant single-nationality US migration flow of period. Total Cuban arrivals reached approximately
 
-$$N_{\text{Cuban arrivals, US, fiscal year 2022}} \approx 2.24 \times 10^5, \quad N_{\text{cumulative Cuban arrivals 2021 to 2024}} \gtrsim 5 \times 10^5$$
+$$
+N_{\text{Cuban arrivals, US, fiscal year 2022}} \approx 2.24 \times 10^5, \quad N_{\text{cumulative Cuban arrivals 2021 to 2024}} \gtrsim 5 \times 10^5
+\tag{42}
+$$
 
 per US Customs and Border Protection records, exceeding 1980 Mariel Boatlift documented in [A273][related_post_a273_postwar_transformation_and_reopening] in single-year 2022 total.
 
@@ -374,14 +500,17 @@ The September 2021 Del Rio, Texas Haitian migration crisis produced approximatel
 
 The 2000-2024 window produced marked American religious-motivated attacks reflecting religious pluralism tensions. Major documented incidents included
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Oak Creek Sikh Gurdwara shooting} &: 5 \text{ August } 2012, \quad N_{\text{dead}} = 6, \quad N_{\text{shooter Wade Michael Page (white supremacist)}} = 1 \\
 \text{Charleston Emanuel AME Church shooting} &: 17 \text{ June } 2015, \quad N_{\text{dead}} = 9, \quad N_{\text{shooter Dylann Roof (white supremacist)}} = 1 \\
 \text{Tree of Life Pittsburgh Synagogue shooting} &: 27 \text{ October } 2018, \quad N_{\text{dead}} = 11, \quad N_{\text{shooter Robert Bowers (antisemite)}} = 1 \\
 \text{Poway Chabad synagogue shooting} &: 27 \text{ April } 2019, \quad N_{\text{dead}} = 1 \\
 \text{Sutherland Springs Baptist Church shooting (Texas)} &: 5 \text{ November } 2017, \quad N_{\text{dead}} = 26 \\
 \text{Colleyville Beth Israel synagogue hostage} &: 15 \text{ January } 2022, \quad N_{\text{dead}} = 1
-\end{aligned}$$
+\end{aligned}
+\tag{43}
+$$
 
 per FBI hate crime and assorted incident documentation. The [Byman 2022][book_byman_2022] Spreading Hate treats the comprehensive contemporary religious-motivated violence framework.
 
@@ -389,13 +518,19 @@ per FBI hate crime and assorted incident documentation. The [Byman 2022][book_by
 
 The 2020-2022 COVID-19 pandemic produced extensive American religious institutional response. US COVID-19 mortality reached approximately
 
-$$N_{\text{US COVID-19 cumulative deaths through 2024}} \gtrsim 1.2 \times 10^6, \quad N_{\text{US COVID-19 peak monthly deaths, January 2021}} \approx 1 \times 10^5$$
+$$
+N_{\text{US COVID-19 cumulative deaths through 2024}} \gtrsim 1.2 \times 10^6, \quad N_{\text{US COVID-19 peak monthly deaths, January 2021}} \approx 1 \times 10^5
+\tag{44}
+$$
 
 per Centers for Disease Control and Prevention records. Religious institutional pandemic response combined mainline Protestant, Catholic, and a number of religious body compliance with public health measures and evangelical Protestant, Orthodox Jewish, and differing religious body resistance combining religious exemption claims with broader pandemic skepticism. The [Djupe and Burge 2022][book_djupe_burge_2022] The Politics of Vaccine Hesitancy and [Perry et al. 2023][book_perry_whitehead_grubbs_2023] Save the Souls provide the principal treatments.
 
 Approximate vaccine acceptance across religious traditions reached
 
-$$f_{\text{COVID vaccine acceptance, white evangelical Protestants}}\bigg|_{2021} \approx 0.55, \quad f_{\text{white mainline Protestants}} \approx 0.75, \quad f_{\text{white Catholics}} \approx 0.75, \quad f_{\text{Black Protestants}} \approx 0.55, \quad f_{\text{Jewish Americans}} \approx 0.85, \quad f_{\text{Muslim Americans}} \approx 0.70, \quad f_{\text{Nones}} \approx 0.80$$
+$$
+f_{\text{COVID vaccine acceptance, white evangelical Protestants}}\bigg|_{2021} \approx 0.55, \quad f_{\text{white mainline Protestants}} \approx 0.75, \quad f_{\text{white Catholics}} \approx 0.75, \quad f_{\text{Black Protestants}} \approx 0.55, \quad f_{\text{Jewish Americans}} \approx 0.85, \quad f_{\text{Muslim Americans}} \approx 0.70, \quad f_{\text{Nones}} \approx 0.80
+\tag{45}
+$$
 
 per Public Religion Research Institute polling. The 24 November 2020 [Roman Catholic Diocese 2020][ref_diocese_brooklyn_cuomo_2020] Supreme Court decision (5-4) struck down New York gathering limits as applied to religious services, producing religious free exercise pandemic-era jurisprudence framework favoring religious institutional attendance rights over public health capacity restrictions.
 
@@ -403,13 +538,19 @@ per Public Religion Research Institute polling. The 24 November 2020 [Roman Cath
 
 The 25 May 2020 George Floyd killing at Minneapolis produced sizable American racial justice mobilization combined with religious institutional response. Approximate mobilization scales reached
 
-$$N_{\text{documented US 2020 racial justice protests, cumulative May to August 2020}} \approx 1 \times 10^4, \quad N_{\text{estimated cumulative US 2020 racial justice protest participants}} \approx 1.5 \times 10^7 \text{ to } 2.6 \times 10^7$$
+$$
+N_{\text{documented US 2020 racial justice protests, cumulative May to August 2020}} \approx 1 \times 10^4, \quad N_{\text{estimated cumulative US 2020 racial justice protest participants}} \approx 1.5 \times 10^7 \text{ to } 2.6 \times 10^7
+\tag{46}
+$$
 
 per Crowd Counting Consortium and several tracking projects, producing what historians have characterized as most substantial single American protest movement in US history. The [Kendi 2019][book_kendi_2019] How to Be an Antiracist and [Tisby 2019][book_tisby_2019] The Color of Compromise provide the religious-adjacent treatments.
 
 Religious institutional response combined Black church mobilization, mainline Protestant institutional support, Catholic institutional condemnation of killing (12 June 2020 US Conference of Catholic Bishops [USCCB Racism Statement 2020][ref_usccb_racism_2020] statement), Jewish institutional support, American Muslim mobilization, and a range of religious body responses. Evangelical Protestant institutional response divided between "racial reconciliation" framework (Southern Baptist Ethics and Religious Liberty Commission under Russell Moore) and opposition to "critical race theory" framework, with approximate polling reflecting considerable tradition-based support divergence,
 
-$$f_{\text{support for Black Lives Matter, US Nones}}\bigg|_{2020} \approx 0.75, \quad f_{\text{Black Protestants}} \approx 0.86, \quad f_{\text{Jewish Americans}} \approx 0.66, \quad f_{\text{white mainline Protestants}} \approx 0.58, \quad f_{\text{white Catholics}} \approx 0.48, \quad f_{\text{white evangelicals}} \approx 0.28$$
+$$
+f_{\text{support for Black Lives Matter, US Nones}}\bigg|_{2020} \approx 0.75, \quad f_{\text{Black Protestants}} \approx 0.86, \quad f_{\text{Jewish Americans}} \approx 0.66, \quad f_{\text{white mainline Protestants}} \approx 0.58, \quad f_{\text{white Catholics}} \approx 0.48, \quad f_{\text{white evangelicals}} \approx 0.28
+\tag{47}
+$$
 
 per Pew Research 2020 polling. Denominational contests through 2020-2024 window followed.
 
@@ -419,21 +560,27 @@ The 24 June 2022 [Dobbs v. Jackson Women's 2022][ref_dobbs_v_jackson_2022] Dobbs
 
 Post-Dobbs state-level trajectory produced significant institutional contests. Approximate state abortion status by 2024 reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{US states with full abortion bans, 2024}} &\approx 14 \\
 N_{\text{US states with 6-week or comparable early bans}} &\approx 6 \\
 N_{\text{US states protecting abortion access}} &\approx 20 \\
 N_{\text{US states with intermediate restrictions}} &\approx 10
-\end{aligned}$$
+\end{aligned}
+\tag{48}
+$$
 
 per Guttmacher Institute reconstruction. 2022-2024 ballot initiatives favored abortion protection frameworks even in historically Republican-leaning states,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Kansas August 2022 (protecting abortion access)} &: 59\% \text{ favor}, 41\% \text{ opposed} \\
 \text{Michigan November 2022 (constitutional protection)} &: 57\% \text{ favor}, 43\% \text{ opposed} \\
 \text{Ohio November 2023 (constitutional protection)} &: 57\% \text{ favor}, 43\% \text{ opposed} \\
 \text{Missouri November 2024 (constitutional protection)} &: 52\% \text{ favor}, 48\% \text{ opposed}
-\end{aligned}$$
+\end{aligned}
+\tag{49}
+$$
 
 producing complex electoral realignment framework across elections. The 2024 election abortion mobilization shaped various Congressional and state-level contests.
 
@@ -441,7 +588,8 @@ producing complex electoral realignment framework across elections. The 2024 ele
 
 Contemporary religious sorting through 2000-2024 window produced substantial American religious-political realignment. Approximate 2020 election religious voter alignment reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Trump 2020 white evangelical vote}} &\approx 0.84 \\
 f_{\text{Biden 2020 white evangelical vote}} &\approx 0.15 \\
 f_{\text{Trump 2020 white mainline Protestant}} &\approx 0.57 \\
@@ -450,7 +598,9 @@ f_{\text{Biden 2020 Jewish}} &\approx 0.68 \\
 f_{\text{Biden 2020 Muslim}} &\approx 0.69 \\
 f_{\text{Biden 2020 Nones}} &\approx 0.72 \\
 f_{\text{Biden 2020 Black Protestant}} &\approx 0.90
-\end{aligned}$$
+\end{aligned}
+\tag{50}
+$$
 
 per Pew Research and assorted exit polling reconstruction. The characteristic contemporary partisan alignment combines white evangelical Protestant-Republican identification, mainline Protestant, Catholic, Jewish, Muslim, and Nones-Democratic alignment, and Black Protestant-Democratic alignment predating twentieth-century civil rights realignment documented in [A272][related_post_a272_depression_war_and_refuge]. The [Campbell et al. 2020][book_campbell_green_layman_2020] Secular Surge and [Wehner 2019][book_wehner_2019] The Death of Politics provide the standard treatments.
 
@@ -460,7 +610,10 @@ Contemporary religious sorting exceeds mid-twentieth-century religious-political
 
 The 6 January 2021 US Capitol attack following Trump "Save America" rally at Ellipse produced marked American religious-political inflection combining Christian nationalist iconography with systematic election denial mobilization. Approximate participation reached
 
-$$N_{\text{Trump rally attendance, 6 January 2021 Ellipse}} \approx 5 \times 10^4, \quad N_{\text{documented Capitol attackers}} \approx 2 \times 10^3, \quad N_{\text{Capitol attack deaths (rioter and police, immediate and subsequent)}} = 9, \quad N_{\text{federal charges filed through 2024}} \gtrsim 1500$$
+$$
+N_{\text{Trump rally attendance, 6 January 2021 Ellipse}} \approx 5 \times 10^4, \quad N_{\text{documented Capitol attackers}} \approx 2 \times 10^3, \quad N_{\text{Capitol attack deaths (rioter and police, immediate and subsequent)}} = 9, \quad N_{\text{federal charges filed through 2024}} \gtrsim 1500
+\tag{51}
+$$
 
 per US Department of Justice Capitol attack investigation records. The [Stewart 2022][book_stewart_2022] The Power Worshippers, [Miller 2022][book_miller_2022_capitol] The Battle for the American Mind, and [Djupe and Wagner 2022][book_djupe_wagner_2022] Christian Nationalism and the January 6th Insurrection provide the fullest treatments.
 
@@ -474,7 +627,10 @@ The 2017-2020 Trump Supreme Court appointments (Neil Gorsuch April 2017, Brett K
 
 Amy Coney Barrett's 26 October 2020 Senate confirmation (52-48 vote, first Justice confirmed without any opposing party support since 1869) followed Ruth Bader Ginsburg's 18 September 2020 death reshaping Supreme Court ideological composition. Approximate religious identification of Court composition post-Barrett confirmation reached
 
-$$f_{\text{Catholic among US Supreme Court Justices, 2020}} \approx 0.78, \quad N_{\text{Catholic Justices, 2020}} = 7, \quad N_{\text{Jewish Justices, 2020}} = 2, \quad N_{\text{Justices with Catholic secondary education}} \gtrsim 8$$
+$$
+f_{\text{Catholic among US Supreme Court Justices, 2020}} \approx 0.78, \quad N_{\text{Catholic Justices, 2020}} = 7, \quad N_{\text{Jewish Justices, 2020}} = 2, \quad N_{\text{Justices with Catholic secondary education}} \gtrsim 8
+\tag{52}
+$$
 
 exceeding Catholic share of US population (approximately 21%) documented above. The religious right jurisprudential expansion through 2020-2024 window included 2022 Dobbs decision documented above, 2022 Kennedy v. Bremerton School District (school prayer), 2023 303 Creative decision documented above, and several religious liberty expansion cases reflecting consolidated religious right jurisprudential framework.
 
@@ -484,7 +640,10 @@ The United Methodist Church (UMC) 2019-2024 schism produced extensive American m
 
 Subsequent January 2020 [UMC Protocol Agreement 2020][ref_umc_protocol_2020] Protocol of Reconciliation and Grace Through Separation provided bilateral separation framework, though COVID-19 pandemic and delays prevented formal implementation. 1 May 2022 Global Methodist Church (GMC) formation provided alternative traditionalist denomination attracting appreciable UMC congregations. Approximate UMC-to-GMC disaffiliation reached
 
-$$N_{\text{UMC congregations approved for disaffiliation, 2019 to 2023}} \approx 7660, \quad f_{\text{UMC US congregation disaffiliation share}} \approx 0.25, \quad P_{\text{GMC membership, 2024}} \approx 5 \times 10^5$$
+$$
+N_{\text{UMC congregations approved for disaffiliation, 2019 to 2023}} \approx 7660, \quad f_{\text{UMC US congregation disaffiliation share}} \approx 0.25, \quad P_{\text{GMC membership, 2024}} \approx 5 \times 10^5
+\tag{53}
+$$
 
 per institutional records. The 3 May 2024 UMC General Conference at Charlotte, North Carolina removed historic denominational prohibitions on same-sex marriage and LGBT clergy ordination completing denominational restructuring, though ongoing institutional recalibration continued through 2024-2026 window.
 
@@ -494,7 +653,10 @@ The 15 June 2012 [DACA 2012][ref_daca_2012] Deferred Action for Childhood Arriva
 
 DACA program scale reached considerable proportions,
 
-$$N_{\text{DACA initial applicants approved, 2012 to 2013}} \approx 4.8 \times 10^5, \quad N_{\text{DACA cumulative recipients through 2024}} \approx 8 \times 10^5, \quad N_{\text{active DACA recipients, 2024}} \approx 5.8 \times 10^5$$
+$$
+N_{\text{DACA initial applicants approved, 2012 to 2013}} \approx 4.8 \times 10^5, \quad N_{\text{DACA cumulative recipients through 2024}} \approx 8 \times 10^5, \quad N_{\text{active DACA recipients, 2024}} \approx 5.8 \times 10^5
+\tag{54}
+$$
 
 per US Citizenship and Immigration Services records. Religious institutional support for DACA emerged through US Conference of Catholic Bishops, evangelical immigration table (National Association of Evangelicals, World Relief), mainline Protestant denominational bodies, a range of Jewish and American Muslim organizations. 2017 Trump administration DACA termination attempt, 18 June 2020 [DHS v. Regents 2020][ref_dhs_v_regents_2020] Department of Homeland Security v. Regents of the University of California 5-4 Supreme Court decision blocking termination on Administrative Procedure Act grounds, and 2021-2024 lower court challenges maintained DACA framework while ongoing legislative reform (various DREAM Act versions from 2001 forward) failed Congressional passage through 2024 window.
 
@@ -502,11 +664,17 @@ per US Citizenship and Immigration Services records. Religious institutional sup
 
 The 7 October 2023 Hamas attack on Israel produced significant American Jewish institutional response and ongoing religious-political consequences. Attack casualties reached
 
-$$N_{\text{Israeli dead, 7 October 2023 Hamas attack}} \approx 1200, \quad N_{\text{Israeli hostages taken}} \approx 250, \quad N_{\text{Americans among 7 October dead}} \approx 40$$
+$$
+N_{\text{Israeli dead, 7 October 2023 Hamas attack}} \approx 1200, \quad N_{\text{Israeli hostages taken}} \approx 250, \quad N_{\text{Americans among 7 October dead}} \approx 40
+\tag{55}
+$$
 
 per Israeli government and US State Department records. Subsequent 2023-2024 Israeli response in Gaza produced approximately
 
-$$N_{\text{Gazan dead, 7 October 2023 to 2024, various estimates}} \gtrsim 4.5 \times 10^4, \quad N_{\text{Gazans displaced}} \gtrsim 1.7 \times 10^6$$
+$$
+N_{\text{Gazan dead, 7 October 2023 to 2024, various estimates}} \gtrsim 4.5 \times 10^4, \quad N_{\text{Gazans displaced}} \gtrsim 1.7 \times 10^6
+\tag{56}
+$$
 
 per Gaza Health Ministry and UN OCHA estimates. The [Beinart 2024][book_beinart_2024_gaza] Being Jewish After Gaza and [Chomsky 2024][book_chomsky_2024_gaza] Notes on Gaza provide the principal treatments.
 
@@ -514,7 +682,10 @@ American Jewish institutional response divided along pre-existing denominational
 
 2023-2024 American antisemitism increase reached
 
-$$N_{\text{documented anti-Semitic incidents, US, 2023}} \approx 8873, \quad N\bigg|_{2024} \approx 9354, \quad \Delta_{\text{2022 to 2023 increase}} \approx +\text{140\%}$$
+$$
+N_{\text{documented anti-Semitic incidents, US, 2023}} \approx 8873, \quad N\bigg|_{2024} \approx 9354, \quad \Delta_{\text{2022 to 2023 increase}} \approx +\text{140\%}
+\tag{57}
+$$
 
 per Anti-Defamation League records, producing most substantial American anti-Semitic incident increase in ADL tracking history. Concurrent 2023-2024 American Islamophobia and anti-Palestinian and anti-Arab incidents similarly increased significantly. 2023-2024 university campus protests over Israeli Gaza military operation produced marked religious-political controversies through university encampments, differing student and faculty mobilization, and administrative response producing ongoing twenty-first-century religious-political contest treated in subsequent literature.
 
@@ -522,7 +693,10 @@ per Anti-Defamation League records, producing most substantial American anti-Sem
 
 The He Gets Us evangelical advertising campaign, launched March 2022 under The Servant Foundation with approximately $100 million initial funding, produced most extensive single American evangelical mainstream media mobilization of 2020s. Campaign scope included Super Bowl LVII (2023) two 30-second commercials and Super Bowl LVIII (2024) 60-second commercial reaching approximately
 
-$$N_{\text{He Gets Us Super Bowl 2024 60-second commercial audience}} \approx 1.23 \times 10^8, \quad C_{\text{He Gets Us cumulative campaign expenditure, 2022 to 2024}} \gtrsim 3 \times 10^8 \text{ USD}$$
+$$
+N_{\text{He Gets Us Super Bowl 2024 60-second commercial audience}} \approx 1.23 \times 10^8, \quad C_{\text{He Gets Us cumulative campaign expenditure, 2022 to 2024}} \gtrsim 3 \times 10^8 \text{ USD}
+\tag{58}
+$$
 
 per institutional records. The [Willmer 2024][book_willmer_2024_hegetsus] He Gets Us Campaign treats the institutional development.
 
@@ -558,6 +732,562 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct assessment of post-2001 refugee dynamics and relationship to broader US immigration policy trajectory?
 - What is the correct empirical characterization of Latino religious composition transformation and relationship to broader Latino demographic and political integration?
 - What is the correct assessment of Dobbs v. Jackson 2022 long-term political and religious institutional effects?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 58 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 58, 57 are established and 1 are bespoke.
+Every figure is an approximate historical count, share or monetary amount as reported by the source the article names, a share written as f is a fraction between zero and one while a few ballot results and one relative change are written in percent, and monetary amounts are nominal United States dollars unless the equation states otherwise.
+
+**Equation 1, Foreign-Born Population of the United States, 2000 to 2020.**
+The census counts of the foreign-born population for 2000, 2010 and 2020 are stated with the foreign-born share of the 2020 population, which approaches its level before the 1924 restriction.
+
+$$
+P_{\text{foreign-born, US}}\bigg|_{2000} \approx 3.11 \times 10^7, \quad P\bigg|_{2010} \approx 3.99 \times 10^7, \quad P\bigg|_{2020} \approx 4.47 \times 10^7, \quad f_{\text{foreign-born share}}\bigg|_{2020} \approx 0.135
+\tag{1}
+$$
+
+**Equation 2, Religious Composition of the United States, 2000 to 2024.**
+Survey shares of Christians, the principal Protestant and Catholic groupings, the smaller traditions and the unaffiliated are stated for the years the Pew Research Center and the American Religious Identification Survey report.
+[Jones 2016][book_jones_2016]
+[Chaves 2011][book_chaves_2011]
+
+$$
+\begin{aligned}
+f_{\text{Christian, US}}\bigg|_{2000} &\approx 0.82, \quad f\bigg|_{2010} \approx 0.78, \quad f\bigg|_{2020} \approx 0.63, \quad f\bigg|_{2024} \approx 0.62 \\
+f_{\text{White evangelical Protestant, US}}\bigg|_{2000} &\approx 0.23, \quad f\bigg|_{2020} \approx 0.14 \\
+f_{\text{White mainline Protestant, US}}\bigg|_{2000} &\approx 0.18, \quad f\bigg|_{2020} \approx 0.11 \\
+f_{\text{Catholic, US}}\bigg|_{2000} &\approx 0.24, \quad f\bigg|_{2020} \approx 0.21 \\
+f_{\text{Jewish, US}}\bigg|_{2020} &\approx 0.024 \\
+f_{\text{Muslim, US}}\bigg|_{2020} &\approx 0.011 \\
+f_{\text{Hindu, US}}\bigg|_{2020} &\approx 0.007 \\
+f_{\text{Buddhist, US}}\bigg|_{2020} &\approx 0.007 \\
+f_{\text{Unaffiliated, US}}\bigg|_{2000} &\approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2020} \approx 0.29, \quad f\bigg|_{2024} \approx 0.30
+\end{aligned}
+\tag{2}
+$$
+
+**Equation 3, Casualties of the Attacks of 11 September 2001.**
+The recorded dead, the lower bound on the injured and the lower bound on later deaths of first responders from related illness are taken from the records of the National September 11 Memorial and Museum.
+
+$$
+N_{\text{9/11 attacks total dead}} = 2977, \quad N_{\text{9/11 attacks injured}} \gtrsim 6 \times 10^3, \quad N_{\text{first responder deaths, subsequent 9/11-related illness through 2020}} \gtrsim 5 \times 10^2
+\tag{3}
+$$
+
+**Equation 4, Documented Anti-Muslim Hate Crimes, 2001 to 2016.**
+Annual counts of anti-Muslim hate crimes from the hate crime statistics of the Federal Bureau of Investigation show peaks in 2001 and in 2015 and 2016.
+
+$$
+N_{\text{documented anti-Muslim hate crimes, US, 2001}} \approx 481, \quad N\bigg|_{2002} \approx 155, \quad N\bigg|_{2015} \approx 257, \quad N\bigg|_{2016} \approx 307
+\tag{4}
+$$
+
+**Equation 5, Casualties and Cost of the Iraq War.**
+American military dead and wounded, a lower bound on Iraqi civilian dead and the cumulative American cost through 2020 are taken from Department of Defense, Iraq Body Count and Congressional Research Service records.
+
+$$
+N_{\text{US military dead, Iraq War 2003-2011}} \approx 4491, \quad N_{\text{US military wounded}} \approx 3.2 \times 10^4, \quad N_{\text{Iraqi civilian dead, various estimates}} \gtrsim 1 \times 10^5, \quad C_{\text{Iraq War aggregate US cost, cumulative through 2020}} \approx 2 \times 10^{12} \text{ USD nominal}
+\tag{5}
+$$
+
+**Equation 6, Support for the Iraq War by Religious Tradition, 2003.**
+The share of each religious tradition supporting the war in 2003 is taken from Pew Research Center polling and runs from about three quarters of white evangelicals to under a third of Black Protestants.
+
+$$
+f_{\text{Iraq War support, white evangelical Protestants}}\bigg|_{2003} \approx 0.77, \quad f_{\text{white mainline Protestants}} \approx 0.55, \quad f_{\text{white Catholics}} \approx 0.42, \quad f_{\text{Black Protestants}} \approx 0.28, \quad f_{\text{Jewish Americans}} \approx 0.36
+\tag{6}
+$$
+
+**Equation 7, Scale of the Catholic Clergy Sexual Abuse Crisis.**
+The count of accused priests, a lower bound on victims and the aggregate diocesan settlement expenditure are drawn from the John Jay College reports and other institutional documentation.
+[John Jay Report 2004][ref_john_jay_report_2004]
+[John Jay Report 2011][ref_john_jay_report_2011]
+
+$$
+N_{\text{documented US Catholic priest sexual abuse allegations, 1950 to 2002}} \approx 4400, \quad N_{\text{documented US Catholic clergy sexual abuse victims, 1950 to 2020}} \gtrsim 2 \times 10^4, \quad C_{\text{US Catholic diocesan aggregate settlement expenditure, 1950 to 2020}} \approx 4 \times 10^9 \text{ USD nominal}
+\tag{7}
+$$
+
+**Equation 8, Catholic Diocesan and Religious Order Bankruptcy Filings, 2004 to 2024.**
+The count of diocesan filings under Chapter 11 and a lower bound on filings by religious orders are taken from bankruptcy court records.
+
+$$
+N_{\text{US Catholic diocesan Chapter 11 bankruptcy filings, 2004 to 2024}} \approx 30, \quad N_{\text{additional Catholic religious order bankruptcy filings}} \gtrsim 10
+\tag{8}
+$$
+
+**Equation 9, Presidential Election Result and Religious Vote, 2004.**
+The popular and electoral votes of Bush and Kerry are stated with the Bush share among white evangelicals, white Catholics, Jewish voters and Black Protestants from exit polling.
+
+$$
+V_{\text{Bush 2004 popular}} \approx 6.20 \times 10^7, \quad V_{\text{Kerry 2004 popular}} \approx 5.90 \times 10^7, \quad V_{\text{Bush 2004 electoral}} = 286, \quad V_{\text{Kerry 2004 electoral}} = 251, \quad f_{\text{white evangelical Bush vote}} \approx 0.78, \quad f_{\text{white Catholic Bush vote}} \approx 0.52, \quad f_{\text{Jewish Bush vote}} \approx 0.24, \quad f_{\text{Black Protestant Bush vote}} \approx 0.13
+\tag{9}
+$$
+
+**Equation 10, Landmarks of the Legal Recognition of Same-Sex Marriage, 2003 to 2022.**
+The years of the principal court decisions, ballot measures and statutes are listed in order from the Goodridge decision to the Respect for Marriage Act.
+[Goodridge v. Department 2003][ref_goodridge_2003]
+[Windsor v. United States 2013][ref_windsor_v_us_2013]
+[Klarman 2013][book_klarman_2013]
+
+$$
+\begin{aligned}
+\text{Massachusetts Goodridge decision} &: 2003, \text{ first US state same-sex marriage} \\
+\text{California Proposition 8 passage} &: 2008 \text{ ballot} \\
+\text{Perry v. Schwarzenegger federal ruling} &: 2010 \\
+\text{Windsor v. United States DOMA struck down} &: 2013 \\
+\text{Obergefell v. Hodges nationwide same-sex marriage} &: 2015 \\
+\text{Respect for Marriage Act federal statutory protection} &: 2022
+\end{aligned}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Tally of Denominational Positions on Same-Sex Marriage, 2020.*
+The shares of denominations supporting, opposing or divided on same-sex marriage rites are an apportionment the article assembles from unspecified denominational documentation over an undefined and unweighted set of denominations.
+
+$$
+\begin{aligned}
+f_{\text{denominations formally supporting same-sex marriage rites, US}}\bigg|_{2020} &\approx 0.30 \text{ (mainline Protestant majority)} \\
+f_{\text{denominations formally opposing}}\bigg|_{2020} &\approx 0.55 \text{ (evangelical, Catholic, Orthodox, Muslim, Orthodox Jewish)} \\
+f_{\text{denominations divided or transitional}}\bigg|_{2020} &\approx 0.15
+\end{aligned}
+\tag{11}
+$$
+
+**Equation 12, Vote in Burwell v. Hobby Lobby and Corporations Affected.**
+The five to four division of the Supreme Court is stated with a lower bound on the closely held corporations to which the ruling could apply.
+[Burwell v. Hobby Lobby 2014][ref_burwell_v_hobby_lobby_2014]
+
+$$
+V_{\text{Hobby Lobby majority}} = 5, \quad V_{\text{Hobby Lobby dissent}} = 4, \quad N_{\text{closely-held US corporations potentially affected}} \gtrsim 9 \times 10^4
+\tag{12}
+$$
+
+**Equation 13, Presidential Election Result and Religious Vote, 2008.**
+The popular and electoral votes of Obama and McCain are stated with the Obama share in six religious groups from Pew Research Center and exit polling.
+
+$$
+V_{\text{Obama 2008 popular}} \approx 6.95 \times 10^7, \quad V_{\text{McCain 2008 popular}} \approx 5.99 \times 10^7, \quad V_{\text{Obama 2008 electoral}} = 365, \quad V_{\text{McCain 2008 electoral}} = 173, \quad f_{\text{Obama Black Protestant vote}} \approx 0.96, \quad f_{\text{Obama white evangelical vote}} \approx 0.24, \quad f_{\text{Obama Catholic vote}} \approx 0.54, \quad f_{\text{Obama Jewish vote}} \approx 0.78, \quad f_{\text{Obama Muslim vote}} \approx 0.89, \quad f_{\text{Obama Nones vote}} \approx 0.75
+\tag{13}
+$$
+
+**Equation 14, Osteen Book Sales and Lakewood Church Revenue.**
+Cumulative sales of one book and of all books by Osteen and the annual revenue of Lakewood Church near its peak are taken from institutional records.
+
+$$
+N_{\text{Osteen "Your Best Life Now" cumulative sales through 2020}} \approx 8 \times 10^6, \quad N_{\text{Osteen aggregate book sales, cumulative}} \gtrsim 2 \times 10^7, \quad C_{\text{Lakewood Church annual revenue, peak c. 2020}} \approx 9 \times 10^7 \text{ USD}
+\tag{14}
+$$
+
+**Equation 15, Affirmation of the Prosperity Gospel Tenet, 2018.**
+The share affirming that God grants financial prosperity to the faithful is stated for all American Christians, for evangelicals and for Pentecostals from LifeWay Research and Pew Research Center surveys.
+
+$$
+f_{\text{US Christians affirming prosperity gospel core tenet ("God will grant financial prosperity to faithful believers")}}\bigg|_{2018} \approx 0.44, \quad f_{\text{same among evangelicals}}\bigg|_{2018} \approx 0.55, \quad f_{\text{same among Pentecostals}}\bigg|_{2018} \approx 0.66
+\tag{15}
+$$
+
+**Equation 16, Atheist and Agnostic Self-Identification, 2000 and 2020.**
+The survey shares of adults identifying as atheist and as agnostic roughly double over two decades.
+
+$$
+f_{\text{atheist self-identification, US}}\bigg|_{2000} \approx 0.02, \quad f\bigg|_{2020} \approx 0.05, \quad f_{\text{agnostic self-identification, US}}\bigg|_{2000} \approx 0.03, \quad f\bigg|_{2020} \approx 0.06
+\tag{16}
+$$
+
+**Equation 17, Religiously Unaffiliated Share of Adults, 2000 to 2024.**
+The survey share of adults with no religious affiliation rises from about one in seven in 2000 to about three in ten in 2024.
+[Burge 2021][book_burge_2021]
+
+$$
+f_{\text{religiously unaffiliated, US}}\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2015} \approx 0.23, \quad f\bigg|_{2020} \approx 0.29, \quad f\bigg|_{2024} \approx 0.30
+\tag{17}
+$$
+
+**Equation 18, Christian Nationalism Orientation Categories, 2020.**
+The shares of the four orientations of Whitehead and Perry, from Ambassadors to Rejecters, are taken from the Baylor Religion Survey and sum to one.
+[Whitehead and Perry 2020][book_whitehead_perry_2020]
+
+$$
+f_{\text{US Christian nationalist "Ambassadors" (systematic Christian nationalism affirmation)}}\bigg|_{2020} \approx 0.20, \quad f_{\text{"Accommodators" (partial affirmation)}}\bigg|_{2020} \approx 0.32, \quad f_{\text{"Resisters" (partial rejection)}}\bigg|_{2020} \approx 0.27, \quad f_{\text{"Rejecters" (systematic rejection)}}\bigg|_{2020} \approx 0.21
+\tag{18}
+$$
+
+**Equation 19, Presidential Election Result and Religious Vote, 2016.**
+The popular and electoral votes of Trump and Clinton are stated with each candidate's share in five religious groups from Pew Research Center analysis.
+
+$$
+V_{\text{Trump 2016 popular}} \approx 6.29 \times 10^7, \quad V_{\text{Clinton 2016 popular}} \approx 6.58 \times 10^7, \quad V_{\text{Trump 2016 electoral}} = 304, \quad V_{\text{Clinton 2016 electoral}} = 227, \quad f_{\text{Trump white evangelical vote}} \approx 0.81, \quad f_{\text{Trump white Catholic vote}} \approx 0.60, \quad f_{\text{Clinton Jewish vote}} \approx 0.71, \quad f_{\text{Clinton Muslim vote}} \approx 0.72, \quad f_{\text{Clinton Nones vote}} \approx 0.68
+\tag{19}
+$$
+
+**Equation 20, Public Opposition to the Park51 Location, 2010.**
+The polled share opposing the location of the community centre is stated with a lower bound on documented protests at the site.
+
+$$
+f_{\text{US public opposing Park51 project location, 2010 polling}} \approx 0.68, \quad N_{\text{documented anti-Muslim protests at Park51 site, 2010 to 2011}} \gtrsim 15
+\tag{20}
+$$
+
+**Equation 21, Approval of Pope Francis Among American Catholics, 2014 to 2024.**
+Pew Research Center polling puts approval at about eighty five percent in 2014, settling near three quarters thereafter.
+
+$$
+f_{\text{Pope Francis approval, US Catholics}}\bigg|_{2014} \approx 0.85, \quad f_{\text{same}}\bigg|_{2018} \approx 0.75, \quad f_{\text{same}}\bigg|_{2024} \approx 0.75
+\tag{21}
+$$
+
+**Equation 22, Southern Baptist Convention Membership, 2000 to 2024.**
+Membership of the Southern Baptist Convention from its Annual Church Profile records falls by about a fifth between 2010 and 2024.
+
+$$
+P_{\text{SBC membership, US}}\bigg|_{2000} \approx 1.63 \times 10^7, \quad P\bigg|_{2010} \approx 1.61 \times 10^7, \quad P\bigg|_{2020} \approx 1.4 \times 10^7, \quad P\bigg|_{2024} \approx 1.28 \times 10^7
+\tag{22}
+$$
+
+**Equation 23, African-Born Population of the United States, 2000 to 2020.**
+Census counts of the African-born population grow about two point seven fold over the two decades.
+
+$$
+P_{\text{African-born, US}}\bigg|_{2000} \approx 8.8 \times 10^5, \quad P\bigg|_{2010} \approx 1.6 \times 10^6, \quad P\bigg|_{2020} \approx 2.4 \times 10^6
+\tag{23}
+$$
+
+**Equation 24, Principal African National-Origin Populations, 2020.**
+Census counts are listed for the Nigerian, Ethiopian, Somali, Ghanaian, Kenyan and Egyptian populations of the United States.
+
+$$
+\begin{aligned}
+P_{\text{Nigerian American, US}}\bigg|_{2020} &\approx 4.5 \times 10^5 \\
+P_{\text{Ethiopian American, US}}\bigg|_{2020} &\approx 3 \times 10^5 \\
+P_{\text{Somali American, US}}\bigg|_{2020} &\approx 1.7 \times 10^5 \\
+P_{\text{Ghanaian American, US}}\bigg|_{2020} &\approx 1.6 \times 10^5 \\
+P_{\text{Kenyan American, US}}\bigg|_{2020} &\approx 1.5 \times 10^5 \\
+P_{\text{Egyptian American, US}}\bigg|_{2020} &\approx 2.5 \times 10^5
+\end{aligned}
+\tag{24}
+$$
+
+**Equation 25, African Pentecostal Parishes in the United States.**
+Parish counts of the Redeemed Christian Church of God for 2010 and 2020 and of the Ghanaian Church of Pentecost for 2020 are taken from institutional records.
+
+$$
+N_{\text{Redeemed Christian Church of God parishes, US}}\bigg|_{2010} \approx 4 \times 10^2, \quad N\bigg|_{2020} \approx 8 \times 10^2, \quad N_{\text{Church of Pentecost (Ghanaian) parishes, US}}\bigg|_{2020} \approx 150
+\tag{25}
+$$
+
+**Equation 26, Hispanic and Latino Population of the United States, 2000 to 2020.**
+Census counts of the Hispanic and Latino population are stated with its share of the 2020 population.
+
+$$
+P_{\text{Hispanic/Latino, US}}\bigg|_{2000} \approx 3.53 \times 10^7, \quad P\bigg|_{2010} \approx 5.05 \times 10^7, \quad P\bigg|_{2020} \approx 6.22 \times 10^7, \quad f_{\text{Hispanic share, US population}}\bigg|_{2020} \approx 0.19
+\tag{26}
+$$
+
+**Equation 27, Principal Central American Populations, 2020.**
+Census counts are listed for the Salvadoran, Guatemalan, Honduran and Nicaraguan populations of the United States.
+
+$$
+\begin{aligned}
+P_{\text{Salvadoran American, US}}\bigg|_{2020} &\approx 2.4 \times 10^6 \\
+P_{\text{Guatemalan American, US}}\bigg|_{2020} &\approx 1.7 \times 10^6 \\
+P_{\text{Honduran American, US}}\bigg|_{2020} &\approx 1.05 \times 10^6 \\
+P_{\text{Nicaraguan American, US}}\bigg|_{2020} &\approx 4.6 \times 10^5
+\end{aligned}
+\tag{27}
+$$
+
+**Equation 28, Venezuelan Population of the United States, 2000 to 2024.**
+Census counts of the Venezuelan population rise roughly tenfold as the crisis in Venezuela deepens after 2013.
+
+$$
+P_{\text{Venezuelan American, US}}\bigg|_{2000} \approx 9 \times 10^4, \quad P\bigg|_{2010} \approx 2.2 \times 10^5, \quad P\bigg|_{2020} \approx 5.5 \times 10^5, \quad P\bigg|_{2024} \approx 9 \times 10^5
+\tag{28}
+$$
+
+**Equation 29, Religious Composition of Hispanic Americans, 2000 to 2020.**
+Survey shares show the Catholic share among Hispanic Americans falling by about twenty percentage points while the Protestant and unaffiliated shares rise.
+
+$$
+f_{\text{Catholic among US Hispanics}}\bigg|_{2000} \approx 0.67, \quad f\bigg|_{2013} \approx 0.55, \quad f\bigg|_{2020} \approx 0.47, \quad f_{\text{Protestant/Pentecostal among US Hispanics}}\bigg|_{2000} \approx 0.19, \quad f\bigg|_{2020} \approx 0.23, \quad f_{\text{unaffiliated among US Hispanics}}\bigg|_{2000} \approx 0.11, \quad f\bigg|_{2020} \approx 0.23
+\tag{29}
+$$
+
+**Equation 30, South Asian National-Origin Populations, 2020.**
+Census counts are listed for the Indian, Pakistani, Bangladeshi, Nepalese and Sri Lankan populations of the United States.
+
+$$
+P_{\text{Indian American, US}}\bigg|_{2020} \approx 4.6 \times 10^6, \quad P_{\text{Pakistani American, US}}\bigg|_{2020} \approx 5.5 \times 10^5, \quad P_{\text{Bangladeshi American, US}}\bigg|_{2020} \approx 2.1 \times 10^5, \quad P_{\text{Nepalese American, US}}\bigg|_{2020} \approx 2 \times 10^5, \quad P_{\text{Sri Lankan American, US}}\bigg|_{2020} \approx 6 \times 10^4
+\tag{30}
+$$
+
+**Equation 31, Hindu Temples, Sikh Gurdwaras and Jain Temples in the United States.**
+Institutional counts of Hindu temples and Sikh gurdwaras roughly double or more between 2000 and 2020, and the Jain temple count is stated for 2020.
+
+$$
+N_{\text{US Hindu temples}}\bigg|_{2000} \approx 4 \times 10^2, \quad N\bigg|_{2020} \approx 8 \times 10^2, \quad N_{\text{US Sikh gurdwaras}}\bigg|_{2000} \approx 130, \quad N\bigg|_{2020} \approx 350, \quad N_{\text{US Jain temples}}\bigg|_{2020} \approx 100
+\tag{31}
+$$
+
+**Equation 32, Annual Refugee Admissions, 2000 to 2024.**
+Annual admissions from Office of Refugee Resettlement records fall by about eighty six percent from 2016 to 2020 and recover to about one hundred thousand by 2024.
+
+$$
+N_{\text{US refugee admissions}}\bigg|_{2000} \approx 7.2 \times 10^4, \quad N\bigg|_{2010} \approx 7.3 \times 10^4, \quad N\bigg|_{2016} \approx 8.5 \times 10^4, \quad N\bigg|_{2017} \approx 5.4 \times 10^4, \quad N\bigg|_{2020} \approx 1.2 \times 10^4, \quad N\bigg|_{2022} \approx 2.6 \times 10^4, \quad N\bigg|_{2024} \approx 1 \times 10^5
+\tag{32}
+$$
+
+**Equation 33, Iraqi Refugee Admissions and Their Religious Composition, 2007 to 2020.**
+Total Iraqi refugee admissions are stated with the Christian, Muslim and Yazidi or other minority shares from State Department records.
+
+$$
+N_{\text{Iraqi refugee admissions, US, 2007 to 2020}} \approx 1.45 \times 10^5, \quad f_{\text{Christian among Iraqi refugee admissions}} \approx 0.35, \quad f_{\text{Muslim (Sunni and Shia)}} \approx 0.55, \quad f_{\text{Yazidi and other minority}} \approx 0.10
+\tag{33}
+$$
+
+**Equation 34, Syrian Refugee Admissions Before and After 2018.**
+Syrian refugee admissions from State Department records drop by nearly an order of magnitude between the periods 2011 to 2017 and 2018 to 2024.
+
+$$
+N_{\text{Syrian refugee admissions, US, 2011 to 2017}} \approx 2.1 \times 10^4, \quad N_{\text{Syrian refugee admissions, US, 2018 to 2024}} \approx 2.5 \times 10^3
+\tag{34}
+$$
+
+**Equation 35, Central American Migration Events at the Southwest Border.**
+The count of unaccompanied minors in 2014, the peak size of the 2018 caravan and the Southwest border encounters in fiscal years 2022 and 2023 are stated.
+
+$$
+N_{\text{unaccompanied minors, US-Mexico border, 2014}} \approx 6.8 \times 10^4, \quad N_{\text{2018 Central American caravan participants, peak}} \approx 7 \times 10^3, \quad N_{\text{US Southwest border encounters, fiscal year 2022}} \approx 2.4 \times 10^6, \quad N_{\text{US Southwest border encounters, fiscal year 2023}} \approx 2.5 \times 10^6
+\tag{35}
+$$
+
+**Equation 36, Family Separations Under the Zero Tolerance Policy, 2018.**
+The documented separations between April and June 2018 and a lower bound on further undocumented separations are taken from reports of the Office of Inspector General of the Department of Homeland Security.
+
+$$
+N_{\text{documented US-Mexico border family separations, April 2018 to June 2018}} \approx 5500, \quad N_{\text{additional undocumented separations, cumulative}} \gtrsim 1 \times 10^3
+\tag{36}
+$$
+
+**Equation 37, Provisions of and Response to Executive Order 13769.**
+The seven countries covered, the ninety day entry suspension and the indefinite Syrian refugee suspension are stated with lower bounds on travellers detained and protesters at airports on the first weekend.
+[Executive Order 13769][ref_executive_order_13769_2017]
+
+$$
+N_{\text{countries initially banned, EO 13769}} = 7, \quad t_{\text{initial entry suspension}} = 90 \text{ days}, \quad t_{\text{Syrian refugee suspension, complete}} = \text{indefinite}, \quad N_{\text{documented travelers detained at US airports, first weekend}} \gtrsim 700, \quad N_{\text{documented protesters at US airports, first weekend}} \gtrsim 5 \times 10^4
+\tag{37}
+$$
+
+**Equation 38, Vote in Trump v. Hawaii.**
+The Supreme Court upheld the third version of the travel ban by five votes to four.
+[Trump v. Hawaii 585 2018][ref_trump_v_hawaii_2018]
+
+$$
+V_{\text{Trump v. Hawaii majority}} = 5, \quad V_{\text{Trump v. Hawaii dissent}} = 4
+\tag{38}
+$$
+
+**Equation 39, Afghan Admissions and Afghan Population, 2020 to 2024.**
+Admissions under Operation Allies Welcome from Department of Homeland Security records are stated with the Afghan population of the United States in 2020 and 2024.
+
+$$
+N_{\text{Afghan Operation Allies Refuge/Welcome admissions, US, 2021 to 2023}} \approx 8 \times 10^4, \quad P_{\text{Afghan American, US}}\bigg|_{2020} \approx 1.5 \times 10^5, \quad P\bigg|_{2024} \approx 2.5 \times 10^5
+\tag{39}
+$$
+
+**Equation 40, Afghan Admissions by Channel.**
+Admissions are divided among Special Immigrant Visas since 2009, humanitarian parole since 2021 and asylum or refugee status since 2021, over windows that differ by channel.
+
+$$
+N_{\text{Afghan SIV admissions, US, 2009 to 2023}} \approx 6 \times 10^4, \quad N_{\text{Afghan Humanitarian Parolees, US, 2021 to 2023}} \approx 7 \times 10^4, \quad N_{\text{Afghan asylees and refugees, US, 2021 to 2023}} \approx 1 \times 10^4
+\tag{40}
+$$
+
+**Equation 41, Uniting for Ukraine Admissions and Ukrainian Population, 2020 to 2024.**
+Admissions under Uniting for Ukraine from Citizenship and Immigration Services records are stated with the Ukrainian population of the United States in 2020 and 2024.
+
+$$
+N_{\text{Uniting for Ukraine admissions, 2022 to 2024}} \approx 2.6 \times 10^5, \quad P_{\text{Ukrainian American, US}}\bigg|_{2020} \approx 1 \times 10^6, \quad P\bigg|_{2024} \approx 1.3 \times 10^6
+\tag{41}
+$$
+
+**Equation 42, Cuban Arrivals, 2021 to 2024.**
+Cuban arrivals in fiscal year 2022 and a lower bound on cumulative arrivals from 2021 to 2024 are taken from Customs and Border Protection records.
+
+$$
+N_{\text{Cuban arrivals, US, fiscal year 2022}} \approx 2.24 \times 10^5, \quad N_{\text{cumulative Cuban arrivals 2021 to 2024}} \gtrsim 5 \times 10^5
+\tag{42}
+$$
+
+**Equation 43, Principal Attacks on Houses of Worship, 2012 to 2022.**
+The date and death toll of six attacks on gurdwaras, churches and synagogues are listed from incident documentation, with the perpetrator noted for three.
+
+$$
+\begin{aligned}
+\text{Oak Creek Sikh Gurdwara shooting} &: 5 \text{ August } 2012, \quad N_{\text{dead}} = 6, \quad N_{\text{shooter Wade Michael Page (white supremacist)}} = 1 \\
+\text{Charleston Emanuel AME Church shooting} &: 17 \text{ June } 2015, \quad N_{\text{dead}} = 9, \quad N_{\text{shooter Dylann Roof (white supremacist)}} = 1 \\
+\text{Tree of Life Pittsburgh Synagogue shooting} &: 27 \text{ October } 2018, \quad N_{\text{dead}} = 11, \quad N_{\text{shooter Robert Bowers (antisemite)}} = 1 \\
+\text{Poway Chabad synagogue shooting} &: 27 \text{ April } 2019, \quad N_{\text{dead}} = 1 \\
+\text{Sutherland Springs Baptist Church shooting (Texas)} &: 5 \text{ November } 2017, \quad N_{\text{dead}} = 26 \\
+\text{Colleyville Beth Israel synagogue hostage} &: 15 \text{ January } 2022, \quad N_{\text{dead}} = 1
+\end{aligned}
+\tag{43}
+$$
+
+**Equation 44, Mortality of the Pandemic of Coronavirus Disease 2019.**
+A lower bound on cumulative deaths through 2024 and the peak monthly toll of January 2021 are taken from records of the Centers for Disease Control and Prevention.
+
+$$
+N_{\text{US COVID-19 cumulative deaths through 2024}} \gtrsim 1.2 \times 10^6, \quad N_{\text{US COVID-19 peak monthly deaths, January 2021}} \approx 1 \times 10^5
+\tag{44}
+$$
+
+**Equation 45, Vaccine Acceptance by Religious Tradition, 2021.**
+The share accepting the vaccine in each of seven religious groups is taken from Public Religion Research Institute polling.
+
+$$
+f_{\text{COVID vaccine acceptance, white evangelical Protestants}}\bigg|_{2021} \approx 0.55, \quad f_{\text{white mainline Protestants}} \approx 0.75, \quad f_{\text{white Catholics}} \approx 0.75, \quad f_{\text{Black Protestants}} \approx 0.55, \quad f_{\text{Jewish Americans}} \approx 0.85, \quad f_{\text{Muslim Americans}} \approx 0.70, \quad f_{\text{Nones}} \approx 0.80
+\tag{45}
+$$
+
+**Equation 46, Scale of the 2020 Racial Justice Protests.**
+The count of protests from May to August 2020 and the range of estimated participants are taken from the Crowd Counting Consortium and similar trackers.
+
+$$
+N_{\text{documented US 2020 racial justice protests, cumulative May to August 2020}} \approx 1 \times 10^4, \quad N_{\text{estimated cumulative US 2020 racial justice protest participants}} \approx 1.5 \times 10^7 \text{ to } 2.6 \times 10^7
+\tag{46}
+$$
+
+**Equation 47, Support for Black Lives Matter by Religious Tradition, 2020.**
+The share supporting the movement in six religious groups is taken from Pew Research Center polling and ranges from about six in seven Black Protestants to under three in ten white evangelicals.
+
+$$
+f_{\text{support for Black Lives Matter, US Nones}}\bigg|_{2020} \approx 0.75, \quad f_{\text{Black Protestants}} \approx 0.86, \quad f_{\text{Jewish Americans}} \approx 0.66, \quad f_{\text{white mainline Protestants}} \approx 0.58, \quad f_{\text{white Catholics}} \approx 0.48, \quad f_{\text{white evangelicals}} \approx 0.28
+\tag{47}
+$$
+
+**Equation 48, State Abortion Status After Dobbs, 2024.**
+The fifty states are divided among full bans, early bans, protected access and intermediate restrictions following the Guttmacher Institute.
+
+$$
+\begin{aligned}
+N_{\text{US states with full abortion bans, 2024}} &\approx 14 \\
+N_{\text{US states with 6-week or comparable early bans}} &\approx 6 \\
+N_{\text{US states protecting abortion access}} &\approx 20 \\
+N_{\text{US states with intermediate restrictions}} &\approx 10
+\end{aligned}
+\tag{48}
+$$
+
+**Equation 49, Abortion Ballot Measure Results, 2022 to 2024.**
+The certified percentages in favour and opposed are listed for the measures in Kansas, Michigan, Ohio and Missouri, each of which protected abortion access.
+
+$$
+\begin{aligned}
+\text{Kansas August 2022 (protecting abortion access)} &: 59\% \text{ favor}, 41\% \text{ opposed} \\
+\text{Michigan November 2022 (constitutional protection)} &: 57\% \text{ favor}, 43\% \text{ opposed} \\
+\text{Ohio November 2023 (constitutional protection)} &: 57\% \text{ favor}, 43\% \text{ opposed} \\
+\text{Missouri November 2024 (constitutional protection)} &: 52\% \text{ favor}, 48\% \text{ opposed}
+\end{aligned}
+\tag{49}
+$$
+
+**Equation 50, Religious Vote in the 2020 Presidential Election.**
+The Trump or Biden share in each religious group is taken from Pew Research Center analysis and exit polling.
+
+$$
+\begin{aligned}
+f_{\text{Trump 2020 white evangelical vote}} &\approx 0.84 \\
+f_{\text{Biden 2020 white evangelical vote}} &\approx 0.15 \\
+f_{\text{Trump 2020 white mainline Protestant}} &\approx 0.57 \\
+f_{\text{Biden 2020 Catholic}} &\approx 0.52 \\
+f_{\text{Biden 2020 Jewish}} &\approx 0.68 \\
+f_{\text{Biden 2020 Muslim}} &\approx 0.69 \\
+f_{\text{Biden 2020 Nones}} &\approx 0.72 \\
+f_{\text{Biden 2020 Black Protestant}} &\approx 0.90
+\end{aligned}
+\tag{50}
+$$
+
+**Equation 51, Participation and Prosecutions in the Capitol Attack of 6 January 2021.**
+Rally attendance, the count of Capitol attackers, the related deaths and a lower bound on federal charges are taken from Department of Justice records.
+
+$$
+N_{\text{Trump rally attendance, 6 January 2021 Ellipse}} \approx 5 \times 10^4, \quad N_{\text{documented Capitol attackers}} \approx 2 \times 10^3, \quad N_{\text{Capitol attack deaths (rioter and police, immediate and subsequent)}} = 9, \quad N_{\text{federal charges filed through 2024}} \gtrsim 1500
+\tag{51}
+$$
+
+**Equation 52, Religious Composition of the Supreme Court, 2020.**
+Seven Catholic and two Jewish justices give a Catholic share of about seven ninths, well above the Catholic share of the population.
+
+$$
+f_{\text{Catholic among US Supreme Court Justices, 2020}} \approx 0.78, \quad N_{\text{Catholic Justices, 2020}} = 7, \quad N_{\text{Jewish Justices, 2020}} = 2, \quad N_{\text{Justices with Catholic secondary education}} \gtrsim 8
+\tag{52}
+$$
+
+**Equation 53, Disaffiliation From the United Methodist Church, 2019 to 2023.**
+The count of congregations approved to leave the United Methodist Church and their share of its American congregations are stated with the 2024 membership of the Global Methodist Church.
+
+$$
+N_{\text{UMC congregations approved for disaffiliation, 2019 to 2023}} \approx 7660, \quad f_{\text{UMC US congregation disaffiliation share}} \approx 0.25, \quad P_{\text{GMC membership, 2024}} \approx 5 \times 10^5
+\tag{53}
+$$
+
+**Equation 54, Recipients of Deferred Action for Childhood Arrivals.**
+Initial approvals, cumulative recipients and active recipients in 2024 are taken from Citizenship and Immigration Services records.
+
+$$
+N_{\text{DACA initial applicants approved, 2012 to 2013}} \approx 4.8 \times 10^5, \quad N_{\text{DACA cumulative recipients through 2024}} \approx 8 \times 10^5, \quad N_{\text{active DACA recipients, 2024}} \approx 5.8 \times 10^5
+\tag{54}
+$$
+
+**Equation 55, Casualties of the Hamas Attack of 7 October 2023.**
+The Israeli dead, the hostages taken and the Americans among the dead are taken from Israeli government and State Department records.
+
+$$
+N_{\text{Israeli dead, 7 October 2023 Hamas attack}} \approx 1200, \quad N_{\text{Israeli hostages taken}} \approx 250, \quad N_{\text{Americans among 7 October dead}} \approx 40
+\tag{55}
+$$
+
+**Equation 56, Gazan Dead and Displaced, 2023 to 2024.**
+Lower bounds on the dead and the displaced in Gaza are taken from Gaza Health Ministry and United Nations Office for the Coordination of Humanitarian Affairs estimates.
+
+$$
+N_{\text{Gazan dead, 7 October 2023 to 2024, various estimates}} \gtrsim 4.5 \times 10^4, \quad N_{\text{Gazans displaced}} \gtrsim 1.7 \times 10^6
+\tag{56}
+$$
+
+**Equation 57, Documented Antisemitic Incidents, 2023 and 2024.**
+Anti-Defamation League counts for 2023 and 2024 are stated with the relative increase of about one hundred and forty percent from 2022 to 2023.
+
+$$
+N_{\text{documented anti-Semitic incidents, US, 2023}} \approx 8873, \quad N\bigg|_{2024} \approx 9354, \quad \Delta_{\text{2022 to 2023 increase}} \approx +\text{140\%}
+\tag{57}
+$$
+
+**Equation 58, Reach and Expenditure of the He Gets Us Campaign.**
+The audience of the 2024 Super Bowl commercial and a lower bound on cumulative campaign expenditure are taken from institutional records.
+
+$$
+N_{\text{He Gets Us Super Bowl 2024 60-second commercial audience}} \approx 1.23 \times 10^8, \quad C_{\text{He Gets Us cumulative campaign expenditure, 2022 to 2024}} \gtrsim 3 \times 10^8 \text{ USD}
+\tag{58}
+$$
+
+### Notation
+
+- $P$, a population or membership count in persons, identified by its subscript and evaluated at the year below the bar
+- $N$, a count of persons, institutions, events or states, identified by its subscript
+- $f$, a fraction or share between zero and one, identified by its subscript
+- $V$, a vote tally, popular or electoral in a presidential election and the count of justices in a Supreme Court decision
+- $C$, a monetary amount in United States dollars, identified by its subscript
+- $t$, a duration of a suspension under the executive order
+- $\Delta$, a relative change from one year to the next, written in percent
 
 ## References
 

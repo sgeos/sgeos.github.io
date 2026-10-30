@@ -1,0 +1,283 @@
+# Equation classification for A267. Read by `python3 _lib/equations.py`.
+
+caution = "Populations and casualties are counted in persons, dates are calendar years of the Common Era, rates are per year, shares and coupling weights are dimensionless, and the rank orderings of the six-axis framework are qualitative judgements rather than measured quantities."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "English Colonial Population in 1620, 1700 and 1725"
+gloss = "The English colonial population rose from about five thousand in 1620 to about a quarter of a million in 1700 and about six hundred thousand in 1725."
+cite = ["research_gemery_1980", "book_mccusker_menard_1985"]
+digest = "248717aec9ee092c"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Exponential Colonial Growth"
+gloss = "The article fits the colonial population to a single exponential trajectory with a constant growth rate of about 3.1 percent per year that it splits roughly equally between natural increase and migration."
+cite = []
+digest = "15c7ba3992ad32d9"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Enslaved Share of the Colonial Population"
+gloss = "The enslaved share of the colonial population rose from nearly zero in 1620 to about one tenth in 1700 and about fifteen percent in 1725."
+cite = ["research_gemery_1980", "book_mccusker_menard_1985"]
+digest = "1060fa2de0901c22"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Inversion of the Anglo to Indigenous Population Ratio"
+gloss = "The ratio of the Anglo-American to the indigenous population east of the Mississippi rose from about one two-hundredth in 1620 to about three in 1725 as the indigenous population fell from about one million to about two hundred thousand."
+cite = ["book_thornton_1987", "book_kelton_2015"]
+digest = "d61df37df7bb8994"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Direct African Arrivals in North America to 1725"
+gloss = "About fifty thousand Africans were transported directly to North America between 1607 and 1725."
+cite = []
+digest = "464d188227b3bc7e"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Colonial African-Descent Population in 1725"
+gloss = "Continuing imports and natural increase brought the resident African-descent colonial population to about one hundred thousand by 1725."
+cite = []
+digest = "47953dfc88c32516"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Sign of Natural Increase among the Enslaved"
+gloss = "The enslaved population of North America grew by natural increase while those of the Caribbean and Brazil declined without continuing imports."
+cite = ["ref_voyages_database"]
+digest = "969939460dbfd4ae"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Migration Windows of the Four British Folkways"
+gloss = "The Fischer thesis assigns the Puritan, Cavalier, Quaker and Borderlands folkways to four successive migration windows between 1629 and 1775."
+cite = ["book_fischer_1989"]
+digest = "01f17093873c0883"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Male Literacy in New England around 1690"
+gloss = "Male literacy in New England around 1690 lay between about sixty-five and ninety percent depending on the measure and the colony."
+cite = ["book_lockridge_1974"]
+digest = "8dd3b74106f16dd9"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Deaths of the Salem Witch Trials"
+gloss = "Nineteen people were executed and five died in prison, twenty-four deaths in all, before the trials were halted in October 1692."
+cite = ["book_boyer_nissenbaum_1974", "book_norton_2002"]
+digest = "bee170c605224bbd"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Proportional Losses in King Philip's War"
+gloss = "King Philip's War killed about five percent of the New England colonial population and about forty percent of the Native population of the region."
+cite = ["book_lepore_1998", "book_drake_1999"]
+digest = "e8a7d999a4359992"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Peak Population of the Praying Towns"
+gloss = "The praying towns of John Eliot reached a peak of about eleven hundred residents across fourteen villages before King Philip's War."
+cite = ["book_cogley_1999"]
+digest = "f2d7edb7105349c4"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Lead of the Rhode Island Charter over the First Amendment"
+gloss = "The Rhode Island Charter guaranteed religious liberty in 1663, which is 128 years before the ratification of the First Amendment in 1791."
+cite = ["book_ri_charter_1663"]
+digest = "97c5ae09e511b120"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Chesapeake Sex Ratio in the Mid-Seventeenth Century"
+gloss = "Men outnumbered women in the mid-seventeenth-century Chesapeake by at least about two to one."
+cite = []
+digest = "aa9c69bf85037b9b"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Life Expectancy at Twenty in the Chesapeake and New England"
+gloss = "Further life expectancy at age twenty was about twenty-five years in the Chesapeake against about forty-five years in New England."
+cite = ["book_rutman_rutman_1984"]
+digest = "507a80ba65223845"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "English Deaths in the Powhatan Uprising of 1622"
+gloss = "The Powhatan uprising of March 1622 killed about 350 English colonists, roughly a third of the colonial population at that date."
+cite = ["book_rountree_1990"]
+digest = "94eb8897d232bfab"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Duration of the Quaker and Lenape Peace"
+gloss = "The period of Quaker and Lenape cooperation ran from the Treaty of Shackamaxon in 1682 to the Walking Purchase in 1737, a span of fifty-five years."
+cite = ["book_marshall_1967", "book_soderlund_2015"]
+digest = "90e9d18e1e8fa75c"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Huguenot Diaspora and Its North American Share"
+gloss = "The Revocation of the Edict of Nantes dispersed about two hundred thousand Huguenots, of whom some five to ten thousand reached North America."
+cite = ["book_butler_1983", "book_van_ruymbeke_2006"]
+digest = "5b4b56480b465c25"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Old Order Amish Population in 2025"
+gloss = "The Old Order Amish number about 350,000 adherents in 2025."
+cite = ["book_kraybill_johnson_weiner_nolt_2013"]
+digest = "eb2f5cfea22d67d2"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Amish Growth Rate from the Doubling Time"
+gloss = "A doubling time of about twenty years corresponds to a continuous growth rate of $\\ln 2$ divided by twenty, about 3.5 percent per year."
+cite = ["book_kraybill_johnson_weiner_nolt_2013"]
+digest = "50df9077cef11c27"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Spanish Florida Missions in 1675"
+gloss = "The Franciscan mission chain of Spanish Florida reached about forty stations and about thirty thousand Timucua and Guale converts by 1675."
+cite = ["book_milanich_1999", "book_hann_1988"]
+digest = "fb80b45ca2076483"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Natives Enslaved from Spanish Florida between 1702 and 1706"
+gloss = "English and Creek raiding enslaved about ten thousand mission Natives from Spanish Florida between 1702 and 1706."
+cite = ["book_gallay_2002"]
+digest = "f4861a6a3037e8b7"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Pueblo Missions in 1680"
+gloss = "The Franciscan mission chain of New Mexico reached about fifty stations and about seventeen thousand Pueblo converts by 1680."
+cite = ["book_gutierrez_1991", "book_kessell_1979"]
+digest = "64f659daa255b426"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Casualties and Displacement of the Pueblo Revolt"
+gloss = "The Pueblo Revolt of 1680 killed about four hundred colonists and twenty-one of thirty-three Franciscan priests and drove about two thousand colonists to El Paso."
+cite = ["book_knaut_1995", "book_sando_1992", "book_preucel_2002"]
+digest = "852ec6a621e34afb"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "African Share of the South Carolina Low Country in 1720"
+gloss = "Enslaved Africans made up about seventy percent of the South Carolina low country population around 1720."
+cite = ["book_wood_1974"]
+digest = "6591d1595e964558"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Founding Dates of the Colonial Colleges"
+gloss = "The nine colonial colleges were founded between Harvard in 1636 and Dartmouth in 1769."
+cite = []
+digest = "aa9c20f3231a0207"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Signal Density Ordering of Colonial Substrates"
+gloss = "The article ranks the colonial substrates by signal density according to the number and reliability of their formal transmission channels, with the Puritan highest."
+cite = []
+digest = "13f14a8cd4cb331c"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Hierarchy Depth of Colonial Substrates"
+gloss = "The article assigns each colonial substrate an approximate count of authority tiers from local congregation to apex, three for the Anglican and one for the congregational traditions."
+cite = []
+digest = "0116828841de1b71"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Church-State Coupling Coefficients"
+gloss = "The article assigns each colonial substrate a coupling weight with civil authority on a scale from minus one for repressive to plus one for supportive establishment."
+cite = []
+digest = "81131ca2491f3f49"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Timing of the Half-Way Covenant"
+gloss = "The Boston synod adopted the Half-Way Covenant in 1662, about twenty-two years after the end of the Great Migration."
+cite = []
+digest = "afbc1a52bb8ed6b8"
+
+[[symbol]]
+tex = 'P_{\text{Anglo}}(t)'
+meaning = "the English colonial population at time $t$"
+
+[[symbol]]
+tex = 'P_0'
+meaning = "the colonial population at the reference date $t_0$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the exponential growth rate of the colonial population, per year"
+
+[[symbol]]
+tex = 'f_{\text{enslaved}}'
+meaning = "the share of the colonial population held in bondage"
+
+[[symbol]]
+tex = 'r_{\text{natural, NA}}'
+meaning = "the rate of natural increase of the enslaved population of North America"
+
+[[symbol]]
+tex = 'L_{\text{male, NE}}'
+meaning = "the male literacy rate in New England"
+
+[[symbol]]
+tex = 'e_{20, \text{Chesapeake}}'
+meaning = "the further life expectancy at age twenty in the Chesapeake"
+
+[[symbol]]
+tex = '\sigma_{\text{Puritan}}'
+meaning = "the signal density of the Puritan substrate, one instance of $\\sigma$ for each substrate"
+
+[[symbol]]
+tex = 'D_{\text{Anglican}}'
+meaning = "the count of authority tiers from local congregation to apex in the Anglican substrate, one instance of $D$ for each substrate"
+
+[[symbol]]
+tex = 'w_{\text{Puritan-NE}}'
+meaning = "the normalised church-state coupling of the Puritan substrate in New England, one instance of $w$ for each substrate, lying between minus one and one"

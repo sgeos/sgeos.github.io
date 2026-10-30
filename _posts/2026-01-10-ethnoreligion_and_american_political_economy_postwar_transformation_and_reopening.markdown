@@ -19,24 +19,33 @@ This eighth article of the series treats the 1945-1980 period during which the A
 
 The 1945-1960 postwar window produced considerable American religious institutional expansion combining demographic growth, GI Bill and FHA suburban housing expansion documented in [A272][related_post_a272_depression_war_and_refuge], and Cold War religious mobilization treated below. Church membership as fraction of US population reached historically high levels,
 
-$$f_{\text{church membership, US population}}\bigg|_{1940} \approx 0.49, \quad f_{\text{church membership, US}}\bigg|_{1960} \approx 0.63, \quad f_{\text{church membership, US}}\bigg|_{1980} \approx 0.55$$
+$$
+f_{\text{church membership, US population}}\bigg|_{1940} \approx 0.49, \quad f_{\text{church membership, US}}\bigg|_{1960} \approx 0.63, \quad f_{\text{church membership, US}}\bigg|_{1980} \approx 0.55
+\tag{1}
+$$
 
 per Yearbook of American and Canadian Churches records. The 1950-1960 window produced the single most significant institutional expansion in American religious history to that date. The [Marty 1985][book_marty_1985] Modern American Religion, [Ahlstrom 1972][book_ahlstrom_1972] A Religious History of the American People (already cited in A271), [Wuthnow 1988][book_wuthnow_1988] The Restructuring of American Religion, and [Herberg 1955][book_herberg_1955] Protestant-Catholic-Jew provide the standard treatments.
 
 Denominational growth trajectories were substantial across major traditions,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{Southern Baptist Convention}}(1945) &\approx 5.9 \times 10^6, \quad P_{\text{SBC}}(1980) \approx 1.35 \times 10^7 \\
 P_{\text{Roman Catholic, US}}(1945) &\approx 2.4 \times 10^7, \quad P_{\text{Catholic, US}}(1980) \approx 5 \times 10^7 \\
 P_{\text{United Methodist}}(1945) &\approx 8 \times 10^6, \quad P_{\text{UMC}}(1980) \approx 9.5 \times 10^6 \\
 P_{\text{Jewish, US}}(1945) &\approx 4.8 \times 10^6, \quad P_{\text{Jewish, US}}(1980) \approx 5.9 \times 10^6
-\end{aligned}$$
+\end{aligned}
+\tag{2}
+$$
 
 per denominational records. The Judeo-Christian consensus documented in [A272][related_post_a272_depression_war_and_refuge] consolidated as the framework of American religious pluralism through the Cold War period. Will Herberg's 1955 [Herberg 1955][ref_herberg_1955_book] Protestant-Catholic-Jew provided the canonical sociological articulation of American religious pluralism as tripartite civil religion within broadly shared cultural framework.
 
 Suburban religious institutional expansion was marked per counts documented in [A272][related_post_a272_depression_war_and_refuge]. Approximate 1950s suburban parish and congregation formation reached
 
-$$N_{\text{new suburban Catholic parishes, US, 1945 to 1965}} \approx 8 \times 10^3, \quad N_{\text{new suburban Protestant congregations, US, 1945 to 1965}} \approx 5 \times 10^4, \quad N_{\text{new suburban synagogues, US, 1945 to 1965}} \approx 2 \times 10^3$$
+$$
+N_{\text{new suburban Catholic parishes, US, 1945 to 1965}} \approx 8 \times 10^3, \quad N_{\text{new suburban Protestant congregations, US, 1945 to 1965}} \approx 5 \times 10^4, \quad N_{\text{new suburban synagogues, US, 1945 to 1965}} \approx 2 \times 10^3
+\tag{3}
+$$
 
 per denominational and building industry records. The "religious edifice construction" period represented approximately $10 billion nominal investment across the fifteen-year window per Bureau of Labor Statistics reports.
 
@@ -44,17 +53,26 @@ per denominational and building industry records. The "religious edifice constru
 
 The Displaced Persons Act of 25 June 1948 [Displaced Persons Act 1948][ref_displaced_persons_act_1948] provided the first extensive federal refugee admission legislation beyond the 1924 quota framework treated in [A271][related_post_a271_mass_immigration_and_closure]. The 1948 Act as amended by 1950 revision provided admission for approximately
 
-$$N_{\text{Displaced Persons Act admissions, cumulative 1948 to 1952}} \approx 4 \times 10^5, \quad f_{\text{Jewish among DPA admissions}} \approx 0.20, \quad f_{\text{Baltic and Ukrainian among DPA admissions}} \approx 0.35, \quad f_{\text{Polish among DPA admissions}} \approx 0.20$$
+$$
+N_{\text{Displaced Persons Act admissions, cumulative 1948 to 1952}} \approx 4 \times 10^5, \quad f_{\text{Jewish among DPA admissions}} \approx 0.20, \quad f_{\text{Baltic and Ukrainian among DPA admissions}} \approx 0.35, \quad f_{\text{Polish among DPA admissions}} \approx 0.20
+\tag{4}
+$$
 
 per US Immigration and Naturalization Service records. The [Dinnerstein 1982][book_dinnerstein_1982] America and the Survivors of the Holocaust, [Cohen 2012][book_cohen_2012_survivors] In War's Wake, and [Genizi 1993][book_genizi_1993] America's Fair Share provide the fullest treatments.
 
 Total European DP camp populations at 1946 peak reached approximately
 
-$$P_{\text{European DP camps, peak 1946}} \approx 8 \times 10^5, \quad P_{\text{Jewish DPs, peak 1946}} \approx 2.5 \times 10^5, \quad N_{\text{DP camps operated by UNRRA and IRO}} \approx 300$$
+$$
+P_{\text{European DP camps, peak 1946}} \approx 8 \times 10^5, \quad P_{\text{Jewish DPs, peak 1946}} \approx 2.5 \times 10^5, \quad N_{\text{DP camps operated by UNRRA and IRO}} \approx 300
+\tag{5}
+$$
 
 per United Nations Relief and Rehabilitation Administration (UNRRA) and International Refugee Organization (IRO) records. The 1948 Act's initial restrictive framework disadvantaged Jewish refugees through priorities favoring agricultural workers and pre-1945 refugee arrivals in European DP camps. American Jewish institutional advocacy through President's Displaced Persons Commission, Jewish Labor Committee, United Service for New Americans, and parallel organizations mobilized 1950 revision removing antisemitic priority framework and increasing total admissions ceiling. Approximate Jewish DP admission trajectory was
 
-$$N_{\text{Jewish DPA admissions}}(1948 \text{ to } 1949) \approx 5 \times 10^3, \quad N_{\text{Jewish DPA admissions}}(1949 \text{ to } 1952)_{\text{revised framework}} \approx 7.5 \times 10^4$$
+$$
+N_{\text{Jewish DPA admissions}}(1948 \text{ to } 1949) \approx 5 \times 10^3, \quad N_{\text{Jewish DPA admissions}}(1949 \text{ to } 1952)_{\text{revised framework}} \approx 7.5 \times 10^4
+\tag{6}
+$$
 
 per institutional records. The [Divine 1957][book_divine_1957] American Immigration Policy treatment provides the policy formation context.
 
@@ -64,13 +82,19 @@ Cold War religious mobilization shaped American national religious framework thr
 
 Institutional Cold War religious symbolic acts included 1954 [Pledge of Allegiance Amendment 1954][ref_pledge_amendment_1954] addition of "under God" to Pledge of Allegiance (June 14, 1954 signature by President Eisenhower), 1956 [In God We Trust 1956][ref_in_god_we_trust_1956] establishing "In God We Trust" as national motto and mandating inclusion on paper currency (1957 initial implementation), and 1954 Internal Revenue Code section 501(c)(3) religious tax exemption codification expanding pre-existing religious exemption framework. Counterbalancing Supreme Court establishment clause jurisprudence emerged through 1947 [Everson v. Board 1947][ref_everson_v_board_1947] Everson v. Board of Education (establishment clause incorporation to state action), 1962 [Engel v. Vitale 370 1962][ref_engel_v_vitale_1962] Engel v. Vitale (state-composed prayer prohibition in public schools), 1963 [Abington v. Schempp 1963][ref_abington_v_schempp_1963] Abington School District v. Schempp (Bible reading in public schools prohibition), and 1971 [Lemon v. Kurtzman 1971][ref_lemon_v_kurtzman_1971] Lemon v. Kurtzman (establishment clause "Lemon test" three-prong framework). Approximate ritual religious observance in American government contexts expanded considerably,
 
-$$N_{\text{Congressional prayer breakfasts and related meetings, 1946 to 1980}} \gtrsim 5 \times 10^3, \quad C_{\text{federal military chaplaincy annual budget}}(1950) \approx 3 \times 10^7 \text{ USD nominal}, \quad C_{\text{same}}(1980) \approx 3 \times 10^8 \text{ USD nominal}$$
+$$
+N_{\text{Congressional prayer breakfasts and related meetings, 1946 to 1980}} \gtrsim 5 \times 10^3, \quad C_{\text{federal military chaplaincy annual budget}}(1950) \approx 3 \times 10^7 \text{ USD nominal}, \quad C_{\text{same}}(1980) \approx 3 \times 10^8 \text{ USD nominal}
+\tag{7}
+$$
 
 per institutional records.
 
 Cold War religious mobilization emerged through institutional organizations including 1949 Christian Anti-Communism Crusade under Fred Schwarz, 1953 National Prayer Breakfast founding under Eisenhower administration and Abraham Vereide's International Christian Leadership organization, 1960 Radio Free Europe Committee and religious broadcasting operations targeting Soviet Bloc audiences, and 1948-1990 several evangelical and mainline Protestant anti-Communist mobilization treated in a range of scholarly literature. Religious broadcasting scale expanded through the Cold War period,
 
-$$N_{\text{US religious radio stations}}(1950) \approx 100, \quad N_{\text{US religious radio stations}}(1980) \approx 1400, \quad N_{\text{US religious television stations}}(1980) \approx 100$$
+$$
+N_{\text{US religious radio stations}}(1950) \approx 100, \quad N_{\text{US religious radio stations}}(1980) \approx 1400, \quad N_{\text{US religious television stations}}(1980) \approx 100
+\tag{8}
+$$
 
 per Federal Communications Commission and National Religious Broadcasters records. The [Sharlet 2008][book_sharlet_2008] The Family treats the National Prayer Breakfast and ICL institutional history.
 
@@ -80,13 +104,19 @@ The 1948-1950 window produced sizable ecumenical Protestant institutional consol
 
 WCC founding institutional composition combined mainline Protestant, Orthodox, and various historic Peace Church traditions. Roman Catholic official participation followed Vatican II Council through 1965 Joint Working Group formation while Catholic Church has not become full WCC member. Contemporary WCC membership reaches approximately
 
-$$N_{\text{WCC member denominations, contemporary}} \approx 352, \quad P_{\text{WCC aggregated affiliated membership}} \approx 5.5 \times 10^8, \quad N_{\text{WCC member countries}} \approx 120$$
+$$
+N_{\text{WCC member denominations, contemporary}} \approx 352, \quad P_{\text{WCC aggregated affiliated membership}} \approx 5.5 \times 10^8, \quad N_{\text{WCC member countries}} \approx 120
+\tag{9}
+$$
 
 per institutional records.
 
 The National Council of Churches of Christ in the USA (NCCCUSA, subsequently National Council of Churches, NCC), founded 29 November 1950 at Cleveland, Ohio through consolidation of twelve preceding ecumenical bodies including Federal Council of Churches, Foreign Missions Conference, Home Missions Council, International Council of Religious Education, United Council of Church Women, and assorted others, provided the successor American mainline Protestant institutional coordination body. NCC founding membership included approximately
 
-$$N_{\text{NCC founding member denominations, 1950}} = 25, \quad P_{\text{NCC aggregated affiliated membership, 1950}} \approx 3.2 \times 10^7, \quad P_{\text{NCC aggregated affiliated membership, contemporary}} \approx 4 \times 10^7$$
+$$
+N_{\text{NCC founding member denominations, 1950}} = 25, \quad P_{\text{NCC aggregated affiliated membership, 1950}} \approx 3.2 \times 10^7, \quad P_{\text{NCC aggregated affiliated membership, contemporary}} \approx 4 \times 10^7
+\tag{10}
+$$
 
 per institutional records. NCC's institutional coordination shaped Civil Rights Movement religious institutional support documented above and Vietnam War religious opposition treated below. The [Cavert 1968][book_cavert_1968] The American Churches in the Ecumenical Movement treats the NCC formation.
 
@@ -96,7 +126,10 @@ World Vision International, founded 22 September 1950 at Portland, Oregon by Bob
 
 World Vision programmatic expansion proceeded through 1950s Korean, 1960s broader Asian, 1970s Latin American and African, and 1980s onward global expansion. Approximate institutional scales reached
 
-$$C_{\text{World Vision annual revenue}}(1970) \approx 5 \times 10^6 \text{ USD nominal}, \quad C_{\text{same}}(1990) \approx 2 \times 10^8, \quad C_{\text{same, contemporary}} \approx 3 \times 10^9, \quad N_{\text{World Vision country programs, contemporary}} \approx 100$$
+$$
+C_{\text{World Vision annual revenue}}(1970) \approx 5 \times 10^6 \text{ USD nominal}, \quad C_{\text{same}}(1990) \approx 2 \times 10^8, \quad C_{\text{same, contemporary}} \approx 3 \times 10^9, \quad N_{\text{World Vision country programs, contemporary}} \approx 100
+\tag{11}
+$$
 
 per institutional records. World Vision provided the most extensive American evangelical humanitarian institutional formation of the twentieth century's second half, exceeding mainline Protestant relief organizations (Church World Service, Lutheran World Relief, a number of denominational agencies) in eventual scale though mainline organizations preceded evangelical parallels historically.
 
@@ -106,13 +139,19 @@ Concurrent evangelical humanitarian institutional formation included 1943 Compas
 
 Billy Graham (1918-2018) provided the most significant American evangelical figure of the twentieth century's second half, exceeding earlier Billy Sunday and Reuben Torrey institutional reach documented in [A271][related_post_a271_mass_immigration_and_closure]. Graham's 1949 Los Angeles Crusade at "Canvas Cathedral" tent providing the inaugural major crusade produced substantial national media attention through William Randolph Hearst's "puff Graham" media direction. Total lifetime Graham crusade attendance reached approximately
 
-$$N_{\text{Billy Graham cumulative crusade attendance, 1949 to 2005}} \approx 2.15 \times 10^8, \quad N_{\text{documented "decisions for Christ"}} \approx 3.2 \times 10^6, \quad N_{\text{countries visited}} = 185$$
+$$
+N_{\text{Billy Graham cumulative crusade attendance, 1949 to 2005}} \approx 2.15 \times 10^8, \quad N_{\text{documented "decisions for Christ"}} \approx 3.2 \times 10^6, \quad N_{\text{countries visited}} = 185
+\tag{12}
+$$
 
 per Billy Graham Evangelistic Association records, exceeding Sunday's 100 million cumulative attendance and approximately 1 million documented conversions documented in [A271][related_post_a271_mass_immigration_and_closure]. The [Martin 1991][book_martin_1991] A Prophet with Honor, [Wacker 2014][book_wacker_2014] America's Pastor, and [Graham 1997][ref_graham_1997_autobiography] Just As I Am autobiography provide the principal treatments.
 
 Graham's 1957 New York Madison Square Garden Crusade (May 15 to September 1, 1957) reached extended sixteen-week duration attracting approximately
 
-$$N_{\text{1957 NYC Crusade cumulative attendance}} \approx 2.05 \times 10^6, \quad N_{\text{1957 NYC Crusade documented decisions}} \approx 5.6 \times 10^4, \quad t_{\text{1957 NYC Crusade duration}} = 16 \text{ weeks}$$
+$$
+N_{\text{1957 NYC Crusade cumulative attendance}} \approx 2.05 \times 10^6, \quad N_{\text{1957 NYC Crusade documented decisions}} \approx 5.6 \times 10^4, \quad t_{\text{1957 NYC Crusade duration}} = 16 \text{ weeks}
+\tag{13}
+$$
 
 and providing institutional inflection point for mainstream American Protestant reception of evangelical revivalism. Graham's integration of crusade audiences from 1953 forward preceded formal civil rights legislation and mainstream Protestant denominational integration. Graham's 1957 Time magazine cover, 1956 [Christianity Today magazine founding 1956][ref_christianity_today_1956] launched under Graham's institutional backing with Carl F. H. Henry as first editor treated in [A272][related_post_a272_depression_war_and_refuge], and ongoing Presidential religious counselor role (eleven US Presidents from Truman through Obama) reflected institutional consolidation.
 
@@ -124,15 +163,21 @@ The McCarran-Walter Act (Immigration and Nationality Act of 1952) [McCarran-Walt
 
 The McCarran-Walter Act's provisions included removal of racial naturalization bars (1790 Naturalization Act "free white persons" framework retained through 1943 Magnuson Act and 1946 Luce-Celler Act limited exceptions documented in [A272][related_post_a272_depression_war_and_refuge], now extended to all Asian populations including Japanese), "Asia-Pacific Triangle" quota (2,000 annual admissions across 19-country region maintaining restrictive framework), ideological exclusion provisions ("subversive" and Communist affiliation grounds for inadmissibility and deportation), and preference system prioritizing skilled workers and family reunification. Approximate admission composition shifts were marked,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Japanese naturalizations 1952 to 1965}} &\approx 4.4 \times 10^4 \\
 Q_{\text{Asian country quotas under McCarran-Walter}} &\approx 100 \text{ per country} \\
 Q_{\text{aggregate national origins quota, McCarran-Walter}} &\approx 1.55 \times 10^5
-\end{aligned}$$
+\end{aligned}
+\tag{14}
+$$
 
 per INS records. Truman's 25 June 1952 veto message characterized the national origins framework as "utterly unworthy of our traditions and our ideals" though the override votes exceeded the two-thirds requirement,
 
-$$V_{\text{House override}} = 278 \text{ favor}, V_{\text{House opposition}} = 113, V_{\text{Senate override}} = 57, V_{\text{Senate opposition}} = 26, V_{\text{two-thirds threshold, House}} = 261$$
+$$
+V_{\text{House override}} = 278 \text{ favor}, V_{\text{House opposition}} = 113, V_{\text{Senate override}} = 57, V_{\text{Senate opposition}} = 26, V_{\text{two-thirds threshold, House}} = 261
+\tag{15}
+$$
 
 per Congressional record. The [Truman 1952 Veto Message][ref_truman_1952_veto_message] primary text provides the documentary anchor.
 
@@ -144,7 +189,10 @@ Operation Wetback (June-September 1954 US Border Patrol mass deportation of Mexi
 
 Operation Wetback totals reached approximately
 
-$$N_{\text{Operation Wetback removals, 1954, official INS count}} \approx 1.1 \times 10^6, \quad N_{\text{Operation Wetback removals, modern reconstruction}} \approx 3 \times 10^5, \quad f_{\text{US-born citizens among removed, estimated}} \gtrsim 0.05$$
+$$
+N_{\text{Operation Wetback removals, 1954, official INS count}} \approx 1.1 \times 10^6, \quad N_{\text{Operation Wetback removals, modern reconstruction}} \approx 3 \times 10^5, \quad f_{\text{US-born citizens among removed, estimated}} \gtrsim 0.05
+\tag{16}
+$$
 
 per INS records and modern historical reconstruction. Documented mistreatment during removal operations combined with systematic denial of due process for US-born citizens of Mexican descent. The General Joseph Swing (INS Commissioner under Eisenhower administration) directed paramilitary-style operation combining mobile task forces, mass roundups, and bilateral coordination with Mexican government.
 
@@ -154,13 +202,19 @@ Bracero Program continuation through 1964 documented in [A272][related_post_a272
 
 Puerto Rican mainland migration accelerated through the 1946-1970s postwar window under 1917 Jones-Shafroth citizenship framework documented in [A271][related_post_a271_mass_immigration_and_closure]. Mainland Puerto Rican population reached considerable levels,
 
-$$P_{\text{Puerto Rican, US mainland}}(1940) \approx 7 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1960) \approx 8.9 \times 10^5, \quad P_{\text{Puerto Rican, US mainland}}(1980) \approx 2 \times 10^6$$
+$$
+P_{\text{Puerto Rican, US mainland}}(1940) \approx 7 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1960) \approx 8.9 \times 10^5, \quad P_{\text{Puerto Rican, US mainland}}(1980) \approx 2 \times 10^6
+\tag{17}
+$$
 
 per US Census data, with significant concentration in New York City (El Barrio at East Harlem, South Bronx, Loisaida at Lower East Side, a range of Brooklyn neighborhoods). The [Sanchez Korrol 1994][book_sanchez_korrol_1994] From Colonia to Community (already cited in A271), [Whalen and Vazquez-Hernandez 2005][book_whalen_vazquez_2005] The Puerto Rican Diaspora (already cited), and [Rodriguez 1989][book_rodriguez_1989] Puerto Ricans provide the fullest treatments.
 
 Puerto Rican religious composition shifted through the twentieth century,
 
-$$f_{\text{Catholic among mainland Puerto Ricans}}\bigg|_{1950} \approx 0.80, \quad f\bigg|_{1990} \approx 0.65, \quad f\bigg|_{2020} \approx 0.55, \quad f_{\text{Pentecostal/Protestant among mainland Puerto Ricans}}\bigg|_{1990} \approx 0.25, \quad f\bigg|_{2020} \approx 0.35$$
+$$
+f_{\text{Catholic among mainland Puerto Ricans}}\bigg|_{1950} \approx 0.80, \quad f\bigg|_{1990} \approx 0.65, \quad f\bigg|_{2020} \approx 0.55, \quad f_{\text{Pentecostal/Protestant among mainland Puerto Ricans}}\bigg|_{1990} \approx 0.25, \quad f\bigg|_{2020} \approx 0.35
+\tag{18}
+$$
 
 per Pew Research and American Religious Identification Survey reconstruction, with persistent Espiritismo and Santería syncretic practices particularly among Afro-Puerto Rican populations. The [Díaz-Stevens 1993][book_diaz_stevens_1993] Oxcart Catholicism on Fifth Avenue treats the New York Puerto Rican Catholic community.
 
@@ -172,13 +226,19 @@ The 1960 election of John F. Kennedy (1917-1963) as first Catholic US President 
 
 Kennedy's 12 September 1960 [Kennedy 1960 Houston Ministers Address][ref_kennedy_1960_houston] address to the Greater Houston Ministerial Association addressed Protestant clerical concerns about Catholic executive authority, providing systematic articulation of Kennedy's position on religious-political separation. The address's "I believe in an America where the separation of church and state is absolute" formulation shaped American religious-political discourse through the subsequent period. The 1960 election results reflected extensive religious voting patterns,
 
-$$V_{\text{Kennedy popular}} \approx 34.2 \times 10^6, \quad V_{\text{Nixon popular}} \approx 34.1 \times 10^6, \quad V_{\text{Kennedy electoral}} = 303, \quad V_{\text{Nixon electoral}} = 219, \quad f_{\text{Catholic Kennedy vote}} \approx 0.82, \quad f_{\text{Protestant Kennedy vote}} \approx 0.37, \quad f_{\text{Jewish Kennedy vote}} \approx 0.82$$
+$$
+V_{\text{Kennedy popular}} \approx 34.2 \times 10^6, \quad V_{\text{Nixon popular}} \approx 34.1 \times 10^6, \quad V_{\text{Kennedy electoral}} = 303, \quad V_{\text{Nixon electoral}} = 219, \quad f_{\text{Catholic Kennedy vote}} \approx 0.82, \quad f_{\text{Protestant Kennedy vote}} \approx 0.37, \quad f_{\text{Jewish Kennedy vote}} \approx 0.82
+\tag{19}
+$$
 
 per electoral reconstruction. The approximately 118,000 popular vote margin (approximately 0.17% of total vote) provided the closest twentieth-century US presidential election to 1968 Nixon-Humphrey race.
 
 Kennedy's 22 November 1963 assassination at Dallas produced sizable national religious mourning exceeding twentieth-century precedent. The November 25, 1963 funeral procession at Washington DC attracted approximately
 
-$$P_{\text{Kennedy funeral procession viewers, cumulative broadcast audience}} \approx 1.75 \times 10^8, \quad P_{\text{television viewers, funeral procession}} \gtrsim 8 \times 10^7$$
+$$
+P_{\text{Kennedy funeral procession viewers, cumulative broadcast audience}} \approx 1.75 \times 10^8, \quad P_{\text{television viewers, funeral procession}} \gtrsim 8 \times 10^7
+\tag{20}
+$$
 
 per Nielsen ratings and historical reconstruction. Subsequent American religious 1960s trauma sequence including Malcolm X 1965, MLK 1968, and RFK 1968 assassinations produced appreciable national religious-cultural disorientation treated in various literature.
 
@@ -190,20 +250,29 @@ Movement religious institutional dimensions were significant. Black church infra
 
 Approximate religious institutional civil rights mobilization scales included
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{clergy participants, 1963 March on Washington}} &\approx 3 \times 10^3 \\
 N_{\text{clergy participants, 1965 Selma to Montgomery marches}} &\approx 1.5 \times 10^3 \\
 N_{\text{clergy arrested, cumulative 1961 to 1965 civil rights demonstrations}} &\approx 1 \times 10^3 \\
 C_{\text{denominational funding, civil rights institutional support 1960 to 1968}} &\approx 5 \times 10^7 \text{ USD nominal}
-\end{aligned}$$
+\end{aligned}
+\tag{21}
+$$
 
 per institutional reconstruction. The 1965 murders of Reverend James Reeb (Unitarian Universalist), Jonathan Daniels (Episcopalian seminarian), and Viola Liuzzo (Detroit Catholic laywoman) during Selma-related civil rights actions reflected interreligious mobilization and ongoing white supremacist violence. Selma to Montgomery march attendance escalated through the March 1965 window,
 
-$$N_{\text{Bloody Sunday marchers, 7 March 1965}} \approx 600, \quad N_{\text{Turnaround Tuesday marchers, 9 March 1965}} \approx 2500, \quad N_{\text{Third march completion, 25 March 1965}} \approx 2.5 \times 10^4$$
+$$
+N_{\text{Bloody Sunday marchers, 7 March 1965}} \approx 600, \quad N_{\text{Turnaround Tuesday marchers, 9 March 1965}} \approx 2500, \quad N_{\text{Third march completion, 25 March 1965}} \approx 2.5 \times 10^4
+\tag{22}
+$$
 
 per historical reconstruction. March on Washington 1963 attendance reached approximately
 
-$$N_{\text{March on Washington attendance, 28 August 1963}} \approx 2.5 \times 10^5, \quad f_{\text{white participants}} \approx 0.25$$
+$$
+N_{\text{March on Washington attendance, 28 August 1963}} \approx 2.5 \times 10^5, \quad f_{\text{white participants}} \approx 0.25
+\tag{23}
+$$
 
 representing the largest single civil rights demonstration to that date.
 
@@ -213,7 +282,10 @@ The 1966 Chicago Freedom Movement providing SCLC's first substantial Northern ca
 
 Martin Luther King Jr. (1929-1968) provided the most pronounced American Civil Rights Movement leader of the twentieth century. King's 1955-1956 Montgomery Bus Boycott leadership (following 1 December 1955 Rosa Parks arrest) established the institutional platform for 1957 SCLC formation. Total King ministry period reached approximately
 
-$$t_{\text{King public ministry, 1955 to 1968}} \approx 13 \text{ years}, \quad N_{\text{King documented arrests}} \approx 29, \quad N_{\text{King books published lifetime}} = 5, \quad N_{\text{King published sermons and speeches, cumulative}} \gtrsim 3 \times 10^3$$
+$$
+t_{\text{King public ministry, 1955 to 1968}} \approx 13 \text{ years}, \quad N_{\text{King documented arrests}} \approx 29, \quad N_{\text{King books published lifetime}} = 5, \quad N_{\text{King published sermons and speeches, cumulative}} \gtrsim 3 \times 10^3
+\tag{24}
+$$
 
 per Martin Luther King Jr. Papers Project reconstruction. The [Garrow et al. 1986][book_garrow_1986] Bearing the Cross, [Oates 1982][book_oates_1982] Let the Trumpet Sound, [Baldwin 1991][book_baldwin_1991] There Is a Balm in Gilead, and [Marsh 2005][book_marsh_2005] The Beloved Community (already cited) provide the comprehensive biographical treatments.
 
@@ -227,23 +299,35 @@ The Second Vatican Council (11 October 1962 through 8 December 1965), convened b
 
 Vatican II produced sixteen documents across four conciliar sessions,
 
-$$N_{\text{Vatican II conciliar documents}} = 16, \quad N_{\text{Constitutions}} = 4, \quad N_{\text{Decrees}} = 9, \quad N_{\text{Declarations}} = 3, \quad N_{\text{Council Fathers voting}} \approx 2540$$
+$$
+N_{\text{Vatican II conciliar documents}} = 16, \quad N_{\text{Constitutions}} = 4, \quad N_{\text{Decrees}} = 9, \quad N_{\text{Declarations}} = 3, \quad N_{\text{Council Fathers voting}} \approx 2540
+\tag{25}
+$$
 
 per institutional records. Key documents included [Sacrosanctum Concilium 1963][ref_sacrosanctum_concilium_1963] (Constitution on the Sacred Liturgy, vernacular Mass authorization), [Lumen Gentium 1964][ref_lumen_gentium_1964] (Dogmatic Constitution on the Church), [Gaudium et Spes 1965][ref_gaudium_et_spes_1965] (Pastoral Constitution on the Church in the Modern World), [Dei Verbum 1965][ref_dei_verbum_1965] (Dogmatic Constitution on Divine Revelation), [Nostra Aetate 1965][ref_nostra_aetate_1965] (Declaration on the Relation of the Church to Non-Christian Religions, rejection of "deicide" charge against Jews), [Dignitatis Humanae 1965][ref_dignitatis_humanae_1965] (Declaration on Religious Freedom, drafted by American John Courtney Murray SJ), and [Ad Gentes 1965][ref_ad_gentes_1965] (Decree on Missionary Activity). Related conciliar and papal documents include 11 October 1962 [John XXIII 1962][ref_john_xxiii_opening_1962] Gaudet Mater Ecclesia opening address of Vatican II by John XXIII, 11 April 1963 [Pacem in Terris 1963][ref_pacem_in_terris_1963] John XXIII encyclical on peace, 26 March 1967 [Populorum Progressio 1967][ref_populorum_progressio_1967] Paul VI encyclical on integral human development, and 25 July 1968 [Humanae Vitae 1968][ref_humanae_vitae_1968] Paul VI encyclical on artificial contraception reaffirming Catholic prohibition and producing considerable American Catholic dissent.
 
 American Catholic implementation of Vatican II reforms proceeded rapidly. Approximate liturgical transformation reached completion by 1970,
 
-$$f_{\text{US Catholic parishes celebrating vernacular Mass}}\bigg|_{1965} \approx 0.10, \quad f\bigg|_{1968} \approx 0.85, \quad f\bigg|_{1972} \gtrsim 0.98$$
+$$
+f_{\text{US Catholic parishes celebrating vernacular Mass}}\bigg|_{1965} \approx 0.10, \quad f\bigg|_{1968} \approx 0.85, \quad f\bigg|_{1972} \gtrsim 0.98
+\tag{26}
+$$
 
 per institutional reconstruction. Traditionalist Catholic response included Society of Saint Pius X formation (1970 under Archbishop Marcel Lefebvre, subsequently 1988 excommunication and 2009 partial reconciliation) and a number of American traditionalist Catholic organizations. The [Cuneo 1997][book_cuneo_1997] The Smoke of Satan treats the traditionalist Catholic response.
 
 Vatican II's American religious institutional effects were significant. Priest and religious vocations declined,
 
-$$N_{\text{US Catholic priests}}(1965) \approx 5.9 \times 10^4, \quad N_{\text{US Catholic priests}}(1980) \approx 5.8 \times 10^4, \quad N_{\text{US Catholic priests}}(2020) \approx 3.5 \times 10^4$$
+$$
+N_{\text{US Catholic priests}}(1965) \approx 5.9 \times 10^4, \quad N_{\text{US Catholic priests}}(1980) \approx 5.8 \times 10^4, \quad N_{\text{US Catholic priests}}(2020) \approx 3.5 \times 10^4
+\tag{27}
+$$
 
 per Official Catholic Directory data, and religious sister population declined significantly,
 
-$$N_{\text{US Catholic religious sisters}}(1965) \approx 1.8 \times 10^5, \quad N_{\text{US Catholic religious sisters}}(2020) \approx 4 \times 10^4$$
+$$
+N_{\text{US Catholic religious sisters}}(1965) \approx 1.8 \times 10^5, \quad N_{\text{US Catholic religious sisters}}(2020) \approx 4 \times 10^4
+\tag{28}
+$$
 
 reflecting substantial institutional restructuring in post-Vatican II decades.
 
@@ -253,7 +337,10 @@ Nation of Islam expansion documented in [A272][related_post_a272_depression_war_
 
 Nation of Islam membership expansion under Malcolm's institutional development reached approximately
 
-$$P_{\text{NoI membership}}(1952) \approx 5 \times 10^2, \quad P_{\text{NoI membership}}(1961) \approx 1 \times 10^4, \quad P_{\text{NoI membership, peak c. 1970}} \approx 5 \times 10^4$$
+$$
+P_{\text{NoI membership}}(1952) \approx 5 \times 10^2, \quad P_{\text{NoI membership}}(1961) \approx 1 \times 10^4, \quad P_{\text{NoI membership, peak c. 1970}} \approx 5 \times 10^4
+\tag{29}
+$$
 
 per institutional records, with extensive Malcolm-led expansion during 1953-1963 window. Primary Malcolm X sources include [Malcolm X 1965][ref_malcolm_x_1965_autobiography] The Autobiography of Malcolm X (with Alex Haley, published posthumously 1965), [Malcolm X Speaks][ref_malcolm_x_speaks] speech compilation, and extensive [Malcolm X Archive][ref_malcolm_x_archive] documentation.
 
@@ -261,7 +348,10 @@ Malcolm's 12 March 1964 departure from Nation of Islam, April 1964 hajj pilgrima
 
 The 1995 Million Man March at Washington DC under Farrakhan's leadership attracted approximately
 
-$$N_{\text{Million Man March attendance, 16 October 1995}} \approx 8 \times 10^5, \quad N_{\text{same, alternative estimate}} \approx 1 \times 10^6$$
+$$
+N_{\text{Million Man March attendance, 16 October 1995}} \approx 8 \times 10^5, \quad N_{\text{same, alternative estimate}} \approx 1 \times 10^6
+\tag{30}
+$$
 
 per National Park Service and alternative reconstructions, providing inflection point in Farrakhan-led NoI institutional public presence. The [Curtis 2006][book_curtis_2006] Black Muslim Religion (already cited in A272) and [Gardell 1996][book_gardell_1996] In the Name of Elijah Muhammad treat the post-1975 Nation of Islam trajectory.
 
@@ -269,13 +359,16 @@ per National Park Service and alternative reconstructions, providing inflection 
 
 Cuban refugee migration to the United States began with the 1 January 1959 Fidel Castro assumption of power in Havana. Total Cuban refugee admissions across waves reached approximately
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Cuban arrivals, Golden Exile 1959 to 1962}} &\approx 2.15 \times 10^5 \\
 N_{\text{Cuban arrivals, Freedom Flights 1965 to 1973}} &\approx 2.9 \times 10^5 \\
 N_{\text{Cuban arrivals, Mariel Boatlift 1980}} &\approx 1.25 \times 10^5 \\
 N_{\text{Cuban arrivals, Balsero crisis 1994}} &\approx 3.5 \times 10^4 \\
 N_{\text{Cuban American total population}}\bigg|_{1980} &\approx 8 \times 10^5, \quad N\bigg|_{2020} \approx 2.4 \times 10^6
-\end{aligned}$$
+\end{aligned}
+\tag{31}
+$$
 
 per US Immigration and Naturalization Service records. The [García and Garcia 1996][book_garcia_1996] Havana USA, [Pérez 1999][book_perez_1999] On Becoming Cuban, [Grenier and Pérez 2003][book_grenier_perez_2003] The Legacy of Exile, and [Torres and Torres 1999][book_torres_1999] In the Land of Mirrors provide the most complete treatments.
 
@@ -283,7 +376,10 @@ Religious composition of Cuban refugee populations combined sizable Catholic maj
 
 The 1966 [Cuban Adjustment Act 1966][ref_cuban_adjustment_act_1966] provided extraordinary Cuban-legal status permitting one-year residence Cubans to adjust to permanent resident status, exceeding general immigrant treatment framework. Institutional Cuban refugee support included Cuban Refugee Program (established 1961) providing approximately $2 billion cumulative federal expenditure through 1980s. Miami-Dade Cuban American concentration reached appreciable levels,
 
-$$P_{\text{Cuban American, Miami-Dade County}}\bigg|_{1970} \approx 2.9 \times 10^5, \quad P\bigg|_{2020} \approx 8.5 \times 10^5, \quad f_{\text{Cuban American among Miami-Dade Hispanic population}}\bigg|_{1990} \approx 0.60$$
+$$
+P_{\text{Cuban American, Miami-Dade County}}\bigg|_{1970} \approx 2.9 \times 10^5, \quad P\bigg|_{2020} \approx 8.5 \times 10^5, \quad f_{\text{Cuban American among Miami-Dade Hispanic population}}\bigg|_{1990} \approx 0.60
+\tag{32}
+$$
 
 per US Census records, producing what historians characterize as the most significant single-city ethnic concentration in American twentieth-century immigrant history. The 1980 Mariel Boatlift's inclusion of approximately 20% "excludable" persons (inmates released from Cuban prisons and mental institutions) complicated Cuban-American Adjustment framework and subsequently produced 1994-1995 US-Cuba migration accord treated in later articles.
 
@@ -293,11 +389,17 @@ Cesar Chavez (1927-1993) and Dolores Huerta (born 1930) founded the 1962 Nationa
 
 Major UFW campaigns included 1965-1970 Delano Grape Strike, 1965 Filipino AWOC and Mexican NFWA merger creating UFWOC, 1966 Delano-to-Sacramento pilgrimage (25-day march combining Catholic penitential practice with labor mobilization) producing [Plan of Delano 1966][ref_plan_of_delano_1966] manifesto modeled on Zapatista Plan of Ayala, 1968 Chavez 25-day fast, 1972 lettuce boycott, and 1975 [California ALRA 1975][ref_california_alra_1975] California Agricultural Labor Relations Act (the first state law extending collective bargaining rights to agricultural workers). Delano Grape Boycott participation reached substantial consumer scale,
 
-$$N_{\text{documented US grape boycott participants at peak c. 1969}} \approx 1.7 \times 10^7, \quad \Delta P_{\text{California grape sales during boycott, 1968 to 1970}} \approx -0.20, \quad t_{\text{Delano Grape Strike duration}} \approx 5 \text{ years}$$
+$$
+N_{\text{documented US grape boycott participants at peak c. 1969}} \approx 1.7 \times 10^7, \quad \Delta P_{\text{California grape sales during boycott, 1968 to 1970}} \approx -0.20, \quad t_{\text{Delano Grape Strike duration}} \approx 5 \text{ years}
+\tag{33}
+$$
 
 per institutional records. UFW membership reached marked peak levels,
 
-$$P_{\text{UFW membership, peak c. 1972}} \approx 1 \times 10^5, \quad C_{\text{UFW contracts covered workers, peak c. 1972}} \approx 8 \times 10^4$$
+$$
+P_{\text{UFW membership, peak c. 1972}} \approx 1 \times 10^5, \quad C_{\text{UFW contracts covered workers, peak c. 1972}} \approx 8 \times 10^4
+\tag{34}
+$$
 
 per institutional records. Chavez's Catholic Worker Movement influence documented in [A272][related_post_a272_depression_war_and_refuge] shaped UFW religious-institutional framework combining Dorothy Day-style personalism with systematic labor mobilization.
 
@@ -307,19 +409,28 @@ The 1955-1975 Vietnam War produced extensive American religious institutional op
 
 Berrigan brothers Daniel Berrigan SJ (1921-2016) and Philip Berrigan (1923-2002) provided the most pronounced American Catholic Left anti-Vietnam War mobilization. Major Berrigan actions included 17 May 1968 Catonsville Nine burning of 378 Selective Service draft records at Catonsville, Maryland, 1970-1972 FBI Ten Most Wanted List placement of Daniel Berrigan, 1980 Plowshares Eight action at General Electric Nuclear Missile plant at King of Prussia, Pennsylvania. Catholic Peace Fellowship membership and Vietnam War era Catholic Left engagement reached appreciable institutional levels,
 
-$$N_{\text{Catholic Peace Fellowship members, peak c. 1971}} \approx 5 \times 10^3, \quad N_{\text{documented Catholic draft resisters, Vietnam era}} \gtrsim 2 \times 10^3$$
+$$
+N_{\text{Catholic Peace Fellowship members, peak c. 1971}} \approx 5 \times 10^3, \quad N_{\text{documented Catholic draft resisters, Vietnam era}} \gtrsim 2 \times 10^3
+\tag{35}
+$$
 
 per institutional records.
 
 Mainline Protestant institutional opposition emerged through 1965-1975 period. Clergy and Laity Concerned About Vietnam (CALCAV, subsequently Clergy and Laity Concerned) formed 1965 under William Sloane Coffin, Abraham Heschel, Robert McAfee Brown, and others provided the interfaith institutional opposition framework. CALCAV membership reached approximately
 
-$$P_{\text{CALCAV membership, peak c. 1972}} \approx 4 \times 10^4, \quad N_{\text{CALCAV chapters, US}} \approx 200$$
+$$
+P_{\text{CALCAV membership, peak c. 1972}} \approx 4 \times 10^4, \quad N_{\text{CALCAV chapters, US}} \approx 200
+\tag{36}
+$$
 
 per institutional records. King's 4 April 1967 Riverside Church address "Beyond Vietnam" documented in [King 1967 Beyond Vietnam][ref_king_1967_beyond_vietnam] earlier in this article provided the most substantial mainstream Civil Rights leadership commitment to anti-war framework, preceding broader African American religious institutional opposition.
 
 Historic peace church anti-Vietnam War opposition continued WWII-era framework documented in [A272][related_post_a272_depression_war_and_refuge] through Mennonite Central Committee, American Friends Service Committee, Brethren Volunteer Service, and differing organizations. Approximate Vietnam era conscientious objection reached significant scale,
 
-$$N_{\text{Vietnam era registered conscientious objectors}} \gtrsim 1.7 \times 10^5, \quad N_{\text{Vietnam era draft evaders and violators}} \gtrsim 5 \times 10^5$$
+$$
+N_{\text{Vietnam era registered conscientious objectors}} \gtrsim 1.7 \times 10^5, \quad N_{\text{Vietnam era draft evaders and violators}} \gtrsim 5 \times 10^5
+\tag{37}
+$$
 
 per Selective Service System records.
 
@@ -329,7 +440,10 @@ Black Liberation Theology emerged in late 1960s American Black Protestant theolo
 
 Cone's theological framework combined German Protestant systematic theology training (Northwestern University doctoral training) with Black Baptist and AME Church ecclesial formation and engagement with Civil Rights and Black Power mobilization producing systematic articulation of Black liberation as Gospel content. Cone's 1975 [God of the Oppressed][ref_cone_1975_god_of_oppressed] provided most sustained systematic Black Liberation theological presentation. Approximate institutional reception scale reached
 
-$$N_{\text{Black Liberation Theology-affiliated seminaries and theological programs, US, c. 1980}} \gtrsim 15, \quad N_{\text{Black theological student affiliation, US c. 1990}} \approx 8 \times 10^3$$
+$$
+N_{\text{Black Liberation Theology-affiliated seminaries and theological programs, US, c. 1980}} \gtrsim 15, \quad N_{\text{Black theological student affiliation, US c. 1990}} \approx 8 \times 10^3
+\tag{38}
+$$
 
 per Association of Theological Schools records.
 
@@ -351,20 +465,26 @@ The Immigration and Nationality Act of 3 October 1965 [Hart-Celler Act 1965][ref
 
 Act provisions included 170,000 annual Eastern Hemisphere ceiling with 20,000 per-country limit, 120,000 Western Hemisphere ceiling (initial per-country limit added in 1976 amendments), seven-category preference system prioritizing family reunification (approximately 74% of annual allocations) and skilled workers, and removal of Asian-Pacific Triangle framework. Total post-1965 immigration reached extensive levels,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{annual immigrant admissions, US}}(1965) &\approx 2.97 \times 10^5 \\
 N_{\text{annual immigrant admissions, US}}(1980) &\approx 5.31 \times 10^5 \\
 N_{\text{annual immigrant admissions, US}}(2000) &\approx 8.5 \times 10^5 \\
 f_{\text{immigrant share, US population}}\bigg|_{1970} &\approx 0.048, \quad f\bigg|_{2020} \approx 0.135
-\end{aligned}$$
+\end{aligned}
+\tag{39}
+$$
 
 producing approximate return to pre-1924 immigrant share by 2020. Source region composition shifted through the post-1965 window,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{European immigration share, US arrivals}}\bigg|_{1960} &\approx 0.75, \quad f\bigg|_{1980} \approx 0.16, \quad f\bigg|_{2020} \approx 0.10 \\
 f_{\text{Asian immigration share}}\bigg|_{1960} &\approx 0.05, \quad f\bigg|_{1980} \approx 0.35, \quad f\bigg|_{2020} \approx 0.40 \\
 f_{\text{Latin American immigration share}}\bigg|_{1960} &\approx 0.20, \quad f\bigg|_{1980} \approx 0.45, \quad f\bigg|_{2020} \approx 0.45
-\end{aligned}$$
+\end{aligned}
+\tag{40}
+$$
 
 per US Department of Homeland Security records. President Lyndon Johnson's 3 October 1965 [Johnson 1965 Statue of Liberty][ref_johnson_1965_liberty_island] signing address at Liberty Island characterized the reform as "not a revolutionary bill" that would not "restructure the shape of our daily lives" - a inaccurate projection that subsequent Congressional supporters similarly minimized. The act's unanticipated demographic transformation through decades exceeded 1965 legislative expectations.
 
@@ -378,7 +498,10 @@ Legislative outcomes included 1975 [Indian et al. 1975][ref_indian_self_determin
 
 Native American population recovery through the twentieth century was considerable,
 
-$$P_{\text{Native American, US}}(1890) \approx 2.5 \times 10^5, \quad P_{\text{Native American, US}}(1950) \approx 3.5 \times 10^5, \quad P_{\text{Native American, US}}(1980) \approx 1.4 \times 10^6, \quad P_{\text{Native American, US}}(2020) \approx 9.7 \times 10^6$$
+$$
+P_{\text{Native American, US}}(1890) \approx 2.5 \times 10^5, \quad P_{\text{Native American, US}}(1950) \approx 3.5 \times 10^5, \quad P_{\text{Native American, US}}(1980) \approx 1.4 \times 10^6, \quad P_{\text{Native American, US}}(2020) \approx 9.7 \times 10^6
+\tag{41}
+$$
 
 per US Census data, reflecting significant twentieth-century demographic recovery from 1890-1920 population nadir documented in [A270][related_post_a270_civil_war_and_reconstruction]. Approximate contemporary Native religious composition combines Christian denominational majority (approximately 60% across a number of denominations), Native American Church membership (approximately 250,000 documented in [A270][related_post_a270_civil_war_and_reconstruction]), and traditional Native religious practices preserved and restored through twentieth-century revitalization treated in differing ethnographic literature.
 
@@ -388,13 +511,19 @@ The 15 May 1972 [Wisconsin v. Yoder 406 1972][ref_wisconsin_v_yoder_1972] Suprem
 
 Chief Justice Warren Burger's majority opinion articulated "balancing test" framework weighing state interest in compulsory education against religious free exercise rights. Decision vote reflected marked consensus,
 
-$$V_{\text{Yoder majority}} = 6, \quad V_{\text{Yoder concurring in part and dissenting in part (Douglas)}} = 1, \quad V_{\text{Yoder not participating}} = 2$$
+$$
+V_{\text{Yoder majority}} = 6, \quad V_{\text{Yoder concurring in part and dissenting in part (Douglas)}} = 1, \quad V_{\text{Yoder not participating}} = 2
+\tag{42}
+$$
 
 per Court records. The Yoder decision provided religious free exercise landmark subsequently constrained through 1990 Employment Division v. Smith documented above but initially expanded through 1993 Religious Freedom Restoration Act documented above.
 
 Old Order Amish population expansion through twentieth century was extensive,
 
-$$P_{\text{Old Order Amish, US}}(1900) \approx 5 \times 10^3, \quad P_{\text{Amish, US}}(1950) \approx 2.5 \times 10^4, \quad P_{\text{Amish, US}}(1990) \approx 1.3 \times 10^5, \quad P_{\text{Amish, US}}(2020) \approx 3.6 \times 10^5$$
+$$
+P_{\text{Old Order Amish, US}}(1900) \approx 5 \times 10^3, \quad P_{\text{Amish, US}}(1950) \approx 2.5 \times 10^4, \quad P_{\text{Amish, US}}(1990) \approx 1.3 \times 10^5, \quad P_{\text{Amish, US}}(2020) \approx 3.6 \times 10^5
+\tag{43}
+$$
 
 per Young Center for Anabaptist and Pietist Studies at Elizabethtown College reconstruction. Approximate Amish population doubling time reached approximately 20 years per demographic reconstruction, exceeding general US population growth and most mainline denominational trajectories.
 
@@ -404,20 +533,26 @@ Second-wave feminism 1960s-1970s produced sizable religious institutional effect
 
 Ordination of women reached appreciable denominational adoption through the 1960s-1980s,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Methodist Church ordination of women} &: 1956 \\
 \text{Presbyterian Church USA ordination of women} &: 1956 \\
 \text{Episcopal Church regular ordination of women} &: 1976 \\
 \text{Reform Judaism first female rabbi (Sally Priesand)} &: 1972 \\
 \text{Conservative Judaism first female rabbi (Amy Eilberg)} &: 1985 \\
 \text{Reconstructionist Judaism first female rabbi (Sandy Sasso)} &: 1974
-\end{aligned}$$
+\end{aligned}
+\tag{44}
+$$
 
 per denominational records. Roman Catholic and Orthodox Jewish traditions maintained male-only ordination through the present, producing significant ongoing denominational contests.
 
 Roe v. Wade's decision produced considerable religious institutional response,
 
-$$V_{\text{Roe v. Wade majority}} = 7, \quad V_{\text{Roe v. Wade dissent}} = 2, \quad N_{\text{states with restrictive pre-Roe abortion statutes overturned}} \approx 44$$
+$$
+V_{\text{Roe v. Wade majority}} = 7, \quad V_{\text{Roe v. Wade dissent}} = 2, \quad N_{\text{states with restrictive pre-Roe abortion statutes overturned}} \approx 44
+\tag{45}
+$$
 
 striking down Texas anti-abortion statutes and establishing constitutional framework for abortion access. Catholic Bishops Conference opposition mobilized through 1975 Pastoral Plan for Pro-Life Activities committing denominational infrastructure to abortion opposition. Evangelical Protestant opposition emerged more slowly, with approximate evangelical shift from initial ambivalence (1971 Southern Baptist Convention resolution supporting limited abortion access) to systematic opposition by late 1970s. Mainline Protestant, Reform Jewish, and Reconstructionist Jewish institutional support for Roe framework continued through the subsequent period. The [Williams 2010][book_williams_2010] God's Own Party and [Jelen 1995][book_jelen_1995] Perspectives on the Politics of Abortion treat the religious institutional mobilization.
 
@@ -427,13 +562,19 @@ Jewish institutional transformation through the 1945-1980 period combined signif
 
 Six-Day War (5-10 June 1967) produced marked American Jewish institutional mobilization. Emergency United Jewish Appeal fundraising produced approximately
 
-$$C_{\text{UJA Emergency 1967 Israel fund}} \approx 3.1 \times 10^8 \text{ USD nominal}, \quad C_{\text{UJA cumulative 1967 fundraising}} \approx 5 \times 10^8 \text{ USD nominal}$$
+$$
+C_{\text{UJA Emergency 1967 Israel fund}} \approx 3.1 \times 10^8 \text{ USD nominal}, \quad C_{\text{UJA cumulative 1967 fundraising}} \approx 5 \times 10^8 \text{ USD nominal}
+\tag{46}
+$$
 
 per institutional records, exceeding pre-1967 annual fundraising by approximately 400% single-year growth. American Jewish institutional convergence on pro-Israel framework reduced pre-1967 non-Zionist Jewish institutional presence. Reform Judaism completed Zionist reversal begun with 1937 Columbus Platform documented in [A272][related_post_a272_depression_war_and_refuge] and 1976 Reform Judaism Centenary Perspective. The 1973 Yom Kippur War and Middle Eastern conflicts maintained pro-Israel American Jewish institutional mobilization.
 
 American Jewish population reached approximately
 
-$$P_{\text{Jewish, US}}(1945) \approx 4.8 \times 10^6, \quad P_{\text{Jewish, US}}(1970) \approx 5.7 \times 10^6, \quad P_{\text{Jewish, US}}(2020) \approx 7.5 \times 10^6$$
+$$
+P_{\text{Jewish, US}}(1945) \approx 4.8 \times 10^6, \quad P_{\text{Jewish, US}}(1970) \approx 5.7 \times 10^6, \quad P_{\text{Jewish, US}}(2020) \approx 7.5 \times 10^6
+\tag{47}
+$$
 
 per American Jewish Year Book demographic reconstruction. Denominational composition shifted with approximate 1990 distribution of 42% Reform, 40% Conservative, 7% Orthodox, and 11% other, compared to approximate 1930 65% Orthodox distribution documented in [A271][related_post_a271_mass_immigration_and_closure]. The late-twentieth-century Orthodox demographic recovery reflected higher birth rates and successful institutional transmission across generations, treated in subsequent articles.
 
@@ -443,20 +584,29 @@ Soviet Jewish emigration movement from mid-1960s forward mobilized American Jewi
 
 American Jewish institutional mobilization proceeded through Union of Councils for Soviet Jews (founded 1970), Student Struggle for Soviet Jewry (founded 1964 by Jacob Birnbaum at Yeshiva University), National Conference on Soviet Jewry (founded 1971 as coordinating body for major American Jewish organizations), and several regional and college-based organizations. Approximate mobilization scales included
 
-$$N_{\text{Freedom Sunday for Soviet Jewry participants, 6 December 1987 Washington rally}} \approx 2.5 \times 10^5, \quad P_{\text{Union of Councils for Soviet Jews affiliated organizations, peak c. 1985}} \approx 45$$
+$$
+N_{\text{Freedom Sunday for Soviet Jewry participants, 6 December 1987 Washington rally}} \approx 2.5 \times 10^5, \quad P_{\text{Union of Councils for Soviet Jews affiliated organizations, peak c. 1985}} \approx 45
+\tag{48}
+$$
 
 per institutional records.
 
 Soviet Jewish emigration to Israel and US proceeded through waves,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Soviet Jewish emigrants, 1968 to 1980}} &\approx 2.5 \times 10^5, \quad f_{\text{destination Israel}} \approx 0.60, \quad f_{\text{destination US}} \approx 0.35 \\
 N_{\text{Soviet Jewish emigrants, 1989 to 2003}} &\approx 1.6 \times 10^6, \quad f_{\text{destination Israel}} \approx 0.65, \quad f_{\text{destination US}} \approx 0.30
-\end{aligned}$$
+\end{aligned}
+\tag{49}
+$$
 
 per HIAS and Jewish Agency for Israel records. The 1989-1991 Soviet collapse produced most extensive Soviet Jewish emigration wave. Approximate US Soviet Jewish refugee admissions total reached
 
-$$N_{\text{Soviet Jewish refugee admissions, US, cumulative 1972 to 2004}} \approx 6 \times 10^5$$
+$$
+N_{\text{Soviet Jewish refugee admissions, US, cumulative 1972 to 2004}} \approx 6 \times 10^5
+\tag{50}
+$$
 
 per US Office of Refugee Resettlement records.
 
@@ -474,7 +624,8 @@ The 1960s-1970s American religious landscape produced considerable new religious
 
 Major new religious movements of the period included:
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Church of Scientology (founded 1953 by L. Ron Hubbard)} &: P \approx 2 \times 10^5 \text{ contemporary} \\
 \text{Unification Church (Sun Myung Moon, US arrival 1959)} &: P \approx 5 \times 10^4 \text{ US contemporary} \\
 \text{ISKCON Krishna Consciousness (founded 1966 by Prabhupada)} &: P \approx 1 \times 10^5 \text{ US contemporary} \\
@@ -482,13 +633,18 @@ $$\begin{aligned}
 \text{Charismatic Renewal (1960 Van Nuys Episcopal)} &: P \approx 1 \times 10^7 \text{ US contemporary} \\
 \text{Catholic Charismatic Renewal (1967 Duquesne)} &: P \approx 5 \times 10^7 \text{ worldwide contemporary} \\
 \text{Jesus Movement (late 1960s counterculture Protestant)} &: P \text{ peak } \approx 3 \times 10^5
-\end{aligned}$$
+\end{aligned}
+\tag{51}
+$$
 
 per institutional records and various sociological reconstruction. The 1960s-1970s window represented the most significant American religious innovation of the twentieth century's second half, exceeding earlier Depression-era new religious movement formation documented in [A272][related_post_a272_depression_war_and_refuge].
 
 Substantial "anti-cult" mobilization emerged during the 1970s-1980s in response to assorted new religious movements. Approximate anti-cult organizational formation reached
 
-$$N_{\text{anti-cult organizations, US, c. 1980}} \approx 30, \quad P_{\text{Cult Awareness Network membership peak c. 1990}} \approx 5 \times 10^3$$
+$$
+N_{\text{anti-cult organizations, US, c. 1980}} \approx 30, \quad P_{\text{Cult Awareness Network membership peak c. 1990}} \approx 5 \times 10^3
+\tag{52}
+$$
 
 per institutional records. The 1978 [Jonestown Peoples Temple massacre][ref_jonestown_1978] (918 deaths at Peoples Temple compound at Jonestown, Guyana under Jim Jones) and 1993 [Waco Branch Davidian siege][ref_waco_branch_davidian_1993] (82 deaths at Branch Davidian compound at Waco, Texas) shaped American public perception of new religious movements and "cult" categorization contests.
 
@@ -496,14 +652,17 @@ per institutional records. The 1978 [Jonestown Peoples Temple massacre][ref_jone
 
 Vietnamese refugee admission began with the 30 April 1975 Fall of Saigon and Operation Frequent Wind evacuation. Total Southeast Asian refugee admissions through waves reached approximately
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Vietnamese arrivals, US, 1975 first wave}} &\approx 1.3 \times 10^5 \\
 N_{\text{Vietnamese arrivals, US, boat people 1978 to 1985}} &\approx 4 \times 10^5 \\
 N_{\text{Cambodian arrivals, US, 1975 to 1994}} &\approx 1.5 \times 10^5 \\
 N_{\text{Laotian arrivals, US, 1975 to 1994}} &\approx 2.3 \times 10^5 \\
 N_{\text{Hmong arrivals, US, 1975 to 1994}} &\approx 1.4 \times 10^5 \\
 N_{\text{total Southeast Asian refugee arrivals, US, 1975 to 1994}} &\approx 1.05 \times 10^6
-\end{aligned}$$
+\end{aligned}
+\tag{53}
+$$
 
 per US Office of Refugee Resettlement records. The [Chan 2006][book_chan_2006] The Vietnamese American 1.5 Generation, [Robinson 1998][book_robinson_1998] Terms of Refuge, [Faderman 1998][book_faderman_1998] I Begin My Life All Over, and [Yang 2008][book_yang_2008] Diverse Traditions provide the leading treatments.
 
@@ -511,11 +670,17 @@ Religious composition of Southeast Asian refugees varied by national origin. Vie
 
 Institutional refugee resettlement combined federal [Indochina et al. 1975][ref_indochina_migration_act_1975] framework of 23 May 1975, subsequent federal Office of Refugee Resettlement (established 1980 as part of Refugee Act treated below) with extensive religious voluntary agency (VOLAG) participation. Major VOLAGs included US Catholic Conference Migration and Refugee Services, Church World Service (mainline Protestant ecumenical agency), Hebrew Immigrant Aid Society (HIAS), Lutheran Immigration and Refugee Service, International Rescue Committee, World Relief (evangelical Protestant), several denominational and secular agencies. Approximate VOLAG resettlement placements reached
 
-$$f_{\text{Catholic sponsorship among Southeast Asian refugees resettled}} \approx 0.30, \quad f_{\text{Protestant ecumenical sponsorship}} \approx 0.25, \quad f_{\text{Lutheran sponsorship}} \approx 0.15, \quad f_{\text{Jewish HIAS sponsorship}} \approx 0.05$$
+$$
+f_{\text{Catholic sponsorship among Southeast Asian refugees resettled}} \approx 0.30, \quad f_{\text{Protestant ecumenical sponsorship}} \approx 0.25, \quad f_{\text{Lutheran sponsorship}} \approx 0.15, \quad f_{\text{Jewish HIAS sponsorship}} \approx 0.05
+\tag{54}
+$$
 
 per institutional records, reflecting substantial interfaith American religious institutional cooperation in refugee resettlement infrastructure. Southeast Asian US population reached approximately
 
-$$P_{\text{Vietnamese American}}\bigg|_{2020} \approx 2.2 \times 10^6, \quad P_{\text{Cambodian American}}\bigg|_{2020} \approx 3.4 \times 10^5, \quad P_{\text{Laotian American}}\bigg|_{2020} \approx 2.6 \times 10^5, \quad P_{\text{Hmong American}}\bigg|_{2020} \approx 3.3 \times 10^5$$
+$$
+P_{\text{Vietnamese American}}\bigg|_{2020} \approx 2.2 \times 10^6, \quad P_{\text{Cambodian American}}\bigg|_{2020} \approx 3.4 \times 10^5, \quad P_{\text{Laotian American}}\bigg|_{2020} \approx 2.6 \times 10^5, \quad P_{\text{Hmong American}}\bigg|_{2020} \approx 3.3 \times 10^5
+\tag{55}
+$$
 
 per US Census 2020 records.
 
@@ -523,14 +688,17 @@ per US Census 2020 records.
 
 Post-1965 Asian immigration transformed American Asian populations documented through earlier articles. Approximate 1965-2020 Asian immigration trajectories were
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{Asian American, US}}(1965) &\approx 1 \times 10^6, \quad P\bigg|_{2020} \approx 2.4 \times 10^7 \\
 P_{\text{Chinese American}}(1965) &\approx 2.5 \times 10^5, \quad P\bigg|_{2020} \approx 5.4 \times 10^6 \\
 P_{\text{Filipino American}}(1965) &\approx 2 \times 10^5, \quad P\bigg|_{2020} \approx 4.4 \times 10^6 \\
 P_{\text{Indian American}}(1965) &\approx 5 \times 10^4, \quad P\bigg|_{2020} \approx 4.6 \times 10^6 \\
 P_{\text{Korean American}}(1965) &\approx 1 \times 10^4, \quad P\bigg|_{2020} \approx 1.9 \times 10^6 \\
 P_{\text{Japanese American}}(1965) &\approx 5 \times 10^5, \quad P\bigg|_{2020} \approx 1.5 \times 10^6
-\end{aligned}$$
+\end{aligned}
+\tag{56}
+$$
 
 per US Census data. The [Lee 2015][book_lee_2015] The Making of Asian America, [Espiritu 1992][book_espiritu_1992] Asian American Panethnicity, and [Chan 1991][book_chan_1991] Asian Americans provide the principal treatments.
 
@@ -538,7 +706,10 @@ Religious composition of post-1965 Asian immigrant populations varied by nationa
 
 Institutional religious formation among post-1965 Asian populations produced extensive expansion. By 2020 approximate institutional counts reached
 
-$$N_{\text{Korean American Christian congregations, US}} \approx 4 \times 10^3, \quad N_{\text{Indian Hindu temples, US}} \approx 8 \times 10^2, \quad N_{\text{Sikh gurdwaras, US}} \approx 3.5 \times 10^2, \quad N_{\text{Chinese Buddhist temples, US}} \approx 4 \times 10^2$$
+$$
+N_{\text{Korean American Christian congregations, US}} \approx 4 \times 10^3, \quad N_{\text{Indian Hindu temples, US}} \approx 8 \times 10^2, \quad N_{\text{Sikh gurdwaras, US}} \approx 3.5 \times 10^2, \quad N_{\text{Chinese Buddhist temples, US}} \approx 4 \times 10^2
+\tag{57}
+$$
 
 per institutional records, exceeding pre-1965 Asian religious institutional infrastructure.
 
@@ -546,26 +717,35 @@ per institutional records, exceeding pre-1965 Asian religious institutional infr
 
 Post-1965 Latin American immigration transformed American Hispanic populations documented through earlier articles. Approximate 1965-2020 Latin American immigration trajectories were
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{Hispanic/Latino, US}}(1970) &\approx 9.6 \times 10^6, \quad P\bigg|_{2020} \approx 6.2 \times 10^7 \\
 P_{\text{Mexican American, US}}(1970) &\approx 4.5 \times 10^6, \quad P\bigg|_{2020} \approx 3.7 \times 10^7 \\
 P_{\text{Puerto Rican, US}}(1970) &\approx 1.4 \times 10^6, \quad P\bigg|_{2020} \approx 5.8 \times 10^6 \\
 P_{\text{Cuban American, US}}(1970) &\approx 6.3 \times 10^5, \quad P\bigg|_{2020} \approx 2.4 \times 10^6 \\
 P_{\text{Dominican American, US}}(1970) &\approx 6 \times 10^4, \quad P\bigg|_{2020} \approx 2.1 \times 10^6 \\
 P_{\text{Salvadoran American, US}}(1970) &\approx 1 \times 10^4, \quad P\bigg|_{2020} \approx 2.4 \times 10^6
-\end{aligned}$$
+\end{aligned}
+\tag{58}
+$$
 
 per US Census data. The [Suárez-Orozco and Suárez-Orozco 2007][book_suarez_orozco_2007] Learning a New Land, [Portes and Rumbaut 2014][book_portes_rumbaut_2014] Immigrant America, and [Massey et al. 2002][book_massey_durand_malone_2002] Beyond Smoke and Mirrors provide the standard treatments.
 
 Central American refugee flows accelerated through 1980s Salvadoran and Guatemalan civil wars. Total Central American refugee arrivals through 1980-1990 window reached approximately
 
-$$N_{\text{Salvadoran arrivals, US, 1980 to 1990}} \approx 5 \times 10^5, \quad N_{\text{Guatemalan arrivals, US, 1980 to 1990}} \approx 2.5 \times 10^5, \quad N_{\text{Nicaraguan arrivals, US, 1980 to 1990}} \approx 1.5 \times 10^5$$
+$$
+N_{\text{Salvadoran arrivals, US, 1980 to 1990}} \approx 5 \times 10^5, \quad N_{\text{Guatemalan arrivals, US, 1980 to 1990}} \approx 2.5 \times 10^5, \quad N_{\text{Nicaraguan arrivals, US, 1980 to 1990}} \approx 1.5 \times 10^5
+\tag{59}
+$$
 
 per US Immigration and Naturalization Service records. Reagan administration denial of asylum petitions from Salvadoran and Guatemalan populations (approval rates below 5% for 1984-1990 asylum applications) reflected Reagan administration alignment with Salvadoran and Guatemalan military governments treated in assorted policy literature.
 
 The Sanctuary Movement, beginning in 1982 under Reverend John Fife of Southside Presbyterian Church at Tucson, Arizona, provided the most pronounced American religious institutional response to Central American refugee restrictionism. Approximately
 
-$$N_{\text{congregations declaring Sanctuary status by 1988}} \approx 5 \times 10^2, \quad N_{\text{Central American refugees sheltered through Sanctuary Movement, cumulative}} \approx 3 \times 10^3$$
+$$
+N_{\text{congregations declaring Sanctuary status by 1988}} \approx 5 \times 10^2, \quad N_{\text{Central American refugees sheltered through Sanctuary Movement, cumulative}} \approx 3 \times 10^3
+\tag{60}
+$$
 
 per institutional records. The 1985-1986 federal prosecution of 16 Sanctuary Movement participants under alien smuggling charges (11 convictions, subsequently reversed on a number of grounds) provided the institutional confrontation. The [Golden and McConnell 1986][book_golden_mcconnell_1986] Sanctuary and [Bau 1985][book_bau_1985] This Ground Is Holy treat the Sanctuary Movement.
 
@@ -575,7 +755,10 @@ Latino religious composition combined appreciable Catholic majority (approximate
 
 The 1979 Iranian Revolution (11 February 1979 Shah's fall, 1 April 1979 Islamic Republic proclamation under Ayatollah Ruhollah Khomeini) produced considerable Iranian refugee flows to the United States. Total Iranian arrivals reached approximately
 
-$$N_{\text{Iranian arrivals, US, 1979 to 2000}} \approx 3 \times 10^5, \quad P_{\text{Iranian American}}\bigg|_{2020} \approx 5 \times 10^5$$
+$$
+N_{\text{Iranian arrivals, US, 1979 to 2000}} \approx 3 \times 10^5, \quad P_{\text{Iranian American}}\bigg|_{2020} \approx 5 \times 10^5
+\tag{61}
+$$
 
 per US Census and US Immigration and Naturalization Service records. Iranian refugees combined significant religious minority populations (approximately 40% Iranian Jewish, 15% Iranian Baha'i, 10% Iranian Christian including Armenian and Assyrian populations, 10% Zoroastrian) with substantial Iranian Muslim populations (approximately 25%, combining Shia majority and Sunni minority). The [Mostofi 2003][book_mostofi_2003] Iranian Americans and [Sanasarian 2000][book_sanasarian_2000] Religious Minorities in Iran provide the fullest treatments.
 
@@ -583,11 +766,17 @@ Concurrent Middle Eastern refugee flows through the 1970s-1980s included marked 
 
 Middle Eastern Christian and Muslim American populations expanded through the post-1965 period,
 
-$$P_{\text{Arab American, US}}(1970) \approx 5 \times 10^5, \quad P_{\text{Arab American, US}}(2020) \approx 3.7 \times 10^6, \quad P_{\text{Muslim American, US}}(1980) \approx 1 \times 10^6, \quad P_{\text{Muslim American, US}}(2020) \approx 3.5 \times 10^6$$
+$$
+P_{\text{Arab American, US}}(1970) \approx 5 \times 10^5, \quad P_{\text{Arab American, US}}(2020) \approx 3.7 \times 10^6, \quad P_{\text{Muslim American, US}}(1980) \approx 1 \times 10^6, \quad P_{\text{Muslim American, US}}(2020) \approx 3.5 \times 10^6
+\tag{62}
+$$
 
 per US Census and a range of denominational reconstruction. The 1979 Iran hostage crisis shaped American public perception of Islam and Middle Eastern populations,
 
-$$t_{\text{Iran hostage crisis}} = 4 \text{ November } 1979 \text{ to } 20 \text{ January } 1981, \quad t_{\text{captivity duration}} = 444 \text{ days}, \quad N_{\text{US Embassy hostages}} = 52, \quad N_{\text{released hostages under Algiers Accords}} = 52$$
+$$
+t_{\text{Iran hostage crisis}} = 4 \text{ November } 1979 \text{ to } 20 \text{ January } 1981, \quad t_{\text{captivity duration}} = 444 \text{ days}, \quad N_{\text{US Embassy hostages}} = 52, \quad N_{\text{released hostages under Algiers Accords}} = 52
+\tag{63}
+$$
 
 initiating patterns of US-Muslim discrimination that would amplify through subsequent decades treated in later articles.
 
@@ -597,12 +786,15 @@ The Refugee Act of 17 March 1980 [Refugee Act 1980][ref_refugee_act_1980] provid
 
 Act provisions included establishment of Office of Refugee Resettlement, 50,000 annual refugee admission ceiling with Presidential adjustment authority, asylum framework separate from overseas refugee processing, and comprehensive resettlement services framework combining federal funding with VOLAG operational coordination documented above under Southeast Asian refugees section. Approximate refugee admissions under 1980 Act framework reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{refugee admissions, US}}(1980) &\approx 2.07 \times 10^5 \text{ (Southeast Asian peak)} \\
 N_{\text{refugee admissions, US, annual average 1980 to 1989}} &\approx 8.4 \times 10^4 \\
 N_{\text{refugee admissions, US, annual average 1990 to 1999}} &\approx 1.15 \times 10^5 \\
 N_{\text{refugee admissions, US}}(2020) &\approx 1.2 \times 10^4 \text{ (Trump administration reduction)}
-\end{aligned}$$
+\end{aligned}
+\tag{64}
+$$
 
 per institutional records. The 1980 Act's "well-founded fear of persecution" refugee definition expanded pre-1980 ideologically-restricted refugee framework (1948 Displaced Persons Act WWII-focused framework and 1953-1979 various ideological restrictions targeting Soviet Bloc and Communist-adjacent source populations) toward broader religious, ethnic, and political persecution recognition.
 
@@ -612,7 +804,10 @@ The 1979-1990 Southern Baptist Convention (SBC) fundamentalist takeover (termed 
 
 The June 1979 SBC annual meeting at Houston, Texas producing Adrian Rogers's presidential election under Paul Pressler and Paige Patterson organizing framework provided the inflection point beginning the approximately 11-year presidential elections that transformed SBC institutional leadership. Approximate SBC membership and presidential electoral trajectory reached
 
-$$P_{\text{Southern Baptist Convention membership}}(1979) \approx 1.32 \times 10^7, \quad P_{\text{SBC membership}}(2020) \approx 1.4 \times 10^7, \quad N_{\text{consecutive fundamentalist SBC Presidential elections 1979 to 1990}} = 11$$
+$$
+P_{\text{Southern Baptist Convention membership}}(1979) \approx 1.32 \times 10^7, \quad P_{\text{SBC membership}}(2020) \approx 1.4 \times 10^7, \quad N_{\text{consecutive fundamentalist SBC Presidential elections 1979 to 1990}} = 11
+\tag{65}
+$$
 
 per institutional records.
 
@@ -624,11 +819,17 @@ Religious Right emergence through 1970s produced sizable American Protestant ins
 
 Moral Majority membership expansion was appreciable,
 
-$$P_{\text{Moral Majority claimed membership, peak c. 1980}} \approx 4 \times 10^6, \quad P_{\text{Moral Majority documented dues-paying membership}} \approx 4 \times 10^5, \quad N_{\text{state Moral Majority chapters}} = 50$$
+$$
+P_{\text{Moral Majority claimed membership, peak c. 1980}} \approx 4 \times 10^6, \quad P_{\text{Moral Majority documented dues-paying membership}} \approx 4 \times 10^5, \quad N_{\text{state Moral Majority chapters}} = 50
+\tag{66}
+$$
 
 per institutional records, with considerable inflation between claimed and documented membership figures reflecting mailing-list rather than formal membership organization structure. Institutional termination occurred in 1989 with significant electoral mobilization influence,
 
-$$C_{\text{Moral Majority cumulative fundraising, 1979 to 1989}} \approx 6.9 \times 10^7 \text{ USD nominal}, \quad f_{\text{evangelical white voters for Reagan}}\bigg|_{1980} \approx 0.63, \quad f\bigg|_{1984} \approx 0.78, \quad f\bigg|_{1988} \approx 0.81$$
+$$
+C_{\text{Moral Majority cumulative fundraising, 1979 to 1989}} \approx 6.9 \times 10^7 \text{ USD nominal}, \quad f_{\text{evangelical white voters for Reagan}}\bigg|_{1980} \approx 0.63, \quad f\bigg|_{1984} \approx 0.78, \quad f\bigg|_{1988} \approx 0.81
+\tag{67}
+$$
 
 per institutional records and exit polling reconstruction, documented in 1980, 1984, and 1988 Republican presidential campaigns.
 
@@ -664,6 +865,661 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct assessment of the 1978 American Indian Religious Freedom Act's effective religious protection versus ongoing 1990 Employment Division v. Smith constraint?
 - What is the correct empirical characterization of the 1979 Iranian Revolution's long-term effects on US-Muslim relations and American Muslim institutional formation?
 - What is the correct assessment of the Religious Right emergence's causal contribution to late twentieth-century American political realignment?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 67 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 67, 67 are established and 0 are bespoke.
+Every figure is an approximate historical count, share or monetary amount as reported by the source the article names, a share is a fraction between zero and one rather than a percentage, and monetary amounts are nominal United States dollars unless the equation states otherwise.
+
+**Equation 1, Church Membership Share of the Population, 1940 to 1980.**
+The share of the population of the United States holding church membership is reported from the Yearbook of American and Canadian Churches for 1940, 1960 and 1980, rising to a postwar peak before declining.
+[Marty 1985][book_marty_1985]
+[Wuthnow 1988][book_wuthnow_1988]
+
+$$
+f_{\text{church membership, US population}}\bigg|_{1940} \approx 0.49, \quad f_{\text{church membership, US}}\bigg|_{1960} \approx 0.63, \quad f_{\text{church membership, US}}\bigg|_{1980} \approx 0.55
+\tag{1}
+$$
+
+**Equation 2, Membership of Four Major Traditions, 1945 and 1980.**
+Denominational records give the membership of the Southern Baptist Convention, the Roman Catholic Church, the United Methodist Church and the Jewish population of the United States in 1945 and 1980.
+
+$$
+\begin{aligned}
+P_{\text{Southern Baptist Convention}}(1945) &\approx 5.9 \times 10^6, \quad P_{\text{SBC}}(1980) \approx 1.35 \times 10^7 \\
+P_{\text{Roman Catholic, US}}(1945) &\approx 2.4 \times 10^7, \quad P_{\text{Catholic, US}}(1980) \approx 5 \times 10^7 \\
+P_{\text{United Methodist}}(1945) &\approx 8 \times 10^6, \quad P_{\text{UMC}}(1980) \approx 9.5 \times 10^6 \\
+P_{\text{Jewish, US}}(1945) &\approx 4.8 \times 10^6, \quad P_{\text{Jewish, US}}(1980) \approx 5.9 \times 10^6
+\end{aligned}
+\tag{2}
+$$
+
+**Equation 3, New Suburban Parishes, Congregations and Synagogues, 1945 to 1965.**
+Denominational and building industry records count the Catholic parishes, Protestant congregations and synagogues newly formed in American suburbs over the twenty postwar years.
+
+$$
+N_{\text{new suburban Catholic parishes, US, 1945 to 1965}} \approx 8 \times 10^3, \quad N_{\text{new suburban Protestant congregations, US, 1945 to 1965}} \approx 5 \times 10^4, \quad N_{\text{new suburban synagogues, US, 1945 to 1965}} \approx 2 \times 10^3
+\tag{3}
+$$
+
+**Equation 4, Admissions Under the Displaced Persons Act, 1948 to 1952.**
+Records of the Immigration and Naturalization Service give the cumulative admissions under the Displaced Persons Act together with the Jewish, Baltic and Ukrainian, and Polish shares of those admitted.
+[Dinnerstein 1982][book_dinnerstein_1982]
+[Genizi 1993][book_genizi_1993]
+
+$$
+N_{\text{Displaced Persons Act admissions, cumulative 1948 to 1952}} \approx 4 \times 10^5, \quad f_{\text{Jewish among DPA admissions}} \approx 0.20, \quad f_{\text{Baltic and Ukrainian among DPA admissions}} \approx 0.35, \quad f_{\text{Polish among DPA admissions}} \approx 0.20
+\tag{4}
+$$
+
+**Equation 5, Population of European Displaced Persons Camps at the 1946 Peak.**
+Records of the United Nations Relief and Rehabilitation Administration and the International Refugee Organization give the total and Jewish populations of the displaced persons camps in 1946 and the number of camps operated.
+[Cohen 2012][book_cohen_2012_survivors]
+
+$$
+P_{\text{European DP camps, peak 1946}} \approx 8 \times 10^5, \quad P_{\text{Jewish DPs, peak 1946}} \approx 2.5 \times 10^5, \quad N_{\text{DP camps operated by UNRRA and IRO}} \approx 300
+\tag{5}
+$$
+
+**Equation 6, Jewish Admissions Before and After the 1950 Revision.**
+Institutional records give the Jewish admissions under the original restrictive priorities of 1948 to 1949 and under the revised framework of 1949 to 1952.
+
+$$
+N_{\text{Jewish DPA admissions}}(1948 \text{ to } 1949) \approx 5 \times 10^3, \quad N_{\text{Jewish DPA admissions}}(1949 \text{ to } 1952)_{\text{revised framework}} \approx 7.5 \times 10^4
+\tag{6}
+$$
+
+**Equation 7, Congressional Prayer Meetings and the Military Chaplaincy Budget.**
+Institutional records give a lower bound on Congressional prayer breakfasts and related meetings from 1946 to 1980 and the annual budget of the federal military chaplaincy in 1950 and 1980.
+
+$$
+N_{\text{Congressional prayer breakfasts and related meetings, 1946 to 1980}} \gtrsim 5 \times 10^3, \quad C_{\text{federal military chaplaincy annual budget}}(1950) \approx 3 \times 10^7 \text{ USD nominal}, \quad C_{\text{same}}(1980) \approx 3 \times 10^8 \text{ USD nominal}
+\tag{7}
+$$
+
+**Equation 8, Religious Radio and Television Stations, 1950 and 1980.**
+Records of the Federal Communications Commission and the National Religious Broadcasters count the religious radio stations of the United States in 1950 and 1980 and the religious television stations in 1980.
+
+$$
+N_{\text{US religious radio stations}}(1950) \approx 100, \quad N_{\text{US religious radio stations}}(1980) \approx 1400, \quad N_{\text{US religious television stations}}(1980) \approx 100
+\tag{8}
+$$
+
+**Equation 9, Contemporary Membership of the World Council of Churches.**
+Institutional records of the World Council of Churches give its present member denominations, their aggregate affiliated membership and the number of countries they span.
+
+$$
+N_{\text{WCC member denominations, contemporary}} \approx 352, \quad P_{\text{WCC aggregated affiliated membership}} \approx 5.5 \times 10^8, \quad N_{\text{WCC member countries}} \approx 120
+\tag{9}
+$$
+
+**Equation 10, Founding and Contemporary Membership of the National Council of Churches.**
+Institutional records give the twenty-five founding member denominations of the National Council of Churches in 1950 and its aggregate affiliated membership at founding and today.
+[Cavert 1968][book_cavert_1968]
+
+$$
+N_{\text{NCC founding member denominations, 1950}} = 25, \quad P_{\text{NCC aggregated affiliated membership, 1950}} \approx 3.2 \times 10^7, \quad P_{\text{NCC aggregated affiliated membership, contemporary}} \approx 4 \times 10^7
+\tag{10}
+$$
+
+**Equation 11, World Vision Annual Revenue and Country Programmes.**
+Institutional records give the annual revenue of World Vision in 1970, 1990 and today and the number of countries in which it now runs programmes.
+
+$$
+C_{\text{World Vision annual revenue}}(1970) \approx 5 \times 10^6 \text{ USD nominal}, \quad C_{\text{same}}(1990) \approx 2 \times 10^8, \quad C_{\text{same, contemporary}} \approx 3 \times 10^9, \quad N_{\text{World Vision country programs, contemporary}} \approx 100
+\tag{11}
+$$
+
+**Equation 12, Cumulative Billy Graham Crusade Attendance, 1949 to 2005.**
+Records of the Billy Graham Evangelistic Association give the cumulative crusade attendance, the documented decisions for Christ and the countries visited over the ministry.
+[Martin 1991][book_martin_1991]
+[Wacker 2014][book_wacker_2014]
+
+$$
+N_{\text{Billy Graham cumulative crusade attendance, 1949 to 2005}} \approx 2.15 \times 10^8, \quad N_{\text{documented "decisions for Christ"}} \approx 3.2 \times 10^6, \quad N_{\text{countries visited}} = 185
+\tag{12}
+$$
+
+**Equation 13, Attendance at the 1957 New York Crusade.**
+The sixteen-week Madison Square Garden crusade of 1957 is described by its cumulative attendance, its documented decisions and its duration.
+
+$$
+N_{\text{1957 NYC Crusade cumulative attendance}} \approx 2.05 \times 10^6, \quad N_{\text{1957 NYC Crusade documented decisions}} \approx 5.6 \times 10^4, \quad t_{\text{1957 NYC Crusade duration}} = 16 \text{ weeks}
+\tag{13}
+$$
+
+**Equation 14, Naturalisations and Quotas Under the McCarran-Walter Act.**
+Records of the Immigration and Naturalization Service give the Japanese naturalisations of 1952 to 1965, the nominal quota for each Asian country and the aggregate national origins quota under the 1952 Act.
+[McCarran-Walter Act 1952][ref_mccarran_walter_act_1952]
+
+$$
+\begin{aligned}
+N_{\text{Japanese naturalizations 1952 to 1965}} &\approx 4.4 \times 10^4 \\
+Q_{\text{Asian country quotas under McCarran-Walter}} &\approx 100 \text{ per country} \\
+Q_{\text{aggregate national origins quota, McCarran-Walter}} &\approx 1.55 \times 10^5
+\end{aligned}
+\tag{14}
+$$
+
+**Equation 15, Congressional Votes Overriding the 1952 Veto.**
+The Congressional record gives the House and Senate votes for and against overriding the veto of the McCarran-Walter Act, with the House vote compared against its two-thirds threshold.
+
+$$
+V_{\text{House override}} = 278 \text{ favor}, V_{\text{House opposition}} = 113, V_{\text{Senate override}} = 57, V_{\text{Senate opposition}} = 26, V_{\text{two-thirds threshold, House}} = 261
+\tag{15}
+$$
+
+**Equation 16, Removals Under Operation Wetback, 1954.**
+The official count of the Immigration and Naturalization Service is set beside the lower modern historical reconstruction, together with a lower bound on the share of those removed who were citizens born in the United States.
+[Hernández 2010][book_hernandez_2010]
+
+$$
+N_{\text{Operation Wetback removals, 1954, official INS count}} \approx 1.1 \times 10^6, \quad N_{\text{Operation Wetback removals, modern reconstruction}} \approx 3 \times 10^5, \quad f_{\text{US-born citizens among removed, estimated}} \gtrsim 0.05
+\tag{16}
+$$
+
+**Equation 17, Mainland Puerto Rican Population, 1940 to 1980.**
+Census data give the Puerto Rican population of the United States mainland in 1940, 1960 and 1980.
+[Whalen and Vazquez-Hernandez 2005][book_whalen_vazquez_2005]
+
+$$
+P_{\text{Puerto Rican, US mainland}}(1940) \approx 7 \times 10^4, \quad P_{\text{Puerto Rican, US mainland}}(1960) \approx 8.9 \times 10^5, \quad P_{\text{Puerto Rican, US mainland}}(1980) \approx 2 \times 10^6
+\tag{17}
+$$
+
+**Equation 18, Religious Composition of Mainland Puerto Ricans, 1950 to 2020.**
+Reconstructions from the Pew Research Center and the American Religious Identification Survey give the Catholic share of mainland Puerto Ricans from 1950 and the Pentecostal and Protestant share from 1990.
+
+$$
+f_{\text{Catholic among mainland Puerto Ricans}}\bigg|_{1950} \approx 0.80, \quad f\bigg|_{1990} \approx 0.65, \quad f\bigg|_{2020} \approx 0.55, \quad f_{\text{Pentecostal/Protestant among mainland Puerto Ricans}}\bigg|_{1990} \approx 0.25, \quad f\bigg|_{2020} \approx 0.35
+\tag{18}
+$$
+
+**Equation 19, Results and Religious Vote of the 1960 Presidential Election.**
+Electoral reconstruction gives the popular and electoral votes for Kennedy and Nixon and the shares of Catholic, Protestant and Jewish voters who chose Kennedy.
+
+$$
+V_{\text{Kennedy popular}} \approx 34.2 \times 10^6, \quad V_{\text{Nixon popular}} \approx 34.1 \times 10^6, \quad V_{\text{Kennedy electoral}} = 303, \quad V_{\text{Nixon electoral}} = 219, \quad f_{\text{Catholic Kennedy vote}} \approx 0.82, \quad f_{\text{Protestant Kennedy vote}} \approx 0.37, \quad f_{\text{Jewish Kennedy vote}} \approx 0.82
+\tag{19}
+$$
+
+**Equation 20, Broadcast Audience of the Kennedy Funeral Procession.**
+Nielsen ratings and historical reconstruction give the cumulative broadcast audience of the funeral procession of 25 November 1963 and a lower bound on its television viewers.
+
+$$
+P_{\text{Kennedy funeral procession viewers, cumulative broadcast audience}} \approx 1.75 \times 10^8, \quad P_{\text{television viewers, funeral procession}} \gtrsim 8 \times 10^7
+\tag{20}
+$$
+
+**Equation 21, Clergy Participation and Denominational Funding in the Civil Rights Movement.**
+Institutional reconstruction gives the clergy at the 1963 March on Washington and the 1965 Selma marches, the clergy arrested from 1961 to 1965 and denominational funding for civil rights support from 1960 to 1968.
+
+$$
+\begin{aligned}
+N_{\text{clergy participants, 1963 March on Washington}} &\approx 3 \times 10^3 \\
+N_{\text{clergy participants, 1965 Selma to Montgomery marches}} &\approx 1.5 \times 10^3 \\
+N_{\text{clergy arrested, cumulative 1961 to 1965 civil rights demonstrations}} &\approx 1 \times 10^3 \\
+C_{\text{denominational funding, civil rights institutional support 1960 to 1968}} &\approx 5 \times 10^7 \text{ USD nominal}
+\end{aligned}
+\tag{21}
+$$
+
+**Equation 22, Marchers in the Three Selma to Montgomery Marches, March 1965.**
+Historical reconstruction gives the number of marchers on Bloody Sunday, on Turnaround Tuesday and at the completion of the third march.
+
+$$
+N_{\text{Bloody Sunday marchers, 7 March 1965}} \approx 600, \quad N_{\text{Turnaround Tuesday marchers, 9 March 1965}} \approx 2500, \quad N_{\text{Third march completion, 25 March 1965}} \approx 2.5 \times 10^4
+\tag{22}
+$$
+
+**Equation 23, Attendance at the 1963 March on Washington.**
+The commonly reported attendance of the March on Washington is stated with the share of participants who were white.
+
+$$
+N_{\text{March on Washington attendance, 28 August 1963}} \approx 2.5 \times 10^5, \quad f_{\text{white participants}} \approx 0.25
+\tag{23}
+$$
+
+**Equation 24, Span and Output of the Public Ministry of Martin Luther King Jr..**
+Reconstruction by the Martin Luther King Jr. Papers Project gives the length of the public ministry, the documented arrests, the books published and a lower bound on the sermons and speeches.
+[King Papers Project][ref_king_papers_project]
+[Garrow et al. 1986][book_garrow_1986]
+
+$$
+t_{\text{King public ministry, 1955 to 1968}} \approx 13 \text{ years}, \quad N_{\text{King documented arrests}} \approx 29, \quad N_{\text{King books published lifetime}} = 5, \quad N_{\text{King published sermons and speeches, cumulative}} \gtrsim 3 \times 10^3
+\tag{24}
+$$
+
+**Equation 25, Documents and Voting Fathers of the Second Vatican Council.**
+The sixteen conciliar documents divide into four constitutions, nine decrees and three declarations, and about two thousand five hundred Council Fathers voted.
+[O'Malley 2008][book_omalley_2008]
+
+$$
+N_{\text{Vatican II conciliar documents}} = 16, \quad N_{\text{Constitutions}} = 4, \quad N_{\text{Decrees}} = 9, \quad N_{\text{Declarations}} = 3, \quad N_{\text{Council Fathers voting}} \approx 2540
+\tag{25}
+$$
+
+**Equation 26, Share of Parishes Celebrating the Vernacular Mass, 1965 to 1972.**
+Institutional reconstruction gives the share of Catholic parishes in the United States celebrating Mass in the vernacular in 1965, 1968 and 1972.
+
+$$
+f_{\text{US Catholic parishes celebrating vernacular Mass}}\bigg|_{1965} \approx 0.10, \quad f\bigg|_{1968} \approx 0.85, \quad f\bigg|_{1972} \gtrsim 0.98
+\tag{26}
+$$
+
+**Equation 27, Catholic Priests in the United States, 1965 to 2020.**
+Official Catholic Directory data give the number of Catholic priests in the United States in 1965, 1980 and 2020.
+
+$$
+N_{\text{US Catholic priests}}(1965) \approx 5.9 \times 10^4, \quad N_{\text{US Catholic priests}}(1980) \approx 5.8 \times 10^4, \quad N_{\text{US Catholic priests}}(2020) \approx 3.5 \times 10^4
+\tag{27}
+$$
+
+**Equation 28, Catholic Religious Sisters in the United States, 1965 and 2020.**
+Official Catholic Directory data give the number of Catholic religious sisters in the United States in 1965 and 2020.
+
+$$
+N_{\text{US Catholic religious sisters}}(1965) \approx 1.8 \times 10^5, \quad N_{\text{US Catholic religious sisters}}(2020) \approx 4 \times 10^4
+\tag{28}
+$$
+
+**Equation 29, Nation of Islam Membership, 1952 to 1970.**
+Institutional records give the membership of the Nation of Islam in 1952, in 1961 and at its peak around 1970.
+[Marable 2011][book_marable_2011]
+
+$$
+P_{\text{NoI membership}}(1952) \approx 5 \times 10^2, \quad P_{\text{NoI membership}}(1961) \approx 1 \times 10^4, \quad P_{\text{NoI membership, peak c. 1970}} \approx 5 \times 10^4
+\tag{29}
+$$
+
+**Equation 30, Attendance at the 1995 Million Man March.**
+The National Park Service estimate of attendance is set beside a higher alternative reconstruction.
+
+$$
+N_{\text{Million Man March attendance, 16 October 1995}} \approx 8 \times 10^5, \quad N_{\text{same, alternative estimate}} \approx 1 \times 10^6
+\tag{30}
+$$
+
+**Equation 31, Cuban Arrivals by Wave and Cuban American Population.**
+Records of the Immigration and Naturalization Service give the arrivals of the Golden Exile, the Freedom Flights, the Mariel Boatlift and the 1994 balsero crisis and the Cuban American population in 1980 and 2020.
+[García and Garcia 1996][book_garcia_1996]
+
+$$
+\begin{aligned}
+N_{\text{Cuban arrivals, Golden Exile 1959 to 1962}} &\approx 2.15 \times 10^5 \\
+N_{\text{Cuban arrivals, Freedom Flights 1965 to 1973}} &\approx 2.9 \times 10^5 \\
+N_{\text{Cuban arrivals, Mariel Boatlift 1980}} &\approx 1.25 \times 10^5 \\
+N_{\text{Cuban arrivals, Balsero crisis 1994}} &\approx 3.5 \times 10^4 \\
+N_{\text{Cuban American total population}}\bigg|_{1980} &\approx 8 \times 10^5, \quad N\bigg|_{2020} \approx 2.4 \times 10^6
+\end{aligned}
+\tag{31}
+$$
+
+**Equation 32, Cuban American Population of Miami-Dade County.**
+Census records give the Cuban American population of Miami-Dade County in 1970 and 2020 and its share of the county's Hispanic population in 1990.
+
+$$
+P_{\text{Cuban American, Miami-Dade County}}\bigg|_{1970} \approx 2.9 \times 10^5, \quad P\bigg|_{2020} \approx 8.5 \times 10^5, \quad f_{\text{Cuban American among Miami-Dade Hispanic population}}\bigg|_{1990} \approx 0.60
+\tag{32}
+$$
+
+**Equation 33, Scale of the Delano Grape Boycott.**
+Institutional records give the boycott participants at the 1969 peak, the relative fall in California grape sales from 1968 to 1970 and the five-year duration of the strike.
+
+$$
+N_{\text{documented US grape boycott participants at peak c. 1969}} \approx 1.7 \times 10^7, \quad \Delta P_{\text{California grape sales during boycott, 1968 to 1970}} \approx -0.20, \quad t_{\text{Delano Grape Strike duration}} \approx 5 \text{ years}
+\tag{33}
+$$
+
+**Equation 34, Peak Membership and Contract Coverage of the United Farm Workers.**
+Institutional records give the membership of the United Farm Workers and the workers covered by its contracts at the peak around 1972.
+
+$$
+P_{\text{UFW membership, peak c. 1972}} \approx 1 \times 10^5, \quad C_{\text{UFW contracts covered workers, peak c. 1972}} \approx 8 \times 10^4
+\tag{34}
+$$
+
+**Equation 35, Catholic Peace Fellowship Members and Catholic Draft Resisters.**
+Institutional records give the peak membership of the Catholic Peace Fellowship and a lower bound on documented Catholic draft resisters of the Vietnam era.
+
+$$
+N_{\text{Catholic Peace Fellowship members, peak c. 1971}} \approx 5 \times 10^3, \quad N_{\text{documented Catholic draft resisters, Vietnam era}} \gtrsim 2 \times 10^3
+\tag{35}
+$$
+
+**Equation 36, Membership and Chapters of Clergy and Laity Concerned About Vietnam.**
+Institutional records give the peak membership of Clergy and Laity Concerned About Vietnam and the number of its chapters in the United States.
+
+$$
+P_{\text{CALCAV membership, peak c. 1972}} \approx 4 \times 10^4, \quad N_{\text{CALCAV chapters, US}} \approx 200
+\tag{36}
+$$
+
+**Equation 37, Conscientious Objectors and Draft Violators of the Vietnam Era.**
+Selective Service System records give lower bounds on registered conscientious objectors and on draft evaders and violators of the Vietnam era.
+
+$$
+N_{\text{Vietnam era registered conscientious objectors}} \gtrsim 1.7 \times 10^5, \quad N_{\text{Vietnam era draft evaders and violators}} \gtrsim 5 \times 10^5
+\tag{37}
+$$
+
+**Equation 38, Institutional Reception of Black Liberation Theology.**
+Records of the Association of Theological Schools give a lower bound on affiliated seminaries and programmes around 1980 and the number of affiliated Black theological students around 1990.
+
+$$
+N_{\text{Black Liberation Theology-affiliated seminaries and theological programs, US, c. 1980}} \gtrsim 15, \quad N_{\text{Black theological student affiliation, US c. 1990}} \approx 8 \times 10^3
+\tag{38}
+$$
+
+**Equation 39, Annual Immigrant Admissions and Immigrant Share After Hart-Celler.**
+The annual immigrant admissions of 1965, 1980 and 2000 are stated with the immigrant share of the population in 1970 and 2020.
+
+$$
+\begin{aligned}
+N_{\text{annual immigrant admissions, US}}(1965) &\approx 2.97 \times 10^5 \\
+N_{\text{annual immigrant admissions, US}}(1980) &\approx 5.31 \times 10^5 \\
+N_{\text{annual immigrant admissions, US}}(2000) &\approx 8.5 \times 10^5 \\
+f_{\text{immigrant share, US population}}\bigg|_{1970} &\approx 0.048, \quad f\bigg|_{2020} \approx 0.135
+\end{aligned}
+\tag{39}
+$$
+
+**Equation 40, Source Region Shares of Arrivals, 1960 to 2020.**
+Records of the Department of Homeland Security give the European, Asian and Latin American shares of arrivals in the United States in 1960, 1980 and 2020.
+
+$$
+\begin{aligned}
+f_{\text{European immigration share, US arrivals}}\bigg|_{1960} &\approx 0.75, \quad f\bigg|_{1980} \approx 0.16, \quad f\bigg|_{2020} \approx 0.10 \\
+f_{\text{Asian immigration share}}\bigg|_{1960} &\approx 0.05, \quad f\bigg|_{1980} \approx 0.35, \quad f\bigg|_{2020} \approx 0.40 \\
+f_{\text{Latin American immigration share}}\bigg|_{1960} &\approx 0.20, \quad f\bigg|_{1980} \approx 0.45, \quad f\bigg|_{2020} \approx 0.45
+\end{aligned}
+\tag{40}
+$$
+
+**Equation 41, Native American Population, 1890 to 2020.**
+Census data give the Native American population of the United States in 1890, 1950, 1980 and 2020, tracing recovery from the nadir around 1890.
+
+$$
+P_{\text{Native American, US}}(1890) \approx 2.5 \times 10^5, \quad P_{\text{Native American, US}}(1950) \approx 3.5 \times 10^5, \quad P_{\text{Native American, US}}(1980) \approx 1.4 \times 10^6, \quad P_{\text{Native American, US}}(2020) \approx 9.7 \times 10^6
+\tag{41}
+$$
+
+**Equation 42, Vote of the Court in Wisconsin v. Yoder.**
+Court records give the six justices in the majority, the one justice concurring in part and dissenting in part and the two not participating.
+[Wisconsin v. Yoder 406 1972][ref_wisconsin_v_yoder_1972]
+
+$$
+V_{\text{Yoder majority}} = 6, \quad V_{\text{Yoder concurring in part and dissenting in part (Douglas)}} = 1, \quad V_{\text{Yoder not participating}} = 2
+\tag{42}
+$$
+
+**Equation 43, Old Order Amish Population, 1900 to 2020.**
+Reconstruction by the Young Center for Anabaptist and Pietist Studies gives the Amish population of the United States in 1900, 1950, 1990 and 2020.
+
+$$
+P_{\text{Old Order Amish, US}}(1900) \approx 5 \times 10^3, \quad P_{\text{Amish, US}}(1950) \approx 2.5 \times 10^4, \quad P_{\text{Amish, US}}(1990) \approx 1.3 \times 10^5, \quad P_{\text{Amish, US}}(2020) \approx 3.6 \times 10^5
+\tag{43}
+$$
+
+**Equation 44, Years Women Were First Ordained by Denomination.**
+Denominational records give the year in which each of three Protestant churches first ordained women and in which each of three Jewish movements ordained its first female rabbi.
+
+$$
+\begin{aligned}
+\text{Methodist Church ordination of women} &: 1956 \\
+\text{Presbyterian Church USA ordination of women} &: 1956 \\
+\text{Episcopal Church regular ordination of women} &: 1976 \\
+\text{Reform Judaism first female rabbi (Sally Priesand)} &: 1972 \\
+\text{Conservative Judaism first female rabbi (Amy Eilberg)} &: 1985 \\
+\text{Reconstructionist Judaism first female rabbi (Sandy Sasso)} &: 1974
+\end{aligned}
+\tag{44}
+$$
+
+**Equation 45, Vote in Roe v. Wade and Statutes Overturned.**
+The decision of 1973 carried seven justices against two and overturned the restrictive abortion statutes of about forty-four states.
+[Roe v. Wade 1973][ref_roe_v_wade_1973]
+
+$$
+V_{\text{Roe v. Wade majority}} = 7, \quad V_{\text{Roe v. Wade dissent}} = 2, \quad N_{\text{states with restrictive pre-Roe abortion statutes overturned}} \approx 44
+\tag{45}
+$$
+
+**Equation 46, United Jewish Appeal Fundraising in 1967.**
+Institutional records give the Emergency Fund raised by the United Jewish Appeal during the Six-Day War and its cumulative fundraising for 1967.
+
+$$
+C_{\text{UJA Emergency 1967 Israel fund}} \approx 3.1 \times 10^8 \text{ USD nominal}, \quad C_{\text{UJA cumulative 1967 fundraising}} \approx 5 \times 10^8 \text{ USD nominal}
+\tag{46}
+$$
+
+**Equation 47, Jewish Population of the United States, 1945 to 2020.**
+Demographic reconstruction in the American Jewish Year Book gives the Jewish population of the United States in 1945, 1970 and 2020.
+
+$$
+P_{\text{Jewish, US}}(1945) \approx 4.8 \times 10^6, \quad P_{\text{Jewish, US}}(1970) \approx 5.7 \times 10^6, \quad P_{\text{Jewish, US}}(2020) \approx 7.5 \times 10^6
+\tag{47}
+$$
+
+**Equation 48, Scale of the Soviet Jewry Mobilisation.**
+Institutional records give the participants at the Freedom Sunday rally of 6 December 1987 and the affiliated organisations of the Union of Councils for Soviet Jews at its peak.
+
+$$
+N_{\text{Freedom Sunday for Soviet Jewry participants, 6 December 1987 Washington rally}} \approx 2.5 \times 10^5, \quad P_{\text{Union of Councils for Soviet Jews affiliated organizations, peak c. 1985}} \approx 45
+\tag{48}
+$$
+
+**Equation 49, Soviet Jewish Emigration and Destinations by Wave.**
+Records of the Hebrew Immigrant Aid Society and the Jewish Agency for Israel give the emigrants of 1968 to 1980 and of 1989 to 2003 with the shares going to Israel and to the United States.
+
+$$
+\begin{aligned}
+N_{\text{Soviet Jewish emigrants, 1968 to 1980}} &\approx 2.5 \times 10^5, \quad f_{\text{destination Israel}} \approx 0.60, \quad f_{\text{destination US}} \approx 0.35 \\
+N_{\text{Soviet Jewish emigrants, 1989 to 2003}} &\approx 1.6 \times 10^6, \quad f_{\text{destination Israel}} \approx 0.65, \quad f_{\text{destination US}} \approx 0.30
+\end{aligned}
+\tag{49}
+$$
+
+**Equation 50, Cumulative Soviet Jewish Refugee Admissions, 1972 to 2004.**
+Records of the Office of Refugee Resettlement give the cumulative admission of Soviet Jewish refugees to the United States.
+
+$$
+N_{\text{Soviet Jewish refugee admissions, US, cumulative 1972 to 2004}} \approx 6 \times 10^5
+\tag{50}
+$$
+
+**Equation 51, Size of New Religious Movements.**
+Institutional records and sociological reconstruction give the present or peak adherents of seven new religious movements that arose or arrived between 1953 and the late 1960s.
+
+$$
+\begin{aligned}
+\text{Church of Scientology (founded 1953 by L. Ron Hubbard)} &: P \approx 2 \times 10^5 \text{ contemporary} \\
+\text{Unification Church (Sun Myung Moon, US arrival 1959)} &: P \approx 5 \times 10^4 \text{ US contemporary} \\
+\text{ISKCON Krishna Consciousness (founded 1966 by Prabhupada)} &: P \approx 1 \times 10^5 \text{ US contemporary} \\
+\text{Transcendental Meditation (Maharishi Mahesh Yogi, US 1959)} &: N_{\text{practitioners}} \approx 1 \times 10^6 \text{ cumulative} \\
+\text{Charismatic Renewal (1960 Van Nuys Episcopal)} &: P \approx 1 \times 10^7 \text{ US contemporary} \\
+\text{Catholic Charismatic Renewal (1967 Duquesne)} &: P \approx 5 \times 10^7 \text{ worldwide contemporary} \\
+\text{Jesus Movement (late 1960s counterculture Protestant)} &: P \text{ peak } \approx 3 \times 10^5
+\end{aligned}
+\tag{51}
+$$
+
+**Equation 52, Anti-Cult Organisations and Cult Awareness Network Membership.**
+Institutional records give the number of anti-cult organisations around 1980 and the peak membership of the Cult Awareness Network around 1990.
+
+$$
+N_{\text{anti-cult organizations, US, c. 1980}} \approx 30, \quad P_{\text{Cult Awareness Network membership peak c. 1990}} \approx 5 \times 10^3
+\tag{52}
+$$
+
+**Equation 53, Southeast Asian Refugee Arrivals, 1975 to 1994.**
+Records of the Office of Refugee Resettlement give arrivals by national group and wave, and the total equals the sum of the five listed groups.
+[Robinson 1998][book_robinson_1998]
+
+$$
+\begin{aligned}
+N_{\text{Vietnamese arrivals, US, 1975 first wave}} &\approx 1.3 \times 10^5 \\
+N_{\text{Vietnamese arrivals, US, boat people 1978 to 1985}} &\approx 4 \times 10^5 \\
+N_{\text{Cambodian arrivals, US, 1975 to 1994}} &\approx 1.5 \times 10^5 \\
+N_{\text{Laotian arrivals, US, 1975 to 1994}} &\approx 2.3 \times 10^5 \\
+N_{\text{Hmong arrivals, US, 1975 to 1994}} &\approx 1.4 \times 10^5 \\
+N_{\text{total Southeast Asian refugee arrivals, US, 1975 to 1994}} &\approx 1.05 \times 10^6
+\end{aligned}
+\tag{53}
+$$
+
+**Equation 54, Voluntary Agency Shares of Southeast Asian Resettlement.**
+Institutional records give the shares of resettled Southeast Asian refugees sponsored through Catholic, ecumenical Protestant, Lutheran and Jewish voluntary agencies.
+
+$$
+f_{\text{Catholic sponsorship among Southeast Asian refugees resettled}} \approx 0.30, \quad f_{\text{Protestant ecumenical sponsorship}} \approx 0.25, \quad f_{\text{Lutheran sponsorship}} \approx 0.15, \quad f_{\text{Jewish HIAS sponsorship}} \approx 0.05
+\tag{54}
+$$
+
+**Equation 55, Southeast Asian American Populations in 2020.**
+The 2020 Census gives the Vietnamese, Cambodian, Laotian and Hmong American populations.
+
+$$
+P_{\text{Vietnamese American}}\bigg|_{2020} \approx 2.2 \times 10^6, \quad P_{\text{Cambodian American}}\bigg|_{2020} \approx 3.4 \times 10^5, \quad P_{\text{Laotian American}}\bigg|_{2020} \approx 2.6 \times 10^5, \quad P_{\text{Hmong American}}\bigg|_{2020} \approx 3.3 \times 10^5
+\tag{55}
+$$
+
+**Equation 56, Asian American Populations by Origin, 1965 and 2020.**
+Census data give the total Asian American population and its Chinese, Filipino, Indian, Korean and Japanese components in 1965 and 2020.
+[Lee 2015][book_lee_2015]
+
+$$
+\begin{aligned}
+P_{\text{Asian American, US}}(1965) &\approx 1 \times 10^6, \quad P\bigg|_{2020} \approx 2.4 \times 10^7 \\
+P_{\text{Chinese American}}(1965) &\approx 2.5 \times 10^5, \quad P\bigg|_{2020} \approx 5.4 \times 10^6 \\
+P_{\text{Filipino American}}(1965) &\approx 2 \times 10^5, \quad P\bigg|_{2020} \approx 4.4 \times 10^6 \\
+P_{\text{Indian American}}(1965) &\approx 5 \times 10^4, \quad P\bigg|_{2020} \approx 4.6 \times 10^6 \\
+P_{\text{Korean American}}(1965) &\approx 1 \times 10^4, \quad P\bigg|_{2020} \approx 1.9 \times 10^6 \\
+P_{\text{Japanese American}}(1965) &\approx 5 \times 10^5, \quad P\bigg|_{2020} \approx 1.5 \times 10^6
+\end{aligned}
+\tag{56}
+$$
+
+**Equation 57, Asian American Religious Institutions in 2020.**
+Institutional records count the Korean American Christian congregations, Indian Hindu temples, Sikh gurdwaras and Chinese Buddhist temples in the United States around 2020.
+
+$$
+N_{\text{Korean American Christian congregations, US}} \approx 4 \times 10^3, \quad N_{\text{Indian Hindu temples, US}} \approx 8 \times 10^2, \quad N_{\text{Sikh gurdwaras, US}} \approx 3.5 \times 10^2, \quad N_{\text{Chinese Buddhist temples, US}} \approx 4 \times 10^2
+\tag{57}
+$$
+
+**Equation 58, Hispanic Populations by Origin, 1970 and 2020.**
+Census data give the total Hispanic or Latino population and its Mexican, Puerto Rican, Cuban, Dominican and Salvadoran components in 1970 and 2020.
+[Portes and Rumbaut 2014][book_portes_rumbaut_2014]
+
+$$
+\begin{aligned}
+P_{\text{Hispanic/Latino, US}}(1970) &\approx 9.6 \times 10^6, \quad P\bigg|_{2020} \approx 6.2 \times 10^7 \\
+P_{\text{Mexican American, US}}(1970) &\approx 4.5 \times 10^6, \quad P\bigg|_{2020} \approx 3.7 \times 10^7 \\
+P_{\text{Puerto Rican, US}}(1970) &\approx 1.4 \times 10^6, \quad P\bigg|_{2020} \approx 5.8 \times 10^6 \\
+P_{\text{Cuban American, US}}(1970) &\approx 6.3 \times 10^5, \quad P\bigg|_{2020} \approx 2.4 \times 10^6 \\
+P_{\text{Dominican American, US}}(1970) &\approx 6 \times 10^4, \quad P\bigg|_{2020} \approx 2.1 \times 10^6 \\
+P_{\text{Salvadoran American, US}}(1970) &\approx 1 \times 10^4, \quad P\bigg|_{2020} \approx 2.4 \times 10^6
+\end{aligned}
+\tag{58}
+$$
+
+**Equation 59, Central American Arrivals, 1980 to 1990.**
+Records of the Immigration and Naturalization Service give the Salvadoran, Guatemalan and Nicaraguan arrivals over the decade of the Central American civil wars.
+
+$$
+N_{\text{Salvadoran arrivals, US, 1980 to 1990}} \approx 5 \times 10^5, \quad N_{\text{Guatemalan arrivals, US, 1980 to 1990}} \approx 2.5 \times 10^5, \quad N_{\text{Nicaraguan arrivals, US, 1980 to 1990}} \approx 1.5 \times 10^5
+\tag{59}
+$$
+
+**Equation 60, Scale of the Sanctuary Movement.**
+Institutional records give the congregations that had declared sanctuary by 1988 and the cumulative Central American refugees they sheltered.
+[Golden and McConnell 1986][book_golden_mcconnell_1986]
+
+$$
+N_{\text{congregations declaring Sanctuary status by 1988}} \approx 5 \times 10^2, \quad N_{\text{Central American refugees sheltered through Sanctuary Movement, cumulative}} \approx 3 \times 10^3
+\tag{60}
+$$
+
+**Equation 61, Iranian Arrivals and Iranian American Population.**
+Census and immigration records give the Iranian arrivals from 1979 to 2000 and the Iranian American population in 2020.
+[Mostofi 2003][book_mostofi_2003]
+
+$$
+N_{\text{Iranian arrivals, US, 1979 to 2000}} \approx 3 \times 10^5, \quad P_{\text{Iranian American}}\bigg|_{2020} \approx 5 \times 10^5
+\tag{61}
+$$
+
+**Equation 62, Arab American and Muslim American Populations.**
+Census data and denominational reconstruction give the Arab American population in 1970 and 2020 and the Muslim American population in 1980 and 2020.
+
+$$
+P_{\text{Arab American, US}}(1970) \approx 5 \times 10^5, \quad P_{\text{Arab American, US}}(2020) \approx 3.7 \times 10^6, \quad P_{\text{Muslim American, US}}(1980) \approx 1 \times 10^6, \quad P_{\text{Muslim American, US}}(2020) \approx 3.5 \times 10^6
+\tag{62}
+$$
+
+**Equation 63, Duration and Hostages of the Iran Hostage Crisis.**
+The crisis ran from 4 November 1979 to 20 January 1981, four hundred and forty-four days, and all fifty-two embassy hostages were released under the Algiers Accords.
+
+$$
+t_{\text{Iran hostage crisis}} = 4 \text{ November } 1979 \text{ to } 20 \text{ January } 1981, \quad t_{\text{captivity duration}} = 444 \text{ days}, \quad N_{\text{US Embassy hostages}} = 52, \quad N_{\text{released hostages under Algiers Accords}} = 52
+\tag{63}
+$$
+
+**Equation 64, Refugee Admissions Under the Refugee Act of 1980.**
+Institutional records give the refugee admissions of 1980 and 2020 and the annual averages for the 1980s and 1990s.
+
+$$
+\begin{aligned}
+N_{\text{refugee admissions, US}}(1980) &\approx 2.07 \times 10^5 \text{ (Southeast Asian peak)} \\
+N_{\text{refugee admissions, US, annual average 1980 to 1989}} &\approx 8.4 \times 10^4 \\
+N_{\text{refugee admissions, US, annual average 1990 to 1999}} &\approx 1.15 \times 10^5 \\
+N_{\text{refugee admissions, US}}(2020) &\approx 1.2 \times 10^4 \text{ (Trump administration reduction)}
+\end{aligned}
+\tag{64}
+$$
+
+**Equation 65, Southern Baptist Convention Membership and the Conservative Resurgence.**
+Institutional records give the membership of the Southern Baptist Convention in 1979 and 2020 and the eleven consecutive presidential elections won by the fundamentalist faction from 1979 to 1990.
+[Ammerman 1990][book_ammerman_1990]
+
+$$
+P_{\text{Southern Baptist Convention membership}}(1979) \approx 1.32 \times 10^7, \quad P_{\text{SBC membership}}(2020) \approx 1.4 \times 10^7, \quad N_{\text{consecutive fundamentalist SBC Presidential elections 1979 to 1990}} = 11
+\tag{65}
+$$
+
+**Equation 66, Claimed and Documented Moral Majority Membership.**
+Institutional records give the claimed membership of the Moral Majority at its peak, its documented dues-paying membership and its fifty state chapters.
+
+$$
+P_{\text{Moral Majority claimed membership, peak c. 1980}} \approx 4 \times 10^6, \quad P_{\text{Moral Majority documented dues-paying membership}} \approx 4 \times 10^5, \quad N_{\text{state Moral Majority chapters}} = 50
+\tag{66}
+$$
+
+**Equation 67, Moral Majority Fundraising and the White Evangelical Vote for Reagan.**
+Institutional records and exit polling give the cumulative fundraising of the Moral Majority and the share of white evangelical voters who chose Reagan in 1980 and 1984 and the Republican candidate in 1988.
+
+$$
+C_{\text{Moral Majority cumulative fundraising, 1979 to 1989}} \approx 6.9 \times 10^7 \text{ USD nominal}, \quad f_{\text{evangelical white voters for Reagan}}\bigg|_{1980} \approx 0.63, \quad f\bigg|_{1984} \approx 0.78, \quad f\bigg|_{1988} \approx 0.81
+\tag{67}
+$$
+
+### Notation
+
+- $N$, a count of persons, institutions, events or documents, identified by its subscript
+- $P$, a population or membership, identified by its subscript and evaluated in the year given
+- $f$, a fraction or share between zero and one, identified by its subscript
+- $C$, a monetary amount in nominal United States dollars, except that in the United Farm Workers equation it counts the workers covered by contracts
+- $V$, a count of votes, whether popular, electoral, congressional or judicial
+- $Q$, an annual immigration quota under the McCarran-Walter Act
+- $t$, a duration or date span
+- $\Delta P$, the relative change in California grape sales during the boycott, as a fraction
 
 ## References
 

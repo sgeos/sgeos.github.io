@@ -1,0 +1,663 @@
+# Equation classification for A270. Read by `python3 _lib/equations.py`.
+
+caution = "Populations, members, arrivals and casualties are counted in persons, land is in acres, money is in nominal United States dollars of the period, dates are calendar years of the Common Era, and every share or death rate is a fraction between zero and one whose denominator is named in the equation."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Military Dead of the Civil War"
+gloss = "The traditional count of Civil War military dead is about 620,000, about 360,000 Union and 260,000 Confederate, which the census-based reconstruction revises upward to about 750,000."
+cite = ["book_hacker_2011"]
+digest = "48870f15bc6ca38d"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Populations of the Union and Confederate States in 1860"
+gloss = "The Union states held about twenty-two million people in 1860 and the Confederate states about nine million."
+cite = []
+digest = "9d8cc5806df04e98"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Per Capita Military Death Rates of the Union and Confederacy"
+gloss = "Dividing each side's dead by its 1860 population, the white population alone for the Confederacy, gives about 1.6 percent for the Union and about 4.6 percent for the Confederacy."
+cite = []
+digest = "8b2bcd76c5df29b8"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Union and Confederate Chaplains"
+gloss = "About 2,400 chaplains served the Union armies and about six hundred the Confederate armies over the course of the war."
+cite = []
+digest = "c04065bed611b67b"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Denominational Shares of the Union Chaplaincy"
+gloss = "Methodists made up about thirty-eight percent of Union chaplains, Presbyterians about seventeen, Baptists about twelve and Catholics about three."
+cite = []
+digest = "88e497d9b4e7cccf"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Viewers of the Lincoln Funeral Procession"
+gloss = "About seven million people viewed the twenty-day Lincoln funeral procession from Washington to Springfield."
+cite = ["book_peterson_1994", "book_schwartz_2000"]
+digest = "b03a2c9740a52488"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Settlement under Field Order 15"
+gloss = "About forty thousand freed people settled about four hundred thousand acres under Field Order 15 by the spring of 1865."
+cite = []
+digest = "14b71eff4380b351"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Southern State Prison Populations from 1870 to 1900"
+gloss = "Southern state prison populations grew from about ten thousand in 1870 to about sixty thousand in 1900, about eighty-five percent of them Black around 1890."
+cite = []
+digest = "a79f746ece9a41bf"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Annual Mortality in Southern Convict Lease Camps"
+gloss = "Annual mortality in Southern convict lease camps in the 1880s and 1890s ran from about ten to thirty percent depending on state and operator."
+cite = ["book_mancini_1996", "book_oshinsky_1996"]
+digest = "37dc0de5bbf4b6f4"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Tenancy and Black Landownership in 1900"
+gloss = "About seventy percent of Southern farmers worked under sharecropping or tenancy in 1900, and about a quarter of Black Southern farmers owned their land."
+cite = ["book_ransom_sutch_1977"]
+digest = "678538c0e39a93c4"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Reconstruction Amendments"
+gloss = "The Thirteenth, Fourteenth and Fifteenth Amendments were ratified in 1865, 1868 and 1870."
+cite = ["ref_us_13th_amendment", "ref_us_14th_amendment", "ref_us_15th_amendment"]
+digest = "60134063749ed4c3"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Freedmen's Bureau Schools and Students at Peak"
+gloss = "At its peak the Freedmen's Bureau supervised about four thousand schools with about a quarter of a million students."
+cite = []
+digest = "bb796e1967e425f7"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Freedmen's Bureau Appropriations from 1865 to 1872"
+gloss = "Federal appropriations for the Freedmen's Bureau totalled about seventeen million nominal dollars between 1865 and 1872."
+cite = ["book_foner_1988"]
+digest = "3b4892dae3d4639c"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Enslaved and Free Black Populations in 1860"
+gloss = "The 1860 census counted about 3.95 million enslaved people, the article placing about ninety-five percent of them in the Confederacy, and about 490,000 free Black people."
+cite = []
+digest = "f1ee93cf83e22542"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Ratio of Enslaved to Free Black Population in 1860"
+gloss = "The enslaved outnumbered free Black people about eight to one in 1860."
+cite = []
+digest = "663621367e5dd9ab"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Historically Black Colleges and Universities"
+gloss = "About ninety historically Black colleges and universities existed by 1900 and about one hundred exist today."
+cite = ["book_anderson_1988"]
+digest = "b054701b21542ccf"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "African Methodist Episcopal Membership from 1860 to 1900"
+gloss = "African Methodist Episcopal membership grew from about twenty thousand in 1860 to about 400,000 in 1880 and 650,000 in 1900."
+cite = []
+digest = "024f6e57d0f0ea9b"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "African Methodist Episcopal Zion Membership in 1900"
+gloss = "African Methodist Episcopal Zion membership reached about 550,000 in 1900."
+cite = []
+digest = "f7e171a4c129095f"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Colored Methodist Episcopal Membership in 1900"
+gloss = "Colored Methodist Episcopal membership reached about 200,000 in 1900."
+cite = ["book_lakey_1985"]
+digest = "a4a92ee3f612dc69"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "National Baptist Convention Membership in 1900"
+gloss = "The National Baptist Convention reached about 1.6 million members in 1900, the largest Black denomination."
+cite = ["book_washington_1985"]
+digest = "5e1723b0a838adb8"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Black Denominational Membership in 1900"
+gloss = "Black denominations counted about three million members in 1900, about three quarters of African-descent church membership."
+cite = []
+digest = "4564e409ea560315"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Stages of Reconstruction"
+gloss = "Reconstruction passed from the Lincoln plan through Presidential and Congressional Reconstruction to its end in the Compromise of 1877."
+cite = ["book_foner_1988"]
+digest = "b4eafce3ce7c3dd4"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Klan Killings from 1866 to 1876"
+gloss = "Klan and Klan-associated killings between 1866 and 1876 numbered at least about three thousand."
+cite = ["book_parsons_2015", "ref_congressional_klan_report_1872"]
+digest = "04e899915c5bac95"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Federal Troops in the Former Confederate States"
+gloss = "Federal troops in the former Confederate states fell from about twenty thousand in 1868 to about three thousand in 1876 and to none by 1878."
+cite = []
+digest = "f3cee3fb7f6b461a"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Popular and Electoral Votes in the Election of 1876"
+gloss = "Tilden won about 4.29 million popular votes against about 4.03 million for Hayes, yet Hayes won the electoral count by 185 to 184."
+cite = []
+digest = "ca6e0ba32b77f644"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Major Race Massacres from 1866 to 1898"
+gloss = "Six major massacres from Memphis in 1866 to the Wilmington coup of 1898 killed from a handful to several hundred Black people each."
+cite = ["book_lane_2008"]
+digest = "481a6e6402265689"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Registered Black Voters in Louisiana in 1896 and 1904"
+gloss = "Registered Black voters in Louisiana fell from about 130,000 in 1896 to about 1,300 in 1904, a reduction of about ninety-nine percent."
+cite = ["book_kousser_1974"]
+digest = "cffea6116dc99ea1"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Documented Lynchings from 1882 to 1900"
+gloss = "Tuskegee Institute records document about 3,200 lynchings between 1882 and 1900, about seventy-two percent of the victims Black."
+cite = []
+digest = "d1b566f89350320a"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Land Transferred under the Homestead Act"
+gloss = "About 1.6 million homestead patents transferred about 270 million acres from federal to individual ownership between 1862 and 1934."
+cite = ["book_gates_1968"]
+digest = "883d0c88581a51c0"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Black Share of Homestead Patents"
+gloss = "Black homesteaders received at most about two percent of all homestead patents."
+cite = []
+digest = "198ebdaae03cc200"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Chronology of Chinese Exclusion"
+gloss = "Chinese exclusion ran from the Act of 1882 through the Scott and Geary Acts and permanence in 1902 to repeal in 1943, sixty-one years in all."
+cite = ["ref_scott_act_1888", "ref_geary_act_1892"]
+digest = "eca9af4438f847b8"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Chinese American Population from 1880 to 1920"
+gloss = "The Chinese American population fell from about 105,000 in 1880 to about 89,000 in 1900 and 62,000 in 1920."
+cite = []
+digest = "0cb1efc9c607f452"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Chinese American Sex Ratio in 1880 and 1900"
+gloss = "Chinese American men outnumbered women about twenty-one to one in 1880 and about nineteen to one in 1900."
+cite = []
+digest = "61f2c32d5f68dd9a"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Chinese Share of California and San Francisco in 1880"
+gloss = "The Chinese made up about nine percent of the California population and about ten percent of the San Francisco population in 1880."
+cite = []
+digest = "58098419f2c26750"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Chinese Share of the Central Pacific Workforce"
+gloss = "Chinese workers made up about ninety percent of the Central Pacific construction workforce at its peak."
+cite = []
+digest = "3213e9469329facd"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Scandinavian Arrivals from 1865 to 1900"
+gloss = "About 1.2 million Norwegian, Swedish and Danish migrants arrived between 1865 and 1900."
+cite = []
+digest = "61455a563950397f"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "National Composition of Scandinavian Arrivals"
+gloss = "Of the Scandinavian arrivals between 1865 and 1900 about half a million were Norwegian, about 600,000 Swedish and about 150,000 Danish."
+cite = []
+digest = "75c8e71318db231d"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Augustana Synod Membership in 1900"
+gloss = "The Swedish Augustana Synod reached about 170,000 members by 1900."
+cite = ["book_hasselmo_1976"]
+digest = "49f076422dbb8c80"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Scandinavian Lutheran Membership in 1900 and 1930"
+gloss = "Scandinavian Lutheran membership grew from about 400,000 in 1900 to about 1.2 million in 1930."
+cite = []
+digest = "4585e3bcebc96403"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Italian Arrivals from 1880 to 1914"
+gloss = "About one million Italians arrived between 1880 and 1900 and about three million between 1900 and 1914."
+cite = []
+digest = "c4fb03b8d284a626"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Southern Italian Share around 1900"
+gloss = "About eighty percent of the Italian population of the United States around 1900 came from the southern regions."
+cite = []
+digest = "c7ec6ec33ecb7dfc"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Italian Return Migration from 1880 to 1914"
+gloss = "About half of Italian arrivals between 1880 and 1914 returned to Italy."
+cite = []
+digest = "d869ed49c9a2e0fe"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Eastern European Jewish Arrivals from 1881 to 1900"
+gloss = "About 600,000 Eastern European Jews arrived between 1881 and 1900."
+cite = []
+digest = "e80dc524dec6daca"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Jewish Population of the United States from 1880 to 1924"
+gloss = "The Jewish population of the United States grew from about a quarter of a million in 1880 to about one million in 1900 and about four million in 1924."
+cite = []
+digest = "369c306bb95ad8e4"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Peak Circulation of the Yiddish Press"
+gloss = "The daily Forverts reached a peak circulation of about 275,000 in the 1920s, and the Yiddish daily press as a whole about half a million around 1915."
+cite = ["book_michels_2005"]
+digest = "65f6944e431836fd"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Peak Jewish Population of the Lower East Side"
+gloss = "The Jewish population of the Lower East Side peaked at about half a million around 1910."
+cite = []
+digest = "9499ee32eed67b3f"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Japanese Arrivals from 1885 to 1900"
+gloss = "About forty-eight thousand Japanese migrants arrived on the mainland and about sixty-five thousand in Hawaii between 1885 and 1900."
+cite = []
+digest = "592593d9d94ade69"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Japanese American Population in 1900"
+gloss = "The 1900 census counted about twenty-five thousand Japanese on the mainland and about sixty-one thousand in Hawaii."
+cite = []
+digest = "4e6646c835775682"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Religious Composition of the Issei around 1900"
+gloss = "First-generation Japanese Americans around 1900 were about seventy percent Buddhist, fifteen percent Christian and fifteen percent Shinto or unaffiliated."
+cite = ["book_kashima_1977"]
+digest = "06390f26dbd99f1b"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Native Landholding in 1887 and 1934"
+gloss = "Native landholding fell from about 140 million acres in 1887 to about forty-eight million in 1934, a loss of about two thirds under allotment."
+cite = ["book_otis_1973", "book_hoxie_2001"]
+digest = "f6ffd54e79fb8b7d"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Scope of Dawes Act Allotment"
+gloss = "Allotment between 1887 and 1934 affected about 118 tribes and issued about 240,000 individual allotments."
+cite = []
+digest = "32ccbec5809c7911"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Native American Population at Its Nadir"
+gloss = "The Native American population of the United States stood at about a quarter of a million from 1890 to 1920, the nadir of its decline."
+cite = []
+digest = "5f988f2fd4fc1faa"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Native Boarding Schools in 1900 and around 1930"
+gloss = "About twenty-five Native boarding schools operated in 1900 and about 350 at the peak around 1930."
+cite = []
+digest = "6f0baffe54eebcb3"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Native Boarding School Enrolment at Peak"
+gloss = "Native boarding schools enrolled about sixty thousand children at their peak around 1930, about a third of the school-age Native population."
+cite = []
+digest = "35fb74e0b9d4ce63"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Federal Spending per Boarding School Pupil around 1900"
+gloss = "Federal spending was about 175 nominal dollars per boarding school pupil per year around 1900, and the annual budget of Carlisle about 170,000 dollars."
+cite = []
+digest = "2a66511e93f3f571"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Documented Boarding School Child Deaths"
+gloss = "The 2022 Department of the Interior report documented at least about five hundred child deaths in the boarding schools."
+cite = ["ref_us_doi_2022"]
+digest = "1d76705c79299a11"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Ghost Dance Adoption on the Great Plains in 1890"
+gloss = "Contemporary estimates put Ghost Dance adoption among the Native population of the Great Plains in 1890 at about thirty to fifty percent."
+cite = ["book_mooney_1896"]
+digest = "b595577deb5e487f"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Tribes Adopting the Ghost Dance"
+gloss = "At least about thirty tribes adopted the Ghost Dance in 1889 and 1890."
+cite = ["book_mooney_1896"]
+digest = "50d28ee1b01d62b4"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Dead of the Wounded Knee Massacre"
+gloss = "The 7th Cavalry killed about 250 to 300 Lakota at Wounded Knee on 29 December 1890, about two hundred of them women and children."
+cite = ["book_utley_1963", "book_ostler_2004"]
+digest = "0ff5435be8b2a43d"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Native American Church Adherents in 2020"
+gloss = "The Native American Church had about a quarter of a million adherents across about seventy tribes in 2020."
+cite = []
+digest = "b98fa57934255945"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Knights of Labor Membership at Its Peak"
+gloss = "The Knights of Labor peaked at about 700,000 members in 1886, at least half of them Catholic."
+cite = []
+digest = "0d569addd8e56cc0"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Catholic Population from 1860 to 1900"
+gloss = "The Catholic population of the United States grew from about 3.1 million in 1860 to about 6.3 million in 1880 and about twelve million in 1900."
+cite = []
+digest = "36dfe078235ef87c"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Catholic Share of the Population in 1860 and 1900"
+gloss = "Catholics made up about ten percent of the population of the United States in 1860 and about sixteen percent in 1900."
+cite = []
+digest = "d3d3e6d6ff86c0c4"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Settlement Houses in 1900 and 1910"
+gloss = "The number of settlement houses grew from about one hundred in 1900 to about four hundred in 1910."
+cite = []
+digest = "434fdc4f87953482"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Federal Council of Churches at Its Formation"
+gloss = "The Federal Council of Churches joined thirty-two denominations with about eighteen million members in 1908."
+cite = []
+digest = "65615fb29ce84c35"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "White Anglo-Saxon Protestant Shares of Elite Institutions"
+gloss = "White Anglo-Saxon Protestants made up about ninety-seven percent of Presidents through 1960, about eighty percent of Fortune 500 chief executives in 1950 and about sixty-five percent of Ivy League students around 1950."
+cite = ["book_baltzell_1964"]
+digest = "9569acebc158be7b"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Anglo-Saxon Protestant Share of the Population in 1900 and 1960"
+gloss = "Anglo-Saxon Protestants made up about thirty-five percent of the population in 1900 and about twenty-five percent in 1960."
+cite = ["book_baltzell_1964"]
+digest = "4a7aaf817f4e8a7f"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Jewish Enrolment at Columbia and Harvard before the Quotas"
+gloss = "Jewish students made up about twenty percent of Columbia around 1918 and about fifteen percent of Harvard around 1922."
+cite = ["book_karabel_2005"]
+digest = "eaacd06ccdb800d2"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Young Men's Christian Association in 1900"
+gloss = "The Young Men's Christian Association counted about 1,400 local associations and about 260,000 members in the United States in 1900."
+cite = ["book_putney_2001"]
+digest = "3166bebc78636c6e"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Woman's Christian Temperance Union Membership in 1900"
+gloss = "The Woman's Christian Temperance Union counted about 200,000 members in 1900."
+cite = ["book_bordin_1981", "book_tyrrell_1991"]
+digest = "aa60159f93996ab6"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Fully Dry States from 1900 to 1919"
+gloss = "The number of fully dry states rose from about five in 1900 to about twenty-six in 1917 and thirty-three in 1919."
+cite = ["book_kerr_1985"]
+digest = "821b5e2e09a0f50d"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "American Protective Association at Its Peak"
+gloss = "The American Protective Association peaked around 1894 to 1896 at about half a million members in about two thousand local councils."
+cite = []
+digest = "4a6691eea5e29273"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Latter-day Saint Membership in 1900"
+gloss = "Latter-day Saint membership worldwide reached about 270,000 by 1900."
+cite = []
+digest = "9b316681daf36d3a"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Christian Science Membership in 1906 and around 1930"
+gloss = "Christian Science counted about eighty-five thousand members in the United States in 1906 and about 300,000 at its peak around 1930."
+cite = ["book_gottschalk_1973"]
+digest = "eea39ac71d76a8de"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Watch Tower Membership in 1900"
+gloss = "The Watch Tower movement, later the Jehovah's Witnesses, counted about five thousand members in the United States in 1900."
+cite = ["book_penton_2015"]
+digest = "45f5223c7cab832d"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Seventh-day Adventist Membership in 1900"
+gloss = "Seventh-day Adventists numbered about seventy thousand in the United States and about eighty thousand worldwide in 1900."
+cite = []
+digest = "b79e7e5830329fd9"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Salvation Army in the United States in 1900"
+gloss = "The Salvation Army in the United States had about seven hundred corps and about three thousand officers and cadets in 1900."
+cite = ["book_mckinley_1980"]
+digest = "c2dbc572f817e94f"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Spiritualist Adherents at Their Peak"
+gloss = "Estimates of Spiritualist adherents at the peak around 1897 range across an order of magnitude from about one million to about ten million."
+cite = ["book_braude_1989"]
+digest = "edfa5110c81f4965"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Scale of the World's Parliament of Religions"
+gloss = "The World's Parliament of Religions of 1893 brought together about four hundred presenters across about two hundred sessions."
+cite = ["book_seager_1995", "book_ziolkowski_1993"]
+digest = "33a561df85366ab5"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Dead of the Philippine-American War"
+gloss = "The Philippine-American War killed between about 200,000 and one million Filipinos, depending on whether disease and famine are counted, and about 4,200 Americans."
+cite = ["book_miller_1982"]
+digest = "2d514d0c604f5880"
+
+[[symbol]]
+tex = 'f_{\text{enslaved in Confederacy, 1860}}'
+meaning = "the share of the enslaved population held in the states that formed the Confederacy"
+
+[[symbol]]
+tex = '\mu_{\text{annual mortality, Southern convict lease camps, c. 1880s to 1890s}}'
+meaning = "the annual death rate among leased convicts, a fraction per year"
+
+[[symbol]]
+tex = 'A_{\text{Native landholding, US}}'
+meaning = "the land held by Native nations and individuals, in acres"
+
+[[symbol]]
+tex = 'f_{\text{Catholic in US population}}'
+meaning = "the Catholic share of the population of the United States"
+
+[[symbol]]
+tex = 'V_{\text{Hayes electoral}}'
+meaning = "the electoral votes won by Hayes in 1876, one instance of $V$ for each candidate and count"

@@ -1,0 +1,679 @@
+# Equation classification for A271. Read by `python3 _lib/equations.py`.
+
+caution = "Populations, members, arrivals and casualties are counted in persons, money is in nominal United States dollars of the period, alcohol consumption is in litres of pure ethanol per person per year, quotas are annual admissions, dates are calendar years of the Common Era, and every share is a fraction between zero and one whose base is named in the equation."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Immigrant Arrivals from 1900 to 1914 and to 1924"
+gloss = "About fourteen million immigrants arrived between 1900 and 1914 and about 18.5 million between 1900 and 1924."
+cite = []
+digest = "7de076494da047fb"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Foreign-Born Share of the Population in 1910 and 1920"
+gloss = "The foreign-born made up about 14.5 percent of the population in 1910 and about 13.2 percent in 1920."
+cite = []
+digest = "51873c66270a6bb2"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Peak Annual Arrivals in 1907 and 1914"
+gloss = "Annual immigrant arrivals peaked at about 1.29 million in 1907 and about 1.22 million in 1914."
+cite = []
+digest = "6a09e3258b8e1036"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Immigrant Arrivals in 1918"
+gloss = "Wartime disruption of Atlantic passage cut arrivals to about 110,000 in 1918."
+cite = []
+digest = "35375aaa0bacd9d5"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Share of New Immigration in Arrivals"
+gloss = "The share of arrivals from the sources of the new immigration rose from about ten percent in 1880 to about sixty percent in 1900 and seventy-five percent in 1910."
+cite = []
+digest = "fab627f299001974"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Immigrants Processed at Ellis Island"
+gloss = "Ellis Island processed about twelve million immigrants between 1892 and 1954."
+cite = ["ref_us_immigration_bureau_reports"]
+digest = "5498a5f13b18fa39"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Immigrants Processed at Angel Island"
+gloss = "Angel Island processed about half a million immigrants between 1910 and 1940."
+cite = []
+digest = "d603338ccfc4cdeb"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Rejection Rates at Ellis Island and Angel Island"
+gloss = "About two percent of arrivals were rejected at Ellis Island and about eighteen percent at Angel Island."
+cite = ["book_cannato_2009", "book_barde_2008"]
+digest = "57cf194c9f756afd"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Italian Arrivals from 1900 to 1914 and to 1924"
+gloss = "About three million Italians arrived between 1900 and 1914 and about 3.8 million between 1900 and 1924."
+cite = []
+digest = "55800f7534ef9b20"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Southern Italian Share of Italian Arrivals"
+gloss = "About eighty percent of Italian arrivals between 1900 and 1914 came from the southern regions."
+cite = []
+digest = "ac246a9abf4efd39"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Italian Return Migration after 1918"
+gloss = "Italian return migration fell from about half of arrivals before the war to about fifteen percent after 1918."
+cite = ["book_gabaccia_2000"]
+digest = "b6f01597193bb531"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Catholic National Parishes by Ethnicity in 1920"
+gloss = "By 1920 the Official Catholic Directory recorded about 1,600 German, 800 Polish and 700 Italian national parishes with smaller Slovak, Lithuanian and Hungarian counts."
+cite = []
+digest = "39a91a602845c5d4"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Polish Arrivals from 1870 to 1924"
+gloss = "About two and a half million Poles arrived between 1870 and 1924, about one and a half million of them between 1900 and 1914."
+cite = []
+digest = "28e1616bfa11cde7"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Partition Origins of Polish Arrivals"
+gloss = "About sixty percent of Polish arrivals came from the Russian partition, about a quarter from Austrian Galicia and about fifteen percent from the Prussian partition."
+cite = ["book_bukowczyk_1987", "book_pula_1995"]
+digest = "313f5c30317600a6"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Polish National Catholic Church Membership at Its Peak"
+gloss = "The Polish National Catholic Church reached about 270,000 members at its peak around 1960."
+cite = ["book_wlodarski_1974"]
+digest = "6a9e969a22589c05"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Slavic and Central European Catholic Arrivals from 1900 to 1914"
+gloss = "Between 1900 and 1914 about half a million Slovaks arrived together with smaller Hungarian, Croatian, Lithuanian, Czech and Slovene streams."
+cite = []
+digest = "68034e5134b49c3c"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Ukrainian and Ruthenian Arrivals from 1880 to 1914"
+gloss = "About half a million Ukrainians and Ruthenians arrived between 1880 and 1914."
+cite = ["book_kuropas_1996", "book_magocsi_1984"]
+digest = "0f11fd7733f46437"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Eastern European Jewish Arrivals to 1924"
+gloss = "About 1.6 million Eastern European Jews arrived between 1900 and 1914 and about two and a half million between 1881 and 1924."
+cite = []
+digest = "7c2c9f0b63a62986"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Jewish Population of the United States from 1900 to 1924"
+gloss = "The Jewish population of the United States grew from about one million in 1900 to about three million in 1914 and about four million in 1924."
+cite = ["book_sarna_2004"]
+digest = "3bf96e6586dab153"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Hebrew Immigrant Aid Society Caseload"
+gloss = "The Hebrew Immigrant Aid Society handled about fifty thousand cases a year at its peak around 1913 and about half a million between 1902 and 1924."
+cite = []
+digest = "12b50351964ac268"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Denominational Composition of American Jewry in 1930"
+gloss = "American Jews in 1930 were about sixty-five percent Orthodox, fifteen percent Conservative, fifteen percent Reform and five percent unaffiliated."
+cite = ["book_gurock_2009", "book_karp_1998"]
+digest = "8aec253e560dec5d"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Greek Arrivals from 1890 to 1924"
+gloss = "About 550,000 Greeks arrived between 1890 and 1924."
+cite = ["book_saloutos_1964"]
+digest = "0c805165fbcb1113"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Greek Orthodox Parishes from 1900 to 1940"
+gloss = "Greek Orthodox parishes grew from about twenty in 1900 to about two hundred in 1920 and about three hundred in 1940."
+cite = []
+digest = "541ad9384a3519c7"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Russian Orthodox Arrivals from 1890 to 1920"
+gloss = "About one hundred thousand Russian Orthodox migrants arrived between 1890 and 1920, a figure blurred by overlap with other Slavic Orthodox populations."
+cite = ["book_stokoe_kishkovsky_1995"]
+digest = "0a68035b1b997834"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Russian Orthodox Parishes and Faithful to 1917"
+gloss = "Russian Orthodox parishes grew from about twenty-five in 1900 to about 460 in 1917, serving about 300,000 faithful."
+cite = []
+digest = "e48acfb04431b97f"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Syrian and Lebanese Arrivals from 1880 to 1924"
+gloss = "About 130,000 arrivals from Greater Syria were recorded between 1880 and 1924."
+cite = ["book_naff_1985"]
+digest = "8690be420b84771c"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Religious Composition of Syrian and Lebanese Arrivals"
+gloss = "Syrian and Lebanese arrivals were about forty percent Maronite Catholic, forty percent Antiochian Orthodox, ten percent Melkite Greek Catholic and ten percent Muslim and Druze."
+cite = []
+digest = "e7919a0870420bbd"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Dead of the Armenian Genocide"
+gloss = "The Armenian Genocide of 1915 to 1923 killed about one to one and a half million Armenians."
+cite = ["book_suny_2015", "book_akcam_2012"]
+digest = "884f72146fed3f58"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Armenian Arrivals from 1890 to 1924"
+gloss = "About eighty thousand Armenians arrived between 1890 and 1924."
+cite = []
+digest = "31b6c706206c07ec"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Armenian American Centres around 1930"
+gloss = "Around 1930 about fifteen thousand Armenian Americans lived in metropolitan Fresno, about thirty thousand in New York and about twenty thousand in Boston."
+cite = ["book_bakalian_1993", "book_mirak_1983"]
+digest = "c0a504c49d66f1e4"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Funds Raised by Near East Relief"
+gloss = "Near East Relief raised about 116 million nominal dollars between 1915 and 1930."
+cite = ["book_barton_1930", "book_watenpaugh_2015"]
+digest = "b727fff2eb2a994e"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Filipino Arrivals from 1906 to 1924"
+gloss = "About forty-five thousand Filipinos arrived on the mainland and about sixty thousand in Hawaii between 1906 and 1924."
+cite = ["book_cordova_1983"]
+digest = "1e9a14e740807741"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Religious Composition of Filipino Arrivals"
+gloss = "Filipino arrivals were about eighty-five percent Catholic, ten percent Protestant and five percent Aglipayan and other."
+cite = []
+digest = "26deada1dd1fd313"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Puerto Rican Population of the Mainland from 1920 to 1960"
+gloss = "The Puerto Rican population of the mainland grew from about twelve thousand in 1920 to about seventy thousand in 1940 and about 890,000 in 1960."
+cite = ["book_sanchez_korrol_1994"]
+digest = "989b659b6d80aa3b"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Catholic Share in Puerto Rico from 1917 to 2020"
+gloss = "The Catholic share in Puerto Rico fell from about ninety percent in 1917 to about seventy-five percent in 1960 and fifty-five percent in 2020."
+cite = []
+digest = "9f97b668b9a5ee1d"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Mexican Arrivals from 1900 to 1930"
+gloss = "About 650,000 Mexicans arrived during the Revolution of 1910 to 1920 and about 1.4 million between 1900 and 1930."
+cite = ["book_sanchez_1993"]
+digest = "f6a45896eb5c547e"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Mexican Catholic Refugees of the Cristero Period"
+gloss = "About a quarter of a million Mexican Catholic refugees reached the United States during the Cristero War of 1926 to 1929."
+cite = ["book_meyer_1976"]
+digest = "9a3120fb317936e6"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "South Asian Arrivals from 1899 to 1917"
+gloss = "About eight thousand South Asians arrived between 1899 and 1917, most of them Punjabi Sikhs."
+cite = ["book_leonard_1992", "book_jensen_1988"]
+digest = "de58e95675781fcb"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Punjabi and Mexican Marriages in California"
+gloss = "About four hundred Punjabi and Mexican marriages were contracted in California between 1913 and 1949, at least about eighty percent of married Punjabi Sikh men around 1930 having Mexican wives."
+cite = ["book_leonard_1992"]
+digest = "93beaf2ed62604f0"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "American Military Dead and Wounded in the First World War"
+gloss = "About 117,000 American service members died and about 200,000 were wounded in the First World War."
+cite = []
+digest = "e33403ed570eed64"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Military Chaplains of the First World War"
+gloss = "About 2,400 chaplains served in the First World War, about seventy-two percent Protestant, twenty-five percent Catholic and three percent Jewish."
+cite = []
+digest = "d1a92c5857bb10b3"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Expenditures of the YMCA War Work Council"
+gloss = "The War Work Council of the Young Men's Christian Association spent about 150 million nominal dollars between 1917 and 1919."
+cite = []
+digest = "c365b50f57f4d244"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Espionage and Sedition Act Prosecutions"
+gloss = "About two thousand people were prosecuted and about one thousand convicted under the Espionage and Sedition Acts between 1917 and 1921."
+cite = []
+digest = "131208cc30095a08"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "German-Language Protestant Congregations in 1916 and 1924"
+gloss = "German-language Protestant congregations fell from about eight thousand in 1916 to about 4,500 in 1924."
+cite = ["book_luebke_1974"]
+digest = "43f42aba3b2dad33"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Conscientious Objectors in the First World War"
+gloss = "About four thousand men claimed conscientious objection in the First World War, and about five hundred were imprisoned."
+cite = ["book_homan_1994", "book_moore_1973"]
+digest = "46f0ea9403504930"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Arrests and Deportations of the Palmer Raids"
+gloss = "The Palmer Raids of 1919 and 1920 made about ten thousand arrests and about 550 deportations."
+cite = ["book_murray_1955"]
+digest = "4fb736d7a204d975"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Major Race Massacres from 1917 to 1923"
+gloss = "Six major massacres from East St. Louis in 1917 to Rosewood in 1923 killed from a handful to several hundred Black people each."
+cite = ["book_krugler_2015", "book_mcwhirter_2011"]
+digest = "650d09ec9e9fa63a"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Scale of the Great Migration"
+gloss = "About 1.6 million Black Southerners moved north between 1910 and 1930 and about five million between 1940 and 1970, about 6.6 million in the two waves."
+cite = ["book_wilkerson_2010", "book_grossman_1989"]
+digest = "3cc03d16004351d8"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Black Populations of Four Northern Cities in 1910 and 1930"
+gloss = "The Black populations of Chicago, New York, Detroit and Philadelphia grew severalfold between the censuses of 1910 and 1930."
+cite = []
+digest = "f7d8d237b2f9b9c1"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Membership of the NAACP from 1912 to 1919"
+gloss = "The National Association for the Advancement of Colored People grew from about six thousand members in 1912 to about one hundred thousand in about three hundred branches in 1919."
+cite = []
+digest = "bf6892f2721da315"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Urban League Affiliates in 1920 and 1940"
+gloss = "The National Urban League had about twenty affiliated agencies in 1920 and about forty-seven in 1940."
+cite = ["book_weiss_1974"]
+digest = "36216ddabbb416a6"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Attendance and Converts of the Billy Sunday Campaigns"
+gloss = "The campaigns of Billy Sunday between 1908 and 1920 drew a cumulative attendance of about one hundred million and about one million documented converts."
+cite = ["book_bruns_1992", "book_mcloughlin_1955"]
+digest = "b04e970c06aa00fa"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Attendance and Converts of the Torrey World Tours"
+gloss = "The world tours of Reuben Torrey between 1902 and 1906 drew on the order of ten million attenders and one hundred thousand converts."
+cite = ["book_roberts_1996"]
+digest = "344177a50988e5d3"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Founding Dates of the Major Bible Institutes"
+gloss = "The major Bible institutes were founded between Nyack in 1882 and the Denver Bible Institute in 1914."
+cite = []
+digest = "5d76d4dae0002a2a"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Number of Bible Institutes from 1900 to 1970"
+gloss = "Bible institutes numbered about twenty in 1900, about one hundred in 1925 and about 250 in 1970."
+cite = ["book_brereton_1990"]
+digest = "96f7087af988c00e"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Foursquare Gospel Church Membership"
+gloss = "The Foursquare Gospel Church had about twenty thousand members in the United States in 1935 and has about 8.8 million worldwide today."
+cite = []
+digest = "01674caaeec2f9e7"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Circulation of the Dearborn Independent"
+gloss = "The Dearborn Independent reached a peak circulation of about 900,000 around 1924, and at least about half a million copies of The International Jew were distributed."
+cite = []
+digest = "5c9d7ba253802e3d"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Popular and Electoral Votes in the Election of 1928"
+gloss = "Hoover won about 21.4 million popular votes and 444 electoral votes against about fifteen million and 87 for Smith."
+cite = []
+digest = "860e37e2f6546074"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Temples and Membership of the Buddhist Mission"
+gloss = "The Buddhist mission grew from one temple in 1900 to about thirty in 1920 and about forty thousand members in 1930."
+cite = []
+digest = "45f1a8f1c1e904f1"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Japanese American Christians in 1930"
+gloss = "About fifteen thousand Japanese Americans, about fifteen percent of the population, were Christian in 1930."
+cite = ["book_kashima_1977", "book_suzuki_1979"]
+digest = "30487f6f741b9e6c"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Chinese American Population from 1900 to 1940"
+gloss = "The Chinese American population is given as about 105,000 in 1900, about 62,000 in 1920 and about 77,000 in 1940."
+cite = []
+digest = "26b5954ebcfd6958"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Attendance at the Azusa Street Revival"
+gloss = "Daily attendance at Azusa Street peaked at about 1,300 between 1906 and 1908, with on the order of one hundred thousand visitors between 1906 and 1913."
+cite = ["ref_apostolic_faith_1906"]
+digest = "fe3b3478de69b5c6"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Circulation of the Apostolic Faith"
+gloss = "The Apostolic Faith newspaper reached a peak circulation of about fifty thousand around 1908."
+cite = ["ref_apostolic_faith_1906"]
+digest = "bf9de4e2c2378de4"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Church of God in Christ Membership"
+gloss = "The Church of God in Christ had about forty thousand members in 1934 and has about six million today."
+cite = ["book_clemmons_1996"]
+digest = "328bc550b42d0850"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Assemblies of God Membership"
+gloss = "The Assemblies of God had about fifty thousand members in the United States in 1930 and has about 3.1 million today."
+cite = ["book_blumhofer_1993"]
+digest = "bad6746c8c1f834d"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Scale of the Presbyterian Fundamentalist-Modernist Contest"
+gloss = "The Presbyterian Church in the United States of America had about 1.6 million members in 1920, and the 1,274 signers of the Auburn Affirmation of 1924 were about thirteen percent of its roughly ten thousand ministers."
+cite = []
+digest = "07172167c25a3678"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "World's Christian Fundamentals Association at Its Founding"
+gloss = "The World's Christian Fundamentals Association drew some six thousand affiliated ministers from at least twenty-five denominational bodies around 1919."
+cite = []
+digest = "a56a5c959c17566f"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Peak Membership of the Second Klan"
+gloss = "The second Ku Klux Klan peaked at about four million members around 1925, which the article states as about fifteen percent of the male population."
+cite = []
+digest = "fb3e2c58b2f6e086"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Klan Membership in Four States around 1925"
+gloss = "Around 1925 the Klan counted about 400,000 members in Texas, 300,000 in Ohio, 250,000 in Indiana and 50,000 in Oregon."
+cite = []
+digest = "3e851984bcf48918"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Klan Membership in 1930"
+gloss = "Klan membership fell to about thirty thousand by 1930, a decline of about ninety-nine percent from the peak."
+cite = []
+digest = "b4f288925818f14e"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Fundraising of the Anti-Saloon League"
+gloss = "The Anti-Saloon League raised about sixty million nominal dollars between 1893 and 1919."
+cite = []
+digest = "cd5a70c1e6cc9b3d"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Ratification of the Eighteenth Amendment"
+gloss = "Thirty-six states, the number required, had ratified the Eighteenth Amendment by 16 January 1919, about thirteen months after its submission."
+cite = []
+digest = "f8dd0bbc399f6fd6"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Federal Prohibition Arrests and Prisoners"
+gloss = "Federal Prohibition enforcement made about 540,000 arrests between 1920 and 1933 and held about 4,300 prisoners at the peak around 1932."
+cite = []
+digest = "8d0af0e820712b51"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Per Capita Alcohol Consumption from 1917 to 1929"
+gloss = "Per capita consumption fell from about eight litres of pure ethanol a year in 1917 to about 3.2 in 1921 and recovered to about 5.5 by 1929."
+cite = []
+digest = "abae74cc60e09e5c"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "States with Women's Suffrage in 1900 and 1918"
+gloss = "Four states had full women's suffrage in 1900, and by 1918 fifteen had full and about twelve partial suffrage."
+cite = []
+digest = "157cf645e863eb16"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Ratification of the Nineteenth Amendment"
+gloss = "The Nineteenth Amendment needed thirty-six states and was ratified about fourteen months after submission, when Tennessee supplied the last state by a margin of one vote."
+cite = []
+digest = "1dd14d7ba35fba0e"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Membership of the Universal Negro Improvement Association"
+gloss = "The Universal Negro Improvement Association reached about 600,000 members in about one thousand divisions worldwide around 1923."
+cite = ["book_grant_2008"]
+digest = "c3893bf8c7c8265d"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Moorish Science Temple Membership at Its Peak"
+gloss = "The Moorish Science Temple of America reached about thirty thousand members around 1929."
+cite = ["book_nance_2002"]
+digest = "cc157bbbca8094ce"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Peak Membership of Two Religio-Racial Movements"
+gloss = "The Peace Mission of Father Divine peaked at about fifty thousand around 1932 and the United House of Prayer at about 300,000 around 1960."
+cite = ["book_weisenfeld_2017"]
+digest = "85a6766bb025a098"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "National Origins Quotas of 1924"
+gloss = "The quotas favoured the sources of the old immigration, giving tens of thousands of places to the United Kingdom, Germany and Ireland against a few thousand to Italy and Poland, one hundred to Greece and none to China and Japan."
+cite = ["ref_johnson_reed_act_1924"]
+digest = "659487f47d92ea20"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Annual Immigration from 1914 to 1933"
+gloss = "Annual immigration fell from about 1.22 million in 1914 to about 290,000 in 1925 and about 23,000 in 1933, a reduction of about ninety-eight percent."
+cite = []
+digest = "30f9bf071196f85f"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Unfilled German Quota and the Voyage of the St. Louis"
+gloss = "About one hundred thousand German quota places went unfilled between 1933 and 1938, and 937 refugees aboard the St. Louis were refused in 1939."
+cite = []
+digest = "7ee904673e230f1c"
+
+[[symbol]]
+tex = 'f_{\text{immigrant share, US population}}'
+meaning = "the foreign-born share of the population of the United States"
+
+[[symbol]]
+tex = 'f_{\text{new immigration share, US arrivals}}'
+meaning = "the share of arrivals from the sources of the new immigration, chiefly southern and eastern Europe and the Middle East"
+
+[[symbol]]
+tex = 'Q_{\text{Italy}}(1924)'
+meaning = "the annual quota for Italy under the Johnson-Reed Act, one instance of $Q$ for each country"
+
+[[symbol]]
+tex = 'C_{\text{per capita alcohol, US}}'
+meaning = "the per capita alcohol consumption in litres of pure ethanol per year, distinct from the $C$ used elsewhere for funds and circulation"
+
+[[symbol]]
+tex = 'V_{\text{Tennessee ratification margin, 1920}}'
+meaning = "the margin in votes by which Tennessee ratified the Nineteenth Amendment"

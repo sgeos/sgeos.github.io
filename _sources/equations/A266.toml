@@ -1,0 +1,359 @@
+# Equation classification for A266. Read by `python3 _lib/equations.py`.
+
+caution = "Populations are counted in persons, dates are calendar years of the Common Era unless stated as years before present, every share is a fraction between zero and one, and most relations are qualitative formalisations of the series framework rather than estimated quantities."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Causal Mapping from Ethnoreligious Composition to Outcomes"
+gloss = "The article writes observable political-economic outcomes as an unspecified function of ethnoreligious stream weights, inherited institutions and exogenous shocks plus a residual, a framing it adopts for the whole series."
+cite = []
+digest = "fb300feda1719e3a"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Counterfactual Ethnoreligious Contribution"
+gloss = "The ethnoreligious contribution is defined as the difference between the mapped outcome under the actual composition and under a counterfactual composition, with institutions and shocks held fixed."
+cite = []
+digest = "6582492aedb838f9"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Date of Initial Human Settlement of the Americas"
+gloss = "Genetic and archaeological evidence places the initial settlement of the Americas across Beringia at no less than about fifteen thousand years before present."
+cite = ["book_meltzer_2009", "book_reich_2018"]
+digest = "68819d5dbd34e7d0"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Range of Pre-Columbian Population Estimates North of the Rio Grande"
+gloss = "Published estimates of the population north of the Rio Grande before contact run from about two million to about eighteen million, the upper bound resting on epidemic mortality analysis."
+cite = ["research_denevan_1992", "research_dobyns_1966", "book_thornton_1987"]
+digest = "a9c20be6a9ff103f"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Post-Contact Population Ratio North of the Rio Grande"
+gloss = "The indigenous population of 1650 was about one tenth of that of 1500, a decline of about ninety percent driven chiefly by introduced epidemic disease."
+cite = ["book_thornton_1987", "book_crosby_1972"]
+digest = "904c90a8825af9f7"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Date Range for the Formation of the Haudenosaunee Confederacy"
+gloss = "The scholarly literature places the formation of the Haudenosaunee Confederacy under the Great Law of Peace between 1450 and 1600 of the Common Era."
+cite = ["book_fenton_1998", "research_tooker_1978", "book_snow_1994"]
+digest = "98e75760fd479291"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Africans Transported Directly to North America"
+gloss = "The Voyages Database records about 388,000 Africans carried directly to the Anglo colonies and later the United States."
+cite = ["ref_voyages_database"]
+digest = "a3ddf753d2cab67e"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Total Atlantic Slave Trade to All Destinations"
+gloss = "Across roughly four centuries the Atlantic slave trade carried about ten to twelve and a half million people to all destinations, most of them to the Caribbean and Brazil."
+cite = ["ref_voyages_database"]
+digest = "315a93236d185f60"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Source Region Shares of the North American Slave Trade"
+gloss = "The arriving African population is divided among seven African source regions in approximate shares that sum to one, with the Bight of Biafra and West Central Africa largest."
+cite = ["book_gomez_1998"]
+digest = "bb3d6cc307d7b840"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Estimated Muslim Share of Enslaved Africans in North America"
+gloss = "Written estimates place the Muslim share of enslaved Africans in North America between fifteen and thirty percent, highest on coasts receiving Senegambian arrivals."
+cite = ["book_diouf_1998"]
+digest = "0ac0a666e29adb69"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Conventional Dating of the European Reformation"
+gloss = "The Reformation is conventionally dated from the Ninety-Five Theses of 1517 to the Peace of Westphalia of 1648."
+cite = ["book_macculloch_2003"]
+digest = "d376b519bd5d1e20"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Weber Thesis as a Conditional Probability"
+gloss = "The Weber thesis holds that capital accumulation is more probable under Calvinist theology than without it, conditional on comparable material and institutional conditions."
+cite = ["book_weber_1905"]
+digest = "9e21810e70fba6d2"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Decomposition of Population by Ethnoreligious Stream"
+gloss = "The article decomposes the population of the future United States into weighted ethnoreligious streams at arrival plus an admixture term for intermarriage across streams."
+cite = []
+digest = "cede5aaac12d0129"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Exponential Cultural Retention"
+gloss = "The article approximates cultural retention as an exponential decay from its initial value whose rate falls as the effective community size grows."
+cite = []
+digest = "1501e090c4e5ea65"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Critical Community Size for Retention"
+gloss = "Retention requires an effective community size above a critical value that the article makes a function of institutional density, endogamy and host resistance."
+cite = []
+digest = "54734c1b33c12ccd"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Ancestral Retention under Independent Endogamy"
+gloss = "Under a two-group model that assumes each generation chooses endogamy independently at a constant rate, retention of ancestral identification after $g$ generations is that rate raised to the power $g$."
+cite = []
+digest = "3c001d8e3398147f"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Geometric Chain Migration Total"
+gloss = "Assuming a constant chain-migration multiplier in every cycle, the total arriving population is the pioneer group times a finite geometric series in that multiplier."
+cite = []
+digest = "898a4bd9eb27edf8"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Syncretic Formation as Weighted Combination"
+gloss = "The article writes a syncretic tradition as a weighted combination of three source traditions with weights summing to at most one plus a nonnegative term for novel innovation."
+cite = []
+digest = "879a45c75408253f"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Reaction-Diffusion Model of Cultural Traits"
+gloss = "The article borrows the linear reaction-diffusion equation with loss and source terms and assumes that the concentration of a cultural trait across a contact frontier obeys it."
+cite = []
+digest = "551b5d93fb0e96bf"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Signal Axis Information Flux"
+gloss = "The signal axis is operationalised as a sum over kinds of transmission event of the event count times its doctrinal content and its fidelity."
+cite = []
+digest = "0bb57d766dba4406"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Generational Signal Retention"
+gloss = "Signal retained after $g$ generations is the initial retention multiplied by the fraction preserved in each generation, each fraction lying strictly between zero and one."
+cite = []
+digest = "a568f1c5f9521a38"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Objective Axis Utility Functional"
+gloss = "The objective axis is operationalised as a substrate utility over community states that is a nonnegatively weighted sum of the substrate's constitutive goals."
+cite = []
+digest = "3de3eaf45e2341fe"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Structure Axis Depth and Branching"
+gloss = "The structure axis is summarised by the longest authority path from local unit to apex and by the mean count of subordinates per authority node."
+cite = []
+digest = "416c807a72471743"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Model Axis Doctrinal Position Vector"
+gloss = "Each substrate is placed on a chosen basis of creedal propositions by a vector whose entries take the values minus one, zero or plus one."
+cite = []
+digest = "4be46a4a5ac8b927"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Doctrinal Distance between Substrates"
+gloss = "Model axis divergence between two substrates is the sum of absolute differences of their doctrinal positions, a taxicab distance on the article's creedal basis."
+cite = []
+digest = "06d8138dd04cbcc3"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Interaction Axis Signed Graph"
+gloss = "The interaction axis is operationalised as a signed weight matrix over substrates whose entries are cooperation weight less conflict weight."
+cite = []
+digest = "185fabe3395d1ffb"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Accumulated Legal-Institutional Imprint"
+gloss = "The legal-institutional imprint of a substrate is the time integral of the rate at which statutes, judicial decisions and administrative rulings attributable to it are enacted."
+cite = []
+digest = "073272cb0c8ecacb"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Adaptation Axis First-Order Relaxation"
+gloss = "The adaptation axis is operationalised as first-order relaxation of the substrate state toward an environment-dependent target with a substrate time constant and an exogenous perturbation."
+cite = []
+digest = "0e59420a71df9c5c"
+
+[[symbol]]
+tex = 'O_t'
+meaning = "the vector of observable political-economic outcomes at time $t$"
+
+[[symbol]]
+tex = 'E_t'
+meaning = "the vector of ethnoreligious stream weights at time $t$"
+
+[[symbol]]
+tex = 'I_t'
+meaning = "the vector of prior-period institutional inheritances"
+
+[[symbol]]
+tex = 'X_t'
+meaning = "the exogenous shocks such as wars, epidemics and technological transitions"
+
+[[symbol]]
+tex = '\varepsilon_t'
+meaning = "the unexplained residual"
+
+[[symbol]]
+tex = 'E_t^{\text{null}}'
+meaning = "a counterfactual composition against which the actual composition is compared"
+
+[[symbol]]
+tex = 'w_i(t)'
+meaning = "the weight of stream $i$ at time $t$"
+
+[[symbol]]
+tex = 'P_i^0'
+meaning = "stream $i$ at initial arrival"
+
+[[symbol]]
+tex = '\Delta_{\text{admix}}(t)'
+meaning = "the admixture population arising from intermarriage across streams"
+
+[[symbol]]
+tex = 'R_0'
+meaning = "the initial retention"
+
+[[symbol]]
+tex = 'N_{\text{effective}}'
+meaning = "the effective community size that supports cultural transmission"
+
+[[symbol]]
+tex = 'N_{\text{crit}}'
+meaning = "the minimum effective community size below which cultural transmission fails"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the endogamy rate per generation"
+
+[[symbol]]
+tex = 'm'
+meaning = "the chain-migration multiplier"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the size of the initial pioneer group"
+
+[[symbol]]
+tex = '\eta_{\text{novel}}'
+meaning = "the novel innovation in a syncretic formation"
+
+[[symbol]]
+tex = 'D'
+meaning = "the diffusion coefficient reflecting the ease of transmission in the reaction-diffusion equation, which is distinct from $D_{\\text{struct}}$"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the loss rate reflecting cultural attrition"
+
+[[symbol]]
+tex = 's(\mathbf{x}, t)'
+meaning = "the source term for continuing input from the source substrate"
+
+[[symbol]]
+tex = 'f_k'
+meaning = "the fidelity per transmission event of kind $k$"
+
+[[symbol]]
+tex = 'd_k'
+meaning = "the doctrinal content quantum per transmission event of kind $k$"
+
+[[symbol]]
+tex = 'n_k(t)'
+meaning = "the count of transmission events of kind $k$"
+
+[[symbol]]
+tex = '\eta_i'
+meaning = "the fraction of signal preserved across generation $i$"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the dissipation rate parameter of cultural retention in equation 14 and the weight of the third tradition in equation 18"
+
+[[symbol]]
+tex = '\lambda_j'
+meaning = "the nonnegative weight of the substrate's goal $g_j$"
+
+[[symbol]]
+tex = 'D_{\text{struct}}'
+meaning = "the length of the longest authority path from local unit to apex"
+
+[[symbol]]
+tex = 'B_{\text{struct}}'
+meaning = "the mean subordinate count per authority node"
+
+[[symbol]]
+tex = 'c_m'
+meaning = "the position of a substrate on creedal proposition $m$, one of minus one, zero or plus one"
+
+[[symbol]]
+tex = 'W_{ij}(t)'
+meaning = "the signed interaction weight between substrates $i$ and $j$, cooperation less conflict"
+
+[[symbol]]
+tex = '\ell_i(\tau)'
+meaning = "the count of substrate-attributable statutes, judicial decisions and administrative rulings enacted at time $\\tau$"
+
+[[symbol]]
+tex = 'S_i^{*}(t)'
+meaning = "the environment-dependent target response of substrate $i$"
+
+[[symbol]]
+tex = '\tau_i'
+meaning = "the adaptation time constant of substrate $i$"
+
+[[symbol]]
+tex = '\xi_i(t)'
+meaning = "the exogenous perturbation of substrate $i$"

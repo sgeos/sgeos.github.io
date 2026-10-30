@@ -1,0 +1,503 @@
+# Equation classification for A269. Read by `python3 _lib/equations.py`.
+
+caution = "Populations, adherents, arrivals and casualties are counted in persons, dates are calendar years of the Common Era and durations are in years or days as marked, the cost of the Second Seminole War is in nominal dollars of the period, the area of the Mexican Cession is in square kilometres, and every share is a fraction between zero and one."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Population of the United States in 1789 and 1861"
+gloss = "The population of the United States grew from about 3.9 million in 1789 to about thirty-one million in 1861."
+cite = []
+digest = "7b88a7a1ced04df7"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "African-Descent Population in 1789 and 1861"
+gloss = "The African-descent population grew from about 750,000 in 1789 to about four and a half million in 1861."
+cite = []
+digest = "c6182942d02d85a1"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Enslaved Share in 1789 and 1861"
+gloss = "The enslaved share of the African-descent population fell only slightly, from about ninety percent in 1789 to about eighty-nine percent in 1861."
+cite = []
+digest = "121cdb9b0c7d1be6"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Indigenous Population of the Future United States in 1789 and 1861"
+gloss = "The indigenous population of the territory that would become the United States fell from about three hundred thousand in 1789 to about a quarter of a million in 1861."
+cite = []
+digest = "c6430a2d0d888b4a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Immigrants from 1820 to 1861"
+gloss = "About five million immigrants arrived in the United States between 1820 and 1861."
+cite = ["book_daniels_1990"]
+digest = "08f507104ddbcbaa"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Largest Denominations in 1850"
+gloss = "The 1850 Census of Religious Bodies places the Roman Catholic Church above any single Protestant denomination, followed by the Methodist, Baptist and Presbyterian bodies."
+cite = ["book_finke_stark_1992", "book_gaustad_barlow_2001"]
+digest = "add481492e52a09a"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Attendance at the Cane Ridge Revival"
+gloss = "The Cane Ridge Revival of 1801 drew a reported attendance of ten to twenty thousand over several days."
+cite = ["ref_cane_ridge_revival_1801", "book_conkin_1990"]
+digest = "e191678e8e2a5816"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Founding Dates of the Benevolent Empire"
+gloss = "The principal voluntary societies of the benevolent empire were founded between the American Bible Society in 1816 and the American Anti-Slavery Society in 1833."
+cite = ["ref_american_bible_society_1816", "ref_american_sunday_school_union_1824"]
+digest = "e1456bf3b173b118"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Methodist Adherents and Their Population Share in 1850"
+gloss = "Methodist adherents numbered about 2.7 million in 1850, about one eighth of the national population."
+cite = ["book_wigger_1998"]
+digest = "2ba81f8f39869a16"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Baptist Adherents in 1850"
+gloss = "The several Baptist formations together counted about 1.6 million adherents in 1850."
+cite = ["book_leonard_2003", "book_mcbeth_1987"]
+digest = "8413485e2df001c6"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Presbyterian Adherents in 1850"
+gloss = "Presbyterian adherents numbered about 490,000 in 1850."
+cite = ["book_longfield_2013"]
+digest = "a93acbebaa259e67"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Congregationalist Adherents in 1850"
+gloss = "Congregationalist adherents numbered only about 200,000 in 1850."
+cite = ["book_youngs_1976"]
+digest = "a6a03607c64685b6"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Episcopal Adherents in 1850"
+gloss = "Episcopal adherents numbered about 140,000 in 1850."
+cite = ["book_mullin_1986"]
+digest = "41edbe1a57175106"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Millerite Adherents at the Peak of 1844"
+gloss = "About fifty thousand to one hundred thousand Millerites expected the Second Coming on 22 October 1844."
+cite = ["book_rowe_2008", "book_numbers_butler_1987"]
+digest = "2275f48b78b4e3f4"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Latter-day Saint Membership in 1830, 1844 and 1861"
+gloss = "Latter-day Saint membership grew from about thirty in 1830 to about twenty-five thousand in 1844 and about one hundred thousand in 1861."
+cite = []
+digest = "17999457ad9b3952"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Mormon Settlements in 1860"
+gloss = "About 350 Mormon communities had been founded across the Great Basin, the Colorado Plateau and southern California by 1860."
+cite = []
+digest = "145214250659b714"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Peak Population of Nauvoo"
+gloss = "Nauvoo, Illinois reached a peak population of about fifteen thousand by 1844."
+cite = []
+digest = "56f23aa661b82c56"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Latter-day Saint Growth Rate from 1830 to 1861"
+gloss = "The continuous growth rate implied by the membership figures for 1830 and 1861 is the logarithm of their ratio divided by thirty-one years, about 0.26 per year."
+cite = ["book_arrington_1985"]
+digest = "6916ae4716d65e03"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Irish Arrivals from 1815 to 1845"
+gloss = "About eight hundred thousand Irish migrants arrived between 1815 and 1845, both Protestant and Catholic."
+cite = ["book_miller_1985"]
+digest = "fece8f9b23fd2a0c"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Population of Ireland in 1845 and 1851"
+gloss = "The population of Ireland fell from about 8.5 million in 1845 to about 6.5 million in 1851, a loss of about two million."
+cite = []
+digest = "d80ec34c3b4d34f4"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Famine Deaths and Emigration"
+gloss = "About one million people died and about one million emigrated during the Famine."
+cite = []
+digest = "8815f520417a3322"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Irish Arrivals from 1846 to 1855"
+gloss = "About one and a half million Irish migrants arrived in the United States between 1846 and 1855."
+cite = ["book_kinealy_1994", "book_gray_1995"]
+digest = "e3c7e4d0c803b136"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Irish-Born Shares of Three Cities in 1855"
+gloss = "The Irish-born made up about twenty-eight percent of New York, thirty-five percent of Boston and seventeen percent of Philadelphia in 1855."
+cite = ["book_ernst_1949"]
+digest = "fc3e9f8be6f7f6bd"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "German-Speaking Arrivals from 1820 to 1860"
+gloss = "About one and a half million German-speaking migrants arrived between 1820 and 1860, most of them in the wave of 1848 to 1854."
+cite = []
+digest = "296f086a6f3f2b27"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Religious Composition of German Migration"
+gloss = "German migrants were about fifty-five percent Lutheran and Reformed, thirty-five percent Catholic, five percent Jewish and five percent freethinker and other."
+cite = ["book_kamphoefner_1987"]
+digest = "8f1c21c1f602f599"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Chinese Arrivals from 1849 to 1861"
+gloss = "About forty-four thousand Chinese migrants arrived between 1849 and 1861, mostly from the Pearl River Delta."
+cite = ["book_chen_2000"]
+digest = "8f1a465f51b715e6"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Chinese Labour on the Central Pacific Railroad"
+gloss = "About fifteen thousand Chinese workers made up about ninety percent of the Central Pacific workforce between 1865 and 1869."
+cite = ["book_chang_2019"]
+digest = "a33e538f354fdd82"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Toll of the Philadelphia Bible Riots of 1844"
+gloss = "The Philadelphia riots of May and July 1844 killed about twenty people, and Protestant mobs burned two Catholic churches."
+cite = ["book_feldberg_1975"]
+digest = "4b99f90b0dbf7f61"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Fillmore Share of the Popular Vote in 1856"
+gloss = "Millard Fillmore won about twenty-two percent of the popular vote as the American Party candidate in 1856."
+cite = []
+digest = "9a145ee5ee16c15d"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "First-Year Sales of Uncle Tom's Cabin"
+gloss = "Uncle Tom's Cabin sold about three hundred thousand copies in the United States in its first year."
+cite = ["book_hedrick_1994"]
+digest = "4a357552eab94ef2"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Persons Assisted by the Underground Railroad"
+gloss = "Estimates of the persons the Underground Railroad assisted between 1830 and 1861 range from about thirty thousand to one hundred thousand."
+cite = ["book_bordewich_2005", "book_foner_2015"]
+digest = "cd76a3c1bf8acd81"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Southern Baptist Convention Membership in 2020"
+gloss = "The Southern Baptist Convention had about fourteen million members in 2020."
+cite = []
+digest = "ac9cf6a351170a89"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Dates of the Antebellum Denominational Splits"
+gloss = "The Presbyterian, Methodist and Baptist bodies divided between 1837 and 1861, from twenty-four years to zero years before the political split."
+cite = []
+digest = "d1e67889cdb79306"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Native Persons Removed from East of the Mississippi"
+gloss = "About sixty thousand Native people were forcibly removed from east of the Mississippi between 1830 and 1850 under the Indian Removal Act."
+cite = ["ref_indian_removal_act_1830", "book_saunt_2020"]
+digest = "ec4b0fd6c0057672"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Signers and Opponents of the Treaty of New Echota"
+gloss = "About one hundred Cherokee signed the Treaty of New Echota against the opposition of about fifteen thousand."
+cite = ["ref_treaty_of_new_echota_1835"]
+digest = "940528dd216d5aca"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Cherokee Deaths on the Trail of Tears"
+gloss = "About four thousand Cherokee died in the removal of 1838 and 1839, about a quarter of those removed."
+cite = ["book_perdue_green_2007"]
+digest = "961675688b23083d"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Choctaw Removal from 1831 to 1833"
+gloss = "About thirteen thousand Choctaw were removed between 1831 and 1833, and about twenty-five hundred died."
+cite = ["book_debo_1934"]
+digest = "9a7b21127fafb191"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Chickasaw Removal from 1837 to 1838"
+gloss = "About four thousand Chickasaw reached Indian Territory between 1837 and 1838."
+cite = ["book_gibson_1971"]
+digest = "c20017b431534820"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Creek Removal from 1834 to 1837"
+gloss = "About twenty thousand Creek were removed between 1834 and 1837, and about thirty-five hundred died."
+cite = ["book_green_1982"]
+digest = "dbe5ff945224bdec"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Duration, Losses and Cost of the Second Seminole War"
+gloss = "The Second Seminole War lasted seven years, killed about fifteen hundred United States soldiers and cost the federal government about forty million dollars."
+cite = ["book_missall_missall_2004"]
+digest = "ee4cf4b2c21ea559"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Seminole Removed and Remaining"
+gloss = "About three thousand Seminole were removed to Indian Territory and about five hundred remained in Florida."
+cite = ["book_missall_missall_2004"]
+digest = "6b39b1ea0e1d7e3e"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Characters and Development Time of the Cherokee Syllabary"
+gloss = "The syllabary of Sequoyah has eighty-five characters and took about twelve years to develop."
+cite = []
+digest = "bbf54ea5473f2c04"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Cherokee Literacy in the Syllabary by 1830"
+gloss = "Contemporary estimates put Cherokee literacy in the syllabary by 1830 between about half and nine tenths."
+cite = ["book_cushman_2011"]
+digest = "710decd1e4bc81cf"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Chronology of Cherokee Institutional Development and Removal"
+gloss = "The Cherokee moved from the completed syllabary of 1821 through a constitution and newspaper to removal in 1838 and 1839 within under two decades."
+cite = []
+digest = "9d197e1deade67f2"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Whitman Massacre and the Measles Epidemic of 1847"
+gloss = "The Whitman Massacre killed about fourteen people after the measles epidemic of 1847 had killed about half of the Cayuse."
+cite = ["book_jeffrey_1991"]
+digest = "dd21ae573d0e790b"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Native Mission Schools in 1860"
+gloss = "About 350 Native mission schools operated in the United States by 1860."
+cite = []
+digest = "cc24f3f374ef840c"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Christian Identification among the Enslaved in 1860"
+gloss = "Estimates place Christian identification among the enslaved in 1860 at about thirty to fifty percent."
+cite = []
+digest = "b598a8a9696665c9"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Executions and Deportations after the Vesey Plot"
+gloss = "Thirty-five people were executed and about thirty deported after the Vesey plot of 1822."
+cite = ["book_egerton_1999", "book_robertson_1999"]
+digest = "25aa61172fc1e159"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Deaths in and after the Nat Turner Rebellion"
+gloss = "The rebellion of 1831 killed about sixty white people, and about two hundred enslaved people were killed in its aftermath."
+cite = []
+digest = "00658c08436c3c8c"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Duration of the Turner Rebellion and Interval to Execution"
+gloss = "The rebellion was active for about two days, and Turner was executed twelve days after his capture on 30 October 1831."
+cite = ["ref_turner_confessions_1831"]
+digest = "7986a5e3d817016f"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "African Methodist Episcopal Adherents in 1860 and 1870"
+gloss = "African Methodist Episcopal adherents grew from about twenty thousand in 1860 to about four hundred thousand in 1870 with the expansion into the former Confederate states."
+cite = ["book_newman_2008"]
+digest = "ebb9d702d328440a"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "African Methodist Episcopal Zion Adherents in 1860"
+gloss = "African Methodist Episcopal Zion adherents numbered about fifty thousand in 1860."
+cite = ["book_walls_1974"]
+digest = "f33c326717dcdb33"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Area of the Mexican Cession"
+gloss = "The Treaty of Guadalupe Hidalgo ceded about 1.36 million square kilometres, about fifty-five percent of the pre-war territory of Mexico."
+cite = []
+digest = "8ab03efd13d208af"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Mexican Population of the Cession Territory in 1848"
+gloss = "About eighty thousand Mexicans lived in the ceded territory in 1848, most of them in New Mexico."
+cite = []
+digest = "327cd63a43eb2a93"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Californio Landholdings Lost by 1870"
+gloss = "About three quarters of Californio landholdings had been lost by 1870 through the title process of the California Land Act."
+cite = ["book_pitt_1966", "book_camarillo_1979"]
+digest = "258aaf674e95fedb"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "State Prohibition Laws by 1855"
+gloss = "Thirteen Northern states had enacted prohibition or restriction laws on the Maine Law model by 1855."
+cite = ["ref_maine_law_1851", "book_tyrrell_1979"]
+digest = "449a69539870fa75"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "African American Emigrants to Liberia from 1822 to 1861"
+gloss = "About thirteen thousand African Americans emigrated to Liberia between 1822 and 1861."
+cite = []
+digest = "7e45fb49e995a7d2"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Norwegian Arrivals from 1825 to 1861"
+gloss = "About forty thousand Norwegian migrants arrived between the voyage of the Restauration in 1825 and 1861."
+cite = []
+digest = "683e32d60e5d5bda"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Swedish Arrivals from 1840 to 1861"
+gloss = "About twenty thousand Swedish migrants arrived between 1840 and 1861."
+cite = []
+digest = "feec22e7a6cdc03b"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Scandinavian Lutheran Denominations by 1900"
+gloss = "About fifteen separate Scandinavian Lutheran denominational bodies existed in the United States by 1900."
+cite = []
+digest = "e474a83faa5de582"
+
+[[symbol]]
+tex = 'P_{\text{US}}'
+meaning = "the population of the United States"
+
+[[symbol]]
+tex = 'f_{\text{enslaved}}'
+meaning = "the share of the African-descent population held in bondage"
+
+[[symbol]]
+tex = 'r_{\text{LDS growth, 1830 to 1861}}'
+meaning = "the continuous annual growth rate of Latter-day Saint membership"
+
+[[symbol]]
+tex = 'C_{\text{federal cost}}'
+meaning = "the federal cost of the Second Seminole War in nominal dollars"
+
+[[symbol]]
+tex = 'A_{\text{Mexican Cession territory}}'
+meaning = "the area of the Mexican Cession"

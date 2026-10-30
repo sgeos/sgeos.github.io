@@ -19,11 +19,17 @@ This seventh article of the series treats the 1924-1945 period during which the 
 
 The 1924-1929 window consolidated the Johnson-Reed restriction regime treated in [A271][related_post_a271_mass_immigration_and_closure] into the stable interwar American ethnoreligious composition. Annual immigration under the quota system reached approximately
 
-$$N_{\text{annual immigration, US, average 1925 to 1929}} \approx 3.05 \times 10^5$$
+$$
+N_{\text{annual immigration, US, average 1925 to 1929}} \approx 3.05 \times 10^5
+\tag{1}
+$$
 
 representing approximately 25% of pre-restriction annual average. Corresponding demographic effects included significant foreign-born population share decline,
 
-$$f_{\text{foreign-born, US population}}\bigg|_{1920} \approx 0.132, \quad f_{\text{foreign-born, US population}}\bigg|_{1930} \approx 0.117, \quad f_{\text{foreign-born, US population}}\bigg|_{1940} \approx 0.089$$
+$$
+f_{\text{foreign-born, US population}}\bigg|_{1920} \approx 0.132, \quad f_{\text{foreign-born, US population}}\bigg|_{1930} \approx 0.117, \quad f_{\text{foreign-born, US population}}\bigg|_{1940} \approx 0.089
+\tag{2}
+$$
 
 producing the twentieth-century foreign-born nadir preceding the 1965 Immigration Act recovery treated in article eight. The [Ngai 2004][book_ngai_2004] Impossible Subjects (already cited in A271), [King 2000][book_king_2000] Making Americans (already cited), and [Fitzgerald and Cook-Martin 2014][book_fitzgerald_cook_martin_2014] Culling the Masses provide the standard treatments.
 
@@ -33,13 +39,19 @@ The 1928 Al Smith Democratic presidential candidacy treated in [A271][related_po
 
 The 1929-1936 Mexican Repatriation ("Mexican Repatriation") comprised federal, state, and local government mass deportation and "voluntary" removal of Mexican American and Mexican immigrant populations. Total removals reached approximately
 
-$$N_{\text{Mexican Repatriation removals, 1929 to 1936}} \approx 1 \times 10^6, \quad f_{\text{US-born citizens among removed}} \approx 0.60$$
+$$
+N_{\text{Mexican Repatriation removals, 1929 to 1936}} \approx 1 \times 10^6, \quad f_{\text{US-born citizens among removed}} \approx 0.60
+\tag{3}
+$$
 
 per modern reconstruction in [Balderrama and Rodriguez 2006][book_balderrama_rodriguez_2006] Decade of Betrayal (already cited in A271), exceeding earlier historical treatments. The 1930-1932 acceleration under Herbert Hoover administration provided the most intensive phase, with subsequent 1933-1936 continuation under Franklin Roosevelt administration. The [Hoffman 1974][book_hoffman_1974] Unwanted Mexican Americans in the Great Depression and [Balderrama and Rodriguez 2006][book_balderrama_rodriguez_2006] provide the fullest treatments.
 
 The religious dimensions included marked Mexican Catholic community formation disruption through parish membership collapse and institutional infrastructure damage. Approximately
 
-$$N_{\text{Mexican Catholic parishes, US, 1929}} \approx 220, \quad N_{\text{Mexican Catholic parishes, US, 1940}} \approx 165$$
+$$
+N_{\text{Mexican Catholic parishes, US, 1929}} \approx 220, \quad N_{\text{Mexican Catholic parishes, US, 1940}} \approx 165
+\tag{4}
+$$
 
 per Official Catholic Directory data, reflecting extensive Depression-era institutional contraction. Concurrent 1926-1929 Cristero War in Mexico treated in [A271][related_post_a271_mass_immigration_and_closure] and 1929 Modus Vivendi providing partial accommodation between Mexican government and Catholic Church reshaped transnational Mexican Catholic religious life during the Repatriation window.
 
@@ -49,15 +61,24 @@ The 2005 California Apology Act for the 1930s Mexican Repatriation Program and s
 
 The 1929-1941 Great Depression produced sizable religious institutional stress alongside broader economic and political-economic disruption. Denominational contributions declined considerably,
 
-$$C_{\text{aggregated Protestant denominational contributions, US}}(1928) \approx 4.4 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{same, US}}(1934) \approx 1.6 \times 10^8 \text{ US dollars nominal}$$
+$$
+C_{\text{aggregated Protestant denominational contributions, US}}(1928) \approx 4.4 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{same, US}}(1934) \approx 1.6 \times 10^8 \text{ US dollars nominal}
+\tag{5}
+$$
 
 representing approximately 65% nominal decline (approximately 60% real decline given Depression-era deflation) per Federal Council of Churches denominational reports. Institutional infrastructure faced appreciable closure and consolidation across mainline Protestant, Catholic, and Jewish denominational bodies. Aggregate unemployment reached peak levels,
 
-$$u_{\text{unemployment rate, US}}\bigg|_{1929} \approx 0.03, \quad u_{\text{peak}}\bigg|_{1933} \approx 0.25, \quad u\bigg|_{1940} \approx 0.15$$
+$$
+u_{\text{unemployment rate, US}}\bigg|_{1929} \approx 0.03, \quad u_{\text{peak}}\bigg|_{1933} \approx 0.25, \quad u\bigg|_{1940} \approx 0.15
+\tag{6}
+$$
 
 with considerable ethnoreligious disparity,
 
-$$u_{\text{Black unemployment rate, US peak c. 1933}} \approx 0.50, \quad u_{\text{Mexican American unemployment rate c. 1933}} \gtrsim 0.40$$
+$$
+u_{\text{Black unemployment rate, US peak c. 1933}} \approx 0.50, \quad u_{\text{Mexican American unemployment rate c. 1933}} \gtrsim 0.40
+\tag{7}
+$$
 
 per Bureau of Labor Statistics and historical reconstruction.
 
@@ -71,18 +92,24 @@ The 1932-1936 electoral realignment produced substantial ethnoreligious reorgani
 
 Ethnoreligious voting realignment across 1928-1936 elections was marked,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Catholic Democratic vote}}(1928) &\approx 0.80, \quad f_{\text{Catholic Democratic vote}}(1936) \approx 0.80 \\
 f_{\text{Jewish Democratic vote}}(1928) &\approx 0.71, \quad f_{\text{Jewish Democratic vote}}(1936) \approx 0.90 \\
 f_{\text{African American Democratic vote (North)}}(1932) &\approx 0.23, \quad f_{\text{same}}(1936) \approx 0.71 \\
 f_{\text{white Southern Democratic vote}}(1932) &\approx 0.85, \quad f_{\text{same}}(1936) \approx 0.85
-\end{aligned}$$
+\end{aligned}
+\tag{8}
+$$
 
 per electoral reconstruction. The African American shift from historically Republican voting (dating to Reconstruction) to New Deal Democratic voting between the 1932 and 1936 elections marked the most extensive single electoral realignment of the twentieth century, completing before the 1948-1964 civil rights era treated in article eight.
 
 1932 and 1936 electoral results reflected sizable realignment magnitude,
 
-$$V_{\text{Roosevelt, 1932 electoral}} = 472, \quad V_{\text{Hoover, 1932 electoral}} = 59, \quad V_{\text{Roosevelt, 1936 electoral}} = 523, \quad V_{\text{Landon, 1936 electoral}} = 8$$
+$$
+V_{\text{Roosevelt, 1932 electoral}} = 472, \quad V_{\text{Hoover, 1932 electoral}} = 59, \quad V_{\text{Roosevelt, 1936 electoral}} = 523, \quad V_{\text{Landon, 1936 electoral}} = 8
+\tag{9}
+$$
 
 with the 1936 result producing the second largest electoral college margin in US history to that date. Primary Roosevelt-era sources include [Roosevelt 1933 First Inaugural][ref_roosevelt_1933_first_inaugural] ("only thing we have to fear is fear itself"), [Roosevelt 1937 Second Inaugural][ref_roosevelt_1937_second_inaugural] ("one-third of a nation ill-housed, ill-clad, ill-nourished"), [Roosevelt 1941 Four Freedoms][ref_roosevelt_1941_four_freedoms] Annual Message to Congress (January 6, 1941), and [Perkins 1946][ref_perkins_1946_roosevelt_i_knew] The Roosevelt I Knew memoir. Roosevelt religious appointments incorporated Catholic, Jewish, and African American figures into federal executive branch positions. Catholic appointments included Frank Murphy (Michigan Governor, Attorney General, Supreme Court Justice), James Farley (Postmaster General 1933-1940 and Democratic National Committee chair), James F. Byrnes (subsequent secular but Catholic-raised), and numerous New Deal agency positions. Jewish appointments included Henry Morgenthau Jr. (Treasury Secretary 1934-1945), Frances Perkins (Secretary of Labor 1933-1945, actually Episcopalian, but treated as symbolic of Catholic-adjacent inclusion), Samuel Rosenman (speechwriter and advisor), and extensive New Deal agency staffing. The [Freidel 1990][book_freidel_1990] Franklin D. Roosevelt and [Kennedy 1999][book_kennedy_1999] Freedom from Fear provide the leading treatments.
 
@@ -92,13 +119,19 @@ The Catholic Worker Movement, founded 1 May 1933 at New York by Dorothy Day (189
 
 The Catholic Worker (subsequently The Catholic Worker newspaper, first issue 1 May 1933) provided the programmatic voice combining Catholic social teaching (Rerum Novarum 1891 and 1931 [Quadragesimo Anno 1931][ref_quadragesimo_anno_1931] Pius XI encyclical), personalist philosophy (Emmanuel Mounier and Jacques Maritain), pacifism, voluntary poverty, and systemic critique of capitalism. Circulation reached approximately
 
-$$C_{\text{Catholic Worker circulation, peak c. 1938}} \approx 1.9 \times 10^5, \quad C_{\text{contemporary}} \approx 2.5 \times 10^4$$
+$$
+C_{\text{Catholic Worker circulation, peak c. 1938}} \approx 1.9 \times 10^5, \quad C_{\text{contemporary}} \approx 2.5 \times 10^4
+\tag{10}
+$$
 
 per institutional records. Primary sources include Day's [Day 1938][ref_day_1938] From Union Square to Rome, [Day 1952][ref_day_1952] The Long Loneliness, extensive [Day Selected Writings][ref_day_selected_writings] compilations, and Peter Maurin's [Maurin 1936][ref_maurin_1936] Easy Essays (programmatic articulation of Catholic Worker vision through verse-form theological instruction).
 
 Catholic Worker houses of hospitality expanded significantly,
 
-$$N_{\text{Catholic Worker houses, US, 1936}} \approx 30, \quad N_{\text{Catholic Worker houses, US, 1941}} \approx 32, \quad N_{\text{Catholic Worker houses, contemporary}} \approx 200$$
+$$
+N_{\text{Catholic Worker houses, US, 1936}} \approx 30, \quad N_{\text{Catholic Worker houses, US, 1941}} \approx 32, \quad N_{\text{Catholic Worker houses, contemporary}} \approx 200
+\tag{11}
+$$
 
 providing direct hospitality service alongside journalistic and speaking mobilization. Day's pacifism during World War II produced considerable tension with mainstream American Catholic institutional war support, though Day maintained personal fidelity to Catholic institutional structure throughout her life. Day's canonization cause was specifically initiated in 2000 and continues through the present.
 
@@ -110,11 +143,17 @@ Reinhold Niebuhr's 1932 [Niebuhr 1932][ref_niebuhr_1932_moral_man] Moral Man and
 
 The Union Theological Seminary at New York under Henry Sloane Coffin's 1926-1945 presidency provided the institutional center for American neo-orthodoxy, incorporating Niebuhr (faculty 1928-1960), H. Richard Niebuhr (faculty 1931-1962 at Yale Divinity School), Paul Tillich (German émigré 1933-1955), and others. Union Seminary enrollment reached approximately
 
-$$N_{\text{Union Theological Seminary enrollment}}(1930) \approx 400, \quad N_{\text{same}}(1945) \approx 550, \quad N_{\text{same, peak c. 1960}} \approx 750$$
+$$
+N_{\text{Union Theological Seminary enrollment}}(1930) \approx 400, \quad N_{\text{same}}(1945) \approx 550, \quad N_{\text{same, peak c. 1960}} \approx 750
+\tag{12}
+$$
 
 per institutional records, reflecting marked mid-twentieth-century growth. The "Christianity and Crisis" magazine (founded 1941 under Niebuhr) provided the journalistic voice of American neo-orthodox interventionism against isolationism during the 1939-1941 pre-war window. Circulation reached approximately
 
-$$C_{\text{Christianity and Crisis circulation, peak c. 1955}} \approx 1.2 \times 10^4, \quad N_{\text{editions Nature and Destiny of Man printed cumulative through 2001}} \gtrsim 3 \times 10^5$$
+$$
+C_{\text{Christianity and Crisis circulation, peak c. 1955}} \approx 1.2 \times 10^4, \quad N_{\text{editions Nature and Destiny of Man printed cumulative through 2001}} \gtrsim 3 \times 10^5
+\tag{13}
+$$
 
 per institutional records. The [Christianity and Crisis 1941][ref_christianity_and_crisis_1941] archives provide the primary institutional documentation.
 
@@ -126,11 +165,17 @@ Nation of Islam theology combined Moorish Science Temple antecedents treated in 
 
 Institutional growth proceeded through the 1930-1975 period from Detroit temple foundation through sizable expansion,
 
-$$N_{\text{Nation of Islam temples, US}}(1934) \approx 3, \quad N_{\text{NoI temples, US}}(1960) \approx 50, \quad N_{\text{NoI temples, US}}(1975) \approx 76, \quad P_{\text{NoI membership, US, peak c. 1970}} \approx 5 \times 10^4$$
+$$
+N_{\text{Nation of Islam temples, US}}(1934) \approx 3, \quad N_{\text{NoI temples, US}}(1960) \approx 50, \quad N_{\text{NoI temples, US}}(1975) \approx 76, \quad P_{\text{NoI membership, US, peak c. 1970}} \approx 5 \times 10^4
+\tag{14}
+$$
 
 Nation of Islam-owned business enterprises reached appreciable scale,
 
-$$C_{\text{NoI aggregated business assets, peak c. 1974}} \approx 4.5 \times 10^7 \text{ US dollars nominal}, \quad A_{\text{NoI agricultural landholding, peak c. 1974}} \approx 6 \times 10^3 \text{ acres}$$
+$$
+C_{\text{NoI aggregated business assets, peak c. 1974}} \approx 4.5 \times 10^7 \text{ US dollars nominal}, \quad A_{\text{NoI agricultural landholding, peak c. 1974}} \approx 6 \times 10^3 \text{ acres}
+\tag{15}
+$$
 
 per institutional records, providing considerable Black economic self-sufficiency infrastructure.
 
@@ -142,11 +187,17 @@ Father Charles Edward Coughlin (1891-1979), Canadian-born Catholic priest at Shr
 
 Peak Coughlin radio audience reached approximately
 
-$$L_{\text{Coughlin radio audience, peak c. 1934 to 1935}} \approx 3 \times 10^7$$
+$$
+L_{\text{Coughlin radio audience, peak c. 1934 to 1935}} \approx 3 \times 10^7
+\tag{16}
+$$
 
 representing the largest American radio audience of the 1930s, exceeding President Roosevelt's Fireside Chat audiences. Coughlin's broadcasting shifted from initial New Deal support (1932-1934) through increasing anti-Roosevelt attacks (1934-1936), anti-Semitic mobilization (1936-1942), and increasingly explicit fascist sympathies including 1938 endorsement of Kristallnacht as "defensive." Coughlin's 1934 National Union for Social Justice organization and 1935 Social Justice magazine provided institutional infrastructure with extensive reach,
 
-$$C_{\text{Social Justice weekly circulation, peak c. 1938}} \approx 1 \times 10^6, \quad P_{\text{National Union for Social Justice membership, peak c. 1936}} \approx 8.5 \times 10^6, \quad N_{\text{radio stations carrying Coughlin, peak c. 1935}} \approx 30$$
+$$
+C_{\text{Social Justice weekly circulation, peak c. 1938}} \approx 1 \times 10^6, \quad P_{\text{National Union for Social Justice membership, peak c. 1936}} \approx 8.5 \times 10^6, \quad N_{\text{radio stations carrying Coughlin, peak c. 1935}} \approx 30
+\tag{17}
+$$
 
 per institutional records and historical reconstruction.
 
@@ -158,7 +209,10 @@ The 1930s Vatican produced sizable encyclicals responding to rising totalitarian
 
 Pius XI's 29 June 1931 [Non abbiamo bisogno 1931][ref_non_abbiamo_bisogno_1931] Non abbiamo bisogno encyclical condemned Italian Fascism's suppression of Catholic Action youth organizations. The 15 May 1931 [Quadragesimo Anno 1931][ref_quadragesimo_anno_1931] Quadragesimo Anno encyclical (already cited above for Catholic Worker context) provided systematic Catholic social teaching on fortieth anniversary of Rerum Novarum. Pius XI's 14 March 1937 [Mit Brennender Sorge 1937][ref_mit_brennender_sorge_1937] Mit Brennender Sorge encyclical, written in German and smuggled into Nazi Germany for Palm Sunday reading, provided the most significant Vatican condemnation of Nazism. Pius XI's 19 March 1937 [Divini Redemptoris 1937][ref_divini_redemptoris_1937] Divini Redemptoris encyclical provided the parallel systematic condemnation of atheistic Communism. Approximate encyclical distribution scales were considerable,
 
-$$N_{\text{Mit Brennender Sorge copies smuggled into Nazi Germany}} \gtrsim 3 \times 10^5, \quad N_{\text{parish Palm Sunday 1937 readings}} \gtrsim 1.15 \times 10^4$$
+$$
+N_{\text{Mit Brennender Sorge copies smuggled into Nazi Germany}} \gtrsim 3 \times 10^5, \quad N_{\text{parish Palm Sunday 1937 readings}} \gtrsim 1.15 \times 10^4
+\tag{18}
+$$
 
 per historical reconstruction.
 
@@ -170,13 +224,19 @@ Reform Judaism's 1937 [Columbus Platform 1937][ref_columbus_platform_1937] Guidi
 
 The Columbus Platform reversed Pittsburgh Platform positions on Palestinian restoration and Jewish peoplehood, affirming "obligation of all Jewry to aid in the up-building" of Palestine as "Jewish homeland" while retaining religious rather than national self-identification. The platform's vote reflected marked denominational division,
 
-$$V_{\text{Columbus Platform, Central Conference vote 1937}} = 81 \text{ favor}, \quad V_{\text{opposition}} = 25, \quad V_{\text{abstain}} = 6$$
+$$
+V_{\text{Columbus Platform, Central Conference vote 1937}} = 81 \text{ favor}, \quad V_{\text{opposition}} = 25, \quad V_{\text{abstain}} = 6
+\tag{19}
+$$
 
 per institutional records. Anti-Zionist Reform rabbis subsequently organized the American Council for Judaism (formed 1942) opposing Zionist framework, though Council declined by the 1950s.
 
 American Zionist mobilization accelerated through the 1930s-1940s period. The 9-11 May 1942 Biltmore Program at Biltmore Hotel New York adopted [Biltmore Program 1942][ref_biltmore_program_1942] "Jewish Commonwealth" declaration calling for establishment of Jewish state in Palestine following war. The 1943 American Jewish Conference at New York (August-September 1943 assembly of major American Jewish organizations excluding American Council for Judaism) endorsed the Biltmore framework. American Zionist membership expanded substantially,
 
-$$P_{\text{Zionist Organization of America membership}}(1933) \approx 8 \times 10^3, \quad P_{\text{ZOA membership}}(1948) \approx 2.5 \times 10^5$$
+$$
+P_{\text{Zionist Organization of America membership}}(1933) \approx 8 \times 10^3, \quad P_{\text{ZOA membership}}(1948) \approx 2.5 \times 10^5
+\tag{20}
+$$
 
 per institutional records, reflecting the Holocaust-induced American Jewish institutional convergence on Zionist framework.
 
@@ -186,11 +246,17 @@ The Indian Reorganization Act of 18 June 1934 [Indian Reorganization Act 1934][r
 
 The Act's provisions included extensive reversal of allotment through prohibition on further allotment, tribal land consolidation authorization, tribal government restoration through constitutional adoption process, religious freedom protection, Indian Civil Service preference, and Indian Arts and Crafts Board establishment. Approximate participation rates were
 
-$$N_{\text{tribes voting on IRA adoption, 1934 to 1936}} \approx 258, \quad N_{\text{tribes adopting IRA constitutions}} \approx 174, \quad f_{\text{tribes adopting IRA constitutions}} \approx 0.67$$
+$$
+N_{\text{tribes voting on IRA adoption, 1934 to 1936}} \approx 258, \quad N_{\text{tribes adopting IRA constitutions}} \approx 174, \quad f_{\text{tribes adopting IRA constitutions}} \approx 0.67
+\tag{21}
+$$
 
 per Bureau of Indian Affairs records, with sizable tribal-level contest over IRA acceptance versus rejection. Native landbase stabilized following IRA implementation,
 
-$$A_{\text{Native landholding, US}}(1934) \approx 4.8 \times 10^7 \text{ acres}, \quad A_{\text{Native landholding, US}}(1953) \approx 5.6 \times 10^7 \text{ acres}$$
+$$
+A_{\text{Native landholding, US}}(1934) \approx 4.8 \times 10^7 \text{ acres}, \quad A_{\text{Native landholding, US}}(1953) \approx 5.6 \times 10^7 \text{ acres}
+\tag{22}
+$$
 
 reversing the approximately 65-year continuous decline through allotment era.
 
@@ -202,26 +268,38 @@ Primary sources include John Collier's 1947 [Collier 1947][ref_collier_1947] The
 
 The 1933 Nazi seizure of power in Germany initiated the most pronounced refugee crisis of the twentieth century's first half. Approximate refugee flows from Nazi-controlled territories during the 1933-1941 window were
 
-$$N_{\text{Jewish emigrants from Germany, 1933 to 1939}} \approx 3 \times 10^5, \quad N_{\text{Jewish emigrants from Austria, 1938 to 1939}} \approx 1.3 \times 10^5$$
+$$
+N_{\text{Jewish emigrants from Germany, 1933 to 1939}} \approx 3 \times 10^5, \quad N_{\text{Jewish emigrants from Austria, 1938 to 1939}} \approx 1.3 \times 10^5
+\tag{23}
+$$
 
 with approximately
 
-$$N_{\text{Jewish refugee admissions, US, 1933 to 1945}} \approx 1.5 \times 10^5, \quad f_{\text{Jewish share of total refugee admissions, US}}\bigg|_{1933 \text{ to } 1945} \approx 0.55$$
+$$
+N_{\text{Jewish refugee admissions, US, 1933 to 1945}} \approx 1.5 \times 10^5, \quad f_{\text{Jewish share of total refugee admissions, US}}\bigg|_{1933 \text{ to } 1945} \approx 0.55
+\tag{24}
+$$
 
 per US Immigration Bureau and historical reconstruction. The American response constrained under Johnson-Reed quota framework treated in [A271][related_post_a271_mass_immigration_and_closure]. Total refugee admissions below quota capacity produced what historians have characterized as systematic American failure to use available quota positions for refugee admission. The [Wyman 1985][book_wyman_1985] The Abandonment of the Jews, [Feingold 1970][book_feingold_1970] The Politics of Rescue, and [Breitman and Kraut 1987][book_breitman_kraut_1987] American Refugee Policy provide the principal treatments.
 
 Country distribution of Jewish refugee admissions reflected quota framework disadvantaging Eastern European source populations,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{admissions from Germany, 1933 to 1945}} &\approx 1.05 \times 10^5 \\
 N_{\text{admissions from Austria, 1938 to 1945}} &\approx 2.9 \times 10^4 \\
 N_{\text{admissions from Poland, 1933 to 1945}} &\approx 6 \times 10^3 \\
 N_{\text{admissions from Czechoslovakia, 1938 to 1945}} &\approx 5 \times 10^3
-\end{aligned}$$
+\end{aligned}
+\tag{25}
+$$
 
 per US Immigration Service reconstruction. Emergency Committee in Aid of Displaced German Scholars (formed 1933) coordinated academic refugee placement providing US university positions for approximately
 
-$$N_{\text{academic refugees placed, US, 1933 to 1945}} \approx 300$$
+$$
+N_{\text{academic refugees placed, US, 1933 to 1945}} \approx 300
+\tag{26}
+$$
 
 per institutional records, including Albert Einstein (Institute for Advanced Study 1933), Hannah Arendt (New School for Social Research 1941), Paul Tillich (Union Theological Seminary 1933), Erich Fromm, Kurt Gödel (Institute for Advanced Study 1940), and numerous others transforming American academic life. The [Fermi 1968][book_fermi_1968] Illustrious Immigrants treats the academic emigration.
 
@@ -233,7 +311,10 @@ The MS St. Louis 1939 voyage from Hamburg 13 May 1939 carrying 937 German Jewish
 
 The 1938 [Evian Conference 1938][ref_evian_conference_1938] (July 1938 France conference on refugee crisis under US invitation) produced limited concrete refugee admission commitments, with approximately
 
-$$N_{\text{countries increasing refugee admission commitments, Evian Conference 1938}} = 1 \text{ (Dominican Republic)}$$
+$$
+N_{\text{countries increasing refugee admission commitments, Evian Conference 1938}} = 1 \text{ (Dominican Republic)}
+\tag{27}
+$$
 
 most substantial concrete commitment. The Dominican Republic under Rafael Trujillo committed to 100,000 refugee admissions producing the Sosúa refugee agricultural settlement of approximately 700 Jewish refugees. The [Wells 2008][book_wells_2008] The Tropics of Empire treats the Sosúa community. The 1939 Bermuda Conference of Anglo-American refugee coordination similarly produced extensive limited concrete result.
 
@@ -241,13 +322,19 @@ most substantial concrete commitment. The Dominican Republic under Rafael Trujil
 
 The Kristallnacht (Night of Broken Glass) pogrom of 9-10 November 1938 across Germany and Austria produced approximately
 
-$$N_{\text{synagogues destroyed, Kristallnacht}} \approx 267, \quad N_{\text{Jewish-owned businesses damaged}} \approx 7000, \quad N_{\text{Jews arrested and sent to concentration camps}} \approx 3 \times 10^4$$
+$$
+N_{\text{synagogues destroyed, Kristallnacht}} \approx 267, \quad N_{\text{Jewish-owned businesses damaged}} \approx 7000, \quad N_{\text{Jews arrested and sent to concentration camps}} \approx 3 \times 10^4
+\tag{28}
+$$
 
 per historical reconstruction. American public response was sizable. Presidential recall of Ambassador Hugh Wilson from Berlin on 14 November 1938 provided the highest-level diplomatic protest. Religious institutional condemnation emerged across Federal Council of Churches ([FCC Kristallnacht Statement 1938][ref_fcc_kristallnacht_statement_1938] of 15 November 1938), American Catholic hierarchy (with [Gallagher 1938][ref_gallagher_1938_kristallnacht] Detroit Bishop Michael Gallagher's 16 November 1938 radio address as most extensive American Catholic denunciation), and Jewish organizations. The [Diamond 1969][book_diamond_1969] The Nazi Movement in the United States and [Feingold 1995][book_feingold_1995] Bearing Witness provide the standard treatments.
 
 American public opinion polling showed majority disapproval of Kristallnacht,
 
-$$f_{\text{Americans disapproving Kristallnacht per November 1938 Gallup poll}} \approx 0.94, \quad f_{\text{Americans supporting increased Jewish refugee admission per 1938-1939 polling}} \lesssim 0.25$$
+$$
+f_{\text{Americans disapproving Kristallnacht per November 1938 Gallup poll}} \approx 0.94, \quad f_{\text{Americans supporting increased Jewish refugee admission per 1938-1939 polling}} \lesssim 0.25
+\tag{29}
+$$
 
 producing the characteristic pattern of public sympathy without concrete restrictionist reversal. The consequent restrictionist maintenance through the 1939-1941 period reflects what historians characterize as institutional restrictionist entrenchment exceeding popular sentiment.
 
@@ -257,17 +344,26 @@ Interwar American fascist mobilization combined German American Bund, Silver Leg
 
 The German American Bund, formed 1936 at Buffalo, New York as successor to 1933 Friends of New Germany under Fritz Julius Kuhn, provided the most significant American Nazi organization. Bund membership reached approximately
 
-$$P_{\text{German American Bund membership, peak c. 1938}} \approx 2.5 \times 10^4, \quad N_{\text{Bund local units}} \approx 70, \quad N_{\text{Bund youth camps}} \approx 20$$
+$$
+P_{\text{German American Bund membership, peak c. 1938}} \approx 2.5 \times 10^4, \quad N_{\text{Bund local units}} \approx 70, \quad N_{\text{Bund youth camps}} \approx 20
+\tag{30}
+$$
 
 per institutional records. The 20 February 1939 Madison Square Garden rally drew approximately
 
-$$N_{\text{Bund Madison Square Garden rally attendance, 20 February 1939}} \approx 2 \times 10^4$$
+$$
+N_{\text{Bund Madison Square Garden rally attendance, 20 February 1939}} \approx 2 \times 10^4
+\tag{31}
+$$
 
 featuring "true Americanism" nativist framework combined with explicit Nazi symbolism and extensive anti-Semitic mobilization. Kuhn's November 1939 embezzlement conviction and subsequent 1946 deportation to Germany disrupted the Bund, and the December 1941 US entry into WWII ended the organization.
 
 The Silver Legion of America (Silver Shirts), founded 1933 at Asheville, North Carolina by William Dudley Pelley, provided the parallel American fascist organization combining occult mysticism (Pelley's "clairvoyant" experience), Christian identity theology, and systematic anti-Semitic mobilization. Silver Legion membership reached approximately
 
-$$P_{\text{Silver Legion membership, peak c. 1934}} \approx 1.5 \times 10^4$$
+$$
+P_{\text{Silver Legion membership, peak c. 1934}} \approx 1.5 \times 10^4
+\tag{32}
+$$
 
 before dispersal following Pelley's 1942 conviction under Espionage Act and 1942-1950 imprisonment.
 
@@ -279,7 +375,10 @@ The America First Committee, founded 4 September 1940 at Chicago under Robert E.
 
 America First membership reached approximately
 
-$$P_{\text{America First Committee membership, peak c. 1941}} \approx 8 \times 10^5, \quad N_{\text{America First chapters}} \approx 450$$
+$$
+P_{\text{America First Committee membership, peak c. 1941}} \approx 8 \times 10^5, \quad N_{\text{America First chapters}} \approx 450
+\tag{33}
+$$
 
 per institutional records. Charles Lindbergh's 11 September 1941 [Lindbergh 1941 Des Moines Speech][ref_lindbergh_1941_des_moines] Des Moines address identified "British, Jewish, and Roosevelt administration" as three "war agitators" pressing US entry, providing the inflection point that discredited America First given explicit anti-Semitic framing. The December 7, 1941 Pearl Harbor attack dissolved the organization within days.
 
@@ -289,13 +388,19 @@ The religious dimensions of America First combined substantial mainstream Protes
 
 American entry into World War II following the 7 December 1941 Pearl Harbor attack mobilized American religious institutions across denominational lines. Roosevelt's [Roosevelt 1941 War Message][ref_roosevelt_1941_war_message] "day which will live in infamy" address to Congress of 8 December 1941 provided the war declaration request. Congressional declarations followed rapidly (8 December 1941 [Congressional Declaration of War 1941][ref_congressional_declaration_japan_1941], 11 December 1941 declarations against Germany and Italy). Total American military service reached
 
-$$N_{\text{US military personnel WWII, cumulative}} \approx 1.6 \times 10^7, \quad N_{\text{US military dead, WWII}} \approx 4.05 \times 10^5, \quad N_{\text{US military wounded, WWII}} \approx 6.7 \times 10^5$$
+$$
+N_{\text{US military personnel WWII, cumulative}} \approx 1.6 \times 10^7, \quad N_{\text{US military dead, WWII}} \approx 4.05 \times 10^5, \quad N_{\text{US military wounded, WWII}} \approx 6.7 \times 10^5
+\tag{34}
+$$
 
 per War Department records, exceeding WWI mobilization and casualties treated in [A271][related_post_a271_mass_immigration_and_closure]. The [Preston 2012][book_preston_2012] Sword of the Spirit, Shield of Faith (already cited in A271), [Sittser 1997][book_sittser_1997] A Cautious Patriotism, and [Bergen 2004][book_bergen_2004] The Sword of the Lord provide the detailed treatments.
 
 Chaplaincy expansion was marked,
 
-$$N_{\text{US military chaplains, cumulative, WWII}} \approx 1.2 \times 10^4, \quad f_{\text{Protestant among WWII chaplains}} \approx 0.65, \quad f_{\text{Catholic among WWII chaplains}} \approx 0.30, \quad f_{\text{Jewish among WWII chaplains}} \approx 0.03$$
+$$
+N_{\text{US military chaplains, cumulative, WWII}} \approx 1.2 \times 10^4, \quad f_{\text{Protestant among WWII chaplains}} \approx 0.65, \quad f_{\text{Catholic among WWII chaplains}} \approx 0.30, \quad f_{\text{Jewish among WWII chaplains}} \approx 0.03
+\tag{35}
+$$
 
 per War Department records, expanding interfaith cooperation established through WWI chaplaincy documented in [A271][related_post_a271_mass_immigration_and_closure]. The "Four Chaplains" 3 February 1943 sinking of USAT Dorchester (Methodist minister George Fox, Reform rabbi Alexander Goode, Reformed Church in America minister Clark Poling, and Catholic priest John Washington providing life jackets to enlisted men and perishing together) provided the iconic interfaith wartime narrative reproduced through twentieth-century American religious pluralism discourse. The [Kurzman 2004][book_kurzman_2004] No Greater Glory treats the Four Chaplains.
 
@@ -303,19 +408,31 @@ per War Department records, expanding interfaith cooperation established through
 
 The United Service Organizations (USO) formed 4 February 1941 through consolidation of six religious welfare organizations,
 
-$$N_{\text{USO founding organizations}} = 6:\quad \text{YMCA, YWCA, National Catholic Community Service, Jewish Welfare Board, Salvation Army, National Travelers Aid Association}$$
+$$
+N_{\text{USO founding organizations}} = 6:\quad \text{YMCA, YWCA, National Catholic Community Service, Jewish Welfare Board, Salvation Army, National Travelers Aid Association}
+\tag{36}
+$$
 
 providing the most extensive interfaith American war welfare coordination. Roosevelt's 1941 request for the consolidation, documented in [Roosevelt Letter to USO Founders 1941][ref_roosevelt_uso_letter_1941] of 4 February 1941, produced the institutional framework exceeding WWI-era denominational welfare separation. USO operations reached sizable scale,
 
-$$N_{\text{USO clubs and centers, US, peak c. 1944}} \approx 3 \times 10^3, \quad N_{\text{USO volunteers, cumulative WWII}} \approx 1.5 \times 10^6, \quad N_{\text{service member visits, USO clubs, cumulative WWII}} \approx 1 \times 10^9$$
+$$
+N_{\text{USO clubs and centers, US, peak c. 1944}} \approx 3 \times 10^3, \quad N_{\text{USO volunteers, cumulative WWII}} \approx 1.5 \times 10^6, \quad N_{\text{service member visits, USO clubs, cumulative WWII}} \approx 1 \times 10^9
+\tag{37}
+$$
 
 per institutional records. Aggregate fundraising was appreciable,
 
-$$C_{\text{USO cumulative fundraising, WWII 1941 to 1946}} \approx 3.3 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{equivalent 2020 US dollars}} \approx 5 \times 10^9$$
+$$
+C_{\text{USO cumulative fundraising, WWII 1941 to 1946}} \approx 3.3 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{equivalent 2020 US dollars}} \approx 5 \times 10^9
+\tag{38}
+$$
 
 with the six founding organizations contributing approximately equal shares. Denominational representation among USO volunteers reflected considerable interfaith participation,
 
-$$f_{\text{Protestant among USO volunteers}} \approx 0.55, \quad f_{\text{Catholic among USO volunteers}} \approx 0.28, \quad f_{\text{Jewish among USO volunteers}} \approx 0.06$$
+$$
+f_{\text{Protestant among USO volunteers}} \approx 0.55, \quad f_{\text{Catholic among USO volunteers}} \approx 0.28, \quad f_{\text{Jewish among USO volunteers}} \approx 0.06
+\tag{39}
+$$
 
 approximately mirroring US denominational composition of the period. The [Coffey 1991][book_coffey_1991] Always Home treats the USO history.
 
@@ -327,11 +444,17 @@ The Selective Training and Service Act of 16 September 1940 [Selective et al. 19
 
 Civilian Public Service enrolled approximately
 
-$$N_{\text{Civilian Public Service participants, WWII}} \approx 1.2 \times 10^4, \quad f_{\text{historic peace church participants}} \approx 0.60, \quad f_{\text{Mennonite among CPS participants}} \approx 0.40, \quad f_{\text{Brethren}} \approx 0.10, \quad f_{\text{Quaker}} \approx 0.10$$
+$$
+N_{\text{Civilian Public Service participants, WWII}} \approx 1.2 \times 10^4, \quad f_{\text{historic peace church participants}} \approx 0.60, \quad f_{\text{Mennonite among CPS participants}} \approx 0.40, \quad f_{\text{Brethren}} \approx 0.10, \quad f_{\text{Quaker}} \approx 0.10
+\tag{40}
+$$
 
 across 152 CPS camps under joint operation of Mennonite Central Committee, American Friends Service Committee, Brethren Service Committee, and US Selective Service administration. CPS work value contributed significant national labor,
 
-$$T_{\text{cumulative CPS work-days, WWII}} \approx 8 \times 10^6, \quad C_{\text{estimated CPS work value at prevailing wages 1946}} \approx 3 \times 10^7 \text{ US dollars nominal}$$
+$$
+T_{\text{cumulative CPS work-days, WWII}} \approx 8 \times 10^6, \quad C_{\text{estimated CPS work value at prevailing wages 1946}} \approx 3 \times 10^7 \text{ US dollars nominal}
+\tag{41}
+$$
 
 per institutional records. Approximately 25% of CPS participants continued post-war voluntary service through denominational agencies including Mennonite Central Committee, American Friends Service Committee, and a number of relief operations. Assignments included forest management, soil conservation, mental hospital service (reforming American mental hospital practice through subsequent advocacy), parachute testing, medical experimental subjects (hunger studies at Minnesota), and differing public service.
 
@@ -343,21 +466,33 @@ Jehovah's Witnesses draft resistance and school flag salute refusal produced sub
 
 Minersville School District v. Gobitis [Minersville v. Gobitis 1940][ref_minersville_v_gobitis_1940] decided 3 June 1940 upheld compulsory school flag salute against Jehovah's Witness challenge in decision,
 
-$$V_{\text{Gobitis majority}} = 8, \quad V_{\text{Gobitis dissent (Stone)}} = 1$$
+$$
+V_{\text{Gobitis majority}} = 8, \quad V_{\text{Gobitis dissent (Stone)}} = 1
+\tag{42}
+$$
 
 with Justice Felix Frankfurter authoring majority opinion. Consequent mob violence against Jehovah's Witnesses followed,
 
-$$N_{\text{documented anti-Jehovah's Witness violence incidents, 1940 to 1943}} \approx 2.5 \times 10^3, \quad N_{\text{Kingdom Halls attacked or destroyed}} \approx 100, \quad N_{\text{state and local flag-salute prosecutions of JW children}} \gtrsim 2 \times 10^3$$
+$$
+N_{\text{documented anti-Jehovah's Witness violence incidents, 1940 to 1943}} \approx 2.5 \times 10^3, \quad N_{\text{Kingdom Halls attacked or destroyed}} \approx 100, \quad N_{\text{state and local flag-salute prosecutions of JW children}} \gtrsim 2 \times 10^3
+\tag{43}
+$$
 
 per American Civil Liberties Union records. Wave of state-level flag salute prosecutions and Kingdom Hall damage produced marked denominational persecution.
 
 West Virginia State Board of Education v. Barnette [West Virginia v. Barnette 1943][ref_west_virginia_v_barnette_1943] decided 14 June 1943 overturned Gobitis in reversed decision,
 
-$$V_{\text{Barnette majority}} = 6, \quad V_{\text{Barnette dissent}} = 3, \quad \Delta t_{\text{Gobitis to Barnette}} \approx 3 \text{ years}$$
+$$
+V_{\text{Barnette majority}} = 6, \quad V_{\text{Barnette dissent}} = 3, \quad \Delta t_{\text{Gobitis to Barnette}} \approx 3 \text{ years}
+\tag{44}
+$$
 
 providing the landmark First Amendment protection of religious dissent from compelled patriotic expression. Justice Robert Jackson's majority opinion articulated "fixed star in our constitutional constellation" framework that would shape subsequent religious liberty jurisprudence through the twentieth century. The rapid reversal (three years) within the same Court reflected extensive WWII-era reassessment of religious liberty in totalitarian-contrast frame. Jehovah's Witness membership grew during and after the wartime persecution,
 
-$$P_{\text{JW publishers (active members), US}}(1940) \approx 6.5 \times 10^4, \quad P_{\text{JW publishers, US}}(1945) \approx 1.1 \times 10^5, \quad P_{\text{JW publishers, US}}(1960) \approx 2.7 \times 10^5$$
+$$
+P_{\text{JW publishers (active members), US}}(1940) \approx 6.5 \times 10^4, \quad P_{\text{JW publishers, US}}(1945) \approx 1.1 \times 10^5, \quad P_{\text{JW publishers, US}}(1960) \approx 2.7 \times 10^5
+\tag{45}
+$$
 
 per Watch Tower Society records, reflecting sizable denominational institutional consolidation under religious liberty jurisprudence.
 
@@ -367,21 +502,30 @@ Executive Order 9066 [Executive Order 9066 1942][ref_executive_order_9066_1942] 
 
 Internment scale reached appreciable proportions,
 
-$$N_{\text{Japanese Americans interned, 1942 to 1945}} \approx 1.2 \times 10^5, \quad f_{\text{US-born citizens among internees}} \approx 0.62, \quad N_{\text{internment camps operated by War Relocation Authority}} = 10$$
+$$
+N_{\text{Japanese Americans interned, 1942 to 1945}} \approx 1.2 \times 10^5, \quad f_{\text{US-born citizens among internees}} \approx 0.62, \quad N_{\text{internment camps operated by War Relocation Authority}} = 10
+\tag{46}
+$$
 
 with major internment camps at Manzanar (California), Tule Lake (California), Poston (Arizona), Gila River (Arizona), Minidoka (Idaho), Heart Mountain (Wyoming), Amache (Colorado), Topaz (Utah), Rohwer (Arkansas), and Jerome (Arkansas). Peak camp populations reached approximately
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{Poston, peak}} &\approx 1.79 \times 10^4 \\
 P_{\text{Tule Lake, peak (after segregation)}} &\approx 1.87 \times 10^4 \\
 P_{\text{Gila River, peak}} &\approx 1.31 \times 10^4 \\
 P_{\text{Heart Mountain, peak}} &\approx 1.08 \times 10^4 \\
 P_{\text{Manzanar, peak}} &\approx 1.05 \times 10^4
-\end{aligned}$$
+\end{aligned}
+\tag{47}
+$$
 
 per War Relocation Authority records. Additional Justice Department internment facilities held Issei (first-generation) community leaders arrested December 1941 through FBI custodial detention list. Property losses were considerable,
 
-$$C_{\text{Japanese American property losses, internment estimate}} \approx 4 \times 10^8 \text{ US dollars nominal 1942}, \quad C_{\text{equivalent 2020 US dollars}} \approx 8 \times 10^9$$
+$$
+C_{\text{Japanese American property losses, internment estimate}} \approx 4 \times 10^8 \text{ US dollars nominal 1942}, \quad C_{\text{equivalent 2020 US dollars}} \approx 8 \times 10^9
+\tag{48}
+$$
 
 per 1948 Japanese American Evacuation Claims Act and subsequent 1980 Commission on Wartime Relocation and Internment of Civilians reconstruction. The [CWRIC 1982][ref_cwric_1982] Personal Justice Denied report provides the comprehensive federal investigation.
 
@@ -389,7 +533,10 @@ Landmark Supreme Court decisions on the internment included [Hirabayashi v. Unit
 
 The 1988 [Civil Liberties Act 1988][ref_civil_liberties_act_1988] Civil Liberties Act signed by President Reagan provided formal federal apology and $20,000 individual redress payments to approximately 82,000 surviving internees, reaching total approximately
 
-$$C_{\text{Civil Liberties Act 1988 aggregate redress}} \approx 1.6 \times 10^9 \text{ US dollars nominal}$$
+$$
+C_{\text{Civil Liberties Act 1988 aggregate redress}} \approx 1.6 \times 10^9 \text{ US dollars nominal}
+\tag{49}
+$$
 
 with additional supplemental appropriations subsequently. The redress campaign incorporated Japanese American Citizens League and ecumenical religious institutional advocacy.
 
@@ -397,13 +544,19 @@ with additional supplemental appropriations subsequently. The redress campaign i
 
 Japanese American religious institutions faced significant wartime suppression across Buddhist, Shinto, and Japanese Christian traditions. The North American Buddhist Mission (subsequently Buddhist Churches of America, formal 1944 name change) reorganized institutional structure under internment conditions. Approximately
 
-$$N_{\text{Buddhist temples closed by wartime action}} \gtrsim 40, \quad f_{\text{BCA membership interned}} \gtrsim 0.60$$
+$$
+N_{\text{Buddhist temples closed by wartime action}} \gtrsim 40, \quad f_{\text{BCA membership interned}} \gtrsim 0.60
+\tag{50}
+$$
 
 per denominational records. The 1944 Topaz internment camp naming of Reverend Ryotai Matsukage as Bishop and institutional reorganization reflect the internment-era denominational adaptation. The [Kashima 1977][book_kashima_1977] Buddhism in America (already cited in A270) and [Williams 2019][book_williams_2019] American Sutra treat the wartime Buddhist experience.
 
 Shinto institutional presence in the pre-war United States was smaller than Buddhist and Christian Japanese American religious populations. Approximately
 
-$$N_{\text{Shinto shrines, US mainland, 1940}} \sim 10, \quad N_{\text{Shinto shrines, Hawaii, 1940}} \approx 40$$
+$$
+N_{\text{Shinto shrines, US mainland, 1940}} \sim 10, \quad N_{\text{Shinto shrines, Hawaii, 1940}} \approx 40
+\tag{51}
+$$
 
 per denominational and Territorial records. Wartime suppression destroyed most pre-war Shinto institutional infrastructure. The 1945 US occupation of Japan decreed state Shinto disestablishment through 15 December 1945 [Shinto Directive 1945][ref_shinto_directive_1945] (SCAPIN-448), transforming Japanese religious framework though not applying directly to American Shinto institutional revival. Contemporary American Shinto populations remain small compared to Buddhist Japanese American populations. The [Nakano 2005][book_nakano_2005] Japanese American Women in Contemporary Society treats the religious continuity questions.
 
@@ -413,11 +566,17 @@ Japanese American Christian populations (approximately 15% of pre-war Japanese A
 
 Despite mass internment, Japanese American military service was marked. The 100th Infantry Battalion (formed from pre-war Hawaiian National Guard Nisei) deployed to Italy in 1943, subsequently combined with 442nd Regimental Combat Team (activated 1 February 1943 from volunteers primarily from internment camps and Hawaii). Combined 100/442 casualties were extensive,
 
-$$N_{\text{100/442 Regimental Combat Team members, cumulative}} \approx 1.4 \times 10^4, \quad N_{\text{Presidential Unit Citations, 100/442}} = 8, \quad N_{\text{Medal of Honor awards}} = 21$$
+$$
+N_{\text{100/442 Regimental Combat Team members, cumulative}} \approx 1.4 \times 10^4, \quad N_{\text{Presidential Unit Citations, 100/442}} = 8, \quad N_{\text{Medal of Honor awards}} = 21
+\tag{52}
+$$
 
 producing what military historians characterize as the most decorated American military unit of its size and length of service in WWII. Total 100/442 casualties reached approximately 314% of original unit strength through rotation and replacement,
 
-$$N_{\text{100/442 killed in action}} \approx 700, \quad N_{\text{100/442 wounded}} \approx 9500, \quad N_{\text{Distinguished Service Crosses awarded}} = 52, \quad N_{\text{Silver Stars}} = 560, \quad N_{\text{Purple Hearts}} \approx 9500$$
+$$
+N_{\text{100/442 killed in action}} \approx 700, \quad N_{\text{100/442 wounded}} \approx 9500, \quad N_{\text{Distinguished Service Crosses awarded}} = 52, \quad N_{\text{Silver Stars}} = 560, \quad N_{\text{Purple Hearts}} \approx 9500
+\tag{53}
+$$
 
 per Department of Defense records. The [Duus 2005][book_duus_2005] Unlikely Liberators, [Sterner 2007][book_sterner_2007] Go for Broke, and [Asahina 2006][book_asahina_2006] Just Americans provide the fullest treatments.
 
@@ -429,13 +588,19 @@ The 1943 loyalty questionnaire administered to internees producing "loyalty" ver
 
 Filipino American military service reached considerable scale. The 1st and 2nd Filipino Infantry Regiments (activated 1942) drew from mainland Filipino population combining pre-war residents and Philippines-born volunteers. Filipino nationals in the Philippines served in significant numbers under US Armed Forces Far East (USAFFE), Philippine Commonwealth Army, and a range of Philippine guerrilla organizations. Approximately
 
-$$N_{\text{Filipino military service, WWII, cumulative}} \approx 2.6 \times 10^5, \quad N_{\text{Filipino military dead, WWII}} \approx 5.7 \times 10^4$$
+$$
+N_{\text{Filipino military service, WWII, cumulative}} \approx 2.6 \times 10^5, \quad N_{\text{Filipino military dead, WWII}} \approx 5.7 \times 10^4
+\tag{54}
+$$
 
 per historical reconstruction, exceeding US mainland Filipino population share.
 
 The 1946 Philippine Independence (7 October 1946 [Treaty of Manila 1946][ref_treaty_of_manila_1946]) fulfilled the 1934 Tydings-McDuffie Act commitment. The 1946 [Rescission Act 1946][ref_rescission_act_1946] (Public Law 79-301) retroactively rescinded Filipino wartime service veteran status, denying approximately 260,000 Filipino veterans US military veterans benefits despite service under US command. The 2009 Filipino Veterans Equity Compensation Fund under American Recovery and Reinvestment Act provided redress amount
 
-$$C_{\text{Filipino Veterans Equity Compensation Fund 2009}} \approx 1.98 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{per surviving veteran, US citizens}} = 1.5 \times 10^4 \text{ USD}, \quad C_{\text{per surviving veteran, non-US citizens}} = 9 \times 10^3 \text{ USD}, \quad N_{\text{surviving Filipino WWII veterans, 2009}} \approx 1.8 \times 10^4$$
+$$
+C_{\text{Filipino Veterans Equity Compensation Fund 2009}} \approx 1.98 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{per surviving veteran, US citizens}} = 1.5 \times 10^4 \text{ USD}, \quad C_{\text{per surviving veteran, non-US citizens}} = 9 \times 10^3 \text{ USD}, \quad N_{\text{surviving Filipino WWII veterans, 2009}} \approx 1.8 \times 10^4
+\tag{55}
+$$
 
 per institutional records. The [Nakano 2000][book_nakano_2000] Filipino Veterans of World War II treats the veteran history.
 
@@ -443,7 +608,10 @@ The 1946 Luce-Celler Act ([Luce-Celler Act 1946][ref_luce_celler_act_1946]) exte
 
 Religious dimensions of Filipino wartime service included substantial Catholic institutional support through US Armed Forces chaplaincy and Filipino Catholic community mobilization. Approximately
 
-$$f_{\text{Catholic among Filipino WWII service members}} \approx 0.85$$
+$$
+f_{\text{Catholic among Filipino WWII service members}} \approx 0.85
+\tag{56}
+$$
 
 reflecting Filipino Catholic majority documented in [A271][related_post_a271_mass_immigration_and_closure]. Filipino Protestant and Aglipayan populations participated in wartime religious welfare through respective denominational networks.
 
@@ -451,17 +619,26 @@ reflecting Filipino Catholic majority documented in [A271][related_post_a271_mas
 
 Native American wartime service was marked and proportionally exceeded general population participation. Approximately
 
-$$N_{\text{Native American military service, WWII}} \approx 4.4 \times 10^4, \quad f_{\text{Native adult male military service, WWII}} \approx 0.25$$
+$$
+N_{\text{Native American military service, WWII}} \approx 4.4 \times 10^4, \quad f_{\text{Native adult male military service, WWII}} \approx 0.25
+\tag{57}
+$$
 
 per War Department and Bureau of Indian Affairs records, exceeding approximately 10% general adult male service rate. The [Bernstein 1991][book_bernstein_1991] American Indians and World War II and [Townsend 2000][book_townsend_2000] World War II and the American Indian provide the treatments.
 
 The Navajo Code Talkers program provided the most extensive Native American specialized wartime service. Approximately 400 Navajo Marines developed and deployed unbreakable Navajo-language military code through 1942-1945 Pacific theater. The code combined Navajo linguistic complexity with military terminology substitution producing one of the few unbroken military codes of twentieth-century warfare. Additional Comanche, Choctaw, Lakota, Meskwaki, and other tribal code talker programs across US Army and US Marines contributed parallel linguistic services,
 
-$$N_{\text{Navajo Code Talkers, cumulative}} \approx 400, \quad N_{\text{Comanche Code Talkers}} = 14, \quad N_{\text{Choctaw Code Talkers, WWII (WWI use also documented)}} = 19, \quad N_{\text{Meskwaki Code Talkers}} = 8$$
+$$
+N_{\text{Navajo Code Talkers, cumulative}} \approx 400, \quad N_{\text{Comanche Code Talkers}} = 14, \quad N_{\text{Choctaw Code Talkers, WWII (WWI use also documented)}} = 19, \quad N_{\text{Meskwaki Code Talkers}} = 8
+\tag{58}
+$$
 
 per Department of Defense historical reconstruction. Native casualty rates were sizable,
 
-$$N_{\text{Native American military dead, WWII}} \approx 550, \quad r_{\text{Native military death rate per capita}} / r_{\text{general US military death rate}} \approx 1.6$$
+$$
+N_{\text{Native American military dead, WWII}} \approx 550, \quad r_{\text{Native military death rate per capita}} / r_{\text{general US military death rate}} \approx 1.6
+\tag{59}
+$$
 
 per Bureau of Indian Affairs and War Department records. The [Meadows 2002][book_meadows_2002] The Comanche Code Talkers of World War II and [Aaseng 1992][book_aaseng_1992] Navajo Code Talkers treat the programs.
 
@@ -471,19 +648,28 @@ The religious dimensions of Native wartime service combined traditional Native r
 
 Chinese American military service was appreciable despite pre-war Chinese American population's approximately 78,000 total US population. Approximately
 
-$$N_{\text{Chinese American military service, WWII}} \approx 2 \times 10^4, \quad f_{\text{Chinese American adult male military service}} \approx 0.20$$
+$$
+N_{\text{Chinese American military service, WWII}} \approx 2 \times 10^4, \quad f_{\text{Chinese American adult male military service}} \approx 0.20
+\tag{60}
+$$
 
 per War Department records. Chinese American service reflected US-China wartime alliance and opportunity for Chinese American youth to demonstrate US loyalty against persistent anti-Chinese discrimination. The [Wong 2005][book_wong_2005] Americans First and [Chen 2015][book_chen_2015] Chinese San Francisco (revised edition of Chen 2000 already cited) provide the detailed treatments.
 
 The Magnuson Act (Chinese Exclusion Repeal Act) of 17 December 1943 [Magnuson Act 1943][ref_magnuson_act_1943] repealed 1882 Chinese Exclusion Act and subsequent extensions treated in [A270][related_post_a270_civil_war_and_reconstruction], providing naturalization eligibility for Chinese and limited annual quota,
 
-$$Q_{\text{Chinese quota, Magnuson Act 1943}} = 105, \quad Q_{\text{compared to pre-1943 Chinese quota}} = 0, \quad Q_{\text{compared to 1965 Hart-Celler quota after expansion}} \approx 2 \times 10^4$$
+$$
+Q_{\text{Chinese quota, Magnuson Act 1943}} = 105, \quad Q_{\text{compared to pre-1943 Chinese quota}} = 0, \quad Q_{\text{compared to 1965 Hart-Celler quota after expansion}} \approx 2 \times 10^4
+\tag{61}
+$$
 
 under national origins framework. The 61-year Chinese Exclusion period ending reflected US-China wartime alliance rather than comprehensive restrictionist reform, though act provided the inflection point that subsequent 1946 War Brides Act, 1946 Luce-Celler Act extending reform to Filipino and South Asian populations, and 1952 McCarran-Walter Act treated in article eight continued.
 
 The 1946 [War Brides Act 1945][ref_war_brides_act_1945] permitted approximately 6,000 Chinese wives of US servicemen to enter outside quota. Chinese American population effects were considerable,
 
-$$P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4, \quad P_{\text{Chinese American, US}}(1950) \approx 1.18 \times 10^5, \quad P_{\text{Chinese American, US}}(1960) \approx 2.4 \times 10^5$$
+$$
+P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4, \quad P_{\text{Chinese American, US}}(1950) \approx 1.18 \times 10^5, \quad P_{\text{Chinese American, US}}(1960) \approx 2.4 \times 10^5
+\tag{62}
+$$
 
 representing significant post-war expansion following the pre-war population decline documented in [A270][related_post_a270_civil_war_and_reconstruction].
 
@@ -493,15 +679,24 @@ The Bracero Program (Mexican Farm Labor Agreement, formally Emergency Farm Labor
 
 Bracero contracts reached marked scale across the 22-year program duration,
 
-$$N_{\text{Bracero contracts, cumulative 1942 to 1964}} \approx 4.6 \times 10^6, \quad N_{\text{unique Bracero workers, estimated}} \approx 2 \times 10^6, \quad N_{\text{Bracero contracts annually, peak c. 1956 to 1959}} \approx 4.5 \times 10^5$$
+$$
+N_{\text{Bracero contracts, cumulative 1942 to 1964}} \approx 4.6 \times 10^6, \quad N_{\text{unique Bracero workers, estimated}} \approx 2 \times 10^6, \quad N_{\text{Bracero contracts annually, peak c. 1956 to 1959}} \approx 4.5 \times 10^5
+\tag{63}
+$$
 
 State distribution of Bracero labor deployment was concentrated,
 
-$$f_{\text{Bracero labor, California}} \approx 0.55, \quad f_{\text{Bracero labor, Texas}} \approx 0.20, \quad f_{\text{Bracero labor, Arizona and New Mexico}} \approx 0.10$$
+$$
+f_{\text{Bracero labor, California}} \approx 0.55, \quad f_{\text{Bracero labor, Texas}} \approx 0.20, \quad f_{\text{Bracero labor, Arizona and New Mexico}} \approx 0.10
+\tag{64}
+$$
 
 with extensive deployment across twelve additional states. Bracero wage protection provisions specified minimums,
 
-$$W_{\text{Bracero minimum wage per hour, 1942}} \approx 0.30 \text{ USD}, \quad W_{\text{Bracero minimum wage per hour, 1964}} \approx 1.00 \text{ USD}$$
+$$
+W_{\text{Bracero minimum wage per hour, 1942}} \approx 0.30 \text{ USD}, \quad W_{\text{Bracero minimum wage per hour, 1964}} \approx 1.00 \text{ USD}
+\tag{65}
+$$
 
 per US-Mexico bilateral agreement, though systematic underpayment relative to specified minimums was documented.
 
@@ -513,23 +708,35 @@ Religious dimensions of Bracero migration combined persistent Mexican Catholic d
 
 Refugee admissions to the United States during the 1938-1945 window admitted sizable Jewish refugee populations across Sephardic and Ashkenazi origins, though total admissions remained limited by Johnson-Reed quota framework treated in [A271][related_post_a271_mass_immigration_and_closure]. Approximate totals were
 
-$$N_{\text{Jewish refugee admissions, US, 1933 to 1945, cumulative}} \approx 1.5 \times 10^5, \quad N_{\text{admissions from Sephardic source populations}} \approx 1.5 \times 10^4$$
+$$
+N_{\text{Jewish refugee admissions, US, 1933 to 1945, cumulative}} \approx 1.5 \times 10^5, \quad N_{\text{admissions from Sephardic source populations}} \approx 1.5 \times 10^4
+\tag{66}
+$$
 
 per US Immigration Service and Jewish Immigration Aid Society records. The Sephardic admissions originated from Greek, Turkish, Yugoslav, and Bulgarian Jewish communities under Axis persecution alongside Ashkenazi majority admissions primarily from German, Austrian, and Polish origins. The [Ben-Ur 2009][book_ben_ur_2009] Sephardic Jews in America and [Weissbach 2005][book_weissbach_2005] Jewish Life in Small-Town America provide the most complete treatments.
 
 The War Refugee Board [War Refugee Board 1944][ref_war_refugee_board_1944] established 22 January 1944 by Executive Order 9417 under John Pehle and subsequent William O'Dwyer leadership provided the first appreciable federal refugee coordination institution. Board activities included Raoul Wallenberg (Swedish diplomat) 1944 budget support for Hungarian Jewish rescue producing approximately
 
-$$N_{\text{Wallenberg documented rescues, Budapest 1944}} \approx 1 \times 10^5, \quad C_{\text{War Refugee Board Wallenberg fund allocation}} \approx 1 \times 10^5 \text{ US dollars nominal}$$
+$$
+N_{\text{Wallenberg documented rescues, Budapest 1944}} \approx 1 \times 10^5, \quad C_{\text{War Refugee Board Wallenberg fund allocation}} \approx 1 \times 10^5 \text{ US dollars nominal}
+\tag{67}
+$$
 
 per institutional records. Additional Board activity included Emergency Refugee Shelter at Fort Ontario at Oswego, New York,
 
-$$N_{\text{Fort Ontario Emergency Refugee Shelter admissions, August 1944}} = 982, \quad f_{\text{Jewish among Fort Ontario refugees}} \approx 0.90, \quad N_{\text{countries of origin}} = 18$$
+$$
+N_{\text{Fort Ontario Emergency Refugee Shelter admissions, August 1944}} = 982, \quad f_{\text{Jewish among Fort Ontario refugees}} \approx 0.90, \quad N_{\text{countries of origin}} = 18
+\tag{68}
+$$
 
 subsequently permanently admitted post-war under 1945 [Truman Directive 1945][ref_truman_directive_1945] of 22 December 1945 (Executive Order authorizing European refugee admissions within quota), and a number of rescue coordination. The [Erbelding 2018][book_erbelding_2018] Rescue Board provides the standard treatment.
 
 The American Jewish institutional response combined considerable denominational and philanthropic mobilization. The American Jewish Joint Distribution Committee (JDC, formed 1914) provided approximately
 
-$$C_{\text{JDC cumulative rescue and refugee expenditure, 1938 to 1945}} \approx 8 \times 10^7 \text{ US dollars nominal}$$
+$$
+C_{\text{JDC cumulative rescue and refugee expenditure, 1938 to 1945}} \approx 8 \times 10^7 \text{ US dollars nominal}
+\tag{69}
+$$
 
 per institutional records, exceeding US federal refugee spending. HIAS, United Hebrew Charities, differing Zionist organizations, and individual American Jewish community fundraising provided significant parallel institutional infrastructure.
 
@@ -539,7 +746,10 @@ The Riegner Telegram of 8 August 1942 by Gerhart Riegner (World Jewish Congress 
 
 The US State Department response delayed public disclosure. Sumner Welles (Under Secretary of State) confirmed Riegner information to Wise on 24 November 1942, providing the initial public disclosure. Wise's 24 November 1942 press conference and 8 December 1942 White House meeting with Roosevelt began substantial American Jewish institutional mobilization. Total American Jewish rescue mobilization funds during 1942-1945 reached approximately
 
-$$C_{\text{aggregate American Jewish rescue funds, 1942 to 1945}} \approx 1.5 \times 10^8 \text{ US dollars nominal}$$
+$$
+C_{\text{aggregate American Jewish rescue funds, 1942 to 1945}} \approx 1.5 \times 10^8 \text{ US dollars nominal}
+\tag{70}
+$$
 
 per institutional records, exceeding US federal rescue expenditure treated above.
 
@@ -555,7 +765,10 @@ The National Association of Evangelicals (NAE), founded 7-9 April 1942 at St. Lo
 
 NAE membership expanded through 1942-1970 period,
 
-$$P_{\text{NAE affiliated denominations}}(1942) \approx 30, \quad P_{\text{NAE affiliated denominations}}(1970) \approx 32, \quad P_{\text{NAE aggregated affiliated membership}}(1970) \approx 3 \times 10^6, \quad P_{\text{NAE aggregated affiliated membership, contemporary}} \approx 4 \times 10^7$$
+$$
+P_{\text{NAE affiliated denominations}}(1942) \approx 30, \quad P_{\text{NAE affiliated denominations}}(1970) \approx 32, \quad P_{\text{NAE aggregated affiliated membership}}(1970) \approx 3 \times 10^6, \quad P_{\text{NAE aggregated affiliated membership, contemporary}} \approx 4 \times 10^7
+\tag{71}
+$$
 
 per institutional records. Founding affiliations included Assemblies of God, National Association of Free Will Baptists, a range of Pentecostal Holiness bodies, various Wesleyan bodies, and assorted fundamentalist and evangelical denominations. Institutional infrastructure development included Fuller Theological Seminary (founded 1947 at Pasadena, California under Ockenga, Charles E. Fuller, and others as evangelical alternative to mainline seminary framework), National Religious Broadcasters (formed 1944), and 1956 Christianity Today magazine (founded under Carl F. H. Henry and Billy Graham's institutional backing).
 
@@ -569,7 +782,10 @@ The March 1943 [Six Pillars of Peace 1943][ref_six_pillars_of_peace_1943] Six Pi
 
 Dulles's 1946 [Dulles 1946][ref_dulles_1946] The Christian Basis of a Just and Durable Peace and extensive FCC-related pamphlet distribution produced appreciable American Protestant support for United Nations framework. Approximately
 
-$$f_{\text{FCC-affiliated clergy supporting UN formation, per 1944 poll}} \approx 0.92, \quad f_{\text{FCC-affiliated laity supporting UN, 1945}} \approx 0.75$$
+$$
+f_{\text{FCC-affiliated clergy supporting UN formation, per 1944 poll}} \approx 0.92, \quad f_{\text{FCC-affiliated laity supporting UN, 1945}} \approx 0.75
+\tag{72}
+$$
 
 per institutional polling. The institutional overlap between FCC leadership and United Nations founding conference participation (42 official US delegate consultants included 26 religious organization representatives, primarily FCC-affiliated) reflected mainline Protestant institutional continuity in American international engagement through mid-twentieth century.
 
@@ -579,13 +795,19 @@ Buddhist religious life during Japanese American internment produced considerabl
 
 Manzanar Buddhist congregation reached approximately
 
-$$P_{\text{Manzanar Buddhist affiliation}} \approx 5 \times 10^3, \quad f_{\text{Manzanar Buddhist among total internee population}} \approx 0.50$$
+$$
+P_{\text{Manzanar Buddhist affiliation}} \approx 5 \times 10^3, \quad f_{\text{Manzanar Buddhist among total internee population}} \approx 0.50
+\tag{73}
+$$
 
 per War Relocation Authority denominational census data. Manzanar Buddhist priests included Reverend Shinjo Nagatomi (senior Manzanar Buddhist minister) and a number of Jodo Shinshu, Zen, and Nichiren tradition religious leadership. Buddhist religious infrastructure at Manzanar included two Buddhist chapels, Sunday school programs, extensive funeral rites conducted for approximately 150 Manzanar deaths, and 1943 Bon Odori (Obon festival) celebration despite War Relocation Authority initial restrictions on Japanese cultural practices.
 
 The 1944 Buddhist Churches of America formal name change (from North American Buddhist Mission) reflected institutional Americanization strategy preserving denominational continuity through extreme wartime pressure. Postwar Buddhist Churches of America expansion proceeded through decades,
 
-$$N_{\text{BCA temples, US}}(1945) \approx 20, \quad N_{\text{BCA temples, US}}(1960) \approx 60, \quad N_{\text{BCA temples, US, contemporary}} \approx 60, \quad P_{\text{BCA membership, US, contemporary}} \approx 1.5 \times 10^4$$
+$$
+N_{\text{BCA temples, US}}(1945) \approx 20, \quad N_{\text{BCA temples, US}}(1960) \approx 60, \quad N_{\text{BCA temples, US, contemporary}} \approx 60, \quad P_{\text{BCA membership, US, contemporary}} \approx 1.5 \times 10^4
+\tag{74}
+$$
 
 per institutional records. Twentieth-century decline reflects generational assimilation and Christian conversion patterns among Japanese American populations documented in differing sociological literature.
 
@@ -593,7 +815,10 @@ per institutional records. Twentieth-century decline reflects generational assim
 
 Nation of Islam's WWII experience produced significant institutional stress under Selective Service Act and FBI surveillance. Elijah Muhammad's position against US military participation combining Islamic theological framework with Black nationalist opposition to "white man's war" produced 1942 arrest under Selective Service Act violations and 1943 sedition charges. Approximately
 
-$$N_{\text{Nation of Islam members imprisoned for draft resistance, 1942 to 1946}} \approx 100, \quad t_{\text{Elijah Muhammad imprisonment, Milan Federal Correctional Institution}} \approx 1942 \text{ to } 1946$$
+$$
+N_{\text{Nation of Islam members imprisoned for draft resistance, 1942 to 1946}} \approx 100, \quad t_{\text{Elijah Muhammad imprisonment, Milan Federal Correctional Institution}} \approx 1942 \text{ to } 1946
+\tag{75}
+$$
 
 per FBI and Bureau of Prisons records. The 1942-1946 imprisonment period strengthened Elijah Muhammad's institutional authority within NoI through extended prison correspondence, book compilation, and institutional consolidation under loyalist deputies. The [Berg 2005][book_berg_2005_elijah] Elijah Muhammad and Islam treats the wartime NoI history.
 
@@ -605,17 +830,26 @@ The Servicemen's Readjustment Act of 22 June 1944 [GI Bill 1944][ref_gi_bill_194
 
 GI Bill educational effects were substantial for religious institutional expansion,
 
-$$N_{\text{veterans using GI Bill higher education benefits, cumulative 1944 to 1956}} \approx 7.8 \times 10^6, \quad C_{\text{GI Bill cumulative federal educational spending 1944 to 1956}} \approx 1.45 \times 10^{10} \text{ US dollars nominal}$$
+$$
+N_{\text{veterans using GI Bill higher education benefits, cumulative 1944 to 1956}} \approx 7.8 \times 10^6, \quad C_{\text{GI Bill cumulative federal educational spending 1944 to 1956}} \approx 1.45 \times 10^{10} \text{ US dollars nominal}
+\tag{76}
+$$
 
 per Veterans Administration records. Fraction attended religious-affiliated colleges and universities including approximately 20% at Catholic institutions and approximately 15% at Protestant institutions, providing marked ethnoreligious institutional expansion through postwar decades. Total religious-affiliated higher education enrollment expanded markedly,
 
-$$P_{\text{religious-affiliated US higher education enrollment}}(1940) \approx 3 \times 10^5, \quad P_{\text{religious-affiliated US higher education enrollment}}(1960) \approx 1 \times 10^6$$
+$$
+P_{\text{religious-affiliated US higher education enrollment}}(1940) \approx 3 \times 10^5, \quad P_{\text{religious-affiliated US higher education enrollment}}(1960) \approx 1 \times 10^6
+\tag{77}
+$$
 
 per US Office of Education records, exceeding overall higher education growth. Catholic parochial school system expansion similarly proceeded through 1944-1965 period under baby boom demographic pressure and GI Bill homeownership effects treated in article eight.
 
 The GI Bill's residential effects reshaped American religious geography through suburbanization. Approximate suburban religious institutional expansion reflected
 
-$$N_{\text{new Protestant churches built in US suburbs, 1945 to 1960}} \approx 3 \times 10^4, \quad N_{\text{new Catholic parishes established in US suburbs, 1945 to 1960}} \approx 5 \times 10^3, \quad N_{\text{new Jewish synagogues, US suburbs, 1945 to 1960}} \approx 1 \times 10^3$$
+$$
+N_{\text{new Protestant churches built in US suburbs, 1945 to 1960}} \approx 3 \times 10^4, \quad N_{\text{new Catholic parishes established in US suburbs, 1945 to 1960}} \approx 5 \times 10^3, \quad N_{\text{new Jewish synagogues, US suburbs, 1945 to 1960}} \approx 1 \times 10^3
+\tag{78}
+$$
 
 per denominational records. The "Protestant, Catholic, Jew" 1955 Will Herberg framework treated in article eight responded to postwar suburban ethnoreligious triangulation.
 
@@ -623,11 +857,14 @@ per denominational records. The "Protestant, Catholic, Jew" 1955 Will Herberg fr
 
 The 1943 window produced extensive race massacres reflecting wartime racial tensions in major urban and military centers. Major documented episodes included
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Zoot Suit Riots (Los Angeles)} &: \text{June 1943}, \quad N_{\text{Mexican American injured}} \gtrsim 500 \\
 \text{Detroit Race Riot} &: \text{June 1943}, \quad N_{\text{Black dead}} = 25, \quad N_{\text{white dead}} = 9 \\
 \text{Harlem Race Riot} &: \text{August 1943}, \quad N_{\text{Black dead}} = 6
-\end{aligned}$$
+\end{aligned}
+\tag{79}
+$$
 
 per historical reconstruction. The Zoot Suit Riots produced sizable US Navy and US Marine service member attacks on Mexican American youth in Los Angeles combining pachuco cultural mobilization with racialized wartime tensions. Los Angeles City Council banned zoot suit wearing during the rioting, subsequently overturned. The [Alvarez 2008][book_alvarez_2008] The Power of the Zoot and [Pagan 2003][book_pagan_2003] Murder at the Sleepy Lagoon provide the standard treatments.
 
@@ -637,19 +874,28 @@ The Detroit Race Riot of 20-21 June 1943 at Belle Isle Park expanded across city
 
 A. Philip Randolph's January 1941 threatened March on Washington against defense industry racial discrimination produced considerable Roosevelt administration response. The threatened march scale reached approximately
 
-$$N_{\text{threatened March on Washington participants, estimated}} \approx 1 \times 10^5, \quad \Delta t_{\text{threat to EO 8802 issuance}} \approx 5 \text{ months}$$
+$$
+N_{\text{threatened March on Washington participants, estimated}} \approx 1 \times 10^5, \quad \Delta t_{\text{threat to EO 8802 issuance}} \approx 5 \text{ months}
+\tag{80}
+$$
 
 with the credible mobilization threat producing rapid administrative concession without actual march execution. Randolph's 25 January 1941 letter to Roosevelt threatening 100,000-person march on Washington produced Executive Order 8802 [Executive Order 8802 1941][ref_executive_order_8802_1941] of 25 June 1941 prohibiting racial discrimination in defense industry and federal employment. The 1941-1946 Fair Employment Practice Committee (FEPC) provided the institutional implementation, subsequently restructured under [Executive Order 9346 1943][ref_executive_order_9346_1943] of 27 May 1943 strengthening enforcement authority. The [Pfeffer 1990][book_pfeffer_1990] A. Philip Randolph, [Reed 1991][book_reed_1991] Seedtime for the Modern Civil Rights Movement, and [Anderson 1972][book_anderson_1972] A. Philip Randolph provide the treatments.
 
 The FEPC investigated approximately
 
-$$N_{\text{FEPC complaints filed, 1941 to 1946}} \approx 8 \times 10^3, \quad N_{\text{complaints resolved through mediation}} \approx 5 \times 10^3$$
+$$
+N_{\text{FEPC complaints filed, 1941 to 1946}} \approx 8 \times 10^3, \quad N_{\text{complaints resolved through mediation}} \approx 5 \times 10^3
+\tag{81}
+$$
 
 per institutional records, with mixed effectiveness reflecting significant institutional resistance to federal discrimination oversight. The FEPC's 1946 termination under Southern Congressional opposition and Truman administration failure to extend the institutional framework reflected persistent institutional restrictionist power.
 
 Congress of Racial Equality (CORE) formed 1942 at Chicago under James Farmer, Bernice Fisher, and others as interracial pacifist civil rights organization drawing on Fellowship of Reconciliation (FOR, founded 1915) Christian pacifist tradition. Early CORE actions included 1942 Jack Spratt Coffee House sit-in at Chicago (arguably first documented American sit-in) and 1947 Journey of Reconciliation across Upper South. CORE membership expanded through the 1940s-1960s period,
 
-$$N_{\text{CORE chapters, US}}(1943) \approx 12, \quad N_{\text{CORE chapters, US}}(1960) \approx 30, \quad N_{\text{CORE chapters, US, peak c. 1964}} \approx 180, \quad P_{\text{CORE membership, peak c. 1964}} \approx 8 \times 10^4$$
+$$
+N_{\text{CORE chapters, US}}(1943) \approx 12, \quad N_{\text{CORE chapters, US}}(1960) \approx 30, \quad N_{\text{CORE chapters, US, peak c. 1964}} \approx 180, \quad P_{\text{CORE membership, peak c. 1964}} \approx 8 \times 10^4
+\tag{82}
+$$
 
 per institutional records. CORE would contribute to 1960s civil rights movement treated in article eight. The [Meier and Rudwick 1975][book_meier_rudwick_1975] CORE and [Farmer 1985][book_farmer_1985] Lay Bare the Heart provide the detailed treatments.
 
@@ -685,6 +931,778 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct assessment of Japanese American internment's long-term effects on American constitutional protection of ethnic minority religious institutions?
 - What is the correct empirical characterization of Bracero Program's long-term effects on US-Mexico labor migration patterns through 1965 Immigration and Nationality Act and present?
 - What is the correct assessment of USO's institutional legacy for American interfaith cooperation through twentieth century?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 82 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 82, 80 are established and 2 are bespoke.
+Every figure is an approximate historical count, share or monetary amount as reported by the source the article names, a share is a fraction between zero and one rather than a percentage, and monetary amounts are nominal United States dollars unless the equation states otherwise.
+
+**Equation 1, Average Annual Immigration Under the Quota System, 1925 to 1929.**
+The mean yearly number of immigrants admitted to the United States under the national origins quotas in the five years before the Depression is a recorded figure.
+[Ngai 2004][book_ngai_2004]
+[King 2000][book_king_2000]
+[Fitzgerald and Cook-Martin 2014][book_fitzgerald_cook_martin_2014]
+
+$$
+N_{\text{annual immigration, US, average 1925 to 1929}} \approx 3.05 \times 10^5
+\tag{1}
+$$
+
+**Equation 2, Foreign-Born Share of the Population, 1920 to 1940.**
+The census share of the population born abroad fell at each count from 1920 to 1940 as restriction took hold.
+[Ngai 2004][book_ngai_2004]
+[King 2000][book_king_2000]
+[Fitzgerald and Cook-Martin 2014][book_fitzgerald_cook_martin_2014]
+
+$$
+f_{\text{foreign-born, US population}}\bigg|_{1920} \approx 0.132, \quad f_{\text{foreign-born, US population}}\bigg|_{1930} \approx 0.117, \quad f_{\text{foreign-born, US population}}\bigg|_{1940} \approx 0.089
+\tag{2}
+$$
+
+**Equation 3, Removals in the Mexican Repatriation and the Citizen Share.**
+The total of deportations and coerced departures from 1929 to 1936, and the share of those removed who were citizens born in the United States, follow the modern reconstruction of Balderrama and Rodriguez.
+[Balderrama and Rodriguez 2006][book_balderrama_rodriguez_2006]
+[Hoffman 1974][book_hoffman_1974]
+
+$$
+N_{\text{Mexican Repatriation removals, 1929 to 1936}} \approx 1 \times 10^6, \quad f_{\text{US-born citizens among removed}} \approx 0.60
+\tag{3}
+$$
+
+**Equation 4, Mexican Catholic Parishes, 1929 and 1940.**
+Counts of Mexican Catholic parishes in the United States before and after the Repatriation are taken from the Official Catholic Directory.
+
+$$
+N_{\text{Mexican Catholic parishes, US, 1929}} \approx 220, \quad N_{\text{Mexican Catholic parishes, US, 1940}} \approx 165
+\tag{4}
+$$
+
+**Equation 5, Protestant Denominational Contributions, 1928 and 1934.**
+Aggregate nominal giving to Protestant denominations before the crash and at the depth of the Depression is taken from the denominational reports of the Federal Council of Churches.
+
+$$
+C_{\text{aggregated Protestant denominational contributions, US}}(1928) \approx 4.4 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{same, US}}(1934) \approx 1.6 \times 10^8 \text{ US dollars nominal}
+\tag{5}
+$$
+
+**Equation 6, National Unemployment Rate, 1929 to 1940.**
+The unemployment rate of the United States rose from about three per cent in 1929 to a peak near a quarter in 1933 and remained high in 1940, as recorded by the Bureau of Labor Statistics.
+
+$$
+u_{\text{unemployment rate, US}}\bigg|_{1929} \approx 0.03, \quad u_{\text{peak}}\bigg|_{1933} \approx 0.25, \quad u\bigg|_{1940} \approx 0.15
+\tag{6}
+$$
+
+**Equation 7, Black and Mexican American Unemployment at the Depression Peak.**
+Unemployment rates for Black and Mexican American workers around 1933 are taken from Bureau of Labor Statistics data and historical reconstruction, the second stated only as a lower bound.
+
+$$
+u_{\text{Black unemployment rate, US peak c. 1933}} \approx 0.50, \quad u_{\text{Mexican American unemployment rate c. 1933}} \gtrsim 0.40
+\tag{7}
+$$
+
+**Equation 8, Democratic Vote Shares by Ethnoreligious Group, 1928 to 1936.**
+Shares of Catholic, Jewish, Northern African American and white Southern voters casting Democratic ballots before and after the New Deal realignment follow electoral reconstruction.
+[Sundquist 1983][book_sundquist_1983]
+[Andersen 1979][book_andersen_1979]
+[Milkis 1993][book_milkis_1993]
+
+$$
+\begin{aligned}
+f_{\text{Catholic Democratic vote}}(1928) &\approx 0.80, \quad f_{\text{Catholic Democratic vote}}(1936) \approx 0.80 \\
+f_{\text{Jewish Democratic vote}}(1928) &\approx 0.71, \quad f_{\text{Jewish Democratic vote}}(1936) \approx 0.90 \\
+f_{\text{African American Democratic vote (North)}}(1932) &\approx 0.23, \quad f_{\text{same}}(1936) \approx 0.71 \\
+f_{\text{white Southern Democratic vote}}(1932) &\approx 0.85, \quad f_{\text{same}}(1936) \approx 0.85
+\end{aligned}
+\tag{8}
+$$
+
+**Equation 9, Electoral College Results, 1932 and 1936.**
+The electoral votes won by Roosevelt and by his Republican opponents in 1932 and 1936 are the certified results.
+
+$$
+V_{\text{Roosevelt, 1932 electoral}} = 472, \quad V_{\text{Hoover, 1932 electoral}} = 59, \quad V_{\text{Roosevelt, 1936 electoral}} = 523, \quad V_{\text{Landon, 1936 electoral}} = 8
+\tag{9}
+$$
+
+**Equation 10, Circulation of The Catholic Worker.**
+The peak circulation of the newspaper around 1938 and its contemporary circulation are taken from the institutional records of the movement.
+
+$$
+C_{\text{Catholic Worker circulation, peak c. 1938}} \approx 1.9 \times 10^5, \quad C_{\text{contemporary}} \approx 2.5 \times 10^4
+\tag{10}
+$$
+
+**Equation 11, Catholic Worker Houses of Hospitality.**
+Counts of Catholic Worker houses of hospitality in 1936, in 1941 and at present record the growth of the movement.
+
+$$
+N_{\text{Catholic Worker houses, US, 1936}} \approx 30, \quad N_{\text{Catholic Worker houses, US, 1941}} \approx 32, \quad N_{\text{Catholic Worker houses, contemporary}} \approx 200
+\tag{11}
+$$
+
+**Equation 12, Enrolment at Union Theological Seminary, 1930 to 1960.**
+Student enrolment at Union Theological Seminary in 1930, in 1945 and at its peak around 1960 is taken from institutional records.
+
+$$
+N_{\text{Union Theological Seminary enrollment}}(1930) \approx 400, \quad N_{\text{same}}(1945) \approx 550, \quad N_{\text{same, peak c. 1960}} \approx 750
+\tag{12}
+$$
+
+**Equation 13, Circulation of Christianity and Crisis and Printings of Niebuhr.**
+The peak circulation of the magazine around 1955 and a lower bound on cumulative printed copies of The Nature and Destiny of Man are taken from institutional records.
+[Christianity and Crisis 1941][ref_christianity_and_crisis_1941]
+
+$$
+C_{\text{Christianity and Crisis circulation, peak c. 1955}} \approx 1.2 \times 10^4, \quad N_{\text{editions Nature and Destiny of Man printed cumulative through 2001}} \gtrsim 3 \times 10^5
+\tag{13}
+$$
+
+**Equation 14, Nation of Islam Temples and Membership, 1934 to 1975.**
+Counts of Nation of Islam temples at three dates and the peak membership around 1970 record the growth of the movement from its Detroit foundation.
+[Clegg 1997][book_clegg_1997]
+
+$$
+N_{\text{Nation of Islam temples, US}}(1934) \approx 3, \quad N_{\text{NoI temples, US}}(1960) \approx 50, \quad N_{\text{NoI temples, US}}(1975) \approx 76, \quad P_{\text{NoI membership, US, peak c. 1970}} \approx 5 \times 10^4
+\tag{14}
+$$
+
+**Equation 15, Nation of Islam Business Assets and Landholding.**
+The aggregate nominal business assets and agricultural acreage of the Nation of Islam at their peak around 1974 are taken from institutional records.
+
+$$
+C_{\text{NoI aggregated business assets, peak c. 1974}} \approx 4.5 \times 10^7 \text{ US dollars nominal}, \quad A_{\text{NoI agricultural landholding, peak c. 1974}} \approx 6 \times 10^3 \text{ acres}
+\tag{15}
+$$
+
+**Equation 16, Peak Radio Audience of Father Coughlin.**
+The estimated weekly listenership of Coughlin's broadcasts at their height in 1934 and 1935 is a figure reported in the historical literature.
+[Brinkley 1982][book_brinkley_1982]
+[Warren 1996][book_warren_1996]
+
+$$
+L_{\text{Coughlin radio audience, peak c. 1934 to 1935}} \approx 3 \times 10^7
+\tag{16}
+$$
+
+**Equation 17, Reach of the Coughlin Organisations.**
+The peak circulation of Social Justice, the claimed membership of the National Union for Social Justice and the number of stations carrying Coughlin are taken from institutional records and historical reconstruction.
+[Social Justice Magazine][ref_social_justice_magazine]
+[Brinkley 1982][book_brinkley_1982]
+
+$$
+C_{\text{Social Justice weekly circulation, peak c. 1938}} \approx 1 \times 10^6, \quad P_{\text{National Union for Social Justice membership, peak c. 1936}} \approx 8.5 \times 10^6, \quad N_{\text{radio stations carrying Coughlin, peak c. 1935}} \approx 30
+\tag{17}
+$$
+
+**Equation 18, Distribution of Mit Brennender Sorge.**
+Lower bounds on the copies of the 1937 encyclical distributed in Germany and on the parishes that read it on Palm Sunday follow historical reconstruction.
+[Mit Brennender Sorge 1937][ref_mit_brennender_sorge_1937]
+
+$$
+N_{\text{Mit Brennender Sorge copies smuggled into Nazi Germany}} \gtrsim 3 \times 10^5, \quad N_{\text{parish Palm Sunday 1937 readings}} \gtrsim 1.15 \times 10^4
+\tag{18}
+$$
+
+**Equation 19, Vote on the Columbus Platform, 1937.**
+The votes in favour, against and abstaining when the Central Conference of American Rabbis adopted the Columbus Platform are taken from institutional records.
+[Columbus Platform 1937][ref_columbus_platform_1937]
+
+$$
+V_{\text{Columbus Platform, Central Conference vote 1937}} = 81 \text{ favor}, \quad V_{\text{opposition}} = 25, \quad V_{\text{abstain}} = 6
+\tag{19}
+$$
+
+**Equation 20, Membership of the Zionist Organization of America, 1933 and 1948.**
+Membership of the Zionist Organization of America before and after the Holocaust is taken from institutional records.
+
+$$
+P_{\text{Zionist Organization of America membership}}(1933) \approx 8 \times 10^3, \quad P_{\text{ZOA membership}}(1948) \approx 2.5 \times 10^5
+\tag{20}
+$$
+
+**Equation 21, Tribal Votes on the Indian Reorganization Act.**
+The number of tribes that voted on the Indian Reorganization Act from 1934 to 1936, the number that adopted constitutions under it and the ratio of the two are taken from Bureau of Indian Affairs records.
+[Bureau of Indian Affairs Annual Reports 1933-1945][ref_bia_reports_1933_1945]
+
+$$
+N_{\text{tribes voting on IRA adoption, 1934 to 1936}} \approx 258, \quad N_{\text{tribes adopting IRA constitutions}} \approx 174, \quad f_{\text{tribes adopting IRA constitutions}} \approx 0.67
+\tag{21}
+$$
+
+**Equation 22, Native Landholding, 1934 and 1953.**
+Total acreage held by Native nations at the passage of the Indian Reorganization Act and two decades later records the end of the allotment-era decline.
+
+$$
+A_{\text{Native landholding, US}}(1934) \approx 4.8 \times 10^7 \text{ acres}, \quad A_{\text{Native landholding, US}}(1953) \approx 5.6 \times 10^7 \text{ acres}
+\tag{22}
+$$
+
+**Equation 23, Jewish Emigration from Germany and Austria, 1933 to 1939.**
+Counts of Jews who emigrated from Germany after 1933 and from Austria after the 1938 annexation are standard historical figures.
+
+$$
+N_{\text{Jewish emigrants from Germany, 1933 to 1939}} \approx 3 \times 10^5, \quad N_{\text{Jewish emigrants from Austria, 1938 to 1939}} \approx 1.3 \times 10^5
+\tag{23}
+$$
+
+**Equation 24, Jewish Refugee Admissions to the United States, 1933 to 1945.**
+The cumulative number of Jewish refugees admitted and their share of all refugee admissions follow Immigration Bureau data and historical reconstruction.
+[Wyman 1985][book_wyman_1985]
+[Feingold 1970][book_feingold_1970]
+[Breitman and Kraut 1987][book_breitman_kraut_1987]
+
+$$
+N_{\text{Jewish refugee admissions, US, 1933 to 1945}} \approx 1.5 \times 10^5, \quad f_{\text{Jewish share of total refugee admissions, US}}\bigg|_{1933 \text{ to } 1945} \approx 0.55
+\tag{24}
+$$
+
+**Equation 25, Jewish Refugee Admissions by Country of Origin.**
+Admissions from Germany, Austria, Poland and Czechoslovakia over the refugee period follow the reconstruction of Immigration Service data.
+
+$$
+\begin{aligned}
+N_{\text{admissions from Germany, 1933 to 1945}} &\approx 1.05 \times 10^5 \\
+N_{\text{admissions from Austria, 1938 to 1945}} &\approx 2.9 \times 10^4 \\
+N_{\text{admissions from Poland, 1933 to 1945}} &\approx 6 \times 10^3 \\
+N_{\text{admissions from Czechoslovakia, 1938 to 1945}} &\approx 5 \times 10^3
+\end{aligned}
+\tag{25}
+$$
+
+**Equation 26, Academic Refugees Placed in American Universities.**
+The number of displaced scholars placed in positions in the United States by the Emergency Committee in Aid of Displaced German Scholars is taken from institutional records.
+[Fermi 1968][book_fermi_1968]
+
+$$
+N_{\text{academic refugees placed, US, 1933 to 1945}} \approx 300
+\tag{26}
+$$
+
+**Equation 27, Countries Raising Refugee Commitments at Evian.**
+Only the Dominican Republic made a substantial new commitment to admit refugees at the 1938 Evian Conference.
+[Evian Conference 1938][ref_evian_conference_1938]
+[Wells 2008][book_wells_2008]
+
+$$
+N_{\text{countries increasing refugee admission commitments, Evian Conference 1938}} = 1 \text{ (Dominican Republic)}
+\tag{27}
+$$
+
+**Equation 28, Destruction and Arrests in Kristallnacht.**
+Counts of synagogues destroyed, Jewish businesses damaged and Jews sent to concentration camps in the pogrom of November 1938 follow historical reconstruction.
+
+$$
+N_{\text{synagogues destroyed, Kristallnacht}} \approx 267, \quad N_{\text{Jewish-owned businesses damaged}} \approx 7000, \quad N_{\text{Jews arrested and sent to concentration camps}} \approx 3 \times 10^4
+\tag{28}
+$$
+
+**Equation 29, American Opinion on Kristallnacht and Refugee Admission.**
+The share of Americans disapproving of the pogrom in the Gallup poll of November 1938 and an upper bound on the share favouring more Jewish refugee admissions in polls of 1938 and 1939 are survey results.
+
+$$
+f_{\text{Americans disapproving Kristallnacht per November 1938 Gallup poll}} \approx 0.94, \quad f_{\text{Americans supporting increased Jewish refugee admission per 1938-1939 polling}} \lesssim 0.25
+\tag{29}
+$$
+
+**Equation 30, German American Bund Membership and Organisation.**
+The peak membership of the Bund around 1938 and the numbers of its local units and youth camps are taken from institutional records.
+[Bell 1973][book_bell_1973]
+[Diamond 1969][book_diamond_1969]
+
+$$
+P_{\text{German American Bund membership, peak c. 1938}} \approx 2.5 \times 10^4, \quad N_{\text{Bund local units}} \approx 70, \quad N_{\text{Bund youth camps}} \approx 20
+\tag{30}
+$$
+
+**Equation 31, Attendance at the Madison Square Garden Rally, 1939.**
+The attendance at the Bund rally of 20 February 1939 is a contemporary reported figure.
+[Bell 1973][book_bell_1973]
+[Diamond 1969][book_diamond_1969]
+
+$$
+N_{\text{Bund Madison Square Garden rally attendance, 20 February 1939}} \approx 2 \times 10^4
+\tag{31}
+$$
+
+**Equation 32, Peak Membership of the Silver Legion.**
+The membership of Pelley's Silver Legion at its height around 1934 is a reported historical figure.
+
+$$
+P_{\text{Silver Legion membership, peak c. 1934}} \approx 1.5 \times 10^4
+\tag{32}
+$$
+
+**Equation 33, America First Committee Membership and Chapters.**
+The peak membership and number of chapters of the America First Committee in 1941 are taken from institutional records.
+[Cole 1974][book_cole_1974]
+[Doenecke 2000][book_doenecke_2000]
+
+$$
+P_{\text{America First Committee membership, peak c. 1941}} \approx 8 \times 10^5, \quad N_{\text{America First chapters}} \approx 450
+\tag{33}
+$$
+
+**Equation 34, American Military Service and Casualties in the Second World War.**
+Cumulative service, deaths and wounded among American forces in the Second World War are taken from War Department records.
+
+$$
+N_{\text{US military personnel WWII, cumulative}} \approx 1.6 \times 10^7, \quad N_{\text{US military dead, WWII}} \approx 4.05 \times 10^5, \quad N_{\text{US military wounded, WWII}} \approx 6.7 \times 10^5
+\tag{34}
+$$
+
+**Equation 35, Military Chaplains in the Second World War by Faith.**
+The cumulative number of chaplains and the Protestant, Catholic and Jewish shares among them are taken from War Department records.
+
+$$
+N_{\text{US military chaplains, cumulative, WWII}} \approx 1.2 \times 10^4, \quad f_{\text{Protestant among WWII chaplains}} \approx 0.65, \quad f_{\text{Catholic among WWII chaplains}} \approx 0.30, \quad f_{\text{Jewish among WWII chaplains}} \approx 0.03
+\tag{35}
+$$
+
+**Equation 36, Founding Organisations of the United Service Organizations.**
+The United Service Organizations was formed in 1941 from six named welfare bodies, most of them religious.
+[Roosevelt Letter to USO Founders 1941][ref_roosevelt_uso_letter_1941]
+
+$$
+N_{\text{USO founding organizations}} = 6:\quad \text{YMCA, YWCA, National Catholic Community Service, Jewish Welfare Board, Salvation Army, National Travelers Aid Association}
+\tag{36}
+$$
+
+**Equation 37, Scale of United Service Organizations Operations.**
+The peak number of clubs, the cumulative volunteers and the cumulative service member visits during the war are taken from institutional records.
+
+$$
+N_{\text{USO clubs and centers, US, peak c. 1944}} \approx 3 \times 10^3, \quad N_{\text{USO volunteers, cumulative WWII}} \approx 1.5 \times 10^6, \quad N_{\text{service member visits, USO clubs, cumulative WWII}} \approx 1 \times 10^9
+\tag{37}
+$$
+
+*Equation 38, Bespoke Constant-Dollar Value of Wartime Service Fundraising.*
+The recorded nominal fundraising of 1941 to 1946 is restated in 2020 dollars with a price conversion whose index and base year the article does not state.
+
+$$
+C_{\text{USO cumulative fundraising, WWII 1941 to 1946}} \approx 3.3 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{equivalent 2020 US dollars}} \approx 5 \times 10^9
+\tag{38}
+$$
+
+**Equation 39, Faith Shares Among Service Organisation Volunteers.**
+The Protestant, Catholic and Jewish shares of wartime volunteers are reported in the institutional history of the organisation.
+[Coffey 1991][book_coffey_1991]
+
+$$
+f_{\text{Protestant among USO volunteers}} \approx 0.55, \quad f_{\text{Catholic among USO volunteers}} \approx 0.28, \quad f_{\text{Jewish among USO volunteers}} \approx 0.06
+\tag{39}
+$$
+
+**Equation 40, Civilian Public Service Participants by Denomination.**
+The number of conscientious objectors in Civilian Public Service and the shares from the historic peace churches are standard figures.
+[Sibley and Jacob 1952][book_sibley_jacob_1952]
+
+$$
+N_{\text{Civilian Public Service participants, WWII}} \approx 1.2 \times 10^4, \quad f_{\text{historic peace church participants}} \approx 0.60, \quad f_{\text{Mennonite among CPS participants}} \approx 0.40, \quad f_{\text{Brethren}} \approx 0.10, \quad f_{\text{Quaker}} \approx 0.10
+\tag{40}
+$$
+
+**Equation 41, Work Performed in Civilian Public Service.**
+The cumulative work-days of Civilian Public Service and their value at the prevailing wages of 1946 are taken from institutional records.
+
+$$
+T_{\text{cumulative CPS work-days, WWII}} \approx 8 \times 10^6, \quad C_{\text{estimated CPS work value at prevailing wages 1946}} \approx 3 \times 10^7 \text{ US dollars nominal}
+\tag{41}
+$$
+
+**Equation 42, Vote in Minersville School District v. Gobitis.**
+The Supreme Court upheld compulsory flag salute in 1940 by eight votes to one, with Justice Stone dissenting.
+[Minersville v. Gobitis 1940][ref_minersville_v_gobitis_1940]
+
+$$
+V_{\text{Gobitis majority}} = 8, \quad V_{\text{Gobitis dissent (Stone)}} = 1
+\tag{42}
+$$
+
+**Equation 43, Violence and Prosecutions Against Jehovah's Witnesses, 1940 to 1943.**
+Counts of violent incidents, attacked Kingdom Halls and prosecutions of Witness children after Gobitis are taken from American Civil Liberties Union records.
+
+$$
+N_{\text{documented anti-Jehovah's Witness violence incidents, 1940 to 1943}} \approx 2.5 \times 10^3, \quad N_{\text{Kingdom Halls attacked or destroyed}} \approx 100, \quad N_{\text{state and local flag-salute prosecutions of JW children}} \gtrsim 2 \times 10^3
+\tag{43}
+$$
+
+**Equation 44, Vote in West Virginia State Board of Education v. Barnette.**
+The Supreme Court overturned Gobitis in 1943 by six votes to three, about three years after the earlier decision.
+[West Virginia v. Barnette 1943][ref_west_virginia_v_barnette_1943]
+
+$$
+V_{\text{Barnette majority}} = 6, \quad V_{\text{Barnette dissent}} = 3, \quad \Delta t_{\text{Gobitis to Barnette}} \approx 3 \text{ years}
+\tag{44}
+$$
+
+**Equation 45, Active Jehovah's Witness Publishers, 1940 to 1960.**
+Counts of active publishers in the United States at three dates are taken from Watch Tower Society records.
+
+$$
+P_{\text{JW publishers (active members), US}}(1940) \approx 6.5 \times 10^4, \quad P_{\text{JW publishers, US}}(1945) \approx 1.1 \times 10^5, \quad P_{\text{JW publishers, US}}(1960) \approx 2.7 \times 10^5
+\tag{45}
+$$
+
+**Equation 46, Scale of Japanese American Internment.**
+The number of Japanese Americans interned, the share of them who were citizens born in the United States and the number of War Relocation Authority camps are standard figures.
+[Daniels 1993][book_daniels_1993]
+[Weglyn 1976][book_weglyn_1976]
+
+$$
+N_{\text{Japanese Americans interned, 1942 to 1945}} \approx 1.2 \times 10^5, \quad f_{\text{US-born citizens among internees}} \approx 0.62, \quad N_{\text{internment camps operated by War Relocation Authority}} = 10
+\tag{46}
+$$
+
+**Equation 47, Peak Populations of Five Internment Camps.**
+Peak populations of Poston, Tule Lake, Gila River, Heart Mountain and Manzanar are taken from War Relocation Authority records.
+
+$$
+\begin{aligned}
+P_{\text{Poston, peak}} &\approx 1.79 \times 10^4 \\
+P_{\text{Tule Lake, peak (after segregation)}} &\approx 1.87 \times 10^4 \\
+P_{\text{Gila River, peak}} &\approx 1.31 \times 10^4 \\
+P_{\text{Heart Mountain, peak}} &\approx 1.08 \times 10^4 \\
+P_{\text{Manzanar, peak}} &\approx 1.05 \times 10^4
+\end{aligned}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Constant-Dollar Value of Internment Property Losses.*
+The estimated nominal property loss of 1942 follows the claims process and the Commission on Wartime Relocation and Internment of Civilians, and its restatement in 2020 dollars uses a price conversion the article does not state.
+[CWRIC 1982][ref_cwric_1982]
+
+$$
+C_{\text{Japanese American property losses, internment estimate}} \approx 4 \times 10^8 \text{ US dollars nominal 1942}, \quad C_{\text{equivalent 2020 US dollars}} \approx 8 \times 10^9
+\tag{48}
+$$
+
+**Equation 49, Aggregate Redress Under the Civil Liberties Act of 1988.**
+Payments of twenty thousand dollars to about eighty-two thousand surviving internees total about one and six tenths billion nominal dollars.
+[Civil Liberties Act 1988][ref_civil_liberties_act_1988]
+
+$$
+C_{\text{Civil Liberties Act 1988 aggregate redress}} \approx 1.6 \times 10^9 \text{ US dollars nominal}
+\tag{49}
+$$
+
+**Equation 50, Wartime Closure of Buddhist Temples and Internment of Members.**
+Lower bounds on the Buddhist temples closed and on the share of Buddhist Churches of America members interned are taken from denominational records.
+[Kashima 1977][book_kashima_1977]
+
+$$
+N_{\text{Buddhist temples closed by wartime action}} \gtrsim 40, \quad f_{\text{BCA membership interned}} \gtrsim 0.60
+\tag{50}
+$$
+
+**Equation 51, Shinto Shrines on the Mainland and in Hawaii, 1940.**
+The number of Shinto shrines before the war, of order ten on the mainland and about forty in Hawaii, follows denominational and territorial records.
+
+$$
+N_{\text{Shinto shrines, US mainland, 1940}} \sim 10, \quad N_{\text{Shinto shrines, Hawaii, 1940}} \approx 40
+\tag{51}
+$$
+
+**Equation 52, Service and Unit Honours of the 100th Battalion and 442nd Regiment.**
+The cumulative strength, Presidential Unit Citations and Medals of Honor of the Japanese American combat units are recorded military figures.
+
+$$
+N_{\text{100/442 Regimental Combat Team members, cumulative}} \approx 1.4 \times 10^4, \quad N_{\text{Presidential Unit Citations, 100/442}} = 8, \quad N_{\text{Medal of Honor awards}} = 21
+\tag{52}
+$$
+
+**Equation 53, Casualties and Decorations of the 100th Battalion and 442nd Regiment.**
+Counts of killed, wounded and individual decorations of the Japanese American combat units are taken from Department of Defense records.
+[Duus 2005][book_duus_2005]
+[Sterner 2007][book_sterner_2007]
+[Asahina 2006][book_asahina_2006]
+
+$$
+N_{\text{100/442 killed in action}} \approx 700, \quad N_{\text{100/442 wounded}} \approx 9500, \quad N_{\text{Distinguished Service Crosses awarded}} = 52, \quad N_{\text{Silver Stars}} = 560, \quad N_{\text{Purple Hearts}} \approx 9500
+\tag{53}
+$$
+
+**Equation 54, Filipino Military Service and Deaths in the Second World War.**
+Cumulative Filipino service under American command and Filipino military deaths follow historical reconstruction.
+
+$$
+N_{\text{Filipino military service, WWII, cumulative}} \approx 2.6 \times 10^5, \quad N_{\text{Filipino military dead, WWII}} \approx 5.7 \times 10^4
+\tag{54}
+$$
+
+**Equation 55, Filipino Veterans Equity Compensation Fund, 2009.**
+The total appropriation, the one-time payments to citizen and non-citizen veterans and the number of surviving claimants are statutory and institutional figures.
+
+$$
+C_{\text{Filipino Veterans Equity Compensation Fund 2009}} \approx 1.98 \times 10^8 \text{ US dollars nominal}, \quad C_{\text{per surviving veteran, US citizens}} = 1.5 \times 10^4 \text{ USD}, \quad C_{\text{per surviving veteran, non-US citizens}} = 9 \times 10^3 \text{ USD}, \quad N_{\text{surviving Filipino WWII veterans, 2009}} \approx 1.8 \times 10^4
+\tag{55}
+$$
+
+**Equation 56, Catholic Share Among Filipino Service Members.**
+The Catholic share of Filipino service members in the Second World War reflects the Catholic majority of the Philippine population.
+
+$$
+f_{\text{Catholic among Filipino WWII service members}} \approx 0.85
+\tag{56}
+$$
+
+**Equation 57, Native American Military Service in the Second World War.**
+The number of Native Americans who served and the share of Native adult men in uniform are taken from War Department and Bureau of Indian Affairs records.
+[Bernstein 1991][book_bernstein_1991]
+[Townsend 2000][book_townsend_2000]
+
+$$
+N_{\text{Native American military service, WWII}} \approx 4.4 \times 10^4, \quad f_{\text{Native adult male military service, WWII}} \approx 0.25
+\tag{57}
+$$
+
+**Equation 58, Code Talkers by Nation.**
+Counts of Navajo, Comanche, Choctaw and Meskwaki code talkers follow Department of Defense historical reconstruction.
+[Meadows 2002][book_meadows_2002]
+[Aaseng 1992][book_aaseng_1992]
+
+$$
+N_{\text{Navajo Code Talkers, cumulative}} \approx 400, \quad N_{\text{Comanche Code Talkers}} = 14, \quad N_{\text{Choctaw Code Talkers, WWII (WWI use also documented)}} = 19, \quad N_{\text{Meskwaki Code Talkers}} = 8
+\tag{58}
+$$
+
+**Equation 59, Native American Military Deaths and Relative Death Rate.**
+Native American military deaths and the ratio of the Native per capita military death rate to the general rate are taken from Bureau of Indian Affairs and War Department records.
+
+$$
+N_{\text{Native American military dead, WWII}} \approx 550, \quad r_{\text{Native military death rate per capita}} / r_{\text{general US military death rate}} \approx 1.6
+\tag{59}
+$$
+
+**Equation 60, Chinese American Military Service in the Second World War.**
+The number of Chinese Americans who served and the share of Chinese American adult men in uniform are taken from War Department records.
+[Wong 2005][book_wong_2005]
+[Chen 2015][book_chen_2015]
+
+$$
+N_{\text{Chinese American military service, WWII}} \approx 2 \times 10^4, \quad f_{\text{Chinese American adult male military service}} \approx 0.20
+\tag{60}
+$$
+
+**Equation 61, Chinese Immigration Quota Under the Magnuson Act.**
+The Magnuson Act set an annual Chinese quota of one hundred and five against zero under exclusion, far below the per-country ceiling that followed the 1965 Act.
+[Magnuson Act 1943][ref_magnuson_act_1943]
+
+$$
+Q_{\text{Chinese quota, Magnuson Act 1943}} = 105, \quad Q_{\text{compared to pre-1943 Chinese quota}} = 0, \quad Q_{\text{compared to 1965 Hart-Celler quota after expansion}} \approx 2 \times 10^4
+\tag{61}
+$$
+
+**Equation 62, Chinese American Population, 1940 to 1960.**
+The census Chinese American population at three counts records the postwar growth after repeal of exclusion.
+
+$$
+P_{\text{Chinese American, US}}(1940) \approx 7.7 \times 10^4, \quad P_{\text{Chinese American, US}}(1950) \approx 1.18 \times 10^5, \quad P_{\text{Chinese American, US}}(1960) \approx 2.4 \times 10^5
+\tag{62}
+$$
+
+**Equation 63, Bracero Contracts and Workers, 1942 to 1964.**
+Cumulative contracts, the estimated number of distinct workers and the peak annual contracts of the Bracero Program are standard figures.
+
+$$
+N_{\text{Bracero contracts, cumulative 1942 to 1964}} \approx 4.6 \times 10^6, \quad N_{\text{unique Bracero workers, estimated}} \approx 2 \times 10^6, \quad N_{\text{Bracero contracts annually, peak c. 1956 to 1959}} \approx 4.5 \times 10^5
+\tag{63}
+$$
+
+**Equation 64, Distribution of Bracero Labour by State.**
+The shares of Bracero labour employed in California, Texas and Arizona with New Mexico are reported figures, with the remainder spread over other states.
+
+$$
+f_{\text{Bracero labor, California}} \approx 0.55, \quad f_{\text{Bracero labor, Texas}} \approx 0.20, \quad f_{\text{Bracero labor, Arizona and New Mexico}} \approx 0.10
+\tag{64}
+$$
+
+**Equation 65, Bracero Minimum Hourly Wage, 1942 and 1964.**
+The minimum hourly wage specified for Bracero workers at the start and end of the programme follows the bilateral agreement between the United States and Mexico.
+
+$$
+W_{\text{Bracero minimum wage per hour, 1942}} \approx 0.30 \text{ USD}, \quad W_{\text{Bracero minimum wage per hour, 1964}} \approx 1.00 \text{ USD}
+\tag{65}
+$$
+
+**Equation 66, Sephardic Share of Jewish Refugee Admissions.**
+The cumulative Jewish refugee admissions and those from Sephardic source populations are taken from Immigration Service and Jewish Immigration Aid Society records.
+[Ben-Ur 2009][book_ben_ur_2009]
+[Weissbach 2005][book_weissbach_2005]
+
+$$
+N_{\text{Jewish refugee admissions, US, 1933 to 1945, cumulative}} \approx 1.5 \times 10^5, \quad N_{\text{admissions from Sephardic source populations}} \approx 1.5 \times 10^4
+\tag{66}
+$$
+
+**Equation 67, Wallenberg Rescues and War Refugee Board Funding.**
+The rescues attributed to Wallenberg in Budapest in 1944 and the nominal funds the War Refugee Board allocated to his work are taken from institutional records.
+[War Refugee Board 1944][ref_war_refugee_board_1944]
+
+$$
+N_{\text{Wallenberg documented rescues, Budapest 1944}} \approx 1 \times 10^5, \quad C_{\text{War Refugee Board Wallenberg fund allocation}} \approx 1 \times 10^5 \text{ US dollars nominal}
+\tag{67}
+$$
+
+**Equation 68, Admissions to the Fort Ontario Emergency Refugee Shelter.**
+The shelter at Oswego admitted nine hundred and eighty-two refugees from eighteen countries in August 1944, most of them Jewish.
+[Erbelding 2018][book_erbelding_2018]
+
+$$
+N_{\text{Fort Ontario Emergency Refugee Shelter admissions, August 1944}} = 982, \quad f_{\text{Jewish among Fort Ontario refugees}} \approx 0.90, \quad N_{\text{countries of origin}} = 18
+\tag{68}
+$$
+
+**Equation 69, Rescue Expenditure of the Joint Distribution Committee, 1938 to 1945.**
+Cumulative nominal rescue and refugee spending by the American Jewish Joint Distribution Committee is taken from institutional records.
+
+$$
+C_{\text{JDC cumulative rescue and refugee expenditure, 1938 to 1945}} \approx 8 \times 10^7 \text{ US dollars nominal}
+\tag{69}
+$$
+
+**Equation 70, Aggregate American Jewish Rescue Funds, 1942 to 1945.**
+Total nominal rescue funds raised by American Jewish organisations after the Riegner disclosure are taken from institutional records.
+
+$$
+C_{\text{aggregate American Jewish rescue funds, 1942 to 1945}} \approx 1.5 \times 10^8 \text{ US dollars nominal}
+\tag{70}
+$$
+
+**Equation 71, Affiliation to the National Association of Evangelicals.**
+Counts of affiliated denominations and their aggregate membership at founding, in 1970 and at present are taken from institutional records.
+[Carpenter 1997][book_carpenter_1997]
+
+$$
+P_{\text{NAE affiliated denominations}}(1942) \approx 30, \quad P_{\text{NAE affiliated denominations}}(1970) \approx 32, \quad P_{\text{NAE aggregated affiliated membership}}(1970) \approx 3 \times 10^6, \quad P_{\text{NAE aggregated affiliated membership, contemporary}} \approx 4 \times 10^7
+\tag{71}
+$$
+
+**Equation 72, Protestant Support for the United Nations, 1944 and 1945.**
+Shares of clergy and laity in Federal Council of Churches bodies supporting the formation of the United Nations come from institutional polling.
+
+$$
+f_{\text{FCC-affiliated clergy supporting UN formation, per 1944 poll}} \approx 0.92, \quad f_{\text{FCC-affiliated laity supporting UN, 1945}} \approx 0.75
+\tag{72}
+$$
+
+**Equation 73, Buddhist Affiliation at Manzanar.**
+The number of Buddhists at Manzanar and their share of the internee population are taken from the denominational census of the War Relocation Authority.
+[Williams 2019][book_williams_2019]
+
+$$
+P_{\text{Manzanar Buddhist affiliation}} \approx 5 \times 10^3, \quad f_{\text{Manzanar Buddhist among total internee population}} \approx 0.50
+\tag{73}
+$$
+
+**Equation 74, Temples and Membership of the Buddhist Churches of America.**
+Counts of temples in 1945, in 1960 and at present, with the contemporary membership, are taken from institutional records.
+
+$$
+N_{\text{BCA temples, US}}(1945) \approx 20, \quad N_{\text{BCA temples, US}}(1960) \approx 60, \quad N_{\text{BCA temples, US, contemporary}} \approx 60, \quad P_{\text{BCA membership, US, contemporary}} \approx 1.5 \times 10^4
+\tag{74}
+$$
+
+**Equation 75, Wartime Imprisonment of Nation of Islam Members.**
+The number of members imprisoned for draft resistance and the years of Elijah Muhammad's imprisonment are taken from Federal Bureau of Investigation and Bureau of Prisons records.
+[Berg 2005][book_berg_2005_elijah]
+
+$$
+N_{\text{Nation of Islam members imprisoned for draft resistance, 1942 to 1946}} \approx 100, \quad t_{\text{Elijah Muhammad imprisonment, Milan Federal Correctional Institution}} \approx 1942 \text{ to } 1946
+\tag{75}
+$$
+
+**Equation 76, Higher Education Under the Servicemen's Readjustment Act.**
+The number of veterans who used the higher education benefits of the GI Bill, the Servicemen's Readjustment Act of 1944, and the cumulative nominal federal spending are taken from Veterans Administration records.
+[GI Bill 1944][ref_gi_bill_1944]
+[Bennett 1996][book_bennett_1996]
+[Frydl 2009][book_frydl_2009]
+
+$$
+N_{\text{veterans using GI Bill higher education benefits, cumulative 1944 to 1956}} \approx 7.8 \times 10^6, \quad C_{\text{GI Bill cumulative federal educational spending 1944 to 1956}} \approx 1.45 \times 10^{10} \text{ US dollars nominal}
+\tag{76}
+$$
+
+**Equation 77, Enrolment at Religious Colleges and Universities, 1940 and 1960.**
+Enrolment at religiously affiliated institutions of higher education is taken from records of the Office of Education.
+
+$$
+P_{\text{religious-affiliated US higher education enrollment}}(1940) \approx 3 \times 10^5, \quad P_{\text{religious-affiliated US higher education enrollment}}(1960) \approx 1 \times 10^6
+\tag{77}
+$$
+
+**Equation 78, Suburban Congregations Founded, 1945 to 1960.**
+Counts of new suburban Protestant churches, Catholic parishes and synagogues in the fifteen postwar years are taken from denominational records.
+
+$$
+N_{\text{new Protestant churches built in US suburbs, 1945 to 1960}} \approx 3 \times 10^4, \quad N_{\text{new Catholic parishes established in US suburbs, 1945 to 1960}} \approx 5 \times 10^3, \quad N_{\text{new Jewish synagogues, US suburbs, 1945 to 1960}} \approx 1 \times 10^3
+\tag{78}
+$$
+
+**Equation 79, Casualties in the Race Riots of 1943.**
+Injured and dead in the Zoot Suit Riots and the Detroit and Harlem riots follow historical reconstruction.
+[Alvarez 2008][book_alvarez_2008]
+[Pagan 2003][book_pagan_2003]
+[Capeci and Wilkerson 1991][book_capeci_wilkerson_1991]
+
+$$
+\begin{aligned}
+\text{Zoot Suit Riots (Los Angeles)} &: \text{June 1943}, \quad N_{\text{Mexican American injured}} \gtrsim 500 \\
+\text{Detroit Race Riot} &: \text{June 1943}, \quad N_{\text{Black dead}} = 25, \quad N_{\text{white dead}} = 9 \\
+\text{Harlem Race Riot} &: \text{August 1943}, \quad N_{\text{Black dead}} = 6
+\end{aligned}
+\tag{79}
+$$
+
+**Equation 80, Threatened March on Washington and Executive Order 8802.**
+Randolph threatened a march of one hundred thousand people, and Executive Order 8802 followed about five months after his letter to Roosevelt.
+[Executive Order 8802 1941][ref_executive_order_8802_1941]
+[Pfeffer 1990][book_pfeffer_1990]
+
+$$
+N_{\text{threatened March on Washington participants, estimated}} \approx 1 \times 10^5, \quad \Delta t_{\text{threat to EO 8802 issuance}} \approx 5 \text{ months}
+\tag{80}
+$$
+
+**Equation 81, Complaints Handled by the Fair Employment Practice Committee.**
+The complaints filed with the Fair Employment Practice Committee from 1941 to 1946 and those resolved through mediation are taken from institutional records.
+
+$$
+N_{\text{FEPC complaints filed, 1941 to 1946}} \approx 8 \times 10^3, \quad N_{\text{complaints resolved through mediation}} \approx 5 \times 10^3
+\tag{81}
+$$
+
+**Equation 82, Chapters and Membership of the Congress of Racial Equality.**
+Counts of chapters of the Congress of Racial Equality at three dates and its peak membership around 1964 are taken from institutional records.
+[Meier and Rudwick 1975][book_meier_rudwick_1975]
+
+$$
+N_{\text{CORE chapters, US}}(1943) \approx 12, \quad N_{\text{CORE chapters, US}}(1960) \approx 30, \quad N_{\text{CORE chapters, US, peak c. 1964}} \approx 180, \quad P_{\text{CORE membership, peak c. 1964}} \approx 8 \times 10^4
+\tag{82}
+$$
+
+### Notation
+
+- $N$, a count of persons, institutions or events, identified by its subscript
+- $f$, a fraction or share between zero and one, identified by its subscript, with the year of evaluation given by the vertical bar
+- $P$, a membership, enrolment or population, identified by its subscript
+- $C$, a monetary amount in United States dollars, or the circulation of a publication, identified by its subscript
+- $V$, a count of votes, electoral or judicial
+- $u$, an unemployment rate as a fraction of the labour force
+- $L$, a radio audience in listeners
+- $A$, an area of landholding in acres
+- $T$, a cumulative count of work-days
+- $Q$, an annual immigration quota
+- $W$, a minimum hourly wage in nominal United States dollars
+- $r$, a military death rate per head of population
+- $t$, a span of years
+- $\Delta t$, an interval in years or months between two events
 
 ## References
 

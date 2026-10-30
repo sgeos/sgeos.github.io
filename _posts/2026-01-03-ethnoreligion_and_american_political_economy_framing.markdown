@@ -23,11 +23,17 @@ The mapping problem also permits several formalizations depending on the level o
 
 The general form of the causal-mapping problem can be stated compactly as follows. Let $O_t$ denote a vector of observable political-economic outcomes at time $t$, and let $E_t = (e_1^t, e_2^t, \ldots, e_n^t)$ denote the vector of ethnoreligious stream weights at time $t$. The mapping problem seeks the functional form
 
-$$O_t = F(E_t, I_t, X_t) + \varepsilon_t$$
+$$
+O_t = F(E_t, I_t, X_t) + \varepsilon_t
+\tag{1}
+$$
 
 where $I_t$ denotes the vector of prior-period institutional inheritances, $X_t$ denotes exogenous shocks (wars, epidemics, technological transitions, resource discoveries), and $\varepsilon_t$ denotes the unexplained residual. The isolated ethnoreligious contribution to $O_t$ can be characterized counterfactually as
 
-$$\Delta O_t^{\text{ER}} = F(E_t, I_t, X_t) - F(E_t^{\text{null}}, I_t, X_t)$$
+$$
+\Delta O_t^{\text{ER}} = F(E_t, I_t, X_t) - F(E_t^{\text{null}}, I_t, X_t)
+\tag{2}
+$$
 
 with $E_t^{\text{null}}$ denoting a counterfactual composition against which the actual composition is compared. The tractability of the mapping problem depends on the ability to identify the ethnoreligious contribution to $O_t$ separately from the institutional and exogenous contributions. The identification problem is substantial, and the series treats the identification strategy each historical episode allows.
 
@@ -63,7 +69,10 @@ The conventional starting date of 1607 (the founding of Jamestown) reflects the 
 
 The initial human settlement of the Americas occurred through migration from Northeast Asia across Beringia during the Late Pleistocene, with genetic and archaeological evidence documented in [Meltzer 2009][book_meltzer_2009] First Peoples in a New World and [Reich 2018][book_reich_2018] Who We Are and How We Got Here indicating
 
-$$t_{\text{initial settlement}} \gtrsim 1.5 \times 10^4 \text{ years before present}$$
+$$
+t_{\text{initial settlement}} \gtrsim 1.5 \times 10^4 \text{ years before present}
+\tag{3}
+$$
 
 with some sites (Monte Verde in Chile, Bluefish Caves in Yukon) suggesting earlier presence. The peoples who established the pre-Columbian civilizations of the continent are the descendants of this initial settlement plus subsequent Beringian migrations (including the Na-Dene expansion approximately five thousand years before present and the Inuit expansion approximately one thousand years before present).
 
@@ -83,11 +92,17 @@ The indigenous peoples of North America constitute the first pre-1607 substrate.
 
 The scale of the indigenous substrate is substantial and the estimates remain contested. Pre-Columbian population estimates for the area north of the Rio Grande range across roughly one order of magnitude,
 
-$$P_{\text{PreColumbian}}^{\text{NA}} \in [2, 18] \times 10^6$$
+$$
+P_{\text{PreColumbian}}^{\text{NA}} \in [2, 18] \times 10^6
+\tag{4}
+$$
 
 with the lower bound reflecting the figure long dominant in traditional historiography and the upper bound reflecting the estimates argued by [Denevan 1992][research_denevan_1992] and [Dobyns 1966][research_dobyns_1966] on the basis of epidemic mortality analysis. The [Thornton 1987][book_thornton_1987] American Indian Holocaust and Survival treatment presents the quantitative reconstruction that has become widely cited. The weight of evidence in current scholarship favors a middle-to-high estimate of approximately five to ten million for the area north of the Rio Grande in 1500. The subsequent post-contact demographic collapse followed approximately
 
-$$P^{\text{NA}}(1650) / P^{\text{NA}}(1500) \approx 0.10$$
+$$
+P^{\text{NA}}(1650) / P^{\text{NA}}(1500) \approx 0.10
+\tag{5}
+$$
 
 with introduced epidemic disease (smallpox, measles, influenza, typhus) accounting for the majority of the ninety percent decline across the sixteenth and seventeenth centuries. The [Crosby 1972][book_crosby_1972] The Columbian Exchange and [Crosby 1986][book_crosby_1986] Ecological Imperialism provide the quantitative and interpretive frameworks. Under either the low or high pre-Columbian estimate, the pre-Columbian indigenous population exceeded the European population that would replace and displace it during the colonial and early republican periods.
 
@@ -95,7 +110,10 @@ The linguistic and cultural diversity of the substrate is comparably substantial
 
 Political forms among the indigenous substrate varied by culture area and by people. The Haudenosaunee (Iroquois) Confederacy, formed at some date
 
-$$t_{\text{HaudFormation}} \in [1450, 1600] \text{ CE}$$
+$$
+t_{\text{HaudFormation}} \in [1450, 1600] \text{ CE}
+\tag{6}
+$$
 
 through the [Great Law of Peace][ref_iroquois_great_law] (Kaianere'kó:wa) attributed to Deganawidah and Hiawatha, provided a federal political form joining five (later six) nations through a system of clan-based representation, unanimous council decision, and clear separation of civil and military authority. The [Fenton 1998][book_fenton_1998] Great Law and the Longhouse provides the detailed scholarly treatment. The [Tooker 1978][research_tooker_1978] and [Snow 1994][book_snow_1994] The Iroquois works consolidate the ethnographic evidence. The Powhatan Confederacy in tidewater Virginia provided a paramount chiefdom form under Wahunsenacawh at contact, encompassing approximately thirty peoples in a hierarchical tributary system. The Muskogean Creek Confederacy in the Southeast provided a town-based federal form with matrilineal clan governance and a distinct war-peace town division. The Puebloan peoples of the Southwest provided a clan-and-kiva form of governance combining religious authority with civil administration. The Hawaiian ali'i hierarchy provided a stratified chieftainship with elaborate kapu (taboo) system regulating class relations. The Mississippian mound-building cultures had constituted the complex chiefdom form documented at Cahokia (peak approximately 1050-1200), Moundville, and Etowah before their substantial decline before European contact. The [Pauketat 2004][book_pauketat_2004] Ancient Cahokia provides the archaeological treatment.
 
@@ -115,17 +133,24 @@ The Native American Church, formed from earlier peyote ceremonial traditions and
 
 The peoples of West and Central Africa constitute the second pre-1607 substrate. The migration of these peoples to North America began in 1619 with the arrival of approximately twenty Africans in Jamestown, continued through the legal international slave trade to 1808, and continued through internal trade and smuggling for several additional decades. The [Voyages Slave Trade Database 2019][ref_voyages_database] documents the flows quantitatively. The total number of Africans transported directly to North America (Anglo colonies and later the United States) is approximately
 
-$$N_{\text{Africans}}^{\text{NA, direct}} \approx 3.88 \times 10^5 \text{ people}$$
+$$
+N_{\text{Africans}}^{\text{NA, direct}} \approx 3.88 \times 10^5 \text{ people}
+\tag{7}
+$$
 
 per the Voyages Database. Total Atlantic slave trade flows to all destinations across the roughly four centuries of the trade (approximately 1500 through 1866) were larger,
 
-$$N_{\text{Africans}}^{\text{Atlantic, all}} \approx (10 \text{ to } 12.5) \times 10^6 \text{ people}$$
+$$
+N_{\text{Africans}}^{\text{Atlantic, all}} \approx (10 \text{ to } 12.5) \times 10^6 \text{ people}
+\tag{8}
+$$
 
 with the majority transported to the Caribbean (approximately 4.7 million) and Brazil (approximately 4.9 million) rather than to North America. The comparably larger Caribbean and Brazilian flows shaped religious retention and syncretic development in ways that differ from the North American pattern (Santería in Cuba, Candomblé in Brazil, Vodou in Haiti, Orisha traditions in Trinidad reflecting stronger Yoruba concentration than in North America). The base scholarship on the Atlantic slave trade is [Curtin 1969][book_curtin_1969] The Atlantic Slave Trade, [Klein 1999][book_klein_1999] The Atlantic Slave Trade, and [Eltis and Richardson 2010][book_eltis_richardson_2010] Atlas of the Transatlantic Slave Trade.
 
 The source regions of the North American slave trade shaped the religious composition of the arriving African population. The [Gomez 1998][book_gomez_1998] Exchanging Our Country Marks provides the quantitative reconstruction of source-region contributions. The approximate distribution can be characterized as
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Biafra}} &\approx 0.25 \quad (\text{Igbo, Ibibio}) \\
 f_{\text{Central Africa}} &\approx 0.25 \quad (\text{Kongo, Angola}) \\
 f_{\text{Senegambia}} &\approx 0.20 \quad (\text{Mandinka, Fulani, Wolof}) \\
@@ -133,7 +158,9 @@ f_{\text{Gold Coast}} &\approx 0.13 \quad (\text{Akan}) \\
 f_{\text{Sierra Leone / Windward}} &\approx 0.10 \\
 f_{\text{Bight of Benin}} &\approx 0.05 \quad (\text{Yoruba, Fon}) \\
 f_{\text{Other}} &\approx 0.02
-\end{aligned}$$
+\end{aligned}
+\tag{9}
+$$
 
 with the Bight of Benin share smaller than in the Caribbean and Brazil, explaining the comparatively weaker North American retention of Yoruba orisha traditions. The regional composition differed by North American destination, with South Carolina and Georgia receiving substantial Windward Coast and Gold Coast arrivals producing the Gullah-Geechee community, Louisiana receiving substantial Senegambian and Bight of Benin arrivals producing the Louisiana Creole community, and Virginia and Maryland receiving substantial Bight of Biafra and Central African arrivals shaping the Chesapeake African American formation.
 
@@ -145,7 +172,10 @@ Estimates of the Muslim proportion of enslaved Africans transported to North Ame
 
 Written estimates of enslaved Muslim proportion in North America under the [Diouf 1998][book_diouf_1998] treatment place the range as
 
-$$f_{\text{Muslim,NA}} \in [0.15, 0.30]$$
+$$
+f_{\text{Muslim,NA}} \in [0.15, 0.30]
+\tag{10}
+$$
 
 with the higher range applying particularly to coastal regions receiving substantial Senegambian arrivals. The proportion diminished by the second and third generations under the conditions of separation from Islamic scholarly infrastructure, though documented Islamic practice continued into the nineteenth century.
 
@@ -163,7 +193,10 @@ The independent Black church tradition emerging from the eighteenth century forw
 
 The peoples of Reformation and post-Reformation Europe constitute the third pre-1607 substrate. The European Reformation, conventionally dated to Martin Luther's 1517 Ninety-Five Theses posted at Wittenberg and continuing through the 1648 Peace of Westphalia and beyond, spans the interval
 
-$$[t_{\text{Ref, start}}, t_{\text{Ref, end}}] = [1517, 1648] \text{ CE}$$
+$$
+[t_{\text{Ref, start}}, t_{\text{Ref, end}}] = [1517, 1648] \text{ CE}
+\tag{11}
+$$
 
 and produced the religious differentiation of European Christianity into Catholic, Lutheran, Reformed, Anabaptist, Anglican, and derivative traditions that would shape the religious composition of European migration to North America. The base scholarship on the Reformation is [MacCulloch 2003][book_macculloch_2003] The Reformation, [Ozment 1980][book_ozment_1980] The Age of Reform 1250-1550, [Chadwick 1964][book_chadwick_1964] The Reformation, [Cameron 2012][book_cameron_2012] The European Reformation, and [Pettegree 2005][book_pettegree_2005] Reformation and the Culture of Persuasion. For the specifically American religious formation shaped by Reformation streams, the foundational modern references are [Miller 1956][book_miller_1956] Errand into the Wilderness, [Smith 1957][book_smith_1957] Revivalism and Social Reform, [Mead 1963][book_mead_1963] The Lively Experiment, [Ahlstrom 1972][book_ahlstrom_1972] A Religious History of the American People, [Bercovitch 1975][book_bercovitch_1975] The Puritan Origins of the American Self, [Butler 1990][book_butler_1990] Awash in a Sea of Faith, [Hatch 1989][book_hatch_1989] The Democratization of American Christianity, [Noll 2002][book_noll_2002] America's God, and [Winship 2012][book_winship_2012] Godly Republicanism.
 
@@ -191,7 +224,10 @@ The Religious Society of Friends (Quakers), founded by George Fox in the 1650s, 
 
 The [Weber 1905][book_weber_1905] The Protestant Ethic and the Spirit of Capitalism proposed the causal thesis that Calvinist theology (particularly the doctrine of predestination combined with worldly vocation) produced the psychological and cultural conditions favorable to the development of modern capitalism. The thesis can be stated as a causal claim of the form
 
-$$\Pr(\text{capital accumulation} \mid \text{Calvinist theology}) > \Pr(\text{capital accumulation} \mid \neg \text{Calvinist theology})$$
+$$
+\Pr(\text{capital accumulation} \mid \text{Calvinist theology}) > \Pr(\text{capital accumulation} \mid \neg \text{Calvinist theology})
+\tag{12}
+$$
 
 conditional on comparable material and institutional conditions. The Weberian thesis has been contested by [Tawney 1926][book_tawney_1926] Religion and the Rise of Capitalism, [Samuelsson 1961][book_samuelsson_1961] Religion and Economic Action, and [Sombart 1913][book_sombart_1913] The Jews and Modern Capitalism (which proposed the alternative Jewish contribution to capitalism), and defended in modified forms by later scholars. Modern empirical work in economic history includes [Becker and Woessmann 2009][research_becker_woessmann_2009] Was Weber Wrong?, which finds Protestant-Catholic educational-attainment differences in nineteenth-century Prussia and attributes the differences to Lutheran literacy emphasis rather than to Weberian asceticism. The empirical status of the Weberian thesis remains contested, and the series treats it as a documented scholarly debate rather than as a settled finding.
 
@@ -201,43 +237,64 @@ The downstream causal traces of the European Reformation substrate on American p
 
 The encounter conditions of the three pre-1607 substrates require formalization to characterize the dynamics through which each substrate would contribute to the American formation. The foundational immigration historiography includes [Handlin 1951][book_handlin_1951] The Uprooted (which framed immigration through the lens of individual dislocation and adaptation), [Higham et al. 1955][book_higham_1955] Strangers in the Land (which documented the nativist response), [Gordon 1964][book_gordon_1964] Assimilation in American Life (which characterized the seven-stage assimilation model), [Glazer and Moynihan 1963][book_glazer_moynihan_1963] Beyond the Melting Pot (which documented persistent ethnic distinctiveness in New York), [Vecoli 1964][research_vecoli_1964] Contadini in Chicago (which critiqued Handlin's individualist framing in favor of a community-formation account), [Bodnar 1985][book_bodnar_1985] The Transplanted (which developed the community-formation framework across immigrant streams), and [Sollors 1986][book_sollors_1986] Beyond Ethnicity (which examined the construction of ethnicity as an American cultural practice). The general form of the substrate contribution can be stated as follows. Let $P_{\text{US}}(t)$ denote the total population of the territory that would become the United States at time $t$. The population composition can be decomposed as
 
-$$P_{\text{US}}(t) = \sum_i w_i(t) \, P_i^0 + \Delta_{\text{admix}}(t)$$
+$$
+P_{\text{US}}(t) = \sum_i w_i(t) \, P_i^0 + \Delta_{\text{admix}}(t)
+\tag{13}
+$$
 
 where $w_i(t)$ denotes the stream weight at time $t$, $P_i^0$ denotes the stream at initial arrival, and $\Delta_{\text{admix}}(t)$ denotes the admixture population arising from intermarriage across streams. The $\Delta_{\text{admix}}(t)$ term is substantial throughout the historical period and increasingly substantial in the contemporary period. The [Reed 1969][research_reed_1969] and subsequent quantitative genetic studies document the admixture patterns in the contemporary American population.
 
 Cultural retention across generations under transmission conditions follows a pattern approximated by
 
-$$R(t) = R_0 \, \exp(-\gamma \, t / N_{\text{effective}})$$
+$$
+R(t) = R_0 \, \exp(-\gamma \, t / N_{\text{effective}})
+\tag{14}
+$$
 
 where $R(t)$ denotes the cultural retention at time $t$ after arrival, $R_0$ denotes the initial retention, $\gamma$ denotes the dissipation rate parameter, and $N_{\text{effective}}$ denotes the effective community size that supports the cultural transmission. The retention pattern differs across ethnoreligious streams depending on the conditions of migration, community size, endogamy, institutional infrastructure, and resistance from the receiving society. The [Herskovits 1941][book_herskovits_1941] The Myth of the Negro Past and subsequent revisionist work by [Frazier 1957][book_frazier_1957], [Mintz and Price 1976][book_mintz_price_1976] The Birth of African-American Culture, and [Sweet 2003][book_sweet_2003] Recreating Africa provide the scholarly debate on the retention pattern for African-derived cultural traditions.
 
 Retention above a threshold requires that the effective community size exceed a minimum below which cultural transmission fails,
 
-$$N_{\text{effective}} \geq N_{\text{crit}}, \quad N_{\text{crit}} = f(\text{institutional density}, \text{endogamy rate}, \text{host resistance})$$
+$$
+N_{\text{effective}} \geq N_{\text{crit}}, \quad N_{\text{crit}} = f(\text{institutional density}, \text{endogamy rate}, \text{host resistance})
+\tag{15}
+$$
 
 with $N_{\text{crit}}$ higher for elaborate ritual traditions requiring specialist knowledge transmission than for simpler cultural elements. The empirical estimation of $N_{\text{crit}}$ for particular traditions remains largely qualitative, though studies of language death (documented in [Nettle and Romaine 2000][book_nettle_romaine_2000]) provide comparable threshold analyses that inform the ethnoreligious retention literature.
 
 Endogamy rates modulate retention through the intergenerational transmission channel. Under a two-group model with endogamy rate $\rho \in [0, 1]$ per generation, the expected retention of ancestral identification across $g$ generations follows
 
-$$R^{\text{ancestral}}(g) \approx \rho^g$$
+$$
+R^{\text{ancestral}}(g) \approx \rho^g
+\tag{16}
+$$
 
 with the simplifying assumption of independent within-generation endogamy choice. Documented endogamy rates for early twentieth-century American Jewish communities were near $\rho \approx 0.97$ (declining to approximately $0.50$ by the early twenty-first century per [Author 2013][ref_pew_jewish_2013]), for Catholic communities near $\rho \approx 0.80$ mid-century declining to approximately $0.60$, and for other groups varying with community size and geographic concentration.
 
 Chain migration amplifies the arriving population through documented family and kinship networks. Under a chain-migration multiplier $m > 1$, the total arriving population from an initial pioneer of size $N_0$ across $k$ chain-migration cycles follows
 
-$$N_{\text{total}} = N_0 \, \sum_{i=0}^{k} m^i = N_0 \, \frac{m^{k+1} - 1}{m - 1}$$
+$$
+N_{\text{total}} = N_0 \, \sum_{i=0}^{k} m^i = N_0 \, \frac{m^{k+1} - 1}{m - 1}
+\tag{17}
+$$
 
 with empirical estimates of $m$ in the range $[2, 5]$ for many documented American immigrant streams per [MacDonald and MacDonald 1964][research_macdonald_macdonald_1964] and subsequent work. The migration streams the series treats display substantial variation in $m$ depending on legal admission structure, sending-country conditions, and community formation.
 
 Syncretic formations combining elements from multiple substrates emerge under conditions of prolonged contact, communal reorganization, and creative religious innovation. The formal characterization
 
-$$T_{\text{synth}} = \alpha \, T_1 + \beta \, T_2 + \gamma \, T_3 + \eta_{\text{novel}}$$
+$$
+T_{\text{synth}} = \alpha \, T_1 + \beta \, T_2 + \gamma \, T_3 + \eta_{\text{novel}}
+\tag{18}
+$$
 
 with $\alpha + \beta + \gamma \leq 1$ and $\eta_{\text{novel}} \geq 0$ captures the convex combination of preserved traditions plus novel innovation that characterizes documented syncretic formations (Native American Church, Louisiana Voodoo, Santería in Cuba, Candomblé in Brazil, various Christian denominations combining African and European traditions). The empirical estimation of the weights remains contested and the series treats the cases as they arise.
 
 Diffusion of cultural traits across a contact frontier follows a pattern approximated by the reaction-diffusion form
 
-$$\frac{\partial c}{\partial t} = D \nabla^2 c - \mu c + s(\mathbf{x}, t)$$
+$$
+\frac{\partial c}{\partial t} = D \nabla^2 c - \mu c + s(\mathbf{x}, t)
+\tag{19}
+$$
 
 where $c$ denotes the concentration of a cultural trait, $D$ denotes the diffusion coefficient reflecting the transmission ease, $\mu$ denotes the loss rate reflecting cultural attrition, and $s(\mathbf{x}, t)$ denotes the source term reflecting continuing input from the source substrate. The pattern applies to agricultural techniques, technological practices, linguistic borrowings, and religious concepts diffusing across colonial and later frontiers.
 
@@ -249,49 +306,76 @@ The series applies a six-axis analytical framework introduced here in the framin
 
 The signal axis characterizes the form and density of information transmission by which each substrate reproduces its ethnoreligious content across generations and across geography. The signal-axis dimensions include scriptural density (Bible-based sermons twice weekly under Puritan formation compared with sacramental Anglican formation), catechetical formalization (mandatory town schools under Puritan formation compared with parental transmission under other substrates), oral transmission (African substrate transmission across generational cohorts under surveillance conditions producing low-visible-signal transmission that nevertheless preserved substantial ritual and cosmological content), and community supervision (conversion-experience testimony required for Puritan church membership producing the high-signal community-supervised pattern). Native substrate signal transmission depended on ceremonial cycles, elders as knowledge holders, and place-based ritual associations. The Weberian Protestant Ethic literature ([Weber 1905][book_weber_1905] The Protestant Ethic) implicitly analyzes the signal axis when characterizing how Calvinist theology produced downstream behavioral dispositions through catechetical instruction and pulpit reinforcement. The signal axis admits operationalization as an information-density flux
 
-$$\sigma_{\text{signal}}(t) = \sum_k n_k(t) \, d_k \, f_k$$
+$$
+\sigma_{\text{signal}}(t) = \sum_k n_k(t) \, d_k \, f_k
+\tag{20}
+$$
 
 where $n_k$ counts transmission events of kind $k$ (sermon, catechism, ritual, print exposure), $d_k$ is per-event doctrinal content quantum, and $f_k$ is per-event fidelity. Cross-generational retention follows a decay under transmission attenuation
 
-$$R_{\text{signal}}(g) = R_0 \, \prod_{i=1}^{g} \eta_i, \quad \eta_i \in (0, 1)$$
+$$
+R_{\text{signal}}(g) = R_0 \, \prod_{i=1}^{g} \eta_i, \quad \eta_i \in (0, 1)
+\tag{21}
+$$
 
 where $\eta_i$ is the fraction of signal preserved across generation $i$. High-signal substrates (Puritan catechism, Rabbinic Jewish learning) exhibit $\eta_i$ closer to unity than low-signal or suppressed-signal substrates (African under slaveholder surveillance, Native under forced boarding schools).
 
 The objective axis characterizes what each substrate sought to optimize. Puritan New England optimized for the covenanted-community glorification of God through the this-worldly pursuit of calling in the expectation of eschatological consummation. Chesapeake Anglican optimized for the hierarchical social order under the dual sacred-secular authority. Quaker optimized for the inward light and the peace-testimony pursuit of Christian pacifism. Catholic substrate optimized for sacramental communion within apostolic succession and salvation through faith and works. Jewish substrate optimized for halakhic covenant maintenance and community continuity. Islamic substrate optimized for submission to divine will within the umma. African enslaved substrate optimized for survival, kinship maintenance, and spiritual autonomy under conditions of extreme constraint. Native substrate optimized for ceremonial cycle maintenance and relational obligations across the human, non-human, and ancestral communities. The objective-axis differences produce downstream political-economic differences that the series traces across articles. The objective axis permits operationalization as a substrate-specific utility functional over community states $x \in \mathcal{X}$
 
-$$U_{\text{substrate}}(x) = \sum_{j=1}^{J} \lambda_j \, g_j(x)$$
+$$
+U_{\text{substrate}}(x) = \sum_{j=1}^{J} \lambda_j \, g_j(x)
+\tag{22}
+$$
 
 where $g_j$ are the substrate's constitutive goals and $\lambda_j \geq 0$ are their relative weights. Substrate divergence on the objective axis reduces to differences in $\{\lambda_j, g_j\}$ specifications rather than divergence over evaluative rationality.
 
 The structure axis characterizes the ecclesiastical and community-organization form each substrate adopted. Puritan Congregationalist structure combined local congregational autonomy with colony-wide consultation through synods. Anglican structure combined parish organization with colonial vestry autonomy under the formal Bishop of London jurisdiction that operated through absentee delegation. Quaker structure combined local meetings for business with quarterly and yearly meetings providing the broader consensus. Baptist structure combined congregational autonomy with voluntary associational cooperation. Catholic structure combined parish organization under diocesan bishops with religious order autonomy. Jewish structure combined congregational autonomy with rabbinic authority through community consultation. African substrate structure operated through hush harbor gatherings, ring shout ceremonies, and familial and lineage-based transmission where the European surveillance permitted. Native substrate structure combined clan organization, ceremonial associations, and confederacy consultation across nations. The structure axis allows summary via hierarchy depth and branching factor,
 
-$$D_{\text{struct}} = \text{longest authority path from local unit to apex}, \quad B_{\text{struct}} = \text{mean subordinate count per authority node}$$
+$$
+D_{\text{struct}} = \text{longest authority path from local unit to apex}, \quad B_{\text{struct}} = \text{mean subordinate count per authority node}
+\tag{23}
+$$
 
 with congregational substrates exhibiting shallow $D_{\text{struct}}$ near unity and broad $B_{\text{struct}}$, and episcopal or hierarchical substrates exhibiting deeper $D_{\text{struct}}$ and narrower $B_{\text{struct}}$ at higher tiers.
 
 The model axis characterizes the doctrinal, cosmological, and eschatological content each substrate carried. The theological model of the Puritan tradition combined Calvinist predestination, covenantal ecclesiology, millennial eschatology, and the sacred-secular boundary in Reformed cosmology. The Catholic model combined sacramental ecclesiology, purgatorial eschatology, and sacramental cosmology. Jewish traditions combined halakhic legal orientation, this-worldly eschatology, and covenantal ethnic identity. Islamic traditions combined sharia legal orientation, apocalyptic eschatological orientation, and umma ethnic identity. Indigenous North American traditions combined place-based cosmology, ancestor veneration, and ritual-cycle orientation. West and Central African traditions combined high-god plus intermediary-spirit cosmology, ancestor veneration, and divination and possession ritual technology. The model-axis differences produce downstream institutional differences that later articles trace. The model axis supports summary via doctrinal position vectors over a chosen creedal proposition basis $\{p_1, p_2, \ldots, p_M\}$
 
-$$\mathbf{c}_{\text{substrate}} = (c_1, c_2, \ldots, c_M), \quad c_m \in \{-1, 0, +1\}$$
+$$
+\mathbf{c}_{\text{substrate}} = (c_1, c_2, \ldots, c_M), \quad c_m \in \{-1, 0, +1\}
+\tag{24}
+$$
 
 with pairwise doctrinal distance
 
-$$d_{\text{model}}(A, B) = \sum_{m=1}^{M} |c_m^A - c_m^B|$$
+$$
+d_{\text{model}}(A, B) = \sum_{m=1}^{M} |c_m^A - c_m^B|
+\tag{25}
+$$
 
 measuring model-axis divergence between substrates $A$ and $B$.
 
 The interaction axis characterizes external relationships with other substrates and with civil authority. The interaction-axis dimensions include stream-to-stream relationships (Puritan-Quaker antagonism, Anglican-Puritan competition, Catholic-Protestant conflict, Christian-Native missionary encounter, Christian-Jewish coexistence and periodic hostility), stream-to-state relationships (established churches in the early republic, disestablishment through the First Amendment and state disestablishments, contested religious freedom jurisprudence, immigration-restriction targeting particular streams), and stream-to-economy relationships (labor market participation, business formation, occupational specialization, credit access, property accumulation) that carry substantial religious and cultural determinants. The Jewish concentration in commercial and professional occupations under medieval and early modern European exclusion patterns ([Botticini and Eckstein 2012][book_botticini_eckstein_2012] The Chosen Few) illustrates one interaction-axis pattern. Native gift-economy norms, African agricultural knowledge, Catholic sabbatarian differences from Protestant sabbatarianism, Muslim halal food and finance practices, and denominational entrepreneurial patterns provide further interaction-axis examples the series treats. The interaction axis admits operationalization as a weighted signed graph over substrates,
 
-$$W_{ij}(t) = w_{ij}^{\text{coop}}(t) - w_{ij}^{\text{conflict}}(t), \quad W(t) = [W_{ij}(t)] \in \mathbb{R}^{S \times S}$$
+$$
+W_{ij}(t) = w_{ij}^{\text{coop}}(t) - w_{ij}^{\text{conflict}}(t), \quad W(t) = [W_{ij}(t)] \in \mathbb{R}^{S \times S}
+\tag{26}
+$$
 
 with legal-institutional imprint accumulating over time,
 
-$$L_i(t) = \int_0^t \ell_i(\tau) \, d\tau$$
+$$
+L_i(t) = \int_0^t \ell_i(\tau) \, d\tau
+\tag{27}
+$$
 
 where $\ell_i(\tau)$ counts substrate-attributable statutes, judicial decisions, and administrative rulings enacted at time $\tau$.
 
 The adaptation axis characterizes response to novel conditions and pressures the substrate encountered upon arrival or under subsequent transformation. Adaptation-axis dimensions include migration and displacement adaptation (indigenous continuous residence disrupted by conquest and displacement, African forced migration through the transatlantic slave trade, European voluntary migration under religious and economic pressure, Asian voluntary migration under exclusion regimes, Latin American migration under labor demand and refugee conditions, contemporary refugee flows under humanitarian frameworks), political coalition adaptation (Catholic voters shifted from Republican allegiance in the mid-nineteenth century through Democratic allegiance in the New Deal period through mixed contemporary allegiance), legal-institutional adaptation (established churches transitioning to voluntary associations after disestablishment, immigration-restriction adaptation to Johnson-Reed and later Hart-Celler frameworks), and cultural diffusion adaptation (indigenous agriculture adopted by European settlers, African musical patterns shaping American popular music, Catholic sacramentalism influencing Protestant liturgical revival, Jewish philosophical and legal traditions shaping American constitutional interpretation, Asian religious traditions producing American Buddhist and Hindu communities). The historiographical tendency to under-acknowledge such influences (particularly indigenous and African) is an analytical problem the series treats explicitly rather than reproduce. The adaptation axis permits operationalization as first-order relaxation toward the substrate's response equilibrium under novel conditions,
 
-$$\frac{d S_i}{d t} = -\frac{1}{\tau_i}\bigl(S_i(t) - S_i^{*}(t)\bigr) + \xi_i(t)$$
+$$
+\frac{d S_i}{d t} = -\frac{1}{\tau_i}\bigl(S_i(t) - S_i^{*}(t)\bigr) + \xi_i(t)
+\tag{28}
+$$
 
 where $S_i$ is the substrate state, $S_i^{\*}(t)$ is the environment-dependent target response, $\tau_i$ is the substrate's adaptation time constant, and $\xi_i(t)$ is exogenous perturbation. High-adaptation substrates (post-1965 Asian and African substrates rapidly forming denominational and educational institutions) exhibit short $\tau_i$, while low-adaptation substrates exhibit long $\tau_i$ associated with substrate rigidity or environmental hostility.
 
@@ -348,6 +432,301 @@ Article eleven synthesizes the series and separates the established interdiscipl
 - Can the twenty-first century revisionist synthesis be reconciled with the empirical findings of the classical consensus historiography where the two traditions substantively disagree?
 
 These questions recur throughout the series and are revisited in the closing synthesis.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 28 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 28, 10 are established and 18 are bespoke.
+Populations are counted in persons, dates are calendar years of the Common Era unless stated as years before present, every share is a fraction between zero and one, and most relations are qualitative formalisations of the series framework rather than estimated quantities.
+
+*Equation 1, Bespoke Causal Mapping from Ethnoreligious Composition to Outcomes.*
+The article writes observable political-economic outcomes as an unspecified function of ethnoreligious stream weights, inherited institutions and exogenous shocks plus a residual, a framing it adopts for the whole series.
+
+$$
+O_t = F(E_t, I_t, X_t) + \varepsilon_t
+\tag{1}
+$$
+
+*Equation 2, Bespoke Counterfactual Ethnoreligious Contribution.*
+The ethnoreligious contribution is defined as the difference between the mapped outcome under the actual composition and under a counterfactual composition, with institutions and shocks held fixed.
+
+$$
+\Delta O_t^{\text{ER}} = F(E_t, I_t, X_t) - F(E_t^{\text{null}}, I_t, X_t)
+\tag{2}
+$$
+
+**Equation 3, Date of Initial Human Settlement of the Americas.**
+Genetic and archaeological evidence places the initial settlement of the Americas across Beringia at no less than about fifteen thousand years before present.
+[Meltzer 2009][book_meltzer_2009]
+[Reich 2018][book_reich_2018]
+
+$$
+t_{\text{initial settlement}} \gtrsim 1.5 \times 10^4 \text{ years before present}
+\tag{3}
+$$
+
+**Equation 4, Range of Pre-Columbian Population Estimates North of the Rio Grande.**
+Published estimates of the population north of the Rio Grande before contact run from about two million to about eighteen million, the upper bound resting on epidemic mortality analysis.
+[Denevan 1992][research_denevan_1992]
+[Dobyns 1966][research_dobyns_1966]
+[Thornton 1987][book_thornton_1987]
+
+$$
+P_{\text{PreColumbian}}^{\text{NA}} \in [2, 18] \times 10^6
+\tag{4}
+$$
+
+**Equation 5, Post-Contact Population Ratio North of the Rio Grande.**
+The indigenous population of 1650 was about one tenth of that of 1500, a decline of about ninety percent driven chiefly by introduced epidemic disease.
+[Thornton 1987][book_thornton_1987]
+[Crosby 1972][book_crosby_1972]
+
+$$
+P^{\text{NA}}(1650) / P^{\text{NA}}(1500) \approx 0.10
+\tag{5}
+$$
+
+**Equation 6, Date Range for the Formation of the Haudenosaunee Confederacy.**
+The scholarly literature places the formation of the Haudenosaunee Confederacy under the Great Law of Peace between 1450 and 1600 of the Common Era.
+[Fenton 1998][book_fenton_1998]
+[Tooker 1978][research_tooker_1978]
+[Snow 1994][book_snow_1994]
+
+$$
+t_{\text{HaudFormation}} \in [1450, 1600] \text{ CE}
+\tag{6}
+$$
+
+**Equation 7, Africans Transported Directly to North America.**
+The Voyages Database records about 388,000 Africans carried directly to the Anglo colonies and later the United States.
+[Voyages Slave Trade Database 2019][ref_voyages_database]
+
+$$
+N_{\text{Africans}}^{\text{NA, direct}} \approx 3.88 \times 10^5 \text{ people}
+\tag{7}
+$$
+
+**Equation 8, Total Atlantic Slave Trade to All Destinations.**
+Across roughly four centuries the Atlantic slave trade carried about ten to twelve and a half million people to all destinations, most of them to the Caribbean and Brazil.
+[Voyages Slave Trade Database 2019][ref_voyages_database]
+
+$$
+N_{\text{Africans}}^{\text{Atlantic, all}} \approx (10 \text{ to } 12.5) \times 10^6 \text{ people}
+\tag{8}
+$$
+
+**Equation 9, Source Region Shares of the North American Slave Trade.**
+The arriving African population is divided among seven African source regions in approximate shares that sum to one, with the Bight of Biafra and West Central Africa largest.
+[Gomez 1998][book_gomez_1998]
+
+$$
+\begin{aligned}
+f_{\text{Biafra}} &\approx 0.25 \quad (\text{Igbo, Ibibio}) \\
+f_{\text{Central Africa}} &\approx 0.25 \quad (\text{Kongo, Angola}) \\
+f_{\text{Senegambia}} &\approx 0.20 \quad (\text{Mandinka, Fulani, Wolof}) \\
+f_{\text{Gold Coast}} &\approx 0.13 \quad (\text{Akan}) \\
+f_{\text{Sierra Leone / Windward}} &\approx 0.10 \\
+f_{\text{Bight of Benin}} &\approx 0.05 \quad (\text{Yoruba, Fon}) \\
+f_{\text{Other}} &\approx 0.02
+\end{aligned}
+\tag{9}
+$$
+
+**Equation 10, Estimated Muslim Share of Enslaved Africans in North America.**
+Written estimates place the Muslim share of enslaved Africans in North America between fifteen and thirty percent, highest on coasts receiving Senegambian arrivals.
+[Diouf 1998][book_diouf_1998]
+
+$$
+f_{\text{Muslim,NA}} \in [0.15, 0.30]
+\tag{10}
+$$
+
+**Equation 11, Conventional Dating of the European Reformation.**
+The Reformation is conventionally dated from the Ninety-Five Theses of 1517 to the Peace of Westphalia of 1648.
+[MacCulloch 2003][book_macculloch_2003]
+
+$$
+[t_{\text{Ref, start}}, t_{\text{Ref, end}}] = [1517, 1648] \text{ CE}
+\tag{11}
+$$
+
+**Equation 12, Weber Thesis as a Conditional Probability.**
+The Weber thesis holds that capital accumulation is more probable under Calvinist theology than without it, conditional on comparable material and institutional conditions.
+[Weber 1905][book_weber_1905]
+
+$$
+\Pr(\text{capital accumulation} \mid \text{Calvinist theology}) > \Pr(\text{capital accumulation} \mid \neg \text{Calvinist theology})
+\tag{12}
+$$
+
+*Equation 13, Bespoke Decomposition of Population by Ethnoreligious Stream.*
+The article decomposes the population of the future United States into weighted ethnoreligious streams at arrival plus an admixture term for intermarriage across streams.
+
+$$
+P_{\text{US}}(t) = \sum_i w_i(t) \, P_i^0 + \Delta_{\text{admix}}(t)
+\tag{13}
+$$
+
+*Equation 14, Bespoke Exponential Cultural Retention.*
+The article approximates cultural retention as an exponential decay from its initial value whose rate falls as the effective community size grows.
+
+$$
+R(t) = R_0 \, \exp(-\gamma \, t / N_{\text{effective}})
+\tag{14}
+$$
+
+*Equation 15, Bespoke Critical Community Size for Retention.*
+Retention requires an effective community size above a critical value that the article makes a function of institutional density, endogamy and host resistance.
+
+$$
+N_{\text{effective}} \geq N_{\text{crit}}, \quad N_{\text{crit}} = f(\text{institutional density}, \text{endogamy rate}, \text{host resistance})
+\tag{15}
+$$
+
+*Equation 16, Bespoke Ancestral Retention under Independent Endogamy.*
+Under a two-group model that assumes each generation chooses endogamy independently at a constant rate, retention of ancestral identification after $g$ generations is that rate raised to the power $g$.
+
+$$
+R^{\text{ancestral}}(g) \approx \rho^g
+\tag{16}
+$$
+
+*Equation 17, Bespoke Geometric Chain Migration Total.*
+Assuming a constant chain-migration multiplier in every cycle, the total arriving population is the pioneer group times a finite geometric series in that multiplier.
+
+$$
+N_{\text{total}} = N_0 \, \sum_{i=0}^{k} m^i = N_0 \, \frac{m^{k+1} - 1}{m - 1}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Syncretic Formation as Weighted Combination.*
+The article writes a syncretic tradition as a weighted combination of three source traditions with weights summing to at most one plus a nonnegative term for novel innovation.
+
+$$
+T_{\text{synth}} = \alpha \, T_1 + \beta \, T_2 + \gamma \, T_3 + \eta_{\text{novel}}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Reaction-Diffusion Model of Cultural Traits.*
+The article borrows the linear reaction-diffusion equation with loss and source terms and assumes that the concentration of a cultural trait across a contact frontier obeys it.
+
+$$
+\frac{\partial c}{\partial t} = D \nabla^2 c - \mu c + s(\mathbf{x}, t)
+\tag{19}
+$$
+
+*Equation 20, Bespoke Signal Axis Information Flux.*
+The signal axis is operationalised as a sum over kinds of transmission event of the event count times its doctrinal content and its fidelity.
+
+$$
+\sigma_{\text{signal}}(t) = \sum_k n_k(t) \, d_k \, f_k
+\tag{20}
+$$
+
+*Equation 21, Bespoke Generational Signal Retention.*
+Signal retained after $g$ generations is the initial retention multiplied by the fraction preserved in each generation, each fraction lying strictly between zero and one.
+
+$$
+R_{\text{signal}}(g) = R_0 \, \prod_{i=1}^{g} \eta_i, \quad \eta_i \in (0, 1)
+\tag{21}
+$$
+
+*Equation 22, Bespoke Objective Axis Utility Functional.*
+The objective axis is operationalised as a substrate utility over community states that is a nonnegatively weighted sum of the substrate's constitutive goals.
+
+$$
+U_{\text{substrate}}(x) = \sum_{j=1}^{J} \lambda_j \, g_j(x)
+\tag{22}
+$$
+
+*Equation 23, Bespoke Structure Axis Depth and Branching.*
+The structure axis is summarised by the longest authority path from local unit to apex and by the mean count of subordinates per authority node.
+
+$$
+D_{\text{struct}} = \text{longest authority path from local unit to apex}, \quad B_{\text{struct}} = \text{mean subordinate count per authority node}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Model Axis Doctrinal Position Vector.*
+Each substrate is placed on a chosen basis of creedal propositions by a vector whose entries take the values minus one, zero or plus one.
+
+$$
+\mathbf{c}_{\text{substrate}} = (c_1, c_2, \ldots, c_M), \quad c_m \in \{-1, 0, +1\}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Doctrinal Distance between Substrates.*
+Model axis divergence between two substrates is the sum of absolute differences of their doctrinal positions, a taxicab distance on the article's creedal basis.
+
+$$
+d_{\text{model}}(A, B) = \sum_{m=1}^{M} |c_m^A - c_m^B|
+\tag{25}
+$$
+
+*Equation 26, Bespoke Interaction Axis Signed Graph.*
+The interaction axis is operationalised as a signed weight matrix over substrates whose entries are cooperation weight less conflict weight.
+
+$$
+W_{ij}(t) = w_{ij}^{\text{coop}}(t) - w_{ij}^{\text{conflict}}(t), \quad W(t) = [W_{ij}(t)] \in \mathbb{R}^{S \times S}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Accumulated Legal-Institutional Imprint.*
+The legal-institutional imprint of a substrate is the time integral of the rate at which statutes, judicial decisions and administrative rulings attributable to it are enacted.
+
+$$
+L_i(t) = \int_0^t \ell_i(\tau) \, d\tau
+\tag{27}
+$$
+
+*Equation 28, Bespoke Adaptation Axis First-Order Relaxation.*
+The adaptation axis is operationalised as first-order relaxation of the substrate state toward an environment-dependent target with a substrate time constant and an exogenous perturbation.
+
+$$
+\frac{d S_i}{d t} = -\frac{1}{\tau_i}\bigl(S_i(t) - S_i^{*}(t)\bigr) + \xi_i(t)
+\tag{28}
+$$
+
+### Notation
+
+- $O_t$, the vector of observable political-economic outcomes at time $t$
+- $E_t$, the vector of ethnoreligious stream weights at time $t$
+- $I_t$, the vector of prior-period institutional inheritances
+- $X_t$, the exogenous shocks such as wars, epidemics and technological transitions
+- $\varepsilon_t$, the unexplained residual
+- $E_t^{\text{null}}$, a counterfactual composition against which the actual composition is compared
+- $w_i(t)$, the weight of stream $i$ at time $t$
+- $P_i^0$, stream $i$ at initial arrival
+- $\Delta_{\text{admix}}(t)$, the admixture population arising from intermarriage across streams
+- $R_0$, the initial retention
+- $N_{\text{effective}}$, the effective community size that supports cultural transmission
+- $N_{\text{crit}}$, the minimum effective community size below which cultural transmission fails
+- $\rho$, the endogamy rate per generation
+- $m$, the chain-migration multiplier
+- $N_0$, the size of the initial pioneer group
+- $\eta_{\text{novel}}$, the novel innovation in a syncretic formation
+- $D$, the diffusion coefficient reflecting the ease of transmission in the reaction-diffusion equation, which is distinct from $D_{\text{struct}}$
+- $\mu$, the loss rate reflecting cultural attrition
+- $s(\mathbf{x}, t)$, the source term for continuing input from the source substrate
+- $f_k$, the fidelity per transmission event of kind $k$
+- $d_k$, the doctrinal content quantum per transmission event of kind $k$
+- $n_k(t)$, the count of transmission events of kind $k$
+- $\eta_i$, the fraction of signal preserved across generation $i$
+- $\gamma$, the dissipation rate parameter of cultural retention in equation 14 and the weight of the third tradition in equation 18
+- $\lambda_j$, the nonnegative weight of the substrate's goal $g_j$
+- $D_{\text{struct}}$, the length of the longest authority path from local unit to apex
+- $B_{\text{struct}}$, the mean subordinate count per authority node
+- $c_m$, the position of a substrate on creedal proposition $m$, one of minus one, zero or plus one
+- $W_{ij}(t)$, the signed interaction weight between substrates $i$ and $j$, cooperation less conflict
+- $\ell_i(\tau)$, the count of substrate-attributable statutes, judicial decisions and administrative rulings enacted at time $\tau$
+- $S_i^{*}(t)$, the environment-dependent target response of substrate $i$
+- $\tau_i$, the adaptation time constant of substrate $i$
+- $\xi_i(t)$, the exogenous perturbation of substrate $i$
 
 ## References
 

@@ -1,0 +1,571 @@
+# Equation classification for A273. Read by `python3 _lib/equations.py`.
+
+caution = "Every figure is an approximate historical count, share or monetary amount as reported by the source the article names, a share is a fraction between zero and one rather than a percentage, and monetary amounts are nominal United States dollars unless the equation states otherwise."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Church Membership Share of the Population, 1940 to 1980"
+gloss = "The share of the population of the United States holding church membership is reported from the Yearbook of American and Canadian Churches for 1940, 1960 and 1980, rising to a postwar peak before declining."
+cite = ["book_marty_1985", "book_wuthnow_1988"]
+digest = "3996de8da26fda8e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Membership of Four Major Traditions, 1945 and 1980"
+gloss = "Denominational records give the membership of the Southern Baptist Convention, the Roman Catholic Church, the United Methodist Church and the Jewish population of the United States in 1945 and 1980."
+cite = []
+digest = "0b6a28fd7dc57464"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "New Suburban Parishes, Congregations and Synagogues, 1945 to 1965"
+gloss = "Denominational and building industry records count the Catholic parishes, Protestant congregations and synagogues newly formed in American suburbs over the twenty postwar years."
+cite = []
+digest = "92fbe96f72ab1c41"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Admissions Under the Displaced Persons Act, 1948 to 1952"
+gloss = "Records of the Immigration and Naturalization Service give the cumulative admissions under the Displaced Persons Act together with the Jewish, Baltic and Ukrainian, and Polish shares of those admitted."
+cite = ["book_dinnerstein_1982", "book_genizi_1993"]
+digest = "d93fca77dfcd977a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Population of European Displaced Persons Camps at the 1946 Peak"
+gloss = "Records of the United Nations Relief and Rehabilitation Administration and the International Refugee Organization give the total and Jewish populations of the displaced persons camps in 1946 and the number of camps operated."
+cite = ["book_cohen_2012_survivors"]
+digest = "bb5ef21fd0a45b0e"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Jewish Admissions Before and After the 1950 Revision"
+gloss = "Institutional records give the Jewish admissions under the original restrictive priorities of 1948 to 1949 and under the revised framework of 1949 to 1952."
+cite = []
+digest = "2407c83cded57873"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Congressional Prayer Meetings and the Military Chaplaincy Budget"
+gloss = "Institutional records give a lower bound on Congressional prayer breakfasts and related meetings from 1946 to 1980 and the annual budget of the federal military chaplaincy in 1950 and 1980."
+cite = []
+digest = "64b92ac712d4234b"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Religious Radio and Television Stations, 1950 and 1980"
+gloss = "Records of the Federal Communications Commission and the National Religious Broadcasters count the religious radio stations of the United States in 1950 and 1980 and the religious television stations in 1980."
+cite = []
+digest = "62fc458222fb8550"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Contemporary Membership of the World Council of Churches"
+gloss = "Institutional records of the World Council of Churches give its present member denominations, their aggregate affiliated membership and the number of countries they span."
+cite = []
+digest = "4ea7079dc2f36fa8"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Founding and Contemporary Membership of the National Council of Churches"
+gloss = "Institutional records give the twenty-five founding member denominations of the National Council of Churches in 1950 and its aggregate affiliated membership at founding and today."
+cite = ["book_cavert_1968"]
+digest = "07b287d8eda85dbc"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "World Vision Annual Revenue and Country Programmes"
+gloss = "Institutional records give the annual revenue of World Vision in 1970, 1990 and today and the number of countries in which it now runs programmes."
+cite = []
+digest = "e681d3f5acc4f699"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Cumulative Billy Graham Crusade Attendance, 1949 to 2005"
+gloss = "Records of the Billy Graham Evangelistic Association give the cumulative crusade attendance, the documented decisions for Christ and the countries visited over the ministry."
+cite = ["book_martin_1991", "book_wacker_2014"]
+digest = "b9994c25e2116de1"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Attendance at the 1957 New York Crusade"
+gloss = "The sixteen-week Madison Square Garden crusade of 1957 is described by its cumulative attendance, its documented decisions and its duration."
+cite = []
+digest = "93a3175e8611e44f"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Naturalisations and Quotas Under the McCarran-Walter Act"
+gloss = "Records of the Immigration and Naturalization Service give the Japanese naturalisations of 1952 to 1965, the nominal quota for each Asian country and the aggregate national origins quota under the 1952 Act."
+cite = ["ref_mccarran_walter_act_1952"]
+digest = "06ed2ba1752a49e7"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Congressional Votes Overriding the 1952 Veto"
+gloss = "The Congressional record gives the House and Senate votes for and against overriding the veto of the McCarran-Walter Act, with the House vote compared against its two-thirds threshold."
+cite = []
+digest = "cbcc93ef50f37334"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Removals Under Operation Wetback, 1954"
+gloss = "The official count of the Immigration and Naturalization Service is set beside the lower modern historical reconstruction, together with a lower bound on the share of those removed who were citizens born in the United States."
+cite = ["book_hernandez_2010"]
+digest = "16292c9d100af120"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Mainland Puerto Rican Population, 1940 to 1980"
+gloss = "Census data give the Puerto Rican population of the United States mainland in 1940, 1960 and 1980."
+cite = ["book_whalen_vazquez_2005"]
+digest = "c6892f7feef0a5bc"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Religious Composition of Mainland Puerto Ricans, 1950 to 2020"
+gloss = "Reconstructions from the Pew Research Center and the American Religious Identification Survey give the Catholic share of mainland Puerto Ricans from 1950 and the Pentecostal and Protestant share from 1990."
+cite = []
+digest = "24a0f4364d5676ea"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Results and Religious Vote of the 1960 Presidential Election"
+gloss = "Electoral reconstruction gives the popular and electoral votes for Kennedy and Nixon and the shares of Catholic, Protestant and Jewish voters who chose Kennedy."
+cite = []
+digest = "bee535918cad35dd"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Broadcast Audience of the Kennedy Funeral Procession"
+gloss = "Nielsen ratings and historical reconstruction give the cumulative broadcast audience of the funeral procession of 25 November 1963 and a lower bound on its television viewers."
+cite = []
+digest = "eb314f0f7d1b43f4"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Clergy Participation and Denominational Funding in the Civil Rights Movement"
+gloss = "Institutional reconstruction gives the clergy at the 1963 March on Washington and the 1965 Selma marches, the clergy arrested from 1961 to 1965 and denominational funding for civil rights support from 1960 to 1968."
+cite = []
+digest = "78b0d762425da8ef"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Marchers in the Three Selma to Montgomery Marches, March 1965"
+gloss = "Historical reconstruction gives the number of marchers on Bloody Sunday, on Turnaround Tuesday and at the completion of the third march."
+cite = []
+digest = "2aaf190df873134b"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Attendance at the 1963 March on Washington"
+gloss = "The commonly reported attendance of the March on Washington is stated with the share of participants who were white."
+cite = []
+digest = "a3467f27dd1fbca6"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Span and Output of the Public Ministry of Martin Luther King Jr."
+gloss = "Reconstruction by the Martin Luther King Jr. Papers Project gives the length of the public ministry, the documented arrests, the books published and a lower bound on the sermons and speeches."
+cite = ["ref_king_papers_project", "book_garrow_1986"]
+digest = "848fb72da9f8e4a7"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Documents and Voting Fathers of the Second Vatican Council"
+gloss = "The sixteen conciliar documents divide into four constitutions, nine decrees and three declarations, and about two thousand five hundred Council Fathers voted."
+cite = ["book_omalley_2008"]
+digest = "715ccafcbaddc643"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Share of Parishes Celebrating the Vernacular Mass, 1965 to 1972"
+gloss = "Institutional reconstruction gives the share of Catholic parishes in the United States celebrating Mass in the vernacular in 1965, 1968 and 1972."
+cite = []
+digest = "a4dfd7b5e8d4fa08"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Catholic Priests in the United States, 1965 to 2020"
+gloss = "Official Catholic Directory data give the number of Catholic priests in the United States in 1965, 1980 and 2020."
+cite = []
+digest = "24e8fb5d196b6040"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Catholic Religious Sisters in the United States, 1965 and 2020"
+gloss = "Official Catholic Directory data give the number of Catholic religious sisters in the United States in 1965 and 2020."
+cite = []
+digest = "19d5c682f01c4d4a"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Nation of Islam Membership, 1952 to 1970"
+gloss = "Institutional records give the membership of the Nation of Islam in 1952, in 1961 and at its peak around 1970."
+cite = ["book_marable_2011"]
+digest = "8d27648b89001310"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Attendance at the 1995 Million Man March"
+gloss = "The National Park Service estimate of attendance is set beside a higher alternative reconstruction."
+cite = []
+digest = "0f97fcaf50ef1317"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Cuban Arrivals by Wave and Cuban American Population"
+gloss = "Records of the Immigration and Naturalization Service give the arrivals of the Golden Exile, the Freedom Flights, the Mariel Boatlift and the 1994 balsero crisis and the Cuban American population in 1980 and 2020."
+cite = ["book_garcia_1996"]
+digest = "e56d5d6cd88de35f"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Cuban American Population of Miami-Dade County"
+gloss = "Census records give the Cuban American population of Miami-Dade County in 1970 and 2020 and its share of the county's Hispanic population in 1990."
+cite = []
+digest = "22cadfc4b76dd0f6"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Scale of the Delano Grape Boycott"
+gloss = "Institutional records give the boycott participants at the 1969 peak, the relative fall in California grape sales from 1968 to 1970 and the five-year duration of the strike."
+cite = []
+digest = "dd24635a41906d29"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Peak Membership and Contract Coverage of the United Farm Workers"
+gloss = "Institutional records give the membership of the United Farm Workers and the workers covered by its contracts at the peak around 1972."
+cite = []
+digest = "8595cd436e5f78ad"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Catholic Peace Fellowship Members and Catholic Draft Resisters"
+gloss = "Institutional records give the peak membership of the Catholic Peace Fellowship and a lower bound on documented Catholic draft resisters of the Vietnam era."
+cite = []
+digest = "c7c64411b50e5cff"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Membership and Chapters of Clergy and Laity Concerned About Vietnam"
+gloss = "Institutional records give the peak membership of Clergy and Laity Concerned About Vietnam and the number of its chapters in the United States."
+cite = []
+digest = "9140788c90adccbf"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Conscientious Objectors and Draft Violators of the Vietnam Era"
+gloss = "Selective Service System records give lower bounds on registered conscientious objectors and on draft evaders and violators of the Vietnam era."
+cite = []
+digest = "798eb81e55e25be2"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Institutional Reception of Black Liberation Theology"
+gloss = "Records of the Association of Theological Schools give a lower bound on affiliated seminaries and programmes around 1980 and the number of affiliated Black theological students around 1990."
+cite = []
+digest = "ee63f101a1f80f60"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Annual Immigrant Admissions and Immigrant Share After Hart-Celler"
+gloss = "The annual immigrant admissions of 1965, 1980 and 2000 are stated with the immigrant share of the population in 1970 and 2020."
+cite = []
+digest = "f0ba1f80599b60e6"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Source Region Shares of Arrivals, 1960 to 2020"
+gloss = "Records of the Department of Homeland Security give the European, Asian and Latin American shares of arrivals in the United States in 1960, 1980 and 2020."
+cite = []
+digest = "05a95fa824c08a10"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Native American Population, 1890 to 2020"
+gloss = "Census data give the Native American population of the United States in 1890, 1950, 1980 and 2020, tracing recovery from the nadir around 1890."
+cite = []
+digest = "bfb77440384b89a5"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Vote of the Court in Wisconsin v. Yoder"
+gloss = "Court records give the six justices in the majority, the one justice concurring in part and dissenting in part and the two not participating."
+cite = ["ref_wisconsin_v_yoder_1972"]
+digest = "0e14ea60654f1667"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Old Order Amish Population, 1900 to 2020"
+gloss = "Reconstruction by the Young Center for Anabaptist and Pietist Studies gives the Amish population of the United States in 1900, 1950, 1990 and 2020."
+cite = []
+digest = "501c8788dff7a97c"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Years Women Were First Ordained by Denomination"
+gloss = "Denominational records give the year in which each of three Protestant churches first ordained women and in which each of three Jewish movements ordained its first female rabbi."
+cite = []
+digest = "63d283216e44c8fc"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Vote in Roe v. Wade and Statutes Overturned"
+gloss = "The decision of 1973 carried seven justices against two and overturned the restrictive abortion statutes of about forty-four states."
+cite = ["ref_roe_v_wade_1973"]
+digest = "af00499c25b0d9c0"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "United Jewish Appeal Fundraising in 1967"
+gloss = "Institutional records give the Emergency Fund raised by the United Jewish Appeal during the Six-Day War and its cumulative fundraising for 1967."
+cite = []
+digest = "04f74b2e37809e89"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Jewish Population of the United States, 1945 to 2020"
+gloss = "Demographic reconstruction in the American Jewish Year Book gives the Jewish population of the United States in 1945, 1970 and 2020."
+cite = []
+digest = "5a6308ecfd439434"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Scale of the Soviet Jewry Mobilisation"
+gloss = "Institutional records give the participants at the Freedom Sunday rally of 6 December 1987 and the affiliated organisations of the Union of Councils for Soviet Jews at its peak."
+cite = []
+digest = "b520eb4e583f203c"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Soviet Jewish Emigration and Destinations by Wave"
+gloss = "Records of the Hebrew Immigrant Aid Society and the Jewish Agency for Israel give the emigrants of 1968 to 1980 and of 1989 to 2003 with the shares going to Israel and to the United States."
+cite = []
+digest = "4362f38f3c183d3a"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Cumulative Soviet Jewish Refugee Admissions, 1972 to 2004"
+gloss = "Records of the Office of Refugee Resettlement give the cumulative admission of Soviet Jewish refugees to the United States."
+cite = []
+digest = "c60b508591203f7c"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Size of New Religious Movements"
+gloss = "Institutional records and sociological reconstruction give the present or peak adherents of seven new religious movements that arose or arrived between 1953 and the late 1960s."
+cite = []
+digest = "b0eecf21d6d19cb7"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Anti-Cult Organisations and Cult Awareness Network Membership"
+gloss = "Institutional records give the number of anti-cult organisations around 1980 and the peak membership of the Cult Awareness Network around 1990."
+cite = []
+digest = "434bed3ef71c8557"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Southeast Asian Refugee Arrivals, 1975 to 1994"
+gloss = "Records of the Office of Refugee Resettlement give arrivals by national group and wave, and the total equals the sum of the five listed groups."
+cite = ["book_robinson_1998"]
+digest = "945cdeb784ae50bf"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Voluntary Agency Shares of Southeast Asian Resettlement"
+gloss = "Institutional records give the shares of resettled Southeast Asian refugees sponsored through Catholic, ecumenical Protestant, Lutheran and Jewish voluntary agencies."
+cite = []
+digest = "38c49fde0459a854"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Southeast Asian American Populations in 2020"
+gloss = "The 2020 Census gives the Vietnamese, Cambodian, Laotian and Hmong American populations."
+cite = []
+digest = "62cbdd308a3c6ba6"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Asian American Populations by Origin, 1965 and 2020"
+gloss = "Census data give the total Asian American population and its Chinese, Filipino, Indian, Korean and Japanese components in 1965 and 2020."
+cite = ["book_lee_2015"]
+digest = "010cc6fc9fec5d48"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Asian American Religious Institutions in 2020"
+gloss = "Institutional records count the Korean American Christian congregations, Indian Hindu temples, Sikh gurdwaras and Chinese Buddhist temples in the United States around 2020."
+cite = []
+digest = "77d8b535af81fa7a"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Hispanic Populations by Origin, 1970 and 2020"
+gloss = "Census data give the total Hispanic or Latino population and its Mexican, Puerto Rican, Cuban, Dominican and Salvadoran components in 1970 and 2020."
+cite = ["book_portes_rumbaut_2014"]
+digest = "bb56266e3c26907e"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Central American Arrivals, 1980 to 1990"
+gloss = "Records of the Immigration and Naturalization Service give the Salvadoran, Guatemalan and Nicaraguan arrivals over the decade of the Central American civil wars."
+cite = []
+digest = "7877f82eb2b50b49"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Scale of the Sanctuary Movement"
+gloss = "Institutional records give the congregations that had declared sanctuary by 1988 and the cumulative Central American refugees they sheltered."
+cite = ["book_golden_mcconnell_1986"]
+digest = "6152c0a4aa7c697a"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Iranian Arrivals and Iranian American Population"
+gloss = "Census and immigration records give the Iranian arrivals from 1979 to 2000 and the Iranian American population in 2020."
+cite = ["book_mostofi_2003"]
+digest = "ccdb59f33f01d5e1"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Arab American and Muslim American Populations"
+gloss = "Census data and denominational reconstruction give the Arab American population in 1970 and 2020 and the Muslim American population in 1980 and 2020."
+cite = []
+digest = "0456dee8dc452685"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Duration and Hostages of the Iran Hostage Crisis"
+gloss = "The crisis ran from 4 November 1979 to 20 January 1981, four hundred and forty-four days, and all fifty-two embassy hostages were released under the Algiers Accords."
+cite = []
+digest = "6fabb99020a971ab"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Refugee Admissions Under the Refugee Act of 1980"
+gloss = "Institutional records give the refugee admissions of 1980 and 2020 and the annual averages for the 1980s and 1990s."
+cite = []
+digest = "2bf12b6b34d0cc3a"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Southern Baptist Convention Membership and the Conservative Resurgence"
+gloss = "Institutional records give the membership of the Southern Baptist Convention in 1979 and 2020 and the eleven consecutive presidential elections won by the fundamentalist faction from 1979 to 1990."
+cite = ["book_ammerman_1990"]
+digest = "420adbb58ab332a9"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Claimed and Documented Moral Majority Membership"
+gloss = "Institutional records give the claimed membership of the Moral Majority at its peak, its documented dues-paying membership and its fifty state chapters."
+cite = []
+digest = "33548de621717a58"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Moral Majority Fundraising and the White Evangelical Vote for Reagan"
+gloss = "Institutional records and exit polling give the cumulative fundraising of the Moral Majority and the share of white evangelical voters who chose Reagan in 1980 and 1984 and the Republican candidate in 1988."
+cite = []
+digest = "743386a7ae6239f3"
+
+[[symbol]]
+tex = 'N'
+meaning = "a count of persons, institutions, events or documents, identified by its subscript"
+
+[[symbol]]
+tex = 'P'
+meaning = "a population or membership, identified by its subscript and evaluated in the year given"
+
+[[symbol]]
+tex = 'f'
+meaning = "a fraction or share between zero and one, identified by its subscript"
+
+[[symbol]]
+tex = 'C'
+meaning = "a monetary amount in nominal United States dollars, except that in the United Farm Workers equation it counts the workers covered by contracts"
+
+[[symbol]]
+tex = 'V'
+meaning = "a count of votes, whether popular, electoral, congressional or judicial"
+
+[[symbol]]
+tex = 'Q'
+meaning = "an annual immigration quota under the McCarran-Walter Act"
+
+[[symbol]]
+tex = 't'
+meaning = "a duration or date span"
+
+[[symbol]]
+tex = '\Delta P'
+meaning = "the relative change in California grape sales during the boycott, as a fraction"

@@ -19,17 +19,24 @@ This ninth article of the series treats the 1980-2000 period during which the Am
 
 The 1980-2000 window produced marked completion of post-1965 Hart-Celler Act demographic transformation documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Total foreign-born US population reached extensive levels,
 
-$$P_{\text{foreign-born, US}}\bigg|_{1970} \approx 9.6 \times 10^6, \quad P\bigg|_{1980} \approx 1.42 \times 10^7, \quad P\bigg|_{1990} \approx 1.98 \times 10^7, \quad P\bigg|_{2000} \approx 3.11 \times 10^7, \quad P\bigg|_{2020} \approx 4.47 \times 10^7$$
+$$
+P_{\text{foreign-born, US}}\bigg|_{1970} \approx 9.6 \times 10^6, \quad P\bigg|_{1980} \approx 1.42 \times 10^7, \quad P\bigg|_{1990} \approx 1.98 \times 10^7, \quad P\bigg|_{2000} \approx 3.11 \times 10^7, \quad P\bigg|_{2020} \approx 4.47 \times 10^7
+\tag{1}
+$$
 
 producing approximately fourfold expansion across the fifty-year post-1965 window. Foreign-born share reached historically high levels,
 
-$$f_{\text{foreign-born, US population}}\bigg|_{1970} \approx 0.048, \quad f\bigg|_{2000} \approx 0.110, \quad f\bigg|_{2020} \approx 0.135$$
+$$
+f_{\text{foreign-born, US population}}\bigg|_{1970} \approx 0.048, \quad f\bigg|_{2000} \approx 0.110, \quad f\bigg|_{2020} \approx 0.135
+\tag{2}
+$$
 
 approximately restoring pre-1924 foreign-born share exceeded through mid-twentieth-century restrictionist framework. The [Waters and Ueda 2007][book_waters_ueda_2007] The New Americans, [Zolberg 2006][book_zolberg_2006] A Nation by Design (already cited), and [Foner 2000][book_foner_2000] From Ellis Island to JFK provide the standard treatments.
 
 Religious composition diversification was sizable. Approximate religious composition shifts across 1948-2020 window reached
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 f_{\text{Christian, US}}\bigg|_{1948} &\approx 0.91, \quad f\bigg|_{2000} \approx 0.82, \quad f\bigg|_{2020} \approx 0.63 \\
 f_{\text{Catholic, US}}\bigg|_{1948} &\approx 0.22, \quad f\bigg|_{2000} \approx 0.24, \quad f\bigg|_{2020} \approx 0.21 \\
 f_{\text{Jewish, US}}\bigg|_{1948} &\approx 0.035, \quad f\bigg|_{2000} \approx 0.020, \quad f\bigg|_{2020} \approx 0.024 \\
@@ -37,7 +44,9 @@ f_{\text{Muslim, US}}\bigg|_{1980} &\approx 0.003, \quad f\bigg|_{2020} \approx 
 f_{\text{Hindu, US}}\bigg|_{1980} &\approx 0.001, \quad f\bigg|_{2020} \approx 0.007 \\
 f_{\text{Buddhist, US}}\bigg|_{1980} &\approx 0.002, \quad f\bigg|_{2020} \approx 0.007 \\
 f_{\text{Unaffiliated, US}}\bigg|_{1948} &\approx 0.02, \quad f\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2020} \approx 0.29
-\end{aligned}$$
+\end{aligned}
+\tag{3}
+$$
 
 per [Gallup Religion Surveys][ref_gallup_religion_surveys], [Religious Landscape Study 2014][ref_pew_religious_landscape_2014], and [ARIS 1990 2008][ref_aris_1990_2008] American Religious Identification Survey reconstruction. The Christian share decline and "Nones" expansion documented above represent the most substantial American religious demographic transformation of the twentieth century's second half.
 
@@ -47,12 +56,15 @@ The Immigration Reform and Control Act (IRCA) of 6 November 1986 [IRCA 1986][ref
 
 IRCA legalization program totals reached approximately
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{IRCA general legalization approved, 1987 to 1988}} &\approx 1.6 \times 10^6 \\
 N_{\text{IRCA SAW program approved, 1987 to 1988}} &\approx 1.1 \times 10^6 \\
 N_{\text{IRCA total legalizations}} &\approx 2.7 \times 10^6 \\
 f_{\text{Mexican origin among IRCA legalizations}} &\approx 0.75
-\end{aligned}$$
+\end{aligned}
+\tag{4}
+$$
 
 per US Citizenship and Immigration Services records. The Mexican-origin majority among IRCA legalizations reflected ongoing US-Mexico labor migration through post-Bracero and pre-IRCA period documented in [A272][related_post_a272_depression_war_and_refuge] and [A273][related_post_a273_postwar_transformation_and_reopening].
 
@@ -60,7 +72,10 @@ Religious institutional support for IRCA legalization proceeded through US Confe
 
 IRCA's employer sanctions provisions proved ineffective in reducing undocumented migration through subsequent decades, producing substantial undocumented US population expansion,
 
-$$P_{\text{undocumented US population, estimated}}\bigg|_{1986} \approx 5 \times 10^6, \quad P\bigg|_{2000} \approx 8.5 \times 10^6, \quad P\bigg|_{2007} \approx 1.22 \times 10^7, \quad P\bigg|_{2020} \approx 1.05 \times 10^7$$
+$$
+P_{\text{undocumented US population, estimated}}\bigg|_{1986} \approx 5 \times 10^6, \quad P\bigg|_{2000} \approx 8.5 \times 10^6, \quad P\bigg|_{2007} \approx 1.22 \times 10^7, \quad P\bigg|_{2020} \approx 1.05 \times 10^7
+\tag{5}
+$$
 
 per Pew Research Center reconstruction. The 2007 peak reflected marked pre-2008 financial crisis Mexican and Central American migration.
 
@@ -70,20 +85,26 @@ The Immigration Act of 29 November 1990 [Immigration Act 1990][ref_immigration_a
 
 Act provisions included expansion of employment-based preference categories (EB-1 through EB-5 framework), family-based preference expansion, creation of Temporary Protected Status (TPS) framework treated below, Diversity Visa lottery, and removal of 1952 McCarran-Walter ideological exclusion provisions documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Approximate Diversity Visa Program admissions reached
 
-$$N_{\text{DV Program annual admissions ceiling}} = 5.5 \times 10^4, \quad N_{\text{DV Program cumulative admissions, 1995 to 2020}} \approx 1.4 \times 10^6, \quad f_{\text{African source countries among DV Program, 1995 to 2020}} \approx 0.45$$
+$$
+N_{\text{DV Program annual admissions ceiling}} = 5.5 \times 10^4, \quad N_{\text{DV Program cumulative admissions, 1995 to 2020}} \approx 1.4 \times 10^6, \quad f_{\text{African source countries among DV Program, 1995 to 2020}} \approx 0.45
+\tag{6}
+$$
 
 per US State Department records. The DV Program contributed to post-1990 African immigration expansion treated below.
 
 Temporary Protected Status (TPS) framework provided temporary humanitarian protection for nationals of designated countries facing armed conflict, environmental disaster, or extraordinary conditions. Initial TPS designations included
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Salvador TPS designation} &: 1990, N \approx 1.9 \times 10^5 \\
 \text{Nicaragua TPS designation} &: 1998, N \approx 5 \times 10^3 \\
 \text{Honduras TPS designation} &: 1999, N \approx 5.7 \times 10^4 \\
 \text{Somalia TPS designation} &: 1991, N \approx 5 \times 10^2 \\
 \text{Sudan TPS designation} &: 1997, N \approx 4 \times 10^3 \\
 \text{Sierra Leone TPS designation} &: 1997, N \approx 3 \times 10^3
-\end{aligned}$$
+\end{aligned}
+\tag{7}
+$$
 
 per US Citizenship and Immigration Services records, with extensions across subsequent decades.
 
@@ -93,7 +114,10 @@ The Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA) of 30 S
 
 The 1996 [PRWORA 1996][ref_prwora_1996] (PRWORA, welfare reform) restricted legal immigrant access to federal welfare programs, and 1996 [AEDPA 1996][ref_aedpa_1996] (AEDPA) provided additional expedited removal framework. Combined enforcement effects produced sizable deportation expansion,
 
-$$N_{\text{annual formal removals, US}}(1990) \approx 3 \times 10^4, \quad N\bigg|_{2000} \approx 1.9 \times 10^5, \quad N\bigg|_{2013} \approx 4.4 \times 10^5, \quad N_{\text{cumulative formal removals 1996 to 2020}} \gtrsim 5 \times 10^6$$
+$$
+N_{\text{annual formal removals, US}}(1990) \approx 3 \times 10^4, \quad N\bigg|_{2000} \approx 1.9 \times 10^5, \quad N\bigg|_{2013} \approx 4.4 \times 10^5, \quad N_{\text{cumulative formal removals 1996 to 2020}} \gtrsim 5 \times 10^6
+\tag{8}
+$$
 
 per Immigration and Customs Enforcement records. The 1996 legislation shaped twenty-first-century immigration enforcement framework treated in subsequent articles.
 
@@ -103,12 +127,15 @@ The 1997 [NACARA 1997][ref_nacara_1997] (NACARA) provided relief pathway for app
 
 Central American civil war refugee flows through 1980s-1990s produced appreciable American demographic transformation and religious institutional mobilization. Total Central American refugee arrivals reached approximately
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Salvadoran arrivals, US, 1980 to 2000}} &\approx 1.2 \times 10^6 \\
 N_{\text{Guatemalan arrivals, US, 1980 to 2000}} &\approx 4 \times 10^5 \\
 N_{\text{Nicaraguan arrivals, US, 1980 to 2000}} &\approx 2 \times 10^5 \\
 N_{\text{Honduran arrivals, US, 1980 to 2000}} &\approx 2 \times 10^5
-\end{aligned}$$
+\end{aligned}
+\tag{9}
+$$
 
 per US Immigration and Naturalization Service records. The [Menjívar 2000][book_menjivar_2000] Fragmented Ties, [Coutin 2000][book_coutin_2000] Legalizing Moves, and [Hagan 1994][book_hagan_1994] Deciding to Be Legal provide the leading treatments.
 
@@ -116,7 +143,10 @@ Religious composition of Central American refugee populations combined considera
 
 Sanctuary Movement expansion continued 1982-1990 window documented in [A273][related_post_a273_postwar_transformation_and_reopening]. By 1990 approximately
 
-$$N_{\text{Sanctuary Movement congregations, US, peak c. 1988 to 1990}} \approx 6 \times 10^2, \quad N_{\text{Sanctuary Movement participating religious denominations}} \approx 25$$
+$$
+N_{\text{Sanctuary Movement congregations, US, peak c. 1988 to 1990}} \approx 6 \times 10^2, \quad N_{\text{Sanctuary Movement participating religious denominations}} \approx 25
+\tag{10}
+$$
 
 per institutional records. The 1987 [INS v. Cardoza-Fonseca 1987][ref_ins_v_cardoza_fonseca_1987] Supreme Court decision lowered asylum evidentiary standard from "clear probability" to "well-founded fear of persecution" framework consistent with 1980 Refugee Act statutory language, producing significant asylum grant expansion. The 1990 [American Baptist Churches v. 1991][ref_abc_v_thornburgh_1991] American Baptist Churches v. Thornburgh settlement produced substantial relief for approximately 500,000 Salvadoran and Guatemalan asylum applicants previously denied under Reagan administration framework. The settlement's institutional impact preceded NACARA framework treated above.
 
@@ -124,13 +154,19 @@ per institutional records. The 1987 [INS v. Cardoza-Fonseca 1987][ref_ins_v_card
 
 Iranian refugee migration continuing from 1979 revolution through 1980s-2000s produced marked Iranian American community formation. Total Iranian arrivals reached approximately
 
-$$N_{\text{Iranian arrivals, US, 1979 to 2000}} \approx 3 \times 10^5, \quad N_{\text{Iranian arrivals, US, 1979 to 2020}} \approx 5 \times 10^5, \quad P_{\text{Iranian American, US}}\bigg|_{2020} \approx 5 \times 10^5$$
+$$
+N_{\text{Iranian arrivals, US, 1979 to 2000}} \approx 3 \times 10^5, \quad N_{\text{Iranian arrivals, US, 1979 to 2020}} \approx 5 \times 10^5, \quad P_{\text{Iranian American, US}}\bigg|_{2020} \approx 5 \times 10^5
+\tag{11}
+$$
 
 per US Census records. Concentration in Los Angeles ("Tehrangeles" Westwood district) reflected pre-1979 educational and business linkages combined with post-1979 institutional community formation. The [Mostofi 2003][book_mostofi_2003] Iranian Americans (already cited in A273), [Bozorgmehr 1998][book_bozorgmehr_1998] From Iranian Studies, and [Kelley 1993][book_kelley_1993] Irangeles provide the most complete treatments.
 
 Iranian religious minority admissions were extensive through US refugee framework. Approximate religious composition of Iranian American population reached
 
-$$f_{\text{Iranian Muslim (Shia and Sunni), US}} \approx 0.30, \quad f_{\text{Iranian Jewish, US}} \approx 0.25, \quad f_{\text{Iranian Baha'i, US}} \approx 0.10, \quad f_{\text{Iranian Christian (Armenian, Assyrian, Persian evangelical), US}} \approx 0.15, \quad f_{\text{Iranian Zoroastrian, US}} \approx 0.05, \quad f_{\text{Iranian secular or unaffiliated, US}} \approx 0.15$$
+$$
+f_{\text{Iranian Muslim (Shia and Sunni), US}} \approx 0.30, \quad f_{\text{Iranian Jewish, US}} \approx 0.25, \quad f_{\text{Iranian Baha'i, US}} \approx 0.10, \quad f_{\text{Iranian Christian (Armenian, Assyrian, Persian evangelical), US}} \approx 0.15, \quad f_{\text{Iranian Zoroastrian, US}} \approx 0.05, \quad f_{\text{Iranian secular or unaffiliated, US}} \approx 0.15
+\tag{12}
+$$
 
 per Public Affairs Alliance of Iranian Americans and Pew Research reconstruction. The over-represented religious minority proportion (approximately 55% non-Muslim among US Iranian American population versus approximately 1% non-Muslim among Iranian population) reflects Islamic Republic religious minority persecution driving selective emigration. The [Sanasarian 2000][book_sanasarian_2000] Religious Minorities in Iran (already cited in A273) treats the religious minority persecution framework.
 
@@ -138,13 +174,19 @@ per Public Affairs Alliance of Iranian Americans and Pew Research reconstruction
 
 Cambodian refugee admission through 1975-1994 window continued the 1975 initial wave documented in [A273][related_post_a273_postwar_transformation_and_reopening], with sizable 1979-1980 acceleration following Vietnamese overthrow of Khmer Rouge regime and consequent Cambodian refugee flow to Thai border camps. Total Cambodian arrivals reached approximately
 
-$$N_{\text{Cambodian arrivals, US, 1975 to 1994}} \approx 1.5 \times 10^5, \quad P_{\text{Cambodian American, US}}\bigg|_{2020} \approx 3.4 \times 10^5$$
+$$
+N_{\text{Cambodian arrivals, US, 1975 to 1994}} \approx 1.5 \times 10^5, \quad P_{\text{Cambodian American, US}}\bigg|_{2020} \approx 3.4 \times 10^5
+\tag{13}
+$$
 
 per US Office of Refugee Resettlement records. The [Chan 2004][book_chan_2004] Survivors, [Kiernan 2008][book_kiernan_2008] The Pol Pot Regime, and [Mortland 2017][book_mortland_2017] Grief and the Healing of the Cambodian Community treat the Cambodian refugee formation and Khmer Rouge context.
 
 Cambodian American religious composition was Theravada Buddhist (approximately 90%) with Cham Muslim (approximately 5%) and Christian minority. Institutional Buddhist temple formation proceeded through 1980s-1990s window,
 
-$$N_{\text{Cambodian Buddhist temples (wats), US, 1985}} \approx 30, \quad N_{\text{Cambodian wats, US, 2020}} \approx 150, \quad N_{\text{ordained Cambodian Buddhist monks, US}} \approx 400$$
+$$
+N_{\text{Cambodian Buddhist temples (wats), US, 1985}} \approx 30, \quad N_{\text{Cambodian wats, US, 2020}} \approx 150, \quad N_{\text{ordained Cambodian Buddhist monks, US}} \approx 400
+\tag{14}
+$$
 
 per institutional records. Cambodian American concentration in Long Beach, California ("Cambodia Town" designation 2007), Lowell, Massachusetts, Providence, Rhode Island, and assorted other concentrations produced characteristic post-refugee Cambodian community formation.
 
@@ -152,19 +194,28 @@ per institutional records. Cambodian American concentration in Long Beach, Calif
 
 Ethiopian refugee migration through 1980-2000 window combined appreciable Amhara, Oromo, Tigray, and other Ethiopian populations displaced by 1974-1991 Derg regime persecution, 1983-1985 famine, and 1974-1991 Ethiopian Civil War. Total Ethiopian arrivals reached approximately
 
-$$N_{\text{Ethiopian arrivals, US, 1980 to 2000}} \approx 8 \times 10^4, \quad P_{\text{Ethiopian American, US}}\bigg|_{2020} \approx 3 \times 10^5$$
+$$
+N_{\text{Ethiopian arrivals, US, 1980 to 2000}} \approx 8 \times 10^4, \quad P_{\text{Ethiopian American, US}}\bigg|_{2020} \approx 3 \times 10^5
+\tag{15}
+$$
 
 per US Immigration and Naturalization Service records. Concentration in Washington DC metropolitan area ("Little Ethiopia" 9th and U Streets NW neighborhood) reflected 1970s Ethiopian student population combined with 1980s-1990s refugee expansion. The [Levine 2000][book_levine_2000] Greater Ethiopia and [Chacko 2003][book_chacko_2003] Identity and Assimilation among Young Ethiopian Immigrants provide the standard treatments.
 
 Ethiopian American religious composition combined considerable Ethiopian Orthodox Tewahedo Church (approximately 45%), Ethiopian Islam (approximately 25%), Ethiopian Protestant (approximately 25% including Pentecostal, Baptist, and a number of evangelical denominations), and traditional and Ethiopian Catholic minorities. Ethiopian Orthodox Church congregations in the US reached approximately
 
-$$N_{\text{Ethiopian Orthodox Tewahedo parishes, US, 2020}} \approx 100, \quad P_{\text{Ethiopian Orthodox affiliation, US}}\bigg|_{2020} \approx 1.3 \times 10^5$$
+$$
+N_{\text{Ethiopian Orthodox Tewahedo parishes, US, 2020}} \approx 100, \quad P_{\text{Ethiopian Orthodox affiliation, US}}\bigg|_{2020} \approx 1.3 \times 10^5
+\tag{16}
+$$
 
 per institutional records.
 
 Ethiopian Jewish (Beta Israel, formerly termed "Falasha") migration proceeded through 1984-1985 Operation Moses (approximately 8,000 airlifted through Sudan to Israel), 1991 Operation Solomon (approximately 14,300 airlifted from Addis Ababa to Israel in 36-hour operation), and smaller operations. Approximately
 
-$$N_{\text{Beta Israel emigrants to Israel, cumulative 1980 to 2020}} \approx 1.4 \times 10^5, \quad N_{\text{Beta Israel population, US}} \approx 3 \times 10^3$$
+$$
+N_{\text{Beta Israel emigrants to Israel, cumulative 1980 to 2020}} \approx 1.4 \times 10^5, \quad N_{\text{Beta Israel population, US}} \approx 3 \times 10^3
+\tag{17}
+$$
 
 per Jewish Agency for Israel and US Census records. The smaller US Ethiopian Jewish population reflected Israeli institutional priority for Beta Israel absorption combined with 1970s Israeli rabbinical recognition of Ethiopian Jewish authenticity. The [Kaplan and Kaplan 1992][book_kaplan_1992] The Beta Israel and [Salamon 1999][book_salamon_1999] The Hyena People treat the Beta Israel history.
 
@@ -172,13 +223,19 @@ per Jewish Agency for Israel and US Census records. The smaller US Ethiopian Jew
 
 Somali refugee admission accelerated through 1991-2000 window following 1991 Somali state collapse and subsequent civil war and famine. Total Somali arrivals reached approximately
 
-$$N_{\text{Somali arrivals, US, 1991 to 2020}} \approx 1.5 \times 10^5, \quad P_{\text{Somali American, US}}\bigg|_{2020} \approx 1.7 \times 10^5$$
+$$
+N_{\text{Somali arrivals, US, 1991 to 2020}} \approx 1.5 \times 10^5, \quad P_{\text{Somali American, US}}\bigg|_{2020} \approx 1.7 \times 10^5
+\tag{18}
+$$
 
 per US Office of Refugee Resettlement records. Concentration in Minneapolis-Saint Paul metropolitan area ("Little Mogadishu" Cedar-Riverside neighborhood at Minneapolis containing approximately 40,000 Somali American residents), Columbus, Ohio, and Seattle produced characteristic Somali diaspora community formation. The [Waldinger and Lichter 2003][book_waldinger_lichter_2003] How the Other Half Works and [Chanoff 2002][book_chanoff_2002] African Refugees in America treat the Somali refugee formation.
 
 Somali religious composition was Sunni Muslim (approximately 99%) with Christian and traditional religious minorities. Institutional Somali mosque formation proceeded through 1990s-2000s window,
 
-$$N_{\text{Somali-affiliated mosques, US, 2020}} \approx 80, \quad N_{\text{Somali Islamic centers, Minneapolis-St. Paul metropolitan area, 2020}} \approx 20$$
+$$
+N_{\text{Somali-affiliated mosques, US, 2020}} \approx 80, \quad N_{\text{Somali Islamic centers, Minneapolis-St. Paul metropolitan area, 2020}} \approx 20
+\tag{19}
+$$
 
 per institutional records. Twenty-first-century Somali American religious institutional formation combining traditional Somali Sufi tradition with broader American Muslim institutional framework treated below produced characteristic Somali diaspora religious community. The 2016 Ilhan Omar Minneapolis City Council election and 2018 US House of Representatives election as one of first two Muslim women in Congress reflected Somali American political integration.
 
@@ -186,13 +243,19 @@ per institutional records. Twenty-first-century Somali American religious instit
 
 Bosnian refugee admission through 1992-1999 Balkan conflicts window produced significant American Bosnian community formation. Total Bosnian arrivals reached approximately
 
-$$N_{\text{Bosnian arrivals, US, 1992 to 2000}} \approx 1.3 \times 10^5, \quad P_{\text{Bosnian American, US}}\bigg|_{2020} \approx 1.4 \times 10^5$$
+$$
+N_{\text{Bosnian arrivals, US, 1992 to 2000}} \approx 1.3 \times 10^5, \quad P_{\text{Bosnian American, US}}\bigg|_{2020} \approx 1.4 \times 10^5
+\tag{20}
+$$
 
 per US Office of Refugee Resettlement records. Concentration in Saint Louis, Missouri ("Little Bosnia" Bevo Mill neighborhood containing approximately 50,000 Bosnian American residents), Chicago, and Utica, New York produced characteristic Bosnian diaspora community formation. The [Franz 2005][book_franz_2005] Uprooted and Unwanted, [Coughlan and Owens-Manley 2005][book_coughlan_owens_manley_2005] Bosnian Refugees in America, and [Robinson 1998][book_robinson_1998] Terms of Refuge (already cited in A273) provide the fullest treatments.
 
 Bosnian religious composition combined substantial Bosnian Muslim (Bosniak) majority (approximately 70%), Serbian Orthodox minority (approximately 15%), Croatian Catholic minority (approximately 10%), and mixed and secular populations. Institutional Bosnian Muslim religious formation proceeded through 1990s-2000s window,
 
-$$N_{\text{Bosnian Muslim mosques and Islamic centers, US, 2020}} \approx 40$$
+$$
+N_{\text{Bosnian Muslim mosques and Islamic centers, US, 2020}} \approx 40
+\tag{21}
+$$
 
 per institutional records. The 21 November 1995 [General Framework Agreement 1995][ref_dayton_accords_1995] Dayton Peace Accords formally ending Bosnian War (signed 14 December 1995 at Paris) and 24 March to 10 June 1999 NATO Kosovo intervention framed American religious institutional responses to Balkan conflict combining mainline Protestant and Catholic institutional engagement with American Muslim institutional support for Bosniak population protection.
 
@@ -202,13 +265,16 @@ Vietnamese refugee admission continued through 1980-2000 window building on 1975
 
 Total Vietnamese admissions across frameworks reached approximately
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 N_{\text{Vietnamese first wave, 1975}} &\approx 1.3 \times 10^5 \\
 N_{\text{Vietnamese Boat People, 1978 to 1994}} &\approx 4 \times 10^5 \\
 N_{\text{Vietnamese Orderly Departure Program, 1979 to 1994}} &\approx 5 \times 10^5 \\
 N_{\text{Amerasian Homecoming Act admissions, 1988 to 1994}} &\approx 1 \times 10^5 \\
 P_{\text{Vietnamese American, US}}\bigg|_{2020} &\approx 2.2 \times 10^6
-\end{aligned}$$
+\end{aligned}
+\tag{22}
+$$
 
 per US Office of Refugee Resettlement and US Citizenship and Immigration Services records.
 
@@ -216,13 +282,19 @@ per US Office of Refugee Resettlement and US Citizenship and Immigration Service
 
 The 1994 Cuban Balseros crisis (Rafters Crisis) produced marked Caribbean migration flow to the United States. Following 5 August 1994 Havana Malecón riots and Fidel Castro's "we will not stop anyone" policy announcement, approximately
 
-$$N_{\text{Cuban Balseros arrivals, August to September 1994}} \approx 3.5 \times 10^4, \quad N_{\text{Cuban Balseros interdicted at sea}} \approx 5 \times 10^4$$
+$$
+N_{\text{Cuban Balseros arrivals, August to September 1994}} \approx 3.5 \times 10^4, \quad N_{\text{Cuban Balseros interdicted at sea}} \approx 5 \times 10^4
+\tag{23}
+$$
 
 per US Coast Guard records. The 9 September 1994 [US-Cuba Migration Accord 1994][ref_us_cuba_migration_accord_1994] Clinton-Castro migration accord established "wet foot dry foot" framework combining 20,000 annual visa lottery with interdiction of Cuban migrants at sea. The 12 January 2017 Obama policy reversal ending "wet foot dry foot" modified framework. The [Ackerman and Clark 1995][book_ackerman_clark_1995] The Cuban Balseros treats the comprehensive Balseros formation.
 
 Haitian migration under 1980 Refugee Act framework documented in [A273][related_post_a273_postwar_transformation_and_reopening] produced extensive American Haitian community formation. Total Haitian arrivals reached approximately
 
-$$N_{\text{Haitian arrivals, US, 1980 to 2000}} \approx 3 \times 10^5, \quad P_{\text{Haitian American, US}}\bigg|_{2020} \approx 1.1 \times 10^6$$
+$$
+N_{\text{Haitian arrivals, US, 1980 to 2000}} \approx 3 \times 10^5, \quad P_{\text{Haitian American, US}}\bigg|_{2020} \approx 1.1 \times 10^6
+\tag{24}
+$$
 
 per US Census records. Concentration in New York City (Flatbush and Crown Heights Brooklyn neighborhoods) and Miami (Little Haiti neighborhood) produced characteristic Haitian diaspora community formation. Haitian American religious composition combined sizable Catholic majority (approximately 55%), Protestant and Pentecostal populations (approximately 30%), and Vodou (Vodun) syncretic religious practices preserved despite ongoing institutional Catholic and evangelical Protestant opposition. The [Stepick 1998][book_stepick_1998] Pride Against Prejudice and [Richman 2005][book_richman_2005] Migration and Vodou provide the detailed treatments.
 
@@ -232,17 +304,26 @@ The 1998 [Haitian Refugee Immigration Fairness 1998][ref_hrifa_1998] Haitian Ref
 
 Chinese immigration through 1980-2000 window combined appreciable post-Cultural Revolution educational and family migration with 1989 Tiananmen Square aftermath refugee framework. Total Chinese arrivals reached approximately
 
-$$N_{\text{Chinese arrivals, US, 1980 to 2000}} \approx 1 \times 10^6, \quad P_{\text{Chinese American, US}}\bigg|_{2020} \approx 5.4 \times 10^6$$
+$$
+N_{\text{Chinese arrivals, US, 1980 to 2000}} \approx 1 \times 10^6, \quad P_{\text{Chinese American, US}}\bigg|_{2020} \approx 5.4 \times 10^6
+\tag{25}
+$$
 
 per US Immigration and Naturalization Service records. The 11 April 1990 [Executive Order 12711 1990][ref_executive_order_12711_1990] Bush Executive Order provided deferred enforced departure protection for Chinese nationals in US, superseded by 1992 [Chinese Student Protection Act 1992][ref_chinese_student_protection_1992] Chinese Student Protection Act providing permanent resident status for approximately 80,000 Chinese nationals in US on 4 June 1989 (Tiananmen Square Massacre date), expanding Chinese American academic and professional population. The [Zhou 1992][book_zhou_1992] Chinatown, [Lee 2015][book_lee_2015] The Making of Asian America (already cited in A273), and [Ling 2004][book_ling_2004] Chinese Chicago provide the leading treatments.
 
 Chinese American religious composition reached considerable proportions,
 
-$$f_{\text{Chinese American traditional/Buddhist}}\bigg|_{2020} \approx 0.40, \quad f_{\text{Chinese American Christian}}\bigg|_{2020} \approx 0.30, \quad f_{\text{Chinese American unaffiliated}}\bigg|_{2020} \approx 0.25, \quad f_{\text{Chinese American other}}\bigg|_{2020} \approx 0.05$$
+$$
+f_{\text{Chinese American traditional/Buddhist}}\bigg|_{2020} \approx 0.40, \quad f_{\text{Chinese American Christian}}\bigg|_{2020} \approx 0.30, \quad f_{\text{Chinese American unaffiliated}}\bigg|_{2020} \approx 0.25, \quad f_{\text{Chinese American other}}\bigg|_{2020} \approx 0.05
+\tag{26}
+$$
 
 per Pew Research reconstruction. expanded Chinese Christian identification reflected post-1965 American immigrant conversion pattern, with significant evangelical Protestant and Catholic populations. differing new religious movements included Falun Gong (founded 1992 by Li Hongzhi at Changchun, subsequently persecuted by Chinese Communist Party from 1999 producing substantial US Falun Gong practitioner community estimated at
 
-$$P_{\text{Falun Gong practitioners, US}}\bigg|_{2020} \approx 5 \times 10^4$$
+$$
+P_{\text{Falun Gong practitioners, US}}\bigg|_{2020} \approx 5 \times 10^4
+\tag{27}
+$$
 
 per institutional estimates). The [Yang 1999][book_yang_1999] Chinese Christians in America and [Chen 2008][book_chen_2008] Getting Saved in America treat the Chinese American Christian institutional formation.
 
@@ -250,11 +331,17 @@ per institutional estimates). The [Yang 1999][book_yang_1999] Chinese Christians
 
 Korean immigration through 1965-2000 window produced marked American Korean community and religious institutional formation. Korean American population reached approximately
 
-$$P_{\text{Korean American, US}}\bigg|_{1970} \approx 7 \times 10^4, \quad P\bigg|_{1990} \approx 8 \times 10^5, \quad P\bigg|_{2020} \approx 1.9 \times 10^6$$
+$$
+P_{\text{Korean American, US}}\bigg|_{1970} \approx 7 \times 10^4, \quad P\bigg|_{1990} \approx 8 \times 10^5, \quad P\bigg|_{2020} \approx 1.9 \times 10^6
+\tag{28}
+$$
 
 per US Census records. Korean American religious composition was Christian (approximately 70% Christian identification, primarily Presbyterian and Methodist, reflecting twentieth-century Korean Protestant expansion documented in [A272][related_post_a272_depression_war_and_refuge] and [A273][related_post_a273_postwar_transformation_and_reopening]). Korean American Christian institutional formation was extensive,
 
-$$N_{\text{Korean American Christian congregations, US, 1980}} \approx 500, \quad N\bigg|_{2000} \approx 2500, \quad N\bigg|_{2020} \approx 4000$$
+$$
+N_{\text{Korean American Christian congregations, US, 1980}} \approx 500, \quad N\bigg|_{2000} \approx 2500, \quad N\bigg|_{2020} \approx 4000
+\tag{29}
+$$
 
 per denominational and Association of Korean American Churches records. The [Kwon et al. 2001][book_kwon_kim_warner_2001] Korean Americans and Their Religions (already cited in A273), [Min 2010][book_min_2010] Preserving Ethnicity through Religion in America, and [Chai 2001][book_chai_2001] Beyond Strictness treat the comprehensive Korean American Christian formation.
 
@@ -266,25 +353,37 @@ Korean American Catholic and Buddhist populations were smaller, reflecting twent
 
 Indian immigration through 1965-2000 window produced sizable American Indian community and religious institutional formation. Indian American population reached approximately
 
-$$P_{\text{Indian American, US}}\bigg|_{1970} \approx 5 \times 10^4, \quad P\bigg|_{1990} \approx 8 \times 10^5, \quad P\bigg|_{2020} \approx 4.6 \times 10^6$$
+$$
+P_{\text{Indian American, US}}\bigg|_{1970} \approx 5 \times 10^4, \quad P\bigg|_{1990} \approx 8 \times 10^5, \quad P\bigg|_{2020} \approx 4.6 \times 10^6
+\tag{30}
+$$
 
 per US Census records, producing approximately 92-fold expansion across 50-year post-1965 window. Indian American religious composition combined appreciable Hindu (approximately 55%), Muslim (approximately 15%), Sikh (approximately 5%), Christian (approximately 15% including Syrian Christian, Roman Catholic, various evangelical Protestant populations), Jain (approximately 3%), and assorted other traditions. The [Kurien 2007][book_kurien_2007] A Place at the Multicultural Table and [Prashad 2000][book_prashad_2000] The Karma of Brown Folk provide the principal treatments.
 
 Hindu temple movement expansion was considerable through 1970s-2020s window,
 
-$$N_{\text{Hindu temples, US, 1980}} \approx 50, \quad N_{\text{Hindu temples, US, 2000}} \approx 400, \quad N_{\text{Hindu temples, US, 2020}} \approx 800$$
+$$
+N_{\text{Hindu temples, US, 1980}} \approx 50, \quad N_{\text{Hindu temples, US, 2000}} \approx 400, \quad N_{\text{Hindu temples, US, 2020}} \approx 800
+\tag{31}
+$$
 
 per Hindu American Foundation and Hindu Mandir Executives' Conference records. Major American Hindu temple complexes include BAPS Shri Swaminarayan Mandir at Robbinsville, New Jersey (dedicated 2014, approximately 500,000 square feet), Hindu Temple of Atlanta, Sri Venkateswara Temple at Pittsburgh (dedicated 1977 as first traditional-style South Indian Hindu temple in the US), and a number of others. The [Kurien 1998][book_kurien_1998] Becoming American, Becoming Indian treats the institutional formation.
 
 Sikh American gurdwara expansion proceeded through 1980-2020 window building on pre-1924 Punjabi arrivals documented in [A271][related_post_a271_mass_immigration_and_closure] and post-1965 South Asian immigration expansion. Approximate institutional counts reached
 
-$$N_{\text{Sikh gurdwaras, US, 1980}} \approx 20, \quad N\bigg|_{2000} \approx 130, \quad N\bigg|_{2020} \approx 350, \quad P_{\text{Sikh American, US}}\bigg|_{2020} \approx 5 \times 10^5$$
+$$
+N_{\text{Sikh gurdwaras, US, 1980}} \approx 20, \quad N\bigg|_{2000} \approx 130, \quad N\bigg|_{2020} \approx 350, \quad P_{\text{Sikh American, US}}\bigg|_{2020} \approx 5 \times 10^5
+\tag{32}
+$$
 
 per institutional records. The [Singh 2013][book_singh_2013] Sikhs in America treats the institutional formation.
 
 Jain American population and temple formation reached approximately
 
-$$P_{\text{Jain American, US}}\bigg|_{2020} \approx 1.5 \times 10^5, \quad N_{\text{Jain temples, US, 2020}} \approx 100$$
+$$
+P_{\text{Jain American, US}}\bigg|_{2020} \approx 1.5 \times 10^5, \quad N_{\text{Jain temples, US, 2020}} \approx 100
+\tag{33}
+$$
 
 per Jain Center of America and Federation of Jain Associations in North America records. Additional Indian American Zoroastrian population (approximately 15,000 by 2020) and Ismaili Muslim populations similarly established US institutional infrastructure through same window.
 
@@ -292,7 +391,10 @@ per Jain Center of America and Federation of Jain Associations in North America 
 
 Pakistani and Bangladeshi immigration through 1965-2000 window produced significant American South Asian Muslim community formation. Pakistani American and Bangladeshi American populations reached approximately
 
-$$P_{\text{Pakistani American, US}}\bigg|_{1980} \approx 1.5 \times 10^4, \quad P\bigg|_{2020} \approx 5.5 \times 10^5, \quad P_{\text{Bangladeshi American, US}}\bigg|_{1980} \approx 5 \times 10^3, \quad P\bigg|_{2020} \approx 2.1 \times 10^5$$
+$$
+P_{\text{Pakistani American, US}}\bigg|_{1980} \approx 1.5 \times 10^4, \quad P\bigg|_{2020} \approx 5.5 \times 10^5, \quad P_{\text{Bangladeshi American, US}}\bigg|_{1980} \approx 5 \times 10^3, \quad P\bigg|_{2020} \approx 2.1 \times 10^5
+\tag{34}
+$$
 
 per US Census records. Concentration in New York City metropolitan area (Coney Island Avenue Little Pakistan and Jackson Heights Little Bangladesh), Chicago, Houston, and San Francisco Bay Area produced characteristic community formations. The [Rangaswamy 2000][book_rangaswamy_2000] Namasté America and [Bald 2013][book_bald_2013] Bengali Harlem (already cited in A271) provide the most complete treatments.
 
@@ -300,7 +402,10 @@ American Muslim institutional consolidation proceeded through 1980s-2000s window
 
 American Muslim population reached approximately
 
-$$P_{\text{Muslim American, US}}\bigg|_{1980} \approx 1 \times 10^6, \quad P\bigg|_{2000} \approx 2 \times 10^6, \quad P\bigg|_{2020} \approx 3.5 \times 10^6, \quad N_{\text{US mosques and Islamic centers, 1980}} \approx 200, \quad N\bigg|_{2020} \approx 2800$$
+$$
+P_{\text{Muslim American, US}}\bigg|_{1980} \approx 1 \times 10^6, \quad P\bigg|_{2000} \approx 2 \times 10^6, \quad P\bigg|_{2020} \approx 3.5 \times 10^6, \quad N_{\text{US mosques and Islamic centers, 1980}} \approx 200, \quad N\bigg|_{2020} \approx 2800
+\tag{35}
+$$
 
 per Islamic Society of North America and Pew Research reconstruction. Approximate American Muslim demographic composition combined substantial African American Muslim populations (approximately 20% including Warith Deen Muhammad successor community and Farrakhan-led Nation of Islam documented in [A273][related_post_a273_postwar_transformation_and_reopening]), South Asian Muslim (approximately 30% including Pakistani, Bangladeshi, and Indian populations), Arab Muslim (approximately 25%), Iranian, Turkish, and Central Asian Muslim (approximately 15%), and differing other Muslim populations. The [Bagby 2020][book_bagby_2020] The American Mosque Study treats the institutional infrastructure.
 
@@ -308,13 +413,19 @@ per Islamic Society of North America and Pew Research reconstruction. Approximat
 
 Filipino immigration through 1965-2020 window continued the pre-1965 pattern documented in [A271][related_post_a271_mass_immigration_and_closure], [A272][related_post_a272_depression_war_and_refuge], and [A273][related_post_a273_postwar_transformation_and_reopening] under expanded quota framework. Filipino American population reached approximately
 
-$$P_{\text{Filipino American, US}}\bigg|_{1970} \approx 3.4 \times 10^5, \quad P\bigg|_{1990} \approx 1.4 \times 10^6, \quad P\bigg|_{2020} \approx 4.4 \times 10^6$$
+$$
+P_{\text{Filipino American, US}}\bigg|_{1970} \approx 3.4 \times 10^5, \quad P\bigg|_{1990} \approx 1.4 \times 10^6, \quad P\bigg|_{2020} \approx 4.4 \times 10^6
+\tag{36}
+$$
 
 per US Census records, producing approximately thirteen-fold expansion across 50-year post-1965 window. Concentration in California (approximately 30% of US Filipino Americans), Hawaii, New York, and several major metropolitan areas produced characteristic community formation. The [Espana-Maram 2006][book_espana_maram_2006] Creating Masculinity in Los Angeles's Little Manila (already cited in A271) and [Bonus 2000][book_bonus_2000] Locating Filipino Americans provide the fullest treatments.
 
 Filipino American religious composition trajectory,
 
-$$f_{\text{Catholic among Filipino Americans}}\bigg|_{1970} \approx 0.85, \quad f\bigg|_{1990} \approx 0.75, \quad f\bigg|_{2020} \approx 0.65, \quad f_{\text{Protestant/Pentecostal among Filipino Americans}}\bigg|_{2020} \approx 0.20, \quad P_{\text{Iglesia ni Cristo US membership, 2020}} \approx 1 \times 10^5$$
+$$
+f_{\text{Catholic among Filipino Americans}}\bigg|_{1970} \approx 0.85, \quad f\bigg|_{1990} \approx 0.75, \quad f\bigg|_{2020} \approx 0.65, \quad f_{\text{Protestant/Pentecostal among Filipino Americans}}\bigg|_{2020} \approx 0.20, \quad P_{\text{Iglesia ni Cristo US membership, 2020}} \approx 1 \times 10^5
+\tag{37}
+$$
 
 reflecting 350-year Spanish colonial Catholic evangelization and 1898-1946 American Protestant missionary formation documented in [A270][related_post_a270_civil_war_and_reconstruction] and [A271][related_post_a271_mass_immigration_and_closure], expanding Protestant and Pentecostal populations, Iglesia ni Cristo (INC, founded 1914 by Felix Manalo as Filipino Restorationist denomination) US presence, and Aglipayan (Iglesia Filipina Independiente) minority. The [Pantoja 2003][book_pantoja_2003] Filipino American Faith in Action treats the Filipino American religious formation.
 
@@ -322,13 +433,19 @@ reflecting 350-year Spanish colonial Catholic evangelization and 1898-1946 Ameri
 
 Post-1965 African immigration produced marked American African community formation particularly through 1990-2020 window under Diversity Visa Program framework documented above. African immigrant population reached approximately
 
-$$P_{\text{African-born, US}}\bigg|_{1970} \approx 8 \times 10^4, \quad P\bigg|_{1990} \approx 3.6 \times 10^5, \quad P\bigg|_{2020} \approx 2.4 \times 10^6$$
+$$
+P_{\text{African-born, US}}\bigg|_{1970} \approx 8 \times 10^4, \quad P\bigg|_{1990} \approx 3.6 \times 10^5, \quad P\bigg|_{2020} \approx 2.4 \times 10^6
+\tag{38}
+$$
 
 per US Census records. Major source countries included Nigeria (approximately 25% of African-born US population), Ethiopia (documented above), Ghana (approximately 8%), Egypt (approximately 8%), Kenya (approximately 6%), and a range of others. The [Arthur 2010][book_arthur_2010] African Diaspora Identities and [Yankah 2018][book_yankah_2018] African Immigrants and Religious Pluralism provide the treatments.
 
 African immigrant religious composition combined extensive Christian majority (approximately 70% across various denominations), Muslim minority (approximately 25%, reflecting West African Muslim populations from Senegal, Guinea, and Mali plus North African Muslim populations from Egypt and Morocco), and traditional religions minorities. Nigerian and Ghanaian Pentecostal denominational transplants produced sizable institutional expansion,
 
-$$N_{\text{African-affiliated Christian congregations, US, 2020}} \approx 3 \times 10^3, \quad N_{\text{Redeemed Christian Church of God parishes, US, 2020}} \approx 8 \times 10^2$$
+$$
+N_{\text{African-affiliated Christian congregations, US, 2020}} \approx 3 \times 10^3, \quad N_{\text{Redeemed Christian Church of God parishes, US, 2020}} \approx 8 \times 10^2
+\tag{39}
+$$
 
 per institutional records. The Redeemed Christian Church of God (RCCG, founded 1952 at Lagos, Nigeria) expanded through 1990s-2020s American establishment producing most extensive African Pentecostal denominational US presence. The [Adogame 2013][book_adogame_2013] The African Christian Diaspora treats the African Christian institutional formation in US and Europe.
 
@@ -338,11 +455,17 @@ American Muslim institutional consolidation through 1980-2000 window produced co
 
 American Muslim educational institutional development reached significant scale,
 
-$$N_{\text{full-time Islamic schools, US, 2020}} \approx 300, \quad N_{\text{Islamic weekend schools, US, 2020}} \approx 1500, \quad P_{\text{ISNA annual convention attendance, peak c. 2010}} \approx 4 \times 10^4$$
+$$
+N_{\text{full-time Islamic schools, US, 2020}} \approx 300, \quad N_{\text{Islamic weekend schools, US, 2020}} \approx 1500, \quad P_{\text{ISNA annual convention attendance, peak c. 2010}} \approx 4 \times 10^4
+\tag{40}
+$$
 
 per institutional records. Institutional formations included Islamic Seminary of America (formed 1979), Zaytuna College (formed 2008 at Berkeley, California as first accredited Muslim liberal arts college in US), and American Islamic College (formed 1983 at Chicago). Halal certification infrastructure expanded through 1990s-2020s window,
 
-$$C_{\text{US halal food market annual sales, 2020}} \approx 2 \times 10^{10} \text{ USD}, \quad N_{\text{halal-certified establishments, US, 2020}} \gtrsim 3 \times 10^4$$
+$$
+C_{\text{US halal food market annual sales, 2020}} \approx 2 \times 10^{10} \text{ USD}, \quad N_{\text{halal-certified establishments, US, 2020}} \gtrsim 3 \times 10^4
+\tag{41}
+$$
 
 per Islamic Food and Nutrition Council of America records.
 
@@ -352,11 +475,17 @@ American Buddhism expansion through 1965-2020 window combined substantial ethnic
 
 American Buddhist population reached approximately
 
-$$P_{\text{Buddhist American, US}}\bigg|_{1980} \approx 5 \times 10^5, \quad P\bigg|_{2000} \approx 2 \times 10^6, \quad P\bigg|_{2020} \approx 2.5 \times 10^6, \quad f_{\text{convert (non-Asian ancestry) among US Buddhists, c. 2000}} \approx 0.30$$
+$$
+P_{\text{Buddhist American, US}}\bigg|_{1980} \approx 5 \times 10^5, \quad P\bigg|_{2000} \approx 2 \times 10^6, \quad P\bigg|_{2020} \approx 2.5 \times 10^6, \quad f_{\text{convert (non-Asian ancestry) among US Buddhists, c. 2000}} \approx 0.30
+\tag{42}
+$$
 
 per American Religious Identification Survey and Pew Research reconstruction. Major American Buddhist institutional streams reached extensive institutional presence,
 
-$$N_{\text{ethnic Asian Buddhist temples, US, 2020}} \approx 2 \times 10^3, \quad N_{\text{Tibetan Buddhist centers, US, 2020}} \approx 500, \quad N_{\text{Zen centers (American convert), US, 2020}} \approx 300, \quad N_{\text{Insight Meditation (Vipassana) centers, US, 2020}} \approx 250, \quad N_{\text{Soka Gakkai centers, US, 2020}} \approx 100$$
+$$
+N_{\text{ethnic Asian Buddhist temples, US, 2020}} \approx 2 \times 10^3, \quad N_{\text{Tibetan Buddhist centers, US, 2020}} \approx 500, \quad N_{\text{Zen centers (American convert), US, 2020}} \approx 300, \quad N_{\text{Insight Meditation (Vipassana) centers, US, 2020}} \approx 250, \quad N_{\text{Soka Gakkai centers, US, 2020}} \approx 100
+\tag{43}
+$$
 
 per Pluralism Project and Association of Religion Data Archives records. San Francisco Zen Center (founded 1962 by Shunryu Suzuki), differing Tibetan Buddhist centers particularly following 14th Dalai Lama's American tours from 1979 forward, Insight Meditation Society (founded 1975 at Barre, Massachusetts as American Vipassana center), and several other centers provided the institutional infrastructure. The 14th Dalai Lama's 1989 Nobel Peace Prize amplified American Tibetan Buddhism reception.
 
@@ -366,11 +495,17 @@ American convert Buddhist prominent figures included Jack Kornfield, Joseph Gold
 
 Reagan administration religious mobilization through 1981-1989 period built on 1979 Moral Majority framework documented in [A273][related_post_a273_postwar_transformation_and_reopening]. Reagan's Southern California evangelical religious identification, 1980 endorsement by Jerry Falwell and Moral Majority mobilization, and systematic administration outreach to evangelical Protestant institutional networks produced most significant systematic Republican-evangelical political alignment of American twentieth century. Reagan election results reflected appreciable evangelical realignment,
 
-$$V_{\text{Reagan 1980 popular}} \approx 4.4 \times 10^7, \quad V_{\text{Carter 1980 popular}} \approx 3.55 \times 10^7, \quad V_{\text{Reagan 1980 electoral}} = 489, \quad V_{\text{Carter 1980 electoral}} = 49$$
+$$
+V_{\text{Reagan 1980 popular}} \approx 4.4 \times 10^7, \quad V_{\text{Carter 1980 popular}} \approx 3.55 \times 10^7, \quad V_{\text{Reagan 1980 electoral}} = 489, \quad V_{\text{Carter 1980 electoral}} = 49
+\tag{44}
+$$
 
 with 1984 reelection producing larger margin,
 
-$$V_{\text{Reagan 1984 popular}} \approx 5.48 \times 10^7, \quad V_{\text{Mondale 1984 popular}} \approx 3.75 \times 10^7, \quad V_{\text{Reagan 1984 electoral}} = 525, \quad V_{\text{Mondale 1984 electoral}} = 13$$
+$$
+V_{\text{Reagan 1984 popular}} \approx 5.48 \times 10^7, \quad V_{\text{Mondale 1984 popular}} \approx 3.75 \times 10^7, \quad V_{\text{Reagan 1984 electoral}} = 525, \quad V_{\text{Mondale 1984 electoral}} = 13
+\tag{45}
+$$
 
 representing second largest electoral college margin in twentieth-century US presidential elections. The [Williams 2010][book_williams_2010] God's Own Party (already cited in A273) and [Sutton 2014][book_sutton_2014] American Apocalypse provide the principal treatments.
 
@@ -378,7 +513,10 @@ Reagan's 8 March 1983 [Reagan 1983 Evil Empire Speech][ref_reagan_1983_evil_empi
 
 1980s religious institutional political formation included Christian Legal Society (formed 1961, expanding through 1980s), Family Research Council (formed 1983 by James Dobson through Focus on the Family), Concerned Women for America (formed 1978 by Beverly LaHaye), American Family Association (formed 1977 by Donald Wildmon as National Federation for Decency), American Center for Law and Justice (formed 1990 by Pat Robertson), and various organizations. Approximate membership reach across Religious Right organizations reached
 
-$$P_{\text{aggregated Religious Right organizational membership, peak c. 1990}} \gtrsim 5 \times 10^6, \quad C_{\text{aggregated Religious Right annual budget, peak c. 1995}} \gtrsim 5 \times 10^8 \text{ USD nominal}$$
+$$
+P_{\text{aggregated Religious Right organizational membership, peak c. 1990}} \gtrsim 5 \times 10^6, \quad C_{\text{aggregated Religious Right annual budget, peak c. 1995}} \gtrsim 5 \times 10^8 \text{ USD nominal}
+\tag{46}
+$$
 
 per institutional records.
 
@@ -388,19 +526,28 @@ The Christian Coalition, formed 1989 at Chesapeake, Virginia by Pat Robertson fo
 
 Christian Coalition membership reached approximately
 
-$$P_{\text{Christian Coalition membership, peak c. 1995}} \approx 1.7 \times 10^6, \quad N_{\text{Christian Coalition local chapters, peak}} \approx 2 \times 10^3, \quad C_{\text{Christian Coalition annual budget, peak c. 1994}} \approx 2.6 \times 10^7 \text{ USD nominal}$$
+$$
+P_{\text{Christian Coalition membership, peak c. 1995}} \approx 1.7 \times 10^6, \quad N_{\text{Christian Coalition local chapters, peak}} \approx 2 \times 10^3, \quad C_{\text{Christian Coalition annual budget, peak c. 1994}} \approx 2.6 \times 10^7 \text{ USD nominal}
+\tag{47}
+$$
 
 per institutional records. The Christian Coalition distributed approximately 45 million voter guides in 1994 election producing significant mobilization contributing to 1994 Republican Congressional wave election, aligned with 27 September 1994 [Contract with America 1994][ref_contract_with_america_1994] Republican Contract with America. Christian Coalition's 17 May 1995 [Contract with the American Family 1995][ref_contract_american_family_1995] Contract with the American Family provided parallel Religious Right programmatic articulation combining school prayer, tax reform, home-school protection, and assorted religious-cultural framework. Subsequent 1997-2001 IRS challenges producing tax-exempt status revocation and Reed 1997 departure disrupted institutional operation.
 
 Focus on the Family under James Dobson (born 1936, founded 1977 at Colorado Springs, Colorado) provided the most substantial evangelical family-life ministry combining radio broadcasting (approximately 220 million weekly worldwide listeners at peak), extensive publishing, and policy advocacy through Family Research Council partnership. Focus on the Family employment reached approximately
 
-$$N_{\text{Focus on the Family employees, peak c. 2000}} \approx 1.4 \times 10^3, \quad C_{\text{Focus on the Family annual budget, peak c. 2005}} \approx 1.5 \times 10^8 \text{ USD nominal}$$
+$$
+N_{\text{Focus on the Family employees, peak c. 2000}} \approx 1.4 \times 10^3, \quad C_{\text{Focus on the Family annual budget, peak c. 2005}} \approx 1.5 \times 10^8 \text{ USD nominal}
+\tag{48}
+$$
 
 per institutional records. Dobson's 1970 [Dobson 1970][ref_dobson_1970_dare] Dare to Discipline provided the foundational evangelical child-rearing text that reached approximately 3.5 million cumulative copies. The [Dobson 1970][ref_dobson_1970_dare] and subsequent extensive Dobson publication provided marked evangelical family theology framework.
 
 Promise Keepers, founded 1990 by Bill McCartney (University of Colorado football coach), provided men's evangelical mobilization framework combining stadium rallies with systematic small-group men's ministry. Total Promise Keepers stadium event attendance reached approximately
 
-$$N_{\text{Promise Keepers stadium event attendance, cumulative 1991 to 2000}} \approx 5 \times 10^6, \quad N_{\text{peak 1996-1997 window}} \approx 1.1 \times 10^6 \text{ annual}$$
+$$
+N_{\text{Promise Keepers stadium event attendance, cumulative 1991 to 2000}} \approx 5 \times 10^6, \quad N_{\text{peak 1996-1997 window}} \approx 1.1 \times 10^6 \text{ annual}
+\tag{49}
+$$
 
 per institutional records. The 4 October 1997 "Stand in the Gap" Washington DC Mall rally attracted approximately 700,000 participants providing the largest Christian men's gathering in American history.
 
@@ -408,13 +555,19 @@ per institutional records. The 4 October 1997 "Stand in the Gap" Washington DC M
 
 The 1970s-2000s megachurch movement produced extensive American Protestant institutional restructuring toward large-congregation format combining contemporary worship, extensive programmatic ministry, and systematic evangelistic outreach. Approximate megachurch (congregations with 2,000+ weekly attendance) counts reached
 
-$$N_{\text{US megachurches, 1970}} \approx 25, \quad N\bigg|_{1990} \approx 300, \quad N\bigg|_{2020} \approx 1750, \quad P_{\text{aggregated US megachurch attendance, 2020}} \approx 8 \times 10^6$$
+$$
+N_{\text{US megachurches, 1970}} \approx 25, \quad N\bigg|_{1990} \approx 300, \quad N\bigg|_{2020} \approx 1750, \quad P_{\text{aggregated US megachurch attendance, 2020}} \approx 8 \times 10^6
+\tag{50}
+$$
 
 per Hartford Institute for Religion Research reconstruction. The [Thumma and Travis 2007][book_thumma_travis_2007] Beyond Megachurch Myths and [Ellingson 2010][book_ellingson_2010] The Megachurch and the Mainline provide the standard treatments.
 
 Willow Creek Community Church under Bill Hybels (founded 1975 at South Barrington, Illinois) provided the "seeker-sensitive" model shaping subsequent megachurch development. Willow Creek Association (formed 1992) provided network reaching approximately 12,000 affiliated congregations at peak. Saddleback Church under Rick Warren (founded 1980 at Lake Forest, California) provided the parallel megachurch model. Approximate individual megachurch attendance figures reached
 
-$$P_{\text{Willow Creek weekly attendance, peak c. 2005}} \approx 2.4 \times 10^4, \quad P_{\text{Saddleback weekly attendance, peak c. 2010}} \approx 2.2 \times 10^4, \quad P_{\text{Lakewood Church (Joel Osteen), Houston, peak c. 2015}} \approx 5.2 \times 10^4$$
+$$
+P_{\text{Willow Creek weekly attendance, peak c. 2005}} \approx 2.4 \times 10^4, \quad P_{\text{Saddleback weekly attendance, peak c. 2010}} \approx 2.2 \times 10^4, \quad P_{\text{Lakewood Church (Joel Osteen), Houston, peak c. 2015}} \approx 5.2 \times 10^4
+\tag{51}
+$$
 
 with Lakewood Church at Houston (subsequently under Joel Osteen from 1999) providing largest American megachurch by weekly attendance through 2010s-2020s. Warren's 2002 [Warren 2002][ref_warren_2002_purpose] Purpose Driven Life bestselling text reached approximately 30 million cumulative sales through 2010. The [Warren 1995][book_warren_1995] The Purpose Driven Church treated the institutional framework.
 
@@ -426,7 +579,10 @@ Televangelism scandals of 1987-1988 produced appreciable institutional disruptio
 
 Bakker PTL Ministry financial scale had reached considerable levels before scandal,
 
-$$C_{\text{PTL Ministry annual revenue, peak c. 1986}} \approx 1.5 \times 10^8 \text{ USD nominal}, \quad N_{\text{Heritage USA park attendance, peak c. 1986}} \approx 6 \times 10^6 \text{ annual}, \quad C_{\text{Bakker documented fraud amount}} \approx 1.58 \times 10^8 \text{ USD nominal}$$
+$$
+C_{\text{PTL Ministry annual revenue, peak c. 1986}} \approx 1.5 \times 10^8 \text{ USD nominal}, \quad N_{\text{Heritage USA park attendance, peak c. 1986}} \approx 6 \times 10^6 \text{ annual}, \quad C_{\text{Bakker documented fraud amount}} \approx 1.58 \times 10^8 \text{ USD nominal}
+\tag{52}
+$$
 
 per court records and institutional documentation. Bakker's 1989 conviction produced significant religious broadcasting industry restructuring and IRS scrutiny expansion. Swaggart's ministry survived through reduced institutional framework, though 1991 additional scandal produced further decline. The scandals discredited "prosperity gospel" theological framework in mainstream American religious perception, though successor prosperity gospel ministries (Kenneth Copeland, Joel Osteen, several others) continued.
 
@@ -436,13 +592,19 @@ Third Wave Charismatic movement emerged in 1980s combining Pentecostal pneumatic
 
 Vineyard Church movement under John Wimber (1934-1997), formalized 1982 as Association of Vineyard Churches, provided the most substantial Third Wave denominational formation combining "signs and wonders" theological emphasis with contemporary worship music and accessible church-planting framework. Vineyard USA membership reached approximately
 
-$$P_{\text{Vineyard USA membership, 2020}} \approx 1.9 \times 10^5, \quad N_{\text{Vineyard USA congregations}} \approx 550$$
+$$
+P_{\text{Vineyard USA membership, 2020}} \approx 1.9 \times 10^5, \quad N_{\text{Vineyard USA congregations}} \approx 550
+\tag{53}
+$$
 
 per institutional records. Vineyard music (Andy Park, Brian Doerksen, Vineyard Music Group) shaped broader American evangelical contemporary worship music.
 
 The 20 January 1994 Toronto Blessing (Toronto Airport Vineyard church revival subsequently spreading internationally) produced marked charismatic phenomena including "holy laughter," "resting in the Spirit," and a range of manifestations. Toronto Airport Christian Fellowship (subsequent 1996 Vineyard withdrawal producing separate identity as Catch The Fire) attracted approximately
 
-$$N_{\text{Toronto Blessing cumulative visitor attendance, 1994 to 1998}} \approx 3.5 \times 10^6, \quad N_{\text{countries reporting Toronto Blessing spread}} \approx 55$$
+$$
+N_{\text{Toronto Blessing cumulative visitor attendance, 1994 to 1998}} \approx 3.5 \times 10^6, \quad N_{\text{countries reporting Toronto Blessing spread}} \approx 55
+\tag{54}
+$$
 
 per institutional records. The concurrent 18 June 1995 Brownsville Assembly of God Revival (Pensacola, Florida, under John Kilpatrick and Steve Hill) provided the parallel American Pentecostal revival receiving approximately 4 million cumulative visitors through 2000 continuation.
 
@@ -450,13 +612,16 @@ per institutional records. The concurrent 18 June 1995 Brownsville Assembly of G
 
 Mainline Protestant denominational decline through 1965-2020 window produced extensive American Protestant institutional restructuring. Major mainline denominations experienced sizable membership decline,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{United Methodist Church, US}}\bigg|_{1968} &\approx 1.1 \times 10^7, \quad P\bigg|_{2020} \approx 6.3 \times 10^6, \quad \Delta \approx -43\% \\
 P_{\text{Presbyterian Church USA}}\bigg|_{1965} &\approx 4.3 \times 10^6, \quad P\bigg|_{2020} \approx 1.2 \times 10^6, \quad \Delta \approx -72\% \\
 P_{\text{Episcopal Church}}\bigg|_{1965} &\approx 3.5 \times 10^6, \quad P\bigg|_{2020} \approx 1.6 \times 10^6, \quad \Delta \approx -54\% \\
 P_{\text{Evangelical Lutheran Church in America}}\bigg|_{1988} &\approx 5.3 \times 10^6, \quad P\bigg|_{2020} \approx 3 \times 10^6, \quad \Delta \approx -43\% \\
 P_{\text{United Church of Christ}}\bigg|_{1965} &\approx 2.1 \times 10^6, \quad P\bigg|_{2020} \approx 8 \times 10^5, \quad \Delta \approx -62\%
-\end{aligned}$$
+\end{aligned}
+\tag{55}
+$$
 
 per denominational records. Combined aggregate mainline Protestant membership declined from approximately 30 million in 1965 to approximately 12 million by 2020, producing approximately 60% decline while US population expanded approximately 65%. The [Roozen and Hadaway 1993][book_roozen_hadaway_1993] Church and Denominational Growth, [Wuthnow 1988][book_wuthnow_1988] The Restructuring of American Religion (already cited in A273), and [Hout et al. 2001][book_hout_greeley_wilde_2001] The Demographic Imperative treat the comprehensive mainline decline analysis.
 
@@ -466,13 +631,19 @@ Multiple hypothesized causes include denominational fertility decline (Hout, Gre
 
 The 28 February to 19 April 1993 [Waco Branch Davidian siege][ref_waco_branch_davidian_1993] Waco Branch Davidian siege at Mount Carmel Center near Waco, Texas produced considerable casualties,
 
-$$N_{\text{Branch Davidian deaths, Waco siege}} = 82, \quad N_{\text{deaths during final 19 April 1993 fire}} = 76, \quad N_{\text{Branch Davidian children among dead}} = 25, \quad N_{\text{ATF agent deaths, 28 February 1993 raid}} = 4, \quad t_{\text{Waco siege duration}} = 51 \text{ days}$$
+$$
+N_{\text{Branch Davidian deaths, Waco siege}} = 82, \quad N_{\text{deaths during final 19 April 1993 fire}} = 76, \quad N_{\text{Branch Davidian children among dead}} = 25, \quad N_{\text{ATF agent deaths, 28 February 1993 raid}} = 4, \quad t_{\text{Waco siege duration}} = 51 \text{ days}
+\tag{56}
+$$
 
 per FBI records and US Department of Justice investigation. The event reshaped American federal law enforcement approach to religious communities and new religious movement categorization. Primary official investigations included [Waco DOJ Report 1993][ref_waco_doj_1993] Department of Justice initial report and 21 July 2000 [Danforth Report 2000][ref_danforth_report_2000] final Office of Special Counsel report under John C. Danforth (Republican Senator and Episcopal priest) providing comprehensive federal review exonerating federal action of initial claims of fire-setting and gunfire directed at fleeing Branch Davidians. The [Wright 1995][book_wright_1995] Armageddon in Waco and [Tabor and Gallagher 1995][book_tabor_gallagher_1995] Why Waco treat the comprehensive analysis.
 
 The 19 April 1995 [Oklahoma City Bombing 1995][ref_oklahoma_city_bombing_1995] Oklahoma City Federal Building bombing by Timothy McVeigh and Terry Nichols produced significant casualties,
 
-$$N_{\text{Oklahoma City bombing dead}} = 168, \quad N_{\text{children among dead}} = 19, \quad N_{\text{injured}} \approx 684, \quad C_{\text{property damage estimate}} \approx 6.5 \times 10^8 \text{ USD nominal}$$
+$$
+N_{\text{Oklahoma City bombing dead}} = 168, \quad N_{\text{children among dead}} = 19, \quad N_{\text{injured}} \approx 684, \quad C_{\text{property damage estimate}} \approx 6.5 \times 10^8 \text{ USD nominal}
+\tag{57}
+$$
 
 providing the most substantial domestic terrorism attack in US history before 11 September 2001. McVeigh's timing on two-year anniversary of Waco siege conclusion combined with extensive religious right-wing militia movement connections reflected 1990s American religious-political radicalization. The [Michel and Herbeck 2001][book_michel_herbeck_2001] American Terrorist treats the McVeigh biography and ideological framework.
 
@@ -480,7 +651,10 @@ providing the most substantial domestic terrorism attack in US history before 11
 
 The 16 October 1995 Million Man March under Louis Farrakhan's leadership attracted approximately
 
-$$N_{\text{Million Man March attendance}} \approx 8 \times 10^5 \text{ to } 1 \times 10^6, \quad N_{\text{National Park Service estimate}} \approx 4 \times 10^5, \quad N_{\text{ABC News aerial photo estimate}} \approx 8.7 \times 10^5$$
+$$
+N_{\text{Million Man March attendance}} \approx 8 \times 10^5 \text{ to } 1 \times 10^6, \quad N_{\text{National Park Service estimate}} \approx 4 \times 10^5, \quad N_{\text{ABC News aerial photo estimate}} \approx 8.7 \times 10^5
+\tag{58}
+$$
 
 per various reconstructions producing marked ongoing dispute over exact attendance figures. Farrakhan's 16 October 1995 [Farrakhan 1995 Million Man March Address][ref_farrakhan_1995_mmm] Million Man March keynote address provided 2.5-hour extensive theological-political articulation combining Nation of Islam theology with Black nationalist mobilization framework, providing the inflection point in Farrakhan-led Nation of Islam's public presence documented in [A273][related_post_a273_postwar_transformation_and_reopening]. The [Cottman 1995][book_cottman_1995] Million Man March and [Madhubuti 1996][book_madhubuti_1996] Million Man March/Day of Absence treat the event.
 
@@ -490,17 +664,26 @@ The 1995 March preceded 25 October 1997 Million Woman March at Philadelphia (app
 
 The rise of "Nones" (religiously unaffiliated) reached extensive proportions through 1990-2020 window, producing most substantial American religious demographic transformation of late-twentieth and early twenty-first century. Approximate unaffiliated trajectory reached
 
-$$f_{\text{religiously unaffiliated, US}}\bigg|_{1948} \approx 0.02, \quad f\bigg|_{1990} \approx 0.08, \quad f\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2020} \approx 0.29$$
+$$
+f_{\text{religiously unaffiliated, US}}\bigg|_{1948} \approx 0.02, \quad f\bigg|_{1990} \approx 0.08, \quad f\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2020} \approx 0.29
+\tag{59}
+$$
 
 per Gallup, American Religious Identification Survey (ARIS), and Pew Research reconstruction. The 2000-2020 window produced most rapid unaffiliation acceleration. The [Kosmin and Keysar 2009][book_kosmin_keysar_2009] American Religious Identification Survey, [Putnam and Campbell 2010][book_putnam_campbell_2010] American Grace, and [Chaves 2011][book_chaves_2011] American Religion provide the detailed treatments, with primary sources including [Pew Nones on the Rise 2012][ref_pew_nones_2012] Pew Research "Nones on the Rise" and [Religious Landscape Study 2014][ref_pew_religious_landscape_2014] Religious Landscape Study.
 
 Multiple hypothesized causes for unaffiliation expansion include generational replacement (American cohorts exhibiting progressively lower religious affiliation), 1980s-2020s Religious Right political mobilization producing institutional Christianity association with political conservatism alienating younger and liberal Americans, 2002 Boston Globe reporting on Catholic clergy sexual abuse and subsequent institutional revelations discrediting Catholic and assorted mainstream Christian institutional authority, and broader institutional trust decline patterns. Approximate unaffiliated composition included
 
-$$f_{\text{"nothing in particular" among Nones}}\bigg|_{2020} \approx 0.60, \quad f_{\text{atheist among Nones}}\bigg|_{2020} \approx 0.20, \quad f_{\text{agnostic among Nones}}\bigg|_{2020} \approx 0.20$$
+$$
+f_{\text{"nothing in particular" among Nones}}\bigg|_{2020} \approx 0.60, \quad f_{\text{atheist among Nones}}\bigg|_{2020} \approx 0.20, \quad f_{\text{agnostic among Nones}}\bigg|_{2020} \approx 0.20
+\tag{60}
+$$
 
 per Pew Research reconstruction. Generational unaffiliation trajectory reflected appreciable cohort replacement,
 
-$$f_{\text{unaffiliated among Silent Generation cohort (born 1928-1945)}}\bigg|_{2020} \approx 0.12, \quad f_{\text{Baby Boomer (born 1946-1964)}}\bigg|_{2020} \approx 0.20, \quad f_{\text{Generation X (born 1965-1980)}}\bigg|_{2020} \approx 0.31, \quad f_{\text{Millennial (born 1981-1996)}}\bigg|_{2020} \approx 0.40, \quad f_{\text{Generation Z (born 1997-2012)}}\bigg|_{2020} \approx 0.34$$
+$$
+f_{\text{unaffiliated among Silent Generation cohort (born 1928-1945)}}\bigg|_{2020} \approx 0.12, \quad f_{\text{Baby Boomer (born 1946-1964)}}\bigg|_{2020} \approx 0.20, \quad f_{\text{Generation X (born 1965-1980)}}\bigg|_{2020} \approx 0.31, \quad f_{\text{Millennial (born 1981-1996)}}\bigg|_{2020} \approx 0.40, \quad f_{\text{Generation Z (born 1997-2012)}}\bigg|_{2020} \approx 0.34
+\tag{61}
+$$
 
 per Pew Research generational reconstruction.
 
@@ -510,7 +693,10 @@ The 9 November 1989 fall of the Berlin Wall and 26 December 1991 dissolution of 
 
 American religious institutional reengagement with former Communist Bloc emerged rapidly. Approximate scales included
 
-$$N_{\text{US Protestant missionaries to former Soviet Union, 1990 to 2000}} \approx 4 \times 10^3, \quad N_{\text{Bibles distributed by American Bible Society and denominational bodies in former Soviet Bloc, 1990 to 2000}} \gtrsim 5 \times 10^7$$
+$$
+N_{\text{US Protestant missionaries to former Soviet Union, 1990 to 2000}} \approx 4 \times 10^3, \quad N_{\text{Bibles distributed by American Bible Society and denominational bodies in former Soviet Bloc, 1990 to 2000}} \gtrsim 5 \times 10^7
+\tag{62}
+$$
 
 per institutional records. The 1990 Congress on World Evangelization at Manila and 1996 Iguassu Missiological Consultation framed American evangelical global mission repositioning. Russian Orthodox institutional restoration under Patriarch Alexy II (1990-2008) and successor Patriarch Kirill (2009-present) produced American Orthodox institutional engagement combining Orthodox Church in America and ROCOR reunification with Moscow Patriarchate treated in [A271][related_post_a271_mass_immigration_and_closure] documented above.
 
@@ -518,7 +704,10 @@ per institutional records. The 1990 Congress on World Evangelization at Manila a
 
 The AIDS crisis emerging in 1981 (initial CDC Morbidity and Mortality Weekly Report of 5 June 1981 documenting Pneumocystis carinii pneumonia cases in Los Angeles gay men) produced significant American religious institutional response combining initial religious moralization with institutional care mobilization. Approximate US AIDS mortality reached
 
-$$N_{\text{cumulative US AIDS deaths, 1981 to 1996}} \approx 3.5 \times 10^5, \quad N_{\text{annual US AIDS deaths, peak 1995}} \approx 5.1 \times 10^4$$
+$$
+N_{\text{cumulative US AIDS deaths, 1981 to 1996}} \approx 3.5 \times 10^5, \quad N_{\text{annual US AIDS deaths, peak 1995}} \approx 5.1 \times 10^4
+\tag{63}
+$$
 
 per Centers for Disease Control and Prevention records, with 1996 highly active antiretroviral therapy (HAART) introduction producing substantial mortality decline through subsequent decades. The [Cohen 1997][book_cohen_1997] The Boundaries of Blackness, [Petro 2015][book_petro_2015] After the Wrath of God, and [Fetner 2008][book_fetner_2008] How the Religious Right Shaped Lesbian and Gay Activism provide the principal treatments.
 
@@ -532,13 +721,19 @@ Abortion politics escalation through 1980-2000 window produced appreciable relig
 
 Operation Rescue direct action reached considerable institutional scale,
 
-$$N_{\text{Operation Rescue documented arrests, 1988 to 1994}} \approx 7 \times 10^4, \quad N_{\text{Operation Rescue "rescues" at abortion clinics, cumulative}} \gtrsim 700, \quad P_{\text{Operation Rescue affiliated demonstrators, peak c. 1991}} \gtrsim 1 \times 10^5$$
+$$
+N_{\text{Operation Rescue documented arrests, 1988 to 1994}} \approx 7 \times 10^4, \quad N_{\text{Operation Rescue "rescues" at abortion clinics, cumulative}} \gtrsim 700, \quad P_{\text{Operation Rescue affiliated demonstrators, peak c. 1991}} \gtrsim 1 \times 10^5
+\tag{64}
+$$
 
 per institutional records. The July 1991 "Summer of Mercy" campaign at Wichita, Kansas producing approximately 2,700 arrests over 46-day period provided most significant single-city Operation Rescue mobilization.
 
 Anti-abortion violence produced substantial tragedy through 1978-2015 window. Documented clinic bombings and murders included
 
-$$N_{\text{US abortion clinic bombings and arsons, 1977 to 2015}} \approx 200, \quad N_{\text{US abortion provider murders, 1993 to 2015}} = 11, \quad N_{\text{attempted murders}} \approx 40$$
+$$
+N_{\text{US abortion clinic bombings and arsons, 1977 to 2015}} \approx 200, \quad N_{\text{US abortion provider murders, 1993 to 2015}} = 11, \quad N_{\text{attempted murders}} \approx 40
+\tag{65}
+$$
 
 per National Abortion Federation records. The 10 March 1993 murder of Dr. David Gunn at Pensacola, Florida (first US abortion provider murder) and 25 October 1998 murder of Dr. Barnett Slepian at Amherst, New York (Rev. Paul Hill and James Kopp convictions respectively) exemplified religious-motivated anti-abortion violence.
 
@@ -548,7 +743,10 @@ The Native American Graves Protection and Repatriation Act of 16 November 1990 [
 
 Approximate NAGPRA implementation reached extensive institutional scale,
 
-$$N_{\text{NAGPRA-implicated Native American human remains in US museums and federal collections, 1990}} \approx 1.2 \times 10^5, \quad N_{\text{NAGPRA repatriations completed, 1990 to 2020}} \approx 6 \times 10^4, \quad N_{\text{Native American associated funerary objects repatriated, cumulative}} \gtrsim 1.5 \times 10^6$$
+$$
+N_{\text{NAGPRA-implicated Native American human remains in US museums and federal collections, 1990}} \approx 1.2 \times 10^5, \quad N_{\text{NAGPRA repatriations completed, 1990 to 2020}} \approx 6 \times 10^4, \quad N_{\text{Native American associated funerary objects repatriated, cumulative}} \gtrsim 1.5 \times 10^6
+\tag{66}
+$$
 
 per National Park Service NAGPRA program records. Ongoing repatriation continued through twenty-first century, with 2020 additional legislation and 2023 expanded NAGPRA implementation regulations further accelerating repatriation framework.
 
@@ -562,13 +760,19 @@ Congressional response through 2000 [RLUIPA 2000][ref_rluipa_2000] Religious Lan
 
 The 1995-2007 Left Behind series by Tim LaHaye and Jerry B. Jenkins (16 novels plus approximately 40 additional collateral publications) provided the most significant American popular dispensationalist theological framework of late twentieth century. Series sales reached considerable scale,
 
-$$N_{\text{Left Behind series copies sold, cumulative 1995 to 2020}} \approx 8 \times 10^7, \quad N_{\text{Left Behind film adaptations}} = 4$$
+$$
+N_{\text{Left Behind series copies sold, cumulative 1995 to 2020}} \approx 8 \times 10^7, \quad N_{\text{Left Behind film adaptations}} = 4
+\tag{67}
+$$
 
 per Tyndale House Publishers records. The dispensationalist theological framework derived from John Nelson Darby's mid-nineteenth-century systematization and 1909 Scofield Reference Bible dispensationalist annotations documented in [A270][related_post_a270_civil_war_and_reconstruction] reached American mainstream Protestant reception through Left Behind narrative popularization. The [Weber 2004][book_weber_2004_road] On the Road to Armageddon and [Frykholm 2004][book_frykholm_2004_rapture] Rapture Culture provide the treatments.
 
 Concurrent 1990s-2000s Christian contemporary music (CCM) mainstream expansion reached significant commercial scale,
 
-$$C_{\text{US Christian contemporary music sales, peak c. 2000}} \approx 8 \times 10^8 \text{ USD annual}, \quad P_{\text{major Christian rock artists (Amy Grant, Michael W. Smith, Steven Curtis Chapman) aggregate album sales, cumulative}} \gtrsim 5 \times 10^7$$
+$$
+C_{\text{US Christian contemporary music sales, peak c. 2000}} \approx 8 \times 10^8 \text{ USD annual}, \quad P_{\text{major Christian rock artists (Amy Grant, Michael W. Smith, Steven Curtis Chapman) aggregate album sales, cumulative}} \gtrsim 5 \times 10^7
+\tag{68}
+$$
 
 per Gospel Music Association records. Concurrent Christian bookstore chain expansion (Family Christian Stores reaching approximately 300 stores at peak, Berean Christian Stores, a number of others) provided the distribution infrastructure reshaping mainstream American Christian consumer culture through 1990s-2000s window before 2010s decline.
 
@@ -602,6 +806,680 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct assessment of Religious Right political mobilization causal contribution to late twentieth-century American political realignment?
 - What is the correct empirical characterization of Nones expansion versus ongoing religious institutional continuity through twenty-first century?
 - What is the correct assessment of 1995 Waco and 1995 Oklahoma City events' long-term effects on American federal law enforcement approach to religious communities?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 68 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 68, 66 are established and 2 are bespoke.
+Every figure is an approximate historical count, share or monetary amount as reported by the source the article names, a share is a fraction between zero and one rather than a percentage, and monetary amounts are nominal United States dollars unless the equation states otherwise.
+
+**Equation 1, Foreign-Born Population of the United States, 1970 to 2020.**
+Census counts of the foreign-born population rise from under ten million in 1970 to about forty-five million in 2020.
+[Waters and Ueda 2007][book_waters_ueda_2007]
+[Zolberg 2006][book_zolberg_2006]
+[Foner 2000][book_foner_2000]
+
+$$
+P_{\text{foreign-born, US}}\bigg|_{1970} \approx 9.6 \times 10^6, \quad P\bigg|_{1980} \approx 1.42 \times 10^7, \quad P\bigg|_{1990} \approx 1.98 \times 10^7, \quad P\bigg|_{2000} \approx 3.11 \times 10^7, \quad P\bigg|_{2020} \approx 4.47 \times 10^7
+\tag{1}
+$$
+
+**Equation 2, Foreign-Born Share of the Population, 1970 to 2020.**
+The foreign-born share of the national population rises from under five per cent in 1970 to about thirteen and a half per cent in 2020.
+[Waters and Ueda 2007][book_waters_ueda_2007]
+[Zolberg 2006][book_zolberg_2006]
+[Foner 2000][book_foner_2000]
+
+$$
+f_{\text{foreign-born, US population}}\bigg|_{1970} \approx 0.048, \quad f\bigg|_{2000} \approx 0.110, \quad f\bigg|_{2020} \approx 0.135
+\tag{2}
+$$
+
+**Equation 3, Religious Composition of the United States, 1948 to 2020.**
+Survey shares of Christian, Catholic, Jewish, Muslim, Hindu, Buddhist and unaffiliated Americans are reported from Gallup, the Pew Religious Landscape Study and the American Religious Identification Survey.
+[Gallup Religion Surveys][ref_gallup_religion_surveys]
+[Religious Landscape Study 2014][ref_pew_religious_landscape_2014]
+[ARIS 1990 2008][ref_aris_1990_2008]
+
+$$
+\begin{aligned}
+f_{\text{Christian, US}}\bigg|_{1948} &\approx 0.91, \quad f\bigg|_{2000} \approx 0.82, \quad f\bigg|_{2020} \approx 0.63 \\
+f_{\text{Catholic, US}}\bigg|_{1948} &\approx 0.22, \quad f\bigg|_{2000} \approx 0.24, \quad f\bigg|_{2020} \approx 0.21 \\
+f_{\text{Jewish, US}}\bigg|_{1948} &\approx 0.035, \quad f\bigg|_{2000} \approx 0.020, \quad f\bigg|_{2020} \approx 0.024 \\
+f_{\text{Muslim, US}}\bigg|_{1980} &\approx 0.003, \quad f\bigg|_{2020} \approx 0.011 \\
+f_{\text{Hindu, US}}\bigg|_{1980} &\approx 0.001, \quad f\bigg|_{2020} \approx 0.007 \\
+f_{\text{Buddhist, US}}\bigg|_{1980} &\approx 0.002, \quad f\bigg|_{2020} \approx 0.007 \\
+f_{\text{Unaffiliated, US}}\bigg|_{1948} &\approx 0.02, \quad f\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2020} \approx 0.29
+\end{aligned}
+\tag{3}
+$$
+
+**Equation 4, Legalisations Under the Immigration Reform and Control Act of 1986.**
+Federal records give about one point six million general legalisations and one point one million agricultural worker legalisations, together about two point seven million, three quarters of them of Mexican origin.
+[IRCA 1986][ref_irca_1986]
+
+$$
+\begin{aligned}
+N_{\text{IRCA general legalization approved, 1987 to 1988}} &\approx 1.6 \times 10^6 \\
+N_{\text{IRCA SAW program approved, 1987 to 1988}} &\approx 1.1 \times 10^6 \\
+N_{\text{IRCA total legalizations}} &\approx 2.7 \times 10^6 \\
+f_{\text{Mexican origin among IRCA legalizations}} &\approx 0.75
+\end{aligned}
+\tag{4}
+$$
+
+**Equation 5, Estimated Undocumented Population, 1986 to 2020.**
+Pew Research Center estimates of the undocumented population rise from about five million in 1986 to a peak near twelve million in 2007 before easing.
+
+$$
+P_{\text{undocumented US population, estimated}}\bigg|_{1986} \approx 5 \times 10^6, \quad P\bigg|_{2000} \approx 8.5 \times 10^6, \quad P\bigg|_{2007} \approx 1.22 \times 10^7, \quad P\bigg|_{2020} \approx 1.05 \times 10^7
+\tag{5}
+$$
+
+**Equation 6, Diversity Visa Ceiling and Cumulative Admissions.**
+The statutory annual ceiling of the Diversity Visa programme is fifty-five thousand, with about one point four million cumulative admissions by 2020 and a share of nearly half from African countries.
+[Immigration Act 1990][ref_immigration_act_1990]
+
+$$
+N_{\text{DV Program annual admissions ceiling}} = 5.5 \times 10^4, \quad N_{\text{DV Program cumulative admissions, 1995 to 2020}} \approx 1.4 \times 10^6, \quad f_{\text{African source countries among DV Program, 1995 to 2020}} \approx 0.45
+\tag{6}
+$$
+
+**Equation 7, Initial Temporary Protected Status Designations.**
+Federal records give the year and approximate number of beneficiaries for the first Temporary Protected Status designations of six countries.
+[Immigration Act 1990][ref_immigration_act_1990]
+
+$$
+\begin{aligned}
+\text{Salvador TPS designation} &: 1990, N \approx 1.9 \times 10^5 \\
+\text{Nicaragua TPS designation} &: 1998, N \approx 5 \times 10^3 \\
+\text{Honduras TPS designation} &: 1999, N \approx 5.7 \times 10^4 \\
+\text{Somalia TPS designation} &: 1991, N \approx 5 \times 10^2 \\
+\text{Sudan TPS designation} &: 1997, N \approx 4 \times 10^3 \\
+\text{Sierra Leone TPS designation} &: 1997, N \approx 3 \times 10^3
+\end{aligned}
+\tag{7}
+$$
+
+**Equation 8, Formal Removals From the United States, 1990 to 2020.**
+Immigration and Customs Enforcement records show annual formal removals rising from about thirty thousand in 1990 to about four hundred and forty thousand in 2013, with at least five million removals from 1996 to 2020.
+[IIRIRA 1996][ref_iirira_1996]
+
+$$
+N_{\text{annual formal removals, US}}(1990) \approx 3 \times 10^4, \quad N\bigg|_{2000} \approx 1.9 \times 10^5, \quad N\bigg|_{2013} \approx 4.4 \times 10^5, \quad N_{\text{cumulative formal removals 1996 to 2020}} \gtrsim 5 \times 10^6
+\tag{8}
+$$
+
+**Equation 9, Central American Arrivals by Country, 1980 to 2000.**
+Immigration and Naturalization Service records give arrivals from El Salvador, Guatemala, Nicaragua and Honduras during the civil war decades.
+[Menjívar 2000][book_menjivar_2000]
+[Coutin 2000][book_coutin_2000]
+[Hagan 1994][book_hagan_1994]
+
+$$
+\begin{aligned}
+N_{\text{Salvadoran arrivals, US, 1980 to 2000}} &\approx 1.2 \times 10^6 \\
+N_{\text{Guatemalan arrivals, US, 1980 to 2000}} &\approx 4 \times 10^5 \\
+N_{\text{Nicaraguan arrivals, US, 1980 to 2000}} &\approx 2 \times 10^5 \\
+N_{\text{Honduran arrivals, US, 1980 to 2000}} &\approx 2 \times 10^5
+\end{aligned}
+\tag{9}
+$$
+
+**Equation 10, Sanctuary Movement Congregations and Denominations at Peak.**
+Institutional records give about six hundred participating congregations drawn from about twenty-five denominations at the peak of the movement.
+
+$$
+N_{\text{Sanctuary Movement congregations, US, peak c. 1988 to 1990}} \approx 6 \times 10^2, \quad N_{\text{Sanctuary Movement participating religious denominations}} \approx 25
+\tag{10}
+$$
+
+**Equation 11, Iranian Arrivals and Iranian American Population.**
+Census records give about three hundred thousand Iranian arrivals by 2000, five hundred thousand by 2020, and an Iranian American population of about five hundred thousand.
+[Mostofi 2003][book_mostofi_2003]
+[Bozorgmehr 1998][book_bozorgmehr_1998]
+[Kelley 1993][book_kelley_1993]
+
+$$
+N_{\text{Iranian arrivals, US, 1979 to 2000}} \approx 3 \times 10^5, \quad N_{\text{Iranian arrivals, US, 1979 to 2020}} \approx 5 \times 10^5, \quad P_{\text{Iranian American, US}}\bigg|_{2020} \approx 5 \times 10^5
+\tag{11}
+$$
+
+**Equation 12, Religious Composition of Iranian Americans.**
+Survey reconstructions divide Iranian Americans among Muslim, Jewish, Baha'i, Christian, Zoroastrian and unaffiliated identities, with religious minorities far above their share in Iran.
+
+$$
+f_{\text{Iranian Muslim (Shia and Sunni), US}} \approx 0.30, \quad f_{\text{Iranian Jewish, US}} \approx 0.25, \quad f_{\text{Iranian Baha'i, US}} \approx 0.10, \quad f_{\text{Iranian Christian (Armenian, Assyrian, Persian evangelical), US}} \approx 0.15, \quad f_{\text{Iranian Zoroastrian, US}} \approx 0.05, \quad f_{\text{Iranian secular or unaffiliated, US}} \approx 0.15
+\tag{12}
+$$
+
+**Equation 13, Cambodian Arrivals and Cambodian American Population.**
+Office of Refugee Resettlement records give about one hundred and fifty thousand Cambodian arrivals from 1975 to 1994 and a Cambodian American population of about three hundred and forty thousand in 2020.
+[Chan 2004][book_chan_2004]
+[Mortland 2017][book_mortland_2017]
+
+$$
+N_{\text{Cambodian arrivals, US, 1975 to 1994}} \approx 1.5 \times 10^5, \quad P_{\text{Cambodian American, US}}\bigg|_{2020} \approx 3.4 \times 10^5
+\tag{13}
+$$
+
+**Equation 14, Cambodian Buddhist Temples and Monks in the United States.**
+Institutional records count about thirty Cambodian temples in 1985, about one hundred and fifty in 2020, and about four hundred ordained monks.
+
+$$
+N_{\text{Cambodian Buddhist temples (wats), US, 1985}} \approx 30, \quad N_{\text{Cambodian wats, US, 2020}} \approx 150, \quad N_{\text{ordained Cambodian Buddhist monks, US}} \approx 400
+\tag{14}
+$$
+
+**Equation 15, Ethiopian Arrivals and Ethiopian American Population.**
+Immigration and Naturalization Service records give about eighty thousand Ethiopian arrivals from 1980 to 2000 and an Ethiopian American population of about three hundred thousand in 2020.
+[Levine 2000][book_levine_2000]
+[Chacko 2003][book_chacko_2003]
+
+$$
+N_{\text{Ethiopian arrivals, US, 1980 to 2000}} \approx 8 \times 10^4, \quad P_{\text{Ethiopian American, US}}\bigg|_{2020} \approx 3 \times 10^5
+\tag{15}
+$$
+
+**Equation 16, Ethiopian Orthodox Tewahedo Parishes and Affiliation in 2020.**
+Institutional records give about one hundred Ethiopian Orthodox Tewahedo parishes and about one hundred and thirty thousand affiliated persons in the United States.
+
+$$
+N_{\text{Ethiopian Orthodox Tewahedo parishes, US, 2020}} \approx 100, \quad P_{\text{Ethiopian Orthodox affiliation, US}}\bigg|_{2020} \approx 1.3 \times 10^5
+\tag{16}
+$$
+
+**Equation 17, Beta Israel Emigration to Israel and Presence in the United States.**
+Jewish Agency and census records give about one hundred and forty thousand Beta Israel emigrants to Israel against about three thousand Beta Israel in the United States.
+[Kaplan and Kaplan 1992][book_kaplan_1992]
+
+$$
+N_{\text{Beta Israel emigrants to Israel, cumulative 1980 to 2020}} \approx 1.4 \times 10^5, \quad N_{\text{Beta Israel population, US}} \approx 3 \times 10^3
+\tag{17}
+$$
+
+**Equation 18, Somali Arrivals and Somali American Population.**
+Office of Refugee Resettlement records give about one hundred and fifty thousand Somali arrivals from 1991 to 2020 and a Somali American population of about one hundred and seventy thousand.
+[Waldinger and Lichter 2003][book_waldinger_lichter_2003]
+[Chanoff 2002][book_chanoff_2002]
+
+$$
+N_{\text{Somali arrivals, US, 1991 to 2020}} \approx 1.5 \times 10^5, \quad P_{\text{Somali American, US}}\bigg|_{2020} \approx 1.7 \times 10^5
+\tag{18}
+$$
+
+**Equation 19, Somali Mosques and Islamic Centres in 2020.**
+Institutional records count about eighty Somali-affiliated mosques nationally and about twenty Somali Islamic centres in the Minneapolis and Saint Paul area.
+
+$$
+N_{\text{Somali-affiliated mosques, US, 2020}} \approx 80, \quad N_{\text{Somali Islamic centers, Minneapolis-St. Paul metropolitan area, 2020}} \approx 20
+\tag{19}
+$$
+
+**Equation 20, Bosnian Arrivals and Bosnian American Population.**
+Office of Refugee Resettlement records give about one hundred and thirty thousand Bosnian arrivals from 1992 to 2000 and a Bosnian American population of about one hundred and forty thousand in 2020.
+[Franz 2005][book_franz_2005]
+[Coughlan and Owens-Manley 2005][book_coughlan_owens_manley_2005]
+[Robinson 1998][book_robinson_1998]
+
+$$
+N_{\text{Bosnian arrivals, US, 1992 to 2000}} \approx 1.3 \times 10^5, \quad P_{\text{Bosnian American, US}}\bigg|_{2020} \approx 1.4 \times 10^5
+\tag{20}
+$$
+
+**Equation 21, Bosnian Muslim Mosques and Islamic Centres in 2020.**
+Institutional records count about forty Bosnian Muslim mosques and Islamic centres in the United States.
+
+$$
+N_{\text{Bosnian Muslim mosques and Islamic centers, US, 2020}} \approx 40
+\tag{21}
+$$
+
+**Equation 22, Vietnamese Admissions by Programme and Vietnamese American Population.**
+Resettlement and immigration records give admissions under the first wave, the boat exodus, the Orderly Departure Program and the Amerasian Homecoming Act, and a Vietnamese American population of about two point two million in 2020.
+[Amerasian Homecoming Act 1987][ref_amerasian_homecoming_act_1987]
+[Bass 1996][book_bass_1996_vietnamerica]
+[Freeman 1995][book_freeman_1995]
+
+$$
+\begin{aligned}
+N_{\text{Vietnamese first wave, 1975}} &\approx 1.3 \times 10^5 \\
+N_{\text{Vietnamese Boat People, 1978 to 1994}} &\approx 4 \times 10^5 \\
+N_{\text{Vietnamese Orderly Departure Program, 1979 to 1994}} &\approx 5 \times 10^5 \\
+N_{\text{Amerasian Homecoming Act admissions, 1988 to 1994}} &\approx 1 \times 10^5 \\
+P_{\text{Vietnamese American, US}}\bigg|_{2020} &\approx 2.2 \times 10^6
+\end{aligned}
+\tag{22}
+$$
+
+**Equation 23, Cuban Rafter Arrivals and Interdictions in 1994.**
+Coast Guard records give about thirty-five thousand rafter arrivals in August and September 1994 and about fifty thousand interdicted at sea.
+[Ackerman and Clark 1995][book_ackerman_clark_1995]
+
+$$
+N_{\text{Cuban Balseros arrivals, August to September 1994}} \approx 3.5 \times 10^4, \quad N_{\text{Cuban Balseros interdicted at sea}} \approx 5 \times 10^4
+\tag{23}
+$$
+
+**Equation 24, Haitian Arrivals and Haitian American Population.**
+Census records give about three hundred thousand Haitian arrivals from 1980 to 2000 and a Haitian American population of about one point one million in 2020.
+[Stepick 1998][book_stepick_1998]
+
+$$
+N_{\text{Haitian arrivals, US, 1980 to 2000}} \approx 3 \times 10^5, \quad P_{\text{Haitian American, US}}\bigg|_{2020} \approx 1.1 \times 10^6
+\tag{24}
+$$
+
+**Equation 25, Chinese Arrivals and Chinese American Population.**
+Immigration and Naturalization Service records give about one million Chinese arrivals from 1980 to 2000 and a Chinese American population of about five point four million in 2020.
+[Zhou 1992][book_zhou_1992]
+[Lee 2015][book_lee_2015]
+[Ling 2004][book_ling_2004]
+
+$$
+N_{\text{Chinese arrivals, US, 1980 to 2000}} \approx 1 \times 10^6, \quad P_{\text{Chinese American, US}}\bigg|_{2020} \approx 5.4 \times 10^6
+\tag{25}
+$$
+
+**Equation 26, Religious Composition of Chinese Americans in 2020.**
+Pew Research reconstruction divides Chinese Americans among traditional or Buddhist, Christian, unaffiliated and other identities.
+
+$$
+f_{\text{Chinese American traditional/Buddhist}}\bigg|_{2020} \approx 0.40, \quad f_{\text{Chinese American Christian}}\bigg|_{2020} \approx 0.30, \quad f_{\text{Chinese American unaffiliated}}\bigg|_{2020} \approx 0.25, \quad f_{\text{Chinese American other}}\bigg|_{2020} \approx 0.05
+\tag{26}
+$$
+
+**Equation 27, Falun Gong Practitioners in the United States in 2020.**
+Institutional estimates put Falun Gong practitioners in the United States at about fifty thousand.
+
+$$
+P_{\text{Falun Gong practitioners, US}}\bigg|_{2020} \approx 5 \times 10^4
+\tag{27}
+$$
+
+**Equation 28, Korean American Population, 1970 to 2020.**
+Census records show the Korean American population rising from about seventy thousand in 1970 to about one point nine million in 2020.
+
+$$
+P_{\text{Korean American, US}}\bigg|_{1970} \approx 7 \times 10^4, \quad P\bigg|_{1990} \approx 8 \times 10^5, \quad P\bigg|_{2020} \approx 1.9 \times 10^6
+\tag{28}
+$$
+
+**Equation 29, Korean American Christian Congregations, 1980 to 2020.**
+Denominational records count Korean American Christian congregations rising from about five hundred in 1980 to about four thousand in 2020.
+[Kwon et al. 2001][book_kwon_kim_warner_2001]
+[Min 2010][book_min_2010]
+[Chai 2001][book_chai_2001]
+
+$$
+N_{\text{Korean American Christian congregations, US, 1980}} \approx 500, \quad N\bigg|_{2000} \approx 2500, \quad N\bigg|_{2020} \approx 4000
+\tag{29}
+$$
+
+**Equation 30, Indian American Population, 1970 to 2020.**
+Census records show the Indian American population rising from about fifty thousand in 1970 to about four point six million in 2020.
+[Kurien 2007][book_kurien_2007]
+[Prashad 2000][book_prashad_2000]
+
+$$
+P_{\text{Indian American, US}}\bigg|_{1970} \approx 5 \times 10^4, \quad P\bigg|_{1990} \approx 8 \times 10^5, \quad P\bigg|_{2020} \approx 4.6 \times 10^6
+\tag{30}
+$$
+
+**Equation 31, Hindu Temples in the United States, 1980 to 2020.**
+Hindu American Foundation and temple executives' records count about fifty temples in 1980, four hundred in 2000 and eight hundred in 2020.
+[Kurien 1998][book_kurien_1998]
+
+$$
+N_{\text{Hindu temples, US, 1980}} \approx 50, \quad N_{\text{Hindu temples, US, 2000}} \approx 400, \quad N_{\text{Hindu temples, US, 2020}} \approx 800
+\tag{31}
+$$
+
+**Equation 32, Sikh Gurdwaras and Sikh American Population.**
+Institutional records count gurdwaras rising from about twenty in 1980 to about three hundred and fifty in 2020, with a Sikh American population of about five hundred thousand.
+[Singh 2013][book_singh_2013]
+
+$$
+N_{\text{Sikh gurdwaras, US, 1980}} \approx 20, \quad N\bigg|_{2000} \approx 130, \quad N\bigg|_{2020} \approx 350, \quad P_{\text{Sikh American, US}}\bigg|_{2020} \approx 5 \times 10^5
+\tag{32}
+$$
+
+**Equation 33, Jain American Population and Temples in 2020.**
+Jain federation records give about one hundred and fifty thousand Jain Americans and about one hundred Jain temples.
+
+$$
+P_{\text{Jain American, US}}\bigg|_{2020} \approx 1.5 \times 10^5, \quad N_{\text{Jain temples, US, 2020}} \approx 100
+\tag{33}
+$$
+
+**Equation 34, Pakistani and Bangladeshi American Populations, 1980 and 2020.**
+Census records show the Pakistani and Bangladeshi American populations each growing by a factor of about forty between 1980 and 2020.
+[Rangaswamy 2000][book_rangaswamy_2000]
+[Bald 2013][book_bald_2013]
+
+$$
+P_{\text{Pakistani American, US}}\bigg|_{1980} \approx 1.5 \times 10^4, \quad P\bigg|_{2020} \approx 5.5 \times 10^5, \quad P_{\text{Bangladeshi American, US}}\bigg|_{1980} \approx 5 \times 10^3, \quad P\bigg|_{2020} \approx 2.1 \times 10^5
+\tag{34}
+$$
+
+**Equation 35, Muslim American Population and Mosques, 1980 to 2020.**
+Islamic Society of North America and Pew Research reconstructions give about three and a half million Muslim Americans and about two thousand eight hundred mosques and Islamic centres in 2020.
+[Bagby 2020][book_bagby_2020]
+
+$$
+P_{\text{Muslim American, US}}\bigg|_{1980} \approx 1 \times 10^6, \quad P\bigg|_{2000} \approx 2 \times 10^6, \quad P\bigg|_{2020} \approx 3.5 \times 10^6, \quad N_{\text{US mosques and Islamic centers, 1980}} \approx 200, \quad N\bigg|_{2020} \approx 2800
+\tag{35}
+$$
+
+**Equation 36, Filipino American Population, 1970 to 2020.**
+Census records show the Filipino American population rising from about three hundred and forty thousand in 1970 to about four point four million in 2020.
+[Espana-Maram 2006][book_espana_maram_2006]
+[Bonus 2000][book_bonus_2000]
+
+$$
+P_{\text{Filipino American, US}}\bigg|_{1970} \approx 3.4 \times 10^5, \quad P\bigg|_{1990} \approx 1.4 \times 10^6, \quad P\bigg|_{2020} \approx 4.4 \times 10^6
+\tag{36}
+$$
+
+**Equation 37, Religious Composition of Filipino Americans.**
+The Catholic share among Filipino Americans falls from about eighty-five per cent in 1970 to about sixty-five per cent in 2020, beside a Protestant and Pentecostal share and the membership of Iglesia ni Cristo.
+[Pantoja 2003][book_pantoja_2003]
+
+$$
+f_{\text{Catholic among Filipino Americans}}\bigg|_{1970} \approx 0.85, \quad f\bigg|_{1990} \approx 0.75, \quad f\bigg|_{2020} \approx 0.65, \quad f_{\text{Protestant/Pentecostal among Filipino Americans}}\bigg|_{2020} \approx 0.20, \quad P_{\text{Iglesia ni Cristo US membership, 2020}} \approx 1 \times 10^5
+\tag{37}
+$$
+
+**Equation 38, African-Born Population of the United States, 1970 to 2020.**
+Census records show the African-born population rising from about eighty thousand in 1970 to about two point four million in 2020.
+[Arthur 2010][book_arthur_2010]
+[Yankah 2018][book_yankah_2018]
+
+$$
+P_{\text{African-born, US}}\bigg|_{1970} \approx 8 \times 10^4, \quad P\bigg|_{1990} \approx 3.6 \times 10^5, \quad P\bigg|_{2020} \approx 2.4 \times 10^6
+\tag{38}
+$$
+
+**Equation 39, African-Affiliated Christian Congregations in 2020.**
+Institutional records count about three thousand African-affiliated Christian congregations, about eight hundred of them parishes of the Redeemed Christian Church of God.
+[Adogame 2013][book_adogame_2013]
+
+$$
+N_{\text{African-affiliated Christian congregations, US, 2020}} \approx 3 \times 10^3, \quad N_{\text{Redeemed Christian Church of God parishes, US, 2020}} \approx 8 \times 10^2
+\tag{39}
+$$
+
+**Equation 40, Islamic Schools and Convention Attendance.**
+Institutional records count about three hundred full-time and fifteen hundred weekend Islamic schools in 2020 and a peak annual convention attendance of about forty thousand.
+
+$$
+N_{\text{full-time Islamic schools, US, 2020}} \approx 300, \quad N_{\text{Islamic weekend schools, US, 2020}} \approx 1500, \quad P_{\text{ISNA annual convention attendance, peak c. 2010}} \approx 4 \times 10^4
+\tag{40}
+$$
+
+**Equation 41, Halal Food Market and Certified Establishments in 2020.**
+Islamic Food and Nutrition Council of America records give annual halal food sales of about twenty billion dollars and at least thirty thousand certified establishments.
+
+$$
+C_{\text{US halal food market annual sales, 2020}} \approx 2 \times 10^{10} \text{ USD}, \quad N_{\text{halal-certified establishments, US, 2020}} \gtrsim 3 \times 10^4
+\tag{41}
+$$
+
+**Equation 42, Buddhist American Population, 1980 to 2020.**
+Survey reconstructions give about two and a half million Buddhist Americans in 2020, of whom about three in ten were converts without Asian ancestry around 2000.
+[Prebish 1999][book_prebish_1999]
+[Seager 1999][book_seager_1999]
+[Coleman 2001][book_coleman_2001]
+
+$$
+P_{\text{Buddhist American, US}}\bigg|_{1980} \approx 5 \times 10^5, \quad P\bigg|_{2000} \approx 2 \times 10^6, \quad P\bigg|_{2020} \approx 2.5 \times 10^6, \quad f_{\text{convert (non-Asian ancestry) among US Buddhists, c. 2000}} \approx 0.30
+\tag{42}
+$$
+
+**Equation 43, Buddhist Temples and Centres by Stream in 2020.**
+Pluralism Project and Association of Religion Data Archives records count ethnic Asian temples and Tibetan, Zen, Insight Meditation and Soka Gakkai centres.
+
+$$
+N_{\text{ethnic Asian Buddhist temples, US, 2020}} \approx 2 \times 10^3, \quad N_{\text{Tibetan Buddhist centers, US, 2020}} \approx 500, \quad N_{\text{Zen centers (American convert), US, 2020}} \approx 300, \quad N_{\text{Insight Meditation (Vipassana) centers, US, 2020}} \approx 250, \quad N_{\text{Soka Gakkai centers, US, 2020}} \approx 100
+\tag{43}
+$$
+
+**Equation 44, Popular and Electoral Votes in the 1980 Presidential Election.**
+Reagan won about forty-four million popular votes and 489 electoral votes against about thirty-five and a half million and 49 for Carter.
+
+$$
+V_{\text{Reagan 1980 popular}} \approx 4.4 \times 10^7, \quad V_{\text{Carter 1980 popular}} \approx 3.55 \times 10^7, \quad V_{\text{Reagan 1980 electoral}} = 489, \quad V_{\text{Carter 1980 electoral}} = 49
+\tag{44}
+$$
+
+**Equation 45, Popular and Electoral Votes in the 1984 Presidential Election.**
+Reagan won about fifty-five million popular votes and 525 electoral votes against about thirty-seven and a half million and 13 for Mondale.
+
+$$
+V_{\text{Reagan 1984 popular}} \approx 5.48 \times 10^7, \quad V_{\text{Mondale 1984 popular}} \approx 3.75 \times 10^7, \quad V_{\text{Reagan 1984 electoral}} = 525, \quad V_{\text{Mondale 1984 electoral}} = 13
+\tag{45}
+$$
+
+*Equation 46, Bespoke Aggregate Membership and Budget of Religious Right Organisations.*
+The membership and annual budget are lower bounds formed by aggregating several organisations whose memberships may overlap, so the figures rest on the article's choice of which organisations to sum.
+
+$$
+P_{\text{aggregated Religious Right organizational membership, peak c. 1990}} \gtrsim 5 \times 10^6, \quad C_{\text{aggregated Religious Right annual budget, peak c. 1995}} \gtrsim 5 \times 10^8 \text{ USD nominal}
+\tag{46}
+$$
+
+**Equation 47, Christian Coalition Membership, Chapters and Budget at Peak.**
+Institutional records give a peak membership of about one point seven million, about two thousand local chapters and an annual budget of about twenty-six million dollars.
+[Diamond 1998][book_diamond_1998]
+
+$$
+P_{\text{Christian Coalition membership, peak c. 1995}} \approx 1.7 \times 10^6, \quad N_{\text{Christian Coalition local chapters, peak}} \approx 2 \times 10^3, \quad C_{\text{Christian Coalition annual budget, peak c. 1994}} \approx 2.6 \times 10^7 \text{ USD nominal}
+\tag{47}
+$$
+
+**Equation 48, Focus on the Family Employment and Budget at Peak.**
+Institutional records give about fourteen hundred employees and an annual budget of about one hundred and fifty million dollars at peak.
+
+$$
+N_{\text{Focus on the Family employees, peak c. 2000}} \approx 1.4 \times 10^3, \quad C_{\text{Focus on the Family annual budget, peak c. 2005}} \approx 1.5 \times 10^8 \text{ USD nominal}
+\tag{48}
+$$
+
+**Equation 49, Promise Keepers Stadium Attendance, 1991 to 2000.**
+Institutional records give about five million cumulative stadium attendees and about one point one million a year at the peak.
+
+$$
+N_{\text{Promise Keepers stadium event attendance, cumulative 1991 to 2000}} \approx 5 \times 10^6, \quad N_{\text{peak 1996-1997 window}} \approx 1.1 \times 10^6 \text{ annual}
+\tag{49}
+$$
+
+**Equation 50, Megachurch Count and Attendance, 1970 to 2020.**
+Hartford Institute for Religion Research figures count congregations of two thousand or more weekly attenders rising from about twenty-five in 1970 to about seventeen hundred and fifty in 2020.
+[Thumma and Travis 2007][book_thumma_travis_2007]
+[Ellingson 2010][book_ellingson_2010]
+
+$$
+N_{\text{US megachurches, 1970}} \approx 25, \quad N\bigg|_{1990} \approx 300, \quad N\bigg|_{2020} \approx 1750, \quad P_{\text{aggregated US megachurch attendance, 2020}} \approx 8 \times 10^6
+\tag{50}
+$$
+
+**Equation 51, Peak Weekly Attendance at Three Megachurches.**
+Peak weekly attendance is about twenty-four thousand at Willow Creek, twenty-two thousand at Saddleback and fifty-two thousand at Lakewood.
+
+$$
+P_{\text{Willow Creek weekly attendance, peak c. 2005}} \approx 2.4 \times 10^4, \quad P_{\text{Saddleback weekly attendance, peak c. 2010}} \approx 2.2 \times 10^4, \quad P_{\text{Lakewood Church (Joel Osteen), Houston, peak c. 2015}} \approx 5.2 \times 10^4
+\tag{51}
+$$
+
+**Equation 52, Financial Scale of the PTL Ministry Before the Scandal.**
+Court records and institutional documentation give annual revenue of about one hundred and fifty million dollars, about six million annual park visitors and a documented fraud of about one hundred and fifty-eight million dollars.
+[Barnhart 1988][book_barnhart_1988]
+[Shepard 1989][book_shepard_1989]
+
+$$
+C_{\text{PTL Ministry annual revenue, peak c. 1986}} \approx 1.5 \times 10^8 \text{ USD nominal}, \quad N_{\text{Heritage USA park attendance, peak c. 1986}} \approx 6 \times 10^6 \text{ annual}, \quad C_{\text{Bakker documented fraud amount}} \approx 1.58 \times 10^8 \text{ USD nominal}
+\tag{52}
+$$
+
+**Equation 53, Vineyard USA Membership and Congregations.**
+Institutional records give about one hundred and ninety thousand members in about five hundred and fifty congregations.
+
+$$
+P_{\text{Vineyard USA membership, 2020}} \approx 1.9 \times 10^5, \quad N_{\text{Vineyard USA congregations}} \approx 550
+\tag{53}
+$$
+
+**Equation 54, Toronto Blessing Visitors and International Spread.**
+Institutional records give about three and a half million cumulative visitors from 1994 to 1998 and about fifty-five countries reporting the revival.
+
+$$
+N_{\text{Toronto Blessing cumulative visitor attendance, 1994 to 1998}} \approx 3.5 \times 10^6, \quad N_{\text{countries reporting Toronto Blessing spread}} \approx 55
+\tag{54}
+$$
+
+**Equation 55, Membership Decline of Five Mainline Denominations.**
+Denominational records give membership in a base year and in 2020 for five denominations, and each relative change $\Delta$ is the difference divided by the earlier value.
+[Roozen and Hadaway 1993][book_roozen_hadaway_1993]
+[Hout et al. 2001][book_hout_greeley_wilde_2001]
+
+$$
+\begin{aligned}
+P_{\text{United Methodist Church, US}}\bigg|_{1968} &\approx 1.1 \times 10^7, \quad P\bigg|_{2020} \approx 6.3 \times 10^6, \quad \Delta \approx -43\% \\
+P_{\text{Presbyterian Church USA}}\bigg|_{1965} &\approx 4.3 \times 10^6, \quad P\bigg|_{2020} \approx 1.2 \times 10^6, \quad \Delta \approx -72\% \\
+P_{\text{Episcopal Church}}\bigg|_{1965} &\approx 3.5 \times 10^6, \quad P\bigg|_{2020} \approx 1.6 \times 10^6, \quad \Delta \approx -54\% \\
+P_{\text{Evangelical Lutheran Church in America}}\bigg|_{1988} &\approx 5.3 \times 10^6, \quad P\bigg|_{2020} \approx 3 \times 10^6, \quad \Delta \approx -43\% \\
+P_{\text{United Church of Christ}}\bigg|_{1965} &\approx 2.1 \times 10^6, \quad P\bigg|_{2020} \approx 8 \times 10^5, \quad \Delta \approx -62\%
+\end{aligned}
+\tag{55}
+$$
+
+**Equation 56, Casualties and Duration of the Waco Siege.**
+Federal records give eighty-two Branch Davidian deaths, seventy-six of them in the final fire and twenty-five of them children, four agents killed in the initial raid and a siege of fifty-one days.
+[Waco Branch Davidian siege][ref_waco_branch_davidian_1993]
+[Waco DOJ Report 1993][ref_waco_doj_1993]
+[Danforth Report 2000][ref_danforth_report_2000]
+
+$$
+N_{\text{Branch Davidian deaths, Waco siege}} = 82, \quad N_{\text{deaths during final 19 April 1993 fire}} = 76, \quad N_{\text{Branch Davidian children among dead}} = 25, \quad N_{\text{ATF agent deaths, 28 February 1993 raid}} = 4, \quad t_{\text{Waco siege duration}} = 51 \text{ days}
+\tag{56}
+$$
+
+**Equation 57, Casualties and Damage of the Oklahoma City Bombing.**
+The bombing killed one hundred and sixty-eight people including nineteen children, injured about six hundred and eighty-four and caused about six hundred and fifty million dollars of property damage.
+[Oklahoma City Bombing 1995][ref_oklahoma_city_bombing_1995]
+
+$$
+N_{\text{Oklahoma City bombing dead}} = 168, \quad N_{\text{children among dead}} = 19, \quad N_{\text{injured}} \approx 684, \quad C_{\text{property damage estimate}} \approx 6.5 \times 10^8 \text{ USD nominal}
+\tag{57}
+$$
+
+**Equation 58, Competing Attendance Estimates for the Million Man March.**
+Reconstructions of attendance range from eight hundred thousand to one million beside a National Park Service estimate of four hundred thousand and an aerial photographic estimate of eight hundred and seventy thousand.
+[Cottman 1995][book_cottman_1995]
+
+$$
+N_{\text{Million Man March attendance}} \approx 8 \times 10^5 \text{ to } 1 \times 10^6, \quad N_{\text{National Park Service estimate}} \approx 4 \times 10^5, \quad N_{\text{ABC News aerial photo estimate}} \approx 8.7 \times 10^5
+\tag{58}
+$$
+
+**Equation 59, Religiously Unaffiliated Share, 1948 to 2020.**
+Gallup, American Religious Identification Survey and Pew Research figures show the unaffiliated share rising from two per cent in 1948 to twenty-nine per cent in 2020.
+[Kosmin and Keysar 2009][book_kosmin_keysar_2009]
+[Pew Nones on the Rise 2012][ref_pew_nones_2012]
+[Religious Landscape Study 2014][ref_pew_religious_landscape_2014]
+
+$$
+f_{\text{religiously unaffiliated, US}}\bigg|_{1948} \approx 0.02, \quad f\bigg|_{1990} \approx 0.08, \quad f\bigg|_{2000} \approx 0.14, \quad f\bigg|_{2010} \approx 0.19, \quad f\bigg|_{2020} \approx 0.29
+\tag{59}
+$$
+
+**Equation 60, Composition of the Religiously Unaffiliated in 2020.**
+Pew Research reconstruction divides the unaffiliated into about sixty per cent nothing in particular, twenty per cent atheist and twenty per cent agnostic.
+
+$$
+f_{\text{"nothing in particular" among Nones}}\bigg|_{2020} \approx 0.60, \quad f_{\text{atheist among Nones}}\bigg|_{2020} \approx 0.20, \quad f_{\text{agnostic among Nones}}\bigg|_{2020} \approx 0.20
+\tag{60}
+$$
+
+**Equation 61, Unaffiliated Share by Generation in 2020.**
+Pew Research generational figures give the unaffiliated share of each cohort from the Silent Generation to Generation Z.
+
+$$
+f_{\text{unaffiliated among Silent Generation cohort (born 1928-1945)}}\bigg|_{2020} \approx 0.12, \quad f_{\text{Baby Boomer (born 1946-1964)}}\bigg|_{2020} \approx 0.20, \quad f_{\text{Generation X (born 1965-1980)}}\bigg|_{2020} \approx 0.31, \quad f_{\text{Millennial (born 1981-1996)}}\bigg|_{2020} \approx 0.40, \quad f_{\text{Generation Z (born 1997-2012)}}\bigg|_{2020} \approx 0.34
+\tag{61}
+$$
+
+**Equation 62, American Missionaries and Bibles Sent to the Former Soviet Bloc.**
+Institutional records give about four thousand Protestant missionaries sent to the former Soviet Union and at least fifty million Bibles distributed in the former Soviet Bloc from 1990 to 2000.
+
+$$
+N_{\text{US Protestant missionaries to former Soviet Union, 1990 to 2000}} \approx 4 \times 10^3, \quad N_{\text{Bibles distributed by American Bible Society and denominational bodies in former Soviet Bloc, 1990 to 2000}} \gtrsim 5 \times 10^7
+\tag{62}
+$$
+
+**Equation 63, Deaths From AIDS in the United States, 1981 to 1996.**
+Centers for Disease Control and Prevention records give about three hundred and fifty thousand cumulative deaths from acquired immunodeficiency syndrome and about fifty-one thousand in the peak year of 1995.
+
+$$
+N_{\text{cumulative US AIDS deaths, 1981 to 1996}} \approx 3.5 \times 10^5, \quad N_{\text{annual US AIDS deaths, peak 1995}} \approx 5.1 \times 10^4
+\tag{63}
+$$
+
+**Equation 64, Scale of Operation Rescue Direct Action.**
+Institutional records give about seventy thousand arrests from 1988 to 1994, at least seven hundred clinic actions and at least one hundred thousand demonstrators at peak.
+[Risen and Thomas 1998][book_risen_thomas_1998]
+
+$$
+N_{\text{Operation Rescue documented arrests, 1988 to 1994}} \approx 7 \times 10^4, \quad N_{\text{Operation Rescue "rescues" at abortion clinics, cumulative}} \gtrsim 700, \quad P_{\text{Operation Rescue affiliated demonstrators, peak c. 1991}} \gtrsim 1 \times 10^5
+\tag{64}
+$$
+
+**Equation 65, Violence Against Abortion Providers, 1977 to 2015.**
+National Abortion Federation records give about two hundred clinic bombings and arsons, eleven murders of providers and about forty attempted murders.
+
+$$
+N_{\text{US abortion clinic bombings and arsons, 1977 to 2015}} \approx 200, \quad N_{\text{US abortion provider murders, 1993 to 2015}} = 11, \quad N_{\text{attempted murders}} \approx 40
+\tag{65}
+$$
+
+**Equation 66, Scale of Repatriation Under the Native American Graves Protection and Repatriation Act.**
+National Park Service programme records give about one hundred and twenty thousand human remains held in 1990, about sixty thousand repatriated by 2020 and at least one and a half million funerary objects repatriated.
+
+$$
+N_{\text{NAGPRA-implicated Native American human remains in US museums and federal collections, 1990}} \approx 1.2 \times 10^5, \quad N_{\text{NAGPRA repatriations completed, 1990 to 2020}} \approx 6 \times 10^4, \quad N_{\text{Native American associated funerary objects repatriated, cumulative}} \gtrsim 1.5 \times 10^6
+\tag{66}
+$$
+
+**Equation 67, Sales and Film Adaptations of the Left Behind Series.**
+Publisher records give about eighty million copies sold from 1995 to 2020 and four film adaptations.
+
+$$
+N_{\text{Left Behind series copies sold, cumulative 1995 to 2020}} \approx 8 \times 10^7, \quad N_{\text{Left Behind film adaptations}} = 4
+\tag{67}
+$$
+
+*Equation 68, Bespoke Christian Music Sales With an Aggregate of Three Artists.*
+Annual Christian contemporary music sales are reported by the Gospel Music Association, while the cumulative album sales are a lower bound the article forms by summing three artists it selected.
+
+$$
+C_{\text{US Christian contemporary music sales, peak c. 2000}} \approx 8 \times 10^8 \text{ USD annual}, \quad P_{\text{major Christian rock artists (Amy Grant, Michael W. Smith, Steven Curtis Chapman) aggregate album sales, cumulative}} \gtrsim 5 \times 10^7
+\tag{68}
+$$
+
+### Notation
+
+- $P$, a population, membership or attendance of persons, identified by its subscript and the year after the vertical bar
+- $N$, a count of persons, institutions or events, identified by its subscript
+- $f$, a fraction or share between zero and one, identified by its subscript
+- $C$, a monetary amount in United States dollars, nominal unless stated, identified by its subscript
+- $V$, a count of popular or electoral votes for a named candidate
+- $t$, a duration in days
+- $\Delta$, the relative change in membership from the base year to 2020, as a percentage
 
 ## References
 

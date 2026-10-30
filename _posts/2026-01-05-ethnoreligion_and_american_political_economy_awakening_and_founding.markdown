@@ -21,19 +21,31 @@ The 1725-1789 period exhibits significant continuity with the colonial patterns 
 
 The demographic composition of the colonial and subsequently national population changed across the period. The colonial European population grew from approximately
 
-$$P_{\text{colonial European}}(1725) \approx 6 \times 10^5, \quad P_{\text{US European}}(1789) \approx 3 \times 10^6$$
+$$
+P_{\text{colonial European}}(1725) \approx 6 \times 10^5, \quad P_{\text{US European}}(1789) \approx 3 \times 10^6
+\tag{1}
+$$
 
 with the fivefold increase across the sixty-four-year period reflecting marked natural increase supplemented by continuing German, Scots-Irish, and other migration. The African-descent population of the colonies and later United States grew from approximately
 
-$$P_{\text{African}}(1725) \approx 1 \times 10^5, \quad P_{\text{African}}(1789) \approx 7.5 \times 10^5$$
+$$
+P_{\text{African}}(1725) \approx 1 \times 10^5, \quad P_{\text{African}}(1789) \approx 7.5 \times 10^5
+\tag{2}
+$$
 
 with the proportion of the African-descent population held in bondage approximately
 
-$$f_{\text{enslaved}}(1789) \approx 0.90, \quad P_{\text{free African, US}}(1789) \approx 7.5 \times 10^4$$
+$$
+f_{\text{enslaved}}(1789) \approx 0.90, \quad P_{\text{free African, US}}(1789) \approx 7.5 \times 10^4
+\tag{3}
+$$
 
 reflecting the extensive Northern free Black population growth through gradual emancipation treated below alongside continued Southern enslavement. The indigenous population of the territory that would become the United States continued to decline through disease, warfare, and displacement,
 
-$$P_{\text{indigenous, US territory}}(1725) \approx 5 \times 10^5, \quad P_{\text{indigenous, US territory}}(1789) \approx 3 \times 10^5$$
+$$
+P_{\text{indigenous, US territory}}(1725) \approx 5 \times 10^5, \quad P_{\text{indigenous, US territory}}(1789) \approx 3 \times 10^5
+\tag{4}
+$$
 
 with sizable regional variation. The [Wells 1975][book_wells_1975] The Population of the British Colonies, [Klepp 1998][book_klepp_1998] Revolutionary Conceptions, and [Thornton 1987][book_thornton_1987] provide the quantitative demographic evidence. The [Library of Congress Religion and the Founding of the American Republic exhibit][ref_loc_religion_and_founding] supplies the curated primary-source visual documentation of the Founding-era religious landscape.
 
@@ -47,7 +59,10 @@ Jonathan Edwards (1703-1758), Stoddard's grandson and successor as Northampton p
 
 George Whitefield (1714-1770), an Anglican priest in the evangelical Anglican tradition of John and Charles Wesley, provided the transcolonial itinerant preaching that carried Awakening revivalism from New England through the Middle Colonies through the Southern Colonies. Whitefield's American ministry can be characterized quantitatively as
 
-$$N_{\text{Whitefield American tours}} = 7, \quad [t_{\text{first}}, t_{\text{last}}] = [1739, 1770], \quad \max N_{\text{Whitefield crowd}} \approx 3 \times 10^4$$
+$$
+N_{\text{Whitefield American tours}} = 7, \quad [t_{\text{first}}, t_{\text{last}}] = [1739, 1770], \quad \max N_{\text{Whitefield crowd}} \approx 3 \times 10^4
+\tag{5}
+$$
 
 with the maximum crowd size estimated by Franklin through acoustic calculation. His dramatic performance style and evangelical message emphasizing new-birth conversion produced considerable converts across denominational and geographic boundaries. The [Stout 1991][book_stout_1991] The Divine Dramatist and [Lambert 1994][book_lambert_1994] Inventing the Great Awakening treat the Whitefield ministry. Franklin's account of Whitefield preaching to a crowd whose size he estimated through acoustic calculation appears in the [Franklin 1791][book_franklin_autobiography] Autobiography. Whitefield's own itinerant record appears in the [Whitefield Journals primary source][ref_whitefield_journals].
 
@@ -55,11 +70,17 @@ Gilbert Tennent (1703-1764), Presbyterian minister at New Brunswick, New Jersey,
 
 The Great Awakening quantitative reach can be estimated through church-membership records and contemporary observations. Documented conversion numbers during the peak years approach
 
-$$N_{\text{Awakening converts, peak years 1740 to 1742}} \sim (3 \text{ to } 5) \times 10^4$$
+$$
+N_{\text{Awakening converts, peak years 1740 to 1742}} \sim (3 \text{ to } 5) \times 10^4
+\tag{6}
+$$
 
 from a colonial population of approximately
 
-$$P_{\text{colonial, 1740}} \approx 8.5 \times 10^5, \quad f_{\text{converts}} \approx \frac{4 \times 10^4}{8.5 \times 10^5} \approx 0.047$$
+$$
+P_{\text{colonial, 1740}} \approx 8.5 \times 10^5, \quad f_{\text{converts}} \approx \frac{4 \times 10^4}{8.5 \times 10^5} \approx 0.047
+\tag{7}
+$$
 
 or roughly four to five percent of the colonial population as documented converts, per the [Butler 1990][book_butler_1990] and [Kidd 2007][book_kidd_2007] treatments. The [Butler 1982][research_butler_1982] revisionist argument questions whether the Awakening constituted a single coherent movement or whether the term reflects subsequent historiographical construction more than contemporary reality.
 
@@ -71,7 +92,10 @@ Congregationalist New England divided between Old Lights led by Charles Chauncy 
 
 Presbyterian Middle Colonies divided between Old Side and New Side across the interval
 
-$$t_{\text{Presbyterian schism}} \in [1741, 1758], \quad \Delta t_{\text{schism}} = 17 \text{ years}$$
+$$
+t_{\text{Presbyterian schism}} \in [1741, 1758], \quad \Delta t_{\text{schism}} = 17 \text{ years}
+\tag{8}
+$$
 
 The Old Side, based in the Presbytery of Philadelphia, maintained the traditional educational requirements for ministerial ordination (typically requiring university education) and the liturgical conservatism. The New Side, based in the Presbytery of New Brunswick (later the Synod of New York), supported the Log College tradition initiated by William Tennent Sr. at Neshaminy (approximately 1727) providing the alternative ministerial education preparing evangelical revivalist pastors. The 1746 founding of the College of New Jersey (later Princeton) provided the New Side institutional consolidation. The 1758 Presbyterian reunion combined the traditions under the mixed synodal governance. The [Longfield 2013][book_longfield_2013] and [Marsden 1970][book_marsden_1970] The Evangelical Mind and the New School Presbyterian Experience treat the division and reunion.
 
@@ -85,11 +109,17 @@ American Methodism began with the 1766 organization of the New York Society by P
 
 The 1784 Christmas Conference at Baltimore under Thomas Coke (1747-1814) and Francis Asbury established the Methodist Episcopal Church as an independent denomination, the first American denomination formed independently of European ecclesiastical parents, documented in the [Methodist Christmas Conference 1784 minutes and records][ref_methodist_christmas_conference_1784]. The [Baker 1976][book_baker_1976] From Wesley to Asbury treats the transition. Methodist growth from the 1784 organization was substantial,
 
-$$P_{\text{Methodist adherents, US}}(1784) \approx 1.5 \times 10^4, \quad P_{\text{Methodist adherents, US}}(1820) \approx 2.5 \times 10^5$$
+$$
+P_{\text{Methodist adherents, US}}(1784) \approx 1.5 \times 10^4, \quad P_{\text{Methodist adherents, US}}(1820) \approx 2.5 \times 10^5
+\tag{9}
+$$
 
 corresponding to an average annual growth rate of
 
-$$r_{\text{Methodist growth, 1784 to 1820}} = \frac{\ln(2.5 \times 10^5 / 1.5 \times 10^4)}{36 \text{ years}} \approx 0.078 \text{ per year}$$
+$$
+r_{\text{Methodist growth, 1784 to 1820}} = \frac{\ln(2.5 \times 10^5 / 1.5 \times 10^4)}{36 \text{ years}} \approx 0.078 \text{ per year}
+\tag{10}
+$$
 
 representing approximately eight percent compound annual growth and the fastest denominational growth rate in American religious history through the early nineteenth century. The [Wigger 1998][book_wigger_1998] Taking Heaven by Storm treats the growth mechanism.
 
@@ -111,7 +141,10 @@ John Adams (1735-1826), a Unitarian Congregationalist by mature religious commit
 
 Thomas Paine (1737-1809), whose 1794 and 1795 [Paine 1794][book_paine_1794] The Age of Reason presented the systematic radical Deist critique of Christianity, produced the most popularly influential Deist tract of the American Revolutionary period. His earlier 1776 [Paine Common Sense 1776 primary text][ref_paine_common_sense_1776] provided the Revolutionary mobilization pamphlet whose scriptural framing reached both Deist and evangelical Protestant audiences. The work was received across popular audiences and provided the ammunition for the late-eighteenth century American Deist popular movement documented in [Palmer and Palmer 1801][book_palmer_1801] Principles of Nature and other subsequent texts. The popular Deism declined after approximately 1810 under the Second Great Awakening's counter-mobilization treated in article four. Common Sense circulation estimates give
 
-$$N_{\text{Common Sense copies, 1776}} \approx 1.5 \times 10^5, \quad P_{\text{colonial, 1776}} \approx 2.5 \times 10^6, \quad f_{\text{households reached}} \sim 0.30$$
+$$
+N_{\text{Common Sense copies, 1776}} \approx 1.5 \times 10^5, \quad P_{\text{colonial, 1776}} \approx 2.5 \times 10^6, \quad f_{\text{households reached}} \sim 0.30
+\tag{11}
+$$
 
 with the pamphlet reaching approximately one third of colonial households through direct copies and public readings, providing one of the widest single-document circulation events of the pre-industrial American press.
 
@@ -125,7 +158,10 @@ Presbyterian Middle Colonies provided the second major religious base for Revolu
 
 Anglican Southern colonies and Middle Colony Anglican populations divided considerably. Southern Anglican planters supported the Revolution, with the Virginia gentry providing sizable Revolutionary leadership through Washington, Jefferson, Madison, Henry, Randolph, and others. Northern Anglican populations divided more evenly between Loyalists and Patriots. Anglican clergy under the Bishop of London's jurisdiction faced structural conflict between their oaths to the Crown and the Revolutionary cause. Clergy departure during the Revolution was appreciable,
 
-$$f_{\text{Northern Anglican clergy departed, 1776 to 1783}} \approx 0.50$$
+$$
+f_{\text{Northern Anglican clergy departed, 1776 to 1783}} \approx 0.50
+\tag{12}
+$$
 
 depopulating the Anglican ministerial infrastructure and shaping the post-Revolutionary reorganization as the Protestant Episcopal Church. The [Nelson 2001][book_nelson_2001] A Blessed Company and [Bond 2000][book_bond_2000] Damned Souls in a Tobacco Colony treat the Anglican Revolutionary experience.
 
@@ -147,7 +183,10 @@ The Haudenosaunee (Iroquois) Confederacy divided during the Revolution. The Onei
 
 The 1779 Sullivan-Clinton Campaign under General John Sullivan systematically destroyed Haudenosaunee villages in western New York,
 
-$$N_{\text{Haudenosaunee villages destroyed, 1779}} \approx 40$$
+$$
+N_{\text{Haudenosaunee villages destroyed, 1779}} \approx 40
+\tag{13}
+$$
 
 driving substantial populations to Fort Niagara and reducing Confederacy agricultural infrastructure. The campaign marked the decisive American military effort against the British-allied Haudenosaunee. The consequence of the Sullivan Campaign combined with the Treaty of Paris 1783 boundaries produced marked Haudenosaunee dispossession. The [Mintz 1999][book_mintz_1999] Seeds of Empire treats the campaign.
 
@@ -175,7 +214,10 @@ David Zeisberger (1721-1808), Moravian missionary to the Lenape (Delaware) from 
 
 The 1782 Gnadenhutten Massacre, on 8 March 1782, saw Pennsylvania militia under David Williamson murder
 
-$$N_{\text{Gnadenhutten dead}} = 96, \quad N_{\text{women and children among the dead}} = 60$$
+$$
+N_{\text{Gnadenhutten dead}} = 96, \quad N_{\text{women and children among the dead}} = 60
+\tag{14}
+$$
 
 specifically pacifist Moravian Native Christians who had been returned by British-allied Wyandot to their villages to gather harvested corn. The militia found the Natives, held them overnight while conducting a mock trial, and executed them in the mission buildings. The episode marked the worst massacre of Native peoples during the Revolutionary period and provided the evidence for the argument that American Revolutionary attitudes toward Native peoples were genocidal irrespective of tribal alignment with British or American forces. The [Harper 2014][book_harper_2014] Unsettling the West treats the massacre and its historiographical construction.
 
@@ -195,18 +237,24 @@ The 1786 Virginia Statute for Religious Freedom, drafted by Jefferson in 1777 an
 
 State-level disestablishment across the other former colonies proceeded on several schedules. The Anglican establishments ended with the Revolutionary period on approximately these dates,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Maryland Anglican} &: 1776 \\
 \text{North Carolina Anglican} &: 1776 \\
 \text{New York Anglican} &: 1777 \\
 \text{South Carolina Anglican} &: 1778 \\
 \text{Georgia Anglican} &: 1789 \\
 \text{Virginia Anglican statutory} &: 1786
-\end{aligned}$$
+\end{aligned}
+\tag{15}
+$$
 
 The Congregationalist establishments in New Hampshire (1819), Connecticut (1818), and Massachusetts (1833) persisted longer,
 
-$$t_{\text{final state disestablishment}} - t_{\text{First Amendment}} = 1833 - 1791 = 42 \text{ years}$$
+$$
+t_{\text{final state disestablishment}} - t_{\text{First Amendment}} = 1833 - 1791 = 42 \text{ years}
+\tag{16}
+$$
 
 with the persistence of the Congregationalist establishment in Massachusetts through 1833 marking the latest American religious establishment.
 
@@ -214,7 +262,10 @@ with the persistence of the Congregationalist establishment in Massachusetts thr
 
 The 1787 Constitution as ratified in 1788 (effective 1789), available as the [United States Constitution 1787 primary text][ref_us_constitution_1787], addressed religion in ways that predated the 1791 First Amendment religious clauses treated below. The preceding [Articles of Confederation 1777 primary text][ref_articles_of_confederation_1777] provided the antecedent federal framework whose weaknesses motivated the constitutional convention. Contemporary interpretive commentary appears in the [Federalist 10 primary text][ref_federalist_10] on faction and majority tyranny, the [Federalist 51 primary text][ref_federalist_51] on institutional structure, and the [Federalist 84 primary text][ref_federalist_84] on the Bill of Rights question. The Article VI No Religious Test Clause,
 
-$$\text{Article VI, Clause 3: "no religious Test shall ever be required as a Qualification to any Office or public Trust under the United States"}$$
+$$
+\text{Article VI, Clause 3: "no religious Test shall ever be required as a Qualification to any Office or public Trust under the United States"}
+\tag{17}
+$$
 
 established the federal prohibition on religious tests for federal officeholding. The clause was controversial at ratification because it broke with the practice of state constitutions requiring religious tests (typically Protestant Christian professions) for state officeholding. The [Kramnick and Moore 2005][book_kramnick_moore_2005] The Godless Constitution documents the significance of the clause as the first constitutional accommodation of religious pluralism at the federal level. The corresponding Presidential Oath clause in Article II Section 1 permits either an oath or an affirmation, accommodating Quaker and other religious traditions that specifically refused oath-taking.
 
@@ -226,7 +277,10 @@ The Northwest Ordinance of 1787, though not part of the Constitution itself, pro
 
 The 1791 First Amendment to the United States Constitution, available as the [First Amendment 1791 primary text][ref_first_amendment_1791] and part of the [Bill of Rights 1791 primary text][ref_bill_of_rights_1791], established the federal religious accommodation that would shape subsequent American religious-state relations. The Amendment's religion clauses,
 
-$$\text{Establishment Clause} + \text{Free Exercise Clause} = \text{First Amendment religious accommodation}$$
+$$
+\text{Establishment Clause} + \text{Free Exercise Clause} = \text{First Amendment religious accommodation}
+\tag{18}
+$$
 
 comprise two institutional provisions. The Establishment Clause prohibits Congress from making laws respecting an establishment of religion. The Free Exercise Clause prohibits Congress from making laws prohibiting the free exercise thereof. The interpretive relationship between the two clauses has produced significant subsequent jurisprudential debate. The [Curry 1986][book_curry_1986], [Hamburger 2002][book_hamburger_2002], and [McConnell 1990][research_mcconnell_1990] treatments cover the interpretive history.
 
@@ -234,9 +288,15 @@ Congressional debate over the religion clauses in August 1789 produced substanti
 
 The extension of the religion clauses to state governments proceeded later through Fourteenth Amendment incorporation, with the delay measurable as
 
-$$\Delta t_{\text{Free Exercise incorporation}} = 1940 - 1791 = 149 \text{ years}$$
+$$
+\Delta t_{\text{Free Exercise incorporation}} = 1940 - 1791 = 149 \text{ years}
+\tag{19}
+$$
 
-$$\Delta t_{\text{Establishment incorporation}} = 1947 - 1791 = 156 \text{ years}$$
+$$
+\Delta t_{\text{Establishment incorporation}} = 1947 - 1791 = 156 \text{ years}
+\tag{20}
+$$
 
 per [Cantwell v. Connecticut 310 1940][ref_cantwell_v_connecticut_1940] and [Everson v. Board 1947][ref_everson_v_board_of_education_1947] respectively. The pre-incorporation state establishments discussed above operated without federal constitutional restriction.
 
@@ -250,7 +310,10 @@ The Democratic-Republican Party (Thomas Jefferson, James Madison) drew extensive
 
 The 1800 election of Jefferson over Adams reflected the mobilization of Baptist, Methodist, and other dissenter constituencies alongside Southern planter constituencies. The New England Federalist alarm at Jefferson's religious liberalism (portrayed by Federalist propagandists as atheistic) reflected the religious dimension of the party conflict. The [Larson 2007][book_larson_2007] A Magnificent Catastrophe treats the 1800 election dynamics. The 1800 electoral outcome quantifies as
 
-$$N_{\text{Jefferson electoral, 1800}} = 73, \quad N_{\text{Adams electoral, 1800}} = 65, \quad \Delta N_{\text{decisive}} = 8$$
+$$
+N_{\text{Jefferson electoral, 1800}} = 73, \quad N_{\text{Adams electoral, 1800}} = 65, \quad \Delta N_{\text{decisive}} = 8
+\tag{21}
+$$
 
 with the Democratic-Republican coalition depending on the three-fifths clause augmentation of Southern electoral weight and on dissenter mobilization outside the New England Congregationalist heartland.
 
@@ -270,11 +333,17 @@ Prince Hall Freemasonry, established 1775 at Boston under Prince Hall (approxima
 
 Black Loyalists during and after the Revolution constituted a population who supported the British Crown in exchange for promises of freedom under the 1775 Dunmore Proclamation and subsequent British policy. The quantitative reconstruction places
 
-$$N_{\text{Black Loyalists total}} \in [1.5, 2.0] \times 10^4$$
+$$
+N_{\text{Black Loyalists total}} \in [1.5, 2.0] \times 10^4
+\tag{22}
+$$
 
 with the evacuation distribution
 
-$$N_{\text{Nova Scotia}} \approx 3 \times 10^3, \quad N_{\text{Caribbean}} \approx 5 \times 10^3, \quad N_{\text{Sierra Leone by 1792}} \approx 1.2 \times 10^3$$
+$$
+N_{\text{Nova Scotia}} \approx 3 \times 10^3, \quad N_{\text{Caribbean}} \approx 5 \times 10^3, \quad N_{\text{Sierra Leone by 1792}} \approx 1.2 \times 10^3
+\tag{23}
+$$
 
 per the [Pybus 2006][book_pybus_2006] Epic Journeys of Freedom and [Schama 2005][book_schama_2005] Rough Crossings treatments of the Black Loyalist experience.
 
@@ -288,7 +357,8 @@ Massachusetts Judicial Emancipation in 1783 under the Quock Walker case, availab
 
 State emancipation statutes followed the timeline
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Pennsylvania (gradual)} &: 1780 \\
 \text{New Hampshire (judicial, effective)} &: 1783 \\
 \text{Massachusetts (judicial)} &: 1783 \\
@@ -297,7 +367,9 @@ $$\begin{aligned}
 \text{Vermont (constitutional)} &: 1777 \\
 \text{New York (gradual, completed 1827)} &: 1799 \\
 \text{New Jersey (gradual, effective 1846)} &: 1804
-\end{aligned}$$
+\end{aligned}
+\tag{24}
+$$
 
 The gradual pattern reflected compromise between Northern antislavery sentiment and property-rights protections of slaveholders. The [Litwack 1961][book_litwack_1961] North of Slavery treats the persistent Northern free Black legal disabilities that continued after emancipation.
 
@@ -307,7 +379,10 @@ German-speaking migration to the colonies and later United States continued thro
 
 Total German-speaking arrivals across the eighteenth century reached approximately
 
-$$N_{\text{German arrivals, 1683 to 1789}} \approx 1 \times 10^5 \text{ persons}$$
+$$
+N_{\text{German arrivals, 1683 to 1789}} \approx 1 \times 10^5 \text{ persons}
+\tag{25}
+$$
 
 producing the Pennsylvania German population that constituted approximately one-third of the Pennsylvania colonial population by 1775. The [Wokeck 1999][book_wokeck_1999] provides the quantitative reconstruction.
 
@@ -319,12 +394,15 @@ The Moravian expansion under Zinzendorf and subsequent leadership reached consid
 
 Anabaptist populations continued growth through the period, reaching approximately
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P_{\text{Amish, US}}(1789) &\approx 2 \times 10^3 \\
 P_{\text{Mennonite, US}}(1789) &\approx 1 \times 10^4 \\
 P_{\text{Brethren (Dunker), US}}(1789) &\approx 3 \times 10^3 \\
 P_{\text{Anabaptist total, US}}(1789) &\approx 1.5 \times 10^4
-\end{aligned}$$
+\end{aligned}
+\tag{26}
+$$
 
 with the Amish tracing to the 1693 separation under Jakob Ammann treated in [A267][related_post_a267_colonial_folkways] and concentrated in Berks and Lancaster Counties, Pennsylvania, the Mennonite community arriving primarily through Germantown from 1683, and the Brethren (Dunker) community tracing to the 1708 Schwarzenau formation treated in [A267][related_post_a267_colonial_folkways]. The quantitative estimates draw on [Nolt 2015][book_nolt_2015] A History of the Amish and [Cross 1988][book_cross_1988] The Mennonites treatments.
 
@@ -336,7 +414,10 @@ Scots-Irish migration accelerated across the 1725-1775 period, producing the bac
 
 Total Scots-Irish migration across the eighteenth century reached approximately
 
-$$N_{\text{Scots-Irish arrivals, 1717 to 1775}} \approx 2.5 \times 10^5 \text{ persons}$$
+$$
+N_{\text{Scots-Irish arrivals, 1717 to 1775}} \approx 2.5 \times 10^5 \text{ persons}
+\tag{27}
+$$
 
 producing significant population across the American backcountry from Pennsylvania south through the Carolinas and Georgia to the trans-Appalachian frontier. The migration accelerated in waves following economic distress and religious pressure in Ulster.
 
@@ -346,7 +427,10 @@ The Regulator movements in North Carolina (1768-1771) and South Carolina (1767-1
 
 Scots-Irish contributions to the Continental Army were substantial,
 
-$$f_{\text{Continental Army, Scots-Irish origin}} \approx 0.33$$
+$$
+f_{\text{Continental Army, Scots-Irish origin}} \approx 0.33
+\tag{28}
+$$
 
 per estimates from military service records and demographic reconstruction. The frontier fighting experience, religious conviction of American cause, and personal grievances against Ulster and British authority combined to produce marked Scots-Irish Revolutionary support. The Overmountain Men, Scots-Irish settlers of what would become Tennessee, played decisive roles at the 1780 Battle of Kings Mountain, marking the inflection point of the Southern Campaign. The [Draper 1881][book_draper_1881] King's Mountain and Its Heroes and [Buchanan 1997][book_buchanan_1997] The Road to Guilford Courthouse treat the Scots-Irish military contributions.
 
@@ -364,7 +448,10 @@ The New Orleans religious landscape by 1789 combined the St. Louis Cathedral (re
 
 The 1791 Haitian Revolution beginning at Saint-Domingue produced appreciable effects on Louisiana. The 1809 refugee arrival can be characterized as
 
-$$N_{\text{Saint-Domingue refugees to New Orleans, 1809}} \approx 1 \times 10^4, \quad \frac{N_{\text{refugees}}}{P_{\text{New Orleans pre-arrival}}} \approx 1$$
+$$
+N_{\text{Saint-Domingue refugees to New Orleans, 1809}} \approx 1 \times 10^4, \quad \frac{N_{\text{refugees}}}{P_{\text{New Orleans pre-arrival}}} \approx 1
+\tag{29}
+$$
 
 approximately doubling the city's population and reinforcing the French-language and Catholic character of the New Orleans religious formation despite the 1803 American acquisition. The [Dessens 2007][book_dessens_2007] From Saint-Domingue to New Orleans treats the migration.
 
@@ -394,11 +481,17 @@ Carroll's 1789 founding of Georgetown Academy (later Georgetown University) prov
 
 American Catholic population at 1789 remained small,
 
-$$P_{\text{Catholic, US}}(1789) \approx 2.5 \times 10^4$$
+$$
+P_{\text{Catholic, US}}(1789) \approx 2.5 \times 10^4
+\tag{30}
+$$
 
 concentrated in Maryland (approximately fifteen thousand) and Pennsylvania (approximately seven thousand), with smaller populations in Kentucky, New York, and the French Louisiana and Spanish Florida territories not yet incorporated into the United States. The population would grow through the nineteenth-century Irish and German Catholic migration treated in article four. Baseline Catholic share of the founding-era American population gives
 
-$$P_{\text{US, 1789}} \approx 3.9 \times 10^6, \quad f_{\text{Catholic}}(1789) = \frac{2.5 \times 10^4}{3.9 \times 10^6} \approx 0.006$$
+$$
+P_{\text{US, 1789}} \approx 3.9 \times 10^6, \quad f_{\text{Catholic}}(1789) = \frac{2.5 \times 10^4}{3.9 \times 10^6} \approx 0.006
+\tag{31}
+$$
 
 approximately six per thousand at national organization, contrasted with approximately one in five by mid-nineteenth century following mass Catholic immigration treated in the next article.
 
@@ -420,7 +513,10 @@ Freemasonry, the fraternal-ritual organization tracing to eighteenth-century Eng
 
 The documented Freemasonry participation among the Founding generation includes George Washington (initiated 1752 in Fredericksburg, Virginia), Benjamin Franklin (initiated 1731, later Grand Master of Pennsylvania), Paul Revere (initiated 1760, later Grand Master of Massachusetts), John Hancock, Joseph Warren, John Sullivan, Nathan Hale, John Marshall, Robert Livingston, and additional Founders. Approximately
 
-$$f_{\text{Founding Fathers Freemasons}} \sim 0.3 \text{ to } 0.5$$
+$$
+f_{\text{Founding Fathers Freemasons}} \sim 0.3 \text{ to } 0.5
+\tag{32}
+$$
 
 depending on the definition of Founding Fathers adopted per the [Bullock 1996][book_bullock_1996] and [Tabbert 2005][book_tabbert_2005] estimates. The Freemasonry participation provided the network structure through which Founders coordinated Revolutionary activities and post-Revolutionary institutional formation.
 
@@ -459,6 +555,334 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct assessment of the African American religious formation during the Revolutionary period and its causal contribution to the subsequent independent Black church tradition?
 - What is the correct assessment of the persistence of Louisiana Creole Catholic formation under French, Spanish, and American administrations?
 - What is the correct causal weight to assign to the 1786 Virginia Statute versus the 1791 First Amendment in shaping subsequent American religious-liberty jurisprudence?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 32 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 32, 30 are established and 2 are bespoke.
+Populations, converts, arrivals and casualties are counted in persons, dates are calendar years of the Common Era and intervals are in years, growth rates are continuous rates per year, and every share is a fraction between zero and one.
+
+**Equation 1, European Population in 1725 and 1789.**
+The European population grew about fivefold from about six hundred thousand in the colonies of 1725 to about three million in the United States of 1789.
+
+$$
+P_{\text{colonial European}}(1725) \approx 6 \times 10^5, \quad P_{\text{US European}}(1789) \approx 3 \times 10^6
+\tag{1}
+$$
+
+**Equation 2, African-Descent Population in 1725 and 1789.**
+The African-descent population of the colonies and later United States grew from about one hundred thousand in 1725 to about 750,000 in 1789.
+
+$$
+P_{\text{African}}(1725) \approx 1 \times 10^5, \quad P_{\text{African}}(1789) \approx 7.5 \times 10^5
+\tag{2}
+$$
+
+**Equation 3, Enslaved Share and Free Black Population in 1789.**
+About ninety percent of the African-descent population was enslaved in 1789, leaving a free Black population of about seventy-five thousand.
+
+$$
+f_{\text{enslaved}}(1789) \approx 0.90, \quad P_{\text{free African, US}}(1789) \approx 7.5 \times 10^4
+\tag{3}
+$$
+
+**Equation 4, Indigenous Population of the Future United States in 1725 and 1789.**
+The indigenous population of the territory that would become the United States fell from about half a million in 1725 to about three hundred thousand in 1789.
+[Thornton 1987][book_thornton_1987]
+
+$$
+P_{\text{indigenous, US territory}}(1725) \approx 5 \times 10^5, \quad P_{\text{indigenous, US territory}}(1789) \approx 3 \times 10^5
+\tag{4}
+$$
+
+**Equation 5, Scale of the American Ministry of George Whitefield.**
+Whitefield made seven American tours between 1739 and 1770 and drew a largest crowd that Franklin estimated by acoustic calculation at about thirty thousand.
+[Stout 1991][book_stout_1991]
+[Lambert 1994][book_lambert_1994]
+[Franklin 1791][book_franklin_autobiography]
+
+$$
+N_{\text{Whitefield American tours}} = 7, \quad [t_{\text{first}}, t_{\text{last}}] = [1739, 1770], \quad \max N_{\text{Whitefield crowd}} \approx 3 \times 10^4
+\tag{5}
+$$
+
+**Equation 6, Converts in the Peak Years of the Great Awakening.**
+Documented conversions in the peak years of 1740 to 1742 number about thirty to fifty thousand.
+[Butler 1990][book_butler_1990]
+[Kidd 2007][book_kidd_2007]
+
+$$
+N_{\text{Awakening converts, peak years 1740 to 1742}} \sim (3 \text{ to } 5) \times 10^4
+\tag{6}
+$$
+
+*Equation 7, Bespoke Convert Share of the Colonial Population in 1740.*
+Taking the midpoint of forty thousand from the stated range of converts and a colonial population of about 850,000 gives a convert share of about 4.7 percent.
+[Butler 1990][book_butler_1990]
+[Kidd 2007][book_kidd_2007]
+
+$$
+P_{\text{colonial, 1740}} \approx 8.5 \times 10^5, \quad f_{\text{converts}} \approx \frac{4 \times 10^4}{8.5 \times 10^5} \approx 0.047
+\tag{7}
+$$
+
+**Equation 8, Duration of the Presbyterian Old Side and New Side Schism.**
+The Presbyterian schism lasted from 1741 to the reunion of 1758, a span of seventeen years.
+
+$$
+t_{\text{Presbyterian schism}} \in [1741, 1758], \quad \Delta t_{\text{schism}} = 17 \text{ years}
+\tag{8}
+$$
+
+**Equation 9, Methodist Adherents in 1784 and 1820.**
+Methodist adherents in the United States grew from about fifteen thousand at the organisation of 1784 to about a quarter of a million in 1820.
+[Baker 1976][book_baker_1976]
+[Wigger 1998][book_wigger_1998]
+
+$$
+P_{\text{Methodist adherents, US}}(1784) \approx 1.5 \times 10^4, \quad P_{\text{Methodist adherents, US}}(1820) \approx 2.5 \times 10^5
+\tag{9}
+$$
+
+**Equation 10, Methodist Growth Rate from 1784 to 1820.**
+The continuous growth rate implied by the two membership figures over thirty-six years is the logarithm of their ratio divided by the interval, about 0.078 per year.
+[Wigger 1998][book_wigger_1998]
+
+$$
+r_{\text{Methodist growth, 1784 to 1820}} = \frac{\ln(2.5 \times 10^5 / 1.5 \times 10^4)}{36 \text{ years}} \approx 0.078 \text{ per year}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Household Reach of Common Sense.*
+From about 150,000 copies and a colonial population of about two and a half million the article judges that the pamphlet reached about thirty percent of households, a share that rests on its own allowance for public readings.
+
+$$
+N_{\text{Common Sense copies, 1776}} \approx 1.5 \times 10^5, \quad P_{\text{colonial, 1776}} \approx 2.5 \times 10^6, \quad f_{\text{households reached}} \sim 0.30
+\tag{11}
+$$
+
+**Equation 12, Departure of Northern Anglican Clergy during the Revolution.**
+About half of the Northern Anglican clergy left their posts between 1776 and 1783.
+[Nelson 2001][book_nelson_2001]
+
+$$
+f_{\text{Northern Anglican clergy departed, 1776 to 1783}} \approx 0.50
+\tag{12}
+$$
+
+**Equation 13, Haudenosaunee Villages Destroyed in 1779.**
+The Sullivan-Clinton Campaign of 1779 destroyed about forty Haudenosaunee villages in western New York.
+[Mintz 1999][book_mintz_1999]
+
+$$
+N_{\text{Haudenosaunee villages destroyed, 1779}} \approx 40
+\tag{13}
+$$
+
+**Equation 14, Victims of the Gnadenhutten Massacre.**
+Pennsylvania militia murdered ninety-six Moravian Native Christians at Gnadenhutten on 8 March 1782, of whom the article counts sixty as women and children.
+[Harper 2014][book_harper_2014]
+
+$$
+N_{\text{Gnadenhutten dead}} = 96, \quad N_{\text{women and children among the dead}} = 60
+\tag{14}
+$$
+
+**Equation 15, Dates of Anglican Disestablishment by State.**
+The Anglican establishments of six states ended between 1776 and 1789, with the Virginia statute of 1786 among them.
+
+$$
+\begin{aligned}
+\text{Maryland Anglican} &: 1776 \\
+\text{North Carolina Anglican} &: 1776 \\
+\text{New York Anglican} &: 1777 \\
+\text{South Carolina Anglican} &: 1778 \\
+\text{Georgia Anglican} &: 1789 \\
+\text{Virginia Anglican statutory} &: 1786
+\end{aligned}
+\tag{15}
+$$
+
+**Equation 16, Lag of the Last State Disestablishment behind the First Amendment.**
+Massachusetts ended the last state establishment in 1833, forty-two years after the First Amendment of 1791.
+
+$$
+t_{\text{final state disestablishment}} - t_{\text{First Amendment}} = 1833 - 1791 = 42 \text{ years}
+\tag{16}
+$$
+
+**Equation 17, No Religious Test Clause.**
+Article VI, Clause 3 of the Constitution forbids any religious test as a qualification for federal office or public trust.
+[United States Constitution 1787 primary text][ref_us_constitution_1787]
+[Kramnick and Moore 2005][book_kramnick_moore_2005]
+
+$$
+\text{Article VI, Clause 3: "no religious Test shall ever be required as a Qualification to any Office or public Trust under the United States"}
+\tag{17}
+$$
+
+**Equation 18, The Two Religion Clauses of the First Amendment.**
+The religious provisions of the First Amendment consist of the Establishment Clause and the Free Exercise Clause.
+[First Amendment 1791 primary text][ref_first_amendment_1791]
+
+$$
+\text{Establishment Clause} + \text{Free Exercise Clause} = \text{First Amendment religious accommodation}
+\tag{18}
+$$
+
+**Equation 19, Delay to Incorporation of the Free Exercise Clause.**
+Cantwell v. Connecticut applied the Free Exercise Clause to the states in 1940, 149 years after 1791.
+[Cantwell v. Connecticut 310 1940][ref_cantwell_v_connecticut_1940]
+
+$$
+\Delta t_{\text{Free Exercise incorporation}} = 1940 - 1791 = 149 \text{ years}
+\tag{19}
+$$
+
+**Equation 20, Delay to Incorporation of the Establishment Clause.**
+Everson v. Board of Education applied the Establishment Clause to the states in 1947, 156 years after 1791.
+[Everson v. Board 1947][ref_everson_v_board_of_education_1947]
+
+$$
+\Delta t_{\text{Establishment incorporation}} = 1947 - 1791 = 156 \text{ years}
+\tag{20}
+$$
+
+**Equation 21, Electoral Votes in the Election of 1800.**
+Jefferson received seventy-three electoral votes against sixty-five for Adams, a margin of eight.
+[Larson 2007][book_larson_2007]
+
+$$
+N_{\text{Jefferson electoral, 1800}} = 73, \quad N_{\text{Adams electoral, 1800}} = 65, \quad \Delta N_{\text{decisive}} = 8
+\tag{21}
+$$
+
+**Equation 22, Number of Black Loyalists.**
+Between fifteen and twenty thousand Black Loyalists supported the Crown in exchange for promises of freedom.
+[Pybus 2006][book_pybus_2006]
+[Schama 2005][book_schama_2005]
+
+$$
+N_{\text{Black Loyalists total}} \in [1.5, 2.0] \times 10^4
+\tag{22}
+$$
+
+**Equation 23, Evacuation Destinations of Black Loyalists.**
+About three thousand Black Loyalists went to Nova Scotia and about five thousand to the Caribbean, and about twelve hundred reached Sierra Leone by 1792.
+[Pybus 2006][book_pybus_2006]
+[Schama 2005][book_schama_2005]
+
+$$
+N_{\text{Nova Scotia}} \approx 3 \times 10^3, \quad N_{\text{Caribbean}} \approx 5 \times 10^3, \quad N_{\text{Sierra Leone by 1792}} \approx 1.2 \times 10^3
+\tag{23}
+$$
+
+**Equation 24, Northern State Emancipation Timeline.**
+Eight Northern states abolished or began gradually abolishing slavery between the Vermont constitution of 1777 and the New Jersey statute of 1804.
+
+$$
+\begin{aligned}
+\text{Pennsylvania (gradual)} &: 1780 \\
+\text{New Hampshire (judicial, effective)} &: 1783 \\
+\text{Massachusetts (judicial)} &: 1783 \\
+\text{Connecticut (gradual, completed 1848)} &: 1784 \\
+\text{Rhode Island (gradual)} &: 1784 \\
+\text{Vermont (constitutional)} &: 1777 \\
+\text{New York (gradual, completed 1827)} &: 1799 \\
+\text{New Jersey (gradual, effective 1846)} &: 1804
+\end{aligned}
+\tag{24}
+$$
+
+**Equation 25, German-Speaking Arrivals from 1683 to 1789.**
+About one hundred thousand German-speaking migrants arrived between 1683 and 1789.
+[Wokeck 1999][book_wokeck_1999]
+
+$$
+N_{\text{German arrivals, 1683 to 1789}} \approx 1 \times 10^5 \text{ persons}
+\tag{25}
+$$
+
+**Equation 26, Anabaptist Populations in 1789.**
+In 1789 the Amish, Mennonite and Brethren communities numbered about two, ten and three thousand, about fifteen thousand in all.
+[Cross 1988][book_cross_1988]
+[Nolt 2015][book_nolt_2015]
+
+$$
+\begin{aligned}
+P_{\text{Amish, US}}(1789) &\approx 2 \times 10^3 \\
+P_{\text{Mennonite, US}}(1789) &\approx 1 \times 10^4 \\
+P_{\text{Brethren (Dunker), US}}(1789) &\approx 3 \times 10^3 \\
+P_{\text{Anabaptist total, US}}(1789) &\approx 1.5 \times 10^4
+\end{aligned}
+\tag{26}
+$$
+
+**Equation 27, Scots-Irish Arrivals from 1717 to 1775.**
+About a quarter of a million Scots-Irish migrants arrived between 1717 and 1775.
+
+$$
+N_{\text{Scots-Irish arrivals, 1717 to 1775}} \approx 2.5 \times 10^5 \text{ persons}
+\tag{27}
+$$
+
+**Equation 28, Scots-Irish Share of the Continental Army.**
+Estimates from service records and demographic reconstruction put about a third of the Continental Army as of Scots-Irish origin.
+
+$$
+f_{\text{Continental Army, Scots-Irish origin}} \approx 0.33
+\tag{28}
+$$
+
+**Equation 29, Saint-Domingue Refugees to New Orleans in 1809.**
+About ten thousand refugees from Saint-Domingue reached New Orleans in 1809, roughly equal to the population of the city before their arrival.
+[Dessens 2007][book_dessens_2007]
+
+$$
+N_{\text{Saint-Domingue refugees to New Orleans, 1809}} \approx 1 \times 10^4, \quad \frac{N_{\text{refugees}}}{P_{\text{New Orleans pre-arrival}}} \approx 1
+\tag{29}
+$$
+
+**Equation 30, Catholic Population of the United States in 1789.**
+The Catholic population of the United States in 1789 was about twenty-five thousand, concentrated in Maryland and Pennsylvania.
+
+$$
+P_{\text{Catholic, US}}(1789) \approx 2.5 \times 10^4
+\tag{30}
+$$
+
+**Equation 31, Catholic Share of the Population in 1789.**
+Dividing about twenty-five thousand Catholics by a national population of about 3.9 million gives a share of about six per thousand.
+
+$$
+P_{\text{US, 1789}} \approx 3.9 \times 10^6, \quad f_{\text{Catholic}}(1789) = \frac{2.5 \times 10^4}{3.9 \times 10^6} \approx 0.006
+\tag{31}
+$$
+
+**Equation 32, Freemason Share of the Founding Fathers.**
+Between about thirty and fifty percent of the Founding Fathers were Freemasons, depending on how the founders are defined.
+[Bullock 1996][book_bullock_1996]
+[Tabbert 2005][book_tabbert_2005]
+
+$$
+f_{\text{Founding Fathers Freemasons}} \sim 0.3 \text{ to } 0.5
+\tag{32}
+$$
+
+### Notation
+
+- $f_{\text{enslaved}}$, the share of the African-descent population held in bondage
+- $f_{\text{converts}}$, the share of the colonial population documented as Awakening converts
+- $r_{\text{Methodist growth, 1784 to 1820}}$, the continuous annual growth rate of Methodist adherence
+- $f_{\text{households reached}}$, the share of colonial households reached by Common Sense through copies and public readings
+- $\Delta t_{\text{Free Exercise incorporation}}$, the interval in years from the First Amendment to the application of the Free Exercise Clause to the states
+- $\Delta t_{\text{Establishment incorporation}}$, the interval in years from the First Amendment to the application of the Establishment Clause to the states
+- $f_{\text{Catholic}}(1789)$, the Catholic share of the national population in 1789
 
 ## References
 

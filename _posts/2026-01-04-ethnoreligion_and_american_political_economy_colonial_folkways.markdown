@@ -21,35 +21,56 @@ The period 1607 through 1725 defines the initial century of Anglo-American colon
 
 Colonial population and religious composition changed across the period. The English colonial population followed the approximate trajectory
 
-$$P_{\text{Anglo}}(1620) \approx 5 \times 10^3, \quad P_{\text{Anglo}}(1700) \approx 2.5 \times 10^5, \quad P_{\text{Anglo}}(1725) \approx 6 \times 10^5$$
+$$
+P_{\text{Anglo}}(1620) \approx 5 \times 10^3, \quad P_{\text{Anglo}}(1700) \approx 2.5 \times 10^5, \quad P_{\text{Anglo}}(1725) \approx 6 \times 10^5
+\tag{1}
+$$
 
 with intermediate values roughly on the exponential trajectory
 
-$$P_{\text{Anglo}}(t) = P_0 \, \exp(\lambda (t - t_0)), \quad \lambda \approx 0.031 \text{ per year}$$
+$$
+P_{\text{Anglo}}(t) = P_0 \, \exp(\lambda (t - t_0)), \quad \lambda \approx 0.031 \text{ per year}
+\tag{2}
+$$
 
 where $\lambda$ combines approximately equal contributions from natural increase (very high fertility rates approaching Malthusian ceilings under abundant land conditions) and migration inflow. The proportion of that population held in bondage as enslaved Africans grew across the period from
 
-$$f_{\text{enslaved}}(1620) \approx 0.00, \quad f_{\text{enslaved}}(1700) \approx 0.10, \quad f_{\text{enslaved}}(1725) \approx 0.15$$
+$$
+f_{\text{enslaved}}(1620) \approx 0.00, \quad f_{\text{enslaved}}(1700) \approx 0.10, \quad f_{\text{enslaved}}(1725) \approx 0.15
+\tag{3}
+$$
 
 The [Gemery 1980][research_gemery_1980] and [McCusker and Menard 1985][book_mccusker_menard_1985] quantitative reconstructions consolidate the demographic evidence. The [Bailyn 1986a][book_bailyn_1986a] The Peopling of British North America and [Bailyn 1986b][book_bailyn_1986b] Voyagers to the West provide the interpretive framework relating migration flows, colonial development, and Atlantic-world integration. The [Nash 2018][book_nash_2018] Red, White, and Black textbook synthesizes the tripartite demographic history from the colonial period forward. The [Greene 1988][book_greene_1988] Pursuits of Happiness argues for greater regional continuity across the colonial-Revolutionary transition than the Fischer framework proposes, providing the alternative comparative treatment.
 
 The indigenous population of the same territory declined across the same period through introduced epidemic disease, warfare, and displacement. The approximate demographic ratio inverted across the period,
 
-$$\frac{P_{\text{Anglo}}}{P_{\text{indigenous, east of Mississippi}}}(1620) \approx 0.005, \quad \frac{P_{\text{Anglo}}}{P_{\text{indigenous, east of Mississippi}}}(1725) \approx 3$$
+$$
+\frac{P_{\text{Anglo}}}{P_{\text{indigenous, east of Mississippi}}}(1620) \approx 0.005, \quad \frac{P_{\text{Anglo}}}{P_{\text{indigenous, east of Mississippi}}}(1725) \approx 3
+\tag{4}
+$$
 
 with the indigenous population east of the Mississippi declining from approximately one million in 1620 to approximately two hundred thousand by 1725, and the Anglo-American population growing from approximately five thousand to approximately six hundred thousand across the same interval. The [Thornton 1987][book_thornton_1987] and [Kelton 2015][book_kelton_2015] treatments document the demographic collapse patterns.
 
 The African population transported directly to North America across the period totaled
 
-$$N_{\text{African, direct arrivals}}(1607 \text{ to } 1725) \approx 5 \times 10^4 \text{ people}$$
+$$
+N_{\text{African, direct arrivals}}(1607 \text{ to } 1725) \approx 5 \times 10^4 \text{ people}
+\tag{5}
+$$
 
 with considerable subsequent growth of the resident African-descent colonial population through both continuing transatlantic imports and natural increase to reach
 
-$$P_{\text{African, colonial}}(1725) \approx 1 \times 10^5$$
+$$
+P_{\text{African, colonial}}(1725) \approx 1 \times 10^5
+\tag{6}
+$$
 
 The North American pattern was distinctive because it produced natural increase in the enslaved population rather than the natural decrease that characterized Caribbean and Brazilian slave economies. The differential can be characterized approximately as
 
-$$r_{\text{natural, NA}} > 0, \quad r_{\text{natural, Caribbean}} < 0$$
+$$
+r_{\text{natural, NA}} > 0, \quad r_{\text{natural, Caribbean}} < 0
+\tag{7}
+$$
 
 with the North American reproduction rate exceeding mortality by the eighteenth century, in contrast to the Caribbean and Brazilian pattern where enslaved deaths exceeded births and continuing imports were required to maintain populations. The [Voyages Slave Trade Database 2019][ref_voyages_database] provides the quantitative record.
 
@@ -57,12 +78,15 @@ with the North American reproduction rate exceeding mortality by the eighteenth 
 
 The [Fischer 1989][book_fischer_1989] Albion's Seed provided the influential thesis that four distinct English regional cultures produced four corresponding American colonial folkways whose institutional and cultural imprints remain identifiable in contemporary American regional variation. The four folkways and their approximate migration windows are
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Puritan (East Anglia to Massachusetts Bay)} &: [1629, 1640] \\
 \text{Cavalier (Southern/Western England to Chesapeake)} &: [1642, 1675] \\
 \text{Quaker (North Midlands and Wales to Delaware Valley)} &: [1675, 1725] \\
 \text{Borderlands (Scots-Irish to backcountry)} &: [1717, 1775]
-\end{aligned}$$
+\end{aligned}
+\tag{8}
+$$
 
 The four folkway thesis has been contested since publication. The [Butler 1990][book_butler_1990] Awash in a Sea of Faith argued that the four-folkway framework oversimplifies colonial religious diversity and undercounts the Continental European, African, and syncretic streams. The [Hodgson 1996][research_hodgson_1996] review argued that the regional cultural distinctions Fischer identifies were less sharp than the framework suggests. Recent quantitative work using demographic and genetic data by [Han et al. 2017][research_han_et_al_2017] partially confirms the folkway distinctions while identifying significant subsequent mixing. The present treatment adopts Fischer's four folkway framework as a first-order approximation while noting explicitly the substantial Continental European, African, and syncretic streams that the account does not capture.
 
@@ -76,25 +100,37 @@ The Half-Way Covenant of 1662 and subsequent adjustments to church membership re
 
 New England town governance combined Reformed covenantal ecclesiology with English common-law inheritance to produce a distinctive local political-economic form. The institutional pattern included town proprietors distributing land in proportions to household heads, common lands managed by town meeting, universal (male household head) participation in town governance, mandatory town-supported ministry, and mandatory town schools from 1647 forward under the Old Deluder Satan Law. The pattern produced high per-capita literacy rates documented by [Lockridge 1974][book_lockridge_1974] Literacy in Colonial New England, approaching
 
-$$L_{\text{male, NE}}(1690) \approx 0.65 \text{ to } 0.90$$
+$$
+L_{\text{male, NE}}(1690) \approx 0.65 \text{ to } 0.90
+\tag{9}
+$$
 
 depending on the measure and colony, exceeding contemporary English rates and providing the base for subsequent New England intellectual and commercial development. Female literacy rates lagged male rates but also exceeded contemporary European rates.
 
 The Salem witch trials of 1692 provide the canonical crisis of Puritan New England, documented in [Boyer and Nissenbaum 1974][book_boyer_nissenbaum_1974] Salem Possessed and [Norton 2002][book_norton_2002] In the Devil's Snare. The primary court records survive in the [Salem Witch Trials Documentary Archive and Transcription Project][ref_salem_witch_trials_papers] hosted by the University of Virginia. The contemporary Puritan clerical responses appear in the [Cotton Mather 1693 Wonders of the Invisible World][ref_mather_wonders_1693] defense of the proceedings and the parallel [Increase Mather 1693 Cases of Conscience Concerning Evil Spirits][ref_increase_mather_cases_of_conscience_1693] argument against the admissibility of spectral evidence. The episode reflected accumulating tensions including the French and Native raids on Maine and New Hampshire that displaced marked populations into Essex County, factional disputes within Salem Village, and the theological crisis of accepting spectral evidence in judicial proceedings. The recorded casualties totaled
 
-$$N_{\text{Salem, executed}} = 19, \quad N_{\text{Salem, died in prison}} = 5, \quad N_{\text{Salem, total deaths}} = 24$$
+$$
+N_{\text{Salem, executed}} = 19, \quad N_{\text{Salem, died in prison}} = 5, \quad N_{\text{Salem, total deaths}} = 24
+\tag{10}
+$$
 
 before Governor Phips halted the trials in October 1692. The subsequent public apologies (by Judge Samuel Sewall in 1697 and by the jurors collectively) marked the transition from the earlier Puritan certainty toward the more tempered Enlightenment religious sensibility documented in the eighteenth century.
 
 Indigenous-Puritan encounters in New England followed the pattern established by [Salisbury 1982][book_salisbury_1982] Manitou and Providence. The initial Pilgrim-Wampanoag alliance of 1621 under Massasoit and Tisquantum provided the early cooperative pattern documented in [Bradford 1856][book_bradford_1856] Of Plymouth Plantation. The Pequot War of 1636-1638 documented in [Cave 1996][book_cave_1996] The Pequot War and [Karr 1998][research_karr_1998] Why Should You Be So Furious? established the pattern of English military conquest that would recur repeatedly. King Philip's War of 1675-1676, treated in [Lepore 1998][book_lepore_1998] The Name of War, [Drake and Drake 1999][book_drake_1999] King Philip's War, and [Pulsipher 2005][book_pulsipher_2005] Subjects unto the Same King, marked the violent breakdown of Puritan-Native coexistence in New England. The casualty ratios were extensive on both sides,
 
-$$\frac{N_{\text{Anglo, dead}}}{P_{\text{Anglo, NE}}} \approx 0.05, \quad \frac{N_{\text{Native, dead}}}{P_{\text{Native, NE region}}} \approx 0.40$$
+$$
+\frac{N_{\text{Anglo, dead}}}{P_{\text{Anglo, NE}}} \approx 0.05, \quad \frac{N_{\text{Native, dead}}}{P_{\text{Native, NE region}}} \approx 0.40
+\tag{11}
+$$
 
 killing approximately five percent of the New England colonial population and approximately forty percent of the surviving Native population in the region. The war ended with the destruction of the Wampanoag as a political entity, the enslavement or displacement of surviving Natives, and the Puritan self-understanding of the war as divine chastisement documented in the [Increase Mather 1676 Brief History of the War with the Indians in New-England][ref_increase_mather_brief_history_1676]. The [Rowlandson 1682 Captivity Narrative][ref_rowlandson_captivity_narrative_1682] contemporary account of Mary Rowlandson's captivity at the hands of Narragansett captors provides the earliest widely-circulated colonial captivity narrative and the primary vernacular source through which subsequent generations remembered the war.
 
 The praying-town system established by John Eliot from 1651 forward at Natick and thirteen subsequent villages provided the missionary alternative to conquest. Eliot's Massachusett-language translation of the Bible in 1663 (Mamusse Wunneetupanatamwe Up-Biblum God) constituted the first Bible printed in the Americas. Praying-town populations reached the peak
 
-$$P_{\text{praying towns, peak}} \approx 1.1 \times 10^3 \text{ residents across 14 villages}$$
+$$
+P_{\text{praying towns, peak}} \approx 1.1 \times 10^3 \text{ residents across 14 villages}
+\tag{12}
+$$
 
 before King Philip's War destroyed the system through both English mistrust of Christian Natives and Native rejection of the accommodations praying-town life required. The [Cogley 1999][book_cogley_1999] John Eliot's Mission to the Indians before King Philip's War treats the system and its collapse.
 
@@ -110,7 +146,10 @@ The First Baptist Church in America, organized at Providence in 1638 under Willi
 
 The Rhode Island Charter of 1663, secured from Charles II through the efforts of John Clarke, provided the unprecedented royal guarantee of religious liberty,
 
-$$t_{\text{RI religious liberty guarantee}} = 1663 \text{ CE}, \quad \Delta t_{\text{ahead of First Amendment}} = 1791 - 1663 = 128 \text{ years}$$
+$$
+t_{\text{RI religious liberty guarantee}} = 1663 \text{ CE}, \quad \Delta t_{\text{ahead of First Amendment}} = 1791 - 1663 = 128 \text{ years}
+\tag{13}
+$$
 
 establishing the colonial precedent that the First Amendment religious clauses would formalize approximately a century and a quarter later. The Charter permitted residents to hold, enjoy, and pursue their differing beliefs without interference by the colonial or metropolitan governments. The [Rhode et al. 1663][book_ri_charter_1663] provides the founding document.
 
@@ -126,11 +165,17 @@ Anglican ecclesiology, established by law in Virginia from 1619 forward, provide
 
 The demographic conditions of the early Chesapeake produced different religious dynamics from New England. The Chesapeake experienced substantial disease mortality (particularly from malaria in tidewater regions), skewed sex ratios, late marriage, and comparatively low natural increase. The seventeenth-century Chesapeake sex ratio approached
 
-$$\text{Sex ratio (M:F, Chesapeake, mid-17th c.)} \gtrsim 2$$
+$$
+\text{Sex ratio (M:F, Chesapeake, mid-17th c.)} \gtrsim 2
+\tag{14}
+$$
 
 and life expectancy at age twenty was lower than the contemporary New England pattern,
 
-$$e_{20, \text{Chesapeake}} \approx 25 \text{ years}, \quad e_{20, \text{New England}} \approx 45 \text{ years}$$
+$$
+e_{20, \text{Chesapeake}} \approx 25 \text{ years}, \quad e_{20, \text{New England}} \approx 45 \text{ years}
+\tag{15}
+$$
 
 per the [Rutman and Rutman 1984][book_rutman_rutman_1984] A Place in Time reconstruction for Middlesex County and the comparable New England reconstructions. The mortality rate produced high orphaning and remarriage rates that shaped family structure. The Anglican religious infrastructure was thinner than the New England Congregationalist infrastructure through the seventeenth century.
 
@@ -140,7 +185,10 @@ The tobacco economy shaped the Chesapeake religious and cultural formation in wa
 
 Anglo-Powhatan relations followed the pattern of initial cooperation, escalating conflict, and eventual conquest documented in [Rountree 1990][book_rountree_1990]. The contemporary Virginia gentleman's account of the colony's first century, including its Native and religious history, appears in the [Beverley 1705 History and Present State of Virginia][ref_beverley_history_virginia_1705]. The Powhatan uprising of March 1622 killed
 
-$$N_{\text{Powhatan uprising, English dead, 1622}} \approx 350$$
+$$
+N_{\text{Powhatan uprising, English dead, 1622}} \approx 350
+\tag{16}
+$$
 
 approximately one-third of the entire English colonial population at that date, and marked the end of the initial cooperative phase. The Second Anglo-Powhatan War of 1644 and its resolution through the 1646 Treaty of Powhatan subordinated the surviving Native peoples of the tidewater to Virginia sovereignty. The dispossession of Powhatan lands proceeded through the second half of the seventeenth century.
 
@@ -154,7 +202,10 @@ Pennsylvania's founding legal framework, encoded in the 1682 Frame of Government
 
 Quaker peace policy in relations with Native peoples produced the extended peace that distinguished Pennsylvania from other colonies through Penn's proprietorship. The 1682 Treaty of Shackamaxon (the documented existence of which is contested but whose spirit shaped subsequent policy) inaugurated a period of sizable Quaker-Lenape cooperation lasting approximately
 
-$$t_{\text{Quaker-Lenape peace}} = 1737 - 1682 = 55 \text{ years}$$
+$$
+t_{\text{Quaker-Lenape peace}} = 1737 - 1682 = 55 \text{ years}
+\tag{17}
+$$
 
 The [Marshall 1967][book_marshall_1967] William Penn and the Founding of Pennsylvania and [Soderlund 2015][book_soderlund_2015] Lenape Country provide the treatments. The 1737 Walking Purchase, treated in [Grumet 2009][book_grumet_2009] The Munsee Indians, marked the end of the initial cooperative phase when Penn's sons defrauded the Lenape of upper Delaware Valley lands through a fraudulent interpretation of an earlier land agreement.
 
@@ -224,7 +275,10 @@ The colonial Sephardic contribution to American commercial development, particul
 
 The Huguenot diaspora, produced by the 1685 Revocation of the Edict of Nantes under Louis XIV, dispersed approximately
 
-$$N_{\text{Huguenot, total diaspora}} \approx 2 \times 10^5, \quad N_{\text{Huguenot, North America}} \sim (5 \text{ to } 10) \times 10^3$$
+$$
+N_{\text{Huguenot, total diaspora}} \approx 2 \times 10^5, \quad N_{\text{Huguenot, North America}} \sim (5 \text{ to } 10) \times 10^3
+\tag{18}
+$$
 
 French Protestants to England, the Netherlands, German states, and North America, with the North American proportion approximately three to five percent of the total. The [Butler 1983][book_butler_1983] The Huguenots in America and [Van Ruymbeke 2006][book_van_ruymbeke_2006] From New Babylon to Eden provide the standard treatments. The [Diefendorf 1991][book_diefendorf_1991] Beneath the Cross treats the earlier French Wars of Religion that produced the Reformed French community and its subsequent legal status.
 
@@ -246,11 +300,17 @@ The Moravian Brethren settlements at Bethlehem (Pennsylvania, 1741), Nazareth (P
 
 The Amish separation of 1693 under Jakob Ammann from the broader Swiss Mennonite tradition produced the Amish Mennonite formation that would migrate to Pennsylvania from 1737 forward. The Old Order Amish community persists to the present as one of the fastest-growing religious minorities in the United States, with approximately
 
-$$P_{\text{Amish}}(2025) \approx 3.5 \times 10^5$$
+$$
+P_{\text{Amish}}(2025) \approx 3.5 \times 10^5
+\tag{19}
+$$
 
 adherents. The population has doubled approximately every twenty years since the mid twentieth century, corresponding to
 
-$$r_{\text{Amish growth}} = \frac{\ln 2}{20} \approx 3.5 \text{ percent per year}$$
+$$
+r_{\text{Amish growth}} = \frac{\ln 2}{20} \approx 3.5 \text{ percent per year}
+\tag{20}
+$$
 
 driven by very high fertility (approximately seven live births per completed family) combined with high retention rates. The [Hostetler 1993][book_hostetler_1993] Amish Society and [Kraybill et al. 2013][book_kraybill_johnson_weiner_nolt_2013] The Amish provide the treatments.
 
@@ -264,25 +324,37 @@ Spanish colonial religious activity in what would become the American Southwest 
 
 Spanish Florida missionary activity centered on the St. Augustine settlement (founded 1565) and extended through the Franciscan mission chain across northern Florida and southern Georgia. The mission chain reached approximately
 
-$$N_{\text{Florida mission stations, 1675}} \approx 40, \quad N_{\text{Florida mission converts, 1675}} \approx 3 \times 10^4$$
+$$
+N_{\text{Florida mission stations, 1675}} \approx 40, \quad N_{\text{Florida mission converts, 1675}} \approx 3 \times 10^4
+\tag{21}
+$$
 
 Timucua and Guale converts, with the mission system combining Franciscan religious instruction with labor obligations under the repartimiento system through which mission Natives supplied labor to St. Augustine. The [Milanich 1999][book_milanich_1999] and [Hann 1988][book_hann_1988] Apalachee treat the mission system.
 
 The 1704 English-Creek raids under James Moore of South Carolina, treated in [Ramsey 2008][book_ramsey_2008] The Yamasee War, destroyed the Spanish Florida mission system through the killing and enslavement of mission Natives and the burning of mission stations. The pattern of English-Creek raiding for Native slaves supplying South Carolina and Caribbean markets is treated in [Gallay 2002][book_gallay_2002] The Indian Slave Trade. The scale of Native capture was appreciable,
 
-$$N_{\text{Native enslaved from Spanish Florida, 1702 to 1706}} \approx 1 \times 10^4$$
+$$
+N_{\text{Native enslaved from Spanish Florida, 1702 to 1706}} \approx 1 \times 10^4
+\tag{22}
+$$
 
 depopulating the mission territory before eventual Spanish reoccupation. The episode illustrates how European interimperial competition produced considerable harm to indigenous populations subordinated to any European power.
 
 Spanish New Mexico settlement, following the 1598 Oñate expedition and the establishment of San Juan de los Caballeros and subsequent Santa Fe (from 1610), produced the Franciscan mission system serving the Pueblo peoples. The mission chain reached
 
-$$N_{\text{Pueblo mission stations, 1680}} \approx 50, \quad N_{\text{Pueblo mission converts, 1680}} \approx 1.7 \times 10^4$$
+$$
+N_{\text{Pueblo mission stations, 1680}} \approx 50, \quad N_{\text{Pueblo mission converts, 1680}} \approx 1.7 \times 10^4
+\tag{23}
+$$
 
 with the mission system combining religious instruction with significant labor and tribute obligations under encomienda and repartimiento arrangements. The Franciscan pattern combined some accommodation of preexisting Pueblo religious practice with substantial suppression of practices (particularly kachina ceremonies and traditional religious specialist activity) that produced accumulating Pueblo resistance. The [Gutiérrez 1991][book_gutierrez_1991] and [Kessell 1979][book_kessell_1979] Kiva, Cross, and Crown treat the pre-1680 mission system.
 
 The Pueblo Revolt of August 1680, led by Popé (Popay) of San Juan Pueblo, expelled the Spanish colonizers from New Mexico for twelve years and produced the most successful indigenous uprising against European colonial authority in North American history. The casualties and displacement were marked,
 
-$$N_{\text{Pueblo Revolt, colonist dead}} \approx 400, \quad \frac{N_{\text{Franciscan priests dead}}}{N_{\text{Franciscan priests total}}} = \frac{21}{33}, \quad N_{\text{colonist refugees to El Paso}} \approx 2 \times 10^3$$
+$$
+N_{\text{Pueblo Revolt, colonist dead}} \approx 400, \quad \frac{N_{\text{Franciscan priests dead}}}{N_{\text{Franciscan priests total}}} = \frac{21}{33}, \quad N_{\text{colonist refugees to El Paso}} \approx 2 \times 10^3
+\tag{24}
+$$
 
 destroying the mission infrastructure across the specifically-affected mission chain. The [Knaut 1995][book_knaut_1995] The Pueblo Revolt of 1680, [Sando 1992][book_sando_1992] Pueblo Nations, and [Preucel 2002][book_preucel_2002] Archaeologies of the Pueblo Revolt treat the episode.
 
@@ -322,7 +394,10 @@ The religious composition of arriving Africans followed the source-region distri
 
 South Carolina low country African religious retention was substantial through the colonial period. The province rested on the [Carolina Charter 1663][ref_carolina_charter_1663] issued by Charles II to eight Lords Proprietors that established the province of Carolina and provided the initial proprietary framework prior to the 1719 transition to royal governance. The enslaved African population in the low country reached demographic dominance,
 
-$$f_{\text{African, SC low country}}(1720) \approx 0.70$$
+$$
+f_{\text{African, SC low country}}(1720) \approx 0.70
+\tag{25}
+$$
 
 per [Wood 1974][book_wood_1974], producing the conditions for marked religious retention. The Gullah-Geechee cultural tradition that persists to the present emerged from this colonial-period concentration of West and West Central African peoples with extensive autonomy from European colonial supervision. The [Brown 2012][book_brown_2012] African-Atlantic Cultures and the South Carolina Lowcountry documents the cultural and religious formations produced in this concentration. The [Wood 1975][research_wood_1975] earlier article on the South Carolina slave population growth provides the quantitative reconstruction. The 1739 Stono Rebellion, treated in [Wood 1974][book_wood_1974] and [Smith 2005][book_smith_2005] Stono, involved sizable Kongo Catholic enslaved persons in the context of Kongo's continuing wars and the Spanish Florida sanctuary policy that offered freedom to enslaved persons escaping to Spanish territory. The [Berlin 1980][research_berlin_1980] Time, Space, and the Evolution of Afro-American Society provides the foundational typology distinguishing the slave societies from societies with slaves across the colonial period.
 
@@ -340,7 +415,8 @@ Colonial higher education institutions established from the seventeenth century 
 
 Harvard College (1636), founded by the Massachusetts Bay Colony to train Puritan ministers, provided the first American higher education institution. The 1642 curriculum included classical languages, logic, ethics, physics, and theology. The [Harvard Charter 1650][book_harvard_charter_1650] documents the founding institutional framework. William and Mary College (1693), founded by royal charter to train Anglican clergy for the Southern colonies, provided the second American college. Yale College (1701), founded by conservative Congregationalists concerned about Harvard's theological drift toward moderate Puritanism, provided the third. Colonial college foundings followed,
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \text{Harvard} &: 1636 \\
 \text{William and Mary} &: 1693 \\
 \text{Yale} &: 1701 \\
@@ -350,7 +426,9 @@ $$\begin{aligned}
 \text{College of Rhode Island (Brown)} &: 1764 \\
 \text{Queen's College (Rutgers)} &: 1766 \\
 \text{Dartmouth College} &: 1769
-\end{aligned}$$
+\end{aligned}
+\tag{26}
+$$
 
 with each college reflecting the denominational or colonial religious formation that founded it. The denominational associations continued through the eighteenth and nineteenth centuries before subsequent secularization patterns treated in later articles.
 
@@ -366,7 +444,10 @@ The six-axis analytical framework introduced in [A266][related_post_a266_framing
 
 The signal axis characterizes the form of training information each substrate received. New England Puritan formation combined dense scriptural instruction (Bible-based sermons twice weekly, catechetical education, mandatory town schools) with the conversion-experience testimony required for church membership, producing the high-signal, community-supervised pattern. Cavalier Virginia Anglican formation depended on sacramental participation and parish attendance without the conversion-experience requirement, producing a lower-signal pattern. Quaker Delaware Valley formation depended on silent worship and inspired vocal ministry, producing a highly-variable individual-signal pattern. African arrival substrate formation depended on oral transmission across generational cohorts under severe surveillance conditions, producing the low-visible-signal pattern that nevertheless preserved marked ritual and cosmological content per the treatments cited above. Approximate signal-density rank ordering across colonial substrates gives
 
-$$\sigma_{\text{Puritan}} > \sigma_{\text{Anglican}} \sim \sigma_{\text{Quaker}} > \sigma_{\text{African-visible}} \sim \sigma_{\text{Native-under-suppression}}$$
+$$
+\sigma_{\text{Puritan}} > \sigma_{\text{Anglican}} \sim \sigma_{\text{Quaker}} > \sigma_{\text{African-visible}} \sim \sigma_{\text{Native-under-suppression}}
+\tag{27}
+$$
 
 with the ordering reflecting the number and reliability of formal transmission channels rather than the substrates' actual internal content complexity.
 
@@ -374,7 +455,10 @@ The objective axis characterizes what each substrate sought to optimize. Puritan
 
 The structure axis characterizes the ecclesiastical and community-organization form each substrate adopted. Puritan Congregationalist structure combined local congregational autonomy with colony-wide consultation through synods. Anglican structure combined parish organization with colonial vestry autonomy under the formal Bishop of London jurisdiction that operated through absentee delegation. Quaker structure combined local meetings for business with quarterly and yearly meetings providing the broader consensus. Baptist structure emerged from Rhode Island with congregational autonomy and voluntary associational cooperation. African substrate structure operated through hush harbor gatherings, ring shout ceremonies, and familial and lineage-based transmission where the European surveillance permitted. Approximate structural hierarchy depth across colonial substrates gives
 
-$$D_{\text{Anglican}} \sim 3 > D_{\text{Puritan}} \sim 2 \sim D_{\text{Presbyterian}} \sim 2 > D_{\text{Congregational}} \sim 1 \sim D_{\text{Baptist}} \sim 1 \sim D_{\text{Quaker}} \sim 1$$
+$$
+D_{\text{Anglican}} \sim 3 > D_{\text{Puritan}} \sim 2 \sim D_{\text{Presbyterian}} \sim 2 > D_{\text{Congregational}} \sim 1 \sim D_{\text{Baptist}} \sim 1 \sim D_{\text{Quaker}} \sim 1
+\tag{28}
+$$
 
 where $D$ counts the tiers of authority from local congregation to the substrate's apex governance body.
 
@@ -382,13 +466,19 @@ The model axis characterizes the internal representations each substrate maintai
 
 The interaction axis characterizes the relationship each substrate maintained with the external social and political environment. Puritan New England exhibited comprehensive institutional integration between religious and civil authority. Chesapeake Anglican exhibited formal integration with extensive practical autonomy for planter class. Quaker Delaware Valley exhibited religious-led governance under the Penn proprietorship. Baptist and other dissenter formations sought separation of religious and civil authority. African substrate operated under severe legal and physical constraint but maintained autonomous religious life where possible. Native substrate maintained autonomous religious life under increasing pressure from European religious activity across the period. Approximate church-state coupling coefficient across colonial substrates gives
 
-$$w_{\text{Puritan-NE}} \approx w_{\text{Anglican-VA}} \approx 1, \quad w_{\text{Quaker-PA}} \sim 0.8, \quad w_{\text{Baptist-RI}} \sim 0, \quad w_{\text{African}} \sim -0.5, \quad w_{\text{Native}} \sim -0.5$$
+$$
+w_{\text{Puritan-NE}} \approx w_{\text{Anglican-VA}} \approx 1, \quad w_{\text{Quaker-PA}} \sim 0.8, \quad w_{\text{Baptist-RI}} \sim 0, \quad w_{\text{African}} \sim -0.5, \quad w_{\text{Native}} \sim -0.5
+\tag{29}
+$$
 
 with $w_{ij} \in [-1, 1]$ representing normalized coupling between substrate $i$ and civil authority $j$ with positive values indicating supportive establishment and negative values indicating adversarial or repressive coupling.
 
 The adaptation axis characterizes each substrate's response to novel circumstances requiring departure from the inherited tradition. Puritan New England adapted through the Half-Way Covenant, the eventual toleration of dissenter minorities, and the gradual moderation toward the eighteenth-century religious life. Anglican Virginia adapted through the Great Awakening (treated in article three) and eventual disestablishment. Quaker adapted through the eighteenth-century antislavery reforms and the broader reform tradition. African substrate adapted through syncretic combination with Catholic and Protestant elements, ring shout preservation, and independent Black church formation from the late eighteenth century. Native substrate adapted through the Ghost Dance, the Native American Church, and the sovereignty movements treated in later articles. Half-Way Covenant adoption timeline provides a load-bearing example of adaptation response,
 
-$$t_{\text{Half-Way Covenant, Boston synod}} = 1662 \text{ CE}, \quad \Delta t_{\text{from Great Migration end}} \approx 22 \text{ years}$$
+$$
+t_{\text{Half-Way Covenant, Boston synod}} = 1662 \text{ CE}, \quad \Delta t_{\text{from Great Migration end}} \approx 22 \text{ years}
+\tag{30}
+$$
 
 with adaptation time constant $\tau_{\text{Puritan}} \sim 20$ years for the doctrinal accommodation between the founder-generation conversion-experience requirement and the second-generation membership crisis.
 
@@ -407,6 +497,317 @@ This article follows the terminological conventions established in [A266][relate
 - What is the correct empirical characterization of the pattern of Native depopulation during the colonial period and the relative contributions of disease, warfare, displacement, and enslavement?
 - What is the correct assessment of the durability of Spanish and French colonial religious formations against the subsequent Anglo-American conquest?
 - What is the correct assessment of the bidirectional versus unidirectional diffusion of cultural, religious, and technological elements across the colonial encounter?
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 30 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 30, 26 are established and 4 are bespoke.
+Populations and casualties are counted in persons, dates are calendar years of the Common Era, rates are per year, shares and coupling weights are dimensionless, and the rank orderings of the six-axis framework are qualitative judgements rather than measured quantities.
+
+**Equation 1, English Colonial Population in 1620, 1700 and 1725.**
+The English colonial population rose from about five thousand in 1620 to about a quarter of a million in 1700 and about six hundred thousand in 1725.
+[Gemery 1980][research_gemery_1980]
+[McCusker and Menard 1985][book_mccusker_menard_1985]
+
+$$
+P_{\text{Anglo}}(1620) \approx 5 \times 10^3, \quad P_{\text{Anglo}}(1700) \approx 2.5 \times 10^5, \quad P_{\text{Anglo}}(1725) \approx 6 \times 10^5
+\tag{1}
+$$
+
+*Equation 2, Bespoke Exponential Colonial Growth.*
+The article fits the colonial population to a single exponential trajectory with a constant growth rate of about 3.1 percent per year that it splits roughly equally between natural increase and migration.
+
+$$
+P_{\text{Anglo}}(t) = P_0 \, \exp(\lambda (t - t_0)), \quad \lambda \approx 0.031 \text{ per year}
+\tag{2}
+$$
+
+**Equation 3, Enslaved Share of the Colonial Population.**
+The enslaved share of the colonial population rose from nearly zero in 1620 to about one tenth in 1700 and about fifteen percent in 1725.
+[Gemery 1980][research_gemery_1980]
+[McCusker and Menard 1985][book_mccusker_menard_1985]
+
+$$
+f_{\text{enslaved}}(1620) \approx 0.00, \quad f_{\text{enslaved}}(1700) \approx 0.10, \quad f_{\text{enslaved}}(1725) \approx 0.15
+\tag{3}
+$$
+
+**Equation 4, Inversion of the Anglo to Indigenous Population Ratio.**
+The ratio of the Anglo-American to the indigenous population east of the Mississippi rose from about one two-hundredth in 1620 to about three in 1725 as the indigenous population fell from about one million to about two hundred thousand.
+[Thornton 1987][book_thornton_1987]
+[Kelton 2015][book_kelton_2015]
+
+$$
+\frac{P_{\text{Anglo}}}{P_{\text{indigenous, east of Mississippi}}}(1620) \approx 0.005, \quad \frac{P_{\text{Anglo}}}{P_{\text{indigenous, east of Mississippi}}}(1725) \approx 3
+\tag{4}
+$$
+
+**Equation 5, Direct African Arrivals in North America to 1725.**
+About fifty thousand Africans were transported directly to North America between 1607 and 1725.
+
+$$
+N_{\text{African, direct arrivals}}(1607 \text{ to } 1725) \approx 5 \times 10^4 \text{ people}
+\tag{5}
+$$
+
+**Equation 6, Colonial African-Descent Population in 1725.**
+Continuing imports and natural increase brought the resident African-descent colonial population to about one hundred thousand by 1725.
+
+$$
+P_{\text{African, colonial}}(1725) \approx 1 \times 10^5
+\tag{6}
+$$
+
+**Equation 7, Sign of Natural Increase among the Enslaved.**
+The enslaved population of North America grew by natural increase while those of the Caribbean and Brazil declined without continuing imports.
+[Voyages Slave Trade Database 2019][ref_voyages_database]
+
+$$
+r_{\text{natural, NA}} > 0, \quad r_{\text{natural, Caribbean}} < 0
+\tag{7}
+$$
+
+**Equation 8, Migration Windows of the Four British Folkways.**
+The Fischer thesis assigns the Puritan, Cavalier, Quaker and Borderlands folkways to four successive migration windows between 1629 and 1775.
+[Fischer 1989][book_fischer_1989]
+
+$$
+\begin{aligned}
+\text{Puritan (East Anglia to Massachusetts Bay)} &: [1629, 1640] \\
+\text{Cavalier (Southern/Western England to Chesapeake)} &: [1642, 1675] \\
+\text{Quaker (North Midlands and Wales to Delaware Valley)} &: [1675, 1725] \\
+\text{Borderlands (Scots-Irish to backcountry)} &: [1717, 1775]
+\end{aligned}
+\tag{8}
+$$
+
+**Equation 9, Male Literacy in New England around 1690.**
+Male literacy in New England around 1690 lay between about sixty-five and ninety percent depending on the measure and the colony.
+[Lockridge 1974][book_lockridge_1974]
+
+$$
+L_{\text{male, NE}}(1690) \approx 0.65 \text{ to } 0.90
+\tag{9}
+$$
+
+**Equation 10, Deaths of the Salem Witch Trials.**
+Nineteen people were executed and five died in prison, twenty-four deaths in all, before the trials were halted in October 1692.
+[Boyer and Nissenbaum 1974][book_boyer_nissenbaum_1974]
+[Norton 2002][book_norton_2002]
+
+$$
+N_{\text{Salem, executed}} = 19, \quad N_{\text{Salem, died in prison}} = 5, \quad N_{\text{Salem, total deaths}} = 24
+\tag{10}
+$$
+
+**Equation 11, Proportional Losses in King Philip's War.**
+King Philip's War killed about five percent of the New England colonial population and about forty percent of the Native population of the region.
+[Lepore 1998][book_lepore_1998]
+[Drake and Drake 1999][book_drake_1999]
+
+$$
+\frac{N_{\text{Anglo, dead}}}{P_{\text{Anglo, NE}}} \approx 0.05, \quad \frac{N_{\text{Native, dead}}}{P_{\text{Native, NE region}}} \approx 0.40
+\tag{11}
+$$
+
+**Equation 12, Peak Population of the Praying Towns.**
+The praying towns of John Eliot reached a peak of about eleven hundred residents across fourteen villages before King Philip's War.
+[Cogley 1999][book_cogley_1999]
+
+$$
+P_{\text{praying towns, peak}} \approx 1.1 \times 10^3 \text{ residents across 14 villages}
+\tag{12}
+$$
+
+**Equation 13, Lead of the Rhode Island Charter over the First Amendment.**
+The Rhode Island Charter guaranteed religious liberty in 1663, which is 128 years before the ratification of the First Amendment in 1791.
+[Rhode et al. 1663][book_ri_charter_1663]
+
+$$
+t_{\text{RI religious liberty guarantee}} = 1663 \text{ CE}, \quad \Delta t_{\text{ahead of First Amendment}} = 1791 - 1663 = 128 \text{ years}
+\tag{13}
+$$
+
+**Equation 14, Chesapeake Sex Ratio in the Mid-Seventeenth Century.**
+Men outnumbered women in the mid-seventeenth-century Chesapeake by at least about two to one.
+
+$$
+\text{Sex ratio (M:F, Chesapeake, mid-17th c.)} \gtrsim 2
+\tag{14}
+$$
+
+**Equation 15, Life Expectancy at Twenty in the Chesapeake and New England.**
+Further life expectancy at age twenty was about twenty-five years in the Chesapeake against about forty-five years in New England.
+[Rutman and Rutman 1984][book_rutman_rutman_1984]
+
+$$
+e_{20, \text{Chesapeake}} \approx 25 \text{ years}, \quad e_{20, \text{New England}} \approx 45 \text{ years}
+\tag{15}
+$$
+
+**Equation 16, English Deaths in the Powhatan Uprising of 1622.**
+The Powhatan uprising of March 1622 killed about 350 English colonists, roughly a third of the colonial population at that date.
+[Rountree 1990][book_rountree_1990]
+
+$$
+N_{\text{Powhatan uprising, English dead, 1622}} \approx 350
+\tag{16}
+$$
+
+**Equation 17, Duration of the Quaker and Lenape Peace.**
+The period of Quaker and Lenape cooperation ran from the Treaty of Shackamaxon in 1682 to the Walking Purchase in 1737, a span of fifty-five years.
+[Marshall 1967][book_marshall_1967]
+[Soderlund 2015][book_soderlund_2015]
+
+$$
+t_{\text{Quaker-Lenape peace}} = 1737 - 1682 = 55 \text{ years}
+\tag{17}
+$$
+
+**Equation 18, Huguenot Diaspora and Its North American Share.**
+The Revocation of the Edict of Nantes dispersed about two hundred thousand Huguenots, of whom some five to ten thousand reached North America.
+[Butler 1983][book_butler_1983]
+[Van Ruymbeke 2006][book_van_ruymbeke_2006]
+
+$$
+N_{\text{Huguenot, total diaspora}} \approx 2 \times 10^5, \quad N_{\text{Huguenot, North America}} \sim (5 \text{ to } 10) \times 10^3
+\tag{18}
+$$
+
+**Equation 19, Old Order Amish Population in 2025.**
+The Old Order Amish number about 350,000 adherents in 2025.
+[Kraybill et al. 2013][book_kraybill_johnson_weiner_nolt_2013]
+
+$$
+P_{\text{Amish}}(2025) \approx 3.5 \times 10^5
+\tag{19}
+$$
+
+**Equation 20, Amish Growth Rate from the Doubling Time.**
+A doubling time of about twenty years corresponds to a continuous growth rate of $\ln 2$ divided by twenty, about 3.5 percent per year.
+[Kraybill et al. 2013][book_kraybill_johnson_weiner_nolt_2013]
+
+$$
+r_{\text{Amish growth}} = \frac{\ln 2}{20} \approx 3.5 \text{ percent per year}
+\tag{20}
+$$
+
+**Equation 21, Spanish Florida Missions in 1675.**
+The Franciscan mission chain of Spanish Florida reached about forty stations and about thirty thousand Timucua and Guale converts by 1675.
+[Milanich 1999][book_milanich_1999]
+[Hann 1988][book_hann_1988]
+
+$$
+N_{\text{Florida mission stations, 1675}} \approx 40, \quad N_{\text{Florida mission converts, 1675}} \approx 3 \times 10^4
+\tag{21}
+$$
+
+**Equation 22, Natives Enslaved from Spanish Florida between 1702 and 1706.**
+English and Creek raiding enslaved about ten thousand mission Natives from Spanish Florida between 1702 and 1706.
+[Gallay 2002][book_gallay_2002]
+
+$$
+N_{\text{Native enslaved from Spanish Florida, 1702 to 1706}} \approx 1 \times 10^4
+\tag{22}
+$$
+
+**Equation 23, Pueblo Missions in 1680.**
+The Franciscan mission chain of New Mexico reached about fifty stations and about seventeen thousand Pueblo converts by 1680.
+[Gutiérrez 1991][book_gutierrez_1991]
+[Kessell 1979][book_kessell_1979]
+
+$$
+N_{\text{Pueblo mission stations, 1680}} \approx 50, \quad N_{\text{Pueblo mission converts, 1680}} \approx 1.7 \times 10^4
+\tag{23}
+$$
+
+**Equation 24, Casualties and Displacement of the Pueblo Revolt.**
+The Pueblo Revolt of 1680 killed about four hundred colonists and twenty-one of thirty-three Franciscan priests and drove about two thousand colonists to El Paso.
+[Knaut 1995][book_knaut_1995]
+[Sando 1992][book_sando_1992]
+[Preucel 2002][book_preucel_2002]
+
+$$
+N_{\text{Pueblo Revolt, colonist dead}} \approx 400, \quad \frac{N_{\text{Franciscan priests dead}}}{N_{\text{Franciscan priests total}}} = \frac{21}{33}, \quad N_{\text{colonist refugees to El Paso}} \approx 2 \times 10^3
+\tag{24}
+$$
+
+**Equation 25, African Share of the South Carolina Low Country in 1720.**
+Enslaved Africans made up about seventy percent of the South Carolina low country population around 1720.
+[Wood 1974][book_wood_1974]
+
+$$
+f_{\text{African, SC low country}}(1720) \approx 0.70
+\tag{25}
+$$
+
+**Equation 26, Founding Dates of the Colonial Colleges.**
+The nine colonial colleges were founded between Harvard in 1636 and Dartmouth in 1769.
+
+$$
+\begin{aligned}
+\text{Harvard} &: 1636 \\
+\text{William and Mary} &: 1693 \\
+\text{Yale} &: 1701 \\
+\text{College of New Jersey (Princeton)} &: 1746 \\
+\text{King's College (Columbia)} &: 1754 \\
+\text{College of Philadelphia (Pennsylvania)} &: 1755 \\
+\text{College of Rhode Island (Brown)} &: 1764 \\
+\text{Queen's College (Rutgers)} &: 1766 \\
+\text{Dartmouth College} &: 1769
+\end{aligned}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Signal Density Ordering of Colonial Substrates.*
+The article ranks the colonial substrates by signal density according to the number and reliability of their formal transmission channels, with the Puritan highest.
+
+$$
+\sigma_{\text{Puritan}} > \sigma_{\text{Anglican}} \sim \sigma_{\text{Quaker}} > \sigma_{\text{African-visible}} \sim \sigma_{\text{Native-under-suppression}}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Hierarchy Depth of Colonial Substrates.*
+The article assigns each colonial substrate an approximate count of authority tiers from local congregation to apex, three for the Anglican and one for the congregational traditions.
+
+$$
+D_{\text{Anglican}} \sim 3 > D_{\text{Puritan}} \sim 2 \sim D_{\text{Presbyterian}} \sim 2 > D_{\text{Congregational}} \sim 1 \sim D_{\text{Baptist}} \sim 1 \sim D_{\text{Quaker}} \sim 1
+\tag{28}
+$$
+
+*Equation 29, Bespoke Church-State Coupling Coefficients.*
+The article assigns each colonial substrate a coupling weight with civil authority on a scale from minus one for repressive to plus one for supportive establishment.
+
+$$
+w_{\text{Puritan-NE}} \approx w_{\text{Anglican-VA}} \approx 1, \quad w_{\text{Quaker-PA}} \sim 0.8, \quad w_{\text{Baptist-RI}} \sim 0, \quad w_{\text{African}} \sim -0.5, \quad w_{\text{Native}} \sim -0.5
+\tag{29}
+$$
+
+**Equation 30, Timing of the Half-Way Covenant.**
+The Boston synod adopted the Half-Way Covenant in 1662, about twenty-two years after the end of the Great Migration.
+
+$$
+t_{\text{Half-Way Covenant, Boston synod}} = 1662 \text{ CE}, \quad \Delta t_{\text{from Great Migration end}} \approx 22 \text{ years}
+\tag{30}
+$$
+
+### Notation
+
+- $P_{\text{Anglo}}(t)$, the English colonial population at time $t$
+- $P_0$, the colonial population at the reference date $t_0$
+- $\lambda$, the exponential growth rate of the colonial population, per year
+- $f_{\text{enslaved}}$, the share of the colonial population held in bondage
+- $r_{\text{natural, NA}}$, the rate of natural increase of the enslaved population of North America
+- $L_{\text{male, NE}}$, the male literacy rate in New England
+- $e_{20, \text{Chesapeake}}$, the further life expectancy at age twenty in the Chesapeake
+- $\sigma_{\text{Puritan}}$, the signal density of the Puritan substrate, one instance of $\sigma$ for each substrate
+- $D_{\text{Anglican}}$, the count of authority tiers from local congregation to apex in the Anglican substrate, one instance of $D$ for each substrate
+- $w_{\text{Puritan-NE}}$, the normalised church-state coupling of the Puritan substrate in New England, one instance of $w$ for each substrate, lying between minus one and one
 
 ## References
 

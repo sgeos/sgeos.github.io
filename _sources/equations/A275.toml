@@ -1,0 +1,495 @@
+# Equation classification for A275. Read by `python3 _lib/equations.py`.
+
+caution = "Every figure is an approximate historical count, share or monetary amount as reported by the source the article names, a share written as f is a fraction between zero and one while a few ballot results and one relative change are written in percent, and monetary amounts are nominal United States dollars unless the equation states otherwise."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Foreign-Born Population of the United States, 2000 to 2020"
+gloss = "The census counts of the foreign-born population for 2000, 2010 and 2020 are stated with the foreign-born share of the 2020 population, which approaches its level before the 1924 restriction."
+cite = []
+digest = "48537b18e4867d16"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Religious Composition of the United States, 2000 to 2024"
+gloss = "Survey shares of Christians, the principal Protestant and Catholic groupings, the smaller traditions and the unaffiliated are stated for the years the Pew Research Center and the American Religious Identification Survey report."
+cite = ["book_jones_2016", "book_chaves_2011"]
+digest = "70a7a83dc832f847"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Casualties of the Attacks of 11 September 2001"
+gloss = "The recorded dead, the lower bound on the injured and the lower bound on later deaths of first responders from related illness are taken from the records of the National September 11 Memorial and Museum."
+cite = []
+digest = "57000ab433e0fa73"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Documented Anti-Muslim Hate Crimes, 2001 to 2016"
+gloss = "Annual counts of anti-Muslim hate crimes from the hate crime statistics of the Federal Bureau of Investigation show peaks in 2001 and in 2015 and 2016."
+cite = []
+digest = "54db2ea8f76d3520"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Casualties and Cost of the Iraq War"
+gloss = "American military dead and wounded, a lower bound on Iraqi civilian dead and the cumulative American cost through 2020 are taken from Department of Defense, Iraq Body Count and Congressional Research Service records."
+cite = []
+digest = "b0997940fba0be91"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Support for the Iraq War by Religious Tradition, 2003"
+gloss = "The share of each religious tradition supporting the war in 2003 is taken from Pew Research Center polling and runs from about three quarters of white evangelicals to under a third of Black Protestants."
+cite = []
+digest = "1a6790346750b3ba"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Scale of the Catholic Clergy Sexual Abuse Crisis"
+gloss = "The count of accused priests, a lower bound on victims and the aggregate diocesan settlement expenditure are drawn from the John Jay College reports and other institutional documentation."
+cite = ["ref_john_jay_report_2004", "ref_john_jay_report_2011"]
+digest = "8be7f982efebce82"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Catholic Diocesan and Religious Order Bankruptcy Filings, 2004 to 2024"
+gloss = "The count of diocesan filings under Chapter 11 and a lower bound on filings by religious orders are taken from bankruptcy court records."
+cite = []
+digest = "7509a069640a99ae"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Presidential Election Result and Religious Vote, 2004"
+gloss = "The popular and electoral votes of Bush and Kerry are stated with the Bush share among white evangelicals, white Catholics, Jewish voters and Black Protestants from exit polling."
+cite = []
+digest = "f0dc9c8a62331dcf"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Landmarks of the Legal Recognition of Same-Sex Marriage, 2003 to 2022"
+gloss = "The years of the principal court decisions, ballot measures and statutes are listed in order from the Goodridge decision to the Respect for Marriage Act."
+cite = ["ref_goodridge_2003", "ref_windsor_v_us_2013", "book_klarman_2013"]
+digest = "2ffea2ab91ff132e"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Tally of Denominational Positions on Same-Sex Marriage, 2020"
+gloss = "The shares of denominations supporting, opposing or divided on same-sex marriage rites are an apportionment the article assembles from unspecified denominational documentation over an undefined and unweighted set of denominations."
+cite = []
+digest = "b5b40cfea54cf073"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Vote in Burwell v. Hobby Lobby and Corporations Affected"
+gloss = "The five to four division of the Supreme Court is stated with a lower bound on the closely held corporations to which the ruling could apply."
+cite = ["ref_burwell_v_hobby_lobby_2014"]
+digest = "553db9e4dcade854"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Presidential Election Result and Religious Vote, 2008"
+gloss = "The popular and electoral votes of Obama and McCain are stated with the Obama share in six religious groups from Pew Research Center and exit polling."
+cite = []
+digest = "60e8c606623bcda9"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Osteen Book Sales and Lakewood Church Revenue"
+gloss = "Cumulative sales of one book and of all books by Osteen and the annual revenue of Lakewood Church near its peak are taken from institutional records."
+cite = []
+digest = "b50ce38bc4bdb0f3"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Affirmation of the Prosperity Gospel Tenet, 2018"
+gloss = "The share affirming that God grants financial prosperity to the faithful is stated for all American Christians, for evangelicals and for Pentecostals from LifeWay Research and Pew Research Center surveys."
+cite = []
+digest = "1ef56897096944b9"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Atheist and Agnostic Self-Identification, 2000 and 2020"
+gloss = "The survey shares of adults identifying as atheist and as agnostic roughly double over two decades."
+cite = []
+digest = "8e482c66a1e546a1"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Religiously Unaffiliated Share of Adults, 2000 to 2024"
+gloss = "The survey share of adults with no religious affiliation rises from about one in seven in 2000 to about three in ten in 2024."
+cite = ["book_burge_2021"]
+digest = "365344403ce8cb0b"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Christian Nationalism Orientation Categories, 2020"
+gloss = "The shares of the four orientations of Whitehead and Perry, from Ambassadors to Rejecters, are taken from the Baylor Religion Survey and sum to one."
+cite = ["book_whitehead_perry_2020"]
+digest = "ae80b9c277341d8b"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Presidential Election Result and Religious Vote, 2016"
+gloss = "The popular and electoral votes of Trump and Clinton are stated with each candidate's share in five religious groups from Pew Research Center analysis."
+cite = []
+digest = "4364cc5f016ca82c"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Public Opposition to the Park51 Location, 2010"
+gloss = "The polled share opposing the location of the community centre is stated with a lower bound on documented protests at the site."
+cite = []
+digest = "caa52cfb6ce546ff"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Approval of Pope Francis Among American Catholics, 2014 to 2024"
+gloss = "Pew Research Center polling puts approval at about eighty five percent in 2014, settling near three quarters thereafter."
+cite = []
+digest = "d9b5d2f4f27d690e"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Southern Baptist Convention Membership, 2000 to 2024"
+gloss = "Membership of the Southern Baptist Convention from its Annual Church Profile records falls by about a fifth between 2010 and 2024."
+cite = []
+digest = "1fa3162531e6fcfd"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "African-Born Population of the United States, 2000 to 2020"
+gloss = "Census counts of the African-born population grow about two point seven fold over the two decades."
+cite = []
+digest = "05dc76c2bf382af8"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Principal African National-Origin Populations, 2020"
+gloss = "Census counts are listed for the Nigerian, Ethiopian, Somali, Ghanaian, Kenyan and Egyptian populations of the United States."
+cite = []
+digest = "5209a7650680d7b5"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "African Pentecostal Parishes in the United States"
+gloss = "Parish counts of the Redeemed Christian Church of God for 2010 and 2020 and of the Ghanaian Church of Pentecost for 2020 are taken from institutional records."
+cite = []
+digest = "120399176b3945bf"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Hispanic and Latino Population of the United States, 2000 to 2020"
+gloss = "Census counts of the Hispanic and Latino population are stated with its share of the 2020 population."
+cite = []
+digest = "ce39f7f861ebcd30"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Principal Central American Populations, 2020"
+gloss = "Census counts are listed for the Salvadoran, Guatemalan, Honduran and Nicaraguan populations of the United States."
+cite = []
+digest = "08a5b3f90a83b745"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Venezuelan Population of the United States, 2000 to 2024"
+gloss = "Census counts of the Venezuelan population rise roughly tenfold as the crisis in Venezuela deepens after 2013."
+cite = []
+digest = "98e19c960981ce56"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Religious Composition of Hispanic Americans, 2000 to 2020"
+gloss = "Survey shares show the Catholic share among Hispanic Americans falling by about twenty percentage points while the Protestant and unaffiliated shares rise."
+cite = []
+digest = "559768bd5b3025bf"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "South Asian National-Origin Populations, 2020"
+gloss = "Census counts are listed for the Indian, Pakistani, Bangladeshi, Nepalese and Sri Lankan populations of the United States."
+cite = []
+digest = "3c3f7ce31cefdc7e"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Hindu Temples, Sikh Gurdwaras and Jain Temples in the United States"
+gloss = "Institutional counts of Hindu temples and Sikh gurdwaras roughly double or more between 2000 and 2020, and the Jain temple count is stated for 2020."
+cite = []
+digest = "9978e6f7748aae9f"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Annual Refugee Admissions, 2000 to 2024"
+gloss = "Annual admissions from Office of Refugee Resettlement records fall by about eighty six percent from 2016 to 2020 and recover to about one hundred thousand by 2024."
+cite = []
+digest = "3ca0a8f50b29f779"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Iraqi Refugee Admissions and Their Religious Composition, 2007 to 2020"
+gloss = "Total Iraqi refugee admissions are stated with the Christian, Muslim and Yazidi or other minority shares from State Department records."
+cite = []
+digest = "2029617e9568743d"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Syrian Refugee Admissions Before and After 2018"
+gloss = "Syrian refugee admissions from State Department records drop by nearly an order of magnitude between the periods 2011 to 2017 and 2018 to 2024."
+cite = []
+digest = "7d0294810d08b99b"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Central American Migration Events at the Southwest Border"
+gloss = "The count of unaccompanied minors in 2014, the peak size of the 2018 caravan and the Southwest border encounters in fiscal years 2022 and 2023 are stated."
+cite = []
+digest = "4bc10773d384dffe"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Family Separations Under the Zero Tolerance Policy, 2018"
+gloss = "The documented separations between April and June 2018 and a lower bound on further undocumented separations are taken from reports of the Office of Inspector General of the Department of Homeland Security."
+cite = []
+digest = "19cac677e8a7921f"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Provisions of and Response to Executive Order 13769"
+gloss = "The seven countries covered, the ninety day entry suspension and the indefinite Syrian refugee suspension are stated with lower bounds on travellers detained and protesters at airports on the first weekend."
+cite = ["ref_executive_order_13769_2017"]
+digest = "04927fc64bfe9c42"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Vote in Trump v. Hawaii"
+gloss = "The Supreme Court upheld the third version of the travel ban by five votes to four."
+cite = ["ref_trump_v_hawaii_2018"]
+digest = "8f073f80b24018e7"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Afghan Admissions and Afghan Population, 2020 to 2024"
+gloss = "Admissions under Operation Allies Welcome from Department of Homeland Security records are stated with the Afghan population of the United States in 2020 and 2024."
+cite = []
+digest = "5c134b16c28493b3"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Afghan Admissions by Channel"
+gloss = "Admissions are divided among Special Immigrant Visas since 2009, humanitarian parole since 2021 and asylum or refugee status since 2021, over windows that differ by channel."
+cite = []
+digest = "87b5f3cd519c4dfc"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Uniting for Ukraine Admissions and Ukrainian Population, 2020 to 2024"
+gloss = "Admissions under Uniting for Ukraine from Citizenship and Immigration Services records are stated with the Ukrainian population of the United States in 2020 and 2024."
+cite = []
+digest = "b17fa3d74f91c0a7"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Cuban Arrivals, 2021 to 2024"
+gloss = "Cuban arrivals in fiscal year 2022 and a lower bound on cumulative arrivals from 2021 to 2024 are taken from Customs and Border Protection records."
+cite = []
+digest = "41191d1ba23b8e4e"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Principal Attacks on Houses of Worship, 2012 to 2022"
+gloss = "The date and death toll of six attacks on gurdwaras, churches and synagogues are listed from incident documentation, with the perpetrator noted for three."
+cite = []
+digest = "07c39a812451cfe2"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Mortality of the Pandemic of Coronavirus Disease 2019"
+gloss = "A lower bound on cumulative deaths through 2024 and the peak monthly toll of January 2021 are taken from records of the Centers for Disease Control and Prevention."
+cite = []
+digest = "384c0c0da2bddc02"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Vaccine Acceptance by Religious Tradition, 2021"
+gloss = "The share accepting the vaccine in each of seven religious groups is taken from Public Religion Research Institute polling."
+cite = []
+digest = "5f30c04e6278ea4f"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Scale of the 2020 Racial Justice Protests"
+gloss = "The count of protests from May to August 2020 and the range of estimated participants are taken from the Crowd Counting Consortium and similar trackers."
+cite = []
+digest = "60cf519e529f7225"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Support for Black Lives Matter by Religious Tradition, 2020"
+gloss = "The share supporting the movement in six religious groups is taken from Pew Research Center polling and ranges from about six in seven Black Protestants to under three in ten white evangelicals."
+cite = []
+digest = "f108525965c52fd2"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "State Abortion Status After Dobbs, 2024"
+gloss = "The fifty states are divided among full bans, early bans, protected access and intermediate restrictions following the Guttmacher Institute."
+cite = []
+digest = "99d23948ddfb935a"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Abortion Ballot Measure Results, 2022 to 2024"
+gloss = "The certified percentages in favour and opposed are listed for the measures in Kansas, Michigan, Ohio and Missouri, each of which protected abortion access."
+cite = []
+digest = "bcf06ae4e7885333"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Religious Vote in the 2020 Presidential Election"
+gloss = "The Trump or Biden share in each religious group is taken from Pew Research Center analysis and exit polling."
+cite = []
+digest = "b0f21ad30d81cfc5"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Participation and Prosecutions in the Capitol Attack of 6 January 2021"
+gloss = "Rally attendance, the count of Capitol attackers, the related deaths and a lower bound on federal charges are taken from Department of Justice records."
+cite = []
+digest = "348bba832a22f5a1"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Religious Composition of the Supreme Court, 2020"
+gloss = "Seven Catholic and two Jewish justices give a Catholic share of about seven ninths, well above the Catholic share of the population."
+cite = []
+digest = "2a8834b0b29a1ec5"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Disaffiliation From the United Methodist Church, 2019 to 2023"
+gloss = "The count of congregations approved to leave the United Methodist Church and their share of its American congregations are stated with the 2024 membership of the Global Methodist Church."
+cite = []
+digest = "1b552c2f3ba35996"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Recipients of Deferred Action for Childhood Arrivals"
+gloss = "Initial approvals, cumulative recipients and active recipients in 2024 are taken from Citizenship and Immigration Services records."
+cite = []
+digest = "a940c1a0ede1e5d0"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Casualties of the Hamas Attack of 7 October 2023"
+gloss = "The Israeli dead, the hostages taken and the Americans among the dead are taken from Israeli government and State Department records."
+cite = []
+digest = "4aa5efd265fdc63e"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Gazan Dead and Displaced, 2023 to 2024"
+gloss = "Lower bounds on the dead and the displaced in Gaza are taken from Gaza Health Ministry and United Nations Office for the Coordination of Humanitarian Affairs estimates."
+cite = []
+digest = "18925bfa53f34a80"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Documented Antisemitic Incidents, 2023 and 2024"
+gloss = "Anti-Defamation League counts for 2023 and 2024 are stated with the relative increase of about one hundred and forty percent from 2022 to 2023."
+cite = []
+digest = "f9acaccb493da52a"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Reach and Expenditure of the He Gets Us Campaign"
+gloss = "The audience of the 2024 Super Bowl commercial and a lower bound on cumulative campaign expenditure are taken from institutional records."
+cite = []
+digest = "0ba360c1377ed45d"
+
+[[symbol]]
+tex = 'P'
+meaning = "a population or membership count in persons, identified by its subscript and evaluated at the year below the bar"
+
+[[symbol]]
+tex = 'N'
+meaning = "a count of persons, institutions, events or states, identified by its subscript"
+
+[[symbol]]
+tex = 'f'
+meaning = "a fraction or share between zero and one, identified by its subscript"
+
+[[symbol]]
+tex = 'V'
+meaning = "a vote tally, popular or electoral in a presidential election and the count of justices in a Supreme Court decision"
+
+[[symbol]]
+tex = 'C'
+meaning = "a monetary amount in United States dollars, identified by its subscript"
+
+[[symbol]]
+tex = 't'
+meaning = "a duration of a suspension under the executive order"
+
+[[symbol]]
+tex = '\Delta'
+meaning = "a relative change from one year to the next, written in percent"

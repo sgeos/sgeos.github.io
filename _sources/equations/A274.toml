@@ -1,0 +1,575 @@
+# Equation classification for A274. Read by `python3 _lib/equations.py`.
+
+caution = "Every figure is an approximate historical count, share or monetary amount as reported by the source the article names, a share is a fraction between zero and one rather than a percentage, and monetary amounts are nominal United States dollars unless the equation states otherwise."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Foreign-Born Population of the United States, 1970 to 2020"
+gloss = "Census counts of the foreign-born population rise from under ten million in 1970 to about forty-five million in 2020."
+cite = ["book_waters_ueda_2007", "book_zolberg_2006", "book_foner_2000"]
+digest = "e9a9279d8991a67c"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Foreign-Born Share of the Population, 1970 to 2020"
+gloss = "The foreign-born share of the national population rises from under five per cent in 1970 to about thirteen and a half per cent in 2020."
+cite = ["book_waters_ueda_2007", "book_zolberg_2006", "book_foner_2000"]
+digest = "8bdff4e0dfc7222d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Religious Composition of the United States, 1948 to 2020"
+gloss = "Survey shares of Christian, Catholic, Jewish, Muslim, Hindu, Buddhist and unaffiliated Americans are reported from Gallup, the Pew Religious Landscape Study and the American Religious Identification Survey."
+cite = ["ref_gallup_religion_surveys", "ref_pew_religious_landscape_2014", "ref_aris_1990_2008"]
+digest = "c9f63d965c448eac"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Legalisations Under the Immigration Reform and Control Act of 1986"
+gloss = "Federal records give about one point six million general legalisations and one point one million agricultural worker legalisations, together about two point seven million, three quarters of them of Mexican origin."
+cite = ["ref_irca_1986"]
+digest = "776e74aa13c866ae"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Estimated Undocumented Population, 1986 to 2020"
+gloss = "Pew Research Center estimates of the undocumented population rise from about five million in 1986 to a peak near twelve million in 2007 before easing."
+cite = []
+digest = "11a3b6c68b1d7351"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Diversity Visa Ceiling and Cumulative Admissions"
+gloss = "The statutory annual ceiling of the Diversity Visa programme is fifty-five thousand, with about one point four million cumulative admissions by 2020 and a share of nearly half from African countries."
+cite = ["ref_immigration_act_1990"]
+digest = "8784bb962b31db11"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Initial Temporary Protected Status Designations"
+gloss = "Federal records give the year and approximate number of beneficiaries for the first Temporary Protected Status designations of six countries."
+cite = ["ref_immigration_act_1990"]
+digest = "23fb55e352caa6db"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Formal Removals From the United States, 1990 to 2020"
+gloss = "Immigration and Customs Enforcement records show annual formal removals rising from about thirty thousand in 1990 to about four hundred and forty thousand in 2013, with at least five million removals from 1996 to 2020."
+cite = ["ref_iirira_1996"]
+digest = "a036d2db27670e6a"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Central American Arrivals by Country, 1980 to 2000"
+gloss = "Immigration and Naturalization Service records give arrivals from El Salvador, Guatemala, Nicaragua and Honduras during the civil war decades."
+cite = ["book_menjivar_2000", "book_coutin_2000", "book_hagan_1994"]
+digest = "5d8b9d703f2a8ca7"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Sanctuary Movement Congregations and Denominations at Peak"
+gloss = "Institutional records give about six hundred participating congregations drawn from about twenty-five denominations at the peak of the movement."
+cite = []
+digest = "4305297230da8ede"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Iranian Arrivals and Iranian American Population"
+gloss = "Census records give about three hundred thousand Iranian arrivals by 2000, five hundred thousand by 2020, and an Iranian American population of about five hundred thousand."
+cite = ["book_mostofi_2003", "book_bozorgmehr_1998", "book_kelley_1993"]
+digest = "0e4ae996e649f36c"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Religious Composition of Iranian Americans"
+gloss = "Survey reconstructions divide Iranian Americans among Muslim, Jewish, Baha'i, Christian, Zoroastrian and unaffiliated identities, with religious minorities far above their share in Iran."
+cite = []
+digest = "713d0e7eda52df25"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Cambodian Arrivals and Cambodian American Population"
+gloss = "Office of Refugee Resettlement records give about one hundred and fifty thousand Cambodian arrivals from 1975 to 1994 and a Cambodian American population of about three hundred and forty thousand in 2020."
+cite = ["book_chan_2004", "book_mortland_2017"]
+digest = "35374e21b0507fd4"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Cambodian Buddhist Temples and Monks in the United States"
+gloss = "Institutional records count about thirty Cambodian temples in 1985, about one hundred and fifty in 2020, and about four hundred ordained monks."
+cite = []
+digest = "88660500b990a0a4"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Ethiopian Arrivals and Ethiopian American Population"
+gloss = "Immigration and Naturalization Service records give about eighty thousand Ethiopian arrivals from 1980 to 2000 and an Ethiopian American population of about three hundred thousand in 2020."
+cite = ["book_levine_2000", "book_chacko_2003"]
+digest = "7a0291e0c3607a79"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Ethiopian Orthodox Tewahedo Parishes and Affiliation in 2020"
+gloss = "Institutional records give about one hundred Ethiopian Orthodox Tewahedo parishes and about one hundred and thirty thousand affiliated persons in the United States."
+cite = []
+digest = "06c0b4d9aab6ea4e"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Beta Israel Emigration to Israel and Presence in the United States"
+gloss = "Jewish Agency and census records give about one hundred and forty thousand Beta Israel emigrants to Israel against about three thousand Beta Israel in the United States."
+cite = ["book_kaplan_1992"]
+digest = "e7cdef750a8f3a08"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Somali Arrivals and Somali American Population"
+gloss = "Office of Refugee Resettlement records give about one hundred and fifty thousand Somali arrivals from 1991 to 2020 and a Somali American population of about one hundred and seventy thousand."
+cite = ["book_waldinger_lichter_2003", "book_chanoff_2002"]
+digest = "eca92226cb71491d"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Somali Mosques and Islamic Centres in 2020"
+gloss = "Institutional records count about eighty Somali-affiliated mosques nationally and about twenty Somali Islamic centres in the Minneapolis and Saint Paul area."
+cite = []
+digest = "8247245703fa0487"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Bosnian Arrivals and Bosnian American Population"
+gloss = "Office of Refugee Resettlement records give about one hundred and thirty thousand Bosnian arrivals from 1992 to 2000 and a Bosnian American population of about one hundred and forty thousand in 2020."
+cite = ["book_franz_2005", "book_coughlan_owens_manley_2005", "book_robinson_1998"]
+digest = "0897726513b5d3d5"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Bosnian Muslim Mosques and Islamic Centres in 2020"
+gloss = "Institutional records count about forty Bosnian Muslim mosques and Islamic centres in the United States."
+cite = []
+digest = "5c7a62fb329c43d9"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Vietnamese Admissions by Programme and Vietnamese American Population"
+gloss = "Resettlement and immigration records give admissions under the first wave, the boat exodus, the Orderly Departure Program and the Amerasian Homecoming Act, and a Vietnamese American population of about two point two million in 2020."
+cite = ["ref_amerasian_homecoming_act_1987", "book_bass_1996_vietnamerica", "book_freeman_1995"]
+digest = "36ad657cba1e1a46"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Cuban Rafter Arrivals and Interdictions in 1994"
+gloss = "Coast Guard records give about thirty-five thousand rafter arrivals in August and September 1994 and about fifty thousand interdicted at sea."
+cite = ["book_ackerman_clark_1995"]
+digest = "f6f29a576aeeb3ad"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Haitian Arrivals and Haitian American Population"
+gloss = "Census records give about three hundred thousand Haitian arrivals from 1980 to 2000 and a Haitian American population of about one point one million in 2020."
+cite = ["book_stepick_1998"]
+digest = "09d3dc6eb627a8d7"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Chinese Arrivals and Chinese American Population"
+gloss = "Immigration and Naturalization Service records give about one million Chinese arrivals from 1980 to 2000 and a Chinese American population of about five point four million in 2020."
+cite = ["book_zhou_1992", "book_lee_2015", "book_ling_2004"]
+digest = "ce6548cdc9620b2b"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Religious Composition of Chinese Americans in 2020"
+gloss = "Pew Research reconstruction divides Chinese Americans among traditional or Buddhist, Christian, unaffiliated and other identities."
+cite = []
+digest = "abc1ea6cc01bd210"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Falun Gong Practitioners in the United States in 2020"
+gloss = "Institutional estimates put Falun Gong practitioners in the United States at about fifty thousand."
+cite = []
+digest = "5d1feac549cdc7f8"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Korean American Population, 1970 to 2020"
+gloss = "Census records show the Korean American population rising from about seventy thousand in 1970 to about one point nine million in 2020."
+cite = []
+digest = "267910922abe91a2"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Korean American Christian Congregations, 1980 to 2020"
+gloss = "Denominational records count Korean American Christian congregations rising from about five hundred in 1980 to about four thousand in 2020."
+cite = ["book_kwon_kim_warner_2001", "book_min_2010", "book_chai_2001"]
+digest = "4373a3a02770613e"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Indian American Population, 1970 to 2020"
+gloss = "Census records show the Indian American population rising from about fifty thousand in 1970 to about four point six million in 2020."
+cite = ["book_kurien_2007", "book_prashad_2000"]
+digest = "78c9e4a46888768a"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Hindu Temples in the United States, 1980 to 2020"
+gloss = "Hindu American Foundation and temple executives' records count about fifty temples in 1980, four hundred in 2000 and eight hundred in 2020."
+cite = ["book_kurien_1998"]
+digest = "dfbcee7ff123819c"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Sikh Gurdwaras and Sikh American Population"
+gloss = "Institutional records count gurdwaras rising from about twenty in 1980 to about three hundred and fifty in 2020, with a Sikh American population of about five hundred thousand."
+cite = ["book_singh_2013"]
+digest = "576fcdcb5550acee"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Jain American Population and Temples in 2020"
+gloss = "Jain federation records give about one hundred and fifty thousand Jain Americans and about one hundred Jain temples."
+cite = []
+digest = "99a3bed7d9547289"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Pakistani and Bangladeshi American Populations, 1980 and 2020"
+gloss = "Census records show the Pakistani and Bangladeshi American populations each growing by a factor of about forty between 1980 and 2020."
+cite = ["book_rangaswamy_2000", "book_bald_2013"]
+digest = "a4a4c2667aeaf0f7"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Muslim American Population and Mosques, 1980 to 2020"
+gloss = "Islamic Society of North America and Pew Research reconstructions give about three and a half million Muslim Americans and about two thousand eight hundred mosques and Islamic centres in 2020."
+cite = ["book_bagby_2020"]
+digest = "cb5a61b561d6ea79"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Filipino American Population, 1970 to 2020"
+gloss = "Census records show the Filipino American population rising from about three hundred and forty thousand in 1970 to about four point four million in 2020."
+cite = ["book_espana_maram_2006", "book_bonus_2000"]
+digest = "a677db899bd17b13"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Religious Composition of Filipino Americans"
+gloss = "The Catholic share among Filipino Americans falls from about eighty-five per cent in 1970 to about sixty-five per cent in 2020, beside a Protestant and Pentecostal share and the membership of Iglesia ni Cristo."
+cite = ["book_pantoja_2003"]
+digest = "4d69dcf1395ce265"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "African-Born Population of the United States, 1970 to 2020"
+gloss = "Census records show the African-born population rising from about eighty thousand in 1970 to about two point four million in 2020."
+cite = ["book_arthur_2010", "book_yankah_2018"]
+digest = "2836108bfec9154b"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "African-Affiliated Christian Congregations in 2020"
+gloss = "Institutional records count about three thousand African-affiliated Christian congregations, about eight hundred of them parishes of the Redeemed Christian Church of God."
+cite = ["book_adogame_2013"]
+digest = "488cef92f2a29239"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Islamic Schools and Convention Attendance"
+gloss = "Institutional records count about three hundred full-time and fifteen hundred weekend Islamic schools in 2020 and a peak annual convention attendance of about forty thousand."
+cite = []
+digest = "83c0390f9a2a5c79"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Halal Food Market and Certified Establishments in 2020"
+gloss = "Islamic Food and Nutrition Council of America records give annual halal food sales of about twenty billion dollars and at least thirty thousand certified establishments."
+cite = []
+digest = "3bd2ba861d119dd7"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Buddhist American Population, 1980 to 2020"
+gloss = "Survey reconstructions give about two and a half million Buddhist Americans in 2020, of whom about three in ten were converts without Asian ancestry around 2000."
+cite = ["book_prebish_1999", "book_seager_1999", "book_coleman_2001"]
+digest = "903b7bac1296f76d"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Buddhist Temples and Centres by Stream in 2020"
+gloss = "Pluralism Project and Association of Religion Data Archives records count ethnic Asian temples and Tibetan, Zen, Insight Meditation and Soka Gakkai centres."
+cite = []
+digest = "18f0f376b031bedf"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Popular and Electoral Votes in the 1980 Presidential Election"
+gloss = "Reagan won about forty-four million popular votes and 489 electoral votes against about thirty-five and a half million and 49 for Carter."
+cite = []
+digest = "a93d6f930a21f542"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Popular and Electoral Votes in the 1984 Presidential Election"
+gloss = "Reagan won about fifty-five million popular votes and 525 electoral votes against about thirty-seven and a half million and 13 for Mondale."
+cite = []
+digest = "024b417f8abc96ab"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Aggregate Membership and Budget of Religious Right Organisations"
+gloss = "The membership and annual budget are lower bounds formed by aggregating several organisations whose memberships may overlap, so the figures rest on the article's choice of which organisations to sum."
+cite = []
+digest = "6ff03d7149e2b1c2"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Christian Coalition Membership, Chapters and Budget at Peak"
+gloss = "Institutional records give a peak membership of about one point seven million, about two thousand local chapters and an annual budget of about twenty-six million dollars."
+cite = ["book_diamond_1998"]
+digest = "7cffb1137f766097"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Focus on the Family Employment and Budget at Peak"
+gloss = "Institutional records give about fourteen hundred employees and an annual budget of about one hundred and fifty million dollars at peak."
+cite = []
+digest = "c1fed2f190d7685f"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Promise Keepers Stadium Attendance, 1991 to 2000"
+gloss = "Institutional records give about five million cumulative stadium attendees and about one point one million a year at the peak."
+cite = []
+digest = "4fcf16a7df7a6154"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Megachurch Count and Attendance, 1970 to 2020"
+gloss = "Hartford Institute for Religion Research figures count congregations of two thousand or more weekly attenders rising from about twenty-five in 1970 to about seventeen hundred and fifty in 2020."
+cite = ["book_thumma_travis_2007", "book_ellingson_2010"]
+digest = "8c41af7d8adc056b"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Peak Weekly Attendance at Three Megachurches"
+gloss = "Peak weekly attendance is about twenty-four thousand at Willow Creek, twenty-two thousand at Saddleback and fifty-two thousand at Lakewood."
+cite = []
+digest = "7274853739004eb6"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Financial Scale of the PTL Ministry Before the Scandal"
+gloss = "Court records and institutional documentation give annual revenue of about one hundred and fifty million dollars, about six million annual park visitors and a documented fraud of about one hundred and fifty-eight million dollars."
+cite = ["book_barnhart_1988", "book_shepard_1989"]
+digest = "3e7503451751d6ee"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Vineyard USA Membership and Congregations"
+gloss = "Institutional records give about one hundred and ninety thousand members in about five hundred and fifty congregations."
+cite = []
+digest = "d34b01dce754efa9"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Toronto Blessing Visitors and International Spread"
+gloss = "Institutional records give about three and a half million cumulative visitors from 1994 to 1998 and about fifty-five countries reporting the revival."
+cite = []
+digest = "d180dc5c7bcfd730"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Membership Decline of Five Mainline Denominations"
+gloss = "Denominational records give membership in a base year and in 2020 for five denominations, and each relative change $\\Delta$ is the difference divided by the earlier value."
+cite = ["book_roozen_hadaway_1993", "book_hout_greeley_wilde_2001"]
+digest = "de302826a4d84cc0"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Casualties and Duration of the Waco Siege"
+gloss = "Federal records give eighty-two Branch Davidian deaths, seventy-six of them in the final fire and twenty-five of them children, four agents killed in the initial raid and a siege of fifty-one days."
+cite = ["ref_waco_branch_davidian_1993", "ref_waco_doj_1993", "ref_danforth_report_2000"]
+digest = "71efa6e98fef59fb"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Casualties and Damage of the Oklahoma City Bombing"
+gloss = "The bombing killed one hundred and sixty-eight people including nineteen children, injured about six hundred and eighty-four and caused about six hundred and fifty million dollars of property damage."
+cite = ["ref_oklahoma_city_bombing_1995"]
+digest = "32764413cbb79509"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Competing Attendance Estimates for the Million Man March"
+gloss = "Reconstructions of attendance range from eight hundred thousand to one million beside a National Park Service estimate of four hundred thousand and an aerial photographic estimate of eight hundred and seventy thousand."
+cite = ["book_cottman_1995"]
+digest = "11bf8ab17ca0b92f"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Religiously Unaffiliated Share, 1948 to 2020"
+gloss = "Gallup, American Religious Identification Survey and Pew Research figures show the unaffiliated share rising from two per cent in 1948 to twenty-nine per cent in 2020."
+cite = ["book_kosmin_keysar_2009", "ref_pew_nones_2012", "ref_pew_religious_landscape_2014"]
+digest = "703bd4b6a432d1aa"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Composition of the Religiously Unaffiliated in 2020"
+gloss = "Pew Research reconstruction divides the unaffiliated into about sixty per cent nothing in particular, twenty per cent atheist and twenty per cent agnostic."
+cite = []
+digest = "b61221370c46910c"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Unaffiliated Share by Generation in 2020"
+gloss = "Pew Research generational figures give the unaffiliated share of each cohort from the Silent Generation to Generation Z."
+cite = []
+digest = "ca97e95ec37b4f30"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "American Missionaries and Bibles Sent to the Former Soviet Bloc"
+gloss = "Institutional records give about four thousand Protestant missionaries sent to the former Soviet Union and at least fifty million Bibles distributed in the former Soviet Bloc from 1990 to 2000."
+cite = []
+digest = "52ca4658c3eb3136"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Deaths From AIDS in the United States, 1981 to 1996"
+gloss = "Centers for Disease Control and Prevention records give about three hundred and fifty thousand cumulative deaths from acquired immunodeficiency syndrome and about fifty-one thousand in the peak year of 1995."
+cite = []
+digest = "db161310f1a456cb"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Scale of Operation Rescue Direct Action"
+gloss = "Institutional records give about seventy thousand arrests from 1988 to 1994, at least seven hundred clinic actions and at least one hundred thousand demonstrators at peak."
+cite = ["book_risen_thomas_1998"]
+digest = "908e09bcc1106fc0"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Violence Against Abortion Providers, 1977 to 2015"
+gloss = "National Abortion Federation records give about two hundred clinic bombings and arsons, eleven murders of providers and about forty attempted murders."
+cite = []
+digest = "509250c1f20f2881"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Scale of Repatriation Under the Native American Graves Protection and Repatriation Act"
+gloss = "National Park Service programme records give about one hundred and twenty thousand human remains held in 1990, about sixty thousand repatriated by 2020 and at least one and a half million funerary objects repatriated."
+cite = []
+digest = "7120df00ccfad92c"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Sales and Film Adaptations of the Left Behind Series"
+gloss = "Publisher records give about eighty million copies sold from 1995 to 2020 and four film adaptations."
+cite = []
+digest = "3a063da3114dc51d"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Christian Music Sales With an Aggregate of Three Artists"
+gloss = "Annual Christian contemporary music sales are reported by the Gospel Music Association, while the cumulative album sales are a lower bound the article forms by summing three artists it selected."
+cite = []
+digest = "cc552ae3c7a0a08e"
+
+[[symbol]]
+tex = 'P'
+meaning = "a population, membership or attendance of persons, identified by its subscript and the year after the vertical bar"
+
+[[symbol]]
+tex = 'N'
+meaning = "a count of persons, institutions or events, identified by its subscript"
+
+[[symbol]]
+tex = 'f'
+meaning = "a fraction or share between zero and one, identified by its subscript"
+
+[[symbol]]
+tex = 'C'
+meaning = "a monetary amount in United States dollars, nominal unless stated, identified by its subscript"
+
+[[symbol]]
+tex = 'V'
+meaning = "a count of popular or electoral votes for a named candidate"
+
+[[symbol]]
+tex = 't'
+meaning = "a duration in days"
+
+[[symbol]]
+tex = '\Delta'
+meaning = "the relative change in membership from the base year to 2020, as a percentage"
