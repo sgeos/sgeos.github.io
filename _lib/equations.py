@@ -141,6 +141,12 @@ def validate(data):
     for i, s in enumerate(symbols, 1):
         if set(s) != {"tex", "meaning"} or not all(isinstance(v, str) and v.strip() for v in s.values()):
             problems.append(f"[[symbol]] {i}: needs exactly `tex` and `meaning`, both non-empty strings")
+    # A data file built from ordinary Python strings turns `\tau`, `\beta` and
+    # `\frac` into a tab, a backspace and a form feed, and the result still parses.
+    texts = [data.get("caution")] + [e.get(k) for e in entries for k in ("title", "gloss")]
+    texts += [s.get(k) for s in symbols for k in ("tex", "meaning")]
+    if any(isinstance(t, str) and re.search(r"[\x00-\x09\x0b-\x1f\x7f]", t) for t in texts):
+        problems.append("a string holds a control character, likely an escape such as `\\t` in `\\tau`")
     if problems:
         raise EquationError("; ".join(problems))
 
@@ -162,13 +168,14 @@ def split_section(text):
     return front + body, "", refs
 
 
-def blocks(text):
-    """Display equations of the body outside the Equations section, as (line, latex).
+def spans(text):
+    """Display equations of the body as (first, last, latex), with 0-based line indices.
 
-    Only the two forms the corpus uses are recognised, a `$$` line opening and
-    another closing a block, and a whole line `$$...$$`. Anything else holding
-    `$$` is left to `_verify.py`, which already fails a display equation sharing
-    a line with prose. Line numbers count from the top of the file.
+    The corpus writes three forms. A `$$` line opens a block and another `$$`
+    line closes it. A whole line is `$$...$$`. Or the block opens with `$$`
+    followed by content and closes with content followed by `$$`, over several
+    lines, which only `unfold` accepts. A line holding `$$` in any other way
+    raises, so that no display equation can be left out of the index silently.
     """
     before = split_section(text)[0]
     raw = before.split("\n")
@@ -177,19 +184,41 @@ def blocks(text):
     i = 0
     while i < len(lines):
         line = lines[i]
-        one = re.fullmatch(r"\$\$(.+)\$\$", line)
-        if one:
-            out.append((i + 1, raw[i][2:-2]))
-        elif line == "$$":
+        if "$$" not in line:
+            i += 1
+            continue
+        if line == "$$":
             j = i + 1
-            while j < len(lines) and lines[j] != "$$":
+            while j < len(lines) and "$$" not in lines[j]:
                 j += 1
-            if j == len(lines):
-                raise EquationError(f"line {i + 1}: display equation never closes")
-            out.append((i + 1, "\n".join(raw[i + 1:j])))
-            i = j
-        i += 1
+            if j == len(lines) or lines[j] != "$$":
+                raise EquationError(f"line {i + 1}: display equation opened by `$$` never closes on a `$$` line")
+            out.append((i, j, "\n".join(raw[i + 1:j])))
+            i = j + 1
+            continue
+        if re.fullmatch(r"\$\$(.+)\$\$", line) and line.count("$$") == 2:
+            out.append((i, i, raw[i][2:-2]))
+            i += 1
+            continue
+        if line.startswith("$$") and line.count("$$") == 1:
+            j = i + 1
+            while j < len(lines) and "$$" not in lines[j]:
+                j += 1
+            if j == len(lines) or not lines[j].endswith("$$") or lines[j] == "$$" or lines[j].count("$$") != 1:
+                raise EquationError(f"line {i + 1}: display equation opened with content never closes with content")
+            out.append((i, j, "\n".join([raw[i][2:]] + raw[i + 1:j] + [raw[j][:-2]])))
+            i = j + 1
+            continue
+        raise EquationError(f"line {i + 1}: `$$` in a form the tool does not recognise")
     return out
+
+
+def blocks(text):
+    """Display equations of the body outside the Equations section, as (line, latex).
+
+    Line numbers count from the top of the file and name the opening line.
+    """
+    return [(first + 1, latex) for first, _last, latex in spans(text)]
 
 
 def unseparated(text):
@@ -203,11 +232,9 @@ def unseparated(text):
     before = split_section(text)[0]
     lines = post.strip_code_keeping_lines(before).split("\n")
     out = []
-    for line, latex in blocks(text):
-        first = line - 1
-        last = first if re.fullmatch(r"\$\$(.+)\$\$", lines[first]) else first + latex.count("\n") + 2
+    for first, last, _latex in spans(text):
         if (first > 0 and lines[first - 1].strip()) or (last + 1 < len(lines) and lines[last + 1].strip()):
-            out.append(line)
+            out.append(first + 1)
     return out
 
 
@@ -332,22 +359,22 @@ def check_article(path, text=None):
 
 
 def unfolded(text):
-    """The post with every single-line body equation rewritten as a `$$` block.
+    """The post with every body equation not already a `$$` block rewritten as one.
 
-    Tagging needs the block form, because the tag goes on a line of its own. The
-    rewrite moves line breaks only, so the equation's text and its digest are
-    unchanged and the rendered mathematics is the same. An equation that already
-    carries a tag on its one line is refused, since splitting the tag out is a
-    judgement about where the equation ends.
+    This covers a single-line `$$...$$` and a block whose `$$` delimiters share
+    their lines with its first and last content. Tagging needs the block form,
+    because the tag goes on a line of its own. The rewrite moves line breaks
+    only, so the equation's text and its digest are unchanged and the rendered
+    mathematics is the same. An equation that already carries a tag is refused,
+    since splitting the tag out is a judgement about where the equation ends.
     """
     lines = text.split("\n")
-    for line, latex in reversed(blocks(text)):
-        start = line - 1
-        if lines[start] == "$$":
+    for first, last, latex in reversed(spans(text)):
+        if lines[first] == "$$":
             continue
         if TAG.search(latex):
-            raise EquationError(f"line {line}: a single-line equation already carries a tag")
-        lines[start:start + 1] = ["$$", latex, "$$"]
+            raise EquationError(f"line {first + 1}: an equation outside the block form already carries a tag")
+        lines[first:last + 1] = ["$$"] + latex.split("\n") + ["$$"]
     return "\n".join(lines)
 
 

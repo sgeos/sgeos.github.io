@@ -3439,6 +3439,41 @@ def t_equations_cite_label_wrapped_over_lines():
     assert equations.body_labels(text) == {"data_cofer": "Currency Composition of Reserves"}
 
 
+def t_equations_unfold_block_with_content_on_delimiter_lines():
+    """A330 and A349 open blocks as `$$a = b,` and close them as `c = d.$$`, which
+    the tool once skipped, leaving equations out of the index."""
+    folded = FM + "\nText.\n\n$$a = b ,\n\\qquad\nc = d .$$\n\nMore.\n\n## References\n"
+    assert [l for _, l in equations.blocks(folded)] == ["a = b ,\n\\qquad\nc = d ."]
+    out = equations.unfolded(folded)
+    assert "\n$$\na = b ,\n\\qquad\nc = d .\n$$\n" in out, out
+    assert [equations.digest(l) for _, l in equations.blocks(out)] == \
+        [equations.digest(l) for _, l in equations.blocks(folded)]
+    assert equations.unseparated(out) == []
+
+
+def t_equations_control_character_rejected():
+    """A helper that wrote `$\tau$` from a plain Python string left a tab in the gloss."""
+    data = {"caution": "Units.", "equation": [{"tag": 1, "class": "standard", "title": "T",
+            "gloss": "The time constant $\tau$.", "digest": "0" * 16}]}
+    try:
+        equations.validate(data)
+    except equations.EquationError as e:
+        assert "control character" in str(e)
+    else:
+        raise AssertionError("a tab in a gloss was accepted")
+
+
+def t_equations_unrecognised_delimiter_raises():
+    """A `$$` the tool cannot place must stop it rather than drop an equation."""
+    for bad in ("\n$$\na = b\nc = d$$\n", "\n$$a = b\nc = d\n$$\n", "\nCosts $$5 here.\n"):
+        try:
+            equations.blocks(FM + bad + "\n## References\n")
+        except equations.EquationError:
+            pass
+        else:
+            raise AssertionError(f"accepted {bad!r}")
+
+
 def t_equations_block_touching_text_is_flagged():
     """A382 shipped two blocks whose closing `$$` ran straight into prose, so kramdown
     rendered them inline and their tags became MathJax errors."""
