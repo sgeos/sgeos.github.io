@@ -4,6 +4,52 @@
 
 ## Last Updated
 
+**Date**: 2026-10-30 (first entry)
+**Task**: **A1 to A305 and A310 to A368 were brought to the Equations section format. A306 to A309 are excluded. Thirteen local commits, `f7462dc` to `414ce27`, plus this report's commit, are NOT pushed and await the pilot's review of the classifications.**
+
+**Starting state, as verified.** `HANDOFF.md` was invalid and stale, because it names parent `80232a5` while `HEAD~1` was `1de076d`. `origin/master` was `573659c`, and its deploy completed successfully after 1 hour 52 minutes. The uncommitted library change was reviewed, passed 178 of 178 tests and is committed as `f7462dc`. All 75 prepared files in `tmp/eq2/` revalidated against the current posts. A1 to A289 were surveyed into `tmp/eq3/survey.txt`, which finds 158 articles with 3,330 display equations. Twelve further articles have no References heading and no display equation outside code, so they need no section.
+
+**What changed.** Every one of 233 articles numbers each display equation in its body and ends its body with a generated section before References, from `_sources/equations/AXXX.toml`. That is 8,122 equations, 5,468 standard and 2,654 bespoke.
+
+| Group | Articles | Equations | Standard | Bespoke | Commit |
+|---|---|---|---|---|---|
+| Facilities and wire formats | A293 to A296 | 160 | 134 | 26 | `1b3371c` |
+| X-Planes I | A297 to A305, A310 to A330 | 2,563 | 1,671 | 892 | `a94d8ff` |
+| X-Planes II | A331 to A368 | 1,839 | 1,189 | 650 | `45f255a` |
+| Standalone and intergalactic | 22 articles, A39 to A224 | 196 | 141 | 55 | `d521c95` |
+| Market makers, Las Vegas, reputation | A73, A91, A249, A277 to A280 | 317 | 149 | 168 | `3e8fa7c` |
+| UAV, SBIR, rescue drones, off-grid, patents | 37 articles, A112 to A172 | 260 | 187 | 73 | `9292f93` |
+| Two-dimensional projection | A173 to A187 | 340 | 334 | 6 | `5bf2316` |
+| Compilers, propellants, industrialisation, co-development | 41 articles, A188 to A248 | 293 | 204 | 89 | `81b9b20` |
+| Machines that learn from experience | A250 to A265 | 690 | 635 | 55 | `e682eee` |
+| Ethnoreligion | A266 to A276 | 613 | 572 | 41 | `98d966d` |
+| SpaceX history | A281 to A292 | 851 | 252 | 599 | `b0022c2` |
+
+**A decision for the pilot, already applied.** A42 gained one blank line before the display block at its line 142, the same defect the previous report left for the pilot's word. Without it the block renders inline and its tag is a MathJax error, and `equations.py check` refuses the article. The blank line changes neither the equation nor the prose. Reverting it means reverting A42's migration as well. A331, A332 and A334 each gained the one blank line the goal named.
+
+**Classification method.** The A1 to A289 files were drafted by eleven agents under `tmp/eq3/BRIEF.md`, which is `tmp/eq2/BRIEF.md` with additions for older articles. Every file was then revalidated, scanned for the prose rules, and checked for symbols keyed differently across a split series. Thirteen symbols that mean the same quantity across the machines and SpaceX series were given one wording each, by `tmp/eq3/harmonise.py`. Letters reused for different quantities were left as each article's key states them, and `tmp/eq3/notation_compare.txt` lists them. The per-batch notation tables are `tmp/eq3/notation_*.md`.
+
+**Classifications most worth the pilot's review.** The 2D projection series is almost entirely standard, because its worked examples use illustrative values rather than assumptions about the world. The ethnoreligion series treats sourced historical figures and arithmetic on them as standard. The SpaceX series is mostly bespoke, because its framework indices are the article's own. A41's fourteen parametric curves are all bespoke as the author's constructions. Each batch's least certain entries are in the agents' reports, summarised in `tmp/eq3/FINDINGS.md`.
+
+**Article errors, reported and not fixed.** `tmp/eq2/FINDINGS.md` covers A290 to A368 and `tmp/eq3/FINDINGS.md` covers A1 to A289. They are the classifying agents' claims, several from recollection, and none was checked by the lead session. Among the higher-confidence items are A101's energy and diffraction figures, which are ten and one thousand times too large, A187 Equation 13, which is not the inverse of Equation 9, A322 Equations 40 to 42, A312 Equation 19, A343's omitted fuel reserve, and several label and anchor mismatches such as A281 line 258.
+
+**Two items to check, reported and not fixed.**
+- **Rouge 3.30 to 4.7.** Every fenced and `highlight` block in `_posts` was highlighted with both versions, using `tmp/rouge/highlight.rb`. Of 988 blocks, 47 differ, mostly TOML, HTML and JavaScript. No block changes lexer, and the same languages, chiefly `keleusma`, have no lexer in either version. Each newly emitted token class is styled or unstyled exactly as the class it replaces, so the change recolours those blocks and breaks none. This was a source comparison, and no block was compared visually.
+- **A368 underscores.** Yes. Its 26 display equations that write `\_` render a literal underscore glyph followed by plain text, with no subscript element in the MathJax output. The section reproduces them exactly, so it carries the same defect.
+
+**Verification.**
+- `equations.py check` reports all 233 articles consistent, and every display equation in them carries a tag.
+- `tmp/eq2/audit.py` confirms that each post differs from its pre-migration text only by unfolded line breaks, tag lines, the four blank lines above and the generated section.
+- Headless Chrome over a local production build, one page or more per group, A42, A157, A178, A237, A252, A271, A278, A288, A294, A305, A331, A332, A334 and A368. Each draws exactly twice as many numbered equations as it has, one in the body and one in the section, with no MathJax error and no unrendered `\tag`.
+- `./_check.sh --weights` passed the build and the rendered audit, 551 pages with no findings. Its verifier stage raised two word-frequency warnings caused by generated glosses in A193 and A321, which `414ce27` reworded. The final gate on the committed tree is recorded under Verification addendum below.
+- **Page weight.** The heaviest migrated pages are A340 at 4.6 MB, A357 at 4.1 MB and A341 at 3.9 MB. Their sections add 19 to 27 KB of source, and the largest section, A305's at 64 KB, sits on a 3.3 MB page.
+
+**Environment.** `_verify.py` took 56 minutes on this machine, because `sources.check_article` reloads the 154 MB of `_sources/records` for every post. The library documentation still describes it as finishing in seconds. Headless Chrome needs the sandbox disabled. The local bundle predated the Rouge update, and `bundle install` added Rouge 4.7.
+
+**Push.** Nothing from this session is pushed. Pushing needs the pilot's word after the review of the classifications.
+
+## Previous Report (2026-10-29, first entry)
+
 **Date**: 2026-10-29 (first entry)
 **Task**: **A369 to A383 were brought to the Equations section format, and `8d45192`, which applied it to A384, was pushed and deployed. The pilot reviewed and approved the classifications. Pushed on the pilot's instruction.**
 
