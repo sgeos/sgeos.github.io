@@ -11,6 +11,43 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `72019fc`
+- **Written**: 2026-10-30, by the Equations section and CI line, before the open-items cleanup the pilot asked for.
+  This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `72019fc...` for this handoff to
+  be valid. A second handoff is due when the cleanup lands. If that one is missing, this one is stale.
+- **Tree at write**: clean apart from untracked scratch under `tmp/`, which is gitignored.
+- **PUSH STATE.** `origin/master` is `72019fc`. CI and the Pages deploy both passed on it.
+- **PUBLICATION STATE.** A1 to A384 are published. The next free article number is **A385**. No draft is in flight.
+- **WHAT THIS LINE DID.** It added a generated Equations section to A1 to A305 and A310 to A368. That is 233
+  articles, 8,122 equations, from `_sources/equations/AXXX.toml`. **A306 to A309 are excluded and still lack it.**
+  The pilot will take them up after the cleanup. It also implemented the CI runner audit, which cut `_verify.py`
+  from 56 minutes to about one, cached failed downloads, and gated the scheduled build. Finally it added the
+  required-check workflow `.github/workflows/ci.yml`. `REVERSE_PROMPT.md` has the detail.
+- **ROUTE TO MASTER.** Push the commit to `ci/<topic>`, wait for `CI result` to pass, fast-forward `master` to the
+  same commit, then delete the branch. `_docs/process/GIT_STRATEGY.md` has the commands. **The ruleset that enforces
+  this is not yet applied.** Ruleset 25968556 holds only `deletion` and `non_fast_forward`. The operator applies the
+  `required_status_checks` rule. An agent does not change the ruleset. Pushing and `gh` need
+  `dangerouslyDisableSandbox`.
+- **OPEN ITEMS AT WRITE, which the cleanup addresses.**
+  1. The build job timeout is 60 minutes. A warm deploy measured 7m45s.
+  2. The local branch `backup/pre-email-rewrite` holds the commits before the email rewrite. It is no longer
+     needed.
+  3. 94 posts fail PDF generation in CI. Their failures are cached, so the build skips them, but readers get no PDF.
+  4. A368 writes 26 display subscripts as `\_`, which renders a literal underscore.
+  5. The classifying agents' claimed article errors exist only in the gitignored `tmp/eq2/FINDINGS.md` and
+     `tmp/eq3/FINDINGS.md`. None has been checked, and several rest on recollection.
+- **EQUATIONS TOOLING.** Use `python3 _lib/blog.py equations`, never hand edits, for tags and sections. Any change
+  to a body equation is followed by regenerating that article's section, and `equations.py check` must stay clean.
+  The scratch tools are `tmp/eq2/apply.sh DIR N...`, `tmp/eq2/audit.py`, which takes a `BASE=<ref>` environment
+  variable, and `tmp/eq3/inspect.sh`, which drives headless Chrome and needs the sandbox off. The classification
+  brief is `tmp/eq3/BRIEF.md`.
+- **HAZARDS.** Commit with explicit paths, never `git add -A`. No `Co-Authored-By` trailer. Never put the user's
+  email in a request. Do not edit tracked posts or `_sources/equations/` while a pre-push hook runs. Never run
+  `./_check.sh --drafts`.
+
+## Validity (superseded, written 2026-10-24, parent `80232a5`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `80232a5`
 - **Written**: 2026-10-24, by the A381 to A384 line (the space studies set), after the process phrasing and primary
   source pass was committed as `80232a5`. This file's own commit sits directly on top, so `git rev-parse HEAD~1`
