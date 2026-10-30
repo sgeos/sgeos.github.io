@@ -12,6 +12,7 @@ require 'tempfile'
 require 'date'
 require 'digest'
 require 'open3'
+require 'etc'
 require_relative '_lib/pandoc_input'
 
 POSTS_DIR   = File.expand_path('_posts', __dir__)
@@ -180,20 +181,26 @@ end
 # v2, 2026-10-30: the reader and the mathematics rewrites changed, see `reader`.
 CACHE_VERSION = 'v2'
 
-pdf_ok = 0
-epub_ok = 0
-skipped = 0
-cached  = 0
-failed  = []
-cached_failures = 0
-# Failure markers to write once the run is known not to be systemic, see the end.
-new_failures = []
+# POSTS ARE CONVERTED IN PARALLEL, one worker thread per processor. Each
+# conversion is a pandoc or XeLaTeX child process, so the threads spend their
+# time waiting and Ruby's global lock does not serialise the work. One process
+# took 32 minutes for the whole corpus while 94 PDFs failed fast, and more than
+# 52 once they rendered, which a 60-minute job limit cancelled before the cache
+# was saved. Each worker counts into its own hash, merged after every worker has
+# finished, so no counter is shared. Each post writes only its own output, cache
+# and marker files. DOWNLOADS_JOBS overrides the worker count.
+jobs = Integer(ENV.fetch('DOWNLOADS_JOBS', Etc.nprocessors.to_s))
+raise ArgumentError, "DOWNLOADS_JOBS must be at least 1, got #{jobs}" if jobs < 1
 
-Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
+new_stats = lambda do
+  { pdf_ok: 0, epub_ok: 0, skipped: 0, cached: 0, cached_failures: 0, failed: [], new_failures: [] }
+end
+
+process_post = lambda do |path, st|
   basename = File.basename(path, '.markdown')
   fm, raw_body = parse_front_matter(File.read(path))
   unless fm && url_map[basename]
-    skipped += 1
+    st[:skipped] += 1
     next
   end
   info = slug_and_date(basename)
@@ -207,7 +214,7 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
   unless Dir.exist?(out_dir)
     # The directory came from a file Jekyll emitted, so this should be
     # unreachable. Skip rather than guess if it ever is not.
-    skipped += 1
+    st[:skipped] += 1
     next
   end
 
@@ -229,25 +236,25 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
   hit_epub = File.exist?(cached_epub)
   if hit_pdf
     FileUtils.cp(cached_pdf, pdf_out)
-    pdf_ok += 1
-    cached += 1
+    st[:pdf_ok] += 1
+    st[:cached] += 1
   end
   if hit_epub
     FileUtils.cp(cached_epub, epub_out)
-    epub_ok += 1
-    cached += 1
+    st[:epub_ok] += 1
+    st[:cached] += 1
   end
   failed_pdf_marker  = File.join(CACHE_DIR, "#{fingerprint}-#{TOOLCHAIN}.pdf.failed")
   failed_epub_marker = File.join(CACHE_DIR, "#{fingerprint}-#{TOOLCHAIN}.epub.failed")
   known_bad_pdf  = have_xelatex && !hit_pdf && File.exist?(failed_pdf_marker)
   known_bad_epub = !hit_epub && File.exist?(failed_epub_marker)
   if known_bad_pdf
-    failed << "#{basename} (pdf, cached failure)"
-    cached_failures += 1
+    st[:failed] << "#{basename} (pdf, cached failure)"
+    st[:cached_failures] += 1
   end
   if known_bad_epub
-    failed << "#{basename} (epub, cached failure)"
-    cached_failures += 1
+    st[:failed] << "#{basename} (epub, cached failure)"
+    st[:cached_failures] += 1
   end
   if (hit_pdf || known_bad_pdf || !have_xelatex) && (hit_epub || known_bad_epub)
     next
@@ -320,11 +327,11 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
       if hit_pdf || known_bad_pdf
         # already placed from cache, or already known to fail
       elsif system(*pdf_cmd)
-        pdf_ok += 1
+        st[:pdf_ok] += 1
         FileUtils.cp(pdf_out, cached_pdf) if File.exist?(pdf_out)
       else
-        failed << "#{basename} (pdf)"
-        new_failures << failed_pdf_marker
+        st[:failed] << "#{basename} (pdf)"
+        st[:new_failures] << failed_pdf_marker
       end
     end
 
@@ -338,16 +345,39 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
     if hit_epub || known_bad_epub
       # already placed from cache, or already known to fail
     elsif system(*epub_cmd)
-      epub_ok += 1
+      st[:epub_ok] += 1
       FileUtils.cp(epub_out, cached_epub) if File.exist?(epub_out)
     else
-      failed << "#{basename} (epub)"
-      new_failures << failed_epub_marker
+      st[:failed] << "#{basename} (epub)"
+      st[:new_failures] << failed_epub_marker
     end
   ensure
     tmp.unlink
   end
 end
+
+queue = Queue.new
+Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each { |path| queue << path }
+queue.close
+workers = Array.new(jobs) do
+  Thread.new do
+    st = new_stats.call
+    while (path = queue.pop)
+      process_post.call(path, st)
+    end
+    st
+  end
+end
+totals = workers.map(&:value)
+
+pdf_ok          = totals.sum { |t| t[:pdf_ok] }
+epub_ok         = totals.sum { |t| t[:epub_ok] }
+skipped         = totals.sum { |t| t[:skipped] }
+cached          = totals.sum { |t| t[:cached] }
+cached_failures = totals.sum { |t| t[:cached_failures] }
+failed          = totals.flat_map { |t| t[:failed] }.sort
+# Failure markers to write once the run is known not to be systemic, see the end.
+new_failures    = totals.flat_map { |t| t[:new_failures] }
 
 puts "[_downloads.rb] pdf=#{pdf_ok} epub=#{epub_ok} cached=#{cached} skipped=#{skipped} failed=#{failed.size} cached_failures=#{cached_failures}"
 unless failed.empty?

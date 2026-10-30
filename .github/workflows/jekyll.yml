@@ -89,13 +89,16 @@ jobs:
     if: needs.gate.outputs.build == 'true'
     runs-on: ubuntu-latest
     # GitHub's default is 360 minutes, which let one regression hold a shared runner
-    # for 90 minutes a build unnoticed. A warm build is estimated at about 10
-    # minutes. A build that regenerates most downloads, as the first one after the
-    # Equations section migration will, is estimated at up to 45, because the
-    # failing PDFs are retried once before their failures are cached. A timeout
-    # would cancel that build before it caches anything, so the limit is 60 and
-    # should come down to about 30 once a warm build has been measured.
-    timeout-minutes: 60
+    # for 90 minutes a build unnoticed. A warm build measured 7m45s on 2026-10-30.
+    # A cold one regenerates every download, which happens whenever
+    # `_downloads.rb`, its CACHE_VERSION or the toolchain changes. Run serially,
+    # that exceeded 52 minutes once the 94 failing PDFs were fixed, and this limit,
+    # then 60, cancelled it before the downloads cache was saved, so the next run
+    # started cold again. `_downloads.rb` now converts posts on every processor,
+    # four on a hosted runner. 45 minutes covers a cold build with margin. A limit
+    # that cancels a cold build repeats the cancellation on every run, so measure
+    # one before lowering this further.
+    timeout-minutes: 45
     # configure-pages reads the site's Pages settings, and nothing in this job writes.
     permissions:
       contents: read
