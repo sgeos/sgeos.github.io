@@ -4,6 +4,49 @@
 
 ## Last Updated
 
+**Date**: 2026-10-30 (second entry)
+**Task**: **Every open item from the first entry is addressed, so that A306 to A309 can be taken up next. The pilot asked for the handoff to be in order before and after the work. It was restamped at `72019fc` as `7ccf4b1` and is restamped again by the commit after this report. Pushed through `ci/<topic>` branches as `GIT_STRATEGY.md` describes.**
+
+**Required check, also done today.** `.github/workflows/ci.yml` runs `./_check.sh` and the workflow linters on every push, and its `CI result` job is the check the ruleset should require. `master` was fast-forwarded to `72019fc` after `CI result` passed. **The ruleset is not yet changed.** Ruleset 25968556 holds only `deletion` and `non_fast_forward`. Adding `required_status_checks` for `CI result` from GitHub Actions, integration 15368, is the operator's step. Until then the route to `master` is a convention rather than a rule.
+
+**The 94 missing PDFs.** Every failure was pandoc reading a post's mathematics differently from kramdown and MathJax.
+- 67 posts. `tex_math_single_backslash` read the escaped citation brackets `\[[Label][anchor]\]` as display mathematics. The extension is dropped, because kramdown renders `\[` as a bracket.
+- 20 posts. `$\pi^\*$` keeps its backslash in pandoc but not in kramdown. `\*` and `\_` are unescaped inside inline mathematics.
+- 3 posts. MathJax accepts `$ B $` and pandoc does not. The inner whitespace is removed when the content is TeX, never from prices such as `$400 to $5,000`.
+- 1 post each. `^{{2}}` is Liquid for `^2`, and `\llbracket` needed a LaTeX shim.
+- 3 more, found on the next deploy. Control characters, U+0002 and U+007F, in three source records. The records are corrected with notes, and `validate_record` now refuses control characters.
+
+The rewrites live in `_lib/pandoc_input.rb` with 14 tests run by `_check.sh`. They change 743 lines in 72 posts, all inside inline mathematics. Pandoc and TeX are not installed locally, and downloading pandoc was declined, so the fix was checked against the CI log's error for each of the 94 posts and is proven only by the deploy.
+
+**Build time, and the result.** Two deploys were cancelled before the fix landed, and the live site stayed on the earlier build meanwhile. The first deploy after the fix regenerated every download serially, ran past 52 minutes and was cancelled by the 60-minute limit. Because a cancelled job never saves its cache, every later run would have started cold. Parallel conversion on four workers still ran past the new 45-minute limit, because single X-Planes PDFs take up to 10 minutes, the slowest being A321. So `_downloads.rb` now stops starting conversions after an 18-minute budget and defers the remaining posts. The workflow restores the cache before the step and saves it after, whenever the run generated anything.
+- **First budgeted deploy, `6ae8172`.** A 30-minute build converted 103 posts with no failure, deferred 281 and saved the cache.
+- **Second deploy, dispatched by hand.** A 19.5-minute build converted the remaining 281.
+- **Result.** **pdf=384 epub=384 failed=0 deferred=0.** The live A298 and A368 PDFs return 200.
+- **Limits.** The build limit is 45 minutes and a warm build measured 7m45s. The limit could come down to about 30 once a warm deploy under the new layout is measured.
+
+**Article errors.** Eight agents checked each claim in `tmp/eq2/FINDINGS.md` and `tmp/eq3/FINDINGS.md` against its article under `tmp/findings/BRIEF.md`. The pilot chose to fix what the article itself settles and track the rest.
+
+| Verdict | Claims |
+|---|---|
+| Fixed, in 93 articles | 152 |
+| Refuted | 42 |
+| Confirmed, needs a judgement | 52 |
+| Needs a source | 49 |
+
+Each fix that changed a value also changed the values derived from it in the same article, and every changed article had its Equations section restamped and regenerated. A248, A282 and A291 received three further checkable corrections found while working. Two source records were corrected, the Pew 2013 page whose author was a scraped "No Author", and the Dallas Charter, which a label-derived title attributed to the Southern Baptist Convention although its URL is the USCCB charter. **The 101 unfixed items are tracked in `_docs/process/ARTICLE_ERRATA.md`**, with what each fix involves, plus ten observations the agents made outside the claims.
+
+**Fixes worth the pilot's glance.** A237 now says Minuteman is intercontinental, from a standard fact rather than a source in the repository. A236 Equation 2 now starts from A233's 2024 ratio of 0.20, because A236 states none. A297 and A298 damping ratios change `$Z_w/V$`, which has units, to `$Z_\alpha/V$`, as A301 writes it. A101's energies fall tenfold and its kill-vehicle comparison from 15 seconds to 1.4 milliseconds of solar output. Each batch report is in `tmp/findings/out/`, which is gitignored.
+
+**A368 underscores.** Its 65 display subscripts written as `\_` now read `_`. Headless Chrome draws 142 subscripts on the page and no underscore glyph. A303 `q''` and A368 `J'` gained notation key entries.
+
+**Housekeeping.** `backup/pre-email-rewrite` and the `refs/original` left by `filter-branch` are deleted, after confirming that all 14 of their trees are on `origin/master`.
+
+**Verification.** `./_check.sh` passes with 0 errors and 0 warnings, 178 and 94 library tests and 14 Ruby tests pass, and the rendered audit of 551 pages has no findings. Headless Chrome over a production build shows every equation number twice and no MathJax error on A42, A101, A187, A252, A264, A278, A303, A312, A362 and A368. A batch collision overwrote two agents' edits files for A261 to A263. Both rewrote theirs under distinct names before anything was applied.
+
+**Not done.** The ruleset change, which is the operator's. A306 to A309, next by the pilot's word. The `tmp/a368/ledgercheck.py` scratch tool still reads `_drafts/` and no longer runs against the published series. None of the fixes touched the categorical facts its ledger quotes.
+
+## Previous Report (2026-10-30, first entry)
+
 **Date**: 2026-10-30 (first entry)
 **Task**: **A1 to A305 and A310 to A368 were brought to the Equations section format. A306 to A309 are excluded. Thirteen local commits, `861c318` to `a122b33`, this report's commit `8753a65` and the CI commit that follows it are NOT pushed and await the pilot's review of the classifications. The continuous integration (CI) runner audit was implemented first, at the pilot's instruction.**
 
