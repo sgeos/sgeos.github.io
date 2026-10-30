@@ -11,6 +11,60 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `a313d77`
+- **Written**: 2026-10-30, by the Equations section and CI line, after the open-items cleanup the pilot asked for.
+  This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `a313d77...` for this handoff to
+  be valid.
+- **Tree at write**: clean apart from untracked scratch under `tmp/`, which is gitignored.
+- **PUSH STATE.** `origin/master` is `6ae8172`. `a313d77`, which only touches `_docs/`, and this file's commit go
+  through a `ci/<topic>` branch next. The Pages workflow ignores `_docs/**`, so they trigger CI and no deploy.
+- **PUBLICATION STATE.** A1 to A384 are published. The next free article number is **A385**. No draft is in flight.
+- **ALL OPEN ITEMS FROM THE PREVIOUS ENTRY ARE CLOSED.** `REVERSE_PROMPT.md`, second entry of 2026-10-30, has the
+  detail. In short:
+  - all 384 PDFs and EPUBs build, `failed=0`;
+  - the downloads run in parallel under an 18-minute budget that saves partial progress, and the build limit is 45;
+  - 152 checked article errors are fixed and 42 refuted;
+  - the 101 that need a judgement or a source are in `_docs/process/ARTICLE_ERRATA.md`;
+  - A368's `\_` subscripts are fixed;
+  - the backup branch is gone.
+- **NEXT, BY THE PILOT'S WORD.** Bring **A306 to A309** to the Equations section format, the last articles without
+  one. Their classification batch was never delivered. A subagent's writes were refused partway through, and it
+  asked the lead to run its unreviewed script, which was declined. So start from nothing:
+  1. Survey them as `tmp/eq3/survey.txt` did.
+  2. Generate skeletons with `python3 _lib/equations.py skeleton POST`.
+  3. Classify under `tmp/eq3/BRIEF.md`. Read `_docs/writing/EQUATIONS_SECTION.md` first, and keep notation
+     consistent with the neighbouring X-Planes articles A305 and A310, whose files are in `_sources/equations/`.
+  4. Apply with `tmp/eq2/apply.sh`, audit with `tmp/eq2/audit.py`, inspect with `tmp/eq3/inspect.sh`, then run
+     `./_check.sh`.
+  5. Present the classifications to the pilot before pushing.
+
+  A307 writes mission range both as `R_{\text{mission}}` and `R_{m}`. A306 Eqs 4 and 105 have claimed errors, a
+  standard-error wording and a root bending moment that may be twice too high, which nobody has checked.
+- **STILL OPEN, NOT THIS LINE'S TO CLOSE.**
+  - The ruleset change that makes `CI result` required is the operator's. Ruleset 25968556 holds only `deletion`
+    and `non_fast_forward`.
+  - The build limit could drop to about 30 once a warm deploy is measured under the budget layout.
+  - `tmp/a368/ledgercheck.py` still reads `_drafts/` and no longer runs against the published series.
+- **METHOD RULES THIS LINE EARNED.**
+  - **A cancelled CI job saves nothing.** A cache saved in a post step is lost when the job limit cancels the run,
+    so a too-tight limit repeats its own cancellation forever. Bound the work, not just the job.
+  - **Parallel subagents must never share output filenames.** Two batches wrote the same edits files for A261 to
+    A263 and silently overwrote each other. Give each agent a file infix or its own folder.
+  - **Citation labels come from the source records.** An edit to an in-text label fails `_verify.py` as
+    `sources-drift`. Fix the record, with a dated note, then run `sources.py fix-labels` and `write`.
+  - **Pandoc is not the site's renderer.** A download defect is a divergence from kramdown plus MathJax, so the fix
+    belongs in `_lib/pandoc_input.rb` with a test, never in the post.
+- **EQUATIONS TOOLING.** Use `python3 _lib/blog.py equations`, never hand edits, for tags and sections. After a
+  body equation changes, review its entry, `stamp`, then `write`. `equations.py check` must stay clean. A notation
+  `tex` holding a single quote needs a TOML basic string, as A303 `q''` and A368 `J'` now use.
+- **HAZARDS.** Commit with explicit paths, never `git add -A`. No `Co-Authored-By` trailer. Never put the user's
+  email in a request. The pre-push hook verifies the working tree rather than the pushed commit, so do not edit
+  tracked posts or `_sources/` while it runs. A fast-forward of a commit CI has already passed may use
+  `--no-verify` when the working tree holds unrelated edits. Never run `./_check.sh --drafts`.
+
+## Validity (superseded, written 2026-10-30 before the cleanup, parent `72019fc`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `72019fc`
 - **Written**: 2026-10-30, by the Equations section and CI line, before the open-items cleanup the pilot asked for.
   This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `72019fc...` for this handoff to
