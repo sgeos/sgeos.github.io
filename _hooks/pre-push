@@ -1,9 +1,11 @@
 #!/bin/sh
 # pre-push: run the corpus invariant checks before anything reaches the remote.
 #
-# _verify.py takes about three seconds. A CI rejection takes about seventeen
-# minutes, because the deploy installs a TeX toolchain and regenerates
-# downloads. Catching a defect here is worth the three seconds.
+# _verify.py takes about a minute, most of it checking the 372 articles whose
+# References sections are generated from the 154 MB source database. It took
+# about fifty minutes before 2026-10-30, when the database was reloaded for each
+# post, and this comment still claimed three seconds. A CI rejection takes far
+# longer, because the deploy installs a TeX toolchain and regenerates downloads.
 #
 # Enable once per clone:
 #     git config core.hooksPath _hooks

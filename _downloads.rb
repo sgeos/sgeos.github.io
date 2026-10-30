@@ -11,6 +11,7 @@ require 'fileutils'
 require 'tempfile'
 require 'date'
 require 'digest'
+require 'open3'
 
 POSTS_DIR   = File.expand_path('_posts', __dir__)
 # Content-addressed cache of generated downloads. Regenerating all 293 posts
@@ -50,6 +51,27 @@ end
 
 have_xelatex = have?('xelatex')
 warn '[_downloads.rb] xelatex not installed; PDF generation will be skipped.' unless have_xelatex
+
+# The first line of a tool's `--version`, without a shell.
+def tool_version(cmd)
+  out, status = Open3.capture2e(cmd, '--version')
+  status.success? ? out.lines.first.to_s.strip : "#{cmd} version unknown"
+rescue SystemCallError
+  "#{cmd} unavailable"
+end
+
+# FAILURES ARE CACHED TOO, keyed on the toolchain as well as the content.
+#
+# Only successes were cached before, so the 94 posts whose PDFs fail on their
+# mathematics ran pandoc and XeLaTeX again on every build, which took this step
+# from under 2 minutes to 14 to 31. A failure is now remembered under the post's
+# fingerprint plus this toolchain identity. An unchanged post with a remembered
+# failure is skipped and still listed as failed. A changed post has a new
+# fingerprint, and a new pandoc or TeX version a new identity, so either retries
+# without invalidating the cached successes.
+TOOLCHAIN = Digest::SHA256.hexdigest(
+  [tool_version('pandoc'), have_xelatex ? tool_version('xelatex') : 'no xelatex'].join("\x00")
+)[0, 16]
 
 def parse_front_matter(content)
   m = content.match(/\A---\s*\n(.*?)\n---\s*\n(.*)/m)
@@ -159,6 +181,9 @@ epub_ok = 0
 skipped = 0
 cached  = 0
 failed  = []
+cached_failures = 0
+# Failure markers to write once the run is known not to be systemic, see the end.
+new_failures = []
 
 Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
   basename = File.basename(path, '.markdown')
@@ -208,7 +233,19 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
     epub_ok += 1
     cached += 1
   end
-  if (hit_pdf || !have_xelatex) && hit_epub
+  failed_pdf_marker  = File.join(CACHE_DIR, "#{fingerprint}-#{TOOLCHAIN}.pdf.failed")
+  failed_epub_marker = File.join(CACHE_DIR, "#{fingerprint}-#{TOOLCHAIN}.epub.failed")
+  known_bad_pdf  = have_xelatex && !hit_pdf && File.exist?(failed_pdf_marker)
+  known_bad_epub = !hit_epub && File.exist?(failed_epub_marker)
+  if known_bad_pdf
+    failed << "#{basename} (pdf, cached failure)"
+    cached_failures += 1
+  end
+  if known_bad_epub
+    failed << "#{basename} (epub, cached failure)"
+    cached_failures += 1
+  end
+  if (hit_pdf || known_bad_pdf || !have_xelatex) && (hit_epub || known_bad_epub)
     next
   end
 
@@ -268,13 +305,14 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
                  '-V', 'urlcolor=RoyalBlue',
                  *common_meta,
                  '-o', pdf_out]
-      if hit_pdf
-        # already placed from cache
+      if hit_pdf || known_bad_pdf
+        # already placed from cache, or already known to fail
       elsif system(*pdf_cmd)
         pdf_ok += 1
         FileUtils.cp(pdf_out, cached_pdf) if File.exist?(pdf_out)
       else
         failed << "#{basename} (pdf)"
+        new_failures << failed_pdf_marker
       end
     end
 
@@ -285,20 +323,21 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
                 '--mathml',
                 *common_meta,
                 '-o', epub_out]
-    if hit_epub
-      # already placed from cache
+    if hit_epub || known_bad_epub
+      # already placed from cache, or already known to fail
     elsif system(*epub_cmd)
       epub_ok += 1
       FileUtils.cp(epub_out, cached_epub) if File.exist?(epub_out)
     else
       failed << "#{basename} (epub)"
+      new_failures << failed_epub_marker
     end
   ensure
     tmp.unlink
   end
 end
 
-puts "[_downloads.rb] pdf=#{pdf_ok} epub=#{epub_ok} cached=#{cached} skipped=#{skipped} failed=#{failed.size}"
+puts "[_downloads.rb] pdf=#{pdf_ok} epub=#{epub_ok} cached=#{cached} skipped=#{skipped} failed=#{failed.size} cached_failures=#{cached_failures}"
 unless failed.empty?
   warn "[_downloads.rb] failures: #{failed.join(', ')}"
 end
@@ -323,4 +362,11 @@ if attempted.positive?
     warn '[_downloads.rb] This indicates a broken toolchain rather than bad content. Failing the build.'
     exit 1
   end
+end
+
+# Remember this run's failures only now that it is known not to be systemic. A
+# broken toolchain fails every post, and caching those failures would make the
+# outage outlast its fix until the toolchain identity changed.
+new_failures.each do |marker|
+  File.write(marker, "#{TOOLCHAIN}\n")
 end

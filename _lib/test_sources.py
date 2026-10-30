@@ -243,6 +243,41 @@ def t_wrong_in_text_label_is_caught():
     assert any("should read [Doe 2020]" in e for e in S.check_text(full, recs, VENUES))
 
 
+def t_shared_store_and_index_give_the_same_result_and_stay_unchanged():
+    """_verify.py now hands one store and one index to every article check, because
+    reloading them per post took the CI verify step from 0.2 to about 50 minutes. That
+    is only sound if a check neither changes them nor answers differently with them."""
+    recs = _records()
+    body = ARTICLE.split("## References\n")[0]
+    good = body + S.generate(ARTICLE, recs, VENUES)
+    bad = good.replace("[Doe 2020]", "[Doe and Others 2020]")
+    before = copy.deepcopy(recs)
+    index = S.resolve_index(recs)
+    index_before = dict(index)
+    for text in (good, bad, good):
+        assert S.check_text(text, recs, VENUES, index=index) == S.check_text(text, recs, VENUES)
+    assert S.check_text(good, recs, VENUES, index=index) == []
+    assert S.check_text(bad, recs, VENUES, index=index), "a wrong label passed with a shared index"
+    assert recs == before and index == index_before
+    assert S.article_index(recs, None, index) is not index
+
+
+def t_front_matter_cache_rereads_an_edited_file():
+    """Front matter is cached by file version, so a post edited mid-run is read again."""
+    import tempfile
+    with tempfile.NamedTemporaryFile("w", suffix=".markdown", delete=False, dir=_SCRATCH) as fh:
+        fh.write('---\ntitle: "First"\ndate: 2020-01-01 00:00:00 +0000\ncategories: a b\n---\nText.\n')
+    try:
+        first = S._front_matter(fh.name)
+        first["title"] = "changed by a caller"
+        assert S._front_matter(fh.name)["title"] == "First"
+        with open(fh.name, "w", encoding="utf-8") as g:
+            g.write('---\ntitle: "Second title"\ndate: 2020-01-01 00:00:00 +0000\ncategories: a b\n---\nText.\n')
+        assert S._front_matter(fh.name)["title"] == "Second title"
+    finally:
+        os.remove(fh.name)
+
+
 def t_uncited_database_anchor_is_an_error():
     text = ARTICLE.replace("[research_doe_2020]", "[research_missing_2020]")
     raises(lambda: S.generate(text, _records(), VENUES), "not in the database")

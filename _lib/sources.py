@@ -37,6 +37,7 @@ Usage:
     python3 _lib/sources.py diff-labels PRE POST  # review what a conversion changed
 """
 
+import collections
 import datetime
 import glob
 import json
@@ -264,13 +265,19 @@ def load_prose_links(article, directory=None):
     return set(links)
 
 
-def article_index(records, article=None):
+def article_index(records, article=None, index=None):
     """`resolve_index`, overlaid with the article's own name map.
 
     The overlay wins, so an article whose `research_smith_2020` is a different
     work from the store's `research_smith_2020` resolves to its own.
+
+    A caller checking many articles against one unchanged store may pass
+    `index`, built once by `resolve_index(records)`, because rebuilding it costs
+    about a quarter of a second per call over the whole store. It is copied
+    before the overlay, so the shared index is never changed. The caller is
+    responsible for building it from the same `records` it passes.
     """
-    index = resolve_index(records)
+    index = resolve_index(records) if index is None else dict(index)
     for name, canon in load_article_map(article).items():
         if canon not in records:
             raise SourceError(f"{article_stem(article)}: {name} maps to {canon}, which is not stored")
@@ -718,7 +725,26 @@ def _month_day(iso):
 
 # --------------------------------------------------------------- related posts
 
+# READ ONCE PER FILE VERSION. A References section of 5,000 entries reads a related
+# post's front matter and `_config.yml` for every such entry, once to sort and once
+# to render, which was about 16,000 file reads per verify run. The cache is keyed on
+# path, modification time and size, so a file edited during a run is read again.
+_FILE_CACHE = {}
+
+
+def _cached(path, parse):
+    st = os.stat(path)
+    key = (path, parse.__name__, st.st_mtime_ns, st.st_size)
+    if key not in _FILE_CACHE:
+        _FILE_CACHE[key] = parse(path)
+    return dict(_FILE_CACHE[key])
+
+
 def _front_matter(path):
+    return _cached(path, _read_front_matter)
+
+
+def _read_front_matter(path):
     text = open(path, encoding="utf-8").read()
     m = post.FRONT_MATTER.match(text)
     if not m:
@@ -737,7 +763,11 @@ def _front_matter(path):
 
 
 def site_meta():
-    cfg = open(os.path.join(ROOT, "_config.yml"), encoding="utf-8").read()
+    return _cached(os.path.join(ROOT, "_config.yml"), _read_site_meta)
+
+
+def _read_site_meta(path):
+    cfg = open(path, encoding="utf-8").read()
 
     def field(k):
         m = re.search(rf"^{k}:\s*(.*?)\s*(#.*)?$", cfg, re.M)
@@ -921,11 +951,11 @@ def cited_anchors(body):
     return {a for _t, a in USE_RE.findall(body)}
 
 
-def generate(text, records=None, venues=None, posts_dir=POSTS, article=None):
+def generate(text, records=None, venues=None, posts_dir=POSTS, article=None, index=None):
     """The References section, heading included, for an article's current body."""
     records = load_records() if records is None else records
     venues = load_venues() if venues is None else venues
-    index = article_index(records, article)
+    index = article_index(records, article, index)
     body, _old = split_article(text)
     cited = cited_anchors(body)
     used = cited | load_listed(article)
@@ -939,9 +969,17 @@ def generate(text, records=None, venues=None, posts_dir=POSTS, article=None):
     suffix = year_suffixes(recs)
     # EACH ENTRY LINKS THROUGH A NAME THE ARTICLE USES, its canonical anchor when
     # the article uses that, so a mapped article's References carry its own names.
+    # The names are grouped by canonical anchor in one pass. Scanning `used` once per
+    # canonical anchor was quadratic and cost about a second for an article of
+    # 5,000 references, most of the verify step once the store was loaded once.
+    by_canon = collections.defaultdict(list)
+    for a in used:
+        ca, frag = index[a]
+        if frag is None:
+            by_canon[ca].append(a)
     via = {}
     for c in canon:
-        names = sorted(a for a in used if index[a] == (c, None))
+        names = sorted(by_canon.get(c, ()))
         via[c] = c if c in names or not names else names[0]
     out = ["## References", "", MARKER, ""]
     for sec in SECTIONS:
@@ -1009,14 +1047,14 @@ def survey_entries(body):
     return set(_SURVEY_ENTRY.findall(body))
 
 
-def label_errors(text, records=None, posts_dir=POSTS, article=None):
+def label_errors(text, records=None, posts_dir=POSTS, article=None, index=None):
     """In-text links whose author and year disagree with the database.
 
     Only author-based sources are checked. Wikipedia articles and related posts
     are cited by title in running prose and carry free link text.
     """
     records = load_records() if records is None else records
-    index = article_index(records, article)
+    index = article_index(records, article, index)
     body, _ = split_article(text)
     recs = [records[a] for a in sorted({index[a][0] for a in cited_anchors(body) if a in index})]
     suffix = year_suffixes(recs)
@@ -1148,22 +1186,22 @@ def label_changes(pre_text, post_text):
     return out, other
 
 
-def check_article(path, records=None, venues=None):
+def check_article(path, records=None, venues=None, index=None):
     """Errors for a converted article file. An unconverted article returns none."""
-    return check_text(open(path, encoding="utf-8").read(), records, venues, article=path)
+    return check_text(open(path, encoding="utf-8").read(), records, venues, article=path, index=index)
 
 
-def check_text(text, records=None, venues=None, posts_dir=POSTS, article=None):
+def check_text(text, records=None, venues=None, posts_dir=POSTS, article=None, index=None):
     """Errors for a converted article's text. An unconverted article returns none."""
     if MARKER not in text:
         return []
     errs = []
     try:
         body, refs = split_article(text)
-        want = generate(text, records, venues, posts_dir, article)
+        want = generate(text, records, venues, posts_dir, article, index)
         if "## References\n" + refs != want:
             errs.append("References section differs from the database; run `python3 _lib/sources.py write`")
-        for t, a, w in label_errors(text, records, posts_dir, article):
+        for t, a, w in label_errors(text, records, posts_dir, article, index):
             errs.append(f"in-text [{t}][{a}] should read [{w}]")
     except SourceError as e:
         errs.append(str(e))

@@ -17,6 +17,12 @@ name: Build and deploy Jekyll site to GitHub Pages
 on:
   push:
     branches: [master]
+    # A push that touches only process documentation changes nothing a reader
+    # sees, since `_docs/` is excluded from the build in `_config.yml`. The
+    # filter applies to the whole push, so a push that also touches a post
+    # still builds. The pre-push hook still runs `_verify.py` locally.
+    paths-ignore:
+      - "_docs/**"
   workflow_dispatch:
   # GitHub Pages builds on push, not on a timer, and the site sets
   # future: false. Without a scheduled run a forward-dated post stays a 404
@@ -40,14 +46,62 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  # A SCHEDULED RUN ONLY MATTERS WHEN A FORWARD-DATED POST HAS JUST COME DUE. The
+  # schedule exists for future: false, and while no post is dated today or
+  # yesterday in UTC it rebuilds an unchanged site, which cost 45 to 80
+  # runner-minutes a day in late October 2026. Yesterday is included because
+  # cron firing is best effort and has run as late as 06:00 UTC. Every other
+  # trigger builds unconditionally.
+  gate:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      build: ${{ steps.decide.outputs.build }}
+    steps:
+      - name: Checkout post filenames
+        if: github.event_name == 'schedule'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout: _posts
+      - name: Decide whether to build
+        id: decide
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" != "schedule" ]; then
+            echo "build=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          today=$(date -u +%F)
+          yesterday=$(date -u -d yesterday +%F)
+          if ls _posts | grep -q -E "^($today|$yesterday)-"; then
+            echo "build=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No post dated $today or $yesterday, so the scheduled build is skipped."
+            echo "build=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  build:
+    needs: gate
+    if: needs.gate.outputs.build == 'true'
+    runs-on: ubuntu-latest
+    # GitHub's default is 360 minutes, which let one regression hold a shared runner
+    # for 90 minutes a build unnoticed. A warm build is estimated at about 10
+    # minutes. A build that regenerates most downloads, as the first one after the
+    # Equations section migration will, is estimated at up to 45, because the
+    # failing PDFs are retried once before their failures are cached. A timeout
+    # would cancel that build before it caches anything, so the limit is 60 and
+    # should come down to about 30 once a warm build has been measured.
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      # Seconds of work, placed before the multi-minute toolchain install so a
-      # corpus defect fails fast instead of after a long build.
+      # About a minute of work, placed before the multi-minute toolchain install so
+      # a corpus defect fails fast instead of after a long build. The step limit is
+      # the regression guard. This step drifted from 0.2 to about 50 minutes in
+      # October 2026 without anything noticing, because nothing bounded it.
       - name: Verify corpus invariants
+        timeout-minutes: 5
         run: python3 _verify.py
       # The library's regression tests, one per shipped defect. Under a second,
       # no network, and every fixture is committed, so they run on a bare runner.

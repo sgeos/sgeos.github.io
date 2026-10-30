@@ -5,25 +5,25 @@
 ## Last Updated
 
 **Date**: 2026-10-30 (first entry)
-**Task**: **A1 to A305 and A310 to A368 were brought to the Equations section format. A306 to A309 are excluded. Thirteen local commits, `f7462dc` to `414ce27`, plus this report's commit, are NOT pushed and await the pilot's review of the classifications.**
+**Task**: **A1 to A305 and A310 to A368 were brought to the Equations section format. A306 to A309 are excluded. Thirteen local commits, `861c318` to `a122b33`, this report's commit `8753a65` and the CI commit that follows it are NOT pushed and await the pilot's review of the classifications. The continuous integration (CI) runner audit was implemented first, at the pilot's instruction.**
 
-**Starting state, as verified.** `HANDOFF.md` was invalid and stale, because it names parent `80232a5` while `HEAD~1` was `1de076d`. `origin/master` was `573659c`, and its deploy completed successfully after 1 hour 52 minutes. The uncommitted library change was reviewed, passed 178 of 178 tests and is committed as `f7462dc`. All 75 prepared files in `tmp/eq2/` revalidated against the current posts. A1 to A289 were surveyed into `tmp/eq3/survey.txt`, which finds 158 articles with 3,330 display equations. Twelve further articles have no References heading and no display equation outside code, so they need no section.
+**Starting state, as verified.** `HANDOFF.md` was invalid and stale, because it names parent `80232a5` while `HEAD~1` was `1de076d`. `origin/master` was `573659c`, and its deploy completed successfully after 1 hour 52 minutes. The uncommitted library change was reviewed, passed 178 of 178 tests and is committed as `861c318`. All 75 prepared files in `tmp/eq2/` revalidated against the current posts. A1 to A289 were surveyed into `tmp/eq3/survey.txt`, which finds 158 articles with 3,330 display equations. Twelve further articles have no References heading and no display equation outside code, so they need no section.
 
 **What changed.** Every one of 233 articles numbers each display equation in its body and ends its body with a generated section before References, from `_sources/equations/AXXX.toml`. That is 8,122 equations, 5,468 standard and 2,654 bespoke.
 
 | Group | Articles | Equations | Standard | Bespoke | Commit |
 |---|---|---|---|---|---|
-| Facilities and wire formats | A293 to A296 | 160 | 134 | 26 | `1b3371c` |
-| X-Planes I | A297 to A305, A310 to A330 | 2,563 | 1,671 | 892 | `a94d8ff` |
-| X-Planes II | A331 to A368 | 1,839 | 1,189 | 650 | `45f255a` |
-| Standalone and intergalactic | 22 articles, A39 to A224 | 196 | 141 | 55 | `d521c95` |
-| Market makers, Las Vegas, reputation | A73, A91, A249, A277 to A280 | 317 | 149 | 168 | `3e8fa7c` |
-| UAV, SBIR, rescue drones, off-grid, patents | 37 articles, A112 to A172 | 260 | 187 | 73 | `9292f93` |
-| Two-dimensional projection | A173 to A187 | 340 | 334 | 6 | `5bf2316` |
-| Compilers, propellants, industrialisation, co-development | 41 articles, A188 to A248 | 293 | 204 | 89 | `81b9b20` |
-| Machines that learn from experience | A250 to A265 | 690 | 635 | 55 | `e682eee` |
-| Ethnoreligion | A266 to A276 | 613 | 572 | 41 | `98d966d` |
-| SpaceX history | A281 to A292 | 851 | 252 | 599 | `b0022c2` |
+| Facilities and wire formats | A293 to A296 | 160 | 134 | 26 | `80412af` |
+| X-Planes I | A297 to A305, A310 to A330 | 2,563 | 1,671 | 892 | `8986aed` |
+| X-Planes II | A331 to A368 | 1,839 | 1,189 | 650 | `f86be8e` |
+| Standalone and intergalactic | 22 articles, A39 to A224 | 196 | 141 | 55 | `498163c` |
+| Market makers, Las Vegas, reputation | A73, A91, A249, A277 to A280 | 317 | 149 | 168 | `bed1c17` |
+| UAV, SBIR, rescue drones, off-grid, patents | 37 articles, A112 to A172 | 260 | 187 | 73 | `6f6ed90` |
+| Two-dimensional projection | A173 to A187 | 340 | 334 | 6 | `2a633ec` |
+| Compilers, propellants, industrialisation, co-development | 41 articles, A188 to A248 | 293 | 204 | 89 | `6097924` |
+| Machines that learn from experience | A250 to A265 | 690 | 635 | 55 | `bcabb33` |
+| Ethnoreligion | A266 to A276 | 613 | 572 | 41 | `1e3d008` |
+| SpaceX history | A281 to A292 | 851 | 252 | 599 | `440849d` |
 
 **A decision for the pilot, already applied.** A42 gained one blank line before the display block at its line 142, the same defect the previous report left for the pilot's word. Without it the block renders inline and its tag is a MathJax error, and `equations.py check` refuses the article. The blank line changes neither the equation nor the prose. Reverting it means reverting A42's migration as well. A331, A332 and A334 each gained the one blank line the goal named.
 
@@ -41,10 +41,18 @@
 - `equations.py check` reports all 233 articles consistent, and every display equation in them carries a tag.
 - `tmp/eq2/audit.py` confirms that each post differs from its pre-migration text only by unfolded line breaks, tag lines, the four blank lines above and the generated section.
 - Headless Chrome over a local production build, one page or more per group, A42, A157, A178, A237, A252, A271, A278, A288, A294, A305, A331, A332, A334 and A368. Each draws exactly twice as many numbered equations as it has, one in the body and one in the section, with no MathJax error and no unrendered `\tag`.
-- `./_check.sh --weights` passed the build and the rendered audit, 551 pages with no findings. Its verifier stage raised two word-frequency warnings caused by generated glosses in A193 and A321, which `414ce27` reworded. The final gate on the committed tree is recorded under Verification addendum below.
+- `./_check.sh --weights` passed the build and the rendered audit, 551 pages with no findings. Its verifier stage raised two word-frequency warnings caused by generated glosses in A193 and A321, which `a122b33` reworded. The final gate on the committed tree is recorded under Verification addendum below.
 - **Page weight.** The heaviest migrated pages are A340 at 4.6 MB, A357 at 4.1 MB and A341 at 3.9 MB. Their sections add 19 to 27 KB of source, and the largest section, A305's at 64 KB, sits on a 3.3 MB page.
 
-**Environment.** `_verify.py` took 56 minutes on this machine, because `sources.check_article` reloads the 154 MB of `_sources/records` for every post. The library documentation still describes it as finishing in seconds. Headless Chrome needs the sandbox disabled. The local bundle predated the Rouge update, and `bundle install` added Rouge 4.7.
+**Environment.** `_verify.py` took 56 minutes on this machine before the CI work below, because `sources.check_article` reloaded the 154 MB of `_sources/records` for every post. Headless Chrome needs the sandbox disabled. The local bundle predated the Rouge update, and `bundle install` added Rouge 4.7.
+
+**CI runner audit, implemented.** The pilot asked for `tmp/2026-10-30-ci-runner-audit.md` to be implemented before the push.
+- **Verify step.** `_verify.py` now loads the source store, venues and resolve index once and passes them to every article check, through a new optional `index` parameter in `sources.py`. Profiling then showed two further costs the audit had not named, which were also removed. `generate` matched each cited work against every anchor the article used, which is quadratic, and a 5,000-reference article spent about a second there. Related posts' front matter and `_config.yml` were reread for every entry, about 16,000 reads a run. Both are now linear or cached by file version. The verifier went from 56 minutes to 55 seconds of processor time on this machine, with 0 errors and 0 warnings. Because no article reports `sources-drift`, every stored References section is reproduced exactly. Two tests were added, 93 of 93 pass, and `test_lib.py` 178 of 178.
+- **Downloads.** `_downloads.rb` now caches a failed PDF or EPUB under the post's fingerprint and a hash of the pandoc and XeLaTeX versions. An unchanged failing post is skipped and still reported, a changed post or a new toolchain retries it, and failures are not cached from a run that fails systemically. Pandoc is not installed locally, so this was exercised with stub tools in `tmp/dltest/`, covering a cold cache, a warm cache, a toolchain change, a fixed post and a systemic failure. The 94 failing PDFs themselves were not fixed.
+- **Workflow.** A `gate` job lets a scheduled run build only when a post is dated today or yesterday in UTC. `_docs/**` is in `paths-ignore`. The build job has `timeout-minutes: 60`, set above the audit's 30 because the first build after this push regenerates most downloads, and the verify step has a 5-minute limit as the regression guard. `actionlint` is not installed, so the workflow was only parsed as YAML.
+- **Hook.** `_hooks/pre-push` no longer claims that `_verify.py` takes three seconds.
+
+**Commit email.** The global Git email changed to the GitHub noreply address after these commits were made. All fourteen unpushed commits were rewritten with `git filter-branch` to carry it as author and committer, with names, dates and trees unchanged. The previous history is kept at `backup/pre-email-rewrite`, which can be deleted after the push.
 
 **Push.** Nothing from this session is pushed. Pushing needs the pilot's word after the review of the classifications.
 

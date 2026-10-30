@@ -243,6 +243,25 @@ def prose_text(text):
     return "\n".join(body)
 
 
+_SOURCE_STORE = []
+
+
+def source_store():
+    """The source database, its venues and its resolve index, loaded once per run.
+
+    WHY THIS IS CACHED. `sources.check_article` loads the 154 MB store and rebuilds
+    its index when it is not handed them, and this script calls it for every
+    converted post. That cost about 2.5 seconds a post, which took the verify step
+    from 0.2 minutes to 36 to 52 minutes in CI by 2026-10-26 without anything
+    noticing. Nothing in this run writes to the store, so one copy serves every
+    post. It is loaded on first use, so a run with no converted post pays nothing.
+    """
+    if not _SOURCE_STORE:
+        records = sources.load_records()
+        _SOURCE_STORE.extend([records, sources.load_venues(), sources.resolve_index(records)])
+    return _SOURCE_STORE
+
+
 def check_post(path, text, rep, exemptions=None, is_draft=False):
     exemptions = exemptions or {}
     name = os.path.basename(path)
@@ -364,7 +383,8 @@ def check_post(path, text, rep, exemptions=None, is_draft=False):
     # one record every article shares. Unconverted articles carry no marker and
     # are not checked. See _docs/writing/CITATION_STYLE.md.
     if sources.MARKER in text:
-        for problem in sources.check_article(path):
+        records, venues, index = source_store()
+        for problem in sources.check_article(path, records, venues, index):
             rep.error("sources-drift", f"{name}: {problem}")
 
     # A generated Equations section must reproduce the body's display equations
