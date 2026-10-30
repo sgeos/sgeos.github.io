@@ -43,6 +43,7 @@ python3 _verify.py
 printf '\n== 1b. library regression tests ==\n'
 python3 _lib/test_lib.py
 python3 _lib/test_sources.py
+ruby _lib/test_pandoc_input.rb
 
 printf '\n== 2. build ==\n'
 if command -v bundle > /dev/null 2>&1 && [ -f Gemfile.lock ]; then

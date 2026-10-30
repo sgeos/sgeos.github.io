@@ -12,6 +12,7 @@ require 'tempfile'
 require 'date'
 require 'digest'
 require 'open3'
+require_relative '_lib/pandoc_input'
 
 POSTS_DIR   = File.expand_path('_posts', __dir__)
 # Content-addressed cache of generated downloads. Regenerating all 293 posts
@@ -156,7 +157,9 @@ def preprocess(body, url_map)
   # {% raw %} blocks wrap literal text; keep the contents, drop the markers.
   body = body.gsub(/\{%\s*raw\s*%\}(.*?)\{%\s*endraw\s*%\}/m) { Regexp.last_match(1) }
 
-  # Strip remaining Liquid statements and expressions.
+  # Strip remaining Liquid statements and expressions, after resolving numeric
+  # literals such as `^{{2}}` to the number Liquid renders on the site.
+  body = PandocInput.liquid_numbers(body)
   body = body.gsub(/\{%[\s\S]*?%\}/, '')
   body = body.gsub(/\{\{[\s\S]*?\}\}/, '')
   # Point site-absolute asset references at the built site on disk.
@@ -169,12 +172,13 @@ def preprocess(body, url_map)
   # Strip inline debug scripts and HTML comments.
   body = body.gsub(/<script[\s\S]*?<\/script>/i, '')
   body = body.gsub(/<!--[\s\S]*?-->/, '')
-  body.strip
+  PandocInput.inline_math(body).strip
 end
 
 # Bump when a change to this script alters generated output, to invalidate every
 # cache entry deliberately rather than by accident.
-CACHE_VERSION = 'v1'
+# v2, 2026-10-30: the reader and the mathematics rewrites changed, see `reader`.
+CACHE_VERSION = 'v2'
 
 pdf_ok = 0
 epub_ok = 0
@@ -254,7 +258,12 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
     tmp.write(body)
     tmp.close
 
-    reader = 'markdown+tex_math_dollars+tex_math_single_backslash+tex_math_double_backslash+raw_html'
+    # NO tex_math_single_backslash. Kramdown renders `\[` and `\(` as plain
+    # brackets, so on the site they are never mathematics, and the corpus uses
+    # `\[[Label][anchor]\]` around every survey citation. With the extension on,
+    # pandoc read each of those as display mathematics and XeLaTeX failed 67 posts.
+    # `\\[`, which kramdown renders as `\[`, is still mathematics on both.
+    reader = 'markdown+tex_math_dollars+tex_math_double_backslash+raw_html'
     common_meta = [
       '--metadata', "title=#{title}",
       '--metadata', "author=#{DEFAULT_AUTHOR}",
@@ -291,6 +300,9 @@ Dir.glob(File.join(POSTS_DIR, '*.markdown')).sort.each do |path|
         '-V', 'header-includes=\\providecommand{\\bbox}[2][]{#2}',
         '-V', 'header-includes=\\providecommand{\\lt}{<}',
         '-V', 'header-includes=\\providecommand{\\gt}{>}',
+        # MathJax defines the semantic brackets, LaTeX needs stmaryrd for them.
+        '-V', 'header-includes=\\providecommand{\\llbracket}{[\\![}',
+        '-V', 'header-includes=\\providecommand{\\rrbracket}{]\\!]}',
       ]
 
       pdf_cmd = ['pandoc', tmp.path,

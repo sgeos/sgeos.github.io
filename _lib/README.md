@@ -58,6 +58,8 @@ article-specific content alone.
 | `harvest.py` | The survey pipeline, harvest, select, master and assemble, driven by one TOML file per article | per-article `harvest`, `select`, `gen_master`, `assemble` |
 | `textscan.py` | Context search in saved source text and removal of references from wikitext | 4 `ctx.py`, 3 `clean.py` |
 | `test_lib.py` | Regression tests, one per shipped defect, plus anti-duplication guards | |
+| `pandoc_input.rb` | Ruby, used by `_downloads.rb`. Rewrites a post's inline mathematics so pandoc reads it as kramdown and MathJax do, which 94 PDFs failed on | nothing, the PDFs failed |
+| `test_pandoc_input.rb` | Its regression tests, run by `_check.sh` | |
 | `testdata/` | Committed fixtures: trimmed real Crossref records, a Wikipedia pin, a survey configuration with representative records, and a worked claims file for A384 | scratch data the tests once depended on |
 
 **The library reproduced its own defect within a day.** An audit found `fold` byte-identical in two
