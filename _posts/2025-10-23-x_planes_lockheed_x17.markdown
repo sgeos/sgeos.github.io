@@ -61,17 +61,26 @@ The [reference entry for the vehicle][ref_x17] gives the X-17 as a three-stage s
 
 The downward velocity the upper stages must supply follows from the rocket equation,
 
-$$\Delta v = I_{sp}\, g_0 \ln\frac{m_0}{m_1}$$
+$$
+\Delta v = I_{sp}\, g_0 \ln\frac{m_0}{m_1}
+\tag{1}
+$$
 
 and at a specific impulse of 235 seconds, assumed here as typical of solid motors of the period, the 2,339 metres per second computed below requires
 
-$$\frac{m_0}{m_1} = \exp\left(\frac{2{,}339}{235 \times 9.807}\right) = 2.759$$
+$$
+\frac{m_0}{m_1} = \exp\left(\frac{2{,}339}{235 \times 9.807}\right) = 2.759
+\tag{2}
+$$
 
 or **63.8 percent propellant by mass** in the descending stack. An ordinary solid motor reaches that fraction, so the architecture was practical as well as conceivable.
 
 The stage speeds Murphy and Rubesin give imply a somewhat larger increment than that lower bound. Converting their 5,000 and 13,000 feet per second,
 
-$$\Delta v_{\text{doc}} = (13{,}000 - 5{,}000) \times 0.3048 = 2{,}438\ \text{m/s}$$
+$$
+\Delta v_{\text{doc}} = (13{,}000 - 5{,}000) \times 0.3048 = 2{,}438\ \text{m/s}
+\tag{3}
+$$
 
 which is 4.2 percent above 2,339 and, at the same assumed specific impulse, a mass ratio of 2.881 or 65.3 percent propellant.
 
@@ -83,11 +92,17 @@ which is 4.2 percent above 2,339 and, at the same assumed specific impulse, a ma
 
 The standard model is used throughout, with pressure in the isothermal layer following
 
-$$p(z) = p_{11} \exp\left(-\frac{g_0 (z - z_{11})}{R T_{11}}\right)$$
+$$
+p(z) = p_{11} \exp\left(-\frac{g_0 (z - z_{11})}{R T_{11}}\right)
+\tag{4}
+$$
 
 and density from the ideal gas law,
 
-$$\rho = \frac{p}{R T}$$
+$$
+\rho = \frac{p}{R T}
+\tag{5}
+$$
 
 The two densities that matter below are $\rho = 0.008214$ kilogrammes per cubic metre at 35 kilometres, a representative intercontinental peak-heating altitude, and $\rho = 0.2278$ at 13.97 kilometres, where the X-17's condition lands.
 
@@ -95,51 +110,81 @@ The two densities that matter below are $\rho = 0.008214$ kilogrammes per cubic 
 
 The first thing to establish is that the downward stages were necessary and not merely convenient. A body released at apogee and allowed to fall converts height into speed, and neglecting drag entirely, an assumption generous to the falling case,
 
-$$v_{\text{ff}} = \sqrt{2 g \Delta h}$$
+$$
+v_{\text{ff}} = \sqrt{2 g \Delta h}
+\tag{6}
+$$
 
 Taking the top of the research range, 100 miles or 160.9 kilometres and the case most favourable to falling, a target altitude of 15 kilometres, and a mean gravitational acceleration over the fall of 9.72 metres per second squared assumed here,
 
-$$v_{\text{ff}} = \sqrt{2 \times 9.72 \times 145{,}900} = 1{,}684\ \text{m/s}$$
+$$
+v_{\text{ff}} = \sqrt{2 \times 9.72 \times 145{,}900} = 1{,}684\ \text{m/s}
+\tag{7}
+$$
 
 which is Mach 5.71. The 9,000 miles an hour reported for one flight is 4,023 metres per second, and this article uses it throughout as the representative X-17 speed, so the ratio in speed is
 
-$$\frac{v_{\text{achieved}}}{v_{\text{ff}}} = \frac{4{,}023}{1{,}684} = 2.389$$
+$$
+\frac{v_{\text{achieved}}}{v_{\text{ff}}} = \frac{4{,}023}{1{,}684} = 2.389
+\tag{8}
+$$
 
 **That factor of 2.4 in speed is not the interesting number. Convective heating goes as the cube of speed**, so the ratio that matters is
 
-$$\left(\frac{v_{\text{achieved}}}{v_{\text{ff}}}\right)^{3} = 2.389^{3} = 13.63$$
+$$
+\left(\frac{v_{\text{achieved}}}{v_{\text{ff}}}\right)^{3} = 2.389^{3} = 13.63
+\tag{9}
+$$
 
 **Firing the stages downward multiplies the heating rate by nearly fourteen.** A vehicle that merely fell from the same apogee would have produced less than a tenth of the thermal condition it was built to study, which would have been useless. The downward stages are not an enhancement of the experiment. They are the experiment.
 
 The velocity they must supply, over and above what gravity gives, is
 
-$$\Delta v = 4{,}023 - 1{,}684 = 2{,}339\ \text{m/s}$$
+$$
+\Delta v = 4{,}023 - 1{,}684 = 2{,}339\ \text{m/s}
+\tag{10}
+$$
 
 neglecting drag during the burn, which makes this a lower bound.
 
 The 4,023 metres per second is representative and not a measured peak, and the tabulated flights bracket it. The speed of sound in the isothermal stratosphere at 216.65 kelvin is
 
-$$a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05 \times 216.65} = 295.1\ \text{m/s}$$
+$$
+a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05 \times 216.65} = 295.1\ \text{m/s}
+\tag{11}
+$$
 
 which is within one percent of the value at 34,000 feet, the lowest altitude in the flight table discussed under the flight record below. The Mach 11.3 to Mach 14.4 of the successful flights is therefore
 
-$$V = M a = 3{,}334\ \text{to}\ 4{,}249\ \text{m/s}$$
+$$
+V = M a = 3{,}334\ \text{to}\ 4{,}249\ \text{m/s}
+\tag{12}
+$$
 
 and the upper figure agrees with the inventory's 9,504 miles an hour, or 4,249 metres per second.
 
 Murphy and Rubesin's nominal stage speeds make the same comparison without any assumed apogee. The vehicle reached second-stage ignition at about 5,000 feet per second and left the third stage at about 13,000, so at equal density
 
-$$\left(\frac{13{,}000}{5{,}000}\right)^{3} = 17.58$$
+$$
+\left(\frac{13{,}000}{5{,}000}\right)^{3} = 17.58
+\tag{13}
+$$
 
 and on the documented nominal profile the upper stages multiplied the heating rate by about eighteen.
 
 A lower apogee strengthens the conclusion. From the nominal 400,000 feet, or 121.9 kilometres,
 
-$$v_{\text{ff}} = \sqrt{2 \times 9.72 \times 106{,}920} = 1{,}442\ \text{m/s}$$
+$$
+v_{\text{ff}} = \sqrt{2 \times 9.72 \times 106{,}920} = 1{,}442\ \text{m/s}
+\tag{14}
+$$
 
 and the heating shortfall grows to $(4{,}023/1{,}442)^{3} = 21.7$. Even the 250 miles of the reference entry, which exceeds every research apogee in the record, does not rescue the falling case. From 402 kilometres, free fall reaches 2,744 metres per second, or Mach 9.30, and is still only
 
-$$\left(\frac{4{,}023}{2{,}744}\right)^{3} = 3.15$$
+$$
+\left(\frac{4{,}023}{2{,}744}\right)^{3} = 3.15
+\tag{15}
+$$
 
 times short in heating. **The conclusion that the stages were necessary does not depend on which apogee figure is correct**, an important point given that the sources disagree.
 
@@ -147,17 +192,26 @@ times short in heating. **The conclusion that the stages were necessary does not
 
 Before comparing conditions it helps to write down what is being compared to. [Allen and Eggers 1953][research_allen_eggers_1953] solved ballistic entry into an exponential atmosphere in closed form. With $\rho = \rho_0 e^{-z/H}$ at a constant flight path angle $\gamma$ and a ballistic coefficient $\beta = m/(C_D A)$,
 
-$$V(z) = V_e \exp\left[-\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H}\right]$$
+$$
+V(z) = V_e \exp\left[-\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H}\right]
+\tag{16}
+$$
 
 The solution and its descendants are the standard treatment of the problem, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [Eilertson and Wing 1966][research_eilertson_wing_1966], [Speyer and Womble 1971][research_speyer_womble_1971], [Knight and Quinn 1971][research_knight_quinn_1971], [Maples 1973][research_maples_1973], [Greene and Williamson 1981][research_greene_williamson_1981], [Vinh and Lin 1982][research_vinh_lin_1982], [Desai et al. 1999b][research_desai_1999], [Maorui Zhang et al. 2010][research_zhang_2010], [Zhou et al. 2012][research_zhou_2012], [Zhao and Zhou 2013][research_zhao_zhou_2013], [Pei et al. 2021][research_pei_2021], [Su et al. 2021][research_su_2021], [Ma et al. 2022b][research_ma_2022].
 
 Two consequences follow immediately and neither depends on the vehicle. The peak deceleration is
 
-$$a_{\max} = \frac{V_e^{2} \sin\gamma}{2 e H}$$
+$$
+a_{\max} = \frac{V_e^{2} \sin\gamma}{2 e H}
+\tag{17}
+$$
 
 which contains **no ballistic coefficient at all**, so every ballistic entry at a given speed and angle pulls the same peak load. At a 20 degree entry angle and 7,000 metres per second that is 43.7 g. And the velocity at peak heating is
 
-$$V_{\dot{q},\max} = V_e e^{-1/6} = 0.8465\, V_e = 5{,}925\ \text{m/s}$$
+$$
+V_{\dot{q},\max} = V_e e^{-1/6} = 0.8465\, V_e = 5{,}925\ \text{m/s}
+\tag{18}
+$$
 
 again independent of $\beta$. **What the ballistic coefficient controls is the altitude at which all of this happens**, and that statement is the blunt-body argument in quantitative form.
 
@@ -176,23 +230,38 @@ again independent of $\beta$. **What the ballistic coefficient controls is the a
 
 Stagnation-point convective heating is given by the Sutton and Graves correlation,
 
-$$\dot{q} = K \sqrt{\frac{\rho}{R_n}}\, V^{3}$$
+$$
+\dot{q} = K \sqrt{\frac{\rho}{R_n}}\, V^{3}
+\tag{19}
+$$
 
 where $R_n$ is the nose radius and $K = 1.7415 \times 10^{-4}$ in SI units, which lies within one percent of the air coefficient of [Sutton and Graves 1971][research_suttonk_gravesrajr_1971] once its stagnation pressure and enthalpy are written as $\rho V^{2}$ and $V^{2}/2$. That correlation sits on top of a large measurement and analysis programme, since the constant is fitted to computed boundary-layer solutions and the exponents are the result of boundary-layer theory checked against experiment, in [Luce 1949][research_luce_jr_1949], [Emmons 1951][research_emmons_1951], [Allen and Eggers 1953][research_allen_eggers_1953], [Jonas 1953][research_jonas_1953], [Vaglig-Laurin 1960][research_vaglig_laurin_1960], [Cresci et al. 1960][research_cresci_1960], [Seidman 1960][research_seidman_1960], [Neice et al. 1960][research_neice_1960], [Gonzales 1981][research_gonzales_1981], [Thornton 1981][research_thornton_1981], [Nomura 1983][research_nomura_1983], [Gai et al. 1985][research_gai_1985], [Mizoguchi et al. 2006][research_mizoguchi_2006], [Di Clemente and Ferrarella 2010][research_clemente_ferrarella_2010], [Tashakkor et al. 2011][research_tashakkor_2011], [Tauber et al. 2012][research_tauber_2012], [Si et al. 2019][research_si_2019], [Manjhi and Kumar 2020][research_manjhi_kumar_2020], [Han et al. 2020][research_han_2020], [Lefevre et al. 2022b][research_lefevre_2022]. The opportunity lies in the structure of that relation. **Density enters under a square root and velocity enters cubed**, so a deficit in velocity can be repaid by an excess of density, and the exchange rate is steep. Holding the heating rate fixed,
 
-$$\rho \propto V^{-6}$$
+$$
+\rho \propto V^{-6}
+\tag{20}
+$$
 
 Taking a representative intercontinental condition of 7,000 metres per second and the X-17's 4,023, the velocity ratio is 1.740, so the required density ratio is
 
-$$\left(\frac{7{,}000}{4{,}023}\right)^{6} = 27.74$$
+$$
+\left(\frac{7{,}000}{4{,}023}\right)^{6} = 27.74
+\tag{21}
+$$
 
 The X-17 must therefore fly where the air is nearly twenty-eight times denser, which is
 
-$$\rho = 27.74 \times 0.008214 = 0.2278\ \text{kg/m}^{3}$$
+$$
+\rho = 27.74 \times 0.008214 = 0.2278\ \text{kg/m}^{3}
+\tag{22}
+$$
 
 and that density occurs at **13.97 kilometres**. Evaluating both conditions at a nose radius of 0.15 metres gives
 
-$$\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.008214}{0.15}} \times 7{,}000^{3} = 1{,}398\ \text{W/cm}^{2}$$
+$$
+\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.008214}{0.15}} \times 7{,}000^{3} = 1{,}398\ \text{W/cm}^{2}
+\tag{23}
+$$
 
 for the intercontinental case and the same 1,398 watts per square centimetre for the X-17, which agrees by construction. **The X-17 could reproduce an intercontinental heating rate at 57 percent of the velocity by flying at two fifths of the altitude, and performing that trick was the vehicle's purpose.**
 
@@ -213,7 +282,10 @@ The 7,000 metres per second at 35 kilometres used above is representative, not d
 
 The rows marked impossible are the finding. The X-17 cannot produce more heating than it produces at its lowest altitude,
 
-$$\dot{q}_{\max} = K \sqrt{\frac{\rho_{\text{SL}}}{R_n}}\, V^{3} = 3{,}241\ \text{W/cm}^{2}$$
+$$
+\dot{q}_{\max} = K \sqrt{\frac{\rho_{\text{SL}}}{R_n}}\, V^{3} = 3{,}241\ \text{W/cm}^{2}
+\tag{24}
+$$
 
 at sea level, and 1,881 watts per square centimetre at a more realistic 10 kilometre floor. Above a ballistic coefficient of about **6,300 kilogrammes per square metre even at sea level, and about 2,500 at a practical floor, no altitude exists at which the X-17 matches the heating rate at all.**
 
@@ -223,21 +295,33 @@ at sea level, and 1,881 watts per square centimetre at a more realistic 10 kilom
 
 Stagnation enthalpy is the energy per unit mass the oncoming air brings,
 
-$$h_0 = \frac{V^{2}}{2}$$
+$$
+h_0 = \frac{V^{2}}{2}
+\tag{25}
+$$
 
 and there is **no density in it at all**. Evaluating,
 
-$$h_{0,\text{X-17}} = \frac{4{,}023^{2}}{2} = 8.094\ \text{MJ/kg}$$
+$$
+h_{0,\text{X-17}} = \frac{4{,}023^{2}}{2} = 8.094\ \text{MJ/kg}
+\tag{26}
+$$
 
 against the reference condition,
 
-$$h_{0,\text{ICBM}} = \frac{7{,}000^{2}}{2} = 24.50\ \text{MJ/kg}$$
+$$
+h_{0,\text{ICBM}} = \frac{7{,}000^{2}}{2} = 24.50\ \text{MJ/kg}
+\tag{27}
+$$
 
 The ratio is 3.027, so **the X-17 reached 33.0 percent of the energy per unit mass that an intercontinental re-entry delivers.** No choice of altitude changes that, because altitude does not appear in the relation.
 
 What that energy does to the air is the point. The perfect-gas stagnation temperature it would imply is
 
-$$T_0 = T_\infty + \frac{h_0}{c_p}$$
+$$
+T_0 = T_\infty + \frac{h_0}{c_p}
+\tag{28}
+$$
 
 which gives 8,274 kelvin for the X-17 and 24,627 for the intercontinental case. **Both figures are physically meaningless**, because the air dissociates and ionises long before either, absorbing the energy in chemistry and not in temperature. The [X-15 article][related_post_a312_north_american_x15] in this series computes the limit at which the perfect-gas assumption fails, at Mach 7.06, and the fastest X-17 flight reached Mach 14.4, which is **2.04 times that limit.**
 
@@ -245,11 +329,17 @@ The relevant thresholds are approximate and standard. Oxygen dissociation begins
 
 **These are different gases doing the heating**, and the difference has a geometric consequence that is easy to overlook. For a perfect gas the strong-shock density ratio has a hard ceiling,
 
-$$\frac{\rho_2}{\rho_1} \rightarrow \frac{\gamma + 1}{\gamma - 1} = 6\quad \text{at}\ \gamma = 1.4$$
+$$
+\frac{\rho_2}{\rho_1} \rightarrow \frac{\gamma + 1}{\gamma - 1} = 6\quad \text{at}\ \gamma = 1.4
+\tag{29}
+$$
 
 Dissociation absorbs energy, lowers the effective ratio of specific heats, and lets the gas compress far more than that. Since shock standoff scales inversely,
 
-$$\frac{\delta}{R_n} \sim \frac{\rho_1}{\rho_2}$$
+$$
+\frac{\delta}{R_n} \sim \frac{\rho_1}{\rho_2}
+\tag{30}
+$$
 
 a perfect gas holds its shock 25 millimetres off a 15 centimetre nose while a strongly dissociating one holds it at 8. **The shock sits closer to the body in the gas the X-17 did not produce**, which changes the boundary layer edge conditions and therefore the heating distribution away from the stagnation point, where most of the surface lies. The rate at which the air ionises behind a shock was measured in [Lin 1961][research_lin_1961] and [Lin et al. 1962][research_lin_1962], the equilibrium properties tabulated in [Viegas and Howe 1962][research_viegas_howe_1962], the transport properties in [Yun and Mason 1962][research_yun_mason_1962], and the effect on hypersonic flow fields analysed in [Hermann et al. 1962][research_hermann_1962]. Stagnation heat transfer specifically in partially ionised air was measured in [Rose and Stankevics 1963][research_rose_stankevics_1963], and radiation from the hot gas in [Archer 1963][research_archer_1963] and [Page 1963][research_page_1963].
 
@@ -259,11 +349,17 @@ a perfect gas holds its shock 25 millimetres off a 15 centimetre nose while a st
 
 Convective heating is not the only mechanism. The shock layer also radiates, and that contribution scales far more steeply with velocity,
 
-$$\dot{q}_{\text{rad}} \sim R_n\, \rho^{1.2}\, V^{8.5}$$
+$$
+\dot{q}_{\text{rad}} \sim R_n\, \rho^{1.2}\, V^{8.5}
+\tag{31}
+$$
 
 against the square root and cube of convection. At equal density the velocity term alone gives
 
-$$\left(\frac{7{,}000}{4{,}023}\right)^{8.5} = 110.7$$
+$$
+\left(\frac{7{,}000}{4{,}023}\right)^{8.5} = 110.7
+\tag{32}
+$$
 
 so **the X-17 sees roughly one part in 111 of the radiative heating an intercontinental re-entry produces.** Extending the same exponent, lunar return at 11 kilometres per second is 5,162 times the X-17's radiative environment, so radiation dominates there and is negligible here.
 
@@ -275,23 +371,38 @@ Shock-layer radiation has a separate measurement and modelling literature, devel
 
 Chemical nonequilibrium has its own similarity parameter. Reaction rates depend on the square of density while the time available depends on body size over velocity, so the governing group is the product of density and length,
 
-$$\Pi = \rho L$$
+$$
+\Pi = \rho L
+\tag{33}
+$$
 
 Comparing an intercontinental body of 1.5 metres with an X-17 nose of 0.5 metres,
 
-$$\Pi_{\text{ICBM}} = 0.008214 \times 1.5 = 0.01232\ \text{kg/m}^{2}$$
+$$
+\Pi_{\text{ICBM}} = 0.008214 \times 1.5 = 0.01232\ \text{kg/m}^{2}
+\tag{34}
+$$
 
 while the test vehicle at its matching altitude gives
 
-$$\Pi_{\text{X-17}} = 0.2278 \times 0.5 = 0.1139\ \text{kg/m}^{2}$$
+$$
+\Pi_{\text{X-17}} = 0.2278 \times 0.5 = 0.1139\ \text{kg/m}^{2}
+\tag{35}
+$$
 
 a ratio of **9.25**. The same statement can be made as a rate comparison through the Damköhler number, which is the ratio of the time the gas spends in the shock layer to the time its chemistry needs,
 
-$$Da = \frac{t_{\text{flow}}}{t_{\text{chem}}} \sim \frac{\rho L}{V}$$
+$$
+Da = \frac{t_{\text{flow}}}{t_{\text{chem}}} \sim \frac{\rho L}{V}
+\tag{36}
+$$
 
 Below one the gas has no time to react and the flow is frozen. Above one it reaches equilibrium. Evaluating,
 
-$$\frac{Da_{\text{X-17}}}{Da_{\text{ICBM}}} = \frac{0.2278 \times 0.5 / 4{,}023}{0.008214 \times 1.5 / 7{,}000} = 16.09$$
+$$
+\frac{Da_{\text{X-17}}}{Da_{\text{ICBM}}} = \frac{0.2278 \times 0.5 / 4{,}023}{0.008214 \times 1.5 / 7{,}000} = 16.09
+\tag{37}
+$$
 
 **Flying lower to buy the heating rate overshoots the binary scaling parameter by nearly an order of magnitude**, which pushes the shock layer toward chemical equilibrium and away from the nonequilibrium state a real re-entry has. The X-17 therefore missed the third requirement as well as the first, and in a direction that made its flow more benign and more predictable, not less.
 
@@ -299,15 +410,24 @@ $$\frac{Da_{\text{X-17}}}{Da_{\text{ICBM}}} = \frac{0.2278 \times 0.5 / 4{,}023}
 
 Peak rate is what fails a structure suddenly. Total load consumes an ablator and is a different integral,
 
-$$Q = \int \dot{q}\, dt$$
+$$
+Q = \int \dot{q}\, dt
+\tag{38}
+$$
 
 A steep powered dive and a shallow intercontinental re-entry can share a peak rate and differ widely in the integral. Taking exposure times of 6 seconds and 25 seconds, assumed here as representative, with a triangular rate history,
 
-$$Q_{\text{X-17}} \approx \tfrac{1}{2} \times 1{,}398 \times 6 = 41.9\ \text{MJ/m}^{2}$$
+$$
+Q_{\text{X-17}} \approx \tfrac{1}{2} \times 1{,}398 \times 6 = 41.9\ \text{MJ/m}^{2}
+\tag{39}
+$$
 
 against a re-entry lasting four times as long,
 
-$$Q_{\text{ICBM}} \approx \tfrac{1}{2} \times 1{,}398 \times 25 = 174.7\ \text{MJ/m}^{2}$$
+$$
+Q_{\text{ICBM}} \approx \tfrac{1}{2} \times 1{,}398 \times 25 = 174.7\ \text{MJ/m}^{2}
+\tag{40}
+$$
 
 The exposure times are assumed and not measured, and the ratio of 4.17 is the point, not the values. Heppenheimer's 3.7 seconds for the two upper-stage burns together suggests that the assumed 6 seconds is of the right order for the X-17. **A material that survives the X-17's pulse has not been shown to survive an intercontinental re-entry's soak.**
 
@@ -334,7 +454,10 @@ Collecting the four comparisons gives the article's central table.
 
 Heating falls as the inverse square root of nose radius, so bluntness is the primary defence,
 
-$$\dot{q} \propto \frac{1}{\sqrt{R_n}}$$
+$$
+\dot{q} \propto \frac{1}{\sqrt{R_n}}
+\tag{41}
+$$
 
 Evaluated at the X-17's condition,
 
@@ -349,13 +472,19 @@ The flow field that produces that scaling, namely a detached bow shock with a su
 
 **A 2 centimetre nose takes 2.74 times the heat flux of a 15 centimetre one.** This ratio is the first half of the blunt-body argument. The second half is that a blunt body decelerates higher, because ballistic coefficient sets penetration,
 
-$$\beta = \frac{m}{C_D A}$$
+$$
+\beta = \frac{m}{C_D A}
+\tag{42}
+$$
 
 For a 200 kilogramme body at the third-stage diameter, a blunt hemisphere at a drag coefficient of 1.0 gives 4,195 kilogrammes per square metre and a slender cone at 0.3 gives 13,983, a ratio of **3.33**. **The slender body carries over three times the ballistic coefficient and therefore arrives fast in dense air, the worst possible combination.** It is heated harder by its sharpness and for longer by its penetration.
 
 The flight table that Heppenheimer reproduces from the history of the Air Force Missile Test Center lists hemispheres, cubic paraboloids, blunt shapes, some built by Avco, and blunt cones built by General Electric, and no sharp nose. **The X-17 compared blunt shapes with one another rather than blunt against sharp.** The two flights analysed by Murphy and Rubesin, R-2 and R-9, carried hemispheres of 9 inch diameter, a nose radius of 0.1143 metres, which by the relation above takes
 
-$$\sqrt{\frac{0.15}{0.1143}} = 1.146$$
+$$
+\sqrt{\frac{0.15}{0.1143}} = 1.146
+\tag{43}
+$$
 
 times the heat flux of the 0.15 metre nose used in this article's reference condition. Period measurements on the same question appear in [Nardo and Sadler 1962][research_nardo_sadler_1962], [Conti 1961][research_conti_1961], and [Oguchi 1962][research_oguchi_1962], with the asymmetric case in [Swigart 1962][research_swigart_1962].
 
@@ -363,11 +492,17 @@ times the heat flux of the 0.15 metre nose used in this article's reference cond
 
 Bluntness reduces the flux. It does not remove it, and the claim that no passive material survives is checkable in one line and not assertable. A surface in steady state rejects heat by radiating it,
 
-$$\dot{q} = \varepsilon \sigma T^{4}$$
+$$
+\dot{q} = \varepsilon \sigma T^{4}
+\tag{44}
+$$
 
 so the temperature a passive surface must reach to reject the incident flux is
 
-$$T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4} = \left(\frac{1.398 \times 10^{7}}{0.85 \times 5.67 \times 10^{-8}}\right)^{1/4} = 4{,}127\ \text{K}$$
+$$
+T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4} = \left(\frac{1.398 \times 10^{7}}{0.85 \times 5.67 \times 10^{-8}}\right)^{1/4} = 4{,}127\ \text{K}
+\tag{45}
+$$
 
 at an emissivity of 0.85 assumed here. Against the most refractory materials there are,
 
@@ -384,7 +519,10 @@ Those figures are not casual. The high-temperature behaviour of refractory metal
 
 **Every material available in 1956 fails, including tungsten and graphite.** Only hafnium carbide exceeds the required temperature, by 73 kelvin at the rounded figure of the table and by 46 to 128 kelvin across the melting points of 3,900 to 3,982 degrees Celsius published for [hafnium carbide][ref_hafnium_carbide], which has seen very limited use and begins to oxidise at temperatures as low as 430 degrees Celsius. **Passive re-radiation is not an option at this flux**, so ablation is mandatory. In ablation the surface is consumed and carries the heat away with the mass it loses, while the injected gas thickens the boundary layer and blocks part of the incoming flux. The energy balance is
 
-$$\dot{m} = \frac{\dot{q}_{\text{net}}}{h_{\text{eff}}}$$
+$$
+\dot{m} = \frac{\dot{q}_{\text{net}}}{h_{\text{eff}}}
+\tag{46}
+$$
 
 where the effective heat of ablation lumps together heating the material to its ablation temperature, the phase change, and the blockage the injected gas provides. At the matched flux,
 
@@ -397,7 +535,10 @@ where the effective heat of ablation lumps together heating the material to its 
 
 At an effective heat of 12 megajoules per kilogramme and a material density of 1,400 kilogrammes per cubic metre, both assumed here as phenolic-like values, the surface lost over the exposure is
 
-$$s = \frac{\dot{m} \tau}{2 \rho_m}$$
+$$
+s = \frac{\dot{m} \tau}{2 \rho_m}
+\tag{47}
+$$
 
 giving 2.50 millimetres over the six seconds assumed for an X-17 pulse and 10.39 over a twenty-five second re-entry.
 
@@ -405,11 +546,17 @@ The theory of that blockage is set out in [Swann and South 1961][research_swann_
 
 There is a second and less obvious difference between a pulse and a soak. Heat diffuses into the material a distance
 
-$$\delta = \sqrt{\alpha t}, \qquad \alpha = \frac{k}{\rho_m c}$$
+$$
+\delta = \sqrt{\alpha t}, \qquad \alpha = \frac{k}{\rho_m c}
+\tag{48}
+$$
 
 and taking $\alpha = 1.43 \times 10^{-7}$ square metres per second, assumed here as a phenolic-like value,
 
-$$\delta_{6\,\text{s}} = 0.93\ \text{mm}, \qquad \delta_{25\,\text{s}} = 1.89\ \text{mm}$$
+$$
+\delta_{6\,\text{s}} = 0.93\ \text{mm}, \qquad \delta_{25\,\text{s}} = 1.89\ \text{mm}
+\tag{49}
+$$
 
 a ratio of 2.04, which is the square root of the time ratio. Transient conduction into a heated structure, and the thermal stresses it produces, is the other half of the material problem and is treated across [Altman and Chang 1965][research_altman_chang_1965], [Tate 1969][research_tate_1969], [Moyer and Wool 1970a][research_moyer_wool_1970], [Moyer and Wool 1970b][research_moyer_wool_1970_2], [Rathjen 1977][research_rathjen_1977], [Adelman 1979][research_adelman_1979], [Ko and Fields 1987][research_ko_fields_1987], [Milos and Chen 2010b][research_milos_chen_2010], [Weng and Martin 2014b][research_weng_martin_2014], [Weng and Martin 2015][research_weng_martin_2015], [Tatar 2019][research_tatar_2020], [Wang et al. 2024c][research_wang_2024].
 
@@ -421,7 +568,10 @@ a ratio of 2.04, which is the square root of the time ratio. Transient conductio
 
 The first stage lifts a 5,443 kilogramme vehicle, taking Parsch's 12,000 pounds, on 48,000 pounds force, giving a launch thrust-to-weight ratio of
 
-$$\frac{T}{W} = \frac{48{,}000}{12{,}000} = 4.00$$
+$$
+\frac{T}{W} = \frac{48{,}000}{12{,}000} = 4.00
+\tag{50}
+$$
 
 which is high and appropriate for a vehicle that must clear the dense atmosphere quickly. The upper stages together develop 137,650 pounds force, or 612 kilonewtons, against a much smaller remaining mass, and so supply the 2,339 metres per second of downward velocity computed above.
 
@@ -445,7 +595,10 @@ The free-flight heating measurement technique and its interpretation are the dir
 
 Flying low to buy density has a second consequence that the programme got without asking. Reynolds number is
 
-$$Re = \frac{\rho V L}{\mu}$$
+$$
+Re = \frac{\rho V L}{\mu}
+\tag{51}
+$$
 
 and at the X-17's condition it is very large.
 
@@ -458,19 +611,31 @@ and at the X-17's condition it is very large.
 
 The inventory states that the original programme objectives included Reynolds numbers as high as 24 million, which the table reaches at 15 kilometres on a half-metre body. The figure is an objective and not a reported measurement. **Reynolds number matters because a turbulent boundary layer transfers several times the heat a laminar one does.** Flat-plate correlations give the Stanton number as
 
-$$St_{\text{lam}} \sim Re^{-1/2}, \qquad St_{\text{turb}} \sim Re^{-1/5}$$
+$$
+St_{\text{lam}} \sim Re^{-1/2}, \qquad St_{\text{turb}} \sim Re^{-1/5}
+\tag{52}
+$$
 
 so the turbulent-to-laminar heating ratio grows as $Re^{0.3}$, and at the quoted Reynolds number the penalty is
 
-$$\left(\frac{2.74 \times 10^{7}}{1 \times 10^{6}}\right)^{0.3} = 2.70$$
+$$
+\left(\frac{2.74 \times 10^{7}}{1 \times 10^{6}}\right)^{0.3} = 2.70
+\tag{53}
+$$
 
 **A factor of 2.7 depends on where transition happens**, so its location is a first-order design question rather than a refinement. The X-17 flights show that the factor is a ceiling. Murphy and Rubesin correlate transitional heating as a blend weighted by the intermittency $\bar{\gamma}$, the fraction of time the flow is turbulent,
 
-$$St = (1 - \bar{\gamma})\, St_{\text{lam}} + \bar{\gamma}\, St_{\text{turb}}$$
+$$
+St = (1 - \bar{\gamma})\, St_{\text{lam}} + \bar{\gamma}\, St_{\text{turb}}
+\tag{54}
+$$
 
 so that with the ratio of 2.70 above the heating relative to laminar is
 
-$$\frac{St}{St_{\text{lam}}} = 1 + 1.70\, \bar{\gamma}$$
+$$
+\frac{St}{St_{\text{lam}}} = 1 + 1.70\, \bar{\gamma}
+\tag{55}
+$$
 
 which is 1.85 at an intermittency of one half and reaches 2.70 only when the flow is fully turbulent. On flight R-2 they find a boundary layer transitional over most of the forebody that never reaches fully developed turbulence, with transition beginning at energy-thickness Reynolds numbers of 400 to 600 on the subsonic part of the nose and about 800 on the supersonic part. Transition on blunted bodies is treated in [Jillie and Hopkins 1961][research_jillie_hopkins_1961] and [Masaki and Yakura 1968][research_masaki_yakura_1968], and the laminar and turbulent heating comparison is the substance of [Murphy and Rubesin 1965][research_murphy_rubesin_1965]. **Transition is the least settled quantity in the calculation and has stayed that way**, across [Tifford 1945][research_tifford_1945], [Scherrer et al. 1949][research_scherrer_1949], [Lee 1953][research_lee_1953], [Lange and Gieseler 1953][research_lange_gieseler_1953], [Stetson 1960][research_stetson_1960], [Adcock et al. 1965][research_adcock_1965], [Adcock et al. 1967][research_adcock_1967], [Finson et al. 1980][research_finson_1980], [Reed and Abu-Mostafa 1982][research_reed_abu_mostafa_1982], [Ting et al. 1986][research_ting_1986], [Reda 2001][research_reda_2001], [Maslov 2001][research_maslov_2001], [Kimmel 2003][research_kimmel_2003], [Ren et al. 2019][research_ren_2019], [Patrick 2019][research_patrick_2019], [Miró Miró and Pinna 2020][research_miro_pinna_2020].
 
@@ -808,6 +973,494 @@ The X-17 fired rockets downward because falling was not enough, and the margin i
 What it bought with that architecture was a partial simulation, and the partition is sharp. **It could reproduce the heating rate exactly, in real air, on an instrumented flight body, and it reproduced 33 percent of the stagnation enthalpy and therefore none of the chemistry.** The nonequilibrium state it missed by a factor of nine in the wrong direction, and the total heat load by a factor of four.
 
 **That trade was correct for 1956 and would be wrong today**, and the reversal is the most interesting thing about the vehicle. The programme surrendered the gas physics because it could not yet be computed, and kept the heat flux because every nose cone had to be designed against it. Seventy years later the chemistry is the hard part, the material response is modelled rather than screened, and no facility has yet been built that reproduces the whole condition. **The X-17's compromise has been inherited rather than resolved.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 55 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 55, 29 are established and 26 are bespoke.
+Speeds are in metres per second, heat fluxes in watts per square centimetre unless a line gives megajoules per square metre, and densities in kilogrammes per cubic metre, while $\gamma$ is the flight path angle in the Allen and Eggers relations and the ratio of specific heats elsewhere, $\delta$ is both a shock standoff distance and a thermal penetration depth, and $\sigma$ is the Stefan-Boltzmann constant.
+
+**Equation 1, Tsiolkovsky Rocket Equation.**
+The velocity increment of a stage is the specific impulse times standard gravity times the logarithm of the initial to final mass ratio.
+
+$$
+\Delta v = I_{sp}\, g_0 \ln\frac{m_0}{m_1}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Mass Ratio of the Descending Stack.*
+The mass ratio for the 2,339 metre per second increment is evaluated at a specific impulse of 235 seconds that the article assumes as typical of period solid motors.
+
+$$
+\frac{m_0}{m_1} = \exp\left(\frac{2{,}339}{235 \times 9.807}\right) = 2.759
+\tag{2}
+$$
+
+**Equation 3, Velocity Increment From the Documented Stage Speeds.**
+The documented stage speeds of 5,000 and 13,000 feet per second differ by 2,438 metres per second.
+[Murphy and Rubesin 1965][research_murphy_rubesin_1965]
+
+$$
+\Delta v_{\text{doc}} = (13{,}000 - 5{,}000) \times 0.3048 = 2{,}438\ \text{m/s}
+\tag{3}
+$$
+
+**Equation 4, Pressure in the Isothermal Layer.**
+Between 11 and 20 kilometres the standard atmosphere is isothermal, so pressure falls exponentially with geopotential altitude above the base of the layer.
+
+$$
+p(z) = p_{11} \exp\left(-\frac{g_0 (z - z_{11})}{R T_{11}}\right)
+\tag{4}
+$$
+
+**Equation 5, Ideal Gas Law for Density.**
+Density follows from pressure and temperature through the ideal gas law.
+
+$$
+\rho = \frac{p}{R T}
+\tag{5}
+$$
+
+**Equation 6, Free-Fall Speed Without Drag.**
+A body falling through a height difference without drag reaches the speed given by energy conservation.
+
+$$
+v_{\text{ff}} = \sqrt{2 g \Delta h}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Free-Fall Speed From the Top of the Research Range.*
+The free-fall speed from 160.9 kilometres is evaluated to a target altitude of 15 kilometres with a mean gravitational acceleration of 9.72 metres per second squared that the article assumes.
+
+$$
+v_{\text{ff}} = \sqrt{2 \times 9.72 \times 145{,}900} = 1{,}684\ \text{m/s}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Speed Ratio of Powered Descent Over Free Fall.*
+The reported 4,023 metres per second, which the article takes as the representative X-17 speed, is divided by the assumed free-fall speed.
+
+$$
+\frac{v_{\text{achieved}}}{v_{\text{ff}}} = \frac{4{,}023}{1{,}684} = 2.389
+\tag{8}
+$$
+
+*Equation 9, Bespoke Heating Ratio of Powered Descent Over Free Fall.*
+Cubing the speed ratio built on the representative speed and assumed free fall gives the heating multiplier at equal density.
+
+$$
+\left(\frac{v_{\text{achieved}}}{v_{\text{ff}}}\right)^{3} = 2.389^{3} = 13.63
+\tag{9}
+$$
+
+*Equation 10, Bespoke Velocity Increment the Upper Stages Must Supply.*
+The increment is the representative X-17 speed less the assumed free-fall speed, a lower bound because drag during the burn is neglected.
+
+$$
+\Delta v = 4{,}023 - 1{,}684 = 2{,}339\ \text{m/s}
+\tag{10}
+$$
+
+**Equation 11, Speed of Sound in the Isothermal Stratosphere.**
+The speed of sound at the standard isothermal temperature of 216.65 kelvin is 295.1 metres per second.
+
+$$
+a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05 \times 216.65} = 295.1\ \text{m/s}
+\tag{11}
+$$
+
+**Equation 12, Flight Speeds From the Reported Mach Numbers.**
+The reported Mach numbers of 11.3 to 14.4 times the stratospheric speed of sound give 3,334 to 4,249 metres per second.
+
+$$
+V = M a = 3{,}334\ \text{to}\ 4{,}249\ \text{m/s}
+\tag{12}
+$$
+
+**Equation 13, Heating Ratio From the Documented Stage Speeds.**
+At equal density the cube of the ratio of the documented exit and ignition speeds gives the heating multiplier of the upper stages.
+
+$$
+\left(\frac{13{,}000}{5{,}000}\right)^{3} = 17.58
+\tag{13}
+$$
+
+*Equation 14, Bespoke Free-Fall Speed From the Nominal Apogee.*
+The free-fall speed from the nominal 400,000 foot apogee uses the same assumed mean gravitational acceleration and target altitude.
+
+$$
+v_{\text{ff}} = \sqrt{2 \times 9.72 \times 106{,}920} = 1{,}442\ \text{m/s}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Heating Shortfall From the Highest Quoted Apogee.*
+The cube of the representative X-17 speed over the free-fall speed from 402 kilometres shows that even that apogee leaves the falling case short.
+
+$$
+\left(\frac{4{,}023}{2{,}744}\right)^{3} = 3.15
+\tag{15}
+$$
+
+**Equation 16, Allen and Eggers Ballistic Entry Velocity.**
+For ballistic entry into an exponential atmosphere at constant flight path angle, velocity decays as a double exponential of altitude set by the ballistic coefficient.
+[Allen and Eggers 1953][research_allen_eggers_1953]
+
+$$
+V(z) = V_e \exp\left[-\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H}\right]
+\tag{16}
+$$
+
+**Equation 17, Allen and Eggers Peak Deceleration.**
+The peak deceleration of a ballistic entry depends on entry speed, flight path angle and scale height but not on the ballistic coefficient.
+[Allen and Eggers 1953][research_allen_eggers_1953]
+
+$$
+a_{\max} = \frac{V_e^{2} \sin\gamma}{2 e H}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Velocity at Peak Heating for the Reference Entry.*
+The Allen and Eggers velocity at peak heating, $e^{-1/6}$ of the entry speed, is evaluated at a representative intercontinental entry speed of 7,000 metres per second.
+[Allen and Eggers 1953][research_allen_eggers_1953]
+
+$$
+V_{\dot{q},\max} = V_e e^{-1/6} = 0.8465\, V_e = 5{,}925\ \text{m/s}
+\tag{18}
+$$
+
+**Equation 19, Sutton and Graves Stagnation-Point Heating.**
+Stagnation-point convective heat flux scales as the square root of density over nose radius times the cube of velocity.
+[Sutton and Graves 1971][research_suttonk_gravesrajr_1971]
+
+$$
+\dot{q} = K \sqrt{\frac{\rho}{R_n}}\, V^{3}
+\tag{19}
+$$
+
+**Equation 20, Density Required to Hold Heating Fixed.**
+Holding the Sutton and Graves heat flux constant requires density to vary as the inverse sixth power of velocity.
+[Sutton and Graves 1971][research_suttonk_gravesrajr_1971]
+
+$$
+\rho \propto V^{-6}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Density Ratio for Matched Heating.*
+The required density ratio compares a representative intercontinental speed of 7,000 metres per second with the representative X-17 speed of 4,023.
+
+$$
+\left(\frac{7{,}000}{4{,}023}\right)^{6} = 27.74
+\tag{21}
+$$
+
+*Equation 22, Bespoke Density at the Matched Condition.*
+The density ratio is applied to the standard atmosphere density at 35 kilometres, which the article takes as a representative intercontinental peak-heating altitude.
+
+$$
+\rho = 27.74 \times 0.008214 = 0.2278\ \text{kg/m}^{3}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Heat Flux at the Reference Condition.*
+The Sutton and Graves flux is evaluated at the representative intercontinental condition with a nose radius of 0.15 metres that the article assumes.
+
+$$
+\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.008214}{0.15}} \times 7{,}000^{3} = 1{,}398\ \text{W/cm}^{2}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Highest Heating the X-17 Can Produce.*
+The maximum flux is the Sutton and Graves relation at sea-level density with the representative speed and the assumed 0.15 metre nose radius.
+
+$$
+\dot{q}_{\max} = K \sqrt{\frac{\rho_{\text{SL}}}{R_n}}\, V^{3} = 3{,}241\ \text{W/cm}^{2}
+\tag{24}
+$$
+
+**Equation 25, Stagnation Enthalpy.**
+The stagnation enthalpy of the oncoming air is half the square of the flight speed and contains no density.
+
+$$
+h_0 = \frac{V^{2}}{2}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Stagnation Enthalpy of the X-17.*
+The stagnation enthalpy is evaluated at 4,023 metres per second, the reported speed the article takes as representative.
+
+$$
+h_{0,\text{X-17}} = \frac{4{,}023^{2}}{2} = 8.094\ \text{MJ/kg}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Stagnation Enthalpy of the Reference Entry.*
+The stagnation enthalpy is evaluated at the representative intercontinental speed of 7,000 metres per second.
+
+$$
+h_{0,\text{ICBM}} = \frac{7{,}000^{2}}{2} = 24.50\ \text{MJ/kg}
+\tag{27}
+$$
+
+**Equation 28, Perfect-Gas Stagnation Temperature.**
+The perfect-gas stagnation temperature is the free-stream temperature plus the stagnation enthalpy over the specific heat at constant pressure.
+
+$$
+T_0 = T_\infty + \frac{h_0}{c_p}
+\tag{28}
+$$
+
+**Equation 29, Strong-Shock Density Ratio Limit.**
+For a perfect gas the density ratio across a strong normal shock tends to $(\gamma + 1)/(\gamma - 1)$, which is 6 at $\gamma = 1.4$.
+
+$$
+\frac{\rho_2}{\rho_1} \rightarrow \frac{\gamma + 1}{\gamma - 1} = 6\quad \text{at}\ \gamma = 1.4
+\tag{29}
+$$
+
+**Equation 30, Shock Standoff Scaling.**
+The shock standoff distance over the nose radius scales with the inverse of the shock density ratio.
+
+$$
+\frac{\delta}{R_n} \sim \frac{\rho_1}{\rho_2}
+\tag{30}
+$$
+
+**Equation 31, Shock-Layer Radiative Heating Scaling.**
+Radiative heating from the shock layer scales with nose radius, density to the power 1.2 and velocity to the power 8.5.
+
+$$
+\dot{q}_{\text{rad}} \sim R_n\, \rho^{1.2}\, V^{8.5}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Radiative Heating Ratio at Equal Density.*
+The velocity term of the radiative scaling compares the representative intercontinental and X-17 speeds.
+
+$$
+\left(\frac{7{,}000}{4{,}023}\right)^{8.5} = 110.7
+\tag{32}
+$$
+
+**Equation 33, Binary Scaling Parameter.**
+Chemical nonequilibrium is governed by the product of density and body length.
+
+$$
+\Pi = \rho L
+\tag{33}
+$$
+
+*Equation 34, Bespoke Binary Scaling Parameter of the Reference Entry.*
+The parameter is evaluated at 35 kilometres for a body length of 1.5 metres that the article takes as representative of an intercontinental re-entry body.
+
+$$
+\Pi_{\text{ICBM}} = 0.008214 \times 1.5 = 0.01232\ \text{kg/m}^{2}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Binary Scaling Parameter of the X-17.*
+The parameter is evaluated at the matched density for a nose length of 0.5 metres that the article takes for the X-17.
+
+$$
+\Pi_{\text{X-17}} = 0.2278 \times 0.5 = 0.1139\ \text{kg/m}^{2}
+\tag{35}
+$$
+
+**Equation 36, Damköhler Number Scaling.**
+The Damköhler number, the ratio of flow time to chemical time, scales as density times length over velocity.
+
+$$
+Da = \frac{t_{\text{flow}}}{t_{\text{chem}}} \sim \frac{\rho L}{V}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Damköhler Ratio of the X-17 to the Reference Entry.*
+The ratio uses the representative speeds, densities and body lengths of the two conditions.
+
+$$
+\frac{Da_{\text{X-17}}}{Da_{\text{ICBM}}} = \frac{0.2278 \times 0.5 / 4{,}023}{0.008214 \times 1.5 / 7{,}000} = 16.09
+\tag{37}
+$$
+
+**Equation 38, Total Heat Load.**
+The total heat load is the time integral of the heat flux.
+
+$$
+Q = \int \dot{q}\, dt
+\tag{38}
+$$
+
+*Equation 39, Bespoke Heat Load of an X-17 Pulse.*
+The load assumes a triangular rate history and an exposure time of 6 seconds that the article takes as representative.
+
+$$
+Q_{\text{X-17}} \approx \tfrac{1}{2} \times 1{,}398 \times 6 = 41.9\ \text{MJ/m}^{2}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Heat Load of the Reference Entry.*
+The load assumes the same peak rate, a triangular history and an exposure time of 25 seconds that the article takes as representative.
+
+$$
+Q_{\text{ICBM}} \approx \tfrac{1}{2} \times 1{,}398 \times 25 = 174.7\ \text{MJ/m}^{2}
+\tag{40}
+$$
+
+**Equation 41, Inverse Square Root Dependence on Nose Radius.**
+At fixed density and speed stagnation-point heating falls as the inverse square root of nose radius.
+[Sutton and Graves 1971][research_suttonk_gravesrajr_1971]
+
+$$
+\dot{q} \propto \frac{1}{\sqrt{R_n}}
+\tag{41}
+$$
+
+**Equation 42, Ballistic Coefficient.**
+The ballistic coefficient is mass over drag coefficient times reference area.
+
+$$
+\beta = \frac{m}{C_D A}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Flux Ratio of the Flown Hemisphere.*
+The flown 0.1143 metre nose radius is compared with the 0.15 metre radius that the article assumes for its reference condition.
+
+$$
+\sqrt{\frac{0.15}{0.1143}} = 1.146
+\tag{43}
+$$
+
+**Equation 44, Radiative Equilibrium of a Surface.**
+A surface in steady state rejects heat at emissivity times the Stefan-Boltzmann constant times the fourth power of temperature.
+
+$$
+\dot{q} = \varepsilon \sigma T^{4}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Radiation Equilibrium Temperature at the Matched Flux.*
+The temperature needed to radiate the matched flux is evaluated at an emissivity of 0.85 that the article assumes.
+
+$$
+T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4} = \left(\frac{1.398 \times 10^{7}}{0.85 \times 5.67 \times 10^{-8}}\right)^{1/4} = 4{,}127\ \text{K}
+\tag{45}
+$$
+
+**Equation 46, Ablation Energy Balance.**
+The ablation mass flux is the net heat flux divided by the effective heat of ablation.
+
+$$
+\dot{m} = \frac{\dot{q}_{\text{net}}}{h_{\text{eff}}}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Surface Recession Over an Exposure.*
+The recession assumes a triangular rate history, hence the factor of one half, with an effective heat of ablation and material density that the article takes as phenolic-like values.
+
+$$
+s = \frac{\dot{m} \tau}{2 \rho_m}
+\tag{47}
+$$
+
+**Equation 48, Thermal Penetration Depth.**
+Heat diffuses into a solid a distance of the square root of thermal diffusivity times time, with diffusivity the conductivity over density times specific heat.
+
+$$
+\delta = \sqrt{\alpha t}, \qquad \alpha = \frac{k}{\rho_m c}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Penetration Depths of a Pulse and a Soak.*
+The depths use a phenolic-like diffusivity of $1.43 \times 10^{-7}$ square metres per second that the article assumes and the assumed exposure times.
+
+$$
+\delta_{6\,\text{s}} = 0.93\ \text{mm}, \qquad \delta_{25\,\text{s}} = 1.89\ \text{mm}
+\tag{49}
+$$
+
+**Equation 50, Launch Thrust to Weight Ratio.**
+The first-stage thrust of 48,000 pounds force over the 12,000 pound launch weight gives a ratio of four.
+[Parsch 2003][ref_parsch_x17]
+
+$$
+\frac{T}{W} = \frac{48{,}000}{12{,}000} = 4.00
+\tag{50}
+$$
+
+**Equation 51, Reynolds Number.**
+The Reynolds number is density times speed times length over dynamic viscosity.
+
+$$
+Re = \frac{\rho V L}{\mu}
+\tag{51}
+$$
+
+**Equation 52, Flat-Plate Stanton Number Scaling.**
+Flat-plate correlations give the Stanton number as the inverse square root of Reynolds number in laminar flow and the inverse fifth root in turbulent flow.
+
+$$
+St_{\text{lam}} \sim Re^{-1/2}, \qquad St_{\text{turb}} \sim Re^{-1/5}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Turbulent Heating Penalty.*
+The turbulent to laminar ratio grows as $Re^{0.3}$ and is evaluated from a reference of $10^{6}$ that the article chooses to the computed $2.74 \times 10^{7}$.
+
+$$
+\left(\frac{2.74 \times 10^{7}}{1 \times 10^{6}}\right)^{0.3} = 2.70
+\tag{53}
+$$
+
+**Equation 54, Intermittency-Weighted Transitional Heating.**
+Transitional heating is a blend of laminar and turbulent Stanton numbers weighted by the intermittency, the fraction of time the flow is turbulent.
+[Murphy and Rubesin 1965][research_murphy_rubesin_1965]
+
+$$
+St = (1 - \bar{\gamma})\, St_{\text{lam}} + \bar{\gamma}\, St_{\text{turb}}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Transitional Heating Relative to Laminar.*
+Substituting the turbulent penalty built on the chosen reference Reynolds number into the intermittency blend gives the heating relative to laminar.
+
+$$
+\frac{St}{St_{\text{lam}}} = 1 + 1.70\, \bar{\gamma}
+\tag{55}
+$$
+
+### Notation
+
+- $I_{sp}$, the specific impulse in seconds
+- $g_0$, standard gravity
+- $m_0$, the launch mass, with $m_1$ the burnout mass
+- $v_{\text{ff}}$, the free-fall speed without drag
+- $V_e$, the entry speed
+- $\beta$, the ballistic coefficient
+- $H$, the atmospheric scale height
+- $\sin\gamma$, the sine of the flight path angle $\gamma$
+- $\dot{q}$, the stagnation-point heat flux, with $\dot{q}_{\text{rad}}$ its radiative part
+- $R_n$, the effective nose radius
+- $K$, the Sutton and Graves constant
+- $h_0$, the stagnation enthalpy
+- $T_0$, the stagnation temperature, with $T_\infty$ the free-stream static temperature
+- $c_p$, the specific heat at constant pressure
+- $\frac{\rho_2}{\rho_1}$, the density ratio across the bow shock
+- $\Pi$, the binary scaling parameter
+- $Da$, the Damköhler number
+- $Q$, the total heat load per unit area
+- $\varepsilon$, the surface emissivity
+- $h_{\text{eff}}$, the effective heat of ablation
+- $\rho_m$, the density of the ablative material
+- $\alpha$, the thermal diffusivity of the ablative material
+- $Re$, the Reynolds number
+- $St$, the Stanton number, with $St_{\text{lam}}$ and $St_{\text{turb}}$ its laminar and turbulent values
+- $\bar{\gamma}$, the intermittency, the fraction of time the flow is turbulent
 
 ## References
 

@@ -1,0 +1,543 @@
+# Equation classification for A314. Read by `python3 _lib/equations.py`.
+
+caution = "Speeds are in metres per second, heat fluxes in watts per square centimetre unless a line gives megajoules per square metre, and densities in kilogrammes per cubic metre, while $\\gamma$ is the flight path angle in the Allen and Eggers relations and the ratio of specific heats elsewhere, $\\delta$ is both a shock standoff distance and a thermal penetration depth, and $\\sigma$ is the Stefan-Boltzmann constant."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The velocity increment of a stage is the specific impulse times standard gravity times the logarithm of the initial to final mass ratio."
+cite = []
+digest = "53c995ec481974fd"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Mass Ratio of the Descending Stack"
+gloss = "The mass ratio for the 2,339 metre per second increment is evaluated at a specific impulse of 235 seconds that the article assumes as typical of period solid motors."
+cite = []
+digest = "d03e532463dea9c5"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Velocity Increment From the Documented Stage Speeds"
+gloss = "The documented stage speeds of 5,000 and 13,000 feet per second differ by 2,438 metres per second."
+cite = ["research_murphy_rubesin_1965"]
+digest = "a55e13703f5c7274"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Pressure in the Isothermal Layer"
+gloss = "Between 11 and 20 kilometres the standard atmosphere is isothermal, so pressure falls exponentially with geopotential altitude above the base of the layer."
+cite = []
+digest = "a4c93e2fe2d952b1"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Ideal Gas Law for Density"
+gloss = "Density follows from pressure and temperature through the ideal gas law."
+cite = []
+digest = "6af362043e249315"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Free-Fall Speed Without Drag"
+gloss = "A body falling through a height difference without drag reaches the speed given by energy conservation."
+cite = []
+digest = "437397cc03f6d12e"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Free-Fall Speed From the Top of the Research Range"
+gloss = "The free-fall speed from 160.9 kilometres is evaluated to a target altitude of 15 kilometres with a mean gravitational acceleration of 9.72 metres per second squared that the article assumes."
+cite = []
+digest = "8f09ec8cf454a040"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Speed Ratio of Powered Descent Over Free Fall"
+gloss = "The reported 4,023 metres per second, which the article takes as the representative X-17 speed, is divided by the assumed free-fall speed."
+cite = []
+digest = "21dffc89842c2832"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Heating Ratio of Powered Descent Over Free Fall"
+gloss = "Cubing the speed ratio built on the representative speed and assumed free fall gives the heating multiplier at equal density."
+cite = []
+digest = "d980fc38f6269ed8"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Velocity Increment the Upper Stages Must Supply"
+gloss = "The increment is the representative X-17 speed less the assumed free-fall speed, a lower bound because drag during the burn is neglected."
+cite = []
+digest = "bd87859187326a63"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Speed of Sound in the Isothermal Stratosphere"
+gloss = "The speed of sound at the standard isothermal temperature of 216.65 kelvin is 295.1 metres per second."
+cite = []
+digest = "c193617cd9466d97"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Flight Speeds From the Reported Mach Numbers"
+gloss = "The reported Mach numbers of 11.3 to 14.4 times the stratospheric speed of sound give 3,334 to 4,249 metres per second."
+cite = []
+digest = "894e1196eb884307"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Heating Ratio From the Documented Stage Speeds"
+gloss = "At equal density the cube of the ratio of the documented exit and ignition speeds gives the heating multiplier of the upper stages."
+cite = []
+digest = "a0b8f13c05840764"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Free-Fall Speed From the Nominal Apogee"
+gloss = "The free-fall speed from the nominal 400,000 foot apogee uses the same assumed mean gravitational acceleration and target altitude."
+cite = []
+digest = "6994549174b9ff4a"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Heating Shortfall From the Highest Quoted Apogee"
+gloss = "The cube of the representative X-17 speed over the free-fall speed from 402 kilometres shows that even that apogee leaves the falling case short."
+cite = []
+digest = "2681e649d6391cbf"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Allen and Eggers Ballistic Entry Velocity"
+gloss = "For ballistic entry into an exponential atmosphere at constant flight path angle, velocity decays as a double exponential of altitude set by the ballistic coefficient."
+cite = ["research_allen_eggers_1953"]
+digest = "b0dfeb36d147f3b2"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Allen and Eggers Peak Deceleration"
+gloss = "The peak deceleration of a ballistic entry depends on entry speed, flight path angle and scale height but not on the ballistic coefficient."
+cite = ["research_allen_eggers_1953"]
+digest = "e379f3d96354c0dd"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Velocity at Peak Heating for the Reference Entry"
+gloss = "The Allen and Eggers velocity at peak heating, $e^{-1/6}$ of the entry speed, is evaluated at a representative intercontinental entry speed of 7,000 metres per second."
+cite = ["research_allen_eggers_1953"]
+digest = "226c41a19d5da011"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Sutton and Graves Stagnation-Point Heating"
+gloss = "Stagnation-point convective heat flux scales as the square root of density over nose radius times the cube of velocity."
+cite = ["research_suttonk_gravesrajr_1971"]
+digest = "85d8b6e5de30e15f"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Density Required to Hold Heating Fixed"
+gloss = "Holding the Sutton and Graves heat flux constant requires density to vary as the inverse sixth power of velocity."
+cite = ["research_suttonk_gravesrajr_1971"]
+digest = "16f1cd3f1b15189b"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Density Ratio for Matched Heating"
+gloss = "The required density ratio compares a representative intercontinental speed of 7,000 metres per second with the representative X-17 speed of 4,023."
+cite = []
+digest = "4efd87245b1a523b"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Density at the Matched Condition"
+gloss = "The density ratio is applied to the standard atmosphere density at 35 kilometres, which the article takes as a representative intercontinental peak-heating altitude."
+cite = []
+digest = "8175e20692675046"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Heat Flux at the Reference Condition"
+gloss = "The Sutton and Graves flux is evaluated at the representative intercontinental condition with a nose radius of 0.15 metres that the article assumes."
+cite = []
+digest = "4013402f717b0de4"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Highest Heating the X-17 Can Produce"
+gloss = "The maximum flux is the Sutton and Graves relation at sea-level density with the representative speed and the assumed 0.15 metre nose radius."
+cite = []
+digest = "30f6fbeaaf009837"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Stagnation Enthalpy"
+gloss = "The stagnation enthalpy of the oncoming air is half the square of the flight speed and contains no density."
+cite = []
+digest = "b02170f5cfe0ad28"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Stagnation Enthalpy of the X-17"
+gloss = "The stagnation enthalpy is evaluated at 4,023 metres per second, the reported speed the article takes as representative."
+cite = []
+digest = "9fbf75109c6b2970"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Stagnation Enthalpy of the Reference Entry"
+gloss = "The stagnation enthalpy is evaluated at the representative intercontinental speed of 7,000 metres per second."
+cite = []
+digest = "d45ff9dd1260795b"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Perfect-Gas Stagnation Temperature"
+gloss = "The perfect-gas stagnation temperature is the free-stream temperature plus the stagnation enthalpy over the specific heat at constant pressure."
+cite = []
+digest = "2111564e72e0d1e1"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Strong-Shock Density Ratio Limit"
+gloss = "For a perfect gas the density ratio across a strong normal shock tends to $(\\gamma + 1)/(\\gamma - 1)$, which is 6 at $\\gamma = 1.4$."
+cite = []
+digest = "10ad29b7de696b21"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Shock Standoff Scaling"
+gloss = "The shock standoff distance over the nose radius scales with the inverse of the shock density ratio."
+cite = []
+digest = "40bc561d8df59b07"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Shock-Layer Radiative Heating Scaling"
+gloss = "Radiative heating from the shock layer scales with nose radius, density to the power 1.2 and velocity to the power 8.5."
+cite = []
+digest = "649be5cc08ee3712"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Radiative Heating Ratio at Equal Density"
+gloss = "The velocity term of the radiative scaling compares the representative intercontinental and X-17 speeds."
+cite = []
+digest = "eb7fba7efc86057c"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Binary Scaling Parameter"
+gloss = "Chemical nonequilibrium is governed by the product of density and body length."
+cite = []
+digest = "01f0e5c9bbeafafe"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Binary Scaling Parameter of the Reference Entry"
+gloss = "The parameter is evaluated at 35 kilometres for a body length of 1.5 metres that the article takes as representative of an intercontinental re-entry body."
+cite = []
+digest = "c98d11ad02e1aef9"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Binary Scaling Parameter of the X-17"
+gloss = "The parameter is evaluated at the matched density for a nose length of 0.5 metres that the article takes for the X-17."
+cite = []
+digest = "ecd54b3a23ab1b8b"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Damköhler Number Scaling"
+gloss = "The Damköhler number, the ratio of flow time to chemical time, scales as density times length over velocity."
+cite = []
+digest = "35c4b6c4d22873b9"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Damköhler Ratio of the X-17 to the Reference Entry"
+gloss = "The ratio uses the representative speeds, densities and body lengths of the two conditions."
+cite = []
+digest = "3432133962607c76"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Total Heat Load"
+gloss = "The total heat load is the time integral of the heat flux."
+cite = []
+digest = "93674ce5b937bd0a"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Heat Load of an X-17 Pulse"
+gloss = "The load assumes a triangular rate history and an exposure time of 6 seconds that the article takes as representative."
+cite = []
+digest = "aed9e3cd672e9916"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Heat Load of the Reference Entry"
+gloss = "The load assumes the same peak rate, a triangular history and an exposure time of 25 seconds that the article takes as representative."
+cite = []
+digest = "384c1c2cf0fd5bd9"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Inverse Square Root Dependence on Nose Radius"
+gloss = "At fixed density and speed stagnation-point heating falls as the inverse square root of nose radius."
+cite = ["research_suttonk_gravesrajr_1971"]
+digest = "24f540cb976fee7f"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Ballistic Coefficient"
+gloss = "The ballistic coefficient is mass over drag coefficient times reference area."
+cite = []
+digest = "befa8c5ed3ff1bd7"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Flux Ratio of the Flown Hemisphere"
+gloss = "The flown 0.1143 metre nose radius is compared with the 0.15 metre radius that the article assumes for its reference condition."
+cite = []
+digest = "35e9dca10c4f2a1d"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Radiative Equilibrium of a Surface"
+gloss = "A surface in steady state rejects heat at emissivity times the Stefan-Boltzmann constant times the fourth power of temperature."
+cite = []
+digest = "26a8419cf9171682"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Radiation Equilibrium Temperature at the Matched Flux"
+gloss = "The temperature needed to radiate the matched flux is evaluated at an emissivity of 0.85 that the article assumes."
+cite = []
+digest = "f2b9bf4afa4a0e7d"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Ablation Energy Balance"
+gloss = "The ablation mass flux is the net heat flux divided by the effective heat of ablation."
+cite = []
+digest = "98910a0a13880bc4"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Surface Recession Over an Exposure"
+gloss = "The recession assumes a triangular rate history, hence the factor of one half, with an effective heat of ablation and material density that the article takes as phenolic-like values."
+cite = []
+digest = "40cdd2f549e96893"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Thermal Penetration Depth"
+gloss = "Heat diffuses into a solid a distance of the square root of thermal diffusivity times time, with diffusivity the conductivity over density times specific heat."
+cite = []
+digest = "125cfa49873e1b4f"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Penetration Depths of a Pulse and a Soak"
+gloss = "The depths use a phenolic-like diffusivity of $1.43 \\times 10^{-7}$ square metres per second that the article assumes and the assumed exposure times."
+cite = []
+digest = "8d05bc7cc4dbd462"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Launch Thrust to Weight Ratio"
+gloss = "The first-stage thrust of 48,000 pounds force over the 12,000 pound launch weight gives a ratio of four."
+cite = ["ref_parsch_x17"]
+digest = "184ce14cb2ce5d07"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number is density times speed times length over dynamic viscosity."
+cite = []
+digest = "6da6da9fd45b1d5b"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Flat-Plate Stanton Number Scaling"
+gloss = "Flat-plate correlations give the Stanton number as the inverse square root of Reynolds number in laminar flow and the inverse fifth root in turbulent flow."
+cite = []
+digest = "3a1a610ab93c38e4"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Turbulent Heating Penalty"
+gloss = "The turbulent to laminar ratio grows as $Re^{0.3}$ and is evaluated from a reference of $10^{6}$ that the article chooses to the computed $2.74 \\times 10^{7}$."
+cite = []
+digest = "0d9f3115e5bcfe65"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Intermittency-Weighted Transitional Heating"
+gloss = "Transitional heating is a blend of laminar and turbulent Stanton numbers weighted by the intermittency, the fraction of time the flow is turbulent."
+cite = ["research_murphy_rubesin_1965"]
+digest = "83bb4d7bdf261b21"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Transitional Heating Relative to Laminar"
+gloss = "Substituting the turbulent penalty built on the chosen reference Reynolds number into the intermittency blend gives the heating relative to laminar."
+cite = []
+digest = "042bbf84fef8f8c7"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the launch mass, with $m_1$ the burnout mass"
+
+[[symbol]]
+tex = 'v_{\text{ff}}'
+meaning = "the free-fall speed without drag"
+
+[[symbol]]
+tex = 'V_e'
+meaning = "the entry speed"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the ballistic coefficient"
+
+[[symbol]]
+tex = 'H'
+meaning = "the atmospheric scale height"
+
+[[symbol]]
+tex = '\sin\gamma'
+meaning = "the sine of the flight path angle $\\gamma$"
+
+[[symbol]]
+tex = '\dot{q}'
+meaning = "the stagnation-point heat flux, with $\\dot{q}_{\\text{rad}}$ its radiative part"
+
+[[symbol]]
+tex = 'R_n'
+meaning = "the effective nose radius"
+
+[[symbol]]
+tex = 'K'
+meaning = "the Sutton and Graves constant"
+
+[[symbol]]
+tex = 'h_0'
+meaning = "the stagnation enthalpy"
+
+[[symbol]]
+tex = 'T_0'
+meaning = "the stagnation temperature, with $T_\\infty$ the free-stream static temperature"
+
+[[symbol]]
+tex = 'c_p'
+meaning = "the specific heat at constant pressure"
+
+[[symbol]]
+tex = '\frac{\rho_2}{\rho_1}'
+meaning = "the density ratio across the bow shock"
+
+[[symbol]]
+tex = '\Pi'
+meaning = "the binary scaling parameter"
+
+[[symbol]]
+tex = 'Da'
+meaning = "the Damköhler number"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the total heat load per unit area"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the surface emissivity"
+
+[[symbol]]
+tex = 'h_{\text{eff}}'
+meaning = "the effective heat of ablation"
+
+[[symbol]]
+tex = '\rho_m'
+meaning = "the density of the ablative material"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the thermal diffusivity of the ablative material"
+
+[[symbol]]
+tex = 'Re'
+meaning = "the Reynolds number"
+
+[[symbol]]
+tex = 'St'
+meaning = "the Stanton number, with $St_{\\text{lam}}$ and $St_{\\text{turb}}$ its laminar and turbulent values"
+
+[[symbol]]
+tex = '\bar{\gamma}'
+meaning = "the intermittency, the fraction of time the flow is turbulent"

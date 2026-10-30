@@ -1,0 +1,1111 @@
+# Equation classification for A302. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in units of the International System after conversion from the pounds, feet and slug square feet of the sources, sweep enters trigonometric functions in degrees but derivatives with respect to sweep are per radian, and the aerodynamic centre travel rests on one assumed quantity, the placement of the panel aerodynamic centre at forty percent of panel length, so every figure derived from the 0.93 metre travel inherits that assumption."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Simple Sweep Decomposition of the Free Stream"
+gloss = "Resolving the free stream across and along a swept leading edge gives a normal component and a normal Mach number reduced by the cosine of the sweep."
+cite = []
+digest = "6df574988028ac7a"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Drag-Divergence Mach Number Scaling with Sweep"
+gloss = "The simple sweep relation raises the drag-divergence Mach number by a power of the reciprocal cosine of sweep, with an exponent between one half and one on a real wing."
+cite = []
+digest = "6af99a927506a4ec"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Streamwise Chord and Thickness Ratio of a Pivoting Panel"
+gloss = "Because the section is fixed in the panel frame, sweeping lengthens the streamwise chord by the reciprocal cosine and reduces the streamwise thickness ratio by the cosine."
+cite = []
+digest = "ac3e40ad12943482"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Streamwise Thickness Ratio at 60 Degrees"
+gloss = "A section 11 percent thick streamwise at 20 degrees presents 5.9 percent at 60 degrees."
+cite = []
+digest = "1ab874f984eedd3a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Streamwise Position of a Pivoting Panel Aerodynamic Centre"
+gloss = "A point on the panel at distance $s_{ac}$ from the pivot moves streamwise with the sine of the sweep angle as the panel rotates."
+cite = []
+digest = "27ac00d99008cb0d"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Aerodynamic Centre Travel Between Two Sweep Settings"
+gloss = "The streamwise travel between two sweep angles is the distance from the pivot times the difference of the sines."
+cite = []
+digest = "0348e27dd173544b"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Installed Thrust and Thrust-to-Weight Ratio"
+gloss = "The J35 engine of 4900 pounds gives 21.8 kilonewtons and a thrust-to-weight ratio of 0.50 at the gross mass of 4479 kilograms."
+cite = ["ref_bell_x5"]
+digest = "b95a92e8b73a28d6"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Empty and Disposable Mass Fractions"
+gloss = "The empty mass of 2880 kilograms is 0.643 of the gross mass, leaving 0.357 for fuel and payload."
+cite = ["ref_bell_x5"]
+digest = "5ad7e07c5efec426"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Wing Loading at Gross Mass"
+gloss = "The gross weight divided by the wing area of 16.26 square metres gives 2702 newtons per square metre."
+cite = ["ref_bell_x5"]
+digest = "3d7c931958179fad"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Projected Span of a Pivoting Wing"
+gloss = "A straight panel of length $L$ rotating about a pivot at station $y_p$ projects a span of twice the pivot station plus the panel length times the cosine of sweep."
+cite = []
+digest = "d89c3fb206c07b76"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Projected Semi-Span at Two Sweep Angles"
+gloss = "Writing the span relation at two sweep angles gives two linear equations in the pivot station and the panel length."
+cite = []
+digest = "c0367aa25a47a2c8"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Panel Length from Two Spans"
+gloss = "Subtracting the two span equations gives the panel length as the difference of spans over twice the difference of the cosines."
+cite = []
+digest = "3b94d25e1edc61b3"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Panel Length of the X-5"
+gloss = "The published spans of 10.211 metres at 20 degrees and 6.325 metres at 60 degrees give a panel length of 4.42 metres."
+cite = ["ref_bell_x5"]
+digest = "d2e5ad6445c15e9a"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Pivot Station of the X-5"
+gloss = "Back-substitution places the pivot 0.953 metres from the centreline."
+cite = []
+digest = "a8064cf16870919e"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Pivot Station as a Fraction of the Semi-Span"
+gloss = "The pivot lies at 18.7 percent of the unswept semi-span."
+cite = []
+digest = "e77088433d09a01a"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Spanwise Station of the Mean Aerodynamic Chord"
+gloss = "For a straight-tapered panel of taper ratio $\\lambda$ the mean aerodynamic chord lies at the stated fraction of panel length from the root."
+cite = []
+digest = "e1c85bb6a3823bb4"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Panel Aerodynamic Centre at Forty Percent of Panel Length"
+gloss = "The article places the panel aerodynamic centre at forty percent of panel length, slightly inboard of the range the taper relation returns, giving 1.77 metres."
+cite = []
+digest = "7b1de52aa2aee9e4"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Aerodynamic Centre Travel from 20 to 60 Degrees"
+gloss = "With the assumed forty percent placement the aerodynamic centre moves 0.93 metres aft between the extreme sweep settings."
+cite = []
+digest = "fdaaa7defd5f71d9"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Relative Sensitivity of the Travel to the Assumed Distance"
+gloss = "Because the travel is linear in the distance from the pivot, its relative error equals the relative error in that distance."
+cite = []
+digest = "cdeab6f3cf410d54"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Mean Geometric Chord at the Low Sweep Setting"
+gloss = "The wing area divided by the unswept span gives a mean chord of 1.59 metres."
+cite = []
+digest = "e0a33ad740602a3b"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Aerodynamic Centre Travel in Mean Chords"
+gloss = "The estimated travel of 0.93 metres is 58 percent of the mean chord."
+cite = []
+digest = "e121009ad42f2b92"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Static Margin and Pitch Stiffness"
+gloss = "The static margin is the distance from the centre of gravity to the neutral point in mean chords, and the pitch stiffness is the negative of the lift-curve slope times that margin."
+cite = []
+digest = "f8538b4987f12755"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Static Margin Change of an Uncompensated Sweep"
+gloss = "Taking the neutral point to move with the full estimated aerodynamic centre travel and the centre of gravity to stay fixed raises the static margin by 0.58."
+cite = []
+digest = "d7b8ef0a71d01945"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Stick Force per Unit Load Factor and Manoeuvre Margin"
+gloss = "The stick force per unit load factor is proportional to the manoeuvre margin, which adds the pitch damping over twice the relative density to the static margin."
+cite = []
+digest = "7555ccbcaed031d7"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Centre of Gravity Limits"
+gloss = "The aft limit lies forward of the neutral point by the minimum static margin, and the article sets the forward limit where full elevator can just trim the moment of maximum lift about the aerodynamic centre."
+cite = []
+digest = "93bfbc00157ac503"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Usable Centre of Gravity Range over the Sweep Schedule"
+gloss = "The article defines the usable range of a pivoting wing as the intersection of the admissible intervals over every sweep setting, which is empty for the uncompensated travel."
+cite = []
+digest = "94891fc20bab65a9"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Wing Translation to Null the Travel"
+gloss = "Cancelling the estimated travel exactly would require translating the wing 0.93 metres forward."
+cite = []
+digest = "89c745dec7578a5c"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Lift-Weighted Aerodynamic Centre with a Fixed Glove"
+gloss = "The article takes the wing aerodynamic centre as the average of the glove and panel positions weighted by the fraction of lift each carries."
+cite = []
+digest = "fb030365b599dcd3"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Travel with a Fixed Glove"
+gloss = "Under the lift-share weighting only the panel share of the lift moves, so the travel is reduced by one less the glove fraction."
+cite = []
+digest = "06e5d2b03251891e"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Panel Length and Aerodynamic Centre Distance Against Pivot Station"
+gloss = "The panel length is what remains of the semi-span outboard of the pivot, and the aerodynamic centre distance is a fixed fraction $\\beta$ near 0.4 of it."
+cite = []
+digest = "bb9aec46c50a6a49"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Glove Lift Fraction"
+gloss = "The article takes the glove lift fraction to grow with pivot station as its share of the semi-span."
+cite = []
+digest = "f22298f0b29f0c11"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Travel as a Function of Pivot Station"
+gloss = "Combining the glove share and the shortened panel makes the travel quadratic in pivot station."
+cite = []
+digest = "8c2073c93037edfa"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Ratio of Outboard to Inboard Pivot Travel"
+gloss = "A glove carrying half the lift with a panel two thirds as long reduces the travel to a third of its inboard-pivot value."
+cite = []
+digest = "fe0fa65302296ffa"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Aspect Ratio of a Pivoting Wing"
+gloss = "The aspect ratio is the square of the sweep-dependent span divided by the fixed reference area."
+cite = []
+digest = "3d23ab9fdacfc814"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Aspect Ratio at the Three Detents"
+gloss = "The recovered pivot geometry gives aspect ratios of 6.41, 4.63 and 2.46 at 20, 40 and 60 degrees."
+cite = []
+digest = "7bec75c79a0569b5"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Swept-Wing Lift-Curve Slope"
+gloss = "The planform lift-curve slope formula accounts for aspect ratio, compressibility, half-chord sweep and the section lift-curve slope."
+cite = []
+digest = "cf2ec8aa8cf3cd7e"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Lift-Curve Slope at the Three Detents"
+gloss = "Taking the quoted sweep angles as half-chord sweep, an approximation the article states, gives low-speed slopes of 4.42, 3.48 and 2.11 per radian."
+cite = []
+digest = "d70761e401418719"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Lift-Curve Slope Ratio Across the Sweep Range"
+gloss = "Under the same half-chord approximation the slope at 20 degrees is 2.09 times that at 60 degrees."
+cite = []
+digest = "e98757b5af08cfb7"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Maximum Lift Coefficient Scaling with Sweep"
+gloss = "Simple sweep theory reduces the maximum lift coefficient roughly with the cosine of sweep."
+cite = []
+digest = "81a3b563b539738e"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Stall Speed"
+gloss = "The stall speed is the speed at which the maximum lift coefficient supports the weight."
+cite = []
+digest = "1a0e2df6b8a50a21"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Stall Speeds at 20 and 60 Degrees"
+gloss = "Assuming a maximum lift coefficient of 1.20 at 20 degrees and scaling it by the cosine of sweep gives stall speeds of 60.6 and 83.1 metres per second."
+cite = []
+digest = "d3c765bb579902bc"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Korn Relation for the Drag-Divergence Mach Number"
+gloss = "The Korn relation estimates the drag-divergence Mach number from sweep, streamwise thickness ratio and lift coefficient with a technology factor $\\kappa_A$."
+cite = []
+digest = "691442f3c5290df3"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Drag-Divergence Mach Numbers at the Three Detents"
+gloss = "Evaluating the Korn relation with an assumed technology factor of 0.87 at a lift coefficient of 0.3 gives 0.765, 0.916 and 1.27, the last outside the range of validity."
+cite = []
+digest = "2a8983ed0e48073b"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Brake Energy at Touchdown"
+gloss = "The brakes must absorb approximately the kinetic energy at touchdown."
+cite = []
+digest = "f05dcf6ea4992085"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Induced Drag Coefficient in Terms of Span"
+gloss = "The induced drag coefficient is the square of the lift coefficient over pi, aspect ratio and span efficiency, which at fixed area varies inversely with the square of span."
+cite = []
+digest = "cb1832e588574589"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Induced Drag at 20 and 60 Degrees"
+gloss = "With an assumed span efficiency of 0.85 at a lift coefficient of 0.3 the induced drag coefficient rises from 0.0053 to 0.0137."
+cite = []
+digest = "a4b776625ee8a431"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Mean Sweep Rate"
+gloss = "Moving forty degrees in thirty seconds is a mean sweep rate of 1.33 degrees per second."
+cite = ["ref_bell_x5"]
+digest = "2b578c7c00cc7590"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Aerodynamic Centre Drift Rate"
+gloss = "The estimated travel of 0.93 metres over thirty seconds is a drift of 3.1 centimetres per second."
+cite = []
+digest = "b27631dfac194843"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Short Period Frequency and Damping Ratio"
+gloss = "The short period frequency is approximated by the square root of the negative pitch stiffness, and the damping ratio by the sum of the damping terms divided by twice that frequency."
+cite = []
+digest = "3366d255537ffb01"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Ratio of Sweep Time to Short Period"
+gloss = "Taking the short period near 3 radians per second for an aircraft of this class, the sweep transit is about fifteen short periods long."
+cite = []
+digest = "6f9d61e020a6d2bf"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Quasi-Static Sweep Criterion"
+gloss = "The article defines a quasi-static parameter as the stability change produced by sweeping during one short-period cycle relative to the static margin, which must be much less than one."
+cite = []
+digest = "d946206d857b626c"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Quasi-Static Parameter of the X-5"
+gloss = "With an assumed 5 percent margin, the estimated travel, the slower sweep rate and a 2.1 second period the parameter is 0.81."
+cite = []
+digest = "bb6a2756b1461436"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Pivot Bending Moment"
+gloss = "The pivot carries the panel lift at load factor $n$ acting at the panel centre of pressure."
+cite = []
+digest = "9ec081dba7357d4e"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Panel Lift at a Load Factor of Seven"
+gloss = "Assuming the two panels carry sixty percent of the lift, one panel carries 92.2 kilonewtons at a design load factor of seven."
+cite = []
+digest = "a1fdebe714977d4e"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Pivot Bending Moment at Design Load"
+gloss = "With the centre of pressure at the assumed forty percent of panel length the pivot moment is 163 kilonewton metres."
+cite = []
+digest = "6735bebe1eda41c4"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Bearing Reaction of a Couple"
+gloss = "A moment reacted by two bearings separated by a structural depth $h$ produces a force equal to the moment over that depth."
+cite = []
+digest = "8624f10cd7b00c9c"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Bearing Reaction at Half a Metre Depth"
+gloss = "An assumed structural depth of half a metre gives a bearing reaction of 326 kilonewtons."
+cite = []
+digest = "1caf8ab4ba8fc978"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Lug Bearing Stress"
+gloss = "An assumed lug of 0.10 metre pin diameter and 0.05 metre thickness carries the reaction at a bearing stress of 65 megapascals."
+cite = []
+digest = "4c6c1af83e7565a6"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Pin Double Shear Stress"
+gloss = "The same assumed pin in double shear carries the reaction at 21 megapascals."
+cite = []
+digest = "a01cd0ed49181dc1"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Sweep Error from Bearing Clearance"
+gloss = "A clearance $\\delta$ at radius $s_{ac}$ registers as a small sweep error equal to their ratio in radians."
+cite = []
+digest = "6d972f7850ff2a07"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Structural Mass Fraction with a Variable-Geometry Increment"
+gloss = "The article writes the structural mass fraction as a fixed-wing baseline plus an increment for the variable-geometry mechanism."
+cite = []
+digest = "18255901c8b1b2da"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Variable-Geometry Mass Penalty"
+gloss = "Taking the increment as three percent of gross mass gives 134 kilograms."
+cite = []
+digest = "b7958ba5113eb626"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Break-Even Condition for Variable Sweep"
+gloss = "The article states that variable sweep pays when the mission-weighted fractional gain in lift-to-drag ratio exceeds the mass penalty as a fraction of fuel mass."
+cite = []
+digest = "4d15e2be359ccf1b"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Breguet Range Equation"
+gloss = "Range is speed over thrust specific fuel consumption times lift-to-drag ratio times the logarithm of the initial to final mass ratio."
+cite = []
+digest = "fdcc4a6b29b12ca0"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Residual Travel Under Partial Compensation"
+gloss = "A mechanism compensating a fraction $\\eta_c$ of the travel leaves a residual of one less that fraction."
+cite = []
+digest = "3f5b4ffa939529f3"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Trim Moment Increment from Residual Travel"
+gloss = "The pitching moment change is the lift coefficient times the residual travel in mean chords."
+cite = []
+digest = "29f9a31f90e29d8e"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Elevator Deflection to Absorb a Trim Change"
+gloss = "The elevator deflection needed is the moment change divided by the magnitude of the elevator control power."
+cite = []
+digest = "086f9fa0234e49c1"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Tail Load to Trim a Moment"
+gloss = "The tail load is the trim moment divided by the tail arm."
+cite = []
+digest = "1ca11d63539382d6"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Tail Trim Load at Mach 0.9 and 40,000 Feet"
+gloss = "Assuming eighty percent compensation and a 4.5 metre tail arm, the residual moment requires a tail load of 2.14 kilonewtons, about 4.9 percent of the weight."
+cite = []
+digest = "8dc383146350e555"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Tail Induced Drag Referred to Wing Area"
+gloss = "The trim drag is the induced drag of the tail lift, referred to wing area by the area ratio."
+cite = []
+digest = "1e97346f392076a4"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Neutral Point of a Wing and Tail"
+gloss = "The neutral point lies aft of the wing aerodynamic centre by the tail volume coefficient times the tail-to-wing lift slope ratio corrected for downwash."
+cite = []
+digest = "a20f2f2ef3674c42"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Lifting-Line Downwash Derivative"
+gloss = "Lifting-line theory estimates the downwash derivative as twice the wing lift-curve slope over pi times the aspect ratio."
+cite = []
+digest = "108c64da6cffbc2f"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Linear State-Space Model with Sweep-Dependent Matrices"
+gloss = "The linearised longitudinal dynamics are written in state-space form with plant and input matrices that depend on sweep."
+cite = []
+digest = "68705915832ffcfc"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Short Period Frequency Scaling"
+gloss = "The short period frequency scales as the square root of the product of lift-curve slope and static margin."
+cite = []
+digest = "32315eb7c31adab5"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Short Period Frequency Ratio at Fixed Static Margin"
+gloss = "Granting perfect compensation so that the static margin is held at 0.05, the lift-curve slope alone changes the frequency by a factor of 1.45."
+cite = []
+digest = "5c46b2e1484d7c4b"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Gain Schedule Against Sweep"
+gloss = "The article writes a scheduling law that scales a feedback gain by the inverse square of the short period frequency relative to a reference sweep."
+cite = []
+digest = "c38562068e2f4b0a"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Fin Directional Stability and Yaw Damping"
+gloss = "The fin supplies directional stiffness through the vertical tail volume coefficient and yaw damping with a square of arm dependence."
+cite = []
+digest = "7c2bba178c3a57eb"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Dutch Roll Frequency and Roll Mode Time Constant"
+gloss = "The Dutch roll frequency and the roll mode time constant both contain the span explicitly."
+cite = ["ref_dutch_roll"]
+digest = "d75984d0cea293a9"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Sweep Contribution to the Dihedral Effect"
+gloss = "A first-order estimate makes the rolling moment due to sideslip of a swept wing proportional to the lift coefficient and the tangent of the sweep."
+cite = ["research_lampert_1951"]
+digest = "87476b74372e24ee"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Euler Roll Moment Equation"
+gloss = "The roll acceleration is driven by the aerodynamic rolling moment and the inertial term in the product of pitch and yaw rates."
+cite = []
+digest = "fced0ff9f1be66dc"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Euler Pitch Moment Equation"
+gloss = "The pitch acceleration is driven by the aerodynamic pitching moment and the inertial term in the product of yaw and roll rates."
+cite = []
+digest = "4454d09f6d51f215"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Euler Yaw Moment Equation"
+gloss = "The yaw acceleration is driven by the aerodynamic yawing moment and the inertial term in the product of roll and pitch rates."
+cite = []
+digest = "ceeec813f4a863f7"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Spin Inertia Parameter"
+gloss = "The spin correlation groups the difference of roll and pitch inertias over the mass times the square of the span, which is negative for a fuselage-loaded aircraft."
+cite = ["research_neihouse_lichtenstein_1946"]
+digest = "1cf82e0efffa359d"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Steady Spin Yaw Equilibrium"
+gloss = "In a steady spin the aerodynamic yawing moment cancels the inertial yawing moment."
+cite = []
+digest = "84431d5f7f0cff20"
+
+[[equation]]
+tag = 85
+class = "bespoke"
+title = "Bespoke Rudder Recovery Condition"
+gloss = "The article states recovery as the requirement that the maximum rudder moment exceed the inertial yawing moment of the spin."
+cite = []
+digest = "a4c71150319a6ec9"
+
+[[equation]]
+tag = 86
+class = "bespoke"
+title = "Bespoke Inertia Parameter Ratio at Fixed Inertias"
+gloss = "Holding the inertias fixed across the sweep range, the parameter grows as the inverse square of the span, by a factor of 2.61."
+cite = []
+digest = "e600105115963e10"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Spin Inertia Parameter at 58.7 Degrees"
+gloss = "The measured inertias, weight and span at 58.7 degrees give an inertia parameter of minus 0.0345."
+cite = ["research_videan_1955"]
+digest = "13f2e9b0899efc2f"
+
+[[equation]]
+tag = 88
+class = "bespoke"
+title = "Bespoke Spin Descent Speed"
+gloss = "Assuming a normal force coefficient of 1.2 in the spin, the descent speed at which normal force balances weight is 60.6 metres per second at sea level."
+cite = []
+digest = "120465f7408fba61"
+
+[[equation]]
+tag = 89
+class = "bespoke"
+title = "Bespoke Height Lost per Spin Turn"
+gloss = "At an assumed spin rate of 2.0 radians per second the aircraft loses about 190 metres per turn."
+cite = []
+digest = "1d65c01f5e128267"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Tail Damping Power Factor"
+gloss = "The tail damping power factor is the product of the tail damping ratio and the unshielded rudder volume coefficient."
+cite = ["research_neihouse_lichtenstein_1946"]
+digest = "b632d04dd5079509"
+
+[[equation]]
+tag = 91
+class = "bespoke"
+title = "Bespoke Turbojet Thrust Lapse with Altitude and Mach Number"
+gloss = "The article models thrust as proportional to ambient pressure with an isentropic ram correction."
+cite = []
+digest = "77f16ebf5e5ab6ad"
+
+[[equation]]
+tag = 92
+class = "standard"
+title = "Tropospheric Standard Atmosphere and Speed of Sound"
+gloss = "Temperature falls linearly with altitude, pressure follows the corresponding power law, and the speed of sound follows from the temperature."
+cite = []
+digest = "a649a94958635920"
+
+[[equation]]
+tag = 93
+class = "standard"
+title = "Thrust-Limited Maximum Mach Number"
+gloss = "Equating thrust to drag with the dynamic pressure written in Mach number form and solving gives the square of the maximum Mach number."
+cite = []
+digest = "e617410b33fb8cf3"
+
+[[equation]]
+tag = 94
+class = "standard"
+title = "Specific Excess Power and Energy Height"
+gloss = "Specific excess power is the speed times the excess of thrust over drag divided by the weight, and energy height adds the kinetic energy per unit weight to the altitude."
+cite = []
+digest = "9538dc9b9d287421"
+
+[[equation]]
+tag = 95
+class = "standard"
+title = "Drag Polar with Sweep-Dependent Terms"
+gloss = "The parabolic drag polar is written with zero-lift drag, aspect ratio and span efficiency each a function of sweep."
+cite = []
+digest = "5494b698c9d6738e"
+
+[[equation]]
+tag = 96
+class = "standard"
+title = "Optimum Sweep Condition"
+gloss = "The drag-minimising sweep at a given condition is where the derivative of drag with respect to sweep vanishes."
+cite = []
+digest = "eec7e94cb61e4229"
+
+[[equation]]
+tag = 97
+class = "bespoke"
+title = "Bespoke Expanded Optimum Sweep Condition"
+gloss = "Differentiating the polar with the span efficiency held constant balances the fall of zero-lift drag against the rise of induced drag with sweep."
+cite = []
+digest = "e7191b3280d21db8"
+
+[[equation]]
+tag = 98
+class = "bespoke"
+title = "Bespoke Test Matrix of a Variable-Sweep Programme"
+gloss = "The article multiplies the conditions a fixed-wing programme needs by the number of sweep settings."
+cite = []
+digest = "e94413f4bc41a340"
+
+[[equation]]
+tag = 99
+class = "standard"
+title = "Load Recovery from a Strain Gauge Calibration"
+gloss = "Loads are recovered by applying the inverse of the calibration matrix to the measured strains."
+cite = []
+digest = "5dd7a64ffcbb37ae"
+
+[[equation]]
+tag = 100
+class = "standard"
+title = "Condition Number Bound on Recovered Load Error"
+gloss = "The relative error in the recovered loads is bounded by the condition number of the calibration matrix times the relative strain error."
+cite = []
+digest = "b134337a00cf2610"
+
+[[equation]]
+tag = 101
+class = "bespoke"
+title = "Bespoke Lift-Curve Slope Sensitivity to Sweep"
+gloss = "A finite difference of the bespoke slopes at 20 and 60 degrees gives a sensitivity of 3.31 per radian squared."
+cite = []
+digest = "3765148bccfcfeaf"
+
+[[equation]]
+tag = 102
+class = "standard"
+title = "Law of Propagation of Uncertainty"
+gloss = "The combined variance of a derived quantity is the sum of the input variances weighted by the squared sensitivity coefficients."
+cite = []
+digest = "c4cd5d76a8ed80ce"
+
+[[equation]]
+tag = 103
+class = "bespoke"
+title = "Bespoke Pivot Placement Optimisation"
+gloss = "The article poses pivot placement as minimising the travel subject to a floor on the movable panel area."
+cite = []
+digest = "90d91d297aa3c774"
+
+[[equation]]
+tag = 104
+class = "bespoke"
+title = "Bespoke Maximum Lift with Slats and Flaps"
+gloss = "The article adds slat and flap increments to the cosine-scaled clean maximum lift coefficient."
+cite = []
+digest = "9aeb7ba01be4c71d"
+
+[[equation]]
+tag = 105
+class = "standard"
+title = "Field Length Scaling"
+gloss = "Field length scales with wing loading over the product of density ratio, maximum lift coefficient and thrust-to-weight ratio."
+cite = []
+digest = "7852d606e0df659a"
+
+[[equation]]
+tag = 106
+class = "bespoke"
+title = "Bespoke Break-Even Condition After Halving the Gain"
+gloss = "Halving the aerodynamic gain while the mass penalty is unchanged makes the break-even condition fail."
+cite = []
+digest = "f3d9cd7bc2873cb9"
+
+[[equation]]
+tag = 107
+class = "standard"
+title = "Rate of Change of Angular Momentum with a Varying Inertia"
+gloss = "With an inertia tensor that depends on sweep, the rate of change of angular momentum gains a term in the sweep rate that vanishes when the wing is still."
+cite = []
+digest = "dd972ec0a1386e2b"
+
+[[equation]]
+tag = 108
+class = "standard"
+title = "Actuator Power and Energy"
+gloss = "Actuator power is hinge moment times sweep rate, and the energy is the integral of the hinge moment over the sweep travel."
+cite = []
+digest = "8dc975070a2d1c34"
+
+[[equation]]
+tag = 109
+class = "bespoke"
+title = "Bespoke Sweep Control Derivative"
+gloss = "The article treats sweep as a pitch effector and differentiates the trim moment of the panel aerodynamic centre model with respect to sweep."
+cite = []
+digest = "d2b60c133c3f3646"
+
+[[equation]]
+tag = 110
+class = "bespoke"
+title = "Bespoke Sweep Control Derivative at 40 Degrees"
+gloss = "At a lift coefficient of 0.3 the sweep control derivative is about minus 0.26 per radian."
+cite = []
+digest = "dcc828536cedc827"
+
+[[equation]]
+tag = 111
+class = "bespoke"
+title = "Bespoke Sweep Equivalent of a Five Degree Elevator Deflection"
+gloss = "Against an assumed elevator control power of 0.7 per radian, matching a five degree deflection needs 0.24 radians of sweep."
+cite = []
+digest = "39192bb2e8c13f4f"
+
+[[equation]]
+tag = 112
+class = "bespoke"
+title = "Bespoke Sweep Rate for Control Within One Short Period Time Constant"
+gloss = "Delivering 13.7 degrees of sweep within an assumed 0.33 second time constant needs about 42 degrees per second."
+cite = []
+digest = "a3f4b2d111c50fdd"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the wing sweep angle"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure, and in the body-axis relations the pitch rate"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'C_{L\alpha}'
+meaning = "the lift-curve slope per radian"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'C_{m\alpha}'
+meaning = "the pitching moment slope with angle of attack"
+
+[[symbol]]
+tex = 'C_{n\beta}'
+meaning = "the directional stability derivative"
+
+[[symbol]]
+tex = 'C_{lp}'
+meaning = "the roll damping derivative"
+
+[[symbol]]
+tex = 'I_x'
+meaning = "the moment of inertia in roll"
+
+[[symbol]]
+tex = 'I_y'
+meaning = "the moment of inertia in pitch"
+
+[[symbol]]
+tex = 'I_z'
+meaning = "the moment of inertia in yaw"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'h_e'
+meaning = "the energy height"
+
+[[symbol]]
+tex = 'SM'
+meaning = "the static margin as a fraction of the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'x_{np}'
+meaning = "the longitudinal position of the neutral point"
+
+[[symbol]]
+tex = 'x_{cg}'
+meaning = "the longitudinal position of the centre of gravity"
+
+[[symbol]]
+tex = 'M_{dd}'
+meaning = "the drag-divergence Mach number"
+
+[[symbol]]
+tex = 'y_p'
+meaning = "the spanwise station of the pivot"
+
+[[symbol]]
+tex = 'L'
+meaning = "the length of the movable panel along its own axis"
+
+[[symbol]]
+tex = 's_{ac}'
+meaning = "the distance from the pivot to the panel aerodynamic centre along the panel"
+
+[[symbol]]
+tex = 'x_{ac}'
+meaning = "the longitudinal position of the aerodynamic centre"
+
+[[symbol]]
+tex = 'x_p'
+meaning = "the longitudinal position of the pivot"
+
+[[symbol]]
+tex = 'b_0'
+meaning = "the unswept wing span"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fraction of wing lift carried by a fixed inboard glove"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the fraction of panel length at which the panel aerodynamic centre lies"
+
+[[symbol]]
+tex = '\kappa_A'
+meaning = "the technology factor of the Korn relation"
+
+[[symbol]]
+tex = 'e'
+meaning = "the span efficiency factor"
+
+[[symbol]]
+tex = 'MM'
+meaning = "the manoeuvre margin"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the relative density parameter"
+
+[[symbol]]
+tex = '\epsilon_{qs}'
+meaning = "the quasi-static sweep parameter"
+
+[[symbol]]
+tex = '\omega_{sp}'
+meaning = "the short period natural frequency"
+
+[[symbol]]
+tex = '\eta_c'
+meaning = "the fraction of aerodynamic centre travel the translating mechanism compensates"
+
+[[symbol]]
+tex = 'C_{m \delta_e}'
+meaning = "the elevator pitch control power"
+
+[[symbol]]
+tex = 'l_t'
+meaning = "the tail arm behind the centre of gravity"
+
+[[symbol]]
+tex = 'V_H'
+meaning = "the horizontal tail volume coefficient"
+
+[[symbol]]
+tex = 'V_V'
+meaning = "the vertical tail volume coefficient"
+
+[[symbol]]
+tex = 'C_{l\beta,\text{sweep}}'
+meaning = "the sweep contribution to the rolling moment due to sideslip"
+
+[[symbol]]
+tex = 'I_{\text{param}}'
+meaning = "the spin inertia parameter"
+
+[[symbol]]
+tex = '\phi_i'
+meaning = "the fraction of the mission flown at condition $i$"
+
+[[symbol]]
+tex = '\Delta m_{\text{VG}}'
+meaning = "the structural mass penalty of the variable-geometry mechanism"
+
+[[symbol]]
+tex = 'C_{m \Lambda}'
+meaning = "the pitching moment derivative with respect to sweep"
+
+[[symbol]]
+tex = '\dot{\Lambda}'
+meaning = "the sweep rate"
+
+[[symbol]]
+tex = '\mathbf{C}'
+meaning = "the strain gauge calibration matrix"
+
+[[symbol]]
+tex = '\kappa(\mathbf{C})'
+meaning = "the condition number of the calibration matrix"

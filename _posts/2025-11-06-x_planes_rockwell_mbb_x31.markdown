@@ -186,7 +186,10 @@ operations-research literature had been formalising since the early 1970s. Let $
 suffered by the adversary, designated Red, and let $B$ be the number of losses suffered by the aircraft
 under test, designated Blue. Then
 
-$$E = \frac{R}{B}$$
+$$
+E = \frac{R}{B}
+\tag{1}
+$$
 
 A value above one means the aircraft under test came off better. A value of one is parity. The definition is
 simple and the trouble begins as soon as more than one kind of fight is flown.
@@ -260,7 +263,10 @@ a rounding artefact nor a mistake, and it is the most important piece of arithme
 
 The arithmetic mean of the four condition ratios is
 
-$$\bar{E} = \frac{0.36 + 8.5 + 16 + 0.86}{4} = 6.43$$
+$$
+\bar{E} = \frac{0.36 + 8.5 + 16 + 0.86}{4} = 6.43
+\tag{2}
+$$
 
 and the published overall figure is 1.83. **The two differ by a factor of 3.514.** A reader who computed the
 average from the table and a reader who took the published overall would come away with completely different
@@ -270,11 +276,17 @@ The reason is that a pooled exchange ratio is not a mean of ratios. Confusing th
 hazard that the statistical literature on [combining proportions across strata][research_hauck_anderson_1986]
 exists to warn about. The pooled figure is a ratio of sums,
 
-$$E_{\text{pool}} = \frac{\sum_i R_i}{\sum_i B_i}$$
+$$
+E_{\text{pool}} = \frac{\sum_i R_i}{\sum_i B_i}
+\tag{3}
+$$
 
 and substituting $R_i = E_i B_i$ gives the identity that governs everything that follows,
 
-$$E_{\text{pool}} = \frac{\sum_i E_i B_i}{\sum_i B_i}$$
+$$
+E_{\text{pool}} = \frac{\sum_i E_i B_i}{\sum_i B_i}
+\tag{4}
+$$
 
 **The pooled ratio is the mean of the per-condition ratios weighted by the losses of the side in the denominator.**
 A condition in which the aircraft under test was shot down fourteen times counts fourteen times as heavily
@@ -293,7 +305,10 @@ not, and the weights are therefore unknown. **But they are not unconstrained.**
 Let $w_i$ be the fraction of the test aircraft's total losses that occurred in condition $i$, so that the
 weights sum to one and the identity reads
 
-$$E_{\text{pool}} = \sum_i w_i E_i$$
+$$
+E_{\text{pool}} = \sum_i w_i E_i
+\tag{5}
+$$
 
 Partition the conditions into those below parity and those above it. The construction is a two-point mixture
 and the arithmetic is elementary, so the result is robust. To reach a pooled value as low as 1.83
@@ -301,11 +316,17 @@ with as little weight as possible on the losing conditions, put all the winning 
 two winning ratios and all the losing weight on the smaller of the two losing ratios. That gives the minimum
 share,
 
-$$w_{\min} = \frac{E_{\text{win,min}} - E_{\text{pool}}}{E_{\text{win,min}} - E_{\text{lose,min}}} = \frac{8.5 - 1.83}{8.5 - 0.36} = 0.819$$
+$$
+w_{\min} = \frac{E_{\text{win,min}} - E_{\text{pool}}}{E_{\text{win,min}} - E_{\text{lose,min}}} = \frac{8.5 - 1.83}{8.5 - 0.36} = 0.819
+\tag{6}
+$$
 
 and pairing the two largest instead gives the maximum,
 
-$$w_{\max} = \frac{E_{\text{win,max}} - E_{\text{pool}}}{E_{\text{win,max}} - E_{\text{lose,max}}} = \frac{16 - 1.83}{16 - 0.86} = 0.936$$
+$$
+w_{\max} = \frac{E_{\text{win,max}} - E_{\text{pool}}}{E_{\text{win,max}} - E_{\text{lose,max}}} = \frac{16 - 1.83}{16 - 0.86} = 0.936
+\tag{7}
+$$
 
 **Between 81.9 and 93.6 percent of the X-31's simulated losses occurred in the two starting conditions where it was behind.**
 That bracket is derived from published numbers alone. It assumes nothing about the counts, nothing about the
@@ -321,7 +342,10 @@ post-stall manoeuvring did not help.
 than solving for the weight that reproduces 1.83, solve for the weight that would have driven the pooled
 figure to **parity**,
 
-$$w_{\text{tip}} = \frac{E_{\text{win,min}} - 1}{E_{\text{win,min}} - E_{\text{lose,min}}} = \frac{8.5 - 1}{8.5 - 0.36} = 0.9214$$
+$$
+w_{\text{tip}} = \frac{E_{\text{win,min}} - 1}{E_{\text{win,min}} - E_{\text{lose,min}}} = \frac{8.5 - 1}{8.5 - 0.36} = 0.9214
+\tag{8}
+$$
 
 **A losing share above 92.14 percent would have put the overall exchange ratio below one**, and so would
 have reversed the programme's headline conclusion from an advantage into a disadvantage.
@@ -344,7 +368,10 @@ technology against an identical X-31 without it gave 0.27, 23, 6.67 and 2.8 with
 Applying the same bracket to each gives a sharp contrast. The two-point extremes are the same construction
 in each case,
 
-$$w_{\min} = \frac{E_{\text{win,min}} - E_{\text{pool}}}{E_{\text{win,min}} - E_{\text{lose,min}}} \qquad w_{\max} = \frac{E_{\text{win,max}} - E_{\text{pool}}}{E_{\text{win,max}} - E_{\text{lose,max}}}$$
+$$
+w_{\min} = \frac{E_{\text{win,min}} - E_{\text{pool}}}{E_{\text{win,min}} - E_{\text{lose,min}}} \qquad w_{\max} = \frac{E_{\text{win,max}} - E_{\text{pool}}}{E_{\text{win,max}} - E_{\text{lose,max}}}
+\tag{9}
+$$
 
 and the width of the answer depends entirely on how far the winning ratios sit from the pooled value.
 
@@ -378,7 +405,10 @@ flight engagements would make an increase in winning [difficult to quantify stat
 Model each scored outcome as a Bernoulli trial in which the adversary is lost with probability $p$. The
 exchange ratio and that probability are the same quantity in different clothing,
 
-$$E = \frac{p}{1 - p} \qquad \text{and} \qquad p = \frac{E}{1 + E}$$
+$$
+E = \frac{p}{1 - p} \qquad \text{and} \qquad p = \frac{E}{1 + E}
+\tag{10}
+$$
 
 so an interval for $p$ maps directly onto an interval for $E$. The standard references for inference on
 rates are [Fleiss on statistical methods for rates and proportions][book_fleiss] and
@@ -386,11 +416,17 @@ rates are [Fleiss on statistical methods for rates and proportions][book_fleiss]
 [Clopper-Pearson interval][ref_clopper], defined by inverting the binomial tail. For $k$ adversary losses in
 $n$ scored outcomes the lower endpoint is the value of $p$ satisfying
 
-$$\sum_{i=k}^{n} \binom{n}{i} p^{i} (1 - p)^{n - i} = \frac{\alpha}{2}$$
+$$
+\sum_{i=k}^{n} \binom{n}{i} p^{i} (1 - p)^{n - i} = \frac{\alpha}{2}
+\tag{11}
+$$
 
 and the upper endpoint the value satisfying
 
-$$\sum_{i=0}^{k} \binom{n}{i} p^{i} (1 - p)^{n - i} = \frac{\alpha}{2}$$
+$$
+\sum_{i=0}^{k} \binom{n}{i} p^{i} (1 - p)^{n - i} = \frac{\alpha}{2}
+\tag{12}
+$$
 
 The construction goes back to the classical work on
 [interval estimation for a binomial proportion][research_sandelius_1952].
@@ -402,11 +438,17 @@ The counts are not published. The question is therefore asked the other way roun
 **For a stated number of scored outcomes per condition, what does each published ratio establish?** A ratio
 and a sample size together fix the split, since the adversary losses are
 
-$$k = \operatorname{round}\left( \frac{n E}{1 + E} \right) \qquad \text{and} \qquad b = n - k$$
+$$
+k = \operatorname{round}\left( \frac{n E}{1 + E} \right) \qquad \text{and} \qquad b = n - k
+\tag{13}
+$$
 
 and the test applied to the resulting interval is whether it contains parity,
 
-$$\text{separates} \iff 1 \notin [E_{\text{lo}}, E_{\text{hi}}] \iff \tfrac{1}{2} \notin [p_{\text{lo}}, p_{\text{hi}}]$$
+$$
+\text{separates} \iff 1 \notin [E_{\text{lo}}, E_{\text{hi}}] \iff \tfrac{1}{2} \notin [p_{\text{lo}}, p_{\text{hi}}]
+\tag{14}
+$$
 
 | Condition | Ratio | 12 outcomes | 24 outcomes | 48 outcomes |
 |---|---|---|---|---|
@@ -489,11 +531,17 @@ edition of Jane's All the World's Aircraft.
 
 The aspect ratio implied by the span and the area is
 
-$$A = \frac{b^{2}}{S} = \frac{23.83^{2}}{226.3} = 2.509$$
+$$
+A = \frac{b^{2}}{S} = \frac{23.83^{2}}{226.3} = 2.509
+\tag{15}
+$$
 
 against a published 2.51. The wing loading at normal flying weight is
 
-$$\frac{W}{S} = \frac{14{,}600}{226.3} = 64.52 \ \text{lb/ft}^{2}$$
+$$
+\frac{W}{S} = \frac{14{,}600}{226.3} = 64.52 \ \text{lb/ft}^{2}
+\tag{16}
+$$
 
 against a published 64.52, which agrees exactly. The thrust-to-weight ratio at normal weight is 1.096 and at
 maximum takeoff weight it is 1.004, against a published power loading of one pound per pound of static
@@ -519,29 +567,44 @@ this section are the standard ones set out in [Etkin on the dynamics of flight][
 [Nelson on flight stability][book_nelson] and [Cook on flight dynamics principles][book_cook]. In level
 flight the lift equals the weight, so
 
-$$C_L = \frac{W}{q S} \qquad \text{with} \qquad q = \tfrac{1}{2} \rho_0 V_c^{2}$$
+$$
+C_L = \frac{W}{q S} \qquad \text{with} \qquad q = \tfrac{1}{2} \rho_0 V_c^{2}
+\tag{17}
+$$
 
 At 137.5 knots calibrated and a weight near 14,000 pounds late in a sortie the dynamic pressure is 64.0
 pounds per square foot and the lift coefficient is 0.9665. Dividing by twenty degrees gives
 
-$$C_{L\alpha} = 0.04833 \ \text{per degree} = 2.769 \ \text{per radian}$$
+$$
+C_{L\alpha} = 0.04833 \ \text{per degree} = 2.769 \ \text{per radian}
+\tag{18}
+$$
 
 **That number can be checked against two formulae that never saw the aeroplane.** For an unswept wing of low
 aspect ratio the Helmbold relation gives
 
-$$C_{L\alpha} = \frac{\pi A}{1 + \sqrt{1 + (A/2)^{2}}} = \frac{\pi (2.51)}{1 + \sqrt{1 + 1.575}} = 3.027 \ \text{per radian}$$
+$$
+C_{L\alpha} = \frac{\pi A}{1 + \sqrt{1 + (A/2)^{2}}} = \frac{\pi (2.51)}{1 + \sqrt{1 + 1.575}} = 3.027 \ \text{per radian}
+\tag{19}
+$$
 
 and for a swept wing of low aspect ratio the standard compressible form, as tabulated in the
 [stability and control handbook][ref_datcom] of the period, gives
 
-$$C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{\dfrac{A^{2} \beta^{2}}{\kappa^{2}} \left(1 + \dfrac{\tan^{2} \Lambda}{\beta^{2}}\right) + 4}} = 2.278 \ \text{per radian}$$
+$$
+C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{\dfrac{A^{2} \beta^{2}}{\kappa^{2}} \left(1 + \dfrac{\tan^{2} \Lambda}{\beta^{2}}\right) + 4}} = 2.278 \ \text{per radian}
+\tag{20}
+$$
 
 at 56.6 degrees of leading-edge sweep. **The inferred whole-aircraft value of 2.769 sits between them**,
 21.5 percent above the swept-wing figure, and the canard accounts for the difference in the right direction.
 A surface ahead of the wing contributes to the whole-aircraft slope in proportion to its own area and its
 own slope, referred to the wing reference area and scaled by an efficiency that accounts for upwash,
 
-$$\Delta C_{L\alpha} = \eta \, \frac{S_c}{S} \, C_{L\alpha,c}$$
+$$
+\Delta C_{L\alpha} = \eta \, \frac{S_c}{S} \, C_{L\alpha,c}
+\tag{21}
+$$
 
 The canard is 10.4 percent of the wing area, and at a slope near 2.5 per radian with an efficiency of 1.2 it
 contributes 0.313, giving 2.591 against an inferred 2.769, a difference of 6.4 percent.
@@ -596,11 +659,17 @@ states.
 
 The yawing moment available from vectoring is the side component of thrust acting on a moment arm,
 
-$$N_{\text{tv}} = T \sin \delta_j \, \ell_v$$
+$$
+N_{\text{tv}} = T \sin \delta_j \, \ell_v
+\tag{22}
+$$
 
 and expressing it as a coefficient in the usual way gives
 
-$$C_{n,\text{tv}} = \frac{T \sin \delta_j \, \ell_v}{q S b}$$
+$$
+C_{n,\text{tv}} = \frac{T \sin \delta_j \, \ell_v}{q S b}
+\tag{23}
+$$
 
 **The important feature of that expression is that dynamic pressure appears in the denominator and nowhere else.**
 An aerodynamic control surface produces a moment proportional to dynamic pressure, so its coefficient is
@@ -633,17 +702,26 @@ aircraft's asymmetry in steady decelerations, with the forebody unmodified, at a
 **A departure says only that the asymmetry exceeded the authority**, so the vectoring relation, solved for
 the arm, gives an upper bound and not a value,
 
-$$\ell_v < \frac{C_{n0} \, q S b}{T \sin \delta_j}$$
+$$
+\ell_v < \frac{C_{n0} \, q S b}{T \sin \delta_j}
+\tag{24}
+$$
 
 At 35,000 feet the standard atmosphere set out in the next section gives $\theta = 0.7594$ and
 $\delta = 0.2353$, and a speed of sound of 972.9 feet per second, so Mach 0.4 is 389.1 feet per second true.
 The dynamic pressure follows from the pressure and the Mach number,
 
-$$q = \tfrac{\gamma}{2} \, p_0 \, \delta \, M^{2} = 0.7 \times 2{,}116.22 \times 0.2353 \times 0.4^{2} = 55.77 \ \text{psf}$$
+$$
+q = \tfrac{\gamma}{2} \, p_0 \, \delta \, M^{2} = 0.7 \times 2{,}116.22 \times 0.2353 \times 0.4^{2} = 55.77 \ \text{psf}
+\tag{25}
+$$
 
 and the thrust lapsed with the pressure ratio is $16{,}000 \times 0.2353 = 3{,}765$ pounds. The bound is then
 
-$$\ell_v < \frac{0.125 \times 55.77 \times 226.3 \times 23.83}{3{,}765 \times \sin 16^{\circ}} = \frac{37{,}594}{1{,}037.8} = 36.2 \ \text{feet}$$
+$$
+\ell_v < \frac{0.125 \times 55.77 \times 226.3 \times 23.83}{3{,}765 \times \sin 16^{\circ}} = \frac{37{,}594}{1{,}037.8} = 36.2 \ \text{feet}
+\tag{26}
+$$
 
 **That bound excludes only a centre of gravity within about four and a half feet of the nose of a fuselage
 40.67 feet long, which the geometry excludes already.** It is also soft. The thrust-lapse exponent of the
@@ -669,11 +747,17 @@ so the relations are given rather than left implicit. The tabulated form goes ba
 [civil aviation atmosphere][ref_icao_atmosphere_1957]. Writing the temperature, pressure and density
 ratios against their sea-level values,
 
-$$\theta = \frac{T}{T_0} = 1 - 6.87535 \times 10^{-6} \, h \qquad \delta = \frac{p}{p_0} = \theta^{5.2559} \qquad \sigma = \frac{\rho}{\rho_0} = \frac{\delta}{\theta}$$
+$$
+\theta = \frac{T}{T_0} = 1 - 6.87535 \times 10^{-6} \, h \qquad \delta = \frac{p}{p_0} = \theta^{5.2559} \qquad \sigma = \frac{\rho}{\rho_0} = \frac{\delta}{\theta}
+\tag{27}
+$$
 
 and the speed of sound follows from the temperature alone,
 
-$$a = \sqrt{\gamma R T} = \sqrt{\gamma R T_0 \theta}$$
+$$
+a = \sqrt{\gamma R T} = \sqrt{\gamma R T_0 \theta}
+\tag{28}
+$$
 
 | Altitude | Density ratio | Pressure ratio |
 |---|---|---|
@@ -687,14 +771,20 @@ proportion to the ambient pressure, so the working model is the simplest member 
 [Bronz et al. 2017][research_bronz_garciademarina_2017] through
 [identified engine performance models][research_andrianantara_ghazi_2021],
 
-$$T(h) = T_{\text{SL}} \, \delta(h)^{n}$$
+$$
+T(h) = T_{\text{SL}} \, \delta(h)^{n}
+\tag{29}
+$$
 
 with the exponent near unity. The exponent is carried explicitly so that its effect on the answer can be
 reported.
 
 The arm needed to hold an asymmetry $C_{n0}$ is the vectoring relation solved at equality,
 
-$$\ell_{\text{req}} = \frac{C_{n0} \, q S b}{T \sin \delta_j}$$
+$$
+\ell_{\text{req}} = \frac{C_{n0} \, q S b}{T \sin \delta_j}
+\tag{30}
+$$
 
 and it is tabulated against the steady bound of 0.080 and against the departure's 0.125.
 
@@ -712,18 +802,27 @@ and it is tabulated against the steady bound of 0.080 and against the departure'
 
 Two entries worked through show the arithmetic,
 
-$$\ell_{\text{req}}^{20{,}000,\,150} = \frac{0.080 \times 76.2 \times 226.3 \times 23.83}{7{,}353 \times \sin 16^{\circ}} = \frac{32{,}874}{2{,}026.8} = 16.2 \ \text{ft} \qquad \ell_{\text{req}}^{30{,}000,\,250} = \frac{0.080 \times 211.6 \times 226.3 \times 23.83}{4{,}751 \times \sin 16^{\circ}} = \frac{91{,}288}{1{,}309.6} = 69.7 \ \text{ft}$$
+$$
+\ell_{\text{req}}^{20{,}000,\,150} = \frac{0.080 \times 76.2 \times 226.3 \times 23.83}{7{,}353 \times \sin 16^{\circ}} = \frac{32{,}874}{2{,}026.8} = 16.2 \ \text{ft} \qquad \ell_{\text{req}}^{30{,}000,\,250} = \frac{0.080 \times 211.6 \times 226.3 \times 23.83}{4{,}751 \times \sin 16^{\circ}} = \frac{91{,}288}{1{,}309.6} = 69.7 \ \text{ft}
+\tag{31}
+$$
 
 **Where the needed arm exceeds the 40.67 feet of the fuselage, no placement of the vanes could have held the
 asymmetry, whatever the real arm is.** At thirty thousand feet and 250 knots even the steady bound of 0.080
 needs an arm $69.7 / 40.67 = 1.71$ times the length of the aeroplane. Setting the needed arm equal to the
 fuselage length $L$ gives the calibrated airspeed above which that is so,
 
-$$q_{L} = \frac{L \, T \sin \delta_j}{C_{n0} \, S b} \qquad V_{c,L} = \sqrt{\frac{2 q_{L}}{\rho_0}}$$
+$$
+q_{L} = \frac{L \, T \sin \delta_j}{C_{n0} \, S b} \qquad V_{c,L} = \sqrt{\frac{2 q_{L}}{\rho_0}}
+\tag{32}
+$$
 
 and at twenty thousand feet against the departure's asymmetry
 
-$$q_{L} = \frac{40.67 \times 7{,}353 \times \sin 16^{\circ}}{0.125 \times 226.3 \times 23.83} = \frac{82{,}428}{674.09} = 122.3 \ \text{psf} \qquad V_{c,L} = 320.8 \ \text{ft/s} = 190.0 \ \text{knots}$$
+$$
+q_{L} = \frac{40.67 \times 7{,}353 \times \sin 16^{\circ}}{0.125 \times 226.3 \times 23.83} = \frac{82{,}428}{674.09} = 122.3 \ \text{psf} \qquad V_{c,L} = 320.8 \ \text{ft/s} = 190.0 \ \text{knots}
+\tag{33}
+$$
 
 | Altitude | Thrust | Speed above which no arm suffices, against 0.080 | Against 0.125 |
 |---|---|---|---|
@@ -740,7 +839,10 @@ threshold, so it bounds the arm rather than showing that no arm would have done.
 
 Its equivalent airspeed follows from the dynamic pressure computed above,
 
-$$V_e = \sqrt{\frac{2 q}{\rho_0}} = \sqrt{\frac{2 \times 55.77}{0.0023769}} = 216.6 \ \text{ft/s} = 128.3 \ \text{knots}$$
+$$
+V_e = \sqrt{\frac{2 q}{\rho_0}} = \sqrt{\frac{2 \times 55.77}{0.0023769}} = 216.6 \ \text{ft/s} = 128.3 \ \text{knots}
+\tag{34}
+$$
 
 The measured asymmetries themselves were worse than the round number suggests. In the unmodified forebody
 configuration on the second aircraft the maximum was bounded at 0.080 with no distinguishable trend against
@@ -750,12 +852,18 @@ random pattern.
 reaching almost 0.100, and in the worst single case, with the forebody strips alone, the asymmetry swung
 from 0.077 in one direction at 52 degrees to 0.088 in the other by 55 degrees, a total change of
 
-$$\Delta C_n = 0.165 \ \text{across three degrees of angle of attack}$$
+$$
+\Delta C_n = 0.165 \ \text{across three degrees of angle of attack}
+\tag{35}
+$$
 
 The coefficient is a moment divided by a scale, so the disturbance the control system faces at a
 given flight condition is
 
-$$N_{0} = C_{n0} \, q S b$$
+$$
+N_{0} = C_{n0} \, q S b
+\tag{36}
+$$
 
 which at twenty thousand feet and 150 knots calibrated is 4,108 foot-pounds for every hundredth of
 coefficient, so the measured bound of 0.080 is **32,863 foot-pounds** and the worst observed swing of 0.165
@@ -809,7 +917,10 @@ pressure referred to sea-level density is what calibrated airspeed measures. The
 with thrust, and thrust at fixed Mach number moves with the ambient pressure ratio, while the unknown arm
 cancels,
 
-$$\frac{C_{n,\text{tv}}(h_2)}{C_{n,\text{tv}}(h_1)} = \frac{T(h_2)}{T(h_1)} \approx \frac{\delta(h_2)}{\delta(h_1)}$$
+$$
+\frac{C_{n,\text{tv}}(h_2)}{C_{n,\text{tv}}(h_1)} = \frac{T(h_2)}{T(h_1)} \approx \frac{\delta(h_2)}{\delta(h_1)}
+\tag{37}
+$$
 
 Between twenty thousand and thirty thousand feet that ratio is **0.6462**, a loss of 35.4 percent of the
 vectored control authority for no change of airspeed whatever. The sensitivity to the lapse model is modest,
@@ -853,19 +964,28 @@ nobody had written the ratio down.
 
 Turn radius in a level turn is
 
-$$r = \frac{V^{2}}{g \sqrt{n^{2} - 1}}$$
+$$
+r = \frac{V^{2}}{g \sqrt{n^{2} - 1}}
+\tag{38}
+$$
 
 which falls with speed and rises when the available load factor falls. A post-stall aircraft has both a low
 speed and a very low available load factor, and the two effects work against each other.
 
 The load factor a wing can produce is the lift it can produce divided by the weight,
 
-$$n = \frac{q S C_L}{W}$$
+$$
+n = \frac{q S C_L}{W}
+\tag{39}
+$$
 
 and setting that to one gives the slowest speed at which the aircraft can hold a given angle of attack in
 level flight,
 
-$$V_{\text{level}} = \sqrt{\frac{2 W}{\rho_0 S C_L}}$$
+$$
+V_{\text{level}} = \sqrt{\frac{2 W}{\rho_0 S C_L}}
+\tag{40}
+$$
 
 Taking a lift coefficient of 1.00 at seventy degrees of angle of attack, which is past the vortex-lift peak
 and is an estimate rather than a measurement, the available load factor and the resulting radius are as
@@ -882,7 +1002,10 @@ Level flight at seventy degrees of angle of attack requires **138.0 knots calibr
 manoeuvre is a descending transient rather than a turn. The level-flight relation at the normal flying weight
 and the assumed lift coefficient gives
 
-$$V_{\text{level}} = \sqrt{\frac{2 \times 14{,}600}{0.0023769 \times 226.3 \times 1.00}} = 233.0 \ \text{ft/s} = 138.0 \ \text{knots}$$
+$$
+V_{\text{level}} = \sqrt{\frac{2 \times 14{,}600}{0.0023769 \times 226.3 \times 1.00}} = 233.0 \ \text{ft/s} = 138.0 \ \text{knots}
+\tag{41}
+$$
 
 **Every radius in the table exceeds the 1,171 feet available at corner speed**, which is derived below. The
 post-stall regime is not where this aeroplane turns most tightly.
@@ -898,7 +1021,10 @@ the X-31 is slower than its opponent, not a sustained level turn.
 and it describes the whole mechanism. An aircraft limited to thirty degrees can aim thirty degrees off its velocity
 vector and an aircraft that holds seventy can aim seventy, so the capability bought is
 
-$$\Delta \psi_{\text{aim}} = \alpha_{\max} - \alpha_{\text{conv}} = 70 - 30 = 40 \ \text{degrees}$$
+$$
+\Delta \psi_{\text{aim}} = \alpha_{\max} - \alpha_{\text{conv}} = 70 - 30 = 40 \ \text{degrees}
+\tag{42}
+$$
 
 **The agility-metrics literature of the period was trying to name that quantity.** The work on
 [Skow et al 1985][research_skow_hamilton_1985] and the later
@@ -907,7 +1033,10 @@ $$\Delta \psi_{\text{aim}} = \alpha_{\max} - \alpha_{\text{conv}} = 70 - 30 = 40
 **A conventional aircraft can obtain the same forty degrees of aim only by turning its velocity vector through forty degrees**,
 and the time that takes follows from the turn rate,
 
-$$t = \frac{\Delta \psi}{\omega} \qquad \text{with} \qquad \omega = \frac{g \sqrt{n^{2} - 1}}{V}$$
+$$
+t = \frac{\Delta \psi}{\omega} \qquad \text{with} \qquad \omega = \frac{g \sqrt{n^{2} - 1}}{V}
+\tag{43}
+$$
 
 | Condition | Turn rate | Time to buy forty degrees |
 |---|---|---|
@@ -929,7 +1058,10 @@ The performance relations here follow [Anderson on aircraft performance and desi
 [Stinton's anatomy of the aeroplane][book_stinton]. The [corner speed][ref_corner_speed] is where the lift
 limit meets the load-factor limit,
 
-$$V^{*} = \sqrt{\frac{2 n_{\max} W}{\rho_0 S C_{L\max}}}$$
+$$
+V^{*} = \sqrt{\frac{2 n_{\max} W}{\rho_0 S C_{L\max}}}
+\tag{44}
+$$
 
 Taking the lift coefficient at the thirty-degree conventional limit from the inferred lift curve, 1.4498,
 and the design load factor of nine, the corner speed is **343.9 knots** calibrated. There the instantaneous
@@ -938,24 +1070,36 @@ reversal takes 6.34 seconds.
 
 **Pointing costs energy and the cost is large.** Specific energy is
 
-$$E_s = h + \frac{V^{2}}{2 g}$$
+$$
+E_s = h + \frac{V^{2}}{2 g}
+\tag{45}
+$$
 
 and falling from corner speed to a post-stall exit at 120 knots, both calibrated, at 20,000 feet gives up
 the energy between the corresponding true airspeeds. The corner speed is fixed by a dynamic pressure, and the
 article reads every calibrated figure as the equivalent airspeed that gives the same dynamic pressure at
 sea-level density, so the true airspeed at height follows from the density ratio,
 
-$$V = \frac{V_e}{\sqrt{\sigma}} \qquad V^{*} = \frac{580.5}{\sqrt{0.5328}} = 795.3 \ \text{ft/s} = 471.2 \ \text{knots} \qquad V_1 = \frac{202.5}{\sqrt{0.5328}} = 277.5 \ \text{ft/s} = 164.4 \ \text{knots}$$
+$$
+V = \frac{V_e}{\sqrt{\sigma}} \qquad V^{*} = \frac{580.5}{\sqrt{0.5328}} = 795.3 \ \text{ft/s} = 471.2 \ \text{knots} \qquad V_1 = \frac{202.5}{\sqrt{0.5328}} = 277.5 \ \text{ft/s} = 164.4 \ \text{knots}
+\tag{46}
+$$
 
 The corner speed is Mach 0.767 at that height. The energy given up is then
 
-$$\Delta E_s = \frac{V^{*2} - V_1^{2}}{2 g} = \frac{795.3^{2} - 277.5^{2}}{2 \times 32.174} = \frac{555{,}496}{64.348} = 8{,}630 \ \text{feet}$$
+$$
+\Delta E_s = \frac{V^{*2} - V_1^{2}}{2 g} = \frac{795.3^{2} - 277.5^{2}}{2 \times 32.174} = \frac{555{,}496}{64.348} = 8{,}630 \ \text{feet}
+\tag{47}
+$$
 
 Recovering it takes time, and the time must be integrated rather than estimated, because specific excess
 power at the slow end bears no relation to its value once the aircraft has accelerated. The specific excess
 power is
 
-$$P_s = \frac{V (T - D)}{W} \qquad \text{with} \qquad D = q S \left( C_{D0} + \frac{C_L^{2}}{\pi A e} \right)$$
+$$
+P_s = \frac{V (T - D)}{W} \qquad \text{with} \qquad D = q S \left( C_{D0} + \frac{C_L^{2}}{\pi A e} \right)
+\tag{48}
+$$
 
 This is the specific-excess-power accounting that underlies every
 [energy-manoeuvrability comparison][research_johnson_1972], a method the flight-test community was
@@ -968,15 +1112,24 @@ drag of 3,743 pounds, and at the fast end it is **268.7 feet per second** with a
 and a drag of 2,420 pounds. With thrust lapsed to 7,353 pounds and a density ratio of 0.5328, the slow end
 works out as
 
-$$q = \tfrac{1}{2} \rho_0 \sigma V_1^{2} = 48.75 \ \text{psf} \qquad C_L = \frac{14{,}600}{48.75 \times 226.3} = 1.323 \qquad P_s = \frac{277.5 \, (7{,}353 - 3{,}743)}{14{,}600} = 68.6 \ \text{ft/s}$$
+$$
+q = \tfrac{1}{2} \rho_0 \sigma V_1^{2} = 48.75 \ \text{psf} \qquad C_L = \frac{14{,}600}{48.75 \times 226.3} = 1.323 \qquad P_s = \frac{277.5 \, (7{,}353 - 3{,}743)}{14{,}600} = 68.6 \ \text{ft/s}
+\tag{49}
+$$
 
 and the fast end as
 
-$$q = 400.5 \ \text{psf} \qquad C_L = \frac{14{,}600}{400.5 \times 226.3} = 0.161 \qquad P_s = \frac{795.3 \, (7{,}353 - 2{,}420)}{14{,}600} = 268.7 \ \text{ft/s}$$
+$$
+q = 400.5 \ \text{psf} \qquad C_L = \frac{14{,}600}{400.5 \times 226.3} = 0.161 \qquad P_s = \frac{795.3 \, (7{,}353 - 2{,}420)}{14{,}600} = 268.7 \ \text{ft/s}
+\tag{50}
+$$
 
 At constant altitude $dE_s = V \, dV / g$, so the recovery time is
 
-$$t = \int_{V_1}^{V^{*}} \frac{V \, dV}{g \, P_s(V)} = 46.0 \ \text{s} \qquad \text{against} \qquad \frac{\Delta E_s}{P_s(V_1)} = \frac{8{,}632.7}{68.60} = 125.8 \ \text{s}$$
+$$
+t = \int_{V_1}^{V^{*}} \frac{V \, dV}{g \, P_s(V)} = 46.0 \ \text{s} \qquad \text{against} \qquad \frac{\Delta E_s}{P_s(V_1)} = \frac{8{,}632.7}{68.60} = 125.8 \ \text{s}
+\tag{51}
+$$
 
 **Integrating gives 46.0 seconds**, evaluated by midpoint quadrature over 4,000 speed steps. A single-point
 estimate at the slow end would have said 125.8 seconds, wrong by a factor of $125.8 / 46.0 = 2.74$, so
@@ -1030,7 +1183,10 @@ roll is the correct command variable at high angle of attack, and it makes the m
 **The distinction is not cosmetic and the kinematics say why.** A roll about the velocity vector is a
 combination of body-axis roll and yaw rates weighted by the angle of attack,
 
-$$p_w = p \cos \alpha + r \sin \alpha$$
+$$
+p_w = p \cos \alpha + r \sin \alpha
+\tag{52}
+$$
 
 | Angle of attack | Roll-rate share | Yaw-rate share |
 |---|---|---|
@@ -1040,7 +1196,10 @@ $$p_w = p \cos \alpha + r \sin \alpha$$
 
 At seventy degrees the two weights are
 
-$$\cos 70^{\circ} = 0.3420 \qquad \sin 70^{\circ} = 0.9397$$
+$$
+\cos 70^{\circ} = 0.3420 \qquad \sin 70^{\circ} = 0.9397
+\tag{53}
+$$
 
 **so at seventy degrees a roll about the velocity vector is 94.0 percent yaw rate.** That single line explains
 a sentence in the programme's [own conclusions][ref_joyce_pdf] which otherwise reads as a correction of itself, where the
@@ -1081,7 +1240,10 @@ Full jet deflection travel is 16 degrees at 40 degrees per second, so full trave
 sinusoidal command of amplitude $A$ at frequency $\omega$ demands a peak rate of $A \omega$, so the
 amplitude at which the rate limit binds is
 
-$$A_{\text{bind}} = \frac{\dot{\delta}_{\max}}{\omega}$$
+$$
+A_{\text{bind}} = \frac{\dot{\delta}_{\max}}{\omega}
+\tag{54}
+$$
 
 At the frequency of the tailless divergence derived below, 2.390 per second, that amplitude is
 **16.74 degrees**, and the position limit of 16 degrees is reached first.
@@ -1125,13 +1287,19 @@ consequences of flying an aircraft with such a root were worked out for
 and for the [close-coupled canard with relaxed static stability][research_kleinrw_lapinsm_1982] that the
 X-31 resembles,
 
-$$\lambda = \frac{\ln 2}{t_2} = \frac{0.6931}{0.290} = 2.3902 \ \text{per second}$$
+$$
+\lambda = \frac{\ln 2}{t_2} = \frac{0.6931}{0.290} = 2.3902 \ \text{per second}
+\tag{55}
+$$
 
 For a yaw-only divergence the eigenvalue and the aerodynamic stiffness are related through the yaw inertia,
 in the form the [flight measurement of lateral and directional stability][research_cranehl_reederjp_1945]
 literature established,
 
-$$\lambda^{2} = -\frac{q S b \, C_{n\beta}}{I_z}$$
+$$
+\lambda^{2} = -\frac{q S b \, C_{n\beta}}{I_z}
+\tag{56}
+$$
 
 **A single time to double fixes the ratio of stiffness to inertia and cannot fix either factor**, and the
 flight reports omit the yaw inertia.
@@ -1141,14 +1309,20 @@ relation needs a dynamic pressure, so the conversion runs through the speed of s
 using the axis and airspeed conventions that the [Altman 1952][research_altman_1952] literature
 fixed long before this aeroplane,
 
-$$V_{\text{true}} = M a \qquad V_{\text{eq}} = V_{\text{true}} \sqrt{\sigma} \qquad q = \tfrac{1}{2} \rho_0 \sigma V_{\text{true}}^{2} = \tfrac{1}{2} \rho_0 V_{\text{eq}}^{2}$$
+$$
+V_{\text{true}} = M a \qquad V_{\text{eq}} = V_{\text{true}} \sqrt{\sigma} \qquad q = \tfrac{1}{2} \rho_0 \sigma V_{\text{true}}^{2} = \tfrac{1}{2} \rho_0 V_{\text{eq}}^{2}
+\tag{57}
+$$
 
 **The last equality is the check.** Both routes must give the same dynamic pressure, and worked first at
 thirty thousand feet, inside the troposphere that the relations above describe, the speed of sound is
 994.8 feet per second, so Mach 1.2 is a true airspeed of 1,194 feet per second and an equivalent
 airspeed of 730.1 feet per second, or 432.6 knots, and both routes return 633.4 pounds per square foot. Substituting gives
 
-$$-\frac{C_{n\beta}}{I_z} = 1.6724 \times 10^{-6} \ \text{per slug foot squared per radian}$$
+$$
+-\frac{C_{n\beta}}{I_z} = 1.6724 \times 10^{-6} \ \text{per slug foot squared per radian}
+\tag{58}
+$$
 
 Assuming a yaw inertia gives a directional stiffness, and the sensitivity is linear.
 
@@ -1177,7 +1351,10 @@ complete absence of vertical tail doubled in 290 milliseconds in yaw, an eigenva
 There is a useful bound attached to each. A first-order unstable plant with a pure time delay cannot be
 stabilised by a proportional loop of any gain once the delay approaches the reciprocal of the unstable pole,
 
-$$\tau_{\max} \approx \frac{1}{\lambda}$$
+$$
+\tau_{\max} \approx \frac{1}{\lambda}
+\tag{59}
+$$
 
 which gives 418 milliseconds for the X-31 case and 146 for the X-29.
 **Neither aircraft was anywhere near that bound**, and the point of computing it is to establish that
@@ -1284,7 +1461,10 @@ accident four of the five active pilots believed the pitot heat worked.
 **The probe measures a pressure difference, and everything downstream is derived from it.**
 The impact pressure is the difference between total and static pressure,
 
-$$q_c = p_t - p_s = p_0 \left[ \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]$$
+$$
+q_c = p_t - p_s = p_0 \left[ \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]
+\tag{60}
+$$
 
 and calibrated airspeed is defined as the speed that would produce that impact pressure at sea-level
 conditions.
@@ -1324,7 +1504,10 @@ speed is not, the schedule selects gains for the slower condition while the surf
 moments of the faster one. The loop gain is multiplied by the ratio of true to indicated dynamic pressure,
 equal to the **square** of the airspeed ratio,
 
-$$\frac{K_{\text{actual}}}{K_{\text{design}}} = \frac{q_{\text{true}}}{q_{\text{indicated}}} = \left( \frac{V_{\text{true}}}{V_{\text{indicated}}} \right)^{2}$$
+$$
+\frac{K_{\text{actual}}}{K_{\text{design}}} = \frac{q_{\text{true}}}{q_{\text{indicated}}} = \left( \frac{V_{\text{true}}}{V_{\text{indicated}}} \right)^{2}
+\tag{61}
+$$
 
 On the accident flight the indicated airspeed fell to [between 48 and 100 knots][ref_joyce_pdf] calibrated
 while the actual airspeed was 170.
@@ -1336,7 +1519,10 @@ while the actual airspeed was 170.
 
 A gain margin is quoted in decibels and the relation is
 
-$$\text{dB} = 20 \log_{10} \left( \frac{K_{\text{actual}}}{K_{\text{design}}} \right)$$
+$$
+\text{dB} = 20 \log_{10} \left( \frac{K_{\text{actual}}}{K_{\text{design}}} \right)
+\tag{62}
+$$
 
 **A conventional six-decibel gain margin is a factor of 1.995.** The least severe reading of the error
 exceeded the entire design gain margin by a factor of 1.445, and the most severe exceeded it more than
@@ -1359,7 +1545,10 @@ The broader record appears under the cluster on gain scheduling and stability ma
 Angle of attack and airspeed are not independent quantities in level flight. They are linked by the lift
 equation, and either one predicts the other. Using the lift-curve slope inferred earlier,
 
-$$\alpha = \frac{W}{q S C_{L\alpha}}$$
+$$
+\alpha = \frac{W}{q S C_{L\alpha}}
+\tag{63}
+$$
 
 | Indicated airspeed | Implied angle of attack at one g |
 |---|---|
@@ -1373,13 +1562,19 @@ attack, and then continued with the test point, as the [NASA history][ref_joyce_
 and no instrument tolerance produces an eleven-degree mismatch between a vane and an airspeed indicator on
 an aircraft in level flight. Against the table above, the displayed speed and the true one give
 
-$$\Delta \alpha_{207} = 20.00 - 8.82 = 11.2 \ \text{degrees} \qquad \Delta \alpha_{170} = 20.00 - 13.08 = 6.9 \ \text{degrees}$$
+$$
+\Delta \alpha_{207} = 20.00 - 8.82 = 11.2 \ \text{degrees} \qquad \Delta \alpha_{170} = 20.00 - 13.08 = 6.9 \ \text{degrees}
+\tag{64}
+$$
 
 Expressed the other way, twenty degrees implies 137.5 knots against the 207 displayed, so the display was
 high by a factor of 1.505 in speed and **2.266 in dynamic pressure**. Comparing that against the six-decibel
 margin factor of 1.995 gives the coldest number in this article,
 
-$$\frac{207}{137.5} = 1.505 \qquad \left( \frac{207}{137.5} \right)^{2} = 2.266 \qquad 10^{6/20} = 1.995$$
+$$
+\frac{207}{137.5} = 1.505 \qquad \left( \frac{207}{137.5} \right)^{2} = 2.266 \qquad 10^{6/20} = 1.995
+\tag{65}
+$$
 
 **At the moment the pilot spoke the words aloud, the loop gain error had already exceeded the design gain margin.**
 The aircraft was flown for some time after that, and at the actual airspeed of 170 knots the disagreement
@@ -1495,7 +1690,10 @@ enough from exact to say so.
 The tempo follows from the counts and the span. The computation is bookkeeping rather than flight-test
 technique but is reported with the same care,
 
-$$\dot{N} = \frac{N}{\Delta t} \qquad \text{and} \qquad \frac{N}{D} = \text{flights per flying day}$$
+$$
+\dot{N} = \frac{N}{\Delta t} \qquad \text{and} \qquad \frac{N}{D} = \text{flights per flying day}
+\tag{66}
+$$
 
 which over the 1,712 days from first flight to the end of the first programme gives
 **10.28 flights per month** and **1.66 flights per distinct flying day**.
@@ -1563,9 +1761,15 @@ The wider literature on this subject is gathered in the cluster on high angle of
 Pinball II had [recommended][ref_joyce_pdf] that each of the six pilots of the International Test
 Organization fly every starting condition. Reducing those counts to rates,
 
-$$\frac{80}{87} = 92.0 \ \text{percent of sorties scored} \qquad \frac{325}{407} = 79.9 \ \text{percent of engagements scored}$$
+$$
+\frac{80}{87} = 92.0 \ \text{percent of sorties scored} \qquad \frac{325}{407} = 79.9 \ \text{percent of engagements scored}
+\tag{67}
+$$
 
-$$\frac{407}{80} = 5.09 \ \text{engagements per scored sortie} \qquad \frac{325}{80} = 4.06 \ \text{scored engagements per scored sortie}$$
+$$
+\frac{407}{80} = 5.09 \ \text{engagements per scored sortie} \qquad \frac{325}{80} = 4.06 \ \text{scored engagements per scored sortie}
+\tag{68}
+$$
 
 **Four scored engagements per sortie is a high rate, the direct product of the real-time kill determination described above.**
 It is also the reason the flight programme reached a few hundred engagements rather than a few dozen.
@@ -1676,7 +1880,10 @@ against 192 with a modified high-lift configuration.
 Taking the ratio of one campaign to the other condition by condition puts a number on the disagreement,
 the comparison that the measures-of-effectiveness literature would call a repeatability check,
 
-$$\rho_i = \frac{E_i^{\text{I}}}{E_i^{\text{II}}}$$
+$$
+\rho_i = \frac{E_i^{\text{I}}}{E_i^{\text{II}}}
+\tag{69}
+$$
 
 | Condition | Pinball I | Pinball II | Ratio |
 |---|---|---|---|
@@ -1688,7 +1895,10 @@ $$\rho_i = \frac{E_i^{\text{I}}}{E_i^{\text{II}}}$$
 **The offensive condition reproduced to within 4.3 percent and the slow-speed line-abreast condition differed by a factor of 2.999.**
 Writing $\bar{E}$ for the mean of a campaign's four conditions, the comparisons are
 
-$$1 - \frac{22}{23} = 0.043 \qquad \frac{20}{6.67} = 2.999 \qquad \frac{2.8}{1.5} = 1.867 \qquad \frac{\bar{E}^{\text{I}}}{\bar{E}^{\text{II}}} = \frac{(1.2 + 22 + 20 + 1.5)/4}{(0.47 + 23 + 6.67 + 2.8)/4} = \frac{11.175}{8.235} = 1.357$$
+$$
+1 - \frac{22}{23} = 0.043 \qquad \frac{20}{6.67} = 2.999 \qquad \frac{2.8}{1.5} = 1.867 \qquad \frac{\bar{E}^{\text{I}}}{\bar{E}^{\text{II}}} = \frac{(1.2 + 22 + 20 + 1.5)/4}{(0.47 + 23 + 6.67 + 2.8)/4} = \frac{11.175}{8.235} = 1.357
+\tag{70}
+$$
 
 The defensive condition differed by a factor of 2.553 in one direction and the high-speed line-abreast by
 1.867 in the other. The means of the two campaigns are 11.175 and 8.235, a ratio of 1.357, so
@@ -2333,7 +2543,10 @@ which mix produced it.
 **The condition under which pooling reverses a conclusion can be written down.** A set of per-condition
 ratios supports a claim of advantage on average while the pooled figure denies it whenever
 
-$$\frac{1}{N} \sum_i E_i > 1 \qquad \text{and} \qquad \sum_i w_i E_i < 1$$
+$$
+\frac{1}{N} \sum_i E_i > 1 \qquad \text{and} \qquad \sum_i w_i E_i < 1
+\tag{71}
+$$
 
 which is possible for any set that contains at least one ratio below parity, because the weights are free.
 For the published set the two sides are 6.43 and 1.83, so both inequalities are satisfied with room to spare
@@ -2574,6 +2787,645 @@ were being fed the same wrong number. The information needed to catch it was dis
 display, spoken aloud over the intercom, available on a standby instrument near the pilot's knee, and
 computable in one line from the lift equation.
 **None of those was a redundancy the design had asked for, and any one of them would have been enough.**
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 71 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 71, 43 are established and 28 are bespoke.
+Aircraft quantities are in customary units, with weights and thrusts in pounds, dynamic pressures in pounds per square foot, lengths in feet and speeds in knots or feet per second, every calibrated airspeed is read as the equivalent airspeed that gives the same dynamic pressure at sea-level density, and several letters are reused, so $n$ is a count of scored outcomes, a load factor and a thrust-lapse exponent, $\alpha$ is a significance level in the interval relations and the angle of attack elsewhere, $p$ and $r$ are a probability and a turn radius except in the velocity-vector roll relation, where they are body-axis roll and yaw rates, and $\rho_i$ is a campaign ratio rather than a density.
+
+**Equation 1, Exchange Ratio.**
+The exchange ratio is the number of adversary losses divided by the number of losses of the aircraft under test, a measure of effectiveness from the operations-research literature.
+[measures of effectiveness for general-purpose forces][research_pugh_mayberry_1973]
+
+$$
+E = \frac{R}{B}
+\tag{1}
+$$
+
+**Equation 2, Arithmetic Mean of the Four Condition Ratios.**
+The unweighted mean of the four published per-condition exchange ratios is 6.43, three and a half times the published overall figure.
+
+$$
+\bar{E} = \frac{0.36 + 8.5 + 16 + 0.86}{4} = 6.43
+\tag{2}
+$$
+
+**Equation 3, Pooled Exchange Ratio as a Ratio of Sums.**
+The pooled exchange ratio divides the total adversary losses by the total losses of the aircraft under test across all conditions.
+[combining proportions across strata][research_hauck_anderson_1986]
+
+$$
+E_{\text{pool}} = \frac{\sum_i R_i}{\sum_i B_i}
+\tag{3}
+$$
+
+**Equation 4, Pooled Ratio as a Loss-Weighted Mean.**
+Substituting each condition's losses as its ratio times the test aircraft's losses shows the pooled ratio to be the mean of the condition ratios weighted by the denominator losses.
+[combining proportions across strata][research_hauck_anderson_1986]
+
+$$
+E_{\text{pool}} = \frac{\sum_i E_i B_i}{\sum_i B_i}
+\tag{4}
+$$
+
+**Equation 5, Pooled Ratio in Terms of Loss Shares.**
+Writing the weights as each condition's share of the test aircraft's losses expresses the pooled ratio as a convex combination of the condition ratios.
+
+$$
+E_{\text{pool}} = \sum_i w_i E_i
+\tag{5}
+$$
+
+*Equation 6, Bespoke Minimum Losing-Condition Share.*
+The article bounds the share of losses in the losing conditions from below with a two-point mixture that places all winning weight on the smaller winning ratio and all losing weight on the smaller losing ratio.
+
+$$
+w_{\min} = \frac{E_{\text{win,min}} - E_{\text{pool}}}{E_{\text{win,min}} - E_{\text{lose,min}}} = \frac{8.5 - 1.83}{8.5 - 0.36} = 0.819
+\tag{6}
+$$
+
+*Equation 7, Bespoke Maximum Losing-Condition Share.*
+Pairing the two larger ratios in the same two-point construction gives the upper end of the bracket, 93.6 percent.
+
+$$
+w_{\max} = \frac{E_{\text{win,max}} - E_{\text{pool}}}{E_{\text{win,max}} - E_{\text{lose,max}}} = \frac{16 - 1.83}{16 - 0.86} = 0.936
+\tag{7}
+$$
+
+*Equation 8, Bespoke Losing Share That Tips the Pooled Ratio to Parity.*
+Solving the two-point mixture for a pooled ratio of exactly one gives a losing share of 92.14 percent, a threshold the article shows lies inside its bracket.
+
+$$
+w_{\text{tip}} = \frac{E_{\text{win,min}} - 1}{E_{\text{win,min}} - E_{\text{lose,min}}} = \frac{8.5 - 1}{8.5 - 0.36} = 0.9214
+\tag{8}
+$$
+
+*Equation 9, Bespoke Two-Point Bracket on the Losing Share.*
+The same two-point construction is stated in general form for application to the two further published comparisons.
+[available in full][ref_joyce_pdf]
+
+$$
+w_{\min} = \frac{E_{\text{win,min}} - E_{\text{pool}}}{E_{\text{win,min}} - E_{\text{lose,min}}} \qquad w_{\max} = \frac{E_{\text{win,max}} - E_{\text{pool}}}{E_{\text{win,max}} - E_{\text{lose,max}}}
+\tag{9}
+$$
+
+**Equation 10, Exchange Ratio as Odds of a Bernoulli Outcome.**
+If each scored outcome is a Bernoulli trial in which the adversary is lost with probability $p$, the exchange ratio is the odds $p/(1-p)$ and maps one to one onto that probability.
+[Fleiss on statistical methods for rates and proportions][book_fleiss]
+[Agresti on categorical data][book_agresti]
+
+$$
+E = \frac{p}{1 - p} \qquad \text{and} \qquad p = \frac{E}{1 + E}
+\tag{10}
+$$
+
+**Equation 11, Clopper-Pearson Lower Endpoint.**
+The lower endpoint of the Clopper-Pearson interval is the probability at which the upper binomial tail from $k$ successes equals half the significance level.
+[Clopper-Pearson interval][ref_clopper]
+
+$$
+\sum_{i=k}^{n} \binom{n}{i} p^{i} (1 - p)^{n - i} = \frac{\alpha}{2}
+\tag{11}
+$$
+
+**Equation 12, Clopper-Pearson Upper Endpoint.**
+The upper endpoint is the probability at which the lower binomial tail through $k$ successes equals half the significance level.
+[Clopper-Pearson interval][ref_clopper]
+[interval estimation for a binomial proportion][research_sandelius_1952]
+
+$$
+\sum_{i=0}^{k} \binom{n}{i} p^{i} (1 - p)^{n - i} = \frac{\alpha}{2}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Outcome Split Reconstructed From a Ratio.*
+Because the counts are unpublished, the article reconstructs the adversary and test-aircraft losses from each published ratio and a stated number of scored outcomes that it sweeps.
+
+$$
+k = \operatorname{round}\left( \frac{n E}{1 + E} \right) \qquad \text{and} \qquad b = n - k
+\tag{13}
+$$
+
+**Equation 14, Separation From Parity.**
+A ratio is taken to separate from parity when its interval excludes one, which is the same as the interval on the probability excluding one half.
+
+$$
+\text{separates} \iff 1 \notin [E_{\text{lo}}, E_{\text{hi}}] \iff \tfrac{1}{2} \notin [p_{\text{lo}}, p_{\text{hi}}]
+\tag{14}
+$$
+
+**Equation 15, Aspect Ratio From Span and Area.**
+The aspect ratio implied by the published span and wing area is 2.509, against a published 2.51.
+
+$$
+A = \frac{b^{2}}{S} = \frac{23.83^{2}}{226.3} = 2.509
+\tag{15}
+$$
+
+**Equation 16, Wing Loading at Normal Flying Weight.**
+The normal flying weight divided by the wing area reproduces the published wing loading of 64.52 pounds per square foot.
+
+$$
+\frac{W}{S} = \frac{14{,}600}{226.3} = 64.52 \ \text{lb/ft}^{2}
+\tag{16}
+$$
+
+**Equation 17, Lift Coefficient in Level Flight.**
+In level flight the lift coefficient is the weight divided by dynamic pressure and wing area, with the dynamic pressure taken from calibrated airspeed at sea-level density.
+[Etkin on the dynamics of flight][book_etkin]
+[Nelson on flight stability][book_nelson]
+[Cook on flight dynamics principles][book_cook]
+
+$$
+C_L = \frac{W}{q S} \qquad \text{with} \qquad q = \tfrac{1}{2} \rho_0 V_c^{2}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Lift-Curve Slope Inferred From a Pilot's Trim Point.*
+The slope is inferred from a pilot's remark that twenty degrees corresponds to 135 to 140 knots, taking the midpoint of 137.5 knots, an assumed weight near 14,000 pounds and a lift line through the origin.
+[available in full][ref_joyce_pdf]
+
+$$
+C_{L\alpha} = 0.04833 \ \text{per degree} = 2.769 \ \text{per radian}
+\tag{18}
+$$
+
+**Equation 19, Helmbold Lift-Curve Slope.**
+The Helmbold relation for a low-aspect-ratio unswept wing gives a lift-curve slope of 3.027 per radian at the published aspect ratio.
+
+$$
+C_{L\alpha} = \frac{\pi A}{1 + \sqrt{1 + (A/2)^{2}}} = \frac{\pi (2.51)}{1 + \sqrt{1 + 1.575}} = 3.027 \ \text{per radian}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Swept-Wing Lift-Curve Slope at the Root Sweep.*
+The handbook compressible form is evaluated at the root leading-edge sweep of 56.6 degrees, a single sweep the article takes for a cranked wing whose outboard panel is swept 45 degrees.
+[stability and control handbook][ref_datcom]
+
+$$
+C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{\dfrac{A^{2} \beta^{2}}{\kappa^{2}} \left(1 + \dfrac{\tan^{2} \Lambda}{\beta^{2}}\right) + 4}} = 2.278 \ \text{per radian}
+\tag{20}
+$$
+
+**Equation 21, Canard Contribution to the Lift-Curve Slope.**
+A forward surface adds to the whole-aircraft slope in proportion to its area ratio and its own slope, scaled by an efficiency that accounts for upwash.
+
+$$
+\Delta C_{L\alpha} = \eta \, \frac{S_c}{S} \, C_{L\alpha,c}
+\tag{21}
+$$
+
+**Equation 22, Yawing Moment From Thrust Vectoring.**
+The yawing moment available from vectoring is the side component of thrust acting on the moment arm of the vanes.
+
+$$
+N_{\text{tv}} = T \sin \delta_j \, \ell_v
+\tag{22}
+$$
+
+**Equation 23, Vectored Yawing Moment Coefficient.**
+Dividing the vectored moment by dynamic pressure, wing area and span gives a coefficient that falls inversely with dynamic pressure.
+
+$$
+C_{n,\text{tv}} = \frac{T \sin \delta_j \, \ell_v}{q S b}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Upper Bound on the Vectoring Moment Arm.*
+The article reads a departure as an asymmetry that exceeded the available authority, which turns the vectoring relation into an upper bound on the arm.
+[asymmetry report][research_cobleigh_1994]
+
+$$
+\ell_v < \frac{C_{n0} \, q S b}{T \sin \delta_j}
+\tag{24}
+$$
+
+**Equation 25, Dynamic Pressure at Mach 0.4 and 35,000 Feet.**
+The dynamic pressure follows from the standard atmosphere pressure ratio and the quoted Mach number of the departure.
+
+$$
+q = \tfrac{\gamma}{2} \, p_0 \, \delta \, M^{2} = 0.7 \times 2{,}116.22 \times 0.2353 \times 0.4^{2} = 55.77 \ \text{psf}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Arm Bound From the Departure.*
+The bound of 36.2 feet uses the departure asymmetry of 0.125, a thrust of 16,000 pounds lapsed with the pressure ratio to the first power and a jet deflection of sixteen degrees, so the lapse exponent the article assumes governs it.
+
+$$
+\ell_v < \frac{0.125 \times 55.77 \times 226.3 \times 23.83}{3{,}765 \times \sin 16^{\circ}} = \frac{37{,}594}{1{,}037.8} = 36.2 \ \text{feet}
+\tag{26}
+$$
+
+**Equation 27, Standard Troposphere Ratios.**
+The 1976 standard troposphere gives the temperature ratio as linear in altitude, the pressure ratio as its 5.2559 power and the density ratio as their quotient.
+[civil aviation atmosphere][ref_icao_atmosphere_1957]
+
+$$
+\theta = \frac{T}{T_0} = 1 - 6.87535 \times 10^{-6} \, h \qquad \delta = \frac{p}{p_0} = \theta^{5.2559} \qquad \sigma = \frac{\rho}{\rho_0} = \frac{\delta}{\theta}
+\tag{27}
+$$
+
+**Equation 28, Speed of Sound From the Temperature Ratio.**
+The speed of sound follows from the temperature alone and so from the sea-level value and the temperature ratio.
+
+$$
+a = \sqrt{\gamma R T} = \sqrt{\gamma R T_0 \theta}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Thrust Lapse With Pressure Ratio.*
+The article models thrust at fixed Mach number as the sea-level thrust times a power of the pressure ratio, taking an exponent near one and carrying it explicitly for sensitivity.
+[Bronz et al. 2017][research_bronz_garciademarina_2017]
+[identified engine performance models][research_andrianantara_ghazi_2021]
+
+$$
+T(h) = T_{\text{SL}} \, \delta(h)^{n}
+\tag{29}
+$$
+
+**Equation 30, Moment Arm Needed to Hold an Asymmetry.**
+Solving the vectoring relation at equality gives the moment arm needed to balance a given asymmetric yawing moment coefficient.
+
+$$
+\ell_{\text{req}} = \frac{C_{n0} \, q S b}{T \sin \delta_j}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Needed Arms at Two Flight Conditions.*
+Two table entries are worked with the steady asymmetry bound of 0.080 and thrusts lapsed under the assumed pressure-ratio model.
+
+$$
+\ell_{\text{req}}^{20{,}000,\,150} = \frac{0.080 \times 76.2 \times 226.3 \times 23.83}{7{,}353 \times \sin 16^{\circ}} = \frac{32{,}874}{2{,}026.8} = 16.2 \ \text{ft} \qquad \ell_{\text{req}}^{30{,}000,\,250} = \frac{0.080 \times 211.6 \times 226.3 \times 23.83}{4{,}751 \times \sin 16^{\circ}} = \frac{91{,}288}{1{,}309.6} = 69.7 \ \text{ft}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Dynamic Pressure Above Which No Arm Suffices.*
+Setting the needed arm equal to the fuselage length, a geometric ceiling the article imposes, gives the dynamic pressure and calibrated airspeed above which vectoring cannot hold the asymmetry.
+
+$$
+q_{L} = \frac{L \, T \sin \delta_j}{C_{n0} \, S b} \qquad V_{c,L} = \sqrt{\frac{2 q_{L}}{\rho_0}}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Ceiling Speed at 20,000 Feet Against the Departure Asymmetry.*
+At twenty thousand feet with the lapsed thrust and the departure asymmetry of 0.125, the ceiling falls at 190 knots.
+
+$$
+q_{L} = \frac{40.67 \times 7{,}353 \times \sin 16^{\circ}}{0.125 \times 226.3 \times 23.83} = \frac{82{,}428}{674.09} = 122.3 \ \text{psf} \qquad V_{c,L} = 320.8 \ \text{ft/s} = 190.0 \ \text{knots}
+\tag{33}
+$$
+
+**Equation 34, Equivalent Airspeed of the Departure.**
+The dynamic pressure of the departure condition corresponds at sea-level density to an equivalent airspeed of 128.3 knots.
+
+$$
+V_e = \sqrt{\frac{2 q}{\rho_0}} = \sqrt{\frac{2 \times 55.77}{0.0023769}} = 216.6 \ \text{ft/s} = 128.3 \ \text{knots}
+\tag{34}
+$$
+
+**Equation 35, Measured Swing in Asymmetric Yawing Moment.**
+The asymmetry report records a swing from 0.077 in one direction to 0.088 in the other, a change of 0.165 within three degrees of angle of attack.
+[asymmetry report][research_cobleigh_1994]
+
+$$
+\Delta C_n = 0.165 \ \text{across three degrees of angle of attack}
+\tag{35}
+$$
+
+**Equation 36, Asymmetric Yawing Moment From Its Coefficient.**
+The dimensional yawing moment is the coefficient times dynamic pressure, wing area and span.
+
+$$
+N_{0} = C_{n0} \, q S b
+\tag{36}
+$$
+
+*Equation 37, Bespoke Altitude Ratio of Vectored Authority.*
+At constant calibrated airspeed the unknown arm cancels and the vectored authority scales with thrust, which the article approximates by the ratio of pressure ratios under its lapse model.
+
+$$
+\frac{C_{n,\text{tv}}(h_2)}{C_{n,\text{tv}}(h_1)} = \frac{T(h_2)}{T(h_1)} \approx \frac{\delta(h_2)}{\delta(h_1)}
+\tag{37}
+$$
+
+**Equation 38, Radius of a Level Turn.**
+The radius of a level turn is the speed squared divided by gravity times the square root of load factor squared less one.
+
+$$
+r = \frac{V^{2}}{g \sqrt{n^{2} - 1}}
+\tag{38}
+$$
+
+**Equation 39, Available Load Factor.**
+The load factor is the lift the wing can produce divided by the weight.
+
+$$
+n = \frac{q S C_L}{W}
+\tag{39}
+$$
+
+**Equation 40, Slowest Level-Flight Speed at a Given Lift Coefficient.**
+Setting the load factor to one gives the slowest equivalent airspeed at which the aircraft can hold a given lift coefficient in level flight.
+
+$$
+V_{\text{level}} = \sqrt{\frac{2 W}{\rho_0 S C_L}}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Level-Flight Speed at Seventy Degrees.*
+The level-flight speed of 138 knots rests on a lift coefficient of 1.00 at seventy degrees of angle of attack, an estimate the article makes rather than a measurement.
+
+$$
+V_{\text{level}} = \sqrt{\frac{2 \times 14{,}600}{0.0023769 \times 226.3 \times 1.00}} = 233.0 \ \text{ft/s} = 138.0 \ \text{knots}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Aim Angle Bought by Post-Stall Flight.*
+The article measures the capability as the difference between the seventy-degree post-stall limit and a conventional limit it takes as thirty degrees.
+
+$$
+\Delta \psi_{\text{aim}} = \alpha_{\max} - \alpha_{\text{conv}} = 70 - 30 = 40 \ \text{degrees}
+\tag{42}
+$$
+
+**Equation 43, Time to Turn Through an Angle.**
+The time to turn the velocity vector through an angle is that angle divided by the level-turn rate, which follows from speed and load factor.
+
+$$
+t = \frac{\Delta \psi}{\omega} \qquad \text{with} \qquad \omega = \frac{g \sqrt{n^{2} - 1}}{V}
+\tag{43}
+$$
+
+**Equation 44, Corner Speed.**
+The corner speed is the speed at which the lift limit meets the structural load factor limit.
+[corner speed][ref_corner_speed]
+[Anderson on aircraft performance and design][book_anderson_perf]
+[Raymer on conceptual design][book_raymer]
+
+$$
+V^{*} = \sqrt{\frac{2 n_{\max} W}{\rho_0 S C_{L\max}}}
+\tag{44}
+$$
+
+**Equation 45, Specific Energy.**
+Specific energy, or energy height, is altitude plus the kinetic energy per unit weight.
+
+$$
+E_s = h + \frac{V^{2}}{2 g}
+\tag{45}
+$$
+
+*Equation 46, Bespoke True Airspeeds at Corner Speed and Post-Stall Exit.*
+The true airspeeds at twenty thousand feet are found from equivalent airspeeds whose corner value rests on the lift coefficient of 1.4498 taken from the inferred lift curve.
+
+$$
+V = \frac{V_e}{\sqrt{\sigma}} \qquad V^{*} = \frac{580.5}{\sqrt{0.5328}} = 795.3 \ \text{ft/s} = 471.2 \ \text{knots} \qquad V_1 = \frac{202.5}{\sqrt{0.5328}} = 277.5 \ \text{ft/s} = 164.4 \ \text{knots}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Energy Lost Falling From Corner Speed.*
+The specific energy given up between the inferred corner speed and an exit at 120 knots is about 8,630 feet.
+
+$$
+\Delta E_s = \frac{V^{*2} - V_1^{2}}{2 g} = \frac{795.3^{2} - 277.5^{2}}{2 \times 32.174} = \frac{555{,}496}{64.348} = 8{,}630 \ \text{feet}
+\tag{47}
+$$
+
+**Equation 48, Specific Excess Power With a Parabolic Polar.**
+Specific excess power is speed times the excess of thrust over drag divided by weight, with drag from a parabolic polar.
+[energy-manoeuvrability comparison][research_johnson_1972]
+
+$$
+P_s = \frac{V (T - D)}{W} \qquad \text{with} \qquad D = q S \left( C_{D0} + \frac{C_L^{2}}{\pi A e} \right)
+\tag{48}
+$$
+
+*Equation 49, Bespoke Specific Excess Power at the Slow End.*
+The slow-end figure of 68.6 feet per second uses a zero-lift drag coefficient of 0.022 and an efficiency factor of 0.70, both values the article assumes, with lapsed thrust.
+
+$$
+q = \tfrac{1}{2} \rho_0 \sigma V_1^{2} = 48.75 \ \text{psf} \qquad C_L = \frac{14{,}600}{48.75 \times 226.3} = 1.323 \qquad P_s = \frac{277.5 \, (7{,}353 - 3{,}743)}{14{,}600} = 68.6 \ \text{ft/s}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Specific Excess Power at the Fast End.*
+The fast-end figure of 268.7 feet per second uses the same assumed drag polar and lapsed thrust.
+
+$$
+q = 400.5 \ \text{psf} \qquad C_L = \frac{14{,}600}{400.5 \times 226.3} = 0.161 \qquad P_s = \frac{795.3 \, (7{,}353 - 2{,}420)}{14{,}600} = 268.7 \ \text{ft/s}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Integrated Energy Recovery Time.*
+Integrating the reciprocal of specific excess power over speed on the assumed polar gives 46.0 seconds, against 125.8 seconds from a single-point estimate at the slow end.
+
+$$
+t = \int_{V_1}^{V^{*}} \frac{V \, dV}{g \, P_s(V)} = 46.0 \ \text{s} \qquad \text{against} \qquad \frac{\Delta E_s}{P_s(V_1)} = \frac{8{,}632.7}{68.60} = 125.8 \ \text{s}
+\tag{51}
+$$
+
+**Equation 52, Roll Rate About the Velocity Vector.**
+A roll about the velocity vector combines body-axis roll and yaw rates weighted by the cosine and sine of the angle of attack.
+[review of high angle of attack control system performance][research_huberpeter_seamountpatricia_1994]
+
+$$
+p_w = p \cos \alpha + r \sin \alpha
+\tag{52}
+$$
+
+**Equation 53, Roll and Yaw Weights at Seventy Degrees.**
+At seventy degrees the cosine and sine weights are 0.3420 and 0.9397, so a velocity-vector roll is mostly yaw rate.
+
+$$
+\cos 70^{\circ} = 0.3420 \qquad \sin 70^{\circ} = 0.9397
+\tag{53}
+$$
+
+**Equation 54, Amplitude at Which an Actuator Rate Limit Binds.**
+A sinusoidal command of amplitude $A$ at frequency $\omega$ demands a peak rate of $A\omega$, so the rate limit binds above the amplitude equal to the maximum rate over the frequency.
+
+$$
+A_{\text{bind}} = \frac{\dot{\delta}_{\max}}{\omega}
+\tag{54}
+$$
+
+**Equation 55, Eigenvalue From a Time to Double.**
+A divergent mode growing as $e^{\lambda t}$ has an eigenvalue equal to the natural logarithm of two over the time to double, here 2.39 per second from the published 290 milliseconds.
+[statically unstable configurations under displacement and rate saturation][research_hanson_stengel_1981]
+
+$$
+\lambda = \frac{\ln 2}{t_2} = \frac{0.6931}{0.290} = 2.3902 \ \text{per second}
+\tag{55}
+$$
+
+**Equation 56, Yaw Divergence Eigenvalue and Directional Stiffness.**
+For a yaw-only divergence the square of the eigenvalue is minus the directional stiffness moment divided by the yaw inertia.
+[flight measurement of lateral and directional stability][research_cranehl_reederjp_1945]
+
+$$
+\lambda^{2} = -\frac{q S b \, C_{n\beta}}{I_z}
+\tag{56}
+$$
+
+**Equation 57, True Airspeed, Equivalent Airspeed and Dynamic Pressure.**
+True airspeed is Mach number times the speed of sound, equivalent airspeed scales it by the square root of the density ratio, and both routes give the same dynamic pressure.
+[Altman 1952][research_altman_1952]
+
+$$
+V_{\text{true}} = M a \qquad V_{\text{eq}} = V_{\text{true}} \sqrt{\sigma} \qquad q = \tfrac{1}{2} \rho_0 \sigma V_{\text{true}}^{2} = \tfrac{1}{2} \rho_0 V_{\text{eq}}^{2}
+\tag{57}
+$$
+
+**Equation 58, Directional Stiffness per Unit Yaw Inertia.**
+The published doubling time fixes the ratio of directional stiffness to yaw inertia, here evaluated at thirty thousand feet, without fixing either factor.
+
+$$
+-\frac{C_{n\beta}}{I_z} = 1.6724 \times 10^{-6} \ \text{per slug foot squared per radian}
+\tag{58}
+$$
+
+**Equation 59, Delay Bound for a First-Order Unstable Plant.**
+A first-order unstable plant with a pure delay cannot be stabilised by proportional feedback once the delay approaches the reciprocal of the unstable pole.
+
+$$
+\tau_{\max} \approx \frac{1}{\lambda}
+\tag{59}
+$$
+
+**Equation 60, Impact Pressure of a Pitot-Static Probe.**
+The impact pressure is total minus static pressure, which for subsonic flow follows from the isentropic relation in Mach number.
+
+$$
+q_c = p_t - p_s = p_0 \left[ \left( 1 + \tfrac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]
+\tag{60}
+$$
+
+*Equation 61, Bespoke Loop Gain Error From an Airspeed Error.*
+The article models the gain schedule as reducing gain with indicated dynamic pressure while surface effectiveness follows true dynamic pressure, so the loop gain is multiplied by the square of the airspeed ratio.
+[available in full][ref_joyce_pdf]
+
+$$
+\frac{K_{\text{actual}}}{K_{\text{design}}} = \frac{q_{\text{true}}}{q_{\text{indicated}}} = \left( \frac{V_{\text{true}}}{V_{\text{indicated}}} \right)^{2}
+\tag{61}
+$$
+
+**Equation 62, Gain Ratio in Decibels.**
+A gain ratio is expressed in decibels as twenty times its common logarithm.
+
+$$
+\text{dB} = 20 \log_{10} \left( \frac{K_{\text{actual}}}{K_{\text{design}}} \right)
+\tag{62}
+$$
+
+*Equation 63, Bespoke Angle of Attack Implied by Airspeed in Level Flight.*
+The angle of attack implied by an indicated airspeed at one g uses the lift-curve slope inferred from the pilot's trim point with a lift line through the origin.
+
+$$
+\alpha = \frac{W}{q S C_{L\alpha}}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Disagreement Between Vane and Airspeed.*
+The disagreements of 11.2 and 6.9 degrees compare the twenty degrees read on the vane with the angles implied at 207 and 170 knots by the inferred lift curve.
+[available in full][ref_joyce_pdf]
+
+$$
+\Delta \alpha_{207} = 20.00 - 8.82 = 11.2 \ \text{degrees} \qquad \Delta \alpha_{170} = 20.00 - 13.08 = 6.9 \ \text{degrees}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Display Error Against a Six-Decibel Margin.*
+The display error is measured against 137.5 knots, the midpoint of the pilot's stated range of 135 to 140 knots, and compared in dynamic pressure with a conventional six-decibel margin.
+
+$$
+\frac{207}{137.5} = 1.505 \qquad \left( \frac{207}{137.5} \right)^{2} = 2.266 \qquad 10^{6/20} = 1.995
+\tag{65}
+$$
+
+**Equation 66, Flight Rate and Flights per Flying Day.**
+The flight rate is the number of flights over the elapsed time, and flights per flying day divides the same count by the number of distinct flying days.
+
+$$
+\dot{N} = \frac{N}{\Delta t} \qquad \text{and} \qquad \frac{N}{D} = \text{flights per flying day}
+\tag{66}
+$$
+
+**Equation 67, Scored Fractions of Sorties and Engagements.**
+The published counts give 92.0 percent of tactical sorties scored and 79.9 percent of engagements scored.
+[available in full][ref_joyce_pdf]
+
+$$
+\frac{80}{87} = 92.0 \ \text{percent of sorties scored} \qquad \frac{325}{407} = 79.9 \ \text{percent of engagements scored}
+\tag{67}
+$$
+
+**Equation 68, Engagements per Scored Sortie.**
+The published counts give about five engagements and four scored engagements per scored sortie.
+[available in full][ref_joyce_pdf]
+
+$$
+\frac{407}{80} = 5.09 \ \text{engagements per scored sortie} \qquad \frac{325}{80} = 4.06 \ \text{scored engagements per scored sortie}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Campaign Repeatability Ratio.*
+The article measures the repeatability of the two simulation campaigns by the ratio of their exchange ratios condition by condition.
+
+$$
+\rho_i = \frac{E_i^{\text{I}}}{E_i^{\text{II}}}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Repeatability Ratios and Ratio of Campaign Means.*
+Evaluating the repeatability ratios and the ratio of the unweighted campaign means shows closer agreement in aggregate than in any single condition.
+
+$$
+1 - \frac{22}{23} = 0.043 \qquad \frac{20}{6.67} = 2.999 \qquad \frac{2.8}{1.5} = 1.867 \qquad \frac{\bar{E}^{\text{I}}}{\bar{E}^{\text{II}}} = \frac{(1.2 + 22 + 20 + 1.5)/4}{(0.47 + 23 + 6.67 + 2.8)/4} = \frac{11.175}{8.235} = 1.357
+\tag{70}
+$$
+
+*Equation 71, Bespoke Condition for Pooling to Reverse a Conclusion.*
+The article states the reversal condition as an unweighted mean of condition ratios above parity together with a loss-weighted pooled ratio below it.
+
+$$
+\frac{1}{N} \sum_i E_i > 1 \qquad \text{and} \qquad \sum_i w_i E_i < 1
+\tag{71}
+$$
+
+### Notation
+
+- $E$, the exchange ratio, with $E_i$ the ratio in condition $i$ and $E_{\text{pool}}$ the pooled ratio
+- $w_i$, the share of the test aircraft's losses in condition $i$
+- $k$, the number of adversary losses in $n$ scored outcomes
+- $A$, the wing aspect ratio, except in the actuator relation, where it is a command amplitude
+- $S$, the wing reference area, with $S_c$ the canard area
+- $b$, the wing span, except in the reconstructed split, where it is the number of test aircraft losses
+- $W$, the weight
+- $C_L$, the lift coefficient
+- $C_{L\alpha}$, the lift-curve slope
+- $q$, the dynamic pressure
+- $\rho_0$, the sea-level air density
+- $\delta_j$, the jet deflection angle
+- $\ell_v$, the moment arm of the thrust-vectoring vanes
+- $C_{n0}$, the asymmetric yawing moment coefficient
+- $\theta$, the temperature ratio of the standard atmosphere
+- $\delta$, the pressure ratio of the standard atmosphere
+- $\sigma$, the density ratio of the standard atmosphere
+- $V^{*}$, the corner speed
+- $E_s$, the specific energy
+- $P_s$, the specific excess power
+- $C_{D0}$, the zero-lift drag coefficient
+- $\lambda$, the eigenvalue of a divergent mode
+- $C_{n\beta}$, the directional stability derivative
+- $I_z$, the moment of inertia in yaw
+- $q_c$, the impact pressure
+- $K_{\text{actual}}$, the loop gain in flight, with $K_{\text{design}}$ the gain the schedule intends
+
 ## References
 
 <!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->

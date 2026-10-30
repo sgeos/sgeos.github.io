@@ -1,0 +1,687 @@
+# Equation classification for A326. Read by `python3 _lib/equations.py`.
+
+caution = "Weights are in pounds, dynamic pressures in pounds per square foot and stiffnesses in foot-pounds, while times are in seconds and sample rates in hertz, and several letters change meaning between sections, so $e$ is a moment arm in the divergence relations and the span efficiency in the drag relations, $\\lambda$ is the unstable pitch root in the doubling-time relations and the taper ratio in the planform relations, and $\\eta$ is the fractional span station, the section efficiency in the lift-curve slope and, as $\\eta_{cp}$, the centre of pressure station."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Wing Loading at the Maximum Gross Weight"
+gloss = "The wing loading is the maximum takeoff gross weight divided by the reference area, evaluated from the published figures."
+cite = ["book_raymer"]
+digest = "aa92c780fce44a06"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Thrust-to-Weight Ratio at the Maximum Gross Weight"
+gloss = "The thrust-to-weight ratio takes the engine class rating of 16,000 pounds as the thrust, a substitute the article chooses because the record gives no installed thrust."
+cite = []
+digest = "4ae1db1fd0e31b43"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Thrust-to-Weight Ratio at the Manoeuvre Design Weight"
+gloss = "The same class rating divided by the manoeuvre design gross weight gives a ratio above one, again taking the uninstalled rating as the thrust."
+cite = []
+digest = "f05d1724f409d82d"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Canard Area From the Quoted Percentage"
+gloss = "The canard area is the quoted twenty percent of the wing reference area, which matches the figure in the later lift and drag report."
+cite = ["research_saltzmanedwinj_hicksjohnw_1994"]
+digest = "b17adee58286990c"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Canard Mean Chord From the Quoted Percentage"
+gloss = "The canard mean aerodynamic chord is the quoted seventy-six percent of the wing mean aerodynamic chord."
+cite = []
+digest = "ae16d45df88e51f1"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Wing Load at the Subsonic Design Limit"
+gloss = "The limit load is the subsonic design load factor of eight multiplied by the manoeuvre design gross weight."
+cite = ["research_simsrobert_mccrossonpaul_1989"]
+digest = "c020794ce0c1a16f"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Fuel Fraction at the Maximum Gross Weight"
+gloss = "The fuel fraction is the published fuel load divided by the maximum takeoff gross weight."
+cite = []
+digest = "39391d9ce2c9b646"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Excess of the Heaviest Weight Flown Over the Design Weight"
+gloss = "The heaviest gross weight flown exceeds the manoeuvre design gross weight by eighteen percent, as the record states."
+cite = ["research_simsrobert_mccrossonpaul_1989"]
+digest = "1f9e85a9e4533ae1"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Span From Aspect Ratio and Reference Area"
+gloss = "The span is the square root of aspect ratio times reference area, which reproduces the published reference span to better than one hundredth of a percent."
+cite = ["research_hicksjohnw_huckabinethomas_1989", "research_simsrobert_mccrossonpaul_1989"]
+digest = "c5eecf998ed95f30"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Elastic Amplification of the Lift-Curve Slope"
+gloss = "For a single torsional degree of freedom the ratio of elastic to rigid lift-curve slope is one over one minus the ratio of dynamic pressure to divergence dynamic pressure."
+cite = []
+digest = "da3ee3699fe5b195"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Torsional Moment Equilibrium of an Elastic Wing Section"
+gloss = "The elastic restoring moment of the twisted section balances the aerodynamic moment of its lift acting a distance $e$ ahead of the elastic axis."
+cite = []
+digest = "4a20db5632f2a3f9"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Elastic Twist Under Aerodynamic Load"
+gloss = "Solving the equilibrium for the twist exposes a denominator that vanishes when the aerodynamic moment slope equals the torsional stiffness."
+cite = []
+digest = "86778225ec66f824"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Divergence Dynamic Pressure of a Torsional Section"
+gloss = "The divergence dynamic pressure is the torsional stiffness divided by the product of area, moment arm and lift-curve slope."
+cite = []
+digest = "efb032bce0816f9d"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Total Angle of Attack as an Amplified Rigid Value"
+gloss = "Substituting the divergence dynamic pressure shows that the total angle of attack, and with it the lift, is the rigid value times the amplification factor."
+cite = []
+digest = "bfba81527472b6c5"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Design Dynamic Pressure From Mach Number at Sea Level"
+gloss = "The design point quoted as Mach 1.07 at sea level gives a dynamic pressure that agrees with the quoted 1,700 pounds per square foot to a quarter of a percent."
+cite = ["research_simsrobert_mccrossonpaul_1989"]
+digest = "2a22b4381a93d940"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Divergence Boundary From the Amplification Ratio"
+gloss = "Rearranging the amplification relation gives the divergence dynamic pressure from the flight dynamic pressure and the elastic-to-rigid ratio."
+cite = []
+digest = "123029371bd4968e"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Fraction of the Divergence Boundary at the Design Point"
+gloss = "The published elastic-to-rigid ratio of 1.6 is passed through the single-degree-of-freedom amplification relation, an idealisation of the real wing that the article adopts, to place the design point at 0.375 of the boundary."
+cite = []
+digest = "8f1feb9abf617631"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Inverted Divergence Dynamic Pressure"
+gloss = "Dividing the published design dynamic pressure by that fraction gives a divergence boundary of about 4,533 pounds per square foot, a figure the article derives through a relation neither source used."
+cite = []
+digest = "460949e46c629e66"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Divergence Margin in Dynamic Pressure and Speed"
+gloss = "The inverted boundary is stated as a margin of 2.667 in dynamic pressure and of its square root, 1.633, in speed."
+cite = []
+digest = "12cd25157d1f733c"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Equivalent Airspeed"
+gloss = "Dynamic pressure fixes the equivalent airspeed through sea-level density alone."
+cite = []
+digest = "80fd6467ce386110"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Equivalent Airspeeds at the Design Point and the Boundary"
+gloss = "The design and divergence dynamic pressures are expressed as equivalent airspeeds, the second resting on the inverted boundary."
+cite = []
+digest = "14d3a81570ec9c91"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Elasticity of the Boundary With Respect to the Ratio"
+gloss = "Writing the inversion as a product shows that the logarithmic sensitivity of the boundary to the amplification ratio is minus one over the ratio less one."
+cite = []
+digest = "3665b91914384c5a"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Elasticity Evaluated at the Published Ratio"
+gloss = "At the published ratio of 1.6 a one percent error in the ratio becomes an error of 1.667 percent of opposite sign in the boundary."
+cite = []
+digest = "93dc4422c28fe523"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Streamwise Angle-of-Attack Change of a Swept Elastic Wing"
+gloss = "Resolving the elastic twist and the bending slope onto the streamwise direction shows that bending adds washin on a forward-swept wing and washout on an aft-swept one."
+cite = ["book_bisplinghoff"]
+digest = "c048386b0675928c"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Coupled Bending-Torsion Constitutive Law"
+gloss = "The bending moment and torque are related to curvature and rate of twist by a symmetric stiffness matrix whose off-diagonal term is the bend-twist coupling."
+cite = []
+digest = "c7d3fb1fa88541fa"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Two-Mode Divergence Eigenproblem"
+gloss = "Assuming a quadratic bending mode and a linear twist mode with strip theory, the article writes divergence as the vanishing determinant of a structural minus aerodynamic matrix."
+cite = []
+digest = "b1e761ec6d975894"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Structural and Aerodynamic Matrices of the Two-Mode Model"
+gloss = "The matrix entries follow from the assumed quadratic bending and linear twist modes with strip-theory lift acting a distance $e$ ahead of the elastic axis."
+cite = []
+digest = "001c3555d6ed6a48"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Strain Energy of a Coupled Composite Beam"
+gloss = "The strain energy of the beam is half the integral of the bending, torsion and coupling energy densities along the span."
+cite = []
+digest = "59686c42ac4a7cbd"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Mode-Shape Integrals"
+gloss = "The three integrals are evaluated exactly on the quadratic bending and linear twist shapes the article assumes."
+cite = []
+digest = "fca4cf5423c1fa8b"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Vanishing Quadratic Coefficient"
+gloss = "Within the assumed two-mode model the quadratic coefficient of the characteristic equation cancels identically, so the equation is linear in the dynamic pressure."
+cite = []
+digest = "9928ebd5121d2312"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Closed-Form Untailored Divergence Root"
+gloss = "The linear characteristic equation of the assumed two-mode model gives the reciprocal of the divergence dynamic pressure as a torsion term less a bending term whose sign follows the sweep."
+cite = []
+digest = "796f83658c78ee8f"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Critical Sweepback That Removes Divergence"
+gloss = "Setting the two terms of the closed-form root equal gives the sweepback at which divergence vanishes, evaluated as about 48 degrees with stiffnesses the article assumes."
+cite = []
+digest = "fd4da9fbcd190116"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Absence of a Divergence Root Beyond the Critical Sweep"
+gloss = "At sweepback beyond the critical angle the assumed two-mode model has no positive root, recovering the classical result that sufficient sweepback removes divergence."
+cite = []
+digest = "063b6740e4e663bf"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Non-Dimensional Bend-Twist Coupling Parameter"
+gloss = "The coupling parameter is the coupling stiffness divided by the geometric mean of the bending and torsional stiffnesses."
+cite = ["book_jones_composite", "book_tsai_hahn"]
+digest = "6923f201da7ff496"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Positive Definiteness Bound on the Coupling"
+gloss = "A positive definite stiffness matrix requires the product of bending and torsional stiffness to exceed the square of the coupling, which bounds the coupling parameter below one in magnitude."
+cite = ["book_jones_composite", "book_tsai_hahn"]
+digest = "68372922159a6e4b"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Southwell Twist Response of an Imperfect Structure"
+gloss = "A structure with an initial imperfection twists under load in proportion to the ratio of dynamic pressure to its critical value over one minus that ratio."
+cite = ["ref_southwell"]
+digest = "7f188ff960d58f11"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Southwell Linear Form"
+gloss = "Rearranging the response gives a straight line in twist over dynamic pressure against twist, whose slope is the reciprocal of the divergence dynamic pressure."
+cite = ["ref_southwell"]
+digest = "d48db42057d61aa2"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Least-Squares Southwell Slope and Boundary Estimate"
+gloss = "The slope of the Southwell line is estimated by ordinary least squares over the measured points, and the estimated boundary is its reciprocal."
+cite = []
+digest = "a18f7f895b3c7856"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Structural Axis Sweep in Excess of Leading-Edge Sweep"
+gloss = "The published structural axis sweep exceeds the published leading-edge sweep by 6.9 degrees."
+cite = ["research_simsrobert_mccrossonpaul_1989"]
+digest = "879d20ee63f26e9b"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Lower Bound on Root Bending Moment Amplification"
+gloss = "The article argues that washin moves the centre of pressure outboard, so the root bending moment grows by at least the published lift amplification of 1.6."
+cite = []
+digest = "f4c149b603ca2479"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Pitch Divergence Rate and Doubling Time Without Damping"
+gloss = "The unstable pitch root is taken as the square root of the pitching moment parameter, which neglects pitch damping by the article's choice and so errs toward less available time."
+cite = []
+digest = "6a3010ad946aaf81"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Subsonic Lift-Curve Slope of a Finite Wing"
+gloss = "The standard low-aspect-ratio relation gives the lift-curve slope from aspect ratio, compressibility, section efficiency and mid-chord sweep."
+cite = ["book_etkin", "book_stevens_lewis"]
+digest = "ad390c4d5b900e28"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Pitching Moment Derivative From the Static Margin"
+gloss = "The pitching moment derivative combines the published negative static margin with a lift-curve slope of 5.037 per radian that the article estimates from the planform, since none was published."
+cite = []
+digest = "9c60bf509702b125"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Hyperbolic Cosine Response From Rest"
+gloss = "A disturbance released from rest grows as a hyperbolic cosine, with a root of 6.861 per second that rests on a pitch inertia the article assumes."
+cite = []
+digest = "559377cd4a82ee2c"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Exponential and Hyperbolic Cosine Doubling Times"
+gloss = "The two doubling times of 0.101 and 0.192 seconds follow from the root computed with the assumed pitch inertia and the estimated lift-curve slope."
+cite = []
+digest = "ccc0b04d82fce529"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Ratio of the Two Doubling Times"
+gloss = "The ratio of the hyperbolic cosine to the exponential doubling time is the inverse hyperbolic cosine of two over the natural logarithm of two, a fixed factor of 1.900."
+cite = []
+digest = "e37e54b41c7ebc6d"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Effective Loop Delay of the Digital Controller"
+gloss = "The effective delay counts half a sample for the zero-order hold and one whole frame for computation, a frame count the article assumes, at the forty hertz sample rate."
+cite = []
+digest = "2178c5d18f5da420"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Nyquist Frequency of the Flight Control Computer"
+gloss = "The highest frequency the loop can represent is half the forty hertz sample rate."
+cite = []
+digest = "5496af1ef30f5a06"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Phase Lag of a Pure Time Delay"
+gloss = "A pure delay produces a phase lag of 360 degrees times frequency times the delay."
+cite = []
+digest = "4d69c8e7cd03068a"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Loss Probability of a Triplex Majority Voter"
+gloss = "The binomial distribution gives the probability that fewer than two of three independent channels survive when each fails with probability $p$."
+cite = []
+digest = "d93aaf067604006c"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Isolation Time as a Fraction of the Doubling Time"
+gloss = "The article measures redundancy management by the fraction of the pitch doubling time that the frames needed to isolate a failed channel consume."
+cite = []
+digest = "d056787499ec50df"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Divergence Dynamic Pressure of an All-Moving Surface"
+gloss = "An all-moving surface on a torsional spring diverges when the aerodynamic moment about its axis, set by area, moment arm and lift-curve slope, overcomes the spring."
+cite = []
+digest = "b2919092724e49d1"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Torsional Stiffness Required for a Given Surface Boundary"
+gloss = "Inverting the surface divergence relation gives the stiffness required to place the boundary at a chosen dynamic pressure, with the moment arm set by the torsion axis position behind the aerodynamic centre."
+cite = []
+digest = "17a36879005df20c"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Static Margin"
+gloss = "The static margin is the distance from the centre of gravity to the neutral point in mean aerodynamic chords, which the record gives as negative thirty-five percent."
+cite = ["research_simsrobert_mccrossonpaul_1989"]
+digest = "6d1c4026a4dab6e1"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Volume Coefficient of a Trimming Surface"
+gloss = "The volume coefficient is the surface area ratio times the moment arm in mean aerodynamic chords."
+cite = []
+digest = "1c6aecfb15ff3900"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Trim Balance Against the Section Moment"
+gloss = "The article reduces trim to the trimming surface balancing the section pitching moment about the aerodynamic centre alone, a simplification it chooses for the canard and tail comparison."
+cite = []
+digest = "07497238ebcec440"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Wing-Referenced Trim Lift Increment"
+gloss = "Referencing the trim lift to the wing area under that simplified balance cancels the surface area, leaving the section moment over the moment arm."
+cite = []
+digest = "1f879a9226e7da76"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Trim Increment at an Assumed Section Moment"
+gloss = "The increment is evaluated with a section moment coefficient of $-0.10$ that the article assumes and a canard arm of 1.75 mean aerodynamic chords."
+cite = []
+digest = "d215848c2681bef8"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Induced Drag Factor at an Assumed Span Efficiency"
+gloss = "The standard induced drag relation is evaluated with an aspect ratio of four and a span efficiency of 0.85 that the article assumes."
+cite = []
+digest = "05109ebde6015824"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Induced Drag Ratio of Aft Tail to Canard Trim"
+gloss = "At an equal total lift coefficient of 0.8 the article chooses, the wing lift with an aft tail exceeds that with a canard and its induced drag is about a third higher."
+cite = []
+digest = "c1967e26fa482bb4"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Sweep of a Constant-Chord-Fraction Line"
+gloss = "On a straight-tapered wing a line at a fixed chord fraction has a tangent of sweep interpolated linearly between the leading and trailing edges."
+cite = ["research_hicksjohnw_mathenyneilw_1987"]
+digest = "8da7143447d22d3c"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Trailing-Edge Sweep of a Straight-Tapered Wing"
+gloss = "The trailing-edge sweep of a trapezoidal wing follows from the leading-edge sweep, the aspect ratio and the taper ratio."
+cite = []
+digest = "32f2c47702ca1b73"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Aft-Swept Leading Edge Matching the Mid-Chord Isobar"
+gloss = "With a taper ratio of 0.4 that the article assumes, an aft-swept wing needs 44.70 degrees of leading-edge sweep to match the mid-chord isobar sweep of the forward-swept wing."
+cite = []
+digest = "1788779c4ff2d3dd"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Mach Number Normal to the Mid-Chord Isobar"
+gloss = "Simple sweep theory gives the Mach number normal to the isobar as the flight Mach number times the cosine of the isobar sweep."
+cite = []
+digest = "9af1b48ca19d6454"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Root Bending Moment at the Design Limit"
+gloss = "The root bending moment of one wing is evaluated at the design limit load with the centre of pressure at forty percent of the semispan, a station the article assumes."
+cite = []
+digest = "7b9ea4d5d1e8299c"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Parabolic Polar and Its Maximum Lift-to-Drag Ratio"
+gloss = "For a parabolic drag polar the maximum lift-to-drag ratio and the lift coefficient at which it occurs have closed forms in aspect ratio, span efficiency and zero-lift drag."
+cite = []
+digest = "ec695831bfee3427"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Sustained Turn Load Factor"
+gloss = "Setting thrust equal to drag in a level turn with a parabolic polar gives the sustained load factor from dynamic pressure, wing loading and thrust-to-weight ratio."
+cite = []
+digest = "0d2469d64da557fb"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Usable Bandwidth of the Instrumentation Sample Rates"
+gloss = "The Nyquist criterion applied to the published range of 25 to 400 samples per second gives a usable band from 12.5 to 200 hertz."
+cite = ["research_hicksjohnw_mathenyneilw_1987"]
+digest = "ae751692f64db716"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Boundary Uncertainty From Rounding of the Ratio"
+gloss = "The elasticity of the boundary is applied to a rounding uncertainty of plus or minus 0.05 in the ratio of 1.6, an interval the article assumes from the two significant figures quoted."
+cite = []
+digest = "9bca7d48c5184704"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight, with $W_{\\mathrm{fuel}}$ the fuel weight"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area, with $S_c$ the canard area"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust, except in the constitutive law, where it is the torque"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'q_D'
+meaning = "the divergence dynamic pressure"
+
+[[symbol]]
+tex = 'K_\theta'
+meaning = "the torsional stiffness of the wing section or of the surface spring"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the elastic twist, with $\\theta_0$ the initial imperfection in the Southwell relations"
+
+[[symbol]]
+tex = '\alpha_0'
+meaning = "the rigid angle of attack"
+
+[[symbol]]
+tex = 'r'
+meaning = "the ratio of elastic to rigid lift-curve slope"
+
+[[symbol]]
+tex = 'V_e'
+meaning = "the equivalent airspeed"
+
+[[symbol]]
+tex = '\rho_0'
+meaning = "the sea-level air density"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the sweep angle of the elastic axis, positive aft"
+
+[[symbol]]
+tex = 'EI'
+meaning = "the bending stiffness"
+
+[[symbol]]
+tex = 'GJ'
+meaning = "the torsional stiffness of the beam"
+
+[[symbol]]
+tex = '\psi'
+meaning = "the non-dimensional bend-twist coupling parameter"
+
+[[symbol]]
+tex = 'L'
+meaning = "the semispan of the two-mode model"
+
+[[symbol]]
+tex = 'C_{L_\alpha}'
+meaning = "the lift-curve slope per radian"
+
+[[symbol]]
+tex = 'C_{m_\alpha}'
+meaning = "the pitching moment derivative"
+
+[[symbol]]
+tex = '\mathrm{SM}'
+meaning = "the static margin as a fraction of the mean aerodynamic chord"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord, with $\\bar{c}_c$ that of the canard"
+
+[[symbol]]
+tex = 'I_{yy}'
+meaning = "the moment of inertia in pitch"
+
+[[symbol]]
+tex = 'M_\alpha'
+meaning = "the pitching moment parameter in angular acceleration per radian"
+
+[[symbol]]
+tex = 't_2'
+meaning = "the time to double a disturbance"
+
+[[symbol]]
+tex = 'f_s'
+meaning = "the sample rate"
+
+[[symbol]]
+tex = '\tau_{\mathrm{eff}}'
+meaning = "the effective delay of the digital control loop"
+
+[[symbol]]
+tex = 'p'
+meaning = "the failure probability of a single channel"
+
+[[symbol]]
+tex = 'V_H'
+meaning = "the volume coefficient of the trimming surface"
+
+[[symbol]]
+tex = 'C_{m_{ac}}'
+meaning = "the section pitching moment coefficient about the aerodynamic centre"
+
+[[symbol]]
+tex = 'k'
+meaning = "the induced drag factor"
+
+[[symbol]]
+tex = '\Lambda_{LE}'
+meaning = "the leading-edge sweep, with $\\Lambda_{TE}$ the trailing-edge sweep and $\\Lambda_{50\\%}$ the mid-chord isobar sweep"
+
+[[symbol]]
+tex = 'M_n'
+meaning = "the Mach number normal to the isobar"
+
+[[symbol]]
+tex = 'n'
+meaning = "the load factor"
+
+[[symbol]]
+tex = 'C_{D_0}'
+meaning = "the zero-lift drag coefficient"

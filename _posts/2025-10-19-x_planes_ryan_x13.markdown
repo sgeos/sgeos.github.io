@@ -25,15 +25,24 @@ An aeroplane is controlled by moving air over surfaces. At zero airspeed there i
 
 The moment available from a control surface is proportional to dynamic pressure,
 
-$$M_{\text{aero}} = q \, S \, \bar{c} \, \Delta C_{m}, \qquad q = \tfrac{1}{2} \rho V^{2}$$
+$$
+M_{\text{aero}} = q \, S \, \bar{c} \, \Delta C_{m}, \qquad q = \tfrac{1}{2} \rho V^{2}
+\tag{1}
+$$
 
 so it vanishes as the square of the speed and is exactly zero in a hover. The moment available from deflecting the thrust of the engine does not depend on airspeed at all,
 
-$$M_{\text{thrust}} = T \, \ell \sin \theta$$
+$$
+M_{\text{thrust}} = T \, \ell \sin \theta
+\tag{2}
+$$
 
 where $\ell$ is the distance from the nozzle to the centre of mass and $\theta$ is the deflection. **One term is quadratic in speed and the other is constant, so they cross exactly once**, at
 
-$$V_{\text{equal}} = \sqrt{\frac{T \ell \sin \theta}{\tfrac{1}{2} \rho S \bar{c} \, \Delta C_{m}}}$$
+$$
+V_{\text{equal}} = \sqrt{\frac{T \ell \sin \theta}{\tfrac{1}{2} \rho S \bar{c} \, \Delta C_{m}}}
+\tag{3}
+$$
 
 and the airframe must be adequately controlled on both sides of that crossing and at it.
 
@@ -45,15 +54,24 @@ Here lies the X-13's research question, and the previous five articles could not
 
 Control authority is judged against an angular acceleration the pilot can use. The hovering and low-speed visual flight experiments of [Garren et al. 1965][research_garren_1965] put the lower limit of satisfactory control power at about half a radian per second squared in pitch and three quarters in roll, and this article adopts half in pitch and one in roll for a hovering aircraft. The X-13's mass at the gross weight of 6,730 pounds that a [compilation][ref_x13] gives is
 
-$$m = 3053 \, \text{kg}$$
+$$
+m = 3053 \, \text{kg}
+\tag{4}
+$$
 
 and its pitching moment of inertia need not be estimated. **The Langley spin-tunnel programme tabulated the airplane's full-scale mass characteristics**, and [Bowman 1957][research_bowman_1957] gives 4,042 slug square feet in pitch for the normal loading with full fuel and the landing hook, at 6,696 pounds. Converting at 1.3558 kilogramme square metres to the slug square foot,
 
-$$I_{yy} = 4042 \times 1.3558 = 5480 \, \text{kg m}^{2}$$
+$$
+I_{yy} = 4042 \times 1.3558 = 5480 \, \text{kg m}^{2}
+\tag{5}
+$$
 
 which is a radius of gyration of $\sqrt{I_{yy}/m} = 1.34$ metres, or 0.19 of the 7.14 metre length, so the required pitching moment is
 
-$$M_{\text{req}} = I_{yy} \, \dot{q}_{\text{req}} = 5480 \times 0.50 = 2740 \, \text{N m}$$
+$$
+M_{\text{req}} = I_{yy} \, \dot{q}_{\text{req}} = 5480 \times 0.50 = 2740 \, \text{N m}
+\tag{6}
+$$
 
 The criterion is an estimate and is identified as such in the Epistemic State. The criteria themselves were being established experimentally at this moment, and the aircraft that established them was the next one in this series, in [Drinkwater and Rolls 1962][research_drinkwater_rolls_1962] using the variable-stability X-14A, with the visual-flight investigation in [Garren et al. 1965][research_garren_1965].
 
@@ -63,11 +81,17 @@ The crossing is not a single event, because the three axes are controlled by dif
 
 **Pitch** is deflected thrust against elevons, and both act about the same axis with comparable arms. **Yaw** is deflected thrust against a rudder, and on a tail-sitter the rudder is on a fin that is short because the fuselage is short. The [Smithsonian record][ref_nasm_x13] gives elevons and a rudder for conventional flight and a vectorable exhaust nozzle for the hover. **Roll cannot use deflected thrust at all**, and the reason is geometric rather than a matter of degree. The moment of a force applied at a position is
 
-$$\mathbf{M} = \mathbf{r} \times \mathbf{F}$$
+$$
+\mathbf{M} = \mathbf{r} \times \mathbf{F}
+\tag{7}
+$$
 
 and for a nozzle on the longitudinal axis the position vector is parallel to that axis, so
 
-$$\mathbf{M} \cdot \hat{\mathbf{x}} = (\mathbf{r} \times \mathbf{F}) \cdot \hat{\mathbf{x}} = 0$$
+$$
+\mathbf{M} \cdot \hat{\mathbf{x}} = (\mathbf{r} \times \mathbf{F}) \cdot \hat{\mathbf{x}} = 0
+\tag{8}
+$$
 
 for any $\mathbf{F}$ whatever. **The rolling moment from the nozzle is identically zero and not merely small**, so a separate device is required that a conventional aeroplane does not carry.
 
@@ -77,31 +101,52 @@ That asymmetry explains why a tail-sitting jet looks the way it does. **The roll
 
 With the wing area of 191 square feet and span of 21 feet that [Bowman 1957][research_bowman_1957] tabulates for the airplane, a mean chord taken as area over span,
 
-$$\bar{c} = \frac{S}{b} = \frac{17.74}{6.40} = 2.77 \, \text{m}$$
+$$
+\bar{c} = \frac{S}{b} = \frac{17.74}{6.40} = 2.77 \, \text{m}
+\tag{9}
+$$
 
 and an elevon pitching-moment increment of 0.10 at full deflection, the aerodynamic moment is
 
-$$M_{\text{aero}} = \tfrac{1}{2} \times 1.225 \times 17.74 \times 2.77 \times 0.10 \, V^{2} = 3.013 \, V^{2}$$
+$$
+M_{\text{aero}} = \tfrac{1}{2} \times 1.225 \times 17.74 \times 2.77 \times 0.10 \, V^{2} = 3.013 \, V^{2}
+\tag{10}
+$$
 
 Setting that equal to the requirement gives the speed below which the control surfaces cannot do the job,
 
-$$V_{\text{cross}} = \sqrt{\frac{2740}{3.013}} = 30.2 \, \text{m/s} = 59 \, \text{knots}$$
+$$
+V_{\text{cross}} = \sqrt{\frac{2740}{3.013}} = 30.2 \, \text{m/s} = 59 \, \text{knots}
+\tag{11}
+$$
 
 The vectored thrust, meanwhile, is ample everywhere. A ten degree deflection of 10,000 pounds of thrust at an assumed 3.5 metre arm gives
 
-$$M_{\text{thrust}} = 44{,}482 \times 3.50 \times \sin 10^{\circ} = 27{,}035 \, \text{N m}$$
+$$
+M_{\text{thrust}} = 44{,}482 \times 3.50 \times \sin 10^{\circ} = 27{,}035 \, \text{N m}
+\tag{12}
+$$
 
 which is
 
-$$\frac{M_{\text{thrust}}}{M_{\text{req}}} = \frac{27{,}035}{2740} = 9.87$$
+$$
+\frac{M_{\text{thrust}}}{M_{\text{req}}} = \frac{27{,}035}{2740} = 9.87
+\tag{13}
+$$
 
 Evaluating the equal-authority crossing introduced above gives
 
-$$V_{\text{equal}} = \sqrt{\frac{27{,}035}{3.013}} = 94.7 \, \text{m/s}$$
+$$
+V_{\text{equal}} = \sqrt{\frac{27{,}035}{3.013}} = 94.7 \, \text{m/s}
+\tag{14}
+$$
 
 so the two curves do not meet until well beyond the speed at which the aircraft is flying normally, and the elevons never dominate within the transition. The fraction of the available authority that is aerodynamic,
 
-$$\lambda(V) = \frac{M_{\text{aero}}(V)}{M_{\text{aero}}(V) + M_{\text{thrust}}}$$
+$$
+\lambda(V) = \frac{M_{\text{aero}}(V)}{M_{\text{aero}}(V) + M_{\text{thrust}}}
+\tag{15}
+$$
 
 is therefore small throughout.
 
@@ -121,11 +166,17 @@ is therefore small throughout.
 
 The wing begins carrying the aircraft at its stall speed. At a gross weight of 29,935 newtons over 17.74 square metres, with a maximum lift coefficient of 1.0 for a thin delta without high-lift devices,
 
-$$V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L\max}}} = \sqrt{\frac{2 \times 29{,}935}{1.225 \times 17.74 \times 1.0}} = 52.5 \, \text{m/s}$$
+$$
+V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L\max}}} = \sqrt{\frac{2 \times 29{,}935}{1.225 \times 17.74 \times 1.0}} = 52.5 \, \text{m/s}
+\tag{16}
+$$
 
 so
 
-$$\frac{V_{\text{cross}}}{V_{\text{stall}}} = \frac{30.2}{52.5} = 0.575$$
+$$
+\frac{V_{\text{cross}}}{V_{\text{stall}}} = \frac{30.2}{52.5} = 0.575
+\tag{17}
+$$
 
 **The control surfaces become adequate at well under three fifths of the speed at which the wing starts flying.** The controls come alive before the wing does, and without that ordering a tail-sitting jet would not be possible at all. Had the crossover come at twice the stall speed the aircraft would have had a band of speeds in which it was flying on its wing and could not be pointed, a condition that cannot be survived.
 
@@ -133,11 +184,17 @@ The ordering is not luck. Both quantities scale with $W/S$ and with the same dyn
 
 Writing the ratio out makes the independence explicit. Both speeds come from setting a moment equal to a requirement,
 
-$$V_{\text{cross}}^{2} = \frac{I_{yy} \dot{q}_{\text{req}}}{\tfrac{1}{2} \rho S \bar{c} \, \Delta C_{m}}, \qquad V_{\text{stall}}^{2} = \frac{2W}{\rho S C_{L\max}}$$
+$$
+V_{\text{cross}}^{2} = \frac{I_{yy} \dot{q}_{\text{req}}}{\tfrac{1}{2} \rho S \bar{c} \, \Delta C_{m}}, \qquad V_{\text{stall}}^{2} = \frac{2W}{\rho S C_{L\max}}
+\tag{18}
+$$
 
 so their ratio is
 
-$$\left( \frac{V_{\text{cross}}}{V_{\text{stall}}} \right)^{2} = \frac{I_{yy} \, \dot{q}_{\text{req}} \, C_{L\max}}{W \bar{c} \, \Delta C_{m}}$$
+$$
+\left( \frac{V_{\text{cross}}}{V_{\text{stall}}} \right)^{2} = \frac{I_{yy} \, \dot{q}_{\text{req}} \, C_{L\max}}{W \bar{c} \, \Delta C_{m}}
+\tag{19}
+$$
 
 The wing area has cancelled and the air density has cancelled. What remains is the pitch inertia divided by the weight, which for a given shape scales as a length, divided by the mean chord, which is also a length. **The ratio is therefore a function of proportions and of the required angular acceleration, and not of scale**, which is why a one-fifth-scale model of this aircraft can demonstrate the same handover. It also made the requirement the variable of interest, and [Johnston and Friend 1965][research_johnston_friend_1965] and [Johnston et al. 1965][research_johnston_1965] studied directly whether the control power a hovering aircraft needs depends on its size.
 
@@ -159,11 +216,17 @@ A turboprop tail-sitter hovers inside its own slipstream. The propeller pushes a
 
 Quantifying it settles the design difference completely. A propeller disc supporting a weight $W$ over area $A$ produces a slipstream of
 
-$$v_{s} = \sqrt{\frac{2 (W/A)}{\rho}}$$
+$$
+v_{s} = \sqrt{\frac{2 (W/A)}{\rho}}
+\tag{20}
+$$
 
 and for a disc loading of 1,500 pascals, which is conservative for the class, since the gross weight of 14,250 pounds and the 16 foot propellers that a [compilation][ref_convair_xfy] gives for the XFY-1 come to about 3,400 pascals,
 
-$$v_{s} = \sqrt{\frac{2 \times 1500}{1.225}} = 49.5 \, \text{m/s}$$
+$$
+v_{s} = \sqrt{\frac{2 \times 1500}{1.225}} = 49.5 \, \text{m/s}
+\tag{21}
+$$
 
 The slipstream puts a dynamic pressure of 1,500 pascals over the inboard wing, against 1,687 pascals at the X-13's stall. **A turboprop tail-sitter hovers with something close to stall-speed dynamic pressure already on its control surfaces, and a turbojet tail-sitter hovers with none.** The propeller side of that statement is measured in [Sutton and Buell 1952][research_sutton_buell_1952] and treated across the class in [Kirby 1961][research_kirby_1961]. The propeller aircraft therefore needed no reaction control system and the jet aircraft could not do without one, and that single ratio explains why the two configurations look so different despite answering the same question.
 
@@ -173,15 +236,24 @@ The slipstream puts a dynamic pressure of 1,500 pascals over the inboard wing, a
 
 A hovering aircraft must produce more thrust than it weighs. The Rolls-Royce Avon gave 10,000 pounds of thrust, in the figures of the [National Museum of the United States Air Force][ref_nmusaf_x13] and of the [Smithsonian record][ref_nasm_x13], which identifies it as an RA.28-49, against a gross weight of 6,730 pounds in compilations. **The primary weights differ among themselves.** The spin-tunnel table of [Bowman 1957][research_bowman_1957] gives 6,696 pounds with full fuel and the landing hook and 6,958 pounds with full fuel and wheels, the Smithsonian record a gross of 7,313 pounds, and the Air Force museum a maximum of 7,200. The 6,730 pounds used throughout lies within about half a percent of the hook loading. **The condition defines the configuration class**, and [Denning 1962][research_denning_1962], [Przedpelski 1965][research_przedpelski_1965], and [Brown 1965][research_brown_1965] map the surrounding design space, from lift fans through lift-plus-thrust arrangements to low-disc-loading rotorcraft, with the conference records in [Scientific and Technical Information Division 1966][research_division_1966] and the period's standard book in [Campbell 1962][research_campbell_1962]. Taking the ratio,
 
-$$\frac{T}{W} = \frac{44{,}482}{29{,}935} = 1.486$$
+$$
+\frac{T}{W} = \frac{44{,}482}{29{,}935} = 1.486
+\tag{22}
+$$
 
 and at the maximum weight of 7,200 pounds it is still 1.389. The vertical acceleration available is
 
-$$a = g \left( \frac{T}{W} - 1 \right) = 9.807 \times 0.486 = 4.76 \, \text{m/s}^{2}$$
+$$
+a = g \left( \frac{T}{W} - 1 \right) = 9.807 \times 0.486 = 4.76 \, \text{m/s}^{2}
+\tag{23}
+$$
 
 so the aircraft leaves the trailer at about half a gravity and reaches thirty metres in
 
-$$t = \sqrt{\frac{2h}{a}} = \sqrt{\frac{60}{4.76}} = 3.55 \, \text{s}$$
+$$
+t = \sqrt{\frac{2h}{a}} = \sqrt{\frac{60}{4.76}} = 3.55 \, \text{s}
+\tag{24}
+$$
 
 arriving at 16.9 metres per second. **This condition comes to mind first and matters least**, because an Avon in a small airframe satisfied it with room to spare. The heaviest the aircraft could be and still hover is 10,000 pounds, which is 3,270 pounds above its gross weight.
 
@@ -189,37 +261,58 @@ arriving at 16.9 metres per second. **This condition comes to mind first and mat
 
 The condition that did bind is fuel. A turbojet producing thrust at a specific fuel consumption $c$ burns
 
-$$\dot{m}_{f} = c \, T$$
+$$
+\dot{m}_{f} = c \, T
+\tag{25}
+$$
 
 and to hover it must produce thrust equal to weight, so the fuel flow in a hover is fixed by the aircraft's weight and nothing else. At an assumed 0.93 pounds per pound of thrust per hour, which is the dry figure an [engine compilation][ref_rolls_royce_avon] quotes for the later Avon Mk.301 and is adopted here as an estimate,
 
-$$\dot{m}_{f} = 0.93 \times 6730 = 6259 \, \text{lb/hr} = 104.3 \, \text{lb/min}$$
+$$
+\dot{m}_{f} = 0.93 \times 6730 = 6259 \, \text{lb/hr} = 104.3 \, \text{lb/min}
+\tag{26}
+$$
 
 The fuel load follows from the spin-tunnel table of loadings in [Bowman 1957][research_bowman_1957], which gives the airplane with its hook at 6,696 pounds with full fuel, 5,646 pounds with a quarter of it, and 5,366 pounds with a twentieth. The differences are three quarters and nineteen twentieths of the full load, so
 
-$$m_{f} = \frac{6696 - 5646}{0.75} = \frac{6696 - 5366}{0.95} = 1400 \, \text{lb}$$
+$$
+m_{f} = \frac{6696 - 5646}{0.75} = \frac{6696 - 5366}{0.95} = 1400 \, \text{lb}
+\tag{27}
+$$
 
 and the wheeled loadings in the same table return the same 1,400 pounds. That gives
 
-$$t_{\text{hover}} = \frac{1400}{104.3} = 13.4 \, \text{min}$$
+$$
+t_{\text{hover}} = \frac{1400}{104.3} = 13.4 \, \text{min}
+\tag{28}
+$$
 
 **The entire fuel load is about thirteen minutes of hovering.** The rest of the article turns on this number. Put more harshly, one minute of hovering at each end of a flight spends about fifteen percent of the fuel before the machine has gone anywhere.
 
 The same table checks the compilations' weights. Removing the fuel from the wheeled loading leaves
 
-$$6958 - 1400 - 5334 = 224 \, \text{lb}$$
+$$
+6958 - 1400 - 5334 = 224 \, \text{lb}
+\tag{29}
+$$
 
 above the 5,334 pound empty weight that [compilations][ref_x13] quote, which is about what a pilot and his equipment weigh, so the published empty weight appears to describe the aircraft on wheels.
 
 The relation generalises and the generalisation is unkind. Hover endurance is
 
-$$t_{\text{hover}} = \frac{m_{f}}{c \, W} = \frac{1}{c} \cdot \frac{m_{f}}{W}$$
+$$
+t_{\text{hover}} = \frac{m_{f}}{c \, W} = \frac{1}{c} \cdot \frac{m_{f}}{W}
+\tag{30}
+$$
 
 so it depends only on the fuel fraction and the specific fuel consumption, and **not at all on the size of the aircraft or the thrust of its engine.** A larger tail-sitter with a larger engine hovers for exactly as long as a smaller one at the same fuel fraction. No scale exists at which the problem improves. That sets this constraint apart from most aircraft design constraints, and it explains why the comparative studies of the period kept returning verdicts against the configuration for transport work, in [Boeing Co Morton Pa Vertol Div 1956][research_div_1956] and [McCormick 1956a][research_mccormick_w_1956], with the weight bookkeeping behind those verdicts in [Irvin and Swan 1956][research_irvin_swan_1956].
 
 A rotorcraft escapes the same arithmetic because it does not produce its lift as thrust from a jet. Hovering efficiency is measured by the power needed per unit of lift, which for an actuator disc is
 
-$$\frac{P}{T} = \sqrt{\frac{T/A}{2 \rho}}$$
+$$
+\frac{P}{T} = \sqrt{\frac{T/A}{2 \rho}}
+\tag{31}
+$$
 
 and therefore improves as the disc grows. **A jet has the smallest possible disc and pays the largest possible price**, and the disc-loading comparison computed later in this article is the same fact seen from the ground rather than from the fuel gauge. [Michaelsen 1971][research_michaelsen_1971] later measured that comparison across the three configurations, and [Irvin and Swan 1956][research_irvin_swan_1956] carries its consequences into the weight estimates.
 
@@ -229,15 +322,24 @@ Pitch and yaw were handled by deflecting the engine exhaust. Roll could not be, 
 
 Sizing them is a short calculation. The spin-tunnel table of [Bowman 1957][research_bowman_1957] gives the rolling moment of inertia as 1,543 slug square feet, so
 
-$$I_{xx} = 1543 \times 1.3558 = 2092 \, \text{kg m}^{2}$$
+$$
+I_{xx} = 1543 \times 1.3558 = 2092 \, \text{kg m}^{2}
+\tag{32}
+$$
 
 and at a criterion of one radian per second squared the couple required is 2,092 newton metres. The one-fifth-scale model of [Smith 1958b][research_smith_1958_2], whose roll nozzles use engine bleed air, places them 24.375 inches from the centreline, which is 10.16 feet or 3.10 metres at full scale, so the opposed jets act on an arm of $d = 6.19$ metres and the force each must produce is
 
-$$F = \frac{M}{d} = \frac{2092}{6.19} = 338 \, \text{N} = 76 \, \text{lbf}$$
+$$
+F = \frac{M}{d} = \frac{2092}{6.19} = 338 \, \text{N} = 76 \, \text{lbf}
+\tag{33}
+$$
 
 which is 1.5 percent of the engine's thrust taken as a couple. At an assumed bleed velocity of 500 metres per second that is a mass flow of
 
-$$\dot{m} = \frac{2F}{v} = \frac{676}{500} = 1.35 \, \text{kg/s}$$
+$$
+\dot{m} = \frac{2F}{v} = \frac{676}{500} = 1.35 \, \text{kg/s}
+\tag{34}
+$$
 
 or about 1.9 percent of an Avon's air. **A roll control that costs two percent of the engine is affordable and not negligible**, and the propeller tail-sitters did not pay it at all. [Baxter and Finvold 1958][research_baxter_finvold_1958] takes up the design problem of arranging engine control and attitude control together in a vertical-attitude aircraft and comes closer than any other accessible document to stating this vehicle's control philosophy, with the reaction control criteria worked systematically in [Friend 1964][research_friend_1964].
 
@@ -245,7 +347,10 @@ or about 1.9 percent of an Avon's air. **A roll control that costs two percent o
 
 The ailerons take over earlier than the elevons do. At a rolling-moment coefficient of 0.05 the aerodynamic couple reaches the same criterion at
 
-$$V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{l}}} = 24.5 \, \text{m/s}$$
+$$
+V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{l}}} = 24.5 \, \text{m/s}
+\tag{35}
+$$
 
 which is 0.47 of the stall speed, so **roll hands over from the puffers to the ailerons well before pitch hands over from the nozzle to the elevons.** The two axes do not cross at the same moment, and a pilot flying the transition manages a control system whose character changes progressively rather than all at once.
 
@@ -253,17 +358,26 @@ which is 0.47 of the stall speed, so **roll hands over from the puffers to the a
 
 Yaw has been mentioned and not sized, and sizing it completes the picture. The spin-tunnel table of [Bowman 1957][research_bowman_1957] gives the yawing moment of inertia as 4,833 slug square feet, or
 
-$$I_{zz} = 4833 \times 1.3558 = 6553 \, \text{kg m}^{2}$$
+$$
+I_{zz} = 4833 \times 1.3558 = 6553 \, \text{kg m}^{2}
+\tag{36}
+$$
 
 which is 1.20 times the pitch inertia, and at a criterion of 0.3 radians per second squared the required moment is 1,966 newton metres. The nozzle supplies that at a deflection of
 
-$$\theta = \arcsin \frac{M}{T \ell} = \arcsin \frac{1966}{44{,}482 \times 3.50} = 0.72^{\circ}$$
+$$
+\theta = \arcsin \frac{M}{T \ell} = \arcsin \frac{1966}{44{,}482 \times 3.50} = 0.72^{\circ}
+\tag{37}
+$$
 
 **Under one degree.** Yaw is the axis nobody had to think about, because the same nozzle that handles pitch handles yaw with a fraction of the deflection and the criterion is lower.
 
 The rudder takes over early as well. At a yawing-moment increment of 0.06 the aerodynamic moment reaches the criterion at
 
-$$V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{n}}} = 21.7 \, \text{m/s}$$
+$$
+V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{n}}} = 21.7 \, \text{m/s}
+\tag{38}
+$$
 
 which is 0.41 of the stall speed. The same deflection relation puts the pitch criterion at $\arcsin (2740 / 155{,}687) = 1.01$ degrees of nozzle. Collecting the three axes gives the article's structural result about the transition.
 
@@ -279,27 +393,45 @@ which is 0.41 of the stall speed. The same deflection relation puts the pitch cr
 
 Set against the hover, the transition itself is almost free. In the manoeuvre the aircraft tilts by an angle $\phi$ from the vertical, and the thrust must still support the weight,
 
-$$T \cos \phi \geq W$$
+$$
+T \cos \phi \geq W
+\tag{39}
+$$
 
 so the steepest available tilt is
 
-$$\phi_{\max} = \arccos \frac{W}{T} = \arccos 0.6730 = 47.7^{\circ}$$
+$$
+\phi_{\max} = \arccos \frac{W}{T} = \arccos 0.6730 = 47.7^{\circ}
+\tag{40}
+$$
 
 At that attitude the horizontal acceleration, neglecting drag, is
 
-$$a_{h} = g \frac{T}{W} \sin \phi_{\max} = 9.807 \times 1.486 \times 0.7396 = 10.78 \, \text{m/s}^{2}$$
+$$
+a_{h} = g \frac{T}{W} \sin \phi_{\max} = 9.807 \times 1.486 \times 0.7396 = 10.78 \, \text{m/s}^{2}
+\tag{41}
+$$
 
 which is 1.10 gravities. Reaching the stall speed takes
 
-$$t = \frac{V_{\text{stall}}}{a_{h}} = \frac{52.5}{10.78} = 4.9 \, \text{s}$$
+$$
+t = \frac{V_{\text{stall}}}{a_{h}} = \frac{52.5}{10.78} = 4.9 \, \text{s}
+\tag{42}
+$$
 
 over a distance of
 
-$$s = \tfrac{1}{2} a_{h} t^{2} = 128 \, \text{m}$$
+$$
+s = \tfrac{1}{2} a_{h} t^{2} = 128 \, \text{m}
+\tag{43}
+$$
 
 and consumes, at full thrust,
 
-$$m_{f} = \frac{10{,}000 \times 0.93 \times 4.9}{3600} = 12.6 \, \text{lb}$$
+$$
+m_{f} = \frac{10{,}000 \times 0.93 \times 4.9}{3600} = 12.6 \, \text{lb}
+\tag{44}
+$$
 
 **Twelve pounds of fuel and five seconds.** The manoeuvre the entire programme existed to demonstrate costs about one percent of the fuel, and the hovering that brackets it costs everything else. Flying at a gentler tilt is slower and therefore more expensive.
 
@@ -318,7 +450,10 @@ $$m_{f} = \frac{10{,}000 \times 0.93 \times 4.9}{3600} = 12.6 \, \text{lb}$$
 
 Reaction control is not free and its price is paid in the same currency as everything else. A puffer system sized to the criterion above bleeds about 1.9 percent of the engine's air, and bleeding air from a turbojet costs thrust roughly in proportion, so holding the roll criterion in a hover costs
 
-$$\Delta T \approx 0.0193 \, T = 859 \, \text{N} = 193 \, \text{lbf}$$
+$$
+\Delta T \approx 0.0193 \, T = 859 \, \text{N} = 193 \, \text{lbf}
+\tag{45}
+$$
 
 against a hover margin of 3,270 pounds. **Roll control alone consumes about six percent of the thrust margin**, before pitch and yaw are considered and before any allowance for gusts. That figure is an estimate resting on the assumed bleed velocity, and [Hoffman 1971][research_hoffman_1971] gives the general accounting of what control power costs a vertical take-off aircraft.
 
@@ -326,15 +461,24 @@ Whether the cost is worth paying against the alternatives is a question the fiel
 
 The consequence is a design spiral of the ordinary kind. More control power needs more bleed, which needs more thrust, which needs a larger engine, which needs a larger airframe, which has more inertia and therefore needs more of it. The spiral has a direction and it can be written down. The required moment scales with inertia,
 
-$$M_{\text{req}} = I \dot{\omega} \propto m L^{2}$$
+$$
+M_{\text{req}} = I \dot{\omega} \propto m L^{2}
+\tag{46}
+$$
 
 while the available moment scales with thrust times a moment arm, and at a fixed thrust-to-weight ratio the thrust scales with the mass,
 
-$$M_{\text{av}} = T \ell \sin \theta \propto m L$$
+$$
+M_{\text{av}} = T \ell \sin \theta \propto m L
+\tag{47}
+$$
 
 so the ratio of what is needed to what is there grows linearly with size,
 
-$$\frac{M_{\text{req}}}{M_{\text{av}}} \propto L$$
+$$
+\frac{M_{\text{req}}}{M_{\text{av}}} \propto L
+\tag{48}
+$$
 
 | Linear scale | Mass | Control power as a fraction of the engine |
 |---|---|---|
@@ -348,15 +492,24 @@ $$\frac{M_{\text{req}}}{M_{\text{av}}} \propto L$$
 
 The programme was a demonstration and never carried a weapon, but the arithmetic of what it would have meant operationally is short and bears directly on why the idea stopped. The fuel fraction is
 
-$$\zeta = \frac{1400}{6730} = 0.208$$
+$$
+\zeta = \frac{1400}{6730} = 0.208
+\tag{49}
+$$
 
 and the Breguet range for a jet is
 
-$$R = \frac{V}{c} \frac{L}{D} \ln \frac{1}{1 - \zeta}$$
+$$
+R = \frac{V}{c} \frac{L}{D} \ln \frac{1}{1 - \zeta}
+\tag{50}
+$$
 
 with $c$ the thrust specific fuel consumption expressed as a reciprocal time, which for 0.93 pounds per pound-hour is $2.583 \times 10^{-4}$ per second. At a cruise speed of 200 metres per second and a lift-to-drag ratio of six,
 
-$$R = \frac{200}{2.583 \times 10^{-4}} \times 6 \times \ln \frac{1}{0.792} = 1083 \, \text{km}$$
+$$
+R = \frac{200}{2.583 \times 10^{-4}} \times 6 \times \ln \frac{1}{0.792} = 1083 \, \text{km}
+\tag{51}
+$$
 
 giving a radius of 542 kilometres if every pound of fuel went to cruising. It does not.
 
@@ -382,7 +535,10 @@ giving a radius of 542 kilometres if every pound of fuel went to cruising. It do
 
 The [Smithsonian record][ref_nasm_x13] describes the engine as an Avon RA.28-49 axial-flow turbojet of 10,000 pounds of thrust, while the spin-tunnel tests of [Bowman 1957][research_bowman_1957] simulated the rotating parts of an Avon R.A. 14 at 8,000 revolutions per minute, and the documents available do not say whether the designation changed between the model tests and the flights. In an airframe with an empty weight of 5,334 pounds the engine is a large fraction of the whole, and it is better understood as an engine with a wing attached than as an aeroplane with an engine in it. **Every dimension of the X-13 follows from wrapping the smallest possible airframe around an Avon**, which is why the span is 21 feet, the length 23.445 feet, or 23 feet 5 inches, in the dimensional table of [Bowman 1957][research_bowman_1957], and the aspect ratio
 
-$$AR = \frac{b^{2}}{S} = \frac{6.40^{2}}{17.74} = 2.31$$
+$$
+AR = \frac{b^{2}}{S} = \frac{6.40^{2}}{17.74} = 2.31
+\tag{52}
+$$
 
 A wing of aspect ratio 2.31 is a poor lifting device and a good structural one, and on an aircraft that spends its critical moments not using the wing at all, that is the correct trade.
 
@@ -392,7 +548,10 @@ A wing of aspect ratio 2.31 is a poor lifting device and a good structural one, 
 
 Pitch and yaw came from deflecting the exhaust, in a [compilation's][ref_x13] description of the hover controls. The relation derived above puts the required deflection in context, since a ten degree deflection delivers nearly ten times the pitching moment the criterion asks for, so the nozzle need not be large-angle and the deflection can be modest. The penalty is a loss of axial thrust,
 
-$$\frac{T_{\text{axial}}}{T} = \cos \theta = \cos 10^{\circ} = 0.985$$
+$$
+\frac{T_{\text{axial}}}{T} = \cos \theta = \cos 10^{\circ} = 0.985
+\tag{53}
+$$
 
 so **a ten degree deflection costs 1.5 percent of the thrust**, which against a thrust-to-weight ratio of 1.486 is affordable. At thirty degrees it would cost 13.4 percent, which is not, and this is the quantitative reason a vectoring system for attitude control is a small-angle device while one for propulsion is not.
 
@@ -404,11 +563,17 @@ so **a ten degree deflection costs 1.5 percent of the thrust**, which against a 
 
 The two quantities move in opposite directions with deflection, since
 
-$$M(\theta) = T \ell \sin \theta, \qquad \frac{T_{\text{axial}}}{T} = \cos \theta$$
+$$
+M(\theta) = T \ell \sin \theta, \qquad \frac{T_{\text{axial}}}{T} = \cos \theta
+\tag{54}
+$$
 
 so the moment grows almost linearly at small angles while the thrust loss grows quadratically,
 
-$$1 - \cos \theta \approx \frac{\theta^{2}}{2}$$
+$$
+1 - \cos \theta \approx \frac{\theta^{2}}{2}
+\tag{55}
+$$
 
 which is why small-angle vectoring is nearly free and large-angle vectoring is not.
 
@@ -418,7 +583,10 @@ The mechanisms available for turning a jet were an active subject and remained o
 
 The wingtip jets sized above are the aircraft's only roll control below 25 metres per second. Their placement outboard of the wingtip endplates is a moment-arm decision and the arithmetic is direct, since the required force varies inversely with the arm,
 
-$$F = \frac{I_{xx} \dot{p}}{d}$$
+$$
+F = \frac{I_{xx} \dot{p}}{d}
+\tag{56}
+$$
 
 so halving the arm would double the force and therefore double the bleed. **A tail-sitting jet wants a wide span for roll control and a small span for everything else**, and that tension is visible in the aircraft's proportions.
 
@@ -434,7 +602,10 @@ A wing of aspect ratio 2.31 with a sharp leading edge is a poor subsonic lifting
 
 The relation behind the table is the ratio derived earlier,
 
-$$\frac{V_{\text{cross}}}{V_{\text{stall}}} = \sqrt{\frac{I_{yy} \dot{q}_{\text{req}} \, C_{L\max}}{W \bar{c} \, \Delta C_{m}}}$$
+$$
+\frac{V_{\text{cross}}}{V_{\text{stall}}} = \sqrt{\frac{I_{yy} \dot{q}_{\text{req}} \, C_{L\max}}{W \bar{c} \, \Delta C_{m}}}
+\tag{57}
+$$
 
 which grows as the square root of the maximum lift coefficient, because a wing that stalls later gives the elevons less time to catch up.
 
@@ -446,7 +617,10 @@ which grows as the square root of the maximum lift coefficient, because a wing t
 
 The article has treated hovering as a control-power problem, which it is, and that understates it. **A hovering airframe has no aerodynamic restoring moment in any axis**, so an attitude disturbance does not decay, and attitude is what produces horizontal acceleration,
 
-$$\ddot{x} = g \sin \theta$$
+$$
+\ddot{x} = g \sin \theta
+\tag{58}
+$$
 
 Position is therefore the double integral of attitude, and attitude is the integral of whatever the control does, so the pilot is closing a third-order loop by eye with no natural damping anywhere in it. Evaluating the first integral makes the tolerance visible.
 
@@ -463,7 +637,10 @@ Position is therefore the double integral of attitude, and attitude is the integ
 
 Standing vertically, the airframe presents its whole length to a crosswind. Taking a side area of ten square metres and a drag coefficient of 0.8, both estimates,
 
-$$F = \tfrac{1}{2} \rho V^{2} A C_{d}$$
+$$
+F = \tfrac{1}{2} \rho V^{2} A C_{d}
+\tag{59}
+$$
 
 | Crosswind | Side force | Acceleration | Uncorrected drift in 30 s |
 |---|---|---|---|
@@ -475,7 +652,10 @@ The moment such a wind produces is small, at 17.9 percent of the pitch requireme
 
 The conflict can be made exact. To hold station the aircraft must tilt into the wind until the horizontal component of thrust balances the side force,
 
-$$g \sin \theta_{w} = \frac{\tfrac{1}{2} \rho V^{2} A C_{d}}{m}$$
+$$
+g \sin \theta_{w} = \frac{\tfrac{1}{2} \rho V^{2} A C_{d}}{m}
+\tag{60}
+$$
 
 | Crosswind | Steady tilt needed to hold station | As a multiple of the drift budget |
 |---|---|---|
@@ -497,17 +677,26 @@ Vertical control is a throttle problem and it is asymmetric. A vertical accelera
 
 The relation is simply Newton's second law applied to the vertical axis,
 
-$$\Delta T = m a$$
+$$
+\Delta T = m a
+\tag{61}
+$$
 
 and the bounds are asymmetric. Upward,
 
-$$a_{\max} = \frac{T - W}{m} = 4.76 \, \text{m/s}^{2}$$
+$$
+a_{\max} = \frac{T - W}{m} = 4.76 \, \text{m/s}^{2}
+\tag{62}
+$$
 
 and downward there is no bound at all, because the pilot can always close the throttle and let the aircraft fall. **A descent is easier to start than to stop.**
 
 Stopping one costs engine response time and then stopping distance, so the height lost recovering from a sink rate $v$ with an engine lag $\tau$ is roughly
 
-$$\Delta h \approx v \tau + \frac{v^{2}}{2 a_{\max}}$$
+$$
+\Delta h \approx v \tau + \frac{v^{2}}{2 a_{\max}}
+\tag{63}
+$$
 
 | Sink rate | Height lost at a one second lag |
 |---|---|
@@ -527,7 +716,10 @@ The arrangement the [Smithsonian record][ref_nasm_x13] describes, constant radio
 
 The hook tolerance is taken here to be of order a third of a metre. At a closure rate of one metre per second, a loop delay $\tau$ introduces a position uncertainty of
 
-$$\delta x = V \tau$$
+$$
+\delta x = V \tau
+\tag{64}
+$$
 
 so a delay of 0.3 seconds consumes the entire tolerance, and 0.3 seconds is optimistic for a human observer speaking over a radio to a pilot who must then move a control. **The X-13 hooked on repeatedly, so the loop clearly closed**, in practice on a rope between two towers and then on the trailer, both in the [Smithsonian record][ref_nasm_x13], and the arithmetic says it closed with very little margin and only because the closure rate was kept low. What a pilot can and cannot do with a delayed and partial view of a landing point is [Behan and Siciliani 1965][research_behan_siciliani_1965], [Behan and Siciliani 1967][research_behan_siciliani_1967], and [Rhoads 1967][research_rhoads_1967]. Keeping the closure rate low costs hover time, and hover time is the fuel.
 
@@ -537,7 +729,10 @@ In its vertical configuration the X-13 had no undercarriage in the ordinary sens
 
 The arrangement removes weight from the aircraft and puts it on the ground. Written as a bookkeeping identity, the launch system's mass is simply moved out of the term that has to be lifted,
 
-$$m_{\text{lifted}} = m_{\text{empty}} + m_{\text{fuel}} + m_{\text{payload}}, \qquad m_{\text{trailer}} \notin m_{\text{lifted}}$$
+$$
+m_{\text{lifted}} = m_{\text{empty}} + m_{\text{fuel}} + m_{\text{payload}}, \qquad m_{\text{trailer}} \notin m_{\text{lifted}}
+\tag{65}
+$$
 
 **Moving mass out of the lifted term is the oldest trick in vertical take-off design and it recurs in every generation**, from the flying platform of [Sissingh 1956][research_sissingh_1956] through the ground-effect machines of [Walker et al. 1965][research_walker_1965] and [Davidson et al. 1972][research_davidson_1972] to the air cushion landing systems of [Leland and Thompson 1975][research_leland_thompson_1975]. What distinguishes the X-13 is that the mass was moved onto a vehicle which then had to be present at the landing point.
 
@@ -555,7 +750,10 @@ The trailer looks like an eccentricity and it is a weight decision. A retractabl
 
 Converting the saving into the currency the aircraft lacks gives
 
-$$\Delta t_{\text{hover}} = \frac{w_{g}}{c \, W}$$
+$$
+\Delta t_{\text{hover}} = \frac{w_{g}}{c \, W}
+\tag{66}
+$$
 
 | Gear weight | Extra hover time | Endurance gained |
 |---|---|---|
@@ -565,7 +763,10 @@ $$\Delta t_{\text{hover}} = \frac{w_{g}}{c \, W}$$
 
 **The spin-tunnel table measures the saving directly.** Its full-fuel loading is 6,958 pounds with wheels and 6,696 pounds with the hook in [Bowman 1957][research_bowman_1957], so the wheels cost
 
-$$6958 - 6696 = 262 \, \text{lb}$$
+$$
+6958 - 6696 = 262 \, \text{lb}
+\tag{67}
+$$
 
 net of the hook, which is 3.8 percent of the wheeled weight, inside the range assumed above, and worth $262 / 104.3 = 2.51$ minutes of hovering. **Deleting the undercarriage bought about two and a half minutes of hovering**, which against a thirteen and a half minute endurance is about a fifth more, and by the radius table above some tens of kilometres. [Irvin and Swan 1956][research_irvin_swan_1956] keeps weight accounts of this kind across the configuration options. On an aircraft this tightly bounded that is not a small saving, and it explains why a design that looks like a stunt is the obvious answer once the fuel arithmetic is admitted.
 
@@ -573,11 +774,17 @@ The structural side reinforces it. Hanging from a hook at the nose puts the enti
 
 The arrival itself is gentle. At a closure rate $v$ arrested over a stroke $d$ the mean deceleration is
 
-$$a = \frac{v^{2}}{2d}$$
+$$
+a = \frac{v^{2}}{2d}
+\tag{68}
+$$
 
 so a one metre per second arrival stopped in 0.3 metres is
 
-$$a = \frac{1.0}{0.6} = 1.67 \, \text{m/s}^{2} = 0.17 g$$
+$$
+a = \frac{1.0}{0.6} = 1.67 \, \text{m/s}^{2} = 0.17 g
+\tag{69}
+$$
 
 **A vertical landing on a wire is a very soft landing**, softer than a conventional arrival on a runway, however violent the arrangement looks. [Leland and Thompson 1975][research_leland_thompson_1975] treats landing impact as a designed problem in the form it takes when the undercarriage is unconventional. **The difficulty of the landing was never the impact. It was arriving at the right place with the right speed while unable to see.**
 
@@ -585,11 +792,17 @@ $$a = \frac{1.0}{0.6} = 1.67 \, \text{m/s}^{2} = 0.17 g$$
 
 The pilot's seat pivoted forty-five degrees toward the vertical for the landing, so that he was not lying flat on his back during vertical flight \[[Smithsonian record][ref_nasm_x13]\]. Forty-five degrees is a compromise and it leaves the problem half-solved, because his line of sight remains
 
-$$90^{\circ} - 45^{\circ} = 45^{\circ}$$
+$$
+90^{\circ} - 45^{\circ} = 45^{\circ}
+\tag{70}
+$$
 
 away from the direction the aircraft is travelling during a vertical descent. Writing the geometry down shows why the compromise cannot be improved. Let $\beta$ be the angle between the pilot's line of sight and the direction the aircraft is travelling during the descent. For a seat pivoted by $\sigma$ from the body axis,
 
-$$\beta = 90^{\circ} - \sigma$$
+$$
+\beta = 90^{\circ} - \sigma
+\tag{71}
+$$
 
 | Seat pivot | Angle between sight line and direction of travel |
 |---|---|
@@ -613,11 +826,17 @@ Tumbling was the mode the Air Force asked about, because an aircraft pointed ver
 
 Arresting a pitch rotation with the engine running is an angular momentum problem. A rotation at rate $\omega$ carries
 
-$$H = I_{yy} \omega$$
+$$
+H = I_{yy} \omega
+\tag{72}
+$$
 
 and the nozzle removes it at a rate equal to the moment it produces, so the time to stop is
 
-$$t = \frac{I_{yy} \omega}{T \ell \sin \theta}$$
+$$
+t = \frac{I_{yy} \omega}{T \ell \sin \theta}
+\tag{73}
+$$
 
 | Pitch rate | Angular momentum | Time to stop | Arc swept |
 |---|---|---|---|
@@ -627,21 +846,33 @@ $$t = \frac{I_{yy} \omega}{T \ell \sin \theta}$$
 
 **With the engine running a pitch rotation is stopped in under half a second.** The engine that makes this possible is also the source of the trouble, because its rotor carries angular momentum of its own. [Smith 1958b][research_smith_1958_2] represented it on the one-fifth model with a flywheel of 39,500 pound square inches per second, which it describes as approximately the correctly scaled value. Under Froude scaling angular momentum grows as the four and a half power of length, so the full-scale engine carries about
 
-$$H_{e} = 39{,}500 \times 5^{4.5} \, \text{lb in}^{2}/\text{s} = 1.62 \times 10^{4} \, \text{kg m}^{2}/\text{s}$$
+$$
+H_{e} = 39{,}500 \times 5^{4.5} \, \text{lb in}^{2}/\text{s} = 1.62 \times 10^{4} \, \text{kg m}^{2}/\text{s}
+\tag{74}
+$$
 
 which is about three times the airframe's own angular momentum at one radian per second in pitch. Any pitch rate $\Omega$ then produces a yawing moment
 
-$$M_{g} = H_{e} \, \Omega$$
+$$
+M_{g} = H_{e} \, \Omega
+\tag{75}
+$$
 
 and a pitch rate of only 0.1 radians per second produces 1,615 newton metres, which is 82 percent of the yaw criterion computed above. **This is why the model could not be hovered without dampers.** Smith reports that with the engine's gyroscopic effect represented the pilots found the model completely uncontrollable in the hover, that pitch and yaw dampers made it easy to fly, and that every transition was flown with them. The full-scale aircraft carried dampers too. The [Smithsonian record][ref_nasm_x13] states that dampers were installed after the conventional flights revealed oscillation problems and that a stability augmentation system blended the conventional and hovering controls.
 
 **With the engine out there is no nozzle and no reaction control**, because both are powered by it. Bowman simulated a power failure in the hover by dropping the model from rest in a nose-up attitude. It fell tail first, nosed over at up to 130 degrees per second, and was yawed by the engine's gyroscopic moment into what appeared to be a right spin, from which the report expects recovery with rudder and aileron once the engine has run down. It puts the minimum altitude for a belly landing after a power failure in the hover at
 
-$$h_{\min} = 900 + 800 + 2500 = 4200 \, \text{ft}$$
+$$
+h_{\min} = 900 + 800 + 2500 = 4200 \, \text{ft}
+\tag{76}
+$$
 
 the sum of the fall before the spin, the spin recovery, and a pull-out distance assumed from a similar configuration. The report describes the first term as a free fall over the time to spin entry and gives that time as about 6.5 seconds, which in free fall is
 
-$$h = \tfrac{1}{2} g t^{2} = \tfrac{1}{2} \times 32.17 \times 6.5^{2} = 680 \, \text{ft}$$
+$$
+h = \tfrac{1}{2} g t^{2} = \tfrac{1}{2} \times 32.17 \times 6.5^{2} = 680 \, \text{ft}
+\tag{77}
+$$
 
 so its two figures are not mutually consistent, and 900 feet corresponds to about 7.5 seconds. **Either way every vertical take-off and landing was necessarily flown far below the height from which a flame-out could be survived**, and the parachute of [Bowman 1955a][research_bowman_1955_2] was sized for demonstration spins at altitude rather than for that case. It is the sharpest illustration in the article of what it means to control an aircraft with its propulsion.
 
@@ -649,23 +880,38 @@ so its two figures are not mutually consistent, and 900 feet corresponds to abou
 
 The exhaust the aircraft sits on is a small, fast, hot jet. Taking an engine mass flow of 70 kilogrammes per second, the exit velocity implied by the thrust is
 
-$$v_{e} = \frac{T}{\dot{m}} = \frac{44{,}482}{70} = 635 \, \text{m/s}$$
+$$
+v_{e} = \frac{T}{\dot{m}} = \frac{44{,}482}{70} = 635 \, \text{m/s}
+\tag{78}
+$$
 
 and at an assumed exhaust density of 0.35 kilogrammes per cubic metre the dynamic pressure in the jet is
 
-$$q_{e} = \tfrac{1}{2} \rho_{e} v_{e}^{2} = 70.7 \, \text{kPa} = 10.2 \, \text{psi}$$
+$$
+q_{e} = \tfrac{1}{2} \rho_{e} v_{e}^{2} = 70.7 \, \text{kPa} = 10.2 \, \text{psi}
+\tag{79}
+$$
 
 The implied nozzle area is 0.315 square metres, so the disc loading is
 
-$$\frac{T}{A} = 141 \, \text{kPa}$$
+$$
+\frac{T}{A} = 141 \, \text{kPa}
+\tag{80}
+$$
 
 against what a rotor of the same 6.40 metre span would need,
 
-$$\frac{T}{A_{\text{rotor}}} = \frac{44{,}482}{\pi (3.20)^{2}} = 1382 \, \text{Pa}$$
+$$
+\frac{T}{A_{\text{rotor}}} = \frac{44{,}482}{\pi (3.20)^{2}} = 1382 \, \text{Pa}
+\tag{81}
+$$
 
 a ratio of
 
-$$\frac{141{,}000}{1382} = 102$$
+$$
+\frac{141{,}000}{1382} = 102
+\tag{82}
+$$
 
 **A hovering jet loads the ground about a hundred times more heavily than a helicopter of the same span.** The ratio explains why a tail-sitting jet needs a prepared surface and a helicopter does not, and it gives a second reason why the operational freedom the concept promised was not available. [George et al. 1964][research_george_1964] sets out the impingement problem and its design criteria, with the dust-ingestion consequence in [Hafer and Skinner 1960][research_hafer_skinner_1960] and the analogous problem on another surface entirely in [Roberts 1964a][research_roberts_1964].
 
@@ -692,13 +938,19 @@ The dates are those of the [Smithsonian record][ref_nasm_x13]. The [Air Force mu
 
 The sequence reads as a decomposition. **The programme separated the problem into the two halves that could be tested independently and only then joined them.** The value of doing so is that a joint first attempt confounds the failures. If the wing, the hover, and the join each work with probability $p$, a single all-up attempt returns an unambiguous result only with probability
 
-$$p^{3}$$
+$$
+p^{3}
+\tag{83}
+$$
 
 which for $p = 0.8$ is 0.51, while testing in sequence identifies which of the three failed with certainty. The first aircraft flew conventionally on temporary undercarriage to establish that it was an aeroplane, then took off and landed vertically on a temporary steel-tube tail rig with castering wheels to establish that it was a hovering machine, while its pilots practised hooking onto a rope strung between two towers with a replaceable wooden nose fitted \[[Smithsonian record][ref_nasm_x13]\]. The two halves were joined in the air six months after the first hover, and brought down to the trailer four and a half months after that. The [X-5][related_post_a302_bell_x5] used the same ordering for variable sweep, and the X-13's predecessors used it for the propeller case. A research aircraft programme run carefully looks like this.
 
 The intervals are 170 days from first flight to first hover, 184 days from first hover to first transition, and 134 days from there to the full cycle,
 
-$$170 + 184 + 134 = 488 \, \text{days}$$
+$$
+170 + 184 + 134 = 488 \, \text{days}
+\tag{84}
+$$
 
 or 1.34 years from first flight to full cycle. The pilots were Ryan's chief test pilot Peter Girard and Ryan test pilot Lou Everett, whom the [Smithsonian record][ref_nasm_x13] names as the two who practised the hook-on technique and spells Everrett.
 
@@ -728,11 +980,17 @@ The X-13 was preceded by an unusually complete model programme, and the single m
 
 Dynamic similarity in a gravity-dominated problem requires the Froude number to match,
 
-$$\frac{V^{2}}{gL} = \text{constant}$$
+$$
+\frac{V^{2}}{gL} = \text{constant}
+\tag{85}
+$$
 
 so at a length scale $\kappa$ the speeds and times scale as its square root and the angular rates as its inverse square root,
 
-$$\frac{V_{m}}{V_{f}} = \sqrt{\kappa}, \qquad \frac{t_{m}}{t_{f}} = \sqrt{\kappa}, \qquad \frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{\kappa}}, \qquad \frac{m_{m}}{m_{f}} = \kappa^{3}$$
+$$
+\frac{V_{m}}{V_{f}} = \sqrt{\kappa}, \qquad \frac{t_{m}}{t_{f}} = \sqrt{\kappa}, \qquad \frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{\kappa}}, \qquad \frac{m_{m}}{m_{f}} = \kappa^{3}
+\tag{86}
+$$
 
 For the one-fifth model that gives
 
@@ -746,7 +1004,10 @@ For the one-fifth model that gives
 
 **A twenty-four kilogramme model flying at twenty-three metres per second reproduces the manoeuvre, and does it twice as fast.** That last point is the practical difficulty, since everything the observer has to watch happens at 2.24 times the rate. The model actually flown was lighter than the scaled mass, at 39.3 pounds in its rocket-powered tests in Smith's table of mass characteristics, against
 
-$$\frac{39.3}{6730 / 125} = \frac{39.3}{53.8} = 0.73$$
+$$
+\frac{39.3}{6730 / 125} = \frac{39.3}{53.8} = 0.73
+\tag{87}
+$$
 
 of the Froude-scaled weight.
 
@@ -754,7 +1015,10 @@ of the Froude-scaled weight.
 
 What does not scale is the Reynolds number, which goes as speed times length,
 
-$$\frac{Re_{m}}{Re_{f}} = \kappa^{3/2} = 0.089$$
+$$
+\frac{Re_{m}}{Re_{f}} = \kappa^{3/2} = 0.089
+\tag{88}
+$$
 
 **eleven times lower**, so the model's boundary layer is not the aircraft's. For a manoeuvre governed by inertia and thrust that is tolerable, and for the stall it is not, which marks the division between what the models settled and what they did not.
 
@@ -766,13 +1030,19 @@ The spin tunnel work in [Bowman 1955b][research_bowman_1955] and [Bowman 1957][r
 
 **A model does not burn fuel in proportion.** The endurance relation
 
-$$t = \frac{\zeta}{c}$$
+$$
+t = \frac{\zeta}{c}
+\tag{89}
+$$
 
 contains no length at all, so it neither improves nor worsens with scale, and a tethered or externally powered model carries no fuel fraction whatever. **The constraint is not merely mis-scaled in a model. It is absent from it**, and a model that hovers for as long as its tether is connected gives no warning that the full-scale aircraft has thirteen minutes.
 
 **A model does not load the ground.** For geometric scaling at a fixed thrust-to-weight ratio the thrust goes as the cube of length and the nozzle area as the square, so the disc loading goes as the first power,
 
-$$\frac{T}{A} \propto L$$
+$$
+\frac{T}{A} \propto L
+\tag{90}
+$$
 
 and a one-fifth-scale model imposes one fifth of the pressure, not one twenty-fifth. Even so the model imposes 28 kilopascals, enough to notice and not enough to reproduce the erosion, and the linear rather than quadratic scaling explains why ground-effect results from small models transfer poorly.
 
@@ -796,11 +1066,17 @@ The vertical take-off jet did enter service, and not in this form. The [Hawker P
 
 The first of those is geometric and can be stated in one number. Measure the bearing of the landing point from the pilot's line of sight during the descent. On a tail-sitter the target lies along the negative body axis, at the tail, so with the seat pivoted forty-five degrees the bearing is
 
-$$135^{\circ}$$
+$$
+135^{\circ}
+\tag{91}
+$$
 
 On a horizontal aircraft hovering on deflected thrust the target lies directly below while the pilot looks forward and down, giving a bearing of order
 
-$$45^{\circ}$$
+$$
+45^{\circ}
+\tag{92}
+$$
 
 **The same task is a hundred and thirty-five degrees behind one pilot and forty-five degrees below the other**, and no amount of seat pivoting closes that gap, because the difference is which end of the aeroplane is pointed at the ground.
 
@@ -860,25 +1136,40 @@ Two things fall out, and the second corrects the first.
 
 The two vehicles obey different relations. A jet in the hover burns fuel in proportion to the thrust it must produce, so
 
-$$t = \frac{\zeta}{c}$$
+$$
+t = \frac{\zeta}{c}
+\tag{93}
+$$
 
 while a rotor's power is set by how hard it works the air it passes through,
 
-$$\frac{P}{T} = \frac{v_{i}}{\eta}, \qquad v_{i} = \sqrt{\frac{T/A}{2\rho}}$$
+$$
+\frac{P}{T} = \frac{v_{i}}{\eta}, \qquad v_{i} = \sqrt{\frac{T/A}{2\rho}}
+\tag{94}
+$$
 
 and its endurance is the stored energy divided by that power,
 
-$$t = \frac{\zeta_{b} \, e \, \eta}{g \, v_{i}}$$
+$$
+t = \frac{\zeta_{b} \, e \, \eta}{g \, v_{i}}
+\tag{95}
+$$
 
 The modern figures in the table assume a battery at thirty percent of the mass while the X-13's fuel was twenty-one. Holding the energy mass fraction equal, with an induced velocity of 14.1 metres per second,
 
-$$t = \frac{0.208 \times 9.0 \times 10^{5} \times 0.70}{9.807 \times 14.1} = 948 \, \text{s} = 15.8 \, \text{min}$$
+$$
+t = \frac{0.208 \times 9.0 \times 10^{5} \times 0.70}{9.807 \times 14.1} = 948 \, \text{s} = 15.8 \, \text{min}
+\tag{96}
+$$
 
 against the X-13's 13.4. **Seventy years of propulsion and energy storage has improved hovering endurance at fixed energy mass fraction by about eighteen percent.**
 
 The comparison is cleanest expressed as an effective specific consumption. A jet in the hover obeys $t = \zeta / c$ and a rotor obeys the relation above, so the rotor's equivalent $c$ is
 
-$$c_{\text{eff}} = \frac{g \, v_{i}}{e \, \eta}$$
+$$
+c_{\text{eff}} = \frac{g \, v_{i}}{e \, \eta}
+\tag{97}
+$$
 
 | Configuration | Effective specific consumption | Relative to the Avon |
 |---|---|---|
@@ -900,7 +1191,10 @@ Transition strategies and corridors are [Rehan et al. 2026][research_rehan_2026]
 
 **The control-authority handover is solved as an allocation problem.** A modern over-actuated aircraft is given a desired moment and solves for the actuator commands that produce it at least cost,
 
-$$\mathbf{M}_{\text{des}} = B \mathbf{u}, \qquad \mathbf{u} = W^{-1} B^{\mathsf{T}} \left( B W^{-1} B^{\mathsf{T}} \right)^{-1} \mathbf{M}_{\text{des}}$$
+$$
+\mathbf{M}_{\text{des}} = B \mathbf{u}, \qquad \mathbf{u} = W^{-1} B^{\mathsf{T}} \left( B W^{-1} B^{\mathsf{T}} \right)^{-1} \mathbf{M}_{\text{des}}
+\tag{98}
+$$
 
 where the weighting $W$ prices each actuator and the effectiveness matrix $B$ varies with dynamic pressure. **The blend that the X-13's pilot had to perform by hand is now the solution of that problem, evaluated many times a second**, and the fraction $\lambda(V)$ tabulated earlier is what it converges to.
 
@@ -948,7 +1242,10 @@ Sizing methodologies are [Qiao and Zhou 2026][research_qiao_zhou_2026], [Lee et 
 
 The explanation given earlier for why a turboprop tail-sitter needs no reaction control is that its slipstream gives the wing stall-level dynamic pressure in the hover. The relation is
 
-$$q_{s} = \tfrac{1}{2} \rho v_{s}^{2} = \frac{T}{A}$$
+$$
+q_{s} = \tfrac{1}{2} \rho v_{s}^{2} = \frac{T}{A}
+\tag{99}
+$$
 
 so a designer who wants that condition simply chooses a disc loading equal to the wing loading, which the table at the head of this section shows a modern tail-sitter does automatically.
 
@@ -1106,7 +1403,10 @@ Three of the article's findings have no modern remedy and appear unchanged in th
 
 **The elevon and aileron effectiveness figures are assumed.** A pitching-moment increment of 0.10 and a rolling-moment increment of 0.05 are plausible for a tailless delta and are not measured values for this aircraft. They are referred to the geometric mean chord of 2.77 metres, while the mean aerodynamic chord that [Bowman 1957][research_bowman_1957] tabulates is 145.49 inches, or 3.70 metres, so what is assumed is the product of chord and coefficient. The crossover speed varies as the inverse square root of the assumed effectiveness,
 
-$$V_{\text{cross}} \propto (\Delta C_{m})^{-1/2}$$
+$$
+V_{\text{cross}} \propto (\Delta C_{m})^{-1/2}
+\tag{100}
+$$
 
 so the exposure is direct.
 
@@ -1243,6 +1543,887 @@ The reason it worked is an ordering that is not an accident. Aerodynamic control
 The reason it led nowhere is arithmetic of a different kind. **The entire fuel load is thirteen minutes of hovering**, the transition that the programme existed to demonstrate costs twelve pounds of it, and the hovering at either end costs everything else. A minute at each end takes a sixth of the radius. The exhaust loads the ground a hundred times harder than a helicopter of the same span, so the aircraft needs a prepared surface and a particular trailer. And the pilot cannot see the hook he is aiming at.
 
 **Each of those is a reason the concept did not become a fighter, and none of them is a reason the aircraft failed.** The X-13 answered its question completely and the answer was that the question had been the wrong one to ask about a manned aeroplane. Two decades later the same configuration came back with nobody in it, and it is now a common way to build a small aircraft that has to take off from somewhere without a runway.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 100 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 100, 58 are established and 42 are bespoke.
+The article mixes pounds and pound-force with kilogrammes and newtons, quotes the specific fuel consumption $c$ both in pounds per pound of thrust per hour and as a reciprocal time of $2.583 \times 10^{-4}$ per second, writes $\bar{c}$ for the geometric mean chord of area over span rather than the tabulated mean aerodynamic chord, and reuses $\theta$ for the nozzle deflection and the hover tilt, $A$ for a disc area and a side area, and $W$ for the weight and the actuator weighting matrix.
+
+**Equation 1, Control Surface Moment and Dynamic Pressure.**
+The pitching moment of a control surface is the dynamic pressure times the wing area, the mean chord and the moment coefficient increment, with the dynamic pressure $q = \tfrac{1}{2} \rho V^{2}$.
+
+$$
+M_{\text{aero}} = q \, S \, \bar{c} \, \Delta C_{m}, \qquad q = \tfrac{1}{2} \rho V^{2}
+\tag{1}
+$$
+
+**Equation 2, Moment of Deflected Thrust.**
+Thrust deflected through an angle $\theta$ at an arm $\ell$ from the centre of mass produces a moment $T \ell \sin \theta$ that does not depend on airspeed.
+
+$$
+M_{\text{thrust}} = T \, \ell \sin \theta
+\tag{2}
+$$
+
+*Equation 3, Bespoke Equal-Authority Speed.*
+The article defines the equal-authority speed as the airspeed at which the aerodynamic moment equals the deflected-thrust moment, found by equating the two preceding expressions.
+
+$$
+V_{\text{equal}} = \sqrt{\frac{T \ell \sin \theta}{\tfrac{1}{2} \rho S \bar{c} \, \Delta C_{m}}}
+\tag{3}
+$$
+
+**Equation 4, Gross Mass of the X-13.**
+The gross weight of 6,730 pounds converts to a mass of 3,053 kilogrammes.
+[Ryan X-13 Vertijet][ref_x13]
+
+$$
+m = 3053 \, \text{kg}
+\tag{4}
+$$
+
+**Equation 5, Pitching Moment of Inertia from the Spin-Tunnel Table.**
+The tabulated pitch inertia of 4,042 slug square feet converts to 5,480 kilogramme square metres.
+[Bowman 1957][research_bowman_1957]
+
+$$
+I_{yy} = 4042 \times 1.3558 = 5480 \, \text{kg m}^{2}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Required Pitching Moment.*
+The required moment is the pitch inertia times the adopted pitch control criterion of 0.50 radians per second squared, a criterion taken from experiments made after the aircraft flew.
+[Garren et al. 1965][research_garren_1965]
+
+$$
+M_{\text{req}} = I_{yy} \, \dot{q}_{\text{req}} = 5480 \times 0.50 = 2740 \, \text{N m}
+\tag{6}
+$$
+
+**Equation 7, Moment of a Force.**
+The moment of a force about a point is the cross product of the position vector and the force.
+
+$$
+\mathbf{M} = \mathbf{r} \times \mathbf{F}
+\tag{7}
+$$
+
+**Equation 8, Zero Rolling Moment from an Axial Nozzle.**
+For a force applied on the longitudinal axis the position vector is parallel to that axis, so the component of the moment about it vanishes for any force.
+
+$$
+\mathbf{M} \cdot \hat{\mathbf{x}} = (\mathbf{r} \times \mathbf{F}) \cdot \hat{\mathbf{x}} = 0
+\tag{8}
+$$
+
+**Equation 9, Geometric Mean Chord.**
+The mean chord taken as wing area over span is 2.77 metres for the tabulated area and span.
+[Bowman 1957][research_bowman_1957]
+
+$$
+\bar{c} = \frac{S}{b} = \frac{17.74}{6.40} = 2.77 \, \text{m}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Elevon Moment Coefficient.*
+The aerodynamic pitching moment is evaluated at sea level with an assumed elevon moment increment of 0.10, giving a coefficient of $3.013 \, V^{2}$ newton metres.
+
+$$
+M_{\text{aero}} = \tfrac{1}{2} \times 1.225 \times 17.74 \times 2.77 \times 0.10 \, V^{2} = 3.013 \, V^{2}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Pitch Crossover Speed.*
+Setting the aerodynamic moment with the assumed elevon increment equal to the adopted pitch requirement gives a crossover speed of 30.2 metres per second.
+
+$$
+V_{\text{cross}} = \sqrt{\frac{2740}{3.013}} = 30.2 \, \text{m/s} = 59 \, \text{knots}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Deflected-Thrust Moment at Ten Degrees.*
+Ten degrees of deflection of 10,000 pounds of thrust at an assumed arm of 3.5 metres gives a moment of about 27,000 newton metres.
+
+$$
+M_{\text{thrust}} = 44{,}482 \times 3.50 \times \sin 10^{\circ} = 27{,}035 \, \text{N m}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Thrust Moment Margin.*
+The deflected-thrust moment at the assumed arm is 9.87 times the moment the adopted criterion requires.
+
+$$
+\frac{M_{\text{thrust}}}{M_{\text{req}}} = \frac{27{,}035}{2740} = 9.87
+\tag{13}
+$$
+
+*Equation 14, Bespoke Evaluated Equal-Authority Speed.*
+With the assumed arm and elevon increment the aerodynamic and thrust moments become equal at 94.7 metres per second.
+
+$$
+V_{\text{equal}} = \sqrt{\frac{27{,}035}{3.013}} = 94.7 \, \text{m/s}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Aerodynamic Share of Available Authority.*
+The article defines the aerodynamic share $\lambda(V)$ as the aerodynamic moment divided by the sum of the aerodynamic and deflected-thrust moments.
+
+$$
+\lambda(V) = \frac{M_{\text{aero}}(V)}{M_{\text{aero}}(V) + M_{\text{thrust}}}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Stall Speed.*
+The standard stall speed relation is evaluated at the gross weight with an adopted maximum lift coefficient of 1.0 for a thin delta, giving 52.5 metres per second.
+
+$$
+V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L\max}}} = \sqrt{\frac{2 \times 29{,}935}{1.225 \times 17.74 \times 1.0}} = 52.5 \, \text{m/s}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Ratio of Pitch Crossover to Stall Speed.*
+The crossover speed resting on the assumed elevon increment is 0.575 of the stall speed resting on the adopted maximum lift coefficient.
+
+$$
+\frac{V_{\text{cross}}}{V_{\text{stall}}} = \frac{30.2}{52.5} = 0.575
+\tag{17}
+$$
+
+*Equation 18, Bespoke Squared Crossover and Stall Speeds.*
+The crossover speed is defined by setting the aerodynamic moment equal to the required moment and is written beside the stall speed in squared form.
+
+$$
+V_{\text{cross}}^{2} = \frac{I_{yy} \dot{q}_{\text{req}}}{\tfrac{1}{2} \rho S \bar{c} \, \Delta C_{m}}, \qquad V_{\text{stall}}^{2} = \frac{2W}{\rho S C_{L\max}}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Scale-Free Speed Ratio.*
+Dividing the squared crossover speed by the squared stall speed cancels the wing area and air density and leaves a ratio of proportions and of the required angular acceleration.
+
+$$
+\left( \frac{V_{\text{cross}}}{V_{\text{stall}}} \right)^{2} = \frac{I_{yy} \, \dot{q}_{\text{req}} \, C_{L\max}}{W \bar{c} \, \Delta C_{m}}
+\tag{19}
+$$
+
+**Equation 20, Fully Developed Slipstream Velocity.**
+Actuator disc momentum theory gives the fully developed slipstream velocity of a disc supporting a weight $W$ over an area $A$.
+
+$$
+v_{s} = \sqrt{\frac{2 (W/A)}{\rho}}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Slipstream Velocity at a Representative Disc Loading.*
+The slipstream velocity is evaluated at a disc loading of 1,500 pascals taken as conservative for the class, giving 49.5 metres per second.
+[Convair XFY-1][ref_convair_xfy]
+
+$$
+v_{s} = \sqrt{\frac{2 \times 1500}{1.225}} = 49.5 \, \text{m/s}
+\tag{21}
+$$
+
+**Equation 22, Thrust-to-Weight Ratio.**
+The 10,000 pound thrust of the Avon against the 6,730 pound gross weight gives a thrust-to-weight ratio of 1.486.
+[National Museum of the United States Air Force][ref_nmusaf_x13]
+[Smithsonian record's][ref_nasm_x13]
+
+$$
+\frac{T}{W} = \frac{44{,}482}{29{,}935} = 1.486
+\tag{22}
+$$
+
+**Equation 23, Vertical Acceleration at Lift-Off.**
+The net vertical acceleration is standard gravity times the excess of the thrust-to-weight ratio over one, or 4.76 metres per second squared.
+
+$$
+a = g \left( \frac{T}{W} - 1 \right) = 9.807 \times 0.486 = 4.76 \, \text{m/s}^{2}
+\tag{23}
+$$
+
+**Equation 24, Time to Climb Thirty Metres.**
+Constant acceleration from rest covers thirty metres in 3.55 seconds.
+
+$$
+t = \sqrt{\frac{2h}{a}} = \sqrt{\frac{60}{4.76}} = 3.55 \, \text{s}
+\tag{24}
+$$
+
+**Equation 25, Turbojet Fuel Flow.**
+A turbojet burns fuel at a rate equal to its specific fuel consumption times its thrust.
+
+$$
+\dot{m}_{f} = c \, T
+\tag{25}
+$$
+
+*Equation 26, Bespoke Hover Fuel Flow.*
+The hover fuel flow is evaluated with an assumed specific fuel consumption of 0.93 pounds per pound of thrust per hour, the dry figure of a later Avon, giving 104.3 pounds per minute.
+[engine compilation][ref_rolls_royce_avon]
+
+$$
+\dot{m}_{f} = 0.93 \times 6730 = 6259 \, \text{lb/hr} = 104.3 \, \text{lb/min}
+\tag{26}
+$$
+
+**Equation 27, Fuel Load from the Spin-Tunnel Loadings.**
+The differences between the full, quarter and twentieth fuel loadings of the hook configuration each give a full fuel load of 1,400 pounds.
+[Bowman 1957][research_bowman_1957]
+
+$$
+m_{f} = \frac{6696 - 5646}{0.75} = \frac{6696 - 5366}{0.95} = 1400 \, \text{lb}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Hover Endurance.*
+The fuel load divided by the hover fuel flow from the assumed specific fuel consumption gives 13.4 minutes of hovering.
+
+$$
+t_{\text{hover}} = \frac{1400}{104.3} = 13.4 \, \text{min}
+\tag{28}
+$$
+
+**Equation 29, Residual Weight Above the Quoted Empty Weight.**
+Removing the fuel and the quoted empty weight from the wheeled full-fuel loading leaves 224 pounds.
+[Bowman 1957][research_bowman_1957]
+
+$$
+6958 - 1400 - 5334 = 224 \, \text{lb}
+\tag{29}
+$$
+
+**Equation 30, Jet Hover Endurance.**
+With thrust equal to weight, hover endurance is the fuel mass over the specific fuel consumption times the weight, a function of the fuel fraction and the consumption alone.
+
+$$
+t_{\text{hover}} = \frac{m_{f}}{c \, W} = \frac{1}{c} \cdot \frac{m_{f}}{W}
+\tag{30}
+$$
+
+**Equation 31, Actuator Disc Power per Unit Thrust.**
+Ideal actuator disc theory gives the hovering power per unit thrust as the square root of the disc loading over twice the air density.
+
+$$
+\frac{P}{T} = \sqrt{\frac{T/A}{2 \rho}}
+\tag{31}
+$$
+
+**Equation 32, Rolling Moment of Inertia from the Spin-Tunnel Table.**
+The tabulated roll inertia of 1,543 slug square feet converts to 2,092 kilogramme square metres.
+[Bowman 1957][research_bowman_1957]
+
+$$
+I_{xx} = 1543 \times 1.3558 = 2092 \, \text{kg m}^{2}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Wingtip Jet Force.*
+Each opposed jet on the scaled arm of 6.19 metres must produce 338 newtons to meet the adopted roll criterion of one radian per second squared.
+[Smith 1958b][research_smith_1958_2]
+
+$$
+F = \frac{M}{d} = \frac{2092}{6.19} = 338 \, \text{N} = 76 \, \text{lbf}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Roll Jet Bleed Mass Flow.*
+The bleed mass flow for the two jets is evaluated at an assumed bleed velocity of 500 metres per second, giving 1.35 kilogrammes per second.
+
+$$
+\dot{m} = \frac{2F}{v} = \frac{676}{500} = 1.35 \, \text{kg/s}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Aileron Crossover Speed.*
+The aerodynamic rolling couple with an assumed rolling moment increment of 0.05 meets the roll requirement at 24.5 metres per second.
+
+$$
+V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{l}}} = 24.5 \, \text{m/s}
+\tag{35}
+$$
+
+**Equation 36, Yawing Moment of Inertia from the Spin-Tunnel Table.**
+The tabulated yaw inertia of 4,833 slug square feet converts to 6,553 kilogramme square metres.
+[Bowman 1957][research_bowman_1957]
+
+$$
+I_{zz} = 4833 \times 1.3558 = 6553 \, \text{kg m}^{2}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Nozzle Deflection for Yaw.*
+The nozzle deflection that meets a yaw criterion of 0.3 radians per second squared at the assumed arm of 3.5 metres is 0.72 degrees.
+
+$$
+\theta = \arcsin \frac{M}{T \ell} = \arcsin \frac{1966}{44{,}482 \times 3.50} = 0.72^{\circ}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Rudder Crossover Speed.*
+The aerodynamic yawing moment with an assumed yawing moment increment of 0.06 meets the yaw requirement at 21.7 metres per second.
+
+$$
+V = \sqrt{\frac{M}{\tfrac{1}{2} \rho S b \, \Delta C_{n}}} = 21.7 \, \text{m/s}
+\tag{38}
+$$
+
+**Equation 39, Vertical Force Balance in a Tilted Hover.**
+The vertical component of thrust at a tilt $\phi$ from the vertical must at least equal the weight.
+
+$$
+T \cos \phi \geq W
+\tag{39}
+$$
+
+**Equation 40, Steepest Level Tilt.**
+The steepest tilt at which thrust still supports the weight is the inverse cosine of the weight over the thrust, 47.7 degrees.
+
+$$
+\phi_{\max} = \arccos \frac{W}{T} = \arccos 0.6730 = 47.7^{\circ}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Horizontal Acceleration at the Steepest Tilt.*
+Neglecting drag, the horizontal component of thrust at the steepest tilt gives 10.78 metres per second squared.
+
+$$
+a_{h} = g \frac{T}{W} \sin \phi_{\max} = 9.807 \times 1.486 \times 0.7396 = 10.78 \, \text{m/s}^{2}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Time to Stall Speed.*
+The time to reach the stall speed resting on the adopted maximum lift coefficient at the drag-free horizontal acceleration is 4.9 seconds.
+
+$$
+t = \frac{V_{\text{stall}}}{a_{h}} = \frac{52.5}{10.78} = 4.9 \, \text{s}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Transition Distance.*
+Constant drag-free acceleration over the transition time covers about 128 metres.
+
+$$
+s = \tfrac{1}{2} a_{h} t^{2} = 128 \, \text{m}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Transition Fuel.*
+Full thrust at the assumed specific fuel consumption of 0.93 for 4.9 seconds burns 12.6 pounds of fuel.
+
+$$
+m_{f} = \frac{10{,}000 \times 0.93 \times 4.9}{3600} = 12.6 \, \text{lb}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Thrust Cost of Roll Bleed.*
+The article assumes that bleeding air costs thrust in proportion, so the 1.93 percent bleed set by the assumed bleed velocity costs 859 newtons.
+
+$$
+\Delta T \approx 0.0193 \, T = 859 \, \text{N} = 193 \, \text{lbf}
+\tag{45}
+$$
+
+**Equation 46, Scaling of the Required Moment.**
+For geometrically similar aircraft the required moment, an inertia times an angular acceleration, scales as the mass times the square of the length.
+
+$$
+M_{\text{req}} = I \dot{\omega} \propto m L^{2}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Scaling of the Available Moment.*
+At a fixed thrust-to-weight ratio, which the article assumes, the thrust scales with the mass and the available moment with the mass times the length.
+
+$$
+M_{\text{av}} = T \ell \sin \theta \propto m L
+\tag{47}
+$$
+
+*Equation 48, Bespoke Growth of Control Power with Size.*
+Under the assumed fixed thrust-to-weight ratio the ratio of required to available moment grows linearly with the length.
+
+$$
+\frac{M_{\text{req}}}{M_{\text{av}}} \propto L
+\tag{48}
+$$
+
+**Equation 49, Fuel Fraction.**
+The 1,400 pound fuel load over the 6,730 pound gross weight is a fuel fraction of 0.208.
+
+$$
+\zeta = \frac{1400}{6730} = 0.208
+\tag{49}
+$$
+
+**Equation 50, Breguet Range for a Jet.**
+The Breguet range of a jet is the speed over the specific fuel consumption times the lift-to-drag ratio times the logarithm of the initial to final mass ratio.
+
+$$
+R = \frac{V}{c} \frac{L}{D} \ln \frac{1}{1 - \zeta}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Breguet Range of an Operational X-13.*
+The Breguet range is evaluated at an assumed cruise speed of 200 metres per second, an assumed lift-to-drag ratio of six and the assumed specific fuel consumption, giving 1,083 kilometres.
+
+$$
+R = \frac{200}{2.583 \times 10^{-4}} \times 6 \times \ln \frac{1}{0.792} = 1083 \, \text{km}
+\tag{51}
+$$
+
+**Equation 52, Aspect Ratio.**
+The span squared over the wing area gives an aspect ratio of 2.31.
+[Bowman 1957][research_bowman_1957]
+
+$$
+AR = \frac{b^{2}}{S} = \frac{6.40^{2}}{17.74} = 2.31
+\tag{52}
+$$
+
+**Equation 53, Axial Thrust Retained at Ten Degrees.**
+A ten degree deflection retains the cosine of the angle, or 98.5 percent, of the thrust along the axis.
+
+$$
+\frac{T_{\text{axial}}}{T} = \cos \theta = \cos 10^{\circ} = 0.985
+\tag{53}
+$$
+
+**Equation 54, Moment and Axial Thrust as Functions of Deflection.**
+The moment grows with the sine of the deflection while the axial thrust falls with its cosine.
+
+$$
+M(\theta) = T \ell \sin \theta, \qquad \frac{T_{\text{axial}}}{T} = \cos \theta
+\tag{54}
+$$
+
+**Equation 55, Small-Angle Thrust Loss.**
+For small deflections the fractional loss of axial thrust is approximately half the square of the angle in radians.
+
+$$
+1 - \cos \theta \approx \frac{\theta^{2}}{2}
+\tag{55}
+$$
+
+**Equation 56, Couple Force Against Arm.**
+The force each opposed jet must produce is the roll inertia times the required roll acceleration divided by the arm between the jets.
+
+$$
+F = \frac{I_{xx} \dot{p}}{d}
+\tag{56}
+$$
+
+*Equation 57, Bespoke Crossover to Stall Ratio as a Square Root.*
+The ratio of the crossover speed, defined by the adopted criterion, to the stall speed is the square root of the scale-free ratio derived earlier.
+
+$$
+\frac{V_{\text{cross}}}{V_{\text{stall}}} = \sqrt{\frac{I_{yy} \dot{q}_{\text{req}} \, C_{L\max}}{W \bar{c} \, \Delta C_{m}}}
+\tag{57}
+$$
+
+**Equation 58, Horizontal Acceleration from Hover Tilt.**
+With thrust equal to weight, a tilt $\theta$ produces a horizontal acceleration of standard gravity times the sine of the tilt.
+
+$$
+\ddot{x} = g \sin \theta
+\tag{58}
+$$
+
+**Equation 59, Drag Force.**
+The side force is the dynamic pressure times the reference area times the drag coefficient.
+
+$$
+F = \tfrac{1}{2} \rho V^{2} A C_{d}
+\tag{59}
+$$
+
+**Equation 60, Station-Keeping Tilt in a Crosswind.**
+Holding station requires the horizontal component of thrust per unit mass to balance the side force per unit mass.
+
+$$
+g \sin \theta_{w} = \frac{\tfrac{1}{2} \rho V^{2} A C_{d}}{m}
+\tag{60}
+$$
+
+**Equation 61, Thrust Change for a Vertical Acceleration.**
+Newton's second law gives the thrust change for a vertical acceleration as the mass times that acceleration.
+
+$$
+\Delta T = m a
+\tag{61}
+$$
+
+**Equation 62, Maximum Upward Acceleration.**
+The excess of thrust over weight divided by the mass gives 4.76 metres per second squared.
+
+$$
+a_{\max} = \frac{T - W}{m} = 4.76 \, \text{m/s}^{2}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Height Lost in Sink Recovery.*
+The article approximates the height lost arresting a sink rate as the travel during a fixed engine lag $\tau$ plus a stopping distance at the maximum upward acceleration.
+
+$$
+\Delta h \approx v \tau + \frac{v^{2}}{2 a_{\max}}
+\tag{63}
+$$
+
+**Equation 64, Position Error from a Loop Delay.**
+A closure speed $V$ held over a delay $\tau$ moves the aircraft a distance $V \tau$.
+
+$$
+\delta x = V \tau
+\tag{64}
+$$
+
+*Equation 65, Bespoke Lifted Mass Bookkeeping.*
+The article writes the lifted mass as the empty, fuel and payload masses with the trailer excluded, a bookkeeping identity for moving mass to the ground.
+
+$$
+m_{\text{lifted}} = m_{\text{empty}} + m_{\text{fuel}} + m_{\text{payload}}, \qquad m_{\text{trailer}} \notin m_{\text{lifted}}
+\tag{65}
+$$
+
+**Equation 66, Hover Time Bought by a Weight Saving.**
+A weight saving $w_{g}$ buys hover time equal to that weight over the specific fuel consumption times the aircraft weight.
+
+$$
+\Delta t_{\text{hover}} = \frac{w_{g}}{c \, W}
+\tag{66}
+$$
+
+**Equation 67, Measured Weight of the Wheels.**
+The wheeled and hook full-fuel loadings differ by 262 pounds.
+[Bowman 1957][research_bowman_1957]
+
+$$
+6958 - 6696 = 262 \, \text{lb}
+\tag{67}
+$$
+
+**Equation 68, Mean Deceleration over a Stroke.**
+A closure rate $v$ arrested uniformly over a stroke $d$ gives a mean deceleration of $v^{2} / 2d$.
+
+$$
+a = \frac{v^{2}}{2d}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Hook Arrival Deceleration.*
+An assumed arrival at one metre per second stopped in an assumed 0.3 metres gives a mean deceleration of 0.17 gravities.
+
+$$
+a = \frac{1.0}{0.6} = 1.67 \, \text{m/s}^{2} = 0.17 g
+\tag{69}
+$$
+
+**Equation 70, Pilot Sight Line Offset.**
+A seat pivoted forty-five degrees leaves the line of sight forty-five degrees from the direction of travel in a vertical descent.
+[Smithsonian record's][ref_nasm_x13]
+
+$$
+90^{\circ} - 45^{\circ} = 45^{\circ}
+\tag{70}
+$$
+
+**Equation 71, Sight Line Angle for a Seat Pivot.**
+The angle $\beta$ between the sight line and the direction of travel is ninety degrees less the seat pivot $\sigma$.
+
+$$
+\beta = 90^{\circ} - \sigma
+\tag{71}
+$$
+
+**Equation 72, Angular Momentum in Pitch.**
+A pitch rotation at rate $\omega$ carries angular momentum equal to the pitch inertia times the rate.
+
+$$
+H = I_{yy} \omega
+\tag{72}
+$$
+
+**Equation 73, Time to Arrest a Pitch Rotation.**
+A constant nozzle moment removes the angular momentum in a time equal to that momentum over the moment.
+
+$$
+t = \frac{I_{yy} \omega}{T \ell \sin \theta}
+\tag{73}
+$$
+
+**Equation 74, Froude-Scaled Engine Angular Momentum.**
+The flywheel of the one-fifth-scale model scaled by the four and a half power of the length scale gives a full-scale engine angular momentum of $1.62 \times 10^{4}$ kilogramme square metres per second.
+[Smith 1958b][research_smith_1958_2]
+
+$$
+H_{e} = 39{,}500 \times 5^{4.5} \, \text{lb in}^{2}/\text{s} = 1.62 \times 10^{4} \, \text{kg m}^{2}/\text{s}
+\tag{74}
+$$
+
+**Equation 75, Gyroscopic Moment.**
+A pitch rate $\Omega$ acting on the engine angular momentum produces a gyroscopic yawing moment equal to their product.
+
+$$
+M_{g} = H_{e} \, \Omega
+\tag{75}
+$$
+
+**Equation 76, Minimum Altitude After a Hover Power Failure.**
+The report sums the fall before the spin, the spin recovery and an assumed pull-out distance to give 4,200 feet.
+[Bowman 1957][research_bowman_1957]
+
+$$
+h_{\min} = 900 + 800 + 2500 = 4200 \, \text{ft}
+\tag{76}
+$$
+
+**Equation 77, Free Fall over the Time to Spin Entry.**
+Free fall for the reported 6.5 seconds covers 680 feet, which does not match the 900 feet the report gives for that term.
+[Bowman 1957][research_bowman_1957]
+
+$$
+h = \tfrac{1}{2} g t^{2} = \tfrac{1}{2} \times 32.17 \times 6.5^{2} = 680 \, \text{ft}
+\tag{77}
+$$
+
+*Equation 78, Bespoke Jet Exit Velocity.*
+The thrust divided by an assumed engine mass flow of 70 kilogrammes per second gives an exit velocity of 635 metres per second.
+
+$$
+v_{e} = \frac{T}{\dot{m}} = \frac{44{,}482}{70} = 635 \, \text{m/s}
+\tag{78}
+$$
+
+*Equation 79, Bespoke Jet Dynamic Pressure.*
+The dynamic pressure in the jet is evaluated at an assumed exhaust density of 0.35 kilogrammes per cubic metre, giving 70.7 kilopascals.
+
+$$
+q_{e} = \tfrac{1}{2} \rho_{e} v_{e}^{2} = 70.7 \, \text{kPa} = 10.2 \, \text{psi}
+\tag{79}
+$$
+
+*Equation 80, Bespoke Jet Disc Loading.*
+The thrust over the nozzle area implied by the assumed mass flow and exhaust density gives a disc loading of 141 kilopascals.
+
+$$
+\frac{T}{A} = 141 \, \text{kPa}
+\tag{80}
+$$
+
+**Equation 81, Disc Loading of a Rotor of Equal Span.**
+The thrust over the area of a rotor of the same 6.40 metre span gives 1,382 pascals.
+
+$$
+\frac{T}{A_{\text{rotor}}} = \frac{44{,}482}{\pi (3.20)^{2}} = 1382 \, \text{Pa}
+\tag{81}
+$$
+
+*Equation 82, Bespoke Jet to Rotor Disc Loading Ratio.*
+The jet disc loading resting on the assumed mass flow and exhaust density is about 102 times that of a rotor of equal span.
+
+$$
+\frac{141{,}000}{1382} = 102
+\tag{82}
+$$
+
+*Equation 83, Bespoke Probability of an Unambiguous All-Up Test.*
+Assuming that the wing, the hover and the join each succeed independently with probability $p$, a single all-up attempt is unambiguous with probability $p^{3}$.
+
+$$
+p^{3}
+\tag{83}
+$$
+
+**Equation 84, Interval from First Flight to Full Cycle.**
+The three intervals between the dated milestones sum to 488 days.
+[Smithsonian record's][ref_nasm_x13]
+
+$$
+170 + 184 + 134 = 488 \, \text{days}
+\tag{84}
+$$
+
+**Equation 85, Froude Number Similarity.**
+Dynamic similarity in a gravity-dominated problem requires the Froude number $V^{2}/gL$ to match between model and aircraft.
+
+$$
+\frac{V^{2}}{gL} = \text{constant}
+\tag{85}
+$$
+
+**Equation 86, Froude Scaling Ratios.**
+At a length scale $\kappa$ Froude scaling makes speeds and times vary as the square root of the scale, angular rates as its inverse square root and masses as its cube.
+
+$$
+\frac{V_{m}}{V_{f}} = \sqrt{\kappa}, \qquad \frac{t_{m}}{t_{f}} = \sqrt{\kappa}, \qquad \frac{\omega_{m}}{\omega_{f}} = \frac{1}{\sqrt{\kappa}}, \qquad \frac{m_{m}}{m_{f}} = \kappa^{3}
+\tag{86}
+$$
+
+**Equation 87, Model Weight Against the Froude-Scaled Weight.**
+The 39.3 pound model was 0.73 of the 53.8 pounds that Froude scaling of the gross weight requires.
+[Smith 1958b][research_smith_1958_2]
+
+$$
+\frac{39.3}{6730 / 125} = \frac{39.3}{53.8} = 0.73
+\tag{87}
+$$
+
+**Equation 88, Reynolds Number Ratio Under Froude Scaling.**
+With speed scaling as the square root of the length scale the Reynolds number scales as its three halves power, 0.089 at one fifth scale.
+
+$$
+\frac{Re_{m}}{Re_{f}} = \kappa^{3/2} = 0.089
+\tag{88}
+$$
+
+**Equation 89, Jet Hover Endurance from the Fuel Fraction.**
+Hover endurance of a jet is the fuel fraction divided by the specific fuel consumption expressed as a reciprocal time.
+
+$$
+t = \frac{\zeta}{c}
+\tag{89}
+$$
+
+*Equation 90, Bespoke Disc Loading Scaling of a Model.*
+Under geometric scaling at an assumed fixed thrust-to-weight ratio the thrust scales as the cube of the length and the nozzle area as its square, so the disc loading scales as the length.
+
+$$
+\frac{T}{A} \propto L
+\tag{90}
+$$
+
+**Equation 91, Bearing of the Landing Point from a Tail-Sitter Pilot.**
+With the target along the negative body axis and the seat pivoted forty-five degrees the bearing of the landing point from the line of sight is 135 degrees.
+
+$$
+135^{\circ}
+\tag{91}
+$$
+
+*Equation 92, Bespoke Bearing for a Horizontal Hovering Aircraft.*
+A pilot looking forward and down at a target directly below is taken to see it at a bearing of order 45 degrees, a representative figure rather than a measured one.
+
+$$
+45^{\circ}
+\tag{92}
+$$
+
+**Equation 93, Jet Hover Endurance Restated.**
+A jet in the hover obeys an endurance equal to the fuel fraction over the specific fuel consumption.
+
+$$
+t = \frac{\zeta}{c}
+\tag{93}
+$$
+
+**Equation 94, Rotor Power per Unit Thrust and Induced Velocity.**
+Momentum theory gives the power per unit thrust as the induced velocity over the figure of merit $\eta$, with the induced velocity set by the disc loading.
+
+$$
+\frac{P}{T} = \frac{v_{i}}{\eta}, \qquad v_{i} = \sqrt{\frac{T/A}{2\rho}}
+\tag{94}
+$$
+
+**Equation 95, Rotor Hover Endurance.**
+A rotor's hover endurance is the stored energy per unit mass times the energy fraction and the figure of merit, divided by standard gravity times the induced velocity.
+
+$$
+t = \frac{\zeta_{b} \, e \, \eta}{g \, v_{i}}
+\tag{95}
+$$
+
+*Equation 96, Bespoke Electric Tail-Sitter Hover Endurance.*
+The rotor endurance is evaluated with the energy fraction set equal to the X-13 fuel fraction, a battery of 250 watt hours per kilogramme, an assumed figure of merit of 0.70 and an induced velocity of 14.1 metres per second, giving 15.8 minutes.
+
+$$
+t = \frac{0.208 \times 9.0 \times 10^{5} \times 0.70}{9.807 \times 14.1} = 948 \, \text{s} = 15.8 \, \text{min}
+\tag{96}
+$$
+
+*Equation 97, Bespoke Effective Specific Consumption of a Rotor.*
+The article defines an effective specific consumption for a rotor by matching its endurance relation to the jet form $t = \zeta / c$.
+
+$$
+c_{\text{eff}} = \frac{g \, v_{i}}{e \, \eta}
+\tag{97}
+$$
+
+**Equation 98, Weighted Least-Squares Control Allocation.**
+The weighted minimum-norm solution of the allocation equation gives the actuator commands that produce the desired moment at least weighted cost.
+
+$$
+\mathbf{M}_{\text{des}} = B \mathbf{u}, \qquad \mathbf{u} = W^{-1} B^{\mathsf{T}} \left( B W^{-1} B^{\mathsf{T}} \right)^{-1} \mathbf{M}_{\text{des}}
+\tag{98}
+$$
+
+**Equation 99, Slipstream Dynamic Pressure Equals Disc Loading.**
+The dynamic pressure of the fully developed slipstream equals the disc loading.
+
+$$
+q_{s} = \tfrac{1}{2} \rho v_{s}^{2} = \frac{T}{A}
+\tag{99}
+$$
+
+*Equation 100, Bespoke Sensitivity of Crossover Speed to Elevon Effectiveness.*
+Because the crossover speed is defined by an assumed moment increment, it varies as the inverse square root of that increment.
+
+$$
+V_{\text{cross}} \propto (\Delta C_{m})^{-1/2}
+\tag{100}
+$$
+
+### Notation
+
+- $q$, the dynamic pressure in pascals
+- $\rho$, the air density
+- $S$, the wing reference area
+- $b$, the wing span
+- $\bar{c}$, the mean chord, taken here as wing area over span
+- $\Delta C_{m}$, the elevon pitching moment coefficient increment at full deflection
+- $\Delta C_{l}$, the aileron rolling moment coefficient increment
+- $\Delta C_{n}$, the rudder yawing moment coefficient increment
+- $M_{\text{aero}}$, the aerodynamic control moment
+- $M_{\text{thrust}}$, the moment of the deflected thrust
+- $M_{\text{req}}$, the moment that the control criterion requires
+- $T$, the thrust
+- $W$, the aircraft weight, and in the allocation relation the actuator weighting matrix
+- $\ell$, the distance from the nozzle to the centre of mass
+- $\theta$, the nozzle deflection, and in the hover relations the tilt of the aircraft
+- $V_{\text{equal}}$, the speed at which the aerodynamic and thrust moments are equal
+- $V_{\text{cross}}$, the speed at which the aerodynamic moment meets the control criterion
+- $V_{\text{stall}}$, the stall speed
+- $C_{L\max}$, the maximum lift coefficient
+- $I_{xx}$, the moment of inertia in roll
+- $I_{yy}$, the moment of inertia in pitch
+- $I_{zz}$, the moment of inertia in yaw
+- $\dot{q}_{\text{req}}$, the required pitch angular acceleration
+- $\lambda(V)$, the aerodynamic share of the available control authority
+- $v_{s}$, the fully developed slipstream velocity
+- $c$, the thrust specific fuel consumption
+- $\dot{m}_{f}$, the fuel mass flow
+- $m_{f}$, the fuel mass
+- $t_{\text{hover}}$, the hover endurance
+- $\zeta$, the fuel mass fraction
+- $d$, the arm between the opposed wingtip jets, and in the arrival relation the arresting stroke
+- $\phi$, the tilt from the vertical during the transition
+- $a_{h}$, the horizontal acceleration during the transition
+- $\tau$, the engine lag or loop delay
+- $\beta$, the angle between the pilot's line of sight and the direction of travel
+- $\sigma$, the seat pivot from the body axis
+- $H_{e}$, the angular momentum of the engine rotor
+- $\Omega$, the pitch rate acting on the engine angular momentum
+- $v_{e}$, the jet exit velocity
+- $\kappa$, the length scale of the model
+- $v_{i}$, the induced velocity of a rotor
+- $\eta$, the rotor figure of merit
+- $\zeta_{b}$, the battery mass fraction
+- $c_{\text{eff}}$, the effective specific consumption of a rotor
+- $B$, the control effectiveness matrix
+- $\mathbf{u}$, the vector of actuator commands
 
 ## References
 

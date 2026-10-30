@@ -1,0 +1,811 @@
+# Equation classification for A320. Read by `python3 _lib/equations.py`.
+
+caution = "Mechanics are in International System units, with distances in metres or kilometres and speeds in metres per second, while the record quotes feet, statute miles, nautical miles and British thermal units, so each conversion is stated where it is made, and the entry speed of 25,200 feet per second, the working weight of 894 pounds and the derived reference area of 1.386 square metres are values the article assumes."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Lift-to-Drag Ratio"
+gloss = "The lift-to-drag ratio is the ratio of lift to drag, equal to the ratio of the lift and drag coefficients."
+cite = ["ref_lift_to_drag"]
+digest = "c7930d4e42d6233c"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Cost of PRIME Relative to the X-20"
+gloss = "The documented 70 million dollars of the Precision Recovery Including Maneuvering Entry programme against the 458 million dollars of the cancelled X-20 is a ratio of about one seventh."
+cite = ["research_r_dale_reed_1997", "research_hallion_1998"]
+digest = "2bb7f72e7ec2d8f4"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Departure of the Working Weight from the Lift-Off Weight"
+gloss = "The working weight of 894 pounds that the article chooses among conflicting figures differs from the first vehicle's documented lift-off weight of 895 pounds by about one tenth of a percent."
+cite = []
+digest = "af51e74b5a818b89"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Planform Fill Ratio of the X-24A"
+gloss = "The article defines the ratio of planform area to the product of length and span and evaluates it on the X-24A at about 0.58."
+cite = ["research_saltzman_2002"]
+digest = "821ccca8380a9c28"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Reference Area of the SV-5D"
+gloss = "Applying the X-24A planform fill ratio to the length and span of the SV-5D assumes that the two shapes fill their bounding boxes alike and gives about 1.39 square metres."
+cite = []
+digest = "555cf85a2df3880a"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Planform Fill Ratio from an Alternative Source"
+gloss = "The same fill ratio evaluated on the alternative X-24A dimensions is about 0.58, which makes the derived area 1.1 percent smaller."
+cite = ["research_john_g_mctigue_1970"]
+digest = "35e889da4d844278"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Linear Scale Ratio of the SV-5D to the X-24A"
+gloss = "The ratio of the documented lengths of the two vehicles is about 0.27."
+cite = []
+digest = "48cb9f28a076d8a8"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Weight Ratios of the SV-5D to the X-24A"
+gloss = "The documented SV-5D weight is 7.5 percent of the X-24A launch weight and 16 percent of its empty weight."
+cite = ["research_r_dale_reed_1997", "research_john_cochrane_kenneth_graham_1971"]
+digest = "743820f551dc1800"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Radial Force Balance in a Gliding Entry"
+gloss = "In the radial direction the vertical component of the rolled lift and the centrifugal force of the curved path together support the weight."
+cite = []
+digest = "967c398c55db7784"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Equilibrium Glide Lift Requirement"
+gloss = "With the centrifugal term written through the speed as a fraction of circular speed, the lift a gliding vehicle needs is its weight less the part its speed already carries."
+cite = []
+digest = "72e29792166952dc"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Lift Required at Three Quarters of Circular Speed"
+gloss = "At three quarters of circular speed the equilibrium glide needs a vertical lift of 0.44 of the weight."
+cite = []
+digest = "9361d5d0b5b4f9cc"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Circular Satellite Speed at the Surface"
+gloss = "Equating gravitational and centripetal acceleration at the mean Earth radius with standard gravity gives a circular speed of about 7,900 metres per second."
+cite = []
+digest = "cf89bf461012c08f"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Equations of Motion Along and Across the Path"
+gloss = "Drag decelerates the vehicle along its path and the sideways component of the rolled lift turns its heading."
+cite = []
+digest = "2d0ab270b26260c2"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Heading Change per Unit Speed"
+gloss = "Dividing the turning equation by the deceleration and substituting the force balance leaves a heading rate per unit speed that depends on the vehicle only through its lift-to-drag ratio."
+cite = ["book_vinh_1981", "book_regan_anandakrishnan_1993"]
+digest = "9d5151bb35baaa1b"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Heading Change in an Equilibrium Glide"
+gloss = "Integrating from the entry speed gives a heading change proportional to the logarithm of the speed ratio at constant bank and lift-to-drag ratio."
+cite = ["book_vinh_1981", "book_regan_anandakrishnan_1993"]
+digest = "3661f5e9ac7f226f"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Heading Change from Circular to Quarter Circular Speed"
+gloss = "At Martin's design lift-to-drag ratio of 1.2 and a bank of 45 degrees, slowing to a quarter of circular speed turns the vehicle through about 67 degrees."
+cite = []
+digest = "23d9e629128962e2"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Crossrange Rate per Unit Speed in the Small-Angle Form"
+gloss = "Dividing the lateral rate by the deceleration with the heading taken as small, the step the period literature took, gives the crossrange accumulated per unit speed."
+cite = []
+digest = "eae558d491f80110"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Substitution in the Squared Speed Fraction"
+gloss = "Writing the speed through the squared speed fraction $u$ and gravity through the circular speed prepares every factor of circular speed to cancel."
+cite = []
+digest = "6cc0581fc2b7aa48"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Crossrange Increment in the Squared Speed Fraction"
+gloss = "After the substitution the crossrange increment depends on the Earth radius, the lift-to-drag ratio, the bank and the heading alone."
+cite = []
+digest = "48a49652871784fe"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Closed Crossrange Integral"
+gloss = "Substituting the logarithmic heading solution turns the accumulated crossrange into the Earth radius times the squared lift-to-drag ratio, a bank factor and a single integral in the entry speed fraction."
+cite = []
+digest = "5250fefd12952de5"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Geometric Series Expansion"
+gloss = "The reciprocal of one minus $u$ expands as a geometric series that converges for $u$ below one."
+cite = []
+digest = "6c7fd019d3e5a49d"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Logarithmic Moment Integral"
+gloss = "Each term of the expanded integrand integrates to the reciprocal square of one more than its power."
+cite = []
+digest = "7376ef473b839b8e"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Crossrange Integral at Circular Entry as the Basel Sum"
+gloss = "For entry at circular speed the integral is the sum of reciprocal squares, which equals $\\pi^2/6$."
+cite = []
+digest = "2f7f61bb5eb31768"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Double-Angle Identity for the Bank Factor"
+gloss = "The product of the sine and cosine of the bank angle is half the sine of twice the angle."
+cite = []
+digest = "8bb0c79e26d7ad56"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Stationarity Condition of the Bank Factor"
+gloss = "The first derivative of the bank factor vanishes where the cosine of twice the bank is zero and the second derivative there is negative, so the point is a maximum."
+cite = []
+digest = "8e60f220a6cc8f6e"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Optimum Bank Angle for Crossrange"
+gloss = "Crossrange is maximised at a bank of 45 degrees, where the bank factor is one half, independent of the vehicle."
+cite = []
+digest = "19be66c7bb73124f"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Maximum Crossrange of an Equilibrium Glide"
+gloss = "Combining the optimum bank with the circular-entry integral gives a maximum crossrange equal to $\\pi^2/48$ of the Earth radius times the square of the lift-to-drag ratio."
+cite = []
+digest = "3255857049819822"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Maximum Crossrange at a Lift-to-Drag Ratio of 1.2"
+gloss = "At Martin's design ratio of 1.2 the closed form gives about 1,890 kilometres of crossrange from circular entry."
+cite = []
+digest = "8b7c27de38bc8cad"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Final Heading at the End of the Glide"
+gloss = "Evaluating the heading solution at a glide end taken by the article as one percent of circular speed shows the heading passing half a turn for ratios near one."
+cite = []
+digest = "8263c62714abba22"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Speed at Which the Heading Reaches Half a Turn"
+gloss = "Lateral displacement stops accumulating where the sine of the heading returns to zero, which the logarithmic heading solution places at a speed exponentially small in the reciprocal of the ratio times the bank sine."
+cite = []
+digest = "b5b515af4e083fe9"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Sidereal Rotation Rate of the Earth"
+gloss = "The rotation rate relative to the fixed stars is two pi radians per sidereal day of 86,164 seconds."
+cite = []
+digest = "8b7734f345dff17d"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Ground Track Spacing in Longitude"
+gloss = "The Earth turns through about 22.6 degrees in one orbit for a period the article takes as a nominal 90 minutes."
+cite = []
+digest = "bf4ca90d028fa3c8"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Ground Track Spacing at the Equator"
+gloss = "The longitude spacing of the nominal 90 minute orbit becomes about 2,510 kilometres of ground distance at the equator."
+cite = []
+digest = "84c5b0c0ea6f292d"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Once-per-Orbit Crossrange Requirement"
+gloss = "The article requires that any site be reached on one pass or the next, which sets the crossrange at half the equatorial track spacing of the nominal 90 minute orbit."
+cite = []
+digest = "31bc0ce96be8ce86"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Required Lift-to-Drag Ratio in Closed Form"
+gloss = "Inverting the maximum crossrange relation on the once-per-orbit requirement gives a required lift-to-drag ratio of about 0.98."
+cite = []
+digest = "87cf5edb92685d63"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Required Lift-to-Drag Ratio by Exact Integration"
+gloss = "Bisecting the exact integration against the same requirement, rather than using the small-angle closed form, gives a required ratio of about 1.02."
+cite = []
+digest = "21165aebe411ce8a"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Latitude Dependence of the Requirement"
+gloss = "Because the track spacing carries the cosine of latitude, the once-per-orbit requirement falls with latitude and the required ratio falls with its square root."
+cite = []
+digest = "49c23ccf8c355969"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Crossrange Ratio between the Disputed Lift-to-Drag Ratios"
+gloss = "Because crossrange goes as the square of the ratio, the twenty percent difference between 1.2 and 1.0 becomes a forty-four percent difference in crossrange."
+cite = []
+digest = "ed638b5ecc60fd38"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Haversine Great-Circle Distance"
+gloss = "The haversine formula gives the great-circle distance between Vandenberg Air Force Base and the recovery area near Kwajalein as about 7,790 kilometres."
+cite = ["research_hallion_1998"]
+digest = "85463d07b422e061"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Downrange Rate per Unit Speed"
+gloss = "Dividing the along-path rate by the deceleration gives the downrange accumulated per unit speed in the equilibrium glide."
+cite = []
+digest = "6ae6ae475be77086"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Downrange Increment in the Squared Speed Fraction"
+gloss = "The same substitution cancels every factor of circular speed and leaves an elementary integrand."
+cite = []
+digest = "1530305b735b7d9f"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Downrange of an Equilibrium Glide"
+gloss = "Integrating gives a downrange linear in the lift-to-drag ratio and logarithmic in one over one minus the entry speed fraction."
+cite = []
+digest = "d80fd43f2c0f4ea9"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Downrange Lost at the Optimum Bank"
+gloss = "Banking at 45 degrees costs the fraction one minus the cosine of the bank, about twenty-nine percent, of the downrange flown wings level."
+cite = []
+digest = "c10b778edb48deb9"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Pair Solve for Bank and Lift-to-Drag Ratio"
+gloss = "The article treats the documented crossrange and downrange as two equations and divides one by the square of the other to recover the bank angle and then the ratio, an inversion that rests on the entry speed and boost range it assumes."
+cite = []
+digest = "d824473d2273003f"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Exact Model Errors at the Disputed Ratios"
+gloss = "The exact model, flown from the assumed entry speed, under-predicts the demonstrated 1,143 kilometres by 8.8 percent at a ratio of 1.0 and over-predicts it by 27 percent at 1.2."
+cite = []
+digest = "1e17ddb0b4497933"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Exact Crossrange at Martin's Design Ratio"
+gloss = "The exact integration from circular speed at a ratio of 1.2 gives 1,696 kilometres, which converts to about 1,054 statute miles, close to Martin's claim of 1,000 miles."
+cite = []
+digest = "d77a5f40df795600"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Documented Boost Range in Kilometres"
+gloss = "The 1,360 nautical miles from launch to entry interface on the ground-track chart is about 2,519 kilometres."
+cite = ["research_hallion_1998"]
+digest = "a1e56c42174dd221"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Documented Entry Speed Fraction Above Unity"
+gloss = "The documented entry speed of 26,808 feet per second exceeds circular speed, so the squared speed fraction is above one, where the downrange relation has no finite value."
+cite = ["research_hallion_1998"]
+digest = "a301c44627d274a9"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Exact Crossrange Inversions at a Documented Bank"
+gloss = "At the second flight's documented bank of 46 degrees the exact integration from the assumed entry speed needs ratios of 1.007 and 1.053 to reach the second and third flight crossranges."
+cite = []
+digest = "d76920bda1327ff6"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Third Flight Crossrange Read as Nautical Miles"
+gloss = "Read as nautical miles, the 710 miles of the third flight is about 1,315 kilometres."
+cite = ["research_hallion_1998"]
+digest = "3c2f312bd25f03f4"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Equilibrium Glide Density and Lift Parameter"
+gloss = "The equilibrium glide force balance fixes the density at each speed in terms of the lift parameter, the weight per unit lifting area."
+cite = []
+digest = "705ecf3efedd6ebe"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Ballistic Coefficient"
+gloss = "The ballistic coefficient is the weight divided by the product of reference area and drag coefficient."
+cite = []
+digest = "e4f56a00229ab9b8"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Ratio of Ballistic Coefficient to Lift Parameter"
+gloss = "The ballistic coefficient and the lift parameter stand in the ratio of the lift to the drag coefficient, which is the lift-to-drag ratio."
+cite = []
+digest = "f37475024316bddf"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient of the SV-5D"
+gloss = "The working weight on the derived reference area at an assumed hypersonic drag coefficient of one gives a ballistic coefficient of about 2,870 newtons per square metre."
+cite = []
+digest = "ebbd814fd0bf27a3"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Sutton and Graves Stagnation Heating"
+gloss = "The Sutton and Graves relation gives the stagnation-point convective heat flux as a constant times the square root of density over nose radius times the cube of speed, in metric units for air."
+cite = []
+digest = "421925bb7d79661d"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Stagnation Heating Along the Equilibrium Glide"
+gloss = "Substituting the glide density makes the stagnation heat flux proportional to $u\\sqrt{1-u}$."
+cite = []
+digest = "65eafb9c11a33910"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Condition for Peak Stagnation Heating"
+gloss = "Setting the derivative of the squared heating function to zero places its maximum at a squared speed fraction of two thirds."
+cite = []
+digest = "bd9fb59ee74c618b"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Speed of Peak Stagnation Heating"
+gloss = "Peak heating in an equilibrium glide falls at about 82 percent of circular speed, about 6,450 metres per second, for any vehicle."
+cite = []
+digest = "6260cd6e44d59a4c"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Density at Peak Heating"
+gloss = "The glide balance at the derived lift parameter of 2,391 newtons per square metre and a bank of 45 degrees gives the density at the peak heating speed."
+cite = []
+digest = "cc0b7659eb205444"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Peak Stagnation Heat Flux"
+gloss = "The Sutton and Graves relation at the peak heating speed and density with a nose radius the article assumes as 0.1 metres gives about 109 watts per square centimetre."
+cite = []
+digest = "38600dd24b69d9a5"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Flight Heating Rate in Watts per Square Centimetre"
+gloss = "The heating rate of 480 British thermal units per square foot per second read from the programme's figure is about 545 watts per square centimetre."
+cite = ["research_hallion_1998"]
+digest = "b0f9097c60355226"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Altitude of Peak Heating"
+gloss = "Inverting an exponential atmosphere of an assumed scale height of 7,160 metres at the inferred peak heating density places the peak near 72 kilometres."
+cite = []
+digest = "e323e3df2ccf1148"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Stagnation Heat Load of an Equilibrium Glide"
+gloss = "Integrating the Sutton and Graves flux over the glide in closed form gives the stagnation heat load in terms of the lift-to-drag ratio, the bank, the lift parameter, the nose radius and the entry speed fraction."
+cite = []
+digest = "83b64cf90f211a86"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Duration of the Equilibrium Glide"
+gloss = "Integrating the time over the glide from the assumed entry speed of 25,200 feet per second at a ratio of 1.2 and a bank of 45 degrees gives about 24 minutes."
+cite = []
+digest = "c42bee38cd3c3de2"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Effective Heat of Ablation"
+gloss = "The effective heat of ablation is the heat load divided by the areal mass of the heat shield."
+cite = []
+digest = "b0fe91794eee655e"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Heat of Ablation at the Thick Shield"
+gloss = "The model heat load over a shield of 2.75 inches at an assumed charring-ablator density of 550 kilograms per cubic metre implies about 28 megajoules per kilogram."
+cite = []
+digest = "5774fd179d8ef43d"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Documented Stagnation Heat Load in Metric Units"
+gloss = "The documented 7,000 British thermal units per square foot is about 7.95 kilojoules per square centimetre."
+cite = ["research_hallion_1998"]
+digest = "b534a93214a165b9"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Floor on the Heat Load from the Flight Heating Curve"
+gloss = "A heating rate above 160 British thermal units per square foot per second for more than 300 seconds, read from the programme's figure, implies a heat load of at least 48,000 British thermal units per square foot."
+cite = []
+digest = "a25b6df04f2b3ef7"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Deceleration in an Equilibrium Glide"
+gloss = "The glide balance gives a deceleration in units of gravity of one minus the squared speed fraction over the lift-to-drag ratio times the cosine of bank."
+cite = []
+digest = "3ad33a3464d9d7d8"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Deceleration at Entry"
+gloss = "At the squared speed fraction of 0.944 that the assumed entry speed of 25,200 feet per second implies, the deceleration is about 0.07 of gravity."
+cite = []
+digest = "b4e1bdf1d95134f4"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Deceleration at the End of the Glide"
+gloss = "As the speed fraction falls to zero the deceleration at a ratio of 1.2 and a bank of 45 degrees rises to about 1.18 of gravity."
+cite = []
+digest = "f1f307b8825484ca"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Allen and Eggers Peak Ballistic Deceleration"
+gloss = "The Allen and Eggers peak deceleration of a ballistic entry from the documented entry state, with the scale height the article assumes as 7,160 metres, is about 6.2 of gravity."
+cite = ["research_hallion_1998"]
+digest = "c9e6978a0eebe0d9"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Ratio of Ballistic to Lifting Peak Deceleration"
+gloss = "The ballistic peak deceleration is about five times the lifting one, a ratio that inherits the assumed scale height."
+cite = []
+digest = "841c2a54fb06ee1c"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Speed of Sound at Ballute Deployment"
+gloss = "At the standard atmosphere temperature of 226.5 kelvin at 30.4 kilometres the speed of sound is about 302 metres per second."
+cite = []
+digest = "f5dda9fb60dbc55a"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Dynamic Pressure at Ballute Deployment"
+gloss = "At Mach 2 and the standard atmosphere density at deployment altitude the dynamic pressure is about 3,350 pascals."
+cite = []
+digest = "1dd36fc862248808"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Area of the Recovery Parachute"
+gloss = "The documented 47 foot canopy diameter gives a nominal area of about 161 square metres."
+cite = []
+digest = "990d2a61a2c5ba4a"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Descent Rate under the Recovery Parachute"
+gloss = "The terminal descent rate of the working weight under the canopy at sea level with an assumed drag coefficient of 0.75 is about 7.3 metres per second."
+cite = []
+digest = "313677e8eafe0725"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Descent Rate at 10,000 Feet"
+gloss = "Scaling the descent rate by the square root of the standard atmosphere density ratio to 10,000 feet gives 28 feet per second at the assumed drag coefficient."
+cite = []
+digest = "09fb6418c8a931cb"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Drag Coefficient for the Specified Descent Rate"
+gloss = "The documented 25 feet per second at 10,000 feet requires a drag coefficient of about 0.94 for the working weight on the nominal canopy area."
+cite = []
+digest = "3c1fb77b8924c6e9"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Unit Conversions of the Quoted Entry Speeds"
+gloss = "The quoted entry speeds of 14,900 miles an hour and 26,808 feet per second convert to 21,853 feet per second and 18,278 miles an hour."
+cite = []
+digest = "1d10be42cd1e9932"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Launch Site Displacement in One Orbit"
+gloss = "Vandenberg moves through the full track spacing of the nominal 90 minute orbit at its own latitude, about 2,060 kilometres."
+cite = []
+digest = "44b44bcb67a30d4a"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Agreement with the Shuttle Crossrange Requirement"
+gloss = "The displacement from the nominal 90 minute orbit agrees with the stated 1,100 nautical mile requirement to 1.2 percent."
+cite = []
+digest = "d616f8b5fc1deaf0"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Lift-to-Drag Ratio for the Shuttle Crossrange Requirement"
+gloss = "Putting the stated 1,100 nautical mile requirement through the closed-form maximum crossrange relation gives a required ratio of about 1.25."
+cite = ["ref_heppenheimer_1999"]
+digest = "2ca8337697a334ff"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Demonstrated Fraction of the Shuttle Requirement"
+gloss = "The demonstrated 1,143 kilometres is 56 percent of the 2,037 kilometre Shuttle requirement."
+cite = []
+digest = "7c86d206fbf17e50"
+
+[[equation]]
+tag = 85
+class = "bespoke"
+title = "Bespoke Crossrange of a Blunt Capsule"
+gloss = "The closed form at a capsule lift-to-drag ratio the article assumes as a nominal 0.3 gives about 118 kilometres of crossrange."
+cite = []
+digest = "d2363cb1ead1480d"
+
+[[equation]]
+tag = 86
+class = "bespoke"
+title = "Bespoke Capsule Fraction of the Once-per-Orbit Requirement"
+gloss = "The capsule's crossrange by exact integration is about nine percent of the once-per-orbit requirement of the nominal 90 minute orbit."
+cite = []
+digest = "24a4460c8b01ed7e"
+
+[[equation]]
+tag = 87
+class = "bespoke"
+title = "Bespoke Footprint Scaling with Lift-to-Drag Ratio"
+gloss = "Taking the reachable area as the crossrange half-width times the downrange depth, the article finds it grows as the cube of the lift-to-drag ratio."
+cite = []
+digest = "9dd19ef9ce0e7c27"
+
+[[symbol]]
+tex = 'L'
+meaning = "the lift"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag, and in Equation 76 the parachute diameter"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = 'k_S'
+meaning = "the ratio of planform area to the product of length and span"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the bank angle, the angle through which the lift vector is rolled from vertical"
+
+[[symbol]]
+tex = '\bar V'
+meaning = "the speed as a fraction of circular satellite speed"
+
+[[symbol]]
+tex = 'V_c'
+meaning = "the circular satellite speed at the surface"
+
+[[symbol]]
+tex = 'V_e'
+meaning = "the entry speed"
+
+[[symbol]]
+tex = 'R'
+meaning = "the mean radius of the Earth"
+
+[[symbol]]
+tex = '\psi'
+meaning = "the heading angle"
+
+[[symbol]]
+tex = 'u'
+meaning = "the square of the speed as a fraction of circular speed, with $u_e$ its value at entry"
+
+[[symbol]]
+tex = 'y'
+meaning = "the crossrange, with $y_\\text{max}$ its maximum and $y_\\text{req}$ the requirement"
+
+[[symbol]]
+tex = 'x'
+meaning = "the downrange"
+
+[[symbol]]
+tex = '\omega_E'
+meaning = "the sidereal rotation rate of the Earth"
+
+[[symbol]]
+tex = '\Delta\lambda'
+meaning = "the spacing in longitude of successive ground tracks"
+
+[[symbol]]
+tex = '\varphi'
+meaning = "the latitude"
+
+[[symbol]]
+tex = '\beta_L'
+meaning = "the lift parameter, the weight per unit area per unit lift coefficient"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the ballistic coefficient"
+
+[[symbol]]
+tex = '\dot q_s'
+meaning = "the stagnation-point heat flux"
+
+[[symbol]]
+tex = 'R_n'
+meaning = "the nose radius"
+
+[[symbol]]
+tex = 'H'
+meaning = "the atmospheric scale height"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the stagnation heat load"
+
+[[symbol]]
+tex = 'H_\text{eff}'
+meaning = "the effective heat of ablation"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = '\gamma_e'
+meaning = "the flight path angle at entry"
+
+[[symbol]]
+tex = 'S_p'
+meaning = "the nominal area of the recovery parachute"
+
+[[symbol]]
+tex = 'V_d'
+meaning = "the descent rate under the parachute"

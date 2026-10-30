@@ -23,15 +23,24 @@ The keystone is whether a horizontal tail can be dispensed with on a transonic a
 
 The hypothesis was reasonable and it came from two directions. The first was diagnostic. Aircraft in high-speed dives lost pitch control, and one candidate mechanism was that the shock system on the wing threw a disturbed wake onto the tail, so that the surface the pilot was relying on was operating in flow that the wing had already ruined \[[Dinius 2014][ref_nasa_x4_factsheet]\] \[[Sadoff and Crossfield 1954][research_x4_flight_evaluation_1954]\]. Removing the tail removes that coupling by construction. The mechanism the hypothesis blamed is real and quantifiable. A tail immersed in the wing wake sees a dynamic pressure reduced by the tail efficiency factor,
 
-$$\eta_t = \frac{q_t}{q_\infty} < 1$$
+$$
+\eta_t = \frac{q_t}{q_\infty} < 1
+\tag{1}
+$$
 
 and an incidence reduced by the downwash,
 
-$$\alpha_t = \alpha \left( 1 - \frac{d\varepsilon}{d\alpha} \right) + i_t - \varepsilon_0, \qquad \frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A}$$
+$$
+\alpha_t = \alpha \left( 1 - \frac{d\varepsilon}{d\alpha} \right) + i_t - \varepsilon_0, \qquad \frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A}
+\tag{2}
+$$
 
 so that everything the tail contributes is scaled by two factors the wing controls. When a shock forms on the wing and the wake thickens, both degrade, and the tail loses authority through no fault of its own geometry. At an aspect ratio of 3.60 and a wing lift-curve slope of 4.0 per radian the downwash derivative is
 
-$$\frac{d\varepsilon}{d\alpha} = \frac{2 \times 4.0}{\pi \times 3.60} = 0.71$$
+$$
+\frac{d\varepsilon}{d\alpha} = \frac{2 \times 4.0}{\pi \times 3.60} = 0.71
+\tag{3}
+$$
 
 which means a conventional aircraft of this planform already loses 71 percent of its tail incidence to downwash before any transonic effect is considered. The hypothesis was not foolish. The second was constructive. [Northrop][ref_northrop_corp] had been building [tailless][ref_tailless] and [flying wing][ref_flying_wing] aircraft since the 1920s and had a body of practice arguing that the tail was drag and mass without compensating benefit, a position the [YB-49][ref_yb49] represented at large scale and the wartime German [Me 163][ref_me163] at small.
 
@@ -47,17 +56,26 @@ The Army Air Forces contracted with Northrop on 11 June 1946 for two aircraft to
 
 The configuration is small and clean. A swept wing of 18.58 square metres and 8.18 metres span carries [elevons][ref_elevon] for combined pitch and roll control, a vertical fin and rudder provide directional control, and there is no horizontal surface at all. The aircraft is 7.09 metres long and grosses 3547 kilograms \[[Sadoff and Crossfield 1954][research_x4_flight_evaluation_1954]\]. Two [Westinghouse J30][ref_j30] turbojets of about 1600 pounds thrust each are buried in the fuselage, giving
 
-$$T = 2 \times 1600 \times 4.448 = 1.42 \times 10^{4} \ \text{newtons}, \qquad \frac{T}{W} = \frac{1.42 \times 10^{4}}{3547 \times 9.80665} = 0.41$$
+$$
+T = 2 \times 1600 \times 4.448 = 1.42 \times 10^{4} \ \text{newtons}, \qquad \frac{T}{W} = \frac{1.42 \times 10^{4}}{3547 \times 9.80665} = 0.41
+\tag{4}
+$$
 
 which is low, and the X-4 was designed for flight research in the high subsonic speed range \[[Sadoff and Sisk 1950c][research_sadoff_sisk_1950]\]. The programme chose this deliberately and did not regard it as a limitation. The research question lives between Mach 0.85 and Mach 0.95, so an aircraft that reaches that band and no further is adequate to it, and the [X-3][related_post_a300_douglas_x3] demonstrates what happens when a research aircraft is asked to do something its engines cannot.
 
 The aspect ratio and wing loading follow as
 
-$$A = \frac{b^2}{S} = \frac{8.18^2}{18.58} = 3.60, \qquad \frac{W}{S} = \frac{3547 \times 9.80665}{18.58} = 1872 \ \text{newtons per square metre}$$
+$$
+A = \frac{b^2}{S} = \frac{8.18^2}{18.58} = 3.60, \qquad \frac{W}{S} = \frac{3547 \times 9.80665}{18.58} = 1872 \ \text{newtons per square metre}
+\tag{5}
+$$
 
 a modest wing loading by the standards of this series, reflecting an aircraft sized for a flight regime and not for a speed record. The stall and approach speeds that follow are correspondingly gentle,
 
-$$V_{\text{stall}} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}, \qquad V_{\text{app}} = 1.3 \, V_{\text{stall}}$$
+$$
+V_{\text{stall}} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}, \qquad V_{\text{app}} = 1.3 \, V_{\text{stall}}
+\tag{6}
+$$
 
 and at a maximum lift coefficient near 1.0 for a swept planform without high-lift devices the stall speed is 55 metres per second, giving an approach near 72. The figures are unremarkable by intent, a contrast with the [X-3][related_post_a300_douglas_x3], whose configuration made every landing an event. A research aircraft whose purpose is to be flown repeatedly at a particular condition benefits from being easy to bring home. The qualification a tailless planform attaches to that statement is ground effect, which alters the pitching moment as well as the lift and therefore acts on the axis that has no surface to trim it. [Buell and Tinling 1957][research_buell_tinling_1957] measured the longitudinal consequences for low aspect ratio wings with pointed tips, and [Drinkwater et al. 1970][research_drinkwater_1970] later put a pilot in a simulator to examine the landing manoeuvre of a large tailless delta in the same regime.
 
@@ -65,7 +83,10 @@ The aircraft carried split flaps that doubled as speed brakes, a device whose ae
 
 The manoeuvre envelope follows from the same wing loading,
 
-$$n(V) = \frac{\rho V^2 C_{L,\max}}{2 \left( W / S \right)}, \qquad V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}$$
+$$
+n(V) = \frac{\rho V^2 C_{L,\max}}{2 \left( W / S \right)}, \qquad V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}
+\tag{7}
+$$
 
 with the corner speed low enough that the aircraft could reach useful load factors throughout its envelope.
 
@@ -75,15 +96,24 @@ The keystone relationship is the pitch damping derivative. The derivation explai
 
 Pitch damping resists a pitch rate. A surface at distance $l_t$ behind the centre of gravity, when the aircraft pitches at rate $q_r$, sees an incremental angle of attack
 
-$$\Delta \alpha_t = \frac{q_r \, l_t}{V}$$
+$$
+\Delta \alpha_t = \frac{q_r \, l_t}{V}
+\tag{8}
+$$
 
 because the surface is moving downward through the air at $q_r l_t$ while the aircraft translates at $V$. That incremental angle produces an incremental lift, which produces a moment opposing the rotation. Non-dimensionalizing gives the tail contribution to the pitch damping derivative,
 
-$$C_{m q, \text{tail}} = -2 \, \eta_t \, C_{L \alpha_t} \, V_H \, \frac{l_t}{\bar{c}}, \qquad V_H = \frac{S_t \, l_t}{S \, \bar{c}}$$
+$$
+C_{m q, \text{tail}} = -2 \, \eta_t \, C_{L \alpha_t} \, V_H \, \frac{l_t}{\bar{c}}, \qquad V_H = \frac{S_t \, l_t}{S \, \bar{c}}
+\tag{9}
+$$
 
 with $V_H$ the horizontal tail volume coefficient, $\eta_t$ the tail efficiency, and $C_{L\alpha_t}$ the tail lift-curve slope. The crucial feature is that $l_t$ appears **twice**, once in the tail volume coefficient and once in the incremental angle of attack, so the tail contribution scales as the square of tail length. Writing it out in geometric terms makes the dependence explicit,
 
-$$C_{m q, \text{tail}} = -2 \, \eta_t \, C_{L \alpha_t} \, \frac{S_t}{S} \left( \frac{l_t}{\bar{c}} \right)^2$$
+$$
+C_{m q, \text{tail}} = -2 \, \eta_t \, C_{L \alpha_t} \, \frac{S_t}{S} \left( \frac{l_t}{\bar{c}} \right)^2
+\tag{10}
+$$
 
 which shows that doubling the tail arm at constant tail area quadruples the damping contribution while only doubling the control contribution. The two jobs of a tail therefore scale differently with the same geometric parameter, and that difference accounts for a debate conducted about control reaching the wrong conclusion about damping.
 
@@ -91,7 +121,10 @@ The wing contributes damping too, but weakly, and it does so in two ways that sh
 
 The first is a parallel-axis term, obtained by applying the relation derived above to the wing's lift acting at its aerodynamic centre. Setting the area ratio to unity and the arm to the static margin gives
 
-$$C_{m q, \text{wing, offset}} = -2 \, C_{L\alpha_w} \left( \frac{x_{ac} - x_{cg}}{\bar{c}} \right)^2 = -2 \times 4.0 \times 0.05^2 = -0.02$$
+$$
+C_{m q, \text{wing, offset}} = -2 \, C_{L\alpha_w} \left( \frac{x_{ac} - x_{cg}}{\bar{c}} \right)^2 = -2 \times 4.0 \times 0.05^2 = -0.02
+\tag{11}
+$$
 
 which is negligible, because the arm is a few percent of a chord where the tail's is a few chords and the dependence is quadratic. This term vanishes entirely when the centre of gravity sits at the aerodynamic centre.
 
@@ -99,15 +132,24 @@ The second does not vanish there. A wing pitching at rate $q_r$ sees an incidenc
 
 Evaluate for a conventional configuration with $\eta_t = 0.9$, $C_{L\alpha_t} = 4.0$ per radian, $V_H = 0.6$, and $l_t / \bar{c} = 3.0$,
 
-$$C_{m q, \text{tail}} = -2 \times 4.0 \times 0.9 \times 0.6 \times 3.0 = -13.0$$
+$$
+C_{m q, \text{tail}} = -2 \times 4.0 \times 0.9 \times 0.6 \times 3.0 = -13.0
+\tag{12}
+$$
 
 against a wing-alone contribution for a swept planform of order
 
-$$C_{m q, \text{wing}} \approx -0.8$$
+$$
+C_{m q, \text{wing}} \approx -0.8
+\tag{13}
+$$
 
 so that a conventional aircraft draws about
 
-$$\frac{13.0}{13.0 + 0.8} = 94 \ \text{percent}$$
+$$
+\frac{13.0}{13.0 + 0.8} = 94 \ \text{percent}
+\tag{14}
+$$
 
 of its pitch damping from the tail. Remove the tail and 94 percent of the damping goes with it. Flight measurement later put the X-4's rotational damping factor at about 5 percent of that of the F-86, a conventional swept-wing fighter \[[Ankenbruck et al. 1951][research_ankenbruck_sadoff_1951]\], close to the 6 percent the calculation leaves. On this reading the finding of the X-4 programme was available on paper before the X-4 was built, and the debate had not been about it.
 
@@ -115,57 +157,96 @@ That the moment of inertia in pitch and the damping available jointly fix the ch
 
 The consequence appears in the short period mode. The dimensional derivatives are
 
-$$M_\alpha = \frac{q S \bar{c} \, C_{m\alpha}}{I_y}, \qquad M_q = \frac{q S \bar{c}^2 \, C_{mq}}{2 I_y V}, \qquad Z_\alpha = -\frac{q S \, C_{L\alpha}}{m}$$
+$$
+M_\alpha = \frac{q S \bar{c} \, C_{m\alpha}}{I_y}, \qquad M_q = \frac{q S \bar{c}^2 \, C_{mq}}{2 I_y V}, \qquad Z_\alpha = -\frac{q S \, C_{L\alpha}}{m}
+\tag{15}
+$$
 
 and the short period frequency and damping ratio are
 
-$$\omega_{sp} \approx \sqrt{-M_\alpha}, \qquad \zeta_{sp} = -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}$$
+$$
+\omega_{sp} \approx \sqrt{-M_\alpha}, \qquad \zeta_{sp} = -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}
+\tag{16}
+$$
 
 The atmosphere used throughout is the troposphere model,
 
-$$T(h) = T_0 - \lambda h, \qquad p(h) = p_0 \left( \frac{T(h)}{T_0} \right)^{g / \lambda R}, \qquad \rho = \frac{p}{R T}$$
+$$
+T(h) = T_0 - \lambda h, \qquad p(h) = p_0 \left( \frac{T(h)}{T_0} \right)^{g / \lambda R}, \qquad \rho = \frac{p}{R T}
+\tag{17}
+$$
 
 with $\lambda = 0.0065$ kelvin per metre, and the speed of sound follows as
 
-$$a = \sqrt{\gamma R T}$$
+$$
+a = \sqrt{\gamma R T}
+\tag{18}
+$$
 
 Take the X-4 at Mach 0.9 and 9144 metres, where this gives a static pressure of 30,089 pascals, a temperature of 228.7 kelvin, a speed of sound of 303.1 metres per second, and therefore
 
-$$q = \frac{\gamma}{2} p M^2 = 0.7 \times 30{,}089 \times 0.81 = 1.71 \times 10^{4} \ \text{pascals}$$
+$$
+q = \frac{\gamma}{2} p M^2 = 0.7 \times 30{,}089 \times 0.81 = 1.71 \times 10^{4} \ \text{pascals}
+\tag{19}
+$$
 
 With a radius of gyration in pitch of 2.13 metres, giving $I_y = 1.60 \times 10^{4}$ kilogram square metres, a lift-curve slope of 4.0 per radian, and a static margin of 5 percent so that $C_{m\alpha} = -0.20$,
 
-$$M_\alpha = -8.99 \ \text{per second squared}, \qquad \omega_{sp} = 3.00 \ \text{radians per second}$$
+$$
+M_\alpha = -8.99 \ \text{per second squared}, \qquad \omega_{sp} = 3.00 \ \text{radians per second}
+\tag{20}
+$$
 
 corresponding to a period of
 
-$$T_{sp} = \frac{2 \pi}{\omega_{sp}} = 2.1 \ \text{seconds}$$
+$$
+T_{sp} = \frac{2 \pi}{\omega_{sp}} = 2.1 \ \text{seconds}
+\tag{21}
+$$
 
 and a damped frequency of
 
-$$\omega_d = \omega_{sp} \sqrt{1 - \zeta^2}$$
+$$
+\omega_d = \omega_{sp} \sqrt{1 - \zeta^2}
+\tag{22}
+$$
 
 which differs from the undamped value by less than three percent at the tailless damping ratio derived below, though by about a third at the tailed value, so the undamped frequency is used for both and the half-amplitude count that follows carries the damped factor explicitly. The damping term is where the configurations part company. For the tailless case, with $C_{mq} = -0.8$ and $M_{\dot\alpha} \approx 0$ because the downwash lag that produces $M_{\dot\alpha}$ acts on a tail that does not exist,
 
-$$\zeta_{sp, \text{tailless}} = 0.244$$
+$$
+\zeta_{sp, \text{tailless}} = 0.244
+\tag{23}
+$$
 
 For an otherwise identical aircraft with a tail, taking $C_{mq} = -13$ and $M_{\dot\alpha}$ corresponding to a downwash lag term of $-4$,
 
-$$\zeta_{sp, \text{tailed}} = 0.749$$
+$$
+\zeta_{sp, \text{tailed}} = 0.749
+\tag{24}
+$$
 
 a factor of 3.1. Both figures are stable. Neither is a prediction of disaster. The same calculation is still performed on tailless configurations, and [Kwiek 2019][research_kwiek_2019] is a numerical study of this quantity for a tailless layout, arriving by computation at the class of result the X-4 established by flying. The static margin on which it depends turns out to be less straightforward for a three-dimensional configuration than the one-dimensional definition used here suggests, a point [Schmidt et al. 2025][research_schmidt_static_margin_2025] develop. The X-4 was not an aircraft that oscillated uncontrollably at every condition, and any account claiming it was has overstated the case \[[Sadoff and Crossfield 1954][research_x4_flight_evaluation_1954]\].
 
 The mode can also be written down in full and not through its summary parameters. Retaining the two-degree-of-freedom short period approximation, the characteristic equation is
 
-$$\lambda^2 - \left( M_q + M_{\dot\alpha} + \frac{Z_\alpha}{V} \right) \lambda + \left( \frac{Z_\alpha M_q}{V} - M_\alpha \right) = 0$$
+$$
+\lambda^2 - \left( M_q + M_{\dot\alpha} + \frac{Z_\alpha}{V} \right) \lambda + \left( \frac{Z_\alpha M_q}{V} - M_\alpha \right) = 0
+\tag{25}
+$$
 
 whose roots are
 
-$$\lambda_{1,2} = -\zeta_{sp} \omega_{sp} \pm i \, \omega_{sp} \sqrt{1 - \zeta_{sp}^2}$$
+$$
+\lambda_{1,2} = -\zeta_{sp} \omega_{sp} \pm i \, \omega_{sp} \sqrt{1 - \zeta_{sp}^2}
+\tag{26}
+$$
 
 so the real part is the decay rate and the imaginary part the oscillation frequency. The time to half amplitude follows directly,
 
-$$t_{1/2} = \frac{\ln 2}{\zeta_{sp} \omega_{sp}}$$
+$$
+t_{1/2} = \frac{\ln 2}{\zeta_{sp} \omega_{sp}}
+\tag{27}
+$$
 
 which for the tailless case is 0.95 seconds and for the tailed case 0.31. A pilot making a correction every second is inside the settling time of his aircraft in the first case and outside it in the second, and the difference separates an aircraft that settles between corrections from one that does not.
 
@@ -173,11 +254,17 @@ A second statement of the result, in the language the discipline eventually adop
 
 Short-period handling qualities are now specified by a pair of numbers \[[Moorhouse 1982][ref_moorhouse_woodcock_1981]\]. The first is the damping ratio itself. The second is the control anticipation parameter, which relates the initial pitch acceleration a pilot commands to the steady load factor he eventually gets,
 
-$$\text{CAP} = \frac{\omega_{sp}^2}{n / \alpha}, \qquad \frac{n}{\alpha} = \frac{C_{L\alpha} \, q \, S}{W}$$
+$$
+\text{CAP} = \frac{\omega_{sp}^2}{n / \alpha}, \qquad \frac{n}{\alpha} = \frac{C_{L\alpha} \, q \, S}{W}
+\tag{28}
+$$
 
 with $n/\alpha$ in units of load factor per radian. For the X-4 at the condition above,
 
-$$\frac{n}{\alpha} = \frac{4.0 \times 17{,}061 \times 18.58}{34{,}784} = 36.5 \ \text{per radian}, \qquad \text{CAP} = \frac{3.00^2}{36.5} = 0.247$$
+$$
+\frac{n}{\alpha} = \frac{4.0 \times 17{,}061 \times 18.58}{34{,}784} = 36.5 \ \text{per radian}, \qquad \text{CAP} = \frac{3.00^2}{36.5} = 0.247
+\tag{29}
+$$
 
 The criteria place Level 1, meaning handling adequate for the mission without pilot compensation, at a damping ratio between roughly 0.35 and 1.30 with the control anticipation parameter between roughly 0.28 and 3.6 for a precision-tracking task \[[Moorhouse 1982][ref_moorhouse_woodcock_1981]\]. **The X-4 computes to a damping ratio of 0.244, which is below the Level 1 floor and at the boundary between Level 2 and Level 3, with a control anticipation parameter of 0.247, marginally below its Level 1 band as well.** The tailed comparison at 0.749 sits comfortably inside Level 1 on both counts. The aircraft measured worse than it computes. Its short-period oscillation needed about three cycles to damp to one-tenth amplitude \[[Ankenbruck et al. 1951][research_ankenbruck_sadoff_1951]\], which corresponds to a damping ratio near 0.12, below even the Level 3 minimum of 0.15, a floor the criteria allow to be relaxed above 20,000 feet \[[Moorhouse 1982][ref_moorhouse_woodcock_1981]\].
 
@@ -187,33 +274,54 @@ The retrospective character of that comparison can be reduced. The programme was
 
 The finding concerns **margin**, not stability, and it can be given a number. Transonic flight degrades every aerodynamic derivative, through shock-induced separation, through aerodynamic centre migration, and through the collapse of control effectiveness described at length in the [X-1 article][related_post_a298_bell_x1]. Ask how much degradation each configuration tolerates before the damping ratio falls to a nominal 0.05, at which point the aircraft is effectively undamped. Writing $f$ for the fraction of nominal damping remaining,
 
-$$\zeta = f \, \zeta_{\text{nominal}} = 0.05 \quad \Longrightarrow \quad f = \frac{0.05}{\zeta_{\text{nominal}}}$$
+$$
+\zeta = f \, \zeta_{\text{nominal}} = 0.05 \quad \Longrightarrow \quad f = \frac{0.05}{\zeta_{\text{nominal}}}
+\tag{30}
+$$
 
-$$f_{\text{tailless}} = \frac{0.05}{0.244} = 0.205, \qquad f_{\text{tailed}} = \frac{0.05}{0.749} = 0.067$$
+$$
+f_{\text{tailless}} = \frac{0.05}{0.244} = 0.205, \qquad f_{\text{tailed}} = \frac{0.05}{0.749} = 0.067
+\tag{31}
+$$
 
 so the tailless configuration becomes effectively undamped once its damping derivatives have fallen to 21 percent of their nominal value, while the tailed aircraft tolerates a fall to 7 percent. **The tailless configuration has little damping margin to spend, and the transonic band is where margin gets spent.** At the measured damping ratio near 0.12 the same fraction is 0.42, so the aircraft as flown had less margin than the representative calculation gives it. The keystone thereby receives a quantitative answer for the longitudinal mode taken alone. Whether the X-4's transonic oscillation was this margin being spent is a separate question, and The Flight Test Record shows that the flight evaluation answers it only in part.
 
 The oscillation that results is characterized by the number of cycles to half amplitude,
 
-$$N_{1/2} = \frac{\ln 2}{2 \pi} \cdot \frac{\sqrt{1 - \zeta^2}}{\zeta}$$
+$$
+N_{1/2} = \frac{\ln 2}{2 \pi} \cdot \frac{\sqrt{1 - \zeta^2}}{\zeta}
+\tag{32}
+$$
 
 which for the nominal tailless value is 0.44 cycles and for the tailed value 0.10, and which grows without bound as $\zeta$ approaches zero. An aircraft taking many cycles to damp a disturbance is one a pilot may describe as hunting or porpoising. The X-4 pilots used both terms for the oscillation near Mach 0.88, which also involved yawing and rolling \[[Sadoff and Crossfield 1954][research_x4_flight_evaluation_1954]\] \[[Dinius 2014][ref_nasa_x4_factsheet]\].
 
 The description is of closed-loop behaviour, and the pilot in that loop matters. A pilot correcting a lightly damped oscillation introduces his own lag, and the crossover model represents the combined pilot and aircraft as
 
-$$Y_p Y_c \approx \frac{\omega_c \, e^{-\tau_e s}}{s}$$
+$$
+Y_p Y_c \approx \frac{\omega_c \, e^{-\tau_e s}}{s}
+\tag{33}
+$$
 
 near the crossover frequency $\omega_c$, with $\tau_e$ the effective pilot time delay. The phase margin available is
 
-$$\phi_m = \frac{\pi}{2} - \omega_c \tau_e$$
+$$
+\phi_m = \frac{\pi}{2} - \omega_c \tau_e
+\tag{34}
+$$
 
 and it vanishes when $\omega_c \tau_e$ approaches ninety degrees. The delay itself is conveniently represented for analysis by a first-order Pade approximation,
 
-$$e^{-\tau_e s} \approx \frac{1 - \tau_e s / 2}{1 + \tau_e s / 2}$$
+$$
+e^{-\tau_e s} \approx \frac{1 - \tau_e s / 2}{1 + \tau_e s / 2}
+\tag{35}
+$$
 
 whose right-half-plane zero is the formal statement of why a delay cannot be compensated away. A pilot delay near 0.25 seconds and a crossover frequency near 3 radians per second consume
 
-$$\omega_c \tau_e = 0.75 \ \text{radians} = 43 \ \text{degrees}$$
+$$
+\omega_c \tau_e = 0.75 \ \text{radians} = 43 \ \text{degrees}
+\tag{36}
+$$
 
 of phase before any aircraft dynamics are considered, which leaves under fifty degrees of margin for everything else. An aircraft that will not settle forces the pilot to raise his gain, which raises $\omega_c$ and consumes phase margin. That sequence is the mechanism of pilot-induced oscillation. A lightly damped short period is therefore not merely uncomfortable. It invites the pilot into an instability that neither he nor the aircraft has alone. The modern treatment of this mechanism is [Efremov et al. 2020][research_efremov_2020] and [Bidinotto et al. 2021][research_bidinotto_2021].
 
@@ -225,87 +333,147 @@ Everything about the configuration follows from having no horizontal surface.
 
 The lift-curve slope of a swept low aspect ratio wing is not the two-dimensional value and must be estimated from the planform. The standard form is
 
-$$C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{ \dfrac{A^2 \beta_s^2}{\kappa^2} \left( 1 + \dfrac{\tan^2 \Lambda_{c/2}}{\beta_s^2} \right) + 4 }}, \qquad \beta_s = \sqrt{1 - M^2}$$
+$$
+C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{ \dfrac{A^2 \beta_s^2}{\kappa^2} \left( 1 + \dfrac{\tan^2 \Lambda_{c/2}}{\beta_s^2} \right) + 4 }}, \qquad \beta_s = \sqrt{1 - M^2}
+\tag{37}
+$$
 
 with $\Lambda_{c/2}$ the half-chord sweep and $\kappa$ the ratio of the section lift-curve slope to $2\pi$. At an aspect ratio of 3.60 this returns a value near 4.0 per radian at low Mach number, the figure used throughout, rising with the compressibility factor as Mach number increases. Longitudinal stability must come from the wing alone, so the aerodynamic centre and the centre of gravity relationship is the whole of the static margin,
 
-$$SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} SM$$
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} SM
+\tag{38}
+$$
 
 There are two such margins and the distinction matters for a tailless design. The static margin governs response to a change of angle of attack at constant speed. The manoeuvre margin governs response in a pull-up, where the aircraft is also rotating and the pitch damping therefore contributes a restoring moment of its own,
 
-$$MM = SM - \frac{C_{mq}}{2 \mu}, \qquad \mu = \frac{2m}{\rho S \bar{c}}$$
+$$
+MM = SM - \frac{C_{mq}}{2 \mu}, \qquad \mu = \frac{2m}{\rho S \bar{c}}
+\tag{39}
+$$
 
 with $\mu$ the relative density parameter. At the flight condition $\mu = 367$, so the tailless case has
 
-$$MM_{\text{tailless}} = 0.05 + \frac{0.8}{734} = 0.0511$$
+$$
+MM_{\text{tailless}} = 0.05 + \frac{0.8}{734} = 0.0511
+\tag{40}
+$$
 
 against
 
-$$MM_{\text{tailed}} = 0.05 + \frac{13.0}{734} = 0.0677$$
+$$
+MM_{\text{tailed}} = 0.05 + \frac{13.0}{734} = 0.0677
+\tag{41}
+$$
 
 The tail contributes 1.7 points of manoeuvre margin that the tailless configuration does not have, a second and independent consequence of the same missing damping term. The stick force per unit load factor follows the manoeuvre margin directly,
 
-$$\frac{F_s}{n} \propto MM$$
+$$
+\frac{F_s}{n} \propto MM
+\tag{42}
+$$
 
 so a tailless design is also lighter in pitch than its static margin suggests, which compounds the tendency of a pilot to over-control it.
 
 For a tailless layout the neutral point is essentially the wing aerodynamic centre, since the term that a tail would contribute,
 
-$$\Delta \frac{x_{np}}{\bar{c}} = V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)$$
+$$
+\Delta \frac{x_{np}}{\bar{c}} = V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)
+\tag{43}
+$$
 
 is zero. A conventional aircraft can place its centre of gravity over a wide range and recover stability with tail volume. A tailless one cannot, and the constraint can be written down. The aft limit is set by stability,
 
-$$x_{cg, \text{aft}} = x_{np} - SM_{\min} \bar{c}$$
+$$
+x_{cg, \text{aft}} = x_{np} - SM_{\min} \bar{c}
+\tag{44}
+$$
 
 and the forward limit by the control power available to trim at maximum lift,
 
-$$x_{cg, \text{fwd}} = x_{ac} - \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} \bar{c}$$
+$$
+x_{cg, \text{fwd}} = x_{ac} - \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} \bar{c}
+\tag{45}
+$$
 
 so the usable range is the difference,
 
-$$\Delta x_{cg} = \left[ \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} - SM_{\min} \right] \bar{c} + \left( x_{np} - x_{ac} \right)$$
+$$
+\Delta x_{cg} = \left[ \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} - SM_{\min} \right] \bar{c} + \left( x_{np} - x_{ac} \right)
+\tag{46}
+$$
 
 in which the final term is the tail contribution and is zero for a tailless layout. Both bounds therefore collapse toward the wing aerodynamic centre, and the range is set entirely by how much control power the elevons can supply against how much stability is demanded. Fuel burn or store release that moves the centre of gravity a few percent of chord is a large fraction of that range. Sweep supplies what tail volume otherwise would, since a swept wing places its outboard sections aft and washout at the tip generates the nose-up moment at zero lift that trim requires,
 
-$$C_{m0} > 0$$
+$$
+C_{m0} > 0
+\tag{47}
+$$
 
 which a conventional aircraft obtains from tail incidence and a tailless design must build into the wing itself. The twist distribution that supplies it is conventionally linear in span,
 
-$$\varepsilon_t(y) = \varepsilon_{\text{tip}} \frac{2y}{b}$$
+$$
+\varepsilon_t(y) = \varepsilon_{\text{tip}} \frac{2y}{b}
+\tag{48}
+$$
 
 and the pitching moment it generates on a wing of sweep $\Lambda$ is approximately
 
-$$C_{m0} \approx -\frac{C_{L\alpha} \, \varepsilon_{\text{tip}} \tan \Lambda}{6}$$
+$$
+C_{m0} \approx -\frac{C_{L\alpha} \, \varepsilon_{\text{tip}} \tan \Lambda}{6}
+\tag{49}
+$$
 
 so the required washout scales inversely with sweep, and a lightly swept tailless wing needs a great deal of it. The span efficiency that the resulting non-elliptic loading costs can be estimated from
 
-$$e \approx 1.78 \left( 1 - 0.045 A^{0.68} \right) - 0.64$$
+$$
+e \approx 1.78 \left( 1 - 0.045 A^{0.68} \right) - 0.64
+\tag{50}
+$$
 
 which at an aspect ratio of 3.60 returns 0.95 before the trim penalty is applied, against 0.84 for an aspect ratio of seven, so that the induced drag at a given lift coefficient exceeds the higher aspect ratio case by
 
-$$\frac{C_{D,i}(A = 3.6)}{C_{D,i}(A = 7)} = \frac{7 \times 0.84}{3.6 \times 0.95} = 1.7$$
+$$
+\frac{C_{D,i}(A = 3.6)}{C_{D,i}(A = 7)} = \frac{7 \times 0.84}{3.6 \times 0.95} = 1.7
+\tag{51}
+$$
 
 a penalty the configuration pays permanently. The efficiency factor used here is the one [Oswald 1932][research_oswald_1932] introduced for this purpose, a single multiplier absorbing every departure of the spanwise loading from elliptic, and the correlation above is a later fit to the quantity he defined. Reflexed or washed-out sections generate the trimming moment by carrying negative lift outboard, so the loading departs from elliptic in exactly the manner the factor is meant to absorb, and the induced drag rises above the minimum,
 
-$$C_{D,i} = \frac{C_L^2}{\pi A e}, \qquad e < 1$$
+$$
+C_{D,i} = \frac{C_L^2}{\pi A e}, \qquad e < 1
+\tag{52}
+$$
 
 with the efficiency factor $e$ degraded in proportion to the departure. The trim penalty can be written as an equivalent drag increment,
 
-$$\Delta C_{D, \text{trim}} = \frac{C_{m0}^2}{\pi A e} \left( \frac{\bar{c}}{\ell_{\text{eff}}} \right)^2$$
+$$
+\Delta C_{D, \text{trim}} = \frac{C_{m0}^2}{\pi A e} \left( \frac{\bar{c}}{\ell_{\text{eff}}} \right)^2
+\tag{53}
+$$
 
 with $\ell_{\text{eff}}$ the effective moment arm over which the trim load acts, which for a tailless layout is a fraction of a chord and for a conventional one is several chords. The penalty therefore scales as the inverse square of the available arm. The wing modification studies of [Ankenbruck 1945][research_allwing_modifications_1945] are largely about paying this permanent cost of the configuration as cheaply as possible.
 
 The aerodynamic centre migrates aft through the transonic band, typically from the quarter chord to near the half chord,
 
-$$\frac{x_{ac}}{\bar{c}} : 0.25 \longrightarrow 0.50$$
+$$
+\frac{x_{ac}}{\bar{c}} : 0.25 \longrightarrow 0.50
+\tag{54}
+$$
 
 and for a tailless design this migration is the entire change in static margin, unmoderated by a tail. The trim change that results must be absorbed by the elevons, and the trim moment increment at lift coefficient $C_L$ is
 
-$$\Delta C_m = C_L \frac{\Delta x_{ac}}{\bar{c}}$$
+$$
+\Delta C_m = C_L \frac{\Delta x_{ac}}{\bar{c}}
+\tag{55}
+$$
 
 which at a cruise lift coefficient of 0.3 and a quarter-chord migration is 0.075. Tailless aircraft therefore experience a large trim change through Mach one with a control surface that is simultaneously losing effectiveness, and the elevon deflection needed to absorb it is
 
-$$\delta_e = \frac{\Delta C_m}{\left| C_{m \delta_e} \right|}$$
+$$
+\delta_e = \frac{\Delta C_m}{\left| C_{m \delta_e} \right|}
+\tag{56}
+$$
 
 which for a tailless aircraft with a control power of order 0.5 per radian requires 0.15 radians, or nearly nine degrees, of the available deflection consumed by trim alone before any manoeuvring. This is a worse version of the problem the [X-1][related_post_a298_bell_x1] met and solved with an all-moving tail the X-4 does not have.
 
@@ -315,21 +483,33 @@ An [elevon][ref_elevon] is an aileron and an elevator in the same surface, and t
 
 Symmetric deflection produces pitch and differential deflection produces roll, so for a left and right surface
 
-$$\delta_L = \delta_e + \delta_a, \qquad \delta_R = \delta_e - \delta_a$$
+$$
+\delta_L = \delta_e + \delta_a, \qquad \delta_R = \delta_e - \delta_a
+\tag{57}
+$$
 
 and each surface is bounded by its mechanical limit,
 
-$$\left| \delta_e \right| + \left| \delta_a \right| \le \delta_{\max}$$
+$$
+\left| \delta_e \right| + \left| \delta_a \right| \le \delta_{\max}
+\tag{58}
+$$
 
 The pitch authority available at any instant is therefore
 
-$$\delta_{e, \text{available}} = \delta_{\max} - \left| \delta_a \right|$$
+$$
+\delta_{e, \text{available}} = \delta_{\max} - \left| \delta_a \right|
+\tag{59}
+$$
 
 so a full roll input consumes the entire pitch authority. A conventional layout has independent surfaces and no such coupling. The coupling matters most where it is least welcome, since a pilot correcting a roll disturbance in the transonic band gives away the pitch authority he may need in the next second.
 
 Differential deflection also produces yaw, and on a swept wing the sign is unfavourable. The down-going elevon adds lift and therefore induced drag on the rising wing, yawing the aircraft away from the intended turn,
 
-$$C_{n \delta_a} \approx -K \, C_L \, C_{l \delta_a}$$
+$$
+C_{n \delta_a} \approx -K \, C_L \, C_{l \delta_a}
+\tag{60}
+$$
 
 with $K$ of order 0.1 to 0.2 and the negative sign denoting adverse yaw. A tailless aircraft with a small fin has little directional stiffness with which to resist that yaw, so roll and yaw are coupled more strongly than on a conventional configuration, and the sideslip that results feeds back into roll through the dihedral effect $C_{l\beta}$.
 
@@ -337,29 +517,47 @@ Rolling effectiveness through the transonic band was among the better-mapped qua
 
 The swept planform brings its own longitudinal hazard. Tip stall on a swept wing removes lift from the aft-most part of the surface, moving the centre of pressure forward and generating a nose-up increment. The pitch-up boundary is conventionally located where
 
-$$\frac{\partial C_m}{\partial C_L} > 0$$
+$$
+\frac{\partial C_m}{\partial C_L} > 0
+\tag{61}
+$$
 
 which for a swept wing occurs at moderate lift coefficients and which a tail would ordinarily counter. The phenomenon was documented across the swept-wing fleet of the period. [Spooner and Martina 1948][research_spooner_martina_1948] measured it on a forty-two degree sweptback wing and tail combination at a Reynolds number high enough to be credible, [Anderson and Bray 1955][research_anderson_bray_1955] recorded it in flight during manoeuvres at transonic speed, and [Queijo et al. 1954][research_queijo_fences_1954] established that chordwise fences and tail position both bear on it, two remedies a tailless design cannot use. Downwash and longitudinal stability were mapped together on a triangular planform by [Allen 1951][research_allen_1951]. Stall behaviour on this aircraft was measured for that reason in [Sadoff and Sisk 1950b][research_x4_stall_1950], and the automatic intervention that later programmes adopted appears in [Hurt and Whitten 1960][research_pitchup_control_1960].
 
 The control power itself is
 
-$$C_{m \delta_e} = -\frac{\partial C_L}{\partial \delta_e} \cdot \frac{x_{cp} - x_{cg}}{\bar{c}}$$
+$$
+C_{m \delta_e} = -\frac{\partial C_L}{\partial \delta_e} \cdot \frac{x_{cp} - x_{cg}}{\bar{c}}
+\tag{62}
+$$
 
 and for a tailless configuration the moment arm $x_{cp} - x_{cg}$ is a fraction of a chord rather than several chords, so the elevon must generate a large force to produce a modest moment. The short arm is the configuration's second structural disadvantage, and it compounds the first, since a large force from a short arm means large hinge moments,
 
-$$H = q \, S_e \, c_e \, C_h$$
+$$
+H = q \, S_e \, c_e \, C_h
+\tag{63}
+$$
 
 and correspondingly large stick forces,
 
-$$F_s = G \, H = G \, q \, S_e \, c_e \, C_h, \qquad C_h = C_{h_0} + C_{h\alpha} \alpha + C_{h\delta} \delta_e$$
+$$
+F_s = G \, H = G \, q \, S_e \, c_e \, C_h, \qquad C_h = C_{h_0} + C_{h\alpha} \alpha + C_{h\delta} \delta_e
+\tag{64}
+$$
 
 with $G$ the control system gearing. The effectiveness parameter relating surface deflection to an equivalent change of incidence follows thin-airfoil theory,
 
-$$\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c} - 1$$
+$$
+\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c} - 1
+\tag{65}
+$$
 
 and aerodynamic balance, in which part of the surface projects ahead of the hinge line, reduces the hinge moment without reducing the effectiveness,
 
-$$C_{h\delta, \text{balanced}} = C_{h\delta} \left[ 1 - \left( \frac{c_b}{c_e} \right)^2 \right]$$
+$$
+C_{h\delta, \text{balanced}} = C_{h\delta} \left[ 1 - \left( \frac{c_b}{c_e} \right)^2 \right]
+\tag{66}
+$$
 
 with $c_b$ the balance chord. That relation gave the blunt trailing edge experiment of [Saltzman 1955][research_x4_blunt_elevons_1955] its interest, since it attacks the same coefficient from the other end of the surface. Because $H$ scales with dynamic pressure while the required moment scales with the same quantity, the stick force per unit load factor is roughly constant, but the hinge moment derivatives themselves change sign through the transonic band as the shock crosses the hinge line, so the force the pilot feels ceases to be a reliable indication of what the surface is doing. The [X-1][related_post_a298_bell_x1] met the same failure, and a tailless aircraft cannot escape it by moving the whole surface, because the whole surface is the wing. The X-4 was fitted at one point with blunt trailing edge elevons intended to modify the hinge moment characteristics, an experiment reported in [Saltzman 1955][research_x4_blunt_elevons_1955]. The idea was not peculiar to this aircraft. [Underwood 1942][research_underwood_1942] had noted a decade earlier that trailing-edge shape bears on profile drag and on the trim and balance of control surfaces together, and [Sadoff et al. 1954][research_sadoff_blunt_te_1954] applied blunt trailing edge modifications to a swept-wing fighter and measured the high-speed stability and control consequences, repeating the experiment on a conventional airframe. Elevon effectiveness at transonic speed remained a research subject long afterward, as [Transonic Control Effectiveness 1977][research_elevon_transonic_1977] shows.
 
@@ -367,31 +565,49 @@ with $c_b$ the balance chord. That relation gave the blunt trailing edge experim
 
 The vertical fin is the only tail surface, and it carries the whole directional problem,
 
-$$C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v \, l_v}{S \, b}$$
+$$
+C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v \, l_v}{S \, b}
+\tag{67}
+$$
 
 with the same square-of-arm sensitivity that governs pitch damping, since the yaw damping derivative is
 
-$$C_{n r, \text{fin}} = -2 \, \eta_v \, C_{L\alpha_v} \, V_V \, \frac{l_v}{b}$$
+$$
+C_{n r, \text{fin}} = -2 \, \eta_v \, C_{L\alpha_v} \, V_V \, \frac{l_v}{b}
+\tag{68}
+$$
 
 A short aircraft has a short $l_v$, so a tailless design must obtain directional stability from fin area rather than from arm, and area is drag. The fin location and area tradeoff was studied directly in [Fisher and Michael 1951][research_vertical_fin_location_1951], with the interaction between fuselage and tail surfaces in [Bird et al. 1951][research_fuselage_tail_yawing_1951]. The interference among wing, fuselage, and fin that complicates any such sizing had been measured systematically by [House and Wallace 1941][research_house_wallace_1941], and the dependence of the static lateral and directional characteristics on aspect ratio for swept midwing configurations by [Thomas and Wolhart 1957][research_thomas_wolhart_1957]. Fin placement forward of the usual station was examined under both steady and oscillatory conditions by [Queijo and Wells 1956][research_queijo_wells_1956], a distinction that matters because the damping-in-yaw derivative and the static derivative need not scale together. A swept configuration close to the X-4 in planform, though carrying a horizontal tail, is characterized in [Schuldenfrei et al. 1947][research_schuldenfrei_1947]. Some modern tailless aircraft, among them the [X-36][ref_mcdonnell_x36], have no fin at all and must generate yaw by other means entirely, and that literature is treated below.
 
 The long-period longitudinal mode completes the set. The [phugoid][ref_phugoid] is an exchange of altitude and speed at nearly constant angle of attack, with frequency and damping
 
-$$\omega_{ph} \approx \frac{g \sqrt{2}}{V}, \qquad \zeta_{ph} \approx \frac{1}{\sqrt{2}} \frac{1}{L / D}$$
+$$
+\omega_{ph} \approx \frac{g \sqrt{2}}{V}, \qquad \zeta_{ph} \approx \frac{1}{\sqrt{2}} \frac{1}{L / D}
+\tag{69}
+$$
 
 which at 273 metres per second gives a period near 124 seconds. A period that long is irrelevant to the hunting problem and a pilot manages it without effort, so the tailless configuration costs nothing here. The absence of a penalty is informative, because it confines the longitudinal damage to the short period.
 
 The [Dutch roll][ref_dutch_roll] mode that results has frequency and damping
 
-$$\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \zeta_{dr} \propto -C_{nr}$$
+$$
+\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \zeta_{dr} \propto -C_{nr}
+\tag{70}
+$$
 
 with the damping ratio
 
-$$\zeta_{dr} \approx -\frac{1}{2} \left( \frac{C_{nr}}{\sqrt{ \left( q S b \, C_{n\beta} / I_z \right)}} \right) \frac{q S b^2}{2 I_z V}$$
+$$
+\zeta_{dr} \approx -\frac{1}{2} \left( \frac{C_{nr}}{\sqrt{ \left( q S b \, C_{n\beta} / I_z \right)}} \right) \frac{q S b^2}{2 I_z V}
+\tag{71}
+$$
 
 and it inherits the same margin problem as the short period, since a configuration short of $C_{nr}$ has nothing to lose when the transonic band takes some away. The X-4's lateral oscillation failed the Air Force damping criterion as well, and its damping fell sharply between Mach 0.60 and 0.73 \[[Ankenbruck et al. 1951][research_ankenbruck_sadoff_1951]\]. The roll mode and spiral complete the lateral set,
 
-$$\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}, \qquad L_\beta N_r - L_r N_\beta > 0$$
+$$
+\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}, \qquad L_\beta N_r - L_r N_\beta > 0
+\tag{72}
+$$
 
 the last being the spiral stability condition, which a swept wing with strong dihedral effect and a small fin tends to violate. Extracting these derivatives from flight records rather than assuming them is a separate discipline, and the method of [Klawans and White 1957][research_klawans_white_1957] uses the spiral, roll-subsidence, and Dutch roll modes together to determine the lateral derivatives from measured motion, a lateral counterpart to the logarithmic decrement treatment given below. The coupling that arises when a rolling manoeuvre drives an aircraft across its inertia axes was studied on an analogue computer by [Gillis 1957][research_gillis_1957], and the same phenomenon dominated the [X-3][related_post_a300_douglas_x3] programme.
 
@@ -399,23 +615,38 @@ the last being the spiral stability condition, which a swept wing with strong di
 
 The two buried [Westinghouse J30][ref_j30] engines are the least remarkable part of the aircraft and are adequate to its purpose. The thrust available at altitude lapses roughly with ambient pressure and ram recovery,
 
-$$\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}$$
+$$
+\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{73}
+$$
 
 and the level-flight maximum Mach number follows from the thrust-drag balance,
 
-$$M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}$$
+$$
+M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}
+\tag{74}
+$$
 
 The X-4 was flown to a maximum test Mach number of 0.92 \[[Sadoff and Crossfield 1954][research_x4_flight_evaluation_1954]\], which places it squarely in the band the research question occupies. Where that figure sits among its contemporaries can be read from [Bellman 1959][research_bellman_1959], which collects flight-determined transonic lift and drag for several research airplane configurations and is the natural document against which to place any single aircraft of the group. The drag rise itself was under attack by reshaping during the same years, and [Holdaway 1954][research_holdaway_1954] reports an experimental reduction obtained by adding volume to a fuselage, compared against theory, which is the area rule stated as a measurement. The compressible behaviour of a flapped section underlying all of this is documented in [Lindsey 1946][research_lindsey_1946], and a calculation method spanning subsonic through supersonic speeds for complete configurations in [Nielsen et al. 1953][research_nielsen_1953]. Specific excess power,
 
-$$P_s = \frac{V \left( T - D \right)}{W}$$
+$$
+P_s = \frac{V \left( T - D \right)}{W}
+\tag{75}
+$$
 
 falls to zero at the ceiling, and the climb angle available follows from the same excess,
 
-$$\sin \gamma = \frac{T - D}{W}, \qquad \frac{dh_e}{dt} = P_s$$
+$$
+\sin \gamma = \frac{T - D}{W}, \qquad \frac{dh_e}{dt} = P_s
+\tag{76}
+$$
 
 with the energy height the natural coordinate,
 
-$$h_e = h + \frac{V^2}{2 g}$$
+$$
+h_e = h + \frac{V^2}{2 g}
+\tag{77}
+$$
 
 With a thrust-to-weight of 0.41 the aircraft had modest but sufficient climb performance. Nothing about the propulsion installation constrains the answer to the keystone, in favourable contrast with the [X-3][related_post_a300_douglas_x3].
 
@@ -425,31 +656,52 @@ The programme measured a dynamic quantity, and that changes the instrumentation 
 
 Static derivatives are obtained from trimmed points and averaging. Damping is obtained from the decay of a deliberately excited oscillation, so the aircraft must be disturbed in a repeatable way and the response recorded with enough bandwidth to resolve it. The standard excitation is a doublet, a paired control input of duration matched to the mode,
 
-$$t_{\text{pulse}} \approx \frac{\pi}{2 \omega_{sp}} = 0.52 \ \text{seconds}$$
+$$
+t_{\text{pulse}} \approx \frac{\pi}{2 \omega_{sp}} = 0.52 \ \text{seconds}
+\tag{78}
+$$
 
 which concentrates the input energy near the natural frequency and leaves the aircraft to respond freely afterward. In the frequency domain the response is
 
-$$\left| \frac{\theta(i\omega)}{\delta_e(i\omega)} \right| = \frac{\left| M_{\delta_e} \right|}{\sqrt{\left( \omega_{sp}^2 - \omega^2 \right)^2 + \left( 2 \zeta \omega_{sp} \omega \right)^2}}$$
+$$
+\left| \frac{\theta(i\omega)}{\delta_e(i\omega)} \right| = \frac{\left| M_{\delta_e} \right|}{\sqrt{\left( \omega_{sp}^2 - \omega^2 \right)^2 + \left( 2 \zeta \omega_{sp} \omega \right)^2}}
+\tag{79}
+$$
 
 whose peak amplitude at resonance is inversely proportional to the damping ratio,
 
-$$\left| \frac{\theta}{\delta_e} \right|_{\max} \approx \frac{\left| M_{\delta_e} \right|}{2 \zeta \omega_{sp}^2}$$
+$$
+\left| \frac{\theta}{\delta_e} \right|_{\max} \approx \frac{\left| M_{\delta_e} \right|}{2 \zeta \omega_{sp}^2}
+\tag{80}
+$$
 
 so a lightly damped aircraft is easy to excite and hard to measure, an asymmetry that reappears in the decrement estimate below. For a short period at 3.0 radians per second, the frequency is
 
-$$f_{sp} = \frac{\omega_{sp}}{2 \pi} = 0.48 \ \text{hertz}$$
+$$
+f_{sp} = \frac{\omega_{sp}}{2 \pi} = 0.48 \ \text{hertz}
+\tag{81}
+$$
 
 and the [Nyquist criterion][ref_flight_test] requires
 
-$$f_s > 2 f_{sp}$$
+$$
+f_s > 2 f_{sp}
+\tag{82}
+$$
 
 with practical rates an order of magnitude higher to resolve the decay envelope rather than merely detect the oscillation. Estimating a damping ratio from a decaying record uses the logarithmic decrement,
 
-$$\delta_{\ln} = \frac{1}{n} \ln \frac{x_0}{x_n}, \qquad \zeta = \frac{\delta_{\ln}}{\sqrt{4 \pi^2 + \delta_{\ln}^2}}$$
+$$
+\delta_{\ln} = \frac{1}{n} \ln \frac{x_0}{x_n}, \qquad \zeta = \frac{\delta_{\ln}}{\sqrt{4 \pi^2 + \delta_{\ln}^2}}
+\tag{83}
+$$
 
 and the uncertainty in $\zeta$ grows sharply as $\zeta$ falls, because a lightly damped record supplies little amplitude change per cycle to measure. Propagating through the relation gives
 
-$$\frac{u(\zeta)}{\zeta} \approx \frac{1}{n \, \delta_{\ln}} \sqrt{ \left( \frac{u(x_0)}{x_0} \right)^2 + \left( \frac{u(x_n)}{x_n} \right)^2 }$$
+$$
+\frac{u(\zeta)}{\zeta} \approx \frac{1}{n \, \delta_{\ln}} \sqrt{ \left( \frac{u(x_0)}{x_0} \right)^2 + \left( \frac{u(x_n)}{x_n} \right)^2 }
+\tag{84}
+$$
 
 so the quantity the programme cared about becomes harder to measure just where the answer becomes interesting, an uncomfortable property of the experiment.
 
@@ -457,7 +709,10 @@ Everything above presumes the flight condition is known, and at transonic speed 
 
 The general uncertainty relation is the usual
 
-$$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{85}
+$$
 
 and the modern descendants of this discipline, in which derivatives are extracted from flight data by maximum likelihood, not from hand-reduced oscillation traces, appear in work on the design of optimal flight-test inputs in [Morelli 2021a][research_morelli_2021], on the identification of an unstable tilt-rotor from flight data in [Lichota 2023][research_lichota_2023], and on maximum likelihood estimation of longitudinal and lateral derivatives in [Kumar and Ghosh 2023][research_kumar_ghosh_2023]. Longitudinal stability determined from flight test by system identification is treated by [Dias 2023][research_dias_2023], and the techniques as they now apply to small and inexpensive airframes by [Simmons et al. 2023][research_simmons_sysid_2023]. The logarithmic decrement has not been abandoned so much as absorbed, since a maximum likelihood estimator fitted to a full response record uses every sample rather than the peaks alone and therefore recovers a lightly damped mode from data that would defeat a decrement taken by hand.
 
@@ -501,31 +756,52 @@ The finding propagated as a design rule. A transonic or supersonic aircraft carr
 
 The second consequence is the more interesting one and it took longer to arrive. If the problem is insufficient damping, and damping can be manufactured, then the longitudinal objection dissolves, and the lateral and directional damping the X-4 also lacked is open to the same remedy. A pitch damper feeds pitch rate back to the elevator or elevon,
 
-$$\delta_e = \delta_{e, \text{pilot}} - k_q \, q_r$$
+$$
+\delta_e = \delta_{e, \text{pilot}} - k_q \, q_r
+\tag{86}
+$$
 
 which augments the damping derivative to
 
-$$C_{mq, \text{aug}} = C_{mq} + k_q \, C_{m \delta_e} \frac{2V}{\bar{c}}$$
+$$
+C_{mq, \text{aug}} = C_{mq} + k_q \, C_{m \delta_e} \frac{2V}{\bar{c}}
+\tag{87}
+$$
 
 The gain required follows directly. Setting the augmented damping ratio to a target value,
 
-$$\zeta_{\text{target}} = -\frac{M_q + k_q M_{\delta_e} + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}$$
+$$
+\zeta_{\text{target}} = -\frac{M_q + k_q M_{\delta_e} + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}
+\tag{88}
+$$
 
 and solving,
 
-$$k_q = \frac{-2 \zeta_{\text{target}} \omega_{sp} - \left( M_q + M_{\dot\alpha} + Z_\alpha / V \right)}{M_{\delta_e}}$$
+$$
+k_q = \frac{-2 \zeta_{\text{target}} \omega_{sp} - \left( M_q + M_{\dot\alpha} + Z_\alpha / V \right)}{M_{\delta_e}}
+\tag{89}
+$$
 
 so with the X-4 values and a target of 0.7, the feedback must supply an additional damping term of
 
-$$\Delta \left( \frac{1}{s} \right) = -2 \left( 0.7 - 0.244 \right) \times 3.00 = -2.74 \ \text{per second}$$
+$$
+\Delta \left( \frac{1}{s} \right) = -2 \left( 0.7 - 0.244 \right) \times 3.00 = -2.74 \ \text{per second}
+\tag{90}
+$$
 
 which is comparable in magnitude to the $M_q$ a tail would have provided. A gain chosen to hold $\zeta_{sp}$ near 0.7 across the envelope therefore restores by feedback almost exactly what the missing tail removed. In that sense the augmentation is a substitute and not a palliative. A rate limit is the more common practical constraint, since a surface that cannot slew fast enough introduces an effective delay that grows with commanded amplitude,
 
-$$\tau_{\text{eff}} \approx \frac{A_{\text{cmd}} \, \omega}{\dot{\delta}_{\max}}$$
+$$
+\tau_{\text{eff}} \approx \frac{A_{\text{cmd}} \, \omega}{\dot{\delta}_{\max}}
+\tag{91}
+$$
 
 which is amplitude-dependent and therefore nonlinear, and such a delay is a well-known route into pilot-induced oscillation. The actuator must also be fast enough not to introduce its own lag, requiring a bandwidth
 
-$$\omega_{\text{act}} \gg \omega_{sp}$$
+$$
+\omega_{\text{act}} \gg \omega_{sp}
+\tag{92}
+$$
 
 and the failure of that inequality is the mechanism by which a badly implemented damper makes an aircraft worse rather than better. [Moul and Brown 1959][research_artificial_pitch_damping_1959] investigated this directly, five years after the X-4 programme ended, and the technology matured into the [stability augmentation systems][ref_stability_augmentation] that every high-performance aircraft now carries. The bandwidth inequality above is the constraint that still governs those systems, and [Özer 2025][research_ozer_2025] treats delay effects in longitudinal augmentation as a stability problem in its own right, and so states formally why a slow actuator makes matters worse. Augmentation of a flexible airframe, where the structural modes intrude on the band the augmenter occupies, is the subject of [Bertolin et al. 2021][research_bertolin_2021], and augmentation scheduled against flying qualities requirements rather than against a fixed target of [Wang et al. 2024d][research_wang_tvsas_2024]. The [XB-70][research_xb70_review_1965] flight programme and the automatic pitch-up control of [Hurt and Whitten 1960][research_pitchup_control_1960] belong to the same lineage, as does the control feel research of [Faber and Crane 1961][research_feel_system_1961].
 
@@ -566,19 +842,31 @@ Stability and control of flying wing layouts is now an ordinary design subject, 
 
 The directional problem the X-4 solved with a fin is now solved without one. The mechanism is a split surface that opens symmetrically on one wing to produce drag without net lift, generating yaw from a drag differential rather than from a side force,
 
-$$N = \Delta D \cdot y_{\text{eff}}, \qquad C_n = \Delta C_D \frac{y_{\text{eff}}}{b}$$
+$$
+N = \Delta D \cdot y_{\text{eff}}, \qquad C_n = \Delta C_D \frac{y_{\text{eff}}}{b}
+\tag{93}
+$$
 
 with $y_{\text{eff}}$ the spanwise station of the device. Because drag rises with the square of deflection while the associated lift change is small, such a device is nonlinear and single-signed, so it must be paired across the span and biased open to allow deflection in both directions, which costs drag continuously. That standing penalty is the price a finless aircraft pays for directional control, and the configuration only became attractive once the drag budget could absorb it. [Shearwood et al. 2020a][research_shearwood_2020] present a control allocation method for yaw on a finless aircraft, [Liu and Zhang 2022][research_liu_zhang_rudder_2022] investigate a flow-coupling rudder, and [Zhang and He 2026b][research_zhang_he_2026] treat yaw stabilization and manoeuvring on a tailless configuration directly. The device is still being improved, with [Guo et al. 2026][research_guo_split_rudder_2026] enhancing its effectiveness using synthetic jets, and it brings a failure mode of its own that the fin it replaces did not have, since a surface held open in separated flow can flutter in stall, which [Li et al. 2022b][research_li_split_rudder_2022] examine. Control by fluid injection rather than by moving surfaces at all is the further extension, demonstrated across three axes in virtual flight by [Zhang and He 2026a][research_zhang_he_fluidic_2026] and applied to trim on a tailless model with sweeping jets by [Jentzsch et al. 2019][research_jentzsch_2019]. The elevon is likewise being augmented, not retired, and [Xin et al. 2019][research_xin_blown_elevon_2019] blow a jet over one to recover the longitudinal control power a blended wing body cannot obtain from geometry. Control allocation across redundant effectors makes all of this possible, and its form can be stated briefly. A modern tailless aircraft has more effectors than axes, so the mapping from deflections to moments,
 
-$$\mathbf{m} = \mathbf{B} \, \boldsymbol{\delta}, \qquad \mathbf{m} \in \mathbb{R}^3, \quad \boldsymbol{\delta} \in \mathbb{R}^p, \quad p > 3$$
+$$
+\mathbf{m} = \mathbf{B} \, \boldsymbol{\delta}, \qquad \mathbf{m} \in \mathbb{R}^3, \quad \boldsymbol{\delta} \in \mathbb{R}^p, \quad p > 3
+\tag{94}
+$$
 
 is underdetermined, and the allocator chooses among the solutions. The minimum-effort choice is the pseudo-inverse,
 
-$$\boldsymbol{\delta} = \mathbf{B}^{+} \mathbf{m}_{\text{des}} = \mathbf{B}^{\top} \left( \mathbf{B} \mathbf{B}^{\top} \right)^{-1} \mathbf{m}_{\text{des}}$$
+$$
+\boldsymbol{\delta} = \mathbf{B}^{+} \mathbf{m}_{\text{des}} = \mathbf{B}^{\top} \left( \mathbf{B} \mathbf{B}^{\top} \right)^{-1} \mathbf{m}_{\text{des}}
+\tag{95}
+$$
 
 subject to position and rate limits on every surface,
 
-$$\left| \delta_i \right| \le \delta_{i, \max}, \qquad \left| \dot{\delta}_i \right| \le \dot{\delta}_{i, \max}$$
+$$
+\left| \delta_i \right| \le \delta_{i, \max}, \qquad \left| \dot{\delta}_i \right| \le \dot{\delta}_{i, \max}
+\tag{96}
+$$
 
 The X-4's elevon constraint derived above is the degenerate case of this with $p = 2$ and no redundancy at all, which is why its pitch and roll authority had to be traded rather than allocated. Redundancy converts a hard tradeoff into an optimization, and this conversion separates the X-4 structurally from its successors. [Cong et al. 2023b][research_cong_hu_2023] and [Dong et al. 2025][research_dong_zhou_2025] treat the subject, and [Zhou et al. 2025][research_zhou_liu_2025] the failure case that a redundant system must survive.
 
@@ -594,11 +882,17 @@ Wing rock deserves naming alongside tumbling, since it is the lateral member of 
 
 Ground effect closes the set, since it is the one flight condition every aircraft must enter and the one in which a tailless configuration has no independent surface to trim the moment change. [Xun et al. 2026][research_xun_ground_effect_2026] extend the aerodynamics across subsonic, transonic, and supersonic conditions, an envelope wider than the problem was ever posed in when the X-4 flew its approach series. The tumbling mode, a tailless failure mode with no conventional analogue, needs a separate statement. A conventional design driven past stall pitches nose-down because the tail restores it. A tailless aircraft has no such restoring surface once the wing itself has stalled, and if the inertia in pitch is low enough relative to the available aerodynamic moment the aircraft can enter a continuous rotation about the pitch axis. The condition depends on the balance between the residual aerodynamic moment and the rotational inertia,
 
-$$\ddot{\theta} = \frac{q S \bar{c} \, C_m(\alpha)}{I_y}$$
+$$
+\ddot{\theta} = \frac{q S \bar{c} \, C_m(\alpha)}{I_y}
+\tag{97}
+$$
 
 with $C_m(\alpha)$ evaluated well beyond the linear range, where it need not change sign at all. Tumbling is therefore possible when
 
-$$C_m(\alpha) > 0 \quad \text{for all } \alpha \text{ in the post-stall range}$$
+$$
+C_m(\alpha) > 0 \quad \text{for all } \alpha \text{ in the post-stall range}
+\tag{98}
+$$
 
 which is a condition on the whole post-stall moment curve rather than on any single derivative. Geometry, static stability, and mass distribution jointly determine it, as [Fremaux et al. 1993][research_tumbling_characteristics_1993] characterizes, and for that reason tailless configurations receive spin and departure attention out of proportion to their numbers, as [Patton et al. 1979][research_spin_research_summary_1979] reflects.
 
@@ -798,6 +1092,883 @@ The elevons compound this, since pitch and roll authority come from the same def
 The finding held for thirty years and then expired, not because it was wrong but because damping became something that could be manufactured. A pitch damper restores by feedback almost all of what the missing tail removed, and once that was routine the tailless configuration returned in the [X-36][ref_mcdonnell_x36], the [B-2][ref_b2_spirit], and a large modern literature. The X-4 did not prove the configuration impossible. It measured what the configuration costs, and that measurement made the eventual remedy specifiable.
 
 The next article takes the [Bell X-5][ref_bell_x5], the first aircraft to change its wing sweep in flight, which turned a configuration choice into a control input and found out what that costs.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 98 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 98, 73 are established and 25 are bespoke.
+Quantities are in units of the International System after conversion from the pounds of the sources, angles and rates are in radians and radians per second unless a value is stated in degrees, the pitch rate is written $q_r$ so that $q$ remains the dynamic pressure, and the short-period figures rest on a representative static margin, radius of gyration and damping derivative rather than on measured X-4 values.
+
+**Equation 1, Horizontal Tail Efficiency Factor.**
+The tail efficiency is the ratio of the dynamic pressure at the tail to the free-stream dynamic pressure, which is below one in the wing wake.
+
+$$
+\eta_t = \frac{q_t}{q_\infty} < 1
+\tag{1}
+$$
+
+**Equation 2, Tail Incidence and the Downwash Derivative.**
+The tail angle of attack is the wing incidence reduced by downwash plus the tail setting, and lifting-line theory estimates the downwash derivative as twice the wing lift-curve slope over pi times the aspect ratio.
+
+$$
+\alpha_t = \alpha \left( 1 - \frac{d\varepsilon}{d\alpha} \right) + i_t - \varepsilon_0, \qquad \frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A}
+\tag{2}
+$$
+
+**Equation 3, Downwash Derivative of the X-4 Planform.**
+The lifting-line estimate at an aspect ratio of 3.60 and a lift-curve slope of 4.0 per radian gives a downwash derivative of 0.71.
+
+$$
+\frac{d\varepsilon}{d\alpha} = \frac{2 \times 4.0}{\pi \times 3.60} = 0.71
+\tag{3}
+$$
+
+**Equation 4, Installed Thrust and Thrust-to-Weight Ratio.**
+Two J30 engines of about 1600 pounds each give 14.2 kilonewtons and a thrust-to-weight ratio of 0.41 at the gross mass of 3547 kilograms.
+[Sadoff and Crossfield 1954][research_x4_flight_evaluation_1954]
+
+$$
+T = 2 \times 1600 \times 4.448 = 1.42 \times 10^{4} \ \text{newtons}, \qquad \frac{T}{W} = \frac{1.42 \times 10^{4}}{3547 \times 9.80665} = 0.41
+\tag{4}
+$$
+
+**Equation 5, Aspect Ratio and Wing Loading.**
+The tabulated span, area and gross mass give an aspect ratio of 3.60 and a wing loading of 1872 newtons per square metre.
+[Sadoff and Crossfield 1954][research_x4_flight_evaluation_1954]
+
+$$
+A = \frac{b^2}{S} = \frac{8.18^2}{18.58} = 3.60, \qquad \frac{W}{S} = \frac{3547 \times 9.80665}{18.58} = 1872 \ \text{newtons per square metre}
+\tag{5}
+$$
+
+**Equation 6, Stall Speed and Approach Speed.**
+The stall speed is the speed at which the maximum lift coefficient supports the weight, and the approach speed is conventionally 1.3 times the stall speed.
+
+$$
+V_{\text{stall}} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}, \qquad V_{\text{app}} = 1.3 \, V_{\text{stall}}
+\tag{6}
+$$
+
+**Equation 7, Available Load Factor and Manoeuvre Corner Speed.**
+The available load factor rises with the square of speed until the corner speed at which maximum lift reaches the limit load factor.
+
+$$
+n(V) = \frac{\rho V^2 C_{L,\max}}{2 \left( W / S \right)}, \qquad V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}
+\tag{7}
+$$
+
+**Equation 8, Incremental Tail Incidence from Pitch Rate.**
+A surface at arm $l_t$ behind the centre of gravity sees an added angle of attack equal to the pitch rate times that arm divided by the flight speed.
+
+$$
+\Delta \alpha_t = \frac{q_r \, l_t}{V}
+\tag{8}
+$$
+
+**Equation 9, Tail Contribution to the Pitch Damping Derivative.**
+The tail contribution to pitch damping is minus twice the tail efficiency, the tail lift-curve slope, the tail volume coefficient and the tail arm in mean chords.
+
+$$
+C_{m q, \text{tail}} = -2 \, \eta_t \, C_{L \alpha_t} \, V_H \, \frac{l_t}{\bar{c}}, \qquad V_H = \frac{S_t \, l_t}{S \, \bar{c}}
+\tag{9}
+$$
+
+**Equation 10, Pitch Damping in Geometric Terms.**
+Written with the tail area ratio, the tail contribution to pitch damping is seen to scale as the square of the tail arm.
+
+$$
+C_{m q, \text{tail}} = -2 \, \eta_t \, C_{L \alpha_t} \, \frac{S_t}{S} \left( \frac{l_t}{\bar{c}} \right)^2
+\tag{10}
+$$
+
+*Equation 11, Bespoke Parallel-Axis Wing Damping Term.*
+Applying the tail relation to the wing lift with unit area ratio and an arm equal to an assumed 5 percent static margin gives a negligible damping contribution of minus 0.02.
+
+$$
+C_{m q, \text{wing, offset}} = -2 \, C_{L\alpha_w} \left( \frac{x_{ac} - x_{cg}}{\bar{c}} \right)^2 = -2 \times 4.0 \times 0.05^2 = -0.02
+\tag{11}
+$$
+
+*Equation 12, Bespoke Tail Damping of a Representative Conventional Aircraft.*
+The tail damping is evaluated for a representative conventional layout with tail efficiency 0.9, tail lift-curve slope 4.0 per radian, tail volume 0.6 and tail arm of three chords.
+
+$$
+C_{m q, \text{tail}} = -2 \times 4.0 \times 0.9 \times 0.6 \times 3.0 = -13.0
+\tag{12}
+$$
+
+*Equation 13, Bespoke Representative Wing-Alone Pitch Damping.*
+A wing-alone damping derivative near minus 0.8 is adopted as representative of a low aspect ratio swept planform and is not derived from this airframe.
+
+$$
+C_{m q, \text{wing}} \approx -0.8
+\tag{13}
+$$
+
+*Equation 14, Bespoke Tail Share of Pitch Damping.*
+With the two representative values the tail supplies 94 percent of the pitch damping of a conventional aircraft.
+
+$$
+\frac{13.0}{13.0 + 0.8} = 94 \ \text{percent}
+\tag{14}
+$$
+
+**Equation 15, Dimensional Longitudinal Stability Derivatives.**
+The pitch stiffness, pitch damping and normal force derivatives are put in dimensional form by the dynamic pressure, wing geometry, pitch inertia and mass.
+
+$$
+M_\alpha = \frac{q S \bar{c} \, C_{m\alpha}}{I_y}, \qquad M_q = \frac{q S \bar{c}^2 \, C_{mq}}{2 I_y V}, \qquad Z_\alpha = -\frac{q S \, C_{L\alpha}}{m}
+\tag{15}
+$$
+
+**Equation 16, Short Period Frequency and Damping Ratio.**
+The short period frequency is approximated by the square root of the negative pitch stiffness, and the damping ratio by the sum of the damping terms divided by twice that frequency.
+
+$$
+\omega_{sp} \approx \sqrt{-M_\alpha}, \qquad \zeta_{sp} = -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}
+\tag{16}
+$$
+
+**Equation 17, Tropospheric Standard Atmosphere.**
+In the troposphere temperature falls linearly with altitude at the lapse rate, pressure follows the corresponding power law, and density follows from the ideal gas law.
+
+$$
+T(h) = T_0 - \lambda h, \qquad p(h) = p_0 \left( \frac{T(h)}{T_0} \right)^{g / \lambda R}, \qquad \rho = \frac{p}{R T}
+\tag{17}
+$$
+
+**Equation 18, Speed of Sound.**
+The speed of sound of an ideal gas is the square root of the ratio of specific heats times the gas constant times the temperature.
+
+$$
+a = \sqrt{\gamma R T}
+\tag{18}
+$$
+
+**Equation 19, Dynamic Pressure at Mach 0.9 and 9144 Metres.**
+The Mach number form of dynamic pressure gives about 17.1 kilopascals at the chosen test condition.
+
+$$
+q = \frac{\gamma}{2} p M^2 = 0.7 \times 30{,}089 \times 0.81 = 1.71 \times 10^{4} \ \text{pascals}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Pitch Stiffness and Short Period Frequency at the Test Condition.*
+With an assumed radius of gyration of 2.13 metres and an assumed 5 percent static margin the pitch stiffness is minus 8.99 per second squared and the frequency 3.00 radians per second.
+
+$$
+M_\alpha = -8.99 \ \text{per second squared}, \qquad \omega_{sp} = 3.00 \ \text{radians per second}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Short Period Natural Period.*
+The representative short period frequency of 3.00 radians per second corresponds to a period of 2.1 seconds.
+
+$$
+T_{sp} = \frac{2 \pi}{\omega_{sp}} = 2.1 \ \text{seconds}
+\tag{21}
+$$
+
+**Equation 22, Damped Natural Frequency.**
+The damped frequency is the natural frequency multiplied by the square root of one less the square of the damping ratio.
+
+$$
+\omega_d = \omega_{sp} \sqrt{1 - \zeta^2}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Tailless Short Period Damping Ratio.*
+Taking a representative wing-alone damping derivative of minus 0.8 and no downwash lag term gives a tailless damping ratio of 0.244.
+
+$$
+\zeta_{sp, \text{tailless}} = 0.244
+\tag{23}
+$$
+
+*Equation 24, Bespoke Tailed Short Period Damping Ratio.*
+Taking a tail damping derivative of minus 13 and a downwash lag term of minus 4 for an otherwise identical aircraft gives a damping ratio of 0.749.
+
+$$
+\zeta_{sp, \text{tailed}} = 0.749
+\tag{24}
+$$
+
+**Equation 25, Short Period Characteristic Equation.**
+The two-degree-of-freedom short period approximation gives a quadratic characteristic equation whose coefficients are the damping sum and the stiffness term.
+
+$$
+\lambda^2 - \left( M_q + M_{\dot\alpha} + \frac{Z_\alpha}{V} \right) \lambda + \left( \frac{Z_\alpha M_q}{V} - M_\alpha \right) = 0
+\tag{25}
+$$
+
+**Equation 26, Roots of the Short Period Characteristic Equation.**
+The roots are a complex pair whose real part is the decay rate and whose imaginary part is the damped frequency.
+
+$$
+\lambda_{1,2} = -\zeta_{sp} \omega_{sp} \pm i \, \omega_{sp} \sqrt{1 - \zeta_{sp}^2}
+\tag{26}
+$$
+
+**Equation 27, Time to Half Amplitude.**
+The time to half amplitude is the natural logarithm of two divided by the product of damping ratio and natural frequency.
+
+$$
+t_{1/2} = \frac{\ln 2}{\zeta_{sp} \omega_{sp}}
+\tag{27}
+$$
+
+**Equation 28, Control Anticipation Parameter.**
+The control anticipation parameter is the square of the short period frequency divided by the normal load factor per unit angle of attack.
+[Moorhouse 1982][ref_moorhouse_woodcock_1981]
+
+$$
+\text{CAP} = \frac{\omega_{sp}^2}{n / \alpha}, \qquad \frac{n}{\alpha} = \frac{C_{L\alpha} \, q \, S}{W}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Control Anticipation Parameter of the X-4.*
+Using the representative short period frequency of 3.00 radians per second, the load factor per radian of 36.5 gives a control anticipation parameter of 0.247.
+
+$$
+\frac{n}{\alpha} = \frac{4.0 \times 17{,}061 \times 18.58}{34{,}784} = 36.5 \ \text{per radian}, \qquad \text{CAP} = \frac{3.00^2}{36.5} = 0.247
+\tag{29}
+$$
+
+*Equation 30, Bespoke Remaining Damping Fraction at Effective Loss of Damping.*
+The article defines the fraction of nominal damping remaining when the damping ratio has fallen to a nominal 0.05, taken as the point of effective loss of damping.
+
+$$
+\zeta = f \, \zeta_{\text{nominal}} = 0.05 \quad \Longrightarrow \quad f = \frac{0.05}{\zeta_{\text{nominal}}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Damping Margins of the Tailless and Tailed Configurations.*
+The remaining fraction is 0.205 for the tailless and 0.067 for the tailed representative damping ratios, so the tailless aircraft has far less damping to spend.
+
+$$
+f_{\text{tailless}} = \frac{0.05}{0.244} = 0.205, \qquad f_{\text{tailed}} = \frac{0.05}{0.749} = 0.067
+\tag{31}
+$$
+
+**Equation 32, Cycles to Half Amplitude.**
+The number of cycles to half amplitude follows from the damping ratio alone and grows without bound as the damping ratio approaches zero.
+
+$$
+N_{1/2} = \frac{\ln 2}{2 \pi} \cdot \frac{\sqrt{1 - \zeta^2}}{\zeta}
+\tag{32}
+$$
+
+**Equation 33, Crossover Model of the Pilot and Aircraft.**
+Near crossover the combined pilot and aircraft behave as an integrator at the crossover frequency with an effective time delay.
+[Bidinotto et al. 2021][research_bidinotto_2021]
+
+$$
+Y_p Y_c \approx \frac{\omega_c \, e^{-\tau_e s}}{s}
+\tag{33}
+$$
+
+**Equation 34, Phase Margin of the Crossover Model.**
+The phase margin is ninety degrees less the phase lag of the effective delay at the crossover frequency.
+
+$$
+\phi_m = \frac{\pi}{2} - \omega_c \tau_e
+\tag{34}
+$$
+
+**Equation 35, First-Order Pade Approximation of a Delay.**
+The first-order Pade approximation replaces a pure delay by a rational function with a right-half-plane zero.
+
+$$
+e^{-\tau_e s} \approx \frac{1 - \tau_e s / 2}{1 + \tau_e s / 2}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Phase Consumed by Pilot Delay.*
+An assumed pilot delay near 0.25 seconds at a crossover frequency near 3 radians per second consumes about 43 degrees of phase.
+
+$$
+\omega_c \tau_e = 0.75 \ \text{radians} = 43 \ \text{degrees}
+\tag{36}
+$$
+
+**Equation 37, Swept-Wing Lift-Curve Slope.**
+The planform lift-curve slope formula accounts for aspect ratio, compressibility, half-chord sweep and the section lift-curve slope.
+
+$$
+C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{ \dfrac{A^2 \beta_s^2}{\kappa^2} \left( 1 + \dfrac{\tan^2 \Lambda_{c/2}}{\beta_s^2} \right) + 4 }}, \qquad \beta_s = \sqrt{1 - M^2}
+\tag{37}
+$$
+
+**Equation 38, Static Margin and Pitch Stiffness.**
+The static margin is the distance from the centre of gravity to the neutral point in mean chords, and the pitch stiffness is the negative of the lift-curve slope times that margin.
+
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} SM
+\tag{38}
+$$
+
+**Equation 39, Manoeuvre Margin and Relative Density.**
+The manoeuvre margin adds to the static margin the pitch damping divided by twice the relative density parameter.
+
+$$
+MM = SM - \frac{C_{mq}}{2 \mu}, \qquad \mu = \frac{2m}{\rho S \bar{c}}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Tailless Manoeuvre Margin.*
+With the representative wing-alone damping and a relative density of 367 the tailless manoeuvre margin is 0.0511.
+
+$$
+MM_{\text{tailless}} = 0.05 + \frac{0.8}{734} = 0.0511
+\tag{40}
+$$
+
+*Equation 41, Bespoke Tailed Manoeuvre Margin.*
+With the representative tail damping of minus 13 the tailed manoeuvre margin is 0.0677.
+
+$$
+MM_{\text{tailed}} = 0.05 + \frac{13.0}{734} = 0.0677
+\tag{41}
+$$
+
+**Equation 42, Stick Force per Unit Load Factor.**
+The stick force per unit load factor is proportional to the manoeuvre margin.
+
+$$
+\frac{F_s}{n} \propto MM
+\tag{42}
+$$
+
+**Equation 43, Tail Contribution to the Neutral Point.**
+A tail moves the neutral point aft by the tail volume coefficient times the tail-to-wing lift slope ratio corrected for downwash, a term that is zero without a tail.
+
+$$
+\Delta \frac{x_{np}}{\bar{c}} = V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)
+\tag{43}
+$$
+
+**Equation 44, Aft Centre of Gravity Limit.**
+The aft limit lies forward of the neutral point by the minimum acceptable static margin.
+
+$$
+x_{cg, \text{aft}} = x_{np} - SM_{\min} \bar{c}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Forward Centre of Gravity Limit.*
+The article sets the forward limit where the elevon control power at full deflection can just trim the moment of maximum lift about the aerodynamic centre, neglecting the zero-lift moment.
+
+$$
+x_{cg, \text{fwd}} = x_{ac} - \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} \bar{c}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Usable Centre of Gravity Range.*
+The difference of the two limits under the same trim model gives a range in which the final tail term vanishes for a tailless layout.
+
+$$
+\Delta x_{cg} = \left[ \frac{\left| C_{m \delta_e} \right| \delta_{e, \max}}{C_{L, \max}} - SM_{\min} \right] \bar{c} + \left( x_{np} - x_{ac} \right)
+\tag{46}
+$$
+
+**Equation 47, Positive Zero-Lift Pitching Moment for Trim.**
+A stable aircraft must have a positive pitching moment at zero lift to trim at positive lift.
+
+$$
+C_{m0} > 0
+\tag{47}
+$$
+
+**Equation 48, Linear Spanwise Twist Distribution.**
+The twist is taken to vary linearly from the root to its tip value.
+
+$$
+\varepsilon_t(y) = \varepsilon_{\text{tip}} \frac{2y}{b}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Zero-Lift Moment from Washout on a Swept Wing.*
+The article approximates the zero-lift moment of a linearly twisted swept wing as proportional to the lift-curve slope, the tip twist and the tangent of the sweep.
+
+$$
+C_{m0} \approx -\frac{C_{L\alpha} \, \varepsilon_{\text{tip}} \tan \Lambda}{6}
+\tag{49}
+$$
+
+**Equation 50, Empirical Span Efficiency Correlation.**
+The empirical correlation fitted to the Oswald efficiency factor gives 0.95 at an aspect ratio of 3.60 and 0.84 at seven.
+[Oswald 1932][research_oswald_1932]
+
+$$
+e \approx 1.78 \left( 1 - 0.045 A^{0.68} \right) - 0.64
+\tag{50}
+$$
+
+**Equation 51, Induced Drag Ratio at Aspect Ratios 3.6 and 7.**
+The correlated efficiency factors give the X-4 planform 1.7 times the induced drag of an aspect ratio seven wing at the same lift coefficient.
+[Oswald 1932][research_oswald_1932]
+
+$$
+\frac{C_{D,i}(A = 3.6)}{C_{D,i}(A = 7)} = \frac{7 \times 0.84}{3.6 \times 0.95} = 1.7
+\tag{51}
+$$
+
+**Equation 52, Induced Drag with an Efficiency Factor Below One.**
+The induced drag coefficient is the square of the lift coefficient over pi, aspect ratio and the efficiency factor, which is below one for non-elliptic loading.
+[Oswald 1932][research_oswald_1932]
+
+$$
+C_{D,i} = \frac{C_L^2}{\pi A e}, \qquad e < 1
+\tag{52}
+$$
+
+*Equation 53, Bespoke Trim Drag Increment.*
+The article writes the trim penalty as the induced drag of the lift needed to balance the zero-lift moment over an effective arm, which scales as the inverse square of that arm.
+
+$$
+\Delta C_{D, \text{trim}} = \frac{C_{m0}^2}{\pi A e} \left( \frac{\bar{c}}{\ell_{\text{eff}}} \right)^2
+\tag{53}
+$$
+
+**Equation 54, Aerodynamic Centre Shift Through the Transonic Range.**
+The aerodynamic centre moves from about the quarter chord in subsonic flow to about the half chord in supersonic flow.
+
+$$
+\frac{x_{ac}}{\bar{c}} : 0.25 \longrightarrow 0.50
+\tag{54}
+$$
+
+**Equation 55, Trim Moment Increment from Aerodynamic Centre Migration.**
+The pitching moment change is the lift coefficient times the aerodynamic centre shift in mean chords.
+
+$$
+\Delta C_m = C_L \frac{\Delta x_{ac}}{\bar{c}}
+\tag{55}
+$$
+
+**Equation 56, Elevon Deflection to Absorb a Trim Change.**
+The elevon deflection needed is the moment change divided by the magnitude of the elevon control power.
+
+$$
+\delta_e = \frac{\Delta C_m}{\left| C_{m \delta_e} \right|}
+\tag{56}
+$$
+
+**Equation 57, Elevon Mixing.**
+Each elevon deflection is the sum or difference of the symmetric pitch and the differential roll commands.
+[elevons][ref_elevon]
+
+$$
+\delta_L = \delta_e + \delta_a, \qquad \delta_R = \delta_e - \delta_a
+\tag{57}
+$$
+
+**Equation 58, Elevon Deflection Limit.**
+The sum of the magnitudes of the pitch and roll commands cannot exceed the mechanical limit of each surface.
+
+$$
+\left| \delta_e \right| + \left| \delta_a \right| \le \delta_{\max}
+\tag{58}
+$$
+
+**Equation 59, Pitch Authority Remaining During a Roll Input.**
+The pitch deflection available is the mechanical limit less the magnitude of the roll command.
+
+$$
+\delta_{e, \text{available}} = \delta_{\max} - \left| \delta_a \right|
+\tag{59}
+$$
+
+*Equation 60, Bespoke Adverse Yaw from Elevon Deflection.*
+The article models adverse yaw as proportional to the lift coefficient and the rolling effectiveness with a factor $K$ of order 0.1 to 0.2.
+
+$$
+C_{n \delta_a} \approx -K \, C_L \, C_{l \delta_a}
+\tag{60}
+$$
+
+**Equation 61, Pitch-Up Criterion.**
+Pitch-up is located where the pitching moment slope with lift coefficient becomes positive.
+
+$$
+\frac{\partial C_m}{\partial C_L} > 0
+\tag{61}
+$$
+
+**Equation 62, Elevon Control Power.**
+The control power is the lift produced per unit deflection times the arm from the centre of gravity to the centre of pressure of that lift in mean chords.
+
+$$
+C_{m \delta_e} = -\frac{\partial C_L}{\partial \delta_e} \cdot \frac{x_{cp} - x_{cg}}{\bar{c}}
+\tag{62}
+$$
+
+**Equation 63, Hinge Moment.**
+The hinge moment is dynamic pressure times control surface area, control surface chord and hinge moment coefficient.
+
+$$
+H = q \, S_e \, c_e \, C_h
+\tag{63}
+$$
+
+**Equation 64, Stick Force and Hinge Moment Coefficient.**
+The stick force is the gearing times the hinge moment, and the hinge moment coefficient is linear in angle of attack and deflection.
+
+$$
+F_s = G \, H = G \, q \, S_e \, c_e \, C_h, \qquad C_h = C_{h_0} + C_{h\alpha} \alpha + C_{h\delta} \delta_e
+\tag{64}
+$$
+
+**Equation 65, Thin Aerofoil Flap Effectiveness.**
+Thin aerofoil theory gives the effectiveness of a trailing-edge surface as a function of its chord fraction through the hinge angle $\theta_h$.
+
+$$
+\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c} - 1
+\tag{65}
+$$
+
+*Equation 66, Bespoke Aerodynamic Balance Reduction of the Hinge Moment Derivative.*
+The article models aerodynamic balance as reducing the deflection hinge moment derivative by the square of the ratio of balance chord to control chord.
+
+$$
+C_{h\delta, \text{balanced}} = C_{h\delta} \left[ 1 - \left( \frac{c_b}{c_e} \right)^2 \right]
+\tag{66}
+$$
+
+**Equation 67, Fin Contribution to Directional Stability.**
+The directional stability derivative is the vertical tail volume coefficient times the fin lift-curve slope and the fin efficiency.
+
+$$
+C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v \, l_v}{S \, b}
+\tag{67}
+$$
+
+**Equation 68, Fin Contribution to Yaw Damping.**
+The fin yaw damping derivative carries the same square of arm dependence as the tail pitch damping.
+
+$$
+C_{n r, \text{fin}} = -2 \, \eta_v \, C_{L\alpha_v} \, V_V \, \frac{l_v}{b}
+\tag{68}
+$$
+
+**Equation 69, Lanchester Phugoid Approximation.**
+The phugoid frequency is approximately the square root of two times gravity over speed, and its damping ratio is approximately the reciprocal of the square root of two times the lift-to-drag ratio.
+[phugoid][ref_phugoid]
+
+$$
+\omega_{ph} \approx \frac{g \sqrt{2}}{V}, \qquad \zeta_{ph} \approx \frac{1}{\sqrt{2}} \frac{1}{L / D}
+\tag{69}
+$$
+
+**Equation 70, Dutch Roll Frequency.**
+The Dutch roll frequency is approximated by the square root of the directional stiffness moment over the yaw inertia, and its damping rises with the yaw damping derivative.
+[Dutch roll][ref_dutch_roll]
+
+$$
+\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \zeta_{dr} \propto -C_{nr}
+\tag{70}
+$$
+
+**Equation 71, Dutch Roll Damping Ratio.**
+The Dutch roll damping ratio is approximated as the dimensional yaw damping divided by twice the Dutch roll frequency.
+[Dutch roll][ref_dutch_roll]
+
+$$
+\zeta_{dr} \approx -\frac{1}{2} \left( \frac{C_{nr}}{\sqrt{ \left( q S b \, C_{n\beta} / I_z \right)}} \right) \frac{q S b^2}{2 I_z V}
+\tag{71}
+$$
+
+**Equation 72, Roll Mode Time Constant and Spiral Stability Condition.**
+The roll mode time constant follows from roll inertia and roll damping, and the spiral mode is stable when the stated combination of rolling and yawing derivatives is positive.
+
+$$
+\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}, \qquad L_\beta N_r - L_r N_\beta > 0
+\tag{72}
+$$
+
+*Equation 73, Bespoke Turbojet Thrust Lapse with Altitude and Mach Number.*
+The article models thrust as proportional to ambient pressure with an isentropic ram correction.
+
+$$
+\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{73}
+$$
+
+**Equation 74, Thrust-Limited Maximum Mach Number.**
+Equating thrust to drag with the dynamic pressure written in Mach number form and solving gives the square of the maximum Mach number.
+
+$$
+M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}
+\tag{74}
+$$
+
+**Equation 75, Specific Excess Power.**
+Specific excess power is the speed times the excess of thrust over drag divided by the weight.
+
+$$
+P_s = \frac{V \left( T - D \right)}{W}
+\tag{75}
+$$
+
+**Equation 76, Climb Angle and Energy Rate.**
+The sine of the climb angle is the excess thrust over weight, and the rate of change of energy height is the specific excess power.
+
+$$
+\sin \gamma = \frac{T - D}{W}, \qquad \frac{dh_e}{dt} = P_s
+\tag{76}
+$$
+
+**Equation 77, Energy Height.**
+Energy height adds the kinetic energy per unit weight to the altitude.
+
+$$
+h_e = h + \frac{V^2}{2 g}
+\tag{77}
+$$
+
+*Equation 78, Bespoke Doublet Pulse Duration.*
+The article sizes each doublet pulse at a quarter of the representative short period, about 0.52 seconds.
+
+$$
+t_{\text{pulse}} \approx \frac{\pi}{2 \omega_{sp}} = 0.52 \ \text{seconds}
+\tag{78}
+$$
+
+**Equation 79, Short Period Frequency Response.**
+The pitch attitude response to elevon input is that of a second-order system with the short period frequency and damping ratio.
+
+$$
+\left| \frac{\theta(i\omega)}{\delta_e(i\omega)} \right| = \frac{\left| M_{\delta_e} \right|}{\sqrt{\left( \omega_{sp}^2 - \omega^2 \right)^2 + \left( 2 \zeta \omega_{sp} \omega \right)^2}}
+\tag{79}
+$$
+
+**Equation 80, Resonant Peak of the Frequency Response.**
+At resonance the response amplitude is inversely proportional to the damping ratio.
+
+$$
+\left| \frac{\theta}{\delta_e} \right|_{\max} \approx \frac{\left| M_{\delta_e} \right|}{2 \zeta \omega_{sp}^2}
+\tag{80}
+$$
+
+*Equation 81, Bespoke Short Period Frequency in Hertz.*
+The representative short period frequency of 3.00 radians per second is 0.48 hertz.
+
+$$
+f_{sp} = \frac{\omega_{sp}}{2 \pi} = 0.48 \ \text{hertz}
+\tag{81}
+$$
+
+**Equation 82, Nyquist Sampling Criterion for the Short Period.**
+The sample rate must exceed twice the short period frequency.
+[Nyquist criterion][ref_flight_test]
+
+$$
+f_s > 2 f_{sp}
+\tag{82}
+$$
+
+**Equation 83, Logarithmic Decrement and Damping Ratio.**
+The logarithmic decrement over $n$ cycles gives the damping ratio exactly through the stated relation.
+
+$$
+\delta_{\ln} = \frac{1}{n} \ln \frac{x_0}{x_n}, \qquad \zeta = \frac{\delta_{\ln}}{\sqrt{4 \pi^2 + \delta_{\ln}^2}}
+\tag{83}
+$$
+
+**Equation 84, Uncertainty of a Damping Ratio from the Decrement.**
+Propagating the amplitude uncertainties through the decrement shows the relative uncertainty of the damping ratio growing as the decrement falls.
+
+$$
+\frac{u(\zeta)}{\zeta} \approx \frac{1}{n \, \delta_{\ln}} \sqrt{ \left( \frac{u(x_0)}{x_0} \right)^2 + \left( \frac{u(x_n)}{x_n} \right)^2 }
+\tag{84}
+$$
+
+**Equation 85, Law of Propagation of Uncertainty.**
+The combined variance of a derived quantity is the sum of the input variances weighted by the squared sensitivity coefficients.
+
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{85}
+$$
+
+**Equation 86, Pitch Rate Feedback Law.**
+A pitch damper adds to the pilot command a deflection proportional to pitch rate.
+[Moul and Brown 1959][research_artificial_pitch_damping_1959]
+
+$$
+\delta_e = \delta_{e, \text{pilot}} - k_q \, q_r
+\tag{86}
+$$
+
+**Equation 87, Augmented Pitch Damping Derivative.**
+Rate feedback adds to the pitch damping derivative the gain times the control power scaled by twice the speed over the mean chord.
+[Moul and Brown 1959][research_artificial_pitch_damping_1959]
+
+$$
+C_{mq, \text{aug}} = C_{mq} + k_q \, C_{m \delta_e} \frac{2V}{\bar{c}}
+\tag{87}
+$$
+
+**Equation 88, Augmented Short Period Damping Ratio.**
+The augmented damping ratio adds the feedback term to the natural damping sum.
+
+$$
+\zeta_{\text{target}} = -\frac{M_q + k_q M_{\delta_e} + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}
+\tag{88}
+$$
+
+**Equation 89, Pitch Damper Gain for a Target Damping Ratio.**
+Solving the augmented damping relation for the gain gives the feedback needed to reach a target damping ratio.
+
+$$
+k_q = \frac{-2 \zeta_{\text{target}} \omega_{sp} - \left( M_q + M_{\dot\alpha} + Z_\alpha / V \right)}{M_{\delta_e}}
+\tag{89}
+$$
+
+*Equation 90, Bespoke Added Damping Term for a Target of 0.7.*
+Raising the representative tailless damping ratio of 0.244 to a target of 0.7 at 3.00 radians per second requires an added damping term of minus 2.74 per second.
+
+$$
+\Delta \left( \frac{1}{s} \right) = -2 \left( 0.7 - 0.244 \right) \times 3.00 = -2.74 \ \text{per second}
+\tag{90}
+$$
+
+*Equation 91, Bespoke Effective Delay of a Rate-Limited Actuator.*
+The article approximates the effective delay of a rate-limited surface as commanded amplitude times frequency over the maximum rate, which makes it grow with amplitude.
+
+$$
+\tau_{\text{eff}} \approx \frac{A_{\text{cmd}} \, \omega}{\dot{\delta}_{\max}}
+\tag{91}
+$$
+
+**Equation 92, Actuator Bandwidth Requirement.**
+The actuator bandwidth must greatly exceed the short period frequency so that the actuator adds little lag.
+
+$$
+\omega_{\text{act}} \gg \omega_{sp}
+\tag{92}
+$$
+
+**Equation 93, Yawing Moment from a Split Drag Surface.**
+A drag increment at spanwise station $y_{\text{eff}}$ produces a yawing moment equal to the drag times that station.
+
+$$
+N = \Delta D \cdot y_{\text{eff}}, \qquad C_n = \Delta C_D \frac{y_{\text{eff}}}{b}
+\tag{93}
+$$
+
+**Equation 94, Control Effectiveness Mapping.**
+The moment vector is a linear map of a surface deflection vector with more surfaces than axes, so the system is underdetermined.
+
+$$
+\mathbf{m} = \mathbf{B} \, \boldsymbol{\delta}, \qquad \mathbf{m} \in \mathbb{R}^3, \quad \boldsymbol{\delta} \in \mathbb{R}^p, \quad p > 3
+\tag{94}
+$$
+
+**Equation 95, Minimum-Norm Pseudo-Inverse Allocation.**
+The Moore-Penrose pseudo-inverse gives the minimum-norm deflections that produce the desired moments.
+
+$$
+\boldsymbol{\delta} = \mathbf{B}^{+} \mathbf{m}_{\text{des}} = \mathbf{B}^{\top} \left( \mathbf{B} \mathbf{B}^{\top} \right)^{-1} \mathbf{m}_{\text{des}}
+\tag{95}
+$$
+
+**Equation 96, Surface Position and Rate Limits.**
+Each surface is bounded in deflection and in deflection rate.
+
+$$
+\left| \delta_i \right| \le \delta_{i, \max}, \qquad \left| \dot{\delta}_i \right| \le \dot{\delta}_{i, \max}
+\tag{96}
+$$
+
+**Equation 97, Pitch Acceleration from the Aerodynamic Moment.**
+The pitch acceleration is the aerodynamic pitching moment divided by the pitch inertia.
+
+$$
+\ddot{\theta} = \frac{q S \bar{c} \, C_m(\alpha)}{I_y}
+\tag{97}
+$$
+
+**Equation 98, Tumbling Condition.**
+Tumbling is possible when the pitching moment coefficient remains positive throughout the post-stall range of angle of attack.
+[Fremaux et al. 1993][research_tumbling_characteristics_1993]
+
+$$
+C_m(\alpha) > 0 \quad \text{for all } \alpha \text{ in the post-stall range}
+\tag{98}
+$$
+
+### Notation
+
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air, and in the trajectory relations the flight path angle
+- $S$, the wing reference area
+- $b$, the wing span
+- $\bar{c}$, the mean aerodynamic chord
+- $A$, the wing aspect ratio
+- $W$, the aircraft weight
+- $T$, the thrust
+- $D$, the drag
+- $C_L$, the lift coefficient
+- $C_{L\alpha}$, the lift-curve slope per radian
+- $C_{L,\max}$, the maximum lift coefficient
+- $C_{m\alpha}$, the pitching moment slope with angle of attack
+- $C_{n\beta}$, the directional stability derivative
+- $C_{lp}$, the roll damping derivative
+- $I_x$, the moment of inertia in roll
+- $I_y$, the moment of inertia in pitch
+- $I_z$, the moment of inertia in yaw
+- $\rho$, the air density
+- $P_s$, the specific excess power
+- $h_e$, the energy height
+- $SM$, the static margin as a fraction of the mean aerodynamic chord
+- $x_{np}$, the longitudinal position of the neutral point
+- $x_{cg}$, the longitudinal position of the centre of gravity
+- $f_s$, the sample rate
+- $q$, the dynamic pressure
+- $q_r$, the pitch rate
+- $\eta_t$, the horizontal tail efficiency factor
+- $\frac{d\varepsilon}{d\alpha}$, the downwash derivative at the tail
+- $l_t$, the tail arm behind the centre of gravity
+- $V_H$, the horizontal tail volume coefficient
+- $C_{L\alpha_t}$, the lift-curve slope of the horizontal tail
+- $C_{L\alpha_w}$, the lift-curve slope of the wing
+- $C_{mq}$, the pitch damping derivative
+- $x_{ac}$, the longitudinal position of the aerodynamic centre
+- $M_\alpha$, the dimensional pitch stiffness derivative
+- $M_q$, the dimensional pitch damping derivative
+- $M_{\dot\alpha}$, the dimensional downwash lag derivative
+- $Z_\alpha$, the dimensional normal force derivative
+- $\omega_{sp}$, the short period natural frequency
+- $\zeta_{sp}$, the short period damping ratio
+- $\zeta$, a damping ratio
+- $\lambda$, the temperature lapse rate in the atmosphere model and an eigenvalue in the characteristic equation
+- $\text{CAP}$, the control anticipation parameter
+- $f$, the fraction of nominal damping remaining
+- $\omega_c$, the crossover frequency
+- $\tau_e$, the effective pilot time delay
+- $\phi_m$, the phase margin
+- $MM$, the manoeuvre margin
+- $\mu$, the relative density parameter
+- $C_{m0}$, the pitching moment coefficient at zero lift
+- $\varepsilon_{\text{tip}}$, the twist at the wing tip
+- $e$, the span efficiency factor
+- $\delta_e$, the symmetric elevon deflection
+- $\delta_a$, the differential elevon deflection
+- $\delta_{\max}$, the mechanical deflection limit of an elevon
+- $C_{m \delta_e}$, the elevon pitch control power
+- $C_h$, the hinge moment coefficient
+- $\tau$, the effectiveness of a trailing-edge control surface
+- $V_V$, the vertical tail volume coefficient
+- $C_{nr}$, the yaw damping derivative
+- $\delta_{\ln}$, the logarithmic decrement
+- $k_q$, the pitch rate feedback gain
+- $\mathbf{B}$, the control effectiveness matrix
+- $\boldsymbol{\delta}$, the vector of surface deflections
 
 ## References
 

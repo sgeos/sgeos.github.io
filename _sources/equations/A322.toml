@@ -1,0 +1,459 @@
+# Equation classification for A322. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in United States customary units, with weight in pounds, length in feet, speed in feet per second and density in slugs per cubic foot, and the escape weight of 350 pounds, the rotor diameter of 20 feet, the blade mass of 12 pounds, the tip speed of 400 feet per second, the blade chord of 7 inches and the lift-to-drag ratio of 4 are values the article assumes, while $\\gamma$ is the glide angle and $\\gamma_L$ the Lock number."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "In-Plane Force on a Blade Element"
+gloss = "The net force in the plane of rotation on a blade element is the in-plane component of its lift less that of its drag at the inflow angle."
+cite = []
+digest = "0121c9f24ce338ba"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Equilibrium Inflow Angle of an Autorotating Element"
+gloss = "An element neither drives nor retards the rotor when the tangent of its inflow angle equals its section drag-to-lift ratio."
+cite = []
+digest = "87db54d38d91efe2"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Torque Balance of an Autorotating Rotor"
+gloss = "A rotor in steady autorotation turns at the speed at which the moments of the in-plane forces of its driving and driven regions cancel over the disc."
+cite = []
+digest = "4688f4276210e954"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Disc Area and Hover Induced Velocity"
+gloss = "The actuator-disc result gives the induced velocity a rotor needs in hover from its weight, the air density and its disc area."
+cite = ["book_leishman_2006", "book_johnson_1980", "research_castles_de_leeuw_1953"]
+digest = "23eccc57793b48bf"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Disc Area of the X-25B Rotor"
+gloss = "The disc area follows from a rotor diameter the article takes as 20 feet, since the record does not settle whether the X-25 used the standard B-8M rotor."
+cite = []
+digest = "7cd857ecb471baac"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Hover Induced Velocity of the X-25B"
+gloss = "The actuator-disc induced velocity at an escape weight the article assumes as 350 pounds on the taken disc at sea-level density is about 15 feet per second."
+cite = []
+digest = "272eaf5db96d308b"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Momentum Theory Thrust in the Windmill Brake State"
+gloss = "In the windmill brake state momentum theory gives the thrust in terms of the descent speed and the induction factor $a$."
+cite = []
+digest = "ccb13c03476100f8"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Descent Ratio and Induction Factor"
+gloss = "Setting thrust equal to weight cancels density and area and relates the squared ratio of hover induced velocity to descent speed to the induction factor alone."
+cite = []
+digest = "af30bcbd69fcab89"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Momentum Theory Bound on the Descent Ratio"
+gloss = "Because the induction factor term cannot exceed one quarter, momentum theory has a solution only when the descent speed is at least twice the hover induced velocity."
+cite = []
+digest = "dba82988d4619e52"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Autorotative Descent Rate of the X-25B"
+gloss = "The measured autorotation ratio of 1.8 applied to the hover induced velocity at the assumed 350 pounds gives a descent of about 28 feet per second."
+cite = []
+digest = "cea5e7fa18509ea2"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Terminal Descent of a Drag Device"
+gloss = "Balancing weight against the drag of a device with coefficient $C_D$ referred to swept area gives its terminal descent speed."
+cite = []
+digest = "a4429d0847ac3dfd"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Drag Coefficient Equivalent to a Descent Ratio"
+gloss = "Substituting the definition of the hover induced velocity makes weight, density and area cancel, so a descent ratio fixes a drag coefficient on disc area."
+cite = []
+digest = "6a786fbea40c6130"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Drag Coefficient of an Autorotating Rotor"
+gloss = "The measured autorotation ratio of 1.8 corresponds to a drag coefficient of about 1.23 referred to disc area."
+cite = []
+digest = "6d5e06a51bea74a2"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Projected Area of an Inflated Canopy"
+gloss = "The projected area of an inflated canopy is the nominal area scaled by the square of the ratio of projected to nominal diameter."
+cite = ["book_knacke_1992"]
+digest = "500b115548958cee"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Canopy Drag Coefficient on Projected Area"
+gloss = "A flat circular canopy coefficient of 0.75 on nominal area becomes about 1.67 on projected area when the inflated diameter is 0.67 of the nominal."
+cite = ["book_knacke_1992"]
+digest = "d7e5099bf3cce098"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Nominal Area of the Standard Personnel Canopy"
+gloss = "The standard personnel canopy of 28 foot nominal diameter has a nominal area of about 616 square feet."
+cite = ["book_knacke_1992"]
+digest = "0a44abb5d9fd107f"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Disc or Canopy Loading"
+gloss = "The loading of a swept-area drag device is its weight divided by its swept area."
+cite = []
+digest = "9f056a5be794ba7f"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Terminal Descent in Terms of Loading"
+gloss = "The terminal descent speed of any swept-area drag device is a constant set by its drag coefficient times the square root of loading over density."
+cite = []
+digest = "cb239641b50857e6"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Equal-Weight Descent Ratio of Rotor to Canopy"
+gloss = "At equal weight the rotor on the taken 20 foot disc descends about nine percent faster than the 28 foot canopy, a ratio from which the weight cancels."
+cite = []
+digest = "e8b5b226745cf2ca"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Glide Angle and Sink Rate"
+gloss = "The glide angle has a tangent equal to the reciprocal of the lift-to-drag ratio and the sink rate is the airspeed times the sine of that angle."
+cite = []
+digest = "d973790347a67fd0"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Small-Angle Sink Rate in the Glide"
+gloss = "Dividing a best-glide speed the article assumes as 45 miles an hour by an assumed lift-to-drag ratio of 4 gives a sink rate of 16.5 feet per second."
+cite = []
+digest = "b03e726da3dbaff3"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Exact Sink Rate in the Glide"
+gloss = "The exact form at the same assumed speed and ratio gives 16.0 feet per second, so the simpler form reads three percent high."
+cite = []
+digest = "d4125eb6cc65e4cc"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Still-Air Glide Range"
+gloss = "In still air a glide at a fixed lift-to-drag ratio covers a horizontal range equal to the release height times that ratio."
+cite = []
+digest = "91ad30fb2f817068"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Descent Rate at Altitude in the Standard Atmosphere"
+gloss = "The descent rate scales with the inverse square root of the density ratio, which the tropospheric standard atmosphere gives as a power law in height."
+cite = []
+digest = "9af6d6f4f05294d0"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Time Aloft with Density Varying"
+gloss = "Integrating the inverse sink rate over height, with the sink rate varying as the inverse square root of the density ratio, gives the time aloft."
+cite = []
+digest = "038f1fdaebf01032"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Rotor Solidity"
+gloss = "Two blades of an assumed 7 inch chord on the taken 10 foot radius give a solidity of about 0.037."
+cite = []
+digest = "0a5e51da00289f79"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Canopy Area Matching the Rotor Drag Area"
+gloss = "Matching the drag area of the taken rotor disc at the measured coefficient with fabric at 0.75 needs about 517 square feet of canopy."
+cite = []
+digest = "def1799adad7061e"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Lock Number Definition and Blade Inertia"
+gloss = "The Lock number compares aerodynamic forcing on a blade to its inertia, here with the inertia of a uniform blade of a mass the article assumes as 12 pounds."
+cite = []
+digest = "1f0ad923b033471a"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Lock Number of the X-25B Blade"
+gloss = "At sea-level density with a lift-curve slope of 5.7, the assumed chord and the assumed blade inertia, the Lock number is about 6.4."
+cite = []
+digest = "6bac04a06999a8cd"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Rotor Angular Speed"
+gloss = "A tip speed the article assumes as 400 feet per second on a 10 foot radius gives 40 radians per second."
+cite = []
+digest = "8a90dda11ac43184"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Thrust Coefficient"
+gloss = "The assumed 350 pounds referred to the dynamic pressure at the assumed tip speed on the taken disc gives a thrust coefficient of about 0.0029."
+cite = []
+digest = "38f83a51e0b3a256"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Blade Loading Coefficient"
+gloss = "Dividing the thrust coefficient by the assumed solidity gives a blade loading coefficient of about 0.079, below the stall limit near 0.10."
+cite = []
+digest = "91a0acab75bff529"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Tip Speed Ratio in Autorotation"
+gloss = "The assumed tip speed over the modelled descent rate gives a tip speed ratio of about 14.5."
+cite = []
+digest = "b0110f9f98d84e2f"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Rotor Moment of Inertia"
+gloss = "Treating each of the two blades as a uniform rod of the assumed mass about the hub gives about 25 slug square feet."
+cite = []
+digest = "0bc6e073c23dc171"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Stored Rotational Energy"
+gloss = "The rotational kinetic energy of the assumed inertia at the assumed angular speed is about 19,900 foot-pounds."
+cite = []
+digest = "0b771ef3ef4079d5"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Ideal Height Loss to Spin Up the Rotor"
+gloss = "Dividing the stored energy by the assumed weight gives about 57 feet of height if every part of the potential energy went into the rotor."
+cite = []
+digest = "4dd5362413603126"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Stored Energy Independent of Radius"
+gloss = "For blades taken as uniform rods turning at a fixed tip speed, the stored energy reduces to the blade mass times the square of tip speed and the radius cancels."
+cite = []
+digest = "50da842124086c43"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Descent Rate Scaling with Weight and Radius"
+gloss = "Because the descent rate goes as the square root of disc loading, it scales as the square root of weight over the rotor radius."
+cite = ["ref_kaman_saver"]
+digest = "00dbedfaf344e4a2"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Kinetic Energy of the Descent"
+gloss = "The energy a flare must absorb is the kinetic energy of the vehicle at its descent rate."
+cite = []
+digest = "50d1a563e6b7e9b9"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Flare Energy Required in Terms of Weight and Radius"
+gloss = "Substituting the measured descent ratio of 1.8 and the actuator-disc induced velocity makes the required energy go as the square of weight over the square of radius."
+cite = []
+digest = "1d30314b3c3d72bc"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Flare Energy Margin"
+gloss = "The article defines the margin as the stored energy of uniform-rod blades over the energy the flare requires."
+cite = []
+digest = "7bf57d6ce9731534"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Blade Mass for a Unit Energy Margin"
+gloss = "Inverting the margin at unity gives the blade mass a rotor would need, 2.5 pounds a blade for the X-25B and 21 for the Stowable Aircrew Vehicle Escape Rotorseat, or SAVER, against the assumed 12."
+cite = []
+digest = "a0d8b89b1ac0182e"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Thrust-to-Weight Ratio of the SAVER"
+gloss = "The documented 430 pound turbofan thrust over the 710 pound SAVER weight is a thrust-to-weight ratio of 0.61."
+cite = ["ref_kaman_saver"]
+digest = "9e1292e5d0e24f54"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Stored Energy of a Small Lift Rotor"
+gloss = "The uniform-rod stored energy in terms of blade count, blade mass and tip speed shows that a small light blade at modest tip speed stores little energy."
+cite = []
+digest = "b3b8ad4f4a66e621"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the inflow angle at a blade element"
+
+[[symbol]]
+tex = 'C_d'
+meaning = "the section drag coefficient, with $C_l$ the section lift coefficient"
+
+[[symbol]]
+tex = 'R'
+meaning = "the rotor radius, and in Equation 23 the glide range"
+
+[[symbol]]
+tex = 'A'
+meaning = "the rotor disc area, or the swept area of a drag device"
+
+[[symbol]]
+tex = 'v_h'
+meaning = "the hover induced velocity"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, with $\\rho_0$ its sea-level value"
+
+[[symbol]]
+tex = 'V_d'
+meaning = "the descent rate"
+
+[[symbol]]
+tex = 'a'
+meaning = "the induction factor, and in Equations 28 and 29 the lift-curve slope"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient referred to swept area"
+
+[[symbol]]
+tex = 'D_p'
+meaning = "the projected diameter of an inflated canopy, with $D_0$ the nominal diameter"
+
+[[symbol]]
+tex = 'S_0'
+meaning = "the nominal area of a canopy, with $S_p$ the projected area"
+
+[[symbol]]
+tex = 'k'
+meaning = "the descent constant of a swept-area drag device"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the glide angle"
+
+[[symbol]]
+tex = 'V_s'
+meaning = "the sink rate in the glide"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the rotor solidity"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of blades"
+
+[[symbol]]
+tex = 'c'
+meaning = "the blade chord"
+
+[[symbol]]
+tex = '\gamma_L'
+meaning = "the Lock number"
+
+[[symbol]]
+tex = 'I_b'
+meaning = "the moment of inertia of one blade about the hub, with $I$ that of the rotor"
+
+[[symbol]]
+tex = 'm_b'
+meaning = "the mass of one blade"
+
+[[symbol]]
+tex = '\Omega'
+meaning = "the rotor angular speed"
+
+[[symbol]]
+tex = 'V_{tip}'
+meaning = "the blade tip speed"
+
+[[symbol]]
+tex = 'C_T'
+meaning = "the thrust coefficient"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the tip speed ratio"
+
+[[symbol]]
+tex = 'E_{req}'
+meaning = "the energy a flare must absorb, with $E_{avail}$ the stored rotor energy"

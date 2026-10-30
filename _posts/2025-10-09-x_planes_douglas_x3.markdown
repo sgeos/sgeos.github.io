@@ -21,39 +21,63 @@ The keystone is the aerodynamic and structural behaviour of a very thin, very lo
 
 Both halves follow from the same premise. The starting point is the linearized supersonic result of [Ackeret 1925][research_ackeret_1925], in which the pressure coefficient on a thin surface depends only on local slope,
 
-$$C_p = \frac{2 \, \theta}{\sqrt{M_\infty^2 - 1}}$$
+$$
+C_p = \frac{2 \, \theta}{\sqrt{M_\infty^2 - 1}}
+\tag{1}
+$$
 
 with $\theta$ the local surface inclination in radians. Integrating over a symmetric section at zero lift gives a wave drag proportional to the mean square slope, and since slope scales with thickness ratio the result is quadratic. Wave drag scales as the square of thickness ratio, so a wing at 4.5 percent thickness carries
 
-$$\frac{D_{w}(4.5\%)}{D_{w}(8\%)} = \left( \frac{4.5}{8.0} \right)^2 = 0.32$$
+$$
+\frac{D_{w}(4.5\%)}{D_{w}(8\%)} = \left( \frac{4.5}{8.0} \right)^2 = 0.32
+\tag{2}
+$$
 
 of the wave drag of the [X-1][related_post_a298_bell_x1] section at the same conditions. That gain is enormous, and it explains why supersonic aircraft are given thin wings. The difficulty is that a thin wing has almost no internal volume for structure or fuel, so its stiffness and strength must come from material rather than from depth, and its bending capability falls as the cube of thickness for a given cap area. Titanium was the candidate material because its specific strength exceeds aluminium and it retains that advantage to higher temperature \[[Wikipedia, Titanium][ref_titanium]\].
 
 The structural difficulty can be stated quantitatively. For a wing box of chord $c$ and thickness ratio $\tau = t/c$, the structural depth is $h_s = \tau c$ and the second moment of area of the cap material about the neutral axis is
 
-$$I_{\text{box}} \approx \frac{A_{\text{cap}} h_s^2}{2} = \frac{A_{\text{cap}} \tau^2 c^2}{2}$$
+$$
+I_{\text{box}} \approx \frac{A_{\text{cap}} h_s^2}{2} = \frac{A_{\text{cap}} \tau^2 c^2}{2}
+\tag{3}
+$$
 
 so bending stiffness falls as the square of thickness ratio for fixed cap area, and the cap area required to carry a given moment at a given stress rises as
 
-$$A_{\text{cap}} \propto \frac{1}{\tau}$$
+$$
+A_{\text{cap}} \propto \frac{1}{\tau}
+\tag{4}
+$$
 
 The flutter boundary that follows depends on the ratio of torsional to bending frequency and on the mass ratio,
 
-$$\omega_\alpha = \sqrt{\frac{K_\theta}{I_\theta}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}$$
+$$
+\omega_\alpha = \sqrt{\frac{K_\theta}{I_\theta}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}
+\tag{5}
+$$
 
 and reducing $K_\theta$ by a factor of three reduces $\omega_\alpha$ by $\sqrt{3}$ and the flutter speed with it. The unsteady aerodynamics that determine where that boundary actually lies were not computable in 1952 and became so only gradually, through the shear-flow treatments of [Williams et al. 1977][research_shear_flow_flutter_1977], the panel methods evaluated by [Appa and Smith 1988][research_constant_pressure_panel_1988], the correlation studies of [Yates et al. 1982c][research_subsonic_flutter_wings_1982], and eventually the constrained optimization of [Striz and Venkayya 1990][research_flutter_optimization_1990]. Torsional stiffness is worse. The enclosed area of the box scales as $A_m \approx \tau c^2$, and the Bredt relation gives a torsion constant
 
-$$J = \frac{4 A_m^2}{\oint ds / t} \propto \tau^2$$
+$$
+J = \frac{4 A_m^2}{\oint ds / t} \propto \tau^2
+\tag{6}
+$$
 
 so a wing at 4.5 percent thickness has roughly a third the torsion constant of one at 8 percent for the same skin gauge and planform. The X-3 buys a factor of three in wave drag and pays a factor of three in torsional stiffness, and the second of those is what puts it near its aeroelastic limits.
 
 The second half of the keystone is that the aircraft was to hold Mach 2 rather than touch it \[[Dinius 2014][ref_nasa_x3_stiletto]\]. The [X-1][related_post_a298_bell_x1] and [X-2][related_post_a299_bell_x2] were rocket aircraft that reached a condition and immediately began decelerating, so their data are transients through a point. A turbojet aircraft can hold a condition, and that ability turns a measurement into a survey. The distinction is visible in the energy accounting. A rocket aircraft in a ballistic exchange conserves energy height,
 
-$$h_e = h + \frac{V^2}{2 g}, \qquad \frac{dh_e}{dt} = P_s = \frac{V (T - D)}{W}$$
+$$
+h_e = h + \frac{V^2}{2 g}, \qquad \frac{dh_e}{dt} = P_s = \frac{V (T - D)}{W}
+\tag{7}
+$$
 
 and once the propellant is gone $P_s$ is negative everywhere, so every data point is taken while decelerating. A turbojet aircraft with $P_s = 0$ available at the test condition can dwell there indefinitely, and the measurement becomes a steady-state one with all the statistical advantages that implies, since averaging over a dwell of duration $T_d$ reduces random uncertainty as
 
-$$\sigma \propto \frac{1}{\sqrt{T_d}}$$
+$$
+\sigma \propto \frac{1}{\sqrt{T_d}}
+\tag{8}
+$$
 
 That distinction matters because it is the reason the programme wanted turbojets in the first place. The Air Force contract of June 1945 called for a turbojet aircraft that could cruise at Mach 2 for 30 minutes, and Boslaugh judges the X-3 a disappointment because of low engine power \[[Boslaugh][ref_ethw_x3]\]. The article infers from these two facts that the engine substitution cost the programme its purpose, the sustained supersonic dwell, and not merely some of its performance.
 
@@ -61,25 +85,40 @@ That distinction matters because it is the reason the programme wanted turbojets
 
 Douglas began design studies for the Army Air Forces at the end of 1943 \[[Boslaugh][ref_ethw_x3]\], and construction of two aircraft was approved on 30 June 1949 \[[Dinius 2014][ref_nasa_x3_stiletto]\]. A single aircraft, serial 49-2892, was built \[[Jenkins et al. 2003][book_jenkins_landis_miller_2003]\]. The configuration is the most extreme in this series. A fuselage 20.35 metres long including its nose boom carried a wing of 15.47 square metres and 6.92 metres span \[[Fischel et al. 1957][research_x3_handling_1957]\], giving an [aspect ratio][ref_aspect_ratio] of
 
-$$A = \frac{b^2}{S} = \frac{6.92^2}{15.47} = 3.10$$
+$$
+A = \frac{b^2}{S} = \frac{6.92^2}{15.47} = 3.10
+\tag{9}
+$$
 
 and a mean chord of 2.24 metres. The wing is a small trapezoidal surface attached near the rear of a very long pointed body, which is why the aircraft was named for a knife and why the photographs are misleading about its size.
 
 The propulsion decision is the central fact of the programme's history. The design was sized around two [Westinghouse J46][ref_j46] engines, each expected to deliver about 7000 pounds of thrust with [afterburner][ref_afterburner] \[[Wikipedia, Douglas X-3][ref_douglas_x3]\]. The J46 fell behind schedule, failed to meet its thrust, size and weight requirements, and never became available \[[Dinius 2014][ref_nasa_x3_stiletto]\] \[[Boslaugh][ref_ethw_x3]\]. Douglas substituted two [Westinghouse J34][ref_j34] engines of about 4900 pounds each \[[Fischel et al. 1957][research_x3_handling_1957]\]. The installed thrust became
 
-$$T_{\text{J34}} = 2 \times 4900 \times 4.448 = 4.36 \times 10^{4} \ \text{newtons}$$
+$$
+T_{\text{J34}} = 2 \times 4900 \times 4.448 = 4.36 \times 10^{4} \ \text{newtons}
+\tag{10}
+$$
 
 against a design value of
 
-$$T_{\text{J46}} = 2 \times 7000 \times 4.448 = 6.23 \times 10^{4} \ \text{newtons}$$
+$$
+T_{\text{J46}} = 2 \times 7000 \times 4.448 = 6.23 \times 10^{4} \ \text{newtons}
+\tag{11}
+$$
 
 a shortfall of
 
-$$1 - \frac{T_{\text{J34}}}{T_{\text{J46}}} = 30 \ \text{percent}$$
+$$
+1 - \frac{T_{\text{J34}}}{T_{\text{J46}}} = 30 \ \text{percent}
+\tag{12}
+$$
 
 Holding the aircraft weight fixed as a first approximation, the thrust-to-weight ratio falls in direct proportion,
 
-$$\frac{(T/W)_{\text{J34}}}{(T/W)_{\text{J46}}} = \frac{T_{\text{J34}}}{T_{\text{J46}}} = 0.70$$
+$$
+\frac{(T/W)_{\text{J34}}}{(T/W)_{\text{J46}}} = \frac{T_{\text{J34}}}{T_{\text{J46}}} = 0.70
+\tag{13}
+$$
 
 An airframe optimized for one engine and flown with another producing seventy percent of the thrust is not a degraded version of the intended aircraft. It is a different aircraft, and the next section shows how different.
 
@@ -89,97 +128,163 @@ This is the only article in the series so far in which the keystone sizing does 
 
 Level flight requires thrust to equal drag,
 
-$$T = D = q S C_D$$
+$$
+T = D = q S C_D
+\tag{14}
+$$
 
 with [dynamic pressure][ref_dynamic_pressure] most conveniently written as
 
-$$q = \frac{\gamma}{2} p M^2$$
+$$
+q = \frac{\gamma}{2} p M^2
+\tag{15}
+$$
 
 The compressible relations behind these are the standard set, tabulated in [Ames Research Staff 1953][research_naca_1135],
 
-$$\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}, \qquad \frac{T_0}{T} = 1 + \frac{\gamma - 1}{2} M^2$$
+$$
+\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}, \qquad \frac{T_0}{T} = 1 + \frac{\gamma - 1}{2} M^2
+\tag{16}
+$$
 
 with the disturbance geometry fixed by the Mach angle
 
-$$\mu_M = \arcsin \frac{1}{M}$$
+$$
+\mu_M = \arcsin \frac{1}{M}
+\tag{17}
+$$
 
 and the area a stream tube must pass through given by
 
-$$\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
+$$
+\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}
+\tag{18}
+$$
 
 a relation that sizes every inlet throat. Substituting and solving for Mach number gives the thrust-limited maximum,
 
-$$M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}$$
+$$
+M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}
+\tag{19}
+$$
 
 so that, holding altitude and drag coefficient fixed,
 
-$$\frac{M_{\max, 2}}{M_{\max, 1}} = \sqrt{\frac{T_2}{T_1}}$$
+$$
+\frac{M_{\max, 2}}{M_{\max, 1}} = \sqrt{\frac{T_2}{T_1}}
+\tag{20}
+$$
 
 A thirty percent thrust shortfall therefore costs
 
-$$\sqrt{0.70} = 0.837$$
+$$
+\sqrt{0.70} = 0.837
+\tag{21}
+$$
 
 in maximum Mach number, taking a design value of 2.0 to 1.67. The aircraft achieved 1.21 \[[Day 1997][research_coupling_history_1997]\]. The engine substitution alone does not explain the outcome, and the residual repays attention because the interesting engineering lies there.
 
 The inlet supplies most of it. The X-3 had side inlets, and no source consulted here records any variable geometry in them. Treated as fixed, they would have been sized for the intended engine and the intended flight condition. A fixed inlet operating supersonically swallows a shock, and in the simplest case that shock is normal to the flow, across which the total pressure recovery is
 
-$$\frac{p_{02}}{p_{01}} = \left[ \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2} \right]^{\frac{\gamma}{\gamma - 1}} \left[ \frac{\gamma + 1}{2 \gamma M_1^2 - (\gamma - 1)} \right]^{\frac{1}{\gamma - 1}}$$
+$$
+\frac{p_{02}}{p_{01}} = \left[ \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2} \right]^{\frac{\gamma}{\gamma - 1}} \left[ \frac{\gamma + 1}{2 \gamma M_1^2 - (\gamma - 1)} \right]^{\frac{1}{\gamma - 1}}
+\tag{22}
+$$
 
 The static conditions behind the shock follow the rest of the Rankine-Hugoniot set,
 
-$$\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}$$
+$$
+\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}
+\tag{23}
+$$
 
-$$M_2^2 = \frac{(\gamma - 1) M_1^2 + 2}{2 \gamma M_1^2 - (\gamma - 1)}$$
+$$
+M_2^2 = \frac{(\gamma - 1) M_1^2 + 2}{2 \gamma M_1^2 - (\gamma - 1)}
+\tag{24}
+$$
 
 so that at Mach 2 the flow behind a normal shock is at Mach 0.577 and has been heated by 69 percent. The compressor face sees that condition. Evaluating the recovery shows how quickly the penalty arrives. At Mach 1.2 the recovery is 0.993 and the loss is negligible. At Mach 1.5 it is 0.930. At Mach 2.0 it is 0.721. Since turbojet thrust scales very nearly with the total pressure delivered to the compressor face,
 
-$$\frac{T}{T_{\text{ideal}}} \approx \frac{p_{02}}{p_{01}}$$
+$$
+\frac{T}{T_{\text{ideal}}} \approx \frac{p_{02}}{p_{01}}
+\tag{25}
+$$
 
 the aircraft loses another 28 percent of its thrust at the design condition purely to the inlet.
 
 That is only half of what a fixed inlet costs. The other half is drag. An inlet has a capture area $A_c$ set by geometry and a demanded stream tube area $A_0$ set by what the engine can swallow at the current condition, and their ratio is the mass flow ratio
 
-$$\frac{A_0}{A_c} = \frac{\dot{m}_{\text{engine}}}{\rho_\infty V_\infty A_c}$$
+$$
+\frac{A_0}{A_c} = \frac{\dot{m}_{\text{engine}}}{\rho_\infty V_\infty A_c}
+\tag{26}
+$$
 
 At the design point these match. Away from it the engine demands less than the inlet captures, the excess spills around the cowl, and the momentum change of the spilled flow appears as additive drag,
 
-$$D_{\text{add}} = \dot{m}_0 \left( V_\infty - V_1 \right) + \left( p_1 - p_\infty \right) A_1$$
+$$
+D_{\text{add}} = \dot{m}_0 \left( V_\infty - V_1 \right) + \left( p_1 - p_\infty \right) A_1
+\tag{27}
+$$
 
 with the subscript 1 denoting conditions at the cowl lip. Non-dimensionally,
 
-$$C_{D,\text{add}} = \frac{D_{\text{add}}}{q S} \approx \frac{2 A_c}{S} \left( 1 - \frac{A_0}{A_c} \right) \sin^2 \theta_c$$
+$$
+C_{D,\text{add}} = \frac{D_{\text{add}}}{q S} \approx \frac{2 A_c}{S} \left( 1 - \frac{A_0}{A_c} \right) \sin^2 \theta_c
+\tag{28}
+$$
 
 for a cowl of lip angle $\theta_c$, which grows as the square of the mismatch for small spillage and linearly thereafter. A fixed inlet flown below its design Mach number therefore suffers twice, losing thrust to poor recovery and gaining drag from spillage, and the two act in the same direction on the thrust margin,
 
-$$T_{\text{eff}} = \eta_d \, T_{\text{ideal}} - D_{\text{add}} - D_{\text{div}}$$
+$$
+T_{\text{eff}} = \eta_d \, T_{\text{ideal}} - D_{\text{add}} - D_{\text{div}}
+\tag{29}
+$$
 
 where $D_{\text{div}}$ is the drag of the boundary layer diverter, the wedge that keeps fuselage boundary layer out of a side inlet and which for a side-mounted arrangement like the X-3 is not small.
 
 There is a stability limit as well. When spillage becomes large enough the terminal shock is expelled from the throat and oscillates, a condition called buzz, which occurs roughly when
 
-$$\frac{A_0}{A_c} < \left( \frac{A_0}{A_c} \right)_{\text{crit}}$$
+$$
+\frac{A_0}{A_c} < \left( \frac{A_0}{A_c} \right)_{\text{crit}}
+\tag{30}
+$$
 
 and which imposes an unsteady load on the compressor face. A fixed inlet has no way to avoid it except by flying nearer the design point, and an underpowered aircraft cannot do that. Combining the two effects gives an effective thrust factor of
 
-$$0.70 \times 0.721 = 0.505$$
+$$
+0.70 \times 0.721 = 0.505
+\tag{31}
+$$
 
 and a maximum Mach number of
 
-$$M_{\max} = 2.0 \times \sqrt{0.505} = 1.42$$
+$$
+M_{\max} = 2.0 \times \sqrt{0.505} = 1.42
+\tag{32}
+$$
 
 which is close to what the aircraft did. The remaining gap between 1.42 and 1.21 is attributable to drag being higher than estimated, to installed thrust falling below nameplate, and to the fact that the aircraft could only be pushed past Mach 1 in a dive, and the record does not separate these.
 
 Two further effects enter the accounting. Turbojet thrust lapses with altitude roughly in proportion to ambient pressure with a ram correction,
 
-$$\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}} \eta_d$$
+$$
+\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}} \eta_d
+\tag{33}
+$$
 
 so climbing to the altitude where the wave drag is tolerable costs thrust that the ram recovery only partly returns, and with $\eta_d$ falling as derived the two terms fight each other above Mach 1.5. And the transonic drag rise must be crossed before any of this matters. The excess thrust available for that crossing is
 
-$$T - D = m \frac{dV}{dt} + m g \sin \gamma$$
+$$
+T - D = m \frac{dV}{dt} + m g \sin \gamma
+\tag{34}
+$$
 
 so in level acceleration the whole excess goes into $dV/dt$, and the time to cross a Mach increment is
 
-$$t_{\text{cross}} = \int_{V_1}^{V_2} \frac{m \, dV}{T(V) - D(V)}$$
+$$
+t_{\text{cross}} = \int_{V_1}^{V_2} \frac{m \, dV}{T(V) - D(V)}
+\tag{35}
+$$
 
 which diverges as $T$ approaches $D$. An aircraft with a small thrust margin does not cross the drag rise slowly. It fails to cross it at all, because the integrand becomes singular before the far side is reached. That is the mechanism by which the X-3 was confined to dives, where the gravity term supplies what the engines could not.
 
@@ -187,27 +292,45 @@ The important structural point is that the two losses compound rather than add. 
 
 One further consequence follows. The specific excess power available for acceleration is
 
-$$P_s = \frac{V (T - D)}{W}$$
+$$
+P_s = \frac{V (T - D)}{W}
+\tag{36}
+$$
 
 and the altitude at which $P_s$ falls to zero is the ceiling,
 
-$$P_s = 0 \quad \Longleftrightarrow \quad T(h) = D(h)$$
+$$
+P_s = 0 \quad \Longleftrightarrow \quad T(h) = D(h)
+\tag{37}
+$$
 
 so an aircraft short of thrust is short of ceiling as well as of speed, and the X-3 was confined to a lower band of altitudes than intended, where the higher density raises $q$ and therefore drag for the same Mach number. The two penalties reinforce. Thrust-to-weight completes the picture. At the maximum takeoff mass of 10,161 kilograms \[[Wikipedia, Douglas X-3][ref_douglas_x3]\],
 
-$$\frac{T}{W} = \frac{4.36 \times 10^{4}}{10{,}161 \times 9.80665} = 0.44$$
+$$
+\frac{T}{W} = \frac{4.36 \times 10^{4}}{10{,}161 \times 9.80665} = 0.44
+\tag{38}
+$$
 
 which is poor for an aircraft expected to accelerate through the transonic drag rise, and the wing loading is extreme,
 
-$$\frac{W}{S} = \frac{10{,}161 \times 9.80665}{15.47} = 6441 \ \text{newtons per square metre}$$
+$$
+\frac{W}{S} = \frac{10{,}161 \times 9.80665}{15.47} = 6441 \ \text{newtons per square metre}
+\tag{39}
+$$
 
 more than forty percent above the [X-1][related_post_a298_bell_x1] figure. The manoeuvre envelope that follows has its corner at
 
-$$V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}$$
+$$
+V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}
+\tag{40}
+$$
 
 and with the high wing loading and low maximum lift coefficient of this configuration the corner speed is high, so the aircraft cannot reach its structural limit aerodynamically over most of its envelope. The load factor available at any speed below the corner is
 
-$$n(V) = \frac{\rho V^2 C_{L,\max}}{2 \left( W / S \right)}$$
+$$
+n(V) = \frac{\rho V^2 C_{L,\max}}{2 \left( W / S \right)}
+\tag{41}
+$$
 
 which for the X-3 falls below unity under about 108 metres per second. That figure is the stall speed derived in the takeoff section below, arrived at from the opposite direction, and the agreement is a useful internal check. The aircraft cannot sustain level flight at all below it. Those two numbers together describe an aircraft that is hard to accelerate and hard to slow down, and the flight record bears that description out \[[Dinius 2014][ref_nasa_x3_stiletto]\].
 
@@ -219,83 +342,140 @@ The wing is the reason the aircraft exists. It is a radical object. Its section 
 
 Supersonic lift follows the linearized result of [Ackeret 1925][research_ackeret_1925],
 
-$$C_{L\alpha} = \frac{4}{\sqrt{M_\infty^2 - 1}}$$
+$$
+C_{L\alpha} = \frac{4}{\sqrt{M_\infty^2 - 1}}
+\tag{42}
+$$
 
 which applies when the wing behaves two-dimensionally. The governing parameter is the supersonic aspect ratio,
 
-$$\beta_s A = \sqrt{M_\infty^2 - 1} \; A$$
+$$
+\beta_s A = \sqrt{M_\infty^2 - 1} \; A
+\tag{43}
+$$
 
 and at Mach 2 this is $\sqrt{3} \times 3.10 = 5.36$, comfortably above the value near four beyond which tip effects become secondary. The X-3 wing is therefore effectively two-dimensional in supersonic flight despite its low aspect ratio, giving
 
-$$C_{L\alpha} = \frac{4}{\sqrt{3}} = 2.31 \ \text{per radian}$$
+$$
+C_{L\alpha} = \frac{4}{\sqrt{3}} = 2.31 \ \text{per radian}
+\tag{44}
+$$
 
 The centre of pressure on such a wing moves with Mach number, from roughly the quarter chord subsonically to the half chord supersonically,
 
-$$\frac{x_{ac}}{\bar{c}} : 0.25 \longrightarrow 0.50$$
+$$
+\frac{x_{ac}}{\bar{c}} : 0.25 \longrightarrow 0.50
+\tag{45}
+$$
 
 producing a trim change and a static margin change,
 
-$$SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM$$
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM
+\tag{46}
+$$
 
 The neutral point that fixes the margin is
 
-$$\frac{x_{np}}{\bar{c}} = \frac{x_{ac,w}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right), \qquad V_H = \frac{S_t l_t}{S \bar{c}}$$
+$$
+\frac{x_{np}}{\bar{c}} = \frac{x_{ac,w}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right), \qquad V_H = \frac{S_t l_t}{S \bar{c}}
+\tag{47}
+$$
 
 and the resulting longitudinal modes are the short period and the phugoid,
 
-$$\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \omega_{sp}}$$
+$$
+\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \omega_{sp}}
+\tag{48}
+$$
 
 with the lateral counterpart the Dutch roll,
 
-$$\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}$$
+$$
+\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}
+\tag{49}
+$$
 
 whose frequency for the X-3 is low because $I_z$ is large, so the aircraft is slow to correct a yaw disturbance and quick to roll. That combination feeds the coupling. The horizontal tail must absorb the trim change, and its loads were measured and reported for this aircraft in [Stephenson 1956][research_x3_tail_loads_1956]. Subsonically the same aspect ratio is a severe penalty, since the lift-curve slope falls toward the slender-wing limit
 
-$$C_{L\alpha} \to \frac{\pi A}{2} = 4.87 \ \text{per radian}$$
+$$
+C_{L\alpha} \to \frac{\pi A}{2} = 4.87 \ \text{per radian}
+\tag{50}
+$$
 
 and induced drag rises as
 
-$$C_{D,i} = \frac{C_L^2}{\pi A e}$$
+$$
+C_{D,i} = \frac{C_L^2}{\pi A e}
+\tag{51}
+$$
 
 with $A = 3.10$ giving an induced drag more than twice that of an aspect ratio seven wing at the same lift coefficient. A wing optimized for Mach 2 is a poor wing at Mach 0.3, and the takeoff and landing consequences below follow directly.
 
 The supersonic drag of such a wing decomposes into three terms,
 
-$$C_D = C_{D,f} + C_{D,w} + \frac{C_L^2}{\pi A e}$$
+$$
+C_D = C_{D,f} + C_{D,w} + \frac{C_L^2}{\pi A e}
+\tag{52}
+$$
 
 with friction, wave, and induced contributions. The Reynolds number that sets it is
 
-$$Re_L = \frac{\rho_\infty V_\infty L}{\mu}$$
+$$
+Re_L = \frac{\rho_\infty V_\infty L}{\mu}
+\tag{53}
+$$
 
 with the viscosity from Sutherland's relation,
 
-$$\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}$$
+$$
+\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}
+\tag{54}
+$$
 
 taking $\mu_{\text{ref}} = 1.716 \times 10^{-5}$ pascal seconds at 273.15 kelvin and $S = 110.4$ kelvin. Friction follows the turbulent flat-plate relation referred to wetted area,
 
-$$C_{D,f} = \frac{0.0592}{Re_L^{1/5}} \cdot \frac{S_{\text{wet}}}{S}$$
+$$
+C_{D,f} = \frac{0.0592}{Re_L^{1/5}} \cdot \frac{S_{\text{wet}}}{S}
+\tag{55}
+$$
 
 and wave drag due to thickness for a thin two-dimensional section at zero lift follows the Ackeret form
 
-$$C_{D,w} = \frac{4 \, \overline{(dy/dx)^2}}{\sqrt{M_\infty^2 - 1}}$$
+$$
+C_{D,w} = \frac{4 \, \overline{(dy/dx)^2}}{\sqrt{M_\infty^2 - 1}}
+\tag{56}
+$$
 
 where the overbar denotes a chordwise mean of the squared surface slope, which is proportional to $\tau^2$ and recovers the thickness-squared scaling quoted above. Wave drag due to lift adds
 
-$$C_{D,w,L} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}} = \frac{C_L^2 \sqrt{M_\infty^2 - 1}}{4}$$
+$$
+C_{D,w,L} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}} = \frac{C_L^2 \sqrt{M_\infty^2 - 1}}{4}
+\tag{57}
+$$
 
 which at Mach 2 and a cruise lift coefficient near 0.1 contributes only 0.004, so the X-3 at its design point would have been dominated by friction and thickness wave drag rather than by lift-dependent terms. This balance is the aerodynamic justification for the configuration, and it was never tested \[[Dinius 2014][ref_nasa_x3_stiletto]\].
 
 The structural consequence of thinness is severe. For a spar of structural depth $h_s$ proportional to thickness ratio, the cap area required to carry a root bending moment is
 
-$$A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}, \qquad M_{\text{root}} = \frac{n W b}{3 \pi}$$
+$$
+A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}, \qquad M_{\text{root}} = \frac{n W b}{3 \pi}
+\tag{58}
+$$
 
 so halving the thickness ratio doubles the required cap area for the same moment, and the structural mass penalty is direct. Torsional stiffness suffers worse, since for a closed box the Bredt relation gives
 
-$$K_\theta = \frac{G J}{\ell_w}, \qquad J = \frac{4 A_m^2}{\oint \frac{ds}{t}}$$
+$$
+K_\theta = \frac{G J}{\ell_w}, \qquad J = \frac{4 A_m^2}{\oint \frac{ds}{t}}
+\tag{59}
+$$
 
 and the enclosed area $A_m$ scales with thickness, so $J$ scales as thickness squared. A wing half as thick has a quarter the torsional stiffness for the same skin gauge, which drives the aeroelastic boundaries down,
 
-$$q_D = \frac{K_\theta}{e S C_{L\alpha}}, \qquad q_R = \frac{K_\theta \, C_{L\delta}}{S \bar{c} \, C_{L\alpha} \left| C_{m\delta} \right|}$$
+$$
+q_D = \frac{K_\theta}{e S C_{L\alpha}}, \qquad q_R = \frac{K_\theta \, C_{L\delta}}{S \bar{c} \, C_{L\alpha} \left| C_{m\delta} \right|}
+\tag{60}
+$$
 
 for divergence and control reversal respectively. The thin wing is not merely harder to build. It is closer to every aeroelastic limit at once, and for that reason the surviving reports on this configuration are weighted heavily toward loads and flutter.
 
@@ -305,21 +485,33 @@ The X-3 is among the first aircraft to use titanium extensively in primary struc
 
 The material case is straightforward. Specific strength at temperature is the figure of merit,
 
-$$\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_w}$$
+$$
+\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_w}
+\tag{61}
+$$
 
 and a titanium alloy at about 4500 kilograms per cubic metre \[[Wikipedia, Ti-6Al-4V][ref_ti6al4v]\] withstands moderately high temperatures without creeping \[[Wikipedia, Titanium][ref_titanium]\], whereas aluminium alloy at 2780 kilograms per cubic metre \[[Wikipedia, 2024 Aluminium][ref_aluminium_2024]\] is limited to about 400 kelvin, the limit of 127 degrees Celsius that held the aluminium Concorde to Mach 2.02 \[[Wikipedia, Concorde][ref_concorde]\]. At the recovery temperature the X-3 would have seen at Mach 2,
 
-$$T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right)$$
+$$
+T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right)
+\tag{62}
+$$
 
 with $r = 0.89$ and $T_\infty = 218.6$ kelvin, the surface reaches 374 kelvin, which aluminium survives. Titanium was therefore not required for the X-3's own envelope. It was adopted to save weight, after the structure was found in July 1949 to be running unacceptably heavy \[[Boslaugh][ref_ethw_x3]\], and its large-scale use was itself one of the things the aircraft was built to test \[[Dinius 2014][ref_nasa_x3_stiletto]\].
 
 The manufacturing problem is that titanium galls against tooling, reacts with oxygen and nitrogen at elevated temperature \[[Wikipedia, Titanium][ref_titanium]\], and has a springback that makes formed parts dimensionally unpredictable. Sheet forming is governed by the ratio of yield to modulus,
 
-$$\frac{\sigma_y}{E}$$
+$$
+\frac{\sigma_y}{E}
+\tag{63}
+$$
 
 which for Ti-6Al-4V, at a yield stress near 900 megapascals and a modulus near 110 gigapascals \[[Wikipedia, Ti-6Al-4V][ref_ti6al4v]\], is roughly twice the value for 2024 aluminium at about 270 megapascals and 73 gigapascals \[[Wikipedia, 2024 Aluminium][ref_aluminium_2024]\]. The springback of a sheet bent to radius $R_i$ and released follows
 
-$$\frac{R_i}{R_f} = 1 - 3 \frac{\sigma_y R_i}{E t_s} + 4 \left( \frac{\sigma_y R_i}{E t_s} \right)^3$$
+$$
+\frac{R_i}{R_f} = 1 - 3 \frac{\sigma_y R_i}{E t_s} + 4 \left( \frac{\sigma_y R_i}{E t_s} \right)^3
+\tag{64}
+$$
 
 with $t_s$ the sheet thickness and $R_f$ the radius after release, so the recovery scales with the group $\sigma_y R_i / E t_s$ and doubling the yield-to-modulus ratio roughly doubles the correction required. It follows that elastic recovery after forming is roughly twice as large as for aluminium, and tooling must be overbent to compensate. The property data behind the material decision were being generated at the same time, and [Barrett 1950][research_titanium_compressive_1950] supplies compressive properties of titanium sheet at elevated temperature, the loading relevant to an upper wing surface and the condition relevant to a supersonic aircraft. Long-term exposure changes the properties again, and [Ellis 2012][research_titanium_thermal_exposure_2012] measures what sustained heating does to titanium elevated-temperature strength, a question of service life as distinct from strength. Later alloy and fabrication development runs through [Kaneko et al. 1982][research_beta_titanium_1982] and [Hinkley et al. 1999][research_induction_bonding_1999], with the composite alternatives that eventually displaced some of it described by [Turner and Grande 1978][research_arrow_wing_composite_1978]. Contemporary work on the same problems appears in [Saidi et al. 2021][research_saidi_2021], [Kim et al. 2022][research_kim_lee_ti_2022], and [Shu et al. 2025][research_shu_ren_2025], and its volume is a measure of how far from solved the problem remains. The later supersonic cruise programmes inherited the same difficulties, documented in [Lunde 1977][research_titanium_mach27_1977], [Guess et al. 1981][research_advanced_materials_sst_1981], [Bales et al. 1990][research_advanced_fabrication_1990], and the joining problem in [Scott 1972][research_titanium_rene41_bonding_1972].
 
@@ -327,27 +519,42 @@ with $t_s$ the sheet thickness and $R_f$ the radius after release, so the recove
 
 The [turbojet][ref_turbojet] cycle sets what the engines could deliver. Thermal and propulsive efficiency decompose as
 
-$$\eta_{th} = 1 - \frac{1}{\pi_c^{\frac{\gamma - 1}{\gamma}}}, \qquad \eta_p = \frac{2}{1 + u_e / u_\infty}, \qquad \eta_0 = \eta_{th} \eta_p$$
+$$
+\eta_{th} = 1 - \frac{1}{\pi_c^{\frac{\gamma - 1}{\gamma}}}, \qquad \eta_p = \frac{2}{1 + u_e / u_\infty}, \qquad \eta_0 = \eta_{th} \eta_p
+\tag{65}
+$$
 
 with $\pi_c$ the compressor pressure ratio, and the [afterburner][ref_afterburner] raises thrust by adding heat downstream of the turbine at the cost of specific fuel consumption,
 
-$$\frac{T_{AB}}{T_{\text{dry}}} \approx \sqrt{\frac{T_{07}}{T_{05}}}$$
+$$
+\frac{T_{AB}}{T_{\text{dry}}} \approx \sqrt{\frac{T_{07}}{T_{05}}}
+\tag{66}
+$$
 
 with the subscripts denoting nozzle and turbine exit total temperatures. The J34 with afterburner produced roughly 4900 pounds against 3370 dry, a ratio near 1.45 consistent with that relation \[[Fischel et al. 1957][research_x3_handling_1957]\]. The engine was characterized directly in an altitude chamber in [Reller and Dowman 1949][research_j34_afterburner_1949]. That measurement concerns the actual powerplant this aircraft flew with, and it establishes that the altitude performance was known before the substitution, not discovered afterward. Afterburner behaviour at altitude was a sustained research subject in its own right, pursued for other engines of the period by [Useller and Russey 1955][research_j71_afterburner_1955] and [Groesbeck and Peters 1958][research_iroquois_afterburner_1958] and continuing much later through [Johnsen and Cullom 1977][research_afterburner_configs_1977] and [Hanloser and Cullom 1979][research_swirl_afterburner_1979], with the nozzle and cooling arrangement that surrounds it characterized by [Wallner and Jansen 1951][research_cooling_shroud_ejector_1951]. Installed performance degrades further from causes the test cell does not see, as [Stromberg 1981][research_engine_deterioration_1981] documents, and the eventual answer to the whole class of problem is to control engine and airframe together, which [Burcham et al. 1995][research_integrated_propulsion_control_1995] takes up. Compressor behaviour away from the design point, the regime a fixed inlet forces, is examined by [Biesiadny 1974][research_compressor_offnominal_1974], with the flow characteristics that govern it compared by [Evans et al. 1974][research_compressor_flow_1974].
 
 Separating thrust from drag in flight is itself a discipline, since only their difference is measurable from the trajectory,
 
-$$T - D = m \frac{dV}{dt} + m g \sin \gamma$$
+$$
+T - D = m \frac{dV}{dt} + m g \sin \gamma
+\tag{67}
+$$
 
 and assigning the two requires an independent thrust model. The bookkeeping conventions that make such an assignment reproducible are set out by [Arnaiz 1975][research_propulsion_forces_1975], and the consequence for the X-3 is that the published thrust shortfall and the inferred drag excess are not independently measured quantities but a single measured difference apportioned by assumption.
 
 Installed thrust is a different quantity from uninstalled thrust, and the difference is the inlet. Ram compression is what makes a turbojet work at supersonic speed, since the total pressure available at the compressor face is
 
-$$p_{02} = p_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right)^{\frac{\gamma}{\gamma - 1}} \cdot \eta_d$$
+$$
+p_{02} = p_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right)^{\frac{\gamma}{\gamma - 1}} \cdot \eta_d
+\tag{68}
+$$
 
 with $\eta_d$ the inlet pressure recovery. A fixed normal-shock inlet has $\eta_d$ falling as derived above. The oblique shock relation makes the remedy quantitative. For a wedge of turn angle $\theta$ the shock angle $\beta_o$ satisfies
 
-$$\tan \theta = 2 \cot \beta_o \frac{M_1^2 \sin^2 \beta_o - 1}{M_1^2 \left( \gamma + \cos 2 \beta_o \right) + 2}$$
+$$
+\tan \theta = 2 \cot \beta_o \frac{M_1^2 \sin^2 \beta_o - 1}{M_1^2 \left( \gamma + \cos 2 \beta_o \right) + 2}
+\tag{69}
+$$
 
 and the normal Mach number ahead of the shock is $M_{1n} = M_1 \sin \beta_o$, so the total pressure loss is that of a normal shock at $M_{1n}$ rather than at $M_1$. Because the loss grows steeply with normal Mach number, splitting one strong shock into several weak ones recovers most of the total pressure. A two-shock system at Mach 2 recovers roughly 0.90 against 0.72 for a single normal shock, and a three-shock system approaches 0.95. Thrust scales with that recovery directly, so the difference between a fixed and a variable inlet at Mach 2 is roughly a quarter of the installed thrust. The remedy known at the time was a variable geometry inlet using oblique shocks, since a sequence of $n$ oblique shocks followed by a weak normal shock recovers far more total pressure than a single strong normal shock. The NACA was investigating this remedy while the X-3 was being built, through [Ferri and Nucci 1946][research_supersonic_inlet_new_1946], [Goelzer and Cortright 1951][research_conical_spike_side_inlet_1951], [Dryer and Beke 1952][research_normal_shock_side_inlet_1952], [Allen and Beke 1953][research_conical_spike_recovery_1953], [Beke and Allen 1953][research_conical_nose_inlet_1953], and later with throat bleed by [Mitchell and Campbell 1957][research_ramp_inlet_bleed_1957] and active control by [Anderson and Bowditch 1958][research_inlet_control_1958]. Side-inlet placement, the X-3 arrangement, was studied by [Hasel et al. 1953][research_scoop_inlet_locations_1953]. No source consulted here records that the X-3 received any of it. The problem did not go away, and improved compression surfaces are still being designed and flight tested, as [Bulman et al. 1997][research_hypersonic_inlet_strut_1997], [Fernandez et al. 2001][research_rbcc_inlet_2001], and [St. John and Frederick 2013][research_channeled_inlet_flight_2013] show, the last of these confronting off-design behaviour, the failure mode of the X-3. [Lee and Choi 2021][research_lee_choi_2021] and [Yang et al. 2024a][research_yang_jin_2024] treat the loss mechanism in modern terms, with off-design behaviour in [Nikolaidis et al. 2022][research_nikolaidis_2022] and airframe integration in [Su et al. 2025a][research_su_liu_2025].
 
@@ -357,49 +564,82 @@ This subsystem made the aircraft valuable. It follows directly from the configur
 
 Mass in the X-3 is concentrated along a 20.35 metre fuselage. The wings are small, short, and carry little \[[Dinius 2014][ref_nasa_x3_stiletto]\]. The [moments of inertia][ref_moment_of_inertia] that result are extremely asymmetric. Taking the mass properties tabulated by [Day 1997][research_coupling_history_1997], a weight of 21,900 pounds with moments of inertia of 4100, 61,200 and 65,100 slug square feet in roll, pitch and yaw, and converting,
 
-$$I_x = 5.56 \times 10^{3}, \qquad I_y = 8.30 \times 10^{4}, \qquad I_z = 8.83 \times 10^{4} \ \text{kilogram square metres}$$
+$$
+I_x = 5.56 \times 10^{3}, \qquad I_y = 8.30 \times 10^{4}, \qquad I_z = 8.83 \times 10^{4} \ \text{kilogram square metres}
+\tag{70}
+$$
 
 so that $I_z \approx I_x + I_y$ holds within one percent and the asymmetry ratio is
 
-$$\frac{I_y}{I_x} = 14.9$$
+$$
+\frac{I_y}{I_x} = 14.9
+\tag{71}
+$$
 
 against 5.1 for the [X-2][related_post_a299_bell_x2] in the same tabulation. The X-3 is about three times more inertially asymmetric than the aircraft that inertia coupling destroyed.
 
 The consequence follows from the analysis derived in the [X-2 article][related_post_a299_bell_x2]. Divergence in a rolling manoeuvre occurs when the roll rate approaches the lower of the two aerodynamic natural frequencies,
 
-$$\omega_\alpha = \sqrt{\frac{q S \bar{c} \left| C_{m\alpha} \right|}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)$$
+$$
+\omega_\alpha = \sqrt{\frac{q S \bar{c} \left| C_{m\alpha} \right|}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)
+\tag{72}
+$$
 
 Evaluate at the condition of the first roll of October 1954, Mach 0.92 at 9144 metres \[[Day 1997][research_coupling_history_1997]\], where the static pressure is 30,089 pascals and
 
-$$q = \frac{\gamma}{2} p M^2 = 0.7 \times 30{,}089 \times 0.846 = 1.78 \times 10^{4} \ \text{pascals}$$
+$$
+q = \frac{\gamma}{2} p M^2 = 0.7 \times 30{,}089 \times 0.846 = 1.78 \times 10^{4} \ \text{pascals}
+\tag{73}
+$$
 
 With representative stiffness coefficients of 0.3 and 0.1 per radian,
 
-$$\omega_\alpha = 1.49 \ \text{radians per second}, \qquad \omega_\beta = 1.47 \ \text{radians per second}$$
+$$
+\omega_\alpha = 1.49 \ \text{radians per second}, \qquad \omega_\beta = 1.47 \ \text{radians per second}
+\tag{74}
+$$
 
-$$p_{\text{crit}} \approx 1.47 \ \text{radians per second} = 84 \ \text{degrees per second}$$
+$$
+p_{\text{crit}} \approx 1.47 \ \text{radians per second} = 84 \ \text{degrees per second}
+\tag{75}
+$$
 
 Eighty-four degrees per second is not an aggressive roll rate. It is a moderate one, well inside the peak roll rates the X-3 reached in flight test, and about a third of the 255 degrees per second that the same method gives for the X-2 at Mach 3.2. [Fischel et al. 1957][research_x3_handling_1957] found that those peak rates exceeded the calculated resonant frequencies and that the coupled regime was avoided only because the average rate over a full roll stayed low.
 
 Roll damping is what would ordinarily limit the rate reached for a given input, and for a thin low aspect ratio wing it is weak. The steady roll rate from an aileron deflection is
 
-$$p_{ss} = -\frac{C_{l \delta_a} \delta_a}{C_{l p}} \cdot \frac{2 V}{b}$$
+$$
+p_{ss} = -\frac{C_{l \delta_a} \delta_a}{C_{l p}} \cdot \frac{2 V}{b}
+\tag{76}
+$$
 
 and the damping derivative $C_{lp}$ for such a planform at supersonic speed had been calculated and measured extensively in the period immediately before the X-3 flew, in [Brown and Adams 1948a][research_damping_triangular_1948], [Tucker and Piland 1950][research_damping_roll_wingbody_1950], [Malvestuto et al. 1950][research_damping_roll_thin_1950], [Walker and Ballantyne 1950][research_damping_roll_pressure_1950], and [Ribner 1951][research_damping_roll_delta_1951], with rolling effectiveness measured in free flight in [Sandahl 1948][research_rolling_effectiveness_1948]. For a thin wing at supersonic speed the damping derivative itself carries the Prandtl-Glauert falloff,
 
-$$C_{lp} \approx -\frac{\pi A}{8 \sqrt{M_\infty^2 - 1}} \quad \text{for } \beta_s A \gtrsim 4$$
+$$
+C_{lp} \approx -\frac{\pi A}{8 \sqrt{M_\infty^2 - 1}} \quad \text{for } \beta_s A \gtrsim 4
+\tag{77}
+$$
 
 so it weakens with Mach number exactly as the stiffness derivatives do. The roll mode time constant that results is
 
-$$\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}$$
+$$
+\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}
+\tag{78}
+$$
 
 and the small $I_x$ that defines the X-3's inertia distribution makes that time constant short. The aircraft therefore reaches its steady roll rate quickly, which leaves the pilot even less time between input and threshold. The approach to steady state is first order,
 
-$$p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)$$
+$$
+p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)
+\tag{79}
+$$
 
 so the critical rate is crossed at
 
-$$t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right)$$
+$$
+t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right)
+\tag{80}
+$$
 
 A small span appears twice in the steady-rate expression, once directly and once through the damping, so the X-3 reaches a high roll rate for a modest input and has little to arrest it.
 
@@ -409,27 +649,45 @@ The phenomenon did not stop with the X-3. Uncommanded lateral-directional motion
 
 The growth rate past the threshold follows as before,
 
-$$\lambda = \sqrt{p^2 - \omega_\alpha^2}, \qquad \tau_{\text{div}} = \frac{1}{\lambda}$$
+$$
+\lambda = \sqrt{p^2 - \omega_\alpha^2}, \qquad \tau_{\text{div}} = \frac{1}{\lambda}
+\tag{81}
+$$
 
 so a roll at 2.5 radians per second, or 143 degrees per second, gives $\lambda = 2.00$ per second and an e-folding time of 0.50 seconds. The X-3 thus diverges more readily than the X-2 but somewhat more slowly once it does, because its aerodynamic frequencies and its achievable roll rates are both lower. The coupled equations themselves are those derived for the [X-2][related_post_a299_bell_x2],
 
-$$I_y \dot{q} = M + \left( I_z - I_x \right) p r, \qquad I_z \dot{r} = N + \left( I_x - I_y \right) p q$$
+$$
+I_y \dot{q} = M + \left( I_z - I_x \right) p r, \qquad I_z \dot{r} = N + \left( I_x - I_y \right) p q
+\tag{82}
+$$
 
 and linearizing about a steady roll rate gives the pair
 
-$$\ddot{\alpha} + \left( \omega_\alpha^2 - p^2 \right) \alpha = \left( \frac{I_z - I_x}{I_y} \right) p \, \dot{\beta}$$
+$$
+\ddot{\alpha} + \left( \omega_\alpha^2 - p^2 \right) \alpha = \left( \frac{I_z - I_x}{I_y} \right) p \, \dot{\beta}
+\tag{83}
+$$
 
-$$\ddot{\beta} + \left( \omega_\beta^2 - p^2 \right) \beta = \left( \frac{I_x - I_y}{I_z} \right) p \, \dot{\alpha}$$
+$$
+\ddot{\beta} + \left( \omega_\beta^2 - p^2 \right) \beta = \left( \frac{I_x - I_y}{I_z} \right) p \, \dot{\alpha}
+\tag{84}
+$$
 
 in which the effective stiffness in each axis is reduced by $p^2$. The inertia ratios multiplying the cross terms,
 
-$$\mu_1 = \frac{I_z - I_x}{I_y} = 1.00, \qquad \mu_2 = \frac{I_x - I_y}{I_z} = -0.88$$
+$$
+\mu_1 = \frac{I_z - I_x}{I_y} = 1.00, \qquad \mu_2 = \frac{I_x - I_y}{I_z} = -0.88
+\tag{85}
+$$
 
 are both near unity in magnitude for this configuration. Unity is the maximum the geometry permits, and the values confirm that the X-3 sits at the worst corner of the coupling problem and does not merely fall inside it.
 
 The excursions that follow produce loads. An angle of attack increment $\Delta \alpha$ gives a normal load factor increment
 
-$$\Delta n = \frac{q S C_{L\alpha} \Delta \alpha}{W}$$
+$$
+\Delta n = \frac{q S C_{L\alpha} \Delta \alpha}{W}
+\tag{86}
+$$
 
 and at the flight condition with $q = 1.78 \times 10^{4}$ pascals, a lift-curve slope near 3.5 per radian subsonically, and a weight of 97.4 kilonewtons, a twenty degree excursion gives $\Delta n = 3.5$. Sideslip produces a lateral increment through $C_{Y\beta}$ of comparable size. Those are survivable numbers, unlike the X-2 figures, because of the lower dynamic pressure at which the X-3 met the phenomenon. The margin was narrow. In the second roll, at higher dynamic pressure, the normal load factor swung from $-6.7$ to $+7.0$ and the design acceleration loads were reached \[[Day 1997][research_coupling_history_1997]\] \[[Saltzman and Ayers 1995][research_supersonic_research_1995]\].
 
@@ -439,53 +697,89 @@ Unlike the [X-1][related_post_a298_bell_x1] and [X-2][related_post_a299_bell_x2]
 
 The [takeoff][ref_takeoff] speed follows from the wing loading and the maximum lift coefficient,
 
-$$V_{TO} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}$$
+$$
+V_{TO} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}
+\tag{87}
+$$
 
 and with a thin low aspect ratio wing carrying only plain leading-edge flaps and split trailing-edge flaps \[[Fischel et al. 1957][research_x3_handling_1957]\], $C_{L,\max}$ near 0.9 is optimistic. At sea level this gives
 
-$$V_{TO} = \sqrt{\frac{2 \times 99{,}646}{1.225 \times 15.47 \times 0.9}} = 108 \ \text{metres per second}$$
+$$
+V_{TO} = \sqrt{\frac{2 \times 99{,}646}{1.225 \times 15.47 \times 0.9}} = 108 \ \text{metres per second}
+\tag{88}
+$$
 
 or 242 miles per hour, close to the takeoff speed of 260 miles per hour recorded for the aircraft \[[Jenkins et al. 2003][book_jenkins_landis_miller_2003]\]. The ground roll follows from the available acceleration,
 
-$$s_{TO} = \frac{V_{TO}^2}{2 a}, \qquad a \approx \frac{T - D - \mu \left( W - L \right)}{m}$$
+$$
+s_{TO} = \frac{V_{TO}^2}{2 a}, \qquad a \approx \frac{T - D - \mu \left( W - L \right)}{m}
+\tag{89}
+$$
 
 with $\mu$ the rolling friction coefficient. Retaining the drag and friction terms gives the more honest form
 
-$$s_{TO} = \int_0^{V_{TO}} \frac{m V \, dV}{T - \frac{1}{2} \rho V^2 S \left( C_D - \mu C_L \right) - \mu m g}$$
+$$
+s_{TO} = \int_0^{V_{TO}} \frac{m V \, dV}{T - \frac{1}{2} \rho V^2 S \left( C_D - \mu C_L \right) - \mu m g}
+\tag{90}
+$$
 
 and taking the thrust-dominated approximation $a \approx T/m = 4.29$ metres per second squared gives 1362 metres before rotation, with the real figure substantially longer. The lift-off condition is a balance,
 
-$$\frac{1}{2} \rho V_{TO}^2 S C_{L,TO} = W$$
+$$
+\frac{1}{2} \rho V_{TO}^2 S C_{L,TO} = W
+\tag{91}
+$$
 
 and a wing that cannot generate a high $C_{L,TO}$ forces $V_{TO}$ up as the square root, which is why the aircraft that most needs a short field is the one least able to have one. The climb gradient immediately after lift-off follows the same thrust margin,
 
-$$\sin \gamma_{\text{climb}} = \frac{T}{W} - \frac{1}{L / D}$$
+$$
+\sin \gamma_{\text{climb}} = \frac{T}{W} - \frac{1}{L / D}
+\tag{92}
+$$
 
 and with a thrust-to-weight of 0.44 and a subsonic lift-to-drag near 8 at climb lift coefficient, the available gradient is
 
-$$0.44 - 0.125 = 0.315$$
+$$
+0.44 - 0.125 = 0.315
+\tag{93}
+$$
 
 which is healthy, so the X-3 climbed acceptably once airborne. Its difficulty was reaching flying speed, not leaving the ground. The aircraft needed the lake bed not for safety but for length.
 
 Landing inherits the same penalty. The recorded landing speed of 200 miles per hour, or 89 metres per second \[[Jenkins et al. 2003][book_jenkins_landis_miller_2003]\], lies below the clean stall speed derived above, which points to a lighter landing weight and deflected flaps, but it is still high, and the [landing gear][ref_landing_gear] absorbs correspondingly higher energy,
 
-$$E_{\text{gear}} = \frac{1}{2} m w_s^2$$
+$$
+E_{\text{gear}} = \frac{1}{2} m w_s^2
+\tag{94}
+$$
 
 with $w_s$ the sink rate. The landing distance from the same relations is
 
-$$s_L = \frac{V_{TD}^2}{2 \bar{a}_{\text{brake}}}$$
+$$
+s_L = \frac{V_{TD}^2}{2 \bar{a}_{\text{brake}}}
+\tag{95}
+$$
 
 and the energy the brakes must absorb scales as the square of touchdown speed, so an aircraft landing at 89 metres per second dissipates roughly twice the energy of one landing at 63. Stated directly, the brake energy is
 
-$$E_{\text{brake}} = \frac{1}{2} m V_{TD}^2 - \int_0^{s_L} D \, ds$$
+$$
+E_{\text{brake}} = \frac{1}{2} m V_{TD}^2 - \int_0^{s_L} D \, ds
+\tag{96}
+$$
 
 and the tire has an independent limit, since its structural speed rating is a ground speed rather than an airspeed,
 
-$$V_{\text{ground}} = V_{TD} - V_{\text{wind}} \le V_{\text{tire}}$$
+$$
+V_{\text{ground}} = V_{TD} - V_{\text{wind}} \le V_{\text{tire}}
+\tag{97}
+$$
 
 and the X-3 pressed that limit hard enough that it was common for its tires to come apart \[[Jenkins et al. 2003][book_jenkins_landis_miller_2003]\]. The gear stroke required to hold the load factor at touchdown to a chosen value $n_g$ is
 
-$$s_{\text{stroke}} = \frac{w_s^2}{2 g \left( n_g - 1 \right)}$$
+$$
+s_{\text{stroke}} = \frac{w_s^2}{2 g \left( n_g - 1 \right)}
+\tag{98}
+$$
 
 so a three metre per second sink at a two g limit needs 0.46 metres of stroke, and every increment of sink rate costs stroke quadratically. The oleo strut that provides that stroke is a velocity-dependent damper, and its behaviour under impact depends on orifice sizing and fluid properties, characterized in drop testing as in [Kranz 1954][research_oleo_drop_hammer_1954]. Active control of the same load path became possible much later, as [McGehee and Carden 1976][research_active_gear_model_1976] and [Howell et al. 1990][research_f106b_gear_alt_1990] describe. High-lift devices more powerful than the plain and split flaps the X-3 carried, which would have relieved the takeoff and landing problem at its source, are surveyed by [Rudolph 1996][research_high_lift_systems_1996]. The loads that result were measured and reported in [Marcy 1958][research_x3_landing_loads_1958].
 
@@ -497,35 +791,59 @@ Structural loads came from calibrated [strain gauge][ref_strain_gauge] bridges, 
 
 Angle of attack and sideslip on a research aircraft come from a nose boom carrying vanes, whose indicated values require correction for the aircraft's rotation,
 
-$$\alpha_{\text{true}} = \alpha_{\text{vane}} - \frac{\ell_b \, q}{V}, \qquad \beta_{\text{true}} = \beta_{\text{vane}} + \frac{\ell_b \, r}{V}$$
+$$
+\alpha_{\text{true}} = \alpha_{\text{vane}} - \frac{\ell_b \, q}{V}, \qquad \beta_{\text{true}} = \beta_{\text{vane}} + \frac{\ell_b \, r}{V}
+\tag{99}
+$$
 
 with $\ell_b$ the boom length ahead of the centre of gravity. During a coupled departure $q$ and $r$ are large, so the correction is large, and an uncorrected record overstates the excursions. That correction is why the rate gyros matter as much as the vanes. Rate measurement is what the coupling investigation depended on, and the requirement is severe. Uncertainty in any derived quantity propagates as
 
-$$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{100}
+$$
 
 and resolving a divergence with an e-folding time near 0.5 seconds requires a sample rate satisfying
 
-$$f_s > 2 f_{\max}$$
+$$
+f_s > 2 f_{\max}
+\tag{101}
+$$
 
 with practical rates several times higher, giving a recorded bit budget of
 
-$$B = N_c f_s b$$
+$$
+B = N_c f_s b
+\tag{102}
+$$
 
 for $N_c$ channels of $b$ bits, and the amplitude resolution follows from the converter word length,
 
-$$\Delta = \frac{FS}{2^b}, \qquad \sigma_q = \frac{\Delta}{\sqrt{12}}$$
+$$
+\Delta = \frac{FS}{2^b}, \qquad \sigma_q = \frac{\Delta}{\sqrt{12}}
+\tag{103}
+$$
 
 with $FS$ the full-scale range. A rate gyro recorded to eight bits over a range of two radians per second resolves 0.008 radians per second, which is adequate for the rates of a departure and marginal for the small perturbations that precede one. Moments of inertia, which the analysis above depends on entirely, are not measured in flight at all. They are established by ground swing tests or by mass accounting, the values used for the X-3 being the manufacturer's estimates \[[Fischel et al. 1957][research_x3_handling_1957]\], and their uncertainty propagates directly into any coupling prediction through
 
-$$\frac{u(p_{\text{crit}})}{p_{\text{crit}}} = \frac{1}{2} \frac{u(I)}{I}$$
+$$
+\frac{u(p_{\text{crit}})}{p_{\text{crit}}} = \frac{1}{2} \frac{u(I)}{I}
+\tag{104}
+$$
 
 so a ten percent inertia error gives a five percent error in the predicted threshold. The swing test that establishes inertia measures a pendulum period,
 
-$$T_{\text{swing}} = 2 \pi \sqrt{\frac{I_p}{m g \ell_p}}, \qquad I = I_p - m \ell_p^2$$
+$$
+T_{\text{swing}} = 2 \pi \sqrt{\frac{I_p}{m g \ell_p}}, \qquad I = I_p - m \ell_p^2
+\tag{105}
+$$
 
 with $\ell_p$ the distance from pivot to centre of gravity, so the inertia is a difference of two comparable quantities and the uncertainty amplification familiar from drag measurement reappears,
 
-$$\frac{u(I)}{I} \approx \frac{I_p}{I} \sqrt{ \left( 2 \frac{u(T_{\text{swing}})}{T_{\text{swing}}} \right)^2 + \left( \frac{u(\ell_p)}{\ell_p} \right)^2 }$$
+$$
+\frac{u(I)}{I} \approx \frac{I_p}{I} \sqrt{ \left( 2 \frac{u(T_{\text{swing}})}{T_{\text{swing}}} \right)^2 + \left( \frac{u(\ell_p)}{\ell_p} \right)^2 }
+\tag{106}
+$$
 
 Differencing is the recurring structural feature of flight-test measurement and it appears here in the one quantity the coupling analysis cannot do without. [Dehghan Manshadi and Saghafi 2021][research_manshadi_2021] and [Mwenegoha et al. 2019][research_mwenegoha_2019] take up the estimation problem with current methods. The swing test has since been superseded by a dynamic method that excites the structure and infers the inertia tensor from the measured response, validated in [Chin et al. 2015][research_dynamic_inertia_2015], which removes the differencing amplification described above by measuring the quantity directly rather than as a residual. Air data calibration has undergone the same modernization, with a satellite-referenced method replacing the tower fly-by in [Martos et al. 2011][research_gps_pitot_calibration_2011].
 
@@ -535,7 +853,10 @@ The aircraft first flew on 20 October 1952 with Douglas pilot Bill Bridgeman at 
 
 The dive can be quantified. In a descent at flight path angle $\gamma$ the gravity component supplies
 
-$$\Delta T_{\text{effective}} = W \sin \gamma$$
+$$
+\Delta T_{\text{effective}} = W \sin \gamma
+\tag{107}
+$$
 
 so a thirty degree dive at a weight of 99.6 kilonewtons adds 49.8 kilonewtons, which slightly exceeds the entire installed thrust of 43.6 kilonewtons. Gravity was the larger engine. Its maximum speed was Mach 1.208, achieved on 28 July 1953 in a dive \[[Dinius 2014][ref_nasa_x3_stiletto]\]. It never exceeded Mach 1 in level flight \[[Day 1997][research_coupling_history_1997]\]. Contractor demonstration results are reported in [Day and Fischel 1955][research_x3_stability_1955], horizontal tail loads in [Stephenson 1956][research_x3_tail_loads_1956], buffet and maximum normal force in [Baker et al. 1957][research_x3_buffet_1957], and landing loads in [Marcy 1958][research_x3_landing_loads_1958].
 
@@ -545,11 +866,17 @@ The transonic handling qualities investigation that resulted is [Fischel et al. 
 
 The programme can be scored on the information accounting used throughout this series. With a prior uncertainty $\sigma_0$, a per-flight uncertainty $\sigma_m$, and a target $\sigma_T$,
 
-$$n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil, \qquad I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}$$
+$$
+n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil, \qquad I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}
+\tag{108}
+$$
 
 following [Lindley 1956][research_lindley_1956] and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995]. Fifty-one flights is a large campaign by the standards of this series, comparable to the [X-1][related_post_a298_bell_x1] and far exceeding the [X-2][related_post_a299_bell_x2]. The single airframe is the anomaly. The attrition condition
 
-$$\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha$$
+$$
+\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha
+\tag{109}
+$$
 
 at fifty-one flights and even a one percent per-flight loss probability returns two airframes for ninety-five percent confidence, and the X-3 flew with one. That it survived is fortunate rather than planned, and the coupling data exist because of that fortune.
 
@@ -561,15 +888,24 @@ The X-3 offers an unusually clean test of ground prediction because the coupling
 
 A dynamically scaled model of the aircraft had been tested in the Langley free-spinning tunnel, reported in [Hultz 1951][research_x3_spin_tunnel_1951], three years before the flight events. A spin tunnel model is ballasted to represent the full-scale inertia distribution, so unlike the static force models discussed in the [X-2 article][related_post_a299_bell_x2] it does satisfy the mass and inertia similarity groups,
 
-$$\mu_m = \frac{m}{\rho S b}, \qquad \hat{I}_x = \frac{I_x}{\rho S b^3}, \qquad \hat{I}_y = \frac{I_y}{\rho S \bar{c}^3}$$
+$$
+\mu_m = \frac{m}{\rho S b}, \qquad \hat{I}_x = \frac{I_x}{\rho S b^3}, \qquad \hat{I}_y = \frac{I_y}{\rho S \bar{c}^3}
+\tag{110}
+$$
 
 The instrument capable of finding the problem was therefore applied to this aircraft, which is the opposite of the X-2 situation. Dynamic similarity additionally requires the reduced frequency to match,
 
-$$k = \frac{\omega b}{2 V}$$
+$$
+k = \frac{\omega b}{2 V}
+\tag{111}
+$$
 
 so that the ratio of motion timescale to flow timescale is preserved. Scaling the inertias to a model of geometric ratio $1/k_g$ requires
 
-$$I_m = \frac{I_f}{k_g^5} \cdot \frac{\rho_m}{\rho_f}$$
+$$
+I_m = \frac{I_f}{k_g^5} \cdot \frac{\rho_m}{\rho_f}
+\tag{112}
+$$
 
 whose fifth-power dependence makes ballasting exacting but not impossible. What a spin tunnel investigates, however, is developed spin and recovery rather than the entry into a coupled divergence from a rolling manoeuvre at high speed, so the test asked a different question of the right model.
 
@@ -585,13 +921,19 @@ The coupling data are the first. Walker's flight produced an instrumented record
 
 The information the flights returned can be quantified against what a purpose-built campaign would have needed. Two departures at two Mach numbers is a sample of two, so the posterior uncertainty in any coupling parameter after those flights is
 
-$$\sigma_n = \frac{\sigma_m}{\sqrt{n}} = \frac{\sigma_m}{\sqrt{2}}$$
+$$
+\sigma_n = \frac{\sigma_m}{\sqrt{n}} = \frac{\sigma_m}{\sqrt{2}}
+\tag{113}
+$$
 
 against a prior that was effectively unbounded because no instrumented departure existed. The information gain from the first such record is therefore very large and the second adds a factor of $\sqrt{2}$. That asymmetry is the mathematical statement of why an unplanned event in a surviving aircraft was worth more than a planned campaign in an aircraft that could not have survived it.
 
 The wing is the second. The thin low aspect ratio planform the X-3 demonstrated was used on the [Lockheed F-104 Starfighter][ref_f104] \[[Dinius 2014][ref_nasa_x3_stiletto]\], which first flew in 1954 and became the first combat aircraft capable of sustained Mach 2 flight \[[Wikipedia, F-104][ref_f104]\]. The X-3 also contributed to tire technology, since its very high takeoff and landing speeds required better tires and several tire manufacturers used its data \[[Jenkins et al. 2003][book_jenkins_landis_miller_2003]\]. The scale of that inheritance can be put in terms of the wing loading and touchdown energy relations derived above, since the F-104 carried a comparable wing loading \[[Wikipedia, F-104][ref_f104]\] and therefore a comparable
 
-$$E_{\text{gear}} = \frac{1}{2} m w_s^2, \qquad V_{TD} \propto \sqrt{\frac{W/S}{C_{L,\max}}}$$
+$$
+E_{\text{gear}} = \frac{1}{2} m w_s^2, \qquad V_{TD} \propto \sqrt{\frac{W/S}{C_{L,\max}}}
+\tag{114}
+$$
 
 and tire data gathered against those numbers is a substantial transfer. An aircraft that failed to reach its design speed nonetheless supplied a wing planform to the aircraft that did, and tire data to the aircraft that followed.
 
@@ -829,6 +1171,1025 @@ What the aircraft did instead was reveal the consequence of its shape. A twenty-
 The X-3 therefore fails its keystone completely and matters anyway. No sharper demonstration is available that design intent and historical contribution are different quantities. It also supplied a wing planform to the [F-104][ref_f104] and data for better tires, which is a more conventional kind of success and a smaller one.
 
 The next article takes the [Northrop X-4 Bantam][ref_northrop_x4], a semi-tailless aircraft built to test whether the horizontal tail could be dispensed with at transonic speed, and which answered that question in the negative clearly enough that nobody asked it again for thirty years.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 114 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 114, 99 are established and 15 are bespoke.
+Quantities are in units of the International System after conversion from the pounds, slug square feet and miles per hour of the sources, angles enter the aerodynamic relations in radians, and several letters change meaning between sections, so $\gamma$ is the ratio of specific heats in the gas dynamics and the flight path angle in the trajectory relations, $q$ is dynamic pressure except in the body-axis equations where it is the pitch rate, and $p$ is static pressure, roll rate or a loss probability according to context.
+
+**Equation 1, Ackeret Linearised Supersonic Pressure Coefficient.**
+In linearised supersonic flow the pressure coefficient on a thin surface depends only on the local inclination and the free-stream Mach number.
+[Ackeret 1925][research_ackeret_1925]
+
+$$
+C_p = \frac{2 \, \theta}{\sqrt{M_\infty^2 - 1}}
+\tag{1}
+$$
+
+**Equation 2, Wave Drag Ratio of a 4.5 Percent and an 8 Percent Section.**
+Because thickness wave drag scales as the square of thickness ratio, the X-3 section carries about a third of the wave drag of the X-1 section at the same conditions.
+
+$$
+\frac{D_{w}(4.5\%)}{D_{w}(8\%)} = \left( \frac{4.5}{8.0} \right)^2 = 0.32
+\tag{2}
+$$
+
+**Equation 3, Second Moment of Area of an Idealised Wing Box.**
+Treating the spar caps as concentrated areas at half the structural depth gives a bending second moment that falls as the square of thickness ratio for fixed cap area.
+
+$$
+I_{\text{box}} \approx \frac{A_{\text{cap}} h_s^2}{2} = \frac{A_{\text{cap}} \tau^2 c^2}{2}
+\tag{3}
+$$
+
+**Equation 4, Cap Area Scaling with Thickness Ratio.**
+The cap area needed to carry a given moment at a given stress varies inversely with the structural depth and hence with thickness ratio.
+
+$$
+A_{\text{cap}} \propto \frac{1}{\tau}
+\tag{4}
+$$
+
+**Equation 5, Torsional Frequency, Mass Ratio and Flutter Speed Index.**
+The torsional natural frequency, the wing mass ratio and the flutter speed index are the standard groups on which a flutter boundary depends.
+
+$$
+\omega_\alpha = \sqrt{\frac{K_\theta}{I_\theta}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}
+\tag{5}
+$$
+
+**Equation 6, Bredt Torsion Constant of a Thin Wing Box.**
+The Bredt relation for a closed thin-walled section gives a torsion constant proportional to the square of the enclosed area and therefore to the square of thickness ratio.
+
+$$
+J = \frac{4 A_m^2}{\oint ds / t} \propto \tau^2
+\tag{6}
+$$
+
+**Equation 7, Energy Height and Specific Excess Power.**
+Energy height adds the kinetic energy per unit weight to the altitude, and its rate of change is the specific excess power.
+
+$$
+h_e = h + \frac{V^2}{2 g}, \qquad \frac{dh_e}{dt} = P_s = \frac{V (T - D)}{W}
+\tag{7}
+$$
+
+**Equation 8, Reduction of Random Uncertainty with Dwell Time.**
+Averaging independent noise over a dwell of longer duration reduces the random uncertainty as the inverse square root of that duration.
+
+$$
+\sigma \propto \frac{1}{\sqrt{T_d}}
+\tag{8}
+$$
+
+**Equation 9, Aspect Ratio of the X-3 Wing.**
+The square of the span divided by the wing area gives an aspect ratio of 3.10 from the tabulated dimensions.
+[aspect ratio][ref_aspect_ratio]
+[Fischel et al. 1957][research_x3_handling_1957]
+
+$$
+A = \frac{b^2}{S} = \frac{6.92^2}{15.47} = 3.10
+\tag{9}
+$$
+
+**Equation 10, Installed Thrust of Two J34 Engines.**
+Two Westinghouse J34 engines of 4900 pounds of afterburning thrust each give about 43.6 kilonewtons.
+[Fischel et al. 1957][research_x3_handling_1957]
+
+$$
+T_{\text{J34}} = 2 \times 4900 \times 4.448 = 4.36 \times 10^{4} \ \text{newtons}
+\tag{10}
+$$
+
+**Equation 11, Design Thrust of Two J46 Engines.**
+Two Westinghouse J46 engines of the expected 7000 pounds each would have given about 62.3 kilonewtons.
+[Douglas X-3 Stiletto][ref_douglas_x3]
+
+$$
+T_{\text{J46}} = 2 \times 7000 \times 4.448 = 6.23 \times 10^{4} \ \text{newtons}
+\tag{11}
+$$
+
+**Equation 12, Thrust Shortfall of the Engine Substitution.**
+The installed thrust falls thirty percent short of the design thrust.
+
+$$
+1 - \frac{T_{\text{J34}}}{T_{\text{J46}}} = 30 \ \text{percent}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Thrust-to-Weight Ratio at Fixed Weight.*
+Holding the aircraft weight fixed as a first approximation makes the thrust-to-weight ratio fall in direct proportion to the thrust, to seventy percent of its design value.
+
+$$
+\frac{(T/W)_{\text{J34}}}{(T/W)_{\text{J46}}} = \frac{T_{\text{J34}}}{T_{\text{J46}}} = 0.70
+\tag{13}
+$$
+
+**Equation 14, Thrust Equals Drag in Level Flight.**
+Steady level flight requires the thrust to equal the drag, written as dynamic pressure times wing area times drag coefficient.
+
+$$
+T = D = q S C_D
+\tag{14}
+$$
+
+**Equation 15, Dynamic Pressure in Terms of Mach Number.**
+For a perfect gas the dynamic pressure equals half the ratio of specific heats times the static pressure times the square of the Mach number.
+[dynamic pressure][ref_dynamic_pressure]
+
+$$
+q = \frac{\gamma}{2} p M^2
+\tag{15}
+$$
+
+**Equation 16, Isentropic Total Pressure and Total Temperature Ratios.**
+The isentropic relations give the ratios of total to static pressure and temperature as functions of Mach number.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}, \qquad \frac{T_0}{T} = 1 + \frac{\gamma - 1}{2} M^2
+\tag{16}
+$$
+
+**Equation 17, Mach Angle.**
+The Mach angle is the inverse sine of the reciprocal of the Mach number.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\mu_M = \arcsin \frac{1}{M}
+\tag{17}
+$$
+
+**Equation 18, Isentropic Area-Mach Number Relation.**
+The ratio of stream-tube area to sonic throat area is a function of Mach number alone in isentropic flow.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}
+\tag{18}
+$$
+
+**Equation 19, Thrust-Limited Maximum Mach Number.**
+Equating thrust to drag with the dynamic pressure written in Mach number form and solving gives the square of the maximum Mach number.
+
+$$
+M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Maximum Mach Number Ratio at Fixed Drag Coefficient.*
+Holding altitude and drag coefficient fixed across the Mach range, an assumption the article chose, makes the maximum Mach number scale as the square root of the thrust.
+
+$$
+\frac{M_{\max, 2}}{M_{\max, 1}} = \sqrt{\frac{T_2}{T_1}}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Mach Number Penalty of the Thrust Shortfall.*
+Under the fixed drag coefficient assumption a thirty percent thrust shortfall reduces the maximum Mach number to 0.837 of its design value.
+
+$$
+\sqrt{0.70} = 0.837
+\tag{21}
+$$
+
+**Equation 22, Normal Shock Total Pressure Recovery.**
+The ratio of total pressure behind and ahead of a normal shock is a function of the upstream Mach number and the ratio of specific heats.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{p_{02}}{p_{01}} = \left[ \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2} \right]^{\frac{\gamma}{\gamma - 1}} \left[ \frac{\gamma + 1}{2 \gamma M_1^2 - (\gamma - 1)} \right]^{\frac{1}{\gamma - 1}}
+\tag{22}
+$$
+
+**Equation 23, Normal Shock Static Pressure and Temperature Ratios.**
+The Rankine-Hugoniot relations give the static pressure and temperature rise across a normal shock.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}
+\tag{23}
+$$
+
+**Equation 24, Mach Number Behind a Normal Shock.**
+The downstream Mach number of a normal shock follows from the upstream Mach number and the ratio of specific heats.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+M_2^2 = \frac{(\gamma - 1) M_1^2 + 2}{2 \gamma M_1^2 - (\gamma - 1)}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Thrust Proportional to Inlet Recovery.*
+The article takes turbojet thrust to scale with the total pressure recovery delivered to the compressor face, so the inlet loss passes directly into thrust.
+
+$$
+\frac{T}{T_{\text{ideal}}} \approx \frac{p_{02}}{p_{01}}
+\tag{25}
+$$
+
+**Equation 26, Inlet Mass Flow Ratio.**
+The mass flow ratio is the captured stream-tube area divided by the inlet capture area, equal to the engine mass flow over the free-stream flux through the capture area.
+
+$$
+\frac{A_0}{A_c} = \frac{\dot{m}_{\text{engine}}}{\rho_\infty V_\infty A_c}
+\tag{26}
+$$
+
+**Equation 27, Additive Drag of a Spilling Inlet.**
+The additive drag is the momentum deficit of the captured stream tube plus the pressure force on it between the free stream and the cowl lip.
+
+$$
+D_{\text{add}} = \dot{m}_0 \left( V_\infty - V_1 \right) + \left( p_1 - p_\infty \right) A_1
+\tag{27}
+$$
+
+*Equation 28, Bespoke Spillage Drag Coefficient.*
+The article approximates the spillage drag coefficient as proportional to the capture area, the shortfall in mass flow ratio and the square of the sine of the cowl lip angle.
+
+$$
+C_{D,\text{add}} = \frac{D_{\text{add}}}{q S} \approx \frac{2 A_c}{S} \left( 1 - \frac{A_0}{A_c} \right) \sin^2 \theta_c
+\tag{28}
+$$
+
+*Equation 29, Bespoke Effective Thrust Budget.*
+The effective thrust is assembled from the recovered ideal thrust less the additive drag and the boundary layer diverter drag.
+
+$$
+T_{\text{eff}} = \eta_d \, T_{\text{ideal}} - D_{\text{add}} - D_{\text{div}}
+\tag{29}
+$$
+
+**Equation 30, Inlet Buzz Criterion.**
+Buzz sets in when the mass flow ratio falls below a critical value at which the terminal shock is expelled from the throat.
+
+$$
+\frac{A_0}{A_c} < \left( \frac{A_0}{A_c} \right)_{\text{crit}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Combined Thrust Factor.*
+Multiplying the engine substitution factor by the normal shock recovery at Mach 2 treats the two losses as compounding and leaves about half the design thrust.
+
+$$
+0.70 \times 0.721 = 0.505
+\tag{31}
+$$
+
+*Equation 32, Bespoke Maximum Mach Number with Combined Losses.*
+Applying the square-root thrust scaling at fixed drag coefficient to the combined thrust factor gives a maximum Mach number of 1.42.
+
+$$
+M_{\max} = 2.0 \times \sqrt{0.505} = 1.42
+\tag{32}
+$$
+
+*Equation 33, Bespoke Turbojet Thrust Lapse with Altitude and Mach Number.*
+The article models thrust as proportional to ambient pressure with an isentropic ram correction multiplied by the inlet recovery.
+
+$$
+\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}} \eta_d
+\tag{33}
+$$
+
+**Equation 34, Point-Mass Equation Along the Flight Path.**
+The excess of thrust over drag accelerates the aircraft along its path and supports the component of weight along that path.
+
+$$
+T - D = m \frac{dV}{dt} + m g \sin \gamma
+\tag{34}
+$$
+
+**Equation 35, Time to Cross a Speed Increment in Level Flight.**
+In level flight the time to accelerate between two speeds is the integral of mass over excess thrust, which diverges as thrust approaches drag.
+
+$$
+t_{\text{cross}} = \int_{V_1}^{V_2} \frac{m \, dV}{T(V) - D(V)}
+\tag{35}
+$$
+
+**Equation 36, Specific Excess Power.**
+Specific excess power is the speed times the excess of thrust over drag divided by the weight.
+
+$$
+P_s = \frac{V (T - D)}{W}
+\tag{36}
+$$
+
+**Equation 37, Ceiling Condition.**
+The ceiling is the altitude at which specific excess power vanishes because thrust equals drag.
+
+$$
+P_s = 0 \quad \Longleftrightarrow \quad T(h) = D(h)
+\tag{37}
+$$
+
+**Equation 38, Thrust-to-Weight Ratio at Maximum Takeoff Mass.**
+The installed J34 thrust divided by the weight at the maximum takeoff mass of 10,161 kilograms gives 0.44.
+[Douglas X-3 Stiletto][ref_douglas_x3]
+
+$$
+\frac{T}{W} = \frac{4.36 \times 10^{4}}{10{,}161 \times 9.80665} = 0.44
+\tag{38}
+$$
+
+**Equation 39, Wing Loading at Maximum Takeoff Mass.**
+The weight at maximum takeoff mass divided by the wing area gives 6441 newtons per square metre.
+[Douglas X-3 Stiletto][ref_douglas_x3]
+
+$$
+\frac{W}{S} = \frac{10{,}161 \times 9.80665}{15.47} = 6441 \ \text{newtons per square metre}
+\tag{39}
+$$
+
+**Equation 40, Manoeuvre Corner Speed.**
+The corner speed is the lowest speed at which the maximum lift coefficient produces the limit load factor.
+
+$$
+V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}
+\tag{40}
+$$
+
+**Equation 41, Aerodynamically Available Load Factor.**
+Below the corner speed the available load factor is the maximum lift at that speed divided by the weight.
+
+$$
+n(V) = \frac{\rho V^2 C_{L,\max}}{2 \left( W / S \right)}
+\tag{41}
+$$
+
+**Equation 42, Ackeret Supersonic Lift-Curve Slope.**
+Linearised theory gives a two-dimensional supersonic lift-curve slope of four over the square root of the square of the Mach number less one.
+[Ackeret 1925][research_ackeret_1925]
+
+$$
+C_{L\alpha} = \frac{4}{\sqrt{M_\infty^2 - 1}}
+\tag{42}
+$$
+
+**Equation 43, Supersonic Aspect Ratio Parameter.**
+The product of the Prandtl-Glauert factor and the aspect ratio indicates how far tip effects reach across a supersonic wing.
+
+$$
+\beta_s A = \sqrt{M_\infty^2 - 1} \; A
+\tag{43}
+$$
+
+**Equation 44, Supersonic Lift-Curve Slope at Mach 2.**
+The Ackeret slope evaluated at Mach 2 is 2.31 per radian, which applies because the supersonic aspect ratio of the X-3 wing exceeds four.
+[Ackeret 1925][research_ackeret_1925]
+
+$$
+C_{L\alpha} = \frac{4}{\sqrt{3}} = 2.31 \ \text{per radian}
+\tag{44}
+$$
+
+**Equation 45, Aerodynamic Centre Shift Through the Transonic Range.**
+The aerodynamic centre moves from about the quarter chord in subsonic flow to about the half chord in supersonic flow.
+
+$$
+\frac{x_{ac}}{\bar{c}} : 0.25 \longrightarrow 0.50
+\tag{45}
+$$
+
+**Equation 46, Static Margin and Pitch Stiffness.**
+The static margin is the distance from the centre of gravity to the neutral point in mean chords, and the pitch stiffness is the negative of the lift-curve slope times that margin.
+
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM
+\tag{46}
+$$
+
+**Equation 47, Stick-Fixed Neutral Point.**
+The neutral point lies aft of the wing aerodynamic centre by the tail volume coefficient times the tail-to-wing lift slope ratio corrected for downwash.
+
+$$
+\frac{x_{np}}{\bar{c}} = \frac{x_{ac,w}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right), \qquad V_H = \frac{S_t l_t}{S \bar{c}}
+\tag{47}
+$$
+
+**Equation 48, Short Period Frequency and Damping Approximation.**
+The short period approximation expresses the frequency and damping of the fast longitudinal mode through the pitch and heave stability derivatives.
+
+$$
+\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \omega_{sp}}
+\tag{48}
+$$
+
+**Equation 49, Dutch Roll Frequency Approximation.**
+The Dutch roll frequency is approximated by the square root of the directional stiffness moment divided by the yaw inertia.
+
+$$
+\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}
+\tag{49}
+$$
+
+**Equation 50, Slender-Wing Limit of the Lift-Curve Slope.**
+At low aspect ratio the subsonic lift-curve slope tends toward the slender-wing value of $\pi A / 2$, which is 4.87 per radian for this wing.
+
+$$
+C_{L\alpha} \to \frac{\pi A}{2} = 4.87 \ \text{per radian}
+\tag{50}
+$$
+
+**Equation 51, Induced Drag Coefficient.**
+The induced drag coefficient is the square of the lift coefficient divided by pi, the aspect ratio and the span efficiency factor.
+
+$$
+C_{D,i} = \frac{C_L^2}{\pi A e}
+\tag{51}
+$$
+
+**Equation 52, Drag Build-Up of Friction, Wave and Induced Terms.**
+The drag coefficient is the sum of a friction term, a wave term and the induced drag.
+
+$$
+C_D = C_{D,f} + C_{D,w} + \frac{C_L^2}{\pi A e}
+\tag{52}
+$$
+
+**Equation 53, Reynolds Number.**
+The Reynolds number based on a reference length is the ratio of inertial to viscous forces in the free stream.
+
+$$
+Re_L = \frac{\rho_\infty V_\infty L}{\mu}
+\tag{53}
+$$
+
+**Equation 54, Sutherland Viscosity Law.**
+Sutherland's relation gives the dynamic viscosity of air as a function of temperature from a reference viscosity and the Sutherland constant.
+
+$$
+\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}
+\tag{54}
+$$
+
+**Equation 55, Turbulent Flat-Plate Friction Referred to Wetted Area.**
+The turbulent flat-plate one-fifth power law, scaled by the ratio of wetted to reference area, gives the friction drag coefficient.
+
+$$
+C_{D,f} = \frac{0.0592}{Re_L^{1/5}} \cdot \frac{S_{\text{wet}}}{S}
+\tag{55}
+$$
+
+**Equation 56, Ackeret Thickness Wave Drag.**
+In linearised theory the zero-lift wave drag of a thin section is four times the chordwise mean squared slope divided by the Prandtl-Glauert factor.
+[Ackeret 1925][research_ackeret_1925]
+
+$$
+C_{D,w} = \frac{4 \, \overline{(dy/dx)^2}}{\sqrt{M_\infty^2 - 1}}
+\tag{56}
+$$
+
+**Equation 57, Ackeret Wave Drag Due to Lift.**
+The wave drag due to lift of a thin flat surface is four times the square of the angle of attack over the Prandtl-Glauert factor, which equals the square of the lift coefficient times that factor divided by four.
+[Ackeret 1925][research_ackeret_1925]
+
+$$
+C_{D,w,L} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}} = \frac{C_L^2 \sqrt{M_\infty^2 - 1}}{4}
+\tag{57}
+$$
+
+**Equation 58, Spar Cap Area and Root Bending Moment Under Elliptic Loading.**
+The required cap area is the root moment divided by allowable stress and structural depth, and the root moment of an elliptically loaded wing at load factor $n$ is $n W b / 3 \pi$.
+
+$$
+A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}, \qquad M_{\text{root}} = \frac{n W b}{3 \pi}
+\tag{58}
+$$
+
+**Equation 59, Torsional Stiffness from the Bredt Relation.**
+The torsional stiffness of a wing of length $\ell_w$ is the shear modulus times the Bredt torsion constant divided by that length.
+
+$$
+K_\theta = \frac{G J}{\ell_w}, \qquad J = \frac{4 A_m^2}{\oint \frac{ds}{t}}
+\tag{59}
+$$
+
+**Equation 60, Divergence and Control Reversal Dynamic Pressures.**
+The typical-section analysis gives the dynamic pressures at which torsional stiffness is overcome by aerodynamic moment for divergence and for aileron reversal.
+
+$$
+q_D = \frac{K_\theta}{e S C_{L\alpha}}, \qquad q_R = \frac{K_\theta \, C_{L\delta}}{S \bar{c} \, C_{L\alpha} \left| C_{m\delta} \right|}
+\tag{60}
+$$
+
+**Equation 61, Specific Strength at Operating Temperature.**
+The allowable stress at the wall temperature divided by material density is the figure of merit for a heated structure.
+
+$$
+\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_w}
+\tag{61}
+$$
+
+**Equation 62, Adiabatic Wall Recovery Temperature.**
+The recovery temperature is the static temperature raised by the recovery factor times the stagnation temperature rise.
+
+$$
+T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right)
+\tag{62}
+$$
+
+**Equation 63, Yield-to-Modulus Ratio.**
+The ratio of yield stress to Young's modulus governs the elastic springback of formed sheet.
+[Wikipedia, Ti-6Al-4V][ref_ti6al4v]
+[Wikipedia, 2024 Aluminium][ref_aluminium_2024]
+
+$$
+\frac{\sigma_y}{E}
+\tag{63}
+$$
+
+**Equation 64, Springback of a Bent Sheet.**
+The ratio of bend radius before and after release is a cubic in the group formed by yield stress, bend radius, modulus and sheet thickness.
+
+$$
+\frac{R_i}{R_f} = 1 - 3 \frac{\sigma_y R_i}{E t_s} + 4 \left( \frac{\sigma_y R_i}{E t_s} \right)^3
+\tag{64}
+$$
+
+**Equation 65, Thermal, Propulsive and Overall Efficiency of a Turbojet.**
+The ideal Brayton thermal efficiency depends on compressor pressure ratio, the Froude propulsive efficiency on the exhaust to flight speed ratio, and their product is the overall efficiency.
+
+$$
+\eta_{th} = 1 - \frac{1}{\pi_c^{\frac{\gamma - 1}{\gamma}}}, \qquad \eta_p = \frac{2}{1 + u_e / u_\infty}, \qquad \eta_0 = \eta_{th} \eta_p
+\tag{65}
+$$
+
+**Equation 66, Afterburner Thrust Ratio.**
+Afterburning raises exhaust velocity and hence thrust approximately as the square root of the ratio of nozzle to turbine exit total temperatures.
+
+$$
+\frac{T_{AB}}{T_{\text{dry}}} \approx \sqrt{\frac{T_{07}}{T_{05}}}
+\tag{66}
+$$
+
+**Equation 67, Point-Mass Equation Used to Separate Thrust from Drag.**
+Only the difference between thrust and drag is measurable from the trajectory, through the acceleration along the path and the gravity component.
+
+$$
+T - D = m \frac{dV}{dt} + m g \sin \gamma
+\tag{67}
+$$
+
+**Equation 68, Compressor Face Total Pressure with Ram Compression.**
+The total pressure at the compressor face is the isentropic ram total pressure multiplied by the inlet recovery.
+
+$$
+p_{02} = p_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right)^{\frac{\gamma}{\gamma - 1}} \cdot \eta_d
+\tag{68}
+$$
+
+**Equation 69, Oblique Shock Theta-Beta-Mach Relation.**
+The wedge turning angle is related to the oblique shock angle and the upstream Mach number by the standard oblique shock relation.
+
+$$
+\tan \theta = 2 \cot \beta_o \frac{M_1^2 \sin^2 \beta_o - 1}{M_1^2 \left( \gamma + \cos 2 \beta_o \right) + 2}
+\tag{69}
+$$
+
+**Equation 70, Moments of Inertia of the X-3.**
+The tabulated roll, pitch and yaw inertias are converted from slug square feet to kilogram square metres.
+[Day 1997][research_coupling_history_1997]
+
+$$
+I_x = 5.56 \times 10^{3}, \qquad I_y = 8.30 \times 10^{4}, \qquad I_z = 8.83 \times 10^{4} \ \text{kilogram square metres}
+\tag{70}
+$$
+
+**Equation 71, Pitch-to-Roll Inertia Ratio.**
+The pitch inertia is about fifteen times the roll inertia, an asymmetry three times that of the X-2.
+[Day 1997][research_coupling_history_1997]
+
+$$
+\frac{I_y}{I_x} = 14.9
+\tag{71}
+$$
+
+**Equation 72, Phillips Critical Roll Rate.**
+Divergence in a rolling manoeuvre is expected when the roll rate approaches the lower of the pitch and yaw aerodynamic natural frequencies, as Phillips showed.
+[Phillips 1948][research_phillips_1948]
+
+$$
+\omega_\alpha = \sqrt{\frac{q S \bar{c} \left| C_{m\alpha} \right|}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)
+\tag{72}
+$$
+
+**Equation 73, Dynamic Pressure at Mach 0.92 and 9144 Metres.**
+The Mach number form of dynamic pressure evaluated at the condition of the first roll of October 1954 gives about 17.8 kilopascals.
+[Day 1997][research_coupling_history_1997]
+
+$$
+q = \frac{\gamma}{2} p M^2 = 0.7 \times 30{,}089 \times 0.846 = 1.78 \times 10^{4} \ \text{pascals}
+\tag{73}
+$$
+
+*Equation 74, Bespoke Natural Frequencies with Representative Stiffness Coefficients.*
+The pitch and yaw frequencies are evaluated with stiffness coefficients of 0.3 and 0.1 per radian that the article takes as representative.
+
+$$
+\omega_\alpha = 1.49 \ \text{radians per second}, \qquad \omega_\beta = 1.47 \ \text{radians per second}
+\tag{74}
+$$
+
+*Equation 75, Bespoke Critical Roll Rate at the First Roll Condition.*
+The lower of the two representative frequencies gives a critical roll rate of 84 degrees per second.
+
+$$
+p_{\text{crit}} \approx 1.47 \ \text{radians per second} = 84 \ \text{degrees per second}
+\tag{75}
+$$
+
+**Equation 76, Steady Roll Rate from Aileron Deflection.**
+The steady roll rate balances aileron control power against roll damping and scales with speed over span.
+
+$$
+p_{ss} = -\frac{C_{l \delta_a} \delta_a}{C_{l p}} \cdot \frac{2 V}{b}
+\tag{76}
+$$
+
+*Equation 77, Bespoke Supersonic Roll Damping Approximation.*
+The article adopts a roll damping derivative proportional to aspect ratio and inversely proportional to the Prandtl-Glauert factor for a supersonic aspect ratio above about four.
+
+$$
+C_{lp} \approx -\frac{\pi A}{8 \sqrt{M_\infty^2 - 1}} \quad \text{for } \beta_s A \gtrsim 4
+\tag{77}
+$$
+
+**Equation 78, Roll Mode Time Constant.**
+The roll mode time constant is twice the roll inertia times speed divided by the roll damping moment scale.
+
+$$
+\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}
+\tag{78}
+$$
+
+**Equation 79, First-Order Roll Response.**
+The roll rate approaches its steady value exponentially with the roll mode time constant.
+
+$$
+p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)
+\tag{79}
+$$
+
+**Equation 80, Time to Reach the Critical Roll Rate.**
+Inverting the first-order response gives the time at which the roll rate crosses the critical value.
+
+$$
+t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right)
+\tag{80}
+$$
+
+**Equation 81, Divergence Growth Rate Past the Critical Roll Rate.**
+Above the critical rate the pitch motion grows at the square root of the excess of the squared roll rate over the squared pitch frequency, and its reciprocal is the e-folding time.
+
+$$
+\lambda = \sqrt{p^2 - \omega_\alpha^2}, \qquad \tau_{\text{div}} = \frac{1}{\lambda}
+\tag{81}
+$$
+
+**Equation 82, Euler Moment Equations with Inertial Cross-Coupling.**
+The pitch and yaw moment equations of a rigid body carry inertial cross terms proportional to the products of body rates.
+
+$$
+I_y \dot{q} = M + \left( I_z - I_x \right) p r, \qquad I_z \dot{r} = N + \left( I_x - I_y \right) p q
+\tag{82}
+$$
+
+**Equation 83, Linearised Pitch Equation in a Steady Roll.**
+Linearising about a steady roll rate reduces the effective pitch stiffness by the square of the roll rate and couples pitch to the sideslip rate.
+[Phillips 1948][research_phillips_1948]
+
+$$
+\ddot{\alpha} + \left( \omega_\alpha^2 - p^2 \right) \alpha = \left( \frac{I_z - I_x}{I_y} \right) p \, \dot{\beta}
+\tag{83}
+$$
+
+**Equation 84, Linearised Yaw Equation in a Steady Roll.**
+The yaw counterpart reduces the effective directional stiffness by the square of the roll rate and couples sideslip to the pitch rate.
+[Phillips 1948][research_phillips_1948]
+
+$$
+\ddot{\beta} + \left( \omega_\beta^2 - p^2 \right) \beta = \left( \frac{I_x - I_y}{I_z} \right) p \, \dot{\alpha}
+\tag{84}
+$$
+
+**Equation 85, Inertia Coupling Ratios of the X-3.**
+The inertia differences divided by the pitch and yaw inertias give coupling ratios of 1.00 and minus 0.88.
+[Day 1997][research_coupling_history_1997]
+
+$$
+\mu_1 = \frac{I_z - I_x}{I_y} = 1.00, \qquad \mu_2 = \frac{I_x - I_y}{I_z} = -0.88
+\tag{85}
+$$
+
+**Equation 86, Load Factor Increment from an Angle of Attack Excursion.**
+An angle of attack increment produces a normal load factor increment equal to the added lift divided by the weight.
+
+$$
+\Delta n = \frac{q S C_{L\alpha} \Delta \alpha}{W}
+\tag{86}
+$$
+
+**Equation 87, Takeoff Speed from Wing Loading.**
+The takeoff speed is the speed at which the maximum lift coefficient supports the weight.
+
+$$
+V_{TO} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}
+\tag{87}
+$$
+
+*Equation 88, Bespoke Sea-Level Takeoff Speed with an Assumed Maximum Lift Coefficient.*
+The takeoff speed is evaluated with a maximum lift coefficient of 0.9 that the article treats as optimistic, giving 108 metres per second.
+
+$$
+V_{TO} = \sqrt{\frac{2 \times 99{,}646}{1.225 \times 15.47 \times 0.9}} = 108 \ \text{metres per second}
+\tag{88}
+$$
+
+**Equation 89, Ground Roll at Constant Acceleration.**
+The ground roll is the square of takeoff speed over twice the acceleration that thrust leaves after drag and rolling friction.
+
+$$
+s_{TO} = \frac{V_{TO}^2}{2 a}, \qquad a \approx \frac{T - D - \mu \left( W - L \right)}{m}
+\tag{89}
+$$
+
+**Equation 90, Ground Roll with Drag and Rolling Friction.**
+Integrating speed over acceleration with the drag and friction terms retained gives the ground roll distance.
+
+$$
+s_{TO} = \int_0^{V_{TO}} \frac{m V \, dV}{T - \frac{1}{2} \rho V^2 S \left( C_D - \mu C_L \right) - \mu m g}
+\tag{90}
+$$
+
+**Equation 91, Lift-Off Condition.**
+At lift-off the lift at takeoff speed and takeoff lift coefficient equals the weight.
+
+$$
+\frac{1}{2} \rho V_{TO}^2 S C_{L,TO} = W
+\tag{91}
+$$
+
+**Equation 92, Climb Gradient.**
+The sine of the climb angle is the thrust-to-weight ratio less the reciprocal of the lift-to-drag ratio.
+
+$$
+\sin \gamma_{\text{climb}} = \frac{T}{W} - \frac{1}{L / D}
+\tag{92}
+$$
+
+*Equation 93, Bespoke Climb Gradient After Lift-Off.*
+A subsonic lift-to-drag ratio near 8 that the article assumes at climb lift coefficient leaves a gradient of 0.315 with a thrust-to-weight ratio of 0.44.
+
+$$
+0.44 - 0.125 = 0.315
+\tag{93}
+$$
+
+**Equation 94, Landing Gear Vertical Kinetic Energy.**
+The landing gear absorbs the kinetic energy of the sink rate at touchdown.
+
+$$
+E_{\text{gear}} = \frac{1}{2} m w_s^2
+\tag{94}
+$$
+
+**Equation 95, Landing Distance at Constant Braking Deceleration.**
+The landing roll is the square of touchdown speed over twice the mean braking deceleration.
+
+$$
+s_L = \frac{V_{TD}^2}{2 \bar{a}_{\text{brake}}}
+\tag{95}
+$$
+
+**Equation 96, Brake Energy.**
+The brakes absorb the kinetic energy at touchdown less the work done by aerodynamic drag during the roll.
+
+$$
+E_{\text{brake}} = \frac{1}{2} m V_{TD}^2 - \int_0^{s_L} D \, ds
+\tag{96}
+$$
+
+**Equation 97, Tire Ground Speed Limit.**
+The touchdown ground speed, which is airspeed less headwind, must not exceed the tire speed rating.
+
+$$
+V_{\text{ground}} = V_{TD} - V_{\text{wind}} \le V_{\text{tire}}
+\tag{97}
+$$
+
+**Equation 98, Landing Gear Stroke for a Load Factor Limit.**
+The stroke needed to absorb a sink rate at a chosen gear load factor follows from uniform deceleration.
+
+$$
+s_{\text{stroke}} = \frac{w_s^2}{2 g \left( n_g - 1 \right)}
+\tag{98}
+$$
+
+**Equation 99, Vane Corrections for Body Rotation.**
+Angle of attack and sideslip measured by boom vanes are corrected for the flow induced by pitch and yaw rates at the boom length.
+
+$$
+\alpha_{\text{true}} = \alpha_{\text{vane}} - \frac{\ell_b \, q}{V}, \qquad \beta_{\text{true}} = \beta_{\text{vane}} + \frac{\ell_b \, r}{V}
+\tag{99}
+$$
+
+**Equation 100, Law of Propagation of Uncertainty.**
+The combined variance of a derived quantity is the sum of the input variances weighted by the squared sensitivity coefficients.
+
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{100}
+$$
+
+**Equation 101, Nyquist Sampling Criterion.**
+The sample rate must exceed twice the highest frequency of interest.
+
+$$
+f_s > 2 f_{\max}
+\tag{101}
+$$
+
+**Equation 102, Recorded Bit Budget.**
+The data rate is the number of channels times the sample rate times the bits per sample.
+
+$$
+B = N_c f_s b
+\tag{102}
+$$
+
+**Equation 103, Quantisation Step and Quantisation Noise.**
+A converter of $b$ bits divides the full scale into steps whose uniform rounding error has a standard deviation of the step over the square root of twelve.
+
+$$
+\Delta = \frac{FS}{2^b}, \qquad \sigma_q = \frac{\Delta}{\sqrt{12}}
+\tag{103}
+$$
+
+**Equation 104, Propagation of Inertia Uncertainty into the Critical Roll Rate.**
+Because the critical rate varies as the inverse square root of an inertia, its relative uncertainty is half the relative uncertainty of the inertia.
+
+$$
+\frac{u(p_{\text{crit}})}{p_{\text{crit}}} = \frac{1}{2} \frac{u(I)}{I}
+\tag{104}
+$$
+
+**Equation 105, Compound Pendulum Period and the Parallel Axis Theorem.**
+The swing period of a compound pendulum gives the inertia about the pivot, and the parallel axis theorem transfers it to the centre of gravity.
+
+$$
+T_{\text{swing}} = 2 \pi \sqrt{\frac{I_p}{m g \ell_p}}, \qquad I = I_p - m \ell_p^2
+\tag{105}
+$$
+
+**Equation 106, Uncertainty of an Inertia Found by Swing Test.**
+Propagating period and pivot distance uncertainties through the pendulum relation amplifies them by the ratio of pivot inertia to centre of gravity inertia.
+
+$$
+\frac{u(I)}{I} \approx \frac{I_p}{I} \sqrt{ \left( 2 \frac{u(T_{\text{swing}})}{T_{\text{swing}}} \right)^2 + \left( \frac{u(\ell_p)}{\ell_p} \right)^2 }
+\tag{106}
+$$
+
+**Equation 107, Gravity Component in a Dive.**
+In a descent the weight component along the flight path acts as additional thrust.
+
+$$
+\Delta T_{\text{effective}} = W \sin \gamma
+\tag{107}
+$$
+
+**Equation 108, Flights Required and Information Gained Under a Gaussian Model.**
+For a Gaussian prior and measurement the number of flights to reach a target uncertainty and the information gained in nats follow from the precision update.
+[Lindley 1956][research_lindley_1956]
+[Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995]
+
+$$
+n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil, \qquad I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}
+\tag{108}
+$$
+
+*Equation 109, Bespoke Airframe Attrition Condition.*
+The series sizes the airframe count as the smallest number for which the binomial probability of fewer losses than airframes over $n$ flights reaches the stated confidence.
+
+$$
+\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha
+\tag{109}
+$$
+
+**Equation 110, Mass and Inertia Similarity Groups for a Dynamic Model.**
+A dynamically scaled model must match the relative density and the nondimensional roll and pitch inertias of the full-scale aircraft.
+
+$$
+\mu_m = \frac{m}{\rho S b}, \qquad \hat{I}_x = \frac{I_x}{\rho S b^3}, \qquad \hat{I}_y = \frac{I_y}{\rho S \bar{c}^3}
+\tag{110}
+$$
+
+**Equation 111, Reduced Frequency.**
+The reduced frequency is the circular frequency of the motion multiplied by the time the flow takes to cross half the span.
+
+$$
+k = \frac{\omega b}{2 V}
+\tag{111}
+$$
+
+**Equation 112, Inertia Scaling of a Dynamically Similar Model.**
+A model at geometric scale $1/k_g$ must have its inertias reduced by the fifth power of the scale and the ratio of air densities.
+
+$$
+I_m = \frac{I_f}{k_g^5} \cdot \frac{\rho_m}{\rho_f}
+\tag{112}
+$$
+
+**Equation 113, Posterior Uncertainty After Two Departures.**
+Averaging two independent measurements reduces the uncertainty by the square root of two.
+
+$$
+\sigma_n = \frac{\sigma_m}{\sqrt{n}} = \frac{\sigma_m}{\sqrt{2}}
+\tag{113}
+$$
+
+**Equation 114, Gear Energy and Touchdown Speed Scaling.**
+The gear energy grows with the square of sink rate, and touchdown speed scales as the square root of wing loading over maximum lift coefficient.
+
+$$
+E_{\text{gear}} = \frac{1}{2} m w_s^2, \qquad V_{TD} \propto \sqrt{\frac{W/S}{C_{L,\max}}}
+\tag{114}
+$$
+
+### Notation
+
+- $M_\infty$, the free-stream Mach number
+- $M_1$, the Mach number ahead of a shock
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air, and in the trajectory relations the flight path angle
+- $q$, the dynamic pressure, and in the body-axis relations the pitch rate
+- $S$, the wing reference area
+- $b$, the wing span
+- $\bar{c}$, the mean aerodynamic chord
+- $A$, the wing aspect ratio
+- $W$, the aircraft weight
+- $T$, the thrust
+- $D$, the drag
+- $C_D$, the drag coefficient
+- $C_L$, the lift coefficient
+- $C_{L\alpha}$, the lift-curve slope per radian
+- $C_{L,\max}$, the maximum lift coefficient
+- $C_{m\alpha}$, the pitching moment slope with angle of attack
+- $C_{n\beta}$, the directional stability derivative
+- $C_{lp}$, the roll damping derivative
+- $I_x$, the moment of inertia in roll
+- $I_y$, the moment of inertia in pitch
+- $I_z$, the moment of inertia in yaw
+- $\omega_\alpha$, the torsional natural frequency in the flutter relations and the pitch aerodynamic natural frequency in the coupling analysis
+- $\omega_\beta$, the yaw aerodynamic natural frequency
+- $p_{\text{crit}}$, the critical roll rate for inertia-coupled divergence
+- $\tau$, the wing thickness-to-chord ratio
+- $\rho$, the air density
+- $P_s$, the specific excess power
+- $h_e$, the energy height
+- $\eta_d$, the inlet total pressure recovery
+- $SM$, the static margin as a fraction of the mean aerodynamic chord
+- $x_{np}$, the longitudinal position of the neutral point
+- $V_{TO}$, the takeoff speed
+- $V_{TD}$, the touchdown speed
+- $w_s$, the sink rate at touchdown
+- $\sigma_0$, the prior uncertainty in the quantity a campaign measures
+- $\sigma_m$, the uncertainty of a single flight measurement
+- $\sigma_T$, the target uncertainty
+- $\sigma_n$, the posterior uncertainty after $n$ flights
+- $n^{*}$, the number of flights needed to reach the target uncertainty
+- $I_n$, the information gained from $n$ flights in nats
+- $n_a$, the number of airframes
+- $\lambda$, the growth rate of a coupled divergence
+- $\mu_m$, the mass ratio of the wing or aircraft to the surrounding air
+- $\mu_1$, the pitch inertia coupling ratio
+- $\mu_2$, the yaw inertia coupling ratio
+- $\ell_b$, the boom length ahead of the centre of gravity
+- $f_s$, the sample rate
+- $\theta$, the local surface inclination or flow turning angle in radians
+- $h_s$, the structural depth of the wing box
+- $A_{\text{cap}}$, the spar cap area
+- $K_\theta$, the torsional stiffness of the wing
+- $A_m$, the area enclosed by the wing box
+- $p_{02}$, the total pressure at the compressor face
+- $A_0$, the free-stream area of the stream tube the engine demands
+- $A_c$, the inlet capture area
+- $D_{\text{add}}$, the additive drag of a spilling inlet
+- $\beta_s A$, the supersonic aspect ratio parameter
+- $p_{ss}$, the steady roll rate
+- $\tau_r$, the roll mode time constant
+- $T_r$, the adiabatic wall recovery temperature
+- $\sigma_y$, the yield stress
+- $t_s$, the sheet thickness
+- $\pi_c$, the compressor pressure ratio
+- $k_g$, the geometric scale factor of a dynamic model
 
 ## References
 

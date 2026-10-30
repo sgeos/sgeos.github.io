@@ -105,7 +105,10 @@ the [reusable launch vehicle][ref_rlv] technology programme was a reduction from
 ten thousand dollars a pound to one thousand \[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\],
 a demanded improvement of
 
-$$\frac{10{,}000}{1{,}000} = 10$$
+$$
+\frac{10{,}000}{1{,}000} = 10
+\tag{1}
+$$
 
 **and the mechanism was to be full reusability** with airline-like operations rather than an expendable
 stack rebuilt for every flight \[[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]\].
@@ -120,7 +123,10 @@ put the agency's contribution to the agreement at 912.4 million dollars and the 
 contribution at 286.6 million, the latter having grown by 75 million from an original 211.6 million, which
 is
 
-$$\frac{286.6 - 211.6}{211.6} = 0.354$$
+$$
+\frac{286.6 - 211.6}{211.6} = 0.354
+\tag{2}
+$$
 
 **or 35.4 percent, and the growth fell on the industry side rather than the agency's.**
 
@@ -150,11 +156,17 @@ vehicle that Lockheed Martin intended to build and operate. The relationship bet
 and it can be checked. Taking VentureStar's gross mass as 2,184,000 pounds, within the roughly 2.2 million
 reported for it \[[VentureStar][ref_venturestar]\], against the X-33's 285,000 gives a mass ratio of
 
-$$\frac{m_{\text{VentureStar}}}{m_{\text{X-33}}} = \frac{2{,}184{,}000}{285{,}000} = 7.663$$
+$$
+\frac{m_{\text{VentureStar}}}{m_{\text{X-33}}} = \frac{2{,}184{,}000}{285{,}000} = 7.663
+\tag{3}
+$$
 
 and under a cube law that is a linear scale ratio of
 
-$$\left(7.663\right)^{1/3} = 1.972$$
+$$
+\left(7.663\right)^{1/3} = 1.972
+\tag{4}
+$$
 
 **which gives half scale, from two masses that were not derived from one another.** The routine
 description of the X-33 as a half-scale demonstrator survives an arithmetic check that does not appear to
@@ -168,35 +180,56 @@ have been published.
 [The rocket equation][ref_rocketeq] gives, in the form
 [Sutton sets out for propulsion analysis][book_rocket_propulsion_elements],
 
-$$\Delta v = I_{sp} \, g_0 \ln\!\left(\frac{m_0}{m_f}\right)$$
+$$
+\Delta v = I_{sp} \, g_0 \ln\!\left(\frac{m_0}{m_f}\right)
+\tag{5}
+$$
 
 so the required mass ratio is
 
-$$\frac{m_0}{m_f} = \exp\!\left(\frac{\Delta v}{I_{sp} \, g_0}\right)$$
+$$
+\frac{m_0}{m_f} = \exp\!\left(\frac{\Delta v}{I_{sp} \, g_0}\right)
+\tag{6}
+$$
 
 and the propellant mass fraction $\zeta$, being the share of the gross mass that is propellant, is
 
-$$\zeta = 1 - \frac{m_f}{m_0} = 1 - \exp\!\left(-\frac{\Delta v}{I_{sp} \, g_0}\right)$$
+$$
+\zeta = 1 - \frac{m_f}{m_0} = 1 - \exp\!\left(-\frac{\Delta v}{I_{sp} \, g_0}\right)
+\tag{7}
+$$
 
 **The velocity that has to be produced is mostly, but not only, orbital speed.** A circular orbit of radius
 $r$ about a body of gravitational parameter $\mu$ requires that gravity supply exactly the centripetal
 acceleration,
 
-$$\frac{v^2}{r} = \frac{\mu}{r^2}$$
+$$
+\frac{v^2}{r} = \frac{\mu}{r^2}
+\tag{8}
+$$
 
 so that
 
-$$v_{\text{circ}} = \sqrt{\frac{\mu}{r}}$$
+$$
+v_{\text{circ}} = \sqrt{\frac{\mu}{r}}
+\tag{9}
+$$
 
 **At two hundred kilometres altitude that is**
 
-$$v_{\text{circ}} = \sqrt{\frac{3.986 \times 10^{14}}{6{,}578{,}137}} = 7{,}784.3 \ \text{m/s}$$
+$$
+v_{\text{circ}} = \sqrt{\frac{3.986 \times 10^{14}}{6{,}578{,}137}} = 7{,}784.3 \ \text{m/s}
+\tag{10}
+$$
 
 **Orbital speed is 7,784.3 metres per second, and the difference between that and the budget is everything the vehicle spends without converting it into orbital speed**,
 being gravity losses while the thrust vector is not horizontal, aerodynamic drag through the lower
 atmosphere, and the steering that turns one into the other,
 
-$$\Delta v_{\text{losses}} = 9{,}300 - 7{,}784.3 = 1{,}515.7 \ \text{m/s}$$
+$$
+\Delta v_{\text{losses}} = 9{,}300 - 7{,}784.3 = 1{,}515.7 \ \text{m/s}
+\tag{11}
+$$
 
 **The losses come to 1,515.7 metres per second, which is 16.3 percent of the whole budget.** They are not a
 rounding allowance. They are a sixth of the requirement, and they are why a launch vehicle cannot be sized
@@ -205,15 +238,24 @@ against orbital speed.
 **Reaching low Earth orbit therefore costs about 9,300 metres per second, and a hydrogen-oxygen engine delivers a trajectory-effective specific impulse near 430 seconds.**
 The effective exhaust velocity is then
 
-$$I_{sp} \, g_0 = 430 \times 9.80665 = 4{,}216.9 \ \text{m/s}$$
+$$
+I_{sp} \, g_0 = 430 \times 9.80665 = 4{,}216.9 \ \text{m/s}
+\tag{12}
+$$
 
 the required mass ratio is
 
-$$\frac{m_0}{m_f} = \exp\!\left(\frac{9{,}300}{4{,}216.9}\right) = 9.0742$$
+$$
+\frac{m_0}{m_f} = \exp\!\left(\frac{9{,}300}{4{,}216.9}\right) = 9.0742
+\tag{13}
+$$
 
 and the propellant fraction is
 
-$$\zeta = 1 - \frac{1}{9.0742} = 0.8898$$
+$$
+\zeta = 1 - \frac{1}{9.0742} = 0.8898
+\tag{14}
+$$
 
 **Eighty-nine percent of the vehicle must be propellant, which leaves 11.02 percent of the gross mass for the structure, the engines, the thermal protection, the tanks, the avionics, the landing gear and the payload together.**
 
@@ -232,9 +274,12 @@ table below sweeps both across their plausible ranges.
 **The two corners of the table bound it.** The easiest case pairs the highest specific impulse with the
 smallest budget and the hardest pairs the lowest with the largest,
 
-$$\zeta_{\min} = 1 - \exp\!\left(-\frac{9{,}000}{460 \times 9.80665}\right) = 0.8640 ,
+$$
+\zeta_{\min} = 1 - \exp\!\left(-\frac{9{,}000}{460 \times 9.80665}\right) = 0.8640 ,
 \qquad
-\zeta_{\max} = 1 - \exp\!\left(-\frac{9{,}600}{420 \times 9.80665}\right) = 0.9028 ,$$
+\zeta_{\max} = 1 - \exp\!\left(-\frac{9{,}600}{420 \times 9.80665}\right) = 0.9028 ,
+\tag{15}
+$$
 
 and the structural allowance is $1 - \zeta$ at each.
 
@@ -246,7 +291,10 @@ machinery is reused here.
 
 **The X-33's propellant fraction was**
 
-$$\zeta_{\text{X-33}} = \frac{210{,}000}{285{,}000} = 0.7368$$
+$$
+\zeta_{\text{X-33}} = \frac{210{,}000}{285{,}000} = 0.7368
+\tag{16}
+$$
 
 **or 73.7 percent, which is nowhere near the requirement and was never meant to be.** The demonstrator was
 suborbital. What it was required to demonstrate was the technology that would deliver the fraction, and that
@@ -265,19 +313,31 @@ between 0.80 and 0.82 at 68 degrees Fahrenheit, taken here at the middle value o
 oxidiser mass fractions of the propellant load are then $1/(1+r)$ and $r/(1+r)$, and the volume occupied per
 unit mass of propellant is
 
-$$\frac{V}{m} = \frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}$$
+$$
+\frac{V}{m} = \frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}
+\tag{17}
+$$
 
 so the bulk density of the combination is the reciprocal,
 
-$$\rho_{\text{bulk}} = \left[\frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}\right]^{-1}$$
+$$
+\rho_{\text{bulk}} = \left[\frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}\right]^{-1}
+\tag{18}
+$$
 
 **At the mixture ratio of 5.5 that the engine used**, hydrogen is
 
-$$\frac{1}{1+5.5} = 0.154$$
+$$
+\frac{1}{1+5.5} = 0.154
+\tag{19}
+$$
 
 of the propellant mass, and its share of the propellant volume is
 
-$$\frac{(1/6.5)/70.85}{(1/6.5)/70.85 + (5.5/6.5)/1{,}142} = 0.746$$
+$$
+\frac{(1/6.5)/70.85}{(1/6.5)/70.85 + (5.5/6.5)/1{,}142} = 0.746
+\tag{20}
+$$
 
 **Hydrogen is 15.4 percent of the mass and 74.6 percent of the volume.** That single sentence is why this
 article is about the hydrogen tank and not about the oxygen tank.
@@ -294,24 +354,39 @@ no third option exists, because there is no dense fuel with hydrogen's specific 
 **Consider a thin-walled vessel of wall thickness $t$, wall density $\rho_w$, allowable stress $\sigma$, enclosing volume $V$ at internal pressure $p$.**
 For a sphere of radius $R$, equilibrium of a hemisphere against the pressure on its projected area gives
 
-$$p \pi R^2 = \sigma \, t \, 2 \pi R$$
+$$
+p \pi R^2 = \sigma \, t \, 2 \pi R
+\tag{21}
+$$
 
 so that $t = pR/2\sigma$, and the vessel mass is
 
-$$m = \rho_w \, 4 \pi R^2 t = \frac{2 \pi \rho_w p R^3}{\sigma} = \frac{3}{2} \frac{\rho_w p V}{\sigma}$$
+$$
+m = \rho_w \, 4 \pi R^2 t = \frac{2 \pi \rho_w p R^3}{\sigma} = \frac{3}{2} \frac{\rho_w p V}{\sigma}
+\tag{22}
+$$
 
 **For a long cylinder the hoop equilibrium of a half shell of length $L$ gives**
 
-$$p \, 2 R L = \sigma \, t \, 2 L$$
+$$
+p \, 2 R L = \sigma \, t \, 2 L
+\tag{23}
+$$
 
 so $t = pR/\sigma$, and per unit length
 
-$$m = \rho_w \, 2 \pi R t = \frac{2 \pi \rho_w p R^2}{\sigma} = 2 \frac{\rho_w p V}{\sigma}$$
+$$
+m = \rho_w \, 2 \pi R t = \frac{2 \pi \rho_w p R^2}{\sigma} = 2 \frac{\rho_w p V}{\sigma}
+\tag{24}
+$$
 
 **So the vessel mass is $k \rho_w p V / \sigma$ with a shape factor $k$ of three halves for a sphere and two for a cylinder, and the size has cancelled.**
 Writing $\rho_p$ for the propellant density, the vessel mass divided by the propellant mass it holds is
 
-$$\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{k \, \rho_w \, p}{\sigma \, \rho_p}$$
+$$
+\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{k \, \rho_w \, p}{\sigma \, \rho_p}
+\tag{25}
+$$
 
 **and this ratio contains no length whatever.**
 
@@ -321,7 +396,10 @@ optimism. Taking a graphite-epoxy laminate of the kind
 kilograms per cubic metre with a design allowable of 450 megapascals, and the protoflight pressure of 42
 pounds per square inch, or 289.6 kilopascals, the ideal cylindrical hydrogen tank is
 
-$$\frac{2 \times 1{,}570 \times 289{,}600}{450 \times 10^6 \times 70.85} = 0.02852$$
+$$
+\frac{2 \times 1{,}570 \times 289{,}600}{450 \times 10^6 \times 70.85} = 0.02852
+\tag{26}
+$$
 
 **or 2.852 percent of the hydrogen it holds.** The same expression for an aluminium-lithium oxygen tank
 gives 0.342 percent, so
@@ -333,7 +411,10 @@ Each X-33 hydrogen tank was reported at 4,600 pounds with a capacity of 29,000 U
 \[[Marshall Space Flight Center, X-33 Liquid Hydrogen Fuel Tank Ready for Tests][ref_msfc_tank_release]\]. That
 capacity is 109.78 cubic metres, which holds
 
-$$109.78 \times 70.85 = 7{,}777.7 \ \text{kg}$$
+$$
+109.78 \times 70.85 = 7{,}777.7 \ \text{kg}
+\tag{27}
+$$
 
 of hydrogen when full, 7,777.7 kilograms against a tank mass of 2,086.5 kilograms.
 **The built tank is therefore 26.83 percent of the hydrogen it holds, against an ideal membrane vessel at 2.852 percent, a factor of 9.4.**
@@ -343,11 +424,17 @@ and identifying that something is the rest of this section.
 
 **One comparison sharpens the puzzle before the answer.** The specific strength of the composite is
 
-$$\frac{450 \times 10^6}{1{,}570} = 286.6 \ \text{kN} \cdot \text{m/kg}$$
+$$
+\frac{450 \times 10^6}{1{,}570} = 286.6 \ \text{kN} \cdot \text{m/kg}
+\tag{28}
+$$
 
 against
 
-$$\frac{400 \times 10^6}{2{,}700} = 148.1 \ \text{kN} \cdot \text{m/kg}$$
+$$
+\frac{400 \times 10^6}{2{,}700} = 148.1 \ \text{kN} \cdot \text{m/kg}
+\tag{29}
+$$
 
 for aluminium-lithium at cryogenic temperature, a ratio of **1.93**. The composite is nearly twice as good
 per unit mass.
@@ -365,11 +452,17 @@ because a membrane under uniform pressure must have constant curvature.
 inscribed cylinder has radius $h/2$ and cross-sectional area $\pi h^2/4$. Two equal lobes of the same
 radius, placed so their outer extremities touch the sides of the box, have their centres separated by
 
-$$d = w - h$$
+$$
+d = w - h
+\tag{30}
+$$
 
 and their union area is the sum of two circles less the lens where they overlap,
 
-$$A = 2 \pi R^2 - \left[2 R^2 \arccos\!\left(\frac{d}{2R}\right) - \frac{d}{2}\sqrt{4R^2 - d^2}\right]$$
+$$
+A = 2 \pi R^2 - \left[2 R^2 \arccos\!\left(\frac{d}{2R}\right) - \frac{d}{2}\sqrt{4R^2 - d^2}\right]
+\tag{31}
+$$
 
 **For the published X-33 tank envelope of 8.7 by 6.1 by 4.3 metres**, the cross-section of the box is 26.230
 square metres, a single inscribed cylinder covers 14.522 of it, or 55.4 percent, and two lobes cover 22.030,
@@ -385,17 +478,26 @@ the vehicle exists.
 Consider the line where two lobes of radius $R$ meet, with centres separated by $d$. Placing the centres at
 $(-d/2, 0)$ and $(d/2, 0)$, the lobes intersect at $(0, \pm c)$ with
 
-$$c = \sqrt{R^2 - \left(\frac{d}{2}\right)^2}$$
+$$
+c = \sqrt{R^2 - \left(\frac{d}{2}\right)^2}
+\tag{32}
+$$
 
 Each lobe skin carries a membrane tension per unit length of $N = pR$ directed along its own tangent. At the
 upper intersection the tangent to the left lobe points along $(-c, d/2)/R$ and the tangent to the right lobe
 along $(c, d/2)/R$, so the two skin tensions sum to
 
-$$pR \cdot \frac{(-c, d/2) + (c, d/2)}{R} = (0, \, p\,d)$$
+$$
+pR \cdot \frac{(-c, d/2) + (c, d/2)}{R} = (0, \, p\,d)
+\tag{33}
+$$
 
 **The skins pull the junction outward along the web with a force per unit length of exactly $p\,d$, so the web must carry**
 
-$$N_{\text{web}} = p \, d$$
+$$
+N_{\text{web}} = p \, d
+\tag{34}
+$$
 
 **The web tension is the pressure times the separation of the lobe centres, and nothing else enters it.**
 The limits confirm the form. As $d \to 0$ the lobes coincide, no web is needed, and the tension vanishes. As
@@ -404,19 +506,28 @@ hoop tension of either lobe.
 
 For the X-33 envelope cross-section of width $w$ of 6.1 metres and height $h$ of 4.3 metres,
 
-$$R = \frac{h}{2} = 2.15 \ \text{m} , \qquad d = w - h = 1.8 \ \text{m} ,$$
+$$
+R = \frac{h}{2} = 2.15 \ \text{m} , \qquad d = w - h = 1.8 \ \text{m} ,
+\tag{35}
+$$
 
 and at the protoflight pressure of 42 pounds per square inch, or 289.58 kilopascals, the lobe skin and
 the web carry
 
-$$N = pR = 289.58 \times 2.15 = 622.6 \ \text{kN/m} , \qquad
+$$
+N = pR = 289.58 \times 2.15 = 622.6 \ \text{kN/m} , \qquad
 N_{\text{web}} = pd = 289.58 \times 1.8 = 521.2 \ \text{kN/m} , \qquad
-\frac{N_{\text{web}}}{N} = \frac{d}{R} = \frac{1.8}{2.15} = 0.837 .$$
+\frac{N_{\text{web}}}{N} = \frac{d}{R} = \frac{1.8}{2.15} = 0.837 .
+\tag{36}
+$$
 
 **The web carries 521.2 kilonewtons per metre, which is 83.7 percent of the hoop load while enclosing no volume at all.**
 Its height is the chord between the two intersections,
 
-$$h_{\text{web}} = 2c = \sqrt{4R^2 - d^2} = \sqrt{18.49 - 3.24} = 3.905 \ \text{m} ,$$
+$$
+h_{\text{web}} = 2c = \sqrt{4R^2 - d^2} = \sqrt{18.49 - 3.24} = 3.905 \ \text{m} ,
+\tag{37}
+$$
 
 so the web stands 3.905 metres tall.
 
@@ -427,29 +538,47 @@ so the web stands 3.905 metres tall.
 Sizing every wall by its membrane tension, the mass per unit length of the lobed section is the skin arc
 length times its thickness plus the web height times its thickness, all times the wall density,
 
-$$m' = \frac{\rho_w p}{\sigma}\left(s R + h_{\text{web}} d\right)$$
+$$
+m' = \frac{\rho_w p}{\sigma}\left(s R + h_{\text{web}} d\right)
+\tag{38}
+$$
 
 where $s$ is the retained arc length of the two lobes and $h_{\text{web}} = 2c$. Writing the half angle
 subtended by the removed cap as
 
-$$\alpha = \arccos\frac{d}{2R}$$
+$$
+\alpha = \arccos\frac{d}{2R}
+\tag{39}
+$$
 
 the retained arc is
 
-$$s = 2\left(2\pi - 2\alpha\right) R$$
+$$
+s = 2\left(2\pi - 2\alpha\right) R
+\tag{40}
+$$
 
 and the union area given above is
 
-$$A = 2\pi R^2 - 2R^2\alpha + \frac{d}{2}\sqrt{4R^2 - d^2}$$
+$$
+A = 2\pi R^2 - 2R^2\alpha + \frac{d}{2}\sqrt{4R^2 - d^2}
+\tag{41}
+$$
 
 **Substituting and using $h_{\text{web}} = \sqrt{4R^2 - d^2}$,**
 
-$$s R + h_{\text{web}} d = \left(4\pi - 4\alpha\right)R^2 + d\sqrt{4R^2-d^2} = 2A$$
+$$
+s R + h_{\text{web}} d = \left(4\pi - 4\alpha\right)R^2 + d\sqrt{4R^2-d^2} = 2A
+\tag{42}
+$$
 
 **identically, for every radius and every separation at which the lobes intersect.** The membrane mass per
 unit enclosed volume is therefore
 
-$$\frac{m'}{A} = \frac{2 \rho_w p}{\sigma}$$
+$$
+\frac{m'}{A} = \frac{2 \rho_w p}{\sigma}
+\tag{43}
+$$
 
 **which is exactly the value for a cylinder, with the geometry gone.** The residual computed on the X-33
 geometry is zero to machine precision, as the derivation above requires.
@@ -464,7 +593,10 @@ themselves.
 the identity makes the lobed membrane mass equal to the cylinder's, its ratio to the hydrogen held is the
 ideal 2.852 percent, against the built tank's 26.83 percent,
 
-$$\frac{0.02852}{0.2683} = 0.106 .$$
+$$
+\frac{0.02852}{0.2683} = 0.106 .
+\tag{44}
+$$
 
 The remaining eighty-nine percent is shape and manufacture, **and the record agrees**, because the
 reported reason the composite tank came out heavier than an aluminium tank of the same shape was the
@@ -485,39 +617,60 @@ the document that supplies both the knockdown factor below and the pressure-stab
 after it. Writing $E$ for the wall modulus, $\nu$ for its Poisson ratio and $\gamma$ for a knockdown factor
 covering imperfection sensitivity, the classical critical stress is
 
-$$\sigma_{cr} = \frac{\gamma E t}{R \sqrt{3\left(1-\nu^2\right)}}$$
+$$
+\sigma_{cr} = \frac{\gamma E t}{R \sqrt{3\left(1-\nu^2\right)}}
+\tag{45}
+$$
 
 so the compressive load per unit circumference the shell can carry is
 
-$$N_{cr} = \sigma_{cr} \, t = \frac{\gamma E t^2}{R \sqrt{3\left(1-\nu^2\right)}}$$
+$$
+N_{cr} = \sigma_{cr} \, t = \frac{\gamma E t^2}{R \sqrt{3\left(1-\nu^2\right)}}
+\tag{46}
+$$
 
 and the thickness stability demands for a given line load $N_x$ is
 
-$$t_{\text{buckling}} = \sqrt{\frac{N_x R \sqrt{3\left(1-\nu^2\right)}}{\gamma E}}$$
+$$
+t_{\text{buckling}} = \sqrt{\frac{N_x R \sqrt{3\left(1-\nu^2\right)}}{\gamma E}}
+\tag{47}
+$$
 
 **Estimating the X-33's compressive line load would import every uncertainty of its load path, and the argument does not need one.**
 Ask instead for the threshold. Setting the buckling thickness equal to the membrane thickness $pR/\sigma$
 and solving for the load gives
 
-$$N_x^{\ast} = \frac{\gamma E p^2 R}{\sigma^2 \sqrt{3\left(1-\nu^2\right)}}$$
+$$
+N_x^{\ast} = \frac{\gamma E p^2 R}{\sigma^2 \sqrt{3\left(1-\nu^2\right)}}
+\tag{48}
+$$
 
 **Above that line load the wall is sized by stability and not by pressure.** At a knockdown of 0.2, a
 laminate modulus of 70 gigapascals and the tank's radius and pressure, the threshold is
 
-$$N_x^{\ast} = 7.54 \ \text{kN/m}$$
+$$
+N_x^{\ast} = 7.54 \ \text{kN/m}
+\tag{49}
+$$
 
 **and the only thing that has to be established about the vehicle is that it clears that bar.** It clears it
 easily. Both engines at sea level produce 1.819 meganewtons
 \[[DAgostino et al. 2001][research_dagostinomarkg_leeyoungc_2001]\], and spreading that across the outer contour of
 both tanks gives
 
-$$N_x = \frac{1.819 \times 10^6}{2 \times 17.223} = 52.8 \ \text{kN/m}$$
+$$
+N_x = \frac{1.819 \times 10^6}{2 \times 17.223} = 52.8 \ \text{kN/m}
+\tag{50}
+$$
 
 **which is 7.0 times the threshold, from thrust alone**, ignoring inertial loads, aerodynamic bending and
 every ground-handling case. The membrane thickness is 1.384 millimetres and the buckling thickness at that
 load is
 
-$$t_{\text{buckling}} = 3.660 \ \text{mm}$$
+$$
+t_{\text{buckling}} = 3.660 \ \text{mm}
+\tag{51}
+$$
 
 **a ratio of 2.65.** The tank is a stability structure wearing a pressure vessel's name.
 
@@ -525,7 +678,10 @@ $$t_{\text{buckling}} = 3.660 \ \text{mm}$$
 stabilises a shell, because hoop tension resists the inward lobes of the buckling mode. The effect scales
 with the pressure parameter
 
-$$\frac{p}{E}\left(\frac{R}{t}\right)^2 = 1.427$$
+$$
+\frac{p}{E}\left(\frac{R}{t}\right)^2 = 1.427
+\tag{52}
+$$
 
 which raises the effective knockdown from 0.2 to 0.429 and drops the required thickness to 2.499
 millimetres, **a ratio to the membrane thickness of 1.81 rather than 2.65.**
@@ -557,27 +713,42 @@ and the reasoning is the ordinary structural one
 **A solid wall thick enough not to buckle is a wasteful source of bending stiffness**, because a monocoque
 of thickness $t$ has
 
-$$D_{\text{mono}} = \frac{E t^3}{12\left(1-\nu^2\right)} = 314.3 \ \text{N} \cdot \text{m}$$
+$$
+D_{\text{mono}} = \frac{E t^3}{12\left(1-\nu^2\right)} = 314.3 \ \text{N} \cdot \text{m}
+\tag{53}
+$$
 
 whereas two facesheets of thickness $t_f$ separated by a core of thickness $h$ have
 
-$$D_{\text{sand}} = \frac{E t_f h^2}{2}$$
+$$
+D_{\text{sand}} = \frac{E t_f h^2}{2}
+\tag{54}
+$$
 
 **The separation enters squared and the material enters linearly**, and the argument for the architecture
 consists of that fact alone. The core thickness that matches the monocoque's stiffness is
 
-$$h = \sqrt{\frac{2 D_{\text{mono}}}{E t_f}} = 3.00 \ \text{mm}$$
+$$
+h = \sqrt{\frac{2 D_{\text{mono}}}{E t_f}} = 3.00 \ \text{mm}
+\tag{55}
+$$
 
 **Three millimetres of core gives the stiffness of three and a half millimetres of solid laminate.**
 
 **So the facesheets are not sized by stiffness at all, and what does size them is the finding.** They share
 the membrane load, so each needs half the membrane thickness,
 
-$$t_f = \frac{t_{\text{membrane}}}{2} = 0.692 \ \text{mm}$$
+$$
+t_f = \frac{t_{\text{membrane}}}{2} = 0.692 \ \text{mm}
+\tag{56}
+$$
 
 against a minimum manufacturable gauge for a balanced symmetric quasi-isotropic laminate of eight plies,
 
-$$t_{\text{gauge}} = 8 \times 0.125 = 1.000 \ \text{mm}$$
+$$
+t_{\text{gauge}} = 8 \times 0.125 = 1.000 \ \text{mm}
+\tag{57}
+$$
 
 **Minimum gauge governs.** The sandwich splits the membrane load between two sheets and thereby pushes each
 of them below what can be laid up,
@@ -594,11 +765,17 @@ revealed complexities in the scale-up of large composite structures that had not
 
 The monocoque wall has an areal mass of
 
-$$\rho_w t_{\text{buckling}} = 1{,}570 \times 0.003660 = 5.746 \ \text{kg/m}^2$$
+$$
+\rho_w t_{\text{buckling}} = 1{,}570 \times 0.003660 = 5.746 \ \text{kg/m}^2
+\tag{58}
+$$
 
 and the sandwich has
 
-$$2 \rho_w t_f + \rho_c h$$
+$$
+2 \rho_w t_f + \rho_c h
+\tag{59}
+$$
 
 which depends on a core thickness the record does not give, so it is swept.
 
@@ -623,7 +800,10 @@ thirty millimetre core it is only 1.14 times lighter and the core has become 37.
 while carrying no membrane load at all. Setting the sandwich mass equal to the monocoque mass and solving
 for the core thickness gives
 
-$$h_{\text{break}} = \frac{\rho_w t_{\text{buckling}} - 2 \rho_w t_f}{\rho_c} = 40.7 \ \text{mm}$$
+$$
+h_{\text{break}} = \frac{\rho_w t_{\text{buckling}} - 2 \rho_w t_f}{\rho_c} = 40.7 \ \text{mm}
+\tag{60}
+$$
 
 **Beyond about forty millimetres of core the sandwich weighs more than the solid wall it replaced**, while
 being far stiffer than that wall needed to be.
@@ -638,7 +818,10 @@ this article.
 shows that it was not close. Face wrinkling, the local instability of a facesheet on an elastic
 foundation, occurs near
 
-$$\sigma_{wr} = 0.5 \left(E_f E_c G_c\right)^{1/3} = 559.3 \ \text{MPa}$$
+$$
+\sigma_{wr} = 0.5 \left(E_f E_c G_c\right)^{1/3} = 559.3 \ \text{MPa}
+\tag{61}
+$$
 
 against a laminate allowable of 450, **a margin of 1.24.** The tank did not fail in any mode the stress
 analysis owned.
@@ -653,11 +836,17 @@ honeycomb cores and the face-to-core bond in The Contemporary Literature.
 Taking the barrel skin over the outer contour, the web over its height, and end closures at 1.4 times
 the flat cross-section, the sheet area of one tank is
 
-$$s \, L + h_{\text{web}} L + 2 \times 1.4 \, A = 245.50 \ \text{m}^2$$
+$$
+s \, L + h_{\text{web}} L + 2 \times 1.4 \, A = 245.50 \ \text{m}^2
+\tag{62}
+$$
 
 and at the thirty millimetre sandwich the wall mass is
 
-$$5.06 \times 245.50 = 1{,}242.2 \ \text{kg}$$
+$$
+5.06 \times 245.50 = 1{,}242.2 \ \text{kg}
+\tag{63}
+$$
 
 **The wall comes to 1,242.2 kilograms against a built tank of 2,086.5, so the build-up explains 59.5 percent and leaves 844.3 kilograms unaccounted.**
 
@@ -712,13 +901,19 @@ gross mass of 272,900 pounds and an unfuelled mass of 63,000
 \[[Wade, Encyclopedia Astronautica, X-33][ref_astronautix_x33]\]. Writing $m_0$ for gross mass, $m_p$ for
 propellant and $m_e$ for the mass without propellant,
 
-$$m_e^{(1)} = m_0^{(1)} - m_p^{(1)} = 285{,}000 - 210{,}000 = 75{,}000 \ \text{lb} ,
+$$
+m_e^{(1)} = m_0^{(1)} - m_p^{(1)} = 285{,}000 - 210{,}000 = 75{,}000 \ \text{lb} ,
 \qquad
-m_p^{(2)} = m_0^{(2)} - m_e^{(2)} = 272{,}900 - 63{,}000 = 209{,}900 \ \text{lb} ,$$
+m_p^{(2)} = m_0^{(2)} - m_e^{(2)} = 272{,}900 - 63{,}000 = 209{,}900 \ \text{lb} ,
+\tag{64}
+$$
 
 so the two propellant loads differ by 100 pounds, or 0.05 percent, while the empty masses differ by
 
-$$m_e^{(1)} - m_e^{(2)} = 12{,}000 \ \text{lb} , \qquad \frac{12{,}000}{63{,}000} = 0.190 .$$
+$$
+m_e^{(1)} - m_e^{(2)} = 12{,}000 \ \text{lb} , \qquad \frac{12{,}000}{63{,}000} = 0.190 .
+\tag{65}
+$$
 
 **The propellant load agrees to within a tenth of a percent and the empty mass differs by 12,000 pounds, which is nineteen percent of the smaller figure.**
 Here the disagreement is informative, and resolving it silently would discard information. Neither
@@ -735,11 +930,17 @@ a total of 408,840. **The table has taken the two-engine total and labelled it a
 
 The consequence is arithmetically visible. The correct thrust-to-weight ratio at liftoff is
 
-$$\frac{2 \times 204{,}420}{285{,}000} = 1.435$$
+$$
+\frac{2 \times 204{,}420}{285{,}000} = 1.435
+\tag{66}
+$$
 
 which is ordinary for a launch vehicle. Taken at face value the table implies
 
-$$\frac{2 \times 410{,}000}{285{,}000} = 2.877$$
+$$
+\frac{2 \times 410{,}000}{285{,}000} = 2.877
+\tag{67}
+$$
 
 **which no launch vehicle has ever had, because the propellant would be gone before the vehicle had turned downrange.**
 A liftoff ratio near 1.4 is the design region for a hydrogen vehicle, whose engines are heavy and whose
@@ -766,7 +967,10 @@ substantial thickness.
 
 The tanks together weigh 9,200 pounds against a burnout mass of 75,000, so
 
-$$\frac{9{,}200}{75{,}000} = 0.1227$$
+$$
+\frac{9{,}200}{75{,}000} = 0.1227
+\tag{68}
+$$
 
 **One subsystem holding 15.4 percent of the propellant by mass accounts for 12.27 percent of everything the vehicle has left at burnout.**
 
@@ -781,21 +985,33 @@ mismatch appears as transverse tensile strain.
 Writing $\alpha_1$ and $\alpha_2$ for the two coefficients and $\Delta T$ for the excursion from the cure
 temperature, the constrained transverse strain is
 
-$$\varepsilon_2 = \left(\alpha_2 - \alpha_1\right)\left|\Delta T\right|$$
+$$
+\varepsilon_2 = \left(\alpha_2 - \alpha_1\right)\left|\Delta T\right|
+\tag{69}
+$$
 
 **From a cure temperature of about 450 kelvin down to liquid hydrogen at 20.3 kelvin the excursion is 429.7 kelvin**,
 and with a mismatch of $30.4 \times 10^{-6}$ per kelvin,
 
-$$\varepsilon_2 = 30.4 \times 10^{-6} \times 429.7 = 0.01306$$
+$$
+\varepsilon_2 = 30.4 \times 10^{-6} \times 429.7 = 0.01306
+\tag{70}
+$$
 
 **or 1.306 percent.** The implied transverse stress, at a transverse modulus near 9 gigapascals, is
 
-$$\sigma_2 = 9 \times 10^{9} \times 0.01306 = 117.6 \ \text{MPa}$$
+$$
+\sigma_2 = 9 \times 10^{9} \times 0.01306 = 117.6 \ \text{MPa}
+\tag{71}
+$$
 
 **The transverse failure strain of such a laminate is matrix-dominated and near 0.6 percent**, so the
 cooldown alone takes the material to
 
-$$\frac{0.01306}{0.006} = 2.18$$
+$$
+\frac{0.01306}{0.006} = 2.18
+\tag{72}
+$$
 
 **times its transverse failure strain before any pressure is applied at all.**
 
@@ -806,7 +1022,10 @@ leak path through the facesheet, and the failure investigation found that they d
 **Inverting the relation shows why there was no easy fix.** The cure temperature that would hold the strain
 inside the allowable is
 
-$$T_{\text{cure}} = 20.3 + \frac{0.006}{30.4 \times 10^{-6}} = 217.7 \ \text{K}$$
+$$
+T_{\text{cure}} = 20.3 + \frac{0.006}{30.4 \times 10^{-6}} = 217.7 \ \text{K}
+\tag{73}
+$$
 
 **or about minus 55 degrees Celsius.** No structural epoxy cures below room temperature and retains its
 properties, so the remedy lies outside the process, in a different resin system, a thin foil barrier, or a
@@ -819,11 +1038,17 @@ design that tolerates a cracked laminate.
 **The first requires no condensation at all.** Gas sealed into a cell at one atmosphere while the cell is at
 hydrogen temperature obeys, at constant volume,
 
-$$\frac{p_2}{p_1} = \frac{T_2}{T_1}$$
+$$
+\frac{p_2}{p_1} = \frac{T_2}{T_1}
+\tag{74}
+$$
 
 so warming from 20.3 kelvin to 300 gives a pressure ratio of
 
-$$\frac{300}{20.3} = 14.78$$
+$$
+\frac{300}{20.3} = 14.78
+\tag{75}
+$$
 
 **and a core pressure of 1,497 kilopascals, or about 217 pounds per square inch.** A sealed void adjacent to
 liquid hydrogen is a pressure vessel whose charging mechanism is being left alone to warm up.
@@ -836,11 +1061,17 @@ When the tank is emptied and the wall warms, the accumulated condensate returns 
 Let $f$ be the fraction of the core volume occupied by condensate of density $\rho_c$ and molar mass $M$. On
 evaporation into the same volume at temperature $T$ the pressure is
 
-$$p = \frac{f \rho_c R T}{M}$$
+$$
+p = \frac{f \rho_c R T}{M}
+\tag{76}
+$$
 
 so the fill fraction needed to reach a given pressure is
 
-$$f = \frac{p M}{\rho_c R T}$$
+$$
+f = \frac{p M}{\rho_c R T}
+\tag{77}
+$$
 
 **The table below takes solid nitrogen at 1,026 kilograms per cubic metre, warming to 300 kelvin.**
 
@@ -854,7 +1085,10 @@ $$f = \frac{p M}{\rho_c R T}$$
 With $R$ here the universal gas constant of 8.3145 joules per mole per kelvin, nitrogen's molar mass of
 0.028013 kilograms per mole, and 200 pounds per square inch being 1,378,951 pascals,
 
-$$f = \frac{1{,}378{,}951 \times 0.028013}{1{,}026 \times 8.3145 \times 300} = 0.01509 .$$
+$$
+f = \frac{1{,}378{,}951 \times 0.028013}{1{,}026 \times 8.3145 \times 300} = 0.01509 .
+\tag{78}
+$$
 
 **At a degraded flatwise bond of 200 pounds per square inch, 1.509 percent of the core volume is enough.**
 Fifteen parts in a thousand. The investigation reported the bondline strength and toughness as reduced,
@@ -863,9 +1097,12 @@ Fifteen parts in a thousand. The investigation reported the bondline strength an
 **The same arithmetic for hydrogen, the gas that the microcracks admitted**, needs a gas density
 at 300 kelvin of
 
-$$\rho_{\text{H}_2} = \frac{p M_{\text{H}_2}}{R T} = \frac{1{,}378{,}951 \times 0.0020159}{8.3145 \times 300} = 1.1144 \ \text{kg/m}^3 ,
+$$
+\rho_{\text{H}_2} = \frac{p M_{\text{H}_2}}{R T} = \frac{1{,}378{,}951 \times 0.0020159}{8.3145 \times 300} = 1.1144 \ \text{kg/m}^3 ,
 \qquad
-\frac{1.1144}{70.85} = 0.01573 ,$$
+\frac{1.1144}{70.85} = 0.01573 ,
+\tag{79}
+$$
 
 so 200 pounds per square inch at room temperature takes a core fraction of 1.573 percent of the density of
 the liquid.
@@ -899,36 +1136,57 @@ The engine's encyclopaedic specification rounds these to 204,000 and 266,000 pou
 **The case for altitude compensation is quantitative and this section makes it.** Thrust is the momentum
 flux of the exhaust plus a pressure term acting over the exit area,
 
-$$F = \dot{m} v_e + \left(p_e - p_a\right) A_e$$
+$$
+F = \dot{m} v_e + \left(p_e - p_a\right) A_e
+\tag{80}
+$$
 
 **and the second term is the whole of the altitude problem**, because it is the only part that depends on
 where the engine is. Normalising by chamber pressure and throat area gives the thrust coefficient,
 
-$$C_F = \frac{F}{p_c A_t}$$
+$$
+C_F = \frac{F}{p_c A_t}
+\tag{81}
+$$
 
 while everything upstream of the throat collects into the characteristic velocity,
 
-$$c^{\ast} = \frac{p_c A_t}{\dot{m}}$$
+$$
+c^{\ast} = \frac{p_c A_t}{\dot{m}}
+\tag{82}
+$$
 
 so that specific impulse factors into a chamber term and a nozzle term,
 
-$$I_{sp} = \frac{F}{\dot{m} g_0} = \frac{C_F \, c^{\ast}}{g_0}$$
+$$
+I_{sp} = \frac{F}{\dot{m} g_0} = \frac{C_F \, c^{\ast}}{g_0}
+\tag{83}
+$$
 
 **That factorisation is why the comparison below can be made in thrust coefficients alone.** For one engine
 compared against itself at two ambient pressures the chamber is unchanged, so $c^{\ast}$ cancels exactly and
 
-$$\frac{I_{sp,\text{vac}}}{I_{sp,\text{SL}}} = \frac{C_{F,\text{vac}}}{C_{F,\text{SL}}}$$
+$$
+\frac{I_{sp,\text{vac}}}{I_{sp,\text{SL}}} = \frac{C_{F,\text{vac}}}{C_{F,\text{SL}}}
+\tag{84}
+$$
 
 A conventional bell nozzle has a fixed exit area, so its exit pressure is fixed by the chamber conditions,
 which leave it correctly expanded at exactly one altitude.
 **Let $p_c$ be chamber pressure, $p_e$ exit pressure, $p_a$ ambient pressure, $\varepsilon$ the area ratio and $\gamma$ the ratio of specific heats.**
 The area ratio follows from the isentropic relations as
 
-$$\varepsilon = \frac{\left(\frac{2}{\gamma+1}\right)^{\frac{1}{\gamma-1}} \left(\frac{p_e}{p_c}\right)^{-\frac{1}{\gamma}}}{\sqrt{\frac{\gamma+1}{\gamma-1}\left[1 - \left(\frac{p_e}{p_c}\right)^{\frac{\gamma-1}{\gamma}}\right]}}$$
+$$
+\varepsilon = \frac{\left(\frac{2}{\gamma+1}\right)^{\frac{1}{\gamma-1}} \left(\frac{p_e}{p_c}\right)^{-\frac{1}{\gamma}}}{\sqrt{\frac{\gamma+1}{\gamma-1}\left[1 - \left(\frac{p_e}{p_c}\right)^{\frac{\gamma-1}{\gamma}}\right]}}
+\tag{85}
+$$
 
 and the thrust coefficient is
 
-$$C_F = \sqrt{\frac{2\gamma^2}{\gamma-1}\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma+1}{\gamma-1}}\left[1 - \left(\frac{p_e}{p_c}\right)^{\frac{\gamma-1}{\gamma}}\right]} + \left(\frac{p_e}{p_c} - \frac{p_a}{p_c}\right)\varepsilon$$
+$$
+C_F = \sqrt{\frac{2\gamma^2}{\gamma-1}\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma+1}{\gamma-1}}\left[1 - \left(\frac{p_e}{p_c}\right)^{\frac{\gamma-1}{\gamma}}\right]} + \left(\frac{p_e}{p_c} - \frac{p_a}{p_c}\right)\varepsilon
+\tag{86}
+$$
 
 **The relation is checked against the condition that defines the throat**, namely that the area ratio must
 equal one exactly at the critical pressure ratio, and it does so to machine precision.
@@ -936,11 +1194,17 @@ equal one exactly at the critical pressure ratio, and it does so to machine prec
 **At an area ratio of 57.7 and a chamber pressure of 857 pounds per square inch, the exit pressure is 7.755 kilopascals**,
 or 0.0765 of sea-level ambient. The usual criterion for attached flow puts the separation limit near
 
-$$p_e \geq 0.4 \, p_a$$
+$$
+p_e \geq 0.4 \, p_a
+\tag{87}
+$$
 
 which at sea level is 40.53 kilopascals, so the nozzle sits
 
-$$\frac{0.4 \times 101{,}325}{7{,}755} = 5.23$$
+$$
+\frac{0.4 \times 101{,}325}{7{,}755} = 5.23
+\tag{88}
+$$
 
 **times inside the separation region, and a fixed bell of this area ratio could not be run at sea level at all.**
 
@@ -958,11 +1222,17 @@ That combination is all the architecture claims, and the claim is true.
 **The published specific impulses provide a check on the specification rather than on the engine.** Their
 ratio is
 
-$$\frac{436.5}{339.0} = 1.2876$$
+$$
+\frac{436.5}{339.0} = 1.2876
+\tag{89}
+$$
 
 against 1.2140 for an ideal compensating nozzle, a disagreement of
 
-$$1 - \frac{1.2140}{1.2876} = 0.0572 ,$$
+$$
+1 - \frac{1.2140}{1.2876} = 0.0572 ,
+\tag{90}
+$$
 
 or 5.72 percent, as one expects
 once real losses and a varying ratio of specific heats are admitted.
@@ -1032,7 +1302,10 @@ evaporated for a reason that the identity derived above predicts.
 **The metal tank does not get the trade for nothing, and the quantity that decides it is the same one that cracks the laminate.**
 A tank of length $L$ contracts on filling by
 
-$$\Delta L = \alpha \, \Delta T \, L$$
+$$
+\Delta L = \alpha \, \Delta T \, L
+\tag{91}
+$$
 
 and over the tank's 8.7 metres, cooling from room temperature to liquid hydrogen, the two materials differ
 by more than an order of magnitude.
@@ -1126,11 +1399,17 @@ Accountability Office defines Mach 1 as 741 miles per hour at sea level
 \[[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]\].
 Neither describes the air in which the vehicle would have reached its top speed. The velocity given up is
 
-$$\Delta v_{\text{lost}} = \left(15.0 - 13.8\right) \times 323.96 = 388.7 \ \text{m/s}$$
+$$
+\Delta v_{\text{lost}} = \left(15.0 - 13.8\right) \times 323.96 = 388.7 \ \text{m/s}
+\tag{92}
+$$
 
 Holding the gross mass fixed, the burnout mass that would have reached the original objective satisfies
 
-$$m_f^{\ast} = \frac{m_f}{\exp\!\left(\Delta v_{\text{lost}} / I_{sp} g_0\right)}$$
+$$
+m_f^{\ast} = \frac{m_f}{\exp\!\left(\Delta v_{\text{lost}} / I_{sp} g_0\right)}
+\tag{93}
+$$
 
 and the implied growth is $m_f/m_f^{\ast} - 1$.
 
@@ -1143,9 +1422,12 @@ and the implied growth is $m_f/m_f^{\ast} - 1$.
 
 **The two ends of the table are**, for the burnout mass $m_f$ of 75,000 pounds and $\Delta v_{\text{lost}}$ of 388.7 metres per second,
 
-$$\frac{m_f}{m_f^{\ast}} - 1 = \exp\!\left(\frac{388.7}{350 \times 9.80665}\right) - 1 = 0.120 ,
+$$
+\frac{m_f}{m_f^{\ast}} - 1 = \exp\!\left(\frac{388.7}{350 \times 9.80665}\right) - 1 = 0.120 ,
 \qquad
-\exp\!\left(\frac{388.7}{436.5 \times 9.80665}\right) - 1 = 0.095 .$$
+\exp\!\left(\frac{388.7}{436.5 \times 9.80665}\right) - 1 = 0.095 .
+\tag{94}
+$$
 
 **Across every plausible effective specific impulse the implied growth in burnout mass is between 9.5 and 12.0 percent at a 180,000 foot cutoff**,
 and the inversion is checked forward by putting each inverted mass back through the rocket equation and
@@ -1158,7 +1440,10 @@ convention the velocity given up is 397.5 metres per second and the growth is be
 between the earlier unfuelled mass of 63,000 pounds and the later gross-minus-propellant figure of 75,000 is,
 as computed in the comparison of the two specification families above,
 
-$$\frac{75{,}000 - 63{,}000}{63{,}000} = 0.190 ,$$
+$$
+\frac{75{,}000 - 63{,}000}{63{,}000} = 0.190 ,
+\tag{95}
+$$
 
 or 19.0 percent. The two routes share no input.
 **One uses a speed objective and an engine, the other uses two mass tables, and neither uses a weight figure the programme withheld.**
@@ -1210,16 +1495,25 @@ VentureStar's published gross mass is 2,184,000 pounds. At the required propella
 derived above, the propellant load is 1,943,317 pounds. Assuming a payload of 45,000 pounds to low Earth
 orbit, **everything else, meaning the entire vehicle, has an allowance of**
 
-$$2{,}184{,}000 - 1{,}943{,}317 - 45{,}000 = 195{,}683 \ \text{lb}$$
+$$
+2{,}184{,}000 - 1{,}943{,}317 - 45{,}000 = 195{,}683 \ \text{lb}
+\tag{96}
+$$
 
 At a mixture ratio of 5.5 the hydrogen load is 298,972 pounds.
 **At the X-33's demonstrated tank efficiency of 26.83 percent of the hydrogen held, the hydrogen tanks alone would weigh**
 
-$$0.2683 \times 298{,}972 = 80{,}205 \ \text{lb}$$
+$$
+0.2683 \times 298{,}972 = 80{,}205 \ \text{lb}
+\tag{97}
+$$
 
 which as a share of the allowance is
 
-$$\frac{80{,}205}{195{,}683} = 0.410$$
+$$
+\frac{80{,}205}{195{,}683} = 0.410
+\tag{98}
+$$
 
 **or 41.0 percent of the structural allowance for the whole vehicle.** The allowance is 195,683
 pounds and the two hydrogen tanks account for 80,205 of it.
@@ -1234,14 +1528,23 @@ which is comfortable. The distance between 4.4 and 41.0 is the entire technical 
 **Inverting the question gives the requirement.** Allowing the tanks a share $f$ of the structural allowance
 $m_{\text{dry}}$, the efficiency they must reach against a hydrogen load $m_{H_2}$ is
 
-$$\eta = \frac{f \, m_{\text{dry}}}{m_{H_2}}$$
+$$
+\eta = \frac{f \, m_{\text{dry}}}{m_{H_2}}
+\tag{99}
+$$
 
 and the improvement demanded over what was demonstrated is $\eta_{\text{X-33}} / \eta$. At fifteen percent
 of the allowance,
 
-$$\eta = \frac{0.15 \times 195{,}683}{298{,}972} = 0.0982$$
+$$
+\eta = \frac{0.15 \times 195{,}683}{298{,}972} = 0.0982
+\tag{100}
+$$
 
-$$\frac{0.2683}{0.0982} = 2.73$$
+$$
+\frac{0.2683}{0.0982} = 2.73
+\tag{101}
+$$
 
 **Even at a generous fifteen percent of the allowance, the tanks must reach 9.8 percent of the hydrogen they hold, 2.73 times better than the article that was built and tested.**
 
@@ -1379,19 +1682,31 @@ Moving the knockdown from 0.2 to 0.5 takes the buckling-equivalent thickness fro
 material, the core needed for stiffness parity falls from 3.00 millimetres to 1.51 and the saving across
 both tanks is
 
-$$\left(m_{0.2} - m_{0.5}\right) S = 103 \ \text{lb}$$
+$$
+\left(m_{0.2} - m_{0.5}\right) S = 103 \ \text{lb}
+\tag{102}
+$$
 
 **On a metal monocoque of the same geometry, where the thickness is the stiffness, the same change in the same factor saves**
 
-$$\left(\rho_{Al} t_{0.2} - \rho_{Al} t_{0.5}\right) S = 3{,}932 \ \text{lb}$$
+$$
+\left(\rho_{Al} t_{0.2} - \rho_{Al} t_{0.5}\right) S = 3{,}932 \ \text{lb}
+\tag{103}
+$$
 
 **which is 5.24 percent of the vehicle's burnout mass.** Set against the burnout-mass growth that cost the Mach 15
 objective, taken from the two ends of the table in the section headed The Speed Objective as a
 Weight Report,
 
-$$m_f - m_f^{\ast} = 75{,}000 - 66{,}969 = 8{,}031 \ \text{lb} , \qquad 75{,}000 - 68{,}489 = 6{,}511 \ \text{lb} ,$$
+$$
+m_f - m_f^{\ast} = 75{,}000 - 66{,}969 = 8{,}031 \ \text{lb} , \qquad 75{,}000 - 68{,}489 = 6{,}511 \ \text{lb} ,
+\tag{104}
+$$
 
-$$\frac{3{,}932}{8{,}413} = 0.467 , \qquad \frac{3{,}932}{6{,}824} = 0.576 ,$$
+$$
+\frac{3{,}932}{8{,}413} = 0.467 , \qquad \frac{3{,}932}{6{,}824} = 0.576 ,
+\tag{105}
+$$
 
 **the monocoque saving is between 49.0 and 60.4 percent of that weight growth of 6,511 to 8,031 pounds.**
 
@@ -1662,7 +1977,10 @@ tank capacity, the propellant load and the engine mixture ratio imply a fill fra
 implied by 210,000 pounds of propellant at a mixture ratio of 5.5 is 14,655 kilograms, which occupies 206.85
 cubic metres, against a total tank capacity of 219.55, so
 
-$$\frac{206.85}{219.55} = 0.942$$
+$$
+\frac{206.85}{219.55} = 0.942
+\tag{106}
+$$
 
 **The implied fill is 94.2 percent**, consistent with what a cryogenic tank carries once ullage is allowed
 for.
@@ -1867,6 +2185,931 @@ and the lesson concerns experimental design rather than either aeroplane.
 This series has now met a designation marking an absence of demand in the
 [X-27][related_post_a324_lockheed_x27], an absence of knowledge in the
 [X-30][related_post_a327_rockwell_x30], and, here, **the presence of an answer nobody wanted.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 106 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 106, 51 are established and 55 are bespoke.
+Vehicle masses and thrusts are quoted in pounds while the structural, thermal and propulsion relations are evaluated in the International System, and many letters are reused between sections, so $r$ is an orbital radius and then the mixture ratio, $R$ is a tank radius except in the gas relations, where it is the universal gas constant, $h$ is the envelope height and then the sandwich core thickness, $\gamma$ is the buckling knockdown factor in the shell relations and the ratio of specific heats in the nozzle relations, $\alpha$ is a lobe half angle and then a thermal expansion coefficient, $\rho_c$ is the core density in the sandwich relations and the condensate density in the cryopumping relations, $\varepsilon$ is the nozzle area ratio while $\varepsilon_2$ is a strain, and $f$ is a fill fraction and then a share of the structural allowance.
+
+**Equation 1, Demanded Reduction in Cost to Orbit.**
+The stated goal of reducing launch cost from about ten thousand to one thousand dollars a pound is a factor of ten.
+[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]
+
+$$
+\frac{10{,}000}{1{,}000} = 10
+\tag{1}
+$$
+
+**Equation 2, Growth of the Industry Contribution.**
+The industry contribution grew from 211.6 to 286.6 million dollars, an increase of 35.4 percent of the original figure.
+[Government Accountability Office, Status of the X-33 Reusable Launch Vehicle Program][ref_gao_x33]
+
+$$
+\frac{286.6 - 211.6}{211.6} = 0.354
+\tag{2}
+$$
+
+*Equation 3, Bespoke Gross Mass Ratio of VentureStar to the X-33.*
+The ratio takes the VentureStar gross mass as 2,184,000 pounds, a value the article chooses within the roughly 2.2 million reported, against the X-33's 285,000.
+[VentureStar][ref_venturestar]
+
+$$
+\frac{m_{\text{VentureStar}}}{m_{\text{X-33}}} = \frac{2{,}184{,}000}{285{,}000} = 7.663
+\tag{3}
+$$
+
+*Equation 4, Bespoke Linear Scale Ratio Under a Cube Law.*
+Assuming that mass scales with the cube of linear size, the mass ratio implies a linear scale ratio of about two, consistent with the description of a half-scale demonstrator.
+
+$$
+\left(7.663\right)^{1/3} = 1.972
+\tag{4}
+$$
+
+**Equation 5, Tsiolkovsky Rocket Equation.**
+The ideal velocity increment is the effective exhaust velocity times the natural logarithm of the ratio of gross to burnout mass.
+[The rocket equation][ref_rocketeq]
+[Sutton sets out for propulsion analysis][book_rocket_propulsion_elements]
+
+$$
+\Delta v = I_{sp} \, g_0 \ln\!\left(\frac{m_0}{m_f}\right)
+\tag{5}
+$$
+
+**Equation 6, Required Mass Ratio.**
+Inverting the rocket equation gives the mass ratio as the exponential of the velocity increment over the effective exhaust velocity.
+[The rocket equation][ref_rocketeq]
+[Sutton sets out for propulsion analysis][book_rocket_propulsion_elements]
+
+$$
+\frac{m_0}{m_f} = \exp\!\left(\frac{\Delta v}{I_{sp} \, g_0}\right)
+\tag{6}
+$$
+
+**Equation 7, Propellant Mass Fraction.**
+The propellant mass fraction is one minus the reciprocal of the mass ratio.
+
+$$
+\zeta = 1 - \frac{m_f}{m_0} = 1 - \exp\!\left(-\frac{\Delta v}{I_{sp} \, g_0}\right)
+\tag{7}
+$$
+
+**Equation 8, Circular Orbit Force Balance.**
+In a circular orbit gravity supplies exactly the centripetal acceleration.
+
+$$
+\frac{v^2}{r} = \frac{\mu}{r^2}
+\tag{8}
+$$
+
+**Equation 9, Circular Orbital Velocity.**
+The circular orbital velocity is the square root of the gravitational parameter over the orbital radius.
+
+$$
+v_{\text{circ}} = \sqrt{\frac{\mu}{r}}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Orbital Velocity at Two Hundred Kilometres.*
+The circular velocity is evaluated at an altitude of two hundred kilometres, the reference orbit the article takes.
+
+$$
+v_{\text{circ}} = \sqrt{\frac{3.986 \times 10^{14}}{6{,}578{,}137}} = 7{,}784.3 \ \text{m/s}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Ascent Losses.*
+The losses are the difference between a velocity budget of 9,300 metres per second, which the article takes as the cost of low Earth orbit, and the circular velocity at two hundred kilometres.
+
+$$
+\Delta v_{\text{losses}} = 9{,}300 - 7{,}784.3 = 1{,}515.7 \ \text{m/s}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Effective Exhaust Velocity.*
+The effective exhaust velocity uses a trajectory-effective specific impulse of 430 seconds that the article takes as representative of a hydrogen-oxygen engine.
+
+$$
+I_{sp} \, g_0 = 430 \times 9.80665 = 4{,}216.9 \ \text{m/s}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Required Mass Ratio to Orbit.*
+The representative budget of 9,300 metres per second and specific impulse of 430 seconds give a required mass ratio of about nine.
+
+$$
+\frac{m_0}{m_f} = \exp\!\left(\frac{9{,}300}{4{,}216.9}\right) = 9.0742
+\tag{13}
+$$
+
+*Equation 14, Bespoke Required Propellant Fraction to Orbit.*
+The required propellant fraction under the representative budget and specific impulse is 0.89, leaving eleven percent of gross mass for everything else.
+
+$$
+\zeta = 1 - \frac{1}{9.0742} = 0.8898
+\tag{14}
+$$
+
+*Equation 15, Bespoke Bounds on the Required Propellant Fraction.*
+The rocket equation evaluated at the corners of the assumed ranges of delta-v budget and specific impulse bounds the required propellant fraction between 0.864 and 0.903.
+
+$$
+\zeta_{\min} = 1 - \exp\!\left(-\frac{9{,}000}{460 \times 9.80665}\right) = 0.8640 ,
+\qquad
+\zeta_{\max} = 1 - \exp\!\left(-\frac{9{,}600}{420 \times 9.80665}\right) = 0.9028 ,
+\tag{15}
+$$
+
+**Equation 16, Propellant Fraction of the X-33.**
+The published propellant load divided by the published gross mass gives a propellant fraction of 0.737.
+[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]
+
+$$
+\zeta_{\text{X-33}} = \frac{210{,}000}{285{,}000} = 0.7368
+\tag{16}
+$$
+
+**Equation 17, Specific Volume of a Bipropellant Load.**
+The volume per unit mass of propellant is the mass-weighted sum of the specific volumes of fuel and oxidiser at mixture ratio $r$.
+
+$$
+\frac{V}{m} = \frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}
+\tag{17}
+$$
+
+**Equation 18, Bulk Density of a Bipropellant Load.**
+The bulk density is the reciprocal of the mass-weighted specific volume.
+
+$$
+\rho_{\text{bulk}} = \left[\frac{1}{1+r}\frac{1}{\rho_f} + \frac{r}{1+r}\frac{1}{\rho_o}\right]^{-1}
+\tag{18}
+$$
+
+**Equation 19, Hydrogen Mass Share at the Engine Mixture Ratio.**
+At the engine mixture ratio of 5.5 hydrogen is 15.4 percent of the propellant mass.
+
+$$
+\frac{1}{1+5.5} = 0.154
+\tag{19}
+$$
+
+**Equation 20, Hydrogen Volume Share at the Engine Mixture Ratio.**
+With the normal boiling point densities of hydrogen and oxygen, hydrogen occupies 74.6 percent of the propellant volume.
+[Huzel and Huang, Design of Liquid Propellant Rocket Engines, NASA SP-125][ref_huzel]
+[Liquid hydrogen][ref_lh2]
+
+$$
+\frac{(1/6.5)/70.85}{(1/6.5)/70.85 + (5.5/6.5)/1{,}142} = 0.746
+\tag{20}
+$$
+
+**Equation 21, Hemispherical Equilibrium of a Spherical Vessel.**
+The pressure on the projected area of a hemisphere is balanced by the wall stress acting around its rim.
+
+$$
+p \pi R^2 = \sigma \, t \, 2 \pi R
+\tag{21}
+$$
+
+**Equation 22, Mass of a Thin Spherical Pressure Vessel.**
+The mass of a thin spherical vessel sized by membrane stress is three halves of wall density times pressure times volume over allowable stress.
+
+$$
+m = \rho_w \, 4 \pi R^2 t = \frac{2 \pi \rho_w p R^3}{\sigma} = \frac{3}{2} \frac{\rho_w p V}{\sigma}
+\tag{22}
+$$
+
+**Equation 23, Hoop Equilibrium of a Cylindrical Vessel.**
+The pressure on a half shell of a long cylinder is balanced by the hoop stress in its two wall sections.
+
+$$
+p \, 2 R L = \sigma \, t \, 2 L
+\tag{23}
+$$
+
+**Equation 24, Mass per Unit Length of a Thin Cylindrical Vessel.**
+The mass of a long thin cylindrical vessel sized by hoop stress is twice wall density times pressure times volume over allowable stress.
+
+$$
+m = \rho_w \, 2 \pi R t = \frac{2 \pi \rho_w p R^2}{\sigma} = 2 \frac{\rho_w p V}{\sigma}
+\tag{24}
+$$
+
+**Equation 25, Tank to Propellant Mass Ratio of an Ideal Vessel.**
+The ratio of membrane vessel mass to propellant mass depends on a shape factor, wall density, pressure, allowable stress and propellant density, and contains no length.
+
+$$
+\frac{m_{\text{tank}}}{m_{\text{prop}}} = \frac{k \, \rho_w \, p}{\sigma \, \rho_p}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Ideal Cylindrical Hydrogen Tank Ratio.*
+The ideal ratio of 2.852 percent uses a laminate density of 1,570 kilograms per cubic metre and a design allowable of 450 megapascals that the article assumes, at the protoflight pressure.
+[Jones treats in the standard text on composite mechanics][book_mechanics_of_composite_materials]
+
+$$
+\frac{2 \times 1{,}570 \times 289{,}600}{450 \times 10^6 \times 70.85} = 0.02852
+\tag{26}
+$$
+
+**Equation 27, Hydrogen Held by One X-33 Tank.**
+The published capacity of 29,000 gallons at the normal boiling point density of hydrogen holds about 7,780 kilograms.
+[Marshall Space Flight Center, X-33 Liquid Hydrogen Fuel Tank Ready for Tests][ref_msfc_tank_release]
+
+$$
+109.78 \times 70.85 = 7{,}777.7 \ \text{kg}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Specific Strength of the Composite.*
+The specific strength of the composite is the assumed allowable of 450 megapascals over the assumed laminate density.
+
+$$
+\frac{450 \times 10^6}{1{,}570} = 286.6 \ \text{kN} \cdot \text{m/kg}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Specific Strength of Aluminium-Lithium.*
+The specific strength of aluminium-lithium at cryogenic temperature uses an allowable of 400 megapascals and a density of 2,700 kilograms per cubic metre that the article takes as representative.
+
+$$
+\frac{400 \times 10^6}{2{,}700} = 148.1 \ \text{kN} \cdot \text{m/kg}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Separation of Two Lobes in a Rectangular Envelope.*
+The article places two equal lobes of radius half the envelope height so that their outer extremities touch the sides of the box, which fixes the separation of their centres.
+
+$$
+d = w - h
+\tag{30}
+$$
+
+**Equation 31, Union Area of Two Intersecting Circles.**
+The area of two overlapping circles is twice the area of one less the area of the lens they share.
+
+$$
+A = 2 \pi R^2 - \left[2 R^2 \arccos\!\left(\frac{d}{2R}\right) - \frac{d}{2}\sqrt{4R^2 - d^2}\right]
+\tag{31}
+$$
+
+**Equation 32, Half Chord of the Lobe Intersection.**
+Two circles of radius $R$ with centres $d$ apart intersect at a height given by Pythagoras above the line of centres.
+
+$$
+c = \sqrt{R^2 - \left(\frac{d}{2}\right)^2}
+\tag{32}
+$$
+
+**Equation 33, Resultant of the Skin Tensions at a Lobe Junction.**
+Adding the two membrane tensions along their tangents at the junction leaves a resultant of $p\,d$ directed along the web.
+
+$$
+pR \cdot \frac{(-c, d/2) + (c, d/2)}{R} = (0, \, p\,d)
+\tag{33}
+$$
+
+**Equation 34, Web Tension of a Lobed Tank.**
+The web at a lobe junction carries a tension per unit length equal to the pressure times the separation of the lobe centres.
+
+$$
+N_{\text{web}} = p \, d
+\tag{34}
+$$
+
+*Equation 35, Bespoke Lobe Radius and Separation of the X-33 Section.*
+The published envelope of 6.1 by 4.3 metres gives the lobe radius and separation under the two-lobe arrangement the article adopts.
+
+$$
+R = \frac{h}{2} = 2.15 \ \text{m} , \qquad d = w - h = 1.8 \ \text{m} ,
+\tag{35}
+$$
+
+*Equation 36, Bespoke Hoop and Web Loads of the Adopted Two-Lobe Section.*
+The hoop load of each lobe and the load on the web follow from the protoflight pressure and the lobe radius and separation of the two-lobe section the article adopts.
+
+$$
+N = pR = 289.58 \times 2.15 = 622.6 \ \text{kN/m} , \qquad
+N_{\text{web}} = pd = 289.58 \times 1.8 = 521.2 \ \text{kN/m} , \qquad
+\frac{N_{\text{web}}}{N} = \frac{d}{R} = \frac{1.8}{2.15} = 0.837 .
+\tag{36}
+$$
+
+*Equation 37, Bespoke Height of the X-33 Web.*
+The web height of 3.905 metres is the chord between the lobe intersections of the adopted two-lobe section.
+
+$$
+h_{\text{web}} = 2c = \sqrt{4R^2 - d^2} = \sqrt{18.49 - 3.24} = 3.905 \ \text{m} ,
+\tag{37}
+$$
+
+*Equation 38, Bespoke Membrane Mass per Unit Length of a Lobed Section.*
+The article sizes every wall of the lobed section by its membrane tension, so the mass per unit length is the retained arc times the radius plus the web height times the separation, scaled by wall density, pressure and allowable stress.
+
+$$
+m' = \frac{\rho_w p}{\sigma}\left(s R + h_{\text{web}} d\right)
+\tag{38}
+$$
+
+**Equation 39, Half Angle of the Removed Cap.**
+The half angle subtended by the overlapping cap of each lobe is the inverse cosine of half the separation over the radius.
+
+$$
+\alpha = \arccos\frac{d}{2R}
+\tag{39}
+$$
+
+**Equation 40, Retained Arc Length of Two Lobes.**
+The retained skin arc of the two lobes is two full circles less the two removed caps.
+
+$$
+s = 2\left(2\pi - 2\alpha\right) R
+\tag{40}
+$$
+
+**Equation 41, Union Area in Terms of the Half Angle.**
+Rewriting the lens with the half angle expresses the union area of the two lobes.
+
+$$
+A = 2\pi R^2 - 2R^2\alpha + \frac{d}{2}\sqrt{4R^2 - d^2}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Identity Equating Wall Measure to Twice the Area.*
+The article shows that the arc and web terms of its membrane model sum to twice the enclosed area for every radius and separation at which the lobes intersect.
+
+$$
+s R + h_{\text{web}} d = \left(4\pi - 4\alpha\right)R^2 + d\sqrt{4R^2-d^2} = 2A
+\tag{42}
+$$
+
+*Equation 43, Bespoke Membrane Mass per Unit Volume of a Lobed Tank.*
+Under the membrane sizing model the lobed tank has exactly the mass per unit enclosed volume of a cylinder, so the shape appears free.
+
+$$
+\frac{m'}{A} = \frac{2 \rho_w p}{\sigma}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Share of the Built Tank Explained by Membrane Sizing.*
+The ideal membrane ratio, resting on the assumed laminate properties, accounts for 10.6 percent of the mass of the built tank.
+[Lockheed Martin X-33][ref_x33]
+
+$$
+\frac{0.02852}{0.2683} = 0.106 .
+\tag{44}
+$$
+
+**Equation 45, Classical Buckling Stress of a Cylinder With Knockdown.**
+The critical axial stress of a thin cylinder is the classical value scaled by a knockdown factor $\gamma$ for imperfection sensitivity, as in the agency's design monograph.
+[Weingarten, Seide and Peterson's monograph on the buckling of thin-walled circular cylinders][research_viweingarten_pseide_1968]
+
+$$
+\sigma_{cr} = \frac{\gamma E t}{R \sqrt{3\left(1-\nu^2\right)}}
+\tag{45}
+$$
+
+**Equation 46, Critical Compressive Line Load.**
+The compressive load per unit circumference the shell can carry is the critical stress times the wall thickness.
+[Weingarten, Seide and Peterson's monograph on the buckling of thin-walled circular cylinders][research_viweingarten_pseide_1968]
+
+$$
+N_{cr} = \sigma_{cr} \, t = \frac{\gamma E t^2}{R \sqrt{3\left(1-\nu^2\right)}}
+\tag{46}
+$$
+
+**Equation 47, Thickness Required for Stability.**
+Inverting the critical line load gives the wall thickness that stability demands for a given axial line load.
+
+$$
+t_{\text{buckling}} = \sqrt{\frac{N_x R \sqrt{3\left(1-\nu^2\right)}}{\gamma E}}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Line Load Above Which Stability Governs.*
+The article sets the buckling thickness equal to the membrane thickness and solves for the line load at which stability begins to size the wall.
+
+$$
+N_x^{\ast} = \frac{\gamma E p^2 R}{\sigma^2 \sqrt{3\left(1-\nu^2\right)}}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Stability Threshold for the X-33 Tank.*
+The threshold of 7.54 kilonewtons per metre uses a knockdown of 0.2 and a laminate modulus of 70 gigapascals that the article assumes.
+
+$$
+N_x^{\ast} = 7.54 \ \text{kN/m}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Axial Line Load From Engine Thrust.*
+The article spreads the published sea-level thrust of both engines uniformly over the outer contour of both tanks, ignoring inertial, aerodynamic and handling loads.
+[DAgostino et al. 2001][research_dagostinomarkg_leeyoungc_2001]
+
+$$
+N_x = \frac{1.819 \times 10^6}{2 \times 17.223} = 52.8 \ \text{kN/m}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Buckling Thickness at the Thrust Line Load.*
+The buckling thickness of 3.66 millimetres follows from the thrust line load with the assumed knockdown and modulus.
+
+$$
+t_{\text{buckling}} = 3.660 \ \text{mm}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Pressure Stabilisation Parameter.*
+The pressure parameter of 1.427 is evaluated with the assumed laminate modulus and the buckling thickness at the thrust line load.
+
+$$
+\frac{p}{E}\left(\frac{R}{t}\right)^2 = 1.427
+\tag{52}
+$$
+
+*Equation 53, Bespoke Bending Stiffness of a Monocoque Wall.*
+The plate bending stiffness of a solid wall is evaluated at the buckling thickness with the assumed laminate modulus.
+[Bruhn sets out for flight vehicle structures][book_analysis_and_design_of_flight_vehicle_st]
+
+$$
+D_{\text{mono}} = \frac{E t^3}{12\left(1-\nu^2\right)} = 314.3 \ \text{N} \cdot \text{m}
+\tag{53}
+$$
+
+**Equation 54, Bending Stiffness of a Thin-Faced Sandwich.**
+Two facesheets separated by a core have a bending stiffness proportional to the facesheet thickness and the square of the separation.
+[Bruhn sets out for flight vehicle structures][book_analysis_and_design_of_flight_vehicle_st]
+[sandwich][ref_sandwich]
+
+$$
+D_{\text{sand}} = \frac{E t_f h^2}{2}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Core Thickness for Stiffness Parity.*
+The core thickness at which the sandwich matches the monocoque stiffness is evaluated with the assumed laminate properties.
+
+$$
+h = \sqrt{\frac{2 D_{\text{mono}}}{E t_f}} = 3.00 \ \text{mm}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Facesheet Thickness From Membrane Load Sharing.*
+Each facesheet carries half the membrane load, so its thickness is half the membrane thickness computed with the assumed allowable.
+
+$$
+t_f = \frac{t_{\text{membrane}}}{2} = 0.692 \ \text{mm}
+\tag{56}
+$$
+
+*Equation 57, Bespoke Minimum Manufacturable Gauge.*
+The minimum gauge is eight plies of a balanced symmetric quasi-isotropic laminate at a ply thickness of 0.125 millimetres that the article takes as representative.
+
+$$
+t_{\text{gauge}} = 8 \times 0.125 = 1.000 \ \text{mm}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Areal Mass of the Monocoque Wall.*
+The areal mass of the solid wall is the assumed laminate density times the buckling thickness.
+
+$$
+\rho_w t_{\text{buckling}} = 1{,}570 \times 0.003660 = 5.746 \ \text{kg/m}^2
+\tag{58}
+$$
+
+**Equation 59, Areal Mass of a Sandwich Wall.**
+The areal mass of a sandwich is twice the facesheet mass per unit area plus the core density times the core thickness.
+
+$$
+2 \rho_w t_f + \rho_c h
+\tag{59}
+$$
+
+*Equation 60, Bespoke Core Thickness at Which the Sandwich Loses Its Advantage.*
+Setting the sandwich areal mass equal to the monocoque areal mass gives a break-even core thickness of about forty millimetres under the assumed properties.
+
+$$
+h_{\text{break}} = \frac{\rho_w t_{\text{buckling}} - 2 \rho_w t_f}{\rho_c} = 40.7 \ \text{mm}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Face Wrinkling Stress.*
+The standard wrinkling correlation is evaluated with face and core moduli that the article assumes, giving 559 megapascals against the assumed allowable.
+
+$$
+\sigma_{wr} = 0.5 \left(E_f E_c G_c\right)^{1/3} = 559.3 \ \text{MPa}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Sheet Area of One Tank.*
+The article sums the barrel skin, the web and two end closures that it takes at 1.4 times the flat cross-section.
+
+$$
+s \, L + h_{\text{web}} L + 2 \times 1.4 \, A = 245.50 \ \text{m}^2
+\tag{62}
+$$
+
+*Equation 63, Bespoke Wall Mass at a Thirty Millimetre Core.*
+The wall mass of 1,242 kilograms multiplies the areal mass of a sandwich with an assumed thirty millimetre core by the built-up sheet area.
+
+$$
+5.06 \times 245.50 = 1{,}242.2 \ \text{kg}
+\tag{63}
+$$
+
+**Equation 64, Empty and Propellant Masses from the Two Specification Families.**
+Subtracting within each published specification family gives an empty mass of 75,000 pounds from the first and a propellant load of 209,900 pounds from the second.
+[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]
+[Wade, Encyclopedia Astronautica, X-33][ref_astronautix_x33]
+
+$$
+m_e^{(1)} = m_0^{(1)} - m_p^{(1)} = 285{,}000 - 210{,}000 = 75{,}000 \ \text{lb} ,
+\qquad
+m_p^{(2)} = m_0^{(2)} - m_e^{(2)} = 272{,}900 - 63{,}000 = 209{,}900 \ \text{lb} ,
+\tag{64}
+$$
+
+**Equation 65, Disagreement Between Two Empty Mass Figures.**
+The two published specification families give empty masses that differ by 12,000 pounds, nineteen percent of the smaller figure.
+[NASA, X-33 Advanced Technology Demonstrator, Historical Fact Sheet][ref_x33_factsheet]
+[Wade, Encyclopedia Astronautica, X-33][ref_astronautix_x33]
+
+$$
+m_e^{(1)} - m_e^{(2)} = 12{,}000 \ \text{lb} , \qquad \frac{12{,}000}{63{,}000} = 0.190 .
+\tag{65}
+$$
+
+**Equation 66, Liftoff Thrust-to-Weight Ratio.**
+Two engines at the published sea-level rating of 204,420 pounds against the published gross mass give a liftoff ratio of 1.435.
+[DAgostino et al. 2001][research_dagostinomarkg_leeyoungc_2001]
+
+$$
+\frac{2 \times 204{,}420}{285{,}000} = 1.435
+\tag{66}
+$$
+
+**Equation 67, Thrust-to-Weight Ratio Implied by the Erroneous Table.**
+Taking the widely copied figure of 410,000 pounds as a per-engine thrust implies a liftoff ratio of 2.877, which no launch vehicle has had.
+
+$$
+\frac{2 \times 410{,}000}{285{,}000} = 2.877
+\tag{67}
+$$
+
+**Equation 68, Tank Share of Burnout Mass.**
+The published tank mass of 9,200 pounds is 12.27 percent of the 75,000-pound burnout mass.
+[Mital and others, Review of Current State of the Art and Key Design Issues for Liquid Hydrogen Cryogenic Storage Tank Structures][ref_cryotank_review]
+
+$$
+\frac{9{,}200}{75{,}000} = 0.1227
+\tag{68}
+$$
+
+**Equation 69, Constrained Transverse Thermal Strain.**
+A ply prevented from contracting transversely by its neighbours carries a strain equal to the difference of the transverse and longitudinal expansion coefficients times the temperature excursion.
+
+$$
+\varepsilon_2 = \left(\alpha_2 - \alpha_1\right)\left|\Delta T\right|
+\tag{69}
+$$
+
+*Equation 70, Bespoke Transverse Strain on Cooldown to Liquid Hydrogen.*
+The strain of 1.306 percent uses a cure temperature of about 450 kelvin and expansion coefficients that the article takes as representative of a carbon-epoxy ply.
+
+$$
+\varepsilon_2 = 30.4 \times 10^{-6} \times 429.7 = 0.01306
+\tag{70}
+$$
+
+*Equation 71, Bespoke Transverse Stress on Cooldown.*
+The transverse stress is the representative strain times a transverse modulus near nine gigapascals that the article assumes.
+
+$$
+\sigma_2 = 9 \times 10^{9} \times 0.01306 = 117.6 \ \text{MPa}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Ratio of Cooldown Strain to Failure Strain.*
+The cooldown strain exceeds a matrix-dominated transverse failure strain, taken as about 0.6 percent, by a factor of 2.18.
+
+$$
+\frac{0.01306}{0.006} = 2.18
+\tag{72}
+$$
+
+*Equation 73, Bespoke Cure Temperature That Would Avoid Cracking.*
+Inverting the strain relation with the representative mismatch and failure strain gives a cure temperature of about 218 kelvin.
+
+$$
+T_{\text{cure}} = 20.3 + \frac{0.006}{30.4 \times 10^{-6}} = 217.7 \ \text{K}
+\tag{73}
+$$
+
+**Equation 74, Constant-Volume Ideal Gas Pressure Ratio.**
+At constant volume the pressure of an ideal gas is proportional to its absolute temperature.
+
+$$
+\frac{p_2}{p_1} = \frac{T_2}{T_1}
+\tag{74}
+$$
+
+*Equation 75, Bespoke Pressure Ratio on Warming a Sealed Cell.*
+Warming a cell sealed at liquid hydrogen temperature to a room temperature of 300 kelvin, a value the article takes, multiplies its pressure by 14.78.
+
+$$
+\frac{300}{20.3} = 14.78
+\tag{75}
+$$
+
+**Equation 76, Pressure of Evaporated Condensate.**
+Condensate filling a fraction $f$ of a fixed volume returns on evaporation to an ideal gas pressure set by its density, molar mass and temperature.
+[cryopumping][ref_cryopumping]
+
+$$
+p = \frac{f \rho_c R T}{M}
+\tag{76}
+$$
+
+**Equation 77, Fill Fraction Required for a Given Pressure.**
+Inverting the evaporation relation gives the condensate fill fraction needed to reach a given core pressure.
+
+$$
+f = \frac{p M}{\rho_c R T}
+\tag{77}
+$$
+
+*Equation 78, Bespoke Nitrogen Fill Fraction That Exceeds a Degraded Bond.*
+Solid nitrogen warming to 300 kelvin needs to fill only 1.509 percent of the core to exceed a flatwise bond strength the article takes as 200 pounds per square inch.
+
+$$
+f = \frac{1{,}378{,}951 \times 0.028013}{1{,}026 \times 8.3145 \times 300} = 0.01509 .
+\tag{78}
+$$
+
+*Equation 79, Bespoke Hydrogen Fill Fraction That Exceeds a Degraded Bond.*
+The ideal gas law gives the density of hydrogen at 300 kelvin and at the 200 pounds per square inch the article takes as the degraded bond strength, which is 1.573 percent of the density of the liquid.
+
+$$
+\rho_{\text{H}_2} = \frac{p M_{\text{H}_2}}{R T} = \frac{1{,}378{,}951 \times 0.0020159}{8.3145 \times 300} = 1.1144 \ \text{kg/m}^3 ,
+\qquad
+\frac{1.1144}{70.85} = 0.01573 ,
+\tag{79}
+$$
+
+**Equation 80, Rocket Thrust With a Pressure Term.**
+Thrust is the exhaust momentum flux plus the difference between exit and ambient pressure acting over the exit area.
+[linear aerospike][ref_aerospike]
+
+$$
+F = \dot{m} v_e + \left(p_e - p_a\right) A_e
+\tag{80}
+$$
+
+**Equation 81, Thrust Coefficient.**
+The thrust coefficient is the thrust normalised by chamber pressure and throat area.
+
+$$
+C_F = \frac{F}{p_c A_t}
+\tag{81}
+$$
+
+**Equation 82, Characteristic Velocity.**
+The characteristic velocity collects the chamber performance as chamber pressure times throat area over mass flow.
+
+$$
+c^{\ast} = \frac{p_c A_t}{\dot{m}}
+\tag{82}
+$$
+
+**Equation 83, Specific Impulse as Thrust Coefficient Times Characteristic Velocity.**
+Specific impulse factors into a nozzle term, the thrust coefficient, and a chamber term, the characteristic velocity, divided by standard gravity.
+
+$$
+I_{sp} = \frac{F}{\dot{m} g_0} = \frac{C_F \, c^{\ast}}{g_0}
+\tag{83}
+$$
+
+**Equation 84, Specific Impulse Ratio as a Thrust Coefficient Ratio.**
+For one engine at two ambient pressures the characteristic velocity cancels, so the specific impulse ratio equals the thrust coefficient ratio.
+
+$$
+\frac{I_{sp,\text{vac}}}{I_{sp,\text{SL}}} = \frac{C_{F,\text{vac}}}{C_{F,\text{SL}}}
+\tag{84}
+$$
+
+**Equation 85, Isentropic Nozzle Area Ratio.**
+The isentropic relations give the nozzle area ratio as a function of the exit-to-chamber pressure ratio and the ratio of specific heats.
+
+$$
+\varepsilon = \frac{\left(\frac{2}{\gamma+1}\right)^{\frac{1}{\gamma-1}} \left(\frac{p_e}{p_c}\right)^{-\frac{1}{\gamma}}}{\sqrt{\frac{\gamma+1}{\gamma-1}\left[1 - \left(\frac{p_e}{p_c}\right)^{\frac{\gamma-1}{\gamma}}\right]}}
+\tag{85}
+$$
+
+**Equation 86, Ideal Thrust Coefficient.**
+The ideal thrust coefficient is a momentum term in the pressure ratio plus the pressure mismatch term times the area ratio.
+
+$$
+C_F = \sqrt{\frac{2\gamma^2}{\gamma-1}\left(\frac{2}{\gamma+1}\right)^{\frac{\gamma+1}{\gamma-1}}\left[1 - \left(\frac{p_e}{p_c}\right)^{\frac{\gamma-1}{\gamma}}\right]} + \left(\frac{p_e}{p_c} - \frac{p_a}{p_c}\right)\varepsilon
+\tag{86}
+$$
+
+**Equation 87, Flow Separation Criterion.**
+The usual criterion for attached nozzle flow requires the exit pressure to be at least about four tenths of ambient.
+
+$$
+p_e \geq 0.4 \, p_a
+\tag{87}
+$$
+
+*Equation 88, Bespoke Depth Inside the Separation Region at Sea Level.*
+The exit pressure of 7.755 kilopascals, computed with a ratio of specific heats the article assumes, lies 5.23 times inside the separation limit at sea level.
+
+$$
+\frac{0.4 \times 101{,}325}{7{,}755} = 5.23
+\tag{88}
+$$
+
+**Equation 89, Ratio of the Published Specific Impulses.**
+The published vacuum and sea-level specific impulses of 436.5 and 339.0 seconds stand in a ratio of 1.2876.
+[DAgostino et al. 2001][research_dagostinomarkg_leeyoungc_2001]
+
+$$
+\frac{436.5}{339.0} = 1.2876
+\tag{89}
+$$
+
+*Equation 90, Bespoke Disagreement With an Ideal Compensating Nozzle.*
+The published ratio exceeds the ideal compensating value of 1.2140, computed with the assumed ratio of specific heats, by 5.72 percent.
+
+$$
+1 - \frac{1.2140}{1.2876} = 0.0572 ,
+\tag{90}
+$$
+
+**Equation 91, Thermal Contraction of a Tank.**
+A tank of length $L$ contracts by its expansion coefficient times the temperature change times its length.
+
+$$
+\Delta L = \alpha \, \Delta T \, L
+\tag{91}
+$$
+
+*Equation 92, Bespoke Velocity Given Up Between Mach 15 and Mach 13.8.*
+The shortfall is converted to velocity with a speed of sound of 323.96 metres per second, a convention the article chooses among several in circulation.
+[U.S. Standard Atmosphere 1976 1976][ref_atm76]
+
+$$
+\Delta v_{\text{lost}} = \left(15.0 - 13.8\right) \times 323.96 = 388.7 \ \text{m/s}
+\tag{92}
+$$
+
+*Equation 93, Bespoke Burnout Mass That Would Have Reached Mach 15.*
+Holding the gross mass fixed, an assumption the article makes, the rocket equation gives the burnout mass that would have recovered the lost velocity.
+
+$$
+m_f^{\ast} = \frac{m_f}{\exp\!\left(\Delta v_{\text{lost}} / I_{sp} g_0\right)}
+\tag{93}
+$$
+
+*Equation 94, Bespoke Range of Burnout Mass Growth.*
+The rocket equation inverted at the two ends of the plausible effective specific impulse gives a growth in burnout mass between 9.5 and 12.0 percent, holding the gross mass fixed as the article assumes.
+
+$$
+\frac{m_f}{m_f^{\ast}} - 1 = \exp\!\left(\frac{388.7}{350 \times 9.80665}\right) - 1 = 0.120 ,
+\qquad
+\exp\!\left(\frac{388.7}{436.5 \times 9.80665}\right) - 1 = 0.095 .
+\tag{94}
+$$
+
+**Equation 95, Empty Mass Growth Between Specification Tables.**
+The later gross-minus-propellant figure exceeds the earlier unfuelled mass by nineteen percent.
+
+$$
+\frac{75{,}000 - 63{,}000}{63{,}000} = 0.190 ,
+\tag{95}
+$$
+
+*Equation 96, Bespoke Structural Allowance of VentureStar.*
+The allowance subtracts the propellant implied by the representative fraction of 0.8898 and a payload of 45,000 pounds that the article assumes from the gross mass.
+
+$$
+2{,}184{,}000 - 1{,}943{,}317 - 45{,}000 = 195{,}683 \ \text{lb}
+\tag{96}
+$$
+
+*Equation 97, Bespoke VentureStar Hydrogen Tank Mass at the Demonstrated Efficiency.*
+The X-33 tank ratio of 26.83 percent is applied to the hydrogen load of VentureStar at a mixture ratio of 5.5.
+
+$$
+0.2683 \times 298{,}972 = 80{,}205 \ \text{lb}
+\tag{97}
+$$
+
+*Equation 98, Bespoke Tank Share of the VentureStar Allowance.*
+At the demonstrated efficiency the hydrogen tanks would take 41 percent of the assumed structural allowance.
+
+$$
+\frac{80{,}205}{195{,}683} = 0.410
+\tag{98}
+$$
+
+*Equation 99, Bespoke Required Tank Efficiency.*
+The article defines the required tank efficiency as the share of the structural allowance granted to the tanks times that allowance over the hydrogen load.
+
+$$
+\eta = \frac{f \, m_{\text{dry}}}{m_{H_2}}
+\tag{99}
+$$
+
+*Equation 100, Bespoke Required Efficiency at Fifteen Percent of the Allowance.*
+Granting the tanks fifteen percent of the allowance, a share the article chooses, requires a tank efficiency of 9.8 percent of the hydrogen held.
+
+$$
+\eta = \frac{0.15 \times 195{,}683}{298{,}972} = 0.0982
+\tag{100}
+$$
+
+*Equation 101, Bespoke Improvement Demanded Over the X-33 Tank.*
+The demonstrated efficiency over the required efficiency at fifteen percent gives an improvement factor of 2.73.
+
+$$
+\frac{0.2683}{0.0982} = 2.73
+\tag{101}
+$$
+
+*Equation 102, Bespoke Sandwich Saving From a Better Knockdown.*
+Moving the knockdown factor from 0.2 to 0.5 on the composite sandwich at stiffness parity saves about 103 pounds across both tanks under the assumed properties.
+
+$$
+\left(m_{0.2} - m_{0.5}\right) S = 103 \ \text{lb}
+\tag{102}
+$$
+
+*Equation 103, Bespoke Monocoque Saving From a Better Knockdown.*
+The same change of knockdown on an aluminium monocoque of the same geometry saves about 3,932 pounds.
+
+$$
+\left(\rho_{Al} t_{0.2} - \rho_{Al} t_{0.5}\right) S = 3{,}932 \ \text{lb}
+\tag{103}
+$$
+
+*Equation 104, Bespoke Burnout Mass Growth at the Two Table Ends.*
+The growth that cost the Mach 15 objective is the burnout mass less the recovering burnout mass at effective specific impulses of 350 and 436.5 seconds.
+
+$$
+m_f - m_f^{\ast} = 75{,}000 - 66{,}969 = 8{,}031 \ \text{lb} , \qquad 75{,}000 - 68{,}489 = 6{,}511 \ \text{lb} ,
+\tag{104}
+$$
+
+*Equation 105, Bespoke Monocoque Saving as a Share of the Growth.*
+The monocoque saving is expressed as a share of the burnout mass growth at the two ends of the table.
+
+$$
+\frac{3{,}932}{8{,}413} = 0.467 , \qquad \frac{3{,}932}{6{,}824} = 0.576 ,
+\tag{105}
+$$
+
+**Equation 106, Implied Tank Fill Fraction.**
+The hydrogen implied by the published propellant load and mixture ratio fills 94.2 percent of the published tank capacity.
+
+$$
+\frac{206.85}{219.55} = 0.942
+\tag{106}
+$$
+
+### Notation
+
+- $\Delta v$, the ideal velocity increment, with $\Delta v_{\text{lost}}$ the velocity given up against the Mach 15 objective
+- $I_{sp}$, the specific impulse in seconds
+- $g_0$, standard gravity
+- $m_0$, the gross mass, with $m_f$ the burnout mass and $m_f^{\ast}$ the burnout mass that would have reached Mach 15
+- $\zeta$, the propellant mass fraction
+- $\mu$, the gravitational parameter of the Earth
+- $v_{\text{circ}}$, the circular orbital velocity
+- $\rho_f$, the fuel density, with $\rho_o$ the oxidiser density
+- $\rho_w$, the wall material density
+- $\sigma$, the allowable stress of the wall, with $\sigma_{cr}$ the critical buckling stress
+- $p$, the internal pressure, except in the nozzle relations, where subscripts mark chamber, exit and ambient pressures
+- $t$, the wall thickness, with $t_f$ the facesheet thickness
+- $d$, the separation of the lobe centres
+- $N_{\text{web}}$, the web tension per unit length
+- $h_{\text{web}}$, the height of the web
+- $E$, the elastic modulus of the wall
+- $\nu$, the Poisson ratio
+- $N_x$, the axial compressive line load, with $N_x^{\ast}$ the threshold above which stability governs
+- $D_{\text{mono}}$, the bending stiffness of the monocoque wall, with $D_{\text{sand}}$ that of the sandwich
+- $\varepsilon_2$, the constrained transverse thermal strain of a ply
+- $C_F$, the thrust coefficient
+- $c^{\ast}$, the characteristic velocity
+- $p_c$, the chamber pressure, with $p_e$ the exit pressure and $p_a$ the ambient pressure
+- $\eta$, the tank efficiency, the tank mass as a fraction of the hydrogen held
 
 ## References
 

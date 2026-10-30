@@ -23,33 +23,54 @@ The keystone is whether the mass of shielding a reactor requires can be carried 
 
 The attraction is enormous and easy to state. Fission releases about two million times more energy per unit mass than combustion, so an aircraft that heats its air with a reactor, burning no fuel, is not range-limited in any sense a designer of the 1940s would recognize. Writing the energy released per kilogram of uranium-235 fissioned against the lower heating value of kerosene,
 
-$$E_{\text{fission}} \approx 8.2 \times 10^{13} \ \text{joules per kilogram}, \qquad E_{\text{chem}} \approx 4.3 \times 10^{7} \ \text{joules per kilogram}$$
+$$
+E_{\text{fission}} \approx 8.2 \times 10^{13} \ \text{joules per kilogram}, \qquad E_{\text{chem}} \approx 4.3 \times 10^{7} \ \text{joules per kilogram}
+\tag{1}
+$$
 
 The first of those follows from the energy released per fission event and the mass of the nucleus that supplies it,
 
-$$E_f \approx 200 \ \text{MeV} = 3.20 \times 10^{-11} \ \text{joules}, \qquad E_{\text{fission}} = \frac{E_f \, N_A}{M_{235}}$$
+$$
+E_f \approx 200 \ \text{MeV} = 3.20 \times 10^{-11} \ \text{joules}, \qquad E_{\text{fission}} = \frac{E_f \, N_A}{M_{235}}
+\tag{2}
+$$
 
 gives a ratio of
 
-$$\frac{E_{\text{fission}}}{E_{\text{chem}}} = 1.9 \times 10^{6}$$
+$$
+\frac{E_{\text{fission}}}{E_{\text{chem}}} = 1.9 \times 10^{6}
+\tag{3}
+$$
 
 The rate at which a reactor must consume nuclei to hold a given power follows immediately,
 
-$$\dot{N}_f = \frac{P}{E_f}$$
+$$
+\dot{N}_f = \frac{P}{E_f}
+\tag{4}
+$$
 
 so a hundred megawatt core is fissioning
 
-$$\dot{N}_f = \frac{10^{8}}{3.20 \times 10^{-11}} = 3.12 \times 10^{18} \ \text{nuclei per second}$$
+$$
+\dot{N}_f = \frac{10^{8}}{3.20 \times 10^{-11}} = 3.12 \times 10^{18} \ \text{nuclei per second}
+\tag{5}
+$$
 
 and that number, rather than the power, is what determines everything difficult about the aircraft, because each of those events emits radiation as well as heat.
 
 A strategic bomber of the period consumed fuel by the tens of tonnes. The same energy delivered by fission is measured in grams. The figure of merit that governs a conventional bomber collapses. Endurance for a fuel-burning aircraft is the fuel divided by the flow required, that flow being the thrust-specific fuel consumption, abbreviated TSFC, multiplied by the thrust,
 
-$$t_{\text{endurance}} = \frac{m_{\text{fuel}}}{\text{TSFC} \times F}$$
+$$
+t_{\text{endurance}} = \frac{m_{\text{fuel}}}{\text{TSFC} \times F}
+\tag{6}
+$$
 
 and for a nuclear aircraft that consumption is not small but effectively zero,
 
-$$\text{TSFC} = \frac{\dot{m}_{\text{fuel}}}{F} \longrightarrow 0 \quad \Longrightarrow \quad t_{\text{endurance}} \longrightarrow \text{limited by something else}$$
+$$
+\text{TSFC} = \frac{\dot{m}_{\text{fuel}}}{F} \longrightarrow 0 \quad \Longrightarrow \quad t_{\text{endurance}} \longrightarrow \text{limited by something else}
+\tag{7}
+$$
 
 **The quantity that had bounded every bomber ever built stops bounding anything, and the binding constraint moves to the crew, the lubricating oil, and the reactor.** The mission this bought was a bomber that could [remain airborne for weeks at a time][ref_convair_x6], holding a target at risk continuously without needing to surge to reach it. The [Army Air Forces began a project on Nuclear Energy for the Propulsion of Aircraft][research_gasser_1947] in May of that year, abbreviated NEPA.
 
@@ -57,11 +78,17 @@ The objection is equally easy to state. A reactor at power is an intense source 
 
 A second constraint enters through the same door and deserves stating early. A reactor sustains itself when the neutron population reproduces, and the criticality condition states this as
 
-$$k_{\text{eff}} = \frac{\text{production}}{\text{absorption} + \text{leakage}} = 1$$
+$$
+k_{\text{eff}} = \frac{\text{production}}{\text{absorption} + \text{leakage}} = 1
+\tag{8}
+$$
 
 and leakage grows as a core is made small. For a bare core the non-leakage probability is approximately
 
-$$P_{\text{NL}} \approx \frac{1}{1 + B^{2} M^{2}}, \qquad B^{2} = \left( \frac{\pi}{R} \right)^{2} \ \text{for a sphere}$$
+$$
+P_{\text{NL}} \approx \frac{1}{1 + B^{2} M^{2}}, \qquad B^{2} = \left( \frac{\pi}{R} \right)^{2} \ \text{for a sphere}
+\tag{9}
+$$
 
 with $M^2$ the migration area. **An aircraft reactor must be compact, compact cores leak, and leaked neutrons must be paid for with enrichment or with a reflector.** A compact aircraft core is therefore driven toward highly enriched fuel. That raises a proliferation concern as well as an engineering one, and no other aircraft in this series shares it.
 
@@ -79,11 +106,17 @@ The [indirect cycle went to Pratt and Whitney][ref_anp] at Middletown, Connectic
 
 Under project MX-1589 Convair was to modify two B-36 airframes. One would carry a reactor to measure shielding, and one would become the [X-6][ref_convair_x6]. The [B-36][ref_b36] was chosen because it was the largest aircraft available, and that reason governs this article throughout. Its gross mass of about 186,000 kilograms over a wing of 443 square metres gives
 
-$$\frac{W}{S} = \frac{186{,}000 \times 9.80665}{443} = 4.12 \times 10^{3} \ \text{newtons per square metre}$$
+$$
+\frac{W}{S} = \frac{186{,}000 \times 9.80665}{443} = 4.12 \times 10^{3} \ \text{newtons per square metre}
+\tag{10}
+$$
 
 at an aspect ratio of
 
-$$A = \frac{b^{2}}{S} = \frac{70.1^{2}}{443} = 11.1$$
+$$
+A = \frac{b^{2}}{S} = \frac{70.1^{2}}{443} = 11.1
+\tag{11}
+$$
 
 describing a high-aspect-ratio, lightly loaded aeroplane built for endurance and therefore the right starting point for a mission defined by staying airborne. Follow-on aircraft would have used the swept-wing [YB-60][ref_yb60]. The [X-6 entry][ref_convair_x6] gives its powerplant as General Electric X-40 engines, which were J53 turbojets modified for nuclear heating, drawing on a P-1 reactor, whereas the [J47 entry][ref_j47] names as the X-6 engine the J47-derived X39 that ran in the Heat Transfer Reactor Experiments.
 
@@ -97,25 +130,40 @@ The keystone relationship is the shield mass, and it can be derived from the rea
 
 Start with the thrust. Take a [B-36][ref_b36] at its maximum takeoff weight of about 186,000 kilograms, an upper bound on its weight in cruise, flying at a lift-to-drag ratio near eighteen, so the thrust required is
 
-$$F = \frac{W}{L/D} = \frac{186{,}000 \times 9.80665}{18} = 1.01 \times 10^{5} \ \text{newtons}$$
+$$
+F = \frac{W}{L/D} = \frac{186{,}000 \times 9.80665}{18} = 1.01 \times 10^{5} \ \text{newtons}
+\tag{12}
+$$
 
 At an assumed cruise speed of 200 metres per second, close to the B-36's maximum speed and about twice its listed cruising speed of 103 metres per second, the propulsive power is
 
-$$P_{\text{prop}} = F V = 1.01 \times 10^{5} \times 200 = 20.3 \ \text{megawatts}$$
+$$
+P_{\text{prop}} = F V = 1.01 \times 10^{5} \times 200 = 20.3 \ \text{megawatts}
+\tag{13}
+$$
 
 and the thermal power the reactor must supply follows from the overall efficiency of the propulsion system,
 
-$$P_{\text{thermal}} = \frac{P_{\text{prop}}}{\eta_{\text{overall}}}, \qquad \eta_{\text{overall}} = \eta_{\text{thermal}} \, \eta_{\text{propulsive}}$$
+$$
+P_{\text{thermal}} = \frac{P_{\text{prop}}}{\eta_{\text{overall}}}, \qquad \eta_{\text{overall}} = \eta_{\text{thermal}} \, \eta_{\text{propulsive}}
+\tag{14}
+$$
 
 which for a turbojet of the period is near 0.20, giving
 
-$$P_{\text{thermal}} = \frac{20.3}{0.20} = 101 \ \text{megawatts}$$
+$$
+P_{\text{thermal}} = \frac{20.3}{0.20} = 101 \ \text{megawatts}
+\tag{15}
+$$
 
 **About a hundred megawatts of thermal power is a substantial power reactor by any standard and was an enormous one to propose putting in an aeroplane in 1950.** The figure is not sensitive to the assumptions in any way that matters, since an efficiency of 0.25 gives 81 megawatts and 0.30 gives 68, and the listed cruising speed would roughly halve it, which the logarithmic shield dependence derived below turns into less than a centimetre of lead.
 
 The fuel consumption that power implies is the promise made concrete. At a hundred megawatts for a hundred hours,
 
-$$m_{\text{U-235}} = \frac{P \, t}{E_{\text{fission}}} = \frac{10^{8} \times 3.6 \times 10^{5}}{8.2 \times 10^{13}} = 0.44 \ \text{kilograms}$$
+$$
+m_{\text{U-235}} = \frac{P \, t}{E_{\text{fission}}} = \frac{10^{8} \times 3.6 \times 10^{5}}{8.2 \times 10^{13}} = 0.44 \ \text{kilograms}
+\tag{16}
+$$
 
 against the 837 tonnes of kerosene that would deliver the same energy. **A nuclear bomber burns less than half a kilogram of fuel on a hundred-hour mission.** Every difficulty in this article is the price of that number.
 
@@ -123,21 +171,33 @@ against the 837 tonnes of kerosene that would deliver the same energy. **A nucle
 
 A reactor at power produces prompt fission gammas, fission product decay gammas, and fast neutrons, all in quantities proportional to the fission rate and therefore to the power. Taking about eight of the two hundred megaelectronvolts per fission as escaping gamma energy,
 
-$$P_\gamma \approx 0.04 \, P = 4.0 \ \text{megawatts}$$
+$$
+P_\gamma \approx 0.04 \, P = 4.0 \ \text{megawatts}
+\tag{17}
+$$
 
 which at a mean photon energy near one megaelectronvolt is a source strength of
 
-$$S_\gamma = \frac{P_\gamma}{\bar{E}_\gamma} = \frac{4.0 \times 10^{6}}{1.60 \times 10^{-13}} = 2.50 \times 10^{19} \ \text{photons per second}$$
+$$
+S_\gamma = \frac{P_\gamma}{\bar{E}_\gamma} = \frac{4.0 \times 10^{6}}{1.60 \times 10^{-13}} = 2.50 \times 10^{19} \ \text{photons per second}
+\tag{18}
+$$
 
 and the neutron source follows from the yield per fission,
 
-$$S_n = \nu \, \dot{N}_f = 2.4 \times 3.12 \times 10^{18} = 7.49 \times 10^{18} \ \text{neutrons per second}$$
+$$
+S_n = \nu \, \dot{N}_f = 2.4 \times 3.12 \times 10^{18} = 7.49 \times 10^{18} \ \text{neutrons per second}
+\tag{19}
+$$
 
 Both scale linearly with the power, and the next two sections turn on that fact.
 
 The dose rate at distance $r$ from a shielded source is governed by an exponential attenuation with a buildup correction,
 
-$$\dot{D}(r, x) = \frac{k \, P}{4 \pi r^{2}} \, B(\mu x) \, e^{-\mu x}$$
+$$
+\dot{D}(r, x) = \frac{k \, P}{4 \pi r^{2}} \, B(\mu x) \, e^{-\mu x}
+\tag{20}
+$$
 
 in which $x$ is the shield thickness, $\mu$ the linear attenuation coefficient of the shield material, and $B$ the buildup factor accounting for photons that scatter into the beam rather than being removed from it. That factor is not a fudge but a computed quantity. [Auslender 1957][research_auslender_1957] obtains it for layered configurations by Monte Carlo, the method still used. The corresponding neutron quantity is the effective removal cross-section tabulated by [Chapman and Storrs 1955][research_chapman_1955], and [Eggen et al. 1961][research_eggen_1961] supplies the fast-neutron spectrum and dose-rate calculations that convert a flux into a dose. **The quantities behind these coefficients were measured or computed under this programme or its immediate neighbours.** Neither quantity is a settled constant, and both remain active research subjects. Buildup factors are still being computed to greater depth and by new methods, with [Sun et al. 2025b][research_sun_2025_2] carrying Monte Carlo evaluation to a hundred mean free paths, [Kang and Zu 2026][research_kang_2026] and [Yang et al. 2026b][research_yang_2026] replacing the tabulations with learned models, and [Hashim et al. 2026][research_hashim_2026] treating the multilayer case this article's divided shield requires. On the neutron side, [Soliman 2025][research_soliman_2025] treats the energy dependence of the removal cross-section, which the single-value treatment above hides. [Jiaju et al. 2025][research_jiaju_2025] approach cross-section generation as a computational discipline. The factor $k$ collects the source spectrum and the conversion from fluence to dose.
 
@@ -145,51 +205,84 @@ Two features of that expression govern the result. The distance term is a power 
 
 The starting figure decides the shield, so it comes first. Unshielded at ten metres the photon fluence rate is
 
-$$\varphi = \frac{S_\gamma}{4 \pi r^{2}} = \frac{2.50 \times 10^{19}}{4 \pi \times 100} = 1.99 \times 10^{16} \ \text{per square metre per second}$$
+$$
+\varphi = \frac{S_\gamma}{4 \pi r^{2}} = \frac{2.50 \times 10^{19}}{4 \pi \times 100} = 1.99 \times 10^{16} \ \text{per square metre per second}
+\tag{21}
+$$
 
 and the dose rate follows from the energy fluence and the mass energy-absorption coefficient of tissue,
 
-$$\dot{D} = \varphi \, \bar{E}_\gamma \left( \frac{\mu_{en}}{\rho} \right)_{\text{tissue}} = 1.99 \times 10^{16} \times 1.60 \times 10^{-13} \times 3.09 \times 10^{-3}$$
+$$
+\dot{D} = \varphi \, \bar{E}_\gamma \left( \frac{\mu_{en}}{\rho} \right)_{\text{tissue}} = 1.99 \times 10^{16} \times 1.60 \times 10^{-13} \times 3.09 \times 10^{-3}
+\tag{22}
+$$
 
-$$\dot{D} = 9.8 \ \text{grays per second}$$
+$$
+\dot{D} = 9.8 \ \text{grays per second}
+\tag{23}
+$$
 
 **Ten grays per second, when about five grays is a [median lethal][ref_sievert] whole-body dose.** One second of exposure at ten metres from an unshielded hundred megawatt core kills the crew. The shield must reduce that number, and stating it makes clear why the programme could not economize.
 
 Solving for the thickness required to hold the dose at a limit $\dot{D}_0$,
 
-$$x = \frac{1}{\mu} \ln \left( \frac{k \, P \, B}{4 \pi r^{2} \dot{D}_0} \right)$$
+$$
+x = \frac{1}{\mu} \ln \left( \frac{k \, P \, B}{4 \pi r^{2} \dot{D}_0} \right)
+\tag{24}
+$$
 
 For [lead][ref_lead_element] at photon energies around one megaelectronvolt the mass [attenuation coefficient][ref_attenuation] is about 0.070 square centimetres per gram, so with a density of 11.34 grams per cubic centimetre,
 
-$$\mu = 0.070 \times 11.34 = 0.794 \ \text{per centimetre}$$
+$$
+\mu = 0.070 \times 11.34 = 0.794 \ \text{per centimetre}
+\tag{25}
+$$
 
 giving a tenth-value layer of
 
-$$x_{1/10} = \frac{\ln 10}{\mu} = \frac{2.303}{0.794} = 2.90 \ \text{centimetres}$$
+$$
+x_{1/10} = \frac{\ln 10}{\mu} = \frac{2.303}{0.794} = 2.90 \ \text{centimetres}
+\tag{26}
+$$
 
 so every 2.9 centimetres of lead removes ninety percent of what reaches it.
 
 The mission, not taste, sets the attenuation demanded. Allowing the crew fifty millisieverts over a hundred-hour flight sets a rate limit of
 
-$$\dot{D}_0 = \frac{0.05}{100} = 5 \times 10^{-4} \ \text{grays per hour}$$
+$$
+\dot{D}_0 = \frac{0.05}{100} = 5 \times 10^{-4} \ \text{grays per hour}
+\tag{27}
+$$
 
 against an unshielded rate of $3.54 \times 10^{4}$ grays per hour, so
 
-$$\mathcal{A} = \frac{\dot{D}_{\text{unshielded}}}{\dot{D}_0} = \frac{3.54 \times 10^{4}}{5 \times 10^{-4}} = 7.1 \times 10^{7}$$
+$$
+\mathcal{A} = \frac{\dot{D}_{\text{unshielded}}}{\dot{D}_0} = \frac{3.54 \times 10^{4}}{5 \times 10^{-4}} = 7.1 \times 10^{7}
+\tag{28}
+$$
 
 and with a buildup factor of ten the thickness is
 
-$$x = \frac{\ln \left( \mathcal{A} B \right)}{\mu} = \frac{\ln \left( 7.1 \times 10^{8} \right)}{0.794} = \frac{20.4}{0.794} = 25.7 \ \text{centimetres}$$
+$$
+x = \frac{\ln \left( \mathcal{A} B \right)}{\mu} = \frac{\ln \left( 7.1 \times 10^{8} \right)}{0.794} = \frac{20.4}{0.794} = 25.7 \ \text{centimetres}
+\tag{29}
+$$
 
 **Twenty-six centimetres of lead, and that is the gamma shield alone.** That is the number the programme spent fifteen years trying to reduce.
 
 Neutrons need a different material and are attenuated by a removal cross-section rather than by a photon coefficient,
 
-$$\varphi_n(x) = \varphi_n(0) \, e^{-\Sigma_R x}$$
+$$
+\varphi_n(x) = \varphi_n(0) \, e^{-\Sigma_R x}
+\tag{30}
+$$
 
 with $\Sigma_R$ near 0.095 per centimetre for [lithium hydride][ref_lih], the aircraft shield material of choice because it supplies hydrogen at low density and captures the moderated neutrons in lithium without emitting a penetrating capture gamma. [Waldrop 1958][research_waldrop_1958] treats it explicitly as a mobile neutron shield, so the aircraft requirement appears there as a material specification, and specimens were irradiated and tested, with [two of the test series][research_lee_1958_2] documented [separately][research_reagan_1958]. The hydride family more broadly is surveyed in [Cernak 1960a][research_cernak_1960_2]. For comparison the heavy alternative, structural concrete, is characterized by [Blizard and Miller 1958][research_blizard_1958], and its unsuitability for an aircraft is a matter of density, not of physics. The unshielded fast neutron dose rate at ten metres works out to some $7.5 \times 10^{5}$ sieverts per hour, so the attenuation required is $1.5 \times 10^{9}$ and
 
-$$x_n = \frac{\ln \left( 1.5 \times 10^{9} \right)}{0.095} = 222 \ \text{centimetres}$$
+$$
+x_n = \frac{\ln \left( 1.5 \times 10^{9} \right)}{0.095} = 222 \ \text{centimetres}
+\tag{31}
+$$
 
 **Two and a quarter metres of lithium hydride.** The two shields are not simply additive, since lead scatters neutrons inelastically and lithium hydride attenuates photons, so a layered design achieves both requirements in less material than the sum. The sum nevertheless remains an upper bound, and the true figure lies between the lead alone and the two together.
 
@@ -197,11 +290,17 @@ $$x_n = \frac{\ln \left( 1.5 \times 10^{9} \right)}{0.095} = 222 \ \text{centime
 
 One property of the exponential is easy to miss, and it turns out to decide the argument. Because thickness depends on the logarithm of the power, increasing the reactor power barely thickens the shield,
 
-$$\Delta x = \frac{1}{\mu} \ln \left( \frac{P_2}{P_1} \right)$$
+$$
+\Delta x = \frac{1}{\mu} \ln \left( \frac{P_2}{P_1} \right)
+\tag{32}
+$$
 
 Going from one megawatt to a thousand, a factor of a thousand in power, costs
 
-$$\Delta x = \frac{\ln 1000}{0.794} = 8.7 \ \text{centimetres}$$
+$$
+\Delta x = \frac{\ln 1000}{0.794} = 8.7 \ \text{centimetres}
+\tag{33}
+$$
 
 of additional lead. **The shield is not a cost proportional to the reactor. It is a large fixed overhead that a bigger reactor barely increases.** That single fact determines which aircraft can be nuclear and which cannot, and it does so in the opposite direction from intuition. A small nuclear aircraft is not easier than a large one. It is impossible, because it must carry nearly the same shield with far less aircraft to carry it.
 
@@ -211,23 +310,38 @@ Distance is the other lever and it trades against structure. Putting the reactor
 
 Take a shadow shield of area $A$ covering the forward face of the reactor, with the crew compartment at distance $r$. Holding the crew dose fixed and solving the attenuation relation for thickness gives
 
-$$x(r) = \frac{1}{\mu} \left[ \ln \left( \frac{k P B}{4 \pi \dot{D}_0} \right) - 2 \ln r \right]$$
+$$
+x(r) = \frac{1}{\mu} \left[ \ln \left( \frac{k P B}{4 \pi \dot{D}_0} \right) - 2 \ln r \right]
+\tag{34}
+$$
 
 so the shield mass falls logarithmically with separation,
 
-$$m_{\text{shield}}(r) = \rho_s A \, x(r) = C - \frac{2 \rho_s A}{\mu} \ln r$$
+$$
+m_{\text{shield}}(r) = \rho_s A \, x(r) = C - \frac{2 \rho_s A}{\mu} \ln r
+\tag{35}
+$$
 
 while the structure needed to span that distance grows linearly at $\lambda$ kilograms per metre,
 
-$$m_{\text{struct}}(r) = \lambda r$$
+$$
+m_{\text{struct}}(r) = \lambda r
+\tag{36}
+$$
 
 The total has an interior minimum. Differentiating and setting to zero,
 
-$$\frac{d m_{\text{total}}}{d r} = -\frac{2 \rho_s A}{\mu r} + \lambda = 0 \quad \Longrightarrow \quad r^{*} = \frac{2 \rho_s A}{\mu \lambda}$$
+$$
+\frac{d m_{\text{total}}}{d r} = -\frac{2 \rho_s A}{\mu r} + \lambda = 0 \quad \Longrightarrow \quad r^{*} = \frac{2 \rho_s A}{\mu \lambda}
+\tag{37}
+$$
 
 Evaluating with lead at 11,340 kilograms per cubic metre, a forward hemisphere of 1.5 metre radius giving $A = 14.1$ square metres, $\mu = 79.4$ per metre, and a fuselage structural mass of 400 kilograms per metre,
 
-$$r^{*} = \frac{2 \times 11{,}340 \times 14.1}{79.4 \times 400} = 10.1 \ \text{metres}$$
+$$
+r^{*} = \frac{2 \times 11{,}340 \times 14.1}{79.4 \times 400} = 10.1 \ \text{metres}
+\tag{38}
+$$
 
 **About ten metres of separation is optimal, and a [B-36][ref_b36] fuselage is 49 metres long.** The airframe is large enough to hold the optimum comfortably, and that explains further why this aircraft was chosen and not a smaller one. The [NB-36H][ref_nb36h] carried the reactor in a bomb bay [aft of the crew][ref_nmusaf_nb36h], who sat in the nose, so the aircraft used that geometry.
 
@@ -235,19 +349,31 @@ $$r^{*} = \frac{2 \times 11{,}340 \times 14.1}{79.4 \times 400} = 10.1 \ \text{m
 
 With the separation chosen and the thickness computed, the shield mass follows,
 
-$$m_{\text{shield}} = \rho_s A x = 11{,}340 \times 14.1 \times 0.257 = 4.11 \times 10^{4} \ \text{kilograms}$$
+$$
+m_{\text{shield}} = \rho_s A x = 11{,}340 \times 14.1 \times 0.257 = 4.11 \times 10^{4} \ \text{kilograms}
+\tag{39}
+$$
 
 or 41 tonnes of lead, which against a gross weight of 186 tonnes is
 
-$$\frac{m_{\text{shield}}}{m_{\text{gross}}} = \frac{41{,}100}{186{,}000} = 0.221$$
+$$
+\frac{m_{\text{shield}}}{m_{\text{gross}}} = \frac{41{,}100}{186{,}000} = 0.221
+\tag{40}
+$$
 
 **Twenty-two percent of the aircraft is gamma shielding**, and adding the neutron layer computed above takes the upper bound to
 
-$$\frac{m_{\text{Pb}} + m_{\text{LiH}}}{m_{\text{gross}}} = \frac{41{,}100 + 24{,}500}{186{,}000} = 0.353$$
+$$
+\frac{m_{\text{Pb}} + m_{\text{LiH}}}{m_{\text{gross}}} = \frac{41{,}100 + 24{,}500}{186{,}000} = 0.353
+\tag{41}
+$$
 
 The comparison that matters is not with the gross weight but with the payload, since a [B-36][ref_b36] carried a maximum bomb load of about 39,000 kilograms,
 
-$$\frac{m_{\text{shield}}}{m_{\text{payload}}} = \frac{41{,}100}{39{,}000} = 1.05$$
+$$
+\frac{m_{\text{shield}}}{m_{\text{payload}}} = \frac{41{,}100}{39{,}000} = 1.05
+\tag{42}
+$$
 
 **The gamma shield alone weighs slightly more than the entire bomb load, and the full shield weighs about 1.7 times it.** A nuclear bomber buys unlimited range by giving up the payload that made the range worth having, and that sentence is the programme in one line. The trade is not fatal in principle, since a larger aircraft dilutes a fixed shield mass. It is fatal in practice because the aircraft that dilutes the shield adequately is one nobody wanted to buy.
 
@@ -259,33 +385,54 @@ The shield mass above assumes shielding the reactor. There is a cheaper arrangem
 
 A **divided shield** puts part of the material at the reactor and part around the crew. The reactor shield need only cover the solid angle subtended by the crew compartment, and the crew shield handles radiation that reaches the crew by other paths, principally scattering from the surrounding air. Writing the total as a sum,
 
-$$m_{\text{total}} = \rho_s A_r x_r + \rho_c A_c x_c$$
+$$
+m_{\text{total}} = \rho_s A_r x_r + \rho_c A_c x_c
+\tag{43}
+$$
 
 subject to the constraint that the direct and scattered contributions together meet the dose limit,
 
-$$\dot{D}_{\text{direct}} \left( x_r \right) + \dot{D}_{\text{scatter}} \left( x_r, x_c \right) \le \dot{D}_0$$
+$$
+\dot{D}_{\text{direct}} \left( x_r \right) + \dot{D}_{\text{scatter}} \left( x_r, x_c \right) \le \dot{D}_0
+\tag{44}
+$$
 
 the optimum divides the material between the two according to the relative areas. Forming the Lagrangian and differentiating with respect to each thickness gives the condition that the marginal dose reduction per unit mass be equal in both shields,
 
-$$\frac{1}{\rho_s A_r} \frac{\partial \dot{D}}{\partial x_r} = \frac{1}{\rho_c A_c} \frac{\partial \dot{D}}{\partial x_c}$$
+$$
+\frac{1}{\rho_s A_r} \frac{\partial \dot{D}}{\partial x_r} = \frac{1}{\rho_c A_c} \frac{\partial \dot{D}}{\partial x_c}
+\tag{45}
+$$
 
 and because each partial derivative carries its own exponential, the condition reduces to a relation between the two thicknesses and the ratio of areal masses,
 
-$$\mu_r x_r - \mu_c x_c = \ln \left( \frac{\rho_c A_c \, \mu_r}{\rho_s A_r \, \mu_c} \right)$$
+$$
+\mu_r x_r - \mu_c x_c = \ln \left( \frac{\rho_c A_c \, \mu_r}{\rho_s A_r \, \mu_c} \right)
+\tag{46}
+$$
 
 Because the reactor shadow shield can be small in area while the crew compartment shield must wrap a larger volume, the division is not obvious in advance. This is the calculation [Blizard 1953][research_blizard_1953] set out and that the [deGanahl et al 1954][research_deganahl_1954] and the [AC-series power plant shield calculations][research_mitchell_1954] applied to particular configurations. Solving it for a real layered geometry required machinery, and the programme built it, with [an IBM 704 shielding program][research_haffner_1958] and [a multilayer gamma flux code][research_bendall_1959] among the results. The supporting measurements are extensive, covering [centreline dose rates from source planes of different area][research_casper_1958], [gamma heating within a shield][research_duncan_1958], [the nuclear and physical properties of a graphite reactor shield][research_blosser_1958], and [duct penetration experiments at the Convair ground test reactor][research_haffner_1956], the last of which addresses a problem every real shield has, the pipes and cables that must pass through it. A comparable ground installation is treated in [Meem and Fairbanks 1956][research_meem_1956].
 
 The scattered term is the reason the trick has a floor. Radiation that leaves the reactor in any direction can scatter off the surrounding air and arrive at the crew from outside the shadow, an effect that grows with air density and therefore falls with altitude. [The effect of altitude and flight speed on shielding requirements][research_edwards_1954] was studied for that reason. The scattered contribution can be written in the same form as the direct one but with the air acting as the scattering medium, so that it scales with the density along the path,
 
-$$\dot{D}_{\text{scatter}} \propto \rho_{\text{air}}(h) \, \frac{S_\gamma}{4 \pi r^{2}} \, f_{\text{geom}}$$
+$$
+\dot{D}_{\text{scatter}} \propto \rho_{\text{air}}(h) \, \frac{S_\gamma}{4 \pi r^{2}} \, f_{\text{geom}}
+\tag{47}
+$$
 
 and the atmosphere thins exponentially with altitude,
 
-$$\rho_{\text{air}}(h) = \rho_0 \, e^{-h / H}, \qquad H \approx 8.4 \ \text{kilometres}$$
+$$
+\rho_{\text{air}}(h) = \rho_0 \, e^{-h / H}, \qquad H \approx 8.4 \ \text{kilometres}
+\tag{48}
+$$
 
 so climbing from sea level to twelve kilometres reduces the scattered term by
 
-$$\frac{\rho(12{,}000)}{\rho_0} = e^{-12/8.4} = 0.24$$
+$$
+\frac{\rho(12{,}000)}{\rho_0} = e^{-12/8.4} = 0.24
+\tag{49}
+$$
 
 A shadow shield alone is insufficient in an atmosphere. **The aircraft must fly high to make its shielding lighter, a coupling between the flight condition and the structural mass that no conventional aircraft has**, and it means the shield cannot be sized without first choosing the cruise altitude.
 
@@ -299,29 +446,47 @@ Passing the working fluid through the core is simple and it has a consequence.
 
 The thrust of a turbojet follows from the momentum change,
 
-$$F = \dot{m} \left( V_e - V_0 \right), \qquad V_e = \sqrt{2 c_p T_4 \left[ 1 - \left( \frac{p_0}{p_4} \right)^{\frac{\gamma - 1}{\gamma}} \right]}$$
+$$
+F = \dot{m} \left( V_e - V_0 \right), \qquad V_e = \sqrt{2 c_p T_4 \left[ 1 - \left( \frac{p_0}{p_4} \right)^{\frac{\gamma - 1}{\gamma}} \right]}
+\tag{50}
+$$
 
 and the heat the reactor must add to reach turbine inlet temperature $T_4$ from compressor discharge temperature $T_3$ is
 
-$$P_{\text{thermal}} = \dot{m} \, c_p \left( T_4 - T_3 \right)$$
+$$
+P_{\text{thermal}} = \dot{m} \, c_p \left( T_4 - T_3 \right)
+\tag{51}
+$$
 
 The cycle behind them is a Brayton cycle whose thermal efficiency depends on the compressor pressure ratio alone in the ideal case,
 
-$$\eta_{\text{th}} = 1 - \left( \frac{1}{\pi_c} \right)^{\frac{\gamma - 1}{\gamma}}, \qquad T_3 = T_2 \, \pi_c^{\frac{\gamma - 1}{\gamma}}$$
+$$
+\eta_{\text{th}} = 1 - \left( \frac{1}{\pi_c} \right)^{\frac{\gamma - 1}{\gamma}}, \qquad T_3 = T_2 \, \pi_c^{\frac{\gamma - 1}{\gamma}}
+\tag{52}
+$$
 
 Nothing in either relation cares where the heat came from. The reactor is a heat source with a temperature limit, as a combustor is, and the design problem is to get $T_4$ as high as the turbine will tolerate.
 
 That is where the difficulty lies. A combustor reaches flame temperatures far above what the turbine can take and the design problem is dilution. **A reactor must reach turbine inlet temperature in its own fuel elements, which must therefore run hotter than the air they are heating.** The margin needed follows from the convective heat transfer at the element surface,
 
-$$q'' = h \left( T_w - T_{\text{air}} \right), \qquad \mathrm{Nu} = \frac{h D_h}{k} = 0.023 \, \mathrm{Re}^{0.8} \mathrm{Pr}^{0.4}$$
+$$
+q'' = h \left( T_w - T_{\text{air}} \right), \qquad \mathrm{Nu} = \frac{h D_h}{k} = 0.023 \, \mathrm{Re}^{0.8} \mathrm{Pr}^{0.4}
+\tag{53}
+$$
 
 and the total surface the core must present follows from the power and the achievable flux,
 
-$$A_{\text{fuel}} = \frac{P_{\text{thermal}}}{q''}$$
+$$
+A_{\text{fuel}} = \frac{P_{\text{thermal}}}{q''}
+\tag{54}
+$$
 
 so a core transferring a hundred megawatts at a megawatt per square metre needs a hundred square metres of heated surface packed into something like a cubic metre, a power density of
 
-$$\frac{P}{V} \approx 100 \ \text{megawatts per cubic metre}$$
+$$
+\frac{P}{V} \approx 100 \ \text{megawatts per cubic metre}
+\tag{55}
+$$
 
 That power density is demanded by an aircraft's intolerance for volume. For a 1950s turbine tolerating something like 1150 kelvin at inlet, the fuel element surface must exceed that, and a fuel element at that temperature in a fast air stream is a materials problem of the first order. An entire literature was built on it, from [Level 1962][research_level_1962] through [high-temperature work reported at the ANP materials meetings][research_aec_1959_3]. Element development ran continuously, with [Conway 1956][research_conway_1956], [Butterfield 1956][research_butterfield_1956], [Conn et al. 1957][research_conn_1957], and the shaped-wire study of [Tribus 1955][research_tribus_1955] representing the range of approaches tried. Inspection became a separate discipline in [Marjon 1957][research_marjon_1957], measuring the element temperature required [thermocouples that would survive the environment][research_kuhlman_1957], and [Collins and McGurty 1960][research_collins_1960] covers the cladding alloys. **The fuel element is where an aircraft reactor differs most from a power reactor**, because it must be light, must run hotter, and must present a hundred square metres of surface to a fast air stream without shedding any of itself into the exhaust. What it does shed is the subject of [Wilks 1959][research_wilks_1959].
 
@@ -329,13 +494,19 @@ The modern answer to that problem is to encapsulate the fuel rather than to clad
 
 Pushing air through that core costs pressure, and pressure lost between compressor and turbine is thrust not produced. The core acts as a duct with friction,
 
-$$\frac{\Delta p}{p} = f \frac{L}{D_h} \frac{\rho V^{2}}{2 p}$$
+$$
+\frac{\Delta p}{p} = f \frac{L}{D_h} \frac{\rho V^{2}}{2 p}
+\tag{56}
+$$
 
 and the fractional thrust penalty follows the fractional pressure loss closely for a turbojet, so a five percent core pressure drop is roughly a five percent thrust penalty on top of everything else. The programme measured this instead of estimating it. [Segaser 1948][research_segaser_1948], among the earliest documents in the record, determines pressure drop factors through typical fuel element channels. [Chandler et al. 1957][research_chandler_1957] finds that surface oxidation of the elements increases the loss, a degradation mechanism with no combustor analogue. The temperature rise of the fluid passing the elements is computed by [Woods 1954][research_woods_1954]. **A combustor adds heat at nearly constant pressure because it is an open volume. A reactor core is a heat exchanger and behaves like one.**
 
 The air itself [becomes radioactive][ref_inl_nuclear_flight]. Natural argon is 0.93 percent of the atmosphere and argon-40 captures a neutron to become [argon-41][ref_argon41], a gamma emitter with a 110 minute half-life. The activity produced scales with the neutron flux, the residence time, and the mass flow,
 
-$$A_{41} = \sigma_c \, \phi \, N_{40} \left( 1 - e^{-\lambda t_{\text{res}}} \right)$$
+$$
+A_{41} = \sigma_c \, \phi \, N_{40} \left( 1 - e^{-\lambda t_{\text{res}}} \right)
+\tag{57}
+$$
 
 so a direct-cycle aircraft trails a plume of activated air behind it continuously. The programme studied this. It also means that a fuel element failure releases fission products directly into the exhaust, a different and much less tolerable proposition. The [nuclear aircraft safety analysis programme][research_aec_1957_3] existed to bound these questions, and [Menegus and Ring 1958][research_menegus_1958] takes the case of a crash, computing the accidental dispersion of reactor materials and the distance that must be controlled around it. **That calculation has no counterpart elsewhere in this series**, because no other aircraft in it could contaminate the ground it fell on. [Connor 1960][research_connor_1960] sets out aerospace nuclear safety as a discipline, and the reactor community's own accident literature, including [a maximum credible accident analysis][research_dopchie_1958] and [an account of a zero power reactor accident][research_savic_1959], supplied the methods.
 
@@ -349,31 +520,52 @@ Keeping the air out of the core costs a temperature drop and a great deal of har
 
 An intermediate loop introduces a heat exchanger between the reactor and the air, and a heat exchanger of effectiveness $\varepsilon$ delivers
 
-$$T_{4} = T_3 + \varepsilon \left( T_{\text{reactor}} - T_3 \right)$$
+$$
+T_{4} = T_3 + \varepsilon \left( T_{\text{reactor}} - T_3 \right)
+\tag{58}
+$$
 
 so the reactor must run hotter than the turbine inlet by the amount the exchanger cannot recover,
 
-$$T_{\text{reactor}} - T_4 = \left( 1 - \varepsilon \right) \left( T_{\text{reactor}} - T_3 \right)$$
+$$
+T_{\text{reactor}} - T_4 = \left( 1 - \varepsilon \right) \left( T_{\text{reactor}} - T_3 \right)
+\tag{59}
+$$
 
 Effectiveness is bought with surface area, through the number of transfer units,
 
-$$\mathrm{NTU} = \frac{U A_{\text{HX}}}{\left( \dot{m} c_p \right)_{\min}}, \qquad \varepsilon = 1 - e^{-\mathrm{NTU}} \ \text{for a large capacity ratio}$$
+$$
+\mathrm{NTU} = \frac{U A_{\text{HX}}}{\left( \dot{m} c_p \right)_{\min}}, \qquad \varepsilon = 1 - e^{-\mathrm{NTU}} \ \text{for a large capacity ratio}
+\tag{60}
+$$
 
 so that pushing effectiveness from 0.9 to 0.95 raises the required area by about thirty percent,
 
-$$\mathrm{NTU} = -\ln \left( 1 - \varepsilon \right) : \quad 2.30 \longrightarrow 3.00$$
+$$
+\mathrm{NTU} = -\ln \left( 1 - \varepsilon \right) : \quad 2.30 \longrightarrow 3.00
+\tag{61}
+$$
 
 An effectiveness of 0.9 with a compressor discharge at 600 kelvin and a required turbine inlet of 1150 kelvin demands a reactor outlet of
 
-$$T_{\text{reactor}} = T_3 + \frac{T_4 - T_3}{\varepsilon} = 600 + \frac{550}{0.9} = 1211 \ \text{kelvin}$$
+$$
+T_{\text{reactor}} = T_3 + \frac{T_4 - T_3}{\varepsilon} = 600 + \frac{550}{0.9} = 1211 \ \text{kelvin}
+\tag{62}
+$$
 
 sixty kelvin hotter than the direct cycle needs, with the exchanger mass added on top. The mass penalty of a heat exchanger scales with the heat transferred and inversely with the temperature difference driving it,
 
-$$m_{\text{HX}} \propto \frac{P_{\text{thermal}}}{U \, \Delta T_{\text{lm}}}$$
+$$
+m_{\text{HX}} \propto \frac{P_{\text{thermal}}}{U \, \Delta T_{\text{lm}}}
+\tag{63}
+$$
 
 so demanding high effectiveness, which means small $\Delta T$, makes the exchanger large exactly when the mass budget is already spent. The loop that feeds it costs power as well,
 
-$$P_{\text{pump}} = \frac{\dot{m}_{\text{coolant}} \, \Delta p_{\text{loop}}}{\rho_{\text{coolant}} \, \eta_{\text{pump}}}$$
+$$
+P_{\text{pump}} = \frac{\dot{m}_{\text{coolant}} \, \Delta p_{\text{loop}}}{\rho_{\text{coolant}} \, \eta_{\text{pump}}}
+\tag{64}
+$$
 
 which for a liquid metal at aircraft flow rates is not negligible and which must be supplied from the same reactor, reducing the thrust available by the amount it consumes. The [Pratt and Whitney circulating fuel reflector-moderator reactor][research_bigelow_1957], whose [first volume][research_bigelow_1957_2] sets out the design, and the [lithium-cooled reactor experiment][research_hedden_1962] represent the state that programme reached, which never approached flight hardware. [Merriman and Chase 1955][research_merriman_1955] gives the critical mass and power relationship for a reflector-moderated sodium-cooled configuration.
 
@@ -387,29 +579,47 @@ Shutting down a reactor stops the fission but not the heat.
 
 Fission products continue to decay after shutdown, and the thermal power follows an empirical law of the Way-Wigner form,
 
-$$\frac{P_{\text{decay}}(t)}{P_0} \approx 0.066 \, t^{-0.2}$$
+$$
+\frac{P_{\text{decay}}(t)}{P_0} \approx 0.066 \, t^{-0.2}
+\tag{65}
+$$
 
 with $t$ in seconds after shutdown. Evaluating for a hundred megawatt core,
 
-$$P_{\text{decay}}(1 \ \text{s}) = 6.6 \ \text{MW}, \qquad P_{\text{decay}}(1 \ \text{h}) = 1.28 \ \text{MW}, \qquad P_{\text{decay}}(1 \ \text{day}) = 0.68 \ \text{MW}$$
+$$
+P_{\text{decay}}(1 \ \text{s}) = 6.6 \ \text{MW}, \qquad P_{\text{decay}}(1 \ \text{h}) = 1.28 \ \text{MW}, \qquad P_{\text{decay}}(1 \ \text{day}) = 0.68 \ \text{MW}
+\tag{66}
+$$
 
 **An hour after landing the reactor is still producing more than a megawatt.** What that means if the cooling stops can be written down directly. With no heat removal the core heats adiabatically,
 
-$$\frac{dT}{dt} = \frac{P_{\text{decay}}(t)}{m_{\text{core}} \, c_{p,\text{core}}}$$
+$$
+\frac{dT}{dt} = \frac{P_{\text{decay}}(t)}{m_{\text{core}} \, c_{p,\text{core}}}
+\tag{67}
+$$
 
 and for a five tonne core of specific heat 500 joules per kilogram kelvin at the one-hour decay power,
 
-$$\frac{dT}{dt} = \frac{1.28 \times 10^{6}}{5000 \times 500} = 0.51 \ \text{kelvin per second}$$
+$$
+\frac{dT}{dt} = \frac{1.28 \times 10^{6}}{5000 \times 500} = 0.51 \ \text{kelvin per second}
+\tag{68}
+$$
 
 or 31 kelvin per minute, so a core sitting at 1000 kelvin reaches a melting point near 1700 kelvin in
 
-$$t_{\text{melt}} \approx \frac{700}{0.51} = 1.4 \times 10^{3} \ \text{seconds} = 23 \ \text{minutes}$$
+$$
+t_{\text{melt}} \approx \frac{700}{0.51} = 1.4 \times 10^{3} \ \text{seconds} = 23 \ \text{minutes}
+\tag{69}
+$$
 
 **Twenty-three minutes from a cooling failure to a melted core, an hour after the aircraft has landed.** In a direct-cycle aircraft the cooling medium is the air flowing through the engines, so [the airflow must be maintained][ref_convair_x6] on the ground, after shutdown, indefinitely, or the core melts. A nuclear aircraft cannot simply be parked. It requires ground equipment to sustain core cooling, and the mass of heat that must go somewhere is comparable to a large industrial furnace running continuously in a hangar.
 
 The time integral makes the point sharper. Total energy released after shutdown up to time $T$ is
 
-$$E_{\text{decay}} = \int_0^{T} 0.066 \, P_0 \, t^{-0.2} \, dt = \frac{0.066 \, P_0}{0.8} T^{0.8}$$
+$$
+E_{\text{decay}} = \int_0^{T} 0.066 \, P_0 \, t^{-0.2} \, dt = \frac{0.066 \, P_0}{0.8} T^{0.8}
+\tag{70}
+$$
 
 which for a day comes to 73 gigajoules, an average of 850 kilowatts sustained around the clock. No other aircraft in this series carries an operational burden of that kind, and it persists whether or not the aircraft ever flies again. [Reactor coolant flow optimization for the Aircraft Shield Test Reactor][research_ross_1960] is the programme's version of this problem, and the modern treatments of [decay heat removal][research_bali_2025] and [long-term cooling during transients][research_mochizuki_2026] show it never went away.
 
@@ -419,15 +629,24 @@ The crew is not the only thing that must survive the reactor.
 
 Dose accumulates in materials as well as people, and the failure modes differ. Organic materials cross-link or embrittle, semiconductors accumulate lattice damage and charge, and lubricants polymerize. The accumulated dose at a component is the integral of the local rate over the mission,
 
-$$D_{\text{component}} = \int_0^{t_{\text{mission}}} \dot{D}(\mathbf{r}, t) \, dt$$
+$$
+D_{\text{component}} = \int_0^{t_{\text{mission}}} \dot{D}(\mathbf{r}, t) \, dt
+\tag{71}
+$$
 
 The damage mechanism in a solid is displacement rather than ionization, and it is measured in displacements per atom accumulated over the fluence,
 
-$$\text{dpa} = \sigma_d \int_0^{t} \varphi_n \, dt = \sigma_d \, \Phi_n$$
+$$
+\text{dpa} = \sigma_d \int_0^{t} \varphi_n \, dt = \sigma_d \, \Phi_n
+\tag{72}
+$$
 
 so a component's life is set by a fluence limit rather than by a dose rate,
 
-$$t_{\text{life}} = \frac{\Phi_{n,\text{limit}}}{\varphi_n}$$
+$$
+t_{\text{life}} = \frac{\Phi_{n,\text{limit}}}{\varphi_n}
+\tag{73}
+$$
 
 and because the components are distributed through the airframe rather than concentrated in one shielded volume, they cannot all be behind the shadow shield. The work therefore had to develop [Fries 1958][research_fries_1958] and an entire design practice for [electronic systems intended to work in nuclear aircraft][research_levine_1960], restated the following year as [a major influence on such designs][research_levine_1961]. The material behaviour underneath it was catalogued systematically. [Radiation damage to elastomers, lubricants, fabrics, and plastics][research_aec_1954] is a title that conveys the breadth of the problem, with [plastic laminates][research_bauerlein_1959], [organic lubricants and polymers][research_bolt_1958], and [the behaviour of fuels and lubricants in dynamic test equipment under irradiation][research_krasnow_1959] treated separately, and [a bibliography of effects on aluminium, elastomers, and lubricants][research_cernak_1960] collecting the rest. Control system components have [their own damage study][research_anderson_1952], the field held [semiannual symposia][research_aec_1958], and the results were gathered into [a handbook][research_aec_1956]. **An aircraft is mostly organic materials and precision mechanisms, and a reactor is hostile to both.**
 
@@ -439,7 +658,10 @@ The dose limit, the boundary condition on the shield calculation, is a choice an
 
 Mission dose is the product of rate and duration,
 
-$$D_{\text{mission}} = \dot{D} \, t_{\text{mission}}$$
+$$
+D_{\text{mission}} = \dot{D} \, t_{\text{mission}}
+\tag{74}
+$$
 
 so an endurance mission is precisely the case where a modest dose rate becomes unacceptable. **The mission that justifies the aircraft is the mission that makes its shielding hardest.** A four-hour sortie at a given dose rate is a quarter of the dose of a sixteen-hour one, and nuclear propulsion was argued for flights measured in days.
 
@@ -447,11 +669,17 @@ The limit was not merely an engineering parameter to the programme either. A med
 
 Choosing $\dot{D}_0$ therefore chooses the shield mass, through the logarithm,
 
-$$m_{\text{shield}} \propto \ln \left( \frac{1}{\dot{D}_0} \right)$$
+$$
+m_{\text{shield}} \propto \ln \left( \frac{1}{\dot{D}_0} \right)
+\tag{75}
+$$
 
 The sensitivity is best written as a derivative, since that is the quantity a programme manager would want,
 
-$$\frac{\partial m_{\text{shield}}}{\partial \ln \left( 1 / \dot{D}_0 \right)} = \frac{\rho_s A}{\mu} = \frac{11{,}340 \times 14.1}{79.4} = 2.01 \times 10^{3} \ \text{kilograms per e-fold}$$
+$$
+\frac{\partial m_{\text{shield}}}{\partial \ln \left( 1 / \dot{D}_0 \right)} = \frac{\rho_s A}{\mu} = \frac{11{,}340 \times 14.1}{79.4} = 2.01 \times 10^{3} \ \text{kilograms per e-fold}
+\tag{76}
+$$
 
 so each factor of $e$ in permitted dose is worth two tonnes, and because the dependence is logarithmic, accepting ten times the dose saves only one tenth-value layer of material, which is 2.9 centimetres of lead and about four and a half tonnes on the geometry above. **Relaxing the crew dose limit by a factor of ten buys back about two and a half percent of the aircraft.** The asymmetry matters, because it means the programme could not have been rescued by accepting a more dangerous aircraft. The exponential that makes shielding effective also makes it insensitive to how much risk one is willing to impose on the crew.
 
@@ -465,11 +693,17 @@ The crew section was rebuilt in lead and rubber at a mass reported as [eleven to
 
 The dose the crew accumulated is computable from the reported operating time and is the quantity the exercise existed to bound,
 
-$$D_{\text{crew}} = \dot{D}_{\text{shielded}} \, t_{\text{reactor}} = \dot{D}_{\text{shielded}} \times 89 \ \text{hours}$$
+$$
+D_{\text{crew}} = \dot{D}_{\text{shielded}} \, t_{\text{reactor}} = \dot{D}_{\text{shielded}} \times 89 \ \text{hours}
+\tag{77}
+$$
 
 so an allowance of fifty millisieverts across the whole programme sets the shielded rate at
 
-$$\dot{D}_{\text{shielded}} = \frac{0.05}{89} = 5.6 \times 10^{-4} \ \text{sieverts per hour}$$
+$$
+\dot{D}_{\text{shielded}} = \frac{0.05}{89} = 5.6 \times 10^{-4} \ \text{sieverts per hour}
+\tag{78}
+$$
 
 That rate is the design point the crew shield was built to, and the flights were flown to confirm it.
 
@@ -489,17 +723,29 @@ One check is available, and it should be performed, because nowhere else in this
 
 The source is a hundred times weaker and the separation is greater, so the unshielded rate at the crew station scales as
 
-$$\dot{D}_{\text{ASTR}} = \dot{D}_{100} \left( \frac{P_{\text{ASTR}}}{P_{100}} \right) \left( \frac{r_{100}}{r_{\text{ASTR}}} \right)^{2} = 9.84 \times \frac{1}{100} \times \left( \frac{10}{15} \right)^{2}$$
+$$
+\dot{D}_{\text{ASTR}} = \dot{D}_{100} \left( \frac{P_{\text{ASTR}}}{P_{100}} \right) \left( \frac{r_{100}}{r_{\text{ASTR}}} \right)^{2} = 9.84 \times \frac{1}{100} \times \left( \frac{10}{15} \right)^{2}
+\tag{79}
+$$
 
-$$\dot{D}_{\text{ASTR}} = 0.044 \ \text{grays per second} = 157 \ \text{grays per hour}$$
+$$
+\dot{D}_{\text{ASTR}} = 0.044 \ \text{grays per second} = 157 \ \text{grays per hour}
+\tag{80}
+$$
 
 Holding the crew to fifty millisieverts across the 89 hours of reactor operation demands
 
-$$\mathcal{A} = \frac{157}{5.6 \times 10^{-4}} = 2.8 \times 10^{5}, \qquad x = \frac{\ln \left( 2.8 \times 10^{6} \right)}{0.794} = 18.7 \ \text{centimetres}$$
+$$
+\mathcal{A} = \frac{157}{5.6 \times 10^{-4}} = 2.8 \times 10^{5}, \qquad x = \frac{\ln \left( 2.8 \times 10^{6} \right)}{0.794} = 18.7 \ \text{centimetres}
+\tag{81}
+$$
 
 The NB-36H's crew section was [lined with lead and rubber][ref_nb36h] as a whole, but the direct beam from a reactor behind the crew falls on its rear face, so the area taken here is the compartment cross-section and not its surface. Taking six square metres,
 
-$$m = \rho_s A x = 11{,}340 \times 6.0 \times 0.187 = 1.27 \times 10^{4} \ \text{kilograms}$$
+$$
+m = \rho_s A x = 11{,}340 \times 6.0 \times 0.187 = 1.27 \times 10^{4} \ \text{kilograms}
+\tag{82}
+$$
 
 **Against a reported crew shield of eleven to twelve tons.** Repeating the calculation with the far more permissive occupational allowance of the 1950s, about 0.3 sieverts, gives 16.4 centimetres and 11.2 tonnes. The two bracket the reported figure when its tons are read as metric tonnes. **The method used throughout this article reproduces the one aircraft in it that flew.** That agreement is the closest thing to validation available for a programme that never built its aeroplane, and the propulsion-reactor numbers above deserve to be taken seriously because of it.
 
@@ -515,19 +761,31 @@ The most durable result is a reactor. The Aircraft Reactor Experiment, abbreviat
 
 That combination merits a number, because it accounts for the whole of the concept's appeal and explains why the concept outlived the aircraft. A water-cooled reactor must be pressurized to keep its coolant liquid, and the saturation pressure climbs steeply with temperature,
 
-$$p_{\text{sat}}(T) \approx p_c \exp \left[ \frac{\Delta H_{\text{vap}}}{R} \left( \frac{1}{T_c} - \frac{1}{T} \right) \right]$$
+$$
+p_{\text{sat}}(T) \approx p_c \exp \left[ \frac{\Delta H_{\text{vap}}}{R} \left( \frac{1}{T_c} - \frac{1}{T} \right) \right]
+\tag{83}
+$$
 
 so a pressurized water reactor at 600 kelvin sits near 15.5 megapascals while a molten fluoride salt at 1000 kelvin has a vapour pressure below a kilopascal, a ratio of
 
-$$\frac{p_{\text{PWR}}}{p_{\text{salt}}} \approx 1.5 \times 10^{4}$$
+$$
+\frac{p_{\text{PWR}}}{p_{\text{salt}}} \approx 1.5 \times 10^{4}
+\tag{84}
+$$
 
 The vessel mass follows the pressure directly, since a thin spherical shell of radius $R$ holding pressure $p$ at allowable stress $\sigma$ requires
 
-$$t = \frac{p R}{2 \sigma} \quad \Longrightarrow \quad m_{\text{vessel}} = 4 \pi R^{2} \rho t = \frac{2 \pi \rho \, p R^{3}}{\sigma}$$
+$$
+t = \frac{p R}{2 \sigma} \quad \Longrightarrow \quad m_{\text{vessel}} = 4 \pi R^{2} \rho t = \frac{2 \pi \rho \, p R^{3}}{\sigma}
+\tag{85}
+$$
 
 A molten salt core carries a second property that mattered less to the aircraft than it does now. Because the fuel is dissolved in the coolant, thermal expansion of the salt removes fuel from the core, so the reactivity feedback is strongly negative,
 
-$$\alpha_T = \frac{\partial k_{\text{eff}}}{\partial T} < 0, \qquad \delta k = \alpha_T \, \delta T$$
+$$
+\alpha_T = \frac{\partial k_{\text{eff}}}{\partial T} < 0, \qquad \delta k = \alpha_T \, \delta T
+\tag{86}
+$$
 
 and a power excursion is self-limiting without any control action at all. **The pressure vessel mass is proportional to the pressure, so a molten salt reactor's vessel is four orders of magnitude lighter than a water reactor's at the same size.** For an aircraft that is decisive, and for a ground station it is merely attractive, yet attractive was enough for the idea to survive in a place it was not invented for. [Its operation][research_cottrell_1955_2] and [Bettis et al. 1957b][research_bettis_1957] document the experiment, [the hazards summary][research_cottrell_1952_3] preceded it, [the components of its fused-salt and sodium circuits][research_savage_1958] are described in detail, and it was [disassembled and examined afterward][research_cottrell_1958]. [Oak Ridge's aircraft nuclear power plant designs][research_fraas_1954] give the surrounding context.
 
@@ -572,11 +830,17 @@ The shield-mass problem this article derives is now solved computationally inste
 
 The modern statement of the problem replaces the closed-form estimate used above with a constrained optimization over a layered geometry,
 
-$$\min_{\mathbf{x}} \ \sum_{j} \rho_j A_j x_j \quad \text{subject to} \quad \dot{D}\left( \mathbf{x} \right) \le \dot{D}_0, \quad x_j \ge 0$$
+$$
+\min_{\mathbf{x}} \ \sum_{j} \rho_j A_j x_j \quad \text{subject to} \quad \dot{D}\left( \mathbf{x} \right) \le \dot{D}_0, \quad x_j \ge 0
+\tag{87}
+$$
 
 with the dose evaluated by transport rather than by an attenuation law. Transport makes the problem tractable to solve well and intractable to solve by hand. The gain over a hand estimate comes from letting the layer thicknesses vary independently and from exploiting the fact that each material attenuates both radiations,
 
-$$\dot{D} \left( \mathbf{x} \right) = \dot{D}_\gamma \prod_j B_j e^{-\mu_j x_j} + \dot{D}_n \prod_j e^{-\Sigma_{R,j} x_j}$$
+$$
+\dot{D} \left( \mathbf{x} \right) = \dot{D}_\gamma \prod_j B_j e^{-\mu_j x_j} + \dot{D}_n \prod_j e^{-\Sigma_{R,j} x_j}
+\tag{88}
+$$
 
 the coupling this article set aside when it treated the lead and the lithium hydride separately and called their sum an upper bound.
 
@@ -604,15 +868,24 @@ Hydrogen is the leading candidate and it shares a structural character with nucl
 
 **Every one of these is a fixed-overhead problem of the kind this article derives for the shield.** The general form can be written down, and the X-6 is one instance of it. Let an aircraft carry a fixed installation of mass $m_{\text{fix}}$ that enables a mission but performs no work during it. The payload available is what remains,
 
-$$m_{\text{payload}} = m_{\text{gross}} - m_{\text{empty}} - m_{\text{fix}} - m_{\text{consumed}}$$
+$$
+m_{\text{payload}} = m_{\text{gross}} - m_{\text{empty}} - m_{\text{fix}} - m_{\text{consumed}}
+\tag{89}
+$$
 
 and the configuration is viable only while that difference is positive and large enough to justify the aircraft,
 
-$$\frac{m_{\text{fix}}}{m_{\text{gross}}} < 1 - \frac{m_{\text{empty}}}{m_{\text{gross}}} - \frac{m_{\text{payload,min}}}{m_{\text{gross}}}$$
+$$
+\frac{m_{\text{fix}}}{m_{\text{gross}}} < 1 - \frac{m_{\text{empty}}}{m_{\text{gross}}} - \frac{m_{\text{payload,min}}}{m_{\text{gross}}}
+\tag{90}
+$$
 
 For hydrogen the fixed installation is the tank, characterized by a gravimetric index,
 
-$$\eta_g = \frac{m_{\text{H}_2}}{m_{\text{H}_2} + m_{\text{tank}}} \quad \Longrightarrow \quad \frac{m_{\text{tank}}}{m_{\text{H}_2}} = \frac{1 - \eta_g}{\eta_g}$$
+$$
+\eta_g = \frac{m_{\text{H}_2}}{m_{\text{H}_2} + m_{\text{tank}}} \quad \Longrightarrow \quad \frac{m_{\text{tank}}}{m_{\text{H}_2}} = \frac{1 - \eta_g}{\eta_g}
+\tag{91}
+$$
 
 so an index of 0.35 costs 1.86 kilograms of tank per kilogram of fuel while an index of 0.7 costs 0.43, and the entire commercial argument turns on which end of that range is achievable. A cryogenic tank, like a shield, has a mass that does not shrink in proportion to the mission and that must be carried whether or not it is doing anything at that moment. The X-6's arithmetic is a special case of a general pattern in aircraft design, and recognizing it as such is worth more than the aircraft would have been.
 
@@ -704,7 +977,10 @@ The programme's most valuable output is unrelated to its keystone. A molten salt
 
 The cancellation was not a technical decision and the framework has no place to put that. [Intercontinental ballistic missiles][ref_anp] made the indefinitely loitering bomber strategically uninteresting, and aerial refuelling made unlimited range achievable by other means, a refuelled bomber having [flown nonstop around the world][ref_aerial_refueling] in 1949. The second of those can be put beside the shield directly. A tanker delivers fuel at a cost in sorties rather than in airframe mass, so the range a refuelled conventional bomber achieves is
 
-$$R_{\text{refuelled}} = \frac{V}{c_t} \frac{L}{D} \sum_{i} \ln \left( \frac{m_{i}}{m_{f,i}} \right)$$
+$$
+R_{\text{refuelled}} = \frac{V}{c_t} \frac{L}{D} \sum_{i} \ln \left( \frac{m_{i}}{m_{f,i}} \right)
+\tag{92}
+$$
 
 summed over refuelling segments, and the sum has no upper bound that the aircraft itself imposes. **Unlimited range was achieved by a logistics arrangement rather than by a propulsion technology, at zero cost in payload.** The nuclear aircraft was competing against a solution that had already won on the metric it was optimizing. The X-6 was not defeated by its shield. **It was made pointless by two unrelated technologies while it was still arguing with its shield**, and engineering work ends that way far more often than by outright failure.
 
@@ -790,6 +1066,808 @@ One aircraft flew and it was not the X-6. The NB-36H carried a one megawatt reac
 What survives is a reactor. The Aircraft Reactor Experiment ran at Oak Ridge in 1954 as the world's first molten salt reactor, built for high temperature and high power density, which a molten salt core gives at low pressure. An aircraft wants that combination and, as it turns out, so does a good deal else. Seventy years later that concept is under commercial development while the aircraft it was invented for remains unbuilt. An effort that produces no aircraft and one durable reactor technology has not failed in any sense worth the word, and the fact that it is remembered as a failure is a defect in how such work is scored, not in what this one did.
 
 The next article takes the [Lockheed X-7][ref_list_of_x_planes], a ramjet test vehicle that was launched rather than flown, and asks what changes when the aircraft is expendable.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 92 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 92, 57 are established and 35 are bespoke.
+Dose is stated in grays and sieverts, which the shield estimates treat as interchangeable, the lead attenuation coefficient appears as 0.794 per centimetre in the thickness relations and 79.4 per metre in the separation and mass relations, and $\lambda$ is a structural mass per metre in the separation optimum but the decay constant of argon-41 in the activation relation.
+
+**Equation 1, Specific Energy of Fission and of Kerosene.**
+Complete fission of uranium-235 releases about $8.2 \times 10^{13}$ joules per kilogram against about $4.3 \times 10^{7}$ for kerosene.
+
+$$
+E_{\text{fission}} \approx 8.2 \times 10^{13} \ \text{joules per kilogram}, \qquad E_{\text{chem}} \approx 4.3 \times 10^{7} \ \text{joules per kilogram}
+\tag{1}
+$$
+
+**Equation 2, Energy per Fission and Specific Energy of Uranium-235.**
+About 200 megaelectronvolts per fission times the Avogadro constant over the molar mass gives the specific energy of fission.
+
+$$
+E_f \approx 200 \ \text{MeV} = 3.20 \times 10^{-11} \ \text{joules}, \qquad E_{\text{fission}} = \frac{E_f \, N_A}{M_{235}}
+\tag{2}
+$$
+
+**Equation 3, Ratio of Fission to Chemical Specific Energy.**
+Fission releases about two million times the energy of combustion per unit mass.
+
+$$
+\frac{E_{\text{fission}}}{E_{\text{chem}}} = 1.9 \times 10^{6}
+\tag{3}
+$$
+
+**Equation 4, Fission Rate at a Given Power.**
+The fission rate is the thermal power divided by the energy per fission.
+
+$$
+\dot{N}_f = \frac{P}{E_f}
+\tag{4}
+$$
+
+**Equation 5, Fission Rate of a Hundred Megawatt Core.**
+A hundred megawatt core fissions about $3.12 \times 10^{18}$ nuclei per second.
+
+$$
+\dot{N}_f = \frac{10^{8}}{3.20 \times 10^{-11}} = 3.12 \times 10^{18} \ \text{nuclei per second}
+\tag{5}
+$$
+
+**Equation 6, Endurance from Fuel Mass and Thrust Specific Fuel Consumption.**
+Endurance is the fuel mass divided by the thrust specific fuel consumption times the thrust.
+
+$$
+t_{\text{endurance}} = \frac{m_{\text{fuel}}}{\text{TSFC} \times F}
+\tag{6}
+$$
+
+**Equation 7, Thrust Specific Fuel Consumption of a Nuclear Aircraft.**
+Because a nuclear aircraft burns almost no fuel mass, its thrust specific fuel consumption tends to zero and endurance is bounded by something other than fuel.
+
+$$
+\text{TSFC} = \frac{\dot{m}_{\text{fuel}}}{F} \longrightarrow 0 \quad \Longrightarrow \quad t_{\text{endurance}} \longrightarrow \text{limited by something else}
+\tag{7}
+$$
+
+**Equation 8, Criticality Condition.**
+A reactor is critical when neutron production equals absorption plus leakage, so that the effective multiplication factor is one.
+
+$$
+k_{\text{eff}} = \frac{\text{production}}{\text{absorption} + \text{leakage}} = 1
+\tag{8}
+$$
+
+**Equation 9, Non-Leakage Probability of a Bare Spherical Core.**
+In diffusion theory the non-leakage probability falls with the geometric buckling times the migration area, and the buckling of a sphere grows as its radius shrinks.
+
+$$
+P_{\text{NL}} \approx \frac{1}{1 + B^{2} M^{2}}, \qquad B^{2} = \left( \frac{\pi}{R} \right)^{2} \ \text{for a sphere}
+\tag{9}
+$$
+
+**Equation 10, Wing Loading of the B-36.**
+A gross mass of about 186,000 kilograms on 443 square metres gives a wing loading of about 4.12 kilonewtons per square metre.
+[B-36][ref_b36]
+
+$$
+\frac{W}{S} = \frac{186{,}000 \times 9.80665}{443} = 4.12 \times 10^{3} \ \text{newtons per square metre}
+\tag{10}
+$$
+
+**Equation 11, Aspect Ratio of the B-36.**
+The span of 70.1 metres and the wing area give an aspect ratio of 11.1.
+[B-36][ref_b36]
+
+$$
+A = \frac{b^{2}}{S} = \frac{70.1^{2}}{443} = 11.1
+\tag{11}
+$$
+
+*Equation 12, Bespoke Cruise Thrust at Maximum Takeoff Weight.*
+Taking the maximum takeoff weight as an upper bound on cruise weight and a lift-to-drag ratio near eighteen gives a required thrust of 101 kilonewtons.
+
+$$
+F = \frac{W}{L/D} = \frac{186{,}000 \times 9.80665}{18} = 1.01 \times 10^{5} \ \text{newtons}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Propulsive Power at an Assumed Cruise Speed.*
+At an assumed cruise speed of 200 metres per second, about twice the listed cruising speed, the propulsive power is 20.3 megawatts.
+
+$$
+P_{\text{prop}} = F V = 1.01 \times 10^{5} \times 200 = 20.3 \ \text{megawatts}
+\tag{13}
+$$
+
+**Equation 14, Thermal Power and Overall Propulsive Efficiency.**
+The reactor thermal power is the propulsive power divided by the overall efficiency, the product of thermal and propulsive efficiencies.
+
+$$
+P_{\text{thermal}} = \frac{P_{\text{prop}}}{\eta_{\text{overall}}}, \qquad \eta_{\text{overall}} = \eta_{\text{thermal}} \, \eta_{\text{propulsive}}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Reactor Thermal Power.*
+An assumed overall efficiency of 0.20 for a turbojet of the period gives a thermal power of about 101 megawatts.
+
+$$
+P_{\text{thermal}} = \frac{20.3}{0.20} = 101 \ \text{megawatts}
+\tag{15}
+$$
+
+**Equation 16, Uranium-235 Consumed on a Hundred-Hour Mission.**
+A hundred megawatts for a hundred hours fissions about 0.44 kilograms of uranium-235.
+
+$$
+m_{\text{U-235}} = \frac{P \, t}{E_{\text{fission}}} = \frac{10^{8} \times 3.6 \times 10^{5}}{8.2 \times 10^{13}} = 0.44 \ \text{kilograms}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Escaping Gamma Power.*
+The article takes about eight of the two hundred megaelectronvolts per fission as escaping gamma energy, so the gamma power is four percent of the thermal power.
+
+$$
+P_\gamma \approx 0.04 \, P = 4.0 \ \text{megawatts}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Gamma Source Strength.*
+Dividing the gamma power by an assumed mean photon energy of one megaelectronvolt gives $2.50 \times 10^{19}$ photons per second.
+
+$$
+S_\gamma = \frac{P_\gamma}{\bar{E}_\gamma} = \frac{4.0 \times 10^{6}}{1.60 \times 10^{-13}} = 2.50 \times 10^{19} \ \text{photons per second}
+\tag{18}
+$$
+
+**Equation 19, Fast Neutron Source Strength.**
+The neutron source is the mean number of neutrons per fission times the fission rate, about $7.49 \times 10^{18}$ neutrons per second.
+
+$$
+S_n = \nu \, \dot{N}_f = 2.4 \times 3.12 \times 10^{18} = 7.49 \times 10^{18} \ \text{neutrons per second}
+\tag{19}
+$$
+
+**Equation 20, Point-Kernel Dose Rate with Buildup.**
+The dose rate behind a shield of thickness $x$ is the inverse-square source term attenuated exponentially and multiplied by the buildup factor for scattered photons.
+[Auslender 1957][research_auslender_1957]
+
+$$
+\dot{D}(r, x) = \frac{k \, P}{4 \pi r^{2}} \, B(\mu x) \, e^{-\mu x}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Unshielded Photon Fluence Rate at Ten Metres.*
+The assumed gamma source spread over a sphere of ten metres radius gives a fluence rate of $1.99 \times 10^{16}$ per square metre per second.
+
+$$
+\varphi = \frac{S_\gamma}{4 \pi r^{2}} = \frac{2.50 \times 10^{19}}{4 \pi \times 100} = 1.99 \times 10^{16} \ \text{per square metre per second}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Unshielded Tissue Dose Rate at Ten Metres.*
+The fluence rate times the mean photon energy times the mass energy-absorption coefficient of tissue gives the dose rate from the assumed source.
+
+$$
+\dot{D} = \varphi \, \bar{E}_\gamma \left( \frac{\mu_{en}}{\rho} \right)_{\text{tissue}} = 1.99 \times 10^{16} \times 1.60 \times 10^{-13} \times 3.09 \times 10^{-3}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Unshielded Dose Rate Value.*
+The assumed hundred megawatt source unshielded at ten metres delivers about 9.8 grays per second.
+
+$$
+\dot{D} = 9.8 \ \text{grays per second}
+\tag{23}
+$$
+
+**Equation 24, Shield Thickness for a Dose Limit.**
+Inverting the point-kernel relation with the buildup factor held fixed gives the thickness that holds the dose at the limit.
+
+$$
+x = \frac{1}{\mu} \ln \left( \frac{k \, P \, B}{4 \pi r^{2} \dot{D}_0} \right)
+\tag{24}
+$$
+
+**Equation 25, Linear Attenuation Coefficient of Lead Near One Megaelectronvolt.**
+A mass attenuation coefficient of about 0.070 square centimetres per gram times the density of lead gives 0.794 per centimetre.
+[attenuation coefficient][ref_attenuation]
+[lead][ref_lead_element]
+
+$$
+\mu = 0.070 \times 11.34 = 0.794 \ \text{per centimetre}
+\tag{25}
+$$
+
+**Equation 26, Tenth-Value Layer of Lead.**
+The tenth-value layer is the natural logarithm of ten over the attenuation coefficient, 2.90 centimetres of lead.
+
+$$
+x_{1/10} = \frac{\ln 10}{\mu} = \frac{2.303}{0.794} = 2.90 \ \text{centimetres}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Crew Dose Rate Limit for a Hundred-Hour Mission.*
+An allowance the article chooses of fifty millisieverts over a hundred hours sets a rate limit of $5 \times 10^{-4}$ grays per hour.
+
+$$
+\dot{D}_0 = \frac{0.05}{100} = 5 \times 10^{-4} \ \text{grays per hour}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Attenuation Demanded of the Gamma Shield.*
+The ratio of the unshielded rate to the chosen limit is $7.1 \times 10^{7}$.
+
+$$
+\mathcal{A} = \frac{\dot{D}_{\text{unshielded}}}{\dot{D}_0} = \frac{3.54 \times 10^{4}}{5 \times 10^{-4}} = 7.1 \times 10^{7}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Gamma Shield Thickness.*
+With the chosen limit and an assumed buildup factor of ten the lead thickness is 25.7 centimetres.
+
+$$
+x = \frac{\ln \left( \mathcal{A} B \right)}{\mu} = \frac{\ln \left( 7.1 \times 10^{8} \right)}{0.794} = \frac{20.4}{0.794} = 25.7 \ \text{centimetres}
+\tag{29}
+$$
+
+**Equation 30, Fast Neutron Attenuation by a Removal Cross-Section.**
+The fast neutron flux falls exponentially with thickness at a rate set by the macroscopic removal cross-section.
+[Chapman and Storrs 1955][research_chapman_1955]
+
+$$
+\varphi_n(x) = \varphi_n(0) \, e^{-\Sigma_R x}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Lithium Hydride Neutron Shield Thickness.*
+A removal cross-section near 0.095 per centimetre and a required attenuation of $1.5 \times 10^{9}$ give 222 centimetres of lithium hydride.
+
+$$
+x_n = \frac{\ln \left( 1.5 \times 10^{9} \right)}{0.095} = 222 \ \text{centimetres}
+\tag{31}
+$$
+
+**Equation 32, Logarithmic Growth of Shield Thickness with Power.**
+Because thickness depends on the logarithm of the source strength, a change in power adds only the logarithm of the power ratio over the attenuation coefficient.
+
+$$
+\Delta x = \frac{1}{\mu} \ln \left( \frac{P_2}{P_1} \right)
+\tag{32}
+$$
+
+**Equation 33, Added Lead for a Thousandfold Power Increase.**
+A thousandfold increase in power adds 8.7 centimetres of lead.
+
+$$
+\Delta x = \frac{\ln 1000}{0.794} = 8.7 \ \text{centimetres}
+\tag{33}
+$$
+
+**Equation 34, Shield Thickness as a Function of Separation.**
+Holding the crew dose fixed, the point-kernel thickness falls by twice the logarithm of the separation over the attenuation coefficient.
+
+$$
+x(r) = \frac{1}{\mu} \left[ \ln \left( \frac{k P B}{4 \pi \dot{D}_0} \right) - 2 \ln r \right]
+\tag{34}
+$$
+
+*Equation 35, Bespoke Shadow Shield Mass Against Separation.*
+A shadow shield of fixed area $A$ whose thickness follows the separation relation has a mass that falls logarithmically with distance.
+
+$$
+m_{\text{shield}}(r) = \rho_s A \, x(r) = C - \frac{2 \rho_s A}{\mu} \ln r
+\tag{35}
+$$
+
+*Equation 36, Bespoke Linear Structural Mass of the Separation.*
+The article takes the structure spanning the separation to add a fixed $\lambda$ kilograms per metre.
+
+$$
+m_{\text{struct}}(r) = \lambda r
+\tag{36}
+$$
+
+*Equation 37, Bespoke Optimum Separation.*
+Setting the derivative of total shield and structure mass to zero gives an optimum separation proportional to shield areal density over attenuation coefficient and structural mass per metre.
+
+$$
+\frac{d m_{\text{total}}}{d r} = -\frac{2 \rho_s A}{\mu r} + \lambda = 0 \quad \Longrightarrow \quad r^{*} = \frac{2 \rho_s A}{\mu \lambda}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Optimum Separation Value.*
+Lead on a forward hemisphere of 1.5 metre radius with an assumed 400 kilograms per metre of fuselage structure gives an optimum near ten metres.
+
+$$
+r^{*} = \frac{2 \times 11{,}340 \times 14.1}{79.4 \times 400} = 10.1 \ \text{metres}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Gamma Shield Mass.*
+The chosen area and the 25.7 centimetre thickness give about 41 tonnes of lead.
+
+$$
+m_{\text{shield}} = \rho_s A x = 11{,}340 \times 14.1 \times 0.257 = 4.11 \times 10^{4} \ \text{kilograms}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Gamma Shield Fraction of Gross Mass.*
+The estimated lead shield is 22 percent of the gross mass.
+
+$$
+\frac{m_{\text{shield}}}{m_{\text{gross}}} = \frac{41{,}100}{186{,}000} = 0.221
+\tag{40}
+$$
+
+*Equation 41, Bespoke Upper Bound on Total Shield Fraction.*
+Adding the lithium hydride layer as a separate mass gives an upper bound of 35 percent of the gross mass.
+
+$$
+\frac{m_{\text{Pb}} + m_{\text{LiH}}}{m_{\text{gross}}} = \frac{41{,}100 + 24{,}500}{186{,}000} = 0.353
+\tag{41}
+$$
+
+*Equation 42, Bespoke Gamma Shield Mass Against Bomb Load.*
+The estimated lead shield weighs 1.05 times the maximum bomb load of about 39,000 kilograms.
+
+$$
+\frac{m_{\text{shield}}}{m_{\text{payload}}} = \frac{41{,}100}{39{,}000} = 1.05
+\tag{42}
+$$
+
+**Equation 43, Mass of a Divided Shield.**
+The total mass of a divided shield is the sum of the areal masses of the reactor and crew shields.
+[Shield optimization][research_blizard_1953]
+
+$$
+m_{\text{total}} = \rho_s A_r x_r + \rho_c A_c x_c
+\tag{43}
+$$
+
+**Equation 44, Dose Constraint on a Divided Shield.**
+The direct dose, which depends on the reactor shield, and the scattered dose, which depends on both, must together meet the limit.
+[Shield optimization][research_blizard_1953]
+
+$$
+\dot{D}_{\text{direct}} \left( x_r \right) + \dot{D}_{\text{scatter}} \left( x_r, x_c \right) \le \dot{D}_0
+\tag{44}
+$$
+
+**Equation 45, Equal Marginal Dose Reduction per Unit Mass.**
+At the constrained optimum the dose reduction bought by a unit of mass must be equal in the reactor and crew shields.
+[Shield optimization][research_blizard_1953]
+
+$$
+\frac{1}{\rho_s A_r} \frac{\partial \dot{D}}{\partial x_r} = \frac{1}{\rho_c A_c} \frac{\partial \dot{D}}{\partial x_c}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Thickness Relation for the Optimum Division.*
+Taking each shield to attenuate its own exponential term of equal strength reduces the optimum condition to a relation between the two optical thicknesses and the areal masses.
+
+$$
+\mu_r x_r - \mu_c x_c = \ln \left( \frac{\rho_c A_c \, \mu_r}{\rho_s A_r \, \mu_c} \right)
+\tag{46}
+$$
+
+*Equation 47, Bespoke Air-Scattered Dose Scaling.*
+The article writes the scattered dose as proportional to the air density along the path times the source fluence and a geometric factor.
+
+$$
+\dot{D}_{\text{scatter}} \propto \rho_{\text{air}}(h) \, \frac{S_\gamma}{4 \pi r^{2}} \, f_{\text{geom}}
+\tag{47}
+$$
+
+**Equation 48, Exponential Atmosphere.**
+Air density falls exponentially with altitude with a scale height near 8.4 kilometres.
+
+$$
+\rho_{\text{air}}(h) = \rho_0 \, e^{-h / H}, \qquad H \approx 8.4 \ \text{kilometres}
+\tag{48}
+$$
+
+**Equation 49, Density Ratio at Twelve Kilometres.**
+At twelve kilometres the exponential atmosphere gives a quarter of sea-level density.
+
+$$
+\frac{\rho(12{,}000)}{\rho_0} = e^{-12/8.4} = 0.24
+\tag{49}
+$$
+
+**Equation 50, Turbojet Thrust and Ideal Exhaust Velocity.**
+Thrust is the mass flow times the velocity increase, and the ideal exhaust velocity follows from isentropic expansion from turbine inlet conditions.
+
+$$
+F = \dot{m} \left( V_e - V_0 \right), \qquad V_e = \sqrt{2 c_p T_4 \left[ 1 - \left( \frac{p_0}{p_4} \right)^{\frac{\gamma - 1}{\gamma}} \right]}
+\tag{50}
+$$
+
+**Equation 51, Heat Added Across the Core.**
+The thermal power is the mass flow times the specific heat times the temperature rise from compressor discharge to turbine inlet.
+
+$$
+P_{\text{thermal}} = \dot{m} \, c_p \left( T_4 - T_3 \right)
+\tag{51}
+$$
+
+**Equation 52, Ideal Brayton Cycle Efficiency.**
+The ideal Brayton thermal efficiency depends only on the compressor pressure ratio, which also fixes the compressor discharge temperature.
+
+$$
+\eta_{\text{th}} = 1 - \left( \frac{1}{\pi_c} \right)^{\frac{\gamma - 1}{\gamma}}, \qquad T_3 = T_2 \, \pi_c^{\frac{\gamma - 1}{\gamma}}
+\tag{52}
+$$
+
+**Equation 53, Convective Heat Flux and the Dittus-Boelter Correlation.**
+The surface heat flux is the heat transfer coefficient times the wall-to-air temperature difference, with the Nusselt number given by the Dittus-Boelter correlation.
+
+$$
+q'' = h \left( T_w - T_{\text{air}} \right), \qquad \mathrm{Nu} = \frac{h D_h}{k} = 0.023 \, \mathrm{Re}^{0.8} \mathrm{Pr}^{0.4}
+\tag{53}
+$$
+
+**Equation 54, Heated Surface Required.**
+The fuel element surface is the thermal power divided by the achievable heat flux.
+
+$$
+A_{\text{fuel}} = \frac{P_{\text{thermal}}}{q''}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Core Power Density.*
+A hundred square metres at a megawatt per square metre packed into an assumed cubic metre gives about a hundred megawatts per cubic metre.
+
+$$
+\frac{P}{V} \approx 100 \ \text{megawatts per cubic metre}
+\tag{55}
+$$
+
+**Equation 56, Duct Friction Pressure Loss.**
+The fractional pressure loss through the core is the friction factor times the length over hydraulic diameter times the dynamic pressure over static pressure.
+
+$$
+\frac{\Delta p}{p} = f \frac{L}{D_h} \frac{\rho V^{2}}{2 p}
+\tag{56}
+$$
+
+**Equation 57, Activation of Argon-40.**
+The argon-41 activity produced is the capture cross-section times the flux times the number of target nuclei times the saturation factor for the residence time.
+
+$$
+A_{41} = \sigma_c \, \phi \, N_{40} \left( 1 - e^{-\lambda t_{\text{res}}} \right)
+\tag{57}
+$$
+
+**Equation 58, Heat Exchanger Outlet Temperature from Effectiveness.**
+An exchanger of effectiveness $\varepsilon$ raises the air from compressor discharge temperature by that fraction of the available temperature difference.
+
+$$
+T_{4} = T_3 + \varepsilon \left( T_{\text{reactor}} - T_3 \right)
+\tag{58}
+$$
+
+**Equation 59, Reactor Temperature Excess over Turbine Inlet.**
+The reactor must run hotter than the turbine inlet by one less the effectiveness times the available difference.
+
+$$
+T_{\text{reactor}} - T_4 = \left( 1 - \varepsilon \right) \left( T_{\text{reactor}} - T_3 \right)
+\tag{59}
+$$
+
+**Equation 60, Number of Transfer Units and Effectiveness.**
+The number of transfer units is the conductance-area product over the smaller capacity rate, and for a large capacity ratio the effectiveness is one less the exponential of its negative.
+
+$$
+\mathrm{NTU} = \frac{U A_{\text{HX}}}{\left( \dot{m} c_p \right)_{\min}}, \qquad \varepsilon = 1 - e^{-\mathrm{NTU}} \ \text{for a large capacity ratio}
+\tag{60}
+$$
+
+**Equation 61, Transfer Units for Effectiveness of 0.9 and 0.95.**
+Raising effectiveness from 0.9 to 0.95 raises the number of transfer units from 2.30 to 3.00.
+
+$$
+\mathrm{NTU} = -\ln \left( 1 - \varepsilon \right) : \quad 2.30 \longrightarrow 3.00
+\tag{61}
+$$
+
+*Equation 62, Bespoke Reactor Outlet Temperature for the Indirect Cycle.*
+With an assumed compressor discharge of 600 kelvin, a turbine inlet of 1150 kelvin and an effectiveness of 0.9 the reactor outlet must be about 1211 kelvin.
+
+$$
+T_{\text{reactor}} = T_3 + \frac{T_4 - T_3}{\varepsilon} = 600 + \frac{550}{0.9} = 1211 \ \text{kelvin}
+\tag{62}
+$$
+
+**Equation 63, Heat Exchanger Mass Scaling.**
+Exchanger size and hence mass scale with the heat transferred over the overall coefficient and the log-mean temperature difference.
+
+$$
+m_{\text{HX}} \propto \frac{P_{\text{thermal}}}{U \, \Delta T_{\text{lm}}}
+\tag{63}
+$$
+
+**Equation 64, Coolant Pumping Power.**
+Pumping power is the mass flow times the loop pressure drop over the coolant density and the pump efficiency.
+
+$$
+P_{\text{pump}} = \frac{\dot{m}_{\text{coolant}} \, \Delta p_{\text{loop}}}{\rho_{\text{coolant}} \, \eta_{\text{pump}}}
+\tag{64}
+$$
+
+**Equation 65, Way-Wigner Decay Heat Law.**
+After shutdown the decay heat falls as a power law of time with an exponent of minus 0.2.
+
+$$
+\frac{P_{\text{decay}}(t)}{P_0} \approx 0.066 \, t^{-0.2}
+\tag{65}
+$$
+
+**Equation 66, Decay Heat of a Hundred Megawatt Core.**
+The decay law gives 6.6 megawatts at one second, 1.28 at one hour and 0.68 at one day.
+
+$$
+P_{\text{decay}}(1 \ \text{s}) = 6.6 \ \text{MW}, \qquad P_{\text{decay}}(1 \ \text{h}) = 1.28 \ \text{MW}, \qquad P_{\text{decay}}(1 \ \text{day}) = 0.68 \ \text{MW}
+\tag{66}
+$$
+
+**Equation 67, Adiabatic Heating Rate of an Uncooled Core.**
+Without heat removal the core temperature rises at the decay power over the core heat capacity.
+
+$$
+\frac{dT}{dt} = \frac{P_{\text{decay}}(t)}{m_{\text{core}} \, c_{p,\text{core}}}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Heating Rate of a Five Tonne Core.*
+An assumed five tonne core of specific heat 500 joules per kilogram kelvin heats at 0.51 kelvin per second at the one-hour decay power.
+
+$$
+\frac{dT}{dt} = \frac{1.28 \times 10^{6}}{5000 \times 500} = 0.51 \ \text{kelvin per second}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Time to Core Melting.*
+Holding the one-hour decay power constant, a 700 kelvin margin to melting is consumed in about 23 minutes.
+
+$$
+t_{\text{melt}} \approx \frac{700}{0.51} = 1.4 \times 10^{3} \ \text{seconds} = 23 \ \text{minutes}
+\tag{69}
+$$
+
+**Equation 70, Integrated Decay Energy.**
+Integrating the decay law from shutdown gives the energy released, which grows as the 0.8 power of time.
+
+$$
+E_{\text{decay}} = \int_0^{T} 0.066 \, P_0 \, t^{-0.2} \, dt = \frac{0.066 \, P_0}{0.8} T^{0.8}
+\tag{70}
+$$
+
+**Equation 71, Accumulated Component Dose.**
+The dose a component accumulates is the integral of the local dose rate over the mission.
+
+$$
+D_{\text{component}} = \int_0^{t_{\text{mission}}} \dot{D}(\mathbf{r}, t) \, dt
+\tag{71}
+$$
+
+**Equation 72, Displacements per Atom.**
+Displacement damage is the displacement cross-section times the fast neutron fluence.
+
+$$
+\text{dpa} = \sigma_d \int_0^{t} \varphi_n \, dt = \sigma_d \, \Phi_n
+\tag{72}
+$$
+
+**Equation 73, Component Life from a Fluence Limit.**
+A component's life is its fluence limit divided by the local fast neutron flux.
+
+$$
+t_{\text{life}} = \frac{\Phi_{n,\text{limit}}}{\varphi_n}
+\tag{73}
+$$
+
+**Equation 74, Mission Dose.**
+Mission dose is the dose rate times the mission duration.
+
+$$
+D_{\text{mission}} = \dot{D} \, t_{\text{mission}}
+\tag{74}
+$$
+
+*Equation 75, Bespoke Shield Mass Against the Dose Limit.*
+For a shadow shield of fixed area the mass grows with the logarithm of the reciprocal dose limit.
+
+$$
+m_{\text{shield}} \propto \ln \left( \frac{1}{\dot{D}_0} \right)
+\tag{75}
+$$
+
+*Equation 76, Bespoke Shield Mass per E-Fold of Permitted Dose.*
+The areal density of lead over its attenuation coefficient on the chosen area gives about two tonnes per factor of $e$ in the dose limit.
+
+$$
+\frac{\partial m_{\text{shield}}}{\partial \ln \left( 1 / \dot{D}_0 \right)} = \frac{\rho_s A}{\mu} = \frac{11{,}340 \times 14.1}{79.4} = 2.01 \times 10^{3} \ \text{kilograms per e-fold}
+\tag{76}
+$$
+
+**Equation 77, Crew Dose from Reactor Operating Time.**
+The crew dose is the shielded dose rate times the 89 hours of reactor operation.
+[one account][ref_nb36h]
+
+$$
+D_{\text{crew}} = \dot{D}_{\text{shielded}} \, t_{\text{reactor}} = \dot{D}_{\text{shielded}} \times 89 \ \text{hours}
+\tag{77}
+$$
+
+*Equation 78, Bespoke Shielded Dose Rate of the NB-36H.*
+An allowance the article chooses of fifty millisieverts across the 89 hours sets the shielded rate at $5.6 \times 10^{-4}$ sieverts per hour.
+
+$$
+\dot{D}_{\text{shielded}} = \frac{0.05}{89} = 5.6 \times 10^{-4} \ \text{sieverts per hour}
+\tag{78}
+$$
+
+*Equation 79, Bespoke Unshielded Dose Rate at the NB-36H Crew Station.*
+Scaling the hundred megawatt estimate linearly to one megawatt and by the inverse square from ten to an assumed fifteen metres gives the rate at the crew station.
+
+$$
+\dot{D}_{\text{ASTR}} = \dot{D}_{100} \left( \frac{P_{\text{ASTR}}}{P_{100}} \right) \left( \frac{r_{100}}{r_{\text{ASTR}}} \right)^{2} = 9.84 \times \frac{1}{100} \times \left( \frac{10}{15} \right)^{2}
+\tag{79}
+$$
+
+*Equation 80, Bespoke Unshielded Dose Rate Value for the Shield Test Reactor.*
+The scaling gives 0.044 grays per second, or 157 grays per hour.
+
+$$
+\dot{D}_{\text{ASTR}} = 0.044 \ \text{grays per second} = 157 \ \text{grays per hour}
+\tag{80}
+$$
+
+*Equation 81, Bespoke Attenuation and Lead Thickness for the Shield Test Reactor.*
+The required attenuation of $2.8 \times 10^{5}$ with a buildup factor of ten gives 18.7 centimetres of lead.
+
+$$
+\mathcal{A} = \frac{157}{5.6 \times 10^{-4}} = 2.8 \times 10^{5}, \qquad x = \frac{\ln \left( 2.8 \times 10^{6} \right)}{0.794} = 18.7 \ \text{centimetres}
+\tag{81}
+$$
+
+*Equation 82, Bespoke Crew Shield Mass of the NB-36H.*
+Taking an assumed six square metres of compartment cross-section gives 12.7 tonnes, against a reported eleven to twelve tons.
+
+$$
+m = \rho_s A x = 11{,}340 \times 6.0 \times 0.187 = 1.27 \times 10^{4} \ \text{kilograms}
+\tag{82}
+$$
+
+**Equation 83, Clausius-Clapeyron Saturation Pressure.**
+The integrated Clausius-Clapeyron relation gives the saturation pressure as an exponential in the reciprocal temperature.
+
+$$
+p_{\text{sat}}(T) \approx p_c \exp \left[ \frac{\Delta H_{\text{vap}}}{R} \left( \frac{1}{T_c} - \frac{1}{T} \right) \right]
+\tag{83}
+$$
+
+**Equation 84, Ratio of Water Reactor to Molten Salt Pressure.**
+A pressurised water reactor near 15.5 megapascals against a fluoride salt vapour pressure below a kilopascal is a ratio of at least $1.5 \times 10^{4}$.
+[molten salt reactor][ref_msr]
+
+$$
+\frac{p_{\text{PWR}}}{p_{\text{salt}}} \approx 1.5 \times 10^{4}
+\tag{84}
+$$
+
+**Equation 85, Thin Spherical Pressure Vessel.**
+The wall thickness of a thin sphere is the pressure times the radius over twice the allowable stress, so the vessel mass is proportional to the pressure.
+
+$$
+t = \frac{p R}{2 \sigma} \quad \Longrightarrow \quad m_{\text{vessel}} = 4 \pi R^{2} \rho t = \frac{2 \pi \rho \, p R^{3}}{\sigma}
+\tag{85}
+$$
+
+**Equation 86, Temperature Coefficient of Reactivity.**
+The temperature coefficient is the derivative of the multiplication factor with temperature, which is negative for a circulating fuel salt.
+
+$$
+\alpha_T = \frac{\partial k_{\text{eff}}}{\partial T} < 0, \qquad \delta k = \alpha_T \, \delta T
+\tag{86}
+$$
+
+**Equation 87, Minimum-Mass Layered Shield.**
+The modern problem minimises the total areal mass of the layers subject to the dose limit and non-negative thicknesses.
+
+$$
+\min_{\mathbf{x}} \ \sum_{j} \rho_j A_j x_j \quad \text{subject to} \quad \dot{D}\left( \mathbf{x} \right) \le \dot{D}_0, \quad x_j \ge 0
+\tag{87}
+$$
+
+*Equation 88, Bespoke Two-Radiation Dose of a Layered Shield.*
+The article writes the dose as a gamma term attenuated and built up layer by layer as a product plus a neutron term attenuated by each layer's removal cross-section.
+
+$$
+\dot{D} \left( \mathbf{x} \right) = \dot{D}_\gamma \prod_j B_j e^{-\mu_j x_j} + \dot{D}_n \prod_j e^{-\Sigma_{R,j} x_j}
+\tag{88}
+$$
+
+**Equation 89, Payload Mass Budget.**
+Payload is gross mass less empty mass, fixed installation and consumed mass.
+
+$$
+m_{\text{payload}} = m_{\text{gross}} - m_{\text{empty}} - m_{\text{fix}} - m_{\text{consumed}}
+\tag{89}
+$$
+
+*Equation 90, Bespoke Viability Condition for a Fixed Installation.*
+The article states that a configuration is viable only while the fixed installation fraction leaves at least a minimum payload fraction.
+
+$$
+\frac{m_{\text{fix}}}{m_{\text{gross}}} < 1 - \frac{m_{\text{empty}}}{m_{\text{gross}}} - \frac{m_{\text{payload,min}}}{m_{\text{gross}}}
+\tag{90}
+$$
+
+**Equation 91, Gravimetric Index of a Hydrogen Tank.**
+The gravimetric index is the hydrogen mass over the hydrogen and tank mass, which fixes the tank mass per kilogram of fuel.
+
+$$
+\eta_g = \frac{m_{\text{H}_2}}{m_{\text{H}_2} + m_{\text{tank}}} \quad \Longrightarrow \quad \frac{m_{\text{tank}}}{m_{\text{H}_2}} = \frac{1 - \eta_g}{\eta_g}
+\tag{91}
+$$
+
+**Equation 92, Breguet Range Summed over Refuelling Segments.**
+Summing the Breguet range of each segment between refuellings gives a total with no limit imposed by the aircraft itself.
+
+$$
+R_{\text{refuelled}} = \frac{V}{c_t} \frac{L}{D} \sum_{i} \ln \left( \frac{m_{i}}{m_{f,i}} \right)
+\tag{92}
+$$
+
+### Notation
+
+- $E_f$, the energy released per fission
+- $E_{\text{fission}}$, the energy released per kilogram of uranium-235 fissioned
+- $\dot{N}_f$, the fission rate
+- $P$, the reactor thermal power
+- $F$, the thrust
+- $\text{TSFC}$, the thrust specific fuel consumption
+- $k_{\text{eff}}$, the effective neutron multiplication factor
+- $P_{\text{NL}}$, the neutron non-leakage probability
+- $B^{2}$, the geometric buckling of the core
+- $M^{2}$, the neutron migration area
+- $W$, the aircraft weight
+- $S$, the wing reference area
+- $\eta_{\text{overall}}$, the overall efficiency of the propulsion system
+- $S_\gamma$, the gamma source strength in photons per second
+- $S_n$, the fast neutron source strength in neutrons per second
+- $\nu$, the mean number of neutrons released per fission
+- $\dot{D}$, the dose rate
+- $\dot{D}_0$, the permitted crew dose rate
+- $\mu$, the linear attenuation coefficient of the gamma shield
+- $B$, the photon buildup factor
+- $x$, the shield thickness
+- $r$, the distance from reactor to crew
+- $\varphi$, the photon fluence rate
+- $\mathcal{A}$, the attenuation the shield must supply
+- $\Sigma_R$, the macroscopic fast neutron removal cross-section
+- $\varphi_n$, the fast neutron flux
+- $\rho_s$, the density of the reactor shield material
+- $\lambda$, the structural mass per metre of separation, and in the activation relation the decay constant of argon-41
+- $r^{*}$, the optimum separation between reactor and crew
+- $T_3$, the compressor discharge temperature
+- $T_4$, the turbine inlet temperature
+- $\pi_c$, the compressor pressure ratio
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $A_{\text{fuel}}$, the heated fuel element surface area
+- $\varepsilon$, the heat exchanger effectiveness
+- $\mathrm{NTU}$, the number of transfer units
+- $P_{\text{decay}}$, the decay heat power after shutdown
+- $\Phi_n$, the fast neutron fluence
+- $\alpha_T$, the temperature coefficient of reactivity
+- $\eta_g$, the gravimetric index of a hydrogen tank
+- $m_{\text{fix}}$, the mass of a fixed installation that performs no work during the mission
 
 ## References
 

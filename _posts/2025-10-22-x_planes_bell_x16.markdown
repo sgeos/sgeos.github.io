@@ -25,7 +25,10 @@ The X-16 has no research question, because it was not a research aircraft. Sayin
 
 What the aeroplane had instead was a requirement. By March 1953 Major John Seaberg of the Wright Air Development Center had turned the idea of an aeroplane that could photograph the Soviet Union from an altitude at which it could not be intercepted into a request for proposals, which [the declassified history of the Central Intelligence Agency, the CIA,][ref_pedlow_welzenbach_1992_ch1] quotes as calling for an operational radius of 1,500 nautical miles and an optimum subsonic cruise at 70,000 feet or higher. A radius is half a round trip, so the unrefuelled distance the requirement implied is
 
-$$2 \times 1{,}500 = 3{,}000\ \text{nmi}$$
+$$
+2 \times 1{,}500 = 3{,}000\ \text{nmi}
+\tag{1}
+$$
 
 which agrees in number with the 3,000 mile unrefuelled range that [the inventory of X-vehicles published by the National Aeronautics and Space Administration, NASA,][ref_american_x_vehicles] records as predicted for the production aircraft, although the inventory does not say which mile it means. Bell, Fairchild, and Martin received study contracts beginning on 1 July 1953, according to [Sloop's NASA history][ref_sloop_1978], under a project that [the Office of Air Force History's encyclopedia][ref_knaack_1988] numbers MX-2147. All three had submitted by January 1954, and the Bell design was Model 67, later the X-16, with a maximum altitude of 69,500 feet, in [the CIA history][ref_pedlow_welzenbach_1992_ch1].
 
@@ -65,15 +68,24 @@ That context matters for judging the cancellation. The X-16 was not cancelled be
 
 Everything below rests on published dimensions from [secondary compilations][ref_x16], because no technical document about the aircraft survives in a public archive. The one exception is the 69,500 foot altitude, which [the CIA history][ref_pedlow_welzenbach_1992_ch1] gives as the Bell design's maximum and which this article calls the design altitude. Those figures are internally consistent, and confirming that before relying on them takes three computed relations. Aspect ratio is span squared over area,
 
-$$A = \frac{b^{2}}{S} = \frac{114.83^{2}}{1{,}099} = 12.00$$
+$$
+A = \frac{b^{2}}{S} = \frac{114.83^{2}}{1{,}099} = 12.00
+\tag{2}
+$$
 
 against a quoted 11.9. Wing loading is weight over area,
 
-$$\frac{W}{S} = \frac{36{,}124}{1{,}099} = 32.87\ \text{lb/ft}^{2}$$
+$$
+\frac{W}{S} = \frac{36{,}124}{1{,}099} = 32.87\ \text{lb/ft}^{2}
+\tag{3}
+$$
 
 against a quoted 33. Thrust to weight is the ratio of the two quoted forces,
 
-$$\frac{T}{W} = \frac{20{,}000}{36{,}124} = 0.554$$
+$$
+\frac{T}{W} = \frac{20{,}000}{36{,}124} = 0.554
+\tag{4}
+$$
 
 against a quoted 0.55. **The specification set is self-consistent to rounding, which is evidence that it descends from one real document even though that document is not available.**
 
@@ -81,81 +93,138 @@ against a quoted 0.55. **The specification set is self-consistent to rounding, w
 
 Let $z$ be geopotential altitude, $T$ temperature, $p$ pressure, and $\rho$ density. In the isothermal layer between 11 and 20 kilometres the pressure falls exponentially,
 
-$$p(z) = p_{11} \exp\left(-\frac{g_0 (z - z_{11})}{R T_{11}}\right)$$
+$$
+p(z) = p_{11} \exp\left(-\frac{g_0 (z - z_{11})}{R T_{11}}\right)
+\tag{5}
+$$
 
 and above 20 kilometres the temperature rises again at $\lambda = 0.001$ kelvin per metre, giving
 
-$$p(z) = p_{20} \left(\frac{T_{20} + \lambda (z - z_{20})}{T_{20}}\right)^{-g_0 / (R \lambda)}$$
+$$
+p(z) = p_{20} \left(\frac{T_{20} + \lambda (z - z_{20})}{T_{20}}\right)^{-g_0 / (R \lambda)}
+\tag{6}
+$$
 
 with density following from the ideal gas law,
 
-$$\rho = \frac{p}{R T}$$
+$$
+\rho = \frac{p}{R T}
+\tag{7}
+$$
 
 and the speed of sound from the isentropic relation,
 
-$$a = \sqrt{\gamma R T}$$
+$$
+a = \sqrt{\gamma R T}
+\tag{8}
+$$
 
 Evaluated at the design altitude of 69,500 feet, which is 21.184 kilometres, this gives $T = 217.83$ kelvin, $p = 4{,}545.0$ pascals, and $\rho = 0.07269$ kilogrammes per cubic metre. The density ratio against sea level is
 
-$$\sigma = \frac{\rho}{\rho_0} = \frac{0.07269}{1.225} = 0.05934$$
+$$
+\sigma = \frac{\rho}{\rho_0} = \frac{0.07269}{1.225} = 0.05934
+\tag{9}
+$$
 
 **The aeroplane was required to fly where the air is one seventeenth as dense as at sea level.** The speed of sound there follows from the same temperature,
 
-$$a = \sqrt{1.4 \times 287.05 \times 217.83} = 295.87\ \text{m/s}$$
+$$
+a = \sqrt{1.4 \times 287.05 \times 217.83} = 295.87\ \text{m/s}
+\tag{10}
+$$
 
 ### Minimum Drag Does Not Depend on Altitude
 
 The whole analysis turns on this relation, so it is derived here instead of quoted. Level flight requires that lift equal weight,
 
-$$W = L = \tfrac{1}{2} \rho V^{2} S C_{L}$$
+$$
+W = L = \tfrac{1}{2} \rho V^{2} S C_{L}
+\tag{11}
+$$
 
 and drag follows from the same dynamic pressure,
 
-$$D = \tfrac{1}{2} \rho V^{2} S C_{D}$$
+$$
+D = \tfrac{1}{2} \rho V^{2} S C_{D}
+\tag{12}
+$$
 
 With a parabolic drag polar,
 
-$$C_D = C_{D0} + \frac{C_L^2}{\pi A e}$$
+$$
+C_D = C_{D0} + \frac{C_L^2}{\pi A e}
+\tag{13}
+$$
 
 where $C_{D0}$ is zero-lift drag, $A$ is aspect ratio, and $e$ is span efficiency, the lift to drag ratio is maximised where the two terms are equal. That occurs at
 
-$$C_L^{*} = \sqrt{C_{D0} \pi A e}$$
+$$
+C_L^{*} = \sqrt{C_{D0} \pi A e}
+\tag{14}
+$$
 
 because setting the derivative of $C_D/C_L$ with respect to lift coefficient equal to zero gives
 
-$$\frac{d}{d C_L}\left(\frac{C_{D0}}{C_L} + \frac{C_L}{\pi A e}\right) = -\frac{C_{D0}}{C_L^{2}} + \frac{1}{\pi A e} = 0$$
+$$
+\frac{d}{d C_L}\left(\frac{C_{D0}}{C_L} + \frac{C_L}{\pi A e}\right) = -\frac{C_{D0}}{C_L^{2}} + \frac{1}{\pi A e} = 0
+\tag{15}
+$$
 
 so that at the optimum the induced drag exactly equals the profile drag,
 
-$$\frac{C_L^{*2}}{\pi A e} = C_{D0}$$
+$$
+\frac{C_L^{*2}}{\pi A e} = C_{D0}
+\tag{16}
+$$
 
 and the maximum ratio itself is
 
-$$\left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi A e}{C_{D0}}}$$
+$$
+\left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi A e}{C_{D0}}}
+\tag{17}
+$$
 
 Taking $C_{D0} = 0.018$ and $e = 0.85$, both of which are assumptions and neither of which was ever published for this aeroplane, the X-16's aspect ratio of 12.00 gives $C_L^{*} = 0.7594$ and
 
-$$\left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi \times 12.00 \times 0.85}{0.018}} = 21.095$$
+$$
+\left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi \times 12.00 \times 0.85}{0.018}} = 21.095
+\tag{18}
+$$
 
 Now the step that matters. Minimum drag is
 
-$$D_{\min} = \frac{W}{(L/D)_{\max}}$$
+$$
+D_{\min} = \frac{W}{(L/D)_{\max}}
+\tag{19}
+$$
 
 and **there is no density in it.** The reason follows in a short derivation. Holding the optimum lift coefficient fixes the required speed as a function of density,
 
-$$V^{*} = \sqrt{\frac{2 (W/S)}{\rho\, C_L^{*}}}$$
+$$
+V^{*} = \sqrt{\frac{2 (W/S)}{\rho\, C_L^{*}}}
+\tag{20}
+$$
 
 so the dynamic pressure at that speed is independent of altitude,
 
-$$\tfrac{1}{2}\rho V^{*2} = \frac{W}{S\, C_L^{*}}$$
+$$
+\tfrac{1}{2}\rho V^{*2} = \frac{W}{S\, C_L^{*}}
+\tag{21}
+$$
 
 and substituting into the drag equation returns weight over lift to drag with the density cancelled,
 
-$$D = \tfrac{1}{2}\rho V^{*2} S C_D = \frac{W C_D}{C_L^{*}} = \frac{W}{(L/D)_{\max}}$$
+$$
+D = \tfrac{1}{2}\rho V^{*2} S C_D = \frac{W C_D}{C_L^{*}} = \frac{W}{(L/D)_{\max}}
+\tag{22}
+$$
 
 **The aeroplane flies faster at altitude to hold the same lift coefficient, and the increase in speed exactly offsets the fall in density.** At the gross weight of 36,124 pounds the minimum drag is
 
-$$D_{\min} = \frac{36{,}124}{21.095} = 1{,}712.4\ \text{lbf}$$
+$$
+D_{\min} = \frac{36{,}124}{21.095} = 1{,}712.4\ \text{lbf}
+\tag{23}
+$$
 
 at every altitude, and at 24,480 pounds it is 1,160.4 pounds force at every altitude. The required speed does change, at 26,000 pounds from 99.5 metres per second at 40,000 feet to 202.6 at the design altitude.
 
@@ -163,23 +232,38 @@ at every altitude, and at 24,480 pounds it is 1,160.4 pounds force at every alti
 
 A turbojet ingests a mass flow proportional to density, so its thrust falls as the air thins. Writing the lapse as a power law,
 
-$$T_{\text{avail}}(z) = T_{\text{SL}} \left(\frac{\rho(z)}{\rho_0}\right)^{n}$$
+$$
+T_{\text{avail}}(z) = T_{\text{SL}} \left(\frac{\rho(z)}{\rho_0}\right)^{n}
+\tag{24}
+$$
 
 The physical definition of a ceiling is the altitude at which the aeroplane can no longer climb, and rate of climb is excess power over weight,
 
-$$P_{s} = \frac{(T - D) V}{W}$$
+$$
+P_{s} = \frac{(T - D) V}{W}
+\tag{25}
+$$
 
 so the absolute ceiling is where that vanishes. Evaluated at 26,000 pounds and the solved lapse, specific excess power falls from 3,117 feet per minute at 40,000 feet to 971 at 62,000 and 279 at 69,500, as the aeroplane arrives at its limit. Setting $P_s = 0$ requires thrust to equal drag, and since minimum drag does not move, the ceiling is where available thrust has fallen to meet it,
 
-$$T_{\text{SL}} \sigma^{n} = \frac{W}{(L/D)_{\max}}$$
+$$
+T_{\text{SL}} \sigma^{n} = \frac{W}{(L/D)_{\max}}
+\tag{26}
+$$
 
 which rearranges to a density ratio and therefore to an altitude,
 
-$$\sigma_{\text{ceiling}} = \left(\frac{W}{T_{\text{SL}} (L/D)_{\max}}\right)^{1/n}$$
+$$
+\sigma_{\text{ceiling}} = \left(\frac{W}{T_{\text{SL}} (L/D)_{\max}}\right)^{1/n}
+\tag{27}
+$$
 
 Because the exponent is close to one, the ceiling density ratio is very nearly proportional to weight,
 
-$$\sigma_{\text{ceiling}} \propto W^{1/n} \approx W$$
+$$
+\sigma_{\text{ceiling}} \propto W^{1/n} \approx W
+\tag{28}
+$$
 
 **The ceiling is a function of instantaneous weight.** No consequence in the article matters more. It is not a subtlety. It means an aeroplane of this kind does not have a ceiling. It has a ceiling at a weight, and since it burns fuel continuously, its ceiling rises throughout the flight. The performance of turbojet aircraft in these terms is set out in [Dommasch et al. 1959][research_dommasch_1959].
 
@@ -201,15 +285,24 @@ At its take-off weight the X-16 could not have reached sixty-two thousand feet. 
 
 The corner is the altitude where the stalling speed in true airspeed rises to meet the speed at which the wing begins to buffet. Stalling speed follows from the lift equation,
 
-$$V_{\text{stall}} = \sqrt{\frac{2 (W/S)}{\rho C_{L\max}}}$$
+$$
+V_{\text{stall}} = \sqrt{\frac{2 (W/S)}{\rho C_{L\max}}}
+\tag{29}
+$$
 
 and dividing by the local speed of sound gives a stalling Mach number that rises as density falls,
 
-$$M_{\text{stall}}(z) = \frac{1}{a(z)} \sqrt{\frac{2 (W/S)}{\rho(z) C_{L\max}}}$$
+$$
+M_{\text{stall}}(z) = \frac{1}{a(z)} \sqrt{\frac{2 (W/S)}{\rho(z) C_{L\max}}}
+\tag{30}
+$$
 
 Both coefficients in that expression vary with Mach number and Reynolds number. Treating them as constants is the crudest assumption in this article, and it is discussed under its limitations. Maximum lift and stalling behaviour were measured on complete models and on sections designed for high lift, and are now computed, in [Pepper and Foster 1946][research_pepper_foster_1946], [Bingham and Chen 1972][research_bingham_chen_1972], [Anderson et al. 1984][research_anderson_1984], and the measured dependence on Mach and Reynolds number is set out with the wing below. The corner is where $M_{\text{stall}} = M_{\text{buffet}}$, and setting the two equal and solving for density gives a closed form,
 
-$$\rho_{\text{corner}} = \frac{2 (W/S)}{C_{L\max}\left(M_{\text{buffet}}\, a\right)^{2}}$$
+$$
+\rho_{\text{corner}} = \frac{2 (W/S)}{C_{L\max}\left(M_{\text{buffet}}\, a\right)^{2}}
+\tag{31}
+$$
 
 **which is linear in wing loading, exactly as the thrust ceiling is.** That fact decides the comparison below, because two limits that both scale linearly with weight move together as fuel burns. Taking $C_{L\max} = 1.2$ and $M_{\text{buffet}} = 0.75$, both again assumptions, the two ceilings compare as follows.
 
@@ -226,11 +319,17 @@ The margin nonetheless widens by 279 feet across the whole fuel burn, from 14,05
 
 The width of the usable speed band follows directly,
 
-$$\Delta M = M_{\text{buffet}} - M_{\text{stall}}$$
+$$
+\Delta M = M_{\text{buffet}} - M_{\text{stall}}
+\tag{32}
+$$
 
 At 69,500 feet and 26,000 pounds the stalling Mach number is 0.5447 against a buffet limit of 0.75, so
 
-$$\Delta M = 0.75 - 0.5447 = 0.2053$$
+$$
+\Delta M = 0.75 - 0.5447 = 0.2053
+\tag{33}
+$$
 
 which in true airspeed is $\Delta M \cdot a = 118.1$ knots. A band that wide is not a corner, and **the X-16 was a thrust-limited aeroplane that the popular framing would have described as corner-limited.**
 
@@ -244,11 +343,17 @@ Two things in that sequence matter here. **The boundary was being measured in fl
 
 That conclusion needs immediate qualification, because it appears to contradict the [U-2's][ref_u2] well-known reputation for having only a few knots between stall and buffet. Both statements are true and the difference is which airspeed is being quoted. A pilot's instrument reads something close to equivalent airspeed, which is true airspeed scaled by the square root of the density ratio,
 
-$$V_{e} = V \sqrt{\sigma}$$
+$$
+V_{e} = V \sqrt{\sigma}
+\tag{34}
+$$
 
 At the design altitude $\sqrt{\sigma} = 0.2436$, so the same band measured on the instrument is
 
-$$\Delta V_{e} = \Delta M \cdot a \sqrt{\sigma} = 118.1 \times 0.2436 = 28.8\ \text{kt}$$
+$$
+\Delta V_{e} = \Delta M \cdot a \sqrt{\sigma} = 118.1 \times 0.2436 = 28.8\ \text{kt}
+\tag{35}
+$$
 
 | Altitude, ft | Band, kt true airspeed | Band, kt equivalent airspeed |
 |---|---|---|
@@ -264,11 +369,17 @@ That distinction depends on the instrument being right, which at very low dynami
 
 The [quoted service ceiling][ref_x16] for the X-16 is 71,832 feet. Inverting the ceiling relation for the weight that would produce a given density ratio,
 
-$$W = T_{\text{SL}}\, \sigma^{n} \left(\frac{L}{D}\right)_{\max}$$
+$$
+W = T_{\text{SL}}\, \sigma^{n} \left(\frac{L}{D}\right)_{\max}
+\tag{36}
+$$
 
 and evaluating at the density ratio for 71,832 feet with $n = 1$ gives
 
-$$W = 20{,}000 \times 0.05291 \times 21.095 = 22{,}325\ \text{lb}$$
+$$
+W = 20{,}000 \times 0.05291 \times 21.095 = 22{,}325\ \text{lb}
+\tag{37}
+$$
 
 **The empty weight is 23,280 pounds.** The relation demands a weight 955 pounds below the weight of the aeroplane with nothing in it, which is impossible.
 
@@ -276,7 +387,10 @@ Adjusting the quoted ceiling would be the wrong response. The same failure lands
 
 The sensitivity study names the candidate. Across a plausible range of zero-lift drag from 0.014 to 0.030 the ceiling moves 7,786 feet. Across a plausible range of the lapse exponent from 0.70 to 1.15 it moves 32,142 feet. The ratio of the two spans is
 
-$$\frac{\Delta z_{n}}{\Delta z_{C_{D0}}} = \frac{32{,}142}{7{,}786} = 4.13$$
+$$
+\frac{\Delta z_{n}}{\Delta z_{C_{D0}}} = \frac{32{,}142}{7{,}786} = 4.13
+\tag{38}
+$$
 
 **The exponent dominates everything else in the calculation by a factor of four.**
 
@@ -284,7 +398,10 @@ $$\frac{\Delta z_{n}}{\Delta z_{C_{D0}}} = \frac{32{,}142}{7{,}786} = 4.13$$
 
 Inverting the relation for the exponent and not for the weight,
 
-$$n = \frac{\ln\left(W / \left[T_{\text{SL}} (L/D)_{\max}\right]\right)}{\ln \sigma_{\text{quoted}}}$$
+$$
+n = \frac{\ln\left(W / \left[T_{\text{SL}} (L/D)_{\max}\right]\right)}{\ln \sigma_{\text{quoted}}}
+\tag{39}
+$$
 
 and asking what each aeroplane requires to reach its quoted ceiling, at a common end-of-mission weight of empty plus 1,200 pounds for pilot, payload, and reserve, gives the following.
 
@@ -298,7 +415,10 @@ and asking what each aeroplane requires to reach its quoted ceiling, at a common
 
 The U-2A row uses the [compilation][ref_u2_specs_blackbirds] thrust of 10,500 pounds. [The CIA history][ref_pedlow_welzenbach_1992_ch2] gives the J57-P-37 that the first U-2s flew with as 10,200 pounds at sea level, and on that figure the required exponent is
 
-$$n = \frac{\ln\left(12{,}900 / \left[10{,}200 \times 19.93\right]\right)}{\ln 0.05789} = 0.9678$$
+$$
+n = \frac{\ln\left(12{,}900 / \left[10{,}200 \times 19.93\right]\right)}{\ln 0.05789} = 0.9678
+\tag{40}
+$$
 
 where 0.05789 is the density ratio at 70,000 feet and 19.93 is the U-2A's maximum lift to drag ratio from the same polar. **On the primary figure the X-16 and the U-2A agree to within 0.1 percent**, so the history strengthens the agreement. The mean and everything below keep the compilation value.
 
@@ -306,7 +426,10 @@ That agreement is the article's strongest single result. Three aeroplanes, desig
 
 At the solved exponent the picture changes materially,
 
-$$T_{\text{avail}}(69{,}500\ \text{ft}) = 20{,}000 \times 0.05934^{0.9378} = 1{,}414\ \text{lbf}$$
+$$
+T_{\text{avail}}(69{,}500\ \text{ft}) = 20{,}000 \times 0.05934^{0.9378} = 1{,}414\ \text{lbf}
+\tag{41}
+$$
 
 against 1,187 pounds force at $n = 1$, a ratio of 1.19. **That nineteen percent is the entire margin the aeroplane flies on.**
 
@@ -325,17 +448,26 @@ Reworking the weight table at the solved exponent gives the flight as aircraft o
 
 Solving for the crossing, **the X-16 first reaches its design altitude at 29,839 pounds**, having burned
 
-$$\Delta W = 36{,}124 - 29{,}839 = 6{,}285\ \text{lb}$$
+$$
+\Delta W = 36{,}124 - 29{,}839 = 6{,}285\ \text{lb}
+\tag{42}
+$$
 
 of fuel, which as a fraction of the disposable load is
 
-$$\frac{6{,}285}{36{,}124 - 23{,}280} = 0.489$$
+$$
+\frac{6{,}285}{36{,}124 - 23{,}280} = 0.489
+\tag{43}
+$$
 
 or 48.9 percent. It arrives at the altitude it was built for with a little over half its disposable load remaining.
 
 At a fixed lift to drag ratio fuel flow is proportional to weight, as the range section below shows, so weight decays exponentially in time and the fraction of the cruise elapsed at the crossing is
 
-$$\frac{t_{x}}{t_{\text{total}}} = \frac{\ln(W_0/W_x)}{\ln(W_0/W_1)} = \frac{\ln(36{,}124/29{,}839)}{\ln(36{,}124/24{,}480)} = 0.491$$
+$$
+\frac{t_{x}}{t_{\text{total}}} = \frac{\ln(W_0/W_x)}{\ln(W_0/W_1)} = \frac{\ln(36{,}124/29{,}839)}{\ln(36{,}124/24{,}480)} = 0.491
+\tag{44}
+$$
 
 where $W_0$, $W_x$ and $W_1$ are the gross, crossing and end weights. **On an out-and-back sortie the target lies near the midpoint, so the aeroplane reaches 69,500 feet just before the target.** That is consistent with [the CIA history][ref_pedlow_welzenbach_1992_ch1], which quotes the requirement as cruise at 70,000 feet or higher over the target and gives 69,500 feet as the Bell design's maximum altitude, not as an altitude held throughout the flight.
 
@@ -349,23 +481,38 @@ Each system below is dimensioned against the ceiling relation, and the ordering 
 
 The ceiling relation contains the wing only through the maximum lift to drag ratio, and that depends on aspect ratio under a square root,
 
-$$\left(\frac{L}{D}\right)_{\max} \propto \sqrt{A}$$
+$$
+\left(\frac{L}{D}\right)_{\max} \propto \sqrt{A}
+\tag{45}
+$$
 
 so doubling aspect ratio multiplies the ratio by the square root of two,
 
-$$\frac{(L/D)_{\max}(2A)}{(L/D)_{\max}(A)} = \sqrt{2} = 1.4142$$
+$$
+\frac{(L/D)_{\max}(2A)}{(L/D)_{\max}(A)} = \sqrt{2} = 1.4142
+\tag{46}
+$$
 
 which is a benefit of 41.42 percent. Through the ceiling relation that is worth a fixed increment in density ratio. For this reason every serious answer to the requirement had a very long wing. The X-16's aspect ratio of 12.00 is the highest of the three, and it sets both the induced drag factor,
 
-$$\frac{1}{\pi A e} = \frac{1}{\pi \times 12.00 \times 0.85} = 0.03121$$
+$$
+\frac{1}{\pi A e} = \frac{1}{\pi \times 12.00 \times 0.85} = 0.03121
+\tag{47}
+$$
 
 and the finite-wing lift curve slope that the gust calculation below needs,
 
-$$a = \frac{2\pi A}{A + 2} = \frac{2\pi \times 12.00}{14.00} = 5.386\ \text{per radian}$$
+$$
+a = \frac{2\pi A}{A + 2} = \frac{2\pi \times 12.00}{14.00} = 5.386\ \text{per radian}
+\tag{48}
+$$
 
 The aerodynamics of a long wing were well understood by the time the requirement was written, and the span-loading and induced-drag literature that supports the relation above runs [Boddy 1946][research_boddy_1946], [Rathert et al. 1949][research_rathert_1949], [Cone 1961][research_clarenc_d_cone_1961], [Harry and Trobaugh 1966][research_harry_trobaugh_1966], [Turriziani et al. 1980][research_turriziani_1980], [Kida 1982][research_kida_1982], [Wentz and Nagati 1975][research_wentz_nagati_1975]. The cost is structural weight, which grows faster than the benefit. Wing weight estimation of the period is set out in [Solvey 1951][research_solvey_1951], and for a wing of given loading and thickness ratio the bending material required scales roughly as
 
-$$W_{\text{wing}} \propto \frac{n_{\text{ult}} W b^{3}}{S t/c}$$
+$$
+W_{\text{wing}} \propto \frac{n_{\text{ult}} W b^{3}}{S t/c}
+\tag{49}
+$$
 
 so weight grows with the cube of span at fixed area. Weight estimation of this kind was later formalised, in [Torenbeek 1972][research_torenbeek_1972], [Hayase 1974b][research_hayase_1974], [Hayase 1974a][research_hayase_1974_2], [Samuels 1982][research_samuels_1982], [Miura and Shyu 1986][research_miura_shyu_1986], [Mason and Iglesias 2001][research_mason_iglesias_2001], [Delgado Regis et al. 2004][research_regis_2004], [Sinha et al. 2021][research_sinha_2021]. **Aspect ratio pays under a square root and charges under a cube.** That trade explains why these aeroplanes converged on a particular slenderness instead of growing wings without limit, and why the wing had to be built lighter and more flexibly than jet practice of the period allowed.
 
@@ -381,19 +528,31 @@ None of that can be computed here, because no stiffness distribution for this ai
 
 Low wing loading is what allows a wing to hold a useful lift coefficient in thin air. It is also, exactly and inversely, what makes the aeroplane sensitive to vertical gusts, and deriving the reason takes only a few lines. A vertical gust of velocity $U$ striking an aeroplane flying at speed $V$ changes the angle of attack by
 
-$$\Delta \alpha = \frac{U}{V}$$
+$$
+\Delta \alpha = \frac{U}{V}
+\tag{50}
+$$
 
 which changes the lift by
 
-$$\Delta L = \tfrac{1}{2} \rho V^{2} S\, a\, \frac{U}{V} = \tfrac{1}{2} \rho V S\, a\, U$$
+$$
+\Delta L = \tfrac{1}{2} \rho V^{2} S\, a\, \frac{U}{V} = \tfrac{1}{2} \rho V S\, a\, U
+\tag{51}
+$$
 
 and dividing by weight gives the load factor increment. One power of speed has already cancelled, leaving the result linear in speed. For a sharp-edged gust of velocity $U_{de}$ at equivalent airspeed $V_e$ with lift curve slope $a$,
 
-$$\Delta n = \frac{\rho_0 V_e a U_{de}}{2 (W/S)}$$
+$$
+\Delta n = \frac{\rho_0 V_e a U_{de}}{2 (W/S)}
+\tag{52}
+$$
 
 The wing loading sits in the denominator. **The property that gains altitude brings gust sensitivity in the same stroke and cannot be separated from it.** Comparing two aeroplanes, every term cancels except two,
 
-$$\frac{\Delta n_{1}}{\Delta n_{2}} = \frac{a_{1} / (W/S)_{1}}{a_{2} / (W/S)_{2}}$$
+$$
+\frac{\Delta n_{1}}{\Delta n_{2}} = \frac{a_{1} / (W/S)_{1}}{a_{2} / (W/S)_{2}}
+\tag{53}
+$$
 
 so the ratio is fixed by aspect ratio and wing loading alone so proportions set it and size does not. The [X-13][related_post_a310_ryan_x13] article made the same structural observation about its own crossover. Evaluating at an equivalent airspeed of 100 metres per second and a derived gust of 15 metres per second, using the finite-wing lift curve slope $a = 2\pi A / (A + 2)$,
 
@@ -407,21 +566,33 @@ so the ratio is fixed by aspect ratio and wing loading alone so proportions set 
 
 Evaluating that ratio directly against the fighter,
 
-$$\frac{\Delta n_{\text{X-16}}}{\Delta n_{\text{fighter}}} = \frac{5.386 / 1{,}573.8}{3.623 / 3{,}613.6} = 3.41$$
+$$
+\frac{\Delta n_{\text{X-16}}}{\Delta n_{\text{fighter}}} = \frac{5.386 / 1{,}573.8}{3.623 / 3{,}613.6} = 3.41
+\tag{54}
+$$
 
 **The X-16 at gross weight sees 3.41 times the gust load increment of a contemporary fighter, and 4.74 times it when light.** The gust environment these aircraft had to survive is documented in [Coleman and Steiner 1953][research_coleman_steiner_1953], the effect of wing twist on the resulting loads in [Hoblit 1954][research_hoblit_1954], the turbulence itself in [Breuhaus 1961][research_breuhaus_1961], and the earliest attempt to design the sensitivity out in [Shufflebarger 1941][research_shufflebarger_1941]. The subject grew from the sharp-edged gust used above into a statistical description of continuous turbulence and then into a design discipline, across [Diederich 1956][research_diederich_1956], [Cooney and Schott 1956][research_cooney_schott_1956], [Croom and Huffman 1957][research_croom_huffman_1957], [Diederich 1957][research_diederich_1957], [Lappe 1965][research_lappe_1965], [Austin and William H. 1967][research_austin_h_1967], [Houbolt 1967][research_houbolt_1967], [Gangsaas et al. 1981][research_gangsaas_1981], [Rao 1985][research_rao_1985], [Liebst et al. 1986][research_liebst_1986], [Hoppe 2000][research_hoppe_2000], [Haddadpour et al. 2005][research_haddadpour_2005], [Fritts 2008][research_fritts_2008], [Stanford 2020][research_stanford_2020], [Khalil and Fezans 2020][research_khalil_fezans_2021], [Li and Qin 2021b][research_li_qin_2021]. **The relation this article uses is the crudest member of that family and is used deliberately, because the alleviation factor a better model would supply scales the answer without changing the inverse dependence on wing loading that the argument rests on.**
 
 This is not an abstract concern. Martin designed the RB-57D wing for 500 flight hours, according to the type's [compiled service history][ref_rb57d]. The [fact sheet of the National Museum of the United States Air Force][ref_nmusaf_rb57d] gives the RB-57D a combat radius of approximately 2,000 miles and a cruising speed of approximately 420 knots at 65,000 feet. Reading the miles as statute miles, which is an assumption because the fact sheet does not say, the radius is
 
-$$R = \frac{2{,}000 \times 1{,}609.344}{1{,}852} = 1{,}738\ \text{nmi}$$
+$$
+R = \frac{2{,}000 \times 1{,}609.344}{1{,}852} = 1{,}738\ \text{nmi}
+\tag{55}
+$$
 
 and a full-radius sortie out and back is
 
-$$t_{\text{sortie}} = \frac{2R}{V} = \frac{2 \times 1{,}738}{420} = 8.28\ \text{h}$$
+$$
+t_{\text{sortie}} = \frac{2R}{V} = \frac{2 \times 1{,}738}{420} = 8.28\ \text{h}
+\tag{56}
+$$
 
 so the design life in sorties is
 
-$$N = \frac{500}{8.28} = 60.4$$
+$$
+N = \frac{500}{8.28} = 60.4
+\tag{57}
+$$
 
 and **the wing was therefore good for about 60 full-radius missions.** The museum's fact sheet records a number of accidents in which the wing broke off at the outboard engine nacelle mounting points. The compiled history adds that an RB-57D lost its wing at fifty thousand feet in 1964 and the survivors were grounded, with the last airframes retired in 1979 for wing spar fractures. The bill for a light flexible wing was presented and it was paid. Fatigue under spectrum loading, which is the mechanism, has a long literature in [Douglas Aircraft Co Long Beach Ca 1963][research_ca_1963], [Nordby and Crisman 1964][research_nordby_crisman_1964], [Smith 1964][research_smith_1964], [Grover 1966][research_grover_1966], [Ryder and Walker 1976][research_ryder_walker_1976], [Jones and Eftis 1981][research_jones_eftis_1981], [Wert et al. 1983][research_wert_1983], [Ghonem 1987][research_ghonem_1987], and **the RB-57D's failure is the case those methods exist to prevent, not an anomaly.**
 
@@ -435,43 +606,70 @@ By the ceiling analysis the aeroplane lives or dies on the lapse exponent, so th
 
 The mechanism that does is ram recovery. Sea level static thrust is quoted at zero forward speed, so the inlet sees ambient static pressure. At altitude the aeroplane must fly faster to hold its lift coefficient, and at the design condition it is doing Mach 0.685, so the inlet sees the total pressure,
 
-$$\frac{p_{t}}{p} = \left(1 + \frac{\gamma - 1}{2} M^{2}\right)^{\gamma/(\gamma-1)} = \left(1 + 0.2 \times 0.685^{2}\right)^{3.5} = 1.3685$$
+$$
+\frac{p_{t}}{p} = \left(1 + \frac{\gamma - 1}{2} M^{2}\right)^{\gamma/(\gamma-1)} = \left(1 + 0.2 \times 0.685^{2}\right)^{3.5} = 1.3685
+\tag{58}
+$$
 
 If thrust follows inlet total pressure rather than ambient static, then
 
-$$\frac{T}{T_{\text{SL}}} = \sigma \times \frac{p_{t}}{p} = 0.05934 \times 1.3685 = 0.08120$$
+$$
+\frac{T}{T_{\text{SL}}} = \sigma \times \frac{p_{t}}{p} = 0.05934 \times 1.3685 = 0.08120
+\tag{59}
+$$
 
 and expressing that as an effective exponent on the density ratio alone,
 
-$$n_{\text{ram}} = \frac{\ln 0.08120}{\ln 0.05934} = 0.8889$$
+$$
+n_{\text{ram}} = \frac{\ln 0.08120}{\ln 0.05934} = 0.8889
+\tag{60}
+$$
 
 The relation above assumes perfect recovery, which no real inlet achieves. Inlet and diffuser pressure recovery, subsonic and supersonic, is a separately measured subject, in [Conrad and Sobolewski 1950][research_conrad_sobolewski_1950], [Connors and Woollett 1952][research_connors_woollett_1952], [Allen and Beke 1953][research_allen_beke_1953], [Fox 1971][research_fox_1971], [Stull and Velkoff 1972][research_stull_velkoff_1972], [Glasgow et al. 1980][research_glasgow_1980], [Peacock 1981][research_peacock_1981], [Kerkam 1982][research_kerkam_1982], [Wendt 2000][research_wendt_2000], [Carlin et al. 2003][research_carlin_2003], [Baydar et al. 2017][research_baydar_2017], and a recovery below unity moves the prediction toward the observed value from the same direction as the compressor losses discussed next. **Ram recovery alone predicts 0.8889 against the 0.9378 the three aircraft require, so it over-explains the effect.** The realised benefit is
 
-$$\frac{1 - 0.9378}{1 - 0.8889} = 0.560$$
+$$
+\frac{1 - 0.9378}{1 - 0.8889} = 0.560
+\tag{61}
+$$
 
 or 56.0 percent of the ideal, which means **44 percent of the ram benefit is consumed by losses elsewhere in the engine.** Compressor Reynolds number degradation is the obvious candidate for those losses, and [Wallner and Fleming 1949][research_wallner_fleming_1949] is the treatment of it. Taking a representative first-stage blade chord of 0.06 metres and 150 metres per second of axial velocity, the blade Reynolds number after ram is
 
-$$Re_{\text{blade}} = \frac{\rho_{t} V_{a} c_{\text{blade}}}{\mu} = 6.16 \times 10^{5}\ \text{at sea level}$$
+$$
+Re_{\text{blade}} = \frac{\rho_{t} V_{a} c_{\text{blade}}}{\mu} = 6.16 \times 10^{5}\ \text{at sea level}
+\tag{62}
+$$
 
 falling to $5.32 \times 10^{4}$ at the design altitude, a reduction of 11.58 times. **Stage efficiency degrades measurably in the subcritical regime below a few times $10^{5}$, and the design-altitude value is well under that**, so a substantial loss of efficiency is what should be expected. The stage-level measurements behind that threshold appear in [Heidelberg and Ball 1972][research_heidelberg_ball_1972], [Roberts 1978][research_roberts_1978], [Skoch and Moore 1987][research_skoch_moore_1987]. The two mechanisms act in opposite directions and the observed exponent is what survives their difference. The supporting experimental programme is the altitude wind tunnel series of the National Advisory Committee for Aeronautics, the NACA, which measured what engines did at simulated altitude rather than what cycle analysis predicted, including [Dietz and Kuenzig 1947][research_dietz_kuenzig_1947], [Campbell 1948][research_campbell_1948], [Sanders and Palasics 1948][research_sanders_palasics_1948], [Hawkins and Meyer 1948b][research_hawkins_meyer_1948], and [Conrad and Sobolewski 1949][research_conrad_sobolewski_1949]. Because of that programme and its successors, the lapse exponent is measured, not derived, and its continuation includes [Hawkins and Meyer 1948a][research_hawkins_meyer_1948_2], [Johnson and Meyer 1950][research_johnson_meyer_1950], [Jansen and Thorman 1950][research_jansen_thorman_1950], [Prince and McAulay 1950][research_prince_mcaulay_1950], [Vincent and Gale 1951][research_vincent_gale_1951], [Conrad and McAulay 1951][research_conrad_mcaulay_1951], [Braithwaite et al. 1973][research_braithwaite_1973], [Davenport et al. 1974][research_davenport_1974], [Roberts et al. 1975][research_roberts_1975], [Tate and Gillard 1975][research_tate_gillard_1975], [Roberts et al. 1976][research_roberts_1976], [Tian-yu et al. 1981][research_tian_yu_1981], [Straight and Cullom 1982][research_straight_cullom_1982], [Baer-Riedhart 1982][research_baer_riedhart_1982], [Kowalski 1988][research_kowalski_1988], [Cyrus et al. 1999][research_cyrus_1999], [Tagashira et al. 2007][research_tagashira_2007], [Davison and Chishty 2011][research_davison_chishty_2011]. **The X-16 was designed while that measurement campaign was still under way.** Combustion at low pressure, which is the other thing that fails at altitude, appears in [Pinkel and Shames 1948][research_pinkel_shames_1948], [Childs and McCafferty 1948][research_childs_mccafferty_1948], and [Manganiello et al. 1948][research_manganiello_1948].
 
 **The J57 itself was measured in the same tunnel, and the measurement qualifies the account above.** [Bloomer and Miller][ref_bloomer_miller_1954] ran a J57-P-1 in the Lewis altitude wind tunnel at Mach 0.81 from 15,000 to 50,000 feet and report that, at rated engine speed, the climb across that range raised specific fuel consumption by 13 percent but did not affect corrected net thrust. Corrected thrust is thrust divided by the inlet total pressure ratio, so an unchanged corrected thrust at a fixed Mach number means that thrust followed inlet total pressure, as the ram relation used above assumes. The Reynolds number losses were present and were measured. Peak outboard compressor efficiency fell from 88.3 to 85.2 percent and inboard from 87.5 to 83.5 percent, combustion efficiency at rated speed fell from 99.4 to 97.1 percent, and corrected airflow at rated speed fell from 163 to 154 pounds per second, a loss of
 
-$$1 - \frac{154}{163} = 0.055$$
+$$
+1 - \frac{154}{163} = 0.055
+\tag{63}
+$$
 
 or 5.5 percent. **On this engine the losses appeared as fuel flow and exhaust temperature, which rose to hold corrected thrust, and not as a loss of thrust.** The report characterises each test condition by a Reynolds number index,
 
-$$\text{RNI} = \frac{\delta}{\varphi\sqrt{\theta}}$$
+$$
+\text{RNI} = \frac{\delta}{\varphi\sqrt{\theta}}
+\tag{64}
+$$
 
 where $\delta$ and $\theta$ are the inlet total pressure and total temperature as ratios to sea level standard values and $\varphi$ is the corresponding ratio of viscosities. The tests spanned indices from 0.858 down to 0.213. Evaluated with the atmosphere and the Sutherland relation used in this article, the index is 0.853 at 15,000 feet and 0.217 at 50,000 feet, against the report's 0.858 and 0.213, and at the design condition of 69,500 feet and Mach 0.685 it is 0.0786, so
 
-$$\frac{0.213}{0.0786} = 2.71$$
+$$
+\frac{0.213}{0.0786} = 2.71
+\tag{65}
+$$
 
 **The design condition lies 2.71 times below the lowest Reynolds number index at which the engine was measured.** Over the range the tunnel reached, the measurements do not support attributing the 44 percent shortfall to Reynolds number losses in thrust, and beyond that range they cannot test the attribution.
 
 The same engine had an operating ceiling of its own. [Wallner and Saari][ref_wallner_saari_1954] report that the J57-P-1 ran without its control at reduced speed up to about 66,000 feet at Mach 0.8, and that with the standard automatic control in operation the altitude operating limit was approximately 59,000 feet. The X-16's design altitude exceeds the controlled limit by
 
-$$69{,}500 - 59{,}000 = 10{,}500\ \text{ft}$$
+$$
+69{,}500 - 59{,}000 = 10{,}500\ \text{ft}
+\tag{66}
+$$
 
 **so the production engine could not run at the design altitude as delivered, and high-altitude modification was a requirement and not a refinement.** The U-2 met the same boundary in flight. [The CIA history][ref_pedlow_welzenbach_1992_ch2] records that the U-2's -37 engine flamed out at 64,000 feet on 22 September 1955, and that flameouts in the climb from 57,000 to 65,000 feet, a region pilots called the badlands, persisted until the -31 became available.
 
@@ -481,11 +679,17 @@ $$69{,}500 - 59{,}000 = 10{,}500\ \text{ft}$$
 
 Chord Reynolds number at the mean geometric chord $c = S/b$ is
 
-$$Re = \frac{\rho V c}{\mu}, \qquad \mu(T) = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}$$
+$$
+Re = \frac{\rho V c}{\mu}, \qquad \mu(T) = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}
+\tag{67}
+$$
 
 with the Sutherland relation for viscosity. The mean geometric chord is area over span,
 
-$$c = \frac{S}{b} = \frac{102.10}{35.001} = 2.917\ \text{m}$$
+$$
+c = \frac{S}{b} = \frac{102.10}{35.001} = 2.917\ \text{m}
+\tag{68}
+$$
 
 and the range across the flight is large.
 
@@ -497,7 +701,10 @@ and the range across the flight is large.
 
 The ratio across the flight is
 
-$$\frac{Re_{\text{SL}}}{Re_{\text{design}}} = \frac{1.997 \times 10^{7}}{2.969 \times 10^{6}} = 6.73$$
+$$
+\frac{Re_{\text{SL}}}{Re_{\text{design}}} = \frac{1.997 \times 10^{7}}{2.969 \times 10^{6}} = 6.73
+\tag{69}
+$$
 
 **The wing operates at design altitude in air giving 6.73 times less Reynolds number than at sea level.** That matters because both maximum lift and profile drag degrade as Reynolds number falls. Low Reynolds number aerodynamics became a design discipline because high-altitude and small-scale aircraft forced it, with a line of work through [Klein 1945][research_klein_1945], [McGhee and Bingham 1972][research_mcghee_bingham_1972], [McGhee and Beasley 1973][research_mcghee_beasley_1973], [McGhee et al. 1975][research_mcghee_1975], [Mueller and Batill 1980][research_mueller_batill_1980], [Nagamatsu 1980][research_nagamatsu_1980], [Carmichael 1981][research_carmichael_1981], [Levin and Shyy 2001][research_levin_shyy_2001], [Mueller and Torres 2001][research_mueller_torres_2001], [Tang 2006][research_tang_2006], [Kerho 2007][research_kerho_2007], [Broeren et al. 2019][research_broeren_2019], [Harris 2020][research_harris_2020], [Liu et al. 2021b][research_liu_2021]. Laminar behaviour and the drag it saves or costs is the closely related subject, in [Runyan and Steers 1980][research_runyan_steers_1980], [Mueller 1984][research_mueller_1984], [Somers 2019][research_somers_2019], [Somers and Maughmer 2022][research_somers_maughmer_2022]. The period evidence for how much degradation to expect is in [Tucker and Quinn 1944][research_tucker_quinn_1944] and, for the interaction with Mach number that governs the corner, in [Stack et al. 1943][research_stack_1943], [Nissen and Gadeberg 1944][research_nissen_gadeberg_1944], [West 1945][research_west_1945], [Spreiter and Steffen 1946a][research_spreiter_steffen_1946], and [Furlong and Fitzpatrick 1947][research_furlong_fitzpatrick_1947]. Sections designed to behave well near the critical Mach number are treated in [Graham 1948][research_graham_1948], and the critical Mach numbers of thin sections in [Pardee and Heaslet 1946][research_pardee_heaslet_1946].
 
@@ -507,15 +714,24 @@ The assumed $C_{D0}$ of 0.018 used throughout is therefore optimistic at altitud
 
 There is an altitude above which ambient pressure falls below the vapour pressure of water at body temperature, so that exposed body fluids boil. It can be computed directly. The saturation vapour pressure follows from the Antoine relation,
 
-$$\log_{10} p_{\text{mmHg}} = A - \frac{B}{C + T}$$
+$$
+\log_{10} p_{\text{mmHg}} = A - \frac{B}{C + T}
+\tag{70}
+$$
 
 with the [standard water coefficients][ref_antoine_equation] $A = 8.07131$, $B = 1730.63$, and $C = 233.426$ over the range that contains body temperature. At 37 degrees Celsius,
 
-$$p_{\text{vap}} = 46.95\ \text{mmHg} = 6{,}260\ \text{Pa}$$
+$$
+p_{\text{vap}} = 46.95\ \text{mmHg} = 6{,}260\ \text{Pa}
+\tag{71}
+$$
 
 and setting the atmosphere's pressure equal to that gives
 
-$$z_{\text{Armstrong}} = 19{,}150\ \text{m} = 62{,}829\ \text{ft}$$
+$$
+z_{\text{Armstrong}} = 19{,}150\ \text{m} = 62{,}829\ \text{ft}
+\tag{72}
+$$
 
 **That is 90.4 percent of the design altitude, so the aeroplane spends its entire working cruise above the limit**, and the cockpit or the suit becomes the only thing between the pilot and the rapid loss of consciousness that exposure above the [Armstrong limit][ref_armstrong_limit] produces. Cabin pressurisation experience of the period is recorded in [Dietz 1952][research_dietz_1952], the physiological envelope in [Raeke 1958][research_raeke_1958], decompression sickness and the denitrogenation procedures used against it in [Middleton 1959][research_middleton_1959], and suit evaluation in [Games et al. 1954][research_games_1954]. The suit, mask, and cabin systems that make flight above the Armstrong limit survivable were developed continuously, as recorded in [Echols 1953][research_echols_1953], [Schroeder 1956][research_schroeder_1956], [Clark (david) CO INC Worcester MA 1960][research_ma_1960], [Redden 1961][research_redden_1961], [FurryY et al. 1962][research_furryy_1962], [Shanahan and Barker 1962][research_shanahan_barker_1962], [Hendler et al. 1964][research_hendler_1964], [Siegel and Lanterman 1968][research_siegel_lanterman_1968], [Taylor 1980][research_taylor_1980], [Reynolds et al. 2001a][research_reynolds_2001], [Reynolds et al. 2001b, Onboard Inert Gas Generation Syste][research_reynolds_2001_2], [Kelly and Pettit 2003][research_kelly_pettit_2003]. **The aeroplane's most demanding subsystem by this measure is the one keeping the pilot conscious, and it is the only one whose failure is fatal within minutes rather than merely mission-ending.**
 
@@ -525,7 +741,10 @@ The flight is also long. At the cruise speed of 430 knots assumed here, the X-16
 
 Altitude is not the objective. Photographs are. Ground sample distance for optics of instantaneous field of view $\theta$ at slant range $h$ is
 
-$$\text{GSD} = h \theta$$
+$$
+\text{GSD} = h \theta
+\tag{73}
+$$
 
 so resolution degrades linearly with the altitude that provides survivability. At a period-plausible 5 microradians the trade reads as follows.
 
@@ -537,15 +756,24 @@ so resolution degrades linearly with the altitude that provides survivability. A
 
 Two limits sit underneath that. The optics cannot resolve better than diffraction allows,
 
-$$\theta_{\text{diff}} = \frac{1.22 \lambda}{D}$$
+$$
+\theta_{\text{diff}} = \frac{1.22 \lambda}{D}
+\tag{74}
+$$
 
 which for a twelve inch aperture at 550 nanometres is 2.201 microradians, or 0.047 metres on the ground from the design altitude. **The assumed 5 microradians is 2.27 times the diffraction floor, so the period limit was film and motion rather than the lens.** Motion is the sharper constraint, because the aeroplane is moving at 202.6 metres per second and smear is
 
-$$\delta = V t_{\text{exp}}$$
+$$
+\delta = V t_{\text{exp}}
+\tag{75}
+$$
 
 so holding smear below one ground sample distance requires
 
-$$t_{\text{exp}} < \frac{0.106}{202.6} = 0.52\ \text{ms}$$
+$$
+t_{\text{exp}} < \frac{0.106}{202.6} = 0.52\ \text{ms}
+\tag{76}
+$$
 
 **Every foot of altitude is paid for in resolution, and the payment is linear while the survivability benefit is not.** The photography of objects at these altitudes is treated in [Nelson and Hamsher 1950][research_nelson_hamsher_1950], the sensitised materials of aerial reconnaissance in [Mallios 1952][research_mallios_1952], the assessment methods in [Toth and White 1949][research_toth_white_1949], and the later formalisation of image quality in [Roetling et al. 1963][research_roetling_1963]. Sensing from an aeroplane developed continuously from film through electro-optical systems to modern remote sensing, and the sequence is [Mignery et al. 1951][research_mignery_1951], [Lueder and Belcher 1954][research_lueder_belcher_1954], [Pearce 1954][research_pearce_1954], [Tafel 1960][research_tafel_1960], [Kuzina et al. 1962][research_kuzina_1962], [Petroski 1981][research_petroski_1981], [Allario and Sokolski 1988][research_allario_sokolski_1988], [Goodin and Henebry 2002][research_goodin_henebry_2002], [Kozoderov and Egorov 2019][research_kozoderov_egorov_2019]. **The relation is unchanged across all of it. Only the angular resolution improved, and the linear penalty for altitude did not go away.**
 
@@ -553,15 +781,24 @@ $$t_{\text{exp}} < \frac{0.106}{202.6} = 0.52\ \text{ms}$$
 
 Fuel flow is proportional to thrust through the specific fuel consumption, so weight falls as
 
-$$\frac{dW}{dt} = -c\, T = -c\, \frac{W}{(L/D)}$$
+$$
+\frac{dW}{dt} = -c\, T = -c\, \frac{W}{(L/D)}
+\tag{77}
+$$
 
 and dividing by the distance flown per unit time gives a differential in range which integrates directly. The Breguet range relation for a jet is
 
-$$R = \frac{V}{c} \left(\frac{L}{D}\right) \ln\frac{W_0}{W_1}$$
+$$
+R = \frac{V}{c} \left(\frac{L}{D}\right) \ln\frac{W_0}{W_1}
+\tag{78}
+$$
 
 At an assumed cruise speed of 430 knots, a cruise lift to drag ratio of 19.83 taken as 94 percent of the optimum, a credible period specific fuel consumption of 0.85 pounds per pound force per hour, and burning from 36,124 pounds down to 24,480, the ideal range is 3,903 nautical miles.
 
-$$R_{\text{ideal}} = \frac{221.2}{2.361 \times 10^{-4}} \times 19.83 \times \ln\frac{36{,}124}{24{,}480} = 3{,}903\ \text{nmi}$$
+$$
+R_{\text{ideal}} = \frac{221.2}{2.361 \times 10^{-4}} \times 19.83 \times \ln\frac{36{,}124}{24{,}480} = 3{,}903\ \text{nmi}
+\tag{79}
+$$
 
 **The quoted figure of 2,867 nautical miles is 73.5 percent of that**, which is an ordinary allowance for climb, descent, reserves, and cruise away from the optimum. The shortfall of 1,036 nautical miles is that allowance, and at 430 knots the quoted range is 6.67 hours in the air.
 
@@ -581,7 +818,10 @@ Every performance figure quoted for the X-16 is a prediction. The 71,832 foot se
 
 One quoted figure is internally doubtful on its own terms. A maximum speed of 480 knots at the design altitude, where the speed of sound is 295.87 metres per second, would be
 
-$$M = \frac{V}{a} = \frac{480 \times 0.5144}{295.87} = 0.835$$
+$$
+M = \frac{V}{a} = \frac{480 \times 0.5144}{295.87} = 0.835
+\tag{80}
+$$
 
 which is implausible for a straight wing of aspect ratio 12 designed for subsonic cruise. The figure is more likely quoted at a lower altitude or in equivalent airspeed, and this article does not use it.
 
@@ -621,11 +861,17 @@ On these figures Johnson's lighter aeroplane did not reach a higher computed cei
 
 One caution against reading the table too confidently. Deleting an engine is not a free simplification, and the ceiling relation shows why in one line, since it depends on thrust and weight only through their ratio,
 
-$$\sigma_{\text{ceiling}} = \left(\frac{W}{T (L/D)_{\max}}\right)^{1/n}$$
+$$
+\sigma_{\text{ceiling}} = \left(\frac{W}{T (L/D)_{\max}}\right)^{1/n}
+\tag{81}
+$$
 
 Removing one J57 from the X-16 and a nominal 4,200 pounds of engine and nacelle with it changes that ratio from 1.224 to 2.028,
 
-$$\frac{(W/T)_{1}}{(W/T)_{2}} = \frac{2.028}{1.224} = 1.657$$
+$$
+\frac{(W/T)_{1}}{(W/T)_{2}} = \frac{2.028}{1.224} = 1.657
+\tag{82}
+$$
 
 a worsening of 65.7 percent, which drops the computed ceiling from 73,803 to 62,793 feet, a loss of 11,010 feet. **Lockheed's single-engine answer worked because the entire aeroplane was redesigned around it and not because an engine was removed from a design like Bell's.**
 
@@ -904,7 +1150,10 @@ Treating the X-16 through a ceiling relation misleads in four places, and they s
 
 **It assumes coefficients that were never published.** The zero-lift drag, span efficiency, maximum lift coefficient, and buffet boundary are all assumed. The ceiling result is only mildly sensitive to the first two and the corner result is strongly sensitive to the last two. The corner moves with the square of the assumed buffet Mach number and inversely with the assumed maximum lift,
 
-$$\rho_{\text{corner}} \propto \frac{1}{C_{L\max} M_{\text{buffet}}^{2}}$$
+$$
+\rho_{\text{corner}} \propto \frac{1}{C_{L\max} M_{\text{buffet}}^{2}}
+\tag{83}
+$$
 
 so at the most pessimistic plausible pair, a buffet onset of Mach 0.65 with a maximum lift coefficient of 0.9, the corner falls to 70,878 feet, which is within 1,400 feet of the design altitude. **The conclusion that thrust binds is robust across the range tested but it is not unconditional**, and a reader who prefers a lower buffet boundary is entitled to a different answer.
 
@@ -996,6 +1245,726 @@ What it does provide is an unusually clean case for a piece of arithmetic. The c
 The calculation then fails against the quoted ceiling, and fails the same way for the U-2 and the RB-57D, and that shared failure makes it useful. **Three aeroplanes designed separately against one requirement all demand that a turbojet beat proportionality in thin air by about the same amount.** The two with published wing areas agree to within one percent. That is the engineering content of the requirement, and it concerns engines rather than wings.
 
 Which makes the historical footnote apt. The X-16's cancellation was ordered expedited in October 1955 and was complete by mid-1956 in Sloop's account, and the high-altitude engine that its competition specified, and that NASA's inventory credits it with driving, went into the U-2, in whose favour that inventory says it was cancelled. **The programme around it delivered the one component that decided whether the requirement could be met at all, and delivered it to its competitor.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 83 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 83, 53 are established and 30 are bespoke.
+Quoted aircraft figures are in pounds, feet, knots and nautical miles while the atmosphere, speeds of sound and Reynolds numbers are computed in SI units, and several letters are reused, so $a$ is both the speed of sound and the lift-curve slope, $A$ is both the aspect ratio and an Antoine coefficient, $c$ is both a chord and the specific fuel consumption, $R$ is both the specific gas constant and the range, and $\theta$, $\lambda$ and $\delta$ each change meaning between the atmosphere, engine and sensor sections.
+
+**Equation 1, Unrefuelled Distance Implied by the Required Radius.**
+The unrefuelled distance is twice the operational radius of 1,500 nautical miles that the requirement stated, because a radius is half a round trip.
+[the declassified history of the Central Intelligence Agency, the CIA,][ref_pedlow_welzenbach_1992_ch1]
+
+$$
+2 \times 1{,}500 = 3{,}000\ \text{nmi}
+\tag{1}
+$$
+
+**Equation 2, Aspect Ratio From Published Dimensions.**
+The aspect ratio is the square of the published span divided by the published wing area, which reproduces the quoted value to rounding.
+[Bell X-16][ref_x16]
+
+$$
+A = \frac{b^{2}}{S} = \frac{114.83^{2}}{1{,}099} = 12.00
+\tag{2}
+$$
+
+**Equation 3, Wing Loading From Published Weight and Area.**
+The wing loading is the published gross weight divided by the published wing area.
+[Bell X-16][ref_x16]
+
+$$
+\frac{W}{S} = \frac{36{,}124}{1{,}099} = 32.87\ \text{lb/ft}^{2}
+\tag{3}
+$$
+
+**Equation 4, Thrust to Weight Ratio From Published Figures.**
+The thrust to weight ratio is the quoted sea-level thrust of the two engines divided by the quoted gross weight.
+[Bell X-16][ref_x16]
+
+$$
+\frac{T}{W} = \frac{20{,}000}{36{,}124} = 0.554
+\tag{4}
+$$
+
+**Equation 5, Pressure in the Isothermal Layer.**
+Between 11 and 20 kilometres the standard atmosphere is isothermal, so pressure falls exponentially with geopotential altitude above the base of the layer.
+
+$$
+p(z) = p_{11} \exp\left(-\frac{g_0 (z - z_{11})}{R T_{11}}\right)
+\tag{5}
+$$
+
+**Equation 6, Pressure in the Lower Stratospheric Gradient Layer.**
+Above 20 kilometres the standard atmosphere warms at a constant lapse rate, so pressure follows a power of the temperature ratio.
+
+$$
+p(z) = p_{20} \left(\frac{T_{20} + \lambda (z - z_{20})}{T_{20}}\right)^{-g_0 / (R \lambda)}
+\tag{6}
+$$
+
+**Equation 7, Ideal Gas Law for Density.**
+Density follows from pressure and temperature through the ideal gas law.
+
+$$
+\rho = \frac{p}{R T}
+\tag{7}
+$$
+
+**Equation 8, Speed of Sound in an Ideal Gas.**
+The speed of sound is the square root of the ratio of specific heats times the gas constant times the temperature.
+
+$$
+a = \sqrt{\gamma R T}
+\tag{8}
+$$
+
+**Equation 9, Density Ratio at the Design Altitude.**
+The standard atmosphere density at 69,500 feet divided by the sea-level density gives a density ratio of about one seventeenth.
+
+$$
+\sigma = \frac{\rho}{\rho_0} = \frac{0.07269}{1.225} = 0.05934
+\tag{9}
+$$
+
+**Equation 10, Speed of Sound at the Design Altitude.**
+The speed of sound at the design altitude follows from the standard atmosphere temperature there.
+
+$$
+a = \sqrt{1.4 \times 287.05 \times 217.83} = 295.87\ \text{m/s}
+\tag{10}
+$$
+
+**Equation 11, Lift Equals Weight in Level Flight.**
+Level flight requires the lift, written as dynamic pressure times wing area times lift coefficient, to equal the weight.
+
+$$
+W = L = \tfrac{1}{2} \rho V^{2} S C_{L}
+\tag{11}
+$$
+
+**Equation 12, Drag Equation.**
+Drag is the same dynamic pressure times wing area times the drag coefficient.
+
+$$
+D = \tfrac{1}{2} \rho V^{2} S C_{D}
+\tag{12}
+$$
+
+**Equation 13, Parabolic Drag Polar.**
+The drag coefficient is the zero-lift drag coefficient plus an induced term proportional to the square of the lift coefficient.
+
+$$
+C_D = C_{D0} + \frac{C_L^2}{\pi A e}
+\tag{13}
+$$
+
+**Equation 14, Lift Coefficient for Maximum Lift to Drag Ratio.**
+Under a parabolic polar the lift to drag ratio is greatest at the lift coefficient where induced and zero-lift drag are equal.
+
+$$
+C_L^{*} = \sqrt{C_{D0} \pi A e}
+\tag{14}
+$$
+
+**Equation 15, Stationarity Condition for Minimum Drag Coefficient Ratio.**
+Setting the derivative of the drag to lift coefficient ratio to zero locates the optimum lift coefficient.
+
+$$
+\frac{d}{d C_L}\left(\frac{C_{D0}}{C_L} + \frac{C_L}{\pi A e}\right) = -\frac{C_{D0}}{C_L^{2}} + \frac{1}{\pi A e} = 0
+\tag{15}
+$$
+
+**Equation 16, Induced Drag Equals Zero-Lift Drag at the Optimum.**
+At the optimum lift coefficient the induced drag coefficient equals the zero-lift drag coefficient.
+
+$$
+\frac{C_L^{*2}}{\pi A e} = C_{D0}
+\tag{16}
+$$
+
+**Equation 17, Maximum Lift to Drag Ratio of a Parabolic Polar.**
+The maximum lift to drag ratio is half the square root of $\pi A e$ divided by the zero-lift drag coefficient.
+
+$$
+\left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi A e}{C_{D0}}}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Maximum Lift to Drag Ratio of the X-16.*
+The maximum lift to drag ratio is evaluated with an assumed zero-lift drag coefficient of 0.018 and an assumed span efficiency of 0.85, neither of which was published for the aircraft.
+
+$$
+\left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi \times 12.00 \times 0.85}{0.018}} = 21.095
+\tag{18}
+$$
+
+**Equation 19, Minimum Drag in Level Flight.**
+Minimum drag is weight divided by the maximum lift to drag ratio, which contains no density.
+
+$$
+D_{\min} = \frac{W}{(L/D)_{\max}}
+\tag{19}
+$$
+
+**Equation 20, Speed for the Optimum Lift Coefficient.**
+Holding the optimum lift coefficient fixes the required true airspeed as a function of wing loading and density.
+
+$$
+V^{*} = \sqrt{\frac{2 (W/S)}{\rho\, C_L^{*}}}
+\tag{20}
+$$
+
+**Equation 21, Dynamic Pressure at the Optimum Lift Coefficient.**
+At the speed that holds the optimum lift coefficient the dynamic pressure equals the wing loading divided by that coefficient and is independent of altitude.
+
+$$
+\tfrac{1}{2}\rho V^{*2} = \frac{W}{S\, C_L^{*}}
+\tag{21}
+$$
+
+**Equation 22, Altitude Independence of Minimum Drag.**
+Substituting the optimum speed into the drag equation cancels the density and returns weight over the maximum lift to drag ratio.
+
+$$
+D = \tfrac{1}{2}\rho V^{*2} S C_D = \frac{W C_D}{C_L^{*}} = \frac{W}{(L/D)_{\max}}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Minimum Drag at Gross Weight.*
+The minimum drag at the gross weight of 36,124 pounds follows from the lift to drag ratio built on the assumed zero-lift drag and span efficiency.
+
+$$
+D_{\min} = \frac{36{,}124}{21.095} = 1{,}712.4\ \text{lbf}
+\tag{23}
+$$
+
+**Equation 24, Power Law Thrust Lapse With Density.**
+Turbojet thrust is written as the sea-level static thrust times the density ratio raised to a lapse exponent $n$.
+
+$$
+T_{\text{avail}}(z) = T_{\text{SL}} \left(\frac{\rho(z)}{\rho_0}\right)^{n}
+\tag{24}
+$$
+
+**Equation 25, Specific Excess Power.**
+Specific excess power, the rate of climb available, is the excess of thrust over drag times speed divided by weight.
+
+$$
+P_{s} = \frac{(T - D) V}{W}
+\tag{25}
+$$
+
+**Equation 26, Absolute Ceiling Condition.**
+The absolute ceiling is where lapsed thrust has fallen to equal the minimum drag, so that specific excess power vanishes.
+
+$$
+T_{\text{SL}} \sigma^{n} = \frac{W}{(L/D)_{\max}}
+\tag{26}
+$$
+
+**Equation 27, Density Ratio at the Thrust Ceiling.**
+Solving the ceiling condition for the density ratio gives the weight over thrust times the maximum lift to drag ratio raised to the power $1/n$.
+
+$$
+\sigma_{\text{ceiling}} = \left(\frac{W}{T_{\text{SL}} (L/D)_{\max}}\right)^{1/n}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Ceiling Density Ratio Proportional to Weight.*
+Taking the lapse exponent close to one makes the ceiling density ratio very nearly proportional to instantaneous weight, so the ceiling rises as fuel burns.
+
+$$
+\sigma_{\text{ceiling}} \propto W^{1/n} \approx W
+\tag{28}
+$$
+
+**Equation 29, Stalling Speed.**
+The stalling speed in true airspeed follows from the lift equation at the maximum lift coefficient.
+
+$$
+V_{\text{stall}} = \sqrt{\frac{2 (W/S)}{\rho C_{L\max}}}
+\tag{29}
+$$
+
+**Equation 30, Stalling Mach Number.**
+Dividing the stalling speed by the local speed of sound gives a stalling Mach number that rises as density falls.
+
+$$
+M_{\text{stall}}(z) = \frac{1}{a(z)} \sqrt{\frac{2 (W/S)}{\rho(z) C_{L\max}}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Density at the Coffin Corner.*
+Treating the maximum lift coefficient and the buffet onset Mach number as constants, the article sets the stalling Mach number equal to the buffet Mach number and solves for the density at which the speed band closes.
+[Pepper and Foster 1946][research_pepper_foster_1946]
+[Bingham and Chen 1972][research_bingham_chen_1972]
+[Anderson et al. 1984][research_anderson_1984]
+
+$$
+\rho_{\text{corner}} = \frac{2 (W/S)}{C_{L\max}\left(M_{\text{buffet}}\, a\right)^{2}}
+\tag{31}
+$$
+
+**Equation 32, Width of the Usable Mach Band.**
+The usable speed band is the buffet onset Mach number less the stalling Mach number.
+
+$$
+\Delta M = M_{\text{buffet}} - M_{\text{stall}}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Usable Mach Band at the Design Altitude.*
+The band at 69,500 feet and 26,000 pounds is evaluated against an assumed buffet onset Mach number of 0.75 and a stalling Mach number from an assumed maximum lift coefficient of 1.2.
+
+$$
+\Delta M = 0.75 - 0.5447 = 0.2053
+\tag{33}
+$$
+
+**Equation 34, Equivalent Airspeed.**
+Equivalent airspeed is true airspeed scaled by the square root of the density ratio.
+
+$$
+V_{e} = V \sqrt{\sigma}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Usable Band in Equivalent Airspeed.*
+The true airspeed band from the assumed buffet and maximum lift values is converted to the narrower band that the pilot reads on the instrument.
+
+$$
+\Delta V_{e} = \Delta M \cdot a \sqrt{\sigma} = 118.1 \times 0.2436 = 28.8\ \text{kt}
+\tag{35}
+$$
+
+**Equation 36, Weight Implied by a Given Ceiling.**
+Inverting the ceiling condition gives the weight at which a given density ratio is the thrust ceiling.
+
+$$
+W = T_{\text{SL}}\, \sigma^{n} \left(\frac{L}{D}\right)_{\max}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Weight Required to Reach the Quoted Ceiling.*
+At a lapse exponent taken as one and the assumed drag polar, the quoted 71,832 foot ceiling requires a weight 955 pounds below the empty weight.
+[Bell X-16][ref_x16]
+
+$$
+W = 20{,}000 \times 0.05291 \times 21.095 = 22{,}325\ \text{lb}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Ratio of Ceiling Sensitivities.*
+The ceiling span across an assumed range of lapse exponent from 0.70 to 1.15 is divided by its span across an assumed range of zero-lift drag from 0.014 to 0.030.
+
+$$
+\frac{\Delta z_{n}}{\Delta z_{C_{D0}}} = \frac{32{,}142}{7{,}786} = 4.13
+\tag{38}
+$$
+
+*Equation 39, Bespoke Lapse Exponent Implied by a Quoted Ceiling.*
+The article inverts the ceiling condition for the exponent and calibrates it against each aircraft's quoted ceiling at an end-of-mission weight that it sets at empty weight plus 1,200 pounds.
+
+$$
+n = \frac{\ln\left(W / \left[T_{\text{SL}} (L/D)_{\max}\right]\right)}{\ln \sigma_{\text{quoted}}}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Lapse Exponent Required by the U-2A.*
+The exponent for the U-2A uses the sourced J57-P-37 thrust of 10,200 pounds but a maximum lift to drag ratio of 19.93 from the assumed drag polar.
+[the second chapter of the CIA history][ref_pedlow_welzenbach_1992_ch2]
+
+$$
+n = \frac{\ln\left(12{,}900 / \left[10{,}200 \times 19.93\right]\right)}{\ln 0.05789} = 0.9678
+\tag{40}
+$$
+
+*Equation 41, Bespoke Thrust Available at the Design Altitude.*
+Thrust at 69,500 feet is evaluated at the mean exponent of 0.9378 that the article fitted to three aircraft.
+
+$$
+T_{\text{avail}}(69{,}500\ \text{ft}) = 20{,}000 \times 0.05934^{0.9378} = 1{,}414\ \text{lbf}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Fuel Burned Before Reaching the Design Altitude.*
+The fuel burned is the gross weight less the crossing weight of 29,839 pounds that the fitted lapse exponent and assumed drag polar predict.
+
+$$
+\Delta W = 36{,}124 - 29{,}839 = 6{,}285\ \text{lb}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Fraction of Disposable Load Burned at the Crossing.*
+The predicted fuel burn to the crossing is divided by the disposable load, the gross weight less the empty weight.
+
+$$
+\frac{6{,}285}{36{,}124 - 23{,}280} = 0.489
+\tag{43}
+$$
+
+*Equation 44, Bespoke Fraction of Cruise Elapsed at the Crossing.*
+Assuming a fixed lift to drag ratio, so that fuel flow is proportional to weight and weight decays exponentially in time, the elapsed fraction is a ratio of logarithmic weight ratios.
+
+$$
+\frac{t_{x}}{t_{\text{total}}} = \frac{\ln(W_0/W_x)}{\ln(W_0/W_1)} = \frac{\ln(36{,}124/29{,}839)}{\ln(36{,}124/24{,}480)} = 0.491
+\tag{44}
+$$
+
+**Equation 45, Scaling of Maximum Lift to Drag Ratio With Aspect Ratio.**
+Under a parabolic polar the maximum lift to drag ratio grows as the square root of aspect ratio.
+
+$$
+\left(\frac{L}{D}\right)_{\max} \propto \sqrt{A}
+\tag{45}
+$$
+
+**Equation 46, Benefit of Doubling Aspect Ratio.**
+Doubling the aspect ratio multiplies the maximum lift to drag ratio by the square root of two.
+
+$$
+\frac{(L/D)_{\max}(2A)}{(L/D)_{\max}(A)} = \sqrt{2} = 1.4142
+\tag{46}
+$$
+
+*Equation 47, Bespoke Induced Drag Factor of the X-16.*
+The induced drag factor is evaluated with the published aspect ratio and an assumed span efficiency of 0.85.
+
+$$
+\frac{1}{\pi A e} = \frac{1}{\pi \times 12.00 \times 0.85} = 0.03121
+\tag{47}
+$$
+
+**Equation 48, Finite-Wing Lift-Curve Slope.**
+The lift-curve slope of a finite wing is approximated as $2\pi A/(A+2)$ per radian and evaluated at the published aspect ratio.
+
+$$
+a = \frac{2\pi A}{A + 2} = \frac{2\pi \times 12.00}{14.00} = 5.386\ \text{per radian}
+\tag{48}
+$$
+
+**Equation 49, Scaling of Wing Bending Material.**
+For a wing of given loading and thickness ratio the bending material scales with ultimate load factor, weight and the cube of span over area times thickness ratio.
+[Solvey 1951][research_solvey_1951]
+
+$$
+W_{\text{wing}} \propto \frac{n_{\text{ult}} W b^{3}}{S t/c}
+\tag{49}
+$$
+
+**Equation 50, Angle of Attack Change in a Vertical Gust.**
+A vertical gust of speed $U$ changes the angle of attack by $U/V$.
+
+$$
+\Delta \alpha = \frac{U}{V}
+\tag{50}
+$$
+
+**Equation 51, Lift Increment in a Vertical Gust.**
+The lift increment is the dynamic pressure times wing area times lift-curve slope times the angle change, which is linear in speed.
+
+$$
+\Delta L = \tfrac{1}{2} \rho V^{2} S\, a\, \frac{U}{V} = \tfrac{1}{2} \rho V S\, a\, U
+\tag{51}
+$$
+
+**Equation 52, Sharp-Edged Gust Load Factor Increment.**
+The load factor increment for a sharp-edged gust at equivalent airspeed is proportional to the lift-curve slope and inversely proportional to the wing loading.
+
+$$
+\Delta n = \frac{\rho_0 V_e a U_{de}}{2 (W/S)}
+\tag{52}
+$$
+
+**Equation 53, Ratio of Gust Increments of Two Aircraft.**
+At a common equivalent airspeed and gust the ratio of gust increments depends only on lift-curve slope and wing loading.
+
+$$
+\frac{\Delta n_{1}}{\Delta n_{2}} = \frac{a_{1} / (W/S)_{1}}{a_{2} / (W/S)_{2}}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Gust Increment of the X-16 Against a Fighter.*
+The X-16 at gross weight is compared with a contemporary fighter whose wing loading and aspect ratio the article takes as representative.
+
+$$
+\frac{\Delta n_{\text{X-16}}}{\Delta n_{\text{fighter}}} = \frac{5.386 / 1{,}573.8}{3.623 / 3{,}613.6} = 3.41
+\tag{54}
+$$
+
+*Equation 55, Bespoke RB-57D Radius in Nautical Miles.*
+The museum's radius of 2,000 miles is converted to nautical miles on the assumption that it is quoted in statute miles.
+[RB-57D][ref_nmusaf_rb57d]
+
+$$
+R = \frac{2{,}000 \times 1{,}609.344}{1{,}852} = 1{,}738\ \text{nmi}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Duration of a Full-Radius RB-57D Sortie.*
+The sortie time is twice the radius read as statute miles divided by the sourced cruising speed of 420 knots.
+
+$$
+t_{\text{sortie}} = \frac{2R}{V} = \frac{2 \times 1{,}738}{420} = 8.28\ \text{h}
+\tag{56}
+$$
+
+*Equation 57, Bespoke RB-57D Wing Life in Sorties.*
+The 500 hour wing life is divided by the sortie time that rests on the statute mile reading of the radius.
+
+$$
+N = \frac{500}{8.28} = 60.4
+\tag{57}
+$$
+
+*Equation 58, Bespoke Inlet Total Pressure Ratio at the Design Condition.*
+The isentropic total to static pressure ratio is evaluated at Mach 0.685, the cruise speed that the assumed drag polar sets at the design altitude.
+
+$$
+\frac{p_{t}}{p} = \left(1 + \frac{\gamma - 1}{2} M^{2}\right)^{\gamma/(\gamma-1)} = \left(1 + 0.2 \times 0.685^{2}\right)^{3.5} = 1.3685
+\tag{58}
+$$
+
+*Equation 59, Bespoke Thrust Lapse With Ideal Ram Recovery.*
+Assuming that thrust follows inlet total pressure with perfect recovery, the density ratio is multiplied by the ram pressure ratio.
+
+$$
+\frac{T}{T_{\text{SL}}} = \sigma \times \frac{p_{t}}{p} = 0.05934 \times 1.3685 = 0.08120
+\tag{59}
+$$
+
+*Equation 60, Bespoke Effective Lapse Exponent From Ram Recovery.*
+The ideal ram thrust ratio is expressed as an equivalent exponent on the density ratio alone.
+
+$$
+n_{\text{ram}} = \frac{\ln 0.08120}{\ln 0.05934} = 0.8889
+\tag{60}
+$$
+
+*Equation 61, Bespoke Fraction of the Ideal Ram Benefit Realised.*
+The departure of the fitted exponent from one is divided by the departure of the ideal ram exponent from one.
+
+$$
+\frac{1 - 0.9378}{1 - 0.8889} = 0.560
+\tag{61}
+$$
+
+*Equation 62, Bespoke Compressor Blade Reynolds Number.*
+The blade Reynolds number uses a representative first-stage chord of 0.06 metres and an axial velocity of 150 metres per second that the article takes.
+
+$$
+Re_{\text{blade}} = \frac{\rho_{t} V_{a} c_{\text{blade}}}{\mu} = 6.16 \times 10^{5}\ \text{at sea level}
+\tag{62}
+$$
+
+**Equation 63, Measured Loss of Corrected Airflow.**
+The measured fall of corrected airflow at rated speed from 163 to 154 pounds per second is a loss of 5.5 percent.
+[Bloomer and Miller][ref_bloomer_miller_1954]
+
+$$
+1 - \frac{154}{163} = 0.055
+\tag{63}
+$$
+
+**Equation 64, Reynolds Number Index.**
+The Reynolds number index is the inlet total pressure ratio divided by the viscosity ratio times the square root of the total temperature ratio.
+[Bloomer and Miller][ref_bloomer_miller_1954]
+
+$$
+\text{RNI} = \frac{\delta}{\varphi\sqrt{\theta}}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Design Condition Against the Lowest Tested Index.*
+The index at the design condition is evaluated at the cruise Mach number from the assumed drag polar and compared with the lowest index at which the engine was measured.
+
+$$
+\frac{0.213}{0.0786} = 2.71
+\tag{65}
+$$
+
+**Equation 66, Design Altitude Above the Controlled Engine Limit.**
+The design altitude exceeds the measured operating limit of about 59,000 feet with the standard control by 10,500 feet.
+[Wallner and Saari][ref_wallner_saari_1954]
+
+$$
+69{,}500 - 59{,}000 = 10{,}500\ \text{ft}
+\tag{66}
+$$
+
+**Equation 67, Chord Reynolds Number With the Sutherland Viscosity.**
+The chord Reynolds number is density times speed times chord over viscosity, with viscosity from the Sutherland relation.
+
+$$
+Re = \frac{\rho V c}{\mu}, \qquad \mu(T) = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4}
+\tag{67}
+$$
+
+**Equation 68, Mean Geometric Chord.**
+The mean geometric chord is the published wing area divided by the published span in metres.
+
+$$
+c = \frac{S}{b} = \frac{102.10}{35.001} = 2.917\ \text{m}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Ratio of Sea-Level to Design-Altitude Reynolds Number.*
+The Reynolds number ratio across the flight uses speeds that the assumed drag polar sets at each altitude.
+
+$$
+\frac{Re_{\text{SL}}}{Re_{\text{design}}} = \frac{1.997 \times 10^{7}}{2.969 \times 10^{6}} = 6.73
+\tag{69}
+$$
+
+**Equation 70, Antoine Relation for Vapour Pressure.**
+The saturation vapour pressure of water follows the Antoine relation with standard coefficients.
+[standard water coefficients][ref_antoine_equation]
+
+$$
+\log_{10} p_{\text{mmHg}} = A - \frac{B}{C + T}
+\tag{70}
+$$
+
+**Equation 71, Vapour Pressure of Water at Body Temperature.**
+The Antoine relation at 37 degrees Celsius gives a vapour pressure of 6,260 pascals.
+[standard water coefficients][ref_antoine_equation]
+
+$$
+p_{\text{vap}} = 46.95\ \text{mmHg} = 6{,}260\ \text{Pa}
+\tag{71}
+$$
+
+**Equation 72, Armstrong Limit Altitude.**
+The standard atmosphere pressure equals the vapour pressure of water at body temperature at 19,150 metres.
+[Armstrong limit][ref_armstrong_limit]
+
+$$
+z_{\text{Armstrong}} = 19{,}150\ \text{m} = 62{,}829\ \text{ft}
+\tag{72}
+$$
+
+**Equation 73, Ground Sample Distance.**
+Ground sample distance is the slant range times the instantaneous angular field of view.
+
+$$
+\text{GSD} = h \theta
+\tag{73}
+$$
+
+**Equation 74, Rayleigh Diffraction Limit.**
+The smallest resolvable angle of a circular aperture is 1.22 times the wavelength over the aperture diameter.
+
+$$
+\theta_{\text{diff}} = \frac{1.22 \lambda}{D}
+\tag{74}
+$$
+
+**Equation 75, Image Smear From Forward Motion.**
+Image smear on the ground is the ground speed times the exposure time.
+
+$$
+\delta = V t_{\text{exp}}
+\tag{75}
+$$
+
+*Equation 76, Bespoke Exposure Time for Smear Below One Ground Sample.*
+The bound divides the ground sample distance from an assumed 5 microradian field of view by the cruise speed that the assumed polar sets.
+
+$$
+t_{\text{exp}} < \frac{0.106}{202.6} = 0.52\ \text{ms}
+\tag{76}
+$$
+
+**Equation 77, Weight Loss Rate of a Jet in Cruise.**
+Fuel flow is the specific fuel consumption times thrust, which in cruise equals weight over lift to drag ratio.
+
+$$
+\frac{dW}{dt} = -c\, T = -c\, \frac{W}{(L/D)}
+\tag{77}
+$$
+
+**Equation 78, Breguet Range Equation for a Jet.**
+Range is speed over specific fuel consumption times lift to drag ratio times the logarithm of the initial to final weight ratio.
+
+$$
+R = \frac{V}{c} \left(\frac{L}{D}\right) \ln\frac{W_0}{W_1}
+\tag{78}
+$$
+
+*Equation 79, Bespoke Ideal Breguet Range of the X-16.*
+The ideal range uses an assumed cruise speed of 430 knots, a lift to drag ratio taken as 94 percent of the optimum and an assumed specific fuel consumption of 0.85 per hour.
+
+$$
+R_{\text{ideal}} = \frac{221.2}{2.361 \times 10^{-4}} \times 19.83 \times \ln\frac{36{,}124}{24{,}480} = 3{,}903\ \text{nmi}
+\tag{79}
+$$
+
+**Equation 80, Mach Number of the Quoted Maximum Speed.**
+The quoted 480 knots at the design altitude divided by the standard atmosphere speed of sound there gives Mach 0.835.
+
+$$
+M = \frac{V}{a} = \frac{480 \times 0.5144}{295.87} = 0.835
+\tag{80}
+$$
+
+**Equation 81, Ceiling Density Ratio in Terms of Weight to Thrust.**
+The ceiling density ratio depends on thrust and weight only through their ratio.
+
+$$
+\sigma_{\text{ceiling}} = \left(\frac{W}{T (L/D)_{\max}}\right)^{1/n}
+\tag{81}
+$$
+
+*Equation 82, Bespoke Worsening of Weight to Thrust With One Engine Removed.*
+The ratio compares the weight to thrust of the X-16 with one J57 deleted, together with a nominal 4,200 pounds of engine and nacelle, against the twin-engine value.
+
+$$
+\frac{(W/T)_{1}}{(W/T)_{2}} = \frac{2.028}{1.224} = 1.657
+\tag{82}
+$$
+
+*Equation 83, Bespoke Sensitivity of the Corner to Assumed Coefficients.*
+With the maximum lift coefficient and buffet Mach number held constant as assumed, the corner density scales inversely with the maximum lift and with the square of the buffet Mach number.
+
+$$
+\rho_{\text{corner}} \propto \frac{1}{C_{L\max} M_{\text{buffet}}^{2}}
+\tag{83}
+$$
+
+### Notation
+
+- $\sigma$, the density ratio to sea level, with $\sigma_{\text{ceiling}}$ its value at the thrust ceiling
+- $\rho_0$, the sea-level density
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $g_0$, standard gravity
+- $W$, the aircraft weight
+- $S$, the wing reference area
+- $C_{D0}$, the zero-lift drag coefficient
+- $A e$, the product of aspect ratio $A$ and span efficiency $e$
+- $C_L^{*}$, the lift coefficient for maximum lift to drag ratio
+- $(L/D)_{\max}$, the maximum lift to drag ratio
+- $T_{\text{SL}}$, the sea-level static thrust
+- $n$, the thrust lapse exponent on density ratio, distinct from the load factor increment $\Delta n$ and the sortie count $N$
+- $P_{s}$, the specific excess power
+- $C_{L\max}$, the maximum lift coefficient
+- $M_{\text{buffet}}$, the buffet onset Mach number, with $M_{\text{stall}}$ the stalling Mach number
+- $V_{e}$, the equivalent airspeed
+- $U_{de}$, the derived equivalent gust velocity
+- $p_{t}$, the inlet total pressure
+- $\text{RNI}$, the Reynolds number index
+- $Re$, the Reynolds number
+- $\mu(T)$, the dynamic viscosity from the Sutherland relation
+- $\text{GSD}$, the ground sample distance
+- $\theta_{\text{diff}}$, the diffraction-limited angular resolution
+- $t_{\text{exp}}$, the exposure time
+- $R_{\text{ideal}}$, the ideal Breguet range
 
 ## References
 

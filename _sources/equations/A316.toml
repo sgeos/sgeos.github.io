@@ -1,0 +1,751 @@
+# Equation classification for A316. Read by `python3 _lib/equations.py`.
+
+caution = "Lengths are in feet, forces in pounds and powers in horsepower at sea-level density unless a line states 15,000 or 20,000 feet, and several symbols are reused, so $S_f$ is the effective propeller fin area in the keystone derivation but the forward wing area in the lift and trim relations, $f$ is both the equivalent flat-plate area and a differential fraction of thrust, and $\\bar{c}$ is a wing mean chord in the geometry check but the blade mean chord in the blade relations."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Wing Area With a Propeller Lift Share"
+gloss = "The sales argument sizes the wing for the slowest wing-borne speed after removing a fraction $\\phi$ of the lift that the propellers are assumed to supply."
+cite = []
+digest = "0a9b4524fe08bb65"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Pitch Stiffness Contribution of a Propeller"
+gloss = "A propeller ahead of the centre of gravity adds a pitching moment slope proportional to its arm and to the slope of its normal force with angle of attack."
+cite = []
+digest = "1b2c43cbfc1205f1"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Aspect Ratio and Mean Chord"
+gloss = "Aspect ratio is span squared over area and mean chord is area over span for each wing."
+cite = ["research_fluk_1967"]
+digest = "76e2af5bb9ae2b19"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Finite-Wing Lift-Curve Slope"
+gloss = "The lift-curve slope of a finite wing is the two-dimensional slope reduced by its span through the aspect ratio and span efficiency."
+cite = []
+digest = "2e70c061029d20d3"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Area-Weighted Lift-Curve Slope of the Tandem Wings"
+gloss = "The article combines the two surfaces into one equivalent slope by area weighting, evaluated at an assumed span efficiency of 0.90."
+cite = []
+digest = "3804df28e176e38d"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Wing Loading at Normal Gross Weight"
+gloss = "The report's normal gross weight of 13,660 pounds over the total wing area of 154.6 square feet gives the wing loading."
+cite = ["research_fluk_1967"]
+digest = "a95ab5c7e244259a"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Stalling Speed"
+gloss = "The stalling speed follows from the lift equation at the maximum lift coefficient."
+cite = []
+digest = "b9859d99de013e3d"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Resolution of the Freestream at a Propeller Disc"
+gloss = "The freestream divides into a component along the propeller axis and a component in the plane of the disc."
+cite = []
+digest = "eed0f64eb9617aa2"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Mass Flow Through an Inclined Disc"
+gloss = "The mass flow through the disc is density times disc area times the axial freestream component plus the induced velocity."
+cite = []
+digest = "46ce25511443ae68"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Propeller Normal Force From In-Plane Momentum"
+gloss = "The article models the propeller normal force as a fraction $k$ of the in-plane momentum flux removed by the disc, the keystone relation of the analysis."
+cite = []
+digest = "0672d15c90211641"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Fin Analogy for the Propeller Normal Force"
+gloss = "The article equates the momentum form of the normal force with the lift of a fin of equivalent area and slope at small angle and high speed."
+cite = []
+digest = "d65899f9768ce4c6"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Recovery Fraction From the Fin Analogy"
+gloss = "Under the fin analogy the recovery fraction reduces to fin area times slope over twice the disc area."
+cite = []
+digest = "2f3ff76feccee7a5"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Azimuthal Mean of the Absolute Cosine"
+gloss = "The mean of the absolute cosine over a full revolution is $2/\\pi$."
+cite = []
+digest = "2e6b44e13ad019a6"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Effective Fin Area of a Propeller"
+gloss = "The article takes the effective side area of a rotating propeller as the blade planform area times the azimuthal mean projection $2/\\pi$."
+cite = []
+digest = "f69b124c2afa020a"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Helical Tip Mach Number"
+gloss = "The helical tip Mach number is the vector sum of flight speed and rotational tip speed over the speed of sound."
+cite = []
+digest = "b765cb353057a1f0"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Rotational Tip Speed Permitted by a Tip Mach Limit"
+gloss = "Solving the helical tip relation for the rotational component gives the tip speed a given tip Mach limit allows at a flight speed."
+cite = []
+digest = "eff8d2dd7aa7d823"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Rotational Rate Permitted in Cruise"
+gloss = "The rotational rate and shaft speed follow from a working tip Mach limit of 0.90 that the article assumes at 400 knots and 20,000 feet."
+cite = []
+digest = "28b3a3bba54020d1"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Helical Tip Mach Number at the Recorded Cruise Speed"
+gloss = "The recorded 957 revolutions per minute at 400 knots and 20,000 feet place the helical tip at Mach 0.905."
+cite = ["ref_x19"]
+digest = "d54ae013c7196325"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Static Tip Mach Number at the Cruise Tip Speed"
+gloss = "The rotational tip speed from the assumed 0.90 ceiling is set against the sea-level speed of sound."
+cite = []
+digest = "31d690f0f800d399"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Advance Ratio in Cruise"
+gloss = "The advance ratio at 400 knots uses the shaft speed derived from the assumed tip Mach ceiling."
+cite = []
+digest = "43ec3a63cadf982e"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Immersed Fraction of a Semi-Span"
+gloss = "The article defines the immersed fraction of each semi-span as one propeller radius over the semi-span, valid while the disc does not reach the root."
+cite = []
+digest = "18e7ba614f82360d"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Immersed Wing Area"
+gloss = "The immersed area sums the defined immersed fractions over the two surfaces."
+cite = ["research_white_1960", "research_curtiss_1985", "research_qin_2017"]
+digest = "914d1ce7b4970fe8"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Hover Download on the Immersed Wing"
+gloss = "The article models download as the dynamic pressure of a slipstream at a multiple $\\lambda$ of the induced velocity acting on the immersed area with a normal-flow drag coefficient."
+cite = []
+digest = "cc6bfb18bc004f2a"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Hover Thrust Including Download"
+gloss = "Substituting the momentum-theory induced velocity into the download model makes thrust linear in itself and gives a closed form for the required thrust."
+cite = []
+digest = "cfaaf4def0e8eb05"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Hover Induced Velocity With Download"
+gloss = "The momentum-theory induced velocity is evaluated at the thrust from the download model over the total disc area of 530.9 square feet."
+cite = ["research_fluk_1967"]
+digest = "b8c8b3ff739e9227"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Ideal and Required Hover Power"
+gloss = "The ideal power is the modelled thrust times the induced velocity, and the shaft requirement divides it by a figure of merit of 0.70 that the article assumes."
+cite = []
+digest = "04d5f067ffc1b81a"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Hover Power Margin"
+gloss = "The installed 5,300 horsepower is divided by the required power that rests on the download model and the assumed figure of merit."
+cite = []
+digest = "3f5c20425b1aa748"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Figure of Merit Implied by the Qualification Schedule"
+gloss = "The modelled ideal power is divided by the 3,440 horsepower that the qualification schedule sets for take-off and hover."
+cite = ["research_fluk_1967"]
+digest = "3d598ccfbed7014b"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Thrust Coefficient Scaling"
+gloss = "Propeller thrust is the thrust coefficient times density times disc area times the square of tip speed."
+cite = []
+digest = "f4166bedbf1ba6a1"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Hover Tip Speed and Tip Mach Number"
+gloss = "The recorded hover speed of 1,204 revolutions per minute gives a tip speed of 819.5 feet per second, the figure the report states for peak static thrust."
+cite = ["research_fluk_1967"]
+digest = "e39a3ead0b394f73"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Propeller Activity Factor"
+gloss = "The activity factor integrates the ratio of chord to diameter weighted by the cube of radial position from the hub cut-off to the tip."
+cite = ["research_fluk_1967"]
+digest = "9b57d7fe2e09e0ca"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Constant Chord Equivalent to the Activity Factor"
+gloss = "A blade of constant chord with the stated activity factor of 168 on a 13 foot propeller has a chord of 1.398 feet."
+cite = []
+digest = "a35aa230726b1c49"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Blade Mean Chord and Solidity"
+gloss = "Reading the stated 8.4 square feet as the area of each blade, an inference the article makes, gives the mean chord and the solidity."
+cite = []
+digest = "5a29112296fc3334"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Blade Aspect Ratio"
+gloss = "The blade aspect ratio is the radius over the mean chord from the per-blade reading of the blade area."
+cite = []
+digest = "dd93f91e972e3370"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Hover Thrust Coefficient and Blade Loading"
+gloss = "The thrust coefficient uses one quarter of the modelled hover thrust including download and is compared with a blade loading limit of 0.14 that the article takes as a reference."
+cite = []
+digest = "dd199bade32167f5"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Chord Needed at the Cruise Tip Speed"
+gloss = "The article computes the chord that would hold the assumed 0.14 blade loading limit if the propellers had hovered at the cruise tip speed."
+cite = []
+digest = "df3f8786a9f84430"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Effective Fin Area of the Documented Blade"
+gloss = "The fin analogy is applied to three blades of the per-blade area of 8.4 square feet."
+cite = []
+digest = "541032216d4dc6f6"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Recovery Fraction of the Documented Blade"
+gloss = "The recovery fraction follows from the fin analogy with a blade lift-curve slope of 4.358 per radian at the inferred blade aspect ratio."
+cite = []
+digest = "b5e56046fd368e09"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Cruise Dynamic Pressure and Lift Coefficient"
+gloss = "At the reported cruise of 325 knots at 15,000 feet the dynamic pressure and the lift coefficient needed to carry the weight follow directly."
+cite = ["research_fluk_1967_2"]
+digest = "16146a65255ad4ce"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Cruise Attitude Without Interference"
+gloss = "The attitude is the cruise lift coefficient over the area-weighted slope built on the assumed span efficiency."
+cite = []
+digest = "1e6d817b94ecf2af"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Wing Lift Slope in Cruise"
+gloss = "The wing lift slope with angle of attack uses the area-weighted slope built on the assumed span efficiency."
+cite = []
+digest = "392e0bfa9c63a98a"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Propeller Normal Force Slope in Cruise"
+gloss = "The slope of the four propeller normal forces follows from the keystone relation at small angle with the recovery fraction of the fin analogy."
+cite = []
+digest = "9f659170afd006e0"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Propeller Share of Incidence-Dependent Lift"
+gloss = "The share compares the modelled propeller slope with the modelled wing slope, with thrust set by a lift to drag ratio of 8 that the article assumes."
+cite = []
+digest = "8961d11b7b758f9c"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Stall Angle of the Equivalent Wing"
+gloss = "The stall angle is an assumed maximum lift coefficient of 1.4 over the area-weighted slope."
+cite = []
+digest = "924dc81d231f7989"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Vertical Balance at the Stall With Propeller Normal Force"
+gloss = "The article balances weight against the wing at the assumed maximum lift plus the keystone relation evaluated at the stall angle."
+cite = []
+digest = "4d0614c37e7c6549"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Equivalent Plain Wing Area"
+gloss = "The area a plain wing would need scales with the square of the ratio of the modelled minimum speeds without and with the propeller normal force."
+cite = []
+digest = "98a6b796069f2262"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Vertical Force Balance at a Nacelle Angle"
+gloss = "In steady level flight the vertical components of thrust, propeller normal force and wing lift balance the weight."
+cite = []
+digest = "cbd9fda5ca4871c7"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Horizontal Force Balance at a Nacelle Angle"
+gloss = "Along the flight path the thrust component balances drag and the rearward component of the propeller normal force."
+cite = []
+digest = "b769d05160da5140"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Trim Condition With Thrust Eliminated"
+gloss = "Eliminating thrust between the two balances leaves one condition on angle of attack."
+cite = []
+digest = "2071e4e3dabae91d"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Drag With an Equivalent Flat-Plate Area"
+gloss = "Drag is the dynamic pressure times an equivalent flat-plate area plus an induced term."
+cite = []
+digest = "f8763a28c678028f"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Drag at Maximum Speed"
+gloss = "Drag at 400 knots equals the converted shaft power over speed at a propulsive efficiency of 0.80 that the article assumes."
+cite = []
+digest = "4307303197df1428"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Equivalent Flat-Plate Area"
+gloss = "The parasite part of the drag from the assumed propulsive efficiency is divided by the dynamic pressure to give the flat-plate area."
+cite = []
+digest = "208cfb5ed4feb30d"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Momentum-Theory Thrust at Given Power"
+gloss = "With a fixed power per propeller momentum theory gives an induced velocity and a thrust that remain finite at zero speed."
+cite = []
+digest = "46e5db645a77189c"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Corridor Continuity Condition"
+gloss = "The article defines continuity of the corridor as the minimum speed of each nacelle step lying at or below the maximum speed of the step before it."
+cite = []
+digest = "a66c57dc20a2e182"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Speed Reduction From the Propeller Normal Force"
+gloss = "The article measures the benefit of the normal force as the difference of the modelled minimum speeds without and with it at each nacelle angle."
+cite = []
+digest = "b7ae54789ac69351"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Downwash Gradient at the Aft Wing"
+gloss = "The far-field downwash gradient $2a/(\\pi \\text{AR})$ is evaluated with the forward wing slope built on the assumed span efficiency."
+cite = ["research_fluk_1967"]
+digest = "f1b86ff652931832"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Tandem-Wing Lift With Downwash"
+gloss = "The total lift of a tandem pair is the forward wing at full attitude plus the aft wing at the attitude reduced by the downwash."
+cite = []
+digest = "5629e1b1c69a5850"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Forward and Aft Wing Lift in Cruise"
+gloss = "The lift of each surface at the trimmed cruise attitude uses the modelled slopes and downwash."
+cite = []
+digest = "818356fcbfe4054b"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Aft Wing Lift Share Against Area Share"
+gloss = "The aft wing carries 46.8 percent of the modelled lift on 63.7 percent of the area."
+cite = []
+digest = "496123c838e882af"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Pitch Moment From Differential Thrust"
+gloss = "Shifting a fraction $f$ of total thrust between two stations a distance $\\ell$ apart produces a pitching moment of $fT\\ell/2$."
+cite = []
+digest = "506c284851e571f2"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Design Inertias From Control Moment and Acceleration"
+gloss = "Each inertia is the report's design hover control moment divided by the maximum angular acceleration it produces."
+cite = ["research_fluk_1967"]
+digest = "da614aaccda9b5c5"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Pitch Acceleration From a Ten Percent Differential"
+gloss = "The pitch acceleration uses a differential of 10 percent of the modelled hover thrust including download."
+cite = []
+digest = "1fef1a67d374d7f2"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Thrust Fraction for the Design Pitch Moment"
+gloss = "The design maximum pitch moment corresponds to a differential fraction of hovering thrust at the design weight of 12,300 pounds."
+cite = ["research_fluk_1967"]
+digest = "1f48ff2011d4644c"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Roll Moment and Acceleration From a Ten Percent Differential"
+gloss = "The roll moment uses a 10 percent differential of the modelled hover thrust at the mean semi-span."
+cite = []
+digest = "6a7c7def686e9c94"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Torque per Propeller in Hover"
+gloss = "The torque per propeller divides one quarter of the required hover power, which rests on the assumed figure of merit, by the hover rotational rate."
+cite = ["research_fluk_1967_2"]
+digest = "f2f62858c5f52dd4"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Net Yaw Torque From Differential Like-Rotation Pairs"
+gloss = "A differential of fraction $f$ between the two pairs of like rotation leaves a net torque of four times $f$ times the torque per propeller."
+cite = []
+digest = "55e38f513d171000"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Yaw Acceleration From Torque Differential"
+gloss = "The yaw acceleration uses a differential of 20 percent that the article chooses against the design yaw inertia."
+cite = []
+digest = "3aa19c95692b620d"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Rolling Moment After Losing One Side"
+gloss = "The upset moment is half the modelled hover thrust acting at the mean semi-span."
+cite = []
+digest = "870234db665cd365"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Upset Moment Against Full Roll Control"
+gloss = "The modelled upset moment is divided by the design maximum roll moment of 20,000 foot-pounds."
+cite = []
+digest = "b277c5f63aecffdd"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Torque From Power and Rotational Rate"
+gloss = "Shaft torque is power divided by rotational rate."
+cite = []
+digest = "d480f4acc2a08dea"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Disc Loading of the X-19"
+gloss = "The disc loading is the normal gross weight over the total disc area of four 13 foot propellers."
+cite = ["research_fluk_1967"]
+digest = "7c54ac362a2944db"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Ideal Power per Unit Weight"
+gloss = "Ideal hover power per unit weight equals the induced velocity, which grows as the square root of disc loading."
+cite = []
+digest = "b755e40334f2f2a7"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Power Loading in Hover"
+gloss = "The power loading divides the weight by the required power that rests on the download model and the assumed figure of merit."
+cite = []
+digest = "6c1d9ea38b87a1ea"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Airborne Time per Flight"
+gloss = "The recorded 225 minutes over 50 flights give 4.5 minutes per flight."
+cite = []
+digest = "4ced34502666e66d"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Calendar Rate of the Flight Programme"
+gloss = "The 644 days between first hover and loss give 12.9 days per flight and 0.177 flight hours per month."
+cite = []
+digest = "8811b422d386d102"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Free-Fall Time From the Ejection Height"
+gloss = "A body with no vertical velocity falls from 400 feet in about five seconds."
+cite = []
+digest = "f7f17fc9ac8e4dd2"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Fall Time to Parachute Opening"
+gloss = "The fall of 150 feet to the height at which the parachutes opened takes about three seconds."
+cite = []
+digest = "b5c524741cb155d1"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Model Angle of Attack at the Flight 50 Conditions"
+gloss = "The trimmed corridor model, with the fin analogy recovery fraction and the assumed polar, gives the angle of attack at the nacelle angles and speeds of Flight 50."
+cite = ["research_fluk_1967_2"]
+digest = "ce117737bad46664"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Wing-Alone Angle of Attack at the Lock-Down Point"
+gloss = "The wing-alone attitude at 160 knots uses the area-weighted slope built on the assumed span efficiency and ignores the propeller normal force."
+cite = ["research_fluk_1967"]
+digest = "678c6392dfdaa051"
+
+[[equation]]
+tag = 80
+class = "bespoke"
+title = "Bespoke Validity Limit of the In-Plane Momentum Model"
+gloss = "The article limits its momentum model to a disc incidence of 60 degrees, beyond which a propeller behaves as a bluff body."
+cite = []
+digest = "adffacd6f8f5b396"
+
+[[symbol]]
+tex = 'S'
+meaning = "the total wing reference area, with $S_a$ the aft wing area"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the fraction of lift that the propellers supply at the slowest wing-borne speed"
+
+[[symbol]]
+tex = 'N'
+meaning = "the propeller normal force, the radial lift force of an inclined disc"
+
+[[symbol]]
+tex = '\text{AR}'
+meaning = "the wing aspect ratio, with $\\text{AR}_b$ the blade aspect ratio"
+
+[[symbol]]
+tex = '\bar{a}'
+meaning = "the area-weighted lift-curve slope of the two wings"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = '\alpha_d'
+meaning = "the angle of the propeller axis to the flow"
+
+[[symbol]]
+tex = 'v_i'
+meaning = "the induced velocity at the propeller disc"
+
+[[symbol]]
+tex = 'k'
+meaning = "the fraction of in-plane momentum flux that the disc removes"
+
+[[symbol]]
+tex = 'A_1'
+meaning = "the disc area of one propeller, with $A$ the total disc area"
+
+[[symbol]]
+tex = 'a_b'
+meaning = "the lift-curve slope of a propeller blade"
+
+[[symbol]]
+tex = '\Omega'
+meaning = "the propeller rotational rate"
+
+[[symbol]]
+tex = 'M_h'
+meaning = "the helical tip Mach number"
+
+[[symbol]]
+tex = 'J'
+meaning = "the propeller advance ratio"
+
+[[symbol]]
+tex = 'S_{\text{imm}}'
+meaning = "the immersed wing area"
+
+[[symbol]]
+tex = 'C_{D,\perp}'
+meaning = "the normal-flow drag coefficient of the immersed wing"
+
+[[symbol]]
+tex = '\text{FM}'
+meaning = "the hover figure of merit"
+
+[[symbol]]
+tex = 'C_T'
+meaning = "the thrust coefficient"
+
+[[symbol]]
+tex = '\text{AF}'
+meaning = "the propeller activity factor"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the propeller solidity, blade area over disc area"
+
+[[symbol]]
+tex = '\eta_p'
+meaning = "the propulsive efficiency"
+
+[[symbol]]
+tex = '\frac{d\varepsilon}{d\alpha}'
+meaning = "the downwash gradient at the aft wing"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the separation of the forward and aft thrust stations"
+
+[[symbol]]
+tex = 'I_{yy}'
+meaning = "the moment of inertia in pitch, with $I_{xx}$ in roll and $I_{zz}$ in yaw"
+
+[[symbol]]
+tex = 'Q_1'
+meaning = "the torque of one propeller, with $Q_{\\text{net}}$ the net yaw torque"
+
+[[symbol]]
+tex = 'i + \alpha'
+meaning = "the disc incidence, the nacelle angle $i$ plus the angle of attack $\\alpha$"

@@ -55,7 +55,10 @@ acoustics, about power, and in the end about how quiet the night is.
 
 **The binding constraint in both cases is the lift-to-drag ratio, which for a wing of aspect ratio $A$ and zero-lift drag coefficient $C_{D_0}$ is**
 
-$$\left( \frac{L}{D} \right)_{max} = \frac{1}{2} \sqrt{\frac{\pi e A}{C_{D_0}}}$$
+$$
+\left( \frac{L}{D} \right)_{max} = \frac{1}{2} \sqrt{\frac{\pi e A}{C_{D_0}}}
+\tag{1}
+$$
 
 Read one way that relation says a high lift-to-drag ratio **demands a long slender wing**, and a long
 slender wing flown slowly is what produces large adverse yaw. Read the other way, through the power required
@@ -122,7 +125,10 @@ it demonstrates did not change and neither did the cheapest way to demonstrate i
 **Everything in this article comes out of one relation.** The drag of a wing is a constant term plus a term
 that lift itself creates,
 
-$$C_D = C_{D_0} + \frac{C_L^2}{\pi e A}$$
+$$
+C_D = C_{D_0} + \frac{C_L^2}{\pi e A}
+\tag{2}
+$$
 
 **The second term is the common root of the article's two subjects.** It is what makes the lift-to-drag
 ratio high, because it falls as aspect ratio rises.
@@ -137,25 +143,40 @@ Pilot School wanted to demonstrate. The literature of induced drag includes [Sib
 
 Maximising the ratio of the two coefficients puts them equal to one another,
 
-$$\frac{C_L^2}{\pi e A} = C_{D_0} \quad \Longrightarrow \quad C_L^{\ast} = \sqrt{\pi e A \, C_{D_0}}$$
+$$
+\frac{C_L^2}{\pi e A} = C_{D_0} \quad \Longrightarrow \quad C_L^{\ast} = \sqrt{\pi e A \, C_{D_0}}
+\tag{3}
+$$
 
 Taking an Oswald efficiency of 0.90 and a zero-lift drag coefficient of 0.012, which are ordinary values for
 a clean sailplane and are **assumed rather than measured**,
 
-$$A = \frac{b^2}{S} = \frac{(57.125)^2}{180} = 18.1$$
+$$
+A = \frac{b^2}{S} = \frac{(57.125)^2}{180} = 18.1
+\tag{4}
+$$
 
-$$\left( \frac{L}{D} \right)_{max} = \frac{1}{2} \sqrt{\frac{\pi (0.90)(18.1)}{0.012}} = 32.7$$
+$$
+\left( \frac{L}{D} \right)_{max} = \frac{1}{2} \sqrt{\frac{\pi (0.90)(18.1)}{0.012}} = 32.7
+\tag{5}
+$$
 
 against a quoted 35, an agreement to within seven percent from geometry alone, and the lift
 coefficient at which it occurs is
 
-$$C_L^{\ast} = \sqrt{\pi (0.90)(18.1)(0.012)} = 0.784$$
+$$
+C_L^{\ast} = \sqrt{\pi (0.90)(18.1)(0.012)} = 0.784
+\tag{6}
+$$
 
 **The quoted numbers agree with the relation once each is paired with the correct weight.** The
 best-glide speed is the speed at which the wing flies at $C_L^{\ast}$, with sea-level density
 $\rho = 0.0023769$ slug per cubic foot,
 
-$$V_{bg} = \sqrt{\frac{2 (W/S)}{\rho \, C_L^{\ast}}}, \qquad V_{bg}\big|_{7.94} = \sqrt{\frac{2 (7.94)}{(0.0023769)(0.784)}} = 92.3 \, \text{ft/s} = 62.9 \, \text{mph}, \qquad V_{bg}\big|_{6.0} = 80.2 \, \text{ft/s} = 54.7 \, \text{mph}$$
+$$
+V_{bg} = \sqrt{\frac{2 (W/S)}{\rho \, C_L^{\ast}}}, \qquad V_{bg}\big|_{7.94} = \sqrt{\frac{2 (7.94)}{(0.0023769)(0.784)}} = 92.3 \, \text{ft/s} = 62.9 \, \text{mph}, \qquad V_{bg}\big|_{6.0} = 80.2 \, \text{ft/s} = 54.7 \, \text{mph}
+\tag{7}
+$$
 
 At the 1,430 pound gross weight, a wing loading of 7.94 pounds per square foot, that is 62.9 miles per hour
 against a quoted 55.9, or 13 percent adrift. The same sources quote a [wing loading of 6.0 pounds per
@@ -179,7 +200,10 @@ term is [Hoerner's compendium][book_hoerner_1965].
 When an aeroplane rolls at rate $p$, a wing section at spanwise station $y$ meets the oncoming flow at an
 incidence changed by the local vertical velocity,
 
-$$\Delta \alpha = \frac{p \, y}{V}$$
+$$
+\Delta \alpha = \frac{p \, y}{V}
+\tag{8}
+$$
 
 **That changes the local lift, and through the polar above it changes the local induced drag**, upward on
 the descending wing and downward on the ascending one.
@@ -188,7 +212,10 @@ descending from lifting-line theory and the downwash it predicts, and the induce
 One Relation develop it. Integrating the asymmetry across an elliptically loaded
 span gives the classical result,
 
-$$C_{n_p} = -\frac{C_L}{8}$$
+$$
+C_{n_p} = -\frac{C_L}{8}
+\tag{9}
+$$
 
 **The minus sign is the crux.** The wing that is rising carries more induced drag, so the
 aeroplane yaws away from the direction of roll.
@@ -196,7 +223,10 @@ aeroplane yaws away from the direction of roll.
 **The argument about teaching follows from the lift coefficient sitting in that numerator.**
 The adverse yaw is proportional to $C_L$, and $C_L$ is inversely proportional to the square of the speed,
 
-$$C_L = \frac{2 (W/S)}{\rho V^2}$$
+$$
+C_L = \frac{2 (W/S)}{\rho V^2}
+\tag{10}
+$$
 
 so **a slow aeroplane on a big wing produces a great deal of it**. The relation between the induced yawing and rolling moments of a wing goes back to [Munk 1925][research_munk_1925], the effect of the adverse yawing moment on lateral manoeuvrability at a high lift coefficient was measured in [Fehlner 1942][research_fehlner_1942], and the period's lateral control research is summarised in [Weick and Jones 1937][research_weick_jones_1937]. The yawing moment due to rolling is treated in [Johnson and Sternfield 1948][research_johnson_sternfield_1948] and [Martina 1953][research_martina_1953], and the roll response it competes with is measured in [Bennett and Johnson 1947][research_bennett_johnson_1947] and set against roll control power in the landing approach in [Hall and Boothe 1972][research_hall_boothe_1972]. Further records appear in the survey clusters on lateral control, ailerons and adverse yaw and on lateral-directional stability, roll damping and coupling. The standard developments of the derivative machinery are [Etkin and Reid on flight dynamics][book_etkin_reid_1996] and, contemporary with the aircraft, [Perkins and Hage][book_perkins_hage_1949]. The account written for the pilots who would fly it is [Hurt's aerodynamics for naval aviators][book_hurt_1965].
 
@@ -204,28 +234,43 @@ so **a slow aeroplane on a big wing produces a great deal of it**. The relation 
 
 During a steady roll at helix angle $pb/2V$ the yawing moment coefficient is
 
-$$C_n = C_{n_p} \cdot \frac{pb}{2V}$$
+$$
+C_n = C_{n_p} \cdot \frac{pb}{2V}
+\tag{11}
+$$
 
 and the sideslip that moment drives against the aircraft's directional stiffness is
 
-$$\beta \approx \frac{|C_n|}{C_{n_\beta}}$$
+$$
+\beta \approx \frac{|C_n|}{C_{n_\beta}}
+\tag{12}
+$$
 
 **The helix angle is a property of the configuration rather than of the flight condition, and that deserves a proof.** In a steady
 roll the moment the ailerons apply and the damping moment the roll itself generates are in balance,
 
-$$C_{l_{\delta_a}} \delta_a + C_{l_p} \frac{pb}{2V} = 0 \quad \Longrightarrow \quad \frac{pb}{2V} = -\frac{C_{l_{\delta_a}} \delta_a}{C_{l_p}}$$
+$$
+C_{l_{\delta_a}} \delta_a + C_{l_p} \frac{pb}{2V} = 0 \quad \Longrightarrow \quad \frac{pb}{2V} = -\frac{C_{l_{\delta_a}} \delta_a}{C_{l_p}}
+\tag{13}
+$$
 
 **There is no speed in that expression and no span either.** The helix angle is fixed by the aileron power
 and the roll damping, both of which are shape properties, and both of which the period measured directly in
 tunnels and in flight, as in the roll-response papers of the previous subsection. The roll rate therefore
 follows,
 
-$$p = \frac{pb}{2V} \cdot \frac{2V}{b}$$
+$$
+p = \frac{pb}{2V} \cdot \frac{2V}{b}
+\tag{14}
+$$
 
 **and a long wing rolls slowly for the same reason a long lever turns slowly.** Bank angle is the integral
 of that rate, so the time to reach a given attitude is
 
-$$t = \frac{\phi}{p} = \frac{\phi \, b}{2 V \left( pb/2V \right)}$$
+$$
+t = \frac{\phi}{p} = \frac{\phi \, b}{2 V \left( pb/2V \right)}
+\tag{15}
+$$
 
 Taking the X-26A at 60 miles per hour and a generic jet trainer at 300, with **every jet quantity assumed**,
 
@@ -246,7 +291,10 @@ Taking the X-26A at 60 miles per hour and a generic jet trainer at 300, with **e
 Multiplying the two effects gives a rough index of how observable the phenomenon is, which comes out at
 **seventy-five**. Written as a scaling,
 
-$$\beta \, t \propto \frac{(W/S) \, b}{V^3 C_{n_\beta}}$$
+$$
+\beta \, t \propto \frac{(W/S) \, b}{V^3 C_{n_\beta}}
+\tag{16}
+$$
 
 **The helix angle cancels out of that expression**, which is not obvious. It means the comparison
 does not depend on how powerful the ailerons are.
@@ -258,14 +306,20 @@ not a refinement.
 
 **Adverse yaw grows as lift coefficient, so the demonstration wants to be flown as slowly as it safely can be, and what bounds that is the stall.**
 
-$$V_{stall} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L_{max}}}}$$
+$$
+V_{stall} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L_{max}}}}
+\tag{17}
+$$
 
 **This cannot be predicted, because the maximum lift coefficient is not known**, and what a given section
 will reach is found by measurement, the approach the induced-drag and sailplane studies take. The
 relation is inverted instead. The
 quoted 46 mile per hour stall implies
 
-$$C_{L_{max}} = \frac{2 (W/S)}{\rho V_{stall}^2} = 1.11$$
+$$
+C_{L_{max}} = \frac{2 (W/S)}{\rho V_{stall}^2} = 1.11
+\tag{18}
+$$
 
 at the light weight, or 1.47 at gross.
 **The first is an ordinary value for an unflapped sailplane section and the second is high for one**,
@@ -276,7 +330,10 @@ Taking the light-weight value, the 60 mile per hour training case sits about thi
 **which is close enough to make the phenomenon large and far enough to make it safe.** At a fixed weight the
 sideslip scales as $C_L$ and therefore as $1/V^2$, so
 
-$$\frac{V}{V_{stall}} = \frac{60}{46} = 1.30, \qquad \frac{\beta_{stall}}{\beta_{60}} = \left( \frac{60}{46} \right)^2 = 1.70$$
+$$
+\frac{V}{V_{stall}} = \frac{60}{46} = 1.30, \qquad \frac{\beta_{stall}}{\beta_{60}} = \left( \frac{60}{46} \right)^2 = 1.70
+\tag{19}
+$$
 
 Flown at the stall the sideslip would be about seventy percent larger, and unrecoverable inattention
 would cost rather more than a lesson.
@@ -291,13 +348,19 @@ amplitude.
 
 Steady flight requires power to overcome drag,
 
-$$P = \frac{W V}{L/D}$$
+$$
+P = \frac{W V}{L/D}
+\tag{20}
+$$
 
 **and a high lift-to-drag ratio means that this number is small.** Taking an assumed
 2,400 pound gross weight for the QT-2PC and an assumed lift-to-drag ratio of 20, degraded from the
 sailplane's 35 by the engine, the shaft, the sensors and a fixed propeller,
 
-$$P = \frac{(2400)(110 \, \text{ft/s})}{20} = 13{,}200 \, \text{ft lb/s} = 24 \, \text{hp}$$
+$$
+P = \frac{(2400)(110 \, \text{ft/s})}{20} = 13{,}200 \, \text{ft lb/s} = 24 \, \text{hp}
+\tag{21}
+$$
 
 **Twenty-four horsepower of the hundred installed.** That margin made the design possible.
 
@@ -308,16 +371,25 @@ it distinguishes are among the oldest results in aircraft performance and are tr
 period literature, in [Rice 1946][research_rice_1946], [Hanks 1956][research_hanks_1956], [Bogdanovic et al. 1965][research_bogdanovic_1965], [Finnestead and Antoniou 1965][research_finnestead_antoniou_1965], [Bert 1981][research_bert_1981], [Laine 1982][research_laine_1982], [Torenbeek and Wittenberg 1983][research_torenbeek_wittenberg_1983], [Hall and Rogan 1988][research_hall_rogan_1988], [Hall and Rogan 1989][research_hall_rogan_1989]. Writing the power required
 against speed shows two terms pulling opposite ways,
 
-$$P = \tfrac{1}{2} \rho V^3 S \, C_{D_0} + \frac{2 W^2}{\rho V S \pi e A}$$
+$$
+P = \tfrac{1}{2} \rho V^3 S \, C_{D_0} + \frac{2 W^2}{\rho V S \pi e A}
+\tag{22}
+$$
 
 Differentiating and setting the derivative to zero puts the parasite term at **three times** the induced
 one, where maximising lift-to-drag put them **equal**. The consequences follow immediately,
 
-$$C_{L, mp} = \sqrt{3} \, C_L^{\ast}, \qquad V_{mp} = \frac{V_{bg}}{3^{1/4}} = 0.760 \, V_{bg}, \qquad \left( \frac{L}{D} \right)_{mp} = \frac{\sqrt{3}}{2} \left( \frac{L}{D} \right)_{max}$$
+$$
+C_{L, mp} = \sqrt{3} \, C_L^{\ast}, \qquad V_{mp} = \frac{V_{bg}}{3^{1/4}} = 0.760 \, V_{bg}, \qquad \left( \frac{L}{D} \right)_{mp} = \frac{\sqrt{3}}{2} \left( \frac{L}{D} \right)_{max}
+\tag{23}
+$$
 
 so the power at the minimum is
 
-$$\frac{P_{mp}}{P_{bg}} = \frac{0.760}{0.866} = 0.877$$
+$$
+\frac{P_{mp}}{P_{bg}} = \frac{0.760}{0.866} = 0.877
+\tag{24}
+$$
 
 **a saving of 12.3 percent for flying 24 percent slower.** For the QT-2PC on the assumed figures best glide
 is 81.5 miles per hour and minimum power is 62.0, and
@@ -327,7 +399,10 @@ and a speed margin.
 **The noise value of that choice is almost nothing, and saying so keeps two motives from being confused.**
 If radiated sound power followed shaft power, 12.3 percent would be worth
 
-$$10 \log_{10} \frac{1}{0.877} = 0.57 \text{ dB}$$
+$$
+10 \log_{10} \frac{1}{0.877} = 0.57 \text{ dB}
+\tag{25}
+$$
 
 **Half a decibel. The loiter speed is explained by endurance and not by quiet.** An engine asked for a fifth
 of its rating can be throttled deep, wrapped in mufflers that would strangle it at full power, and geared
@@ -341,25 +416,37 @@ is documented in [Ohta 1935][research_ohta_1935], [Nelson 1938][research_nelson_
 **This article uses decibels throughout and one should be defined before it does.** Sound pressure level is
 a logarithmic ratio against a fixed reference,
 
-$$\text{SPL} = 20 \log_{10} \frac{p}{p_{ref}}, \qquad p_{ref} = 20 \, \mu\text{Pa}$$
+$$
+\text{SPL} = 20 \log_{10} \frac{p}{p_{ref}}, \qquad p_{ref} = 20 \, \mu\text{Pa}
+\tag{26}
+$$
 
 Intensity from a compact source falls over the surface of a sphere,
 
-$$I = \frac{W_{ac}}{4 \pi r^2}$$
+$$
+I = \frac{W_{ac}}{4 \pi r^2}
+\tag{27}
+$$
 
 **Intensity goes as the inverse square of range and pressure as the inverse first power**, so the
 coefficient in front of the logarithm is twenty where an intensity ratio would give ten.
 
 The level therefore falls with the logarithm of distance,
 
-$$\text{SPL}(r) = \text{SPL}(r_0) - 20 \log_{10} \frac{r}{r_0}$$
+$$
+\text{SPL}(r) = \text{SPL}(r_0) - 20 \log_{10} \frac{r}{r_0}
+\tag{28}
+$$
 
 **Every doubling of slant range costs 6.02 decibels and no more.** No number in the subject is more useful, and it sets what a design programme can hope to buy. Propagation in the lower atmosphere is reviewed in [Nyborg and Mintzer 1955][research_nyborg_mintzer_1955], atmospheric absorption is given in [Bass et al. 1972][research_bass_1972] and updated in [Bass et al. 1990][research_bass_1990], refraction and ground attenuation are treated in [Kriebel 1972][research_kriebel_1972] and [Rasmussen 1986][research_rasmussen_1986], and the excess attenuation of aircraft noise with distance is measured in [Wolf and Raspet 1986][research_wolf_raspet_1986]. The survey cluster on outdoor sound propagation and atmospheric absorption holds the remainder, and the physical principles behind it are [Pierce on acoustics][book_pierce_1981]. The engineering practice of quieting machinery is [Beranek on noise and vibration control][book_beranek_1988].
 
 The maximum range at which the aircraft is audible follows by setting the received level equal to the
 ambient,
 
-$$r_{max} = r_0 \cdot 10^{\, (\text{SPL}(r_0) - L_{amb}) / 20}$$
+$$
+r_{max} = r_0 \cdot 10^{\, (\text{SPL}(r_0) - L_{amb}) / 20}
+\tag{29}
+$$
 
 **Calibrating that against the record rather than assuming a source level**, the QT-2PC was [reported
 detectable at 750 feet][ref_albertson_2015], which against an assumed 40 dBA rural night ambient implies about 49.5 dBA at 250
@@ -374,7 +461,10 @@ feet. Sweeping the ambient,
 
 **A detection range is a slant range and not an altitude**, which reconciles two numbers the record gives separately. **Flyover measurement is geometry before it is acoustics**, and the conventions for relating source position, receiver position and measured level are established practice, in [Zorumski 1977][research_zorumski_1977], [Muller 1971][research_muller_1971], [Chessell 1978][research_chessell_1978], [Willshire and Hilton 1979][research_willshire_hilton_1979], [Marsh 1981][research_marsh_1981], [Shivashankara and Stubbs 1987][research_shivashankara_stubbs_1987] and [Peart 1991][research_peart_1991], and the clusters on aircraft noise sources, measurement, prediction and reduction and on outdoor sound propagation carry many more.
 
-$$r = \sqrt{h^2 + x^2}$$
+$$
+r = \sqrt{h^2 + x^2}
+\tag{30}
+$$
 
 The aircraft was detectable at 750 feet and [missions were flown no lower than 800][ref_albertson_2015].
 **Those are the same statement.** At any altitude above 750 feet the detection sphere does not reach the
@@ -384,7 +474,10 @@ with fifty feet of margin.
 **The aircraft's usable altitude depends on how quiet the night is, as well as on the aircraft.** From the
 range relation above, a change $\Delta L_{amb}$ in ambient scales the detection range by
 
-$$\frac{r_{max}(L_{amb} - \Delta L_{amb})}{r_{max}(L_{amb})} = 10^{\Delta L_{amb}/20} = 10^{5/20} = 1.78$$
+$$
+\frac{r_{max}(L_{amb} - \Delta L_{amb})}{r_{max}(L_{amb})} = 10^{\Delta L_{amb}/20} = 10^{5/20} = 1.78
+\tag{31}
+$$
 
 so a five decibel change in ambient moves the detection range by 78 percent.
 **The specification was always partly about the weather.** Aural detection was studied in [Schriever 1952][research_schriever_1952], [Bellucci 1963][research_bellucci_1963], [Chew and Chapin 1963][research_chew_chapin_1963], [Ollerhead 1971][research_ollerhead_1971], [Price and Hodge 1976][research_price_hodge_1976], [Ludeman 1979][research_ludeman_1979], [Ramachandra 1979][research_ramachandra_1979], [Michel 1989][research_michel_1989], [Mueller et al. 1993][research_mueller_1993], [Sheffield 2000][research_sheffield_2000].
@@ -395,14 +488,20 @@ so a five decibel change in ambient moves the detection range by 78 percent.
 radiates at low
 frequency,
 
-$$f = \frac{N_b \, \text{rpm}}{60}$$
+$$
+f = \frac{N_b \, \text{rpm}}{60}
+\tag{32}
+$$
 
 which for four blades at 1,000 revolutions per minute is 67 hertz.
 **How much sound the air absorbs, and how strongly that depends on frequency and humidity, is a measured subject with a long history**,
 and the propagation work cited with the spreading law traces it.
 Absorption accumulates linearly with distance at a coefficient that rises steeply with frequency,
 
-$$L_{abs} = \alpha \, r$$
+$$
+L_{abs} = \alpha \, r
+\tag{33}
+$$
 
 | Frequency, Hz | Coefficient, dB per 1,000 ft | Over 1,500 ft, dB |
 |---|---|---|
@@ -420,7 +519,10 @@ alone costs per doubling. The coefficients are order-of-magnitude values for mod
 
 Propeller rotational noise rises sharply with tip speed,
 
-$$V_{tip} = \frac{\pi D \, \text{rpm}}{60}$$
+$$
+V_{tip} = \frac{\pi D \, \text{rpm}}{60}
+\tag{34}
+$$
 
 A conventional light aircraft propeller of 6 feet at 2,700 revolutions per minute reaches 848 feet per
 second. A large slow propeller of 8.5 feet at 1,000 reaches 445.
@@ -437,13 +539,19 @@ propeller performance it sits beside is [McCormick][book_mccormick_1979].
 
 **There is a second reason the slow propeller is quiet.** **Propeller performance was reduced to charts in advance ratio and power coefficient long before it was computed**, and those charts are what a designer choosing a diameter and a reduction ratio used, in the performance literature cited under best glide and minimum power. The noise that follows from the choice was a research subject by [Deming 1937][research_deming_1937] and is reviewed in [Regier and Hubbard 1953][research_regier_hubbard_1953], small propeller aircraft are treated in [Maglieri and Hubbard 1975][research_maglieri_hubbard_1975] and a low noise propeller is designed and tested in [Succi 1981][research_succi_1981], with the prediction theory in [Farassat and Succi 1980][research_farassat_succi_1980] and [Hanson 1983][research_hanson_1983] and the tone's growth with tip Mach number in [Dittmar and Hall 1991][research_dittmar_hall_1991]. The propeller and rotor noise cluster below lists further work. The advance ratio compares forward speed to blade speed,
 
-$$J = \frac{V}{n D}$$
+$$
+J = \frac{V}{n D}
+\tag{35}
+$$
 
 and comes out at 0.65 for the conventional installation against 0.78 for the slow one,
 **so the slow propeller's blade sections are also more lightly loaded**, which reduces the loading noise as
 well as the thickness noise the tip speed governs. Tip Mach number is
 
-$$M_{tip} = \frac{V_{tip}}{a}$$
+$$
+M_{tip} = \frac{V_{tip}}{a}
+\tag{36}
+$$
 
 falling from 0.76 to 0.40 between the two installations.
 
@@ -457,7 +565,10 @@ falling from 0.76 to 0.40 between the two installations.
 and the flyover-measurement papers listed with the detection-range table treat it. Independent sources add in power rather than
 in pressure,
 
-$$L_{total} = 10 \log_{10} \sum_i 10^{L_i / 10}$$
+$$
+L_{total} = 10 \log_{10} \sum_i 10^{L_i / 10}
+\tag{37}
+$$
 
 **So the gain from quieting one source is capped by whatever remains.** Suppose the propeller starts ten
 decibels above everything else combined.
@@ -482,7 +593,10 @@ The X-26A [glides at 35 to 1][ref_sgs_2_32]. The QT-2PC carries an engine, a sha
 crewman on the same wing, and on the assumed figures its glide falls to 20 to 1 at a weight 1.7 times
 greater. Sink rate is power divided by weight, or equivalently speed divided by glide ratio,
 
-$$V_{sink} = \frac{P}{W} = \frac{V}{L/D}$$
+$$
+V_{sink} = \frac{P}{W} = \frac{V}{L/D}
+\tag{38}
+$$
 
 **Written that way it supplies a second and independent check on the polar.** Minimum sink is the
 minimum-power condition derived above, not the best-glide one.
@@ -490,7 +604,10 @@ minimum-power condition derived above, not the best-glide one.
 Evaluating at the minimum-power point and the light weight, with the best-glide speed of 54.7 miles per hour
 and the lift-to-drag ratio of 32.7 found above,
 
-$$V_{mp} = 0.760 \times 54.7 = 41.6 \, \text{mph} = 61.0 \, \text{ft/s}, \qquad V_{sink} = \frac{61.0}{(0.866)(32.7)} = 2.16 \, \text{ft/s} = 129 \, \text{ft/min}$$
+$$
+V_{mp} = 0.760 \times 54.7 = 41.6 \, \text{mph} = 61.0 \, \text{ft/s}, \qquad V_{sink} = \frac{61.0}{(0.866)(32.7)} = 2.16 \, \text{ft/s} = 129 \, \text{ft/min}
+\tag{39}
+$$
 
 which is **129 feet per minute at 42 miles per hour, against a quoted 124 at 46**. That is 4 percent in sink
 rate and 10 percent in speed,
@@ -1020,6 +1137,366 @@ had already optimised for unrelated reasons. This series has now found that twic
 pattern is evidence about the designation system rather than about aeroplanes.
 
 The next article in this series takes up the Lockheed X-27.
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 39 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 39, 29 are established and 10 are bespoke.
+Aerodynamic quantities are in United States customary units, with weight in pounds, area in square feet, speed in feet per second or miles per hour as each line states and density in slugs per cubic foot at sea level, sound levels are in decibels with pressure ratios taking twenty times the logarithm and power ratios ten, and the Oswald efficiency of 0.90, the zero-lift drag coefficient of 0.012, the QT-2PC weight of 2,400 pounds and its lift-to-drag ratio of 20 are values the article assumes.
+
+**Equation 1, Maximum Lift-to-Drag Ratio of a Parabolic Polar.**
+For a parabolic polar the maximum lift-to-drag ratio is half the square root of pi times Oswald efficiency times aspect ratio over the zero-lift drag coefficient.
+
+$$
+\left( \frac{L}{D} \right)_{max} = \frac{1}{2} \sqrt{\frac{\pi e A}{C_{D_0}}}
+\tag{1}
+$$
+
+**Equation 2, Parabolic Drag Polar.**
+The drag coefficient of a wing is a zero-lift term plus an induced term proportional to the square of the lift coefficient and inversely proportional to aspect ratio.
+
+$$
+C_D = C_{D_0} + \frac{C_L^2}{\pi e A}
+\tag{2}
+$$
+
+**Equation 3, Lift Coefficient for Maximum Lift-to-Drag Ratio.**
+The lift-to-drag ratio is greatest where the induced and zero-lift drag terms are equal, which fixes the best-glide lift coefficient.
+
+$$
+\frac{C_L^2}{\pi e A} = C_{D_0} \quad \Longrightarrow \quad C_L^{\ast} = \sqrt{\pi e A \, C_{D_0}}
+\tag{3}
+$$
+
+**Equation 4, Aspect Ratio of the X-26A Wing.**
+The documented span of 57.125 feet over the wing area of 180 square feet gives an aspect ratio of about 18.1.
+
+$$
+A = \frac{b^2}{S} = \frac{(57.125)^2}{180} = 18.1
+\tag{4}
+$$
+
+*Equation 5, Bespoke Maximum Lift-to-Drag Ratio of the X-26A.*
+With an Oswald efficiency the article assumes as 0.90 and a zero-lift drag coefficient it assumes as 0.012, the relation gives about 32.7 against a quoted 35.
+
+$$
+\left( \frac{L}{D} \right)_{max} = \frac{1}{2} \sqrt{\frac{\pi (0.90)(18.1)}{0.012}} = 32.7
+\tag{5}
+$$
+
+*Equation 6, Bespoke Best-Glide Lift Coefficient of the X-26A.*
+The same assumed efficiency and zero-lift drag give a best-glide lift coefficient of about 0.78.
+
+$$
+C_L^{\ast} = \sqrt{\pi (0.90)(18.1)(0.012)} = 0.784
+\tag{6}
+$$
+
+*Equation 7, Bespoke Best-Glide Speed at Two Wing Loadings.*
+The lift balance at the assumed best-glide lift coefficient and sea-level density gives about 63 miles per hour at the gross wing loading of 7.94 and about 55 at the quoted 6.0 pounds per square foot.
+[Schweizer SGS 2-32][ref_sgs_2_32]
+
+$$
+V_{bg} = \sqrt{\frac{2 (W/S)}{\rho \, C_L^{\ast}}}, \qquad V_{bg}\big|_{7.94} = \sqrt{\frac{2 (7.94)}{(0.0023769)(0.784)}} = 92.3 \, \text{ft/s} = 62.9 \, \text{mph}, \qquad V_{bg}\big|_{6.0} = 80.2 \, \text{ft/s} = 54.7 \, \text{mph}
+\tag{7}
+$$
+
+**Equation 8, Incidence Change from Rolling.**
+A wing section at spanwise station $y$ on an aeroplane rolling at rate $p$ meets the flow at an incidence changed by the local vertical velocity over the airspeed.
+
+$$
+\Delta \alpha = \frac{p \, y}{V}
+\tag{8}
+$$
+
+**Equation 9, Yawing Moment due to Roll Rate of an Elliptic Wing.**
+Integrating the induced drag asymmetry across an elliptically loaded span gives the classical yawing moment derivative of minus one eighth of the lift coefficient.
+
+$$
+C_{n_p} = -\frac{C_L}{8}
+\tag{9}
+$$
+
+**Equation 10, Lift Coefficient from Wing Loading and Speed.**
+The lift coefficient in level flight is twice the wing loading over density times the square of speed, so it rises as the aeroplane slows.
+
+$$
+C_L = \frac{2 (W/S)}{\rho V^2}
+\tag{10}
+$$
+
+**Equation 11, Yawing Moment Coefficient in a Steady Roll.**
+In a steady roll the yawing moment coefficient is the yaw-due-to-roll derivative times the helix angle.
+
+$$
+C_n = C_{n_p} \cdot \frac{pb}{2V}
+\tag{11}
+$$
+
+**Equation 12, Sideslip Driven Against Directional Stiffness.**
+To first order the sideslip that the adverse yawing moment drives is that moment over the directional stiffness derivative.
+
+$$
+\beta \approx \frac{|C_n|}{C_{n_\beta}}
+\tag{12}
+$$
+
+**Equation 13, Steady Roll Balance and Helix Angle.**
+In a steady roll the aileron moment balances the roll damping moment, so the helix angle is fixed by aileron power and roll damping alone.
+
+$$
+C_{l_{\delta_a}} \delta_a + C_{l_p} \frac{pb}{2V} = 0 \quad \Longrightarrow \quad \frac{pb}{2V} = -\frac{C_{l_{\delta_a}} \delta_a}{C_{l_p}}
+\tag{13}
+$$
+
+**Equation 14, Roll Rate from the Helix Angle.**
+The roll rate is the helix angle times twice the airspeed over the span, so a long wing rolls slowly.
+
+$$
+p = \frac{pb}{2V} \cdot \frac{2V}{b}
+\tag{14}
+$$
+
+**Equation 15, Time to Reach a Bank Angle.**
+At a steady roll rate the time to reach a bank angle is that angle over the roll rate, written through the helix angle.
+
+$$
+t = \frac{\phi}{p} = \frac{\phi \, b}{2 V \left( pb/2V \right)}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Observability Scaling of Adverse Yaw.*
+The article multiplies sideslip by time to bank as an index of how observable adverse yaw is and finds it scales as wing loading times span over the cube of speed and the directional stiffness.
+
+$$
+\beta \, t \propto \frac{(W/S) \, b}{V^3 C_{n_\beta}}
+\tag{16}
+$$
+
+**Equation 17, Stall Speed.**
+The stall speed is the speed at which the lift balance requires the maximum lift coefficient.
+
+$$
+V_{stall} = \sqrt{\frac{2 (W/S)}{\rho \, C_{L_{max}}}}
+\tag{17}
+$$
+
+**Equation 18, Maximum Lift Coefficient Implied by the Quoted Stall.**
+Inverting the stall relation at the quoted 46 mile per hour stall and the quoted wing loading of 6.0 pounds per square foot gives a maximum lift coefficient of about 1.11.
+
+$$
+C_{L_{max}} = \frac{2 (W/S)}{\rho V_{stall}^2} = 1.11
+\tag{18}
+$$
+
+*Equation 19, Bespoke Stall Margin and Sideslip Growth at the Training Speed.*
+At a training speed the article takes as 60 miles per hour, the aircraft flies thirty percent above the stall and the sideslip at the stall would be seventy percent larger.
+
+$$
+\frac{V}{V_{stall}} = \frac{60}{46} = 1.30, \qquad \frac{\beta_{stall}}{\beta_{60}} = \left( \frac{60}{46} \right)^2 = 1.70
+\tag{19}
+$$
+
+**Equation 20, Power Required for Steady Flight.**
+The power required for steady flight is weight times speed over the lift-to-drag ratio.
+
+$$
+P = \frac{W V}{L/D}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Power Required by the QT-2PC.*
+At an assumed weight of 2,400 pounds, an assumed lift-to-drag ratio of 20 and 110 feet per second, the power required is about 24 horsepower.
+
+$$
+P = \frac{(2400)(110 \, \text{ft/s})}{20} = 13{,}200 \, \text{ft lb/s} = 24 \, \text{hp}
+\tag{21}
+$$
+
+**Equation 22, Power Required Against Speed.**
+The power required is a parasite term rising as the cube of speed plus an induced term falling inversely with speed.
+
+$$
+P = \tfrac{1}{2} \rho V^3 S \, C_{D_0} + \frac{2 W^2}{\rho V S \pi e A}
+\tag{22}
+$$
+
+**Equation 23, Minimum Power Condition.**
+At minimum power the parasite term is three times the induced term, which raises the lift coefficient by the square root of three and lowers the speed by the fourth root of three.
+
+$$
+C_{L, mp} = \sqrt{3} \, C_L^{\ast}, \qquad V_{mp} = \frac{V_{bg}}{3^{1/4}} = 0.760 \, V_{bg}, \qquad \left( \frac{L}{D} \right)_{mp} = \frac{\sqrt{3}}{2} \left( \frac{L}{D} \right)_{max}
+\tag{23}
+$$
+
+**Equation 24, Ratio of Minimum Power to Best-Glide Power.**
+Power at the minimum-power speed is about 0.88 of the power at best glide.
+
+$$
+\frac{P_{mp}}{P_{bg}} = \frac{0.760}{0.866} = 0.877
+\tag{24}
+$$
+
+*Equation 25, Bespoke Noise Value of Flying at Minimum Power.*
+If radiated sound power followed shaft power, an assumption the article adopts to bound the effect, the saving at minimum power would be worth about half a decibel.
+
+$$
+10 \log_{10} \frac{1}{0.877} = 0.57 \text{ dB}
+\tag{25}
+$$
+
+**Equation 26, Sound Pressure Level.**
+Sound pressure level is twenty times the logarithm of the pressure ratio to a reference of 20 micropascals.
+
+$$
+\text{SPL} = 20 \log_{10} \frac{p}{p_{ref}}, \qquad p_{ref} = 20 \, \mu\text{Pa}
+\tag{26}
+$$
+
+**Equation 27, Spherical Spreading of Intensity.**
+Intensity from a compact source of acoustic power $W_{ac}$ falls as the inverse square of range over the surface of a sphere.
+
+$$
+I = \frac{W_{ac}}{4 \pi r^2}
+\tag{27}
+$$
+
+**Equation 28, Spherical Spreading Loss with Distance.**
+The sound pressure level falls by twenty times the logarithm of the range ratio, 6.02 decibels for every doubling.
+[Beranek on noise and vibration control][book_beranek_1988]
+[Pierce on acoustics][book_pierce_1981]
+
+$$
+\text{SPL}(r) = \text{SPL}(r_0) - 20 \log_{10} \frac{r}{r_0}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Maximum Audible Range.*
+Taking the aircraft as audible until the spreading level falls to the ambient, the maximum range follows from the source level at a reference range.
+
+$$
+r_{max} = r_0 \cdot 10^{\, (\text{SPL}(r_0) - L_{amb}) / 20}
+\tag{29}
+$$
+
+**Equation 30, Slant Range.**
+The slant range is the hypotenuse of the altitude and the horizontal distance.
+
+$$
+r = \sqrt{h^2 + x^2}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Detection Range Change with Ambient Level.*
+Within the article's detection criterion a five decibel fall in ambient lengthens the detection range by a factor of 1.78.
+
+$$
+\frac{r_{max}(L_{amb} - \Delta L_{amb})}{r_{max}(L_{amb})} = 10^{\Delta L_{amb}/20} = 10^{5/20} = 1.78
+\tag{31}
+$$
+
+**Equation 32, Blade Passing Frequency.**
+The fundamental tone of a propeller is the blade count times the revolutions per minute over sixty.
+
+$$
+f = \frac{N_b \, \text{rpm}}{60}
+\tag{32}
+$$
+
+**Equation 33, Atmospheric Absorption Loss.**
+Absorption loss accumulates linearly with distance at a coefficient that rises steeply with frequency.
+
+$$
+L_{abs} = \alpha \, r
+\tag{33}
+$$
+
+**Equation 34, Propeller Tip Speed.**
+The rotational tip speed is pi times the diameter times the revolutions per minute over sixty.
+
+$$
+V_{tip} = \frac{\pi D \, \text{rpm}}{60}
+\tag{34}
+$$
+
+**Equation 35, Advance Ratio.**
+The advance ratio is forward speed over the product of rotational speed in revolutions per second and diameter.
+
+$$
+J = \frac{V}{n D}
+\tag{35}
+$$
+
+**Equation 36, Tip Mach Number.**
+The tip Mach number is the tip speed over the speed of sound.
+
+$$
+M_{tip} = \frac{V_{tip}}{a}
+\tag{36}
+$$
+
+**Equation 37, Incoherent Sum of Sound Levels.**
+Independent sources add in power, so the total level is ten times the logarithm of the sum of their power ratios.
+
+$$
+L_{total} = 10 \log_{10} \sum_i 10^{L_i / 10}
+\tag{37}
+$$
+
+**Equation 38, Sink Rate from Power and Glide Ratio.**
+Sink rate is power over weight, or equivalently speed over the lift-to-drag ratio.
+[Schweizer SGS 2-32][ref_sgs_2_32]
+
+$$
+V_{sink} = \frac{P}{W} = \frac{V}{L/D}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Minimum Sink Rate of the X-26A.*
+At the minimum-power point and the light weight, with the best-glide speed and lift-to-drag ratio that the assumed efficiency and zero-lift drag produced, the sink rate is about 129 feet per minute against a quoted 124.
+
+$$
+V_{mp} = 0.760 \times 54.7 = 41.6 \, \text{mph} = 61.0 \, \text{ft/s}, \qquad V_{sink} = \frac{61.0}{(0.866)(32.7)} = 2.16 \, \text{ft/s} = 129 \, \text{ft/min}
+\tag{39}
+$$
+
+### Notation
+
+- $L$, the lift
+- $D$, the drag, and in Equations 34 and 35 the propeller diameter
+- $e$, the Oswald efficiency, taken as 0.90
+- $A$, the wing aspect ratio
+- $C_{D_0}$, the zero-lift drag coefficient, taken as 0.012
+- $C_L$, the lift coefficient, with $C_L^{\ast}$ its value at best glide
+- $b$, the wing span
+- $S$, the wing area
+- $W$, the weight
+- $\rho$, the air density
+- $V_{bg}$, the best-glide speed, with $V_{mp}$ the minimum-power speed
+- $p$, the roll rate, and in Equation 26 the sound pressure
+- $y$, the spanwise station
+- $C_{n_p}$, the yawing moment derivative due to roll rate
+- $C_{n_\beta}$, the directional stiffness derivative
+- $\beta$, the sideslip angle
+- $C_{l_{\delta_a}}$, the aileron roll power
+- $C_{l_p}$, the roll damping derivative
+- $pb/2V$, the helix angle of a steady roll
+- $\phi$, the bank angle
+- $C_{L_{max}}$, the maximum lift coefficient
+- $P$, the power required
+- $\text{SPL}$, the sound pressure level
+- $L_{amb}$, the ambient sound level
+- $r$, the slant range from source to listener
+- $N_b$, the number of propeller blades
+- $\alpha$, the atmospheric absorption coefficient
+- $V_{tip}$, the propeller tip speed
+- $J$, the advance ratio
+- $M_{tip}$, the tip Mach number
+
 ## References
 
 <!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->

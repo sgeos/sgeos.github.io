@@ -1,0 +1,767 @@
+# Equation classification for A313. Read by `python3 _lib/equations.py`.
+
+caution = "Quoted aircraft figures are in pounds, feet, knots and nautical miles while the atmosphere, speeds of sound and Reynolds numbers are computed in SI units, and several letters are reused, so $a$ is both the speed of sound and the lift-curve slope, $A$ is both the aspect ratio and an Antoine coefficient, $c$ is both a chord and the specific fuel consumption, $R$ is both the specific gas constant and the range, and $\\theta$, $\\lambda$ and $\\delta$ each change meaning between the atmosphere, engine and sensor sections."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Unrefuelled Distance Implied by the Required Radius"
+gloss = "The unrefuelled distance is twice the operational radius of 1,500 nautical miles that the requirement stated, because a radius is half a round trip."
+cite = ["ref_pedlow_welzenbach_1992_ch1"]
+digest = "1727232ea4cfc288"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Aspect Ratio From Published Dimensions"
+gloss = "The aspect ratio is the square of the published span divided by the published wing area, which reproduces the quoted value to rounding."
+cite = ["ref_x16"]
+digest = "9b09f00b7ad792eb"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Wing Loading From Published Weight and Area"
+gloss = "The wing loading is the published gross weight divided by the published wing area."
+cite = ["ref_x16"]
+digest = "f1a9708ce476e30d"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Thrust to Weight Ratio From Published Figures"
+gloss = "The thrust to weight ratio is the quoted sea-level thrust of the two engines divided by the quoted gross weight."
+cite = ["ref_x16"]
+digest = "0363411f39e4800a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Pressure in the Isothermal Layer"
+gloss = "Between 11 and 20 kilometres the standard atmosphere is isothermal, so pressure falls exponentially with geopotential altitude above the base of the layer."
+cite = []
+digest = "a4c93e2fe2d952b1"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Pressure in the Lower Stratospheric Gradient Layer"
+gloss = "Above 20 kilometres the standard atmosphere warms at a constant lapse rate, so pressure follows a power of the temperature ratio."
+cite = []
+digest = "7b152a4fb52ed939"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Ideal Gas Law for Density"
+gloss = "Density follows from pressure and temperature through the ideal gas law."
+cite = []
+digest = "6af362043e249315"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Speed of Sound in an Ideal Gas"
+gloss = "The speed of sound is the square root of the ratio of specific heats times the gas constant times the temperature."
+cite = []
+digest = "35b72a8338f0a5e2"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Density Ratio at the Design Altitude"
+gloss = "The standard atmosphere density at 69,500 feet divided by the sea-level density gives a density ratio of about one seventeenth."
+cite = []
+digest = "bd6a79fd088a6ec2"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Speed of Sound at the Design Altitude"
+gloss = "The speed of sound at the design altitude follows from the standard atmosphere temperature there."
+cite = []
+digest = "20b3b6017d7086cf"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Lift Equals Weight in Level Flight"
+gloss = "Level flight requires the lift, written as dynamic pressure times wing area times lift coefficient, to equal the weight."
+cite = []
+digest = "d19cc936c8e07cd5"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Drag Equation"
+gloss = "Drag is the same dynamic pressure times wing area times the drag coefficient."
+cite = []
+digest = "fb7256daab32d77d"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Parabolic Drag Polar"
+gloss = "The drag coefficient is the zero-lift drag coefficient plus an induced term proportional to the square of the lift coefficient."
+cite = []
+digest = "8a04c04af1329fa3"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Lift Coefficient for Maximum Lift to Drag Ratio"
+gloss = "Under a parabolic polar the lift to drag ratio is greatest at the lift coefficient where induced and zero-lift drag are equal."
+cite = []
+digest = "8a757b90ebe81ba1"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Stationarity Condition for Minimum Drag Coefficient Ratio"
+gloss = "Setting the derivative of the drag to lift coefficient ratio to zero locates the optimum lift coefficient."
+cite = []
+digest = "b6158fc571947e1c"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Induced Drag Equals Zero-Lift Drag at the Optimum"
+gloss = "At the optimum lift coefficient the induced drag coefficient equals the zero-lift drag coefficient."
+cite = []
+digest = "5f3bb213c2cc7bf9"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Maximum Lift to Drag Ratio of a Parabolic Polar"
+gloss = "The maximum lift to drag ratio is half the square root of $\\pi A e$ divided by the zero-lift drag coefficient."
+cite = []
+digest = "e8131db16bfc4bcb"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Maximum Lift to Drag Ratio of the X-16"
+gloss = "The maximum lift to drag ratio is evaluated with an assumed zero-lift drag coefficient of 0.018 and an assumed span efficiency of 0.85, neither of which was published for the aircraft."
+cite = []
+digest = "c2fefc275adc01f9"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Minimum Drag in Level Flight"
+gloss = "Minimum drag is weight divided by the maximum lift to drag ratio, which contains no density."
+cite = []
+digest = "09c0c965f56489d2"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Speed for the Optimum Lift Coefficient"
+gloss = "Holding the optimum lift coefficient fixes the required true airspeed as a function of wing loading and density."
+cite = []
+digest = "ddbea16ed31df514"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Dynamic Pressure at the Optimum Lift Coefficient"
+gloss = "At the speed that holds the optimum lift coefficient the dynamic pressure equals the wing loading divided by that coefficient and is independent of altitude."
+cite = []
+digest = "7caa28daee24a91c"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Altitude Independence of Minimum Drag"
+gloss = "Substituting the optimum speed into the drag equation cancels the density and returns weight over the maximum lift to drag ratio."
+cite = []
+digest = "7e761bf1f7601035"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Minimum Drag at Gross Weight"
+gloss = "The minimum drag at the gross weight of 36,124 pounds follows from the lift to drag ratio built on the assumed zero-lift drag and span efficiency."
+cite = []
+digest = "85b2f10b56e729f1"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Power Law Thrust Lapse With Density"
+gloss = "Turbojet thrust is written as the sea-level static thrust times the density ratio raised to a lapse exponent $n$."
+cite = []
+digest = "5a25ceeb440c4fb4"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Specific Excess Power"
+gloss = "Specific excess power, the rate of climb available, is the excess of thrust over drag times speed divided by weight."
+cite = []
+digest = "8c950fdc3bd3685d"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Absolute Ceiling Condition"
+gloss = "The absolute ceiling is where lapsed thrust has fallen to equal the minimum drag, so that specific excess power vanishes."
+cite = []
+digest = "2b8f1a2b6d2535fd"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Density Ratio at the Thrust Ceiling"
+gloss = "Solving the ceiling condition for the density ratio gives the weight over thrust times the maximum lift to drag ratio raised to the power $1/n$."
+cite = []
+digest = "7247f644020e6589"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Ceiling Density Ratio Proportional to Weight"
+gloss = "Taking the lapse exponent close to one makes the ceiling density ratio very nearly proportional to instantaneous weight, so the ceiling rises as fuel burns."
+cite = []
+digest = "04dee30fd839ba9f"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Stalling Speed"
+gloss = "The stalling speed in true airspeed follows from the lift equation at the maximum lift coefficient."
+cite = []
+digest = "ecbf94ae75ff8ddb"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Stalling Mach Number"
+gloss = "Dividing the stalling speed by the local speed of sound gives a stalling Mach number that rises as density falls."
+cite = []
+digest = "1d32aa3cc9e9103a"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Density at the Coffin Corner"
+gloss = "Treating the maximum lift coefficient and the buffet onset Mach number as constants, the article sets the stalling Mach number equal to the buffet Mach number and solves for the density at which the speed band closes."
+cite = ["research_pepper_foster_1946", "research_bingham_chen_1972", "research_anderson_1984"]
+digest = "59b621267518ea32"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Width of the Usable Mach Band"
+gloss = "The usable speed band is the buffet onset Mach number less the stalling Mach number."
+cite = []
+digest = "34be19237e0b1b86"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Usable Mach Band at the Design Altitude"
+gloss = "The band at 69,500 feet and 26,000 pounds is evaluated against an assumed buffet onset Mach number of 0.75 and a stalling Mach number from an assumed maximum lift coefficient of 1.2."
+cite = []
+digest = "fc36c0c27c4538c0"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Equivalent Airspeed"
+gloss = "Equivalent airspeed is true airspeed scaled by the square root of the density ratio."
+cite = []
+digest = "fcfc7be8d60830c7"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Usable Band in Equivalent Airspeed"
+gloss = "The true airspeed band from the assumed buffet and maximum lift values is converted to the narrower band that the pilot reads on the instrument."
+cite = []
+digest = "82083c4f41e4a231"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Weight Implied by a Given Ceiling"
+gloss = "Inverting the ceiling condition gives the weight at which a given density ratio is the thrust ceiling."
+cite = []
+digest = "0f9fd4538cd897bf"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Weight Required to Reach the Quoted Ceiling"
+gloss = "At a lapse exponent taken as one and the assumed drag polar, the quoted 71,832 foot ceiling requires a weight 955 pounds below the empty weight."
+cite = ["ref_x16"]
+digest = "868895270ea7fc7c"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Ratio of Ceiling Sensitivities"
+gloss = "The ceiling span across an assumed range of lapse exponent from 0.70 to 1.15 is divided by its span across an assumed range of zero-lift drag from 0.014 to 0.030."
+cite = []
+digest = "74210757d2c6f883"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Lapse Exponent Implied by a Quoted Ceiling"
+gloss = "The article inverts the ceiling condition for the exponent and calibrates it against each aircraft's quoted ceiling at an end-of-mission weight that it sets at empty weight plus 1,200 pounds."
+cite = []
+digest = "5ea2d24fce70d209"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Lapse Exponent Required by the U-2A"
+gloss = "The exponent for the U-2A uses the sourced J57-P-37 thrust of 10,200 pounds but a maximum lift to drag ratio of 19.93 from the assumed drag polar."
+cite = ["ref_pedlow_welzenbach_1992_ch2"]
+digest = "d78560a63195e86b"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Thrust Available at the Design Altitude"
+gloss = "Thrust at 69,500 feet is evaluated at the mean exponent of 0.9378 that the article fitted to three aircraft."
+cite = []
+digest = "3114733f8acba4d7"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Fuel Burned Before Reaching the Design Altitude"
+gloss = "The fuel burned is the gross weight less the crossing weight of 29,839 pounds that the fitted lapse exponent and assumed drag polar predict."
+cite = []
+digest = "030483b8aefedf15"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Fraction of Disposable Load Burned at the Crossing"
+gloss = "The predicted fuel burn to the crossing is divided by the disposable load, the gross weight less the empty weight."
+cite = []
+digest = "bdb6771e43268061"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Fraction of Cruise Elapsed at the Crossing"
+gloss = "Assuming a fixed lift to drag ratio, so that fuel flow is proportional to weight and weight decays exponentially in time, the elapsed fraction is a ratio of logarithmic weight ratios."
+cite = []
+digest = "39661d0e170ac28a"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Scaling of Maximum Lift to Drag Ratio With Aspect Ratio"
+gloss = "Under a parabolic polar the maximum lift to drag ratio grows as the square root of aspect ratio."
+cite = []
+digest = "60336543af2d94ac"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Benefit of Doubling Aspect Ratio"
+gloss = "Doubling the aspect ratio multiplies the maximum lift to drag ratio by the square root of two."
+cite = []
+digest = "b29a645c6904d6c1"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Induced Drag Factor of the X-16"
+gloss = "The induced drag factor is evaluated with the published aspect ratio and an assumed span efficiency of 0.85."
+cite = []
+digest = "ff77e6a4fe94350f"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Finite-Wing Lift-Curve Slope"
+gloss = "The lift-curve slope of a finite wing is approximated as $2\\pi A/(A+2)$ per radian and evaluated at the published aspect ratio."
+cite = []
+digest = "cad21f05095b3e15"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Scaling of Wing Bending Material"
+gloss = "For a wing of given loading and thickness ratio the bending material scales with ultimate load factor, weight and the cube of span over area times thickness ratio."
+cite = ["research_solvey_1951"]
+digest = "f5ccf0bb79b06306"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Angle of Attack Change in a Vertical Gust"
+gloss = "A vertical gust of speed $U$ changes the angle of attack by $U/V$."
+cite = []
+digest = "c33bf3b8871c0fe6"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Lift Increment in a Vertical Gust"
+gloss = "The lift increment is the dynamic pressure times wing area times lift-curve slope times the angle change, which is linear in speed."
+cite = []
+digest = "7716e55eead44c05"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Sharp-Edged Gust Load Factor Increment"
+gloss = "The load factor increment for a sharp-edged gust at equivalent airspeed is proportional to the lift-curve slope and inversely proportional to the wing loading."
+cite = []
+digest = "2301ffb622033145"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Ratio of Gust Increments of Two Aircraft"
+gloss = "At a common equivalent airspeed and gust the ratio of gust increments depends only on lift-curve slope and wing loading."
+cite = []
+digest = "d5b2185bb50c43dc"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Gust Increment of the X-16 Against a Fighter"
+gloss = "The X-16 at gross weight is compared with a contemporary fighter whose wing loading and aspect ratio the article takes as representative."
+cite = []
+digest = "cf585a7419700772"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke RB-57D Radius in Nautical Miles"
+gloss = "The museum's radius of 2,000 miles is converted to nautical miles on the assumption that it is quoted in statute miles."
+cite = ["ref_nmusaf_rb57d"]
+digest = "b3a8f1a6d36f57d1"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Duration of a Full-Radius RB-57D Sortie"
+gloss = "The sortie time is twice the radius read as statute miles divided by the sourced cruising speed of 420 knots."
+cite = []
+digest = "53b80dfd25958d91"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke RB-57D Wing Life in Sorties"
+gloss = "The 500 hour wing life is divided by the sortie time that rests on the statute mile reading of the radius."
+cite = []
+digest = "f2dae9cf77292478"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Inlet Total Pressure Ratio at the Design Condition"
+gloss = "The isentropic total to static pressure ratio is evaluated at Mach 0.685, the cruise speed that the assumed drag polar sets at the design altitude."
+cite = []
+digest = "647ebe8328a784fe"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Thrust Lapse With Ideal Ram Recovery"
+gloss = "Assuming that thrust follows inlet total pressure with perfect recovery, the density ratio is multiplied by the ram pressure ratio."
+cite = []
+digest = "1b45fe8a916ea61d"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Effective Lapse Exponent From Ram Recovery"
+gloss = "The ideal ram thrust ratio is expressed as an equivalent exponent on the density ratio alone."
+cite = []
+digest = "4a229dbabff0503e"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Fraction of the Ideal Ram Benefit Realised"
+gloss = "The departure of the fitted exponent from one is divided by the departure of the ideal ram exponent from one."
+cite = []
+digest = "1a71049fab0367ae"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Compressor Blade Reynolds Number"
+gloss = "The blade Reynolds number uses a representative first-stage chord of 0.06 metres and an axial velocity of 150 metres per second that the article takes."
+cite = []
+digest = "28d467012f5ec0e1"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Measured Loss of Corrected Airflow"
+gloss = "The measured fall of corrected airflow at rated speed from 163 to 154 pounds per second is a loss of 5.5 percent."
+cite = ["ref_bloomer_miller_1954"]
+digest = "076c5a322f31e8cf"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Reynolds Number Index"
+gloss = "The Reynolds number index is the inlet total pressure ratio divided by the viscosity ratio times the square root of the total temperature ratio."
+cite = ["ref_bloomer_miller_1954"]
+digest = "3a89a4b6a6b4ea61"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Design Condition Against the Lowest Tested Index"
+gloss = "The index at the design condition is evaluated at the cruise Mach number from the assumed drag polar and compared with the lowest index at which the engine was measured."
+cite = []
+digest = "d15f8514a2533780"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Design Altitude Above the Controlled Engine Limit"
+gloss = "The design altitude exceeds the measured operating limit of about 59,000 feet with the standard control by 10,500 feet."
+cite = ["ref_wallner_saari_1954"]
+digest = "68415e75bdf8ecbd"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Chord Reynolds Number With the Sutherland Viscosity"
+gloss = "The chord Reynolds number is density times speed times chord over viscosity, with viscosity from the Sutherland relation."
+cite = []
+digest = "2efe826b29289ccb"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Mean Geometric Chord"
+gloss = "The mean geometric chord is the published wing area divided by the published span in metres."
+cite = []
+digest = "792ef6f8da2c881e"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Ratio of Sea-Level to Design-Altitude Reynolds Number"
+gloss = "The Reynolds number ratio across the flight uses speeds that the assumed drag polar sets at each altitude."
+cite = []
+digest = "00e0f8740fe5da3a"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Antoine Relation for Vapour Pressure"
+gloss = "The saturation vapour pressure of water follows the Antoine relation with standard coefficients."
+cite = ["ref_antoine_equation"]
+digest = "98466c18b8dc560a"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Vapour Pressure of Water at Body Temperature"
+gloss = "The Antoine relation at 37 degrees Celsius gives a vapour pressure of 6,260 pascals."
+cite = ["ref_antoine_equation"]
+digest = "9cadab3583a9b7a9"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Armstrong Limit Altitude"
+gloss = "The standard atmosphere pressure equals the vapour pressure of water at body temperature at 19,150 metres."
+cite = ["ref_armstrong_limit"]
+digest = "7a266bcec68f02c6"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Ground Sample Distance"
+gloss = "Ground sample distance is the slant range times the instantaneous angular field of view."
+cite = []
+digest = "730edf4b7646f594"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Rayleigh Diffraction Limit"
+gloss = "The smallest resolvable angle of a circular aperture is 1.22 times the wavelength over the aperture diameter."
+cite = []
+digest = "2e389b5b80c642e8"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Image Smear From Forward Motion"
+gloss = "Image smear on the ground is the ground speed times the exposure time."
+cite = []
+digest = "f9d3315c89a9859a"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Exposure Time for Smear Below One Ground Sample"
+gloss = "The bound divides the ground sample distance from an assumed 5 microradian field of view by the cruise speed that the assumed polar sets."
+cite = []
+digest = "4506413748bad557"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Weight Loss Rate of a Jet in Cruise"
+gloss = "Fuel flow is the specific fuel consumption times thrust, which in cruise equals weight over lift to drag ratio."
+cite = []
+digest = "af7a17a4ebb0cd59"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Breguet Range Equation for a Jet"
+gloss = "Range is speed over specific fuel consumption times lift to drag ratio times the logarithm of the initial to final weight ratio."
+cite = []
+digest = "e4758b5d541eb651"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Ideal Breguet Range of the X-16"
+gloss = "The ideal range uses an assumed cruise speed of 430 knots, a lift to drag ratio taken as 94 percent of the optimum and an assumed specific fuel consumption of 0.85 per hour."
+cite = []
+digest = "35bfc7f25bec7819"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Mach Number of the Quoted Maximum Speed"
+gloss = "The quoted 480 knots at the design altitude divided by the standard atmosphere speed of sound there gives Mach 0.835."
+cite = []
+digest = "691cf90462866236"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Ceiling Density Ratio in Terms of Weight to Thrust"
+gloss = "The ceiling density ratio depends on thrust and weight only through their ratio."
+cite = []
+digest = "ed03df4a6b76b821"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Worsening of Weight to Thrust With One Engine Removed"
+gloss = "The ratio compares the weight to thrust of the X-16 with one J57 deleted, together with a nominal 4,200 pounds of engine and nacelle, against the twin-engine value."
+cite = []
+digest = "9019c9541e34321c"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Sensitivity of the Corner to Assumed Coefficients"
+gloss = "With the maximum lift coefficient and buffet Mach number held constant as assumed, the corner density scales inversely with the maximum lift and with the square of the buffet Mach number."
+cite = []
+digest = "2b207646d409d8c5"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the density ratio to sea level, with $\\sigma_{\\text{ceiling}}$ its value at the thrust ceiling"
+
+[[symbol]]
+tex = '\rho_0'
+meaning = "the sea-level density"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'C_{D0}'
+meaning = "the zero-lift drag coefficient"
+
+[[symbol]]
+tex = 'A e'
+meaning = "the product of aspect ratio $A$ and span efficiency $e$"
+
+[[symbol]]
+tex = 'C_L^{*}'
+meaning = "the lift coefficient for maximum lift to drag ratio"
+
+[[symbol]]
+tex = '(L/D)_{\max}'
+meaning = "the maximum lift to drag ratio"
+
+[[symbol]]
+tex = 'T_{\text{SL}}'
+meaning = "the sea-level static thrust"
+
+[[symbol]]
+tex = 'n'
+meaning = "the thrust lapse exponent on density ratio, distinct from the load factor increment $\\Delta n$ and the sortie count $N$"
+
+[[symbol]]
+tex = 'P_{s}'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'C_{L\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'M_{\text{buffet}}'
+meaning = "the buffet onset Mach number, with $M_{\\text{stall}}$ the stalling Mach number"
+
+[[symbol]]
+tex = 'V_{e}'
+meaning = "the equivalent airspeed"
+
+[[symbol]]
+tex = 'U_{de}'
+meaning = "the derived equivalent gust velocity"
+
+[[symbol]]
+tex = 'p_{t}'
+meaning = "the inlet total pressure"
+
+[[symbol]]
+tex = '\text{RNI}'
+meaning = "the Reynolds number index"
+
+[[symbol]]
+tex = 'Re'
+meaning = "the Reynolds number"
+
+[[symbol]]
+tex = '\mu(T)'
+meaning = "the dynamic viscosity from the Sutherland relation"
+
+[[symbol]]
+tex = '\text{GSD}'
+meaning = "the ground sample distance"
+
+[[symbol]]
+tex = '\theta_{\text{diff}}'
+meaning = "the diffraction-limited angular resolution"
+
+[[symbol]]
+tex = 't_{\text{exp}}'
+meaning = "the exposure time"
+
+[[symbol]]
+tex = 'R_{\text{ideal}}'
+meaning = "the ideal Breguet range"

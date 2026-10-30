@@ -1,0 +1,879 @@
+# Equation classification for A324. Read by `python3 _lib/equations.py`.
+
+caution = "Lines mix International System units with the United States customary units of the record, with each conversion stated where it is made, the atmosphere is the International Standard Atmosphere, and the parasite drag of 0.0158, the leading-edge suction fraction, the maximum lift coefficient, the skin and material properties, the usable fuel fraction of 0.85 and the lift-to-drag ratio of the radius check are values the article assumes or scans across rather than measurements."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Aspect Ratio of the F-104G Wing"
+gloss = "The documented span of 21.94 feet and wing area of 196.1 square feet give an aspect ratio of about 2.46."
+cite = ["ref_aspect_ratio"]
+digest = "8d9889fd368f0734"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Wing Loading of the F-104G"
+gloss = "The design gross weight of 27,300 pounds over the wing area gives a wing loading of 139.2 pounds per square foot, as the survey of aircraft performance also tabulates."
+cite = ["ref_sp468"]
+digest = "71b87900df4b7b5e"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Engine Length, Diameter and Airflow Differences"
+gloss = "The published ratings give the TF30 33.01 inches more length and 9.84 inches more diameter than the J79, and about 53 percent more airflow."
+cite = ["ref_j79", "ref_tf30"]
+digest = "39340fe2bebf5e61"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Engine Length Difference Less the Fuselage Stretch"
+gloss = "The documented 30 inch stretch falls 3.01 inches short of the engine length difference."
+cite = ["ref_cl1200"]
+digest = "264a219bc718173c"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Temperature in the Standard Troposphere"
+gloss = "Below 11 kilometres the standard temperature falls linearly from 288.15 kelvin at the standard lapse rate of 0.0065 kelvin per metre."
+cite = ["book_anderson", "book_shapiro", "ref_isa"]
+digest = "b4759aaf21b8c30b"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Pressure in the Standard Lower Stratosphere"
+gloss = "Above the tropopause the standard temperature is constant and the pressure falls exponentially with height from its value at 11 kilometres."
+cite = []
+digest = "b3c05a896bd96638"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Density at 35,000 Feet from the Equation of State"
+gloss = "The ideal gas law at the standard pressure and temperature of 35,000 feet gives a density of about 0.380 kilograms per cubic metre."
+cite = []
+digest = "83d787fdb792b41c"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Speed of Sound at 35,000 Feet"
+gloss = "The speed of sound at the standard temperature of 218.81 kelvin is about 296.5 metres per second."
+cite = []
+digest = "191faf286ab88f94"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Mach Number"
+gloss = "The Mach number is the ratio of airspeed to the speed of sound."
+cite = []
+digest = "811d8e0283c880e2"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Mach Number of the Claimed Maximum Speed"
+gloss = "The claimed 1,700 miles per hour at 35,000 feet is Mach 2.563, consistent with the quoted Mach 2.57."
+cite = ["ref_cl1200"]
+digest = "73fe6a8ab926dbf4"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Dynamic Pressure"
+gloss = "The dynamic pressure is half the density times the square of the speed."
+cite = ["book_anderson"]
+digest = "4548b0fc4d92a898"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Specific Heat at Constant Pressure"
+gloss = "The specific heat at constant pressure of a perfect gas follows from the gas constant and the ratio of specific heats."
+cite = []
+digest = "7be503e7ec4353e9"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Dynamic Pressure at the Manoeuvre Condition"
+gloss = "At 15,000 feet and Mach 0.9, the condition the article chooses for every manoeuvre result, the standard atmosphere gives a dynamic pressure of about 677 pounds per square foot."
+cite = []
+digest = "e6aaa3c1d7818ce5"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Total Temperature"
+gloss = "Energy conservation in a compressible flow gives the total temperature as the static temperature times one plus half of $\\gamma - 1$ times the square of the Mach number."
+cite = ["ref_total_temperature"]
+digest = "1605dffd357024c7"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Recovery Temperature with a Turbulent Recovery Factor"
+gloss = "A surface recovers only a fraction $r$ of the kinetic temperature rise, and for a turbulent boundary layer that fraction is the cube root of the Prandtl number."
+cite = ["ref_recovery_factor", "ref_prandtl"]
+digest = "66a22ce7a5f119bd"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Celsius to Fahrenheit Conversion of the Recovery Temperature"
+gloss = "The recovery temperature of 210.8 degrees Celsius is about 411 degrees Fahrenheit, the scale of the handbook figure."
+cite = ["ref_mil_hdbk_5j"]
+digest = "7b59ab02aba050dc"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Thermal Time Constant of a Lumped Skin Panel"
+gloss = "A skin panel heated by convection behaves as a first-order lumped thermal mass whose time constant is its areal heat capacity over the convective coefficient."
+cite = []
+digest = "a5f1f8b37789e6fd"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Eckert Reference Temperature"
+gloss = "The Eckert reference temperature at which boundary layer properties are evaluated accounts for property variation across a high-speed boundary layer."
+cite = ["ref_eckert"]
+digest = "cf2b67f328594867"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Turbulent Flat-Plate Stanton Number and Heat Transfer Coefficient"
+gloss = "The turbulent flat-plate Stanton number correlation gives the convective coefficient from properties at the reference temperature."
+cite = ["ref_stanton", "ref_eckert"]
+digest = "58d05365a713676b"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Local Reynolds Number and Sutherland's Law"
+gloss = "The local Reynolds number is built from reference density, edge velocity and distance over the reference viscosity, which Sutherland's law gives as a function of temperature."
+cite = ["book_anderson"]
+digest = "80a6bb91dc9f0678"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Reynolds Number Five Metres Back from the Nose"
+gloss = "At Mach 2.6 and 35,000 feet a station the article takes as five metres back from the nose has a Reynolds number of about $3.6 \\times 10^7$."
+cite = []
+digest = "6709c392c08f3701"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Thermal Time Constant of the Skin"
+gloss = "A two-millimetre aluminium skin, a thickness the article assumes with representative density and specific heat, has a time constant of about 26 seconds."
+cite = []
+digest = "3f5931e5cfde9a02"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "First-Order Skin Temperature Transient"
+gloss = "From a cold start the skin temperature approaches the recovery temperature exponentially with the thermal time constant."
+cite = []
+digest = "b8ad79c6e4a0a227"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Fully Restrained Thermal Stress"
+gloss = "A fully restrained material heated through a temperature change carries a stress equal to Young's modulus times the expansion coefficient times that change."
+cite = []
+digest = "de69fec6ee857f0e"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Fully Restrained Thermal Stress at Mach 2.6"
+gloss = "With a modulus of 72 gigapascals and an expansion coefficient of 23 parts per million per kelvin taken as representative of aluminium alloy, the full excursion to the recovery temperature gives about 316 megapascals."
+cite = []
+digest = "313c297a9ae1d625"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Retained Yield Strength and Stress Ratio"
+gloss = "The handbook room-temperature yield of 58 kilopounds per square inch times the 68 percent retained at temperature is about 272 megapascals, which the representative fully restrained stress exceeds by sixteen percent."
+cite = ["ref_mil_hdbk_5j"]
+digest = "44dd7d5f68e34c5e"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Temperature Differential Consuming Half the Strength"
+gloss = "Inverting the thermal stress relation with the representative modulus and expansion coefficient shows that 82 kelvin of differential consumes half the retained yield."
+cite = []
+digest = "5dcdcb867bec797f"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Total-Pressure Recovery"
+gloss = "Total-pressure recovery is the ratio of total pressure at the engine face to free-stream total pressure."
+cite = ["ref_pressure_recovery", "book_seddon_goldsmith"]
+digest = "89619ebe56341898"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Military Specification Reference Recovery"
+gloss = "The military specification reference recovery falls below one as a power of the supersonic excess of the Mach number."
+cite = ["ref_grc_inlet"]
+digest = "2b2f30534d95f848"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Normal Shock Total-Pressure Ratio"
+gloss = "The total-pressure ratio across a normal shock has a closed form in the upstream Mach number and the ratio of specific heats."
+cite = ["ref_normal_shock", "ref_pitot_inlet"]
+digest = "37a93419ba539ee6"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Pitot Inlet Recovery at Mach 2.0 and 2.6"
+gloss = "A pitot inlet recovers about 0.72 of the total pressure at Mach 2.0 and 0.46 at Mach 2.6."
+cite = []
+digest = "9c7443bb9fd7b37b"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Taylor-Maccoll Radial Velocity Equation"
+gloss = "In the Taylor-Maccoll formulation the derivative of the normalised radial velocity with respect to the polar angle equals the normalised polar velocity."
+cite = ["ref_taylor_maccoll"]
+digest = "07ab2a14fbb7b10d"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Taylor-Maccoll Polar Velocity Equation"
+gloss = "The second Taylor-Maccoll equation gives the derivative of the normalised polar velocity, with the local speed of sound from the adiabatic energy equation."
+cite = ["ref_taylor_maccoll"]
+digest = "a9273b0c4d5d0f5e"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Normal Mach Component of an Oblique Shock"
+gloss = "An oblique shock acts on the component of the upstream Mach number normal to the wave."
+cite = []
+digest = "ce4675872bbb6320"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Downstream Mach Number of an Oblique Shock"
+gloss = "The downstream Mach number follows from the normal shock relation applied to the normal component and the turned flow direction."
+cite = ["book_shapiro", "book_anderson", "book_seddon_goldsmith"]
+digest = "1a5226deec2ee16e"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Mach Angle"
+gloss = "The wave angle cannot fall below the Mach angle, whose sine is the reciprocal of the Mach number, 30.00 degrees at Mach 2.0 and 22.62 at Mach 2.6."
+cite = ["book_shapiro", "book_anderson", "book_seddon_goldsmith"]
+digest = "9688f7bf688b4952"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Theta-Beta-Mach Relation"
+gloss = "The oblique shock relation gives the flow deflection angle from the wave angle and the upstream Mach number."
+cite = ["ref_oblique_shock"]
+digest = "64ace4b107cc3c51"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Recovery of a Two-Ramp Inlet"
+gloss = "The recovery of a two-ramp inlet is the product of the total-pressure ratios across its two oblique shocks and the terminal normal shock."
+cite = []
+digest = "37fbe78e571f0685"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Oswatitsch Equal-Strength Condition"
+gloss = "For a given number of oblique shocks the recovery is greatest when the shocks have equal normal Mach components."
+cite = ["ref_oswatitsch"]
+digest = "679b357774d21f90"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Shock-on-Lip Condition"
+gloss = "The shock from a cone apex a distance $L$ ahead of a lip at radius $r$ meets the lip when the tangent of the wave angle is their ratio."
+cite = []
+digest = "f0d06ea94959155a"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Cone Travel Between Two Mach Numbers"
+gloss = "Holding the shock on the lip at two Mach numbers requires a travel equal to the lip radius times the difference of the cotangents of the two wave angles."
+cite = ["book_seddon_goldsmith"]
+digest = "29eea852d8aa5e2d"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Lip Radius Implied by the Documented Travel"
+gloss = "Inverting the travel relation on the documented four inches, with the shock taken to be held on the lip from Mach 2.0 to Mach 2.6, gives the lip radius."
+cite = []
+digest = "8f4ea45e363d5720"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Capture Area for a Given Mass Flow"
+gloss = "The capture area needed to admit a mass flow at full capture is that flow over the free-stream mass flux."
+cite = []
+digest = "a6e8a8599d4033fe"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Capture Area Required by the TF30 at Mach 2.0"
+gloss = "The documented 117.93 kilograms per second over the standard free-stream mass flux at Mach 2.0 and 35,000 feet needs about 5.64 square feet of capture."
+cite = ["ref_tf30"]
+digest = "0ef6f11b066ec714"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Capture Area Error at a 25 Degree Cone"
+gloss = "At a cone half-angle the article assumes as 25 degrees, the capture area implied by the travel falls 4.2 percent short of the engine's requirement."
+cite = []
+digest = "b28321566a57d0ce"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Corrected Airflow"
+gloss = "Corrected airflow is the physical airflow times the square root of the total temperature ratio over the total pressure ratio to sea-level standard values."
+cite = ["ref_corrected_flow"]
+digest = "2a6c3f2f7cb4f6d9"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Energy Height"
+gloss = "The energy height is the altitude plus the kinetic energy per unit weight."
+cite = []
+digest = "1d14499e5b585e04"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Energy Height at the Manoeuvre Condition"
+gloss = "At 15,000 feet and Mach 0.9, a condition the article takes as representative of combat, the energy height is about 8,860 metres."
+cite = []
+digest = "1955d7c03c445a5e"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Specific Excess Power"
+gloss = "The specific excess power is the rate of change of energy height, the speed times excess thrust over weight."
+cite = ["ref_specific_excess_power"]
+digest = "cc5df68e4e87040d"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Thrust-to-Weight Ratio of the CL-1200-2"
+gloss = "The rated 25,000 pounds of thrust over the normal loaded weight of 24,385 pounds is a thrust-to-weight ratio of about 1.03."
+cite = []
+digest = "004c36a2279f7a37"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Parabolic Drag Polar"
+gloss = "The drag coefficient is a parasite term plus an induced factor times the square of the lift coefficient."
+cite = []
+digest = "15ec86c530506871"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Parasite Drag Coefficient Used for All Four Aircraft"
+gloss = "An equivalent skin-friction coefficient of 0.0035 on a wetted-to-reference area ratio of 4.5 gives 0.0158, a value the article holds equal across the four aircraft as a deliberate control."
+cite = ["book_raymer"]
+digest = "6e39c25d1f964898"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Induced Drag Factor with Full Leading-Edge Suction"
+gloss = "With full leading-edge suction the induced drag factor is the elliptical result of one over pi times aspect ratio times efficiency."
+cite = []
+digest = "6ed0eb4a934cf3ca"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Induced Drag Factor with No Leading-Edge Suction"
+gloss = "With no leading-edge suction the resultant force tilts back with the surface and the induced drag factor is the reciprocal of the lift-curve slope."
+cite = ["book_raymer", "book_nicolai"]
+digest = "dd9299bef11c2899"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Helmbold-Diederich Lift-Curve Slope"
+gloss = "The Helmbold-Diederich form gives the lift-curve slope of a low-aspect-ratio swept wing with a compressibility correction."
+cite = ["ref_helmbold", "book_raymer", "book_nicolai"]
+digest = "e43b7aba55bc4d04"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Leading-Edge Suction Blend of the Induced Drag Factor"
+gloss = "The induced drag factor is a blend of the full-suction and zero-suction limits weighted by the leading-edge suction fraction $s$."
+cite = ["book_raymer"]
+digest = "41273246430856b4"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Lift Coefficient at Load Factor"
+gloss = "The lift coefficient required at load factor $n$ is $n$ times the weight over dynamic pressure times wing area."
+cite = []
+digest = "86a7d507bf1d775e"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Sustained Load Factor"
+gloss = "Setting thrust equal to drag at the required lift coefficient gives the sustained load factor in terms of thrust-to-weight, the polar and the dynamic pressure."
+cite = []
+digest = "9c7e6ade21cbb5a0"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Turn Rate"
+gloss = "The turn rate in a level turn is gravity times the square root of the squared load factor less one, over the speed."
+cite = []
+digest = "0737a7c470e897ae"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Turn Radius"
+gloss = "The radius of a level turn is the speed squared over gravity times the square root of the squared load factor less one."
+cite = []
+digest = "453f5e7fd5de2c25"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Load Factor and Bank Angle in a Level Turn"
+gloss = "In a level turn the load factor is the reciprocal of the cosine of the bank angle."
+cite = []
+digest = "fecb8c4976e121e7"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Bank Angle and Turn Radius of the Lancer"
+gloss = "At the sustained load factor of 6.34 that the article's constructed polar gives at the manoeuvre condition, the bank is about 81 degrees and the radius about 1,370 metres."
+cite = []
+digest = "9d03c835b28699f9"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Evaluation Weights as Fractions of Maximum Weight"
+gloss = "The tabulated evaluation weights are 0.94, 0.77, 0.65 and 0.70 of the maximum weights of the F-104G, F-5E, F-15A and CL-1200-2."
+cite = ["ref_sp468"]
+digest = "a6d4e6eca8682e0b"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Specific Excess Power Shortfall Relative to the F-15A"
+gloss = "At a leading-edge suction fraction of 0.5 and the common parasite drag control the Lancer's specific excess power is 4.2 percent below the F-15A's."
+cite = ["ref_lwf"]
+digest = "c11b43e7a3663905"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Corner Speed"
+gloss = "The corner speed is the lowest speed at which the structural limit load factor can be reached at the maximum lift coefficient."
+cite = []
+digest = "f0adc2b0be39565f"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Stall Speed and Corner Speed"
+gloss = "The stall speed is the corner speed relation at a load factor of one, so the corner speed is the square root of the limit load factor times the stall speed."
+cite = ["book_raymer", "book_nicolai"]
+digest = "a4d07950e69bf6f7"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Net Thrust of a Jet Engine"
+gloss = "The net thrust is the mass flow times the difference of exhaust and flight velocities, the second term being the ram drag."
+cite = []
+digest = "08c230db2f1446a5"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Ram Drag at Mach 2.6"
+gloss = "The documented TF30 airflow at the standard free-stream speed for Mach 2.6 at 35,000 feet carries a ram drag of about 20,400 pounds."
+cite = []
+digest = "ab653b61e72c7cb9"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Exhaust Velocity to Hold the Rated Thrust at Mach 2.6"
+gloss = "If the sea-level net thrust rating were held at Mach 2.6, a supposition the article tests rather than asserts, the exhaust velocity would have to be about 1,710 metres per second."
+cite = []
+digest = "82461377d52aa4ba"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Static Exhaust Velocity at the Rated Thrust"
+gloss = "The rated net thrust over the documented airflow at rest implies an exhaust velocity of about 943 metres per second."
+cite = []
+digest = "2c85d296e1b252c1"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Propulsive Efficiency at Mach 2.6"
+gloss = "The Froude propulsive efficiency at the hypothetical exhaust velocity that holds the rated thrust at Mach 2.6 is about 0.62."
+cite = []
+digest = "8f33a7a8657d4a9d"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Lift"
+gloss = "Lift is the lift coefficient carried on the dynamic pressure and the wing area."
+cite = ["book_hoerner", "book_kuchemann"]
+digest = "51392f85b47e86cc"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Horizontal Tail Volume Coefficient"
+gloss = "The horizontal tail volume coefficient is the tail area times the tail arm over the wing area times the mean aerodynamic chord."
+cite = []
+digest = "46bfbe41bd50ef94"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Tail Contribution to Pitch Stiffness"
+gloss = "The tail contributes to pitch stiffness in proportion to its lift-curve slope, its volume coefficient, its efficiency and one minus the downwash gradient."
+cite = []
+digest = "7db45d98120d2581"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Static Margin"
+gloss = "The static margin is the negative ratio of pitch stiffness to lift-curve slope, equal to the distance from centre of gravity to neutral point over the mean aerodynamic chord."
+cite = []
+digest = "8e6d204be7003787"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Far-Field Downwash Gradient"
+gloss = "The far-field downwash gradient is approximately twice the lift-curve slope over pi times the aspect ratio."
+cite = []
+digest = "722670d6383ff737"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Specific Excess Power as a Ceiling on Climb Rate"
+gloss = "Differentiating the energy height and holding speed constant leaves the climb rate equal to the specific excess power, which is therefore its ceiling."
+cite = ["book_whitford"]
+digest = "1117374a4c79238a"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Excess of the Climb Claim over the Computed Ceiling"
+gloss = "The claimed 60,000 feet per minute exceeds by 21.6 percent the largest specific excess power that the article's constructed polar and the published thrust and weight produce."
+cite = []
+digest = "0358efbff4903531"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Excess over a Coarse Mach Scan"
+gloss = "A coarse scan that stops at Mach 1.2 takes the peak of the constructed specific excess power as 48,585 feet per minute and overstates the excess at 23.5 percent."
+cite = []
+digest = "e03188571dfa1f56"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Clean Disposable Load of the Lancer"
+gloss = "The normal loaded weight less the empty weight gives a clean disposable load of 6,500 pounds."
+cite = ["ref_cl1200"]
+digest = "ffc7442cad99791b"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Takeoff Ground Roll Integral"
+gloss = "The ground roll is the integral of speed over acceleration up to lift-off speed, with the acceleration set by thrust less drag and rolling friction."
+cite = []
+digest = "7bbb5142b75d2f4c"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Lift-Off Speed"
+gloss = "The lift-off speed is taken by the usual sizing convention as 1.1 times the stall speed."
+cite = []
+digest = "ed76302826eff1e3"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Breguet Range Equation"
+gloss = "The Breguet range is speed over specific fuel consumption times the lift-to-drag ratio times the logarithm of the start to end weight ratio."
+cite = ["ref_breguet", "book_raymer", "book_nicolai"]
+digest = "e2b60037d0ca18a0"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Fuel Weight on the Radius Mission"
+gloss = "The maximum takeoff weight less the empty weight and the 4,000 pound bombload leaves 13,115 pounds of fuel."
+cite = ["ref_cl1200"]
+digest = "bb73db16888ffa4f"
+
+[[equation]]
+tag = 85
+class = "bespoke"
+title = "Bespoke End Weight of the Radius Mission"
+gloss = "Burning a usable fuel fraction the article takes as 0.85 leaves an end weight of about 23,850 pounds."
+cite = []
+digest = "73d9d3f001fca5fe"
+
+[[equation]]
+tag = 86
+class = "bespoke"
+title = "Bespoke Breguet Weight Ratio"
+gloss = "The start weight over the end weight that the assumed usable fuel fraction gives is about 1.47."
+cite = []
+digest = "1526b6efc77f8441"
+
+[[equation]]
+tag = 87
+class = "bespoke"
+title = "Bespoke Mission Factor"
+gloss = "The article defines the mission factor as the claimed combat radius over the still-air Breguet range, about 0.19 at an assumed lift-to-drag ratio of 8 and specific fuel consumption of 0.85 per hour."
+cite = []
+digest = "8b1a70bc79f3ba0c"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight, with $W_0$ and $W_1$ the start and end weights in the Breguet relation"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the temperature lapse rate in the standard atmosphere"
+
+[[symbol]]
+tex = 'R T'
+meaning = "the specific gas constant $R$ times the temperature $T$"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'a'
+meaning = "the speed of sound"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'c_p'
+meaning = "the specific heat at constant pressure"
+
+[[symbol]]
+tex = 'T_t'
+meaning = "the total temperature"
+
+[[symbol]]
+tex = 'T_r'
+meaning = "the recovery temperature"
+
+[[symbol]]
+tex = '\Pr'
+meaning = "the Prandtl number"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the thermal time constant of the skin"
+
+[[symbol]]
+tex = 'T^*'
+meaning = "the Eckert reference temperature"
+
+[[symbol]]
+tex = '\mathrm{St}'
+meaning = "the Stanton number"
+
+[[symbol]]
+tex = '\mathrm{Re}_x'
+meaning = "the local Reynolds number"
+
+[[symbol]]
+tex = '\sigma_{\mathrm{th}}'
+meaning = "the fully restrained thermal stress"
+
+[[symbol]]
+tex = 'E\,\alpha'
+meaning = "the product of Young's modulus and the coefficient of thermal expansion"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the total-pressure recovery"
+
+[[symbol]]
+tex = 'p_{t2}'
+meaning = "the total pressure at the engine face or behind a shock"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the shock wave angle in the inlet relations and $\\sqrt{|1 - M^2|}$ in the lift-curve slope relation"
+
+[[symbol]]
+tex = '\theta_d'
+meaning = "the flow deflection angle across an oblique shock"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the Mach angle in Equation 36, the viscosity in Equation 20 and the rolling friction coefficient in Equation 81"
+
+[[symbol]]
+tex = 'A_c'
+meaning = "the inlet capture area"
+
+[[symbol]]
+tex = '\dot m'
+meaning = "the engine mass flow"
+
+[[symbol]]
+tex = 'h_e'
+meaning = "the energy height"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'C_{D_0}'
+meaning = "the parasite drag coefficient"
+
+[[symbol]]
+tex = 'K'
+meaning = "the induced drag factor"
+
+[[symbol]]
+tex = 'C_{L_\alpha}'
+meaning = "the lift-curve slope"
+
+[[symbol]]
+tex = 'n'
+meaning = "the load factor"
+
+[[symbol]]
+tex = 'V^*'
+meaning = "the corner speed"
+
+[[symbol]]
+tex = 'C_{L_{\max}}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'V_e'
+meaning = "the exhaust velocity, with $V_0$ the flight velocity"
+
+[[symbol]]
+tex = '\eta_p'
+meaning = "the propulsive efficiency"
+
+[[symbol]]
+tex = 'V_H'
+meaning = "the horizontal tail volume coefficient"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = '\mathrm{SM}'
+meaning = "the static margin as a fraction of the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'x_{np}'
+meaning = "the longitudinal position of the neutral point, with $x_{cg}$ that of the centre of gravity"
+
+[[symbol]]
+tex = '\frac{d\varepsilon}{d\alpha}'
+meaning = "the downwash gradient at the tail"
+
+[[symbol]]
+tex = 'c_t'
+meaning = "the thrust specific fuel consumption"
+
+[[symbol]]
+tex = 'k_m'
+meaning = "the mission factor"

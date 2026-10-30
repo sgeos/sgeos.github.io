@@ -21,31 +21,49 @@ The keystone is aerodynamic heating, and specifically the temperature a structur
 
 The [X-1][related_post_a298_bell_x1] had no thermal problem. At its Mach 1.45 record the [stagnation temperature][ref_stagnation_temperature] was 308 kelvin, about the temperature of warm afternoon air, and imposed no material constraint whatever. The reason is that stagnation temperature rises with the square of Mach number,
 
-$$T_0 = T_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right)$$
+$$
+T_0 = T_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right)
+\tag{1}
+$$
 
 with $T_\infty$ the free-stream static temperature in kelvin, $\gamma$ the ratio of specific heats, and $M_\infty$ the free-stream [Mach number][ref_mach_number]. A quadratic that is negligible at Mach 1.5 is not negligible at Mach 3. Evaluating in the isothermal layer above 11 kilometres, where $T_\infty = 216.65$ kelvin, gives 659 kelvin at Mach 3.196 against 308 kelvin at Mach 1.45. The rise above ambient nearly quintuples while the Mach number merely doubles.
 
 The same isentropic family fixes the pressure and density the structure sees,
 
-$$\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}, \qquad \frac{\rho_0}{\rho} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{1}{\gamma - 1}}$$
+$$
+\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}, \qquad \frac{\rho_0}{\rho} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{1}{\gamma - 1}}
+\tag{2}
+$$
 
 with the whole set tabulated in [Ames Research Staff 1953][research_naca_1135], and the local geometry of every disturbance follows the Mach angle
 
-$$\mu_M = \arcsin \frac{1}{M}$$
+$$
+\mu_M = \arcsin \frac{1}{M}
+\tag{3}
+$$
 
 which at Mach 3.196 is 18.2 degrees, so shocks lie close to the surface and the flow field is compact. Where a [shock][ref_shock_wave] does stand normal to the flow the Rankine-Hugoniot relations give
 
-$$\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}$$
+$$
+\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}
+\tag{4}
+$$
 
 and at Mach 3.196 the static pressure rises by a factor of 11.8 and the static temperature by 2.92 across a single normal shock. What a surface actually reaches is lower, because a [boundary layer][ref_boundary_layer] does not bring the flow entirely to rest and does not recover the whole temperature rise. The recovery temperature is
 
-$$T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right), \qquad r \approx Pr^{1/2} \ \text{laminar}, \qquad r \approx Pr^{1/3} \ \text{turbulent}$$
+$$
+T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right), \qquad r \approx Pr^{1/2} \ \text{laminar}, \qquad r \approx Pr^{1/3} \ \text{turbulent}
+\tag{5}
+$$
 
 with $r$ the recovery factor and $Pr$ the [Prandtl number][ref_prandtl_number]. At $r = 0.89$, appropriate for turbulent flow in air, the recovery temperature at Mach 3.196 is 611 kelvin.
 
 Before going further, the perfect-gas assumption behind every relation above should be confirmed at this condition, because it does not at the temperatures the [X-15][ref_na_x15] would later reach. Vibrational modes of diatomic nitrogen and oxygen begin to activate near 800 kelvin, at which point the ratio of specific heats departs from 1.4 through
 
-$$\gamma(T) = 1 + \frac{R}{c_v(T)}, \qquad c_v(T) = \frac{5}{2} R + R \left( \frac{\theta_v / T}{e^{\theta_v / T} - 1} \right)^2 e^{\theta_v / T}$$
+$$
+\gamma(T) = 1 + \frac{R}{c_v(T)}, \qquad c_v(T) = \frac{5}{2} R + R \left( \frac{\theta_v / T}{e^{\theta_v / T} - 1} \right)^2 e^{\theta_v / T}
+\tag{6}
+$$
 
 with $\theta_v$ the characteristic vibrational temperature, near 2270 kelvin for oxygen and 3390 for nitrogen. Dissociation follows well above that. At a stagnation temperature of 659 kelvin the vibrational contribution is a few percent and dissociation is absent entirely, so air behaves as a calorically perfect gas throughout the X-2 envelope and $\gamma = 1.4$ holds. Above roughly Mach 5, where that assumption fails, the consequences reach into the boundary layer as in [Nagamatsu and Kim 1986][research_real_gas_boundary_layer_1986], into its stability as in [Malik and Anderson 1991][research_real_gas_stability_1991], into trim as in [Park and Yoon 1989][research_real_gas_trim_1989], and into whether a ground facility can reproduce the flow at all, the subject of [Gully et al. 1987][research_real_gas_facility_1987]. The X-2 enjoyed a real simplification here that the X-15 did not.
 
@@ -73,99 +91,168 @@ The keystone relationship is the thermal balance at the surface, and working it 
 
 The quantity of interest is the [heat flux][ref_heat_flux] crossing the surface, in watts per square metre. Heat arrives by convection from the boundary layer, driven by the difference between the recovery temperature and the wall temperature,
 
-$$\dot{q}_{\text{conv}} = h_c \left( T_r - T_w \right)$$
+$$
+\dot{q}_{\text{conv}} = h_c \left( T_r - T_w \right)
+\tag{7}
+$$
 
 with $h_c$ the convective coefficient in watts per square metre kelvin and $T_w$ the wall temperature. The coefficient is conventionally non-dimensionalized as a Stanton number and tied to skin friction by the Reynolds analogy,
 
-$$St = \frac{h_c}{\rho_\infty V_\infty c_p}, \qquad St \approx \frac{C_f}{2} Pr^{-2/3}$$
+$$
+St = \frac{h_c}{\rho_\infty V_\infty c_p}, \qquad St \approx \frac{C_f}{2} Pr^{-2/3}
+\tag{8}
+$$
 
 where the [Prandtl number][ref_prandtl_number] and the Nusselt number, the two groups this correlation is built from, are
 
-$$Pr = \frac{\mu c_p}{k_a}, \qquad Nu = \frac{h_c L}{k_a}$$
+$$
+Pr = \frac{\mu c_p}{k_a}, \qquad Nu = \frac{h_c L}{k_a}
+\tag{9}
+$$
 
 with $k_a$ the thermal conductivity of the air, and conduction within the solid follows Fourier's law,
 
-$$\mathbf{q} = -k_w \nabla T$$
+$$
+\mathbf{q} = -k_w \nabla T
+\tag{10}
+$$
 
 in the form given by [Eckert 1956][research_eckert_1956], with the compressible boundary-layer profiles from [Chapman and Rubesin 1949][research_chapman_rubesin_1949]. For a turbulent boundary layer on a flat plate the skin friction follows
 
-$$C_f = \frac{0.0592}{Re_x^{1/5}}, \qquad Re_x = \frac{\rho_\infty V_\infty x}{\mu}$$
+$$
+C_f = \frac{0.0592}{Re_x^{1/5}}, \qquad Re_x = \frac{\rho_\infty V_\infty x}{\mu}
+\tag{11}
+$$
 
 with the viscosity from the relation of [Sutherland 1893][research_sutherland_1893],
 
-$$\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}$$
+$$
+\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}
+\tag{12}
+$$
 
 At the flight condition this gives a unit [Reynolds number][ref_reynolds_number] of
 
-$$\frac{Re}{L} = \frac{\rho_\infty V_\infty}{\mu} = \frac{0.0882 \times 943}{1.42 \times 10^{-5}} = 5.86 \times 10^{6} \ \text{per metre}$$
+$$
+\frac{Re}{L} = \frac{\rho_\infty V_\infty}{\mu} = \frac{0.0882 \times 943}{1.42 \times 10^{-5}} = 5.86 \times 10^{6} \ \text{per metre}
+\tag{13}
+$$
 
 The single largest uncertainty in the whole thermal estimate is whether that boundary layer is laminar or turbulent, because the heating ratio between the two states is
 
-$$\frac{St_{\text{turb}}}{St_{\text{lam}}} = \frac{0.0296 \, Re_x^{-1/5}}{0.332 \, Re_x^{-1/2}} = 0.089 \, Re_x^{3/10}$$
+$$
+\frac{St_{\text{turb}}}{St_{\text{lam}}} = \frac{0.0296 \, Re_x^{-1/5}}{0.332 \, Re_x^{-1/2}} = 0.089 \, Re_x^{3/10}
+\tag{14}
+$$
 
 which at $Re_x = 10^{7}$ is a factor of about eleven. A structure sized for laminar heating and flown turbulent is not conservatively designed. It is wrong. For that reason transition location, not peak temperature, is the quantity the community chased for the next fifty years. At a stagnation point the flux is given to good accuracy by the correlation used throughout this series,
 
-$$\dot{q}_s = k_{SG} \sqrt{\frac{\rho_\infty}{R_n}} \, V_\infty^3, \qquad k_{SG} = 1.7415 \times 10^{-4}$$
+$$
+\dot{q}_s = k_{SG} \sqrt{\frac{\rho_\infty}{R_n}} \, V_\infty^3, \qquad k_{SG} = 1.7415 \times 10^{-4}
+\tag{15}
+$$
 
 with $R_n$ the effective nose radius in metres, resting on the theory of [Fay and Riddell 1958][research_fay_riddell_1958] and the blunt-body analysis of [Lees 1956][research_lees_1956]. Take the condition of the final flight, which [Day and Reisert 1959][research_x2_mach32_1959] places at 65,500 feet, and evaluate it at 19,992 metres, within thirty metres of that altitude. There the standard atmosphere gives a static pressure of 5481 pascals and a density of 0.0882 kilograms per cubic metre, the [speed of sound][ref_speed_of_sound] is 295.0 metres per second, and at Mach 3.196 the true airspeed is 943 metres per second. With an effective nose radius of 0.05 metres,
 
-$$\dot{q}_s = 1.7415 \times 10^{-4} \times \sqrt{\frac{0.0882}{0.05}} \times 943^3 = 1.94 \times 10^{5} \ \text{watts per square metre}$$
+$$
+\dot{q}_s = 1.7415 \times 10^{-4} \times \sqrt{\frac{0.0882}{0.05}} \times 943^3 = 1.94 \times 10^{5} \ \text{watts per square metre}
+\tag{16}
+$$
 
 or 194 kilowatts per square metre. If the structure could only radiate that away, the equilibrium wall temperature would follow from the [Stefan-Boltzmann law][ref_stefan_boltzmann],
 
-$$T_{\text{eq}} = \left( \frac{\dot{q}_s}{\varepsilon \sigma_{SB}} \right)^{1/4}$$
+$$
+T_{\text{eq}} = \left( \frac{\dot{q}_s}{\varepsilon \sigma_{SB}} \right)^{1/4}
+\tag{17}
+$$
 
 with $\varepsilon$ the emissivity and $\sigma_{SB} = 5.670 \times 10^{-8}$ watts per square metre per kelvin to the fourth. At $\varepsilon = 0.8$ this gives 1438 kelvin, which no airframe alloy of 1955 could hold.
 
 The X-2 survived because it never reached equilibrium. This is the central design insight of the aircraft, and it concerns time, not temperature. Whether a thin skin can be treated as isothermal through its thickness is decided by the [Biot number][ref_biot_number],
 
-$$Bi = \frac{h_c t_w}{k_w}$$
+$$
+Bi = \frac{h_c t_w}{k_w}
+\tag{18}
+$$
 
 with $t_w$ the wall thickness and $k_w$ the wall [thermal conductivity][ref_thermal_conductivity]. For a metallic skin of a millimetre or two this is small, so a lumped transient balance applies,
 
-$$\rho_w c_w t_w \frac{dT_w}{dt} = \dot{q}_{\text{conv}} - \varepsilon \sigma_{SB} T_w^4$$
+$$
+\rho_w c_w t_w \frac{dT_w}{dt} = \dot{q}_{\text{conv}} - \varepsilon \sigma_{SB} T_w^4
+\tag{19}
+$$
 
 with $\rho_w$ the density and $c_w$ the specific heat. The thermal mass per unit area is
 
-$$C_A = \rho_w c_w t_w$$
+$$
+C_A = \rho_w c_w t_w
+\tag{20}
+$$
 
 and for stainless steel at 8000 kilograms per cubic metre, a specific heat of 500 joules per kilogram kelvin, and a 1.6 millimetre skin this is 6400 joules per square metre kelvin. Neglecting reradiation while the skin is still cold, the initial heating rate is
 
-$$\left. \frac{dT_w}{dt} \right|_{t=0} = \frac{\dot{q}_s}{C_A} = \frac{1.94 \times 10^{5}}{6400} = 30 \ \text{kelvin per second}$$
+$$
+\left. \frac{dT_w}{dt} \right|_{t=0} = \frac{\dot{q}_s}{C_A} = \frac{1.94 \times 10^{5}}{6400} = 30 \ \text{kelvin per second}
+\tag{21}
+$$
 
 so the skin climbs from an initial 250 kelvin to 800 kelvin in about eighteen seconds. Those eighteen seconds are the design margin of the entire aircraft. The X-2 was a heat sink flown fast for a short time, not a thermally equilibrated vehicle, and the exposure duration is a hard limit, not a soft one. The relevant diffusion timescale is set by the [Fourier number][ref_fourier_number],
 
-$$Fo = \frac{\alpha_{\text{th}} t}{t_w^2}, \qquad \alpha_{\text{th}} = \frac{k_w}{\rho_w c_w}$$
+$$
+Fo = \frac{\alpha_{\text{th}} t}{t_w^2}, \qquad \alpha_{\text{th}} = \frac{k_w}{\rho_w c_w}
+\tag{22}
+$$
 
 and for a thin metallic skin $Fo$ exceeds unity in well under a second, confirming that the skin equilibrates through its thickness far faster than it heats and so licensing the lumped treatment. Two refinements matter for a real structure. Radiation leaves the surface toward a cold sky, not into a blackbody enclosure, so the net radiative term carries a view factor $F$ and an effective sink temperature,
 
-$$\dot{q}_{\text{rad}} = \varepsilon \sigma_{SB} F \left( T_w^4 - T_{\text{sink}}^4 \right)$$
+$$
+\dot{q}_{\text{rad}} = \varepsilon \sigma_{SB} F \left( T_w^4 - T_{\text{sink}}^4 \right)
+\tag{23}
+$$
 
 and because $T_{\text{sink}}$ is small compared with $T_w$ the correction is modest, and the simpler form above neglects it. Conduction into the substructure is not modest. Treating the skin and the underlying structure as two lumped masses connected by a conductance $h_j$ per unit area gives
 
-$$C_{A,s} \frac{dT_s}{dt} = \dot{q}_{\text{conv}} - \varepsilon \sigma_{SB} T_s^4 - h_j \left( T_s - T_b \right)$$
+$$
+C_{A,s} \frac{dT_s}{dt} = \dot{q}_{\text{conv}} - \varepsilon \sigma_{SB} T_s^4 - h_j \left( T_s - T_b \right)
+\tag{24}
+$$
 
-$$C_{A,b} \frac{dT_b}{dt} = h_j \left( T_s - T_b \right)$$
+$$
+C_{A,b} \frac{dT_b}{dt} = h_j \left( T_s - T_b \right)
+\tag{25}
+$$
 
 whose difference $T_s - T_b$ is exactly the $\Delta T$ that drives the thermal stress below. The system has a characteristic equalization time
 
-$$\tau_{\text{eq}} = \frac{1}{h_j} \left( \frac{C_{A,s} C_{A,b}}{C_{A,s} + C_{A,b}} \right)$$
+$$
+\tau_{\text{eq}} = \frac{1}{h_j} \left( \frac{C_{A,s} C_{A,b}}{C_{A,s} + C_{A,b}} \right)
+\tag{26}
+$$
 
 and a design that makes $\tau_{\text{eq}}$ short reduces thermal stress at the cost of dumping heat into the primary structure, while one that makes it long protects the structure and maximizes the gradient. Neither is free, and the choice is the central thermal-structural tradeoff of every aircraft in this part of the series.
 
 A material figure of merit captures it. The thermal shock resistance parameter
 
-$$R_{TS} = \frac{\sigma_{\text{allow}} \left( 1 - \nu \right) k_w}{E \alpha_T}$$
+$$
+R_{TS} = \frac{\sigma_{\text{allow}} \left( 1 - \nu \right) k_w}{E \alpha_T}
+\tag{27}
+$$
 
 rewards strength and conductivity and penalizes stiffness and expansion, and it ranks materials very differently from specific strength. Stainless steel scores poorly on specific strength and adequately on $R_{TS}$, a second and independent reason it was the right choice. The general problem is the [heat equation][ref_heat_equation] treated by [Carslaw and Jaeger 1959][book_carslaw_jaeger_1959], and the flight-relevant computation by [Quinn and Gong 2000][research_transient_surface_temp_2000].
 
 Over a whole flight, as distinct from an instant, survival is decided by the integrated load,
 
-$$Q = \int_0^{t_f} \dot{q}_{\text{conv}} \, dt$$
+$$
+Q = \int_0^{t_f} \dot{q}_{\text{conv}} \, dt
+\tag{28}
+$$
 
 and peak rate and total load are traded against one another rather than minimized together. A steep fast profile has a high peak and a small integral. A shallow sustained one has the reverse. The X-2 flew the first kind by necessity and the [SR-71][ref_sr71] later flew the second by design. One is consequently a heat sink and the other thermally equilibrated. The diffusion depth reached in a time $t$ is
 
-$$\delta_{\text{th}} \sim \sqrt{\alpha_{\text{th}} t}$$
+$$
+\delta_{\text{th}} \sim \sqrt{\alpha_{\text{th}} t}
+\tag{29}
+$$
 
 and for stainless steel with a thermal diffusivity near $4 \times 10^{-6}$ square metres per second this is 8.9 millimetres in twenty seconds, comfortably more than the skin thickness and comfortably less than the structural depth. In precisely that regime skin and substructure reach different temperatures and the thermal stress problem below becomes acute. Hold that eighteen-second figure. On Apt's flight the engine burned about twelve and a half seconds longer than on the earlier Mach 2.87 flight in [Day and Reisert 1959][research_x2_mach32_1959], and about fifteen seconds longer than predicted in [Day 1997][research_coupling_history_1997].
 
@@ -177,63 +264,102 @@ Material selection is the keystone made concrete, and the criterion it applies i
 
 The figure of merit is not the room-temperature allowable but the allowable at the skin temperature the trajectory produces,
 
-$$\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_w}$$
+$$
+\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_w}
+\tag{30}
+$$
 
 The evidence for that selection is a body of sheet-property testing that ran alongside the airframe programmes and is rarely cited with them. Compressive strength and creep lifetime of the standard aluminium of the period were measured directly in [Mathauser and Deveikis 1955][research_creep_2024t3_1955] and [Mathauser and Deveikis 1957][research_creep_2024t3_1957], and the stainless steels that replaced it were characterized under rapid heating, the condition that matters for a heat-sink structure though not for a soaked one, in [Manning and Price 1961][research_stainless_rapid_heat_1961] and [Bernett and Gerberich 1961][research_rapid_compression_1961]. Testing practice itself had to be established, since a short-time elevated-temperature test is not a room-temperature test performed hot, and [Manning and Heimerl 1960][research_elevated_tensile_practice_1960] addresses that. Earlier aluminium property work appears in [Kotanchik et al. 1943][research_alclad_aging_1943]. Aluminium alloys hold useful strength to roughly 400 kelvin. [Titanium alloys][ref_titanium_alloys] reach roughly 800. [Stainless steel][ref_stainless_steel] and the nickel-copper K-Monel used on the X-2 reach roughly 900 to 1000 in short exposure. Against a recovery temperature of 611 kelvin the aluminium option is excluded outright and the steel option has margin, at a cost in density of nearly a factor of three.
 
 That density penalty propagates through the whole airframe. For a given bending moment the required spar cap area is
 
-$$A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}$$
+$$
+A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}
+\tag{31}
+$$
 
 and the cap mass per unit length is $\rho_m A_{\text{cap}}$, so the structural mass scales as
 
-$$m_s \propto \frac{\rho_m}{\sigma_{\text{allow}}(T_w)}$$
+$$
+m_s \propto \frac{\rho_m}{\sigma_{\text{allow}}(T_w)}
+\tag{32}
+$$
 
 a ratio that is the inverse of the temperature-derated specific strength.
 
 Two time-dependent mechanisms sit underneath that static allowable and neither appears in a stress calculation. The first is [creep][ref_creep_deformation]. A metal held under load at elevated temperature deforms progressively, and the standard correlation collapses time and temperature into the Larson-Miller parameter
 
-$$P_{LM} = T \left( C + \log_{10} t_r \right)$$
+$$
+P_{LM} = T \left( C + \log_{10} t_r \right)
+\tag{33}
+$$
 
 with $T$ in kelvin, $t_r$ the rupture time in hours, and $C$ near 20 for most steels. Because $P_{LM}$ is a single-valued function of stress for a given alloy, a fixed rupture parameter trades temperature against the logarithm of time. Inverting the definition gives the rupture time at any temperature,
 
-$$\log_{10} t_r = \frac{P_{LM}}{T} - C$$
+$$
+\log_{10} t_r = \frac{P_{LM}}{T} - C
+\tag{34}
+$$
 
 so that at constant stress the ratio between two temperatures is
 
-$$\log_{10} \frac{t_2}{t_1} = P_{LM} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)$$
+$$
+\log_{10} \frac{t_2}{t_1} = P_{LM} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)
+\tag{35}
+$$
 
 Take a one-hour rupture life at 700 kelvin, which fixes $P_{LM} = 700 \times (20 + 0) = 1.4 \times 10^{4}$. Raising the skin to 800 kelvin gives
 
-$$\log_{10} \frac{t_2}{t_1} = 1.4 \times 10^{4} \left( \frac{1}{800} - \frac{1}{700} \right) = -2.5$$
+$$
+\log_{10} \frac{t_2}{t_1} = 1.4 \times 10^{4} \left( \frac{1}{800} - \frac{1}{700} \right) = -2.5
+\tag{36}
+$$
 
 so a hundred kelvin near this range costs two and a half orders of magnitude in life. This sensitivity is the quantitative reason a short exposure is survivable and a sustained one is a different aircraft.
 
 The second is oxidation. Protective-scale growth on a nickel-bearing alloy follows a parabolic rate law,
 
-$$x_{\text{ox}}^2 = k_p t, \qquad k_p = k_0 \exp \left( -\frac{E_a}{R_u T} \right)$$
+$$
+x_{\text{ox}}^2 = k_p t, \qquad k_p = k_0 \exp \left( -\frac{E_a}{R_u T} \right)
+\tag{37}
+$$
 
 with $x_{\text{ox}}$ the scale thickness, $E_a$ an activation energy, and $R_u$ the universal gas constant. The Arrhenius factor means oxidation rate, like creep, is exponentially sensitive to temperature while the accumulated damage grows only as the square root of time. Both mechanisms therefore reward the fast, brief profile the X-2 flew. Steel at high temperature is competitive with aluminium at low temperature on this measure only because the aluminium allowable collapses, and that collapse is the entire argument for the material choice.
 
 The second thermal effect, after the loss of strength with temperature, is more dangerous than the first. A structure heated non-uniformly and prevented from expanding develops [thermal stress][ref_thermal_stress] directly,
 
-$$\sigma_{\text{th}} = \frac{E \alpha_T \Delta T}{1 - \nu}$$
+$$
+\sigma_{\text{th}} = \frac{E \alpha_T \Delta T}{1 - \nu}
+\tag{38}
+$$
 
 with $E$ the elastic modulus, $\alpha_T$ the coefficient of [thermal expansion][ref_thermal_expansion], $\nu$ the Poisson ratio, and $\Delta T$ the temperature difference across the constrained region. For stainless steel at 193 gigapascals, a coefficient of $17.3 \times 10^{-6}$ per kelvin, and a Poisson ratio of 0.3, a modest hundred-kelvin difference between a hot skin and a cooler substructure gives
 
-$$\sigma_{\text{th}} = \frac{193 \times 10^{9} \times 17.3 \times 10^{-6} \times 100}{0.7} = 477 \ \text{megapascals}$$
+$$
+\sigma_{\text{th}} = \frac{193 \times 10^{9} \times 17.3 \times 10^{-6} \times 100}{0.7} = 477 \ \text{megapascals}
+\tag{39}
+$$
 
 which already exceeds the yield strength of annealed stainless steel. At the three-hundred-kelvin difference a real transient produces, the figure is 1431 megapascals, a structurally meaningless number because the material would have yielded long before. The conclusion is not that the structure fails. It is that the structure must not be fully constrained. High-speed airframes use floating skin panels, slip joints, and corrugated webs precisely so that $\Delta T$ never acts across a rigid load path. The joint problem is treated explicitly in [Matza 1990][research_dissimilar_joints_1990], and the prediction against measurement, the only way to know whether the discipline worked, in [Jenkins 1979][research_thermal_stress_correlation_1979] and later on a dedicated test article in [Morris 1990][research_dryden_hwts_thermal_1990] and [Plank 1975][research_hypersonic_wing_structure_1975]. Structural concepts for sustained rather than transient exposure are surveyed in [Taylor and Jackson 1980][research_thermostructural_hypersonic_1980] and [Jackson and Taylor 1976][research_hypersonic_research_structure_1976], and active cooling as an alternative to material capability in [Petley et al. 1991][research_cooling_hypersonic_1991]. Two conventional checks accompany it. Thin panels buckle before they yield, at
 
-$$\sigma_{cr} = \frac{k \pi^2 E}{12 \left( 1 - \nu^2 \right)} \left( \frac{t_s}{b_s} \right)^2$$
+$$
+\sigma_{cr} = \frac{k \pi^2 E}{12 \left( 1 - \nu^2 \right)} \left( \frac{t_s}{b_s} \right)^2
+\tag{40}
+$$
 
 with $t_s$ the skin thickness, $b_s$ the stiffener pitch, and $k$ near four for a simply supported panel, and the modulus $E$ itself falls with temperature so the buckling allowable degrades faster than the yield allowable. The root bending moment for an elliptic spanwise distribution at load factor $n$ is
 
-$$M_{\text{root}} = \frac{n W b}{3 \pi}$$
+$$
+M_{\text{root}} = \frac{n W b}{3 \pi}
+\tag{41}
+$$
 
 feeding the cap area relation above, and the [wing loading][ref_wing_loading] and manoeuvring boundary follow the usual
 
-$$\frac{W}{S}, \qquad V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}$$
+$$
+\frac{W}{S}, \qquad V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}
+\tag{42}
+$$
 
 The aircraft was never manoeuvre-limited in the sense the [X-1][ref_bell_x1] was, because at 39 kilopascals and a low maximum lift coefficient it could not generate limit load aerodynamically at altitude at all. The theory is [Boley and Weiner 1960][book_boley_weiner_1960], with modern treatments of the temperature-dependent case in [Su et al. 2021][research_su_hwu_2021] and the graded case in [Yildirim et al. 2020][research_yildirim_2020].
 
@@ -243,65 +369,107 @@ Oxidation, whose rate law is given above, is the third effect and the least disc
 
 The wing was swept 40 degrees, as tabulated in [Day and Reisert 1959][research_x2_mach32_1959], and simple sweep theory gives the reason directly. Only the velocity component normal to the leading edge governs the compressible behaviour, so
 
-$$M_{\text{eff}} = M_\infty \cos \Lambda, \qquad C_{L\alpha, \Lambda} = C_{L\alpha} \cos \Lambda$$
+$$
+M_{\text{eff}} = M_\infty \cos \Lambda, \qquad C_{L\alpha, \Lambda} = C_{L\alpha} \cos \Lambda
+\tag{43}
+$$
 
 with $\Lambda$ the sweep angle. At Mach 3.196 the effective normal Mach number is 2.448, and the section behaves as though in a substantially slower flow. The cost is a lift-curve slope reduced by the same factor of 0.766, which raises the stall and landing speed through
 
-$$V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max} \cos \Lambda}}$$
+$$
+V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max} \cos \Lambda}}
+\tag{44}
+$$
 
 and so makes a swept-wing aircraft land fast. Sweep also raises the [critical Mach number][ref_transonic] at which local flow first reaches sonic conditions, approximately as
 
-$$M_{\text{crit}, \Lambda} \approx \frac{M_{\text{crit}, 0}}{\sqrt{\cos \Lambda}}$$
+$$
+M_{\text{crit}, \Lambda} \approx \frac{M_{\text{crit}, 0}}{\sqrt{\cos \Lambda}}
+\tag{45}
+$$
 
 which for 40 degrees is a gain of about fourteen percent, and it lengthens the structural load path, since for a given span the spar runs a distance $b / (2 \cos \Lambda)$ from root to tip and the root bending moment rises accordingly,
 
-$$M_{\text{root}, \Lambda} \approx \frac{M_{\text{root}, 0}}{\cos \Lambda}$$
+$$
+M_{\text{root}, \Lambda} \approx \frac{M_{\text{root}, 0}}{\cos \Lambda}
+\tag{46}
+$$
 
 A swept wing is therefore heavier than a straight one of the same span carrying the same load, before any thermal penalty is applied.
 
 Two aeroelastic limits accompany it and both tighten as the structure heats, because the elastic modulus falls with temperature and every stiffness below is proportional to it. Static divergence of a typical section occurs at
 
-$$q_D = \frac{K_\theta}{e S C_{L\alpha}}$$
+$$
+q_D = \frac{K_\theta}{e S C_{L\alpha}}
+\tag{47}
+$$
 
 with $K_\theta$ the torsional stiffness and $e$ the distance from the elastic axis to the aerodynamic centre. Aft sweep raises $q_D$, because bending washes the tip out rather than in. Control reversal is the sharper limit for a thin swept wing, since an aileron deflection twists the surface against its own rolling moment, and the reversal dynamic pressure is
 
-$$q_R = \frac{K_\theta \, C_{L\delta}}{S \bar{c} \, C_{L\alpha} \left| C_{m\delta} \right|}$$
+$$
+q_R = \frac{K_\theta \, C_{L\delta}}{S \bar{c} \, C_{L\alpha} \left| C_{m\delta} \right|}
+\tag{48}
+$$
 
 above which a roll input produces roll in the wrong direction. Dynamic behaviour is governed by the reduced frequency and flutter speed index,
 
-$$k = \frac{\omega b}{2 V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}$$
+$$
+k = \frac{\omega b}{2 V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}
+\tag{49}
+$$
 
 following [Theodorsen 1935][research_theodorsen_1935], with the programme history in [Garrick and Reed 1981][research_garrick_reed_1981] and the field bounded by [Collar 1946][research_collar_1946]. A heated structure is a softer structure, so the aeroelastic boundaries move down exactly as the thermal ones are approached. This coupling turns two problems into the single aerothermoelastic problem. That the modal characteristics themselves shift with temperature was later measured directly in [Snyder and Kehoe 1991][research_heated_plate_modes_1991] and correlated against analysis in [Kehoe and Deaton 1993][research_hot_structure_vibration_1993]. Control reversal on a flexible swept wing had already been formulated in [Diederich 1951][research_flexible_wing_lateral_1951], and the divergence problem in its most severe form, on forward-swept wings, generated a literature in [Ricketts and Doggett 1980][research_fsw_divergence_tunnel_1980], [Bland 1980][research_fsw_airfoil_divergence_1980], [Cole 1986][research_fsw_divergence_study_1986], [Schuster and Lokos 1988][research_fsw_flight_divergence_1988], and [Weisshaar and Zeiler 1982][research_flexible_fsw_dynamics_1982], with the oblique-wing case in [A Study 1973][research_oblique_wing_divergence_1973] and asymmetric sweep flutter in [Weisshaar and Crittenden 1976][research_asymmetric_sweep_flutter_1976]. Contemporary treatment of swept-wing aerodynamic characteristics appears in [Samputh et al. 2024][research_samputh_moey_2024].
 
 Supersonic aerodynamics of the [swept wing][ref_swept_wing] follow the linearized result of [Ackeret 1925][research_ackeret_1925], which for a thin surface at incidence gives
 
-$$C_L = \frac{4 \alpha}{\sqrt{M_\infty^2 - 1}}, \qquad C_{D,\text{wave}} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}}$$
+$$
+C_L = \frac{4 \alpha}{\sqrt{M_\infty^2 - 1}}, \qquad C_{D,\text{wave}} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}}
+\tag{50}
+$$
 
 and the important feature for this aircraft is the denominator. The [Prandtl-Glauert][ref_transonic] factor for supersonic flow,
 
-$$\beta_s = \sqrt{M_\infty^2 - 1}$$
+$$
+\beta_s = \sqrt{M_\infty^2 - 1}
+\tag{51}
+$$
 
 grows with Mach number, so lift-curve slope falls as $1/\beta_s$. At Mach 1.5 it is 3.578 per radian and at Mach 3.196 it is 1.318, a reduction by a factor of 2.72. Every aerodynamic surface on the aircraft, including the ones that keep it pointing forward, loses effectiveness in the same proportion. Here lies the seed of the accident.
 
 [Dynamic pressure][ref_dynamic_pressure] at the Mach 3.196 condition is
 
-$$q = \frac{\gamma}{2} p M^2 = 0.7 \times 5481 \times 10.214 = 3.92 \times 10^{4} \ \text{pascals}$$
+$$
+q = \frac{\gamma}{2} p M^2 = 0.7 \times 5481 \times 10.214 = 3.92 \times 10^{4} \ \text{pascals}
+\tag{52}
+$$
 
 Lift and drag at that condition follow from the reference area through
 
-$$L = q S C_L, \qquad D = q S C_D, \qquad C_L = \frac{W}{q S}$$
+$$
+L = q S C_L, \qquad D = q S C_D, \qquad C_L = \frac{W}{q S}
+\tag{53}
+$$
 
 and with a mass near 5600 kilograms the level-flight equivalent [lift coefficient][ref_lift_coefficient] is 0.058. So low a value reflects an aircraft flying fast, not flying hard. Supersonic [lift-to-drag][ref_lift_to_drag] for a configuration of this class is bounded well below the subsonic value, since the wave term does not vanish,
 
-$$C_D = C_{D0} + C_{D,\text{wave}} + \frac{C_L^2}{\pi A e}$$
+$$
+C_D = C_{D0} + C_{D,\text{wave}} + \frac{C_L^2}{\pi A e}
+\tag{54}
+$$
 
 and at this lift coefficient the induced term is negligible, so the aircraft is entirely wave and friction limited. The friction contribution referred to wing area follows from the turbulent flat-plate coefficient and the wetted-area ratio,
 
-$$C_{D,f} = C_f \frac{S_{\text{wet}}}{S}$$
+$$
+C_{D,f} = C_f \frac{S_{\text{wet}}}{S}
+\tag{55}
+$$
 
 which over the 13.7 metre body length gives a length Reynolds number of $8.0 \times 10^{7}$, a skin friction coefficient of 0.0016, and, for a wetted-area ratio near four, a friction drag coefficient of about 0.006. The base contributes
 
-$$C_{D,\text{base}} = -C_{p,b} \frac{A_b}{S}$$
+$$
+C_{D,\text{base}} = -C_{p,b} \frac{A_b}{S}
+\tag{56}
+$$
 
 with $C_{p,b}$ the base pressure coefficient, which for a rocket aircraft flying with the engine shut down is a substantial term and one reason the unpowered return is draggier than the powered climb. The point matters, because the intuitive account of the accident blames thin air, and that account is wrong. The X-2 at Mach 3.196 was in higher dynamic pressure than the [X-15][ref_na_x15] at Mach 6.7, which sees 32 kilopascals. Aerodynamic surfaces on the X-2 had force available. What they had lost was not dynamic pressure but lift-curve slope, and those are different failures with different remedies.
 
@@ -309,69 +477,117 @@ with $C_{p,b}$ the base pressure coefficient, which for a rocket aircraft flying
 
 The Curtiss-Wright XLR25, rated in [Bell X-2][ref_bell_x2] at 2,500 to 15,000 pounds of thrust, delivered about 66.7 kilonewtons from two chambers and, unlike the [X-1][related_post_a298_bell_x1] engine, could be throttled continuously rather than switched in quanta. Thrust follows the usual momentum and pressure terms,
 
-$$F = \dot{m} v_e + (p_e - p_a) A_e$$
+$$
+F = \dot{m} v_e + (p_e - p_a) A_e
+\tag{57}
+$$
 
 with $\dot{m}$ the mass flow, $v_e$ the exhaust velocity, and $A_e$ the exit area. Normalizing gives the [specific impulse][ref_specific_impulse],
 
-$$I_{sp} = \frac{F}{\dot{m} g_0}$$
+$$
+I_{sp} = \frac{F}{\dot{m} g_0}
+\tag{58}
+$$
 
 and at a value near 210 seconds for a turbopump-fed liquid oxygen and diluted alcohol engine, the mass flow at full thrust is
 
-$$\dot{m} = \frac{66{,}723}{210 \times 9.80665} = 32.4 \ \text{kilograms per second}$$
+$$
+\dot{m} = \frac{66{,}723}{210 \times 9.80665} = 32.4 \ \text{kilograms per second}
+\tag{59}
+$$
 
 Chamber and nozzle performance separate through the characteristic velocity and thrust coefficient,
 
-$$c^{*} = \frac{p_0 A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_0 A_t}, \qquad I_{sp} = \frac{c^{*} C_F}{g_0}$$
+$$
+c^{*} = \frac{p_0 A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_0 A_t}, \qquad I_{sp} = \frac{c^{*} C_F}{g_0}
+\tag{60}
+$$
 
 with $A_t$ the throat area, and the expansion ratio follows from the exit Mach number through
 
-$$\varepsilon_n = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_e^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
+$$
+\varepsilon_n = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_e^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}
+\tag{61}
+$$
 
 A [turbopump][ref_turbopump]-fed engine, unlike the pressure-fed X-1 installation, requires shaft power proportional to the pressure rise and the volumetric flow,
 
-$$\mathcal{P}_{\text{pump}} = \frac{\dot{m} \, \Delta p}{\rho_{\text{prop}} \, \eta_{\text{pump}}}$$
+$$
+\mathcal{P}_{\text{pump}} = \frac{\dot{m} \, \Delta p}{\rho_{\text{prop}} \, \eta_{\text{pump}}}
+\tag{62}
+$$
 
 and at 32.4 kilograms per second against a pressure rise of a few megapascals this is hundreds of kilowatts, supplied by a gas generator that is itself a combustion device requiring its own development, with even the material compatibility of the pump internals a research question, as [Stoltzfus and Benz 1986][research_turbopump_ignition_1986] shows for ignition resistance in oxygen-rich environments.
 
 Throttling is emphasized here because it is the part of the engine that took the years. A rocket chamber is stable over a narrow range of injector pressure drop and mixture ratio, and reducing thrust attacks both. The problem has a substantial modern literature, surveyed comprehensively in [Casiano et al. 2009][research_throttling_review_2009] and traced historically in [Betts and Frederick 2010][research_throttling_history_2010], with deep-throttling demonstrators reported in [Giuliano et al. 2007][research_cece_throttling_2007], alternative architectures in [Sackheim et al. 2005][research_throttleable_engine_2005], and the injector scaling that governs it in [Kenny et al. 2006][research_injector_throttling_2006]. That a capability the X-2 needed in 1955 still supports a review literature in 2010 is the measure of how hard it was. The turbine that drives the pumps must balance that demand,
 
-$$\mathcal{P}_{\text{turb}} = \dot{m}_{gg} \, c_p \, T_{gg} \, \eta_t \left[ 1 - \left( \frac{p_{\text{out}}}{p_{gg}} \right)^{\frac{\gamma - 1}{\gamma}} \right] = \mathcal{P}_{\text{pump}}$$
+$$
+\mathcal{P}_{\text{turb}} = \dot{m}_{gg} \, c_p \, T_{gg} \, \eta_t \left[ 1 - \left( \frac{p_{\text{out}}}{p_{gg}} \right)^{\frac{\gamma - 1}{\gamma}} \right] = \mathcal{P}_{\text{pump}}
+\tag{63}
+$$
 
 and the gas generator flow $\dot{m}_{gg}$ is propellant that produces no useful thrust, so the arrangement costs specific impulse directly,
 
-$$I_{sp,\text{eff}} = I_{sp} \left( 1 - \frac{\dot{m}_{gg}}{\dot{m}} \right)$$
+$$
+I_{sp,\text{eff}} = I_{sp} \left( 1 - \frac{\dot{m}_{gg}}{\dot{m}} \right)
+\tag{64}
+$$
 
 Propellant volume follows from the densities,
 
-$$V_{\text{tank}} = \frac{m_{ox}}{\rho_{ox}} + \frac{m_f}{\rho_f}$$
+$$
+V_{\text{tank}} = \frac{m_{ox}}{\rho_{ox}} + \frac{m_f}{\rho_f}
+\tag{65}
+$$
 
 and the exit Mach number that sets the expansion ratio is recovered by inverting the area relation numerically, since it cannot be written explicitly in $M_e$. This complexity explains a large part of why the engine took as long as it did, and it gives concrete content to the claim above that the programme was inventing two things at once. Throttling changes $\dot{m}$ and therefore $p_0$, so a throttled chamber runs at lower pressure and slightly lower $c^{*}$, and the achievable throttle range is bounded below by injector stability,
 
-$$\Delta p_{\text{inj}} \gtrsim 0.2 \, p_0$$
+$$
+\Delta p_{\text{inj}} \gtrsim 0.2 \, p_0
+\tag{66}
+$$
 
 which cannot be maintained as $p_0$ falls without a variable injector. Deep throttling was hard in 1955 because of that inequality, and it remains the governing constraint on throttleable liquid engines. With a launch mass of 11,299 kilograms and an empty mass of 5613 kilograms, converted from the weights in [Bell X-2][ref_bell_x2], the propellant load of 5686 kilograms gives a full-thrust burn time of
 
-$$t_b = \frac{m_p}{\dot{m}} = \frac{5686}{32.4} = 175 \ \text{seconds}$$
+$$
+t_b = \frac{m_p}{\dot{m}} = \frac{5686}{32.4} = 175 \ \text{seconds}
+\tag{67}
+$$
 
 and an ideal velocity increment from the [Tsiolkovsky relation][ref_tsiolkovsky] of
 
-$$\Delta v = I_{sp} g_0 \ln \frac{m_0}{m_f} = 2059 \times \ln \frac{11{,}299}{5613} = 1441 \ \text{metres per second}$$
+$$
+\Delta v = I_{sp} g_0 \ln \frac{m_0}{m_f} = 2059 \times \ln \frac{11{,}299}{5613} = 1441 \ \text{metres per second}
+\tag{68}
+$$
 
 The energy accounting closes as it did for the X-1. Release from the B-50 at roughly 10,000 metres and 250 metres per second is an energy height of
 
-$$h_e = h + \frac{V^2}{2g} = 13{,}187 \ \text{metres}$$
+$$
+h_e = h + \frac{V^2}{2g} = 13{,}187 \ \text{metres}
+\tag{69}
+$$
 
 and the final condition of 19,992 metres at 943 metres per second is 65,326 metres, a gain of 52.1 kilometres. The specific energy delivered is $g \Delta h_e = 5.11 \times 10^{5}$ joules per kilogram against an ideal budget of $\Delta v^2 / 2 = 1.04 \times 10^{6}$, so
 
-$$\eta_{\text{traj}} = \frac{g \Delta h_e}{\Delta v^2 / 2} = 0.49$$
+$$
+\eta_{\text{traj}} = \frac{g \Delta h_e}{\Delta v^2 / 2} = 0.49
+\tag{70}
+$$
 
 within a percentage point of the X-1 figure, confirming that the published masses and thrust are mutually consistent. The remaining budget quantities are the mass fractions and thrust-to-weight,
 
-$$\frac{m_p}{m_0} = \frac{5686}{11{,}299} = 0.50, \qquad \frac{T}{W} = \frac{66{,}723}{11{,}299 \times 9.80665} = 0.60$$
+$$
+\frac{m_p}{m_0} = \frac{5686}{11{,}299} = 0.50, \qquad \frac{T}{W} = \frac{66{,}723}{11{,}299 \times 9.80665} = 0.60
+\tag{71}
+$$
 
 both higher than the X-1 figures of 0.41 and 0.49, the propulsive consequence of demanding Mach 3 where the X-1 needed Mach 1.5. The rate at which energy height could be added is the specific excess power,
 
-$$P_s = \frac{V \left( T - D \right)}{W}, \qquad \frac{dh_e}{dt} = P_s$$
+$$
+P_s = \frac{V \left( T - D \right)}{W}, \qquad \frac{dh_e}{dt} = P_s
+\tag{72}
+$$
 
 and the climb angle available follows from the same excess through $\sin \gamma = (T - D) / W$. Throttling matters here because it decouples the burn duration from the thrust level, and a pilot who needs to remain inside a thermal exposure limit needs that control. The propellant tradeoff space is covered in [A217 Rocket Propellant Chemistry][related_post_a217_rocket_propellant_chemistry], and modern work on regenerative cooling of such chambers appears in [Jeon and Park 2023][research_jeon_park_2023]. Small rocket-propelled research vehicles remain a live architecture, as [Vernacchia et al. 2022][research_vernacchia_2022] describe.
 
@@ -381,65 +597,110 @@ This subsystem ended the programme, and the argument can be made quantitatively.
 
 [Directional stability][ref_directional_stability] is supplied by the vertical tail, whose contribution to the yawing-moment derivative is
 
-$$C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v l_v}{S b}$$
+$$
+C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v l_v}{S b}
+\tag{73}
+$$
 
 with $V_V$ the vertical tail volume coefficient, $S_v$ and $l_v$ the tail area and arm, $b$ the span, and $\eta_v$ the tail efficiency. The tail lift-curve slope carries the supersonic $1/\beta_s$ dependence derived above, so
 
-$$C_{n\beta}(M) \propto \frac{1}{\sqrt{M_\infty^2 - 1}}$$
+$$
+C_{n\beta}(M) \propto \frac{1}{\sqrt{M_\infty^2 - 1}}
+\tag{74}
+$$
 
 and directional stiffness at Mach 3.196 is 2.72 times weaker than at Mach 1.5 for the same geometry. The vertical tail also sits in a flow field disturbed by everything ahead of it, and the interference effects that result were measured at supersonic speeds in [Edwards 1956][research_vtail_interference_1956]. Later approaches to recovering directional control when the tail alone cannot supply it include forebody shaping, as in [Spearman and Driver 1959][research_forebody_deflection_1959], actuated strakes combined with thrust vectoring in [Lallman et al. 1998][research_thrust_vectoring_strakes_1998], and the general effector prediction problem in [Maughmer et al. 1990][research_control_effectors_1990]. The related departure mode on slender configurations is modelled in [Hong 1993][research_wing_rock_delta_1993]. Longitudinal stiffness behaves similarly, and the [aerodynamic centre][ref_aerodynamic_center] has by then migrated aft, so the aircraft is stiff in pitch and weak in yaw. The longitudinal counterpart is the [static margin][ref_longitudinal_static_stability],
 
-$$SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM$$
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM
+\tag{75}
+$$
 
 and the damped modes that result are the short period and the [phugoid][ref_phugoid],
 
-$$\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \omega_{ph} \approx \frac{g \sqrt{2}}{V}$$
+$$
+\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \omega_{ph} \approx \frac{g \sqrt{2}}{V}
+\tag{76}
+$$
 
 with the phugoid period at 943 metres per second exceeding two minutes and so irrelevant on a flight of this length. Laterally the modes are the [Dutch roll][ref_dutch_roll], the roll subsidence, and the spiral,
 
-$$\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \tau_r \approx -\frac{I_x}{L_p}, \qquad L_\beta N_r - L_r N_\beta > 0$$
+$$
+\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \tau_r \approx -\frac{I_x}{L_p}, \qquad L_\beta N_r - L_r N_\beta > 0
+\tag{77}
+$$
 
 the last being the spiral stability condition. The damping derivatives that would suppress a disturbance, principally $C_{mq}$ and $C_{nr}$, scale as
 
-$$C_{mq}, \, C_{nr} \propto \frac{1}{\sqrt{M_\infty^2 - 1}} \cdot \frac{1}{V}$$
+$$
+C_{mq}, \, C_{nr} \propto \frac{1}{\sqrt{M_\infty^2 - 1}} \cdot \frac{1}{V}
+\tag{78}
+$$
 
 so they weaken twice over at high Mach number, once through the lift-curve slope and once through the rate normalization. An aircraft at Mach 3 is therefore stiff, fast-responding, and very lightly damped, the least forgiving combination available. That asymmetry matters for what follows.
 
 [Inertia coupling][ref_inertia_coupling] arises from the gyroscopic terms in the [Euler moment equations][ref_euler_equations_rigid],
 
-$$I_y \dot{q} = M + \left( I_z - I_x \right) p r, \qquad I_z \dot{r} = N + \left( I_x - I_y \right) p q$$
+$$
+I_y \dot{q} = M + \left( I_z - I_x \right) p r, \qquad I_z \dot{r} = N + \left( I_x - I_y \right) p q
+\tag{79}
+$$
 
 with $p$, $q$, and $r$ the roll, pitch, and yaw rates and $I_x$, $I_y$, $I_z$ the principal [moments of inertia][ref_moment_of_inertia]. These terms vanish in single-axis analysis and grow with the product of roll rate and the inertia difference. The phenomenon was predicted by [Phillips 1948][research_phillips_1948] before any aircraft met it, and its programme history is set out in [Day 1997][research_coupling_history_1997].
 
 The X-2 configuration maximizes the danger. Mass is concentrated in a long fuselage holding propellant, and the wings are short and swept, so $I_z - I_x$ is large. Divergence follows when the roll rate approaches the lower of the two aerodynamic natural frequencies,
 
-$$\omega_\alpha = \sqrt{\frac{q S \bar{c} \left| C_{m\alpha} \right|}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)$$
+$$
+\omega_\alpha = \sqrt{\frac{q S \bar{c} \left| C_{m\alpha} \right|}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)
+\tag{80}
+$$
 
 Evaluate with the mass properties that [Day 1997][research_coupling_history_1997] tabulates for the X-2 and with representative aerodynamic values. Take a reference area of 24.16 square metres, a mean chord of 2.4 metres, a span of 9.83 metres, a mass at the test point of 5600 kilograms, and the tabulated pitch and yaw moments of inertia of 25,474 and 29,106 slug square feet, which are $I_y = 3.45 \times 10^{4}$ and $I_z = 3.95 \times 10^{4}$ kilogram square metres. Take also a pitch stiffness of 0.3 per radian, and a directional stiffness of 0.1 per radian weakened by Mach number. Then
 
-$$\omega_\alpha = 4.44 \ \text{radians per second}, \qquad \omega_\beta = 4.86 \ \text{radians per second}$$
+$$
+\omega_\alpha = 4.44 \ \text{radians per second}, \qquad \omega_\beta = 4.86 \ \text{radians per second}
+\tag{81}
+$$
 
-$$p_{\text{crit}} \approx 4.44 \ \text{radians per second} = 255 \ \text{degrees per second}$$
+$$
+p_{\text{crit}} \approx 4.44 \ \text{radians per second} = 255 \ \text{degrees per second}
+\tag{82}
+$$
 
 The roll rate an input produces follows from the balance of aileron moment against roll damping,
 
-$$p_{ss} = -\frac{C_{l \delta_a} \, \delta_a}{C_{l p}} \cdot \frac{2V}{b}$$
+$$
+p_{ss} = -\frac{C_{l \delta_a} \, \delta_a}{C_{l p}} \cdot \frac{2V}{b}
+\tag{83}
+$$
 
 with $C_{l\delta_a}$ the aileron effectiveness and $C_{lp}$ the roll damping derivative, and the time constant of the approach to that steady rate is
 
-$$\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}$$
+$$
+\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}
+\tag{84}
+$$
 
 Both derivatives carry the supersonic $1 / \beta_s$ falloff, so aileron effectiveness and roll damping weaken together and the ratio that sets $p_{ss}$ is roughly preserved while the response slows. The time to reach that steady rate from a step input follows the first-order response
 
-$$p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)$$
+$$
+p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)
+\tag{85}
+$$
 
 so the critical rate is crossed at
 
-$$t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right)$$
+$$
+t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right)
+\tag{86}
+$$
 
 and for a commanded rate twice the critical one with a roll time constant of half a second, the threshold is passed in about 0.35 seconds, well before the pilot could perceive the rate as excessive. The practical consequence is that a control input which produced an acceptable roll rate at Mach 1.5 produces a comparable one at Mach 3.2, so the pilot has no natural feedback that the safe boundary has moved. For the conditions of the final flight [Day 1997][research_coupling_history_1997] calculates a critical roll velocity of 1.35 radians per second, which the motions of that flight exceeded, so the boundary lay inside what a pilot could reach with a normal control input, and nothing in the cockpit told him where that boundary was. That figure is under a third of the representative one. Matching it with the tabulated inertias would take a directional stiffness of about 0.008 per radian, a value consistent with the loss of directional stability as the angle of attack rose that the same account records. The inertia ratios that govern the severity are
 
-$$\mu_1 = \frac{I_z - I_x}{I_y}, \qquad \mu_2 = \frac{I_x - I_y}{I_z}$$
+$$
+\mu_1 = \frac{I_z - I_x}{I_y}, \qquad \mu_2 = \frac{I_x - I_y}{I_z}
+\tag{87}
+$$
 
 and with the tabulated inertias they are 0.94 and minus 0.70, both large in magnitude. The stiffness values above are representative and were not measured on this airframe, so they support the order of magnitude and leave the decimal open.
 
@@ -449,41 +710,68 @@ The critical roll rate above is a threshold. What happens past it is worth deriv
 
 Linearize the pitch and yaw equations about a steady roll rate $p$, retaining the gyroscopic terms and the aerodynamic stiffnesses, and neglect damping, small at this condition for the reasons given above. Writing $\alpha$ and $\beta$ for the angle of attack and sideslip perturbations, the coupled system is
 
-$$\ddot{\alpha} + \omega_\alpha^2 \alpha = \left( \frac{I_z - I_x}{I_y} \right) p \, \dot{\beta} + p^2 \alpha$$
+$$
+\ddot{\alpha} + \omega_\alpha^2 \alpha = \left( \frac{I_z - I_x}{I_y} \right) p \, \dot{\beta} + p^2 \alpha
+\tag{88}
+$$
 
-$$\ddot{\beta} + \omega_\beta^2 \beta = \left( \frac{I_x - I_y}{I_z} \right) p \, \dot{\alpha} + p^2 \beta$$
+$$
+\ddot{\beta} + \omega_\beta^2 \beta = \left( \frac{I_x - I_y}{I_z} \right) p \, \dot{\alpha} + p^2 \beta
+\tag{89}
+$$
 
 in which two distinct effects appear. The terms in $p \dot{\beta}$ and $p \dot{\alpha}$ exchange energy between the two axes, and the terms in $p^2$ subtract directly from the aerodynamic stiffness. Seeking solutions of the form $e^{\lambda t}$ gives a quartic characteristic equation whose stability boundary reduces, when the cross-coupling is neglected, to the pair of conditions
 
-$$\omega_\alpha^2 - p^2 > 0, \qquad \omega_\beta^2 - p^2 > 0$$
+$$
+\omega_\alpha^2 - p^2 > 0, \qquad \omega_\beta^2 - p^2 > 0
+\tag{90}
+$$
 
 the threshold quoted above, restated as the roll rate at which the effective stiffness in one axis reaches zero. Past that point the corresponding root is real and positive and the motion diverges exponentially rather than oscillating.
 
 The growth rate follows directly. For a roll rate exceeding the pitch threshold the unstable root is
 
-$$\lambda = \sqrt{p^2 - \omega_\alpha^2}$$
+$$
+\lambda = \sqrt{p^2 - \omega_\alpha^2}
+\tag{91}
+$$
 
 so at a roll rate of 5.8 radians per second, about thirty percent above $\omega_\alpha = 4.44$,
 
-$$\lambda = \sqrt{5.8^2 - 4.44^2} = 3.73 \ \text{per second}$$
+$$
+\lambda = \sqrt{5.8^2 - 4.44^2} = 3.73 \ \text{per second}
+\tag{92}
+$$
 
 with an e-folding time of
 
-$$\tau_{\text{div}} = \frac{1}{\lambda} = 0.27 \ \text{seconds}$$
+$$
+\tau_{\text{div}} = \frac{1}{\lambda} = 0.27 \ \text{seconds}
+\tag{93}
+$$
 
 An initial one-degree disturbance therefore reaches thirty degrees of angle of attack in
 
-$$t = \tau_{\text{div}} \ln \frac{30}{1} = 0.27 \times 3.40 = 0.92 \ \text{seconds}$$
+$$
+t = \tau_{\text{div}} \ln \frac{30}{1} = 0.27 \times 3.40 = 0.92 \ \text{seconds}
+\tag{94}
+$$
 
 The growth rate scales with the threshold, so at the 1.35 radians per second that [Day 1997][research_coupling_history_1997] calculates, the same thirty percent exceedance gives an e-folding time of 0.89 seconds and reaches thirty degrees in about three seconds. Those are the numbers that matter. A pilot cannot reliably diagnose an unfamiliar divergence, decide, and act inside one to three seconds, and at Mach 3 there is no margin to absorb the excursion. The X-3 and F-100A encounters of 1954 recorded in [Day 1997][research_coupling_history_1997] belong to the same mechanism and share this arithmetic.
 
 The loads that follow are not survivable either. An angle of attack excursion $\Delta \alpha$ at dynamic pressure $q$ produces a normal load factor increment
 
-$$\Delta n = \frac{q S C_{L\alpha} \Delta \alpha}{W}$$
+$$
+\Delta n = \frac{q S C_{L\alpha} \Delta \alpha}{W}
+\tag{95}
+$$
 
 and at 39.2 kilopascals, a reference area of 24.16 square metres, a lift-curve slope of 1.3 per radian and a weight of 54.9 kilonewtons, a thirty degree excursion gives
 
-$$\Delta n = \frac{39{,}188 \times 24.16 \times 1.3 \times 0.524}{54{,}900} = 11.7$$
+$$
+\Delta n = \frac{39{,}188 \times 24.16 \times 1.3 \times 0.524}{54{,}900} = 11.7
+\tag{96}
+$$
 
 which exceeds any structural limit the aircraft carried and exceeds human tolerance in the lateral axis by a wide margin. The aircraft did not fail structurally before the pilot lost the ability to act, but the two thresholds are close enough that the distinction is academic.
 
@@ -495,35 +783,56 @@ The measurements the programme existed to make were skin temperatures, which mea
 
 The sensor has its own dynamics. A [thermocouple][ref_thermocouple] junction of characteristic dimension $d$ responds with a first-order lag
 
-$$\tau_{tc} = \frac{\rho_j c_j}{h_c} \cdot \frac{V_j}{A_j} \approx \frac{\rho_j c_j d}{6 h_c}$$
+$$
+\tau_{tc} = \frac{\rho_j c_j}{h_c} \cdot \frac{V_j}{A_j} \approx \frac{\rho_j c_j d}{6 h_c}
+\tag{97}
+$$
 
 and for a half-millimetre steel bead against a convective coefficient of a few hundred watts per square metre kelvin this is of order half a second. Against a skin heating at thirty kelvin per second that lag is not negligible, and the indicated temperature trails the true one by
 
-$$T_{\text{true}} - T_{\text{indicated}} \approx \tau_{tc} \frac{dT}{dt} \approx 20 \ \text{kelvin}$$
+$$
+T_{\text{true}} - T_{\text{indicated}} \approx \tau_{tc} \frac{dT}{dt} \approx 20 \ \text{kelvin}
+\tag{98}
+$$
 
 which must be corrected out. A probe measuring gas rather than metal has a further error, since it recovers only part of the stagnation temperature,
 
-$$T_{\text{probe}} = T_\infty \left( 1 + r_p \frac{\gamma - 1}{2} M^2 \right)$$
+$$
+T_{\text{probe}} = T_\infty \left( 1 + r_p \frac{\gamma - 1}{2} M^2 \right)
+\tag{99}
+$$
 
 with $r_p$ the probe recovery factor, typically between 0.85 and 0.98 and itself a calibration quantity.
 
 Airspeed and Mach number came from a pitot-static installation with the same difficulties treated at length for the X-1 and calibrated by the same methods, including [Hasel and Coletti 1948][research_pitot_supersonic_1948] on supersonic pitot behaviour and [Thompson et al. 1950][research_airspeed_calibration_1950] on flight calibration of airspeed systems. At Mach 3 the bow shock is strong, so the Rayleigh correction is large and unambiguous. The supersonic pitot relation is
 
-$$\frac{p_{02}}{p_1} = \left[ \frac{(\gamma + 1)^2 M_1^2}{4 \gamma M_1^2 - 2(\gamma - 1)} \right]^{\frac{\gamma}{\gamma - 1}} \cdot \frac{1 - \gamma + 2 \gamma M_1^2}{\gamma + 1}$$
+$$
+\frac{p_{02}}{p_1} = \left[ \frac{(\gamma + 1)^2 M_1^2}{4 \gamma M_1^2 - 2(\gamma - 1)} \right]^{\frac{\gamma}{\gamma - 1}} \cdot \frac{1 - \gamma + 2 \gamma M_1^2}{\gamma + 1}
+\tag{100}
+$$
 
 and at Mach 3.196 it gives 13.6 against an isentropic value of 49.1, so the two differ by a factor of 3.6. Compare the [X-1][ref_bell_x1] at Mach 1.06, where the same two expressions differ by 0.02 percent and the measurement is nearly degenerate. The X-2 knew its Mach number far better than the X-1 knew its own. The result is counterintuitive and entirely real, a consequence of shock strength growing with Mach number. The sensitivity of the inferred Mach number to a pressure error,
 
-$$\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d \left( p_{02} / p_1 \right)}{p_{02} / p_1}$$
+$$
+\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d \left( p_{02} / p_1 \right)}{p_{02} / p_1}
+\tag{101}
+$$
 
 falls as $M$ rises, so high-speed air data is intrinsically better conditioned than transonic air data.
 
 Uncertainty propagates by the usual relation,
 
-$$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{102}
+$$
 
 as set out in [Taylor 1997][book_taylor_1997_error_analysis] and [Bevington and Robinson 2002][book_bevington_robinson_2002], and the heating measurement carries an amplification of its own. Recovering the convective flux from a measured temperature history requires differentiating that history,
 
-$$\dot{q}_{\text{conv}} = C_A \frac{dT_w}{dt} + \varepsilon \sigma_{SB} T_w^4$$
+$$
+\dot{q}_{\text{conv}} = C_A \frac{dT_w}{dt} + \varepsilon \sigma_{SB} T_w^4
+\tag{103}
+$$
 
 and differentiation amplifies noise, so a temperature record good to one percent does not give a flux good to one percent. Strain gauging a hot structure poses a separate research problem, since the gauge, its adhesive, and its lead wires all respond to temperature as well as to strain, and the apparent strain that results must be calibrated out. [Jenkins et al. 1979][research_yf12_strain_gauges_1979] documents that on a supersonic aircraft wing, and the loads calibration methodology it feeds is described in [Jenkins and Kuhl 1977][research_loads_calibration_1977]. [Strain gauges][ref_strain_gauge], [accelerometers][ref_accelerometer], and [telemetry][ref_telemetry] carried the remainder, and the modern descendant of the whole discipline is surveyed in [Grauer and Morelli 2023][research_grauer_morelli_2023]. The uncertainty framing that now accompanies such campaigns is treated by [Weiss et al. 2022][research_weiss_staudacher_2022], and modern air data practice by [Jurado and McGehee 2019][research_jurado_mcgehee_2019] and [Takahashi et al. 2026][research_takahashi_2026_airdata].
 
@@ -533,31 +842,52 @@ The escape provision is treated separately because it was used once in flight an
 
 The X-2 carried a jettisonable nose capsule in place of an [ejection seat][ref_ejection_seat], and the case for a capsule is that a seat exposes an occupant to a dynamic pressure of
 
-$$q_{\text{exposure}} = \frac{1}{2} \rho V^2$$
+$$
+q_{\text{exposure}} = \frac{1}{2} \rho V^2
+\tag{104}
+$$
 
 which at the flight conditions of interest is tens of kilopascals and produces windblast loads no unprotected person survives. A capsule protects against that. It also introduces a sequence that must all work, being separation, stabilization, deceleration, parachute deployment, and finally egress or ground impact under canopy. The reliability of a series chain is the product of its links,
 
-$$P_{\text{success}} = \prod_{i=1}^{n} p_i$$
+$$
+P_{\text{success}} = \prod_{i=1}^{n} p_i
+\tag{105}
+$$
 
 so a system of five links each at ninety percent succeeds only 59 percent of the time. The capsule must also decelerate, and its trajectory is governed by its ballistic coefficient
 
-$$\beta_c = \frac{m_c}{C_D A_c}$$
+$$
+\beta_c = \frac{m_c}{C_D A_c}
+\tag{106}
+$$
 
 with a terminal descent speed in the lower atmosphere of
 
-$$V_{\text{term}} = \sqrt{\frac{2 \beta_c g}{\rho}}$$
+$$
+V_{\text{term}} = \sqrt{\frac{2 \beta_c g}{\rho}}
+\tag{107}
+$$
 
 so a compact heavy capsule falls fast and must deploy a parachute to survive, while a light draggy one decelerates aerodynamically but is harder to stabilize. The deceleration during atmospheric capture scales as
 
-$$a_{\max} \approx \frac{V_e^2 \sin \gamma_e}{2 e H}$$
+$$
+a_{\max} \approx \frac{V_e^2 \sin \gamma_e}{2 e H}
+\tag{108}
+$$
 
 with $H$ the atmospheric scale height. This is the Allen-Eggers result used for entry vehicles elsewhere in this series. Descent under canopy closes the chain. A parachute of drag area $C_D A_p$ carrying a capsule of mass $m_c$ reaches a terminal speed
 
-$$V_{\text{term}} = \sqrt{\frac{2 m_c g}{\rho \, C_D A_p}}$$
+$$
+V_{\text{term}} = \sqrt{\frac{2 m_c g}{\rho \, C_D A_p}}
+\tag{109}
+$$
 
 and for a 450 kilogram capsule descending at seven metres per second at sea level the required drag area $C_D A_p$ is 147 square metres, which at a canopy drag coefficient of 1.4 is 105 square metres of cloth and a canopy roughly twelve metres across. Deploying something that size at speed produces an opening load
 
-$$F_{\text{open}} = C_X \, q \, C_D A_p$$
+$$
+F_{\text{open}} = C_X \, q \, C_D A_p
+\tag{110}
+$$
 
 with $C_X$ the opening shock factor, so deployment must be delayed until dynamic pressure has fallen or the canopy must be reefed. The delay adds another link. The link that failed on 27 September 1956 was the last one, since the stabilization parachute deployed and trailed properly but the pilot could not separate from the capsule, as [Day and Reisert 1959][research_x2_mach32_1959] reports. Supersonic deceleration and parachute deployment remain difficult enough that they are still flight-tested independently, as [Tanner et al. 2015][research_ldsd_ballute_2015] and [Van Norman et al. 2015][research_ldsd_dynamics_2015] report for a planetary decelerator six decades later. The wind tunnel stability work on such a capsule in [Goddwin 1949][research_nose_capsule_1949] addresses one link. It cannot address the others. The [X-15][ref_na_x15] programme chose a seat instead, as documented in [Hegenwald 1958][research_x15_escape_1958], accepting the windblast problem in exchange for a shorter chain.
 
@@ -575,15 +905,24 @@ The record raises two arithmetic points. First, the recorded speed of 2094 miles
 
 The programme can be scored against the information accounting used in the [series opener][related_post_a297_xplanes_framing]. With a prior uncertainty $\sigma_0$, a per-flight measurement uncertainty $\sigma_m$, and a target $\sigma_T$, the required flight count in a given condition band is
 
-$$n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil$$
+$$
+n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil
+\tag{111}
+$$
 
 and the information returned is
 
-$$I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}$$
+$$
+I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}
+\tag{112}
+$$
 
 following [Lindley 1956][research_lindley_1956] and [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995]. The X-2 flew twenty flights across two airframes, glides included, and reached its design condition once. Against a fleet sized by the attrition condition
 
-$$\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha$$
+$$
+\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha
+\tag{113}
+$$
 
 a per-flight loss probability of ten percent, the rate the record shows, would demand five or more airframes for ninety-five percent confidence of completing twenty flights. Two were built. The programme was under-resourced against its own risk from the beginning, and continuing after the first loss with a single airframe made that worse. The two aircraft made twenty flights between June 1952 and September 1956, glides included, and the powered flights number between ten and thirteen depending on the account, [Bell X-2][ref_bell_x2] giving ten. The programme cost two aircraft, two pilots, and one carrier crew member across twenty flights, the worst loss rate of any aircraft in this series.
 
@@ -593,23 +932,38 @@ Every X-2 flight ended the way every [X-1][ref_bell_x1] flight ended, with an un
 
 An unpowered glide holds
 
-$$\tan \gamma_g = \frac{1}{L / D}, \qquad w_s = \frac{V}{L / D}$$
+$$
+\tan \gamma_g = \frac{1}{L / D}, \qquad w_s = \frac{V}{L / D}
+\tag{114}
+$$
 
 with $\gamma_g$ the glide angle and $w_s$ the sink rate. The best glide ratio follows from the subsonic drag polar,
 
-$$\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}}$$
+$$
+\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}}
+\tag{115}
+$$
 
 and with an aspect ratio of
 
-$$A = \frac{b^2}{S} = \frac{9.83^2}{24.16} = 4.0$$
+$$
+A = \frac{b^2}{S} = \frac{9.83^2}{24.16} = 4.0
+\tag{116}
+$$
 
 an efficiency factor of 0.8 and a zero-lift drag coefficient near 0.02, this gives 11.2 and a glide angle of 5.1 degrees. The landing weight after propellant exhaustion is 55.0 kilonewtons, so with a swept-wing maximum lift coefficient reduced by $\cos \Lambda$ the stall speed is
 
-$$V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 55{,}048}{1.10 \times 24.16 \times 0.9}} = 68 \ \text{metres per second}$$
+$$
+V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 55{,}048}{1.10 \times 24.16 \times 0.9}} = 68 \ \text{metres per second}
+\tag{117}
+$$
 
 An approach flown at 1.3 times stall is 88 metres per second with a sink rate of
 
-$$w_s = \frac{88}{11.2} = 7.9 \ \text{metres per second}$$
+$$
+w_s = \frac{88}{11.2} = 7.9 \ \text{metres per second}
+\tag{118}
+$$
 
 The result is a fast, steep, single-attempt arrival with no engine and a wing optimized for Mach 3, not for landing. The [X-15][ref_na_x15] inherited the same problem and its first-flight launch and landing characteristics are reported in [Finch and Matranga 1959][research_x15_first_flight_1959] and [McKay 1959][research_x15_first_landing_1959], which are the closest available comparison. Low-speed behaviour of the thin unswept research airplanes, for contrast, appears in [Sadoff and Sisk 1950][research_x4_stall_1950]. The low aspect ratio that suits supersonic flight makes the glide poor, and the sweep that raises the critical Mach number also raises the stall speed. Both penalties are paid on every return, and they are the routine cost of the configuration rather than an incidental one.
 
@@ -621,19 +975,31 @@ Static stability and control characteristics were measured on scale models, incl
 
 What they could not predict was the coupled dynamic behaviour, for a structural reason that no improvement in tunnel quality would have removed. Inertia coupling depends on the inertia distribution of the full-scale aircraft, and a wind tunnel model is not dynamically similar in inertia unless it is deliberately built to be. The formal statement is the one [Buckingham 1914][research_buckingham_1914] supplies, that a relation among $n$ dimensional quantities involving $k$ independent dimensions reduces to a relation among
 
-$$n - k \ \text{dimensionless groups}$$
+$$
+n - k \ \text{dimensionless groups}
+\tag{119}
+$$
 
 so the physics fixes the number of parameters a scale test must reproduce, leaving the experimenter no choice in it. A dynamically similar model must match not only the [Mach number][ref_mach_number] and Reynolds number but the mass ratio and the non-dimensional inertias,
 
-$$\mu_m = \frac{m}{\rho S b}, \qquad \hat{I}_x = \frac{I_x}{\rho S b^3}, \qquad \hat{I}_y = \frac{I_y}{\rho S \bar{c}^3}, \qquad \hat{I}_z = \frac{I_z}{\rho S b^3}$$
+$$
+\mu_m = \frac{m}{\rho S b}, \qquad \hat{I}_x = \frac{I_x}{\rho S b^3}, \qquad \hat{I}_y = \frac{I_y}{\rho S \bar{c}^3}, \qquad \hat{I}_z = \frac{I_z}{\rho S b^3}
+\tag{120}
+$$
 
 and must also match the reduced frequency that sets how fast the motion is relative to the flow,
 
-$$k = \frac{\omega b}{2 V}$$
+$$
+k = \frac{\omega b}{2 V}
+\tag{121}
+$$
 
 A geometrically scaled force model built for a balance matches the first two groups and none of the last four, because its mass and inertia are set by whatever it is machined from. The coupling boundary depends on $\hat{I}_z - \hat{I}_x$ and therefore cannot appear. Matching requires the mass ratio and the inertia ratios to scale together with the aerodynamic parameters, and a static force model matches none of them. The quantity that killed the X-2 was invisible to the static force model by construction, not by oversight, although the analog simulator that combined wind-tunnel derivatives with the mass properties did predict the instability, as [Day 1997][research_coupling_history_1997] recounts. Free-flight and dynamically scaled models address this, and the balance techniques required are described in [Sharpes and Carroll 1973][research_roll_coupling_balance_1973]. Building one is a mass-properties problem rather than an aerodynamic one. For a geometric scale $1/k$ the model mass and inertias must satisfy
 
-$$m_m = \frac{m_f}{k^3} \cdot \frac{\rho_m}{\rho_f}, \qquad I_m = \frac{I_f}{k^5} \cdot \frac{\rho_m}{\rho_f}$$
+$$
+m_m = \frac{m_f}{k^3} \cdot \frac{\rho_m}{\rho_f}, \qquad I_m = \frac{I_f}{k^5} \cdot \frac{\rho_m}{\rho_f}
+\tag{122}
+$$
 
 with subscripts $m$ and $f$ for model and full scale and $\rho$ the ambient density in each case, and the fifth-power dependence means an inertia error that is trivial at full scale is enormous when scaled back. Meeting it requires ballasting a hollow model to a specified inertia tensor, a different craft from machining a force model. It was not unknown. The Langley free-flight tunnel had been investigating dynamic stability and control on dynamically scaled models since at least [Grana and Shanks 1952][research_free_flight_tunnel_1952], and the free-spinning tunnel applied the same discipline to departure and recovery, as [Bowman and Healy 1960][research_spin_tunnel_1960] shows. Those facilities were the right instrument for the X-2 question, and the [NASA fact sheet][ref_nasa_x2_factsheet] notes that the NACA did make its spin tunnel available to evaluate the design. Later research aircraft were characterized this way as a matter of course, as [Boyden 1974][research_supercritical_dynamic_1974] illustrates, and the quality of the flow in which such tests are run became a design subject in its own right in [Beckwith et al. 1990][research_low_disturbance_tunnels_1990]. The analysis that eventually made the phenomenon predictable, including the effect of a non-constant pitching-moment derivative in [Davari and Laitone 1977][research_nonconstant_cma_1977], came after the aircraft it would have saved.
 
@@ -645,19 +1011,31 @@ The thermal result was delivered in part and it was used. The [NASA fact sheet][
 
 The coupling result was more consequential and was not the result anyone wanted. Apt's loss, following the [X-3][ref_douglas_x3] encounters and the loss of two F-100A fighters to inertial roll coupling in 1954, confirmed inertia coupling as a design constraint rather than a predicted curiosity, and [Day 1997][research_coupling_history_1997] records all three. The consequences are visible in three places. Operating restrictions came first, since X-2 pilots were already instructed to hold low angles of attack until slowing to Mach 2.4 before turning. Artificial damping became standard, as [Moul and Brown 1959][research_artificial_pitch_damping_1959] anticipated and the X-15 implemented in its rate dampers. And vertical tails grew, as they already had on the F-100, because the only way to hold $C_{n\beta}$ at Mach 3 against the $1/\beta_s$ falloff is to increase $V_V$. The requirement is explicit. Holding $C_{n\beta}$ constant from Mach 1.5 to Mach 3.2 against the falloff demands
 
-$$\frac{S_{v,2}}{S_{v,1}} = \frac{\beta_{s,2}}{\beta_{s,1}} = \frac{\sqrt{3.196^2 - 1}}{\sqrt{1.5^2 - 1}} = 2.72$$
+$$
+\frac{S_{v,2}}{S_{v,1}} = \frac{\beta_{s,2}}{\beta_{s,1}} = \frac{\sqrt{3.196^2 - 1}}{\sqrt{1.5^2 - 1}} = 2.72
+\tag{123}
+$$
 
 so a tail sized for the lower Mach number must almost triple in area to give the same stiffness at the higher one, or the aircraft must accept artificial stabilization instead. Both routes were taken, and the second is why later high-speed aircraft such as the X-15 carried rate dampers. A rate feedback to the rudder,
 
-$$\delta_r = -k_r \, r$$
+$$
+\delta_r = -k_r \, r
+\tag{124}
+$$
 
 augments the natural yaw damping derivative to
 
-$$C_{nr, \text{aug}} = C_{nr} - k_r \, C_{n \delta_r} \frac{2V}{b}$$
+$$
+C_{nr, \text{aug}} = C_{nr} - k_r \, C_{n \delta_r} \frac{2V}{b}
+\tag{125}
+$$
 
 so the Dutch roll damping ratio becomes
 
-$$\zeta_{dr, \text{aug}} \approx -\frac{C_{nr, \text{aug}}}{2} \sqrt{\frac{q S b}{I_z}} \cdot \frac{b}{2V} \cdot \frac{1}{\omega_{dr}}$$
+$$
+\zeta_{dr, \text{aug}} \approx -\frac{C_{nr, \text{aug}}}{2} \sqrt{\frac{q S b}{I_z}} \cdot \frac{b}{2V} \cdot \frac{1}{\omega_{dr}}
+\tag{126}
+$$
 
 and a gain chosen to hold $\zeta_{dr}$ near 0.3 across the envelope recovers by feedback what the tail lost to Mach number. The same argument applied in pitch gives the pitch damper that [Moul and Brown 1959][research_artificial_pitch_damping_1959] investigated. Artificial damping does not, however, raise the divergence threshold derived above, because that threshold is set by stiffness rather than damping, and a damper cannot restore a stiffness that the $1 / \beta_s$ falloff has removed. That distinction keeps operating restrictions necessary alongside the dampers, not replaced by them. The [XB-70 stability summary][research_xb70_stability_1973] records that inheritance directly, and the modern sizing problem is treated by [Xie et al. 2023][research_xie_cai_2023] and [Goud and Dwivedi 2022][research_goud_dwivedi_2022].
 
@@ -892,6 +1270,1107 @@ The aircraft then delivered a second answer at a price nobody had budgeted. Dire
 The X-2 is therefore the first aircraft in this series where the keystone framework, applied honestly, reports a success and the historical record reports something else. That divergence is worth carrying forward, because it will recur.
 
 The next article takes the [Douglas X-3 Stiletto][ref_douglas_x3], which was built to sustain supersonic flight on a low-aspect-ratio wing, never reached the speed it was designed for, and made its most valuable contribution to the coupling problem that destroyed the X-2.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 126 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 126, 97 are established and 29 are bespoke.
+Each equation uses the units of the International System stated in its section, with the final flight at Mach 3.196 and 19,992 metres as the reference condition, inertias converted from slug square feet to kilogram square metres, and several letters changing meaning between sections, so $b$, $e$, $k$, $p$, $\beta$, $\lambda$ and $\mu_m$ are read from the nearest prose.
+
+**Equation 1, Adiabatic Stagnation Temperature.**
+Decelerating the free stream adiabatically to rest raises its temperature by a factor that grows with the square of the Mach number.
+[stagnation temperature][ref_stagnation_temperature]
+
+$$
+T_0 = T_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right)
+\tag{1}
+$$
+
+**Equation 2, Isentropic Stagnation Pressure and Density Ratios.**
+The stagnation pressure and density ratios of isentropic flow are powers of the stagnation temperature ratio fixed by the ratio of specific heats.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}, \qquad \frac{\rho_0}{\rho} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{1}{\gamma - 1}}
+\tag{2}
+$$
+
+**Equation 3, Mach Angle.**
+A weak disturbance in supersonic flow propagates along a cone whose half-angle is the inverse sine of the reciprocal Mach number.
+
+$$
+\mu_M = \arcsin \frac{1}{M}
+\tag{3}
+$$
+
+**Equation 4, Normal Shock Pressure and Temperature Ratios.**
+The Rankine-Hugoniot relations give the static pressure and temperature ratios across a normal shock as functions of the upstream Mach number.
+[shock][ref_shock_wave]
+
+$$
+\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}
+\tag{4}
+$$
+
+**Equation 5, Recovery Temperature and Recovery Factors.**
+The recovery temperature is the free-stream temperature raised by the recovery factor times the stagnation rise, with the factor near the square root of the Prandtl number for laminar flow and its cube root for turbulent flow.
+[Prandtl number][ref_prandtl_number]
+
+$$
+T_r = T_\infty \left( 1 + r \frac{\gamma - 1}{2} M_\infty^2 \right), \qquad r \approx Pr^{1/2} \ \text{laminar}, \qquad r \approx Pr^{1/3} \ \text{turbulent}
+\tag{5}
+$$
+
+**Equation 6, Ratio of Specific Heats with Vibrational Excitation.**
+Treating each diatomic molecule as a harmonic oscillator adds a vibrational term to the specific heat at constant volume, which lowers the ratio of specific heats once the temperature approaches the characteristic vibrational temperature.
+
+$$
+\gamma(T) = 1 + \frac{R}{c_v(T)}, \qquad c_v(T) = \frac{5}{2} R + R \left( \frac{\theta_v / T}{e^{\theta_v / T} - 1} \right)^2 e^{\theta_v / T}
+\tag{6}
+$$
+
+**Equation 7, Convective Heat Flux.**
+The convective heat flux is the heat transfer coefficient times the difference between the recovery and wall temperatures.
+[heat flux][ref_heat_flux]
+
+$$
+\dot{q}_{\text{conv}} = h_c \left( T_r - T_w \right)
+\tag{7}
+$$
+
+**Equation 8, Stanton Number and the Reynolds Analogy.**
+The Stanton number normalises the heat transfer coefficient, and the Reynolds analogy relates it to half the skin friction coefficient corrected by the Prandtl number.
+[Eckert 1956][research_eckert_1956]
+
+$$
+St = \frac{h_c}{\rho_\infty V_\infty c_p}, \qquad St \approx \frac{C_f}{2} Pr^{-2/3}
+\tag{8}
+$$
+
+**Equation 9, Prandtl and Nusselt Numbers.**
+The Prandtl number is the ratio of momentum to thermal diffusivity, and the Nusselt number is the ratio of convective to conductive heat transfer across a length.
+[Prandtl number][ref_prandtl_number]
+
+$$
+Pr = \frac{\mu c_p}{k_a}, \qquad Nu = \frac{h_c L}{k_a}
+\tag{9}
+$$
+
+**Equation 10, Fourier Law of Conduction.**
+The conductive heat flux vector in a solid is the negative thermal conductivity times the temperature gradient.
+
+$$
+\mathbf{q} = -k_w \nabla T
+\tag{10}
+$$
+
+**Equation 11, Local Turbulent Flat-Plate Skin Friction.**
+The local skin friction coefficient of a turbulent flat plate falls as the inverse fifth root of the Reynolds number based on distance from the leading edge.
+
+$$
+C_f = \frac{0.0592}{Re_x^{1/5}}, \qquad Re_x = \frac{\rho_\infty V_\infty x}{\mu}
+\tag{11}
+$$
+
+**Equation 12, Sutherland Viscosity Law.**
+The dynamic viscosity of a gas varies with temperature through a reference pair and the Sutherland constant.
+[Sutherland 1893][research_sutherland_1893]
+
+$$
+\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}
+\tag{12}
+$$
+
+**Equation 13, Unit Reynolds Number at the Mach 3.196 Condition.**
+The unit Reynolds number is evaluated with the standard atmosphere density at 19,992 metres, the Sutherland viscosity and the true airspeed of the final flight.
+[Reynolds number][ref_reynolds_number]
+
+$$
+\frac{Re}{L} = \frac{\rho_\infty V_\infty}{\mu} = \frac{0.0882 \times 943}{1.42 \times 10^{-5}} = 5.86 \times 10^{6} \ \text{per metre}
+\tag{13}
+$$
+
+**Equation 14, Ratio of Turbulent to Laminar Heating.**
+Dividing the turbulent and laminar flat-plate Stanton number correlations gives a heating ratio that grows as the three-tenths power of the local Reynolds number.
+
+$$
+\frac{St_{\text{turb}}}{St_{\text{lam}}} = \frac{0.0296 \, Re_x^{-1/5}}{0.332 \, Re_x^{-1/2}} = 0.089 \, Re_x^{3/10}
+\tag{14}
+$$
+
+**Equation 15, Sutton-Graves Stagnation-Point Heating Correlation.**
+The stagnation-point heat flux scales with the square root of density over nose radius and the cube of velocity.
+[Fay and Riddell 1958][research_fay_riddell_1958]
+
+$$
+\dot{q}_s = k_{SG} \sqrt{\frac{\rho_\infty}{R_n}} \, V_\infty^3, \qquad k_{SG} = 1.7415 \times 10^{-4}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Stagnation Heat Flux of the X-2.*
+The Sutton-Graves correlation is evaluated at the final-flight speed and density with an effective nose radius of 0.05 metres that the article assumes.
+[Day and Reisert 1959][research_x2_mach32_1959]
+
+$$
+\dot{q}_s = 1.7415 \times 10^{-4} \times \sqrt{\frac{0.0882}{0.05}} \times 943^3 = 1.94 \times 10^{5} \ \text{watts per square metre}
+\tag{16}
+$$
+
+**Equation 17, Radiation Equilibrium Wall Temperature.**
+A wall that conducts no heat away settles at the temperature at which it radiates what it absorbs.
+[Stefan-Boltzmann law][ref_stefan_boltzmann]
+
+$$
+T_{\text{eq}} = \left( \frac{\dot{q}_s}{\varepsilon \sigma_{SB}} \right)^{1/4}
+\tag{17}
+$$
+
+**Equation 18, Biot Number.**
+The Biot number compares conduction resistance through the wall with convection resistance at its surface.
+[Biot number][ref_biot_number]
+
+$$
+Bi = \frac{h_c t_w}{k_w}
+\tag{18}
+$$
+
+**Equation 19, Lumped Transient Wall Heat Balance.**
+A thin wall with small Biot number stores heat at the rate convection delivers it less the rate it radiates.
+
+$$
+\rho_w c_w t_w \frac{dT_w}{dt} = \dot{q}_{\text{conv}} - \varepsilon \sigma_{SB} T_w^4
+\tag{19}
+$$
+
+**Equation 20, Thermal Mass per Unit Area.**
+The thermal mass per unit area of a skin is its density times its specific heat times its thickness.
+
+$$
+C_A = \rho_w c_w t_w
+\tag{20}
+$$
+
+*Equation 21, Bespoke Initial Skin Heating Rate.*
+The initial heating rate divides the stagnation-point heat flux by the thermal mass of a 1.6 millimetre stainless steel skin, neglecting reradiation while the skin is cold.
+
+$$
+\left. \frac{dT_w}{dt} \right|_{t=0} = \frac{\dot{q}_s}{C_A} = \frac{1.94 \times 10^{5}}{6400} = 30 \ \text{kelvin per second}
+\tag{21}
+$$
+
+**Equation 22, Fourier Number and Thermal Diffusivity.**
+The Fourier number is the thermal diffusivity times time divided by the square of the wall thickness, and it measures how far conduction has equalised the wall.
+[Fourier number][ref_fourier_number]
+
+$$
+Fo = \frac{\alpha_{\text{th}} t}{t_w^2}, \qquad \alpha_{\text{th}} = \frac{k_w}{\rho_w c_w}
+\tag{22}
+$$
+
+**Equation 23, Net Radiation to a Cold Sink.**
+The net radiative flux from a surface carries a view factor and an effective sink temperature.
+
+$$
+\dot{q}_{\text{rad}} = \varepsilon \sigma_{SB} F \left( T_w^4 - T_{\text{sink}}^4 \right)
+\tag{23}
+$$
+
+*Equation 24, Bespoke Skin Node of a Two-Lump Thermal Model.*
+The article treats skin and substructure as two lumped masses joined by a conductance per unit area, and the skin node gains convective heat and loses heat by radiation and by conduction to the substructure.
+
+$$
+C_{A,s} \frac{dT_s}{dt} = \dot{q}_{\text{conv}} - \varepsilon \sigma_{SB} T_s^4 - h_j \left( T_s - T_b \right)
+\tag{24}
+$$
+
+*Equation 25, Bespoke Substructure Node of a Two-Lump Thermal Model.*
+In the same two-lump model the substructure gains heat only by conduction from the skin.
+
+$$
+C_{A,b} \frac{dT_b}{dt} = h_j \left( T_s - T_b \right)
+\tag{25}
+$$
+
+*Equation 26, Bespoke Equalisation Time of the Two-Lump Model.*
+The characteristic time for skin and substructure to equalise in the two-lump model is the reduced thermal mass divided by the joint conductance.
+
+$$
+\tau_{\text{eq}} = \frac{1}{h_j} \left( \frac{C_{A,s} C_{A,b}}{C_{A,s} + C_{A,b}} \right)
+\tag{26}
+$$
+
+**Equation 27, Thermal Shock Resistance Parameter.**
+The thermal shock resistance parameter rewards strength and conductivity and penalises stiffness and thermal expansion.
+
+$$
+R_{TS} = \frac{\sigma_{\text{allow}} \left( 1 - \nu \right) k_w}{E \alpha_T}
+\tag{27}
+$$
+
+**Equation 28, Integrated Heat Load.**
+The heat load is the time integral of the convective heat flux over the flight.
+
+$$
+Q = \int_0^{t_f} \dot{q}_{\text{conv}} \, dt
+\tag{28}
+$$
+
+**Equation 29, Thermal Diffusion Depth.**
+The depth that heat diffuses in a time $t$ scales as the square root of the thermal diffusivity times that time.
+
+$$
+\delta_{\text{th}} \sim \sqrt{\alpha_{\text{th}} t}
+\tag{29}
+$$
+
+**Equation 30, Temperature-Derated Specific Strength.**
+The material index is the allowable stress divided by density, evaluated at the skin temperature the trajectory produces.
+
+$$
+\left. \frac{\sigma_{\text{allow}}(T)}{\rho_m} \right|_{T = T_w}
+\tag{30}
+$$
+
+**Equation 31, Required Spar Cap Area.**
+The spar cap area is the bending moment divided by the product of the allowable stress and the structural depth.
+
+$$
+A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}
+\tag{31}
+$$
+
+**Equation 32, Structural Mass Scaling with Derated Specific Strength.**
+For a given bending moment the structural mass scales as the density divided by the allowable stress at the wall temperature.
+
+$$
+m_s \propto \frac{\rho_m}{\sigma_{\text{allow}}(T_w)}
+\tag{32}
+$$
+
+**Equation 33, Larson-Miller Parameter.**
+The Larson-Miller parameter collapses temperature and rupture time into one quantity that is a single-valued function of stress for a given alloy.
+[creep][ref_creep_deformation]
+
+$$
+P_{LM} = T \left( C + \log_{10} t_r \right)
+\tag{33}
+$$
+
+**Equation 34, Rupture Time from the Larson-Miller Parameter.**
+Inverting the definition gives the logarithm of the rupture time at any temperature for a fixed parameter.
+
+$$
+\log_{10} t_r = \frac{P_{LM}}{T} - C
+\tag{34}
+$$
+
+**Equation 35, Rupture Life Ratio Between Two Temperatures.**
+At constant stress the logarithm of the ratio of rupture times is the parameter times the difference of the reciprocal temperatures.
+
+$$
+\log_{10} \frac{t_2}{t_1} = P_{LM} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)
+\tag{35}
+$$
+
+*Equation 36, Bespoke Rupture Life Penalty from 700 to 800 Kelvin.*
+The life ratio is evaluated for an assumed one-hour rupture life at 700 kelvin with a Larson-Miller constant of 20.
+
+$$
+\log_{10} \frac{t_2}{t_1} = 1.4 \times 10^{4} \left( \frac{1}{800} - \frac{1}{700} \right) = -2.5
+\tag{36}
+$$
+
+**Equation 37, Parabolic Oxidation Rate Law.**
+The square of the oxide scale thickness grows linearly with time at a rate constant with an Arrhenius dependence on temperature.
+
+$$
+x_{\text{ox}}^2 = k_p t, \qquad k_p = k_0 \exp \left( -\frac{E_a}{R_u T} \right)
+\tag{37}
+$$
+
+**Equation 38, Thermal Stress of a Constrained Plate.**
+A plate constrained in its plane and heated by $\Delta T$ develops a stress set by the elastic modulus, the expansion coefficient and the Poisson ratio.
+[thermal stress][ref_thermal_stress]
+
+$$
+\sigma_{\text{th}} = \frac{E \alpha_T \Delta T}{1 - \nu}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Thermal Stress for a 100 Kelvin Gradient.*
+The thermal stress is evaluated for stainless steel properties and a skin-to-substructure temperature difference of one hundred kelvin that the article chose as modest.
+
+$$
+\sigma_{\text{th}} = \frac{193 \times 10^{9} \times 17.3 \times 10^{-6} \times 100}{0.7} = 477 \ \text{megapascals}
+\tag{39}
+$$
+
+**Equation 40, Critical Buckling Stress of a Skin Panel.**
+A thin plate buckles at a stress proportional to the elastic modulus and the square of the ratio of skin thickness to stiffener pitch.
+
+$$
+\sigma_{cr} = \frac{k \pi^2 E}{12 \left( 1 - \nu^2 \right)} \left( \frac{t_s}{b_s} \right)^2
+\tag{40}
+$$
+
+**Equation 41, Root Bending Moment of an Elliptically Loaded Wing.**
+The root bending moment of an elliptically loaded wing is linear in load factor, weight and span.
+
+$$
+M_{\text{root}} = \frac{n W b}{3 \pi}
+\tag{41}
+$$
+
+**Equation 42, Wing Loading and Corner Speed.**
+Wing loading is weight divided by wing area, and the corner speed is the lowest speed at which the maximum lift coefficient produces the limit load factor.
+[wing loading][ref_wing_loading]
+
+$$
+\frac{W}{S}, \qquad V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}
+\tag{42}
+$$
+
+**Equation 43, Simple Sweep Theory.**
+Only the component of the free stream normal to the leading edge governs the compressible behaviour, which reduces the effective Mach number and the lift-curve slope by the cosine of the sweep angle.
+[Day and Reisert 1959][research_x2_mach32_1959]
+
+$$
+M_{\text{eff}} = M_\infty \cos \Lambda, \qquad C_{L\alpha, \Lambda} = C_{L\alpha} \cos \Lambda
+\tag{43}
+$$
+
+**Equation 44, Stall Speed of a Swept Wing.**
+Simple sweep theory reduces the maximum lift coefficient by the cosine of the sweep angle, which raises the stall speed.
+
+$$
+V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max} \cos \Lambda}}
+\tag{44}
+$$
+
+**Equation 45, Critical Mach Number of a Swept Wing.**
+Sweep raises the critical Mach number approximately by the inverse square root of the cosine of the sweep angle.
+[critical Mach number][ref_transonic]
+
+$$
+M_{\text{crit}, \Lambda} \approx \frac{M_{\text{crit}, 0}}{\sqrt{\cos \Lambda}}
+\tag{45}
+$$
+
+**Equation 46, Root Bending Moment of a Swept Wing.**
+For a given span the spar of a swept wing is longer by the reciprocal cosine of the sweep angle, and the root bending moment rises by the same factor.
+
+$$
+M_{\text{root}, \Lambda} \approx \frac{M_{\text{root}, 0}}{\cos \Lambda}
+\tag{46}
+$$
+
+**Equation 47, Torsional Divergence Dynamic Pressure.**
+A typical section diverges at the dynamic pressure at which the aerodynamic twisting moment per unit twist equals the torsional stiffness.
+
+$$
+q_D = \frac{K_\theta}{e S C_{L\alpha}}
+\tag{47}
+$$
+
+**Equation 48, Aileron Reversal Dynamic Pressure.**
+Above the reversal dynamic pressure the twist produced by an aileron deflection cancels the rolling moment the deflection was meant to produce.
+
+$$
+q_R = \frac{K_\theta \, C_{L\delta}}{S \bar{c} \, C_{L\alpha} \left| C_{m\delta} \right|}
+\tag{48}
+$$
+
+**Equation 49, Reduced Frequency, Flutter Speed Index and Mass Ratio.**
+The reduced frequency, the flutter speed index and the mass ratio are the similarity parameters of the flutter problem.
+[Theodorsen 1935][research_theodorsen_1935]
+[Garrick and Reed 1981][research_garrick_reed_1981]
+
+$$
+k = \frac{\omega b}{2 V}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}, \qquad \mu_m = \frac{m_w}{\pi \rho b^2}
+\tag{49}
+$$
+
+**Equation 50, Ackeret Linearised Supersonic Flat Plate.**
+Linearised supersonic theory gives a lift coefficient proportional to incidence and a wave drag due to lift proportional to its square, both falling with Mach number.
+[Ackeret 1925][research_ackeret_1925]
+
+$$
+C_L = \frac{4 \alpha}{\sqrt{M_\infty^2 - 1}}, \qquad C_{D,\text{wave}} = \frac{4 \alpha^2}{\sqrt{M_\infty^2 - 1}}
+\tag{50}
+$$
+
+**Equation 51, Supersonic Compressibility Factor.**
+The supersonic factor $\beta_s$ is the square root of the square of the Mach number less one, and lift-curve slopes fall in inverse proportion to it.
+
+$$
+\beta_s = \sqrt{M_\infty^2 - 1}
+\tag{51}
+$$
+
+**Equation 52, Dynamic Pressure at the Mach 3.196 Condition.**
+The compressible form of dynamic pressure is evaluated at Mach 3.196 with the standard atmosphere static pressure at 19,992 metres.
+[Dynamic pressure][ref_dynamic_pressure]
+
+$$
+q = \frac{\gamma}{2} p M^2 = 0.7 \times 5481 \times 10.214 = 3.92 \times 10^{4} \ \text{pascals}
+\tag{52}
+$$
+
+**Equation 53, Lift, Drag and Level-Flight Lift Coefficient.**
+Lift and drag are dynamic pressure times wing area times their coefficients, and level flight fixes the lift coefficient as weight over dynamic pressure times area.
+[lift coefficient][ref_lift_coefficient]
+
+$$
+L = q S C_L, \qquad D = q S C_D, \qquad C_L = \frac{W}{q S}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Supersonic Drag Build-Up.*
+The article writes the supersonic drag coefficient as the sum of zero-lift, wave and induced terms, an assembly of separately estimated contributions.
+
+$$
+C_D = C_{D0} + C_{D,\text{wave}} + \frac{C_L^2}{\pi A e}
+\tag{54}
+$$
+
+**Equation 55, Friction Drag Coefficient Referred to Wing Area.**
+The friction drag coefficient referred to wing area is the skin friction coefficient times the ratio of wetted area to wing area.
+
+$$
+C_{D,f} = C_f \frac{S_{\text{wet}}}{S}
+\tag{55}
+$$
+
+**Equation 56, Base Drag Coefficient.**
+Base drag is the negative base pressure coefficient times the base area referred to the wing area.
+
+$$
+C_{D,\text{base}} = -C_{p,b} \frac{A_b}{S}
+\tag{56}
+$$
+
+**Equation 57, Rocket Thrust.**
+Rocket thrust is the momentum flux of the exhaust plus the pressure difference between the nozzle exit and ambient acting over the exit area.
+
+$$
+F = \dot{m} v_e + (p_e - p_a) A_e
+\tag{57}
+$$
+
+**Equation 58, Specific Impulse.**
+Specific impulse is the thrust per unit propellant weight flow, expressed in seconds.
+[specific impulse][ref_specific_impulse]
+
+$$
+I_{sp} = \frac{F}{\dot{m} g_0}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Propellant Mass Flow of the XLR25.*
+The full-thrust mass flow is evaluated with a specific impulse near 210 seconds that the article takes as representative of a turbopump-fed liquid oxygen and diluted alcohol engine.
+
+$$
+\dot{m} = \frac{66{,}723}{210 \times 9.80665} = 32.4 \ \text{kilograms per second}
+\tag{59}
+$$
+
+**Equation 60, Characteristic Velocity, Thrust Coefficient and Specific Impulse.**
+Performance separates into a characteristic velocity measuring combustion and a thrust coefficient measuring expansion, whose product over standard gravity is the specific impulse.
+
+$$
+c^{*} = \frac{p_0 A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_0 A_t}, \qquad I_{sp} = \frac{c^{*} C_F}{g_0}
+\tag{60}
+$$
+
+**Equation 61, Nozzle Expansion Ratio.**
+The ratio of exit to throat area follows from the isentropic area relation at the exit Mach number.
+
+$$
+\varepsilon_n = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_e^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}
+\tag{61}
+$$
+
+**Equation 62, Pump Shaft Power.**
+The shaft power a pump needs is the mass flow times the pressure rise divided by the propellant density and the pump efficiency.
+[turbopump][ref_turbopump]
+
+$$
+\mathcal{P}_{\text{pump}} = \frac{\dot{m} \, \Delta p}{\rho_{\text{prop}} \, \eta_{\text{pump}}}
+\tag{62}
+$$
+
+**Equation 63, Gas Generator Turbine Power Balance.**
+The turbine extracts from the gas generator flow an isentropic enthalpy drop times its efficiency, and that power must equal the pump demand.
+
+$$
+\mathcal{P}_{\text{turb}} = \dot{m}_{gg} \, c_p \, T_{gg} \, \eta_t \left[ 1 - \left( \frac{p_{\text{out}}}{p_{gg}} \right)^{\frac{\gamma - 1}{\gamma}} \right] = \mathcal{P}_{\text{pump}}
+\tag{63}
+$$
+
+**Equation 64, Effective Specific Impulse with Gas Generator Flow.**
+Propellant diverted to the gas generator produces no useful thrust, which lowers the effective specific impulse in proportion to its share of the flow.
+
+$$
+I_{sp,\text{eff}} = I_{sp} \left( 1 - \frac{\dot{m}_{gg}}{\dot{m}} \right)
+\tag{64}
+$$
+
+**Equation 65, Propellant Tank Volume.**
+The tank volume is the sum of the oxidiser and fuel masses each divided by its density.
+
+$$
+V_{\text{tank}} = \frac{m_{ox}}{\rho_{ox}} + \frac{m_f}{\rho_f}
+\tag{65}
+$$
+
+**Equation 66, Injector Stiffness Condition.**
+Combustion stability conventionally requires an injector pressure drop of at least a fifth of the chamber pressure.
+
+$$
+\Delta p_{\text{inj}} \gtrsim 0.2 \, p_0
+\tag{66}
+$$
+
+*Equation 67, Bespoke Full-Thrust Burn Time of the X-2.*
+The burn time divides the propellant load from the converted launch and empty masses by the mass flow obtained at the assumed specific impulse of 210 seconds.
+[Bell X-2][ref_bell_x2]
+
+$$
+t_b = \frac{m_p}{\dot{m}} = \frac{5686}{32.4} = 175 \ \text{seconds}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Ideal Velocity Increment of the X-2.*
+The rocket equation is evaluated at the assumed specific impulse of 210 seconds with the converted launch and empty masses, and it includes no gravity or drag losses.
+[Tsiolkovsky relation][ref_tsiolkovsky]
+
+$$
+\Delta v = I_{sp} g_0 \ln \frac{m_0}{m_f} = 2059 \times \ln \frac{11{,}299}{5613} = 1441 \ \text{metres per second}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Release Energy Height of the X-2.*
+The energy height at release is evaluated for an approximate release from the B-50 at 10,000 metres and 250 metres per second.
+
+$$
+h_e = h + \frac{V^2}{2g} = 13{,}187 \ \text{metres}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Trajectory Energy Efficiency.*
+The article defines the efficiency of a flight as the gain in specific mechanical energy divided by the specific kinetic energy of the ideal velocity increment.
+
+$$
+\eta_{\text{traj}} = \frac{g \Delta h_e}{\Delta v^2 / 2} = 0.49
+\tag{70}
+$$
+
+**Equation 71, Propellant Fraction and Thrust-to-Weight Ratio of the X-2.**
+The propellant load over the launch mass and the full thrust over the launch weight are evaluated from the converted masses.
+
+$$
+\frac{m_p}{m_0} = \frac{5686}{11{,}299} = 0.50, \qquad \frac{T}{W} = \frac{66{,}723}{11{,}299 \times 9.80665} = 0.60
+\tag{71}
+$$
+
+**Equation 72, Specific Excess Power and Energy Height Rate.**
+Specific excess power is the excess of thrust over drag times speed divided by weight, and it equals the rate of change of energy height.
+
+$$
+P_s = \frac{V \left( T - D \right)}{W}, \qquad \frac{dh_e}{dt} = P_s
+\tag{72}
+$$
+
+**Equation 73, Vertical Tail Contribution to Directional Stiffness.**
+The vertical tail supplies directional stiffness in proportion to its volume coefficient, its lift-curve slope and its efficiency.
+[Directional stability][ref_directional_stability]
+
+$$
+C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v l_v}{S b}
+\tag{73}
+$$
+
+**Equation 74, Supersonic Decline of Directional Stiffness.**
+Because the tail lift-curve slope follows linearised supersonic theory, directional stiffness for a fixed geometry falls inversely with the supersonic compressibility factor.
+
+$$
+C_{n\beta}(M) \propto \frac{1}{\sqrt{M_\infty^2 - 1}}
+\tag{74}
+$$
+
+**Equation 75, Static Margin and Pitch Stiffness.**
+The static margin is the distance from the centre of gravity to the neutral point in chords, and the pitch stiffness is the negative lift-curve slope times that margin.
+[static margin][ref_longitudinal_static_stability]
+
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM
+\tag{75}
+$$
+
+**Equation 76, Short-Period and Phugoid Frequencies.**
+The short-period frequency is approximated from the dimensional pitch and heave derivatives, and to first order the phugoid frequency is the square root of two times gravity divided by speed.
+[phugoid][ref_phugoid]
+
+$$
+\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}, \qquad \omega_{ph} \approx \frac{g \sqrt{2}}{V}
+\tag{76}
+$$
+
+**Equation 77, Dutch Roll Frequency, Roll Time Constant and Spiral Condition.**
+The Dutch roll frequency follows from the directional stiffness and yaw inertia, the roll time constant from the roll inertia and roll damping, and the spiral mode is stable when the stated product inequality holds.
+[Dutch roll][ref_dutch_roll]
+
+$$
+\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \tau_r \approx -\frac{I_x}{L_p}, \qquad L_\beta N_r - L_r N_\beta > 0
+\tag{77}
+$$
+
+*Equation 78, Bespoke Supersonic Scaling of the Damping Derivatives.*
+The article argues that the pitch and yaw damping derivatives weaken both with the supersonic compressibility factor and with the reciprocal of speed through the rate normalisation.
+
+$$
+C_{mq}, \, C_{nr} \propto \frac{1}{\sqrt{M_\infty^2 - 1}} \cdot \frac{1}{V}
+\tag{78}
+$$
+
+**Equation 79, Gyroscopic Terms of the Euler Moment Equations.**
+The pitch and yaw moment equations contain products of body rates and inertia differences that couple roll into pitch and yaw.
+[Euler moment equations][ref_euler_equations_rigid]
+[Inertia coupling][ref_inertia_coupling]
+
+$$
+I_y \dot{q} = M + \left( I_z - I_x \right) p r, \qquad I_z \dot{r} = N + \left( I_x - I_y \right) p q
+\tag{79}
+$$
+
+**Equation 80, Critical Roll Rate for Inertia Coupling.**
+The pitch and yaw natural frequencies follow from the aerodynamic stiffnesses and inertias, and divergence follows when the roll rate approaches the lower of the two.
+[Phillips 1948][research_phillips_1948]
+
+$$
+\omega_\alpha = \sqrt{\frac{q S \bar{c} \left| C_{m\alpha} \right|}{I_y}}, \qquad \omega_\beta = \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad p_{\text{crit}} \approx \min \left( \omega_\alpha, \omega_\beta \right)
+\tag{80}
+$$
+
+*Equation 81, Bespoke Pitch and Yaw Natural Frequencies of the X-2.*
+The frequencies are evaluated with the tabulated inertias and with a pitch stiffness of 0.3 and a directional stiffness of 0.1 per radian that the article takes as representative and that were not measured on this airframe.
+[Day 1997][research_coupling_history_1997]
+
+$$
+\omega_\alpha = 4.44 \ \text{radians per second}, \qquad \omega_\beta = 4.86 \ \text{radians per second}
+\tag{81}
+$$
+
+*Equation 82, Bespoke Critical Roll Rate of the X-2.*
+The critical roll rate is the lower of the two frequencies obtained from the representative stiffness values.
+
+$$
+p_{\text{crit}} \approx 4.44 \ \text{radians per second} = 255 \ \text{degrees per second}
+\tag{82}
+$$
+
+**Equation 83, Steady Roll Rate from Aileron Deflection.**
+The steady roll rate balances the aileron rolling moment against roll damping in the nondimensional rate.
+
+$$
+p_{ss} = -\frac{C_{l \delta_a} \, \delta_a}{C_{l p}} \cdot \frac{2V}{b}
+\tag{83}
+$$
+
+**Equation 84, Roll Subsidence Time Constant.**
+The roll time constant is set by the roll inertia, the dynamic pressure, the span and the roll damping derivative.
+
+$$
+\tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}
+\tag{84}
+$$
+
+**Equation 85, First-Order Roll Response.**
+After a step input the roll rate approaches its steady value exponentially with the roll time constant.
+
+$$
+p(t) = p_{ss} \left( 1 - e^{-t / \tau_r} \right)
+\tag{85}
+$$
+
+**Equation 86, Time to Reach the Critical Roll Rate.**
+Inverting the first-order response gives the time at which the roll rate crosses the critical value.
+
+$$
+t_{\text{crit}} = -\tau_r \ln \left( 1 - \frac{p_{\text{crit}}}{p_{ss}} \right)
+\tag{86}
+$$
+
+**Equation 87, Inertia Coupling Ratios.**
+The two inertia ratios that govern the severity of coupling are differences of principal moments divided by the third moment.
+[Day 1997][research_coupling_history_1997]
+
+$$
+\mu_1 = \frac{I_z - I_x}{I_y}, \qquad \mu_2 = \frac{I_x - I_y}{I_z}
+\tag{87}
+$$
+
+*Equation 88, Bespoke Linearised Pitch Equation in Steady Roll.*
+The article linearises the pitch equation about a steady roll rate, keeping the gyroscopic and aerodynamic stiffness terms and neglecting damping.
+
+$$
+\ddot{\alpha} + \omega_\alpha^2 \alpha = \left( \frac{I_z - I_x}{I_y} \right) p \, \dot{\beta} + p^2 \alpha
+\tag{88}
+$$
+
+*Equation 89, Bespoke Linearised Yaw Equation in Steady Roll.*
+The companion yaw equation is linearised in the same way, with damping neglected.
+
+$$
+\ddot{\beta} + \omega_\beta^2 \beta = \left( \frac{I_x - I_y}{I_z} \right) p \, \dot{\alpha} + p^2 \beta
+\tag{89}
+$$
+
+*Equation 90, Bespoke Uncoupled Stability Conditions in Steady Roll.*
+Neglecting the cross-coupling terms reduces the stability boundary to the roll rate at which the effective stiffness in either axis falls to zero.
+
+$$
+\omega_\alpha^2 - p^2 > 0, \qquad \omega_\beta^2 - p^2 > 0
+\tag{90}
+$$
+
+*Equation 91, Bespoke Divergence Growth Rate.*
+Past the pitch threshold the unstable root of the undamped, uncoupled pitch equation grows at the square root of the excess of the squared roll rate over the squared frequency.
+
+$$
+\lambda = \sqrt{p^2 - \omega_\alpha^2}
+\tag{91}
+$$
+
+*Equation 92, Bespoke Growth Rate at a Thirty Percent Exceedance.*
+The growth rate is evaluated for a roll rate of 5.8 radians per second, about thirty percent above the representative pitch frequency.
+
+$$
+\lambda = \sqrt{5.8^2 - 4.44^2} = 3.73 \ \text{per second}
+\tag{92}
+$$
+
+*Equation 93, Bespoke Divergence E-Folding Time.*
+The e-folding time is the reciprocal of the growth rate obtained at the chosen roll rate.
+
+$$
+\tau_{\text{div}} = \frac{1}{\lambda} = 0.27 \ \text{seconds}
+\tag{93}
+$$
+
+*Equation 94, Bespoke Time to Reach Thirty Degrees.*
+The time to grow from an initial one-degree disturbance to thirty degrees of angle of attack follows from pure exponential growth at the chosen rate.
+
+$$
+t = \tau_{\text{div}} \ln \frac{30}{1} = 0.27 \times 3.40 = 0.92 \ \text{seconds}
+\tag{94}
+$$
+
+**Equation 95, Load Factor Increment from an Angle of Attack Excursion.**
+An angle of attack excursion at a given dynamic pressure produces a normal load factor increment proportional to the lift-curve slope.
+
+$$
+\Delta n = \frac{q S C_{L\alpha} \Delta \alpha}{W}
+\tag{95}
+$$
+
+*Equation 96, Bespoke Load Factor for a Thirty Degree Excursion.*
+The increment is evaluated for a thirty degree excursion with the linear supersonic lift-curve slope, which assumes the lift stays linear to that angle.
+
+$$
+\Delta n = \frac{39{,}188 \times 24.16 \times 1.3 \times 0.524}{54{,}900} = 11.7
+\tag{96}
+$$
+
+**Equation 97, Thermocouple Time Constant.**
+A thermocouple junction responds with a first-order lag set by its thermal mass per unit surface area and the convective coefficient, which for a sphere reduces through the volume-to-area ratio of a sixth of the diameter.
+[thermocouples][ref_thermocouple]
+
+$$
+\tau_{tc} = \frac{\rho_j c_j}{h_c} \cdot \frac{V_j}{A_j} \approx \frac{\rho_j c_j d}{6 h_c}
+\tag{97}
+$$
+
+*Equation 98, Bespoke Thermocouple Lag Error.*
+The lag error is the time constant times the heating rate, evaluated for a half-millimetre steel bead and the initial skin heating rate of thirty kelvin per second.
+
+$$
+T_{\text{true}} - T_{\text{indicated}} \approx \tau_{tc} \frac{dT}{dt} \approx 20 \ \text{kelvin}
+\tag{98}
+$$
+
+**Equation 99, Probe Recovery Temperature.**
+A probe measuring gas temperature recovers only a fraction of the stagnation rise, given by its probe recovery factor.
+
+$$
+T_{\text{probe}} = T_\infty \left( 1 + r_p \frac{\gamma - 1}{2} M^2 \right)
+\tag{99}
+$$
+
+**Equation 100, Rayleigh Supersonic Pitot Formula.**
+Above Mach one the pitot tube senses the total pressure behind a normal shock, and the Rayleigh formula relates it to the free-stream static pressure and Mach number.
+[Hasel and Coletti 1948][research_pitot_supersonic_1948]
+
+$$
+\frac{p_{02}}{p_1} = \left[ \frac{(\gamma + 1)^2 M_1^2}{4 \gamma M_1^2 - 2(\gamma - 1)} \right]^{\frac{\gamma}{\gamma - 1}} \cdot \frac{1 - \gamma + 2 \gamma M_1^2}{\gamma + 1}
+\tag{100}
+$$
+
+**Equation 101, Mach Number Sensitivity to the Measured Pressure Ratio.**
+The relative error in inferred Mach number is a Mach-dependent factor times the relative error in the measured pressure ratio.
+
+$$
+\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d \left( p_{02} / p_1 \right)}{p_{02} / p_1}
+\tag{101}
+$$
+
+**Equation 102, Combined Standard Uncertainty.**
+For uncorrelated inputs the variance of a derived quantity is the sum of squared sensitivities times the input variances.
+[Taylor 1997][book_taylor_1997_error_analysis]
+[Bevington and Robinson 2002][book_bevington_robinson_2002]
+
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{102}
+$$
+
+**Equation 103, Inverse Heat Balance for Convective Flux.**
+The convective flux is recovered from a measured skin temperature history as the stored heat rate plus the radiated flux.
+
+$$
+\dot{q}_{\text{conv}} = C_A \frac{dT_w}{dt} + \varepsilon \sigma_{SB} T_w^4
+\tag{103}
+$$
+
+**Equation 104, Windblast Dynamic Pressure.**
+The dynamic pressure an occupant meets on leaving the aircraft is half the density times the square of the speed.
+
+$$
+q_{\text{exposure}} = \frac{1}{2} \rho V^2
+\tag{104}
+$$
+
+**Equation 105, Reliability of a Series Chain.**
+A chain of events that must all succeed has a probability of success equal to the product of the probabilities of its links.
+
+$$
+P_{\text{success}} = \prod_{i=1}^{n} p_i
+\tag{105}
+$$
+
+**Equation 106, Ballistic Coefficient of the Capsule.**
+The ballistic coefficient is the capsule mass divided by its drag coefficient times its reference area.
+
+$$
+\beta_c = \frac{m_c}{C_D A_c}
+\tag{106}
+$$
+
+**Equation 107, Terminal Descent Speed from the Ballistic Coefficient.**
+At terminal speed drag balances weight, which fixes the speed by the ballistic coefficient and the density.
+
+$$
+V_{\text{term}} = \sqrt{\frac{2 \beta_c g}{\rho}}
+\tag{107}
+$$
+
+**Equation 108, Allen-Eggers Peak Deceleration.**
+The peak deceleration of ballistic entry depends on entry speed, flight path angle and scale height but not on the ballistic coefficient.
+
+$$
+a_{\max} \approx \frac{V_e^2 \sin \gamma_e}{2 e H}
+\tag{108}
+$$
+
+**Equation 109, Terminal Speed under a Parachute.**
+A capsule under a canopy descends at the speed at which the drag of the canopy balances its weight.
+
+$$
+V_{\text{term}} = \sqrt{\frac{2 m_c g}{\rho \, C_D A_p}}
+\tag{109}
+$$
+
+**Equation 110, Parachute Opening Load.**
+The opening load is the opening shock factor times the dynamic pressure times the canopy drag area.
+
+$$
+F_{\text{open}} = C_X \, q \, C_D A_p
+\tag{110}
+$$
+
+**Equation 111, Flight Count Required to Reach a Target Uncertainty.**
+Inverting the scalar update and rounding up gives the smallest number of flights that brings the posterior standard deviation to the target.
+[X-Planes series][related_post_a297_xplanes_framing]
+
+$$
+n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil
+\tag{111}
+$$
+
+**Equation 112, Information Gain as Entropy Reduction.**
+For a scalar Gaussian the information gained is half the logarithm of the ratio of prior to posterior variance.
+[Lindley 1956][research_lindley_1956]
+
+$$
+I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}
+\tag{112}
+$$
+
+*Equation 113, Bespoke Airframe Count from Binomial Attrition.*
+The article models losses as independent with a constant probability per flight and requires that the programme completes with fewer losses than airframes at a chosen confidence.
+
+$$
+\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha
+\tag{113}
+$$
+
+**Equation 114, Glide Angle and Sink Rate.**
+In an unpowered glide the tangent of the glide angle is the reciprocal of the lift-to-drag ratio, and the sink rate is the speed divided by that ratio.
+
+$$
+\tan \gamma_g = \frac{1}{L / D}, \qquad w_s = \frac{V}{L / D}
+\tag{114}
+$$
+
+**Equation 115, Maximum Lift-to-Drag Ratio.**
+Differentiating the parabolic polar gives the maximum lift-to-drag ratio in terms of aspect ratio, Oswald efficiency and zero-lift drag.
+
+$$
+\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}}
+\tag{115}
+$$
+
+**Equation 116, Aspect Ratio of the X-2 Wing.**
+The aspect ratio is the square of the span divided by the wing area.
+
+$$
+A = \frac{b^2}{S} = \frac{9.83^2}{24.16} = 4.0
+\tag{116}
+$$
+
+*Equation 117, Bespoke Landing Stall Speed of the X-2.*
+The stall speed is evaluated for the landing weight, a lake-bed density of 1.10 kilograms per cubic metre and a maximum lift coefficient of 0.9 that the article reduces by the cosine of the sweep angle.
+
+$$
+V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 55{,}048}{1.10 \times 24.16 \times 0.9}} = 68 \ \text{metres per second}
+\tag{117}
+$$
+
+*Equation 118, Bespoke Approach Sink Rate of the X-2.*
+The sink rate divides an approach speed of 1.3 times the stall speed by the best glide ratio, which assumes that ratio holds on the approach.
+
+$$
+w_s = \frac{88}{11.2} = 7.9 \ \text{metres per second}
+\tag{118}
+$$
+
+**Equation 119, Buckingham Pi Theorem Group Count.**
+A relation among $n$ physical quantities involving $k$ independent dimensions reduces to a relation among $n - k$ dimensionless groups.
+[Buckingham 1914][research_buckingham_1914]
+
+$$
+n - k \ \text{dimensionless groups}
+\tag{119}
+$$
+
+**Equation 120, Relative Density and Nondimensional Inertias.**
+A dynamically similar model must match the mass ratio and the principal moments of inertia nondimensionalised by density, wing area and span or chord.
+
+$$
+\mu_m = \frac{m}{\rho S b}, \qquad \hat{I}_x = \frac{I_x}{\rho S b^3}, \qquad \hat{I}_y = \frac{I_y}{\rho S \bar{c}^3}, \qquad \hat{I}_z = \frac{I_z}{\rho S b^3}
+\tag{120}
+$$
+
+**Equation 121, Lateral Reduced Frequency.**
+The reduced frequency of the motion is the angular frequency times the semispan divided by the flow speed.
+
+$$
+k = \frac{\omega b}{2 V}
+\tag{121}
+$$
+
+**Equation 122, Dynamic Scaling of Model Mass and Inertia.**
+A model at geometric scale $1/k$ must have its mass reduced by the cube and its inertias by the fifth power of the scale, corrected by the ratio of ambient densities.
+
+$$
+m_m = \frac{m_f}{k^3} \cdot \frac{\rho_m}{\rho_f}, \qquad I_m = \frac{I_f}{k^5} \cdot \frac{\rho_m}{\rho_f}
+\tag{122}
+$$
+
+*Equation 123, Bespoke Vertical Tail Growth to Hold Directional Stiffness.*
+Holding directional stiffness from Mach 1.5 to Mach 3.196 by tail area alone, with the tail arm and efficiency fixed, requires the area to grow with the supersonic compressibility factor.
+
+$$
+\frac{S_{v,2}}{S_{v,1}} = \frac{\beta_{s,2}}{\beta_{s,1}} = \frac{\sqrt{3.196^2 - 1}}{\sqrt{1.5^2 - 1}} = 2.72
+\tag{123}
+$$
+
+**Equation 124, Yaw Rate Damper Law.**
+A yaw damper commands rudder deflection in proportion to the negative yaw rate.
+
+$$
+\delta_r = -k_r \, r
+\tag{124}
+$$
+
+**Equation 125, Augmented Yaw Damping Derivative.**
+The rate feedback adds to the natural yaw damping derivative a term proportional to the gain and the rudder effectiveness.
+
+$$
+C_{nr, \text{aug}} = C_{nr} - k_r \, C_{n \delta_r} \frac{2V}{b}
+\tag{125}
+$$
+
+**Equation 126, Augmented Dutch Roll Damping Ratio.**
+The Dutch roll damping ratio is approximated from the augmented yaw damping derivative, the dynamic pressure, the geometry and the Dutch roll frequency.
+
+$$
+\zeta_{dr, \text{aug}} \approx -\frac{C_{nr, \text{aug}}}{2} \sqrt{\frac{q S b}{I_z}} \cdot \frac{b}{2V} \cdot \frac{1}{\omega_{dr}}
+\tag{126}
+$$
+
+### Notation
+
+- $M_\infty$, the free-stream Mach number, with $M_1$ the Mach number upstream of a normal shock
+- $T_0$, the stagnation temperature, with $T_\infty$ the free-stream static temperature
+- $T_r$, the recovery temperature, with $T_w$ the wall temperature
+- $\theta_v$, the characteristic vibrational temperature of a diatomic gas
+- $h_c$, the convective heat transfer coefficient
+- $St$, the Stanton number
+- $\dot{q}_s$, the stagnation-point heat flux
+- $R_n$, the effective nose radius
+- $\sigma_{SB}$, the Stefan-Boltzmann constant
+- $C_A$, the thermal mass per unit area of the skin, with $C_{A,s}$ and $C_{A,b}$ the skin and substructure nodes of the two-lump model
+- $h_j$, the conductance per unit area between skin and substructure
+- $\alpha_{\text{th}}$, the thermal diffusivity of the wall
+- $P_{LM}$, the Larson-Miller parameter
+- $t_r$, the rupture time in hours
+- $\sigma_{\text{th}}$, the thermal stress
+- $\Lambda$, the sweep angle
+- $\beta_s$, the supersonic compressibility factor, distinct from the sideslip $\beta$ and the ballistic coefficient $\beta_c$
+- $q$, the dynamic pressure in pascals, distinct from the pitch rate $q$ in the Euler equations
+- $q_R$, the aileron reversal dynamic pressure, with $q_D$ the divergence dynamic pressure
+- $I_{sp}$, the specific impulse in seconds
+- $\dot{m}$, the propellant mass flow, with $\dot{m}_{gg}$ the share that feeds the gas generator
+- $h_e$, the energy height
+- $\eta_{\text{traj}}$, the fraction of the ideal specific energy that reached the vehicle state
+- $C_{n\beta}$, the directional stiffness derivative
+- $V_V$, the vertical tail volume coefficient
+- $p_{\text{crit}}$, the critical roll rate for inertia coupling, with $p_{ss}$ the steady roll rate an aileron input produces
+- $\omega_\alpha$, the pitch natural frequency, with $\omega_\beta$ the yaw natural frequency
+- $\mu_1$, the inertia coupling ratio in pitch, with $\mu_2$ its counterpart in yaw
+- $\tau_r$, the roll subsidence time constant
+- $\tau_{\text{div}}$, the e-folding time of the coupled divergence
+- $\tau_{tc}$, the thermocouple time constant
+- $C_D A_p$, the drag area of the parachute canopy
+- $\sigma_m$, the standard deviation of a single repeat measurement, with $\sigma_0$ the prior, $\sigma_n$ the posterior and $\sigma_T$ the target
+- $n_a$, the number of airframes built
+- $k_r$, the yaw damper gain
 
 ## References
 

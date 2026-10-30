@@ -1,0 +1,903 @@
+# Equation classification for A303. Read by `python3 _lib/equations.py`.
+
+caution = "Dose is stated in grays and sieverts, which the shield estimates treat as interchangeable, the lead attenuation coefficient appears as 0.794 per centimetre in the thickness relations and 79.4 per metre in the separation and mass relations, and $\\lambda$ is a structural mass per metre in the separation optimum but the decay constant of argon-41 in the activation relation."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Specific Energy of Fission and of Kerosene"
+gloss = "Complete fission of uranium-235 releases about $8.2 \\times 10^{13}$ joules per kilogram against about $4.3 \\times 10^{7}$ for kerosene."
+cite = []
+digest = "46aef668eacfa6f3"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Energy per Fission and Specific Energy of Uranium-235"
+gloss = "About 200 megaelectronvolts per fission times the Avogadro constant over the molar mass gives the specific energy of fission."
+cite = []
+digest = "6c849f385562ab31"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Ratio of Fission to Chemical Specific Energy"
+gloss = "Fission releases about two million times the energy of combustion per unit mass."
+cite = []
+digest = "bc7674a8b9fa98e7"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Fission Rate at a Given Power"
+gloss = "The fission rate is the thermal power divided by the energy per fission."
+cite = []
+digest = "ec022100c7e02fa0"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Fission Rate of a Hundred Megawatt Core"
+gloss = "A hundred megawatt core fissions about $3.12 \\times 10^{18}$ nuclei per second."
+cite = []
+digest = "f0c3182f231d6124"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Endurance from Fuel Mass and Thrust Specific Fuel Consumption"
+gloss = "Endurance is the fuel mass divided by the thrust specific fuel consumption times the thrust."
+cite = []
+digest = "d47488ff0bba26cc"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Thrust Specific Fuel Consumption of a Nuclear Aircraft"
+gloss = "Because a nuclear aircraft burns almost no fuel mass, its thrust specific fuel consumption tends to zero and endurance is bounded by something other than fuel."
+cite = []
+digest = "998b776f68b673bd"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Criticality Condition"
+gloss = "A reactor is critical when neutron production equals absorption plus leakage, so that the effective multiplication factor is one."
+cite = []
+digest = "0b8c75c21572ecb8"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Non-Leakage Probability of a Bare Spherical Core"
+gloss = "In diffusion theory the non-leakage probability falls with the geometric buckling times the migration area, and the buckling of a sphere grows as its radius shrinks."
+cite = []
+digest = "ddee8aa22df95482"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Wing Loading of the B-36"
+gloss = "A gross mass of about 186,000 kilograms on 443 square metres gives a wing loading of about 4.12 kilonewtons per square metre."
+cite = ["ref_b36"]
+digest = "13441f031f78d873"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Aspect Ratio of the B-36"
+gloss = "The span of 70.1 metres and the wing area give an aspect ratio of 11.1."
+cite = ["ref_b36"]
+digest = "88afe5764adfc982"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Cruise Thrust at Maximum Takeoff Weight"
+gloss = "Taking the maximum takeoff weight as an upper bound on cruise weight and a lift-to-drag ratio near eighteen gives a required thrust of 101 kilonewtons."
+cite = []
+digest = "19a5ac3e5b006426"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Propulsive Power at an Assumed Cruise Speed"
+gloss = "At an assumed cruise speed of 200 metres per second, about twice the listed cruising speed, the propulsive power is 20.3 megawatts."
+cite = []
+digest = "acfcc3ae1586a5ba"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Thermal Power and Overall Propulsive Efficiency"
+gloss = "The reactor thermal power is the propulsive power divided by the overall efficiency, the product of thermal and propulsive efficiencies."
+cite = []
+digest = "c91b35535adf1306"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Reactor Thermal Power"
+gloss = "An assumed overall efficiency of 0.20 for a turbojet of the period gives a thermal power of about 101 megawatts."
+cite = []
+digest = "bd5a04e0fa5cad36"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Uranium-235 Consumed on a Hundred-Hour Mission"
+gloss = "A hundred megawatts for a hundred hours fissions about 0.44 kilograms of uranium-235."
+cite = []
+digest = "c3d66db965681cfc"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Escaping Gamma Power"
+gloss = "The article takes about eight of the two hundred megaelectronvolts per fission as escaping gamma energy, so the gamma power is four percent of the thermal power."
+cite = []
+digest = "f05f21588f7b3e5e"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Gamma Source Strength"
+gloss = "Dividing the gamma power by an assumed mean photon energy of one megaelectronvolt gives $2.50 \\times 10^{19}$ photons per second."
+cite = []
+digest = "dcc452e8d64081a2"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Fast Neutron Source Strength"
+gloss = "The neutron source is the mean number of neutrons per fission times the fission rate, about $7.49 \\times 10^{18}$ neutrons per second."
+cite = []
+digest = "0f56182ccf697a72"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Point-Kernel Dose Rate with Buildup"
+gloss = "The dose rate behind a shield of thickness $x$ is the inverse-square source term attenuated exponentially and multiplied by the buildup factor for scattered photons."
+cite = ["research_auslender_1957"]
+digest = "00cf1dd214903e7e"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Unshielded Photon Fluence Rate at Ten Metres"
+gloss = "The assumed gamma source spread over a sphere of ten metres radius gives a fluence rate of $1.99 \\times 10^{16}$ per square metre per second."
+cite = []
+digest = "4455cb9b27e85e0f"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Unshielded Tissue Dose Rate at Ten Metres"
+gloss = "The fluence rate times the mean photon energy times the mass energy-absorption coefficient of tissue gives the dose rate from the assumed source."
+cite = []
+digest = "fda10534e5f30aa0"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Unshielded Dose Rate Value"
+gloss = "The assumed hundred megawatt source unshielded at ten metres delivers about 9.8 grays per second."
+cite = []
+digest = "a6e8d1c3aa912ebd"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Shield Thickness for a Dose Limit"
+gloss = "Inverting the point-kernel relation with the buildup factor held fixed gives the thickness that holds the dose at the limit."
+cite = []
+digest = "66fbced64d910d36"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Linear Attenuation Coefficient of Lead Near One Megaelectronvolt"
+gloss = "A mass attenuation coefficient of about 0.070 square centimetres per gram times the density of lead gives 0.794 per centimetre."
+cite = ["ref_attenuation", "ref_lead_element"]
+digest = "8a4d221753f9a616"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Tenth-Value Layer of Lead"
+gloss = "The tenth-value layer is the natural logarithm of ten over the attenuation coefficient, 2.90 centimetres of lead."
+cite = []
+digest = "2eb033604a9a55d2"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Crew Dose Rate Limit for a Hundred-Hour Mission"
+gloss = "An allowance the article chooses of fifty millisieverts over a hundred hours sets a rate limit of $5 \\times 10^{-4}$ grays per hour."
+cite = []
+digest = "86ecd34425335d50"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Attenuation Demanded of the Gamma Shield"
+gloss = "The ratio of the unshielded rate to the chosen limit is $7.1 \\times 10^{7}$."
+cite = []
+digest = "78da488952b1c981"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Gamma Shield Thickness"
+gloss = "With the chosen limit and an assumed buildup factor of ten the lead thickness is 25.7 centimetres."
+cite = []
+digest = "e11cc4588f765ad9"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Fast Neutron Attenuation by a Removal Cross-Section"
+gloss = "The fast neutron flux falls exponentially with thickness at a rate set by the macroscopic removal cross-section."
+cite = ["research_chapman_1955"]
+digest = "a9c09d9915c28fc9"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Lithium Hydride Neutron Shield Thickness"
+gloss = "A removal cross-section near 0.095 per centimetre and a required attenuation of $1.5 \\times 10^{9}$ give 222 centimetres of lithium hydride."
+cite = []
+digest = "71cc82651abe5a53"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Logarithmic Growth of Shield Thickness with Power"
+gloss = "Because thickness depends on the logarithm of the source strength, a change in power adds only the logarithm of the power ratio over the attenuation coefficient."
+cite = []
+digest = "70a06e2cda6bec02"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Added Lead for a Thousandfold Power Increase"
+gloss = "A thousandfold increase in power adds 8.7 centimetres of lead."
+cite = []
+digest = "15829b0a4e6cf2c8"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Shield Thickness as a Function of Separation"
+gloss = "Holding the crew dose fixed, the point-kernel thickness falls by twice the logarithm of the separation over the attenuation coefficient."
+cite = []
+digest = "4abf5410fa38354f"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Shadow Shield Mass Against Separation"
+gloss = "A shadow shield of fixed area $A$ whose thickness follows the separation relation has a mass that falls logarithmically with distance."
+cite = []
+digest = "90bbd3ba1b2ca99d"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Linear Structural Mass of the Separation"
+gloss = "The article takes the structure spanning the separation to add a fixed $\\lambda$ kilograms per metre."
+cite = []
+digest = "e114945b37c86d67"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Optimum Separation"
+gloss = "Setting the derivative of total shield and structure mass to zero gives an optimum separation proportional to shield areal density over attenuation coefficient and structural mass per metre."
+cite = []
+digest = "dd79071d66dbaa2d"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Optimum Separation Value"
+gloss = "Lead on a forward hemisphere of 1.5 metre radius with an assumed 400 kilograms per metre of fuselage structure gives an optimum near ten metres."
+cite = []
+digest = "2cb33675430c231d"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Gamma Shield Mass"
+gloss = "The chosen area and the 25.7 centimetre thickness give about 41 tonnes of lead."
+cite = []
+digest = "e8c03e2d83e221a6"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Gamma Shield Fraction of Gross Mass"
+gloss = "The estimated lead shield is 22 percent of the gross mass."
+cite = []
+digest = "01b70e55d71d89cd"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Upper Bound on Total Shield Fraction"
+gloss = "Adding the lithium hydride layer as a separate mass gives an upper bound of 35 percent of the gross mass."
+cite = []
+digest = "84e51c4f544218a3"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Gamma Shield Mass Against Bomb Load"
+gloss = "The estimated lead shield weighs 1.05 times the maximum bomb load of about 39,000 kilograms."
+cite = []
+digest = "b2226be1a37ef34d"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Mass of a Divided Shield"
+gloss = "The total mass of a divided shield is the sum of the areal masses of the reactor and crew shields."
+cite = ["research_blizard_1953"]
+digest = "3dd060468f14612e"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Dose Constraint on a Divided Shield"
+gloss = "The direct dose, which depends on the reactor shield, and the scattered dose, which depends on both, must together meet the limit."
+cite = ["research_blizard_1953"]
+digest = "daa320c74687abb5"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Equal Marginal Dose Reduction per Unit Mass"
+gloss = "At the constrained optimum the dose reduction bought by a unit of mass must be equal in the reactor and crew shields."
+cite = ["research_blizard_1953"]
+digest = "53c1ff2ae52a0c45"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Thickness Relation for the Optimum Division"
+gloss = "Taking each shield to attenuate its own exponential term of equal strength reduces the optimum condition to a relation between the two optical thicknesses and the areal masses."
+cite = []
+digest = "f05632115ce0357a"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Air-Scattered Dose Scaling"
+gloss = "The article writes the scattered dose as proportional to the air density along the path times the source fluence and a geometric factor."
+cite = []
+digest = "c787969971174a0f"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Exponential Atmosphere"
+gloss = "Air density falls exponentially with altitude with a scale height near 8.4 kilometres."
+cite = []
+digest = "ec43ea9eba20a3aa"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Density Ratio at Twelve Kilometres"
+gloss = "At twelve kilometres the exponential atmosphere gives a quarter of sea-level density."
+cite = []
+digest = "c2a6ded3260133a8"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Turbojet Thrust and Ideal Exhaust Velocity"
+gloss = "Thrust is the mass flow times the velocity increase, and the ideal exhaust velocity follows from isentropic expansion from turbine inlet conditions."
+cite = []
+digest = "0519fe329343c33c"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Heat Added Across the Core"
+gloss = "The thermal power is the mass flow times the specific heat times the temperature rise from compressor discharge to turbine inlet."
+cite = []
+digest = "822d256bc83e57af"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Ideal Brayton Cycle Efficiency"
+gloss = "The ideal Brayton thermal efficiency depends only on the compressor pressure ratio, which also fixes the compressor discharge temperature."
+cite = []
+digest = "5f881ee8ec3102c3"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Convective Heat Flux and the Dittus-Boelter Correlation"
+gloss = "The surface heat flux is the heat transfer coefficient times the wall-to-air temperature difference, with the Nusselt number given by the Dittus-Boelter correlation."
+cite = []
+digest = "acca0b9eaad579db"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Heated Surface Required"
+gloss = "The fuel element surface is the thermal power divided by the achievable heat flux."
+cite = []
+digest = "a26bafdb92f15ebf"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Core Power Density"
+gloss = "A hundred square metres at a megawatt per square metre packed into an assumed cubic metre gives about a hundred megawatts per cubic metre."
+cite = []
+digest = "ab55612a037d2443"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Duct Friction Pressure Loss"
+gloss = "The fractional pressure loss through the core is the friction factor times the length over hydraulic diameter times the dynamic pressure over static pressure."
+cite = []
+digest = "c7eb04f599afef53"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Activation of Argon-40"
+gloss = "The argon-41 activity produced is the capture cross-section times the flux times the number of target nuclei times the saturation factor for the residence time."
+cite = []
+digest = "8913c1f7c955b1a6"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Heat Exchanger Outlet Temperature from Effectiveness"
+gloss = "An exchanger of effectiveness $\\varepsilon$ raises the air from compressor discharge temperature by that fraction of the available temperature difference."
+cite = []
+digest = "cb0a51ce928f86f6"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Reactor Temperature Excess over Turbine Inlet"
+gloss = "The reactor must run hotter than the turbine inlet by one less the effectiveness times the available difference."
+cite = []
+digest = "1ea5306e311fcda6"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Number of Transfer Units and Effectiveness"
+gloss = "The number of transfer units is the conductance-area product over the smaller capacity rate, and for a large capacity ratio the effectiveness is one less the exponential of its negative."
+cite = []
+digest = "32bf80e79e790446"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Transfer Units for Effectiveness of 0.9 and 0.95"
+gloss = "Raising effectiveness from 0.9 to 0.95 raises the number of transfer units from 2.30 to 3.00."
+cite = []
+digest = "4a4ce2cd64ef833d"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Reactor Outlet Temperature for the Indirect Cycle"
+gloss = "With an assumed compressor discharge of 600 kelvin, a turbine inlet of 1150 kelvin and an effectiveness of 0.9 the reactor outlet must be about 1211 kelvin."
+cite = []
+digest = "3ade3f2a5df3fa38"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Heat Exchanger Mass Scaling"
+gloss = "Exchanger size and hence mass scale with the heat transferred over the overall coefficient and the log-mean temperature difference."
+cite = []
+digest = "1616a2f0fdaeed0c"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Coolant Pumping Power"
+gloss = "Pumping power is the mass flow times the loop pressure drop over the coolant density and the pump efficiency."
+cite = []
+digest = "d010686e490319cc"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Way-Wigner Decay Heat Law"
+gloss = "After shutdown the decay heat falls as a power law of time with an exponent of minus 0.2."
+cite = []
+digest = "fcb6f614b20465de"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Decay Heat of a Hundred Megawatt Core"
+gloss = "The decay law gives 6.6 megawatts at one second, 1.28 at one hour and 0.68 at one day."
+cite = []
+digest = "5787711feb557853"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Adiabatic Heating Rate of an Uncooled Core"
+gloss = "Without heat removal the core temperature rises at the decay power over the core heat capacity."
+cite = []
+digest = "8a2d346f951acd2c"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Heating Rate of a Five Tonne Core"
+gloss = "An assumed five tonne core of specific heat 500 joules per kilogram kelvin heats at 0.51 kelvin per second at the one-hour decay power."
+cite = []
+digest = "b7dd6cc8ebed138e"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Time to Core Melting"
+gloss = "Holding the one-hour decay power constant, a 700 kelvin margin to melting is consumed in about 23 minutes."
+cite = []
+digest = "1fdfc93b25984c6e"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Integrated Decay Energy"
+gloss = "Integrating the decay law from shutdown gives the energy released, which grows as the 0.8 power of time."
+cite = []
+digest = "cd524a8810722583"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Accumulated Component Dose"
+gloss = "The dose a component accumulates is the integral of the local dose rate over the mission."
+cite = []
+digest = "d4819b5ae37f4c8e"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Displacements per Atom"
+gloss = "Displacement damage is the displacement cross-section times the fast neutron fluence."
+cite = []
+digest = "89d3f38e4256b5b6"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Component Life from a Fluence Limit"
+gloss = "A component's life is its fluence limit divided by the local fast neutron flux."
+cite = []
+digest = "fcf55e2022a5bbf7"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Mission Dose"
+gloss = "Mission dose is the dose rate times the mission duration."
+cite = []
+digest = "dc516f86d75485f4"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Shield Mass Against the Dose Limit"
+gloss = "For a shadow shield of fixed area the mass grows with the logarithm of the reciprocal dose limit."
+cite = []
+digest = "49fede84a30ce3d4"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Shield Mass per E-Fold of Permitted Dose"
+gloss = "The areal density of lead over its attenuation coefficient on the chosen area gives about two tonnes per factor of $e$ in the dose limit."
+cite = []
+digest = "12043132d8a1524f"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Crew Dose from Reactor Operating Time"
+gloss = "The crew dose is the shielded dose rate times the 89 hours of reactor operation."
+cite = ["ref_nb36h"]
+digest = "dd6a15246440a8e7"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Shielded Dose Rate of the NB-36H"
+gloss = "An allowance the article chooses of fifty millisieverts across the 89 hours sets the shielded rate at $5.6 \\times 10^{-4}$ sieverts per hour."
+cite = []
+digest = "06addd09a3ee81fe"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Unshielded Dose Rate at the NB-36H Crew Station"
+gloss = "Scaling the hundred megawatt estimate linearly to one megawatt and by the inverse square from ten to an assumed fifteen metres gives the rate at the crew station."
+cite = []
+digest = "6f7eaa721adc5cdf"
+
+[[equation]]
+tag = 80
+class = "bespoke"
+title = "Bespoke Unshielded Dose Rate Value for the Shield Test Reactor"
+gloss = "The scaling gives 0.044 grays per second, or 157 grays per hour."
+cite = []
+digest = "de184ff8c57c6e4d"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Attenuation and Lead Thickness for the Shield Test Reactor"
+gloss = "The required attenuation of $2.8 \\times 10^{5}$ with a buildup factor of ten gives 18.7 centimetres of lead."
+cite = []
+digest = "4967c262af835276"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Crew Shield Mass of the NB-36H"
+gloss = "Taking an assumed six square metres of compartment cross-section gives 12.7 tonnes, against a reported eleven to twelve tons."
+cite = []
+digest = "b1a37f8c69914385"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Clausius-Clapeyron Saturation Pressure"
+gloss = "The integrated Clausius-Clapeyron relation gives the saturation pressure as an exponential in the reciprocal temperature."
+cite = []
+digest = "3f9d67e9cf139f6e"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Ratio of Water Reactor to Molten Salt Pressure"
+gloss = "A pressurised water reactor near 15.5 megapascals against a fluoride salt vapour pressure below a kilopascal is a ratio of at least $1.5 \\times 10^{4}$."
+cite = ["ref_msr"]
+digest = "46ad27682ce9bb4b"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Thin Spherical Pressure Vessel"
+gloss = "The wall thickness of a thin sphere is the pressure times the radius over twice the allowable stress, so the vessel mass is proportional to the pressure."
+cite = []
+digest = "84d8523645d5a604"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Temperature Coefficient of Reactivity"
+gloss = "The temperature coefficient is the derivative of the multiplication factor with temperature, which is negative for a circulating fuel salt."
+cite = []
+digest = "8c94dbb76070f47f"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Minimum-Mass Layered Shield"
+gloss = "The modern problem minimises the total areal mass of the layers subject to the dose limit and non-negative thicknesses."
+cite = []
+digest = "43205fba0c093891"
+
+[[equation]]
+tag = 88
+class = "bespoke"
+title = "Bespoke Two-Radiation Dose of a Layered Shield"
+gloss = "The article writes the dose as a gamma term attenuated and built up layer by layer as a product plus a neutron term attenuated by each layer's removal cross-section."
+cite = []
+digest = "4d765e62ec8d7b3f"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Payload Mass Budget"
+gloss = "Payload is gross mass less empty mass, fixed installation and consumed mass."
+cite = []
+digest = "eddc07afa9f3363e"
+
+[[equation]]
+tag = 90
+class = "bespoke"
+title = "Bespoke Viability Condition for a Fixed Installation"
+gloss = "The article states that a configuration is viable only while the fixed installation fraction leaves at least a minimum payload fraction."
+cite = []
+digest = "fa932b277b2b0956"
+
+[[equation]]
+tag = 91
+class = "standard"
+title = "Gravimetric Index of a Hydrogen Tank"
+gloss = "The gravimetric index is the hydrogen mass over the hydrogen and tank mass, which fixes the tank mass per kilogram of fuel."
+cite = []
+digest = "be1b2297029ff560"
+
+[[equation]]
+tag = 92
+class = "standard"
+title = "Breguet Range Summed over Refuelling Segments"
+gloss = "Summing the Breguet range of each segment between refuellings gives a total with no limit imposed by the aircraft itself."
+cite = []
+digest = "eb069982a7c9ace7"
+
+[[symbol]]
+tex = 'E_f'
+meaning = "the energy released per fission"
+
+[[symbol]]
+tex = 'E_{\text{fission}}'
+meaning = "the energy released per kilogram of uranium-235 fissioned"
+
+[[symbol]]
+tex = '\dot{N}_f'
+meaning = "the fission rate"
+
+[[symbol]]
+tex = 'P'
+meaning = "the reactor thermal power"
+
+[[symbol]]
+tex = 'F'
+meaning = "the thrust"
+
+[[symbol]]
+tex = '\text{TSFC}'
+meaning = "the thrust specific fuel consumption"
+
+[[symbol]]
+tex = 'k_{\text{eff}}'
+meaning = "the effective neutron multiplication factor"
+
+[[symbol]]
+tex = 'P_{\text{NL}}'
+meaning = "the neutron non-leakage probability"
+
+[[symbol]]
+tex = 'B^{2}'
+meaning = "the geometric buckling of the core"
+
+[[symbol]]
+tex = 'M^{2}'
+meaning = "the neutron migration area"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = '\eta_{\text{overall}}'
+meaning = "the overall efficiency of the propulsion system"
+
+[[symbol]]
+tex = 'S_\gamma'
+meaning = "the gamma source strength in photons per second"
+
+[[symbol]]
+tex = 'S_n'
+meaning = "the fast neutron source strength in neutrons per second"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the mean number of neutrons released per fission"
+
+[[symbol]]
+tex = '\dot{D}'
+meaning = "the dose rate"
+
+[[symbol]]
+tex = '\dot{D}_0'
+meaning = "the permitted crew dose rate"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the linear attenuation coefficient of the gamma shield"
+
+[[symbol]]
+tex = 'B'
+meaning = "the photon buildup factor"
+
+[[symbol]]
+tex = 'x'
+meaning = "the shield thickness"
+
+[[symbol]]
+tex = 'r'
+meaning = "the distance from reactor to crew"
+
+[[symbol]]
+tex = '\varphi'
+meaning = "the photon fluence rate"
+
+[[symbol]]
+tex = '\mathcal{A}'
+meaning = "the attenuation the shield must supply"
+
+[[symbol]]
+tex = '\Sigma_R'
+meaning = "the macroscopic fast neutron removal cross-section"
+
+[[symbol]]
+tex = '\varphi_n'
+meaning = "the fast neutron flux"
+
+[[symbol]]
+tex = '\rho_s'
+meaning = "the density of the reactor shield material"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the structural mass per metre of separation, and in the activation relation the decay constant of argon-41"
+
+[[symbol]]
+tex = 'r^{*}'
+meaning = "the optimum separation between reactor and crew"
+
+[[symbol]]
+tex = 'T_3'
+meaning = "the compressor discharge temperature"
+
+[[symbol]]
+tex = 'T_4'
+meaning = "the turbine inlet temperature"
+
+[[symbol]]
+tex = '\pi_c'
+meaning = "the compressor pressure ratio"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'A_{\text{fuel}}'
+meaning = "the heated fuel element surface area"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the heat exchanger effectiveness"
+
+[[symbol]]
+tex = '\mathrm{NTU}'
+meaning = "the number of transfer units"
+
+[[symbol]]
+tex = 'P_{\text{decay}}'
+meaning = "the decay heat power after shutdown"
+
+[[symbol]]
+tex = '\Phi_n'
+meaning = "the fast neutron fluence"
+
+[[symbol]]
+tex = '\alpha_T'
+meaning = "the temperature coefficient of reactivity"
+
+[[symbol]]
+tex = '\eta_g'
+meaning = "the gravimetric index of a hydrogen tank"
+
+[[symbol]]
+tex = 'm_{\text{fix}}'
+meaning = "the mass of a fixed installation that performs no work during the mission"

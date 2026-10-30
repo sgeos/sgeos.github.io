@@ -51,7 +51,10 @@ The programme is usually dated from 24 October 1957 to 10 December 1963, in the 
 
 [Robert McNamara][ref_mcnamara] cancelled it on 10 December 1963, shortly after construction of the first airframe had begun, on the ground that it had no settled mission. At that moment the programme called for ten flight vehicles and Boeing had completed some 42 percent of the necessary tasks, and the proposal McNamara accepted came from Harold Brown, the Director of Defense Research and Engineering, according to [Heppenheimer][ref_heppenheimer_2007]. Heppenheimer gives 410 million dollars spent and a further 373 million scheduled, with first flight still about two and a half years away.
 
-$$410 + 373 = 783 \ \text{million dollars}, \qquad \frac{410}{783} = 52.4\%$$
+$$
+410 + 373 = 783 \ \text{million dollars}, \qquad \frac{410}{783} = 52.4\%
+\tag{1}
+$$
 
 **The programme was stopped a little past the middle of its budget.** The total of 660 million dollars often quoted for it, as in the [reference entry][ref_x20], does not appear in any primary document cited here and lies between the amount spent and the amount planned. [Hallion][ref_hallion_1984] gives the grounds for cancellation as questions over the vehicle's utility, research potential and safety. The same announcement funded the [Manned Orbiting Laboratory][ref_mol], which was also cancelled in 1969 without flying a crew.
 
@@ -61,21 +64,33 @@ $$410 + 373 = 783 \ \text{million dollars}, \qquad \frac{410}{783} = 52.4\%$$
 
 The glider is small and its proportions are unlike anything else in this series. A delta of 345 square feet with a span of 20.8 feet on a length of 35.34 feet, weighing 11,387 pounds at most, in the [reference entry][ref_x20].
 
-$$\text{AR} = \frac{b^{2}}{S} = \frac{20.8^{2}}{345} = 1.254$$
+$$
+\text{AR} = \frac{b^{2}}{S} = \frac{20.8^{2}}{345} = 1.254
+\tag{2}
+$$
 
 That aspect ratio is far below an airliner's. Hypersonic flight demands it, and subsonic flight then has to live with it.
 
-$$\frac{W}{S} = \frac{11{,}387}{345} = 33.0 \ \text{lb/ft}^{2}$$
+$$
+\frac{W}{S} = \frac{11{,}387}{345} = 33.0 \ \text{lb/ft}^{2}
+\tag{3}
+$$
 
 **Thirty-three pounds per square foot, against the eighty-eight of the previous article's aircraft.** The [X-19][related_post_a316_curtiss_wright_x19] wanted the highest wing loading it could carry and this vehicle wants the lowest, and the motive is thermal and not aerodynamic.
 
 **These are the reference-work figures, and the programme documents put the glider a little heavier.** In April 1963 the programme office gave a 12,250 pound glider including 1,000 pounds of payload, a 5,750 pound transition section behind it, a lower surface of 345 square feet, a length of 35.3 feet, a span of 20.8 feet, and re-entry and landing weights of 12,000 and 11,700 pounds, in [Hargis][research_hargis_1964]. At re-entry that is
 
-$$\frac{W}{S} = \frac{12{,}000}{345} = 34.8 \ \text{lb/ft}^{2}$$
+$$
+\frac{W}{S} = \frac{12{,}000}{345} = 34.8 \ \text{lb/ft}^{2}
+\tag{4}
+$$
 
 The peak heating rate derived below goes as the square root of wing loading and the equilibrium temperature as its eighth root, so the heavier figure moves them by
 
-$$\sqrt{\frac{34.8}{33.0}} = 1.027, \qquad \left( \frac{34.8}{33.0} \right)^{1/8} = 1.007$$
+$$
+\sqrt{\frac{34.8}{33.0}} = 1.027, \qquad \left( \frac{34.8}{33.0} \right)^{1/8} = 1.007
+\tag{5}
+$$
 
 which is 2.7 percent in rate and about 21 degrees Fahrenheit at the nose. The analysis keeps 33.0 so that every number traces to the published figures, and the difference is small beside its assumed quantities.
 
@@ -98,15 +113,24 @@ The last column is $W/S$ computed from the first and third, and the rest is Rote
 
 Circular orbital speed at the surface is the reference the whole problem is scaled against.
 
-$$V_c = \sqrt{g R_e} = \sqrt{(32.174)(20{,}902{,}231)} = 25{,}933 \ \text{ft/s}$$
+$$
+V_c = \sqrt{g R_e} = \sqrt{(32.174)(20{,}902{,}231)} = 25{,}933 \ \text{ft/s}
+\tag{6}
+$$
 
 The quoted maximum of 17,500 miles per hour is 25,667 feet per second, which is 99.0 percent of circular speed, so this is an orbital vehicle in everything but name. Its specific kinetic energy is
 
-$$\frac{V_c^{2}}{2g} = 1.045 \times 10^{7} \ \text{ft lb per lb}$$
+$$
+\frac{V_c^{2}}{2g} = 1.045 \times 10^{7} \ \text{ft lb per lb}
+\tag{7}
+$$
 
 Multiplying by the weight and converting mechanical to thermal units at 778.169 foot-pounds per British thermal unit,
 
-$$Q_{\text{total}} = \frac{W}{778.169} \frac{V_c^{2}}{2g} = \frac{11{,}387 \times 1.045 \times 10^{7}}{778.169} = 1.529 \times 10^{8} \ \text{BTU}$$
+$$
+Q_{\text{total}} = \frac{W}{778.169} \frac{V_c^{2}}{2g} = \frac{11{,}387 \times 1.045 \times 10^{7}}{778.169} = 1.529 \times 10^{8} \ \text{BTU}
+\tag{8}
+$$
 
 **The thermal protection system exists to dispose of this energy.** For scale, it is roughly the energy released by burning 1,133 gallons of kerosene, and it has to leave the vehicle through its skin.
 
@@ -114,31 +138,49 @@ $$Q_{\text{total}} = \frac{W}{778.169} \frac{V_c^{2}}{2g} = \frac{11{,}387 \time
 
 A vehicle at orbital speed is nearly weightless, because the speed itself supplies most of the centripetal acceleration gravity is asking for. What lift has to carry is only the remainder.
 
-$$L = W \left( 1 - \frac{V^{2}}{V_c^{2}} \right)$$
+$$
+L = W \left( 1 - \frac{V^{2}}{V_c^{2}} \right)
+\tag{9}
+$$
 
 That bracket is the centrifugal relief. Because of it, a reentry glider flies in air a thousand times thinner than an aeroplane needs. Writing the lift out gives the density the vehicle must find at each speed.
 
-$$\tfrac{1}{2} \rho V^{2} S C_L = W \left( 1 - \frac{V^{2}}{V_c^{2}} \right)$$
+$$
+\tfrac{1}{2} \rho V^{2} S C_L = W \left( 1 - \frac{V^{2}}{V_c^{2}} \right)
+\tag{10}
+$$
 
 Rearranging for the density the vehicle must find,
 
-$$\rho = \frac{2 W \left( 1 - V^{2}/V_c^{2} \right)}{V^{2} S C_L}$$
+$$
+\rho = \frac{2 W \left( 1 - V^{2}/V_c^{2} \right)}{V^{2} S C_L}
+\tag{11}
+$$
 
 **Note what is in that expression and what is not.** Wing loading is in it. Lift-to-drag ratio is not. The altitude a glider flies at any given speed is set entirely by how heavily its wing is loaded.
 
 Deceleration follows from the drag that the lift implies.
 
-$$\frac{dV}{dt} = -\frac{D}{m} = -\frac{g \left( 1 - V^{2}/V_c^{2} \right)}{L/D}$$
+$$
+\frac{dV}{dt} = -\frac{D}{m} = -\frac{g \left( 1 - V^{2}/V_c^{2} \right)}{L/D}
+\tag{12}
+$$
 
 That deceleration is largest when the centrifugal relief has gone, at the slow end and not the fast one.
 
-$$\left. \frac{dV}{dt} \right|_{\max} = \frac{g}{L/D} = \frac{32.174}{1.350} = 23.8 \ \text{ft/s}^{2} = 0.741 \, g$$
+$$
+\left. \frac{dV}{dt} \right|_{\max} = \frac{g}{L/D} = \frac{32.174}{1.350} = 23.8 \ \text{ft/s}^{2} = 0.741 \, g
+\tag{13}
+$$
 
 **Three quarters of gravity, and never more on the equilibrium glide.** A pilot can work through that load, and its gentleness is the second thing lift buys. A ballistic capsule returning from orbit reaches more than ten times that, about 8 g in the case of [Project Mercury][ref_mercury]. The Step I flight-test plan expected longitudinal decelerations of 0.3 to 2.0 g over re-entries lasting up to 30 minutes, in [Baker et al. 1960][research_baker_1960], and the upper end of that band lies outside what an equilibrium glide produces.
 
 Converting the density to an altitude needs the atmosphere, and above about 100,000 feet an exponential fit with a scale height $H$ near 23,800 feet is adequate.
 
-$$\rho = \rho_0 e^{-z/H} \quad \Longrightarrow \quad z = H \ln \frac{\rho_0}{\rho}$$
+$$
+\rho = \rho_0 e^{-z/H} \quad \Longrightarrow \quad z = H \ln \frac{\rho_0}{\rho}
+\tag{14}
+$$
 
 which puts the vehicle near 240,000 feet where the heating peaks.
 
@@ -146,35 +188,59 @@ which puts the vehicle near 240,000 feet where the heating peaks.
 
 Downrange follows by dividing the range rate by the deceleration, which eliminates time,
 
-$$dR = V \, dt = \frac{V \, dV}{dV/dt} = -\frac{(L/D) \, V \, dV}{g \left( 1 - V^{2}/V_c^{2} \right)}$$
+$$
+dR = V \, dt = \frac{V \, dV}{dV/dt} = -\frac{(L/D) \, V \, dV}{g \left( 1 - V^{2}/V_c^{2} \right)}
+\tag{15}
+$$
 
 and integrating gives the classical closed form.
 
-$$R = \frac{L}{D} \frac{V_c^{2}}{2g} \ln \left[ \frac{1}{1 - (V/V_c)^{2}} \right]$$
+$$
+R = \frac{L}{D} \frac{V_c^{2}}{2g} \ln \left[ \frac{1}{1 - (V/V_c)^{2}} \right]
+\tag{16}
+$$
 
 Crossrange is the quantity the programme wanted, and the classical approximation for the maximum lateral distance reachable by banking is quadratic in lift-to-drag ratio.
 
-$$\text{CR}_{\max} \approx 0.319 \, R_e \left( \frac{L}{D} \right)^{2}$$
+$$
+\text{CR}_{\max} \approx 0.319 \, R_e \left( \frac{L}{D} \right)^{2}
+\tag{17}
+$$
 
 The programme's design approach of March 1960 asked for a lateral range of at least 2,000 nautical miles, in [Rotelli][research_rotelli_1960], and the progress report of 1963 gives the same 2,000 miles to one side of the orbital track, in [Hargis][research_hargis_1964]. With $R_e$ equal to 3,440 nautical miles, inverting the relation gives the lift-to-drag ratio it requires.
 
-$$\frac{L}{D} = \sqrt{\frac{\text{CR}}{0.319 R_e}} = \sqrt{\frac{2{,}000}{1{,}097.4}} = 1.350$$
+$$
+\frac{L}{D} = \sqrt{\frac{\text{CR}}{0.319 R_e}} = \sqrt{\frac{2{,}000}{1{,}097.4}} = 1.350
+\tag{18}
+$$
 
 **That number can be checked against the configuration, not merely asserted about it.** At hypersonic speeds a flat surface obeys Newtonian impact theory closely, in which the pressure comes entirely from the normal momentum the surface removes from the flow.
 
-$$C_N = 2 \sin^{2}\alpha$$
+$$
+C_N = 2 \sin^{2}\alpha
+\tag{19}
+$$
 
 Resolving that normal force into lift and drag along the flight path,
 
-$$C_L = 2 \sin^{2}\alpha \cos\alpha, \qquad C_D = 2 \sin^{3}\alpha$$
+$$
+C_L = 2 \sin^{2}\alpha \cos\alpha, \qquad C_D = 2 \sin^{3}\alpha
+\tag{20}
+$$
 
 The article assumes a trimmed lift coefficient of 0.6, and inverting the first of those for the angle of attack it implies gives
 
-$$\alpha = 38.14^{\circ}$$
+$$
+\alpha = 38.14^{\circ}
+\tag{21}
+$$
 
 At that angle the drag coefficient is 0.4712, and the lift-to-drag ratio takes a simple form, because the two coefficients differ by exactly one factor of the tangent.
 
-$$\frac{L}{D} = \frac{\cos\alpha}{\sin\alpha} = \cot\alpha = 1.273$$
+$$
+\frac{L}{D} = \frac{\cos\alpha}{\sin\alpha} = \cot\alpha = 1.273
+\tag{22}
+$$
 
 **Against the 1.350 that 2,000 nautical miles of crossrange requires, that is agreement to 5.7 percent**, reached from two directions that share nothing. One is a mission requirement inverted through an orbital mechanics approximation. The other is impact theory applied to a flat plate at an assumed lift coefficient.
 
@@ -192,13 +258,19 @@ That the check works at all depends on Newtonian theory being a good approximati
 
 **Impact theory is good at high angle of attack and poor at low.** At 50 degrees it is within 5 percent of the trimmed ratio, at 29 degrees it is 20 percent high, and at the 15 degrees of maximum lift-to-drag ratio it is 71 percent high. Lesko explains the pattern in the same paper. Skin friction is 30.5 percent of the drag at maximum lift-to-drag ratio at Mach 20 and under 5 percent at maximum lift, and impact theory contains no friction. The flat-plate check above is therefore a fair estimate only because its assumed lift coefficient of 0.6 lies at the high-angle end where the theory works. The ratio of the largest to the smallest trimmed lift-to-drag ratio,
 
-$$\frac{2.18}{0.8} = 2.7$$
+$$
+\frac{2.18}{0.8} = 2.7
+\tag{23}
+$$
 
 is the range-control capability Lesko cites, and for that reason the nominal glide was planned at a lift coefficient of 0.45 near the middle of the polar.
 
 **The quadratic crossrange relation overstates what the vehicle could do.** At the design maximum of 2.18 it predicts
 
-$$\text{CR} = 1{,}097.4 \times 2.18^{2} = 5{,}215 \ \text{nautical miles}$$
+$$
+\text{CR} = 1{,}097.4 \times 2.18^{2} = 5{,}215 \ \text{nautical miles}
+\tag{24}
+$$
 
 where Lesko's trajectory computation gives 2,200 nautical miles for a turn at maximum lift-to-drag ratio and a 45 degree bank, begun at 23,000 feet per second relative to the rotating Earth, rising to 2,500 from 24,100 feet per second. Braun's Phase Alpha comparison gives lateral manoeuvre from 23,000 feet per second for three gliders, which shows the same shortfall.
 
@@ -210,7 +282,10 @@ where Lesko's trajectory computation gives 2,200 nautical miles for a turn at ma
 
 Braun's figures grow more slowly than the square of lift-to-drag ratio. Between the first and last rows the exponent is
 
-$$n = \frac{\ln (3{,}500 / 1{,}100)}{\ln (3.0 / 1.5)} = 1.67$$
+$$
+n = \frac{\ln (3{,}500 / 1{,}100)}{\ln (3.0 / 1.5)} = 1.67
+\tag{25}
+$$
 
 **Part of the shortfall is the starting speed and part is the coefficient.** The closed form assumes a turn begun at circular speed, and both programme figures start below it, which removes the fastest and most productive part of the turn. How the gap divides between that and the coefficient itself is not settled by these documents. They do establish that the X-20 reached its 2,000 miles with a design maximum of about 2.2, well above the 1.35 the closed form asks for. The 5.7 percent agreement above is thus agreement between two idealisations. It does not predict the vehicle's polar.
 
@@ -218,31 +293,49 @@ $$n = \frac{\ln (3{,}500 / 1{,}100)}{\ln (3.0 / 1.5)} = 1.67$$
 
 Now substitute the glide density into the stagnation-point heating relation, in the Sutton-Graves form this series used for the [X-17][related_post_a314_lockheed_x17], where $R_n$ is the nose radius.
 
-$$\dot{q} = K \sqrt{\frac{\rho}{R_n}} V^{3}$$
+$$
+\dot{q} = K \sqrt{\frac{\rho}{R_n}} V^{3}
+\tag{26}
+$$
 
 Putting the glide density into it and collecting the constants,
 
-$$\dot{q} \propto \sqrt{\frac{W}{S C_L}} \, V^{2} \sqrt{1 - \frac{V^{2}}{V_c^{2}}}$$
+$$
+\dot{q} \propto \sqrt{\frac{W}{S C_L}} \, V^{2} \sqrt{1 - \frac{V^{2}}{V_c^{2}}}
+\tag{27}
+$$
 
 **Lift-to-drag ratio has vanished.** The peak heating rate on an equilibrium glide does not depend on it at all.
 
 The location of that peak reduces to a pure number. Write $u = (V/V_c)^{2}$ and the heating becomes proportional to a function of $u$ alone.
 
-$$\dot{q} \propto u \sqrt{1 - u} \cdot V_c^{2} \quad \text{so} \quad \dot{q}^{2} \propto u^{2} (1 - u)$$
+$$
+\dot{q} \propto u \sqrt{1 - u} \cdot V_c^{2} \quad \text{so} \quad \dot{q}^{2} \propto u^{2} (1 - u)
+\tag{28}
+$$
 
 Maximising the square, which has the same maximum,
 
-$$\frac{d}{du} \left[ u^{2} (1 - u) \right] = 2u - 3u^{2} = 0 \quad \Longrightarrow \quad u = \frac{2}{3}$$
+$$
+\frac{d}{du} \left[ u^{2} (1 - u) \right] = 2u - 3u^{2} = 0 \quad \Longrightarrow \quad u = \frac{2}{3}
+\tag{29}
+$$
 
 Taking the square root to recover the speed itself,
 
-$$V_{\text{peak}} = V_c \sqrt{\tfrac{2}{3}} = 21{,}174 \ \text{ft/s}$$
+$$
+V_{\text{peak}} = V_c \sqrt{\tfrac{2}{3}} = 21{,}174 \ \text{ft/s}
+\tag{30}
+$$
 
 **The worst heating always arrives at 81.6 percent of circular speed**, whatever the vehicle, whatever its wing loading, and whatever its lift-to-drag ratio. Only the magnitude changes.
 
 What lift-to-drag ratio changes is the time spent near that rate, through the deceleration, and therefore the integrated load.
 
-$$Q = \int \dot{q} \, dt = \int \frac{\dot{q}}{|dV/dt|} \, dV \propto \frac{L}{D}$$
+$$
+Q = \int \dot{q} \, dt = \int \frac{\dot{q}}{|dV/dt|} \, dV \propto \frac{L}{D}
+\tag{31}
+$$
 
 The heating correlation underneath all of this is a fitted result and not a derivation, and the aerodynamic heating work behind it, experimental and theoretical alike, accumulated from 1949 onward, in [Luce 1949][research_luce_jr_1949], [Johnson and Rubesin 1949][research_johnson_rubesin_1949], [Emmons 1951][research_emmons_1951], [Bryson 1952][research_bryson_1952], [Emmons 1955][research_emmons_1955], [McLellan 1955][research_mclellan_1955], [Snodgrass 1955][research_snodgrass_1955], [Budiansky and Mayers 1956][research_budiansky_mayers_1956], [Masters and Cohen 1957][research_masters_cohen_1957], [Vandrey 1957][research_vandrey_1957], [Maslen and Ostrach 1957][research_maslen_ostrach_1957], [Miele 1957][research_miele_1957], [Warmbrod 1963][research_warmbrod_1963], [Reba 1964][research_reba_1964], [Vanmol and Anderson 1992][research_vanmol_anderson_1992].
 
@@ -260,7 +353,10 @@ So the three quantities scale in three different ways, and the argument of this 
 
 The three columns obey three different powers of the same variable.
 
-$$\frac{\dot{q}_2}{\dot{q}_1} = \left( \frac{L/D_2}{L/D_1} \right)^{0} = 1, \qquad \frac{Q_2}{Q_1} = \frac{L/D_2}{L/D_1}, \qquad \frac{\text{CR}_2}{\text{CR}_1} = \left( \frac{L/D_2}{L/D_1} \right)^{2}$$
+$$
+\frac{\dot{q}_2}{\dot{q}_1} = \left( \frac{L/D_2}{L/D_1} \right)^{0} = 1, \qquad \frac{Q_2}{Q_1} = \frac{L/D_2}{L/D_1}, \qquad \frac{\text{CR}_2}{\text{CR}_1} = \left( \frac{L/D_2}{L/D_1} \right)^{2}
+\tag{32}
+$$
 
 **Across the twelvefold change from 0.25 to 3.00 the peak rate does not move in the fourth decimal place, the total load rises by a factor of twelve, and the crossrange rises by a factor of one hundred and forty-four.**
 
@@ -270,21 +366,33 @@ The decomposition is clean. **Peak temperature, which selects the material, is s
 
 The comparison that matters is with the vehicle the X-20 was an alternative to. A ballistic entry needs a separate integration, along the Allen-Eggers solution, not the glide, since a body with no lift does not fly an equilibrium anything.
 
-$$V(z) = V_e \exp \left[ -\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H} \right]$$
+$$
+V(z) = V_e \exp \left[ -\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H} \right]
+\tag{33}
+$$
 
 The ballistic coefficient in that expression is the vehicle's resistance to being slowed, and it plays the part wing loading plays on the glide.
 
-$$\beta = \frac{W}{C_D A}$$
+$$
+\beta = \frac{W}{C_D A}
+\tag{34}
+$$
 
 At 50 pounds per square foot and a five degree path angle, the peak stagnation heating is 1,247 British thermal units per square foot second at about 87,000 feet, against 47.8 for the glider.
 
 The ballistic entry problem was worked thoroughly during these years, in [Scherberg and Rubin 1953][research_scherberg_rubin_1953], [Phillips and Cohen 1959][research_phillips_cohen_1959], [Foster 1960][research_foster_1960], [Schweppe 1964][research_schweppe_1964], [Reinikka and Sartell 1965][research_reinikka_sartell_1965], [Platus 1980b][research_platus_1980], [Vinh and Lin 1982][research_vinh_lin_1982], [Hough 1982b][research_hough_1982], [Hough 1982a][research_hough_1982_2], [Zimmermann et al. 1996][research_zimmermann_1996], [Tillier 1998][research_tillier_1998], and one of those addresses **drag modulation to reduce deceleration loads**, the ballistic vehicle's attempt at the softening that lift provides for free.
 
-$$\frac{\dot{q}_{\text{ballistic}}}{\dot{q}_{\text{glide}}} = \frac{1{,}247}{47.8} = 26.1$$
+$$
+\frac{\dot{q}_{\text{ballistic}}}{\dot{q}_{\text{glide}}} = \frac{1{,}247}{47.8} = 26.1
+\tag{35}
+$$
 
 **The total loads, however, are within about an eighth of each other.**
 
-$$\frac{Q_{\text{ballistic}}}{Q_{\text{glide}}} = \frac{69{,}898}{79{,}389} = 0.880$$
+$$
+\frac{Q_{\text{ballistic}}}{Q_{\text{glide}}} = \frac{69{,}898}{79{,}389} = 0.880
+\tag{36}
+$$
 
 The framing predicted otherwise. The glider pays about 14 percent more total heat, a modest penalty. **In return it gets a twenty-six-fold reduction in peak rate**, and without that reduction a radiatively cooled structure would not be possible.
 
@@ -292,37 +400,61 @@ The framing predicted otherwise. The glider pays about 14 percent more total hea
 
 A surface that cannot conduct heat away and cannot store it must radiate it, and it reaches whatever temperature makes the two balance.
 
-$$\dot{q} = \varepsilon \sigma T^{4}$$
+$$
+\dot{q} = \varepsilon \sigma T^{4}
+\tag{37}
+$$
 
 Inverting for the temperature that balance implies,
 
-$$T = \left( \frac{\dot{q}}{\varepsilon \sigma} \right)^{1/4}$$
+$$
+T = \left( \frac{\dot{q}}{\varepsilon \sigma} \right)^{1/4}
+\tag{38}
+$$
 
 At the peak rate of 47.8 British thermal units per square foot second and an emissivity of 0.85, the stagnation region settles at
 
-$$T = 2{,}837 \ ^\circ\text{F} = 1{,}831 \ \text{K}$$
+$$
+T = 2{,}837 \ ^\circ\text{F} = 1{,}831 \ \text{K}
+\tag{39}
+$$
 
 The flat lower surface sees far less, because it is neither stagnating the flow nor sitting behind the strongest part of the shock. Taking it at 12 percent of the stagnation value,
 
-$$T_{\text{surface}} = \left( \frac{0.12 \, \dot{q}_{\text{peak}}}{\varepsilon \sigma} \right)^{1/4} = 1{,}480 \ ^\circ\text{F}$$
+$$
+T_{\text{surface}} = \left( \frac{0.12 \, \dot{q}_{\text{peak}}}{\varepsilon \sigma} \right)^{1/4} = 1{,}480 \ ^\circ\text{F}
+\tag{40}
+$$
 
 **The fourth root is what makes the structure possible.** An eightfold reduction in heating yields only a 1,357 degree reduction in temperature, but those degrees put the primary structure inside a superalloy's range.
 
 **The nose figures in the programme documents can be reached from these relations.** [Heppenheimer][ref_heppenheimer_2007] gives the nose cap of the 1963 design a radius of 7.5 inches, a peak heat flux of 143 British thermal units per square foot second and a temperature of 3,680 degrees Fahrenheit, and [Hargis][research_hargis_1964] gives the same radius and 3,650 degrees. The analysis above assumes a radius of one foot and a lift coefficient of 0.6. Rescaling the stagnation relation to the documented radius, to Lesko's lift coefficient of 0.15 at maximum lift-to-drag ratio, and to a 45 degree bank, which tilts the lift so that the glide must find air thicker by the factor $1/\cos 45^{\circ}$, gives
 
-$$\dot{q} = 47.78 \sqrt{\frac{12}{7.5}} \sqrt{\frac{0.6}{0.15}} \frac{1}{\sqrt{\cos 45^{\circ}}} = 47.78 \times 1.265 \times 2.000 \times 1.189 = 143.7$$
+$$
+\dot{q} = 47.78 \sqrt{\frac{12}{7.5}} \sqrt{\frac{0.6}{0.15}} \frac{1}{\sqrt{\cos 45^{\circ}}} = 47.78 \times 1.265 \times 2.000 \times 1.189 = 143.7
+\tag{41}
+$$
 
 against the documented 143. **That agreement is closer than the inputs warrant.** It depends on the assumed heating constant and on the reference-work wing loading, and at the programme office's re-entry weight the same chain gives about 3 percent more. What the agreement does support is that the design figure corresponds to flight low in the corridor, of the kind a banked turn at maximum lift-to-drag ratio produces, and not to the nominal glide at a lift coefficient of 0.45, for which the chain gives
 
-$$47.78 \sqrt{\frac{12}{7.5}} \sqrt{\frac{0.6}{0.45}} = 69.8$$
+$$
+47.78 \sqrt{\frac{12}{7.5}} \sqrt{\frac{0.6}{0.45}} = 69.8
+\tag{42}
+$$
 
 The Phase I nose of 1959 and 1960 was designed for more. [Kaminsky and Klopfenstein 1960][research_kaminsky_klopfenstein_1960] give its stagnation point a peak of 178 British thermal units per square foot second, with more than 150 sustained for 20 minutes, and an equilibrium temperature of 4,060 degrees at an emissivity of 0.9. The inverted relation reproduces their figure with their Stefan-Boltzmann constant of $0.4759 \times 10^{-12}$ in the same units and their Rankine offset of 460,
 
-$$T = \left( \frac{178}{0.9 \times 0.4759 \times 10^{-12}} \right)^{1/4} - 460 = 4{,}055 \ ^\circ\text{F}$$
+$$
+T = \left( \frac{178}{0.9 \times 0.4759 \times 10^{-12}} \right)^{1/4} - 460 = 4{,}055 \ ^\circ\text{F}
+\tag{43}
+$$
 
 **The emissivity in that expression matters, and it is not well constrained.** Temperature goes as the inverse fourth root of it, so a surface at 0.6 and not 0.85 runs about 300 degrees hotter. The programme's plasma-jet tests recorded emissivities of 0.37 on a coated columbium leading edge, 0.43 on an alumina and molybdenum laminate, and 0.7 on coated molybdenum, in [Kaminsky and Klopfenstein][research_kaminsky_klopfenstein_1960]. At the peak rate of 47.8 those values put the stagnation region at
 
-$$T_{0.7} = 3{,}001 \ ^\circ\text{F}, \qquad T_{0.37} = 3{,}599 \ ^\circ\text{F}$$
+$$
+T_{0.7} = 3{,}001 \ ^\circ\text{F}, \qquad T_{0.37} = 3{,}599 \ ^\circ\text{F}
+\tag{44}
+$$
 
 against 2,837 at 0.85. The production panels accordingly carried a thin outer layer of silicon carbide, added for its emissivity and credited with lowering temperatures by as much as 200 degrees in [Heppenheimer][ref_heppenheimer_2007]. The emissivity of refractory metals and oxides, and the radiative properties of hot air and gases, were active subjects at these temperatures, not settled ones, in [Sully et al. 1952][research_sully_1952], [Armstrong et al. 1961][research_armstrong_1961], [Pai 1966][research_pai_1966], [Vertogradskii 1969][research_vertogradskii_1969], [Peletskii and Shur 1977][research_peletskii_shur_1977], [Wang et al. 2011a][research_wang_2011].
 
@@ -334,7 +466,10 @@ Hot-structure and reusable thermal protection work from the period onward is in 
 
 Peak heating goes as the square root of wing loading, which turns the loading into a thermal design variable and not an aerodynamic one.
 
-$$\dot{q}_{\text{peak}} \propto \sqrt{\frac{W}{S}}$$
+$$
+\dot{q}_{\text{peak}} \propto \sqrt{\frac{W}{S}}
+\tag{45}
+$$
 
 | Wing loading, lb per square foot | Peak rate | Radiation equilibrium |
 |---|---|---|
@@ -346,7 +481,10 @@ $$\dot{q}_{\text{peak}} \propto \sqrt{\frac{W}{S}}$$
 
 Temperature depends on wing loading far more weakly than heating does, because the fourth root of a square root is an eighth root.
 
-$$T \propto \dot{q}^{1/4} \propto \left( \frac{W}{S} \right)^{1/8}$$
+$$
+T \propto \dot{q}^{1/4} \propto \left( \frac{W}{S} \right)^{1/8}
+\tag{46}
+$$
 
 **That is why the table above is so flat**, and it is also why the effect still matters. **At the X-19's eighty-eight pounds per square foot the nose would sit at 3,269 degrees**, above coated molybdenum and far beyond any superalloy. The X-20's wing is large for its weight because a smaller one would have melted, and the previous article's wing was small for its weight because a larger one would have been slow. **The same quantity, driven in opposite directions, for reasons that have nothing to do with each other.**
 
@@ -358,15 +496,24 @@ A radiatively cooled vehicle has no cool interior to hide its structure in, so t
 
 Thermal expansion rather than pressure sets the joint design, and the magnitude is easy to state.
 
-$$\Delta L = \alpha L \, \Delta T$$
+$$
+\Delta L = \alpha L \, \Delta T
+\tag{47}
+$$
 
 René 41 is taken here to expand at about 8.0 times ten to the minus six per degree Fahrenheit. Over the vehicle's 35.34 foot length at a 1,500 degree rise,
 
-$$\Delta L = (8.0 \times 10^{-6})(35.34)(1500) = 0.424 \ \text{ft} = 5.09 \ \text{in}$$
+$$
+\Delta L = (8.0 \times 10^{-6})(35.34)(1500) = 0.424 \ \text{ft} = 5.09 \ \text{in}
+\tag{48}
+$$
 
 **The airframe grows five inches on the way home.** Worse, a molybdenum heat shield over it is taken to expand at roughly 3.0 times ten to the minus six, so the two move differently. Over one 45 inch panel,
 
-$$\Delta L_{\text{mismatch}} = (\alpha_{\text{R41}} - \alpha_{\text{Mo}}) L \, \Delta T = (5.0 \times 10^{-6})(45)(1500) = 0.338 \ \text{in}$$
+$$
+\Delta L_{\text{mismatch}} = (\alpha_{\text{R41}} - \alpha_{\text{Mo}}) L \, \Delta T = (5.0 \times 10^{-6})(45)(1500) = 0.338 \ \text{in}
+\tag{49}
+$$
 
 **The problem is not strength but accommodation.** Every heat shield must be free to move against its frame, so the shields stood on clips and were not fastened flat. The frame has the same problem internally. Gradients reached 500 degrees across a structural section, and the truss answered them by letting each triangle change shape by rotating about pinned joints, so that a hotter member lengthens without loading its neighbours, as [Hargis][research_hargis_1964] describes. [Helper et al][research_helper_1960] tested truss members, joints and a full-size forward section of the vehicle through repeated heat and load cycles simulating re-entry, and report that the pinned trusswork essentially eliminated thermal stress.
 
@@ -378,25 +525,40 @@ The obvious objection to a hot structure is that ablation was available, underst
 
 Ablator mass is the total heat divided by the effective heat of ablation.
 
-$$m_{\text{ablator}} = \frac{Q_{\text{vehicle}}}{H_{\text{eff}}}$$
+$$
+m_{\text{ablator}} = \frac{Q_{\text{vehicle}}}{H_{\text{eff}}}
+\tag{50}
+$$
 
 Taking the vehicle heat load as 9.04 times ten to the sixth British thermal units, the mass fraction decides the question.
 
-$$\frac{m_{\text{ablator}}}{W} = \frac{Q_{\text{vehicle}}}{H_{\text{eff}} W}$$
+$$
+\frac{m_{\text{ablator}}}{W} = \frac{Q_{\text{vehicle}}}{H_{\text{eff}} W}
+\tag{51}
+$$
 
 Evaluating it at the generous and the pessimistic ends of the plausible range,
 
-$$\frac{9.04 \times 10^{6}}{(15{,}000)(11{,}387)} = 5.3\%, \qquad \frac{9.04 \times 10^{6}}{(3{,}000)(11{,}387)} = 26.5\%$$
+$$
+\frac{9.04 \times 10^{6}}{(15{,}000)(11{,}387)} = 5.3\%, \qquad \frac{9.04 \times 10^{6}}{(3{,}000)(11{,}387)} = 26.5\%
+\tag{52}
+$$
 
 between 603 and 3,013 pounds across every plausible effective heat of ablation. **Heavy, and buildable.** The [Apollo command module][ref_apollo_cm] carried a comparable fraction, a heat shield of 1,869 pounds on a module of 12,250 pounds, or 15 percent.
 
 A heat sink is a different matter.
 
-$$m_{\text{sink}} = \frac{Q_{\text{vehicle}}}{c_p \Delta T} = \frac{9.04 \times 10^{6}}{(0.22)(1{,}000)} = 4.11 \times 10^{4} \ \text{lb}$$
+$$
+m_{\text{sink}} = \frac{Q_{\text{vehicle}}}{c_p \Delta T} = \frac{9.04 \times 10^{6}}{(0.22)(1{,}000)} = 4.11 \times 10^{4} \ \text{lb}
+\tag{53}
+$$
 
 which is 361 percent of the glider, and therefore impossible. The programme's own estimate is that only 2 to 5 percent of the heat reaching the skin is absorbed into the structure, the rest being radiated away, in [Hargis][research_hargis_1964]. On the vehicle load used here that is
 
-$$0.02 \times 9.04 \times 10^{6} = 1.81 \times 10^{5}, \qquad 0.05 \times 9.04 \times 10^{6} = 4.52 \times 10^{5} \ \text{BTU}$$
+$$
+0.02 \times 9.04 \times 10^{6} = 1.81 \times 10^{5}, \qquad 0.05 \times 9.04 \times 10^{6} = 4.52 \times 10^{5} \ \text{BTU}
+\tag{54}
+$$
 
 kept inside the aircraft by the hot structure.
 
@@ -406,11 +568,17 @@ kept inside the aircraft by the hot structure.
 
 A glider with no engine arrives with a fixed quantity of energy and must spend all of it reaching the runway. The quantity that matters is energy height, which combines the two forms the vehicle can trade between.
 
-$$h_e = h + \frac{V^{2}}{2g}$$
+$$
+h_e = h + \frac{V^{2}}{2g}
+\tag{55}
+$$
 
 At entry, near 240,000 feet and 21,174 feet per second, that is
 
-$$h_e = 240{,}000 + \frac{21{,}174^{2}}{2(32.174)} = 7.20 \times 10^{6} \ \text{ft}$$
+$$
+h_e = 240{,}000 + \frac{21{,}174^{2}}{2(32.174)} = 7.20 \times 10^{6} \ \text{ft}
+\tag{56}
+$$
 
 or about 1,365 statute miles of energy height, all of which must be disposed of before touchdown.
 
@@ -422,31 +590,49 @@ Attitude control at the top of the glide is reaction jets, because there is no a
 
 The X-20 lands without power at the end of everything, and the planned landing was not a slow one. For the 1960 glider [Lesko][research_lesko_1960] gives a subsonic maximum lift-to-drag ratio of 4.5, but the nominal approach was flown well away from it, at 280 knots indicated, a lift coefficient of 0.10 and a flight path 22.5 degrees below the horizontal with the speed brakes partly open. The sink rate is then
 
-$$w = V \sin\gamma = (280 \times 1.688)(\sin 22.5^{\circ}) = 180.9 \ \text{ft/s}$$
+$$
+w = V \sin\gamma = (280 \times 1.688)(\sin 22.5^{\circ}) = 180.9 \ \text{ft/s}
+\tag{57}
+$$
 
 against the 180 feet per second Lesko states. A steady unpowered glide at that angle has an effective lift-to-drag ratio of
 
-$$\frac{L}{D} = \frac{1}{\tan 22.5^{\circ}} = 2.41$$
+$$
+\frac{L}{D} = \frac{1}{\tan 22.5^{\circ}} = 2.41
+\tag{58}
+$$
 
 so the speed brakes give away nearly half of the clean airframe's best ratio, in exchange for a speed margin of 210 to 350 knots along the glide path. **A sink rate of 180 feet per second is an arrival, not a landing**, and the vehicle must flare out of it. Lesko's flare begins at 1,100 feet, is flown at 1.5 g for ten seconds with a loss of 50 knots, and is followed by a deceleration at a sink rate of 25 feet per second to touchdown at 175 knots. The [X-15][related_post_a312_north_american_x15] flew the same unpowered steep approach, and the [Space Shuttle][ref_shuttle] inherited it.
 
 The touchdown speed sets the lift coefficient at touchdown, by the lift relation
 
-$$C_L = \frac{2W}{\rho S V^{2}}$$
+$$
+C_L = \frac{2W}{\rho S V^{2}}
+\tag{59}
+$$
 
 At sea-level density, Lesko's 9,060 pound landing weight on 330 square feet at 175 knots needs 0.265, and the 1963 landing weight of 11,700 pounds on 345 square feet at the maximum landing speed of 220 knots in [Hargis][research_hargis_1964] needs 0.207. **The glider was to touch down at a lift coefficient near a quarter**, far below what a low-aspect-ratio delta generates at high angle of attack, and the documents cited here do not state which limit set it. [Heppenheimer][ref_heppenheimer_2007] gives 220 knots as the touchdown speed.
 
 The kinetic energy to be removed on the runway follows from that speed of 371.3 feet per second.
 
-$$E = \tfrac{1}{2} \frac{W}{g} V_{\text{touch}}^{2} = \tfrac{1}{2} \frac{11{,}700}{32.174} (371.3)^{2} = 2.51 \times 10^{7} \ \text{ft lb} = 32{,}216 \ \text{BTU}$$
+$$
+E = \tfrac{1}{2} \frac{W}{g} V_{\text{touch}}^{2} = \tfrac{1}{2} \frac{11{,}700}{32.174} (371.3)^{2} = 2.51 \times 10^{7} \ \text{ft lb} = 32{,}216 \ \text{BTU}
+\tag{60}
+$$
 
 The skids were to stop the glider in 5,000 feet, which needs a mean friction coefficient of
 
-$$\mu = \frac{V^{2}}{2 g d} = \frac{371.3^{2}}{2 (32.174)(5{,}000)} = 0.43$$
+$$
+\mu = \frac{V^{2}}{2 g d} = \frac{371.3^{2}}{2 (32.174)(5{,}000)} = 0.43
+\tag{61}
+$$
 
 The vertical energy at the structure's design sink rate of 8 feet per second, in [Hargis][research_hargis_1964], is only
 
-$$\tfrac{1}{2} \frac{W}{g} w^{2} = \tfrac{1}{2} \frac{11{,}700}{32.174} (8)^{2} = 11{,}637 \ \text{ft lb}$$
+$$
+\tfrac{1}{2} \frac{W}{g} w^{2} = \tfrac{1}{2} \frac{11{,}700}{32.174} (8)^{2} = 11{,}637 \ \text{ft lb}
+\tag{62}
+$$
 
 which is under a two-thousandth of the horizontal energy, so the gear's real work is friction and not shock absorption.
 
@@ -456,7 +642,10 @@ The gear is not wheels, because inflated rubber tyres would have needed cooled c
 
 There is none. **The X-20 never flew and no airframe was completed**, in [Jenkins Landis and Miller][book_jenkins_landis_miller_2003]. Cancellation came on 10 December 1963, after the 410 million dollars [Heppenheimer][ref_heppenheimer_2007] gives as spent over 6.13 years.
 
-$$\frac{410 \times 10^{6}}{6.13} = 66.9 \ \text{million dollars per year}, \qquad \frac{410 \times 10^{6}}{11{,}387} = \$36{,}006 \ \text{per pound}$$
+$$
+\frac{410 \times 10^{6}}{6.13} = 66.9 \ \text{million dollars per year}, \qquad \frac{410 \times 10^{6}}{11{,}387} = \$36{,}006 \ \text{per pound}
+\tag{63}
+$$
 
 **Thirty-six thousand dollars for every pound of a glider that did not exist**, in 1963 dollars.
 
@@ -466,7 +655,10 @@ The flight programme is recorded in two versions. The Step I plan of 1960 had th
 
 **The orbital plan of 1963 kept the shape and changed the scale.** One glider was to make 20 air launches from about 50,000 feet at Mach 0.8, exploring to 70,000 feet and Mach 1.4, four of them using its acceleration rocket. Two unmanned ground launches would follow, and then piloted flights of a single orbit, injected about 1,000 miles downrange into an orbit with its apogee near 100 nautical miles over South Africa and its perigee inside the atmosphere near 60 nautical miles northwest of Australia, from which the glider would fly a 7,000 nautical mile re-entry across the Pacific to a landing on the lakebed at Edwards, with a nominal re-entry time of 50 minutes. Multi-orbit flights would keep the Titan III transtage for three orbits and use it to deorbit. The glider would carry about 1,000 measured parameters, and its whole 1,000 pound payload allowance went to test instrumentation, half of it to wiring, tubing, racks and cooling, all in [Hargis][research_hargis_1964]. The milestones were 90 percent drawing release in September 1963, a first air launch in January 1965, a first unmanned ground launch in November 1965, a first piloted ground launch in May 1966, and a final flight in September 1967.
 
-$$\text{May 1966} - \text{December 1963} = 29 \ \text{months}$$
+$$
+\text{May 1966} - \text{December 1963} = 29 \ \text{months}
+\tag{64}
+$$
 
 consistent with Heppenheimer's two and a half years to first flight at cancellation.
 
@@ -488,7 +680,10 @@ The comparison cannot be made. That absence is the finding. It is no omission.
 
 **The ground prediction the flights were to test is on record, and it was deliberately conservative.** The 1963 design assumed turbulent heating everywhere with a 20 percent allowance for roughness, waves and joints in the skin, and equilibrium flow at the leading edges, which gives the highest heating. [Hargis][research_hargis_1964] lists what flight might return. Extensive laminar flow could cut wing heating by up to 50 percent, a non-catalytic coating could cut leading-edge heating by up to 50 percent, and if roughness proved less harmful than assumed, sharper leading edges could raise the lift-to-drag ratio by 25 percent and the lateral range by 50 percent. That last pair implies a dependence of lateral range on lift-to-drag ratio with the exponent
 
-$$n = \frac{\ln 1.50}{\ln 1.25} = 1.82$$
+$$
+n = \frac{\ln 1.50}{\ln 1.25} = 1.82
+\tag{65}
+$$
 
 between Braun's 1.67 and the quadratic relation's 2. [Lesko][research_lesko_1960] makes the same point for laminar flow, which would have raised his lateral range from 2,200 to 2,900 nautical miles. **The flights were planned to measure how much of the design margin was real**, and the cancellation removed that comparison.
 
@@ -504,7 +699,10 @@ A programme that produced no data still changed things, and the distinction matt
 
 **The crossrange requirement outlived the vehicle.** The Air Force's insistence on cross-range drove the Shuttle's delta wing, which is why an orbiter that mostly flew from and to Florida carried a planform sized for a once-around polar abort it never performed. [Heppenheimer][ref_heppenheimer_2007] gives the Air Force figure as 1,100 nautical miles, the distance the Earth's rotation carries the Vandenberg launch site eastward during one 90 minute orbit, against the 250 to 400 nautical miles the National Aeronautics and Space Administration said it needed. At the site's latitude of about 34.7 degrees, with a sidereal day of 86,164 seconds,
 
-$$\Delta x = \frac{2 \pi R_e \cos \phi}{86{,}164} \, t = \frac{2 \pi (3{,}440)(\cos 34.7^{\circ})}{86{,}164} (5{,}400) = 1{,}114 \ \text{nautical miles}$$
+$$
+\Delta x = \frac{2 \pi R_e \cos \phi}{86{,}164} \, t = \frac{2 \pi (3{,}440)(\cos 34.7^{\circ})}{86{,}164} (5{,}400) = 1{,}114 \ \text{nautical miles}
+\tag{66}
+$$
 
 so the requirement is the rotation of the Earth under one orbit, and the X-20's 2,000 miles was nearly twice it.
 
@@ -836,6 +1034,591 @@ The vehicle never flew, so none of this was tested in flight, although its mater
 The contemporary literature adds a closing observation that is harder on the programme's critics than on its engineers. **Each of the three questions the X-20 asked at once was eventually answered in the affirmative, by different vehicles, decades apart.** The glide went to the Space Shuttle and then to hypersonic glide weapons. The hot structure was rejected in 1971 and is an active research field again. Reuse went to the Shuttle and turned out to cost far more than had been projected.
 
 **The X-37B comes closest to holding all three together**, and it flies the X-20's specification unmanned, forty years late. The cancellation for want of a mission was a fair judgement. It did not anticipate is that the answers would outlive the question.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 66 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 66, 49 are established and 17 are bespoke.
+The article works in feet, pounds, seconds, British thermal units and degrees Fahrenheit, with nautical miles for range and crossrange, and $\alpha$ is the angle of attack in the aerodynamic relations but the coefficient of thermal expansion in the structural ones, while $\gamma$ is the flight path angle and $H$ the scale height, distinct from the effective heat of ablation $H_{\text{eff}}$.
+
+**Equation 1, Share of the Budget Spent at Cancellation.**
+The 410 million dollars spent and the 373 million still scheduled sum to the programme total, of which 52.4 percent had been spent.
+[Heppenheimer][ref_heppenheimer_2007]
+
+$$
+410 + 373 = 783 \ \text{million dollars}, \qquad \frac{410}{783} = 52.4\%
+\tag{1}
+$$
+
+**Equation 2, Aspect Ratio From Published Dimensions.**
+The aspect ratio is the square of the published span over the published area.
+[Boeing X-20 Dyna-Soar][ref_x20]
+
+$$
+\text{AR} = \frac{b^{2}}{S} = \frac{20.8^{2}}{345} = 1.254
+\tag{2}
+$$
+
+**Equation 3, Wing Loading at Maximum Weight.**
+The published maximum weight over the published area gives a wing loading of 33.0 pounds per square foot.
+[Boeing X-20 Dyna-Soar][ref_x20]
+
+$$
+\frac{W}{S} = \frac{11{,}387}{345} = 33.0 \ \text{lb/ft}^{2}
+\tag{3}
+$$
+
+**Equation 4, Wing Loading at the Programme Re-Entry Weight.**
+The programme office's re-entry weight of 12,000 pounds over the same area gives 34.8 pounds per square foot.
+[Hargis][research_hargis_1964]
+
+$$
+\frac{W}{S} = \frac{12{,}000}{345} = 34.8 \ \text{lb/ft}^{2}
+\tag{4}
+$$
+
+**Equation 5, Sensitivity of Heating and Temperature to the Heavier Weight.**
+Peak heating varies as the square root of wing loading and equilibrium temperature as its eighth root, so the heavier documented weight raises them by 2.7 and 0.7 percent.
+
+$$
+\sqrt{\frac{34.8}{33.0}} = 1.027, \qquad \left( \frac{34.8}{33.0} \right)^{1/8} = 1.007
+\tag{5}
+$$
+
+**Equation 6, Circular Orbital Speed at the Surface.**
+Circular orbital speed at the surface is the square root of gravity times the Earth's radius.
+
+$$
+V_c = \sqrt{g R_e} = \sqrt{(32.174)(20{,}902{,}231)} = 25{,}933 \ \text{ft/s}
+\tag{6}
+$$
+
+**Equation 7, Specific Kinetic Energy at Circular Speed.**
+The kinetic energy per unit weight at circular speed is the square of that speed over twice gravity.
+
+$$
+\frac{V_c^{2}}{2g} = 1.045 \times 10^{7} \ \text{ft lb per lb}
+\tag{7}
+$$
+
+**Equation 8, Total Energy to Dispose of on Re-Entry.**
+Multiplying the specific kinetic energy by the maximum weight and converting at 778.169 foot-pounds per British thermal unit gives the energy the thermal protection must reject.
+
+$$
+Q_{\text{total}} = \frac{W}{778.169} \frac{V_c^{2}}{2g} = \frac{11{,}387 \times 1.045 \times 10^{7}}{778.169} = 1.529 \times 10^{8} \ \text{BTU}
+\tag{8}
+$$
+
+**Equation 9, Lift Required With Centrifugal Relief.**
+At orbital speeds the lift needed is the weight reduced by the ratio of the square of speed to the square of circular speed.
+
+$$
+L = W \left( 1 - \frac{V^{2}}{V_c^{2}} \right)
+\tag{9}
+$$
+
+**Equation 10, Equilibrium Glide Lift Balance.**
+The equilibrium glide sets the aerodynamic lift equal to the centrifugally relieved weight.
+
+$$
+\tfrac{1}{2} \rho V^{2} S C_L = W \left( 1 - \frac{V^{2}}{V_c^{2}} \right)
+\tag{10}
+$$
+
+**Equation 11, Density Required on the Equilibrium Glide.**
+Solving the glide balance for density shows that wing loading and lift coefficient set the altitude at each speed and lift to drag ratio does not.
+
+$$
+\rho = \frac{2 W \left( 1 - V^{2}/V_c^{2} \right)}{V^{2} S C_L}
+\tag{11}
+$$
+
+**Equation 12, Deceleration on the Equilibrium Glide.**
+The deceleration is drag over mass, which on the glide equals the relieved weight over the lift to drag ratio.
+
+$$
+\frac{dV}{dt} = -\frac{D}{m} = -\frac{g \left( 1 - V^{2}/V_c^{2} \right)}{L/D}
+\tag{12}
+$$
+
+**Equation 13, Maximum Deceleration on the Equilibrium Glide.**
+The deceleration peaks at gravity over the lift to drag ratio, evaluated at the ratio of 1.350 that the crossrange requirement implies.
+
+$$
+\left. \frac{dV}{dt} \right|_{\max} = \frac{g}{L/D} = \frac{32.174}{1.350} = 23.8 \ \text{ft/s}^{2} = 0.741 \, g
+\tag{13}
+$$
+
+**Equation 14, Exponential Atmosphere and Its Inversion.**
+Above about 100,000 feet the density follows an exponential with a scale height near 23,800 feet, which inverts to give altitude.
+
+$$
+\rho = \rho_0 e^{-z/H} \quad \Longrightarrow \quad z = H \ln \frac{\rho_0}{\rho}
+\tag{14}
+$$
+
+**Equation 15, Range Differential on the Equilibrium Glide.**
+Dividing the range rate by the deceleration eliminates time and gives range as an integral over speed.
+
+$$
+dR = V \, dt = \frac{V \, dV}{dV/dt} = -\frac{(L/D) \, V \, dV}{g \left( 1 - V^{2}/V_c^{2} \right)}
+\tag{15}
+$$
+
+**Equation 16, Equilibrium Glide Range.**
+Integrating the range differential gives the classical closed form for downrange from a starting speed.
+
+$$
+R = \frac{L}{D} \frac{V_c^{2}}{2g} \ln \left[ \frac{1}{1 - (V/V_c)^{2}} \right]
+\tag{16}
+$$
+
+**Equation 17, Classical Maximum Crossrange Approximation.**
+The classical approximation makes the maximum crossrange reachable by banking quadratic in lift to drag ratio.
+
+$$
+\text{CR}_{\max} \approx 0.319 \, R_e \left( \frac{L}{D} \right)^{2}
+\tag{17}
+$$
+
+**Equation 18, Lift to Drag Ratio Required by the Crossrange Requirement.**
+Inverting the classical approximation for the documented requirement of 2,000 nautical miles gives a required lift to drag ratio of 1.350.
+[Rotelli 1960][research_rotelli_1960]
+[Hargis][research_hargis_1964]
+
+$$
+\frac{L}{D} = \sqrt{\frac{\text{CR}}{0.319 R_e}} = \sqrt{\frac{2{,}000}{1{,}097.4}} = 1.350
+\tag{18}
+$$
+
+**Equation 19, Newtonian Normal Force Coefficient.**
+Newtonian impact theory gives the normal force coefficient of a flat surface as twice the square of the sine of the angle of attack.
+
+$$
+C_N = 2 \sin^{2}\alpha
+\tag{19}
+$$
+
+**Equation 20, Newtonian Lift and Drag Coefficients.**
+Resolving the Newtonian normal force along and across the flight path gives the lift and drag coefficients of a flat plate.
+
+$$
+C_L = 2 \sin^{2}\alpha \cos\alpha, \qquad C_D = 2 \sin^{3}\alpha
+\tag{20}
+$$
+
+*Equation 21, Bespoke Angle of Attack for the Assumed Lift Coefficient.*
+Inverting the Newtonian lift coefficient at a trimmed value of 0.6 that the article assumes gives an angle of attack of 38.14 degrees.
+
+$$
+\alpha = 38.14^{\circ}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Newtonian Lift to Drag Ratio at the Assumed Attitude.*
+The Newtonian lift to drag ratio is the cotangent of the angle of attack, evaluated at the attitude that the assumed lift coefficient implies.
+
+$$
+\frac{L}{D} = \frac{\cos\alpha}{\sin\alpha} = \cot\alpha = 1.273
+\tag{22}
+$$
+
+**Equation 23, Range of Trimmed Lift to Drag Ratio.**
+The largest to smallest trimmed lift to drag ratio of the computed Mach 20 polar is the range-control capability that Lesko cites.
+[Lesko 1960][research_lesko_1960]
+
+$$
+\frac{2.18}{0.8} = 2.7
+\tag{23}
+$$
+
+**Equation 24, Classical Crossrange at the Design Maximum Ratio.**
+The quadratic crossrange relation at the computed maximum lift to drag ratio of 2.18 predicts 5,215 nautical miles, more than the programme trajectories give.
+
+$$
+\text{CR} = 1{,}097.4 \times 2.18^{2} = 5{,}215 \ \text{nautical miles}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Crossrange Exponent Fitted to the Phase Alpha Figures.*
+The article fits a power law between the first and last rows of Braun's crossrange figures and finds an exponent of 1.67.
+
+$$
+n = \frac{\ln (3{,}500 / 1{,}100)}{\ln (3.0 / 1.5)} = 1.67
+\tag{25}
+$$
+
+**Equation 26, Sutton and Graves Stagnation-Point Heating.**
+Stagnation-point convective heat flux scales as the square root of density over nose radius times the cube of velocity.
+
+$$
+\dot{q} = K \sqrt{\frac{\rho}{R_n}} V^{3}
+\tag{26}
+$$
+
+**Equation 27, Peak Heating on the Equilibrium Glide.**
+Substituting the glide density into the stagnation relation leaves heating dependent on wing loading, lift coefficient and speed but not on lift to drag ratio.
+
+$$
+\dot{q} \propto \sqrt{\frac{W}{S C_L}} \, V^{2} \sqrt{1 - \frac{V^{2}}{V_c^{2}}}
+\tag{27}
+$$
+
+**Equation 28, Glide Heating in the Normalised Speed Variable.**
+With $u$ the square of speed over circular speed the glide heating becomes a function of $u$ alone.
+
+$$
+\dot{q} \propto u \sqrt{1 - u} \cdot V_c^{2} \quad \text{so} \quad \dot{q}^{2} \propto u^{2} (1 - u)
+\tag{28}
+$$
+
+**Equation 29, Stationarity of the Glide Heating.**
+Maximising $u^{2}(1-u)$ places the heating peak at $u = 2/3$.
+
+$$
+\frac{d}{du} \left[ u^{2} (1 - u) \right] = 2u - 3u^{2} = 0 \quad \Longrightarrow \quad u = \frac{2}{3}
+\tag{29}
+$$
+
+**Equation 30, Speed at Peak Glide Heating.**
+Peak heating on an equilibrium glide arrives at the square root of two thirds of circular speed for any vehicle.
+
+$$
+V_{\text{peak}} = V_c \sqrt{\tfrac{2}{3}} = 21{,}174 \ \text{ft/s}
+\tag{30}
+$$
+
+**Equation 31, Total Heat Load on the Glide.**
+The total heat load, integrated over speed through the deceleration, is proportional to the lift to drag ratio.
+
+$$
+Q = \int \dot{q} \, dt = \int \frac{\dot{q}}{|dV/dt|} \, dV \propto \frac{L}{D}
+\tag{31}
+$$
+
+**Equation 32, Scaling of Peak Rate, Total Load and Crossrange.**
+Peak rate is independent of lift to drag ratio, total load scales with its first power and crossrange with its square.
+
+$$
+\frac{\dot{q}_2}{\dot{q}_1} = \left( \frac{L/D_2}{L/D_1} \right)^{0} = 1, \qquad \frac{Q_2}{Q_1} = \frac{L/D_2}{L/D_1}, \qquad \frac{\text{CR}_2}{\text{CR}_1} = \left( \frac{L/D_2}{L/D_1} \right)^{2}
+\tag{32}
+$$
+
+**Equation 33, Allen and Eggers Ballistic Entry Velocity.**
+For ballistic entry into an exponential atmosphere at constant flight path angle, velocity decays as a double exponential of altitude set by the ballistic coefficient.
+
+$$
+V(z) = V_e \exp \left[ -\frac{\rho_0 H}{2 \beta \sin\gamma} e^{-z/H} \right]
+\tag{33}
+$$
+
+**Equation 34, Ballistic Coefficient.**
+The ballistic coefficient is weight over drag coefficient times reference area.
+
+$$
+\beta = \frac{W}{C_D A}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Peak Heating Ratio of Ballistic to Glide Entry.*
+The ratio compares a ballistic entry at an assumed 50 pounds per square foot and five degree path angle with the glider at its assumed nose radius and lift coefficient.
+
+$$
+\frac{\dot{q}_{\text{ballistic}}}{\dot{q}_{\text{glide}}} = \frac{1{,}247}{47.8} = 26.1
+\tag{35}
+$$
+
+*Equation 36, Bespoke Total Heat Load Ratio of Ballistic to Glide Entry.*
+The integrated loads of the two assumed entries are compared and lie within about an eighth of each other.
+
+$$
+\frac{Q_{\text{ballistic}}}{Q_{\text{glide}}} = \frac{69{,}898}{79{,}389} = 0.880
+\tag{36}
+$$
+
+**Equation 37, Radiative Equilibrium of a Surface.**
+A surface that can neither conduct nor store heat rejects it at emissivity times the Stefan-Boltzmann constant times the fourth power of temperature.
+
+$$
+\dot{q} = \varepsilon \sigma T^{4}
+\tag{37}
+$$
+
+**Equation 38, Radiation Equilibrium Temperature.**
+Inverting the radiative balance gives the surface temperature for a given incident flux.
+
+$$
+T = \left( \frac{\dot{q}}{\varepsilon \sigma} \right)^{1/4}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Stagnation Temperature at the Peak Glide Rate.*
+The equilibrium temperature uses the peak rate of 47.8 that rests on an assumed one foot nose radius and lift coefficient of 0.6, at an assumed emissivity of 0.85.
+
+$$
+T = 2{,}837 \ ^\circ\text{F} = 1{,}831 \ \text{K}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Lower Surface Equilibrium Temperature.*
+The article takes the flat lower surface to see 12 percent of the stagnation flux and finds its equilibrium temperature.
+
+$$
+T_{\text{surface}} = \left( \frac{0.12 \, \dot{q}_{\text{peak}}}{\varepsilon \sigma} \right)^{1/4} = 1{,}480 \ ^\circ\text{F}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Stagnation Flux Rescaled to the Documented Design Case.*
+The article rescales its own peak to the documented 7.5 inch nose radius, Lesko's lift coefficient of 0.15 and a 45 degree bank, which multiplies the required density by $1/\cos 45^{\circ}$.
+[Hargis][research_hargis_1964]
+
+$$
+\dot{q} = 47.78 \sqrt{\frac{12}{7.5}} \sqrt{\frac{0.6}{0.15}} \frac{1}{\sqrt{\cos 45^{\circ}}} = 47.78 \times 1.265 \times 2.000 \times 1.189 = 143.7
+\tag{41}
+$$
+
+*Equation 42, Bespoke Stagnation Flux Rescaled to the Nominal Glide.*
+The same rescaling chain at the nominal lift coefficient of 0.45 and no bank gives 69.8.
+
+$$
+47.78 \sqrt{\frac{12}{7.5}} \sqrt{\frac{0.6}{0.45}} = 69.8
+\tag{42}
+$$
+
+**Equation 43, Equilibrium Temperature of the Phase I Nose.**
+The inverted radiative balance with the Phase I peak of 178, an emissivity of 0.9 and the source's own constants reproduces its 4,060 degrees.
+[Kaminsky and Klopfenstein 1960][research_kaminsky_klopfenstein_1960]
+
+$$
+T = \left( \frac{178}{0.9 \times 0.4759 \times 10^{-12}} \right)^{1/4} - 460 = 4{,}055 \ ^\circ\text{F}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Equilibrium Temperatures at Measured Emissivities.*
+The measured emissivities of 0.7 and 0.37 are applied to the article's modelled peak rate of 47.8.
+[Kaminsky and Klopfenstein 1960][research_kaminsky_klopfenstein_1960]
+
+$$
+T_{0.7} = 3{,}001 \ ^\circ\text{F}, \qquad T_{0.37} = 3{,}599 \ ^\circ\text{F}
+\tag{44}
+$$
+
+**Equation 45, Scaling of Peak Heating With Wing Loading.**
+Peak glide heating scales as the square root of wing loading.
+
+$$
+\dot{q}_{\text{peak}} \propto \sqrt{\frac{W}{S}}
+\tag{45}
+$$
+
+**Equation 46, Scaling of Equilibrium Temperature With Wing Loading.**
+Because temperature goes as the fourth root of flux, it scales as the eighth root of wing loading.
+
+$$
+T \propto \dot{q}^{1/4} \propto \left( \frac{W}{S} \right)^{1/8}
+\tag{46}
+$$
+
+**Equation 47, Linear Thermal Expansion.**
+A length grows by the expansion coefficient times the length times the temperature rise.
+
+$$
+\Delta L = \alpha L \, \Delta T
+\tag{47}
+$$
+
+*Equation 48, Bespoke Thermal Growth of the Airframe.*
+The growth over the vehicle length uses an expansion coefficient for René 41 that the article takes and an assumed rise of 1,500 degrees.
+
+$$
+\Delta L = (8.0 \times 10^{-6})(35.34)(1500) = 0.424 \ \text{ft} = 5.09 \ \text{in}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Expansion Mismatch Over One Heat Shield Panel.*
+The mismatch over a 45 inch panel uses expansion coefficients that the article takes for René 41 and molybdenum and the assumed 1,500 degree rise.
+
+$$
+\Delta L_{\text{mismatch}} = (\alpha_{\text{R41}} - \alpha_{\text{Mo}}) L \, \Delta T = (5.0 \times 10^{-6})(45)(1500) = 0.338 \ \text{in}
+\tag{49}
+$$
+
+**Equation 50, Ablator Mass From Heat Load.**
+The ablator mass is the total heat load divided by the effective heat of ablation.
+
+$$
+m_{\text{ablator}} = \frac{Q_{\text{vehicle}}}{H_{\text{eff}}}
+\tag{50}
+$$
+
+**Equation 51, Ablator Mass Fraction.**
+Dividing the ablator mass by the vehicle weight gives the mass fraction.
+
+$$
+\frac{m_{\text{ablator}}}{W} = \frac{Q_{\text{vehicle}}}{H_{\text{eff}} W}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Ablator Mass Fraction Over the Plausible Range.*
+The fraction is evaluated at a vehicle heat load of $9.04 \times 10^{6}$ British thermal units that the article takes and at assumed effective heats of 15,000 and 3,000.
+
+$$
+\frac{9.04 \times 10^{6}}{(15{,}000)(11{,}387)} = 5.3\%, \qquad \frac{9.04 \times 10^{6}}{(3{,}000)(11{,}387)} = 26.5\%
+\tag{52}
+$$
+
+*Equation 53, Bespoke Heat Sink Mass.*
+The heat sink mass uses the assumed vehicle heat load with a specific heat of 0.22 and a temperature rise of 1,000 degrees that the article assumes.
+
+$$
+m_{\text{sink}} = \frac{Q_{\text{vehicle}}}{c_p \Delta T} = \frac{9.04 \times 10^{6}}{(0.22)(1{,}000)} = 4.11 \times 10^{4} \ \text{lb}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Heat Absorbed by the Hot Structure.*
+The programme's 2 to 5 percent absorbed fraction is applied to the vehicle heat load that the article takes.
+[Hargis][research_hargis_1964]
+
+$$
+0.02 \times 9.04 \times 10^{6} = 1.81 \times 10^{5}, \qquad 0.05 \times 9.04 \times 10^{6} = 4.52 \times 10^{5} \ \text{BTU}
+\tag{54}
+$$
+
+**Equation 55, Energy Height.**
+Energy height is the altitude plus the kinetic energy per unit weight.
+
+$$
+h_e = h + \frac{V^{2}}{2g}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Energy Height at Entry.*
+The energy height is evaluated near 240,000 feet and 21,174 feet per second, the altitude and peak-heating speed of the article's glide model.
+
+$$
+h_e = 240{,}000 + \frac{21{,}174^{2}}{2(32.174)} = 7.20 \times 10^{6} \ \text{ft}
+\tag{56}
+$$
+
+**Equation 57, Sink Rate on the Planned Approach.**
+The documented approach at 280 knots on a 22.5 degree path gives a sink rate of about 181 feet per second.
+[Lesko 1960][research_lesko_1960]
+
+$$
+w = V \sin\gamma = (280 \times 1.688)(\sin 22.5^{\circ}) = 180.9 \ \text{ft/s}
+\tag{57}
+$$
+
+**Equation 58, Effective Lift to Drag Ratio of a Steep Glide.**
+A steady unpowered glide at 22.5 degrees has an effective lift to drag ratio of the cotangent of that angle.
+
+$$
+\frac{L}{D} = \frac{1}{\tan 22.5^{\circ}} = 2.41
+\tag{58}
+$$
+
+**Equation 59, Lift Coefficient at Touchdown.**
+The touchdown lift coefficient follows from the lift relation at the landing weight and speed.
+
+$$
+C_L = \frac{2W}{\rho S V^{2}}
+\tag{59}
+$$
+
+**Equation 60, Kinetic Energy at Touchdown.**
+The documented landing weight of 11,700 pounds at the maximum landing speed of 220 knots carries $2.51 \times 10^{7}$ foot-pounds.
+[Hargis][research_hargis_1964]
+
+$$
+E = \tfrac{1}{2} \frac{W}{g} V_{\text{touch}}^{2} = \tfrac{1}{2} \frac{11{,}700}{32.174} (371.3)^{2} = 2.51 \times 10^{7} \ \text{ft lb} = 32{,}216 \ \text{BTU}
+\tag{60}
+$$
+
+**Equation 61, Mean Skid Friction Coefficient.**
+Stopping from the landing speed in the specified 5,000 feet requires a mean friction coefficient of 0.43.
+[Hargis][research_hargis_1964]
+
+$$
+\mu = \frac{V^{2}}{2 g d} = \frac{371.3^{2}}{2 (32.174)(5{,}000)} = 0.43
+\tag{61}
+$$
+
+**Equation 62, Vertical Energy at the Design Sink Rate.**
+The vertical kinetic energy at the documented design sink rate of 8 feet per second is under a two-thousandth of the horizontal energy.
+[Hargis][research_hargis_1964]
+
+$$
+\tfrac{1}{2} \frac{W}{g} w^{2} = \tfrac{1}{2} \frac{11{,}700}{32.174} (8)^{2} = 11{,}637 \ \text{ft lb}
+\tag{62}
+$$
+
+**Equation 63, Spending Rate and Cost per Pound.**
+The 410 million dollars spent over 6.13 years gives the annual rate and, over the maximum weight, the cost per pound.
+[Heppenheimer][ref_heppenheimer_2007]
+
+$$
+\frac{410 \times 10^{6}}{6.13} = 66.9 \ \text{million dollars per year}, \qquad \frac{410 \times 10^{6}}{11{,}387} = \$36{,}006 \ \text{per pound}
+\tag{63}
+$$
+
+**Equation 64, Interval From Cancellation to the First Piloted Launch.**
+The scheduled first piloted ground launch lay 29 months after cancellation.
+[Hargis][research_hargis_1964]
+
+$$
+\text{May 1966} - \text{December 1963} = 29 \ \text{months}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Crossrange Exponent Implied by Planned Gains.*
+The article infers a power-law exponent from the documented pairing of a 25 percent gain in lift to drag ratio with a 50 percent gain in lateral range.
+[Hargis][research_hargis_1964]
+
+$$
+n = \frac{\ln 1.50}{\ln 1.25} = 1.82
+\tag{65}
+$$
+
+**Equation 66, Eastward Displacement of the Launch Site in One Orbit.**
+The Earth's rotation carries a site at latitude 34.7 degrees eastward by its circumference at that latitude times the fraction of a sidereal day that one 90 minute orbit spans.
+[Heppenheimer][ref_heppenheimer_2007]
+
+$$
+\Delta x = \frac{2 \pi R_e \cos \phi}{86{,}164} \, t = \frac{2 \pi (3{,}440)(\cos 34.7^{\circ})}{86{,}164} (5{,}400) = 1{,}114 \ \text{nautical miles}
+\tag{66}
+$$
+
+### Notation
+
+- $\text{AR}$, the wing aspect ratio
+- $W$, the aircraft weight
+- $S$, the wing reference area
+- $V_c$, the circular orbital speed at the surface
+- $R_e$, the radius of the Earth
+- $L/D$, the lift to drag ratio
+- $C_L$, the lift coefficient
+- $H$, the atmospheric scale height
+- $\text{CR}$, the crossrange, with $\text{CR}_{\max}$ its classical maximum
+- $C_N$, the Newtonian normal force coefficient
+- $\dot{q}$, the stagnation-point heat flux
+- $K$, the Sutton and Graves constant
+- $R_n$, the effective nose radius
+- $u$, the square of speed over circular speed
+- $Q$, the total heat load, with $Q_{\text{vehicle}}$ the load on the whole vehicle
+- $\beta$, the ballistic coefficient
+- $\sin\gamma$, the sine of the flight path angle $\gamma$
+- $\varepsilon$, the surface emissivity
+- $\sigma$, the Stefan-Boltzmann constant
+- $H_{\text{eff}}$, the effective heat of ablation
+- $c_p$, the specific heat of the heat sink material
+- $h_e$, the energy height
+- $\mu$, the mean skid friction coefficient
+- $\cos \phi$, the cosine of the launch site latitude $\phi$
 
 ## References
 

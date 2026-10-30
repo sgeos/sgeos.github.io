@@ -1,0 +1,627 @@
+# Equation classification for A317. Read by `python3 _lib/equations.py`.
+
+caution = "The article works in feet, pounds, seconds, British thermal units and degrees Fahrenheit, with nautical miles for range and crossrange, and $\\alpha$ is the angle of attack in the aerodynamic relations but the coefficient of thermal expansion in the structural ones, while $\\gamma$ is the flight path angle and $H$ the scale height, distinct from the effective heat of ablation $H_{\\text{eff}}$."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Share of the Budget Spent at Cancellation"
+gloss = "The 410 million dollars spent and the 373 million still scheduled sum to the programme total, of which 52.4 percent had been spent."
+cite = ["ref_heppenheimer_2007"]
+digest = "b4caafc5217279fb"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Aspect Ratio From Published Dimensions"
+gloss = "The aspect ratio is the square of the published span over the published area."
+cite = ["ref_x20"]
+digest = "fcefbe007294b9da"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Wing Loading at Maximum Weight"
+gloss = "The published maximum weight over the published area gives a wing loading of 33.0 pounds per square foot."
+cite = ["ref_x20"]
+digest = "37f38984db94b1cc"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Wing Loading at the Programme Re-Entry Weight"
+gloss = "The programme office's re-entry weight of 12,000 pounds over the same area gives 34.8 pounds per square foot."
+cite = ["research_hargis_1964"]
+digest = "86970a49b20dd429"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Sensitivity of Heating and Temperature to the Heavier Weight"
+gloss = "Peak heating varies as the square root of wing loading and equilibrium temperature as its eighth root, so the heavier documented weight raises them by 2.7 and 0.7 percent."
+cite = []
+digest = "ca250c70ce6ab381"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Circular Orbital Speed at the Surface"
+gloss = "Circular orbital speed at the surface is the square root of gravity times the Earth's radius."
+cite = []
+digest = "03e8a243436065d0"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Specific Kinetic Energy at Circular Speed"
+gloss = "The kinetic energy per unit weight at circular speed is the square of that speed over twice gravity."
+cite = []
+digest = "27576baacfba6c33"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Total Energy to Dispose of on Re-Entry"
+gloss = "Multiplying the specific kinetic energy by the maximum weight and converting at 778.169 foot-pounds per British thermal unit gives the energy the thermal protection must reject."
+cite = []
+digest = "f2504d4a123d689c"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Lift Required With Centrifugal Relief"
+gloss = "At orbital speeds the lift needed is the weight reduced by the ratio of the square of speed to the square of circular speed."
+cite = []
+digest = "c553796f632c3ae3"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Equilibrium Glide Lift Balance"
+gloss = "The equilibrium glide sets the aerodynamic lift equal to the centrifugally relieved weight."
+cite = []
+digest = "60c1128de968d960"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Density Required on the Equilibrium Glide"
+gloss = "Solving the glide balance for density shows that wing loading and lift coefficient set the altitude at each speed and lift to drag ratio does not."
+cite = []
+digest = "d8a957d28d6c4a6d"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Deceleration on the Equilibrium Glide"
+gloss = "The deceleration is drag over mass, which on the glide equals the relieved weight over the lift to drag ratio."
+cite = []
+digest = "59515e8b7e34bebd"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Maximum Deceleration on the Equilibrium Glide"
+gloss = "The deceleration peaks at gravity over the lift to drag ratio, evaluated at the ratio of 1.350 that the crossrange requirement implies."
+cite = []
+digest = "62d45d2277205576"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Exponential Atmosphere and Its Inversion"
+gloss = "Above about 100,000 feet the density follows an exponential with a scale height near 23,800 feet, which inverts to give altitude."
+cite = []
+digest = "aff893948590e48d"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Range Differential on the Equilibrium Glide"
+gloss = "Dividing the range rate by the deceleration eliminates time and gives range as an integral over speed."
+cite = []
+digest = "353dfc64409ccd2c"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Equilibrium Glide Range"
+gloss = "Integrating the range differential gives the classical closed form for downrange from a starting speed."
+cite = []
+digest = "94d98e9fbe13d9d9"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Classical Maximum Crossrange Approximation"
+gloss = "The classical approximation makes the maximum crossrange reachable by banking quadratic in lift to drag ratio."
+cite = []
+digest = "49e7c4cbbccdde3b"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Lift to Drag Ratio Required by the Crossrange Requirement"
+gloss = "Inverting the classical approximation for the documented requirement of 2,000 nautical miles gives a required lift to drag ratio of 1.350."
+cite = ["research_rotelli_1960", "research_hargis_1964"]
+digest = "23eba6f02e118477"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Newtonian Normal Force Coefficient"
+gloss = "Newtonian impact theory gives the normal force coefficient of a flat surface as twice the square of the sine of the angle of attack."
+cite = []
+digest = "a5d628a3bda69cbf"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Newtonian Lift and Drag Coefficients"
+gloss = "Resolving the Newtonian normal force along and across the flight path gives the lift and drag coefficients of a flat plate."
+cite = []
+digest = "91e3d95174ddeacc"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Angle of Attack for the Assumed Lift Coefficient"
+gloss = "Inverting the Newtonian lift coefficient at a trimmed value of 0.6 that the article assumes gives an angle of attack of 38.14 degrees."
+cite = []
+digest = "e9b717c4e63a0fbb"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Newtonian Lift to Drag Ratio at the Assumed Attitude"
+gloss = "The Newtonian lift to drag ratio is the cotangent of the angle of attack, evaluated at the attitude that the assumed lift coefficient implies."
+cite = []
+digest = "9763f9335977ec65"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Range of Trimmed Lift to Drag Ratio"
+gloss = "The largest to smallest trimmed lift to drag ratio of the computed Mach 20 polar is the range-control capability that Lesko cites."
+cite = ["research_lesko_1960"]
+digest = "7edfcc8ae3a2c5cb"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Classical Crossrange at the Design Maximum Ratio"
+gloss = "The quadratic crossrange relation at the computed maximum lift to drag ratio of 2.18 predicts 5,215 nautical miles, more than the programme trajectories give."
+cite = []
+digest = "d9bff4d9424d52b7"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Crossrange Exponent Fitted to the Phase Alpha Figures"
+gloss = "The article fits a power law between the first and last rows of Braun's crossrange figures and finds an exponent of 1.67."
+cite = []
+digest = "2eb6a689d1e8e640"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Sutton and Graves Stagnation-Point Heating"
+gloss = "Stagnation-point convective heat flux scales as the square root of density over nose radius times the cube of velocity."
+cite = []
+digest = "50ef58c21477f687"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Peak Heating on the Equilibrium Glide"
+gloss = "Substituting the glide density into the stagnation relation leaves heating dependent on wing loading, lift coefficient and speed but not on lift to drag ratio."
+cite = []
+digest = "44ce2c50f69fed26"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Glide Heating in the Normalised Speed Variable"
+gloss = "With $u$ the square of speed over circular speed the glide heating becomes a function of $u$ alone."
+cite = []
+digest = "b7cdf0731891b1bf"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Stationarity of the Glide Heating"
+gloss = "Maximising $u^{2}(1-u)$ places the heating peak at $u = 2/3$."
+cite = []
+digest = "86c1c235520b7e2d"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Speed at Peak Glide Heating"
+gloss = "Peak heating on an equilibrium glide arrives at the square root of two thirds of circular speed for any vehicle."
+cite = []
+digest = "7d054394f03b95ce"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Total Heat Load on the Glide"
+gloss = "The total heat load, integrated over speed through the deceleration, is proportional to the lift to drag ratio."
+cite = []
+digest = "a38c8f8fa7091e43"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Scaling of Peak Rate, Total Load and Crossrange"
+gloss = "Peak rate is independent of lift to drag ratio, total load scales with its first power and crossrange with its square."
+cite = []
+digest = "031fab8a4ee47262"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Allen and Eggers Ballistic Entry Velocity"
+gloss = "For ballistic entry into an exponential atmosphere at constant flight path angle, velocity decays as a double exponential of altitude set by the ballistic coefficient."
+cite = []
+digest = "49bfd8ff906bba71"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Ballistic Coefficient"
+gloss = "The ballistic coefficient is weight over drag coefficient times reference area."
+cite = []
+digest = "7e4cfa91a48d498d"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Peak Heating Ratio of Ballistic to Glide Entry"
+gloss = "The ratio compares a ballistic entry at an assumed 50 pounds per square foot and five degree path angle with the glider at its assumed nose radius and lift coefficient."
+cite = []
+digest = "f6c169f5099bc864"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Total Heat Load Ratio of Ballistic to Glide Entry"
+gloss = "The integrated loads of the two assumed entries are compared and lie within about an eighth of each other."
+cite = []
+digest = "26d9084472338973"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Radiative Equilibrium of a Surface"
+gloss = "A surface that can neither conduct nor store heat rejects it at emissivity times the Stefan-Boltzmann constant times the fourth power of temperature."
+cite = []
+digest = "26a8419cf9171682"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Radiation Equilibrium Temperature"
+gloss = "Inverting the radiative balance gives the surface temperature for a given incident flux."
+cite = []
+digest = "ff7fb92521891141"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Stagnation Temperature at the Peak Glide Rate"
+gloss = "The equilibrium temperature uses the peak rate of 47.8 that rests on an assumed one foot nose radius and lift coefficient of 0.6, at an assumed emissivity of 0.85."
+cite = []
+digest = "72e0aad1629f7230"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Lower Surface Equilibrium Temperature"
+gloss = "The article takes the flat lower surface to see 12 percent of the stagnation flux and finds its equilibrium temperature."
+cite = []
+digest = "f15e3556b9461612"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Stagnation Flux Rescaled to the Documented Design Case"
+gloss = "The article rescales its own peak to the documented 7.5 inch nose radius, Lesko's lift coefficient of 0.15 and a 45 degree bank, which multiplies the required density by $1/\\cos 45^{\\circ}$."
+cite = ["research_hargis_1964"]
+digest = "411646991cf23b29"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Stagnation Flux Rescaled to the Nominal Glide"
+gloss = "The same rescaling chain at the nominal lift coefficient of 0.45 and no bank gives 69.8."
+cite = []
+digest = "1a5c4a441e6ae703"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Equilibrium Temperature of the Phase I Nose"
+gloss = "The inverted radiative balance with the Phase I peak of 178, an emissivity of 0.9 and the source's own constants reproduces its 4,060 degrees."
+cite = ["research_kaminsky_klopfenstein_1960"]
+digest = "f73588d79e6a23f9"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Equilibrium Temperatures at Measured Emissivities"
+gloss = "The measured emissivities of 0.7 and 0.37 are applied to the article's modelled peak rate of 47.8."
+cite = ["research_kaminsky_klopfenstein_1960"]
+digest = "762cdcbbb49fa2b0"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Scaling of Peak Heating With Wing Loading"
+gloss = "Peak glide heating scales as the square root of wing loading."
+cite = []
+digest = "ad7d3350359878d7"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Scaling of Equilibrium Temperature With Wing Loading"
+gloss = "Because temperature goes as the fourth root of flux, it scales as the eighth root of wing loading."
+cite = []
+digest = "9b723d605d9672fb"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Linear Thermal Expansion"
+gloss = "A length grows by the expansion coefficient times the length times the temperature rise."
+cite = []
+digest = "526571b03d51af54"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Thermal Growth of the Airframe"
+gloss = "The growth over the vehicle length uses an expansion coefficient for René 41 that the article takes and an assumed rise of 1,500 degrees."
+cite = []
+digest = "aeba5ca0c2427f8f"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Expansion Mismatch Over One Heat Shield Panel"
+gloss = "The mismatch over a 45 inch panel uses expansion coefficients that the article takes for René 41 and molybdenum and the assumed 1,500 degree rise."
+cite = []
+digest = "447ec1f6aa7de109"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Ablator Mass From Heat Load"
+gloss = "The ablator mass is the total heat load divided by the effective heat of ablation."
+cite = []
+digest = "cdb1aa24060cbf49"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Ablator Mass Fraction"
+gloss = "Dividing the ablator mass by the vehicle weight gives the mass fraction."
+cite = []
+digest = "252a9178e5c2ca16"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Ablator Mass Fraction Over the Plausible Range"
+gloss = "The fraction is evaluated at a vehicle heat load of $9.04 \\times 10^{6}$ British thermal units that the article takes and at assumed effective heats of 15,000 and 3,000."
+cite = []
+digest = "a6dbb7632a05eab8"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Heat Sink Mass"
+gloss = "The heat sink mass uses the assumed vehicle heat load with a specific heat of 0.22 and a temperature rise of 1,000 degrees that the article assumes."
+cite = []
+digest = "a2b4aa3ace46fc36"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Heat Absorbed by the Hot Structure"
+gloss = "The programme's 2 to 5 percent absorbed fraction is applied to the vehicle heat load that the article takes."
+cite = ["research_hargis_1964"]
+digest = "0256405ef29b77a0"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Energy Height"
+gloss = "Energy height is the altitude plus the kinetic energy per unit weight."
+cite = []
+digest = "dab83d8599e9c8fd"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Energy Height at Entry"
+gloss = "The energy height is evaluated near 240,000 feet and 21,174 feet per second, the altitude and peak-heating speed of the article's glide model."
+cite = []
+digest = "239285298fa50a9b"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Sink Rate on the Planned Approach"
+gloss = "The documented approach at 280 knots on a 22.5 degree path gives a sink rate of about 181 feet per second."
+cite = ["research_lesko_1960"]
+digest = "9530850a9021987a"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Effective Lift to Drag Ratio of a Steep Glide"
+gloss = "A steady unpowered glide at 22.5 degrees has an effective lift to drag ratio of the cotangent of that angle."
+cite = []
+digest = "ac65a74b9b3caa82"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Lift Coefficient at Touchdown"
+gloss = "The touchdown lift coefficient follows from the lift relation at the landing weight and speed."
+cite = []
+digest = "5068a7f0c81049f8"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Kinetic Energy at Touchdown"
+gloss = "The documented landing weight of 11,700 pounds at the maximum landing speed of 220 knots carries $2.51 \\times 10^{7}$ foot-pounds."
+cite = ["research_hargis_1964"]
+digest = "b07592e2cb2321bc"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Mean Skid Friction Coefficient"
+gloss = "Stopping from the landing speed in the specified 5,000 feet requires a mean friction coefficient of 0.43."
+cite = ["research_hargis_1964"]
+digest = "b6244453bad3061f"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Vertical Energy at the Design Sink Rate"
+gloss = "The vertical kinetic energy at the documented design sink rate of 8 feet per second is under a two-thousandth of the horizontal energy."
+cite = ["research_hargis_1964"]
+digest = "26b36c1d0faaf3aa"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Spending Rate and Cost per Pound"
+gloss = "The 410 million dollars spent over 6.13 years gives the annual rate and, over the maximum weight, the cost per pound."
+cite = ["ref_heppenheimer_2007"]
+digest = "465d6934dbf54848"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Interval From Cancellation to the First Piloted Launch"
+gloss = "The scheduled first piloted ground launch lay 29 months after cancellation."
+cite = ["research_hargis_1964"]
+digest = "eb5337d959768577"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Crossrange Exponent Implied by Planned Gains"
+gloss = "The article infers a power-law exponent from the documented pairing of a 25 percent gain in lift to drag ratio with a 50 percent gain in lateral range."
+cite = ["research_hargis_1964"]
+digest = "c6ae856b3d6f3f97"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Eastward Displacement of the Launch Site in One Orbit"
+gloss = "The Earth's rotation carries a site at latitude 34.7 degrees eastward by its circumference at that latitude times the fraction of a sidereal day that one 90 minute orbit spans."
+cite = ["ref_heppenheimer_2007"]
+digest = "c743d4a91950999b"
+
+[[symbol]]
+tex = '\text{AR}'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'V_c'
+meaning = "the circular orbital speed at the surface"
+
+[[symbol]]
+tex = 'R_e'
+meaning = "the radius of the Earth"
+
+[[symbol]]
+tex = 'L/D'
+meaning = "the lift to drag ratio"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'H'
+meaning = "the atmospheric scale height"
+
+[[symbol]]
+tex = '\text{CR}'
+meaning = "the crossrange, with $\\text{CR}_{\\max}$ its classical maximum"
+
+[[symbol]]
+tex = 'C_N'
+meaning = "the Newtonian normal force coefficient"
+
+[[symbol]]
+tex = '\dot{q}'
+meaning = "the stagnation-point heat flux"
+
+[[symbol]]
+tex = 'K'
+meaning = "the Sutton and Graves constant"
+
+[[symbol]]
+tex = 'R_n'
+meaning = "the effective nose radius"
+
+[[symbol]]
+tex = 'u'
+meaning = "the square of speed over circular speed"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the total heat load, with $Q_{\\text{vehicle}}$ the load on the whole vehicle"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the ballistic coefficient"
+
+[[symbol]]
+tex = '\sin\gamma'
+meaning = "the sine of the flight path angle $\\gamma$"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the surface emissivity"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 'H_{\text{eff}}'
+meaning = "the effective heat of ablation"
+
+[[symbol]]
+tex = 'c_p'
+meaning = "the specific heat of the heat sink material"
+
+[[symbol]]
+tex = 'h_e'
+meaning = "the energy height"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the mean skid friction coefficient"
+
+[[symbol]]
+tex = '\cos \phi'
+meaning = "the cosine of the launch site latitude $\\phi$"

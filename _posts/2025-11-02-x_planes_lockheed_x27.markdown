@@ -114,11 +114,17 @@ cause lies in the geometry. No failing of manufacture is needed to explain it.
 
 The [aspect ratio][ref_aspect_ratio] follows from the span and the area.
 
-$$ A = \frac{b^2}{S} = \frac{(21.94\ \mathrm{ft})^2}{196.1\ \mathrm{ft}^2} = 2.455 $$
+$$
+ A = \frac{b^2}{S} = \frac{(21.94\ \mathrm{ft})^2}{196.1\ \mathrm{ft}^2} = 2.455 
+\tag{1}
+$$
 
 **That is a very low number for a wing meant to turn.** The wing loading is the other half of the problem.
 
-$$ \frac{W}{S} = \frac{27{,}300\ \mathrm{lb}}{196.1\ \mathrm{ft}^2} = 139.2\ \mathrm{lb/ft}^2 $$
+$$
+ \frac{W}{S} = \frac{27{,}300\ \mathrm{lb}}{196.1\ \mathrm{ft}^2} = 139.2\ \mathrm{lb/ft}^2 
+\tag{2}
+$$
 
 Here $W$ is the F-104G's design gross weight of 27,300 pounds as the National Aeronautics and Space
 Administration's survey of aircraft performance tabulates it, and the survey gives the same 139.2 \[[Quest for Performance, NASA SP-468][ref_sp468]\].
@@ -232,13 +238,19 @@ The lengths, diameters, dry weights and airflows are the published ratings of th
 \[[General Electric J79][ref_j79]\] \[[Pratt and Whitney TF30][ref_tf30]\]. The last row gives the differences,
 and its airflow entry is a ratio less one.
 
-$$ \Delta L = 241.70 - 208.69 = 33.01\ \mathrm{in}, \qquad \Delta D = 48.90 - 39.06 = 9.84\ \mathrm{in}, \qquad \frac{\dot m_{\mathrm{TF30}}}{\dot m_{\mathrm{J79}}} - 1 = \frac{260}{170} - 1 = 0.529 $$
+$$
+ \Delta L = 241.70 - 208.69 = 33.01\ \mathrm{in}, \qquad \Delta D = 48.90 - 39.06 = 9.84\ \mathrm{in}, \qquad \frac{\dot m_{\mathrm{TF30}}}{\dot m_{\mathrm{J79}}} - 1 = \frac{260}{170} - 1 = 0.529 
+\tag{3}
+$$
 
 **The fuselage was stretched 30 inches**, which the record attributes to a 46 percent increase in internal
 fuel \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. **The engine that had to go inside it is 33.01 inches longer than the J79-GE-17.** The comparison table uses the J79-GE-17 because those are the J79 dimensions the article holds, while the F-104G column above names the J79-GE-11A, so the differences are measured against a sister variant of the engine the F-104G carried and not against that engine itself. The stretch
 falls short of the engine length difference by
 
-$$ \Delta L - \Delta L_{\mathrm{fus}} = 33.01 - 30 = 3.01\ \mathrm{in} $$
+$$
+ \Delta L - \Delta L_{\mathrm{fus}} = 33.01 - 30 = 3.01\ \mathrm{in} 
+\tag{4}
+$$
 
 where $\Delta L_{\mathrm{fus}}$ is the fuselage stretch, which is close enough that either consideration
 could have set it. The article declines to claim which one did, because the record states only the fuel
@@ -278,26 +290,44 @@ standard and are set out in [Shapiro][book_shapiro] and [Anderson][book_anderson
 every identity below that carries no other citation. Below 11 kilometres the temperature falls linearly with
 height at the standard lapse rate.
 
-$$ T(h) = T_0 - \lambda h, \qquad T_0 = 288.15\ \mathrm{K}, \qquad \lambda = 0.0065\ \mathrm{K/m} $$
+$$
+ T(h) = T_0 - \lambda h, \qquad T_0 = 288.15\ \mathrm{K}, \qquad \lambda = 0.0065\ \mathrm{K/m} 
+\tag{5}
+$$
 
 Above the tropopause it is constant, and the pressure falls exponentially.
 
-$$ p(h) = p_{11} \exp\left(-\frac{g_0 (h - h_{11})}{R T}\right) $$
+$$
+ p(h) = p_{11} \exp\left(-\frac{g_0 (h - h_{11})}{R T}\right) 
+\tag{6}
+$$
 
 The density follows from the equation of state.
 
-$$ \rho = \frac{p}{R T} = \frac{23{,}842.3}{287.05 \times 218.81} = 0.3796\ \mathrm{kg/m^3} $$
+$$
+ \rho = \frac{p}{R T} = \frac{23{,}842.3}{287.05 \times 218.81} = 0.3796\ \mathrm{kg/m^3} 
+\tag{7}
+$$
 
 At 35,000 feet, which is 10,668 metres and above the tropopause, this gives a temperature of 218.81 kelvin,
 a density of 0.3796 kilograms per cubic metre, and a speed of sound of
 
-$$ a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05\ \times 218.81} = 296.54\ \mathrm{m/s} = 663.3\ \mathrm{mph} $$
+$$
+ a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05\ \times 218.81} = 296.54\ \mathrm{m/s} = 663.3\ \mathrm{mph} 
+\tag{8}
+$$
 
 The article is written in Mach number, the ratio of airspeed to the speed of sound.
 
-$$ M = \frac{V}{a} $$
+$$
+ M = \frac{V}{a} 
+\tag{9}
+$$
 
-$$ M = \frac{1{,}700\ \mathrm{mph} \times 0.44704}{296.54\ \mathrm{m/s}} = \frac{760.0}{296.54} = 2.563 $$
+$$
+ M = \frac{1{,}700\ \mathrm{mph} \times 0.44704}{296.54\ \mathrm{m/s}} = \frac{760.0}{296.54} = 2.563 
+\tag{10}
+$$
 
 **The claimed maximum speed of 1,700 miles per hour at 35,000 feet is therefore Mach 2.563**,
 consistent with the Mach 2.57 quoted in the reference article's specification table and with the Mach 2.5
@@ -308,14 +338,23 @@ Two further quantities are used throughout and are defined here so that later se
 following [Anderson][book_anderson]. The dynamic pressure is what converts a coefficient into a force, and
 the specific heat at constant pressure follows from the gas constant and the ratio of specific heats.
 
-$$ q = \tfrac{1}{2}\rho V^2 $$
+$$
+ q = \tfrac{1}{2}\rho V^2 
+\tag{11}
+$$
 
-$$ c_p = \frac{\gamma R}{\gamma - 1} = \frac{1.4 \times 287.05}{0.4} = 1004.7\ \mathrm{J/(kg\,K)} $$
+$$
+ c_p = \frac{\gamma R}{\gamma - 1} = \frac{1.4 \times 287.05}{0.4} = 1004.7\ \mathrm{J/(kg\,K)} 
+\tag{12}
+$$
 
 At 15,000 feet and Mach 0.9, the condition every manoeuvre result below is evaluated at, the dynamic
 pressure is
 
-$$ q = \tfrac{1}{2} \times 0.7708 \times 290.0^2 = 32{,}415\ \mathrm{Pa} = 677.1\ \mathrm{lb/ft^2} $$
+$$
+ q = \tfrac{1}{2} \times 0.7708 \times 290.0^2 = 32{,}415\ \mathrm{Pa} = 677.1\ \mathrm{lb/ft^2} 
+\tag{13}
+$$
 
 The heating this flight condition produces is the subject of the cluster on aerodynamic heating, recovery
 temperature and thermal protection below, and the period's measurements of it in flight include these.
@@ -331,13 +370,19 @@ temperature and thermal protection below, and the period's measurements of it in
 Air brought to rest against a surface gives up its kinetic energy as heat. The
 [total temperature][ref_total_temperature] follows from energy conservation in a compressible flow.
 
-$$ \frac{T_t}{T} = 1 + \frac{\gamma - 1}{2} M^2 $$
+$$
+ \frac{T_t}{T} = 1 + \frac{\gamma - 1}{2} M^2 
+\tag{14}
+$$
 
 **A real surface does not recover all of it**, because the boundary layer conducts some heat away along the
 surface as it converts the rest. The [recovery factor][ref_recovery_factor] accounts for that, and for a
 turbulent boundary layer it is the cube root of the [Prandtl number][ref_prandtl].
 
-$$ T_r = T\left(1 + r\,\frac{\gamma - 1}{2} M^2\right), \qquad r = \Pr^{1/3} \approx 0.896 $$
+$$
+ T_r = T\left(1 + r\,\frac{\gamma - 1}{2} M^2\right), \qquad r = \Pr^{1/3} \approx 0.896 
+\tag{15}
+$$
 
 Evaluating at 35,000 feet gives the table on which the structural argument depends.
 
@@ -359,7 +404,10 @@ one-half hour at temperature \[[Metallic Materials and Elements for Aerospace Ve
 That figure, Figure 3.2.3.4.1(b), is plotted in degrees Fahrenheit, so each recovery temperature is
 converted before it is read.
 
-$$ T_{\mathrm{F}} = 1.8\,T_{\mathrm{C}} + 32, \qquad 1.8 \times 210.8 + 32 = 411.4\ ^{\circ}\mathrm{F} $$
+$$
+ T_{\mathrm{F}} = 1.8\,T_{\mathrm{C}} + 32, \qquad 1.8 \times 210.8 + 32 = 411.4\ ^{\circ}\mathrm{F} 
+\tag{16}
+$$
 
 The readings are given to the nearest percentage point, which is about the precision the printed curve
 allows. At Mach 1.0 the recovery temperature lies below the curve's range, and the room-temperature value
@@ -398,32 +446,53 @@ does not reach its steady-state temperature in a short excursion. The defence is
 Treat a panel of skin as a lumped thermal mass heated by convection from the boundary layer. The balance is
 first order and its time constant is
 
-$$ \tau = \frac{\rho_s c_s t}{h} $$
+$$
+ \tau = \frac{\rho_s c_s t}{h} 
+\tag{17}
+$$
 
 where $\rho_s$ is the density of the skin, $c_s$ its specific heat, $t$ its thickness, and $h$ the
 convective coefficient. The coefficient is not assumed. It comes from the turbulent flat-plate
 [Stanton number][ref_stanton] evaluated at the [Eckert reference temperature][ref_eckert], which accounts
 for the property variation across a high-speed boundary layer.
 
-$$ T^* = T_e\left(0.5\left(1 + \frac{T_w}{T_e}\right) + 0.16\,r\,\frac{\gamma-1}{2}M_e^2\right) $$
+$$
+ T^* = T_e\left(0.5\left(1 + \frac{T_w}{T_e}\right) + 0.16\,r\,\frac{\gamma-1}{2}M_e^2\right) 
+\tag{18}
+$$
 
-$$ \mathrm{St} = 0.0296\,\mathrm{Re}_x^{-1/5}\,\Pr^{-2/3}, \qquad h = \mathrm{St}\,\rho^* u_e c_p $$
+$$
+ \mathrm{St} = 0.0296\,\mathrm{Re}_x^{-1/5}\,\Pr^{-2/3}, \qquad h = \mathrm{St}\,\rho^* u_e c_p 
+\tag{19}
+$$
 
 The Reynolds number in that correlation is a defined quantity, and the viscosity inside it comes from
 Sutherland's law, both as given in [Anderson][book_anderson].
 
-$$ \mathrm{Re}_x = \frac{\rho^* u_e x}{\mu^*}, \qquad \mu(T) = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} $$
+$$
+ \mathrm{Re}_x = \frac{\rho^* u_e x}{\mu^*}, \qquad \mu(T) = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} 
+\tag{20}
+$$
 
-$$ \mathrm{Re}_x = \frac{0.2109 \times 771.0 \times 5.0}{2.2598 \times 10^{-5}} = 3.598 \times 10^{7} $$
+$$
+ \mathrm{Re}_x = \frac{0.2109 \times 771.0 \times 5.0}{2.2598 \times 10^{-5}} = 3.598 \times 10^{7} 
+\tag{21}
+$$
 
 For a two-millimetre aluminium skin five metres back from the nose at Mach 2.6 and 35,000 feet, the Reynolds
 number is $3.60 \times 10^7$, the coefficient is 185.5 watts per square metre kelvin, and
 
-$$ \tau = \frac{2780 \times 875 \times 0.002}{185.5} = 26.2\ \mathrm{s} $$
+$$
+ \tau = \frac{2780 \times 875 \times 0.002}{185.5} = 26.2\ \mathrm{s} 
+\tag{22}
+$$
 
 The transient from a cold start then follows directly.
 
-$$ T_{\mathrm{skin}}(t) = T_\infty + \left(T_r - T_\infty\right)\left(1 - e^{-t/\tau}\right) $$
+$$
+ T_{\mathrm{skin}}(t) = T_\infty + \left(T_r - T_\infty\right)\left(1 - e^{-t/\tau}\right) 
+\tag{23}
+$$
 
 | Time at Mach 2.6 | Skin temperature | Fraction of the way | Yield retained |
 |---|---|---|---|
@@ -457,20 +526,29 @@ aluminium comfortably allows.
 - [Tani 1978][research_tani_1978]
 - [Jenkins 1979][research_jenkinsjm_1979]
 
-$$ \sigma_{\mathrm{th}} = E\,\alpha\,\Delta T $$
+$$
+ \sigma_{\mathrm{th}} = E\,\alpha\,\Delta T 
+\tag{24}
+$$
 
 Taking aluminium alloy at a Young's modulus of 72 gigapascals and a coefficient of thermal expansion of 23
 parts per million per kelvin, and the full excursion from a cold start to the recovery temperature at Mach
 2.6,
 
-$$ \sigma_{\mathrm{th}} = 72 \times 10^{9} \times 23 \times 10^{-6} \times 190.8 = 316\ \mathrm{MPa} $$
+$$
+ \sigma_{\mathrm{th}} = 72 \times 10^{9} \times 23 \times 10^{-6} \times 190.8 = 316\ \mathrm{MPa} 
+\tag{25}
+$$
 
 **The retained yield at that temperature is about 272 megapascals.** The handbook's room-temperature
 A-basis yield strength for 2024-T81 sheet from 0.010 to 0.249 inch thick is 58 ksi in the long-transverse
 direction \[[Metallic Materials and Elements for Aerospace Vehicle Structures, MIL-HDBK-5J][ref_mil_hdbk_5j]\],
 and with the 68 percent from the table above
 
-$$ \sigma_{\mathrm{yield}}(T_r) = 0.68 \times 58\ \mathrm{ksi} \times 6.895\ \frac{\mathrm{MPa}}{\mathrm{ksi}} = 0.68 \times 400\ \mathrm{MPa} = 272\ \mathrm{MPa}, \qquad \frac{316}{272} = 1.16 $$
+$$
+ \sigma_{\mathrm{yield}}(T_r) = 0.68 \times 58\ \mathrm{ksi} \times 6.895\ \frac{\mathrm{MPa}}{\mathrm{ksi}} = 0.68 \times 400\ \mathrm{MPa} = 272\ \mathrm{MPa}, \qquad \frac{316}{272} = 1.16 
+\tag{26}
+$$
 
 **The fully restrained thermal stress exceeds it, at 116 percent.**
 
@@ -478,7 +556,10 @@ $$ \sigma_{\mathrm{yield}}(T_r) = 0.68 \times 58\ \mathrm{ksi} \times 6.895\ \fr
 of the structure heats, so the stress depends on the **difference** in temperature between skin and substructure,
 and a better use of the formula is to invert it and ask how much difference the material can afford.
 
-$$ \Delta T_{1/2} = \frac{0.5\,\sigma_{\mathrm{yield}}(T)}{E\,\alpha} = \frac{0.5 \times 272 \times 10^{6}}{72 \times 10^{9} \times 23 \times 10^{-6}} = 82\ \mathrm{K} $$
+$$
+ \Delta T_{1/2} = \frac{0.5\,\sigma_{\mathrm{yield}}(T)}{E\,\alpha} = \frac{0.5 \times 272 \times 10^{6}}{72 \times 10^{9} \times 23 \times 10^{-6}} = 82\ \mathrm{K} 
+\tag{27}
+$$
 
 **Eighty-two kelvin of differential consumes half the remaining strength.** That allowance is small for
 a structure with a thin hot skin over cooler spars and frames, so the Mach 2.6 objective posed a
@@ -506,7 +587,10 @@ and every shock wave the air crosses spends some of it irreversibly.
 The measure is the [total-pressure recovery][ref_pressure_recovery], the ratio of total pressure at the
 engine face to total pressure in the free stream.
 
-$$ \eta = \frac{p_{t2}}{p_{t\infty}} $$
+$$
+ \eta = \frac{p_{t2}}{p_{t\infty}} 
+\tag{28}
+$$
 
 **The standard reference for this subject is [Seddon and Goldsmith][book_seddon_goldsmith]**, and the
 propulsion-integration side is covered by [Oates][book_oates] and by [Mattingly][book_mattingly_engine].
@@ -528,7 +612,10 @@ A military specification defines a reference recovery against which an inlet is 
 It is an engineering standard rather than a law of nature, and so the right yardstick for a
 claim in a brochure.
 
-$$ \eta_{\mathrm{ref}} = 1 - 0.075\,(M - 1)^{1.35}, \qquad M > 1 $$
+$$
+ \eta_{\mathrm{ref}} = 1 - 0.075\,(M - 1)^{1.35}, \qquad M > 1 
+\tag{29}
+$$
 
 | Mach | Reference recovery |
 |---|---|
@@ -544,9 +631,15 @@ A [pitot inlet][ref_pitot_inlet] is a hole facing forward. The air crosses one
 [normal shock][ref_normal_shock] and that shock does all of the compression. The total-pressure ratio across a
 normal shock is a closed form.
 
-$$ \frac{p_{t2}}{p_{t1}} = \left[\frac{(\gamma+1)M^2}{2 + (\gamma-1)M^2}\right]^{\frac{\gamma}{\gamma-1}} \left[\frac{\gamma+1}{2\gamma M^2 - (\gamma-1)}\right]^{\frac{1}{\gamma-1}} $$
+$$
+ \frac{p_{t2}}{p_{t1}} = \left[\frac{(\gamma+1)M^2}{2 + (\gamma-1)M^2}\right]^{\frac{\gamma}{\gamma-1}} \left[\frac{\gamma+1}{2\gamma M^2 - (\gamma-1)}\right]^{\frac{1}{\gamma-1}} 
+\tag{30}
+$$
 
-$$ \eta_{\mathrm{pitot}}(2.0) = 0.7209, \qquad \eta_{\mathrm{pitot}}(2.6) = 0.4601 $$
+$$
+ \eta_{\mathrm{pitot}}(2.0) = 0.7209, \qquad \eta_{\mathrm{pitot}}(2.6) = 0.4601 
+\tag{31}
+$$
 
 **At Mach 2.6 a pitot inlet throws away more than half the total pressure.** That sets the scale of what
 the cone gains.
@@ -586,28 +679,46 @@ The governing relation is the
 [Taylor-Maccoll equation][ref_taylor_maccoll], written here for the velocity components normalised by the
 maximum adiabatic velocity.
 
-$$ \frac{dV_r'}{d\theta} = V_\theta' $$
+$$
+ \frac{dV_r'}{d\theta} = V_\theta' 
+\tag{32}
+$$
 
-$$ \frac{dV_\theta'}{d\theta} = \frac{V_r' V_\theta'^2 - a'^2\left(2V_r' + V_\theta' \cot\theta\right)}{a'^2 - V_\theta'^2}, \qquad a'^2 = \frac{\gamma-1}{2}\left(1 - V_r'^2 - V_\theta'^2\right) $$
+$$
+ \frac{dV_\theta'}{d\theta} = \frac{V_r' V_\theta'^2 - a'^2\left(2V_r' + V_\theta' \cot\theta\right)}{a'^2 - V_\theta'^2}, \qquad a'^2 = \frac{\gamma-1}{2}\left(1 - V_r'^2 - V_\theta'^2\right) 
+\tag{33}
+$$
 
 **Every oblique shock relation reduces to a normal one through the component of Mach number along the wave**,
 the bookkeeping that lets a single set of formulae serve both cases.
 
-$$ M_{n1} = M_1 \sin\beta $$
+$$
+ M_{n1} = M_1 \sin\beta 
+\tag{34}
+$$
 
-$$ M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2}M_{n1}^{2}}{\gamma M_{n1}^{2} - \frac{\gamma-1}{2}} \bigg/ \sin^{2}(\beta - \theta_d) $$
+$$
+ M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2}M_{n1}^{2}}{\gamma M_{n1}^{2} - \frac{\gamma-1}{2}} \bigg/ \sin^{2}(\beta - \theta_d) 
+\tag{35}
+$$
 
 The wave angle cannot fall below the Mach angle, the angle of the weakest disturbance the flow will carry,
 and that bound limits every search below. The oblique-shock and Mach-angle relations are standard, in
 [Shapiro][book_shapiro] and [Anderson][book_anderson], and the inlet application of them is
 [Seddon and Goldsmith][book_seddon_goldsmith].
 
-$$ \mu = \arcsin\frac{1}{M}, \qquad \mu(2.0) = 30.00^\circ, \qquad \mu(2.6) = 22.62^\circ $$
+$$
+ \mu = \arcsin\frac{1}{M}, \qquad \mu(2.0) = 30.00^\circ, \qquad \mu(2.6) = 22.62^\circ 
+\tag{36}
+$$
 
 The integration starts immediately behind the shock, where the [oblique shock][ref_oblique_shock] relations
 give the deflection from the wave angle $\beta$,
 
-$$ \tan\theta_d = 2\cot\beta\,\frac{M_1^2 \sin^2\beta - 1}{M_1^2(\gamma + \cos 2\beta) + 2} $$
+$$
+ \tan\theta_d = 2\cot\beta\,\frac{M_1^2 \sin^2\beta - 1}{M_1^2(\gamma + \cos 2\beta) + 2} 
+\tag{37}
+$$
 
 and proceeds inward until the flow becomes tangent to a surface. That surface is the cone.
 **The problem is solved in the inverse direction**, because Taylor-Maccoll integrates from a known shock
@@ -653,13 +764,19 @@ and weaker shocks costs less total pressure than concentrating it, a result due 
 Computing the two-ramp arrangement requires the same oblique-shock relation applied twice, followed by a
 normal shock.
 
-$$ \eta_{\mathrm{2-ramp}} = \frac{p_{t2}}{p_{t1}}\bigg|_{\delta_1} \cdot \frac{p_{t3}}{p_{t2}}\bigg|_{\delta_2} \cdot \frac{p_{t4}}{p_{t3}}\bigg|_{\mathrm{normal}} $$
+$$
+ \eta_{\mathrm{2-ramp}} = \frac{p_{t2}}{p_{t1}}\bigg|_{\delta_1} \cdot \frac{p_{t3}}{p_{t2}}\bigg|_{\delta_2} \cdot \frac{p_{t4}}{p_{t3}}\bigg|_{\mathrm{normal}} 
+\tag{38}
+$$
 
 **[Oswatitsch's][ref_oswatitsch] result also says how to divide the compression.**
 For a given number of oblique shocks the recovery is greatest when they are of equal strength, meaning equal
 normal Mach components.
 
-$$ M_1 \sin\beta_1 = M_2 \sin\beta_2 = \cdots = M_n \sin\beta_n $$
+$$
+ M_1 \sin\beta_1 = M_2 \sin\beta_2 = \cdots = M_n \sin\beta_n 
+\tag{39}
+$$
 
 **The theorem can be checked directly**, and a fair check holds both searches to the same
 constraint. An equal pair searched without the turning constraint, set against an unequal pair searched with
@@ -764,11 +881,17 @@ the cowl lip requires the apex to move forward.
 With the apex a distance $L$ ahead of the lip and the lip at radius $r$, the shock-on-lip condition is
 purely geometric.
 
-$$ \tan\beta = \frac{r}{L} \qquad \Longrightarrow \qquad L = \frac{r}{\tan\beta} $$
+$$
+ \tan\beta = \frac{r}{L} \qquad \Longrightarrow \qquad L = \frac{r}{\tan\beta} 
+\tag{40}
+$$
 
 The travel needed between two Mach numbers follows immediately.
 
-$$ \Delta L = r\left(\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}\right) $$
+$$
+ \Delta L = r\left(\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}\right) 
+\tag{41}
+$$
 
 The shock-on-lip condition and the capture-area bookkeeping that follows it come from
 [Seddon and Goldsmith][book_seddon_goldsmith].
@@ -777,7 +900,10 @@ The shock-on-lip condition and the capture-area bookkeeping that follows it come
 of the Lancer's inlets is not. **So the relation is inverted.** Inversion is the sound move when a parameter is
 unknown, and it turns a quoted number into a checkable one.
 
-$$ r = \frac{\Delta L}{\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}} $$
+$$
+ r = \frac{\Delta L}{\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}} 
+\tag{42}
+$$
 
 Taking the shock held on the lip from Mach 2.0 to Mach 2.6, and the two side inlets as half-cones so that
 their combined capture area is $\pi r^2$,
@@ -807,14 +933,20 @@ is documented independently.
 
 The capture area needed to admit a given physical mass flow at full capture is
 
-$$ A_c = \frac{\dot m}{\rho_\infty V_\infty} $$
+$$
+ A_c = \frac{\dot m}{\rho_\infty V_\infty} 
+\tag{43}
+$$
 
 **The TF30-P-100 is documented at 260 pounds per second, or 117.93 kilograms per second**
 \[[Pratt and Whitney TF30][ref_tf30]\]. At Mach 2.0
 and 35,000 feet the free-stream mass flux is $\rho_\infty V_\infty = 225.0$ kilograms per square metre per
 second, so
 
-$$ A_c = \frac{117.93}{225.0} = 0.524\ \mathrm{m}^2 = 5.639\ \mathrm{ft}^2 $$
+$$
+ A_c = \frac{117.93}{225.0} = 0.524\ \mathrm{m}^2 = 5.639\ \mathrm{ft}^2 
+\tag{44}
+$$
 
 | Assumed cone half-angle | Implied capture from the travel | Required by the engine | Error |
 |---|---|---|---|
@@ -826,7 +958,10 @@ $$ A_c = \frac{117.93}{225.0} = 0.524\ \mathrm{m}^2 = 5.639\ \mathrm{ft}^2 $$
 The error column is the implied capture area $A_{\mathrm{travel}}$ measured against the required one,
 which at twenty-five degrees is
 
-$$ \varepsilon = \frac{A_{\mathrm{travel}} - A_c}{A_c} = \frac{5.401 - 5.639}{5.639} = -0.042 $$
+$$
+ \varepsilon = \frac{A_{\mathrm{travel}} - A_c}{A_c} = \frac{5.401 - 5.639}{5.639} = -0.042 
+\tag{45}
+$$
 
 **A twenty-five degree cone reconciles the two published figures to within 4.2 percent, and twenty-five degrees is an ordinary half-angle for a supersonic inlet of the period.**
 
@@ -849,7 +984,10 @@ the design was worked out rather than sketched.
 Converting the engine's maximum *corrected* airflow to physical airflow at Mach 2.6 gives 356 kilograms per
 second, three times the sea-level rating. The [corrected flow][ref_corrected_flow] relation is
 
-$$ \dot m_{\mathrm{corr}} = \frac{\dot m \sqrt{\theta}}{\delta}, \qquad \theta = \frac{T_{t2}}{288.15}, \qquad \delta = \frac{p_{t2}}{101325} $$
+$$
+ \dot m_{\mathrm{corr}} = \frac{\dot m \sqrt{\theta}}{\delta}, \qquad \theta = \frac{T_{t2}}{288.15}, \qquad \delta = \frac{p_{t2}}{101325} 
+\tag{46}
+$$
 
 **The arithmetic is right and the premise is wrong.** Corrected airflow and the engine matching it governs
 are treated in [Oates][book_oates] and [Mattingly][book_mattingly_engine]. A compressor does not hold its
@@ -882,21 +1020,33 @@ indexed \[[Energy-maneuverability theory][ref_energy_maneuverability]\].
 - [Theodorsen 1959][research_theodorsen_1959]
 - [Andrews 1969][research_andrews_1969]
 
-$$ h_e = h + \frac{V^2}{2g} $$
+$$
+ h_e = h + \frac{V^2}{2g} 
+\tag{47}
+$$
 
 At 15,000 feet and Mach 0.9 that is
 
-$$ h_e = 4{,}572 + \frac{290.0^2}{2 \times 9.80665} = 4{,}572 + 4{,}289 = 8{,}861\ \mathrm{m} = 29{,}072\ \mathrm{ft} $$
+$$
+ h_e = 4{,}572 + \frac{290.0^2}{2 \times 9.80665} = 4{,}572 + 4{,}289 = 8{,}861\ \mathrm{m} = 29{,}072\ \mathrm{ft} 
+\tag{48}
+$$
 
 The central quantity is [specific excess power][ref_specific_excess_power],
 **the rate of change of that height and not an independent definition**.
 
-$$ P_s = \frac{dh_e}{dt} = V\,\frac{T - D}{W} $$
+$$
+ P_s = \frac{dh_e}{dt} = V\,\frac{T - D}{W} 
+\tag{49}
+$$
 
 **The thrust-to-weight ratio is the other term the comparison turns on**, and the table in What Changed From
 the F-104 gives it without writing it out.
 
-$$ \frac{T}{W} = \frac{25{,}000\ \mathrm{lbf}}{24{,}385\ \mathrm{lb}} = 1.025 $$
+$$
+ \frac{T}{W} = \frac{25{,}000\ \mathrm{lbf}}{24{,}385\ \mathrm{lb}} = 1.025 
+\tag{50}
+$$
 
 **A re-winged F-104 improves on the old metrics. The question is what it does to this one.**
 
@@ -921,7 +1071,10 @@ Boyd's work in particular is not indexed where the rest of this article's source
 
 Every manoeuvre result below runs through the drag polar.
 
-$$ C_D = C_{D_0} + K C_L^2 $$
+$$
+ C_D = C_{D_0} + K C_L^2 
+\tag{51}
+$$
 
 **Neither coefficient is available for this aircraft**, so both are constructed, and the construction is
 stated in full.
@@ -933,7 +1086,10 @@ coefficient standing for friction, form, interference and roughness together is 
 The drag data underlying such coefficients is [Hoerner][book_hoerner], and the sizing method is also given
 by [Nicolai][book_nicolai].
 
-$$ C_{D_0} = C_{fe}\,\frac{S_{\mathrm{wet}}}{S_{\mathrm{ref}}} = 0.0035 \times 4.5 = 0.0158 $$
+$$
+ C_{D_0} = C_{fe}\,\frac{S_{\mathrm{wet}}}{S_{\mathrm{ref}}} = 0.0035 \times 4.5 = 0.0158 
+\tag{52}
+$$
 
 **The same value is used for all four aircraft compared below. It is a deliberate control and makes no claim to accuracy.**
 Holding parasite drag equal turns the comparison into one about wing loading and thrust-to-weight, which is
@@ -945,24 +1101,36 @@ the question being asked.
 The F-104's inheritance shows in $K$. The elliptical result assumes the leading edge develops its full
 suction peak.
 
-$$ K_{\mathrm{full}} = \frac{1}{\pi A e} $$
+$$
+ K_{\mathrm{full}} = \frac{1}{\pi A e} 
+\tag{53}
+$$
 
 **A thin wing with a sharp leading edge cannot develop it.** The flow separates at the edge rather than
 turning around it, and the limiting case is that the resultant force tilts back with the surface, so that
 
-$$ K_{\mathrm{none}} = \frac{1}{C_{L_\alpha}} $$
+$$
+ K_{\mathrm{none}} = \frac{1}{C_{L_\alpha}} 
+\tag{54}
+$$
 
 At these aspect ratios the lift-curve slope is nowhere near $2\pi$, and using the high-aspect-ratio value
 would understate the very penalty this section exists to measure. The form used is that of
 [Raymer][book_raymer] and [Nicolai][book_nicolai]. The [Helmbold-Diederich][ref_helmbold] form applies.
 
-$$ C_{L_\alpha} = \frac{2\pi A}{2 + \sqrt{4 + \dfrac{A^2\beta^2}{\eta^2}\left(1 + \dfrac{\tan^2\Lambda_{c/2}}{\beta^2}\right)}}, \qquad \beta = \sqrt{|1 - M^2|} $$
+$$
+ C_{L_\alpha} = \frac{2\pi A}{2 + \sqrt{4 + \dfrac{A^2\beta^2}{\eta^2}\left(1 + \dfrac{\tan^2\Lambda_{c/2}}{\beta^2}\right)}}, \qquad \beta = \sqrt{|1 - M^2|} 
+\tag{55}
+$$
 
 The real wing sits between the two limits, so the article blends them and
 **reports the full range and picks no single value**, because a conclusion that survives every
 leading-edge suction fraction is stronger than a point estimate.
 
-$$ K = s\,K_{\mathrm{full}} + (1 - s)\,K_{\mathrm{none}}, \qquad 0 \le s \le 1 $$
+$$
+ K = s\,K_{\mathrm{full}} + (1 - s)\,K_{\mathrm{none}}, \qquad 0 \le s \le 1 
+\tag{56}
+$$
 
 | Aircraft | Aspect ratio | $C_{L_\alpha}$ at M 0.9 | $K$ at $s=0$ | $K$ at $s=0.5$ | $K$ at $s=1$ |
 |---|---|---|---|---|---|
@@ -988,26 +1156,44 @@ these papers treat low aspect ratio wings, drag due to lift, leading-edge suctio
 An aircraft holds a turn when thrust equals drag at the load factor concerned. Setting $T = D$ and
 substituting the lift coefficient required at load factor $n$,
 
-$$ C_L = \frac{n W}{q S} $$
+$$
+ C_L = \frac{n W}{q S} 
+\tag{57}
+$$
 
 then solving for the load factor gives
 
-$$ n_{\mathrm{sus}} = \sqrt{\frac{q S}{K W}\left(\frac{T}{W} - \frac{q S C_{D_0}}{W}\right)} $$
+$$
+ n_{\mathrm{sus}} = \sqrt{\frac{q S}{K W}\left(\frac{T}{W} - \frac{q S C_{D_0}}{W}\right)} 
+\tag{58}
+$$
 
 and the turn rate follows from the load factor and the speed, as does the radius, the other axis of
 the diagram this framework is usually drawn on.
 
-$$ \dot\psi = \frac{g\sqrt{n^2 - 1}}{V} $$
+$$
+ \dot\psi = \frac{g\sqrt{n^2 - 1}}{V} 
+\tag{59}
+$$
 
-$$ R = \frac{V^2}{g\sqrt{n^2 - 1}} $$
+$$
+ R = \frac{V^2}{g\sqrt{n^2 - 1}} 
+\tag{60}
+$$
 
 The load factor is also what the bank angle costs, in level flight.
 
-$$ n = \frac{1}{\cos\phi} $$
+$$
+ n = \frac{1}{\cos\phi} 
+\tag{61}
+$$
 
 At the sustained load factor computed below the Lancer is banked at
 
-$$ \phi = \arccos\frac{1}{6.34} = 80.9^\circ, \qquad R = \frac{290.0^2}{9.80665\sqrt{6.34^2 - 1}} = 1{,}371\ \mathrm{m} = 4{,}496\ \mathrm{ft} $$
+$$
+ \phi = \arccos\frac{1}{6.34} = 80.9^\circ, \qquad R = \frac{290.0^2}{9.80665\sqrt{6.34^2 - 1}} = 1{,}371\ \mathrm{m} = 4{,}496\ \mathrm{ft} 
+\tag{62}
+$$
 
 Evaluating at 15,000 feet and Mach 0.9, a representative combat condition, gives the comparison on which the
 sales case rested.
@@ -1034,7 +1220,10 @@ F-15C and not the F-15A, so the F-15A rows use the F-15C's 44,500 pounds and two
 23,904 pounds of thrust, the nearest variant it tabulates. The CL-1200-2 is evaluated at its normal loaded
 weight of 24,385 pounds. As fractions of each aircraft's maximum weight these are
 
-$$ \frac{27{,}300}{29{,}083} = 0.939, \qquad \frac{15{,}745}{20{,}486} = 0.769, \qquad \frac{44{,}500}{68{,}000} = 0.654, \qquad \frac{24{,}385}{35{,}000} = 0.697 $$
+$$
+ \frac{27{,}300}{29{,}083} = 0.939, \qquad \frac{15{,}745}{20{,}486} = 0.769, \qquad \frac{44{,}500}{68{,}000} = 0.654, \qquad \frac{24{,}385}{35{,}000} = 0.697 
+\tag{63}
+$$
 
 for the F-104G, F-5E, F-15A and CL-1200-2 respectively. **The F-104G is carried much nearer its maximum
 than the others**, so its rows understate it by an amount the sources do not allow to be fixed. They bound
@@ -1055,7 +1244,10 @@ out-turns the F-5E that beat it, comfortably, and it sits close behind the F-15A
 \[[Lightweight Fighter program][ref_lwf]\]
 The shortfall is taken relative to the F-15A at a leading-edge suction fraction of 0.5,
 
-$$ 1 - \frac{P_{s,\mathrm{CL\text{-}1200\text{-}2}}}{P_{s,\mathrm{F\text{-}15A}}} = 1 - \frac{830}{866} = 0.042 $$
+$$
+ 1 - \frac{P_{s,\mathrm{CL\text{-}1200\text{-}2}}}{P_{s,\mathrm{F\text{-}15A}}} = 1 - \frac{830}{866} = 0.042 
+\tag{64}
+$$
 
 The ranking does not depend on the parasite drag assumption.
 
@@ -1084,7 +1276,10 @@ for the expensive one is before Congress.
 The corner speed is the lowest speed at which the structural limit load factor can be reached
 aerodynamically.
 
-$$ V^* = \sqrt{\frac{2\,n_{\mathrm{limit}}\,W}{\rho\,S\,C_{L_{\max}}}} $$
+$$
+ V^* = \sqrt{\frac{2\,n_{\mathrm{limit}}\,W}{\rho\,S\,C_{L_{\max}}}} 
+\tag{65}
+$$
 
 | $C_{L_{\max}}$ | Stall speed at sea level | Corner speed at 15,000 ft | Mach |
 |---|---|---|---|
@@ -1095,7 +1290,10 @@ $$ V^* = \sqrt{\frac{2\,n_{\mathrm{limit}}\,W}{\rho\,S\,C_{L_{\max}}}} $$
 The corner speed is built on the stall speed, the same relation at a load factor of one, and both
 are standard sizing relations in [Raymer][book_raymer] and [Nicolai][book_nicolai].
 
-$$ V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} , \qquad V^{*} = \sqrt{n_{\mathrm{limit}}}\;V_{\mathrm{stall}} $$
+$$
+ V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} , \qquad V^{*} = \sqrt{n_{\mathrm{limit}}}\;V_{\mathrm{stall}} 
+\tag{66}
+$$
 
 **The maximum lift coefficient is the weakest input in this article.** A thin sharp-edged wing of aspect
 ratio 2.8 does not achieve much of one, and the record supplies no figure. The table is therefore given
@@ -1150,11 +1348,17 @@ counts as inlet drag and what counts as lost thrust is the same accounting quest
 - [Lewis 1976][research_lewis_1976]
 - [Bull and Bridges 1983][research_bullg_bridgespd_1983]
 
-$$ F_{\mathrm{net}} = \dot m\left(V_e - V_0\right) $$
+$$
+ F_{\mathrm{net}} = \dot m\left(V_e - V_0\right) 
+\tag{67}
+$$
 
 The second term is the ram drag, and at Mach 2.6 the free stream arrives at 771 metres per second.
 
-$$ D_{\mathrm{ram}} = \dot m V_0 = 117.93 \times 771.0 = 90{,}926\ \mathrm{N} = 20{,}441\ \mathrm{lbf} $$
+$$
+ D_{\mathrm{ram}} = \dot m V_0 = 117.93 \times 771.0 = 90{,}926\ \mathrm{N} = 20{,}441\ \mathrm{lbf} 
+\tag{68}
+$$
 
 **The engine's rated 25,000 pounds of net thrust therefore requires 45,441 pounds gross, so 45.0 percent of the gross thrust is spent on the momentum of the air.**
 
@@ -1165,9 +1369,15 @@ and [Mattingly][book_mattingly_engine].
 Mach range is not defensible. Asking instead what exhaust velocity the rating would require at that
 condition gives a checkable number.
 
-$$ V_e = \frac{F_{\mathrm{net}} + \dot m V_0}{\dot m} = \frac{111{,}206 + 90{,}926}{117.93} = 1{,}714\ \mathrm{m/s} $$
+$$
+ V_e = \frac{F_{\mathrm{net}} + \dot m V_0}{\dot m} = \frac{111{,}206 + 90{,}926}{117.93} = 1{,}714\ \mathrm{m/s} 
+\tag{69}
+$$
 
-$$ V_{e,\,\mathrm{static}} = \frac{F_{\mathrm{net}}}{\dot m} = \frac{111{,}206}{117.93} = 943\ \mathrm{m/s} $$
+$$
+ V_{e,\,\mathrm{static}} = \frac{F_{\mathrm{net}}}{\dot m} = \frac{111{,}206}{117.93} = 943\ \mathrm{m/s} 
+\tag{70}
+$$
 
 **Seventeen hundred metres per second is within reach of an afterburning nozzle, so the requirement is not absurd.**
 What it is not is free. A higher exhaust velocity needs a higher total pressure at the engine face,
@@ -1176,7 +1386,10 @@ The two halves of the keystone are the same problem seen from either end.
 
 The propulsive efficiency at that condition follows.
 
-$$ \eta_p = \frac{2V_0}{V_0 + V_e} = \frac{2 \times 771.0}{771.0 + 1714} = 0.621 $$
+$$
+ \eta_p = \frac{2V_0}{V_0 + V_e} = \frac{2 \times 771.0}{771.0 + 1714} = 0.621 
+\tag{71}
+$$
 
 ### Aerodynamics
 
@@ -1188,7 +1401,10 @@ The lift the wing produces is the coefficient carried on the dynamic pressure an
 factor below is measured against that identity, and the drag data behind the coefficients used with it
 is [Hoerner][book_hoerner], with the configuration context in [Kuchemann][book_kuchemann].
 
-$$ L = q\,S\,C_L $$
+$$
+ L = q\,S\,C_L 
+\tag{72}
+$$
 
 **That is the limit of what the redesign could do without a new wing.** The induced-drag penalty of a low
 aspect ratio is not much relieved by going from 2.455 to 2.836, and the table above shows the Lancer's $K$
@@ -1224,11 +1440,20 @@ among them are these.
 - [Spreiter and Sacks 1951][research_spreiter_sacks_1951]
 - [Baron 1953][research_baron_1953]
 
-$$ V_H = \frac{S_t\,l_t}{S\,\bar{c}} $$
+$$
+ V_H = \frac{S_t\,l_t}{S\,\bar{c}} 
+\tag{73}
+$$
 
-$$ C_{m_\alpha,\,\mathrm{tail}} = -a_t\,V_H\,\eta_t\left(1 - \frac{d\varepsilon}{d\alpha}\right) $$
+$$
+ C_{m_\alpha,\,\mathrm{tail}} = -a_t\,V_H\,\eta_t\left(1 - \frac{d\varepsilon}{d\alpha}\right) 
+\tag{74}
+$$
 
-$$ \mathrm{SM} = -\frac{C_{m_\alpha}}{C_{L_\alpha}} = \frac{x_{np} - x_{cg}}{\bar{c}} $$
+$$
+ \mathrm{SM} = -\frac{C_{m_\alpha}}{C_{L_\alpha}} = \frac{x_{np} - x_{cg}}{\bar{c}} 
+\tag{75}
+$$
 
 **The tail geometry of the CL-1200 is not in the public record**, so these are written to show what the
 change acted on. They yield no number, and no static margin is asserted.
@@ -1237,7 +1462,10 @@ change acted on. They yield no number, and no static margin is asserted.
 gradient goes inversely with aspect ratio, which invites the conclusion that a low-aspect-ratio wing washes
 its tail harder and therefore suffers more.
 
-$$ \frac{d\varepsilon}{d\alpha} \approx \frac{2\,C_{L_\alpha}}{\pi A} $$
+$$
+ \frac{d\varepsilon}{d\alpha} \approx \frac{2\,C_{L_\alpha}}{\pi A} 
+\tag{76}
+$$
 
 | Aircraft | Aspect ratio | $C_{L_\alpha}$ | Far-field $d\varepsilon/d\alpha$ |
 |---|---|---|---|
@@ -1337,7 +1565,10 @@ Specific excess power is a hard ceiling on steady rate of climb, and one line of
 [Whitford][book_whitford], shows why. Differentiating energy height and holding
 speed constant leaves the climb rate equal to $P_s$, and any acceleration takes from the same budget.
 
-$$ \frac{dh_e}{dt} = \frac{dh}{dt} + \frac{V}{g}\frac{dV}{dt} = P_s \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\max} = P_s $$
+$$
+ \frac{dh_e}{dt} = \frac{dh}{dt} + \frac{V}{g}\frac{dV}{dt} = P_s \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\max} = P_s 
+\tag{77}
+$$
 
 The claimed 60,000 feet per minute is 305 metres per second, and the best $P_s$ the published thrust and
 weight produce at sea level is 250.6 metres per second at Mach 1.095.
@@ -1353,12 +1584,18 @@ weight produce at sea level is 250.6 metres per second at Mach 1.095.
 **The claim exceeds the computed ceiling by 21.6 percent.** For claimed climb rate $\dot h_{\mathrm{claim}}$
 and the largest $P_s$ in the scan,
 
-$$ \frac{\dot h_{\mathrm{claim}}}{P_{s,\max}} - 1 = \frac{60{,}000}{49{,}332} - 1 = 0.216 $$
+$$
+ \frac{\dot h_{\mathrm{claim}}}{P_{s,\max}} - 1 = \frac{60{,}000}{49{,}332} - 1 = 0.216 
+\tag{78}
+$$
 
 **The maximum lies between the round Mach numbers, so it has to be found by a fine scan.** A coarse grid
 that stops at Mach 1.2 takes the peak as 48,585 feet per minute and overstates the shortfall,
 
-$$ \frac{60{,}000}{48{,}585} - 1 = 0.235 $$
+$$
+ \frac{60{,}000}{48{,}585} - 1 = 0.235 
+\tag{79}
+$$
 
 or 23.5 percent. The fine scan puts the maximum at Mach 1.095.
 
@@ -1373,7 +1610,10 @@ and that this is the only headline claim in the brochure of which that is true.
 The record states a 46 percent increase in internal fuel from a 30-inch stretch \[[Lockheed CL-1200 Lancer][ref_cl1200]\]. The weight breakdown gives
 the Lancer's clean disposable load as the difference between its normal loaded and empty weights.
 
-$$ W_{\mathrm{fuel,\ clean}} = W_{\mathrm{loaded}} - W_{\mathrm{empty}} = 24{,}385 - 17{,}885 = 6{,}500\ \mathrm{lb} $$
+$$
+ W_{\mathrm{fuel,\ clean}} = W_{\mathrm{loaded}} - W_{\mathrm{empty}} = 24{,}385 - 17{,}885 = 6{,}500\ \mathrm{lb} 
+\tag{80}
+$$
 
 **Testing the 46 percent against that figure needs the F-104G's internal fuel capacity, and none of the
 sources cited here states it.** The claim is therefore left as the manufacturer's, neither confirmed nor
@@ -1395,9 +1635,15 @@ the friction coefficients and the lift-off margins used here.
 - [Smith et al 1979][research_smith_yamakawa_1979]
 - [Hawks 1982][research_hawks_1982]
 
-$$ s = \int_0^{V_{\mathrm{LOF}}} \frac{V\,dV}{a(V)}, \qquad a(V) = \frac{T - D - \mu\left(W - L\right)}{W/g} $$
+$$
+ s = \int_0^{V_{\mathrm{LOF}}} \frac{V\,dV}{a(V)}, \qquad a(V) = \frac{T - D - \mu\left(W - L\right)}{W/g} 
+\tag{81}
+$$
 
-$$ V_{\mathrm{LOF}} = 1.1\,V_{\mathrm{stall}} $$
+$$
+ V_{\mathrm{LOF}} = 1.1\,V_{\mathrm{stall}} 
+\tag{82}
+$$
 
 | $C_{L_{\max}}$ at takeoff | $V_{\mathrm{LOF}}$ | Computed roll | Claim |
 |---|---|---|---|
@@ -1415,7 +1661,10 @@ The [Breguet range equation][ref_breguet] carries no gravitational constant when
 consumption is quoted per hour, because such a figure is already a weight of fuel per unit thrust per unit
 time.
 
-$$ R = \frac{V}{c_t}\,\frac{L}{D}\,\ln\frac{W_0}{W_1} $$
+$$
+ R = \frac{V}{c_t}\,\frac{L}{D}\,\ln\frac{W_0}{W_1} 
+\tag{83}
+$$
 
 The Breguet relation and the mission bookkeeping around it are as given in [Raymer][book_raymer] and
 [Nicolai][book_nicolai]. The end weight is the start weight less the usable fraction of the fuel, and the
@@ -1423,16 +1672,28 @@ logarithm acts on their ratio. The start weight is the maximum takeoff weight, a
 that weight after the empty weight and the 4,000 pound bombload the radius is quoted with
 \[[Lockheed CL-1200 Lancer][ref_cl1200]\].
 
-$$ W_{\mathrm{fuel}} = W_0 - W_{\mathrm{empty}} - W_{\mathrm{stores}} = 35{,}000 - 17{,}885 - 4{,}000 = 13{,}115\ \mathrm{lb} $$
+$$
+ W_{\mathrm{fuel}} = W_0 - W_{\mathrm{empty}} - W_{\mathrm{stores}} = 35{,}000 - 17{,}885 - 4{,}000 = 13{,}115\ \mathrm{lb} 
+\tag{84}
+$$
 
-$$ W_1 = W_0 - f\,W_{\mathrm{fuel}} = 35{,}000 - 0.85 \times 13{,}115 = 23{,}852\ \mathrm{lb} $$
+$$
+ W_1 = W_0 - f\,W_{\mathrm{fuel}} = 35{,}000 - 0.85 \times 13{,}115 = 23{,}852\ \mathrm{lb} 
+\tag{85}
+$$
 
-$$ \frac{W_0}{W_1} = \frac{35{,}000}{23{,}852} = 1.4674 $$
+$$
+ \frac{W_0}{W_1} = \frac{35{,}000}{23{,}852} = 1.4674 
+\tag{86}
+$$
 
 The mission factor is then a defined ratio, and quoting it keeps a
 Breguet integral from being mistaken for a mission.
 
-$$ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{1{,}914} = 0.192 $$
+$$
+ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{1{,}914} = 0.192 
+\tag{87}
+$$
 
 | $L/D$ | $c_t$ | Still-air range | The 367 nmi claim as a fraction |
 |---|---|---|---|
@@ -2071,6 +2332,818 @@ rating, are reconciled by a twenty-five degree cone to within 4.2 percent.
 
 The next article treats the [X-28][ref_x28], the Osprey I that the Navy evaluated as Project Air Skimmer, and returns to the pattern the X-27
 broke, namely an aircraft that existed and flew.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 87 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 87, 68 are established and 19 are bespoke.
+Lines mix International System units with the United States customary units of the record, with each conversion stated where it is made, the atmosphere is the International Standard Atmosphere, and the parasite drag of 0.0158, the leading-edge suction fraction, the maximum lift coefficient, the skin and material properties, the usable fuel fraction of 0.85 and the lift-to-drag ratio of the radius check are values the article assumes or scans across rather than measurements.
+
+**Equation 1, Aspect Ratio of the F-104G Wing.**
+The documented span of 21.94 feet and wing area of 196.1 square feet give an aspect ratio of about 2.46.
+[aspect ratio][ref_aspect_ratio]
+
+$$
+ A = \frac{b^2}{S} = \frac{(21.94\ \mathrm{ft})^2}{196.1\ \mathrm{ft}^2} = 2.455 
+\tag{1}
+$$
+
+**Equation 2, Wing Loading of the F-104G.**
+The design gross weight of 27,300 pounds over the wing area gives a wing loading of 139.2 pounds per square foot, as the survey of aircraft performance also tabulates.
+[Quest for Performance, NASA SP-468][ref_sp468]
+
+$$
+ \frac{W}{S} = \frac{27{,}300\ \mathrm{lb}}{196.1\ \mathrm{ft}^2} = 139.2\ \mathrm{lb/ft}^2 
+\tag{2}
+$$
+
+**Equation 3, Engine Length, Diameter and Airflow Differences.**
+The published ratings give the TF30 33.01 inches more length and 9.84 inches more diameter than the J79, and about 53 percent more airflow.
+[J79][ref_j79]
+[TF30][ref_tf30]
+
+$$
+ \Delta L = 241.70 - 208.69 = 33.01\ \mathrm{in}, \qquad \Delta D = 48.90 - 39.06 = 9.84\ \mathrm{in}, \qquad \frac{\dot m_{\mathrm{TF30}}}{\dot m_{\mathrm{J79}}} - 1 = \frac{260}{170} - 1 = 0.529 
+\tag{3}
+$$
+
+**Equation 4, Engine Length Difference Less the Fuselage Stretch.**
+The documented 30 inch stretch falls 3.01 inches short of the engine length difference.
+[CL-1200 Lancer][ref_cl1200]
+
+$$
+ \Delta L - \Delta L_{\mathrm{fus}} = 33.01 - 30 = 3.01\ \mathrm{in} 
+\tag{4}
+$$
+
+**Equation 5, Temperature in the Standard Troposphere.**
+Below 11 kilometres the standard temperature falls linearly from 288.15 kelvin at the standard lapse rate of 0.0065 kelvin per metre.
+[Anderson][book_anderson]
+[Shapiro][book_shapiro]
+[International Standard Atmosphere][ref_isa]
+
+$$
+ T(h) = T_0 - \lambda h, \qquad T_0 = 288.15\ \mathrm{K}, \qquad \lambda = 0.0065\ \mathrm{K/m} 
+\tag{5}
+$$
+
+**Equation 6, Pressure in the Standard Lower Stratosphere.**
+Above the tropopause the standard temperature is constant and the pressure falls exponentially with height from its value at 11 kilometres.
+
+$$
+ p(h) = p_{11} \exp\left(-\frac{g_0 (h - h_{11})}{R T}\right) 
+\tag{6}
+$$
+
+**Equation 7, Density at 35,000 Feet from the Equation of State.**
+The ideal gas law at the standard pressure and temperature of 35,000 feet gives a density of about 0.380 kilograms per cubic metre.
+
+$$
+ \rho = \frac{p}{R T} = \frac{23{,}842.3}{287.05 \times 218.81} = 0.3796\ \mathrm{kg/m^3} 
+\tag{7}
+$$
+
+**Equation 8, Speed of Sound at 35,000 Feet.**
+The speed of sound at the standard temperature of 218.81 kelvin is about 296.5 metres per second.
+
+$$
+ a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05\ \times 218.81} = 296.54\ \mathrm{m/s} = 663.3\ \mathrm{mph} 
+\tag{8}
+$$
+
+**Equation 9, Mach Number.**
+The Mach number is the ratio of airspeed to the speed of sound.
+
+$$
+ M = \frac{V}{a} 
+\tag{9}
+$$
+
+**Equation 10, Mach Number of the Claimed Maximum Speed.**
+The claimed 1,700 miles per hour at 35,000 feet is Mach 2.563, consistent with the quoted Mach 2.57.
+[CL-1200 Lancer][ref_cl1200]
+
+$$
+ M = \frac{1{,}700\ \mathrm{mph} \times 0.44704}{296.54\ \mathrm{m/s}} = \frac{760.0}{296.54} = 2.563 
+\tag{10}
+$$
+
+**Equation 11, Dynamic Pressure.**
+The dynamic pressure is half the density times the square of the speed.
+[Anderson][book_anderson]
+
+$$
+ q = \tfrac{1}{2}\rho V^2 
+\tag{11}
+$$
+
+**Equation 12, Specific Heat at Constant Pressure.**
+The specific heat at constant pressure of a perfect gas follows from the gas constant and the ratio of specific heats.
+
+$$
+ c_p = \frac{\gamma R}{\gamma - 1} = \frac{1.4 \times 287.05}{0.4} = 1004.7\ \mathrm{J/(kg\,K)} 
+\tag{12}
+$$
+
+*Equation 13, Bespoke Dynamic Pressure at the Manoeuvre Condition.*
+At 15,000 feet and Mach 0.9, the condition the article chooses for every manoeuvre result, the standard atmosphere gives a dynamic pressure of about 677 pounds per square foot.
+
+$$
+ q = \tfrac{1}{2} \times 0.7708 \times 290.0^2 = 32{,}415\ \mathrm{Pa} = 677.1\ \mathrm{lb/ft^2} 
+\tag{13}
+$$
+
+**Equation 14, Total Temperature.**
+Energy conservation in a compressible flow gives the total temperature as the static temperature times one plus half of $\gamma - 1$ times the square of the Mach number.
+[total temperature][ref_total_temperature]
+
+$$
+ \frac{T_t}{T} = 1 + \frac{\gamma - 1}{2} M^2 
+\tag{14}
+$$
+
+**Equation 15, Recovery Temperature with a Turbulent Recovery Factor.**
+A surface recovers only a fraction $r$ of the kinetic temperature rise, and for a turbulent boundary layer that fraction is the cube root of the Prandtl number.
+[recovery factor][ref_recovery_factor]
+[Prandtl number][ref_prandtl]
+
+$$
+ T_r = T\left(1 + r\,\frac{\gamma - 1}{2} M^2\right), \qquad r = \Pr^{1/3} \approx 0.896 
+\tag{15}
+$$
+
+**Equation 16, Celsius to Fahrenheit Conversion of the Recovery Temperature.**
+The recovery temperature of 210.8 degrees Celsius is about 411 degrees Fahrenheit, the scale of the handbook figure.
+[Metallic Materials and Elements for Aerospace Vehicle Structures, MIL-HDBK-5J][ref_mil_hdbk_5j]
+
+$$
+ T_{\mathrm{F}} = 1.8\,T_{\mathrm{C}} + 32, \qquad 1.8 \times 210.8 + 32 = 411.4\ ^{\circ}\mathrm{F} 
+\tag{16}
+$$
+
+**Equation 17, Thermal Time Constant of a Lumped Skin Panel.**
+A skin panel heated by convection behaves as a first-order lumped thermal mass whose time constant is its areal heat capacity over the convective coefficient.
+
+$$
+ \tau = \frac{\rho_s c_s t}{h} 
+\tag{17}
+$$
+
+**Equation 18, Eckert Reference Temperature.**
+The Eckert reference temperature at which boundary layer properties are evaluated accounts for property variation across a high-speed boundary layer.
+[Eckert reference temperature][ref_eckert]
+
+$$
+ T^* = T_e\left(0.5\left(1 + \frac{T_w}{T_e}\right) + 0.16\,r\,\frac{\gamma-1}{2}M_e^2\right) 
+\tag{18}
+$$
+
+**Equation 19, Turbulent Flat-Plate Stanton Number and Heat Transfer Coefficient.**
+The turbulent flat-plate Stanton number correlation gives the convective coefficient from properties at the reference temperature.
+[Stanton number][ref_stanton]
+[Eckert reference temperature][ref_eckert]
+
+$$
+ \mathrm{St} = 0.0296\,\mathrm{Re}_x^{-1/5}\,\Pr^{-2/3}, \qquad h = \mathrm{St}\,\rho^* u_e c_p 
+\tag{19}
+$$
+
+**Equation 20, Local Reynolds Number and Sutherland's Law.**
+The local Reynolds number is built from reference density, edge velocity and distance over the reference viscosity, which Sutherland's law gives as a function of temperature.
+[Anderson][book_anderson]
+
+$$
+ \mathrm{Re}_x = \frac{\rho^* u_e x}{\mu^*}, \qquad \mu(T) = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} 
+\tag{20}
+$$
+
+*Equation 21, Bespoke Reynolds Number Five Metres Back from the Nose.*
+At Mach 2.6 and 35,000 feet a station the article takes as five metres back from the nose has a Reynolds number of about $3.6 \times 10^7$.
+
+$$
+ \mathrm{Re}_x = \frac{0.2109 \times 771.0 \times 5.0}{2.2598 \times 10^{-5}} = 3.598 \times 10^{7} 
+\tag{21}
+$$
+
+*Equation 22, Bespoke Thermal Time Constant of the Skin.*
+A two-millimetre aluminium skin, a thickness the article assumes with representative density and specific heat, has a time constant of about 26 seconds.
+
+$$
+ \tau = \frac{2780 \times 875 \times 0.002}{185.5} = 26.2\ \mathrm{s} 
+\tag{22}
+$$
+
+**Equation 23, First-Order Skin Temperature Transient.**
+From a cold start the skin temperature approaches the recovery temperature exponentially with the thermal time constant.
+
+$$
+ T_{\mathrm{skin}}(t) = T_\infty + \left(T_r - T_\infty\right)\left(1 - e^{-t/\tau}\right) 
+\tag{23}
+$$
+
+**Equation 24, Fully Restrained Thermal Stress.**
+A fully restrained material heated through a temperature change carries a stress equal to Young's modulus times the expansion coefficient times that change.
+
+$$
+ \sigma_{\mathrm{th}} = E\,\alpha\,\Delta T 
+\tag{24}
+$$
+
+*Equation 25, Bespoke Fully Restrained Thermal Stress at Mach 2.6.*
+With a modulus of 72 gigapascals and an expansion coefficient of 23 parts per million per kelvin taken as representative of aluminium alloy, the full excursion to the recovery temperature gives about 316 megapascals.
+
+$$
+ \sigma_{\mathrm{th}} = 72 \times 10^{9} \times 23 \times 10^{-6} \times 190.8 = 316\ \mathrm{MPa} 
+\tag{25}
+$$
+
+*Equation 26, Bespoke Retained Yield Strength and Stress Ratio.*
+The handbook room-temperature yield of 58 kilopounds per square inch times the 68 percent retained at temperature is about 272 megapascals, which the representative fully restrained stress exceeds by sixteen percent.
+[Metallic Materials and Elements for Aerospace Vehicle Structures, MIL-HDBK-5J][ref_mil_hdbk_5j]
+
+$$
+ \sigma_{\mathrm{yield}}(T_r) = 0.68 \times 58\ \mathrm{ksi} \times 6.895\ \frac{\mathrm{MPa}}{\mathrm{ksi}} = 0.68 \times 400\ \mathrm{MPa} = 272\ \mathrm{MPa}, \qquad \frac{316}{272} = 1.16 
+\tag{26}
+$$
+
+*Equation 27, Bespoke Temperature Differential Consuming Half the Strength.*
+Inverting the thermal stress relation with the representative modulus and expansion coefficient shows that 82 kelvin of differential consumes half the retained yield.
+
+$$
+ \Delta T_{1/2} = \frac{0.5\,\sigma_{\mathrm{yield}}(T)}{E\,\alpha} = \frac{0.5 \times 272 \times 10^{6}}{72 \times 10^{9} \times 23 \times 10^{-6}} = 82\ \mathrm{K} 
+\tag{27}
+$$
+
+**Equation 28, Total-Pressure Recovery.**
+Total-pressure recovery is the ratio of total pressure at the engine face to free-stream total pressure.
+[total-pressure recovery][ref_pressure_recovery]
+[Seddon and Goldsmith][book_seddon_goldsmith]
+
+$$
+ \eta = \frac{p_{t2}}{p_{t\infty}} 
+\tag{28}
+$$
+
+**Equation 29, Military Specification Reference Recovery.**
+The military specification reference recovery falls below one as a power of the supersonic excess of the Mach number.
+[Inlet Performance, NASA Glenn Research Center][ref_grc_inlet]
+
+$$
+ \eta_{\mathrm{ref}} = 1 - 0.075\,(M - 1)^{1.35}, \qquad M > 1 
+\tag{29}
+$$
+
+**Equation 30, Normal Shock Total-Pressure Ratio.**
+The total-pressure ratio across a normal shock has a closed form in the upstream Mach number and the ratio of specific heats.
+[normal shock][ref_normal_shock]
+[pitot inlet][ref_pitot_inlet]
+
+$$
+ \frac{p_{t2}}{p_{t1}} = \left[\frac{(\gamma+1)M^2}{2 + (\gamma-1)M^2}\right]^{\frac{\gamma}{\gamma-1}} \left[\frac{\gamma+1}{2\gamma M^2 - (\gamma-1)}\right]^{\frac{1}{\gamma-1}} 
+\tag{30}
+$$
+
+**Equation 31, Pitot Inlet Recovery at Mach 2.0 and 2.6.**
+A pitot inlet recovers about 0.72 of the total pressure at Mach 2.0 and 0.46 at Mach 2.6.
+
+$$
+ \eta_{\mathrm{pitot}}(2.0) = 0.7209, \qquad \eta_{\mathrm{pitot}}(2.6) = 0.4601 
+\tag{31}
+$$
+
+**Equation 32, Taylor-Maccoll Radial Velocity Equation.**
+In the Taylor-Maccoll formulation the derivative of the normalised radial velocity with respect to the polar angle equals the normalised polar velocity.
+[Taylor-Maccoll equation][ref_taylor_maccoll]
+
+$$
+ \frac{dV_r'}{d\theta} = V_\theta' 
+\tag{32}
+$$
+
+**Equation 33, Taylor-Maccoll Polar Velocity Equation.**
+The second Taylor-Maccoll equation gives the derivative of the normalised polar velocity, with the local speed of sound from the adiabatic energy equation.
+[Taylor-Maccoll equation][ref_taylor_maccoll]
+
+$$
+ \frac{dV_\theta'}{d\theta} = \frac{V_r' V_\theta'^2 - a'^2\left(2V_r' + V_\theta' \cot\theta\right)}{a'^2 - V_\theta'^2}, \qquad a'^2 = \frac{\gamma-1}{2}\left(1 - V_r'^2 - V_\theta'^2\right) 
+\tag{33}
+$$
+
+**Equation 34, Normal Mach Component of an Oblique Shock.**
+An oblique shock acts on the component of the upstream Mach number normal to the wave.
+
+$$
+ M_{n1} = M_1 \sin\beta 
+\tag{34}
+$$
+
+**Equation 35, Downstream Mach Number of an Oblique Shock.**
+The downstream Mach number follows from the normal shock relation applied to the normal component and the turned flow direction.
+[Shapiro][book_shapiro]
+[Anderson][book_anderson]
+[Seddon and Goldsmith][book_seddon_goldsmith]
+
+$$
+ M_{2}^{2} = \frac{1 + \frac{\gamma-1}{2}M_{n1}^{2}}{\gamma M_{n1}^{2} - \frac{\gamma-1}{2}} \bigg/ \sin^{2}(\beta - \theta_d) 
+\tag{35}
+$$
+
+**Equation 36, Mach Angle.**
+The wave angle cannot fall below the Mach angle, whose sine is the reciprocal of the Mach number, 30.00 degrees at Mach 2.0 and 22.62 at Mach 2.6.
+[Shapiro][book_shapiro]
+[Anderson][book_anderson]
+[Seddon and Goldsmith][book_seddon_goldsmith]
+
+$$
+ \mu = \arcsin\frac{1}{M}, \qquad \mu(2.0) = 30.00^\circ, \qquad \mu(2.6) = 22.62^\circ 
+\tag{36}
+$$
+
+**Equation 37, Theta-Beta-Mach Relation.**
+The oblique shock relation gives the flow deflection angle from the wave angle and the upstream Mach number.
+[oblique shock][ref_oblique_shock]
+
+$$
+ \tan\theta_d = 2\cot\beta\,\frac{M_1^2 \sin^2\beta - 1}{M_1^2(\gamma + \cos 2\beta) + 2} 
+\tag{37}
+$$
+
+**Equation 38, Recovery of a Two-Ramp Inlet.**
+The recovery of a two-ramp inlet is the product of the total-pressure ratios across its two oblique shocks and the terminal normal shock.
+
+$$
+ \eta_{\mathrm{2-ramp}} = \frac{p_{t2}}{p_{t1}}\bigg|_{\delta_1} \cdot \frac{p_{t3}}{p_{t2}}\bigg|_{\delta_2} \cdot \frac{p_{t4}}{p_{t3}}\bigg|_{\mathrm{normal}} 
+\tag{38}
+$$
+
+**Equation 39, Oswatitsch Equal-Strength Condition.**
+For a given number of oblique shocks the recovery is greatest when the shocks have equal normal Mach components.
+[Oswatitsch][ref_oswatitsch]
+
+$$
+ M_1 \sin\beta_1 = M_2 \sin\beta_2 = \cdots = M_n \sin\beta_n 
+\tag{39}
+$$
+
+**Equation 40, Shock-on-Lip Condition.**
+The shock from a cone apex a distance $L$ ahead of a lip at radius $r$ meets the lip when the tangent of the wave angle is their ratio.
+
+$$
+ \tan\beta = \frac{r}{L} \qquad \Longrightarrow \qquad L = \frac{r}{\tan\beta} 
+\tag{40}
+$$
+
+**Equation 41, Cone Travel Between Two Mach Numbers.**
+Holding the shock on the lip at two Mach numbers requires a travel equal to the lip radius times the difference of the cotangents of the two wave angles.
+[Seddon and Goldsmith][book_seddon_goldsmith]
+
+$$
+ \Delta L = r\left(\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}\right) 
+\tag{41}
+$$
+
+*Equation 42, Bespoke Lip Radius Implied by the Documented Travel.*
+Inverting the travel relation on the documented four inches, with the shock taken to be held on the lip from Mach 2.0 to Mach 2.6, gives the lip radius.
+
+$$
+ r = \frac{\Delta L}{\cot\beta_{\mathrm{hi}} - \cot\beta_{\mathrm{lo}}} 
+\tag{42}
+$$
+
+**Equation 43, Capture Area for a Given Mass Flow.**
+The capture area needed to admit a mass flow at full capture is that flow over the free-stream mass flux.
+
+$$
+ A_c = \frac{\dot m}{\rho_\infty V_\infty} 
+\tag{43}
+$$
+
+**Equation 44, Capture Area Required by the TF30 at Mach 2.0.**
+The documented 117.93 kilograms per second over the standard free-stream mass flux at Mach 2.0 and 35,000 feet needs about 5.64 square feet of capture.
+[TF30][ref_tf30]
+
+$$
+ A_c = \frac{117.93}{225.0} = 0.524\ \mathrm{m}^2 = 5.639\ \mathrm{ft}^2 
+\tag{44}
+$$
+
+*Equation 45, Bespoke Capture Area Error at a 25 Degree Cone.*
+At a cone half-angle the article assumes as 25 degrees, the capture area implied by the travel falls 4.2 percent short of the engine's requirement.
+
+$$
+ \varepsilon = \frac{A_{\mathrm{travel}} - A_c}{A_c} = \frac{5.401 - 5.639}{5.639} = -0.042 
+\tag{45}
+$$
+
+**Equation 46, Corrected Airflow.**
+Corrected airflow is the physical airflow times the square root of the total temperature ratio over the total pressure ratio to sea-level standard values.
+[corrected flow][ref_corrected_flow]
+
+$$
+ \dot m_{\mathrm{corr}} = \frac{\dot m \sqrt{\theta}}{\delta}, \qquad \theta = \frac{T_{t2}}{288.15}, \qquad \delta = \frac{p_{t2}}{101325} 
+\tag{46}
+$$
+
+**Equation 47, Energy Height.**
+The energy height is the altitude plus the kinetic energy per unit weight.
+
+$$
+ h_e = h + \frac{V^2}{2g} 
+\tag{47}
+$$
+
+*Equation 48, Bespoke Energy Height at the Manoeuvre Condition.*
+At 15,000 feet and Mach 0.9, a condition the article takes as representative of combat, the energy height is about 8,860 metres.
+
+$$
+ h_e = 4{,}572 + \frac{290.0^2}{2 \times 9.80665} = 4{,}572 + 4{,}289 = 8{,}861\ \mathrm{m} = 29{,}072\ \mathrm{ft} 
+\tag{48}
+$$
+
+**Equation 49, Specific Excess Power.**
+The specific excess power is the rate of change of energy height, the speed times excess thrust over weight.
+[specific excess power][ref_specific_excess_power]
+
+$$
+ P_s = \frac{dh_e}{dt} = V\,\frac{T - D}{W} 
+\tag{49}
+$$
+
+**Equation 50, Thrust-to-Weight Ratio of the CL-1200-2.**
+The rated 25,000 pounds of thrust over the normal loaded weight of 24,385 pounds is a thrust-to-weight ratio of about 1.03.
+
+$$
+ \frac{T}{W} = \frac{25{,}000\ \mathrm{lbf}}{24{,}385\ \mathrm{lb}} = 1.025 
+\tag{50}
+$$
+
+**Equation 51, Parabolic Drag Polar.**
+The drag coefficient is a parasite term plus an induced factor times the square of the lift coefficient.
+
+$$
+ C_D = C_{D_0} + K C_L^2 
+\tag{51}
+$$
+
+*Equation 52, Bespoke Parasite Drag Coefficient Used for All Four Aircraft.*
+An equivalent skin-friction coefficient of 0.0035 on a wetted-to-reference area ratio of 4.5 gives 0.0158, a value the article holds equal across the four aircraft as a deliberate control.
+[Raymer][book_raymer]
+
+$$
+ C_{D_0} = C_{fe}\,\frac{S_{\mathrm{wet}}}{S_{\mathrm{ref}}} = 0.0035 \times 4.5 = 0.0158 
+\tag{52}
+$$
+
+**Equation 53, Induced Drag Factor with Full Leading-Edge Suction.**
+With full leading-edge suction the induced drag factor is the elliptical result of one over pi times aspect ratio times efficiency.
+
+$$
+ K_{\mathrm{full}} = \frac{1}{\pi A e} 
+\tag{53}
+$$
+
+**Equation 54, Induced Drag Factor with No Leading-Edge Suction.**
+With no leading-edge suction the resultant force tilts back with the surface and the induced drag factor is the reciprocal of the lift-curve slope.
+[Raymer][book_raymer]
+[Nicolai][book_nicolai]
+
+$$
+ K_{\mathrm{none}} = \frac{1}{C_{L_\alpha}} 
+\tag{54}
+$$
+
+**Equation 55, Helmbold-Diederich Lift-Curve Slope.**
+The Helmbold-Diederich form gives the lift-curve slope of a low-aspect-ratio swept wing with a compressibility correction.
+[Helmbold-Diederich][ref_helmbold]
+[Raymer][book_raymer]
+[Nicolai][book_nicolai]
+
+$$
+ C_{L_\alpha} = \frac{2\pi A}{2 + \sqrt{4 + \dfrac{A^2\beta^2}{\eta^2}\left(1 + \dfrac{\tan^2\Lambda_{c/2}}{\beta^2}\right)}}, \qquad \beta = \sqrt{|1 - M^2|} 
+\tag{55}
+$$
+
+**Equation 56, Leading-Edge Suction Blend of the Induced Drag Factor.**
+The induced drag factor is a blend of the full-suction and zero-suction limits weighted by the leading-edge suction fraction $s$.
+[Raymer][book_raymer]
+
+$$
+ K = s\,K_{\mathrm{full}} + (1 - s)\,K_{\mathrm{none}}, \qquad 0 \le s \le 1 
+\tag{56}
+$$
+
+**Equation 57, Lift Coefficient at Load Factor.**
+The lift coefficient required at load factor $n$ is $n$ times the weight over dynamic pressure times wing area.
+
+$$
+ C_L = \frac{n W}{q S} 
+\tag{57}
+$$
+
+**Equation 58, Sustained Load Factor.**
+Setting thrust equal to drag at the required lift coefficient gives the sustained load factor in terms of thrust-to-weight, the polar and the dynamic pressure.
+
+$$
+ n_{\mathrm{sus}} = \sqrt{\frac{q S}{K W}\left(\frac{T}{W} - \frac{q S C_{D_0}}{W}\right)} 
+\tag{58}
+$$
+
+**Equation 59, Turn Rate.**
+The turn rate in a level turn is gravity times the square root of the squared load factor less one, over the speed.
+
+$$
+ \dot\psi = \frac{g\sqrt{n^2 - 1}}{V} 
+\tag{59}
+$$
+
+**Equation 60, Turn Radius.**
+The radius of a level turn is the speed squared over gravity times the square root of the squared load factor less one.
+
+$$
+ R = \frac{V^2}{g\sqrt{n^2 - 1}} 
+\tag{60}
+$$
+
+**Equation 61, Load Factor and Bank Angle in a Level Turn.**
+In a level turn the load factor is the reciprocal of the cosine of the bank angle.
+
+$$
+ n = \frac{1}{\cos\phi} 
+\tag{61}
+$$
+
+*Equation 62, Bespoke Bank Angle and Turn Radius of the Lancer.*
+At the sustained load factor of 6.34 that the article's constructed polar gives at the manoeuvre condition, the bank is about 81 degrees and the radius about 1,370 metres.
+
+$$
+ \phi = \arccos\frac{1}{6.34} = 80.9^\circ, \qquad R = \frac{290.0^2}{9.80665\sqrt{6.34^2 - 1}} = 1{,}371\ \mathrm{m} = 4{,}496\ \mathrm{ft} 
+\tag{62}
+$$
+
+**Equation 63, Evaluation Weights as Fractions of Maximum Weight.**
+The tabulated evaluation weights are 0.94, 0.77, 0.65 and 0.70 of the maximum weights of the F-104G, F-5E, F-15A and CL-1200-2.
+[Quest for Performance, NASA SP-468][ref_sp468]
+
+$$
+ \frac{27{,}300}{29{,}083} = 0.939, \qquad \frac{15{,}745}{20{,}486} = 0.769, \qquad \frac{44{,}500}{68{,}000} = 0.654, \qquad \frac{24{,}385}{35{,}000} = 0.697 
+\tag{63}
+$$
+
+*Equation 64, Bespoke Specific Excess Power Shortfall Relative to the F-15A.*
+At a leading-edge suction fraction of 0.5 and the common parasite drag control the Lancer's specific excess power is 4.2 percent below the F-15A's.
+[Lightweight Fighter][ref_lwf]
+
+$$
+ 1 - \frac{P_{s,\mathrm{CL\text{-}1200\text{-}2}}}{P_{s,\mathrm{F\text{-}15A}}} = 1 - \frac{830}{866} = 0.042 
+\tag{64}
+$$
+
+**Equation 65, Corner Speed.**
+The corner speed is the lowest speed at which the structural limit load factor can be reached at the maximum lift coefficient.
+
+$$
+ V^* = \sqrt{\frac{2\,n_{\mathrm{limit}}\,W}{\rho\,S\,C_{L_{\max}}}} 
+\tag{65}
+$$
+
+**Equation 66, Stall Speed and Corner Speed.**
+The stall speed is the corner speed relation at a load factor of one, so the corner speed is the square root of the limit load factor times the stall speed.
+[Raymer][book_raymer]
+[Nicolai][book_nicolai]
+
+$$
+ V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} , \qquad V^{*} = \sqrt{n_{\mathrm{limit}}}\;V_{\mathrm{stall}} 
+\tag{66}
+$$
+
+**Equation 67, Net Thrust of a Jet Engine.**
+The net thrust is the mass flow times the difference of exhaust and flight velocities, the second term being the ram drag.
+
+$$
+ F_{\mathrm{net}} = \dot m\left(V_e - V_0\right) 
+\tag{67}
+$$
+
+**Equation 68, Ram Drag at Mach 2.6.**
+The documented TF30 airflow at the standard free-stream speed for Mach 2.6 at 35,000 feet carries a ram drag of about 20,400 pounds.
+
+$$
+ D_{\mathrm{ram}} = \dot m V_0 = 117.93 \times 771.0 = 90{,}926\ \mathrm{N} = 20{,}441\ \mathrm{lbf} 
+\tag{68}
+$$
+
+*Equation 69, Bespoke Exhaust Velocity to Hold the Rated Thrust at Mach 2.6.*
+If the sea-level net thrust rating were held at Mach 2.6, a supposition the article tests rather than asserts, the exhaust velocity would have to be about 1,710 metres per second.
+
+$$
+ V_e = \frac{F_{\mathrm{net}} + \dot m V_0}{\dot m} = \frac{111{,}206 + 90{,}926}{117.93} = 1{,}714\ \mathrm{m/s} 
+\tag{69}
+$$
+
+**Equation 70, Static Exhaust Velocity at the Rated Thrust.**
+The rated net thrust over the documented airflow at rest implies an exhaust velocity of about 943 metres per second.
+
+$$
+ V_{e,\,\mathrm{static}} = \frac{F_{\mathrm{net}}}{\dot m} = \frac{111{,}206}{117.93} = 943\ \mathrm{m/s} 
+\tag{70}
+$$
+
+*Equation 71, Bespoke Propulsive Efficiency at Mach 2.6.*
+The Froude propulsive efficiency at the hypothetical exhaust velocity that holds the rated thrust at Mach 2.6 is about 0.62.
+
+$$
+ \eta_p = \frac{2V_0}{V_0 + V_e} = \frac{2 \times 771.0}{771.0 + 1714} = 0.621 
+\tag{71}
+$$
+
+**Equation 72, Lift.**
+Lift is the lift coefficient carried on the dynamic pressure and the wing area.
+[Hoerner][book_hoerner]
+[Kuchemann][book_kuchemann]
+
+$$
+ L = q\,S\,C_L 
+\tag{72}
+$$
+
+**Equation 73, Horizontal Tail Volume Coefficient.**
+The horizontal tail volume coefficient is the tail area times the tail arm over the wing area times the mean aerodynamic chord.
+
+$$
+ V_H = \frac{S_t\,l_t}{S\,\bar{c}} 
+\tag{73}
+$$
+
+**Equation 74, Tail Contribution to Pitch Stiffness.**
+The tail contributes to pitch stiffness in proportion to its lift-curve slope, its volume coefficient, its efficiency and one minus the downwash gradient.
+
+$$
+ C_{m_\alpha,\,\mathrm{tail}} = -a_t\,V_H\,\eta_t\left(1 - \frac{d\varepsilon}{d\alpha}\right) 
+\tag{74}
+$$
+
+**Equation 75, Static Margin.**
+The static margin is the negative ratio of pitch stiffness to lift-curve slope, equal to the distance from centre of gravity to neutral point over the mean aerodynamic chord.
+
+$$
+ \mathrm{SM} = -\frac{C_{m_\alpha}}{C_{L_\alpha}} = \frac{x_{np} - x_{cg}}{\bar{c}} 
+\tag{75}
+$$
+
+**Equation 76, Far-Field Downwash Gradient.**
+The far-field downwash gradient is approximately twice the lift-curve slope over pi times the aspect ratio.
+
+$$
+ \frac{d\varepsilon}{d\alpha} \approx \frac{2\,C_{L_\alpha}}{\pi A} 
+\tag{76}
+$$
+
+**Equation 77, Specific Excess Power as a Ceiling on Climb Rate.**
+Differentiating the energy height and holding speed constant leaves the climb rate equal to the specific excess power, which is therefore its ceiling.
+[Whitford][book_whitford]
+
+$$
+ \frac{dh_e}{dt} = \frac{dh}{dt} + \frac{V}{g}\frac{dV}{dt} = P_s \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\max} = P_s 
+\tag{77}
+$$
+
+*Equation 78, Bespoke Excess of the Climb Claim over the Computed Ceiling.*
+The claimed 60,000 feet per minute exceeds by 21.6 percent the largest specific excess power that the article's constructed polar and the published thrust and weight produce.
+
+$$
+ \frac{\dot h_{\mathrm{claim}}}{P_{s,\max}} - 1 = \frac{60{,}000}{49{,}332} - 1 = 0.216 
+\tag{78}
+$$
+
+*Equation 79, Bespoke Excess over a Coarse Mach Scan.*
+A coarse scan that stops at Mach 1.2 takes the peak of the constructed specific excess power as 48,585 feet per minute and overstates the excess at 23.5 percent.
+
+$$
+ \frac{60{,}000}{48{,}585} - 1 = 0.235 
+\tag{79}
+$$
+
+**Equation 80, Clean Disposable Load of the Lancer.**
+The normal loaded weight less the empty weight gives a clean disposable load of 6,500 pounds.
+[CL-1200 Lancer][ref_cl1200]
+
+$$
+ W_{\mathrm{fuel,\ clean}} = W_{\mathrm{loaded}} - W_{\mathrm{empty}} = 24{,}385 - 17{,}885 = 6{,}500\ \mathrm{lb} 
+\tag{80}
+$$
+
+**Equation 81, Takeoff Ground Roll Integral.**
+The ground roll is the integral of speed over acceleration up to lift-off speed, with the acceleration set by thrust less drag and rolling friction.
+
+$$
+ s = \int_0^{V_{\mathrm{LOF}}} \frac{V\,dV}{a(V)}, \qquad a(V) = \frac{T - D - \mu\left(W - L\right)}{W/g} 
+\tag{81}
+$$
+
+**Equation 82, Lift-Off Speed.**
+The lift-off speed is taken by the usual sizing convention as 1.1 times the stall speed.
+
+$$
+ V_{\mathrm{LOF}} = 1.1\,V_{\mathrm{stall}} 
+\tag{82}
+$$
+
+**Equation 83, Breguet Range Equation.**
+The Breguet range is speed over specific fuel consumption times the lift-to-drag ratio times the logarithm of the start to end weight ratio.
+[Breguet range equation][ref_breguet]
+[Raymer][book_raymer]
+[Nicolai][book_nicolai]
+
+$$
+ R = \frac{V}{c_t}\,\frac{L}{D}\,\ln\frac{W_0}{W_1} 
+\tag{83}
+$$
+
+**Equation 84, Fuel Weight on the Radius Mission.**
+The maximum takeoff weight less the empty weight and the 4,000 pound bombload leaves 13,115 pounds of fuel.
+[CL-1200 Lancer][ref_cl1200]
+
+$$
+ W_{\mathrm{fuel}} = W_0 - W_{\mathrm{empty}} - W_{\mathrm{stores}} = 35{,}000 - 17{,}885 - 4{,}000 = 13{,}115\ \mathrm{lb} 
+\tag{84}
+$$
+
+*Equation 85, Bespoke End Weight of the Radius Mission.*
+Burning a usable fuel fraction the article takes as 0.85 leaves an end weight of about 23,850 pounds.
+
+$$
+ W_1 = W_0 - f\,W_{\mathrm{fuel}} = 35{,}000 - 0.85 \times 13{,}115 = 23{,}852\ \mathrm{lb} 
+\tag{85}
+$$
+
+*Equation 86, Bespoke Breguet Weight Ratio.*
+The start weight over the end weight that the assumed usable fuel fraction gives is about 1.47.
+
+$$
+ \frac{W_0}{W_1} = \frac{35{,}000}{23{,}852} = 1.4674 
+\tag{86}
+$$
+
+*Equation 87, Bespoke Mission Factor.*
+The article defines the mission factor as the claimed combat radius over the still-air Breguet range, about 0.19 at an assumed lift-to-drag ratio of 8 and specific fuel consumption of 0.85 per hour.
+
+$$
+ k_m = \frac{R_{\mathrm{combat}}}{R_{\mathrm{still\,air}}} = \frac{367}{1{,}914} = 0.192 
+\tag{87}
+$$
+
+### Notation
+
+- $A$, the wing aspect ratio
+- $b$, the wing span
+- $S$, the wing reference area
+- $W$, the weight, with $W_0$ and $W_1$ the start and end weights in the Breguet relation
+- $\lambda$, the temperature lapse rate in the standard atmosphere
+- $R T$, the specific gas constant $R$ times the temperature $T$
+- $\rho$, the air density
+- $a$, the speed of sound
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $M$, the Mach number
+- $q$, the dynamic pressure
+- $c_p$, the specific heat at constant pressure
+- $T_t$, the total temperature
+- $T_r$, the recovery temperature
+- $\Pr$, the Prandtl number
+- $\tau$, the thermal time constant of the skin
+- $T^*$, the Eckert reference temperature
+- $\mathrm{St}$, the Stanton number
+- $\mathrm{Re}_x$, the local Reynolds number
+- $\sigma_{\mathrm{th}}$, the fully restrained thermal stress
+- $E\,\alpha$, the product of Young's modulus and the coefficient of thermal expansion
+- $\eta$, the total-pressure recovery
+- $p_{t2}$, the total pressure at the engine face or behind a shock
+- $\beta$, the shock wave angle in the inlet relations and $\sqrt{|1 - M^2|}$ in the lift-curve slope relation
+- $\theta_d$, the flow deflection angle across an oblique shock
+- $\mu$, the Mach angle in Equation 36, the viscosity in Equation 20 and the rolling friction coefficient in Equation 81
+- $A_c$, the inlet capture area
+- $\dot m$, the engine mass flow
+- $h_e$, the energy height
+- $P_s$, the specific excess power
+- $C_{D_0}$, the parasite drag coefficient
+- $K$, the induced drag factor
+- $C_{L_\alpha}$, the lift-curve slope
+- $n$, the load factor
+- $V^*$, the corner speed
+- $C_{L_{\max}}$, the maximum lift coefficient
+- $V_e$, the exhaust velocity, with $V_0$ the flight velocity
+- $\eta_p$, the propulsive efficiency
+- $V_H$, the horizontal tail volume coefficient
+- $\bar{c}$, the mean aerodynamic chord
+- $\mathrm{SM}$, the static margin as a fraction of the mean aerodynamic chord
+- $x_{np}$, the longitudinal position of the neutral point, with $x_{cg}$ that of the centre of gravity
+- $\frac{d\varepsilon}{d\alpha}$, the downwash gradient at the tail
+- $c_t$, the thrust specific fuel consumption
+- $k_m$, the mission factor
 
 ## References
 

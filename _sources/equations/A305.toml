@@ -1,0 +1,1831 @@
+# Equation classification for A305. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in International System units unless a line states otherwise, with altitudes and scale heights inside a logarithm or a product sometimes written in kilometres and the nozzle exit area first found in square inches from pounds of thrust, and the effective exhaust velocity of 1962 metres per second is a working value the article infers rather than a measured one."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Beer and Lambert Attenuation"
+gloss = "Radiation crossing an absorbing medium falls exponentially with the optical depth accumulated along its path."
+cite = ["book_banks_kockarts_1973"]
+digest = "4ef268cf8bc78821"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Optical Depth of the Overhead Column"
+gloss = "The optical depth above an altitude is the absorption cross-section times the column of absorbers overhead for a path at the zenith."
+cite = ["book_banks_kockarts_1973"]
+digest = "585791457df7748b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Scale Height of an Isothermal Atmosphere"
+gloss = "The scale height is the thermal energy per molecule divided by the weight of a molecule, the distance over which an isothermal atmosphere thins by a factor of $e$."
+cite = ["book_banks_kockarts_1973"]
+digest = "9973da0dd52c0cb5"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Scale Height at 250 Kelvin"
+gloss = "Evaluating the scale height for air of mean molecular mass 28.9 atomic mass units at 250 kelvin and a gravity of 9.5 metres per second squared gives about 7.6 kilometres."
+cite = []
+digest = "995cc9fd4ef7f8c2"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Optical Depth of an Exponential Atmosphere"
+gloss = "For a density falling exponentially with the scale height the column integral collapses, so the optical depth is the cross-section times the local density times the scale height."
+cite = ["research_chapman_1931"]
+digest = "96adc92bdf28e39c"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Density at Unit Optical Depth"
+gloss = "The atmosphere becomes transparent at the density at which the optical depth falls to one."
+cite = ["research_chapman_1931"]
+digest = "0ff4659d09a47341"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Altitude of Unit Optical Depth"
+gloss = "The altitude at which the overhead column reaches unit optical depth is the scale height times the logarithm of the sea-level density over the critical density, so it depends only logarithmically on the cross-section."
+cite = ["research_chapman_1931"]
+digest = "bd6a7e45795e04fe"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Critical Density for Lyman-Alpha Absorption by Oxygen"
+gloss = "Molecular oxygen at 21 percent of the air with a cross-section near $10^{-24}$ square metres reaches unit optical depth at a total density of about $6.3 \\times 10^{20}$ per cubic metre."
+cite = []
+digest = "f972fedd985c4ddd"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Altitude at Which Lyman-Alpha Becomes Observable"
+gloss = "The unit optical depth altitude for the Lyman-alpha critical density is about 80 kilometres."
+cite = []
+digest = "7c2e502dd2594aed"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Altitude at Which Soft X-Rays Become Observable"
+gloss = "A cross-section near $10^{-23}$ square metres against the bulk atmosphere places unit optical depth for radiation near 44 angstroms at about 110 kilometres."
+cite = []
+digest = "071763c58aa051f4"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Optical Depth of the Whole Ozone Layer"
+gloss = "The Hartley band cross-section times the total ozone column gives an optical depth of about 92, so the layer is opaque until the rocket climbs through it."
+cite = []
+digest = "3b582e23df764639"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Time Above a Threshold on a Ballistic Arc"
+gloss = "With gravity constant over the arc the altitude is a parabola in time, so the interval above a threshold is twice the time to fall from apogee to that threshold."
+cite = []
+digest = "be46ac575a43dbb2"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Time Above the Lyman-Alpha Threshold"
+gloss = "An apogee of 116 kilometres gives about 174 seconds above the 80 kilometre threshold."
+cite = []
+digest = "79d6e9c904ee7059"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Time Above the Soft X-Ray Threshold"
+gloss = "The same apogee gives about 71 seconds above the 110 kilometre threshold."
+cite = []
+digest = "de2cb3ee35b2aef2"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Apogee from Burnout Conditions"
+gloss = "In a drag-free vertical coast at constant gravity the apogee exceeds the burnout altitude by the square of the burnout speed over twice the gravity."
+cite = []
+digest = "d52e037b6049d7e0"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Observing Time Above Burnout Altitude"
+gloss = "Setting the threshold at the burnout altitude cancels it and leaves an observing time of twice the burnout speed over gravity."
+cite = []
+digest = "0a8d006bdbb37700"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The ideal velocity increment is the effective exhaust velocity times the natural logarithm of the mass ratio."
+cite = ["ref_rocket_equation", "book_sutton_biblarz_2016"]
+digest = "a94aa3409c48aa76"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Observing Time in Terms of Exhaust Velocity and Mass Ratio"
+gloss = "Substituting the ideal rocket increment for the burnout speed makes the observing time linear in exhaust velocity and logarithmic in mass ratio, under the article's neglect of gravity and drag losses during the burn."
+cite = []
+digest = "b16a7bc4c5f212f3"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Observing Time Coefficient"
+gloss = "Twice the working exhaust velocity of 1962 metres per second over gravity gives 400 seconds of observation for each factor of $e$ in mass ratio."
+cite = []
+digest = "7946a09659fdec24"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Probability of a Target Within the Field of View"
+gloss = "For a circular Gaussian pointing error the chance that the target falls within a field of half-angle $\\theta$ follows the Rayleigh distribution of the radial error."
+cite = []
+digest = "15a6318e32d74840"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Miles Equation for Random Vibration Response"
+gloss = "A lightly damped single-degree-of-freedom structure driven by broadband acceleration responds with a root-mean-square acceleration set by its natural frequency, quality factor and the input spectral density."
+cite = []
+digest = "32abe8282f11bf43"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Molecular Flux from Kinetic Theory"
+gloss = "Kinetic theory gives the number of molecules striking or leaving a surface per unit area and time at a partial pressure $p$ and temperature $T$."
+cite = []
+digest = "53af7e8c20b656ed"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Sample Size for a Two-Sample Comparison"
+gloss = "Detecting a difference $d$ against a scatter $\\sigma$ at a chosen significance and power requires a number of samples per group set by the sum of the two normal quantiles."
+cite = ["book_box_hunter_hunter_2005", "book_cohen_1988"]
+digest = "53b518a58269df67"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Sample Size for an Effect Equal to the Scatter"
+gloss = "At five percent significance and eighty percent power an effect the size of the scatter needs about sixteen flights per condition."
+cite = ["book_box_hunter_hunter_2005", "book_cohen_1988"]
+digest = "a6249d5901afd12b"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Standard Error at a Sample Size Set by Budget"
+gloss = "The standard error of a mean falls as the inverse square root of the sample, and the article sets the sample by dividing a fixed budget by the unit cost of a flight."
+cite = []
+digest = "9fd4bced87f7dd14"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Ideal Effective Exhaust Velocity"
+gloss = "The exhaust velocity of an ideal isentropic expansion is fixed by the combustion temperature, the molecular mass of the products, the ratio of specific heats and the nozzle pressure ratio."
+cite = ["book_sutton_biblarz_2016"]
+digest = "71dfe9d6f279c24a"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Exhaust Velocity of Nitric Acid and Aniline"
+gloss = "The ideal relation is evaluated at a flame temperature near 2900 kelvin, products of 25 grammes per mole, a ratio of specific heats of 1.22 and an expansion from 2.8 to 0.1 megapascals."
+cite = []
+digest = "270cfdaebfd5f147"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Theoretical Exhaust Velocity of the Sustainer Propellants"
+gloss = "Collecting the factors gives a theoretical effective exhaust velocity of about 2196 metres per second."
+cite = []
+digest = "ce5fe6a0202926bd"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Theoretical Specific Impulse"
+gloss = "The specific impulse is the effective exhaust velocity divided by standard gravity, about 224 seconds for this propellant in theory."
+cite = ["ref_specific_impulse"]
+digest = "cd2145926eeb8df1"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Boil-Off Rate of a Cryogenic Tank"
+gloss = "Heat leaking through the tank wall vaporises propellant at the heat flow divided by the latent heat of vaporisation."
+cite = []
+digest = "f44b70e54b8d8c29"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Boil-Off of Uninsulated Liquid Oxygen"
+gloss = "The boil-off is evaluated for an uninsulated wall with an overall coefficient of 5 watts per square metre kelvin and a temperature difference of 210 kelvin, values the article assumes."
+cite = []
+digest = "ecac525f9a7947a9"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Vacuum and Sea-Level Thrust Difference"
+gloss = "The thrust lost at sea level is the ambient pressure acting on the nozzle exit area."
+cite = []
+digest = "93d23cf80e0f5981"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Nozzle Exit Area from the Thrust Difference"
+gloss = "The published vacuum and sea-level thrusts of the 4000 pound engine fix the exit area at about 42.7 square inches."
+cite = []
+digest = "85e61de0e6eb7464"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Nozzle Exit Diameter"
+gloss = "The exit diameter follows from the exit area of a circular nozzle."
+cite = []
+digest = "171057784c38f416"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Throat Area from the Expansion Ratio"
+gloss = "Dividing the exit area by the published expansion ratio of 4.6 gives the throat area and diameter."
+cite = []
+digest = "508a028832fa38e6"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Isentropic Area Mach Relation"
+gloss = "The ratio of exit to throat area fixes the exit Mach number of an isentropic nozzle for a given ratio of specific heats."
+cite = ["book_sutton_biblarz_2016", "book_anderson_2002_modern_compressible"]
+digest = "3bdb48ad8e1c1146"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Exit Pressure Ratio"
+gloss = "The isentropic pressure ratio at the exit Mach number gives the exit pressure as a fraction of chamber pressure."
+cite = ["book_sutton_biblarz_2016"]
+digest = "f00aac02a7dab475"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Thrust Coefficient"
+gloss = "The thrust coefficient is the momentum term of the ideal expansion plus the pressure difference across the exit area over the chamber pressure."
+cite = ["book_sutton_biblarz_2016"]
+digest = "549121a74bc4aa26"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Vacuum Thrust Coefficient"
+gloss = "At an expansion ratio of 4.6 the momentum term and the full exit pressure term sum to about 1.624."
+cite = []
+digest = "5734b1980fbdbb86"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Sea-Level Thrust in Terms of Chamber Pressure"
+gloss = "The sea-level thrust is the vacuum thrust less the ambient pressure on the exit area, which ties the sea-level coefficient to the chamber pressure."
+cite = []
+digest = "6cabd40330ec8f9d"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Chamber Pressure from the Sea-Level Thrust"
+gloss = "Solving the sea-level thrust relation with the published 4100 pounds gives a chamber pressure of about 2.16 megapascals."
+cite = []
+digest = "83cd5ff7b6e53254"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Sea-Level Thrust Coefficient"
+gloss = "Subtracting the ambient pressure term at that chamber pressure gives a sea-level coefficient of about 1.41."
+cite = []
+digest = "4fd065247092321d"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Vacuum Thrust as an Independent Check"
+gloss = "Carrying the derived chamber pressure back to vacuum reproduces the separately published 4728 pounds to within one pound."
+cite = []
+digest = "84b0d5bac25919c7"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Exit Pressure at Sea Level"
+gloss = "The exit pressure of about 74 kilopascals lies below ambient, so the nozzle is overexpanded at sea level."
+cite = []
+digest = "17cbaf7a655f1a01"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Characteristic Velocity"
+gloss = "The characteristic velocity is the chamber pressure times the throat area divided by the mass flow, a measure of combustion quality independent of the nozzle."
+cite = ["book_sutton_biblarz_2016"]
+digest = "780262d05dae3a2b"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Mass Flow from Thrust and Specific Impulse"
+gloss = "The mass flow is the thrust divided by the effective exhaust velocity, here the working value of 200 seconds of specific impulse."
+cite = []
+digest = "5e55c0165b496cc1"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Delivered Characteristic Velocity"
+gloss = "The derived chamber pressure, throat area and mass flow give a delivered characteristic velocity of about 1393 metres per second."
+cite = []
+digest = "2252d1e8dace4678"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Mass Flow Through a Choked Throat"
+gloss = "A sonic throat passes a mass flow fixed by the chamber pressure, the throat area, the chamber temperature and a flow factor that depends on the ratio of specific heats."
+cite = ["book_sutton_biblarz_2016"]
+digest = "07f9c9916031daf1"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Ideal Characteristic Velocity"
+gloss = "Combining the choked flow relation with the definition shows that the ideal characteristic velocity depends only on the combustion gas."
+cite = ["book_sutton_biblarz_2016"]
+digest = "6adbc039a476773b"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Ideal Characteristic Velocity of the Propellants"
+gloss = "A specific gas constant of 333 joules per kilogramme kelvin at 2900 kelvin and a flow factor of 0.652 give about 1505 metres per second."
+cite = []
+digest = "014f1e61d6e22836"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Combustion Efficiency"
+gloss = "The ratio of the delivered to the ideal characteristic velocity gives a combustion efficiency near 93 percent."
+cite = []
+digest = "5fc9746c6dcf052a"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Bartz Throat Heat Transfer Correlation"
+gloss = "The Bartz correlation gives the gas-side heat transfer coefficient at a rocket throat from the throat diameter, the gas properties and the ratio of chamber pressure to characteristic velocity."
+cite = []
+digest = "f643eb149f2c6e4e"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Throat Heat Transfer Coefficient"
+gloss = "The correlation is evaluated with a viscosity, specific heat and Prandtl number that the article assumes for the combustion gas."
+cite = []
+digest = "d20f5b80bb0d7a3e"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Throat Heat Flux"
+gloss = "The heat transfer coefficient times a gas-to-wall temperature difference of about 1900 kelvin, which the article assumes, gives a throat flux of about nine megawatts per square metre."
+cite = []
+digest = "6dae2aae3613ea33"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Mass of a Thin-Walled Pressure Vessel"
+gloss = "The wall mass of a thin pressure vessel is a shape factor times the pressure and volume divided by the specific strength of the material."
+cite = ["book_huzel_huang_1992"]
+digest = "39c708f269a23c90"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Volume of a Cylindrical Tank"
+gloss = "A cylinder of 0.38 metres diameter and 3 metres length holds 0.34 cubic metres."
+cite = []
+digest = "30ed9f7cf4bf1c3e"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Mass of a Pressure-Fed Tank"
+gloss = "The vessel mass is evaluated at an ullage pressure of 3.1 megapascals and an aluminium allowable of 200 megapascals, values the article assumes."
+cite = ["book_huzel_huang_1992"]
+digest = "fbf41228e36b9d2f"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Mass of Stored Pressurant"
+gloss = "The real-gas law gives the mass of pressurant that fills a volume at a given pressure and temperature."
+cite = []
+digest = "6ce60a6db3564e98"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Helium Mass to Pressurise One Tank"
+gloss = "Helium at 3.1 megapascals filling 0.34 cubic metres at 300 kelvin weighs about 1.7 kilogrammes."
+cite = []
+digest = "47d78f9c79a90b51"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Air Mass to Pressurise One Tank"
+gloss = "Air does the same job at the ratio of molecular masses, about 12 kilogrammes."
+cite = []
+digest = "312bc82122fedc68"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Burnout Speed from a Drag-Free Coast"
+gloss = "Energy conservation in a drag-free coast at a mean gravity gives the burnout speed needed to reach a given apogee."
+cite = []
+digest = "e7b2d7fa215d8174"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Burnout Speed Implied by the Published Apogee"
+gloss = "The published apogee and burnout altitude imply about 1274 metres per second, below the reported 1347 by the drag the coast omits."
+cite = ["ref_white_2011_x8"]
+digest = "ece9c2b807206967"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Gravity Loss in Near-Vertical Flight"
+gloss = "The component of gravity along a path at angle $\\gamma$ from the vertical, integrated over the burn, is close to the mean gravity times the burn time when the path stays near vertical."
+cite = []
+digest = "76210f8d8178b6d4"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Gravity Loss Over the Burn"
+gloss = "A 42.5 second burn at a mean gravity of 9.75 metres per second squared loses about 414 metres per second."
+cite = []
+digest = "fc2ebfa76d4eec08"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Ideal Velocity Increment Required"
+gloss = "The budget adds the reported burnout speed, the gravity loss and a drag loss of 130 metres per second that the article assumes from its own estimated range."
+cite = []
+digest = "b7c0138e3646c6fc"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Total Impulse of Booster and Sustainer"
+gloss = "The published thrusts and burn times of the two motors give a combined impulse of about 664 kilonewton seconds."
+cite = ["ref_aerobee"]
+digest = "3f389766cc86d739"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Propellant Mass Implied by the Total Impulse"
+gloss = "Dividing the total impulse by the working exhaust velocity gives about 338 kilogrammes of propellant."
+cite = []
+digest = "b1d978fb4e24eea2"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Single-Stage Mass Ratio with the Booster Jettisoned"
+gloss = "The mass ratio subtracts the propellant and a booster inert mass of 150 kilogrammes that the article assumes, since no source reports it."
+cite = []
+digest = "eedb6a0cfc3b245b"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Booster Propellant Mass"
+gloss = "The booster impulse divided by a solid-motor exhaust velocity of 2060 metres per second, which the article assumes, gives about 97 kilogrammes of propellant."
+cite = []
+digest = "5ff7672f110567bc"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Velocity Increment of the Boost Phase"
+gloss = "The rocket equation applied to the boost, with the exhaust velocity taken as thrust over mass flow, gives about 288 metres per second."
+cite = []
+digest = "0fc8f0ff5cfa6046"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Velocity Increment of the Sustainer Phase"
+gloss = "The rocket equation applied to the sustainer stage from 498 to 261.5 kilogrammes gives about 1264 metres per second."
+cite = []
+digest = "b4406922a9e07a3e"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Staged Reconstruction of the Burnout Speed"
+gloss = "The two increments less their gravity losses fall short of the reported burnout speed before drag is counted, a closure test the article constructs on its assumed inert mass, burn time and exhaust velocity."
+cite = []
+digest = "7318959f6fb15f70"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Exit Speed from a Launch Tower"
+gloss = "A constant net acceleration over the tower length gives an exit speed of the square root of twice their product."
+cite = []
+digest = "a242981fb7215ca4"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Net Acceleration During Boost"
+gloss = "Both motors acting on the full liftoff mass against gravity give a net acceleration of about 113 metres per second squared."
+cite = []
+digest = "ad0b1502ecbf98ac"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Exit Speed from the 143-Foot Tower"
+gloss = "The net acceleration over the 43.6 metre tower gives an exit speed of about 99 metres per second."
+cite = ["ref_mattson_tagg_1995"]
+digest = "c943b86eed34f50e"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Time on the Tower"
+gloss = "The exit speed divided by the net acceleration gives under a second on the tower."
+cite = []
+digest = "4198b5524505594f"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Angle of Attack Induced by a Crosswind"
+gloss = "A crosswind meeting a vehicle at its exit speed produces an angle of attack whose tangent is the ratio of the two speeds."
+cite = []
+digest = "c70b40ee0dc59fd3"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Crosswind Angle of Attack at Tower Exit"
+gloss = "A ten metre per second crosswind at the tower exit speed gives an angle of attack of about 5.7 degrees."
+cite = []
+digest = "bf64b7f4f69deea8"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Aerodynamic Restoring Stiffness"
+gloss = "The pitch restoring moment per radian is the dynamic pressure times the reference area times the normal force slope times the static margin."
+cite = []
+digest = "ac8d49bc58d7136b"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Dynamic Pressure at Tower Exit"
+gloss = "At the range elevation of 1200 metres the exit speed gives a dynamic pressure of about 5.2 kilopascals."
+cite = []
+digest = "5b8298fcdb8fc552"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Restoring Stiffness at Tower Exit"
+gloss = "The stiffness is evaluated with a normal force slope of 12 per radian, a static margin of 1.5 calibres and a pitch inertia of 3000 kilogramme square metres, values the article assumes."
+cite = []
+digest = "315279e2a8e2c4d0"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Pitch Natural Frequency at Tower Exit"
+gloss = "The square root of the restoring stiffness over the pitch inertia gives about 1.16 radians per second."
+cite = []
+digest = "f28334dd7b07097c"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Linear Pitch Equation with Fin Damping"
+gloss = "The article writes the pitch motion as a second-order system whose damping term takes the static margin as the lever arm of the fin force induced by pitch rate, a simplification of the usual pitch damping derivative."
+cite = []
+digest = "e98ccd129f9bdd5f"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Standard Second-Order Form"
+gloss = "Dividing by the pitch inertia puts the motion in the standard form whose damping ratio is the damping term over twice the square root of stiffness times inertia."
+cite = []
+digest = "773eee9ef7954efc"
+
+[[equation]]
+tag = 85
+class = "bespoke"
+title = "Bespoke Pitch Damping Coefficient at Tower Exit"
+gloss = "The damping coefficient of the article's model is evaluated at tower exit with the assumed slope, static margin and speed."
+cite = []
+digest = "3d166a0d552b82f1"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Damping Ratio at Tower Exit"
+gloss = "The model damping ratio at tower exit is about a third of one percent of critical."
+cite = []
+digest = "31d065abc2c21ebf"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Cycles to Halve an Oscillation"
+gloss = "A lightly damped oscillation halves in amplitude after the natural logarithm of two divided by two pi times the damping ratio cycles, about 33 here."
+cite = []
+digest = "cab3dfca6cddd4cf"
+
+[[equation]]
+tag = 88
+class = "bespoke"
+title = "Bespoke Scaling of Damping Ratio with Density"
+gloss = "Because the model damping scales as density times speed and the stiffness root as speed times the square root of density, the damping ratio falls as the square root of density."
+cite = []
+digest = "699a16eb153e5742"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Centre of Pressure as a Weighted Mean"
+gloss = "The centre of pressure of the whole vehicle is the mean of the component centres of pressure weighted by their normal force slopes."
+cite = ["research_barrowman_1967"]
+digest = "2e9abd3dda6c6369"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Barrowman Fin Normal Force Slope"
+gloss = "The subsonic normal force slope of a set of trapezoidal fins depends on the number of fins, their semi-span relative to the body diameter and their sweep and chords, multiplied by an interference factor."
+cite = ["research_barrowman_1967"]
+digest = "008053d421ae1619"
+
+[[equation]]
+tag = 91
+class = "standard"
+title = "Fin and Body Interference Factor"
+gloss = "The body increases the effectiveness of fins mounted on it by a factor that depends on the ratio of body radius to the sum of semi-span and radius."
+cite = ["research_barrowman_1967"]
+digest = "f7ff751b08a968e5"
+
+[[equation]]
+tag = 92
+class = "standard"
+title = "Interference Factor of the X-8"
+gloss = "A body radius of 0.19 metres and an exposed semi-span of 0.61 metres give a factor of about 1.24."
+cite = []
+digest = "9b4e281fc4f61ccb"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Fin Normal Force Slope of the X-8"
+gloss = "The Barrowman relation is evaluated for three fins with a root chord of 0.9 metres, a tip chord of 0.4 metres and a mid-chord sweep length of 0.5 metres, a planform the article assumes."
+cite = []
+digest = "001c47cf5102ac36"
+
+[[equation]]
+tag = 94
+class = "standard"
+title = "Divergence Time Constant of an Unstable Vehicle"
+gloss = "With a reversed restoring stiffness the angle of attack grows exponentially with a time constant of the square root of inertia over the magnitude of the stiffness."
+cite = []
+digest = "fe2458e1b4e706f1"
+
+[[equation]]
+tag = 95
+class = "standard"
+title = "Divergence Time Constant at Tower Exit"
+gloss = "For the stiffness and inertia above the divergence time constant is under a second."
+cite = []
+digest = "25df8e0fc4edfe97"
+
+[[equation]]
+tag = 96
+class = "standard"
+title = "Range Error from a Launcher Elevation Error"
+gloss = "Differentiating the flat-earth ballistic range with respect to launch elevation gives the range error per unit elevation error."
+cite = ["book_regan_anandakrishnan_1993"]
+digest = "459c9d02216e39a2"
+
+[[equation]]
+tag = 97
+class = "standard"
+title = "Lateral Velocity from a Fixed Thrust Misalignment"
+gloss = "A thrust misaligned by a small angle $\\epsilon$ and fixed in inertial space adds lateral velocity at that fraction of the ideal increment."
+cite = []
+digest = "de8a898f4a1acdef"
+
+[[equation]]
+tag = 98
+class = "bespoke"
+title = "Bespoke Lateral Velocity from Weathercocking in a Constant Wind"
+gloss = "The article assumes that the vehicle holds its axis along the relative wind, so each increment of speed is tilted by the wind over the speed and the integral over a constant wind gives a logarithm of the speed ratio."
+cite = []
+digest = "ed816e91f018efe9"
+
+[[equation]]
+tag = 99
+class = "standard"
+title = "Impact Displacement from a Lateral Velocity"
+gloss = "A lateral velocity carried through a vertical flight lasting twice the burnout speed over gravity displaces the impact point by their product."
+cite = []
+digest = "f674c399775492bb"
+
+[[equation]]
+tag = 100
+class = "bespoke"
+title = "Bespoke Wind Dispersion for a Ten Metre per Second Wind"
+gloss = "The weathercocking model applied from tower exit to burnout in a constant ten metre per second wind moves the impact point about seven kilometres."
+cite = []
+digest = "5cdf0409f3ab0ac9"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Wind Weighting Correction"
+gloss = "The launcher offset that cancels the measured wind is the sum over layers of the unit wind effect times the wind speed times the layer thickness."
+cite = []
+digest = "08a9dd1c396463b1"
+
+[[equation]]
+tag = 102
+class = "standard"
+title = "Total Dispersion of Independent Sources"
+gloss = "Independent dispersion sources combine as the root sum of their squares."
+cite = []
+digest = "1f4241f0ecb2caaf"
+
+[[equation]]
+tag = 103
+class = "standard"
+title = "Rayleigh Probability Within a Radius"
+gloss = "For circular bivariate normal errors the probability of landing within a radius follows the Rayleigh distribution."
+cite = []
+digest = "7f2ef05a182007c6"
+
+[[equation]]
+tag = 104
+class = "standard"
+title = "Probability Within Three Standard Deviations in Two Dimensions"
+gloss = "A radius of three standard deviations contains about 98.9 percent of impacts in two dimensions rather than the 99.7 percent of the one-dimensional case."
+cite = []
+digest = "abf183067b7ddbb9"
+
+[[equation]]
+tag = 105
+class = "standard"
+title = "Radius Containing 99.7 Percent of Impacts"
+gloss = "Inverting the Rayleigh distribution gives the radius that contains 99.7 percent of impacts, about 3.41 standard deviations."
+cite = []
+digest = "6defed02652d2392"
+
+[[equation]]
+tag = 106
+class = "standard"
+title = "Residual Lateral Velocity of a Rolling Vehicle"
+gloss = "A body-fixed lateral acceleration rotates with the roll, so its integrated effect over the burn is bounded by twice the acceleration over the roll rate."
+cite = []
+digest = "ddfede971ff2995f"
+
+[[equation]]
+tag = 107
+class = "standard"
+title = "Steady Roll Rate from Canted Fins"
+gloss = "The steady roll rate balances the rolling moment of fin cant against the roll damping of the same fins."
+cite = []
+digest = "f2999394202fd875"
+
+[[equation]]
+tag = 108
+class = "bespoke"
+title = "Bespoke Steady Roll Rate with Equal Derivatives"
+gloss = "Taking the ratio of the cant derivative to the roll damping derivative as unity, an approximation the article adopts, leaves a roll rate of twice the speed times the cant over the diameter."
+cite = []
+digest = "1d4a3028e7648978"
+
+[[equation]]
+tag = 109
+class = "bespoke"
+title = "Bespoke Roll Rate at Half a Degree of Cant"
+gloss = "The approximate roll rate at 300 metres per second and half a degree of cant is about 13.8 radians per second."
+cite = []
+digest = "1a444eaf0bbf48a8"
+
+[[equation]]
+tag = 110
+class = "standard"
+title = "Roll Rate Proportional to Speed"
+gloss = "The steady roll rate of canted fins grows in proportion to the flight speed."
+cite = []
+digest = "8329cd9ee830140f"
+
+[[equation]]
+tag = 111
+class = "standard"
+title = "Pitch Natural Frequency in Terms of Speed and Density"
+gloss = "Writing the dynamic pressure out shows the pitch frequency is linear in speed and proportional to the square root of density."
+cite = []
+digest = "3e96102e6364dce0"
+
+[[equation]]
+tag = 112
+class = "standard"
+title = "Ratio of Roll Rate to Pitch Frequency"
+gloss = "Speed cancels from the ratio of roll rate to pitch frequency, which then depends only on the inverse square root of density."
+cite = []
+digest = "88a9f0c1617441a7"
+
+[[equation]]
+tag = 113
+class = "bespoke"
+title = "Bespoke Critical Density for Roll Resonance"
+gloss = "Setting the approximate roll rate equal to the pitch frequency gives the density at which resonance occurs, under the unit derivative ratio the article adopts."
+cite = []
+digest = "a737f70916399bed"
+
+[[equation]]
+tag = 114
+class = "bespoke"
+title = "Bespoke Critical Density at Half a Degree of Cant"
+gloss = "With half a degree of cant and the assumed stability values the critical density exceeds sea level, so the vehicle stays above resonance throughout."
+cite = []
+digest = "7df0fc19e0188a8c"
+
+[[equation]]
+tag = 115
+class = "bespoke"
+title = "Bespoke Critical Density at a Tenth of a Degree of Cant"
+gloss = "A tenth of a degree of cant lowers the critical density to about 0.66 kilogrammes per cubic metre, near 6 kilometres inside the sustainer burn."
+cite = []
+digest = "530f6b2c1c1369fa"
+
+[[equation]]
+tag = 116
+class = "standard"
+title = "Ballistic Coefficient"
+gloss = "The ballistic coefficient is the mass divided by the drag coefficient times the reference area."
+cite = ["ref_ballistic_coefficient"]
+digest = "befa8c5ed3ff1bd7"
+
+[[equation]]
+tag = 117
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient of the Stable Body"
+gloss = "The burnout mass on the frontal area at a supersonic drag coefficient of 0.25, which the article assumes, gives about 9200 kilogrammes per square metre."
+cite = []
+digest = "90025af35e91e33c"
+
+[[equation]]
+tag = 118
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient of the Tumbling Body"
+gloss = "A tumbling body is assigned a mean projected area of 1.5 square metres and a drag coefficient near 1.2, values the article assumes, which gives about 145 kilogrammes per square metre."
+cite = []
+digest = "33ccc1e061e2d379"
+
+[[equation]]
+tag = 119
+class = "standard"
+title = "Terminal Velocity from the Ballistic Coefficient"
+gloss = "A body falling at terminal velocity has drag equal to weight, so its speed scales as the square root of the ballistic coefficient over the density."
+cite = []
+digest = "624d7e6cb3c42a1d"
+
+[[equation]]
+tag = 120
+class = "bespoke"
+title = "Bespoke Canopy Area for the Nose Cone"
+gloss = "The drag area needed to land a 100 kilogramme nose cone at 8 metres per second with a canopy drag coefficient of 1.4 follows from the terminal velocity relation, all values the article assumes."
+cite = []
+digest = "b1ad51dfbe09c316"
+
+[[equation]]
+tag = 121
+class = "standard"
+title = "Canopy Diameter"
+gloss = "The canopy diameter follows from its area as a circle."
+cite = []
+digest = "dd55b64a841103fc"
+
+[[equation]]
+tag = 122
+class = "standard"
+title = "Parachute Opening Load"
+gloss = "The opening load is the dynamic pressure at deployment times the inflated drag area times an opening shock factor."
+cite = ["book_knacke_1992"]
+digest = "fef220fa27fedb4a"
+
+[[equation]]
+tag = 123
+class = "bespoke"
+title = "Bespoke Steady Drag at Deployment"
+gloss = "The steady drag is evaluated for a deployment at 6 kilometres and 100 metres per second, a condition the article assumes, and alone reaches about 97 times gravity on the payload."
+cite = []
+digest = "933e3a903e12198e"
+
+[[equation]]
+tag = 124
+class = "standard"
+title = "Shannon and Hartley Channel Capacity"
+gloss = "The largest error-free data rate of a channel is its bandwidth times the base-two logarithm of one plus the signal-to-noise ratio."
+cite = ["ref_shannon_hartley", "ref_shannon_1948"]
+digest = "e651bf486a4df1a4"
+
+[[equation]]
+tag = 125
+class = "standard"
+title = "Friis Transmission Equation"
+gloss = "The power received over a free-space path is the transmitted power and the two antenna gains reduced by the square of the wavelength over four pi times the range."
+cite = []
+digest = "25ff3378545cd7fb"
+
+[[equation]]
+tag = 126
+class = "standard"
+title = "Free-Space Path Term at 250 Megahertz"
+gloss = "At a wavelength of 1.2 metres and a slant range of 200 kilometres the path term is about $-126.4$ decibels."
+cite = []
+digest = "75ccaef550d264ae"
+
+[[equation]]
+tag = 127
+class = "bespoke"
+title = "Bespoke Received Power of the Telemetry Link"
+gloss = "The link budget adds a two watt transmitter, an omnidirectional vehicle antenna and a 10 decibel ground antenna, values the article assumes, to the path term."
+cite = []
+digest = "16cefca9e8a28ffc"
+
+[[equation]]
+tag = 128
+class = "standard"
+title = "Thermal Noise Power"
+gloss = "The noise power is Boltzmann's constant times the system temperature times the bandwidth, about $-148.6$ decibels relative to a watt for 100 kilohertz at 1000 kelvin."
+cite = []
+digest = "af146404ccfc88a8"
+
+[[equation]]
+tag = 129
+class = "standard"
+title = "Capacity of the Telemetry Link"
+gloss = "A signal-to-noise power ratio of about 3300 in 100 kilohertz gives a capacity of about 1.17 megabits per second."
+cite = []
+digest = "cee4efbb0d794980"
+
+[[equation]]
+tag = 130
+class = "bespoke"
+title = "Bespoke Data Rate Used by the USAF-6 Telemetry"
+gloss = "Six channels sampled at 100 frames per second at seven bits each, a frame rate and resolution the article assumes, give 4.2 kilobits per second."
+cite = []
+digest = "0c062e9bc7d46203"
+
+[[equation]]
+tag = 131
+class = "bespoke"
+title = "Bespoke Pixel Count of a 35 Millimetre Frame"
+gloss = "A frame resolving 50 line pairs per millimetre, a resolution the article assumes, carries about $8.6 \\times 10^{6}$ resolved elements."
+cite = []
+digest = "b764f27b3bf11bd1"
+
+[[equation]]
+tag = 132
+class = "bespoke"
+title = "Bespoke Time to Transmit One Frame"
+gloss = "At six bits of usable density per element the frame would take about 3.4 hours to send over the telemetry actually flown."
+cite = []
+digest = "6c0f7f5d34252d27"
+
+[[equation]]
+tag = 133
+class = "standard"
+title = "Hoop Stress in a Thin Cylinder"
+gloss = "Internal pressure in a thin-walled cylinder produces a circumferential stress of the pressure times the radius over the wall thickness."
+cite = []
+digest = "e16251864763f0d0"
+
+[[equation]]
+tag = 134
+class = "standard"
+title = "Axial Compressive Stress in a Thin Cylinder"
+gloss = "An axial load spread over the circumference of a thin wall produces a stress of the load over the wall cross-section."
+cite = []
+digest = "213d276d8b3b44c2"
+
+[[equation]]
+tag = 135
+class = "standard"
+title = "Classical Axial Buckling Stress of a Cylinder"
+gloss = "The classical critical stress of a thin cylinder in axial compression is proportional to the modulus and the ratio of thickness to radius."
+cite = ["book_timoshenko_gere_1961"]
+digest = "c5d73cb28585b214"
+
+[[equation]]
+tag = 136
+class = "standard"
+title = "Wall Thickness Set by Pressure"
+gloss = "Setting the hoop stress equal to the allowable at the 3.1 megapascal ullage pressure gives a wall of about 3 millimetres."
+cite = []
+digest = "c8c90c3a03399fb0"
+
+[[equation]]
+tag = 137
+class = "standard"
+title = "Classical Buckling Stress of the Tank"
+gloss = "The classical buckling stress of the pressure-sized wall is about 660 megapascals, which real shells reach only after a knockdown factor of three to five."
+cite = ["book_timoshenko_gere_1961", "book_bruhn_1973"]
+digest = "4219ed1124c4c768"
+
+[[equation]]
+tag = 138
+class = "bespoke"
+title = "Bespoke Axial Load at Maximum Acceleration"
+gloss = "The axial load is a forward mass of 300 kilogrammes, which the article assumes, times the peak boost acceleration."
+cite = []
+digest = "b1fc7a3ecaa511c3"
+
+[[equation]]
+tag = 139
+class = "standard"
+title = "Axial Compressive Stress in Flight"
+gloss = "That load on the tank wall gives a compressive stress of about 10 megapascals."
+cite = []
+digest = "dd9478937c676f29"
+
+[[equation]]
+tag = 140
+class = "standard"
+title = "Axial Stress from Internal Pressure"
+gloss = "Pressure on the closed ends puts the shell into axial tension at half the hoop stress, about 100 megapascals here."
+cite = []
+digest = "bd6419dd4956624b"
+
+[[equation]]
+tag = 141
+class = "standard"
+title = "Net Axial Stress of the Pressurised Shell"
+gloss = "Superposing pressure tension and flight compression leaves a net axial stress of about 90 megapascals in tension."
+cite = []
+digest = "0098ff87e61d596f"
+
+[[equation]]
+tag = 142
+class = "standard"
+title = "Stagnation Temperature"
+gloss = "Bringing the flow to rest adiabatically raises its temperature by a factor that depends on the Mach number and the ratio of specific heats."
+cite = ["book_anderson_2006_hypersonic"]
+digest = "2573a4231e894041"
+
+[[equation]]
+tag = 143
+class = "standard"
+title = "Stagnation Temperature at Mach 4.4"
+gloss = "At 227 kelvin and Mach 4.4 the stagnation temperature is about 1108 kelvin."
+cite = []
+digest = "21a9d2ed6cf1bab9"
+
+[[equation]]
+tag = 144
+class = "standard"
+title = "Turbulent Recovery Temperature at Mach 4.4"
+gloss = "With a recovery factor of the cube root of the Prandtl number the surface recovery temperature is about 1010 kelvin."
+cite = ["book_anderson_2006_hypersonic"]
+digest = "333ef994f884b243"
+
+[[equation]]
+tag = 145
+class = "standard"
+title = "Thermal Penetration Depth"
+gloss = "Heat diffuses into a solid over a depth of order the square root of the thermal diffusivity times the time."
+cite = ["book_carslaw_jaeger_1959"]
+digest = "98335b7b10b53d10"
+
+[[equation]]
+tag = 146
+class = "standard"
+title = "Penetration Depth in Aluminium Over Forty Seconds"
+gloss = "Over 40 seconds heat penetrates about 6 centimetres of aluminium, far more than the skin thickness, so the skin acts as a lumped mass."
+cite = []
+digest = "27e05875a3c5823c"
+
+[[equation]]
+tag = 147
+class = "standard"
+title = "Lumped Heat Balance of a Thin Skin"
+gloss = "A skin thin enough to have a uniform temperature stores the convective heat it receives from the boundary layer, so its temperature approaches the recovery temperature at a rate proportional to the difference."
+cite = ["book_incropera_heat_transfer"]
+digest = "056693f1c977676a"
+
+[[equation]]
+tag = 148
+class = "standard"
+title = "Thermal Time Constant of a Thin Skin"
+gloss = "The time constant of the lumped skin is its heat capacity per unit area divided by the convective heat transfer coefficient."
+cite = ["book_incropera_heat_transfer"]
+digest = "3962d9add156db29"
+
+[[equation]]
+tag = 149
+class = "bespoke"
+title = "Bespoke Time Constant of the Aluminium Skin"
+gloss = "The time constant is evaluated for a 3 millimetre aluminium wall and a convective coefficient of 200 watts per square metre kelvin, a value the article assumes for the thin high-altitude boundary layer."
+cite = []
+digest = "2666a9f41986a558"
+
+[[equation]]
+tag = 150
+class = "standard"
+title = "Stefan and Boltzmann Radiated Flux"
+gloss = "A grey surface radiates its emissivity times the Stefan-Boltzmann constant times the fourth power of its temperature."
+cite = ["book_incropera_heat_transfer"]
+digest = "36be7f52304d814f"
+
+[[equation]]
+tag = 151
+class = "bespoke"
+title = "Bespoke Radiated Flux of Oxidised Aluminium"
+gloss = "The radiated flux is evaluated at 744 kelvin for an emissivity of 0.3, a value the article assumes for oxidised aluminium."
+cite = []
+digest = "43da9dc40e1c2922"
+
+[[equation]]
+tag = 152
+class = "standard"
+title = "Radiative Equilibrium Wall Temperature"
+gloss = "Balancing convective input against radiated output gives the steady wall temperature the skin would reach if the flight lasted long enough."
+cite = []
+digest = "4bf2d1e9baa029f8"
+
+[[equation]]
+tag = 153
+class = "standard"
+title = "Drag Deceleration"
+gloss = "The deceleration from drag is the dynamic pressure times the drag area divided by the mass."
+cite = []
+digest = "60592a5fb73c7ebe"
+
+[[equation]]
+tag = 154
+class = "bespoke"
+title = "Bespoke Condition for Maximum Dynamic Pressure"
+gloss = "Differentiating the product of an exponentially falling density and the square of speed for vertical flight gives the condition at which dynamic pressure peaks, a derivation the article makes for this trajectory."
+cite = []
+digest = "83d80e4f80a956e4"
+
+[[equation]]
+tag = 155
+class = "bespoke"
+title = "Bespoke Speed at Maximum Dynamic Pressure"
+gloss = "Under constant acceleration in vertical flight through an exponential atmosphere the dynamic pressure peaks at the square root of twice the acceleration times the scale height."
+cite = []
+digest = "79c24bda8c400ad4"
+
+[[equation]]
+tag = 156
+class = "bespoke"
+title = "Bespoke Speed at Maximum Dynamic Pressure for the Sustainer"
+gloss = "An acceleration of 30 metres per second squared, taken as representative of the sustainer phase, gives about 675 metres per second."
+cite = []
+digest = "e8b3aae066025bdc"
+
+[[equation]]
+tag = 157
+class = "standard"
+title = "Maximum Dynamic Pressure"
+gloss = "At a density of about 0.4 kilogrammes per cubic metre that speed gives about 91 kilopascals."
+cite = []
+digest = "65897582f6b89eb3"
+
+[[equation]]
+tag = 158
+class = "bespoke"
+title = "Bespoke Drag Deceleration at Maximum Dynamic Pressure"
+gloss = "The deceleration is evaluated for a supersonic drag coefficient of 0.3 on 400 kilogrammes, values the article assumes."
+cite = []
+digest = "f6a48d84f47836fb"
+
+[[equation]]
+tag = 159
+class = "bespoke"
+title = "Bespoke Drag Loss from a Triangular Profile"
+gloss = "Approximating the deceleration history by a triangle of 20 seconds base gives a drag loss of order 77 metres per second."
+cite = []
+digest = "5cd22da5127a416b"
+
+[[equation]]
+tag = 160
+class = "standard"
+title = "Coning Half-Angle of a Torque-Free Body"
+gloss = "A torque-free axisymmetric body cones about its fixed angular momentum at a half-angle set by the ratio of transverse to axial angular momentum."
+cite = []
+digest = "6f941a1723432232"
+
+[[equation]]
+tag = 161
+class = "bespoke"
+title = "Bespoke Roll Inertia of the Burnout Body"
+gloss = "The roll inertia is estimated as that of a uniform solid cylinder of the burnout mass and body radius, a model the article adopts."
+cite = []
+digest = "c5928393f86eb68d"
+
+[[equation]]
+tag = 162
+class = "bespoke"
+title = "Bespoke Coning Angle After Burnout"
+gloss = "A residual transverse rate of 0.1 radians per second and a transverse inertia of 1200 kilogramme square metres, values the article assumes, give a cone of about 62 degrees."
+cite = []
+digest = "1aeff083d6015888"
+
+[[equation]]
+tag = 163
+class = "standard"
+title = "Aspect Sensor Measurements"
+gloss = "Each aspect sensor returns the cosine of the angle between the vehicle axis and a known reference direction."
+cite = []
+digest = "ff1a2d4243011c74"
+
+[[equation]]
+tag = 164
+class = "standard"
+title = "Vehicle Axis from Two Reference Cones"
+gloss = "Two cones about non-parallel reference directions intersect in two unit vectors whose components follow from the two measured cosines and the angle between the references."
+cite = []
+digest = "125175fe2438ca83"
+
+[[equation]]
+tag = 165
+class = "standard"
+title = "Error Amplification of the Two-Cone Solution"
+gloss = "The uncertainty of the combined solution grows as the inverse sine of the angle between the two references, so nearly parallel references degrade it."
+cite = []
+digest = "5390f3797f5a37f4"
+
+[[equation]]
+tag = 166
+class = "bespoke"
+title = "Bespoke Booster Impulse Required"
+gloss = "The required impulse is approximated as the liftoff mass times the boost increment, which neglects the fall of mass during the burn."
+cite = []
+digest = "3e04ad340d7d290e"
+
+[[equation]]
+tag = 167
+class = "standard"
+title = "Vieille Burning Rate Law"
+gloss = "The burning rate of a solid propellant is a coefficient times the chamber pressure raised to an exponent $n$."
+cite = ["book_sutton_biblarz_2016"]
+digest = "9f98036fba41f7f1"
+
+[[equation]]
+tag = 168
+class = "standard"
+title = "Equilibrium Chamber Pressure of a Solid Motor"
+gloss = "Balancing gas generation at the burning surface against discharge through the throat gives a chamber pressure raised to the power one over one minus $n$."
+cite = ["book_sutton_biblarz_2016"]
+digest = "105ae3291f045293"
+
+[[equation]]
+tag = 169
+class = "standard"
+title = "Burn Time and Mass Flow of a Solid Grain"
+gloss = "The burn time is the web thickness over the mean burning rate and the mass flow is the propellant density times the burning area times the rate."
+cite = ["book_sutton_biblarz_2016"]
+digest = "4cf372056b171add"
+
+[[equation]]
+tag = 170
+class = "bespoke"
+title = "Bespoke Web Thickness of the Booster"
+gloss = "A burning rate near 10 millimetres per second, which the article assumes, over the 2.5 second burn gives a 25 millimetre web."
+cite = []
+digest = "2a216b70f1da9fdf"
+
+[[equation]]
+tag = 171
+class = "standard"
+title = "Burning Area of the Booster"
+gloss = "The booster mass flow divided by the propellant density and burning rate gives a burning area of about 2.2 square metres."
+cite = []
+digest = "5b023295ce87088c"
+
+[[equation]]
+tag = 172
+class = "standard"
+title = "Separation Acceleration of Booster and Sustainer"
+gloss = "The relative acceleration is the sustainer thrust per unit mass less the difference between the drag decelerations of the two bodies."
+cite = []
+digest = "10995907c6e21180"
+
+[[equation]]
+tag = 173
+class = "standard"
+title = "Separation Distance in the First Second"
+gloss = "The thrust term alone separates the two bodies by about 12 metres in the first second."
+cite = []
+digest = "f12be9c5bf0732e7"
+
+[[equation]]
+tag = 174
+class = "standard"
+title = "Probability of Five Consecutive Failures"
+gloss = "For independent flights with recovery probability $p_r$ the chance of five failures in a row is one minus $p_r$ raised to the fifth power."
+cite = []
+digest = "ba083d8d6503f1c0"
+
+[[equation]]
+tag = 175
+class = "standard"
+title = "Five Failures at Even-Money Recovery"
+gloss = "At a recovery probability of one half the chance of five consecutive failures is about three percent."
+cite = []
+digest = "ce6249470d24fc8c"
+
+[[equation]]
+tag = 176
+class = "standard"
+title = "Upper Confidence Bound on Recovery Probability"
+gloss = "With no successes in five trials the one-sided 95 percent upper bound on the recovery probability is about 0.45."
+cite = []
+digest = "b34de34885bf47cd"
+
+[[equation]]
+tag = 177
+class = "standard"
+title = "Fractional Sensitivity of Drag Loss to Drag Coefficient"
+gloss = "Because the drag loss is proportional to the drag coefficient at a fixed trajectory, a fractional error in one is the same fractional error in the other."
+cite = []
+digest = "f41b58fa97c60240"
+
+[[equation]]
+tag = 178
+class = "standard"
+title = "Drag Loss as a Fraction of Burnout Speed"
+gloss = "The estimated drag loss of 77 metres per second is about 5.7 percent of the reported burnout speed."
+cite = []
+digest = "6d26932e55ed6d0a"
+
+[[equation]]
+tag = 179
+class = "standard"
+title = "Vertical Trajectory Equations"
+gloss = "The speed changes under thrust, gravity and drag over the instantaneous mass, and the altitude changes at the speed."
+cite = []
+digest = "7b1167ae517e392c"
+
+[[equation]]
+tag = 180
+class = "standard"
+title = "Global Error of a Forward Euler Integration"
+gloss = "The global error of the forward Euler method is of first order in the step, bounded by half the largest second derivative times the interval times the step."
+cite = []
+digest = "b0e03f1c3c51d96f"
+
+[[equation]]
+tag = 181
+class = "bespoke"
+title = "Bespoke Euler Error for a One-Second Step"
+gloss = "The bound is evaluated with a second derivative of about 2.4 metres per second cubed that the article estimates from the change of acceleration over the burn."
+cite = []
+digest = "6625508f4eeb907d"
+
+[[equation]]
+tag = 182
+class = "standard"
+title = "Snell Invariant for an Acoustic Ray"
+gloss = "A ray in an atmosphere stratified in sound speed keeps the cosine of its elevation over the local sound speed constant."
+cite = ["research_cox_1948"]
+digest = "59d00edacde503c7"
+
+[[equation]]
+tag = 183
+class = "standard"
+title = "Turning Altitude of an Acoustic Ray"
+gloss = "The ray turns back at the altitude where the sound speed equals the ground sound speed over the cosine of the launch elevation."
+cite = ["research_cox_1948"]
+digest = "cc0d8daa8e8ecb42"
+
+[[equation]]
+tag = 184
+class = "standard"
+title = "Rayleigh Scattering Cross-Section"
+gloss = "The scattering cross-section of a molecule varies as the inverse fourth power of wavelength and depends on the refractive index of the gas and its number density at standard conditions."
+cite = []
+digest = "1ae5c69818b23bf0"
+
+[[equation]]
+tag = 185
+class = "standard"
+title = "Searchlight Return from a Range"
+gloss = "The scattered signal from a range is proportional to the local number density and falls as the inverse square of the range, so density follows from the signal times the square of the range."
+cite = []
+digest = "4c7f198f64ac56a8"
+
+[[equation]]
+tag = 186
+class = "standard"
+title = "Speed of Sound in an Ideal Gas"
+gloss = "The speed of sound is the square root of the ratio of specific heats times the universal gas constant times the temperature over the molar mass."
+cite = ["research_nordberg_1964"]
+digest = "43e62cb555148b5f"
+
+[[equation]]
+tag = 187
+class = "standard"
+title = "Temperature from a Measured Sound Speed"
+gloss = "Inverting the sound speed relation gives the temperature from a measured sound speed."
+cite = ["research_nordberg_1964"]
+digest = "891e12e47e80fe9b"
+
+[[equation]]
+tag = 188
+class = "standard"
+title = "Density from a Falling Sphere"
+gloss = "Inverting the drag relation for a tracked sphere of known drag coefficient gives the local density."
+cite = []
+digest = "9cdee74c38468e7d"
+
+[[equation]]
+tag = 189
+class = "standard"
+title = "Local Absorber Density from the Optical Depth Profile"
+gloss = "Differentiating the measured optical depth with respect to altitude and dividing by the cross-section gives the local number density."
+cite = []
+digest = "a51b29823bb1b08e"
+
+[[equation]]
+tag = 190
+class = "standard"
+title = "Slant Path Optical Depth"
+gloss = "For a solar zenith angle below about seventy degrees the slant optical depth is the vertical value times the secant of that angle."
+cite = ["research_chapman_1931_2"]
+digest = "5afc66217b5ca76f"
+
+[[equation]]
+tag = 191
+class = "standard"
+title = "Rise of the Transparency Altitude at Sixty Degrees"
+gloss = "A slant factor of two raises the unit optical depth altitude by the scale height times the natural logarithm of two, about 5.3 kilometres."
+cite = []
+digest = "51e6d14c86e1628b"
+
+[[equation]]
+tag = 192
+class = "standard"
+title = "Poisson Significance of a Source Excess"
+gloss = "Source counts over a Poisson background give a significance that grows as the square root of the exposure time."
+cite = []
+digest = "0e4b313b7c7770a3"
+
+[[equation]]
+tag = 193
+class = "standard"
+title = "Exposure Time for a Detection"
+gloss = "The exposure needed for a detection at $k$ standard deviations is $k^{2}$ times the total count rate over the square of the source rate."
+cite = []
+digest = "212e86df639701ca"
+
+[[equation]]
+tag = 194
+class = "standard"
+title = "Exposure for a Five-Sigma Detection"
+gloss = "A source of one count per second against a background of five reaches five standard deviations in 150 seconds."
+cite = []
+digest = "87a79e5fa33e90ce"
+
+[[equation]]
+tag = 195
+class = "standard"
+title = "Electron Plasma Frequency"
+gloss = "The plasma frequency depends only on the electron number density, about 8.98 times its square root in hertz."
+cite = []
+digest = "4845bee8a8fb6a81"
+
+[[equation]]
+tag = 196
+class = "standard"
+title = "Refractive Index of a Cold Plasma"
+gloss = "A radio wave above the plasma frequency propagates with a refractive index below one that depends on the electron density and the wave frequency."
+cite = []
+digest = "fb72acc7fc9727eb"
+
+[[equation]]
+tag = 197
+class = "standard"
+title = "Dispersive Doppler Difference of Two Frequencies"
+gloss = "Differencing the Doppler shifts of two harmonically related frequencies removes the common vehicle motion and leaves a term proportional to the rate of change of the electron content along the path."
+cite = ["research_seddon_1953"]
+digest = "b76cd1d5b7a00744"
+
+[[equation]]
+tag = 198
+class = "standard"
+title = "Molecular Diffusion Coefficient"
+gloss = "The molecular diffusion coefficient varies inversely with number density."
+cite = []
+digest = "6ac2c7a18ca99bda"
+
+[[equation]]
+tag = 199
+class = "standard"
+title = "Turbopause Density"
+gloss = "Equating the molecular diffusion coefficient to the eddy diffusivity gives the density at which the atmosphere stops being well mixed."
+cite = []
+digest = "88ab57bc76d4cc49"
+
+[[equation]]
+tag = 200
+class = "bespoke"
+title = "Bespoke Turbopause Density Estimate"
+gloss = "The criterion is evaluated with a sea-level molecular diffusivity of $2 \\times 10^{-5}$ and an eddy diffusivity of 100 square metres per second, values the article assumes."
+cite = []
+digest = "577da23b931dc030"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the optical depth in Equations 1 to 11 and 189 and 190, the thermal time constant of the skin in Equations 148 and 149 and, as $\\tau_{\\text{div}}$, the divergence time constant"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the absorption cross-section in Equations 2 to 11 and 189, the standard deviation of the scatter in Equations 23 and 25 and of the impact dispersion in Equations 102 to 105, and with a subscript a stress"
+
+[[symbol]]
+tex = 'n'
+meaning = "the number density of absorbers or molecules, except in Equations 23 to 25, where it is a sample size, in Equations 90 and 93, where it is the number of fins, in Equations 167 and 168, where it is the burning-rate exponent, and in Equation 196, where it is the refractive index"
+
+[[symbol]]
+tex = 'H'
+meaning = "the scale height of the atmosphere"
+
+[[symbol]]
+tex = 'n^{*}'
+meaning = "the number density at which the overhead column reaches unit optical depth"
+
+[[symbol]]
+tex = 'z^{*}'
+meaning = "the altitude at which the overhead column reaches unit optical depth"
+
+[[symbol]]
+tex = 'n_0'
+meaning = "the sea-level number density"
+
+[[symbol]]
+tex = 'h_a'
+meaning = "the apogee altitude"
+
+[[symbol]]
+tex = 'h_t'
+meaning = "the threshold altitude above which an instrument works"
+
+[[symbol]]
+tex = 'h_b'
+meaning = "the burnout altitude"
+
+[[symbol]]
+tex = 'v_b'
+meaning = "the burnout speed"
+
+[[symbol]]
+tex = 't_{\text{obs}}'
+meaning = "the time spent above the threshold altitude"
+
+[[symbol]]
+tex = 'c'
+meaning = "the effective exhaust velocity of the rocket"
+
+[[symbol]]
+tex = 'R'
+meaning = "the mass ratio in Equations 17, 18 and 68, the radio range in Equation 125 and a radius on the ground in Equations 103 to 105"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, 1.22 for the sustainer exhaust and 1.4 for air, except in Equation 63, where it is the angle between the velocity and the vertical"
+
+[[symbol]]
+tex = 'R_u'
+meaning = "the universal gas constant"
+
+[[symbol]]
+tex = 'T_c'
+meaning = "the combustion temperature in the chamber"
+
+[[symbol]]
+tex = 'p_c'
+meaning = "the chamber pressure"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the nozzle exit pressure"
+
+[[symbol]]
+tex = 'A_e'
+meaning = "the nozzle exit area"
+
+[[symbol]]
+tex = 'A_t'
+meaning = "the nozzle throat area"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the nozzle expansion ratio, the exit area over the throat area"
+
+[[symbol]]
+tex = 'C_F'
+meaning = "the thrust coefficient"
+
+[[symbol]]
+tex = 'c^{*}'
+meaning = "the characteristic velocity"
+
+[[symbol]]
+tex = '\Gamma'
+meaning = "the choked-flow factor, a function of the ratio of specific heats alone"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.81 metres per second squared"
+
+[[symbol]]
+tex = 'h_g'
+meaning = "the gas-side heat transfer coefficient at the throat"
+
+[[symbol]]
+tex = '\sigma_a'
+meaning = "the allowable stress of the tank material"
+
+[[symbol]]
+tex = 'C_{N\alpha}'
+meaning = "the normal force curve slope per radian"
+
+[[symbol]]
+tex = 'x_{cp} - x_{cg}'
+meaning = "the static margin, the distance of the centre of pressure behind the centre of gravity"
+
+[[symbol]]
+tex = 'I_y'
+meaning = "the pitch moment of inertia"
+
+[[symbol]]
+tex = 'M_{\alpha}'
+meaning = "the aerodynamic restoring stiffness in pitch"
+
+[[symbol]]
+tex = '\omega_n'
+meaning = "the undamped natural frequency of the pitch motion"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the damping ratio of the pitch motion"
+
+[[symbol]]
+tex = 'M_q'
+meaning = "the pitch damping coefficient of the article's model"
+
+[[symbol]]
+tex = 'K_{fb}'
+meaning = "the fin and body interference factor"
+
+[[symbol]]
+tex = '\epsilon'
+meaning = "the thrust misalignment angle in Equation 97, the emissivity in Equations 150 to 152 and the integration error in Equations 180 and 181"
+
+[[symbol]]
+tex = 'p_{ss}'
+meaning = "the steady roll rate produced by fin cant"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the fin cant angle in Equations 108 to 115 and the thermal penetration depth in Equations 145 and 146"
+
+[[symbol]]
+tex = '\rho_{\text{crit}}'
+meaning = "the density at which the roll rate equals the pitch natural frequency"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the ballistic coefficient"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = 'C_x'
+meaning = "the parachute opening shock factor"
+
+[[symbol]]
+tex = 'B'
+meaning = "the bandwidth of the telemetry channel"
+
+[[symbol]]
+tex = 'T_r'
+meaning = "the recovery temperature reached by the surface under the boundary layer"
+
+[[symbol]]
+tex = 'r'
+meaning = "the turbulent recovery factor, about the cube root of the Prandtl number, and in Equations 167 to 171 the burning rate of the solid propellant"
+
+[[symbol]]
+tex = 'h'
+meaning = "the convective heat transfer coefficient between the boundary layer and the skin"
+
+[[symbol]]
+tex = '\sigma_{SB}'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = '\theta_c'
+meaning = "the half-angle of the coning motion"
+
+[[symbol]]
+tex = 'p_r'
+meaning = "the probability that a single flight recovers its payload"
+
+[[symbol]]
+tex = 'c_s'
+meaning = "the speed of sound"
+
+[[symbol]]
+tex = '\chi'
+meaning = "the solar zenith angle"
+
+[[symbol]]
+tex = 'R_s'
+meaning = "the source count rate"
+
+[[symbol]]
+tex = 'R_b'
+meaning = "the background count rate"
+
+[[symbol]]
+tex = 'f_p'
+meaning = "the electron plasma frequency"
+
+[[symbol]]
+tex = 'K'
+meaning = "the eddy diffusivity"

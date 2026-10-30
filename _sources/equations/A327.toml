@@ -1,0 +1,543 @@
+# Equation classification for A327. Read by `python3 _lib/equations.py`.
+
+caution = "Every equation uses the units of the International System, with specific thrust in metres per second, specific impulse in seconds and enthalpy per kilogram, and several letters are reused, so $\\mu$ is the gravitational parameter of the Earth in the orbital relations and the dynamic viscosity in the Reynolds number, $\\gamma$ is the ratio of specific heats except in the acceleration equation, where it is the flight path angle, and $h$ is an altitude while $h_0$ and $h_{\\mathrm{fuel}}$ are enthalpies."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Circular Orbital Velocity at Two Hundred Kilometres"
+gloss = "The circular orbital velocity is evaluated at an altitude of two hundred kilometres, a reference orbit the article takes as the target for every later result."
+cite = []
+digest = "a2a6e9b50c7bd7ed"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Speed of Sound and Mach Number"
+gloss = "The speed of sound in an ideal gas depends only on temperature, and the Mach number is the flight speed divided by it."
+cite = []
+digest = "230372455e10d0f9"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Speed of Sound at Forty-Eight Kilometres"
+gloss = "At the standard atmosphere temperature of 270.65 kelvin at forty-eight kilometres the speed of sound is about 330 metres per second."
+cite = []
+digest = "456a33039d0a6be1"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Mach Number of Orbital Velocity at Forty-Eight Kilometres"
+gloss = "Dividing the two-hundred-kilometre orbital velocity by the speed of sound at forty-eight kilometres gives Mach 23.6, below the headline Mach 25."
+cite = []
+digest = "469272cfcb4b19f4"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Gross Thrust and Ram Drag of an Air-Breathing Stream Tube"
+gloss = "Momentum conservation gives the gross thrust from the exit mass flow and velocity and the ram drag from the captured air mass flow and flight speed."
+cite = ["book_heiser_pratt", "book_hill_peterson"]
+digest = "1d8897ec46ef81c0"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Net Thrust of an Air-Breathing Engine"
+gloss = "Net thrust is gross thrust less ram drag, the small difference between two large momentum fluxes."
+cite = ["book_hill_peterson"]
+digest = "e5e27ad97960511e"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Engine Energy Balance With Nozzle and Combustion Efficiencies"
+gloss = "The article models the engine as an energy balance in which the incoming kinetic energy and the fuel heat release, the latter scaled by a combustion efficiency, are expanded through a nozzle with a single overall efficiency."
+cite = []
+digest = "a116b6ff9d7e89b7"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Exit Velocity From the Energy Balance"
+gloss = "Solving the article's efficiency-scaled energy balance for the exit velocity shows the fixed fuel contribution shrinking against a kinetic term that grows with the square of flight speed."
+cite = []
+digest = "1613eed03f0ef3d7"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Specific Impulse of an Air-Breathing Engine"
+gloss = "The specific impulse of an air-breather is net thrust per unit weight flow of fuel alone, because the oxidiser is taken from the air."
+cite = []
+digest = "cd72871a56ec2f0f"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Exit Velocity at Seven Kilometres per Second"
+gloss = "The exit velocity is evaluated at seven thousand metres per second with an assumed nozzle efficiency of 0.95, an assumed combustion efficiency of 0.90 and the stoichiometric hydrogen fuel-air ratio."
+cite = []
+digest = "fa44f98f834d7a84"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Specific Gross Thrust at Seven Kilometres per Second"
+gloss = "The specific gross thrust is the exit mass flow ratio times the exit velocity obtained with the assumed efficiencies."
+cite = []
+digest = "065c1ac022e8a810"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Specific Net Thrust at Seven Kilometres per Second"
+gloss = "Subtracting the flight speed leaves a specific net thrust of about 352 metres per second, a figure inherited from the assumed efficiencies."
+cite = []
+digest = "9eef61dbf113cfda"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Specific Impulse at Seven Kilometres per Second"
+gloss = "Dividing the specific net thrust by the fuel-air ratio and standard gravity gives a specific impulse of about 1,233 seconds under the assumed efficiencies."
+cite = []
+digest = "5395fe6703892ec5"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Ratio of Fuel Energy to Stream Kinetic Energy"
+gloss = "The heat the fuel adds, scaled by the assumed combustion efficiency of 0.90, is only about an eighth of the kinetic energy the stream already carries at seven thousand metres per second."
+cite = []
+digest = "cd0ef14c8e40b474"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Captured Air Mass Flow"
+gloss = "The captured mass flow is the density times the flight speed times the capture area."
+cite = []
+digest = "fac028592414c2d2"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Captured Mass Flow at Mach 20"
+gloss = "The captured mass flow at Mach 20 and forty-two kilometres is evaluated for a capture area of ten square metres that the article assumes."
+cite = []
+digest = "4c72edea9ae5cab9"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Gross and Net Thrust at Mach 20"
+gloss = "The assumed capture area and the specific thrusts from the efficiency model give 1,260 kilonewtons gross against 73 kilonewtons net."
+cite = []
+digest = "cf049550ec712bfe"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Amplification of a Gross Thrust Error in Net Thrust"
+gloss = "Because ram drag is known, a relative error in gross thrust appears in net thrust multiplied by the ratio of gross to net thrust."
+cite = []
+digest = "72b71667864a8e95"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Loss Budget"
+gloss = "The article defines the loss budget as the ratio of net to gross thrust, the fraction of gross thrust that every unmodelled loss together may consume before acceleration ceases."
+cite = []
+digest = "7dd7697ed426dab1"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "High-Speed Limit of Specific Net Thrust"
+gloss = "For a small fuel fraction and an ideal nozzle the specific net thrust tends to the fuel heat release divided by the flight speed, which shrinks without changing sign."
+cite = []
+digest = "c53fd0619f7b17b1"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Equivalence Ratio"
+gloss = "The equivalence ratio is the fuel-air ratio divided by its stoichiometric value."
+cite = []
+digest = "ffb709503cd085e0"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Total Enthalpy of the Free Stream"
+gloss = "The total enthalpy is the static enthalpy plus the kinetic energy per unit mass, the quantity a facility must reproduce."
+cite = []
+digest = "8f983f98fa2d407a"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Isentropic Total-to-Static Pressure Ratio"
+gloss = "The isentropic relation for a calorically perfect gas gives the total-to-static pressure ratio as a power of one plus a Mach-squared term."
+cite = []
+digest = "bc2a9df4cf8f342e"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Flow-Through Time of an Engine Duct"
+gloss = "The flow-through time is evaluated for a five-metre duct and a duct speed of 2,500 metres per second, both values the article takes as representative."
+cite = []
+digest = "4ba985a8d2f54ab0"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Flow-Through Times in a Reflected Shock Tunnel"
+gloss = "A run time of five milliseconds, taken as representative of a reflected shock tunnel, provides two and a half flow-through times of the representative duct."
+cite = []
+digest = "d0a79e0b7ca2da4a"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Flow-Through Times in an Expansion Tube"
+gloss = "A run time of two hundred microseconds, taken as representative of an expansion tube, provides a tenth of one flow-through time of the representative duct."
+cite = []
+digest = "46be04d05337054a"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Static Temperature at Burner Entry"
+gloss = "With total enthalpy conserved through the inlet, the burner entry temperature is the stagnation temperature divided by one plus the Mach-squared term at the combustor Mach number."
+cite = []
+digest = "3d811bcc695e1648"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Normal Shock Total Pressure Recovery"
+gloss = "The normal shock relation gives the ratio of total pressure behind the shock to that ahead of it as a function of the upstream Mach number."
+cite = []
+digest = "fef3c3787ac6a3a6"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Stagnation Temperature at Mach 8"
+gloss = "At the standard atmosphere temperature of 223.7 kelvin at twenty-seven kilometres, Mach 8 flight gives an ideal stagnation temperature of 3,086 kelvin."
+cite = []
+digest = "5c0cb3c68583c2e4"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Burner Entry Temperatures at Mach 8"
+gloss = "The burner entry temperature at Mach 8 is evaluated at combustor Mach numbers of 2.5 and 0.3, values the article takes as representative of supersonic and subsonic combustion."
+cite = []
+digest = "f3d8938bf077457c"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Rayleigh Flow Stagnation Temperature Ratio"
+gloss = "The Rayleigh relation gives the ratio of the choking stagnation temperature to the local value, which is one at Mach one and grows away from sonic."
+cite = ["ref_rayleigh", "book_shapiro", "book_zucrow"]
+digest = "fba1e91a2f29e6ae"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Burner Residence Time"
+gloss = "The residence time is evaluated for a five-metre burner at a combustor Mach number of 2.5 and a static temperature of 1,500 kelvin, values the article assumes."
+cite = []
+digest = "79e2f10bdb6dc30b"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Number of Ignition Delays Within the Residence Time"
+gloss = "The article counts how many ignition delays fit within the residence time, a ratio it sweeps over assumed delays of ten to one hundred microseconds."
+cite = []
+digest = "1aa5595464e1b68d"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Kantrowitz Starting Contraction Limit"
+gloss = "The largest internal contraction a fixed inlet can start is the isentropic area ratio evaluated at the Mach number behind a normal shock at the entry."
+cite = []
+digest = "61f5a876c37f392e"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Isentropic Area Ratio for a Started Inlet"
+gloss = "Once started, the inlet can hold any contraction up to the isentropic area ratio at the flight Mach number."
+cite = []
+digest = "f19874cc1699bc76"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Sutton-Graves Stagnation-Point Heat Flux"
+gloss = "The Sutton and Graves correlation gives the stagnation-point heat flux as proportional to the square root of density over nose radius and the cube of velocity."
+cite = []
+digest = "203c0b089bc7a2a6"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Stagnation Heat Flux at Mach 20"
+gloss = "The Sutton-Graves correlation is evaluated at Mach 20 and forty-two kilometres with a leading-edge radius of five centimetres that the article assumes."
+cite = []
+digest = "ec41334a019ea3d0"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Radiation Equilibrium Temperature at Mach 20"
+gloss = "The radiation equilibrium wall temperature of about 3,900 kelvin follows from the assumed-radius heat flux and an emissivity of 0.85 that the article assumes."
+cite = ["book_bertin", "book_hirschel"]
+digest = "ba9fb9c1e0a9912a"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Radiation Equilibrium Wall Temperature"
+gloss = "Equating the incoming heat flux to the grey-body re-radiation gives the wall temperature as the fourth root of flux over emissivity times the Stefan-Boltzmann constant."
+cite = ["book_bertin", "book_hirschel"]
+digest = "bcf87c67d9f7738a"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Heat Sink Capacity of Hydrogen"
+gloss = "The heat each kilogram of hydrogen can absorb is its specific heat times a temperature rise of eight hundred kelvin that the article assumes as the limit before the fuel is too hot to burn well."
+cite = []
+digest = "803d734103016a09"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Ratio of Fuel Cooling Capacity to Heat Load"
+gloss = "The article compares the heat the fuel flow can absorb with the load on the wetted area, writing the average surface flux as an assumed fraction $\\kappa$ of the stagnation value."
+cite = []
+digest = "bd18bab24d45a0eb"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Density Gain of Slush Over Liquid Hydrogen"
+gloss = "The National Bureau of Standards density for half-solid slush exceeds that of normal boiling point liquid by about fifteen percent."
+cite = ["ref_weitzel_slush", "ref_lh2"]
+digest = "ca9461ea5da9f850"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Tank Volume Ratio of Slush to Liquid Hydrogen"
+gloss = "The volume needed for a given mass of slush is the inverse density ratio, about 0.87 of the liquid volume."
+cite = ["ref_weitzel_slush", "ref_lh2"]
+digest = "17c23811238fa47f"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Tsiolkovsky Rocket Equation and Propellant Fraction"
+gloss = "The ratio of initial to final mass grows exponentially with the velocity increment over the effective exhaust velocity, and the propellant fraction is one minus its reciprocal."
+cite = ["book_sutton"]
+digest = "c9f70d5cc173a4e6"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Propellant Fraction of an All-Rocket Single Stage"
+gloss = "The rocket equation is evaluated with a specific impulse of 450 seconds and a velocity budget of about 9,300 metres per second including losses, both values the article takes as representative."
+cite = ["book_sutton"]
+digest = "b629c3e34a0f9766"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Mass Ratio of an Air-Breathing Then Rocket Ascent"
+gloss = "The mass ratio integrates the reciprocal of a specific impulse that decays with speed according to the article's own engine model up to a transition speed, followed by a rocket burn to orbit."
+cite = []
+digest = "efac5209f9ae5ff8"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Integrated Mass Ratio at a Six Kilometre per Second Transition"
+gloss = "Evaluating the integrated ascent with transition to rocket power at six thousand metres per second gives a mass ratio of 1.833."
+cite = []
+digest = "61766e39520fd3a1"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Propellant Fraction at a Six Kilometre per Second Transition"
+gloss = "The propellant fraction of the integrated ascent is one minus the reciprocal of that mass ratio, about forty-five percent."
+cite = []
+digest = "77045ad3843e8602"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Specific Orbital Energy at Two Hundred Kilometres"
+gloss = "The energy per kilogram to reach orbit is the kinetic energy of orbital velocity plus the potential energy of the climb, evaluated for the two-hundred-kilometre reference orbit the article takes."
+cite = []
+digest = "e64d73943a55c1c6"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Thermodynamic Lower Bound on the Fuel Fraction"
+gloss = "The article bounds the fuel fraction from below by assuming every joule of hydrogen heat release reaches the vehicle, dividing the orbital energy by the heat of combustion."
+cite = ["ref_heat_combustion"]
+digest = "e38b3bcfe124824c"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Dynamic Pressure"
+gloss = "The dynamic pressure is half the density times the speed squared."
+cite = []
+digest = "4548b0fc4d92a898"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Corridor Altitude at Mach 25"
+gloss = "The altitude at which Mach 25 flight meets the corridor bound of 47.9 kilopascals, a conventional limit the article adopts, is found from standard atmosphere density."
+cite = []
+digest = "ebd2b44ba1ac8585"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Point-Mass Acceleration Along the Flight Path"
+gloss = "The vehicle accelerates by net thrust less drag less the weight component along a flight path inclined at $\\gamma$, with drag from dynamic pressure, reference area and drag coefficient."
+cite = []
+digest = "97a046e91f8ac7f6"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Unit Reynolds Number With Sutherland Viscosity"
+gloss = "The unit Reynolds number is density times speed over dynamic viscosity, with the viscosity given by Sutherland's law for air."
+cite = []
+digest = "e326374c2f1208f1"
+
+[[symbol]]
+tex = 'V_{\mathrm{orbit}}'
+meaning = "the circular orbital velocity"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the Earth, except in the Reynolds number, where it is the dynamic viscosity"
+
+[[symbol]]
+tex = 'R_\oplus'
+meaning = "the mean radius of the Earth"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air, and in the acceleration equation the flight path angle"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number, with $M_c$ the combustor Mach number and $M_2$ the Mach number behind a normal shock"
+
+[[symbol]]
+tex = 'V_0'
+meaning = "the flight speed, equal to the speed of the captured air"
+
+[[symbol]]
+tex = 'V_e'
+meaning = "the engine exit velocity"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fuel-air ratio by mass"
+
+[[symbol]]
+tex = '\dot{m}_0'
+meaning = "the captured air mass flow"
+
+[[symbol]]
+tex = '\eta_n'
+meaning = "the nozzle efficiency, with $\\eta_c$ the combustion efficiency"
+
+[[symbol]]
+tex = 'h_{\mathrm{fuel}}'
+meaning = "the heat of combustion of the fuel per unit mass"
+
+[[symbol]]
+tex = 'F_{\mathrm{net}}'
+meaning = "the net thrust, with $F_{\\mathrm{gross}}$ the gross thrust"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the equivalence ratio"
+
+[[symbol]]
+tex = 'h_0'
+meaning = "the total enthalpy"
+
+[[symbol]]
+tex = 'T_0'
+meaning = "the stagnation temperature"
+
+[[symbol]]
+tex = 'p_0'
+meaning = "the total pressure"
+
+[[symbol]]
+tex = '\dot{q}_s'
+meaning = "the stagnation-point heat flux"
+
+[[symbol]]
+tex = 'R_n'
+meaning = "the leading-edge radius"
+
+[[symbol]]
+tex = 'T_w'
+meaning = "the radiation equilibrium wall temperature"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the surface emissivity"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the ratio of average surface heat flux to the stagnation-point value"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the initial mass, with $m_f$ the final mass"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'Re'
+meaning = "the Reynolds number"

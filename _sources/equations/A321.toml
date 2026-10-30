@@ -1,0 +1,691 @@
+# Equation classification for A321. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in United States customary units, with lengths in feet, speeds in feet per second, miles an hour or knots as each line states and weights in pounds, drag coefficients are referred to wetted area, reference area or base area as each line states, and the efficiency factor of 0.6, the approach speed of 300 miles an hour and the maximum lift coefficient of 0.7 are values the article assumes."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Cost of the Rebuild Relative to a New Vehicle"
+gloss = "The documented rebuild cost of 1.1 million dollars against an estimated 5 million for a new vehicle is a ratio of about one fifth."
+cite = []
+digest = "fd11b49d16628260"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Growth in Length and Span from the Rebuild"
+gloss = "The flight-determined table gives the X-24B 13.0 feet more length and 5.51 feet more span than the X-24A."
+cite = []
+digest = "946a6b48b3b86337"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Propellant Fraction of the X-24A"
+gloss = "The documented 5,500 pounds of propellants and gases against a launch weight of about 12,000 pounds is a propellant fraction of 0.46."
+cite = ["ref_cochrane_graham_1971"]
+digest = "d931d5c5dac1dc5c"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Thrust Ratio of the Uprated Engine"
+gloss = "The uprated LR-11 rating of 9,800 pounds against the original 8,480 pounds is a thrust increase of sixteen percent."
+cite = []
+digest = "ab0200d8a6db645d"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Base Drag Coefficient on Wetted Area"
+gloss = "The suction on a blunt base contributes a drag coefficient equal to the negative base pressure coefficient times the ratio of base area to wetted area."
+cite = []
+digest = "4a0531420a3e2e60"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Hoerner Base Pressure Correlation"
+gloss = "Hoerner's correlation makes the base pressure coefficient inversely proportional to the square root of the forebody drag coefficient referred to the base area."
+cite = ["book_hoerner_1965", "research_saltzman_2007"]
+digest = "2c587da8763ff4b8"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Full-Scale Value of the Hoerner Coefficient"
+gloss = "Flight measurements on the X-15, the M2-F3 and the Space Shuttle require a coefficient of 0.090 to 0.100 in the Hoerner correlation."
+cite = ["research_saltzman_2007"]
+digest = "57e33977fdb80f46"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Ratio of Full-Scale to Model Hoerner Coefficients"
+gloss = "The full-scale coefficient of 0.100 is about three and a half times the model-scale value of 0.029."
+cite = []
+digest = "4d71786a5f96dfae"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number is the product of speed and length divided by the kinematic viscosity."
+cite = []
+digest = "6856105c3bb5f936"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Reynolds Number Ratio of Flight to a Small Model"
+gloss = "The approach Reynolds number of the X-24B is about forty times that of a model the article takes as one-twentieth scale in a tunnel at 200 feet per second."
+cite = []
+digest = "31c6faa79ca2d2dd"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke True Airspeed at the Middle of the Approach Band"
+gloss = "The true airspeed follows from the indicated airspeed and the density ratio at Edwards, evaluated at 285 knots, the midpoint of the documented band of 270 to 300 knots."
+cite = ["ref_falarski_mort_1970", "research_william_h_dana_j_r_gentry_1970"]
+digest = "abb2d1c9b83b7df7"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Reynolds Number of the X-24A at the Middle of the Approach Band"
+gloss = "At the midpoint approach speed the X-24A's flight Reynolds number on its length is about twice that of the full-scale tunnel test."
+cite = []
+digest = "5cffa49aff3336ee"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Equivalent Skin-Friction Coefficient"
+gloss = "The equivalent skin-friction coefficient is the minimum drag coefficient referred to wetted area rather than to a reference area."
+cite = []
+digest = "c73da47b73548fa5"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Forebody Drag Referred to the Base Area"
+gloss = "The forebody drag coefficient that the Hoerner correlation needs is the forebody equivalent skin-friction coefficient scaled by the ratio of wetted to base area."
+cite = []
+digest = "e7ed6cf5fcc5c416"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Forebody and Base Drag Trade on Wetted Area"
+gloss = "Writing both drag terms on wetted area gives a total that rises with the forebody contribution and falls through the base term, a trade the source analyses."
+cite = ["research_saltzman_2007"]
+digest = "f8a53f671e35af0b"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Stationarity Condition of the Drag Trade"
+gloss = "Setting the derivative of the total with respect to the forebody contribution to zero gives the condition for an interior minimum."
+cite = []
+digest = "5ee90712c257dd5b"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Optimum Forebody Contribution"
+gloss = "The minimum lies at a forebody contribution proportional to the base-to-wetted area ratio, with a coefficient set by the Hoerner coefficient and profile factor."
+cite = []
+digest = "faa283dc154cf9db"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Total Drag at the Optimum as Three Times the Forebody Drag"
+gloss = "Substituting the optimum back makes the total exactly three times the forebody contribution, independent of every parameter in the trade."
+cite = ["research_saltzman_2007"]
+digest = "0ad26f15318add34"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Ratio of the Source's Optimum Coefficients"
+gloss = "The source's minimum total coefficient of $0.3852\\,r$ is exactly three times its optimal forebody coefficient of $0.1284\\,r$."
+cite = ["research_saltzman_2007"]
+digest = "c28516553f15dce5"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Optimum Forebody Coefficient in the Article's Arrangement"
+gloss = "Applying the full-scale Hoerner coefficient of 0.10 with a profile factor of 0.92 in the article's arrangement gives 0.1435, twelve percent above the source's value."
+cite = []
+digest = "0bb8722a3109d8e1"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Maximum Lift-to-Drag Ratio of a Parabolic Polar"
+gloss = "For a parabolic polar the maximum lift-to-drag ratio is half the square root of pi times efficiency factor times aspect ratio over the parasite drag coefficient."
+cite = []
+digest = "671f19ee84255c89"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Maximum Lift-to-Drag Ratio in Wetted Area Form"
+gloss = "Expressing the parasite drag on wetted area and the aspect ratio through the span makes the reference area cancel, leaving span squared over wetted area as the governing variable."
+cite = ["research_saltzman_2007"]
+digest = "1392746844f1825f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Aspect Ratio and Wetted Aspect Ratio"
+gloss = "The aspect ratio is span squared over reference area and the wetted aspect ratio is span squared over wetted area."
+cite = ["research_saltzman_2007"]
+digest = "6bf198d033c37a14"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Lift-to-Drag Gain from Covering the Base"
+gloss = "Within the article's base drag model, removing the base term cuts the drag to one third, so the lift-to-drag ratio rises by the square root of three."
+cite = []
+digest = "434f11d91713acc6"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Predicted Lift-to-Drag Ratio of Enterprise with the Tailcone"
+gloss = "The truncated Enterprise value scaled by the square root of three predicts 7.05, six percent below the measured 7.5."
+cite = []
+digest = "338d44a1968bba01"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Parabolic Drag Polar of the X-24B"
+gloss = "The drag polar of the X-24B uses an induced drag factor of 0.479 that follows from an efficiency factor the article assumes as 0.6."
+cite = []
+digest = "46ab8515f829ba34"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Lift Coefficient in Level Flight and Dynamic Pressure"
+gloss = "The lift coefficient that balances the weight is the weight over dynamic pressure times reference area, with dynamic pressure half the density times the square of speed."
+cite = []
+digest = "a7229a6d26fa9e2b"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Best Glide Condition of the X-24B"
+gloss = "Equating the parasite and induced terms of the assumed polar gives a best-glide lift coefficient of 0.30 and a maximum lift-to-drag ratio of 3.43."
+cite = []
+digest = "0ebaae5dac140d0b"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Best Glide Angle"
+gloss = "The best glide angle is the inverse tangent of the reciprocal of the maximum lift-to-drag ratio of the assumed polar, about 16 degrees."
+cite = []
+digest = "0b966cf04b124a6b"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Best Glide Speed"
+gloss = "The lift balance at the best-glide lift coefficient and the density taken for Edwards gives about 188 miles an hour."
+cite = ["ref_edwards_afb"]
+digest = "24d2b37e608394b4"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Approach Speed Relative to Best Glide"
+gloss = "The approach speed of 300 miles an hour that the article assumes is 1.60 times the best-glide speed."
+cite = []
+digest = "1e2778a40ddb47dc"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Lift Coefficient at the Assumed Approach Speed"
+gloss = "Because the lift coefficient falls as the inverse square of speed, the assumed approach speed brings it to 0.39 of the best-glide value."
+cite = []
+digest = "39e1233be9ce7439"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Induced Share of the Approach Drag"
+gloss = "At the assumed approach speed the induced term is about one eighth of the total drag of the assumed polar."
+cite = []
+digest = "e399355cd3826b4e"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Approach Path Angle"
+gloss = "The lift-to-drag ratio of 2.34 at the assumed approach speed gives a path angle of about 23 degrees."
+cite = []
+digest = "c875e7f855d22572"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Approach Sink Rate"
+gloss = "The vertical component of the assumed approach speed on that path is about 10,400 feet per minute."
+cite = []
+digest = "0899db247793f533"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Sink Rate of a Transport Approach"
+gloss = "A transport on a three-degree approach at 140 knots, values the article takes as representative, descends at about 740 feet per minute."
+cite = []
+digest = "d3ced2a4d17677ed"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Ratio of Lifting Body to Transport Sink Rate"
+gloss = "The modelled lifting-body sink rate is about fourteen times the representative transport value."
+cite = []
+digest = "7dcb780f89c90162"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Documented Approach Band Relative to Best Glide"
+gloss = "The documented band of 321 to 357 miles an hour true is 1.71 to 1.90 times the best-glide speed of the assumed polar."
+cite = ["research_william_h_dana_j_r_gentry_1970"]
+digest = "afa64c20da7228e6"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Radius of a Pull-Up at Constant Load Factor"
+gloss = "A path curving at load factor $n$ in a vertical plane has an instantaneous radius of speed squared over gravity times $n$ minus one."
+cite = []
+digest = "aef9c793bdb58c9d"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Arc Length per Unit Path Angle"
+gloss = "The distance along the path per unit change of path angle is the negative of the instantaneous radius."
+cite = []
+digest = "b14177d47f3820df"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Height and Horizontal Distance Along the Path"
+gloss = "Height and horizontal distance change along the path as the sine and cosine of the path angle."
+cite = []
+digest = "440ba6ac7a745682"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Speed Change Along the Path"
+gloss = "Along the path the speed changes with the difference between the weight component along the path and the drag, divided by mass times speed."
+cite = []
+digest = "7d015b8c96295488"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Lift Coefficient and Drag at Load Factor"
+gloss = "The lift coefficient the load factor demands and the drag from the parabolic polar at that lift coefficient close the flare equations."
+cite = []
+digest = "00f934aad9f3b171"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Load Factor"
+gloss = "The load factor is the ratio of lift to weight."
+cite = []
+digest = "09742177bf143fcd"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Load Factor Solved for the Quoted Touchdown Speed"
+gloss = "Integrating the flare from the assumed 300 miles an hour and adjusting the load factor until touchdown at the quoted 200 miles an hour gives 1.19 g, a flare from about 2,160 feet lasting about 22 seconds."
+cite = []
+digest = "b928bc8ff3af4eef"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Flare Compared with a Transport Flare"
+gloss = "Against a transport flare the article takes to begin at about thirty feet and last about three seconds, the modelled flare starts about seventy times higher and lasts about seven times longer."
+cite = []
+digest = "b50982aac8b14ce2"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Flare Distance as a Fraction of the Runway"
+gloss = "The horizontal projection of the modelled flare covers about 62 percent of the 15,000 foot concrete runway."
+cite = []
+digest = "6e8b27a4cadf01e2"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Lift Coefficient at the Start of the Flare"
+gloss = "The solved load factor times the approach lift coefficient gives a flare lift coefficient of about 0.14."
+cite = []
+digest = "e4d6509de60091b3"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Touchdown Speed Gain from Pulling Harder"
+gloss = "In the flare model raising the load factor from 2 to 3 g lowers the touchdown speed by only 4 miles an hour."
+cite = []
+digest = "44f56bc676926a1c"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Stall Speed"
+gloss = "The stall speed at the lift and drag test weight with a maximum usable lift coefficient the article assumes as 0.7 is about 124 miles an hour."
+cite = []
+digest = "09f15a0e56e06842"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Touchdown Speed Margin over Stall"
+gloss = "The modelled touchdown speed at 1.19 g is 1.60 times the stall speed of the assumed maximum lift coefficient."
+cite = []
+digest = "27741ec9ccd83570"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Height Span of the Documented Flare"
+gloss = "The documented flare from 1,000 feet to the 100 foot level-off spans 900 feet of height."
+cite = []
+digest = "dc9469cf3c6d3ebc"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Float Distance after the Flare"
+gloss = "Holding level flight at one g, the article writes the float distance as the speed decay that the polar sets plus a term for the level-off height times a mean lift-to-drag ratio."
+cite = []
+digest = "4d8cb081a8275203"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Float Distance, Mean Lift-to-Drag Ratio and Duration"
+gloss = "Decelerating from 241 to 200 miles an hour on the assumed polar gives a float of about 2,300 feet lasting about seven seconds."
+cite = []
+digest = "66bf2b8882af5b5f"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Sink Rate at a Residual Path Angle"
+gloss = "The sink rate is the speed times the sine of the path angle, reported at a small residual angle because the flare drives the angle to zero."
+cite = []
+digest = "295d33345bb347fd"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Mean Impact Load Factor of the X-24A"
+gloss = "The mean of the 25 peak normal accelerations at ground impact in Larson's table for the X-24A is 1.43 g."
+cite = ["research_larson_1972"]
+digest = "ea2891263dc770cc"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Energy Height at the Start of the Flare"
+gloss = "The modelled flare height plus the kinetic energy height of the assumed approach speed gives a total energy height of about 5,170 feet."
+cite = []
+digest = "5e5900f351aa6a11"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Energy Height at Touchdown"
+gloss = "At zero height and the touchdown speed of 199 miles an hour that the flare model reaches, close to the quoted 200, the energy height is about 1,320 feet."
+cite = []
+digest = "9d342271340e276d"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Share of Energy Spent in the Flare"
+gloss = "The difference of the modelled and touchdown energy heights is about 74 percent of the energy at the start of the flare."
+cite = []
+digest = "3fdfafdb3d20f51e"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Mean Deceleration Along the Flare"
+gloss = "The change in squared speed over twice the modelled arc length gives a mean deceleration of about 0.18 g."
+cite = []
+digest = "181615e787a8014e"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Lift-to-Drag Ratios of the X-24A and X-24B"
+gloss = "The article's polar with full base drag and the assumed efficiency factor gives 2.99 and 3.43, a ratio of 1.15."
+cite = ["book_reed_1997"]
+digest = "64ccf833f797ffaa"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Lift-to-Drag Gain from the Wetted Aspect Ratio"
+gloss = "Because the maximum lift-to-drag ratio goes as the square root of the wetted aspect ratio, a rise of 1.23 in that ratio accounts for a factor of 1.11."
+cite = []
+digest = "d920eadc521e3e1a"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Glide Radius from Height"
+gloss = "A glide at a fixed lift-to-drag ratio reaches a horizontal radius equal to the starting height times that ratio."
+cite = ["research_bell_1964", "research_kelley_1982", "research_knapp_barton_1968", "research_sleeman_1971"]
+digest = "ccee0ef4fa82c2d4"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Ratio of Powered-Approach Runway to Concrete Runway"
+gloss = "The 7.5 miles the HL-10's powered approaches needed is 2.6 times the 15,000 feet of concrete at Edwards."
+cite = ["research_berwin_m_kock_fitzhugh_l_fulton_1970", "book_reed_1997"]
+digest = "77f77446a4557a46"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Statistics of the X-24A Longitudinal Miss Distances"
+gloss = "The signed mean, mean absolute value and sample standard deviation of 20 measured X-24A touchdown misses are about 1,130, 1,450 and 1,680 feet."
+cite = ["research_larson_1972"]
+digest = "009bb50bf9a269a8"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Probability of Landing within 500 Feet under the Lakebed Fit"
+gloss = "Under Larson's normal fit with a mean 112 feet short and a standard deviation of 1,793.6 feet, about 22 percent of landings fall within 500 feet of the aim point."
+cite = ["research_larson_1972"]
+digest = "5b6b1e45926f2390"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Ratio of Lakebed Scatter to the Expected Accuracy"
+gloss = "The lakebed standard deviation is about 3.6 times the 500 foot accuracy expected on the concrete."
+cite = []
+digest = "e614e460670728c5"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Departures of the Model from Flight-Determined Ratios"
+gloss = "The article's lift-to-drag ratios differ from the flight-determined values matched by base area by $+3$, $-9$ and $+8$ percent."
+cite = ["research_saltzman_2002"]
+digest = "bf57a09785a70ddf"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Thrust to Change the Path Angle at Constant Speed"
+gloss = "Holding the speed while changing the path angle needs a thrust equal to the change in the weight component along the path."
+cite = ["research_berwin_m_kock_fitzhugh_l_fulton_1970"]
+digest = "ac6ba916eb6db13c"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Thrust for a Six Degree Powered Approach"
+gloss = "Shallowing the modelled 23.2 degree approach of the X-24B to 6 degrees needs about 2,460 pounds of thrust, 29 percent of its weight."
+cite = []
+digest = "0778b236a8e37a84"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Lift-to-Drag Ratio with Roughness Drag"
+gloss = "At a given lift the lift-to-drag ratio falls in proportion to the drag, so a fractional drag increase divides it by one plus that fraction."
+cite = ["book_reed_1997"]
+digest = "076cd8cf69bc110d"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Touchdown Speed as a Function of Aerodynamics Alone"
+gloss = "The article writes the touchdown speed of its flare model as a function of load factor, wing loading, polar coefficients and density alone, with no term for the pilot."
+cite = []
+digest = "3c0d0eb117de11dc"
+
+[[symbol]]
+tex = 'C_{D_b}'
+meaning = "the base drag coefficient referred to wetted area"
+
+[[symbol]]
+tex = 'C_{p_b}'
+meaning = "the base pressure coefficient"
+
+[[symbol]]
+tex = 'A_b'
+meaning = "the base area"
+
+[[symbol]]
+tex = 'A_w'
+meaning = "the wetted area"
+
+[[symbol]]
+tex = 'K'
+meaning = "the coefficient of the Hoerner base pressure correlation"
+
+[[symbol]]
+tex = 'Re'
+meaning = "the Reynolds number"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the kinematic viscosity"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the ratio of air density to sea-level density"
+
+[[symbol]]
+tex = 'V_i'
+meaning = "the indicated airspeed, and in Equation 60 the speed at the start of the flare"
+
+[[symbol]]
+tex = 'C_{F_e}'
+meaning = "the equivalent skin-friction coefficient referred to wetted area"
+
+[[symbol]]
+tex = 'r'
+meaning = "the ratio of base area to wetted area, and in Equation 63 the glide radius"
+
+[[symbol]]
+tex = 'x'
+meaning = "the forebody contribution to the equivalent skin-friction coefficient, and in Equations 41 and 65 a horizontal distance"
+
+[[symbol]]
+tex = 'e'
+meaning = "the efficiency factor, taken as 0.6"
+
+[[symbol]]
+tex = 'A'
+meaning = "the aspect ratio"
+
+[[symbol]]
+tex = 'b'
+meaning = "the span"
+
+[[symbol]]
+tex = 'S'
+meaning = "the reference area"
+
+[[symbol]]
+tex = 'C_{D_0}'
+meaning = "the parasite drag coefficient"
+
+[[symbol]]
+tex = 'k_i'
+meaning = "the induced drag factor"
+
+[[symbol]]
+tex = 'C_L^*'
+meaning = "the lift coefficient at best glide, with $V^*$ the best-glide speed"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the flight path angle"
+
+[[symbol]]
+tex = 'n'
+meaning = "the load factor"
+
+[[symbol]]
+tex = 'R'
+meaning = "the instantaneous radius of the flare"
+
+[[symbol]]
+tex = 's'
+meaning = "the distance along the path"
+
+[[symbol]]
+tex = 'V_\text{td}'
+meaning = "the touchdown speed"
+
+[[symbol]]
+tex = 'C_{L_\text{max}}'
+meaning = "the maximum usable lift coefficient, taken as 0.7"
+
+[[symbol]]
+tex = 'h_E'
+meaning = "the energy height"
+
+[[symbol]]
+tex = '\sigma_x'
+meaning = "the standard deviation of the touchdown miss distance in Larson's fit"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the standard normal distribution function"

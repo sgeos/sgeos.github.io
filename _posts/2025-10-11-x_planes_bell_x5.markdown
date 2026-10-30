@@ -23,33 +23,51 @@ The keystone is whether wing sweep can be a variable rather than a choice.
 
 Sweep is the central compromise of transonic design and it cannot be resolved in a fixed wing. Sweeping a wing back delays the onset of compressibility drag, because only the velocity component normal to the leading edge does the compressing. Resolving the free-stream velocity into components along and across the leading edge,
 
-$$V_n = V \cos \Lambda, \qquad V_s = V \sin \Lambda, \qquad M_n = M \cos \Lambda$$
+$$
+V_n = V \cos \Lambda, \qquad V_s = V \sin \Lambda, \qquad M_n = M \cos \Lambda
+\tag{1}
+$$
 
 with $V_n$ the component that must be accelerated over the section and $V_s$ the spanwise component that must not. At Mach 0.9 and 60 degrees of sweep the section sees an effective Mach number of 0.45, which is subcritical by a wide margin, while the spanwise component reaches Mach 0.78 and drags boundary layer toward the tip.
 
 That spanwise component is not merely a bookkeeping term. It drives an instability with no unswept analogue, in which the boundary layer profile acquires an inflection in the crossflow direction and sheds stationary vortices that trip the layer to turbulence well ahead of where a straight wing would transition. The mechanism was characterized experimentally by [Dagenhart et al. 1989][research_dagenhart_1989] and [Mousseux et al. 1989][research_mousseux_1989], mapped across the swept-wing boundary layer experiments of [Dagenhart et al. 1990][research_dagenhart_1990] and [Dagenhart 1992][research_dagenhart_1992], resolved into its secondary instability by [Kohama et al. 1991][research_kohama_1991], attacked with control by [Bridges 1994][research_bridges_1994], and is still being excited deliberately for study in [Carpenter et al. 2010][research_carpenter_2010]. The subject has not closed. [Borodulin et al. 2026a][research_borodulin_2026] follow the nonlinear development of the disturbances, [Li et al. 2026a][research_li_2026] apply flow control to a swept multi-element wing where the crossflow interacts with the slat wake, and [Wang et al. 2026a][research_wang_2026_2] use active suction against the instability at supersonic speed. [Lu et al. 2025b][research_lu_2025] extend the stability analysis into hypersonic swept flow, while transition prediction on a forward-swept laminar wing occupies [Fehrs and Kaiser 2025][research_fehrs_2025]. **The X-5 could vary the parameter this literature treats as fixed**, a point taken up at the end of this article, since that capability was eventually used for that purpose on a different airframe. The simple sweep relation states the benefit,
 
-$$M_{dd}(\Lambda) \approx \frac{M_{dd}(0)}{\cos^{k} \Lambda}, \qquad 0.5 \le k \le 1$$
+$$
+M_{dd}(\Lambda) \approx \frac{M_{dd}(0)}{\cos^{k} \Lambda}, \qquad 0.5 \le k \le 1
+\tag{2}
+$$
 
 with $k$ nearer one half than one in practice, since the flow does not obey the infinite-yawed-wing idealization at a real wing root or tip.
 
 A pivoting wing collects a second benefit that a fixed swept wing does not, and because the benefit is purely geometric it is treated separately here. The physical section is fixed in the panel frame, so sweeping lengthens the chord measured in the flow direction while leaving the thickness alone,
 
-$$c_{\text{stream}} = \frac{c_n}{\cos \Lambda} \quad \Longrightarrow \quad \left( \frac{t}{c} \right)_{\text{stream}} = \left( \frac{t}{c} \right)_n \cos \Lambda$$
+$$
+c_{\text{stream}} = \frac{c_n}{\cos \Lambda} \quad \Longrightarrow \quad \left( \frac{t}{c} \right)_{\text{stream}} = \left( \frac{t}{c} \right)_n \cos \Lambda
+\tag{3}
+$$
 
 so that a wing quoted at 11 percent thick streamwise at the low sweep setting presents
 
-$$\left( \frac{t}{c} \right)_{\text{stream}} (60^\circ) = 0.11 \times \frac{\cos 60^\circ}{\cos 20^\circ} = 0.059$$
+$$
+\left( \frac{t}{c} \right)_{\text{stream}} (60^\circ) = 0.11 \times \frac{\cos 60^\circ}{\cos 20^\circ} = 0.059
+\tag{4}
+$$
 
 or 5.9 percent, at the high setting. **Sweeping the wing makes the aeroplane thinner as well as more swept**, and both act on the same drag-rise Mach number. Against that benefit stands a penalty on everything slow. Sweep reduces the lift-curve slope, reduces the maximum lift coefficient, promotes spanwise flow toward the tip and therefore tip stall, and it does all of this at the flight condition where an aircraft needs lift most. The [swept wing][ref_swept_wing] is not a free improvement but a trade, and a fixed wing must buy one point on the trade and live at it.
 
 The idea of refusing to choose is old and obvious. Set the sweep low for takeoff, climb, and landing, and set it high for the dash. The objection, equally obvious once stated, is geometric rather than aerodynamic. A wing that rotates about a pivot carries its lift with it. Let the panel pivot about a point at spanwise station $y_p$, and let the panel aerodynamic centre lie a distance $s_{ac}$ from that pivot measured along the panel. The streamwise position of that aerodynamic centre is then
 
-$$x_{ac}(\Lambda) = x_p + s_{ac} \sin \Lambda$$
+$$
+x_{ac}(\Lambda) = x_p + s_{ac} \sin \Lambda
+\tag{5}
+$$
 
 so that changing sweep from $\Lambda_1$ to $\Lambda_2$ translates the aerodynamic centre aft by
 
-$$\Delta x_{ac} = s_{ac} \left( \sin \Lambda_2 - \sin \Lambda_1 \right)$$
+$$
+\Delta x_{ac} = s_{ac} \left( \sin \Lambda_2 - \sin \Lambda_1 \right)
+\tag{6}
+$$
 
 The problem fits in one line. It contains no aerodynamics at all beyond the location of the aerodynamic centre on the panel, and it shows that the trim consequence of variable sweep is set by where the pivot is put. That consequence was the binding unknown the X-5 was built to address. Whether sweep helps was not in doubt, since [Deyoung 1947][research_deyoung_1947] had already supplied the span loading of wings of arbitrary sweep, aspect ratio, and taper, and the swept-wing fleet was flying. What was in doubt was whether an aircraft could absorb the consequence.
 
@@ -65,17 +83,26 @@ Bell proposed in July 1948 to make the adjustment continuous and airborne \[[NAS
 
 The configuration is small. A single [Allison J35-A-17A][ref_j35] turbojet of 4900 pounds thrust sits in the fuselage, giving
 
-$$T = 4900 \times 4.4482 = 2.18 \times 10^{4} \ \text{newtons}, \qquad \frac{T}{W} = \frac{2.18 \times 10^{4}}{4479 \times 9.80665} = 0.50$$
+$$
+T = 4900 \times 4.4482 = 2.18 \times 10^{4} \ \text{newtons}, \qquad \frac{T}{W} = \frac{2.18 \times 10^{4}}{4479 \times 9.80665} = 0.50
+\tag{7}
+$$
 
 against a gross weight of 9875 pounds, or 4479 kilograms. The wing area is 175 square feet, or 16.26 square metres, and the wing sweeps to three detented positions at 20, 40, and 60 degrees. The wing section is a [NACA 64A011][ref_naca_airfoil] at the root thinning to a 64A08.28 at the tip. Span at the low setting is 33 feet 6 inches, or 10.21 metres, and at the high setting 20 feet 9 inches, or 6.32 metres \[[Wikipedia Article on the Bell X-5][ref_bell_x5]\].
 
 The mass fractions follow from the empty weight of 6350 pounds \[[Wikipedia Article on the Bell X-5][ref_bell_x5]\],
 
-$$\frac{m_{\text{empty}}}{m_{\text{gross}}} = \frac{2880}{4479} = 0.643, \qquad \frac{m_{\text{fuel}} + m_{\text{payload}}}{m_{\text{gross}}} = 0.357$$
+$$
+\frac{m_{\text{empty}}}{m_{\text{gross}}} = \frac{2880}{4479} = 0.643, \qquad \frac{m_{\text{fuel}} + m_{\text{payload}}}{m_{\text{gross}}} = 0.357
+\tag{8}
+$$
 
 a heavy empty fraction for a small jet, and the place where the pivot, its carry-through, and the translation mechanism are hiding. The wing loading follows,
 
-$$\frac{W}{S} = \frac{4479 \times 9.80665}{16.26} = 2702 \ \text{newtons per square metre}$$
+$$
+\frac{W}{S} = \frac{4479 \times 9.80665}{16.26} = 2702 \ \text{newtons per square metre}
+\tag{9}
+$$
 
 which is unremarkable and deliberately so. The aircraft was not built to go fast. It reached about Mach 0.9 and 40,000 feet \[[Wikipedia Article on the Bell X-5][ref_bell_x5]\], which is enough to make the sweep question meaningful and not enough to add a second question on top of it. That restraint is the same judgement the [X-4][related_post_a301_northrop_x4] shows and the [X-3][related_post_a300_douglas_x3] does not.
 
@@ -87,27 +114,45 @@ The keystone relationship is the aerodynamic centre travel, and the X-5's publis
 
 The span of a pivoting wing is a function of sweep. If the pivot sits at spanwise station $y_p$ and the movable panel has length $L$ measured along its own axis, then the projected span at sweep angle $\Lambda$ is
 
-$$b(\Lambda) = 2 \left( y_p + L \cos \Lambda \right)$$
+$$
+b(\Lambda) = 2 \left( y_p + L \cos \Lambda \right)
+\tag{10}
+$$
 
 Two published spans at two known sweep angles determine both unknowns. Writing the pair,
 
-$$\frac{b(\Lambda_1)}{2} = y_p + L \cos \Lambda_1, \qquad \frac{b(\Lambda_2)}{2} = y_p + L \cos \Lambda_2$$
+$$
+\frac{b(\Lambda_1)}{2} = y_p + L \cos \Lambda_1, \qquad \frac{b(\Lambda_2)}{2} = y_p + L \cos \Lambda_2
+\tag{11}
+$$
 
 and subtracting gives the panel length directly,
 
-$$L = \frac{b(\Lambda_1) - b(\Lambda_2)}{2 \left( \cos \Lambda_1 - \cos \Lambda_2 \right)}$$
+$$
+L = \frac{b(\Lambda_1) - b(\Lambda_2)}{2 \left( \cos \Lambda_1 - \cos \Lambda_2 \right)}
+\tag{12}
+$$
 
 Substituting the X-5 figures, a span of 10.211 metres at 20 degrees and 6.325 metres at 60 degrees,
 
-$$L = \frac{10.211 - 6.325}{2 \left( 0.9397 - 0.5000 \right)} = \frac{3.886}{0.8794} = 4.42 \ \text{metres}$$
+$$
+L = \frac{10.211 - 6.325}{2 \left( 0.9397 - 0.5000 \right)} = \frac{3.886}{0.8794} = 4.42 \ \text{metres}
+\tag{13}
+$$
 
 and back-substituting recovers the pivot station,
 
-$$y_p = \frac{b(\Lambda_1)}{2} - L \cos \Lambda_1 = 5.106 - 4.42 \times 0.9397 = 0.953 \ \text{metres}$$
+$$
+y_p = \frac{b(\Lambda_1)}{2} - L \cos \Lambda_1 = 5.106 - 4.42 \times 0.9397 = 0.953 \ \text{metres}
+\tag{14}
+$$
 
 The pivot therefore sits 0.953 metres from the centreline, which is
 
-$$\frac{y_p}{b(20^\circ)/2} = \frac{0.953}{5.106} = 0.187$$
+$$
+\frac{y_p}{b(20^\circ)/2} = \frac{0.953}{5.106} = 0.187
+\tag{15}
+$$
 
 or **18.7 percent of the semi-span**. An inboard pivot of this kind, close against the fuselage, is the design decision that determines everything that follows. The number is not quoted from a source. It is recovered from two spans and a cosine, and it can be checked by anyone with the same two spans.
 
@@ -115,51 +160,84 @@ or **18.7 percent of the semi-span**. An inboard pivot of this kind, close again
 
 The aerodynamic centre of a tapered panel lies near the spanwise station of its mean aerodynamic chord, which for a straight-tapered panel of taper ratio $\lambda$ is
 
-$$\frac{y_{\text{mac}}}{L} = \frac{1}{3} \, \frac{1 + 2\lambda}{1 + \lambda}$$
+$$
+\frac{y_{\text{mac}}}{L} = \frac{1}{3} \, \frac{1 + 2\lambda}{1 + \lambda}
+\tag{16}
+$$
 
 returning 0.41 at a taper ratio of 0.3 and 0.44 at 0.5. Taper ratio was not a free parameter to the designers either, since it governs the rolling derivatives directly, as [Brewer and Fisher 1951][research_brewer_1951] measured across swept and unswept planforms. This article uses forty percent, which is slightly inboard of that range and therefore slightly conservative, so
 
-$$s_{ac} \approx 0.40 \, L = 0.40 \times 4.42 = 1.77 \ \text{metres}$$
+$$
+s_{ac} \approx 0.40 \, L = 0.40 \times 4.42 = 1.77 \ \text{metres}
+\tag{17}
+$$
 
 and the travel between the extreme sweep settings follows from the relation derived above,
 
-$$\Delta x_{ac} = 1.77 \times \left( \sin 60^\circ - \sin 20^\circ \right) = 1.77 \times \left( 0.8660 - 0.3420 \right) = 0.93 \ \text{metres}$$
+$$
+\Delta x_{ac} = 1.77 \times \left( \sin 60^\circ - \sin 20^\circ \right) = 1.77 \times \left( 0.8660 - 0.3420 \right) = 0.93 \ \text{metres}
+\tag{18}
+$$
 
 The estimate needs a sensitivity statement, because $s_{ac}$ is the only assumed quantity in the chain. The travel is linear in it,
 
-$$\frac{\partial \left( \Delta x_{ac} \right)}{\Delta x_{ac}} = \frac{\partial s_{ac}}{s_{ac}}$$
+$$
+\frac{\partial \left( \Delta x_{ac} \right)}{\Delta x_{ac}} = \frac{\partial s_{ac}}{s_{ac}}
+\tag{19}
+$$
 
 so the seven percent spread in the taper-ratio relation above propagates to $0.93 \pm 0.07$ metres. Nothing in the argument turns on the difference. The figure acquires meaning only when it is referred to a chord. The mean chord follows from the area and the unswept span,
 
-$$\bar{c} = \frac{S}{b(20^\circ)} = \frac{16.26}{10.211} = 1.59 \ \text{metres}$$
+$$
+\bar{c} = \frac{S}{b(20^\circ)} = \frac{16.26}{10.211} = 1.59 \ \text{metres}
+\tag{20}
+$$
 
 so the travel is
 
-$$\frac{\Delta x_{ac}}{\bar{c}} = \frac{0.93}{1.59} = 0.58$$
+$$
+\frac{\Delta x_{ac}}{\bar{c}} = \frac{0.93}{1.59} = 0.58
+\tag{21}
+$$
 
 **The aerodynamic centre moves 58 percent of the mean chord when the pilot sweeps the wing.** Aircraft are designed with static margins of five to fifteen percent of chord. The X-5's sweep lever commands a change four to eleven times the entire stability budget of a conventional aeroplane, and it commands it in the air, with a pilot aboard. Nothing else about the configuration matters as much as this number.
 
 The consequence for the [static margin][ref_longitudinal_static_stability] is direct. Writing the margin in the usual way,
 
-$$SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM$$
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM
+\tag{22}
+$$
 
 an untreated sweep change from 20 to 60 degrees drives
 
-$$\Delta SM = +0.58$$
+$$
+\Delta SM = +0.58
+\tag{23}
+$$
 
 which takes an aircraft trimmed with a five percent margin at low sweep to a margin of 63 percent at high sweep. Such an aircraft is not dangerous in the sense of being unstable. It is useless, because the elevator cannot trim it and the stick forces to manoeuvre it would be enormous. The relation between margin and stick force per unit load factor,
 
-$$\frac{F_s}{n} \propto MM, \qquad MM = SM - \frac{C_{mq}}{2 \mu}, \qquad \mu = \frac{2m}{\rho S \bar{c}}$$
+$$
+\frac{F_s}{n} \propto MM, \qquad MM = SM - \frac{C_{mq}}{2 \mu}, \qquad \mu = \frac{2m}{\rho S \bar{c}}
+\tag{24}
+$$
 
 makes the point quantitative, since a twelvefold increase in margin is a twelvefold increase in the force required to pull a given load factor.
 
 The usable centre-of-gravity range collapses in the same motion. The aft limit is set by the minimum acceptable static margin and the forward limit by the control power available to trim at maximum lift,
 
-$$x_{cg,\text{aft}} = x_{np} - SM_{\min} \bar{c}, \qquad x_{cg,\text{fwd}} = x_{ac} - \frac{\left| C_{m \delta_e} \right| \delta_{e,\max}}{C_{L,\max}} \bar{c}$$
+$$
+x_{cg,\text{aft}} = x_{np} - SM_{\min} \bar{c}, \qquad x_{cg,\text{fwd}} = x_{ac} - \frac{\left| C_{m \delta_e} \right| \delta_{e,\max}}{C_{L,\max}} \bar{c}
+\tag{25}
+$$
 
 and for a fixed wing the difference between them is a design constant. For a pivoting wing the neutral point in the first expression is itself a function of sweep, so the admissible range must be the intersection taken over the whole sweep schedule,
 
-$$\Delta x_{cg,\text{usable}} = \bigcap_{\Lambda} \left[ x_{cg,\text{fwd}}(\Lambda), \ x_{cg,\text{aft}}(\Lambda) \right]$$
+$$
+\Delta x_{cg,\text{usable}} = \bigcap_{\Lambda} \left[ x_{cg,\text{fwd}}(\Lambda), \ x_{cg,\text{aft}}(\Lambda) \right]
+\tag{26}
+$$
 
 which for an uncompensated aerodynamic centre travel of 0.58 chords is empty. **There is no single centre-of-gravity position at which an uncompensated X-5 is flyable at both sweep extremes.** The empty intersection states formally why a mechanism was unavoidable given the pivot Bell had chosen.
 
@@ -167,33 +245,54 @@ which for an uncompensated aerodynamic centre travel of 0.58 chords is empty. **
 
 Bell's answer was to translate the wing forward as it swept aft \[[NASA X-5 Fact Sheet][ref_nasa_x5_factsheet]\]. A [jackscrew][ref_jackscrew] assembly drove the pivot along short horizontal rails, with disc brakes locking the wing at each detent \[[Wikipedia Article on the Bell X-5][ref_bell_x5]\]. The required translation to null the aerodynamic centre travel exactly is, by construction,
 
-$$\Delta x_{\text{translate}} = -\Delta x_{ac} = -0.93 \ \text{metres}$$
+$$
+\Delta x_{\text{translate}} = -\Delta x_{ac} = -0.93 \ \text{metres}
+\tag{27}
+$$
 
 or three feet of fore-and-aft motion of the complete wing, through a structure that must simultaneously carry the wing bending moment. The mechanism moved the wing about 27 inches, or 0.69 metres, forward between the 20 and 60 degree settings \[[NASA X-5 Fact Sheet][ref_nasa_x5_factsheet]\], against the 0.93 metres estimated here, so the compensation was partial, by this estimate about three quarters. The flight programme had to measure the residual, which explains why [Finch and Walker 1953][research_finch_1953_2] reports the *boundaries* of static longitudinal stability instead of a single value.
 
 There is a cleaner way to state what Bell got wrong, and the subsequent history of variable sweep is contained in it. Suppose the pivot is moved outboard, so that a fixed inboard glove carries a fraction $f$ of the wing lift and does not move at all. The wing's aerodynamic centre is then an average weighted by lift share,
 
-$$x_{ac,\text{wing}} = f \, x_{\text{glove}} + \left( 1 - f \right) \left( x_p + s_{ac} \sin \Lambda \right)$$
+$$
+x_{ac,\text{wing}} = f \, x_{\text{glove}} + \left( 1 - f \right) \left( x_p + s_{ac} \sin \Lambda \right)
+\tag{28}
+$$
 
 and its travel with sweep is
 
-$$\Delta x_{ac,\text{wing}} = \left( 1 - f \right) s_{ac} \left( \sin \Lambda_2 - \sin \Lambda_1 \right)$$
+$$
+\Delta x_{ac,\text{wing}} = \left( 1 - f \right) s_{ac} \left( \sin \Lambda_2 - \sin \Lambda_1 \right)
+\tag{29}
+$$
 
 The design variable is the pivot station, and the travel to be minimized is a function of it. Writing the movable panel length as what remains of the semi-span outboard of the pivot,
 
-$$L(y_p) = \frac{b_0}{2} - y_p, \qquad s_{ac}(y_p) = \beta \left( \frac{b_0}{2} - y_p \right)$$
+$$
+L(y_p) = \frac{b_0}{2} - y_p, \qquad s_{ac}(y_p) = \beta \left( \frac{b_0}{2} - y_p \right)
+\tag{30}
+$$
 
 with $\beta$ near 0.4, and taking the glove lift fraction to grow with pivot station roughly as its share of the semi-span,
 
-$$f(y_p) \approx \frac{y_p}{b_0 / 2}$$
+$$
+f(y_p) \approx \frac{y_p}{b_0 / 2}
+\tag{31}
+$$
 
 the travel becomes
 
-$$\Delta x_{ac}(y_p) = \beta \left( 1 - \frac{y_p}{b_0/2} \right) \left( \frac{b_0}{2} - y_p \right) \left( \sin \Lambda_2 - \sin \Lambda_1 \right)$$
+$$
+\Delta x_{ac}(y_p) = \beta \left( 1 - \frac{y_p}{b_0/2} \right) \left( \frac{b_0}{2} - y_p \right) \left( \sin \Lambda_2 - \sin \Lambda_1 \right)
+\tag{32}
+$$
 
 which is quadratic in the pivot station and falls away from the centreline much faster than linearly. Two things shrink at once. The factor $(1-f)$ reduces the travel in proportion to the lift the fixed glove carries, and moving the pivot outboard shortens the movable panel and therefore reduces $s_{ac}$ as well. **The two effects multiply.** A glove carrying half the lift with a panel two-thirds the length reduces the travel to one third of its inboard-pivot value,
 
-$$\frac{\Delta x_{ac}(\text{outboard})}{\Delta x_{ac}(\text{inboard})} = \left( 1 - f \right) \frac{s_{ac}'}{s_{ac}} = 0.5 \times 0.67 = 0.33$$
+$$
+\frac{\Delta x_{ac}(\text{outboard})}{\Delta x_{ac}(\text{inboard})} = \left( 1 - f \right) \frac{s_{ac}'}{s_{ac}} = 0.5 \times 0.67 = 0.33
+\tag{33}
+$$
 
 taking the X-5's 0.58 chords of travel down to 0.19. A static margin change of that size is large but no longer impossible, and the gap between the two values separates a mechanism from a design. The outboard pivot was conceived by NACA engineers at Langley in the mid-1950s, as [Hallion 1984][research_hallion_1984] records, and the finding is the subject of [Henderson and Ray 1964][research_henderson_1964], which varies pivot location explicitly and reports what it does to the longitudinal characteristics.
 
@@ -201,61 +300,100 @@ taking the X-5's 0.58 chords of travel down to 0.19. A static margin change of t
 
 The aerodynamic centre is the binding problem but it is not the only one. Sweeping the X-5's wing also shortens the span, and since the reference area is fixed, the aspect ratio collapses,
 
-$$A(\Lambda) = \frac{b(\Lambda)^2}{S} = \frac{4 \left( y_p + L \cos \Lambda \right)^2}{S}$$
+$$
+A(\Lambda) = \frac{b(\Lambda)^2}{S} = \frac{4 \left( y_p + L \cos \Lambda \right)^2}{S}
+\tag{34}
+$$
 
 Evaluating at the three detents,
 
-$$A(20^\circ) = 6.41, \qquad A(40^\circ) = 4.63, \qquad A(60^\circ) = 2.46$$
+$$
+A(20^\circ) = 6.41, \qquad A(40^\circ) = 4.63, \qquad A(60^\circ) = 2.46
+\tag{35}
+$$
 
 so the aircraft's aspect ratio falls by a factor of 2.6 across the sweep range. The lift-curve slope responds to both changes together, since the standard estimate depends on aspect ratio and sweep jointly,
 
-$$C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{ \dfrac{A^2 \beta_s^2}{\kappa^2} \left( 1 + \dfrac{\tan^2 \Lambda_{c/2}}{\beta_s^2} \right) + 4 }}, \qquad \beta_s = \sqrt{1 - M^2}$$
+$$
+C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{ \dfrac{A^2 \beta_s^2}{\kappa^2} \left( 1 + \dfrac{\tan^2 \Lambda_{c/2}}{\beta_s^2} \right) + 4 }}, \qquad \beta_s = \sqrt{1 - M^2}
+\tag{36}
+$$
 
 Taking the quoted sweep angles as half-chord sweep, an approximation stated as such, and evaluating at low Mach number,
 
-$$C_{L\alpha}(20^\circ) = 4.42, \qquad C_{L\alpha}(40^\circ) = 3.48, \qquad C_{L\alpha}(60^\circ) = 2.11 \ \text{per radian}$$
+$$
+C_{L\alpha}(20^\circ) = 4.42, \qquad C_{L\alpha}(40^\circ) = 3.48, \qquad C_{L\alpha}(60^\circ) = 2.11 \ \text{per radian}
+\tag{37}
+$$
 
 giving a ratio across the range of
 
-$$\frac{C_{L\alpha}(20^\circ)}{C_{L\alpha}(60^\circ)} = \frac{4.42}{2.11} = 2.09$$
+$$
+\frac{C_{L\alpha}(20^\circ)}{C_{L\alpha}(60^\circ)} = \frac{4.42}{2.11} = 2.09
+\tag{38}
+$$
 
 **The pilot can halve the aircraft's lift-curve slope with a lever.** Every derivative that contains $C_{L\alpha}$ moves with it, which is to say almost every derivative the aircraft has.
 
 The benefit appears at the slow end. Maximum lift coefficient falls roughly with the cosine of sweep, so
 
-$$C_{L,\max}(\Lambda) \approx C_{L,\max}(0) \cos \Lambda$$
+$$
+C_{L,\max}(\Lambda) \approx C_{L,\max}(0) \cos \Lambda
+\tag{39}
+$$
 
 and the stall speed follows,
 
-$$V_{\text{stall}} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}$$
+$$
+V_{\text{stall}} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}
+\tag{40}
+$$
 
 The increments a flap supplies were predictable by method rather than by test alone, and [A Method for Predicting][research_lowry_1957] give one, by the same Polhamus who would shortly lead the variable-sweep work discussed below. Evaluating with a maximum lift coefficient of 1.20 at the low sweep setting and scaling by cosine,
 
-$$V_{\text{stall}}(20^\circ) = 60.6 \ \text{metres per second}, \qquad V_{\text{stall}}(60^\circ) = 83.1 \ \text{metres per second}$$
+$$
+V_{\text{stall}}(20^\circ) = 60.6 \ \text{metres per second}, \qquad V_{\text{stall}}(60^\circ) = 83.1 \ \text{metres per second}
+\tag{41}
+$$
 
 a rise of 37 percent. The drag-divergence side of the trade can be evaluated on the same footing using the Korn relation, which carries sweep, thickness, and lift coefficient together,
 
-$$M_{dd} = \frac{\kappa_A}{\cos \Lambda} - \frac{\left( t/c \right)_{\text{stream}}}{\cos^2 \Lambda} - \frac{C_L}{10 \cos^3 \Lambda}$$
+$$
+M_{dd} = \frac{\kappa_A}{\cos \Lambda} - \frac{\left( t/c \right)_{\text{stream}}}{\cos^2 \Lambda} - \frac{C_L}{10 \cos^3 \Lambda}
+\tag{42}
+$$
 
 with $\kappa_A$ near 0.87 for a conventional section. The underlying comparison had been made by experiment, not by correlation. [Ackeret et al. 1951][research_ackeret_1951] report an investigation of wings with and without sweepback at high subsonic speed, and the argument depends on that controlled experiment. Twist and camber interact with the same trade, as [Spreemann and Alford 1951][research_spreemann_1951] and [Mugler 1959b][research_mugler_1959] show, and the body interference a real installation adds appears in [Martina 1956b][research_martina_1956]. Evaluating at a lift coefficient of 0.3 with the streamwise thickness ratios derived above,
 
-$$M_{dd}(20^\circ) = 0.765, \qquad M_{dd}(40^\circ) = 0.916, \qquad M_{dd}(60^\circ) = 1.27$$
+$$
+M_{dd}(20^\circ) = 0.765, \qquad M_{dd}(40^\circ) = 0.916, \qquad M_{dd}(60^\circ) = 1.27
+\tag{43}
+$$
 
 The correlation compresses a decade of transonic drag work into three terms, and because the coefficients are empirical, the underlying measurements are named here. Wing-body drag at transonic speed was characterized by [Cheatham and Kurbjun 1948][research_cheatham_1948] and systematically by [Whitcomb 1956][research_whitcomb_1956], whose zero-lift drag study of wing-body combinations is the work the area rule came out of, with the moment-of-area refinements in [Dickey 1959][research_dickey_1959] and the transonic characteristics of a 52 degree sweptback configuration in [Igoe et al. 1961][research_igoe_1961]. The last figure is beyond the relation's range of validity and is quoted only to show the sense of the trend. The first two are the interesting ones. **The X-5 reached about Mach 0.9, which is above the drag-rise Mach number of its unswept setting and at the drag-rise Mach number of its middle one.** The aircraft could not have reached its top speed at low sweep. Sweeping was not a refinement of the performance. It was the performance.
 
 Stated the other way at the slow end, where the designer's interest lies, unsweeping the wing for the approach reduces the landing speed by more than a quarter. The commercial argument for variable sweep consists of that reduction, which matters because landing speed drives runway length, tyre and brake energy, and the survivability of an approach flown badly. The energy a brake must absorb scales as the square of the touchdown speed,
 
-$$E_{\text{brake}} \approx \frac{1}{2} m V_{\text{td}}^2$$
+$$
+E_{\text{brake}} \approx \frac{1}{2} m V_{\text{td}}^2
+\tag{44}
+$$
 
 so a 27 percent reduction in speed is a 47 percent reduction in the energy the aircraft arrives with.
 
 The bill for all of this arrives in induced drag, which depends on the span and therefore on the sweep,
 
-$$C_{D,i} = \frac{C_L^2}{\pi A e} = \frac{C_L^2 S}{\pi b^2 e}$$
+$$
+C_{D,i} = \frac{C_L^2}{\pi A e} = \frac{C_L^2 S}{\pi b^2 e}
+\tag{45}
+$$
 
 Evaluating at a lift coefficient of 0.3 and a span efficiency of 0.85,
 
-$$C_{D,i}(20^\circ) = 0.0053, \qquad C_{D,i}(60^\circ) = 0.0137$$
+$$
+C_{D,i}(20^\circ) = 0.0053, \qquad C_{D,i}(60^\circ) = 0.0137
+\tag{46}
+$$
 
 a factor of 2.61. That number will appear again in the section on the spin. **The induced drag penalty and the growth of the spin inertia parameter are numerically identical, because both quantities carry the span squared in a denominator and the sweep lever is a span lever.** The drag penalty is a real performance cost. The spin parameter grows by the same factor, and the NACA's spin correlation reads that growth as no handicap to recovery, so the shared factor marks one geometric cause and does not make the spin a cost of the same size.
 
@@ -263,27 +401,45 @@ a factor of 2.61. That number will appear again in the section on the spin. **Th
 
 One number, the rate, decides how the pilot experiences all of this. The X-5 moved from full extension to full sweep in less than thirty seconds \[[Wikipedia Article on the Bell X-5][ref_bell_x5]\], and in about twenty seconds by the NASA account \[[NASA X-5 Fact Sheet][ref_nasa_x5_factsheet]\]. Taking the slower figure first,
 
-$$\dot{\Lambda} \approx \frac{40^\circ}{30 \ \text{s}} = 1.33 \ \text{degrees per second}$$
+$$
+\dot{\Lambda} \approx \frac{40^\circ}{30 \ \text{s}} = 1.33 \ \text{degrees per second}
+\tag{47}
+$$
 
 and the aerodynamic centre therefore drifts at
 
-$$\dot{x}_{ac} = \frac{0.93 \ \text{m}}{30 \ \text{s}} = 3.1 \ \text{centimetres per second}$$
+$$
+\dot{x}_{ac} = \frac{0.93 \ \text{m}}{30 \ \text{s}} = 3.1 \ \text{centimetres per second}
+\tag{48}
+$$
 
 Compare that with the timescale of the aircraft's longitudinal response. The short period frequency and damping are
 
-$$\omega_{sp} \approx \sqrt{-M_\alpha}, \qquad M_\alpha = \frac{q S \bar{c} \, C_{m\alpha}}{I_y}, \qquad \zeta_{sp} = -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}$$
+$$
+\omega_{sp} \approx \sqrt{-M_\alpha}, \qquad M_\alpha = \frac{q S \bar{c} \, C_{m\alpha}}{I_y}, \qquad \zeta_{sp} = -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}
+\tag{49}
+$$
 
 and for an aircraft of this class at its test condition the short period may be taken as near 3 radians per second, giving a period near two seconds. The ratio of timescales is therefore
 
-$$\frac{\tau_{\text{sweep}}}{T_{sp}} \approx \frac{30}{2} = 15$$
+$$
+\frac{\tau_{\text{sweep}}}{T_{sp}} \approx \frac{30}{2} = 15
+\tag{50}
+$$
 
 The comparison can be sharpened from an observation into a criterion. The aircraft experiences the geometry change as quasi-static when the stability perturbation the sweep produces in one short-period cycle is small against the margin itself,
 
-$$\epsilon_{qs} = \frac{1}{SM} \frac{\partial \left( x_{ac} / \bar{c} \right)}{\partial \Lambda} \dot{\Lambda} \, \frac{2\pi}{\omega_{sp}} \ll 1$$
+$$
+\epsilon_{qs} = \frac{1}{SM} \frac{\partial \left( x_{ac} / \bar{c} \right)}{\partial \Lambda} \dot{\Lambda} \, \frac{2\pi}{\omega_{sp}} \ll 1
+\tag{51}
+$$
 
 and with the X-5's numbers, a margin of 0.05, a sensitivity of 0.58 chords over 40 degrees, a rate of 1.33 degrees per second, and a period of 2.1 seconds,
 
-$$\epsilon_{qs} = \frac{1}{0.05} \times 0.0145 \times 1.33 \times 2.1 = 0.81$$
+$$
+\epsilon_{qs} = \frac{1}{0.05} \times 0.0145 \times 1.33 \times 2.1 = 0.81
+\tag{52}
+$$
 
 which is below unity but not comfortably. At the twenty-second figure the rate is 2.0 degrees per second, the ratio of timescales is 10, and $\epsilon_{qs}$ rises to 1.22, so the criterion is met only marginally if at all. Either way the pilot could not ignore the change and was retrimming continuously. **The sweep transient is ten to fifteen times slower than the mode it perturbs.** That inequality is why the X-5 was flyable at all. The aircraft never experiences a step change in its stability. It experiences a slow drift that the pilot trims out continuously, in the same way he trims out a fuel burn, and the formal statement is that the sweep change is quasi-static with respect to the rigid-body dynamics. Had the mechanism been ten times faster the aircraft would have needed a control system that could not have been built in 1951.
 
@@ -297,53 +453,89 @@ Every pound of lift on the movable panel is carried to the fuselage through one 
 
 The panel root bending moment at load factor $n$ is the panel lift acting at its centre of pressure,
 
-$$M_{\text{pivot}} = n \, L_{\text{panel}} \, s_{cp}$$
+$$
+M_{\text{pivot}} = n \, L_{\text{panel}} \, s_{cp}
+\tag{53}
+$$
 
 with $L_{\text{panel}}$ the lift carried by one movable panel and $s_{cp}$ the spanwise distance from pivot to panel centre of pressure. Taking the panels to carry about sixty percent of the total lift between them, one panel at a design load factor of seven carries
 
-$$L_{\text{panel}} = 0.5 \times 0.60 \times 43{,}926 \times 7 = 9.22 \times 10^{4} \ \text{newtons}$$
+$$
+L_{\text{panel}} = 0.5 \times 0.60 \times 43{,}926 \times 7 = 9.22 \times 10^{4} \ \text{newtons}
+\tag{54}
+$$
 
 and with the centre of pressure at the same forty percent of panel length used above,
 
-$$M_{\text{pivot}} = 9.22 \times 10^{4} \times 1.77 = 1.63 \times 10^{5} \ \text{newton metres}$$
+$$
+M_{\text{pivot}} = 9.22 \times 10^{4} \times 1.77 = 1.63 \times 10^{5} \ \text{newton metres}
+\tag{55}
+$$
 
 That moment must pass through a joint that also has to rotate under load. A fixed wing carries its root moment through a continuous spar carry-through, a beam in bending and the most efficient structure available. A pivoting wing must replace that beam with a pin, and the pin must be sized for the moment while the surrounding structure must be sized for the reaction couple the pin imposes. The reaction on the bearing separated by a structural depth $h$ is
 
-$$F_{\text{bearing}} = \frac{M_{\text{pivot}}}{h}$$
+$$
+F_{\text{bearing}} = \frac{M_{\text{pivot}}}{h}
+\tag{56}
+$$
 
 so a shallow fuselage multiplies the load. With a structural depth of half a metre the reaction is
 
-$$F_{\text{bearing}} = \frac{1.63 \times 10^{5}}{0.5} = 3.26 \times 10^{5} \ \text{newtons}$$
+$$
+F_{\text{bearing}} = \frac{1.63 \times 10^{5}}{0.5} = 3.26 \times 10^{5} \ \text{newtons}
+\tag{57}
+$$
 
 which a lug of 0.10 metre pin diameter and 0.05 metre thickness carries at a bearing stress of
 
-$$\sigma_{br} = \frac{F}{d \, t} = \frac{3.26 \times 10^{5}}{0.10 \times 0.05} = 65 \ \text{megapascals}$$
+$$
+\sigma_{br} = \frac{F}{d \, t} = \frac{3.26 \times 10^{5}}{0.10 \times 0.05} = 65 \ \text{megapascals}
+\tag{58}
+$$
 
 with the pin itself in double shear at
 
-$$\tau = \frac{F}{2 \left( \pi d^2 / 4 \right)} = 21 \ \text{megapascals}$$
+$$
+\tau = \frac{F}{2 \left( \pi d^2 / 4 \right)} = 21 \ \text{megapascals}
+\tag{59}
+$$
 
 The point to take is that neither figure is alarming for steel. The design of a conventional wing root and its carry-through is a well-worked subject, treated at length in [Sager et al. 1993][research_sager_1993] and [Downs et al. 1993][research_downs_1993], and what those treatments assume throughout is a continuous load path. The pivot replaces it with a discontinuity. The problem has not gone away for anyone who wants variable geometry, and [Hu et al. 2026b][research_hu_2026] design support structures for variable-sweep and variable-span wings with the bearing capacity the joint demands, and Bell solved the same problem with a jackscrew and rails. A related modern case puts the load path in plain view, since [Ellis et al. 2025][research_ellis_2025] use an actively hinged wingtip to *reduce* the wing root bending moment, turning the articulation from a structural liability into a structural instrument. **The pivot is not hard because the stresses are high. It is hard because the joint must carry them while rotating, repeatedly, without developing the free play that would turn a stiffness into a mechanism.** A bearing clearance $\delta$ at radius $s_{ac}$ registers as a sweep error,
 
-$$\Delta \Lambda_{\text{slop}} \approx \frac{\delta}{s_{ac}}$$
+$$
+\Delta \Lambda_{\text{slop}} \approx \frac{\delta}{s_{ac}}
+\tag{60}
+$$
 
 so a millimetre of wear is 0.03 degrees of asymmetry between the panels, and asymmetric sweep is a rolling moment the pilot did not command. The bearing must also be stiff, because a joint that deflects under load changes the effective sweep and therefore the aerodynamics, an aeroelastic coupling treated in [Goetz and Stonesifer 1961][research_goetz_1961] and [Gurley and Ruhlin 1962][research_gurley_1962] and pursued in the component studies of [Abel et al. 1966][research_abel_1966].
 
 The mass penalty follows from the same argument, and it explains why variable sweep is now rare. Writing the structural mass fraction as a baseline plus a variable-geometry increment,
 
-$$\frac{m_{\text{struct}}}{m_{\text{gross}}} = \left( \frac{m_{\text{struct}}}{m_{\text{gross}}} \right)_{\text{fixed}} + \Delta_{\text{VG}}$$
+$$
+\frac{m_{\text{struct}}}{m_{\text{gross}}} = \left( \frac{m_{\text{struct}}}{m_{\text{gross}}} \right)_{\text{fixed}} + \Delta_{\text{VG}}
+\tag{61}
+$$
 
 the increment is taken here as a few percent of gross mass, which for an aircraft of the X-5's size is of order
 
-$$\Delta m = 0.03 \times 4479 = 134 \ \text{kilograms}$$
+$$
+\Delta m = 0.03 \times 4479 = 134 \ \text{kilograms}
+\tag{62}
+$$
 
 and it buys nothing at any single flight condition. It buys the ability to be at two flight conditions well, and whether that is worth carrying depends on how much of the mission is spent at each. The break-even condition can be written down. Let $\phi_i$ be the fraction of the mission flown at condition $i$ and $\Delta \left( L/D \right)_i$ the improvement variable sweep gives there. The configuration pays for itself when the weighted aerodynamic gain exceeds the mass penalty expressed as an equivalent range loss,
 
-$$\sum_i \phi_i \frac{\Delta \left( L/D \right)_i}{\left( L/D \right)_i} > \frac{\Delta m_{\text{VG}}}{m_{\text{fuel}}}$$
+$$
+\sum_i \phi_i \frac{\Delta \left( L/D \right)_i}{\left( L/D \right)_i} > \frac{\Delta m_{\text{VG}}}{m_{\text{fuel}}}
+\tag{63}
+$$
 
 which follows from the Breguet form,
 
-$$R = \frac{V}{c_t} \frac{L}{D} \ln \frac{m_i}{m_f}$$
+$$
+R = \frac{V}{c_t} \frac{L}{D} \ln \frac{m_i}{m_f}
+\tag{64}
+$$
 
 and the question it poses belongs to mission analysis, not aerodynamics. **A vehicle that spends most of its life at one condition can never justify a mechanism that helps at two.** That inequality, and not any aerodynamic discovery, eventually retired the variable-sweep fighter. The [aeroelastic][ref_aeroelasticity] and flutter consequences are a separate charge on the same account, treated for swept wings generally by [Housner and Stein 1974][research_housner_1974].
 
@@ -353,37 +545,61 @@ The translating mechanism converts a stability problem into a trim problem, impe
 
 With partial compensation the residual aerodynamic centre travel is some fraction $\eta_c$ of the uncompensated value,
 
-$$\Delta x_{ac,\text{residual}} = \left( 1 - \eta_c \right) \Delta x_{ac}$$
+$$
+\Delta x_{ac,\text{residual}} = \left( 1 - \eta_c \right) \Delta x_{ac}
+\tag{65}
+$$
 
 and the trim moment the tail must absorb at lift coefficient $C_L$ is
 
-$$\Delta C_m = C_L \frac{\Delta x_{ac,\text{residual}}}{\bar{c}}$$
+$$
+\Delta C_m = C_L \frac{\Delta x_{ac,\text{residual}}}{\bar{c}}
+\tag{66}
+$$
 
 which the elevator must supply through its control power,
 
-$$\delta_e = \frac{\Delta C_m}{\left| C_{m \delta_e} \right|}$$
+$$
+\delta_e = \frac{\Delta C_m}{\left| C_{m \delta_e} \right|}
+\tag{67}
+$$
 
 Even a mechanism achieving eighty percent compensation leaves 0.19 metres, or 12 percent of chord, of residual travel, which at a cruise lift coefficient of 0.3 demands a trim moment increment of 0.035 and several degrees of elevator. That moment is carried by a tail load, and the load can be quantified,
 
-$$L_t = \frac{\Delta C_m \, q \, S \, \bar{c}}{l_t}$$
+$$
+L_t = \frac{\Delta C_m \, q \, S \, \bar{c}}{l_t}
+\tag{68}
+$$
 
 At Mach 0.9 and 40,000 feet the dynamic pressure is 10,633 pascals, so with a tail arm of 4.5 metres
 
-$$L_t = \frac{0.035 \times 10{,}633 \times 16.26 \times 1.592}{4.5} = 2.14 \times 10^{3} \ \text{newtons}$$
+$$
+L_t = \frac{0.035 \times 10{,}633 \times 16.26 \times 1.592}{4.5} = 2.14 \times 10^{3} \ \text{newtons}
+\tag{69}
+$$
 
 or **4.9 percent of the aircraft's weight carried by the tail purely to trim out what the mechanism failed to cancel**. That load also carries a drag penalty,
 
-$$\Delta C_{D,\text{trim}} = \frac{C_{L_t}^2}{\pi A_t e_t} \frac{S_t}{S}$$
+$$
+\Delta C_{D,\text{trim}} = \frac{C_{L_t}^2}{\pi A_t e_t} \frac{S_t}{S}
+\tag{70}
+$$
 
 The horizontal tail therefore works continuously against the wing position. It is no accident that a large fraction of the X-5's primary literature is tail load measurement. [Rogers and Dunn 1952][research_rogers_1952] give preliminary horizontal tail loads and [Reed 1955][research_reed_1955] the measurements at 58.7 degrees of sweep, with the corresponding wing loads in [Banner et al. 1955][research_banner_1955]. The same measurement problem on a fixed-wing research aircraft appears in [Stephenson 1956][research_stephenson_1956] for the [X-3][related_post_a300_douglas_x3], which makes a useful comparison because the X-3's tail loads are a function of one variable and the X-5's are a function of two.
 
 The neutral point is the sum of wing and tail contributions,
 
-$$\frac{x_{np}}{\bar{c}} = \frac{x_{ac,\text{wing}}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right), \qquad V_H = \frac{S_t l_t}{S \bar{c}}$$
+$$
+\frac{x_{np}}{\bar{c}} = \frac{x_{ac,\text{wing}}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right), \qquad V_H = \frac{S_t l_t}{S \bar{c}}
+\tag{71}
+$$
 
 and every term on the right is a function of sweep. The wing aerodynamic centre moves, as derived. The wing lift-curve slope in the denominator falls by a factor of two, which *increases* the tail's relative contribution. The downwash derivative depends on wing aspect ratio,
 
-$$\frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A}$$
+$$
+\frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A}
+\tag{72}
+$$
 
 and at the three sweep settings this returns 0.44, 0.48, and 0.55, so the tail loses incidence as the wing sweeps even as it gains relative authority. These effects do not cancel and there is no reason they should. The static longitudinal stability the aircraft actually exhibited across the range is the subject of [Finch and Walker 1953][research_finch_1953_2], with the broader stability and control picture in [Finch and Briggs 1953][research_finch_1953] and the dynamic behaviour at high sweep in [Videan 1955][research_videan_1955].
 
@@ -395,33 +611,54 @@ When the derivatives are functions of a commanded parameter, the aircraft has a 
 
 Write the linearized longitudinal system in the usual state-space form,
 
-$$\dot{\mathbf{x}} = \mathbf{A}(\Lambda) \, \mathbf{x} + \mathbf{B}(\Lambda) \, \mathbf{u}$$
+$$
+\dot{\mathbf{x}} = \mathbf{A}(\Lambda) \, \mathbf{x} + \mathbf{B}(\Lambda) \, \mathbf{u}
+\tag{73}
+$$
 
 in which the plant matrices depend on sweep because the derivatives do. The short period frequency scales with the square root of the stability derivative,
 
-$$\omega_{sp}(\Lambda) \propto \sqrt{ C_{L\alpha}(\Lambda) \, SM(\Lambda) }$$
+$$
+\omega_{sp}(\Lambda) \propto \sqrt{ C_{L\alpha}(\Lambda) \, SM(\Lambda) }
+\tag{74}
+$$
 
 and since both factors move with sweep, and in opposite senses under partial compensation, the frequency does not sit at a point but traverses a range. Even granting the mechanism perfect compensation, so that the static margin is held at 0.05 throughout, the lift-curve slope alone moves the frequency by
 
-$$\frac{\omega_{sp}(20^\circ)}{\omega_{sp}(60^\circ)} = \sqrt{\frac{C_{L\alpha}(20^\circ)}{C_{L\alpha}(60^\circ)}} = \sqrt{2.09} = 1.45$$
+$$
+\frac{\omega_{sp}(20^\circ)}{\omega_{sp}(60^\circ)} = \sqrt{\frac{C_{L\alpha}(20^\circ)}{C_{L\alpha}(60^\circ)}} = \sqrt{2.09} = 1.45
+\tag{75}
+$$
 
 so the aircraft's natural frequency spans a factor of nearly one and a half across the sweep range with the trim problem entirely solved. A controller holding constant closed-loop behaviour across that range must vary its gains,
 
-$$k(\Lambda) = k_0 \left( \frac{\omega_{sp}(\Lambda_0)}{\omega_{sp}(\Lambda)} \right)^2$$
+$$
+k(\Lambda) = k_0 \left( \frac{\omega_{sp}(\Lambda_0)}{\omega_{sp}(\Lambda)} \right)^2
+\tag{76}
+$$
 
 which is gain scheduling written down, and which the X-5 implemented by carrying a pilot. The apparatus now exists in several forms. [Enciu et al. 2025][research_enciu_2025] treat the delayed case, [Barbosa and Silvestre 2025][research_barbosa_2025] the flexible-airframe case by fuzzy output feedback, and [Gao et al. 2025a][research_gao_2025] the linear parameter-varying formulation, in which the configuration parameter enters the plant model explicitly and the controller is synthesized once for the whole family rather than interpolated between points. That formulation describes mathematically what a variable-sweep aircraft is. The X-5 handled this the way 1951 handled everything, by putting a human in the loop and letting him adapt. The formal apparatus for the problem, in which a controller is scheduled against a measured configuration parameter, did not exist yet and is now routine. It makes the modern variable-geometry vehicles cited below tractable.
 
 The lateral set moves too. Directional stiffness and yaw damping come from the fin,
 
-$$C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v l_v}{S b}, \qquad C_{n r, \text{fin}} = -2 \, \eta_v \, C_{L\alpha_v} V_V \frac{l_v}{b}$$
+$$
+C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v l_v}{S b}, \qquad C_{n r, \text{fin}} = -2 \, \eta_v \, C_{L\alpha_v} V_V \frac{l_v}{b}
+\tag{77}
+$$
 
 and the vertical tail volume coefficient contains the span in its denominator. **Sweeping the wing shortens the span and therefore increases the vertical tail volume coefficient**, which sounds like good news and is, in isolation. The [Dutch roll][ref_dutch_roll] frequency and the roll mode follow,
 
-$$\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}$$
+$$
+\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}
+\tag{78}
+$$
 
 both of which contain the span explicitly and therefore both of which the sweep lever moves. The dihedral effect $C_{l\beta}$ grows with sweep, since a swept wing in sideslip presents a smaller effective sweep to the advancing panel, and the standard first-order statement is
 
-$$C_{l\beta,\text{sweep}} \approx -C_L \frac{\tan \Lambda}{2}$$
+$$
+C_{l\beta,\text{sweep}} \approx -C_L \frac{\tan \Lambda}{2}
+\tag{79}
+$$
 
 so that the rolling moment due to sideslip nearly quintuples between 20 and 60 degrees at fixed lift coefficient. The measured basis for that relation is [Lampert 1951][research_lampert_1951] on rolling and yawing moments for sweptback wings in sideslip, with the wing height and dihedral contributions separated by [Gillis and Chapman 1956][research_gillis_1956] and the yawing moment due to rolling estimated semiempirically by [Campbell and Goodman 1949][research_campbell_1949]. Fuselage and tail interference on the same characteristics is [Bird et al. 1951][research_bird_1951_2], and the complete swept model case is [Schulderfrei et al. 1951][research_schulderfrei_1951] and [Savage and Edwards 1959][research_savage_1959]. Lateral control at the high sweep setting is a separate difficulty, treated for tip ailerons by [Moseley and Watson 1951][research_moseley_1951] and for jet control by [Vogler and Turner 1956][research_vogler_1956]. Strong dihedral effect with a fin of fixed area makes an aircraft prone to a lightly damped Dutch roll, and [Childs 1953][research_childs_1953] set out to measure the sideslip behaviour at high sweep. The lateral characteristics of variable-sweep configurations generally are treated in [Eckert and Maki 1973a][research_eckert_1973], the rolling derivatives in [Gainer et al. 1967][research_gainer_1967], and the dynamic derivatives across the transonic and supersonic range in [Kilgore 1971b][research_kilgore_1971] and [Averett and Wright 1966][research_averett_1966].
 
@@ -431,23 +668,41 @@ The second aircraft was lost in a spin at 60 degrees of sweep \[[NASA X-5 Fact S
 
 A [spin][ref_spin] is an equilibrium, not a departure. The aircraft rotates about a vertical axis at a steady rate with one wing stalled more deeply than the other, and the equilibrium is set by a balance between aerodynamic and inertial moments. The inertial coupling terms in the Euler equations are the ones that matter,
 
-$$I_x \dot{p} = \left( I_y - I_z \right) q r + L_{\text{aero}}$$
+$$
+I_x \dot{p} = \left( I_y - I_z \right) q r + L_{\text{aero}}
+\tag{80}
+$$
 
-$$I_y \dot{q} = \left( I_z - I_x \right) r p + M_{\text{aero}}$$
+$$
+I_y \dot{q} = \left( I_z - I_x \right) r p + M_{\text{aero}}
+\tag{81}
+$$
 
-$$I_z \dot{r} = \left( I_x - I_y \right) p q + N_{\text{aero}}$$
+$$
+I_z \dot{r} = \left( I_x - I_y \right) p q + N_{\text{aero}}
+\tag{82}
+$$
 
 and in a developed spin the products $qr$, $rp$, and $pq$ are large. The NACA correlated spin and recovery behaviour against a non-dimensional grouping of the inertia differences \[[Neihouse et al. 1946][research_neihouse_lichtenstein_1946]\], the natural one being
 
-$$I_{\text{param}} = \frac{I_x - I_y}{m \, b^2}$$
+$$
+I_{\text{param}} = \frac{I_x - I_y}{m \, b^2}
+\tag{83}
+$$
 
 which is negative for an aircraft carrying its mass along the fuselage rather than along the span. The equilibrium the parameter governs is a balance in which the aerodynamic yawing moment must cancel the inertial one,
 
-$$N_{\text{aero}} = -\left( I_x - I_y \right) p q$$
+$$
+N_{\text{aero}} = -\left( I_x - I_y \right) p q
+\tag{84}
+$$
 
 and recovery requires the controls to break that balance. With the rudder as the recovering control, the condition is that the available control moment exceed the inertial term,
 
-$$\left| N_{\delta_r} \right| \delta_{r,\max} \, q S b > \left| I_x - I_y \right| p q$$
+$$
+\left| N_{\delta_r} \right| \delta_{r,\max} \, q S b > \left| I_x - I_y \right| p q
+\tag{85}
+$$
 
 **Both sides of this inequality are dimensional moments, and neither depends on the wing span.** The rudder moment is set by the fin, the rudder and the tail arm, and the coefficient $N_{\delta_r}$ carries the span only because it is normalized against it. The inertial term is set by the mass distribution. Sweeping the wing shortens the span and leaves both moments nearly as they were, so the inequality gives no reason to expect recovery to worsen with sweep. The NACA's correlation, built on models of approximately one hundred military aeroplanes, found that the rudder loses effectiveness and the elevator gains it as mass moves out along the wings. A model loaded chiefly along the fuselage, with the parameter at $-100 \times 10^{-4}$ or more negative, needed the least tail damping for recovery by the rudder alone, a tail damping power factor of $250 \times 10^{-6}$ at relative densities of 15 or less, and the requirement rose very rapidly as the parameter approached zero, to about $1500 \times 10^{-6}$ at zero \[[Neihouse et al. 1946][research_neihouse_lichtenstein_1946]\]. The parameter decides which control recovers the aircraft as well as how readily, and a more negative value favours the rudder. This correlation is the accumulated product of two decades of work that begins before the tunnels. [Knight 1928][research_knight_1928] tested autorotation and the flat spin directly, [Scudder 1937][research_scudder_1937] measured the forces and moments on the parts of an airplane during actual spins rather than inferring them, and [Pitkin 1943][research_pitkin_1943] established that a leading-edge slot changes the spin and recovery behaviour, the first hint that configuration details govern the outcome.
 
@@ -457,11 +712,17 @@ The moments of inertia on which any such assessment depends were measurable by 1
 
 Now apply it to the X-5. The moments of inertia are properties of the mass distribution and change only slightly with sweep, since the wing is a small part of the total mass and it moves only a metre. The span is not slightly changed. It falls from 10.21 metres to 6.32 metres. Since the span enters the parameter squared,
 
-$$\frac{I_{\text{param}}(60^\circ)}{I_{\text{param}}(20^\circ)} = \left( \frac{b(20^\circ)}{b(60^\circ)} \right)^2 = \left( \frac{10.21}{6.32} \right)^2 = 2.61$$
+$$
+\frac{I_{\text{param}}(60^\circ)}{I_{\text{param}}(20^\circ)} = \left( \frac{b(20^\circ)}{b(60^\circ)} \right)^2 = \left( \frac{10.21}{6.32} \right)^2 = 2.61
+\tag{86}
+$$
 
 The NACA measured the inertias at 58.7 degrees of sweep with full fuel, 5,165 slug square feet in roll and 9,495 in pitch at a weight of 10,006 pounds and a span of 20.1 feet [Videan 1955][research_videan_1955], which give
 
-$$I_{\text{param}}(58.7^\circ) = \frac{5165 - 9495}{(10006 / 32.174) \times 20.1^2} = -0.0345$$
+$$
+I_{\text{param}}(58.7^\circ) = \frac{5165 - 9495}{(10006 / 32.174) \times 20.1^2} = -0.0345
+\tag{87}
+$$
 
 At 20 degrees the pitch inertia was 9,450 slug square feet at 9,960 pounds and the span 31.9 feet, and the roll inertia was not reported [Finch and Briggs 1953][research_finch_1953]. Sweeping forward carries wing mass outboard and raises the roll inertia, so the parameter at 20 degrees can be no more negative than $-0.0136$, the value it takes with the roll inertia held at its swept value. With the NACA's spans the span-squared ratio is 2.52, against the 2.61 computed from the specification spans used here.
 
@@ -471,17 +732,26 @@ The correlation has a second variable, and it moves the other way. The relative 
 
 The time available is not the constraint. A spinning aircraft descends at roughly the speed at which its high-incidence normal force balances weight,
 
-$$V_d \approx \sqrt{\frac{2W}{\rho S C_N}} = \sqrt{\frac{2 \times 43{,}926}{1.225 \times 16.26 \times 1.2}} = 60.6 \ \text{metres per second}$$
+$$
+V_d \approx \sqrt{\frac{2W}{\rho S C_N}} = \sqrt{\frac{2 \times 43{,}926}{1.225 \times 16.26 \times 1.2}} = 60.6 \ \text{metres per second}
+\tag{88}
+$$
 
 and loses altitude per turn of
 
-$$\Delta h_{\text{turn}} = V_d \frac{2\pi}{\Omega} = 60.6 \times \frac{2\pi}{2.0} = 190 \ \text{metres}$$
+$$
+\Delta h_{\text{turn}} = V_d \frac{2\pi}{\Omega} = 60.6 \times \frac{2\pi}{2.0} = 190 \ \text{metres}
+\tag{89}
+$$
 
 so an entry at 12,000 metres offers something like sixty turns before ground impact. Altitude margin is now treated as an optimization variable rather than a comfort, and [Bagheri and Danesh 2025][research_bagheri_2025] design spin recovery to minimize the height given up, with [Salahudden 2026][research_salahudden_2026] examining altitude margin and aileron effects for flat-spin recovery. The control formulations have moved with it, through nonlinear model predictive control in [Salahudden 2025b][research_salahudden_2025] and incremental nonlinear dynamic inversion in [Salahudden 2025a][research_salahudden_2025_2]. Neural approaches to the wider high-incidence problem appear in [Yu and Yu 2026][research_yu_2026], and the sensing that any of it requires, since a departing aircraft must first know what it is doing, is addressed by [Huang et al. 2026][research_huang_2026] using on-board flow sensing for forebody vortex-induced yaw. **An irrecoverable spin is not one that runs out of altitude. It is one in which no control input available breaks the equilibrium**, and the extra turns simply confirm it.
 
 The aerodynamic side of the recovery problem is where the sources place the X-5's difficulty. Recovery requires the rudder to generate an anti-spin yawing moment, and at spin attitudes the fin sits in the wake of the horizontal tail. The NACA quantified this with the tail damping power factor, the product of a tail damping ratio and an unshielded rudder volume coefficient \[[Neihouse et al. 1946][research_neihouse_lichtenstein_1946]\],
 
-$$\text{TDPF} = \text{TDR} \times \text{URVC}$$
+$$
+\text{TDPF} = \text{TDR} \times \text{URVC}
+\tag{90}
+$$
 
 in which the unshielded rudder volume coefficient counts only the rudder area outside the horizontal tail's wake shadow. The dependence of rudder effectiveness on horizontal tail position in spin attitudes is what [Stone and Burk 1947][research_stone_1947] measured, and the limiting case of a fighter model with no horizontal tail at all is [Gale and Pumphrey 1950][research_gale_1950]. [Hallion 1984][research_hallion_1984] calls the X-5 a flawed design and states that the flaw had nothing to do with the variable-sweep wing, attributing it to the aerodynamic layout and especially to the poor position of the tail and vertical fin. The NASA fact sheet likewise attributes the poor stall and spin characteristics to the aircraft's design and says that they were not due to the variable sweep \[[NASA X-5 Fact Sheet][ref_nasa_x5_factsheet]\]. A comparable case exists in the record, since [Bowman and Healy 1960][research_bowman_1960] report a free-spinning-tunnel investigation of a twin-jet swept-wing fighter model, published seven years after the X-5 was lost. Whether the spin that killed the second aircraft was predicted is treated below.
 
@@ -497,31 +767,52 @@ The single Allison J35 is the least interesting component, and an adequate one.
 
 Thrust lapses with altitude roughly as ambient pressure, with a ram recovery term,
 
-$$\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}$$
+$$
+\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{91}
+$$
 
 and the atmosphere is the standard troposphere model,
 
-$$T(h) = T_0 - \lambda h, \qquad p(h) = p_0 \left( \frac{T(h)}{T_0} \right)^{g / \lambda R}, \qquad a = \sqrt{\gamma R T}$$
+$$
+T(h) = T_0 - \lambda h, \qquad p(h) = p_0 \left( \frac{T(h)}{T_0} \right)^{g / \lambda R}, \qquad a = \sqrt{\gamma R T}
+\tag{92}
+$$
 
 The level-flight maximum follows from the thrust and drag balance,
 
-$$M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}$$
+$$
+M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}
+\tag{93}
+$$
 
 and specific excess power governs the climb,
 
-$$P_s = \frac{V \left( T - D \right)}{W}, \qquad h_e = h + \frac{V^2}{2g}$$
+$$
+P_s = \frac{V \left( T - D \right)}{W}, \qquad h_e = h + \frac{V^2}{2g}
+\tag{94}
+$$
 
 The aircraft reached about Mach 0.9 at 40,000 feet \[[Wikipedia Article on the Bell X-5][ref_bell_x5]\]. A clean transonic airframe decelerates poorly, and the devices for dealing with that were being characterized alongside, with dive-recovery flaps measured by [Heath and Ward 1959][research_heath_1959], speed-brake position effects on longitudinal characteristics reported by [Taylor 1959][research_taylor_1959], and the load redistribution that body-mounted brakes cause quantified by [West 1960][research_west_1960]. The interesting propulsion observation is not about the engine but about the wing, since the drag polar is a function of sweep,
 
-$$C_D(\Lambda) = C_{D0}(\Lambda) + \frac{C_L^2}{\pi A(\Lambda) e(\Lambda)}$$
+$$
+C_D(\Lambda) = C_{D0}(\Lambda) + \frac{C_L^2}{\pi A(\Lambda) e(\Lambda)}
+\tag{95}
+$$
 
 with the aspect ratio in the induced term falling by a factor of 2.6 as the wing sweeps. **Sweeping back to reduce wave drag increases induced drag at the same time**, and the crossover between the two determines whether a given sweep setting is the right one at a given speed and altitude. The optimum sweep schedule is the locus where the derivative of total drag with respect to sweep vanishes,
 
-$$\frac{\partial C_D}{\partial \Lambda} = 0$$
+$$
+\frac{\partial C_D}{\partial \Lambda} = 0
+\tag{96}
+$$
 
 Carrying out the differentiation on the two-term polar makes the balance explicit, since the wave-drag term falls with sweep and the induced term rises,
 
-$$\frac{\partial C_D}{\partial \Lambda} = \frac{\partial C_{D0}}{\partial \Lambda} + \frac{C_L^2}{\pi e} \frac{\partial}{\partial \Lambda} \left( \frac{1}{A(\Lambda)} \right) = 0$$
+$$
+\frac{\partial C_D}{\partial \Lambda} = \frac{\partial C_{D0}}{\partial \Lambda} + \frac{C_L^2}{\pi e} \frac{\partial}{\partial \Lambda} \left( \frac{1}{A(\Lambda)} \right) = 0
+\tag{97}
+$$
 
 which is a curve in the Mach and lift coefficient plane rather than a set of three detents. The X-5's three positions are a coarse sampling of a continuous optimum, and the lift and drag actually achieved at the high setting are reported in [Bellman 1953][research_bellman_1953], with the fleet-wide comparison in [Bellman 1959][research_bellman_1959].
 
@@ -531,25 +822,40 @@ The programme measured loads and derivatives as functions of two independent var
 
 A conventional flight test programme maps a derivative against Mach number and altitude. The X-5 must map every derivative against Mach number, altitude, and sweep, so the test matrix acquires a dimension. If a fixed-wing programme requires $N$ conditions to characterize a derivative to a given accuracy, then the variable-sweep programme requires
 
-$$N_{\text{total}} = N \times n_\Lambda$$
+$$
+N_{\text{total}} = N \times n_\Lambda
+\tag{98}
+$$
 
 conditions, with $n_\Lambda$ the number of sweep settings, which for the X-5 is three at minimum and more if intermediate positions are of interest. Hence the first aircraft alone flew about 150 times to answer one question.
 
 The measurements are strain-gauge based \[[NASA X-5 Fact Sheet][ref_nasa_x5_factsheet]\]. Wing and tail loads are obtained by calibrating a set of bridges against known applied loads and then inverting the calibration in flight,
 
-$$\mathbf{L} = \mathbf{C}^{-1} \boldsymbol{\varepsilon}$$
+$$
+\mathbf{L} = \mathbf{C}^{-1} \boldsymbol{\varepsilon}
+\tag{99}
+$$
 
 with $\boldsymbol{\varepsilon}$ the measured strains and $\mathbf{C}$ the calibration matrix. The accuracy of the result depends on the conditioning of that matrix as much as on the gauges, since the relative error in the recovered loads is bounded by the condition number times the relative error in the strains,
 
-$$\frac{\left\| \delta \mathbf{L} \right\|}{\left\| \mathbf{L} \right\|} \le \kappa(\mathbf{C}) \, \frac{\left\| \delta \boldsymbol{\varepsilon} \right\|}{\left\| \boldsymbol{\varepsilon} \right\|}, \qquad \kappa(\mathbf{C}) = \left\| \mathbf{C} \right\| \left\| \mathbf{C}^{-1} \right\|$$
+$$
+\frac{\left\| \delta \mathbf{L} \right\|}{\left\| \mathbf{L} \right\|} \le \kappa(\mathbf{C}) \, \frac{\left\| \delta \boldsymbol{\varepsilon} \right\|}{\left\| \boldsymbol{\varepsilon} \right\|}, \qquad \kappa(\mathbf{C}) = \left\| \mathbf{C} \right\| \left\| \mathbf{C}^{-1} \right\|
+\tag{100}
+$$
 
 A badly conditioned calibration turns a one percent strain measurement into a ten percent load. This is a practical discipline with a literature, not a theoretical caution, and the procedures are set out in [Peele and Eckstrom 1975][research_peele_1975] for a low aspect ratio thin wing, in [Jenkins et al. 1977][research_jenkins_1977] for a complex wing where the load paths are not obvious, and in [Jenkins and Kuhl 1977][research_jenkins_1977_2] for the accumulated experience on a delta configuration. **A wing that changes its load path with every sweep setting is the hardest case this literature contemplates**, since the calibration is not one matrix but a family of them. The modern answer is to stop inverting a fixed matrix at all. [Luderer and Thielecke 2025][research_luderer_2025] estimate loads with a linear parameter-varying hybrid model, applying to an estimator the idea behind a scheduled controller. For a pivoting wing the calibration must be repeated at each sweep setting, because the load path changes when the geometry does. Sweep angle becomes a measured quantity with an error budget, and its error propagates into every derivative through the geometry. Differentiating the lift-curve slope relation,
 
-$$\frac{\partial C_{L\alpha}}{\partial \Lambda} \approx \frac{C_{L\alpha}(20^\circ) - C_{L\alpha}(60^\circ)}{\Lambda_2 - \Lambda_1} = \frac{4.42 - 2.11}{0.698} = 3.31 \ \text{per radian squared}$$
+$$
+\frac{\partial C_{L\alpha}}{\partial \Lambda} \approx \frac{C_{L\alpha}(20^\circ) - C_{L\alpha}(60^\circ)}{\Lambda_2 - \Lambda_1} = \frac{4.42 - 2.11}{0.698} = 3.31 \ \text{per radian squared}
+\tag{101}
+$$
 
 so a one degree error in recorded sweep is an error of between 1.3 and 2.7 percent in the lift-curve slope attributed to that point, the spread depending on where in the sweep range the point lies, and all of that before any aerodynamic uncertainty is considered. The tunnel-side methods for obtaining the dynamic derivatives against which such flight results are read are described in [Chambers et al. 1981][research_chambers_1981], and the practice of reducing a full aircraft to locally linearized derivative sets in [Budd 1984][research_budd_1984]. Uncertainty propagates in the standard way,
 
-$$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{102}
+$$
 
 Derivative extraction from the flight records used the methods of the period, with [Bird and Jaquet 1951][research_bird_1951] representative of the practice of computing lateral motions from measured derivatives, and the modern descendants beginning with the maximum likelihood and Newton-Raphson approaches of [Iliff and Taylor 1972][research_iliff_1972] and applied to a full aircraft in [Gilyard 1972][research_gilyard_1972]. Manoeuvre and buffet characterization of the sort the programme also required is described in [Ray et al. 1972][research_ray_1972], and the buffet boundary practice of the era in [Rathert et al. 1951][research_rathert_1951]. Loads statistics and their treatment appear in [Hamer et al. 1961][research_hamer_1961] and the institutional gathering of the whole subject in the conference proceedings of [NACA Conference on Aircraft 1957][research_naca_1957].
 
@@ -583,7 +889,10 @@ The concept propagated immediately. Langley took up variable sweep as a research
 
 The decisive result is the pivot. **Moving the pivot outboard and leaving a fixed glove inboard reduces the aerodynamic centre travel by the product of two factors, as derived above, and it does so without any mechanism at all.** The design problem becomes a minimization over a single variable subject to a structural floor, since the pivot cannot be moved so far outboard that the panel it carries has no useful area,
 
-$$\min_{y_p} \ \left| \Delta x_{ac}(y_p) \right| \quad \text{subject to} \quad S_{\text{movable}}(y_p) \ge S_{\min}$$
+$$
+\min_{y_p} \ \left| \Delta x_{ac}(y_p) \right| \quad \text{subject to} \quad S_{\text{movable}}(y_p) \ge S_{\min}
+\tag{103}
+$$
 
 and the interior optimum exists because the travel falls quadratically with pivot station while the useful movable area falls only linearly. [Hammond and Henderson 1961][research_hammond_1961] investigate high-lift and lateral control on a semispan variable-sweep wing with an outboard pivot, [Henderson and Ray 1964][research_henderson_1964] vary the pivot location explicitly and report the longitudinal consequences, [Henderson and Ray 1965][research_henderson_1965] extend it to planform modification, and [Huffman 1972][research_huffman_1972] treats pivot location together with forewing configuration. [Hammond and Polhamus 1965][research_hammond_1965] and [Lamar and McKinney 1971][research_lamar_1971] fill in the surrounding aerodynamics. The idea was considered novel enough to patent, and both [Toll 1962][research_toll_1962] and [Hammond and Polhamus 1970][research_hammond_1970] hold patents on variable-sweep aircraft arising from this work.
 
@@ -597,15 +906,24 @@ Then it stopped. No new variable-sweep combat aircraft has entered development s
 
 The approach speed the mechanism existed to reduce is set by wing loading and maximum lift together, and both were attacked directly. A [leading-edge slat][ref_slat] and a manoeuvre flap recover the lift that sweep costs without moving the wing,
 
-$$C_{L,\max} = C_{L,\max}^{\text{clean}} \cos \Lambda + \Delta C_{L,\text{slat}} + \Delta C_{L,\text{flap}}$$
+$$
+C_{L,\max} = C_{L,\max}^{\text{clean}} \cos \Lambda + \Delta C_{L,\text{slat}} + \Delta C_{L,\text{flap}}
+\tag{104}
+$$
 
 and increments of 0.5 to 0.8 from such devices, taken here as representative, restore at 45 degrees of fixed sweep most of what the X-5 bought by unsweeping to 20. The development that made those increments routine has a long literature, running from the blowing experiments of [James and Maki 1957][research_james_1957] through the jet-flap configurations of [Vogler 1976][research_vogler_1976] and [Morehouse et al. 1977][research_morehouse_1977] to the systematic leading and trailing edge flap study of [Gainer et al. 1984][research_gainer_1984], and arriving at the mechanical design practice codified by [Rudolph 1998][research_rudolph_1998]. The subject remains live, with seamless flap concepts for swept wings analysed by [Bui 2018a][research_bui_2018]. **Every one of those increments is an increment the variable-sweep wing no longer has to buy with a pivot.** Engine thrust removed the rest of the pressure, since the approach can be flown at higher wing loading when thrust is available to arrest a sink rate, and the field length that wing loading drives scales as
 
-$$s_{\text{field}} \propto \frac{W/S}{\sigma \, C_{L,\max} \left( T/W \right)}$$
+$$
+s_{\text{field}} \propto \frac{W/S}{\sigma \, C_{L,\max} \left( T/W \right)}
+\tag{105}
+$$
 
 so a thrust-to-weight ratio that rose from the X-5's 0.50 toward unity halves the field length at fixed wing loading and recovers the whole of the variable-sweep argument. Digital flight control then removed the handling penalties that had made highly swept fixed wings unpleasant, which is to say it made the numerator of the mass-penalty inequality smaller by making a fixed compromise acceptable rather than by improving the compromise. The performance bookkeeping that decides such a question had become a formal exercise. [Redin 1981][research_redin_1981] applies a performance modelling technique to an airplane with variable sweep wings, the calculation this section describes in words, and the trajectory optimization machinery of [Erzberger et al. 1975][research_erzberger_1975] and [Hale 1976][research_hale_1976] supplies the mission-weighting the inequality requires. Where the answer still came out favourable the configuration survived on paper, and [Beissner et al. 1984][research_beissner_1984] apply near-term technology to a Mach 2.0 variable-sweep supersonic-cruise executive jet as late as 1984. Substituting into the break-even condition, a configuration whose aerodynamic gain has been halved while its structural penalty is unchanged fails the test,
 
-$$\sum_i \phi_i \frac{\Delta \left( L/D \right)_i}{\left( L/D \right)_i} \ \longrightarrow \ \text{halved}, \qquad \frac{\Delta m_{\text{VG}}}{m_{\text{fuel}}} \ \longrightarrow \ \text{unchanged}$$
+$$
+\sum_i \phi_i \frac{\Delta \left( L/D \right)_i}{\left( L/D \right)_i} \ \longrightarrow \ \text{halved}, \qquad \frac{\Delta m_{\text{VG}}}{m_{\text{fuel}}} \ \longrightarrow \ \text{unchanged}
+\tag{106}
+$$
 
 The variable-sweep wing was a mechanical solution to a problem later solved aerodynamically and electronically, and it was abandoned the way good engineering solutions usually are, because the problem changed. What the fleet learned in the meantime was recorded along the way, with the transonic agility of the F-111 compared against a supercritical-wing variant in [Friend and Sakamoto 1978][research_friend_1978] and the research aircraft built for that comparison described in [Painter and Caw 1978][research_painter_1978].
 
@@ -641,11 +959,17 @@ The question the X-5 asked, what sweep does to the flight dynamics, is being ask
 
 At the transient the modern work departs from the X-5 entirely. The quasi-static inequality derived above fails when the geometry changes on the timescale of the vehicle's modes, and then the equations of motion acquire terms the fixed-geometry treatment does not have. Both the inertia tensor and the aerodynamic coefficients become explicit functions of time through the shape parameter,
 
-$$\frac{d}{dt} \left( \mathbf{I}(\Lambda) \, \boldsymbol{\omega} \right) = \mathbf{I}(\Lambda) \dot{\boldsymbol{\omega}} + \frac{\partial \mathbf{I}}{\partial \Lambda} \dot{\Lambda} \, \boldsymbol{\omega} + \boldsymbol{\omega} \times \mathbf{I}(\Lambda) \boldsymbol{\omega}$$
+$$
+\frac{d}{dt} \left( \mathbf{I}(\Lambda) \, \boldsymbol{\omega} \right) = \mathbf{I}(\Lambda) \dot{\boldsymbol{\omega}} + \frac{\partial \mathbf{I}}{\partial \Lambda} \dot{\Lambda} \, \boldsymbol{\omega} + \boldsymbol{\omega} \times \mathbf{I}(\Lambda) \boldsymbol{\omega}
+\tag{107}
+$$
 
 in which the middle term exists only while the wing is moving and vanishes at every detent. The X-5's thirty-second transit made that term negligible, and a fast morphing vehicle cannot ignore it. The actuation is not free either, since the hinge must work against the aerodynamic moment about the pivot,
 
-$$P_{\text{act}} = M_{\text{hinge}} \dot{\Lambda}, \qquad E_{\text{act}} = \int_{\Lambda_1}^{\Lambda_2} M_{\text{hinge}}(\Lambda) \, d\Lambda$$
+$$
+P_{\text{act}} = M_{\text{hinge}} \dot{\Lambda}, \qquad E_{\text{act}} = \int_{\Lambda_1}^{\Lambda_2} M_{\text{hinge}}(\Lambda) \, d\Lambda
+\tag{108}
+$$
 
 so speed costs power linearly and the energy is set by the load, which is why fast morphing is easy on a small vehicle and hard on a large one. Reducing that energy is an active design problem. [Kang et al. 2026b][research_kang_2026] assist the switching of a dual-mode morphing wing with stored energy so the actuator does not pay the whole bill, [Kang et al. 2026a][research_kang_2026_2] exploit bistability in a tensegrity mechanism so that two configurations are both stable and only the transition costs anything, and [Pisaneschi et al. 2026][research_pisaneschi_2026] model an actuator that carries load as well as producing motion. [Lendraitis and Lukoševičius 2025][research_lendraitis_2025] reduce a compliant mechanism to a single actuation. The aeroelastic and dynamic response during the change must then be solved rather than assumed. [Changchuan et al. 2022][research_changchuan_2022] compute the aeroelastic response of a folding wing *during* the morphing process, [Zhou and Huang 2021a][research_zhou_huang_2021] build reduced-order models for nonlinear aeroelastic analysis of a morphing wing, and [Tsushima et al. 2019b][research_tsushima_2019] treat geometrically nonlinear static aeroelasticity of composite morphing wings. [Chiarelli and Bonomo 2019][research_chiarelli_2019] examine flutter and flutter-buffet on a swept wing, the failure mode a pivot joint most threatens. Flight dynamics and aeroelasticity, which the X-5 could treat as separate subjects because its wing was stiff and its transit slow, are now solved together for flexible flying wings by [Liu et al. 2026c][research_liu_2026_2]. Tailoring the structure so its deformation helps rather than hinders occupies [Sharifi et al. 2025][research_sharifi_2025] and [Leitch et al. 2025][research_leitch_2025]. Validating any of it at reduced scale, which is how a modern programme would approach the X-5 question, is treated by [Pan et al. 2026][research_pan_2026].
 
@@ -657,19 +981,31 @@ The most striking modern result comes from biology, and it closes the circle. Gu
 
 That inversion can be given a number, and doing so is the cleanest way to see both its promise and its difficulty. Treat sweep as a control effector and give it a control derivative in the same form as an elevator's,
 
-$$C_{m \Lambda} = \frac{\partial C_m}{\partial \Lambda} = -C_L \frac{s_{ac} \cos \Lambda}{\bar{c}}$$
+$$
+C_{m \Lambda} = \frac{\partial C_m}{\partial \Lambda} = -C_L \frac{s_{ac} \cos \Lambda}{\bar{c}}
+\tag{109}
+$$
 
 which for the X-5 at mid sweep and a lift coefficient of 0.3 returns
 
-$$C_{m \Lambda}(40^\circ) = -0.3 \times \frac{1.768 \times 0.766}{1.592} = -0.26 \ \text{per radian}$$
+$$
+C_{m \Lambda}(40^\circ) = -0.3 \times \frac{1.768 \times 0.766}{1.592} = -0.26 \ \text{per radian}
+\tag{110}
+$$
 
 against a representative elevator control power near $-0.7$ per radian. **Sweep is worth roughly a third of an elevator as a pitch effector**, a great deal of authority for a surface not intended as one. The obstacle is entirely rate. Producing the moment of a five degree elevator deflection requires
 
-$$\Delta \Lambda = \frac{\left| C_{m \delta_e} \right| \delta_e}{\left| C_{m \Lambda} \right|} = \frac{0.7 \times 0.0873}{0.26} = 0.24 \ \text{radians}$$
+$$
+\Delta \Lambda = \frac{\left| C_{m \delta_e} \right| \delta_e}{\left| C_{m \Lambda} \right|} = \frac{0.7 \times 0.0873}{0.26} = 0.24 \ \text{radians}
+\tag{111}
+$$
 
 or 13.7 degrees of sweep, and delivering it inside one short-period time constant of about 0.33 seconds demands
 
-$$\dot{\Lambda}_{\text{required}} = \frac{13.7}{0.33} = 42 \ \text{degrees per second}$$
+$$
+\dot{\Lambda}_{\text{required}} = \frac{13.7}{0.33} = 42 \ \text{degrees per second}
+\tag{112}
+$$
 
 against the X-5's 1.33 to 2.0, **a factor of twenty-one to thirty-one**. A gull closes that gap with a wing weighing a few hundred grams and a joint driven by muscle, and the aerodynamic peculiarities of a real feathered wing raise further questions, as [Lichter 1974][research_lichter_1974] shows in measuring what porosity does to the lift and drag of bird wings. The avian result has since been given the analytical treatment it needed. [Wang et al. 2026f][research_wang_2026] construct a reduced-order unsteady lift model for **local sweep morphing of an avian wing**, the mathematical object this article has been circling, and [Chen et al. 2026c][research_chen_2026] show that tail bending contributes to the same control problem, so the bird is not relying on the wing alone. Engineered wings built to that standard of smoothness and accuracy are reported by [Zhang et al. 2026c][research_zhang_2026].
 
@@ -868,6 +1204,979 @@ The programme also carried a hazard, and the same geometry explains less of it t
 One inequality made the aircraft flyable. The sweep took twenty to thirty seconds and the aircraft's short period took two, so the geometry change was ten to fifteen times slower than the dynamics it perturbed and the pilot met a slow drift rather than a step. Modern morphing aircraft do not always enjoy that margin, which is why so much of the contemporary literature is about the transient rather than the endpoints.
 
 The next article takes the [Convair X-6][ref_convair_x6], the [nuclear-powered][ref_anp] aircraft that was never built, and asks what a programme cancelled before flight can be said to have established.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 112 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 112, 63 are established and 49 are bespoke.
+Quantities are in units of the International System after conversion from the pounds, feet and slug square feet of the sources, sweep enters trigonometric functions in degrees but derivatives with respect to sweep are per radian, and the aerodynamic centre travel rests on one assumed quantity, the placement of the panel aerodynamic centre at forty percent of panel length, so every figure derived from the 0.93 metre travel inherits that assumption.
+
+**Equation 1, Simple Sweep Decomposition of the Free Stream.**
+Resolving the free stream across and along a swept leading edge gives a normal component and a normal Mach number reduced by the cosine of the sweep.
+
+$$
+V_n = V \cos \Lambda, \qquad V_s = V \sin \Lambda, \qquad M_n = M \cos \Lambda
+\tag{1}
+$$
+
+**Equation 2, Drag-Divergence Mach Number Scaling with Sweep.**
+The simple sweep relation raises the drag-divergence Mach number by a power of the reciprocal cosine of sweep, with an exponent between one half and one on a real wing.
+
+$$
+M_{dd}(\Lambda) \approx \frac{M_{dd}(0)}{\cos^{k} \Lambda}, \qquad 0.5 \le k \le 1
+\tag{2}
+$$
+
+**Equation 3, Streamwise Chord and Thickness Ratio of a Pivoting Panel.**
+Because the section is fixed in the panel frame, sweeping lengthens the streamwise chord by the reciprocal cosine and reduces the streamwise thickness ratio by the cosine.
+
+$$
+c_{\text{stream}} = \frac{c_n}{\cos \Lambda} \quad \Longrightarrow \quad \left( \frac{t}{c} \right)_{\text{stream}} = \left( \frac{t}{c} \right)_n \cos \Lambda
+\tag{3}
+$$
+
+**Equation 4, Streamwise Thickness Ratio at 60 Degrees.**
+A section 11 percent thick streamwise at 20 degrees presents 5.9 percent at 60 degrees.
+
+$$
+\left( \frac{t}{c} \right)_{\text{stream}} (60^\circ) = 0.11 \times \frac{\cos 60^\circ}{\cos 20^\circ} = 0.059
+\tag{4}
+$$
+
+**Equation 5, Streamwise Position of a Pivoting Panel Aerodynamic Centre.**
+A point on the panel at distance $s_{ac}$ from the pivot moves streamwise with the sine of the sweep angle as the panel rotates.
+
+$$
+x_{ac}(\Lambda) = x_p + s_{ac} \sin \Lambda
+\tag{5}
+$$
+
+**Equation 6, Aerodynamic Centre Travel Between Two Sweep Settings.**
+The streamwise travel between two sweep angles is the distance from the pivot times the difference of the sines.
+
+$$
+\Delta x_{ac} = s_{ac} \left( \sin \Lambda_2 - \sin \Lambda_1 \right)
+\tag{6}
+$$
+
+**Equation 7, Installed Thrust and Thrust-to-Weight Ratio.**
+The J35 engine of 4900 pounds gives 21.8 kilonewtons and a thrust-to-weight ratio of 0.50 at the gross mass of 4479 kilograms.
+[Bell X-5][ref_bell_x5]
+
+$$
+T = 4900 \times 4.4482 = 2.18 \times 10^{4} \ \text{newtons}, \qquad \frac{T}{W} = \frac{2.18 \times 10^{4}}{4479 \times 9.80665} = 0.50
+\tag{7}
+$$
+
+**Equation 8, Empty and Disposable Mass Fractions.**
+The empty mass of 2880 kilograms is 0.643 of the gross mass, leaving 0.357 for fuel and payload.
+[Bell X-5][ref_bell_x5]
+
+$$
+\frac{m_{\text{empty}}}{m_{\text{gross}}} = \frac{2880}{4479} = 0.643, \qquad \frac{m_{\text{fuel}} + m_{\text{payload}}}{m_{\text{gross}}} = 0.357
+\tag{8}
+$$
+
+**Equation 9, Wing Loading at Gross Mass.**
+The gross weight divided by the wing area of 16.26 square metres gives 2702 newtons per square metre.
+[Bell X-5][ref_bell_x5]
+
+$$
+\frac{W}{S} = \frac{4479 \times 9.80665}{16.26} = 2702 \ \text{newtons per square metre}
+\tag{9}
+$$
+
+**Equation 10, Projected Span of a Pivoting Wing.**
+A straight panel of length $L$ rotating about a pivot at station $y_p$ projects a span of twice the pivot station plus the panel length times the cosine of sweep.
+
+$$
+b(\Lambda) = 2 \left( y_p + L \cos \Lambda \right)
+\tag{10}
+$$
+
+**Equation 11, Projected Semi-Span at Two Sweep Angles.**
+Writing the span relation at two sweep angles gives two linear equations in the pivot station and the panel length.
+
+$$
+\frac{b(\Lambda_1)}{2} = y_p + L \cos \Lambda_1, \qquad \frac{b(\Lambda_2)}{2} = y_p + L \cos \Lambda_2
+\tag{11}
+$$
+
+**Equation 12, Panel Length from Two Spans.**
+Subtracting the two span equations gives the panel length as the difference of spans over twice the difference of the cosines.
+
+$$
+L = \frac{b(\Lambda_1) - b(\Lambda_2)}{2 \left( \cos \Lambda_1 - \cos \Lambda_2 \right)}
+\tag{12}
+$$
+
+**Equation 13, Panel Length of the X-5.**
+The published spans of 10.211 metres at 20 degrees and 6.325 metres at 60 degrees give a panel length of 4.42 metres.
+[Bell X-5][ref_bell_x5]
+
+$$
+L = \frac{10.211 - 6.325}{2 \left( 0.9397 - 0.5000 \right)} = \frac{3.886}{0.8794} = 4.42 \ \text{metres}
+\tag{13}
+$$
+
+**Equation 14, Pivot Station of the X-5.**
+Back-substitution places the pivot 0.953 metres from the centreline.
+
+$$
+y_p = \frac{b(\Lambda_1)}{2} - L \cos \Lambda_1 = 5.106 - 4.42 \times 0.9397 = 0.953 \ \text{metres}
+\tag{14}
+$$
+
+**Equation 15, Pivot Station as a Fraction of the Semi-Span.**
+The pivot lies at 18.7 percent of the unswept semi-span.
+
+$$
+\frac{y_p}{b(20^\circ)/2} = \frac{0.953}{5.106} = 0.187
+\tag{15}
+$$
+
+**Equation 16, Spanwise Station of the Mean Aerodynamic Chord.**
+For a straight-tapered panel of taper ratio $\lambda$ the mean aerodynamic chord lies at the stated fraction of panel length from the root.
+
+$$
+\frac{y_{\text{mac}}}{L} = \frac{1}{3} \, \frac{1 + 2\lambda}{1 + \lambda}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Panel Aerodynamic Centre at Forty Percent of Panel Length.*
+The article places the panel aerodynamic centre at forty percent of panel length, slightly inboard of the range the taper relation returns, giving 1.77 metres.
+
+$$
+s_{ac} \approx 0.40 \, L = 0.40 \times 4.42 = 1.77 \ \text{metres}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Aerodynamic Centre Travel from 20 to 60 Degrees.*
+With the assumed forty percent placement the aerodynamic centre moves 0.93 metres aft between the extreme sweep settings.
+
+$$
+\Delta x_{ac} = 1.77 \times \left( \sin 60^\circ - \sin 20^\circ \right) = 1.77 \times \left( 0.8660 - 0.3420 \right) = 0.93 \ \text{metres}
+\tag{18}
+$$
+
+**Equation 19, Relative Sensitivity of the Travel to the Assumed Distance.**
+Because the travel is linear in the distance from the pivot, its relative error equals the relative error in that distance.
+
+$$
+\frac{\partial \left( \Delta x_{ac} \right)}{\Delta x_{ac}} = \frac{\partial s_{ac}}{s_{ac}}
+\tag{19}
+$$
+
+**Equation 20, Mean Geometric Chord at the Low Sweep Setting.**
+The wing area divided by the unswept span gives a mean chord of 1.59 metres.
+
+$$
+\bar{c} = \frac{S}{b(20^\circ)} = \frac{16.26}{10.211} = 1.59 \ \text{metres}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Aerodynamic Centre Travel in Mean Chords.*
+The estimated travel of 0.93 metres is 58 percent of the mean chord.
+
+$$
+\frac{\Delta x_{ac}}{\bar{c}} = \frac{0.93}{1.59} = 0.58
+\tag{21}
+$$
+
+**Equation 22, Static Margin and Pitch Stiffness.**
+The static margin is the distance from the centre of gravity to the neutral point in mean chords, and the pitch stiffness is the negative of the lift-curve slope times that margin.
+
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}, \qquad C_{m\alpha} = -C_{L\alpha} \, SM
+\tag{22}
+$$
+
+*Equation 23, Bespoke Static Margin Change of an Uncompensated Sweep.*
+Taking the neutral point to move with the full estimated aerodynamic centre travel and the centre of gravity to stay fixed raises the static margin by 0.58.
+
+$$
+\Delta SM = +0.58
+\tag{23}
+$$
+
+**Equation 24, Stick Force per Unit Load Factor and Manoeuvre Margin.**
+The stick force per unit load factor is proportional to the manoeuvre margin, which adds the pitch damping over twice the relative density to the static margin.
+
+$$
+\frac{F_s}{n} \propto MM, \qquad MM = SM - \frac{C_{mq}}{2 \mu}, \qquad \mu = \frac{2m}{\rho S \bar{c}}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Centre of Gravity Limits.*
+The aft limit lies forward of the neutral point by the minimum static margin, and the article sets the forward limit where full elevator can just trim the moment of maximum lift about the aerodynamic centre.
+
+$$
+x_{cg,\text{aft}} = x_{np} - SM_{\min} \bar{c}, \qquad x_{cg,\text{fwd}} = x_{ac} - \frac{\left| C_{m \delta_e} \right| \delta_{e,\max}}{C_{L,\max}} \bar{c}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Usable Centre of Gravity Range over the Sweep Schedule.*
+The article defines the usable range of a pivoting wing as the intersection of the admissible intervals over every sweep setting, which is empty for the uncompensated travel.
+
+$$
+\Delta x_{cg,\text{usable}} = \bigcap_{\Lambda} \left[ x_{cg,\text{fwd}}(\Lambda), \ x_{cg,\text{aft}}(\Lambda) \right]
+\tag{26}
+$$
+
+*Equation 27, Bespoke Wing Translation to Null the Travel.*
+Cancelling the estimated travel exactly would require translating the wing 0.93 metres forward.
+
+$$
+\Delta x_{\text{translate}} = -\Delta x_{ac} = -0.93 \ \text{metres}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Lift-Weighted Aerodynamic Centre with a Fixed Glove.*
+The article takes the wing aerodynamic centre as the average of the glove and panel positions weighted by the fraction of lift each carries.
+
+$$
+x_{ac,\text{wing}} = f \, x_{\text{glove}} + \left( 1 - f \right) \left( x_p + s_{ac} \sin \Lambda \right)
+\tag{28}
+$$
+
+*Equation 29, Bespoke Travel with a Fixed Glove.*
+Under the lift-share weighting only the panel share of the lift moves, so the travel is reduced by one less the glove fraction.
+
+$$
+\Delta x_{ac,\text{wing}} = \left( 1 - f \right) s_{ac} \left( \sin \Lambda_2 - \sin \Lambda_1 \right)
+\tag{29}
+$$
+
+*Equation 30, Bespoke Panel Length and Aerodynamic Centre Distance Against Pivot Station.*
+The panel length is what remains of the semi-span outboard of the pivot, and the aerodynamic centre distance is a fixed fraction $\beta$ near 0.4 of it.
+
+$$
+L(y_p) = \frac{b_0}{2} - y_p, \qquad s_{ac}(y_p) = \beta \left( \frac{b_0}{2} - y_p \right)
+\tag{30}
+$$
+
+*Equation 31, Bespoke Glove Lift Fraction.*
+The article takes the glove lift fraction to grow with pivot station as its share of the semi-span.
+
+$$
+f(y_p) \approx \frac{y_p}{b_0 / 2}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Travel as a Function of Pivot Station.*
+Combining the glove share and the shortened panel makes the travel quadratic in pivot station.
+
+$$
+\Delta x_{ac}(y_p) = \beta \left( 1 - \frac{y_p}{b_0/2} \right) \left( \frac{b_0}{2} - y_p \right) \left( \sin \Lambda_2 - \sin \Lambda_1 \right)
+\tag{32}
+$$
+
+*Equation 33, Bespoke Ratio of Outboard to Inboard Pivot Travel.*
+A glove carrying half the lift with a panel two thirds as long reduces the travel to a third of its inboard-pivot value.
+
+$$
+\frac{\Delta x_{ac}(\text{outboard})}{\Delta x_{ac}(\text{inboard})} = \left( 1 - f \right) \frac{s_{ac}'}{s_{ac}} = 0.5 \times 0.67 = 0.33
+\tag{33}
+$$
+
+**Equation 34, Aspect Ratio of a Pivoting Wing.**
+The aspect ratio is the square of the sweep-dependent span divided by the fixed reference area.
+
+$$
+A(\Lambda) = \frac{b(\Lambda)^2}{S} = \frac{4 \left( y_p + L \cos \Lambda \right)^2}{S}
+\tag{34}
+$$
+
+**Equation 35, Aspect Ratio at the Three Detents.**
+The recovered pivot geometry gives aspect ratios of 6.41, 4.63 and 2.46 at 20, 40 and 60 degrees.
+
+$$
+A(20^\circ) = 6.41, \qquad A(40^\circ) = 4.63, \qquad A(60^\circ) = 2.46
+\tag{35}
+$$
+
+**Equation 36, Swept-Wing Lift-Curve Slope.**
+The planform lift-curve slope formula accounts for aspect ratio, compressibility, half-chord sweep and the section lift-curve slope.
+
+$$
+C_{L\alpha} = \frac{2 \pi A}{2 + \sqrt{ \dfrac{A^2 \beta_s^2}{\kappa^2} \left( 1 + \dfrac{\tan^2 \Lambda_{c/2}}{\beta_s^2} \right) + 4 }}, \qquad \beta_s = \sqrt{1 - M^2}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Lift-Curve Slope at the Three Detents.*
+Taking the quoted sweep angles as half-chord sweep, an approximation the article states, gives low-speed slopes of 4.42, 3.48 and 2.11 per radian.
+
+$$
+C_{L\alpha}(20^\circ) = 4.42, \qquad C_{L\alpha}(40^\circ) = 3.48, \qquad C_{L\alpha}(60^\circ) = 2.11 \ \text{per radian}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Lift-Curve Slope Ratio Across the Sweep Range.*
+Under the same half-chord approximation the slope at 20 degrees is 2.09 times that at 60 degrees.
+
+$$
+\frac{C_{L\alpha}(20^\circ)}{C_{L\alpha}(60^\circ)} = \frac{4.42}{2.11} = 2.09
+\tag{38}
+$$
+
+**Equation 39, Maximum Lift Coefficient Scaling with Sweep.**
+Simple sweep theory reduces the maximum lift coefficient roughly with the cosine of sweep.
+
+$$
+C_{L,\max}(\Lambda) \approx C_{L,\max}(0) \cos \Lambda
+\tag{39}
+$$
+
+**Equation 40, Stall Speed.**
+The stall speed is the speed at which the maximum lift coefficient supports the weight.
+
+$$
+V_{\text{stall}} = \sqrt{\frac{2 W}{\rho S C_{L,\max}}}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Stall Speeds at 20 and 60 Degrees.*
+Assuming a maximum lift coefficient of 1.20 at 20 degrees and scaling it by the cosine of sweep gives stall speeds of 60.6 and 83.1 metres per second.
+
+$$
+V_{\text{stall}}(20^\circ) = 60.6 \ \text{metres per second}, \qquad V_{\text{stall}}(60^\circ) = 83.1 \ \text{metres per second}
+\tag{41}
+$$
+
+**Equation 42, Korn Relation for the Drag-Divergence Mach Number.**
+The Korn relation estimates the drag-divergence Mach number from sweep, streamwise thickness ratio and lift coefficient with a technology factor $\kappa_A$.
+
+$$
+M_{dd} = \frac{\kappa_A}{\cos \Lambda} - \frac{\left( t/c \right)_{\text{stream}}}{\cos^2 \Lambda} - \frac{C_L}{10 \cos^3 \Lambda}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Drag-Divergence Mach Numbers at the Three Detents.*
+Evaluating the Korn relation with an assumed technology factor of 0.87 at a lift coefficient of 0.3 gives 0.765, 0.916 and 1.27, the last outside the range of validity.
+
+$$
+M_{dd}(20^\circ) = 0.765, \qquad M_{dd}(40^\circ) = 0.916, \qquad M_{dd}(60^\circ) = 1.27
+\tag{43}
+$$
+
+**Equation 44, Brake Energy at Touchdown.**
+The brakes must absorb approximately the kinetic energy at touchdown.
+
+$$
+E_{\text{brake}} \approx \frac{1}{2} m V_{\text{td}}^2
+\tag{44}
+$$
+
+**Equation 45, Induced Drag Coefficient in Terms of Span.**
+The induced drag coefficient is the square of the lift coefficient over pi, aspect ratio and span efficiency, which at fixed area varies inversely with the square of span.
+
+$$
+C_{D,i} = \frac{C_L^2}{\pi A e} = \frac{C_L^2 S}{\pi b^2 e}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Induced Drag at 20 and 60 Degrees.*
+With an assumed span efficiency of 0.85 at a lift coefficient of 0.3 the induced drag coefficient rises from 0.0053 to 0.0137.
+
+$$
+C_{D,i}(20^\circ) = 0.0053, \qquad C_{D,i}(60^\circ) = 0.0137
+\tag{46}
+$$
+
+**Equation 47, Mean Sweep Rate.**
+Moving forty degrees in thirty seconds is a mean sweep rate of 1.33 degrees per second.
+[Bell X-5][ref_bell_x5]
+
+$$
+\dot{\Lambda} \approx \frac{40^\circ}{30 \ \text{s}} = 1.33 \ \text{degrees per second}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Aerodynamic Centre Drift Rate.*
+The estimated travel of 0.93 metres over thirty seconds is a drift of 3.1 centimetres per second.
+
+$$
+\dot{x}_{ac} = \frac{0.93 \ \text{m}}{30 \ \text{s}} = 3.1 \ \text{centimetres per second}
+\tag{48}
+$$
+
+**Equation 49, Short Period Frequency and Damping Ratio.**
+The short period frequency is approximated by the square root of the negative pitch stiffness, and the damping ratio by the sum of the damping terms divided by twice that frequency.
+
+$$
+\omega_{sp} \approx \sqrt{-M_\alpha}, \qquad M_\alpha = \frac{q S \bar{c} \, C_{m\alpha}}{I_y}, \qquad \zeta_{sp} = -\frac{M_q + M_{\dot\alpha} + Z_\alpha / V}{2 \omega_{sp}}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Ratio of Sweep Time to Short Period.*
+Taking the short period near 3 radians per second for an aircraft of this class, the sweep transit is about fifteen short periods long.
+
+$$
+\frac{\tau_{\text{sweep}}}{T_{sp}} \approx \frac{30}{2} = 15
+\tag{50}
+$$
+
+*Equation 51, Bespoke Quasi-Static Sweep Criterion.*
+The article defines a quasi-static parameter as the stability change produced by sweeping during one short-period cycle relative to the static margin, which must be much less than one.
+
+$$
+\epsilon_{qs} = \frac{1}{SM} \frac{\partial \left( x_{ac} / \bar{c} \right)}{\partial \Lambda} \dot{\Lambda} \, \frac{2\pi}{\omega_{sp}} \ll 1
+\tag{51}
+$$
+
+*Equation 52, Bespoke Quasi-Static Parameter of the X-5.*
+With an assumed 5 percent margin, the estimated travel, the slower sweep rate and a 2.1 second period the parameter is 0.81.
+
+$$
+\epsilon_{qs} = \frac{1}{0.05} \times 0.0145 \times 1.33 \times 2.1 = 0.81
+\tag{52}
+$$
+
+**Equation 53, Pivot Bending Moment.**
+The pivot carries the panel lift at load factor $n$ acting at the panel centre of pressure.
+
+$$
+M_{\text{pivot}} = n \, L_{\text{panel}} \, s_{cp}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Panel Lift at a Load Factor of Seven.*
+Assuming the two panels carry sixty percent of the lift, one panel carries 92.2 kilonewtons at a design load factor of seven.
+
+$$
+L_{\text{panel}} = 0.5 \times 0.60 \times 43{,}926 \times 7 = 9.22 \times 10^{4} \ \text{newtons}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Pivot Bending Moment at Design Load.*
+With the centre of pressure at the assumed forty percent of panel length the pivot moment is 163 kilonewton metres.
+
+$$
+M_{\text{pivot}} = 9.22 \times 10^{4} \times 1.77 = 1.63 \times 10^{5} \ \text{newton metres}
+\tag{55}
+$$
+
+**Equation 56, Bearing Reaction of a Couple.**
+A moment reacted by two bearings separated by a structural depth $h$ produces a force equal to the moment over that depth.
+
+$$
+F_{\text{bearing}} = \frac{M_{\text{pivot}}}{h}
+\tag{56}
+$$
+
+*Equation 57, Bespoke Bearing Reaction at Half a Metre Depth.*
+An assumed structural depth of half a metre gives a bearing reaction of 326 kilonewtons.
+
+$$
+F_{\text{bearing}} = \frac{1.63 \times 10^{5}}{0.5} = 3.26 \times 10^{5} \ \text{newtons}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Lug Bearing Stress.*
+An assumed lug of 0.10 metre pin diameter and 0.05 metre thickness carries the reaction at a bearing stress of 65 megapascals.
+
+$$
+\sigma_{br} = \frac{F}{d \, t} = \frac{3.26 \times 10^{5}}{0.10 \times 0.05} = 65 \ \text{megapascals}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Pin Double Shear Stress.*
+The same assumed pin in double shear carries the reaction at 21 megapascals.
+
+$$
+\tau = \frac{F}{2 \left( \pi d^2 / 4 \right)} = 21 \ \text{megapascals}
+\tag{59}
+$$
+
+**Equation 60, Sweep Error from Bearing Clearance.**
+A clearance $\delta$ at radius $s_{ac}$ registers as a small sweep error equal to their ratio in radians.
+
+$$
+\Delta \Lambda_{\text{slop}} \approx \frac{\delta}{s_{ac}}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Structural Mass Fraction with a Variable-Geometry Increment.*
+The article writes the structural mass fraction as a fixed-wing baseline plus an increment for the variable-geometry mechanism.
+
+$$
+\frac{m_{\text{struct}}}{m_{\text{gross}}} = \left( \frac{m_{\text{struct}}}{m_{\text{gross}}} \right)_{\text{fixed}} + \Delta_{\text{VG}}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Variable-Geometry Mass Penalty.*
+Taking the increment as three percent of gross mass gives 134 kilograms.
+
+$$
+\Delta m = 0.03 \times 4479 = 134 \ \text{kilograms}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Break-Even Condition for Variable Sweep.*
+The article states that variable sweep pays when the mission-weighted fractional gain in lift-to-drag ratio exceeds the mass penalty as a fraction of fuel mass.
+
+$$
+\sum_i \phi_i \frac{\Delta \left( L/D \right)_i}{\left( L/D \right)_i} > \frac{\Delta m_{\text{VG}}}{m_{\text{fuel}}}
+\tag{63}
+$$
+
+**Equation 64, Breguet Range Equation.**
+Range is speed over thrust specific fuel consumption times lift-to-drag ratio times the logarithm of the initial to final mass ratio.
+
+$$
+R = \frac{V}{c_t} \frac{L}{D} \ln \frac{m_i}{m_f}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Residual Travel Under Partial Compensation.*
+A mechanism compensating a fraction $\eta_c$ of the travel leaves a residual of one less that fraction.
+
+$$
+\Delta x_{ac,\text{residual}} = \left( 1 - \eta_c \right) \Delta x_{ac}
+\tag{65}
+$$
+
+**Equation 66, Trim Moment Increment from Residual Travel.**
+The pitching moment change is the lift coefficient times the residual travel in mean chords.
+
+$$
+\Delta C_m = C_L \frac{\Delta x_{ac,\text{residual}}}{\bar{c}}
+\tag{66}
+$$
+
+**Equation 67, Elevator Deflection to Absorb a Trim Change.**
+The elevator deflection needed is the moment change divided by the magnitude of the elevator control power.
+
+$$
+\delta_e = \frac{\Delta C_m}{\left| C_{m \delta_e} \right|}
+\tag{67}
+$$
+
+**Equation 68, Tail Load to Trim a Moment.**
+The tail load is the trim moment divided by the tail arm.
+
+$$
+L_t = \frac{\Delta C_m \, q \, S \, \bar{c}}{l_t}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Tail Trim Load at Mach 0.9 and 40,000 Feet.*
+Assuming eighty percent compensation and a 4.5 metre tail arm, the residual moment requires a tail load of 2.14 kilonewtons, about 4.9 percent of the weight.
+
+$$
+L_t = \frac{0.035 \times 10{,}633 \times 16.26 \times 1.592}{4.5} = 2.14 \times 10^{3} \ \text{newtons}
+\tag{69}
+$$
+
+**Equation 70, Tail Induced Drag Referred to Wing Area.**
+The trim drag is the induced drag of the tail lift, referred to wing area by the area ratio.
+
+$$
+\Delta C_{D,\text{trim}} = \frac{C_{L_t}^2}{\pi A_t e_t} \frac{S_t}{S}
+\tag{70}
+$$
+
+**Equation 71, Neutral Point of a Wing and Tail.**
+The neutral point lies aft of the wing aerodynamic centre by the tail volume coefficient times the tail-to-wing lift slope ratio corrected for downwash.
+
+$$
+\frac{x_{np}}{\bar{c}} = \frac{x_{ac,\text{wing}}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right), \qquad V_H = \frac{S_t l_t}{S \bar{c}}
+\tag{71}
+$$
+
+**Equation 72, Lifting-Line Downwash Derivative.**
+Lifting-line theory estimates the downwash derivative as twice the wing lift-curve slope over pi times the aspect ratio.
+
+$$
+\frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A}
+\tag{72}
+$$
+
+**Equation 73, Linear State-Space Model with Sweep-Dependent Matrices.**
+The linearised longitudinal dynamics are written in state-space form with plant and input matrices that depend on sweep.
+
+$$
+\dot{\mathbf{x}} = \mathbf{A}(\Lambda) \, \mathbf{x} + \mathbf{B}(\Lambda) \, \mathbf{u}
+\tag{73}
+$$
+
+**Equation 74, Short Period Frequency Scaling.**
+The short period frequency scales as the square root of the product of lift-curve slope and static margin.
+
+$$
+\omega_{sp}(\Lambda) \propto \sqrt{ C_{L\alpha}(\Lambda) \, SM(\Lambda) }
+\tag{74}
+$$
+
+*Equation 75, Bespoke Short Period Frequency Ratio at Fixed Static Margin.*
+Granting perfect compensation so that the static margin is held at 0.05, the lift-curve slope alone changes the frequency by a factor of 1.45.
+
+$$
+\frac{\omega_{sp}(20^\circ)}{\omega_{sp}(60^\circ)} = \sqrt{\frac{C_{L\alpha}(20^\circ)}{C_{L\alpha}(60^\circ)}} = \sqrt{2.09} = 1.45
+\tag{75}
+$$
+
+*Equation 76, Bespoke Gain Schedule Against Sweep.*
+The article writes a scheduling law that scales a feedback gain by the inverse square of the short period frequency relative to a reference sweep.
+
+$$
+k(\Lambda) = k_0 \left( \frac{\omega_{sp}(\Lambda_0)}{\omega_{sp}(\Lambda)} \right)^2
+\tag{76}
+$$
+
+**Equation 77, Fin Directional Stability and Yaw Damping.**
+The fin supplies directional stiffness through the vertical tail volume coefficient and yaw damping with a square of arm dependence.
+
+$$
+C_{n\beta} = V_V \, C_{L\alpha_v} \, \eta_v, \qquad V_V = \frac{S_v l_v}{S b}, \qquad C_{n r, \text{fin}} = -2 \, \eta_v \, C_{L\alpha_v} V_V \frac{l_v}{b}
+\tag{77}
+$$
+
+**Equation 78, Dutch Roll Frequency and Roll Mode Time Constant.**
+The Dutch roll frequency and the roll mode time constant both contain the span explicitly.
+[Dutch roll][ref_dutch_roll]
+
+$$
+\omega_{dr} \approx \sqrt{\frac{q S b \, C_{n\beta}}{I_z}}, \qquad \tau_r = -\frac{2 I_x V}{q S b^2 C_{lp}}
+\tag{78}
+$$
+
+**Equation 79, Sweep Contribution to the Dihedral Effect.**
+A first-order estimate makes the rolling moment due to sideslip of a swept wing proportional to the lift coefficient and the tangent of the sweep.
+[Lampert 1951][research_lampert_1951]
+
+$$
+C_{l\beta,\text{sweep}} \approx -C_L \frac{\tan \Lambda}{2}
+\tag{79}
+$$
+
+**Equation 80, Euler Roll Moment Equation.**
+The roll acceleration is driven by the aerodynamic rolling moment and the inertial term in the product of pitch and yaw rates.
+
+$$
+I_x \dot{p} = \left( I_y - I_z \right) q r + L_{\text{aero}}
+\tag{80}
+$$
+
+**Equation 81, Euler Pitch Moment Equation.**
+The pitch acceleration is driven by the aerodynamic pitching moment and the inertial term in the product of yaw and roll rates.
+
+$$
+I_y \dot{q} = \left( I_z - I_x \right) r p + M_{\text{aero}}
+\tag{81}
+$$
+
+**Equation 82, Euler Yaw Moment Equation.**
+The yaw acceleration is driven by the aerodynamic yawing moment and the inertial term in the product of roll and pitch rates.
+
+$$
+I_z \dot{r} = \left( I_x - I_y \right) p q + N_{\text{aero}}
+\tag{82}
+$$
+
+**Equation 83, Spin Inertia Parameter.**
+The spin correlation groups the difference of roll and pitch inertias over the mass times the square of the span, which is negative for a fuselage-loaded aircraft.
+[Neihouse et al. 1946][research_neihouse_lichtenstein_1946]
+
+$$
+I_{\text{param}} = \frac{I_x - I_y}{m \, b^2}
+\tag{83}
+$$
+
+**Equation 84, Steady Spin Yaw Equilibrium.**
+In a steady spin the aerodynamic yawing moment cancels the inertial yawing moment.
+
+$$
+N_{\text{aero}} = -\left( I_x - I_y \right) p q
+\tag{84}
+$$
+
+*Equation 85, Bespoke Rudder Recovery Condition.*
+The article states recovery as the requirement that the maximum rudder moment exceed the inertial yawing moment of the spin.
+
+$$
+\left| N_{\delta_r} \right| \delta_{r,\max} \, q S b > \left| I_x - I_y \right| p q
+\tag{85}
+$$
+
+*Equation 86, Bespoke Inertia Parameter Ratio at Fixed Inertias.*
+Holding the inertias fixed across the sweep range, the parameter grows as the inverse square of the span, by a factor of 2.61.
+
+$$
+\frac{I_{\text{param}}(60^\circ)}{I_{\text{param}}(20^\circ)} = \left( \frac{b(20^\circ)}{b(60^\circ)} \right)^2 = \left( \frac{10.21}{6.32} \right)^2 = 2.61
+\tag{86}
+$$
+
+**Equation 87, Spin Inertia Parameter at 58.7 Degrees.**
+The measured inertias, weight and span at 58.7 degrees give an inertia parameter of minus 0.0345.
+[Videan 1955][research_videan_1955]
+
+$$
+I_{\text{param}}(58.7^\circ) = \frac{5165 - 9495}{(10006 / 32.174) \times 20.1^2} = -0.0345
+\tag{87}
+$$
+
+*Equation 88, Bespoke Spin Descent Speed.*
+Assuming a normal force coefficient of 1.2 in the spin, the descent speed at which normal force balances weight is 60.6 metres per second at sea level.
+
+$$
+V_d \approx \sqrt{\frac{2W}{\rho S C_N}} = \sqrt{\frac{2 \times 43{,}926}{1.225 \times 16.26 \times 1.2}} = 60.6 \ \text{metres per second}
+\tag{88}
+$$
+
+*Equation 89, Bespoke Height Lost per Spin Turn.*
+At an assumed spin rate of 2.0 radians per second the aircraft loses about 190 metres per turn.
+
+$$
+\Delta h_{\text{turn}} = V_d \frac{2\pi}{\Omega} = 60.6 \times \frac{2\pi}{2.0} = 190 \ \text{metres}
+\tag{89}
+$$
+
+**Equation 90, Tail Damping Power Factor.**
+The tail damping power factor is the product of the tail damping ratio and the unshielded rudder volume coefficient.
+[Neihouse et al. 1946][research_neihouse_lichtenstein_1946]
+
+$$
+\text{TDPF} = \text{TDR} \times \text{URVC}
+\tag{90}
+$$
+
+*Equation 91, Bespoke Turbojet Thrust Lapse with Altitude and Mach Number.*
+The article models thrust as proportional to ambient pressure with an isentropic ram correction.
+
+$$
+\frac{T(h, M)}{T_{SL}} \approx \frac{p(h)}{p_{SL}} \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{91}
+$$
+
+**Equation 92, Tropospheric Standard Atmosphere and Speed of Sound.**
+Temperature falls linearly with altitude, pressure follows the corresponding power law, and the speed of sound follows from the temperature.
+
+$$
+T(h) = T_0 - \lambda h, \qquad p(h) = p_0 \left( \frac{T(h)}{T_0} \right)^{g / \lambda R}, \qquad a = \sqrt{\gamma R T}
+\tag{92}
+$$
+
+**Equation 93, Thrust-Limited Maximum Mach Number.**
+Equating thrust to drag with the dynamic pressure written in Mach number form and solving gives the square of the maximum Mach number.
+
+$$
+M_{\max}^2 = \frac{2 T}{\gamma \, p \, S \, C_D}
+\tag{93}
+$$
+
+**Equation 94, Specific Excess Power and Energy Height.**
+Specific excess power is the speed times the excess of thrust over drag divided by the weight, and energy height adds the kinetic energy per unit weight to the altitude.
+
+$$
+P_s = \frac{V \left( T - D \right)}{W}, \qquad h_e = h + \frac{V^2}{2g}
+\tag{94}
+$$
+
+**Equation 95, Drag Polar with Sweep-Dependent Terms.**
+The parabolic drag polar is written with zero-lift drag, aspect ratio and span efficiency each a function of sweep.
+
+$$
+C_D(\Lambda) = C_{D0}(\Lambda) + \frac{C_L^2}{\pi A(\Lambda) e(\Lambda)}
+\tag{95}
+$$
+
+**Equation 96, Optimum Sweep Condition.**
+The drag-minimising sweep at a given condition is where the derivative of drag with respect to sweep vanishes.
+
+$$
+\frac{\partial C_D}{\partial \Lambda} = 0
+\tag{96}
+$$
+
+*Equation 97, Bespoke Expanded Optimum Sweep Condition.*
+Differentiating the polar with the span efficiency held constant balances the fall of zero-lift drag against the rise of induced drag with sweep.
+
+$$
+\frac{\partial C_D}{\partial \Lambda} = \frac{\partial C_{D0}}{\partial \Lambda} + \frac{C_L^2}{\pi e} \frac{\partial}{\partial \Lambda} \left( \frac{1}{A(\Lambda)} \right) = 0
+\tag{97}
+$$
+
+*Equation 98, Bespoke Test Matrix of a Variable-Sweep Programme.*
+The article multiplies the conditions a fixed-wing programme needs by the number of sweep settings.
+
+$$
+N_{\text{total}} = N \times n_\Lambda
+\tag{98}
+$$
+
+**Equation 99, Load Recovery from a Strain Gauge Calibration.**
+Loads are recovered by applying the inverse of the calibration matrix to the measured strains.
+
+$$
+\mathbf{L} = \mathbf{C}^{-1} \boldsymbol{\varepsilon}
+\tag{99}
+$$
+
+**Equation 100, Condition Number Bound on Recovered Load Error.**
+The relative error in the recovered loads is bounded by the condition number of the calibration matrix times the relative strain error.
+
+$$
+\frac{\left\| \delta \mathbf{L} \right\|}{\left\| \mathbf{L} \right\|} \le \kappa(\mathbf{C}) \, \frac{\left\| \delta \boldsymbol{\varepsilon} \right\|}{\left\| \boldsymbol{\varepsilon} \right\|}, \qquad \kappa(\mathbf{C}) = \left\| \mathbf{C} \right\| \left\| \mathbf{C}^{-1} \right\|
+\tag{100}
+$$
+
+*Equation 101, Bespoke Lift-Curve Slope Sensitivity to Sweep.*
+A finite difference of the bespoke slopes at 20 and 60 degrees gives a sensitivity of 3.31 per radian squared.
+
+$$
+\frac{\partial C_{L\alpha}}{\partial \Lambda} \approx \frac{C_{L\alpha}(20^\circ) - C_{L\alpha}(60^\circ)}{\Lambda_2 - \Lambda_1} = \frac{4.42 - 2.11}{0.698} = 3.31 \ \text{per radian squared}
+\tag{101}
+$$
+
+**Equation 102, Law of Propagation of Uncertainty.**
+The combined variance of a derived quantity is the sum of the input variances weighted by the squared sensitivity coefficients.
+
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{102}
+$$
+
+*Equation 103, Bespoke Pivot Placement Optimisation.*
+The article poses pivot placement as minimising the travel subject to a floor on the movable panel area.
+
+$$
+\min_{y_p} \ \left| \Delta x_{ac}(y_p) \right| \quad \text{subject to} \quad S_{\text{movable}}(y_p) \ge S_{\min}
+\tag{103}
+$$
+
+*Equation 104, Bespoke Maximum Lift with Slats and Flaps.*
+The article adds slat and flap increments to the cosine-scaled clean maximum lift coefficient.
+
+$$
+C_{L,\max} = C_{L,\max}^{\text{clean}} \cos \Lambda + \Delta C_{L,\text{slat}} + \Delta C_{L,\text{flap}}
+\tag{104}
+$$
+
+**Equation 105, Field Length Scaling.**
+Field length scales with wing loading over the product of density ratio, maximum lift coefficient and thrust-to-weight ratio.
+
+$$
+s_{\text{field}} \propto \frac{W/S}{\sigma \, C_{L,\max} \left( T/W \right)}
+\tag{105}
+$$
+
+*Equation 106, Bespoke Break-Even Condition After Halving the Gain.*
+Halving the aerodynamic gain while the mass penalty is unchanged makes the break-even condition fail.
+
+$$
+\sum_i \phi_i \frac{\Delta \left( L/D \right)_i}{\left( L/D \right)_i} \ \longrightarrow \ \text{halved}, \qquad \frac{\Delta m_{\text{VG}}}{m_{\text{fuel}}} \ \longrightarrow \ \text{unchanged}
+\tag{106}
+$$
+
+**Equation 107, Rate of Change of Angular Momentum with a Varying Inertia.**
+With an inertia tensor that depends on sweep, the rate of change of angular momentum gains a term in the sweep rate that vanishes when the wing is still.
+
+$$
+\frac{d}{dt} \left( \mathbf{I}(\Lambda) \, \boldsymbol{\omega} \right) = \mathbf{I}(\Lambda) \dot{\boldsymbol{\omega}} + \frac{\partial \mathbf{I}}{\partial \Lambda} \dot{\Lambda} \, \boldsymbol{\omega} + \boldsymbol{\omega} \times \mathbf{I}(\Lambda) \boldsymbol{\omega}
+\tag{107}
+$$
+
+**Equation 108, Actuator Power and Energy.**
+Actuator power is hinge moment times sweep rate, and the energy is the integral of the hinge moment over the sweep travel.
+
+$$
+P_{\text{act}} = M_{\text{hinge}} \dot{\Lambda}, \qquad E_{\text{act}} = \int_{\Lambda_1}^{\Lambda_2} M_{\text{hinge}}(\Lambda) \, d\Lambda
+\tag{108}
+$$
+
+*Equation 109, Bespoke Sweep Control Derivative.*
+The article treats sweep as a pitch effector and differentiates the trim moment of the panel aerodynamic centre model with respect to sweep.
+
+$$
+C_{m \Lambda} = \frac{\partial C_m}{\partial \Lambda} = -C_L \frac{s_{ac} \cos \Lambda}{\bar{c}}
+\tag{109}
+$$
+
+*Equation 110, Bespoke Sweep Control Derivative at 40 Degrees.*
+At a lift coefficient of 0.3 the sweep control derivative is about minus 0.26 per radian.
+
+$$
+C_{m \Lambda}(40^\circ) = -0.3 \times \frac{1.768 \times 0.766}{1.592} = -0.26 \ \text{per radian}
+\tag{110}
+$$
+
+*Equation 111, Bespoke Sweep Equivalent of a Five Degree Elevator Deflection.*
+Against an assumed elevator control power of 0.7 per radian, matching a five degree deflection needs 0.24 radians of sweep.
+
+$$
+\Delta \Lambda = \frac{\left| C_{m \delta_e} \right| \delta_e}{\left| C_{m \Lambda} \right|} = \frac{0.7 \times 0.0873}{0.26} = 0.24 \ \text{radians}
+\tag{111}
+$$
+
+*Equation 112, Bespoke Sweep Rate for Control Within One Short Period Time Constant.*
+Delivering 13.7 degrees of sweep within an assumed 0.33 second time constant needs about 42 degrees per second.
+
+$$
+\dot{\Lambda}_{\text{required}} = \frac{13.7}{0.33} = 42 \ \text{degrees per second}
+\tag{112}
+$$
+
+### Notation
+
+- $\Lambda$, the wing sweep angle
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $q$, the dynamic pressure, and in the body-axis relations the pitch rate
+- $S$, the wing reference area
+- $b$, the wing span
+- $\bar{c}$, the mean aerodynamic chord
+- $A$, the wing aspect ratio
+- $W$, the aircraft weight
+- $T$, the thrust
+- $D$, the drag
+- $C_L$, the lift coefficient
+- $C_{L\alpha}$, the lift-curve slope per radian
+- $C_{L,\max}$, the maximum lift coefficient
+- $C_{m\alpha}$, the pitching moment slope with angle of attack
+- $C_{n\beta}$, the directional stability derivative
+- $C_{lp}$, the roll damping derivative
+- $I_x$, the moment of inertia in roll
+- $I_y$, the moment of inertia in pitch
+- $I_z$, the moment of inertia in yaw
+- $\rho$, the air density
+- $P_s$, the specific excess power
+- $h_e$, the energy height
+- $SM$, the static margin as a fraction of the mean aerodynamic chord
+- $x_{np}$, the longitudinal position of the neutral point
+- $x_{cg}$, the longitudinal position of the centre of gravity
+- $M_{dd}$, the drag-divergence Mach number
+- $y_p$, the spanwise station of the pivot
+- $L$, the length of the movable panel along its own axis
+- $s_{ac}$, the distance from the pivot to the panel aerodynamic centre along the panel
+- $x_{ac}$, the longitudinal position of the aerodynamic centre
+- $x_p$, the longitudinal position of the pivot
+- $b_0$, the unswept wing span
+- $f$, the fraction of wing lift carried by a fixed inboard glove
+- $\beta$, the fraction of panel length at which the panel aerodynamic centre lies
+- $\kappa_A$, the technology factor of the Korn relation
+- $e$, the span efficiency factor
+- $MM$, the manoeuvre margin
+- $\mu$, the relative density parameter
+- $\epsilon_{qs}$, the quasi-static sweep parameter
+- $\omega_{sp}$, the short period natural frequency
+- $\eta_c$, the fraction of aerodynamic centre travel the translating mechanism compensates
+- $C_{m \delta_e}$, the elevator pitch control power
+- $l_t$, the tail arm behind the centre of gravity
+- $V_H$, the horizontal tail volume coefficient
+- $V_V$, the vertical tail volume coefficient
+- $C_{l\beta,\text{sweep}}$, the sweep contribution to the rolling moment due to sideslip
+- $I_{\text{param}}$, the spin inertia parameter
+- $\phi_i$, the fraction of the mission flown at condition $i$
+- $\Delta m_{\text{VG}}$, the structural mass penalty of the variable-geometry mechanism
+- $C_{m \Lambda}$, the pitching moment derivative with respect to sweep
+- $\dot{\Lambda}$, the sweep rate
+- $\mathbf{C}$, the strain gauge calibration matrix
+- $\kappa(\mathbf{C})$, the condition number of the calibration matrix
 
 ## References
 

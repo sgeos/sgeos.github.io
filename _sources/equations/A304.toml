@@ -1,0 +1,935 @@
+# Equation classification for A304. Read by `python3 _lib/equations.py`.
+
+caution = "Speeds are in metres per second, temperatures in kelvin and pressures in pascals unless a line states otherwise, the ratio of specific heats is 1.4 for air throughout, and several symbols carry two meanings in different sections, so $\\gamma$, $\\beta$, $f$, $R$ and $\\lambda$ must be read against the notation key below."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Variance of a Regression Prediction"
+gloss = "The variance of a least-squares prediction at a point $x^{*}$ is the process variance times a term that is smallest at the centroid of the data and grows with the square of the distance beyond it."
+cite = []
+digest = "6ec5a569b8da2f07"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Prediction Interval for a Future Observation"
+gloss = "The interval for a single future observation adds the process variance to the variance of the fitted value and scales the result by the Student t quantile with $n - 2$ degrees of freedom."
+cite = []
+digest = "8d1ecaa65c730966"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Standard Error at a Sample Size Set by Budget"
+gloss = "The standard error of a mean falls as the inverse square root of the sample, and the article sets the sample by dividing a fixed programme budget by the unit cost of a vehicle."
+cite = []
+digest = "b3b62213d80b82bd"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Precision Ratio of Expendable and Crewed Programmes"
+gloss = "Under equal budgets an expendable vehicle costing a fraction $k$ of a crewed one buys proportionally more flights, so its standard error is smaller by the square root of that fraction."
+cite = []
+digest = "fc6709ba1dc8761c"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Fisher Information About a Regression Slope"
+gloss = "The information a sample carries about the slope of a linear model is the sum of squared distances of the sampled points from their centroid divided by the process variance."
+cite = []
+digest = "64af376e9ee5042d"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Expected Cost of a Test Point"
+gloss = "The article models the expected cost of a test point as a fixed flight cost plus the vehicle cost weighted by a loss probability that rises toward the boundary."
+cite = []
+digest = "15d958ddc77bacea"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Stopping Condition for Approaching a Limit"
+gloss = "A programme is taken to advance toward the boundary until the marginal information gained equals a price $\\lambda$ times the marginal expected loss of the vehicle, a balance the article constructs to show why a crewed programme stops short."
+cite = []
+digest = "04bb2a2a6e1d2cae"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Fineness Ratio of the X-7A-1"
+gloss = "The length divided by the body diameter of the published configuration gives a fineness ratio near twenty."
+cite = ["ref_lockheed_x7"]
+digest = "f680fbf1c239faeb"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Frontal Reference Area"
+gloss = "The frontal area of the circular body follows from its published diameter."
+cite = ["ref_lockheed_x7"]
+digest = "bfd8221facd997a9"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient of the Launch Configuration"
+gloss = "The launch mass divided by the drag area gives the ballistic coefficient under a drag coefficient of 0.4 that the article assumes for the body."
+cite = ["ref_lockheed_x7"]
+digest = "3aeb22771ef31981"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Isentropic Stagnation Pressure and Temperature Ratios"
+gloss = "Decelerating a perfect gas isentropically to rest raises its pressure and temperature by ratios that depend on the Mach number and the ratio of specific heats alone."
+cite = ["ref_isentropic"]
+digest = "012d840e6bdec2e2"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Ram Pressure Ratio at Mach 0, 2 and 4"
+gloss = "Evaluating the isentropic pressure ratio for air shows that a ramjet has no compression at rest and a compression of about one hundred and fifty to one at Mach 4."
+cite = ["ref_isentropic"]
+digest = "fef435397a3527af"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Ideal Brayton Efficiency of a Ramjet"
+gloss = "The thermal efficiency of an ideal Brayton cycle depends only on the temperature ratio of its compression, which for a ramjet is the stagnation temperature ratio of the flight Mach number."
+cite = []
+digest = "157fff21fb7df2a4"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Release Mach Number from the Carrier"
+gloss = "The release Mach number divides an assumed carrier speed of 134 metres per second by the speed of sound near 10 kilometres."
+cite = []
+digest = "b9a87db0460b66d3"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Total Impulse of the Booster"
+gloss = "The total impulse of the solid booster is its published thrust multiplied by its published burn time."
+cite = ["ref_ds_aqm60"]
+digest = "6de2fd176c60b379"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Booster Velocity Increment at a Mean Mass"
+gloss = "The increment is estimated as the total impulse divided by a mean vehicle mass of 3250 kilogrammes, an approximation the article uses in place of the rocket equation."
+cite = []
+digest = "d9ef59d6f498b238"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Gravity Loss During a Boost"
+gloss = "The component of gravity along a path inclined at a constant angle $\\gamma$ to the horizontal removes speed at a steady rate over the burn."
+cite = []
+digest = "a880bc85f5a30206"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Dynamic Pressure at Burnout"
+gloss = "Half the air density times the square of the speed gives the dynamic pressure at 10 kilometres and about 710 metres per second."
+cite = []
+digest = "452b889961b20f22"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Drag at Burnout"
+gloss = "The drag is the dynamic pressure times the drag area of the body."
+cite = []
+digest = "4f4ceb32920627df"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Upper Bound on the Drag Loss"
+gloss = "Applying the burnout drag to the launch mass for the whole burn bounds the speed lost to drag from above, a deliberately pessimistic construction the article adopts."
+cite = []
+digest = "98c51f4056262c4d"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Mach Number at Booster Burnout"
+gloss = "The release speed plus the booster increment divided by the local speed of sound gives the Mach number at which the ramjet takes over."
+cite = []
+digest = "79b3e660ce4835b7"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Acceleration Under Booster Thrust"
+gloss = "Newton's second law applied to the booster thrust and the launch mass gives an acceleration of about thirteen times gravity."
+cite = []
+digest = "c3e8ebd256d6b52f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Acceleration in Terms of Impulse and Burn Time"
+gloss = "At constant thrust the acceleration equals the total impulse divided by the mass and the burn time, so a fixed impulse delivered more slowly gives a smaller acceleration."
+cite = []
+digest = "01e01eb4db5e41bf"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Minimum Burn Time for a Crewed Vehicle"
+gloss = "The booster impulse delivered at no more than 6 g, a sustained tolerance the article assumes for a seated and restrained pilot, fixes the shortest acceptable burn."
+cite = []
+digest = "436118dcef68ad49"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Total Pressure Ratio Across a Normal Shock"
+gloss = "The Rankine and Hugoniot relations give the fraction of total pressure that survives a normal shock as a function of the upstream Mach number."
+cite = ["ref_normal_shock"]
+digest = "b018ac818410dcdf"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Normal Shock Recovery at Mach 2, 3 and 4.31"
+gloss = "Evaluating the normal shock relation for air shows that a single normal shock at Mach 4.31 keeps about a tenth of the total pressure."
+cite = ["ref_normal_shock"]
+digest = "9ba164d92b774afe"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Normal Component of an Oblique Shock"
+gloss = "An oblique shock acts on the component of the upstream Mach number perpendicular to the wave, which is the Mach number times the sine of the wave angle."
+cite = ["ref_oblique_shock"]
+digest = "85418836780d39a0"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Theta Beta Mach Relation"
+gloss = "The flow deflection behind an oblique shock is fixed by the wave angle, the upstream Mach number and the ratio of specific heats."
+cite = ["ref_oblique_shock"]
+digest = "9bd85b9e838bafc8"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Mach Number Behind an Oblique Shock"
+gloss = "The downstream Mach number follows from the normal shock relation applied to the normal component and the turn of the flow through the wave."
+cite = ["ref_oblique_shock"]
+digest = "33ad7e558109497f"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Total Pressure Recovery of a Shock System"
+gloss = "The total pressure recovery of a sequence of shocks is the product of the recoveries across each of them."
+cite = []
+digest = "9969d208cde12ec5"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Recovery of One Oblique and One Normal Shock"
+gloss = "At Mach 4.31 a 20 degree oblique shock followed by a normal shock recovers about a quarter of the total pressure."
+cite = []
+digest = "7355fc37b0f67dff"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Recovery of Two Oblique Shocks and a Normal Shock"
+gloss = "At Mach 4.31 two 16 degree oblique shocks followed by a terminal normal shock recover about forty percent of the total pressure."
+cite = []
+digest = "b6707d06cb4cf59f"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Stagnation Temperature at Mach 4.31"
+gloss = "The stagnation temperature relation evaluated in the isothermal layer of the standard atmosphere near 18 kilometres gives about 1022 kelvin."
+cite = ["ref_isa"]
+digest = "84a5b1abfd3a7fb3"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Recovery Temperature Under a Turbulent Boundary Layer"
+gloss = "A turbulent boundary layer recovers a fraction of the stagnation temperature rise equal to the recovery factor, which is about the cube root of the Prandtl number."
+cite = ["research_stalder_1950", "research_tucker_1951", "research_esgar_1951"]
+digest = "9ed55408d72d27d6"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Skin Recovery Temperature at Mach 4.31"
+gloss = "The turbulent recovery temperature at the record condition is about 933 kelvin, which rules out aluminium."
+cite = []
+digest = "08f042379d96545c"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Lumped Heat Balance of a Thin Skin"
+gloss = "A skin thin enough to have a uniform temperature stores the convective heat it receives from the boundary layer, so its temperature approaches the recovery temperature at a rate proportional to the difference."
+cite = []
+digest = "e30934cf28e66898"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Thermal Time Constant of a Thin Skin"
+gloss = "The time constant of the lumped skin is its heat capacity per unit area divided by the convective heat transfer coefficient."
+cite = []
+digest = "af8819929a94fad4"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Time Constant of the X-7 Skin"
+gloss = "The time constant is evaluated for a 1.5 millimetre steel skin and a convective coefficient of 300 watts per square metre kelvin, values the article assumes for the vehicle."
+cite = []
+digest = "bbd4cab1fedac297"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Temperature Rise Available to the Combustor"
+gloss = "The combustion temperature rise is the difference between a combustor limit of 2000 kelvin, taken as representative of materials of the period, and the inlet stagnation temperature."
+cite = []
+digest = "f1edbc99d9f6117c"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Exhaust Speed Ratio and Specific Thrust of an Ideal Ramjet"
+gloss = "For an ideal ramjet with fully expanded flow and negligible fuel mass the exhaust speed exceeds the flight speed by the square root of the combustor temperature ratio, which fixes the thrust per unit of air."
+cite = []
+digest = "cdd492a02eda1e49"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Specific Thrust at Mach 2, 3 and 4"
+gloss = "Evaluating the ideal specific thrust at the 2000 kelvin limit shows the thrust per unit of air falling by about two thirds across the range."
+cite = []
+digest = "c18d1dd7fcc6041b"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Fuel to Air Ratio from an Energy Balance"
+gloss = "An energy balance across the combustor gives the fuel to air ratio needed to raise the air from the inlet to the exit stagnation temperature."
+cite = ["research_tower_1953"]
+digest = "da4f4bafd3970f8f"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Fuel to Air Ratio at the Ends of the Range"
+gloss = "The fuel needed to reach the 2000 kelvin limit falls from Mach 2 to Mach 4.31 because the air arrives hotter."
+cite = []
+digest = "fc768681956270da"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Equivalence Ratio"
+gloss = "The equivalence ratio is the fuel to air ratio divided by its stoichiometric value."
+cite = []
+digest = "afa401fae5e3e3d4"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Captured Mass Flow"
+gloss = "The mass flow entering the inlet is the free-stream density times the capture area times the flight speed."
+cite = []
+digest = "a7a1851271ca7703"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Net Thrust of an Ideal Ramjet"
+gloss = "The captured mass flow multiplied by the ideal specific thrust and the flight speed gives a net thrust proportional to the square of the flight speed."
+cite = []
+digest = "975c6a625fa769bf"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Terminal Mach Number Condition"
+gloss = "The article sets the ideal ramjet thrust equal to the drag of the body at a constant drag coefficient to locate the speed at which the vehicle stops accelerating."
+cite = []
+digest = "e6655e774e612bfe"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Area Ratio Condition for the Terminal Mach Number"
+gloss = "Cancelling the dynamic pressure from the thrust and drag balance leaves a condition on the capture to reference area ratio and the combustor temperature ratio alone, under the same ideal-cycle and constant-drag assumptions."
+cite = []
+digest = "1cf276154639fc87"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Specific Impulse of an Airbreathing Engine"
+gloss = "An airbreather counts only the fuel it carries, so its specific impulse is the thrust divided by the fuel flow and standard gravity."
+cite = []
+digest = "39888728a5544df1"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Specific Impulse at Mach 4.31"
+gloss = "Evaluating the ideal airbreathing specific impulse at the record condition gives about 1850 seconds, four to seven times that of a chemical rocket."
+cite = []
+digest = "86c0bfad0d21232d"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Decomposition of Empty Mass"
+gloss = "The article divides the empty mass into structure, propulsion, instrumentation, crew systems and recovery, an accounting chosen to isolate what a pilot costs."
+cite = []
+digest = "24e554fda27b18ad"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Ultimate Load Factor and Structural Mass"
+gloss = "The ultimate load factor is the limit load times the factor of safety, and the article assumes that the mass of the structure is proportional to it."
+cite = []
+digest = "1f95ce89b794494b"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Saving from a Lower Factor of Safety"
+gloss = "Under the assumed proportionality of structural mass to ultimate load, lowering the factor of safety from 1.5 to 1.25 removes about seventeen percent of the structure."
+cite = []
+digest = "8139eba9026313b0"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Useful Mass Fraction"
+gloss = "The useful fraction is what remains of the gross mass after the structure, propulsion, crew, recovery and fuel terms are deducted, an accounting the article defines."
+cite = []
+digest = "85697836effb4ac1"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Wright Learning Curve"
+gloss = "The cost of the $n$th unit falls as a power of cumulative production, so each doubling multiplies the unit cost by the progress ratio $b$."
+cite = ["research_wright_1936"]
+digest = "4fd122436f384c96"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Cost of the Sixty-First Vehicle"
+gloss = "The learning curve is evaluated at the 61 vehicles built and an eighty-five percent progress ratio that the article assumes."
+cite = ["research_wright_1936", "ref_ds_aqm60"]
+digest = "4d43e25c569434e3"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Steady Descent Speed Under a Canopy"
+gloss = "A canopy descends at the speed at which its drag balances the weight of the suspended mass."
+cite = []
+digest = "c0c51bdd26a43872"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Mean Deceleration Over a Stopping Distance"
+gloss = "Stopping from the descent speed at uniform deceleration over the penetration depth of the spike gives a mean deceleration of the square of the speed over twice the depth."
+cite = []
+digest = "09c4643d6a15072c"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Landing Deceleration of the X-7"
+gloss = "The mean deceleration is evaluated for a descent at 8 metres per second and a penetration of half a metre, values the article assumes."
+cite = []
+digest = "0454924e5901d5a1"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Canopy Drag Area Required"
+gloss = "Inverting the descent relation at sea-level density gives the drag area needed to land the launch mass at the chosen descent speed."
+cite = []
+digest = "77d744cda9d5dece"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Projected Diameter of the Main Canopy"
+gloss = "The required drag area divided by a canopy drag coefficient near 1.2, which the article assumes, gives a projected diameter of about 31 metres."
+cite = []
+digest = "614676f28a4a20d8"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Parachute Opening Load"
+gloss = "The opening load is the steady drag at deployment multiplied by an opening shock factor that accounts for the canopy filling faster than the load can decelerate."
+cite = []
+digest = "29f855b63a42548b"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Mass Flow Captured by the Inlet"
+gloss = "The inlet captures the free-stream density times the free-stream speed times the capture area."
+cite = []
+digest = "496b0a523b26b640"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Mass Flow Through a Choked Throat"
+gloss = "A sonic throat passes a mass flow fixed by the total pressure and total temperature upstream of it and the throat area."
+cite = []
+digest = "f2ed96307fea161b"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Additive Drag of Spilled Flow"
+gloss = "Air spilled around the cowl carries a drag equal to its momentum deficit plus the pressure force on the spilled stream tube."
+cite = []
+digest = "4dea65a5e75983a7"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Quarter-Wave Frequency of Inlet Buzz"
+gloss = "A duct closed at one end and open at the other resonates at the speed of sound divided by four times its length."
+cite = []
+digest = "918afdfd1d70279a"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Kantrowitz Starting Limit"
+gloss = "An inlet can swallow its shock only when the throat is large enough to pass the flow that survives a normal shock at the flight Mach number."
+cite = []
+digest = "07c16a94e0ac82d6"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Combustor Residence Time of the Ramjet"
+gloss = "The residence time is a combustor length of one metre divided by a combustor speed of 120 metres per second, values the article assumes."
+cite = []
+digest = "1851b36f635d9179"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Damköhler Number"
+gloss = "The Damköhler number is the ratio of the residence time to the chemical time, and combustion is complete only when it comfortably exceeds one."
+cite = []
+digest = "5d6b42aab1b77049"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Blockage Ratio of a Flame Holder"
+gloss = "The blockage is the frontal area of the flame holder divided by the area of the duct."
+cite = []
+digest = "1b741e55def9f55d"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Pressure Loss Across a Bluff Body"
+gloss = "The article writes the total pressure loss across the flame holder as a constant times the dynamic pressure and the square of the blockage, a scaling it adopts without a fitted coefficient."
+cite = []
+digest = "91db94f50aaf2a26"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Blowoff Correlation for a Bluff-Body Flame"
+gloss = "Blowoff occurs at a fixed value of a grouping of velocity, holder size and pressure raised to an empirical power, so a larger holder holds the flame at higher speed."
+cite = []
+digest = "35e4af83c0fecf5a"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Fuel Flow for a Given Heat Release"
+gloss = "The fuel mass flow needed for a heat release rate is that rate divided by the heating value of the fuel."
+cite = []
+digest = "a7a3b93718fed280"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Densities of Liquid Hydrogen and Kerosene"
+gloss = "Liquid hydrogen is about a tenth as dense as kerosene, so a hydrogen tank is sized by volume rather than mass."
+cite = []
+digest = "e738c45e98c25f97"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Static Pitch Stability Derivative"
+gloss = "The pitching moment derivative is the negative of the lift curve slope times the static margin, the distance of the neutral point behind the centre of gravity in chords."
+cite = []
+digest = "b958fc929733fdbc"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Weathercock Natural Frequency"
+gloss = "The undamped pitch frequency of a statically stable body is the square root of its aerodynamic stiffness divided by its pitch moment of inertia."
+cite = []
+digest = "97fb6eadefeb1107"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Supersonic Normal Force Slope of a Fin"
+gloss = "Supersonic linear theory gives a fin normal force slope of four over the square root of $M^{2} - 1$, scaled by the ratio of fin area to reference area."
+cite = []
+digest = "cf8fd4fd75c2e937"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Channels Supported by a Bandwidth"
+gloss = "The sampling theorem requires two samples per cycle of the highest frequency, so a bandwidth carries as many channels as it holds twice that frequency."
+cite = []
+digest = "ea266597e274c7ed"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Friis Transmission Equation"
+gloss = "The power received over a free-space path is the transmitted power and the two antenna gains reduced by the square of the wavelength over four pi times the range."
+cite = []
+digest = "4ceb65d9237aaa16"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Free-Space Path Loss at 2.2 Gigahertz and 200 Kilometres"
+gloss = "The free-space loss expressed in decibels is about 145 at the stated frequency and range."
+cite = []
+digest = "1e275b65240227d4"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Shannon and Hartley Channel Capacity"
+gloss = "The largest error-free data rate of a channel is its bandwidth times the base-two logarithm of one plus the signal-to-noise ratio."
+cite = []
+digest = "e651bf486a4df1a4"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Flight Rate of the Programme"
+gloss = "One hundred and thirty flights over one hundred and eleven months gives a little more than one flight per month."
+cite = ["ref_lockheed_x7"]
+digest = "07b27887debb0bf2"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Risk Constraint on a Crewed Campaign"
+gloss = "The article expresses a crewed programme as one that must keep the product of the loss probability per flight and the number of flights far below one."
+cite = []
+digest = "d3ea0786ac76b492"
+
+[[equation]]
+tag = 84
+class = "bespoke"
+title = "Bespoke Budget Constraint on an Expendable Campaign"
+gloss = "The article expresses an expendable programme as one constrained only by the number of vehicles its budget can buy."
+cite = []
+digest = "fc0dad5508d8b5a9"
+
+[[equation]]
+tag = 85
+class = "bespoke"
+title = "Bespoke Error Budget of Ground and Flight Testing"
+gloss = "The article treats the total error of a test method as independent scale and measurement errors added in quadrature, so a tunnel minimises one term and a free-flight vehicle the other."
+cite = []
+digest = "e16d8bf4e03765a8"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number is the ratio of inertial to viscous forces built from density, speed, a length and the viscosity."
+cite = []
+digest = "8f8b27a65283cbfd"
+
+[[equation]]
+tag = 87
+class = "bespoke"
+title = "Bespoke Run Time of a Blowdown Tunnel"
+gloss = "The run time is estimated as the mass of gas stored in the tank divided by the mass flow through the test section, an order-of-magnitude construction that ignores the fall of tank pressure."
+cite = []
+digest = "6ecdcfbd7f473f07"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Stagnation Temperature at the Combustor Limit"
+gloss = "The ideal ramjet can add no heat once the stagnation temperature of the incoming air reaches the combustor temperature limit."
+cite = []
+digest = "59cc1ca5436dcdfa"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Limiting Mach Number of a Subsonic-Combustion Ramjet"
+gloss = "Solving the stagnation temperature relation for the Mach number at which it equals the combustor limit gives the ceiling of the engine."
+cite = []
+digest = "7408ef2ecc506709"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Limiting Mach Number for a 2000 Kelvin Combustor"
+gloss = "With a 2000 kelvin limit in a 229 kelvin atmosphere the subsonic-combustion ramjet can add no heat above about Mach 6.2."
+cite = []
+digest = "6f3855833224c32a"
+
+[[equation]]
+tag = 91
+class = "standard"
+title = "Isolator Length Scaling"
+gloss = "The length an isolator needs to contain a shock train scales with the pressure rise it must hold and inversely with the square root of the incoming momentum thickness ratio."
+cite = []
+digest = "3aa459c8048bf7dc"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Residence Time in a Scramjet Combustor"
+gloss = "The residence time is a combustor length of one metre divided by a supersonic combustor speed of 1500 metres per second, values the article assumes."
+cite = []
+digest = "1c490e202c7e53ec"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Handover Condition of a Combined Cycle"
+gloss = "The article defines the handover Mach number of a combined-cycle engine as the speed at which the low-speed cycle and the ramjet deliver equal thrust."
+cite = []
+digest = "5f9df01b1e38e18f"
+
+[[equation]]
+tag = 94
+class = "bespoke"
+title = "Bespoke Thrust Pinch at Handover"
+gloss = "The article argues that the total thrust passes through a local minimum at the handover, where both cycles are weak, which is the pinch a combined-cycle vehicle must design around."
+cite = []
+digest = "e47c3d76f715c85f"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the standard deviation of the process scatter about a fitted model"
+
+[[symbol]]
+tex = 'x^{*}'
+meaning = "the condition at which a prediction is made"
+
+[[symbol]]
+tex = '\bar{x}'
+meaning = "the centroid of the sampled conditions"
+
+[[symbol]]
+tex = '\mathcal{I}'
+meaning = "the Fisher information about a slope"
+
+[[symbol]]
+tex = 'P_f(x)'
+meaning = "the probability of losing the vehicle at test condition $x$"
+
+[[symbol]]
+tex = 'c_{\text{vehicle}}'
+meaning = "the cost of losing one vehicle, which includes a human life for a crewed aircraft"
+
+[[symbol]]
+tex = 'C_{\text{budget}}'
+meaning = "the total budget of a test programme"
+
+[[symbol]]
+tex = 'c_{\text{unit}}'
+meaning = "the cost of one expendable vehicle"
+
+[[symbol]]
+tex = 'M'
+meaning = "the flight Mach number"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, 1.4 for air, except in Equation 17, where it is the flight path angle above the horizontal"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the ballistic coefficient in Equation 10, the oblique shock wave angle in Equations 27 to 29 and the regression slope in Equation 5"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the flow deflection angle through an oblique shock, and in Equation 91 the momentum thickness of the incoming boundary layer"
+
+[[symbol]]
+tex = 'p_t'
+meaning = "the total pressure, with $p_{t1}$ and $p_{t2}$ ahead of and behind a shock"
+
+[[symbol]]
+tex = 'T_t'
+meaning = "the stagnation temperature"
+
+[[symbol]]
+tex = 'T_{t2}'
+meaning = "the stagnation temperature of the air entering the combustor"
+
+[[symbol]]
+tex = 'T_{t4}'
+meaning = "the stagnation temperature leaving the combustor, with $T_{t4,\\max}$ its material limit"
+
+[[symbol]]
+tex = 'T_r'
+meaning = "the recovery temperature reached by the surface under the boundary layer"
+
+[[symbol]]
+tex = 'r'
+meaning = "the turbulent recovery factor, about the cube root of the Prandtl number"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient, written $C_{D,c}$ for a parachute canopy"
+
+[[symbol]]
+tex = 'A_{\text{ref}}'
+meaning = "the frontal reference area of the body"
+
+[[symbol]]
+tex = 'A_c'
+meaning = "the inlet capture area"
+
+[[symbol]]
+tex = 'A_{th}'
+meaning = "the throat area of the inlet or the nozzle"
+
+[[symbol]]
+tex = 't_b'
+meaning = "the burn time of the booster"
+
+[[symbol]]
+tex = 'V_0'
+meaning = "the flight speed"
+
+[[symbol]]
+tex = 'h_{PR}'
+meaning = "the heat released per unit mass of fuel"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fuel to air ratio, except in Equation 66, where it is the buzz frequency"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the equivalence ratio, the fuel to air ratio over its stoichiometric value"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.807 metres per second squared"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the thermal time constant of the skin"
+
+[[symbol]]
+tex = 'h'
+meaning = "the convective heat transfer coefficient between the boundary layer and the skin"
+
+[[symbol]]
+tex = '\rho_s c_s t_s'
+meaning = "the density, specific heat and thickness of the skin, whose product is its heat capacity per unit area"
+
+[[symbol]]
+tex = 'b'
+meaning = "the progress ratio of the learning curve"
+
+[[symbol]]
+tex = 'V_d'
+meaning = "the steady descent speed under the canopy"
+
+[[symbol]]
+tex = 'C_D S'
+meaning = "the drag area of the canopy"
+
+[[symbol]]
+tex = 'C_x'
+meaning = "the parachute opening shock factor"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the depth to which the nose spike penetrates the ground"
+
+[[symbol]]
+tex = '\mathrm{Da}'
+meaning = "the Damköhler number"
+
+[[symbol]]
+tex = 'C_{m\alpha}'
+meaning = "the static pitching moment derivative"
+
+[[symbol]]
+tex = '\omega_n'
+meaning = "the undamped natural frequency of the pitch motion"
+
+[[symbol]]
+tex = 'I_y'
+meaning = "the pitch moment of inertia"
+
+[[symbol]]
+tex = 'B'
+meaning = "the bandwidth of the telemetry channel"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the radio wavelength in Equations 79 and 80, and in Equation 7 the price that converts expected loss into units of information"
+
+[[symbol]]
+tex = 'R'
+meaning = "the radio range in Equations 79 and 80, and the specific gas constant of air in Equations 14 and 87"
+
+[[symbol]]
+tex = 'M_{\lim}'
+meaning = "the Mach number above which a subsonic-combustion ramjet can add no heat"

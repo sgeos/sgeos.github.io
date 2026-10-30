@@ -39,23 +39,38 @@ The trouble with all four is that they are consequences of a single quantity, an
 
 An aircraft at Mach 6.7 carries a kinetic energy per unit mass of
 
-$$e_{k} = \tfrac{1}{2} V^{2} = \tfrac{1}{2} \times 2{,}020.6^{2} = 2.041 \times 10^{6} \text{ J/kg}$$
+$$
+e_{k} = \tfrac{1}{2} V^{2} = \tfrac{1}{2} \times 2{,}020.6^{2} = 2.041 \times 10^{6} \text{ J/kg}
+\tag{1}
+$$
 
 The energy required to take a kilogramme of the nickel alloy the aircraft was built from up to its melting point and melt it is the sensible heat plus the latent heat,
 
-$$h_{\text{melt}} = \int_{T_{0}}^{T_{m}} c_{p}\, dT + L_{f}$$
+$$
+h_{\text{melt}} = \int_{T_{0}}^{T_{m}} c_{p}\, dT + L_{f}
+\tag{2}
+$$
 
 where the specific heat of Inconel X-750 rises with temperature. [Touloukian 1966][ref_touloukian_1966] recommends 0.104 calories per gramme kelvin at 300 kelvin, 0.180 at 1,200 kelvin and an extrapolated 0.215 at 1,300 kelvin, about twice the room-temperature value, and integrating those values from an ambient 20 degrees Celsius to 1,300 kelvin gives 0.586 megajoules per kilogramme. No recommended value covers the 366 kelvin between 1,300 kelvin and the melting point near 1,393 degrees Celsius, the bottom of the alloy's melting range in [Special Metals 2004][ref_special_metals_2004]. Two cases bracket that interval. Holding the specific heat at 0.215 adds 0.329 megajoules per kilogramme, and letting it fall back to the value the same compilation gives for pure nickel adds 0.227. Taking the latent heat as that of nickel, 292 kilojoules per kilogramme from the Shomate parameters in the [National Institute of Standards and Technology Chemistry WebBook][ref_nist_webbook_nickel], gives a melting enthalpy of
 
-$$h_{\text{melt}} = 1.105 \text{ to } 1.208 \times 10^{6} \text{ J/kg}$$
+$$
+h_{\text{melt}} = 1.105 \text{ to } 1.208 \times 10^{6} \text{ J/kg}
+\tag{3}
+$$
 
 The ratio is the number this article is built on, stated as a range.
 
-$$\frac{e_{k}}{h_{\text{melt}}} = \frac{2.041}{1.208} \text{ to } \frac{2.041}{1.105} = 1.69 \text{ to } 1.85$$
+$$
+\frac{e_{k}}{h_{\text{melt}}} = \frac{2.041}{1.208} \text{ to } \frac{2.041}{1.105} = 1.69 \text{ to } 1.85
+\tag{4}
+$$
 
 **The X-15 at its record speed carried, in every kilogramme of itself, between 1.69 and 1.85 times the energy needed to melt that kilogramme.** A specific heat held at its room-temperature value would give about 2.3 and overstate the ratio, because the alloy's specific heat roughly doubles between room temperature and 1,300 kelvin. Against the temperature the structure was designed to tolerate, 1,200 degrees Fahrenheit or 922 kelvin, the margin is far wider still. Integrating the same recommended values to that temperature gives
 
-$$\frac{e_{k}}{\int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT} = \frac{2.041 \times 10^{6}}{0.320 \times 10^{6}} = 6.4$$
+$$
+\frac{e_{k}}{\int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT} = \frac{2.041 \times 10^{6}}{0.320 \times 10^{6}} = 6.4
+\tag{5}
+$$
 
 and the values tabulated in [Special Metals 2004][ref_special_metals_2004] give 0.318 megajoules per kilogramme and the same ratio, so the aircraft carried more than six times the energy that would have taken its entire structure to the limit of its strength.
 
@@ -75,7 +90,10 @@ That last point connects this aircraft to the two before it, and the connection 
 
 The [X-13][related_post_a310_ryan_x13] and the [X-14][related_post_a311_bell_x14] lost their aerodynamic control authority because the vehicle was not moving. The X-15 loses it because there is no air. **The relation is identical and the cause is opposite**, and so is the answer. Both aircraft carry reaction jets and both must hand over between them and the aerodynamic surfaces. The previous article's central relation,
 
-$$M_{\text{aero}} = q \, S \, \bar{c} \, \Delta C_{m}, \qquad q = \tfrac{1}{2}\rho V^{2}$$
+$$
+M_{\text{aero}} = q \, S \, \bar{c} \, \Delta C_{m}, \qquad q = \tfrac{1}{2}\rho V^{2}
+\tag{6}
+$$
 
 holds here unchanged, and the X-15 drives $q$ to zero by making $\rho$ vanish rather than by making $V$ vanish.
 
@@ -85,11 +103,17 @@ The X-15 originates in a request rather than in a proposal. In the chronology of
 
 **Becker's specification was small, and the price grew faster than the aircraft.** The Langley study sized the airplane to be carried by a Convair B-36, at a gross weight near 30,000 pounds including 18,000 pounds of propellant, with 4,600 miles an hour and 400,000 feet envisioned, and the competition then asked for Mach 6 and 250,000 feet within 30 months. Both sets of figures are from [Jenkins 2000][ref_jenkins_2000]. North American's was the most expensive of the four proposals, at 56.1 million dollars for three aircraft against 36.3 million from Bell,
 
-$$\frac{56.1}{36.3} = 1.55$$
+$$
+\frac{56.1}{36.3} = 1.55
+\tag{7}
+$$
 
 and it was chosen because the evaluators judged its Inconel X structure more representative of future aircraft, where Douglas had proposed magnesium that would have avoided the heating problems the research was meant to explore. The Wright Air Development Center had estimated 12.2 million dollars for two aircraft in August 1954, and North American's reduced figure of 45 million in October 1955 was already
 
-$$\frac{45.0}{12.2} = 3.7$$
+$$
+\frac{45.0}{12.2} = 3.7
+\tag{8}
+$$
 
 times that, before the engine's own overruns began.
 
@@ -115,21 +139,33 @@ The keystone relation is an accounting identity. It comes before anything else h
 
 The specific energy of the aircraft at any instant is the sum of its potential and kinetic terms,
 
-$$e = g h + \tfrac{1}{2} V^{2}$$
+$$
+e = g h + \tfrac{1}{2} V^{2}
+\tag{9}
+$$
 
 The engine adds energy, gravity and drag remove it, and the flight ends when $e$ has been reduced to the value corresponding to a landing.
 
-$$\frac{de}{dt} = \frac{T V}{m} - \frac{D V}{m}$$
+$$
+\frac{de}{dt} = \frac{T V}{m} - \frac{D V}{m}
+\tag{10}
+$$
 
 **Everything the X-15 did is contained in the difference between those two terms.** The first acts for about a minute and a half and the second for the rest of the flight. Across the 113 flights on which the flight data in [Jenkins 2007][ref_jenkins_2007] record the XLR99 at full thrust, the median powered time is 81.4 seconds and the longest is the 140.7 seconds of the speed record. Across all 199 flights the median time from launch to landing is 9.3 minutes, the range runs from 3.8 to 12.5 minutes, and 156 flights lasted between eight and twelve.
 
 How much of the budget the carrier aircraft supplies matters, because the launch from a B-52 is often described as though it were a substantial head start. Dropping near 13.7 kilometres, the 45,000 feet from which Flight 3-65-97 was launched, at about Mach 0.8, close to the Mach 0.82 and 45,500 feet of the first government flight in [Jenkins 2000][ref_jenkins_2000], gives
 
-$$e_{\text{launch}} = 9.807 \times 13{,}716 + \tfrac{1}{2} \times 236^{2} = 0.135 + 0.028 = 0.162 \text{ MJ/kg}$$
+$$
+e_{\text{launch}} = 9.807 \times 13{,}716 + \tfrac{1}{2} \times 236^{2} = 0.135 + 0.028 = 0.162 \text{ MJ/kg}
+\tag{11}
+$$
 
 against the 2.347 megajoules per kilogramme the speed record reached.
 
-$$\frac{0.162}{2.347} = 0.069$$
+$$
+\frac{0.162}{2.347} = 0.069
+\tag{12}
+$$
 
 **The carrier supplies under seven percent of the energy.** The X-15 makes the other ninety-three percent itself, and the B-52 exists to save propellant and to put the launch point where the trajectory needs it rather than to provide a meaningful fraction of the budget.
 
@@ -139,41 +175,68 @@ The X-15 holds two records and they are usually reported as separate achievement
 
 The speed record, Flight 188 flown by Knight on 3 October 1967, reached 4,520 miles per hour at 102,100 feet in the flight log printed by [Jenkins 2000][ref_jenkins_2000]. In specific energy that is
 
-$$e = 9.807 \times 31{,}120 + \tfrac{1}{2} \times 2{,}020.6^{2} = 0.305 + 2.041 = 2.347 \text{ MJ/kg}$$
+$$
+e = 9.807 \times 31{,}120 + \tfrac{1}{2} \times 2{,}020.6^{2} = 0.305 + 2.041 = 2.347 \text{ MJ/kg}
+\tag{13}
+$$
 
 The altitude record, Flight 91 flown by Walker on 22 August 1963, reached 354,200 feet, but the informative instant is burnout. [Jenkins 2007][ref_jenkins_2007] puts burnout at 176,000 feet and 5,600 feet per second, and the log's maximum speed for the flight, 3,794 miles per hour, is the same speed to within rounding,
 
-$$3{,}794 \times \frac{5{,}280}{3{,}600} = 5{,}565 \text{ ft/s}$$
+$$
+3{,}794 \times \frac{5{,}280}{3{,}600} = 5{,}565 \text{ ft/s}
+\tag{14}
+$$
 
 so this article takes burnout at 176,000 feet and 3,794 miles per hour.
 
-$$e = 9.807 \times 53{,}645 + \tfrac{1}{2} \times 1{,}696.1^{2} = 0.526 + 1.438 = 1.964 \text{ MJ/kg}$$
+$$
+e = 9.807 \times 53{,}645 + \tfrac{1}{2} \times 1{,}696.1^{2} = 0.526 + 1.438 = 1.964 \text{ MJ/kg}
+\tag{15}
+$$
 
 The comparison is cleanest in the units of altitude, because specific energy divided by gravity is a height. The energy height is the altitude the vehicle would reach if it converted all its kinetic energy into height,
 
-$$h_{e} = h + \frac{V^{2}}{2g}$$
+$$
+h_{e} = h + \frac{V^{2}}{2g}
+\tag{16}
+$$
 
 which gives 239.3 kilometres for Flight 188 and 200.3 for Flight 91 at burnout.
 
-$$h_{e,188} = 31.12 + 208.17 = 239.29 \text{ km}$$
+$$
+h_{e,188} = 31.12 + 208.17 = 239.29 \text{ km}
+\tag{17}
+$$
 
 and for the altitude flight at the instant its engine stopped,
 
-$$h_{e,91} = 53.64 + 146.67 = 200.31 \text{ km}$$
+$$
+h_{e,91} = 53.64 + 146.67 = 200.31 \text{ km}
+\tag{18}
+$$
 
 **Energy height also provides a check on the ballistic coast.** If the arc above burnout is drag free, energy height is conserved along it, and evaluating at Flight 91's apogee with the horizontal speed derived below gives
 
-$$h_{e,\text{apogee}} = 107.96 + 92.36 = 200.32 \text{ km}$$
+$$
+h_{e,\text{apogee}} = 107.96 + 92.36 = 200.32 \text{ km}
+\tag{19}
+$$
 
 which agrees with the burnout value to ten metres in two hundred kilometres. **The coast above 53 kilometres is drag free to within the precision of the input data**, which retrospectively justifies treating it that way.
 
 **The two flights are eighty-four percent alike in the quantity that matters and utterly different in how it is arranged.** One put 87 percent of its energy into speed, the other 73 percent.
 
-$$\frac{2.347}{1.964} = 1.195$$
+$$
+\frac{2.347}{1.964} = 1.195
+\tag{20}
+$$
 
 The speed flight carried 19.5 percent more, and piloting does not explain it. **Flight 188 was flown by the X-15A-2, whose external tanks were added to raise the propellant load by 70 percent**, a figure Adkins and Armstrong give in [NASA SP-90][ref_nasa_sp90_1965]. The design load given by [Jenkins 2007][ref_jenkins_2007] is 18,750 pounds inside the aircraft and 13,500 in the tanks,
 
-$$\frac{13{,}500}{18{,}750} = 0.72$$
+$$
+\frac{13{,}500}{18{,}750} = 0.72
+\tag{21}
+$$
 
 and the extra energy was bought rather than flown for.
 
@@ -181,7 +244,10 @@ and the extra energy was bought rather than flown for.
 
 The energy budget makes a comparison available that neither record alone suggests. Convert the speed record's kinetic energy entirely into height,
 
-$$h = \frac{V^{2}}{2g} = \frac{2{,}020.6^{2}}{2 \times 9.807} = 208.2 \text{ km}$$
+$$
+h = \frac{V^{2}}{2g} = \frac{2{,}020.6^{2}}{2 \times 9.807} = 208.2 \text{ km}
+\tag{22}
+$$
 
 which added to the 31.1 kilometres it was already at gives 239.3 kilometres, against an actual altitude record of 108.0. **A little over half the available energy did not reach apogee**, and the atmosphere took the difference on the way up, apart from the share lost because the altitude flights were flown with less propellant.
 
@@ -191,27 +257,45 @@ This is the first appearance of the article's recurring point. **The atmosphere 
 
 The engine's contribution can be checked independently. At a vacuum specific impulse of 276 seconds, the top of the 256 to 276 second range that [Jenkins 2000][ref_jenkins_2000] gives for the engine specification, the effective exhaust velocity is
 
-$$v_{e} = I_{sp} \, g_{0} = 276 \times 9.807 = 2{,}706.6 \text{ m/s}$$
+$$
+v_{e} = I_{sp} \, g_{0} = 276 \times 9.807 = 2{,}706.6 \text{ m/s}
+\tag{23}
+$$
 
 [Jenkins 2007][ref_jenkins_2007] describes a typical launch as a 33,000 pound airplane under a 57,000 pound engine, and [Matranga][ref_matranga_1961] gives an average touchdown weight of 14,600 pounds over the first 30 flights, which this article uses throughout as the mass after burnout. In kilogrammes that is 14,969 at launch and 6,622 after burnout, so the mass ratio and ideal velocity increment are
 
-$$\frac{m_{0}}{m_{f}} = 2.260, \qquad \Delta V = v_{e} \ln 2.260 = 2{,}207 \text{ m/s}$$
+$$
+\frac{m_{0}}{m_{f}} = 2.260, \qquad \Delta V = v_{e} \ln 2.260 = 2{,}207 \text{ m/s}
+\tag{24}
+$$
 
 The fastest flight of the basic aircraft, Walker's 4,104 miles per hour on Flight 59 of the log, is 1,834.6 metres per second, which is
 
-$$\frac{1{,}834.6}{2{,}207} = 0.831$$
+$$
+\frac{1{,}834.6}{2{,}207} = 0.831
+\tag{25}
+$$
 
 of the ideal. The speed record was set by a different vehicle. On the figures in [Jenkins 2007][ref_jenkins_2007], the X-15A-2 weighed 52,117 pounds at separation on Flight 188 and was designed to carry 32,250 pounds of propellant, so with the empty tanks counted in the burnout mass
 
-$$\frac{m_{0}}{m_{f}} = \frac{52{,}117}{19{,}867} = 2.623, \qquad \Delta V = v_{e} \ln 2.623 = 2{,}610 \text{ m/s}, \qquad \frac{2{,}020.6}{2{,}610} = 0.774$$
+$$
+\frac{m_{0}}{m_{f}} = \frac{52{,}117}{19{,}867} = 2.623, \qquad \Delta V = v_{e} \ln 2.623 = 2{,}610 \text{ m/s}, \qquad \frac{2{,}020.6}{2{,}610} = 0.774
+\tag{26}
+$$
 
 **Each aircraft reached between three quarters and five sixths of its ideal velocity increment**, and counting the carrier's 236 metres per second as part of the ideal would lower both fractions. The loss goes to gravity and drag during the climb. North American allowed for a loss of that size at the proposal stage, and [Jenkins 2000][ref_jenkins_2000] reports its reckoning that about 10 percent of the thrust would overcome drag and 20 percent weight, leaving
 
-$$1 - 0.10 - 0.20 = 0.70$$
+$$
+1 - 0.10 - 0.20 = 0.70
+\tag{27}
+$$
 
 for acceleration. The thrust-to-weight ratio at ignition is
 
-$$\frac{T}{W} = \frac{253{,}500}{14{,}969 \times 9.807} = 1.73$$
+$$
+\frac{T}{W} = \frac{253{,}500}{14{,}969 \times 9.807} = 1.73
+\tag{28}
+$$
 
 which gets the aircraft out of the dense air quickly.
 
@@ -223,23 +307,35 @@ Before any heat-transfer relation, there is a temperature difference driving it,
 
 Air brought to rest against the vehicle converts its kinetic energy into enthalpy, so the stagnation temperature is
 
-$$\frac{T_{0}}{T_{\infty}} = 1 + \frac{\gamma - 1}{2} M^{2}$$
+$$
+\frac{T_{0}}{T_{\infty}} = 1 + \frac{\gamma - 1}{2} M^{2}
+\tag{29}
+$$
 
 At Mach 6.7 that factor is 9.978, and the standard atmosphere gives an ambient temperature of 227.6 kelvin at the record altitude, so
 
-$$T_{0} = 227.6 \times 9.978 = 2{,}271 \text{ K} = 3{,}628\ ^{\circ}\text{F}$$
+$$
+T_{0} = 227.6 \times 9.978 = 2{,}271 \text{ K} = 3{,}628\ ^{\circ}\text{F}
+\tag{30}
+$$
 
 **The air the aircraft is flying into is 2.46 times hotter than the metal is permitted to become.** The structure's problem is not that it is going fast. It is that it is immersed in a gas at two thousand degrees Celsius.
 
 A boundary layer does not quite reach the stagnation temperature, because some enthalpy is carried away rather than recovered. Writing the recovery factor $r$,
 
-$$T_{aw} = T_{\infty}\left(1 + r\,\frac{\gamma - 1}{2} M^{2}\right)$$
+$$
+T_{aw} = T_{\infty}\left(1 + r\,\frac{\gamma - 1}{2} M^{2}\right)
+\tag{31}
+$$
 
 which for a turbulent layer at $r = 0.89$ gives 2,046 kelvin, and for a laminar layer at $r = 0.85$ gives 1,965. **The adiabatic wall temperature is the temperature the surface would reach if it could not lose heat at all**, and every heat-transfer calculation below is a calculation of how far below it the surface sits.
 
 The scale of the effect is clearest as an enthalpy. The total enthalpy of the oncoming stream is
 
-$$h_{0} = c_{p} T_{\infty} + \tfrac{1}{2} V^{2} = 0.229 + 2.041 = 2.270 \text{ MJ/kg}$$
+$$
+h_{0} = c_{p} T_{\infty} + \tfrac{1}{2} V^{2} = 0.229 + 2.041 = 2.270 \text{ MJ/kg}
+\tag{32}
+$$
 
 of which the kinetic term is **89.9 percent**. The atmosphere at that altitude contributes almost nothing. **The heat is the aircraft's own energy arriving back at it.**
 
@@ -247,11 +343,17 @@ of which the kinetic term is **89.9 percent**. The atmosphere at that altitude c
 
 The disposal problem is not the total energy but the rate at which it arrives at the surface. The stagnation-point convective heating rate follows a correlation of the form
 
-$$\dot{q} = k \sqrt{\frac{\rho}{R_{n}}}\, V^{3}$$
+$$
+\dot{q} = k \sqrt{\frac{\rho}{R_{n}}}\, V^{3}
+\tag{33}
+$$
 
 with $k = 1.7415 \times 10^{-4}$ in SI units, $\rho$ the free-stream density, and $R_{n}$ the nose radius. The relation is a reduced form of [Sutton and Graves][ref_sutton_graves_1971], whose equation gives the stagnation-point heating as $\dot{q} = K\sqrt{p_{s}/R_{n}}\left(h_{s} - h_{w}\right)$ with the stagnation pressure $p_{s}$ in atmospheres. Taking that pressure as $\rho V^{2}$ and the enthalpy difference as $V^{2}/2$ gives
 
-$$k = \frac{K}{2\sqrt{101{,}325}} = \frac{0.1131}{636.6} = 1.777 \times 10^{-4}$$
+$$
+k = \frac{K}{2\sqrt{101{,}325}} = \frac{0.1131}{636.6} = 1.777 \times 10^{-4}
+\tag{34}
+$$
 
 from the coefficient for air that Sutton and Graves tabulate, 2.0 percent above the constant used here. Correlations of this shape rest on a large body of stagnation-point work, compiled and reconciled much later in [Perini 1972][research_perini_1972], and built up through [Boison 1959][research_boison_1959] and [Trimmer 1968][research_trimmer_1968] on the velocity gradient the relation depends on, [Marvin 1961][research_marvin_1961] on blunt plates, [Ru-ren Chow 1963][research_chow_1963] at low density, [Dohnanyi 1964][research_dohnanyi_1964] on the laminar case, and [Biberman et al. 1970][research_biberman_1970]. The radiative contribution, which matters at re-entry speeds and not at the X-15's, is treated in [Koh 1962][research_koh_1962] and [Winovich 1968][research_winovich_1968], and [Scala 1962][research_scala_1962] and [Lin 1962][research_lin_1962] take up the wider gas-physics problem. [Spalding 1963][research_spalding_1963], [Hermann 1965][research_hermann_1965], [Harney 1963][research_harney_1963], and [Vinokur 1970][research_vinokur_1970] examine the viscous and non-equilibrium behaviour that the simple correlations paper over, with real-gas scale effects in [Adams et al. 1976][research_adams_1976]. [Stephan and Obermeier 1974][research_stephan_obermeier_1974] and [Chou and Smith 1974][research_chou_smith_1974] extend the family of correlation used here, and the general heating problem is set out in [Rand 1963][research_rand_1963], [Harri 1964][research_harri_1964], [Gros 1963][research_gros_1963], and [Chow 1963][research_chow_1963_2], with cavity and wall-shape effects in [Nestler 1970][research_nestler_1970], [Arrington 1967][research_arrington_1967], and [Lunev and Khramov 1970][research_lunev_khramov_1970]. [Boylan et al. 1978][research_boylan_1978] and [Hunt and Jones 1969b][research_hunt_jones_1969] measure it in flight rather than in a tunnel. Any such measurement required dedicated instruments, described in [Huber 1966][research_huber_1966] and [Reis 1956][research_reis_1956].
 
@@ -261,11 +363,17 @@ The first is the cube on velocity. Doubling speed multiplies the heating rate by
 
 The second is the square root on density, and the inverse square root on nose radius. **A blunt nose reduces heating**, an insight that made re-entry possible and that [Eggers et al. 1958][research_eggers_1958] treats analytically. The X-15's nose is blunt, and the trade can be written down. Heating falls as the inverse square root of the nose radius while the nose's pressure drag rises with its frontal area,
 
-$$\dot{q} \propto R_{n}^{-1/2}, \qquad D_{\text{nose}} \propto R_{n}^{2}$$
+$$
+\dot{q} \propto R_{n}^{-1/2}, \qquad D_{\text{nose}} \propto R_{n}^{2}
+\tag{35}
+$$
 
 so eliminating the radius between them gives
 
-$$D_{\text{nose}} \propto \dot{q}^{-4}$$
+$$
+D_{\text{nose}} \propto \dot{q}^{-4}
+\tag{36}
+$$
 
 **Halving the heating costs sixteen times the nose drag.** That fourth-power exchange rate is why a re-entry capsule, which does not have to fly anywhere afterwards, is as blunt as it can be made, and why an aeroplane that must also glide several hundred kilometres to a runway is not.
 
@@ -275,11 +383,17 @@ A third feature is absent from the relation and dominates the real problem. **A 
 
 Evaluating at the speed record, with a 1976 standard atmosphere giving a density of 0.0155 kilogrammes per cubic metre at 31,120 metres and an effective nose radius of 0.0762 metres, the radius of the six-inch Inconel X sphere of the ball nose as described at the 1956 industry conference in [Jenkins 2000][ref_jenkins_2000],
 
-$$\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.0155}{0.0762}} \times 2{,}020.6^{3} = 6.48 \times 10^{5} \text{ W/m}^{2}$$
+$$
+\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.0155}{0.0762}} \times 2{,}020.6^{3} = 6.48 \times 10^{5} \text{ W/m}^{2}
+\tag{37}
+$$
 
 which is 64.8 watts per square centimetre. [Jenkins 2007][ref_jenkins_2007] gives the sphere as built as 6.5 inches across, which would lower the rate by the square root of the radius ratio,
 
-$$\sqrt{\frac{0.0762}{0.0826}} = 0.961$$
+$$
+\sqrt{\frac{0.0762}{0.0826}} = 0.961
+\tag{38}
+$$
 
 to 62.3 watts per square centimetre, a difference on which no conclusion here depends.
 
@@ -287,23 +401,35 @@ to 62.3 watts per square centimetre, a difference on which no conclusion here de
 
 A structure that cannot conduct heat away fast enough must radiate it, and a radiating surface in equilibrium sits at the temperature where its emission matches its input,
 
-$$\varepsilon \sigma T^{4} = \dot{q} \quad \Longrightarrow \quad T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4}$$
+$$
+\varepsilon \sigma T^{4} = \dot{q} \quad \Longrightarrow \quad T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4}
+\tag{39}
+$$
 
 The emissivity in that relation is a material property that degrades with use, and measuring it after exposure is a separate subject, treated for a nickel-chromium alloy after simulated re-entry heating in [Clark et al. 1978b][research_clark_1978]. **A surface that darkens radiates better and a surface that oxidises to a lighter colour radiates worse**, so the number is not a constant of the design.
 
 At an emissivity of 0.8 the design temperature of 1,200 degrees Fahrenheit, or 922 kelvin, corresponds to a sustainable heating rate of
 
-$$\varepsilon \sigma T^{4} = 0.8 \times 5.670 \times 10^{-8} \times 922^{4} = 3.28 \times 10^{4} \text{ W/m}^{2}$$
+$$
+\varepsilon \sigma T^{4} = 0.8 \times 5.670 \times 10^{-8} \times 922^{4} = 3.28 \times 10^{4} \text{ W/m}^{2}
+\tag{40}
+$$
 
 or 3.28 watts per square centimetre. The speed record demanded 64.8.
 
-$$\frac{64.8}{3.28} = 19.8$$
+$$
+\frac{64.8}{3.28} = 19.8
+\tag{41}
+$$
 
 **The record flight asked the structure to reject nearly twenty times the heat its design temperature could radiate.** That single ratio is why the X-15A-2 was covered in an ablative coating, and the unexpected heating around its dummy ramjet on the flight, which set a winged-vehicle speed record that stood until the Space Shuttle, ended any idea of flying it again, as [Jenkins 2000][ref_jenkins_2000] relates.
 
 The radiative equilibrium temperature at that heating rate is
 
-$$T = \left(\frac{6.48 \times 10^{5}}{0.8 \times 5.670 \times 10^{-8}}\right)^{1/4} = 1{,}944 \text{ K} = 3{,}040\ ^{\circ}\text{F}$$
+$$
+T = \left(\frac{6.48 \times 10^{5}}{0.8 \times 5.670 \times 10^{-8}}\right)^{1/4} = 1{,}944 \text{ K} = 3{,}040\ ^{\circ}\text{F}
+\tag{42}
+$$
 
 **No structure on the aircraft came near it.** [Jenkins 2000][ref_jenkins_2000] gives 1,350 degrees Fahrenheit as the highest structural temperature the programme recorded, and on Flight 188 the nose and leading edges were under ablator, so the documents read here contain no stagnation-point measurement to set against the correlation at the record condition. The gap between 3,040 and 1,350 degrees is the subject of the structure section below, because the X-15 was designed never to reach equilibrium. The equilibrium figure is insensitive to the length scale, since doubling the nose radius changes it by only 8.3 percent.
 
@@ -315,15 +441,24 @@ Energy leaves the vehicle by drag, and drag has two parts that dispose of it in 
 
 Of the friction dissipation, only part crosses into the surface. The Reynolds analogy relates the heat-transfer coefficient to the skin friction for a gas of Prandtl number near unity,
 
-$$St = \frac{C_{H}}{\rho V c_{p}} \approx \frac{C_{f}}{2}$$
+$$
+St = \frac{C_{H}}{\rho V c_{p}} \approx \frac{C_{f}}{2}
+\tag{43}
+$$
 
 The heat entering the wall and the friction work done at it are then
 
-$$\dot{q}_{w} = St\, \rho V c_{p} \left(T_{aw} - T_{w}\right), \qquad \tau V = \frac{C_{f}}{2}\, \rho V^{3}$$
+$$
+\dot{q}_{w} = St\, \rho V c_{p} \left(T_{aw} - T_{w}\right), \qquad \tau V = \frac{C_{f}}{2}\, \rho V^{3}
+\tag{44}
+$$
 
 and their ratio collapses to a simple form,
 
-$$\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}}$$
+$$
+\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}}
+\tag{45}
+$$
 
 **The velocity has cancelled out of the numerator entirely**, so the fraction depends only on how far the wall sits below the adiabatic wall temperature, measured against the vehicle's kinetic energy.
 
@@ -331,7 +466,10 @@ $$\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}}$$
 
 **The programme measured the analogy itself.** In [NASA SP-90][ref_nasa_sp90_1965], Banner and Kuhl correlated the X-15's turbulent heat transfer with Colburn's modified Reynolds analogy factor, which for a Prandtl number of 0.71 is
 
-$$\frac{2\,St}{C_{f}} = Pr^{-2/3} = 0.71^{-2/3} = 1.26$$
+$$
+\frac{2\,St}{C_{f}} = Pr^{-2/3} = 0.71^{-2/3} = 1.26
+\tag{46}
+$$
 
 They report that direct measurements of the factor fall between 1.15 and 1.35, that the X-15's measured heat transfer fell as much as 35 percent below Eckert's reference-temperature method, and that both heat transfer and skin friction correlate when the effect of wall temperature on the reference temperature is neglected. **The relation used below, with a factor of one, sits under that measured range**, and the section on the heat load carries the difference.
 
@@ -341,7 +479,10 @@ The skin friction that the analogy converts is also a measured quantity with a l
 
 Evaluating at the record condition, with an adiabatic wall temperature of 2,046 kelvin,
 
-$$\frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} = \frac{1004.5 \times \left(2046 - T_{w}\right)}{2020.6^{2}}$$
+$$
+\frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} = \frac{1004.5 \times \left(2046 - T_{w}\right)}{2020.6^{2}}
+\tag{47}
+$$
 
 gives
 
@@ -353,7 +494,10 @@ gives
 
 **A hot wall absorbs a smaller fraction than a cold one, and the difference is large.** Going from cold metal to the design limit cuts the fraction by more than a third, and a wall at 1,350 degrees Fahrenheit, or 1,005 kelvin, the hottest the programme measured, takes
 
-$$\frac{1004.5 \times \left(2046 - 1005\right)}{2020.6^{2}} = 0.256$$
+$$
+\frac{1004.5 \times \left(2046 - 1005\right)}{2020.6^{2}} = 0.256
+\tag{48}
+$$
 
 of it. The fraction keeps falling as the wall heats and reaches zero only at the adiabatic wall temperature.
 
@@ -363,19 +507,31 @@ This is the part the keystone framing does not predict. **A hot structure is not
 
 The remaining factor is the drag split, and it can be estimated rather than assumed. At the record condition the Reynolds number on the fuselage length is
 
-$$Re_{L} = \frac{\rho V L}{\mu} = \frac{0.0155 \times 2020.6 \times 14.99}{1.48 \times 10^{-5}} = 3.2 \times 10^{7}$$
+$$
+Re_{L} = \frac{\rho V L}{\mu} = \frac{0.0155 \times 2020.6 \times 14.99}{1.48 \times 10^{-5}} = 3.2 \times 10^{7}
+\tag{49}
+$$
 
 and a turbulent flat-plate correlation gives a skin friction coefficient of
 
-$$C_{f} = \frac{0.0592}{Re_{L}^{0.2}} = 0.00187$$
+$$
+C_{f} = \frac{0.0592}{Re_{L}^{0.2}} = 0.00187
+\tag{50}
+$$
 
 Over a wetted area of order 113 square metres against a reference area of 18.58, the friction drag and the total drag are
 
-$$D_{f} = C_{f}\, q\, A_{\text{wet}} = 6.7 \text{ kN}, \qquad D = C_{D}\, q\, S = 47 \text{ kN}$$
+$$
+D_{f} = C_{f}\, q\, A_{\text{wet}} = 6.7 \text{ kN}, \qquad D = C_{D}\, q\, S = 47 \text{ kN}
+\tag{51}
+$$
 
 at a drag coefficient of 0.08, so friction is about 14 percent of the total. Sweeping the two uncertain inputs, wetted area from 90 to 130 square metres and drag coefficient from 0.05 to 0.12, gives a range of **8 to 26 percent, centring near 15**.
 
-$$f_{\text{structure}} = 0.15 \times 0.277 = 0.042$$
+$$
+f_{\text{structure}} = 0.15 \times 0.277 = 0.042
+\tag{52}
+$$
 
 **About four percent of the vehicle's kinetic energy ends up in its own structure.** That figure answers the question the keystone asked.
 
@@ -383,19 +539,31 @@ $$f_{\text{structure}} = 0.15 \times 0.277 = 0.042$$
 
 At the 6,622 kilogramme mass after burnout, its kinetic energy at the record is
 
-$$E = m\, \tfrac{1}{2} V^{2} = 6{,}622 \times 2.041 \times 10^{6} = 13.52 \text{ GJ}$$
+$$
+E = m\, \tfrac{1}{2} V^{2} = 6{,}622 \times 2.041 \times 10^{6} = 13.52 \text{ GJ}
+\tag{53}
+$$
 
 of which four percent is 0.56 gigajoules. Against that, a structure assumed to be 60 percent of that mass can absorb, in reaching its design temperature from ambient,
 
-$$Q_{\text{capacity}} = m_{s} \int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT = 3{,}973 \times 0.320 \times 10^{6} = 1.27 \text{ GJ}$$
+$$
+Q_{\text{capacity}} = m_{s} \int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT = 3{,}973 \times 0.320 \times 10^{6} = 1.27 \text{ GJ}
+\tag{54}
+$$
 
 so the ratio is
 
-$$\frac{0.56}{1.27} = 0.44$$
+$$
+\frac{0.56}{1.27} = 0.44
+\tag{55}
+$$
 
 and across the whole range of friction fractions it runs from 0.24 to 0.77. The assumed structure of 3,973 kilogrammes is 82 percent of the 10,635 pound empty weight in the 1958 weight statement reported by [Jenkins 2007][ref_jenkins_2007], so the assumption if anything overstates the capacity. With the Colburn factor of 1.26 that the programme's correlations used, the central ratio becomes
 
-$$0.44 \times 1.26 = 0.55$$
+$$
+0.44 \times 1.26 = 0.55
+\tag{56}
+$$
 
 and the range runs from 0.30 to 0.96. **Averaged over the whole airframe, the heat load fits inside the structure's capacity across the whole range, with only a narrow margin at its upper extreme.**
 
@@ -403,7 +571,10 @@ That average is not how the structure was designed. Becker's group found that eq
 
 Radiation, which over a five-minute descent from a hundred square metres at the design temperature rejects
 
-$$\varepsilon \sigma T^{4} A\, \Delta t = 0.8 \times 5.670 \times 10^{-8} \times 922^{4} \times 100 \times 300 = 0.98 \text{ GJ}$$
+$$
+\varepsilon \sigma T^{4} A\, \Delta t = 0.8 \times 5.670 \times 10^{-8} \times 922^{4} \times 100 \times 300 = 0.98 \text{ GJ}
+\tag{57}
+$$
 
 is not required to close the global budget, and locally it cannot hold the skin below its limit, since the equilibrium it would set is far above the 1,200 degrees the metal tolerates.
 
@@ -419,31 +590,49 @@ The heating-rate calculation found that the record condition demanded 19.8 times
 
 Because the heating rate goes as the square root of density, and density falls roughly exponentially with height, flying higher at the same speed reduces the rate. The scale height that governs the fall is
 
-$$H = \frac{R T}{g} \quad \Longrightarrow \quad \rho(h) \approx \rho_{0} e^{-h/H}$$
+$$
+H = \frac{R T}{g} \quad \Longrightarrow \quad \rho(h) \approx \rho_{0} e^{-h/H}
+\tag{58}
+$$
 
 which for air at the temperatures of the middle atmosphere is between about 6.2 and 8.0 kilometres, so density falls by a factor of $e$ every seven kilometres or so. One scale height buys a factor of
 
-$$\sqrt{e^{-1}} = e^{-1/2} = 0.607$$
+$$
+\sqrt{e^{-1}} = e^{-1/2} = 0.607
+\tag{59}
+$$
 
 and from the record altitude, climbing five kilometres cuts the density to 0.460 of its value and the heating rate to 0.678.
 
 But the quantity that damages a structure is not the rate. It is the load,
 
-$$Q = \int \dot{q} \, dt$$
+$$
+Q = \int \dot{q} \, dt
+\tag{60}
+$$
 
 and a trajectory flown higher takes longer, so the integral does not fall as fast as the rate. The distinction can be made concrete. Suppose a vehicle sheds a fixed energy $\Delta e$ at roughly constant speed. The time taken is set by the drag,
 
-$$\Delta t \approx \frac{\Delta e \, m}{q S C_{D} V} \propto \frac{1}{\rho}$$
+$$
+\Delta t \approx \frac{\Delta e \, m}{q S C_{D} V} \propto \frac{1}{\rho}
+\tag{61}
+$$
 
 so the load is the rate multiplied by that time,
 
-$$Q = \dot{q}\, \Delta t \propto \sqrt{\rho}\, V^{3} \times \frac{1}{\rho} = \frac{V^{3}}{\sqrt{\rho}}$$
+$$
+Q = \dot{q}\, \Delta t \propto \sqrt{\rho}\, V^{3} \times \frac{1}{\rho} = \frac{V^{3}}{\sqrt{\rho}}
+\tag{62}
+$$
 
 **The rate falls with thinner air and the load rises.** Their opposite movement is the sharpest statement of the trade this article can make.
 
 The load deserves a number, because it is the quantity an ablator is sized against. At the record heating rate, the integrated load per unit area over exposures of one, two, and five minutes is
 
-$$Q = \dot{q}\,\Delta t = 6.48 \times 10^{5} \times \left\{60,\ 120,\ 300\right\} = \left\{38.9,\ 77.8,\ 194\right\} \text{ MJ/m}^{2}$$
+$$
+Q = \dot{q}\,\Delta t = 6.48 \times 10^{5} \times \left\{60,\ 120,\ 300\right\} = \left\{38.9,\ 77.8,\ 194\right\} \text{ MJ/m}^{2}
+\tag{63}
+$$
 
 **Tens to hundreds of megajoules per square metre** is the scale of the problem, and it is the number that decides how thick a coating has to be.
 
@@ -451,17 +640,26 @@ $$Q = \dot{q}\,\Delta t = 6.48 \times 10^{5} \times \left\{60,\ 120,\ 300\right\
 
 An ablator works by a different mechanism from a hot structure. It absorbs energy as latent heat of decomposition and carries it away in the mass that leaves, so its capacity is a total rather than a rate,
 
-$$Q_{\text{ablator}} = \dot{m}_{\text{loss}}\, h_{\text{eff}}$$
+$$
+Q_{\text{ablator}} = \dot{m}_{\text{loss}}\, h_{\text{eff}}
+\tag{64}
+$$
 
 where $h_{\text{eff}}$ is an effective heat of ablation and the mass loss is permanent. Rearranged, the mass consumed follows directly from the heating,
 
-$$\dot{m}_{\text{loss}} = \frac{\dot{q} A}{h_{\text{eff}}}$$
+$$
+\dot{m}_{\text{loss}} = \frac{\dot{q} A}{h_{\text{eff}}}
+\tag{65}
+$$
 
 and at the record heating rate over a representative five square metres, with an effective heat of ablation of 2.5 megajoules per kilogramme, this is 1.30 kilogrammes per second, or 156 kilogrammes over a two-minute exposure.
 
 The reason so thin a coating can do what a thick structure cannot is a ratio of capacities,
 
-$$\frac{h_{\text{eff}}}{\int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT} = \frac{2.5 \times 10^{6}}{0.320 \times 10^{6}} = 7.8$$
+$$
+\frac{h_{\text{eff}}}{\int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT} = \frac{2.5 \times 10^{6}}{0.320 \times 10^{6}} = 7.8
+\tag{66}
+$$
 
 **A kilogramme of ablator absorbs nearly eight times what a kilogramme of structure absorbs reaching its limit**, and it does so at whatever surface temperature the chemistry sets rather than at one the metallurgy permits. **A heat-sink structure is reusable and its capacity is fixed by its metal. An ablator is expendable and its capacity is bought by the kilogramme.** The material options of the period are surveyed in [Diaconis et al. 1959][research_diaconis_1959], the alternative of evaporative film cooling in [Hermann 1962][research_hermann_1962], the aerodynamic consequences of a shape that changes as it ablates in [Chang 1966a][research_chang_1966] and [Ibrahim 1967][research_ibrahim_1967], and the testing problem in [Colosimo 1968][research_colosimo_1968], and the application to a returning spacecraft in [Chin et al. 1964][research_chin_1964]. [Scotti 1992][research_scotti_1992] and [Goldstein 1993][research_goldstein_1993] synthesise the subject later.
 
@@ -471,15 +669,24 @@ The sizing so far has been about acquiring the energy. The keystone requires tha
 
 The quantity to be disposed of is nearly all of what the vehicle has. [Matranga][ref_matranga_1961] gives an average touchdown speed over the first 30 flights of about 185 knots indicated airspeed. At the Edwards lakebed, which lies at about 2,300 feet in [Rogers Dry Lake][ref_rogers_dry_lake], where the standard-atmosphere density ratio is 0.934, that is a true airspeed of
 
-$$V = \frac{185 \times 0.5144}{\sqrt{0.934}} = 98.5 \text{ m/s}$$
+$$
+V = \frac{185 \times 0.5144}{\sqrt{0.934}} = 98.5 \text{ m/s}
+\tag{67}
+$$
 
 and a specific kinetic energy of
 
-$$e_{\text{land}} = \tfrac{1}{2} \times 98.5^{2} = 4.85 \times 10^{3} \text{ J/kg}$$
+$$
+e_{\text{land}} = \tfrac{1}{2} \times 98.5^{2} = 4.85 \times 10^{3} \text{ J/kg}
+\tag{68}
+$$
 
 against 2.041 million at the record. As a fraction,
 
-$$\frac{e_{\text{land}}}{e_{k}} = \frac{4.85 \times 10^{3}}{2.041 \times 10^{6}} = 0.00238$$
+$$
+\frac{e_{\text{land}}}{e_{k}} = \frac{4.85 \times 10^{3}}{2.041 \times 10^{6}} = 0.00238
+\tag{69}
+$$
 
 **The flight is the disposal of 99.8 percent of the energy the vehicle possesses at its fastest.** Every design feature discussed below exists to make that disposal survivable.
 
@@ -487,11 +694,17 @@ $$\frac{e_{\text{land}}}{e_{k}} = \frac{4.85 \times 10^{3}}{2.041 \times 10^{6}}
 
 There is no other way to shed the energy than to do work against drag. Writing the rate,
 
-$$\frac{de}{dt} = -\frac{D V}{m} = -\frac{q S C_{D} V}{m}$$
+$$
+\frac{de}{dt} = -\frac{D V}{m} = -\frac{q S C_{D} V}{m}
+\tag{70}
+$$
 
 and noting that the heating rate goes as $\sqrt{\rho}\,V^{3}$ while the disposal rate goes as $\rho V^{3}$, the two have different powers of density. Their ratio is
 
-$$\frac{\dot{q}}{|de/dt|} \propto \frac{\sqrt{\rho}\,V^{3}}{\rho V^{3}} = \frac{1}{\sqrt{\rho}}$$
+$$
+\frac{\dot{q}}{|de/dt|} \propto \frac{\sqrt{\rho}\,V^{3}}{\rho V^{3}} = \frac{1}{\sqrt{\rho}}
+\tag{71}
+$$
 
 **Heating per unit of energy shed is worse in thin air than in thick.** That fact shapes every re-entry trajectory ever flown, and it points the opposite way from intuition. A vehicle that lingers high to stay cool sheds energy slowly and accumulates heat load doing it, while a vehicle that descends into denser air heats harder but finishes sooner.
 
@@ -503,15 +716,24 @@ One relation closes the keystone and explains why the flight has the shape it do
 
 Deceleration by drag at constant altitude obeys
 
-$$\frac{dV}{dt} = -\frac{\rho S C_{D}}{2m} V^{2}$$
+$$
+\frac{dV}{dt} = -\frac{\rho S C_{D}}{2m} V^{2}
+\tag{72}
+$$
 
 which integrates to a time to fall from one speed to another,
 
-$$t = \frac{2m}{\rho S C_{D}}\left(\frac{1}{V_{f}} - \frac{1}{V_{0}}\right)$$
+$$
+t = \frac{2m}{\rho S C_{D}}\left(\frac{1}{V_{f}} - \frac{1}{V_{0}}\right)
+\tag{73}
+$$
 
 The group in front is the ballistic coefficient in disguise,
 
-$$\beta = \frac{m}{C_{D} S} = \frac{6{,}622}{0.08 \times 18.58} = 4{,}455 \text{ kg/m}^{2}$$
+$$
+\beta = \frac{m}{C_{D} S} = \frac{6{,}622}{0.08 \times 18.58} = 4{,}455 \text{ kg/m}^{2}
+\tag{74}
+$$
 
 and a vehicle with a large ballistic coefficient is one that does not want to slow down. Evaluating from the record speed to a landing speed at several altitudes gives times that settle the question.
 
@@ -525,7 +747,10 @@ and a vehicle with a large ballistic coefficient is one that does not want to sl
 
 **An X-15 flight lasts eight to twelve minutes in total.** At the altitude where it sets its speed record the aircraft would need an hour and a half to slow down, which it does not have and could not survive.
 
-$$\frac{102\ \text{min}}{10\ \text{min}} \approx 10$$
+$$
+\frac{102\ \text{min}}{10\ \text{min}} \approx 10
+\tag{75}
+$$
 
 **So the aircraft cannot dispose of its energy where it acquires it. It must descend into denser air to do so**, and descending into denser air raises the heating rate, since $\dot{q}$ goes as the square root of density.
 
@@ -535,21 +760,33 @@ Here the keystone becomes a single trap. **The vehicle must go where the heating
 
 From engine shutdown the X-15 is a glider, and a glider's range is set by its lift-to-drag ratio,
 
-$$R = \frac{L}{D} \, h$$
+$$
+R = \frac{L}{D} \, h
+\tag{76}
+$$
 
 From the burnout altitude of Flight 91 at 53.6 kilometres, a lift-to-drag ratio of 4 gives 214.6 kilometres of range and a ratio of 2.5 gives 134.1. Expressing the whole energy budget as an equivalent range by converting the kinetic term at the same ratio,
 
-$$R_{\text{equiv}} = \frac{L}{D} \, \frac{e}{g}$$
+$$
+R_{\text{equiv}} = \frac{L}{D} \, \frac{e}{g}
+\tag{77}
+$$
 
 gives 801 kilometres at a ratio of 4 and 501 at 2.5, from the 1.964 megajoules per kilogramme available at burnout.
 
 The other end of the glide also yields a number. At the 14,600 pound average touchdown weight the wing loading is
 
-$$\frac{W}{S} = \frac{6{,}622 \times 9.807}{18.58} = 3{,}495 \text{ N/m}^{2} = 73 \text{ lb/ft}^{2}$$
+$$
+\frac{W}{S} = \frac{6{,}622 \times 9.807}{18.58} = 3{,}495 \text{ N/m}^{2} = 73 \text{ lb/ft}^{2}
+\tag{78}
+$$
 
 which matches the 73 pounds per square foot that [Matranga][ref_matranga_1961] gives. Indicated airspeed fixes the dynamic pressure directly, so touching down at 185 knots, or 95.2 metres per second, requires
 
-$$C_{L} = \frac{W}{\tfrac{1}{2}\rho_{0} V_{i}^{2} S} = \frac{64{,}950}{\tfrac{1}{2} \times 1.225 \times 95.2^{2} \times 18.58} = 0.63$$
+$$
+C_{L} = \frac{W}{\tfrac{1}{2}\rho_{0} V_{i}^{2} S} = \frac{64{,}950}{\tfrac{1}{2} \times 1.225 \times 95.2^{2} \times 18.58} = 0.63
+\tag{79}
+$$
 
 **That is an unremarkable landing lift coefficient on a wing of aspect ratio 2.5**, and its ordinariness is the point. Matranga places the landing configuration's best lift-to-drag ratio at a lift coefficient of about 0.55 and an angle of attack of about 7 degrees, which is also his average touchdown angle, so touchdown came near the peak of the curve and slightly on its slow side, and he attributes the lower trend of the measured touchdown angles to ground effect. The aircraft that had just been at Mach 6.7 lands like a heavy delta-winged fighter, and the same wing does both jobs because at neither end is it being asked for very much.
 
@@ -561,7 +798,10 @@ An energy-management problem with a fixed budget and one landing site sounds lik
 
 **Ninety-five percent of the maximum supersonic lift-to-drag ratio is available anywhere between about seven and twelve degrees of angle of attack.** The optimum is therefore flat, and a pilot holding anywhere in a five-degree band gets within five percent of the best available range.
 
-$$\frac{\Delta (L/D)}{(L/D)_{\max}} = 0.05 \quad \text{over} \quad 7^{\circ} < \alpha < 12^{\circ}$$
+$$
+\frac{\Delta (L/D)}{(L/D)_{\max}} = 0.05 \quad \text{over} \quad 7^{\circ} < \alpha < 12^{\circ}
+\tag{80}
+$$
 
 The flatness is a fortunate property of a low-aspect-ratio wing at supersonic speed rather than a design achievement, and without it the energy management would have required an automatic system the era could not have built. **The X-15's energy management was hand-flown because the optimum was broad enough to hit by hand.**
 
@@ -569,7 +809,10 @@ The flatness is a fortunate property of a low-aspect-ratio wing at supersonic sp
 
 A fixed budget with a flat optimum still leaves the problem of arriving with too much energy rather than too little, and the answer is drag on demand. The X-15 carried speed brakes on its vertical surfaces rather than the split trailing edge first proposed, as [Jenkins 2007][ref_jenkins_2007] notes, and they raise $C_{D}$ without changing lift and so move the vehicle down its energy curve without moving it along the ground.
 
-$$\frac{L}{D} \rightarrow \frac{L}{D + \Delta D}$$
+$$
+\frac{L}{D} \rightarrow \frac{L}{D + \Delta D}
+\tag{81}
+$$
 
 **A speed brake is a device for making the aircraft worse in a controlled way.** A vehicle with a surplus of the one quantity it cannot store requires such a device, and the same logic put a variable-stability system in the [X-14][related_post_a311_bell_x14] for a different purpose.
 
@@ -585,7 +828,10 @@ The material is Inconel X, a nickel-chromium alloy retaining useful strength to 
 
 A hot structure buys simplicity and pays for it in thermal stress. A skin that is hot where it meets the airflow and cool where it meets internal structure expands differentially, and the resulting stress is
 
-$$\sigma_{\text{thermal}} = E \, \alpha \, \Delta T$$
+$$
+\sigma_{\text{thermal}} = E \, \alpha \, \Delta T
+\tag{82}
+$$
 
 which for a nickel alloy with a Young's modulus near 214 gigapascals and an expansion coefficient near $1.3 \times 10^{-5}$ per kelvin, the room-temperature modulus and the order of the expansion coefficient of Inconel X-750 in [Special Metals 2004][ref_special_metals_2004], reaches yield over a temperature difference of only a couple of hundred kelvin.
 
@@ -595,7 +841,10 @@ The material behaviour under the relevant histories was also being measured. [Ro
 
 **The alternative architectures were being explored in parallel and the X-15 chose one of them.** [Dukes 1962][research_dukes_1962] reports progress on protected construction for hypersonic vehicles, [Taylor and Jackson 1977][research_taylor_jackson_1977] treats heat-sink structural concepts for a hypersonic research airplane, the X-15's architecture reconsidered fifteen years later, and [Davis et al. 1970][research_davis_1970] evaluates a hypersonic cruise wing structure. [Gellatly et al. 1965][research_gellatly_1965] addresses the stability of thin heated shells and [McCombs et al. 1968][research_mccombs_1968] the joints, while the internal ducting that a hot aircraft needs appears in [Cattrell 1955][research_cattrell_1955] and [Einstein 1961][research_einstein_1961]. Putting numbers to that, a temperature difference of 300 kelvin between skin and substructure gives
 
-$$\sigma_{\text{thermal}} = 214 \times 10^{9} \times 1.3 \times 10^{-5} \times 300 = 8.3 \times 10^{8} \text{ Pa}$$
+$$
+\sigma_{\text{thermal}} = 214 \times 10^{9} \times 1.3 \times 10^{-5} \times 300 = 8.3 \times 10^{8} \text{ Pa}
+\tag{83}
+$$
 
 or 830 megapascals, of the same order as the alloy's yield strength at temperature in [Special Metals 2004][ref_special_metals_2004]. **A three hundred degree gradient is enough to yield the structure on its own, with no aerodynamic load applied at all.**
 
@@ -605,29 +854,47 @@ The design response is to remove the constraint rather than to strengthen agains
 
 A second consequence of the sizing is the time a skin takes to reach its limit. Writing the time constant for a skin of thickness $t$ and density $\rho_{s}$ heating toward equilibrium,
 
-$$\tau_{\text{th}} \sim \frac{\rho_{s} t c_{p} T}{\dot{q}}$$
+$$
+\tau_{\text{th}} \sim \frac{\rho_{s} t c_{p} T}{\dot{q}}
+\tag{84}
+$$
 
 a 1.5 millimetre Inconel skin at 8,200 kilogrammes per cubic metre, reaching 900 kelvin under 64.8 watts per square centimetre, gives
 
-$$\tau_{\text{th}} \sim \frac{8{,}200 \times 0.0015 \times 440 \times 900}{6.48 \times 10^{5}} = 7.5 \text{ s}$$
+$$
+\tau_{\text{th}} \sim \frac{8{,}200 \times 0.0015 \times 440 \times 900}{6.48 \times 10^{5}} = 7.5 \text{ s}
+\tag{85}
+$$
 
 **At the stagnation rate a thin skin reaches its limit in under ten seconds.** For that reason the nose was a solid sphere and the wing leading edge a milled bar of Inconel X acting as a heat sink rather than skins, both described in [Jenkins 2000][ref_jenkins_2000]. On the wing surfaces the heating is far lower. At the 2,000 degree Fahrenheit equilibrium Becker's group expected on the lower surface the rate is
 
-$$\dot{q} = 0.8 \times 5.670 \times 10^{-8} \times 1{,}366^{4} = 1.58 \times 10^{5} \text{ W/m}^{2}$$
+$$
+\dot{q} = 0.8 \times 5.670 \times 10^{-8} \times 1{,}366^{4} = 1.58 \times 10^{5} \text{ W/m}^{2}
+\tag{86}
+$$
 
 and the same relation gives the 0.05 and 0.10 inch skins, reaching 922 kelvin,
 
-$$\tau_{\text{th}} \sim \frac{8{,}200 \times 0.00127 \times 440 \times 922}{1.58 \times 10^{5}} = 27 \text{ s}, \qquad \frac{8{,}200 \times 0.00254 \times 440 \times 922}{1.58 \times 10^{5}} = 53 \text{ s}$$
+$$
+\tau_{\text{th}} \sim \frac{8{,}200 \times 0.00127 \times 440 \times 922}{1.58 \times 10^{5}} = 27 \text{ s}, \qquad \frac{8{,}200 \times 0.00254 \times 440 \times 922}{1.58 \times 10^{5}} = 53 \text{ s}
+\tag{87}
+$$
 
 These estimates use the room-temperature specific heat of 440 joules per kilogramme kelvin, and the mean value over the climb to 922 kelvin would lengthen all three by about 16 percent, which leaves the first under ten seconds. **Those times are of the same order as the time the aircraft spends at high heating**, and that equality defines a heat sink. The skin thickness is the design variable that keeps the limit just out of reach for the length of a flight.
 
 The same conclusion follows from the diffusion side. The thermal diffusivity of the alloy is
 
-$$\alpha = \frac{k}{\rho_{s} c_{p}} = \frac{15}{8{,}200 \times 440} = 4.16 \times 10^{-6}\ \text{m}^{2}\text{/s}$$
+$$
+\alpha = \frac{k}{\rho_{s} c_{p}} = \frac{15}{8{,}200 \times 440} = 4.16 \times 10^{-6}\ \text{m}^{2}\text{/s}
+\tag{88}
+$$
 
 and heat penetrates a distance of order $\sqrt{\alpha t}$, so a 1.5 millimetre skin is thermally through-soaked after
 
-$$t = \frac{\left(1.5 \times 10^{-3}\right)^{2}}{4.16 \times 10^{-6}} = 0.5 \text{ s}$$
+$$
+t = \frac{\left(1.5 \times 10^{-3}\right)^{2}}{4.16 \times 10^{-6}} = 0.5 \text{ s}
+\tag{89}
+$$
 
 **The skin has no interior.** It is a single lumped temperature within half a second of anything happening to it, so each panel can be reasoned about as a lumped heat sink whose temperature is the heat it has absorbed divided by its capacity. A 0.10 inch skin soaks through in 1.6 seconds by the same relation.
 
@@ -635,23 +902,35 @@ $$t = \frac{\left(1.5 \times 10^{-3}\right)^{2}}{4.16 \times 10^{-6}} = 0.5 \tex
 
 The XLR99 delivered 57,000 pounds of thrust and burned anhydrous ammonia with liquid oxygen, with hydrogen peroxide driving the turbopump. It was specified in 1956 to vary its thrust from 19,200 to 57,200 pounds at 40,000 feet,
 
-$$\frac{19{,}200}{57{,}200} = 0.34$$
+$$
+\frac{19{,}200}{57{,}200} = 0.34
+\tag{90}
+$$
 
 of full thrust at the bottom of its range, and [Jenkins 2000][ref_jenkins_2000] adds that it could be restarted. Both were unusual. It was the first throttleable and restartable rocket engine rated for a pilot, and both exist because the energy delivered had to be controllable.
 
 At a vacuum specific impulse of 276 seconds the mass flow at full thrust is
 
-$$\dot{m} = \frac{T}{v_{e}} = \frac{253{,}500}{2{,}706.6} = 93.7 \text{ kg/s}$$
+$$
+\dot{m} = \frac{T}{v_{e}} = \frac{253{,}500}{2{,}706.6} = 93.7 \text{ kg/s}
+\tag{91}
+$$
 
 so the 8,346 kilogrammes between the launch and burnout masses above last
 
-$$t_{b} = \frac{8{,}346}{93.7} = 89.1 \text{ s}$$
+$$
+t_{b} = \frac{8{,}346}{93.7} = 89.1 \text{ s}
+\tag{92}
+$$
 
 against the 85.8 seconds of Flight 91 and the 81.4 second median of the full-thrust flights. **The entire energy input to an X-15 flight happens in a minute and a half**, and everything else is disposal.
 
 Because the mass falls by more than half while the thrust does not, the acceleration climbs throughout the burn. The thrust-to-weight ratio runs from
 
-$$\frac{T}{W_{0}} = \frac{253{,}500}{14{,}969 \times 9.807} = 1.73 \quad \text{to} \quad \frac{T}{W_{f}} = \frac{253{,}500}{6{,}622 \times 9.807} = 3.90$$
+$$
+\frac{T}{W_{0}} = \frac{253{,}500}{14{,}969 \times 9.807} = 1.73 \quad \text{to} \quad \frac{T}{W_{f}} = \frac{253{,}500}{6{,}622 \times 9.807} = 3.90
+\tag{93}
+$$
 
 so the net longitudinal acceleration, after subtracting the component the aircraft spends holding itself up, rises from about 0.7 g to about 2.9 g. **The pilot's workload is not constant during the boost and neither is his ability to reach the controls**, so the aircraft carried a side stick usable under acceleration in addition to the centre stick, in [Jenkins 2000][ref_jenkins_2000]. [Jenkins 2007][ref_jenkins_2007] puts the pilot's experience at almost 2 g chest to back at ignition and almost 4 g at shutdown on a standard altitude mission, with the weight near 15,000 pounds and the thrust near 60,000 pounds by then. Component development is reported in [Wiswell et al. 1961][research_wiswell_1961]. Establishing what a rocket engine is doing, on a stand or in flight, is a measurement problem in its own right, treated in [Strauss 1964][research_strauss_1964] and, for installed thrust on a supersonic aircraft, in [Williams 1965][research_williams_1965].
 
@@ -661,7 +940,10 @@ In control the aircraft is most unlike anything before it and most like the subj
 
 Aerodynamic control effectiveness is proportional to dynamic pressure, and dynamic pressure has a form that makes the altitude dependence explicit. Substituting the perfect-gas relation into its definition,
 
-$$q = \tfrac{1}{2}\rho V^{2} = \frac{\gamma}{2}\, p\, M^{2}$$
+$$
+q = \tfrac{1}{2}\rho V^{2} = \frac{\gamma}{2}\, p\, M^{2}
+\tag{94}
+$$
 
 **so at fixed Mach number the dynamic pressure follows the static pressure exactly**, and static pressure falls by roughly a factor of ten every sixteen kilometres. At the record condition this gives 31.8 kilopascals against 31.7 computed from density and velocity directly. The substitution invites that consistency check. Along a representative ballistic arc at 1,500 metres per second, the standard atmosphere gives
 
@@ -674,15 +956,24 @@ $$q = \tfrac{1}{2}\rho V^{2} = \frac{\gamma}{2}\, p\, M^{2}$$
 
 against a highest recorded dynamic pressure of 2,202 pounds per square foot, on Flight 1-66-111 in the record of [Jenkins 2007][ref_jenkins_2007]. **The ratio between the highest and lowest dynamic pressures the X-15 flew through is above five thousand.**
 
-$$\frac{q_{\max}}{q_{80\,\text{km}}} = \frac{105{,}400}{20.8} = 5.1 \times 10^{3}$$
+$$
+\frac{q_{\max}}{q_{80\,\text{km}}} = \frac{105{,}400}{20.8} = 5.1 \times 10^{3}
+\tag{95}
+$$
 
 The crossover between the two systems is where their moments are equal,
 
-$$q_{\times} S \bar{c}\, \Delta C_{m} = F \ell \quad \Longrightarrow \quad q_{\times} = \frac{F \ell}{S \bar{c}\, \Delta C_{m}}$$
+$$
+q_{\times} S \bar{c}\, \Delta C_{m} = F \ell \quad \Longrightarrow \quad q_{\times} = \frac{F \ell}{S \bar{c}\, \Delta C_{m}}
+\tag{96}
+$$
 
 and with the numbers above, a mean chord near 3 metres and a control-power coefficient near 0.1, this is
 
-$$q_{\times} = \frac{500 \times 7}{18.58 \times 3 \times 0.1} = 628 \text{ Pa}$$
+$$
+q_{\times} = \frac{500 \times 7}{18.58 \times 3 \times 0.1} = 628 \text{ Pa}
+\tag{97}
+$$
 
 or about 13 pounds per square foot, which the standard atmosphere places near 55 kilometres at this speed. **The handover is not a point but a band, and the band sits high**, well above the altitudes at which the aircraft does most of its decelerating.
 
@@ -692,15 +983,24 @@ No set of aerodynamic surfaces works across the whole range. The aircraft theref
 
 The reaction system can be sized by the same relation the previous two articles used. Control power is moment over inertia,
 
-$$\text{CP} = \frac{F \ell}{I}$$
+$$
+\text{CP} = \frac{F \ell}{I}
+\tag{98}
+$$
 
 and for a vehicle of 6,622 kilogrammes empty with a length of 15 metres, a pitch radius of gyration assumed to be a quarter of the length gives
 
-$$I_{y} \approx 6{,}622 \times \left(0.25 \times 15\right)^{2} = 9.3 \times 10^{4} \text{ kg m}^{2}$$
+$$
+I_{y} \approx 6{,}622 \times \left(0.25 \times 15\right)^{2} = 9.3 \times 10^{4} \text{ kg m}^{2}
+\tag{99}
+$$
 
 so a nose rocket of 500 newtons acting through an assumed 7 metres supplies
 
-$$\text{CP} = \frac{500 \times 7}{9.3 \times 10^{4}} = 0.038 \text{ rad/s}^{2}$$
+$$
+\text{CP} = \frac{500 \times 7}{9.3 \times 10^{4}} = 0.038 \text{ rad/s}^{2}
+\tag{100}
+$$
 
 **That is a twentieth of the control power the X-14A's pilots called adequate for hovering**, and it was sufficient, because the tasks are not comparable. A hovering aircraft is closing a position loop through attitude against gravity. A ballistic aircraft outside the atmosphere is pointing itself, with no position consequence at all until it returns.
 
@@ -708,7 +1008,10 @@ $$\text{CP} = \frac{500 \times 7}{9.3 \times 10^{4}} = 0.038 \text{ rad/s}^{2}$$
 
 The thrust in that estimate is the record's. [Adkins and Jarvis 1964][research_adkins_jarvis_1964] give each pitch and yaw rocket a maximum thrust of 113 pounds, or 503 newtons, and each roll rocket 40 pounds, and they give each of the two independent systems a design angular acceleration of 2.5 degrees per second squared in pitch and yaw and 5 in roll. The design figure is
 
-$$2.5\ \text{deg/s}^{2} = 0.0436\ \text{rad/s}^{2}$$
+$$
+2.5\ \text{deg/s}^{2} = 0.0436\ \text{rad/s}^{2}
+\tag{101}
+$$
 
 so the estimate above falls 13 percent short of one system, and the two systems firing together supplied twice the single figure.
 
@@ -718,23 +1021,35 @@ At hypersonic speed a conventional thin vertical fin loses effectiveness, becaus
 
 The reason is visible in the simplest hypersonic pressure relation there is. Newtonian impact theory treats the flow as particles that lose their normal momentum on striking a surface, giving
 
-$$C_{p} = 2 \sin^{2}\theta$$
+$$
+C_{p} = 2 \sin^{2}\theta
+\tag{102}
+$$
 
 for a surface inclined at $\theta$ to the stream. **The pressure coefficient depends on the inclination and not on Mach number at all**, a property a designer wants at a speed where everything else is falling away.
 
 The same relation implies something about the complete aircraft that the article has not yet stated. Newtonian theory gives a lift coefficient of
 
-$$C_{L} = 2 \sin^{2}\alpha \cos\alpha$$
+$$
+C_{L} = 2 \sin^{2}\alpha \cos\alpha
+\tag{103}
+$$
 
 and holding the aircraft up at the record condition requires
 
-$$C_{L} = \frac{m g}{q S} = \frac{6{,}622 \times 9.807}{31{,}651 \times 18.58} = 0.110$$
+$$
+C_{L} = \frac{m g}{q S} = \frac{6{,}622 \times 9.807}{31{,}651 \times 18.58} = 0.110
+\tag{104}
+$$
 
 which solves to an angle of attack of about **13.8 degrees**. **A hypersonic aeroplane does not fly nose-first.** It flies at an attitude that would be a stall on any subsonic aircraft, because at those dynamic pressures lift comes from inclining the underside to the stream rather than from circulation, and the wing is a flat plate that happens to have an aerofoil section.
 
 That relation also states the wedge's advantage numerically. A thin surface deflected three degrees and a ten-degree wedge give
 
-$$C_{p} = 2\sin^{2} 3^{\circ} = 0.0055, \qquad C_{p} = 2\sin^{2} 10^{\circ} = 0.0603$$
+$$
+C_{p} = 2\sin^{2} 3^{\circ} = 0.0055, \qquad C_{p} = 2\sin^{2} 10^{\circ} = 0.0603
+\tag{105}
+$$
 
 a ratio of 11. **A thick wedge is not a slightly better fin at hypersonic speed. It is an order of magnitude better**, and the cost is paid in base drag at every other speed the aircraft flies at. [Nonweiler 1959][research_nonweiler_1959] treats the general control and stability problem of hypersonic aircraft in the same period, and the surface-pressure behaviour the wedge exploits is measured in [Creager 1959a][research_creager_1959] on leading-edge sweep and surface inclination and [Creager 1959b, Surface Pressure Distribution at H][research_creager_1959_2] on blunt delta wings. [Hui and East 1971][research_hui_east_1971] treats the wedge in viscous hypersonic flow, the real case rather than the Newtonian idealisation. The dynamic derivatives, the quantities a damper has to work against, were pursued at length by one group in [Walchner and Clay 1965][research_walchner_clay_1965], [Walchner et al. 1967][research_walchner_1967], [Walchner et al. 1969][research_walchner_1969], and [Walchner 1974][research_walchner_1974], and by another in [Orlik-Rueckemann 1966][research_orlik_rueckemann_1966] and [Kind and Orlik-Rueckemann 1966][research_kind_orlik_rueckemann_1966]. [Fink 1965][research_fink_1965] covers configuration interference at the low end of the hypersonic range, and [Anderson 1960][research_anderson_1960] the lenticular shapes that were being considered as alternatives. [Boylan 1965][research_boylan_1965] and [Brady and Levensteins 1964][research_brady_levensteins_1964] supply lift, drag, and stability data for blunt shapes at these speeds, [Klett 1964][research_klett_1964] the free-molecular limit, and [Fetterman 1958][research_fetterman_1958] the effect of a rocket jet on stability at high Mach number, a real consideration for a vehicle whose engine is at the base. Behind all of it lies the tunnel technique of [Tate 1964][research_tate_1964].
 
@@ -746,7 +1061,10 @@ The wedge works and it costs drag. **The base drag of a blunt-based fin is a per
 
 **The flight measurements explain why removing a stabilising surface improved the aircraft.** [Yancey 1964][ref_yancey_1964] extracted stability and control derivatives from flight to Mach 6.02 and 25 degrees angle of attack. With the lower rudder on, the effective dihedral derivative $C_{l_{\beta}}$ moved from favourable to adverse near Mach 2.2. Removing the lower rudder cut the static directional stability derivative $C_{n_{\beta}}$ by as much as 50 percent above Mach 3 at low angle of attack, but left the effective dihedral favourable over the whole range tested. The paper by Taylor, Robinson and Iliff in [NASA SP-90][ref_nasa_sp90_1965] traces the uncontrollable pilot-induced lateral oscillations of the aircraft with the ventral on and the dampers off to strong coupling of roll and yaw together with very low Dutch roll damping, and names the elimination of the negative dihedral effect as the principal reason the aircraft flew better without the ventral. They organise the problem around the ratio of two frequencies, which in the usual approximation is
 
-$$\frac{\omega_{\phi}^{2}}{\omega_{d}^{2}} \approx 1 - \frac{N_{\delta_{a}}\, L_{\beta}}{L_{\delta_{a}}\, N_{\beta}}$$
+$$
+\frac{\omega_{\phi}^{2}}{\omega_{d}^{2}} \approx 1 - \frac{N_{\delta_{a}}\, L_{\beta}}{L_{\delta_{a}}\, N_{\beta}}
+\tag{106}
+$$
 
 where $\omega_{d}$ is the Dutch roll frequency, $\omega_{\phi}$ the frequency of the numerator of the roll response to a roll command, $L_{\beta}$ and $N_{\beta}$ the rolling and yawing accelerations due to sideslip, and $L_{\delta_{a}}$ and $N_{\delta_{a}}$ those due to the roll control. When the two frequencies are equal a roll command induces no sideslip, and they report that at low damping a ratio $\omega_{\phi}/\omega_{d}$ of only 1.1 is uncontrollable. **A positive $L_{\beta}$, the adverse dihedral Yancey measured with the ventral on, together with a roll control that yaws the aircraft into the roll, drives the ratio below one and toward zero**, where in their words the aircraft only yaws and does not roll. That step is an inference from the relation and the measured signs rather than a figure either report states.
 
@@ -802,7 +1120,10 @@ The research phase proper had four objectives, which were the verification of pr
 
 The first phase was flown on engines the aircraft was not designed for. Thirty flights, the first of them the glide, were made with the pair of XLR11s, against 169 with the XLR99, in the engine column of the flight data in [Jenkins 2007][ref_jenkins_2007]. Love and Fischel, in [NASA SP-90][ref_nasa_sp90_1965], give the two XLR11s 16,000 pounds of thrust together, so the intended engine offered
 
-$$\frac{57{,}000}{16{,}000} = 3.56$$
+$$
+\frac{57{,}000}{16{,}000} = 3.56
+\tag{107}
+$$
 
 times as much. **The interim aircraft still reached Mach 3.50 and 136,500 feet**, the speed on White's flight of 7 February 1961, the last with the XLR11s, and the height on 12 August 1960, dates [Jenkins 2000][ref_jenkins_2000] gives. That speed was already beyond the Mach 3.2 at which the [X-2][related_post_a299_bell_x2] had been lost.
 
@@ -812,11 +1133,17 @@ The intended engine arrived through an accident. On 8 June 1960, during an engin
 
 **The speed envelope was opened in eight months by small steps.** In the log printed by [Jenkins 2000][ref_jenkins_2000], the programme's Mach record rose from the 3.50 of the last XLR11 flight through 4.43, 4.62, 4.95, 5.27, 5.30 and 5.74 to White's 6.04 on 9 November 1961, 247 days after the first government XLR99 flight on 7 March. The seven steps average
 
-$$\frac{6.04 - 3.50}{7} = 0.36$$
+$$
+\frac{6.04 - 3.50}{7} = 0.36
+\tag{108}
+$$
 
 of a Mach number, and the largest, 0.93, was the first government XLR99 flight itself. [Dana 1993][ref_dana_1993] gives the typical increment of the original speed expansion as about half a Mach number and makes incremental expansion the second lesson of the programme, because heating damage found in a small step can be dealt with before the next, and in [NASA SP-90][ref_nasa_sp90_1965] Bikle and McCollom credit the cautious step-by-step expansion with detecting buckles, pulled fasteners and cracks before they became major damage. **The X-15A-2 is the counterexample Dana gives.** With the ablator and the dummy ramjet, its last two flights went from Mach 4.94 to 6.70, a single step of
 
-$$6.70 - 4.94 = 1.76$$
+$$
+6.70 - 4.94 = 1.76
+\tag{109}
+$$
 
 nearly five times the mean step above, and the second of them nearly lost the aircraft.
 
@@ -826,7 +1153,10 @@ The altitude envelope followed. The log records the first flight above 200,000 f
 
 **After 1961 the aircraft increasingly flew for other people.** Love and Fischel describe the flights from 1962 onward as detailed research on the basic aircraft, overlapping from 1963 with flights that carried test-bed experiments, so that by 1965 the two received about equal shares of the flight allocation. By the 151st flight, on 30 September 1965, the date the log also gives for it, the aircraft had spent almost an hour above 200,000 feet and nearly four hours above Mach 4, which averages
 
-$$\frac{4 \times 60}{151} = 1.6 \text{ min}$$
+$$
+\frac{4 \times 60}{151} = 1.6 \text{ min}
+\tag{110}
+$$
 
 per flight above Mach 4 over the programme to that date.
 
@@ -840,7 +1170,10 @@ Walker took X-15-3 to 354,200 feet on 22 August 1963, with the engine at full th
 
 Conserving the burnout energy through a drag-free coast leaves a horizontal speed at apogee of
 
-$$V_{\text{apogee}} = \sqrt{2\left(e_{\text{burnout}} - g h_{\text{apogee}}\right)} = \sqrt{2\left(1.964 - 1.059\right) \times 10^{6}} = 1{,}346 \text{ m/s}$$
+$$
+V_{\text{apogee}} = \sqrt{2\left(e_{\text{burnout}} - g h_{\text{apogee}}\right)} = \sqrt{2\left(1.964 - 1.059\right) \times 10^{6}} = 1{,}346 \text{ m/s}
+\tag{111}
+$$
 
 **so the aircraft was still moving at more than Mach 4 equivalent when it was at its highest and, in the ordinary sense, weightless.** The altitude record is not a hover at the top of a climb. It is the top of a very fast arc.
 
@@ -850,17 +1183,26 @@ The X-15-2 was damaged on its 31st flight, McKay's emergency landing at Mud Lake
 
 **Its design point was 8,000 feet per second at 100,000 feet**, a dynamic pressure of 1,000 pounds per square foot. Adkins and Armstrong, who give it, expected structural temperatures approaching 2,400 degrees Fahrenheit on an unprotected aircraft within that envelope, twice the acceptable figure. The speed record of 4,520 miles an hour is 6,629 feet per second, so the aircraft reached
 
-$$\frac{6{,}629}{8{,}000} = 0.83$$
+$$
+\frac{6{,}629}{8{,}000} = 0.83
+\tag{112}
+$$
 
 of its design speed. In the terms of the keystone the missing seventeen percent is not small. Specific kinetic energy goes as the square of speed and the stagnation heating rate as its cube, so the design point asked for
 
-$$\left(\frac{8{,}000}{6{,}629}\right)^{2} = 1.46, \qquad \left(\frac{8{,}000}{6{,}629}\right)^{3} = 1.76$$
+$$
+\left(\frac{8{,}000}{6{,}629}\right)^{2} = 1.46, \qquad \left(\frac{8{,}000}{6{,}629}\right)^{3} = 1.76
+\tag{113}
+$$
 
 times the record's specific kinetic energy and, at equal density and nose radius, its heating rate.
 
 The external tanks held about 1,080 gallons of ammonia on the right and about 793 gallons of liquid oxygen on the left, in Adkins and Armstrong. At the densities of the two liquids at their normal boiling points, assumed here as 682 and 1,141 kilogrammes per cubic metre, those volumes hold
 
-$$m = 1{,}080 \times 3.785 \times 0.682 + 793 \times 3.785 \times 1.141 = 2{,}788 + 3{,}425 = 6{,}213 \text{ kg} = 13{,}698 \text{ lb}$$
+$$
+m = 1{,}080 \times 3.785 \times 0.682 + 793 \times 3.785 \times 1.141 = 2{,}788 + 3{,}425 = 6{,}213 \text{ kg} = 13{,}698 \text{ lb}
+\tag{114}
+$$
 
 within 1.5 percent of the 13,500 pounds of tank propellant given by [Jenkins 2007][ref_jenkins_2007]. Full, the oxygen tank was over 2,000 pounds heavier than the ammonia tank, and both hung below the fuselage, so at launch the centre of gravity sat about 9 inches below the thrust line and 1.5 inches to one side. On the simulator that produced a nose-down pitch at engine light, a lower static stability, and lateral control close to its limit at the higher angles of attack.
 
@@ -872,7 +1214,10 @@ Knight took the X-15A-2 to Mach 6.70 on 3 October 1967 with external tanks and a
 
 **The flight log and the narrative disagree about where the record was set.** The log gives a maximum altitude of 102,100 feet, the figure this article uses, while the narrative in [Jenkins 2007][ref_jenkins_2007] places Mach 6.70 at 102,700 feet. The difference is small in the quantity that matters,
 
-$$g\,\Delta h = 9.807 \times 182.9 = 1.79 \text{ kJ/kg}$$
+$$
+g\,\Delta h = 9.807 \times 182.9 = 1.79 \text{ kJ/kg}
+\tag{115}
+$$
 
 or 0.08 percent of the 2.347 megajoules per kilogramme computed above.
 
@@ -896,21 +1241,33 @@ The accident board, chaired by Donald Bellman, concluded that Adams let the airc
 
 **The electrical disturbance has a specific and mundane origin.** Among the eight primary science objectives that [Dennehy et al. 2014][research_dennehy_2014] lists for the flight was a traversing probe in the right wing-tip pod, meant to oscillate across the bow shock and so measure its position. The probe's motor, a commercial off-the-shelf unit taken from existing inventory and fed from the aircraft's 115 volt, 400 cycle alternating-current bus, contained a transformer that multiplied its input by about four, so its peak potential was near
 
-$$V_{\text{peak}} = \sqrt{2} \times 115 \times 4 = 651 \text{ V}$$
+$$
+V_{\text{peak}} = \sqrt{2} \times 115 \times 4 = 651 \text{ V}
+\tag{116}
+$$
 
 against an arcing threshold that Dennehy and colleagues put at about 230 volts for 400 cycle potentials at reduced pressure, a margin of
 
-$$\frac{651}{230} = 2.8$$
+$$
+\frac{651}{230} = 2.8
+\tag{117}
+$$
 
 times. Ground tests reproduced corona and then arcing across a gap of about a quarter of an inch until the 2 ampere line fuses burned through, and the fuses recovered from the wreckage showed the same burn-through. The same experiment had flown twice in 1963, on Flights 1-35-56 and 1-36-57, which reached only 124,200 and 111,800 feet. **The earlier flights were the only qualification the probe had, and they were flown in air dense enough to suppress the fault.** That reading is an inference from the report's statement that arcing was practically guaranteed under reduced pressure, and the report itself states the narrower point that the design was not thoroughly reviewed or tested for its environment.
 
 The report adds two facts about the pilot. Only about a fifth of his logged simulator time had been in the X-15-3 configuration, 47.5 of 238.2 hours,
 
-$$\frac{47.5}{165.2 + 25.5 + 47.5} = 0.199$$
+$$
+\frac{47.5}{165.2 + 25.5 + 47.5} = 0.199
+\tag{118}
+$$
 
 and most of his flying had been in X-15-1 with conventional controls and displays, so the report counts negative transfer among the contributing factors. The Air Force awarded him astronaut wings posthumously for the flight, whose 266,000 feet is
 
-$$\frac{266{,}000}{5{,}280} = 50.38 \text{ miles}$$
+$$
+\frac{266{,}000}{5{,}280} = 50.38 \text{ miles}
+\tag{119}
+$$
 
 just above the 50 mile criterion, and the control room received a ground attitude indicator showing pitch, roll, heading, angle of attack and sideslip, a change [Jenkins 2000][ref_jenkins_2000] records.
 
@@ -924,21 +1281,33 @@ The loss of X-15-3 ended the programme in all but name. [Jenkins 2000][ref_jenki
 
 **The X-15 was a reusable vehicle flying near space, and its costs were measured as such.** [Love and Young 1966b][ref_love_young_1966] put the initial programme cost at 162.80 million dollars, of which the three airframes with their development and flight tests took 45 percent and the engines 33 percent, and they take 1964 as a typical year. Its 27 flights, the number the log also gives for that year, cost 16.268 million dollars, so
 
-$$\frac{16.268}{27} = 0.603 \text{ million dollars per flight}, \qquad \frac{16.268}{162.80} = 0.10$$
+$$
+\frac{16.268}{27} = 0.603 \text{ million dollars per flight}, \qquad \frac{16.268}{162.80} = 0.10
+\tag{120}
+$$
 
 and a year's operation cost a tenth of the initial investment. Refurbishment, meaning everything needed to return an aircraft to flight status other than its own ground crew, cost 7.288 million dollars that year, or
 
-$$\frac{7.288}{27} = 0.270 \text{ million dollars per flight}, \qquad \frac{0.270}{9.0} = 0.030$$
+$$
+\frac{7.288}{27} = 0.270 \text{ million dollars per flight}, \qquad \frac{0.270}{9.0} = 0.030
+\tag{121}
+$$
 
 of the 9 million dollars a new X-15 would then have cost. Flown as expendable vehicles, the same 27 flights would have cost
 
-$$27 \times 9.0 = 243 \text{ million dollars}$$
+$$
+27 \times 9.0 = 243 \text{ million dollars}
+\tag{122}
+$$
 
 **Reuse was cheap and turnaround was not.** The average turnaround was about 30 days per flight, varying from 20 to 40 by year with a winter peak, because each flight needed clear weather along a 250 mile path. Routine maintenance and preflight preparation took almost 38 percent of the delay time, weather more than 12 percent and airframe problems almost 11, and there were on average two flights per engine change. Love and Young estimate that a similar vehicle without the research instrumentation might turn around in about 20 days, against the 3 to 7 days then assumed in reusable-booster studies, and they judge those studies overly optimistic.
 
 The total grew far beyond any of the early numbers. [Jenkins 2000][ref_jenkins_2000] gives an original estimate of 10.7 million dollars and an actual cost of about 300 million,
 
-$$\frac{300}{10.7} = 28$$
+$$
+\frac{300}{10.7} = 28
+\tag{123}
+$$
 
 times as much, on a different base from the 12.2 million dollar estimate for two aircraft quoted under Programme Origin.
 
@@ -946,13 +1315,19 @@ times as much, on a different base from the 12.2 million dollar estimate for two
 
 The log's thirteen flights above 50 miles were flown by eight pilots, and they were recognised in two different ways. The Air Force counted 50 miles as the boundary of space flight and awarded astronaut wings to its five pilots who passed it, White, Rushworth, Engle, Knight and Adams, the last posthumously, while NASA, [Jenkins 2000][ref_jenkins_2000] explains, used the international figure of 62 miles, which is
 
-$$62 \times 1.609 = 99.8 \text{ km}$$
+$$
+62 \times 1.609 = 99.8 \text{ km}
+\tag{124}
+$$
 
 and so the 100 kilometres used above. Only Walker passed it, twice, and [Jenkins 2007][ref_jenkins_2007] calls him on that account the first human being to fly into space twice. NASA recognised its three civilian pilots above 50 miles, Walker, McKay and Dana, only in August 2005, when Dana was the only one of them still alive to receive the wings. Crossfield, the contractor's pilot, demonstrated airworthiness and left the programme after the XLR99 demonstrations, which, as [Jenkins 2000][ref_jenkins_2000] observes, kept him from the high and fast flights.
 
 The landing record is as complete as the flight log. [Dana 1993][ref_dana_1993] counts 196 successful landings and two landing accidents, both caused by system or structural failures rather than by the pilots, and with the one aircraft lost in flight that accounts for every flight,
 
-$$196 + 2 + 1 = 199$$
+$$
+196 + 2 + 1 = 199
+\tag{125}
+$$
 
 ## Comparison With Ground Prediction
 
@@ -970,7 +1345,10 @@ The X-15's most valuable output is arguably not any single measurement but the c
 
 **The heating data are temperatures, and the conversion from one to the other is the heat-sink relation run backwards.** The X-15 carried 290 thermocouples spot-welded to the inner surface of its Inconel X skin, and [Quinn and Olinger 1969][ref_quinn_olinger_1969] reduce the records of 200 of them from two flights, those the log numbers 2-22-40 and 2-28-48, at Mach 5.1 and 2.0 degrees angle of attack and at Mach 4.98 and 16.3 degrees, with a thin-skin heat balance,
 
-$$\rho_{w} c_{w} \delta_{w} \frac{dT_{w}}{dt} = h_{H}\left(H_{R} - H_{w}\right) - \sigma \varepsilon T_{w}^{4}, \qquad H_{R} = H_{\infty} + r\,\frac{V^{2}}{2}$$
+$$
+\rho_{w} c_{w} \delta_{w} \frac{dT_{w}}{dt} = h_{H}\left(H_{R} - H_{w}\right) - \sigma \varepsilon T_{w}^{4}, \qquad H_{R} = H_{\infty} + r\,\frac{V^{2}}{2}
+\tag{126}
+$$
 
 where $\rho_{w}$, $c_{w}$ and $\delta_{w}$ are the skin's density, specific heat and thickness, $h_{H}$ is the heat-transfer coefficient, $H_{R}$ and $H_{w}$ are the recovery and wall enthalpies, and the recovery factor $r$ is taken as 0.9. It is the lumped skin of the structure section with the heat input written as a coefficient times an enthalpy difference, and it rests on the same fact, that a thin Inconel skin has no interior. The authors neglect solar and internal radiation, leave conduction uncorrected at an error they put between 4 and 10 percent where it is known, and fit ten seconds of quasi-steady data at each point. **Their comparison with the tunnel is less flattering than the programme's summary verdict.** Agreement was good on the lower wing surface at low angle of attack and fair on the ventral and vertical tails, but poor on the fuselage at low angle of attack and generally poor at high angle of attack.
 
@@ -1056,7 +1434,10 @@ The X-15's problem is live. The review opens with arithmetic rather than survey,
 
 The article is built on the observation that the X-15 carried between 1.69 and 1.85 times the energy needed to melt its structure. That ratio is a function of speed alone, since the melting enthalpy is a property of the material,
 
-$$\frac{e_{k}}{h_{\text{melt}}} = \frac{V^{2}}{2 h_{\text{melt}}}$$
+$$
+\frac{e_{k}}{h_{\text{melt}}} = \frac{V^{2}}{2 h_{\text{melt}}}
+\tag{127}
+$$
 
 so it can be evaluated for anything.
 
@@ -1070,7 +1451,10 @@ so it can be evaluated for anything.
 
 **Orbital entry is fifteen times worse than the X-15 by the measure this article is built on**, and lunar return is thirty times worse.
 
-$$\frac{30.42}{2.041} = 14.9$$
+$$
+\frac{30.42}{2.041} = 14.9
+\tag{128}
+$$
 
 That ratio is the quantitative reason the X-15's architecture does not scale, a sharper statement than the usual observation that entry is hotter.
 
@@ -1080,19 +1464,31 @@ The more interesting result concerns the method rather than the vehicle.
 
 Every relation in this article treats air as a perfect gas with a ratio of specific heats of 1.4. That assumption fails when the gas gets hot enough to dissociate, and the stagnation temperature relation locates the point. Setting
 
-$$T_{0} = T_{\infty}\left(1 + \frac{\gamma - 1}{2}M^{2}\right)$$
+$$
+T_{0} = T_{\infty}\left(1 + \frac{\gamma - 1}{2}M^{2}\right)
+\tag{129}
+$$
 
 equal to the temperature at which molecular oxygen begins to dissociate in earnest, about 2,500 kelvin, and solving for Mach number at the record altitude gives
 
-$$M = \sqrt{\frac{2}{\gamma - 1}\left(\frac{2{,}500}{227.6} - 1\right)} = 7.06$$
+$$
+M = \sqrt{\frac{2}{\gamma - 1}\left(\frac{2{,}500}{227.6} - 1\right)} = 7.06
+\tag{130}
+$$
 
 **The X-15 reached Mach 6.70, which is 94.8 percent of that.**
 
-$$\frac{6.70}{7.06} = 0.948$$
+$$
+\frac{6.70}{7.06} = 0.948
+\tag{131}
+$$
 
 **The X-15 is very nearly the fastest vehicle for which the arithmetic in this article is valid.** Past about Mach 7 the air stops being the gas these relations describe, oxygen dissociates, then nitrogen, then everything ionises, and energy that the ideal treatment puts into temperature goes into breaking molecules instead. The ideal-gas stagnation temperature at orbital entry would be
 
-$$T_{0} = 227.6 + \frac{7{,}800^{2}}{2 \times 1004.5} = 30{,}500 \text{ K}$$
+$$
+T_{0} = 227.6 + \frac{7{,}800^{2}}{2 \times 1004.5} = 30{,}500 \text{ K}
+\tag{132}
+$$
 
 which is physically meaningless.
 
@@ -1104,7 +1500,10 @@ The modern literature on this point is large. [Tong et al. 2026c][research_tong_
 
 The article found that a hot wall absorbs a smaller fraction of the friction dissipation than a cold one, and treated that as a mechanism by which the structure protects itself. Extending the same relation to higher speed inverts the comfort.
 
-$$\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} \longrightarrow \frac{r}{2} \quad \text{as} \quad V \rightarrow \infty$$
+$$
+\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} \longrightarrow \frac{r}{2} \quad \text{as} \quad V \rightarrow \infty
+\tag{133}
+$$
 
 because the adiabatic wall temperature grows as $V^{2}$, so the wall temperature becomes negligible in the difference and the ratio tends to the recovery factor over two, or about 44.5 percent. Evaluating the ideal-gas form at increasing speed gives 27.4 percent at the X-15's record speed, against the 27.7 in the table under Why a Hot Structure Runs Hot, which took the adiabatic wall temperature at a rounded Mach 6.7, then 36.7 at three kilometres per second, and 41.7 at five.
 
@@ -1132,7 +1531,10 @@ The mechanism that destroyed the X-15A-2's pylon is now a subject with its own s
 
 The X-15's architecture was abandoned and the reason is quantitative. A radiating surface rejects heat as the fourth power of its temperature, so the entire question is how hot a material can be allowed to get.
 
-$$\dot{q}_{\text{reject}} = \varepsilon \sigma T^{4}$$
+$$
+\dot{q}_{\text{reject}} = \varepsilon \sigma T^{4}
+\tag{134}
+$$
 
 | Surface | Temperature | Rejects | Against the X-15 record rate |
 |---------|-------------|---------|------------------------------|
@@ -1142,7 +1544,10 @@ $$\dot{q}_{\text{reject}} = \varepsilon \sigma T^{4}$$
 
 **A ceramic leading edge rejects thirty-nine times what Inconel at its limit rejects**, and can sustain twice the heating rate that nearly destroyed the X-15A-2.
 
-$$\frac{128.7}{3.28} = 39.2$$
+$$
+\frac{128.7}{3.28} = 39.2
+\tag{135}
+$$
 
 That ratio carries the argument for the materials the field went to instead, and it explains why the hot metallic structure did not survive. Current work is reviewed in [Luo et al. 2026b][research_luo_2026] and [Rajput et al. 2026][research_rajput_2026], with [Rahimi et al. 2026][research_rahimi_2026] on functionally graded ceramics, [Nair et al. 2026][research_nair_2026] on oxide composite tiles, [Zhou et al. 2025b][research_zhou_2025] and [Jiang et al. 2026a][research_jiang_2026] on anti-ablation coatings and their oxidation resistance, [Wang et al. 2025e][research_wang_2025] and [Wang and Han 2025][research_wang_han_2025] on carbon composites at temperature, [Kim and Choi 2026][research_kim_choi_2026] on tile durability, and [Tian et al. 2025c][research_tian_2025] on low-recession ablators. [Venegas et al. 2026][research_venegas_2026], [McAfee et al. 2026][research_mcafee_2026], [Chevalier et al. 2026][research_chevalier_2026], and [Zhang et al. 2025f][research_zhang_2025_4] model them.
 
@@ -1304,7 +1709,10 @@ The X-15 designation is unremarkable. It was assigned in sequence, to three airc
 
 **What is remarkable is the discontinuity in the sequence.** The [X-14][related_post_a311_bell_x14] preceding it was a hovering aircraft assembled partly from light-aircraft parts, and its fastest recorded flight, 172 miles per hour in [Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003], was under 180. The X-15 following it flew at 4,520. Two consecutive designations span a factor of
 
-$$\frac{4{,}520}{180} = 25.1$$
+$$
+\frac{4{,}520}{180} = 25.1
+\tag{136}
+$$
 
 in speed, and the designation system records no distinction between them at all.
 
@@ -1385,6 +1793,1206 @@ The X-15 was built to find out whether an aircraft could survive its own kinetic
 Its two records are one energy budget spent two ways, differing by nineteen percent in magnitude and completely in arrangement. Its worst day and its best were six weeks apart.
 
 The next article takes up the [Bell X-16][ref_x16], a reconnaissance aircraft that was cancelled before it flew, and the contrast in what a designation can mean could hardly be sharper.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 136 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 136, 86 are established and 50 are bespoke.
+Specific energies are in joules or megajoules per kilogramme and heating rates in watts per square metre or per square centimetre, $T_{0}$ is the ambient lower limit of the specific heat integrals but the stagnation temperature in the gas relations, $T$ is a thrust in the energy and propulsion relations and a temperature in the radiation relations, $\alpha$ is the angle of attack, the expansion coefficient and the thermal diffusivity in different relations, $E$ is an energy and Young's modulus, and the mass after burnout is taken throughout as the average touchdown weight of 14,600 pounds.
+
+**Equation 1, Specific Kinetic Energy at the Speed Record.**
+At the record speed of 2,020.6 metres per second the specific kinetic energy is $2.041 \times 10^{6}$ joules per kilogramme.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+e_{k} = \tfrac{1}{2} V^{2} = \tfrac{1}{2} \times 2{,}020.6^{2} = 2.041 \times 10^{6} \text{ J/kg}
+\tag{1}
+$$
+
+**Equation 2, Melting Enthalpy as Sensible Plus Latent Heat.**
+The energy to melt a kilogramme of the alloy is the integral of its specific heat from ambient to the melting point plus the latent heat of fusion.
+
+$$
+h_{\text{melt}} = \int_{T_{0}}^{T_{m}} c_{p}\, dT + L_{f}
+\tag{2}
+$$
+
+*Equation 3, Bespoke Melting Enthalpy of Inconel X-750.*
+The melting enthalpy is bracketed by two assumed specific heat histories above 1,300 kelvin and by taking the latent heat of nickel for the alloy, giving 1.105 to 1.208 megajoules per kilogramme.
+[Touloukian 1966][ref_touloukian_1966]
+[National Institute of Standards and Technology Chemistry WebBook][ref_nist_webbook_nickel]
+
+$$
+h_{\text{melt}} = 1.105 \text{ to } 1.208 \times 10^{6} \text{ J/kg}
+\tag{3}
+$$
+
+*Equation 4, Bespoke Ratio of Kinetic Energy to Melting Enthalpy.*
+The keystone ratio of the specific kinetic energy to the bracketed melting enthalpy is 1.69 to 1.85.
+
+$$
+\frac{e_{k}}{h_{\text{melt}}} = \frac{2.041}{1.208} \text{ to } \frac{2.041}{1.105} = 1.69 \text{ to } 1.85
+\tag{4}
+$$
+
+**Equation 5, Ratio of Kinetic Energy to Heat Capacity at the Design Temperature.**
+Integrating the recommended specific heat values from ambient to the design temperature of 922 kelvin gives a ratio of 6.4.
+[Touloukian 1966][ref_touloukian_1966]
+[Special Metals 2004][ref_special_metals_2004]
+
+$$
+\frac{e_{k}}{\int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT} = \frac{2.041 \times 10^{6}}{0.320 \times 10^{6}} = 6.4
+\tag{5}
+$$
+
+**Equation 6, Control Surface Moment and Dynamic Pressure.**
+The control surface moment is the dynamic pressure times the wing area, the mean chord and the moment coefficient increment, with $q = \tfrac{1}{2}\rho V^{2}$.
+
+$$
+M_{\text{aero}} = q \, S \, \bar{c} \, \Delta C_{m}, \qquad q = \tfrac{1}{2}\rho V^{2}
+\tag{6}
+$$
+
+**Equation 7, Ratio of the North American and Bell Proposal Prices.**
+North American's 56.1 million dollar proposal was 1.55 times Bell's 36.3 million.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+\frac{56.1}{36.3} = 1.55
+\tag{7}
+$$
+
+**Equation 8, Growth over the 1954 Cost Estimate.**
+North American's reduced figure of 45 million dollars was 3.7 times the 12.2 million estimated in 1954.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+\frac{45.0}{12.2} = 3.7
+\tag{8}
+$$
+
+**Equation 9, Specific Energy.**
+The specific energy is the sum of the potential energy $g h$ and the kinetic energy per unit mass.
+
+$$
+e = g h + \tfrac{1}{2} V^{2}
+\tag{9}
+$$
+
+**Equation 10, Rate of Change of Specific Energy.**
+The specific energy rises at the thrust power per unit mass and falls at the drag power per unit mass.
+
+$$
+\frac{de}{dt} = \frac{T V}{m} - \frac{D V}{m}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Specific Energy at Launch.*
+The launch energy is evaluated at 13.7 kilometres and an approximate Mach 0.8, taken as 236 metres per second, giving 0.162 megajoules per kilogramme.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+e_{\text{launch}} = 9.807 \times 13{,}716 + \tfrac{1}{2} \times 236^{2} = 0.135 + 0.028 = 0.162 \text{ MJ/kg}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Share of the Energy Supplied by the Carrier.*
+The approximate launch energy is 6.9 percent of the specific energy at the speed record.
+
+$$
+\frac{0.162}{2.347} = 0.069
+\tag{12}
+$$
+
+**Equation 13, Specific Energy at the Speed Record.**
+The record altitude of 31,120 metres and speed of 2,020.6 metres per second give a specific energy of 2.347 megajoules per kilogramme.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+e = 9.807 \times 31{,}120 + \tfrac{1}{2} \times 2{,}020.6^{2} = 0.305 + 2.041 = 2.347 \text{ MJ/kg}
+\tag{13}
+$$
+
+**Equation 14, Conversion of the Flight 91 Maximum Speed.**
+The logged 3,794 miles per hour is 5,565 feet per second, matching the burnout speed to within rounding.
+[Jenkins 2007][ref_jenkins_2007]
+
+$$
+3{,}794 \times \frac{5{,}280}{3{,}600} = 5{,}565 \text{ ft/s}
+\tag{14}
+$$
+
+**Equation 15, Specific Energy at Burnout on Flight 91.**
+Burnout at 53,645 metres and 1,696.1 metres per second gives a specific energy of 1.964 megajoules per kilogramme.
+[Jenkins 2007][ref_jenkins_2007]
+
+$$
+e = 9.807 \times 53{,}645 + \tfrac{1}{2} \times 1{,}696.1^{2} = 0.526 + 1.438 = 1.964 \text{ MJ/kg}
+\tag{15}
+$$
+
+**Equation 16, Energy Height.**
+The energy height is the altitude plus the kinetic energy per unit mass divided by gravity.
+
+$$
+h_{e} = h + \frac{V^{2}}{2g}
+\tag{16}
+$$
+
+**Equation 17, Energy Height of Flight 188.**
+The record altitude and the speed head of 208.17 kilometres give an energy height of 239.29 kilometres.
+
+$$
+h_{e,188} = 31.12 + 208.17 = 239.29 \text{ km}
+\tag{17}
+$$
+
+**Equation 18, Energy Height of Flight 91 at Burnout.**
+The burnout altitude and the speed head of 146.67 kilometres give an energy height of 200.31 kilometres.
+
+$$
+h_{e,91} = 53.64 + 146.67 = 200.31 \text{ km}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Energy Height at the Flight 91 Apogee.*
+The apogee energy height uses a horizontal speed that was itself derived by conserving the burnout energy over an assumed drag-free coast, so its agreement with the burnout value follows from that construction.
+
+$$
+h_{e,\text{apogee}} = 107.96 + 92.36 = 200.32 \text{ km}
+\tag{19}
+$$
+
+**Equation 20, Ratio of the Two Record Energies.**
+The speed record carried 1.195 times the specific energy of the altitude flight at burnout.
+
+$$
+\frac{2.347}{1.964} = 1.195
+\tag{20}
+$$
+
+**Equation 21, External Tank Propellant over Internal Propellant.**
+The 13,500 pounds in the external tanks were 0.72 of the 18,750 pounds carried inside.
+[Jenkins 2007][ref_jenkins_2007]
+
+$$
+\frac{13{,}500}{18{,}750} = 0.72
+\tag{21}
+$$
+
+**Equation 22, Speed Head at the Record.**
+Converting the record speed entirely into height gives 208.2 kilometres.
+
+$$
+h = \frac{V^{2}}{2g} = \frac{2{,}020.6^{2}}{2 \times 9.807} = 208.2 \text{ km}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Effective Exhaust Velocity.*
+Taking the specific impulse at 276 seconds, the top of the specified 256 to 276 second range, gives an effective exhaust velocity of 2,706.6 metres per second.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+v_{e} = I_{sp} \, g_{0} = 276 \times 9.807 = 2{,}706.6 \text{ m/s}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Ideal Velocity Increment of the Basic Aircraft.*
+With the average touchdown weight taken as the burnout mass and the specific impulse at the top of its range, the Tsiolkovsky rocket equation gives 2,207 metres per second.
+[Matranga][ref_matranga_1961]
+
+$$
+\frac{m_{0}}{m_{f}} = 2.260, \qquad \Delta V = v_{e} \ln 2.260 = 2{,}207 \text{ m/s}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Fraction of the Ideal Increment Reached.*
+The 1,834.6 metres per second of Flight 59 is 0.831 of the ideal increment resting on the assumed specific impulse and burnout mass.
+
+$$
+\frac{1{,}834.6}{2{,}207} = 0.831
+\tag{25}
+$$
+
+*Equation 26, Bespoke Ideal Velocity Increment of the X-15A-2.*
+The separation weight and design propellant load with the assumed specific impulse give an ideal increment of 2,610 metres per second, of which the record reached 0.774.
+[Jenkins 2007][ref_jenkins_2007]
+
+$$
+\frac{m_{0}}{m_{f}} = \frac{52{,}117}{19{,}867} = 2.623, \qquad \Delta V = v_{e} \ln 2.623 = 2{,}610 \text{ m/s}, \qquad \frac{2{,}020.6}{2{,}610} = 0.774
+\tag{26}
+$$
+
+**Equation 27, North American Thrust Allowance.**
+North American's reckoning of 10 percent of thrust for drag and 20 percent for weight leaves 0.70 for acceleration.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+1 - 0.10 - 0.20 = 0.70
+\tag{27}
+$$
+
+**Equation 28, Thrust-to-Weight Ratio at Ignition.**
+A thrust of 253,500 newtons against the 14,969 kilogramme launch mass gives a thrust-to-weight ratio of 1.73.
+
+$$
+\frac{T}{W} = \frac{253{,}500}{14{,}969 \times 9.807} = 1.73
+\tag{28}
+$$
+
+**Equation 29, Stagnation Temperature Ratio.**
+For a perfect gas brought to rest adiabatically the stagnation to static temperature ratio is $1 + \tfrac{\gamma - 1}{2} M^{2}$.
+
+$$
+\frac{T_{0}}{T_{\infty}} = 1 + \frac{\gamma - 1}{2} M^{2}
+\tag{29}
+$$
+
+**Equation 30, Stagnation Temperature at the Speed Record.**
+At Mach 6.7 and the standard atmosphere temperature of 227.6 kelvin the stagnation temperature is 2,271 kelvin.
+
+$$
+T_{0} = 227.6 \times 9.978 = 2{,}271 \text{ K} = 3{,}628\ ^{\circ}\text{F}
+\tag{30}
+$$
+
+**Equation 31, Adiabatic Wall Temperature.**
+The adiabatic wall temperature applies the recovery factor $r$ to the kinetic temperature rise.
+
+$$
+T_{aw} = T_{\infty}\left(1 + r\,\frac{\gamma - 1}{2} M^{2}\right)
+\tag{31}
+$$
+
+**Equation 32, Total Enthalpy of the Oncoming Stream.**
+The total enthalpy is the static enthalpy plus the kinetic energy per unit mass, of which the kinetic term is 89.9 percent at the record.
+
+$$
+h_{0} = c_{p} T_{\infty} + \tfrac{1}{2} V^{2} = 0.229 + 2.041 = 2.270 \text{ MJ/kg}
+\tag{32}
+$$
+
+**Equation 33, Sutton-Graves Stagnation-Point Heating.**
+The reduced Sutton-Graves correlation gives the stagnation-point heating rate as a constant times the square root of density over nose radius times the cube of velocity.
+[Sutton and Graves][ref_sutton_graves_1971]
+
+$$
+\dot{q} = k \sqrt{\frac{\rho}{R_{n}}}\, V^{3}
+\tag{33}
+$$
+
+**Equation 34, Reduced Sutton-Graves Constant.**
+Taking the stagnation pressure as $\rho V^{2}$ and the enthalpy difference as $V^{2}/2$ converts the tabulated coefficient for air to $1.777 \times 10^{-4}$ in units of the International System.
+[Sutton and Graves][ref_sutton_graves_1971]
+
+$$
+k = \frac{K}{2\sqrt{101{,}325}} = \frac{0.1131}{636.6} = 1.777 \times 10^{-4}
+\tag{34}
+$$
+
+**Equation 35, Scaling of Heating and Nose Drag with Nose Radius.**
+Stagnation heating varies as the inverse square root of the nose radius while nose pressure drag varies with the frontal area.
+
+$$
+\dot{q} \propto R_{n}^{-1/2}, \qquad D_{\text{nose}} \propto R_{n}^{2}
+\tag{35}
+$$
+
+**Equation 36, Exchange Rate Between Nose Drag and Heating.**
+Eliminating the nose radius makes nose drag vary as the inverse fourth power of the heating rate.
+
+$$
+D_{\text{nose}} \propto \dot{q}^{-4}
+\tag{36}
+$$
+
+**Equation 37, Stagnation-Point Heating at the Speed Record.**
+The standard atmosphere density at the record altitude and the 0.0762 metre radius of the ball nose give $6.48 \times 10^{5}$ watts per square metre.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+\dot{q} = 1.7415 \times 10^{-4} \sqrt{\frac{0.0155}{0.0762}} \times 2{,}020.6^{3} = 6.48 \times 10^{5} \text{ W/m}^{2}
+\tag{37}
+$$
+
+**Equation 38, Heating Correction for the As-Built Nose.**
+The as-built 6.5 inch sphere lowers the heating rate by the square root of the radius ratio, 0.961.
+[Jenkins 2007][ref_jenkins_2007]
+
+$$
+\sqrt{\frac{0.0762}{0.0826}} = 0.961
+\tag{38}
+$$
+
+**Equation 39, Radiative Equilibrium Temperature.**
+A radiating surface in equilibrium sits where its emission $\varepsilon \sigma T^{4}$ equals the incident heating rate.
+
+$$
+\varepsilon \sigma T^{4} = \dot{q} \quad \Longrightarrow \quad T = \left(\frac{\dot{q}}{\varepsilon \sigma}\right)^{1/4}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Heating Rate Sustainable at the Design Temperature.*
+At a representative emissivity of 0.8 a surface at the design temperature of 922 kelvin radiates $3.28 \times 10^{4}$ watts per square metre.
+
+$$
+\varepsilon \sigma T^{4} = 0.8 \times 5.670 \times 10^{-8} \times 922^{4} = 3.28 \times 10^{4} \text{ W/m}^{2}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Ratio of Record Heating to Sustainable Heating.*
+The record stagnation rate is 19.8 times what the design temperature can radiate at the representative emissivity.
+
+$$
+\frac{64.8}{3.28} = 19.8
+\tag{41}
+$$
+
+*Equation 42, Bespoke Radiative Equilibrium Temperature at the Record.*
+At the record stagnation rate and a representative emissivity of 0.8 the equilibrium temperature is 1,944 kelvin.
+
+$$
+T = \left(\frac{6.48 \times 10^{5}}{0.8 \times 5.670 \times 10^{-8}}\right)^{1/4} = 1{,}944 \text{ K} = 3{,}040\ ^{\circ}\text{F}
+\tag{42}
+$$
+
+**Equation 43, Reynolds Analogy.**
+The Stanton number is approximately half the skin friction coefficient for a gas of Prandtl number near unity.
+
+$$
+St = \frac{C_{H}}{\rho V c_{p}} \approx \frac{C_{f}}{2}
+\tag{43}
+$$
+
+**Equation 44, Wall Heat Flux and Friction Work.**
+The heat entering the wall is the Stanton number times the mass flux, specific heat and recovery temperature difference, while the friction work is the wall shear times the velocity.
+
+$$
+\dot{q}_{w} = St\, \rho V c_{p} \left(T_{aw} - T_{w}\right), \qquad \tau V = \frac{C_{f}}{2}\, \rho V^{3}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Fraction of Friction Work Entering the Wall.*
+Under a Reynolds analogy factor of one the ratio of wall heat flux to friction work reduces to the recovery temperature difference times the specific heat over the square of the velocity.
+
+$$
+\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}}
+\tag{45}
+$$
+
+**Equation 46, Colburn Reynolds Analogy Factor.**
+For a Prandtl number of 0.71 Colburn's modified Reynolds analogy factor is 1.26.
+[NASA SP-90][ref_nasa_sp90_1965]
+
+$$
+\frac{2\,St}{C_{f}} = Pr^{-2/3} = 0.71^{-2/3} = 1.26
+\tag{46}
+$$
+
+*Equation 47, Bespoke Wall Fraction at the Record Condition.*
+The fraction of friction work entering the wall is evaluated at the record speed and an adiabatic wall temperature of 2,046 kelvin as a function of wall temperature under the unit analogy factor.
+
+$$
+\frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} = \frac{1004.5 \times \left(2046 - T_{w}\right)}{2020.6^{2}}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Wall Fraction at the Hottest Recorded Temperature.*
+A wall at the hottest recorded 1,005 kelvin takes 0.256 of the friction work under the unit analogy factor.
+
+$$
+\frac{1004.5 \times \left(2046 - 1005\right)}{2020.6^{2}} = 0.256
+\tag{48}
+$$
+
+**Equation 49, Reynolds Number on the Fuselage Length.**
+The standard atmosphere density and viscosity at the record condition and the fuselage length give a Reynolds number of $3.2 \times 10^{7}$.
+
+$$
+Re_{L} = \frac{\rho V L}{\mu} = \frac{0.0155 \times 2020.6 \times 14.99}{1.48 \times 10^{-5}} = 3.2 \times 10^{7}
+\tag{49}
+$$
+
+**Equation 50, Turbulent Flat-Plate Skin Friction.**
+The turbulent flat-plate correlation $0.0592 \, Re_{L}^{-0.2}$ gives a skin friction coefficient of 0.00187.
+
+$$
+C_{f} = \frac{0.0592}{Re_{L}^{0.2}} = 0.00187
+\tag{50}
+$$
+
+*Equation 51, Bespoke Friction and Total Drag.*
+A wetted area of order 113 square metres and an assumed drag coefficient of 0.08 give friction and total drags of 6.7 and 47 kilonewtons.
+
+$$
+D_{f} = C_{f}\, q\, A_{\text{wet}} = 6.7 \text{ kN}, \qquad D = C_{D}\, q\, S = 47 \text{ kN}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Fraction of Kinetic Energy Reaching the Structure.*
+The article takes 15 percent, near the centre of its 8 to 26 percent range of friction fractions, times the 0.277 wall fraction to give 0.042.
+
+$$
+f_{\text{structure}} = 0.15 \times 0.277 = 0.042
+\tag{52}
+$$
+
+*Equation 53, Bespoke Kinetic Energy of the Aircraft at the Record.*
+With the average touchdown mass taken as the mass at the record, the kinetic energy is 13.52 gigajoules.
+[Matranga][ref_matranga_1961]
+
+$$
+E = m\, \tfrac{1}{2} V^{2} = 6{,}622 \times 2.041 \times 10^{6} = 13.52 \text{ GJ}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Heat Capacity of the Structure.*
+A structure assumed to be 60 percent of the burnout mass absorbs 1.27 gigajoules in reaching its design temperature.
+
+$$
+Q_{\text{capacity}} = m_{s} \int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT = 3{,}973 \times 0.320 \times 10^{6} = 1.27 \text{ GJ}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Ratio of Structural Heat Load to Capacity.*
+The four percent heat load over the assumed structural capacity gives 0.44.
+
+$$
+\frac{0.56}{1.27} = 0.44
+\tag{55}
+$$
+
+*Equation 56, Bespoke Ratio with the Colburn Factor.*
+Applying the Colburn factor of 1.26 to the central ratio resting on the assumed structural mass gives 0.55.
+
+$$
+0.44 \times 1.26 = 0.55
+\tag{56}
+$$
+
+*Equation 57, Bespoke Radiation Rejected over a Descent.*
+An assumed hundred square metres radiating at the design temperature and a representative emissivity of 0.8 for an assumed five minutes rejects 0.98 gigajoules.
+
+$$
+\varepsilon \sigma T^{4} A\, \Delta t = 0.8 \times 5.670 \times 10^{-8} \times 922^{4} \times 100 \times 300 = 0.98 \text{ GJ}
+\tag{57}
+$$
+
+**Equation 58, Scale Height and Exponential Atmosphere.**
+The scale height is the gas constant times the temperature over gravity, and density falls approximately exponentially with height over it.
+
+$$
+H = \frac{R T}{g} \quad \Longrightarrow \quad \rho(h) \approx \rho_{0} e^{-h/H}
+\tag{58}
+$$
+
+**Equation 59, Heating Reduction per Scale Height.**
+One scale height multiplies the heating rate, which goes as the square root of density, by $e^{-1/2} = 0.607$.
+
+$$
+\sqrt{e^{-1}} = e^{-1/2} = 0.607
+\tag{59}
+$$
+
+**Equation 60, Heat Load as the Integral of Heating Rate.**
+The heat load is the time integral of the heating rate.
+
+$$
+Q = \int \dot{q} \, dt
+\tag{60}
+$$
+
+*Equation 61, Bespoke Time to Shed a Fixed Energy at Constant Speed.*
+For a vehicle assumed to shed a fixed energy at roughly constant speed the time taken varies inversely with density.
+
+$$
+\Delta t \approx \frac{\Delta e \, m}{q S C_{D} V} \propto \frac{1}{\rho}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Heat Load Scaling with Density.*
+Under the constant-speed assumption the heat load varies as the cube of velocity over the square root of density, so it rises as the air thins.
+
+$$
+Q = \dot{q}\, \Delta t \propto \sqrt{\rho}\, V^{3} \times \frac{1}{\rho} = \frac{V^{3}}{\sqrt{\rho}}
+\tag{62}
+$$
+
+*Equation 63, Bespoke Heat Load at the Record Rate.*
+Holding the record stagnation rate for assumed exposures of one, two and five minutes gives 38.9, 77.8 and 194 megajoules per square metre.
+
+$$
+Q = \dot{q}\,\Delta t = 6.48 \times 10^{5} \times \left\{60,\ 120,\ 300\right\} = \left\{38.9,\ 77.8,\ 194\right\} \text{ MJ/m}^{2}
+\tag{63}
+$$
+
+**Equation 64, Ablator Heat Capacity.**
+An ablator absorbs heat at a rate equal to its mass loss rate times its effective heat of ablation.
+
+$$
+Q_{\text{ablator}} = \dot{m}_{\text{loss}}\, h_{\text{eff}}
+\tag{64}
+$$
+
+**Equation 65, Ablator Mass Loss Rate.**
+The ablator mass loss rate is the heating rate times the exposed area over the effective heat of ablation.
+
+$$
+\dot{m}_{\text{loss}} = \frac{\dot{q} A}{h_{\text{eff}}}
+\tag{65}
+$$
+
+*Equation 66, Bespoke Ratio of Ablator to Structural Capacity.*
+An assumed effective heat of ablation of 2.5 megajoules per kilogramme is 7.8 times the capacity of the structure to its design temperature.
+
+$$
+\frac{h_{\text{eff}}}{\int_{T_{0}}^{T_{\text{design}}} c_{p}\, dT} = \frac{2.5 \times 10^{6}}{0.320 \times 10^{6}} = 7.8
+\tag{66}
+$$
+
+**Equation 67, True Airspeed at Touchdown.**
+The average touchdown speed of 185 knots indicated at the lakebed density ratio of 0.934 is a true airspeed of 98.5 metres per second.
+[Matranga][ref_matranga_1961]
+[Rogers Dry Lake][ref_rogers_dry_lake]
+
+$$
+V = \frac{185 \times 0.5144}{\sqrt{0.934}} = 98.5 \text{ m/s}
+\tag{67}
+$$
+
+**Equation 68, Specific Kinetic Energy at Touchdown.**
+The touchdown true airspeed gives a specific kinetic energy of $4.85 \times 10^{3}$ joules per kilogramme.
+
+$$
+e_{\text{land}} = \tfrac{1}{2} \times 98.5^{2} = 4.85 \times 10^{3} \text{ J/kg}
+\tag{68}
+$$
+
+**Equation 69, Fraction of the Record Energy Remaining at Touchdown.**
+The touchdown kinetic energy is 0.00238 of the specific kinetic energy at the record.
+
+$$
+\frac{e_{\text{land}}}{e_{k}} = \frac{4.85 \times 10^{3}}{2.041 \times 10^{6}} = 0.00238
+\tag{69}
+$$
+
+**Equation 70, Energy Disposal Rate by Drag.**
+With the engine off the specific energy falls at the drag power per unit mass.
+
+$$
+\frac{de}{dt} = -\frac{D V}{m} = -\frac{q S C_{D} V}{m}
+\tag{70}
+$$
+
+**Equation 71, Heating per Unit Energy Shed.**
+The heating rate over the energy disposal rate varies as the inverse square root of density.
+
+$$
+\frac{\dot{q}}{|de/dt|} \propto \frac{\sqrt{\rho}\,V^{3}}{\rho V^{3}} = \frac{1}{\sqrt{\rho}}
+\tag{71}
+$$
+
+**Equation 72, Drag Deceleration at Constant Altitude.**
+At constant altitude the drag deceleration is proportional to the square of the speed.
+
+$$
+\frac{dV}{dt} = -\frac{\rho S C_{D}}{2m} V^{2}
+\tag{72}
+$$
+
+**Equation 73, Time to Decelerate Between Two Speeds.**
+Integrating the drag deceleration gives the time to fall from one speed to another.
+
+$$
+t = \frac{2m}{\rho S C_{D}}\left(\frac{1}{V_{f}} - \frac{1}{V_{0}}\right)
+\tag{73}
+$$
+
+*Equation 74, Bespoke Ballistic Coefficient.*
+The burnout mass over an assumed drag coefficient of 0.08 times the reference area gives a ballistic coefficient of 4,455 kilogrammes per square metre.
+
+$$
+\beta = \frac{m}{C_{D} S} = \frac{6{,}622}{0.08 \times 18.58} = 4{,}455 \text{ kg/m}^{2}
+\tag{74}
+$$
+
+*Equation 75, Bespoke Ratio of Shedding Time at the Record Altitude to Flight Time.*
+The 102 minutes resting on the assumed drag coefficient is about ten times a representative flight of ten minutes.
+
+$$
+\frac{102\ \text{min}}{10\ \text{min}} \approx 10
+\tag{75}
+$$
+
+**Equation 76, Glide Range from Height.**
+A glider's range from a height $h$ is the lift-to-drag ratio times that height.
+
+$$
+R = \frac{L}{D} \, h
+\tag{76}
+$$
+
+*Equation 77, Bespoke Equivalent Range of the Energy Budget.*
+The article converts the whole specific energy to an equivalent range by treating the energy height $e/g$ as glide height at the same lift-to-drag ratio.
+
+$$
+R_{\text{equiv}} = \frac{L}{D} \, \frac{e}{g}
+\tag{77}
+$$
+
+**Equation 78, Wing Loading at Touchdown.**
+The average touchdown weight over the reference area gives a wing loading of 3,495 newtons per square metre.
+[Matranga][ref_matranga_1961]
+
+$$
+\frac{W}{S} = \frac{6{,}622 \times 9.807}{18.58} = 3{,}495 \text{ N/m}^{2} = 73 \text{ lb/ft}^{2}
+\tag{78}
+$$
+
+**Equation 79, Touchdown Lift Coefficient.**
+The touchdown weight at 185 knots indicated requires a lift coefficient of 0.63.
+[Matranga][ref_matranga_1961]
+
+$$
+C_{L} = \frac{W}{\tfrac{1}{2}\rho_{0} V_{i}^{2} S} = \frac{64{,}950}{\tfrac{1}{2} \times 1.225 \times 95.2^{2} \times 18.58} = 0.63
+\tag{79}
+$$
+
+**Equation 80, Flatness of the Lift-to-Drag Optimum.**
+Ninety-five percent of the maximum supersonic lift-to-drag ratio is available between about seven and twelve degrees angle of attack.
+[Garringer and Saltzman 1966][research_garringer_saltzman_1966]
+
+$$
+\frac{\Delta (L/D)}{(L/D)_{\max}} = 0.05 \quad \text{over} \quad 7^{\circ} < \alpha < 12^{\circ}
+\tag{80}
+$$
+
+**Equation 81, Effect of Speed Brakes on Lift-to-Drag Ratio.**
+Speed brakes add drag without changing lift and so lower the lift-to-drag ratio.
+
+$$
+\frac{L}{D} \rightarrow \frac{L}{D + \Delta D}
+\tag{81}
+$$
+
+**Equation 82, Thermal Stress from Constrained Expansion.**
+The thermal stress of a constrained skin is Young's modulus times the expansion coefficient times the temperature difference.
+
+$$
+\sigma_{\text{thermal}} = E \, \alpha \, \Delta T
+\tag{82}
+$$
+
+*Equation 83, Bespoke Thermal Stress at a 300 Kelvin Difference.*
+The room-temperature modulus and a representative expansion coefficient over an illustrative 300 kelvin difference give 830 megapascals.
+[Special Metals 2004][ref_special_metals_2004]
+
+$$
+\sigma_{\text{thermal}} = 214 \times 10^{9} \times 1.3 \times 10^{-5} \times 300 = 8.3 \times 10^{8} \text{ Pa}
+\tag{83}
+$$
+
+**Equation 84, Lumped Thermal Time Constant of a Skin.**
+The time a skin takes to heat is of order its areal heat capacity times its temperature over the heating rate.
+
+$$
+\tau_{\text{th}} \sim \frac{\rho_{s} t c_{p} T}{\dot{q}}
+\tag{84}
+$$
+
+*Equation 85, Bespoke Time Constant of a Thin Skin at the Stagnation Rate.*
+An assumed 1.5 millimetre skin heated to 900 kelvin at the record stagnation rate reaches its limit in about 7.5 seconds.
+
+$$
+\tau_{\text{th}} \sim \frac{8{,}200 \times 0.0015 \times 440 \times 900}{6.48 \times 10^{5}} = 7.5 \text{ s}
+\tag{85}
+$$
+
+*Equation 86, Bespoke Lower Surface Heating Rate.*
+Radiation at the expected 2,000 degree Fahrenheit equilibrium and a representative emissivity of 0.8 corresponds to $1.58 \times 10^{5}$ watts per square metre.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+\dot{q} = 0.8 \times 5.670 \times 10^{-8} \times 1{,}366^{4} = 1.58 \times 10^{5} \text{ W/m}^{2}
+\tag{86}
+$$
+
+*Equation 87, Bespoke Time Constants of the Wing Skins.*
+The 0.05 and 0.10 inch skins under the lower surface rate resting on the representative emissivity reach 922 kelvin in about 27 and 53 seconds.
+
+$$
+\tau_{\text{th}} \sim \frac{8{,}200 \times 0.00127 \times 440 \times 922}{1.58 \times 10^{5}} = 27 \text{ s}, \qquad \frac{8{,}200 \times 0.00254 \times 440 \times 922}{1.58 \times 10^{5}} = 53 \text{ s}
+\tag{87}
+$$
+
+**Equation 88, Thermal Diffusivity of the Alloy.**
+The conductivity over the density times the specific heat gives a thermal diffusivity of $4.16 \times 10^{-6}$ square metres per second.
+
+$$
+\alpha = \frac{k}{\rho_{s} c_{p}} = \frac{15}{8{,}200 \times 440} = 4.16 \times 10^{-6}\ \text{m}^{2}\text{/s}
+\tag{88}
+$$
+
+*Equation 89, Bespoke Through-Soak Time of a Thin Skin.*
+Heat penetrates an assumed 1.5 millimetre skin in about half a second.
+
+$$
+t = \frac{\left(1.5 \times 10^{-3}\right)^{2}}{4.16 \times 10^{-6}} = 0.5 \text{ s}
+\tag{89}
+$$
+
+**Equation 90, Throttle Range of the XLR99.**
+The specified minimum thrust of 19,200 pounds is 0.34 of the 57,200 pound maximum.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+\frac{19{,}200}{57{,}200} = 0.34
+\tag{90}
+$$
+
+*Equation 91, Bespoke Propellant Mass Flow at Full Thrust.*
+Full thrust over the exhaust velocity resting on the top of the specific impulse range gives 93.7 kilogrammes per second.
+
+$$
+\dot{m} = \frac{T}{v_{e}} = \frac{253{,}500}{2{,}706.6} = 93.7 \text{ kg/s}
+\tag{91}
+$$
+
+*Equation 92, Bespoke Burn Time.*
+The difference between the launch mass and the touchdown mass taken as burnout mass, at the assumed mass flow, lasts 89.1 seconds.
+
+$$
+t_{b} = \frac{8{,}346}{93.7} = 89.1 \text{ s}
+\tag{92}
+$$
+
+*Equation 93, Bespoke Thrust-to-Weight Ratio over the Burn.*
+The thrust-to-weight ratio runs from 1.73 at the launch mass to 3.90 at the touchdown weight taken as burnout mass.
+
+$$
+\frac{T}{W_{0}} = \frac{253{,}500}{14{,}969 \times 9.807} = 1.73 \quad \text{to} \quad \frac{T}{W_{f}} = \frac{253{,}500}{6{,}622 \times 9.807} = 3.90
+\tag{93}
+$$
+
+**Equation 94, Dynamic Pressure in Terms of Mach Number.**
+Substituting the perfect-gas relation writes the dynamic pressure as half the ratio of specific heats times the static pressure times the square of the Mach number.
+
+$$
+q = \tfrac{1}{2}\rho V^{2} = \frac{\gamma}{2}\, p\, M^{2}
+\tag{94}
+$$
+
+*Equation 95, Bespoke Range of Dynamic Pressure.*
+The highest recorded dynamic pressure is $5.1 \times 10^{3}$ times the value at 80 kilometres on a representative ballistic arc at 1,500 metres per second.
+[Jenkins 2007][ref_jenkins_2007]
+
+$$
+\frac{q_{\max}}{q_{80\,\text{km}}} = \frac{105{,}400}{20.8} = 5.1 \times 10^{3}
+\tag{95}
+$$
+
+*Equation 96, Bespoke Crossover Dynamic Pressure.*
+The article defines the crossover as the dynamic pressure at which the aerodynamic control moment equals the reaction jet moment.
+
+$$
+q_{\times} S \bar{c}\, \Delta C_{m} = F \ell \quad \Longrightarrow \quad q_{\times} = \frac{F \ell}{S \bar{c}\, \Delta C_{m}}
+\tag{96}
+$$
+
+*Equation 97, Bespoke Evaluated Crossover Dynamic Pressure.*
+A 500 newton jet at an assumed 7 metre arm against an assumed mean chord of 3 metres and moment coefficient of 0.1 gives 628 pascals.
+
+$$
+q_{\times} = \frac{500 \times 7}{18.58 \times 3 \times 0.1} = 628 \text{ Pa}
+\tag{97}
+$$
+
+**Equation 98, Control Power as Moment over Inertia.**
+Control power is the reaction jet moment over the moment of inertia.
+
+$$
+\text{CP} = \frac{F \ell}{I}
+\tag{98}
+$$
+
+*Equation 99, Bespoke Pitch Inertia Estimate.*
+Assuming a pitch radius of gyration of a quarter of the 15 metre length gives a pitch inertia of $9.3 \times 10^{4}$ kilogramme square metres.
+
+$$
+I_{y} \approx 6{,}622 \times \left(0.25 \times 15\right)^{2} = 9.3 \times 10^{4} \text{ kg m}^{2}
+\tag{99}
+$$
+
+*Equation 100, Bespoke Reaction Control Power in Pitch.*
+A 500 newton nose rocket at an assumed 7 metre arm on the estimated inertia gives 0.038 radians per second squared.
+
+$$
+\text{CP} = \frac{500 \times 7}{9.3 \times 10^{4}} = 0.038 \text{ rad/s}^{2}
+\tag{100}
+$$
+
+**Equation 101, Design Angular Acceleration in Radians.**
+The design angular acceleration of 2.5 degrees per second squared in pitch and yaw is 0.0436 radians per second squared.
+[Adkins and Jarvis 1964][research_adkins_jarvis_1964]
+
+$$
+2.5\ \text{deg/s}^{2} = 0.0436\ \text{rad/s}^{2}
+\tag{101}
+$$
+
+**Equation 102, Newtonian Pressure Coefficient.**
+Newtonian impact theory gives the pressure coefficient of a surface inclined at $\theta$ to the stream as $2 \sin^{2}\theta$.
+
+$$
+C_{p} = 2 \sin^{2}\theta
+\tag{102}
+$$
+
+**Equation 103, Newtonian Lift Coefficient of a Flat Plate.**
+Newtonian theory gives the lift coefficient of a flat plate at angle of attack $\alpha$ as $2 \sin^{2}\alpha \cos\alpha$.
+
+$$
+C_{L} = 2 \sin^{2}\alpha \cos\alpha
+\tag{103}
+$$
+
+*Equation 104, Bespoke Lift Coefficient Required at the Record.*
+The touchdown mass taken as the mass at the record over the dynamic pressure and reference area gives a required lift coefficient of 0.110.
+
+$$
+C_{L} = \frac{m g}{q S} = \frac{6{,}622 \times 9.807}{31{,}651 \times 18.58} = 0.110
+\tag{104}
+$$
+
+**Equation 105, Newtonian Pressure on a Thin Surface and a Wedge.**
+A thin surface at three degrees and a ten degree wedge have Newtonian pressure coefficients of 0.0055 and 0.0603.
+
+$$
+C_{p} = 2\sin^{2} 3^{\circ} = 0.0055, \qquad C_{p} = 2\sin^{2} 10^{\circ} = 0.0603
+\tag{105}
+$$
+
+**Equation 106, Roll Numerator to Dutch Roll Frequency Ratio.**
+The squared ratio of the roll numerator frequency to the Dutch roll frequency is approximately one less the product of the cross derivatives over the product of the direct ones.
+[NASA SP-90][ref_nasa_sp90_1965]
+
+$$
+\frac{\omega_{\phi}^{2}}{\omega_{d}^{2}} \approx 1 - \frac{N_{\delta_{a}}\, L_{\beta}}{L_{\delta_{a}}\, N_{\beta}}
+\tag{106}
+$$
+
+**Equation 107, Ratio of XLR99 to Paired XLR11 Thrust.**
+The 57,000 pound XLR99 offered 3.56 times the 16,000 pounds of the two XLR11s.
+[NASA SP-90][ref_nasa_sp90_1965]
+
+$$
+\frac{57{,}000}{16{,}000} = 3.56
+\tag{107}
+$$
+
+**Equation 108, Mean Mach Step of the Envelope Expansion.**
+Seven steps from Mach 3.50 to 6.04 average 0.36 of a Mach number.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+\frac{6.04 - 3.50}{7} = 0.36
+\tag{108}
+$$
+
+**Equation 109, Final Mach Step of the X-15A-2.**
+The last two X-15A-2 flights went from Mach 4.94 to 6.70, a step of 1.76.
+
+$$
+6.70 - 4.94 = 1.76
+\tag{109}
+$$
+
+**Equation 110, Mean Time Above Mach 4 per Flight.**
+Four hours above Mach 4 over 151 flights averages 1.6 minutes per flight.
+
+$$
+\frac{4 \times 60}{151} = 1.6 \text{ min}
+\tag{110}
+$$
+
+*Equation 111, Bespoke Horizontal Speed at the Flight 91 Apogee.*
+Conserving the burnout energy over a coast assumed drag free leaves a horizontal speed of 1,346 metres per second at apogee.
+
+$$
+V_{\text{apogee}} = \sqrt{2\left(e_{\text{burnout}} - g h_{\text{apogee}}\right)} = \sqrt{2\left(1.964 - 1.059\right) \times 10^{6}} = 1{,}346 \text{ m/s}
+\tag{111}
+$$
+
+**Equation 112, Record Speed as a Fraction of the X-15A-2 Design Speed.**
+The 6,629 feet per second of the record is 0.83 of the 8,000 feet per second design point.
+
+$$
+\frac{6{,}629}{8{,}000} = 0.83
+\tag{112}
+$$
+
+**Equation 113, Energy and Heating Ratios of the Design Point.**
+The design point asked for 1.46 times the specific kinetic energy and 1.76 times the stagnation heating rate of the record at equal density and nose radius.
+
+$$
+\left(\frac{8{,}000}{6{,}629}\right)^{2} = 1.46, \qquad \left(\frac{8{,}000}{6{,}629}\right)^{3} = 1.76
+\tag{113}
+$$
+
+*Equation 114, Bespoke Propellant Mass in the External Tanks.*
+The tank volumes at liquid densities assumed at the normal boiling points of 682 and 1,141 kilogrammes per cubic metre hold 6,213 kilogrammes.
+
+$$
+m = 1{,}080 \times 3.785 \times 0.682 + 793 \times 3.785 \times 1.141 = 2{,}788 + 3{,}425 = 6{,}213 \text{ kg} = 13{,}698 \text{ lb}
+\tag{114}
+$$
+
+**Equation 115, Specific Energy of the Altitude Discrepancy.**
+The 600 foot difference between the log and the narrative is worth 1.79 kilojoules per kilogramme.
+[Jenkins 2007][ref_jenkins_2007]
+
+$$
+g\,\Delta h = 9.807 \times 182.9 = 1.79 \text{ kJ/kg}
+\tag{115}
+$$
+
+**Equation 116, Peak Potential of the Probe Motor.**
+The 115 volt alternating supply multiplied by about four in the transformer gives a peak near 651 volts.
+[Dennehy et al. 2014][research_dennehy_2014]
+
+$$
+V_{\text{peak}} = \sqrt{2} \times 115 \times 4 = 651 \text{ V}
+\tag{116}
+$$
+
+**Equation 117, Margin over the Arcing Threshold.**
+The peak potential is 2.8 times the arcing threshold of about 230 volts at reduced pressure.
+[Dennehy et al. 2014][research_dennehy_2014]
+
+$$
+\frac{651}{230} = 2.8
+\tag{117}
+$$
+
+**Equation 118, Share of Simulator Time in the X-15-3 Configuration.**
+The 47.5 hours in the X-15-3 configuration were 0.199 of the logged simulator time.
+[Dennehy et al. 2014][research_dennehy_2014]
+
+$$
+\frac{47.5}{165.2 + 25.5 + 47.5} = 0.199
+\tag{118}
+$$
+
+**Equation 119, Altitude of the Fatal Flight in Miles.**
+The 266,000 feet of the fatal flight is 50.38 miles.
+
+$$
+\frac{266{,}000}{5{,}280} = 50.38 \text{ miles}
+\tag{119}
+$$
+
+**Equation 120, Cost per Flight in 1964.**
+The 16.268 million dollars of 1964 over its 27 flights is 0.603 million per flight and a tenth of the initial programme cost.
+[Love and Young 1966b][ref_love_young_1966]
+
+$$
+\frac{16.268}{27} = 0.603 \text{ million dollars per flight}, \qquad \frac{16.268}{162.80} = 0.10
+\tag{120}
+$$
+
+**Equation 121, Refurbishment Cost per Flight.**
+Refurbishment of 7.288 million dollars over 27 flights is 0.270 million per flight, or 0.030 of the cost of a new aircraft.
+[Love and Young 1966b][ref_love_young_1966]
+
+$$
+\frac{7.288}{27} = 0.270 \text{ million dollars per flight}, \qquad \frac{0.270}{9.0} = 0.030
+\tag{121}
+$$
+
+**Equation 122, Cost of the Same Flights as Expendable Vehicles.**
+Twenty-seven new aircraft at 9.0 million dollars each would have cost 243 million.
+
+$$
+27 \times 9.0 = 243 \text{ million dollars}
+\tag{122}
+$$
+
+**Equation 123, Growth of the Programme Cost.**
+An actual cost of about 300 million dollars is 28 times the original estimate of 10.7 million.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+\frac{300}{10.7} = 28
+\tag{123}
+$$
+
+**Equation 124, International Boundary of Space in Kilometres.**
+Sixty-two miles is 99.8 kilometres.
+[Jenkins 2000][ref_jenkins_2000]
+
+$$
+62 \times 1.609 = 99.8 \text{ km}
+\tag{124}
+$$
+
+**Equation 125, Accounting of All Flights.**
+The 196 successful landings, two landing accidents and one loss in flight account for all 199 flights.
+[Dana 1993][ref_dana_1993]
+
+$$
+196 + 2 + 1 = 199
+\tag{125}
+$$
+
+**Equation 126, Thin-Skin Heat Balance.**
+The thin-skin balance equates the rate of heat storage in the skin to the convective input, written as a heat-transfer coefficient times an enthalpy difference, less the radiated heat.
+[Quinn and Olinger 1969][ref_quinn_olinger_1969]
+
+$$
+\rho_{w} c_{w} \delta_{w} \frac{dT_{w}}{dt} = h_{H}\left(H_{R} - H_{w}\right) - \sigma \varepsilon T_{w}^{4}, \qquad H_{R} = H_{\infty} + r\,\frac{V^{2}}{2}
+\tag{126}
+$$
+
+**Equation 127, Keystone Ratio as a Function of Speed.**
+The ratio of specific kinetic energy to melting enthalpy is the square of the speed over twice the melting enthalpy.
+
+$$
+\frac{e_{k}}{h_{\text{melt}}} = \frac{V^{2}}{2 h_{\text{melt}}}
+\tag{127}
+$$
+
+**Equation 128, Orbital Entry Against the X-15 Record.**
+The specific kinetic energy at an orbital entry speed of 7,800 metres per second is 14.9 times that of the X-15 record.
+
+$$
+\frac{30.42}{2.041} = 14.9
+\tag{128}
+$$
+
+**Equation 129, Stagnation Temperature Relation.**
+The stagnation temperature is the static temperature times $1 + \tfrac{\gamma - 1}{2}M^{2}$.
+
+$$
+T_{0} = T_{\infty}\left(1 + \frac{\gamma - 1}{2}M^{2}\right)
+\tag{129}
+$$
+
+*Equation 130, Bespoke Mach Number at the Onset of Oxygen Dissociation.*
+Setting the stagnation temperature equal to an assumed oxygen dissociation onset of about 2,500 kelvin at the record altitude gives Mach 7.06.
+
+$$
+M = \sqrt{\frac{2}{\gamma - 1}\left(\frac{2{,}500}{227.6} - 1\right)} = 7.06
+\tag{130}
+$$
+
+*Equation 131, Bespoke Record Mach Number as a Fraction of the Dissociation Limit.*
+The record Mach 6.70 is 0.948 of the Mach number resting on the assumed dissociation onset.
+
+$$
+\frac{6.70}{7.06} = 0.948
+\tag{131}
+$$
+
+**Equation 132, Ideal-Gas Stagnation Temperature at Orbital Speed.**
+The ideal-gas relation at 7,800 metres per second gives a stagnation temperature of about 30,500 kelvin, which is physically meaningless.
+
+$$
+T_{0} = 227.6 + \frac{7{,}800^{2}}{2 \times 1004.5} = 30{,}500 \text{ K}
+\tag{132}
+$$
+
+*Equation 133, Bespoke High-Speed Limit of the Wall Fraction.*
+Under the unit Reynolds analogy factor the fraction of friction work entering the wall tends to half the recovery factor as the speed grows.
+
+$$
+\frac{\dot{q}_{w}}{\tau V} = \frac{c_{p}\left(T_{aw} - T_{w}\right)}{V^{2}} \longrightarrow \frac{r}{2} \quad \text{as} \quad V \rightarrow \infty
+\tag{133}
+$$
+
+**Equation 134, Radiated Heat Flux.**
+A surface rejects heat by radiation at the emissivity times the Stefan-Boltzmann constant times the fourth power of its temperature.
+
+$$
+\dot{q}_{\text{reject}} = \varepsilon \sigma T^{4}
+\tag{134}
+$$
+
+*Equation 135, Bespoke Ceramic Against Inconel Rejection.*
+A representative ceramic at 2,273 kelvin with an assumed emissivity of 0.85 rejects 39.2 times what Inconel rejects at its design limit.
+
+$$
+\frac{128.7}{3.28} = 39.2
+\tag{135}
+$$
+
+*Equation 136, Bespoke Speed Ratio Between Consecutive Designations.*
+The 4,520 miles per hour of the X-15 is 25.1 times a rounded bound of 180 miles per hour above the X-14's recorded 172.
+[Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]
+
+$$
+\frac{4{,}520}{180} = 25.1
+\tag{136}
+$$
+
+### Notation
+
+- $e_{k}$, the specific kinetic energy
+- $h_{\text{melt}}$, the melting enthalpy of the alloy per unit mass
+- $c_{p}$, the specific heat at constant pressure, of the alloy in the structural relations and of air in the gas relations
+- $L_{f}$, the latent heat of fusion
+- $T_{\text{design}}$, the design temperature of the structure, 922 kelvin
+- $e$, the specific energy, the sum of potential and kinetic energy per unit mass
+- $h_{e}$, the energy height
+- $q$, the dynamic pressure in pascals
+- $S$, the wing reference area
+- $\bar{c}$, the mean aerodynamic chord
+- $\Delta C_{m}$, the control moment coefficient increment
+- $D$, the drag
+- $m$, the vehicle mass
+- $v_{e}$, the effective exhaust velocity
+- $I_{sp}$, the specific impulse in seconds
+- $g_{0}$, standard gravity
+- $m_{0}$, the launch mass, with $m_{f}$ the mass after burnout
+- $\Delta V$, the ideal velocity increment
+- $T_{0}$, the stagnation temperature, and in the specific heat integrals the ambient starting temperature
+- $T_{\infty}$, the free-stream static temperature
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air
+- $M$, the Mach number
+- $T_{aw}$, the adiabatic wall temperature, with $T_{w}$ the wall temperature
+- $\dot{q}$, the stagnation-point heating rate
+- $R_{n}$, the effective nose radius
+- $\rho$, the air density
+- $\varepsilon$, the surface emissivity
+- $\sigma$, the Stefan-Boltzmann constant
+- $St$, the Stanton number
+- $C_{f}$, the skin friction coefficient
+- $Pr$, the Prandtl number
+- $\dot{q}_{w}$, the heat flux entering the wall
+- $Re_{L}$, the Reynolds number on the fuselage length
+- $C_{D}$, the drag coefficient
+- $m_{s}$, the structural mass
+- $H$, the atmospheric scale height
+- $Q$, the heat load per unit area
+- $h_{\text{eff}}$, the effective heat of ablation
+- $\beta$, the ballistic coefficient
+- $C_{L}$, the lift coefficient
+- $\sigma_{\text{thermal}}$, the thermal stress
+- $\tau_{\text{th}}$, the thermal time constant of a skin
+- $\rho_{s}$, the density of the skin material
+- $t_{b}$, the burn time
+- $q_{\times}$, the dynamic pressure at which aerodynamic and reaction control moments are equal
+- $\text{CP}$, the control power, the angular acceleration the control system can produce
+- $I_{y}$, the moment of inertia in pitch
+- $C_{p}$, the pressure coefficient
+- $\omega_{d}$, the Dutch roll frequency, with $\omega_{\phi}$ the frequency of the roll response numerator
+- $L_{\beta}$, the rolling acceleration due to sideslip, with $N_{\beta}$ the yawing acceleration due to sideslip
+- $h_{H}$, the heat-transfer coefficient of the thin-skin balance
+- $H_{R}$, the recovery enthalpy, with $H_{w}$ the wall enthalpy
 
 ## References
 

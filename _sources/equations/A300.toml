@@ -1,0 +1,1171 @@
+# Equation classification for A300. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in units of the International System after conversion from the pounds, slug square feet and miles per hour of the sources, angles enter the aerodynamic relations in radians, and several letters change meaning between sections, so $\\gamma$ is the ratio of specific heats in the gas dynamics and the flight path angle in the trajectory relations, $q$ is dynamic pressure except in the body-axis equations where it is the pitch rate, and $p$ is static pressure, roll rate or a loss probability according to context."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Ackeret Linearised Supersonic Pressure Coefficient"
+gloss = "In linearised supersonic flow the pressure coefficient on a thin surface depends only on the local inclination and the free-stream Mach number."
+cite = ["research_ackeret_1925"]
+digest = "203b91211b8e31db"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Wave Drag Ratio of a 4.5 Percent and an 8 Percent Section"
+gloss = "Because thickness wave drag scales as the square of thickness ratio, the X-3 section carries about a third of the wave drag of the X-1 section at the same conditions."
+cite = []
+digest = "98b3d15418d46c9a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Second Moment of Area of an Idealised Wing Box"
+gloss = "Treating the spar caps as concentrated areas at half the structural depth gives a bending second moment that falls as the square of thickness ratio for fixed cap area."
+cite = []
+digest = "87e8a4510987a645"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Cap Area Scaling with Thickness Ratio"
+gloss = "The cap area needed to carry a given moment at a given stress varies inversely with the structural depth and hence with thickness ratio."
+cite = []
+digest = "850c43a16c9c03e1"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Torsional Frequency, Mass Ratio and Flutter Speed Index"
+gloss = "The torsional natural frequency, the wing mass ratio and the flutter speed index are the standard groups on which a flutter boundary depends."
+cite = []
+digest = "b72b5973efabcb04"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Bredt Torsion Constant of a Thin Wing Box"
+gloss = "The Bredt relation for a closed thin-walled section gives a torsion constant proportional to the square of the enclosed area and therefore to the square of thickness ratio."
+cite = []
+digest = "63c4dde0b0c5e33d"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Energy Height and Specific Excess Power"
+gloss = "Energy height adds the kinetic energy per unit weight to the altitude, and its rate of change is the specific excess power."
+cite = []
+digest = "c715325802047459"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Reduction of Random Uncertainty with Dwell Time"
+gloss = "Averaging independent noise over a dwell of longer duration reduces the random uncertainty as the inverse square root of that duration."
+cite = []
+digest = "3795d1471928a014"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Aspect Ratio of the X-3 Wing"
+gloss = "The square of the span divided by the wing area gives an aspect ratio of 3.10 from the tabulated dimensions."
+cite = ["ref_aspect_ratio", "research_x3_handling_1957"]
+digest = "892bb1eedd361b38"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Installed Thrust of Two J34 Engines"
+gloss = "Two Westinghouse J34 engines of 4900 pounds of afterburning thrust each give about 43.6 kilonewtons."
+cite = ["research_x3_handling_1957"]
+digest = "a26d1579dabaae84"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Design Thrust of Two J46 Engines"
+gloss = "Two Westinghouse J46 engines of the expected 7000 pounds each would have given about 62.3 kilonewtons."
+cite = ["ref_douglas_x3"]
+digest = "cf55594fa9765cb0"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Thrust Shortfall of the Engine Substitution"
+gloss = "The installed thrust falls thirty percent short of the design thrust."
+cite = []
+digest = "5d8ff5c443bad89b"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Thrust-to-Weight Ratio at Fixed Weight"
+gloss = "Holding the aircraft weight fixed as a first approximation makes the thrust-to-weight ratio fall in direct proportion to the thrust, to seventy percent of its design value."
+cite = []
+digest = "b7ffe2e50eaedd7a"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Thrust Equals Drag in Level Flight"
+gloss = "Steady level flight requires the thrust to equal the drag, written as dynamic pressure times wing area times drag coefficient."
+cite = []
+digest = "4d937bffd4892a5a"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Dynamic Pressure in Terms of Mach Number"
+gloss = "For a perfect gas the dynamic pressure equals half the ratio of specific heats times the static pressure times the square of the Mach number."
+cite = ["ref_dynamic_pressure"]
+digest = "7d474e442da8e26a"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Isentropic Total Pressure and Total Temperature Ratios"
+gloss = "The isentropic relations give the ratios of total to static pressure and temperature as functions of Mach number."
+cite = ["research_naca_1135"]
+digest = "795820cd43a22ec5"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Mach Angle"
+gloss = "The Mach angle is the inverse sine of the reciprocal of the Mach number."
+cite = ["research_naca_1135"]
+digest = "5ed0f33e160e1d08"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Isentropic Area-Mach Number Relation"
+gloss = "The ratio of stream-tube area to sonic throat area is a function of Mach number alone in isentropic flow."
+cite = ["research_naca_1135"]
+digest = "2d143e15aeb5bce3"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Thrust-Limited Maximum Mach Number"
+gloss = "Equating thrust to drag with the dynamic pressure written in Mach number form and solving gives the square of the maximum Mach number."
+cite = []
+digest = "e617410b33fb8cf3"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Maximum Mach Number Ratio at Fixed Drag Coefficient"
+gloss = "Holding altitude and drag coefficient fixed across the Mach range, an assumption the article chose, makes the maximum Mach number scale as the square root of the thrust."
+cite = []
+digest = "9f255c809d26fb1e"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Mach Number Penalty of the Thrust Shortfall"
+gloss = "Under the fixed drag coefficient assumption a thirty percent thrust shortfall reduces the maximum Mach number to 0.837 of its design value."
+cite = []
+digest = "ebc01dc2eafe6106"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Normal Shock Total Pressure Recovery"
+gloss = "The ratio of total pressure behind and ahead of a normal shock is a function of the upstream Mach number and the ratio of specific heats."
+cite = ["research_naca_1135"]
+digest = "58dc6fd941d3db3f"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Normal Shock Static Pressure and Temperature Ratios"
+gloss = "The Rankine-Hugoniot relations give the static pressure and temperature rise across a normal shock."
+cite = ["research_naca_1135"]
+digest = "31a89c652cadeb45"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Mach Number Behind a Normal Shock"
+gloss = "The downstream Mach number of a normal shock follows from the upstream Mach number and the ratio of specific heats."
+cite = ["research_naca_1135"]
+digest = "6bf93867e17dec6c"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Thrust Proportional to Inlet Recovery"
+gloss = "The article takes turbojet thrust to scale with the total pressure recovery delivered to the compressor face, so the inlet loss passes directly into thrust."
+cite = []
+digest = "b777ff46b2b58008"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Inlet Mass Flow Ratio"
+gloss = "The mass flow ratio is the captured stream-tube area divided by the inlet capture area, equal to the engine mass flow over the free-stream flux through the capture area."
+cite = []
+digest = "e7cfe1e7aecefc17"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Additive Drag of a Spilling Inlet"
+gloss = "The additive drag is the momentum deficit of the captured stream tube plus the pressure force on it between the free stream and the cowl lip."
+cite = []
+digest = "0d876e3011d1726a"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Spillage Drag Coefficient"
+gloss = "The article approximates the spillage drag coefficient as proportional to the capture area, the shortfall in mass flow ratio and the square of the sine of the cowl lip angle."
+cite = []
+digest = "900791b6f0b937b1"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Effective Thrust Budget"
+gloss = "The effective thrust is assembled from the recovered ideal thrust less the additive drag and the boundary layer diverter drag."
+cite = []
+digest = "59e59ad6fe385892"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Inlet Buzz Criterion"
+gloss = "Buzz sets in when the mass flow ratio falls below a critical value at which the terminal shock is expelled from the throat."
+cite = []
+digest = "5beaff03b6816623"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Combined Thrust Factor"
+gloss = "Multiplying the engine substitution factor by the normal shock recovery at Mach 2 treats the two losses as compounding and leaves about half the design thrust."
+cite = []
+digest = "f1db7e44408388b8"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Maximum Mach Number with Combined Losses"
+gloss = "Applying the square-root thrust scaling at fixed drag coefficient to the combined thrust factor gives a maximum Mach number of 1.42."
+cite = []
+digest = "a78e61e037c964c4"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Turbojet Thrust Lapse with Altitude and Mach Number"
+gloss = "The article models thrust as proportional to ambient pressure with an isentropic ram correction multiplied by the inlet recovery."
+cite = []
+digest = "b89a1ac285263af8"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Point-Mass Equation Along the Flight Path"
+gloss = "The excess of thrust over drag accelerates the aircraft along its path and supports the component of weight along that path."
+cite = []
+digest = "e45389eabc3f7805"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Time to Cross a Speed Increment in Level Flight"
+gloss = "In level flight the time to accelerate between two speeds is the integral of mass over excess thrust, which diverges as thrust approaches drag."
+cite = []
+digest = "bec1d338d750a9df"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Specific Excess Power"
+gloss = "Specific excess power is the speed times the excess of thrust over drag divided by the weight."
+cite = []
+digest = "5724d4bdaf786c2d"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Ceiling Condition"
+gloss = "The ceiling is the altitude at which specific excess power vanishes because thrust equals drag."
+cite = []
+digest = "af7e5adfa844717c"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Thrust-to-Weight Ratio at Maximum Takeoff Mass"
+gloss = "The installed J34 thrust divided by the weight at the maximum takeoff mass of 10,161 kilograms gives 0.44."
+cite = ["ref_douglas_x3"]
+digest = "81b8aa836b5d04c5"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Wing Loading at Maximum Takeoff Mass"
+gloss = "The weight at maximum takeoff mass divided by the wing area gives 6441 newtons per square metre."
+cite = ["ref_douglas_x3"]
+digest = "491520d7e7be0fc7"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Manoeuvre Corner Speed"
+gloss = "The corner speed is the lowest speed at which the maximum lift coefficient produces the limit load factor."
+cite = []
+digest = "2b5b9fae67572af5"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Aerodynamically Available Load Factor"
+gloss = "Below the corner speed the available load factor is the maximum lift at that speed divided by the weight."
+cite = []
+digest = "de15d8313c3f6e0f"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Ackeret Supersonic Lift-Curve Slope"
+gloss = "Linearised theory gives a two-dimensional supersonic lift-curve slope of four over the square root of the square of the Mach number less one."
+cite = ["research_ackeret_1925"]
+digest = "5ae8169016aea2dd"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Supersonic Aspect Ratio Parameter"
+gloss = "The product of the Prandtl-Glauert factor and the aspect ratio indicates how far tip effects reach across a supersonic wing."
+cite = []
+digest = "ec0b047571d5e4a1"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Supersonic Lift-Curve Slope at Mach 2"
+gloss = "The Ackeret slope evaluated at Mach 2 is 2.31 per radian, which applies because the supersonic aspect ratio of the X-3 wing exceeds four."
+cite = ["research_ackeret_1925"]
+digest = "091bd5c80283bd85"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Aerodynamic Centre Shift Through the Transonic Range"
+gloss = "The aerodynamic centre moves from about the quarter chord in subsonic flow to about the half chord in supersonic flow."
+cite = []
+digest = "e67bf3dd7e78414b"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Static Margin and Pitch Stiffness"
+gloss = "The static margin is the distance from the centre of gravity to the neutral point in mean chords, and the pitch stiffness is the negative of the lift-curve slope times that margin."
+cite = []
+digest = "f8538b4987f12755"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Stick-Fixed Neutral Point"
+gloss = "The neutral point lies aft of the wing aerodynamic centre by the tail volume coefficient times the tail-to-wing lift slope ratio corrected for downwash."
+cite = []
+digest = "deb2d541dee94aee"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Short Period Frequency and Damping Approximation"
+gloss = "The short period approximation expresses the frequency and damping of the fast longitudinal mode through the pitch and heave stability derivatives."
+cite = []
+digest = "0124017a290fc6b2"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Dutch Roll Frequency Approximation"
+gloss = "The Dutch roll frequency is approximated by the square root of the directional stiffness moment divided by the yaw inertia."
+cite = []
+digest = "7c5e01a06efe13b3"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Slender-Wing Limit of the Lift-Curve Slope"
+gloss = "At low aspect ratio the subsonic lift-curve slope tends toward the slender-wing value of $\\pi A / 2$, which is 4.87 per radian for this wing."
+cite = []
+digest = "7e2c8772bd43064c"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Induced Drag Coefficient"
+gloss = "The induced drag coefficient is the square of the lift coefficient divided by pi, the aspect ratio and the span efficiency factor."
+cite = []
+digest = "0c45c22e5eeea88e"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Drag Build-Up of Friction, Wave and Induced Terms"
+gloss = "The drag coefficient is the sum of a friction term, a wave term and the induced drag."
+cite = []
+digest = "209d41f13611e61f"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number based on a reference length is the ratio of inertial to viscous forces in the free stream."
+cite = []
+digest = "5356d9c5bcbc9a4e"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Sutherland Viscosity Law"
+gloss = "Sutherland's relation gives the dynamic viscosity of air as a function of temperature from a reference viscosity and the Sutherland constant."
+cite = []
+digest = "c1d1abae0e375b41"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Turbulent Flat-Plate Friction Referred to Wetted Area"
+gloss = "The turbulent flat-plate one-fifth power law, scaled by the ratio of wetted to reference area, gives the friction drag coefficient."
+cite = []
+digest = "d4b4300bb1bd8725"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Ackeret Thickness Wave Drag"
+gloss = "In linearised theory the zero-lift wave drag of a thin section is four times the chordwise mean squared slope divided by the Prandtl-Glauert factor."
+cite = ["research_ackeret_1925"]
+digest = "b8869016ef92858c"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Ackeret Wave Drag Due to Lift"
+gloss = "The wave drag due to lift of a thin flat surface is four times the square of the angle of attack over the Prandtl-Glauert factor, which equals the square of the lift coefficient times that factor divided by four."
+cite = ["research_ackeret_1925"]
+digest = "a6af9f1c820528df"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Spar Cap Area and Root Bending Moment Under Elliptic Loading"
+gloss = "The required cap area is the root moment divided by allowable stress and structural depth, and the root moment of an elliptically loaded wing at load factor $n$ is $n W b / 3 \\pi$."
+cite = []
+digest = "53907f8cb9600205"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Torsional Stiffness from the Bredt Relation"
+gloss = "The torsional stiffness of a wing of length $\\ell_w$ is the shear modulus times the Bredt torsion constant divided by that length."
+cite = []
+digest = "0397331d8e2b93a5"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Divergence and Control Reversal Dynamic Pressures"
+gloss = "The typical-section analysis gives the dynamic pressures at which torsional stiffness is overcome by aerodynamic moment for divergence and for aileron reversal."
+cite = []
+digest = "df736513903b9fda"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Specific Strength at Operating Temperature"
+gloss = "The allowable stress at the wall temperature divided by material density is the figure of merit for a heated structure."
+cite = []
+digest = "128e84fea369ea26"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Adiabatic Wall Recovery Temperature"
+gloss = "The recovery temperature is the static temperature raised by the recovery factor times the stagnation temperature rise."
+cite = []
+digest = "2fed13399a2638f4"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Yield-to-Modulus Ratio"
+gloss = "The ratio of yield stress to Young's modulus governs the elastic springback of formed sheet."
+cite = ["ref_ti6al4v", "ref_aluminium_2024"]
+digest = "b30991b31d7e141b"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Springback of a Bent Sheet"
+gloss = "The ratio of bend radius before and after release is a cubic in the group formed by yield stress, bend radius, modulus and sheet thickness."
+cite = []
+digest = "e46484ae6bfd5e78"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Thermal, Propulsive and Overall Efficiency of a Turbojet"
+gloss = "The ideal Brayton thermal efficiency depends on compressor pressure ratio, the Froude propulsive efficiency on the exhaust to flight speed ratio, and their product is the overall efficiency."
+cite = []
+digest = "00a8f40477e161be"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Afterburner Thrust Ratio"
+gloss = "Afterburning raises exhaust velocity and hence thrust approximately as the square root of the ratio of nozzle to turbine exit total temperatures."
+cite = []
+digest = "39927335404d107b"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Point-Mass Equation Used to Separate Thrust from Drag"
+gloss = "Only the difference between thrust and drag is measurable from the trajectory, through the acceleration along the path and the gravity component."
+cite = []
+digest = "e45389eabc3f7805"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Compressor Face Total Pressure with Ram Compression"
+gloss = "The total pressure at the compressor face is the isentropic ram total pressure multiplied by the inlet recovery."
+cite = []
+digest = "3251f3954ca36bb2"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Oblique Shock Theta-Beta-Mach Relation"
+gloss = "The wedge turning angle is related to the oblique shock angle and the upstream Mach number by the standard oblique shock relation."
+cite = []
+digest = "f8ebc1b7cfecdac3"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Moments of Inertia of the X-3"
+gloss = "The tabulated roll, pitch and yaw inertias are converted from slug square feet to kilogram square metres."
+cite = ["research_coupling_history_1997"]
+digest = "19be34423c6cd620"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Pitch-to-Roll Inertia Ratio"
+gloss = "The pitch inertia is about fifteen times the roll inertia, an asymmetry three times that of the X-2."
+cite = ["research_coupling_history_1997"]
+digest = "08a565a570f5d758"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Phillips Critical Roll Rate"
+gloss = "Divergence in a rolling manoeuvre is expected when the roll rate approaches the lower of the pitch and yaw aerodynamic natural frequencies, as Phillips showed."
+cite = ["research_phillips_1948"]
+digest = "4f3ff38419d05352"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Dynamic Pressure at Mach 0.92 and 9144 Metres"
+gloss = "The Mach number form of dynamic pressure evaluated at the condition of the first roll of October 1954 gives about 17.8 kilopascals."
+cite = ["research_coupling_history_1997"]
+digest = "dd821f341ff9d43b"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Natural Frequencies with Representative Stiffness Coefficients"
+gloss = "The pitch and yaw frequencies are evaluated with stiffness coefficients of 0.3 and 0.1 per radian that the article takes as representative."
+cite = []
+digest = "1b854d55d2c4db76"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Critical Roll Rate at the First Roll Condition"
+gloss = "The lower of the two representative frequencies gives a critical roll rate of 84 degrees per second."
+cite = []
+digest = "f1103816c8d3c7d3"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Steady Roll Rate from Aileron Deflection"
+gloss = "The steady roll rate balances aileron control power against roll damping and scales with speed over span."
+cite = []
+digest = "d4c921e1e140b67b"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Supersonic Roll Damping Approximation"
+gloss = "The article adopts a roll damping derivative proportional to aspect ratio and inversely proportional to the Prandtl-Glauert factor for a supersonic aspect ratio above about four."
+cite = []
+digest = "6a790201aa534bba"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Roll Mode Time Constant"
+gloss = "The roll mode time constant is twice the roll inertia times speed divided by the roll damping moment scale."
+cite = []
+digest = "20b447d849ade99a"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "First-Order Roll Response"
+gloss = "The roll rate approaches its steady value exponentially with the roll mode time constant."
+cite = []
+digest = "3c60beeba25ac3b8"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Time to Reach the Critical Roll Rate"
+gloss = "Inverting the first-order response gives the time at which the roll rate crosses the critical value."
+cite = []
+digest = "27d00040c8171008"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Divergence Growth Rate Past the Critical Roll Rate"
+gloss = "Above the critical rate the pitch motion grows at the square root of the excess of the squared roll rate over the squared pitch frequency, and its reciprocal is the e-folding time."
+cite = []
+digest = "f710c6d510a7f6d9"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Euler Moment Equations with Inertial Cross-Coupling"
+gloss = "The pitch and yaw moment equations of a rigid body carry inertial cross terms proportional to the products of body rates."
+cite = []
+digest = "4bdfee91fd384169"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Linearised Pitch Equation in a Steady Roll"
+gloss = "Linearising about a steady roll rate reduces the effective pitch stiffness by the square of the roll rate and couples pitch to the sideslip rate."
+cite = ["research_phillips_1948"]
+digest = "f8fd75d8b58e21d0"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Linearised Yaw Equation in a Steady Roll"
+gloss = "The yaw counterpart reduces the effective directional stiffness by the square of the roll rate and couples sideslip to the pitch rate."
+cite = ["research_phillips_1948"]
+digest = "4cb951df27c65762"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Inertia Coupling Ratios of the X-3"
+gloss = "The inertia differences divided by the pitch and yaw inertias give coupling ratios of 1.00 and minus 0.88."
+cite = ["research_coupling_history_1997"]
+digest = "724ed61ec32a3612"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Load Factor Increment from an Angle of Attack Excursion"
+gloss = "An angle of attack increment produces a normal load factor increment equal to the added lift divided by the weight."
+cite = []
+digest = "87555ab5edbebd8a"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Takeoff Speed from Wing Loading"
+gloss = "The takeoff speed is the speed at which the maximum lift coefficient supports the weight."
+cite = []
+digest = "c078560bddda672f"
+
+[[equation]]
+tag = 88
+class = "bespoke"
+title = "Bespoke Sea-Level Takeoff Speed with an Assumed Maximum Lift Coefficient"
+gloss = "The takeoff speed is evaluated with a maximum lift coefficient of 0.9 that the article treats as optimistic, giving 108 metres per second."
+cite = []
+digest = "9fa93353d750e539"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Ground Roll at Constant Acceleration"
+gloss = "The ground roll is the square of takeoff speed over twice the acceleration that thrust leaves after drag and rolling friction."
+cite = []
+digest = "92a0c739f05f4f5b"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Ground Roll with Drag and Rolling Friction"
+gloss = "Integrating speed over acceleration with the drag and friction terms retained gives the ground roll distance."
+cite = []
+digest = "4c1f177b8c4607d6"
+
+[[equation]]
+tag = 91
+class = "standard"
+title = "Lift-Off Condition"
+gloss = "At lift-off the lift at takeoff speed and takeoff lift coefficient equals the weight."
+cite = []
+digest = "e94cbf174e968c84"
+
+[[equation]]
+tag = 92
+class = "standard"
+title = "Climb Gradient"
+gloss = "The sine of the climb angle is the thrust-to-weight ratio less the reciprocal of the lift-to-drag ratio."
+cite = []
+digest = "0b2fd0266fdabeca"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Climb Gradient After Lift-Off"
+gloss = "A subsonic lift-to-drag ratio near 8 that the article assumes at climb lift coefficient leaves a gradient of 0.315 with a thrust-to-weight ratio of 0.44."
+cite = []
+digest = "9446cf45864c1f58"
+
+[[equation]]
+tag = 94
+class = "standard"
+title = "Landing Gear Vertical Kinetic Energy"
+gloss = "The landing gear absorbs the kinetic energy of the sink rate at touchdown."
+cite = []
+digest = "2a8bebffef4039b0"
+
+[[equation]]
+tag = 95
+class = "standard"
+title = "Landing Distance at Constant Braking Deceleration"
+gloss = "The landing roll is the square of touchdown speed over twice the mean braking deceleration."
+cite = []
+digest = "7743e8b529d21ef8"
+
+[[equation]]
+tag = 96
+class = "standard"
+title = "Brake Energy"
+gloss = "The brakes absorb the kinetic energy at touchdown less the work done by aerodynamic drag during the roll."
+cite = []
+digest = "9ff3db2dd76e10c1"
+
+[[equation]]
+tag = 97
+class = "standard"
+title = "Tire Ground Speed Limit"
+gloss = "The touchdown ground speed, which is airspeed less headwind, must not exceed the tire speed rating."
+cite = []
+digest = "3f7958b6055ecf59"
+
+[[equation]]
+tag = 98
+class = "standard"
+title = "Landing Gear Stroke for a Load Factor Limit"
+gloss = "The stroke needed to absorb a sink rate at a chosen gear load factor follows from uniform deceleration."
+cite = []
+digest = "53bee0baab427020"
+
+[[equation]]
+tag = 99
+class = "standard"
+title = "Vane Corrections for Body Rotation"
+gloss = "Angle of attack and sideslip measured by boom vanes are corrected for the flow induced by pitch and yaw rates at the boom length."
+cite = []
+digest = "8d5acaa0f1d77383"
+
+[[equation]]
+tag = 100
+class = "standard"
+title = "Law of Propagation of Uncertainty"
+gloss = "The combined variance of a derived quantity is the sum of the input variances weighted by the squared sensitivity coefficients."
+cite = []
+digest = "c4cd5d76a8ed80ce"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Nyquist Sampling Criterion"
+gloss = "The sample rate must exceed twice the highest frequency of interest."
+cite = []
+digest = "c3bb6d31e44d2087"
+
+[[equation]]
+tag = 102
+class = "standard"
+title = "Recorded Bit Budget"
+gloss = "The data rate is the number of channels times the sample rate times the bits per sample."
+cite = []
+digest = "52a04774b450740d"
+
+[[equation]]
+tag = 103
+class = "standard"
+title = "Quantisation Step and Quantisation Noise"
+gloss = "A converter of $b$ bits divides the full scale into steps whose uniform rounding error has a standard deviation of the step over the square root of twelve."
+cite = []
+digest = "619547d21e86705b"
+
+[[equation]]
+tag = 104
+class = "standard"
+title = "Propagation of Inertia Uncertainty into the Critical Roll Rate"
+gloss = "Because the critical rate varies as the inverse square root of an inertia, its relative uncertainty is half the relative uncertainty of the inertia."
+cite = []
+digest = "799a1df707c9b69d"
+
+[[equation]]
+tag = 105
+class = "standard"
+title = "Compound Pendulum Period and the Parallel Axis Theorem"
+gloss = "The swing period of a compound pendulum gives the inertia about the pivot, and the parallel axis theorem transfers it to the centre of gravity."
+cite = []
+digest = "b7d00a84f9d9c172"
+
+[[equation]]
+tag = 106
+class = "standard"
+title = "Uncertainty of an Inertia Found by Swing Test"
+gloss = "Propagating period and pivot distance uncertainties through the pendulum relation amplifies them by the ratio of pivot inertia to centre of gravity inertia."
+cite = []
+digest = "45677b7654a6fe35"
+
+[[equation]]
+tag = 107
+class = "standard"
+title = "Gravity Component in a Dive"
+gloss = "In a descent the weight component along the flight path acts as additional thrust."
+cite = []
+digest = "a9a8005fa756b2e2"
+
+[[equation]]
+tag = 108
+class = "standard"
+title = "Flights Required and Information Gained Under a Gaussian Model"
+gloss = "For a Gaussian prior and measurement the number of flights to reach a target uncertainty and the information gained in nats follow from the precision update."
+cite = ["research_lindley_1956", "research_chaloner_verdinelli_1995"]
+digest = "89b182abf1690821"
+
+[[equation]]
+tag = 109
+class = "bespoke"
+title = "Bespoke Airframe Attrition Condition"
+gloss = "The series sizes the airframe count as the smallest number for which the binomial probability of fewer losses than airframes over $n$ flights reaches the stated confidence."
+cite = []
+digest = "4b41cece686e99a5"
+
+[[equation]]
+tag = 110
+class = "standard"
+title = "Mass and Inertia Similarity Groups for a Dynamic Model"
+gloss = "A dynamically scaled model must match the relative density and the nondimensional roll and pitch inertias of the full-scale aircraft."
+cite = []
+digest = "f6aedb96cec2b7b0"
+
+[[equation]]
+tag = 111
+class = "standard"
+title = "Reduced Frequency"
+gloss = "The reduced frequency is the circular frequency of the motion multiplied by the time the flow takes to cross half the span."
+cite = []
+digest = "6ff7b32f61928006"
+
+[[equation]]
+tag = 112
+class = "standard"
+title = "Inertia Scaling of a Dynamically Similar Model"
+gloss = "A model at geometric scale $1/k_g$ must have its inertias reduced by the fifth power of the scale and the ratio of air densities."
+cite = []
+digest = "09422b985de3b1dd"
+
+[[equation]]
+tag = 113
+class = "standard"
+title = "Posterior Uncertainty After Two Departures"
+gloss = "Averaging two independent measurements reduces the uncertainty by the square root of two."
+cite = []
+digest = "4f791cf0f3f98502"
+
+[[equation]]
+tag = 114
+class = "standard"
+title = "Gear Energy and Touchdown Speed Scaling"
+gloss = "The gear energy grows with the square of sink rate, and touchdown speed scales as the square root of wing loading over maximum lift coefficient."
+cite = []
+digest = "7db6ec3bff278377"
+
+[[symbol]]
+tex = 'M_\infty'
+meaning = "the free-stream Mach number"
+
+[[symbol]]
+tex = 'M_1'
+meaning = "the Mach number ahead of a shock"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air, and in the trajectory relations the flight path angle"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure, and in the body-axis relations the pitch rate"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'C_{L\alpha}'
+meaning = "the lift-curve slope per radian"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'C_{m\alpha}'
+meaning = "the pitching moment slope with angle of attack"
+
+[[symbol]]
+tex = 'C_{n\beta}'
+meaning = "the directional stability derivative"
+
+[[symbol]]
+tex = 'C_{lp}'
+meaning = "the roll damping derivative"
+
+[[symbol]]
+tex = 'I_x'
+meaning = "the moment of inertia in roll"
+
+[[symbol]]
+tex = 'I_y'
+meaning = "the moment of inertia in pitch"
+
+[[symbol]]
+tex = 'I_z'
+meaning = "the moment of inertia in yaw"
+
+[[symbol]]
+tex = '\omega_\alpha'
+meaning = "the torsional natural frequency in the flutter relations and the pitch aerodynamic natural frequency in the coupling analysis"
+
+[[symbol]]
+tex = '\omega_\beta'
+meaning = "the yaw aerodynamic natural frequency"
+
+[[symbol]]
+tex = 'p_{\text{crit}}'
+meaning = "the critical roll rate for inertia-coupled divergence"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the wing thickness-to-chord ratio"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'h_e'
+meaning = "the energy height"
+
+[[symbol]]
+tex = '\eta_d'
+meaning = "the inlet total pressure recovery"
+
+[[symbol]]
+tex = 'SM'
+meaning = "the static margin as a fraction of the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'x_{np}'
+meaning = "the longitudinal position of the neutral point"
+
+[[symbol]]
+tex = 'V_{TO}'
+meaning = "the takeoff speed"
+
+[[symbol]]
+tex = 'V_{TD}'
+meaning = "the touchdown speed"
+
+[[symbol]]
+tex = 'w_s'
+meaning = "the sink rate at touchdown"
+
+[[symbol]]
+tex = '\sigma_0'
+meaning = "the prior uncertainty in the quantity a campaign measures"
+
+[[symbol]]
+tex = '\sigma_m'
+meaning = "the uncertainty of a single flight measurement"
+
+[[symbol]]
+tex = '\sigma_T'
+meaning = "the target uncertainty"
+
+[[symbol]]
+tex = '\sigma_n'
+meaning = "the posterior uncertainty after $n$ flights"
+
+[[symbol]]
+tex = 'n^{*}'
+meaning = "the number of flights needed to reach the target uncertainty"
+
+[[symbol]]
+tex = 'I_n'
+meaning = "the information gained from $n$ flights in nats"
+
+[[symbol]]
+tex = 'n_a'
+meaning = "the number of airframes"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the growth rate of a coupled divergence"
+
+[[symbol]]
+tex = '\mu_m'
+meaning = "the mass ratio of the wing or aircraft to the surrounding air"
+
+[[symbol]]
+tex = '\mu_1'
+meaning = "the pitch inertia coupling ratio"
+
+[[symbol]]
+tex = '\mu_2'
+meaning = "the yaw inertia coupling ratio"
+
+[[symbol]]
+tex = '\ell_b'
+meaning = "the boom length ahead of the centre of gravity"
+
+[[symbol]]
+tex = 'f_s'
+meaning = "the sample rate"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the local surface inclination or flow turning angle in radians"
+
+[[symbol]]
+tex = 'h_s'
+meaning = "the structural depth of the wing box"
+
+[[symbol]]
+tex = 'A_{\text{cap}}'
+meaning = "the spar cap area"
+
+[[symbol]]
+tex = 'K_\theta'
+meaning = "the torsional stiffness of the wing"
+
+[[symbol]]
+tex = 'A_m'
+meaning = "the area enclosed by the wing box"
+
+[[symbol]]
+tex = 'p_{02}'
+meaning = "the total pressure at the compressor face"
+
+[[symbol]]
+tex = 'A_0'
+meaning = "the free-stream area of the stream tube the engine demands"
+
+[[symbol]]
+tex = 'A_c'
+meaning = "the inlet capture area"
+
+[[symbol]]
+tex = 'D_{\text{add}}'
+meaning = "the additive drag of a spilling inlet"
+
+[[symbol]]
+tex = '\beta_s A'
+meaning = "the supersonic aspect ratio parameter"
+
+[[symbol]]
+tex = 'p_{ss}'
+meaning = "the steady roll rate"
+
+[[symbol]]
+tex = '\tau_r'
+meaning = "the roll mode time constant"
+
+[[symbol]]
+tex = 'T_r'
+meaning = "the adiabatic wall recovery temperature"
+
+[[symbol]]
+tex = '\sigma_y'
+meaning = "the yield stress"
+
+[[symbol]]
+tex = 't_s'
+meaning = "the sheet thickness"
+
+[[symbol]]
+tex = '\pi_c'
+meaning = "the compressor pressure ratio"
+
+[[symbol]]
+tex = 'k_g'
+meaning = "the geometric scale factor of a dynamic model"

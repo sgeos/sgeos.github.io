@@ -1,0 +1,862 @@
+caution = "Vehicle masses and thrusts are quoted in pounds while the structural, thermal and propulsion relations are evaluated in the International System, and many letters are reused between sections, so $r$ is an orbital radius and then the mixture ratio, $R$ is a tank radius except in the gas relations, where it is the universal gas constant, $h$ is the envelope height and then the sandwich core thickness, $\\gamma$ is the buckling knockdown factor in the shell relations and the ratio of specific heats in the nozzle relations, $\\alpha$ is a lobe half angle and then a thermal expansion coefficient, $\\rho_c$ is the core density in the sandwich relations and the condensate density in the cryopumping relations, $\\varepsilon$ is the nozzle area ratio while $\\varepsilon_2$ is a strain, and $f$ is a fill fraction and then a share of the structural allowance."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Demanded Reduction in Cost to Orbit"
+gloss = "The stated goal of reducing launch cost from about ten thousand to one thousand dollars a pound is a factor of ten."
+cite = ["ref_gao_x33"]
+digest = "0232e886cdd3af26"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Growth of the Industry Contribution"
+gloss = "The industry contribution grew from 211.6 to 286.6 million dollars, an increase of 35.4 percent of the original figure."
+cite = ["ref_gao_x33"]
+digest = "01c50545ffd9b445"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Gross Mass Ratio of VentureStar to the X-33"
+gloss = "The ratio takes the VentureStar gross mass as 2,184,000 pounds, a value the article chooses within the roughly 2.2 million reported, against the X-33's 285,000."
+cite = ["ref_venturestar"]
+digest = "2bf758acdbdde4ad"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Linear Scale Ratio Under a Cube Law"
+gloss = "Assuming that mass scales with the cube of linear size, the mass ratio implies a linear scale ratio of about two, consistent with the description of a half-scale demonstrator."
+digest = "4450412b944efa6c"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The ideal velocity increment is the effective exhaust velocity times the natural logarithm of the ratio of gross to burnout mass."
+cite = ["ref_rocketeq", "book_rocket_propulsion_elements"]
+digest = "2a9951c1644ba2bf"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Required Mass Ratio"
+gloss = "Inverting the rocket equation gives the mass ratio as the exponential of the velocity increment over the effective exhaust velocity."
+cite = ["ref_rocketeq", "book_rocket_propulsion_elements"]
+digest = "87ce30d136abb744"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Propellant Mass Fraction"
+gloss = "The propellant mass fraction is one minus the reciprocal of the mass ratio."
+digest = "c0ffb57dd652ab21"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Circular Orbit Force Balance"
+gloss = "In a circular orbit gravity supplies exactly the centripetal acceleration."
+digest = "ce9c8fb4c2a06a48"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Circular Orbital Velocity"
+gloss = "The circular orbital velocity is the square root of the gravitational parameter over the orbital radius."
+digest = "274e4d23133e957f"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Orbital Velocity at Two Hundred Kilometres"
+gloss = "The circular velocity is evaluated at an altitude of two hundred kilometres, the reference orbit the article takes."
+digest = "5483b12ec47db62e"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Ascent Losses"
+gloss = "The losses are the difference between a velocity budget of 9,300 metres per second, which the article takes as the cost of low Earth orbit, and the circular velocity at two hundred kilometres."
+digest = "d34096a0a4bfad6e"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Effective Exhaust Velocity"
+gloss = "The effective exhaust velocity uses a trajectory-effective specific impulse of 430 seconds that the article takes as representative of a hydrogen-oxygen engine."
+digest = "2bae4baefaa4c408"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Required Mass Ratio to Orbit"
+gloss = "The representative budget of 9,300 metres per second and specific impulse of 430 seconds give a required mass ratio of about nine."
+digest = "2d85e0b9c9c82db9"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Required Propellant Fraction to Orbit"
+gloss = "The required propellant fraction under the representative budget and specific impulse is 0.89, leaving eleven percent of gross mass for everything else."
+digest = "19878d94186660e7"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Bounds on the Required Propellant Fraction"
+gloss = "The rocket equation evaluated at the corners of the assumed ranges of delta-v budget and specific impulse bounds the required propellant fraction between 0.864 and 0.903."
+digest = "6ba7381d9063f867"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Propellant Fraction of the X-33"
+gloss = "The published propellant load divided by the published gross mass gives a propellant fraction of 0.737."
+cite = ["ref_x33_factsheet"]
+digest = "bd4769a5a6387b82"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Specific Volume of a Bipropellant Load"
+gloss = "The volume per unit mass of propellant is the mass-weighted sum of the specific volumes of fuel and oxidiser at mixture ratio $r$."
+digest = "d8febdc708ad3bab"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Bulk Density of a Bipropellant Load"
+gloss = "The bulk density is the reciprocal of the mass-weighted specific volume."
+digest = "d6c721de6782af82"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Hydrogen Mass Share at the Engine Mixture Ratio"
+gloss = "At the engine mixture ratio of 5.5 hydrogen is 15.4 percent of the propellant mass."
+digest = "c551796c315ae5f4"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Hydrogen Volume Share at the Engine Mixture Ratio"
+gloss = "With the normal boiling point densities of hydrogen and oxygen, hydrogen occupies 74.6 percent of the propellant volume."
+cite = ["ref_huzel", "ref_lh2"]
+digest = "2a3cabfebbe74072"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Hemispherical Equilibrium of a Spherical Vessel"
+gloss = "The pressure on the projected area of a hemisphere is balanced by the wall stress acting around its rim."
+digest = "9d2030e3b5b9c344"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Mass of a Thin Spherical Pressure Vessel"
+gloss = "The mass of a thin spherical vessel sized by membrane stress is three halves of wall density times pressure times volume over allowable stress."
+digest = "1fcf055075e63817"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Hoop Equilibrium of a Cylindrical Vessel"
+gloss = "The pressure on a half shell of a long cylinder is balanced by the hoop stress in its two wall sections."
+digest = "0210949c6b62f33b"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Mass per Unit Length of a Thin Cylindrical Vessel"
+gloss = "The mass of a long thin cylindrical vessel sized by hoop stress is twice wall density times pressure times volume over allowable stress."
+digest = "deb80283c302f50c"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Tank to Propellant Mass Ratio of an Ideal Vessel"
+gloss = "The ratio of membrane vessel mass to propellant mass depends on a shape factor, wall density, pressure, allowable stress and propellant density, and contains no length."
+digest = "63c861322e7f01e5"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Ideal Cylindrical Hydrogen Tank Ratio"
+gloss = "The ideal ratio of 2.852 percent uses a laminate density of 1,570 kilograms per cubic metre and a design allowable of 450 megapascals that the article assumes, at the protoflight pressure."
+cite = ["book_mechanics_of_composite_materials"]
+digest = "592560ed56c6b3ab"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Hydrogen Held by One X-33 Tank"
+gloss = "The published capacity of 29,000 gallons at the normal boiling point density of hydrogen holds about 7,780 kilograms."
+cite = ["ref_msfc_tank_release"]
+digest = "dc0b411f9bc82367"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Specific Strength of the Composite"
+gloss = "The specific strength of the composite is the assumed allowable of 450 megapascals over the assumed laminate density."
+digest = "aa2ed05e751745d1"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Specific Strength of Aluminium-Lithium"
+gloss = "The specific strength of aluminium-lithium at cryogenic temperature uses an allowable of 400 megapascals and a density of 2,700 kilograms per cubic metre that the article takes as representative."
+digest = "1d0a8190c3b2e955"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Separation of Two Lobes in a Rectangular Envelope"
+gloss = "The article places two equal lobes of radius half the envelope height so that their outer extremities touch the sides of the box, which fixes the separation of their centres."
+digest = "a48583f858a41a53"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Union Area of Two Intersecting Circles"
+gloss = "The area of two overlapping circles is twice the area of one less the area of the lens they share."
+digest = "c225298734227153"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Half Chord of the Lobe Intersection"
+gloss = "Two circles of radius $R$ with centres $d$ apart intersect at a height given by Pythagoras above the line of centres."
+digest = "746beb591536a9b5"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Resultant of the Skin Tensions at a Lobe Junction"
+gloss = "Adding the two membrane tensions along their tangents at the junction leaves a resultant of $p\\,d$ directed along the web."
+digest = "49fe1a4225873217"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Web Tension of a Lobed Tank"
+gloss = "The web at a lobe junction carries a tension per unit length equal to the pressure times the separation of the lobe centres."
+digest = "b9cc94233239c9ce"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Lobe Radius and Separation of the X-33 Section"
+gloss = "The published envelope of 6.1 by 4.3 metres gives the lobe radius and separation under the two-lobe arrangement the article adopts."
+digest = "f5208ddafb11e5a0"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Hoop and Web Loads of the Adopted Two-Lobe Section"
+gloss = "The hoop load of each lobe and the load on the web follow from the protoflight pressure and the lobe radius and separation of the two-lobe section the article adopts."
+digest = "ad33b805a5c278dc"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Height of the X-33 Web"
+gloss = "The web height of 3.905 metres is the chord between the lobe intersections of the adopted two-lobe section."
+digest = "edc3efee4347326c"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Membrane Mass per Unit Length of a Lobed Section"
+gloss = "The article sizes every wall of the lobed section by its membrane tension, so the mass per unit length is the retained arc times the radius plus the web height times the separation, scaled by wall density, pressure and allowable stress."
+digest = "101e7186a2f5f5aa"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Half Angle of the Removed Cap"
+gloss = "The half angle subtended by the overlapping cap of each lobe is the inverse cosine of half the separation over the radius."
+digest = "45119180364af530"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Retained Arc Length of Two Lobes"
+gloss = "The retained skin arc of the two lobes is two full circles less the two removed caps."
+digest = "ca2ef66fcd18b6b7"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Union Area in Terms of the Half Angle"
+gloss = "Rewriting the lens with the half angle expresses the union area of the two lobes."
+digest = "8a5c85810736e70d"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Identity Equating Wall Measure to Twice the Area"
+gloss = "The article shows that the arc and web terms of its membrane model sum to twice the enclosed area for every radius and separation at which the lobes intersect."
+digest = "192d7f3db560ecc7"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Membrane Mass per Unit Volume of a Lobed Tank"
+gloss = "Under the membrane sizing model the lobed tank has exactly the mass per unit enclosed volume of a cylinder, so the shape appears free."
+digest = "c13e912a12f70d2e"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Share of the Built Tank Explained by Membrane Sizing"
+gloss = "The ideal membrane ratio, resting on the assumed laminate properties, accounts for 10.6 percent of the mass of the built tank."
+cite = ["ref_x33"]
+digest = "39a55e2f1efb2cb4"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Classical Buckling Stress of a Cylinder With Knockdown"
+gloss = "The critical axial stress of a thin cylinder is the classical value scaled by a knockdown factor $\\gamma$ for imperfection sensitivity, as in the agency's design monograph."
+cite = ["research_viweingarten_pseide_1968"]
+digest = "84e8cb83aca4194a"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Critical Compressive Line Load"
+gloss = "The compressive load per unit circumference the shell can carry is the critical stress times the wall thickness."
+cite = ["research_viweingarten_pseide_1968"]
+digest = "c0e542cbb4f1b3e2"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Thickness Required for Stability"
+gloss = "Inverting the critical line load gives the wall thickness that stability demands for a given axial line load."
+digest = "783a57367046c753"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Line Load Above Which Stability Governs"
+gloss = "The article sets the buckling thickness equal to the membrane thickness and solves for the line load at which stability begins to size the wall."
+digest = "7bdc0a13f4837748"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Stability Threshold for the X-33 Tank"
+gloss = "The threshold of 7.54 kilonewtons per metre uses a knockdown of 0.2 and a laminate modulus of 70 gigapascals that the article assumes."
+digest = "2764956a615e074b"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Axial Line Load From Engine Thrust"
+gloss = "The article spreads the published sea-level thrust of both engines uniformly over the outer contour of both tanks, ignoring inertial, aerodynamic and handling loads."
+cite = ["research_dagostinomarkg_leeyoungc_2001"]
+digest = "71d8367a33dfad85"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Buckling Thickness at the Thrust Line Load"
+gloss = "The buckling thickness of 3.66 millimetres follows from the thrust line load with the assumed knockdown and modulus."
+digest = "f4c20584a278adb8"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Pressure Stabilisation Parameter"
+gloss = "The pressure parameter of 1.427 is evaluated with the assumed laminate modulus and the buckling thickness at the thrust line load."
+digest = "c2d378c4f300e6f0"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Bending Stiffness of a Monocoque Wall"
+gloss = "The plate bending stiffness of a solid wall is evaluated at the buckling thickness with the assumed laminate modulus."
+cite = ["book_analysis_and_design_of_flight_vehicle_st"]
+digest = "297de24afde9a7a1"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Bending Stiffness of a Thin-Faced Sandwich"
+gloss = "Two facesheets separated by a core have a bending stiffness proportional to the facesheet thickness and the square of the separation."
+cite = ["book_analysis_and_design_of_flight_vehicle_st", "ref_sandwich"]
+digest = "9c9f85c73736ce8c"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Core Thickness for Stiffness Parity"
+gloss = "The core thickness at which the sandwich matches the monocoque stiffness is evaluated with the assumed laminate properties."
+digest = "800d9307aec4ede0"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Facesheet Thickness From Membrane Load Sharing"
+gloss = "Each facesheet carries half the membrane load, so its thickness is half the membrane thickness computed with the assumed allowable."
+digest = "c02e164189645f1e"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Minimum Manufacturable Gauge"
+gloss = "The minimum gauge is eight plies of a balanced symmetric quasi-isotropic laminate at a ply thickness of 0.125 millimetres that the article takes as representative."
+digest = "9d097193eef8362b"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Areal Mass of the Monocoque Wall"
+gloss = "The areal mass of the solid wall is the assumed laminate density times the buckling thickness."
+digest = "1b4c8343cc7d0a73"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Areal Mass of a Sandwich Wall"
+gloss = "The areal mass of a sandwich is twice the facesheet mass per unit area plus the core density times the core thickness."
+digest = "2e4897dd9887d373"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Core Thickness at Which the Sandwich Loses Its Advantage"
+gloss = "Setting the sandwich areal mass equal to the monocoque areal mass gives a break-even core thickness of about forty millimetres under the assumed properties."
+digest = "692a81a03b99c812"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Face Wrinkling Stress"
+gloss = "The standard wrinkling correlation is evaluated with face and core moduli that the article assumes, giving 559 megapascals against the assumed allowable."
+digest = "aa571494e8e84520"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Sheet Area of One Tank"
+gloss = "The article sums the barrel skin, the web and two end closures that it takes at 1.4 times the flat cross-section."
+digest = "dfd18f8faee4e518"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Wall Mass at a Thirty Millimetre Core"
+gloss = "The wall mass of 1,242 kilograms multiplies the areal mass of a sandwich with an assumed thirty millimetre core by the built-up sheet area."
+digest = "ebd94185e50c98a5"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Empty and Propellant Masses from the Two Specification Families"
+gloss = "Subtracting within each published specification family gives an empty mass of 75,000 pounds from the first and a propellant load of 209,900 pounds from the second."
+cite = ["ref_x33_factsheet", "ref_astronautix_x33"]
+digest = "6fc4bdd64eb44c90"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Disagreement Between Two Empty Mass Figures"
+gloss = "The two published specification families give empty masses that differ by 12,000 pounds, nineteen percent of the smaller figure."
+cite = ["ref_x33_factsheet", "ref_astronautix_x33"]
+digest = "e3fc7226d1a80894"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Liftoff Thrust-to-Weight Ratio"
+gloss = "Two engines at the published sea-level rating of 204,420 pounds against the published gross mass give a liftoff ratio of 1.435."
+cite = ["research_dagostinomarkg_leeyoungc_2001"]
+digest = "8ac9f8cae666b8b3"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Thrust-to-Weight Ratio Implied by the Erroneous Table"
+gloss = "Taking the widely copied figure of 410,000 pounds as a per-engine thrust implies a liftoff ratio of 2.877, which no launch vehicle has had."
+digest = "51f1b62c37304fe7"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Tank Share of Burnout Mass"
+gloss = "The published tank mass of 9,200 pounds is 12.27 percent of the 75,000-pound burnout mass."
+cite = ["ref_cryotank_review"]
+digest = "e37360b001c18968"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Constrained Transverse Thermal Strain"
+gloss = "A ply prevented from contracting transversely by its neighbours carries a strain equal to the difference of the transverse and longitudinal expansion coefficients times the temperature excursion."
+digest = "2746fb1ca8cc537b"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Transverse Strain on Cooldown to Liquid Hydrogen"
+gloss = "The strain of 1.306 percent uses a cure temperature of about 450 kelvin and expansion coefficients that the article takes as representative of a carbon-epoxy ply."
+digest = "1dbf74cc80e64e53"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Transverse Stress on Cooldown"
+gloss = "The transverse stress is the representative strain times a transverse modulus near nine gigapascals that the article assumes."
+digest = "030e874935ed86be"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Ratio of Cooldown Strain to Failure Strain"
+gloss = "The cooldown strain exceeds a matrix-dominated transverse failure strain, taken as about 0.6 percent, by a factor of 2.18."
+digest = "53b9251562da2f11"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Cure Temperature That Would Avoid Cracking"
+gloss = "Inverting the strain relation with the representative mismatch and failure strain gives a cure temperature of about 218 kelvin."
+digest = "6076c861eae5cb27"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Constant-Volume Ideal Gas Pressure Ratio"
+gloss = "At constant volume the pressure of an ideal gas is proportional to its absolute temperature."
+digest = "107565456039a02b"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Pressure Ratio on Warming a Sealed Cell"
+gloss = "Warming a cell sealed at liquid hydrogen temperature to a room temperature of 300 kelvin, a value the article takes, multiplies its pressure by 14.78."
+digest = "c1788cef49ff9adb"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Pressure of Evaporated Condensate"
+gloss = "Condensate filling a fraction $f$ of a fixed volume returns on evaporation to an ideal gas pressure set by its density, molar mass and temperature."
+cite = ["ref_cryopumping"]
+digest = "4d060ded4452dac0"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Fill Fraction Required for a Given Pressure"
+gloss = "Inverting the evaporation relation gives the condensate fill fraction needed to reach a given core pressure."
+digest = "77774641ac0c4d99"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Nitrogen Fill Fraction That Exceeds a Degraded Bond"
+gloss = "Solid nitrogen warming to 300 kelvin needs to fill only 1.509 percent of the core to exceed a flatwise bond strength the article takes as 200 pounds per square inch."
+digest = "5429756b649fc245"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Hydrogen Fill Fraction That Exceeds a Degraded Bond"
+gloss = "The ideal gas law gives the density of hydrogen at 300 kelvin and at the 200 pounds per square inch the article takes as the degraded bond strength, which is 1.573 percent of the density of the liquid."
+digest = "44219b28eb2afe83"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Rocket Thrust With a Pressure Term"
+gloss = "Thrust is the exhaust momentum flux plus the difference between exit and ambient pressure acting over the exit area."
+cite = ["ref_aerospike"]
+digest = "d566febf62cf2c49"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Thrust Coefficient"
+gloss = "The thrust coefficient is the thrust normalised by chamber pressure and throat area."
+digest = "112b036075c394dd"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Characteristic Velocity"
+gloss = "The characteristic velocity collects the chamber performance as chamber pressure times throat area over mass flow."
+digest = "36efe1aca3b5cfdb"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Specific Impulse as Thrust Coefficient Times Characteristic Velocity"
+gloss = "Specific impulse factors into a nozzle term, the thrust coefficient, and a chamber term, the characteristic velocity, divided by standard gravity."
+digest = "0d3233481c33da27"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Specific Impulse Ratio as a Thrust Coefficient Ratio"
+gloss = "For one engine at two ambient pressures the characteristic velocity cancels, so the specific impulse ratio equals the thrust coefficient ratio."
+digest = "f68c70ea1bd27a0f"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Isentropic Nozzle Area Ratio"
+gloss = "The isentropic relations give the nozzle area ratio as a function of the exit-to-chamber pressure ratio and the ratio of specific heats."
+digest = "b112e439e98acc43"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Ideal Thrust Coefficient"
+gloss = "The ideal thrust coefficient is a momentum term in the pressure ratio plus the pressure mismatch term times the area ratio."
+digest = "f4eb96181f019ce2"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Flow Separation Criterion"
+gloss = "The usual criterion for attached nozzle flow requires the exit pressure to be at least about four tenths of ambient."
+digest = "5b7766a9df090dd1"
+
+[[equation]]
+tag = 88
+class = "bespoke"
+title = "Bespoke Depth Inside the Separation Region at Sea Level"
+gloss = "The exit pressure of 7.755 kilopascals, computed with a ratio of specific heats the article assumes, lies 5.23 times inside the separation limit at sea level."
+digest = "fb71c2c6e311bf06"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Ratio of the Published Specific Impulses"
+gloss = "The published vacuum and sea-level specific impulses of 436.5 and 339.0 seconds stand in a ratio of 1.2876."
+cite = ["research_dagostinomarkg_leeyoungc_2001"]
+digest = "ee5a7c627d6224be"
+
+[[equation]]
+tag = 90
+class = "bespoke"
+title = "Bespoke Disagreement With an Ideal Compensating Nozzle"
+gloss = "The published ratio exceeds the ideal compensating value of 1.2140, computed with the assumed ratio of specific heats, by 5.72 percent."
+digest = "bd2f42638c2bf24d"
+
+[[equation]]
+tag = 91
+class = "standard"
+title = "Thermal Contraction of a Tank"
+gloss = "A tank of length $L$ contracts by its expansion coefficient times the temperature change times its length."
+digest = "1bcbfa9eaa545c05"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Velocity Given Up Between Mach 15 and Mach 13.8"
+gloss = "The shortfall is converted to velocity with a speed of sound of 323.96 metres per second, a convention the article chooses among several in circulation."
+cite = ["ref_atm76"]
+digest = "bddf8bc27c29a0c5"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Burnout Mass That Would Have Reached Mach 15"
+gloss = "Holding the gross mass fixed, an assumption the article makes, the rocket equation gives the burnout mass that would have recovered the lost velocity."
+digest = "e0d42b1cc08fb2cb"
+
+[[equation]]
+tag = 94
+class = "bespoke"
+title = "Bespoke Range of Burnout Mass Growth"
+gloss = "The rocket equation inverted at the two ends of the plausible effective specific impulse gives a growth in burnout mass between 9.5 and 12.0 percent, holding the gross mass fixed as the article assumes."
+digest = "10ceba784a374e41"
+
+[[equation]]
+tag = 95
+class = "standard"
+title = "Empty Mass Growth Between Specification Tables"
+gloss = "The later gross-minus-propellant figure exceeds the earlier unfuelled mass by nineteen percent."
+digest = "ad232acd35d7cb20"
+
+[[equation]]
+tag = 96
+class = "bespoke"
+title = "Bespoke Structural Allowance of VentureStar"
+gloss = "The allowance subtracts the propellant implied by the representative fraction of 0.8898 and a payload of 45,000 pounds that the article assumes from the gross mass."
+digest = "af6b6e179b78b831"
+
+[[equation]]
+tag = 97
+class = "bespoke"
+title = "Bespoke VentureStar Hydrogen Tank Mass at the Demonstrated Efficiency"
+gloss = "The X-33 tank ratio of 26.83 percent is applied to the hydrogen load of VentureStar at a mixture ratio of 5.5."
+digest = "326407579b457861"
+
+[[equation]]
+tag = 98
+class = "bespoke"
+title = "Bespoke Tank Share of the VentureStar Allowance"
+gloss = "At the demonstrated efficiency the hydrogen tanks would take 41 percent of the assumed structural allowance."
+digest = "6507a7d0b362a7b5"
+
+[[equation]]
+tag = 99
+class = "bespoke"
+title = "Bespoke Required Tank Efficiency"
+gloss = "The article defines the required tank efficiency as the share of the structural allowance granted to the tanks times that allowance over the hydrogen load."
+digest = "80bc56cdb8257ead"
+
+[[equation]]
+tag = 100
+class = "bespoke"
+title = "Bespoke Required Efficiency at Fifteen Percent of the Allowance"
+gloss = "Granting the tanks fifteen percent of the allowance, a share the article chooses, requires a tank efficiency of 9.8 percent of the hydrogen held."
+digest = "183862a1a6af0106"
+
+[[equation]]
+tag = 101
+class = "bespoke"
+title = "Bespoke Improvement Demanded Over the X-33 Tank"
+gloss = "The demonstrated efficiency over the required efficiency at fifteen percent gives an improvement factor of 2.73."
+digest = "98411a4c7c30b169"
+
+[[equation]]
+tag = 102
+class = "bespoke"
+title = "Bespoke Sandwich Saving From a Better Knockdown"
+gloss = "Moving the knockdown factor from 0.2 to 0.5 on the composite sandwich at stiffness parity saves about 103 pounds across both tanks under the assumed properties."
+digest = "44cebabba3c2b1c4"
+
+[[equation]]
+tag = 103
+class = "bespoke"
+title = "Bespoke Monocoque Saving From a Better Knockdown"
+gloss = "The same change of knockdown on an aluminium monocoque of the same geometry saves about 3,932 pounds."
+digest = "823ef389e707ed7b"
+
+[[equation]]
+tag = 104
+class = "bespoke"
+title = "Bespoke Burnout Mass Growth at the Two Table Ends"
+gloss = "The growth that cost the Mach 15 objective is the burnout mass less the recovering burnout mass at effective specific impulses of 350 and 436.5 seconds."
+digest = "c3211eb4b79c9650"
+
+[[equation]]
+tag = 105
+class = "bespoke"
+title = "Bespoke Monocoque Saving as a Share of the Growth"
+gloss = "The monocoque saving is expressed as a share of the burnout mass growth at the two ends of the table."
+digest = "89ada556f4364396"
+
+[[equation]]
+tag = 106
+class = "standard"
+title = "Implied Tank Fill Fraction"
+gloss = "The hydrogen implied by the published propellant load and mixture ratio fills 94.2 percent of the published tank capacity."
+digest = "58665f8edce75eba"
+
+[[symbol]]
+tex = '\Delta v'
+meaning = "the ideal velocity increment, with $\\Delta v_{\\text{lost}}$ the velocity given up against the Mach 15 objective"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the gross mass, with $m_f$ the burnout mass and $m_f^{\\ast}$ the burnout mass that would have reached Mach 15"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the propellant mass fraction"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the Earth"
+
+[[symbol]]
+tex = 'v_{\text{circ}}'
+meaning = "the circular orbital velocity"
+
+[[symbol]]
+tex = '\rho_f'
+meaning = "the fuel density, with $\\rho_o$ the oxidiser density"
+
+[[symbol]]
+tex = '\rho_w'
+meaning = "the wall material density"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the allowable stress of the wall, with $\\sigma_{cr}$ the critical buckling stress"
+
+[[symbol]]
+tex = 'p'
+meaning = "the internal pressure, except in the nozzle relations, where subscripts mark chamber, exit and ambient pressures"
+
+[[symbol]]
+tex = 't'
+meaning = "the wall thickness, with $t_f$ the facesheet thickness"
+
+[[symbol]]
+tex = 'd'
+meaning = "the separation of the lobe centres"
+
+[[symbol]]
+tex = 'N_{\text{web}}'
+meaning = "the web tension per unit length"
+
+[[symbol]]
+tex = 'h_{\text{web}}'
+meaning = "the height of the web"
+
+[[symbol]]
+tex = 'E'
+meaning = "the elastic modulus of the wall"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the Poisson ratio"
+
+[[symbol]]
+tex = 'N_x'
+meaning = "the axial compressive line load, with $N_x^{\\ast}$ the threshold above which stability governs"
+
+[[symbol]]
+tex = 'D_{\text{mono}}'
+meaning = "the bending stiffness of the monocoque wall, with $D_{\\text{sand}}$ that of the sandwich"
+
+[[symbol]]
+tex = '\varepsilon_2'
+meaning = "the constrained transverse thermal strain of a ply"
+
+[[symbol]]
+tex = 'C_F'
+meaning = "the thrust coefficient"
+
+[[symbol]]
+tex = 'c^{\ast}'
+meaning = "the characteristic velocity"
+
+[[symbol]]
+tex = 'p_c'
+meaning = "the chamber pressure, with $p_e$ the exit pressure and $p_a$ the ambient pressure"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the tank efficiency, the tank mass as a fraction of the hydrogen held"

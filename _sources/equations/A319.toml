@@ -1,0 +1,451 @@
+# Equation classification for A319. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in United States customary units, with force in pounds, area in square feet, speed in feet per second unless knots are stated and power in horsepower converted at 550 foot-pounds per second, and the hover weight of 14,600 pounds that many lines use is a value the article assumes because no primary document read for it states one."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Disc Area of One Duct"
+gloss = "The disc area of one duct follows from the seven-foot propeller diameter as the area of a circle."
+cite = []
+digest = "54c7b1bfc113ffdb"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Disc Loading at the Assumed Hover Weight"
+gloss = "Dividing the assumed three-engine hover weight of 14,600 pounds by the disc area of four ducts gives a disc loading near 95 pounds per square foot."
+cite = []
+digest = "cfa2d49de2c1c71a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Momentum Theory Thrust and Power of a Ducted Propeller"
+gloss = "Continuity and momentum across a propeller in a duct whose exit area is $\\sigma$ times the disc area give the thrust and the ideal power in terms of the exit velocity."
+cite = []
+digest = "0993c2f0e2d71727"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Ideal Power of a Ducted Propeller in Terms of Thrust"
+gloss = "Eliminating the exit velocity expresses the ideal power through the thrust and shows that thrust at fixed power grows as the cube root of the exit area ratio."
+cite = []
+digest = "a673c2b75bbbb3f8"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Static Thrust Augmentation of a Non-Contracting Duct"
+gloss = "A duct that only prevents the wake contraction of an open propeller, an area ratio of one against one half, gives about twenty-six percent more static thrust for the same power."
+cite = []
+digest = "05576a2914c589cb"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Measured Exit Area Ratio of the Duct"
+gloss = "The ratio of the net exit area to the net area at the propeller, from the measured duct geometry, is about 1.17."
+cite = ["research_gamse_mort_1967"]
+digest = "94faefb82fdc47ac"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Ideal Thrust Augmentation at the Measured Area Ratio"
+gloss = "The same ideal relation evaluated at the measured exit area ratio gives a thrust augmentation of about one third over an open propeller."
+cite = ["research_gamse_mort_1967"]
+digest = "8028ad367f37786d"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Ideal Hover Power at the Assumed Weight"
+gloss = "The ideal power of a non-contracting ducted rotor hovering the assumed 14,600 pounds on four discs at sea level is about 2,650 horsepower."
+cite = []
+digest = "744501a5c3f714c3"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Engine-Out Power Margin on the Power Reading"
+gloss = "Reading the documented 35 percent margin as installed power in excess of hover power leaves three engines with a margin of one and a quarter percent."
+cite = []
+digest = "ca4a823ba38567d2"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Engine-Out Thrust Margin at Fixed Figure of Merit"
+gloss = "Thrust at a fixed figure of merit scales as power to the two-thirds, so losing a quarter of the power from a thrust-to-weight ratio of 1.35 leaves an eleven percent thrust margin."
+cite = []
+digest = "4dd1e9cc6cecab99"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Installed Figure of Merit on the Power Reading"
+gloss = "The figure of merit is the ideal power at the assumed 14,600 pounds over the required power that the power reading of the 35 percent margin implies."
+cite = []
+digest = "3c78a2939405fbd7"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Three-Engine Hover Weight on the Power Reading"
+gloss = "Feeding the inferred figure of merit back through momentum theory with three engines gives a lifted weight within one percent of the assumed 14,600 pounds."
+cite = []
+digest = "f165b1af05281e24"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Figure of Merit Referred to the Disc Area"
+gloss = "Because ideal power varies as the inverse square root of area, a figure of merit measured on the net exit area converts to the disc-area basis through the square root of the area ratio."
+cite = []
+digest = "a201fce9362706ca"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Four-Engine Thrust at the Tunnel Figure of Merit"
+gloss = "Applying the best tunnel figure of merit to the rated 5,000 horsepower under the assumption of no installation loss gives an upper bound on the four-engine thrust."
+cite = []
+digest = "56bbe938e990c618"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Duct Exit Velocity in the Hover"
+gloss = "The exit velocity of one non-contracting duct carrying a quarter of the assumed 14,600 pounds at sea level is about 200 feet per second."
+cite = []
+digest = "ceee77928fdf1544"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Induced Velocity and Power Loading from Disc Loading"
+gloss = "In momentum theory the induced velocity grows as the square root of disc loading and the thrust per unit power falls in inverse proportion to it."
+cite = []
+digest = "b6a1809619a97656"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Momentum Normal Force on a Duct at Incidence"
+gloss = "A duct at an angle to the oncoming air captures a mass flow and turns it onto its axis, and the reaction is a normal force equal to the turned momentum flux."
+cite = []
+digest = "e777c96a0e0d3495"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Wing Area from the Conversion Speed"
+gloss = "Requiring the wing to carry the assumed 14,600 pounds at the conversion speed of 203 feet per second with an assumed maximum lift coefficient of 1.4 gives a wing area of about 213 square feet."
+cite = []
+digest = "6840b4c25e169ffd"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Force Balance Through the Conversion"
+gloss = "With the duct thrust inclined at the duct angle, its vertical component and the wing lift balance the weight and its horizontal component balances the drag."
+cite = []
+digest = "93e234e4f4604374"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Duct Angle and Thrust Required in Conversion"
+gloss = "Solving the two force balance equations gives the duct angle from the ratio of unsupported weight to drag and the thrust as the resultant of the two."
+cite = []
+digest = "0d496ec2e70c6329"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Validity Parameter of the Momentum-Turning Model"
+gloss = "The article defines the ratio of the crossflow velocity component to the induced velocity as the parameter that must stay small for the duct to capture and turn its whole streamtube."
+cite = []
+digest = "abc2c95b9149160b"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Sink Rate at the Suggested Descent-Angle Limit"
+gloss = "The suggested 10 degree descent-angle limit flown at a low speed of 40 knots, a speed the article takes as representative, gives a sink rate near 700 feet per minute."
+cite = []
+digest = "1f3fbf014bab56fc"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Linear Duct Angle Schedule"
+gloss = "The article assumes the duct angle falls linearly from vertical at rest to horizontal at the conversion speed, which places 60 degrees of incidence near 40 knots."
+cite = []
+digest = "c1e3372aac36c441"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Cruise Drag from Power and Propulsive Efficiency"
+gloss = "Drag at 278 knots, a value between the conflicting 274 and 283 knot figures, follows from the installed 5,000 shaft horsepower at an assumed propulsive efficiency of 0.80."
+cite = []
+digest = "b2c2f8b0d57620a1"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Equivalent Flat-Plate Area"
+gloss = "Dividing the inferred cruise drag by the dynamic pressure at 278 knots gives an equivalent flat-plate area of about 24 square feet."
+cite = []
+digest = "f850bea1be76fc40"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Duct Drag Coefficient on Frontal Area"
+gloss = "Attributing the whole equivalent flat-plate area to the four ducts and dividing by their frontal area gives a drag coefficient near 0.16."
+cite = []
+digest = "0d2b4f4967288448"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Drag Chain at the Measured Propulsive Efficiency"
+gloss = "Repeating the drag, flat-plate area and duct drag coefficient chain with the measured efficiency of 0.74 still rests on the 278 knot speed and on attributing the whole drag to the ducts."
+cite = ["research_gamse_mort_1967"]
+digest = "93a810d84c5bbd13"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Dynamic Pressure of the Hover Jet"
+gloss = "The dynamic pressure in the duct exit flow follows from the exit velocity inferred at the assumed hover weight."
+cite = []
+digest = "1c6d3d8c063c6a9a"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Lip Pitching Couple of a Duct"
+gloss = "Placing the duct normal force at the lip, half a duct length from the duct centre, gives the nose-up couple each duct contributes."
+cite = []
+digest = "0bc712508c6a1c15"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Elevon Area Scaled from the Free-Flight Model"
+gloss = "Model elevon areas scale to full size with the square of the length ratio of 5.56."
+cite = ["research_freeman_newsom_1966"]
+digest = "bb77b162a0ac40fb"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Exit Vane Side Force in the Hover"
+gloss = "The force on a 31.8 square foot vane in the hover jet at an assumed lift coefficient of 0.9 is more than a third of the duct thrust."
+cite = []
+digest = "2ab4f9b452395e98"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Rolling Moment from Losing One Duct"
+gloss = "Without cross-shafting the loss of one duct leaves its quarter share of the assumed hover weight acting at the rear semi-span as an untrimmed rolling moment."
+cite = []
+digest = "9869254dd930ee1a"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Shaft Torque per Propeller"
+gloss = "The torque each propeller absorbs at 1,250 horsepower follows from the rotational speed implied by an assumed tip speed of 700 feet per second."
+cite = []
+digest = "d1d9d2c03a2f85c9"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Airframe Hours Flown by 1980"
+gloss = "The established service life of 500 flight hours less the 80 expected to remain gives the hours flown by the end of 1980."
+cite = ["ref_nasa_tm81156"]
+digest = "047ac9449ce845da"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Roll Mode Time Constant"
+gloss = "The roll mode time constant is the negative reciprocal of the roll damping derivative, so doubling the damping halves the time constant."
+cite = ["ref_nasa_tm81156"]
+digest = "46b0871a41c1a4f5"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Distance and Time of a Uniform Deceleration to the Hover"
+gloss = "Decelerating uniformly from 100 knots at 0.05 times standard gravity takes about 8,900 feet and 105 seconds."
+cite = ["research_lebacqz_aiken_1975"]
+digest = "b7d6c0bbe09aa2f7"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Sink Rate on a 7.5 Degree Glide Slope"
+gloss = "The vertical component of 100 knots on the 7.5 degree glide slope is a descent of about 1,320 feet per minute."
+cite = ["research_lebacqz_aiken_1975"]
+digest = "a5a325c7847edbfa"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Total Piloted Evaluations of the Completed Programmes"
+gloss = "The evaluation counts of the four completed variable-stability programmes sum to 239."
+cite = []
+digest = "a41c2194a5b116fd"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Froude Scaling of Oscillation Periods"
+gloss = "Periods of a dynamically scaled free-flight model scale with the square root of the length ratio, so the model oscillations of 3.4 and 3.0 seconds become about 8.0 and 7.1 seconds at full scale."
+cite = ["research_freeman_newsom_1966"]
+digest = "d8e15b676202dea0"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Payload Fraction"
+gloss = "The documented 1,200 pound maximum payload over the assumed 14,600 pound hover weight is a payload fraction of about eight percent."
+cite = ["ref_x22", "ref_vertipedia_x22"]
+digest = "6b5e6082286eb01d"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Peak Normal Force with a Lip Factor"
+gloss = "Multiplying the momentum normal force by an unknown lip factor $k$ shows that the peak normal force over four ducts scales directly with a factor the article can only assume."
+cite = []
+digest = "70cd45b88e74eca1"
+
+[[symbol]]
+tex = 'A_{d}'
+meaning = "the disc area of one duct"
+
+[[symbol]]
+tex = 'D'
+meaning = "the propeller diameter in Equation 1 and the drag in Equations 19, 20 and 24"
+
+[[symbol]]
+tex = 'W'
+meaning = "the hover weight, taken as 14,600 pounds"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the ratio of duct exit area to disc area, with $\\sigma_d$ the measured ratio"
+
+[[symbol]]
+tex = 'V_{e}'
+meaning = "the exit velocity of the duct flow"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'P'
+meaning = "the power"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, taken at sea level"
+
+[[symbol]]
+tex = '\text{FM}'
+meaning = "the figure of merit, the ratio of ideal to required hover power"
+
+[[symbol]]
+tex = 'A_{e}'
+meaning = "the net exit area of a duct"
+
+[[symbol]]
+tex = 'A_{p}'
+meaning = "the net area of a duct at the propeller"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow captured by a duct"
+
+[[symbol]]
+tex = 'N_{\text{mom}}'
+meaning = "the momentum normal force on a duct at incidence"
+
+[[symbol]]
+tex = 'v_{i}'
+meaning = "the induced velocity of a duct"
+
+[[symbol]]
+tex = 'V_{\infty}'
+meaning = "the free-stream speed"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the angle of attack of the duct"
+
+[[symbol]]
+tex = 'i'
+meaning = "the duct angle above the horizontal"
+
+[[symbol]]
+tex = 'L'
+meaning = "the wing lift"
+
+[[symbol]]
+tex = 'V_{\text{conv}}'
+meaning = "the conversion speed at which the ducts reach horizontal"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the ratio of crossflow speed to induced velocity that bounds the momentum-turning model"
+
+[[symbol]]
+tex = 'f'
+meaning = "the equivalent flat-plate drag area"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the propulsive efficiency"
+
+[[symbol]]
+tex = 'q_{\text{jet}}'
+meaning = "the dynamic pressure of the hover jet"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing area"
+
+[[symbol]]
+tex = 'S_{e}'
+meaning = "the area of an elevon or exit vane"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the length of a duct"
+
+[[symbol]]
+tex = 'L_{p}'
+meaning = "the roll damping derivative"
+
+[[symbol]]
+tex = '\tau_{R}'
+meaning = "the roll mode time constant"
+
+[[symbol]]
+tex = 'k'
+meaning = "the lip factor that multiplies the momentum normal force"

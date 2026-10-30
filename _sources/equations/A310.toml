@@ -1,0 +1,987 @@
+# Equation classification for A310. Read by `python3 _lib/equations.py`.
+
+caution = "The article mixes pounds and pound-force with kilogrammes and newtons, quotes the specific fuel consumption $c$ both in pounds per pound of thrust per hour and as a reciprocal time of $2.583 \\times 10^{-4}$ per second, writes $\\bar{c}$ for the geometric mean chord of area over span rather than the tabulated mean aerodynamic chord, and reuses $\\theta$ for the nozzle deflection and the hover tilt, $A$ for a disc area and a side area, and $W$ for the weight and the actuator weighting matrix."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Control Surface Moment and Dynamic Pressure"
+gloss = "The pitching moment of a control surface is the dynamic pressure times the wing area, the mean chord and the moment coefficient increment, with the dynamic pressure $q = \\tfrac{1}{2} \\rho V^{2}$."
+cite = []
+digest = "a37d277b4df7824b"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Moment of Deflected Thrust"
+gloss = "Thrust deflected through an angle $\\theta$ at an arm $\\ell$ from the centre of mass produces a moment $T \\ell \\sin \\theta$ that does not depend on airspeed."
+cite = []
+digest = "0f03dc591f8f5da7"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Equal-Authority Speed"
+gloss = "The article defines the equal-authority speed as the airspeed at which the aerodynamic moment equals the deflected-thrust moment, found by equating the two preceding expressions."
+cite = []
+digest = "f38b0b6f095ffcf9"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Gross Mass of the X-13"
+gloss = "The gross weight of 6,730 pounds converts to a mass of 3,053 kilogrammes."
+cite = ["ref_x13"]
+digest = "7603704e6ddbdf25"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Pitching Moment of Inertia from the Spin-Tunnel Table"
+gloss = "The tabulated pitch inertia of 4,042 slug square feet converts to 5,480 kilogramme square metres."
+cite = ["research_bowman_1957"]
+digest = "363050e86e8eb230"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Required Pitching Moment"
+gloss = "The required moment is the pitch inertia times the adopted pitch control criterion of 0.50 radians per second squared, a criterion taken from experiments made after the aircraft flew."
+cite = ["research_garren_1965"]
+digest = "ba454839ac87aeb5"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Moment of a Force"
+gloss = "The moment of a force about a point is the cross product of the position vector and the force."
+cite = []
+digest = "25a7f2755ee1cee3"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Zero Rolling Moment from an Axial Nozzle"
+gloss = "For a force applied on the longitudinal axis the position vector is parallel to that axis, so the component of the moment about it vanishes for any force."
+cite = []
+digest = "3bbf3d4e978e2d6c"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Geometric Mean Chord"
+gloss = "The mean chord taken as wing area over span is 2.77 metres for the tabulated area and span."
+cite = ["research_bowman_1957"]
+digest = "35ef68731dafdaf7"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Elevon Moment Coefficient"
+gloss = "The aerodynamic pitching moment is evaluated at sea level with an assumed elevon moment increment of 0.10, giving a coefficient of $3.013 \\, V^{2}$ newton metres."
+cite = []
+digest = "b4b3993ee2cb3c80"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Pitch Crossover Speed"
+gloss = "Setting the aerodynamic moment with the assumed elevon increment equal to the adopted pitch requirement gives a crossover speed of 30.2 metres per second."
+cite = []
+digest = "d7a5d0f83e46f597"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Deflected-Thrust Moment at Ten Degrees"
+gloss = "Ten degrees of deflection of 10,000 pounds of thrust at an assumed arm of 3.5 metres gives a moment of about 27,000 newton metres."
+cite = []
+digest = "5c21aae188cb9dc3"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Thrust Moment Margin"
+gloss = "The deflected-thrust moment at the assumed arm is 9.87 times the moment the adopted criterion requires."
+cite = []
+digest = "9e92e792d9e497fd"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Evaluated Equal-Authority Speed"
+gloss = "With the assumed arm and elevon increment the aerodynamic and thrust moments become equal at 94.7 metres per second."
+cite = []
+digest = "e53343c2495937e7"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Aerodynamic Share of Available Authority"
+gloss = "The article defines the aerodynamic share $\\lambda(V)$ as the aerodynamic moment divided by the sum of the aerodynamic and deflected-thrust moments."
+cite = []
+digest = "b9fee9735e8b5ac0"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Stall Speed"
+gloss = "The standard stall speed relation is evaluated at the gross weight with an adopted maximum lift coefficient of 1.0 for a thin delta, giving 52.5 metres per second."
+cite = []
+digest = "a3b76b93305e4f2d"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Ratio of Pitch Crossover to Stall Speed"
+gloss = "The crossover speed resting on the assumed elevon increment is 0.575 of the stall speed resting on the adopted maximum lift coefficient."
+cite = []
+digest = "f255b6bd6c520963"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Squared Crossover and Stall Speeds"
+gloss = "The crossover speed is defined by setting the aerodynamic moment equal to the required moment and is written beside the stall speed in squared form."
+cite = []
+digest = "df1c8f8a9812a2bc"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Scale-Free Speed Ratio"
+gloss = "Dividing the squared crossover speed by the squared stall speed cancels the wing area and air density and leaves a ratio of proportions and of the required angular acceleration."
+cite = []
+digest = "b0cad665e93fec72"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Fully Developed Slipstream Velocity"
+gloss = "Actuator disc momentum theory gives the fully developed slipstream velocity of a disc supporting a weight $W$ over an area $A$."
+cite = []
+digest = "54e1082d7d020712"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Slipstream Velocity at a Representative Disc Loading"
+gloss = "The slipstream velocity is evaluated at a disc loading of 1,500 pascals taken as conservative for the class, giving 49.5 metres per second."
+cite = ["ref_convair_xfy"]
+digest = "e0ef77c4aab0d843"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Thrust-to-Weight Ratio"
+gloss = "The 10,000 pound thrust of the Avon against the 6,730 pound gross weight gives a thrust-to-weight ratio of 1.486."
+cite = ["ref_nmusaf_x13", "ref_nasm_x13"]
+digest = "73a14fb1528389e8"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Vertical Acceleration at Lift-Off"
+gloss = "The net vertical acceleration is standard gravity times the excess of the thrust-to-weight ratio over one, or 4.76 metres per second squared."
+cite = []
+digest = "53540544db8dff5f"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Time to Climb Thirty Metres"
+gloss = "Constant acceleration from rest covers thirty metres in 3.55 seconds."
+cite = []
+digest = "e268a8b38ac4b57d"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Turbojet Fuel Flow"
+gloss = "A turbojet burns fuel at a rate equal to its specific fuel consumption times its thrust."
+cite = []
+digest = "3e2eda7a8fbbbe70"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Hover Fuel Flow"
+gloss = "The hover fuel flow is evaluated with an assumed specific fuel consumption of 0.93 pounds per pound of thrust per hour, the dry figure of a later Avon, giving 104.3 pounds per minute."
+cite = ["ref_rolls_royce_avon"]
+digest = "611c9993b17669bf"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Fuel Load from the Spin-Tunnel Loadings"
+gloss = "The differences between the full, quarter and twentieth fuel loadings of the hook configuration each give a full fuel load of 1,400 pounds."
+cite = ["research_bowman_1957"]
+digest = "8fe0e852cea38ef3"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Hover Endurance"
+gloss = "The fuel load divided by the hover fuel flow from the assumed specific fuel consumption gives 13.4 minutes of hovering."
+cite = []
+digest = "f5816e4c86043b6c"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Residual Weight Above the Quoted Empty Weight"
+gloss = "Removing the fuel and the quoted empty weight from the wheeled full-fuel loading leaves 224 pounds."
+cite = ["research_bowman_1957"]
+digest = "4561ad4f2ce3c3d6"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Jet Hover Endurance"
+gloss = "With thrust equal to weight, hover endurance is the fuel mass over the specific fuel consumption times the weight, a function of the fuel fraction and the consumption alone."
+cite = []
+digest = "fb642f500d36300d"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Actuator Disc Power per Unit Thrust"
+gloss = "Ideal actuator disc theory gives the hovering power per unit thrust as the square root of the disc loading over twice the air density."
+cite = []
+digest = "175bb6dc244a1376"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Rolling Moment of Inertia from the Spin-Tunnel Table"
+gloss = "The tabulated roll inertia of 1,543 slug square feet converts to 2,092 kilogramme square metres."
+cite = ["research_bowman_1957"]
+digest = "0bdaecff108c2972"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Wingtip Jet Force"
+gloss = "Each opposed jet on the scaled arm of 6.19 metres must produce 338 newtons to meet the adopted roll criterion of one radian per second squared."
+cite = ["research_smith_1958_2"]
+digest = "8961ba518854eec2"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Roll Jet Bleed Mass Flow"
+gloss = "The bleed mass flow for the two jets is evaluated at an assumed bleed velocity of 500 metres per second, giving 1.35 kilogrammes per second."
+cite = []
+digest = "fd51e6c0ab03546f"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Aileron Crossover Speed"
+gloss = "The aerodynamic rolling couple with an assumed rolling moment increment of 0.05 meets the roll requirement at 24.5 metres per second."
+cite = []
+digest = "78cf5c1f89050cd9"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Yawing Moment of Inertia from the Spin-Tunnel Table"
+gloss = "The tabulated yaw inertia of 4,833 slug square feet converts to 6,553 kilogramme square metres."
+cite = ["research_bowman_1957"]
+digest = "8a4dc7053cf0853e"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Nozzle Deflection for Yaw"
+gloss = "The nozzle deflection that meets a yaw criterion of 0.3 radians per second squared at the assumed arm of 3.5 metres is 0.72 degrees."
+cite = []
+digest = "06df309093029bbe"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Rudder Crossover Speed"
+gloss = "The aerodynamic yawing moment with an assumed yawing moment increment of 0.06 meets the yaw requirement at 21.7 metres per second."
+cite = []
+digest = "ad1574ab056ad2aa"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Vertical Force Balance in a Tilted Hover"
+gloss = "The vertical component of thrust at a tilt $\\phi$ from the vertical must at least equal the weight."
+cite = []
+digest = "6c9c6f417508645f"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Steepest Level Tilt"
+gloss = "The steepest tilt at which thrust still supports the weight is the inverse cosine of the weight over the thrust, 47.7 degrees."
+cite = []
+digest = "e78145f34a66c76f"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Horizontal Acceleration at the Steepest Tilt"
+gloss = "Neglecting drag, the horizontal component of thrust at the steepest tilt gives 10.78 metres per second squared."
+cite = []
+digest = "5809caf04830aac0"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Time to Stall Speed"
+gloss = "The time to reach the stall speed resting on the adopted maximum lift coefficient at the drag-free horizontal acceleration is 4.9 seconds."
+cite = []
+digest = "06c0a00bb03d9c59"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Transition Distance"
+gloss = "Constant drag-free acceleration over the transition time covers about 128 metres."
+cite = []
+digest = "c685084951a39ef7"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Transition Fuel"
+gloss = "Full thrust at the assumed specific fuel consumption of 0.93 for 4.9 seconds burns 12.6 pounds of fuel."
+cite = []
+digest = "0779a7b9905ff72e"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Thrust Cost of Roll Bleed"
+gloss = "The article assumes that bleeding air costs thrust in proportion, so the 1.93 percent bleed set by the assumed bleed velocity costs 859 newtons."
+cite = []
+digest = "a254a0692e03df93"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Scaling of the Required Moment"
+gloss = "For geometrically similar aircraft the required moment, an inertia times an angular acceleration, scales as the mass times the square of the length."
+cite = []
+digest = "b7a5d6d6197a9931"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Scaling of the Available Moment"
+gloss = "At a fixed thrust-to-weight ratio, which the article assumes, the thrust scales with the mass and the available moment with the mass times the length."
+cite = []
+digest = "464713ab56043419"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Growth of Control Power with Size"
+gloss = "Under the assumed fixed thrust-to-weight ratio the ratio of required to available moment grows linearly with the length."
+cite = []
+digest = "73c9e7eb1fe2ce3e"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Fuel Fraction"
+gloss = "The 1,400 pound fuel load over the 6,730 pound gross weight is a fuel fraction of 0.208."
+cite = []
+digest = "0ae2f0a5d6b8973b"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Breguet Range for a Jet"
+gloss = "The Breguet range of a jet is the speed over the specific fuel consumption times the lift-to-drag ratio times the logarithm of the initial to final mass ratio."
+cite = []
+digest = "1077855fd5f28bc3"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Breguet Range of an Operational X-13"
+gloss = "The Breguet range is evaluated at an assumed cruise speed of 200 metres per second, an assumed lift-to-drag ratio of six and the assumed specific fuel consumption, giving 1,083 kilometres."
+cite = []
+digest = "cc4b2f6d416b11e6"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Aspect Ratio"
+gloss = "The span squared over the wing area gives an aspect ratio of 2.31."
+cite = ["research_bowman_1957"]
+digest = "d17d3d6f130da3ba"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Axial Thrust Retained at Ten Degrees"
+gloss = "A ten degree deflection retains the cosine of the angle, or 98.5 percent, of the thrust along the axis."
+cite = []
+digest = "62ec2ef1f4e85e93"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Moment and Axial Thrust as Functions of Deflection"
+gloss = "The moment grows with the sine of the deflection while the axial thrust falls with its cosine."
+cite = []
+digest = "110745f529e044c8"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Small-Angle Thrust Loss"
+gloss = "For small deflections the fractional loss of axial thrust is approximately half the square of the angle in radians."
+cite = []
+digest = "58792018a53f4425"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Couple Force Against Arm"
+gloss = "The force each opposed jet must produce is the roll inertia times the required roll acceleration divided by the arm between the jets."
+cite = []
+digest = "aba7e41707613180"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Crossover to Stall Ratio as a Square Root"
+gloss = "The ratio of the crossover speed, defined by the adopted criterion, to the stall speed is the square root of the scale-free ratio derived earlier."
+cite = []
+digest = "1c228246c14eed00"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Horizontal Acceleration from Hover Tilt"
+gloss = "With thrust equal to weight, a tilt $\\theta$ produces a horizontal acceleration of standard gravity times the sine of the tilt."
+cite = []
+digest = "e195e43844dede8b"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Drag Force"
+gloss = "The side force is the dynamic pressure times the reference area times the drag coefficient."
+cite = []
+digest = "858493f55d2306e4"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Station-Keeping Tilt in a Crosswind"
+gloss = "Holding station requires the horizontal component of thrust per unit mass to balance the side force per unit mass."
+cite = []
+digest = "f4cc9e3fc9e38b1c"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Thrust Change for a Vertical Acceleration"
+gloss = "Newton's second law gives the thrust change for a vertical acceleration as the mass times that acceleration."
+cite = []
+digest = "760aaa4410ee01e0"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Maximum Upward Acceleration"
+gloss = "The excess of thrust over weight divided by the mass gives 4.76 metres per second squared."
+cite = []
+digest = "252730d64e62db3a"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Height Lost in Sink Recovery"
+gloss = "The article approximates the height lost arresting a sink rate as the travel during a fixed engine lag $\\tau$ plus a stopping distance at the maximum upward acceleration."
+cite = []
+digest = "4df752a5580d7f20"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Position Error from a Loop Delay"
+gloss = "A closure speed $V$ held over a delay $\\tau$ moves the aircraft a distance $V \\tau$."
+cite = []
+digest = "3448141585562e42"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Lifted Mass Bookkeeping"
+gloss = "The article writes the lifted mass as the empty, fuel and payload masses with the trailer excluded, a bookkeeping identity for moving mass to the ground."
+cite = []
+digest = "56862f4a8c6a3f2f"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Hover Time Bought by a Weight Saving"
+gloss = "A weight saving $w_{g}$ buys hover time equal to that weight over the specific fuel consumption times the aircraft weight."
+cite = []
+digest = "ce600b9c1aa81a09"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Measured Weight of the Wheels"
+gloss = "The wheeled and hook full-fuel loadings differ by 262 pounds."
+cite = ["research_bowman_1957"]
+digest = "2bb1fe73800bd860"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Mean Deceleration over a Stroke"
+gloss = "A closure rate $v$ arrested uniformly over a stroke $d$ gives a mean deceleration of $v^{2} / 2d$."
+cite = []
+digest = "b7edb4d4a8502ff8"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Hook Arrival Deceleration"
+gloss = "An assumed arrival at one metre per second stopped in an assumed 0.3 metres gives a mean deceleration of 0.17 gravities."
+cite = []
+digest = "326da285a28b0769"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Pilot Sight Line Offset"
+gloss = "A seat pivoted forty-five degrees leaves the line of sight forty-five degrees from the direction of travel in a vertical descent."
+cite = ["ref_nasm_x13"]
+digest = "b8240d267d3df423"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Sight Line Angle for a Seat Pivot"
+gloss = "The angle $\\beta$ between the sight line and the direction of travel is ninety degrees less the seat pivot $\\sigma$."
+cite = []
+digest = "c5e30140c9f88f33"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Angular Momentum in Pitch"
+gloss = "A pitch rotation at rate $\\omega$ carries angular momentum equal to the pitch inertia times the rate."
+cite = []
+digest = "aeb7312ba5cc1b88"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Time to Arrest a Pitch Rotation"
+gloss = "A constant nozzle moment removes the angular momentum in a time equal to that momentum over the moment."
+cite = []
+digest = "1b417a73c7d87900"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Froude-Scaled Engine Angular Momentum"
+gloss = "The flywheel of the one-fifth-scale model scaled by the four and a half power of the length scale gives a full-scale engine angular momentum of $1.62 \\times 10^{4}$ kilogramme square metres per second."
+cite = ["research_smith_1958_2"]
+digest = "92ab74988f2b499f"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Gyroscopic Moment"
+gloss = "A pitch rate $\\Omega$ acting on the engine angular momentum produces a gyroscopic yawing moment equal to their product."
+cite = []
+digest = "0ba8d6b4b60905fd"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Minimum Altitude After a Hover Power Failure"
+gloss = "The report sums the fall before the spin, the spin recovery and an assumed pull-out distance to give 4,200 feet."
+cite = ["research_bowman_1957"]
+digest = "727727e325343fb2"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Free Fall over the Time to Spin Entry"
+gloss = "Free fall for the reported 6.5 seconds covers 680 feet, which does not match the 900 feet the report gives for that term."
+cite = ["research_bowman_1957"]
+digest = "9576880d8a08ed24"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Jet Exit Velocity"
+gloss = "The thrust divided by an assumed engine mass flow of 70 kilogrammes per second gives an exit velocity of 635 metres per second."
+cite = []
+digest = "7f5f6e90897d543a"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Jet Dynamic Pressure"
+gloss = "The dynamic pressure in the jet is evaluated at an assumed exhaust density of 0.35 kilogrammes per cubic metre, giving 70.7 kilopascals."
+cite = []
+digest = "1875dee8889029e1"
+
+[[equation]]
+tag = 80
+class = "bespoke"
+title = "Bespoke Jet Disc Loading"
+gloss = "The thrust over the nozzle area implied by the assumed mass flow and exhaust density gives a disc loading of 141 kilopascals."
+cite = []
+digest = "81bd436cfeb2746a"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Disc Loading of a Rotor of Equal Span"
+gloss = "The thrust over the area of a rotor of the same 6.40 metre span gives 1,382 pascals."
+cite = []
+digest = "6122fba4d6d16763"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Jet to Rotor Disc Loading Ratio"
+gloss = "The jet disc loading resting on the assumed mass flow and exhaust density is about 102 times that of a rotor of equal span."
+cite = []
+digest = "31946112f69efc34"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Probability of an Unambiguous All-Up Test"
+gloss = "Assuming that the wing, the hover and the join each succeed independently with probability $p$, a single all-up attempt is unambiguous with probability $p^{3}$."
+cite = []
+digest = "248fd6b9b6174705"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Interval from First Flight to Full Cycle"
+gloss = "The three intervals between the dated milestones sum to 488 days."
+cite = ["ref_nasm_x13"]
+digest = "1e523cdd03de05c6"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Froude Number Similarity"
+gloss = "Dynamic similarity in a gravity-dominated problem requires the Froude number $V^{2}/gL$ to match between model and aircraft."
+cite = []
+digest = "4d1191d1d4745213"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Froude Scaling Ratios"
+gloss = "At a length scale $\\kappa$ Froude scaling makes speeds and times vary as the square root of the scale, angular rates as its inverse square root and masses as its cube."
+cite = []
+digest = "90588bd4b8ec8c89"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Model Weight Against the Froude-Scaled Weight"
+gloss = "The 39.3 pound model was 0.73 of the 53.8 pounds that Froude scaling of the gross weight requires."
+cite = ["research_smith_1958_2"]
+digest = "16984afa09befb0c"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Reynolds Number Ratio Under Froude Scaling"
+gloss = "With speed scaling as the square root of the length scale the Reynolds number scales as its three halves power, 0.089 at one fifth scale."
+cite = []
+digest = "a0940a1026c50ede"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Jet Hover Endurance from the Fuel Fraction"
+gloss = "Hover endurance of a jet is the fuel fraction divided by the specific fuel consumption expressed as a reciprocal time."
+cite = []
+digest = "4e58d822068d144a"
+
+[[equation]]
+tag = 90
+class = "bespoke"
+title = "Bespoke Disc Loading Scaling of a Model"
+gloss = "Under geometric scaling at an assumed fixed thrust-to-weight ratio the thrust scales as the cube of the length and the nozzle area as its square, so the disc loading scales as the length."
+cite = []
+digest = "ec6083c0472f64ab"
+
+[[equation]]
+tag = 91
+class = "standard"
+title = "Bearing of the Landing Point from a Tail-Sitter Pilot"
+gloss = "With the target along the negative body axis and the seat pivoted forty-five degrees the bearing of the landing point from the line of sight is 135 degrees."
+cite = []
+digest = "525a4c088a7898e2"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Bearing for a Horizontal Hovering Aircraft"
+gloss = "A pilot looking forward and down at a target directly below is taken to see it at a bearing of order 45 degrees, a representative figure rather than a measured one."
+cite = []
+digest = "7af3ecc657491113"
+
+[[equation]]
+tag = 93
+class = "standard"
+title = "Jet Hover Endurance Restated"
+gloss = "A jet in the hover obeys an endurance equal to the fuel fraction over the specific fuel consumption."
+cite = []
+digest = "4e58d822068d144a"
+
+[[equation]]
+tag = 94
+class = "standard"
+title = "Rotor Power per Unit Thrust and Induced Velocity"
+gloss = "Momentum theory gives the power per unit thrust as the induced velocity over the figure of merit $\\eta$, with the induced velocity set by the disc loading."
+cite = []
+digest = "8bab5bd62c73b11c"
+
+[[equation]]
+tag = 95
+class = "standard"
+title = "Rotor Hover Endurance"
+gloss = "A rotor's hover endurance is the stored energy per unit mass times the energy fraction and the figure of merit, divided by standard gravity times the induced velocity."
+cite = []
+digest = "c96323da98c8e713"
+
+[[equation]]
+tag = 96
+class = "bespoke"
+title = "Bespoke Electric Tail-Sitter Hover Endurance"
+gloss = "The rotor endurance is evaluated with the energy fraction set equal to the X-13 fuel fraction, a battery of 250 watt hours per kilogramme, an assumed figure of merit of 0.70 and an induced velocity of 14.1 metres per second, giving 15.8 minutes."
+cite = []
+digest = "4fbb41354e00ea18"
+
+[[equation]]
+tag = 97
+class = "bespoke"
+title = "Bespoke Effective Specific Consumption of a Rotor"
+gloss = "The article defines an effective specific consumption for a rotor by matching its endurance relation to the jet form $t = \\zeta / c$."
+cite = []
+digest = "68fd0a3571b9af78"
+
+[[equation]]
+tag = 98
+class = "standard"
+title = "Weighted Least-Squares Control Allocation"
+gloss = "The weighted minimum-norm solution of the allocation equation gives the actuator commands that produce the desired moment at least weighted cost."
+cite = []
+digest = "2d0ba26ac77bdce0"
+
+[[equation]]
+tag = 99
+class = "standard"
+title = "Slipstream Dynamic Pressure Equals Disc Loading"
+gloss = "The dynamic pressure of the fully developed slipstream equals the disc loading."
+cite = []
+digest = "26a92332d5913fef"
+
+[[equation]]
+tag = 100
+class = "bespoke"
+title = "Bespoke Sensitivity of Crossover Speed to Elevon Effectiveness"
+gloss = "Because the crossover speed is defined by an assumed moment increment, it varies as the inverse square root of that increment."
+cite = []
+digest = "7021e3624d71d6e6"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure in pascals"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean chord, taken here as wing area over span"
+
+[[symbol]]
+tex = '\Delta C_{m}'
+meaning = "the elevon pitching moment coefficient increment at full deflection"
+
+[[symbol]]
+tex = '\Delta C_{l}'
+meaning = "the aileron rolling moment coefficient increment"
+
+[[symbol]]
+tex = '\Delta C_{n}'
+meaning = "the rudder yawing moment coefficient increment"
+
+[[symbol]]
+tex = 'M_{\text{aero}}'
+meaning = "the aerodynamic control moment"
+
+[[symbol]]
+tex = 'M_{\text{thrust}}'
+meaning = "the moment of the deflected thrust"
+
+[[symbol]]
+tex = 'M_{\text{req}}'
+meaning = "the moment that the control criterion requires"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight, and in the allocation relation the actuator weighting matrix"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the distance from the nozzle to the centre of mass"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the nozzle deflection, and in the hover relations the tilt of the aircraft"
+
+[[symbol]]
+tex = 'V_{\text{equal}}'
+meaning = "the speed at which the aerodynamic and thrust moments are equal"
+
+[[symbol]]
+tex = 'V_{\text{cross}}'
+meaning = "the speed at which the aerodynamic moment meets the control criterion"
+
+[[symbol]]
+tex = 'V_{\text{stall}}'
+meaning = "the stall speed"
+
+[[symbol]]
+tex = 'C_{L\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'I_{xx}'
+meaning = "the moment of inertia in roll"
+
+[[symbol]]
+tex = 'I_{yy}'
+meaning = "the moment of inertia in pitch"
+
+[[symbol]]
+tex = 'I_{zz}'
+meaning = "the moment of inertia in yaw"
+
+[[symbol]]
+tex = '\dot{q}_{\text{req}}'
+meaning = "the required pitch angular acceleration"
+
+[[symbol]]
+tex = '\lambda(V)'
+meaning = "the aerodynamic share of the available control authority"
+
+[[symbol]]
+tex = 'v_{s}'
+meaning = "the fully developed slipstream velocity"
+
+[[symbol]]
+tex = 'c'
+meaning = "the thrust specific fuel consumption"
+
+[[symbol]]
+tex = '\dot{m}_{f}'
+meaning = "the fuel mass flow"
+
+[[symbol]]
+tex = 'm_{f}'
+meaning = "the fuel mass"
+
+[[symbol]]
+tex = 't_{\text{hover}}'
+meaning = "the hover endurance"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the fuel mass fraction"
+
+[[symbol]]
+tex = 'd'
+meaning = "the arm between the opposed wingtip jets, and in the arrival relation the arresting stroke"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the tilt from the vertical during the transition"
+
+[[symbol]]
+tex = 'a_{h}'
+meaning = "the horizontal acceleration during the transition"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the engine lag or loop delay"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the angle between the pilot's line of sight and the direction of travel"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the seat pivot from the body axis"
+
+[[symbol]]
+tex = 'H_{e}'
+meaning = "the angular momentum of the engine rotor"
+
+[[symbol]]
+tex = '\Omega'
+meaning = "the pitch rate acting on the engine angular momentum"
+
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the jet exit velocity"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the length scale of the model"
+
+[[symbol]]
+tex = 'v_{i}'
+meaning = "the induced velocity of a rotor"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the rotor figure of merit"
+
+[[symbol]]
+tex = '\zeta_{b}'
+meaning = "the battery mass fraction"
+
+[[symbol]]
+tex = 'c_{\text{eff}}'
+meaning = "the effective specific consumption of a rotor"
+
+[[symbol]]
+tex = 'B'
+meaning = "the control effectiveness matrix"
+
+[[symbol]]
+tex = '\mathbf{u}'
+meaning = "the vector of actuator commands"

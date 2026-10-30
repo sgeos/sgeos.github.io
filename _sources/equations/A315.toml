@@ -1,0 +1,347 @@
+# Equation classification for A315. Read by `python3 _lib/equations.py`.
+
+caution = "Published figures are in pounds and feet while the momentum theory and control calculations are in SI units at sea-level density unless a line states another altitude, and $A$ is the aspect ratio in the consistency check but the propeller disc area thereafter, while $n$ is the number of propellers in the disc loading and power relations but the propeller rotational speed in the advance ratio and tip Mach number."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Maximum Weight From the Official Tonnage"
+gloss = "The sixteen and a half tons the Air Force history gives, read as short tons of 2,000 pounds, reproduce the published maximum weight."
+cite = ["ref_af_tilt_wing_history"]
+digest = "8ab5ad82e07d3f12"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Aspect Ratio From Published Dimensions"
+gloss = "The aspect ratio is the square of the published span divided by the published wing area."
+cite = ["ref_x18"]
+digest = "0f1779fef9f31b67"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Wing Loading at Maximum Weight"
+gloss = "The wing loading is the published maximum weight divided by the published wing area."
+cite = ["ref_x18"]
+digest = "3d7fea1cf5294b16"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Raw Immersed Span Fraction"
+gloss = "The article defines the immersed fraction as two propeller diameters over the span, an upper bound that ignores slipstream contraction."
+cite = []
+digest = "4fba7de290aaf68d"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Fully Contracted Slipstream Diameter"
+gloss = "Momentum theory halves the slipstream area far behind the disc, so the published propeller diameter contracts by the square root of two."
+cite = []
+digest = "5e91ef32d11424d4"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Outer Panel Angle of Attack"
+gloss = "With the fuselage held level as the article assumes, the un-immersed panel meets the freestream at the wing tilt angle."
+cite = []
+digest = "520548a9e9198d2d"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Fraction of the Conversion With the Outer Panel Stalled"
+gloss = "The stalled fraction rests on an assumed stall angle of 15 degrees and a conversion taken to run from zero to ninety degrees of tilt."
+cite = []
+digest = "6f6f5dcae4d9cdf4"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Actuator Disc Induced and Slipstream Velocities"
+gloss = "Momentum theory for a disc at static thrust gives the induced velocity and a fully developed slipstream at twice that value."
+cite = []
+digest = "8f5e112345bde35c"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Thrust per Propeller in Hover"
+gloss = "In hover at maximum weight each of the two propellers carries half the weight."
+cite = []
+digest = "4545f0b4da596457"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Disc Loading in Hover"
+gloss = "The disc loading is the thrust per propeller divided by the disc area of a 16 foot propeller."
+cite = []
+digest = "302943196e45b946"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Static Induced Velocity"
+gloss = "The actuator disc relation at sea-level density gives an induced velocity of about 40 metres per second."
+cite = []
+digest = "adcfc568db1f7552"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Slipstream Dynamic Pressure at the Wing"
+gloss = "The dynamic pressure over the immersed panel at zero forward speed uses a part-developed slipstream of $1.5 v_i$ that the article assumes at the wing."
+cite = []
+digest = "331d8a7a1de12f2e"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Equivalent Airspeed of the Static Slipstream"
+gloss = "The slipstream dynamic pressure from the assumed part-developed velocity is expressed as an equivalent airspeed."
+cite = []
+digest = "263435ccdac72c48"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Induced Velocity in Forward Flight"
+gloss = "With forward speed the momentum theory induced velocity satisfies an implicit relation that reduces to the static value at zero speed."
+cite = []
+digest = "56d77ae9e19d4365"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Local Angle of Attack in the Slipstream"
+gloss = "Resolving the freestream at the wing tilt angle and the slipstream along the chord gives the local angle of attack of the immersed panel."
+cite = []
+digest = "f464abc020bf4efd"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Force Balance During Conversion"
+gloss = "In level flight the vertical thrust component plus lift equals weight and the horizontal thrust component equals drag."
+cite = []
+digest = "5fcb643f9a6e7222"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Lift Split Between Immersed and Free Panels"
+gloss = "The article models wing lift as an immersed panel at slipstream dynamic pressure plus the remainder at freestream dynamic pressure."
+cite = []
+digest = "2fb2b2ab241cc004"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Effective Angle of Attack in Descent"
+gloss = "A descent rate adds its inflow angle to the local angle of attack because the freestream arrives from below."
+cite = []
+digest = "39b032c75a74bea8"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Descent Capability Added by Full-Span Droop"
+gloss = "The outboard and inboard leading-edge droops measured in the wind tunnel add 600 and 500 feet per minute of descent capability."
+cite = ["ref_pegg_1962"]
+digest = "b296f3f819d5119a"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Disc Loading per Propeller"
+gloss = "The weight in newtons over the total disc area of two propellers gives the disc loading of the configuration."
+cite = []
+digest = "c6fb48b5fa62c991"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Ideal Hover Power"
+gloss = "Momentum theory gives the ideal hover power as the number of propellers times the thrust times the induced velocity."
+cite = []
+digest = "6cb5a1f2c55d5d71"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Installed Shaft Power"
+gloss = "The installed power is twice the 5,850 equivalent horsepower of each T40 engine in the compiled specification."
+cite = ["ref_x18"]
+digest = "c42ed76d133c502a"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Hover Figure of Merit"
+gloss = "The figure of merit is the ideal hover power over the installed shaft power."
+cite = []
+digest = "2387c12b365ca179"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Aerodynamic and Jet Pitch Moments"
+gloss = "The elevator moment scales with dynamic pressure and so with the square of speed, while the jet moment is thrust times arm and holds at zero speed."
+cite = []
+digest = "d69a5287d69f8e79"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Pitch Jet Arm and Moment"
+gloss = "The jet moment uses an arm taken as 0.45 of the fuselage length and a deflected thrust of a thousand pounds force, both of which the article assumes."
+cite = ["ref_x18"]
+digest = "a80c433701074141"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Crossover Speed From Jet to Elevator"
+gloss = "Setting the assumed jet moment equal to the elevator moment, with an assumed effectiveness of 1.2 per radian at 20 degrees of deflection, gives the speed at which the elevator takes over."
+cite = []
+digest = "215c48ed98d03f6d"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Rolling Moment After an Engine Failure in Hover"
+gloss = "Half the hover lift is lost at a propeller station taken at an assumed quarter span of the wing."
+cite = []
+digest = "757f063949e20dba"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Aileron Rolling Moment"
+gloss = "Aileron rolling moment is dynamic pressure times wing area times span times the control derivative times deflection."
+cite = []
+digest = "4f2fea70f438312d"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Blowing Momentum Coefficient"
+gloss = "The momentum coefficient is the jet momentum flux over the freestream dynamic pressure times the wing area."
+cite = []
+digest = "a722063d4ad2e630"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Propeller Advance Ratio"
+gloss = "The advance ratio is the flight speed over the rotational speed times the propeller diameter."
+cite = []
+digest = "5e3004881bc1291f"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Helical Tip Mach Number in Conversion"
+gloss = "The helical tip Mach number at 60 metres per second rests on a propeller speed of 1,100 revolutions per minute that the article assumes."
+cite = []
+digest = "c2157aec55b3e721"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Rolling Moment From Asymmetric Thrust"
+gloss = "A fractional thrust difference $\\varepsilon$ produces a rolling moment of $\\varepsilon$ times the propeller thrust times its lateral arm."
+cite = []
+digest = "aaea97756e083823"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Tolerable Asymmetry Against Altitude"
+gloss = "Because aileron authority scales with density at a given true airspeed, the tolerable asymmetry at sea level exceeds that at 10,000 feet by the standard atmosphere density ratio."
+cite = []
+digest = "b4ee67c81d00290b"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = 'D_p'
+meaning = "the propeller diameter, with $D_{\\text{slip}}$ the fully contracted slipstream diameter"
+
+[[symbol]]
+tex = 'v_i'
+meaning = "the induced velocity at the propeller disc"
+
+[[symbol]]
+tex = 'v_s'
+meaning = "the slipstream velocity behind the disc"
+
+[[symbol]]
+tex = 'q_{\text{slip}}'
+meaning = "the dynamic pressure in the slipstream over the immersed panel, with $q_\\infty$ the freestream dynamic pressure"
+
+[[symbol]]
+tex = 'i_w'
+meaning = "the wing tilt angle"
+
+[[symbol]]
+tex = '\alpha_{\text{local}}'
+meaning = "the local angle of attack of the immersed panel"
+
+[[symbol]]
+tex = 'S_{\text{imm}}'
+meaning = "the immersed wing area"
+
+[[symbol]]
+tex = 'C_{L,\text{imm}}'
+meaning = "the lift coefficient of the immersed panel, with $C_{L,\\text{free}}$ that of the free panel"
+
+[[symbol]]
+tex = '\text{FM}'
+meaning = "the hover figure of merit"
+
+[[symbol]]
+tex = 'C_{m\delta_e}'
+meaning = "the elevator pitch control power"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'M_{\text{jet}}'
+meaning = "the pitching moment of the pitch control jet, with $M_{\\text{aero}}$ the elevator moment"
+
+[[symbol]]
+tex = 'C_{l\delta_a}'
+meaning = "the aileron roll control derivative"
+
+[[symbol]]
+tex = 'C_\mu'
+meaning = "the blowing momentum coefficient"
+
+[[symbol]]
+tex = 'J'
+meaning = "the propeller advance ratio"
+
+[[symbol]]
+tex = 'M_{\text{tip}}'
+meaning = "the helical tip Mach number"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the fractional thrust difference between the two propellers"

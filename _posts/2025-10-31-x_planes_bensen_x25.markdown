@@ -138,19 +138,28 @@ Consider a blade element at radius $r$ meeting the resultant flow at inflow angl
 perpendicular to that flow and its drag along it, so both have components in the plane of rotation. The net
 in-plane force on the element is
 
-$$dF_{x} = dL \sin\phi - dD \cos\phi$$
+$$
+dF_{x} = dL \sin\phi - dD \cos\phi
+\tag{1}
+$$
 
 The element neither drives the rotor nor retards it when that vanishes, which gives a condition containing
 nothing but the section's aerodynamics,
 
-$$\tan\phi = \frac{dD}{dL} = \frac{C_d}{C_l}$$
+$$
+\tan\phi = \frac{dD}{dL} = \frac{C_d}{C_l}
+\tag{2}
+$$
 
 **The equilibrium element is the one whose inflow angle equals its drag-to-lift angle.** Inboard of it
 the inflow angle is larger and the element drives the rotor. Outboard it is smaller and the element is
 driven. **Autorotation is that balance, integrated over the disc**, and the rotor settles at whatever speed
 makes the driving and driven regions cancel,
 
-$$\int_{0}^{R} r \, dF_{x} = 0$$
+$$
+\int_{0}^{R} r \, dF_{x} = 0
+\tag{3}
+$$
 
 For a section lift-to-drag ratio of 15, which is ordinary for a wooden blade, the equilibrium inflow angle
 is 3.8 degrees. The blade-level machinery is [Weick 1926, Propeller design extension
@@ -177,7 +186,10 @@ Every rotor quantity in this article is measured against one speed, the induced 
 would need in hover. For a rotor of radius $R$ carrying weight $W$ in air of density $\rho$, the disc area
 and the hover induced velocity are
 
-$$A = \pi R^2, \qquad v_h = \sqrt{\frac{W}{2 \rho A}}$$
+$$
+A = \pi R^2, \qquad v_h = \sqrt{\frac{W}{2 \rho A}}
+\tag{4}
+$$
 
 where the second expression is the actuator-disc result, in [Castles and De Leeuw
 1953][research_castles_de_leeuw_1953], [Gessow 1954][research_alfred_gessow_1954], [Castles and Durham 1956, Distribution of normal
@@ -193,13 +205,19 @@ X-25 is [Gessow and Myers][book_gessow_myers_1952].
 
 For the X-25B, taking a rotor diameter of 20 feet,
 
-$$A = \pi (10 \, \text{ft})^2 = 314.2 \, \text{ft}^2$$
+$$
+A = \pi (10 \, \text{ft})^2 = 314.2 \, \text{ft}^2
+\tag{5}
+$$
 
 **The gross weight in the escape configuration is not in the public record.** Taking 350 pounds, which is a
 200 pound crewman with equipment plus a stripped airframe, and sea-level density of $0.002377 \,
 \text{slug/ft}^3$,
 
-$$v_h = \sqrt{\frac{350}{2 (0.002377)(314.2)}} = 15.3 \, \text{ft/s}$$
+$$
+v_h = \sqrt{\frac{350}{2 (0.002377)(314.2)}} = 15.3 \, \text{ft/s}
+\tag{6}
+$$
 
 ### The Descent Rate
 
@@ -212,18 +230,27 @@ vertical descent, and the power-off flare-up tests of a model rotor, in [Irving 
 In the windmill brake state the disc decelerates the oncoming flow by an induction factor $a$, and momentum
 theory gives the thrust as
 
-$$T = 2 \rho A V_d^2 \, a (1 - a)$$
+$$
+T = 2 \rho A V_d^2 \, a (1 - a)
+\tag{7}
+$$
 
 Setting $T = W$ and substituting $W = 2 \rho A v_h^2$ makes the density and the area cancel, leaving a
 relation between the descent ratio and the induction factor alone,
 
-$$\left( \frac{v_h}{V_d} \right)^{2} = a (1 - a)$$
+$$
+\left( \frac{v_h}{V_d} \right)^{2} = a (1 - a)
+\tag{8}
+$$
 
 **The right-hand side is a parabola whose maximum is one quarter, at $a = 1/2$.** The left-hand side
 therefore cannot exceed one quarter either, giving a bound on the descent ratio that contains no property of
 any rotor,
 
-$$\frac{V_d}{v_h} \geq 2$$
+$$
+\frac{V_d}{v_h} \geq 2
+\tag{9}
+$$
 
 **The measured value is 1.8, and momentum theory has no solution there at all.** The quadratic in $a$ has a
 negative discriminant below a ratio of 2, so there is no induction factor that supports the weight.
@@ -238,23 +265,35 @@ One consequence lands on a table this article prints below. The limiting case $a
 ratio of exactly 2, which by the bridge derived next is a drag coefficient of exactly 1 on disc area.
 **The last row of that table is the momentum-theory bound.**
 
-$$V_d \approx 1.8 \, v_h = 1.8 (15.3) = 27.6 \, \text{ft/s} = 18.8 \, \text{mph}$$
+$$
+V_d \approx 1.8 \, v_h = 1.8 (15.3) = 27.6 \, \text{ft/s} = 18.8 \, \text{mph}
+\tag{10}
+$$
 
 ### A Bridge Between Two Literatures That Do Not Cite Each Other
 
 **The rotor result and the parachute result are the same statement in different units, and neither field notes it.**
 Treat the rotor as a pure drag device of coefficient $C_D$ referred to disc area,
 
-$$W = \tfrac{1}{2} \rho V_d^2 A \, C_D \quad \Longrightarrow \quad V_d = \sqrt{\frac{2W}{\rho A C_D}}$$
+$$
+W = \tfrac{1}{2} \rho V_d^2 A \, C_D \quad \Longrightarrow \quad V_d = \sqrt{\frac{2W}{\rho A C_D}}
+\tag{11}
+$$
 
 and substitute $W = 2 \rho A v_h^2$, which is the definition of $v_h$ rearranged. The weight, the density
 and the area all cancel,
 
-$$V_d = \frac{2 v_h}{\sqrt{C_D}} \quad \Longrightarrow \quad C_D = \frac{4}{(V_d / v_h)^2}$$
+$$
+V_d = \frac{2 v_h}{\sqrt{C_D}} \quad \Longrightarrow \quad C_D = \frac{4}{(V_d / v_h)^2}
+\tag{12}
+$$
 
 **No property of any particular rotor appears in it.** Putting the measured autorotation ratio in,
 
-$$C_D = \frac{4}{(1.8)^2} = 1.23$$
+$$
+C_D = \frac{4}{(1.8)^2} = 1.23
+\tag{13}
+$$
 
 A flat circular parachute canopy has a drag coefficient near 0.75 referred to its **nominal** area, meaning
 the area of the flat fabric before it is inflated, in [Knacke's recovery systems design manual][book_knacke_1992].
@@ -264,12 +303,18 @@ in [Walcott 1963][research_walcott_1963], [Melzig and Schmidt 1965][research_mel
 **The area it presents to the flow is smaller, because an inflated canopy is a shallow bowl and not a flat disc**,
 and the two areas are related through the projected diameter,
 
-$$S_p = \left( \frac{D_p}{D_0} \right)^{2} S_0$$
+$$
+S_p = \left( \frac{D_p}{D_0} \right)^{2} S_0
+\tag{14}
+$$
 
 Its inflated projected diameter is roughly 0.67 of the nominal diameter, so referred to its projected
 area,
 
-$$C_{D,\text{proj}} = \frac{0.75}{(0.67)^2} = 1.67$$
+$$
+C_{D,\text{proj}} = \frac{0.75}{(0.67)^2} = 1.67
+\tag{15}
+$$
 
 **The autorotation constant that every rotorcraft text quotes and the drag coefficient that every parachute text quotes are the same physical number.**
 Both devices are swept-area drag devices sitting between about 1.2 and 1.7, and on this measure
@@ -283,18 +328,27 @@ The comparison has to be made at equal weight first, or the rotor is being penal
 airframe. The standard personnel canopy in [Knacke's recovery systems design manual][book_knacke_1992] is of
 28 foot nominal diameter, and it has
 
-$$A_0 = \pi (14)^2 = 615.8 \, \text{ft}^2$$
+$$
+A_0 = \pi (14)^2 = 615.8 \, \text{ft}^2
+\tag{16}
+$$
 
 which is nearly twice the rotor disc.
 
 **Both devices obey the same law, written down here because the article leans on it repeatedly.**
 Define the loading as weight over swept area,
 
-$$\frac{W}{A} = \text{disc loading, or canopy loading}$$
+$$
+\frac{W}{A} = \text{disc loading, or canopy loading}
+\tag{17}
+$$
 
 Then the terminal descent of any swept-area drag device follows from the force balance,
 
-$$V_d = k \sqrt{\frac{W / A}{\rho}}, \qquad k = \sqrt{\frac{2}{C_D}}$$
+$$
+V_d = k \sqrt{\frac{W / A}{\rho}}, \qquad k = \sqrt{\frac{2}{C_D}}
+\tag{18}
+$$
 
 with $k = 1.27$ for the rotor at $C_D = 1.23$ and $k = 1.63$ for the canopy at $C_D = 0.75$.
 **The rotor has the better coefficient and the worse loading, and the loading wins.** Sizing practice around
@@ -313,7 +367,10 @@ coefficient is considered.
 characterises the two devices and is independent of the load. Writing $r$ for the rotor and $c$ for
 the canopy,
 
-$$\frac{V_{\text{rotor}}}{V_{\text{canopy}}} = \sqrt{\frac{C_{D,c} A_c}{C_{D,r} A_r}} = \sqrt{\frac{0.75 \times 615.8}{1.23 \times 314.2}} = 1.091$$
+$$
+\frac{V_{\text{rotor}}}{V_{\text{canopy}}} = \sqrt{\frac{C_{D,c} A_c}{C_{D,r} A_r}} = \sqrt{\frac{0.75 \times 615.8}{1.23 \times 314.2}} = 1.091
+\tag{19}
+$$
 
 **Nine percent worse at equal weight and twenty-nine percent worse as flown.** A concept sold as a better
 way down is, in the one respect a parachute exists to serve, a worse one.
@@ -327,14 +384,23 @@ and Wheatley's 1933 flight determination of autogiro lift, drag and gliding perf
 ancestor of every figure in this section, in [Collins 1934][research_collins_1934], [Gliding Flight in Germany 1935][research_gliding_flight_1935], [Lamprey 1953][research_lamprey_1953], [Schiotz and Volsoe 1959][research_schiotz_volsoe_1959], [Pennycuick 1960][research_pennycuick_1960], [Durand and Wasicko 1967][research_durand_wasicko_1967], [Mort and Weiberg 1967][research_mort_weiberg_1967], [Knapp and Barton 1968][research_knapp_barton_1968], [Pennycuick 1968][research_pennycuick_1968], [Pennycuick 1971][research_pennycuick_1971_2], [Sleeman 1971][research_sleeman_1971], [McGAHAN 1973][research_mcgahan_1973], [Baudinette and Schmidt-Nielsen 1974][research_baudinette_schmidt_nielsen_1974], [Williamson 1979][research_williamson_1979]. Taking a lift-to-drag ratio of 4, which is mid-range for this class of
 machine, and a best-glide airspeed of 45 miles an hour,
 
-$$\tan\gamma = \frac{1}{L/D}, \qquad V_s = V \sin\gamma$$
+$$
+\tan\gamma = \frac{1}{L/D}, \qquad V_s = V \sin\gamma
+\tag{20}
+$$
 
 **At a lift-to-drag ratio of 4 the glide angle is 14.0 degrees, too large to count as a small angle**, so the exact
 form and the convenient one differ,
 
-$$V_s = \frac{V}{L/D} = \frac{66.0 \, \text{ft/s}}{4} = 16.5 \, \text{ft/s}$$
+$$
+V_s = \frac{V}{L/D} = \frac{66.0 \, \text{ft/s}}{4} = 16.5 \, \text{ft/s}
+\tag{21}
+$$
 
-$$V_s = V \sin\gamma = 66.0 \sin(14.04^\circ) = 16.0 \, \text{ft/s}$$
+$$
+V_s = V \sin\gamma = 66.0 \sin(14.04^\circ) = 16.0 \, \text{ft/s}
+\tag{22}
+$$
 
 **The article uses the simpler form throughout, and that form reads three percent high.** That is stated openly, and it
 does not move any conclusion, since the comparison against a canopy descending at 21.3 feet per second is
@@ -346,7 +412,10 @@ the underlying measurement.
 
 ### The Range That Makes Descent Discretionary
 
-$$R = h \, (L/D)$$
+$$
+R = h \, (L/D)
+\tag{23}
+$$
 
 | Release height, ft | Range, statute miles | Time aloft, minutes |
 |---|---|---|
@@ -362,7 +431,10 @@ $$R = h \, (L/D)$$
 **The density ratio is conventionally written $\sigma$, a notation this article avoids**, because the
 article spends $\sigma$ on rotor solidity under The Material Argument, and one symbol cannot carry both.
 
-$$V_d(h) = V_d(0) \sqrt{\frac{\rho_0}{\rho(h)}}, \qquad \frac{\rho(h)}{\rho_0} = \left( 1 - 6.875 \times 10^{-6} h \right)^{4.256}$$
+$$
+V_d(h) = V_d(0) \sqrt{\frac{\rho_0}{\rho(h)}}, \qquad \frac{\rho(h)}{\rho_0} = \left( 1 - 6.875 \times 10^{-6} h \right)^{4.256}
+\tag{24}
+$$
 
 so a rotor arrives at 20,000 feet descending 37 percent faster than the same rotor at sea level. The
 tabulated atmosphere behind this is [Dubin et al. 1962][research_dubin_1962], [U.S. Standard Atmosphere 1962 1962][research_u_s_standard_1962], [B-34. U. S. Standard 1963][research_b_34_u_1963], [U. S. Standard Atmosphere 1963][research_u_s_1963], [Dubin et al. 1966][research_dubin_1966], [U.S. Standard Atmosphere Supplements 1966][research_u_s_standard_1966], [Minzner 1967][research_minzner_1967], [Pegg 1968][research_pegg_1968], [Snell and Heiser 1968][research_snell_heiser_1968], [Minzner et al. 1973][research_minzner_1973], [Krueger and Minzner 1976][research_krueger_minzner_1976], [Minzner et al. 1976][research_minzner_1976], [U.S. Standard Atmosphere 1976 1976][research_u_s_standard_1976], [Minzner 1976][research_minzner_1977], [Peters 1977][research_peters_jr_1977], [Johnson et al. 1991][research_johnson_1991], [Johnson et al. 1993][research_johnson_1993], [Johnson et al. 2002][research_johnson_2002].
@@ -376,7 +448,10 @@ on the way down.
 **The time aloft does change, and holding the sink rate constant would overstate it.** Integrating with
 density varying,
 
-$$t = \int_{0}^{h} \frac{dz}{V_s(z)} = \frac{1}{V_s(0)} \int_{0}^{h} \sqrt{\frac{\rho(z)}{\rho_0}} \; dz$$
+$$
+t = \int_{0}^{h} \frac{dz}{V_s(z)} = \frac{1}{V_s(0)} \int_{0}^{h} \sqrt{\frac{\rho(z)}{\rho_0}} \; dz
+\tag{25}
+$$
 
 which gives 9.4 minutes from 10,000 feet rather than 10.1, and 17.4 from 20,000 rather than 20.2.
 **The constant-density figure overstates the time by 8 percent at ten thousand feet and 16 percent at twenty.**
@@ -390,12 +465,18 @@ capture and recovery, a question about the war and not about the rotor.
 
 A rotor sweeps its disc with almost nothing in it. Solidity is the ratio of blade area to disc area,
 
-$$\sigma = \frac{N c}{\pi R} = \frac{2 (0.583)}{\pi (10)} = 0.037$$
+$$
+\sigma = \frac{N c}{\pi R} = \frac{2 (0.583)}{\pi (10)} = 0.037
+\tag{26}
+$$
 
 so the two blades of an assumed 7 inch chord occupy 11.7 square feet and sweep 314. To match the rotor's drag area with
 fabric,
 
-$$C_D A = 1.23 \times 314.2 = 388 \, \text{ft}^2, \qquad S_0 = \frac{388}{0.75} = 517 \, \text{ft}^2$$
+$$
+C_D A = 1.23 \times 314.2 = 388 \, \text{ft}^2, \qquad S_0 = \frac{388}{0.75} = 517 \, \text{ft}^2
+\tag{27}
+$$
 
 **Forty-four square feet of canopy for every square foot of blade.** That ratio is the entire engineering
 appeal of the idea, and the sizing literature behind it is [Gianmarco Sahragard-Monfared et
@@ -420,9 +501,15 @@ vehicle that must never be pushed over is an acceptable trade. The teetering rot
 **One number governs how the blade responds, and this article computes its ingredients anyway.** The Lock
 number compares the aerodynamic forcing on a blade to its inertia,
 
-$$\gamma_L = \frac{\rho a c R^4}{I_b}, \qquad I_b = \tfrac{1}{3} m_b R^2 = 12.4 \, \text{slug ft}^2$$
+$$
+\gamma_L = \frac{\rho a c R^4}{I_b}, \qquad I_b = \tfrac{1}{3} m_b R^2 = 12.4 \, \text{slug ft}^2
+\tag{28}
+$$
 
-$$\gamma_L = \frac{(0.002377)(5.7)(0.583)(10)^4}{12.4} = 6.4$$
+$$
+\gamma_L = \frac{(0.002377)(5.7)(0.583)(10)^4}{12.4} = 6.4
+\tag{29}
+$$
 
 **The Lock number is conventionally written $\gamma$ with no subscript.** It is subscripted here because
 this article has already used $\gamma$ for the glide angle, and a collision between two standard notations
@@ -435,25 +522,37 @@ energy, and the spin-up analysis under Spinning the Rotor Up turns on it.
 
 Operating tip speed for this class is near 400 feet per second, giving
 
-$$\Omega = \frac{V_{tip}}{R} = \frac{400}{10} = 40 \, \text{rad/s} = 382 \, \text{rpm}$$
+$$
+\Omega = \frac{V_{tip}}{R} = \frac{400}{10} = 40 \, \text{rad/s} = 382 \, \text{rpm}
+\tag{30}
+$$
 
 which is well below any compressibility concern, in [McDonnell Aircraft Corp St Louis Mo 1950][research_mcdonnell_aircraft_corp_st_louis_mo_1950], [Powell 1959][research_powell_1959], [Sissingh 1964][research_sissingh_1964], [Spencer et al. 1969][research_spencer_1969], [Barry and Magliozzi 1971][research_barry_magliozzi_1971], [Paglino and Beno 1971][research_paglino_beno_1971], [Stockman et al. 1973][research_stockman_1973], [Arents 1977][research_arents_1977], [Stroub 1978][research_stroub_1978], [Stroub et al. 1979][research_stroub_1979], [Yeager and Mantay 1981][research_yeager_mantay_1981], [Leighton 1982][research_leighton_1982], [Savino et al. 1985][research_savino_1985], [Mueller et al. 1987][research_mueller_1987], [Althoff 1989][research_althoff_1989], [Prieur et al. 1989][research_prieur_1989], [Mueller et al. 1990][research_mueller_1990], [Mueller et al. 1992][research_mueller_1992], [Berton et al. 1995][research_berton_1995].
 
 **Two nondimensional numbers place this rotor against every other rotor and against the wind turbine it shares its flow state with.**
 The thrust coefficient refers the load to the dynamic pressure at the tip,
 
-$$C_T = \frac{W}{\rho A (\Omega R)^2} = \frac{350}{(0.002377)(314.2)(400)^2} = 0.0029$$
+$$
+C_T = \frac{W}{\rho A (\Omega R)^2} = \frac{350}{(0.002377)(314.2)(400)^2} = 0.0029
+\tag{31}
+$$
 
 and dividing by solidity gives the blade loading coefficient, the quantity that approaches a stall limit
 near 0.10.
 **Where that limit sits, and how blade area, blade count and chord distribution move it, is a design literature of its own**,
 in [Gianmarco Sahragard-Monfared et al][research_gianmarco_sahragard_monfared], [Gessow 1948a][research_gessow_1948_2], [Powell 1954][research_robert_d_powell_1954], [Young and Lytwyn 1967][research_young_lytwyn_1967], [Jenney et al. 1968][research_jenney_1968], [Wright 1969][research_wright_1969], [Miller 1983][research_miller_1983], [Zaitsev 1987][research_zaitsev_1987],
 
-$$\frac{C_T}{\sigma} = \frac{0.0029}{0.037} = 0.079$$
+$$
+\frac{C_T}{\sigma} = \frac{0.0029}{0.037} = 0.079
+\tag{32}
+$$
 
 The tip speed ratio compares the tip speed to the flow the rotor sits in,
 
-$$\lambda = \frac{\Omega R}{V_d} = \frac{400}{27.6} = 14.5$$
+$$
+\lambda = \frac{\Omega R}{V_d} = \frac{400}{27.6} = 14.5
+\tag{33}
+$$
 
 **A horizontal axis wind turbine runs at a tip speed ratio of six to eight. This rotor runs at fifteen**, so
 it is a very lightly loaded machine in the same flow state, with a correspondingly small induction factor and
@@ -468,11 +567,20 @@ somewhere and the only bank available is height.
 
 Treating each blade as a uniform rod about the hub,
 
-$$I = N \cdot \tfrac{1}{3} m_b R^2 = 2 \cdot \tfrac{1}{3} (0.373)(100) = 24.9 \, \text{slug ft}^2$$
+$$
+I = N \cdot \tfrac{1}{3} m_b R^2 = 2 \cdot \tfrac{1}{3} (0.373)(100) = 24.9 \, \text{slug ft}^2
+\tag{34}
+$$
 
-$$E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} (24.9)(40)^2 = 19{,}900 \, \text{ft lb}$$
+$$
+E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} (24.9)(40)^2 = 19{,}900 \, \text{ft lb}
+\tag{35}
+$$
 
-$$h = \frac{E}{W} = \frac{19{,}900}{350} = 57 \, \text{ft}$$
+$$
+h = \frac{E}{W} = \frac{19{,}900}{350} = 57 \, \text{ft}
+\tag{36}
+$$
 
 **Fifty-seven feet if every particle of potential energy went into the rotor, and a few hundred feet at any believable efficiency.**
 That is plausibly comparable to the height a canopy loses while it inflates.
@@ -480,7 +588,10 @@ That is plausibly comparable to the height a canopy loses while it inflates.
 **There is a small surprise buried in that arithmetic and it matters later.** Substituting the inertia and
 the operating speed into the energy,
 
-$$E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} \left( N \tfrac{1}{3} m_b R^2 \right) \left( \frac{V_{tip}}{R} \right)^{2} = \frac{N}{6} m_b V_{tip}^2$$
+$$
+E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} \left( N \tfrac{1}{3} m_b R^2 \right) \left( \frac{V_{tip}}{R} \right)^{2} = \frac{N}{6} m_b V_{tip}^2
+\tag{37}
+$$
 
 **The radius has cancelled.** At a fixed blade mass and a fixed tip speed, a rotor stores the same energy
 whatever its size, because the inertia rises as the square of the radius exactly as fast as the operating
@@ -566,7 +677,10 @@ a flight vehicle after ejection.
 **Stowability forces the geometry, and the geometry forces the descent rate.** A rotor that must fold into a
 seat cannot be 20 feet across. The [Kaman KSA-100 SAVER][ref_kaman_saver] entry gives the SAVER's as 14. Since
 
-$$V_d \propto \frac{\sqrt{W}}{R}$$
+$$
+V_d \propto \frac{\sqrt{W}}{R}
+\tag{38}
+$$
 
 a smaller radius at a larger weight is punished twice.
 
@@ -586,16 +700,25 @@ check is short.
 
 The energy a flare must absorb is the kinetic energy of the descent,
 
-$$E_{req} = \tfrac{1}{2} \frac{W}{g} V_d^2$$
+$$
+E_{req} = \tfrac{1}{2} \frac{W}{g} V_d^2
+\tag{39}
+$$
 
 and substituting the descent rate turns it into a function of weight and radius alone,
 
-$$E_{req} = \frac{(1.8)^2}{2 g \rho \pi} \cdot \frac{W^2}{R^2}$$
+$$
+E_{req} = \frac{(1.8)^2}{2 g \rho \pi} \cdot \frac{W^2}{R^2}
+\tag{40}
+$$
 
 **The energy required goes as the square of the weight over the square of the radius, while the energy available goes as neither.**
 Dividing one by the other gives a margin whose only free quantity is the assumed blade mass,
 
-$$\frac{E_{avail}}{E_{req}} = \frac{N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2 W^2}$$
+$$
+\frac{E_{avail}}{E_{req}} = \frac{N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2 W^2}
+\tag{41}
+$$
 
 | | X-25B | SAVER |
 |---|---|---|
@@ -609,7 +732,10 @@ $$\frac{E_{avail}}{E_{req}} = \frac{N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2
 **The X-25B carries nearly five times the energy its flare needs. The SAVER carries about half.** Inverting
 the margin to unity asks what the blades would have to weigh,
 
-$$m_b = \frac{3 (1.8)^2 W^2}{N V_{tip}^2 g \rho \pi R^2}$$
+$$
+m_b = \frac{3 (1.8)^2 W^2}{N V_{tip}^2 g \rho \pi R^2}
+\tag{42}
+$$
 
 which is 2.5 pounds a blade for the X-25B and **21 pounds a blade for the SAVER**, against the 12 assumed
 for both.
@@ -628,7 +754,10 @@ the reason the engine was fitted and notes that it was more powerful than the se
 operational seat's engine in [Hollrock and Barzda 1972][research_hollrock_barzda_1972] is a sea-level thrust
 of 1,280 newtons, about 290 pounds. A thrust to weight ratio of
 
-$$\frac{T}{W} = \frac{430}{710} = 0.61$$
+$$
+\frac{T}{W} = \frac{430}{710} = 0.61
+\tag{43}
+$$
 
 is far above anything a gyroplane needs to sustain flight, so the descent problem evidently did not size
 the engine. **The prediction is directionally right and quantitatively unconfirmed**, and what can be
@@ -735,7 +864,10 @@ serious industry, with certification-constrained design, conceptual design metho
 lift rotor on a distributed-propulsion aircraft is small, lightly loaded and often fixed in pitch, so the
 two properties autorotation needs are both absent. In this article's terms, the stored energy is
 
-$$E = \frac{N}{6} m_b V_{tip}^2$$
+$$
+E = \frac{N}{6} m_b V_{tip}^2
+\tag{44}
+$$
 
 and a small light blade turning at modest tip speed has very little of it, while the disc loading that sets
 the descent rate is high because the disc is small.
@@ -1165,6 +1297,406 @@ pilot from the loop as well.
 **The rotor's physics did not die. It went into wind energy, where the windmill brake state is the design condition rather than an emergency.**
 
 The next article in this series takes up the Schweizer X-26 Frigate.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 44 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 44, 23 are established and 21 are bespoke.
+Quantities are in United States customary units, with weight in pounds, length in feet, speed in feet per second and density in slugs per cubic foot, and the escape weight of 350 pounds, the rotor diameter of 20 feet, the blade mass of 12 pounds, the tip speed of 400 feet per second, the blade chord of 7 inches and the lift-to-drag ratio of 4 are values the article assumes, while $\gamma$ is the glide angle and $\gamma_L$ the Lock number.
+
+**Equation 1, In-Plane Force on a Blade Element.**
+The net force in the plane of rotation on a blade element is the in-plane component of its lift less that of its drag at the inflow angle.
+
+$$
+dF_{x} = dL \sin\phi - dD \cos\phi
+\tag{1}
+$$
+
+**Equation 2, Equilibrium Inflow Angle of an Autorotating Element.**
+An element neither drives nor retards the rotor when the tangent of its inflow angle equals its section drag-to-lift ratio.
+
+$$
+\tan\phi = \frac{dD}{dL} = \frac{C_d}{C_l}
+\tag{2}
+$$
+
+**Equation 3, Torque Balance of an Autorotating Rotor.**
+A rotor in steady autorotation turns at the speed at which the moments of the in-plane forces of its driving and driven regions cancel over the disc.
+
+$$
+\int_{0}^{R} r \, dF_{x} = 0
+\tag{3}
+$$
+
+**Equation 4, Disc Area and Hover Induced Velocity.**
+The actuator-disc result gives the induced velocity a rotor needs in hover from its weight, the air density and its disc area.
+[Leishman's helicopter aerodynamics][book_leishman_2006]
+[Johnson's helicopter theory][book_johnson_1980]
+[Castles and De Leeuw 1953][research_castles_de_leeuw_1953]
+
+$$
+A = \pi R^2, \qquad v_h = \sqrt{\frac{W}{2 \rho A}}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Disc Area of the X-25B Rotor.*
+The disc area follows from a rotor diameter the article takes as 20 feet, since the record does not settle whether the X-25 used the standard B-8M rotor.
+
+$$
+A = \pi (10 \, \text{ft})^2 = 314.2 \, \text{ft}^2
+\tag{5}
+$$
+
+*Equation 6, Bespoke Hover Induced Velocity of the X-25B.*
+The actuator-disc induced velocity at an escape weight the article assumes as 350 pounds on the taken disc at sea-level density is about 15 feet per second.
+
+$$
+v_h = \sqrt{\frac{350}{2 (0.002377)(314.2)}} = 15.3 \, \text{ft/s}
+\tag{6}
+$$
+
+**Equation 7, Momentum Theory Thrust in the Windmill Brake State.**
+In the windmill brake state momentum theory gives the thrust in terms of the descent speed and the induction factor $a$.
+
+$$
+T = 2 \rho A V_d^2 \, a (1 - a)
+\tag{7}
+$$
+
+**Equation 8, Descent Ratio and Induction Factor.**
+Setting thrust equal to weight cancels density and area and relates the squared ratio of hover induced velocity to descent speed to the induction factor alone.
+
+$$
+\left( \frac{v_h}{V_d} \right)^{2} = a (1 - a)
+\tag{8}
+$$
+
+**Equation 9, Momentum Theory Bound on the Descent Ratio.**
+Because the induction factor term cannot exceed one quarter, momentum theory has a solution only when the descent speed is at least twice the hover induced velocity.
+
+$$
+\frac{V_d}{v_h} \geq 2
+\tag{9}
+$$
+
+*Equation 10, Bespoke Autorotative Descent Rate of the X-25B.*
+The measured autorotation ratio of 1.8 applied to the hover induced velocity at the assumed 350 pounds gives a descent of about 28 feet per second.
+
+$$
+V_d \approx 1.8 \, v_h = 1.8 (15.3) = 27.6 \, \text{ft/s} = 18.8 \, \text{mph}
+\tag{10}
+$$
+
+**Equation 11, Terminal Descent of a Drag Device.**
+Balancing weight against the drag of a device with coefficient $C_D$ referred to swept area gives its terminal descent speed.
+
+$$
+W = \tfrac{1}{2} \rho V_d^2 A \, C_D \quad \Longrightarrow \quad V_d = \sqrt{\frac{2W}{\rho A C_D}}
+\tag{11}
+$$
+
+**Equation 12, Drag Coefficient Equivalent to a Descent Ratio.**
+Substituting the definition of the hover induced velocity makes weight, density and area cancel, so a descent ratio fixes a drag coefficient on disc area.
+
+$$
+V_d = \frac{2 v_h}{\sqrt{C_D}} \quad \Longrightarrow \quad C_D = \frac{4}{(V_d / v_h)^2}
+\tag{12}
+$$
+
+**Equation 13, Drag Coefficient of an Autorotating Rotor.**
+The measured autorotation ratio of 1.8 corresponds to a drag coefficient of about 1.23 referred to disc area.
+
+$$
+C_D = \frac{4}{(1.8)^2} = 1.23
+\tag{13}
+$$
+
+**Equation 14, Projected Area of an Inflated Canopy.**
+The projected area of an inflated canopy is the nominal area scaled by the square of the ratio of projected to nominal diameter.
+[Knacke's recovery systems design manual][book_knacke_1992]
+
+$$
+S_p = \left( \frac{D_p}{D_0} \right)^{2} S_0
+\tag{14}
+$$
+
+**Equation 15, Canopy Drag Coefficient on Projected Area.**
+A flat circular canopy coefficient of 0.75 on nominal area becomes about 1.67 on projected area when the inflated diameter is 0.67 of the nominal.
+[Knacke's recovery systems design manual][book_knacke_1992]
+
+$$
+C_{D,\text{proj}} = \frac{0.75}{(0.67)^2} = 1.67
+\tag{15}
+$$
+
+**Equation 16, Nominal Area of the Standard Personnel Canopy.**
+The standard personnel canopy of 28 foot nominal diameter has a nominal area of about 616 square feet.
+[Knacke's recovery systems design manual][book_knacke_1992]
+
+$$
+A_0 = \pi (14)^2 = 615.8 \, \text{ft}^2
+\tag{16}
+$$
+
+**Equation 17, Disc or Canopy Loading.**
+The loading of a swept-area drag device is its weight divided by its swept area.
+
+$$
+\frac{W}{A} = \text{disc loading, or canopy loading}
+\tag{17}
+$$
+
+**Equation 18, Terminal Descent in Terms of Loading.**
+The terminal descent speed of any swept-area drag device is a constant set by its drag coefficient times the square root of loading over density.
+
+$$
+V_d = k \sqrt{\frac{W / A}{\rho}}, \qquad k = \sqrt{\frac{2}{C_D}}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Equal-Weight Descent Ratio of Rotor to Canopy.*
+At equal weight the rotor on the taken 20 foot disc descends about nine percent faster than the 28 foot canopy, a ratio from which the weight cancels.
+
+$$
+\frac{V_{\text{rotor}}}{V_{\text{canopy}}} = \sqrt{\frac{C_{D,c} A_c}{C_{D,r} A_r}} = \sqrt{\frac{0.75 \times 615.8}{1.23 \times 314.2}} = 1.091
+\tag{19}
+$$
+
+**Equation 20, Glide Angle and Sink Rate.**
+The glide angle has a tangent equal to the reciprocal of the lift-to-drag ratio and the sink rate is the airspeed times the sine of that angle.
+
+$$
+\tan\gamma = \frac{1}{L/D}, \qquad V_s = V \sin\gamma
+\tag{20}
+$$
+
+*Equation 21, Bespoke Small-Angle Sink Rate in the Glide.*
+Dividing a best-glide speed the article assumes as 45 miles an hour by an assumed lift-to-drag ratio of 4 gives a sink rate of 16.5 feet per second.
+
+$$
+V_s = \frac{V}{L/D} = \frac{66.0 \, \text{ft/s}}{4} = 16.5 \, \text{ft/s}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Exact Sink Rate in the Glide.*
+The exact form at the same assumed speed and ratio gives 16.0 feet per second, so the simpler form reads three percent high.
+
+$$
+V_s = V \sin\gamma = 66.0 \sin(14.04^\circ) = 16.0 \, \text{ft/s}
+\tag{22}
+$$
+
+**Equation 23, Still-Air Glide Range.**
+In still air a glide at a fixed lift-to-drag ratio covers a horizontal range equal to the release height times that ratio.
+
+$$
+R = h \, (L/D)
+\tag{23}
+$$
+
+**Equation 24, Descent Rate at Altitude in the Standard Atmosphere.**
+The descent rate scales with the inverse square root of the density ratio, which the tropospheric standard atmosphere gives as a power law in height.
+
+$$
+V_d(h) = V_d(0) \sqrt{\frac{\rho_0}{\rho(h)}}, \qquad \frac{\rho(h)}{\rho_0} = \left( 1 - 6.875 \times 10^{-6} h \right)^{4.256}
+\tag{24}
+$$
+
+**Equation 25, Time Aloft with Density Varying.**
+Integrating the inverse sink rate over height, with the sink rate varying as the inverse square root of the density ratio, gives the time aloft.
+
+$$
+t = \int_{0}^{h} \frac{dz}{V_s(z)} = \frac{1}{V_s(0)} \int_{0}^{h} \sqrt{\frac{\rho(z)}{\rho_0}} \; dz
+\tag{25}
+$$
+
+*Equation 26, Bespoke Rotor Solidity.*
+Two blades of an assumed 7 inch chord on the taken 10 foot radius give a solidity of about 0.037.
+
+$$
+\sigma = \frac{N c}{\pi R} = \frac{2 (0.583)}{\pi (10)} = 0.037
+\tag{26}
+$$
+
+*Equation 27, Bespoke Canopy Area Matching the Rotor Drag Area.*
+Matching the drag area of the taken rotor disc at the measured coefficient with fabric at 0.75 needs about 517 square feet of canopy.
+
+$$
+C_D A = 1.23 \times 314.2 = 388 \, \text{ft}^2, \qquad S_0 = \frac{388}{0.75} = 517 \, \text{ft}^2
+\tag{27}
+$$
+
+*Equation 28, Bespoke Lock Number Definition and Blade Inertia.*
+The Lock number compares aerodynamic forcing on a blade to its inertia, here with the inertia of a uniform blade of a mass the article assumes as 12 pounds.
+
+$$
+\gamma_L = \frac{\rho a c R^4}{I_b}, \qquad I_b = \tfrac{1}{3} m_b R^2 = 12.4 \, \text{slug ft}^2
+\tag{28}
+$$
+
+*Equation 29, Bespoke Lock Number of the X-25B Blade.*
+At sea-level density with a lift-curve slope of 5.7, the assumed chord and the assumed blade inertia, the Lock number is about 6.4.
+
+$$
+\gamma_L = \frac{(0.002377)(5.7)(0.583)(10)^4}{12.4} = 6.4
+\tag{29}
+$$
+
+*Equation 30, Bespoke Rotor Angular Speed.*
+A tip speed the article assumes as 400 feet per second on a 10 foot radius gives 40 radians per second.
+
+$$
+\Omega = \frac{V_{tip}}{R} = \frac{400}{10} = 40 \, \text{rad/s} = 382 \, \text{rpm}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Thrust Coefficient.*
+The assumed 350 pounds referred to the dynamic pressure at the assumed tip speed on the taken disc gives a thrust coefficient of about 0.0029.
+
+$$
+C_T = \frac{W}{\rho A (\Omega R)^2} = \frac{350}{(0.002377)(314.2)(400)^2} = 0.0029
+\tag{31}
+$$
+
+*Equation 32, Bespoke Blade Loading Coefficient.*
+Dividing the thrust coefficient by the assumed solidity gives a blade loading coefficient of about 0.079, below the stall limit near 0.10.
+
+$$
+\frac{C_T}{\sigma} = \frac{0.0029}{0.037} = 0.079
+\tag{32}
+$$
+
+*Equation 33, Bespoke Tip Speed Ratio in Autorotation.*
+The assumed tip speed over the modelled descent rate gives a tip speed ratio of about 14.5.
+
+$$
+\lambda = \frac{\Omega R}{V_d} = \frac{400}{27.6} = 14.5
+\tag{33}
+$$
+
+*Equation 34, Bespoke Rotor Moment of Inertia.*
+Treating each of the two blades as a uniform rod of the assumed mass about the hub gives about 25 slug square feet.
+
+$$
+I = N \cdot \tfrac{1}{3} m_b R^2 = 2 \cdot \tfrac{1}{3} (0.373)(100) = 24.9 \, \text{slug ft}^2
+\tag{34}
+$$
+
+*Equation 35, Bespoke Stored Rotational Energy.*
+The rotational kinetic energy of the assumed inertia at the assumed angular speed is about 19,900 foot-pounds.
+
+$$
+E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} (24.9)(40)^2 = 19{,}900 \, \text{ft lb}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Ideal Height Loss to Spin Up the Rotor.*
+Dividing the stored energy by the assumed weight gives about 57 feet of height if every part of the potential energy went into the rotor.
+
+$$
+h = \frac{E}{W} = \frac{19{,}900}{350} = 57 \, \text{ft}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Stored Energy Independent of Radius.*
+For blades taken as uniform rods turning at a fixed tip speed, the stored energy reduces to the blade mass times the square of tip speed and the radius cancels.
+
+$$
+E = \tfrac{1}{2} I \Omega^2 = \tfrac{1}{2} \left( N \tfrac{1}{3} m_b R^2 \right) \left( \frac{V_{tip}}{R} \right)^{2} = \frac{N}{6} m_b V_{tip}^2
+\tag{37}
+$$
+
+**Equation 38, Descent Rate Scaling with Weight and Radius.**
+Because the descent rate goes as the square root of disc loading, it scales as the square root of weight over the rotor radius.
+[Kaman KSA-100 SAVER][ref_kaman_saver]
+
+$$
+V_d \propto \frac{\sqrt{W}}{R}
+\tag{38}
+$$
+
+**Equation 39, Kinetic Energy of the Descent.**
+The energy a flare must absorb is the kinetic energy of the vehicle at its descent rate.
+
+$$
+E_{req} = \tfrac{1}{2} \frac{W}{g} V_d^2
+\tag{39}
+$$
+
+**Equation 40, Flare Energy Required in Terms of Weight and Radius.**
+Substituting the measured descent ratio of 1.8 and the actuator-disc induced velocity makes the required energy go as the square of weight over the square of radius.
+
+$$
+E_{req} = \frac{(1.8)^2}{2 g \rho \pi} \cdot \frac{W^2}{R^2}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Flare Energy Margin.*
+The article defines the margin as the stored energy of uniform-rod blades over the energy the flare requires.
+
+$$
+\frac{E_{avail}}{E_{req}} = \frac{N m_b V_{tip}^2 \, g \rho \pi R^2}{3 (1.8)^2 W^2}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Blade Mass for a Unit Energy Margin.*
+Inverting the margin at unity gives the blade mass a rotor would need, 2.5 pounds a blade for the X-25B and 21 for the Stowable Aircrew Vehicle Escape Rotorseat, or SAVER, against the assumed 12.
+
+$$
+m_b = \frac{3 (1.8)^2 W^2}{N V_{tip}^2 g \rho \pi R^2}
+\tag{42}
+$$
+
+**Equation 43, Thrust-to-Weight Ratio of the SAVER.**
+The documented 430 pound turbofan thrust over the 710 pound SAVER weight is a thrust-to-weight ratio of 0.61.
+[Kaman KSA-100 SAVER][ref_kaman_saver]
+
+$$
+\frac{T}{W} = \frac{430}{710} = 0.61
+\tag{43}
+$$
+
+*Equation 44, Bespoke Stored Energy of a Small Lift Rotor.*
+The uniform-rod stored energy in terms of blade count, blade mass and tip speed shows that a small light blade at modest tip speed stores little energy.
+
+$$
+E = \frac{N}{6} m_b V_{tip}^2
+\tag{44}
+$$
+
+### Notation
+
+- $\phi$, the inflow angle at a blade element
+- $C_d$, the section drag coefficient, with $C_l$ the section lift coefficient
+- $R$, the rotor radius, and in Equation 23 the glide range
+- $A$, the rotor disc area, or the swept area of a drag device
+- $v_h$, the hover induced velocity
+- $W$, the weight
+- $\rho$, the air density, with $\rho_0$ its sea-level value
+- $V_d$, the descent rate
+- $a$, the induction factor, and in Equations 28 and 29 the lift-curve slope
+- $C_D$, the drag coefficient referred to swept area
+- $D_p$, the projected diameter of an inflated canopy, with $D_0$ the nominal diameter
+- $S_0$, the nominal area of a canopy, with $S_p$ the projected area
+- $k$, the descent constant of a swept-area drag device
+- $\gamma$, the glide angle
+- $V_s$, the sink rate in the glide
+- $\sigma$, the rotor solidity
+- $N$, the number of blades
+- $c$, the blade chord
+- $\gamma_L$, the Lock number
+- $I_b$, the moment of inertia of one blade about the hub, with $I$ that of the rotor
+- $m_b$, the mass of one blade
+- $\Omega$, the rotor angular speed
+- $V_{tip}$, the blade tip speed
+- $C_T$, the thrust coefficient
+- $\lambda$, the tip speed ratio
+- $E_{req}$, the energy a flare must absorb, with $E_{avail}$ the stored rotor energy
 
 ## References
 

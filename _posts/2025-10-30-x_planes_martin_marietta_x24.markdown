@@ -45,7 +45,10 @@ The X-24A flew 28 times between April 1969 and June 1971, reaching Mach 1.6 and 
 
 **The X-24B began as a recycling proposal.** The Air Force Flight Dynamics Laboratory had developed a family of reentry shapes, the FDL-5, 6 and 7, with hypersonic lift-to-drag ratios near 2.5 against 1.2 to 1.4 for the M2, HL-10 and X-24A, and proposed to glove one of them around an existing airframe, as [Reed][book_reed_1997] and [Hallion][ref_hallion_1984] both record. NASA transferred 550,000 dollars to the Air Force on 11 March 1971 and the Air Force pledged a similar amount. Air Force Systems Command approved the programme on 21 April 1971, Martin Marietta received the modification contract on 1 January 1972, and a NASA and Air Force memorandum of 4 February 1972 marks the programme's official start. The rebuild cost 1.1 million dollars against an estimated 5 million for a new vehicle,
 
-$$\frac{1.1}{5.0} = 0.22$$
+$$
+\frac{1.1}{5.0} = 0.22
+\tag{1}
+$$
 
 so the shape was bought for about a fifth of the price of a new aeroplane, and that saving is why the X-24B is a rebuilt X-24A at all.
 
@@ -69,17 +72,26 @@ The dimensions matter here because the analysis runs on them, and **the accessib
 
 **The narrative histories disagree with the table about how much the rebuild added.** [Reed][book_reed_1997] puts the X-24B's growth at 10 feet in span and 14.5 feet in length, and [Hallion][ref_hallion_1984] gives 3 meters and 4.4 meters. The flight-determined table gives
 
-$$\Delta\ell = 37.50 - 24.50 = 13.0\ \text{ft}, \qquad \Delta b = 19.14 - 13.63 = 5.51\ \text{ft}$$
+$$
+\Delta\ell = 37.50 - 24.50 = 13.0\ \text{ft}, \qquad \Delta b = 19.14 - 13.63 = 5.51\ \text{ft}
+\tag{2}
+$$
 
 so the length agrees to within about ten percent and the span does not agree at all. The table's figures are used here because the lift and drag data were reduced against them, and no source consulted here explains the difference in span.
 
 **The weights in the table are those of the lift and drag tests, not of the vehicle at launch.** Reed gives about 12,000 pounds at launch for the X-24A and 13,800 pounds for the X-24B, a difference of 1,800 pounds, and [Cochrane and Graham][ref_cochrane_graham_1971] give the X-24A an empty weight of about 5,500 pounds and about 5,500 pounds of propellants and gases. With $m_p$ the propellant and $m_0$ the launch weight,
 
-$$\frac{m_p}{m_0} = \frac{5{,}500}{12{,}000} = 0.46$$
+$$
+\frac{m_p}{m_0} = \frac{5{,}500}{12{,}000} = 0.46
+\tag{3}
+$$
 
 against the fuel-to-vehicle weight ratio of 0.45 that Reed quotes for the X-24A, 0.35 for the HL-10 and 0.33 for the M2-F3. Both versions flew on the LR-11 rocket engine, rated at 8,480 pounds of vacuum thrust in the X-24A and uprated for the X-24B to 9,800 pounds by raising the chamber pressure and adding nozzle extensions,
 
-$$\frac{T_B}{T_A} = \frac{9{,}800}{8{,}480} = 1.16$$
+$$
+\frac{T_B}{T_A} = \frac{9{,}800}{8{,}480} = 1.16
+\tag{4}
+$$
 
 and this ratio corresponds to the fifteen percent increase in thrust that Reed credits, together with lower drag, for the X-24B's higher top speed.
 
@@ -89,7 +101,10 @@ and this ratio corresponds to the fifteen percent increase in thrust that Reed c
 
 An aeroplane designed for efficiency ends in a point, because a body that closes smoothly leaves the air behind it at something close to the pressure it started at. **A reentry vehicle cannot do that.** The heat shield has to terminate somewhere, the rocket engine has to exhaust somewhere, and the structure has to be blunt enough not to melt. The result is a large flat base, and behind that base sits a region of separated flow at less than ambient pressure, pulling backwards. Written as a coefficient on the wetted area, that suction is
 
-$$C_{D_b} = -C_{p_b}\,\frac{A_b}{A_w}$$
+$$
+C_{D_b} = -C_{p_b}\,\frac{A_b}{A_w}
+\tag{5}
+$$
 
 with the base pressure coefficient negative, so the term is a positive drag. **What follows is a fight with that one expression.**
 
@@ -99,33 +114,54 @@ The literature of that penalty is old and large. It begins with base drag and th
 
 The base pressure is not independent of the rest of the vehicle, and the correlation used here comes from [Hoerner's compendium of drag data][book_hoerner_1965], where most of this subject's engineering practice still originates. A thicker boundary layer arriving at the base fills the wake and raises the pressure there, so **base drag falls as forebody drag rises**. Hoerner's correlation captures that inversely,
 
-$$C_{p_b} = -\frac{K}{\sqrt{C_{D_\text{fore}}}}$$
+$$
+C_{p_b} = -\frac{K}{\sqrt{C_{D_\text{fore}}}}
+\tag{6}
+$$
 
 with the forebody drag referred to the base area. **The trouble lies in the coefficient.** Hoerner obtained $K = 0.029$ from small-scale model data. [Saltzman et al. 2007][research_saltzman_2007], working from flight measurements on the X-15, the M2-F3 and the Space Shuttle, found that full-scale vehicles require
 
-$$K = 0.090 \ \text{to}\ 0.100$$
+$$
+K = 0.090 \ \text{to}\ 0.100
+\tag{7}
+$$
 
-$$\frac{0.100}{0.029} = 3.4$$
+$$
+\frac{0.100}{0.029} = 3.4
+\tag{8}
+$$
 
 **Model-scale data understates the base drag of a real vehicle by a factor of about three and a half.**
 
 **The article should say why, because the reason is not mysterious.** Base pressure is set by the boundary layer arriving at the base, and boundary layers are set by Reynolds number,
 
-$$Re = \frac{V\ell}{\nu}$$
+$$
+Re = \frac{V\ell}{\nu}
+\tag{9}
+$$
 
 The X-24B on its approach flew at $Re = 9.8\times 10^7$ on its own length. A one-twentieth-scale model in a tunnel at 200 feet per second sits near $2.4\times 10^6$,
 
-$$\frac{Re_\text{flight}}{Re_\text{model}} = 41$$
+$$
+\frac{Re_\text{flight}}{Re_\text{model}} = 41
+\tag{10}
+$$
 
 **A factor of forty in Reynolds number is not a small extrapolation**, and a correlation calibrated at the bottom of that range should not be expected to hold at the top of it. The general problem of what a model does and does not tell you about an aeroplane is taken up by Reynolds number studies of boattail drag in tunnel and flight in [Wilcox and Chamberlin 1974][research_wilcox_chamberlin_1974_2] and [Reubush 1976b, Effect of Reynolds number on the][research_reubush_1976], of flight base drag reduction in [Powers et al. 1986][research_powers_1986_2], of the tunnel-to-flight Reynolds number gap in [Penland and Romeo 1971][research_penland_romeo_1971] and [Kilgore and Dress 1984][research_kilgore_dress_1984], and of a flight and full-scale tunnel comparison in [Fisher and Lanser 1994][research_david_f_fisher_wendy_r_lanser_1994], and further records sit in the drag cluster below. For a configuration whose base is a substantial fraction of its wetted area, the gap separates a vehicle that lands from one that does not.
 
 **The full-scale wind tunnel narrowed that gap without closing it.** The X-24A itself was tested in the Ames 40 by 80 foot tunnel at Reynolds numbers from $20.7\times 10^6$ to $41.6\times 10^6$, with most of the data at $32.4\times 10^6$, in [Falarski and Mort][ref_falarski_mort_1970]. In flight the true airspeed $V$ follows from the indicated airspeed $V_i$ and the density ratio $\sigma = \rho/\rho_\text{SL}$, equal to 0.934 at Edwards. At 285 knots indicated, the middle of the final-approach band the pilots flew in [Dana and Gentry][research_william_h_dana_j_r_gentry_1970],
 
-$$V = \frac{V_i}{\sqrt{\sigma}} = \frac{285 \times 1.688}{\sqrt{0.934}} = 498\ \text{ft/s}$$
+$$
+V = \frac{V_i}{\sqrt{\sigma}} = \frac{285 \times 1.688}{\sqrt{0.934}} = 498\ \text{ft/s}
+\tag{11}
+$$
 
 and on the X-24A's length of 24.50 feet that gives
 
-$$Re_\text{X-24A} = 7.2\times 10^7, \qquad \frac{7.2\times 10^7}{3.24\times 10^7} = 2.2$$
+$$
+Re_\text{X-24A} = 7.2\times 10^7, \qquad \frac{7.2\times 10^7}{3.24\times 10^7} = 2.2
+\tag{12}
+$$
 
 so the full-scale tunnel sat within a factor of about two of flight, where a small model sits a factor of forty away. The tunnel reported a trimmed maximum lift-to-drag ratio of 4.4 with the gear up, which [Pyle and Ash][research_jon_s_pyle_lawrence_g_ash_1970] found to overpredict the flight value, although its drag at low lift matched flight more closely for the X-24A than for the M2-F2 and HL-10. **Reynolds number was not the only thing separating the tunnel from the aeroplane.** Pyle and Ash point to the mounting struts and to the buoyancy of large bulbous shapes in the tunnel, and they record that the lift and drag of these vehicles are extremely sensitive to small changes in contour and in control setting.
 
@@ -133,37 +169,61 @@ so the full-scale tunnel sat within a factor of about two of flight, where a sma
 
 Put the two together. The bookkeeping needs one definition used so far without being stated. The equivalent skin-friction coefficient is the minimum drag referred to wetted area rather than to a reference area on which the sources disagree,
 
-$$C_{F_e} = C_{D_\text{min}}\,\frac{S}{A_w}$$
+$$
+C_{F_e} = C_{D_\text{min}}\,\frac{S}{A_w}
+\tag{13}
+$$
 
 and the forebody drag as Hoerner's relation wants it, referred to the base area,
 
-$$C_{D_\text{fore},b} = C_{F_e,\text{fore}}\,\frac{A_w}{A_b}$$
+$$
+C_{D_\text{fore},b} = C_{F_e,\text{fore}}\,\frac{A_w}{A_b}
+\tag{14}
+$$
 
 Writing both terms as an equivalent skin-friction coefficient referred to wetted area, with $r = A_b/A_w$ the ratio of base area to wetted area and $x$ the forebody contribution, the total is
 
-$$C_{F_e} = x + \frac{k\, r^{3/2}}{\sqrt{x}}$$
+$$
+C_{F_e} = x + \frac{k\, r^{3/2}}{\sqrt{x}}
+\tag{15}
+$$
 
 where $k$ collects the Hoerner coefficient and a profile factor. **The two terms pull in opposite directions**, so there is an interior minimum. Differentiating,
 
-$$\frac{dC_{F_e}}{dx} = 1 - \frac{k\,r^{3/2}}{2x^{3/2}} = 0 \quad \Longrightarrow \quad k\,r^{3/2} = 2x^{3/2}$$
+$$
+\frac{dC_{F_e}}{dx} = 1 - \frac{k\,r^{3/2}}{2x^{3/2}} = 0 \quad \Longrightarrow \quad k\,r^{3/2} = 2x^{3/2}
+\tag{16}
+$$
 
 which locates the optimum,
 
-$$x_\text{opt} = \left(\frac{k}{2}\right)^{2/3} r$$
+$$
+x_\text{opt} = \left(\frac{k}{2}\right)^{2/3} r
+\tag{17}
+$$
 
 and substituting that back into the total gives something remarkable,
 
-$$C_{F_e} = x + \frac{2x^{3/2}}{\sqrt{x}} = x + 2x = 3x$$
+$$
+C_{F_e} = x + \frac{2x^{3/2}}{\sqrt{x}} = x + 2x = 3x
+\tag{18}
+$$
 
 **At the optimum the total drag is exactly three times the forebody drag, and the base contributes exactly twice it.** The result contains no Hoerner coefficient, no profile factor and no area ratio. It follows from the form of the trade alone and describes no vehicle in particular.
 
 The source's two coefficients, in [Saltzman et al. 2007][research_saltzman_2007], provide the check. It quotes the optimal forebody value as $0.1284\,r$ and the resulting minimum total as $0.3852\,r$, and
 
-$$\frac{0.3852}{0.1284} = 3.000$$
+$$
+\frac{0.3852}{0.1284} = 3.000
+\tag{19}
+$$
 
 **This article uses the source's absolute coefficients rather than its own.** The factor of three is parameter-free and is derived above, but the absolute value depends on how the base pressure profile factor is applied, and the arrangement used here gives
 
-$$\left(\frac{0.10/0.92}{2}\right)^{2/3} = 0.1435$$
+$$
+\left(\frac{0.10/0.92}{2}\right)^{2/3} = 0.1435
+\tag{20}
+$$
 
 where the source gives 0.1284, a difference of twelve percent. The structure is derived and the numbers are flight-anchored.
 
@@ -171,15 +231,24 @@ where the source gives 0.1284, a difference of twelve percent. The structure is 
 
 Maximum lift-to-drag ratio for a given parasite drag and aspect ratio is standard,
 
-$$\left(\frac{L}{D}\right)_\text{max} = \frac{1}{2}\sqrt{\frac{\pi e A}{C_{D_0}}}$$
+$$
+\left(\frac{L}{D}\right)_\text{max} = \frac{1}{2}\sqrt{\frac{\pi e A}{C_{D_0}}}
+\tag{21}
+$$
 
 and something useful happens when the drag is expressed on wetted area. Substituting $C_{D_0} = C_{F_e} A_w/S$ and $A = b^2/S$, **the reference area cancels completely**,
 
-$$\left(\frac{L}{D}\right)_\text{max} = \frac{1}{2}\sqrt{\frac{\pi e\, b^2}{A_w\, C_{F_e}}}$$
+$$
+\left(\frac{L}{D}\right)_\text{max} = \frac{1}{2}\sqrt{\frac{\pi e\, b^2}{A_w\, C_{F_e}}}
+\tag{22}
+$$
 
 The right independent variable for this class of vehicle is therefore span squared over **wetted** area, a quantity [Saltzman et al. 2007][research_saltzman_2007] call the wetted aspect ratio,
 
-$$A = \frac{b^2}{S}, \qquad A_\text{wetted} = \frac{b^2}{A_w}$$
+$$
+A = \frac{b^2}{S}, \qquad A_\text{wetted} = \frac{b^2}{A_w}
+\tag{23}
+$$
 
 It removes the argument about what the reference area should be, which for a shape with no wing is not obvious.
 
@@ -203,9 +272,15 @@ The Space Shuttle prototype Enterprise flew in two configurations during its app
 
 With the tailcone the base drag is gone and only the forebody term survives, so the prediction is the same expression evaluated at $0.1284\,r$ rather than $0.3852\,r$. Since the ratio of those is three and the lift-to-drag ratio goes as the inverse square root of the drag,
 
-$$\frac{(L/D)_\text{tailcone}}{(L/D)_\text{truncated}} = \sqrt{3} = 1.73$$
+$$
+\frac{(L/D)_\text{tailcone}}{(L/D)_\text{truncated}} = \sqrt{3} = 1.73
+\tag{24}
+$$
 
-$$\left(\frac{L}{D}\right)_\text{tailcone} = 7.05$$
+$$
+\left(\frac{L}{D}\right)_\text{tailcone} = 7.05
+\tag{25}
+$$
 
 against the measured 7.5 that the same authors report, an error of six percent. **Nothing in that prediction was fitted to the Enterprise.** It comes from the vehicle's span, its wetted area, its base area, and a factor of three derived from a differentiation.
 
@@ -217,57 +292,96 @@ against the measured 7.5 that the same authors report, an error of six percent. 
 
 The remaining analysis runs off one relation used above but not yet displayed, the parabolic drag polar,
 
-$$C_D = C_{D_0} + k_i C_L^2, \qquad k_i = \frac{1}{\pi e A} = 0.479$$
+$$
+C_D = C_{D_0} + k_i C_L^2, \qquad k_i = \frac{1}{\pi e A} = 0.479
+\tag{26}
+$$
 
 The second term is the drag that lift costs, and for a shape of aspect ratio near one it is neither small nor well described by the classical elliptic result, in [Sibert 1943][research_sibert_1943], [Polhamus 1953][research_polhamus_1953], [Graham et al. 1954][research_graham_1954], [Nonweiler 1960][research_nonweiler_1960], [Osborne and Kelly 1960][research_robert_s_osborne_thomas_c_kelly_1960], [Frost and Rutherford 1963][research_frost_rutherford_1963], [Sanders 1965][research_sanders_1965], [Gardner and Weir 1966][research_gardner_weir_1966], [Henderson 1966][research_henderson_1966], [Lundry 1967][research_lundry_1967], [Polhamus 1968][research_polhamus_1968], [Ward 1968][research_ward_1968], [Loth and Boyle 1969][research_loth_boyle_1969], [Snyder and Zumwalt 1969][research_snyder_zumwalt_1969], [Hancock 1972][research_hancock_1972], [Yajnik and Subbaiah 1976][research_yajnik_subbaiah_1976], [Haftka 1977][research_haftka_1977], [Lundry 1977][research_lundry_1977], [Laitone 1978b][research_laitone_1978], [Deyoung 1980][research_deyoung_1980], [Sachs 1980][research_sachs_1980], [Axelson and Hill 1981][research_axelson_hill_1981], [Knaus 1983][research_knaus_1983], [Lottati 1984][research_lottati_1984], [Stark 1985][research_stark_1985], [Greene 1988][research_greene_1988], [Cole and Malmuth 1989][research_cole_malmuth_1989], [Greene 1989][research_greene_1989], [McCutchen 1989][research_mccutchen_1989].
 
 It is used together with the lift balance that fixes the lift coefficient at any given speed,
 
-$$C_L = \frac{W}{q S}, \qquad q = \tfrac{1}{2}\rho V^2$$
+$$
+C_L = \frac{W}{q S}, \qquad q = \tfrac{1}{2}\rho V^2
+\tag{27}
+$$
 
 The best glide condition is where the two drag terms are equal,
 
-$$C_L^* = \sqrt{\frac{C_{D_0}}{k_i}} = 0.304, \qquad \left(\frac{L}{D}\right)_\text{max} = \frac{1}{2\sqrt{C_{D_0} k_i}} = 3.43$$
+$$
+C_L^* = \sqrt{\frac{C_{D_0}}{k_i}} = 0.304, \qquad \left(\frac{L}{D}\right)_\text{max} = \frac{1}{2\sqrt{C_{D_0} k_i}} = 3.43
+\tag{28}
+$$
 
 and the glide angle follows directly from the ratio,
 
-$$\gamma^* = \arctan\frac{1}{(L/D)_\text{max}} = 16.2^\circ$$
+$$
+\gamma^* = \arctan\frac{1}{(L/D)_\text{max}} = 16.2^\circ
+\tag{29}
+$$
 
 At that condition the speed, from the ordinary lift balance, is
 
-$$V^* = \sqrt{\frac{2W}{\rho S C_L^*}} = 276\ \text{ft/s} = 188\ \text{mph}$$
+$$
+V^* = \sqrt{\frac{2W}{\rho S C_L^*}} = 276\ \text{ft/s} = 188\ \text{mph}
+\tag{30}
+$$
 
 using the density at 2,302 feet, taken here for Edwards, whose airfield elevation is given as 704 metres, or 2,311 feet, in [Edwards Air Force Base][ref_edwards_afb]. **Every altitude and every dynamic pressure in this article comes from a tabulated atmosphere rather than from a measurement**, and producing that tabulation was a large twentieth-century engineering effort, in [Webster 1947][research_webster_1947], [Standard Atmosphere 1955][research_standard_atmosphere_1955], [Sterne 1958][research_sterne_1958], [Pisharoty 1959][research_pisharoty_1959], [Air Force Test Pilot School Edwards Afb Ca 1962][research_air_force_test_pilot_school_edwards_afb_ca_1962], [U.S. Standard Atmosphere 1962 1962][research_u_s_standard_1962], [U.S. Standard Atmosphere Supplements 1966, U.S. Standard Atmosphere Suppleme][research_u_s_standard_1966], [Minzner 1967][research_minzner_1967], [Ghosh 1970][research_ghosh_1970], [Minzner et al. 1976][research_minzner_1976], [Peters 1977][research_peters_jr_1977], [Blish 1980][research_blish_1980], [Dennis P. Dykstra 1980][research_dennis_p_dykstra_1980], [Price and Blanchard 1981][research_price_blanchard_1981], [Zuppardo 1993][research_zuppardo_1993]. **The lifting bodies did not approach at 188 miles an hour**, in [Dana and Gentry][research_william_h_dana_j_r_gentry_1970]. This analysis takes 300 for the X-24B.
 
 That is sixty percent faster than its best glide,
 
-$$\frac{V}{V^*} = 1.60$$
+$$
+\frac{V}{V^*} = 1.60
+\tag{31}
+$$
 
 and flying faster than best glide makes the glide angle steeper, not shallower. **The polar explains it.** Lift coefficient falls as the inverse square of speed, so at 1.60 times the best-glide speed it drops to
 
-$$\frac{C_L}{C_L^*} = \left(\frac{V}{V^*}\right)^{-2} = 0.39$$
+$$
+\frac{C_L}{C_L^*} = \left(\frac{V}{V^*}\right)^{-2} = 0.39
+\tag{32}
+$$
 
 which lands at $C_L = 0.12$. **At that lift coefficient the induced term has almost vanished and the parasite term has not**,
 
-$$\frac{k_i C_L^2}{C_D} = 0.13$$
+$$
+\frac{k_i C_L^2}{C_D} = 0.13
+\tag{33}
+$$
 
 so seven eighths of the drag is now the base and the skin, being paid for at a dynamic pressure of 215 pounds per square foot. The lift-to-drag ratio falls to 2.34, and
 
-$$\gamma = \arctan\frac{1}{2.34} = 23.2^\circ$$
+$$
+\gamma = \arctan\frac{1}{2.34} = 23.2^\circ
+\tag{34}
+$$
 
-$$\dot h = V\sin\gamma = 173\ \text{ft/s} = 10{,}400\ \text{ft/min}$$
+$$
+\dot h = V\sin\gamma = 173\ \text{ft/s} = 10{,}400\ \text{ft/min}
+\tag{35}
+$$
 
 A transport on a three-degree approach at 140 knots descends at
 
-$$\dot h = 140 \times 1.688 \times \sin 3^\circ \times 60 = 742\ \text{ft/min}$$
+$$
+\dot h = 140 \times 1.688 \times \sin 3^\circ \times 60 = 742\ \text{ft/min}
+\tag{36}
+$$
 
-$$\frac{10{,}400}{742} = 14$$
+$$
+\frac{10{,}400}{742} = 14
+\tag{37}
+$$
 
 **Ten thousand four hundred feet per minute, fourteen times a transport aircraft's approach.** The next section explains why the approach was deliberately made worse.
 
 **The fast, steep approach is documented practice, and the documented speeds are higher still.** [Dana and Gentry][research_william_h_dana_j_r_gentry_1970], two of the programme's pilots, describe the pattern the lifting bodies inherited from the X-15. A circling approach through 180 degrees begins at 20,000 feet, and a final approach is held at 270 to 300 knots indicated airspeed down to 1,000 feet, where the flare begins. By the relation between indicated and true airspeed given above, with $1/\sqrt{0.934} = 1.035$, that band is 279 to 310 knots true at Edwards, or 321 to 357 miles an hour, which is
 
-$$\frac{321}{188} = 1.71 \quad \text{to} \quad \frac{357}{188} = 1.90$$
+$$
+\frac{321}{188} = 1.71 \quad \text{to} \quad \frac{357}{188} = 1.90
+\tag{38}
+$$
 
 times the best-glide speed derived above. The 300 miles an hour used in this section therefore sits below the documented band rather than above it, and the X-24B's final-approach speed is given in none of the reports examined.
 
@@ -279,43 +393,73 @@ The vehicle arrives at the ground with a great deal of speed and a sink rate tha
 
 Treating the flare as an arc that rotates the flight path from $-\gamma$ to zero at load factor $n$, the instantaneous radius is
 
-$$R = \frac{V^2}{g(n-1)}$$
+$$
+R = \frac{V^2}{g(n-1)}
+\tag{39}
+$$
 
 **That radius is not constant, and assuming it is gets the answer wrong.** The vehicle decelerates through the manoeuvre, so the arc tightens as it goes. Evaluating the radius once at the entry speed makes the path too long. That overstates the work done against drag and so understates the touchdown speed. The error is nine percent in height and twelve percent in speed at moderate load factor, and at low load factor it is qualitative. **The flare below is therefore integrated rather than assumed circular.** Stepping in path angle, with $s$ the distance along the path, the system is
 
-$$\frac{ds}{d\gamma} = -R = -\frac{V^2}{g(n-1)}$$
+$$
+\frac{ds}{d\gamma} = -R = -\frac{V^2}{g(n-1)}
+\tag{40}
+$$
 
-$$\frac{dh}{ds} = \sin\gamma, \qquad \frac{dx}{ds} = \cos\gamma$$
+$$
+\frac{dh}{ds} = \sin\gamma, \qquad \frac{dx}{ds} = \cos\gamma
+\tag{41}
+$$
 
-$$\frac{dV}{ds} = \frac{W\sin\gamma - D}{mV}$$
+$$
+\frac{dV}{ds} = \frac{W\sin\gamma - D}{mV}
+\tag{42}
+$$
 
 with the drag evaluated at the instantaneous speed and at the lift coefficient the load factor demands,
 
-$$C_L = \frac{nW}{qS}, \qquad D = qS\left(C_{D_0} + k_i C_L^2\right)$$
+$$
+C_L = \frac{nW}{qS}, \qquad D = qS\left(C_{D_0} + k_i C_L^2\right)
+\tag{43}
+$$
 
 **Three equations and a polar.** The first makes the arc tighten, because $R$ carries $V^2$ and $V$ is falling throughout.
 
 The load factor is not assumed either. It is defined by
 
-$$n = \frac{L}{W}$$
+$$
+n = \frac{L}{W}
+\tag{44}
+$$
 
 and it is bounded by structure and by the pilot as well as by aerodynamics, in [Effect of Variations 1955][research_effect_of_1955], [Sutcliffe 1955][research_sutcliffe_1955], [Mayer and Hamer 1961][research_mayer_hamer_1961], [White 1971][research_white_1971], [Anderson et al. 1973][research_anderson_1973], [Keskar and Slater 1979][research_keskar_slater_1979], [Thornton 1993][research_thornton_1993]. **The touchdown speed is quoted, so the load factor can be solved for**, which converts a guess into a statement about what was flown. Integrating the system above and adjusting $n$ until the vehicle reaches the runway at 200 miles an hour gives
 
-$$n = 1.19, \qquad h_\text{flare} = 2{,}163\ \text{ft}, \qquad t = 21.9\ \text{s}$$
+$$
+n = 1.19, \qquad h_\text{flare} = 2{,}163\ \text{ft}, \qquad t = 21.9\ \text{s}
+\tag{45}
+$$
 
 **Two thousand one hundred and sixty feet, and twenty-two seconds.** Taking a transport aircraft's flare to begin at about thirty feet and to last about three seconds,
 
-$$\frac{2{,}163}{30} = 72, \qquad \frac{21.9}{3} = 7.3$$
+$$
+\frac{2{,}163}{30} = 72, \qquad \frac{21.9}{3} = 7.3
+\tag{46}
+$$
 
 **In this model the X-24B begins its flare seventy times higher and stays in it seven times longer.** The arc is 9,616 feet and its horizontal projection is 9,306, so during the flare the vehicle covers
 
-$$\frac{9{,}306}{15{,}000} = 0.62$$
+$$
+\frac{9{,}306}{15{,}000} = 0.62
+\tag{47}
+$$
 
 of the length of the concrete runway it is aiming at. **The manoeuvre is longer than most of the runway.**
 
 The lift coefficient the flare demands is modest, and a check gives
 
-$$C_L = \frac{nW}{qS} = 1.19 \times 0.120 = 0.142$$
+$$
+C_L = \frac{nW}{qS} = 1.19 \times 0.120 = 0.142
+\tag{48}
+$$
 
 against a maximum usable value near 0.7, so **the vehicle is nowhere near stall when the flare begins**. Only at the very end does it come near, and the next section takes up that end.
 
@@ -337,17 +481,26 @@ against a maximum usable value near 0.7, so **the vehicle is nowhere near stall 
 
 At the top, pulling harder gains almost nothing,
 
-$$V_\text{td}(3g) - V_\text{td}(2g) = 260 - 256 = 4\ \text{mph}$$
+$$
+V_\text{td}(3g) - V_\text{td}(2g) = 260 - 256 = 4\ \text{mph}
+\tag{49}
+$$
 
 because a tighter arc is a shorter arc and spends less energy against drag. **The vehicle arrives fast however hard it is pulled.**
 
 At the bottom, a gentle flare is a very long one. At 1.10 g the arc is nearly 16,000 feet and takes 36 seconds, and by 1.05 g the vehicle has decayed to 47 miles an hour, far below any speed at which this shape flies. **The maximum usable lift coefficient is also an assumption, and a contested one for this class of shape**, since a lifting body does not stall in the way a wing does, in [Graham and Luskin 1946][research_graham_luskin_1946], [Nonweiler 1955b][research_nonweiler_1955], [The Pursuit of Maximum 1955][research_the_pursuit_1955], [Vidal et al. 1961][research_vidal_1961], [Conner et al. 1965][research_conner_1965], [Lusty and Miele 1966][research_lusty_miele_1966], [Maikapar 1966][research_maikapar_1966], [Wootton 1967][research_wootton_1967], [Huang 1968][research_huang_1968], [Miele and Damoulakis 1969][research_miele_damoulakis_1969], [Pritchard 1969][research_pritchard_1969], [Bridson and Hancock 1970][research_bridson_hancock_1970], [Liebeck and Ormsbee 1970][research_liebeck_ormsbee_1970], [Thompson and Hull 1970][research_thompson_hull_1970], [Ormsbee and Chen 1972][research_ormsbee_chen_1972], [Bihrle and Bowman 1981][research_bihrle_bowman_1981], [Lapygin and Tret'yakov 1986][research_lapygin_tret_yakov_1986], [Deese and Agarwal 1990][research_deese_agarwal_1990]. Taking a value of 0.7, the stall speed is
 
-$$V_\text{stall} = \sqrt{\frac{2W}{\rho S C_{L_\text{max}}}} = 124\ \text{mph}$$
+$$
+V_\text{stall} = \sqrt{\frac{2W}{\rho S C_{L_\text{max}}}} = 124\ \text{mph}
+\tag{50}
+$$
 
 and the flare reaches it at about 1.07 g. At the solved 1.19 g the margin is
 
-$$\frac{V_\text{td}}{V_\text{stall}} = \frac{199}{124} = 1.60$$
+$$
+\frac{V_\text{td}}{V_\text{stall}} = \frac{199}{124} = 1.60
+\tag{51}
+$$
 
 **The usable corridor is therefore roughly 1.07 g to 1.5 g, about four tenths of a g wide**, with stalling short of the runway at one end and arriving at 240 miles an hour at the other.
 
@@ -359,15 +512,24 @@ $$\frac{V_\text{td}}{V_\text{stall}} = \frac{199}{124} = 1.60$$
 
 The integrated flare above can be held against that description. At 1.5 g from the 300 miles an hour assumed here it begins at 880 feet and exits at 241 miles an hour, while the documented flare spans
 
-$$h_\text{flare} = 1{,}000 - 100 = 900\ \text{ft}$$
+$$
+h_\text{flare} = 1{,}000 - 100 = 900\ \text{ft}
+\tag{52}
+$$
 
 so at the documented load factor the model's flare height agrees with the documented one to about two percent. The float then spends what the flare leaves. Holding level flight at one g, the speed decays at the rate the drag polar sets,
 
-$$\frac{dV}{ds} = -\frac{g}{V\,(L/D)}, \qquad s_\text{float} = \frac{1}{g}\int_{V_\text{td}}^{V_1} V\,\frac{L}{D}\,dV + h_1\,\overline{\left(\frac{L}{D}\right)}$$
+$$
+\frac{dV}{ds} = -\frac{g}{V\,(L/D)}, \qquad s_\text{float} = \frac{1}{g}\int_{V_\text{td}}^{V_1} V\,\frac{L}{D}\,dV + h_1\,\overline{\left(\frac{L}{D}\right)}
+\tag{53}
+$$
 
 where $V_1$ is the speed at the end of the flare, $h_1 = 100$ feet is the height of the level-off, $L/D$ is evaluated at one g and at each speed, and the overbar denotes its mean over the float. From 241 to 200 miles an hour this gives
 
-$$s_\text{float} = 2{,}303\ \text{ft}, \qquad \overline{L/D} = 3.25, \qquad t \approx 7.1\ \text{s}$$
+$$
+s_\text{float} = 2{,}303\ \text{ft}, \qquad \overline{L/D} = 3.25, \qquad t \approx 7.1\ \text{s}
+\tag{54}
+$$
 
 **Read this way, the 1.19 g solved above is the load factor a flare would need if it ended on the runway, and the record shows the flare did not end there.** The documented technique flares at the top of the corridor derived above and uses the float to bleed off the excess speed, the margin for error Gentry describes. The available sources do not say how closely the X-24B's concrete landings followed this pattern, since the pattern was written down in 1970 about the M2-F3, the HL-10 and the X-24A.
 
@@ -377,7 +539,10 @@ $$s_\text{float} = 2{,}303\ \text{ft}, \qquad \overline{L/D} = 3.25, \qquad t \a
 
 In this model the flare drives the path angle to zero, so the sink rate goes to zero with it and the meaningful way to report it is at a small residual angle. Integrating the same system and stopping short,
 
-$$\dot h = V\sin\gamma_\text{residual}$$
+$$
+\dot h = V\sin\gamma_\text{residual}
+\tag{55}
+$$
 
 | Residual path angle | Speed | Sink rate |
 |---|---|---|
@@ -391,7 +556,10 @@ Designing a gear to absorb that, and knowing what it will see in service, has a 
 
 **The flight record does not contain the number this section computes.** [Larson][research_larson_1972] analysed 81 lifting-body landings, 25 of them by the X-24A, and states that vertical velocity at touchdown is not presented because the vehicles carried no instrumentation for it. What was recorded is the peak normal acceleration at the centre of gravity during ground impact, which ranged from 1.15 to 2.37 g with a mean of 1.53 g across the three vehicles. For the X-24A alone, the 25 values in Larson's table give a mean of
 
-$$\bar n_\text{impact} = \frac{1}{N}\sum_{i=1}^{N} n_i = 1.43, \qquad N = 25$$
+$$
+\bar n_\text{impact} = \frac{1}{N}\sum_{i=1}^{N} n_i = 1.43, \qquad N = 25
+\tag{56}
+$$
 
 within a range of 1.19 to 1.69 g, and its true airspeed at touchdown averages 184 knots, or 212 miles an hour, between 165 and 208 knots, which is consistent with the 200 miles an hour used above. An impact load factor is not a sink rate, and converting one into the other needs the stroke and stiffness of the gear, which the sources at hand do not give.
 
@@ -401,17 +569,29 @@ within a range of 1.19 to 1.69 g, and its true airspeed at touchdown averages 18
 
 The reason none of this can be retried can be made quantitative. Expressing the vehicle's total energy at the start of the flare as an equivalent height,
 
-$$h_E = h + \frac{V^2}{2g} = 2{,}163 + 3{,}009 = 5{,}172\ \text{ft}$$
+$$
+h_E = h + \frac{V^2}{2g} = 2{,}163 + 3{,}009 = 5{,}172\ \text{ft}
+\tag{57}
+$$
 
 At touchdown the vehicle has no height left and only its speed, so
 
-$$h_{E,\text{td}} = \frac{V_\text{td}^2}{2g} = 1{,}322\ \text{ft}$$
+$$
+h_{E,\text{td}} = \frac{V_\text{td}^2}{2g} = 1{,}322\ \text{ft}
+\tag{58}
+$$
 
-$$\frac{5{,}172 - 1{,}322}{5{,}172} = 0.74$$
+$$
+\frac{5{,}172 - 1{,}322}{5{,}172} = 0.74
+\tag{59}
+$$
 
 **Seventy-four percent of the vehicle's remaining energy is spent in the flare.** Multiplying a constant approach drag along the whole arc would overstate that share, because the drag falls with the speed. The difference of energy heights needs no such assumption. The mean deceleration along the arc is
 
-$$\bar a = \frac{V_i^2 - V_f^2}{2 s} = 0.18\,g$$
+$$
+\bar a = \frac{V_i^2 - V_f^2}{2 s} = 0.18\,g
+\tag{60}
+$$
 
 The literature of managing that quantity is [Gerdes and Hynes 1971][research_gerdes_hynes_1971], [Hardy 1972][research_hardy_1972], [Sederstrom et al. 1973][research_sederstrom_1973], [Crane et al. 1974][research_crane_1974], [Bull 1976][research_bull_1976], [Hawthorne 1976b][research_hawthorne_1976], [Hawthorne 1976c][research_hawthorne_1976_2], [Hawthorne 1976a][research_hawthorne_1976_3], [Kraiss and Baty 1978][research_kraiss_baty_1978], [Halyo 1983][research_halyo_1983], [Day 2004][research_day_2004].
 
@@ -427,11 +607,17 @@ The analysis above uses drag coefficients obtained in flight rather than in a tu
 
 The X-24B was the X-24A's structure under a new outer shape, in [Reed][book_reed_1997], so the two form a controlled comparison.
 
-$$\left(\frac{L}{D}\right)_\text{X-24A} = 2.99, \qquad \left(\frac{L}{D}\right)_\text{X-24B} = 3.43, \qquad \text{ratio} = 1.15$$
+$$
+\left(\frac{L}{D}\right)_\text{X-24A} = 2.99, \qquad \left(\frac{L}{D}\right)_\text{X-24B} = 3.43, \qquad \text{ratio} = 1.15
+\tag{61}
+$$
 
 **Almost all of that came from span rather than from a cleaner base.** The wetted aspect ratio rose by a factor of 1.23 while the base-to-wetted ratio barely moved, at 0.93 of its former value, and since the lift-to-drag ratio goes as the square root of the wetted aspect ratio,
 
-$$\sqrt{1.23} = 1.11$$
+$$
+\sqrt{1.23} = 1.11
+\tag{62}
+$$
 
 accounting for most of the 1.15 observed. **The long pointed nose delivered span-loading, not base cleanliness**, the opposite of what the shape suggests at a glance.
 
@@ -439,7 +625,10 @@ accounting for most of the 1.15 observed. **The long pointed nose delivered span
 
 A glide at a fixed lift-to-drag ratio reaches a radius proportional to the height it starts from,
 
-$$r = h\,\frac{L}{D}$$
+$$
+r = h\,\frac{L}{D}
+\tag{63}
+$$
 
 which for the X-24B from 20,000 feet is 13 miles, and from 40,000 feet is 26. The performance of a glide considered as a range problem is [Bell 1964][research_bell_1964], [Knapp and Barton 1968][research_knapp_barton_1968], [Sleeman 1971][research_sleeman_1971], [Kelley et al. 1982][research_kelley_1982]. **Those radii are the entire manoeuvring room available**, and inside them the vehicle must arrive at a runway threshold at a particular speed on a particular heading, having spent the approach unable to add more energy than its small landing rockets could supply.
 
@@ -459,7 +648,10 @@ The figures in the table are from the flight log compiled by Jack Kolf and print
 
 **The two concrete-runway landings came at the end and were the point.** Every earlier lifting-body landing had been on the dry lakebeds at Edwards, almost all of them on Rogers Dry Lake, with an emergency landing on Rosamond Dry Lake after an engine failure among the 81 that [Larson][research_larson_1972] analyses. The HL-10's powered approaches needed a runway 7.5 miles long, which [Kock and Fulton][research_berwin_m_kock_fitzhugh_l_fulton_1970] say only Rogers Dry Lake offered, against the 15,000 feet of the Edwards concrete given by [Reed][book_reed_1997],
 
-$$\frac{7.5 \times 5{,}280}{15{,}000} = \frac{39{,}600}{15{,}000} = 2.6$$
+$$
+\frac{7.5 \times 5{,}280}{15{,}000} = \frac{39{,}600}{15{,}000} = 2.6
+\tag{64}
+$$
 
 a factor of 2.6 in the margin available for an error.
 
@@ -483,7 +675,10 @@ The X-24A made 18 powered flights between 19 March 1970 and 4 June 1971, each la
 
 **The X-24A's landings are the best-measured part of its record.** [Larson][research_larson_1972] tabulates each of its first 25, with the distance from an intended touchdown point measured by surveyor's wheel. From flight 16 of the HL-10 onward, and on every X-24A flight, the pilot was told to touch down as close as possible to a particular runway marker. Leaving out the two approaches marked as control problems, 20 of the X-24A landings have a measured longitudinal miss $x_i$, positive when long, and their signed mean, mean absolute value and standard deviation are
 
-$$\bar x = \frac{1}{N}\sum_{i=1}^{N} x_i = 1{,}125\ \text{ft}, \qquad \overline{|x|} = 1{,}450\ \text{ft}, \qquad s_x = \sqrt{\frac{\sum (x_i - \bar x)^2}{N-1}} = 1{,}678\ \text{ft}$$
+$$
+\bar x = \frac{1}{N}\sum_{i=1}^{N} x_i = 1{,}125\ \text{ft}, \qquad \overline{|x|} = 1{,}450\ \text{ft}, \qquad s_x = \sqrt{\frac{\sum (x_i - \bar x)^2}{N-1}} = 1{,}678\ \text{ft}
+\tag{65}
+$$
 
 with $N = 20$, the extremes at 1,115 feet short and 4,185 feet long, and 7 of the 20 within 500 feet of the mark. Across all three vehicles Larson fits a normal distribution with a mean of 112 feet short and a standard deviation of 1,793.6 feet.
 
@@ -505,11 +700,17 @@ Manke made the first glide on 1 August 1973, launched at 40,000 feet, and landed
 
 Set against Larson's lakebed fit, the probability that a landing falls within 500 feet of the aim point is
 
-$$P(|x| \le 500) = \Phi\!\left(\frac{500-\mu}{\sigma_x}\right) - \Phi\!\left(\frac{-500-\mu}{\sigma_x}\right) = 0.22$$
+$$
+P(|x| \le 500) = \Phi\!\left(\frac{500-\mu}{\sigma_x}\right) - \Phi\!\left(\frac{-500-\mu}{\sigma_x}\right) = 0.22
+\tag{66}
+$$
 
 with $\mu = -112$ feet, $\sigma_x = 1{,}793.6$ feet and $\Phi$ the standard normal distribution function. **Manke's expected accuracy is a band several times narrower than the lakebed scatter**,
 
-$$\frac{\sigma_x}{500} = 3.6$$
+$$
+\frac{\sigma_x}{500} = 3.6
+\tag{67}
+$$
 
 a ratio that measures the change between the lakebed record and the concrete demonstration. Two landings cannot establish a distribution, and the documents read here give neither landing's measured miss distance.
 
@@ -527,7 +728,10 @@ a ratio that measures the change between the lakebed record and the concrete dem
 
 **The flight-measured lift-to-drag ratios bracket the model.** Matched by base area, [Saltzman, Wang and Iliff's assessment][research_saltzman_2002] gives the X-24A 4.25 with the lower-flap bias at zero, its smallest wedge angle, and 3.28 with the upper flaps biased 21 degrees, against 4.39 and 2.99 here, and the X-24B 4.50 at its smallest base, against 4.88. The differences are
 
-$$\frac{4.39}{4.25} - 1 = +3\%, \qquad \frac{2.99}{3.28} - 1 = -9\%, \qquad \frac{4.88}{4.50} - 1 = +8\%$$
+$$
+\frac{4.39}{4.25} - 1 = +3\%, \qquad \frac{2.99}{3.28} - 1 = -9\%, \qquad \frac{4.88}{4.50} - 1 = +8\%
+\tag{68}
+$$
 
 **The largest-base X-24B case is not a fair test.** Its flight value of 2.39 was measured at Mach 0.8 with 40 degrees of upper flap, in [Saltzman et al. 2002][research_saltzman_2002], a transonic configuration in which compressibility adds drag that an incompressible polar does not carry, so the 3.43 used for the approach has no subsonic flight counterpart in that table. The same report states that the base pressures of both X-24 vehicles below Mach 0.8 were estimated from X-24B data at Mach 0.8 rather than measured, a point that bears directly on the base drag at the centre of this analysis.
 
@@ -547,11 +751,17 @@ The argument for them was straightforward. An orbiter that could go around, loit
 
 **The argument against the engines was made in public five years before the concrete landings.** At the Flight Research Center's symposium of 30 June 1970, collected as NASA TM X-2101 in [Flight Test Results Pertaining to the Space Shuttlecraft][research_flight_test_1970], [Kock and Fulton][research_berwin_m_kock_fitzhugh_l_fulton_1970] reported the HL-10's powered-approach flights, in which three 500 pound rockets shallowed the final approach from about 18 degrees to 6 at 300 knots. Holding the speed while changing only the path angle needs a thrust equal to the change in the component of weight along the path,
 
-$$T = W\left(\sin\gamma_1 - \sin\gamma_2\right)$$
+$$
+T = W\left(\sin\gamma_1 - \sin\gamma_2\right)
+\tag{69}
+$$
 
 and for the X-24B at the 23.2 degree approach derived above, a 6 degree glide slope would need
 
-$$T = 8{,}500\left(\sin 23.2^\circ - \sin 6^\circ\right) = 2{,}460\ \text{lb}$$
+$$
+T = 8{,}500\left(\sin 23.2^\circ - \sin 6^\circ\right) = 2{,}460\ \text{lb}
+\tag{70}
+$$
 
 or 29 percent of the vehicle's weight, sustained through the final approach. Kock and Fulton concluded that a limited-duration propulsion system used this way brings few of the benefits of power and most of its penalties, and that even an orbiter with air-breathing engines and a go-around capability should be flown as if it were unpowered. Milton Thompson's closing remarks in the same volume went further. The engines could not be started until the orbiter was subsonic, so it would have to be manoeuvred unpowered to a point near its destination in any case. The Center recommended that if the landing engines of the Phase B statement of work were fitted they should not be relied on, and judged an unpowered operational shuttle entirely practical.
 
@@ -559,7 +769,10 @@ or 29 percent of the vehicle's weight, sustained through the final approach. Koc
 
 **The lifting bodies also told the Shuttle what a rough heat shield would cost at landing.** The full-scale X-24A was tested under a simulated ablated surface whose roughness was taken from recovered PRIME vehicles, in [Reed][book_reed_1997]. On it and on a related subscale model the roughened surface cut the maximum lift-to-drag ratio by 20 to 30 percent, more than added friction alone explains, in [Pyle and Ash][research_jon_s_pyle_lawrence_g_ash_1970]. [Reed][book_reed_1997] puts the drag increase from ablated roughness at 15 to 30 percent and concludes that only the X-24A and X-24B would have kept adequate landing performance. At a given lift the lift-to-drag ratio falls in proportion to the drag,
 
-$$\left(\frac{L}{D}\right)_\text{rough} = \frac{L/D}{1 + \Delta C_D/C_D}$$
+$$
+\left(\frac{L}{D}\right)_\text{rough} = \frac{L/D}{1 + \Delta C_D/C_D}
+\tag{71}
+$$
 
 so the X-24B's landing value of 4.5 would fall to between 3.91 and 3.46, and the M2-F3's 3.1 to between 2.70 and 2.38, against the value of 2.5 that F-104 trials had put at the border of the totally unacceptable. Reed's statement that the M2-F3 would fall below 2.5 holds only toward the upper end of his range of drag increase.
 
@@ -600,7 +813,10 @@ Unpowered precision landing is no longer a piloting achievement but a guidance p
 
 **What the automation did not do is widen the corridor.** The bounds derived above are energy bounds and they do not care who is flying. Written out, the touchdown speed is a function
 
-$$V_\text{td} = F\left(n,\ \frac{W}{S},\ C_{D_0},\ k_i,\ \rho\right)$$
+$$
+V_\text{td} = F\left(n,\ \frac{W}{S},\ C_{D_0},\ k_i,\ \rho\right)
+\tag{72}
+$$
 
 in which **there is no term describing the pilot**. An autonomous vehicle arriving too fast still floats, and one arriving too slow still runs out of speed. What automation provides is consistency in hitting the middle of a corridor whose width is set by aerodynamics, in [Bottasso and Montinari 2015][research_bottasso_montinari_2015], [Ye et al. 2015][research_ye_2015], [Zhou et al. 2015][research_zhou_2015], [Ellerbroek et al. 2016][research_ellerbroek_2016], [Ackerman et al. 2017][research_ackerman_2017], [Lee et al. 2017][research_lee_2017], [Lombaerts et al. 2017][research_lombaerts_2017], [Schuet et al. 2017][research_schuet_2017], [Tekles et al. 2017][research_tekles_2017], [Fellah and Guiatni 2019][research_fellah_guiatni_2019], [Gabrys et al. 2019][research_gabrys_2019], [Zaal et al. 2019][research_zaal_2019], [Van Baelen et al. 2020][research_van_baelen_2020], [Campbell et al. 2022][research_campbell_2022], [Kluever 2022][research_kluever_2022], [Yu et al. 2022][research_yu_2022], [Ma and Chen 2023][research_ma_chen_2023], [Altunkaya et al. 2024][research_altunkaya_2024], [Catak et al. 2024][research_catak_2024], [Hsu et al. 2024][research_hsu_2024], [Schieni et al. 2024][research_schieni_2024], [Autenrieb 2025][research_autenrieb_2025], [Sarah et al. 2025][research_sarah_2025], [Yue et al. 2025][research_yue_2025].
 
@@ -853,6 +1069,650 @@ The detailed stability and control derivatives of both vehicles beyond the compa
 Three instead of five means an eighteen-degree glide instead of eleven. It means approaching sixty percent faster than best glide, on purpose, because the flare needs the energy. It means beginning that flare a thousand feet up rather than thirty, and it means a corridor a few tenths of a g wide with running out of speed on one side and floating off the far end of the runway on the other.
 
 **The X-24B flew through the middle of that corridor onto fifteen thousand feet of concrete, twice, and an orbiter that had been designed with jet engines for its landing approach flew without them.**
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 72 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 72, 37 are established and 35 are bespoke.
+Quantities are in United States customary units, with lengths in feet, speeds in feet per second, miles an hour or knots as each line states and weights in pounds, drag coefficients are referred to wetted area, reference area or base area as each line states, and the efficiency factor of 0.6, the approach speed of 300 miles an hour and the maximum lift coefficient of 0.7 are values the article assumes.
+
+**Equation 1, Cost of the Rebuild Relative to a New Vehicle.**
+The documented rebuild cost of 1.1 million dollars against an estimated 5 million for a new vehicle is a ratio of about one fifth.
+
+$$
+\frac{1.1}{5.0} = 0.22
+\tag{1}
+$$
+
+**Equation 2, Growth in Length and Span from the Rebuild.**
+The flight-determined table gives the X-24B 13.0 feet more length and 5.51 feet more span than the X-24A.
+
+$$
+\Delta\ell = 37.50 - 24.50 = 13.0\ \text{ft}, \qquad \Delta b = 19.14 - 13.63 = 5.51\ \text{ft}
+\tag{2}
+$$
+
+**Equation 3, Propellant Fraction of the X-24A.**
+The documented 5,500 pounds of propellants and gases against a launch weight of about 12,000 pounds is a propellant fraction of 0.46.
+[Cochrane and Graham][ref_cochrane_graham_1971]
+
+$$
+\frac{m_p}{m_0} = \frac{5{,}500}{12{,}000} = 0.46
+\tag{3}
+$$
+
+**Equation 4, Thrust Ratio of the Uprated Engine.**
+The uprated LR-11 rating of 9,800 pounds against the original 8,480 pounds is a thrust increase of sixteen percent.
+
+$$
+\frac{T_B}{T_A} = \frac{9{,}800}{8{,}480} = 1.16
+\tag{4}
+$$
+
+**Equation 5, Base Drag Coefficient on Wetted Area.**
+The suction on a blunt base contributes a drag coefficient equal to the negative base pressure coefficient times the ratio of base area to wetted area.
+
+$$
+C_{D_b} = -C_{p_b}\,\frac{A_b}{A_w}
+\tag{5}
+$$
+
+**Equation 6, Hoerner Base Pressure Correlation.**
+Hoerner's correlation makes the base pressure coefficient inversely proportional to the square root of the forebody drag coefficient referred to the base area.
+[Hoerner's compendium of drag data][book_hoerner_1965]
+[Saltzman et al. 2007][research_saltzman_2007]
+
+$$
+C_{p_b} = -\frac{K}{\sqrt{C_{D_\text{fore}}}}
+\tag{6}
+$$
+
+**Equation 7, Full-Scale Value of the Hoerner Coefficient.**
+Flight measurements on the X-15, the M2-F3 and the Space Shuttle require a coefficient of 0.090 to 0.100 in the Hoerner correlation.
+[Saltzman et al. 2007][research_saltzman_2007]
+
+$$
+K = 0.090 \ \text{to}\ 0.100
+\tag{7}
+$$
+
+**Equation 8, Ratio of Full-Scale to Model Hoerner Coefficients.**
+The full-scale coefficient of 0.100 is about three and a half times the model-scale value of 0.029.
+
+$$
+\frac{0.100}{0.029} = 3.4
+\tag{8}
+$$
+
+**Equation 9, Reynolds Number.**
+The Reynolds number is the product of speed and length divided by the kinematic viscosity.
+
+$$
+Re = \frac{V\ell}{\nu}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Reynolds Number Ratio of Flight to a Small Model.*
+The approach Reynolds number of the X-24B is about forty times that of a model the article takes as one-twentieth scale in a tunnel at 200 feet per second.
+
+$$
+\frac{Re_\text{flight}}{Re_\text{model}} = 41
+\tag{10}
+$$
+
+*Equation 11, Bespoke True Airspeed at the Middle of the Approach Band.*
+The true airspeed follows from the indicated airspeed and the density ratio at Edwards, evaluated at 285 knots, the midpoint of the documented band of 270 to 300 knots.
+[Falarski and Mort][ref_falarski_mort_1970]
+[Dana and Gentry 1970][research_william_h_dana_j_r_gentry_1970]
+
+$$
+V = \frac{V_i}{\sqrt{\sigma}} = \frac{285 \times 1.688}{\sqrt{0.934}} = 498\ \text{ft/s}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Reynolds Number of the X-24A at the Middle of the Approach Band.*
+At the midpoint approach speed the X-24A's flight Reynolds number on its length is about twice that of the full-scale tunnel test.
+
+$$
+Re_\text{X-24A} = 7.2\times 10^7, \qquad \frac{7.2\times 10^7}{3.24\times 10^7} = 2.2
+\tag{12}
+$$
+
+**Equation 13, Equivalent Skin-Friction Coefficient.**
+The equivalent skin-friction coefficient is the minimum drag coefficient referred to wetted area rather than to a reference area.
+
+$$
+C_{F_e} = C_{D_\text{min}}\,\frac{S}{A_w}
+\tag{13}
+$$
+
+**Equation 14, Forebody Drag Referred to the Base Area.**
+The forebody drag coefficient that the Hoerner correlation needs is the forebody equivalent skin-friction coefficient scaled by the ratio of wetted to base area.
+
+$$
+C_{D_\text{fore},b} = C_{F_e,\text{fore}}\,\frac{A_w}{A_b}
+\tag{14}
+$$
+
+**Equation 15, Forebody and Base Drag Trade on Wetted Area.**
+Writing both drag terms on wetted area gives a total that rises with the forebody contribution and falls through the base term, a trade the source analyses.
+[Saltzman et al. 2007][research_saltzman_2007]
+
+$$
+C_{F_e} = x + \frac{k\, r^{3/2}}{\sqrt{x}}
+\tag{15}
+$$
+
+**Equation 16, Stationarity Condition of the Drag Trade.**
+Setting the derivative of the total with respect to the forebody contribution to zero gives the condition for an interior minimum.
+
+$$
+\frac{dC_{F_e}}{dx} = 1 - \frac{k\,r^{3/2}}{2x^{3/2}} = 0 \quad \Longrightarrow \quad k\,r^{3/2} = 2x^{3/2}
+\tag{16}
+$$
+
+**Equation 17, Optimum Forebody Contribution.**
+The minimum lies at a forebody contribution proportional to the base-to-wetted area ratio, with a coefficient set by the Hoerner coefficient and profile factor.
+
+$$
+x_\text{opt} = \left(\frac{k}{2}\right)^{2/3} r
+\tag{17}
+$$
+
+**Equation 18, Total Drag at the Optimum as Three Times the Forebody Drag.**
+Substituting the optimum back makes the total exactly three times the forebody contribution, independent of every parameter in the trade.
+[Saltzman et al. 2007][research_saltzman_2007]
+
+$$
+C_{F_e} = x + \frac{2x^{3/2}}{\sqrt{x}} = x + 2x = 3x
+\tag{18}
+$$
+
+**Equation 19, Ratio of the Source's Optimum Coefficients.**
+The source's minimum total coefficient of $0.3852\,r$ is exactly three times its optimal forebody coefficient of $0.1284\,r$.
+[Saltzman et al. 2007][research_saltzman_2007]
+
+$$
+\frac{0.3852}{0.1284} = 3.000
+\tag{19}
+$$
+
+*Equation 20, Bespoke Optimum Forebody Coefficient in the Article's Arrangement.*
+Applying the full-scale Hoerner coefficient of 0.10 with a profile factor of 0.92 in the article's arrangement gives 0.1435, twelve percent above the source's value.
+
+$$
+\left(\frac{0.10/0.92}{2}\right)^{2/3} = 0.1435
+\tag{20}
+$$
+
+**Equation 21, Maximum Lift-to-Drag Ratio of a Parabolic Polar.**
+For a parabolic polar the maximum lift-to-drag ratio is half the square root of pi times efficiency factor times aspect ratio over the parasite drag coefficient.
+
+$$
+\left(\frac{L}{D}\right)_\text{max} = \frac{1}{2}\sqrt{\frac{\pi e A}{C_{D_0}}}
+\tag{21}
+$$
+
+**Equation 22, Maximum Lift-to-Drag Ratio in Wetted Area Form.**
+Expressing the parasite drag on wetted area and the aspect ratio through the span makes the reference area cancel, leaving span squared over wetted area as the governing variable.
+[Saltzman et al. 2007][research_saltzman_2007]
+
+$$
+\left(\frac{L}{D}\right)_\text{max} = \frac{1}{2}\sqrt{\frac{\pi e\, b^2}{A_w\, C_{F_e}}}
+\tag{22}
+$$
+
+**Equation 23, Aspect Ratio and Wetted Aspect Ratio.**
+The aspect ratio is span squared over reference area and the wetted aspect ratio is span squared over wetted area.
+[Saltzman et al. 2007][research_saltzman_2007]
+
+$$
+A = \frac{b^2}{S}, \qquad A_\text{wetted} = \frac{b^2}{A_w}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Lift-to-Drag Gain from Covering the Base.*
+Within the article's base drag model, removing the base term cuts the drag to one third, so the lift-to-drag ratio rises by the square root of three.
+
+$$
+\frac{(L/D)_\text{tailcone}}{(L/D)_\text{truncated}} = \sqrt{3} = 1.73
+\tag{24}
+$$
+
+*Equation 25, Bespoke Predicted Lift-to-Drag Ratio of Enterprise with the Tailcone.*
+The truncated Enterprise value scaled by the square root of three predicts 7.05, six percent below the measured 7.5.
+
+$$
+\left(\frac{L}{D}\right)_\text{tailcone} = 7.05
+\tag{25}
+$$
+
+*Equation 26, Bespoke Parabolic Drag Polar of the X-24B.*
+The drag polar of the X-24B uses an induced drag factor of 0.479 that follows from an efficiency factor the article assumes as 0.6.
+
+$$
+C_D = C_{D_0} + k_i C_L^2, \qquad k_i = \frac{1}{\pi e A} = 0.479
+\tag{26}
+$$
+
+**Equation 27, Lift Coefficient in Level Flight and Dynamic Pressure.**
+The lift coefficient that balances the weight is the weight over dynamic pressure times reference area, with dynamic pressure half the density times the square of speed.
+
+$$
+C_L = \frac{W}{q S}, \qquad q = \tfrac{1}{2}\rho V^2
+\tag{27}
+$$
+
+*Equation 28, Bespoke Best Glide Condition of the X-24B.*
+Equating the parasite and induced terms of the assumed polar gives a best-glide lift coefficient of 0.30 and a maximum lift-to-drag ratio of 3.43.
+
+$$
+C_L^* = \sqrt{\frac{C_{D_0}}{k_i}} = 0.304, \qquad \left(\frac{L}{D}\right)_\text{max} = \frac{1}{2\sqrt{C_{D_0} k_i}} = 3.43
+\tag{28}
+$$
+
+*Equation 29, Bespoke Best Glide Angle.*
+The best glide angle is the inverse tangent of the reciprocal of the maximum lift-to-drag ratio of the assumed polar, about 16 degrees.
+
+$$
+\gamma^* = \arctan\frac{1}{(L/D)_\text{max}} = 16.2^\circ
+\tag{29}
+$$
+
+*Equation 30, Bespoke Best Glide Speed.*
+The lift balance at the best-glide lift coefficient and the density taken for Edwards gives about 188 miles an hour.
+[Edwards Air Force Base][ref_edwards_afb]
+
+$$
+V^* = \sqrt{\frac{2W}{\rho S C_L^*}} = 276\ \text{ft/s} = 188\ \text{mph}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Approach Speed Relative to Best Glide.*
+The approach speed of 300 miles an hour that the article assumes is 1.60 times the best-glide speed.
+
+$$
+\frac{V}{V^*} = 1.60
+\tag{31}
+$$
+
+*Equation 32, Bespoke Lift Coefficient at the Assumed Approach Speed.*
+Because the lift coefficient falls as the inverse square of speed, the assumed approach speed brings it to 0.39 of the best-glide value.
+
+$$
+\frac{C_L}{C_L^*} = \left(\frac{V}{V^*}\right)^{-2} = 0.39
+\tag{32}
+$$
+
+*Equation 33, Bespoke Induced Share of the Approach Drag.*
+At the assumed approach speed the induced term is about one eighth of the total drag of the assumed polar.
+
+$$
+\frac{k_i C_L^2}{C_D} = 0.13
+\tag{33}
+$$
+
+*Equation 34, Bespoke Approach Path Angle.*
+The lift-to-drag ratio of 2.34 at the assumed approach speed gives a path angle of about 23 degrees.
+
+$$
+\gamma = \arctan\frac{1}{2.34} = 23.2^\circ
+\tag{34}
+$$
+
+*Equation 35, Bespoke Approach Sink Rate.*
+The vertical component of the assumed approach speed on that path is about 10,400 feet per minute.
+
+$$
+\dot h = V\sin\gamma = 173\ \text{ft/s} = 10{,}400\ \text{ft/min}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Sink Rate of a Transport Approach.*
+A transport on a three-degree approach at 140 knots, values the article takes as representative, descends at about 740 feet per minute.
+
+$$
+\dot h = 140 \times 1.688 \times \sin 3^\circ \times 60 = 742\ \text{ft/min}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Ratio of Lifting Body to Transport Sink Rate.*
+The modelled lifting-body sink rate is about fourteen times the representative transport value.
+
+$$
+\frac{10{,}400}{742} = 14
+\tag{37}
+$$
+
+*Equation 38, Bespoke Documented Approach Band Relative to Best Glide.*
+The documented band of 321 to 357 miles an hour true is 1.71 to 1.90 times the best-glide speed of the assumed polar.
+[Dana and Gentry 1970][research_william_h_dana_j_r_gentry_1970]
+
+$$
+\frac{321}{188} = 1.71 \quad \text{to} \quad \frac{357}{188} = 1.90
+\tag{38}
+$$
+
+**Equation 39, Radius of a Pull-Up at Constant Load Factor.**
+A path curving at load factor $n$ in a vertical plane has an instantaneous radius of speed squared over gravity times $n$ minus one.
+
+$$
+R = \frac{V^2}{g(n-1)}
+\tag{39}
+$$
+
+**Equation 40, Arc Length per Unit Path Angle.**
+The distance along the path per unit change of path angle is the negative of the instantaneous radius.
+
+$$
+\frac{ds}{d\gamma} = -R = -\frac{V^2}{g(n-1)}
+\tag{40}
+$$
+
+**Equation 41, Height and Horizontal Distance Along the Path.**
+Height and horizontal distance change along the path as the sine and cosine of the path angle.
+
+$$
+\frac{dh}{ds} = \sin\gamma, \qquad \frac{dx}{ds} = \cos\gamma
+\tag{41}
+$$
+
+**Equation 42, Speed Change Along the Path.**
+Along the path the speed changes with the difference between the weight component along the path and the drag, divided by mass times speed.
+
+$$
+\frac{dV}{ds} = \frac{W\sin\gamma - D}{mV}
+\tag{42}
+$$
+
+**Equation 43, Lift Coefficient and Drag at Load Factor.**
+The lift coefficient the load factor demands and the drag from the parabolic polar at that lift coefficient close the flare equations.
+
+$$
+C_L = \frac{nW}{qS}, \qquad D = qS\left(C_{D_0} + k_i C_L^2\right)
+\tag{43}
+$$
+
+**Equation 44, Load Factor.**
+The load factor is the ratio of lift to weight.
+
+$$
+n = \frac{L}{W}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Load Factor Solved for the Quoted Touchdown Speed.*
+Integrating the flare from the assumed 300 miles an hour and adjusting the load factor until touchdown at the quoted 200 miles an hour gives 1.19 g, a flare from about 2,160 feet lasting about 22 seconds.
+
+$$
+n = 1.19, \qquad h_\text{flare} = 2{,}163\ \text{ft}, \qquad t = 21.9\ \text{s}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Flare Compared with a Transport Flare.*
+Against a transport flare the article takes to begin at about thirty feet and last about three seconds, the modelled flare starts about seventy times higher and lasts about seven times longer.
+
+$$
+\frac{2{,}163}{30} = 72, \qquad \frac{21.9}{3} = 7.3
+\tag{46}
+$$
+
+*Equation 47, Bespoke Flare Distance as a Fraction of the Runway.*
+The horizontal projection of the modelled flare covers about 62 percent of the 15,000 foot concrete runway.
+
+$$
+\frac{9{,}306}{15{,}000} = 0.62
+\tag{47}
+$$
+
+*Equation 48, Bespoke Lift Coefficient at the Start of the Flare.*
+The solved load factor times the approach lift coefficient gives a flare lift coefficient of about 0.14.
+
+$$
+C_L = \frac{nW}{qS} = 1.19 \times 0.120 = 0.142
+\tag{48}
+$$
+
+*Equation 49, Bespoke Touchdown Speed Gain from Pulling Harder.*
+In the flare model raising the load factor from 2 to 3 g lowers the touchdown speed by only 4 miles an hour.
+
+$$
+V_\text{td}(3g) - V_\text{td}(2g) = 260 - 256 = 4\ \text{mph}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Stall Speed.*
+The stall speed at the lift and drag test weight with a maximum usable lift coefficient the article assumes as 0.7 is about 124 miles an hour.
+
+$$
+V_\text{stall} = \sqrt{\frac{2W}{\rho S C_{L_\text{max}}}} = 124\ \text{mph}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Touchdown Speed Margin over Stall.*
+The modelled touchdown speed at 1.19 g is 1.60 times the stall speed of the assumed maximum lift coefficient.
+
+$$
+\frac{V_\text{td}}{V_\text{stall}} = \frac{199}{124} = 1.60
+\tag{51}
+$$
+
+**Equation 52, Height Span of the Documented Flare.**
+The documented flare from 1,000 feet to the 100 foot level-off spans 900 feet of height.
+
+$$
+h_\text{flare} = 1{,}000 - 100 = 900\ \text{ft}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Float Distance after the Flare.*
+Holding level flight at one g, the article writes the float distance as the speed decay that the polar sets plus a term for the level-off height times a mean lift-to-drag ratio.
+
+$$
+\frac{dV}{ds} = -\frac{g}{V\,(L/D)}, \qquad s_\text{float} = \frac{1}{g}\int_{V_\text{td}}^{V_1} V\,\frac{L}{D}\,dV + h_1\,\overline{\left(\frac{L}{D}\right)}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Float Distance, Mean Lift-to-Drag Ratio and Duration.*
+Decelerating from 241 to 200 miles an hour on the assumed polar gives a float of about 2,300 feet lasting about seven seconds.
+
+$$
+s_\text{float} = 2{,}303\ \text{ft}, \qquad \overline{L/D} = 3.25, \qquad t \approx 7.1\ \text{s}
+\tag{54}
+$$
+
+**Equation 55, Sink Rate at a Residual Path Angle.**
+The sink rate is the speed times the sine of the path angle, reported at a small residual angle because the flare drives the angle to zero.
+
+$$
+\dot h = V\sin\gamma_\text{residual}
+\tag{55}
+$$
+
+**Equation 56, Mean Impact Load Factor of the X-24A.**
+The mean of the 25 peak normal accelerations at ground impact in Larson's table for the X-24A is 1.43 g.
+[Larson][research_larson_1972]
+
+$$
+\bar n_\text{impact} = \frac{1}{N}\sum_{i=1}^{N} n_i = 1.43, \qquad N = 25
+\tag{56}
+$$
+
+*Equation 57, Bespoke Energy Height at the Start of the Flare.*
+The modelled flare height plus the kinetic energy height of the assumed approach speed gives a total energy height of about 5,170 feet.
+
+$$
+h_E = h + \frac{V^2}{2g} = 2{,}163 + 3{,}009 = 5{,}172\ \text{ft}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Energy Height at Touchdown.*
+At zero height and the touchdown speed of 199 miles an hour that the flare model reaches, close to the quoted 200, the energy height is about 1,320 feet.
+
+$$
+h_{E,\text{td}} = \frac{V_\text{td}^2}{2g} = 1{,}322\ \text{ft}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Share of Energy Spent in the Flare.*
+The difference of the modelled and touchdown energy heights is about 74 percent of the energy at the start of the flare.
+
+$$
+\frac{5{,}172 - 1{,}322}{5{,}172} = 0.74
+\tag{59}
+$$
+
+*Equation 60, Bespoke Mean Deceleration Along the Flare.*
+The change in squared speed over twice the modelled arc length gives a mean deceleration of about 0.18 g.
+
+$$
+\bar a = \frac{V_i^2 - V_f^2}{2 s} = 0.18\,g
+\tag{60}
+$$
+
+*Equation 61, Bespoke Lift-to-Drag Ratios of the X-24A and X-24B.*
+The article's polar with full base drag and the assumed efficiency factor gives 2.99 and 3.43, a ratio of 1.15.
+[Reed][book_reed_1997]
+
+$$
+\left(\frac{L}{D}\right)_\text{X-24A} = 2.99, \qquad \left(\frac{L}{D}\right)_\text{X-24B} = 3.43, \qquad \text{ratio} = 1.15
+\tag{61}
+$$
+
+**Equation 62, Lift-to-Drag Gain from the Wetted Aspect Ratio.**
+Because the maximum lift-to-drag ratio goes as the square root of the wetted aspect ratio, a rise of 1.23 in that ratio accounts for a factor of 1.11.
+
+$$
+\sqrt{1.23} = 1.11
+\tag{62}
+$$
+
+**Equation 63, Glide Radius from Height.**
+A glide at a fixed lift-to-drag ratio reaches a horizontal radius equal to the starting height times that ratio.
+[Bell 1964][research_bell_1964]
+[Kelley et al. 1982][research_kelley_1982]
+[Knapp and Barton 1968][research_knapp_barton_1968]
+[Sleeman 1971][research_sleeman_1971]
+
+$$
+r = h\,\frac{L}{D}
+\tag{63}
+$$
+
+**Equation 64, Ratio of Powered-Approach Runway to Concrete Runway.**
+The 7.5 miles the HL-10's powered approaches needed is 2.6 times the 15,000 feet of concrete at Edwards.
+[Kock and Fulton][research_berwin_m_kock_fitzhugh_l_fulton_1970]
+[Reed][book_reed_1997]
+
+$$
+\frac{7.5 \times 5{,}280}{15{,}000} = \frac{39{,}600}{15{,}000} = 2.6
+\tag{64}
+$$
+
+**Equation 65, Statistics of the X-24A Longitudinal Miss Distances.**
+The signed mean, mean absolute value and sample standard deviation of 20 measured X-24A touchdown misses are about 1,130, 1,450 and 1,680 feet.
+[Larson][research_larson_1972]
+
+$$
+\bar x = \frac{1}{N}\sum_{i=1}^{N} x_i = 1{,}125\ \text{ft}, \qquad \overline{|x|} = 1{,}450\ \text{ft}, \qquad s_x = \sqrt{\frac{\sum (x_i - \bar x)^2}{N-1}} = 1{,}678\ \text{ft}
+\tag{65}
+$$
+
+**Equation 66, Probability of Landing within 500 Feet under the Lakebed Fit.**
+Under Larson's normal fit with a mean 112 feet short and a standard deviation of 1,793.6 feet, about 22 percent of landings fall within 500 feet of the aim point.
+[Larson][research_larson_1972]
+
+$$
+P(|x| \le 500) = \Phi\!\left(\frac{500-\mu}{\sigma_x}\right) - \Phi\!\left(\frac{-500-\mu}{\sigma_x}\right) = 0.22
+\tag{66}
+$$
+
+**Equation 67, Ratio of Lakebed Scatter to the Expected Accuracy.**
+The lakebed standard deviation is about 3.6 times the 500 foot accuracy expected on the concrete.
+
+$$
+\frac{\sigma_x}{500} = 3.6
+\tag{67}
+$$
+
+*Equation 68, Bespoke Departures of the Model from Flight-Determined Ratios.*
+The article's lift-to-drag ratios differ from the flight-determined values matched by base area by $+3$, $-9$ and $+8$ percent.
+[Saltzman et al. 2002][research_saltzman_2002]
+
+$$
+\frac{4.39}{4.25} - 1 = +3\%, \qquad \frac{2.99}{3.28} - 1 = -9\%, \qquad \frac{4.88}{4.50} - 1 = +8\%
+\tag{68}
+$$
+
+**Equation 69, Thrust to Change the Path Angle at Constant Speed.**
+Holding the speed while changing the path angle needs a thrust equal to the change in the weight component along the path.
+[Kock and Fulton][research_berwin_m_kock_fitzhugh_l_fulton_1970]
+
+$$
+T = W\left(\sin\gamma_1 - \sin\gamma_2\right)
+\tag{69}
+$$
+
+*Equation 70, Bespoke Thrust for a Six Degree Powered Approach.*
+Shallowing the modelled 23.2 degree approach of the X-24B to 6 degrees needs about 2,460 pounds of thrust, 29 percent of its weight.
+
+$$
+T = 8{,}500\left(\sin 23.2^\circ - \sin 6^\circ\right) = 2{,}460\ \text{lb}
+\tag{70}
+$$
+
+**Equation 71, Lift-to-Drag Ratio with Roughness Drag.**
+At a given lift the lift-to-drag ratio falls in proportion to the drag, so a fractional drag increase divides it by one plus that fraction.
+[Reed][book_reed_1997]
+
+$$
+\left(\frac{L}{D}\right)_\text{rough} = \frac{L/D}{1 + \Delta C_D/C_D}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Touchdown Speed as a Function of Aerodynamics Alone.*
+The article writes the touchdown speed of its flare model as a function of load factor, wing loading, polar coefficients and density alone, with no term for the pilot.
+
+$$
+V_\text{td} = F\left(n,\ \frac{W}{S},\ C_{D_0},\ k_i,\ \rho\right)
+\tag{72}
+$$
+
+### Notation
+
+- $C_{D_b}$, the base drag coefficient referred to wetted area
+- $C_{p_b}$, the base pressure coefficient
+- $A_b$, the base area
+- $A_w$, the wetted area
+- $K$, the coefficient of the Hoerner base pressure correlation
+- $Re$, the Reynolds number
+- $\nu$, the kinematic viscosity
+- $\sigma$, the ratio of air density to sea-level density
+- $V_i$, the indicated airspeed, and in Equation 60 the speed at the start of the flare
+- $C_{F_e}$, the equivalent skin-friction coefficient referred to wetted area
+- $r$, the ratio of base area to wetted area, and in Equation 63 the glide radius
+- $x$, the forebody contribution to the equivalent skin-friction coefficient, and in Equations 41 and 65 a horizontal distance
+- $e$, the efficiency factor, taken as 0.6
+- $A$, the aspect ratio
+- $b$, the span
+- $S$, the reference area
+- $C_{D_0}$, the parasite drag coefficient
+- $k_i$, the induced drag factor
+- $C_L^*$, the lift coefficient at best glide, with $V^*$ the best-glide speed
+- $\gamma$, the flight path angle
+- $n$, the load factor
+- $R$, the instantaneous radius of the flare
+- $s$, the distance along the path
+- $V_\text{td}$, the touchdown speed
+- $C_{L_\text{max}}$, the maximum usable lift coefficient, taken as 0.7
+- $h_E$, the energy height
+- $\sigma_x$, the standard deviation of the touchdown miss distance in Larson's fit
+- $\Phi$, the standard normal distribution function
+
 ## References
 
 <!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->

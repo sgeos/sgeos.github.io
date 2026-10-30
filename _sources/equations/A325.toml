@@ -1,0 +1,439 @@
+# Equation classification for A325. Read by `python3 _lib/equations.py`.
+
+caution = "The article mixes customary and International System units, quoting weights in pounds, speeds in knots and areas in square feet while evaluating aerodynamic relations in newtons, metres per second and pascals, and the letter $b$ is the wing span in the aerodynamic relations but the hull beam in the planing relations."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Wingtip Clearance in a Twenty-Five-Foot Canal"
+gloss = "Half the difference between the quoted minimum canal width and the quoted span leaves twelve inches of clearance at each wingtip."
+cite = ["ref_tails_x28", "ref_x28"]
+digest = "3f8e6aaccb22ceae"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Aspect Ratio of the Wing"
+gloss = "The aspect ratio is the span squared divided by the wing area, here evaluated from the published span and area."
+cite = ["ref_aspect_ratio"]
+digest = "2834af8595b9ce64"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Wing Loading"
+gloss = "The wing loading is the gross weight divided by the wing area, evaluated from the published figures."
+cite = ["book_raymer", "book_torenbeek", "book_gudmundsson"]
+digest = "bef15166985bf19d"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Power Loading"
+gloss = "The power loading is the gross weight divided by the installed engine power, evaluated from the published figures."
+cite = ["book_raymer", "book_torenbeek", "book_gudmundsson"]
+digest = "1d7fa2ec48d28bbc"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Empty and Fuel Weight Fractions"
+gloss = "The empty fraction uses the published empty and gross weights, while the fuel fraction rests on ninety pounds of fuel, an unpublished figure the article assumes."
+cite = []
+digest = "6f477d701d28513e"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Lift Equation and Stall Speed"
+gloss = "Lift is the dynamic pressure times the wing area times the lift coefficient, and setting lift equal to weight at the maximum lift coefficient gives the stall speed."
+cite = []
+digest = "02e2e6bb1b023b1f"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Maximum Lift Coefficient Inverted From the Quoted Stall"
+gloss = "Solving the stall relation for the coefficient with the published weight, wing area and minimum speed at sea level density gives a maximum lift coefficient near 1.19."
+cite = ["ref_xvehicles"]
+digest = "78e18df670927a2c"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Parabolic Drag Polar"
+gloss = "The drag coefficient is a zero-lift term plus an induced term proportional to the square of the lift coefficient, with the induced factor set by aspect ratio and Oswald efficiency."
+cite = ["book_anderson"]
+digest = "4872d7637f9df34b"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Dynamic Pressure and Drag"
+gloss = "The dynamic pressure is half the density times the speed squared, and the drag is the dynamic pressure times the wing area times the drag coefficient."
+cite = ["book_anderson"]
+digest = "67272a19736362f5"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Loiter Condition at Twenty Percent Above the Stall"
+gloss = "The dynamic pressure, lift coefficient and drag are evaluated at a loiter speed the article sets at 1.2 times the stall speed, using the drag polar it builds."
+cite = []
+digest = "2e793ea4d6ccfbe3"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Zero-Lift Drag Build-Up With a Hull Increment"
+gloss = "The zero-lift drag coefficient is assembled from an assumed equivalent skin friction coefficient of 0.0055, an assumed wetted area ratio of 4.2 and an assumed hull step increment of 0.010."
+cite = ["book_hoerner", "book_raymer"]
+digest = "87bac3d7e12b43fb"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Oswald Efficiency and Induced Drag Factor"
+gloss = "The induced drag factor is evaluated with an Oswald efficiency of 0.886 that the article estimates rather than takes from any measurement."
+cite = []
+digest = "1b829eacb45d69a2"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Maximum Lift-to-Drag Ratio"
+gloss = "The standard maximum of the lift-to-drag ratio for a parabolic polar is evaluated with the assumed Oswald efficiency and the built-up zero-lift drag, giving about 10.7."
+cite = []
+digest = "94c862c8ace11371"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Rate of Climb From Excess Power and Its Zero-Drag Ceiling"
+gloss = "The rate of climb is the excess of propulsive power over drag power divided by weight, and setting the drag to zero gives an absolute upper bound."
+cite = []
+digest = "225850c501175ffb"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Propeller Efficiency Required by the Climb Claim"
+gloss = "The propeller efficiency needed to meet the quoted climb rate is found by minimising the required power over speed against the drag polar the article builds."
+cite = []
+digest = "8a95b1f24192747b"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Zero-Lift Drag Implied by the Climb Claim"
+gloss = "Taking the propeller efficiency as an assumed 0.75 and believing the quoted climb rate implies a zero-lift drag coefficient of 0.0050, which the article judges impossible for a stepped hull."
+cite = []
+digest = "e4ac4536343c120b"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Power Required for a Parabolic Polar"
+gloss = "The power required is drag times speed, which splits into a parasite term growing with the cube of speed and an induced term falling inversely with speed."
+cite = []
+digest = "892aca49c427031d"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Speed for Minimum Power Required"
+gloss = "Setting the derivative of the power required with respect to speed to zero gives the minimum-power speed, at which the induced power is three times the parasite power."
+cite = []
+digest = "b158354acc50e51b"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Endurance at Constant Shaft Power"
+gloss = "Endurance is the fuel weight divided by the product of specific fuel consumption and shaft power, a form that holds the power constant as fuel burns."
+cite = []
+digest = "edef853eafa9c5ba"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Minimum-Power Speed Against the Stall Speed"
+gloss = "Evaluating the minimum-power speed with the built-up polar places it at 0.984 of the stall speed, so the endurance optimum lies below the speed at which the aircraft can fly."
+cite = []
+digest = "bd119e8fea197344"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Range at a Stall-Margin Loiter Speed"
+gloss = "Range is endurance times loiter speed, with the loiter speed set by a stall margin of at least 1.2 that the article chooses rather than by the power curve."
+cite = ["book_torenbeek", "book_gudmundsson"]
+digest = "a87990c18414c6fb"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Range at the Chosen Loiter Speed"
+gloss = "The range of 517 nautical miles follows from an endurance computed with ninety pounds of assumed fuel and a loiter speed at the chosen twenty percent stall margin."
+cite = []
+digest = "b87d37af7d350991"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Search Rate of a Single Aircraft"
+gloss = "The area swept per unit time is the sweep width multiplied by the search speed."
+cite = ["book_koopman", "book_stone", "ref_search_theory"]
+digest = "1d31090918c63912"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Sweep Width as an Integral of the Lateral-Range Curve"
+gloss = "The sweep width is twice the integral of the detection probability over lateral range, the width of a perfect sensor that would find as many targets."
+cite = ["ref_sweep_width"]
+digest = "42336e6a85888916"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Sweep Width as a Coverage Factor Times Twice the Sighting Range"
+gloss = "The sweep width is written as a coverage factor between zero and one times twice the maximum sighting range, which bounds it by the definite-range law."
+cite = ["book_koopman", "book_stone"]
+digest = "80eed2e2240b16aa"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Coverage and the Random-Search Detection Law"
+gloss = "The coverage is the area swept divided by the area searched, and under the random-search law the probability of detection is one minus the exponential of minus the coverage."
+cite = ["book_koopman", "book_stone"]
+digest = "f7181f777500cbfb"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Detection Probability at Unit Coverage"
+gloss = "At a coverage of one the random-search law gives a detection probability of one minus the reciprocal of $e$, about 0.632."
+cite = []
+digest = "e49e2bccfb62a9ea"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Geometric Horizon Distance"
+gloss = "The distance to the geometric horizon in nautical miles is approximately 1.17 times the square root of the height in feet, here twenty nautical miles at the tested three hundred feet."
+cite = ["ref_tails_x28"]
+digest = "6bba98a911ab10e5"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Fleet Coverage per Dollar"
+gloss = "The article takes area examined per hour per dollar as its figure of merit and shows that a fixed budget buys a fleet whose coverage is the budget times that ratio."
+cite = []
+digest = "f97da3b57c9cb1c4"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Fleet Size Bought for the Cost of One Orion"
+gloss = "The budget is set equal to the unit cost of one P-3C Orion, a comparison the article chooses, and dividing it by the unit cost of the X-28A gives 7,200 aircraft."
+cite = ["ref_p3"]
+digest = "156b15733d55c6b2"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Fleet Coverage Against One Orion"
+gloss = "The fleet coverage multiplies the fleet size by a single-aircraft coverage resting on an assumed visual sweep width of one nautical mile, and is set against an Orion credited with an assumed twenty-mile radar sweep."
+cite = []
+digest = "6e7ec1728cebd1d8"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Coverage-per-Dollar Advantage"
+gloss = "The ratio of fleet coverage to Orion coverage for the same budget is about 113, a figure that inherits the assumed sweep widths of both aircraft."
+cite = []
+digest = "f6ae64553944b623"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Hump Resistance From the Resistance Ratio"
+gloss = "The hump resistance is the peak ratio of water resistance to displacement multiplied by the displacement."
+cite = ["book_savitsky"]
+digest = "642272e9aafb8174"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Static Thrust From Momentum Theory"
+gloss = "Actuator-disc momentum theory gives the ideal static thrust as the cube root of twice the density times the disc area times the power squared."
+cite = ["ref_momentum_theory"]
+digest = "5d4ec9af93c5b11c"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Disc Loading and Induced Velocity"
+gloss = "The disc loading and the velocity the propeller adds to the air are evaluated for a propeller diameter the article assumes, since none was published."
+cite = []
+digest = "776c941ef66dc040"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Beam Loading Coefficient"
+gloss = "The beam loading coefficient is the displacement divided by the specific weight of water times the cube of the hull beam."
+cite = ["book_savitsky"]
+digest = "604de4b39c4fc264"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Displaced Volume of Water"
+gloss = "By Archimedes the displaced volume is the gross weight divided by the density of sea water and gravity, about fourteen cubic feet."
+cite = ["book_savitsky"]
+digest = "1bdd7e04d93bf504"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Beam Froude Number"
+gloss = "The beam Froude number is the speed divided by the square root of gravity times the hull beam, the parameter at a fixed value of which the hump occurs."
+cite = []
+digest = "a37dbc01af196728"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Deep-Water Wavelength From Period"
+gloss = "Linear wave theory gives the wavelength of a deep-water wave as gravity times the period squared divided by two pi."
+cite = []
+digest = "b30221ec0c8360b8"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Advance Ratio, Helical Tip Speed and Tip Mach Number"
+gloss = "The advance ratio is the flight speed over the product of rotational speed and diameter, the helical tip speed combines rotation and flight speed, and the tip Mach number divides it by the speed of sound."
+cite = []
+digest = "becbe67c62720979"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Cruise Propeller Tip Conditions"
+gloss = "The advance ratio and tip Mach number at cruise are evaluated for an assumed six-foot propeller turning at 2,700 revolutions per minute."
+cite = []
+digest = "27f2d84790b2e7e2"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Propeller Efficiency"
+gloss = "The propeller efficiency is the thrust power divided by the shaft power."
+cite = []
+digest = "6381dc5928662b9c"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight, with $W_{\\mathrm{fuel}}$ the fuel weight"
+
+[[symbol]]
+tex = 'C_{L_{\max}}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'C_{D_0}'
+meaning = "the zero-lift drag coefficient"
+
+[[symbol]]
+tex = 'K'
+meaning = "the induced drag factor"
+
+[[symbol]]
+tex = 'e'
+meaning = "the Oswald efficiency number, except in the detection law, where it is the base of natural logarithms"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure in pascals"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, with $\\rho_w$ the density of sea water"
+
+[[symbol]]
+tex = 'V_{\mathrm{stall}}'
+meaning = "the stall speed, with $V_{\\mathrm{mp}}$ the minimum-power speed and $V_{\\mathrm{loiter}}$ the loiter speed"
+
+[[symbol]]
+tex = '\eta_p'
+meaning = "the propeller efficiency"
+
+[[symbol]]
+tex = 'P_{\mathrm{shaft}}'
+meaning = "the engine shaft power"
+
+[[symbol]]
+tex = 'c'
+meaning = "the specific fuel consumption"
+
+[[symbol]]
+tex = 'E'
+meaning = "the endurance"
+
+[[symbol]]
+tex = 'W_{\mathrm{sweep}}'
+meaning = "the sweep width"
+
+[[symbol]]
+tex = '\varphi'
+meaning = "the coverage factor relating sweep width to twice the maximum sighting range"
+
+[[symbol]]
+tex = 'C_{\mathrm{cov}}'
+meaning = "the coverage"
+
+[[symbol]]
+tex = 'P_{\mathrm{det}}'
+meaning = "the probability of detection"
+
+[[symbol]]
+tex = '\Delta'
+meaning = "the displacement, equal to the gross weight"
+
+[[symbol]]
+tex = '\gamma_w'
+meaning = "the specific weight of water"
+
+[[symbol]]
+tex = '\mathrm{Fr}_b'
+meaning = "the beam Froude number"
+
+[[symbol]]
+tex = 'A_{\mathrm{disc}}'
+meaning = "the propeller disc area"
+
+[[symbol]]
+tex = 'J'
+meaning = "the propeller advance ratio"
+
+[[symbol]]
+tex = 'M_{\mathrm{tip}}'
+meaning = "the propeller tip Mach number"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the wavelength of a deep-water wave"

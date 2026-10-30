@@ -155,20 +155,32 @@ the local speed of sound, which varies with altitude, so **Mach 25 is not a fixe
 forty-eight kilometres it corresponds to about 8,245 metres per second, above orbital velocity. The
 physically meaningful target is the orbital velocity itself.
 
-$$ V_{\mathrm{orbit}} = \sqrt{\frac{\mu}{R_\oplus + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.371 \times 10^6 + 2 \times 10^5}} = 7{,}789\ \mathrm{m/s} $$
+$$
+ V_{\mathrm{orbit}} = \sqrt{\frac{\mu}{R_\oplus + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.371 \times 10^6 + 2 \times 10^5}} = 7{,}789\ \mathrm{m/s} 
+\tag{1}
+$$
 
 Mach number is the ratio of flight speed to the local speed of sound, and the speed of sound depends only on
 temperature.
 
-$$ a = \sqrt{\gamma R T}, \qquad M = \frac{V}{a} $$
+$$
+ a = \sqrt{\gamma R T}, \qquad M = \frac{V}{a} 
+\tag{2}
+$$
 
 At forty-eight kilometres the atmosphere is warm enough that
 
-$$ a = \sqrt{1.4 \times 287.05 \times 270.65} = 329.8\ \mathrm{m/s} $$
+$$
+ a = \sqrt{1.4 \times 287.05 \times 270.65} = 329.8\ \mathrm{m/s} 
+\tag{3}
+$$
 
 so orbital velocity there corresponds to
 
-$$ M_{\mathrm{orbit}} = \frac{7{,}789}{329.8} = 23.62 $$
+$$
+ M_{\mathrm{orbit}} = \frac{7{,}789}{329.8} = 23.62 
+\tag{4}
+$$
 
 **Mach 25 at that altitude is 8,245 metres per second, which overshoots orbital velocity by six percent.**
 The programme's headline number was never a velocity target at all.
@@ -192,17 +204,29 @@ in [Hill and Peterson][book_hill_peterson].
 Consider a stream tube of air entering the engine at flight speed $V_0$ and leaving at $V_e$, with a
 fuel-air ratio $f$ by mass. Momentum conservation gives the gross thrust and the ram drag directly.
 
-$$ F_{\mathrm{gross}} = \dot{m}_0\left(1 + f\right)V_e, \qquad D_{\mathrm{ram}} = \dot{m}_0 V_0 $$
+$$
+ F_{\mathrm{gross}} = \dot{m}_0\left(1 + f\right)V_e, \qquad D_{\mathrm{ram}} = \dot{m}_0 V_0 
+\tag{5}
+$$
 
-$$ F_{\mathrm{net}} = \dot{m}_0\left[\left(1 + f\right)V_e - V_0\right] $$
+$$
+ F_{\mathrm{net}} = \dot{m}_0\left[\left(1 + f\right)V_e - V_0\right] 
+\tag{6}
+$$
 
 The exit velocity follows from an energy balance across the engine. The stream arrives carrying kinetic
 energy $V_0^2/2$ per unit mass of air, combustion adds $f\,\eta_c\,h_{\mathrm{fuel}}$ per unit mass of air,
 and the nozzle expands the combined flow.
 
-$$ \left(1 + f\right)\frac{V_e^2}{2} = \eta_n\left[\frac{V_0^2}{2} + f\,\eta_c\,h_{\mathrm{fuel}}\right] $$
+$$
+ \left(1 + f\right)\frac{V_e^2}{2} = \eta_n\left[\frac{V_0^2}{2} + f\,\eta_c\,h_{\mathrm{fuel}}\right] 
+\tag{7}
+$$
 
-$$ V_e = \sqrt{\frac{2\eta_n\left(\tfrac{1}{2}V_0^2 + f\,\eta_c\,h_{\mathrm{fuel}}\right)}{1 + f}} $$
+$$
+ V_e = \sqrt{\frac{2\eta_n\left(\tfrac{1}{2}V_0^2 + f\,\eta_c\,h_{\mathrm{fuel}}\right)}{1 + f}} 
+\tag{8}
+$$
 
 **That pair of relations carries the argument.** The fuel's contribution is a fixed quantity. The stream's
 kinetic energy grows as the square of flight speed.
@@ -214,7 +238,10 @@ that pushes the vehicle is squeezed between them.
 Specific impulse is thrust divided by the weight flow of propellant, and
 **the propellant an air-breather is charged for is the fuel alone**, because it does not carry its oxidiser.
 
-$$ I_{sp} = \frac{F_{\mathrm{net}}}{\dot{m}_{\mathrm{fuel}}\,g_0} = \frac{F_{\mathrm{net}}/\dot{m}_0}{f\,g_0} $$
+$$
+ I_{sp} = \frac{F_{\mathrm{net}}}{\dot{m}_{\mathrm{fuel}}\,g_0} = \frac{F_{\mathrm{net}}/\dot{m}_0}{f\,g_0} 
+\tag{9}
+$$
 
 **That single difference in convention is why figures above a thousand seconds appear below**, against about
 450 for a hydrogen rocket \[[RS-25][ref_rs25]\]. It is not that the engine is four times better. It is
@@ -240,15 +267,30 @@ metres per second.
 
 Taking the row at seven thousand metres per second and substituting,
 
-$$ V_e = \sqrt{\frac{2 \times 0.95\left(\tfrac{1}{2}\left(7000\right)^2 + 0.0291 \times 0.90 \times 119.96 \times 10^6\right)}{1.0291}} = 7{,}143.8\ \mathrm{m/s} $$
+$$
+ V_e = \sqrt{\frac{2 \times 0.95\left(\tfrac{1}{2}\left(7000\right)^2 + 0.0291 \times 0.90 \times 119.96 \times 10^6\right)}{1.0291}} = 7{,}143.8\ \mathrm{m/s} 
+\tag{10}
+$$
 
-$$ \frac{F_{\mathrm{gross}}}{\dot{m}_0} = 1.0291 \times 7143.8 = 7{,}351.7\ \mathrm{m/s} $$
+$$
+ \frac{F_{\mathrm{gross}}}{\dot{m}_0} = 1.0291 \times 7143.8 = 7{,}351.7\ \mathrm{m/s} 
+\tag{11}
+$$
 
-$$ \frac{F_{\mathrm{net}}}{\dot{m}_0} = 7351.7 - 7000 = 351.7\ \mathrm{m/s} $$
+$$
+ \frac{F_{\mathrm{net}}}{\dot{m}_0} = 7351.7 - 7000 = 351.7\ \mathrm{m/s} 
+\tag{12}
+$$
 
-$$ I_{sp} = \frac{351.7}{0.0291 \times 9.80665} = 1{,}232.5\ \mathrm{s} $$
+$$
+ I_{sp} = \frac{351.7}{0.0291 \times 9.80665} = 1{,}232.5\ \mathrm{s} 
+\tag{13}
+$$
 
-$$ \frac{f\,\eta_c\,h_{\mathrm{fuel}}}{\tfrac{1}{2}V_0^2} = \frac{3.142 \times 10^6}{2.45 \times 10^7} = 0.1282 $$
+$$
+ \frac{f\,\eta_c\,h_{\mathrm{fuel}}}{\tfrac{1}{2}V_0^2} = \frac{3.142 \times 10^6}{2.45 \times 10^7} = 0.1282 
+\tag{14}
+$$
 
 **The exhaust leaves 143.8 metres per second faster than the air arrived**, on a flight speed of seven
 thousand. That increment is all the engine contributes, and the rest of the table follows from it.
@@ -263,14 +305,23 @@ amount of energy to an enormous flow, and takes its living from the difference.
 The figures above are per unit mass flow of captured air. Converting them into forces requires the capture
 area, and the conversion deserves its own line because the result is startling.
 
-$$ \dot{m}_0 = \rho\,V_0\,A_{\mathrm{capture}} $$
+$$
+ \dot{m}_0 = \rho\,V_0\,A_{\mathrm{capture}} 
+\tag{15}
+$$
 
 At Mach 20 and forty-two kilometres, where the density is 2.878 × 10⁻³ kilograms per cubic metre and the
 flight speed 6,423 metres per second, a ten square metre capture area gives
 
-$$ \dot{m}_0 = 2.878 \times 10^{-3} \times 6423 \times 10 = 184.9\ \mathrm{kg/s} $$
+$$
+ \dot{m}_0 = 2.878 \times 10^{-3} \times 6423 \times 10 = 184.9\ \mathrm{kg/s} 
+\tag{16}
+$$
 
-$$ F_{\mathrm{gross}} = 184.9 \times 6{,}816 = 1{,}260\ \mathrm{kN}, \qquad F_{\mathrm{net}} = 184.9 \times 394 = 72.9\ \mathrm{kN} $$
+$$
+ F_{\mathrm{gross}} = 184.9 \times 6{,}816 = 1{,}260\ \mathrm{kN}, \qquad F_{\mathrm{net}} = 184.9 \times 394 = 72.9\ \mathrm{kN} 
+\tag{17}
+$$
 
 **An engine developing 1,260 kilonewtons of gross thrust pushes the vehicle with 73.** The other 1,187
 kilonewtons are spent getting the air up to the speed it was already travelling at.
@@ -280,7 +331,10 @@ kilonewtons are spent getting the air up to the speed it was already travelling 
 The column headed amplification is the ratio of gross thrust to net thrust. It is also the factor by which a
 relative error in the gross figure appears in the net one.
 
-$$ \frac{\delta F_{\mathrm{net}}}{F_{\mathrm{net}}} = \frac{F_{\mathrm{gross}}}{F_{\mathrm{net}}} \cdot \frac{\delta F_{\mathrm{gross}}}{F_{\mathrm{gross}}} $$
+$$
+ \frac{\delta F_{\mathrm{net}}}{F_{\mathrm{net}}} = \frac{F_{\mathrm{gross}}}{F_{\mathrm{net}}} \cdot \frac{\delta F_{\mathrm{gross}}}{F_{\mathrm{gross}}} 
+\tag{18}
+$$
 
 **At seven thousand metres per second a one percent error in gross thrust is a twenty-one percent error in net thrust.**
 At seven and a half thousand it is nearly twenty-five percent.
@@ -294,7 +348,10 @@ percent, and the ram drag to a similar precision, and there was no way to establ
 The same ratio read the other way is more useful still, because net thrust is what remains after everything
 else has taken its share.
 
-$$ \frac{F_{\mathrm{net}}}{F_{\mathrm{gross}}} = \text{the fraction of gross thrust that everything else may consume} $$
+$$
+ \frac{F_{\mathrm{net}}}{F_{\mathrm{gross}}} = \text{the fraction of gross thrust that everything else may consume} 
+\tag{19}
+$$
 
 Inlet spillage, total-pressure loss through the shock system, incomplete combustion, nozzle underexpansion,
 the drag of the cooling system and the external drag of the vehicle must together fit inside that fraction,
@@ -320,7 +377,10 @@ crossing falls at 16,577 metres per second, a figure easily mistaken for a ceili
 **It is nothing of the kind.** In an ideal engine net thrust never reaches zero at all. For small fuel
 fractions the specific net thrust tends to
 
-$$ F_{\mathrm{net}}/\dot{m}_0 \;\approx\; \frac{f\,\eta_c\,h_{\mathrm{fuel}}}{V_0} $$
+$$
+ F_{\mathrm{net}}/\dot{m}_0 \;\approx\; \frac{f\,\eta_c\,h_{\mathrm{fuel}}}{V_0} 
+\tag{20}
+$$
 
 which shrinks without ever changing sign. The crossing was produced entirely by the assumed nozzle
 efficiency, and it moves as follows.
@@ -338,7 +398,10 @@ efficiency, and it moves as follows.
 The fuel-air ratio is not fixed at stoichiometric, and running rich is the obvious lever. The equivalence
 ratio scales it.
 
-$$ \phi = \frac{f}{f_{\mathrm{stoich}}} $$
+$$
+ \phi = \frac{f}{f_{\mathrm{stoich}}} 
+\tag{21}
+$$
 
 At six and a half thousand metres per second,
 
@@ -371,7 +434,10 @@ Equivalence ratio and the behaviour of a hydrogen flame run rich are covered by 
 A facility that simulates flight must reproduce the total enthalpy of the free stream, because the total enthalpy
 sets the temperature the engine sees and therefore the chemistry inside it.
 
-$$ h_0 = c_p T + \frac{V^2}{2} $$
+$$
+ h_0 = c_p T + \frac{V^2}{2} 
+\tag{22}
+$$
 
 At hypersonic speed the second term swamps the first entirely, so facility capability is quoted as
 an enthalpy rather than as a Mach number.
@@ -399,7 +465,10 @@ the facilities could not produce cleanly enough to validate against.
 
 Temperature is the difficulty a facility is usually judged on. **Pressure grows faster.**
 
-$$ \frac{p_0}{p} = \left(1 + \frac{\gamma - 1}{2}M^2\right)^{\frac{\gamma}{\gamma - 1}} $$
+$$
+ \frac{p_0}{p} = \left(1 + \frac{\gamma - 1}{2}M^2\right)^{\frac{\gamma}{\gamma - 1}} 
+\tag{23}
+$$
 
 | Flight Mach | Total to static pressure ratio |
 |---|---|
@@ -420,13 +489,22 @@ The facilities built to contain these pressures are surveyed in the cluster on i
 Facilities capable of the required enthalpy store energy and release it quickly, and their run
 times are short compared with the time the flow needs to establish itself in an engine duct.
 
-$$ t_{\mathrm{flow}} = \frac{L}{V_{\mathrm{duct}}} = \frac{5\ \mathrm{m}}{2{,}500\ \mathrm{m/s}} = 2.0\ \mathrm{ms} $$
+$$
+ t_{\mathrm{flow}} = \frac{L}{V_{\mathrm{duct}}} = \frac{5\ \mathrm{m}}{2{,}500\ \mathrm{m/s}} = 2.0\ \mathrm{ms} 
+\tag{24}
+$$
 
 The count of flow-through times a run provides is the ratio.
 
-$$ N = \frac{t_{\mathrm{run}}}{t_{\mathrm{flow}}} = \frac{5 \times 10^{-3}}{2.0 \times 10^{-3}} = 2.50 \quad \text{for a reflected shock tunnel} $$
+$$
+ N = \frac{t_{\mathrm{run}}}{t_{\mathrm{flow}}} = \frac{5 \times 10^{-3}}{2.0 \times 10^{-3}} = 2.50 \quad \text{for a reflected shock tunnel} 
+\tag{25}
+$$
 
-$$ N = \frac{2 \times 10^{-4}}{2.0 \times 10^{-3}} = 0.10 \quad \text{for an expansion tube} $$
+$$
+ N = \frac{2 \times 10^{-4}}{2.0 \times 10^{-3}} = 0.10 \quad \text{for an expansion tube} 
+\tag{26}
+$$
 
 Steady flow is not established until several of these have passed, because the starting shock system must
 sweep out of the duct and the boundary layers must grow to their equilibrium thickness. Taking eight
@@ -459,7 +537,10 @@ A ramjet slows the incoming flow to subsonic speed before burning. That conversi
 enthalpy being conserved through the inlet, so whatever kinetic energy is removed reappears as static
 temperature.
 
-$$ T_{\mathrm{entry}} = \frac{T_0}{1 + \frac{\gamma - 1}{2}M_c^2} $$
+$$
+ T_{\mathrm{entry}} = \frac{T_0}{1 + \frac{\gamma - 1}{2}M_c^2} 
+\tag{27}
+$$
 
 For subsonic combustion at $M_c \approx 0.3$ the denominator is barely above one, so the burner inherits
 almost the whole stagnation temperature. Keeping the flow at $M_c \approx 2.5$ divides it by 2.25.
@@ -475,13 +556,22 @@ almost the whole stagnation temperature. Keeping the flow at $M_c \approx 2.5$ d
 
 The total pressure recovery in the last column is the normal shock relation.
 
-$$ \frac{p_{0,2}}{p_{0,1}} = \left[\frac{\left(\gamma + 1\right)M^2}{2 + \left(\gamma - 1\right)M^2}\right]^{\frac{\gamma}{\gamma - 1}}\left[\frac{\gamma + 1}{2\gamma M^2 - \left(\gamma - 1\right)}\right]^{\frac{1}{\gamma - 1}} $$
+$$
+ \frac{p_{0,2}}{p_{0,1}} = \left[\frac{\left(\gamma + 1\right)M^2}{2 + \left(\gamma - 1\right)M^2}\right]^{\frac{\gamma}{\gamma - 1}}\left[\frac{\gamma + 1}{2\gamma M^2 - \left(\gamma - 1\right)}\right]^{\frac{1}{\gamma - 1}} 
+\tag{28}
+$$
 
 Substituting the Mach 8 condition,
 
-$$ T_0 = 223.7\left(1 + 0.2 \times 64\right) = 3{,}086\ \mathrm{K} $$
+$$
+ T_0 = 223.7\left(1 + 0.2 \times 64\right) = 3{,}086\ \mathrm{K} 
+\tag{29}
+$$
 
-$$ T_{\mathrm{entry}}\big|_{M_c = 2.5} = \frac{3086}{1 + 0.2 \times 6.25} = 1{,}372\ \mathrm{K}, \qquad T_{\mathrm{entry}}\big|_{M_c = 0.3} = \frac{3086}{1.018} = 3{,}032\ \mathrm{K} $$
+$$
+ T_{\mathrm{entry}}\big|_{M_c = 2.5} = \frac{3086}{1 + 0.2 \times 6.25} = 1{,}372\ \mathrm{K}, \qquad T_{\mathrm{entry}}\big|_{M_c = 0.3} = \frac{3086}{1.018} = 3{,}032\ \mathrm{K} 
+\tag{30}
+$$
 
 **Combustion products begin to dissociate around three thousand kelvin**, and above it the energy released
 by burning hydrogen goes into breaking molecules apart rather than into raising pressure. Reading down the
@@ -502,7 +592,10 @@ is kept supersonic.
 The [Rayleigh relation][ref_rayleigh] that sets it is displayed here because its behaviour is easy to
 misremember, and it follows [Shapiro][book_shapiro] and [Zucrow and Hoffman][book_zucrow].
 
-$$ \frac{T_{0}^{*}}{T_0} = \frac{\left(1 + \gamma M^2\right)^2}{\left(\gamma + 1\right)M^2\left(2 + \left(\gamma - 1\right)M^2\right)} $$
+$$
+ \frac{T_{0}^{*}}{T_0} = \frac{\left(1 + \gamma M^2\right)^2}{\left(\gamma + 1\right)M^2\left(2 + \left(\gamma - 1\right)M^2\right)} 
+\tag{31}
+$$
 
 **It equals exactly one at Mach one and grows as the flow moves away from sonic in either direction**,
 because a duct further from choking has more room to accept heat. That identity is also a useful check,
@@ -512,9 +605,15 @@ since a slip in the denominator shows at once as a value other than one at Mach 
 
 Residence time in the burner is short but not the binding constraint.
 
-$$ t_{\mathrm{res}} = \frac{L}{M_c\sqrt{\gamma R T}} = \frac{5\ \mathrm{m}}{2.5\sqrt{1.4 \times 287 \times 1500}} = 2.58\ \mathrm{ms} $$
+$$
+ t_{\mathrm{res}} = \frac{L}{M_c\sqrt{\gamma R T}} = \frac{5\ \mathrm{m}}{2.5\sqrt{1.4 \times 287 \times 1500}} = 2.58\ \mathrm{ms} 
+\tag{32}
+$$
 
-$$ N_{\mathrm{ignition}} = \frac{t_{\mathrm{res}}}{t_{\mathrm{ignition}}} $$
+$$
+ N_{\mathrm{ignition}} = \frac{t_{\mathrm{res}}}{t_{\mathrm{ignition}}} 
+\tag{33}
+$$
 
 | Assumed ignition delay | Delays available within the residence time |
 |---|---|
@@ -549,12 +648,18 @@ A fixed-geometry inlet must swallow its starting shock. The largest internal con
 do so is the Kantrowitz limit, being the contraction at which the flow behind a normal shock at the entry
 reaches sonic conditions at the throat.
 
-$$ \left(\frac{A_{\mathrm{entry}}}{A_{\mathrm{throat}}}\right)_{\mathrm{start}} = \frac{1}{M_2}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2}M_2^2\right)\right]^{\frac{\gamma + 1}{2\left(\gamma - 1\right)}} $$
+$$
+ \left(\frac{A_{\mathrm{entry}}}{A_{\mathrm{throat}}}\right)_{\mathrm{start}} = \frac{1}{M_2}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2}M_2^2\right)\right]^{\frac{\gamma + 1}{2\left(\gamma - 1\right)}} 
+\tag{34}
+$$
 
 where $M_2$ is the Mach number behind that shock. Once started, the same duct can hold far more, because the
 flow through it is supersonic and the limit becomes the isentropic area ratio.
 
-$$ \left(\frac{A}{A^{*}}\right)_{\mathrm{run}} = \frac{1}{M}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2}M^2\right)\right]^{\frac{\gamma + 1}{2\left(\gamma - 1\right)}} $$
+$$
+ \left(\frac{A}{A^{*}}\right)_{\mathrm{run}} = \frac{1}{M}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2}M^2\right)\right]^{\frac{\gamma + 1}{2\left(\gamma - 1\right)}} 
+\tag{35}
+$$
 
 | Flight Mach | Mach behind the shock | Contraction that will start | Contraction that will run | Ratio |
 |---|---|---|---|---|
@@ -584,7 +689,10 @@ trade between length, weight and cooling area.
 
 Stagnation-point heat flux on a blunt leading edge follows the Sutton and Graves correlation.
 
-$$ \dot{q}_s = 1.7415 \times 10^{-4}\sqrt{\frac{\rho}{R_n}}\,V^3 $$
+$$
+ \dot{q}_s = 1.7415 \times 10^{-4}\sqrt{\frac{\rho}{R_n}}\,V^3 
+\tag{36}
+$$
 
 The cube on velocity is what makes this brutal. Taking an **assumed** leading-edge radius of five
 centimetres,
@@ -598,15 +706,24 @@ centimetres,
 
 Substituting the Mach 20 condition at forty-two kilometres,
 
-$$ \dot{q}_s = 1.7415 \times 10^{-4}\sqrt{\frac{2.878 \times 10^{-3}}{0.05}}\left(6{,}423\right)^3 = 1.107 \times 10^{7}\ \mathrm{W/m^2} = 1{,}107\ \mathrm{W/cm^2} $$
+$$
+ \dot{q}_s = 1.7415 \times 10^{-4}\sqrt{\frac{2.878 \times 10^{-3}}{0.05}}\left(6{,}423\right)^3 = 1.107 \times 10^{7}\ \mathrm{W/m^2} = 1{,}107\ \mathrm{W/cm^2} 
+\tag{37}
+$$
 
-$$ T_w = \left(\frac{1.107 \times 10^{7}}{0.85 \times 5.670 \times 10^{-8}}\right)^{1/4} = 3{,}893\ \mathrm{K} $$
+$$
+ T_w = \left(\frac{1.107 \times 10^{7}}{0.85 \times 5.670 \times 10^{-8}}\right)^{1/4} = 3{,}893\ \mathrm{K} 
+\tag{38}
+$$
 
 where the radiation equilibrium temperature is the wall temperature at which re-radiation alone balances the
 incoming flux, with an **assumed** emissivity of 0.85. The aerothermodynamic relations here follow
 [Bertin][book_bertin] and [Hirschel][book_hirschel].
 
-$$ \dot{q} = \varepsilon\sigma T_w^4 \quad \Longrightarrow \quad T_w = \left(\frac{\dot{q}}{\varepsilon\sigma}\right)^{1/4} $$
+$$
+ \dot{q} = \varepsilon\sigma T_w^4 \quad \Longrightarrow \quad T_w = \left(\frac{\dot{q}}{\varepsilon\sigma}\right)^{1/4} 
+\tag{39}
+$$
 
 **Nothing structural survives four thousand kelvin.** Carbon-carbon retains its properties to about two
 thousand degrees Celsius, and beyond that only when coated against oxidation
@@ -617,11 +734,17 @@ coolant aboard is the fuel, which the design pumped through the airframe for tha
 
 Each kilogram of hydrogen can absorb a computable amount of heat before it is too hot to burn well.
 
-$$ Q_{\mathrm{sink}} = c_{p,H_2}\,\Delta T = 14{,}300 \times 800 = 11.44\ \mathrm{MJ/kg} $$
+$$
+ Q_{\mathrm{sink}} = c_{p,H_2}\,\Delta T = 14{,}300 \times 800 = 11.44\ \mathrm{MJ/kg} 
+\tag{40}
+$$
 
 The balance is between the heat arriving on the wetted area and the heat the fuel flow can take up.
 
-$$ \frac{\dot{Q}_{\mathrm{capacity}}}{\dot{Q}_{\mathrm{load}}} = \frac{f\,\dot{m}_0\,c_{p,H_2}\,\Delta T}{\kappa\,\dot{q}_s\,A_{\mathrm{wetted}}} $$
+$$
+ \frac{\dot{Q}_{\mathrm{capacity}}}{\dot{Q}_{\mathrm{load}}} = \frac{f\,\dot{m}_0\,c_{p,H_2}\,\Delta T}{\kappa\,\dot{q}_s\,A_{\mathrm{wetted}}} 
+\tag{41}
+$$
 
 where $\kappa$ is the ratio of average surface flux to the stagnation-point value.
 
@@ -677,9 +800,15 @@ metre for slush of one half solid fraction by mass
 \[[Weitzel et al, Hydrogen Slush Density Reference System][ref_weitzel_slush]\], against 70.85 kilograms per cubic
 metre for the liquid at its normal boiling point \[[Liquid hydrogen][ref_lh2]\].
 
-$$ \frac{\rho_{\mathrm{slush}}}{\rho_{\mathrm{liquid}}} - 1 = \frac{81.53}{70.85} - 1 = 15.1\ \mathrm{percent} $$
+$$
+ \frac{\rho_{\mathrm{slush}}}{\rho_{\mathrm{liquid}}} - 1 = \frac{81.53}{70.85} - 1 = 15.1\ \mathrm{percent} 
+\tag{42}
+$$
 
-$$ \frac{\mathcal{V}_{\mathrm{slush}}}{\mathcal{V}_{\mathrm{liquid}}} = \frac{70.85}{81.53} = 0.869 $$
+$$
+ \frac{\mathcal{V}_{\mathrm{slush}}}{\mathcal{V}_{\mathrm{liquid}}} = \frac{70.85}{81.53} = 0.869 
+\tag{43}
+$$
 
 The gain depends on the solid fraction. Batches produced for the programme at 53 to 63 percent solid measured 5.12
 to 5.18 pounds per cubic foot \[[Hardy and Whalen 1992][research_hardy_whalen_1992]\], or 82.0 to 83.0 kilograms
@@ -702,9 +831,15 @@ The usual objection to single stage to orbit is the mass fraction, and the rocke
 [Sutton][book_sutton]. Taking an all-rocket single stage with a specific impulse of 450 seconds and a
 velocity budget of about 9,300 metres per second including losses,
 
-$$ \frac{m_0}{m_f} = \exp\left(\frac{\Delta V}{g_0 I_{sp}}\right), \qquad \text{propellant fraction} = 1 - \frac{m_f}{m_0} $$
+$$
+ \frac{m_0}{m_f} = \exp\left(\frac{\Delta V}{g_0 I_{sp}}\right), \qquad \text{propellant fraction} = 1 - \frac{m_f}{m_0} 
+\tag{44}
+$$
 
-$$ \text{propellant fraction} = 87.81\ \mathrm{percent}, \qquad \text{dry fraction} = 12.19\ \mathrm{percent} $$
+$$
+ \text{propellant fraction} = 87.81\ \mathrm{percent}, \qquad \text{dry fraction} = 12.19\ \mathrm{percent} 
+\tag{45}
+$$
 
 **Twelve percent for structure, engines, tanks, thermal protection, systems and payload together** is why
 rocket-powered single stage to orbit is so unforgiving.
@@ -712,7 +847,10 @@ rocket-powered single stage to orbit is so unforgiving.
 The air-breather's case must be made with the specific impulse allowed to decay, because that decay is this
 article's central finding and assuming it away would beg the question. Integrating instead,
 
-$$ \ln\frac{m_0}{m_f} = \int_{V_1}^{V_2}\frac{dV}{g_0\,I_{sp}(V)} + \frac{V_{\mathrm{orbit}} - V_2}{g_0\,I_{sp,\mathrm{rocket}}} $$
+$$
+ \ln\frac{m_0}{m_f} = \int_{V_1}^{V_2}\frac{dV}{g_0\,I_{sp}(V)} + \frac{V_{\mathrm{orbit}} - V_2}{g_0\,I_{sp,\mathrm{rocket}}} 
+\tag{46}
+$$
 
 with $I_{sp}(V)$ taken from the same energy balance as the thrust model, air-breathing from 900 metres per
 second to a transition speed and then rocketing to orbital velocity.
@@ -727,9 +865,15 @@ second to a transition speed and then rocketing to orbital velocity.
 
 Taking the six thousand metre per second row and showing the integration,
 
-$$ \ln\frac{m_0}{m_f} = 0.60594 \quad \Longrightarrow \quad \frac{m_0}{m_f} = 1.8330 $$
+$$
+ \ln\frac{m_0}{m_f} = 0.60594 \quad \Longrightarrow \quad \frac{m_0}{m_f} = 1.8330 
+\tag{47}
+$$
 
-$$ \text{propellant fraction} = 1 - \frac{1}{1.8330} = 45.44\ \mathrm{percent} $$
+$$
+ \text{propellant fraction} = 1 - \frac{1}{1.8330} = 45.44\ \mathrm{percent} 
+\tag{48}
+$$
 
 ### A Bound That Owes Nothing to Any Engine
 
@@ -738,13 +882,19 @@ $$ \text{propellant fraction} = 1 - \frac{1}{1.8330} = 45.44\ \mathrm{percent} $
 Reaching orbit requires a definite energy per unit mass of vehicle, being the kinetic energy of orbital
 velocity plus the potential energy of the altitude.
 
-$$ e_{\mathrm{orbit}} = \frac{V_{\mathrm{orbit}}^2}{2} + \mu\left(\frac{1}{R_\oplus} - \frac{1}{R_\oplus + h}\right) = 30.33 + 1.90 = 32.24\ \mathrm{MJ/kg} $$
+$$
+ e_{\mathrm{orbit}} = \frac{V_{\mathrm{orbit}}^2}{2} + \mu\left(\frac{1}{R_\oplus} - \frac{1}{R_\oplus + h}\right) = 30.33 + 1.90 = 32.24\ \mathrm{MJ/kg} 
+\tag{49}
+$$
 
 Hydrogen carries 119.96 megajoules per kilogram \[[Heat of combustion][ref_heat_combustion]\].
 **If every joule went into the vehicle and none into the exhaust, the atmosphere or the structure**, the
 fuel fraction could not fall below
 
-$$ \left(\frac{m_{\mathrm{fuel}}}{m_0}\right)_{\min} = \frac{32.24}{119.96} = 26.9\ \mathrm{percent} $$
+$$
+ \left(\frac{m_{\mathrm{fuel}}}{m_0}\right)_{\min} = \frac{32.24}{119.96} = 26.9\ \mathrm{percent} 
+\tag{50}
+$$
 
 **The integrated ascent gives 45.44 percent, which is 1.69 times the bound.** A perfect engine could do no
 better than a factor of 1.69 improvement on the answer above, and
@@ -778,7 +928,10 @@ Work on single-stage and staged vehicles to orbit appears in the cluster on sing
 An air-breather must fly where there is enough air to breathe and not so much that it burns. That confines
 it to a narrow band of dynamic pressure, and therefore to a specific altitude at each speed.
 
-$$ q = \tfrac{1}{2}\rho V^2 $$
+$$
+ q = \tfrac{1}{2}\rho V^2 
+\tag{51}
+$$
 
 | Flight Mach | Altitude at 47.9 kPa | Altitude at 95.8 kPa |
 |---|---|---|
@@ -790,7 +943,10 @@ $$ q = \tfrac{1}{2}\rho V^2 $$
 
 Working the Mach 25 case,
 
-$$ q = \tfrac{1}{2}\left(1.409 \times 10^{-3}\right)\left(8{,}245\right)^2 = 47{,}880\ \mathrm{Pa} \quad \text{at}\ 47.11\ \mathrm{km} $$
+$$
+ q = \tfrac{1}{2}\left(1.409 \times 10^{-3}\right)\left(8{,}245\right)^2 = 47{,}880\ \mathrm{Pa} \quad \text{at}\ 47.11\ \mathrm{km} 
+\tag{52}
+$$
 
 **The corridor is a line, not a region.** The vehicle must climb along it as it accelerates, and the heat
 load, the structural load and the engine's operating point are all set by where on that line it sits.
@@ -798,7 +954,10 @@ load, the structural load and the engine's operating point are all set by where 
 What it does along that line is set by the acceleration equation, in which the net thrust this article has
 computed appears once and is then reduced again by the vehicle's own drag.
 
-$$ m\frac{dV}{dt} = F_{\mathrm{net}} - D - m g \sin\gamma, \qquad D = q\,S_{\mathrm{ref}}\,C_D $$
+$$
+ m\frac{dV}{dt} = F_{\mathrm{net}} - D - m g \sin\gamma, \qquad D = q\,S_{\mathrm{ref}}\,C_D 
+\tag{53}
+$$
 
 **Every term on the right is smaller than the gross thrust, and the first of them is the smallest.** A
 trajectory that strays high loses the air it needs, and one that strays low melts.
@@ -814,7 +973,10 @@ The Reynolds number that sets where transition occurs is modest, which is part o
 since these flows sit in the range where transition is most sensitive rather than safely laminar or safely
 turbulent.
 
-$$ \frac{Re}{L} = \frac{\rho V}{\mu}, \qquad \mu = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} $$
+$$
+ \frac{Re}{L} = \frac{\rho V}{\mu}, \qquad \mu = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} 
+\tag{54}
+$$
 
 | Condition | Unit Reynolds number |
 |---|---|
@@ -1541,6 +1703,496 @@ The X-27 was not built because nobody bought it.
 The next article treats the [X-31][ref_x31], the Rockwell and Messerschmitt-Bolkow-Blohm post-stall
 manoeuvrability demonstrator, which was built, flew, and answered its question in the most direct way
 available.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 54 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 54, 25 are established and 29 are bespoke.
+Every equation uses the units of the International System, with specific thrust in metres per second, specific impulse in seconds and enthalpy per kilogram, and several letters are reused, so $\mu$ is the gravitational parameter of the Earth in the orbital relations and the dynamic viscosity in the Reynolds number, $\gamma$ is the ratio of specific heats except in the acceleration equation, where it is the flight path angle, and $h$ is an altitude while $h_0$ and $h_{\mathrm{fuel}}$ are enthalpies.
+
+*Equation 1, Bespoke Circular Orbital Velocity at Two Hundred Kilometres.*
+The circular orbital velocity is evaluated at an altitude of two hundred kilometres, a reference orbit the article takes as the target for every later result.
+
+$$
+ V_{\mathrm{orbit}} = \sqrt{\frac{\mu}{R_\oplus + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.371 \times 10^6 + 2 \times 10^5}} = 7{,}789\ \mathrm{m/s} 
+\tag{1}
+$$
+
+**Equation 2, Speed of Sound and Mach Number.**
+The speed of sound in an ideal gas depends only on temperature, and the Mach number is the flight speed divided by it.
+
+$$
+ a = \sqrt{\gamma R T}, \qquad M = \frac{V}{a} 
+\tag{2}
+$$
+
+**Equation 3, Speed of Sound at Forty-Eight Kilometres.**
+At the standard atmosphere temperature of 270.65 kelvin at forty-eight kilometres the speed of sound is about 330 metres per second.
+
+$$
+ a = \sqrt{1.4 \times 287.05 \times 270.65} = 329.8\ \mathrm{m/s} 
+\tag{3}
+$$
+
+*Equation 4, Bespoke Mach Number of Orbital Velocity at Forty-Eight Kilometres.*
+Dividing the two-hundred-kilometre orbital velocity by the speed of sound at forty-eight kilometres gives Mach 23.6, below the headline Mach 25.
+
+$$
+ M_{\mathrm{orbit}} = \frac{7{,}789}{329.8} = 23.62 
+\tag{4}
+$$
+
+**Equation 5, Gross Thrust and Ram Drag of an Air-Breathing Stream Tube.**
+Momentum conservation gives the gross thrust from the exit mass flow and velocity and the ram drag from the captured air mass flow and flight speed.
+[Heiser and Pratt][book_heiser_pratt]
+[Hill and Peterson][book_hill_peterson]
+
+$$
+ F_{\mathrm{gross}} = \dot{m}_0\left(1 + f\right)V_e, \qquad D_{\mathrm{ram}} = \dot{m}_0 V_0 
+\tag{5}
+$$
+
+**Equation 6, Net Thrust of an Air-Breathing Engine.**
+Net thrust is gross thrust less ram drag, the small difference between two large momentum fluxes.
+[Hill and Peterson][book_hill_peterson]
+
+$$
+ F_{\mathrm{net}} = \dot{m}_0\left[\left(1 + f\right)V_e - V_0\right] 
+\tag{6}
+$$
+
+*Equation 7, Bespoke Engine Energy Balance With Nozzle and Combustion Efficiencies.*
+The article models the engine as an energy balance in which the incoming kinetic energy and the fuel heat release, the latter scaled by a combustion efficiency, are expanded through a nozzle with a single overall efficiency.
+
+$$
+ \left(1 + f\right)\frac{V_e^2}{2} = \eta_n\left[\frac{V_0^2}{2} + f\,\eta_c\,h_{\mathrm{fuel}}\right] 
+\tag{7}
+$$
+
+*Equation 8, Bespoke Exit Velocity From the Energy Balance.*
+Solving the article's efficiency-scaled energy balance for the exit velocity shows the fixed fuel contribution shrinking against a kinetic term that grows with the square of flight speed.
+
+$$
+ V_e = \sqrt{\frac{2\eta_n\left(\tfrac{1}{2}V_0^2 + f\,\eta_c\,h_{\mathrm{fuel}}\right)}{1 + f}} 
+\tag{8}
+$$
+
+**Equation 9, Specific Impulse of an Air-Breathing Engine.**
+The specific impulse of an air-breather is net thrust per unit weight flow of fuel alone, because the oxidiser is taken from the air.
+
+$$
+ I_{sp} = \frac{F_{\mathrm{net}}}{\dot{m}_{\mathrm{fuel}}\,g_0} = \frac{F_{\mathrm{net}}/\dot{m}_0}{f\,g_0} 
+\tag{9}
+$$
+
+*Equation 10, Bespoke Exit Velocity at Seven Kilometres per Second.*
+The exit velocity is evaluated at seven thousand metres per second with an assumed nozzle efficiency of 0.95, an assumed combustion efficiency of 0.90 and the stoichiometric hydrogen fuel-air ratio.
+
+$$
+ V_e = \sqrt{\frac{2 \times 0.95\left(\tfrac{1}{2}\left(7000\right)^2 + 0.0291 \times 0.90 \times 119.96 \times 10^6\right)}{1.0291}} = 7{,}143.8\ \mathrm{m/s} 
+\tag{10}
+$$
+
+*Equation 11, Bespoke Specific Gross Thrust at Seven Kilometres per Second.*
+The specific gross thrust is the exit mass flow ratio times the exit velocity obtained with the assumed efficiencies.
+
+$$
+ \frac{F_{\mathrm{gross}}}{\dot{m}_0} = 1.0291 \times 7143.8 = 7{,}351.7\ \mathrm{m/s} 
+\tag{11}
+$$
+
+*Equation 12, Bespoke Specific Net Thrust at Seven Kilometres per Second.*
+Subtracting the flight speed leaves a specific net thrust of about 352 metres per second, a figure inherited from the assumed efficiencies.
+
+$$
+ \frac{F_{\mathrm{net}}}{\dot{m}_0} = 7351.7 - 7000 = 351.7\ \mathrm{m/s} 
+\tag{12}
+$$
+
+*Equation 13, Bespoke Specific Impulse at Seven Kilometres per Second.*
+Dividing the specific net thrust by the fuel-air ratio and standard gravity gives a specific impulse of about 1,233 seconds under the assumed efficiencies.
+
+$$
+ I_{sp} = \frac{351.7}{0.0291 \times 9.80665} = 1{,}232.5\ \mathrm{s} 
+\tag{13}
+$$
+
+*Equation 14, Bespoke Ratio of Fuel Energy to Stream Kinetic Energy.*
+The heat the fuel adds, scaled by the assumed combustion efficiency of 0.90, is only about an eighth of the kinetic energy the stream already carries at seven thousand metres per second.
+
+$$
+ \frac{f\,\eta_c\,h_{\mathrm{fuel}}}{\tfrac{1}{2}V_0^2} = \frac{3.142 \times 10^6}{2.45 \times 10^7} = 0.1282 
+\tag{14}
+$$
+
+**Equation 15, Captured Air Mass Flow.**
+The captured mass flow is the density times the flight speed times the capture area.
+
+$$
+ \dot{m}_0 = \rho\,V_0\,A_{\mathrm{capture}} 
+\tag{15}
+$$
+
+*Equation 16, Bespoke Captured Mass Flow at Mach 20.*
+The captured mass flow at Mach 20 and forty-two kilometres is evaluated for a capture area of ten square metres that the article assumes.
+
+$$
+ \dot{m}_0 = 2.878 \times 10^{-3} \times 6423 \times 10 = 184.9\ \mathrm{kg/s} 
+\tag{16}
+$$
+
+*Equation 17, Bespoke Gross and Net Thrust at Mach 20.*
+The assumed capture area and the specific thrusts from the efficiency model give 1,260 kilonewtons gross against 73 kilonewtons net.
+
+$$
+ F_{\mathrm{gross}} = 184.9 \times 6{,}816 = 1{,}260\ \mathrm{kN}, \qquad F_{\mathrm{net}} = 184.9 \times 394 = 72.9\ \mathrm{kN} 
+\tag{17}
+$$
+
+**Equation 18, Amplification of a Gross Thrust Error in Net Thrust.**
+Because ram drag is known, a relative error in gross thrust appears in net thrust multiplied by the ratio of gross to net thrust.
+
+$$
+ \frac{\delta F_{\mathrm{net}}}{F_{\mathrm{net}}} = \frac{F_{\mathrm{gross}}}{F_{\mathrm{net}}} \cdot \frac{\delta F_{\mathrm{gross}}}{F_{\mathrm{gross}}} 
+\tag{18}
+$$
+
+*Equation 19, Bespoke Loss Budget.*
+The article defines the loss budget as the ratio of net to gross thrust, the fraction of gross thrust that every unmodelled loss together may consume before acceleration ceases.
+
+$$
+ \frac{F_{\mathrm{net}}}{F_{\mathrm{gross}}} = \text{the fraction of gross thrust that everything else may consume} 
+\tag{19}
+$$
+
+**Equation 20, High-Speed Limit of Specific Net Thrust.**
+For a small fuel fraction and an ideal nozzle the specific net thrust tends to the fuel heat release divided by the flight speed, which shrinks without changing sign.
+
+$$
+ F_{\mathrm{net}}/\dot{m}_0 \;\approx\; \frac{f\,\eta_c\,h_{\mathrm{fuel}}}{V_0} 
+\tag{20}
+$$
+
+**Equation 21, Equivalence Ratio.**
+The equivalence ratio is the fuel-air ratio divided by its stoichiometric value.
+
+$$
+ \phi = \frac{f}{f_{\mathrm{stoich}}} 
+\tag{21}
+$$
+
+**Equation 22, Total Enthalpy of the Free Stream.**
+The total enthalpy is the static enthalpy plus the kinetic energy per unit mass, the quantity a facility must reproduce.
+
+$$
+ h_0 = c_p T + \frac{V^2}{2} 
+\tag{22}
+$$
+
+**Equation 23, Isentropic Total-to-Static Pressure Ratio.**
+The isentropic relation for a calorically perfect gas gives the total-to-static pressure ratio as a power of one plus a Mach-squared term.
+
+$$
+ \frac{p_0}{p} = \left(1 + \frac{\gamma - 1}{2}M^2\right)^{\frac{\gamma}{\gamma - 1}} 
+\tag{23}
+$$
+
+*Equation 24, Bespoke Flow-Through Time of an Engine Duct.*
+The flow-through time is evaluated for a five-metre duct and a duct speed of 2,500 metres per second, both values the article takes as representative.
+
+$$
+ t_{\mathrm{flow}} = \frac{L}{V_{\mathrm{duct}}} = \frac{5\ \mathrm{m}}{2{,}500\ \mathrm{m/s}} = 2.0\ \mathrm{ms} 
+\tag{24}
+$$
+
+*Equation 25, Bespoke Flow-Through Times in a Reflected Shock Tunnel.*
+A run time of five milliseconds, taken as representative of a reflected shock tunnel, provides two and a half flow-through times of the representative duct.
+
+$$
+ N = \frac{t_{\mathrm{run}}}{t_{\mathrm{flow}}} = \frac{5 \times 10^{-3}}{2.0 \times 10^{-3}} = 2.50 \quad \text{for a reflected shock tunnel} 
+\tag{25}
+$$
+
+*Equation 26, Bespoke Flow-Through Times in an Expansion Tube.*
+A run time of two hundred microseconds, taken as representative of an expansion tube, provides a tenth of one flow-through time of the representative duct.
+
+$$
+ N = \frac{2 \times 10^{-4}}{2.0 \times 10^{-3}} = 0.10 \quad \text{for an expansion tube} 
+\tag{26}
+$$
+
+**Equation 27, Static Temperature at Burner Entry.**
+With total enthalpy conserved through the inlet, the burner entry temperature is the stagnation temperature divided by one plus the Mach-squared term at the combustor Mach number.
+
+$$
+ T_{\mathrm{entry}} = \frac{T_0}{1 + \frac{\gamma - 1}{2}M_c^2} 
+\tag{27}
+$$
+
+**Equation 28, Normal Shock Total Pressure Recovery.**
+The normal shock relation gives the ratio of total pressure behind the shock to that ahead of it as a function of the upstream Mach number.
+
+$$
+ \frac{p_{0,2}}{p_{0,1}} = \left[\frac{\left(\gamma + 1\right)M^2}{2 + \left(\gamma - 1\right)M^2}\right]^{\frac{\gamma}{\gamma - 1}}\left[\frac{\gamma + 1}{2\gamma M^2 - \left(\gamma - 1\right)}\right]^{\frac{1}{\gamma - 1}} 
+\tag{28}
+$$
+
+**Equation 29, Stagnation Temperature at Mach 8.**
+At the standard atmosphere temperature of 223.7 kelvin at twenty-seven kilometres, Mach 8 flight gives an ideal stagnation temperature of 3,086 kelvin.
+
+$$
+ T_0 = 223.7\left(1 + 0.2 \times 64\right) = 3{,}086\ \mathrm{K} 
+\tag{29}
+$$
+
+*Equation 30, Bespoke Burner Entry Temperatures at Mach 8.*
+The burner entry temperature at Mach 8 is evaluated at combustor Mach numbers of 2.5 and 0.3, values the article takes as representative of supersonic and subsonic combustion.
+
+$$
+ T_{\mathrm{entry}}\big|_{M_c = 2.5} = \frac{3086}{1 + 0.2 \times 6.25} = 1{,}372\ \mathrm{K}, \qquad T_{\mathrm{entry}}\big|_{M_c = 0.3} = \frac{3086}{1.018} = 3{,}032\ \mathrm{K} 
+\tag{30}
+$$
+
+**Equation 31, Rayleigh Flow Stagnation Temperature Ratio.**
+The Rayleigh relation gives the ratio of the choking stagnation temperature to the local value, which is one at Mach one and grows away from sonic.
+[Rayleigh relation][ref_rayleigh]
+[Shapiro][book_shapiro]
+[Zucrow and Hoffman][book_zucrow]
+
+$$
+ \frac{T_{0}^{*}}{T_0} = \frac{\left(1 + \gamma M^2\right)^2}{\left(\gamma + 1\right)M^2\left(2 + \left(\gamma - 1\right)M^2\right)} 
+\tag{31}
+$$
+
+*Equation 32, Bespoke Burner Residence Time.*
+The residence time is evaluated for a five-metre burner at a combustor Mach number of 2.5 and a static temperature of 1,500 kelvin, values the article assumes.
+
+$$
+ t_{\mathrm{res}} = \frac{L}{M_c\sqrt{\gamma R T}} = \frac{5\ \mathrm{m}}{2.5\sqrt{1.4 \times 287 \times 1500}} = 2.58\ \mathrm{ms} 
+\tag{32}
+$$
+
+*Equation 33, Bespoke Number of Ignition Delays Within the Residence Time.*
+The article counts how many ignition delays fit within the residence time, a ratio it sweeps over assumed delays of ten to one hundred microseconds.
+
+$$
+ N_{\mathrm{ignition}} = \frac{t_{\mathrm{res}}}{t_{\mathrm{ignition}}} 
+\tag{33}
+$$
+
+**Equation 34, Kantrowitz Starting Contraction Limit.**
+The largest internal contraction a fixed inlet can start is the isentropic area ratio evaluated at the Mach number behind a normal shock at the entry.
+
+$$
+ \left(\frac{A_{\mathrm{entry}}}{A_{\mathrm{throat}}}\right)_{\mathrm{start}} = \frac{1}{M_2}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2}M_2^2\right)\right]^{\frac{\gamma + 1}{2\left(\gamma - 1\right)}} 
+\tag{34}
+$$
+
+**Equation 35, Isentropic Area Ratio for a Started Inlet.**
+Once started, the inlet can hold any contraction up to the isentropic area ratio at the flight Mach number.
+
+$$
+ \left(\frac{A}{A^{*}}\right)_{\mathrm{run}} = \frac{1}{M}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2}M^2\right)\right]^{\frac{\gamma + 1}{2\left(\gamma - 1\right)}} 
+\tag{35}
+$$
+
+**Equation 36, Sutton-Graves Stagnation-Point Heat Flux.**
+The Sutton and Graves correlation gives the stagnation-point heat flux as proportional to the square root of density over nose radius and the cube of velocity.
+
+$$
+ \dot{q}_s = 1.7415 \times 10^{-4}\sqrt{\frac{\rho}{R_n}}\,V^3 
+\tag{36}
+$$
+
+*Equation 37, Bespoke Stagnation Heat Flux at Mach 20.*
+The Sutton-Graves correlation is evaluated at Mach 20 and forty-two kilometres with a leading-edge radius of five centimetres that the article assumes.
+
+$$
+ \dot{q}_s = 1.7415 \times 10^{-4}\sqrt{\frac{2.878 \times 10^{-3}}{0.05}}\left(6{,}423\right)^3 = 1.107 \times 10^{7}\ \mathrm{W/m^2} = 1{,}107\ \mathrm{W/cm^2} 
+\tag{37}
+$$
+
+*Equation 38, Bespoke Radiation Equilibrium Temperature at Mach 20.*
+The radiation equilibrium wall temperature of about 3,900 kelvin follows from the assumed-radius heat flux and an emissivity of 0.85 that the article assumes.
+[Bertin][book_bertin]
+[Hirschel][book_hirschel]
+
+$$
+ T_w = \left(\frac{1.107 \times 10^{7}}{0.85 \times 5.670 \times 10^{-8}}\right)^{1/4} = 3{,}893\ \mathrm{K} 
+\tag{38}
+$$
+
+**Equation 39, Radiation Equilibrium Wall Temperature.**
+Equating the incoming heat flux to the grey-body re-radiation gives the wall temperature as the fourth root of flux over emissivity times the Stefan-Boltzmann constant.
+[Bertin][book_bertin]
+[Hirschel][book_hirschel]
+
+$$
+ \dot{q} = \varepsilon\sigma T_w^4 \quad \Longrightarrow \quad T_w = \left(\frac{\dot{q}}{\varepsilon\sigma}\right)^{1/4} 
+\tag{39}
+$$
+
+*Equation 40, Bespoke Heat Sink Capacity of Hydrogen.*
+The heat each kilogram of hydrogen can absorb is its specific heat times a temperature rise of eight hundred kelvin that the article assumes as the limit before the fuel is too hot to burn well.
+
+$$
+ Q_{\mathrm{sink}} = c_{p,H_2}\,\Delta T = 14{,}300 \times 800 = 11.44\ \mathrm{MJ/kg} 
+\tag{40}
+$$
+
+*Equation 41, Bespoke Ratio of Fuel Cooling Capacity to Heat Load.*
+The article compares the heat the fuel flow can absorb with the load on the wetted area, writing the average surface flux as an assumed fraction $\kappa$ of the stagnation value.
+
+$$
+ \frac{\dot{Q}_{\mathrm{capacity}}}{\dot{Q}_{\mathrm{load}}} = \frac{f\,\dot{m}_0\,c_{p,H_2}\,\Delta T}{\kappa\,\dot{q}_s\,A_{\mathrm{wetted}}} 
+\tag{41}
+$$
+
+**Equation 42, Density Gain of Slush Over Liquid Hydrogen.**
+The National Bureau of Standards density for half-solid slush exceeds that of normal boiling point liquid by about fifteen percent.
+[Weitzel et al, Hydrogen Slush Density Reference System][ref_weitzel_slush]
+[Liquid hydrogen][ref_lh2]
+
+$$
+ \frac{\rho_{\mathrm{slush}}}{\rho_{\mathrm{liquid}}} - 1 = \frac{81.53}{70.85} - 1 = 15.1\ \mathrm{percent} 
+\tag{42}
+$$
+
+**Equation 43, Tank Volume Ratio of Slush to Liquid Hydrogen.**
+The volume needed for a given mass of slush is the inverse density ratio, about 0.87 of the liquid volume.
+[Weitzel et al, Hydrogen Slush Density Reference System][ref_weitzel_slush]
+[Liquid hydrogen][ref_lh2]
+
+$$
+ \frac{\mathcal{V}_{\mathrm{slush}}}{\mathcal{V}_{\mathrm{liquid}}} = \frac{70.85}{81.53} = 0.869 
+\tag{43}
+$$
+
+**Equation 44, Tsiolkovsky Rocket Equation and Propellant Fraction.**
+The ratio of initial to final mass grows exponentially with the velocity increment over the effective exhaust velocity, and the propellant fraction is one minus its reciprocal.
+[Sutton][book_sutton]
+
+$$
+ \frac{m_0}{m_f} = \exp\left(\frac{\Delta V}{g_0 I_{sp}}\right), \qquad \text{propellant fraction} = 1 - \frac{m_f}{m_0} 
+\tag{44}
+$$
+
+*Equation 45, Bespoke Propellant Fraction of an All-Rocket Single Stage.*
+The rocket equation is evaluated with a specific impulse of 450 seconds and a velocity budget of about 9,300 metres per second including losses, both values the article takes as representative.
+[Sutton][book_sutton]
+
+$$
+ \text{propellant fraction} = 87.81\ \mathrm{percent}, \qquad \text{dry fraction} = 12.19\ \mathrm{percent} 
+\tag{45}
+$$
+
+*Equation 46, Bespoke Mass Ratio of an Air-Breathing Then Rocket Ascent.*
+The mass ratio integrates the reciprocal of a specific impulse that decays with speed according to the article's own engine model up to a transition speed, followed by a rocket burn to orbit.
+
+$$
+ \ln\frac{m_0}{m_f} = \int_{V_1}^{V_2}\frac{dV}{g_0\,I_{sp}(V)} + \frac{V_{\mathrm{orbit}} - V_2}{g_0\,I_{sp,\mathrm{rocket}}} 
+\tag{46}
+$$
+
+*Equation 47, Bespoke Integrated Mass Ratio at a Six Kilometre per Second Transition.*
+Evaluating the integrated ascent with transition to rocket power at six thousand metres per second gives a mass ratio of 1.833.
+
+$$
+ \ln\frac{m_0}{m_f} = 0.60594 \quad \Longrightarrow \quad \frac{m_0}{m_f} = 1.8330 
+\tag{47}
+$$
+
+*Equation 48, Bespoke Propellant Fraction at a Six Kilometre per Second Transition.*
+The propellant fraction of the integrated ascent is one minus the reciprocal of that mass ratio, about forty-five percent.
+
+$$
+ \text{propellant fraction} = 1 - \frac{1}{1.8330} = 45.44\ \mathrm{percent} 
+\tag{48}
+$$
+
+*Equation 49, Bespoke Specific Orbital Energy at Two Hundred Kilometres.*
+The energy per kilogram to reach orbit is the kinetic energy of orbital velocity plus the potential energy of the climb, evaluated for the two-hundred-kilometre reference orbit the article takes.
+
+$$
+ e_{\mathrm{orbit}} = \frac{V_{\mathrm{orbit}}^2}{2} + \mu\left(\frac{1}{R_\oplus} - \frac{1}{R_\oplus + h}\right) = 30.33 + 1.90 = 32.24\ \mathrm{MJ/kg} 
+\tag{49}
+$$
+
+*Equation 50, Bespoke Thermodynamic Lower Bound on the Fuel Fraction.*
+The article bounds the fuel fraction from below by assuming every joule of hydrogen heat release reaches the vehicle, dividing the orbital energy by the heat of combustion.
+[Heat of combustion][ref_heat_combustion]
+
+$$
+ \left(\frac{m_{\mathrm{fuel}}}{m_0}\right)_{\min} = \frac{32.24}{119.96} = 26.9\ \mathrm{percent} 
+\tag{50}
+$$
+
+**Equation 51, Dynamic Pressure.**
+The dynamic pressure is half the density times the speed squared.
+
+$$
+ q = \tfrac{1}{2}\rho V^2 
+\tag{51}
+$$
+
+*Equation 52, Bespoke Corridor Altitude at Mach 25.*
+The altitude at which Mach 25 flight meets the corridor bound of 47.9 kilopascals, a conventional limit the article adopts, is found from standard atmosphere density.
+
+$$
+ q = \tfrac{1}{2}\left(1.409 \times 10^{-3}\right)\left(8{,}245\right)^2 = 47{,}880\ \mathrm{Pa} \quad \text{at}\ 47.11\ \mathrm{km} 
+\tag{52}
+$$
+
+**Equation 53, Point-Mass Acceleration Along the Flight Path.**
+The vehicle accelerates by net thrust less drag less the weight component along a flight path inclined at $\gamma$, with drag from dynamic pressure, reference area and drag coefficient.
+
+$$
+ m\frac{dV}{dt} = F_{\mathrm{net}} - D - m g \sin\gamma, \qquad D = q\,S_{\mathrm{ref}}\,C_D 
+\tag{53}
+$$
+
+**Equation 54, Unit Reynolds Number With Sutherland Viscosity.**
+The unit Reynolds number is density times speed over dynamic viscosity, with the viscosity given by Sutherland's law for air.
+
+$$
+ \frac{Re}{L} = \frac{\rho V}{\mu}, \qquad \mu = \frac{1.458 \times 10^{-6}\,T^{3/2}}{T + 110.4} 
+\tag{54}
+$$
+
+### Notation
+
+- $V_{\mathrm{orbit}}$, the circular orbital velocity
+- $\mu$, the gravitational parameter of the Earth, except in the Reynolds number, where it is the dynamic viscosity
+- $R_\oplus$, the mean radius of the Earth
+- $\gamma$, the ratio of specific heats, taken as 1.4 for air, and in the acceleration equation the flight path angle
+- $M$, the Mach number, with $M_c$ the combustor Mach number and $M_2$ the Mach number behind a normal shock
+- $V_0$, the flight speed, equal to the speed of the captured air
+- $V_e$, the engine exit velocity
+- $f$, the fuel-air ratio by mass
+- $\dot{m}_0$, the captured air mass flow
+- $\eta_n$, the nozzle efficiency, with $\eta_c$ the combustion efficiency
+- $h_{\mathrm{fuel}}$, the heat of combustion of the fuel per unit mass
+- $F_{\mathrm{net}}$, the net thrust, with $F_{\mathrm{gross}}$ the gross thrust
+- $I_{sp}$, the specific impulse in seconds
+- $g_0$, standard gravity
+- $\phi$, the equivalence ratio
+- $h_0$, the total enthalpy
+- $T_0$, the stagnation temperature
+- $p_0$, the total pressure
+- $\dot{q}_s$, the stagnation-point heat flux
+- $R_n$, the leading-edge radius
+- $T_w$, the radiation equilibrium wall temperature
+- $\varepsilon$, the surface emissivity
+- $\sigma$, the Stefan-Boltzmann constant
+- $\kappa$, the ratio of average surface heat flux to the stagnation-point value
+- $m_0$, the initial mass, with $m_f$ the final mass
+- $q$, the dynamic pressure
+- $Re$, the Reynolds number
 
 ## References
 

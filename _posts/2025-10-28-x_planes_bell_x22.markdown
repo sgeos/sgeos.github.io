@@ -45,11 +45,17 @@ Four ducts of 7 feet diameter, each containing a three-bladed propeller. The rea
 
 Four General Electric YT58-GE-8D turboshaft engines of 1,250 shaft horsepower each drive all four propellers through a cross-shafted transmission, so that any engine can drive any duct, as both the [Vertical Flight Society][ref_vertipedia_x22] and [NASA TM-81156][ref_nasa_tm81156] describe. The 1,250 horsepower is also the design power per duct at which [Gamse and Mort 1967][research_gamse_mort_1967] evaluated the duct's thrust.
 
-$$A_{d} = \frac{\pi D^{2}}{4} = \frac{\pi \times 7^{2}}{4} = 38.48\ \text{ft}^{2}$$
+$$
+A_{d} = \frac{\pi D^{2}}{4} = \frac{\pi \times 7^{2}}{4} = 38.48\ \text{ft}^{2}
+\tag{1}
+$$
 
 Four of those give 153.9 square feet of disc, and at 14,600 pounds, the three-engine hover weight assumed here, which no primary document read for this article states,
 
-$$\frac{W}{A} = \frac{14{,}600}{153.9} = 94.8\ \text{lbf/ft}^{2}$$
+$$
+\frac{W}{A} = \frac{14{,}600}{153.9} = 94.8\ \text{lbf/ft}^{2}
+\tag{2}
+$$
 
 **That is a very high disc loading.** A transport helicopter sits roughly between five and ten, the CH-47D Chinook at 8.8 pounds per square foot in the [table of disc loadings][ref_disk_loading], although light helicopters sit lower and the heaviest higher. The [X-19][related_post_a316_curtiss_wright_x19] used large propellers and sat far below it, at 25.7 pounds per square foot, but the [X-18][related_post_a315_hiller_x18], at 82.1, was not far short of it. The X-22 is closer to a lift jet than to a rotorcraft, and the consequences run through everything that follows.
 
@@ -59,25 +65,40 @@ $$\frac{W}{A} = \frac{14{,}600}{153.9} = 94.8\ \text{lbf/ft}^{2}$$
 
 Take a propeller inside a duct whose exit area is $\sigma$ times the disc area. Continuity and momentum across the disc give the thrust and the ideal power in terms of the exit velocity,
 
-$$T = \rho \sigma A V_{e}^{2} \qquad P = \tfrac{1}{2} \rho \sigma A V_{e}^{3}$$
+$$
+T = \rho \sigma A V_{e}^{2} \qquad P = \tfrac{1}{2} \rho \sigma A V_{e}^{3}
+\tag{3}
+$$
 
 Eliminating $V_e$,
 
-$$P = \frac{1}{2} \frac{T^{3/2}}{\sqrt{\rho \sigma A}} \qquad \Rightarrow \qquad T \propto \sigma^{1/3}$$
+$$
+P = \frac{1}{2} \frac{T^{3/2}}{\sqrt{\rho \sigma A}} \qquad \Rightarrow \qquad T \propto \sigma^{1/3}
+\tag{4}
+$$
 
 **An open propeller is the case $\sigma = 1/2$**, because its wake contracts to half the disc area far downstream, and substituting that recovers the familiar $T^{3/2}/\sqrt{2\rho A}$. So a duct that merely prevents the contraction, with $\sigma = 1$, gives
 
-$$\frac{T_{\text{duct}}}{T_{\text{open}}} = (2\sigma)^{1/3} = 2^{1/3} = 1.26$$
+$$
+\frac{T_{\text{duct}}}{T_{\text{open}}} = (2\sigma)^{1/3} = 2^{1/3} = 1.26
+\tag{5}
+$$
 
 **Twenty-six percent more static thrust for the same power, from a ring of metal that does no work.** A mildly diffusing duct does better still. The configuration exists for that gain, which makes a seven-foot propeller viable at ninety-five pounds per square foot.
 
 The X-22A duct is one of those. Its measured area ratio is
 
-$$\sigma_{d} = \frac{A_{e}}{A_{p}} = \frac{44.08}{37.84} = 1.165$$
+$$
+\sigma_{d} = \frac{A_{e}}{A_{p}} = \frac{44.08}{37.84} = 1.165
+\tag{6}
+$$
 
 with $A_e$ the net exit area and $A_p$ the net area at the propeller, from the table in [Gamse and Mort 1967][research_gamse_mort_1967], and the same ideal relation then gives
 
-$$\frac{T_{\text{duct}}}{T_{\text{open}}} = (2\sigma_{d})^{1/3} = 2.330^{1/3} = 1.33$$
+$$
+\frac{T_{\text{duct}}}{T_{\text{open}}} = (2\sigma_{d})^{1/3} = 2.330^{1/3} = 1.33
+\tag{7}
+$$
 
 The hover arithmetic below keeps $\sigma = 1$ and lets the figure of merit absorb the difference.
 
@@ -85,7 +106,10 @@ The hover arithmetic below keeps $\sigma = 1$ and lets the figure of merit absor
 
 The ideal power to hover 14,600 pounds on 153.9 square feet is 3,750 horsepower for an open rotor and
 
-$$P_{\text{ideal}} = \tfrac{1}{2} \frac{W^{3/2}}{\sqrt{\rho A}} = 2{,}651\ \text{hp}$$
+$$
+P_{\text{ideal}} = \tfrac{1}{2} \frac{W^{3/2}}{\sqrt{\rho A}} = 2{,}651\ \text{hp}
+\tag{8}
+$$
 
 for the ducted case, which is $1/\sqrt{2}$ of it.
 
@@ -95,33 +119,51 @@ The programme is described by the [Vertical Flight Society][ref_vertipedia_x22] 
 
 Four engines give 5,000 shaft horsepower and three give 3,750. If the installed power exceeds what hovering requires by 35 percent, then what remains after losing an engine is
 
-$$\frac{3}{4} \times 1.35 = 1.0125$$
+$$
+\frac{3}{4} \times 1.35 = 1.0125
+\tag{9}
+$$
 
 **One and a quarter percent.** On the power reading the number is the smallest that makes a three-engine hover arithmetically possible, with nothing to spare.
 
 On the thrust reading, thrust at a fixed figure of merit scales as power to the two-thirds, so losing a quarter of the power leaves
 
-$$\frac{T_{3}}{W} = 1.35 \left( \frac{3}{4} \right)^{2/3} = 1.35 \times 0.8255 = 1.114$$
+$$
+\frac{T_{3}}{W} = 1.35 \left( \frac{3}{4} \right)^{2/3} = 1.35 \times 0.8255 = 1.114
+\tag{10}
+$$
 
 **an eleven percent thrust margin with an engine out**, the margin the NASA report's sentence describes. The NASA wording is the primary statement, so the thrust reading is the documented one, and the power reading that follows tests the secondary figure without describing the aircraft.
 
 The power reading is still checkable, because it fixes the figure of merit. If hovering at 14,600 pounds requires 5,000 divided by 1.35, then
 
-$$\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{required}}} = \frac{2{,}651}{3{,}704} = 0.716$$
+$$
+\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{required}}} = \frac{2{,}651}{3{,}704} = 0.716
+\tag{11}
+$$
 
 **That is a thoroughly ordinary figure of merit for a ducted lift fan**, so the reading passes the first check. The second is stronger. Feeding 0.716 back through momentum theory gives the weight that three engines can lift,
 
-$$W_{3} = W \left( \frac{P_{3} \, \text{FM}}{P_{\text{ideal}}} \right)^{2/3} = 14{,}721\ \text{lbf}$$
+$$
+W_{3} = W \left( \frac{P_{3} \, \text{FM}}{P_{\text{ideal}}} \right)^{2/3} = 14{,}721\ \text{lbf}
+\tag{12}
+$$
 
 against the 14,600 assumed here. **Agreement to 0.83 percent shows that the 35 percent and the 14,600 pounds are consistent with each other on the power reading**, but because no primary document read here states the 14,600 pounds, the agreement checks two secondary figures against each other and not against the aircraft.
 
 **The full-scale tunnel figure separates the readings only partly.** A figure of merit referred to the net exit area converts to the disc-area basis used here through the ideal power, which varies as the inverse square root of the area,
 
-$$\text{FM}_{\text{disc}} = \text{FM}_{\text{exit}} \sqrt{\frac{A_{e}}{A_{d}}} = 0.81 \sqrt{\frac{44.08}{38.48}} = 0.867$$
+$$
+\text{FM}_{\text{disc}} = \text{FM}_{\text{exit}} \sqrt{\frac{A_{e}}{A_{d}}} = 0.81 \sqrt{\frac{44.08}{38.48}} = 0.867
+\tag{13}
+$$
 
 On the power reading the installed figure of merit of 0.716 is 83 percent of the tunnel's best, and the difference would have to be accounted for by transmission losses, download on the wing and fuselage, and duct interference. On the thrust reading, the tunnel's best figure of merit and the rated 5,000 horsepower give a four-engine thrust of
 
-$$T_{4} = \left( 2\,\text{FM}_{\text{disc}}\, P \sqrt{\rho A} \right)^{2/3} = 20{,}261\ \text{lbf}$$
+$$
+T_{4} = \left( 2\,\text{FM}_{\text{disc}}\, P \sqrt{\rho A} \right)^{2/3} = 20{,}261\ \text{lbf}
+\tag{14}
+$$
 
 and a thrust-to-weight ratio of 1.35 at 15,008 pounds, essentially the 15,000 pound design gross weight that [Gamse and Mort 1967][research_gamse_mort_1967] use to set their trim conditions. Three engines would then hover 16,725 pounds. **That agreement assumes no installation loss at all**, so it is an upper bound, and the record read here does not settle which reading the programme intended. What it does settle is that the [NASA survey][ref_nasa_tm81156] gives the 35 percent as thrust.
 
@@ -139,13 +181,19 @@ On the power reading, with the figure of merit of 0.716, the same arithmetic is 
 
 High disc loading is not free at the bottom of the aircraft either. The exit velocity follows from the thrust per duct,
 
-$$V_{e} = \sqrt{\frac{T}{\rho \sigma A_{d}}} = \sqrt{\frac{3{,}650}{0.0023769 \times 38.48}} = 200\ \text{ft/s}$$
+$$
+V_{e} = \sqrt{\frac{T}{\rho \sigma A_{d}}} = \sqrt{\frac{3{,}650}{0.0023769 \times 38.48}} = 200\ \text{ft/s}
+\tag{15}
+$$
 
 **One hundred and thirty-six miles per hour, straight down, from four ducts at once.**
 
 Disc loading is the parameter that sets all of this, and the relations are short. The induced velocity and the power loading follow from it alone,
 
-$$v_{e} = \sqrt{\frac{W/A}{\rho}} \qquad \frac{T}{P} = \frac{2\,\text{FM}}{v_{e}}$$
+$$
+v_{e} = \sqrt{\frac{W/A}{\rho}} \qquad \frac{T}{P} = \frac{2\,\text{FM}}{v_{e}}
+\tag{16}
+$$
 
 so that lifting a pound costs power in proportion to the square root of the disc loading.
 
@@ -162,7 +210,10 @@ so that lifting a pound costs power in proportion to the square root of the disc
 
 A duct held at an angle to the oncoming air captures a mass flow and turns it onto the duct axis. Turning momentum requires a force, and the reaction on the duct is a normal force,
 
-$$N_{\text{mom}} = \dot{m} V_{\infty} \sin\alpha \qquad \dot{m} = \rho A_{d} \left( V_{\infty} \cos\alpha + v_{i} \right)$$
+$$
+N_{\text{mom}} = \dot{m} V_{\infty} \sin\alpha \qquad \dot{m} = \rho A_{d} \left( V_{\infty} \cos\alpha + v_{i} \right)
+\tag{17}
+$$
 
 The rounded lip adds a suction force, taken here to be of the same order, so the total is assumed to be roughly twice the momentum term. **The duct is behaving as an annular wing**, and the theory and measurement of that are [Goodson and Grunwald 1962][research_goodson_grunwald_1962], [Mort 1965][research_mort_1965], [Curtiss and Howard C. 1969][research_curtiss_howard_c_1969], [Mann 1974][research_mann_1974], [Walker 1981][research_walker_1981], [Lee and Kwok 1983][research_lee_kwok_1983], [Gill and D'Andrea 2020][research_gill_dandrea_2020].
 
@@ -172,15 +223,24 @@ The rounded lip adds a suction force, taken here to be of the same order, so the
 
 No wing area appears in the sources read for this article, which looks like a dead end and is not one. At the end of a conversion the ducts are horizontal and the wings carry the whole weight, so the conversion speed fixes the area,
 
-$$S = \frac{2W}{\rho V_{\text{conv}}^{{2}} C_{L,\max}} = \frac{2 \times 14{,}600}{0.0023769 \times 203^{{2}} \times 1.4} = 213\ \text{ft}^{{2}}$$
+$$
+S = \frac{2W}{\rho V_{\text{conv}}^{{2}} C_{L,\max}} = \frac{2 \times 14{,}600}{0.0023769 \times 203^{{2}} \times 1.4} = 213\ \text{ft}^{{2}}
+\tag{18}
+$$
 
 **That number has to survive a geometric check and it does.** Two thirds of it on the 39.25 foot rear span is a mean chord of 3.62 feet, and the remaining third on the 22.92 foot forward span is 3.10 feet. No chord appears in those sources either, so the check is one of plausibility rather than agreement.
 
 With an area the corridor follows from the force balance. Writing $i$ for the duct angle above the horizontal,
 
-$$T \sin i + L = W \qquad T \cos i = D$$
+$$
+T \sin i + L = W \qquad T \cos i = D
+\tag{19}
+$$
 
-$$\tan i = \frac{W - L}{D} \qquad T = \sqrt{(W-L)^{{2}} + D^{{2}}}$$
+$$
+\tan i = \frac{W - L}{D} \qquad T = \sqrt{(W-L)^{{2}} + D^{{2}}}
+\tag{20}
+$$
 
 with $L = q S C_L$ and $D = q (S C_{D_w} + f)$, where $f$ is the equivalent flat-plate area of the four ducts computed below and the wing drag coefficient $C_{D_w}$ is the 0.10 assumed here. The trim of a vertical-takeoff aircraft through its conversion has a period literature, in [Seibel 1963][research_seibel_1963], [Englar and Kirkpatrick 1969][research_englar_kirkpatrick_1969], [Cheng and Pei 2023][research_cheng_pei_2023], [Lee et al. 2026b][research_lee_2026], and the quantity it turns on is how much lift the wing is developing at each speed, which for a propeller aircraft depends on more than the wing. **The slipstream changes the lift over whatever part of the wing it washes**, and that effect has been measured since the 1930s, in [Stuper 1938][research_stuper_1938], [Franke and Weinig 1939][research_franke_weinig_1939], [Brenckmann 1958][research_brenckmann_1958], [Kuhn and Grunwald 1960][research_kuhn_grunwald_1960], [Winston and Huston 1962][research_matthew_m_winston_robert_j_huston_1962], [Goland et al. 1964][research_goland_1964], [Butler et al. 1966][research_butler_1966], and [Rizk 1980][research_rizk_1980], with more under propeller slipstream and wing interaction below.
 
@@ -208,7 +268,10 @@ The linear schedule is not the only one a force balance permits. Evaluating the 
 
 The momentum-turning argument assumes the duct captures its streamtube and turns all of it. That holds while the crossflow component is small compared with the velocity the duct itself induces, so the validity parameter is
 
-$$\mu = \frac{V_{\infty} \sin i}{v_{i}}$$
+$$
+\mu = \frac{V_{\infty} \sin i}{v_{i}}
+\tag{21}
+$$
 
 | $V$, ft/s | knots | duct angle | $\mu$ | $N/T$ | status |
 |---|---|---|---|---|---|
@@ -225,13 +288,19 @@ Momentum does not cap the force in that band. The lip cannot hold the flow round
 
 **The measured record places lip separation in descent rather than in level conversion.** On the full-scale duct, [Gamse and Mort 1967][research_gamse_mort_1967] found from pressure distributions that separation over the whole upstream lip, the kind that changes forces and power, occurs on a representative four-duct configuration only at low power and high duct angle, as in descending flight, while partial separation in level flight brings no large change in force. The large-scale tandem model of [Biggers et al. 1966][research_biggers_1966] showed duct stall only on the front ducts and limited the estimated descent rate of a 6,500 pound aeroplane of that layout to about 600 feet a minute at a duct incidence near 60 degrees. In flight, the initial Navy tests reported by Rhodes in 1969 and summarised in [NASA CR-1901][ref_wolkovitch_1971] identified lip separation as the cause of duct buzz, a high-frequency vibration through the airframe, and suggested a descent-angle limit of about 10 degrees at low speed. At 40 knots, or 67.5 feet per second, a 10 degree path is a sink rate of
 
-$$\dot{h} = 60\, V \sin\gamma = 60 \times 67.5 \times \sin 10^{\circ} = 703\ \text{ft/min}$$
+$$
+\dot{h} = 60\, V \sin\gamma = 60 \times 67.5 \times \sin 10^{\circ} = 703\ \text{ft/min}
+\tag{22}
+$$
 
 which is the same order as the tunnel estimate.
 
 **The measured pitching moment peaks earlier than the momentum normal force.** Biggers and his colleagues found the untrimmed pitching moment largest at about 60 degrees of duct incidence, and [Whiteside and Pollard][research_siena_k_s_whiteside_beau_p_pollard] summarise the earlier Ames semispan tests as placing the pitch-up maximum near 45 knots at a duct angle near 60 degrees. On the linear schedule, with the ducts vertical at rest and horizontal at 203 feet per second,
 
-$$i = 90^{\circ} \left( 1 - \frac{V}{V_{\text{conv}}} \right) \qquad V_{60^{\circ}} = \frac{203}{3} = 67.7\ \text{ft/s} = 40\ \text{kt}$$
+$$
+i = 90^{\circ} \left( 1 - \frac{V}{V_{\text{conv}}} \right) \qquad V_{60^{\circ}} = \frac{203}{3} = 67.7\ \text{ft/s} = 40\ \text{kt}
+\tag{23}
+$$
 
 against 130 feet per second, or 77 knots, where the momentum estimate of the normal force peaks. **The moment the controls must trim arrives in the first third of the conversion**, and the momentum-turning model, which places the whole force at one point on the lip, does not locate it.
 
@@ -241,21 +310,33 @@ against 130 feet per second, or 77 knots, where the momentum estimate of the nor
 
 The maximum speed in the specification of the [Wikipedia entry][ref_x22], 278 knots at 10,000 feet, provides a check on all of this from a direction the hover calculation does not touch, although the record disagrees about whether it was flown. The [Vertical Flight Society][ref_vertipedia_x22] gives a maximum of 315 miles an hour, or 274 knots, Wikipedia's own text says that the required 283 knots was never reached, and [NASA TM-81156][ref_nasa_tm81156] gives 150 knots as the maximum speed of the aircraft in its research configuration. Taking 278 knots, an installed 5,000 shaft horsepower and the propulsive efficiency of 0.80 assumed here,
 
-$$D = \frac{\eta P}{V} = \frac{0.80 \times 5{,}000 \times 550}{469.2} = 4{,}689\ \text{lbf}$$
+$$
+D = \frac{\eta P}{V} = \frac{0.80 \times 5{,}000 \times 550}{469.2} = 4{,}689\ \text{lbf}
+\tag{24}
+$$
 
-$$f = \frac{D}{q} = \frac{4{,}689}{193.3} = 24.3\ \text{ft}^{{2}}$$
+$$
+f = \frac{D}{q} = \frac{4{,}689}{193.3} = 24.3\ \text{ft}^{{2}}
+\tag{25}
+$$
 
 The X-22 has 24.3 square feet, and the lift-to-drag ratio at that condition is 3.26.
 
 Now the same number from geometry. Four ducts of seven-foot diameter present 153.9 square feet of frontal area, so the equivalent flat plate implies a duct drag coefficient of
 
-$$C_{D,\text{duct}} = \frac{f}{4 A_{d}} = \frac{24.3}{153.9} = 0.158$$
+$$
+C_{D,\text{duct}} = \frac{f}{4 A_{d}} = \frac{24.3}{153.9} = 0.158
+\tag{26}
+$$
 
 which is derived and cannot be checked, since the full-scale duct test gives no drag coefficient on frontal area in its text. Estimating the drag of external bodies on an aeroplane in this way is old, standardised work, in [Bonner et al. 1975][research_bonner_1975], [Neal 1975][research_neal_1975], [Smetana 1975][research_smetana_1975], [Corsiglia et al. 1979][research_corsiglia_1979], [Corsiglia et al. 1981][research_corsiglia_1981], [Malone and Peavey 1999][research_malone_peavey_1999].
 
 **The measured propulsive efficiency is lower than the one assumed.** [Gamse and Mort 1967][research_gamse_mort_1967] report a maximum of 74 percent for the full-scale duct, and with that value the same relations give
 
-$$D = \frac{0.74 \times 5{,}000 \times 550}{469.2} = 4{,}337\ \text{lbf} \qquad f = \frac{4{,}337}{193.3} = 22.4\ \text{ft}^{2} \qquad C_{D,\text{duct}} = \frac{22.4}{153.9} = 0.146$$
+$$
+D = \frac{0.74 \times 5{,}000 \times 550}{469.2} = 4{,}337\ \text{lbf} \qquad f = \frac{4{,}337}{193.3} = 22.4\ \text{ft}^{2} \qquad C_{D,\text{duct}} = \frac{22.4}{153.9} = 0.146
+\tag{27}
+$$
 
 so the duct drag coefficient lies between 0.146 and 0.158 on the two efficiencies. Their tunnel result also shows where the drag comes from. The drag measured with the propeller removed was much larger than the estimated skin friction of the shroud, and they conclude that a duct designed for high speed could have had a significantly higher propulsive efficiency.
 
@@ -267,11 +348,17 @@ so the duct drag coefficient lies between 0.146 and 0.158 on the two efficiencie
 
 In hover there is no free-stream dynamic pressure at all, so a conventional control surface has nothing to work with. The duct exits have plenty.
 
-$$q_{\text{jet}} = \tfrac{1}{2} \rho V_{e}^{2} = 47.4\ \text{lbf/ft}^{2}$$
+$$
+q_{\text{jet}} = \tfrac{1}{2} \rho V_{e}^{2} = 47.4\ \text{lbf/ft}^{2}
+\tag{28}
+$$
 
 The duct normal force acts near the lip rather than at the duct centre, because the lip is where the flow is turned, so each duct contributes a nose-up couple of about
 
-$$M = \frac{N \ell}{2}$$
+$$
+M = \frac{N \ell}{2}
+\tag{29}
+$$
 
 for a duct of length $\ell$. At the largest defensible normal force and the four-foot duct, whose chord is 49 inches in the table of [Gamse and Mort 1967][research_gamse_mort_1967], that is 7,900 foot-pounds per duct and **31,500 foot-pounds over four**, and the tandem layout does not cancel it, because both duct pairs tilt the same way and both couples act nose-up about their centres.
 
@@ -279,11 +366,17 @@ Something has to trim that, and the X-22A uses two effectors whose roles exchang
 
 **The elevons are large.** The exit vane of the full-scale duct is 31.8 square feet, and the elevons of the 0.18-scale model of Freeman and Newsom scale up by the square of the length ratio to
 
-$$S_{e} = 0.82 \times 5.56^{2} = 25.3\ \text{ft}^{2} \qquad S_{e} = 1.06 \times 5.56^{2} = 32.8\ \text{ft}^{2}$$
+$$
+S_{e} = 0.82 \times 5.56^{2} = 25.3\ \text{ft}^{2} \qquad S_{e} = 1.06 \times 5.56^{2} = 32.8\ \text{ft}^{2}
+\tag{30}
+$$
 
 for the front and rear ducts. At the lift coefficient of 0.9 assumed here, a vane of 31.8 square feet in the hover jet gives
 
-$$F = q_{\text{jet}} S_{e} C_{L_{e}} = 47.4 \times 31.8 \times 0.9 = 1{,}357\ \text{lbf}$$
+$$
+F = q_{\text{jet}} S_{e} C_{L_{e}} = 47.4 \times 31.8 \times 0.9 = 1{,}357\ \text{lbf}
+\tag{31}
+$$
 
 which is **more than a third of the duct thrust**, a ratio of 0.37, turned sideways. With that force, one vane per duct is enough for yaw in the hover.
 
@@ -295,13 +388,19 @@ Four engines drive four propellers through a common transmission, treated in [Le
 
 **Cross-shafting adds no power.** What it changes is the failure mode. Without it, losing an engine loses a duct, and losing one of four ducts on a machine with a rear semi-span of 19.6 feet applies
 
-$$M = T_{\text{duct}} \, y = 3{,}650 \times 19.62 = 71{,}600\ \text{ft}\cdot\text{lbf}$$
+$$
+M = T_{\text{duct}} \, y = 3{,}650 \times 19.62 = 71{,}600\ \text{ft}\cdot\text{lbf}
+\tag{32}
+$$
 
 of rolling moment that has to be trimmed out by the remaining three. With cross-shafting the same failure removes a quarter of the power and none of the symmetry.
 
 The shaft itself is undramatic in torque. At the 700 foot per second tip speed assumed here the propellers turn at about 1,910 revolutions per minute, inside the range of 1,200 to 2,590 at which Mort and Gamse ran the full-scale duct, so each absorbs
 
-$$Q = \frac{P}{\omega} = \frac{1{,}250 \times 550}{200} = 3{,}440\ \text{ft}\cdot\text{lbf}$$
+$$
+Q = \frac{P}{\omega} = \frac{1{,}250 \times 550}{200} = 3{,}440\ \text{ft}\cdot\text{lbf}
+\tag{33}
+$$
 
 and with one engine out the three survivors deliver 938 horsepower to each of four propellers, so **312 horsepower has to cross the airframe**, a quarter of one engine.
 
@@ -327,7 +426,10 @@ The second aircraft flew on, performing hundreds of complete transitions and, on
 
 **The limits are stated as plainly as the capabilities.** The variable-stability system could not be used above about 125 knots, which excluded the upper end of the conversion. It had only limited uncoupled direct force in the longitudinal and vertical directions and none sideways. Hover was restricted by gearbox temperature as described above. And the airframe had an established service life of 500 flight hours, of which 80 were expected to remain at the end of 1980, in [NASA TM-81156][ref_nasa_tm81156], so the aircraft would by then have flown about
 
-$$500 - 80 = 420\ \text{h}$$
+$$
+500 - 80 = 420\ \text{h}
+\tag{34}
+$$
 
 against the about 200 hours the [Vertical Flight Society][ref_vertipedia_x22] gives for its career. The two cannot both be right, and the NASA figure is the primary one.
 
@@ -339,17 +441,26 @@ against the about 200 hours the [Vertical Flight Society][ref_vertipedia_x22] gi
 
 **The second measured lateral-directional dynamics and roll control power.** Three pilots flew 109 evaluations of 17 sets of dynamics at a 7.5 degree glide slope and 65 knots, varying the roll mode time constant, Dutch roll frequency, roll due to sideslip and yaw due to aileron, with roll authority limited electrically for some sets. Two findings bear directly on the specification. Satisfactory flying qualities needed about twice the roll damping that MIL-F-83300 specified, and about half its roll control power, in [NASA TM-81156][ref_nasa_tm81156]. Since the roll mode time constant is the inverse of the roll damping derivative,
 
-$$\tau_{R} = -\frac{1}{L_{p}}$$
+$$
+\tau_{R} = -\frac{1}{L_{p}}
+\tag{35}
+$$
 
 doubling the damping halves the time constant. The same programme expanded the system into the hover and made the first vertical landings performed with the X-22A's own variable-stability system engaged, in [NASA TM-81156][ref_nasa_tm81156].
 
 **The third flew instrument transitions to the hover**, in [Lebacqz and Aiken 1975b][research_lebacqz_aiken_1975]. The task was a hooded approach from 100 knots, capturing a 7.5 degree glide slope and decelerating at about 0.05 g to a hover at 100 feet. Decelerating uniformly from 100 knots, or 168.8 feet per second, at that rate takes
 
-$$s = \frac{V^{2}}{2a} = \frac{168.8^{2}}{2 \times 0.05 \times 32.17} = 8{,}854\ \text{ft} \qquad t = \frac{V}{a} = 105\ \text{s}$$
+$$
+s = \frac{V^{2}}{2a} = \frac{168.8^{2}}{2 \times 0.05 \times 32.17} = 8{,}854\ \text{ft} \qquad t = \frac{V}{a} = 105\ \text{s}
+\tag{36}
+$$
 
 which is consistent with the deceleration beginning about 8,000 feet out in still air, as the paper gives it, and continuing through the flare. On the glide slope at 100 knots the aircraft descends at
 
-$$\dot{h} = 60\, V \sin\gamma = 60 \times 168.8 \times \sin 7.5^{\circ} = 1{,}322\ \text{ft/min}$$
+$$
+\dot{h} = 60\, V \sin\gamma = 60 \times 168.8 \times \sin 7.5^{\circ} = 1{,}322\ \text{ft/min}
+\tag{37}
+$$
 
 Thirty-seven evaluations covered five display formats, from position information alone to four-axis control directors, against five levels of control augmentation, in a flight experiment of 45 hours, in [NASA TM-81156][ref_nasa_tm81156]. **The central result is a trade between control and display**, in which more augmentation needs less display and the reverse. Translational velocity had to be displayed for any acceptable system, and because the basic X-22A has low natural height damping near the hover, a thrust director was needed whenever the pilot also had to manage the duct angle. The programme also devised a duct-angle command, the Independent Thrust Vector Inclination Command, which follows the linear corridor described earlier, in [Lebacqz and Aiken 1975b][research_lebacqz_aiken_1975].
 
@@ -357,7 +468,10 @@ Thirty-seven evaluations covered five display formats, from position information
 
 The four completed programmes add up to
 
-$$50 + 109 + 37 + 43 = 239$$
+$$
+50 + 109 + 37 + 43 = 239
+\tag{38}
+$$
 
 piloted evaluations in NASA TM-81156, each a configuration flown and rated.
 
@@ -371,7 +485,10 @@ The four-duct tandem layout had been in wind tunnels since at least 1960, and th
 
 **The free-flight model anticipated the handling problems.** The 0.18-scale model of [Freeman and Newsom 1966][research_freeman_newsom_1966] had unstable control-fixed pitching and rolling oscillations in hover, with periods of 3.4 and 3.0 seconds that scale with the square root of the length ratio,
 
-$$T_{\text{full}} = T_{\text{model}} \sqrt{5.56} \qquad 3.4 \times 2.358 = 8.0\ \text{s} \qquad 3.0 \times 2.358 = 7.1\ \text{s}$$
+$$
+T_{\text{full}} = T_{\text{model}} \sqrt{5.56} \qquad 3.4 \times 2.358 = 8.0\ \text{s} \qquad 3.0 \times 2.358 = 7.1\ \text{s}
+\tag{39}
+$$
 
 slow enough that the pilots found them easy to control. Near the ground the fan slipstreams met between the fore and aft ducts and formed an upward flow that went erratically into one fan or the other, the model gained 20 percent in lift from an upload on the fuselage, and the disturbances were severe enough that the authors concluded artificial stabilisation would be needed in ground effect. Through most of the conversion the model had an unstable Dutch roll and very low directional stability, and stall of the upper outside duct surfaces caused wing dropping on the approach, although the authors note that small ducts stall differently from full-scale ones.
 
@@ -385,7 +502,10 @@ slow enough that the pilots found them easy to control. Near the ground the fan 
 
 **What it did not settle is whether anyone wanted one.** The arithmetic of the useful load is short and unkind,
 
-$$\frac{W_{\text{payload}}}{W} = \frac{1{,}200}{14{,}600} = 0.082$$
+$$
+\frac{W_{\text{payload}}}{W} = \frac{1{,}200}{14{,}600} = 0.082
+\tag{40}
+$$
 
 against an empty weight of 10,478 pounds and a useful load of 4,122, most of which is fuel. The 1,200 pound maximum payload is from the specification in the [Wikipedia entry][ref_x22], and the [Vertical Flight Society][ref_vertipedia_x22] gives the same figure, with six passengers as the alternative. **Weight estimation is the discipline that decides whether a configuration survives contact with a requirement**, and its methods are set out in [Torenbeek 1972][research_torenbeek_1972], [Ascani 1974][research_ascani_1974], [Hayase 1974f][research_hayase_1974], [Hayase 1974b][research_hayase_1974_2], [Hayase 1974d][research_hayase_1974_3], [Hayase 1974e][research_hayase_1974_4], [Hayase 1974a][research_hayase_1974_5], [Hayase 1974c][research_hayase_1974_6], [Hiyama 1974][research_hiyama_1974], [Martindale et al. 1974][research_martindale_1974], [Wildermuth et al. 1974b][research_wildermuth_1974], [Wildermuth et al. 1974a][research_wildermuth_1974_2], [DeBilzan 1975][research_debilzan_1975], [Onat and Tolle 1979][research_onat_tolle_1979], [Hajela and Chen 1988][research_hajela_chen_1988]. The disc loading that the duct makes affordable also produces a 136 mile per hour downwash, a severe weight sensitivity in the hover, and a payload of 1,200 pounds on an aircraft of 15,000. The configuration works and the mission arithmetic is unattractive, a different verdict from the one the earlier tilt aircraft received.
 
@@ -629,7 +749,10 @@ The thrust augmentation figure assumes an ideal duct with no internal losses and
 
 **The normal force calculation is the weakest part of the article.** It is momentum turning multiplied by an assumed lip factor of two, and the sensitivity is large, giving a peak of anywhere between 0.54 and 1.35 times the aircraft weight over four ducts as that factor runs from one to two and a half. With $k$ the lip factor and $N_{\text{mom}}$ the momentum term at the peak, half of the 3,941 pounds computed with $k = 2$,
 
-$$\frac{4 N_{\max}}{W} = \frac{4 k N_{\text{mom}}}{W} = \frac{4 k \times 1{,}971}{14{,}600} = 0.54\, k$$
+$$
+\frac{4 N_{\max}}{W} = \frac{4 k N_{\text{mom}}}{W} = \frac{4 k \times 1{,}971}{14{,}600} = 0.54\, k
+\tag{41}
+$$
 
 **The magnitude is not robust, and neither is the location**, since the measured pitching moment peaks near 60 degrees of duct incidence in [Biggers et al. 1966][research_biggers_1966], well before the momentum estimate's peak.
 
@@ -726,6 +849,389 @@ The detailed design of the transmission. The variable-stability system's control
 **And the aeroplane outlived its question.** It was built to find out whether four ducted propellers made a practical transport, and the answer was that they made a practical aircraft and an unattractive transport. What kept it flying for eighteen years was that somebody realised a machine which can hover and convert, and whose control system can be reprogrammed to feel like something else, is more valuable as a laboratory than as a prototype.
 
 **None of the four aircraft before it in this series was rescued that way.** The [X-18][related_post_a315_hiller_x18] is generally assumed to have been scrapped, the [X-19][related_post_a316_curtiss_wright_x19] crashed, the [X-20][related_post_a317_boeing_x20] was cancelled and the X-21 was left derelict and used as a photographic target, in the [Wikipedia entry on the X-21][ref_x21]. The X-22 was repurposed, and it is the only one of them still whole, stored at the Niagara Aerospace Museum according to the [Wikipedia entry][ref_x22].
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 41 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 41, 19 are established and 22 are bespoke.
+Quantities are in United States customary units, with force in pounds, area in square feet, speed in feet per second unless knots are stated and power in horsepower converted at 550 foot-pounds per second, and the hover weight of 14,600 pounds that many lines use is a value the article assumes because no primary document read for it states one.
+
+**Equation 1, Disc Area of One Duct.**
+The disc area of one duct follows from the seven-foot propeller diameter as the area of a circle.
+
+$$
+A_{d} = \frac{\pi D^{2}}{4} = \frac{\pi \times 7^{2}}{4} = 38.48\ \text{ft}^{2}
+\tag{1}
+$$
+
+*Equation 2, Bespoke Disc Loading at the Assumed Hover Weight.*
+Dividing the assumed three-engine hover weight of 14,600 pounds by the disc area of four ducts gives a disc loading near 95 pounds per square foot.
+
+$$
+\frac{W}{A} = \frac{14{,}600}{153.9} = 94.8\ \text{lbf/ft}^{2}
+\tag{2}
+$$
+
+**Equation 3, Momentum Theory Thrust and Power of a Ducted Propeller.**
+Continuity and momentum across a propeller in a duct whose exit area is $\sigma$ times the disc area give the thrust and the ideal power in terms of the exit velocity.
+
+$$
+T = \rho \sigma A V_{e}^{2} \qquad P = \tfrac{1}{2} \rho \sigma A V_{e}^{3}
+\tag{3}
+$$
+
+**Equation 4, Ideal Power of a Ducted Propeller in Terms of Thrust.**
+Eliminating the exit velocity expresses the ideal power through the thrust and shows that thrust at fixed power grows as the cube root of the exit area ratio.
+
+$$
+P = \frac{1}{2} \frac{T^{3/2}}{\sqrt{\rho \sigma A}} \qquad \Rightarrow \qquad T \propto \sigma^{1/3}
+\tag{4}
+$$
+
+**Equation 5, Static Thrust Augmentation of a Non-Contracting Duct.**
+A duct that only prevents the wake contraction of an open propeller, an area ratio of one against one half, gives about twenty-six percent more static thrust for the same power.
+
+$$
+\frac{T_{\text{duct}}}{T_{\text{open}}} = (2\sigma)^{1/3} = 2^{1/3} = 1.26
+\tag{5}
+$$
+
+**Equation 6, Measured Exit Area Ratio of the Duct.**
+The ratio of the net exit area to the net area at the propeller, from the measured duct geometry, is about 1.17.
+[Gamse and Mort 1967][research_gamse_mort_1967]
+
+$$
+\sigma_{d} = \frac{A_{e}}{A_{p}} = \frac{44.08}{37.84} = 1.165
+\tag{6}
+$$
+
+**Equation 7, Ideal Thrust Augmentation at the Measured Area Ratio.**
+The same ideal relation evaluated at the measured exit area ratio gives a thrust augmentation of about one third over an open propeller.
+[Gamse and Mort 1967][research_gamse_mort_1967]
+
+$$
+\frac{T_{\text{duct}}}{T_{\text{open}}} = (2\sigma_{d})^{1/3} = 2.330^{1/3} = 1.33
+\tag{7}
+$$
+
+*Equation 8, Bespoke Ideal Hover Power at the Assumed Weight.*
+The ideal power of a non-contracting ducted rotor hovering the assumed 14,600 pounds on four discs at sea level is about 2,650 horsepower.
+
+$$
+P_{\text{ideal}} = \tfrac{1}{2} \frac{W^{3/2}}{\sqrt{\rho A}} = 2{,}651\ \text{hp}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Engine-Out Power Margin on the Power Reading.*
+Reading the documented 35 percent margin as installed power in excess of hover power leaves three engines with a margin of one and a quarter percent.
+
+$$
+\frac{3}{4} \times 1.35 = 1.0125
+\tag{9}
+$$
+
+**Equation 10, Engine-Out Thrust Margin at Fixed Figure of Merit.**
+Thrust at a fixed figure of merit scales as power to the two-thirds, so losing a quarter of the power from a thrust-to-weight ratio of 1.35 leaves an eleven percent thrust margin.
+
+$$
+\frac{T_{3}}{W} = 1.35 \left( \frac{3}{4} \right)^{2/3} = 1.35 \times 0.8255 = 1.114
+\tag{10}
+$$
+
+*Equation 11, Bespoke Installed Figure of Merit on the Power Reading.*
+The figure of merit is the ideal power at the assumed 14,600 pounds over the required power that the power reading of the 35 percent margin implies.
+
+$$
+\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{required}}} = \frac{2{,}651}{3{,}704} = 0.716
+\tag{11}
+$$
+
+*Equation 12, Bespoke Three-Engine Hover Weight on the Power Reading.*
+Feeding the inferred figure of merit back through momentum theory with three engines gives a lifted weight within one percent of the assumed 14,600 pounds.
+
+$$
+W_{3} = W \left( \frac{P_{3} \, \text{FM}}{P_{\text{ideal}}} \right)^{2/3} = 14{,}721\ \text{lbf}
+\tag{12}
+$$
+
+**Equation 13, Figure of Merit Referred to the Disc Area.**
+Because ideal power varies as the inverse square root of area, a figure of merit measured on the net exit area converts to the disc-area basis through the square root of the area ratio.
+
+$$
+\text{FM}_{\text{disc}} = \text{FM}_{\text{exit}} \sqrt{\frac{A_{e}}{A_{d}}} = 0.81 \sqrt{\frac{44.08}{38.48}} = 0.867
+\tag{13}
+$$
+
+*Equation 14, Bespoke Four-Engine Thrust at the Tunnel Figure of Merit.*
+Applying the best tunnel figure of merit to the rated 5,000 horsepower under the assumption of no installation loss gives an upper bound on the four-engine thrust.
+
+$$
+T_{4} = \left( 2\,\text{FM}_{\text{disc}}\, P \sqrt{\rho A} \right)^{2/3} = 20{,}261\ \text{lbf}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Duct Exit Velocity in the Hover.*
+The exit velocity of one non-contracting duct carrying a quarter of the assumed 14,600 pounds at sea level is about 200 feet per second.
+
+$$
+V_{e} = \sqrt{\frac{T}{\rho \sigma A_{d}}} = \sqrt{\frac{3{,}650}{0.0023769 \times 38.48}} = 200\ \text{ft/s}
+\tag{15}
+$$
+
+**Equation 16, Induced Velocity and Power Loading from Disc Loading.**
+In momentum theory the induced velocity grows as the square root of disc loading and the thrust per unit power falls in inverse proportion to it.
+
+$$
+v_{e} = \sqrt{\frac{W/A}{\rho}} \qquad \frac{T}{P} = \frac{2\,\text{FM}}{v_{e}}
+\tag{16}
+$$
+
+**Equation 17, Momentum Normal Force on a Duct at Incidence.**
+A duct at an angle to the oncoming air captures a mass flow and turns it onto its axis, and the reaction is a normal force equal to the turned momentum flux.
+
+$$
+N_{\text{mom}} = \dot{m} V_{\infty} \sin\alpha \qquad \dot{m} = \rho A_{d} \left( V_{\infty} \cos\alpha + v_{i} \right)
+\tag{17}
+$$
+
+*Equation 18, Bespoke Wing Area from the Conversion Speed.*
+Requiring the wing to carry the assumed 14,600 pounds at the conversion speed of 203 feet per second with an assumed maximum lift coefficient of 1.4 gives a wing area of about 213 square feet.
+
+$$
+S = \frac{2W}{\rho V_{\text{conv}}^{{2}} C_{L,\max}} = \frac{2 \times 14{,}600}{0.0023769 \times 203^{{2}} \times 1.4} = 213\ \text{ft}^{{2}}
+\tag{18}
+$$
+
+**Equation 19, Force Balance Through the Conversion.**
+With the duct thrust inclined at the duct angle, its vertical component and the wing lift balance the weight and its horizontal component balances the drag.
+
+$$
+T \sin i + L = W \qquad T \cos i = D
+\tag{19}
+$$
+
+**Equation 20, Duct Angle and Thrust Required in Conversion.**
+Solving the two force balance equations gives the duct angle from the ratio of unsupported weight to drag and the thrust as the resultant of the two.
+
+$$
+\tan i = \frac{W - L}{D} \qquad T = \sqrt{(W-L)^{{2}} + D^{{2}}}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Validity Parameter of the Momentum-Turning Model.*
+The article defines the ratio of the crossflow velocity component to the induced velocity as the parameter that must stay small for the duct to capture and turn its whole streamtube.
+
+$$
+\mu = \frac{V_{\infty} \sin i}{v_{i}}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Sink Rate at the Suggested Descent-Angle Limit.*
+The suggested 10 degree descent-angle limit flown at a low speed of 40 knots, a speed the article takes as representative, gives a sink rate near 700 feet per minute.
+
+$$
+\dot{h} = 60\, V \sin\gamma = 60 \times 67.5 \times \sin 10^{\circ} = 703\ \text{ft/min}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Linear Duct Angle Schedule.*
+The article assumes the duct angle falls linearly from vertical at rest to horizontal at the conversion speed, which places 60 degrees of incidence near 40 knots.
+
+$$
+i = 90^{\circ} \left( 1 - \frac{V}{V_{\text{conv}}} \right) \qquad V_{60^{\circ}} = \frac{203}{3} = 67.7\ \text{ft/s} = 40\ \text{kt}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Cruise Drag from Power and Propulsive Efficiency.*
+Drag at 278 knots, a value between the conflicting 274 and 283 knot figures, follows from the installed 5,000 shaft horsepower at an assumed propulsive efficiency of 0.80.
+
+$$
+D = \frac{\eta P}{V} = \frac{0.80 \times 5{,}000 \times 550}{469.2} = 4{,}689\ \text{lbf}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Equivalent Flat-Plate Area.*
+Dividing the inferred cruise drag by the dynamic pressure at 278 knots gives an equivalent flat-plate area of about 24 square feet.
+
+$$
+f = \frac{D}{q} = \frac{4{,}689}{193.3} = 24.3\ \text{ft}^{{2}}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Duct Drag Coefficient on Frontal Area.*
+Attributing the whole equivalent flat-plate area to the four ducts and dividing by their frontal area gives a drag coefficient near 0.16.
+
+$$
+C_{D,\text{duct}} = \frac{f}{4 A_{d}} = \frac{24.3}{153.9} = 0.158
+\tag{26}
+$$
+
+*Equation 27, Bespoke Drag Chain at the Measured Propulsive Efficiency.*
+Repeating the drag, flat-plate area and duct drag coefficient chain with the measured efficiency of 0.74 still rests on the 278 knot speed and on attributing the whole drag to the ducts.
+[Gamse and Mort 1967][research_gamse_mort_1967]
+
+$$
+D = \frac{0.74 \times 5{,}000 \times 550}{469.2} = 4{,}337\ \text{lbf} \qquad f = \frac{4{,}337}{193.3} = 22.4\ \text{ft}^{2} \qquad C_{D,\text{duct}} = \frac{22.4}{153.9} = 0.146
+\tag{27}
+$$
+
+*Equation 28, Bespoke Dynamic Pressure of the Hover Jet.*
+The dynamic pressure in the duct exit flow follows from the exit velocity inferred at the assumed hover weight.
+
+$$
+q_{\text{jet}} = \tfrac{1}{2} \rho V_{e}^{2} = 47.4\ \text{lbf/ft}^{2}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Lip Pitching Couple of a Duct.*
+Placing the duct normal force at the lip, half a duct length from the duct centre, gives the nose-up couple each duct contributes.
+
+$$
+M = \frac{N \ell}{2}
+\tag{29}
+$$
+
+**Equation 30, Elevon Area Scaled from the Free-Flight Model.**
+Model elevon areas scale to full size with the square of the length ratio of 5.56.
+[Freeman and Newsom 1966][research_freeman_newsom_1966]
+
+$$
+S_{e} = 0.82 \times 5.56^{2} = 25.3\ \text{ft}^{2} \qquad S_{e} = 1.06 \times 5.56^{2} = 32.8\ \text{ft}^{2}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Exit Vane Side Force in the Hover.*
+The force on a 31.8 square foot vane in the hover jet at an assumed lift coefficient of 0.9 is more than a third of the duct thrust.
+
+$$
+F = q_{\text{jet}} S_{e} C_{L_{e}} = 47.4 \times 31.8 \times 0.9 = 1{,}357\ \text{lbf}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Rolling Moment from Losing One Duct.*
+Without cross-shafting the loss of one duct leaves its quarter share of the assumed hover weight acting at the rear semi-span as an untrimmed rolling moment.
+
+$$
+M = T_{\text{duct}} \, y = 3{,}650 \times 19.62 = 71{,}600\ \text{ft}\cdot\text{lbf}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Shaft Torque per Propeller.*
+The torque each propeller absorbs at 1,250 horsepower follows from the rotational speed implied by an assumed tip speed of 700 feet per second.
+
+$$
+Q = \frac{P}{\omega} = \frac{1{,}250 \times 550}{200} = 3{,}440\ \text{ft}\cdot\text{lbf}
+\tag{33}
+$$
+
+**Equation 34, Airframe Hours Flown by 1980.**
+The established service life of 500 flight hours less the 80 expected to remain gives the hours flown by the end of 1980.
+[NASA TM-81156][ref_nasa_tm81156]
+
+$$
+500 - 80 = 420\ \text{h}
+\tag{34}
+$$
+
+**Equation 35, Roll Mode Time Constant.**
+The roll mode time constant is the negative reciprocal of the roll damping derivative, so doubling the damping halves the time constant.
+[NASA TM-81156][ref_nasa_tm81156]
+
+$$
+\tau_{R} = -\frac{1}{L_{p}}
+\tag{35}
+$$
+
+**Equation 36, Distance and Time of a Uniform Deceleration to the Hover.**
+Decelerating uniformly from 100 knots at 0.05 times standard gravity takes about 8,900 feet and 105 seconds.
+[Lebacqz and Aiken 1975b][research_lebacqz_aiken_1975]
+
+$$
+s = \frac{V^{2}}{2a} = \frac{168.8^{2}}{2 \times 0.05 \times 32.17} = 8{,}854\ \text{ft} \qquad t = \frac{V}{a} = 105\ \text{s}
+\tag{36}
+$$
+
+**Equation 37, Sink Rate on a 7.5 Degree Glide Slope.**
+The vertical component of 100 knots on the 7.5 degree glide slope is a descent of about 1,320 feet per minute.
+[Lebacqz and Aiken 1975b][research_lebacqz_aiken_1975]
+
+$$
+\dot{h} = 60\, V \sin\gamma = 60 \times 168.8 \times \sin 7.5^{\circ} = 1{,}322\ \text{ft/min}
+\tag{37}
+$$
+
+**Equation 38, Total Piloted Evaluations of the Completed Programmes.**
+The evaluation counts of the four completed variable-stability programmes sum to 239.
+
+$$
+50 + 109 + 37 + 43 = 239
+\tag{38}
+$$
+
+**Equation 39, Froude Scaling of Oscillation Periods.**
+Periods of a dynamically scaled free-flight model scale with the square root of the length ratio, so the model oscillations of 3.4 and 3.0 seconds become about 8.0 and 7.1 seconds at full scale.
+[Freeman and Newsom 1966][research_freeman_newsom_1966]
+
+$$
+T_{\text{full}} = T_{\text{model}} \sqrt{5.56} \qquad 3.4 \times 2.358 = 8.0\ \text{s} \qquad 3.0 \times 2.358 = 7.1\ \text{s}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Payload Fraction.*
+The documented 1,200 pound maximum payload over the assumed 14,600 pound hover weight is a payload fraction of about eight percent.
+[Bell X-22A][ref_x22]
+[Vertical Flight Society][ref_vertipedia_x22]
+
+$$
+\frac{W_{\text{payload}}}{W} = \frac{1{,}200}{14{,}600} = 0.082
+\tag{40}
+$$
+
+*Equation 41, Bespoke Peak Normal Force with a Lip Factor.*
+Multiplying the momentum normal force by an unknown lip factor $k$ shows that the peak normal force over four ducts scales directly with a factor the article can only assume.
+
+$$
+\frac{4 N_{\max}}{W} = \frac{4 k N_{\text{mom}}}{W} = \frac{4 k \times 1{,}971}{14{,}600} = 0.54\, k
+\tag{41}
+$$
+
+### Notation
+
+- $A_{d}$, the disc area of one duct
+- $D$, the propeller diameter in Equation 1 and the drag in Equations 19, 20 and 24
+- $W$, the hover weight, taken as 14,600 pounds
+- $\sigma$, the ratio of duct exit area to disc area, with $\sigma_d$ the measured ratio
+- $V_{e}$, the exit velocity of the duct flow
+- $T$, the thrust
+- $P$, the power
+- $\rho$, the air density, taken at sea level
+- $\text{FM}$, the figure of merit, the ratio of ideal to required hover power
+- $A_{e}$, the net exit area of a duct
+- $A_{p}$, the net area of a duct at the propeller
+- $\dot{m}$, the mass flow captured by a duct
+- $N_{\text{mom}}$, the momentum normal force on a duct at incidence
+- $v_{i}$, the induced velocity of a duct
+- $V_{\infty}$, the free-stream speed
+- $\alpha$, the angle of attack of the duct
+- $i$, the duct angle above the horizontal
+- $L$, the wing lift
+- $V_{\text{conv}}$, the conversion speed at which the ducts reach horizontal
+- $C_{L,\max}$, the maximum lift coefficient
+- $\mu$, the ratio of crossflow speed to induced velocity that bounds the momentum-turning model
+- $f$, the equivalent flat-plate drag area
+- $\eta$, the propulsive efficiency
+- $q_{\text{jet}}$, the dynamic pressure of the hover jet
+- $S$, the wing area
+- $S_{e}$, the area of an elevon or exit vane
+- $\ell$, the length of a duct
+- $L_{p}$, the roll damping derivative
+- $\tau_{R}$, the roll mode time constant
+- $k$, the lip factor that multiplies the momentum normal force
 
 ## References
 

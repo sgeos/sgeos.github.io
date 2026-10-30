@@ -1,0 +1,1043 @@
+# Equation classification for A301. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in units of the International System after conversion from the pounds of the sources, angles and rates are in radians and radians per second unless a value is stated in degrees, the pitch rate is written $q_r$ so that $q$ remains the dynamic pressure, and the short-period figures rest on a representative static margin, radius of gyration and damping derivative rather than on measured X-4 values."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Horizontal Tail Efficiency Factor"
+gloss = "The tail efficiency is the ratio of the dynamic pressure at the tail to the free-stream dynamic pressure, which is below one in the wing wake."
+cite = []
+digest = "aa30f6d7654dc593"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Tail Incidence and the Downwash Derivative"
+gloss = "The tail angle of attack is the wing incidence reduced by downwash plus the tail setting, and lifting-line theory estimates the downwash derivative as twice the wing lift-curve slope over pi times the aspect ratio."
+cite = []
+digest = "2b8be375a492137d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Downwash Derivative of the X-4 Planform"
+gloss = "The lifting-line estimate at an aspect ratio of 3.60 and a lift-curve slope of 4.0 per radian gives a downwash derivative of 0.71."
+cite = []
+digest = "687129df6dea2279"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Installed Thrust and Thrust-to-Weight Ratio"
+gloss = "Two J30 engines of about 1600 pounds each give 14.2 kilonewtons and a thrust-to-weight ratio of 0.41 at the gross mass of 3547 kilograms."
+cite = ["research_x4_flight_evaluation_1954"]
+digest = "3afe26087cd7f05e"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Aspect Ratio and Wing Loading"
+gloss = "The tabulated span, area and gross mass give an aspect ratio of 3.60 and a wing loading of 1872 newtons per square metre."
+cite = ["research_x4_flight_evaluation_1954"]
+digest = "138065a8913e464d"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Stall Speed and Approach Speed"
+gloss = "The stall speed is the speed at which the maximum lift coefficient supports the weight, and the approach speed is conventionally 1.3 times the stall speed."
+cite = []
+digest = "5fd8b30756569555"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Available Load Factor and Manoeuvre Corner Speed"
+gloss = "The available load factor rises with the square of speed until the corner speed at which maximum lift reaches the limit load factor."
+cite = []
+digest = "4562e9f226442769"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Incremental Tail Incidence from Pitch Rate"
+gloss = "A surface at arm $l_t$ behind the centre of gravity sees an added angle of attack equal to the pitch rate times that arm divided by the flight speed."
+cite = []
+digest = "cf553176ea5e2350"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Tail Contribution to the Pitch Damping Derivative"
+gloss = "The tail contribution to pitch damping is minus twice the tail efficiency, the tail lift-curve slope, the tail volume coefficient and the tail arm in mean chords."
+cite = []
+digest = "f476a7e11ba78df7"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Pitch Damping in Geometric Terms"
+gloss = "Written with the tail area ratio, the tail contribution to pitch damping is seen to scale as the square of the tail arm."
+cite = []
+digest = "477fd8a07a2040ba"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Parallel-Axis Wing Damping Term"
+gloss = "Applying the tail relation to the wing lift with unit area ratio and an arm equal to an assumed 5 percent static margin gives a negligible damping contribution of minus 0.02."
+cite = []
+digest = "ca1c4dac4a5acf10"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Tail Damping of a Representative Conventional Aircraft"
+gloss = "The tail damping is evaluated for a representative conventional layout with tail efficiency 0.9, tail lift-curve slope 4.0 per radian, tail volume 0.6 and tail arm of three chords."
+cite = []
+digest = "451232bc0dcc36d3"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Representative Wing-Alone Pitch Damping"
+gloss = "A wing-alone damping derivative near minus 0.8 is adopted as representative of a low aspect ratio swept planform and is not derived from this airframe."
+cite = []
+digest = "4e6dc04fa093ee4b"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Tail Share of Pitch Damping"
+gloss = "With the two representative values the tail supplies 94 percent of the pitch damping of a conventional aircraft."
+cite = []
+digest = "3562f9d80f09c50e"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Dimensional Longitudinal Stability Derivatives"
+gloss = "The pitch stiffness, pitch damping and normal force derivatives are put in dimensional form by the dynamic pressure, wing geometry, pitch inertia and mass."
+cite = []
+digest = "48e7d89ded8e9dd7"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Short Period Frequency and Damping Ratio"
+gloss = "The short period frequency is approximated by the square root of the negative pitch stiffness, and the damping ratio by the sum of the damping terms divided by twice that frequency."
+cite = []
+digest = "2eb3d0d366d245bd"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Tropospheric Standard Atmosphere"
+gloss = "In the troposphere temperature falls linearly with altitude at the lapse rate, pressure follows the corresponding power law, and density follows from the ideal gas law."
+cite = []
+digest = "904f0ddc2bdd8239"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Speed of Sound"
+gloss = "The speed of sound of an ideal gas is the square root of the ratio of specific heats times the gas constant times the temperature."
+cite = []
+digest = "35b72a8338f0a5e2"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Dynamic Pressure at Mach 0.9 and 9144 Metres"
+gloss = "The Mach number form of dynamic pressure gives about 17.1 kilopascals at the chosen test condition."
+cite = []
+digest = "c02f3811e9a269ab"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Pitch Stiffness and Short Period Frequency at the Test Condition"
+gloss = "With an assumed radius of gyration of 2.13 metres and an assumed 5 percent static margin the pitch stiffness is minus 8.99 per second squared and the frequency 3.00 radians per second."
+cite = []
+digest = "2cdb9d5525e090ba"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Short Period Natural Period"
+gloss = "The representative short period frequency of 3.00 radians per second corresponds to a period of 2.1 seconds."
+cite = []
+digest = "f25ec05012463118"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Damped Natural Frequency"
+gloss = "The damped frequency is the natural frequency multiplied by the square root of one less the square of the damping ratio."
+cite = []
+digest = "56d371c9c14ed97b"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Tailless Short Period Damping Ratio"
+gloss = "Taking a representative wing-alone damping derivative of minus 0.8 and no downwash lag term gives a tailless damping ratio of 0.244."
+cite = []
+digest = "95b0ad19d3958c2f"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Tailed Short Period Damping Ratio"
+gloss = "Taking a tail damping derivative of minus 13 and a downwash lag term of minus 4 for an otherwise identical aircraft gives a damping ratio of 0.749."
+cite = []
+digest = "da3665e727df2cc7"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Short Period Characteristic Equation"
+gloss = "The two-degree-of-freedom short period approximation gives a quadratic characteristic equation whose coefficients are the damping sum and the stiffness term."
+cite = []
+digest = "ab008dc94512efa9"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Roots of the Short Period Characteristic Equation"
+gloss = "The roots are a complex pair whose real part is the decay rate and whose imaginary part is the damped frequency."
+cite = []
+digest = "10a44e4210e7fd6b"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Time to Half Amplitude"
+gloss = "The time to half amplitude is the natural logarithm of two divided by the product of damping ratio and natural frequency."
+cite = []
+digest = "4cde13da1976a4f7"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Control Anticipation Parameter"
+gloss = "The control anticipation parameter is the square of the short period frequency divided by the normal load factor per unit angle of attack."
+cite = ["ref_moorhouse_woodcock_1981"]
+digest = "478f13fd5b86328e"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Control Anticipation Parameter of the X-4"
+gloss = "Using the representative short period frequency of 3.00 radians per second, the load factor per radian of 36.5 gives a control anticipation parameter of 0.247."
+cite = []
+digest = "ac43754811c8235f"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Remaining Damping Fraction at Effective Loss of Damping"
+gloss = "The article defines the fraction of nominal damping remaining when the damping ratio has fallen to a nominal 0.05, taken as the point of effective loss of damping."
+cite = []
+digest = "7d936a3798024978"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Damping Margins of the Tailless and Tailed Configurations"
+gloss = "The remaining fraction is 0.205 for the tailless and 0.067 for the tailed representative damping ratios, so the tailless aircraft has far less damping to spend."
+cite = []
+digest = "f0e45a939b1dfb1b"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Cycles to Half Amplitude"
+gloss = "The number of cycles to half amplitude follows from the damping ratio alone and grows without bound as the damping ratio approaches zero."
+cite = []
+digest = "cc7b213455af6312"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Crossover Model of the Pilot and Aircraft"
+gloss = "Near crossover the combined pilot and aircraft behave as an integrator at the crossover frequency with an effective time delay."
+cite = ["research_bidinotto_2021"]
+digest = "be0ed185d871bc82"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Phase Margin of the Crossover Model"
+gloss = "The phase margin is ninety degrees less the phase lag of the effective delay at the crossover frequency."
+cite = []
+digest = "ec23d6fd858da838"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "First-Order Pade Approximation of a Delay"
+gloss = "The first-order Pade approximation replaces a pure delay by a rational function with a right-half-plane zero."
+cite = []
+digest = "52af8dca14c154d6"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Phase Consumed by Pilot Delay"
+gloss = "An assumed pilot delay near 0.25 seconds at a crossover frequency near 3 radians per second consumes about 43 degrees of phase."
+cite = []
+digest = "3d1426087f638c3e"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Swept-Wing Lift-Curve Slope"
+gloss = "The planform lift-curve slope formula accounts for aspect ratio, compressibility, half-chord sweep and the section lift-curve slope."
+cite = []
+digest = "cf2ec8aa8cf3cd7e"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Static Margin and Pitch Stiffness"
+gloss = "The static margin is the distance from the centre of gravity to the neutral point in mean chords, and the pitch stiffness is the negative of the lift-curve slope times that margin."
+cite = []
+digest = "d348b3c308b1128b"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Manoeuvre Margin and Relative Density"
+gloss = "The manoeuvre margin adds to the static margin the pitch damping divided by twice the relative density parameter."
+cite = []
+digest = "ae33004c32332929"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Tailless Manoeuvre Margin"
+gloss = "With the representative wing-alone damping and a relative density of 367 the tailless manoeuvre margin is 0.0511."
+cite = []
+digest = "2a9d795b1bd44d7f"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Tailed Manoeuvre Margin"
+gloss = "With the representative tail damping of minus 13 the tailed manoeuvre margin is 0.0677."
+cite = []
+digest = "d5424d34e4979467"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Stick Force per Unit Load Factor"
+gloss = "The stick force per unit load factor is proportional to the manoeuvre margin."
+cite = []
+digest = "86cc5a0128209689"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Tail Contribution to the Neutral Point"
+gloss = "A tail moves the neutral point aft by the tail volume coefficient times the tail-to-wing lift slope ratio corrected for downwash, a term that is zero without a tail."
+cite = []
+digest = "bfe6da5a3bb6ad85"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Aft Centre of Gravity Limit"
+gloss = "The aft limit lies forward of the neutral point by the minimum acceptable static margin."
+cite = []
+digest = "76940d64ce5e6fb6"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Forward Centre of Gravity Limit"
+gloss = "The article sets the forward limit where the elevon control power at full deflection can just trim the moment of maximum lift about the aerodynamic centre, neglecting the zero-lift moment."
+cite = []
+digest = "a81ee38a806d2b7a"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Usable Centre of Gravity Range"
+gloss = "The difference of the two limits under the same trim model gives a range in which the final tail term vanishes for a tailless layout."
+cite = []
+digest = "e4cabb917281e118"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Positive Zero-Lift Pitching Moment for Trim"
+gloss = "A stable aircraft must have a positive pitching moment at zero lift to trim at positive lift."
+cite = []
+digest = "ac1a395fd664b644"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Linear Spanwise Twist Distribution"
+gloss = "The twist is taken to vary linearly from the root to its tip value."
+cite = []
+digest = "5774a73c9dc5c911"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Zero-Lift Moment from Washout on a Swept Wing"
+gloss = "The article approximates the zero-lift moment of a linearly twisted swept wing as proportional to the lift-curve slope, the tip twist and the tangent of the sweep."
+cite = []
+digest = "b777348c147186dc"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Empirical Span Efficiency Correlation"
+gloss = "The empirical correlation fitted to the Oswald efficiency factor gives 0.95 at an aspect ratio of 3.60 and 0.84 at seven."
+cite = ["research_oswald_1932"]
+digest = "98a8598e88e05ddd"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Induced Drag Ratio at Aspect Ratios 3.6 and 7"
+gloss = "The correlated efficiency factors give the X-4 planform 1.7 times the induced drag of an aspect ratio seven wing at the same lift coefficient."
+cite = ["research_oswald_1932"]
+digest = "8ef33dd67ee7eda7"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Induced Drag with an Efficiency Factor Below One"
+gloss = "The induced drag coefficient is the square of the lift coefficient over pi, aspect ratio and the efficiency factor, which is below one for non-elliptic loading."
+cite = ["research_oswald_1932"]
+digest = "b81fd8dca5a8a3c8"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Trim Drag Increment"
+gloss = "The article writes the trim penalty as the induced drag of the lift needed to balance the zero-lift moment over an effective arm, which scales as the inverse square of that arm."
+cite = []
+digest = "bb2ba3665151c85d"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Aerodynamic Centre Shift Through the Transonic Range"
+gloss = "The aerodynamic centre moves from about the quarter chord in subsonic flow to about the half chord in supersonic flow."
+cite = []
+digest = "e67bf3dd7e78414b"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Trim Moment Increment from Aerodynamic Centre Migration"
+gloss = "The pitching moment change is the lift coefficient times the aerodynamic centre shift in mean chords."
+cite = []
+digest = "be6a28482631eb37"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Elevon Deflection to Absorb a Trim Change"
+gloss = "The elevon deflection needed is the moment change divided by the magnitude of the elevon control power."
+cite = []
+digest = "086f9fa0234e49c1"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Elevon Mixing"
+gloss = "Each elevon deflection is the sum or difference of the symmetric pitch and the differential roll commands."
+cite = ["ref_elevon"]
+digest = "7e42d1bda2de4b1e"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Elevon Deflection Limit"
+gloss = "The sum of the magnitudes of the pitch and roll commands cannot exceed the mechanical limit of each surface."
+cite = []
+digest = "e7576fc5fcb78178"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Pitch Authority Remaining During a Roll Input"
+gloss = "The pitch deflection available is the mechanical limit less the magnitude of the roll command."
+cite = []
+digest = "a27683821051b97f"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Adverse Yaw from Elevon Deflection"
+gloss = "The article models adverse yaw as proportional to the lift coefficient and the rolling effectiveness with a factor $K$ of order 0.1 to 0.2."
+cite = []
+digest = "6fbcb1acfbd1dcc5"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Pitch-Up Criterion"
+gloss = "Pitch-up is located where the pitching moment slope with lift coefficient becomes positive."
+cite = []
+digest = "18f43fd92cc6521a"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Elevon Control Power"
+gloss = "The control power is the lift produced per unit deflection times the arm from the centre of gravity to the centre of pressure of that lift in mean chords."
+cite = []
+digest = "9a203ba78f35f5d9"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Hinge Moment"
+gloss = "The hinge moment is dynamic pressure times control surface area, control surface chord and hinge moment coefficient."
+cite = []
+digest = "e6ebb7f7eb2db864"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Stick Force and Hinge Moment Coefficient"
+gloss = "The stick force is the gearing times the hinge moment, and the hinge moment coefficient is linear in angle of attack and deflection."
+cite = []
+digest = "cfd03733c67afd63"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Thin Aerofoil Flap Effectiveness"
+gloss = "Thin aerofoil theory gives the effectiveness of a trailing-edge surface as a function of its chord fraction through the hinge angle $\\theta_h$."
+cite = []
+digest = "1573688ca95c4950"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Aerodynamic Balance Reduction of the Hinge Moment Derivative"
+gloss = "The article models aerodynamic balance as reducing the deflection hinge moment derivative by the square of the ratio of balance chord to control chord."
+cite = []
+digest = "473f15a6e02554ec"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Fin Contribution to Directional Stability"
+gloss = "The directional stability derivative is the vertical tail volume coefficient times the fin lift-curve slope and the fin efficiency."
+cite = []
+digest = "13b6092a5cc41607"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Fin Contribution to Yaw Damping"
+gloss = "The fin yaw damping derivative carries the same square of arm dependence as the tail pitch damping."
+cite = []
+digest = "5345daec30886fc2"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Lanchester Phugoid Approximation"
+gloss = "The phugoid frequency is approximately the square root of two times gravity over speed, and its damping ratio is approximately the reciprocal of the square root of two times the lift-to-drag ratio."
+cite = ["ref_phugoid"]
+digest = "0704d682e82842c0"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Dutch Roll Frequency"
+gloss = "The Dutch roll frequency is approximated by the square root of the directional stiffness moment over the yaw inertia, and its damping rises with the yaw damping derivative."
+cite = ["ref_dutch_roll"]
+digest = "2499a55dfc11f930"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Dutch Roll Damping Ratio"
+gloss = "The Dutch roll damping ratio is approximated as the dimensional yaw damping divided by twice the Dutch roll frequency."
+cite = ["ref_dutch_roll"]
+digest = "8b20e6ba44ae5c90"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Roll Mode Time Constant and Spiral Stability Condition"
+gloss = "The roll mode time constant follows from roll inertia and roll damping, and the spiral mode is stable when the stated combination of rolling and yawing derivatives is positive."
+cite = []
+digest = "cecd9c373f07ef62"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Turbojet Thrust Lapse with Altitude and Mach Number"
+gloss = "The article models thrust as proportional to ambient pressure with an isentropic ram correction."
+cite = []
+digest = "77f16ebf5e5ab6ad"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Thrust-Limited Maximum Mach Number"
+gloss = "Equating thrust to drag with the dynamic pressure written in Mach number form and solving gives the square of the maximum Mach number."
+cite = []
+digest = "e617410b33fb8cf3"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Specific Excess Power"
+gloss = "Specific excess power is the speed times the excess of thrust over drag divided by the weight."
+cite = []
+digest = "0a7a7a22d01bd543"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Climb Angle and Energy Rate"
+gloss = "The sine of the climb angle is the excess thrust over weight, and the rate of change of energy height is the specific excess power."
+cite = []
+digest = "7a9dc6fabb9c1479"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Energy Height"
+gloss = "Energy height adds the kinetic energy per unit weight to the altitude."
+cite = []
+digest = "d1ce8bfe907361c7"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Doublet Pulse Duration"
+gloss = "The article sizes each doublet pulse at a quarter of the representative short period, about 0.52 seconds."
+cite = []
+digest = "0762d799d8156821"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Short Period Frequency Response"
+gloss = "The pitch attitude response to elevon input is that of a second-order system with the short period frequency and damping ratio."
+cite = []
+digest = "16c9e5373592cc72"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Resonant Peak of the Frequency Response"
+gloss = "At resonance the response amplitude is inversely proportional to the damping ratio."
+cite = []
+digest = "c3a27f13da1f6683"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Short Period Frequency in Hertz"
+gloss = "The representative short period frequency of 3.00 radians per second is 0.48 hertz."
+cite = []
+digest = "7d4005e5d436cdc8"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Nyquist Sampling Criterion for the Short Period"
+gloss = "The sample rate must exceed twice the short period frequency."
+cite = ["ref_flight_test"]
+digest = "c74e0fd8d737522c"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Logarithmic Decrement and Damping Ratio"
+gloss = "The logarithmic decrement over $n$ cycles gives the damping ratio exactly through the stated relation."
+cite = []
+digest = "048ca73e58a5cf89"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Uncertainty of a Damping Ratio from the Decrement"
+gloss = "Propagating the amplitude uncertainties through the decrement shows the relative uncertainty of the damping ratio growing as the decrement falls."
+cite = []
+digest = "6861b6827a703ae2"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Law of Propagation of Uncertainty"
+gloss = "The combined variance of a derived quantity is the sum of the input variances weighted by the squared sensitivity coefficients."
+cite = []
+digest = "c4cd5d76a8ed80ce"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Pitch Rate Feedback Law"
+gloss = "A pitch damper adds to the pilot command a deflection proportional to pitch rate."
+cite = ["research_artificial_pitch_damping_1959"]
+digest = "09ed25e496b55e07"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Augmented Pitch Damping Derivative"
+gloss = "Rate feedback adds to the pitch damping derivative the gain times the control power scaled by twice the speed over the mean chord."
+cite = ["research_artificial_pitch_damping_1959"]
+digest = "3cb1d6e2f6fc1292"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Augmented Short Period Damping Ratio"
+gloss = "The augmented damping ratio adds the feedback term to the natural damping sum."
+cite = []
+digest = "d6fd00b3e3b0c443"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Pitch Damper Gain for a Target Damping Ratio"
+gloss = "Solving the augmented damping relation for the gain gives the feedback needed to reach a target damping ratio."
+cite = []
+digest = "bcbb841eb8da13ee"
+
+[[equation]]
+tag = 90
+class = "bespoke"
+title = "Bespoke Added Damping Term for a Target of 0.7"
+gloss = "Raising the representative tailless damping ratio of 0.244 to a target of 0.7 at 3.00 radians per second requires an added damping term of minus 2.74 per second."
+cite = []
+digest = "564e20e8d2171ce0"
+
+[[equation]]
+tag = 91
+class = "bespoke"
+title = "Bespoke Effective Delay of a Rate-Limited Actuator"
+gloss = "The article approximates the effective delay of a rate-limited surface as commanded amplitude times frequency over the maximum rate, which makes it grow with amplitude."
+cite = []
+digest = "1b026655d92dbdab"
+
+[[equation]]
+tag = 92
+class = "standard"
+title = "Actuator Bandwidth Requirement"
+gloss = "The actuator bandwidth must greatly exceed the short period frequency so that the actuator adds little lag."
+cite = []
+digest = "28fc27b6af7f31ee"
+
+[[equation]]
+tag = 93
+class = "standard"
+title = "Yawing Moment from a Split Drag Surface"
+gloss = "A drag increment at spanwise station $y_{\\text{eff}}$ produces a yawing moment equal to the drag times that station."
+cite = []
+digest = "f871f47ebb957be2"
+
+[[equation]]
+tag = 94
+class = "standard"
+title = "Control Effectiveness Mapping"
+gloss = "The moment vector is a linear map of a surface deflection vector with more surfaces than axes, so the system is underdetermined."
+cite = []
+digest = "9a2f4240439d0388"
+
+[[equation]]
+tag = 95
+class = "standard"
+title = "Minimum-Norm Pseudo-Inverse Allocation"
+gloss = "The Moore-Penrose pseudo-inverse gives the minimum-norm deflections that produce the desired moments."
+cite = []
+digest = "aa1c57965756e5ca"
+
+[[equation]]
+tag = 96
+class = "standard"
+title = "Surface Position and Rate Limits"
+gloss = "Each surface is bounded in deflection and in deflection rate."
+cite = []
+digest = "36b23dce0670ba9c"
+
+[[equation]]
+tag = 97
+class = "standard"
+title = "Pitch Acceleration from the Aerodynamic Moment"
+gloss = "The pitch acceleration is the aerodynamic pitching moment divided by the pitch inertia."
+cite = []
+digest = "58a0f5316b326813"
+
+[[equation]]
+tag = 98
+class = "standard"
+title = "Tumbling Condition"
+gloss = "Tumbling is possible when the pitching moment coefficient remains positive throughout the post-stall range of angle of attack."
+cite = ["research_tumbling_characteristics_1993"]
+digest = "6e42077fcf4d8b87"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air, and in the trajectory relations the flight path angle"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'C_{L\alpha}'
+meaning = "the lift-curve slope per radian"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'C_{m\alpha}'
+meaning = "the pitching moment slope with angle of attack"
+
+[[symbol]]
+tex = 'C_{n\beta}'
+meaning = "the directional stability derivative"
+
+[[symbol]]
+tex = 'C_{lp}'
+meaning = "the roll damping derivative"
+
+[[symbol]]
+tex = 'I_x'
+meaning = "the moment of inertia in roll"
+
+[[symbol]]
+tex = 'I_y'
+meaning = "the moment of inertia in pitch"
+
+[[symbol]]
+tex = 'I_z'
+meaning = "the moment of inertia in yaw"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'h_e'
+meaning = "the energy height"
+
+[[symbol]]
+tex = 'SM'
+meaning = "the static margin as a fraction of the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'x_{np}'
+meaning = "the longitudinal position of the neutral point"
+
+[[symbol]]
+tex = 'x_{cg}'
+meaning = "the longitudinal position of the centre of gravity"
+
+[[symbol]]
+tex = 'f_s'
+meaning = "the sample rate"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = 'q_r'
+meaning = "the pitch rate"
+
+[[symbol]]
+tex = '\eta_t'
+meaning = "the horizontal tail efficiency factor"
+
+[[symbol]]
+tex = '\frac{d\varepsilon}{d\alpha}'
+meaning = "the downwash derivative at the tail"
+
+[[symbol]]
+tex = 'l_t'
+meaning = "the tail arm behind the centre of gravity"
+
+[[symbol]]
+tex = 'V_H'
+meaning = "the horizontal tail volume coefficient"
+
+[[symbol]]
+tex = 'C_{L\alpha_t}'
+meaning = "the lift-curve slope of the horizontal tail"
+
+[[symbol]]
+tex = 'C_{L\alpha_w}'
+meaning = "the lift-curve slope of the wing"
+
+[[symbol]]
+tex = 'C_{mq}'
+meaning = "the pitch damping derivative"
+
+[[symbol]]
+tex = 'x_{ac}'
+meaning = "the longitudinal position of the aerodynamic centre"
+
+[[symbol]]
+tex = 'M_\alpha'
+meaning = "the dimensional pitch stiffness derivative"
+
+[[symbol]]
+tex = 'M_q'
+meaning = "the dimensional pitch damping derivative"
+
+[[symbol]]
+tex = 'M_{\dot\alpha}'
+meaning = "the dimensional downwash lag derivative"
+
+[[symbol]]
+tex = 'Z_\alpha'
+meaning = "the dimensional normal force derivative"
+
+[[symbol]]
+tex = '\omega_{sp}'
+meaning = "the short period natural frequency"
+
+[[symbol]]
+tex = '\zeta_{sp}'
+meaning = "the short period damping ratio"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "a damping ratio"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the temperature lapse rate in the atmosphere model and an eigenvalue in the characteristic equation"
+
+[[symbol]]
+tex = '\text{CAP}'
+meaning = "the control anticipation parameter"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fraction of nominal damping remaining"
+
+[[symbol]]
+tex = '\omega_c'
+meaning = "the crossover frequency"
+
+[[symbol]]
+tex = '\tau_e'
+meaning = "the effective pilot time delay"
+
+[[symbol]]
+tex = '\phi_m'
+meaning = "the phase margin"
+
+[[symbol]]
+tex = 'MM'
+meaning = "the manoeuvre margin"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the relative density parameter"
+
+[[symbol]]
+tex = 'C_{m0}'
+meaning = "the pitching moment coefficient at zero lift"
+
+[[symbol]]
+tex = '\varepsilon_{\text{tip}}'
+meaning = "the twist at the wing tip"
+
+[[symbol]]
+tex = 'e'
+meaning = "the span efficiency factor"
+
+[[symbol]]
+tex = '\delta_e'
+meaning = "the symmetric elevon deflection"
+
+[[symbol]]
+tex = '\delta_a'
+meaning = "the differential elevon deflection"
+
+[[symbol]]
+tex = '\delta_{\max}'
+meaning = "the mechanical deflection limit of an elevon"
+
+[[symbol]]
+tex = 'C_{m \delta_e}'
+meaning = "the elevon pitch control power"
+
+[[symbol]]
+tex = 'C_h'
+meaning = "the hinge moment coefficient"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the effectiveness of a trailing-edge control surface"
+
+[[symbol]]
+tex = 'V_V'
+meaning = "the vertical tail volume coefficient"
+
+[[symbol]]
+tex = 'C_{nr}'
+meaning = "the yaw damping derivative"
+
+[[symbol]]
+tex = '\delta_{\ln}'
+meaning = "the logarithmic decrement"
+
+[[symbol]]
+tex = 'k_q'
+meaning = "the pitch rate feedback gain"
+
+[[symbol]]
+tex = '\mathbf{B}'
+meaning = "the control effectiveness matrix"
+
+[[symbol]]
+tex = '\boldsymbol{\delta}'
+meaning = "the vector of surface deflections"

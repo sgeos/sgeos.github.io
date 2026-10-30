@@ -33,47 +33,80 @@ The first requirement has an exact form. It is also the requirement most often s
 
 Radiation traversing an absorbing medium follows the Beer and Lambert relation, in which the intensity $I$ falls with the optical depth $\tau$ accumulated along the path,
 
-$$I(z) = I_{\infty} \, e^{-\tau(z)}$$
+$$
+I(z) = I_{\infty} \, e^{-\tau(z)}
+\tag{1}
+$$
 
 The optical depth above an altitude $z$ is the column of absorbers overhead weighted by the absorption cross-section $\sigma$, so that for a species of number density $n$ observed at the zenith,
 
-$$\tau(z) = \sigma \int_{z}^{\infty} n(z') \, \mathrm{d}z'$$
+$$
+\tau(z) = \sigma \int_{z}^{\infty} n(z') \, \mathrm{d}z'
+\tag{2}
+$$
 
 In an isothermal layer the density falls exponentially with the scale height $H$, the ratio of thermal energy to gravitational potential energy per molecule,
 
-$$H = \frac{k T}{m g}$$
+$$
+H = \frac{k T}{m g}
+\tag{3}
+$$
 
 in which $k$ is the Boltzmann constant, $T$ the temperature, $m$ the mean molecular mass, and $g$ the local gravitational acceleration. For a mean molecular mass of 28.9 atomic mass units, which is $4.80 \times 10^{-26}$ kilogrammes, a temperature of 250 kelvin, and $g$ of 9.5 metres per second squared,
 
-$$H = \frac{(1.381 \times 10^{-23})(250)}{(4.80 \times 10^{-26})(9.5)} = 7.6 \times 10^{3} \, \text{m}$$
+$$
+H = \frac{(1.381 \times 10^{-23})(250)}{(4.80 \times 10^{-26})(9.5)} = 7.6 \times 10^{3} \, \text{m}
+\tag{4}
+$$
 
 so the scale height is about 7.6 kilometres. With that profile the integral collapses and the optical depth becomes the local density multiplied by the scale height and the cross-section,
 
-$$\tau(z) = \sigma \, n(z) \, H$$
+$$
+\tau(z) = \sigma \, n(z) \, H
+\tag{5}
+$$
 
 The altitude at which the atmosphere becomes transparent is therefore where $\tau$ falls to unity, which happens at a density
 
-$$n^{*} = \frac{1}{\sigma H}$$
+$$
+n^{*} = \frac{1}{\sigma H}
+\tag{6}
+$$
 
 and, taking $n_0$ as the sea-level number density of $2.5 \times 10^{25}$ per cubic metre, at an altitude
 
-$$z^{*} = H \ln \left( \frac{n_0}{n^{*}} \right) = H \ln \left( \sigma H n_0 \right)$$
+$$
+z^{*} = H \ln \left( \frac{n_0}{n^{*}} \right) = H \ln \left( \sigma H n_0 \right)
+\tag{7}
+$$
 
 The treatment originates with [Chapman 1931a][research_chapman_1931] and [Chapman 1931b][research_chapman_1931_2], whose two-part paper on the absorption of monochromatic radiation in a stratified atmosphere is where the exponential layer, the unit-optical-depth level, and the slant-path function all come from. This article follows the textbook developments of [Banks and Kockarts 1973 Aeronomy][book_banks_kockarts_1973], [Rees 1989 Physics and Chemistry of the Upper Atmosphere][book_rees_1989], and [Chamberlain 1961 Physics of the Aurora and Airglow][book_chamberlain_1961]. **This is the equation that sizes the vehicle**, and its most important property is that the required altitude depends on the logarithm of the cross-section. A phenomenon absorbed a hundred times more strongly does not require a hundred times the altitude. It requires an additional $H \ln 100$, or about 35 kilometres. Optical depth is a forgiving master.
 
 Three worked cases fix the scale. Solar Lyman-alpha radiation at 121.6 nanometres sits in a window of the molecular oxygen absorption spectrum where the cross-section is roughly $1 \times 10^{-24}$ square metres. Oxygen is 21 percent of the atmosphere by number, so the total density at which the oxygen column reaches unit optical depth is
 
-$$n^{*}_{\text{tot}} = \frac{1}{0.21 \, \sigma H} = \frac{1}{(0.21)(10^{-24})(7.6 \times 10^{3})} = 6.3 \times 10^{20} \, \text{m}^{-3}$$
+$$
+n^{*}_{\text{tot}} = \frac{1}{0.21 \, \sigma H} = \frac{1}{(0.21)(10^{-24})(7.6 \times 10^{3})} = 6.3 \times 10^{20} \, \text{m}^{-3}
+\tag{8}
+$$
 
-$$z^{*} = 7.6 \ln \left( \frac{2.5 \times 10^{25}}{6.3 \times 10^{20}} \right) = 7.6 \times 10.6 = 80 \, \text{km}$$
+$$
+z^{*} = 7.6 \ln \left( \frac{2.5 \times 10^{25}}{6.3 \times 10^{20}} \right) = 7.6 \times 10.6 = 80 \, \text{km}
+\tag{9}
+$$
 
 so Lyman-alpha becomes observable at about 80 kilometres, which is why it can be studied from a modest rocket and why it penetrates as far down as the ionospheric D region. Soft X-radiation near 44 angstroms meets cross-sections around $1 \times 10^{-23}$ square metres against the bulk atmosphere, giving
 
-$$z^{*} = 7.6 \ln \left( (10^{-23})(7.6 \times 10^{3})(2.5 \times 10^{25}) \right) = 7.6 \times 14.5 = 110 \, \text{km}$$
+$$
+z^{*} = 7.6 \ln \left( (10^{-23})(7.6 \times 10^{3})(2.5 \times 10^{25}) \right) = 7.6 \times 14.5 = 110 \, \text{km}
+\tag{10}
+$$
 
 Ozone in the Hartley band near 255 nanometres is the opposite case. The cross-section is enormous at $1.15 \times 10^{-21}$ square metres, but ozone is a trace constituent with a total column of roughly $8 \times 10^{22}$ per square metre, so the optical depth of the whole layer is
 
-$$\tau = \sigma N = (1.15 \times 10^{-21})(8 \times 10^{22}) = 92$$
+$$
+\tau = \sigma N = (1.15 \times 10^{-21})(8 \times 10^{22}) = 92
+\tag{11}
+$$
 
 The layer is opaque by a factor of $e^{92}$ and its top is near 40 kilometres, so the measurement requires only that the rocket climb through it while watching the sun, the method by which [Johnson et al. 1952][research_johnson_1952] made it. Ozone's absorption structure and its consequences for what reaches the ground are set out in [Ozone Layer][ref_ozone_layer], and the resonance line whose transmission fixes the 80 kilometre figure is [Lyman-alpha][ref_lyman_alpha].
 
@@ -85,35 +118,59 @@ What gets quoted is the apogee. It is not what the experimenter pays for. Above 
 
 For a vehicle coasting ballistically near apogee, with $g$ treated as constant over the arc, the altitude is a parabola in time and the interval above $h_t$ for an apogee $h_a$ is
 
-$$t_{\text{obs}} = 2 \sqrt{\frac{2 \left( h_a - h_t \right)}{g}}$$
+$$
+t_{\text{obs}} = 2 \sqrt{\frac{2 \left( h_a - h_t \right)}{g}}
+\tag{12}
+$$
 
 For the X-8 reaching 116 kilometres, the observing time above the Lyman-alpha threshold of 80 kilometres is
 
-$$t_{\text{obs}} = 2\sqrt{\frac{2 \left( 36 \times 10^{3} \right)}{9.5}} = 2 \times 87 = 174 \, \text{s}$$
+$$
+t_{\text{obs}} = 2\sqrt{\frac{2 \left( 36 \times 10^{3} \right)}{9.5}} = 2 \times 87 = 174 \, \text{s}
+\tag{13}
+$$
 
 which is a little under three minutes. Above the soft X-ray threshold of 110 kilometres the same flight gives
 
-$$t_{\text{obs}} = 2\sqrt{\frac{2 \left( 6 \times 10^{3} \right)}{9.5}} = 2 \times 35.5 = 71 \, \text{s}$$
+$$
+t_{\text{obs}} = 2\sqrt{\frac{2 \left( 6 \times 10^{3} \right)}{9.5}} = 2 \times 35.5 = 71 \, \text{s}
+\tag{14}
+$$
 
 **A six-kilometre margin yields 71 seconds and a thirty-six-kilometre margin yields 174.** The square root governs the economics of sounding rockets, and it becomes clearer when the threshold is set at the burnout altitude, where the relation simplifies exactly. Burnout at altitude $h_b$ with vertical velocity $v_b$ gives an apogee
 
-$$h_a = h_b + \frac{v_b^{2}}{2g}$$
+$$
+h_a = h_b + \frac{v_b^{2}}{2g}
+\tag{15}
+$$
 
 and substituting into the observing-time relation with $h_t = h_b$ cancels the burnout altitude,
 
-$$t_{\text{obs}} = 2\sqrt{\frac{2}{g} \cdot \frac{v_b^{2}}{2g}} = \frac{2 v_b}{g}$$
+$$
+t_{\text{obs}} = 2\sqrt{\frac{2}{g} \cdot \frac{v_b^{2}}{2g}} = \frac{2 v_b}{g}
+\tag{16}
+$$
 
 The observing time above burnout altitude is exactly twice the burnout velocity divided by gravity, the elementary result that a projectile's flight time is set by its vertical velocity. Combining it with the ideal rocket relation, in which the achievable velocity increment is the effective exhaust velocity $c$ multiplied by the logarithm of the mass ratio $R$,
 
-$$\Delta v = c \ln R$$
+$$
+\Delta v = c \ln R
+\tag{17}
+$$
 
 which is the [Tsiolkovsky rocket equation][ref_rocket_equation] and is derived in [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016] and [Hill and Peterson 1991 Mechanics and Thermodynamics of Propulsion][book_hill_peterson_1991], gives the relation this article is built on,
 
-$$t_{\text{obs}} = \frac{2c}{g} \ln R$$
+$$
+t_{\text{obs}} = \frac{2c}{g} \ln R
+\tag{18}
+$$
 
 **Observing time is linear in exhaust velocity and logarithmic in mass ratio.** With the Aerobee's propellants, whose effective exhaust velocity is about 1,962 metres per second, the coefficient is
 
-$$\frac{2c}{g} = \frac{2 \times 1962}{9.81} = 400 \, \text{s}$$
+$$
+\frac{2c}{g} = \frac{2 \times 1962}{9.81} = 400 \, \text{s}
+\tag{19}
+$$
 
 so the rule of thumb is that every factor of $e$ in mass ratio adds 400 seconds of observation. Doubling the observing time from five minutes to ten requires the mass ratio to be squared. Doubling it again requires the fourth power. A sounding-rocket programme therefore gathers statistics by flying more often, not by flying higher. That conclusion is the quantitative core of the X-8's existence.
 
@@ -123,19 +180,28 @@ The remaining requirements are constraints rather than objectives, and each one 
 
 Pointing knowledge is the first. An instrument with a field of view of half-angle $\theta$ that is pointed with an uncertainty $\Delta\theta$ collects a signal reduced roughly in proportion to the overlap, and when $\Delta\theta$ exceeds $\theta$ the signal is not attenuated but absent. For a photometer looking at a star, the fraction of flights returning usable data against a Gaussian pointing error of standard deviation $s$ is
 
-$$P_{\text{hit}} = 1 - \exp \left( -\frac{\theta^{2}}{2 s^{2}} \right)$$
+$$
+P_{\text{hit}} = 1 - \exp \left( -\frac{\theta^{2}}{2 s^{2}} \right)
+\tag{20}
+$$
 
 which falls below one half once $s$ exceeds $0.85\theta$. **Pointing is a cliff, not a slope**, so the early flights carried wide-field detectors and narrow-field instruments had to wait for attitude control. [Wertz 1978 Spacecraft Attitude Determination and Control][book_wertz_1978] treats the determination and control problem in its general form.
 
 Vibration is the second. A payload structure with natural frequency $f_n$ and quality factor $Q$ driven by a broadband acceleration spectral density $S_a$ responds with a root-mean-square acceleration
 
-$$a_{\text{rms}} = \sqrt{\frac{\pi}{2} f_n Q \, S_a}$$
+$$
+a_{\text{rms}} = \sqrt{\frac{\pi}{2} f_n Q \, S_a}
+\tag{21}
+$$
 
 so a lightly damped resonance in the launch band amplifies the environment as the square root of its quality factor. The Aerobee's flight vibration environment was measured directly and reported by [Coble and Nagy 1964][research_coble_1964], and the boost phase of a solid motor is the worst of it.
 
 Contamination, the third, is peculiar to instruments working in the ultraviolet. A monolayer of hydrocarbon deposited on a mirror can absorb a large fraction of the incident flux below 200 nanometres. The deposition rate from an outgassing surface at partial pressure $p$ follows from kinetic theory as a flux
 
-$$\Phi = \frac{p}{\sqrt{2 \pi m k T}}$$
+$$
+\Phi = \frac{p}{\sqrt{2 \pi m k T}}
+\tag{22}
+$$
 
 and the time to accumulate a monolayer of surface density $N_s$ is $N_s / (\alpha \Phi)$ with sticking coefficient $\alpha$. At $10^{-6}$ torr, which is $1.33 \times 10^{-4}$ pascals, and a molecular mass of 100 atomic mass units at 300 kelvin, the flux is of order $10^{18}$ per square metre per second and a monolayer of $10^{19}$ per square metre accumulates in about ten seconds at unit sticking. **The vehicle can blind the instrument during the ascent.** [Blanchard and Farlow 1966][research_blanchard_1966] treated the control of this problem across design, fabrication, test, and launch.
 
@@ -147,17 +213,26 @@ The last requirement separates a vehicle from a programme. Most of what a soundi
 
 Detecting a difference of size $d$ between two conditions, against a natural scatter of standard deviation $\sigma$, at significance $z_\alpha$ and power $z_\beta$, requires a number of flights per condition of
 
-$$n = 2 \left( \frac{ \left( z_{\alpha} + z_{\beta} \right) \sigma }{d} \right)^{2}$$
+$$
+n = 2 \left( \frac{ \left( z_{\alpha} + z_{\beta} \right) \sigma }{d} \right)^{2}
+\tag{23}
+$$
 
 For a difference equal to the scatter itself, at the conventional 5 percent significance and 80 percent power, this gives
 
-$$n = 2 \left( \frac{1.96 + 0.84}{1} \right)^{2} = 15.7 \approx 16$$
+$$
+n = 2 \left( \frac{1.96 + 0.84}{1} \right)^{2} = 15.7 \approx 16
+\tag{24}
+$$
 
 The relation is the standard two-sample power calculation of [Box Hunter and Hunter 2005 Statistics for Experimenters][book_box_hunter_hunter_2005] and [Cohen 1988 Statistical Power Analysis for the Behavioral Sciences][book_cohen_1988]. **Sixteen flights per condition, to resolve an effect the size of the noise.** No stock of captured [V-2][ref_v2] rockets supports that. The V-2 supply was finite, and [Fraser 1985][ref_fraser_1985] recalls that this was obvious from the start of the research programme in 1946. What the experimenters needed was not a better rocket but a rocket that could be **bought**, and the difference between a stock and a production line is the difference between a survey and a time series.
 
 The cost relation follows immediately. For a budget $C$ and a unit cost $c_u$ the achievable sample is $n = C / c_u$, and the standard error of any mean improves as
 
-$$\mathrm{SE} = \frac{\sigma}{\sqrt{n}} = \sigma \sqrt{\frac{c_u}{C}}$$
+$$
+\mathrm{SE} = \frac{\sigma}{\sqrt{n}} = \sigma \sqrt{\frac{c_u}{C}}
+\tag{25}
+$$
 
 so **precision improves as the inverse square root of unit cost at fixed budget**. Halving the price of a flight is worth as much as reducing the instrumental scatter by 30 percent, and is usually easier. The [X-7][related_post_a304_lockheed_x7] rests on the same expendability argument in a different currency. The X-7 bought the right to sample where a crewed vehicle could not go, and the X-8 the right to sample often.
 
@@ -195,29 +270,47 @@ The sustainer burns red fuming nitric acid against a blend that is 65 percent an
 
 The theoretical performance of a propellant combination follows from the exhaust velocity of an ideal expansion, in which the effective exhaust velocity is set by the combustion temperature $T_c$, the mean molecular mass of the products $M$, the ratio of specific heats $\gamma$, and the pressure ratio across the nozzle,
 
-$$c = \sqrt{ \frac{2 \gamma}{\gamma - 1} \cdot \frac{R_u T_c}{M} \left[ 1 - \left( \frac{p_e}{p_c} \right)^{\frac{\gamma-1}{\gamma}} \right] }$$
+$$
+c = \sqrt{ \frac{2 \gamma}{\gamma - 1} \cdot \frac{R_u T_c}{M} \left[ 1 - \left( \frac{p_e}{p_c} \right)^{\frac{\gamma-1}{\gamma}} \right] }
+\tag{26}
+$$
 
 with $R_u$ the universal gas constant, $p_c$ the chamber pressure, and $p_e$ the exit pressure. For nitric acid against an aniline blend the flame temperature is near 2,900 kelvin with products of mean molecular mass near 25 grammes per mole and $\gamma$ near 1.22. At a chamber pressure of 2.8 megapascals expanding to 0.1 megapascals,
 
-$$c = \sqrt{ \frac{2 \times 1.22}{0.22} \cdot \frac{(8.314)(2900)}{0.025} \left[ 1 - \left( \frac{0.1}{2.8} \right)^{0.180} \right] }$$
+$$
+c = \sqrt{ \frac{2 \times 1.22}{0.22} \cdot \frac{(8.314)(2900)}{0.025} \left[ 1 - \left( \frac{0.1}{2.8} \right)^{0.180} \right] }
+\tag{27}
+$$
 
 The bracketed term evaluates to $1 - 0.549 = 0.451$, the leading factor is 11.09, and the specific gas term is $9.644 \times 10^{5}$, so
 
-$$c = \sqrt{ (11.09)(9.644 \times 10^{5})(0.451) } = \sqrt{4.82 \times 10^{6}} = 2196 \, \text{m/s}$$
+$$
+c = \sqrt{ (11.09)(9.644 \times 10^{5})(0.451) } = \sqrt{4.82 \times 10^{6}} = 2196 \, \text{m/s}
+\tag{28}
+$$
 
 corresponding to a theoretical specific impulse, being the exhaust velocity divided by standard gravity,
 
-$$I_{sp} = \frac{c}{g_0} = \frac{2196}{9.81} = 224 \, \text{s}$$
+$$
+I_{sp} = \frac{c}{g_0} = \frac{2196}{9.81} = 224 \, \text{s}
+\tag{29}
+$$
 
 Taking real engines of the period to have delivered roughly 88 to 92 percent of the theoretical figure, the working value used throughout this article is 200 seconds of [specific impulse][ref_specific_impulse], giving an effective exhaust velocity of 1,962 metres per second. The full tradeoff space this choice sits in is the subject of [Rocket Propellant Chemistry, A Design-Tradeoff Space][related_post_a217_rocket_propellant_chemistry]. The thermochemistry behind the figure is the equilibrium calculation of [Gordon and McBride 1959][research_gordon_1959], whose method underlies every performance table of the period, and the propellant class itself is surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and [Sutton 2006 History of Liquid Propellant Rocket Engines][book_sutton_2006]. **This is a poor propellant by any modern standard and it was chosen anyway.** Liquid oxygen and alcohol, flown on the [V-2][ref_v2], gives a higher figure. Performance was not the reason for rejecting it.
 
 [Liquid oxygen][ref_liquid_oxygen] boils at 90 kelvin. A cryogenic vehicle must be loaded shortly before launch, must be topped continuously until it flies, and cannot be held on the tower while a cloud crosses the field of view or a telemetry station reports a fault. The rate at which that matters is computable. Heat leaking into a tank at $\dot{Q}$ boils propellant off at
 
-$$\dot{m}_{\text{boil}} = \frac{\dot{Q}}{h_{fg}} = \frac{U A \left( T_{\infty} - T_{\text{sat}} \right)}{h_{fg}}$$
+$$
+\dot{m}_{\text{boil}} = \frac{\dot{Q}}{h_{fg}} = \frac{U A \left( T_{\infty} - T_{\text{sat}} \right)}{h_{fg}}
+\tag{30}
+$$
 
 For the 0.34 cubic metre tank sized below, whose wetted area is about 3.9 square metres, an uninsulated wall with an overall coefficient near 5 watts per square metre kelvin, and a 210 kelvin temperature difference against a latent heat of 213 kilojoules per kilogramme,
 
-$$\dot{m}_{\text{boil}} = \frac{(5)(3.9)(210)}{2.13 \times 10^{5}} = 0.0192 \, \text{kg/s} = 69 \, \text{kg/h}$$
+$$
+\dot{m}_{\text{boil}} = \frac{(5)(3.9)(210)}{2.13 \times 10^{5}} = 0.0192 \, \text{kg/s} = 69 \, \text{kg/h}
+\tag{31}
+$$
 
 against a liquid oxygen load of about 388 kilogrammes in that volume, which is **18 percent of the oxidiser per hour**. A vehicle held four hours on the tower for weather or for a telemetry fault would lose most of its oxidiser. **Seventy years later the problem is still the problem.** Zero boil-off systems are being pursued by [Zhang et al. 2025e][research_zhang_2025_4], tank pressurisation under thermal load is modelled by [Lan et al. 2024][research_lan_2024], and the achievable rate for an insulated vessel is measured by [Lee et al. 2026][research_lee_2026]. The X-8 solved it by declining to use a cryogen at all, which remains the cheapest solution available to anyone who can accept the performance. Nitric acid and aniline are liquids at ambient temperature and can be loaded and left. **The propellant choice trades performance for operational tempo.** The vehicle makes that trade throughout, and the observing-time relation derived above justifies it. A propellant 12 percent better in exhaust velocity gives 12 percent more observing time. Flying twice as often improves the precision of every mean the programme reports by a factor of $\sqrt{2}$.
 
@@ -229,95 +322,164 @@ The engine is regeneratively cooled and pressure-fed, and Aerojet's account, as 
 
 The difference between vacuum and sea-level thrust is the ambient pressure acting on the exit plane,
 
-$$F_{\text{vac}} - F_{\text{SL}} = p_{\text{amb}} A_e$$
+$$
+F_{\text{vac}} - F_{\text{SL}} = p_{\text{amb}} A_e
+\tag{32}
+$$
 
 so the exit area follows directly,
 
-$$A_e = \frac{(4728 - 4100) \, \text{lbf}}{14.7 \, \text{psi}} = \frac{628}{14.7} = 42.7 \, \text{in}^{2}$$
+$$
+A_e = \frac{(4728 - 4100) \, \text{lbf}}{14.7 \, \text{psi}} = \frac{628}{14.7} = 42.7 \, \text{in}^{2}
+\tag{33}
+$$
 
 which is 0.0276 square metres, an exit diameter of
 
-$$d_e = \sqrt{\frac{4 A_e}{\pi}} = \sqrt{\frac{4 \times 0.0276}{\pi}} = 0.187 \, \text{m}$$
+$$
+d_e = \sqrt{\frac{4 A_e}{\pi}} = \sqrt{\frac{4 \times 0.0276}{\pi}} = 0.187 \, \text{m}
+\tag{34}
+$$
 
 and, at the stated expansion ratio, a throat area and diameter of
 
-$$A_t = \frac{A_e}{\varepsilon} = \frac{0.0276}{4.6} = 6.00 \times 10^{-3} \, \text{m}^{2}, \qquad d_t = 0.0874 \, \text{m}$$
+$$
+A_t = \frac{A_e}{\varepsilon} = \frac{0.0276}{4.6} = 6.00 \times 10^{-3} \, \text{m}^{2}, \qquad d_t = 0.0874 \, \text{m}
+\tag{35}
+$$
 
 The chamber pressure follows from the thrust coefficient, and the thrust coefficient follows from the expansion ratio alone. The area ratio fixes the exit Mach number $M_e$ through the isentropic area relation,
 
-$$\varepsilon = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma+1} \left( 1 + \frac{\gamma-1}{2} M_e^{2} \right) \right]^{\frac{\gamma+1}{2(\gamma-1)}}$$
+$$
+\varepsilon = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma+1} \left( 1 + \frac{\gamma-1}{2} M_e^{2} \right) \right]^{\frac{\gamma+1}{2(\gamma-1)}}
+\tag{36}
+$$
 
 which for $\varepsilon = 4.6$ and $\gamma = 1.22$ inverts to $M_e = 2.76$, and the exit pressure ratio follows,
 
-$$\frac{p_e}{p_c} = \left( 1 + \frac{\gamma-1}{2} M_e^{2} \right)^{-\frac{\gamma}{\gamma-1}} = 0.0344$$
+$$
+\frac{p_e}{p_c} = \left( 1 + \frac{\gamma-1}{2} M_e^{2} \right)^{-\frac{\gamma}{\gamma-1}} = 0.0344
+\tag{37}
+$$
 
 The thrust coefficient is then the momentum term plus the pressure term acting over the exit area,
 
-$$C_F = \sqrt{ \frac{2\gamma^{2}}{\gamma-1} \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma+1}{\gamma-1}} \left[ 1 - \left( \frac{p_e}{p_c} \right)^{\frac{\gamma-1}{\gamma}} \right] } + \left( \frac{p_e - p_a}{p_c} \right) \varepsilon$$
+$$
+C_F = \sqrt{ \frac{2\gamma^{2}}{\gamma-1} \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma+1}{\gamma-1}} \left[ 1 - \left( \frac{p_e}{p_c} \right)^{\frac{\gamma-1}{\gamma}} \right] } + \left( \frac{p_e - p_a}{p_c} \right) \varepsilon
+\tag{38}
+$$
 
 The momentum term evaluates to 1.466, so the vacuum value is
 
-$$C_{F,\text{vac}} = 1.466 + (0.0344)(4.6) = 1.624$$
+$$
+C_{F,\text{vac}} = 1.466 + (0.0344)(4.6) = 1.624
+\tag{39}
+$$
 
 The sea-level value cannot be stated independently of the chamber pressure, because the ambient term contains $p_c$ in its denominator, so the two must be solved together. Setting the sea-level thrust to its reported 4,100 pounds, which is 18,237 newtons,
 
-$$F_{\text{SL}} = \left[ C_{F,\text{vac}} - \frac{p_a \varepsilon}{p_c} \right] p_c A_t = C_{F,\text{vac}} \, p_c A_t - p_a A_e$$
+$$
+F_{\text{SL}} = \left[ C_{F,\text{vac}} - \frac{p_a \varepsilon}{p_c} \right] p_c A_t = C_{F,\text{vac}} \, p_c A_t - p_a A_e
+\tag{40}
+$$
 
-$$p_c = \frac{F_{\text{SL}} + p_a A_e}{C_{F,\text{vac}} A_t} = \frac{18237 + (101325)(0.02756)}{(1.624)(5.99 \times 10^{-3})} = 2.16 \times 10^{6} \, \text{Pa}$$
+$$
+p_c = \frac{F_{\text{SL}} + p_a A_e}{C_{F,\text{vac}} A_t} = \frac{18237 + (101325)(0.02756)}{(1.624)(5.99 \times 10^{-3})} = 2.16 \times 10^{6} \, \text{Pa}
+\tag{41}
+$$
 
 giving a sea-level coefficient of
 
-$$C_{F,\text{SL}} = 1.624 - \frac{(101325)(4.6)}{2.16 \times 10^{6}} = 1.409$$
+$$
+C_{F,\text{SL}} = 1.624 - \frac{(101325)(4.6)}{2.16 \times 10^{6}} = 1.409
+\tag{42}
+$$
 
 **The chain has an independent check.** Carrying the same chamber pressure back to vacuum gives
 
-$$F_{\text{vac}} = C_{F,\text{vac}} \, p_c A_t = (1.624)(2.16 \times 10^{6})(5.99 \times 10^{-3}) = 21{,}030 \, \text{N} = 4727 \, \text{lbf}$$
+$$
+F_{\text{vac}} = C_{F,\text{vac}} \, p_c A_t = (1.624)(2.16 \times 10^{6})(5.99 \times 10^{-3}) = 21{,}030 \, \text{N} = 4727 \, \text{lbf}
+\tag{43}
+$$
 
 against the separately reported 4,728 pounds, which agrees to one pound in four thousand. The chamber pressure is therefore 2.16 megapascals, or about 313 pounds per square inch. **That is a very low chamber pressure**, a direct consequence of the feed system.
 
 The nozzle is also overexpanded at sea level, since the exit pressure of
 
-$$p_e = 0.0344 \, p_c = (0.0344)(2.16 \times 10^{6}) = 74.3 \, \text{kPa}$$
+$$
+p_e = 0.0344 \, p_c = (0.0344)(2.16 \times 10^{6}) = 74.3 \, \text{kPa}
+\tag{44}
+$$
 
 sits below the 101.3 kilopascal ambient. The ratio $p_e / p_a$ of 0.73 is comfortably above the value near 0.4 at which the boundary layer separates from the wall, so the nozzle runs full and the penalty is confined to the pressure term already accounted for. Separation in overexpanded nozzles remains a design concern for larger vehicles, where the side loads it generates are structurally significant, and modern treatments of it include [Zebiri et al. 2020][research_zebiri_2020], [Yu et al. 2023][research_yu_2023_2], and [Yang et al. 2023b][research_yang_2023_2].
 
 The characteristic velocity, which measures the quality of the combustion independently of the nozzle, is
 
-$$c^{*} = \frac{p_c A_t}{\dot{m}}$$
+$$
+c^{*} = \frac{p_c A_t}{\dot{m}}
+\tag{45}
+$$
 
 and with the mass flow implied by 4,100 pounds of thrust at 200 seconds of specific impulse,
 
-$$\dot{m} = \frac{F}{I_{sp} g_0} = \frac{(4100)(4.448)}{1962} = 9.29 \, \text{kg/s}$$
+$$
+\dot{m} = \frac{F}{I_{sp} g_0} = \frac{(4100)(4.448)}{1962} = 9.29 \, \text{kg/s}
+\tag{46}
+$$
 
-$$c^{*} = \frac{(2.16 \times 10^{6})(5.99 \times 10^{-3})}{9.29} = 1393 \, \text{m/s}$$
+$$
+c^{*} = \frac{(2.16 \times 10^{6})(5.99 \times 10^{-3})}{9.29} = 1393 \, \text{m/s}
+\tag{47}
+$$
 
 The theoretical value it should be compared against comes from the choked-flow condition at the throat, where the mass flow through a sonic throat is fixed by the chamber conditions alone,
 
-$$\dot{m} = \frac{p_c A_t}{\sqrt{R T_c}} \, \Gamma, \qquad \Gamma = \sqrt{\gamma} \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma+1}{2(\gamma-1)}}$$
+$$
+\dot{m} = \frac{p_c A_t}{\sqrt{R T_c}} \, \Gamma, \qquad \Gamma = \sqrt{\gamma} \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma+1}{2(\gamma-1)}}
+\tag{48}
+$$
 
 in which $R$ is the specific gas constant of the products. Comparing this with the definition of $c^{*}$ shows that the characteristic velocity is a property of the combustion gas and nothing else,
 
-$$c^{*}_{\text{ideal}} = \frac{\sqrt{R T_c}}{\Gamma}$$
+$$
+c^{*}_{\text{ideal}} = \frac{\sqrt{R T_c}}{\Gamma}
+\tag{49}
+$$
 
 For $\gamma = 1.22$ the flow factor is $\Gamma = 0.652$, and with a specific gas constant of $8.314 / 0.025 = 333$ joules per kilogramme kelvin at 2,900 kelvin,
 
-$$c^{*}_{\text{ideal}} = \frac{\sqrt{(333)(2900)}}{0.652} = \frac{982}{0.652} = 1505 \, \text{m/s}$$
+$$
+c^{*}_{\text{ideal}} = \frac{\sqrt{(333)(2900)}}{0.652} = \frac{982}{0.652} = 1505 \, \text{m/s}
+\tag{50}
+$$
 
 and the combustion efficiency is therefore
 
-$$\eta_{c^{*}} = \frac{1393}{1505} = 0.926$$
+$$
+\eta_{c^{*}} = \frac{1393}{1505} = 0.926
+\tag{51}
+$$
 
 or about 93 percent. That is respectable for a 1950s injector and consistent with the injection studies of [Heidmann and Auble 1955][research_heidmann_1955] and the vaporisation-limited analysis of [Heidmann 1957][research_heidmann_1957]. The nozzle relations used here follow [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016] and [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible], and the expansion-ratio effect on delivered performance was tabulated for the period by [Morrell 1956][research_morrell_1956]. The cooling problem that produced those burnouts can be sized. The gas-side heat transfer coefficient at a rocket throat follows the correlation of Bartz, which for a throat diameter $d_t$, viscosity $\mu$, specific heat $c_p$, and Prandtl number $\mathrm{Pr}$ is
 
-$$h_g = \frac{0.026}{d_t^{0.2}} \left( \frac{\mu^{0.2} c_p}{\mathrm{Pr}^{0.6}} \right) \left( \frac{p_c}{c^{*}} \right)^{0.8}$$
+$$
+h_g = \frac{0.026}{d_t^{0.2}} \left( \frac{\mu^{0.2} c_p}{\mathrm{Pr}^{0.6}} \right) \left( \frac{p_c}{c^{*}} \right)^{0.8}
+\tag{52}
+$$
 
 Taking a viscosity of $8 \times 10^{-5}$ pascal seconds, a specific heat of 1,900 joules per kilogramme kelvin, and a Prandtl number of 0.8,
 
-$$h_g = \frac{0.026}{(0.0874)^{0.2}} \left( \frac{(8 \times 10^{-5})^{0.2}(1900)}{(0.8)^{0.6}} \right) \left( \frac{2.16 \times 10^{6}}{1393} \right)^{0.8} = 4900 \, \text{W/m}^{2}\text{K}$$
+$$
+h_g = \frac{0.026}{(0.0874)^{0.2}} \left( \frac{(8 \times 10^{-5})^{0.2}(1900)}{(0.8)^{0.6}} \right) \left( \frac{2.16 \times 10^{6}}{1393} \right)^{0.8} = 4900 \, \text{W/m}^{2}\text{K}
+\tag{53}
+$$
 
 and against a gas-to-wall temperature difference of about 1,900 kelvin the throat heat flux is
 
-$$q_t = h_g \left( T_{aw} - T_w \right) = (4900)(1900) = 9.3 \, \text{MW/m}^{2}$$
+$$
+q_t = h_g \left( T_{aw} - T_w \right) = (4900)(1900) = 9.3 \, \text{MW/m}^{2}
+\tag{54}
+$$
 
 Estimating that flux remains an open research problem. [Concio et al. 2023][research_concio_2023] compute throat heat flux numerically for an oxygen and methane chamber, [Shin et al. 2022][research_shin_2022] compare the semi-empirical coefficients against measurement, [Perakis and Haidn 2019][research_perakis_2019] invert the problem to recover the flux from wall temperatures, and [Pizzarelli and Battista 2023][research_pizzarelli_2023] review the experimental base. **The correlation this article uses dates from 1957 and remains the first one anyone reaches for**, a fair summary of how little the underlying physics has moved.
 
@@ -331,31 +493,49 @@ A liquid engine must deliver propellant to the chamber at above chamber pressure
 
 The mass penalty of the second approach is computable. A tank of volume $V$ held at pressure $p$, built of a material with density $\rho_m$ and allowable stress $\sigma_a$, has a wall mass that for a thin-walled vessel of any shape approaches
 
-$$m_{\text{tank}} = k \frac{\rho_m}{\sigma_a} p V$$
+$$
+m_{\text{tank}} = k \frac{\rho_m}{\sigma_a} p V
+\tag{55}
+$$
 
 with $k$ equal to 3 for a sphere and 2 for a long cylinder with hemispherical ends. The ratio $\sigma_a / \rho_m$ is the specific strength, and for the aluminium alloys available in 1946 at an allowable of 200 megapascals and a density of 2,800 kilogrammes per cubic metre it is $7.1 \times 10^{4}$ square metres per second squared.
 
 For a cylindrical propellant tank of 0.38 metres diameter and 3 metres length, the volume is
 
-$$V = \frac{\pi d^{2}}{4} L = \frac{\pi (0.38)^{2}}{4} (3) = 0.340 \, \text{m}^{3}$$
+$$
+V = \frac{\pi d^{2}}{4} L = \frac{\pi (0.38)^{2}}{4} (3) = 0.340 \, \text{m}^{3}
+\tag{56}
+$$
 
 and at an ullage pressure of 3.1 megapascals, which must exceed the 2.16 megapascal chamber pressure by the injector and line losses,
 
-$$m_{\text{tank}} = 2 \times \frac{2800}{2 \times 10^{8}} \times (3.1 \times 10^{6})(0.340) = 29.5 \, \text{kg}$$
+$$
+m_{\text{tank}} = 2 \times \frac{2800}{2 \times 10^{8}} \times (3.1 \times 10^{6})(0.340) = 29.5 \, \text{kg}
+\tag{57}
+$$
 
 against a propellant load in that tank of roughly 400 kilogrammes, so the tank is about 7 percent of what it holds. The relation is the standard pressure-vessel result given in [Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992] and [Timoshenko and Gere 1961 Theory of Elastic Stability][book_timoshenko_gere_1961]. **A turbopump would reduce that to perhaps 2 percent, and on this argument it would cost more than the entire vehicle.** [Krebs and Hart 1959][research_krebs_1959] analyse the starting dynamics that a pumped system must survive and a pressure-fed one need not. For a launch vehicle flown hundreds of times the pump wins. For a vehicle thrown away after 45 seconds it does not, and no other design decision in the series is so clearly correct only because of how the vehicle is used.
 
 The pressurant itself is not free. A gas of molecular mass $M_g$ expanded from a storage bottle to fill a volume $V$ at pressure $p$ carries a mass
 
-$$m_{\text{gas}} = \frac{p V M_g}{Z R_u T}$$
+$$
+m_{\text{gas}} = \frac{p V M_g}{Z R_u T}
+\tag{58}
+$$
 
 with $Z$ the compressibility factor. For helium at 3.1 megapascals filling 0.34 cubic metres at 300 kelvin,
 
-$$m_{\text{gas}} = \frac{(3.1 \times 10^{6})(0.34)(4.003 \times 10^{-3})}{(1)(8.314)(300)} = 1.69 \, \text{kg}$$
+$$
+m_{\text{gas}} = \frac{(3.1 \times 10^{6})(0.34)(4.003 \times 10^{-3})}{(1)(8.314)(300)} = 1.69 \, \text{kg}
+\tag{59}
+$$
 
 whereas the same job done with air, of molecular mass 29 grammes per mole, requires
 
-$$m_{\text{air}} = 1.69 \times \frac{29}{4.003} = 12.2 \, \text{kg}$$
+$$
+m_{\text{air}} = 1.69 \times \frac{29}{4.003} = 12.2 \, \text{kg}
+\tag{60}
+$$
 
 **Helium saves 10.5 kilogrammes of gas in each tank**, and the earliest Aerobees used compressed air while the vehicles from 1950 onward used helium \[[Wade][ref_astronautix_aerobee]\]. According to [Parsch][ref_parsch_aerobee_hi], the change from the XASR-1 to the XASR-2 was this substitution.
 
@@ -365,25 +545,40 @@ Chemical pressurisation, in which a small gas generator supplies hot gas, saves 
 
 The velocity required at burnout follows from the reported apogee. Treating the coast as drag-free with gravity varying slowly,
 
-$$v_b = \sqrt{2 \bar{g} \left( h_a - h_b \right)}$$
+$$
+v_b = \sqrt{2 \bar{g} \left( h_a - h_b \right)}
+\tag{61}
+$$
 
 with $\bar{g}$ the mean gravitational acceleration over the arc, which for 31.5 to 116 kilometres is about 9.6 metres per second squared,
 
-$$v_b = \sqrt{2 (9.6) \left( 116 - 31.5 \right) \times 10^{3}} = \sqrt{1.622 \times 10^{6}} = 1274 \, \text{m/s}$$
+$$
+v_b = \sqrt{2 (9.6) \left( 116 - 31.5 \right) \times 10^{3}} = \sqrt{1.622 \times 10^{6}} = 1274 \, \text{m/s}
+\tag{62}
+$$
 
 against the reported burnout velocity of 1,347 metres per second. The reported figure is 5.7 percent higher, the drag the coast analysis omits, and the sign is correct.
 
 The velocity increment the propulsion must supply exceeds this by the gravity and drag losses accumulated during the burn. Gravity loss for near-vertical flight is
 
-$$\Delta v_g = \int_0^{t_b} g \cos \gamma \, \mathrm{d}t \approx \bar{g} \, t_b$$
+$$
+\Delta v_g = \int_0^{t_b} g \cos \gamma \, \mathrm{d}t \approx \bar{g} \, t_b
+\tag{63}
+$$
 
 with $\gamma$ the angle between the velocity vector and the vertical, which for a tower canted three degrees stays small. Over a 42.5 second burn at a mean $g$ of 9.75,
 
-$$\Delta v_g = (9.75)(42.5) = 414 \, \text{m/s}$$
+$$
+\Delta v_g = (9.75)(42.5) = 414 \, \text{m/s}
+\tag{64}
+$$
 
 **Gravity loss is 31 percent of the useful burnout velocity**, so a sounding rocket burns hard and briefly rather than gently and long. Drag loss over the same interval is taken here as roughly 130 metres per second, inside the range of 60 to 150 that the drag section estimates, so the ideal velocity increment required is
 
-$$\Delta v_{\text{ideal}} = 1347 + 414 + 130 = 1891 \, \text{m/s}$$
+$$
+\Delta v_{\text{ideal}} = 1347 + 414 + 130 = 1891 \, \text{m/s}
+\tag{65}
+$$
 
 ### Whether the Published Figures Close
 
@@ -391,35 +586,56 @@ The published parameter set can now be tested, and the test needs care because a
 
 Treating the vehicle as a single stage, the total impulse available is
 
-$$I_{\text{tot}} = F_b t_b + F_s t_s = (80.1)(2.5) + (11.6)(40) = 200 + 464 = 664 \, \text{kN} \cdot \text{s}$$
+$$
+I_{\text{tot}} = F_b t_b + F_s t_s = (80.1)(2.5) + (11.6)(40) = 200 + 464 = 664 \, \text{kN} \cdot \text{s}
+\tag{66}
+$$
 
 and at an effective exhaust velocity of 1,962 metres per second this corresponds to a propellant mass of
 
-$$m_p = \frac{I_{\text{tot}}}{c} = \frac{6.64 \times 10^{5}}{1962} = 338 \, \text{kg}$$
+$$
+m_p = \frac{I_{\text{tot}}}{c} = \frac{6.64 \times 10^{5}}{1962} = 338 \, \text{kg}
+\tag{67}
+$$
 
 Taking a booster inert mass of 150 kilogrammes, the single-stage mass ratio is
 
-$$R = \frac{745}{745 - 338 - 150} = \frac{745}{257} = 2.90$$
+$$
+R = \frac{745}{745 - 338 - 150} = \frac{745}{257} = 2.90
+\tag{68}
+$$
 
 giving $\Delta v_{\text{ideal}} = 1962 \ln 2.90 = 2088$ metres per second, which exceeds the 1,891 required. **The figures close, but only because the booster mass is jettisoned**, and treating the vehicle as a single stage without that jettison gives a mass ratio of $745/407 = 1.83$ and an increment of 1,185 metres per second, which fails by a wide margin.
 
 Doing the staging properly gives a sharper check. The booster consumes, at a solid effective exhaust velocity of 2,060 metres per second,
 
-$$m_{p,b} = \frac{2.00 \times 10^{5}}{2060} = 97 \, \text{kg}$$
+$$
+m_{p,b} = \frac{2.00 \times 10^{5}}{2060} = 97 \, \text{kg}
+\tag{69}
+$$
 
 so during the 2.5 second boost the mass falls from 745 to 648 kilogrammes and the increment is
 
-$$\Delta v_1 = \frac{F_b}{\dot{m}_b} \ln \frac{745}{648} = \frac{80100}{38.8} \ln (1.150) = (2064)(0.1395) = 288 \, \text{m/s}$$
+$$
+\Delta v_1 = \frac{F_b}{\dot{m}_b} \ln \frac{745}{648} = \frac{80100}{38.8} \ln (1.150) = (2064)(0.1395) = 288 \, \text{m/s}
+\tag{70}
+$$
 
 less a gravity loss of 24 metres per second, leaving 264 metres per second at booster separation. Jettisoning 150 kilogrammes of spent booster leaves a sustainer stage of 498 kilogrammes, and **this figure is an independent confirmation**, because the sustainer stage mass is separately reported in [Aerojet General X-8][ref_aerojet_x8] as approximately 1,100 pounds, which is 499 kilogrammes.
 
 The sustainer then burns, at 11.6 kilonewtons for 40 seconds and the same exhaust velocity, 236.5 kilogrammes of propellant, leaving 261.5 kilogrammes at burnout and giving
 
-$$\Delta v_2 = 1962 \ln \frac{498}{261.5} = (1962)(0.644) = 1264 \, \text{m/s}$$
+$$
+\Delta v_2 = 1962 \ln \frac{498}{261.5} = (1962)(0.644) = 1264 \, \text{m/s}
+\tag{71}
+$$
 
 less a gravity loss of $(9.75)(40) = 390$ metres per second, so the burnout velocity is
 
-$$v_b = 264 + 1264 - 390 - \Delta v_{\text{drag}} = 1138 - \Delta v_{\text{drag}}$$
+$$
+v_b = 264 + 1264 - 390 - \Delta v_{\text{drag}} = 1138 - \Delta v_{\text{drag}}
+\tag{72}
+$$
 
 Against the reported 1,347 metres per second this leaves no velocity for drag at all, and the reconstruction falls 209 metres per second short before any drag is counted. **The staged reconstruction does not reproduce the reported burnout velocity at a 40 second burn**, which means one or more of the assumed values is off. The candidates are the booster inert mass, which is assumed rather than reported, the sustainer burn time, which [Aerojet General X-8][ref_aerojet_x8] gives as up to 40 seconds for this engine while [Parsch][ref_parsch_aerobee_hi] gives 45 seconds for the XASR-1 and [Parsch 2004a][ref_parsch_aerobee] 51.5 seconds for the later AJ11 sustainer, and the specific impulse, which is inferred rather than measured. The burn time alone can carry the discrepancy. At 51.5 seconds the same reconstruction gives 1,616 metres per second less drag, and with a drag loss between 60 and 150 metres per second it reaches the reported figure at a burn between 47 and 49 seconds, which lies between the published 45 and 51.5 seconds. The discrepancy stands, and the Epistemic State carries it forward.
 
@@ -429,67 +645,115 @@ An unguided fin-stabilised rocket is stable only when the fins are working, and 
 
 The exit velocity from a tower of length $L$ under a constant net acceleration $a$ is
 
-$$v_e = \sqrt{2 a L}$$
+$$
+v_e = \sqrt{2 a L}
+\tag{73}
+$$
 
 and the net acceleration during boost, with the booster thrust acting on the full liftoff mass against gravity, is
 
-$$a = \frac{F_b + F_s}{m_0} - g = \frac{80.1 \times 10^{3} + 11.6 \times 10^{3}}{745} - 9.81 = 123.1 - 9.8 = 113.3 \, \text{m/s}^{2}$$
+$$
+a = \frac{F_b + F_s}{m_0} - g = \frac{80.1 \times 10^{3} + 11.6 \times 10^{3}}{745} - 9.81 = 123.1 - 9.8 = 113.3 \, \text{m/s}^{2}
+\tag{74}
+$$
 
 which is 11.5 times gravity. The tower from which the X-8 normally flew at Holloman is reported by [Mattson and Tagg 1995][ref_mattson_tagg_1995] as 143 feet, which is 43.6 metres, giving
 
-$$v_e = \sqrt{2 (113.3)(43.6)} = \sqrt{9880} = 99.4 \, \text{m/s}$$
+$$
+v_e = \sqrt{2 (113.3)(43.6)} = \sqrt{9880} = 99.4 \, \text{m/s}
+\tag{75}
+$$
 
 and a time on the tower of
 
-$$t_e = \frac{v_e}{a} = \frac{99.4}{113.3} = 0.88 \, \text{s}$$
+$$
+t_e = \frac{v_e}{a} = \frac{99.4}{113.3} = 0.88 \, \text{s}
+\tag{76}
+$$
 
 **The tower does its work in under a second.** Launcher design for this class of vehicle is set out in [Groteluschen 1967][research_groteluschen_1967], and the tower installations are described for the mobile case by [Busse 1966][research_busse_1966_3] and for a fixed high-latitude site by [Tarzwell 1970][research_tarzwell_1970]. [Lee and Wilms 1961][research_lee_1961] model the launcher as a flexible structure carrying a departing vehicle, and those dynamics set the tip-off rate this analysis assumes away. Whether 99 metres per second is enough follows from the weathercock angle a crosswind induces. A vehicle moving at $v_e$ through a crosswind $w$ experiences an angle of attack
 
-$$\alpha_w = \arctan \frac{w}{v_e}$$
+$$
+\alpha_w = \arctan \frac{w}{v_e}
+\tag{77}
+$$
 
 which for a ten metre per second crosswind gives
 
-$$\alpha_w = \arctan \frac{10}{99.4} = 5.7^{\circ}$$
+$$
+\alpha_w = \arctan \frac{10}{99.4} = 5.7^{\circ}
+\tag{78}
+$$
 
 That is tolerable. The same crosswind against a rail launcher releasing at 30 metres per second gives 18.4 degrees, which is not. The Aerobee therefore needed a tower, and the later solid-boosted vehicles did not. [Parsch][ref_parsch_aerobee_hi] names the large launch tower as the Aerobee's chief drawback and the reason solid rockets displaced it at remote sites.
 
 The restoring moment available at tower exit can be checked directly. Taking the normal-force curve slope $C_{N\alpha}$ of the body and three fins together as 12 per radian, a reference area $S$ of $\pi (0.19)^{2} = 0.1134$ square metres, a static margin $x_{cp} - x_{cg}$ of 1.5 calibres, which is 0.57 metres, and a pitch moment of inertia $I_y$ of 3,000 kilogramme square metres for a 7.9 metre vehicle, the aerodynamic restoring stiffness is
 
-$$M_{\alpha} = q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)$$
+$$
+M_{\alpha} = q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)
+\tag{79}
+$$
 
 with the dynamic pressure at tower exit at the 1,200 metre elevation of the range, where the density is 1.06 kilogrammes per cubic metre,
 
-$$q = \tfrac{1}{2} \rho v_e^{2} = \tfrac{1}{2} (1.06)(99.4)^{2} = 5237 \, \text{Pa}$$
+$$
+q = \tfrac{1}{2} \rho v_e^{2} = \tfrac{1}{2} (1.06)(99.4)^{2} = 5237 \, \text{Pa}
+\tag{80}
+$$
 
-$$M_{\alpha} = (5237)(0.1134)(12)(0.57) = 4061 \, \text{N} \cdot \text{m/rad}$$
+$$
+M_{\alpha} = (5237)(0.1134)(12)(0.57) = 4061 \, \text{N} \cdot \text{m/rad}
+\tag{81}
+$$
 
 giving a pitch natural frequency of
 
-$$\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{4061}{3000}} = 1.16 \, \text{rad/s}$$
+$$
+\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{4061}{3000}} = 1.16 \, \text{rad/s}
+\tag{82}
+$$
 
 and a period of 5.4 seconds. That frequency is the natural frequency of a second-order system, and writing the system down shows what else it contains. For small angles the pitch motion obeys
 
-$$I_y \ddot{\alpha} + \left( \frac{q S \, C_{N\alpha} \left( x_{cp} - x_{cg} \right)^{2}}{v} \right) \dot{\alpha} + q S C_{N\alpha} \left( x_{cp} - x_{cg} \right) \alpha = 0$$
+$$
+I_y \ddot{\alpha} + \left( \frac{q S \, C_{N\alpha} \left( x_{cp} - x_{cg} \right)^{2}}{v} \right) \dot{\alpha} + q S C_{N\alpha} \left( x_{cp} - x_{cg} \right) \alpha = 0
+\tag{83}
+$$
 
 in which the middle term is the aerodynamic damping produced by the fins meeting the flow at the extra angle a pitch rate induces. Written in standard form,
 
-$$\ddot{\alpha} + 2 \zeta \omega_n \dot{\alpha} + \omega_n^{2} \alpha = 0, \qquad \zeta = \frac{M_q}{2 \sqrt{M_{\alpha} I_y}}$$
+$$
+\ddot{\alpha} + 2 \zeta \omega_n \dot{\alpha} + \omega_n^{2} \alpha = 0, \qquad \zeta = \frac{M_q}{2 \sqrt{M_{\alpha} I_y}}
+\tag{84}
+$$
 
 with the damping coefficient
 
-$$M_q = \frac{q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)^{2}}{v} = \frac{(5237)(0.1134)(12)(0.57)^{2}}{99.4} = 23.3 \, \text{N} \cdot \text{m} \cdot \text{s/rad}$$
+$$
+M_q = \frac{q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)^{2}}{v} = \frac{(5237)(0.1134)(12)(0.57)^{2}}{99.4} = 23.3 \, \text{N} \cdot \text{m} \cdot \text{s/rad}
+\tag{85}
+$$
 
 so at tower exit
 
-$$\zeta = \frac{23.3}{2\sqrt{(4061)(3000)}} = 0.0033$$
+$$
+\zeta = \frac{23.3}{2\sqrt{(4061)(3000)}} = 0.0033
+\tag{86}
+$$
 
 **The vehicle is damped to a third of one percent of critical.** The number of cycles required to halve an oscillation is
 
-$$N_{1/2} = \frac{\ln 2}{2 \pi \zeta} = \frac{0.693}{2\pi (0.0033)} = 33$$
+$$
+N_{1/2} = \frac{\ln 2}{2 \pi \zeta} = \frac{0.693}{2\pi (0.0033)} = 33
+\tag{87}
+$$
 
 which at a 5.4 second period is about three minutes, longer than the powered flight. **An unguided finned rocket does not damp its pitch oscillation aerodynamically in any useful sense.** What suppresses the motion is the rising dynamic pressure, which raises $\omega_n$ and shrinks the amplitude an initial disturbance corresponds to, together with the averaging effect of roll. The damping ratio itself gets worse with altitude, since $M_q$ scales as $\rho v$ while $\sqrt{M_{\alpha} I_y}$ scales as $v \sqrt{\rho}$, so
 
-$$\zeta \propto \sqrt{\rho}$$
+$$
+\zeta \propto \sqrt{\rho}
+\tag{88}
+$$
 
 **The vehicle leaving the tower has a pitch period six times longer than the time it spent on the tower.** The tower does not make it stable. It holds the attitude until the restoring moment is merely nonzero, after which the acceleration does the rest, since the dynamic pressure at 300 metres per second is nine times higher and the frequency three times higher.
 
@@ -497,33 +761,54 @@ $$\zeta \propto \sqrt{\rho}$$
 
 The static margin above was assumed. It is set by the fins, and the relation that sets it was worked out for finned rockets of this kind. The centre of pressure of the whole vehicle is the normal-force-weighted mean of the contributions of the nose, body, and fins,
 
-$$x_{cp} = \frac{\sum_i C_{N\alpha,i} \, x_i}{\sum_i C_{N\alpha,i}}$$
+$$
+x_{cp} = \frac{\sum_i C_{N\alpha,i} \, x_i}{\sum_i C_{N\alpha,i}}
+\tag{89}
+$$
 
 For a slender body at small angle of attack the nose contributes, by slender-body theory, a normal-force slope of 2 per radian referenced to the base area, acting at roughly two thirds of the nose length. A cylindrical body contributes almost nothing in potential flow. A set of fins of exposed semi-span $s$ on a body of radius $r$ contributes
 
-$$C_{N\alpha,\text{fin}} = \frac{4 n \left( s / d \right)^{2}}{1 + \sqrt{1 + \left( \frac{2 \ell}{c_r + c_t} \right)^{2}}} \cdot K_{fb}$$
+$$
+C_{N\alpha,\text{fin}} = \frac{4 n \left( s / d \right)^{2}}{1 + \sqrt{1 + \left( \frac{2 \ell}{c_r + c_t} \right)^{2}}} \cdot K_{fb}
+\tag{90}
+$$
 
 with $n$ the number of fins, $\ell$ the mid-chord sweep length, $c_r$ and $c_t$ the root and tip chords, and $K_{fb}$ the fin-body interference factor
 
-$$K_{fb} = 1 + \frac{r}{s + r}$$
+$$
+K_{fb} = 1 + \frac{r}{s + r}
+\tag{91}
+$$
 
 For the X-8, with three fins, as [Mattson and Tagg 1995][ref_mattson_tagg_1995] describe it, and a fin span of 1.6 metres across a 0.38 metre body, the exposed semi-span is $s = (1.6 - 0.38)/2 = 0.61$ metres, so
 
-$$K_{fb} = 1 + \frac{0.19}{0.61 + 0.19} = 1.24$$
+$$
+K_{fb} = 1 + \frac{0.19}{0.61 + 0.19} = 1.24
+\tag{92}
+$$
 
 and taking a root chord of 0.9 metres, a tip chord of 0.4 metres, and a mid-chord sweep length of 0.5 metres,
 
-$$C_{N\alpha,\text{fin}} = \frac{4 (3) \left( 0.61 / 0.38 \right)^{2}}{1 + \sqrt{1 + \left( \frac{1.0}{1.3} \right)^{2}}} (1.24) = \frac{30.9}{2.262} (1.24) = 17.0$$
+$$
+C_{N\alpha,\text{fin}} = \frac{4 (3) \left( 0.61 / 0.38 \right)^{2}}{1 + \sqrt{1 + \left( \frac{1.0}{1.3} \right)^{2}}} (1.24) = \frac{30.9}{2.262} (1.24) = 17.0
+\tag{93}
+$$
 
 which with the nose contribution of 2 gives a total near 19 per radian referenced to base area, or roughly half that at the low supersonic Mach numbers where compressibility reduces the fin effectiveness. **The value of 12 per radian assumed in the tower calculation therefore lies between the low-speed figure and the supersonic one**, and the low-speed value is about half again as large. The dependence matters because it means the vehicle becomes relatively less stable as it accelerates, which is the opposite of the intuition that speed helps.
 
 The sign of the static margin decides whether the vehicle flies at all. If the centre of pressure moves ahead of the centre of gravity the restoring stiffness reverses sign, the characteristic roots become real and of opposite sign, and the angle of attack grows exponentially with time constant
 
-$$\tau_{\text{div}} = \sqrt{\frac{I_y}{\left| M_{\alpha} \right|}}$$
+$$
+\tau_{\text{div}} = \sqrt{\frac{I_y}{\left| M_{\alpha} \right|}}
+\tag{94}
+$$
 
 For the values above that is
 
-$$\tau_{\text{div}} = \sqrt{\frac{3000}{4061}} = 0.86 \, \text{s}$$
+$$
+\tau_{\text{div}} = \sqrt{\frac{3000}{4061}} = 0.86 \, \text{s}
+\tag{95}
+$$
 
 **A statically unstable vehicle of this size departs in under a second and is unrecoverable in three.** The first complete Aerobee was terminated 35 seconds into flight with the tail yawing, which is forty time constants, so whatever went wrong was not a static divergence of this kind, and [Fraser 1985][ref_fraser_1985] traces the deviation to a jet condition in the booster nozzle. The centre of pressure sits close to the fins, since they dominate the sum, and the centre of gravity moves forward as propellant is consumed from tanks that straddle it. The static margin therefore changes throughout the burn, and the requirement is that it stay positive and bounded at every instant rather than at any single one. This formulation follows [Barrowman 1967][research_barrowman_1967] for finned vehicles, and [Barrowman 1982][research_barrowman_1982] gives his later treatment aimed specifically at this vehicle class. It takes textbook form in [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2001 Fundamentals of Aerodynamics][book_anderson_2001_fundamentals]. The free-flight rocket-model technique that the National Advisory Committee for Aeronautics, abbreviated NACA, developed in this period, and that [Stone and Sandahl 1951][research_stone_1951] and [Gillis and Mitchell 1957][research_gillis_1957] describe, was the standard means of measuring these coefficients before wind tunnels reached the relevant Mach numbers, with the fin-configuration measurements of [Keynton 1961][research_keynton_1961], [Jaquet 1961][research_jaquet_1961], and [Robinson 1961][research_robinson_1961] filling in the cases the theory did not cover. Thick-wedge fins with swept leading edges, the Aerobee planform, were measured directly by [Yuska 1966][research_yuska_1966], and [Trescot et al. 1973][research_trescot_1973] examine the effect of planform on a wingless missile of the same general shape. [Moore 1972][research_moore_1972] provides the body contribution that the fin terms are added to, across the full speed range this vehicle passes through.
 
@@ -533,49 +818,79 @@ The X-8 has [no guidance][ref_aerojet_x8]. Where it lands is determined entirely
 
 Three sources dominate. The first is the launcher setting itself, since an elevation error $\delta\theta$ on a ballistic trajectory of range $X$ produces a range error
 
-$$\Delta X = \frac{\partial X}{\partial \theta} \delta \theta = \frac{2 v_b^{2} \cos 2\theta}{g} \delta \theta$$
+$$
+\Delta X = \frac{\partial X}{\partial \theta} \delta \theta = \frac{2 v_b^{2} \cos 2\theta}{g} \delta \theta
+\tag{96}
+$$
 
 which for a nearly vertical launch is small in range and large in azimuth sensitivity, the opposite of an artillery problem.
 
 The second is thrust misalignment. A lateral thrust component arising from a nozzle angular misalignment $\epsilon$ imparts a lateral acceleration $F\epsilon/m$ throughout the burn. Without roll this accumulates directly,
 
-$$\Delta v_{\perp} = \int_0^{t_b} \frac{F \epsilon}{m} \, \mathrm{d}t \approx \epsilon \, \Delta v$$
+$$
+\Delta v_{\perp} = \int_0^{t_b} \frac{F \epsilon}{m} \, \mathrm{d}t \approx \epsilon \, \Delta v
+\tag{97}
+$$
 
 so a misalignment of one milliradian against an ideal increment of 1,900 metres per second gives 1.9 metres per second of lateral velocity, which over a 400 second flight is 760 metres of impact displacement. **A tenth of a degree of nozzle misalignment moves the impact point by more than a kilometre.**
 
 The third is wind. A statically stable rocket weathercocks into the relative wind, so a wind layer of speed $w$ encountered while the vehicle is still slow turns the velocity vector rather than merely displacing it, and the resulting dispersion is far larger than the wind speed alone suggests. The correction, called wind weighting, computes a launcher setting that cancels the integrated effect of the measured wind profile. The effect can be derived in a few lines. A statically stable vehicle holds its axis along the relative wind, so every increment of speed it gains is added along an axis tilted by $w/v$ from the vertical. Integrating that tilt over the burn gives a lateral velocity
 
-$$\Delta v_{\perp} = \int_{v_e}^{v_b} \frac{w}{v} \, \mathrm{d}v = w \ln \frac{v_b}{v_e}$$
+$$
+\Delta v_{\perp} = \int_{v_e}^{v_b} \frac{w}{v} \, \mathrm{d}v = w \ln \frac{v_b}{v_e}
+\tag{98}
+$$
 
 for a wind constant with altitude, and a ballistic range displacement of
 
-$$\Delta X = \frac{2 v_b \Delta v_{\perp}}{g}$$
+$$
+\Delta X = \frac{2 v_b \Delta v_{\perp}}{g}
+\tag{99}
+$$
 
 For a ten metre per second wind acting from tower exit at 99 metres per second to burnout at 1,347,
 
-$$\Delta v_{\perp} = 10 \ln \frac{1347}{99.4} = 26 \, \text{m/s}, \qquad \Delta X = \frac{2 (1347)(26)}{9.81} = 7.1 \, \text{km}$$
+$$
+\Delta v_{\perp} = 10 \ln \frac{1347}{99.4} = 26 \, \text{m/s}, \qquad \Delta X = \frac{2 (1347)(26)}{9.81} = 7.1 \, \text{km}
+\tag{100}
+$$
 
 **A ten metre per second wind moves the impact point seven kilometres.** That displacement justifies wind weighting, an adjustable tower, and launch sites where seven kilometres of error is survivable. The logarithm makes the low-altitude wind dominant, since most of the ratio $v_b / v_e$ is accumulated while the vehicle is still slow and still low. The weighting function is the sensitivity of the impact point to a wind at each altitude, and the required launcher offset is
 
-$$\Delta \theta_{\text{launch}} = - \sum_j W_j \, w_j \, \Delta h_j$$
+$$
+\Delta \theta_{\text{launch}} = - \sum_j W_j \, w_j \, \Delta h_j
+\tag{101}
+$$
 
 with $W_j$ the unit wind effect at layer $j$. **This is why the tower was adjustable in both elevation and azimuth** \[[Aerobee][ref_aerobee]\], and why, by the account of [Mattson and Tagg 1995][ref_mattson_tagg_1995], it was normally set at 87 degrees, three degrees from vertical, before the wind correction was even applied. The technique matured into the iterative schemes of [Duncan and Engebos 1969][research_duncan_1969] and [Duncan and Engebos 1970][research_duncan_1970], the nonlinear treatment of [Wilson 1970][research_wilson_1970], and the wind-weighting method of [Bernhard 1967][research_bernhard_1967]. [Thurston 1965][research_thurston_1965] treats accuracy and dispersion for unguided rockets generally, and [Boersma et al. 1970][research_boersma_1970] compare guided and unguided sounding-rocket dispersion directly, quantifying what guidance would have bought. The variability of the wind itself, which bounds how well any weighting scheme can work no matter how good the arithmetic, is measured by [Armendariz et al. 1963][research_armendariz_1963], and [Rachele and Armendariz 1967][research_rachele_1967] take up the sampling problem that follows. The trajectory codes of the period that carried these corrections are documented in [Dayton 1963][research_dayton_1963] and [Kopp and Nielsen 1963][research_kopp_1963].
 
 The total dispersion combines in quadrature when the sources are independent,
 
-$$\sigma_{X}^{2} = \sigma_{\text{aim}}^{2} + \sigma_{\text{thrust}}^{2} + \sigma_{\text{wind}}^{2} + \sigma_{\text{sep}}^{2}$$
+$$
+\sigma_{X}^{2} = \sigma_{\text{aim}}^{2} + \sigma_{\text{thrust}}^{2} + \sigma_{\text{wind}}^{2} + \sigma_{\text{sep}}^{2}
+\tag{102}
+$$
 
 and the range safety requirement is that the containment ellipse at some multiple of $\sigma$ lie inside the impact area. The multiple needed is not the one-dimensional intuition suggests, because the impact point scatters in two dimensions. For circular bivariate normal errors the probability of landing inside radius $R$ is the Rayleigh distribution,
 
-$$P(R) = 1 - \exp \left( -\frac{R^{2}}{2\sigma^{2}} \right)$$
+$$
+P(R) = 1 - \exp \left( -\frac{R^{2}}{2\sigma^{2}} \right)
+\tag{103}
+$$
 
 which at three standard deviations gives
 
-$$P(3\sigma) = 1 - e^{-4.5} = 0.989$$
+$$
+P(3\sigma) = 1 - e^{-4.5} = 0.989
+\tag{104}
+$$
 
 **not the 0.997 the one-dimensional figure would suggest**, and reaching 0.997 in two dimensions requires
 
-$$R = \sigma \sqrt{-2 \ln (1 - 0.997)} = 3.41 \, \sigma$$
+$$
+R = \sigma \sqrt{-2 \ln (1 - 0.997)} = 3.41 \, \sigma
+\tag{105}
+$$
 
 For a dispersion of two kilometres that is a required radius of 6.8 kilometres rather than 6, which at White Sands and Holloman was available and at most other places was not. **The X-8's dispersion is the reason it flew from deserts.** The sensitivity coefficients derive from the flight-mechanics formulation of [Regan and Anandakrishnan 1993 Dynamics of Atmospheric Re-Entry][book_regan_anandakrishnan_1993] and [Vinh Busemann and Culp 1980 Hypersonic and Planetary Entry Flight Mechanics][book_vinh_busemann_culp_1980], and the range-safety practice that grew out of it is discussed in [Knothe 1970][research_knothe_1970]. [Groteluschen 1967][research_groteluschen_1967] sets out the design criteria for remote-site launchers, and [McGarvey 1976][research_mcgarvey_1976] treats dispersion samples statistically, including the small-sample case that a programme of sixty flights faces.
 
@@ -585,21 +900,33 @@ The thrust misalignment term above assumed the misalignment stayed fixed in iner
 
 A lateral thrust component fixed in the body frame rotates with the vehicle, so its inertial direction sweeps through a full circle each revolution and its integrated effect largely cancels. Over a burn of duration $t_b$ at roll rate $p$, the residual lateral velocity from a body-fixed lateral acceleration $a_{\perp}$ is
 
-$$\Delta v_{\perp} = \frac{2 a_{\perp}}{p} \left| \sin \frac{p t_b}{2} \right| \le \frac{2 a_{\perp}}{p}$$
+$$
+\Delta v_{\perp} = \frac{2 a_{\perp}}{p} \left| \sin \frac{p t_b}{2} \right| \le \frac{2 a_{\perp}}{p}
+\tag{106}
+$$
 
 so the accumulated error falls as the inverse of the roll rate rather than growing with burn time. **Roll converts a systematic error into a bounded one.** Ten revolutions during the burn reduce the misalignment dispersion by roughly a factor of thirty compared to no roll at all.
 
 Roll is produced by canting the fins. A fin cant angle $\delta$ generates a rolling moment that is opposed by the roll damping of the same fins, and the steady-state roll rate follows from setting the two equal,
 
-$$p_{ss} = \frac{2 v}{d} \cdot \frac{C_{l\delta} \, \delta}{-C_{lp}}$$
+$$
+p_{ss} = \frac{2 v}{d} \cdot \frac{C_{l\delta} \, \delta}{-C_{lp}}
+\tag{107}
+$$
 
 in which $C_{l\delta}$ is the roll moment per unit cant, $C_{lp}$ the roll damping derivative, and $d$ the reference diameter. Both derivatives come from the same fin geometry, so their ratio is close to unity and
 
-$$p_{ss} \approx \frac{2 v \delta}{d}$$
+$$
+p_{ss} \approx \frac{2 v \delta}{d}
+\tag{108}
+$$
 
 For a half-degree cant, which is 0.00873 radians, at 300 metres per second,
 
-$$p_{ss} = \frac{2 (300)(0.00873)}{0.38} = 13.8 \, \text{rad/s}$$
+$$
+p_{ss} = \frac{2 (300)(0.00873)}{0.38} = 13.8 \, \text{rad/s}
+\tag{109}
+$$
 
 which is 2.2 revolutions per second. [Hawks 1965][research_hawks_1965] works out the theory of the rolling motion of two sounding rockets of this generation, and [Bush 1967][research_bush_1967] describes the mechanism for removing roll before an experiment needs a steady attitude. The roll damping derivative was measured for this class of vehicle by the NACA free-flight technique of [Edmondson and Sanders 1949][research_edmondson_1949], with the systematic collections of [Stone 1953, Data Collection][research_stone_1953] and [Stone 1957, Revised Collection][research_stone_1957] and the further measurements of [Sanders and Edmondson 1951][research_sanders_1951], [Hopko 1951][research_hopko_1951], [Bland and Purser 1953][research_bland_1953], and [Chubb 1952][research_chubb_1952]. [Stone and Sandahl 1951][research_stone_1951] compare measurement techniques for the same derivative, and [Wineman 1951][research_wineman_1951] studies the jet-vane alternative to fins, which the Aerobee did not adopt.
 
@@ -611,27 +938,45 @@ The pitch and yaw motions of a rolling vehicle are coupled. A disturbance fixed 
 
 Whether the vehicle passes through resonance is determined by how the two frequencies scale with flight condition, and the result is not intuitive. The roll rate from canted fins is proportional to velocity,
 
-$$p_{ss} \propto v$$
+$$
+p_{ss} \propto v
+\tag{110}
+$$
 
 while the pitch natural frequency depends on the dynamic pressure and therefore on velocity **and** density,
 
-$$\omega_n = \sqrt{\frac{q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}{I_y}} = v \sqrt{\frac{\rho S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}{2 I_y}}$$
+$$
+\omega_n = \sqrt{\frac{q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}{I_y}} = v \sqrt{\frac{\rho S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}{2 I_y}}
+\tag{111}
+$$
 
 Both are linear in velocity, so velocity cancels from the ratio and
 
-$$\frac{p_{ss}}{\omega_n} \propto \frac{1}{\sqrt{\rho}}$$
+$$
+\frac{p_{ss}}{\omega_n} \propto \frac{1}{\sqrt{\rho}}
+\tag{112}
+$$
 
 **The ratio depends only on density, and density falls monotonically with altitude.** A vehicle that starts below resonance therefore crosses it at a definite altitude regardless of how fast it is going, and no amount of thrust avoids the crossing. Setting the ratio to unity gives the critical density
 
-$$\rho_{\text{crit}} = \left( \frac{2 \delta}{d} \right)^{2} \frac{2 I_y}{S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}$$
+$$
+\rho_{\text{crit}} = \left( \frac{2 \delta}{d} \right)^{2} \frac{2 I_y}{S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}
+\tag{113}
+$$
 
 and with the values used above, a cant of half a degree, and a $C_{N\alpha}$ of 12 per radian,
 
-$$\rho_{\text{crit}} = \left( \frac{2 \times 0.00873}{0.38} \right)^{2} \frac{2 (3000)}{(0.1134)(12)(0.57)} = \left( 0.0459 \right)^{2} (7735) = 16.3 \, \text{kg/m}^{3}$$
+$$
+\rho_{\text{crit}} = \left( \frac{2 \times 0.00873}{0.38} \right)^{2} \frac{2 (3000)}{(0.1134)(12)(0.57)} = \left( 0.0459 \right)^{2} (7735) = 16.3 \, \text{kg/m}^{3}
+\tag{114}
+$$
 
 which exceeds sea-level density, meaning that with a half-degree cant this vehicle is **above** resonance from the moment it leaves the tower and never crosses it. Reducing the cant to a tenth of a degree, which is 0.00175 radians, gives
 
-$$\rho_{\text{crit}} = \left( \frac{2 \times 0.00175}{0.38} \right)^{2} (7735) = \left( 9.21 \times 10^{-3} \right)^{2}(7735) = 0.656 \, \text{kg/m}^{3}$$
+$$
+\rho_{\text{crit}} = \left( \frac{2 \times 0.00175}{0.38} \right)^{2} (7735) = \left( 9.21 \times 10^{-3} \right)^{2}(7735) = 0.656 \, \text{kg/m}^{3}
+\tag{115}
+$$
 
 which occurs near 6 kilometres altitude, squarely inside the sustainer burn. **The design is therefore forced to either a very small cant with a resonance crossing low in the flight, or a large cant that stays above resonance throughout**, and the second is only safe if the roll rate never decays. The Aerobee family kept encountering this trade as the vehicles grew. [Busse and Kraft 1966][research_busse_1966_2] treat structural and aerodynamic pitch coupling in the Aerobee 150 and [Lawrence 1965][research_lawrence_1965] treats the pitch-roll coupling region of the Aerobee 350 explicitly. [Platus 1967][research_platus_1967] gives the analysis in its simplest form for a reentry body, and [Wilke 1967][research_wilke_1967] treats a spinning vehicle leaving the atmosphere, where the aerodynamic restoring moment vanishes while the roll rate does not. [Jacobson and Morton 1972][research_jacobson_1972] identify the boundary-layer asymmetry that can drive the motion on a yawed spinning body. [Clare 1971][research_clare_1971] gives the general resonance-instability condition for finned configurations with nonlinear aerodynamics, and [Buglia et al. 1961][research_buglia_1961] give the analytical treatment of a spinning vehicle with varying mass, which is the case during a burn. [Price and Woods 1968][research_price_1968] give the general dynamic-stability study for sounding rockets, [Lane and Redman 1970][research_lane_1970] the six-degree-of-freedom postflight reconstruction method, and [Kryvoruka and Ashurst 1974][research_kryvoruka_1974] the reentry-body case with the same coupling. The coupled motion receives its textbook treatment in [Etkin and Reid 1996 Dynamics of Flight, Stability and Control][book_etkin_reid_1996].
 
@@ -641,37 +986,61 @@ The X-8 recovers its nose cone by parachute, and the sequence contains an unusua
 
 The descent speed of a body falling through an atmosphere is governed by its [ballistic coefficient][ref_ballistic_coefficient], the ratio of mass to drag area,
 
-$$\beta = \frac{m}{C_D A}$$
+$$
+\beta = \frac{m}{C_D A}
+\tag{116}
+$$
 
 A stable finned body at supersonic speed has a drag coefficient near 0.25 on a frontal area of 0.1134 square metres, so for a 261.5 kilogramme burnout mass
 
-$$\beta_{\text{stable}} = \frac{261.5}{(0.25)(0.1134)} = 9220 \, \text{kg/m}^{2}$$
+$$
+\beta_{\text{stable}} = \frac{261.5}{(0.25)(0.1134)} = 9220 \, \text{kg/m}^{2}
+\tag{117}
+$$
 
 A tumbling cylinder presents a mean projected area between its frontal area and its full side profile of $7.9 \times 0.38 = 3.0$ square metres, with a mean of roughly 1.5 square metres, at a drag coefficient near 1.2, giving
 
-$$\beta_{\text{tumble}} = \frac{261.5}{(1.2)(1.5)} = 145 \, \text{kg/m}^{2}$$
+$$
+\beta_{\text{tumble}} = \frac{261.5}{(1.2)(1.5)} = 145 \, \text{kg/m}^{2}
+\tag{118}
+$$
 
 a reduction of a factor of 63. Since the terminal velocity at any density scales as the square root of the ballistic coefficient,
 
-$$v_t = \sqrt{\frac{2 \beta g}{\rho}}$$
+$$
+v_t = \sqrt{\frac{2 \beta g}{\rho}}
+\tag{119}
+$$
 
 the tumbling body descends about $\sqrt{63} = 7.9$ times more slowly, and the dynamic pressure at parachute deployment is lower by the full factor of 63. **Blowing the fins off reduces the parachute opening load by a factor of sixty.** That factor explains why a 1949 vehicle used a technique that looks like damage.
 
 The parachute itself follows from the landing speed. For a nose cone of 100 kilogrammes descending at 8 metres per second at the 1,200 metre range elevation where the density is 1.06 kilogrammes per cubic metre, the value used for tower exit,
 
-$$A_c = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{2 (100)(9.81)}{(1.06)(1.4)(64)} = 20.7 \, \text{m}^{2}$$
+$$
+A_c = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{2 (100)(9.81)}{(1.06)(1.4)(64)} = 20.7 \, \text{m}^{2}
+\tag{120}
+$$
 
 which is a canopy of diameter
 
-$$D_c = \sqrt{\frac{4 A_c}{\pi}} = 5.1 \, \text{m}$$
+$$
+D_c = \sqrt{\frac{4 A_c}{\pi}} = 5.1 \, \text{m}
+\tag{121}
+$$
 
 The opening load is the product of the dynamic pressure at deployment and the inflated drag area, multiplied by an opening-shock factor $C_x$ that accounts for the canopy filling faster than the payload can decelerate,
 
-$$F_{\text{open}} = C_x \, q_d \, C_D A_c$$
+$$
+F_{\text{open}} = C_x \, q_d \, C_D A_c
+\tag{122}
+$$
 
 At a deployment altitude of 6 kilometres, where the density is 0.66 kilogrammes per cubic metre, and a speed of 100 metres per second, the steady drag alone is
 
-$$q_d C_D A_c = \tfrac{1}{2}(0.66)(100)^{2}(1.4)(20.7) = 95.6 \, \text{kN}$$
+$$
+q_d C_D A_c = \tfrac{1}{2}(0.66)(100)^{2}(1.4)(20.7) = 95.6 \, \text{kN}
+\tag{123}
+$$
 
 which on a 100 kilogramme payload is 97 times gravity before any opening-shock factor is applied. **That load destroys the instrument**, which is why the tumbling phase must bleed the speed first and why the deployment happens low, at about 6 kilometres. Deploying at the same speed at 30 kilometres, where the density is 0.018, would give only 2.6 kilonewtons, but the body would not have slowed to 100 metres per second there in the first place. The ballistic descent, in which a body of fixed ballistic coefficient decelerates in an exponential atmosphere, is the problem [Eggers and Wong 1961][research_eggers_1961] set out for entry vehicles and which applies unchanged to a nose cone returning from 116 kilometres. The design relations used here are those of [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992], with the dynamics and stability treatment of [Ibrahim and Engdahl 1974][research_ibrahim_1974]. [Downing et al. 1956][research_downing_1956] describe period recovery practice, and the deployment-altitude measurement that this analysis turns on was made by telemetry in [Smollett 1955][research_smollett_1955]. The recovery pack went through repeated modification, recorded by [Flynn and Groves 1964][research_flynn_1964], and [McGarvey 1973][research_mcgarvey_1973] considers the alternative of controlling the descent attitude by shifting the centre of gravity rather than by jettisoning fins. [Flores 1986][research_flores_1986] gives a later mechanism for the same problem, and [Aerobee 350 recovery system Final project report][research_ntrs_19710016407_1970] documents the recovery system of the largest family member. The general behaviour of a decelerating body under a canopy is surveyed in [Parachute][ref_parachute].
 
@@ -681,41 +1050,68 @@ The last requirement is that the numbers survive. There are two routes and the c
 
 A radio link delivers information at a rate bounded by the [Shannon and Hartley][ref_shannon_hartley] capacity, which for a bandwidth $B$ and a signal-to-noise ratio $S/N$ is
 
-$$C = B \log_2 \left( 1 + \frac{S}{N} \right)$$
+$$
+C = B \log_2 \left( 1 + \frac{S}{N} \right)
+\tag{124}
+$$
 
 The signal-to-noise ratio follows from the link budget. The received power for a transmitter of power $P_t$ and gain $G_t$ at range $R$ with a receiving antenna of gain $G_r$ is
 
-$$P_r = \frac{P_t G_t G_r \lambda^{2}}{\left( 4 \pi R \right)^{2}}$$
+$$
+P_r = \frac{P_t G_t G_r \lambda^{2}}{\left( 4 \pi R \right)^{2}}
+\tag{125}
+$$
 
 At 250 megahertz the wavelength is 1.2 metres, and at a slant range of 200 kilometres the free-space path term is
 
-$$\left( \frac{\lambda}{4 \pi R} \right)^{2} = \left( \frac{1.2}{4\pi \times 2 \times 10^{5}} \right)^{2} = 2.28 \times 10^{-13}$$
+$$
+\left( \frac{\lambda}{4 \pi R} \right)^{2} = \left( \frac{1.2}{4\pi \times 2 \times 10^{5}} \right)^{2} = 2.28 \times 10^{-13}
+\tag{126}
+$$
 
 which is $-126.4$ decibels. With a two watt transmitter, which is 3 decibels relative to a watt, an omnidirectional vehicle antenna at 0 decibels of gain, and a 10 decibel ground antenna,
 
-$$P_r = 3 + 0 + 10 - 126.4 = -113.4 \, \text{dBW}$$
+$$
+P_r = 3 + 0 + 10 - 126.4 = -113.4 \, \text{dBW}
+\tag{127}
+$$
 
 The thermal noise in a bandwidth $B$ at system temperature $T_s$ is $N = k T_s B$, which for 100 kilohertz at 1,000 kelvin is
 
-$$N = (1.38 \times 10^{-23})(1000)(10^{5}) = 1.38 \times 10^{-15} \, \text{W} = -148.6 \, \text{dBW}$$
+$$
+N = (1.38 \times 10^{-23})(1000)(10^{5}) = 1.38 \times 10^{-15} \, \text{W} = -148.6 \, \text{dBW}
+\tag{128}
+$$
 
 giving a signal-to-noise ratio of 35.2 decibels, which is a power ratio of 3,300, and a capacity of
 
-$$C = (10^{5}) \log_2 (3301) = (10^{5})(11.7) = 1.17 \, \text{Mbit/s}$$
+$$
+C = (10^{5}) \log_2 (3301) = (10^{5})(11.7) = 1.17 \, \text{Mbit/s}
+\tag{129}
+$$
 
 The [USAF-6 flight][ref_aerojet_x8] carried a six-channel pulse-position modulated system. Commutating six channels at 100 frames per second at seven bits of resolution yields
 
-$$C_{\text{used}} = (6)(100)(7) = 4.2 \, \text{kbit/s}$$
+$$
+C_{\text{used}} = (6)(100)(7) = 4.2 \, \text{kbit/s}
+\tag{130}
+$$
 
 which is **0.36 percent of what the link could have carried.** The gap is not incompetence. It is the state of the art in modulation and in airborne electronics in 1949, and it explains why the recovery of physical media mattered so much.
 
 The comparison that decides the architecture is with photographic film. A 35 millimetre frame resolving 50 line pairs per millimetre carries roughly
 
-$$N_{\text{px}} = (24)(36)(100)^{2} = 8.64 \times 10^{6} \, \text{pixels}$$
+$$
+N_{\text{px}} = (24)(36)(100)^{2} = 8.64 \times 10^{6} \, \text{pixels}
+\tag{131}
+$$
 
 and at six bits of usable density range this is $5.2 \times 10^{7}$ bits per frame. Transmitting one frame over the available telemetry would take
 
-$$t = \frac{5.2 \times 10^{7}}{4.2 \times 10^{3}} = 1.24 \times 10^{4} \, \text{s} = 3.4 \, \text{hours}$$
+$$
+t = \frac{5.2 \times 10^{7}}{4.2 \times 10^{3}} = 1.24 \times 10^{4} \, \text{s} = 3.4 \, \text{hours}
+\tag{132}
+$$
 
 The bound comes from [Shannon 1948][ref_shannon_1948], with the treatments of [Cover and Thomas 2006 Elements of Information Theory][book_cover_thomas_2006] and [Sklar 2001 Digital Communications, Fundamentals and Applications][book_sklar_2001], and the modulation scheme the vehicle used is [Pulse-Position Modulation][ref_ppm]. **The ballistic flight lasts about eight minutes**, although [Mattson and Tagg 1995][ref_mattson_tagg_1995] report that the first Air Force flight was airborne for fifteen minutes in all including its descent. A single photographic frame therefore contains about twenty-five times more information than the entire telemetry budget of an eight-minute flight, and spectrographs, nuclear emulsions, and cameras are consequently not telemeterable at all. They must come back physically or they are lost.
 
@@ -729,37 +1125,64 @@ The vehicle has no separate airframe. Aerojet's account, quoted by [Wade][ref_as
 
 This is efficient and it constrains the design. A thin-walled cylinder of radius $r$ and wall thickness $t$ under internal pressure $p$ carries a hoop stress
 
-$$\sigma_{\theta} = \frac{p r}{t}$$
+$$
+\sigma_{\theta} = \frac{p r}{t}
+\tag{133}
+$$
 
 and an axial stress half as large. The same cylinder under an axial compressive load $P$ from thrust and inertia carries
 
-$$\sigma_{x,\text{comp}} = \frac{P}{2 \pi r t}$$
+$$
+\sigma_{x,\text{comp}} = \frac{P}{2 \pi r t}
+\tag{134}
+$$
 
 and buckles when that reaches the classical critical stress
 
-$$\sigma_{cr} = \frac{E t}{r \sqrt{3 \left( 1 - \nu^{2} \right)}}$$
+$$
+\sigma_{cr} = \frac{E t}{r \sqrt{3 \left( 1 - \nu^{2} \right)}}
+\tag{135}
+$$
 
 For aluminium with a Young's modulus $E$ of 70 gigapascals and a Poisson ratio $\nu$ of 0.33, a radius of 0.19 metres, and a wall thickness set by the pressure requirement,
 
-$$t = \frac{p r}{\sigma_a} = \frac{(3.1 \times 10^{6})(0.19)}{2 \times 10^{8}} = 2.95 \times 10^{-3} \, \text{m}$$
+$$
+t = \frac{p r}{\sigma_a} = \frac{(3.1 \times 10^{6})(0.19)}{2 \times 10^{8}} = 2.95 \times 10^{-3} \, \text{m}
+\tag{136}
+$$
 
 so the critical buckling stress is
 
-$$\sigma_{cr} = \frac{(70 \times 10^{9})(2.95 \times 10^{-3})}{(0.19)\sqrt{3(1 - 0.109)}} = \frac{2.07 \times 10^{8}}{0.311} = 6.6 \times 10^{8} \, \text{Pa}$$
+$$
+\sigma_{cr} = \frac{(70 \times 10^{9})(2.95 \times 10^{-3})}{(0.19)\sqrt{3(1 - 0.109)}} = \frac{2.07 \times 10^{8}}{0.311} = 6.6 \times 10^{8} \, \text{Pa}
+\tag{137}
+$$
 
 though the classical value is optimistic by a factor of three to five for real shells with imperfections, giving perhaps 150 megapascals in practice, which is the knockdown factor discussed in [Timoshenko and Gere 1961 Theory of Elastic Stability][book_timoshenko_gere_1961] and [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973]. The axial load at maximum acceleration, with the booster and sustainer both firing on 745 kilogrammes at 11.5 times gravity applied to the mass forward of the joint, is of order
 
-$$P = m_{\text{fwd}} a = (300)(113) = 33.9 \, \text{kN}$$
+$$
+P = m_{\text{fwd}} a = (300)(113) = 33.9 \, \text{kN}
+\tag{138}
+$$
 
-$$\sigma_{x} = \frac{3.39 \times 10^{4}}{2 \pi (0.19)(2.95 \times 10^{-3})} = 9.6 \times 10^{6} \, \text{Pa}$$
+$$
+\sigma_{x} = \frac{3.39 \times 10^{4}}{2 \pi (0.19)(2.95 \times 10^{-3})} = 9.6 \times 10^{6} \, \text{Pa}
+\tag{139}
+$$
 
 which is 10 megapascals against an available 150. **The structure is pressure-driven, not load-driven**, and the tanks-as-structure arrangement works for that reason. Internal pressure does more than add an increment to the critical stress. It puts the shell into axial tension before any load is applied, since the pressure acting on the closed ends gives
 
-$$\sigma_{x,\text{press}} = \frac{p r}{2 t} = \frac{(3.1 \times 10^{6})(0.19)}{2 (2.95 \times 10^{-3})} = 1.0 \times 10^{8} \, \text{Pa}$$
+$$
+\sigma_{x,\text{press}} = \frac{p r}{2 t} = \frac{(3.1 \times 10^{6})(0.19)}{2 (2.95 \times 10^{-3})} = 1.0 \times 10^{8} \, \text{Pa}
+\tag{140}
+$$
 
 which is 100 megapascals of tension against 10 megapascals of flight compression. The net axial stress is therefore
 
-$$\sigma_{x,\text{net}} = \sigma_{x,\text{press}} - \sigma_{x,\text{comp}} = 100 - 10 = 90 \, \text{MPa}$$
+$$
+\sigma_{x,\text{net}} = \sigma_{x,\text{press}} - \sigma_{x,\text{comp}} = 100 - 10 = 90 \, \text{MPa}
+\tag{141}
+$$
 
 **and is tensile everywhere.** The interaction between internal pressure and axial buckling that this bypasses is still being computed for cases where the margin is not so generous, including [Franzoni et al. 2019][research_franzoni_2019] for a pressurised orthotropic cylinder, [Li et al. 2021a][research_li_2021_2] for ring-stiffened shells, and [Mahdy et al. 2024][research_mahdy_2024] for the competition between buckling and material failure. The shell never sees net compression while it is pressurised, so buckling is not a failure mode at all. The vehicle is stiffest when it is most heavily loaded and weakest when the tanks are empty, which is after burnout when the loads are gone.
 
@@ -771,47 +1194,80 @@ The X-8 reaches roughly Mach 4.4 at 31.5 kilometres, which is fast enough to mat
 
 The stagnation temperature of the flow is
 
-$$T_0 = T_{\infty} \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)$$
+$$
+T_0 = T_{\infty} \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)
+\tag{142}
+$$
 
 which at 227 kelvin and Mach 4.4 gives
 
-$$T_0 = 227 \left( 1 + 0.2 (19.4) \right) = 227 (4.88) = 1108 \, \text{K}$$
+$$
+T_0 = 227 \left( 1 + 0.2 (19.4) \right) = 227 (4.88) = 1108 \, \text{K}
+\tag{143}
+$$
 
 The recovery temperature seen by the surface under a turbulent boundary layer, with a recovery factor $r$ of the cube root of the Prandtl number, which is about 0.89, is
 
-$$T_r = T_{\infty} \left( 1 + r \frac{\gamma-1}{2} M^{2} \right) = 227 \left( 1 + (0.89)(3.88) \right) = 1010 \, \text{K}$$
+$$
+T_r = T_{\infty} \left( 1 + r \frac{\gamma-1}{2} M^{2} \right) = 227 \left( 1 + (0.89)(3.88) \right) = 1010 \, \text{K}
+\tag{144}
+$$
 
 but the heat load matters more than the temperature, and the heat load is small because the exposure is short. The thermal penetration depth into a solid of thermal diffusivity $\alpha$ over a time $t$ is
 
-$$\delta = \sqrt{\alpha t}$$
+$$
+\delta = \sqrt{\alpha t}
+\tag{145}
+$$
 
 For aluminium, with a diffusivity of $9.7 \times 10^{-5}$ square metres per second, over the 40 seconds of high-speed flight,
 
-$$\delta = \sqrt{(9.7 \times 10^{-5})(40)} = 0.062 \, \text{m}$$
+$$
+\delta = \sqrt{(9.7 \times 10^{-5})(40)} = 0.062 \, \text{m}
+\tag{146}
+$$
 
 which is far thicker than the 3 millimetre skin, so the skin behaves as a lumped thermal mass rather than a semi-infinite solid. Its temperature rise follows from the convective input against its heat capacity,
 
-$$\rho_m c_p t \frac{\mathrm{d}T_w}{\mathrm{d}t} = h \left( T_r - T_w \right)$$
+$$
+\rho_m c_p t \frac{\mathrm{d}T_w}{\mathrm{d}t} = h \left( T_r - T_w \right)
+\tag{147}
+$$
 
 with a time constant
 
-$$\tau = \frac{\rho_m c_p t}{h}$$
+$$
+\tau = \frac{\rho_m c_p t}{h}
+\tag{148}
+$$
 
 For aluminium at 2,800 kilogrammes per cubic metre and 900 joules per kilogramme kelvin, a 3 millimetre wall, and a convective coefficient of 200 watts per square metre kelvin representative of the thin high-altitude boundary layer,
 
-$$\tau = \frac{(2800)(900)(2.95 \times 10^{-3})}{200} = 37 \, \text{s}$$
+$$
+\tau = \frac{(2800)(900)(2.95 \times 10^{-3})}{200} = 37 \, \text{s}
+\tag{149}
+$$
 
 which is comparable to the flight time, so the skin reaches roughly $1 - e^{-1}$ of the way from its initial temperature toward the recovery temperature, or about 740 kelvin. The lumped model omits radiation, which at that temperature is no longer negligible. A surface of emissivity $\epsilon$ radiates
 
-$$q_{\text{rad}} = \epsilon \sigma_{SB} T_w^{4}$$
+$$
+q_{\text{rad}} = \epsilon \sigma_{SB} T_w^{4}
+\tag{150}
+$$
 
 which for an oxidised aluminium emissivity of 0.3 at 744 kelvin is
 
-$$q_{\text{rad}} = (0.3)(5.67 \times 10^{-8})(744)^{4} = 5.2 \times 10^{3} \, \text{W/m}^{2}$$
+$$
+q_{\text{rad}} = (0.3)(5.67 \times 10^{-8})(744)^{4} = 5.2 \times 10^{3} \, \text{W/m}^{2}
+\tag{151}
+$$
 
 against a convective input of $h(T_r - T_w) = 200(1010-744) = 5.3 \times 10^{4}$ watts per square metre, so radiation removes about a tenth of what convection delivers. Balancing the two gives the steady wall temperature the surface would reach if the flight lasted long enough,
 
-$$h \left( T_r - T_w \right) = \epsilon \sigma_{SB} T_w^{4} \quad \Longrightarrow \quad T_w = 943 \, \text{K}$$
+$$
+h \left( T_r - T_w \right) = \epsilon \sigma_{SB} T_w^{4} \quad \Longrightarrow \quad T_w = 943 \, \text{K}
+\tag{152}
+$$
 
 **The vehicle never gets there**, because the thermal time constant is comparable to the flight time and the flight ends first. The same timing argument recurs throughout this article. **The 744 kelvin it does reach is hot enough to soften aluminium**, which anneals above about 500 kelvin, and on this estimate the nose cone, not the tank section, needs the thermal design effort. Free-flight skin-temperature measurements on comparable bodies were made in the same period by [Rashis and Bond 1961][research_rashis_1961] and at higher Mach numbers by [Rumsey and Lee 1958][research_rumsey_1958], with skin-friction measurement by [Loposer and Rumsey 1954][research_loposer_1954]. The relations are those of [Anderson 2006 Hypersonic and High-Temperature Gas Dynamics][book_anderson_2006_hypersonic], [Bertin 1994 Hypersonic Aerothermodynamics][book_bertin_1994_hypersonic], [Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer], and [Carslaw and Jaeger 1959 Conduction of Heat in Solids][book_carslaw_jaeger_1959].
 
@@ -819,31 +1275,52 @@ $$h \left( T_r - T_w \right) = \epsilon \sigma_{SB} T_w^{4} \quad \Longrightarro
 
 The drag loss assumed in the trajectory reconstruction can also be estimated independently. The instantaneous deceleration from drag is
 
-$$a_D = \frac{q S C_D}{m} = \frac{\rho v^{2} S C_D}{2 m}$$
+$$
+a_D = \frac{q S C_D}{m} = \frac{\rho v^{2} S C_D}{2 m}
+\tag{153}
+$$
 
 and the total loss is its integral over the burn. The integral is dominated by the region near maximum dynamic pressure, which occurs where the rate of increase of $v^{2}$ is balanced by the fall of density,
 
-$$\frac{\mathrm{d}}{\mathrm{d}t} \left( \rho v^{2} \right) = 0 \quad \Longrightarrow \quad \frac{2 \dot{v}}{v} = \frac{v}{H}$$
+$$
+\frac{\mathrm{d}}{\mathrm{d}t} \left( \rho v^{2} \right) = 0 \quad \Longrightarrow \quad \frac{2 \dot{v}}{v} = \frac{v}{H}
+\tag{154}
+$$
 
 so maximum dynamic pressure occurs at
 
-$$v_{q_{\max}} = \sqrt{2 a H}$$
+$$
+v_{q_{\max}} = \sqrt{2 a H}
+\tag{155}
+$$
 
 which for an acceleration of 30 metres per second squared, representative of the sustainer phase, and a scale height of 7.6 kilometres gives
 
-$$v_{q_{\max}} = \sqrt{2 (30)(7.6 \times 10^{3})} = 675 \, \text{m/s}$$
+$$
+v_{q_{\max}} = \sqrt{2 (30)(7.6 \times 10^{3})} = 675 \, \text{m/s}
+\tag{156}
+$$
 
 reached at an altitude where the density has fallen to about 0.4 kilogrammes per cubic metre, near 9 kilometres. The dynamic pressure there is
 
-$$q_{\max} = \tfrac{1}{2}(0.4)(675)^{2} = 9.1 \times 10^{4} \, \text{Pa}$$
+$$
+q_{\max} = \tfrac{1}{2}(0.4)(675)^{2} = 9.1 \times 10^{4} \, \text{Pa}
+\tag{157}
+$$
 
 and the deceleration at a supersonic drag coefficient of 0.3 on 400 kilogrammes is
 
-$$a_D = \frac{(9.1 \times 10^{4})(0.1134)(0.3)}{400} = 7.7 \, \text{m/s}^{2}$$
+$$
+a_D = \frac{(9.1 \times 10^{4})(0.1134)(0.3)}{400} = 7.7 \, \text{m/s}^{2}
+\tag{158}
+$$
 
 Integrating a triangular approximation over the roughly 20 seconds during which the dynamic pressure is within a factor of two of its peak gives a loss of order
 
-$$\Delta v_{\text{drag}} \approx \tfrac{1}{2}(7.7)(20) \approx 77 \, \text{m/s}$$
+$$
+\Delta v_{\text{drag}} \approx \tfrac{1}{2}(7.7)(20) \approx 77 \, \text{m/s}
+\tag{159}
+$$
 
 with a plausible range of 60 to 150 metres per second depending on the drag coefficient assumed. **The trajectory check assumed 130, and the staged reconstruction at a 40 second burn left no velocity for drag at all**, so this independent estimate bounds the drag loss without settling which published burn time is right. The drag data for bodies of this class come from the same free-flight programme, including [Mitcham et al. 1952][research_mitcham_1952] and [Bond and Swanson 1953][research_bond_1953], and the compressible relations are taken from [Liepmann and Roshko 1957 Elements of Gasdynamics][book_liepmann_roshko_1957].
 
@@ -853,29 +1330,47 @@ The X-8 has no attitude control, and Aerojet's account in [Wade][ref_astronautix
 
 What it does there is not arbitrary. A torque-free axisymmetric body conserves angular momentum, so its symmetry axis sweeps a cone about the fixed momentum vector at a half-angle set by the ratio of transverse to axial momentum,
 
-$$\tan \theta_c = \frac{I_y \omega_t}{I_x p}$$
+$$
+\tan \theta_c = \frac{I_y \omega_t}{I_x p}
+\tag{160}
+$$
 
 in which $I_x$ is the roll inertia, $I_y$ the transverse inertia, $p$ the roll rate, and $\omega_t$ the transverse rate left over when the aerodynamic moments vanish. For a slender vehicle the roll inertia is small,
 
-$$I_x \approx \frac{m r^{2}}{2} = \frac{(261.5)(0.19)^{2}}{2} = 4.7 \, \text{kg} \cdot \text{m}^{2}$$
+$$
+I_x \approx \frac{m r^{2}}{2} = \frac{(261.5)(0.19)^{2}}{2} = 4.7 \, \text{kg} \cdot \text{m}^{2}
+\tag{161}
+$$
 
 against a transverse inertia of order 1,200, so the ratio $I_y / I_x$ is about 250 and even a small residual rate produces a large cone. At a residual transverse rate of 0.1 radians per second and a roll rate of 13.8,
 
-$$\theta_c = \arctan \frac{(1200)(0.1)}{(4.7)(13.8)} = 62^{\circ}$$
+$$
+\theta_c = \arctan \frac{(1200)(0.1)}{(4.7)(13.8)} = 62^{\circ}
+\tag{162}
+$$
 
 **A tenth of a radian per second at burnout sweeps the instrument axis around a sixty-degree cone for as long as the observing window lasts.** No fact about pointing on an uncontrolled sounding rocket matters more. The cone follows from slenderness, not from poor workmanship, and an instrument that needs to know where it was looking must therefore have its attitude recorded, since the vehicle has no means of commanding it.
 
 Aspect determination uses two independent references. Each sensor returns one scalar, being the cosine of the angle between the vehicle axis $\hat{a}$ and a known direction,
 
-$$\cos \theta_B = \hat{a} \cdot \hat{b}, \qquad \cos \theta_S = \hat{a} \cdot \hat{s}$$
+$$
+\cos \theta_B = \hat{a} \cdot \hat{b}, \qquad \cos \theta_S = \hat{a} \cdot \hat{s}
+\tag{163}
+$$
 
 with $\hat{b}$ the local geomagnetic field direction and $\hat{s}$ the direction to the sun. Each constrains the axis to a cone about its reference, and two cones about non-parallel axes intersect in two directions,
 
-$$\hat{a} = \frac{\cos\theta_B - \cos\theta_S \cos\psi}{\sin^{2}\psi} \, \hat{b} + \frac{\cos\theta_S - \cos\theta_B \cos\psi}{\sin^{2}\psi} \, \hat{s} \pm \lambda \left( \hat{b} \times \hat{s} \right)$$
+$$
+\hat{a} = \frac{\cos\theta_B - \cos\theta_S \cos\psi}{\sin^{2}\psi} \, \hat{b} + \frac{\cos\theta_S - \cos\theta_B \cos\psi}{\sin^{2}\psi} \, \hat{s} \pm \lambda \left( \hat{b} \times \hat{s} \right)
+\tag{164}
+$$
 
 in which $\psi$ is the angle between the two references and $\lambda$ is fixed by requiring $\hat{a}$ to be a unit vector. **The sign ambiguity is real and is resolved by continuity with the powered phase rather than by measurement.** The two-vector problem has a modern algorithmic literature, since it is what every small spacecraft solves on orbit, and [Wu and Shan 2019][research_wu_2019] and [Chebakov et al. 2026][research_chebakov_2026] treat it directly while [Fialho and Mortari 2019][research_fialho_2019] and [Ma et al. 2025][research_ma_2025] bound what the sensors can deliver. The $\sin^{2}\psi$ in the denominator makes the geometry fragile. The angular resolution of the combination degrades when the two references are nearly parallel, with an error amplification
 
-$$\Delta \Omega = \frac{\Delta \theta_1 \, \Delta \theta_2}{\left| \sin \psi \right|}$$
+$$
+\Delta \Omega = \frac{\Delta \theta_1 \, \Delta \theta_2}{\left| \sin \psi \right|}
+\tag{165}
+$$
 
 where $\psi$ is the angle between the sun and the magnetic field. **On a flight where the sun and the field happen to align, the aspect solution degenerates**, and the launch window is therefore constrained by geometry that has nothing to do with the experiment.
 
@@ -889,27 +1384,45 @@ The choice of a solid motor for this job is a straightforward optimisation. The 
 
 The total impulse required to reach tower-exit velocity plus the fin-effective margin is modest,
 
-$$I_{\text{req}} = m_0 \, \Delta v_{\text{boost}} = (745)(288) = 2.15 \times 10^{5} \, \text{N} \cdot \text{s}$$
+$$
+I_{\text{req}} = m_0 \, \Delta v_{\text{boost}} = (745)(288) = 2.15 \times 10^{5} \, \text{N} \cdot \text{s}
+\tag{166}
+$$
 
 against the 2.0 × 10<sup>5</sup> newton seconds the motor delivers, so the booster is sized almost exactly for this task and for nothing else. Its specific impulse of about 210 seconds is worse than the sustainer's on a vacuum basis and irrelevant, because it operates for 2.5 seconds at sea level where nothing is efficient.
 
 The grain must burn at a rate that sustains chamber pressure across the full web. The burning rate of a composite propellant follows Vieille's law,
 
-$$r = a p_c^{n}$$
+$$
+r = a p_c^{n}
+\tag{167}
+$$
 
 with $n$ typically between 0.3 and 0.4 for the double-base and composite propellants of the period. Chamber pressure is set by the balance between gas generation and nozzle discharge,
 
-$$p_c = \left( \frac{\rho_p a A_b c^{*}}{A_t} \right)^{\frac{1}{1-n}}$$
+$$
+p_c = \left( \frac{\rho_p a A_b c^{*}}{A_t} \right)^{\frac{1}{1-n}}
+\tag{168}
+$$
 
 in which $A_b$ is the instantaneous burning area and $\rho_p$ the propellant density. The exponent $1/(1-n)$ is the stability criterion, since a value of $n$ approaching unity makes the chamber pressure diverge, so solid propellants are formulated to keep $n$ well below one. For $n = 0.35$ the exponent is 1.54, so a ten percent error in burning area produces a sixteen percent error in chamber pressure and therefore in thrust. The web thickness and the burning area follow from the same balance. The burn time is the web divided by the mean burning rate, and the mass flow is the burning area times the rate times the propellant density,
 
-$$t_b = \frac{w}{\bar{r}}, \qquad \dot{m} = \rho_p A_b r$$
+$$
+t_b = \frac{w}{\bar{r}}, \qquad \dot{m} = \rho_p A_b r
+\tag{169}
+$$
 
 For the booster's 97 kilogrammes of propellant burned in 2.5 seconds at a rate near 10 millimetres per second and a density of 1,750 kilogrammes per cubic metre,
 
-$$w = \bar{r} \, t_b = (0.010)(2.5) = 25 \, \text{mm}$$
+$$
+w = \bar{r} \, t_b = (0.010)(2.5) = 25 \, \text{mm}
+\tag{170}
+$$
 
-$$A_b = \frac{\dot{m}}{\rho_p r} = \frac{38.8}{(1750)(0.010)} = 2.22 \, \text{m}^{2}$$
+$$
+A_b = \frac{\dot{m}}{\rho_p r} = \frac{38.8}{(1750)(0.010)} = 2.22 \, \text{m}^{2}
+\tag{171}
+$$
 
 A burning area of 2.2 square metres inside a 0.325 metre case is the internal surface of a tube roughly 2.4 metres long, which is what an internal-burning cylindrical grain of this size provides. **A 25 millimetre web is thin by design**, because the motor exists to deliver a large impulse quickly and then stop. **A solid motor has no throttle and only one chance to be right.** The internal-ballistics relations are those of [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016], and [Ayres 1962][research_ayres_1962] and [Van Winkle 1965][research_van_winkle_1965] discuss the application of large solid boosters in the same period. [Hisler 1966][research_hisler_1966] made a failure study of the Nike motor later used to boost the Aerobee 170.
 
@@ -917,11 +1430,17 @@ A burning area of 2.2 square metres inside a 0.325 metre case is the internal su
 
 On this analysis the booster separates by drag differential, the sources consulted describing only its jettison at burnout. Once it burns out, its ballistic coefficient collapses relative to the still-thrusting sustainer, and the two part without any active mechanism. The separation acceleration is
 
-$$\Delta a = \frac{F_s}{m_s} - \left( \frac{q S_b C_{D,b}}{m_b} - \frac{q S_s C_{D,s}}{m_s} \right)$$
+$$
+\Delta a = \frac{F_s}{m_s} - \left( \frac{q S_b C_{D,b}}{m_b} - \frac{q S_s C_{D,s}}{m_s} \right)
+\tag{172}
+$$
 
 and for the sustainer thrust of 11.6 kilonewtons on 498 kilogrammes, the thrust term alone contributes 23.3 metres per second squared, so the two bodies separate by
 
-$$\Delta x = \tfrac{1}{2} \Delta a \, t^{2} = \tfrac{1}{2}(23.3)(1)^{2} = 11.7 \, \text{m}$$
+$$
+\Delta x = \tfrac{1}{2} \Delta a \, t^{2} = \tfrac{1}{2}(23.3)(1)^{2} = 11.7 \, \text{m}
+\tag{173}
+$$
 
 in the first second. **The margin is sufficient and costs nothing**, a pattern this vehicle repeats. Separation dynamics for the general case are treated by [Sehga 1962][research_sehga_1962], with the thrust-decay control that makes a clean separation possible in [Majoros and Sarlat 1966][research_majoros_1966] and a later mechanism for the same job in [Watson 1970][research_watson_1970]. The approach of [Barnes et al. 1964][research_barnes_1964] separates an instrument package from the vehicle entirely, so that the measurement is made away from the disturbed flow and the outgassing surfaces. The mechanisms developed for the contemporary Vanguard programme by [Baumann 1961][research_baumann_1961] show what the alternative looked like when the margin was not free.
 
@@ -937,15 +1456,24 @@ Almost everything failed. The X-ray detector foils ruptured and returned nothing
 
 Five consecutive recovery failures are not a run of bad luck at any plausible reliability. If each flight recovers independently with probability $p_r$, the chance of five failures in a row is
 
-$$P = \left( 1 - p_r \right)^{5}$$
+$$
+P = \left( 1 - p_r \right)^{5}
+\tag{174}
+$$
 
 which for an even-money recovery system would be
 
-$$P = (0.5)^{5} = 0.031$$
+$$
+P = (0.5)^{5} = 0.031
+\tag{175}
+$$
 
 and the one-sided 95 percent upper bound on the recovery probability, given no successes in five attempts, is
 
-$$p_r \le 1 - (0.05)^{1/5} = 0.45$$
+$$
+p_r \le 1 - (0.05)^{1/5} = 0.45
+\tag{176}
+$$
 
 **The recovery system was worse than a coin toss and the programme could say so after five flights.** The expected number of launches to obtain one recovered payload is $1/p_r$, so at the observed rate the programme was spending more than two vehicles per usable photographic result before the pack was redesigned.
 
@@ -967,11 +1495,17 @@ The most useful comparison available for this vehicle is the one Aerojet made it
 
 That claim deserves examination, because five percent is a remarkable result for an integration performed on a mechanical calculator. It was achievable for a definite reason. A sounding-rocket trajectory is a well-posed problem. The vehicle flies nearly vertically, so the equations reduce to one dimension. The atmosphere is known to within a few percent below 30 kilometres, which is where nearly all the drag is. The propulsion is a measured thrust history and a measured mass flow. The only poorly known quantity is the drag coefficient through the transonic region, and its effect is bounded because the loss is linear in it. Since the drag loss is proportional to $C_D$ at fixed trajectory,
 
-$$\frac{\partial \left( \Delta v_{\text{drag}} \right)}{\Delta v_{\text{drag}}} = \frac{\partial C_D}{C_D}$$
+$$
+\frac{\partial \left( \Delta v_{\text{drag}} \right)}{\Delta v_{\text{drag}}} = \frac{\partial C_D}{C_D}
+\tag{177}
+$$
 
 so a fractional error in the drag coefficient produces the same fractional error in the loss, and the loss itself is only
 
-$$\frac{\Delta v_{\text{drag}}}{v_b} = \frac{77}{1347} = 5.7 \, \text{percent}$$
+$$
+\frac{\Delta v_{\text{drag}}}{v_b} = \frac{77}{1347} = 5.7 \, \text{percent}
+\tag{178}
+$$
 
 of the burnout velocity. **A thirty percent error in the drag coefficient therefore moves the burnout velocity by 1.7 percent**, which explains quantitatively how a hand calculation could land within five percent of a vehicle nobody had flown.
 
@@ -979,15 +1513,24 @@ Contrast this with the aircraft in the earlier articles of this series. The [X-3
 
 The prediction machinery of the period can be checked against the same arithmetic. The trajectory integration required is
 
-$$\frac{\mathrm{d}v}{\mathrm{d}t} = \frac{F(t)}{m(t)} - g - \frac{\rho(h) v^{2} S C_D(M)}{2 m(t)}, \qquad \frac{\mathrm{d}h}{\mathrm{d}t} = v$$
+$$
+\frac{\mathrm{d}v}{\mathrm{d}t} = \frac{F(t)}{m(t)} - g - \frac{\rho(h) v^{2} S C_D(M)}{2 m(t)}, \qquad \frac{\mathrm{d}h}{\mathrm{d}t} = v
+\tag{179}
+$$
 
 with $m(t) = m_0 - \dot{m}t$. Integrating with a step $\Delta t$ by the forward Euler method accumulates a local truncation error of order $\Delta t^{2}$ per step and a global error of order $\Delta t$, so
 
-$$\epsilon_{\text{global}} \approx \tfrac{1}{2} \left| \ddot{v} \right|_{\max} T \Delta t$$
+$$
+\epsilon_{\text{global}} \approx \tfrac{1}{2} \left| \ddot{v} \right|_{\max} T \Delta t
+\tag{180}
+$$
 
 For an acceleration changing by roughly 100 metres per second squared over the 42.5 second burn, the second derivative is about 2.4 metres per second cubed, so a one second step over the burn gives
 
-$$\epsilon \approx \tfrac{1}{2}(2.4)(42.5)(1) = 51 \, \text{m/s}$$
+$$
+\epsilon \approx \tfrac{1}{2}(2.4)(42.5)(1) = 51 \, \text{m/s}
+\tag{181}
+$$
 
 which is 3.8 percent of the burnout velocity. **The reported five percent conservatism is the same size as the integration error of a one-second Euler step**, a coincidence that the public record cannot resolve. The step-size question was still being addressed formally two decades later, when [Walters 1967][research_walters_1967] compared integration methods for ballistic rocket trajectory programmes, so the concern is not anachronistic. Whether the design margin reflected physical conservatism, numerical error, or both is not recoverable and is recorded as unsettled.
 
@@ -1003,21 +1546,33 @@ The X-8's own sixty flights are a small part of what the Aerobee changed. A fair
 
 Before rockets, the atmosphere above about 30 kilometres was known by inference. Sound propagation from large explosions gave a temperature profile through the refraction of the returning waves, a technique [Cox 1948][research_cox_1948] describes. A ray launched at elevation $\theta_0$ into a stratified atmosphere conserves the Snell invariant,
 
-$$\frac{\cos \theta(z)}{c_s(z)} = \frac{\cos \theta_0}{c_s(0)}$$
+$$
+\frac{\cos \theta(z)}{c_s(z)} = \frac{\cos \theta_0}{c_s(0)}
+\tag{182}
+$$
 
 and turns back toward the ground where $\theta$ reaches zero, which happens at the altitude where
 
-$$c_s(z_t) = \frac{c_s(0)}{\cos \theta_0}$$
+$$
+c_s(z_t) = \frac{c_s(0)}{\cos \theta_0}
+\tag{183}
+$$
 
 Since the sound speed depends only on temperature, the return of a ray at a known launch angle locates an altitude where the temperature takes a particular value. **The method returns one temperature per ray, not a profile**, and it requires an assumed profile to convert the returns into altitudes, the circularity a rocket removes.
 
 Searchlight scattering gave densities to several tens of kilometres. The scattering is Rayleigh, whose cross-section per molecule varies as the inverse fourth power of wavelength,
 
-$$\sigma_R = \frac{24 \pi^{3}}{N_0^{2} \lambda^{4}} \left( \frac{n_r^{2}-1}{n_r^{2}+2} \right)^{2}$$
+$$
+\sigma_R = \frac{24 \pi^{3}}{N_0^{2} \lambda^{4}} \left( \frac{n_r^{2}-1}{n_r^{2}+2} \right)^{2}
+\tag{184}
+$$
 
 and whose returned signal from a range $z$ falls with the inverse square of that range,
 
-$$S(z) = \frac{C \, n(z) \, \sigma_R}{z^{2}} \quad \Longrightarrow \quad n(z) \propto S(z) \, z^{2}$$
+$$
+S(z) = \frac{C \, n(z) \, \sigma_R}{z^{2}} \quad \Longrightarrow \quad n(z) \propto S(z) \, z^{2}
+\tag{185}
+$$
 
 so density follows directly from the received intensity once the instrument constant is known. Both are integral methods, meaning they return a weighted average over a path rather than a local value, and both require an assumed model to invert.
 
@@ -1025,17 +1580,26 @@ Rockets made the measurement local and direct, and the programme that organised 
 
 The grenade experiment deserves its own mention because it is an elegant piece of physics that the Aerobee carried. Grenades ejected at known altitudes and detonated produce sound waves whose arrival times at a ground array give the mean sound speed over each layer, and since
 
-$$c_s = \sqrt{\frac{\gamma R_u T}{M}}$$
+$$
+c_s = \sqrt{\frac{\gamma R_u T}{M}}
+\tag{186}
+$$
 
 the temperature follows directly,
 
-$$T = \frac{c_s^{2} M}{\gamma R_u}$$
+$$
+T = \frac{c_s^{2} M}{\gamma R_u}
+\tag{187}
+$$
 
 while the wind follows from the anisotropy of the arrival times. The method is described by [Nordberg and Smith 1964][research_nordberg_1964] and [Stroud et al. 1960][research_stroud_1960], with the theory in [Groves 1966][research_groves_1966] and the low-altitude validation in [Stebbings et al. 1960][research_stebbings_1960]. **It measures a thermodynamic property of a gas by listening to it**, requiring no instrument to survive and no telemetry at all, which for a vehicle with the X-8's data-return problem is an enormous advantage. The same method was later applied by [Smith et al. 1968][research_smith_1968], the equatorial case of [de Mendonça et al. 1969][research_de_mendonca_1969], and the high-latitude case of [Rahmatullah 1972][research_rahmatullah_1972]. [Webb 1968][research_webb_1968] describes the wider synoptic programme that grew from it, with the sensor characterisation underneath it in [Beyers et al. 1962][research_beyers_1962] and the structure results of [Katchen et al. 1966b][research_katchen_1966]. A second and quite different wind method released a chemical trail and photographed its distortion, with the dispensing hardware in [Corman and Guarino 1965][research_corman_1965] and the results in [Bedinger et al. 1966][research_bedinger_1966].
 
 Density measurement by falling spheres, in which a sphere of known ballistic coefficient is ejected and tracked, inverts the drag relation to recover the density,
 
-$$\rho = \frac{2 m a_D}{C_D A v^{2}}$$
+$$
+\rho = \frac{2 m a_D}{C_D A v^{2}}
+\tag{188}
+$$
 
 and depends entirely on knowing the drag coefficient of a sphere across the transition from continuum to free-molecular flow. That dependence is the subject of the review by [Krumins 1972][research_krumins_1972] with the transition-regime treatment of [Karr 1974][research_karr_1974] and the pitot alternative of [Bollermann et al. 1970][research_bollermann_1970]. [Jacobson and Minzner 1966][research_jacobson_1966] combined the density record from 150 rocket flights and 26 searchlight probings across 1947 to 1964, and so compared the rocket method directly against the technique it displaced. The circulation results that followed appear in [Nordberg and Warnecke 1965][research_nordberg_1965], [Casey et al. 1970][research_casey_1970], and [Smith et al. 1972][research_smith_1972_2].
 
@@ -1047,15 +1611,24 @@ The ozone measurement is the clearest case of the optical-depth argument in acti
 
 A rocket ascending through the layer while watching the sun measures the transmission as a function of altitude, and differentiating the resulting optical depth profile gives the local concentration,
 
-$$n(z) = -\frac{1}{\sigma} \frac{\mathrm{d}\tau}{\mathrm{d}z}$$
+$$
+n(z) = -\frac{1}{\sigma} \frac{\mathrm{d}\tau}{\mathrm{d}z}
+\tag{189}
+$$
 
 The measurement is made against the sun, not at the zenith, so the path is slant and the optical depth is larger by the secant of the solar zenith angle $\chi$,
 
-$$\tau_{\text{slant}} = \tau_{\text{vert}} \sec \chi$$
+$$
+\tau_{\text{slant}} = \tau_{\text{vert}} \sec \chi
+\tag{190}
+$$
 
 which holds while the curvature of the atmosphere can be ignored, meaning below about seventy degrees, beyond which the secant must be replaced by the function [Chapman 1931b][research_chapman_1931_2] derived for the purpose. At sixty degrees the factor is two, so the altitude at which the atmosphere becomes transparent rises by
 
-$$\Delta z = H \ln 2 = (7.6)(0.693) = 5.3 \, \text{km}$$
+$$
+\Delta z = H \ln 2 = (7.6)(0.693) = 5.3 \, \text{km}
+\tag{191}
+$$
 
 **The observing geometry is therefore part of the altitude requirement**, and a measurement made near sunrise needs a higher apogee than the same measurement made at noon. [Johnson et al. 1952][research_johnson_1952] made that measurement to 70 kilometres and published the first direct vertical distribution. **The differentiation is the point.** A rocket profile is qualitatively better than a ground column, since differentiating an integral recovers information that no amount of precision on the integral itself can supply.
 
@@ -1075,15 +1648,24 @@ Solar X-ray emission during a flare was detected from a rocket by [Chubb et al. 
 
 [Riccardo Giacconi][ref_giacconi] received a share of the 2002 Nobel Prize in Physics for that line of work. **The instrument that started it observed for a few minutes from a sounding rocket.** Whether a few minutes is enough is a counting-statistics question with a definite answer. A detector accumulating source counts at rate $R_s$ against a background rate $R_b$ collects $R_s t$ and $R_b t$ counts in time $t$, and since both are Poisson the significance of the excess is
 
-$$\frac{S}{N} = \frac{R_s t}{\sqrt{\left( R_s + R_b \right) t}} = \frac{R_s \sqrt{t}}{\sqrt{R_s + R_b}}$$
+$$
+\frac{S}{N} = \frac{R_s t}{\sqrt{\left( R_s + R_b \right) t}} = \frac{R_s \sqrt{t}}{\sqrt{R_s + R_b}}
+\tag{192}
+$$
 
 Significance grows as the square root of time, so the exposure required for a detection at $k$ standard deviations is
 
-$$t_{\min} = \frac{k^{2} \left( R_s + R_b \right)}{R_s^{2}}$$
+$$
+t_{\min} = \frac{k^{2} \left( R_s + R_b \right)}{R_s^{2}}
+\tag{193}
+$$
 
 For a five-sigma detection of a source giving one count per second against a background of five,
 
-$$t_{\min} = \frac{25 (1 + 5)}{1^{2}} = 150 \, \text{s}$$
+$$
+t_{\min} = \frac{25 (1 + 5)}{1^{2}} = 150 \, \text{s}
+\tag{194}
+$$
 
 **which fits inside the observing window with room to spare**, while a source ten times fainter would require 12,750 seconds and is out of reach of any ballistic flight. The relation partitions the sky sharply into what a sounding rocket can find and what it cannot. X-ray astronomy began on a rocket and not a satellite because the brightest sources fall on the accessible side of that line. Nothing about the argument requires the flight to be long. It requires the source to be bright, and the observing-time relation derived at the beginning of this article is what makes a few minutes available at all. Giacconi recounts the episode in [Giacconi 2008 Secrets of the Hoary Deep][book_giacconi_2008], the source itself is [Scorpius X-1][ref_sco_x1], and the recognition is [Nobel Prize in Physics 2002][ref_nobel_2002]. [Rossi 1967b][research_rossi_1967], who was one of the four authors of the discovery paper, reviewed the field it opened five years later. The instrumentation lineage that followed within the sounding-rocket programme runs through [Fisher 1966][research_fisher_1966], [Davis et al. 1973][research_davis_1973], and [Kestenbaum et al. 1971][research_kestenbaum_1971], with the detector development that made the flights possible in [Baily and Cleary 1962][research_baily_1962] and solar-radiation instrumentation generally in [Marchgraber and Armstrong 1962][research_marchgraber_1962]. The same argument carried into the infrared in [Harwit et al. 1970][research_harwit_1970_2]. A source bright enough to detect at all was detectable in the time available, and the sky survey that followed needed more flights, not longer ones.
 
@@ -1091,29 +1673,47 @@ $$t_{\min} = \frac{25 (1 + 5)}{1^{2}} = 150 \, \text{s}$$
 
 Electron density profiles were measured directly by propagation experiments between a rocket-borne transmitter and the ground. A plasma of electron number density $N$ has a characteristic frequency
 
-$$f_p = \frac{1}{2\pi} \sqrt{\frac{N e^{2}}{\epsilon_0 m_e}} \approx 8.98 \sqrt{N} \, \text{Hz}$$
+$$
+f_p = \frac{1}{2\pi} \sqrt{\frac{N e^{2}}{\epsilon_0 m_e}} \approx 8.98 \sqrt{N} \, \text{Hz}
+\tag{195}
+$$
 
 with $N$ in electrons per cubic metre, which for a typical E-region density of $10^{11}$ is 2.84 megahertz. A radio wave above that frequency propagates with refractive index
 
-$$n = \sqrt{1 - \frac{f_p^{2}}{f^{2}}} = \sqrt{1 - \frac{N e^{2}}{4 \pi^{2} \epsilon_0 m_e f^{2}}}$$
+$$
+n = \sqrt{1 - \frac{f_p^{2}}{f^{2}}} = \sqrt{1 - \frac{N e^{2}}{4 \pi^{2} \epsilon_0 m_e f^{2}}}
+\tag{196}
+$$
 
 so the phase path differs from the geometric path by an amount that depends on the frequency and on the electron content along the ray. Transmitting two harmonically related frequencies and comparing their Doppler shifts removes the vehicle motion, which is common to both, and leaves the dispersive term,
 
-$$\Delta f_D \propto \frac{1}{f_1} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s - \frac{1}{f_2} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s$$
+$$
+\Delta f_D \propto \frac{1}{f_1} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s - \frac{1}{f_2} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s
+\tag{197}
+$$
 
 **Differentiating the result along the trajectory returns the local density rather than the column**. The ozone measurement uses the same device, and for that reason a rocket profile is qualitatively better than any ground-based sounding. **The method is [Seddon 1953][research_seddon_1953]**, which sets out the two-frequency propagation experiment and is the primary source for everything above, ahead of the Aerobee papers that applied it. [Jackson et al. 1956][research_jackson_1956] and [Jackson and Seddon 1958][research_jackson_1958] report the Navy Aerobee-Hi measurements by name, [Haycock et al. 1959][research_haycock_1959] give the independent implementation, and [Bauer and Jackson 1962][research_bauer_1962_2] the topside extension. [Aikin et al. 1964][research_aikin_1964] and [Kane 1969][research_kane_1969] interpret the resulting profiles, with electron temperature added by [Brace et al. 1965][research_brace_1965], the diffusion that shapes the profile in [Chandra 1964][research_chandra_1964] and [Schunk and Walker 1973][research_schunk_1973]. [Jackson et al. 1962][research_jackson_1962] cover radio-frequency impedance probes, [Mlodnosky and Garriott 1962][research_mlodnosky_1962] develop the very-low-frequency admittance treatment, and [Nisbet 1960][research_nisbet_1960] supplies the later probe comparisons.
 
 The altitude at which the atmosphere ceases to be well mixed is set by a competition between two transport processes. Below it, turbulent eddies stir the gas faster than molecules can separate by weight, and above it the reverse holds. The dividing level is where the eddy diffusivity $K$ equals the molecular diffusion coefficient $D$, which itself varies inversely with density,
 
-$$D(z) = D_0 \frac{n_0}{n(z)}$$
+$$
+D(z) = D_0 \frac{n_0}{n(z)}
+\tag{198}
+$$
 
 Setting $D = K$ gives a criterion in density alone,
 
-$$n_{\text{turbopause}} = \frac{D_0 n_0}{K}$$
+$$
+n_{\text{turbopause}} = \frac{D_0 n_0}{K}
+\tag{199}
+$$
 
 and with a sea-level molecular diffusivity of $2 \times 10^{-5}$ square metres per second and an eddy diffusivity near 100 in the lower thermosphere,
 
-$$n_{\text{turbopause}} = \frac{(2 \times 10^{-5})(2.5 \times 10^{25})}{100} = 5 \times 10^{18} \, \text{m}^{-3}$$
+$$
+n_{\text{turbopause}} = \frac{(2 \times 10^{-5})(2.5 \times 10^{25})}{100} = 5 \times 10^{18} \, \text{m}^{-3}
+\tag{200}
+$$
 
 which the standard atmosphere places near 107 kilometres. **Above that level each species falls off with its own scale height** instead of with the mean, so the mean molecular mass drops with altitude and the atmosphere separates. **That prediction was argued for long before the instruments existed to test it properly**, and [Jones et al. 1951][research_jones_1951] made the case from indirect evidence five years before anyone flew a spectrometer. [Meadows and Townsend 1956][research_meadows_1956] made the measurement that settled it, with [Hedin and Nier 1965][research_hedin_1965] establishing the separation by direct measurement and [Barrington 1965][research_barrington_1965] following the helium profile, which is its most sensitive indicator. Later composition work came from [Nichols and Shaefer 1963][research_nichols_1963], [Nichols and Schaefer 1964][research_nichols_1964], [Kennedy and Niemann 1966][research_kennedy_1966] with an omegatron, and [Nier and Hickman 1973][research_nier_1973] at high latitude. [Barth 1964][research_barth_1964] and [Barth 1966b][research_barth_1966_4] measured nitric oxide, a minor constituent with a major effect on the D region, following the prediction of [Kaplan 1939][research_kaplan_1939], with the later rocket measurements of [Pearce 1968][research_pearce_1968] and the review in [Barth 1966a][research_barth_1966_2]. [Donahue and Meier 1967][research_donahue_1967] observed sodium in the daytime upper atmosphere. The probe techniques themselves are surveyed by [Smith 1965b][research_smith_1965] and compared against one another by [Fejer et al. 1965][research_fejer_1965].
 
@@ -1474,6 +2074,1729 @@ Optical depth set the requirement, and observing time was the figure of merit. B
 What it produced is out of proportion to what it was. The first vertical ozone profile, the first measured atmosphere above 30 kilometres, the first far-ultraviolet solar spectra, the first solar X-ray flare observation, the first neutral composition by mass spectrometry, and the discovery of the first X-ray source outside the solar system all came from the sounding-rocket programme to which this vehicle belonged, the earliest of them from the captured V-2 rockets that the Aerobee replaced. One of them earned a Nobel Prize. **The observation lasted a few minutes**, and the reason a few minutes sufficed is the relation this article opens with.
 
 The designation is the loose end. The X-8 is an X-plane by administrative act rather than by any property it possesses. It is the first case where the letter stopped meaning experimental aircraft and started meaning experimental vehicle. Nobody appears to have decided that. It became true, and the rest of this series is in part the story of how far it went.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 200 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 200, 155 are established and 45 are bespoke.
+Quantities are in International System units unless a line states otherwise, with altitudes and scale heights inside a logarithm or a product sometimes written in kilometres and the nozzle exit area first found in square inches from pounds of thrust, and the effective exhaust velocity of 1962 metres per second is a working value the article infers rather than a measured one.
+
+**Equation 1, Beer and Lambert Attenuation.**
+Radiation crossing an absorbing medium falls exponentially with the optical depth accumulated along its path.
+[Banks and Kockarts 1973 Aeronomy][book_banks_kockarts_1973]
+
+$$
+I(z) = I_{\infty} \, e^{-\tau(z)}
+\tag{1}
+$$
+
+**Equation 2, Optical Depth of the Overhead Column.**
+The optical depth above an altitude is the absorption cross-section times the column of absorbers overhead for a path at the zenith.
+[Banks and Kockarts 1973 Aeronomy][book_banks_kockarts_1973]
+
+$$
+\tau(z) = \sigma \int_{z}^{\infty} n(z') \, \mathrm{d}z'
+\tag{2}
+$$
+
+**Equation 3, Scale Height of an Isothermal Atmosphere.**
+The scale height is the thermal energy per molecule divided by the weight of a molecule, the distance over which an isothermal atmosphere thins by a factor of $e$.
+[Banks and Kockarts 1973 Aeronomy][book_banks_kockarts_1973]
+
+$$
+H = \frac{k T}{m g}
+\tag{3}
+$$
+
+**Equation 4, Scale Height at 250 Kelvin.**
+Evaluating the scale height for air of mean molecular mass 28.9 atomic mass units at 250 kelvin and a gravity of 9.5 metres per second squared gives about 7.6 kilometres.
+
+$$
+H = \frac{(1.381 \times 10^{-23})(250)}{(4.80 \times 10^{-26})(9.5)} = 7.6 \times 10^{3} \, \text{m}
+\tag{4}
+$$
+
+**Equation 5, Optical Depth of an Exponential Atmosphere.**
+For a density falling exponentially with the scale height the column integral collapses, so the optical depth is the cross-section times the local density times the scale height.
+[Chapman 1931a][research_chapman_1931]
+
+$$
+\tau(z) = \sigma \, n(z) \, H
+\tag{5}
+$$
+
+**Equation 6, Density at Unit Optical Depth.**
+The atmosphere becomes transparent at the density at which the optical depth falls to one.
+[Chapman 1931a][research_chapman_1931]
+
+$$
+n^{*} = \frac{1}{\sigma H}
+\tag{6}
+$$
+
+**Equation 7, Altitude of Unit Optical Depth.**
+The altitude at which the overhead column reaches unit optical depth is the scale height times the logarithm of the sea-level density over the critical density, so it depends only logarithmically on the cross-section.
+[Chapman 1931a][research_chapman_1931]
+
+$$
+z^{*} = H \ln \left( \frac{n_0}{n^{*}} \right) = H \ln \left( \sigma H n_0 \right)
+\tag{7}
+$$
+
+**Equation 8, Critical Density for Lyman-Alpha Absorption by Oxygen.**
+Molecular oxygen at 21 percent of the air with a cross-section near $10^{-24}$ square metres reaches unit optical depth at a total density of about $6.3 \times 10^{20}$ per cubic metre.
+
+$$
+n^{*}_{\text{tot}} = \frac{1}{0.21 \, \sigma H} = \frac{1}{(0.21)(10^{-24})(7.6 \times 10^{3})} = 6.3 \times 10^{20} \, \text{m}^{-3}
+\tag{8}
+$$
+
+**Equation 9, Altitude at Which Lyman-Alpha Becomes Observable.**
+The unit optical depth altitude for the Lyman-alpha critical density is about 80 kilometres.
+
+$$
+z^{*} = 7.6 \ln \left( \frac{2.5 \times 10^{25}}{6.3 \times 10^{20}} \right) = 7.6 \times 10.6 = 80 \, \text{km}
+\tag{9}
+$$
+
+**Equation 10, Altitude at Which Soft X-Rays Become Observable.**
+A cross-section near $10^{-23}$ square metres against the bulk atmosphere places unit optical depth for radiation near 44 angstroms at about 110 kilometres.
+
+$$
+z^{*} = 7.6 \ln \left( (10^{-23})(7.6 \times 10^{3})(2.5 \times 10^{25}) \right) = 7.6 \times 14.5 = 110 \, \text{km}
+\tag{10}
+$$
+
+**Equation 11, Optical Depth of the Whole Ozone Layer.**
+The Hartley band cross-section times the total ozone column gives an optical depth of about 92, so the layer is opaque until the rocket climbs through it.
+
+$$
+\tau = \sigma N = (1.15 \times 10^{-21})(8 \times 10^{22}) = 92
+\tag{11}
+$$
+
+**Equation 12, Time Above a Threshold on a Ballistic Arc.**
+With gravity constant over the arc the altitude is a parabola in time, so the interval above a threshold is twice the time to fall from apogee to that threshold.
+
+$$
+t_{\text{obs}} = 2 \sqrt{\frac{2 \left( h_a - h_t \right)}{g}}
+\tag{12}
+$$
+
+**Equation 13, Time Above the Lyman-Alpha Threshold.**
+An apogee of 116 kilometres gives about 174 seconds above the 80 kilometre threshold.
+
+$$
+t_{\text{obs}} = 2\sqrt{\frac{2 \left( 36 \times 10^{3} \right)}{9.5}} = 2 \times 87 = 174 \, \text{s}
+\tag{13}
+$$
+
+**Equation 14, Time Above the Soft X-Ray Threshold.**
+The same apogee gives about 71 seconds above the 110 kilometre threshold.
+
+$$
+t_{\text{obs}} = 2\sqrt{\frac{2 \left( 6 \times 10^{3} \right)}{9.5}} = 2 \times 35.5 = 71 \, \text{s}
+\tag{14}
+$$
+
+**Equation 15, Apogee from Burnout Conditions.**
+In a drag-free vertical coast at constant gravity the apogee exceeds the burnout altitude by the square of the burnout speed over twice the gravity.
+
+$$
+h_a = h_b + \frac{v_b^{2}}{2g}
+\tag{15}
+$$
+
+**Equation 16, Observing Time Above Burnout Altitude.**
+Setting the threshold at the burnout altitude cancels it and leaves an observing time of twice the burnout speed over gravity.
+
+$$
+t_{\text{obs}} = 2\sqrt{\frac{2}{g} \cdot \frac{v_b^{2}}{2g}} = \frac{2 v_b}{g}
+\tag{16}
+$$
+
+**Equation 17, Tsiolkovsky Rocket Equation.**
+The ideal velocity increment is the effective exhaust velocity times the natural logarithm of the mass ratio.
+[Tsiolkovsky rocket equation][ref_rocket_equation]
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+\Delta v = c \ln R
+\tag{17}
+$$
+
+*Equation 18, Bespoke Observing Time in Terms of Exhaust Velocity and Mass Ratio.*
+Substituting the ideal rocket increment for the burnout speed makes the observing time linear in exhaust velocity and logarithmic in mass ratio, under the article's neglect of gravity and drag losses during the burn.
+
+$$
+t_{\text{obs}} = \frac{2c}{g} \ln R
+\tag{18}
+$$
+
+*Equation 19, Bespoke Observing Time Coefficient.*
+Twice the working exhaust velocity of 1962 metres per second over gravity gives 400 seconds of observation for each factor of $e$ in mass ratio.
+
+$$
+\frac{2c}{g} = \frac{2 \times 1962}{9.81} = 400 \, \text{s}
+\tag{19}
+$$
+
+**Equation 20, Probability of a Target Within the Field of View.**
+For a circular Gaussian pointing error the chance that the target falls within a field of half-angle $\theta$ follows the Rayleigh distribution of the radial error.
+
+$$
+P_{\text{hit}} = 1 - \exp \left( -\frac{\theta^{2}}{2 s^{2}} \right)
+\tag{20}
+$$
+
+**Equation 21, Miles Equation for Random Vibration Response.**
+A lightly damped single-degree-of-freedom structure driven by broadband acceleration responds with a root-mean-square acceleration set by its natural frequency, quality factor and the input spectral density.
+
+$$
+a_{\text{rms}} = \sqrt{\frac{\pi}{2} f_n Q \, S_a}
+\tag{21}
+$$
+
+**Equation 22, Molecular Flux from Kinetic Theory.**
+Kinetic theory gives the number of molecules striking or leaving a surface per unit area and time at a partial pressure $p$ and temperature $T$.
+
+$$
+\Phi = \frac{p}{\sqrt{2 \pi m k T}}
+\tag{22}
+$$
+
+**Equation 23, Sample Size for a Two-Sample Comparison.**
+Detecting a difference $d$ against a scatter $\sigma$ at a chosen significance and power requires a number of samples per group set by the sum of the two normal quantiles.
+[Box Hunter and Hunter 2005 Statistics for Experimenters][book_box_hunter_hunter_2005]
+[Cohen 1988 Statistical Power Analysis for the Behavioral Sciences][book_cohen_1988]
+
+$$
+n = 2 \left( \frac{ \left( z_{\alpha} + z_{\beta} \right) \sigma }{d} \right)^{2}
+\tag{23}
+$$
+
+**Equation 24, Sample Size for an Effect Equal to the Scatter.**
+At five percent significance and eighty percent power an effect the size of the scatter needs about sixteen flights per condition.
+[Box Hunter and Hunter 2005 Statistics for Experimenters][book_box_hunter_hunter_2005]
+[Cohen 1988 Statistical Power Analysis for the Behavioral Sciences][book_cohen_1988]
+
+$$
+n = 2 \left( \frac{1.96 + 0.84}{1} \right)^{2} = 15.7 \approx 16
+\tag{24}
+$$
+
+*Equation 25, Bespoke Standard Error at a Sample Size Set by Budget.*
+The standard error of a mean falls as the inverse square root of the sample, and the article sets the sample by dividing a fixed budget by the unit cost of a flight.
+
+$$
+\mathrm{SE} = \frac{\sigma}{\sqrt{n}} = \sigma \sqrt{\frac{c_u}{C}}
+\tag{25}
+$$
+
+**Equation 26, Ideal Effective Exhaust Velocity.**
+The exhaust velocity of an ideal isentropic expansion is fixed by the combustion temperature, the molecular mass of the products, the ratio of specific heats and the nozzle pressure ratio.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+c = \sqrt{ \frac{2 \gamma}{\gamma - 1} \cdot \frac{R_u T_c}{M} \left[ 1 - \left( \frac{p_e}{p_c} \right)^{\frac{\gamma-1}{\gamma}} \right] }
+\tag{26}
+$$
+
+**Equation 27, Exhaust Velocity of Nitric Acid and Aniline.**
+The ideal relation is evaluated at a flame temperature near 2900 kelvin, products of 25 grammes per mole, a ratio of specific heats of 1.22 and an expansion from 2.8 to 0.1 megapascals.
+
+$$
+c = \sqrt{ \frac{2 \times 1.22}{0.22} \cdot \frac{(8.314)(2900)}{0.025} \left[ 1 - \left( \frac{0.1}{2.8} \right)^{0.180} \right] }
+\tag{27}
+$$
+
+**Equation 28, Theoretical Exhaust Velocity of the Sustainer Propellants.**
+Collecting the factors gives a theoretical effective exhaust velocity of about 2196 metres per second.
+
+$$
+c = \sqrt{ (11.09)(9.644 \times 10^{5})(0.451) } = \sqrt{4.82 \times 10^{6}} = 2196 \, \text{m/s}
+\tag{28}
+$$
+
+**Equation 29, Theoretical Specific Impulse.**
+The specific impulse is the effective exhaust velocity divided by standard gravity, about 224 seconds for this propellant in theory.
+[specific impulse][ref_specific_impulse]
+
+$$
+I_{sp} = \frac{c}{g_0} = \frac{2196}{9.81} = 224 \, \text{s}
+\tag{29}
+$$
+
+**Equation 30, Boil-Off Rate of a Cryogenic Tank.**
+Heat leaking through the tank wall vaporises propellant at the heat flow divided by the latent heat of vaporisation.
+
+$$
+\dot{m}_{\text{boil}} = \frac{\dot{Q}}{h_{fg}} = \frac{U A \left( T_{\infty} - T_{\text{sat}} \right)}{h_{fg}}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Boil-Off of Uninsulated Liquid Oxygen.*
+The boil-off is evaluated for an uninsulated wall with an overall coefficient of 5 watts per square metre kelvin and a temperature difference of 210 kelvin, values the article assumes.
+
+$$
+\dot{m}_{\text{boil}} = \frac{(5)(3.9)(210)}{2.13 \times 10^{5}} = 0.0192 \, \text{kg/s} = 69 \, \text{kg/h}
+\tag{31}
+$$
+
+**Equation 32, Vacuum and Sea-Level Thrust Difference.**
+The thrust lost at sea level is the ambient pressure acting on the nozzle exit area.
+
+$$
+F_{\text{vac}} - F_{\text{SL}} = p_{\text{amb}} A_e
+\tag{32}
+$$
+
+**Equation 33, Nozzle Exit Area from the Thrust Difference.**
+The published vacuum and sea-level thrusts of the 4000 pound engine fix the exit area at about 42.7 square inches.
+
+$$
+A_e = \frac{(4728 - 4100) \, \text{lbf}}{14.7 \, \text{psi}} = \frac{628}{14.7} = 42.7 \, \text{in}^{2}
+\tag{33}
+$$
+
+**Equation 34, Nozzle Exit Diameter.**
+The exit diameter follows from the exit area of a circular nozzle.
+
+$$
+d_e = \sqrt{\frac{4 A_e}{\pi}} = \sqrt{\frac{4 \times 0.0276}{\pi}} = 0.187 \, \text{m}
+\tag{34}
+$$
+
+**Equation 35, Throat Area from the Expansion Ratio.**
+Dividing the exit area by the published expansion ratio of 4.6 gives the throat area and diameter.
+
+$$
+A_t = \frac{A_e}{\varepsilon} = \frac{0.0276}{4.6} = 6.00 \times 10^{-3} \, \text{m}^{2}, \qquad d_t = 0.0874 \, \text{m}
+\tag{35}
+$$
+
+**Equation 36, Isentropic Area Mach Relation.**
+The ratio of exit to throat area fixes the exit Mach number of an isentropic nozzle for a given ratio of specific heats.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+[Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible]
+
+$$
+\varepsilon = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma+1} \left( 1 + \frac{\gamma-1}{2} M_e^{2} \right) \right]^{\frac{\gamma+1}{2(\gamma-1)}}
+\tag{36}
+$$
+
+**Equation 37, Exit Pressure Ratio.**
+The isentropic pressure ratio at the exit Mach number gives the exit pressure as a fraction of chamber pressure.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+\frac{p_e}{p_c} = \left( 1 + \frac{\gamma-1}{2} M_e^{2} \right)^{-\frac{\gamma}{\gamma-1}} = 0.0344
+\tag{37}
+$$
+
+**Equation 38, Thrust Coefficient.**
+The thrust coefficient is the momentum term of the ideal expansion plus the pressure difference across the exit area over the chamber pressure.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+C_F = \sqrt{ \frac{2\gamma^{2}}{\gamma-1} \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma+1}{\gamma-1}} \left[ 1 - \left( \frac{p_e}{p_c} \right)^{\frac{\gamma-1}{\gamma}} \right] } + \left( \frac{p_e - p_a}{p_c} \right) \varepsilon
+\tag{38}
+$$
+
+**Equation 39, Vacuum Thrust Coefficient.**
+At an expansion ratio of 4.6 the momentum term and the full exit pressure term sum to about 1.624.
+
+$$
+C_{F,\text{vac}} = 1.466 + (0.0344)(4.6) = 1.624
+\tag{39}
+$$
+
+**Equation 40, Sea-Level Thrust in Terms of Chamber Pressure.**
+The sea-level thrust is the vacuum thrust less the ambient pressure on the exit area, which ties the sea-level coefficient to the chamber pressure.
+
+$$
+F_{\text{SL}} = \left[ C_{F,\text{vac}} - \frac{p_a \varepsilon}{p_c} \right] p_c A_t = C_{F,\text{vac}} \, p_c A_t - p_a A_e
+\tag{40}
+$$
+
+**Equation 41, Chamber Pressure from the Sea-Level Thrust.**
+Solving the sea-level thrust relation with the published 4100 pounds gives a chamber pressure of about 2.16 megapascals.
+
+$$
+p_c = \frac{F_{\text{SL}} + p_a A_e}{C_{F,\text{vac}} A_t} = \frac{18237 + (101325)(0.02756)}{(1.624)(5.99 \times 10^{-3})} = 2.16 \times 10^{6} \, \text{Pa}
+\tag{41}
+$$
+
+**Equation 42, Sea-Level Thrust Coefficient.**
+Subtracting the ambient pressure term at that chamber pressure gives a sea-level coefficient of about 1.41.
+
+$$
+C_{F,\text{SL}} = 1.624 - \frac{(101325)(4.6)}{2.16 \times 10^{6}} = 1.409
+\tag{42}
+$$
+
+**Equation 43, Vacuum Thrust as an Independent Check.**
+Carrying the derived chamber pressure back to vacuum reproduces the separately published 4728 pounds to within one pound.
+
+$$
+F_{\text{vac}} = C_{F,\text{vac}} \, p_c A_t = (1.624)(2.16 \times 10^{6})(5.99 \times 10^{-3}) = 21{,}030 \, \text{N} = 4727 \, \text{lbf}
+\tag{43}
+$$
+
+**Equation 44, Exit Pressure at Sea Level.**
+The exit pressure of about 74 kilopascals lies below ambient, so the nozzle is overexpanded at sea level.
+
+$$
+p_e = 0.0344 \, p_c = (0.0344)(2.16 \times 10^{6}) = 74.3 \, \text{kPa}
+\tag{44}
+$$
+
+**Equation 45, Characteristic Velocity.**
+The characteristic velocity is the chamber pressure times the throat area divided by the mass flow, a measure of combustion quality independent of the nozzle.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+c^{*} = \frac{p_c A_t}{\dot{m}}
+\tag{45}
+$$
+
+**Equation 46, Mass Flow from Thrust and Specific Impulse.**
+The mass flow is the thrust divided by the effective exhaust velocity, here the working value of 200 seconds of specific impulse.
+
+$$
+\dot{m} = \frac{F}{I_{sp} g_0} = \frac{(4100)(4.448)}{1962} = 9.29 \, \text{kg/s}
+\tag{46}
+$$
+
+**Equation 47, Delivered Characteristic Velocity.**
+The derived chamber pressure, throat area and mass flow give a delivered characteristic velocity of about 1393 metres per second.
+
+$$
+c^{*} = \frac{(2.16 \times 10^{6})(5.99 \times 10^{-3})}{9.29} = 1393 \, \text{m/s}
+\tag{47}
+$$
+
+**Equation 48, Mass Flow Through a Choked Throat.**
+A sonic throat passes a mass flow fixed by the chamber pressure, the throat area, the chamber temperature and a flow factor that depends on the ratio of specific heats.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+\dot{m} = \frac{p_c A_t}{\sqrt{R T_c}} \, \Gamma, \qquad \Gamma = \sqrt{\gamma} \left( \frac{2}{\gamma+1} \right)^{\frac{\gamma+1}{2(\gamma-1)}}
+\tag{48}
+$$
+
+**Equation 49, Ideal Characteristic Velocity.**
+Combining the choked flow relation with the definition shows that the ideal characteristic velocity depends only on the combustion gas.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+c^{*}_{\text{ideal}} = \frac{\sqrt{R T_c}}{\Gamma}
+\tag{49}
+$$
+
+**Equation 50, Ideal Characteristic Velocity of the Propellants.**
+A specific gas constant of 333 joules per kilogramme kelvin at 2900 kelvin and a flow factor of 0.652 give about 1505 metres per second.
+
+$$
+c^{*}_{\text{ideal}} = \frac{\sqrt{(333)(2900)}}{0.652} = \frac{982}{0.652} = 1505 \, \text{m/s}
+\tag{50}
+$$
+
+**Equation 51, Combustion Efficiency.**
+The ratio of the delivered to the ideal characteristic velocity gives a combustion efficiency near 93 percent.
+
+$$
+\eta_{c^{*}} = \frac{1393}{1505} = 0.926
+\tag{51}
+$$
+
+**Equation 52, Bartz Throat Heat Transfer Correlation.**
+The Bartz correlation gives the gas-side heat transfer coefficient at a rocket throat from the throat diameter, the gas properties and the ratio of chamber pressure to characteristic velocity.
+
+$$
+h_g = \frac{0.026}{d_t^{0.2}} \left( \frac{\mu^{0.2} c_p}{\mathrm{Pr}^{0.6}} \right) \left( \frac{p_c}{c^{*}} \right)^{0.8}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Throat Heat Transfer Coefficient.*
+The correlation is evaluated with a viscosity, specific heat and Prandtl number that the article assumes for the combustion gas.
+
+$$
+h_g = \frac{0.026}{(0.0874)^{0.2}} \left( \frac{(8 \times 10^{-5})^{0.2}(1900)}{(0.8)^{0.6}} \right) \left( \frac{2.16 \times 10^{6}}{1393} \right)^{0.8} = 4900 \, \text{W/m}^{2}\text{K}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Throat Heat Flux.*
+The heat transfer coefficient times a gas-to-wall temperature difference of about 1900 kelvin, which the article assumes, gives a throat flux of about nine megawatts per square metre.
+
+$$
+q_t = h_g \left( T_{aw} - T_w \right) = (4900)(1900) = 9.3 \, \text{MW/m}^{2}
+\tag{54}
+$$
+
+**Equation 55, Mass of a Thin-Walled Pressure Vessel.**
+The wall mass of a thin pressure vessel is a shape factor times the pressure and volume divided by the specific strength of the material.
+[Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992]
+
+$$
+m_{\text{tank}} = k \frac{\rho_m}{\sigma_a} p V
+\tag{55}
+$$
+
+**Equation 56, Volume of a Cylindrical Tank.**
+A cylinder of 0.38 metres diameter and 3 metres length holds 0.34 cubic metres.
+
+$$
+V = \frac{\pi d^{2}}{4} L = \frac{\pi (0.38)^{2}}{4} (3) = 0.340 \, \text{m}^{3}
+\tag{56}
+$$
+
+*Equation 57, Bespoke Mass of a Pressure-Fed Tank.*
+The vessel mass is evaluated at an ullage pressure of 3.1 megapascals and an aluminium allowable of 200 megapascals, values the article assumes.
+[Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992]
+
+$$
+m_{\text{tank}} = 2 \times \frac{2800}{2 \times 10^{8}} \times (3.1 \times 10^{6})(0.340) = 29.5 \, \text{kg}
+\tag{57}
+$$
+
+**Equation 58, Mass of Stored Pressurant.**
+The real-gas law gives the mass of pressurant that fills a volume at a given pressure and temperature.
+
+$$
+m_{\text{gas}} = \frac{p V M_g}{Z R_u T}
+\tag{58}
+$$
+
+**Equation 59, Helium Mass to Pressurise One Tank.**
+Helium at 3.1 megapascals filling 0.34 cubic metres at 300 kelvin weighs about 1.7 kilogrammes.
+
+$$
+m_{\text{gas}} = \frac{(3.1 \times 10^{6})(0.34)(4.003 \times 10^{-3})}{(1)(8.314)(300)} = 1.69 \, \text{kg}
+\tag{59}
+$$
+
+**Equation 60, Air Mass to Pressurise One Tank.**
+Air does the same job at the ratio of molecular masses, about 12 kilogrammes.
+
+$$
+m_{\text{air}} = 1.69 \times \frac{29}{4.003} = 12.2 \, \text{kg}
+\tag{60}
+$$
+
+**Equation 61, Burnout Speed from a Drag-Free Coast.**
+Energy conservation in a drag-free coast at a mean gravity gives the burnout speed needed to reach a given apogee.
+
+$$
+v_b = \sqrt{2 \bar{g} \left( h_a - h_b \right)}
+\tag{61}
+$$
+
+**Equation 62, Burnout Speed Implied by the Published Apogee.**
+The published apogee and burnout altitude imply about 1274 metres per second, below the reported 1347 by the drag the coast omits.
+[White 2011][ref_white_2011_x8]
+
+$$
+v_b = \sqrt{2 (9.6) \left( 116 - 31.5 \right) \times 10^{3}} = \sqrt{1.622 \times 10^{6}} = 1274 \, \text{m/s}
+\tag{62}
+$$
+
+**Equation 63, Gravity Loss in Near-Vertical Flight.**
+The component of gravity along a path at angle $\gamma$ from the vertical, integrated over the burn, is close to the mean gravity times the burn time when the path stays near vertical.
+
+$$
+\Delta v_g = \int_0^{t_b} g \cos \gamma \, \mathrm{d}t \approx \bar{g} \, t_b
+\tag{63}
+$$
+
+**Equation 64, Gravity Loss Over the Burn.**
+A 42.5 second burn at a mean gravity of 9.75 metres per second squared loses about 414 metres per second.
+
+$$
+\Delta v_g = (9.75)(42.5) = 414 \, \text{m/s}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Ideal Velocity Increment Required.*
+The budget adds the reported burnout speed, the gravity loss and a drag loss of 130 metres per second that the article assumes from its own estimated range.
+
+$$
+\Delta v_{\text{ideal}} = 1347 + 414 + 130 = 1891 \, \text{m/s}
+\tag{65}
+$$
+
+**Equation 66, Total Impulse of Booster and Sustainer.**
+The published thrusts and burn times of the two motors give a combined impulse of about 664 kilonewton seconds.
+[Aerobee][ref_aerobee]
+
+$$
+I_{\text{tot}} = F_b t_b + F_s t_s = (80.1)(2.5) + (11.6)(40) = 200 + 464 = 664 \, \text{kN} \cdot \text{s}
+\tag{66}
+$$
+
+**Equation 67, Propellant Mass Implied by the Total Impulse.**
+Dividing the total impulse by the working exhaust velocity gives about 338 kilogrammes of propellant.
+
+$$
+m_p = \frac{I_{\text{tot}}}{c} = \frac{6.64 \times 10^{5}}{1962} = 338 \, \text{kg}
+\tag{67}
+$$
+
+*Equation 68, Bespoke Single-Stage Mass Ratio with the Booster Jettisoned.*
+The mass ratio subtracts the propellant and a booster inert mass of 150 kilogrammes that the article assumes, since no source reports it.
+
+$$
+R = \frac{745}{745 - 338 - 150} = \frac{745}{257} = 2.90
+\tag{68}
+$$
+
+*Equation 69, Bespoke Booster Propellant Mass.*
+The booster impulse divided by a solid-motor exhaust velocity of 2060 metres per second, which the article assumes, gives about 97 kilogrammes of propellant.
+
+$$
+m_{p,b} = \frac{2.00 \times 10^{5}}{2060} = 97 \, \text{kg}
+\tag{69}
+$$
+
+**Equation 70, Velocity Increment of the Boost Phase.**
+The rocket equation applied to the boost, with the exhaust velocity taken as thrust over mass flow, gives about 288 metres per second.
+
+$$
+\Delta v_1 = \frac{F_b}{\dot{m}_b} \ln \frac{745}{648} = \frac{80100}{38.8} \ln (1.150) = (2064)(0.1395) = 288 \, \text{m/s}
+\tag{70}
+$$
+
+**Equation 71, Velocity Increment of the Sustainer Phase.**
+The rocket equation applied to the sustainer stage from 498 to 261.5 kilogrammes gives about 1264 metres per second.
+
+$$
+\Delta v_2 = 1962 \ln \frac{498}{261.5} = (1962)(0.644) = 1264 \, \text{m/s}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Staged Reconstruction of the Burnout Speed.*
+The two increments less their gravity losses fall short of the reported burnout speed before drag is counted, a closure test the article constructs on its assumed inert mass, burn time and exhaust velocity.
+
+$$
+v_b = 264 + 1264 - 390 - \Delta v_{\text{drag}} = 1138 - \Delta v_{\text{drag}}
+\tag{72}
+$$
+
+**Equation 73, Exit Speed from a Launch Tower.**
+A constant net acceleration over the tower length gives an exit speed of the square root of twice their product.
+
+$$
+v_e = \sqrt{2 a L}
+\tag{73}
+$$
+
+**Equation 74, Net Acceleration During Boost.**
+Both motors acting on the full liftoff mass against gravity give a net acceleration of about 113 metres per second squared.
+
+$$
+a = \frac{F_b + F_s}{m_0} - g = \frac{80.1 \times 10^{3} + 11.6 \times 10^{3}}{745} - 9.81 = 123.1 - 9.8 = 113.3 \, \text{m/s}^{2}
+\tag{74}
+$$
+
+**Equation 75, Exit Speed from the 143-Foot Tower.**
+The net acceleration over the 43.6 metre tower gives an exit speed of about 99 metres per second.
+[Mattson and Tagg 1995][ref_mattson_tagg_1995]
+
+$$
+v_e = \sqrt{2 (113.3)(43.6)} = \sqrt{9880} = 99.4 \, \text{m/s}
+\tag{75}
+$$
+
+**Equation 76, Time on the Tower.**
+The exit speed divided by the net acceleration gives under a second on the tower.
+
+$$
+t_e = \frac{v_e}{a} = \frac{99.4}{113.3} = 0.88 \, \text{s}
+\tag{76}
+$$
+
+**Equation 77, Angle of Attack Induced by a Crosswind.**
+A crosswind meeting a vehicle at its exit speed produces an angle of attack whose tangent is the ratio of the two speeds.
+
+$$
+\alpha_w = \arctan \frac{w}{v_e}
+\tag{77}
+$$
+
+**Equation 78, Crosswind Angle of Attack at Tower Exit.**
+A ten metre per second crosswind at the tower exit speed gives an angle of attack of about 5.7 degrees.
+
+$$
+\alpha_w = \arctan \frac{10}{99.4} = 5.7^{\circ}
+\tag{78}
+$$
+
+**Equation 79, Aerodynamic Restoring Stiffness.**
+The pitch restoring moment per radian is the dynamic pressure times the reference area times the normal force slope times the static margin.
+
+$$
+M_{\alpha} = q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)
+\tag{79}
+$$
+
+**Equation 80, Dynamic Pressure at Tower Exit.**
+At the range elevation of 1200 metres the exit speed gives a dynamic pressure of about 5.2 kilopascals.
+
+$$
+q = \tfrac{1}{2} \rho v_e^{2} = \tfrac{1}{2} (1.06)(99.4)^{2} = 5237 \, \text{Pa}
+\tag{80}
+$$
+
+*Equation 81, Bespoke Restoring Stiffness at Tower Exit.*
+The stiffness is evaluated with a normal force slope of 12 per radian, a static margin of 1.5 calibres and a pitch inertia of 3000 kilogramme square metres, values the article assumes.
+
+$$
+M_{\alpha} = (5237)(0.1134)(12)(0.57) = 4061 \, \text{N} \cdot \text{m/rad}
+\tag{81}
+$$
+
+**Equation 82, Pitch Natural Frequency at Tower Exit.**
+The square root of the restoring stiffness over the pitch inertia gives about 1.16 radians per second.
+
+$$
+\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{4061}{3000}} = 1.16 \, \text{rad/s}
+\tag{82}
+$$
+
+*Equation 83, Bespoke Linear Pitch Equation with Fin Damping.*
+The article writes the pitch motion as a second-order system whose damping term takes the static margin as the lever arm of the fin force induced by pitch rate, a simplification of the usual pitch damping derivative.
+
+$$
+I_y \ddot{\alpha} + \left( \frac{q S \, C_{N\alpha} \left( x_{cp} - x_{cg} \right)^{2}}{v} \right) \dot{\alpha} + q S C_{N\alpha} \left( x_{cp} - x_{cg} \right) \alpha = 0
+\tag{83}
+$$
+
+**Equation 84, Standard Second-Order Form.**
+Dividing by the pitch inertia puts the motion in the standard form whose damping ratio is the damping term over twice the square root of stiffness times inertia.
+
+$$
+\ddot{\alpha} + 2 \zeta \omega_n \dot{\alpha} + \omega_n^{2} \alpha = 0, \qquad \zeta = \frac{M_q}{2 \sqrt{M_{\alpha} I_y}}
+\tag{84}
+$$
+
+*Equation 85, Bespoke Pitch Damping Coefficient at Tower Exit.*
+The damping coefficient of the article's model is evaluated at tower exit with the assumed slope, static margin and speed.
+
+$$
+M_q = \frac{q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)^{2}}{v} = \frac{(5237)(0.1134)(12)(0.57)^{2}}{99.4} = 23.3 \, \text{N} \cdot \text{m} \cdot \text{s/rad}
+\tag{85}
+$$
+
+**Equation 86, Damping Ratio at Tower Exit.**
+The model damping ratio at tower exit is about a third of one percent of critical.
+
+$$
+\zeta = \frac{23.3}{2\sqrt{(4061)(3000)}} = 0.0033
+\tag{86}
+$$
+
+**Equation 87, Cycles to Halve an Oscillation.**
+A lightly damped oscillation halves in amplitude after the natural logarithm of two divided by two pi times the damping ratio cycles, about 33 here.
+
+$$
+N_{1/2} = \frac{\ln 2}{2 \pi \zeta} = \frac{0.693}{2\pi (0.0033)} = 33
+\tag{87}
+$$
+
+*Equation 88, Bespoke Scaling of Damping Ratio with Density.*
+Because the model damping scales as density times speed and the stiffness root as speed times the square root of density, the damping ratio falls as the square root of density.
+
+$$
+\zeta \propto \sqrt{\rho}
+\tag{88}
+$$
+
+**Equation 89, Centre of Pressure as a Weighted Mean.**
+The centre of pressure of the whole vehicle is the mean of the component centres of pressure weighted by their normal force slopes.
+[Barrowman 1967][research_barrowman_1967]
+
+$$
+x_{cp} = \frac{\sum_i C_{N\alpha,i} \, x_i}{\sum_i C_{N\alpha,i}}
+\tag{89}
+$$
+
+**Equation 90, Barrowman Fin Normal Force Slope.**
+The subsonic normal force slope of a set of trapezoidal fins depends on the number of fins, their semi-span relative to the body diameter and their sweep and chords, multiplied by an interference factor.
+[Barrowman 1967][research_barrowman_1967]
+
+$$
+C_{N\alpha,\text{fin}} = \frac{4 n \left( s / d \right)^{2}}{1 + \sqrt{1 + \left( \frac{2 \ell}{c_r + c_t} \right)^{2}}} \cdot K_{fb}
+\tag{90}
+$$
+
+**Equation 91, Fin and Body Interference Factor.**
+The body increases the effectiveness of fins mounted on it by a factor that depends on the ratio of body radius to the sum of semi-span and radius.
+[Barrowman 1967][research_barrowman_1967]
+
+$$
+K_{fb} = 1 + \frac{r}{s + r}
+\tag{91}
+$$
+
+**Equation 92, Interference Factor of the X-8.**
+A body radius of 0.19 metres and an exposed semi-span of 0.61 metres give a factor of about 1.24.
+
+$$
+K_{fb} = 1 + \frac{0.19}{0.61 + 0.19} = 1.24
+\tag{92}
+$$
+
+*Equation 93, Bespoke Fin Normal Force Slope of the X-8.*
+The Barrowman relation is evaluated for three fins with a root chord of 0.9 metres, a tip chord of 0.4 metres and a mid-chord sweep length of 0.5 metres, a planform the article assumes.
+
+$$
+C_{N\alpha,\text{fin}} = \frac{4 (3) \left( 0.61 / 0.38 \right)^{2}}{1 + \sqrt{1 + \left( \frac{1.0}{1.3} \right)^{2}}} (1.24) = \frac{30.9}{2.262} (1.24) = 17.0
+\tag{93}
+$$
+
+**Equation 94, Divergence Time Constant of an Unstable Vehicle.**
+With a reversed restoring stiffness the angle of attack grows exponentially with a time constant of the square root of inertia over the magnitude of the stiffness.
+
+$$
+\tau_{\text{div}} = \sqrt{\frac{I_y}{\left| M_{\alpha} \right|}}
+\tag{94}
+$$
+
+**Equation 95, Divergence Time Constant at Tower Exit.**
+For the stiffness and inertia above the divergence time constant is under a second.
+
+$$
+\tau_{\text{div}} = \sqrt{\frac{3000}{4061}} = 0.86 \, \text{s}
+\tag{95}
+$$
+
+**Equation 96, Range Error from a Launcher Elevation Error.**
+Differentiating the flat-earth ballistic range with respect to launch elevation gives the range error per unit elevation error.
+[Regan and Anandakrishnan 1993 Dynamics of Atmospheric Re-Entry][book_regan_anandakrishnan_1993]
+
+$$
+\Delta X = \frac{\partial X}{\partial \theta} \delta \theta = \frac{2 v_b^{2} \cos 2\theta}{g} \delta \theta
+\tag{96}
+$$
+
+**Equation 97, Lateral Velocity from a Fixed Thrust Misalignment.**
+A thrust misaligned by a small angle $\epsilon$ and fixed in inertial space adds lateral velocity at that fraction of the ideal increment.
+
+$$
+\Delta v_{\perp} = \int_0^{t_b} \frac{F \epsilon}{m} \, \mathrm{d}t \approx \epsilon \, \Delta v
+\tag{97}
+$$
+
+*Equation 98, Bespoke Lateral Velocity from Weathercocking in a Constant Wind.*
+The article assumes that the vehicle holds its axis along the relative wind, so each increment of speed is tilted by the wind over the speed and the integral over a constant wind gives a logarithm of the speed ratio.
+
+$$
+\Delta v_{\perp} = \int_{v_e}^{v_b} \frac{w}{v} \, \mathrm{d}v = w \ln \frac{v_b}{v_e}
+\tag{98}
+$$
+
+**Equation 99, Impact Displacement from a Lateral Velocity.**
+A lateral velocity carried through a vertical flight lasting twice the burnout speed over gravity displaces the impact point by their product.
+
+$$
+\Delta X = \frac{2 v_b \Delta v_{\perp}}{g}
+\tag{99}
+$$
+
+*Equation 100, Bespoke Wind Dispersion for a Ten Metre per Second Wind.*
+The weathercocking model applied from tower exit to burnout in a constant ten metre per second wind moves the impact point about seven kilometres.
+
+$$
+\Delta v_{\perp} = 10 \ln \frac{1347}{99.4} = 26 \, \text{m/s}, \qquad \Delta X = \frac{2 (1347)(26)}{9.81} = 7.1 \, \text{km}
+\tag{100}
+$$
+
+**Equation 101, Wind Weighting Correction.**
+The launcher offset that cancels the measured wind is the sum over layers of the unit wind effect times the wind speed times the layer thickness.
+
+$$
+\Delta \theta_{\text{launch}} = - \sum_j W_j \, w_j \, \Delta h_j
+\tag{101}
+$$
+
+**Equation 102, Total Dispersion of Independent Sources.**
+Independent dispersion sources combine as the root sum of their squares.
+
+$$
+\sigma_{X}^{2} = \sigma_{\text{aim}}^{2} + \sigma_{\text{thrust}}^{2} + \sigma_{\text{wind}}^{2} + \sigma_{\text{sep}}^{2}
+\tag{102}
+$$
+
+**Equation 103, Rayleigh Probability Within a Radius.**
+For circular bivariate normal errors the probability of landing within a radius follows the Rayleigh distribution.
+
+$$
+P(R) = 1 - \exp \left( -\frac{R^{2}}{2\sigma^{2}} \right)
+\tag{103}
+$$
+
+**Equation 104, Probability Within Three Standard Deviations in Two Dimensions.**
+A radius of three standard deviations contains about 98.9 percent of impacts in two dimensions rather than the 99.7 percent of the one-dimensional case.
+
+$$
+P(3\sigma) = 1 - e^{-4.5} = 0.989
+\tag{104}
+$$
+
+**Equation 105, Radius Containing 99.7 Percent of Impacts.**
+Inverting the Rayleigh distribution gives the radius that contains 99.7 percent of impacts, about 3.41 standard deviations.
+
+$$
+R = \sigma \sqrt{-2 \ln (1 - 0.997)} = 3.41 \, \sigma
+\tag{105}
+$$
+
+**Equation 106, Residual Lateral Velocity of a Rolling Vehicle.**
+A body-fixed lateral acceleration rotates with the roll, so its integrated effect over the burn is bounded by twice the acceleration over the roll rate.
+
+$$
+\Delta v_{\perp} = \frac{2 a_{\perp}}{p} \left| \sin \frac{p t_b}{2} \right| \le \frac{2 a_{\perp}}{p}
+\tag{106}
+$$
+
+**Equation 107, Steady Roll Rate from Canted Fins.**
+The steady roll rate balances the rolling moment of fin cant against the roll damping of the same fins.
+
+$$
+p_{ss} = \frac{2 v}{d} \cdot \frac{C_{l\delta} \, \delta}{-C_{lp}}
+\tag{107}
+$$
+
+*Equation 108, Bespoke Steady Roll Rate with Equal Derivatives.*
+Taking the ratio of the cant derivative to the roll damping derivative as unity, an approximation the article adopts, leaves a roll rate of twice the speed times the cant over the diameter.
+
+$$
+p_{ss} \approx \frac{2 v \delta}{d}
+\tag{108}
+$$
+
+*Equation 109, Bespoke Roll Rate at Half a Degree of Cant.*
+The approximate roll rate at 300 metres per second and half a degree of cant is about 13.8 radians per second.
+
+$$
+p_{ss} = \frac{2 (300)(0.00873)}{0.38} = 13.8 \, \text{rad/s}
+\tag{109}
+$$
+
+**Equation 110, Roll Rate Proportional to Speed.**
+The steady roll rate of canted fins grows in proportion to the flight speed.
+
+$$
+p_{ss} \propto v
+\tag{110}
+$$
+
+**Equation 111, Pitch Natural Frequency in Terms of Speed and Density.**
+Writing the dynamic pressure out shows the pitch frequency is linear in speed and proportional to the square root of density.
+
+$$
+\omega_n = \sqrt{\frac{q S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}{I_y}} = v \sqrt{\frac{\rho S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}{2 I_y}}
+\tag{111}
+$$
+
+**Equation 112, Ratio of Roll Rate to Pitch Frequency.**
+Speed cancels from the ratio of roll rate to pitch frequency, which then depends only on the inverse square root of density.
+
+$$
+\frac{p_{ss}}{\omega_n} \propto \frac{1}{\sqrt{\rho}}
+\tag{112}
+$$
+
+*Equation 113, Bespoke Critical Density for Roll Resonance.*
+Setting the approximate roll rate equal to the pitch frequency gives the density at which resonance occurs, under the unit derivative ratio the article adopts.
+
+$$
+\rho_{\text{crit}} = \left( \frac{2 \delta}{d} \right)^{2} \frac{2 I_y}{S C_{N\alpha} \left( x_{cp} - x_{cg} \right)}
+\tag{113}
+$$
+
+*Equation 114, Bespoke Critical Density at Half a Degree of Cant.*
+With half a degree of cant and the assumed stability values the critical density exceeds sea level, so the vehicle stays above resonance throughout.
+
+$$
+\rho_{\text{crit}} = \left( \frac{2 \times 0.00873}{0.38} \right)^{2} \frac{2 (3000)}{(0.1134)(12)(0.57)} = \left( 0.0459 \right)^{2} (7735) = 16.3 \, \text{kg/m}^{3}
+\tag{114}
+$$
+
+*Equation 115, Bespoke Critical Density at a Tenth of a Degree of Cant.*
+A tenth of a degree of cant lowers the critical density to about 0.66 kilogrammes per cubic metre, near 6 kilometres inside the sustainer burn.
+
+$$
+\rho_{\text{crit}} = \left( \frac{2 \times 0.00175}{0.38} \right)^{2} (7735) = \left( 9.21 \times 10^{-3} \right)^{2}(7735) = 0.656 \, \text{kg/m}^{3}
+\tag{115}
+$$
+
+**Equation 116, Ballistic Coefficient.**
+The ballistic coefficient is the mass divided by the drag coefficient times the reference area.
+[ballistic coefficient][ref_ballistic_coefficient]
+
+$$
+\beta = \frac{m}{C_D A}
+\tag{116}
+$$
+
+*Equation 117, Bespoke Ballistic Coefficient of the Stable Body.*
+The burnout mass on the frontal area at a supersonic drag coefficient of 0.25, which the article assumes, gives about 9200 kilogrammes per square metre.
+
+$$
+\beta_{\text{stable}} = \frac{261.5}{(0.25)(0.1134)} = 9220 \, \text{kg/m}^{2}
+\tag{117}
+$$
+
+*Equation 118, Bespoke Ballistic Coefficient of the Tumbling Body.*
+A tumbling body is assigned a mean projected area of 1.5 square metres and a drag coefficient near 1.2, values the article assumes, which gives about 145 kilogrammes per square metre.
+
+$$
+\beta_{\text{tumble}} = \frac{261.5}{(1.2)(1.5)} = 145 \, \text{kg/m}^{2}
+\tag{118}
+$$
+
+**Equation 119, Terminal Velocity from the Ballistic Coefficient.**
+A body falling at terminal velocity has drag equal to weight, so its speed scales as the square root of the ballistic coefficient over the density.
+
+$$
+v_t = \sqrt{\frac{2 \beta g}{\rho}}
+\tag{119}
+$$
+
+*Equation 120, Bespoke Canopy Area for the Nose Cone.*
+The drag area needed to land a 100 kilogramme nose cone at 8 metres per second with a canopy drag coefficient of 1.4 follows from the terminal velocity relation, all values the article assumes.
+
+$$
+A_c = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{2 (100)(9.81)}{(1.06)(1.4)(64)} = 20.7 \, \text{m}^{2}
+\tag{120}
+$$
+
+**Equation 121, Canopy Diameter.**
+The canopy diameter follows from its area as a circle.
+
+$$
+D_c = \sqrt{\frac{4 A_c}{\pi}} = 5.1 \, \text{m}
+\tag{121}
+$$
+
+**Equation 122, Parachute Opening Load.**
+The opening load is the dynamic pressure at deployment times the inflated drag area times an opening shock factor.
+[Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992]
+
+$$
+F_{\text{open}} = C_x \, q_d \, C_D A_c
+\tag{122}
+$$
+
+*Equation 123, Bespoke Steady Drag at Deployment.*
+The steady drag is evaluated for a deployment at 6 kilometres and 100 metres per second, a condition the article assumes, and alone reaches about 97 times gravity on the payload.
+
+$$
+q_d C_D A_c = \tfrac{1}{2}(0.66)(100)^{2}(1.4)(20.7) = 95.6 \, \text{kN}
+\tag{123}
+$$
+
+**Equation 124, Shannon and Hartley Channel Capacity.**
+The largest error-free data rate of a channel is its bandwidth times the base-two logarithm of one plus the signal-to-noise ratio.
+[Shannon and Hartley][ref_shannon_hartley]
+[Shannon 1948][ref_shannon_1948]
+
+$$
+C = B \log_2 \left( 1 + \frac{S}{N} \right)
+\tag{124}
+$$
+
+**Equation 125, Friis Transmission Equation.**
+The power received over a free-space path is the transmitted power and the two antenna gains reduced by the square of the wavelength over four pi times the range.
+
+$$
+P_r = \frac{P_t G_t G_r \lambda^{2}}{\left( 4 \pi R \right)^{2}}
+\tag{125}
+$$
+
+**Equation 126, Free-Space Path Term at 250 Megahertz.**
+At a wavelength of 1.2 metres and a slant range of 200 kilometres the path term is about $-126.4$ decibels.
+
+$$
+\left( \frac{\lambda}{4 \pi R} \right)^{2} = \left( \frac{1.2}{4\pi \times 2 \times 10^{5}} \right)^{2} = 2.28 \times 10^{-13}
+\tag{126}
+$$
+
+*Equation 127, Bespoke Received Power of the Telemetry Link.*
+The link budget adds a two watt transmitter, an omnidirectional vehicle antenna and a 10 decibel ground antenna, values the article assumes, to the path term.
+
+$$
+P_r = 3 + 0 + 10 - 126.4 = -113.4 \, \text{dBW}
+\tag{127}
+$$
+
+**Equation 128, Thermal Noise Power.**
+The noise power is Boltzmann's constant times the system temperature times the bandwidth, about $-148.6$ decibels relative to a watt for 100 kilohertz at 1000 kelvin.
+
+$$
+N = (1.38 \times 10^{-23})(1000)(10^{5}) = 1.38 \times 10^{-15} \, \text{W} = -148.6 \, \text{dBW}
+\tag{128}
+$$
+
+**Equation 129, Capacity of the Telemetry Link.**
+A signal-to-noise power ratio of about 3300 in 100 kilohertz gives a capacity of about 1.17 megabits per second.
+
+$$
+C = (10^{5}) \log_2 (3301) = (10^{5})(11.7) = 1.17 \, \text{Mbit/s}
+\tag{129}
+$$
+
+*Equation 130, Bespoke Data Rate Used by the USAF-6 Telemetry.*
+Six channels sampled at 100 frames per second at seven bits each, a frame rate and resolution the article assumes, give 4.2 kilobits per second.
+
+$$
+C_{\text{used}} = (6)(100)(7) = 4.2 \, \text{kbit/s}
+\tag{130}
+$$
+
+*Equation 131, Bespoke Pixel Count of a 35 Millimetre Frame.*
+A frame resolving 50 line pairs per millimetre, a resolution the article assumes, carries about $8.6 \times 10^{6}$ resolved elements.
+
+$$
+N_{\text{px}} = (24)(36)(100)^{2} = 8.64 \times 10^{6} \, \text{pixels}
+\tag{131}
+$$
+
+*Equation 132, Bespoke Time to Transmit One Frame.*
+At six bits of usable density per element the frame would take about 3.4 hours to send over the telemetry actually flown.
+
+$$
+t = \frac{5.2 \times 10^{7}}{4.2 \times 10^{3}} = 1.24 \times 10^{4} \, \text{s} = 3.4 \, \text{hours}
+\tag{132}
+$$
+
+**Equation 133, Hoop Stress in a Thin Cylinder.**
+Internal pressure in a thin-walled cylinder produces a circumferential stress of the pressure times the radius over the wall thickness.
+
+$$
+\sigma_{\theta} = \frac{p r}{t}
+\tag{133}
+$$
+
+**Equation 134, Axial Compressive Stress in a Thin Cylinder.**
+An axial load spread over the circumference of a thin wall produces a stress of the load over the wall cross-section.
+
+$$
+\sigma_{x,\text{comp}} = \frac{P}{2 \pi r t}
+\tag{134}
+$$
+
+**Equation 135, Classical Axial Buckling Stress of a Cylinder.**
+The classical critical stress of a thin cylinder in axial compression is proportional to the modulus and the ratio of thickness to radius.
+[Timoshenko and Gere 1961 Theory of Elastic Stability][book_timoshenko_gere_1961]
+
+$$
+\sigma_{cr} = \frac{E t}{r \sqrt{3 \left( 1 - \nu^{2} \right)}}
+\tag{135}
+$$
+
+**Equation 136, Wall Thickness Set by Pressure.**
+Setting the hoop stress equal to the allowable at the 3.1 megapascal ullage pressure gives a wall of about 3 millimetres.
+
+$$
+t = \frac{p r}{\sigma_a} = \frac{(3.1 \times 10^{6})(0.19)}{2 \times 10^{8}} = 2.95 \times 10^{-3} \, \text{m}
+\tag{136}
+$$
+
+**Equation 137, Classical Buckling Stress of the Tank.**
+The classical buckling stress of the pressure-sized wall is about 660 megapascals, which real shells reach only after a knockdown factor of three to five.
+[Timoshenko and Gere 1961 Theory of Elastic Stability][book_timoshenko_gere_1961]
+[Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973]
+
+$$
+\sigma_{cr} = \frac{(70 \times 10^{9})(2.95 \times 10^{-3})}{(0.19)\sqrt{3(1 - 0.109)}} = \frac{2.07 \times 10^{8}}{0.311} = 6.6 \times 10^{8} \, \text{Pa}
+\tag{137}
+$$
+
+*Equation 138, Bespoke Axial Load at Maximum Acceleration.*
+The axial load is a forward mass of 300 kilogrammes, which the article assumes, times the peak boost acceleration.
+
+$$
+P = m_{\text{fwd}} a = (300)(113) = 33.9 \, \text{kN}
+\tag{138}
+$$
+
+**Equation 139, Axial Compressive Stress in Flight.**
+That load on the tank wall gives a compressive stress of about 10 megapascals.
+
+$$
+\sigma_{x} = \frac{3.39 \times 10^{4}}{2 \pi (0.19)(2.95 \times 10^{-3})} = 9.6 \times 10^{6} \, \text{Pa}
+\tag{139}
+$$
+
+**Equation 140, Axial Stress from Internal Pressure.**
+Pressure on the closed ends puts the shell into axial tension at half the hoop stress, about 100 megapascals here.
+
+$$
+\sigma_{x,\text{press}} = \frac{p r}{2 t} = \frac{(3.1 \times 10^{6})(0.19)}{2 (2.95 \times 10^{-3})} = 1.0 \times 10^{8} \, \text{Pa}
+\tag{140}
+$$
+
+**Equation 141, Net Axial Stress of the Pressurised Shell.**
+Superposing pressure tension and flight compression leaves a net axial stress of about 90 megapascals in tension.
+
+$$
+\sigma_{x,\text{net}} = \sigma_{x,\text{press}} - \sigma_{x,\text{comp}} = 100 - 10 = 90 \, \text{MPa}
+\tag{141}
+$$
+
+**Equation 142, Stagnation Temperature.**
+Bringing the flow to rest adiabatically raises its temperature by a factor that depends on the Mach number and the ratio of specific heats.
+[Anderson 2006 Hypersonic and High-Temperature Gas Dynamics][book_anderson_2006_hypersonic]
+
+$$
+T_0 = T_{\infty} \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)
+\tag{142}
+$$
+
+**Equation 143, Stagnation Temperature at Mach 4.4.**
+At 227 kelvin and Mach 4.4 the stagnation temperature is about 1108 kelvin.
+
+$$
+T_0 = 227 \left( 1 + 0.2 (19.4) \right) = 227 (4.88) = 1108 \, \text{K}
+\tag{143}
+$$
+
+**Equation 144, Turbulent Recovery Temperature at Mach 4.4.**
+With a recovery factor of the cube root of the Prandtl number the surface recovery temperature is about 1010 kelvin.
+[Anderson 2006 Hypersonic and High-Temperature Gas Dynamics][book_anderson_2006_hypersonic]
+
+$$
+T_r = T_{\infty} \left( 1 + r \frac{\gamma-1}{2} M^{2} \right) = 227 \left( 1 + (0.89)(3.88) \right) = 1010 \, \text{K}
+\tag{144}
+$$
+
+**Equation 145, Thermal Penetration Depth.**
+Heat diffuses into a solid over a depth of order the square root of the thermal diffusivity times the time.
+[Carslaw and Jaeger 1959 Conduction of Heat in Solids][book_carslaw_jaeger_1959]
+
+$$
+\delta = \sqrt{\alpha t}
+\tag{145}
+$$
+
+**Equation 146, Penetration Depth in Aluminium Over Forty Seconds.**
+Over 40 seconds heat penetrates about 6 centimetres of aluminium, far more than the skin thickness, so the skin acts as a lumped mass.
+
+$$
+\delta = \sqrt{(9.7 \times 10^{-5})(40)} = 0.062 \, \text{m}
+\tag{146}
+$$
+
+**Equation 147, Lumped Heat Balance of a Thin Skin.**
+A skin thin enough to have a uniform temperature stores the convective heat it receives from the boundary layer, so its temperature approaches the recovery temperature at a rate proportional to the difference.
+[Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer]
+
+$$
+\rho_m c_p t \frac{\mathrm{d}T_w}{\mathrm{d}t} = h \left( T_r - T_w \right)
+\tag{147}
+$$
+
+**Equation 148, Thermal Time Constant of a Thin Skin.**
+The time constant of the lumped skin is its heat capacity per unit area divided by the convective heat transfer coefficient.
+[Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer]
+
+$$
+\tau = \frac{\rho_m c_p t}{h}
+\tag{148}
+$$
+
+*Equation 149, Bespoke Time Constant of the Aluminium Skin.*
+The time constant is evaluated for a 3 millimetre aluminium wall and a convective coefficient of 200 watts per square metre kelvin, a value the article assumes for the thin high-altitude boundary layer.
+
+$$
+\tau = \frac{(2800)(900)(2.95 \times 10^{-3})}{200} = 37 \, \text{s}
+\tag{149}
+$$
+
+**Equation 150, Stefan and Boltzmann Radiated Flux.**
+A grey surface radiates its emissivity times the Stefan-Boltzmann constant times the fourth power of its temperature.
+[Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer]
+
+$$
+q_{\text{rad}} = \epsilon \sigma_{SB} T_w^{4}
+\tag{150}
+$$
+
+*Equation 151, Bespoke Radiated Flux of Oxidised Aluminium.*
+The radiated flux is evaluated at 744 kelvin for an emissivity of 0.3, a value the article assumes for oxidised aluminium.
+
+$$
+q_{\text{rad}} = (0.3)(5.67 \times 10^{-8})(744)^{4} = 5.2 \times 10^{3} \, \text{W/m}^{2}
+\tag{151}
+$$
+
+**Equation 152, Radiative Equilibrium Wall Temperature.**
+Balancing convective input against radiated output gives the steady wall temperature the skin would reach if the flight lasted long enough.
+
+$$
+h \left( T_r - T_w \right) = \epsilon \sigma_{SB} T_w^{4} \quad \Longrightarrow \quad T_w = 943 \, \text{K}
+\tag{152}
+$$
+
+**Equation 153, Drag Deceleration.**
+The deceleration from drag is the dynamic pressure times the drag area divided by the mass.
+
+$$
+a_D = \frac{q S C_D}{m} = \frac{\rho v^{2} S C_D}{2 m}
+\tag{153}
+$$
+
+*Equation 154, Bespoke Condition for Maximum Dynamic Pressure.*
+Differentiating the product of an exponentially falling density and the square of speed for vertical flight gives the condition at which dynamic pressure peaks, a derivation the article makes for this trajectory.
+
+$$
+\frac{\mathrm{d}}{\mathrm{d}t} \left( \rho v^{2} \right) = 0 \quad \Longrightarrow \quad \frac{2 \dot{v}}{v} = \frac{v}{H}
+\tag{154}
+$$
+
+*Equation 155, Bespoke Speed at Maximum Dynamic Pressure.*
+Under constant acceleration in vertical flight through an exponential atmosphere the dynamic pressure peaks at the square root of twice the acceleration times the scale height.
+
+$$
+v_{q_{\max}} = \sqrt{2 a H}
+\tag{155}
+$$
+
+*Equation 156, Bespoke Speed at Maximum Dynamic Pressure for the Sustainer.*
+An acceleration of 30 metres per second squared, taken as representative of the sustainer phase, gives about 675 metres per second.
+
+$$
+v_{q_{\max}} = \sqrt{2 (30)(7.6 \times 10^{3})} = 675 \, \text{m/s}
+\tag{156}
+$$
+
+**Equation 157, Maximum Dynamic Pressure.**
+At a density of about 0.4 kilogrammes per cubic metre that speed gives about 91 kilopascals.
+
+$$
+q_{\max} = \tfrac{1}{2}(0.4)(675)^{2} = 9.1 \times 10^{4} \, \text{Pa}
+\tag{157}
+$$
+
+*Equation 158, Bespoke Drag Deceleration at Maximum Dynamic Pressure.*
+The deceleration is evaluated for a supersonic drag coefficient of 0.3 on 400 kilogrammes, values the article assumes.
+
+$$
+a_D = \frac{(9.1 \times 10^{4})(0.1134)(0.3)}{400} = 7.7 \, \text{m/s}^{2}
+\tag{158}
+$$
+
+*Equation 159, Bespoke Drag Loss from a Triangular Profile.*
+Approximating the deceleration history by a triangle of 20 seconds base gives a drag loss of order 77 metres per second.
+
+$$
+\Delta v_{\text{drag}} \approx \tfrac{1}{2}(7.7)(20) \approx 77 \, \text{m/s}
+\tag{159}
+$$
+
+**Equation 160, Coning Half-Angle of a Torque-Free Body.**
+A torque-free axisymmetric body cones about its fixed angular momentum at a half-angle set by the ratio of transverse to axial angular momentum.
+
+$$
+\tan \theta_c = \frac{I_y \omega_t}{I_x p}
+\tag{160}
+$$
+
+*Equation 161, Bespoke Roll Inertia of the Burnout Body.*
+The roll inertia is estimated as that of a uniform solid cylinder of the burnout mass and body radius, a model the article adopts.
+
+$$
+I_x \approx \frac{m r^{2}}{2} = \frac{(261.5)(0.19)^{2}}{2} = 4.7 \, \text{kg} \cdot \text{m}^{2}
+\tag{161}
+$$
+
+*Equation 162, Bespoke Coning Angle After Burnout.*
+A residual transverse rate of 0.1 radians per second and a transverse inertia of 1200 kilogramme square metres, values the article assumes, give a cone of about 62 degrees.
+
+$$
+\theta_c = \arctan \frac{(1200)(0.1)}{(4.7)(13.8)} = 62^{\circ}
+\tag{162}
+$$
+
+**Equation 163, Aspect Sensor Measurements.**
+Each aspect sensor returns the cosine of the angle between the vehicle axis and a known reference direction.
+
+$$
+\cos \theta_B = \hat{a} \cdot \hat{b}, \qquad \cos \theta_S = \hat{a} \cdot \hat{s}
+\tag{163}
+$$
+
+**Equation 164, Vehicle Axis from Two Reference Cones.**
+Two cones about non-parallel reference directions intersect in two unit vectors whose components follow from the two measured cosines and the angle between the references.
+
+$$
+\hat{a} = \frac{\cos\theta_B - \cos\theta_S \cos\psi}{\sin^{2}\psi} \, \hat{b} + \frac{\cos\theta_S - \cos\theta_B \cos\psi}{\sin^{2}\psi} \, \hat{s} \pm \lambda \left( \hat{b} \times \hat{s} \right)
+\tag{164}
+$$
+
+**Equation 165, Error Amplification of the Two-Cone Solution.**
+The uncertainty of the combined solution grows as the inverse sine of the angle between the two references, so nearly parallel references degrade it.
+
+$$
+\Delta \Omega = \frac{\Delta \theta_1 \, \Delta \theta_2}{\left| \sin \psi \right|}
+\tag{165}
+$$
+
+*Equation 166, Bespoke Booster Impulse Required.*
+The required impulse is approximated as the liftoff mass times the boost increment, which neglects the fall of mass during the burn.
+
+$$
+I_{\text{req}} = m_0 \, \Delta v_{\text{boost}} = (745)(288) = 2.15 \times 10^{5} \, \text{N} \cdot \text{s}
+\tag{166}
+$$
+
+**Equation 167, Vieille Burning Rate Law.**
+The burning rate of a solid propellant is a coefficient times the chamber pressure raised to an exponent $n$.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+r = a p_c^{n}
+\tag{167}
+$$
+
+**Equation 168, Equilibrium Chamber Pressure of a Solid Motor.**
+Balancing gas generation at the burning surface against discharge through the throat gives a chamber pressure raised to the power one over one minus $n$.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+p_c = \left( \frac{\rho_p a A_b c^{*}}{A_t} \right)^{\frac{1}{1-n}}
+\tag{168}
+$$
+
+**Equation 169, Burn Time and Mass Flow of a Solid Grain.**
+The burn time is the web thickness over the mean burning rate and the mass flow is the propellant density times the burning area times the rate.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+t_b = \frac{w}{\bar{r}}, \qquad \dot{m} = \rho_p A_b r
+\tag{169}
+$$
+
+*Equation 170, Bespoke Web Thickness of the Booster.*
+A burning rate near 10 millimetres per second, which the article assumes, over the 2.5 second burn gives a 25 millimetre web.
+
+$$
+w = \bar{r} \, t_b = (0.010)(2.5) = 25 \, \text{mm}
+\tag{170}
+$$
+
+**Equation 171, Burning Area of the Booster.**
+The booster mass flow divided by the propellant density and burning rate gives a burning area of about 2.2 square metres.
+
+$$
+A_b = \frac{\dot{m}}{\rho_p r} = \frac{38.8}{(1750)(0.010)} = 2.22 \, \text{m}^{2}
+\tag{171}
+$$
+
+**Equation 172, Separation Acceleration of Booster and Sustainer.**
+The relative acceleration is the sustainer thrust per unit mass less the difference between the drag decelerations of the two bodies.
+
+$$
+\Delta a = \frac{F_s}{m_s} - \left( \frac{q S_b C_{D,b}}{m_b} - \frac{q S_s C_{D,s}}{m_s} \right)
+\tag{172}
+$$
+
+**Equation 173, Separation Distance in the First Second.**
+The thrust term alone separates the two bodies by about 12 metres in the first second.
+
+$$
+\Delta x = \tfrac{1}{2} \Delta a \, t^{2} = \tfrac{1}{2}(23.3)(1)^{2} = 11.7 \, \text{m}
+\tag{173}
+$$
+
+**Equation 174, Probability of Five Consecutive Failures.**
+For independent flights with recovery probability $p_r$ the chance of five failures in a row is one minus $p_r$ raised to the fifth power.
+
+$$
+P = \left( 1 - p_r \right)^{5}
+\tag{174}
+$$
+
+**Equation 175, Five Failures at Even-Money Recovery.**
+At a recovery probability of one half the chance of five consecutive failures is about three percent.
+
+$$
+P = (0.5)^{5} = 0.031
+\tag{175}
+$$
+
+**Equation 176, Upper Confidence Bound on Recovery Probability.**
+With no successes in five trials the one-sided 95 percent upper bound on the recovery probability is about 0.45.
+
+$$
+p_r \le 1 - (0.05)^{1/5} = 0.45
+\tag{176}
+$$
+
+**Equation 177, Fractional Sensitivity of Drag Loss to Drag Coefficient.**
+Because the drag loss is proportional to the drag coefficient at a fixed trajectory, a fractional error in one is the same fractional error in the other.
+
+$$
+\frac{\partial \left( \Delta v_{\text{drag}} \right)}{\Delta v_{\text{drag}}} = \frac{\partial C_D}{C_D}
+\tag{177}
+$$
+
+**Equation 178, Drag Loss as a Fraction of Burnout Speed.**
+The estimated drag loss of 77 metres per second is about 5.7 percent of the reported burnout speed.
+
+$$
+\frac{\Delta v_{\text{drag}}}{v_b} = \frac{77}{1347} = 5.7 \, \text{percent}
+\tag{178}
+$$
+
+**Equation 179, Vertical Trajectory Equations.**
+The speed changes under thrust, gravity and drag over the instantaneous mass, and the altitude changes at the speed.
+
+$$
+\frac{\mathrm{d}v}{\mathrm{d}t} = \frac{F(t)}{m(t)} - g - \frac{\rho(h) v^{2} S C_D(M)}{2 m(t)}, \qquad \frac{\mathrm{d}h}{\mathrm{d}t} = v
+\tag{179}
+$$
+
+**Equation 180, Global Error of a Forward Euler Integration.**
+The global error of the forward Euler method is of first order in the step, bounded by half the largest second derivative times the interval times the step.
+
+$$
+\epsilon_{\text{global}} \approx \tfrac{1}{2} \left| \ddot{v} \right|_{\max} T \Delta t
+\tag{180}
+$$
+
+*Equation 181, Bespoke Euler Error for a One-Second Step.*
+The bound is evaluated with a second derivative of about 2.4 metres per second cubed that the article estimates from the change of acceleration over the burn.
+
+$$
+\epsilon \approx \tfrac{1}{2}(2.4)(42.5)(1) = 51 \, \text{m/s}
+\tag{181}
+$$
+
+**Equation 182, Snell Invariant for an Acoustic Ray.**
+A ray in an atmosphere stratified in sound speed keeps the cosine of its elevation over the local sound speed constant.
+[Cox 1948][research_cox_1948]
+
+$$
+\frac{\cos \theta(z)}{c_s(z)} = \frac{\cos \theta_0}{c_s(0)}
+\tag{182}
+$$
+
+**Equation 183, Turning Altitude of an Acoustic Ray.**
+The ray turns back at the altitude where the sound speed equals the ground sound speed over the cosine of the launch elevation.
+[Cox 1948][research_cox_1948]
+
+$$
+c_s(z_t) = \frac{c_s(0)}{\cos \theta_0}
+\tag{183}
+$$
+
+**Equation 184, Rayleigh Scattering Cross-Section.**
+The scattering cross-section of a molecule varies as the inverse fourth power of wavelength and depends on the refractive index of the gas and its number density at standard conditions.
+
+$$
+\sigma_R = \frac{24 \pi^{3}}{N_0^{2} \lambda^{4}} \left( \frac{n_r^{2}-1}{n_r^{2}+2} \right)^{2}
+\tag{184}
+$$
+
+**Equation 185, Searchlight Return from a Range.**
+The scattered signal from a range is proportional to the local number density and falls as the inverse square of the range, so density follows from the signal times the square of the range.
+
+$$
+S(z) = \frac{C \, n(z) \, \sigma_R}{z^{2}} \quad \Longrightarrow \quad n(z) \propto S(z) \, z^{2}
+\tag{185}
+$$
+
+**Equation 186, Speed of Sound in an Ideal Gas.**
+The speed of sound is the square root of the ratio of specific heats times the universal gas constant times the temperature over the molar mass.
+[Nordberg and Smith 1964][research_nordberg_1964]
+
+$$
+c_s = \sqrt{\frac{\gamma R_u T}{M}}
+\tag{186}
+$$
+
+**Equation 187, Temperature from a Measured Sound Speed.**
+Inverting the sound speed relation gives the temperature from a measured sound speed.
+[Nordberg and Smith 1964][research_nordberg_1964]
+
+$$
+T = \frac{c_s^{2} M}{\gamma R_u}
+\tag{187}
+$$
+
+**Equation 188, Density from a Falling Sphere.**
+Inverting the drag relation for a tracked sphere of known drag coefficient gives the local density.
+
+$$
+\rho = \frac{2 m a_D}{C_D A v^{2}}
+\tag{188}
+$$
+
+**Equation 189, Local Absorber Density from the Optical Depth Profile.**
+Differentiating the measured optical depth with respect to altitude and dividing by the cross-section gives the local number density.
+
+$$
+n(z) = -\frac{1}{\sigma} \frac{\mathrm{d}\tau}{\mathrm{d}z}
+\tag{189}
+$$
+
+**Equation 190, Slant Path Optical Depth.**
+For a solar zenith angle below about seventy degrees the slant optical depth is the vertical value times the secant of that angle.
+[Chapman 1931b][research_chapman_1931_2]
+
+$$
+\tau_{\text{slant}} = \tau_{\text{vert}} \sec \chi
+\tag{190}
+$$
+
+**Equation 191, Rise of the Transparency Altitude at Sixty Degrees.**
+A slant factor of two raises the unit optical depth altitude by the scale height times the natural logarithm of two, about 5.3 kilometres.
+
+$$
+\Delta z = H \ln 2 = (7.6)(0.693) = 5.3 \, \text{km}
+\tag{191}
+$$
+
+**Equation 192, Poisson Significance of a Source Excess.**
+Source counts over a Poisson background give a significance that grows as the square root of the exposure time.
+
+$$
+\frac{S}{N} = \frac{R_s t}{\sqrt{\left( R_s + R_b \right) t}} = \frac{R_s \sqrt{t}}{\sqrt{R_s + R_b}}
+\tag{192}
+$$
+
+**Equation 193, Exposure Time for a Detection.**
+The exposure needed for a detection at $k$ standard deviations is $k^{2}$ times the total count rate over the square of the source rate.
+
+$$
+t_{\min} = \frac{k^{2} \left( R_s + R_b \right)}{R_s^{2}}
+\tag{193}
+$$
+
+**Equation 194, Exposure for a Five-Sigma Detection.**
+A source of one count per second against a background of five reaches five standard deviations in 150 seconds.
+
+$$
+t_{\min} = \frac{25 (1 + 5)}{1^{2}} = 150 \, \text{s}
+\tag{194}
+$$
+
+**Equation 195, Electron Plasma Frequency.**
+The plasma frequency depends only on the electron number density, about 8.98 times its square root in hertz.
+
+$$
+f_p = \frac{1}{2\pi} \sqrt{\frac{N e^{2}}{\epsilon_0 m_e}} \approx 8.98 \sqrt{N} \, \text{Hz}
+\tag{195}
+$$
+
+**Equation 196, Refractive Index of a Cold Plasma.**
+A radio wave above the plasma frequency propagates with a refractive index below one that depends on the electron density and the wave frequency.
+
+$$
+n = \sqrt{1 - \frac{f_p^{2}}{f^{2}}} = \sqrt{1 - \frac{N e^{2}}{4 \pi^{2} \epsilon_0 m_e f^{2}}}
+\tag{196}
+$$
+
+**Equation 197, Dispersive Doppler Difference of Two Frequencies.**
+Differencing the Doppler shifts of two harmonically related frequencies removes the common vehicle motion and leaves a term proportional to the rate of change of the electron content along the path.
+[Seddon 1953][research_seddon_1953]
+
+$$
+\Delta f_D \propto \frac{1}{f_1} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s - \frac{1}{f_2} \frac{\mathrm{d}}{\mathrm{d}t} \int N \, \mathrm{d}s
+\tag{197}
+$$
+
+**Equation 198, Molecular Diffusion Coefficient.**
+The molecular diffusion coefficient varies inversely with number density.
+
+$$
+D(z) = D_0 \frac{n_0}{n(z)}
+\tag{198}
+$$
+
+**Equation 199, Turbopause Density.**
+Equating the molecular diffusion coefficient to the eddy diffusivity gives the density at which the atmosphere stops being well mixed.
+
+$$
+n_{\text{turbopause}} = \frac{D_0 n_0}{K}
+\tag{199}
+$$
+
+*Equation 200, Bespoke Turbopause Density Estimate.*
+The criterion is evaluated with a sea-level molecular diffusivity of $2 \times 10^{-5}$ and an eddy diffusivity of 100 square metres per second, values the article assumes.
+
+$$
+n_{\text{turbopause}} = \frac{(2 \times 10^{-5})(2.5 \times 10^{25})}{100} = 5 \times 10^{18} \, \text{m}^{-3}
+\tag{200}
+$$
+
+### Notation
+
+- $\tau$, the optical depth in Equations 1 to 11 and 189 and 190, the thermal time constant of the skin in Equations 148 and 149 and, as $\tau_{\text{div}}$, the divergence time constant
+- $\sigma$, the absorption cross-section in Equations 2 to 11 and 189, the standard deviation of the scatter in Equations 23 and 25 and of the impact dispersion in Equations 102 to 105, and with a subscript a stress
+- $n$, the number density of absorbers or molecules, except in Equations 23 to 25, where it is a sample size, in Equations 90 and 93, where it is the number of fins, in Equations 167 and 168, where it is the burning-rate exponent, and in Equation 196, where it is the refractive index
+- $H$, the scale height of the atmosphere
+- $n^{*}$, the number density at which the overhead column reaches unit optical depth
+- $z^{*}$, the altitude at which the overhead column reaches unit optical depth
+- $n_0$, the sea-level number density
+- $h_a$, the apogee altitude
+- $h_t$, the threshold altitude above which an instrument works
+- $h_b$, the burnout altitude
+- $v_b$, the burnout speed
+- $t_{\text{obs}}$, the time spent above the threshold altitude
+- $c$, the effective exhaust velocity of the rocket
+- $R$, the mass ratio in Equations 17, 18 and 68, the radio range in Equation 125 and a radius on the ground in Equations 103 to 105
+- $\gamma$, the ratio of specific heats, 1.22 for the sustainer exhaust and 1.4 for air, except in Equation 63, where it is the angle between the velocity and the vertical
+- $R_u$, the universal gas constant
+- $T_c$, the combustion temperature in the chamber
+- $p_c$, the chamber pressure
+- $p_e$, the nozzle exit pressure
+- $A_e$, the nozzle exit area
+- $A_t$, the nozzle throat area
+- $\varepsilon$, the nozzle expansion ratio, the exit area over the throat area
+- $C_F$, the thrust coefficient
+- $c^{*}$, the characteristic velocity
+- $\Gamma$, the choked-flow factor, a function of the ratio of specific heats alone
+- $I_{sp}$, the specific impulse
+- $g_0$, standard gravity, 9.81 metres per second squared
+- $h_g$, the gas-side heat transfer coefficient at the throat
+- $\sigma_a$, the allowable stress of the tank material
+- $C_{N\alpha}$, the normal force curve slope per radian
+- $x_{cp} - x_{cg}$, the static margin, the distance of the centre of pressure behind the centre of gravity
+- $I_y$, the pitch moment of inertia
+- $M_{\alpha}$, the aerodynamic restoring stiffness in pitch
+- $\omega_n$, the undamped natural frequency of the pitch motion
+- $\zeta$, the damping ratio of the pitch motion
+- $M_q$, the pitch damping coefficient of the article's model
+- $K_{fb}$, the fin and body interference factor
+- $\epsilon$, the thrust misalignment angle in Equation 97, the emissivity in Equations 150 to 152 and the integration error in Equations 180 and 181
+- $p_{ss}$, the steady roll rate produced by fin cant
+- $\delta$, the fin cant angle in Equations 108 to 115 and the thermal penetration depth in Equations 145 and 146
+- $\rho_{\text{crit}}$, the density at which the roll rate equals the pitch natural frequency
+- $\beta$, the ballistic coefficient
+- $C_D$, the drag coefficient
+- $C_x$, the parachute opening shock factor
+- $B$, the bandwidth of the telemetry channel
+- $T_r$, the recovery temperature reached by the surface under the boundary layer
+- $r$, the turbulent recovery factor, about the cube root of the Prandtl number, and in Equations 167 to 171 the burning rate of the solid propellant
+- $h$, the convective heat transfer coefficient between the boundary layer and the skin
+- $\sigma_{SB}$, the Stefan-Boltzmann constant
+- $\theta_c$, the half-angle of the coning motion
+- $p_r$, the probability that a single flight recovers its payload
+- $c_s$, the speed of sound
+- $\chi$, the solar zenith angle
+- $R_s$, the source count rate
+- $R_b$, the background count rate
+- $f_p$, the electron plasma frequency
+- $K$, the eddy diffusivity
 
 ## References
 

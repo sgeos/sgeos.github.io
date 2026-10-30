@@ -1,0 +1,567 @@
+# Equation classification for A318. Read by `python3 _lib/equations.py`.
+
+caution = "The article works in feet, pounds force, slugs and seconds except where a line gives SI units for ice crystals, the nominal cruise is Mach 0.75 at 40,000 feet, and $k$ is the form factor in the drag build-up but the roughness height in the roughness criterion, while $N$ is both a slot count and a particle number density and $\\lambda$ is the taper ratio."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Weight Reduction Claimed for a Laminar B-52"
+gloss = "The 1963 example of a B-52 reduced from 400,000 to 225,000 pounds for the same mission is a reduction of 44 percent."
+cite = ["ref_butz_1963"]
+digest = "ec71116c80b09dd1"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Mean Geometric Chord"
+gloss = "The mean geometric chord is the published wing area over the published span."
+cite = ["ref_x21"]
+digest = "0aad8f229eb87271"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Aspect Ratio From Published Dimensions"
+gloss = "The aspect ratio is the square of the published span over the published wing area."
+cite = ["ref_x21"]
+digest = "2e3f6f723e48a22b"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Open Fraction of the Suction Skin"
+gloss = "The open fraction is the documented leading-edge slot width over the slot pitch."
+cite = ["ref_joslin_1998"]
+digest = "c08e69c74100e38a"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Velocity in the Suction Slots"
+gloss = "Continuity divides the mean suction velocity, which rests on the design suction coefficient at the nominal cruise, by the open fraction."
+cite = []
+digest = "761a423e3e0949cb"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Slot Count on One Surface"
+gloss = "The article estimates the count by dividing each chordwise region of the mean chord by its typical slot spacing, ignoring the closer spacing at the attachment line."
+cite = ["ref_joslin_1998"]
+digest = "d2e30dafe96e54c8"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Flight Speed at the Nominal Cruise"
+gloss = "The flight speed is Mach 0.75 times the standard atmosphere speed of sound at 40,000 feet, a cruise condition the article takes as nominal."
+cite = []
+digest = "885fe4ea4ad00524"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Dynamic Pressure at the Nominal Cruise"
+gloss = "The dynamic pressure follows from the standard atmosphere density and the speed of the nominal cruise."
+cite = []
+digest = "2df437d812cb0919"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Cruise Lift Coefficient"
+gloss = "The lift coefficient is the published gross weight over the dynamic pressure of the nominal cruise times the wing area."
+cite = ["ref_x21"]
+digest = "d3c980d6a26de88f"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Mean-Chord Reynolds Number at the Nominal Cruise"
+gloss = "The Reynolds number uses the mean chord, the nominal cruise speed and the kinematic viscosity at 40,000 feet."
+cite = []
+digest = "0a36e7f1a516c6c5"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Turbulent Flat-Plate Skin Friction at the Nominal Cruise"
+gloss = "The Prandtl and Schlichting mean skin-friction correlation for a smooth turbulent flat plate is evaluated at the nominal cruise Reynolds number."
+cite = []
+digest = "df1e0cd4b4a6679a"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Laminar Flat-Plate Skin Friction at the Nominal Cruise"
+gloss = "The Blasius mean skin-friction coefficient for a laminar flat plate is evaluated at the nominal cruise Reynolds number."
+cite = []
+digest = "356d1ca36d4a86af"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Ratio of Laminar to Turbulent Skin Friction"
+gloss = "At the nominal cruise Reynolds number a laminar boundary layer exerts 11.2 percent of the turbulent shear."
+cite = []
+digest = "4afed5909901ed38"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Skin-Friction Saving per Unit Area"
+gloss = "The available saving is the difference of the turbulent and laminar coefficients at the nominal cruise."
+cite = []
+digest = "f8921fd5216cc0c9"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Drag Saving on the Guaranteed Area"
+gloss = "The saving is applied to 70 percent of an exposed wetted area that the article takes as about 2,222 square feet."
+cite = ["ref_butz_1963"]
+digest = "129159d2fabb9c77"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Suction Velocity Through the Skin"
+gloss = "The velocity through the surface is a design suction coefficient of $2 \\times 10^{-4}$ times the nominal cruise speed."
+cite = []
+digest = "1d6faaef43c91ef9"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Suction Mass Flow"
+gloss = "The mass flow is freestream density times speed times the suction coefficient times the wetted area."
+cite = []
+digest = "25d1ed217b1dc639"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Isentropic Pumping Power"
+gloss = "The shaft power to restore the sucked air to freestream total pressure is the isentropic compression work divided by the machinery efficiency."
+cite = []
+digest = "0f4ad4fb513bf29c"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Equivalent Suction Drag Coefficient"
+gloss = "The article charges the pumping power as an equivalent drag, power over flight speed, on the same area basis as the skin friction."
+cite = []
+digest = "3e93590655927d28"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Suction Drag Coefficient in Terms of Mach Number"
+gloss = "Substituting the speed of sound and Mach number for temperature and speed leaves the charged suction drag dependent only on Mach number and the machinery."
+cite = []
+digest = "5e5a52e7f6901050"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Suction Drag Coefficient at the Design Point"
+gloss = "The charge is evaluated with a design suction coefficient of $2 \\times 10^{-4}$, a duct total-pressure recovery of 0.60 and a combined machinery efficiency of 0.75 that the article takes."
+cite = []
+digest = "79fd13cb8597d986"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Break-Even Suction Coefficient"
+gloss = "Setting the charged suction drag equal to the skin-friction saving gives the suction coefficient at which the system stops paying."
+cite = []
+digest = "53534a94ae4337ae"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Ratio of Drag Power Removed to Pumping Power"
+gloss = "The power value of the drag saving over the pumping power repeats the margin of 5.8 because both are linear in the suction coefficient."
+cite = []
+digest = "a943c96fbc166153"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Break-Even Margin at the Documented Suction Levels"
+gloss = "The modelled break-even coefficient is divided by the documented suction levels of $5 \\times 10^{-4}$ and $10 \\times 10^{-4}$."
+cite = ["ref_joslin_1998"]
+digest = "30818eca042e70cf"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Density at 43,000 Feet"
+gloss = "Three thousand feet into the isothermal layer with a scale height of 20,805 feet the density falls by the factor $e^{-0.1442}$."
+cite = []
+digest = "a1f03725f7a6cabb"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Area-Averaged Suction Coefficient From the Reported Flow"
+gloss = "Reading the reported flow of 7.18 pounds per second as a total over the assumed wetted wing area gives an average coefficient of $2.7 \\times 10^{-4}$."
+cite = []
+digest = "2995b7788448789f"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Zero-Lift Drag Build-Up"
+gloss = "The zero-lift drag is built from turbulent skin friction with an assumed form factor of 1.20 and wetted-area ratio of 4.0, plus a residual of 0.0050 that the article assigns."
+cite = []
+digest = "82782d92cd55245b"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Induced Drag at the Cruise Lift Coefficient"
+gloss = "The induced drag uses an Oswald efficiency of 0.80 that the article assumes."
+cite = ["research_w_bailey_oswald_1932"]
+digest = "28773623a92e4838"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Total Drag and Lift to Drag Ratio of the Turbulent Aircraft"
+gloss = "The total drag adds the built-up zero-lift and induced terms and gives a lift to drag ratio of 15.07."
+cite = []
+digest = "0fa6331e12df4d7b"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Friction Share of Total Drag"
+gloss = "The friction share of the built-up drag is 45.6 percent."
+cite = []
+digest = "8de208db21856228"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Net Drag Saving With Suction"
+gloss = "The article credits the laminarised area with the form-factored friction saving and charges the suction drag without a form factor."
+cite = []
+digest = "7cf636e4f6668a47"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Fractional Drag Saving and Lift to Drag Ratio as Flown"
+gloss = "The net saving over the guaranteed area reduces the built-up drag by 10.8 percent and raises the lift to drag ratio to 16.89."
+cite = []
+digest = "6c3c2314c68f56e4"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Breguet Range Equation"
+gloss = "Range is speed over specific fuel consumption times lift to drag ratio times the logarithm of the initial to final weight ratio."
+cite = ["book_anderson_1999"]
+digest = "448f66b3ea8caf41"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Zero-Lift Drag of a Fully Laminar Aircraft"
+gloss = "The bound laminarises the entire wetted area in the build-up while keeping the assumed form factor, area ratio and residual."
+cite = []
+digest = "9473ec1ada4dc95a"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Best Total Drag and Lift to Drag Ratio"
+gloss = "Adding the induced drag and the suction charge over the whole wetted area to the fully laminar zero-lift drag gives a lift to drag ratio of 23.1."
+cite = []
+digest = "76b1e11e032101bd"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Drag Budget for a Lift to Drag Ratio of Thirty"
+gloss = "The claimed ratio of thirty at the nominal cruise lift coefficient allows a total drag coefficient of 0.01435."
+cite = []
+digest = "36ac377e5cff3902"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Aspect Ratio Needed for a Ratio of Thirty"
+gloss = "Inverting the induced drag term for the remaining budget, with the assumed Oswald efficiency, gives an aspect ratio of 11.8."
+cite = []
+digest = "e8b0259de8f4b285"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Spanwise Velocity on the Attachment Line"
+gloss = "The spanwise component is the nominal cruise speed times the sine of a leading-edge sweep derived from an assumed taper ratio."
+cite = []
+digest = "82e55ca9437f7285"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Chordwise Acceleration at the Attachment Line"
+gloss = "The acceleration for a swept leading edge of radius $r$ is evaluated with a radius that the article takes as 0.008 of the local chord."
+cite = []
+digest = "5901b003f3f82c38"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Attachment-Line Thickness Scale"
+gloss = "The viscous length scale is the square root of kinematic viscosity over the modelled chordwise acceleration."
+cite = []
+digest = "ffe10e873014f02c"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Attachment-Line Reynolds Number"
+gloss = "The attachment-line Reynolds number is formed on the spanwise velocity and the viscous length scale and reduces to a function of sweep, speed, leading-edge radius and viscosity."
+cite = []
+digest = "9b1710eb9068c92b"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Leading-Edge Sweep From Quarter-Chord Sweep"
+gloss = "The standard planform conversion is applied with a taper ratio of 0.30 that the article assumes, giving 33.2 degrees."
+cite = []
+digest = "d9da209a10ee29cc"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Spanwise Momentum Thickness of the Swept Hiemenz Flow"
+gloss = "The spanwise momentum thickness of the swept Hiemenz profile is 0.404 times the viscous length scale."
+cite = ["ref_joslin_1998"]
+digest = "bba264da5b238e13"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Attachment-Line Limit From the Design Rule"
+gloss = "The design rule of a momentum-thickness Reynolds number below 100 corresponds to an attachment-line Reynolds number below 247."
+cite = ["ref_joslin_1998"]
+digest = "be1cb63031733ed4"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Roughness Reynolds Number Criterion"
+gloss = "A three-dimensional roughness element trips the boundary layer when the Reynolds number on its height and the linear Blasius near-wall velocity reaches about 600."
+cite = ["ref_hall_1964"]
+digest = "c47b308903ae1014"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Critical Roughness Height at the Nominal Cruise"
+gloss = "The admissible height is evaluated one foot behind the leading edge at the nominal cruise speed and viscosity."
+cite = []
+digest = "2797365833055933"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Critical Roughness Height at 45,000 Feet"
+gloss = "The height is rescaled as $\\nu^{3/4} V^{-3/4}$ to 45,000 feet and Mach 0.8."
+cite = []
+digest = "440ecb8787dec7f6"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Area of One Turbulent Wedge"
+gloss = "The article models a wedge from a leading-edge particle as a triangle over one mean chord with the measured spreading half-angle of ten degrees."
+cite = ["research_schubauer_klebanoff_1955"]
+digest = "fc271c0f32b9069d"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Number of Wedges to Blanket the Wing"
+gloss = "The wing area over the modelled wedge area gives about forty wedges."
+cite = []
+digest = "db439b894647389e"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Laminar Boundary-Layer Thickness"
+gloss = "The Blasius thickness is evaluated at the mean chord and the nominal cruise Reynolds number."
+cite = []
+digest = "6bd27c9aa2c14d1c"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Particle Encounter Rate"
+gloss = "The rate at which particles enter the boundary layer is their number density times speed times span times boundary-layer thickness."
+cite = []
+digest = "97b4724ff51f2d11"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Convection Time of a Wedge"
+gloss = "A wedge clears the wing in one mean chord over the nominal cruise speed."
+cite = []
+digest = "9c7f9aeffb139fe7"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Number Density of Typical Cirrus Columns"
+gloss = "Hall's typical columns are treated as solid ice cylinders, an assumption the article makes, to convert ice water content into a number density."
+cite = ["ref_hall_1964"]
+digest = "000922d4111a0301"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Time-Averaged Turbulent Fraction"
+gloss = "The article models wedges as random arrivals at a constant rate, each covering its area for the convection time, so the turbulent fraction follows a Poisson coverage law."
+cite = []
+digest = "7ef097eb073226bb"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Encounter Rate and Number Density for Erratic Operation"
+gloss = "Setting the modelled turbulent fraction to Hall's ten percent threshold gives the encounter rate and number density at which laminar flow becomes erratic."
+cite = []
+digest = "22811c2488aa75e8"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Suction Duct Area"
+gloss = "The duct area divides the modelled mass flow over the guaranteed area by a duct density taken as roughly the recovered density and the reported duct speed of 200 miles per hour."
+cite = []
+digest = "e9ff367561eeb347"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Reynolds Number of the Laminar Run"
+gloss = "The Reynolds number of the laminar run is the laminar fraction of the chord times the chord Reynolds number."
+cite = ["ref_joslin_1998"]
+digest = "1146cda280e7c3bf"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Mean Aerodynamic Chord"
+gloss = "The standard mean aerodynamic chord of a straight-tapered wing is evaluated with the taper ratio of 0.30 that the article assumes."
+cite = []
+digest = "b5bde80403c7805d"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean geometric chord, with $\\bar{c}_{\\text{MAC}}$ the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'A\!R'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the open fraction of the suction skin"
+
+[[symbol]]
+tex = 'v_{w}'
+meaning = "the velocity of the air drawn through the skin"
+
+[[symbol]]
+tex = 'C_{Q}'
+meaning = "the suction coefficient, with $C_{Q,\\text{crit}}$ its break-even value"
+
+[[symbol]]
+tex = 'C_{f,\text{turb}}'
+meaning = "the mean turbulent skin-friction coefficient, with $C_{f,\\text{lam}}$ the laminar value"
+
+[[symbol]]
+tex = '\Delta C_{f}'
+meaning = "the skin-friction saving per unit area"
+
+[[symbol]]
+tex = 'S_{\text{wet}}'
+meaning = "the wetted area, with $S_{\\text{lam}}$ the laminarised part"
+
+[[symbol]]
+tex = '\Pi'
+meaning = "the ratio of freestream total pressure to duct total pressure"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the exponent $(\\gamma - 1)/\\gamma$"
+
+[[symbol]]
+tex = 'C_{D,\text{suction}}'
+meaning = "the suction drag coefficient, the pumping power charged as drag"
+
+[[symbol]]
+tex = 'C_{D_{0}}'
+meaning = "the zero-lift drag coefficient"
+
+[[symbol]]
+tex = 'C_{D_{i}}'
+meaning = "the induced drag coefficient"
+
+[[symbol]]
+tex = 'W_{e}'
+meaning = "the spanwise velocity at the attachment line"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the sweep angle, with $\\Lambda_{LE}$ the leading-edge value"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the viscous length scale at the attachment line"
+
+[[symbol]]
+tex = '\bar{R}'
+meaning = "the attachment-line Reynolds number"
+
+[[symbol]]
+tex = 'R_{\theta}'
+meaning = "the momentum-thickness Reynolds number on the attachment line"
+
+[[symbol]]
+tex = 'Re_{k}'
+meaning = "the roughness Reynolds number, with $k_{\\text{crit}}$ the admissible roughness height"
+
+[[symbol]]
+tex = 'A_{w}'
+meaning = "the area of one turbulent wedge"
+
+[[symbol]]
+tex = '\dot{N}'
+meaning = "the rate of particle encounters"
+
+[[symbol]]
+tex = '\text{IWC}'
+meaning = "the ice water content"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the kinematic viscosity"
+
+[[symbol]]
+tex = 'c_{t}'
+meaning = "the thrust specific fuel consumption"

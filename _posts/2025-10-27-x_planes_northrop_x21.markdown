@@ -41,7 +41,10 @@ Werner Pfenninger brought continuous-suction laminar flow work to the Norair div
 
 The Air Force wanted the result for range. An aircraft with the drag of an X-21 wing could loiter far from base or cross an ocean without refuelling, and the 1963 case for the programme was put in those terms in [Butz 1963][ref_butz_1963], promising a lift-to-drag ratio raised from about twenty to more than thirty and an airframe more than forty percent smaller for the same mission. The example given was one model of the B-52, reduced from 400,000 pounds to 225,000 pounds without changing its speed, range, endurance or load, which is a reduction of
 
-$$1 - \frac{225{,}000}{400{,}000} = 0.44$$
+$$
+1 - \frac{225{,}000}{400{,}000} = 0.44
+\tag{1}
+$$
 
 or 44 percent. **Those numbers are for an aircraft designed around laminar flow from the start.** They are not what a converted bomber can show, and the difference between the two turns out to matter more than it looks.
 
@@ -49,25 +52,40 @@ or 44 percent. **Those numbers are for an aircraft designed around laminar flow 
 
 The X-21A was a WB-66D with the engines moved and the wing replaced. Two General Electric J79 turbojets, which the cutaway drawing in [Butz 1963][ref_butz_1963] labels YJ79-GE-13, went to pods on the rear fuselage, which made room under the wing for the suction pumps. The new wing spans 93.5 feet with 1,250 square feet of area and 30 degrees of sweep, taken here as quarter-chord sweep, reduced from the 35 degrees of the bomber, in the [Northrop X-21A][ref_x21] reference entry. It was scaled from a [Douglas DC-8][ref_dc8] wing at about forty percent, so that the result would be representative of a large subsonic transport instead of a research shape.
 
-$$\bar{c} = \frac{S}{b} = \frac{1{,}250}{93.5} = 13.37\ \text{ft}$$
+$$
+\bar{c} = \frac{S}{b} = \frac{1{,}250}{93.5} = 13.37\ \text{ft}
+\tag{2}
+$$
 
-$$A\!R = \frac{b^{2}}{S} = \frac{93.5^{2}}{1{,}250} = 6.99$$
+$$
+A\!R = \frac{b^{2}}{S} = \frac{93.5^{2}}{1{,}250} = 6.99
+\tag{3}
+$$
 
 The suction surface needs careful description, because it is routinely described wrongly. The wing skin carries spanwise slots running from root to tip, **between 0.0025 and 0.008 inches wide**, comparable with the cutting edge of a razor blade. Beneath each slot a plenum chamber is milled into an inner skin, and from each plenum a large number of small holes is drilled down into deep ducts formed between layers of bonded sandwich structure. Air is drawn through the slots into the plenums, through the holes into the ducts, and along the ducts at speeds reaching about two hundred miles per hour to four small gas turbines, two in each underwing nacelle, one serving the forward wing and one the rear, as [Butz 1963][ref_butz_1963] describes the installation. The skin panels, usually about five feet by twenty, were set in the final assembly jig first and the spars and understructure added behind them, so that the wing was built from the outside in and the outer contour did not follow the structure's tolerances. Butz reports the programme's estimate that such a wing would cost only about twenty percent more to produce than a conventional wing of the same size and weight.
 
 Two numbers make the surface concrete. With leading-edge slots about 0.0035 inches wide on a pitch of 0.75 inches, the values [Joslin 1998b][ref_joslin_1998] gives for the slots that controlled the flow at the attachment line, the open fraction of the skin is
 
-$$\sigma = \frac{w}{p} = \frac{0.0035}{0.75} = 0.00467$$
+$$
+\sigma = \frac{w}{p} = \frac{0.0035}{0.75} = 0.00467
+\tag{4}
+$$
 
 **The suction surface is 99.5 percent solid.** And since the flow through the skin averages 0.145 feet per second, continuity gives the speed in the slots themselves as
 
-$$v_{\text{slot}} = \frac{v_{w}}{\sigma} = \frac{0.145}{0.00467} = 31\ \text{ft/s}$$
+$$
+v_{\text{slot}} = \frac{v_{w}}{\sigma} = \frac{0.145}{0.00467} = 31\ \text{ft/s}
+\tag{5}
+$$
 
 or about 21 miles per hour, against the 200 miles per hour reported in the ducts below. The air does not rush through the slot. The surface behaves as a very slightly porous skin.
 
 **The figure of eight hundred thousand, which reference works such as the [Northrop X-21A][ref_x21] entry give as a count of slots, is a count of those metering holes.** [Butz 1963][ref_butz_1963] is explicit, describing air gathered in small chambers and channelled through pin-size holes, more than 800,000 of them, into the larger ducts. No primary document available here gives a count of the slots themselves, but their spacing bounds it. [Joslin 1998b][ref_joslin_1998] gives typical slot spacings of 1.1, 2.0 and 1.2 inches over 1 to 5, 5 to 40 and 40 to 100 percent of the chord. At the mean chord of 160.4 inches each surface therefore carries about
 
-$$N_{\text{slot}} = \sum_{i} \frac{\Delta (x/c)_{i} \, \bar{c}}{s_{i}} = \frac{0.04 \times 160.4}{1.1} + \frac{0.35 \times 160.4}{2.0} + \frac{0.60 \times 160.4}{1.2} = 5.8 + 28.1 + 80.2 = 114$$
+$$
+N_{\text{slot}} = \sum_{i} \frac{\Delta (x/c)_{i} \, \bar{c}}{s_{i}} = \frac{0.04 \times 160.4}{1.1} + \frac{0.35 \times 160.4}{2.0} + \frac{0.60 \times 160.4}{1.2} = 5.8 + 28.1 + 80.2 = 114
+\tag{6}
+$$
 
 slots, where $\Delta (x/c)_{i}$ is the chordwise extent of each region and $s_{i}$ its slot spacing, so the wing has of the order of a hundred slots on each surface and a little over two hundred in all. The estimate ignores the closer spacing on the attachment line and treats the mean chord as typical. The distinction is not pedantry. A slot is a continuous span-long opening and a hole is a discrete metering orifice, and confusing the two makes the wing sound like a sieve when it is in fact a small number of very fine, very long, very accurately cut openings. The design and construction of such surfaces is treated in [Cliett 1952][research_cliett_1952], [Gregory 1961][research_gregory_1961], [Meade 1977][research_meade_1977], [Klotzsche et al. 1984][research_klotzsche_pearce_1984], [Lineberger 1984][research_lineberger_1984], [Fischler 1986][research_fischler_1986], [Maddalon and Poppen 1986][research_maddalon_poppen_1986], [Goodyear 1987][research_goodyear_1987], [Maddalon and Braslow 1990][research_maddalon_braslow_1990], [Maddalon 1991][research_maddalon_1991], [Traub et al. 2021][research_traub_wolff_2021], [Prasannakumar et al. 2024][research_prasannakumar_2024], [Kashaev et al. 2026][research_kashaev_2026].
 
@@ -77,63 +95,108 @@ The natural question is whether the suction power exceeds the drag it saves. **A
 
 Take a nominal cruise at Mach 0.75 and 40,000 feet. At that altitude the density is $5.851 \times 10^{-4}$ slugs per cubic foot and the speed of sound is 968.1 feet per second, so the flight speed and dynamic pressure are
 
-$$V = M a = 0.75 \times 968.1 = 726.0\ \text{ft/s}$$
+$$
+V = M a = 0.75 \times 968.1 = 726.0\ \text{ft/s}
+\tag{7}
+$$
 
-$$q = \tfrac{1}{2} \rho V^{2} = 154.2\ \text{lbf/ft}^{2}$$
+$$
+q = \tfrac{1}{2} \rho V^{2} = 154.2\ \text{lbf/ft}^{2}
+\tag{8}
+$$
 
 and at the 83,000 pound gross weight of the [Northrop X-21A][ref_x21] entry the wing is working at
 
-$$C_{L} = \frac{W}{q S} = \frac{83{,}000}{154.2 \times 1{,}250} = 0.431$$
+$$
+C_{L} = \frac{W}{q S} = \frac{83{,}000}{154.2 \times 1{,}250} = 0.431
+\tag{9}
+$$
 
 The mean-chord Reynolds number is
 
-$$Re_{\bar{c}} = \frac{V \bar{c}}{\nu} = \frac{726.0 \times 13.37}{5.075 \times 10^{-4}} = 1.913 \times 10^{7}$$
+$$
+Re_{\bar{c}} = \frac{V \bar{c}}{\nu} = \frac{726.0 \times 13.37}{5.075 \times 10^{-4}} = 1.913 \times 10^{7}
+\tag{10}
+$$
 
 At that Reynolds number the mean skin-friction coefficients on a smooth flat plate are
 
-$$C_{f,\text{turb}} = \frac{0.455}{(\log_{10} Re)^{2.58}} = 0.002713$$
+$$
+C_{f,\text{turb}} = \frac{0.455}{(\log_{10} Re)^{2.58}} = 0.002713
+\tag{11}
+$$
 
-$$C_{f,\text{lam}} = \frac{1.328}{\sqrt{Re}} = 0.000304$$
+$$
+C_{f,\text{lam}} = \frac{1.328}{\sqrt{Re}} = 0.000304
+\tag{12}
+$$
 
 The ratio of the two sets the size of the prize,
 
-$$\frac{C_{f,\text{lam}}}{C_{f,\text{turb}}} = \frac{0.000304}{0.002713} = 0.112$$
+$$
+\frac{C_{f,\text{lam}}}{C_{f,\text{turb}}} = \frac{0.000304}{0.002713} = 0.112
+\tag{13}
+$$
 
 so the laminar boundary layer exerts **11.2 percent** of the turbulent shear and the saving available is
 
-$$\Delta C_{f} = 0.002713 - 0.000304 = 0.002409$$
+$$
+\Delta C_{f} = 0.002713 - 0.000304 = 0.002409
+\tag{14}
+$$
 
 On the area the programme guaranteed to laminarise, 70 percent of the wing in [Butz 1963][ref_butz_1963], with the exposed wetted area of the wing taken as about 2,222 square feet, that coefficient is worth
 
-$$\Delta D = q \, \Delta C_{f} \, S_{\text{lam}} = 154.2 \times 0.002409 \times 1{,}555 = 578\ \text{lbf}$$
+$$
+\Delta D = q \, \Delta C_{f} \, S_{\text{lam}} = 154.2 \times 0.002409 \times 1{,}555 = 578\ \text{lbf}
+\tag{15}
+$$
 
 ### What the Suction Costs
 
 The suction system ingests a mass flow set by the suction coefficient $C_Q$, the ratio of the velocity through the surface to the freestream velocity,
 
-$$v_{w} = C_{Q} V_{\infty} = 2 \times 10^{-4} \times 726.0 = 0.145\ \text{ft/s}$$
+$$
+v_{w} = C_{Q} V_{\infty} = 2 \times 10^{-4} \times 726.0 = 0.145\ \text{ft/s}
+\tag{16}
+$$
 
 **The suction amounts to no more than that.** The air is drawn through the skin at about a tenth of a mile per hour, and everything the wing achieves follows from removing it. The mass flow is
 
-$$\dot{m} = \rho_{\infty} V_{\infty} C_{Q} S_{\text{wet}}$$
+$$
+\dot{m} = \rho_{\infty} V_{\infty} C_{Q} S_{\text{wet}}
+\tag{17}
+$$
 
 That air arrives in the ducts at a total pressure well below freestream total pressure, because it has passed through a slot narrower than a razor edge and along a duct. To expel it without a momentum penalty the system must restore it, and the ideal work per unit mass is the isentropic compression work. Writing $\Pi$ for the ratio of freestream total pressure to duct total pressure and $\kappa = (\gamma-1)/\gamma$, the shaft power is
 
-$$P = \frac{\dot{m} c_{p} T_{t}}{\eta} \left[ \Pi^{\kappa} - 1 \right]$$
+$$
+P = \frac{\dot{m} c_{p} T_{t}}{\eta} \left[ \Pi^{\kappa} - 1 \right]
+\tag{18}
+$$
 
 The equivalent drag is that power divided by flight speed, and dividing again by $q S_{\text{wet}}$ gives a drag coefficient on the same basis as the skin friction,
 
-$$C_{D,\text{suction}} = \frac{2 C_{Q} c_{p} T_{t} \left[ \Pi^{\kappa} - 1 \right]}{\eta V^{2}}$$
+$$
+C_{D,\text{suction}} = \frac{2 C_{Q} c_{p} T_{t} \left[ \Pi^{\kappa} - 1 \right]}{\eta V^{2}}
+\tag{19}
+$$
 
 **Density has cancelled.** Substituting $c_p T = a^{2}/(\gamma-1)$ and $V = M a$ removes the atmosphere entirely and leaves
 
-$$C_{D,\text{suction}} = \frac{2 C_{Q} \left[ \Pi^{\kappa} - 1 \right]}{\eta (\gamma-1) M^{2}} \left( 1 + \frac{\gamma-1}{2} M^{2} \right)$$
+$$
+C_{D,\text{suction}} = \frac{2 C_{Q} \left[ \Pi^{\kappa} - 1 \right]}{\eta (\gamma-1) M^{2}} \left( 1 + \frac{\gamma-1}{2} M^{2} \right)
+\tag{20}
+$$
 
 **The suction penalty is a function of Mach number and of the machinery, and of nothing else.** It does not depend on altitude at all. An aircraft climbing at fixed Mach number carries exactly the same suction drag coefficient at 20,000 feet as at 50,000, which is not obvious in advance and which removes an entire axis from the design trade.
 
 With a design suction coefficient of $C_Q = 2 \times 10^{-4}$, a duct total-pressure recovery of 0.60 and a combined turbine and compressor efficiency of 0.75,
 
-$$C_{D,\text{suction}} = 4.144 \times 10^{-4}$$
+$$
+C_{D,\text{suction}} = 4.144 \times 10^{-4}
+\tag{21}
+$$
 
 which is **17.2 percent** of the friction saving. Five sixths of the prize survives the pumping.
 
@@ -141,11 +204,17 @@ which is **17.2 percent** of the friction saving. Five sixths of the prize survi
 
 Setting the suction penalty equal to the friction saving gives the suction coefficient at which the system stops paying,
 
-$$C_{Q,\text{crit}} = \frac{\Delta C_{f} \, \eta (\gamma-1) M^{2}}{2 \left[ \Pi^{\kappa} - 1 \right] \left( 1 + \tfrac{\gamma-1}{2} M^{2} \right)} = 1.163 \times 10^{-3}$$
+$$
+C_{Q,\text{crit}} = \frac{\Delta C_{f} \, \eta (\gamma-1) M^{2}}{2 \left[ \Pi^{\kappa} - 1 \right] \left( 1 + \tfrac{\gamma-1}{2} M^{2} \right)} = 1.163 \times 10^{-3}
+\tag{22}
+$$
 
 **That is 5.8 times the design value.** In absolute terms, at the nominal condition and over the wing area the programme guaranteed to laminarise, the suction system moves 4.25 pounds of air per second and absorbs about 131 horsepower, while the drag it removes is 578 pounds of force, worth 763 horsepower at flight speed. Written as a ratio of powers,
 
-$$\frac{\Delta D \, V}{P} = \frac{578 \times 726.0}{131 \times 550} = 5.8$$
+$$
+\frac{\Delta D \, V}{P} = \frac{578 \times 726.0}{131 \times 550} = 5.8
+\tag{23}
+$$
 
 the same 5.8 as the margin in suction coefficient, and necessarily so, since both sides of the comparison are linear in $C_Q$.
 
@@ -167,17 +236,26 @@ The margin is large enough that the interesting question is not whether it is po
 
 The suction coefficient of $2 \times 10^{-4}$ used above is an assumption, and the record of the programme allows it to be tested. **The local suction coefficients the X-21 design called for were higher.** [Joslin 1998b][ref_joslin_1998], summarising the Northrop final report, gives typical values of $v_{w}/V_{\infty}$ from $5 \times 10^{-4}$ in regions of nearly flat pressure to $10 \times 10^{-4}$ near the leading edge, and adds that at Mach 0.74 and 41,400 feet the measured suction distribution matched the predicted one in shape but exceeded it in level by 50 percent. Since the break-even coefficient above is fixed by the friction saving and the machinery, the margin at any other coefficient is
 
-$$\frac{C_{Q,\text{crit}}}{C_{Q}} = \frac{1.163 \times 10^{-3}}{5 \times 10^{-4}} = 2.3 \qquad \frac{1.163 \times 10^{-3}}{10 \times 10^{-4}} = 1.16$$
+$$
+\frac{C_{Q,\text{crit}}}{C_{Q}} = \frac{1.163 \times 10^{-3}}{5 \times 10^{-4}} = 2.3 \qquad \frac{1.163 \times 10^{-3}}{10 \times 10^{-4}} = 1.16
+\tag{24}
+$$
 
 Because the penalty is linear in $C_{Q}$, its share of the friction saving rises from 0.172 to $0.172 \times 2.5 = 0.43$ and $0.172 \times 5 = 0.86$. So where the suction was strongest the system was close to paying nothing back, and over the flat-pressure regions that make up most of the chord it returned a little more than twice what it cost.
 
 The same summary reports the system's flow at one condition, 43,000 feet and Mach 0.75, as ranging from 1.94 to 7.18 pounds per second. At 43,000 feet, 3,000 feet into the isothermal layer whose scale height is $H = R T/g = 20{,}805$ feet, the density is
 
-$$\rho_{43} = \rho_{40} \, e^{-3{,}000/H} = 5.851 \times 10^{-4} \times e^{-0.1442} = 5.065 \times 10^{-4}\ \text{slugs/ft}^{3}$$
+$$
+\rho_{43} = \rho_{40} \, e^{-3{,}000/H} = 5.851 \times 10^{-4} \times e^{-0.1442} = 5.065 \times 10^{-4}\ \text{slugs/ft}^{3}
+\tag{25}
+$$
 
 and if those flows are totals over the whole wetted wing they imply an area-averaged coefficient of
 
-$$\bar{C}_{Q} = \frac{\dot{m}}{\rho_{43} V_{\infty} S_{\text{wet}}} = \frac{7.18/32.174}{5.065 \times 10^{-4} \times 726.0 \times 2{,}222} = 2.7 \times 10^{-4}$$
+$$
+\bar{C}_{Q} = \frac{\dot{m}}{\rho_{43} V_{\infty} S_{\text{wet}}} = \frac{7.18/32.174}{5.065 \times 10^{-4} \times 726.0 \times 2{,}222} = 2.7 \times 10^{-4}
+\tag{26}
+$$
 
 at the upper figure and $0.74 \times 10^{-4}$ at the lower. **The summary does not say whether those flows are system totals or the flows of individual pumps or regions**, and the two readings differ by a factor of several. Read as totals, they bracket the assumed coefficient and leave a margin of about four at the upper figure. Read against the local design values, the margin is between one and two. The record therefore supports the sign of the conclusion, that suction cost less than it saved, and does not support the factor of six as a measured property of this aeroplane.
 
@@ -189,29 +267,50 @@ The wing is about 44 percent of the aircraft wetted area. The programme guarante
 
 The zero-lift drag has to be built from its parts, not assumed, because the friction saving must be credited on the same basis the drag is charged. Taking a wetted-area ratio of 4.0 and a form factor of 1.20, which accounts for the thickness of a real wing over a flat plate,
 
-$$C_{D_{0}} = k \, C_{f,\text{turb}} \frac{S_{\text{wet}}}{S} + C_{D,\text{other}} = 1.20 \times 0.002713 \times 4.0 + 0.0050 = 0.01802$$
+$$
+C_{D_{0}} = k \, C_{f,\text{turb}} \frac{S_{\text{wet}}}{S} + C_{D,\text{other}} = 1.20 \times 0.002713 \times 4.0 + 0.0050 = 0.01802
+\tag{27}
+$$
 
 where the residual 0.0050 is interference, excrescence and everything that is not skin friction. Drag build-up of this kind, and the span-efficiency factor the induced term needs, are period subjects with a settled literature, in [Report No. 349. 1930][research_report_no_1930], [Oswald 1932][research_w_bailey_oswald_1932], [Lockwood Taylor 1942][research_lockwood_taylor_1942], [Sibert 1943][research_sibert_1943], [von Kármán and Tsien 1945][research_von_karman_tsien_1945], [Lakshminarayana 1962][research_lakshminarayana_1962], [Frost and Rutherford 1963][research_frost_rutherford_1963], [Sanders 1965][research_sanders_1965], [Gilman and Burdges 1967][research_gilman_burdges_1967], [Lundry 1967][research_lundry_1967], [Snyder and Zumwalt 1969][research_snyder_zumwalt_1969], [Hancock 1971][research_hancock_1971], [Morita 1971][research_morita_1971], [Hancock 1972][research_hancock_1972], [Letcher 1972][research_letcher_1972], [Moriya 1972][research_moriya_1972], [Mamada and Ando 1973][research_mamada_ando_1973], [Mamada and Ando 1974][research_mamada_ando_1974], [Sears 1974][research_sears_1974], [Deyoung 1980][research_deyoung_1980], [Smith and Kroo 1990][research_smith_kroo_1990], [Straussfogel and Maughmer 1991][research_straussfogel_maughmer_1991], [Smith 1996a][research_smith_1996_2]. **The efficiency factor and the performance charts that go with it are [Oswald 1932][research_w_bailey_oswald_1932]**, whose span-efficiency factor is the 0.80 this article uses for the induced drag and is still called by his name. With an Oswald efficiency of 0.80 the induced drag at the cruise lift coefficient is
 
-$$C_{D_{i}} = \frac{C_{L}^{2}}{\pi A\!R\, e} = \frac{0.431^{2}}{\pi \times 6.99 \times 0.80} = 0.01055$$
+$$
+C_{D_{i}} = \frac{C_{L}^{2}}{\pi A\!R\, e} = \frac{0.431^{2}}{\pi \times 6.99 \times 0.80} = 0.01055
+\tag{28}
+$$
 
-$$C_{D} = C_{D_{0}} + C_{D_{i}} = 0.02857 \qquad \frac{L}{D} = \frac{C_{L}}{C_{D}} = 15.07$$
+$$
+C_{D} = C_{D_{0}} + C_{D_{i}} = 0.02857 \qquad \frac{L}{D} = \frac{C_{L}}{C_{D}} = 15.07
+\tag{29}
+$$
 
 **That decomposition also settles the claim the article opened with.** The friction share of total drag is
 
-$$\frac{k \, C_{f,\text{turb}} S_{\text{wet}} / S}{C_{D}} = \frac{0.01302}{0.02857} = 0.456$$
+$$
+\frac{k \, C_{f,\text{turb}} S_{\text{wet}} / S}{C_{D}} = \frac{0.01302}{0.02857} = 0.456
+\tag{30}
+$$
 
 The assertion that about half a transport's fuel goes to overcoming skin friction came from the literature. This number came from geometry and a flat-plate correlation. **They agree to about nine percent, from two directions that share nothing**, and that agreement carries more weight than either statement alone.
 
 Now the saving. Over the laminarised wetted area the friction falls by $k \Delta C_{f}$ and the suction charges $C_{D,\text{suction}}$, which is a power and carries no form factor, so
 
-$$\Delta D = \left( k \, \Delta C_{f} - C_{D,\text{suction}} \right) q \, S_{\text{lam}}$$
+$$
+\Delta D = \left( k \, \Delta C_{f} - C_{D,\text{suction}} \right) q \, S_{\text{lam}}
+\tag{31}
+$$
 
-$$\frac{\Delta D}{D} = 0.108 \qquad \frac{L}{D} = 16.89$$
+$$
+\frac{\Delta D}{D} = 0.108 \qquad \frac{L}{D} = 16.89
+\tag{32}
+$$
 
 By the Breguet relation,
 
-$$R = \frac{V}{c_{t}} \frac{L}{D} \ln \frac{W_{i}}{W_{f}}$$
+$$
+R = \frac{V}{c_{t}} \frac{L}{D} \ln \frac{W_{i}}{W_{f}}
+\tag{33}
+$$
 
 range is proportional to lift-to-drag ratio at fixed speed, specific fuel consumption and fuel fraction, so **the aeroplane as flown was worth about twelve percent in range**. The relation itself is textbook material, not journal material, treated in [Anderson 1999 Aircraft Performance and Design][book_anderson_1999], and the cruise-optimisation literature around it is narrow, being [Hale 1976][research_hale_1976], [Guynn 2011][research_guynn_2011]. **That literature is thin under this name**, because the word range in an aeronautical archive mostly means the distance to a target or a ballistic test facility rather than the distance an aircraft can cruise.
 
@@ -230,19 +329,31 @@ range is proportional to lift-to-drag ratio at fixed speed, specific fuel consum
 
 Take the last row of that table seriously for a moment and laminarise the entire aeroplane, fuselage included, which is impossible but bounds the argument. The zero-lift drag becomes
 
-$$C_{D_{0}}^{\ \text{lam}} = 1.20 \times 0.000304 \times 4.0 + 0.0050 = 0.00646$$
+$$
+C_{D_{0}}^{\ \text{lam}} = 1.20 \times 0.000304 \times 4.0 + 0.0050 = 0.00646
+\tag{34}
+$$
 
 and adding induced drag and the suction charge over the whole wetted area,
 
-$$C_{D}^{\ \text{best}} = 0.00646 + 0.01055 + 4.0 \times 4.144 \times 10^{-4} = 0.01866 \quad \Rightarrow \quad \frac{L}{D} = 23.1$$
+$$
+C_{D}^{\ \text{best}} = 0.00646 + 0.01055 + 4.0 \times 4.144 \times 10^{-4} = 0.01866 \quad \Rightarrow \quad \frac{L}{D} = 23.1
+\tag{35}
+$$
 
 **Twenty-three, not thirty, with every square foot of the aeroplane laminar.** The reason is visible in the arithmetic. A lift-to-drag ratio of thirty at this lift coefficient allows a total drag coefficient of
 
-$$C_{D} = \frac{C_{L}}{30} = \frac{0.431}{30} = 0.01435$$
+$$
+C_{D} = \frac{C_{L}}{30} = \frac{0.431}{30} = 0.01435
+\tag{36}
+$$
 
 and the induced drag alone is 0.01055, which is **73 percent of the entire budget**. Induced drag is set by the planform and is untouched by anything done to the boundary layer. Inverting for the aspect ratio that would leave room,
 
-$$A\!R = \frac{C_{L}^{2}}{\pi e \left( C_{D} - C_{D_{0}}^{\ \text{lam}} - C_{D,\text{suction}} S_{\text{wet}}/S \right)} = 11.8$$
+$$
+A\!R = \frac{C_{L}^{2}}{\pi e \left( C_{D} - C_{D_{0}}^{\ \text{lam}} - C_{D,\text{suction}} S_{\text{wet}}/S \right)} = 11.8
+\tag{37}
+$$
 
 against the X-21's 6.99.
 
@@ -258,23 +369,38 @@ On a swept wing the flow divides along a line near the leading edge, and the bou
 
 The governing parameter is an attachment-line Reynolds number formed from the spanwise velocity and the boundary-layer scale at the line. It is better assembled than quoted, because each part is a separate physical statement. The flow along the line moves at the spanwise component,
 
-$$W_{e} = V_{\infty} \sin\Lambda = 726.0 \times \sin 33.2^{\circ} = 397.5\ \text{ft/s}$$
+$$
+W_{e} = V_{\infty} \sin\Lambda = 726.0 \times \sin 33.2^{\circ} = 397.5\ \text{ft/s}
+\tag{38}
+$$
 
 The boundary layer there does not grow, because it is continuously stretched by the chordwise acceleration away from the line, which for a leading edge of radius $r$ is
 
-$$\left. \frac{d U_{e}}{ds} \right|_{\text{al}} = \frac{2 V_{\infty} \cos\Lambda}{r} = 7{,}385\ \text{s}^{-1}$$
+$$
+\left. \frac{d U_{e}}{ds} \right|_{\text{al}} = \frac{2 V_{\infty} \cos\Lambda}{r} = 7{,}385\ \text{s}^{-1}
+\tag{39}
+$$
 
 That balance fixes a constant thickness scale,
 
-$$\ell = \sqrt{\frac{\nu}{d U_{e}/ds}} = 2.62 \times 10^{-4}\ \text{ft} = 0.0031\ \text{in}$$
+$$
+\ell = \sqrt{\frac{\nu}{d U_{e}/ds}} = 2.62 \times 10^{-4}\ \text{ft} = 0.0031\ \text{in}
+\tag{40}
+$$
 
 **Three thousandths of an inch, the width of a slot.** The Reynolds number on that scale is
 
-$$\bar{R} = \frac{W_{e} \ell}{\nu} = \sin\Lambda \sqrt{\frac{V_{\infty} r}{2 \nu \cos\Lambda}}$$
+$$
+\bar{R} = \frac{W_{e} \ell}{\nu} = \sin\Lambda \sqrt{\frac{V_{\infty} r}{2 \nu \cos\Lambda}}
+\tag{41}
+$$
 
 The sweep in that expression is the **leading-edge** sweep, not the quarter-chord sweep quoted for a planform. With a taper ratio of 0.30 the X-21 wing carries
 
-$$\tan\Lambda_{LE} = \tan\Lambda_{c/4} + \frac{1-\lambda}{A\!R(1+\lambda)} \quad \Rightarrow \quad \Lambda_{LE} = 33.2^{\circ}$$
+$$
+\tan\Lambda_{LE} = \tan\Lambda_{c/4} + \frac{1-\lambda}{A\!R(1+\lambda)} \quad \Rightarrow \quad \Lambda_{LE} = 33.2^{\circ}
+\tag{42}
+$$
 
 Below about 100 an introduced disturbance decays. Above about 245 it is sustained and propagates. Between the two, whether the attachment line stays laminar depends on the size of the disturbance introduced, in the experiments reviewed by [Joslin 1998b][ref_joslin_1998]. Evaluating along the span, with leading-edge radius taken as 0.008 of the local chord,
 
@@ -292,11 +418,17 @@ The result is sensitive to the leading-edge radius, which is assumed here and no
 
 **The X-21's design rule expresses the same thing in different variables.** The analysis behind the wing required the momentum-thickness Reynolds number on the attachment line to stay below 100, according to [Joslin 1998b][ref_joslin_1998]. The two parameters are related through the spanwise velocity profile of the swept attachment-line flow, the swept Hiemenz solution, whose spanwise momentum thickness in units of $\ell$ is
 
-$$\frac{\theta}{\ell} = \int_{0}^{\infty} g(\eta) \left[ 1 - g(\eta) \right] d\eta = 0.404 \qquad \Rightarrow \qquad R_{\theta} = 0.404 \, \bar{R}$$
+$$
+\frac{\theta}{\ell} = \int_{0}^{\infty} g(\eta) \left[ 1 - g(\eta) \right] d\eta = 0.404 \qquad \Rightarrow \qquad R_{\theta} = 0.404 \, \bar{R}
+\tag{43}
+$$
 
 where $g = w/W_{e}$ is the spanwise velocity ratio, obtained by integrating $f''' + f f'' + 1 - f'^{2} = 0$ and $g'' + f g' = 0$ numerically, and $\eta = y/\ell$. The design limit is therefore
 
-$$\bar{R} < \frac{100}{0.404} = 247$$
+$$
+\bar{R} < \frac{100}{0.404} = 247
+\tag{44}
+$$
 
 matching the upper threshold of 245 quoted above to within the precision of either. The experimental basis of that threshold, from Cumpsty and Head in 1969 to [Poll 1979][research_poll_1979], is reviewed by Joslin. At the root the table gives $R_{\theta} = 0.404 \times 205 = 83$. **The wing met its design criterion at every station along the span**, so the contamination it suffered was not a failure of the criterion. It came from large disturbances, the turbulent fuselage boundary layer above all, and for large disturbances the relevant threshold is the lower one near 100, which every station exceeded.
 
@@ -310,11 +442,17 @@ A slotted suction wing must be smoother than a conventional one, because roughne
 
 **The tolerance is computable and it is brutal.** A three-dimensional roughness element trips a laminar boundary layer when the Reynolds number formed on its height and the velocity at that height passes a critical value of about 600, in [Hall 1964][ref_hall_1964]. Near the wall the Blasius profile is linear, $u/U_{\infty} = 0.332\,\eta$, so
 
-$$Re_{k} = \frac{u_{k} k}{\nu} = \frac{0.332\, k^{2} V_{\infty}^{3/2}}{\nu^{3/2} x^{1/2}} = 600$$
+$$
+Re_{k} = \frac{u_{k} k}{\nu} = \frac{0.332\, k^{2} V_{\infty}^{3/2}}{\nu^{3/2} x^{1/2}} = 600
+\tag{45}
+$$
 
 Solving for the admissible height at a station one foot behind the leading edge,
 
-$$k_{\text{crit}} = \left( \frac{600 \, \nu^{3/2} x^{1/2}}{0.332 \, V_{\infty}^{3/2}} \right)^{1/2} = 0.0123\ \text{in}$$
+$$
+k_{\text{crit}} = \left( \frac{600 \, \nu^{3/2} x^{1/2}}{0.332 \, V_{\infty}^{3/2}} \right)^{1/2} = 0.0123\ \text{in}
+\tag{46}
+$$
 
 **About a hundredth of an inch, and it scales as $x^{1/4}$, so it is smaller further forward**.
 
@@ -324,7 +462,10 @@ That criterion is not a modern reconstruction. It was established in these same 
 
 **The tolerances the programme arrived at can be set against the criterion above.** For Mach 0.8 at 45,000 feet the Northrop final report, as [Joslin 1998b][ref_joslin_1998] gives it, allows forward-facing steps of 0.02 inches, rearward-facing steps of 0.009 inches and spanwise gaps 0.25 inches wide, and requires single waves to have an amplitude less than 0.004 of their wavelength. Five thousand feet into the isothermal layer the density is $\rho_{40} e^{-5{,}000/H} = 4.601 \times 10^{-4}$ slugs per cubic foot, the viscosity is unchanged, and the kinematic viscosity rises in proportion to $6.454 \times 10^{-4}$ square feet per second. Since the admissible height above goes as $\nu^{3/4} V^{-3/4}$,
 
-$$k_{\text{crit},45} = 0.0123 \left( \frac{6.454}{5.075} \right)^{3/4} \left( \frac{726.0}{774.5} \right)^{3/4} = 0.0140\ \text{in}$$
+$$
+k_{\text{crit},45} = 0.0123 \left( \frac{6.454}{5.075} \right)^{3/4} \left( \frac{726.0}{774.5} \right)^{3/4} = 0.0140\ \text{in}
+\tag{47}
+$$
 
 one foot behind the leading edge at $V = 0.8 \times 968.1 = 774.5$ feet per second. **The allowed steps bracket the three-dimensional criterion**, rearward steps tighter than it and forward steps looser. A step is a two-dimensional disturbance with its own criterion, so the agreement is one of scale rather than an identity, but it shows the arithmetic and the hardware were working on the same thousandths of an inch. The October 1965 review found that a previously suggested criterion for single surface waves had been confirmed in flight, and that vibration of isolated panels at a discrete frequency did not disturb the laminar flow, in [Braslow 1999][book_braslow_1999]. [Joslin 1998b][ref_joslin_1998] adds that the wing tolerated a gap 0.125 inches wide and 0.18 inches deep at 60 percent chord on the lower outboard wing.
 
@@ -334,39 +475,63 @@ Flying in or near cirrus, the X-21 lost laminar flow. On emerging from the cloud
 
 **Both halves of that observation follow from one calculation.** A point disturbance in a laminar boundary layer does not simply trip the flow at that point. It produces a turbulent spot that grows as it convects, spreading laterally at a roughly constant angle, and the mechanism and its measurement are [Schubauer and Klebanoff 1955][research_schubauer_klebanoff_1955], [Sokolov et al. 1980][research_sokolov_1980], [Glezer et al. 1986][research_glezer_1986], [Henningson et al. 1987][research_henningson_1987], [Henningson et al. 1988][research_henningson_1988], [Seifert et al. 1992][research_seifert_1992], [Singer and Joslin 1995][research_singer_joslin_1995], [Simon and Boyle 1998][research_simon_boyle_1998], [LaGraff 2001][research_lagraff_2001], [Blackwelder et al. 2007][research_blackwelder_2007], [Clark et al. 2007][research_clark_2007], [Fehrs and Kaiser 2025][research_fehrs_kaiser_2025]. The spreading half-angle is about ten degrees, in [Schubauer and Klebanoff 1955][research_schubauer_klebanoff_1955], so a particle entering at the leading edge contaminates
 
-$$A_{w} = \bar{c}^{\,2} \tan\alpha = 13.37^{2} \times \tan 10^{\circ} = 31.5\ \text{ft}^{2}$$
+$$
+A_{w} = \bar{c}^{\,2} \tan\alpha = 13.37^{2} \times \tan 10^{\circ} = 31.5\ \text{ft}^{2}
+\tag{48}
+$$
 
 which means that
 
-$$n = \frac{S}{A_{w}} = \frac{1{,}250}{31.5} \approx 40$$
+$$
+n = \frac{S}{A_{w}} = \frac{1{,}250}{31.5} \approx 40
+\tag{49}
+$$
 
 wedges are enough to blanket the wing. The laminar boundary layer is thin,
 
-$$\delta = \frac{5 \bar{c}}{\sqrt{Re}} = 0.0153\ \text{ft} = 0.18\ \text{in}$$
+$$
+\delta = \frac{5 \bar{c}}{\sqrt{Re}} = 0.0153\ \text{ft} = 0.18\ \text{in}
+\tag{50}
+$$
 
 so the rate at which particles enter it across the span is
 
-$$\dot{N} = N V_{\infty} b \, \delta$$
+$$
+\dot{N} = N V_{\infty} b \, \delta
+\tag{51}
+$$
 
 At the cirrus number density of ten thousand crystals per cubic metre assumed here, which is low for cirrus as shown below, that is about 294,000 encounters per second. **The wing is blanketed in roughly 140 microseconds.** On leaving the cloud the wedges convect away in
 
-$$t = \frac{\bar{c}}{V_{\infty}} = \frac{13.37}{726.0} = 18\ \text{ms}$$
+$$
+t = \frac{\bar{c}}{V_{\infty}} = \frac{13.37}{726.0} = 18\ \text{ms}
+\tag{52}
+$$
 
 **So the loss is instantaneous with five orders of magnitude to spare, and the recovery is instantaneous because nothing has been left behind on the surface.** That distinguishes an ice crystal from an insect, and explains why the two problems needed entirely different answers.
 
 **The analysis in [Hall 1964][ref_hall_1964] supplies what the assumed density lacks.** Working at Mach 0.75 and at 25,000 and 40,000 feet, the same nominal condition used throughout this article, he took cirrus crystals to be hexagonal columns with a length 2.5 times their diameter and found a critical size at 25,000 feet of 17 by 42 micrometres, below which a crystal is too small to start a turbulent spot. [Joslin 1998b][ref_joslin_1998] gives the critical diameters as 17 and 32 micrometres at the two altitudes. Hall's typical cirrus condition is columns 100 micrometres long and 40 wide at an ice content of 0.01 grams per cubic metre. Treating each column as a cylinder of ice of density $\rho_{\text{ice}} = 917$ kilograms per cubic metre, the number density is
 
-$$N = \frac{\text{IWC}}{\rho_{\text{ice}} \, \tfrac{\pi}{4} d^{2} L} = \frac{0.01\ \text{g/m}^{3}}{917{,}000\ \text{g/m}^{3} \times \tfrac{\pi}{4} \times (40 \times 10^{-6})^{2} \times 100 \times 10^{-6}\ \text{m}^{3}} = 8.7 \times 10^{4}\ \text{m}^{-3}$$
+$$
+N = \frac{\text{IWC}}{\rho_{\text{ice}} \, \tfrac{\pi}{4} d^{2} L} = \frac{0.01\ \text{g/m}^{3}}{917{,}000\ \text{g/m}^{3} \times \tfrac{\pi}{4} \times (40 \times 10^{-6})^{2} \times 100 \times 10^{-6}\ \text{m}^{3}} = 8.7 \times 10^{4}\ \text{m}^{-3}
+\tag{53}
+$$
 
 where IWC is the ice water content, nearly nine times the density assumed above, and every one of those crystals is well above the critical size. The conclusion that the wing is blanketed at once is therefore conservative.
 
 **The same model shows why haze mattered.** Hall defined the threshold of erratic operation as a time-averaged turbulent area of ten percent of the wing. If wedges arrive at random at rate $\dot{N}$, each covering $A_{w}$ for the convection time $t$, the time-averaged turbulent fraction is
 
-$$\phi = 1 - \exp \left( - \frac{\dot{N} A_{w} t}{S} \right)$$
+$$
+\phi = 1 - \exp \left( - \frac{\dot{N} A_{w} t}{S} \right)
+\tag{54}
+$$
 
 and setting $\phi = 0.10$ gives
 
-$$\dot{N}_{10} = \frac{-\ln 0.9 \times 1{,}250}{31.5 \times 0.0184} = 227\ \text{s}^{-1} \qquad N_{10} = \frac{\dot{N}_{10}}{V_{\infty} b \, \delta} = \frac{227}{29.4\ \text{m}^{3}/\text{s}} = 7.7\ \text{m}^{-3}$$
+$$
+\dot{N}_{10} = \frac{-\ln 0.9 \times 1{,}250}{31.5 \times 0.0184} = 227\ \text{s}^{-1} \qquad N_{10} = \frac{\dot{N}_{10}}{V_{\infty} b \, \delta} = \frac{227}{29.4\ \text{m}^{3}/\text{s}} = 7.7\ \text{m}^{-3}
+\tag{55}
+$$
 
 with the volume swept by the boundary layer, $V_{\infty} b \delta = 726.0 \times 93.5 \times 0.0153 = 1{,}039$ cubic feet per second, converted to cubic metres. **About eight crystals of critical size in each cubic metre are enough to make laminar flow erratic on this crude model**, four orders of magnitude below a typical cirrus, so air that looks clear can still carry enough of them. Hall reports that pattern, with total loss in cloud where the visibility was several thousand feet and erratic, partially degraded performance in haze through which flight test engineers and pilots could see 30 to 60 miles horizontally.
 
@@ -382,7 +547,10 @@ The suction pumps are not free of the airframe. The four turbines sit in nacelle
 
 **The duct size is a check on the suction coefficient from outside the model.** The mass flow over the guaranteed area is 0.132 slugs per second, the contemporary description reports duct speeds reaching 200 miles per hour, and the duct runs at roughly the recovered density, so
 
-$$A_{\text{duct}} = \frac{\dot{m}}{\rho_{d} V_{d}} = \frac{0.132}{3.51 \times 10^{-4} \times 293} = 1.28\ \text{ft}^{2}$$
+$$
+A_{\text{duct}} = \frac{\dot{m}}{\rho_{d} V_{d}} = \frac{0.132}{3.51 \times 10^{-4} \times 293} = 1.28\ \text{ft}^{2}
+\tag{56}
+$$
 
 which is 185 square inches in total, or about 46 square inches in each of four ducts, near enough seven inches square. **That fits inside a wing of 13.4 foot chord without difficulty**, and the figure comes from a reported duct velocity and a computed mass flow that share no input. The pumping installation and its ducting are treated in [Maddalon and Braslow 1990][research_maddalon_braslow_1990], [High Reynolds Number Hybrid 1999b, High Reynolds Number Hybrid Lamin][research_high_reynolds_1999_2], [Prasannakumar et al. 2024][research_prasannakumar_2024], a small literature for a component that decides whether the scheme is worth installing. Had the assumed suction coefficient been an order of magnitude wrong, the duct would not have fitted in the wing. The turbojets themselves were moved to the rear fuselage to make room under the wing for the suction pumps, in [Butz 1963][ref_butz_1963], and that relocation gives the aeroplane its appearance.
 
@@ -400,7 +568,10 @@ First flight was on 18 April 1963 from Edwards Air Force Base, in the [Northrop 
 
 The chordwise results are better compared as the Reynolds number of the laminar run, the product of the laminar fraction of the chord and the chord Reynolds number,
 
-$$Re_{x} = \frac{x_{\text{lam}}}{c} \, Re_{c}$$
+$$
+Re_{x} = \frac{x_{\text{lam}}}{c} \, Re_{c}
+\tag{57}
+$$
 
 [Joslin 1998b][ref_joslin_1998] gives the progress on the mean aerodynamic chord as follows.
 
@@ -417,7 +588,10 @@ $$Re_{x} = \frac{x_{\text{lam}}}{c} \, Re_{c}$$
 
 The chord Reynolds numbers are consistent with the geometry used in this article. With the assumed taper ratio of 0.30 the root chord is $c_{r} = 2S/[b(1+\lambda)] = 20.57$ feet and the mean aerodynamic chord is
 
-$$\bar{c}_{\text{MAC}} = \tfrac{2}{3} c_{r} \frac{1 + \lambda + \lambda^{2}}{1 + \lambda} = \tfrac{2}{3} \times 20.57 \times \frac{1.39}{1.30} = 14.66\ \text{ft}$$
+$$
+\bar{c}_{\text{MAC}} = \tfrac{2}{3} c_{r} \frac{1 + \lambda + \lambda^{2}}{1 + \lambda} = \tfrac{2}{3} \times 20.57 \times \frac{1.39}{1.30} = 14.66\ \text{ft}
+\tag{58}
+$$
 
 so at Mach 0.70 and 40,000 feet the chord Reynolds number is $1.913 \times 10^{7} \times (0.70/0.75) \times (14.66/13.37) = 1.96 \times 10^{7}$, the $20 \times 10^{6}$ of Joslin's example flight at that condition, on which 74 percent of the upper surface and 61 percent of the lower were laminar.
 
@@ -733,6 +907,525 @@ The X-21A did the hard part. It held laminar flow on a large swept wing in real 
 What the programme was for, in the end, was to find out whether such a wing could be lived with. **It never found out.** The maintenance objective had not been reached when the funding stopped, the recommended wing modification that would have made the evaluation meaningful was never made, and the aeroplane was retired to Edwards to be photographed, in the [Northrop X-21A][ref_x21] reference entry. The verdict that laminar flow control is impractical because of maintenance was reached anyway.
 
 **That makes this aircraft unusual in a series full of failures.** The [X-19][related_post_a316_curtiss_wright_x19] fell out of the sky. The [X-20][related_post_a317_boeing_x20] was cancelled without flying. The X-21 succeeded at what it was asked to do and was then remembered for failing at something it was never allowed to attempt.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 58 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 58, 14 are established and 44 are bespoke.
+The article works in feet, pounds force, slugs and seconds except where a line gives SI units for ice crystals, the nominal cruise is Mach 0.75 at 40,000 feet, and $k$ is the form factor in the drag build-up but the roughness height in the roughness criterion, while $N$ is both a slot count and a particle number density and $\lambda$ is the taper ratio.
+
+**Equation 1, Weight Reduction Claimed for a Laminar B-52.**
+The 1963 example of a B-52 reduced from 400,000 to 225,000 pounds for the same mission is a reduction of 44 percent.
+[Butz 1963][ref_butz_1963]
+
+$$
+1 - \frac{225{,}000}{400{,}000} = 0.44
+\tag{1}
+$$
+
+**Equation 2, Mean Geometric Chord.**
+The mean geometric chord is the published wing area over the published span.
+[Northrop X-21A][ref_x21]
+
+$$
+\bar{c} = \frac{S}{b} = \frac{1{,}250}{93.5} = 13.37\ \text{ft}
+\tag{2}
+$$
+
+**Equation 3, Aspect Ratio From Published Dimensions.**
+The aspect ratio is the square of the published span over the published wing area.
+[Northrop X-21A][ref_x21]
+
+$$
+A\!R = \frac{b^{2}}{S} = \frac{93.5^{2}}{1{,}250} = 6.99
+\tag{3}
+$$
+
+**Equation 4, Open Fraction of the Suction Skin.**
+The open fraction is the documented leading-edge slot width over the slot pitch.
+[Joslin 1998b][ref_joslin_1998]
+
+$$
+\sigma = \frac{w}{p} = \frac{0.0035}{0.75} = 0.00467
+\tag{4}
+$$
+
+*Equation 5, Bespoke Velocity in the Suction Slots.*
+Continuity divides the mean suction velocity, which rests on the design suction coefficient at the nominal cruise, by the open fraction.
+
+$$
+v_{\text{slot}} = \frac{v_{w}}{\sigma} = \frac{0.145}{0.00467} = 31\ \text{ft/s}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Slot Count on One Surface.*
+The article estimates the count by dividing each chordwise region of the mean chord by its typical slot spacing, ignoring the closer spacing at the attachment line.
+[Joslin 1998b][ref_joslin_1998]
+
+$$
+N_{\text{slot}} = \sum_{i} \frac{\Delta (x/c)_{i} \, \bar{c}}{s_{i}} = \frac{0.04 \times 160.4}{1.1} + \frac{0.35 \times 160.4}{2.0} + \frac{0.60 \times 160.4}{1.2} = 5.8 + 28.1 + 80.2 = 114
+\tag{6}
+$$
+
+*Equation 7, Bespoke Flight Speed at the Nominal Cruise.*
+The flight speed is Mach 0.75 times the standard atmosphere speed of sound at 40,000 feet, a cruise condition the article takes as nominal.
+
+$$
+V = M a = 0.75 \times 968.1 = 726.0\ \text{ft/s}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Dynamic Pressure at the Nominal Cruise.*
+The dynamic pressure follows from the standard atmosphere density and the speed of the nominal cruise.
+
+$$
+q = \tfrac{1}{2} \rho V^{2} = 154.2\ \text{lbf/ft}^{2}
+\tag{8}
+$$
+
+*Equation 9, Bespoke Cruise Lift Coefficient.*
+The lift coefficient is the published gross weight over the dynamic pressure of the nominal cruise times the wing area.
+[Northrop X-21A][ref_x21]
+
+$$
+C_{L} = \frac{W}{q S} = \frac{83{,}000}{154.2 \times 1{,}250} = 0.431
+\tag{9}
+$$
+
+*Equation 10, Bespoke Mean-Chord Reynolds Number at the Nominal Cruise.*
+The Reynolds number uses the mean chord, the nominal cruise speed and the kinematic viscosity at 40,000 feet.
+
+$$
+Re_{\bar{c}} = \frac{V \bar{c}}{\nu} = \frac{726.0 \times 13.37}{5.075 \times 10^{-4}} = 1.913 \times 10^{7}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Turbulent Flat-Plate Skin Friction at the Nominal Cruise.*
+The Prandtl and Schlichting mean skin-friction correlation for a smooth turbulent flat plate is evaluated at the nominal cruise Reynolds number.
+
+$$
+C_{f,\text{turb}} = \frac{0.455}{(\log_{10} Re)^{2.58}} = 0.002713
+\tag{11}
+$$
+
+*Equation 12, Bespoke Laminar Flat-Plate Skin Friction at the Nominal Cruise.*
+The Blasius mean skin-friction coefficient for a laminar flat plate is evaluated at the nominal cruise Reynolds number.
+
+$$
+C_{f,\text{lam}} = \frac{1.328}{\sqrt{Re}} = 0.000304
+\tag{12}
+$$
+
+*Equation 13, Bespoke Ratio of Laminar to Turbulent Skin Friction.*
+At the nominal cruise Reynolds number a laminar boundary layer exerts 11.2 percent of the turbulent shear.
+
+$$
+\frac{C_{f,\text{lam}}}{C_{f,\text{turb}}} = \frac{0.000304}{0.002713} = 0.112
+\tag{13}
+$$
+
+*Equation 14, Bespoke Skin-Friction Saving per Unit Area.*
+The available saving is the difference of the turbulent and laminar coefficients at the nominal cruise.
+
+$$
+\Delta C_{f} = 0.002713 - 0.000304 = 0.002409
+\tag{14}
+$$
+
+*Equation 15, Bespoke Drag Saving on the Guaranteed Area.*
+The saving is applied to 70 percent of an exposed wetted area that the article takes as about 2,222 square feet.
+[Butz 1963][ref_butz_1963]
+
+$$
+\Delta D = q \, \Delta C_{f} \, S_{\text{lam}} = 154.2 \times 0.002409 \times 1{,}555 = 578\ \text{lbf}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Suction Velocity Through the Skin.*
+The velocity through the surface is a design suction coefficient of $2 \times 10^{-4}$ times the nominal cruise speed.
+
+$$
+v_{w} = C_{Q} V_{\infty} = 2 \times 10^{-4} \times 726.0 = 0.145\ \text{ft/s}
+\tag{16}
+$$
+
+**Equation 17, Suction Mass Flow.**
+The mass flow is freestream density times speed times the suction coefficient times the wetted area.
+
+$$
+\dot{m} = \rho_{\infty} V_{\infty} C_{Q} S_{\text{wet}}
+\tag{17}
+$$
+
+**Equation 18, Isentropic Pumping Power.**
+The shaft power to restore the sucked air to freestream total pressure is the isentropic compression work divided by the machinery efficiency.
+
+$$
+P = \frac{\dot{m} c_{p} T_{t}}{\eta} \left[ \Pi^{\kappa} - 1 \right]
+\tag{18}
+$$
+
+*Equation 19, Bespoke Equivalent Suction Drag Coefficient.*
+The article charges the pumping power as an equivalent drag, power over flight speed, on the same area basis as the skin friction.
+
+$$
+C_{D,\text{suction}} = \frac{2 C_{Q} c_{p} T_{t} \left[ \Pi^{\kappa} - 1 \right]}{\eta V^{2}}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Suction Drag Coefficient in Terms of Mach Number.*
+Substituting the speed of sound and Mach number for temperature and speed leaves the charged suction drag dependent only on Mach number and the machinery.
+
+$$
+C_{D,\text{suction}} = \frac{2 C_{Q} \left[ \Pi^{\kappa} - 1 \right]}{\eta (\gamma-1) M^{2}} \left( 1 + \frac{\gamma-1}{2} M^{2} \right)
+\tag{20}
+$$
+
+*Equation 21, Bespoke Suction Drag Coefficient at the Design Point.*
+The charge is evaluated with a design suction coefficient of $2 \times 10^{-4}$, a duct total-pressure recovery of 0.60 and a combined machinery efficiency of 0.75 that the article takes.
+
+$$
+C_{D,\text{suction}} = 4.144 \times 10^{-4}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Break-Even Suction Coefficient.*
+Setting the charged suction drag equal to the skin-friction saving gives the suction coefficient at which the system stops paying.
+
+$$
+C_{Q,\text{crit}} = \frac{\Delta C_{f} \, \eta (\gamma-1) M^{2}}{2 \left[ \Pi^{\kappa} - 1 \right] \left( 1 + \tfrac{\gamma-1}{2} M^{2} \right)} = 1.163 \times 10^{-3}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Ratio of Drag Power Removed to Pumping Power.*
+The power value of the drag saving over the pumping power repeats the margin of 5.8 because both are linear in the suction coefficient.
+
+$$
+\frac{\Delta D \, V}{P} = \frac{578 \times 726.0}{131 \times 550} = 5.8
+\tag{23}
+$$
+
+*Equation 24, Bespoke Break-Even Margin at the Documented Suction Levels.*
+The modelled break-even coefficient is divided by the documented suction levels of $5 \times 10^{-4}$ and $10 \times 10^{-4}$.
+[Joslin 1998b][ref_joslin_1998]
+
+$$
+\frac{C_{Q,\text{crit}}}{C_{Q}} = \frac{1.163 \times 10^{-3}}{5 \times 10^{-4}} = 2.3 \qquad \frac{1.163 \times 10^{-3}}{10 \times 10^{-4}} = 1.16
+\tag{24}
+$$
+
+**Equation 25, Density at 43,000 Feet.**
+Three thousand feet into the isothermal layer with a scale height of 20,805 feet the density falls by the factor $e^{-0.1442}$.
+
+$$
+\rho_{43} = \rho_{40} \, e^{-3{,}000/H} = 5.851 \times 10^{-4} \times e^{-0.1442} = 5.065 \times 10^{-4}\ \text{slugs/ft}^{3}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Area-Averaged Suction Coefficient From the Reported Flow.*
+Reading the reported flow of 7.18 pounds per second as a total over the assumed wetted wing area gives an average coefficient of $2.7 \times 10^{-4}$.
+
+$$
+\bar{C}_{Q} = \frac{\dot{m}}{\rho_{43} V_{\infty} S_{\text{wet}}} = \frac{7.18/32.174}{5.065 \times 10^{-4} \times 726.0 \times 2{,}222} = 2.7 \times 10^{-4}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Zero-Lift Drag Build-Up.*
+The zero-lift drag is built from turbulent skin friction with an assumed form factor of 1.20 and wetted-area ratio of 4.0, plus a residual of 0.0050 that the article assigns.
+
+$$
+C_{D_{0}} = k \, C_{f,\text{turb}} \frac{S_{\text{wet}}}{S} + C_{D,\text{other}} = 1.20 \times 0.002713 \times 4.0 + 0.0050 = 0.01802
+\tag{27}
+$$
+
+*Equation 28, Bespoke Induced Drag at the Cruise Lift Coefficient.*
+The induced drag uses an Oswald efficiency of 0.80 that the article assumes.
+[Oswald 1932][research_w_bailey_oswald_1932]
+
+$$
+C_{D_{i}} = \frac{C_{L}^{2}}{\pi A\!R\, e} = \frac{0.431^{2}}{\pi \times 6.99 \times 0.80} = 0.01055
+\tag{28}
+$$
+
+*Equation 29, Bespoke Total Drag and Lift to Drag Ratio of the Turbulent Aircraft.*
+The total drag adds the built-up zero-lift and induced terms and gives a lift to drag ratio of 15.07.
+
+$$
+C_{D} = C_{D_{0}} + C_{D_{i}} = 0.02857 \qquad \frac{L}{D} = \frac{C_{L}}{C_{D}} = 15.07
+\tag{29}
+$$
+
+*Equation 30, Bespoke Friction Share of Total Drag.*
+The friction share of the built-up drag is 45.6 percent.
+
+$$
+\frac{k \, C_{f,\text{turb}} S_{\text{wet}} / S}{C_{D}} = \frac{0.01302}{0.02857} = 0.456
+\tag{30}
+$$
+
+*Equation 31, Bespoke Net Drag Saving With Suction.*
+The article credits the laminarised area with the form-factored friction saving and charges the suction drag without a form factor.
+
+$$
+\Delta D = \left( k \, \Delta C_{f} - C_{D,\text{suction}} \right) q \, S_{\text{lam}}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Fractional Drag Saving and Lift to Drag Ratio as Flown.*
+The net saving over the guaranteed area reduces the built-up drag by 10.8 percent and raises the lift to drag ratio to 16.89.
+
+$$
+\frac{\Delta D}{D} = 0.108 \qquad \frac{L}{D} = 16.89
+\tag{32}
+$$
+
+**Equation 33, Breguet Range Equation.**
+Range is speed over specific fuel consumption times lift to drag ratio times the logarithm of the initial to final weight ratio.
+[Anderson 1999 Aircraft Performance and Design][book_anderson_1999]
+
+$$
+R = \frac{V}{c_{t}} \frac{L}{D} \ln \frac{W_{i}}{W_{f}}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Zero-Lift Drag of a Fully Laminar Aircraft.*
+The bound laminarises the entire wetted area in the build-up while keeping the assumed form factor, area ratio and residual.
+
+$$
+C_{D_{0}}^{\ \text{lam}} = 1.20 \times 0.000304 \times 4.0 + 0.0050 = 0.00646
+\tag{34}
+$$
+
+*Equation 35, Bespoke Best Total Drag and Lift to Drag Ratio.*
+Adding the induced drag and the suction charge over the whole wetted area to the fully laminar zero-lift drag gives a lift to drag ratio of 23.1.
+
+$$
+C_{D}^{\ \text{best}} = 0.00646 + 0.01055 + 4.0 \times 4.144 \times 10^{-4} = 0.01866 \quad \Rightarrow \quad \frac{L}{D} = 23.1
+\tag{35}
+$$
+
+*Equation 36, Bespoke Drag Budget for a Lift to Drag Ratio of Thirty.*
+The claimed ratio of thirty at the nominal cruise lift coefficient allows a total drag coefficient of 0.01435.
+
+$$
+C_{D} = \frac{C_{L}}{30} = \frac{0.431}{30} = 0.01435
+\tag{36}
+$$
+
+*Equation 37, Bespoke Aspect Ratio Needed for a Ratio of Thirty.*
+Inverting the induced drag term for the remaining budget, with the assumed Oswald efficiency, gives an aspect ratio of 11.8.
+
+$$
+A\!R = \frac{C_{L}^{2}}{\pi e \left( C_{D} - C_{D_{0}}^{\ \text{lam}} - C_{D,\text{suction}} S_{\text{wet}}/S \right)} = 11.8
+\tag{37}
+$$
+
+*Equation 38, Bespoke Spanwise Velocity on the Attachment Line.*
+The spanwise component is the nominal cruise speed times the sine of a leading-edge sweep derived from an assumed taper ratio.
+
+$$
+W_{e} = V_{\infty} \sin\Lambda = 726.0 \times \sin 33.2^{\circ} = 397.5\ \text{ft/s}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Chordwise Acceleration at the Attachment Line.*
+The acceleration for a swept leading edge of radius $r$ is evaluated with a radius that the article takes as 0.008 of the local chord.
+
+$$
+\left. \frac{d U_{e}}{ds} \right|_{\text{al}} = \frac{2 V_{\infty} \cos\Lambda}{r} = 7{,}385\ \text{s}^{-1}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Attachment-Line Thickness Scale.*
+The viscous length scale is the square root of kinematic viscosity over the modelled chordwise acceleration.
+
+$$
+\ell = \sqrt{\frac{\nu}{d U_{e}/ds}} = 2.62 \times 10^{-4}\ \text{ft} = 0.0031\ \text{in}
+\tag{40}
+$$
+
+**Equation 41, Attachment-Line Reynolds Number.**
+The attachment-line Reynolds number is formed on the spanwise velocity and the viscous length scale and reduces to a function of sweep, speed, leading-edge radius and viscosity.
+
+$$
+\bar{R} = \frac{W_{e} \ell}{\nu} = \sin\Lambda \sqrt{\frac{V_{\infty} r}{2 \nu \cos\Lambda}}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Leading-Edge Sweep From Quarter-Chord Sweep.*
+The standard planform conversion is applied with a taper ratio of 0.30 that the article assumes, giving 33.2 degrees.
+
+$$
+\tan\Lambda_{LE} = \tan\Lambda_{c/4} + \frac{1-\lambda}{A\!R(1+\lambda)} \quad \Rightarrow \quad \Lambda_{LE} = 33.2^{\circ}
+\tag{42}
+$$
+
+**Equation 43, Spanwise Momentum Thickness of the Swept Hiemenz Flow.**
+The spanwise momentum thickness of the swept Hiemenz profile is 0.404 times the viscous length scale.
+[Joslin 1998b][ref_joslin_1998]
+
+$$
+\frac{\theta}{\ell} = \int_{0}^{\infty} g(\eta) \left[ 1 - g(\eta) \right] d\eta = 0.404 \qquad \Rightarrow \qquad R_{\theta} = 0.404 \, \bar{R}
+\tag{43}
+$$
+
+**Equation 44, Attachment-Line Limit From the Design Rule.**
+The design rule of a momentum-thickness Reynolds number below 100 corresponds to an attachment-line Reynolds number below 247.
+[Joslin 1998b][ref_joslin_1998]
+
+$$
+\bar{R} < \frac{100}{0.404} = 247
+\tag{44}
+$$
+
+**Equation 45, Roughness Reynolds Number Criterion.**
+A three-dimensional roughness element trips the boundary layer when the Reynolds number on its height and the linear Blasius near-wall velocity reaches about 600.
+[Hall 1964][ref_hall_1964]
+
+$$
+Re_{k} = \frac{u_{k} k}{\nu} = \frac{0.332\, k^{2} V_{\infty}^{3/2}}{\nu^{3/2} x^{1/2}} = 600
+\tag{45}
+$$
+
+*Equation 46, Bespoke Critical Roughness Height at the Nominal Cruise.*
+The admissible height is evaluated one foot behind the leading edge at the nominal cruise speed and viscosity.
+
+$$
+k_{\text{crit}} = \left( \frac{600 \, \nu^{3/2} x^{1/2}}{0.332 \, V_{\infty}^{3/2}} \right)^{1/2} = 0.0123\ \text{in}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Critical Roughness Height at 45,000 Feet.*
+The height is rescaled as $\nu^{3/4} V^{-3/4}$ to 45,000 feet and Mach 0.8.
+
+$$
+k_{\text{crit},45} = 0.0123 \left( \frac{6.454}{5.075} \right)^{3/4} \left( \frac{726.0}{774.5} \right)^{3/4} = 0.0140\ \text{in}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Area of One Turbulent Wedge.*
+The article models a wedge from a leading-edge particle as a triangle over one mean chord with the measured spreading half-angle of ten degrees.
+[Schubauer and Klebanoff 1955][research_schubauer_klebanoff_1955]
+
+$$
+A_{w} = \bar{c}^{\,2} \tan\alpha = 13.37^{2} \times \tan 10^{\circ} = 31.5\ \text{ft}^{2}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Number of Wedges to Blanket the Wing.*
+The wing area over the modelled wedge area gives about forty wedges.
+
+$$
+n = \frac{S}{A_{w}} = \frac{1{,}250}{31.5} \approx 40
+\tag{49}
+$$
+
+*Equation 50, Bespoke Laminar Boundary-Layer Thickness.*
+The Blasius thickness is evaluated at the mean chord and the nominal cruise Reynolds number.
+
+$$
+\delta = \frac{5 \bar{c}}{\sqrt{Re}} = 0.0153\ \text{ft} = 0.18\ \text{in}
+\tag{50}
+$$
+
+**Equation 51, Particle Encounter Rate.**
+The rate at which particles enter the boundary layer is their number density times speed times span times boundary-layer thickness.
+
+$$
+\dot{N} = N V_{\infty} b \, \delta
+\tag{51}
+$$
+
+*Equation 52, Bespoke Convection Time of a Wedge.*
+A wedge clears the wing in one mean chord over the nominal cruise speed.
+
+$$
+t = \frac{\bar{c}}{V_{\infty}} = \frac{13.37}{726.0} = 18\ \text{ms}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Number Density of Typical Cirrus Columns.*
+Hall's typical columns are treated as solid ice cylinders, an assumption the article makes, to convert ice water content into a number density.
+[Hall 1964][ref_hall_1964]
+
+$$
+N = \frac{\text{IWC}}{\rho_{\text{ice}} \, \tfrac{\pi}{4} d^{2} L} = \frac{0.01\ \text{g/m}^{3}}{917{,}000\ \text{g/m}^{3} \times \tfrac{\pi}{4} \times (40 \times 10^{-6})^{2} \times 100 \times 10^{-6}\ \text{m}^{3}} = 8.7 \times 10^{4}\ \text{m}^{-3}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Time-Averaged Turbulent Fraction.*
+The article models wedges as random arrivals at a constant rate, each covering its area for the convection time, so the turbulent fraction follows a Poisson coverage law.
+
+$$
+\phi = 1 - \exp \left( - \frac{\dot{N} A_{w} t}{S} \right)
+\tag{54}
+$$
+
+*Equation 55, Bespoke Encounter Rate and Number Density for Erratic Operation.*
+Setting the modelled turbulent fraction to Hall's ten percent threshold gives the encounter rate and number density at which laminar flow becomes erratic.
+
+$$
+\dot{N}_{10} = \frac{-\ln 0.9 \times 1{,}250}{31.5 \times 0.0184} = 227\ \text{s}^{-1} \qquad N_{10} = \frac{\dot{N}_{10}}{V_{\infty} b \, \delta} = \frac{227}{29.4\ \text{m}^{3}/\text{s}} = 7.7\ \text{m}^{-3}
+\tag{55}
+$$
+
+*Equation 56, Bespoke Suction Duct Area.*
+The duct area divides the modelled mass flow over the guaranteed area by a duct density taken as roughly the recovered density and the reported duct speed of 200 miles per hour.
+
+$$
+A_{\text{duct}} = \frac{\dot{m}}{\rho_{d} V_{d}} = \frac{0.132}{3.51 \times 10^{-4} \times 293} = 1.28\ \text{ft}^{2}
+\tag{56}
+$$
+
+**Equation 57, Reynolds Number of the Laminar Run.**
+The Reynolds number of the laminar run is the laminar fraction of the chord times the chord Reynolds number.
+[Joslin 1998b][ref_joslin_1998]
+
+$$
+Re_{x} = \frac{x_{\text{lam}}}{c} \, Re_{c}
+\tag{57}
+$$
+
+*Equation 58, Bespoke Mean Aerodynamic Chord.*
+The standard mean aerodynamic chord of a straight-tapered wing is evaluated with the taper ratio of 0.30 that the article assumes.
+
+$$
+\bar{c}_{\text{MAC}} = \tfrac{2}{3} c_{r} \frac{1 + \lambda + \lambda^{2}}{1 + \lambda} = \tfrac{2}{3} \times 20.57 \times \frac{1.39}{1.30} = 14.66\ \text{ft}
+\tag{58}
+$$
+
+### Notation
+
+- $\bar{c}$, the mean geometric chord, with $\bar{c}_{\text{MAC}}$ the mean aerodynamic chord
+- $A\!R$, the wing aspect ratio
+- $S$, the wing reference area
+- $\sigma$, the open fraction of the suction skin
+- $v_{w}$, the velocity of the air drawn through the skin
+- $C_{Q}$, the suction coefficient, with $C_{Q,\text{crit}}$ its break-even value
+- $C_{f,\text{turb}}$, the mean turbulent skin-friction coefficient, with $C_{f,\text{lam}}$ the laminar value
+- $\Delta C_{f}$, the skin-friction saving per unit area
+- $S_{\text{wet}}$, the wetted area, with $S_{\text{lam}}$ the laminarised part
+- $\Pi$, the ratio of freestream total pressure to duct total pressure
+- $\kappa$, the exponent $(\gamma - 1)/\gamma$
+- $C_{D,\text{suction}}$, the suction drag coefficient, the pumping power charged as drag
+- $C_{D_{0}}$, the zero-lift drag coefficient
+- $C_{D_{i}}$, the induced drag coefficient
+- $W_{e}$, the spanwise velocity at the attachment line
+- $\Lambda$, the sweep angle, with $\Lambda_{LE}$ the leading-edge value
+- $\ell$, the viscous length scale at the attachment line
+- $\bar{R}$, the attachment-line Reynolds number
+- $R_{\theta}$, the momentum-thickness Reynolds number on the attachment line
+- $Re_{k}$, the roughness Reynolds number, with $k_{\text{crit}}$ the admissible roughness height
+- $A_{w}$, the area of one turbulent wedge
+- $\dot{N}$, the rate of particle encounters
+- $\text{IWC}$, the ice water content
+- $\nu$, the kinematic viscosity
+- $c_{t}$, the thrust specific fuel consumption
 
 ## References
 

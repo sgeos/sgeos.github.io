@@ -67,14 +67,20 @@ Of the five requirements, one turns out to have determined the shape of the airc
 
 **The aircraft had to work from [canals as little as twenty-five feet wide][ref_tails_x28]. Its [wingspan is twenty-three feet][ref_x28].**
 
-$$ \text{clearance each side} = \tfrac{1}{2}\left(25 - 23\right) = 1\ \mathrm{ft} = 12\ \mathrm{in} $$
+$$
+ \text{clearance each side} = \tfrac{1}{2}\left(25 - 23\right) = 1\ \mathrm{ft} = 12\ \mathrm{in} 
+\tag{1}
+$$
 
 **Twelve inches on each side.** On this reading the span was not chosen for lift or for induced drag. It
 was chosen so that the aeroplane would fit down a ditch, and everything aerodynamic follows from that.
 
 The [aspect ratio][ref_aspect_ratio] is the span squared over the area.
 
-$$ A = \frac{b^2}{S} = \frac{(23.0\ \mathrm{ft})^2}{97.0\ \mathrm{ft}^2} = 5.454 $$
+$$
+ A = \frac{b^2}{S} = \frac{(23.0\ \mathrm{ft})^2}{97.0\ \mathrm{ft}^2} = 5.454 
+\tag{2}
+$$
 
 The figure is respectable for a light aircraft and poor for a patrol aircraft, because
 **endurance is what a patrol aircraft sells and endurance wants span.** The calculation below prices the
@@ -157,14 +163,23 @@ The two loadings come first, because between them they explain most of what foll
 are the first two numbers any of the sizing texts asks for, in [Raymer][book_raymer],
 [Torenbeek][book_torenbeek] and [Gudmundsson][book_gudmundsson].
 
-$$ \frac{W}{S} = \frac{900\ \mathrm{lb}}{97\ \mathrm{ft}^2} = 9.28\ \mathrm{lb/ft^2} $$
+$$
+ \frac{W}{S} = \frac{900\ \mathrm{lb}}{97\ \mathrm{ft}^2} = 9.28\ \mathrm{lb/ft^2} 
+\tag{3}
+$$
 
-$$ \frac{W}{P} = \frac{900\ \mathrm{lb}}{90\ \mathrm{hp}} = 10.0\ \mathrm{lb/hp} $$
+$$
+ \frac{W}{P} = \frac{900\ \mathrm{lb}}{90\ \mathrm{hp}} = 10.0\ \mathrm{lb/hp} 
+\tag{4}
+$$
 
 The weight breakdown is equally plain, and the fuel fraction is the number every endurance figure below is
 proportional to.
 
-$$ \frac{W_{\mathrm{empty}}}{W_{\mathrm{gross}}} = \frac{600}{900} = 0.667, \qquad \frac{W_{\mathrm{fuel}}}{W_{\mathrm{gross}}} = \frac{90}{900} = 0.10 $$
+$$
+ \frac{W_{\mathrm{empty}}}{W_{\mathrm{gross}}} = \frac{600}{900} = 0.667, \qquad \frac{W_{\mathrm{fuel}}}{W_{\mathrm{gross}}} = \frac{90}{900} = 0.10 
+\tag{5}
+$$
 
 **Two numbers in that table are the whole aeroplane.**
 
@@ -187,11 +202,17 @@ and those are enough to invert.
 
 The lift equation at the stall gives the relation between speed and maximum lift coefficient.
 
-$$ L = \tfrac{1}{2}\rho V^2 S\,C_L, \qquad V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} $$
+$$
+ L = \tfrac{1}{2}\rho V^2 S\,C_L, \qquad V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} 
+\tag{6}
+$$
 
 **The record gives the speed and not the coefficient**, so the relation is inverted.
 
-$$ C_{L_{\max}} = \frac{2W}{\rho\,S\,V_{\mathrm{stall}}^2} = \frac{2 \times 4{,}003}{1.225 \times 9.011 \times (24.69)^2} = 1.189 $$
+$$
+ C_{L_{\max}} = \frac{2W}{\rho\,S\,V_{\mathrm{stall}}^2} = \frac{2 \times 4{,}003}{1.225 \times 9.011 \times (24.69)^2} = 1.189 
+\tag{7}
+$$
 
 **The coefficient is ordinary for a light-aircraft wing**, although
 [Jenkins, Landis and Miller][ref_xvehicles] describe flaps and ailerons along almost the whole trailing
@@ -200,16 +221,25 @@ quoted weight and area are mutually consistent.
 
 ### The Drag Polar, Built Rather Than Inverted
 
-$$ C_D = C_{D_0} + K C_L^2, \qquad K = \frac{1}{\pi A e} $$
+$$
+ C_D = C_{D_0} + K C_L^2, \qquad K = \frac{1}{\pi A e} 
+\tag{8}
+$$
 
 The dynamic pressure and the drag it produces are used from here to the end of the article and are defined
 once, following [Anderson][book_anderson].
 
-$$ q = \tfrac{1}{2}\rho V^2, \qquad D = q\,S\,C_D $$
+$$
+ q = \tfrac{1}{2}\rho V^2, \qquad D = q\,S\,C_D 
+\tag{9}
+$$
 
 At the loiter condition computed below, which is twenty percent above the stall,
 
-$$ q = \tfrac{1}{2} \times 1.225 \times (29.63)^2 = 537.8\ \mathrm{Pa}, \qquad C_L = \frac{W}{qS} = 0.826, \qquad D = 85.0\ \mathrm{lbf} $$
+$$
+ q = \tfrac{1}{2} \times 1.225 \times (29.63)^2 = 537.8\ \mathrm{Pa}, \qquad C_L = \frac{W}{qS} = 0.826, \qquad D = 85.0\ \mathrm{lbf} 
+\tag{10}
+$$
 
 The sizing relations used here follow [Raymer][book_raymer], [Torenbeek][book_torenbeek] and
 [Gudmundsson][book_gudmundsson], with the drag data behind them in [Hoerner][book_hoerner] and the
@@ -219,11 +249,20 @@ A flying boat is not a landplane with floats. The hull is a planing bottom with 
 and it carries a drag penalty a faired fuselage does not, so the estimate is built with that penalty stated
 separately rather than buried.
 
-$$ C_{D_0} = C_{fe}\,\frac{S_{\mathrm{wet}}}{S_{\mathrm{ref}}} + \Delta C_{D,\,\mathrm{hull}} = 0.0055 \times 4.2 + 0.010 = 0.0331 $$
+$$
+ C_{D_0} = C_{fe}\,\frac{S_{\mathrm{wet}}}{S_{\mathrm{ref}}} + \Delta C_{D,\,\mathrm{hull}} = 0.0055 \times 4.2 + 0.010 = 0.0331 
+\tag{11}
+$$
 
-$$ e = 0.886, \qquad K = \frac{1}{\pi \times 5.454 \times 0.886} = 0.0659 $$
+$$
+ e = 0.886, \qquad K = \frac{1}{\pi \times 5.454 \times 0.886} = 0.0659 
+\tag{12}
+$$
 
-$$ \left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi A e}{C_{D_0}}} = \frac{1}{2}\sqrt{\frac{\pi \times 5.454 \times 0.886}{0.0331}} = 10.71 $$
+$$
+ \left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi A e}{C_{D_0}}} = \frac{1}{2}\sqrt{\frac{\pi \times 5.454 \times 0.886}{0.0331}} = 10.71 
+\tag{13}
+$$
 
 **Ten point seven is modest**, and the hull accounts for the shortfall. Without the hull increment the same estimate
 gives twelve point eight.
@@ -234,7 +273,10 @@ The quoted rate of climb is 2,200 feet per minute, which for a nine-hundred-poun
 horsepower deserves checking. **Power available divided by weight is an absolute ceiling on rate of climb**,
 reachable only by an aircraft with no drag whatever.
 
-$$ \frac{dh}{dt} = \frac{\eta_p P - D V}{W} \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\mathrm{ceiling}} = \frac{\eta_p P}{W} $$
+$$
+ \frac{dh}{dt} = \frac{\eta_p P - D V}{W} \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\mathrm{ceiling}} = \frac{\eta_p P}{W} 
+\tag{14}
+$$
 
 | Propeller efficiency | Zero-drag ceiling | Claim as a fraction of it |
 |---|---|---|
@@ -245,7 +287,10 @@ $$ \frac{dh}{dt} = \frac{\eta_p P - D V}{W} \qquad \Longrightarrow \qquad \left.
 **The claim is not impossible and it has almost nothing left over.** Inverting instead, and asking what
 propeller efficiency the claim would require against the drag polar built above,
 
-$$ \eta_p^{\mathrm{req}} = \min_V \frac{W\,\dot h + D(V)\,V}{P} = 0.823 $$
+$$
+ \eta_p^{\mathrm{req}} = \min_V \frac{W\,\dot h + D(V)\,V}{P} = 0.823 
+\tag{15}
+$$
 
 **Eighty-two percent is achievable by a well-matched fixed-pitch propeller at climb speed and is toward the top of the range.**
 On balance the figure is reachable under favourable assumptions. Of the published numbers, it alone has
@@ -254,7 +299,10 @@ no margin in it.
 **Inverting the other way makes the point sharper.** If the propeller is taken at 0.75 and the climb figure
 is believed, the drag it implies is
 
-$$ C_{D_0} = 0.0050 $$
+$$
+ C_{D_0} = 0.0050 
+\tag{16}
+$$
 
 which is impossible for a hull with a step in it.
 **The inversion is not wrong. Its premise is.** One of the three quantities, the climb rate, the weight or
@@ -269,15 +317,27 @@ what that cost in the currency the mission valued.
 A patrol aircraft's endurance is set by the power required at its loiter speed, and the power required is
 minimised at a speed which follows from the polar.
 
-$$ P_{\mathrm{req}} = D V = \tfrac{1}{2}\rho V^3 S\,C_{D_0} + \frac{2 K W^2}{\rho V S} $$
+$$
+ P_{\mathrm{req}} = D V = \tfrac{1}{2}\rho V^3 S\,C_{D_0} + \frac{2 K W^2}{\rho V S} 
+\tag{17}
+$$
 
-$$ V_{\mathrm{mp}} = \left(\frac{4 K W^2}{3\rho^2 S^2 C_{D_0}}\right)^{1/4} $$
+$$
+ V_{\mathrm{mp}} = \left(\frac{4 K W^2}{3\rho^2 S^2 C_{D_0}}\right)^{1/4} 
+\tag{18}
+$$
 
-$$ E = \frac{W_{\mathrm{fuel}}}{c\,P_{\mathrm{shaft}}} $$
+$$
+ E = \frac{W_{\mathrm{fuel}}}{c\,P_{\mathrm{shaft}}} 
+\tag{19}
+$$
 
 **And here the calculation returns something the designer would not have wanted.**
 
-$$ V_{\mathrm{mp}} = 47.2\ \mathrm{kt}, \qquad V_{\mathrm{stall}} = 48.0\ \mathrm{kt}, \qquad \frac{V_{\mathrm{mp}}}{V_{\mathrm{stall}}} = 0.984 $$
+$$
+ V_{\mathrm{mp}} = 47.2\ \mathrm{kt}, \qquad V_{\mathrm{stall}} = 48.0\ \mathrm{kt}, \qquad \frac{V_{\mathrm{mp}}}{V_{\mathrm{stall}}} = 0.984 
+\tag{20}
+$$
 
 **The minimum-power speed lies below the stall speed.** The endurance optimum is not reachable. The aircraft
 cannot fly slowly enough to reach the bottom of its power curve, so its loiter speed is set by a stall
@@ -303,9 +363,15 @@ Range follows from endurance and speed, and the loiter speed follows from a stal
 from the power curve, for the reason just given. The propeller-aircraft endurance relations are as given in
 [Torenbeek][book_torenbeek] and [Gudmundsson][book_gudmundsson].
 
-$$ R = E\,V_{\mathrm{loiter}}, \qquad V_{\mathrm{loiter}} = k\,V_{\mathrm{stall}}, \qquad k \ge 1.2 $$
+$$
+ R = E\,V_{\mathrm{loiter}}, \qquad V_{\mathrm{loiter}} = k\,V_{\mathrm{stall}}, \qquad k \ge 1.2 
+\tag{21}
+$$
 
-$$ R = 8.98\ \mathrm{h} \times 57.6\ \mathrm{kt} = 517\ \mathrm{nmi} $$
+$$
+ R = 8.98\ \mathrm{h} \times 57.6\ \mathrm{kt} = 517\ \mathrm{nmi} 
+\tag{22}
+$$
 
 **Nine hours is a great deal of patrol from ninety pounds of fuel**, a point to make before the
 criticism arrives. The aeroplane needs twenty of its ninety installed horsepower to loiter, the
@@ -344,18 +410,27 @@ Second World War, with the modern treatment in [Stone][book_stone].
 **A patrol aircraft's product is area examined per hour.** [Search theory][ref_search_theory] exists to
 quantify it, and has a well-developed mathematics for the purpose.
 
-$$ \dot{A} = W_{\mathrm{sweep}}\,V $$
+$$
+ \dot{A} = W_{\mathrm{sweep}}\,V 
+\tag{23}
+$$
 
 **The [sweep width][ref_sweep_width] is not the sighting range and the difference matters by a factor of two.**
 Sweep width is the width of a hypothetical perfect sensor that would find as many targets as the real
 imperfect one. It equals the integral of the lateral-range curve.
 
-$$ W_{\mathrm{sweep}} = 2\int_0^{\infty} p(x)\,dx $$
+$$
+ W_{\mathrm{sweep}} = 2\int_0^{\infty} p(x)\,dx 
+\tag{24}
+$$
 
 Under the definite-range law, where everything inside a radius is seen and nothing outside it, the integral
 is exactly twice the radius. **Every real curve lies below that**, so
 
-$$ W_{\mathrm{sweep}} = \varphi \cdot 2R_{\max}, \qquad 0 < \varphi \le 1 $$
+$$
+ W_{\mathrm{sweep}} = \varphi \cdot 2R_{\max}, \qquad 0 < \varphi \le 1 
+\tag{25}
+$$
 
 and the honesty lives in $\varphi$.
 **A sweep width larger than twice the sighting range is therefore impossible**, and any coverage figure
@@ -406,11 +481,17 @@ planned around are period results.
 - [Jewell 1985][research_jewell_1985]
 - [Scheiner 1999][research_scheiner_1999]
 
-$$ C_{\mathrm{cov}} = \frac{W_{\mathrm{sweep}}\,V\,t}{A_{\mathrm{search}}}, \qquad P_{\mathrm{det}} = 1 - e^{-C_{\mathrm{cov}}} $$
+$$
+ C_{\mathrm{cov}} = \frac{W_{\mathrm{sweep}}\,V\,t}{A_{\mathrm{search}}}, \qquad P_{\mathrm{det}} = 1 - e^{-C_{\mathrm{cov}}} 
+\tag{26}
+$$
 
 **Covering an area once finds about sixty-three percent of what is in it.**
 
-$$ P_{\mathrm{det}}(C_{\mathrm{cov}} = 1) = 1 - e^{-1} = 0.632 $$
+$$
+ P_{\mathrm{det}}(C_{\mathrm{cov}} = 1) = 1 - e^{-1} = 0.632 
+\tag{27}
+$$
 
 That exponential explains why patrol aircraft are bought in numbers rather than singly. It is also the
 quantitative form of the argument the next section makes in dollars.
@@ -419,7 +500,10 @@ quantitative form of the argument the next section makes in dollars.
 the aircraft. The geometric horizon there is 20.3 nautical miles, which
 **bounds the sweep width and does not set it**, because a sampan is not visible at the horizon.
 
-$$ d_{\mathrm{horizon}} \approx 1.17\sqrt{h_{\mathrm{ft}}} = 1.17\sqrt{300} = 20.3\ \mathrm{nmi} $$
+$$
+ d_{\mathrm{horizon}} \approx 1.17\sqrt{h_{\mathrm{ft}}} = 1.17\sqrt{300} = 20.3\ \mathrm{nmi} 
+\tag{28}
+$$
 
 Sweep width and the lateral-range curve are products of the search-theory literature, largely
 operations-research work and much of it contemporary with the programme. Its records form the cluster on search theory, visual detection and sweep width under The Contemporary Literature.
@@ -433,7 +517,10 @@ asks for is area examined per hour per dollar spent.
 The quantity being compared is a rate divided by a price, and the requirement
 was asking about its fleet form.
 
-$$ \frac{\dot{A}}{C} = \frac{W_{\mathrm{sweep}}\,V}{C}, \qquad N = \frac{B}{C}, \qquad \dot{A}_{\mathrm{fleet}} = N\,W_{\mathrm{sweep}}\,V = B\,\frac{\dot{A}}{C} $$
+$$
+ \frac{\dot{A}}{C} = \frac{W_{\mathrm{sweep}}\,V}{C}, \qquad N = \frac{B}{C}, \qquad \dot{A}_{\mathrm{fleet}} = N\,W_{\mathrm{sweep}}\,V = B\,\frac{\dot{A}}{C} 
+\tag{29}
+$$
 
 **The fleet coverage is the budget multiplied by the area per dollar**, which is why that ratio is the
 figure of merit and not the coverage rate alone.
@@ -450,11 +537,20 @@ maritime patrol aircraft carries search radar. The X-28A carried a man looking o
 
 Put the same budget through both columns and the comparison becomes concrete.
 
-$$ N = \frac{\$36{,}000{,}000}{\$5{,}000} = 7{,}200 $$
+$$
+ N = \frac{\$36{,}000{,}000}{\$5{,}000} = 7{,}200 
+\tag{30}
+$$
 
-$$ \dot{A}_{\mathrm{fleet}} = 7{,}200 \times 103 = 741{,}600\ \mathrm{nmi^2/h} \quad \text{against} \quad 6{,}560\ \mathrm{nmi^2/h} $$
+$$
+ \dot{A}_{\mathrm{fleet}} = 7{,}200 \times 103 = 741{,}600\ \mathrm{nmi^2/h} \quad \text{against} \quad 6{,}560\ \mathrm{nmi^2/h} 
+\tag{31}
+$$
 
-$$ \frac{741{,}600}{6{,}560} = 113 $$
+$$
+ \frac{741{,}600}{6{,}560} = 113 
+\tag{32}
+$$
 
 **The X-28A is about a hundred and thirteen times better per dollar than the Orion, after giving the Orion a twenty-mile radar sweep against the Osprey's one-mile eyeball.**
 The Orion covers sixty-four times the area per hour and costs seven thousand two hundred times as much.
@@ -481,7 +577,10 @@ A flying boat must exceed its water resistance to take off, and that resistance 
 [planing][ref_planing] transition at what the [Langley tank][ref_naca_tank] literature calls the hump.
 **For most flying boats the hump is the design driver**, the reason they carry so much power.
 
-$$ R_{\mathrm{hump}} = \left(\frac{R}{\Delta}\right)_{\max}\Delta $$
+$$
+ R_{\mathrm{hump}} = \left(\frac{R}{\Delta}\right)_{\max}\Delta 
+\tag{33}
+$$
 
 Static thrust cannot be found from a propulsive efficiency, because that quantity is zero at zero forward
 speed. [Momentum theory][ref_momentum_theory] gives the scaling.
@@ -499,12 +598,18 @@ section uses, and the literature under those names derives and measures it.
 - [Goodman 1979][research_goodman_1979]
 - [Talbot et al 1994][research_talbotpeterd_meyermark_1994]
 
-$$ T_{\mathrm{static}} = \left(2\rho A_{\mathrm{disc}} P^2\right)^{1/3} $$
+$$
+ T_{\mathrm{static}} = \left(2\rho A_{\mathrm{disc}} P^2\right)^{1/3} 
+\tag{34}
+$$
 
 The same momentum balance gives the disc loading and the velocity the propeller must add to the air.
 Without it the static case could not be computed at all.
 
-$$ \frac{T}{A_{\mathrm{disc}}} = 21.9\ \mathrm{lb/ft^2}, \qquad w = \sqrt{\frac{T}{2\rho A_{\mathrm{disc}}}} = 20.7\ \mathrm{m/s} $$
+$$
+ \frac{T}{A_{\mathrm{disc}}} = 21.9\ \mathrm{lb/ft^2}, \qquad w = \sqrt{\frac{T}{2\rho A_{\mathrm{disc}}}} = 20.7\ \mathrm{m/s} 
+\tag{35}
+$$
 
 | Propeller diameter | Static thrust |
 |---|---|
@@ -527,14 +632,20 @@ conclusion survives every value they could take.
 The beam loading coefficient is the parameter every tank test is indexed by, and it is reported
 parametrically for the same reason.
 
-$$ C_{\Delta_0} = \frac{\Delta}{\gamma_w b^3} $$
+$$
+ C_{\Delta_0} = \frac{\Delta}{\gamma_w b^3} 
+\tag{36}
+$$
 
 The displacement and the Froude scaling below are standard naval architecture, as set out in the
 planing-hull literature collected in [Savitsky][book_savitsky].
 
 The displacement follows from Archimedes, and comes to a small volume of water.
 
-$$ \nabla = \frac{\Delta}{\rho_w g} = \frac{4{,}003}{1025 \times 9.807} = 0.398\ \mathrm{m^3} = 14.1\ \mathrm{ft^3} $$
+$$
+ \nabla = \frac{\Delta}{\rho_w g} = \frac{4{,}003}{1025 \times 9.807} = 0.398\ \mathrm{m^3} = 14.1\ \mathrm{ft^3} 
+\tag{37}
+$$
 
 The speed at which a hull transitions from displacing to planing is set by the beam Froude number, and the
 hump occurs at a fixed value of that parameter.
@@ -551,7 +662,10 @@ work.
 - [Smith and Shaw 1976][research_smith_shaw_1976]
 - [Casling 1978][research_casling_1978]
 
-$$ \mathrm{Fr}_b = \frac{V}{\sqrt{g\,b}} $$
+$$
+ \mathrm{Fr}_b = \frac{V}{\sqrt{g\,b}} 
+\tag{38}
+$$
 
 | Speed | Beam Froude number at a 2.5 ft beam |
 |---|---|
@@ -577,7 +691,10 @@ in aeronautics, and almost all of it is period work. The records are collected u
 **What limits a small flying boat is not resistance but waves.** A hull is safe while it is long compared
 with the waves it meets and dangerous when it begins to span them.
 
-$$ \lambda = \frac{g T^2}{2\pi} $$
+$$
+ \lambda = \frac{g T^2}{2\pi} 
+\tag{39}
+$$
 
 | Wave period | Wavelength | Hull length over wavelength |
 |---|---|---|
@@ -636,16 +753,25 @@ the field, and almost all of the work behind the relations below is period work.
 - [Hanson 1986][research_hansondb_1986]
 - [Block 1986][research_blockpjw_1986]
 
-$$ J = \frac{V}{n D}, \qquad V_{\mathrm{tip}} = \sqrt{(\pi n D)^2 + V^2}, \qquad M_{\mathrm{tip}} = \frac{V_{\mathrm{tip}}}{a} $$
+$$
+ J = \frac{V}{n D}, \qquad V_{\mathrm{tip}} = \sqrt{(\pi n D)^2 + V^2}, \qquad M_{\mathrm{tip}} = \frac{V_{\mathrm{tip}}}{a} 
+\tag{40}
+$$
 
 At cruise, with an assumed six-foot propeller at 2,700 revolutions per minute,
 
-$$ J = \frac{53.0}{45.0 \times 1.829} = 0.644, \qquad V_{\mathrm{tip}} = 263.9\ \mathrm{m/s}, \qquad M_{\mathrm{tip}} = 0.776 $$
+$$
+ J = \frac{53.0}{45.0 \times 1.829} = 0.644, \qquad V_{\mathrm{tip}} = 263.9\ \mathrm{m/s}, \qquad M_{\mathrm{tip}} = 0.776 
+\tag{41}
+$$
 
 **A fixed-pitch propeller wants a tip Mach number under 0.8**, and that limit fixes the
 diameter and the engine speed.
 
-$$ \eta_p = \frac{T V}{P_{\mathrm{shaft}}} $$
+$$
+ \eta_p = \frac{T V}{P_{\mathrm{shaft}}} 
+\tag{42}
+$$
 
 **The engine is the most conventional thing about the aeroplane, by design rather than by omission.**
 An aircraft required to be manufacturable in Southeast Asia and maintainable by whoever is there cannot
@@ -1158,6 +1284,411 @@ The Navy did not commission an X-28. It bought one, from a boat designer, off th
 
 The next article treats the [X-29][ref_x29], the Grumman forward-swept-wing demonstrator, which returns the
 series to an aircraft built from a clean sheet to answer a question that could not be answered any other way.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 42 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 42, 26 are established and 16 are bespoke.
+The article mixes customary and International System units, quoting weights in pounds, speeds in knots and areas in square feet while evaluating aerodynamic relations in newtons, metres per second and pascals, and the letter $b$ is the wing span in the aerodynamic relations but the hull beam in the planing relations.
+
+**Equation 1, Wingtip Clearance in a Twenty-Five-Foot Canal.**
+Half the difference between the quoted minimum canal width and the quoted span leaves twelve inches of clearance at each wingtip.
+[Tails Through Time][ref_tails_x28]
+[Osprey X-28A][ref_x28]
+
+$$
+ \text{clearance each side} = \tfrac{1}{2}\left(25 - 23\right) = 1\ \mathrm{ft} = 12\ \mathrm{in} 
+\tag{1}
+$$
+
+**Equation 2, Aspect Ratio of the Wing.**
+The aspect ratio is the span squared divided by the wing area, here evaluated from the published span and area.
+[aspect ratio][ref_aspect_ratio]
+
+$$
+ A = \frac{b^2}{S} = \frac{(23.0\ \mathrm{ft})^2}{97.0\ \mathrm{ft}^2} = 5.454 
+\tag{2}
+$$
+
+**Equation 3, Wing Loading.**
+The wing loading is the gross weight divided by the wing area, evaluated from the published figures.
+[Raymer][book_raymer]
+[Torenbeek][book_torenbeek]
+[Gudmundsson][book_gudmundsson]
+
+$$
+ \frac{W}{S} = \frac{900\ \mathrm{lb}}{97\ \mathrm{ft}^2} = 9.28\ \mathrm{lb/ft^2} 
+\tag{3}
+$$
+
+**Equation 4, Power Loading.**
+The power loading is the gross weight divided by the installed engine power, evaluated from the published figures.
+[Raymer][book_raymer]
+[Torenbeek][book_torenbeek]
+[Gudmundsson][book_gudmundsson]
+
+$$
+ \frac{W}{P} = \frac{900\ \mathrm{lb}}{90\ \mathrm{hp}} = 10.0\ \mathrm{lb/hp} 
+\tag{4}
+$$
+
+*Equation 5, Bespoke Empty and Fuel Weight Fractions.*
+The empty fraction uses the published empty and gross weights, while the fuel fraction rests on ninety pounds of fuel, an unpublished figure the article assumes.
+
+$$
+ \frac{W_{\mathrm{empty}}}{W_{\mathrm{gross}}} = \frac{600}{900} = 0.667, \qquad \frac{W_{\mathrm{fuel}}}{W_{\mathrm{gross}}} = \frac{90}{900} = 0.10 
+\tag{5}
+$$
+
+**Equation 6, Lift Equation and Stall Speed.**
+Lift is the dynamic pressure times the wing area times the lift coefficient, and setting lift equal to weight at the maximum lift coefficient gives the stall speed.
+
+$$
+ L = \tfrac{1}{2}\rho V^2 S\,C_L, \qquad V_{\mathrm{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L_{\max}}}} 
+\tag{6}
+$$
+
+**Equation 7, Maximum Lift Coefficient Inverted From the Quoted Stall.**
+Solving the stall relation for the coefficient with the published weight, wing area and minimum speed at sea level density gives a maximum lift coefficient near 1.19.
+[Jenkins, Landis and Miller][ref_xvehicles]
+
+$$
+ C_{L_{\max}} = \frac{2W}{\rho\,S\,V_{\mathrm{stall}}^2} = \frac{2 \times 4{,}003}{1.225 \times 9.011 \times (24.69)^2} = 1.189 
+\tag{7}
+$$
+
+**Equation 8, Parabolic Drag Polar.**
+The drag coefficient is a zero-lift term plus an induced term proportional to the square of the lift coefficient, with the induced factor set by aspect ratio and Oswald efficiency.
+[Anderson][book_anderson]
+
+$$
+ C_D = C_{D_0} + K C_L^2, \qquad K = \frac{1}{\pi A e} 
+\tag{8}
+$$
+
+**Equation 9, Dynamic Pressure and Drag.**
+The dynamic pressure is half the density times the speed squared, and the drag is the dynamic pressure times the wing area times the drag coefficient.
+[Anderson][book_anderson]
+
+$$
+ q = \tfrac{1}{2}\rho V^2, \qquad D = q\,S\,C_D 
+\tag{9}
+$$
+
+*Equation 10, Bespoke Loiter Condition at Twenty Percent Above the Stall.*
+The dynamic pressure, lift coefficient and drag are evaluated at a loiter speed the article sets at 1.2 times the stall speed, using the drag polar it builds.
+
+$$
+ q = \tfrac{1}{2} \times 1.225 \times (29.63)^2 = 537.8\ \mathrm{Pa}, \qquad C_L = \frac{W}{qS} = 0.826, \qquad D = 85.0\ \mathrm{lbf} 
+\tag{10}
+$$
+
+*Equation 11, Bespoke Zero-Lift Drag Build-Up With a Hull Increment.*
+The zero-lift drag coefficient is assembled from an assumed equivalent skin friction coefficient of 0.0055, an assumed wetted area ratio of 4.2 and an assumed hull step increment of 0.010.
+[Hoerner][book_hoerner]
+[Raymer][book_raymer]
+
+$$
+ C_{D_0} = C_{fe}\,\frac{S_{\mathrm{wet}}}{S_{\mathrm{ref}}} + \Delta C_{D,\,\mathrm{hull}} = 0.0055 \times 4.2 + 0.010 = 0.0331 
+\tag{11}
+$$
+
+*Equation 12, Bespoke Oswald Efficiency and Induced Drag Factor.*
+The induced drag factor is evaluated with an Oswald efficiency of 0.886 that the article estimates rather than takes from any measurement.
+
+$$
+ e = 0.886, \qquad K = \frac{1}{\pi \times 5.454 \times 0.886} = 0.0659 
+\tag{12}
+$$
+
+*Equation 13, Bespoke Maximum Lift-to-Drag Ratio.*
+The standard maximum of the lift-to-drag ratio for a parabolic polar is evaluated with the assumed Oswald efficiency and the built-up zero-lift drag, giving about 10.7.
+
+$$
+ \left(\frac{L}{D}\right)_{\max} = \frac{1}{2}\sqrt{\frac{\pi A e}{C_{D_0}}} = \frac{1}{2}\sqrt{\frac{\pi \times 5.454 \times 0.886}{0.0331}} = 10.71 
+\tag{13}
+$$
+
+**Equation 14, Rate of Climb From Excess Power and Its Zero-Drag Ceiling.**
+The rate of climb is the excess of propulsive power over drag power divided by weight, and setting the drag to zero gives an absolute upper bound.
+
+$$
+ \frac{dh}{dt} = \frac{\eta_p P - D V}{W} \qquad \Longrightarrow \qquad \left.\frac{dh}{dt}\right|_{\mathrm{ceiling}} = \frac{\eta_p P}{W} 
+\tag{14}
+$$
+
+*Equation 15, Bespoke Propeller Efficiency Required by the Climb Claim.*
+The propeller efficiency needed to meet the quoted climb rate is found by minimising the required power over speed against the drag polar the article builds.
+
+$$
+ \eta_p^{\mathrm{req}} = \min_V \frac{W\,\dot h + D(V)\,V}{P} = 0.823 
+\tag{15}
+$$
+
+*Equation 16, Bespoke Zero-Lift Drag Implied by the Climb Claim.*
+Taking the propeller efficiency as an assumed 0.75 and believing the quoted climb rate implies a zero-lift drag coefficient of 0.0050, which the article judges impossible for a stepped hull.
+
+$$
+ C_{D_0} = 0.0050 
+\tag{16}
+$$
+
+**Equation 17, Power Required for a Parabolic Polar.**
+The power required is drag times speed, which splits into a parasite term growing with the cube of speed and an induced term falling inversely with speed.
+
+$$
+ P_{\mathrm{req}} = D V = \tfrac{1}{2}\rho V^3 S\,C_{D_0} + \frac{2 K W^2}{\rho V S} 
+\tag{17}
+$$
+
+**Equation 18, Speed for Minimum Power Required.**
+Setting the derivative of the power required with respect to speed to zero gives the minimum-power speed, at which the induced power is three times the parasite power.
+
+$$
+ V_{\mathrm{mp}} = \left(\frac{4 K W^2}{3\rho^2 S^2 C_{D_0}}\right)^{1/4} 
+\tag{18}
+$$
+
+**Equation 19, Endurance at Constant Shaft Power.**
+Endurance is the fuel weight divided by the product of specific fuel consumption and shaft power, a form that holds the power constant as fuel burns.
+
+$$
+ E = \frac{W_{\mathrm{fuel}}}{c\,P_{\mathrm{shaft}}} 
+\tag{19}
+$$
+
+*Equation 20, Bespoke Minimum-Power Speed Against the Stall Speed.*
+Evaluating the minimum-power speed with the built-up polar places it at 0.984 of the stall speed, so the endurance optimum lies below the speed at which the aircraft can fly.
+
+$$
+ V_{\mathrm{mp}} = 47.2\ \mathrm{kt}, \qquad V_{\mathrm{stall}} = 48.0\ \mathrm{kt}, \qquad \frac{V_{\mathrm{mp}}}{V_{\mathrm{stall}}} = 0.984 
+\tag{20}
+$$
+
+*Equation 21, Bespoke Range at a Stall-Margin Loiter Speed.*
+Range is endurance times loiter speed, with the loiter speed set by a stall margin of at least 1.2 that the article chooses rather than by the power curve.
+[Torenbeek][book_torenbeek]
+[Gudmundsson][book_gudmundsson]
+
+$$
+ R = E\,V_{\mathrm{loiter}}, \qquad V_{\mathrm{loiter}} = k\,V_{\mathrm{stall}}, \qquad k \ge 1.2 
+\tag{21}
+$$
+
+*Equation 22, Bespoke Range at the Chosen Loiter Speed.*
+The range of 517 nautical miles follows from an endurance computed with ninety pounds of assumed fuel and a loiter speed at the chosen twenty percent stall margin.
+
+$$
+ R = 8.98\ \mathrm{h} \times 57.6\ \mathrm{kt} = 517\ \mathrm{nmi} 
+\tag{22}
+$$
+
+**Equation 23, Search Rate of a Single Aircraft.**
+The area swept per unit time is the sweep width multiplied by the search speed.
+[Koopman's][book_koopman]
+[Stone][book_stone]
+[Search theory][ref_search_theory]
+
+$$
+ \dot{A} = W_{\mathrm{sweep}}\,V 
+\tag{23}
+$$
+
+**Equation 24, Sweep Width as an Integral of the Lateral-Range Curve.**
+The sweep width is twice the integral of the detection probability over lateral range, the width of a perfect sensor that would find as many targets.
+[sweep width][ref_sweep_width]
+
+$$
+ W_{\mathrm{sweep}} = 2\int_0^{\infty} p(x)\,dx 
+\tag{24}
+$$
+
+**Equation 25, Sweep Width as a Coverage Factor Times Twice the Sighting Range.**
+The sweep width is written as a coverage factor between zero and one times twice the maximum sighting range, which bounds it by the definite-range law.
+[Koopman's][book_koopman]
+[Stone][book_stone]
+
+$$
+ W_{\mathrm{sweep}} = \varphi \cdot 2R_{\max}, \qquad 0 < \varphi \le 1 
+\tag{25}
+$$
+
+**Equation 26, Coverage and the Random-Search Detection Law.**
+The coverage is the area swept divided by the area searched, and under the random-search law the probability of detection is one minus the exponential of minus the coverage.
+[Koopman's][book_koopman]
+[Stone][book_stone]
+
+$$
+ C_{\mathrm{cov}} = \frac{W_{\mathrm{sweep}}\,V\,t}{A_{\mathrm{search}}}, \qquad P_{\mathrm{det}} = 1 - e^{-C_{\mathrm{cov}}} 
+\tag{26}
+$$
+
+**Equation 27, Detection Probability at Unit Coverage.**
+At a coverage of one the random-search law gives a detection probability of one minus the reciprocal of $e$, about 0.632.
+
+$$
+ P_{\mathrm{det}}(C_{\mathrm{cov}} = 1) = 1 - e^{-1} = 0.632 
+\tag{27}
+$$
+
+**Equation 28, Geometric Horizon Distance.**
+The distance to the geometric horizon in nautical miles is approximately 1.17 times the square root of the height in feet, here twenty nautical miles at the tested three hundred feet.
+[Tails Through Time][ref_tails_x28]
+
+$$
+ d_{\mathrm{horizon}} \approx 1.17\sqrt{h_{\mathrm{ft}}} = 1.17\sqrt{300} = 20.3\ \mathrm{nmi} 
+\tag{28}
+$$
+
+*Equation 29, Bespoke Fleet Coverage per Dollar.*
+The article takes area examined per hour per dollar as its figure of merit and shows that a fixed budget buys a fleet whose coverage is the budget times that ratio.
+
+$$
+ \frac{\dot{A}}{C} = \frac{W_{\mathrm{sweep}}\,V}{C}, \qquad N = \frac{B}{C}, \qquad \dot{A}_{\mathrm{fleet}} = N\,W_{\mathrm{sweep}}\,V = B\,\frac{\dot{A}}{C} 
+\tag{29}
+$$
+
+*Equation 30, Bespoke Fleet Size Bought for the Cost of One Orion.*
+The budget is set equal to the unit cost of one P-3C Orion, a comparison the article chooses, and dividing it by the unit cost of the X-28A gives 7,200 aircraft.
+[P-3C Orion][ref_p3]
+
+$$
+ N = \frac{\$36{,}000{,}000}{\$5{,}000} = 7{,}200 
+\tag{30}
+$$
+
+*Equation 31, Bespoke Fleet Coverage Against One Orion.*
+The fleet coverage multiplies the fleet size by a single-aircraft coverage resting on an assumed visual sweep width of one nautical mile, and is set against an Orion credited with an assumed twenty-mile radar sweep.
+
+$$
+ \dot{A}_{\mathrm{fleet}} = 7{,}200 \times 103 = 741{,}600\ \mathrm{nmi^2/h} \quad \text{against} \quad 6{,}560\ \mathrm{nmi^2/h} 
+\tag{31}
+$$
+
+*Equation 32, Bespoke Coverage-per-Dollar Advantage.*
+The ratio of fleet coverage to Orion coverage for the same budget is about 113, a figure that inherits the assumed sweep widths of both aircraft.
+
+$$
+ \frac{741{,}600}{6{,}560} = 113 
+\tag{32}
+$$
+
+**Equation 33, Hump Resistance From the Resistance Ratio.**
+The hump resistance is the peak ratio of water resistance to displacement multiplied by the displacement.
+[Savitsky and the planing-hull literature][book_savitsky]
+
+$$
+ R_{\mathrm{hump}} = \left(\frac{R}{\Delta}\right)_{\max}\Delta 
+\tag{33}
+$$
+
+**Equation 34, Static Thrust From Momentum Theory.**
+Actuator-disc momentum theory gives the ideal static thrust as the cube root of twice the density times the disc area times the power squared.
+[Momentum theory][ref_momentum_theory]
+
+$$
+ T_{\mathrm{static}} = \left(2\rho A_{\mathrm{disc}} P^2\right)^{1/3} 
+\tag{34}
+$$
+
+*Equation 35, Bespoke Disc Loading and Induced Velocity.*
+The disc loading and the velocity the propeller adds to the air are evaluated for a propeller diameter the article assumes, since none was published.
+
+$$
+ \frac{T}{A_{\mathrm{disc}}} = 21.9\ \mathrm{lb/ft^2}, \qquad w = \sqrt{\frac{T}{2\rho A_{\mathrm{disc}}}} = 20.7\ \mathrm{m/s} 
+\tag{35}
+$$
+
+**Equation 36, Beam Loading Coefficient.**
+The beam loading coefficient is the displacement divided by the specific weight of water times the cube of the hull beam.
+[Savitsky and the planing-hull literature][book_savitsky]
+
+$$
+ C_{\Delta_0} = \frac{\Delta}{\gamma_w b^3} 
+\tag{36}
+$$
+
+**Equation 37, Displaced Volume of Water.**
+By Archimedes the displaced volume is the gross weight divided by the density of sea water and gravity, about fourteen cubic feet.
+[Savitsky and the planing-hull literature][book_savitsky]
+
+$$
+ \nabla = \frac{\Delta}{\rho_w g} = \frac{4{,}003}{1025 \times 9.807} = 0.398\ \mathrm{m^3} = 14.1\ \mathrm{ft^3} 
+\tag{37}
+$$
+
+**Equation 38, Beam Froude Number.**
+The beam Froude number is the speed divided by the square root of gravity times the hull beam, the parameter at a fixed value of which the hump occurs.
+
+$$
+ \mathrm{Fr}_b = \frac{V}{\sqrt{g\,b}} 
+\tag{38}
+$$
+
+**Equation 39, Deep-Water Wavelength From Period.**
+Linear wave theory gives the wavelength of a deep-water wave as gravity times the period squared divided by two pi.
+
+$$
+ \lambda = \frac{g T^2}{2\pi} 
+\tag{39}
+$$
+
+**Equation 40, Advance Ratio, Helical Tip Speed and Tip Mach Number.**
+The advance ratio is the flight speed over the product of rotational speed and diameter, the helical tip speed combines rotation and flight speed, and the tip Mach number divides it by the speed of sound.
+
+$$
+ J = \frac{V}{n D}, \qquad V_{\mathrm{tip}} = \sqrt{(\pi n D)^2 + V^2}, \qquad M_{\mathrm{tip}} = \frac{V_{\mathrm{tip}}}{a} 
+\tag{40}
+$$
+
+*Equation 41, Bespoke Cruise Propeller Tip Conditions.*
+The advance ratio and tip Mach number at cruise are evaluated for an assumed six-foot propeller turning at 2,700 revolutions per minute.
+
+$$
+ J = \frac{53.0}{45.0 \times 1.829} = 0.644, \qquad V_{\mathrm{tip}} = 263.9\ \mathrm{m/s}, \qquad M_{\mathrm{tip}} = 0.776 
+\tag{41}
+$$
+
+**Equation 42, Propeller Efficiency.**
+The propeller efficiency is the thrust power divided by the shaft power.
+
+$$
+ \eta_p = \frac{T V}{P_{\mathrm{shaft}}} 
+\tag{42}
+$$
+
+### Notation
+
+- $A$, the wing aspect ratio
+- $S$, the wing reference area
+- $W$, the weight, with $W_{\mathrm{fuel}}$ the fuel weight
+- $C_{L_{\max}}$, the maximum lift coefficient
+- $C_{D_0}$, the zero-lift drag coefficient
+- $K$, the induced drag factor
+- $e$, the Oswald efficiency number, except in the detection law, where it is the base of natural logarithms
+- $q$, the dynamic pressure in pascals
+- $\rho$, the air density, with $\rho_w$ the density of sea water
+- $V_{\mathrm{stall}}$, the stall speed, with $V_{\mathrm{mp}}$ the minimum-power speed and $V_{\mathrm{loiter}}$ the loiter speed
+- $\eta_p$, the propeller efficiency
+- $P_{\mathrm{shaft}}$, the engine shaft power
+- $c$, the specific fuel consumption
+- $E$, the endurance
+- $W_{\mathrm{sweep}}$, the sweep width
+- $\varphi$, the coverage factor relating sweep width to twice the maximum sighting range
+- $C_{\mathrm{cov}}$, the coverage
+- $P_{\mathrm{det}}$, the probability of detection
+- $\Delta$, the displacement, equal to the gross weight
+- $\gamma_w$, the specific weight of water
+- $\mathrm{Fr}_b$, the beam Froude number
+- $A_{\mathrm{disc}}$, the propeller disc area
+- $J$, the propeller advance ratio
+- $M_{\mathrm{tip}}$, the propeller tip Mach number
+- $\lambda$, the wavelength of a deep-water wave
 
 ## References
 

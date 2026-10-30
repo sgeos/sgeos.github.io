@@ -59,7 +59,10 @@ The X-18 is the most conspicuously improvised aircraft in this series. Hiller bu
 
 The compiled specification in the [encyclopaedia entry][ref_x18], which cites Jane's All the World's Aircraft and Miller, gives a span of 48 feet, a wing area of 528 square feet, a length of 63 feet, an empty weight of 27,052 pounds, a maximum take-off weight of 33,000 pounds, and two Allison T40-A-14 turboprops of 5,850 equivalent horsepower each. The two contra-rotating propellers are 16 feet in diameter in its text and 16 feet 1 inch in its table, and this article uses 16 feet. The [Air Force history][ref_af_tilt_wing_history] calls the aircraft sixteen and a half tons, which in short tons of 2,000 pounds is
 
-$$W = 16.5 \times 2{,}000 = 33{,}000\ \text{lb}$$
+$$
+W = 16.5 \times 2{,}000 = 33{,}000\ \text{lb}
+\tag{1}
+$$
 
 the same maximum weight from an independent official source.
 
@@ -67,11 +70,17 @@ the same maximum weight from an independent official source.
 
 Before relying on the published figures, it is prudent to confirm that they are internally consistent, and they are. Aspect ratio from span and area is
 
-$$A = \frac{b^{2}}{S} = \frac{48^{2}}{528} = 4.364$$
+$$
+A = \frac{b^{2}}{S} = \frac{48^{2}}{528} = 4.364
+\tag{2}
+$$
 
 against a quoted 4.36, and the wing loading at maximum weight is
 
-$$\frac{W}{S} = \frac{33{,}000}{528} = 62.50\ \text{lb/ft}^{2}$$
+$$
+\frac{W}{S} = \frac{33{,}000}{528} = 62.50\ \text{lb/ft}^{2}
+\tag{3}
+$$
 
 ## Sizing From First Principles
 
@@ -79,11 +88,17 @@ $$\frac{W}{S} = \frac{33{,}000}{528} = 62.50\ \text{lb/ft}^{2}$$
 
 The raw geometric ratio is two propeller diameters against the span,
 
-$$f_{\text{raw}} = \frac{n D_p}{b} = \frac{2 \times 16}{48} = 0.667$$
+$$
+f_{\text{raw}} = \frac{n D_p}{b} = \frac{2 \times 16}{48} = 0.667
+\tag{4}
+$$
 
 so two thirds of the span sits behind a propeller. **That figure is optimistic, because a slipstream contracts.** Momentum theory gives the fully developed slipstream area as half the disc area, so the diameter contracts by the square root of two,
 
-$$D_{\text{slip}} = \frac{D_p}{\sqrt{2}} = \frac{4.877}{1.414} = 3.448\ \text{m} = 11.31\ \text{ft}$$
+$$
+D_{\text{slip}} = \frac{D_p}{\sqrt{2}} = \frac{4.877}{1.414} = 3.448\ \text{m} = 11.31\ \text{ft}
+\tag{5}
+$$
 
 which would immerse only 47.1 percent of the span. The wing sits close behind the disc, where contraction is partial, so the true figure lies between.
 
@@ -99,11 +114,17 @@ which would immerse only 47.1 percent of the span. The wing sits close behind th
 
 The outer wing meets the freestream at an angle of attack equal to the wing tilt plus the fuselage attitude. With the fuselage level,
 
-$$\alpha_{\text{free}} = i_w$$
+$$
+\alpha_{\text{free}} = i_w
+\tag{6}
+$$
 
 and taking a stall angle of 15 degrees, which is an assumption and a generous one for a thick unswept wing, the outer panel is stalled for any tilt above 15 degrees. A conversion runs from zero tilt to about ninety, so the stalled fraction of the conversion is
 
-$$\frac{90 - 15}{90} = 0.833$$
+$$
+\frac{90 - 15}{90} = 0.833
+\tag{7}
+$$
 
 Maximum lift and stalling behaviour of full-scale wings had been catalogued since [Sweberg and Dingeldein 1945][research_sweberg_dingeldein_1945], and the leading-edge stall mechanism at high incidence in [Black 1956][research_black_1956], so the designers were not working blind about the stall itself. They were working blind about what a propeller does to it.
 
@@ -115,31 +136,52 @@ Stall, maximum lift and the installation of propellers on wings were studied ext
 
 Momentum theory for an actuator disc at static thrust gives the induced velocity at the disc and the fully developed slipstream behind it,
 
-$$v_i = \sqrt{\frac{T}{2 \rho A}}, \qquad v_s = 2 v_i$$
+$$
+v_i = \sqrt{\frac{T}{2 \rho A}}, \qquad v_s = 2 v_i
+\tag{8}
+$$
 
 At maximum weight each propeller carries half of it,
 
-$$T = \frac{33{,}000}{2} = 16{,}500\ \text{lbf} = 73.4\ \text{kN}$$
+$$
+T = \frac{33{,}000}{2} = 16{,}500\ \text{lbf} = 73.4\ \text{kN}
+\tag{9}
+$$
 
 over a disc area of 18.68 square metres, for a disc loading of
 
-$$\frac{T}{A} = \frac{73{,}400}{18.68} = 3{,}929\ \text{N/m}^{2} = 82.1\ \text{lb/ft}^{2}$$
+$$
+\frac{T}{A} = \frac{73{,}400}{18.68} = 3{,}929\ \text{N/m}^{2} = 82.1\ \text{lb/ft}^{2}
+\tag{10}
+$$
 
 and gives
 
-$$v_i = \sqrt{\frac{73{,}400}{2 \times 1.225 \times 18.68}} = 40.05\ \text{m/s}$$
+$$
+v_i = \sqrt{\frac{73{,}400}{2 \times 1.225 \times 18.68}} = 40.05\ \text{m/s}
+\tag{11}
+$$
 
 with a fully developed slipstream at 80.09 metres per second. Taking an assumed part-developed value of $1.5 v_i$ at the wing, the dynamic pressure over the immersed panel at **zero forward speed** is
 
-$$q_{\text{slip}} = \tfrac{1}{2} \rho (1.5 v_i)^{2} = \tfrac{1}{2} \times 1.225 \times 60.07^{2} = 2{,}210\ \text{Pa}$$
+$$
+q_{\text{slip}} = \tfrac{1}{2} \rho (1.5 v_i)^{2} = \tfrac{1}{2} \times 1.225 \times 60.07^{2} = 2{,}210\ \text{Pa}
+\tag{12}
+$$
 
 which corresponds to an equivalent airspeed of
 
-$$V_{\text{eq}} = \sqrt{\frac{2 q_{\text{slip}}}{\rho}} = 60.1\ \text{m/s} = 117\ \text{kt}$$
+$$
+V_{\text{eq}} = \sqrt{\frac{2 q_{\text{slip}}}{\rho}} = 60.1\ \text{m/s} = 117\ \text{kt}
+\tag{13}
+$$
 
 That is the static case. With forward speed the induced velocity solves
 
-$$v_i = \frac{T}{2 \rho A \sqrt{V^{2} + v_i^{2}}}$$
+$$
+v_i = \frac{T}{2 \rho A \sqrt{V^{2} + v_i^{2}}}
+\tag{14}
+$$
 
 which reduces to the expression above at zero speed. The induced velocity **falls** as the aircraft accelerates, from 40.05 metres per second at rest to 24.71 at sixty, while the freestream rises faster, so the total dynamic pressure over the immersed panel climbs from 2,210 to 5,772 pascals through the conversion.
 
@@ -153,7 +195,10 @@ The article has so far asserted that the slipstream keeps the immersed panel fly
 
 The propeller axis lies along the wing chord, so the slipstream adds velocity **along the chord** while the freestream arrives at the wing tilt angle. Resolving the two,
 
-$$\alpha_{\text{local}} = \arctan\left(\frac{V \sin i_w}{V \cos i_w + v_s}\right)$$
+$$
+\alpha_{\text{local}} = \arctan\left(\frac{V \sin i_w}{V \cos i_w + v_s}\right)
+\tag{15}
+$$
 
 For the un-immersed panel $v_s = 0$ and this collapses to $\alpha = i_w$. The claim made earlier is therefore a limiting case of the relation, no longer a separate assertion. For the immersed panel it does something remarkable.
 
@@ -199,11 +244,17 @@ The wing alone cannot hover the aircraft, as expected, because in hover the prop
 
 Level flight during conversion requires
 
-$$T \sin i_w + L = W, \qquad T \cos i_w = D$$
+$$
+T \sin i_w + L = W, \qquad T \cos i_w = D
+\tag{16}
+$$
 
 with the lift coming from the immersed panel at slipstream dynamic pressure and the rest of the wing at freestream dynamic pressure,
 
-$$L = q_{\text{slip}} S_{\text{imm}} C_{L,\text{imm}} + q_\infty (S - S_{\text{imm}}) C_{L,\text{free}}$$
+$$
+L = q_{\text{slip}} S_{\text{imm}} C_{L,\text{imm}} + q_\infty (S - S_{\text{imm}}) C_{L,\text{free}}
+\tag{17}
+$$
 
 Solving for the tilt that balances weight at each speed, and setting it beside the tilt the immersed panel will tolerate, gives the corridor.
 
@@ -226,7 +277,10 @@ The margin is narrowest in the middle of the conversion, around forty to fifty m
 
 The corridor above is for level flight. Descending at rate $w$ adds to the angle of attack, because the freestream arrives from below,
 
-$$\alpha_{\text{eff}} = \alpha_{\text{local}} + \arctan\frac{w}{V}$$
+$$
+\alpha_{\text{eff}} = \alpha_{\text{local}} + \arctan\frac{w}{V}
+\tag{18}
+$$
 
 so **a tilt-wing can be stalled by its own rate of descent at constant tilt and constant speed.** Computing the descent rate that consumes the whole margin at the required tilt,
 
@@ -246,25 +300,40 @@ so **a tilt-wing can be stalled by its own rate of descent at constant tilt and 
 
 [Pegg's summary of the VZ-2 flight tests][ref_pegg_1962] measured this on a tilt-wing that flew the full conversion. Its most critical region was decelerating conversion and descent, where wing stall and separation produced buffeting, erratic motion and general difficulty in handling. In level flight with the wing raised to 20 degrees, abrupt flow breakdown set in near 60 knots as speed fell from 75. A leading-edge droop on the outboard wing added about 600 feet per minute of descent capability near 60 knots and an inboard droop about another 500,
 
-$$\Delta \dot{h} = 600 + 500 = 1{,}100\ \text{ft/min}$$
+$$
+\Delta \dot{h} = 600 + 500 = 1{,}100\ \text{ft/min}
+\tag{19}
+$$
 
 which is the additional descent capability Pegg's conclusions give for the full-span droop. **The fix was a stall delay on the wing, and no source cited here records such a device on the X-18.**
 
 ### Disc Loading as the Cost of the Configuration
 
-$$\frac{W}{n A} = \frac{146{,}800}{2 \times 18.68} = 3{,}929\ \text{N/m}^{2} = 82.1\ \text{lb/ft}^{2}$$
+$$
+\frac{W}{n A} = \frac{146{,}800}{2 \times 18.68} = 3{,}929\ \text{N/m}^{2} = 82.1\ \text{lb/ft}^{2}
+\tag{20}
+$$
 
 against roughly 11.7 pounds per square foot for a single 60 foot helicopter rotor at the same weight. **The tilt-wing carries seven times the disc loading of a helicopter**, the price of having propellers small enough to fit on a wing. Hover power follows from the same momentum theory,
 
-$$P = n\, T \sqrt{\frac{T}{2 \rho A}}$$
+$$
+P = n\, T \sqrt{\frac{T}{2 \rho A}}
+\tag{21}
+$$
 
 which evaluates to 5,879 kilowatts, or **7,883 ideal shaft horsepower**. Against an installed power of
 
-$$P_{\text{shaft}} = 2 \times 5{,}850 = 11{,}700\ \text{hp}$$
+$$
+P_{\text{shaft}} = 2 \times 5{,}850 = 11{,}700\ \text{hp}
+\tag{22}
+$$
 
 from the two T40 engines of the compiled specification, that implies a figure of merit of
 
-$$\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{7{,}883}{11{,}700} = 0.674$$
+$$
+\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{7{,}883}{11{,}700} = 0.674
+\tag{23}
+$$
 
 **an entirely ordinary propeller figure of merit**, and the strongest available check that the published weight, propeller diameter, and engine power describe one consistent aircraft.
 
@@ -274,15 +343,24 @@ $$\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{7{,}883}{11{,}70
 
 The X-18 carried a turbojet in the tail whose exhaust was deflected up or down purely for pitch control at low speed, and Hiller's October 1958 analysis of the thrust available from that J34-WE-36 installation is among the reports in the [Lindenbaum collection][ref_lindenbaum_x18]. The reason is the relation the previous two vertical take-off articles both used. Aerodynamic control scales with dynamic pressure and vanishes at zero speed, while thrust does not,
 
-$$M_{\text{aero}} = q S \bar{c}\, C_{m\delta_e} \delta_e \propto V^{2}, \qquad M_{\text{jet}} = T_{\text{jet}}\, l$$
+$$
+M_{\text{aero}} = q S \bar{c}\, C_{m\delta_e} \delta_e \propto V^{2}, \qquad M_{\text{jet}} = T_{\text{jet}}\, l
+\tag{24}
+$$
 
 No source gives the jet's arm or its deflected thrust, so both are assumed here. Taking the arm as 0.45 of the 63 foot length and a deflected thrust of a thousand pounds force, under a third of the 3,400 pounds the [encyclopaedia entry][ref_x18] gives for the J34,
 
-$$l = 0.45 \times 63 \times 0.3048 = 8.64\ \text{m}, \qquad M_{\text{jet}} = 4{,}448 \times 8.64 = 38.4\ \text{kN m}$$
+$$
+l = 0.45 \times 63 \times 0.3048 = 8.64\ \text{m}, \qquad M_{\text{jet}} = 4{,}448 \times 8.64 = 38.4\ \text{kN m}
+\tag{25}
+$$
 
 with an assumed elevator effectiveness of 1.2 per radian at an assumed 20 degrees of deflection. Setting the two equal and solving for speed gives the crossover at which the elevator takes over,
 
-$$V_{\text{cross}} = \sqrt{\frac{2 M_{\text{jet}}}{\rho S \bar{c}\, C_{m\delta_e} \delta_e}} = 30.2\ \text{m/s} = 58.6\ \text{kt}$$
+$$
+V_{\text{cross}} = \sqrt{\frac{2 M_{\text{jet}}}{\rho S \bar{c}\, C_{m\delta_e} \delta_e}} = 30.2\ \text{m/s} = 58.6\ \text{kt}
+\tag{26}
+$$
 
 The control-power requirement that makes such a system necessary was being established across the same years, in [Reeder 1958][research_reeder_1958], [Carlson 1958][research_carlson_1958], [Slaughter 1958][research_slaughter_1958], and [Crim 1959][research_crim_1959], with the underlying hovering-stability question in [McCaskill 1953][research_mccaskill_1953] and the variable-stability technique that produced much of it in [Harper and Robert P. 1955][research_harper_p_1955].
 
@@ -294,11 +372,17 @@ The control-power and handling-qualities literature that establishes how much au
 
 The [encyclopaedia entry][ref_x18] states that the two turboprops were **not cross-linked**, and the [Air Force history][ref_af_tilt_wing_history] confirms it in contrasting the XC-142A, whose engines were linked so that a single engine could turn all four propellers and the tail rotor. The failure of one X-18 engine therefore removed that propeller's thrust entirely. In hover that is half the lift, applied at the propeller's lateral station. Taking the propeller at an assumed quarter span of the 48 foot wing, $y = 12 \times 0.3048 = 3.658$ metres, and
 
-$$M_{\text{roll}} = T y = 73.40 \times 3.658 = 268\ \text{kN m}$$
+$$
+M_{\text{roll}} = T y = 73.40 \times 3.658 = 268\ \text{kN m}
+\tag{27}
+$$
 
 Against that, roll control comes from the ailerons, whose effectiveness scales with dynamic pressure,
 
-$$L_{\delta_a} = q S b\, C_{l\delta_a} \delta_a$$
+$$
+L_{\delta_a} = q S b\, C_{l\delta_a} \delta_a
+\tag{28}
+$$
 
 evaluated with an assumed $C_{l\delta_a}$ of 0.08 per radian and an assumed 20 degrees of deflection.
 
@@ -319,7 +403,10 @@ Free-floating and stall-flutter behaviour of tilt-wing models was investigated l
 
 High-lift and boundary-layer-control devices are the standard remedy, investigated on tilting wings, on STOL and jet transport configurations and on other wings, in [Passamanick 1948][research_passamanick_1948], [Cook et al. 1958][research_cook_1958], [Kelly et al. 1958][research_kelly_1958], [Aoyagi and Hickey 1959][research_aoyagi_hickey_1959], [Maki 1959][research_maki_1959], [Aoyagi and Hickey 1963][research_aoyagi_hickey_1963], [Fink 1967][research_fink_1967], [Phelps et al. 1973][research_phelps_1973], [Quigley et al. 1974][research_quigley_1974], [Caruso et al. 1988][research_caruso_1988], [Lee and Roberts 1990][research_lee_roberts_1990], [Kondor et al. 2003][research_kondor_2003], [Beck et al. 2014][research_beck_2014]. The effectiveness of blowing is measured by a momentum coefficient,
 
-$$C_\mu = \frac{\dot{m} V_j}{q_\infty S}$$
+$$
+C_\mu = \frac{\dot{m} V_j}{q_\infty S}
+\tag{29}
+$$
 
 and at the low freestream dynamic pressures of a conversion even a modest jet is a large coefficient, reaching 0.125 at twenty metres per second for an illustrative fifteen hundred newtons of jet momentum.
 
@@ -329,11 +416,17 @@ and at the low freestream dynamic pressures of a conversion even a modest jet is
 
 Propeller behaviour at zero and low forward speed forms a separate subject, and static thrust in particular is not simply the cruise propeller evaluated at zero advance ratio, as [Webb and Willer 1952][research_webb_willer_1952] sets out, with later estimation methods in [Brusse and Cronk 1965][research_brusse_cronk_1965]. Propeller design for this class of aircraft is treated in [Biermann 1954][research_biermann_1954] and the ducted alternative in [Zabinsky and Laszewski 1956][research_zabinsky_laszewski_1956]. The propeller also has to work across an enormous range of advance ratio,
 
-$$J = \frac{V}{n D}$$
+$$
+J = \frac{V}{n D}
+\tag{30}
+$$
 
 which is zero in hover and of order one in cruise. At an assumed propeller speed of 1,100 revolutions per minute on a 4.877 metre diameter, $J$ runs from 0 to 1.12 between hover and 100 metres per second, so **the same blades meet the flow at completely different angles at the two ends of the conversion.** Propeller behaviour across that range, including static thrust, blade design and contra-rotating arrangements, is treated in [Gray and Biermann 1941][research_gray_biermann_1941], [Lerbs 1955][research_lerbs_1955], [Reynolds et al. 1957][research_reynolds_1957], [Tosti 1962][research_tosti_1962], [Deckert et al. 1964][research_deckert_1964], [Blaurock 1975][research_blaurock_1975], [Jeracki and Mitchell 1981][research_jeracki_mitchell_1981], [Hanson 1986][research_hanson_1986], [Applin et al. 1994][research_applin_1994], [Campos and Lau 2006][research_campos_lau_2006], [Envia 2014][research_envia_2014], [Sree and Stephens 2014][research_sree_stephens_2014], [Ferraro et al. 2014][research_ferraro_2014], [Huo et al. 2019][research_huo_2019]. A range that wide calls for variable pitch, which matters because one account of the last flight names the pitch control system as what failed. **The pitch-change mechanism is a further subject**, because twisting a loaded blade against its aerodynamic and centrifugal moments is a structural problem and not an aerodynamic one. The coupled behaviour of a turbine and its propeller under pitch control is treated in [Oppenheimer and Jacques 1951][research_oppenheimer_jacques_1951], and the actuator and control design problem in [Steinetz et al. 1986][research_steinetz_1986] and [Schwartz et al. 1986][research_schwartz_1986], the latter two from the propfan era rather than this one. Helical tip Mach number at 60 metres per second, the fastest conversion speed tabulated above, is
 
-$$M_{\text{tip}} = \frac{\sqrt{(\pi n D)^{2} + V^{2}}}{a} = \frac{\sqrt{280.9^{2} + 60^{2}}}{340.3} = 0.844$$
+$$
+M_{\text{tip}} = \frac{\sqrt{(\pi n D)^{2} + V^{2}}}{a} = \frac{\sqrt{280.9^{2} + 60^{2}}}{340.3} = 0.844
+\tag{31}
+$$
 
 so the blade tips are transonic while the aircraft is not. Direct measurements of the interference between a propeller and the wing behind it, the defining aerodynamic problem of the configuration, appear in [Winston and Huston 1962][research_winston_huston_1962], [Goland et al. 1964][research_goland_1964], and [Butler et al. 1966][research_butler_1966].
 
@@ -353,7 +446,10 @@ The X-18 made twenty flights between November 1959 and July 1961, and the [inven
 
 Asymmetric propeller pitch is asymmetric thrust, which is both a direct rolling moment and an asymmetric slipstream, so the two wings stall at different times. A fractional thrust difference $\varepsilon$ gives
 
-$$M_{\text{roll}} = \varepsilon\, T y$$
+$$
+M_{\text{roll}} = \varepsilon\, T y
+\tag{32}
+$$
 
 and the aileron authority available must exceed it. At ten thousand feet, where the density is 0.9046 kilogrammes per cubic metre or 73.8 percent of sea level,
 
@@ -367,7 +463,10 @@ and the aileron authority available must exceed it. At ten thousand feet, where 
 
 There is a further and slightly bitter point. The same asymmetry at sea level would be tolerable up to 4.12 percent at thirty metres per second rather than 3.04, because
 
-$$\frac{\varepsilon_{\text{SL}}}{\varepsilon_{10{,}000}} = \frac{\rho_{\text{SL}}}{\rho_{10{,}000}} = 1.354$$
+$$
+\frac{\varepsilon_{\text{SL}}}{\varepsilon_{10{,}000}} = \frac{\rho_{\text{SL}}}{\rho_{10{,}000}} = 1.354
+\tag{33}
+$$
 
 **Converting at ten thousand feet rather than near the ground cost about 26 percent of the available roll authority.** The altitude gave room to recover, and it made the departure more likely while making it more survivable. Both of those are true and the programme got the survivable half.
 
@@ -723,6 +822,310 @@ The X-18 asked whether a wing could be tilted through ninety degrees and flown a
 That would have been survivable with margin elsewhere. There was none. **The ailerons supply under one percent of the rolling moment an engine failure produces in hover**, the engines were not cross-linked so an engine failure was available to produce it, and a few percent of thrust asymmetry exhausts the roll control during conversion. When a propeller pitch control fault, or in the other account an engine failure, duly appeared, the aircraft departed.
 
 **The configuration was not wrong and this aeroplane was under-equipped for it, and the corridor calculation demonstrates it.** A usable tilt margin exists at every speed, between twelve and thirty-eight degrees, so the tilt-wing is a sound idea that this particular aeroplane could not exploit. The XC-142 answered with twice the propellers along the wing and engines linked so that one could turn them all, in effect a list of the X-18's deficiencies written as a specification. **The X-18's contribution was to establish, expensively and at the edge of a fatal accident, what the minimum version of the idea could not do.**
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 33 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 33, 23 are established and 10 are bespoke.
+Published figures are in pounds and feet while the momentum theory and control calculations are in SI units at sea-level density unless a line states another altitude, and $A$ is the aspect ratio in the consistency check but the propeller disc area thereafter, while $n$ is the number of propellers in the disc loading and power relations but the propeller rotational speed in the advance ratio and tip Mach number.
+
+**Equation 1, Maximum Weight From the Official Tonnage.**
+The sixteen and a half tons the Air Force history gives, read as short tons of 2,000 pounds, reproduce the published maximum weight.
+[official history of the Air Force's 16th Special Operations Wing][ref_af_tilt_wing_history]
+
+$$
+W = 16.5 \times 2{,}000 = 33{,}000\ \text{lb}
+\tag{1}
+$$
+
+**Equation 2, Aspect Ratio From Published Dimensions.**
+The aspect ratio is the square of the published span divided by the published wing area.
+[Hiller X-18][ref_x18]
+
+$$
+A = \frac{b^{2}}{S} = \frac{48^{2}}{528} = 4.364
+\tag{2}
+$$
+
+**Equation 3, Wing Loading at Maximum Weight.**
+The wing loading is the published maximum weight divided by the published wing area.
+[Hiller X-18][ref_x18]
+
+$$
+\frac{W}{S} = \frac{33{,}000}{528} = 62.50\ \text{lb/ft}^{2}
+\tag{3}
+$$
+
+*Equation 4, Bespoke Raw Immersed Span Fraction.*
+The article defines the immersed fraction as two propeller diameters over the span, an upper bound that ignores slipstream contraction.
+
+$$
+f_{\text{raw}} = \frac{n D_p}{b} = \frac{2 \times 16}{48} = 0.667
+\tag{4}
+$$
+
+**Equation 5, Fully Contracted Slipstream Diameter.**
+Momentum theory halves the slipstream area far behind the disc, so the published propeller diameter contracts by the square root of two.
+
+$$
+D_{\text{slip}} = \frac{D_p}{\sqrt{2}} = \frac{4.877}{1.414} = 3.448\ \text{m} = 11.31\ \text{ft}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Outer Panel Angle of Attack.*
+With the fuselage held level as the article assumes, the un-immersed panel meets the freestream at the wing tilt angle.
+
+$$
+\alpha_{\text{free}} = i_w
+\tag{6}
+$$
+
+*Equation 7, Bespoke Fraction of the Conversion With the Outer Panel Stalled.*
+The stalled fraction rests on an assumed stall angle of 15 degrees and a conversion taken to run from zero to ninety degrees of tilt.
+
+$$
+\frac{90 - 15}{90} = 0.833
+\tag{7}
+$$
+
+**Equation 8, Actuator Disc Induced and Slipstream Velocities.**
+Momentum theory for a disc at static thrust gives the induced velocity and a fully developed slipstream at twice that value.
+
+$$
+v_i = \sqrt{\frac{T}{2 \rho A}}, \qquad v_s = 2 v_i
+\tag{8}
+$$
+
+**Equation 9, Thrust per Propeller in Hover.**
+In hover at maximum weight each of the two propellers carries half the weight.
+
+$$
+T = \frac{33{,}000}{2} = 16{,}500\ \text{lbf} = 73.4\ \text{kN}
+\tag{9}
+$$
+
+**Equation 10, Disc Loading in Hover.**
+The disc loading is the thrust per propeller divided by the disc area of a 16 foot propeller.
+
+$$
+\frac{T}{A} = \frac{73{,}400}{18.68} = 3{,}929\ \text{N/m}^{2} = 82.1\ \text{lb/ft}^{2}
+\tag{10}
+$$
+
+**Equation 11, Static Induced Velocity.**
+The actuator disc relation at sea-level density gives an induced velocity of about 40 metres per second.
+
+$$
+v_i = \sqrt{\frac{73{,}400}{2 \times 1.225 \times 18.68}} = 40.05\ \text{m/s}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Slipstream Dynamic Pressure at the Wing.*
+The dynamic pressure over the immersed panel at zero forward speed uses a part-developed slipstream of $1.5 v_i$ that the article assumes at the wing.
+
+$$
+q_{\text{slip}} = \tfrac{1}{2} \rho (1.5 v_i)^{2} = \tfrac{1}{2} \times 1.225 \times 60.07^{2} = 2{,}210\ \text{Pa}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Equivalent Airspeed of the Static Slipstream.*
+The slipstream dynamic pressure from the assumed part-developed velocity is expressed as an equivalent airspeed.
+
+$$
+V_{\text{eq}} = \sqrt{\frac{2 q_{\text{slip}}}{\rho}} = 60.1\ \text{m/s} = 117\ \text{kt}
+\tag{13}
+$$
+
+**Equation 14, Induced Velocity in Forward Flight.**
+With forward speed the momentum theory induced velocity satisfies an implicit relation that reduces to the static value at zero speed.
+
+$$
+v_i = \frac{T}{2 \rho A \sqrt{V^{2} + v_i^{2}}}
+\tag{14}
+$$
+
+**Equation 15, Local Angle of Attack in the Slipstream.**
+Resolving the freestream at the wing tilt angle and the slipstream along the chord gives the local angle of attack of the immersed panel.
+
+$$
+\alpha_{\text{local}} = \arctan\left(\frac{V \sin i_w}{V \cos i_w + v_s}\right)
+\tag{15}
+$$
+
+**Equation 16, Force Balance During Conversion.**
+In level flight the vertical thrust component plus lift equals weight and the horizontal thrust component equals drag.
+
+$$
+T \sin i_w + L = W, \qquad T \cos i_w = D
+\tag{16}
+$$
+
+*Equation 17, Bespoke Lift Split Between Immersed and Free Panels.*
+The article models wing lift as an immersed panel at slipstream dynamic pressure plus the remainder at freestream dynamic pressure.
+
+$$
+L = q_{\text{slip}} S_{\text{imm}} C_{L,\text{imm}} + q_\infty (S - S_{\text{imm}}) C_{L,\text{free}}
+\tag{17}
+$$
+
+**Equation 18, Effective Angle of Attack in Descent.**
+A descent rate adds its inflow angle to the local angle of attack because the freestream arrives from below.
+
+$$
+\alpha_{\text{eff}} = \alpha_{\text{local}} + \arctan\frac{w}{V}
+\tag{18}
+$$
+
+**Equation 19, Descent Capability Added by Full-Span Droop.**
+The outboard and inboard leading-edge droops measured in the wind tunnel add 600 and 500 feet per minute of descent capability.
+[Pegg's VZ-2 flight tests][ref_pegg_1962]
+
+$$
+\Delta \dot{h} = 600 + 500 = 1{,}100\ \text{ft/min}
+\tag{19}
+$$
+
+**Equation 20, Disc Loading per Propeller.**
+The weight in newtons over the total disc area of two propellers gives the disc loading of the configuration.
+
+$$
+\frac{W}{n A} = \frac{146{,}800}{2 \times 18.68} = 3{,}929\ \text{N/m}^{2} = 82.1\ \text{lb/ft}^{2}
+\tag{20}
+$$
+
+**Equation 21, Ideal Hover Power.**
+Momentum theory gives the ideal hover power as the number of propellers times the thrust times the induced velocity.
+
+$$
+P = n\, T \sqrt{\frac{T}{2 \rho A}}
+\tag{21}
+$$
+
+**Equation 22, Installed Shaft Power.**
+The installed power is twice the 5,850 equivalent horsepower of each T40 engine in the compiled specification.
+[Hiller X-18][ref_x18]
+
+$$
+P_{\text{shaft}} = 2 \times 5{,}850 = 11{,}700\ \text{hp}
+\tag{22}
+$$
+
+**Equation 23, Hover Figure of Merit.**
+The figure of merit is the ideal hover power over the installed shaft power.
+
+$$
+\text{FM} = \frac{P_{\text{ideal}}}{P_{\text{shaft}}} = \frac{7{,}883}{11{,}700} = 0.674
+\tag{23}
+$$
+
+**Equation 24, Aerodynamic and Jet Pitch Moments.**
+The elevator moment scales with dynamic pressure and so with the square of speed, while the jet moment is thrust times arm and holds at zero speed.
+
+$$
+M_{\text{aero}} = q S \bar{c}\, C_{m\delta_e} \delta_e \propto V^{2}, \qquad M_{\text{jet}} = T_{\text{jet}}\, l
+\tag{24}
+$$
+
+*Equation 25, Bespoke Pitch Jet Arm and Moment.*
+The jet moment uses an arm taken as 0.45 of the fuselage length and a deflected thrust of a thousand pounds force, both of which the article assumes.
+[Hiller X-18][ref_x18]
+
+$$
+l = 0.45 \times 63 \times 0.3048 = 8.64\ \text{m}, \qquad M_{\text{jet}} = 4{,}448 \times 8.64 = 38.4\ \text{kN m}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Crossover Speed From Jet to Elevator.*
+Setting the assumed jet moment equal to the elevator moment, with an assumed effectiveness of 1.2 per radian at 20 degrees of deflection, gives the speed at which the elevator takes over.
+
+$$
+V_{\text{cross}} = \sqrt{\frac{2 M_{\text{jet}}}{\rho S \bar{c}\, C_{m\delta_e} \delta_e}} = 30.2\ \text{m/s} = 58.6\ \text{kt}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Rolling Moment After an Engine Failure in Hover.*
+Half the hover lift is lost at a propeller station taken at an assumed quarter span of the wing.
+
+$$
+M_{\text{roll}} = T y = 73.40 \times 3.658 = 268\ \text{kN m}
+\tag{27}
+$$
+
+**Equation 28, Aileron Rolling Moment.**
+Aileron rolling moment is dynamic pressure times wing area times span times the control derivative times deflection.
+
+$$
+L_{\delta_a} = q S b\, C_{l\delta_a} \delta_a
+\tag{28}
+$$
+
+**Equation 29, Blowing Momentum Coefficient.**
+The momentum coefficient is the jet momentum flux over the freestream dynamic pressure times the wing area.
+
+$$
+C_\mu = \frac{\dot{m} V_j}{q_\infty S}
+\tag{29}
+$$
+
+**Equation 30, Propeller Advance Ratio.**
+The advance ratio is the flight speed over the rotational speed times the propeller diameter.
+
+$$
+J = \frac{V}{n D}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Helical Tip Mach Number in Conversion.*
+The helical tip Mach number at 60 metres per second rests on a propeller speed of 1,100 revolutions per minute that the article assumes.
+
+$$
+M_{\text{tip}} = \frac{\sqrt{(\pi n D)^{2} + V^{2}}}{a} = \frac{\sqrt{280.9^{2} + 60^{2}}}{340.3} = 0.844
+\tag{31}
+$$
+
+**Equation 32, Rolling Moment From Asymmetric Thrust.**
+A fractional thrust difference $\varepsilon$ produces a rolling moment of $\varepsilon$ times the propeller thrust times its lateral arm.
+
+$$
+M_{\text{roll}} = \varepsilon\, T y
+\tag{32}
+$$
+
+**Equation 33, Tolerable Asymmetry Against Altitude.**
+Because aileron authority scales with density at a given true airspeed, the tolerable asymmetry at sea level exceeds that at 10,000 feet by the standard atmosphere density ratio.
+
+$$
+\frac{\varepsilon_{\text{SL}}}{\varepsilon_{10{,}000}} = \frac{\rho_{\text{SL}}}{\rho_{10{,}000}} = 1.354
+\tag{33}
+$$
+
+### Notation
+
+- $W$, the aircraft weight
+- $S$, the wing reference area
+- $b$, the wing span
+- $D_p$, the propeller diameter, with $D_{\text{slip}}$ the fully contracted slipstream diameter
+- $v_i$, the induced velocity at the propeller disc
+- $v_s$, the slipstream velocity behind the disc
+- $q_{\text{slip}}$, the dynamic pressure in the slipstream over the immersed panel, with $q_\infty$ the freestream dynamic pressure
+- $i_w$, the wing tilt angle
+- $\alpha_{\text{local}}$, the local angle of attack of the immersed panel
+- $S_{\text{imm}}$, the immersed wing area
+- $C_{L,\text{imm}}$, the lift coefficient of the immersed panel, with $C_{L,\text{free}}$ that of the free panel
+- $\text{FM}$, the hover figure of merit
+- $C_{m\delta_e}$, the elevator pitch control power
+- $\bar{c}$, the mean aerodynamic chord
+- $M_{\text{jet}}$, the pitching moment of the pitch control jet, with $M_{\text{aero}}$ the elevator moment
+- $C_{l\delta_a}$, the aileron roll control derivative
+- $C_\mu$, the blowing momentum coefficient
+- $J$, the propeller advance ratio
+- $M_{\text{tip}}$, the helical tip Mach number
+- $\varepsilon$, the fractional thrust difference between the two propellers
 
 ## References
 

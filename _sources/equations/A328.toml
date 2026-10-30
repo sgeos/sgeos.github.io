@@ -1,0 +1,675 @@
+# Equation classification for A328. Read by `python3 _lib/equations.py`.
+
+caution = "Aircraft quantities are in customary units, with weights and thrusts in pounds, dynamic pressures in pounds per square foot, lengths in feet and speeds in knots or feet per second, every calibrated airspeed is read as the equivalent airspeed that gives the same dynamic pressure at sea-level density, and several letters are reused, so $n$ is a count of scored outcomes, a load factor and a thrust-lapse exponent, $\\alpha$ is a significance level in the interval relations and the angle of attack elsewhere, $p$ and $r$ are a probability and a turn radius except in the velocity-vector roll relation, where they are body-axis roll and yaw rates, and $\\rho_i$ is a campaign ratio rather than a density."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Exchange Ratio"
+gloss = "The exchange ratio is the number of adversary losses divided by the number of losses of the aircraft under test, a measure of effectiveness from the operations-research literature."
+cite = ["research_pugh_mayberry_1973"]
+digest = "daea78821aae1e49"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Arithmetic Mean of the Four Condition Ratios"
+gloss = "The unweighted mean of the four published per-condition exchange ratios is 6.43, three and a half times the published overall figure."
+cite = []
+digest = "f284d0e0f57a23e1"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Pooled Exchange Ratio as a Ratio of Sums"
+gloss = "The pooled exchange ratio divides the total adversary losses by the total losses of the aircraft under test across all conditions."
+cite = ["research_hauck_anderson_1986"]
+digest = "79edc64840723902"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Pooled Ratio as a Loss-Weighted Mean"
+gloss = "Substituting each condition's losses as its ratio times the test aircraft's losses shows the pooled ratio to be the mean of the condition ratios weighted by the denominator losses."
+cite = ["research_hauck_anderson_1986"]
+digest = "cf1e4eaccd6e590f"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Pooled Ratio in Terms of Loss Shares"
+gloss = "Writing the weights as each condition's share of the test aircraft's losses expresses the pooled ratio as a convex combination of the condition ratios."
+cite = []
+digest = "f69ece086d15de07"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Minimum Losing-Condition Share"
+gloss = "The article bounds the share of losses in the losing conditions from below with a two-point mixture that places all winning weight on the smaller winning ratio and all losing weight on the smaller losing ratio."
+cite = []
+digest = "6f7b5c1b420f58ba"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Maximum Losing-Condition Share"
+gloss = "Pairing the two larger ratios in the same two-point construction gives the upper end of the bracket, 93.6 percent."
+cite = []
+digest = "bbba2f1f28210d85"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Losing Share That Tips the Pooled Ratio to Parity"
+gloss = "Solving the two-point mixture for a pooled ratio of exactly one gives a losing share of 92.14 percent, a threshold the article shows lies inside its bracket."
+cite = []
+digest = "014dccca51e7083d"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Two-Point Bracket on the Losing Share"
+gloss = "The same two-point construction is stated in general form for application to the two further published comparisons."
+cite = ["ref_joyce_pdf"]
+digest = "bda1027c77e50cd5"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Exchange Ratio as Odds of a Bernoulli Outcome"
+gloss = "If each scored outcome is a Bernoulli trial in which the adversary is lost with probability $p$, the exchange ratio is the odds $p/(1-p)$ and maps one to one onto that probability."
+cite = ["book_fleiss", "book_agresti"]
+digest = "7093f80e78b4c623"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Clopper-Pearson Lower Endpoint"
+gloss = "The lower endpoint of the Clopper-Pearson interval is the probability at which the upper binomial tail from $k$ successes equals half the significance level."
+cite = ["ref_clopper"]
+digest = "f3f333318d0aca80"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Clopper-Pearson Upper Endpoint"
+gloss = "The upper endpoint is the probability at which the lower binomial tail through $k$ successes equals half the significance level."
+cite = ["ref_clopper", "research_sandelius_1952"]
+digest = "107c3b6b5a086f5e"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Outcome Split Reconstructed From a Ratio"
+gloss = "Because the counts are unpublished, the article reconstructs the adversary and test-aircraft losses from each published ratio and a stated number of scored outcomes that it sweeps."
+cite = []
+digest = "72fea6d9186022e1"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Separation From Parity"
+gloss = "A ratio is taken to separate from parity when its interval excludes one, which is the same as the interval on the probability excluding one half."
+cite = []
+digest = "2deb23ec29580c53"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Aspect Ratio From Span and Area"
+gloss = "The aspect ratio implied by the published span and wing area is 2.509, against a published 2.51."
+cite = []
+digest = "fefc4144ed4da07b"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Wing Loading at Normal Flying Weight"
+gloss = "The normal flying weight divided by the wing area reproduces the published wing loading of 64.52 pounds per square foot."
+cite = []
+digest = "9e6dcf1185209972"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Lift Coefficient in Level Flight"
+gloss = "In level flight the lift coefficient is the weight divided by dynamic pressure and wing area, with the dynamic pressure taken from calibrated airspeed at sea-level density."
+cite = ["book_etkin", "book_nelson", "book_cook"]
+digest = "c038dd208b60cf58"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Lift-Curve Slope Inferred From a Pilot's Trim Point"
+gloss = "The slope is inferred from a pilot's remark that twenty degrees corresponds to 135 to 140 knots, taking the midpoint of 137.5 knots, an assumed weight near 14,000 pounds and a lift line through the origin."
+cite = ["ref_joyce_pdf"]
+digest = "019894871e883d7a"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Helmbold Lift-Curve Slope"
+gloss = "The Helmbold relation for a low-aspect-ratio unswept wing gives a lift-curve slope of 3.027 per radian at the published aspect ratio."
+cite = []
+digest = "21bb1161c10f055c"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Swept-Wing Lift-Curve Slope at the Root Sweep"
+gloss = "The handbook compressible form is evaluated at the root leading-edge sweep of 56.6 degrees, a single sweep the article takes for a cranked wing whose outboard panel is swept 45 degrees."
+cite = ["ref_datcom"]
+digest = "d41c748242c8b5f7"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Canard Contribution to the Lift-Curve Slope"
+gloss = "A forward surface adds to the whole-aircraft slope in proportion to its area ratio and its own slope, scaled by an efficiency that accounts for upwash."
+cite = []
+digest = "dfe317669262e290"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Yawing Moment From Thrust Vectoring"
+gloss = "The yawing moment available from vectoring is the side component of thrust acting on the moment arm of the vanes."
+cite = []
+digest = "317fbd9da37633df"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Vectored Yawing Moment Coefficient"
+gloss = "Dividing the vectored moment by dynamic pressure, wing area and span gives a coefficient that falls inversely with dynamic pressure."
+cite = []
+digest = "bc6878de3b90bdc4"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Upper Bound on the Vectoring Moment Arm"
+gloss = "The article reads a departure as an asymmetry that exceeded the available authority, which turns the vectoring relation into an upper bound on the arm."
+cite = ["research_cobleigh_1994"]
+digest = "1620f8d58cb77c5a"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Dynamic Pressure at Mach 0.4 and 35,000 Feet"
+gloss = "The dynamic pressure follows from the standard atmosphere pressure ratio and the quoted Mach number of the departure."
+cite = []
+digest = "0f8f31d541b59ee3"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Arm Bound From the Departure"
+gloss = "The bound of 36.2 feet uses the departure asymmetry of 0.125, a thrust of 16,000 pounds lapsed with the pressure ratio to the first power and a jet deflection of sixteen degrees, so the lapse exponent the article assumes governs it."
+cite = []
+digest = "20c765f7e67d8b06"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Standard Troposphere Ratios"
+gloss = "The 1976 standard troposphere gives the temperature ratio as linear in altitude, the pressure ratio as its 5.2559 power and the density ratio as their quotient."
+cite = ["ref_icao_atmosphere_1957"]
+digest = "617b1a4d5aaae838"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Speed of Sound From the Temperature Ratio"
+gloss = "The speed of sound follows from the temperature alone and so from the sea-level value and the temperature ratio."
+cite = []
+digest = "8715f092d209bcb9"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Thrust Lapse With Pressure Ratio"
+gloss = "The article models thrust at fixed Mach number as the sea-level thrust times a power of the pressure ratio, taking an exponent near one and carrying it explicitly for sensitivity."
+cite = ["research_bronz_garciademarina_2017", "research_andrianantara_ghazi_2021"]
+digest = "b7394dbcb36efbba"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Moment Arm Needed to Hold an Asymmetry"
+gloss = "Solving the vectoring relation at equality gives the moment arm needed to balance a given asymmetric yawing moment coefficient."
+cite = []
+digest = "001ceea3a71ec9e4"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Needed Arms at Two Flight Conditions"
+gloss = "Two table entries are worked with the steady asymmetry bound of 0.080 and thrusts lapsed under the assumed pressure-ratio model."
+cite = []
+digest = "5430d4423c52a2cd"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Dynamic Pressure Above Which No Arm Suffices"
+gloss = "Setting the needed arm equal to the fuselage length, a geometric ceiling the article imposes, gives the dynamic pressure and calibrated airspeed above which vectoring cannot hold the asymmetry."
+cite = []
+digest = "f15528f76a2c45f6"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Ceiling Speed at 20,000 Feet Against the Departure Asymmetry"
+gloss = "At twenty thousand feet with the lapsed thrust and the departure asymmetry of 0.125, the ceiling falls at 190 knots."
+cite = []
+digest = "1d8a216e5ab4b6e9"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Equivalent Airspeed of the Departure"
+gloss = "The dynamic pressure of the departure condition corresponds at sea-level density to an equivalent airspeed of 128.3 knots."
+cite = []
+digest = "a4b7c44fa7593856"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Measured Swing in Asymmetric Yawing Moment"
+gloss = "The asymmetry report records a swing from 0.077 in one direction to 0.088 in the other, a change of 0.165 within three degrees of angle of attack."
+cite = ["research_cobleigh_1994"]
+digest = "1831a53c3995fdc2"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Asymmetric Yawing Moment From Its Coefficient"
+gloss = "The dimensional yawing moment is the coefficient times dynamic pressure, wing area and span."
+cite = []
+digest = "cac4d6735cd6346c"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Altitude Ratio of Vectored Authority"
+gloss = "At constant calibrated airspeed the unknown arm cancels and the vectored authority scales with thrust, which the article approximates by the ratio of pressure ratios under its lapse model."
+cite = []
+digest = "dbe97c54cebd40da"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Radius of a Level Turn"
+gloss = "The radius of a level turn is the speed squared divided by gravity times the square root of load factor squared less one."
+cite = []
+digest = "f22247253b2807b3"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Available Load Factor"
+gloss = "The load factor is the lift the wing can produce divided by the weight."
+cite = []
+digest = "b480fddd1f761d7a"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Slowest Level-Flight Speed at a Given Lift Coefficient"
+gloss = "Setting the load factor to one gives the slowest equivalent airspeed at which the aircraft can hold a given lift coefficient in level flight."
+cite = []
+digest = "dd6ceb6398278933"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Level-Flight Speed at Seventy Degrees"
+gloss = "The level-flight speed of 138 knots rests on a lift coefficient of 1.00 at seventy degrees of angle of attack, an estimate the article makes rather than a measurement."
+cite = []
+digest = "964ec2f25a49f08a"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Aim Angle Bought by Post-Stall Flight"
+gloss = "The article measures the capability as the difference between the seventy-degree post-stall limit and a conventional limit it takes as thirty degrees."
+cite = []
+digest = "bc2759642125996f"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Time to Turn Through an Angle"
+gloss = "The time to turn the velocity vector through an angle is that angle divided by the level-turn rate, which follows from speed and load factor."
+cite = []
+digest = "ab76e894fde478d0"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Corner Speed"
+gloss = "The corner speed is the speed at which the lift limit meets the structural load factor limit."
+cite = ["ref_corner_speed", "book_anderson_perf", "book_raymer"]
+digest = "ce55a9cadded2814"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Specific Energy"
+gloss = "Specific energy, or energy height, is altitude plus the kinetic energy per unit weight."
+cite = []
+digest = "8967268e9a8e6175"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke True Airspeeds at Corner Speed and Post-Stall Exit"
+gloss = "The true airspeeds at twenty thousand feet are found from equivalent airspeeds whose corner value rests on the lift coefficient of 1.4498 taken from the inferred lift curve."
+cite = []
+digest = "1f088560a2446f00"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Energy Lost Falling From Corner Speed"
+gloss = "The specific energy given up between the inferred corner speed and an exit at 120 knots is about 8,630 feet."
+cite = []
+digest = "96c8dccce1b175b1"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Specific Excess Power With a Parabolic Polar"
+gloss = "Specific excess power is speed times the excess of thrust over drag divided by weight, with drag from a parabolic polar."
+cite = ["research_johnson_1972"]
+digest = "6cbe894a3df05045"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Specific Excess Power at the Slow End"
+gloss = "The slow-end figure of 68.6 feet per second uses a zero-lift drag coefficient of 0.022 and an efficiency factor of 0.70, both values the article assumes, with lapsed thrust."
+cite = []
+digest = "47222738fe585b47"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Specific Excess Power at the Fast End"
+gloss = "The fast-end figure of 268.7 feet per second uses the same assumed drag polar and lapsed thrust."
+cite = []
+digest = "1e31c00bf092e354"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Integrated Energy Recovery Time"
+gloss = "Integrating the reciprocal of specific excess power over speed on the assumed polar gives 46.0 seconds, against 125.8 seconds from a single-point estimate at the slow end."
+cite = []
+digest = "eb6ef9c0f841a198"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Roll Rate About the Velocity Vector"
+gloss = "A roll about the velocity vector combines body-axis roll and yaw rates weighted by the cosine and sine of the angle of attack."
+cite = ["research_huberpeter_seamountpatricia_1994"]
+digest = "d48003b3e8cdce6a"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Roll and Yaw Weights at Seventy Degrees"
+gloss = "At seventy degrees the cosine and sine weights are 0.3420 and 0.9397, so a velocity-vector roll is mostly yaw rate."
+cite = []
+digest = "46ed85f9ed4dd3eb"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Amplitude at Which an Actuator Rate Limit Binds"
+gloss = "A sinusoidal command of amplitude $A$ at frequency $\\omega$ demands a peak rate of $A\\omega$, so the rate limit binds above the amplitude equal to the maximum rate over the frequency."
+cite = []
+digest = "c96fdc1a039a9ce4"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Eigenvalue From a Time to Double"
+gloss = "A divergent mode growing as $e^{\\lambda t}$ has an eigenvalue equal to the natural logarithm of two over the time to double, here 2.39 per second from the published 290 milliseconds."
+cite = ["research_hanson_stengel_1981"]
+digest = "acbffe4d5e715b9c"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Yaw Divergence Eigenvalue and Directional Stiffness"
+gloss = "For a yaw-only divergence the square of the eigenvalue is minus the directional stiffness moment divided by the yaw inertia."
+cite = ["research_cranehl_reederjp_1945"]
+digest = "83e68e5604077ba8"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "True Airspeed, Equivalent Airspeed and Dynamic Pressure"
+gloss = "True airspeed is Mach number times the speed of sound, equivalent airspeed scales it by the square root of the density ratio, and both routes give the same dynamic pressure."
+cite = ["research_altman_1952"]
+digest = "c1e89eb8e7c5305e"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Directional Stiffness per Unit Yaw Inertia"
+gloss = "The published doubling time fixes the ratio of directional stiffness to yaw inertia, here evaluated at thirty thousand feet, without fixing either factor."
+cite = []
+digest = "a247fd147818f1f4"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Delay Bound for a First-Order Unstable Plant"
+gloss = "A first-order unstable plant with a pure delay cannot be stabilised by proportional feedback once the delay approaches the reciprocal of the unstable pole."
+cite = []
+digest = "32f8d1d2de8239f8"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Impact Pressure of a Pitot-Static Probe"
+gloss = "The impact pressure is total minus static pressure, which for subsonic flow follows from the isentropic relation in Mach number."
+cite = []
+digest = "64e272ccaf60d492"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Loop Gain Error From an Airspeed Error"
+gloss = "The article models the gain schedule as reducing gain with indicated dynamic pressure while surface effectiveness follows true dynamic pressure, so the loop gain is multiplied by the square of the airspeed ratio."
+cite = ["ref_joyce_pdf"]
+digest = "17b5eca1bba4cbf9"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Gain Ratio in Decibels"
+gloss = "A gain ratio is expressed in decibels as twenty times its common logarithm."
+cite = []
+digest = "5c6e73cbde0325af"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Angle of Attack Implied by Airspeed in Level Flight"
+gloss = "The angle of attack implied by an indicated airspeed at one g uses the lift-curve slope inferred from the pilot's trim point with a lift line through the origin."
+cite = []
+digest = "c98b08376876ca36"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Disagreement Between Vane and Airspeed"
+gloss = "The disagreements of 11.2 and 6.9 degrees compare the twenty degrees read on the vane with the angles implied at 207 and 170 knots by the inferred lift curve."
+cite = ["ref_joyce_pdf"]
+digest = "66b57608cdd134cd"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Display Error Against a Six-Decibel Margin"
+gloss = "The display error is measured against 137.5 knots, the midpoint of the pilot's stated range of 135 to 140 knots, and compared in dynamic pressure with a conventional six-decibel margin."
+cite = []
+digest = "4f80f0d31781b16b"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Flight Rate and Flights per Flying Day"
+gloss = "The flight rate is the number of flights over the elapsed time, and flights per flying day divides the same count by the number of distinct flying days."
+cite = []
+digest = "51e1260746af029b"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Scored Fractions of Sorties and Engagements"
+gloss = "The published counts give 92.0 percent of tactical sorties scored and 79.9 percent of engagements scored."
+cite = ["ref_joyce_pdf"]
+digest = "d8e94dcdcd840406"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Engagements per Scored Sortie"
+gloss = "The published counts give about five engagements and four scored engagements per scored sortie."
+cite = ["ref_joyce_pdf"]
+digest = "d36cf8c6f3f94ae5"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Campaign Repeatability Ratio"
+gloss = "The article measures the repeatability of the two simulation campaigns by the ratio of their exchange ratios condition by condition."
+cite = []
+digest = "ec96a65db3d3a5bc"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Repeatability Ratios and Ratio of Campaign Means"
+gloss = "Evaluating the repeatability ratios and the ratio of the unweighted campaign means shows closer agreement in aggregate than in any single condition."
+cite = []
+digest = "8a3a2fba1edf1851"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Condition for Pooling to Reverse a Conclusion"
+gloss = "The article states the reversal condition as an unweighted mean of condition ratios above parity together with a loss-weighted pooled ratio below it."
+cite = []
+digest = "d35f9ec218e49bb4"
+
+[[symbol]]
+tex = 'E'
+meaning = "the exchange ratio, with $E_i$ the ratio in condition $i$ and $E_{\\text{pool}}$ the pooled ratio"
+
+[[symbol]]
+tex = 'w_i'
+meaning = "the share of the test aircraft's losses in condition $i$"
+
+[[symbol]]
+tex = 'k'
+meaning = "the number of adversary losses in $n$ scored outcomes"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio, except in the actuator relation, where it is a command amplitude"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area, with $S_c$ the canard area"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span, except in the reconstructed split, where it is the number of test aircraft losses"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'C_{L\alpha}'
+meaning = "the lift-curve slope"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure"
+
+[[symbol]]
+tex = '\rho_0'
+meaning = "the sea-level air density"
+
+[[symbol]]
+tex = '\delta_j'
+meaning = "the jet deflection angle"
+
+[[symbol]]
+tex = '\ell_v'
+meaning = "the moment arm of the thrust-vectoring vanes"
+
+[[symbol]]
+tex = 'C_{n0}'
+meaning = "the asymmetric yawing moment coefficient"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the temperature ratio of the standard atmosphere"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the pressure ratio of the standard atmosphere"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the density ratio of the standard atmosphere"
+
+[[symbol]]
+tex = 'V^{*}'
+meaning = "the corner speed"
+
+[[symbol]]
+tex = 'E_s'
+meaning = "the specific energy"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'C_{D0}'
+meaning = "the zero-lift drag coefficient"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the eigenvalue of a divergent mode"
+
+[[symbol]]
+tex = 'C_{n\beta}'
+meaning = "the directional stability derivative"
+
+[[symbol]]
+tex = 'I_z'
+meaning = "the moment of inertia in yaw"
+
+[[symbol]]
+tex = 'q_c'
+meaning = "the impact pressure"
+
+[[symbol]]
+tex = 'K_{\text{actual}}'
+meaning = "the loop gain in flight, with $K_{\\text{design}}$ the gain the schedule intends"

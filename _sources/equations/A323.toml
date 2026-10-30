@@ -1,0 +1,435 @@
+# Equation classification for A323. Read by `python3 _lib/equations.py`.
+
+caution = "Aerodynamic quantities are in United States customary units, with weight in pounds, area in square feet, speed in feet per second or miles per hour as each line states and density in slugs per cubic foot at sea level, sound levels are in decibels with pressure ratios taking twenty times the logarithm and power ratios ten, and the Oswald efficiency of 0.90, the zero-lift drag coefficient of 0.012, the QT-2PC weight of 2,400 pounds and its lift-to-drag ratio of 20 are values the article assumes."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Maximum Lift-to-Drag Ratio of a Parabolic Polar"
+gloss = "For a parabolic polar the maximum lift-to-drag ratio is half the square root of pi times Oswald efficiency times aspect ratio over the zero-lift drag coefficient."
+cite = []
+digest = "9107dd7d870c0804"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Parabolic Drag Polar"
+gloss = "The drag coefficient of a wing is a zero-lift term plus an induced term proportional to the square of the lift coefficient and inversely proportional to aspect ratio."
+cite = []
+digest = "8a1dea034380135b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Lift Coefficient for Maximum Lift-to-Drag Ratio"
+gloss = "The lift-to-drag ratio is greatest where the induced and zero-lift drag terms are equal, which fixes the best-glide lift coefficient."
+cite = []
+digest = "6cfdef579582da71"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Aspect Ratio of the X-26A Wing"
+gloss = "The documented span of 57.125 feet over the wing area of 180 square feet gives an aspect ratio of about 18.1."
+cite = []
+digest = "c825825e40301733"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Maximum Lift-to-Drag Ratio of the X-26A"
+gloss = "With an Oswald efficiency the article assumes as 0.90 and a zero-lift drag coefficient it assumes as 0.012, the relation gives about 32.7 against a quoted 35."
+cite = []
+digest = "1e976c0439f13335"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Best-Glide Lift Coefficient of the X-26A"
+gloss = "The same assumed efficiency and zero-lift drag give a best-glide lift coefficient of about 0.78."
+cite = []
+digest = "4bac5b04af3dc28a"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Best-Glide Speed at Two Wing Loadings"
+gloss = "The lift balance at the assumed best-glide lift coefficient and sea-level density gives about 63 miles per hour at the gross wing loading of 7.94 and about 55 at the quoted 6.0 pounds per square foot."
+cite = ["ref_sgs_2_32"]
+digest = "ac9e2b0c467915a0"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Incidence Change from Rolling"
+gloss = "A wing section at spanwise station $y$ on an aeroplane rolling at rate $p$ meets the flow at an incidence changed by the local vertical velocity over the airspeed."
+cite = []
+digest = "26cc7469445d0de8"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Yawing Moment due to Roll Rate of an Elliptic Wing"
+gloss = "Integrating the induced drag asymmetry across an elliptically loaded span gives the classical yawing moment derivative of minus one eighth of the lift coefficient."
+cite = []
+digest = "c1676ad139378f40"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Lift Coefficient from Wing Loading and Speed"
+gloss = "The lift coefficient in level flight is twice the wing loading over density times the square of speed, so it rises as the aeroplane slows."
+cite = []
+digest = "7e64dcc9431650cb"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Yawing Moment Coefficient in a Steady Roll"
+gloss = "In a steady roll the yawing moment coefficient is the yaw-due-to-roll derivative times the helix angle."
+cite = []
+digest = "9492a63788c577dc"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Sideslip Driven Against Directional Stiffness"
+gloss = "To first order the sideslip that the adverse yawing moment drives is that moment over the directional stiffness derivative."
+cite = []
+digest = "da360ce1bcf1159f"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Steady Roll Balance and Helix Angle"
+gloss = "In a steady roll the aileron moment balances the roll damping moment, so the helix angle is fixed by aileron power and roll damping alone."
+cite = []
+digest = "f7a3fe8285ac0aeb"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Roll Rate from the Helix Angle"
+gloss = "The roll rate is the helix angle times twice the airspeed over the span, so a long wing rolls slowly."
+cite = []
+digest = "1ff923b366eaa989"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Time to Reach a Bank Angle"
+gloss = "At a steady roll rate the time to reach a bank angle is that angle over the roll rate, written through the helix angle."
+cite = []
+digest = "a4375facc2b2ae28"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Observability Scaling of Adverse Yaw"
+gloss = "The article multiplies sideslip by time to bank as an index of how observable adverse yaw is and finds it scales as wing loading times span over the cube of speed and the directional stiffness."
+cite = []
+digest = "423afb0f6ecc3f3e"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Stall Speed"
+gloss = "The stall speed is the speed at which the lift balance requires the maximum lift coefficient."
+cite = []
+digest = "b1e5fe1ea76afe54"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Maximum Lift Coefficient Implied by the Quoted Stall"
+gloss = "Inverting the stall relation at the quoted 46 mile per hour stall and the quoted wing loading of 6.0 pounds per square foot gives a maximum lift coefficient of about 1.11."
+cite = []
+digest = "7fe9e713a77afbbf"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Stall Margin and Sideslip Growth at the Training Speed"
+gloss = "At a training speed the article takes as 60 miles per hour, the aircraft flies thirty percent above the stall and the sideslip at the stall would be seventy percent larger."
+cite = []
+digest = "55132212d9d9916d"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Power Required for Steady Flight"
+gloss = "The power required for steady flight is weight times speed over the lift-to-drag ratio."
+cite = []
+digest = "b57bfbb1d190d6ad"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Power Required by the QT-2PC"
+gloss = "At an assumed weight of 2,400 pounds, an assumed lift-to-drag ratio of 20 and 110 feet per second, the power required is about 24 horsepower."
+cite = []
+digest = "a6d2c9d51f56b73e"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Power Required Against Speed"
+gloss = "The power required is a parasite term rising as the cube of speed plus an induced term falling inversely with speed."
+cite = []
+digest = "bf766e4b1524e43d"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Minimum Power Condition"
+gloss = "At minimum power the parasite term is three times the induced term, which raises the lift coefficient by the square root of three and lowers the speed by the fourth root of three."
+cite = []
+digest = "25e36ec413b6ad8d"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Ratio of Minimum Power to Best-Glide Power"
+gloss = "Power at the minimum-power speed is about 0.88 of the power at best glide."
+cite = []
+digest = "5674a6c10e206c1e"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Noise Value of Flying at Minimum Power"
+gloss = "If radiated sound power followed shaft power, an assumption the article adopts to bound the effect, the saving at minimum power would be worth about half a decibel."
+cite = []
+digest = "eac803bf1c266797"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Sound Pressure Level"
+gloss = "Sound pressure level is twenty times the logarithm of the pressure ratio to a reference of 20 micropascals."
+cite = []
+digest = "5f52cd92547195f9"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Spherical Spreading of Intensity"
+gloss = "Intensity from a compact source of acoustic power $W_{ac}$ falls as the inverse square of range over the surface of a sphere."
+cite = []
+digest = "9a7b8924ed527c18"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Spherical Spreading Loss with Distance"
+gloss = "The sound pressure level falls by twenty times the logarithm of the range ratio, 6.02 decibels for every doubling."
+cite = ["book_beranek_1988", "book_pierce_1981"]
+digest = "ae1e23ac422a4aa5"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Maximum Audible Range"
+gloss = "Taking the aircraft as audible until the spreading level falls to the ambient, the maximum range follows from the source level at a reference range."
+cite = []
+digest = "d4b4618bbe3bf962"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Slant Range"
+gloss = "The slant range is the hypotenuse of the altitude and the horizontal distance."
+cite = []
+digest = "b5b0587ce4c8f7df"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Detection Range Change with Ambient Level"
+gloss = "Within the article's detection criterion a five decibel fall in ambient lengthens the detection range by a factor of 1.78."
+cite = []
+digest = "78a27e1a6db3bfc7"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Blade Passing Frequency"
+gloss = "The fundamental tone of a propeller is the blade count times the revolutions per minute over sixty."
+cite = []
+digest = "10b3a106a433f05d"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Atmospheric Absorption Loss"
+gloss = "Absorption loss accumulates linearly with distance at a coefficient that rises steeply with frequency."
+cite = []
+digest = "098af21c3b796510"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Propeller Tip Speed"
+gloss = "The rotational tip speed is pi times the diameter times the revolutions per minute over sixty."
+cite = []
+digest = "2ad99ee5b0605f5c"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Advance Ratio"
+gloss = "The advance ratio is forward speed over the product of rotational speed in revolutions per second and diameter."
+cite = []
+digest = "5e3004881bc1291f"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Tip Mach Number"
+gloss = "The tip Mach number is the tip speed over the speed of sound."
+cite = []
+digest = "435684dfd5378892"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Incoherent Sum of Sound Levels"
+gloss = "Independent sources add in power, so the total level is ten times the logarithm of the sum of their power ratios."
+cite = []
+digest = "a7facb7f147ce4cb"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Sink Rate from Power and Glide Ratio"
+gloss = "Sink rate is power over weight, or equivalently speed over the lift-to-drag ratio."
+cite = ["ref_sgs_2_32"]
+digest = "9fac61a4f73831c1"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Minimum Sink Rate of the X-26A"
+gloss = "At the minimum-power point and the light weight, with the best-glide speed and lift-to-drag ratio that the assumed efficiency and zero-lift drag produced, the sink rate is about 129 feet per minute against a quoted 124."
+cite = []
+digest = "fcebe9b6186cddf6"
+
+[[symbol]]
+tex = 'L'
+meaning = "the lift"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag, and in Equations 34 and 35 the propeller diameter"
+
+[[symbol]]
+tex = 'e'
+meaning = "the Oswald efficiency, taken as 0.90"
+
+[[symbol]]
+tex = 'A'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'C_{D_0}'
+meaning = "the zero-lift drag coefficient, taken as 0.012"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient, with $C_L^{\\ast}$ its value at best glide"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing area"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'V_{bg}'
+meaning = "the best-glide speed, with $V_{mp}$ the minimum-power speed"
+
+[[symbol]]
+tex = 'p'
+meaning = "the roll rate, and in Equation 26 the sound pressure"
+
+[[symbol]]
+tex = 'y'
+meaning = "the spanwise station"
+
+[[symbol]]
+tex = 'C_{n_p}'
+meaning = "the yawing moment derivative due to roll rate"
+
+[[symbol]]
+tex = 'C_{n_\beta}'
+meaning = "the directional stiffness derivative"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the sideslip angle"
+
+[[symbol]]
+tex = 'C_{l_{\delta_a}}'
+meaning = "the aileron roll power"
+
+[[symbol]]
+tex = 'C_{l_p}'
+meaning = "the roll damping derivative"
+
+[[symbol]]
+tex = 'pb/2V'
+meaning = "the helix angle of a steady roll"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the bank angle"
+
+[[symbol]]
+tex = 'C_{L_{max}}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'P'
+meaning = "the power required"
+
+[[symbol]]
+tex = '\text{SPL}'
+meaning = "the sound pressure level"
+
+[[symbol]]
+tex = 'L_{amb}'
+meaning = "the ambient sound level"
+
+[[symbol]]
+tex = 'r'
+meaning = "the slant range from source to listener"
+
+[[symbol]]
+tex = 'N_b'
+meaning = "the number of propeller blades"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the atmospheric absorption coefficient"
+
+[[symbol]]
+tex = 'V_{tip}'
+meaning = "the propeller tip speed"
+
+[[symbol]]
+tex = 'J'
+meaning = "the advance ratio"
+
+[[symbol]]
+tex = 'M_{tip}'
+meaning = "the tip Mach number"

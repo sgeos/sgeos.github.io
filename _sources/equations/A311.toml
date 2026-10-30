@@ -1,0 +1,1131 @@
+# Equation classification for A311. Read by `python3 _lib/equations.py`.
+
+caution = "Control power CP is an angular acceleration in radians per second squared, the forces and weights are mostly in pounds while the disturbance and multirotor relations are in newtons and metres, $T_{0}$ is the total temperature of the bleed air in the nozzle relations but the uninstalled thrust in the bleed and margin relations, $\\beta$ is a fraction of thrust in the opening bound and a bled fraction of airflow thereafter, and $\\delta$, $A$ and $R$ each carry more than one meaning."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Bounds on Control Power"
+gloss = "The article frames the requirement as an inequality, with control power above the worst disturbance acceleration and below what the thrust margin fraction $\\beta_{\\max} = (T - W)/T$ can buy."
+cite = []
+digest = "a2341849e79eb43e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Control Power as Moment over Inertia"
+gloss = "Control power is the maximum control moment about an axis divided by the moment of inertia about that axis."
+cite = ["research_greif_1972"]
+digest = "27d275fb9d0db37d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Moment of a Differential Nozzle Pair"
+gloss = "Two nozzles acting differentially at a distance $\\ell$ either side of the centre of mass produce a moment of $2 F \\ell$."
+cite = []
+digest = "1862d99f4a8d9f15"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Control Power of a Differential Nozzle Pair"
+gloss = "The control power of the nozzle pair is twice the nozzle force times the arm over the inertia."
+cite = []
+digest = "622b20e6baf709ea"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Identical Attitude Dynamics of Two Aircraft"
+gloss = "Two aircraft with the same control power and the same damping per unit inertia obey the same attitude equation and so respond identically to identical inputs."
+cite = []
+digest = "d6b91a14ea933f01"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Single-Axis Attitude Dynamics with Rate Damping"
+gloss = "The inertia times the angular acceleration equals the control moment less a damping moment proportional to the angular rate."
+cite = []
+digest = "4ff73acdb3dae1f7"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Normalised Attitude Dynamics"
+gloss = "Dividing by the inertia writes the angular acceleration as the control power times the normalised input less the damping per unit inertia times the rate."
+cite = []
+digest = "bff6a4af37326c4c"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Attitude Transfer Function"
+gloss = "The Laplace transform of the normalised dynamics gives a transfer function from input to attitude with a pole at the origin and a pole at the damping value."
+cite = []
+digest = "58c452b377e613ad"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Characteristic Time of the Damped Attitude Response"
+gloss = "The characteristic time is the inertia over the damping, the reciprocal of the damping per unit inertia."
+cite = []
+digest = "ae7fcd145efec9f5"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Characteristic Times at the Three Flown Dampings"
+gloss = "The dampings of 0.55, 1.75 and 2.9 per second flown in the lateral experiments give characteristic times of 1.82, 0.571 and 0.345 seconds."
+cite = ["research_rolls_1965_2"]
+digest = "633aec4f2b1806c9"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Rate Response to a Step of Full Control"
+gloss = "After a step of full control the angular rate approaches its limit exponentially with the characteristic time."
+cite = []
+digest = "bd7350cb3934fb7c"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Steady Rate at Full Control"
+gloss = "The steady angular rate at full control is the control power over the damping per unit inertia."
+cite = []
+digest = "3396c63a1af59eaf"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Steady Rates at Maximum Control Power"
+gloss = "At the maximum control power of 2.0 radians per second squared the three flown dampings give steady rates of 3.64, 1.14 and 0.690 radians per second."
+cite = ["research_rolls_1965_2"]
+digest = "839d6312834cf649"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Undamped Double Integrator"
+gloss = "With no damping the attitude after a step of full control grows as half the control power times the square of the time."
+cite = []
+digest = "ecf2c73bf6da716c"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Bank Angle After One Second Undamped"
+gloss = "One second of full control at 2.0 radians per second squared with no damping banks the aircraft through one radian."
+cite = []
+digest = "8a3211c84cc964ae"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Nozzle Thrust from Mass Flow and Exit Velocity"
+gloss = "The momentum thrust of a reaction nozzle is the mass flow times the exit velocity."
+cite = []
+digest = "4d2bbb0592c9c52e"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Exit Velocity of a Choked Convergent Nozzle"
+gloss = "For a choked convergent nozzle the exit velocity is the sonic velocity at the throat, set by the ratio of specific heats, the gas constant and the total temperature."
+cite = []
+digest = "9222673f17b6e86c"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Choked Mass Flow"
+gloss = "The mass flow through a choked nozzle is the throat area times the total pressure times a function of the total temperature and the ratio of specific heats."
+cite = []
+digest = "932f100eece64e2b"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Thrust per Unit Mass Flow"
+gloss = "The thrust per unit mass flow of the momentum term is the exit velocity."
+cite = []
+digest = "a9fca4a96793c79b"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Sonic Nozzle Thrust Including Pressure Thrust"
+gloss = "The design report writes the thrust of a sonic nozzle with velocity and discharge coefficients and a pressure term relative to the atmosphere."
+cite = ["research_pauli_1965"]
+digest = "679c7cfe9756a198"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Total Reaction Force of the X-14A"
+gloss = "The report's coefficients, exit area and supply pressure give a total reaction force of 500.7 pounds."
+cite = ["research_pauli_1965"]
+digest = "eaf05242515ade01"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Bleed Removed by the Tip-Turbine Fans"
+gloss = "A 20 percent reduction of the ten percent bleed removes two percent of the engines' airflow."
+cite = ["research_rolls_gerdes_1969"]
+digest = "cc6dcf7f10e71e56"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Linear Bleed Thrust Model"
+gloss = "The article assumes that thrust falls linearly with the bled fraction of airflow $\\beta$ at a rate $s$."
+cite = []
+digest = "b200c18b1f6b2bb4"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Bleed Cost Rate from the Reported Gain"
+gloss = "Under the linear bleed model the reported thrust gain $\\delta$ on removing a bleed $\\Delta\\beta$ fixes the rate $s$."
+cite = []
+digest = "e3de2a7d7b0f2635"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Evaluated Bleed Cost Rate"
+gloss = "Substituting the reported four percent thrust gain into the linear model gives a rate of five thirds."
+cite = []
+digest = "596275b685bc59fe"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Thrust Cost of the Full Bleed"
+gloss = "Assuming that the same linear rate holds over the whole ten percent bleed, the reaction controls cost a sixth of the thrust."
+cite = []
+digest = "4d8388b731c5b2f8"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Hover Thrust Margin"
+gloss = "A hovering aircraft's useful output is the excess of its thrust over its weight."
+cite = []
+digest = "807cf32576972c37"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Uninstalled Thrust-to-Weight Ratio"
+gloss = "The rated 5,360 pounds of the two J85-GE-5 engines over the 3,700 pound test weight gives 1.449."
+cite = ["ref_j85"]
+digest = "e7b1a822eb5090b9"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Installation Efficiency"
+gloss = "The article defines the installation efficiency as the thrust the aircraft actually had available over the rated uninstalled thrust."
+cite = []
+digest = "72f0f047bea030ed"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Installation Efficiency at the Reported Bounds"
+gloss = "The reported available thrust-to-weight ratios of 1.1 and 1.2 give installation efficiencies of 0.759 and 0.828."
+cite = []
+digest = "90d24049838bf367"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Diverter and Bleed Product"
+gloss = "Applying the X-14B diverter efficiency of 0.91 to the earlier aircraft and the estimated bleed cost of a sixth gives 0.758."
+cite = ["research_loscutoff_1973"]
+digest = "0f40ac40c8393603"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Thrust Spent on Bleed"
+gloss = "The estimated bleed cost of a sixth of the rated thrust is 893 pounds."
+cite = []
+digest = "5b7c68ee8212df95"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Share of the Pre-Bleed Margin on the Estimate"
+gloss = "The estimated 893 pounds of bleed consumes 70.7 percent of the pre-bleed margin at a thrust-to-weight ratio of 1.1 and 54.7 percent at 1.2."
+cite = []
+digest = "8f1e4a0f41c3005d"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Share of the Pre-Bleed Margin on the Proportional Floor"
+gloss = "If thrust falls only in proportion to the air removed, the 536 pound bleed consumes 59.2 and 42.0 percent of the pre-bleed margin."
+cite = []
+digest = "a258b13c8c6e2729"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Margin Share Consumed by Control"
+gloss = "The article defines $\\Phi$ as the bleed thrust over the pre-bleed margin, the share of that margin spent on control."
+cite = []
+digest = "c5519f5a4ef3636b"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Wind Side Force"
+gloss = "A steady wind on a side area produces a force equal to the dynamic pressure of the wind times the area times the drag coefficient."
+cite = []
+digest = "892c3008cce1523d"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Side Force in a Ten Metre per Second Wind"
+gloss = "The side force is evaluated at a representative side area of eight square metres and a drag coefficient of 0.8, giving 392 newtons."
+cite = []
+digest = "c2766f03795eab77"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Roll Disturbance from the Wind"
+gloss = "The wind force acting through an assumed offset of one metre on the design roll inertia gives 0.247 radians per second squared."
+cite = []
+digest = "1522ab0b7c24b9fb"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Translational Acceleration from the Wind"
+gloss = "The wind force from the representative side area and drag coefficient accelerates the 1,678 kilogramme aircraft at 0.234 metres per second squared."
+cite = []
+digest = "207adf7ae2df8974"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Station-Keeping Tilt"
+gloss = "Holding station against the wind acceleration from the representative side area requires a tilt of 1.36 degrees."
+cite = []
+digest = "2a487d03d0086ce5"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Uncorrected Wind Drift"
+gloss = "Leaving the wind acceleration uncorrected for ten seconds costs 11.7 metres."
+cite = []
+digest = "93e1e808dc5ed943"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Disturbance as a Fraction of Control Power"
+gloss = "The experimental design held the peak disturbance at four tenths of the available control power."
+cite = ["research_greif_1972"]
+digest = "7afac01f991e0e04"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Control Power Left to the Pilot"
+gloss = "The article treats the disturbance as taking a fixed share $\\sigma$ of the control power, so the pilot has the remaining $(1 - \\sigma)$."
+cite = []
+digest = "9c4abde900decefa"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Pilot Authority at the Tested Extremes"
+gloss = "With the fixed disturbance share, the maximum and minimum control powers leave 1.2 and 0.48 radians per second squared to the pilot."
+cite = []
+digest = "01d856c9009c6df9"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Product of the Two Fractions"
+gloss = "The share of the pre-bleed margin reaching the pilot is the margin share spent on control times the share of control power not spent on disturbances."
+cite = []
+digest = "0d912072f16441a3"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Pilot Share of the Pre-Bleed Margin"
+gloss = "On the estimated bleed cost the pilot receives 42.4 and 32.8 percent of the pre-bleed margin at the two reported thrust-to-weight ratios."
+cite = []
+digest = "46812e079315d553"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Nozzle Sizing Relation of the Design Report"
+gloss = "The report sizes each nozzle by the inertia times the wanted angular acceleration over the moment arm."
+cite = ["research_pauli_1965"]
+digest = "3d59350838d2dcb3"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Roll Inertia in Kilogramme Square Metres"
+gloss = "The design report's roll inertia of 1,170 slug square feet is 1,586 kilogramme square metres."
+cite = ["research_pauli_1965"]
+digest = "4a8415c9ff3ed923"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Check of the Report's Roll Force"
+gloss = "The report's roll inertia, roll control power and wingtip arm give 127.4 pounds against the 127.2 it lists."
+cite = ["research_pauli_1965"]
+digest = "a9d8ebdeed0f0f15"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Roll Radius of Gyration from the 1965 Inertia"
+gloss = "The 1965 roll inertia at the 3,700 pound test weight gives a roll radius of gyration of 3.19 feet."
+cite = []
+digest = "a816e3f7fe0a57e2"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Roll Radius of Gyration as a Fraction of Span"
+gloss = "Against the 33.83 foot span the roll radius of gyration is 0.094 of the span."
+cite = ["research_hoffman_1972"]
+digest = "8f8bdd37937bab76"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Roll Radius of Gyration from the 1972 Inertia"
+gloss = "The later roll inertia of 2,340 slug square feet at 129.9 slugs gives 4.24 feet, or 0.125 of the span."
+cite = ["research_hoffman_1972"]
+digest = "24baa24da30bb3e2"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Moment of Wingtip Nozzles"
+gloss = "With nozzles at the wingtips the control moment is the differential force times the span."
+cite = []
+digest = "2cd00c6fbfb3f0a4"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Roll Inertia Under Geometric Similarity"
+gloss = "The roll inertia is the mass times the square of a radius of gyration that is proportional to the span for geometrically similar aircraft."
+cite = []
+digest = "606003080563aa70"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Scaling of Control Power with Force, Mass and Span"
+gloss = "Combining the wingtip moment with the scaled inertia makes control power vary as the force over the mass times the span."
+cite = []
+digest = "eea3c1fbbd604bd7"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Hover Thrust Proportional to Mass"
+gloss = "A hovering aircraft has thrust approximately equal to its weight and therefore proportional to its mass."
+cite = []
+digest = "5612307a5ca4e260"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Reaction Force at a Fixed Bleed Fraction"
+gloss = "The article holds the bleed fraction fixed across sizes, so the reaction force is proportional to the thrust and hence to the mass."
+cite = []
+digest = "e1950fa387d775d1"
+
+[[equation]]
+tag = 58
+class = "bespoke"
+title = "Bespoke Inverse-Span Law for Control Power"
+gloss = "At a fixed bleed fraction under geometric similarity control power is inversely proportional to the span."
+cite = []
+digest = "dba77121efff9511"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Share of Bleed Used by the Pilot's Nozzles"
+gloss = "The pilot's 97.8 pounds of pitch force and 127.2 pounds of roll and yaw force are 0.449 of the 500.7 pound total."
+cite = ["research_pauli_1965"]
+digest = "0884368bcf0afa5c"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Thrust Cost of the Pilot's Nozzles"
+gloss = "The pilot's 4.49 percent of airflow at the estimated bleed cost rate of 1.67 costs 0.0749 of the thrust."
+cite = []
+digest = "cca10e9450cbfb78"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Bleed Fraction Required as a Function of Span"
+gloss = "Holding the pilot's roll control power under the inverse-span law and the estimated bleed cost rate makes the thrust cost grow linearly with span."
+cite = []
+digest = "c80a63598f17370d"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Span at Which Bleed Consumes the Margin"
+gloss = "For an assumed thrust margin of twenty percent the bleed consumes the whole margin at a span of 27.5 metres."
+cite = []
+digest = "0d130f2313bed19d"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Tip Force for a Required Control Power"
+gloss = "Taking the roll radius of gyration as a fixed fraction $\\kappa_{r}$ of span and the arm as half the span, the net tip force grows with the product of mass and span."
+cite = []
+digest = "33d61b4636c9d89a"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Tip Force at the Do 31 Span"
+gloss = "Applying the X-14A proportions to the Do 31 span and landing mass at 2.0 radians per second squared gives 11,187 newtons."
+cite = ["research_holzhauser_1972"]
+digest = "fdf17c69cc7ddcf7"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Control Force per Pound of Thrust Given Up"
+gloss = "The 500.7 pounds of reaction force bought with an estimated 893 or a floor of 536 pounds of thrust gives 0.561 and 0.934."
+cite = []
+digest = "0c0fed0a2e08dccd"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Thrust-to-Weight Ratios of the Original Vipers"
+gloss = "Either Viper rating gives a pair thrust below the 3,700 pound test weight, at ratios of 0.946 and 0.843."
+cite = ["ref_viper", "ref_aviastar_x14"]
+digest = "aa80bfb14f5ab41a"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Vertical Thrust Through the Diverter"
+gloss = "The vertical thrust available is the turning efficiency times the thrust."
+cite = []
+digest = "5605dd9b2bb40a67"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Thrust Available for Lifting"
+gloss = "The thrust available for lifting combines the turning efficiency with the linear bleed model."
+cite = []
+digest = "8771bdc1d7e9257e"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Thrust Components at a Diverter Deflection"
+gloss = "At a deflection $\\delta$ from the vertical the turned thrust splits into vertical and horizontal components by the cosine and sine."
+cite = []
+digest = "d88708843950eeaa"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Constraint Between Thrust Components"
+gloss = "The squares of the normalised vertical and horizontal components sum to one."
+cite = []
+digest = "df0baa48643203ac"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Lifting Thrust-to-Weight Ratio on the Estimate"
+gloss = "Applying the X-14B diverter efficiency and the estimated bleed cost of a sixth to the J85-GE-5 rating gives 1.099."
+cite = ["research_loscutoff_1973"]
+digest = "f8d2e8d845caddd8"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Lifting Thrust-to-Weight Ratio on the Floor"
+gloss = "The same product on the proportional bleed floor of 0.10 gives 1.186."
+cite = []
+digest = "992eb6e0a29125c4"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Uninstalled Ratio of the J85-GE-19"
+gloss = "The rated 6,030 pounds of the two later engines over the 3,700 pound weight gives 1.630."
+cite = ["ref_j85"]
+digest = "c479041765785c5d"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Lifting Ratio of the X-14B"
+gloss = "Assuming the later engines bled the same fraction at the estimated cost, the diverter and bleed deductions leave 1.236."
+cite = []
+digest = "7233964bafc2bf40"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Ratio of the Wingtip and Tail Arms"
+gloss = "The report's wingtip arm of 16.9 feet over its tail arm of 18.75 feet is 0.901."
+cite = ["research_pauli_1965"]
+digest = "6fafdc43017fdadb"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Pitch to Roll Nozzle Force for Equal Control Power"
+gloss = "For equal control power the pitch nozzle force over the roll nozzle force is the inertia ratio times the arm ratio, 1.53."
+cite = ["research_pauli_1965"]
+digest = "3831974182e74455"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Net Roll Force for a Tested Control Power"
+gloss = "The net roll force needed is the control power times the roll inertia over the wingtip arm."
+cite = []
+digest = "d0107c3bef45e4cb"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Authority Left After the Damping Loop"
+gloss = "The article budgets the variable-stability set so that the authority left for augmentation is its total less the damping per unit inertia times the roll rate."
+cite = []
+digest = "39fb408706fc6cb6"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Saturation Rate of the Damping Loop"
+gloss = "The roll rate at which the damping loop alone exhausts the variable-stability set is its authority over the synthesised damping."
+cite = []
+digest = "a48f97dc0ebac887"
+
+[[equation]]
+tag = 80
+class = "bespoke"
+title = "Bespoke Saturation Rates at the Flown Dampings"
+gloss = "The authority budget gives saturation rates of 3.02, 0.949 and 0.572 radians per second at the three flown dampings."
+cite = []
+digest = "fc3313a4887c4444"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Damping Ceiling with Reserved Authority"
+gloss = "Reserving a fraction $\\lambda$ of the set for augmentation caps the damping that can be synthesised at a working roll rate $p$."
+cite = []
+digest = "ff52961de588ff38"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Damping Ceiling at Thirty Degrees per Second"
+gloss = "Reserving an assumed half of the set at an assumed working rate of thirty degrees per second caps the damping at 1.59 per second."
+cite = []
+digest = "53e58f8ff649123b"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Rate at Which Half the Set Is Spent"
+gloss = "At the highest flown damping half of the variable-stability set is spent at 16.4 degrees per second."
+cite = []
+digest = "7648b89837a83235"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Undamped Attitude Response to Control"
+gloss = "With zero damping the angular acceleration is the control power times the normalised input."
+cite = []
+digest = "5cc46c634bc56020"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Horizontal Acceleration from Tilt"
+gloss = "A hovering aircraft tilted by $\\theta$ accelerates horizontally at $g \\tan\\theta$, approximately $g \\theta$ at small angles."
+cite = []
+digest = "d0bb2ef9697e42f9"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Undamped Position Transfer Function"
+gloss = "Composing the undamped attitude and translation relations makes position the fourth integral of the control input."
+cite = []
+digest = "6cbfface2cb94192"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Damped Position Transfer Function"
+gloss = "Restoring the rate damping places one of the four poles at the damping value."
+cite = []
+digest = "b95f2737fd430200"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Low-Frequency Form of the Position Transfer Function"
+gloss = "Below the break frequency set by the damping the position loop behaves as a third-order integrator."
+cite = []
+digest = "0e5ab856940b65f3"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Drift from One Degree of Tilt over Ten Seconds"
+gloss = "A mean tilt of one degree held for ten seconds moves the aircraft 8.6 metres."
+cite = []
+digest = "95eb14e3c88d2622"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Aspect Ratio and Wing Loading"
+gloss = "The span and wing area give an aspect ratio of 6.26 and at the test weight a wing loading of 970 newtons per square metre."
+cite = ["research_hoffman_1972"]
+digest = "a736b2c2ffdef2f0"
+
+[[equation]]
+tag = 91
+class = "bespoke"
+title = "Bespoke Resolution of the Control Power Grid"
+gloss = "The article measures the resolution of the experiment as the 0.6 grid spacing over a candidate threshold of 1.4 or 2.0."
+cite = []
+digest = "1b0e2169af0d8408"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Symmetric Rotor Differential"
+gloss = "The article bounds the symmetric differential of each rotor by the smaller of the upward headroom and the downward reserve at the hover thrust $mg/n$."
+cite = []
+digest = "69bc639ca06cd119"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Multirotor Control Moment"
+gloss = "Summing the bounded differentials with a geometry factor $c_{g}$ at rotor radius $R$ gives a moment in which the rotor count cancels."
+cite = []
+digest = "7641c6cc26bbdec2"
+
+[[equation]]
+tag = 94
+class = "bespoke"
+title = "Bespoke Multirotor Control Power"
+gloss = "Dividing the moment by the inertia written with a radius of gyration $k$ gives a control power in which the mass cancels."
+cite = []
+digest = "6510aefd9692f721"
+
+[[equation]]
+tag = 95
+class = "bespoke"
+title = "Bespoke Inverse-Span Law for a Multirotor"
+gloss = "Putting the radius of gyration at a fraction $\\kappa$ of span and the rotor radius at half the span makes multirotor control power inversely proportional to span."
+cite = []
+digest = "038e5b08e5da685a"
+
+[[equation]]
+tag = 96
+class = "standard"
+title = "Zero-Sum Differential Thrust"
+gloss = "A pure moment command on a multirotor raises some rotors exactly as much as it lowers others, so the thrust changes sum to zero."
+cite = []
+digest = "fe205d0742abef05"
+
+[[equation]]
+tag = 97
+class = "bespoke"
+title = "Bespoke Span at Which a Multirotor Falls to the X-14A Maximum"
+gloss = "Setting the multirotor relation equal to 2.0 radians per second squared gives the span at which a vehicle of given margin falls to the X-14A maximum."
+cite = []
+digest = "c295a4de43e0d7dd"
+
+[[equation]]
+tag = 98
+class = "standard"
+title = "First-Order Lag Response"
+gloss = "For a first-order lag of time constant $\\tau_{c}$ the fraction of a commanded moment present after a time $t$ is $1 - e^{-t/\\tau_{c}}$."
+cite = []
+digest = "cdd93328fa05402f"
+
+[[equation]]
+tag = 99
+class = "standard"
+title = "Moment Fraction at 0.2 Seconds"
+gloss = "At 0.2 seconds the open-loop fan, the closed-loop fan and the reaction nozzles deliver 29.2, 44.5 and 91.8 percent of the commanded moment."
+cite = ["research_rolls_gerdes_1969"]
+digest = "b2240b49e7a64e7b"
+
+[[equation]]
+tag = 100
+class = "standard"
+title = "Angular Acceleration of a Sinusoidal Attitude"
+gloss = "Tracking an attitude oscillation of amplitude $A$ at frequency $\\omega$ requires a peak angular acceleration of $A \\omega^{2}$."
+cite = []
+digest = "7dd8748e47e45957"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Bandwidth Cap at the Available Control Power"
+gloss = "Saturation at the available control power caps the trackable frequency at the square root of the control power over the amplitude."
+cite = []
+digest = "72052b6f9004052e"
+
+[[equation]]
+tag = 102
+class = "standard"
+title = "Bandwidth Caps at Five Degrees of Amplitude"
+gloss = "At five degrees of amplitude control powers of 0.8 and 2.0 support 3.03 and 4.79 radians per second."
+cite = []
+digest = "5fd03de5382635ed"
+
+[[equation]]
+tag = 103
+class = "standard"
+title = "Amplitude Cap at Two Radians per Second"
+gloss = "A control power of 0.8 sustains two radians per second up to an amplitude of 0.2 radians."
+cite = []
+digest = "03a3842977da0c16"
+
+[[equation]]
+tag = 104
+class = "standard"
+title = "Attitude Dynamics Without Gravity"
+gloss = "The angular acceleration is the moment over the inertia and contains no gravitational term."
+cite = []
+digest = "a174e0672d35e620"
+
+[[equation]]
+tag = 105
+class = "standard"
+title = "Horizontal Acceleration of a Tilted Hover"
+gloss = "A vehicle holding height and tilted by $\\theta$ accelerates horizontally at $g \\tan\\theta$."
+cite = []
+digest = "ae72a3cbdb1ebb21"
+
+[[equation]]
+tag = 106
+class = "standard"
+title = "Ratio of Terrestrial to Lunar Gravity"
+gloss = "Terrestrial gravity is 6.05 times lunar gravity."
+cite = []
+digest = "0afb4ed12f3a34c8"
+
+[[equation]]
+tag = 107
+class = "standard"
+title = "Lunar Translation Timescale Ratio"
+gloss = "Because distance under constant acceleration goes as the square of time, the lunar translation timescale is longer by the square root of the gravity ratio, 2.46."
+cite = []
+digest = "e84dd3e74ed10110"
+
+[[equation]]
+tag = 108
+class = "standard"
+title = "Terrestrial Drift at Five Degrees for Five Seconds"
+gloss = "Five degrees of tilt held for five seconds moves a vehicle 10.7 metres on Earth."
+cite = []
+digest = "bc34efe548754d73"
+
+[[equation]]
+tag = 109
+class = "standard"
+title = "Lunar Drift at Five Degrees for Five Seconds"
+gloss = "The same tilt and time move a vehicle 1.8 metres on the Moon."
+cite = []
+digest = "554a61d795e2bf63"
+
+[[equation]]
+tag = 110
+class = "standard"
+title = "Lunar to Terrestrial Hover Thrust"
+gloss = "A vehicle hovering on the Moon needs the gravity ratio, 0.165, of the thrust it needs on Earth."
+cite = []
+digest = "98a49d1dfe9ee6f9"
+
+[[equation]]
+tag = 111
+class = "standard"
+title = "Equal Horizontal Acceleration Under Two Gravities"
+gloss = "Equal horizontal acceleration requires the tangent of the lunar tilt to be 6.05 times that of the terrestrial tilt."
+cite = []
+digest = "7071412fc4ff3749"
+
+[[equation]]
+tag = 112
+class = "standard"
+title = "Lunar Tilt Equivalent to Five Degrees on Earth"
+gloss = "Five degrees of terrestrial tilt corresponds to 27.9 degrees on the Moon."
+cite = []
+digest = "361ae9828f109f83"
+
+[[equation]]
+tag = 113
+class = "standard"
+title = "Weight Fraction Carried by the Lunar Landing Research Vehicle Jet"
+gloss = "Cancelling five sixths of the weight leaves the jet carrying 83.5 percent of the vehicle."
+cite = ["ref_llrv"]
+digest = "2c182a28020e1f2a"
+
+[[equation]]
+tag = 114
+class = "bespoke"
+title = "Bespoke Time for a Hover Position Correction"
+gloss = "The article models a correction as two symmetric accelerate-and-arrest attitude changes at full control power plus a constant-tilt translation over a distance $d$."
+cite = []
+digest = "03d35b4818f8ed73"
+
+[[equation]]
+tag = 115
+class = "bespoke"
+title = "Bespoke Stationarity Condition for the Correction Time"
+gloss = "Differentiating the small-angle form of the correction time with respect to tilt and setting it to zero gives the stationarity condition."
+cite = []
+digest = "b6c0b2eaa92c8336"
+
+[[equation]]
+tag = 116
+class = "bespoke"
+title = "Bespoke Optimal Correction Tilt"
+gloss = "The stationarity condition of the correction model solves to an optimal tilt of half the square root of the control power times the distance over gravity."
+cite = []
+digest = "0ebda5a9921f3a37"
+
+[[equation]]
+tag = 117
+class = "bespoke"
+title = "Bespoke Equal Split of the Correction Time"
+gloss = "At the optimal tilt of the correction model the attitude term and the translation term are equal."
+cite = []
+digest = "88e6f35185908b61"
+
+[[equation]]
+tag = 118
+class = "bespoke"
+title = "Bespoke Elasticity of Correction Time to Control Power"
+gloss = "Across the tested range the correction model gives a local exponent of about minus a quarter for the time with respect to control power."
+cite = []
+digest = "747264e510072d09"
+
+[[symbol]]
+tex = '\text{CP}'
+meaning = "the control power, the angular acceleration the control system can produce"
+
+[[symbol]]
+tex = 'M_{\text{control}}'
+meaning = "the maximum control moment about an axis"
+
+[[symbol]]
+tex = 'I'
+meaning = "the moment of inertia about the axis considered"
+
+[[symbol]]
+tex = 'F'
+meaning = "the nozzle force"
+
+[[symbol]]
+tex = '\ell'
+meaning = "the distance of each nozzle from the centre of mass"
+
+[[symbol]]
+tex = 'u'
+meaning = "the normalised control input between minus one and one"
+
+[[symbol]]
+tex = 'D/I'
+meaning = "the damping per unit inertia in inverse seconds"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the characteristic time of the damped attitude response"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the nozzle mass flow"
+
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the nozzle exit velocity"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'T_{0}'
+meaning = "the total temperature of the bleed air, and in the bleed and margin relations the uninstalled thrust"
+
+[[symbol]]
+tex = 'p_{0}'
+meaning = "the total pressure at the nozzle"
+
+[[symbol]]
+tex = 'p_{a}'
+meaning = "the atmospheric pressure"
+
+[[symbol]]
+tex = 'C_{v}'
+meaning = "the nozzle velocity coefficient"
+
+[[symbol]]
+tex = 'C_{d}'
+meaning = "the nozzle discharge coefficient"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the fraction of airflow bled for control, and in the opening bound a fraction of thrust"
+
+[[symbol]]
+tex = 's'
+meaning = "the fractional thrust lost per unit fraction of airflow bled"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'W'
+meaning = "the aircraft weight"
+
+[[symbol]]
+tex = 'r'
+meaning = "the thrust-to-weight ratio"
+
+[[symbol]]
+tex = '\eta_{\text{inst}}'
+meaning = "the installation efficiency"
+
+[[symbol]]
+tex = '\eta_{d}'
+meaning = "the thrust diverter efficiency"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the share of the pre-bleed hover margin consumed by the control system"
+
+[[symbol]]
+tex = 'V_{w}'
+meaning = "the wind speed"
+
+[[symbol]]
+tex = 'S_{s}'
+meaning = "the side area exposed to the wind"
+
+[[symbol]]
+tex = 'C_{D}'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the disturbance as a fraction of the available control power"
+
+[[symbol]]
+tex = 'I_{x}'
+meaning = "the moment of inertia in roll"
+
+[[symbol]]
+tex = 'I_{y}'
+meaning = "the moment of inertia in pitch"
+
+[[symbol]]
+tex = 'k_{x}'
+meaning = "the roll radius of gyration"
+
+[[symbol]]
+tex = 'b'
+meaning = "the wing span"
+
+[[symbol]]
+tex = 'm'
+meaning = "the aircraft mass"
+
+[[symbol]]
+tex = 'L_{w}'
+meaning = "the wingtip nozzle arm"
+
+[[symbol]]
+tex = 'L_{t}'
+meaning = "the tail nozzle arm"
+
+[[symbol]]
+tex = '\kappa_{r}'
+meaning = "the roll radius of gyration as a fraction of span"
+
+[[symbol]]
+tex = '\text{CP}_{v}'
+meaning = "the authority of the variable-stability nozzle set"
+
+[[symbol]]
+tex = 'p'
+meaning = "the roll rate"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the fraction of the variable-stability set reserved for augmentation"
+
+[[symbol]]
+tex = 'c_{g}'
+meaning = "the geometry factor of a multirotor layout"
+
+[[symbol]]
+tex = 'n'
+meaning = "the number of rotors"
+
+[[symbol]]
+tex = '\tau_{c}'
+meaning = "the first-order time constant of a control effector"
+
+[[symbol]]
+tex = 'g_{e}'
+meaning = "the gravitational acceleration at the surface of the Earth"
+
+[[symbol]]
+tex = 'g_{m}'
+meaning = "the gravitational acceleration at the surface of the Moon"
+
+[[symbol]]
+tex = '\theta^{*}'
+meaning = "the tilt that minimises the time of a hover position correction"
+
+[[symbol]]
+tex = 'd'
+meaning = "the distance of a hover position correction"

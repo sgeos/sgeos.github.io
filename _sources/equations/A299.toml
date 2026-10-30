@@ -1,0 +1,1151 @@
+# Equation classification for A299. Read by `python3 _lib/equations.py`.
+
+caution = "Each equation uses the units of the International System stated in its section, with the final flight at Mach 3.196 and 19,992 metres as the reference condition, inertias converted from slug square feet to kilogram square metres, and several letters changing meaning between sections, so $b$, $e$, $k$, $p$, $\\beta$, $\\lambda$ and $\\mu_m$ are read from the nearest prose."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Adiabatic Stagnation Temperature"
+gloss = "Decelerating the free stream adiabatically to rest raises its temperature by a factor that grows with the square of the Mach number."
+cite = ["ref_stagnation_temperature"]
+digest = "8682e993b1e115b5"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Isentropic Stagnation Pressure and Density Ratios"
+gloss = "The stagnation pressure and density ratios of isentropic flow are powers of the stagnation temperature ratio fixed by the ratio of specific heats."
+cite = ["research_naca_1135"]
+digest = "9e666507b10bd538"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Mach Angle"
+gloss = "A weak disturbance in supersonic flow propagates along a cone whose half-angle is the inverse sine of the reciprocal Mach number."
+cite = []
+digest = "5ed0f33e160e1d08"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Normal Shock Pressure and Temperature Ratios"
+gloss = "The Rankine-Hugoniot relations give the static pressure and temperature ratios across a normal shock as functions of the upstream Mach number."
+cite = ["ref_shock_wave"]
+digest = "31a89c652cadeb45"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Recovery Temperature and Recovery Factors"
+gloss = "The recovery temperature is the free-stream temperature raised by the recovery factor times the stagnation rise, with the factor near the square root of the Prandtl number for laminar flow and its cube root for turbulent flow."
+cite = ["ref_prandtl_number"]
+digest = "1015f1cb28998b37"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Ratio of Specific Heats with Vibrational Excitation"
+gloss = "Treating each diatomic molecule as a harmonic oscillator adds a vibrational term to the specific heat at constant volume, which lowers the ratio of specific heats once the temperature approaches the characteristic vibrational temperature."
+cite = []
+digest = "742e053bc05b4833"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Convective Heat Flux"
+gloss = "The convective heat flux is the heat transfer coefficient times the difference between the recovery and wall temperatures."
+cite = ["ref_heat_flux"]
+digest = "352d13aef7f62c70"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Stanton Number and the Reynolds Analogy"
+gloss = "The Stanton number normalises the heat transfer coefficient, and the Reynolds analogy relates it to half the skin friction coefficient corrected by the Prandtl number."
+cite = ["research_eckert_1956"]
+digest = "18c632026da1d125"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Prandtl and Nusselt Numbers"
+gloss = "The Prandtl number is the ratio of momentum to thermal diffusivity, and the Nusselt number is the ratio of convective to conductive heat transfer across a length."
+cite = ["ref_prandtl_number"]
+digest = "05c262290c3a7a19"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Fourier Law of Conduction"
+gloss = "The conductive heat flux vector in a solid is the negative thermal conductivity times the temperature gradient."
+cite = []
+digest = "764981e8c1bce8ee"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Local Turbulent Flat-Plate Skin Friction"
+gloss = "The local skin friction coefficient of a turbulent flat plate falls as the inverse fifth root of the Reynolds number based on distance from the leading edge."
+cite = []
+digest = "0ade44135a6ed0bc"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Sutherland Viscosity Law"
+gloss = "The dynamic viscosity of a gas varies with temperature through a reference pair and the Sutherland constant."
+cite = ["research_sutherland_1893"]
+digest = "c1d1abae0e375b41"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Unit Reynolds Number at the Mach 3.196 Condition"
+gloss = "The unit Reynolds number is evaluated with the standard atmosphere density at 19,992 metres, the Sutherland viscosity and the true airspeed of the final flight."
+cite = ["ref_reynolds_number"]
+digest = "09d2a6771b32ef15"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Ratio of Turbulent to Laminar Heating"
+gloss = "Dividing the turbulent and laminar flat-plate Stanton number correlations gives a heating ratio that grows as the three-tenths power of the local Reynolds number."
+cite = []
+digest = "70f4336ad1f9308f"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Sutton-Graves Stagnation-Point Heating Correlation"
+gloss = "The stagnation-point heat flux scales with the square root of density over nose radius and the cube of velocity."
+cite = ["research_fay_riddell_1958"]
+digest = "31206221a38f2f15"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Stagnation Heat Flux of the X-2"
+gloss = "The Sutton-Graves correlation is evaluated at the final-flight speed and density with an effective nose radius of 0.05 metres that the article assumes."
+cite = ["research_x2_mach32_1959"]
+digest = "fd021d1bbc5103a5"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Radiation Equilibrium Wall Temperature"
+gloss = "A wall that conducts no heat away settles at the temperature at which it radiates what it absorbs."
+cite = ["ref_stefan_boltzmann"]
+digest = "ae97f9880faa8553"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Biot Number"
+gloss = "The Biot number compares conduction resistance through the wall with convection resistance at its surface."
+cite = ["ref_biot_number"]
+digest = "6429a82feca2c655"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Lumped Transient Wall Heat Balance"
+gloss = "A thin wall with small Biot number stores heat at the rate convection delivers it less the rate it radiates."
+cite = []
+digest = "2db2ca533c6d7f51"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Thermal Mass per Unit Area"
+gloss = "The thermal mass per unit area of a skin is its density times its specific heat times its thickness."
+cite = []
+digest = "f100513ac1148612"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Initial Skin Heating Rate"
+gloss = "The initial heating rate divides the stagnation-point heat flux by the thermal mass of a 1.6 millimetre stainless steel skin, neglecting reradiation while the skin is cold."
+cite = []
+digest = "d162f98322984142"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Fourier Number and Thermal Diffusivity"
+gloss = "The Fourier number is the thermal diffusivity times time divided by the square of the wall thickness, and it measures how far conduction has equalised the wall."
+cite = ["ref_fourier_number"]
+digest = "3591f16a1808ac69"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Net Radiation to a Cold Sink"
+gloss = "The net radiative flux from a surface carries a view factor and an effective sink temperature."
+cite = []
+digest = "d50a6e78eb055689"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Skin Node of a Two-Lump Thermal Model"
+gloss = "The article treats skin and substructure as two lumped masses joined by a conductance per unit area, and the skin node gains convective heat and loses heat by radiation and by conduction to the substructure."
+cite = []
+digest = "b2d7ea2bb66e500d"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Substructure Node of a Two-Lump Thermal Model"
+gloss = "In the same two-lump model the substructure gains heat only by conduction from the skin."
+cite = []
+digest = "54a821b0c61b684a"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Equalisation Time of the Two-Lump Model"
+gloss = "The characteristic time for skin and substructure to equalise in the two-lump model is the reduced thermal mass divided by the joint conductance."
+cite = []
+digest = "d39b99a5b11922a6"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Thermal Shock Resistance Parameter"
+gloss = "The thermal shock resistance parameter rewards strength and conductivity and penalises stiffness and thermal expansion."
+cite = []
+digest = "0160ecc6cf3dd44c"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Integrated Heat Load"
+gloss = "The heat load is the time integral of the convective heat flux over the flight."
+cite = []
+digest = "d97ab7f29429c271"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Thermal Diffusion Depth"
+gloss = "The depth that heat diffuses in a time $t$ scales as the square root of the thermal diffusivity times that time."
+cite = []
+digest = "16fae4a859460c2e"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Temperature-Derated Specific Strength"
+gloss = "The material index is the allowable stress divided by density, evaluated at the skin temperature the trajectory produces."
+cite = []
+digest = "128e84fea369ea26"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Required Spar Cap Area"
+gloss = "The spar cap area is the bending moment divided by the product of the allowable stress and the structural depth."
+cite = []
+digest = "6da9e1053e5792ad"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Structural Mass Scaling with Derated Specific Strength"
+gloss = "For a given bending moment the structural mass scales as the density divided by the allowable stress at the wall temperature."
+cite = []
+digest = "dedaff0b5a64ef5d"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Larson-Miller Parameter"
+gloss = "The Larson-Miller parameter collapses temperature and rupture time into one quantity that is a single-valued function of stress for a given alloy."
+cite = ["ref_creep_deformation"]
+digest = "e5951a4e5795313f"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Rupture Time from the Larson-Miller Parameter"
+gloss = "Inverting the definition gives the logarithm of the rupture time at any temperature for a fixed parameter."
+cite = []
+digest = "11ad753fc6f3d32e"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Rupture Life Ratio Between Two Temperatures"
+gloss = "At constant stress the logarithm of the ratio of rupture times is the parameter times the difference of the reciprocal temperatures."
+cite = []
+digest = "d9b11d93a97725ff"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Rupture Life Penalty from 700 to 800 Kelvin"
+gloss = "The life ratio is evaluated for an assumed one-hour rupture life at 700 kelvin with a Larson-Miller constant of 20."
+cite = []
+digest = "d786063817590533"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Parabolic Oxidation Rate Law"
+gloss = "The square of the oxide scale thickness grows linearly with time at a rate constant with an Arrhenius dependence on temperature."
+cite = []
+digest = "23f80db2d431e5a2"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Thermal Stress of a Constrained Plate"
+gloss = "A plate constrained in its plane and heated by $\\Delta T$ develops a stress set by the elastic modulus, the expansion coefficient and the Poisson ratio."
+cite = ["ref_thermal_stress"]
+digest = "339eee3afdc28284"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Thermal Stress for a 100 Kelvin Gradient"
+gloss = "The thermal stress is evaluated for stainless steel properties and a skin-to-substructure temperature difference of one hundred kelvin that the article chose as modest."
+cite = []
+digest = "350df7f7d0cd7057"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Critical Buckling Stress of a Skin Panel"
+gloss = "A thin plate buckles at a stress proportional to the elastic modulus and the square of the ratio of skin thickness to stiffener pitch."
+cite = []
+digest = "ed9b108e8247131d"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Root Bending Moment of an Elliptically Loaded Wing"
+gloss = "The root bending moment of an elliptically loaded wing is linear in load factor, weight and span."
+cite = []
+digest = "8f49e57cad966c79"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Wing Loading and Corner Speed"
+gloss = "Wing loading is weight divided by wing area, and the corner speed is the lowest speed at which the maximum lift coefficient produces the limit load factor."
+cite = ["ref_wing_loading"]
+digest = "7bb8bda5d1b3d33e"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Simple Sweep Theory"
+gloss = "Only the component of the free stream normal to the leading edge governs the compressible behaviour, which reduces the effective Mach number and the lift-curve slope by the cosine of the sweep angle."
+cite = ["research_x2_mach32_1959"]
+digest = "d5b558bc80615f44"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Stall Speed of a Swept Wing"
+gloss = "Simple sweep theory reduces the maximum lift coefficient by the cosine of the sweep angle, which raises the stall speed."
+cite = []
+digest = "a7a43dea6be4a895"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Critical Mach Number of a Swept Wing"
+gloss = "Sweep raises the critical Mach number approximately by the inverse square root of the cosine of the sweep angle."
+cite = ["ref_transonic"]
+digest = "3d07d25311342481"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Root Bending Moment of a Swept Wing"
+gloss = "For a given span the spar of a swept wing is longer by the reciprocal cosine of the sweep angle, and the root bending moment rises by the same factor."
+cite = []
+digest = "88d9f97a78ce248d"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Torsional Divergence Dynamic Pressure"
+gloss = "A typical section diverges at the dynamic pressure at which the aerodynamic twisting moment per unit twist equals the torsional stiffness."
+cite = []
+digest = "6dc9cddc2994d277"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Aileron Reversal Dynamic Pressure"
+gloss = "Above the reversal dynamic pressure the twist produced by an aileron deflection cancels the rolling moment the deflection was meant to produce."
+cite = []
+digest = "8c04275623c10b97"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Reduced Frequency, Flutter Speed Index and Mass Ratio"
+gloss = "The reduced frequency, the flutter speed index and the mass ratio are the similarity parameters of the flutter problem."
+cite = ["research_theodorsen_1935", "research_garrick_reed_1981"]
+digest = "b9f99192abdb50e5"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Ackeret Linearised Supersonic Flat Plate"
+gloss = "Linearised supersonic theory gives a lift coefficient proportional to incidence and a wave drag due to lift proportional to its square, both falling with Mach number."
+cite = ["research_ackeret_1925"]
+digest = "d36d22b799d89425"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Supersonic Compressibility Factor"
+gloss = "The supersonic factor $\\beta_s$ is the square root of the square of the Mach number less one, and lift-curve slopes fall in inverse proportion to it."
+cite = []
+digest = "934ac8785371892f"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Dynamic Pressure at the Mach 3.196 Condition"
+gloss = "The compressible form of dynamic pressure is evaluated at Mach 3.196 with the standard atmosphere static pressure at 19,992 metres."
+cite = ["ref_dynamic_pressure"]
+digest = "ad974f3c244b97fc"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Lift, Drag and Level-Flight Lift Coefficient"
+gloss = "Lift and drag are dynamic pressure times wing area times their coefficients, and level flight fixes the lift coefficient as weight over dynamic pressure times area."
+cite = ["ref_lift_coefficient"]
+digest = "7e6c2d5ebec0525a"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Supersonic Drag Build-Up"
+gloss = "The article writes the supersonic drag coefficient as the sum of zero-lift, wave and induced terms, an assembly of separately estimated contributions."
+cite = []
+digest = "486daecadc72e006"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Friction Drag Coefficient Referred to Wing Area"
+gloss = "The friction drag coefficient referred to wing area is the skin friction coefficient times the ratio of wetted area to wing area."
+cite = []
+digest = "d825fd3a94c8dd0f"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Base Drag Coefficient"
+gloss = "Base drag is the negative base pressure coefficient times the base area referred to the wing area."
+cite = []
+digest = "616798b047acdcc4"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Rocket Thrust"
+gloss = "Rocket thrust is the momentum flux of the exhaust plus the pressure difference between the nozzle exit and ambient acting over the exit area."
+cite = []
+digest = "6ef5eb3021bae540"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Specific Impulse"
+gloss = "Specific impulse is the thrust per unit propellant weight flow, expressed in seconds."
+cite = ["ref_specific_impulse"]
+digest = "1fa7a0c11f924143"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Propellant Mass Flow of the XLR25"
+gloss = "The full-thrust mass flow is evaluated with a specific impulse near 210 seconds that the article takes as representative of a turbopump-fed liquid oxygen and diluted alcohol engine."
+cite = []
+digest = "25b0df7c618f49e9"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Characteristic Velocity, Thrust Coefficient and Specific Impulse"
+gloss = "Performance separates into a characteristic velocity measuring combustion and a thrust coefficient measuring expansion, whose product over standard gravity is the specific impulse."
+cite = []
+digest = "fc5ff1436974ed95"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Nozzle Expansion Ratio"
+gloss = "The ratio of exit to throat area follows from the isentropic area relation at the exit Mach number."
+cite = []
+digest = "6597e06861669332"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Pump Shaft Power"
+gloss = "The shaft power a pump needs is the mass flow times the pressure rise divided by the propellant density and the pump efficiency."
+cite = ["ref_turbopump"]
+digest = "cd8b140efe351dc7"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Gas Generator Turbine Power Balance"
+gloss = "The turbine extracts from the gas generator flow an isentropic enthalpy drop times its efficiency, and that power must equal the pump demand."
+cite = []
+digest = "388834717ad1d8d7"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Effective Specific Impulse with Gas Generator Flow"
+gloss = "Propellant diverted to the gas generator produces no useful thrust, which lowers the effective specific impulse in proportion to its share of the flow."
+cite = []
+digest = "7dcf6d109654e33f"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Propellant Tank Volume"
+gloss = "The tank volume is the sum of the oxidiser and fuel masses each divided by its density."
+cite = []
+digest = "f6b3935d26b28664"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Injector Stiffness Condition"
+gloss = "Combustion stability conventionally requires an injector pressure drop of at least a fifth of the chamber pressure."
+cite = []
+digest = "d4b3dbba4baa87db"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Full-Thrust Burn Time of the X-2"
+gloss = "The burn time divides the propellant load from the converted launch and empty masses by the mass flow obtained at the assumed specific impulse of 210 seconds."
+cite = ["ref_bell_x2"]
+digest = "d5ee9dd60ce2b91e"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Ideal Velocity Increment of the X-2"
+gloss = "The rocket equation is evaluated at the assumed specific impulse of 210 seconds with the converted launch and empty masses, and it includes no gravity or drag losses."
+cite = ["ref_tsiolkovsky"]
+digest = "7a5c45b0f90cbcee"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Release Energy Height of the X-2"
+gloss = "The energy height at release is evaluated for an approximate release from the B-50 at 10,000 metres and 250 metres per second."
+cite = []
+digest = "508d8d9b78f742b9"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Trajectory Energy Efficiency"
+gloss = "The article defines the efficiency of a flight as the gain in specific mechanical energy divided by the specific kinetic energy of the ideal velocity increment."
+cite = []
+digest = "07c77731e1af5757"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Propellant Fraction and Thrust-to-Weight Ratio of the X-2"
+gloss = "The propellant load over the launch mass and the full thrust over the launch weight are evaluated from the converted masses."
+cite = []
+digest = "e7a5fda2c8dbdbf5"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Specific Excess Power and Energy Height Rate"
+gloss = "Specific excess power is the excess of thrust over drag times speed divided by weight, and it equals the rate of change of energy height."
+cite = []
+digest = "620d4fc56a28d3b2"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Vertical Tail Contribution to Directional Stiffness"
+gloss = "The vertical tail supplies directional stiffness in proportion to its volume coefficient, its lift-curve slope and its efficiency."
+cite = ["ref_directional_stability"]
+digest = "19eeeffcea6a350a"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Supersonic Decline of Directional Stiffness"
+gloss = "Because the tail lift-curve slope follows linearised supersonic theory, directional stiffness for a fixed geometry falls inversely with the supersonic compressibility factor."
+cite = []
+digest = "6669801049f65e99"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Static Margin and Pitch Stiffness"
+gloss = "The static margin is the distance from the centre of gravity to the neutral point in chords, and the pitch stiffness is the negative lift-curve slope times that margin."
+cite = ["ref_longitudinal_static_stability"]
+digest = "f8538b4987f12755"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Short-Period and Phugoid Frequencies"
+gloss = "The short-period frequency is approximated from the dimensional pitch and heave derivatives, and to first order the phugoid frequency is the square root of two times gravity divided by speed."
+cite = ["ref_phugoid"]
+digest = "8912774dde4c7aa4"
+
+[[equation]]
+tag = 77
+class = "standard"
+title = "Dutch Roll Frequency, Roll Time Constant and Spiral Condition"
+gloss = "The Dutch roll frequency follows from the directional stiffness and yaw inertia, the roll time constant from the roll inertia and roll damping, and the spiral mode is stable when the stated product inequality holds."
+cite = ["ref_dutch_roll"]
+digest = "6de97a0416311b98"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Supersonic Scaling of the Damping Derivatives"
+gloss = "The article argues that the pitch and yaw damping derivatives weaken both with the supersonic compressibility factor and with the reciprocal of speed through the rate normalisation."
+cite = []
+digest = "6fc1347083e94af3"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Gyroscopic Terms of the Euler Moment Equations"
+gloss = "The pitch and yaw moment equations contain products of body rates and inertia differences that couple roll into pitch and yaw."
+cite = ["ref_euler_equations_rigid", "ref_inertia_coupling"]
+digest = "4bdfee91fd384169"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Critical Roll Rate for Inertia Coupling"
+gloss = "The pitch and yaw natural frequencies follow from the aerodynamic stiffnesses and inertias, and divergence follows when the roll rate approaches the lower of the two."
+cite = ["research_phillips_1948"]
+digest = "4f3ff38419d05352"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Pitch and Yaw Natural Frequencies of the X-2"
+gloss = "The frequencies are evaluated with the tabulated inertias and with a pitch stiffness of 0.3 and a directional stiffness of 0.1 per radian that the article takes as representative and that were not measured on this airframe."
+cite = ["research_coupling_history_1997"]
+digest = "993b000094b57850"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Critical Roll Rate of the X-2"
+gloss = "The critical roll rate is the lower of the two frequencies obtained from the representative stiffness values."
+cite = []
+digest = "5e70463812e64007"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Steady Roll Rate from Aileron Deflection"
+gloss = "The steady roll rate balances the aileron rolling moment against roll damping in the nondimensional rate."
+cite = []
+digest = "8e638982c38c404b"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Roll Subsidence Time Constant"
+gloss = "The roll time constant is set by the roll inertia, the dynamic pressure, the span and the roll damping derivative."
+cite = []
+digest = "20b447d849ade99a"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "First-Order Roll Response"
+gloss = "After a step input the roll rate approaches its steady value exponentially with the roll time constant."
+cite = []
+digest = "3c60beeba25ac3b8"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Time to Reach the Critical Roll Rate"
+gloss = "Inverting the first-order response gives the time at which the roll rate crosses the critical value."
+cite = []
+digest = "27d00040c8171008"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Inertia Coupling Ratios"
+gloss = "The two inertia ratios that govern the severity of coupling are differences of principal moments divided by the third moment."
+cite = ["research_coupling_history_1997"]
+digest = "5dac508f3713eeaa"
+
+[[equation]]
+tag = 88
+class = "bespoke"
+title = "Bespoke Linearised Pitch Equation in Steady Roll"
+gloss = "The article linearises the pitch equation about a steady roll rate, keeping the gyroscopic and aerodynamic stiffness terms and neglecting damping."
+cite = []
+digest = "f18540219d2ac412"
+
+[[equation]]
+tag = 89
+class = "bespoke"
+title = "Bespoke Linearised Yaw Equation in Steady Roll"
+gloss = "The companion yaw equation is linearised in the same way, with damping neglected."
+cite = []
+digest = "6f1e55aea52dc1c1"
+
+[[equation]]
+tag = 90
+class = "bespoke"
+title = "Bespoke Uncoupled Stability Conditions in Steady Roll"
+gloss = "Neglecting the cross-coupling terms reduces the stability boundary to the roll rate at which the effective stiffness in either axis falls to zero."
+cite = []
+digest = "86a59ef89f1c41e3"
+
+[[equation]]
+tag = 91
+class = "bespoke"
+title = "Bespoke Divergence Growth Rate"
+gloss = "Past the pitch threshold the unstable root of the undamped, uncoupled pitch equation grows at the square root of the excess of the squared roll rate over the squared frequency."
+cite = []
+digest = "711559a6d8536965"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Growth Rate at a Thirty Percent Exceedance"
+gloss = "The growth rate is evaluated for a roll rate of 5.8 radians per second, about thirty percent above the representative pitch frequency."
+cite = []
+digest = "452e5a43d5cc006f"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Divergence E-Folding Time"
+gloss = "The e-folding time is the reciprocal of the growth rate obtained at the chosen roll rate."
+cite = []
+digest = "de99c8f65d9e45b2"
+
+[[equation]]
+tag = 94
+class = "bespoke"
+title = "Bespoke Time to Reach Thirty Degrees"
+gloss = "The time to grow from an initial one-degree disturbance to thirty degrees of angle of attack follows from pure exponential growth at the chosen rate."
+cite = []
+digest = "d3c429d5fee7a8d5"
+
+[[equation]]
+tag = 95
+class = "standard"
+title = "Load Factor Increment from an Angle of Attack Excursion"
+gloss = "An angle of attack excursion at a given dynamic pressure produces a normal load factor increment proportional to the lift-curve slope."
+cite = []
+digest = "87555ab5edbebd8a"
+
+[[equation]]
+tag = 96
+class = "bespoke"
+title = "Bespoke Load Factor for a Thirty Degree Excursion"
+gloss = "The increment is evaluated for a thirty degree excursion with the linear supersonic lift-curve slope, which assumes the lift stays linear to that angle."
+cite = []
+digest = "5d7249b0709fb30d"
+
+[[equation]]
+tag = 97
+class = "standard"
+title = "Thermocouple Time Constant"
+gloss = "A thermocouple junction responds with a first-order lag set by its thermal mass per unit surface area and the convective coefficient, which for a sphere reduces through the volume-to-area ratio of a sixth of the diameter."
+cite = ["ref_thermocouple"]
+digest = "ec5f773b7e0f0fe5"
+
+[[equation]]
+tag = 98
+class = "bespoke"
+title = "Bespoke Thermocouple Lag Error"
+gloss = "The lag error is the time constant times the heating rate, evaluated for a half-millimetre steel bead and the initial skin heating rate of thirty kelvin per second."
+cite = []
+digest = "0e260d393252ab37"
+
+[[equation]]
+tag = 99
+class = "standard"
+title = "Probe Recovery Temperature"
+gloss = "A probe measuring gas temperature recovers only a fraction of the stagnation rise, given by its probe recovery factor."
+cite = []
+digest = "28f40d9d69d971ec"
+
+[[equation]]
+tag = 100
+class = "standard"
+title = "Rayleigh Supersonic Pitot Formula"
+gloss = "Above Mach one the pitot tube senses the total pressure behind a normal shock, and the Rayleigh formula relates it to the free-stream static pressure and Mach number."
+cite = ["research_pitot_supersonic_1948"]
+digest = "4f3e080784cbf761"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Mach Number Sensitivity to the Measured Pressure Ratio"
+gloss = "The relative error in inferred Mach number is a Mach-dependent factor times the relative error in the measured pressure ratio."
+cite = []
+digest = "f8ed357069be955a"
+
+[[equation]]
+tag = 102
+class = "standard"
+title = "Combined Standard Uncertainty"
+gloss = "For uncorrelated inputs the variance of a derived quantity is the sum of squared sensitivities times the input variances."
+cite = ["book_taylor_1997_error_analysis", "book_bevington_robinson_2002"]
+digest = "c4cd5d76a8ed80ce"
+
+[[equation]]
+tag = 103
+class = "standard"
+title = "Inverse Heat Balance for Convective Flux"
+gloss = "The convective flux is recovered from a measured skin temperature history as the stored heat rate plus the radiated flux."
+cite = []
+digest = "7c6b5fa238957b6c"
+
+[[equation]]
+tag = 104
+class = "standard"
+title = "Windblast Dynamic Pressure"
+gloss = "The dynamic pressure an occupant meets on leaving the aircraft is half the density times the square of the speed."
+cite = []
+digest = "b95e8fa6a6a171e7"
+
+[[equation]]
+tag = 105
+class = "standard"
+title = "Reliability of a Series Chain"
+gloss = "A chain of events that must all succeed has a probability of success equal to the product of the probabilities of its links."
+cite = []
+digest = "e4ee096ee56a50e0"
+
+[[equation]]
+tag = 106
+class = "standard"
+title = "Ballistic Coefficient of the Capsule"
+gloss = "The ballistic coefficient is the capsule mass divided by its drag coefficient times its reference area."
+cite = []
+digest = "90fe0a6ef2f1c985"
+
+[[equation]]
+tag = 107
+class = "standard"
+title = "Terminal Descent Speed from the Ballistic Coefficient"
+gloss = "At terminal speed drag balances weight, which fixes the speed by the ballistic coefficient and the density."
+cite = []
+digest = "52118e8372d3c2de"
+
+[[equation]]
+tag = 108
+class = "standard"
+title = "Allen-Eggers Peak Deceleration"
+gloss = "The peak deceleration of ballistic entry depends on entry speed, flight path angle and scale height but not on the ballistic coefficient."
+cite = []
+digest = "3dd50c1e12064b65"
+
+[[equation]]
+tag = 109
+class = "standard"
+title = "Terminal Speed under a Parachute"
+gloss = "A capsule under a canopy descends at the speed at which the drag of the canopy balances its weight."
+cite = []
+digest = "8926a37c8af2294a"
+
+[[equation]]
+tag = 110
+class = "standard"
+title = "Parachute Opening Load"
+gloss = "The opening load is the opening shock factor times the dynamic pressure times the canopy drag area."
+cite = []
+digest = "15e7afc94859fcde"
+
+[[equation]]
+tag = 111
+class = "standard"
+title = "Flight Count Required to Reach a Target Uncertainty"
+gloss = "Inverting the scalar update and rounding up gives the smallest number of flights that brings the posterior standard deviation to the target."
+cite = ["related_post_a297_xplanes_framing"]
+digest = "cdce9374ae19df6b"
+
+[[equation]]
+tag = 112
+class = "standard"
+title = "Information Gain as Entropy Reduction"
+gloss = "For a scalar Gaussian the information gained is half the logarithm of the ratio of prior to posterior variance."
+cite = ["research_lindley_1956"]
+digest = "af6e3d17743a11e1"
+
+[[equation]]
+tag = 113
+class = "bespoke"
+title = "Bespoke Airframe Count from Binomial Attrition"
+gloss = "The article models losses as independent with a constant probability per flight and requires that the programme completes with fewer losses than airframes at a chosen confidence."
+cite = []
+digest = "4b41cece686e99a5"
+
+[[equation]]
+tag = 114
+class = "standard"
+title = "Glide Angle and Sink Rate"
+gloss = "In an unpowered glide the tangent of the glide angle is the reciprocal of the lift-to-drag ratio, and the sink rate is the speed divided by that ratio."
+cite = []
+digest = "f985d8768cd11c2c"
+
+[[equation]]
+tag = 115
+class = "standard"
+title = "Maximum Lift-to-Drag Ratio"
+gloss = "Differentiating the parabolic polar gives the maximum lift-to-drag ratio in terms of aspect ratio, Oswald efficiency and zero-lift drag."
+cite = []
+digest = "99d392c84b4612eb"
+
+[[equation]]
+tag = 116
+class = "standard"
+title = "Aspect Ratio of the X-2 Wing"
+gloss = "The aspect ratio is the square of the span divided by the wing area."
+cite = []
+digest = "a3fba8f46dcadccc"
+
+[[equation]]
+tag = 117
+class = "bespoke"
+title = "Bespoke Landing Stall Speed of the X-2"
+gloss = "The stall speed is evaluated for the landing weight, a lake-bed density of 1.10 kilograms per cubic metre and a maximum lift coefficient of 0.9 that the article reduces by the cosine of the sweep angle."
+cite = []
+digest = "e0b5f5c32ac9b774"
+
+[[equation]]
+tag = 118
+class = "bespoke"
+title = "Bespoke Approach Sink Rate of the X-2"
+gloss = "The sink rate divides an approach speed of 1.3 times the stall speed by the best glide ratio, which assumes that ratio holds on the approach."
+cite = []
+digest = "59ccdb2558a93da3"
+
+[[equation]]
+tag = 119
+class = "standard"
+title = "Buckingham Pi Theorem Group Count"
+gloss = "A relation among $n$ physical quantities involving $k$ independent dimensions reduces to a relation among $n - k$ dimensionless groups."
+cite = ["research_buckingham_1914"]
+digest = "52c15309756454ad"
+
+[[equation]]
+tag = 120
+class = "standard"
+title = "Relative Density and Nondimensional Inertias"
+gloss = "A dynamically similar model must match the mass ratio and the principal moments of inertia nondimensionalised by density, wing area and span or chord."
+cite = []
+digest = "3f994537c671bd16"
+
+[[equation]]
+tag = 121
+class = "standard"
+title = "Lateral Reduced Frequency"
+gloss = "The reduced frequency of the motion is the angular frequency times the semispan divided by the flow speed."
+cite = []
+digest = "6ff7b32f61928006"
+
+[[equation]]
+tag = 122
+class = "standard"
+title = "Dynamic Scaling of Model Mass and Inertia"
+gloss = "A model at geometric scale $1/k$ must have its mass reduced by the cube and its inertias by the fifth power of the scale, corrected by the ratio of ambient densities."
+cite = []
+digest = "a5aae27f7a836ea3"
+
+[[equation]]
+tag = 123
+class = "bespoke"
+title = "Bespoke Vertical Tail Growth to Hold Directional Stiffness"
+gloss = "Holding directional stiffness from Mach 1.5 to Mach 3.196 by tail area alone, with the tail arm and efficiency fixed, requires the area to grow with the supersonic compressibility factor."
+cite = []
+digest = "9a15ddba645602a0"
+
+[[equation]]
+tag = 124
+class = "standard"
+title = "Yaw Rate Damper Law"
+gloss = "A yaw damper commands rudder deflection in proportion to the negative yaw rate."
+cite = []
+digest = "c7b41178e7ef282f"
+
+[[equation]]
+tag = 125
+class = "standard"
+title = "Augmented Yaw Damping Derivative"
+gloss = "The rate feedback adds to the natural yaw damping derivative a term proportional to the gain and the rudder effectiveness."
+cite = []
+digest = "a392ee0421c8b4ab"
+
+[[equation]]
+tag = 126
+class = "standard"
+title = "Augmented Dutch Roll Damping Ratio"
+gloss = "The Dutch roll damping ratio is approximated from the augmented yaw damping derivative, the dynamic pressure, the geometry and the Dutch roll frequency."
+cite = []
+digest = "6ec9dc45aecc3adf"
+
+[[symbol]]
+tex = 'M_\infty'
+meaning = "the free-stream Mach number, with $M_1$ the Mach number upstream of a normal shock"
+
+[[symbol]]
+tex = 'T_0'
+meaning = "the stagnation temperature, with $T_\\infty$ the free-stream static temperature"
+
+[[symbol]]
+tex = 'T_r'
+meaning = "the recovery temperature, with $T_w$ the wall temperature"
+
+[[symbol]]
+tex = '\theta_v'
+meaning = "the characteristic vibrational temperature of a diatomic gas"
+
+[[symbol]]
+tex = 'h_c'
+meaning = "the convective heat transfer coefficient"
+
+[[symbol]]
+tex = 'St'
+meaning = "the Stanton number"
+
+[[symbol]]
+tex = '\dot{q}_s'
+meaning = "the stagnation-point heat flux"
+
+[[symbol]]
+tex = 'R_n'
+meaning = "the effective nose radius"
+
+[[symbol]]
+tex = '\sigma_{SB}'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 'C_A'
+meaning = "the thermal mass per unit area of the skin, with $C_{A,s}$ and $C_{A,b}$ the skin and substructure nodes of the two-lump model"
+
+[[symbol]]
+tex = 'h_j'
+meaning = "the conductance per unit area between skin and substructure"
+
+[[symbol]]
+tex = '\alpha_{\text{th}}'
+meaning = "the thermal diffusivity of the wall"
+
+[[symbol]]
+tex = 'P_{LM}'
+meaning = "the Larson-Miller parameter"
+
+[[symbol]]
+tex = 't_r'
+meaning = "the rupture time in hours"
+
+[[symbol]]
+tex = '\sigma_{\text{th}}'
+meaning = "the thermal stress"
+
+[[symbol]]
+tex = '\Lambda'
+meaning = "the sweep angle"
+
+[[symbol]]
+tex = '\beta_s'
+meaning = "the supersonic compressibility factor, distinct from the sideslip $\\beta$ and the ballistic coefficient $\\beta_c$"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure in pascals, distinct from the pitch rate $q$ in the Euler equations"
+
+[[symbol]]
+tex = 'q_R'
+meaning = "the aileron reversal dynamic pressure, with $q_D$ the divergence dynamic pressure"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the propellant mass flow, with $\\dot{m}_{gg}$ the share that feeds the gas generator"
+
+[[symbol]]
+tex = 'h_e'
+meaning = "the energy height"
+
+[[symbol]]
+tex = '\eta_{\text{traj}}'
+meaning = "the fraction of the ideal specific energy that reached the vehicle state"
+
+[[symbol]]
+tex = 'C_{n\beta}'
+meaning = "the directional stiffness derivative"
+
+[[symbol]]
+tex = 'V_V'
+meaning = "the vertical tail volume coefficient"
+
+[[symbol]]
+tex = 'p_{\text{crit}}'
+meaning = "the critical roll rate for inertia coupling, with $p_{ss}$ the steady roll rate an aileron input produces"
+
+[[symbol]]
+tex = '\omega_\alpha'
+meaning = "the pitch natural frequency, with $\\omega_\\beta$ the yaw natural frequency"
+
+[[symbol]]
+tex = '\mu_1'
+meaning = "the inertia coupling ratio in pitch, with $\\mu_2$ its counterpart in yaw"
+
+[[symbol]]
+tex = '\tau_r'
+meaning = "the roll subsidence time constant"
+
+[[symbol]]
+tex = '\tau_{\text{div}}'
+meaning = "the e-folding time of the coupled divergence"
+
+[[symbol]]
+tex = '\tau_{tc}'
+meaning = "the thermocouple time constant"
+
+[[symbol]]
+tex = 'C_D A_p'
+meaning = "the drag area of the parachute canopy"
+
+[[symbol]]
+tex = '\sigma_m'
+meaning = "the standard deviation of a single repeat measurement, with $\\sigma_0$ the prior, $\\sigma_n$ the posterior and $\\sigma_T$ the target"
+
+[[symbol]]
+tex = 'n_a'
+meaning = "the number of airframes built"
+
+[[symbol]]
+tex = 'k_r'
+meaning = "the yaw damper gain"

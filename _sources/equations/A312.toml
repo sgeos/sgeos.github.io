@@ -1,0 +1,1299 @@
+# Equation classification for A312. Read by `python3 _lib/equations.py`.
+
+caution = "Specific energies are in joules or megajoules per kilogramme and heating rates in watts per square metre or per square centimetre, $T_{0}$ is the ambient lower limit of the specific heat integrals but the stagnation temperature in the gas relations, $T$ is a thrust in the energy and propulsion relations and a temperature in the radiation relations, $\\alpha$ is the angle of attack, the expansion coefficient and the thermal diffusivity in different relations, $E$ is an energy and Young's modulus, and the mass after burnout is taken throughout as the average touchdown weight of 14,600 pounds."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Specific Kinetic Energy at the Speed Record"
+gloss = "At the record speed of 2,020.6 metres per second the specific kinetic energy is $2.041 \\times 10^{6}$ joules per kilogramme."
+cite = ["ref_jenkins_2000"]
+digest = "8839e4245cd9f77c"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Melting Enthalpy as Sensible Plus Latent Heat"
+gloss = "The energy to melt a kilogramme of the alloy is the integral of its specific heat from ambient to the melting point plus the latent heat of fusion."
+cite = []
+digest = "4067c8f42d4c4c8b"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Melting Enthalpy of Inconel X-750"
+gloss = "The melting enthalpy is bracketed by two assumed specific heat histories above 1,300 kelvin and by taking the latent heat of nickel for the alloy, giving 1.105 to 1.208 megajoules per kilogramme."
+cite = ["ref_touloukian_1966", "ref_nist_webbook_nickel"]
+digest = "278c3159d03aac25"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Ratio of Kinetic Energy to Melting Enthalpy"
+gloss = "The keystone ratio of the specific kinetic energy to the bracketed melting enthalpy is 1.69 to 1.85."
+cite = []
+digest = "2e71dcb0ab29ff40"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Ratio of Kinetic Energy to Heat Capacity at the Design Temperature"
+gloss = "Integrating the recommended specific heat values from ambient to the design temperature of 922 kelvin gives a ratio of 6.4."
+cite = ["ref_touloukian_1966", "ref_special_metals_2004"]
+digest = "65f891af5aa4ebb0"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Control Surface Moment and Dynamic Pressure"
+gloss = "The control surface moment is the dynamic pressure times the wing area, the mean chord and the moment coefficient increment, with $q = \\tfrac{1}{2}\\rho V^{2}$."
+cite = []
+digest = "bc7a0161c1ed6641"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Ratio of the North American and Bell Proposal Prices"
+gloss = "North American's 56.1 million dollar proposal was 1.55 times Bell's 36.3 million."
+cite = ["ref_jenkins_2000"]
+digest = "6111e95d08bcc60a"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Growth over the 1954 Cost Estimate"
+gloss = "North American's reduced figure of 45 million dollars was 3.7 times the 12.2 million estimated in 1954."
+cite = ["ref_jenkins_2000"]
+digest = "757380bbe296a4d9"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Specific Energy"
+gloss = "The specific energy is the sum of the potential energy $g h$ and the kinetic energy per unit mass."
+cite = []
+digest = "f4ca75e7ade92c6d"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Rate of Change of Specific Energy"
+gloss = "The specific energy rises at the thrust power per unit mass and falls at the drag power per unit mass."
+cite = []
+digest = "982619b25dca3665"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Specific Energy at Launch"
+gloss = "The launch energy is evaluated at 13.7 kilometres and an approximate Mach 0.8, taken as 236 metres per second, giving 0.162 megajoules per kilogramme."
+cite = ["ref_jenkins_2000"]
+digest = "f163dac6bfb2dcc3"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Share of the Energy Supplied by the Carrier"
+gloss = "The approximate launch energy is 6.9 percent of the specific energy at the speed record."
+cite = []
+digest = "bb05ab4797c7d462"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Specific Energy at the Speed Record"
+gloss = "The record altitude of 31,120 metres and speed of 2,020.6 metres per second give a specific energy of 2.347 megajoules per kilogramme."
+cite = ["ref_jenkins_2000"]
+digest = "3e73a667d69f6d24"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Conversion of the Flight 91 Maximum Speed"
+gloss = "The logged 3,794 miles per hour is 5,565 feet per second, matching the burnout speed to within rounding."
+cite = ["ref_jenkins_2007"]
+digest = "7f12ff24fbc9d60a"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Specific Energy at Burnout on Flight 91"
+gloss = "Burnout at 53,645 metres and 1,696.1 metres per second gives a specific energy of 1.964 megajoules per kilogramme."
+cite = ["ref_jenkins_2007"]
+digest = "f7d26314630f235a"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Energy Height"
+gloss = "The energy height is the altitude plus the kinetic energy per unit mass divided by gravity."
+cite = []
+digest = "caa718a333b2264f"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Energy Height of Flight 188"
+gloss = "The record altitude and the speed head of 208.17 kilometres give an energy height of 239.29 kilometres."
+cite = []
+digest = "f341bd721297215f"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Energy Height of Flight 91 at Burnout"
+gloss = "The burnout altitude and the speed head of 146.67 kilometres give an energy height of 200.31 kilometres."
+cite = []
+digest = "5c8dad88aabab2c8"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Energy Height at the Flight 91 Apogee"
+gloss = "The apogee energy height uses a horizontal speed that was itself derived by conserving the burnout energy over an assumed drag-free coast, so its agreement with the burnout value follows from that construction."
+cite = []
+digest = "a0fe9eb1bdefbc23"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Ratio of the Two Record Energies"
+gloss = "The speed record carried 1.195 times the specific energy of the altitude flight at burnout."
+cite = []
+digest = "85aadb3972f41ecd"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "External Tank Propellant over Internal Propellant"
+gloss = "The 13,500 pounds in the external tanks were 0.72 of the 18,750 pounds carried inside."
+cite = ["ref_jenkins_2007"]
+digest = "d9cd4f497e2d3428"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Speed Head at the Record"
+gloss = "Converting the record speed entirely into height gives 208.2 kilometres."
+cite = []
+digest = "effdbb026d393c7c"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Effective Exhaust Velocity"
+gloss = "Taking the specific impulse at 276 seconds, the top of the specified 256 to 276 second range, gives an effective exhaust velocity of 2,706.6 metres per second."
+cite = ["ref_jenkins_2000"]
+digest = "2336abb95f2fc115"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Ideal Velocity Increment of the Basic Aircraft"
+gloss = "With the average touchdown weight taken as the burnout mass and the specific impulse at the top of its range, the Tsiolkovsky rocket equation gives 2,207 metres per second."
+cite = ["ref_matranga_1961"]
+digest = "cfe22c6fc25dfd95"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Fraction of the Ideal Increment Reached"
+gloss = "The 1,834.6 metres per second of Flight 59 is 0.831 of the ideal increment resting on the assumed specific impulse and burnout mass."
+cite = []
+digest = "bf1056587c93a64d"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Ideal Velocity Increment of the X-15A-2"
+gloss = "The separation weight and design propellant load with the assumed specific impulse give an ideal increment of 2,610 metres per second, of which the record reached 0.774."
+cite = ["ref_jenkins_2007"]
+digest = "b213479642693cfd"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "North American Thrust Allowance"
+gloss = "North American's reckoning of 10 percent of thrust for drag and 20 percent for weight leaves 0.70 for acceleration."
+cite = ["ref_jenkins_2000"]
+digest = "91792679904ddd9a"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Thrust-to-Weight Ratio at Ignition"
+gloss = "A thrust of 253,500 newtons against the 14,969 kilogramme launch mass gives a thrust-to-weight ratio of 1.73."
+cite = []
+digest = "fffabfa0f3d89e6f"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Stagnation Temperature Ratio"
+gloss = "For a perfect gas brought to rest adiabatically the stagnation to static temperature ratio is $1 + \\tfrac{\\gamma - 1}{2} M^{2}$."
+cite = []
+digest = "2da19af83b6d1876"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Stagnation Temperature at the Speed Record"
+gloss = "At Mach 6.7 and the standard atmosphere temperature of 227.6 kelvin the stagnation temperature is 2,271 kelvin."
+cite = []
+digest = "57bb2b22429f941c"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Adiabatic Wall Temperature"
+gloss = "The adiabatic wall temperature applies the recovery factor $r$ to the kinetic temperature rise."
+cite = []
+digest = "b4b5a54005cffa11"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Total Enthalpy of the Oncoming Stream"
+gloss = "The total enthalpy is the static enthalpy plus the kinetic energy per unit mass, of which the kinetic term is 89.9 percent at the record."
+cite = []
+digest = "bb6173da50f40bc4"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Sutton-Graves Stagnation-Point Heating"
+gloss = "The reduced Sutton-Graves correlation gives the stagnation-point heating rate as a constant times the square root of density over nose radius times the cube of velocity."
+cite = ["ref_sutton_graves_1971"]
+digest = "e00c3d7ba6b91440"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Reduced Sutton-Graves Constant"
+gloss = "Taking the stagnation pressure as $\\rho V^{2}$ and the enthalpy difference as $V^{2}/2$ converts the tabulated coefficient for air to $1.777 \\times 10^{-4}$ in units of the International System."
+cite = ["ref_sutton_graves_1971"]
+digest = "4e0c612fe086284b"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Scaling of Heating and Nose Drag with Nose Radius"
+gloss = "Stagnation heating varies as the inverse square root of the nose radius while nose pressure drag varies with the frontal area."
+cite = []
+digest = "a14dac534b728c6d"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Exchange Rate Between Nose Drag and Heating"
+gloss = "Eliminating the nose radius makes nose drag vary as the inverse fourth power of the heating rate."
+cite = []
+digest = "0fd3b80a20c8db04"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Stagnation-Point Heating at the Speed Record"
+gloss = "The standard atmosphere density at the record altitude and the 0.0762 metre radius of the ball nose give $6.48 \\times 10^{5}$ watts per square metre."
+cite = ["ref_jenkins_2000"]
+digest = "2fcdd0e27ea1ae85"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Heating Correction for the As-Built Nose"
+gloss = "The as-built 6.5 inch sphere lowers the heating rate by the square root of the radius ratio, 0.961."
+cite = ["ref_jenkins_2007"]
+digest = "aba649c689a31246"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Radiative Equilibrium Temperature"
+gloss = "A radiating surface in equilibrium sits where its emission $\\varepsilon \\sigma T^{4}$ equals the incident heating rate."
+cite = []
+digest = "01619ec9ec65a91f"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Heating Rate Sustainable at the Design Temperature"
+gloss = "At a representative emissivity of 0.8 a surface at the design temperature of 922 kelvin radiates $3.28 \\times 10^{4}$ watts per square metre."
+cite = []
+digest = "cf46119a77e8f63e"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Ratio of Record Heating to Sustainable Heating"
+gloss = "The record stagnation rate is 19.8 times what the design temperature can radiate at the representative emissivity."
+cite = []
+digest = "efa5c7cec0747ae2"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Radiative Equilibrium Temperature at the Record"
+gloss = "At the record stagnation rate and a representative emissivity of 0.8 the equilibrium temperature is 1,944 kelvin."
+cite = []
+digest = "884ac50b7b1abc86"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Reynolds Analogy"
+gloss = "The Stanton number is approximately half the skin friction coefficient for a gas of Prandtl number near unity."
+cite = []
+digest = "9f19bb7e7c6b6eff"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Wall Heat Flux and Friction Work"
+gloss = "The heat entering the wall is the Stanton number times the mass flux, specific heat and recovery temperature difference, while the friction work is the wall shear times the velocity."
+cite = []
+digest = "e7c3cd6dc0d4ad06"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Fraction of Friction Work Entering the Wall"
+gloss = "Under a Reynolds analogy factor of one the ratio of wall heat flux to friction work reduces to the recovery temperature difference times the specific heat over the square of the velocity."
+cite = []
+digest = "1536da3875b450ed"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Colburn Reynolds Analogy Factor"
+gloss = "For a Prandtl number of 0.71 Colburn's modified Reynolds analogy factor is 1.26."
+cite = ["ref_nasa_sp90_1965"]
+digest = "5350fb9d997201ca"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Wall Fraction at the Record Condition"
+gloss = "The fraction of friction work entering the wall is evaluated at the record speed and an adiabatic wall temperature of 2,046 kelvin as a function of wall temperature under the unit analogy factor."
+cite = []
+digest = "3b265aec939f77d8"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Wall Fraction at the Hottest Recorded Temperature"
+gloss = "A wall at the hottest recorded 1,005 kelvin takes 0.256 of the friction work under the unit analogy factor."
+cite = []
+digest = "eb8bea8144f54bc3"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Reynolds Number on the Fuselage Length"
+gloss = "The standard atmosphere density and viscosity at the record condition and the fuselage length give a Reynolds number of $3.2 \\times 10^{7}$."
+cite = []
+digest = "14d7dd2e237dcef2"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Turbulent Flat-Plate Skin Friction"
+gloss = "The turbulent flat-plate correlation $0.0592 \\, Re_{L}^{-0.2}$ gives a skin friction coefficient of 0.00187."
+cite = []
+digest = "51ee54bdbb1a37cb"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Friction and Total Drag"
+gloss = "A wetted area of order 113 square metres and an assumed drag coefficient of 0.08 give friction and total drags of 6.7 and 47 kilonewtons."
+cite = []
+digest = "625b09e2a3e2b2ae"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Fraction of Kinetic Energy Reaching the Structure"
+gloss = "The article takes 15 percent, near the centre of its 8 to 26 percent range of friction fractions, times the 0.277 wall fraction to give 0.042."
+cite = []
+digest = "3848d590a0aa19a1"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Kinetic Energy of the Aircraft at the Record"
+gloss = "With the average touchdown mass taken as the mass at the record, the kinetic energy is 13.52 gigajoules."
+cite = ["ref_matranga_1961"]
+digest = "d5c70c0b6f35f11c"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Heat Capacity of the Structure"
+gloss = "A structure assumed to be 60 percent of the burnout mass absorbs 1.27 gigajoules in reaching its design temperature."
+cite = []
+digest = "295a12487b5cf654"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Ratio of Structural Heat Load to Capacity"
+gloss = "The four percent heat load over the assumed structural capacity gives 0.44."
+cite = []
+digest = "9aa976fb7211a88d"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Ratio with the Colburn Factor"
+gloss = "Applying the Colburn factor of 1.26 to the central ratio resting on the assumed structural mass gives 0.55."
+cite = []
+digest = "0535bd0ad43d1b65"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke Radiation Rejected over a Descent"
+gloss = "An assumed hundred square metres radiating at the design temperature and a representative emissivity of 0.8 for an assumed five minutes rejects 0.98 gigajoules."
+cite = []
+digest = "6e9e26a15cb4a162"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Scale Height and Exponential Atmosphere"
+gloss = "The scale height is the gas constant times the temperature over gravity, and density falls approximately exponentially with height over it."
+cite = []
+digest = "a5484d343313fb77"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Heating Reduction per Scale Height"
+gloss = "One scale height multiplies the heating rate, which goes as the square root of density, by $e^{-1/2} = 0.607$."
+cite = []
+digest = "123bba01db072855"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Heat Load as the Integral of Heating Rate"
+gloss = "The heat load is the time integral of the heating rate."
+cite = []
+digest = "37455b12e0dac466"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Time to Shed a Fixed Energy at Constant Speed"
+gloss = "For a vehicle assumed to shed a fixed energy at roughly constant speed the time taken varies inversely with density."
+cite = []
+digest = "504e561027614bce"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Heat Load Scaling with Density"
+gloss = "Under the constant-speed assumption the heat load varies as the cube of velocity over the square root of density, so it rises as the air thins."
+cite = []
+digest = "d1eb8761d5dbaeca"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Heat Load at the Record Rate"
+gloss = "Holding the record stagnation rate for assumed exposures of one, two and five minutes gives 38.9, 77.8 and 194 megajoules per square metre."
+cite = []
+digest = "1b1828deb3395e83"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Ablator Heat Capacity"
+gloss = "An ablator absorbs heat at a rate equal to its mass loss rate times its effective heat of ablation."
+cite = []
+digest = "1926aabf5b35a319"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Ablator Mass Loss Rate"
+gloss = "The ablator mass loss rate is the heating rate times the exposed area over the effective heat of ablation."
+cite = []
+digest = "f396ac0f68082998"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Ratio of Ablator to Structural Capacity"
+gloss = "An assumed effective heat of ablation of 2.5 megajoules per kilogramme is 7.8 times the capacity of the structure to its design temperature."
+cite = []
+digest = "5b751b85186ddd7d"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "True Airspeed at Touchdown"
+gloss = "The average touchdown speed of 185 knots indicated at the lakebed density ratio of 0.934 is a true airspeed of 98.5 metres per second."
+cite = ["ref_matranga_1961", "ref_rogers_dry_lake"]
+digest = "c4a5b9ac3e50bb91"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Specific Kinetic Energy at Touchdown"
+gloss = "The touchdown true airspeed gives a specific kinetic energy of $4.85 \\times 10^{3}$ joules per kilogramme."
+cite = []
+digest = "ba331f8269ca791a"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Fraction of the Record Energy Remaining at Touchdown"
+gloss = "The touchdown kinetic energy is 0.00238 of the specific kinetic energy at the record."
+cite = []
+digest = "f53ce93812374867"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Energy Disposal Rate by Drag"
+gloss = "With the engine off the specific energy falls at the drag power per unit mass."
+cite = []
+digest = "68f65aea331e19f4"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Heating per Unit Energy Shed"
+gloss = "The heating rate over the energy disposal rate varies as the inverse square root of density."
+cite = []
+digest = "c8fbdae1a4ccda8b"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Drag Deceleration at Constant Altitude"
+gloss = "At constant altitude the drag deceleration is proportional to the square of the speed."
+cite = []
+digest = "b3a8eda351c475a3"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Time to Decelerate Between Two Speeds"
+gloss = "Integrating the drag deceleration gives the time to fall from one speed to another."
+cite = []
+digest = "b41c293b6a3df1ba"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient"
+gloss = "The burnout mass over an assumed drag coefficient of 0.08 times the reference area gives a ballistic coefficient of 4,455 kilogrammes per square metre."
+cite = []
+digest = "b42b30ab96720185"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Ratio of Shedding Time at the Record Altitude to Flight Time"
+gloss = "The 102 minutes resting on the assumed drag coefficient is about ten times a representative flight of ten minutes."
+cite = []
+digest = "5a5a3b950779e421"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Glide Range from Height"
+gloss = "A glider's range from a height $h$ is the lift-to-drag ratio times that height."
+cite = []
+digest = "4edd3046206ae87d"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Equivalent Range of the Energy Budget"
+gloss = "The article converts the whole specific energy to an equivalent range by treating the energy height $e/g$ as glide height at the same lift-to-drag ratio."
+cite = []
+digest = "c4399b628f4bd938"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Wing Loading at Touchdown"
+gloss = "The average touchdown weight over the reference area gives a wing loading of 3,495 newtons per square metre."
+cite = ["ref_matranga_1961"]
+digest = "e327fba227759447"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Touchdown Lift Coefficient"
+gloss = "The touchdown weight at 185 knots indicated requires a lift coefficient of 0.63."
+cite = ["ref_matranga_1961"]
+digest = "0cfdd7fdf1b3b6be"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Flatness of the Lift-to-Drag Optimum"
+gloss = "Ninety-five percent of the maximum supersonic lift-to-drag ratio is available between about seven and twelve degrees angle of attack."
+cite = ["research_garringer_saltzman_1966"]
+digest = "9ef9a1bdd02fe5ae"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Effect of Speed Brakes on Lift-to-Drag Ratio"
+gloss = "Speed brakes add drag without changing lift and so lower the lift-to-drag ratio."
+cite = []
+digest = "c3852f8db8a6766d"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Thermal Stress from Constrained Expansion"
+gloss = "The thermal stress of a constrained skin is Young's modulus times the expansion coefficient times the temperature difference."
+cite = []
+digest = "a6ce7e015cfc27ad"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Thermal Stress at a 300 Kelvin Difference"
+gloss = "The room-temperature modulus and a representative expansion coefficient over an illustrative 300 kelvin difference give 830 megapascals."
+cite = ["ref_special_metals_2004"]
+digest = "10b5622970bdac44"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Lumped Thermal Time Constant of a Skin"
+gloss = "The time a skin takes to heat is of order its areal heat capacity times its temperature over the heating rate."
+cite = []
+digest = "44892ce0a74485c8"
+
+[[equation]]
+tag = 85
+class = "bespoke"
+title = "Bespoke Time Constant of a Thin Skin at the Stagnation Rate"
+gloss = "An assumed 1.5 millimetre skin heated to 900 kelvin at the record stagnation rate reaches its limit in about 7.5 seconds."
+cite = []
+digest = "0bd7bacc6504ca5d"
+
+[[equation]]
+tag = 86
+class = "bespoke"
+title = "Bespoke Lower Surface Heating Rate"
+gloss = "Radiation at the expected 2,000 degree Fahrenheit equilibrium and a representative emissivity of 0.8 corresponds to $1.58 \\times 10^{5}$ watts per square metre."
+cite = ["ref_jenkins_2000"]
+digest = "edc971a5690adb84"
+
+[[equation]]
+tag = 87
+class = "bespoke"
+title = "Bespoke Time Constants of the Wing Skins"
+gloss = "The 0.05 and 0.10 inch skins under the lower surface rate resting on the representative emissivity reach 922 kelvin in about 27 and 53 seconds."
+cite = []
+digest = "05ee7a1d1300b371"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Thermal Diffusivity of the Alloy"
+gloss = "The conductivity over the density times the specific heat gives a thermal diffusivity of $4.16 \\times 10^{-6}$ square metres per second."
+cite = []
+digest = "6540bccb9ba5f740"
+
+[[equation]]
+tag = 89
+class = "bespoke"
+title = "Bespoke Through-Soak Time of a Thin Skin"
+gloss = "Heat penetrates an assumed 1.5 millimetre skin in about half a second."
+cite = []
+digest = "3a2ccf74e9806022"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Throttle Range of the XLR99"
+gloss = "The specified minimum thrust of 19,200 pounds is 0.34 of the 57,200 pound maximum."
+cite = ["ref_jenkins_2000"]
+digest = "2df6153d3e2c9615"
+
+[[equation]]
+tag = 91
+class = "bespoke"
+title = "Bespoke Propellant Mass Flow at Full Thrust"
+gloss = "Full thrust over the exhaust velocity resting on the top of the specific impulse range gives 93.7 kilogrammes per second."
+cite = []
+digest = "33ab1260d2f9bcc7"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Burn Time"
+gloss = "The difference between the launch mass and the touchdown mass taken as burnout mass, at the assumed mass flow, lasts 89.1 seconds."
+cite = []
+digest = "4fca1c16b94ad297"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Thrust-to-Weight Ratio over the Burn"
+gloss = "The thrust-to-weight ratio runs from 1.73 at the launch mass to 3.90 at the touchdown weight taken as burnout mass."
+cite = []
+digest = "1ae02884bdf741e9"
+
+[[equation]]
+tag = 94
+class = "standard"
+title = "Dynamic Pressure in Terms of Mach Number"
+gloss = "Substituting the perfect-gas relation writes the dynamic pressure as half the ratio of specific heats times the static pressure times the square of the Mach number."
+cite = []
+digest = "c3d28274b2e5cd4d"
+
+[[equation]]
+tag = 95
+class = "bespoke"
+title = "Bespoke Range of Dynamic Pressure"
+gloss = "The highest recorded dynamic pressure is $5.1 \\times 10^{3}$ times the value at 80 kilometres on a representative ballistic arc at 1,500 metres per second."
+cite = ["ref_jenkins_2007"]
+digest = "f48eb021150915ff"
+
+[[equation]]
+tag = 96
+class = "bespoke"
+title = "Bespoke Crossover Dynamic Pressure"
+gloss = "The article defines the crossover as the dynamic pressure at which the aerodynamic control moment equals the reaction jet moment."
+cite = []
+digest = "c9fe29b85de2ecb0"
+
+[[equation]]
+tag = 97
+class = "bespoke"
+title = "Bespoke Evaluated Crossover Dynamic Pressure"
+gloss = "A 500 newton jet at an assumed 7 metre arm against an assumed mean chord of 3 metres and moment coefficient of 0.1 gives 628 pascals."
+cite = []
+digest = "6d66d3672f22e1bb"
+
+[[equation]]
+tag = 98
+class = "standard"
+title = "Control Power as Moment over Inertia"
+gloss = "Control power is the reaction jet moment over the moment of inertia."
+cite = []
+digest = "d86096ffd8d59e78"
+
+[[equation]]
+tag = 99
+class = "bespoke"
+title = "Bespoke Pitch Inertia Estimate"
+gloss = "Assuming a pitch radius of gyration of a quarter of the 15 metre length gives a pitch inertia of $9.3 \\times 10^{4}$ kilogramme square metres."
+cite = []
+digest = "02793935271f54cc"
+
+[[equation]]
+tag = 100
+class = "bespoke"
+title = "Bespoke Reaction Control Power in Pitch"
+gloss = "A 500 newton nose rocket at an assumed 7 metre arm on the estimated inertia gives 0.038 radians per second squared."
+cite = []
+digest = "a1a1edc86204ae98"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Design Angular Acceleration in Radians"
+gloss = "The design angular acceleration of 2.5 degrees per second squared in pitch and yaw is 0.0436 radians per second squared."
+cite = ["research_adkins_jarvis_1964"]
+digest = "a7786aa190025144"
+
+[[equation]]
+tag = 102
+class = "standard"
+title = "Newtonian Pressure Coefficient"
+gloss = "Newtonian impact theory gives the pressure coefficient of a surface inclined at $\\theta$ to the stream as $2 \\sin^{2}\\theta$."
+cite = []
+digest = "4a61909f78c1038f"
+
+[[equation]]
+tag = 103
+class = "standard"
+title = "Newtonian Lift Coefficient of a Flat Plate"
+gloss = "Newtonian theory gives the lift coefficient of a flat plate at angle of attack $\\alpha$ as $2 \\sin^{2}\\alpha \\cos\\alpha$."
+cite = []
+digest = "6a134d98dcfe346d"
+
+[[equation]]
+tag = 104
+class = "bespoke"
+title = "Bespoke Lift Coefficient Required at the Record"
+gloss = "The touchdown mass taken as the mass at the record over the dynamic pressure and reference area gives a required lift coefficient of 0.110."
+cite = []
+digest = "311163373d92acd0"
+
+[[equation]]
+tag = 105
+class = "standard"
+title = "Newtonian Pressure on a Thin Surface and a Wedge"
+gloss = "A thin surface at three degrees and a ten degree wedge have Newtonian pressure coefficients of 0.0055 and 0.0603."
+cite = []
+digest = "ee2b7be02d7bc258"
+
+[[equation]]
+tag = 106
+class = "standard"
+title = "Roll Numerator to Dutch Roll Frequency Ratio"
+gloss = "The squared ratio of the roll numerator frequency to the Dutch roll frequency is approximately one less the product of the cross derivatives over the product of the direct ones."
+cite = ["ref_nasa_sp90_1965"]
+digest = "7d272acf169f6abc"
+
+[[equation]]
+tag = 107
+class = "standard"
+title = "Ratio of XLR99 to Paired XLR11 Thrust"
+gloss = "The 57,000 pound XLR99 offered 3.56 times the 16,000 pounds of the two XLR11s."
+cite = ["ref_nasa_sp90_1965"]
+digest = "1790fdbd375050be"
+
+[[equation]]
+tag = 108
+class = "standard"
+title = "Mean Mach Step of the Envelope Expansion"
+gloss = "Seven steps from Mach 3.50 to 6.04 average 0.36 of a Mach number."
+cite = ["ref_jenkins_2000"]
+digest = "3dd532f8e44d9b55"
+
+[[equation]]
+tag = 109
+class = "standard"
+title = "Final Mach Step of the X-15A-2"
+gloss = "The last two X-15A-2 flights went from Mach 4.94 to 6.70, a step of 1.76."
+cite = []
+digest = "3c6c07f29c60bda5"
+
+[[equation]]
+tag = 110
+class = "standard"
+title = "Mean Time Above Mach 4 per Flight"
+gloss = "Four hours above Mach 4 over 151 flights averages 1.6 minutes per flight."
+cite = []
+digest = "70b039cd0a81414a"
+
+[[equation]]
+tag = 111
+class = "bespoke"
+title = "Bespoke Horizontal Speed at the Flight 91 Apogee"
+gloss = "Conserving the burnout energy over a coast assumed drag free leaves a horizontal speed of 1,346 metres per second at apogee."
+cite = []
+digest = "7449c6549d7152eb"
+
+[[equation]]
+tag = 112
+class = "standard"
+title = "Record Speed as a Fraction of the X-15A-2 Design Speed"
+gloss = "The 6,629 feet per second of the record is 0.83 of the 8,000 feet per second design point."
+cite = []
+digest = "ee802635a1c33baf"
+
+[[equation]]
+tag = 113
+class = "standard"
+title = "Energy and Heating Ratios of the Design Point"
+gloss = "The design point asked for 1.46 times the specific kinetic energy and 1.76 times the stagnation heating rate of the record at equal density and nose radius."
+cite = []
+digest = "9542e600ab116f39"
+
+[[equation]]
+tag = 114
+class = "bespoke"
+title = "Bespoke Propellant Mass in the External Tanks"
+gloss = "The tank volumes at liquid densities assumed at the normal boiling points of 682 and 1,141 kilogrammes per cubic metre hold 6,213 kilogrammes."
+cite = []
+digest = "ebda606ec484fea4"
+
+[[equation]]
+tag = 115
+class = "standard"
+title = "Specific Energy of the Altitude Discrepancy"
+gloss = "The 600 foot difference between the log and the narrative is worth 1.79 kilojoules per kilogramme."
+cite = ["ref_jenkins_2007"]
+digest = "673e84b636ba752c"
+
+[[equation]]
+tag = 116
+class = "standard"
+title = "Peak Potential of the Probe Motor"
+gloss = "The 115 volt alternating supply multiplied by about four in the transformer gives a peak near 651 volts."
+cite = ["research_dennehy_2014"]
+digest = "924d3d067f2058d6"
+
+[[equation]]
+tag = 117
+class = "standard"
+title = "Margin over the Arcing Threshold"
+gloss = "The peak potential is 2.8 times the arcing threshold of about 230 volts at reduced pressure."
+cite = ["research_dennehy_2014"]
+digest = "b5a00b3d09a217c0"
+
+[[equation]]
+tag = 118
+class = "standard"
+title = "Share of Simulator Time in the X-15-3 Configuration"
+gloss = "The 47.5 hours in the X-15-3 configuration were 0.199 of the logged simulator time."
+cite = ["research_dennehy_2014"]
+digest = "44b2e9ccb145f525"
+
+[[equation]]
+tag = 119
+class = "standard"
+title = "Altitude of the Fatal Flight in Miles"
+gloss = "The 266,000 feet of the fatal flight is 50.38 miles."
+cite = []
+digest = "c2d65edea586f59a"
+
+[[equation]]
+tag = 120
+class = "standard"
+title = "Cost per Flight in 1964"
+gloss = "The 16.268 million dollars of 1964 over its 27 flights is 0.603 million per flight and a tenth of the initial programme cost."
+cite = ["ref_love_young_1966"]
+digest = "1d42d26e22e0633a"
+
+[[equation]]
+tag = 121
+class = "standard"
+title = "Refurbishment Cost per Flight"
+gloss = "Refurbishment of 7.288 million dollars over 27 flights is 0.270 million per flight, or 0.030 of the cost of a new aircraft."
+cite = ["ref_love_young_1966"]
+digest = "262374e12acc05e4"
+
+[[equation]]
+tag = 122
+class = "standard"
+title = "Cost of the Same Flights as Expendable Vehicles"
+gloss = "Twenty-seven new aircraft at 9.0 million dollars each would have cost 243 million."
+cite = []
+digest = "1e9dea854b128c02"
+
+[[equation]]
+tag = 123
+class = "standard"
+title = "Growth of the Programme Cost"
+gloss = "An actual cost of about 300 million dollars is 28 times the original estimate of 10.7 million."
+cite = ["ref_jenkins_2000"]
+digest = "9cc5492e330fe636"
+
+[[equation]]
+tag = 124
+class = "standard"
+title = "International Boundary of Space in Kilometres"
+gloss = "Sixty-two miles is 99.8 kilometres."
+cite = ["ref_jenkins_2000"]
+digest = "b38fb427ed7ddec6"
+
+[[equation]]
+tag = 125
+class = "standard"
+title = "Accounting of All Flights"
+gloss = "The 196 successful landings, two landing accidents and one loss in flight account for all 199 flights."
+cite = ["ref_dana_1993"]
+digest = "451a0ebb7999d8ee"
+
+[[equation]]
+tag = 126
+class = "standard"
+title = "Thin-Skin Heat Balance"
+gloss = "The thin-skin balance equates the rate of heat storage in the skin to the convective input, written as a heat-transfer coefficient times an enthalpy difference, less the radiated heat."
+cite = ["ref_quinn_olinger_1969"]
+digest = "ef2a72a3290a0227"
+
+[[equation]]
+tag = 127
+class = "standard"
+title = "Keystone Ratio as a Function of Speed"
+gloss = "The ratio of specific kinetic energy to melting enthalpy is the square of the speed over twice the melting enthalpy."
+cite = []
+digest = "455754cc3d2bb2cf"
+
+[[equation]]
+tag = 128
+class = "standard"
+title = "Orbital Entry Against the X-15 Record"
+gloss = "The specific kinetic energy at an orbital entry speed of 7,800 metres per second is 14.9 times that of the X-15 record."
+cite = []
+digest = "6298d8a4b1d7bae6"
+
+[[equation]]
+tag = 129
+class = "standard"
+title = "Stagnation Temperature Relation"
+gloss = "The stagnation temperature is the static temperature times $1 + \\tfrac{\\gamma - 1}{2}M^{2}$."
+cite = []
+digest = "4d3d884ac65762db"
+
+[[equation]]
+tag = 130
+class = "bespoke"
+title = "Bespoke Mach Number at the Onset of Oxygen Dissociation"
+gloss = "Setting the stagnation temperature equal to an assumed oxygen dissociation onset of about 2,500 kelvin at the record altitude gives Mach 7.06."
+cite = []
+digest = "e233cb8728deec0d"
+
+[[equation]]
+tag = 131
+class = "bespoke"
+title = "Bespoke Record Mach Number as a Fraction of the Dissociation Limit"
+gloss = "The record Mach 6.70 is 0.948 of the Mach number resting on the assumed dissociation onset."
+cite = []
+digest = "8bfcc4f6a15f85f6"
+
+[[equation]]
+tag = 132
+class = "standard"
+title = "Ideal-Gas Stagnation Temperature at Orbital Speed"
+gloss = "The ideal-gas relation at 7,800 metres per second gives a stagnation temperature of about 30,500 kelvin, which is physically meaningless."
+cite = []
+digest = "b311d4fe7be51c82"
+
+[[equation]]
+tag = 133
+class = "bespoke"
+title = "Bespoke High-Speed Limit of the Wall Fraction"
+gloss = "Under the unit Reynolds analogy factor the fraction of friction work entering the wall tends to half the recovery factor as the speed grows."
+cite = []
+digest = "adb9034aceca7aef"
+
+[[equation]]
+tag = 134
+class = "standard"
+title = "Radiated Heat Flux"
+gloss = "A surface rejects heat by radiation at the emissivity times the Stefan-Boltzmann constant times the fourth power of its temperature."
+cite = []
+digest = "ba39a4eca7c5b35d"
+
+[[equation]]
+tag = 135
+class = "bespoke"
+title = "Bespoke Ceramic Against Inconel Rejection"
+gloss = "A representative ceramic at 2,273 kelvin with an assumed emissivity of 0.85 rejects 39.2 times what Inconel rejects at its design limit."
+cite = []
+digest = "51474a66a0a5c44b"
+
+[[equation]]
+tag = 136
+class = "bespoke"
+title = "Bespoke Speed Ratio Between Consecutive Designations"
+gloss = "The 4,520 miles per hour of the X-15 is 25.1 times a rounded bound of 180 miles per hour above the X-14's recorded 172."
+cite = ["book_jenkins_landis_miller_2003"]
+digest = "c7183bd9b4ab5da9"
+
+[[symbol]]
+tex = 'e_{k}'
+meaning = "the specific kinetic energy"
+
+[[symbol]]
+tex = 'h_{\text{melt}}'
+meaning = "the melting enthalpy of the alloy per unit mass"
+
+[[symbol]]
+tex = 'c_{p}'
+meaning = "the specific heat at constant pressure, of the alloy in the structural relations and of air in the gas relations"
+
+[[symbol]]
+tex = 'L_{f}'
+meaning = "the latent heat of fusion"
+
+[[symbol]]
+tex = 'T_{\text{design}}'
+meaning = "the design temperature of the structure, 922 kelvin"
+
+[[symbol]]
+tex = 'e'
+meaning = "the specific energy, the sum of potential and kinetic energy per unit mass"
+
+[[symbol]]
+tex = 'h_{e}'
+meaning = "the energy height"
+
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure in pascals"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = '\Delta C_{m}'
+meaning = "the control moment coefficient increment"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag"
+
+[[symbol]]
+tex = 'm'
+meaning = "the vehicle mass"
+
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the effective exhaust velocity"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_{0}'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 'm_{0}'
+meaning = "the launch mass, with $m_{f}$ the mass after burnout"
+
+[[symbol]]
+tex = '\Delta V'
+meaning = "the ideal velocity increment"
+
+[[symbol]]
+tex = 'T_{0}'
+meaning = "the stagnation temperature, and in the specific heat integrals the ambient starting temperature"
+
+[[symbol]]
+tex = 'T_{\infty}'
+meaning = "the free-stream static temperature"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats, taken as 1.4 for air"
+
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number"
+
+[[symbol]]
+tex = 'T_{aw}'
+meaning = "the adiabatic wall temperature, with $T_{w}$ the wall temperature"
+
+[[symbol]]
+tex = '\dot{q}'
+meaning = "the stagnation-point heating rate"
+
+[[symbol]]
+tex = 'R_{n}'
+meaning = "the effective nose radius"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the surface emissivity"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 'St'
+meaning = "the Stanton number"
+
+[[symbol]]
+tex = 'C_{f}'
+meaning = "the skin friction coefficient"
+
+[[symbol]]
+tex = 'Pr'
+meaning = "the Prandtl number"
+
+[[symbol]]
+tex = '\dot{q}_{w}'
+meaning = "the heat flux entering the wall"
+
+[[symbol]]
+tex = 'Re_{L}'
+meaning = "the Reynolds number on the fuselage length"
+
+[[symbol]]
+tex = 'C_{D}'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = 'm_{s}'
+meaning = "the structural mass"
+
+[[symbol]]
+tex = 'H'
+meaning = "the atmospheric scale height"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the heat load per unit area"
+
+[[symbol]]
+tex = 'h_{\text{eff}}'
+meaning = "the effective heat of ablation"
+
+[[symbol]]
+tex = '\beta'
+meaning = "the ballistic coefficient"
+
+[[symbol]]
+tex = 'C_{L}'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = '\sigma_{\text{thermal}}'
+meaning = "the thermal stress"
+
+[[symbol]]
+tex = '\tau_{\text{th}}'
+meaning = "the thermal time constant of a skin"
+
+[[symbol]]
+tex = '\rho_{s}'
+meaning = "the density of the skin material"
+
+[[symbol]]
+tex = 't_{b}'
+meaning = "the burn time"
+
+[[symbol]]
+tex = 'q_{\times}'
+meaning = "the dynamic pressure at which aerodynamic and reaction control moments are equal"
+
+[[symbol]]
+tex = '\text{CP}'
+meaning = "the control power, the angular acceleration the control system can produce"
+
+[[symbol]]
+tex = 'I_{y}'
+meaning = "the moment of inertia in pitch"
+
+[[symbol]]
+tex = 'C_{p}'
+meaning = "the pressure coefficient"
+
+[[symbol]]
+tex = '\omega_{d}'
+meaning = "the Dutch roll frequency, with $\\omega_{\\phi}$ the frequency of the roll response numerator"
+
+[[symbol]]
+tex = 'L_{\beta}'
+meaning = "the rolling acceleration due to sideslip, with $N_{\\beta}$ the yawing acceleration due to sideslip"
+
+[[symbol]]
+tex = 'h_{H}'
+meaning = "the heat-transfer coefficient of the thin-skin balance"
+
+[[symbol]]
+tex = 'H_{R}'
+meaning = "the recovery enthalpy, with $H_{w}$ the wall enthalpy"

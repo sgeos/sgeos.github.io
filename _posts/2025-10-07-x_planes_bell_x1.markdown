@@ -21,7 +21,10 @@ The keystone is the magnitude and character of the drag rise through Mach one, t
 
 The theory available was linearized subsonic aerodynamics. The [Prandtl-Glauert transformation][ref_prandtl_glauert] of [Glauert 1928][research_glauert_1928] relates the compressible pressure coefficient to its incompressible value as
 
-$$C_p = \frac{C_{p,0}}{\sqrt{1 - M_\infty^2}}$$
+$$
+C_p = \frac{C_{p,0}}{\sqrt{1 - M_\infty^2}}
+\tag{1}
+$$
 
 with $C_{p,0}$ the incompressible pressure coefficient and $M_\infty$ the free-stream [Mach number][ref_mach_number]. The expression [diverges][ref_prandtl_glauert_singularity] as $M_\infty$ approaches unity. That divergence is not a physical prediction of infinite drag. It is the linearization failing at exactly the condition of interest, and the supersonic counterpart of [Ackeret 1925][research_ackeret_1925] is equally singular approached from above. Theory was therefore silent in the band that mattered.
 
@@ -29,15 +32,24 @@ The popular account leaves the impression that the transonic problem arrived sud
 
 That decade of work established what the problem was and left open what happened past it, and the open half is what the X-1 was for. The experimental facilities had a matching failure. A closed-throat [wind tunnel][ref_wind_tunnel] chokes when the model blocks enough of the test section that the flow reaches sonic conditions at the minimum area, and the tunnel then cannot be driven past that condition regardless of available power. The choking condition does not depend on a shortage of power, and it can be written down. One-dimensional isentropic flow relates local area to Mach number through
 
-$$\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
+$$
+\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}
+\tag{2}
+$$
 
 with $A^{*}$ the area at which the flow would be sonic, tabulated for every case in [Ames Research Staff 1953][research_naca_1135]. A model of frontal area $A_m$ in a test section of area $A_t$ reduces the available flow area, so the effective condition for the tunnel to reach a free-stream Mach number $M_\infty$ is
 
-$$\frac{A_t - A_m}{A_t} \ge \frac{A^{*}(M_\infty)}{A_t}$$
+$$
+\frac{A_t - A_m}{A_t} \ge \frac{A^{*}(M_\infty)}{A_t}
+\tag{3}
+$$
 
 and as $M_\infty$ approaches unity the right-hand side approaches the whole test-section area. Any model of finite size therefore chokes the tunnel before the free stream reaches Mach one, and the blockage ratio
 
-$$\varepsilon_b = \frac{A_m}{A_t}$$
+$$
+\varepsilon_b = \frac{A_m}{A_t}
+\tag{4}
+$$
 
 sets how early. Reducing the model until it no longer chokes reduces the Reynolds number until the data no longer represent the aircraft. Here the similarity gap takes its sharpest form. Data in the band from roughly Mach 0.85 to Mach 1.15 were unusable, and the [NACA conference on transonic design problems][research_transonic_conference_1949] held in 1949 records how completely that band had resisted ground measurement. The slotted and perforated wall treatments that eventually opened it, and the wall-interference corrections that make transonic tunnel data trustworthy even now as in [Chen et al. 2024][research_chen_wang_2024], all postdate the X-1.
 
@@ -45,33 +57,57 @@ What remained was falling bodies, rocket-propelled models, and accidents. Aircra
 
 Two of those effects can be separated on paper. The first is the [critical Mach number][ref_critical_mach], the free-stream Mach number at which the flow first reaches sonic conditions somewhere on the body. It is found by equating the compressible peak suction to the pressure coefficient corresponding to sonic flow,
 
-$$C_{p,\text{crit}} = \frac{2}{\gamma M_\infty^2} \left[ \left( \frac{1 + \frac{\gamma - 1}{2} M_\infty^2}{1 + \frac{\gamma - 1}{2}} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]$$
+$$
+C_{p,\text{crit}} = \frac{2}{\gamma M_\infty^2} \left[ \left( \frac{1 + \frac{\gamma - 1}{2} M_\infty^2}{1 + \frac{\gamma - 1}{2}} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]
+\tag{5}
+$$
 
 with $\gamma$ the ratio of specific heats, and solving for the Mach number at which the transformed peak suction meets that value. The second is the [drag divergence Mach number][ref_drag_divergence], higher than the critical value, at which [wave drag][ref_wave_drag] from the terminating [shock][ref_shock_wave] begins to dominate, conventionally defined by
 
-$$\left. \frac{\partial C_D}{\partial M} \right|_{M = M_{DD}} = 0.1$$
+$$
+\left. \frac{\partial C_D}{\partial M} \right|_{M = M_{DD}} = 0.1
+\tag{6}
+$$
 
 The shock itself is governed by the Rankine-Hugoniot relations, which for a [normal shock][ref_normal_shock] at upstream Mach number $M_1$ give the static pressure, density, and temperature ratios
 
-$$\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{\rho_2}{\rho_1} = \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2}$$
+$$
+\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{\rho_2}{\rho_1} = \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2}
+\tag{7}
+$$
 
-$$\frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}$$
+$$
+\frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}
+\tag{8}
+$$
 
 and a downstream Mach number
 
-$$M_2^2 = \frac{(\gamma - 1) M_1^2 + 2}{2 \gamma M_1^2 - (\gamma - 1)}$$
+$$
+M_2^2 = \frac{(\gamma - 1) M_1^2 + 2}{2 \gamma M_1^2 - (\gamma - 1)}
+\tag{9}
+$$
 
 The loss that matters for drag is the entropy rise, expressed as a total pressure ratio,
 
-$$\frac{p_{02}}{p_{01}} = \exp \left( -\frac{\Delta s}{R} \right)$$
+$$
+\frac{p_{02}}{p_{01}} = \exp \left( -\frac{\Delta s}{R} \right)
+\tag{10}
+$$
 
 which is unity for a vanishing shock and falls rapidly as shock strength grows. Wave drag is that loss integrated over the surface, which is why the drag rise begins gently and then steepens. The rise can be fitted, though not derived, in the form
 
-$$C_D(M) = C_{D0} + \Delta C_{D_w} \left( \frac{M - M_{\text{crit}}}{M_{DD} - M_{\text{crit}}} \right)^{n}, \qquad M > M_{\text{crit}}$$
+$$
+C_D(M) = C_{D0} + \Delta C_{D_w} \left( \frac{M - M_{\text{crit}}}{M_{DD} - M_{\text{crit}}} \right)^{n}, \qquad M > M_{\text{crit}}
+\tag{11}
+$$
 
 with $n$ between two and four, and the purpose of the X-1 was to supply the coefficients that such a fit requires. Between the critical and divergence Mach numbers lies the region where a shock stands on the surface and the [boundary layer][ref_boundary_layer] beneath it may or may not separate. [Prandtl 1928][research_prandtl_1928] introduced the boundary layer whose behaviour decides all of this, and separation occurs where the adverse pressure gradient imposed by the shock overcomes the near-wall momentum,
 
-$$\left. \frac{\partial u}{\partial y} \right|_{y=0} = 0$$
+$$
+\left. \frac{\partial u}{\partial y} \right|_{y=0} = 0
+\tag{12}
+$$
 
 which is the separation criterion in its simplest form. That [flow separation][ref_flow_separation] is the mechanism behind both the [buffeting][ref_buffeting] and the control failure, and it remains an active research subject, treated in the contemporary literature by [Chung 2017][research_chung_2017] and [Qi et al. 2026][research_qi_gao_2026] for buffet onset prediction and by [Sugioka et al. 2021][research_sugioka_2021] for the unsteady pressure field it produces.
 
@@ -83,17 +119,26 @@ The programme came out of a disagreement in 1944. The NACA wanted a turbojet air
 
 Bell Aircraft received the airframe contract in March 1945 for what was then designated the XS-1, later shortened to X-1. The sources expand the S differently, Hansen as Sonic and the NASA inventory as Supersonic \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\] \[[Jenkins et al. 2003][book_jenkins_landis_miller_2003]\]. Three airframes were built \[[Jenkins et al. 2003][book_jenkins_landis_miller_2003]\], and the fleet size agrees with the attrition sizing derived in the [series opener][related_post_a297_xplanes_framing]. Three is also close to the worst possible quantity from a unit-cost standpoint, because the learning effects quantified for airframe manufacture by [Wright 1936][research_wright_1936],
 
-$$C_n = C_1 \, n^{\log_2 b}$$
+$$
+C_n = C_1 \, n^{\log_2 b}
+\tag{13}
+$$
 
 with a learning rate $b$ near 0.80, have barely begun at $n = 3$. The third airframe costs about 70 percent of the first, where the hundredth would cost about 23 percent. A research aircraft is therefore expensive per unit because it is never built in quantity, not because it is complex, and that arithmetic recurs throughout this series. The design decisions that define the aircraft were all made under the constraint that the answer was unknown, which produces a characteristic conservatism.
 
 The fuselage was shaped after a .50 calibre machine gun bullet, on the reasoning that a projectile of that form was known to be stable and to have acceptable drag through Mach one because it had been observed to do so in ballistic ranges \[[Wikipedia Article on the Bell X-1][ref_bell_x1]\] \[[National Air and Space Museum Record for the Bell X-1][ref_nasm_x1]\]. That was design by the only available data. The fineness ratio that choice implies can be checked against the wave-drag result. With a fuselage length of 9.45 metres and a maximum diameter of 1.40 metres the fineness ratio is
 
-$$f = \frac{L_f}{d_{\max}} = \frac{9.45}{1.40} = 6.75$$
+$$
+f = \frac{L_f}{d_{\max}} = \frac{9.45}{1.40} = 6.75
+\tag{14}
+$$
 
 and the maximum cross-sectional area is $A_{\max} = 1.54$ square metres, so the [Sears-Haack][ref_sears_haack] minimum wave drag area is
 
-$$\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L_f} \right)^2 = 14.14 \times \left( \frac{1.54}{9.45} \right)^2 = 0.375 \ \text{square metres}$$
+$$
+\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L_f} \right)^2 = 14.14 \times \left( \frac{1.54}{9.45} \right)^2 = 0.375 \ \text{square metres}
+\tag{15}
+$$
 
 which against a reference wing area of 12.1 square metres is a wave drag coefficient contribution of 0.031. The contribution is of the same order as the transonic peak taken below. It indicates that the fuselage, not the wing, dominated the drag rise, and it justifies in retrospect the effort spent on fuselage shape. The wing was unswept, because although [Jones 1947][research_jones_1947] had by then established the [sweep][ref_swept_wing] argument, an unswept wing keeps the aerodynamics interpretable, and the aircraft was built to produce interpretable data, not speed.
 
@@ -109,51 +154,84 @@ The keystone relationship is the thrust required to overcome an unknown drag ris
 
 [Dynamic pressure][ref_dynamic_pressure] at the test condition is most conveniently written in terms of measured static pressure and Mach number as
 
-$$q = \frac{\gamma}{2} p M^2$$
+$$
+q = \frac{\gamma}{2} p M^2
+\tag{16}
+$$
 
 with $p$ the static pressure in pascals. Take the condition of the 14 October 1947 flight, a Mach number of 1.06 at 13,115 metres \[[Wikipedia List of X-1 Flights][ref_list_of_x1_flights]\] \[[National Air and Space Museum Record for the Bell X-1][ref_nasm_x1]\]. The [standard atmosphere][ref_us_standard_atmosphere] in the isothermal layer above 11 kilometres gives a temperature of 216.65 kelvin and a pressure obtained from the hydrostatic relation
 
-$$p(h) = p_{11} \exp \left[ -\frac{g (h - h_{11})}{R T} \right]$$
+$$
+p(h) = p_{11} \exp \left[ -\frac{g (h - h_{11})}{R T} \right]
+\tag{17}
+$$
 
 with $p_{11} = 22{,}632$ pascals, $R = 287$ joules per kilogram kelvin, and $g = 9.80665$ metres per second squared, giving $p = 16{,}212$ pascals and a density of 0.2607 kilograms per cubic metre. The [speed of sound][ref_speed_of_sound] is $a = \sqrt{\gamma R T} = 295.0$ metres per second, so the true airspeed is 312.7 metres per second. The dynamic pressure is therefore
 
-$$q = 0.7 \times 16{,}212 \times 1.1236 = 1.275 \times 10^{4} \ \text{pascals}$$
+$$
+q = 0.7 \times 16{,}212 \times 1.1236 = 1.275 \times 10^{4} \ \text{pascals}
+\tag{18}
+$$
 
 or 12.75 kilopascals, which is 266 pounds per square foot. That is a low dynamic pressure. The X-1 met the transonic problem in thin air by deliberate choice, because the loads scale with $q$ while the Mach number does not.
 
 Drag at that condition follows from the reference wing area $S$ and the [drag coefficient][ref_drag_coefficient] as
 
-$$D = q S C_D$$
+$$
+D = q S C_D
+\tag{19}
+$$
 
 and the design problem in 1945 was that $C_D$ in the transonic band was the unknown the aircraft existed to measure. The engine could not be sized against a known number. It can instead be read as sized so that the available thrust would exceed the drag for any plausible value of the unknown. Inverting the relation gives the drag coefficient at which thrust and drag balance,
 
-$$C_{D,\max} = \frac{T}{q S}$$
+$$
+C_{D,\max} = \frac{T}{q S}
+\tag{20}
+$$
 
 which is the largest drag rise the aircraft could push through. The XLR11 delivered four chambers of about 6,672 newtons each for a total of 26,689 newtons \[[Wikipedia Article on the Reaction Motors XLR11][ref_xlr11]\], and with a wing area of 12.1 square metres,
 
-$$C_{D,\max} = \frac{26{,}689}{12{,}750 \times 12.1} = 0.173$$
+$$
+C_{D,\max} = \frac{26{,}689}{12{,}750 \times 12.1} = 0.173
+\tag{21}
+$$
 
 The transonic peak is taken here as near 0.05, which is consistent with the roughly sixfold rise from subcritical to sonic speed in low-lift drag coefficient that \[[Carman and Carden 1951][ref_naca_rm_l51e08]\] report for the eight-percent wing. The aircraft was therefore capable of overcoming a drag rise more than three times worse than the one it found. That margin is the quantitative expression of designing against an unknown. Reported flight lift and drag for the ten-percent-thick wing appear in [Saltzman 1953][research_x1_liftdrag_1953], and the corresponding wing pressure distributions in [Knapp and Jordan 1953a][research_x1_wing_pressures_1953].
 
 The propellant budget follows from the [Tsiolkovsky relation][ref_tsiolkovsky]. With [specific impulse][ref_specific_impulse] $I_{sp}$ taken as 180 seconds, somewhat below the roughly 190 seconds that the rated thrust and the propellant flow of about 7.9 pounds per second per chamber imply \[[Carman and Carden 1951][ref_naca_rm_l51e08]\], the mass flow is
 
-$$\dot{m} = \frac{T}{I_{sp} g_0} = \frac{26{,}689}{180 \times 9.80665} = 15.1 \ \text{kilograms per second}$$
+$$
+\dot{m} = \frac{T}{I_{sp} g_0} = \frac{26{,}689}{180 \times 9.80665} = 15.1 \ \text{kilograms per second}
+\tag{22}
+$$
 
 so a propellant load of about 2,268 kilograms \[[Carman and Carden 1951][ref_naca_rm_l51e08]\] gives a full-thrust burn time of
 
-$$t_b = \frac{m_p}{\dot{m}} = \frac{2268}{15.1} = 150 \ \text{seconds}$$
+$$
+t_b = \frac{m_p}{\dot{m}} = \frac{2268}{15.1} = 150 \ \text{seconds}
+\tag{23}
+$$
 
 and an ideal velocity increment, with a launch mass of 5557 kilograms \[[Wikipedia Article on the Bell X-1][ref_bell_x1]\], of
 
-$$\Delta v = I_{sp} g_0 \ln \frac{m_0}{m_0 - m_p} = 1765 \times \ln \frac{5557}{3289} = 926 \ \text{metres per second}$$
+$$
+\Delta v = I_{sp} g_0 \ln \frac{m_0}{m_0 - m_p} = 1765 \times \ln \frac{5557}{3289} = 926 \ \text{metres per second}
+\tag{24}
+$$
 
 That number should not be compared directly with the speed achieved, because most of it is spent climbing. The correct comparison is in energy height,
 
-$$h_e = h + \frac{V^2}{2g}$$
+$$
+h_e = h + \frac{V^2}{2g}
+\tag{25}
+$$
 
 The B-29 released the aircraft at roughly 6100 metres \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\], and with a true airspeed taken as 150 metres per second the release energy height is 7247 metres. The fastest flight of the first airframe reached Mach 1.45 at about 12,230 metres \[[Wikipedia List of X-1 Flights][ref_list_of_x1_flights]\] \[[National Air and Space Museum Record for the Bell X-1][ref_nasm_x1]\], which is 428 metres per second and an energy height of 21,559 metres. The gain is 14,312 metres, corresponding to a specific energy of $g \Delta h_e = 1.40 \times 10^{5}$ joules per kilogram, against an ideal budget of $\Delta v^2 / 2 = 4.29 \times 10^{5}$ joules per kilogram. Roughly a third of the ideal energy reached the vehicle state and the remainder went to drag and gravity losses,
 
-$$\eta_{\text{traj}} = \frac{g \Delta h_e}{\Delta v^2 / 2} = 0.33$$
+$$
+\eta_{\text{traj}} = \frac{g \Delta h_e}{\Delta v^2 / 2} = 0.33
+\tag{26}
+$$
 
 which is a low figure. Since nothing shows that the flight used its whole propellant load or was flown for maximum energy, the figure bounds the published masses and thrust without confirming them.
 
@@ -161,19 +239,31 @@ The air-launch decision can now be stated quantitatively. The carrier supplied 7
 
 Three further ratios complete the sizing picture. The initial thrust-to-weight ratio is
 
-$$\frac{T}{W} = \frac{26{,}689}{5557 \times 9.80665} = 0.49$$
+$$
+\frac{T}{W} = \frac{26{,}689}{5557 \times 9.80665} = 0.49
+\tag{27}
+$$
 
 which is far below unity, so the aircraft could not have taken off vertically and had to be either air-launched or given a runway it did not have. The mass budget divides as
 
-$$\frac{m_p}{m_0} = \frac{2268}{5557} = 0.41, \qquad \frac{m_s + m_i}{m_0} = 0.59$$
+$$
+\frac{m_p}{m_0} = \frac{2268}{5557} = 0.41, \qquad \frac{m_s + m_i}{m_0} = 0.59
+\tag{28}
+$$
 
 with a propellant fraction of 0.41 that is low for a rocket and high for an aircraft, the signature of the type. The climb angle available at the test condition follows from the excess thrust,
 
-$$\sin \gamma = \frac{T - D}{W}$$
+$$
+\sin \gamma = \frac{T - D}{W}
+\tag{29}
+$$
 
 and the specific excess power, the rate at which energy height can be added, is
 
-$$P_s = \frac{V (T - D)}{W}$$
+$$
+P_s = \frac{V (T - D)}{W}
+\tag{30}
+$$
 
 With two chambers burning, a mass of 4500 kilograms, and drag near 7.7 kilonewtons at the coefficient of 0.05 taken above, the excess is 5.6 kilonewtons, giving a climb angle of 7.3 degrees and a specific excess power of 40 metres per second. The aircraft climbed while accelerating, so the energy-height accounting above is the only coherent way to read the flight profile.
 
@@ -185,49 +275,79 @@ The wing was unswept, of [aspect ratio][ref_aspect_ratio] six and area 12.1 squa
 
 The reason thickness dominates is that it sets the peak suction, and the peak suction sets the critical Mach number through the relation above. The peak suction itself scales with thickness. Linearized thin-airfoil theory at low lift gives a minimum pressure coefficient proportional to the thickness ratio,
 
-$$C_{p,\min} \approx -k_t \frac{t}{c}$$
+$$
+C_{p,\min} \approx -k_t \frac{t}{c}
+\tag{31}
+$$
 
 with $k_t$ of order three to four for the NACA six-series shapes, and this relation makes the comparison below a thickness comparison and not an arbitrary one. Taking representative incompressible peak pressure coefficients of $C_{p,0} = -0.30$ for the eight-percent section and $C_{p,0} = -0.38$ for the ten-percent section, and solving
 
-$$\frac{C_{p,0}}{\sqrt{1 - M_\infty^2}} = C_{p,\text{crit}}(M_\infty)$$
+$$
+\frac{C_{p,0}}{\sqrt{1 - M_\infty^2}} = C_{p,\text{crit}}(M_\infty)
+\tag{32}
+$$
 
 numerically gives critical Mach numbers of approximately 0.784 and 0.754 respectively. Two percentage points of thickness are worth about 0.030 in critical Mach number. That difference carries the argument for thin wings on transonic aircraft, and the X-1 was meant to check it in flight instead of assuming it.
 
 Wave drag reinforces the same conclusion. For a slender body the minimum wave drag of [Sears 1947][research_sears_1947] scales as the square of the cross-sectional area distribution,
 
-$$\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L} \right)^2$$
+$$
+\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L} \right)^2
+\tag{33}
+$$
 
 so thickness enters quadratically rather than linearly. The [area rule][ref_whitcomb_area_rule] that follows from the same reasoning, established by [Whitcomb 1952][research_whitcomb_1952] several years later, was not available to the X-1 designers, and the aircraft carries no waisting. The experimental route to it is visible in the intervening literature. [Cheatham and Kurbjun 1948][research_transonic_drag_wingbody_1948] measured the transonic drag of a wing-body combination, [Mathews and Thompson 1949][research_comparative_drag_1949] and [Mathews and Thompson 1950][research_comparative_drag_1950] compared rectangular against sweptback sections at the same conditions, [Kelly and Osborne 1954][research_fuselage_mods_drag_1954] examined what fuselage modification alone could achieve, and [Holdaway 1954][research_drag_rise_reduction_1954] investigated reducing the zero-lift drag rise by adding volume in the right place, an experimental statement of the area rule. Separation-controlled variants of the same idea were still being tried two decades later by [Howell and Korst 1971][research_drag_rise_notches_1971].
 
 Lift at the test condition follows from the [lift coefficient][ref_lift_coefficient],
 
-$$C_L = \frac{W}{q S}$$
+$$
+C_L = \frac{W}{q S}
+\tag{34}
+$$
 
 The lift-curve slope that produces it is also compressibility-corrected,
 
-$$C_{L\alpha} = \frac{C_{L\alpha,0}}{\sqrt{1 - M_\infty^2}}$$
+$$
+C_{L\alpha} = \frac{C_{L\alpha,0}}{\sqrt{1 - M_\infty^2}}
+\tag{35}
+$$
 
 below the critical Mach number, and this relation fails in the same band and for the same reason as the pressure transformation, which is one more thing the flight data had to supply. With a mass near 4500 kilograms after propellant burn the level-flight equivalent lift coefficient at the test point is 0.29, well below any stall consideration. The X-1 was never lift-limited. It was drag-limited and control-limited, so the [drag polar][ref_drag_polar] matters here mainly through its zero-lift term. Written out, the polar is
 
-$$C_D = C_{D0} + \frac{C_L^2}{\pi A e}$$
+$$
+C_D = C_{D0} + \frac{C_L^2}{\pi A e}
+\tag{36}
+$$
 
 with the efficiency factor $e$ following the charts of [Oswald 1932][research_oswald_1932]. At an aspect ratio of six, an efficiency factor of 0.85, and a lift coefficient of 0.29, the induced term is
 
-$$\frac{C_L^2}{\pi A e} = \frac{0.0841}{\pi \times 6 \times 0.85} = 0.0052$$
+$$
+\frac{C_L^2}{\pi A e} = \frac{0.0841}{\pi \times 6 \times 0.85} = 0.0052
+\tag{37}
+$$
 
 against a transonic zero-lift value near 0.05, so induced drag is about ten percent of the total at the test point and the aircraft is overwhelmingly wave-drag limited. That ratio is the quantitative reason the programme could ignore span efficiency and concentrate on thickness and fuselage shape.
 
 Assembling the full drag build-up is useful, because the result can be checked against the measurement. Skin friction on a turbulent flat plate follows
 
-$$C_f = \frac{0.074}{Re^{1/5}}$$
+$$
+C_f = \frac{0.074}{Re^{1/5}}
+\tag{38}
+$$
 
 which at the flight Reynolds number of $8.15 \times 10^{6}$ gives $C_f = 0.00307$, and referred to wing area through a wetted-area ratio near 4.5 this is a friction contribution of 0.0138. The base of the fuselage, where the rocket nozzles sit, contributes
 
-$$C_{D,\text{base}} = -C_{p,b} \frac{A_b}{S}$$
+$$
+C_{D,\text{base}} = -C_{p,b} \frac{A_b}{S}
+\tag{39}
+$$
 
 with $C_{p,b}$ the base pressure coefficient, and at a representative transonic value of negative 0.15 over a base area of 0.64 square metres this is 0.0079. That term is the reason the programme measured base and rear fuselage pressures separately, reported in [Knapp and Johnson 1953][research_x1_base_pressures_1953]. Adding the fuselage wave drag of 0.031 and the induced term of 0.0052 gives
 
-$$C_D \approx 0.0138 + 0.0310 + 0.0079 + 0.0052 = 0.058$$
+$$
+C_D \approx 0.0138 + 0.0310 + 0.0079 + 0.0052 = 0.058
+\tag{40}
+$$
 
 against the transonic peak near 0.05 taken above. An estimate assembled from four independent contributions landing within about fifteen percent of that value is a good result for the period, and it also shows where the estimate is weakest, since the wave drag term is both the largest and the least certain.
 
@@ -237,19 +357,31 @@ The tunnel data the programme was checked against were taken at a fraction of fl
 
 The formal basis for asking which groups must match is the theorem of [Buckingham 1914][research_buckingham_1914], which fixes the number of independent dimensionless groups at the number of variables less the number of independent dimensions and therefore tells the experimenter how many knobs must be matched, so that the count is not left to judgement. For this problem the binding pair is Mach number and Reynolds number, the second being
 
-$$Re = \frac{\rho V L}{\mu}$$
+$$
+Re = \frac{\rho V L}{\mu}
+\tag{41}
+$$
 
 with the viscosity following from the relation of [Sutherland 1893][research_sutherland_1893],
 
-$$\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}$$
+$$
+\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}
+\tag{42}
+$$
 
 with $\mu_{\text{ref}} = 1.716 \times 10^{-5}$ pascal seconds at 273.15 kelvin and $S = 110.4$ kelvin. At the test condition of 216.65 kelvin this gives $\mu = 1.42 \times 10^{-5}$ pascal seconds, and with a density of 0.2607 kilograms per cubic metre and a speed of 312.7 metres per second the unit Reynolds number is
 
-$$\frac{Re}{L} = \frac{0.2607 \times 312.7}{1.42 \times 10^{-5}} = 5.74 \times 10^{6} \ \text{per metre}$$
+$$
+\frac{Re}{L} = \frac{0.2607 \times 312.7}{1.42 \times 10^{-5}} = 5.74 \times 10^{6} \ \text{per metre}
+\tag{43}
+$$
 
 so across the 1.42 metre mean geometric chord the flight Reynolds number is $8.2 \times 10^{6}$. A quarter-scale model as used in [Donlan et al. 1976][research_xs1_tunnel_1976] at the same Mach number and temperature would reach a quarter of that unless the tunnel were pressurized, and a sixteenth-scale model as in [Mattson 1947][research_xs1_model_1947] would reach one sixteenth, which is $5 \times 10^{5}$ and firmly in a regime where transition location and separation behaviour differ from flight. Matching both groups requires
 
-$$p_{\text{model}} = k \, p_{\text{flight}}$$
+$$
+p_{\text{model}} = k \, p_{\text{flight}}
+\tag{44}
+$$
 
 for a geometric scale of $1/k$, which was not available. The flight article was the only place the two could be matched simultaneously, because it was the aircraft.
 
@@ -257,61 +389,103 @@ for a geometric scale of $1/k$, which was not available. The flight article was 
 
 The XLR11 produced thrust in four nominally equal chambers, and the pilot selected the number of chambers burning rather than modulating a throttle \[[Wikipedia Article on the Reaction Motors XLR11][ref_xlr11]\]. Thrust was therefore quantized,
 
-$$T_n = n \, T_c, \quad n \in \{0, 1, 2, 3, 4\}$$
+$$
+T_n = n \, T_c, \quad n \in \{0, 1, 2, 3, 4\}
+\tag{45}
+$$
 
 with $T_c$ about 6672 newtons. The quantization was a design constraint, because it meant that the acceleration through the drag rise was not continuously controllable. The axial acceleration available at any moment is
 
-$$a_x = \frac{T_n - D}{m}$$
+$$
+a_x = \frac{T_n - D}{m}
+\tag{46}
+$$
 
 and at the test condition with two chambers burning and a mass of 4500 kilograms the available axial acceleration once the drag is subtracted is
 
-$$a_x = \frac{T_2 - D}{m} = \frac{13{,}345 - 7700}{4500} = 1.25 \ \text{metres per second squared}$$
+$$
+a_x = \frac{T_2 - D}{m} = \frac{13{,}345 - 7700}{4500} = 1.25 \ \text{metres per second squared}
+\tag{47}
+$$
 
 and the time to cross the drag rise from Mach 0.9 to Mach 1.1 follows by integrating
 
-$$t = \int_{V_1}^{V_2} \frac{dV}{a_x(V)} \approx \frac{\Delta M \, a_\infty}{a_x} = \frac{0.2 \times 295}{1.25} = 47 \ \text{seconds}$$
+$$
+t = \int_{V_1}^{V_2} \frac{dV}{a_x(V)} \approx \frac{\Delta M \, a_\infty}{a_x} = \frac{0.2 \times 295}{1.25} = 47 \ \text{seconds}
+\tag{48}
+$$
 
 so the aircraft crossed the drag rise slowly enough for the instrumentation to resolve it. That excess is not free, because in a climb it must be shared,
 
-$$a_x = \frac{T - D}{m} - g \sin \gamma$$
+$$
+a_x = \frac{T - D}{m} - g \sin \gamma
+\tag{49}
+$$
 
 and at the 7.3 degree climb angle computed in Sizing From First Principles the entire excess goes into potential energy and none into acceleration. The pilot chose between them, a choice that specific excess power expresses, and that freedom made the quantization tolerable in operation.
 
 Thrust follows from the momentum and pressure terms,
 
-$$F = \dot{m} v_e + (p_e - p_a) A_e$$
+$$
+F = \dot{m} v_e + (p_e - p_a) A_e
+\tag{50}
+$$
 
 with $v_e$ the exhaust velocity, $p_e$ and $p_a$ the exit-plane and ambient pressures, and $A_e$ the exit area. The pressure term is why the engine performed better at altitude, and it is one reason for flying the test points high. The engine was [pressure-fed][ref_pressure_fed] rather than turbopump-fed, so the tanks themselves were pressure vessels and the nitrogen supply was part of the mass budget. The tank wall thickness follows from the [hoop stress][ref_hoop_stress] relation,
 
-$$\sigma_h = \frac{p_t r}{t_w}, \qquad t_w = \frac{p_t r}{\sigma_{\text{allow}}}$$
+$$
+\sigma_h = \frac{p_t r}{t_w}, \qquad t_w = \frac{p_t r}{\sigma_{\text{allow}}}
+\tag{51}
+$$
 
 with $p_t$ the tank pressure and $r$ the tank radius. At a tank pressure of 2.4 megapascals, a radius of 0.4 metres, and an allowable stress of 300 megapascals, the required wall thickness is 3.2 millimetres. The chamber performance separates into a combustion term and an expansion term through the characteristic velocity and thrust coefficient,
 
-$$c^{*} = \frac{p_0 A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_0 A_t}, \qquad I_{sp} = \frac{c^{*} C_F}{g_0}$$
+$$
+c^{*} = \frac{p_0 A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_0 A_t}, \qquad I_{sp} = \frac{c^{*} C_F}{g_0}
+\tag{52}
+$$
 
 with $A_t$ the throat area and $p_0$ the chamber pressure. The nozzle fixes $C_F$ through its expansion ratio, obtained by solving the area relation at the exit Mach number,
 
-$$\varepsilon_n = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_e^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}$$
+$$
+\varepsilon_n = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_e^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}
+\tag{53}
+$$
 
 For a chamber pressure near 1.7 megapascals expanding to roughly 40 kilopascals with a combustion-gas ratio of specific heats near 1.2, the exit Mach number is 2.95 and the expansion ratio is 6.3, which is modest and appropriate for an engine that must work from sea level to the stratosphere without an altitude-compensating nozzle. The propellant combination fixes $c^{*}$. Complete combustion of ethanol in oxygen proceeds as
 
-$$\mathrm{C_2H_5OH} + 3\,\mathrm{O_2} \longrightarrow 2\,\mathrm{CO_2} + 3\,\mathrm{H_2O}$$
+$$
+\mathrm{C_2H_5OH} + 3\,\mathrm{O_2} \longrightarrow 2\,\mathrm{CO_2} + 3\,\mathrm{H_2O}
+\tag{54}
+$$
 
 which at molar masses of 46.07 and 32.00 grams per mole gives a stoichiometric oxidizer-to-fuel mass ratio of
 
-$$\left. \frac{m_{ox}}{m_f} \right|_{\text{stoich}} = \frac{3 \times 32.00}{46.07} = 2.08$$
+$$
+\left. \frac{m_{ox}}{m_f} \right|_{\text{stoich}} = \frac{3 \times 32.00}{46.07} = 2.08
+\tag{55}
+$$
 
 Engines of the period ran fuel-rich of stoichiometric to hold chamber temperature down, and the alcohol was further diluted with water for the same reason \[[Carman and Carden 1951][ref_naca_rm_l51e08]\], which costs specific impulse and buys chamber life. The tank volume required follows from the propellant densities,
 
-$$V_{\text{tank}} = \frac{m_{ox}}{\rho_{ox}} + \frac{m_f}{\rho_f}$$
+$$
+V_{\text{tank}} = \frac{m_{ox}}{\rho_{ox}} + \frac{m_f}{\rho_f}
+\tag{56}
+$$
 
 and with liquid oxygen at 1141 and diluted alcohol at about 810 kilograms per cubic metre, a 2268 kilogram load split near the operating mixture ratio needs roughly 2.4 cubic metres of tankage. Pressurizing that volume to 2.4 megapascals with nitrogen requires a pressurant mass of
 
-$$m_{N_2} = \frac{p_t V_{\text{tank}}}{R_{N_2} T} = \frac{2.4 \times 10^{6} \times 2.4}{297 \times 290} = 67 \ \text{kilograms}$$
+$$
+m_{N_2} = \frac{p_t V_{\text{tank}}}{R_{N_2} T} = \frac{2.4 \times 10^{6} \times 2.4}{297 \times 290} = 67 \ \text{kilograms}
+\tag{57}
+$$
 
 before accounting for the mass of the high-pressure vessels that store it. The tank pressure is not a free choice either, since it must exceed the chamber pressure by the injector drop and the line losses,
 
-$$p_t = p_c + \Delta p_{\text{inj}} + \Delta p_{\text{line}}$$
+$$
+p_t = p_c + \Delta p_{\text{inj}} + \Delta p_{\text{line}}
+\tag{58}
+$$
 
 and the injector drop is in turn set by the requirement that the feed system be stiff enough to prevent combustion instability coupling back into the propellant lines, conventionally $\Delta p_{\text{inj}} \gtrsim 0.2 \, p_c$. That inequality is the reason a pressure-fed engine cannot simply raise chamber pressure to improve performance, and it caps the architecture. Pressure feeding trades tank mass for turbomachinery development risk, and in 1945 that trade favoured tank mass decisively \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\].
 
@@ -319,55 +493,91 @@ and the injector drop is in turn set by the requirement that the feed system be 
 
 The airframe was designed to a load factor of eighteen, which is extreme for a crewed aircraft and reflects that nobody knew what loads the transonic band would impose \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\]. The [load factor][ref_load_factor] is
 
-$$n = \frac{L}{W}$$
+$$
+n = \frac{L}{W}
+\tag{59}
+$$
 
 and at a launch weight of 54,514 newtons the design load is 981 kilonewtons. For an elliptic spanwise distribution over a span of 8.53 metres the root bending moment is
 
-$$M_{\text{root}} = \frac{n W b}{3 \pi} = \frac{981{,}252 \times 8.53}{9.42} = 8.88 \times 10^{5} \ \text{newton metres}$$
+$$
+M_{\text{root}} = \frac{n W b}{3 \pi} = \frac{981{,}252 \times 8.53}{9.42} = 8.88 \times 10^{5} \ \text{newton metres}
+\tag{60}
+$$
 
 where the elliptic distribution assumed is the minimum-induced-drag case of [Munk 1921][research_munk_1921],
 
-$$\ell(y) = \frac{4 L}{\pi b} \sqrt{1 - \left( \frac{2 y}{b} \right)^2}$$
+$$
+\ell(y) = \frac{4 L}{\pi b} \sqrt{1 - \left( \frac{2 y}{b} \right)^2}
+\tag{61}
+$$
 
 The required spar cap area for an allowable stress $\sigma_{\text{allow}}$ and structural depth $h_s$ is
 
-$$A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}$$
+$$
+A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}
+\tag{62}
+$$
 
 With [duralumin][ref_duralumin] at 400 megapascals and a root structural depth of 0.144 metres, being eight percent of a 1.8 metre root chord, the cap area is 154 square centimetres. Two caps four metres long at a density of 2780 kilograms per cubic metre come to roughly 340 kilograms, which is six percent of the launch mass in spar caps alone. That figure is the price of designing against the unknown, and the X-1 is heavy for its size because of it. The [factor of safety][ref_factor_of_safety] applied on top of it made the aircraft heavier still.
 
 The manoeuvring boundary follows from the same load factor. The corner speed, the lowest speed at which the limit load can be reached aerodynamically, is
 
-$$V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}$$
+$$
+V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}
+\tag{63}
+$$
 
 and at the test altitude with $n_{\max} = 8$ for the operational limit rather than the ultimate design value, this is 482 metres per second, or Mach 1.63. The aircraft could not reach its structural limit aerodynamically anywhere in the subsonic envelope, which restates the overdesign in envelope terms. Limit and ultimate loads are conventionally related by
 
-$$n_{\text{ult}} = 1.5 \, n_{\text{limit}}$$
+$$
+n_{\text{ult}} = 1.5 \, n_{\text{limit}}
+\tag{64}
+$$
 
 and the structural mass fraction that results,
 
-$$\frac{m_s}{m_0} \approx 0.35$$
+$$
+\frac{m_s}{m_0} \approx 0.35
+\tag{65}
+$$
 
 is high for an aircraft of this size and is the direct cost of the unknown.
 
 Two further structural checks belong to the same sizing. Thin skin panels fail by buckling long before they reach material yield, at a critical stress
 
-$$\sigma_{cr} = \frac{k \pi^2 E}{12 \left( 1 - \nu^2 \right)} \left( \frac{t_s}{b_s} \right)^2$$
+$$
+\sigma_{cr} = \frac{k \pi^2 E}{12 \left( 1 - \nu^2 \right)} \left( \frac{t_s}{b_s} \right)^2
+\tag{66}
+$$
 
 with $E$ the elastic modulus, $\nu$ the Poisson ratio, $t_s$ the skin thickness, $b_s$ the stiffener pitch, and $k$ near four for a simply supported panel. For aluminium at 72 gigapascals with a 1.6 millimetre skin on a 100 millimetre pitch this gives 68 megapascals, which is a small fraction of the material allowable and explains why high-speed airframes carry closely spaced stringers. Torsion is carried as a shear flow around the closed box,
 
-$$q_s = \frac{T_{\text{torque}}}{2 A_m}$$
+$$
+q_s = \frac{T_{\text{torque}}}{2 A_m}
+\tag{67}
+$$
 
 by the Bredt relation, with $A_m$ the enclosed area, and the same enclosed area appears in the torsional stiffness that sets the divergence speed below. Dynamic behaviour imposed a second constraint. Flutter clearance is governed by the reduced frequency
 
-$$k = \frac{\omega b}{V}$$
+$$
+k = \frac{\omega b}{V}
+\tag{68}
+$$
 
 with $b$ the semichord, and by the mass ratio and flutter speed index
 
-$$\mu_m = \frac{m_w}{\pi \rho b^2}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}$$
+$$
+\mu_m = \frac{m_w}{\pi \rho b^2}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}
+\tag{69}
+$$
 
 with $\omega_\alpha$ the uncoupled torsional frequency. The unsteady aerodynamic theory behind the calculation is [Theodorsen 1935][research_theodorsen_1935], its programme history is [Garrick and Reed 1981][research_garrick_reed_1981], and the field was named and bounded by [Collar 1946][research_collar_1946]. Static [divergence][ref_aeroelasticity] of the thin wing was checked against
 
-$$q_D = \frac{K_\theta}{e S C_{L\alpha}}$$
+$$
+q_D = \frac{K_\theta}{e S C_{L\alpha}}
+\tag{70}
+$$
 
 and a thin unswept wing at low dynamic pressure is comfortably clear of it, which is one of the few places the X-1 had margin to spare. The standard treatments are [Bisplinghoff et al. 1955][book_bisplinghoff_ashley_halfman_1955] and [Fung 1955][book_fung_1955], with wing-aileron flutter of the later thin-wing X-1E measured by [Gibson et al. 1957][research_x1e_flutter_1957].
 
@@ -379,19 +589,31 @@ The programme turned on this subsystem, and the case can be argued quantitativel
 
 The pitching moment contribution of a horizontal tail is conventionally written through the tail volume coefficient
 
-$$V_H = \frac{S_t \, l_t}{S \, \bar{c}}$$
+$$
+V_H = \frac{S_t \, l_t}{S \, \bar{c}}
+\tag{71}
+$$
 
 with $S_t$ the tail area, $l_t$ the tail arm, and $\bar{c}$ the mean aerodynamic chord. For the X-1 with a tail area of 2.42 square metres, a tail arm of 4.5 metres, and a mean chord of 1.42 metres, $V_H = 0.63$. The control power of a full-incidence stabilizer is then
 
-$$C_{m \delta_s} = -V_H \, C_{L \alpha_t} \, \eta_t$$
+$$
+C_{m \delta_s} = -V_H \, C_{L \alpha_t} \, \eta_t
+\tag{72}
+$$
 
 with $C_{L\alpha_t}$ the tail lift-curve slope and $\eta_t$ the tail efficiency. Taking 4.0 per radian and 0.9 gives $C_{m\delta_s} = -2.28$ per radian. A hinged elevator instead produces
 
-$$C_{m \delta_e} = -V_H \, C_{L \alpha_t} \, \eta_t \, \tau$$
+$$
+C_{m \delta_e} = -V_H \, C_{L \alpha_t} \, \eta_t \, \tau
+\tag{73}
+$$
 
 where $\tau$ is the elevator effectiveness parameter, a function of the ratio of elevator chord to tail chord. Thin-airfoil theory gives it explicitly as
 
-$$\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c_t} - 1$$
+$$
+\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c_t} - 1
+\tag{74}
+$$
 
 which for a thirty-percent-chord elevator returns $\theta_h = 1.982$ radians and $\tau = 0.66$. Measured values run lower than the inviscid theory because of boundary-layer thickening near the hinge and gap leakage, and a value near 0.5 is representative for a thirty-percent-chord elevator in attached flow. The elevator therefore starts with half the authority of the all-moving surface.
 
@@ -399,55 +621,91 @@ The decisive point is not the nominal value of $\tau$ but what happens to it. Wh
 
 The trim requirement makes the consequence concrete. As the flow becomes supersonic the [aerodynamic centre][ref_aerodynamic_center] migrates aft, typically from about the quarter chord to about the half chord, and the resulting nose-down moment increment at a lift coefficient of 0.29 is
 
-$$\Delta C_m = C_L \frac{\Delta x_{ac}}{\bar{c}} = 0.29 \times 0.25 = 0.0725$$
+$$
+\Delta C_m = C_L \frac{\Delta x_{ac}}{\bar{c}} = 0.29 \times 0.25 = 0.0725
+\tag{75}
+$$
 
 The stabilizer deflection required to trim that out is
 
-$$\delta_s = \frac{\Delta C_m}{\left| C_{m \delta_s} \right|} = \frac{0.0725}{2.28} = 0.032 \ \text{radians} = 1.8 \ \text{degrees}$$
+$$
+\delta_s = \frac{\Delta C_m}{\left| C_{m \delta_s} \right|} = \frac{0.0725}{2.28} = 0.032 \ \text{radians} = 1.8 \ \text{degrees}
+\tag{76}
+$$
 
 which is trivially available. The elevator deflection required in attached flow would be 3.6 degrees, also available. But with $\tau$ degraded to 0.1 by shock-induced separation the requirement becomes
 
-$$\delta_e = \frac{0.0725}{0.63 \times 4.0 \times 0.9 \times 0.1} = 0.32 \ \text{radians} = 18 \ \text{degrees}$$
+$$
+\delta_e = \frac{0.0725}{0.63 \times 4.0 \times 0.9 \times 0.1} = 0.32 \ \text{radians} = 18 \ \text{degrees}
+\tag{77}
+$$
 
 which exceeds the available deflection and would be ineffective in any case because the surface it acts on is separated. Mach tuck is thus an arithmetic shortfall in control authority, not a mysterious barrier. That shortfall is why the aircraft flew with a stabilizer that the pilot could adjust in flight rather than with an elevator alone \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\] \[[Wikipedia Article on the Bell X-1][ref_bell_x1]\].
 
 A second mechanism reinforces the first. The [hinge moment][ref_hinge_moment] on a control surface is
 
-$$H = q \, S_e \, c_e \, C_h, \qquad C_h = C_{h_0} + C_{h\alpha} \alpha_t + C_{h\delta} \delta_e$$
+$$
+H = q \, S_e \, c_e \, C_h, \qquad C_h = C_{h_0} + C_{h\alpha} \alpha_t + C_{h\delta} \delta_e
+\tag{78}
+$$
 
 with $S_e$ and $c_e$ the surface area and chord aft of the hinge, and the stick force in a manually reversible system is proportional to it through the control system gearing $G$,
 
-$$F_s = G \, H = G \, q \, S_e \, c_e \, C_h$$
+$$
+F_s = G \, H = G \, q \, S_e \, c_e \, C_h
+\tag{79}
+$$
 
 so the force the pilot feels scales with dynamic pressure and with a coefficient whose sign is not guaranteed. Through the transonic band the hinge moment derivatives change sign and magnitude unpredictably as the shock moves across the hinge line, so the stick force feedback the pilot relies on becomes an unreliable guide to what the surface is doing. An all-moving surface brings a penalty of its own, since a large surface free to rotate about a spanwise axis is a classical flutter risk, and transonic flutter clearance of all-movable tails was investigated separately by [Abbott and Land 1957][research_allmovable_flutter_1957] and [Sellers 1958][research_allmovable_flutter_1958]. The X-1 accepted that risk because the alternative was no pitch control at all. An all-moving surface driven through an irreversible actuator removes the pilot from that loop entirely. That argument comes from control-system design, not from aerodynamics, and it is at least as important. [Trim tabs][ref_trim_tab] and geared servotabs, the alternative approach of the period, are the subject of [Mungall 1948][research_geared_tab_1948].
 
 Trim is the statement that the total pitching moment vanishes,
 
-$$C_{m_0} + C_{m\alpha} \alpha + C_{m \delta_s} \delta_s = 0$$
+$$
+C_{m_0} + C_{m\alpha} \alpha + C_{m \delta_s} \delta_s = 0
+\tag{80}
+$$
 
 and the pilot solves it by adjusting the stabilizer as Mach number changes the first two terms. The tail contribution also fixes where the [neutral point][ref_aerodynamic_center] sits,
 
-$$\frac{x_{np}}{\bar{c}} = \frac{x_{ac,w}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)$$
+$$
+\frac{x_{np}}{\bar{c}} = \frac{x_{ac,w}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)
+\tag{81}
+$$
 
 and with a wing aerodynamic centre at the quarter chord, the tail volume coefficient of 0.63 computed above, a slope ratio of 0.89, and a downwash derivative estimated from lifting-line theory as
 
-$$\frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A} = \frac{2 \times 4.5}{\pi \times 6} = 0.48$$
+$$
+\frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A} = \frac{2 \times 4.5}{\pi \times 6} = 0.48
+\tag{82}
+$$
 
 the neutral point lies at 54 percent of the mean aerodynamic chord. Longitudinal dynamics close the picture. The [static margin][ref_longitudinal_static_stability] is
 
-$$SM = \frac{x_{np} - x_{cg}}{\bar{c}}$$
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}
+\tag{83}
+$$
 
 and the aft migration of the neutral point through Mach one increases it sharply, stiffening the aircraft in pitch and raising the short period frequency
 
-$$\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}$$
+$$
+\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}
+\tag{84}
+$$
 
 with damping ratio
 
-$$\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}$$
+$$
+\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}
+\tag{85}
+$$
 
 so the aircraft becomes simultaneously harder to trim, quicker to respond, and relatively less damped, a demanding combination for a pilot. The related failure mode, in which the aircraft pitches up uncommandedly as the tail enters the wing wake at high angle of attack, became a preoccupation of the same period and is documented in [Fischel and Nugent 1953][research_longitudinal_accel_1953], [Anderson and Bray 1955][research_pitchup_evaluation_1955], and eventually met with automatic intervention by [Hurt and Whitten 1960][research_pitchup_control_1960]. Configuration effects on the same behaviour appear in [Peterson and Menees 1959][research_unswept_stability_1959], and an alternative control-feel approach using a spring-loaded tab in [Hunter and Reeder 1946][research_spring_tab_1946]. The tail also sits in the wing wake, so its effective incidence carries the downwash derivative
 
-$$\alpha_t = \alpha \left( 1 - \frac{d\varepsilon}{d\alpha} \right) + i_t - \varepsilon_0$$
+$$
+\alpha_t = \alpha \left( 1 - \frac{d\varepsilon}{d\alpha} \right) + i_t - \varepsilon_0
+\tag{86}
+$$
 
 and the change of $d\varepsilon / d\alpha$ through the transonic band is a research quantity, which [Matthews 1948][research_xs1_downwash_1948] treats for this aircraft. Dynamic stability derived from flight is reported in [Polhamus 1950][research_x1_dynamic_stability_1950], with the lateral case in [Drake 1950][research_x1_lateral_1950]. The standard modern treatments of the modal structure are [Etkin et al. 1959][book_etkin_reid_1996], [Nelson 1998][book_nelson_1998], [Stengel and Flight dynamics 2004][book_stengel_2004], and [McRuer et al. 1990][book_mcruer_ashkenas_graham_1973], and the equivalent problem at model scale is worked in [A122 Stability, Control, and Configuration][related_post_a122_stability_configuration] and [A123 Dynamic Stability and Control][related_post_a123_dynamic_stability].
 
@@ -459,11 +717,17 @@ Shock-induced separation does not only destroy control effectiveness. It also fe
 
 Buffet onset is conventionally reported as a boundary in the lift coefficient and Mach number plane,
 
-$$C_{L,\text{buffet}} = f(M_\infty)$$
+$$
+C_{L,\text{buffet}} = f(M_\infty)
+\tag{87}
+$$
 
 which falls steeply once the shock is strong enough to separate the boundary layer. The structural response is a forced random vibration, and its severity is measured as the root mean square of the normal acceleration increment,
 
-$$\sigma_{a} = \left[ \frac{1}{T} \int_0^{T} \left( a_n(t) - \bar{a}_n \right)^2 dt \right]^{1/2}$$
+$$
+\sigma_{a} = \left[ \frac{1}{T} \int_0^{T} \left( a_n(t) - \bar{a}_n \right)^2 dt \right]^{1/2}
+\tag{88}
+$$
 
 with the response concentrated near the natural frequencies of the wing bending modes. The relevant transfer is between the unsteady pressure field and the structural mode, so buffet intensity depends on how nearly the separation shedding frequency approaches a structural frequency rather than on separation alone.
 
@@ -471,7 +735,10 @@ Buffet loads on a quarter-scale model are reported in [Rainey and Igoe 1958][res
 
 One thing the X-1 did not have to contend with is heating. The stagnation temperature at the test condition is
 
-$$T_0 = T_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right) = 216.65 \times 1.225 = 265 \ \text{kelvin}$$
+$$
+T_0 = T_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right) = 216.65 \times 1.225 = 265 \ \text{kelvin}
+\tag{89}
+$$
 
 which is below the freezing point of water and imposes no material constraint whatever. Even at the Mach 1.45 record the stagnation temperature is 308 kelvin. Only above roughly Mach 3 does the stagnation-point heating correlation of [Fay and Riddell 1958][research_fay_riddell_1958] and the blunt-body analysis of [Lees 1956][research_lees_1956] become relevant, and neither applies to anything the X-1 did. The thermal problem that dominates the [X-2][ref_bell_x2] and the [X-15][ref_na_x15] does not arise below roughly Mach 2, and the [aluminium][ref_duralumin] airframe was never at risk. The absence matters because it isolates what the X-1 tested.
 
@@ -481,11 +748,17 @@ The hardest measurement in the programme was the Mach number itself, and this de
 
 Airspeed and Mach number come from a [pitot-static system][ref_position_error]. In subsonic flow the ratio of total to static pressure gives Mach number through the isentropic relation
 
-$$\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}$$
+$$
+\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{90}
+$$
 
 but above Mach one a bow shock stands ahead of the [pitot tube][ref_pitot_tube] and the probe senses the total pressure behind that shock. The correct relation becomes the [Rayleigh supersonic pitot formula][ref_rayleigh_pitot],
 
-$$\frac{p_{02}}{p_1} = \left[ \frac{(\gamma + 1)^2 M_1^2}{4 \gamma M_1^2 - 2(\gamma - 1)} \right]^{\frac{\gamma}{\gamma - 1}} \cdot \frac{1 - \gamma + 2 \gamma M_1^2}{\gamma + 1}$$
+$$
+\frac{p_{02}}{p_1} = \left[ \frac{(\gamma + 1)^2 M_1^2}{4 \gamma M_1^2 - 2(\gamma - 1)} \right]^{\frac{\gamma}{\gamma - 1}} \cdot \frac{1 - \gamma + 2 \gamma M_1^2}{\gamma + 1}
+\tag{91}
+$$
 
 Now evaluate both at the flight condition. At Mach 1.06 the isentropic relation gives a pressure ratio of 2.0330 and the Rayleigh relation gives 2.0325. The two differ by 0.02 percent. At Mach 1.45 they give 3.416 and 3.228, a difference of 5.5 percent.
 
@@ -493,27 +766,45 @@ Those two numbers state the central measurement difficulty of the programme. Jus
 
 The reason is the position error. A static port reads a local pressure that differs from free-stream static by an amount that varies with Mach number and that changes abruptly when a shock crosses the port,
 
-$$\Delta p_s = p_{\text{measured}} - p_\infty, \qquad \frac{\Delta M}{M} = f\left( \frac{\Delta p_s}{p_\infty}, M \right)$$
+$$
+\Delta p_s = p_{\text{measured}} - p_\infty, \qquad \frac{\Delta M}{M} = f\left( \frac{\Delta p_s}{p_\infty}, M \right)
+\tag{92}
+$$
 
 The sensitivity can also be written out explicitly. Differentiating the isentropic relation between pressure ratio and Mach number gives
 
-$$\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d(p_0 / p)}{p_0 / p}$$
+$$
+\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d(p_0 / p)}{p_0 / p}
+\tag{93}
+$$
 
 so a one percent error in the measured pressure ratio produces roughly a one percent error in Mach number at Mach one, and rather more at lower Mach number where the leading factor grows. Calibrating the static source through the transonic band, where the error itself moves as the shock crosses the port, was therefore a research task rather than a bench calibration. The NACA treated it as one. [Hasel and Coletti 1948][research_pitot_supersonic_1948] investigated the behaviour of pitot-static tubes at supersonic speeds directly, supplying the experimental counterpart of the Rayleigh relation above. [Thompson et al. 1950][research_airspeed_calibration_1950] reports the flight calibration of four separate airspeed systems on one aircraft through Mach one, and flight calibration of that kind is the only honest way to establish what a static source is doing when theory cannot be trusted, and [Sinclair and Mace 1956][research_pitot_vane_1956] extends the calibration to a combined pressure and flow-angularity probe. Anyone inclined to treat the Mach 1.06 figure as a simple instrument reading should look at the length of that calibration literature. The uncertainty in derived quantities then propagates through
 
-$$u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)$$
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{94}
+$$
 
 as described in [Taylor 1997][book_taylor_1997_error_analysis] and [Bevington and Robinson 2002][book_bevington_robinson_2002]. Drag obtained from an [accelerometer][ref_accelerometer] and known thrust,
 
-$$D = T - m a_x$$
+$$
+D = T - m a_x
+\tag{95}
+$$
 
 amplifies relative uncertainty by approximately the thrust-to-drag ratio, which at the test condition is about 3.5, so a three percent thrust calibration error becomes a ten percent drag uncertainty. The technique and its error budget were set out by [Beeler et al. 1956][research_beeler_1956]. Sampling imposed its own limit. Resolving a structural mode at frequency $f_{\max}$ requires
 
-$$f_s > 2 f_{\max}$$
+$$
+f_s > 2 f_{\max}
+\tag{96}
+$$
 
 by the criterion of [Nyquist 1928][research_nyquist_1928] and [Shannon 1948][research_shannon_1948], and the resulting recorded bit rate for $N_c$ channels of $b$ bits is
 
-$$B = N_c f_s b$$
+$$
+B = N_c f_s b
+\tag{97}
+$$
 
 The X-1 predates practical wideband [telemetry][ref_telemetry] and carried a five-channel telemeter, so most data were recorded on board by oscillographs, a recording manometer and a camera photographing the instrument panel, and recovered after landing. [Strain gauges][ref_strain_gauge] carried the load measurements \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\]. The modern descendant of this discipline is surveyed by [Grauer and Morelli 2023][research_grauer_morelli_2023].
 
@@ -523,37 +814,61 @@ The first airframe made unpowered glide flights beginning in January 1946 to est
 
 The expansion schedule can be put on the same information footing used in the [series opener][related_post_a297_xplanes_framing]. If each flight returns the drag coefficient in a narrow Mach band with relative standard deviation $\sigma_m$, and the prior is $\sigma_0$, then after $n$ flights in that band
 
-$$\sigma_n^2 = \left( \frac{1}{\sigma_0^2} + \frac{n}{\sigma_m^2} \right)^{-1}$$
+$$
+\sigma_n^2 = \left( \frac{1}{\sigma_0^2} + \frac{n}{\sigma_m^2} \right)^{-1}
+\tag{98}
+$$
 
 and reaching a target $\sigma_T$ requires
 
-$$n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil$$
+$$
+n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil
+\tag{99}
+$$
 
 flights per band, with the information gain measured as
 
-$$I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}$$
+$$
+I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}
+\tag{100}
+$$
 
 The rate at which the aircraft could move through that schedule is the specific excess power already derived, since
 
-$$\frac{dh_e}{dt} = P_s$$
+$$
+\frac{dh_e}{dt} = P_s
+\tag{101}
+$$
 
 so at 40 metres per second the aircraft added its entire energy-height increment of 10.9 kilometres in about four and a half minutes, which is comparable to the powered endurance and explains why every flight was a single climbing run rather than a series of test points. The fleet size follows from the same logic through the attrition condition,
 
-$$\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha$$
+$$
+\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha
+\tag{102}
+$$
 
 which returns three airframes for a per-flight loss probability of two percent over twenty-five flights at ninety-five percent confidence, and three were built. The decision-theoretic basis is [Lindley 1956][research_lindley_1956] and the modern survey is [Chaloner and Verdinelli 1995][research_chaloner_verdinelli_1995], with the design-of-experiments framing in [Box et al. 2005][book_box_hunter_hunter_2005] and [Gelman et al. 2013][book_gelman_et_al_2013]. A programme covering several Mach bands to five percent from an order-unity prior needs a flight count in the tens. The X-1 flew a count of that order, and the cumulative total across three airframes is consistent with the attrition sizing that predicted three. Envelope expansion proceeded in small Mach increments, the standard method then and now, as described for a modern programme by [Deepa and Gupta 2023][research_deepa_gupta_2023]. The NACA plan was that each flight advance the maximum Mach number by a small step and that the next step wait on the ground reduction of the data, although the Air Force pilots often flew faster than the NACA engineers recommended \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\]. The buffet and the loss of elevator effectiveness appeared near Mach 0.88 to 0.94, and when the elevator ran out of authority at Mach 0.94 in October 1947 the team, at first surprised, recovered pitch control by moving the stabilizer \[[Wikipedia Article on the Bell X-1][ref_bell_x1]\].
 
 The character of that schedule matters, because the schedule is the method. A flight was flown to a target Mach number set a small increment above the previous best. The instrumentation recorded on board. The aircraft landed on the lake bed, unpowered \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\], and the unpowered landing was a flight condition that the programme had to clear before anything else. An unpowered glide holds
 
-$$\tan \gamma_g = \frac{1}{L / D}, \qquad w_s = \frac{V}{L / D}$$
+$$
+\tan \gamma_g = \frac{1}{L / D}, \qquad w_s = \frac{V}{L / D}
+\tag{103}
+$$
 
 with $\gamma_g$ the glide angle and $w_s$ the sink rate. With a subsonic zero-lift drag coefficient near 0.04 the best glide ratio is
 
-$$\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}} = \frac{1}{2} \sqrt{\frac{\pi \times 6 \times 0.85}{0.04}} = 10.0$$
+$$
+\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}} = \frac{1}{2} \sqrt{\frac{\pi \times 6 \times 0.85}{0.04}} = 10.0
+\tag{104}
+$$
 
 giving a glide angle of 5.7 degrees. The landing weight after propellant exhaustion is near 3300 kilograms, so the stall speed is
 
-$$V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 32{,}373}{1.10 \times 12.1 \times 1.2}} = 64 \ \text{metres per second}$$
+$$
+V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 32{,}373}{1.10 \times 12.1 \times 1.2}} = 64 \ \text{metres per second}
+\tag{105}
+$$
 
 and an approach flown at 1.3 times stall is 83 metres per second with a sink rate of 8.3 metres per second. That is a fast, steep, one-attempt arrival with no engine, which is why the glide programme came first and why a dry lake bed rather than a runway was the enabling piece of infrastructure \[[Hansen 1987][book_hansen_1987_engineer_in_charge]\]. The film and oscillograph records were developed and reduced on the ground between flights. The reduced data were compared against the prediction before the next increment was planned. The loop is slow, and its slowness is the price of not losing the aircraft.
 
@@ -563,7 +878,10 @@ On 14 October 1947 the first airframe, flown by [Chuck Yeager][ref_yeager] and n
 
 The energy state of that flight can be checked against the propulsion budget derived above. At Mach 1.06 and 13,115 metres the energy height is
 
-$$h_e = 13{,}115 + \frac{312.7^2}{2 \times 9.80665} = 13{,}115 + 4985 = 1.81 \times 10^{4} \ \text{metres}$$
+$$
+h_e = 13{,}115 + \frac{312.7^2}{2 \times 9.80665} = 13{,}115 + 4985 = 1.81 \times 10^{4} \ \text{metres}
+\tag{106}
+$$
 
 which against a release energy height of 7247 metres is a gain of 10.9 kilometres, well inside what the propellant load allows and consistent with the aircraft having propellant remaining at the test point. The flight of 26 March 1948 reached an energy height of 21.6 kilometres at the highest Mach number the first airframe flew. The difference between the two figures is the difference between demonstrating a condition and exhausting an envelope.
 
@@ -579,11 +897,17 @@ Three independent ground methods were applied to the same configuration. Wind tu
 
 The agreement varied with configuration. Lift and drag for the ten-percent-thick wing agreed satisfactorily with the sixteenth-scale tunnel data, as [Saltzman 1953][research_x1_liftdrag_1953] reports. Inside the band, and particularly for control surface effectiveness and for the location of separation, the ground methods were less secure, because those quantities depend on boundary layer state and therefore on Reynolds number, which the ground methods did not match. The mechanism is that transition location scales with Reynolds number, so a model at one sixteenth of flight Reynolds number carries laminar flow over a region that is turbulent in flight. Taking a transition criterion of the form
 
-$$Re_{x,\text{tr}} = \frac{\rho V x_{\text{tr}}}{\mu} \approx \text{constant}$$
+$$
+Re_{x,\text{tr}} = \frac{\rho V x_{\text{tr}}}{\mu} \approx \text{constant}
+\tag{107}
+$$
 
 the transition point moves aft in proportion to $1 / Re$ per unit length, so at a sixteenth of flight Reynolds number the transition location moves aft by a factor of sixteen in fractional chord until it runs off the surface entirely. A fully laminar model and a mostly turbulent aircraft do not separate at the same place, and separation location was the quantity the control-effectiveness question depended on. The free-fall bodies avoided the tunnel walls but not this, since they too were subscale, and their equation of motion
 
-$$m \frac{dV}{dt} = m g \cos \gamma_e - \frac{1}{2} \rho V^2 S C_D$$
+$$
+m \frac{dV}{dt} = m g \cos \gamma_e - \frac{1}{2} \rho V^2 S C_D
+\tag{108}
+$$
 
 gives drag from the measured acceleration in the same way the flight article did. The pattern generalizes. Quantities set by inviscid geometry scale well and quantities set by the boundary layer do not, and the flight-only residual is concentrated in the second class.
 
@@ -833,6 +1157,960 @@ The more consequential finding was not about drag at all. It was that pitch cont
 The aircraft also established the method. Incremental expansion, dedicated instrumentation, ground reduction between flights, and a fleet sized for attrition are all present here in their first mature form, and every article that follows in this series inherits them.
 
 The next article takes the [Bell X-2][ref_bell_x2], which pushed the same approach into a thermal regime beyond any the X-1 flew in, and which killed a pilot demonstrating a coupling mode that static force testing could not see.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 108 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 108, 86 are established and 22 are bespoke.
+Each equation uses the units of the International System stated in its section, with the test condition of 14 October 1947 at Mach 1.06 and 13,115 metres as the reference point, and several letters change meaning between sections, so $b$, $e$, $k$, $S$, $T$ and $\gamma$ are read from the nearest prose.
+
+**Equation 1, Prandtl-Glauert Compressibility Correction.**
+The small-disturbance compressible pressure coefficient is the incompressible value divided by the square root of one minus the square of the Mach number, which diverges as the Mach number approaches one.
+[Prandtl-Glauert transformation][ref_prandtl_glauert]
+[Glauert 1928][research_glauert_1928]
+
+$$
+C_p = \frac{C_{p,0}}{\sqrt{1 - M_\infty^2}}
+\tag{1}
+$$
+
+**Equation 2, Isentropic Area-Mach Relation.**
+The ratio of a duct area to its sonic throat area is a function of the local Mach number alone in one-dimensional isentropic flow.
+[Ames Research Staff 1953][research_naca_1135]
+
+$$
+\frac{A}{A^{*}} = \frac{1}{M} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}
+\tag{2}
+$$
+
+*Equation 3, Bespoke One-Dimensional Choking Condition with a Model.*
+Treating the model as a simple reduction of the flow area in one-dimensional flow, the tunnel reaches a free-stream Mach number only while the remaining area exceeds the sonic area for that Mach number.
+
+$$
+\frac{A_t - A_m}{A_t} \ge \frac{A^{*}(M_\infty)}{A_t}
+\tag{3}
+$$
+
+**Equation 4, Blockage Ratio.**
+The blockage ratio is the frontal area of the model divided by the area of the test section.
+
+$$
+\varepsilon_b = \frac{A_m}{A_t}
+\tag{4}
+$$
+
+**Equation 5, Critical Pressure Coefficient.**
+The pressure coefficient at which the local flow becomes sonic follows from the isentropic relations as a function of the free-stream Mach number.
+[critical Mach number][ref_critical_mach]
+
+$$
+C_{p,\text{crit}} = \frac{2}{\gamma M_\infty^2} \left[ \left( \frac{1 + \frac{\gamma - 1}{2} M_\infty^2}{1 + \frac{\gamma - 1}{2}} \right)^{\frac{\gamma}{\gamma - 1}} - 1 \right]
+\tag{5}
+$$
+
+**Equation 6, Drag Divergence Mach Number Criterion.**
+The drag divergence Mach number is conventionally the Mach number at which the slope of drag coefficient against Mach number reaches one tenth.
+[drag divergence Mach number][ref_drag_divergence]
+
+$$
+\left. \frac{\partial C_D}{\partial M} \right|_{M = M_{DD}} = 0.1
+\tag{6}
+$$
+
+**Equation 7, Normal Shock Pressure and Density Ratios.**
+The Rankine-Hugoniot relations give the static pressure and density ratios across a normal shock as functions of the upstream Mach number.
+[normal shock][ref_normal_shock]
+
+$$
+\frac{p_2}{p_1} = \frac{2 \gamma M_1^2 - (\gamma - 1)}{\gamma + 1}, \qquad \frac{\rho_2}{\rho_1} = \frac{(\gamma + 1) M_1^2}{(\gamma - 1) M_1^2 + 2}
+\tag{7}
+$$
+
+**Equation 8, Normal Shock Temperature Ratio.**
+The static temperature ratio across a normal shock is the product of the pressure ratio and the inverse density ratio.
+[normal shock][ref_normal_shock]
+
+$$
+\frac{T_2}{T_1} = \frac{\left[ 2 \gamma M_1^2 - (\gamma - 1) \right] \left[ (\gamma - 1) M_1^2 + 2 \right]}{(\gamma + 1)^2 M_1^2}
+\tag{8}
+$$
+
+**Equation 9, Mach Number Downstream of a Normal Shock.**
+The downstream Mach number of a normal shock is a function of the upstream Mach number alone and is always subsonic.
+
+$$
+M_2^2 = \frac{(\gamma - 1) M_1^2 + 2}{2 \gamma M_1^2 - (\gamma - 1)}
+\tag{9}
+$$
+
+**Equation 10, Total Pressure Loss from Entropy Rise.**
+The ratio of total pressures across a shock is the exponential of the negative entropy rise divided by the specific gas constant.
+
+$$
+\frac{p_{02}}{p_{01}} = \exp \left( -\frac{\Delta s}{R} \right)
+\tag{10}
+$$
+
+*Equation 11, Bespoke Power-Law Fit of the Drag Rise.*
+The article fits the drag rise above the critical Mach number as a power of the normalised distance between the critical and divergence Mach numbers, a form that is fitted rather than derived and whose exponent lies between two and four.
+
+$$
+C_D(M) = C_{D0} + \Delta C_{D_w} \left( \frac{M - M_{\text{crit}}}{M_{DD} - M_{\text{crit}}} \right)^{n}, \qquad M > M_{\text{crit}}
+\tag{11}
+$$
+
+**Equation 12, Boundary-Layer Separation Criterion.**
+Separation occurs where the wall shear vanishes, which is where the velocity gradient normal to the wall is zero at the wall.
+[Prandtl 1928][research_prandtl_1928]
+
+$$
+\left. \frac{\partial u}{\partial y} \right|_{y=0} = 0
+\tag{12}
+$$
+
+**Equation 13, Wright Learning Curve.**
+Unit cost falls by a fixed fraction $b$ for every doubling of cumulative output.
+[Wright 1936][research_wright_1936]
+
+$$
+C_n = C_1 \, n^{\log_2 b}
+\tag{13}
+$$
+
+**Equation 14, Fuselage Fineness Ratio.**
+The fineness ratio is the fuselage length divided by its maximum diameter.
+
+$$
+f = \frac{L_f}{d_{\max}} = \frac{9.45}{1.40} = 6.75
+\tag{14}
+$$
+
+**Equation 15, Sears-Haack Minimum Wave Drag Area of the X-1 Fuselage.**
+The Sears-Haack result is evaluated for the length and maximum cross-sectional area of the X-1 fuselage.
+[Sears-Haack][ref_sears_haack]
+
+$$
+\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L_f} \right)^2 = 14.14 \times \left( \frac{1.54}{9.45} \right)^2 = 0.375 \ \text{square metres}
+\tag{15}
+$$
+
+**Equation 16, Dynamic Pressure in Terms of Mach Number.**
+The ideal gas law and the sound speed rewrite dynamic pressure as a product of static pressure and the square of the Mach number.
+[Dynamic pressure][ref_dynamic_pressure]
+
+$$
+q = \frac{\gamma}{2} p M^2
+\tag{16}
+$$
+
+**Equation 17, Hydrostatic Pressure in the Isothermal Stratosphere.**
+In the isothermal layer above 11 kilometres the pressure falls exponentially with height above the base of the layer.
+[standard atmosphere][ref_us_standard_atmosphere]
+
+$$
+p(h) = p_{11} \exp \left[ -\frac{g (h - h_{11})}{R T} \right]
+\tag{17}
+$$
+
+**Equation 18, Dynamic Pressure at the Mach 1.06 Test Condition.**
+The compressible form is evaluated at Mach 1.06 with the standard atmosphere pressure at 13,115 metres.
+[Wikipedia List of X-1 Flights][ref_list_of_x1_flights]
+[National Air and Space Museum Record for the Bell X-1][ref_nasm_x1]
+
+$$
+q = 0.7 \times 16{,}212 \times 1.1236 = 1.275 \times 10^{4} \ \text{pascals}
+\tag{18}
+$$
+
+**Equation 19, Drag Equation.**
+Drag is the product of dynamic pressure, reference wing area and drag coefficient.
+[drag coefficient][ref_drag_coefficient]
+
+$$
+D = q S C_D
+\tag{19}
+$$
+
+*Equation 20, Bespoke Largest Drag Coefficient Thrust Can Overcome.*
+The article inverts the drag equation at the balance of full thrust and drag to define the largest drag coefficient the aircraft could push through at the test condition.
+
+$$
+C_{D,\max} = \frac{T}{q S}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Thrust-Limited Drag Coefficient of the X-1.*
+The largest drag coefficient is evaluated with the full four-chamber thrust of the XLR11 and the reference wing area.
+[XLR11][ref_xlr11]
+
+$$
+C_{D,\max} = \frac{26{,}689}{12{,}750 \times 12.1} = 0.173
+\tag{21}
+$$
+
+*Equation 22, Bespoke Propellant Mass Flow at an Assumed Specific Impulse.*
+The mass flow follows from the rated thrust and a specific impulse taken as 180 seconds, somewhat below the roughly 190 seconds that the rated thrust and propellant flow imply.
+[Carman and Carden 1951][ref_naca_rm_l51e08]
+
+$$
+\dot{m} = \frac{T}{I_{sp} g_0} = \frac{26{,}689}{180 \times 9.80665} = 15.1 \ \text{kilograms per second}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Full-Thrust Burn Time.*
+The burn time is the propellant load divided by the mass flow obtained at the assumed specific impulse of 180 seconds.
+[Carman and Carden 1951][ref_naca_rm_l51e08]
+
+$$
+t_b = \frac{m_p}{\dot{m}} = \frac{2268}{15.1} = 150 \ \text{seconds}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Ideal Velocity Increment of the X-1.*
+The rocket equation is evaluated at the assumed specific impulse of 180 seconds with the launch mass and propellant load, and it includes no gravity or drag losses.
+[Tsiolkovsky relation][ref_tsiolkovsky]
+
+$$
+\Delta v = I_{sp} g_0 \ln \frac{m_0}{m_0 - m_p} = 1765 \times \ln \frac{5557}{3289} = 926 \ \text{metres per second}
+\tag{24}
+$$
+
+**Equation 25, Energy Height.**
+Energy height is the geometric altitude plus the kinetic energy per unit weight.
+
+$$
+h_e = h + \frac{V^2}{2g}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Trajectory Energy Efficiency.*
+The article defines the efficiency of a flight as the gain in specific mechanical energy divided by the specific kinetic energy of the ideal velocity increment.
+
+$$
+\eta_{\text{traj}} = \frac{g \Delta h_e}{\Delta v^2 / 2} = 0.33
+\tag{26}
+$$
+
+**Equation 27, Initial Thrust-to-Weight Ratio of the X-1.**
+The initial thrust-to-weight ratio is the full thrust divided by the launch weight.
+
+$$
+\frac{T}{W} = \frac{26{,}689}{5557 \times 9.80665} = 0.49
+\tag{27}
+$$
+
+**Equation 28, Propellant and Remaining Mass Fractions of the X-1.**
+The propellant load divided by the launch mass gives the propellant fraction, and the structure, systems and instrumentation make up the rest.
+
+$$
+\frac{m_p}{m_0} = \frac{2268}{5557} = 0.41, \qquad \frac{m_s + m_i}{m_0} = 0.59
+\tag{28}
+$$
+
+**Equation 29, Climb Angle from Excess Thrust.**
+In steady climbing flight the sine of the flight path angle is the excess of thrust over drag divided by weight.
+
+$$
+\sin \gamma = \frac{T - D}{W}
+\tag{29}
+$$
+
+**Equation 30, Specific Excess Power.**
+Specific excess power is the excess of thrust over drag times speed divided by weight, the rate at which the aircraft can add energy height.
+
+$$
+P_s = \frac{V (T - D)}{W}
+\tag{30}
+$$
+
+**Equation 31, Thin-Aerofoil Peak Suction and Thickness.**
+Linearised thin-aerofoil theory at low lift gives a minimum pressure coefficient proportional to the thickness ratio.
+
+$$
+C_{p,\min} \approx -k_t \frac{t}{c}
+\tag{31}
+$$
+
+**Equation 32, Critical Mach Number Condition.**
+The critical Mach number is the free-stream Mach number at which the compressibility-corrected peak suction equals the critical pressure coefficient.
+
+$$
+\frac{C_{p,0}}{\sqrt{1 - M_\infty^2}} = C_{p,\text{crit}}(M_\infty)
+\tag{32}
+$$
+
+**Equation 33, Sears-Haack Minimum Wave Drag.**
+The minimum supersonic wave drag of a slender body of given length and maximum area is proportional to the square of the ratio of that area to the length.
+[Sears 1947][research_sears_1947]
+
+$$
+\frac{D_w}{q} = \frac{9 \pi}{2} \left( \frac{A_{\max}}{L} \right)^2
+\tag{33}
+$$
+
+**Equation 34, Lift Coefficient in Level Flight.**
+In level flight the lift coefficient is the weight divided by the product of dynamic pressure and wing area.
+[lift coefficient][ref_lift_coefficient]
+
+$$
+C_L = \frac{W}{q S}
+\tag{34}
+$$
+
+**Equation 35, Compressibility Correction to the Lift-Curve Slope.**
+Below the critical Mach number the lift-curve slope is corrected by the same Prandtl-Glauert factor as the pressure coefficient.
+
+$$
+C_{L\alpha} = \frac{C_{L\alpha,0}}{\sqrt{1 - M_\infty^2}}
+\tag{35}
+$$
+
+**Equation 36, Parabolic Drag Polar.**
+The drag coefficient is the zero-lift drag coefficient plus an induced term proportional to the square of the lift coefficient.
+[drag polar][ref_drag_polar]
+[Oswald 1932][research_oswald_1932]
+
+$$
+C_D = C_{D0} + \frac{C_L^2}{\pi A e}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Induced Drag at the Test Point.*
+The induced term is evaluated at a lift coefficient of 0.29 with an aspect ratio of six and an Oswald efficiency of 0.85 that the article assumes.
+[Oswald 1932][research_oswald_1932]
+
+$$
+\frac{C_L^2}{\pi A e} = \frac{0.0841}{\pi \times 6 \times 0.85} = 0.0052
+\tag{37}
+$$
+
+**Equation 38, Turbulent Flat-Plate Skin Friction.**
+The skin friction coefficient of a turbulent flat plate falls as the inverse fifth root of the Reynolds number.
+
+$$
+C_f = \frac{0.074}{Re^{1/5}}
+\tag{38}
+$$
+
+**Equation 39, Base Drag Coefficient.**
+Base drag is the negative base pressure coefficient times the base area referred to the wing area.
+[Knapp and Johnson 1953][research_x1_base_pressures_1953]
+
+$$
+C_{D,\text{base}} = -C_{p,b} \frac{A_b}{S}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Drag Build-Up at the Test Point.*
+The article sums friction, fuselage wave drag, base drag and induced drag, each estimated separately with representative values, to compare with the transonic peak taken as near 0.05.
+
+$$
+C_D \approx 0.0138 + 0.0310 + 0.0079 + 0.0052 = 0.058
+\tag{40}
+$$
+
+**Equation 41, Reynolds Number.**
+The Reynolds number is the ratio of inertial to viscous forces formed from density, speed, a reference length and the dynamic viscosity.
+
+$$
+Re = \frac{\rho V L}{\mu}
+\tag{41}
+$$
+
+**Equation 42, Sutherland Viscosity Law.**
+The dynamic viscosity of a gas varies with temperature through a reference pair and the Sutherland constant.
+[Sutherland 1893][research_sutherland_1893]
+
+$$
+\mu = \mu_{\text{ref}} \left( \frac{T}{T_{\text{ref}}} \right)^{3/2} \frac{T_{\text{ref}} + S}{T + S}
+\tag{42}
+$$
+
+**Equation 43, Unit Reynolds Number at the Test Condition.**
+The unit Reynolds number is evaluated with the standard atmosphere density, the Sutherland viscosity and the true airspeed at the test condition.
+
+$$
+\frac{Re}{L} = \frac{0.2607 \times 312.7}{1.42 \times 10^{-5}} = 5.74 \times 10^{6} \ \text{per metre}
+\tag{43}
+$$
+
+**Equation 44, Test-Section Pressure Required by a Subscale Model.**
+A model at geometric scale $1/k$ must run at $k$ times the flight static pressure to match both Mach and Reynolds numbers at the flight temperature.
+
+$$
+p_{\text{model}} = k \, p_{\text{flight}}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Quantised Thrust of the XLR11.*
+The article writes the available thrust as an integer number of chambers times the thrust of one chamber, which assumes the four chambers are equal.
+[XLR11][ref_xlr11]
+
+$$
+T_n = n \, T_c, \quad n \in \{0, 1, 2, 3, 4\}
+\tag{45}
+$$
+
+**Equation 46, Axial Acceleration in Level Flight.**
+The axial acceleration is the excess of thrust over drag divided by mass.
+
+$$
+a_x = \frac{T_n - D}{m}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Axial Acceleration on Two Chambers.*
+The acceleration is evaluated for two chambers burning, a mass of 4500 kilograms and a drag of 7.7 kilonewtons at the drag coefficient of 0.05 the article takes for the transonic peak.
+
+$$
+a_x = \frac{T_2 - D}{m} = \frac{13{,}345 - 7700}{4500} = 1.25 \ \text{metres per second squared}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Time to Cross the Drag Rise.*
+The integral over speed is approximated by holding the acceleration and sound speed constant from Mach 0.9 to Mach 1.1.
+
+$$
+t = \int_{V_1}^{V_2} \frac{dV}{a_x(V)} \approx \frac{\Delta M \, a_\infty}{a_x} = \frac{0.2 \times 295}{1.25} = 47 \ \text{seconds}
+\tag{48}
+$$
+
+**Equation 49, Axial Acceleration in a Climb.**
+In a climb the axial acceleration is reduced by the component of gravity along the flight path.
+
+$$
+a_x = \frac{T - D}{m} - g \sin \gamma
+\tag{49}
+$$
+
+**Equation 50, Rocket Thrust.**
+Rocket thrust is the momentum flux of the exhaust plus the pressure difference between the nozzle exit and ambient acting over the exit area.
+
+$$
+F = \dot{m} v_e + (p_e - p_a) A_e
+\tag{50}
+$$
+
+**Equation 51, Hoop Stress and Tank Wall Thickness.**
+The hoop stress in a thin cylindrical tank is the pressure times the radius divided by the wall thickness, which fixes the thickness for an allowable stress.
+[hoop stress][ref_hoop_stress]
+
+$$
+\sigma_h = \frac{p_t r}{t_w}, \qquad t_w = \frac{p_t r}{\sigma_{\text{allow}}}
+\tag{51}
+$$
+
+**Equation 52, Characteristic Velocity, Thrust Coefficient and Specific Impulse.**
+Performance separates into a characteristic velocity measuring combustion and a thrust coefficient measuring expansion, whose product over standard gravity is the specific impulse.
+
+$$
+c^{*} = \frac{p_0 A_t}{\dot{m}}, \qquad C_F = \frac{F}{p_0 A_t}, \qquad I_{sp} = \frac{c^{*} C_F}{g_0}
+\tag{52}
+$$
+
+**Equation 53, Nozzle Expansion Ratio.**
+The ratio of exit to throat area follows from the isentropic area relation at the exit Mach number.
+
+$$
+\varepsilon_n = \frac{A_e}{A_t} = \frac{1}{M_e} \left[ \frac{2}{\gamma + 1} \left( 1 + \frac{\gamma - 1}{2} M_e^2 \right) \right]^{\frac{\gamma + 1}{2 (\gamma - 1)}}
+\tag{53}
+$$
+
+**Equation 54, Stoichiometric Combustion of Ethanol in Oxygen.**
+One mole of ethanol burns completely with three moles of oxygen to give two moles of carbon dioxide and three of water.
+
+$$
+\mathrm{C_2H_5OH} + 3\,\mathrm{O_2} \longrightarrow 2\,\mathrm{CO_2} + 3\,\mathrm{H_2O}
+\tag{54}
+$$
+
+**Equation 55, Stoichiometric Oxidiser-to-Fuel Mass Ratio.**
+The molar masses of oxygen and ethanol give the stoichiometric mass ratio of oxidiser to fuel.
+
+$$
+\left. \frac{m_{ox}}{m_f} \right|_{\text{stoich}} = \frac{3 \times 32.00}{46.07} = 2.08
+\tag{55}
+$$
+
+**Equation 56, Propellant Tank Volume.**
+The tank volume is the sum of the oxidiser and fuel masses each divided by its density.
+
+$$
+V_{\text{tank}} = \frac{m_{ox}}{\rho_{ox}} + \frac{m_f}{\rho_f}
+\tag{56}
+$$
+
+**Equation 57, Pressurant Mass from the Ideal Gas Law.**
+The mass of nitrogen that fills the tankage at the tank pressure follows from the ideal gas law.
+
+$$
+m_{N_2} = \frac{p_t V_{\text{tank}}}{R_{N_2} T} = \frac{2.4 \times 10^{6} \times 2.4}{297 \times 290} = 67 \ \text{kilograms}
+\tag{57}
+$$
+
+**Equation 58, Tank Pressure of a Pressure-Fed Engine.**
+The tank pressure must exceed the chamber pressure by the injector pressure drop and the line losses.
+
+$$
+p_t = p_c + \Delta p_{\text{inj}} + \Delta p_{\text{line}}
+\tag{58}
+$$
+
+**Equation 59, Load Factor.**
+The load factor is the ratio of lift to weight.
+[load factor][ref_load_factor]
+
+$$
+n = \frac{L}{W}
+\tag{59}
+$$
+
+*Equation 60, Bespoke Root Bending Moment of the X-1 Wing.*
+The root bending moment is evaluated at the design load factor of eighteen on the launch weight under an assumed elliptic spanwise lift distribution.
+
+$$
+M_{\text{root}} = \frac{n W b}{3 \pi} = \frac{981{,}252 \times 8.53}{9.42} = 8.88 \times 10^{5} \ \text{newton metres}
+\tag{60}
+$$
+
+**Equation 61, Elliptic Spanwise Lift Distribution.**
+The elliptic distribution, the minimum-induced-drag case, gives the lift per unit span as a function of spanwise position.
+[Munk 1921][research_munk_1921]
+
+$$
+\ell(y) = \frac{4 L}{\pi b} \sqrt{1 - \left( \frac{2 y}{b} \right)^2}
+\tag{61}
+$$
+
+**Equation 62, Required Spar Cap Area.**
+The spar cap area is the root bending moment divided by the product of the allowable stress and the structural depth.
+
+$$
+A_{\text{cap}} = \frac{M_{\text{root}}}{\sigma_{\text{allow}} h_s}
+\tag{62}
+$$
+
+**Equation 63, Corner Speed.**
+The corner speed is the lowest speed at which the maximum lift coefficient produces the limit load factor.
+
+$$
+V_A = \sqrt{\frac{2 n_{\max} W}{\rho S C_{L,\max}}}
+\tag{63}
+$$
+
+**Equation 64, Ultimate Load Factor.**
+The ultimate load is conventionally one and a half times the limit load.
+
+$$
+n_{\text{ult}} = 1.5 \, n_{\text{limit}}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Structural Mass Fraction of the X-1.*
+The structural mass fraction of about 0.35 is an estimate the article gives for the airframe built to a load factor of eighteen.
+
+$$
+\frac{m_s}{m_0} \approx 0.35
+\tag{65}
+$$
+
+**Equation 66, Critical Buckling Stress of a Skin Panel.**
+A thin plate buckles at a stress proportional to the elastic modulus and the square of the ratio of skin thickness to stiffener pitch.
+
+$$
+\sigma_{cr} = \frac{k \pi^2 E}{12 \left( 1 - \nu^2 \right)} \left( \frac{t_s}{b_s} \right)^2
+\tag{66}
+$$
+
+**Equation 67, Bredt Shear Flow in a Closed Box.**
+Torque on a closed thin-walled box is carried as a shear flow equal to the torque divided by twice the enclosed area.
+
+$$
+q_s = \frac{T_{\text{torque}}}{2 A_m}
+\tag{67}
+$$
+
+**Equation 68, Reduced Frequency.**
+The reduced frequency is the angular frequency times the semichord divided by the flow speed.
+[Theodorsen 1935][research_theodorsen_1935]
+
+$$
+k = \frac{\omega b}{V}
+\tag{68}
+$$
+
+**Equation 69, Mass Ratio and Flutter Speed Index.**
+The flutter speed is normalised by the semichord, the torsional natural frequency and the square root of the ratio of wing mass to the mass of surrounding air.
+[Garrick and Reed 1981][research_garrick_reed_1981]
+
+$$
+\mu_m = \frac{m_w}{\pi \rho b^2}, \qquad F_i = \frac{V_f}{b \omega_\alpha \sqrt{\mu_m}}
+\tag{69}
+$$
+
+**Equation 70, Torsional Divergence Dynamic Pressure.**
+A typical section diverges at the dynamic pressure at which the aerodynamic twisting moment per unit twist equals the torsional stiffness.
+[Bisplinghoff et al. 1955][book_bisplinghoff_ashley_halfman_1955]
+[Fung 1955][book_fung_1955]
+
+$$
+q_D = \frac{K_\theta}{e S C_{L\alpha}}
+\tag{70}
+$$
+
+**Equation 71, Horizontal Tail Volume Coefficient.**
+The tail volume coefficient is the tail area times the tail arm divided by the wing area times the mean aerodynamic chord.
+
+$$
+V_H = \frac{S_t \, l_t}{S \, \bar{c}}
+\tag{71}
+$$
+
+**Equation 72, Control Power of an All-Moving Stabiliser.**
+The pitching moment per unit stabiliser incidence is the negative tail volume coefficient times the tail lift-curve slope and the tail efficiency.
+
+$$
+C_{m \delta_s} = -V_H \, C_{L \alpha_t} \, \eta_t
+\tag{72}
+$$
+
+**Equation 73, Control Power of a Hinged Elevator.**
+A hinged elevator produces the stabiliser control power reduced by the elevator effectiveness parameter.
+
+$$
+C_{m \delta_e} = -V_H \, C_{L \alpha_t} \, \eta_t \, \tau
+\tag{73}
+$$
+
+**Equation 74, Thin-Aerofoil Elevator Effectiveness.**
+Thin-aerofoil theory gives the effectiveness of a plain flap as a function of the ratio of flap chord to surface chord.
+
+$$
+\tau = 1 - \frac{\theta_h - \sin \theta_h}{\pi}, \qquad \cos \theta_h = 2 \frac{c_e}{c_t} - 1
+\tag{74}
+$$
+
+*Equation 75, Bespoke Trim Change from Aerodynamic Centre Migration.*
+The nose-down moment increment is evaluated for an aft shift of the aerodynamic centre by a quarter chord, a typical value the article takes, at a lift coefficient of 0.29.
+[aerodynamic centre][ref_aerodynamic_center]
+
+$$
+\Delta C_m = C_L \frac{\Delta x_{ac}}{\bar{c}} = 0.29 \times 0.25 = 0.0725
+\tag{75}
+$$
+
+*Equation 76, Bespoke Stabiliser Deflection to Trim.*
+The trim deflection is the moment increment divided by the stabiliser control power obtained with an assumed tail lift-curve slope of 4.0 per radian and tail efficiency of 0.9.
+
+$$
+\delta_s = \frac{\Delta C_m}{\left| C_{m \delta_s} \right|} = \frac{0.0725}{2.28} = 0.032 \ \text{radians} = 1.8 \ \text{degrees}
+\tag{76}
+$$
+
+*Equation 77, Bespoke Elevator Deflection with Separated Flow.*
+The elevator deflection is evaluated with the effectiveness parameter degraded to 0.1, a value the article assumes for shock-induced separation.
+
+$$
+\delta_e = \frac{0.0725}{0.63 \times 4.0 \times 0.9 \times 0.1} = 0.32 \ \text{radians} = 18 \ \text{degrees}
+\tag{77}
+$$
+
+**Equation 78, Hinge Moment.**
+The hinge moment is the dynamic pressure times the area and chord of the surface aft of the hinge times a hinge moment coefficient that is linear in incidence and deflection.
+[hinge moment][ref_hinge_moment]
+
+$$
+H = q \, S_e \, c_e \, C_h, \qquad C_h = C_{h_0} + C_{h\alpha} \alpha_t + C_{h\delta} \delta_e
+\tag{78}
+$$
+
+**Equation 79, Stick Force of a Reversible Control.**
+In a manually reversible system the stick force is the control gearing times the hinge moment.
+
+$$
+F_s = G \, H = G \, q \, S_e \, c_e \, C_h
+\tag{79}
+$$
+
+**Equation 80, Pitch Trim Condition.**
+Trim requires the total pitching moment, the sum of the zero-lift, incidence and stabiliser terms, to vanish.
+
+$$
+C_{m_0} + C_{m\alpha} \alpha + C_{m \delta_s} \delta_s = 0
+\tag{80}
+$$
+
+**Equation 81, Stick-Fixed Neutral Point.**
+The neutral point lies aft of the wing aerodynamic centre by the tail volume coefficient times the ratio of lift-curve slopes and the downwash factor.
+
+$$
+\frac{x_{np}}{\bar{c}} = \frac{x_{ac,w}}{\bar{c}} + V_H \frac{C_{L\alpha_t}}{C_{L\alpha_w}} \left( 1 - \frac{d\varepsilon}{d\alpha} \right)
+\tag{81}
+$$
+
+*Equation 82, Bespoke Downwash Derivative of the X-1.*
+The lifting-line estimate of the downwash derivative is evaluated with a wing lift-curve slope of 4.5 per radian and an aspect ratio of six that the article assumes.
+
+$$
+\frac{d\varepsilon}{d\alpha} \approx \frac{2 C_{L\alpha_w}}{\pi A} = \frac{2 \times 4.5}{\pi \times 6} = 0.48
+\tag{82}
+$$
+
+**Equation 83, Static Margin.**
+The static margin is the distance from the centre of gravity to the neutral point in units of the mean aerodynamic chord.
+[static margin][ref_longitudinal_static_stability]
+
+$$
+SM = \frac{x_{np} - x_{cg}}{\bar{c}}
+\tag{83}
+$$
+
+**Equation 84, Short-Period Natural Frequency.**
+The short-period frequency is approximated from the dimensional pitch and heave stability derivatives.
+
+$$
+\omega_{sp} \approx \sqrt{\frac{-M_\alpha Z_w}{V} - M_q \frac{Z_w}{V}}
+\tag{84}
+$$
+
+**Equation 85, Short-Period Damping Ratio.**
+The short-period damping ratio is approximated from the pitch damping, the angle of attack rate derivative and the heave derivative.
+
+$$
+\zeta_{sp} \approx -\frac{M_q + M_{\dot\alpha} + Z_w / V}{2 \, \omega_{sp}}
+\tag{85}
+$$
+
+**Equation 86, Tail Angle of Attack with Downwash.**
+The tail angle of attack is the wing angle of attack reduced by the downwash, plus the tail incidence less the zero-lift downwash.
+[Matthews 1948][research_xs1_downwash_1948]
+
+$$
+\alpha_t = \alpha \left( 1 - \frac{d\varepsilon}{d\alpha} \right) + i_t - \varepsilon_0
+\tag{86}
+$$
+
+**Equation 87, Buffet Onset Boundary.**
+Buffet onset is reported as a lift coefficient that depends on the free-stream Mach number.
+
+$$
+C_{L,\text{buffet}} = f(M_\infty)
+\tag{87}
+$$
+
+**Equation 88, Root Mean Square Normal Acceleration.**
+Buffet severity is the root mean square of the normal acceleration about its mean over the record.
+
+$$
+\sigma_{a} = \left[ \frac{1}{T} \int_0^{T} \left( a_n(t) - \bar{a}_n \right)^2 dt \right]^{1/2}
+\tag{88}
+$$
+
+**Equation 89, Stagnation Temperature at the Test Condition.**
+The adiabatic stagnation temperature is evaluated at Mach 1.06 and the stratospheric temperature of 216.65 kelvin.
+
+$$
+T_0 = T_\infty \left( 1 + \frac{\gamma - 1}{2} M_\infty^2 \right) = 216.65 \times 1.225 = 265 \ \text{kelvin}
+\tag{89}
+$$
+
+**Equation 90, Isentropic Total-to-Static Pressure Ratio.**
+In subsonic flow the ratio of total to static pressure gives the Mach number through the isentropic relation.
+
+$$
+\frac{p_0}{p} = \left( 1 + \frac{\gamma - 1}{2} M^2 \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{90}
+$$
+
+**Equation 91, Rayleigh Supersonic Pitot Formula.**
+Above Mach one the pitot tube senses the total pressure behind a normal shock, and the Rayleigh formula relates it to the free-stream static pressure and Mach number.
+[Rayleigh supersonic pitot formula][ref_rayleigh_pitot]
+
+$$
+\frac{p_{02}}{p_1} = \left[ \frac{(\gamma + 1)^2 M_1^2}{4 \gamma M_1^2 - 2(\gamma - 1)} \right]^{\frac{\gamma}{\gamma - 1}} \cdot \frac{1 - \gamma + 2 \gamma M_1^2}{\gamma + 1}
+\tag{91}
+$$
+
+**Equation 92, Static Position Error.**
+The position error is the difference between the pressure the static port reads and the free-stream static pressure, and it maps into a Mach number error that depends on the Mach number.
+
+$$
+\Delta p_s = p_{\text{measured}} - p_\infty, \qquad \frac{\Delta M}{M} = f\left( \frac{\Delta p_s}{p_\infty}, M \right)
+\tag{92}
+$$
+
+**Equation 93, Mach Number Sensitivity to the Pressure Ratio.**
+Differentiating the isentropic relation gives the relative Mach number error produced by a relative error in the measured pressure ratio.
+
+$$
+\frac{dM}{M} = \frac{1 + \frac{\gamma - 1}{2} M^2}{\gamma M^2} \cdot \frac{d(p_0 / p)}{p_0 / p}
+\tag{93}
+$$
+
+**Equation 94, Combined Standard Uncertainty.**
+For uncorrelated inputs the variance of a derived quantity is the sum of squared sensitivities times the input variances.
+[Taylor 1997][book_taylor_1997_error_analysis]
+[Bevington and Robinson 2002][book_bevington_robinson_2002]
+
+$$
+u_c^2(y) = \sum_i \left( \frac{\partial y}{\partial x_i} \right)^2 u^2(x_i)
+\tag{94}
+$$
+
+**Equation 95, Drag from Accelerating Flight.**
+Drag is thrust less the product of instantaneous mass and measured axial acceleration.
+[Beeler et al. 1956][research_beeler_1956]
+
+$$
+D = T - m a_x
+\tag{95}
+$$
+
+**Equation 96, Nyquist Sampling Criterion.**
+A signal containing frequencies up to $f_{\max}$ must be sampled at more than twice that frequency.
+[Nyquist 1928][research_nyquist_1928]
+[Shannon 1948][research_shannon_1948]
+
+$$
+f_s > 2 f_{\max}
+\tag{96}
+$$
+
+**Equation 97, Recorded Bit Rate.**
+The recorded bit rate is the number of channels times the sample rate times the bits per word.
+
+$$
+B = N_c f_s b
+\tag{97}
+$$
+
+**Equation 98, Scalar Posterior Variance after Repeated Measurements.**
+For a single quantity measured repeatedly with equal noise, the posterior precision is the prior precision plus one measurement precision per flight.
+[X-Planes series][related_post_a297_xplanes_framing]
+
+$$
+\sigma_n^2 = \left( \frac{1}{\sigma_0^2} + \frac{n}{\sigma_m^2} \right)^{-1}
+\tag{98}
+$$
+
+**Equation 99, Flight Count Required to Reach a Target Uncertainty.**
+Inverting the scalar update and rounding up gives the smallest number of flights that brings the posterior standard deviation to the target.
+
+$$
+n^{*} = \left\lceil \sigma_m^2 \left( \frac{1}{\sigma_T^2} - \frac{1}{\sigma_0^2} \right) \right\rceil
+\tag{99}
+$$
+
+**Equation 100, Information Gain as Entropy Reduction.**
+For a scalar Gaussian the information gained is half the logarithm of the ratio of prior to posterior variance.
+
+$$
+I_n = \frac{1}{2} \ln \frac{\sigma_0^2}{\sigma_n^2}
+\tag{100}
+$$
+
+**Equation 101, Rate of Change of Energy Height.**
+The rate of change of energy height equals the specific excess power.
+
+$$
+\frac{dh_e}{dt} = P_s
+\tag{101}
+$$
+
+*Equation 102, Bespoke Airframe Count from Binomial Attrition.*
+The article models losses as independent with a constant probability per flight and requires that the programme completes with fewer losses than airframes at a chosen confidence.
+
+$$
+\sum_{i=0}^{n_a - 1} \binom{n}{i} p^i (1-p)^{n-i} \ge 1 - \alpha
+\tag{102}
+$$
+
+**Equation 103, Glide Angle and Sink Rate.**
+In an unpowered glide the tangent of the glide angle is the reciprocal of the lift-to-drag ratio, and the sink rate is the speed divided by that ratio.
+
+$$
+\tan \gamma_g = \frac{1}{L / D}, \qquad w_s = \frac{V}{L / D}
+\tag{103}
+$$
+
+*Equation 104, Bespoke Best Glide Ratio of the X-1.*
+The maximum lift-to-drag ratio is evaluated with a subsonic zero-lift drag coefficient near 0.04, an aspect ratio of six and an Oswald efficiency of 0.85 that the article assumes.
+
+$$
+\left( \frac{L}{D} \right)_{\max} = \frac{1}{2} \sqrt{\frac{\pi A e}{C_{D0}}} = \frac{1}{2} \sqrt{\frac{\pi \times 6 \times 0.85}{0.04}} = 10.0
+\tag{104}
+$$
+
+*Equation 105, Bespoke Landing Stall Speed of the X-1.*
+The stall speed is evaluated for an estimated landing mass near 3300 kilograms, a lake-bed density of 1.10 kilograms per cubic metre and an assumed maximum lift coefficient of 1.2.
+
+$$
+V_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 32{,}373}{1.10 \times 12.1 \times 1.2}} = 64 \ \text{metres per second}
+\tag{105}
+$$
+
+**Equation 106, Energy Height at the Mach 1.06 Test Condition.**
+The energy height is evaluated at the altitude and true airspeed of the flight of 14 October 1947.
+
+$$
+h_e = 13{,}115 + \frac{312.7^2}{2 \times 9.80665} = 13{,}115 + 4985 = 1.81 \times 10^{4} \ \text{metres}
+\tag{106}
+$$
+
+**Equation 107, Transition at a Constant Critical Reynolds Number.**
+Transition is taken to occur at a fixed Reynolds number based on distance from the leading edge, so the transition point moves inversely with the unit Reynolds number.
+
+$$
+Re_{x,\text{tr}} = \frac{\rho V x_{\text{tr}}}{\mu} \approx \text{constant}
+\tag{107}
+$$
+
+**Equation 108, Equation of Motion of a Falling Body.**
+A body falling along a path at angle $\gamma_e$ to the vertical accelerates under the gravity component along its path less its drag.
+
+$$
+m \frac{dV}{dt} = m g \cos \gamma_e - \frac{1}{2} \rho V^2 S C_D
+\tag{108}
+$$
+
+### Notation
+
+- $M_\infty$, the free-stream Mach number, with $M_1$ and $M_2$ the Mach numbers upstream and downstream of a normal shock
+- $C_{p,0}$, the incompressible pressure coefficient
+- $A^{*}$, the area at which the flow would be sonic
+- $A_m$, the frontal area of a model, distinct from the enclosed area $A_m$ of the torsion box in Equation 67
+- $\gamma$, the ratio of specific heats, except in Equations 29 and 49, where $\gamma$ is the flight path angle, and in Equation 108, where $\gamma_e$ is the path angle from the vertical
+- $M_{DD}$, the drag divergence Mach number, with $M_{\text{crit}}$ the critical Mach number
+- $q$, the dynamic pressure in pascals
+- $C_{D,\max}$, the largest drag coefficient the full thrust can overcome at the test condition
+- $I_{sp}$, the specific impulse in seconds
+- $g_0$, standard gravity
+- $\dot{m}$, the propellant mass flow
+- $m_p$, the propellant mass, with $m_0$ the launch mass
+- $h_e$, the energy height
+- $\eta_{\text{traj}}$, the fraction of the ideal specific energy that reached the vehicle state
+- $P_s$, the specific excess power
+- $C_L$, the lift coefficient, with $C_{L,\max}$ its maximum and $C_{L\alpha}$ the lift-curve slope
+- $C_{D0}$, the zero-lift drag coefficient
+- $A e$, the product of aspect ratio $A$ and Oswald efficiency number $e$
+- $T_c$, the thrust of one XLR11 chamber, with $T_n$ the thrust of $n$ chambers
+- $p_t$, the tank pressure
+- $V_H$, the horizontal tail volume coefficient
+- $C_{m \delta_s}$, the pitching moment per unit stabiliser incidence, with $C_{m \delta_e}$ the value per unit elevator deflection
+- $\tau$, the elevator effectiveness parameter
+- $\eta_t$, the tail efficiency
+- $\varepsilon$, the downwash angle at the tail, distinct from the blockage ratio $\varepsilon_b$ and the expansion ratio $\varepsilon_n$
+- $x_{np}$, the neutral point position, with $x_{cg}$ the centre of gravity position
+- $\bar{c}$, the mean aerodynamic chord
+- $SM$, the static margin
+- $K_\theta$, the torsional stiffness of the wing section
+- $\sigma_m$, the standard deviation of a single repeat measurement, with $\sigma_0$ the prior, $\sigma_n$ the posterior and $\sigma_T$ the target
+- $n_a$, the number of airframes built
 
 ## References
 

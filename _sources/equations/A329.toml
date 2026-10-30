@@ -1,0 +1,319 @@
+# Equation classification for A329. Read by `python3 _lib/equations.py`.
+
+caution = "Forces are in pounds, masses in slugs or pounds, speeds in feet per second, powers in horsepower and temperatures in degrees Fahrenheit or Rankine, and several letters are reused, so $T$ is a thrust except where a subscript marks it as a temperature, $A$ is a disc or nozzle area except in the aspect ratio relation, and $b$ is the wing span in the aspect ratio relation and a bleed fraction in the reaction control relation."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Static Thrust of a Jet"
+gloss = "Static thrust is the mass flow times the jet velocity."
+cite = []
+digest = "204029e4a0fa7a02"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Kinetic Power Added to the Stream"
+gloss = "The power added to the stream is the rate at which its kinetic energy increases."
+cite = []
+digest = "d6b448178d14b78a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Thrust at Fixed Power as a Function of Mass Flow"
+gloss = "Eliminating the jet velocity shows that at fixed power the thrust rises as the square root of the mass flow."
+cite = []
+digest = "5c7874b9057095c3"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Thrust at Fixed Power as a Function of Jet Velocity"
+gloss = "Written in jet velocity, the same relation shows that halving the jet velocity doubles the thrust for the same power."
+cite = []
+digest = "d7e6dddbf9a064b6"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Induced Velocity of an Actuator Disc in Hover"
+gloss = "Momentum theory gives the velocity induced at a static disc as the square root of thrust over twice the density times the disc area."
+cite = ["ref_momentum_theory", "book_leishman", "book_hill_peterson"]
+digest = "e4d9fa41d1ed370d"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Ideal Hover Power From Momentum Theory"
+gloss = "The ideal power is the thrust times the induced velocity, so for a given lift it rises as the square root of the disc loading."
+cite = ["book_leishman", "book_hill_peterson"]
+digest = "dabd4a4b9eca71cf"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Induced Velocity of the Lift Fan"
+gloss = "The published cold thrust and the disc area of the fifty-inch fan at sea-level density give an induced velocity of about 556 feet per second."
+cite = []
+digest = "6a0545f16eaf4c09"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Ideal Power of the Lift Fan"
+gloss = "The thrust times the induced velocity gives an ideal power of about 20,200 horsepower."
+cite = []
+digest = "2a5a3ac355c6bbfa"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Figure of Merit of the Lift Fan"
+gloss = "The figure of merit is the ideal power divided by the published shaft power delivered, about 0.70, a value typical of a good rotor in hover."
+cite = ["research_bohorquez_pines_2010"]
+digest = "4bdec8fea7ac9c4f"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Mass Flow Through the Lift Fan"
+gloss = "Thrust equals mass flow times the far-field velocity of twice the induced velocity, which fixes the mass flow at about 579 pounds per second."
+cite = []
+digest = "78cef9eb13fdab06"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Nozzle Area for Direct Lift at the Fan's Disc Loading"
+gloss = "The article asks what nozzle area the direct-lift system would need for its jets to match the lift fan's disc loading, and divides the military-rated thrust by that loading."
+cite = []
+digest = "211cda789e121b2e"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Disc Loading From Induced Velocity"
+gloss = "Momentum theory gives the disc loading as twice the density times the square of the induced velocity."
+cite = []
+digest = "1f7e8759974a8229"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Jet Dynamic Pressure Equals Disc Loading"
+gloss = "Because the far-field jet moves at twice the induced velocity, its dynamic pressure equals the disc loading."
+cite = ["research_zhang_ing_1993"]
+digest = "e9cc382724c07c63"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Partition of Lift-System Thrust"
+gloss = "The published lift of 41,900 pounds equals the sum of the published fan, swivel module and roll-post thrusts."
+cite = ["ref_liftsystem"]
+digest = "755d7e8f1846792e"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Landing Weight and Bring-Back Allowance"
+gloss = "The article bounds the vertical landing weight by the lift divided by a control margin factor $k$ and takes the allowance as that weight less the empty weight."
+cite = []
+digest = "c6dba9c8eb973afe"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Difference and Ratio of Allowances"
+gloss = "With a control margin of five percent that the article assumes, the lift-fan architecture can bring back 13,238 pounds more than direct lift, a ratio of about six."
+cite = ["ref_x32"]
+digest = "0f83aa8ccd7f03d0"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Amplification of a Lift Error in the Allowance"
+gloss = "Differentiating the article's allowance model shows that a relative error in lift reaches the allowance multiplied by the landing weight over the allowance."
+cite = []
+digest = "81e05769c97a2d2e"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Allowance as a Linear Function of Lift"
+gloss = "Under the assumed five percent control margin the allowance is a straight line in the lift with slope one over the margin factor."
+cite = []
+digest = "2c2099394ffff563"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Break-Even Lift"
+gloss = "The allowance crosses zero at the empty weight times the assumed margin factor of 1.05, about 25,200 pounds of lift."
+cite = []
+digest = "3469e1c9362a9ab6"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Aspect Ratios From the Two Published Spans"
+gloss = "The two published spans of 36.0 and 30.02 feet with the published wing area give aspect ratios of 2.20 and 1.53."
+cite = []
+digest = "5479c672c9b5dd59"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Wing Loading and Thrust-to-Weight Ratio"
+gloss = "The published gross weight, wing area and military thrust give a wing loading of 64.4 pounds per square foot and a thrust-to-weight ratio of 0.737."
+cite = ["book_xvehicles"]
+digest = "93d3a20ad6c4700f"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Corrected Mass Flow and Corrected Thrust"
+gloss = "Engine mass flow and thrust are corrected to reference inlet conditions with the total temperature ratio $\\theta$ and the total pressure ratio $\\delta$."
+cite = ["book_mattingly"]
+digest = "bb7a613cee00cc26"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Thrust Loss From an Inlet Temperature Rise"
+gloss = "Holding the engine at a fixed corrected operating point and a fixed inlet pressure, an assumption the article makes, the fraction of thrust lost to a rise in inlet temperature is one minus the inverse square root of the temperature ratio."
+cite = []
+digest = "df0b948e8567f24b"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Allowance After a Fifty Degree Inlet Rise"
+gloss = "Reducing the military-rated direct lift by the 4.50 percent loss modelled for a fifty degree rise and applying the assumed margin leaves 1,437 pounds of allowance."
+cite = []
+digest = "4cd982d3cddea3eb"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Fraction of Allowance Consumed by Reingestion"
+gloss = "The amplification of 10.11 times the modelled thrust loss gives 45.5 percent of the bring-back allowance consumed by a fifty degree rise."
+cite = []
+digest = "e973cde8f535256a"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Downward Acceleration From a Thrust Deficit in Hover"
+gloss = "When lift falls below weight in the hover the aircraft accelerates downward at gravity times the fractional thrust deficit."
+cite = []
+digest = "275580e8fbe3f3f6"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Sink in Two Seconds"
+gloss = "Integrating the acceleration from the modelled fifty degree thrust loss over a two-second interval the article chooses gives a sink of 2.89 feet."
+cite = []
+digest = "58b4b55c98e6e811"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Mixed Temperature of Two Streams"
+gloss = "Two streams combine at the mass-weighted mean of their temperatures."
+cite = []
+digest = "65fb1c75627a80ab"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Roll Moment From Differential Post Thrust"
+gloss = "The roll moment from a pair of posts is the differential thrust times the lateral arm."
+cite = []
+digest = "ef79ede43adea9d8"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Lift After Bleeding for Reaction Control"
+gloss = "The article takes thrust as proportional to mass flow, so bleeding a fraction $b$ of the flow for reaction jets removes the same fraction of lift."
+cite = []
+digest = "52a43d53d23b26d7"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Literature Asymmetry Ratio"
+gloss = "The article measures the asymmetry of the record by the ratio of records naming the winner to records naming the loser in the title, counted on its own cited set."
+cite = []
+digest = "ce310ef72b16381f"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow, with $\\dot{m}_c$ and $\\dot{m}_h$ the cold and hot stream mass flows"
+
+[[symbol]]
+tex = 'V_j'
+meaning = "the jet velocity"
+
+[[symbol]]
+tex = 'P'
+meaning = "the power added to the stream, with $P_{\\text{ideal}}$ the ideal hover power"
+
+[[symbol]]
+tex = 'V_i'
+meaning = "the velocity induced at the disc"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = '\text{FM}'
+meaning = "the figure of merit"
+
+[[symbol]]
+tex = 'L'
+meaning = "the vertical lift, with $L_{\\text{fan}}$ and $L_{\\text{direct}}$ the lifts of the two architectures"
+
+[[symbol]]
+tex = 'k'
+meaning = "the control margin factor, taken as 1.05"
+
+[[symbol]]
+tex = 'W_{\text{empty}}'
+meaning = "the empty weight"
+
+[[symbol]]
+tex = 'W_{\text{allowance}}'
+meaning = "the bring-back allowance over the empty weight"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the inlet total temperature ratio"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the inlet total pressure ratio"
+
+[[symbol]]
+tex = 'T_{\text{ref}}'
+meaning = "the standard sea-level temperature of 518.67 degrees Rankine"
+
+[[symbol]]
+tex = '\Delta T_{\text{thrust}}'
+meaning = "the thrust lost, distinct from the inlet temperature rise $\\Delta T$"
+
+[[symbol]]
+tex = 'T_{\text{mix}}'
+meaning = "the mixed exhaust temperature, with $T_c$ and $T_h$ the cold and hot stream temperatures"
+
+[[symbol]]
+tex = 'y'
+meaning = "the lateral arm of the roll posts"
+
+[[symbol]]
+tex = 'R'
+meaning = "the ratio of literature records naming the winner to those naming the loser"

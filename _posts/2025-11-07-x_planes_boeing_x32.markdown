@@ -150,20 +150,32 @@ For the lineages each company drew on, see the clusters on lift fans, lift engin
 
 Static thrust is mass flow times jet velocity,
 
-$$T = \dot{m} V_j$$
+$$
+T = \dot{m} V_j
+\tag{1}
+$$
 
 and the power added to the stream is the rate of increase of its kinetic energy,
 
-$$P = \tfrac{1}{2} \dot{m} V_j^{2}$$
+$$
+P = \tfrac{1}{2} \dot{m} V_j^{2}
+\tag{2}
+$$
 
 Eliminating the velocity between them gives the relation that governs the choice,
 
-$$T = \sqrt{2 P \dot{m}}$$
+$$
+T = \sqrt{2 P \dot{m}}
+\tag{3}
+$$
 
 **For a fixed power, thrust rises as the square root of the mass flow.** Equivalently, writing it the other
 way,
 
-$$T = \frac{2P}{V_j}$$
+$$
+T = \frac{2P}{V_j}
+\tag{4}
+$$
 
 **halving the jet velocity doubles the thrust for the same power.**
 
@@ -192,12 +204,18 @@ standard ones set out in [Leishman on helicopter aerodynamics][book_leishman] an
 [Hill and Peterson on propulsion][book_hill_peterson]. For a disc of area $A$ producing thrust $T$ in still
 air, momentum theory gives the velocity induced at the disc,
 
-$$V_i = \sqrt{\frac{T}{2 \rho A}}$$
+$$
+V_i = \sqrt{\frac{T}{2 \rho A}}
+\tag{5}
+$$
 
 and the flow reaches twice that velocity far downstream. The ideal power is the thrust times the induced
 velocity,
 
-$$P_{\text{ideal}} = T V_i = T \sqrt{\frac{T}{2 \rho A}}$$
+$$
+P_{\text{ideal}} = T V_i = T \sqrt{\frac{T}{2 \rho A}}
+\tag{6}
+$$
 
 **So the power required for a given lift rises as the square root of the disc loading.** A system that
 pushes its air through a small hole pays for it in power, in exhaust velocity, in noise, in ground erosion
@@ -216,20 +234,32 @@ and in temperature.
 
 The disc loading is 1,467 pounds per square foot, the induced velocity is
 
-$$V_i = \sqrt{\frac{20{,}000}{2 (0.0023769)(13.64)}} = 555.5 \ \text{ft/s}$$
+$$
+V_i = \sqrt{\frac{20{,}000}{2 (0.0023769)(13.64)}} = 555.5 \ \text{ft/s}
+\tag{7}
+$$
 
 with a far-field velocity of 1,110.9 feet per second, and the ideal power is
 
-$$P_{\text{ideal}} = (20{,}000)(555.5) = 1.111 \times 10^{7} \ \text{ft lbf/s} = 20{,}199 \ \text{hp}$$
+$$
+P_{\text{ideal}} = (20{,}000)(555.5) = 1.111 \times 10^{7} \ \text{ft lbf/s} = 20{,}199 \ \text{hp}
+\tag{8}
+$$
 
 That is 20,199 horsepower of ideal power. Dividing by the delivered shaft power gives
 
-$$\text{FM} = \frac{20{,}199}{29{,}000} = 0.697$$
+$$
+\text{FM} = \frac{20{,}199}{29{,}000} = 0.697
+\tag{9}
+$$
 
 The same two relations fix the mass flow the fan moves, since the thrust is the mass flow times the
 far-field velocity,
 
-$$\dot{m} = \frac{T}{2 V_i} = \frac{20{,}000}{2(555.5)} = 18.00 \ \text{slug/s} = 579 \ \text{lb/s}$$
+$$
+\dot{m} = \frac{T}{2 V_i} = \frac{20{,}000}{2(555.5)} = 18.00 \ \text{slug/s} = 579 \ \text{lb/s}
+\tag{10}
+$$
 
 and the power loading follows as 0.690 pounds of thrust per horsepower delivered.
 
@@ -242,7 +272,10 @@ them, and one that no printed source appears to have made.
 **The X-32B's nozzle size need not be assumed, because the question can be inverted.** What nozzle area would the
 direct-lift system have needed for its jets to match the lift fan's disc loading?
 
-$$A = \frac{T}{T/A} = \frac{28{,}000}{1{,}467} = 19.09 \ \text{sq ft}$$
+$$
+A = \frac{T}{T/A} = \frac{28{,}000}{1{,}467} = 19.09 \ \text{sq ft}
+\tag{11}
+$$
 
 That is a single circular nozzle **4.93 feet across**, or two nozzles each **3.49 feet across**, on a
 fuselage 45.0 feet long and 17.3 feet tall.
@@ -264,12 +297,18 @@ Taking plausible nozzle sizes instead shows how far from the fan the direct-lift
 **The table above says more than it appears to, because of an identity the article had already assembled without stating.**
 Momentum theory gives the disc loading as
 
-$$\frac{T}{A} = 2 \rho V_i^{2}$$
+$$
+\frac{T}{A} = 2 \rho V_i^{2}
+\tag{12}
+$$
 
 and the flow reaches twice the induced velocity far downstream, so the dynamic pressure in the fully
 developed jet is
 
-$$q_{\infty} = \tfrac{1}{2} \rho (2 V_i)^{2} = 2 \rho V_i^{2} = \frac{T}{A}$$
+$$
+q_{\infty} = \tfrac{1}{2} \rho (2 V_i)^{2} = 2 \rho V_i^{2} = \frac{T}{A}
+\tag{13}
+$$
 
 **The disc loading and the dynamic pressure in the jet are the same number**. The
 [jet impingement ground-effect][research_zhang_ing_1993] literature measures that quantity directly, and its
@@ -305,7 +344,10 @@ alone contributes 20,000 pounds, the swivel module 18,000 and the roll posts 3,9
 
 The partition is exact,
 
-$$L = T_{\text{fan}} + T_{\text{3BSM}} + T_{\text{posts}} = 20{,}000 + 18{,}000 + 3{,}900 = 41{,}900 \ \text{lbf}$$
+$$
+L = T_{\text{fan}} + T_{\text{3BSM}} + T_{\text{posts}} = 20{,}000 + 18{,}000 + 3{,}900 = 41{,}900 \ \text{lbf}
+\tag{14}
+$$
 
 with shares of 47.7, 43.0 and 9.3 percent.
 **The published total equals the sum of its published parts**, a small check worth making
@@ -325,7 +367,10 @@ aboard. The quantity that matters is what can be brought back.
 The landing weight is bounded by the lift divided by a control margin, and what is available for fuel and
 stores is whatever is left after the empty weight is paid,
 
-$$W_{\text{land}} = \frac{L}{k} \qquad \text{and} \qquad W_{\text{allowance}} = \frac{L}{k} - W_{\text{empty}}$$
+$$
+W_{\text{land}} = \frac{L}{k} \qquad \text{and} \qquad W_{\text{allowance}} = \frac{L}{k} - W_{\text{empty}}
+\tag{15}
+$$
 
 At an [empty weight of 24,030 pounds][ref_x32] and an assumed five percent control margin, so that
 $k = 1.05$,
@@ -338,7 +383,10 @@ $k = 1.05$,
 **The difference is 13,238 pounds and the ratio is 6.02.** The empty weight cancels from the difference,
 which depends only on the two lifts $L_{\text{fan}}$ and $L_{\text{direct}}$ and the margin,
 
-$$\Delta W_{\text{allowance}} = \frac{L_{\text{fan}} - L_{\text{direct}}}{k} = \frac{41{,}900 - 28{,}000}{1.05} = 13{,}238 \ \text{lb} \qquad \text{and} \qquad \frac{15{,}875}{2{,}637} = 6.02$$
+$$
+\Delta W_{\text{allowance}} = \frac{L_{\text{fan}} - L_{\text{direct}}}{k} = \frac{41{,}900 - 28{,}000}{1.05} = 13{,}238 \ \text{lb} \qquad \text{and} \qquad \frac{15{,}875}{2{,}637} = 6.02
+\tag{16}
+$$
 
 **That is the competition in one line.** Both aircraft can hover. One of them can come home with two and a
 half thousand pounds of fuel and weapons and the other with nearly sixteen thousand.
@@ -348,7 +396,10 @@ half thousand pounds of fuel and weapons and the other with nearly sixteen thous
 **The allowance is a small difference between two large numbers, and that makes it fragile in a way the raw thrust figures conceal.**
 Differentiating,
 
-$$\frac{\partial W_{\text{allowance}} / W_{\text{allowance}}}{\partial L / L} = \frac{L/k}{W_{\text{allowance}}}$$
+$$
+\frac{\partial W_{\text{allowance}} / W_{\text{allowance}}}{\partial L / L} = \frac{L/k}{W_{\text{allowance}}}
+\tag{17}
+$$
 
 or the landing weight divided by the allowance.
 
@@ -373,11 +424,17 @@ thrust in the ducting and the vanes.
 
 **The allowance is a straight line in the lift**, of slope one over the margin,
 
-$$W_{\text{allowance}} = \frac{1}{k} L - W_{\text{empty}} = 0.9524 \, L - 24{,}030$$
+$$
+W_{\text{allowance}} = \frac{1}{k} L - W_{\text{empty}} = 0.9524 \, L - 24{,}030
+\tag{18}
+$$
 
 crossing zero at
 
-$$L_{\text{break even}} = k \, W_{\text{empty}} = 1.05 (24{,}030) = 25{,}232 \ \text{lbf}$$
+$$
+L_{\text{break even}} = k \, W_{\text{empty}} = 1.05 (24{,}030) = 25{,}232 \ \text{lbf}
+\tag{19}
+$$
 
 **Below that lift the allowance is negative**, meaning the aircraft could not land vertically at its
 empty weight, let alone with anything in it.
@@ -413,7 +470,10 @@ the second span is the 9.15 metres that the same source gives in its description
 **Two published spans differ by 19.9 percent and they cannot both describe the same airframe.** Thirty-six feet against thirty
 is not a conversion error and not a rounding, and the two imply materially different aeroplanes.
 
-$$A = \frac{b^{2}}{S} = \frac{36.0^{2}}{590} = 2.197 \qquad \text{against} \qquad \frac{30.02^{2}}{590} = 1.527$$
+$$
+A = \frac{b^{2}}{S} = \frac{36.0^{2}}{590} = 2.197 \qquad \text{against} \qquad \frac{30.02^{2}}{590} = 1.527
+\tag{20}
+$$
 
 **An aspect ratio of 2.20 and one of 1.53 are different wings.** The article carries both figures without
 choosing between them, because no source available pairs either figure with a particular airframe, although the
@@ -425,7 +485,10 @@ is also [on the reports server][ref_xvehicles].
 **Where the record permits a check, it passes.** The two ratios that a specification sheet has to satisfy
 are
 
-$$\frac{W}{S} = \frac{38{,}000}{590} = 64.41 \ \text{lb/ft}^{2} \qquad \text{and} \qquad \frac{T}{W} = \frac{28{,}000}{38{,}000} = 0.737$$
+$$
+\frac{W}{S} = \frac{38{,}000}{590} = 64.41 \ \text{lb/ft}^{2} \qquad \text{and} \qquad \frac{T}{W} = \frac{28{,}000}{38{,}000} = 0.737
+\tag{21}
+$$
 
 with 1.316 on afterburner, and all three are ordinary values for a fighter of this size.
 
@@ -461,7 +524,10 @@ forward and up into the intake.
 **The cost is thrust, and the relation is simple.** A turbofan matched at a corrected operating point
 carries its mass flow and its thrust in the corrected forms
 
-$$\dot{m}_{\text{corr}} = \frac{\dot{m} \sqrt{\theta}}{\delta} \qquad \text{and} \qquad T_{\text{corr}} = \frac{T}{\delta} \qquad \text{with} \qquad \theta = \frac{T_{t}}{T_{\text{ref}}}, \ \delta = \frac{p_{t}}{p_{\text{ref}}}$$
+$$
+\dot{m}_{\text{corr}} = \frac{\dot{m} \sqrt{\theta}}{\delta} \qquad \text{and} \qquad T_{\text{corr}} = \frac{T}{\delta} \qquad \text{with} \qquad \theta = \frac{T_{t}}{T_{\text{ref}}}, \ \delta = \frac{p_{t}}{p_{\text{ref}}}
+\tag{22}
+$$
 
 so at a fixed corrected point and a fixed inlet pressure the delivered thrust falls as the square root of
 inlet total temperature. This makes reingestion expensive rather than merely untidy, and the effect
@@ -470,7 +536,10 @@ was being measured on lift engines by the end of the 1960s in
 [geometric scale and surface wind][research_cosgrovewj_ryanpe_1969]. A rise of $\Delta T$ therefore costs a
 fraction of thrust
 
-$$\frac{\Delta T_{\text{thrust}}}{T} = 1 - \sqrt{\frac{T_{\text{ref}}}{T_{\text{ref}} + \Delta T}}$$
+$$
+\frac{\Delta T_{\text{thrust}}}{T} = 1 - \sqrt{\frac{T_{\text{ref}}}{T_{\text{ref}} + \Delta T}}
+\tag{23}
+$$
 
 where $T_{\text{ref}}$ is the standard sea-level temperature of 59 degrees Fahrenheit, or 518.67 degrees
 Rankine, and $\Delta T$ is in Fahrenheit degrees.
@@ -491,11 +560,17 @@ The corrected-parameter treatment behind that relation is standard and is set ou
 **Those look like small numbers and they are not.** Apply the amplification derived above. A fifty degree
 rise costs 4.50 percent of lift, and the allowance that remains, written $W_{\text{allowance}}'$, is
 
-$$W_{\text{allowance}}' = \frac{L \left(1 - \Delta T_{\text{thrust}}/T\right)}{k} - W_{\text{empty}} = \frac{28{,}000 (1 - 0.0450)}{1.05} - 24{,}030 = 1{,}437 \ \text{lb}$$
+$$
+W_{\text{allowance}}' = \frac{L \left(1 - \Delta T_{\text{thrust}}/T\right)}{k} - W_{\text{empty}} = \frac{28{,}000 (1 - 0.0450)}{1.05} - 24{,}030 = 1{,}437 \ \text{lb}
+\tag{24}
+$$
 
 so the fraction of the allowance the rise consumes is the amplification times the thrust lost,
 
-$$\frac{W_{\text{allowance}} - W_{\text{allowance}}'}{W_{\text{allowance}}} = \frac{L/k}{W_{\text{allowance}}} \, \frac{\Delta T_{\text{thrust}}}{T} = 10.11 \times 0.0450 = 0.455$$
+$$
+\frac{W_{\text{allowance}} - W_{\text{allowance}}'}{W_{\text{allowance}}} = \frac{L/k}{W_{\text{allowance}}} \, \frac{\Delta T_{\text{thrust}}}{T} = 10.11 \times 0.0450 = 0.455
+\tag{25}
+$$
 
 which is **45.5 percent of the entire bring-back allowance**, taking it from 2,637 pounds to 1,437. The same
 relation applied to the 2.33 percent lost to a twenty-five degree rise gives 23.5 percent.
@@ -508,11 +583,17 @@ difficulty in full.
 **A thrust deficit at hover is not a performance shortfall. It is a descent.** Lift below weight gives a
 downward acceleration of
 
-$$a = g \, \frac{\Delta T_{\text{thrust}}}{T}$$
+$$
+a = g \, \frac{\Delta T_{\text{thrust}}}{T}
+\tag{26}
+$$
 
 which for a fifty degree rise is **1.45 feet per second squared**. Integrating twice gives the sink,
 
-$$s = \tfrac{1}{2} a t^{2} = \tfrac{1}{2} (1.45)(2)^{2} = 2.89 \ \text{ft in two seconds}$$
+$$
+s = \tfrac{1}{2} a t^{2} = \tfrac{1}{2} (1.45)(2)^{2} = 2.89 \ \text{ft in two seconds}
+\tag{27}
+$$
 
 against 1.50 feet for a twenty-five degree rise.
 
@@ -533,7 +614,10 @@ They are consequences of the square-root law.
 were identified early, in [Krishnamoorthy 1971][research_krishnamoorthyv_1971]. Two
 streams combine at the mass-weighted mean of their temperatures,
 
-$$T_{\text{mix}} = \frac{\dot{m}_c T_c + \dot{m}_h T_h}{\dot{m}_c + \dot{m}_h}$$
+$$
+T_{\text{mix}} = \frac{\dot{m}_c T_c + \dot{m}_h T_h}{\dot{m}_c + \dot{m}_h}
+\tag{28}
+$$
 
 and the mass flows follow from the thrusts and the velocities, since $\dot{m} = T / V$.
 
@@ -572,7 +656,10 @@ exhaust nozzle and yaw from yawing the swivel module \[[Rolls-Royce LiftSystem][
 
 The moment available from a pair of posts is the differential thrust on the lateral arm,
 
-$$M = \Delta T \, y$$
+$$
+M = \Delta T \, y
+\tag{29}
+$$
 
 so posts carrying 3,900 pounds between them at an assumed station ten feet outboard command up to 39,000 foot-pounds
 of roll moment at full differential.
@@ -582,7 +669,10 @@ requires either bleed-air reaction jets or differential nozzle modulation, and t
 price that is paid before any moment is produced.
 **Bleeding a fraction $b$ of the mass flow removes that fraction of the thrust**,
 
-$$L_{\text{after bleed}} = (1 - b) L$$
+$$
+L_{\text{after bleed}} = (1 - b) L
+\tag{30}
+$$
 
 and the loss comes off the allowance with the amplification derived earlier.
 
@@ -728,7 +818,10 @@ It reports testing of the Rolls-Royce lift system for the X-32B, in 2002, after 
 **The winner's record runs from 2002 to 2026.** The loser's stops at one. Writing the asymmetry
 as a ratio,
 
-$$R = \frac{N_{\text{winner}}}{N_{\text{loser}}} = \frac{38}{1} = 38$$
+$$
+R = \frac{N_{\text{winner}}}{N_{\text{loser}}} = \frac{38}{1} = 38
+\tag{31}
+$$
 
 against two aircraft that flew in the same years, under the same programme, for the same customer.
 
@@ -1325,6 +1418,296 @@ being bought, the fly-off has answered a question adjacent to the one asked.
 loser in one, written by its engine supplier, after the result was announced.
 **An aeroplane that flew one hundred and forty-four times, went supersonic, refuelled in the air and landed vertically left almost no public technical trace**,
 and that silence is the last thing the competition decided.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 31 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 31, 19 are established and 12 are bespoke.
+Forces are in pounds, masses in slugs or pounds, speeds in feet per second, powers in horsepower and temperatures in degrees Fahrenheit or Rankine, and several letters are reused, so $T$ is a thrust except where a subscript marks it as a temperature, $A$ is a disc or nozzle area except in the aspect ratio relation, and $b$ is the wing span in the aspect ratio relation and a bleed fraction in the reaction control relation.
+
+**Equation 1, Static Thrust of a Jet.**
+Static thrust is the mass flow times the jet velocity.
+
+$$
+T = \dot{m} V_j
+\tag{1}
+$$
+
+**Equation 2, Kinetic Power Added to the Stream.**
+The power added to the stream is the rate at which its kinetic energy increases.
+
+$$
+P = \tfrac{1}{2} \dot{m} V_j^{2}
+\tag{2}
+$$
+
+**Equation 3, Thrust at Fixed Power as a Function of Mass Flow.**
+Eliminating the jet velocity shows that at fixed power the thrust rises as the square root of the mass flow.
+
+$$
+T = \sqrt{2 P \dot{m}}
+\tag{3}
+$$
+
+**Equation 4, Thrust at Fixed Power as a Function of Jet Velocity.**
+Written in jet velocity, the same relation shows that halving the jet velocity doubles the thrust for the same power.
+
+$$
+T = \frac{2P}{V_j}
+\tag{4}
+$$
+
+**Equation 5, Induced Velocity of an Actuator Disc in Hover.**
+Momentum theory gives the velocity induced at a static disc as the square root of thrust over twice the density times the disc area.
+[momentum theory][ref_momentum_theory]
+[Leishman on helicopter aerodynamics][book_leishman]
+[Hill and Peterson on propulsion][book_hill_peterson]
+
+$$
+V_i = \sqrt{\frac{T}{2 \rho A}}
+\tag{5}
+$$
+
+**Equation 6, Ideal Hover Power From Momentum Theory.**
+The ideal power is the thrust times the induced velocity, so for a given lift it rises as the square root of the disc loading.
+[Leishman on helicopter aerodynamics][book_leishman]
+[Hill and Peterson on propulsion][book_hill_peterson]
+
+$$
+P_{\text{ideal}} = T V_i = T \sqrt{\frac{T}{2 \rho A}}
+\tag{6}
+$$
+
+**Equation 7, Induced Velocity of the Lift Fan.**
+The published cold thrust and the disc area of the fifty-inch fan at sea-level density give an induced velocity of about 556 feet per second.
+
+$$
+V_i = \sqrt{\frac{20{,}000}{2 (0.0023769)(13.64)}} = 555.5 \ \text{ft/s}
+\tag{7}
+$$
+
+**Equation 8, Ideal Power of the Lift Fan.**
+The thrust times the induced velocity gives an ideal power of about 20,200 horsepower.
+
+$$
+P_{\text{ideal}} = (20{,}000)(555.5) = 1.111 \times 10^{7} \ \text{ft lbf/s} = 20{,}199 \ \text{hp}
+\tag{8}
+$$
+
+**Equation 9, Figure of Merit of the Lift Fan.**
+The figure of merit is the ideal power divided by the published shaft power delivered, about 0.70, a value typical of a good rotor in hover.
+[rotor design optimisation][research_bohorquez_pines_2010]
+
+$$
+\text{FM} = \frac{20{,}199}{29{,}000} = 0.697
+\tag{9}
+$$
+
+**Equation 10, Mass Flow Through the Lift Fan.**
+Thrust equals mass flow times the far-field velocity of twice the induced velocity, which fixes the mass flow at about 579 pounds per second.
+
+$$
+\dot{m} = \frac{T}{2 V_i} = \frac{20{,}000}{2(555.5)} = 18.00 \ \text{slug/s} = 579 \ \text{lb/s}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Nozzle Area for Direct Lift at the Fan's Disc Loading.*
+The article asks what nozzle area the direct-lift system would need for its jets to match the lift fan's disc loading, and divides the military-rated thrust by that loading.
+
+$$
+A = \frac{T}{T/A} = \frac{28{,}000}{1{,}467} = 19.09 \ \text{sq ft}
+\tag{11}
+$$
+
+**Equation 12, Disc Loading From Induced Velocity.**
+Momentum theory gives the disc loading as twice the density times the square of the induced velocity.
+
+$$
+\frac{T}{A} = 2 \rho V_i^{2}
+\tag{12}
+$$
+
+**Equation 13, Jet Dynamic Pressure Equals Disc Loading.**
+Because the far-field jet moves at twice the induced velocity, its dynamic pressure equals the disc loading.
+[jet impingement ground-effect][research_zhang_ing_1993]
+
+$$
+q_{\infty} = \tfrac{1}{2} \rho (2 V_i)^{2} = 2 \rho V_i^{2} = \frac{T}{A}
+\tag{13}
+$$
+
+**Equation 14, Partition of Lift-System Thrust.**
+The published lift of 41,900 pounds equals the sum of the published fan, swivel module and roll-post thrusts.
+[shaft-driven lift fan][ref_liftsystem]
+
+$$
+L = T_{\text{fan}} + T_{\text{3BSM}} + T_{\text{posts}} = 20{,}000 + 18{,}000 + 3{,}900 = 41{,}900 \ \text{lbf}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Landing Weight and Bring-Back Allowance.*
+The article bounds the vertical landing weight by the lift divided by a control margin factor $k$ and takes the allowance as that weight less the empty weight.
+
+$$
+W_{\text{land}} = \frac{L}{k} \qquad \text{and} \qquad W_{\text{allowance}} = \frac{L}{k} - W_{\text{empty}}
+\tag{15}
+$$
+
+*Equation 16, Bespoke Difference and Ratio of Allowances.*
+With a control margin of five percent that the article assumes, the lift-fan architecture can bring back 13,238 pounds more than direct lift, a ratio of about six.
+[Boeing X-32][ref_x32]
+
+$$
+\Delta W_{\text{allowance}} = \frac{L_{\text{fan}} - L_{\text{direct}}}{k} = \frac{41{,}900 - 28{,}000}{1.05} = 13{,}238 \ \text{lb} \qquad \text{and} \qquad \frac{15{,}875}{2{,}637} = 6.02
+\tag{16}
+$$
+
+*Equation 17, Bespoke Amplification of a Lift Error in the Allowance.*
+Differentiating the article's allowance model shows that a relative error in lift reaches the allowance multiplied by the landing weight over the allowance.
+
+$$
+\frac{\partial W_{\text{allowance}} / W_{\text{allowance}}}{\partial L / L} = \frac{L/k}{W_{\text{allowance}}}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Allowance as a Linear Function of Lift.*
+Under the assumed five percent control margin the allowance is a straight line in the lift with slope one over the margin factor.
+
+$$
+W_{\text{allowance}} = \frac{1}{k} L - W_{\text{empty}} = 0.9524 \, L - 24{,}030
+\tag{18}
+$$
+
+*Equation 19, Bespoke Break-Even Lift.*
+The allowance crosses zero at the empty weight times the assumed margin factor of 1.05, about 25,200 pounds of lift.
+
+$$
+L_{\text{break even}} = k \, W_{\text{empty}} = 1.05 (24{,}030) = 25{,}232 \ \text{lbf}
+\tag{19}
+$$
+
+**Equation 20, Aspect Ratios From the Two Published Spans.**
+The two published spans of 36.0 and 30.02 feet with the published wing area give aspect ratios of 2.20 and 1.53.
+
+$$
+A = \frac{b^{2}}{S} = \frac{36.0^{2}}{590} = 2.197 \qquad \text{against} \qquad \frac{30.02^{2}}{590} = 1.527
+\tag{20}
+$$
+
+**Equation 21, Wing Loading and Thrust-to-Weight Ratio.**
+The published gross weight, wing area and military thrust give a wing loading of 64.4 pounds per square foot and a thrust-to-weight ratio of 0.737.
+[the inventory of X-vehicles][book_xvehicles]
+
+$$
+\frac{W}{S} = \frac{38{,}000}{590} = 64.41 \ \text{lb/ft}^{2} \qquad \text{and} \qquad \frac{T}{W} = \frac{28{,}000}{38{,}000} = 0.737
+\tag{21}
+$$
+
+**Equation 22, Corrected Mass Flow and Corrected Thrust.**
+Engine mass flow and thrust are corrected to reference inlet conditions with the total temperature ratio $\theta$ and the total pressure ratio $\delta$.
+[Mattingly on engine design][book_mattingly]
+
+$$
+\dot{m}_{\text{corr}} = \frac{\dot{m} \sqrt{\theta}}{\delta} \qquad \text{and} \qquad T_{\text{corr}} = \frac{T}{\delta} \qquad \text{with} \qquad \theta = \frac{T_{t}}{T_{\text{ref}}}, \ \delta = \frac{p_{t}}{p_{\text{ref}}}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Thrust Loss From an Inlet Temperature Rise.*
+Holding the engine at a fixed corrected operating point and a fixed inlet pressure, an assumption the article makes, the fraction of thrust lost to a rise in inlet temperature is one minus the inverse square root of the temperature ratio.
+
+$$
+\frac{\Delta T_{\text{thrust}}}{T} = 1 - \sqrt{\frac{T_{\text{ref}}}{T_{\text{ref}} + \Delta T}}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Allowance After a Fifty Degree Inlet Rise.*
+Reducing the military-rated direct lift by the 4.50 percent loss modelled for a fifty degree rise and applying the assumed margin leaves 1,437 pounds of allowance.
+
+$$
+W_{\text{allowance}}' = \frac{L \left(1 - \Delta T_{\text{thrust}}/T\right)}{k} - W_{\text{empty}} = \frac{28{,}000 (1 - 0.0450)}{1.05} - 24{,}030 = 1{,}437 \ \text{lb}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Fraction of Allowance Consumed by Reingestion.*
+The amplification of 10.11 times the modelled thrust loss gives 45.5 percent of the bring-back allowance consumed by a fifty degree rise.
+
+$$
+\frac{W_{\text{allowance}} - W_{\text{allowance}}'}{W_{\text{allowance}}} = \frac{L/k}{W_{\text{allowance}}} \, \frac{\Delta T_{\text{thrust}}}{T} = 10.11 \times 0.0450 = 0.455
+\tag{25}
+$$
+
+**Equation 26, Downward Acceleration From a Thrust Deficit in Hover.**
+When lift falls below weight in the hover the aircraft accelerates downward at gravity times the fractional thrust deficit.
+
+$$
+a = g \, \frac{\Delta T_{\text{thrust}}}{T}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Sink in Two Seconds.*
+Integrating the acceleration from the modelled fifty degree thrust loss over a two-second interval the article chooses gives a sink of 2.89 feet.
+
+$$
+s = \tfrac{1}{2} a t^{2} = \tfrac{1}{2} (1.45)(2)^{2} = 2.89 \ \text{ft in two seconds}
+\tag{27}
+$$
+
+**Equation 28, Mixed Temperature of Two Streams.**
+Two streams combine at the mass-weighted mean of their temperatures.
+
+$$
+T_{\text{mix}} = \frac{\dot{m}_c T_c + \dot{m}_h T_h}{\dot{m}_c + \dot{m}_h}
+\tag{28}
+$$
+
+**Equation 29, Roll Moment From Differential Post Thrust.**
+The roll moment from a pair of posts is the differential thrust times the lateral arm.
+
+$$
+M = \Delta T \, y
+\tag{29}
+$$
+
+*Equation 30, Bespoke Lift After Bleeding for Reaction Control.*
+The article takes thrust as proportional to mass flow, so bleeding a fraction $b$ of the flow for reaction jets removes the same fraction of lift.
+
+$$
+L_{\text{after bleed}} = (1 - b) L
+\tag{30}
+$$
+
+*Equation 31, Bespoke Literature Asymmetry Ratio.*
+The article measures the asymmetry of the record by the ratio of records naming the winner to records naming the loser in the title, counted on its own cited set.
+
+$$
+R = \frac{N_{\text{winner}}}{N_{\text{loser}}} = \frac{38}{1} = 38
+\tag{31}
+$$
+
+### Notation
+
+- $\dot{m}$, the mass flow, with $\dot{m}_c$ and $\dot{m}_h$ the cold and hot stream mass flows
+- $V_j$, the jet velocity
+- $P$, the power added to the stream, with $P_{\text{ideal}}$ the ideal hover power
+- $V_i$, the velocity induced at the disc
+- $\rho$, the air density
+- $\text{FM}$, the figure of merit
+- $L$, the vertical lift, with $L_{\text{fan}}$ and $L_{\text{direct}}$ the lifts of the two architectures
+- $k$, the control margin factor, taken as 1.05
+- $W_{\text{empty}}$, the empty weight
+- $W_{\text{allowance}}$, the bring-back allowance over the empty weight
+- $\theta$, the inlet total temperature ratio
+- $\delta$, the inlet total pressure ratio
+- $T_{\text{ref}}$, the standard sea-level temperature of 518.67 degrees Rankine
+- $\Delta T_{\text{thrust}}$, the thrust lost, distinct from the inlet temperature rise $\Delta T$
+- $T_{\text{mix}}$, the mixed exhaust temperature, with $T_c$ and $T_h$ the cold and hot stream temperatures
+- $y$, the lateral arm of the roll posts
+- $R$, the ratio of literature records naming the winner to those naming the loser
 
 ## References
 
