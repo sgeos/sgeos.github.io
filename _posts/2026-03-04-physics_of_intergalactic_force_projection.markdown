@@ -210,7 +210,10 @@ For Sagittarius A*
 at $4.3 \times 10^6$ solar masses,
 this represents approximately
 
-$$E_{\text{rot}} = 0.29 \times M_{\text{BH}} c^2 = 0.29 \times (4.3 \times 10^6)(2 \times 10^{30})(3 \times 10^8)^2 \approx 2.2 \times 10^{54} \text{ J}$$
+$$
+E_{\text{rot}} = 0.29 \times M_{\text{BH}} c^2 = 0.29 \times (4.3 \times 10^6)(2 \times 10^{30})(3 \times 10^8)^2 \approx 2.2 \times 10^{54} \text{ J}
+\tag{1}
+$$
 
 For Andromeda's SMBH
 at $1.0 \times 10^8$ solar masses,
@@ -275,7 +278,10 @@ radiation pressure
 on infalling material
 balances gravitational attraction.
 
-$$L_{\text{Edd}} = \frac{4\pi G M_{\text{BH}} m_p c}{\sigma_T} \approx 1.3 \times 10^{38} \left(\frac{M_{\text{BH}}}{M_\odot}\right) \text{ erg/s}$$
+$$
+L_{\text{Edd}} = \frac{4\pi G M_{\text{BH}} m_p c}{\sigma_T} \approx 1.3 \times 10^{38} \left(\frac{M_{\text{BH}}}{M_\odot}\right) \text{ erg/s}
+\tag{2}
+$$
 
 For Sagittarius A*,
 $L_{\text{Edd}} \approx 5.6 \times 10^{44}$ erg/s
@@ -565,12 +571,18 @@ of diameter $D$
 emitting at wavelength $\lambda$,
 the angular divergence is
 
-$$\theta \approx 1.22 \frac{\lambda}{D}$$
+$$
+\theta \approx 1.22 \frac{\lambda}{D}
+\tag{3}
+$$
 
 The spot size
 at distance $L$ is
 
-$$s \approx L \cdot \theta = 1.22 \frac{\lambda L}{D}$$
+$$
+s \approx L \cdot \theta = 1.22 \frac{\lambda L}{D}
+\tag{4}
+$$
 
 [Lubin][research_lubin]
 analyzed diffraction-limited
@@ -626,7 +638,10 @@ with a spot size of 3 light-years
 at the target,
 the energy flux at the target is
 
-$$F = \frac{P}{\pi (s/2)^2} = \frac{5.6 \times 10^{37}}{\pi (1.4 \times 10^{16})^2} \approx 9.1 \times 10^{4} \text{ W/m}^2$$
+$$
+F = \frac{P}{\pi (s/2)^2} = \frac{5.6 \times 10^{37}}{\pi (1.4 \times 10^{16})^2} \approx 9.1 \times 10^{4} \text{ W/m}^2
+\tag{5}
+$$
 
 This is approximately 67 times
 the solar flux at Earth's orbit
@@ -647,7 +662,10 @@ at the Milky Way
 with a 1 km aperture,
 the energy flux at 2.5 million light-years is
 
-$$F = \frac{1.3 \times 10^{39}}{\pi (1.4 \times 10^{16})^2} \approx 2.1 \times 10^{6} \text{ W/m}^2$$
+$$
+F = \frac{1.3 \times 10^{39}}{\pi (1.4 \times 10^{16})^2} \approx 2.1 \times 10^{6} \text{ W/m}^2
+\tag{6}
+$$
 
 This is approximately 1,500 times
 the solar flux at Earth.
@@ -741,7 +759,10 @@ If a jet maintains
 an opening angle of 1 degree,
 its diameter at 2.5 million light-years is
 
-$$d = 2L \tan(\theta/2) \approx L \cdot \theta = 2.5 \times 10^6 \times \frac{\pi}{180} \approx 43{,}600 \text{ light-years}$$
+$$
+d = 2L \tan(\theta/2) \approx L \cdot \theta = 2.5 \times 10^6 \times \frac{\pi}{180} \approx 43{,}600 \text{ light-years}
+\tag{7}
+$$
 
 This is comparable
 to the radius of the Milky Way's disk.
@@ -763,7 +784,10 @@ of 43,600 light-years
 at the target,
 the energy flux is
 
-$$F = \frac{P}{\pi (d/2)^2} = \frac{10^{37} \text{ W}}{\pi (2.1 \times 10^{20})^2} \approx 7.2 \times 10^{-5} \text{ W/m}^2$$
+$$
+F = \frac{P}{\pi (d/2)^2} = \frac{10^{37} \text{ W}}{\pi (2.1 \times 10^{20})^2} \approx 7.2 \times 10^{-5} \text{ W/m}^2
+\tag{8}
+$$
 
 This is approximately
 $5 \times 10^{-8}$ times
@@ -791,7 +815,10 @@ would be approximately
 The energy flux for a $10^{37}$ W jet
 would then be
 
-$$F = \frac{10^{37}}{\pi (2.1 \times 10^{17})^2} \approx 7.2 \times 10^{1} \text{ W/m}^2$$
+$$
+F = \frac{10^{37}}{\pi (2.1 \times 10^{17})^2} \approx 7.2 \times 10^{1} \text{ W/m}^2
+\tag{9}
+$$
 
 This is approximately 5 percent
 of the solar flux at Earth.
@@ -873,7 +900,10 @@ is enormous.
 **Energy scaling.**
 The relativistic kinetic energy is
 
-$$E_k = (\gamma - 1) m c^2$$
+$$
+E_k = (\gamma - 1) m c^2
+\tag{10}
+$$
 
 where $\gamma = (1 - v^2/c^2)^{-1/2}$
 is the Lorentz factor.
@@ -905,7 +935,10 @@ the transit time
 from the Milky Way to Andromeda
 is approximately
 
-$$t = \frac{d}{v} = \frac{2.5 \times 10^6 \text{ ly}}{0.99c} \approx 2.53 \times 10^6 \text{ years}$$
+$$
+t = \frac{d}{v} = \frac{2.5 \times 10^6 \text{ ly}}{0.99c} \approx 2.53 \times 10^6 \text{ years}
+\tag{11}
+$$
 
 This falls within
 the $2d$-year offensive gap
@@ -983,7 +1016,10 @@ to hit a star system
 10 AU in diameter
 at 2.5 million light-years is
 
-$$\theta = \frac{10 \text{ AU}}{2.5 \times 10^6 \text{ ly}} = \frac{1.5 \times 10^{12}}{2.4 \times 10^{22}} \approx 6.3 \times 10^{-11} \text{ rad}$$
+$$
+\theta = \frac{10 \text{ AU}}{2.5 \times 10^6 \text{ ly}} = \frac{1.5 \times 10^{12}}{2.4 \times 10^{22}} \approx 6.3 \times 10^{-11} \text{ rad}
+\tag{12}
+$$
 
 This is approximately
 13 microarcseconds.
@@ -1231,7 +1267,10 @@ than the colonization wave speed by a factor
 that depends on the ratio
 of sterilization time to replication time.
 
-$$v_{\text{sterilization}} = \frac{d}{t_{\text{transit}} + t_{\text{rep}} + t_{\text{sterilize}}}$$
+$$
+v_{\text{sterilization}} = \frac{d}{t_{\text{transit}} + t_{\text{rep}} + t_{\text{sterilize}}}
+\tag{13}
+$$
 
 If $t_{\text{sterilize}} \ll t_{\text{rep}}$,
 the two speeds are effectively equal.
@@ -1250,7 +1289,10 @@ The total timeline
 for intergalactic sterilization
 via self-replicating probes is
 
-$$t_{\text{total}} = t_{\text{transit}} + t_{\text{sterilization}}$$
+$$
+t_{\text{total}} = t_{\text{transit}} + t_{\text{sterilization}}
+\tag{14}
+$$
 
 where $t_{\text{sterilization}}$ includes
 both the replication phase
@@ -1258,7 +1300,10 @@ and the system-level destruction phase
 across the target galaxy.
 For the Milky Way to Andromeda:
 
-$$t_{\text{total}} = 25 \text{ Myr} + 2\text{--}10 \text{ Myr} = 27\text{--}35 \text{ Myr}$$
+$$
+t_{\text{total}} = 25 \text{ Myr} + 2\text{--}10 \text{ Myr} = 27\text{--}35 \text{ Myr}
+\tag{15}
+$$
 
 This is long
 but well within
@@ -1933,7 +1978,10 @@ From the companion
 roadmap article,
 the colonization wave speed is
 
-$$v_{\text{wave}} = \frac{d}{t_{\text{transit}} + t_{\text{rep}}}$$
+$$
+v_{\text{wave}} = \frac{d}{t_{\text{transit}} + t_{\text{rep}}}
+\tag{16}
+$$
 
 Under competitive selection assumptions,
 the civilization
@@ -2643,6 +2691,173 @@ reaches ours.
 - [Dolag et al. 2004][research_dolag] simulates intergalactic magnetic fields from cosmological structure formation, constraining electromagnetic drag and deflection for charged relativistic projectiles crossing voids and filaments.
 - [Hippke 2018][research_hippke_inscribed] shows that physical probes carrying inscribed data are energetically superior to photon communication at kiloparsec-scale distances below 0.2c, directly informing the trade-off between communication and physical payload delivery across intergalactic distances.
 - [Lingam and Loeb 2021][research_lingam_loeb_book] provides a comprehensive treatment of biosignatures and technosignatures including stellar engineering, Dyson megastructures, and galactic habitability analysis.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 16 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 16, 5 are established and 11 are bespoke.
+Most quantities are in International System of Units, but the Eddington luminosity is quoted in ergs per second, where $10^7$ ergs per second make one watt, and distances switch between metres and light-years, with one light-year about $9.46 \times 10^{15}$ metres.
+
+*Equation 1, Bespoke Extractable Rotational Energy of Sagittarius A*.*
+The extractable fraction of an extreme Kerr black hole, about 0.29, is applied to Sagittarius A* on the assumption that it spins maximally, with a solar mass rounded to $2 \times 10^{30}$ kilograms.
+[Kerr black hole][ref_kerr]
+
+$$
+E_{\text{rot}} = 0.29 \times M_{\text{BH}} c^2 = 0.29 \times (4.3 \times 10^6)(2 \times 10^{30})(3 \times 10^8)^2 \approx 2.2 \times 10^{54} \text{ J}
+\tag{1}
+$$
+
+**Equation 2, Eddington Luminosity.**
+The Eddington luminosity is the luminosity at which radiation pressure on electrons balances the gravitational pull on protons, about $1.3 \times 10^{38}$ ergs per second per solar mass.
+[Eddington luminosity][ref_eddington]
+
+$$
+L_{\text{Edd}} = \frac{4\pi G M_{\text{BH}} m_p c}{\sigma_T} \approx 1.3 \times 10^{38} \left(\frac{M_{\text{BH}}}{M_\odot}\right) \text{ erg/s}
+\tag{2}
+$$
+
+**Equation 3, Diffraction Limit of a Circular Aperture.**
+The angular divergence of a beam from a circular aperture of diameter $D$ at wavelength $\lambda$ is about $1.22 \lambda / D$.
+[Lubin][research_lubin]
+
+$$
+\theta \approx 1.22 \frac{\lambda}{D}
+\tag{3}
+$$
+
+**Equation 4, Diffraction-Limited Spot Size.**
+In the small-angle limit the spot size at distance $L$ is the distance multiplied by the angular divergence.
+[Lubin][research_lubin]
+
+$$
+s \approx L \cdot \theta = 1.22 \frac{\lambda L}{D}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Beam Flux from Sagittarius A* at Intergalactic Range.*
+Assuming the full Eddington luminosity of Sagittarius A* is directed into a beam whose spot at the target is three light-years across, the flux is spread uniformly over that disc.
+
+$$
+F = \frac{P}{\pi (s/2)^2} = \frac{5.6 \times 10^{37}}{\pi (1.4 \times 10^{16})^2} \approx 9.1 \times 10^{4} \text{ W/m}^2
+\tag{5}
+$$
+
+*Equation 6, Bespoke Beam Flux from the Andromeda Black Hole.*
+Assuming the full Eddington luminosity of the Andromeda black hole is directed at the Milky Way through a 1 kilometre aperture, the flux is spread over the same three light-year spot.
+
+$$
+F = \frac{1.3 \times 10^{39}}{\pi (1.4 \times 10^{16})^2} \approx 2.1 \times 10^{6} \text{ W/m}^2
+\tag{6}
+$$
+
+*Equation 7, Bespoke Jet Diameter at a One Degree Opening Angle.*
+Assuming a jet keeps an opening angle of one degree over 2.5 million light-years, the small-angle approximation gives a diameter of about 43,600 light-years at the target.
+
+$$
+d = 2L \tan(\theta/2) \approx L \cdot \theta = 2.5 \times 10^6 \times \frac{\pi}{180} \approx 43{,}600 \text{ light-years}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Flux of a Wide Jet at Intergalactic Range.*
+Assuming a jet power of $10^{37}$ watts, comparable to the mechanical power of the M87 jet, spread over the 43,600 light-year diameter gives a flux far below the solar constant.
+
+$$
+F = \frac{P}{\pi (d/2)^2} = \frac{10^{37} \text{ W}}{\pi (2.1 \times 10^{20})^2} \approx 7.2 \times 10^{-5} \text{ W/m}^2
+\tag{8}
+$$
+
+*Equation 9, Bespoke Flux of an Engineered Narrow Jet.*
+Assuming an engineered opening angle of 0.001 degrees, the same $10^{37}$ watt jet is spread over a diameter of about 44 light-years.
+
+$$
+F = \frac{10^{37}}{\pi (2.1 \times 10^{17})^2} \approx 7.2 \times 10^{1} \text{ W/m}^2
+\tag{9}
+$$
+
+**Equation 10, Relativistic Kinetic Energy.**
+The kinetic energy of a body of rest mass $m$ is its Lorentz factor less one multiplied by $mc^2$.
+[relativistic kill vehicle][ref_rkv]
+
+$$
+E_k = (\gamma - 1) m c^2
+\tag{10}
+$$
+
+*Equation 11, Bespoke Transit Time to Andromeda at 0.99c.*
+Dividing the 2.5 million light-year distance to Andromeda by a projectile speed the article chooses, 0.99 of the speed of light, gives a transit of about 2.53 million years.
+
+$$
+t = \frac{d}{v} = \frac{2.5 \times 10^6 \text{ ly}}{0.99c} \approx 2.53 \times 10^6 \text{ years}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Pointing Precision for a Star System at Andromeda.*
+Taking a star system to be a target 10 astronomical units across, the angle it subtends at 2.5 million light-years is about $6.3 \times 10^{-11}$ radians.
+
+$$
+\theta = \frac{10 \text{ AU}}{2.5 \times 10^6 \text{ ly}} = \frac{1.5 \times 10^{12}}{2.4 \times 10^{22}} \approx 6.3 \times 10^{-11} \text{ rad}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Sterilisation Wave Speed.*
+The article adds a sterilisation time to the transit and replication times of the colonisation wave model, so the sterilisation wave advances one stellar spacing per all three.
+
+$$
+v_{\text{sterilization}} = \frac{d}{t_{\text{transit}} + t_{\text{rep}} + t_{\text{sterilize}}}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Total Sterilisation Timeline.*
+The article divides the time to sterilise a galaxy with self-replicating probes into an intergalactic transit and a sterilisation phase that includes replication and destruction.
+
+$$
+t_{\text{total}} = t_{\text{transit}} + t_{\text{sterilization}}
+\tag{14}
+$$
+
+*Equation 15, Bespoke Sterilisation Timeline from the Milky Way to Andromeda.*
+A transit of 25 million years at one tenth of the speed of light is added to a sterilisation phase the article estimates at 2 to 10 million years.
+
+$$
+t_{\text{total}} = 25 \text{ Myr} + 2\text{--}10 \text{ Myr} = 27\text{--}35 \text{ Myr}
+\tag{15}
+$$
+
+**Equation 16, Speed of a Colonisation Wave.**
+In the Armstrong and Sandberg wave model each probe crosses the distance to the next star and then replicates, so the wave advances one stellar spacing per transit and replication time.
+[Armstrong and Sandberg][research_eternity]
+
+$$
+v_{\text{wave}} = \frac{d}{t_{\text{transit}} + t_{\text{rep}}}
+\tag{16}
+$$
+
+### Notation
+
+- $E_{\text{rot}}$, the extractable rotational energy of the black hole
+- $M_{\text{BH}}$, the mass of the black hole
+- $L_{\text{Edd}}$, the Eddington luminosity
+- $m_p$, the proton mass
+- $\sigma_T$, the Thomson scattering cross-section
+- $\theta$, the angular divergence of a beam, the opening angle of a jet, or the angle a target subtends
+- $\lambda$, the wavelength of the beam
+- $D$, the diameter of the emitting aperture
+- $L$, the distance to the target
+- $s$, the diffraction-limited spot size at the target
+- $F$, the energy flux at the target, in watts per square metre
+- $P$, the power directed at the target
+- $E_k$, the kinetic energy of a projectile
+- $\gamma$, the Lorentz factor, $(1 - v^2/c^2)^{-1/2}$
+- $t_{\text{transit}}$, the time for a probe to cross to the next target
+- $t_{\text{rep}}$, the time for a probe to replicate
+- $t_{\text{sterilize}}$, the time to render a target system uninhabitable
+- $v_{\text{wave}}$, the effective speed of the colonisation wave
+- $d$, the jet diameter at the target in the collimation equations, or the distance between target stars in the wave equations
 
 ## References
 

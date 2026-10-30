@@ -1,0 +1,299 @@
+# Equation classification for A90. Read by `python3 _lib/equations.py`.
+
+caution = "Every equation holds in any consistent set of units, but the article quotes the standard gravitational parameter in cubic kilometres per second squared, so velocities from the orbital equations then come out in kilometres per second while the propulsion and atmospheric equations are stated in International System of Units."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The change in velocity of a rocket is the effective exhaust velocity multiplied by the natural logarithm of the ratio of initial to final mass."
+cite = []
+digest = "a59ed6219f99f3a3"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Rocket Equation in Terms of Specific Impulse"
+gloss = "Writing the effective exhaust velocity as specific impulse multiplied by standard gravity gives the same rocket equation in terms of specific impulse."
+cite = []
+digest = "2a9951c1644ba2bf"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Rocket Thrust Equation"
+gloss = "Thrust is the momentum thrust of the exhaust plus the pressure thrust from the difference between the exit and ambient pressures acting over the exit area."
+cite = ["ref_nasa_glenn"]
+digest = "2f62c594ba7e3d3e"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Specific Impulse"
+gloss = "Specific impulse is the thrust divided by the weight flow rate of propellant at standard gravity."
+cite = []
+digest = "7142d9531f756342"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Thrust-to-Weight Ratio"
+gloss = "The thrust-to-weight ratio divides the thrust by the current weight of the vehicle and must exceed one for vertical ascent."
+cite = []
+digest = "0a9074cdae006825"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Multistage Rocket Equation"
+gloss = "The total velocity change of a staged rocket is the sum of the rocket equation applied to each stage with its own exhaust velocity and mass ratio."
+cite = []
+digest = "9e480583af37dd30"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Vis-Viva Equation"
+gloss = "Conservation of mechanical energy in a two-body orbit gives the square of the speed at radius $r$ in terms of the gravitational parameter and the semi-major axis."
+cite = []
+digest = "df84daea3d892ec5"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Circular Orbital Velocity"
+gloss = "Setting the radius equal to the semi-major axis in the vis-viva equation gives the speed of a circular orbit."
+cite = []
+digest = "a3f332f4d52ba7e5"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Escape Velocity"
+gloss = "Letting the semi-major axis tend to infinity in the vis-viva equation gives the parabolic escape speed, $\\sqrt{2}$ times the circular speed at the same radius."
+cite = []
+digest = "38302d656ddac91d"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Orbital Period"
+gloss = "The period of a closed orbit depends only on its semi-major axis and the gravitational parameter, which is Kepler's third law in Newtonian form."
+cite = []
+digest = "b46d4b28f627446f"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Semi-Major Axis of a Hohmann Transfer"
+gloss = "The transfer ellipse is tangent to both circular orbits, so its semi-major axis is the mean of their radii."
+cite = ["ref_nasa_hohmann"]
+digest = "b71813a4f8ea2f38"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "First Burn of a Hohmann Transfer"
+gloss = "The first burn raises the circular speed at $r_1$ to the periapsis speed of the transfer ellipse given by the vis-viva equation."
+cite = ["ref_nasa_hohmann"]
+digest = "3f398db145a3be82"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Second Burn of a Hohmann Transfer"
+gloss = "The second burn raises the apoapsis speed of the transfer ellipse to the circular speed at $r_2$."
+cite = ["ref_nasa_hohmann"]
+digest = "755943050dee8b64"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Hohmann Transfer Time"
+gloss = "The transfer takes half the period of the transfer ellipse."
+cite = ["ref_nasa_hohmann"]
+digest = "34782f31725c6b85"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Simple Plane Change"
+gloss = "Rotating a velocity vector of fixed magnitude through an angle $\\theta$ requires a velocity change of $2 v \\sin(\\theta/2)$ by the isosceles vector triangle."
+cite = []
+digest = "994803fdb3a300bd"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Combined Plane and Speed Change"
+gloss = "The law of cosines on the initial and final velocity vectors gives the velocity change for a burn that alters both speed and inclination."
+cite = []
+digest = "7b8b33a692d0e550"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Laplace Sphere of Influence"
+gloss = "The radius within which a smaller body dominates its parent is the semi-major axis multiplied by the mass ratio raised to the two fifths power."
+cite = []
+digest = "829f9bb20fc88822"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Kinetic Energy Gain from an Impulsive Burn"
+gloss = "Expanding the change in specific kinetic energy for a prograde impulse gives a term linear in the current speed, which is the Oberth effect."
+cite = []
+digest = "4ee0129d7820d542"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Rate of Change of Specific Orbital Energy"
+gloss = "The power delivered per unit mass by a prograde thrust is the thrust multiplied by the speed and divided by the mass."
+cite = []
+digest = "184b6050ed295fa1"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Drag Equation"
+gloss = "Drag is the dynamic pressure multiplied by the drag coefficient and the reference area."
+cite = ["ref_nasa_glenn"]
+digest = "e652ee53d2582972"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Lift Equation"
+gloss = "Lift is the dynamic pressure multiplied by the lift coefficient and the reference area."
+cite = ["ref_nasa_glenn"]
+digest = "b68bc7049e4fdbd0"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Exponential Atmosphere"
+gloss = "An isothermal atmosphere in hydrostatic equilibrium has a density that falls exponentially with altitude over the scale height."
+cite = []
+digest = "12f1fed8cfdc7c45"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Atmospheric Scale Height"
+gloss = "The scale height of an isothermal atmosphere is the thermal energy $k_B T$ divided by the weight of a mean molecule."
+cite = []
+digest = "2376c321a75fcac4"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Terminal Velocity"
+gloss = "Setting the drag force equal to the weight and solving for speed gives the terminal velocity."
+cite = []
+digest = "dbe3a56742258a59"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Sutton-Graves Stagnation Point Heating"
+gloss = "The convective heat flux at the stagnation point of a blunt body grows as the cube of velocity and the square root of density and falls as the square root of the nose radius."
+cite = ["research_sutton_graves"]
+digest = "706a0061383ad782"
+
+[[symbol]]
+tex = '\Delta v'
+meaning = "the change in velocity"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the effective exhaust velocity"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the initial total mass including propellant"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the final mass after the propellant is expended"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse, in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.80665 metres per second squared"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow rate of propellant"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the exhaust pressure at the nozzle exit, with $p_0$ the ambient pressure"
+
+[[symbol]]
+tex = 'A_e'
+meaning = "the area of the nozzle exit"
+
+[[symbol]]
+tex = 'R_i'
+meaning = "the mass ratio of stage $i$"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the standard gravitational parameter $GM$ of the central body"
+
+[[symbol]]
+tex = 'r'
+meaning = "the distance from the centre of the central body"
+
+[[symbol]]
+tex = 'a'
+meaning = "the semi-major axis of the orbit"
+
+[[symbol]]
+tex = 'r_1'
+meaning = "the radius of the initial circular orbit, with $r_2$ the radius of the target orbit"
+
+[[symbol]]
+tex = '\Delta i'
+meaning = "the inclination change"
+
+[[symbol]]
+tex = 'r_{SOI}'
+meaning = "the radius of the sphere of influence"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the specific orbital energy"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the atmospheric density"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient, with $C_L$ the lift coefficient"
+
+[[symbol]]
+tex = 'H'
+meaning = "the atmospheric scale height"
+
+[[symbol]]
+tex = 'm_g'
+meaning = "the mean molecular mass of the atmospheric gas"
+
+[[symbol]]
+tex = 'k_B'
+meaning = "the Boltzmann constant, $1.381 \\times 10^{-23}$ joules per kelvin"
+
+[[symbol]]
+tex = '\dot{q}_s'
+meaning = "the convective heat flux at the stagnation point"
+
+[[symbol]]
+tex = 'r_n'
+meaning = "the nose radius of the vehicle"

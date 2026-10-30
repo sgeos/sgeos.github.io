@@ -110,12 +110,14 @@ the probability of exactly $k$ successes.
 
 $$
 P(X = k) = \binom{n}{k} p^k q^{n-k}, \quad \binom{n}{k} = \frac{n!}{(n-k)!\, k!}
+\tag{1}
 $$
 
 The mean and standard deviation of the binomial distribution are
 
 $$
 \mu = np, \quad \sigma = \sqrt{npq}.
+\tag{2}
 $$
 
 Use the binomial distribution when counting discrete successes
@@ -130,6 +132,7 @@ Its Probability Density Function (PDF) is
 
 $$
 f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left(-\frac{(x - \mu)^2}{2\sigma^2}\right).
+\tag{3}
 $$
 
 The standard normal distribution has $\mu = 0$ and $\sigma = 1$.
@@ -138,6 +141,7 @@ can be standardized to a Z-score.
 
 $$
 Z = \frac{x - \mu}{\sigma}
+\tag{4}
 $$
 
 The normal distribution arises throughout statistics
@@ -152,12 +156,14 @@ given a known average rate $\lambda$.
 
 $$
 P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!}, \quad k = 0, 1, 2, \ldots
+\tag{5}
 $$
 
 The mean and variance of the Poisson distribution are both equal to $\lambda$.
 
 $$
 \mu = \lambda, \quad \sigma^2 = \lambda
+\tag{6}
 $$
 
 Use the Poisson distribution for count data
@@ -174,6 +180,7 @@ The approximation is valid when both
 
 $$
 np \geq 5 \quad \text{and} \quad nq \geq 5.
+\tag{7}
 $$
 
 Under these conditions, the binomial random variable $X$
@@ -199,6 +206,7 @@ The sample mean $\bar{x}$ estimates the population mean $\mu$.
 
 $$
 \bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+\tag{8}
 $$
 
 ### Sample Variance and Standard Deviation
@@ -210,6 +218,7 @@ This correction is known as Bessel's correction.
 
 $$
 s^2 = \frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2
+\tag{9}
 $$
 
 The sample standard deviation is $s = \sqrt{s^2}$.
@@ -221,6 +230,7 @@ the population variance divides by $n$ rather than $n - 1$.
 
 $$
 \sigma^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \mu)^2
+\tag{10}
 $$
 
 The population standard deviation is $\sigma = \sqrt{\sigma^2}$.
@@ -233,6 +243,7 @@ For two conditions $A$ and $B$ that partition the sample space,
 
 $$
 P(E) = P(E \mid A) \cdot P(A) + P(E \mid B) \cdot P(B).
+\tag{11}
 $$
 
 Rearranging to solve for a conditional probability or a partition probability,
@@ -240,6 +251,7 @@ Rearranging to solve for a conditional probability or a partition probability,
 $$
 P(E \mid A) = \frac{P(E) - P(E \mid B) \cdot P(B)}{P(A)}, \quad
 P(A) = \frac{P(E) - P(E \mid B) \cdot P(B)}{P(E \mid A)}.
+\tag{12}
 $$
 
 ### Bayes' Theorem
@@ -250,12 +262,14 @@ Given events $A$ and $B$ where $P(B) > 0$,
 
 $$
 P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}.
+\tag{13}
 $$
 
 The denominator can be expanded using the law of total probability.
 
 $$
 P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B \mid A) \cdot P(A) + P(B \mid \neg A) \cdot P(\neg A)}
+\tag{14}
 $$
 
 Bayes' theorem is the foundation of Bayesian statistics
@@ -275,12 +289,14 @@ Specifically,
 
 $$
 \bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right) \quad \text{approximately, for large } n.
+\tag{15}
 $$
 
 The standard error of the mean is
 
 $$
 SE_{\bar{x}} = \frac{\sigma}{\sqrt{n}}.
+\tag{16}
 $$
 
 In practice, $n \geq 30$ is a common rule of thumb
@@ -322,6 +338,7 @@ the test statistic is
 
 $$
 Z = \frac{\bar{x} - \mu_0}{\sigma / \sqrt{n}}
+\tag{17}
 $$
 
 where $\mu_0$ is the hypothesized population mean under $H_0$.
@@ -334,6 +351,7 @@ the test statistic follows a $t$-distribution with $n - 1$ degrees of freedom.
 
 $$
 t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}
+\tag{18}
 $$
 
 The $t$-distribution has heavier tails than the standard normal,
@@ -347,6 +365,7 @@ the test statistic uses the null value $p_0$.
 
 $$
 Z = \frac{\hat{p} - p_0}{SE_{\hat{p}}}, \quad SE_{\hat{p}} = \sqrt{\frac{p_0(1 - p_0)}{n}}
+\tag{19}
 $$
 
 The normal approximation requires at least ten expected successes $np_0 \geq 10$
@@ -358,6 +377,7 @@ For any point estimate $\hat{\theta}$ and null value $\theta_0$,
 
 $$
 Z = \frac{\hat{\theta} - \theta_0}{SE_{\hat{\theta}}}.
+\tag{20}
 $$
 
 ## Confidence Intervals
@@ -373,6 +393,7 @@ would contain the true parameter value.
 
 $$
 \hat{\theta} \pm z^\star \cdot SE_{\hat{\theta}}, \quad ME = z^\star \cdot SE_{\hat{\theta}}
+\tag{21}
 $$
 
 where $ME$ is the margin of error.
@@ -381,6 +402,7 @@ where $ME$ is the margin of error.
 
 $$
 \bar{x} \pm z^\star_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}
+\tag{22}
 $$
 
 ### Confidence Interval for a Mean (Unknown Variance)
@@ -390,6 +412,7 @@ and the $t$-distribution with $n - 1$ degrees of freedom.
 
 $$
 \bar{x} \pm t^\star_{\alpha/2,\, n-1} \cdot \frac{s}{\sqrt{n}}
+\tag{23}
 $$
 
 ### Confidence Interval for a Variance
@@ -398,18 +421,21 @@ Uses the chi-squared distribution with $n - 1$ degrees of freedom.
 
 $$
 \frac{(n-1)s^2}{\chi^2_{\alpha/2}} < \sigma^2 < \frac{(n-1)s^2}{\chi^2_{1 - \alpha/2}}
+\tag{24}
 $$
 
 For the standard deviation,
 
 $$
 \sqrt{\frac{(n-1)s^2}{\chi^2_{\alpha/2}}} < \sigma < \sqrt{\frac{(n-1)s^2}{\chi^2_{1 - \alpha/2}}}
+\tag{25}
 $$
 
 ### Confidence Interval for a Proportion
 
 $$
 \hat{p} \pm z^\star \cdot SE_{\hat{p}}, \quad SE_{\hat{p}} = \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}
+\tag{26}
 $$
 
 The normal approximation requires at least ten successes $n\hat{p} \geq 10$
@@ -421,6 +447,7 @@ For two independent populations with known variances,
 
 $$
 (\bar{x}_1 - \bar{x}_2) \pm z^\star_{\alpha/2} \cdot \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}
+\tag{27}
 $$
 
 ### Confidence Interval for Difference of Proportions
@@ -429,12 +456,14 @@ The standard error for the difference of two independent proportions is
 
 $$
 SE_{\hat{p}_1 - \hat{p}_2} = \sqrt{\frac{\hat{p}_1(1 - \hat{p}_1)}{n_1} + \frac{\hat{p}_2(1 - \hat{p}_2)}{n_2}}.
+\tag{28}
 $$
 
 The confidence interval is
 
 $$
 (\hat{p}_1 - \hat{p}_2) \pm z^\star_{\alpha/2} \cdot SE_{\hat{p}_1 - \hat{p}_2}.
+\tag{29}
 $$
 
 ### Pooled Proportion for Hypothesis Testing
@@ -444,12 +473,14 @@ the pooled proportion estimate uses the combined data from both samples.
 
 $$
 \hat{p} = \frac{\hat{p}_1 n_1 + \hat{p}_2 n_2}{n_1 + n_2}
+\tag{30}
 $$
 
 The pooled standard error uses $\hat{p}$ in place of the individual sample proportions.
 
 $$
 SE_{\text{pooled}} = \sqrt{\hat{p}(1 - \hat{p})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}
+\tag{31}
 $$
 
 ## Sample Size Determination
@@ -461,6 +492,7 @@ can be computed before data collection.
 
 $$
 n \geq \frac{(z^\star)^2 \cdot p(1-p)}{ME^2}
+\tag{32}
 $$
 
 When no prior estimate of $p$ is available,
@@ -473,6 +505,7 @@ will not exceed the target.
 
 $$
 n \geq \left(\frac{z^\star \cdot \sigma}{ME}\right)^2
+\tag{33}
 $$
 
 This requires a preliminary estimate of $\sigma$,
@@ -523,6 +556,305 @@ when each method can and cannot be trusted.
 - [Introduction to Probability and Statistics for Engineers and Scientists][book_ross]
   by Sheldon M. Ross,
   the standard undergraduate textbook for engineering students.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 33 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 33, 33 are established and 0 are bespoke.
+Probabilities and proportions are dimensionless numbers between zero and one, a mean, standard deviation or standard error carries the units of the data, and a critical value $z^\star$, $t^\star$ or $\chi^2$ is read from a table at the stated significance level.
+
+**Equation 1, Binomial Probability Mass Function.**
+The probability of exactly $k$ successes in $n$ independent trials is the binomial coefficient multiplied by $p^k q^{n-k}$.
+
+$$
+P(X = k) = \binom{n}{k} p^k q^{n-k}, \quad \binom{n}{k} = \frac{n!}{(n-k)!\, k!}
+\tag{1}
+$$
+
+**Equation 2, Mean and Standard Deviation of the Binomial Distribution.**
+A binomial count has mean $np$ and standard deviation $\sqrt{npq}$.
+
+$$
+\mu = np, \quad \sigma = \sqrt{npq}.
+\tag{2}
+$$
+
+**Equation 3, Normal Probability Density Function.**
+The normal density is fixed by its mean $\mu$ and standard deviation $\sigma$ and falls off as the exponential of the negative squared standardised distance.
+
+$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left(-\frac{(x - \mu)^2}{2\sigma^2}\right).
+\tag{3}
+$$
+
+**Equation 4, Z-Score.**
+Subtracting the mean and dividing by the standard deviation standardises a normal value to the standard normal distribution.
+
+$$
+Z = \frac{x - \mu}{\sigma}
+\tag{4}
+$$
+
+**Equation 5, Poisson Probability Mass Function.**
+The probability of $k$ events in an interval with average rate $\lambda$ is $e^{-\lambda} \lambda^k / k!$.
+
+$$
+P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!}, \quad k = 0, 1, 2, \ldots
+\tag{5}
+$$
+
+**Equation 6, Mean and Variance of the Poisson Distribution.**
+Both the mean and the variance of a Poisson count equal the rate $\lambda$.
+
+$$
+\mu = \lambda, \quad \sigma^2 = \lambda
+\tag{6}
+$$
+
+**Equation 7, Condition for the Normal Approximation to the Binomial.**
+The conventional rule of thumb requires at least five expected successes and five expected failures before the binomial is approximated by the normal distribution.
+
+$$
+np \geq 5 \quad \text{and} \quad nq \geq 5.
+\tag{7}
+$$
+
+**Equation 8, Sample Mean.**
+The sample mean is the arithmetic average of the $n$ observations.
+
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+\tag{8}
+$$
+
+**Equation 9, Sample Variance with Bessel's Correction.**
+The sample variance divides the sum of squared deviations from the sample mean by $n-1$, which removes the bias of estimating the mean from the same sample.
+
+$$
+s^2 = \frac{1}{n-1}\sum_{i=1}^{n}(x_i - \bar{x})^2
+\tag{9}
+$$
+
+**Equation 10, Population Variance.**
+When the whole population is known, the variance divides the sum of squared deviations from the population mean by the population size.
+
+$$
+\sigma^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \mu)^2
+\tag{10}
+$$
+
+**Equation 11, Law of Total Probability over Two Conditions.**
+When two events $A$ and $B$ partition the sample space, the probability of $E$ is the sum of its conditional probabilities weighted by the probabilities of the conditions.
+
+$$
+P(E) = P(E \mid A) \cdot P(A) + P(E \mid B) \cdot P(B).
+\tag{11}
+$$
+
+**Equation 12, Law of Total Probability Rearranged.**
+Solving the two-condition law of total probability for one conditional probability or for one partition probability gives these two forms.
+
+$$
+P(E \mid A) = \frac{P(E) - P(E \mid B) \cdot P(B)}{P(A)}, \quad
+P(A) = \frac{P(E) - P(E \mid B) \cdot P(B)}{P(E \mid A)}.
+\tag{12}
+$$
+
+**Equation 13, Bayes' Theorem.**
+The probability of $A$ given $B$ equals the probability of $B$ given $A$ multiplied by the prior of $A$ and divided by the probability of $B$.
+
+$$
+P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}.
+\tag{13}
+$$
+
+**Equation 14, Bayes' Theorem with an Expanded Denominator.**
+Expanding the probability of $B$ by the law of total probability over $A$ and its complement gives Bayes' theorem in terms of conditional probabilities alone.
+
+$$
+P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B \mid A) \cdot P(A) + P(B \mid \neg A) \cdot P(\neg A)}
+\tag{14}
+$$
+
+**Equation 15, Central Limit Theorem.**
+For large $n$ the sample mean is approximately normal with the population mean and a variance of $\sigma^2/n$, whatever the shape of the population.
+
+$$
+\bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right) \quad \text{approximately, for large } n.
+\tag{15}
+$$
+
+**Equation 16, Standard Error of the Mean.**
+The standard deviation of the sample mean is the population standard deviation divided by $\sqrt{n}$.
+
+$$
+SE_{\bar{x}} = \frac{\sigma}{\sqrt{n}}.
+\tag{16}
+$$
+
+**Equation 17, Z Statistic for a Mean with Known Variance.**
+The distance of the sample mean from the hypothesised mean is measured in standard errors computed from the known $\sigma$.
+
+$$
+Z = \frac{\bar{x} - \mu_0}{\sigma / \sqrt{n}}
+\tag{17}
+$$
+
+**Equation 18, t Statistic for a Mean with Unknown Variance.**
+Replacing $\sigma$ with the sample standard deviation gives a statistic that follows the $t$-distribution with $n-1$ degrees of freedom.
+
+$$
+t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}
+\tag{18}
+$$
+
+**Equation 19, Z Statistic for a Proportion.**
+The sample proportion is compared with the null value $p_0$ in units of a standard error computed from $p_0$.
+
+$$
+Z = \frac{\hat{p} - p_0}{SE_{\hat{p}}}, \quad SE_{\hat{p}} = \sqrt{\frac{p_0(1 - p_0)}{n}}
+\tag{19}
+$$
+
+**Equation 20, General Form of a Z Statistic.**
+Any test statistic of this kind is the distance of a point estimate from its null value divided by the standard error of the estimate.
+
+$$
+Z = \frac{\hat{\theta} - \theta_0}{SE_{\hat{\theta}}}.
+\tag{20}
+$$
+
+**Equation 21, General Form of a Confidence Interval.**
+A confidence interval is the point estimate plus or minus the margin of error, which is the critical value multiplied by the standard error.
+
+$$
+\hat{\theta} \pm z^\star \cdot SE_{\hat{\theta}}, \quad ME = z^\star \cdot SE_{\hat{\theta}}
+\tag{21}
+$$
+
+**Equation 22, Confidence Interval for a Mean with Known Variance.**
+The interval about the sample mean is the normal critical value multiplied by $\sigma/\sqrt{n}$.
+
+$$
+\bar{x} \pm z^\star_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}
+\tag{22}
+$$
+
+**Equation 23, Confidence Interval for a Mean with Unknown Variance.**
+The interval about the sample mean uses the $t$ critical value with $n-1$ degrees of freedom and the sample standard deviation.
+
+$$
+\bar{x} \pm t^\star_{\alpha/2,\, n-1} \cdot \frac{s}{\sqrt{n}}
+\tag{23}
+$$
+
+**Equation 24, Confidence Interval for a Variance.**
+The interval for the population variance divides $(n-1)s^2$ by the upper and lower chi-squared critical values with $n-1$ degrees of freedom.
+
+$$
+\frac{(n-1)s^2}{\chi^2_{\alpha/2}} < \sigma^2 < \frac{(n-1)s^2}{\chi^2_{1 - \alpha/2}}
+\tag{24}
+$$
+
+**Equation 25, Confidence Interval for a Standard Deviation.**
+Taking square roots of the bounds of the variance interval gives the interval for the standard deviation.
+
+$$
+\sqrt{\frac{(n-1)s^2}{\chi^2_{\alpha/2}}} < \sigma < \sqrt{\frac{(n-1)s^2}{\chi^2_{1 - \alpha/2}}}
+\tag{25}
+$$
+
+**Equation 26, Confidence Interval for a Proportion.**
+The interval about the sample proportion uses a standard error computed from the sample proportion itself.
+
+$$
+\hat{p} \pm z^\star \cdot SE_{\hat{p}}, \quad SE_{\hat{p}} = \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}
+\tag{26}
+$$
+
+**Equation 27, Confidence Interval for a Difference of Means with Known Variances.**
+For two independent samples the variances of the two means add, so the standard error is the square root of the summed $\sigma^2/n$ terms.
+
+$$
+(\bar{x}_1 - \bar{x}_2) \pm z^\star_{\alpha/2} \cdot \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}
+\tag{27}
+$$
+
+**Equation 28, Standard Error of a Difference of Proportions.**
+For two independent samples the variances of the two proportions add under the square root.
+
+$$
+SE_{\hat{p}_1 - \hat{p}_2} = \sqrt{\frac{\hat{p}_1(1 - \hat{p}_1)}{n_1} + \frac{\hat{p}_2(1 - \hat{p}_2)}{n_2}}.
+\tag{28}
+$$
+
+**Equation 29, Confidence Interval for a Difference of Proportions.**
+The interval about the difference of the sample proportions is the normal critical value multiplied by the standard error of the difference.
+
+$$
+(\hat{p}_1 - \hat{p}_2) \pm z^\star_{\alpha/2} \cdot SE_{\hat{p}_1 - \hat{p}_2}.
+\tag{29}
+$$
+
+**Equation 30, Pooled Proportion.**
+Under the null hypothesis of equal proportions the two samples are combined into one estimate weighted by their sizes.
+
+$$
+\hat{p} = \frac{\hat{p}_1 n_1 + \hat{p}_2 n_2}{n_1 + n_2}
+\tag{30}
+$$
+
+**Equation 31, Pooled Standard Error.**
+The standard error for testing equal proportions uses the pooled proportion for both samples.
+
+$$
+SE_{\text{pooled}} = \sqrt{\hat{p}(1 - \hat{p})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}
+\tag{31}
+$$
+
+**Equation 32, Sample Size for Estimating a Proportion.**
+Solving the margin of error of a proportion for $n$ gives the smallest sample that meets a target margin, which the worst case $p = 0.5$ bounds when no prior estimate exists.
+
+$$
+n \geq \frac{(z^\star)^2 \cdot p(1-p)}{ME^2}
+\tag{32}
+$$
+
+**Equation 33, Sample Size for Estimating a Mean.**
+Solving the margin of error of a mean with known $\sigma$ for $n$ gives the smallest sample that meets a target margin.
+
+$$
+n \geq \left(\frac{z^\star \cdot \sigma}{ME}\right)^2
+\tag{33}
+$$
+
+### Notation
+
+- $n$, the sample size or number of trials
+- $k$, the number of successes or events
+- $p$, the probability of success on a single trial
+- $q$, the probability of failure, $q = 1 - p$
+- $\mu$, the population mean
+- $\sigma$, the population standard deviation
+- $\bar{x}$, the sample mean
+- $s^2$, the sample variance, whose square root $s$ is the sample standard deviation
+- $\hat{p}$, the sample proportion, a point estimate of $p$
+- $\lambda$, the average rate of a Poisson process
+- $\alpha$, the significance level
+- $Z$, the standard normal Z-score
+- $z^\star$, the critical value from the standard normal distribution
+- $t^\star$, the critical value from the $t$-distribution with the stated degrees of freedom
+- $\chi^2$, the chi-squared critical value
+- $SE$, the standard error
+- $ME$, the margin of error
+- $\mu_0$, the hypothesised population mean under the null hypothesis
+- $p_0$, the hypothesised population proportion under the null hypothesis
+- $\hat{\theta}$, a general point estimate, with null value $\theta_0$
 
 ## References
 

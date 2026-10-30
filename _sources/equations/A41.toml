@@ -1,0 +1,127 @@
+# Equation classification for A41. Read by `python3 _lib/equations.py`.
+
+caution = "Every curve is traced by the single parameter $t$ in radians, and the dimensionless constant $c$ sets the relative revolution speed of each layer, so a curve approaches the surface it describes only as $c$ grows large."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Single Parameter Spiral Sphere"
+gloss = "The article constructs a sphere from one parameter by letting the azimuth turn $c$ times faster than the polar angle, so the curve spirals from pole to pole and covers the surface only as $c$ grows."
+cite = []
+digest = "3e8eedac455b1caa"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Single Parameter Beachball Sphere"
+gloss = "Exchanging the two speeds of the spiral sphere makes the polar angle the fast layer, so the construction rotates a great circle slowly about the vertical axis."
+cite = []
+digest = "4dcdf6b48fb7bbc4"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Single Parameter Solid Disc"
+gloss = "Dropping the vertical coordinate of the spiral sphere projects it onto the plane, a construction the article states fills a solid disc as $c$ tends to infinity."
+cite = []
+digest = "fb8283e191d7c67e"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke First Candidate Solid Sphere"
+gloss = "The article proposes three layers with speeds $1$, $c$ and $c^2$ paired across the three coordinates as a candidate for a filled sphere, and it leaves open whether the curve fills the volume."
+cite = []
+digest = "25f0a549c13bbcc6"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Second Candidate Solid Sphere"
+gloss = "The article nests a third layer of speed $c^2$ inside the spiral sphere as a second candidate for a filled sphere, and it leaves open whether the curve fills the volume."
+cite = []
+digest = "7d4b9915d49186c2"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Hourglass"
+gloss = "Replacing the cosine in the vertical coordinate of the spiral sphere with a sine turns the sphere into an hourglass."
+cite = []
+digest = "99df63c88f68f524"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Rounded Hourglass"
+gloss = "Halving the frequency of the vertical cosine in the spiral sphere gives a rounded hourglass."
+cite = []
+digest = "c866ef0787d84f07"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Hourglass with Circular Projections"
+gloss = "Driving the vertical coordinate of the spiral sphere at the fast speed $c$ gives a shape that appears as an hourglass from one direction and as a circle from the other two."
+cite = []
+digest = "3a76b6bbb8f283e6"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Tornado"
+gloss = "Setting the vertical coordinate of the spiral sphere to an affinely rescaled absolute sine gives a funnel the article calls a tornado."
+cite = []
+digest = "4c38b0a04769f4ec"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Top or Turnip"
+gloss = "Setting the vertical coordinate of the spiral sphere to a rescaled sine of half the slow angle gives a shape the article calls a top or turnip."
+cite = []
+digest = "df2e62619241e898"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Upward Inner Spiral"
+gloss = "Doubling the frequency of a vertical sine in the spiral sphere makes the curve rise through the centre, descend around the outside and rise through the centre again."
+cite = []
+digest = "945a67e00dd31224"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Downward Inner Spiral"
+gloss = "Negating the vertical coordinate of the upward inner spiral reverses its direction, so the curve descends from the centre and rises around the outside."
+cite = []
+digest = "e78d5ff021e6d677"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Tall Rounded Hill"
+gloss = "Doubling the frequency of the vertical cosine in the spiral sphere gives a tall rounded hill."
+cite = []
+digest = "dcf18d1030880607"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Shape with Round, Square and Hourglass Projections"
+gloss = "Replacing the slow sine in the second coordinate of the spiral sphere with a cosine gives a shape that the article reports is round in one plane, square in another and an hourglass in the third."
+cite = []
+digest = "c5b9f7fe7625888b"
+
+[[symbol]]
+tex = 't'
+meaning = "the single parameter that traces the curve, in radians"
+
+[[symbol]]
+tex = 'c'
+meaning = "the constant that sets the relative revolution speed of each layer, so that layer $n$ turns at speed $c^n$"
+
+[[symbol]]
+tex = '\bbox[cyan] {\star}'
+meaning = "a marker on the coordinate modified from the spiral sphere"

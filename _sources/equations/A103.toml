@@ -1,0 +1,87 @@
+# Equation classification for A103. Read by `python3 _lib/equations.py`.
+
+caution = "Error rates are dimensionless probabilities per unit, per component or per gate, the information length is a count of bits, base pairs or specified parameters, and the constant $c$ here is an error compression constant rather than the speed of light."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Eigen Error Threshold"
+gloss = "The maximum per-unit error rate a replicating system can tolerate is the natural logarithm of the selective advantage of the functional variant divided by the information length."
+cite = ["research_eigen"]
+digest = "1bf32cd44116c91b"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Von Neumann Recursive Error Compression"
+gloss = "If each level of redundant voting maps an error rate $\\varepsilon$ to $c\\varepsilon^2$, then after $k$ levels the error rate is $(c\\varepsilon)^{2^k}/c$, which falls doubly exponentially when $c\\varepsilon < 1$."
+cite = ["research_von_neumann_reliable"]
+digest = "eef46d146977008d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Error Recursion of Concatenated Quantum Codes"
+gloss = "Each level of code concatenation squares the effective error rate up to a code-dependent constant $c$, so the rate falls to zero when it starts below the threshold $1/c$."
+cite = ["ref_threshold_theorem"]
+digest = "d158e722f8f4c550"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Logical Error Rate after Concatenation"
+gloss = "After $L$ levels of concatenation the logical error rate scales as the ratio of the physical error rate to the threshold raised to the power $2^L$."
+cite = ["research_gottesman"]
+digest = "25500bf88d7eeea7"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Eigen Maximum Information Length"
+gloss = "Inverting the error threshold gives the longest information length a population can maintain at per-unit error rate $\\mu$, beyond which the master sequence dissolves into a cloud of mutants."
+cite = ["research_eigen"]
+digest = "7478dffc3e03a9bc"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Error Threshold of a Self-Replicating Probe"
+gloss = "The Eigen threshold is evaluated with an illustrative selective advantage of two and an order-of-magnitude estimate of $10^6$ specified parameters per probe, giving a tolerable drift of about $7 \\times 10^{-7}$ per parameter per generation."
+cite = []
+digest = "4b5c971453ad0858"
+
+[[symbol]]
+tex = '\mu_{\text{max}}'
+meaning = "the maximum tolerable error rate per unit"
+
+[[symbol]]
+tex = 's'
+meaning = "the selective advantage of the functional variant or master sequence"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the length of the replicated information, in bits, base pairs or component count"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the component failure rate"
+
+[[symbol]]
+tex = '\varepsilon_k'
+meaning = "the effective error rate after $k$ levels of voting"
+
+[[symbol]]
+tex = 'c'
+meaning = "the constant of the error compression function"
+
+[[symbol]]
+tex = 'p_k'
+meaning = "the effective error rate at concatenation level $k$"
+
+[[symbol]]
+tex = 'p_L'
+meaning = "the logical error rate after $L$ levels of concatenation"
+
+[[symbol]]
+tex = 'p_{\text{th}}'
+meaning = "the fault-tolerance threshold error rate"

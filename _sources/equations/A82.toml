@@ -1,0 +1,155 @@
+# Equation classification for A82. Read by `python3 _lib/equations.py`.
+
+caution = "The units change from one equation to the next, so the first form of Kepler's third law takes years and astronomical units, the parallax and magnitude relations take parsecs and arcseconds, Hubble's law takes kilometres per second and megaparsecs, and the remaining laws take International System of Units with temperatures in kelvin."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Kepler's Third Law in Solar Units"
+gloss = "For a body orbiting the Sun, the square of the period in years equals the cube of the semi-major axis in astronomical units when the mass of the body is negligible beside that of the Sun."
+cite = []
+digest = "7bba342c05c8febd"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Kepler's Third Law in General Form"
+gloss = "Newtonian gravity gives the square of the period as $4\\pi^2 a^3$ divided by the gravitational constant and the sum of the two masses."
+cite = []
+digest = "8d67603d866c0d4b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Newton's Law of Universal Gravitation"
+gloss = "The attractive force between two masses is proportional to their product and inversely proportional to the square of their separation."
+cite = []
+digest = "12227f4bcf8d9f5b"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Inverse Square Law for Light"
+gloss = "The luminosity of a point source spreads over a sphere of area $4\\pi d^2$, so the observed flux falls with the square of the distance."
+cite = []
+digest = "7e48337159ccf167"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Stefan-Boltzmann Law for Luminosity"
+gloss = "A spherical blackbody radiates a luminosity equal to its surface area multiplied by the Stefan-Boltzmann constant and the fourth power of its surface temperature."
+cite = []
+digest = "985072d7d86361d9"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Wien's Displacement Law"
+gloss = "The wavelength of peak blackbody emission is inversely proportional to the temperature."
+cite = []
+digest = "2d9083d6f2ef706c"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Non-Relativistic Doppler Shift"
+gloss = "For radial speeds much less than the speed of light, the fractional change in wavelength equals the ratio of the radial velocity to the speed of light."
+cite = []
+digest = "1df89ea7e97ac4f8"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Hubble's Law"
+gloss = "The recession velocity of a distant galaxy is proportional to its distance, with the Hubble constant as the constant of proportion."
+cite = []
+digest = "fe1521ca0d86f3a0"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Distance from Parallax"
+gloss = "The distance in parsecs is the reciprocal of the parallax angle in arcseconds, which is the definition of the parsec."
+cite = []
+digest = "15fd3d138472602d"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Distance Modulus"
+gloss = "The difference between apparent and absolute magnitude is five times the base ten logarithm of the distance in units of ten parsecs."
+cite = []
+digest = "87d24cc11f56fd87"
+
+[[symbol]]
+tex = 'P'
+meaning = "the orbital period"
+
+[[symbol]]
+tex = 'a'
+meaning = "the semi-major axis of the orbit"
+
+[[symbol]]
+tex = 'G'
+meaning = "the gravitational constant, $6.674 \\times 10^{-11}$ newton square metres per square kilogram"
+
+[[symbol]]
+tex = 'M_1'
+meaning = "the mass of the first body, with $M_2$ the mass of the second"
+
+[[symbol]]
+tex = 'F'
+meaning = "the gravitational force in the law of gravitation, or the observed flux in the inverse square law"
+
+[[symbol]]
+tex = 'L'
+meaning = "the luminosity of the source"
+
+[[symbol]]
+tex = 'R'
+meaning = "the radius of the radiating object"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant, $5.670 \\times 10^{-8}$ watts per square metre per kelvin to the fourth"
+
+[[symbol]]
+tex = 'T'
+meaning = "the surface temperature, in kelvin"
+
+[[symbol]]
+tex = '\lambda_{\max}'
+meaning = "the wavelength of peak emission"
+
+[[symbol]]
+tex = 'b'
+meaning = "Wien's displacement constant, $2.898 \\times 10^{-3}$ metre kelvin"
+
+[[symbol]]
+tex = '\lambda_0'
+meaning = "the rest wavelength, with $\\Delta \\lambda$ the observed minus the rest wavelength"
+
+[[symbol]]
+tex = 'v'
+meaning = "the radial or recession velocity of the source"
+
+[[symbol]]
+tex = 'c'
+meaning = "the speed of light"
+
+[[symbol]]
+tex = 'H_0'
+meaning = "the Hubble constant, approximately 70 kilometres per second per megaparsec"
+
+[[symbol]]
+tex = 'd'
+meaning = "the distance, in parsecs for parallax and magnitude and in megaparsecs for Hubble's law"
+
+[[symbol]]
+tex = 'p'
+meaning = "the parallax angle, in arcseconds"
+
+[[symbol]]
+tex = 'm - M'
+meaning = "the distance modulus, the apparent magnitude $m$ less the absolute magnitude $M$"

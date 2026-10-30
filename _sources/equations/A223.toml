@@ -1,0 +1,63 @@
+# Equation classification for A223. Read by `python3 _lib/equations.py`.
+
+caution = "The provenance completeness is a dimensionless proportion between zero and one, costs share any one currency, and the change rate and audit interval must use the same unit of time so that their product is a count of changes."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Provenance Completeness"
+gloss = "The article defines provenance completeness as the fraction of state transitions in the audit window that produced audit-ready records."
+cite = []
+digest = "43e397f58c9e85b4"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Contemporaneous Against Retrofit Record Cost"
+gloss = "The article asserts that the cost of producing a record with every action, linear in the number of actions, falls far below the one-time cost of reconstructing equivalent records at audit time."
+cite = []
+digest = "701cb18b2a07f471"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Audit Coverage Condition"
+gloss = "The article requires the changes accumulated between audits, the change rate multiplied by the audit interval, to stay within the auditor's per-audit review capacity."
+cite = []
+digest = "8c2426877b0c46c4"
+
+[[symbol]]
+tex = 'p'
+meaning = "the provenance completeness"
+
+[[symbol]]
+tex = 'N_R'
+meaning = "the count of state transitions that produced audit-ready records in the audit window"
+
+[[symbol]]
+tex = 'N_T'
+meaning = "the total number of state transitions in the audit window"
+
+[[symbol]]
+tex = 'c'
+meaning = "the marginal cost per action of producing an audit-ready record contemporaneously"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of accumulated actions"
+
+[[symbol]]
+tex = 'C_R'
+meaning = "the retrofit cost of reconstructing equivalent records after the fact"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the change rate of the system, in changes per unit time"
+
+[[symbol]]
+tex = 'T'
+meaning = "the interval between audits"
+
+[[symbol]]
+tex = 'K'
+meaning = "the auditor's per-audit review capacity, in changes"

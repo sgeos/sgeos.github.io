@@ -1,0 +1,79 @@
+# Equation classification for A106. Read by `python3 _lib/equations.py`.
+
+caution = "Lift and pressure coefficients are dimensionless, angles are measured from the freestream direction, and in the rocket equation the velocity increment and the effective exhaust velocity must share one unit such as kilometres per second."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Polhamus Decomposition of Delta Wing Lift"
+gloss = "The leading-edge suction analogy of Polhamus writes the total lift coefficient of a delta wing as a potential flow component plus a vortex lift component."
+cite = ["ref_vortex_lift"]
+digest = "03fd37de3a726e3e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Polhamus Vortex Lift Coefficient"
+gloss = "The vortex lift component grows as $\\sin^2 \\alpha \\cos \\alpha$ with a coefficient $K_v$ set by the aspect ratio and leading-edge sweep."
+cite = ["ref_vortex_lift"]
+digest = "4640049b984ef82c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Newtonian Pressure Coefficient"
+gloss = "In the Newtonian approximation for hypersonic flow, the pressure coefficient on a windward surface is twice the square of the sine of its inclination to the freestream."
+cite = []
+digest = "04dccb5934ae892c"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Tsiolkovsky Mass Ratio"
+gloss = "The ratio of initial to final mass required for a velocity increment is the exponential of that increment divided by the effective exhaust velocity."
+cite = ["ref_rocket_equation"]
+digest = "88c27c9775e643a8"
+
+[[symbol]]
+tex = 'C_L'
+meaning = "the total lift coefficient of the delta wing"
+
+[[symbol]]
+tex = 'C_{L_p}'
+meaning = "the potential flow component of the lift coefficient"
+
+[[symbol]]
+tex = 'C_{L_v}'
+meaning = "the vortex lift component of the lift coefficient"
+
+[[symbol]]
+tex = 'K_v'
+meaning = "the vortex lift coefficient, set by aspect ratio and leading-edge sweep"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the angle of attack"
+
+[[symbol]]
+tex = 'C_p'
+meaning = "the pressure coefficient"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the angle between the surface and the freestream flow direction"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the initial mass of the stage"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the final mass of the stage after its propellant is spent"
+
+[[symbol]]
+tex = '\Delta v'
+meaning = "the velocity increment"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the effective exhaust velocity"

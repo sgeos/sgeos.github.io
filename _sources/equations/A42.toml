@@ -1,0 +1,219 @@
+# Equation classification for A42. Read by `python3 _lib/equations.py`.
+
+caution = "Every angle is in radians, the radius $\\rho$ is the hypotenuse of the reference triangle, and the inclination $\\theta$ of spherical coordinates is measured from the positive $z$ axis while the azimuth $\\phi$ is measured in the $xy$ plane."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Polar Coordinates"
+gloss = "A point at radius $\\rho$ and azimuth $\\phi$ has Cartesian components $\\rho \\cos \\phi$ and $\\rho \\sin \\phi$, and the inverse uses the two-argument arctangent to recover the quadrant."
+cite = []
+digest = "4a5433a30afa6e59"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Sine and Cosine as Ratios with Their Inverses"
+gloss = "The sine and cosine are the ratios of the opposite and adjacent sides to the hypotenuse, the reciprocals of the cosecant and secant, and their inverse functions return the angle."
+cite = []
+digest = "5fb9f63a9b8f5284"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Tangent and Secant as Ratios with Their Inverses"
+gloss = "The tangent and secant are the ratios of the opposite side and of the hypotenuse to the adjacent side, and their inverse functions return the angle."
+cite = []
+digest = "cb27359101aba460"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Cotangent and Cosecant as Ratios with Their Inverses"
+gloss = "The cotangent and cosecant are the ratios of the adjacent side and of the hypotenuse to the opposite side, and their inverse functions return the angle."
+cite = []
+digest = "ada7dc36300500b9"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Values of the Six Functions at Quarter Turns"
+gloss = "The table gives each function at multiples of $\\pi/2$, with the upper of a paired sign giving the side approached from smaller angles."
+cite = []
+digest = "c5b72b89783298ea"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Transposed Values at Quarter Turns"
+gloss = "The same quarter-turn values are set out with the functions as rows and the angles as columns."
+cite = []
+digest = "06a1f4bf9efbbb9c"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Domains and Ranges of the Functions and Their Inverses"
+gloss = "The table gives the domain and range of the six functions and the principal ranges of their inverses, which begin at $-\\pi/2$ or at zero depending on the function."
+cite = []
+digest = "2ce016970a3bfde8"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Reciprocal and Quotient Identities"
+gloss = "Each of the six functions is written as the reciprocal of its partner, as quotients and products of the others, and as a ratio of the sides $x$, $y$ and $\\rho$."
+cite = []
+digest = "593f670f63ea499e"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Cofunction Identities"
+gloss = "Each function of the complementary angle $\\pi/2 - \\phi$ equals its cofunction of $\\phi$."
+cite = []
+digest = "7d25075926e6b408"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Odd and Even Function Identities"
+gloss = "The cosine and secant are even functions of the angle, and the other four are odd."
+cite = []
+digest = "94feaf6f4d870c6e"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Pythagorean Identities"
+gloss = "The squares of sine and cosine sum to one, and dividing that identity by the square of the cosine or of the sine gives the other two."
+cite = []
+digest = "f569c17423d6e811"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Product to Sum and Sum to Product Identities"
+gloss = "Products of sines and cosines of two angles are written as half sums or differences of functions of the sum and difference angles, and the reverse identities convert sums into products."
+cite = []
+digest = "5e4a96b11cf3dca4"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Sum and Difference Formulas"
+gloss = "The sine, cosine and tangent of a sum or difference of two angles are expressed through the functions of each angle."
+cite = []
+digest = "7fa2685d9b311d76"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Double Angle Identities"
+gloss = "Setting the two angles of the sum formulas equal gives the sine, cosine and tangent of twice an angle."
+cite = []
+digest = "5d291e831116c36a"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Half Angle Identities"
+gloss = "Each function of half an angle is written through the cosine and sine of the whole angle, with the sign of each square root set by the quadrant of $\\phi/2$."
+cite = []
+digest = "83b282054d805b8e"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Power Reducing Identities"
+gloss = "The square of each function is written through the cosine of twice the angle, which removes the power."
+cite = []
+digest = "d12818f646b36304"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Spherical Coordinates"
+gloss = "A point at radius $\\rho$, inclination $\\theta$ from the $z$ axis and azimuth $\\phi$ has the stated Cartesian components, and the inverse relations recover the three coordinates."
+cite = []
+digest = "3be900cb573f0e32"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Polar Form of a Complex Number"
+gloss = "A complex number $a + bi$ is written by its modulus $\\rho$ and argument $\\phi$, so that multiplication multiplies the moduli and adds the arguments while division divides the moduli and subtracts them."
+cite = []
+digest = "e8daf6c51f3de6ce"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "De Moivre's Theorem"
+gloss = "Raising a complex number in polar form to the power $n$ raises its modulus to that power and multiplies its argument by $n$."
+cite = []
+digest = "050ed08c0efd7344"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Complex nth Roots"
+gloss = "A complex number has $n$ distinct $n$th roots, each with modulus $\\rho^{1/n}$ and with arguments spaced $2\\pi/n$ apart and indexed by $k$."
+cite = []
+digest = "3cb311a18c857e09"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Orthogonal Decomposition of a Vector"
+gloss = "A vector is split into its projection onto $\\vec{\\rho}$ and the remainder, which is perpendicular to $\\vec{\\rho}$."
+cite = []
+digest = "b9c16207063fbaeb"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Triangulation from a Baseline"
+gloss = "The law of sines applied to the triangle formed by a baseline of length $\\rho$ and the two interior angles to a target gives the perpendicular distance, the distances along the baseline and the direct distances to the target."
+cite = []
+digest = "e23d364e8e0eaed6"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Tangent Lines to a Circle with Rotations and Mirrors"
+gloss = "The point-slope form of the line tangent to a circle of radius $\\rho$ at angle $\\phi$ is given with its images under quarter and half turns and under reflection in the axes and diagonals."
+cite = []
+digest = "4efc0e13a2b9ae62"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the radius, the hypotenuse of the reference triangle, the modulus of a complex number, or the baseline in triangulation"
+
+[[symbol]]
+tex = '\phi'
+meaning = "the azimuth, or one interior angle in triangulation"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the inclination from the $z$ axis in spherical coordinates, a second angle in the identities, or the other interior angle in triangulation"
+
+[[symbol]]
+tex = 'x_\phi'
+meaning = "the distance along the baseline from the point that measures $\\phi$ to the foot of the perpendicular from the target"
+
+[[symbol]]
+tex = 'd_\phi'
+meaning = "the distance from the point that measures $\\phi$ to the target"
+
+[[symbol]]
+tex = 'k'
+meaning = "the index of a complex root, or an integer that labels the intervals of a domain"
+
+[[symbol]]
+tex = '\vec{v}^\parallel'
+meaning = "the component of $\\vec{v}$ parallel to $\\vec{\\rho}$"
+
+[[symbol]]
+tex = '\vec{v}^\bot'
+meaning = "the component of $\\vec{v}$ perpendicular to $\\vec{\\rho}$"

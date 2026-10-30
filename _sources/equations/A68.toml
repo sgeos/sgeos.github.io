@@ -1,0 +1,67 @@
+# Equation classification for A68. Read by `python3 _lib/equations.py`.
+
+caution = "All quantities are in International System of Units, with thrust in newtons, pressures in pascals and velocities in metres per second, and the specific impulse in seconds is converted to an effective exhaust velocity by standard gravity."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Rocket Thrust Equation"
+gloss = "Thrust is the momentum flux of the exhaust plus the pressure difference between the nozzle exit and the ambient air acting over the exit area."
+cite = ["nasa_rocket_thrust"]
+digest = "7a10c3c4f8c701e8"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Specific Impulse"
+gloss = "Specific impulse is the thrust divided by the weight flow rate of propellant at standard gravity, which gives a measure of propellant efficiency in seconds."
+cite = ["nasa_rocket_specific_impulse"]
+digest = "34fc47e9b676e1c4"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The change in velocity a rocket can achieve is the effective exhaust velocity multiplied by the natural logarithm of the ratio of initial to final mass."
+cite = ["nasa_ideal_rocket_equation"]
+digest = "717fa03c43882739"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust, in newtons"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the mass flow rate of the propellant, in kilograms per second"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the exhaust velocity, in metres per second"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the pressure at the nozzle exit, in pascals"
+
+[[symbol]]
+tex = 'p_0'
+meaning = "the ambient pressure, in pascals"
+
+[[symbol]]
+tex = 'A_e'
+meaning = "the exit area of the nozzle, in square metres"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse, in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.80665 metres per second squared"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the initial total mass including propellant, in kilograms"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the final mass after the propellant is expended, in kilograms"

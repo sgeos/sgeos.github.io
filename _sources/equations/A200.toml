@@ -1,0 +1,23 @@
+# Equation classification for A200. Read by `python3 _lib/equations.py`.
+
+caution = "The transistor count is a pure number and the doubling period $T$ takes the same unit of time as $t$, so a period stated in months requires $t$ in months."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Moore's Law"
+gloss = "The transistor count per chip doubles once every period $T$, which Moore's 1975 revision set at about two years."
+cite = []
+digest = "0c499454596d3970"
+
+[[symbol]]
+tex = 'N(t)'
+meaning = "the transistor count per chip at time $t$"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the initial transistor count"
+
+[[symbol]]
+tex = 'T'
+meaning = "the doubling period, approximately eighteen to twenty-four months"

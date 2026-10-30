@@ -1,0 +1,19 @@
+# Equation classification for A79. Read by `python3 _lib/equations.py`.
+
+caution = "The equation is pure arithmetic over the natural numbers, with $k$ an arbitrary natural number of at least one for which the inductive hypothesis is assumed."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Inductive Step for the Sum of the First Natural Numbers"
+gloss = "Adding $k+1$ to the assumed sum $k(k+1)/2$ and factoring gives $(k+1)(k+2)/2$, which is the closed form for $n = k+1$ and completes the induction."
+cite = []
+digest = "b4ee1d866fff3fa0"
+
+[[symbol]]
+tex = 'k'
+meaning = "the natural number for which the inductive hypothesis is assumed"
+
+[[symbol]]
+tex = 'i'
+meaning = "the summation index"

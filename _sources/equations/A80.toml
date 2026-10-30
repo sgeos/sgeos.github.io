@@ -1,0 +1,347 @@
+# Equation classification for A80. Read by `python3 _lib/equations.py`.
+
+caution = "Probabilities and proportions are dimensionless numbers between zero and one, a mean, standard deviation or standard error carries the units of the data, and a critical value $z^\\star$, $t^\\star$ or $\\chi^2$ is read from a table at the stated significance level."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Binomial Probability Mass Function"
+gloss = "The probability of exactly $k$ successes in $n$ independent trials is the binomial coefficient multiplied by $p^k q^{n-k}$."
+cite = []
+digest = "02123954f9c38894"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Mean and Standard Deviation of the Binomial Distribution"
+gloss = "A binomial count has mean $np$ and standard deviation $\\sqrt{npq}$."
+cite = []
+digest = "a4b2bb4cef253089"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Normal Probability Density Function"
+gloss = "The normal density is fixed by its mean $\\mu$ and standard deviation $\\sigma$ and falls off as the exponential of the negative squared standardised distance."
+cite = []
+digest = "d8b3dc216539061e"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Z-Score"
+gloss = "Subtracting the mean and dividing by the standard deviation standardises a normal value to the standard normal distribution."
+cite = []
+digest = "5c800ac398b13963"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Poisson Probability Mass Function"
+gloss = "The probability of $k$ events in an interval with average rate $\\lambda$ is $e^{-\\lambda} \\lambda^k / k!$."
+cite = []
+digest = "a1192aa1d5b09061"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Mean and Variance of the Poisson Distribution"
+gloss = "Both the mean and the variance of a Poisson count equal the rate $\\lambda$."
+cite = []
+digest = "da6aae6cd4d707ac"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Condition for the Normal Approximation to the Binomial"
+gloss = "The conventional rule of thumb requires at least five expected successes and five expected failures before the binomial is approximated by the normal distribution."
+cite = []
+digest = "b059d462adc66025"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Sample Mean"
+gloss = "The sample mean is the arithmetic average of the $n$ observations."
+cite = []
+digest = "d34cf24fcabfd08a"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Sample Variance with Bessel's Correction"
+gloss = "The sample variance divides the sum of squared deviations from the sample mean by $n-1$, which removes the bias of estimating the mean from the same sample."
+cite = []
+digest = "1a45393a2abc91bd"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Population Variance"
+gloss = "When the whole population is known, the variance divides the sum of squared deviations from the population mean by the population size."
+cite = []
+digest = "afd53e1a5374e9d5"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Law of Total Probability over Two Conditions"
+gloss = "When two events $A$ and $B$ partition the sample space, the probability of $E$ is the sum of its conditional probabilities weighted by the probabilities of the conditions."
+cite = []
+digest = "a817a4cafa2bc4c9"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Law of Total Probability Rearranged"
+gloss = "Solving the two-condition law of total probability for one conditional probability or for one partition probability gives these two forms."
+cite = []
+digest = "03d17285fbfb7f2b"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Bayes' Theorem"
+gloss = "The probability of $A$ given $B$ equals the probability of $B$ given $A$ multiplied by the prior of $A$ and divided by the probability of $B$."
+cite = []
+digest = "d5a031e20cf1fa96"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Bayes' Theorem with an Expanded Denominator"
+gloss = "Expanding the probability of $B$ by the law of total probability over $A$ and its complement gives Bayes' theorem in terms of conditional probabilities alone."
+cite = []
+digest = "b5db2b97d4e680be"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Central Limit Theorem"
+gloss = "For large $n$ the sample mean is approximately normal with the population mean and a variance of $\\sigma^2/n$, whatever the shape of the population."
+cite = []
+digest = "8723114eb2882e4b"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Standard Error of the Mean"
+gloss = "The standard deviation of the sample mean is the population standard deviation divided by $\\sqrt{n}$."
+cite = []
+digest = "b54ef13c4274d03c"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Z Statistic for a Mean with Known Variance"
+gloss = "The distance of the sample mean from the hypothesised mean is measured in standard errors computed from the known $\\sigma$."
+cite = []
+digest = "079a4c76b03196a7"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "t Statistic for a Mean with Unknown Variance"
+gloss = "Replacing $\\sigma$ with the sample standard deviation gives a statistic that follows the $t$-distribution with $n-1$ degrees of freedom."
+cite = []
+digest = "c8688b95c736ca0e"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Z Statistic for a Proportion"
+gloss = "The sample proportion is compared with the null value $p_0$ in units of a standard error computed from $p_0$."
+cite = []
+digest = "e390fa7fc0863ab2"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "General Form of a Z Statistic"
+gloss = "Any test statistic of this kind is the distance of a point estimate from its null value divided by the standard error of the estimate."
+cite = []
+digest = "f6336a5aee47d05d"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "General Form of a Confidence Interval"
+gloss = "A confidence interval is the point estimate plus or minus the margin of error, which is the critical value multiplied by the standard error."
+cite = []
+digest = "877e9904f76ab7ab"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Confidence Interval for a Mean with Known Variance"
+gloss = "The interval about the sample mean is the normal critical value multiplied by $\\sigma/\\sqrt{n}$."
+cite = []
+digest = "6e39ae3674b35885"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Confidence Interval for a Mean with Unknown Variance"
+gloss = "The interval about the sample mean uses the $t$ critical value with $n-1$ degrees of freedom and the sample standard deviation."
+cite = []
+digest = "86617bee5f713b1f"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Confidence Interval for a Variance"
+gloss = "The interval for the population variance divides $(n-1)s^2$ by the upper and lower chi-squared critical values with $n-1$ degrees of freedom."
+cite = []
+digest = "b7bf6c6a75c18619"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Confidence Interval for a Standard Deviation"
+gloss = "Taking square roots of the bounds of the variance interval gives the interval for the standard deviation."
+cite = []
+digest = "8c54ba7878a06d1c"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Confidence Interval for a Proportion"
+gloss = "The interval about the sample proportion uses a standard error computed from the sample proportion itself."
+cite = []
+digest = "174f524ae6f4a606"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Confidence Interval for a Difference of Means with Known Variances"
+gloss = "For two independent samples the variances of the two means add, so the standard error is the square root of the summed $\\sigma^2/n$ terms."
+cite = []
+digest = "5b0782777b094d56"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Standard Error of a Difference of Proportions"
+gloss = "For two independent samples the variances of the two proportions add under the square root."
+cite = []
+digest = "a6694ead47ce7f3f"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Confidence Interval for a Difference of Proportions"
+gloss = "The interval about the difference of the sample proportions is the normal critical value multiplied by the standard error of the difference."
+cite = []
+digest = "8b76b1b0508c3013"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Pooled Proportion"
+gloss = "Under the null hypothesis of equal proportions the two samples are combined into one estimate weighted by their sizes."
+cite = []
+digest = "a0b17b5d5aed064d"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Pooled Standard Error"
+gloss = "The standard error for testing equal proportions uses the pooled proportion for both samples."
+cite = []
+digest = "b277369dfec38717"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Sample Size for Estimating a Proportion"
+gloss = "Solving the margin of error of a proportion for $n$ gives the smallest sample that meets a target margin, which the worst case $p = 0.5$ bounds when no prior estimate exists."
+cite = []
+digest = "1c6a68a7057b835e"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Sample Size for Estimating a Mean"
+gloss = "Solving the margin of error of a mean with known $\\sigma$ for $n$ gives the smallest sample that meets a target margin."
+cite = []
+digest = "5aaf00fdce0bf469"
+
+[[symbol]]
+tex = 'n'
+meaning = "the sample size or number of trials"
+
+[[symbol]]
+tex = 'k'
+meaning = "the number of successes or events"
+
+[[symbol]]
+tex = 'p'
+meaning = "the probability of success on a single trial"
+
+[[symbol]]
+tex = 'q'
+meaning = "the probability of failure, $q = 1 - p$"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the population mean"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the population standard deviation"
+
+[[symbol]]
+tex = '\bar{x}'
+meaning = "the sample mean"
+
+[[symbol]]
+tex = 's^2'
+meaning = "the sample variance, whose square root $s$ is the sample standard deviation"
+
+[[symbol]]
+tex = '\hat{p}'
+meaning = "the sample proportion, a point estimate of $p$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the average rate of a Poisson process"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the significance level"
+
+[[symbol]]
+tex = 'Z'
+meaning = "the standard normal Z-score"
+
+[[symbol]]
+tex = 'z^\star'
+meaning = "the critical value from the standard normal distribution"
+
+[[symbol]]
+tex = 't^\star'
+meaning = "the critical value from the $t$-distribution with the stated degrees of freedom"
+
+[[symbol]]
+tex = '\chi^2'
+meaning = "the chi-squared critical value"
+
+[[symbol]]
+tex = 'SE'
+meaning = "the standard error"
+
+[[symbol]]
+tex = 'ME'
+meaning = "the margin of error"
+
+[[symbol]]
+tex = '\mu_0'
+meaning = "the hypothesised population mean under the null hypothesis"
+
+[[symbol]]
+tex = 'p_0'
+meaning = "the hypothesised population proportion under the null hypothesis"
+
+[[symbol]]
+tex = '\hat{\theta}'
+meaning = "a general point estimate, with null value $\\theta_0$"

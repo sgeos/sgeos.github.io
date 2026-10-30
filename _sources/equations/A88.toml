@@ -1,0 +1,43 @@
+# Equation classification for A88. Read by `python3 _lib/equations.py`.
+
+caution = "Time is measured in years and the decay constant in reciprocal years, and the decay applies to each holding while the total supply is conserved because decayed coins are redistributed to miners."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Exponential Decay"
+gloss = "The quantity remaining at time $t$ is the initial quantity multiplied by the exponential of minus the decay constant times $t$."
+cite = []
+digest = "b8ea80597a1b65b9"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Decay Constant from Half-Life"
+gloss = "The decay constant is the natural logarithm of two divided by the half-life, since half the quantity remains after one half-life."
+cite = []
+digest = "4a7538e6a240bf35"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Fraction of a Holding Remaining under a Century Half-Life"
+gloss = "The protocol the article proposes fixes the half-life of every coin at 100 years, so the fraction of a holding remaining after $t$ years is one half raised to the power $t/100$."
+cite = []
+digest = "b5dfad230218c9e0"
+
+[[symbol]]
+tex = 'N(t)'
+meaning = "the quantity remaining at time $t$"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the initial quantity"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the decay constant, in reciprocal years"
+
+[[symbol]]
+tex = 't_{1/2}'
+meaning = "the half-life, in years"

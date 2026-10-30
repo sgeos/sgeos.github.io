@@ -1,0 +1,39 @@
+# Equation classification for A224. Read by `python3 _lib/equations.py`.
+
+caution = "The link creation rate and the crawler revisit interval must use the same unit of time so that their product is a count of links, and the half-life and elapsed time likewise share one unit, usually years."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Bound on Unindexed Backlinks"
+gloss = "The article bounds the backlinks an external crawler has not yet indexed by the rate of new link creation multiplied by the crawler's revisit interval, a bound that falls to zero only as the interval does."
+cite = []
+digest = "70dca7c746803373"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Exponential Link Rot"
+gloss = "If each uniform resource locator stays resolvable with a constant half-life, the broken fraction of a page's outbound links after time $t$ is one minus one half raised to the power $t / T_{1/2}$, the exponential form reported in large-scale studies of reference rot."
+cite = ["research_klein_reference_rot"]
+digest = "dc0f03f2d22dac84"
+
+[[symbol]]
+tex = 'N_{\text{stale}}'
+meaning = "the accumulated count of unindexed backlinks"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the site-wide rate of new link creation"
+
+[[symbol]]
+tex = 'T'
+meaning = "the crawler's revisit interval"
+
+[[symbol]]
+tex = 'f_{\text{broken}}(t)'
+meaning = "the fraction of outbound links broken at time $t$ after publication"
+
+[[symbol]]
+tex = 'T_{1/2}'
+meaning = "the half-life of a URL's continued resolvability"

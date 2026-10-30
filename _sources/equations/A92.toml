@@ -1,0 +1,135 @@
+# Equation classification for A92. Read by `python3 _lib/equations.py`.
+
+caution = "The physical equations take International System of Units, the share equations are in any one currency, and the governance coherence is a dimensionless quantity that the article defines rather than measures."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Newtonian Gravitational Acceleration"
+gloss = "The gravitational acceleration at distance $r$ from a central mass $M$ is $GM/r^2$, which fixes the radius at which a shell feels about one Earth gravity."
+cite = []
+digest = "985ed9b3aa51e50c"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Escape Velocity"
+gloss = "The escape velocity from the surface of a body of mass $M$ and radius $R$ is $\\sqrt{2GM/R}$, about 2.38 kilometres per second for the Moon."
+cite = []
+digest = "0cf8bef62eea436b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Energy Return on Investment"
+gloss = "The energy return on investment is the energy a system returns divided by the energy invested in building it, and a self-sustaining process requires it to exceed one."
+cite = []
+digest = "2808624b672b3c15"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Exponential Growth of Energy Capture"
+gloss = "A self-replicating collector industry whose surplus energy funds further extraction grows its capture rate by a factor of two every doubling time $\\tau$."
+cite = ["research_eternity_six_hours"]
+digest = "7fa58125280afb31"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Share Value before a Spinoff"
+gloss = "The value of one share before the split is the total value of the corporation divided by the number of shares."
+cite = []
+digest = "a4b3a4613e3991cc"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Share Value after a Pledged Spinoff"
+gloss = "Under the pledge mechanism the article proposes, the $P$ pledged shares are cancelled and the spinoff carries away its assessed value, so the remaining value is divided over $N - P$ shares."
+cite = []
+digest = "49dc02c6fafc019f"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Appreciation per Remaining Share"
+gloss = "The appreciation per remaining share is the difference between the post-split and pre-split share values under the article's pledge mechanism, which the originating corporation seeks to maximise."
+cite = []
+digest = "43756a62539aa55c"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Market Revaluation after a Spinoff"
+gloss = "The article asserts that the market revalues the originating corporation after the split, so its remaining value differs from the assessed difference used to set the terms."
+cite = []
+digest = "82a3ba4f78f26d7f"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "One-Way Signal Delay"
+gloss = "A signal at the speed of light takes the distance divided by $c$ to cross between two points."
+cite = []
+digest = "beef286c8b082d9e"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Governance Coherence Decay"
+gloss = "The article defines a governance coherence half-life and assumes that coherence between two isolated governance nodes halves over each such interval, by analogy with glottochronology."
+cite = []
+digest = "2fa72b16cf42eb59"
+
+[[symbol]]
+tex = 'G'
+meaning = "the gravitational constant"
+
+[[symbol]]
+tex = 'M'
+meaning = "the central mass, or the mass of the body being escaped"
+
+[[symbol]]
+tex = 'EROI'
+meaning = "the energy return on investment"
+
+[[symbol]]
+tex = 'E_0'
+meaning = "the initial energy capture rate"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the doubling time of energy capture"
+
+[[symbol]]
+tex = 'V_{total}'
+meaning = "the total value of the originating corporation before the split"
+
+[[symbol]]
+tex = 'V_{spinoff}'
+meaning = "the assessed value the spinoff carries away"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of shares before the spinoff"
+
+[[symbol]]
+tex = 'P'
+meaning = "the number of shares pledged and cancelled"
+
+[[symbol]]
+tex = 'V_{remaining}'
+meaning = "the market value of the originating corporation after revaluation"
+
+[[symbol]]
+tex = 't_{delay}'
+meaning = "the one-way signal delay"
+
+[[symbol]]
+tex = 'C(t)'
+meaning = "the governance coherence between two nodes at time $t$ after separation, with $C_0$ its initial value"
+
+[[symbol]]
+tex = 'T_{GCH}'
+meaning = "the governance coherence half-life"

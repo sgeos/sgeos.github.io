@@ -1,0 +1,207 @@
+# Equation classification for A101. Read by `python3 _lib/equations.py`.
+
+caution = "Most quantities are in International System of Units, but the Eddington luminosity is quoted in ergs per second, where $10^7$ ergs per second make one watt, and distances switch between metres and light-years, with one light-year about $9.46 \\times 10^{15}$ metres."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Extractable Rotational Energy of Sagittarius A*"
+gloss = "The extractable fraction of an extreme Kerr black hole, about 0.29, is applied to Sagittarius A* on the assumption that it spins maximally, with a solar mass rounded to $2 \\times 10^{30}$ kilograms."
+cite = ["ref_kerr"]
+digest = "0a0633e8ad62dddb"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Eddington Luminosity"
+gloss = "The Eddington luminosity is the luminosity at which radiation pressure on electrons balances the gravitational pull on protons, about $1.3 \\times 10^{38}$ ergs per second per solar mass."
+cite = ["ref_eddington"]
+digest = "3bbc1bfcaa9da420"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Diffraction Limit of a Circular Aperture"
+gloss = "The angular divergence of a beam from a circular aperture of diameter $D$ at wavelength $\\lambda$ is about $1.22 \\lambda / D$."
+cite = ["research_lubin"]
+digest = "02e82f23f1d2ebe4"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Diffraction-Limited Spot Size"
+gloss = "In the small-angle limit the spot size at distance $L$ is the distance multiplied by the angular divergence."
+cite = ["research_lubin"]
+digest = "d3ebd905dc7c1528"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Beam Flux from Sagittarius A* at Intergalactic Range"
+gloss = "Assuming the full Eddington luminosity of Sagittarius A* is directed into a beam whose spot at the target is three light-years across, the flux is spread uniformly over that disc."
+cite = []
+digest = "e76d51aba6e5dbf7"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Beam Flux from the Andromeda Black Hole"
+gloss = "Assuming the full Eddington luminosity of the Andromeda black hole is directed at the Milky Way through a 1 kilometre aperture, the flux is spread over the same three light-year spot."
+cite = []
+digest = "3c3afe87fdd75cc7"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Jet Diameter at a One Degree Opening Angle"
+gloss = "Assuming a jet keeps an opening angle of one degree over 2.5 million light-years, the small-angle approximation gives a diameter of about 43,600 light-years at the target."
+cite = []
+digest = "9862110ddc3a1040"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Flux of a Wide Jet at Intergalactic Range"
+gloss = "Assuming a jet power of $10^{37}$ watts, comparable to the mechanical power of the M87 jet, spread over the 43,600 light-year diameter gives a flux far below the solar constant."
+cite = []
+digest = "4158cf7298c31125"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Flux of an Engineered Narrow Jet"
+gloss = "Assuming an engineered opening angle of 0.001 degrees, the same $10^{37}$ watt jet is spread over a diameter of about 44 light-years."
+cite = []
+digest = "a7bb8e946082c6ad"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Relativistic Kinetic Energy"
+gloss = "The kinetic energy of a body of rest mass $m$ is its Lorentz factor less one multiplied by $mc^2$."
+cite = ["ref_rkv"]
+digest = "8c6134525508a722"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Transit Time to Andromeda at 0.99c"
+gloss = "Dividing the 2.5 million light-year distance to Andromeda by a projectile speed the article chooses, 0.99 of the speed of light, gives a transit of about 2.53 million years."
+cite = []
+digest = "9914cb10dff73102"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Pointing Precision for a Star System at Andromeda"
+gloss = "Taking a star system to be a target 10 astronomical units across, the angle it subtends at 2.5 million light-years is about $6.3 \\times 10^{-11}$ radians."
+cite = []
+digest = "63b6ce973787ce4e"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Sterilisation Wave Speed"
+gloss = "The article adds a sterilisation time to the transit and replication times of the colonisation wave model, so the sterilisation wave advances one stellar spacing per all three."
+cite = []
+digest = "18f117ec2cacff35"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Total Sterilisation Timeline"
+gloss = "The article divides the time to sterilise a galaxy with self-replicating probes into an intergalactic transit and a sterilisation phase that includes replication and destruction."
+cite = []
+digest = "36fad5a7d5aede20"
+
+[[equation]]
+tag = 15
+class = "bespoke"
+title = "Bespoke Sterilisation Timeline from the Milky Way to Andromeda"
+gloss = "A transit of 25 million years at one tenth of the speed of light is added to a sterilisation phase the article estimates at 2 to 10 million years."
+cite = []
+digest = "0b3ba389b321fd2d"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Speed of a Colonisation Wave"
+gloss = "In the Armstrong and Sandberg wave model each probe crosses the distance to the next star and then replicates, so the wave advances one stellar spacing per transit and replication time."
+cite = ["research_eternity"]
+digest = "c95d1e88888f7e6e"
+
+[[symbol]]
+tex = 'E_{\text{rot}}'
+meaning = "the extractable rotational energy of the black hole"
+
+[[symbol]]
+tex = 'M_{\text{BH}}'
+meaning = "the mass of the black hole"
+
+[[symbol]]
+tex = 'L_{\text{Edd}}'
+meaning = "the Eddington luminosity"
+
+[[symbol]]
+tex = 'm_p'
+meaning = "the proton mass"
+
+[[symbol]]
+tex = '\sigma_T'
+meaning = "the Thomson scattering cross-section"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the angular divergence of a beam, the opening angle of a jet, or the angle a target subtends"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the wavelength of the beam"
+
+[[symbol]]
+tex = 'D'
+meaning = "the diameter of the emitting aperture"
+
+[[symbol]]
+tex = 'L'
+meaning = "the distance to the target"
+
+[[symbol]]
+tex = 's'
+meaning = "the diffraction-limited spot size at the target"
+
+[[symbol]]
+tex = 'F'
+meaning = "the energy flux at the target, in watts per square metre"
+
+[[symbol]]
+tex = 'P'
+meaning = "the power directed at the target"
+
+[[symbol]]
+tex = 'E_k'
+meaning = "the kinetic energy of a projectile"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the Lorentz factor, $(1 - v^2/c^2)^{-1/2}$"
+
+[[symbol]]
+tex = 't_{\text{transit}}'
+meaning = "the time for a probe to cross to the next target"
+
+[[symbol]]
+tex = 't_{\text{rep}}'
+meaning = "the time for a probe to replicate"
+
+[[symbol]]
+tex = 't_{\text{sterilize}}'
+meaning = "the time to render a target system uninhabitable"
+
+[[symbol]]
+tex = 'v_{\text{wave}}'
+meaning = "the effective speed of the colonisation wave"
+
+[[symbol]]
+tex = 'd'
+meaning = "the jet diameter at the target in the collimation equations, or the distance between target stars in the wave equations"

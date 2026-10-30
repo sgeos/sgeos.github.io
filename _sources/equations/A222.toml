@@ -1,0 +1,51 @@
+# Equation classification for A222. Read by `python3 _lib/equations.py`.
+
+caution = "Times are in hours, and the context size and working memory capacity are counts of items that the article compares in order of magnitude rather than measures on a common scale."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Defining Inequality of Deep Concentration Work"
+gloss = "The article defines the class by a problem context far larger than unassisted working memory, which Miller and Cowan estimate at about seven and four items, with the excess closed by external memory."
+cite = ["research_miller_seven", "research_cowan_four"]
+digest = "f344041e3347765a"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Interruption Loss of a Class Member"
+gloss = "Following Graham's maker schedule, the article models the loss from an interruption as the remainder of the session plus the ramp-up time to rebuild the mental model, when recovery is possible."
+cite = ["ref_graham_maker"]
+digest = "0e02deff12eae551"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Interruption Loss of a Manager"
+gloss = "Following Graham's manager schedule, the article models a manager's day as slots of fixed length so that an interruption costs at most one slot."
+cite = ["ref_graham_maker"]
+digest = "7309cde7d9a362e5"
+
+[[symbol]]
+tex = 'C_{\text{problem}}'
+meaning = "the problem context size"
+
+[[symbol]]
+tex = 'M_{\text{working}}'
+meaning = "the unassisted working memory capacity"
+
+[[symbol]]
+tex = 'T_s'
+meaning = "the intended session duration"
+
+[[symbol]]
+tex = 't_i'
+meaning = "the elapsed session time at the moment of interruption"
+
+[[symbol]]
+tex = 'T_r'
+meaning = "the ramp-up time to re-enter the productive state, in hours"
+
+[[symbol]]
+tex = 't_{\text{slot}}'
+meaning = "the length of one of a manager's time slots"

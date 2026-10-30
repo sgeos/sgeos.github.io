@@ -1,0 +1,191 @@
+# Equation classification for A99. Read by `python3 _lib/equations.py`.
+
+caution = "Distances between civilisations are stated as one-way light travel times $d$ in years, growth rates are per year so that a product such as $2rd$ is dimensionless, and the capability $N$ is an abstract quantity whose ratios matter while its units do not."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Strategic Capability of a Supermassive Black Hole"
+gloss = "The article defines strategic capability as the mass energy of a supermassive black hole multiplied by an extraction efficiency bounded by the Kerr limit of about 0.29 and by a mobilisation fraction it introduces."
+cite = ["ref_kerr"]
+digest = "71f6b11531004449"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Growth Advantage of a Dark Forest Defector"
+gloss = "Assuming exponential growth at a concealed rate $r_c$ for all civilisations and an unconstrained rate $r_u$ for one defector, the defector's advantage over the $2d$ information delay is the exponential of the rate difference times $2d$."
+cite = []
+digest = "b68ba0ba58f78400"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Exponential Growth"
+gloss = "A capability that grows in proportion to itself at rate $r$ grows exponentially with doubling time $\\ln 2 / r$."
+cite = []
+digest = "353ab7e2193a0a54"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Logistic Growth"
+gloss = "Growth at rate $r$ that slows as the capability approaches the carrying capacity $K$ follows the logistic equation."
+cite = []
+digest = "e2b74b3bab2e6a9a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Hyperbolic Growth"
+gloss = "Growth proportional to the square of the current capability reaches a finite-time singularity at $1/(N_0 k)$, the form von Foerster and colleagues fitted to historical world population."
+cite = []
+digest = "96234023753410ca"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Ratio of Actual to Estimated Defender Capability"
+gloss = "The article measures the obsolescence of an attacker's intelligence as the defender's capability when a light-speed sweep arrives divided by its capability when last observed, $2d$ years earlier."
+cite = []
+digest = "a8399ebe2b190ffd"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Capability Ratio under Exponential Growth"
+gloss = "Assuming the defender grows exponentially at a constant rate $r$, the ratio of actual to estimated capability over the $2d$ gap is $e^{2rd}$."
+cite = []
+digest = "154fc12273702c7f"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Growth Asymmetry Ratio"
+gloss = "Assuming two civilisations grow exponentially at rates $r_A$ and $r_B$, the article defines the instability ratio over the $2d$ offensive gap as the exponential of the rate difference times $2d$."
+cite = []
+digest = "f5f98ee68f092d9d"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Galaxy Two-Point Correlation Function"
+gloss = "The excess probability of finding a galaxy at separation $r$ from another follows a power law with correlation length $r_0$ and slope $\\gamma$."
+cite = []
+digest = "e64329a1f1d9b1a0"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Sedov-Taylor Blast Wave Radius"
+gloss = "The radius of a strong explosion expanding self-similarly into a uniform medium grows as the fifth root of energy over density and the two fifths power of time."
+cite = []
+digest = "7d57b44deab083ea"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Solution of Exponential Growth"
+gloss = "The exponential growth equation is solved by the initial capability multiplied by $e^{rt}$."
+cite = []
+digest = "f8875dbecace01ac"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Solution of Logistic Growth"
+gloss = "The logistic equation is solved by an S-shaped curve that rises from $N_0$ and approaches the carrying capacity $K$."
+cite = []
+digest = "8c1cea330b34e6c0"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Growth Asymmetry Ratio Restated"
+gloss = "The instability ratio of the article's exponential growth model is restated in the consolidated summary, with the faster grower dominating when $(r_A - r_B) \\cdot 2d$ is much greater than one."
+cite = []
+digest = "f5f98ee68f092d9d"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Strategic Capability Restated"
+gloss = "The article's product of mobilisation fraction, extraction efficiency and supermassive black hole mass energy is restated in the consolidated summary on the assumption of comparable efficiency and fraction across civilisations."
+cite = ["ref_kerr"]
+digest = "71f6b11531004449"
+
+[[symbol]]
+tex = 'S'
+meaning = "the strategic capability of a supermassive black hole system"
+
+[[symbol]]
+tex = 'f'
+meaning = "the mobilisation fraction, the share of extracted energy directed to a strategic objective"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the extraction efficiency, at most about 0.29 for an extreme Kerr black hole"
+
+[[symbol]]
+tex = 'M_{\text{SMBH}}'
+meaning = "the mass of the supermassive black hole"
+
+[[symbol]]
+tex = 'R'
+meaning = "a ratio of capabilities across the $2d$ gap, or the blast wave radius in the Sedov-Taylor solution"
+
+[[symbol]]
+tex = 'r_u'
+meaning = "the unconstrained growth rate of a defector, with $r_c$ the growth rate consistent with concealment"
+
+[[symbol]]
+tex = 'd'
+meaning = "the one-way light travel time between two civilisations, in years"
+
+[[symbol]]
+tex = 'N'
+meaning = "the capability level of a civilisation"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the initial capability"
+
+[[symbol]]
+tex = 'r'
+meaning = "the intrinsic growth rate"
+
+[[symbol]]
+tex = 'K'
+meaning = "the carrying capacity of the resource base"
+
+[[symbol]]
+tex = 'k'
+meaning = "the coefficient of hyperbolic growth"
+
+[[symbol]]
+tex = 'N_D'
+meaning = "the defender's capability"
+
+[[symbol]]
+tex = 'r_A'
+meaning = "the growth rate of civilisation A, with $r_B$ that of civilisation B"
+
+[[symbol]]
+tex = '\xi(r)'
+meaning = "the galaxy two-point correlation function at separation $r$"
+
+[[symbol]]
+tex = 'r_0'
+meaning = "the correlation length, about $5 \\, h^{-1}$ megaparsecs"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the power-law slope of the correlation function, about 1.8"
+
+[[symbol]]
+tex = 'E'
+meaning = "the energy of the explosion"
+
+[[symbol]]
+tex = '\rho_0'
+meaning = "the ambient density"

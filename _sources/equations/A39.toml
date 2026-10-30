@@ -1,0 +1,23 @@
+# Equation classification for A39. Read by `python3 _lib/equations.py`.
+
+caution = "All lengths are dimensionless and measured in the unit grid of N-dimensional simplex noise, in which the simplex edge length depends on the dimension N."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Kernel Summation Radius of Simplex Noise"
+gloss = "The height of a regular N-simplex is its edge length multiplied by $\\sqrt{(N+1)/2N}$, so with the simplex noise edge length $\\sqrt{N/(N+1)}$ the dimension cancels and the kernel radius is $\\sqrt{1/2}$ for every $N$."
+cite = []
+digest = "f48c3abcdd99ac77"
+
+[[symbol]]
+tex = 'r'
+meaning = "the kernel summation radius of simplex noise"
+
+[[symbol]]
+tex = 'h'
+meaning = "the height of the N-simplex"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of dimensions"

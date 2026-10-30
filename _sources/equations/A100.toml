@@ -1,0 +1,99 @@
+# Equation classification for A100. Read by `python3 _lib/equations.py`.
+
+caution = "Power is in watts, growth rates are fractions per year so that times come out in years, and the Kardashev rating $K$ is a dimensionless logarithmic index rather than a power."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Sagan's Continuous Kardashev Scale"
+gloss = "Sagan's logarithmic extension rates a civilisation by its power consumption in watts so that $10^{16}$, $10^{26}$ and $10^{36}$ watts give Types I, II and III."
+cite = ["ref_kardashev"]
+digest = "c6a45f40b84b3eb0"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Time to Type I at Sustained Current Growth"
+gloss = "Assuming the present global energy growth rate of about 2.3 percent per year persists indefinitely, the time to grow from $1.8 \\times 10^{13}$ to $10^{16}$ watts is about 275 years."
+cite = []
+digest = "f158bb5ae081db65"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Time from Type I to Type II at Sustained Growth"
+gloss = "Assuming exponential growth in energy production at 2.3 percent per year sustained over a millennium, the factor of $10^{10}$ from Type I to Type II takes about 1,000 years."
+cite = []
+digest = "d448759d941cddb9"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Speed of a Colonisation Wave"
+gloss = "In the Armstrong and Sandberg wave model each probe crosses the distance to the next star and then replicates, so the wave advances one stellar spacing per transit and replication time."
+cite = ["research_eternity"]
+digest = "c95d1e88888f7e6e"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Governance Coherence Decay"
+gloss = "The series defines a governance coherence half-life and assumes that coherence between separated governance nodes halves over each such interval."
+cite = ["related_post_crypto_space"]
+digest = "2fa72b16cf42eb59"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Kinetic Energy of a Colonisation Payload"
+gloss = "The Newtonian kinetic energy is evaluated for a payload the article assumes to be $10^6$ kilograms at one tenth of the speed of light, giving about $4.5 \\times 10^{20}$ joules."
+cite = []
+digest = "edab0ce86388d572"
+
+[[symbol]]
+tex = 'K'
+meaning = "the Kardashev rating on Sagan's continuous scale"
+
+[[symbol]]
+tex = 'P'
+meaning = "the power consumption, in watts"
+
+[[symbol]]
+tex = 'P_{I}'
+meaning = "the power of a Type I civilisation, $10^{16}$ watts"
+
+[[symbol]]
+tex = 'P_0'
+meaning = "the present power consumption of humanity, about $1.8 \\times 10^{13}$ watts"
+
+[[symbol]]
+tex = 'r'
+meaning = "the annual growth rate of energy consumption"
+
+[[symbol]]
+tex = 'v_{\text{wave}}'
+meaning = "the effective speed of the colonisation wave"
+
+[[symbol]]
+tex = 'd'
+meaning = "the average distance between target stars"
+
+[[symbol]]
+tex = 't_{\text{transit}}'
+meaning = "the time for a probe to reach the next star"
+
+[[symbol]]
+tex = 't_{\text{rep}}'
+meaning = "the time for a probe to replicate"
+
+[[symbol]]
+tex = 'C(t)'
+meaning = "the governance coherence at time $t$, with $C_0$ its initial value"
+
+[[symbol]]
+tex = 'T_{GCH}'
+meaning = "the governance coherence half-life"
+
+[[symbol]]
+tex = 'E_k'
+meaning = "the kinetic energy of the payload"

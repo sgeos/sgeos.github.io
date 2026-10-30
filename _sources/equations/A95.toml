@@ -1,0 +1,91 @@
+# Equation classification for A95. Read by `python3 _lib/equations.py`.
+
+caution = "Probabilities are dimensionless, durations in the hard steps model are in years, and the Drake equation yields a count of civilisations because its star formation rate per year multiplies a lifetime in years."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Compound Survival Probability of Independent Events"
+gloss = "The probability that a lineage survives every one of $n$ independent extinction events is the product of its survival probabilities for each event."
+cite = []
+digest = "a3d2e4f6da9965e4"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Survival of Five Mass Extinctions at Even Odds"
+gloss = "Assuming a survival probability of one half for each of the five major extinctions gives a compound survival probability of about three percent."
+cite = []
+digest = "06b392f54acd540a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Hard Steps Probability"
+gloss = "When each of $k$ independent hard steps has an expected completion time much longer than the habitable window $T$, the probability of completing all of them in time is approximately the product of the ratios $T/\\tau_i$."
+cite = []
+digest = "afe82b12fcc29a10"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Hard Steps Probability for Six Steps on Earth"
+gloss = "Assuming six hard steps, each with an expected completion time of $10^{10}$ years, in a habitable window of $5 \\times 10^9$ years gives a compound probability of about 1.6 percent."
+cite = []
+digest = "4f76de6838b75a29"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Drake Equation"
+gloss = "The number of detectable civilisations in the galaxy is the rate of star formation multiplied by a chain of fractions and by the average detectable lifetime of a civilisation."
+cite = []
+digest = "45dfd2d324d5efb0"
+
+[[symbol]]
+tex = 'P_{survive}'
+meaning = "the compound probability that the lineage survives all extinction events"
+
+[[symbol]]
+tex = 'P_i'
+meaning = "the probability that the ancestral lineage survives extinction event $i$"
+
+[[symbol]]
+tex = 'P(k, T)'
+meaning = "the probability of completing $k$ hard steps within a habitable window of duration $T$"
+
+[[symbol]]
+tex = '\tau_i'
+meaning = "the expected completion time of hard step $i$, in years"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of detectable civilisations in the galaxy"
+
+[[symbol]]
+tex = 'R_*'
+meaning = "the average rate of star formation in the galaxy, per year"
+
+[[symbol]]
+tex = 'f_p'
+meaning = "the fraction of stars with planetary systems"
+
+[[symbol]]
+tex = 'n_e'
+meaning = "the average number of planets per system that can potentially support life"
+
+[[symbol]]
+tex = 'f_l'
+meaning = "the fraction of those planets where life develops"
+
+[[symbol]]
+tex = 'f_i'
+meaning = "the fraction of life-bearing planets where intelligent life evolves"
+
+[[symbol]]
+tex = 'f_c'
+meaning = "the fraction of intelligent civilisations that develop detectable technology"
+
+[[symbol]]
+tex = 'L'
+meaning = "the average duration in years that a civilisation remains detectable"

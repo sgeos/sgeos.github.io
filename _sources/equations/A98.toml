@@ -1,0 +1,139 @@
+# Equation classification for A98. Read by `python3 _lib/equations.py`.
+
+caution = "Distances between galaxies are stated as one-way light travel times $d$ in years, so a delay of $d$ years and a distance of $d$ light-years are the same number, and energies are in joules with temperatures in kelvin."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Drake Equation"
+gloss = "The number of communicating civilisations in the galaxy is the rate of star formation multiplied by a chain of fractions and by the average lifetime of a technological civilisation."
+cite = []
+digest = "45dfd2d324d5efb0"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Carnot Efficiency of a Matrioshka Brain Radiating at the Microwave Background"
+gloss = "The Carnot efficiency is evaluated under the article's limiting assumption that the outermost shell radiates at the 2.725 kelvin temperature of the cosmic microwave background while the hot reservoir is the stellar surface."
+cite = []
+digest = "a313596f9722b5f1"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Landauer Limit"
+gloss = "Erasing one bit of information dissipates at least $k_B T \\ln 2$ of energy into a reservoir at temperature $T$."
+cite = []
+digest = "04f78fcf2332e18e"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Warning Window of a Light-Speed Sweep"
+gloss = "Assuming a sterilisation sweep launched at the speed of light after a preparation phase of $P$ years, the target sees the preparations $d$ years after they begin and the sweep at $d + P$, so its warning equals the preparation time."
+cite = []
+digest = "7d1dce5d9fa65d53"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Extractable Rotational Energy of a Kerr Black Hole"
+gloss = "The rotational energy that can be extracted from a Kerr black hole is its mass energy less its irreducible mass energy, a function of the dimensionless spin $a_*$."
+cite = []
+digest = "6ffe10e3b04484ce"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Extractable Energy of a Maximally Spinning Black Hole"
+gloss = "At spin $a_* = 1$ the extractable fraction reaches $1 - 1/\\sqrt{2}$, about 29 percent of the mass energy."
+cite = []
+digest = "c452c9cbfd2af467"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Blandford-Znajek Jet Power Scaling"
+gloss = "The jet power of the Blandford-Znajek mechanism scales with the squares of the spin, the horizon magnetic field and the black hole mass."
+cite = []
+digest = "6a8859e1c90dac9c"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Offensive Extrapolation Gap"
+gloss = "Assuming an attack at the speed of light launched on observations already $d$ years old, the attacker must extrapolate the target's development over $d$ years of observation delay and $d$ years of transit."
+cite = []
+digest = "cd6bd5b02cd25e93"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Defensive Advantage"
+gloss = "Under the same light-speed attack model, the attack is designed against a target state $d$ years older than the one it meets, so the defender gains $d$ years of unobserved development."
+cite = []
+digest = "a35e41cc5ac7fce7"
+
+[[symbol]]
+tex = 'N'
+meaning = "the number of communicating civilisations in the galaxy"
+
+[[symbol]]
+tex = 'R_*'
+meaning = "the average rate of star formation in the galaxy, in stars per year"
+
+[[symbol]]
+tex = 'f_p'
+meaning = "the fraction of stars that form planetary systems"
+
+[[symbol]]
+tex = 'n_e'
+meaning = "the number of planets per system capable of supporting life"
+
+[[symbol]]
+tex = 'f_l'
+meaning = "the fraction of those planets where life develops"
+
+[[symbol]]
+tex = 'f_i'
+meaning = "the fraction of life-bearing planets where intelligence evolves"
+
+[[symbol]]
+tex = 'f_c'
+meaning = "the fraction of intelligent species that develop detectable technology"
+
+[[symbol]]
+tex = 'L'
+meaning = "the average lifetime of a technological civilisation, in years"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the thermodynamic efficiency"
+
+[[symbol]]
+tex = 'T_{star}'
+meaning = "the temperature of the star, the hot reservoir"
+
+[[symbol]]
+tex = 'k_B'
+meaning = "the Boltzmann constant, $1.381 \\times 10^{-23}$ joules per kelvin"
+
+[[symbol]]
+tex = 'P'
+meaning = "the duration of the preparation phase, in years"
+
+[[symbol]]
+tex = 'M_{\text{BH}}'
+meaning = "the mass of the black hole"
+
+[[symbol]]
+tex = 'a_*'
+meaning = "the dimensionless spin parameter of the black hole"
+
+[[symbol]]
+tex = 'B'
+meaning = "the magnetic field strength at the horizon"
+
+[[symbol]]
+tex = 'd'
+meaning = "the one-way light travel time between two galaxies, in years"

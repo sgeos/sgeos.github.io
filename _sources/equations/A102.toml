@@ -1,0 +1,71 @@
+# Equation classification for A102. Read by `python3 _lib/equations.py`.
+
+caution = "Times are in years and distances in light-years, so a speed $v$ is a fraction of the speed of light when $d/v$ is read in years, while the kinetic energy takes kilograms and metres per second and gives joules."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Geometric Growth of a Replicating Population"
+gloss = "If each probe produces $k$ copies every replication cycle of duration $\\tau$, the population multiplies by $k$ once per cycle."
+cite = []
+digest = "dbda31b2d5778f2d"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Doubling Time of Geometric Growth"
+gloss = "The doubling time of a population that multiplies by $k$ every $\\tau$ years is $\\tau$ multiplied by $\\ln 2 / \\ln k$."
+cite = []
+digest = "8ca8032024bdf8e9"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Speed of a Colonisation Wave with Hop Transit"
+gloss = "Writing the transit time of the wave model as the hop distance over the probe speed, the wave advances one hop per transit and replication time and so moves slower than the probes."
+cite = []
+digest = "783e1a3500ba6173"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Newtonian Kinetic Energy"
+gloss = "The kinetic energy needed to accelerate a probe of mass $m$ to speed $v$ is $\\frac{1}{2}mv^2$, adequate at the speeds of one hundredth to one tenth of light considered."
+cite = []
+digest = "21e20f72d415a518"
+
+[[symbol]]
+tex = 'N(t)'
+meaning = "the number of active probes at time $t$"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the initial number of probes"
+
+[[symbol]]
+tex = 'k'
+meaning = "the number of copies each probe produces per replication cycle"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the duration of a replication cycle, in years"
+
+[[symbol]]
+tex = 't_d'
+meaning = "the doubling time of the probe population"
+
+[[symbol]]
+tex = 'v_{\text{wave}}'
+meaning = "the effective speed of the colonisation wave"
+
+[[symbol]]
+tex = 'd'
+meaning = "the interstellar hop distance"
+
+[[symbol]]
+tex = 'v'
+meaning = "the cruise speed of a probe"
+
+[[symbol]]
+tex = 'm'
+meaning = "the mass of the probe"
