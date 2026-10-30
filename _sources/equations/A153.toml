@@ -1,0 +1,163 @@
+# Equation classification for A153. Read by `python3 _lib/equations.py`.
+
+caution = "Power is in watts and energy in watt-hours or kilowatt-hours, so a load in watts multiplied by a duration in hours gives watt-hours, irradiance is in kilowatt-hours per square metre per day, and efficiencies, depth of discharge and capacity factor are dimensionless fractions."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Usable Storage Energy for a Dark Period"
+gloss = "The usable energy the battery bank must hold is the continuous load multiplied by the worst-case dark period."
+cite = []
+digest = "187cb907a221df4f"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Nameplate Battery Capacity"
+gloss = "The nameplate capacity is the usable energy divided by the permitted depth of discharge and the round-trip system efficiency."
+cite = []
+digest = "3671868da6b723ee"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Nameplate Capacity for a Two-Kilowatt Habitat"
+gloss = "The nameplate capacity is evaluated for an assumed habitat of two kilowatts continuous load over a twelve-hour dark period, with an assumed eighty percent depth of discharge and ninety percent round-trip efficiency."
+cite = []
+digest = "dc43bb9f74cc76c1"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Round-Trip Efficiency of a Conversion Cascade"
+gloss = "The round-trip efficiency is the product of the charge controller, battery, discharge and inverter efficiencies along the cascade."
+cite = []
+digest = "1733c6c409273dce"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Conductor Current at a Bus Voltage"
+gloss = "The current a conductor carries is the transmitted power divided by the bus voltage."
+cite = []
+digest = "9ec3a24fb316d514"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Photovoltaic Array Area"
+gloss = "The required array area is the daily energy demand divided by the site irradiance, the conversion efficiency and the combined capacity factor."
+cite = []
+digest = "daefdde9364e6141"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Array Area for a Two-Kilowatt Habitat"
+gloss = "The array area is evaluated for an assumed daily demand of forty-eight kilowatt-hours at a representative irradiance of five and a half kilowatt-hours per square metre per day, with an assumed panel efficiency of twenty-one percent and a capacity factor of seventy-five percent."
+cite = []
+digest = "48da8928fee501d5"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Temperature Derating of Photovoltaic Output"
+gloss = "Panel output falls linearly from its standard test condition rating by the datasheet temperature coefficient for each degree of cell temperature above twenty-five degrees Celsius."
+cite = []
+digest = "1cde88c5e52ecae9"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Generator Fuel Consumption"
+gloss = "The fuel mass consumed is the electrical energy delivered divided by the engine-generator efficiency and the lower heating value of the fuel."
+cite = []
+digest = "87fa5f658f6b4720"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Round-Trip Conductor Voltage Drop"
+gloss = "The voltage drop across a circuit is twice the product of current, resistance per unit length and conductor length, counting both source and return conductors."
+cite = []
+digest = "32ae8a37e4cd483f"
+
+[[symbol]]
+tex = 'E_{usable}'
+meaning = "the usable energy the battery bank must store"
+
+[[symbol]]
+tex = 'E_{nameplate}'
+meaning = "the nameplate battery capacity"
+
+[[symbol]]
+tex = 'P_{load}'
+meaning = "the continuous load"
+
+[[symbol]]
+tex = 't_{dark}'
+meaning = "the worst-case dark period"
+
+[[symbol]]
+tex = 'DoD'
+meaning = "the permitted depth of discharge as a fraction of nameplate capacity"
+
+[[symbol]]
+tex = '\eta_{system}'
+meaning = "the round-trip system efficiency"
+
+[[symbol]]
+tex = 'I'
+meaning = "the conductor current"
+
+[[symbol]]
+tex = 'V'
+meaning = "the bus voltage"
+
+[[symbol]]
+tex = 'A_{PV}'
+meaning = "the required photovoltaic array area"
+
+[[symbol]]
+tex = 'E_{daily}'
+meaning = "the daily energy demand"
+
+[[symbol]]
+tex = 'G_{site}'
+meaning = "the average daily site irradiance"
+
+[[symbol]]
+tex = '\eta_{PV}'
+meaning = "the photovoltaic conversion efficiency"
+
+[[symbol]]
+tex = 'CF'
+meaning = "the combined capacity factor for soiling, temperature, wiring and seasonal variation"
+
+[[symbol]]
+tex = 'P_{STC}'
+meaning = "the panel output at standard test conditions"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the panel temperature coefficient, typically minus 0.3 to minus 0.4 percent per degree Celsius"
+
+[[symbol]]
+tex = 'm_{fuel}'
+meaning = "the consumed fuel mass"
+
+[[symbol]]
+tex = '\eta_{gen}'
+meaning = "the end-to-end engine-generator efficiency"
+
+[[symbol]]
+tex = 'LHV'
+meaning = "the lower heating value of the fuel in joules per kilogram"
+
+[[symbol]]
+tex = 'V_{drop}'
+meaning = "the voltage drop across the round-trip conductor"
+
+[[symbol]]
+tex = 'r'
+meaning = "the conductor resistance per unit length"

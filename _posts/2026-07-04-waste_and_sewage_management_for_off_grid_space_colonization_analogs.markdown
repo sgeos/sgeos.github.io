@@ -163,7 +163,10 @@ of waste stream $i$
 in kilograms per crew per day.
 The aggregate waste production rate is
 
-$$ \dot{m}_{total} = N_{crew} \cdot \sum_i \dot{m}_{waste,i} $$
+$$
+ \dot{m}_{total} = N_{crew} \cdot \sum_i \dot{m}_{waste,i} 
+\tag{1}
+$$
 
 across all waste streams the crew produces.
 
@@ -206,7 +209,10 @@ introduce
 applies symmetrically
 to the waste system
 
-$$ C_{waste} = \frac{m_{recovered}}{m_{produced}} $$
+$$
+ C_{waste} = \frac{m_{recovered}}{m_{produced}} 
+\tag{2}
+$$
 
 where the recovered mass
 returns to the input streams
@@ -231,7 +237,10 @@ the storage density of treated waste
 in kilograms per cubic metre.
 The storage volume is
 
-$$ V_{storage} = \frac{\dot{m}_{total} \cdot T_{disposition} \cdot (1 - C_{waste}) \cdot \sigma}{\rho_{waste}} $$
+$$
+ V_{storage} = \frac{\dot{m}_{total} \cdot T_{disposition} \cdot (1 - C_{waste}) \cdot \sigma}{\rho_{waste}} 
+\tag{3}
+$$
 
 where $\sigma$
 is the dimensionless safety factor
@@ -246,7 +255,10 @@ of compacted treated waste density
 under a safety factor of one point five,
 the storage volume is
 
-$$ V_{storage} = \frac{20 \cdot 180 \cdot 0.5 \cdot 1.5}{500} \approx 5.4 \text{ m}^3 $$
+$$
+ V_{storage} = \frac{20 \cdot 180 \cdot 0.5 \cdot 1.5}{500} \approx 5.4 \text{ m}^3 
+\tag{4}
+$$
 
 which is the order-of-magnitude
 that the analog facility
@@ -257,7 +269,10 @@ for waste storage.
 The disposition mass flux
 follows from the unrecovered waste mass
 
-$$ \dot{m}_{disposition} = \dot{m}_{total} \cdot (1 - C_{waste}) $$
+$$
+ \dot{m}_{disposition} = \dot{m}_{total} \cdot (1 - C_{waste}) 
+\tag{5}
+$$
 
 which for the worked example
 is ten kilograms per day
@@ -268,7 +283,10 @@ The integrated mass
 across the six-month interval
 is
 
-$$ M_{interval} = \dot{m}_{disposition} \cdot T_{disposition} = 10 \cdot 180 = 1{,}800 \text{ kg} $$
+$$
+ M_{interval} = \dot{m}_{disposition} \cdot T_{disposition} = 10 \cdot 180 = 1{,}800 \text{ kg} 
+\tag{6}
+$$
 
 which the resupply vehicle
 or the in-situ disposition pathway
@@ -476,7 +494,10 @@ that the closed-system case requires.
 The incinerator residue mass fraction
 is
 
-$$ f_{residue} = \frac{m_{ash}}{m_{input}} \approx 0.05 \text{ to } 0.10 $$
+$$
+ f_{residue} = \frac{m_{ash}}{m_{input}} \approx 0.05 \text{ to } 0.10 
+\tag{7}
+$$
 
 for dry organic input,
 yielding stable ash residue
@@ -511,7 +532,10 @@ at much lower volume cost.
 The compaction ratio
 is defined as
 
-$$ R_{compact} = \frac{V_{input}}{V_{output}} $$
+$$
+ R_{compact} = \frac{V_{input}}{V_{output}} 
+\tag{8}
+$$
 
 and typically falls
 in the range of three to ten
@@ -728,7 +752,10 @@ The lithium hydroxide canister
 absorbs carbon dioxide
 through the irreversible chemical reaction
 
-$$ 2 \mathrm{LiOH} + \mathrm{CO}_2 \rightarrow \mathrm{Li}_2\mathrm{CO}_3 + \mathrm{H}_2\mathrm{O} $$
+$$
+ 2 \mathrm{LiOH} + \mathrm{CO}_2 \rightarrow \mathrm{Li}_2\mathrm{CO}_3 + \mathrm{H}_2\mathrm{O} 
+\tag{9}
+$$
 
 into solid lithium carbonate
 within a one-time-use canister.
@@ -737,7 +764,10 @@ of lithium hydroxide consumed
 to carbon dioxide absorbed
 is
 
-$$ \frac{m_{LiOH}}{m_{CO_2}} = \frac{2 \cdot 23.95}{44.01} \approx 1.09 $$
+$$
+ \frac{m_{LiOH}}{m_{CO_2}} = \frac{2 \cdot 23.95}{44.01} \approx 1.09 
+\tag{10}
+$$
 
 so each kilogram of carbon dioxide removed
 requires approximately one point one kilograms of lithium hydroxide
@@ -756,7 +786,10 @@ under per-crew carbon dioxide production $\dot{m}\_{CO_2}$
 and utilisation efficiency $\eta_{LiOH}$
 is
 
-$$ M_{LiOH} = \frac{1.09 \cdot N_{crew} \cdot \dot{m}_{CO_2} \cdot T_{mission}}{\eta_{LiOH}} $$
+$$
+ M_{LiOH} = \frac{1.09 \cdot N_{crew} \cdot \dot{m}_{CO_2} \cdot T_{mission}}{\eta_{LiOH}} 
+\tag{11}
+$$
 
 A four-crew thirty-day lunar mission
 at one kilogram carbon dioxide per crew per day
@@ -813,7 +846,10 @@ with hydrogen
 from water electrolysis
 through the catalytic reaction
 
-$$ \mathrm{CO}_2 + 4 \mathrm{H}_2 \rightarrow \mathrm{CH}_4 + 2 \mathrm{H}_2\mathrm{O} $$
+$$
+ \mathrm{CO}_2 + 4 \mathrm{H}_2 \rightarrow \mathrm{CH}_4 + 2 \mathrm{H}_2\mathrm{O} 
+\tag{12}
+$$
 
 producing methane and water.
 The methane
@@ -833,7 +869,10 @@ The Bosch reactor
 combines carbon dioxide and hydrogen
 through a different catalytic pathway
 
-$$ \mathrm{CO}_2 + 2 \mathrm{H}_2 \rightarrow \mathrm{C} + 2 \mathrm{H}_2\mathrm{O} $$
+$$
+ \mathrm{CO}_2 + 2 \mathrm{H}_2 \rightarrow \mathrm{C} + 2 \mathrm{H}_2\mathrm{O} 
+\tag{13}
+$$
 
 producing elemental carbon plus water.
 The carbon residue
@@ -875,7 +914,10 @@ in series with the cabin ventilation flow.
 The filter removal efficiency
 is defined as
 
-$$ \eta_{filter} = 1 - \frac{C_{out}}{C_{in}} $$
+$$
+ \eta_{filter} = 1 - \frac{C_{out}}{C_{in}} 
+\tag{14}
+$$
 
 where $C_{in}$ and $C_{out}$
 are the particulate concentrations
@@ -923,7 +965,10 @@ until the disposition event removes it.
 The storage volume requirement
 scales linearly with mission duration
 
-$$ V_{storage} = \frac{\dot{m}_{total} \cdot T_{mission}}{\rho_{waste}} $$
+$$
+ V_{storage} = \frac{\dot{m}_{total} \cdot T_{mission}}{\rho_{waste}} 
+\tag{15}
+$$
 
 which the architecture
 accepts without compaction or treatment
@@ -1453,6 +1498,159 @@ will treat
 the remaining subsystems
 of the nine-subsystem stack
 that the survey opener identified.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 15 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 15, 13 are established and 2 are bespoke.
+Waste rates are in kilograms per day, intervals in days, storage density in kilograms per cubic metre and storage volume in cubic metres, while closure ratios, residue fractions, compaction ratios and efficiencies are dimensionless.
+
+**Equation 1, Aggregate Waste Production Rate.**
+The aggregate waste rate is the crew complement times the sum of the per-crew daily production rates of every waste stream.
+
+$$
+ \dot{m}_{total} = N_{crew} \cdot \sum_i \dot{m}_{waste,i} 
+\tag{1}
+$$
+
+**Equation 2, Waste Closure Ratio.**
+The waste closure ratio is the mass recovered back into the input streams as a fraction of the mass produced.
+[food production article][related_post_food]
+
+$$
+ C_{waste} = \frac{m_{recovered}}{m_{produced}} 
+\tag{2}
+$$
+
+**Equation 3, Waste Storage Volume.**
+The storage volume is the unrecovered waste mass accumulated over a disposition interval, multiplied by a safety factor and divided by the storage density of treated waste.
+
+$$
+ V_{storage} = \frac{\dot{m}_{total} \cdot T_{disposition} \cdot (1 - C_{waste}) \cdot \sigma}{\rho_{waste}} 
+\tag{3}
+$$
+
+*Equation 4, Bespoke Storage Volume for a Four-Crew Habitat.*
+The storage volume is evaluated for an assumed habitat producing twenty kilograms of waste per day at an assumed fifty percent closure over a six-month cadence, with an assumed compacted density of five hundred kilograms per cubic metre and a safety factor of one and a half.
+
+$$
+ V_{storage} = \frac{20 \cdot 180 \cdot 0.5 \cdot 1.5}{500} \approx 5.4 \text{ m}^3 
+\tag{4}
+$$
+
+**Equation 5, Disposition Mass Flux.**
+The waste mass that must leave the envelope each day is the aggregate production rate times the unrecovered fraction.
+
+$$
+ \dot{m}_{disposition} = \dot{m}_{total} \cdot (1 - C_{waste}) 
+\tag{5}
+$$
+
+*Equation 6, Bespoke Disposition Mass over a Six-Month Interval.*
+The disposition flux of the assumed example, ten kilograms per day, is integrated over an assumed one hundred and eighty day interval.
+
+$$
+ M_{interval} = \dot{m}_{disposition} \cdot T_{disposition} = 10 \cdot 180 = 1{,}800 \text{ kg} 
+\tag{6}
+$$
+
+**Equation 7, Incinerator Residue Mass Fraction.**
+The residue fraction is the ash mass as a fraction of the input mass, about five to ten percent for dry organic input.
+
+$$
+ f_{residue} = \frac{m_{ash}}{m_{input}} \approx 0.05 \text{ to } 0.10 
+\tag{7}
+$$
+
+**Equation 8, Compaction Ratio.**
+The compaction ratio is the input volume divided by the compacted output volume.
+
+$$
+ R_{compact} = \frac{V_{input}}{V_{output}} 
+\tag{8}
+$$
+
+**Equation 9, Lithium Hydroxide Carbon Dioxide Absorption.**
+Two moles of lithium hydroxide absorb one mole of carbon dioxide irreversibly to form lithium carbonate and water.
+
+$$
+ 2 \mathrm{LiOH} + \mathrm{CO}_2 \rightarrow \mathrm{Li}_2\mathrm{CO}_3 + \mathrm{H}_2\mathrm{O} 
+\tag{9}
+$$
+
+**Equation 10, Stoichiometric Lithium Hydroxide to Carbon Dioxide Mass Ratio.**
+The molar masses fix about 1.09 kilograms of lithium hydroxide per kilogram of carbon dioxide under perfect utilisation.
+
+$$
+ \frac{m_{LiOH}}{m_{CO_2}} = \frac{2 \cdot 23.95}{44.01} \approx 1.09 
+\tag{10}
+$$
+
+**Equation 11, Lithium Hydroxide Mass for a Mission.**
+The lithium hydroxide a mission requires is the stoichiometric ratio times the crew carbon dioxide output over the mission, divided by the utilisation efficiency.
+
+$$
+ M_{LiOH} = \frac{1.09 \cdot N_{crew} \cdot \dot{m}_{CO_2} \cdot T_{mission}}{\eta_{LiOH}} 
+\tag{11}
+$$
+
+**Equation 12, Sabatier Reaction.**
+Carbon dioxide and four moles of hydrogen react over a catalyst to yield methane and two moles of water.
+[ISS Sabatier reactor][ref_sabatier]
+
+$$
+ \mathrm{CO}_2 + 4 \mathrm{H}_2 \rightarrow \mathrm{CH}_4 + 2 \mathrm{H}_2\mathrm{O} 
+\tag{12}
+$$
+
+**Equation 13, Bosch Reaction.**
+Carbon dioxide and two moles of hydrogen react over a catalyst to yield solid carbon and two moles of water.
+
+$$
+ \mathrm{CO}_2 + 2 \mathrm{H}_2 \rightarrow \mathrm{C} + 2 \mathrm{H}_2\mathrm{O} 
+\tag{13}
+$$
+
+**Equation 14, Filter Removal Efficiency.**
+The removal efficiency of a filter is one less the ratio of outlet to inlet particulate concentration.
+
+$$
+ \eta_{filter} = 1 - \frac{C_{out}}{C_{in}} 
+\tag{14}
+$$
+
+**Equation 15, Untreated Storage Volume over a Mission.**
+Without treatment or recovery the storage volume grows linearly with mission duration at the storage density of raw waste.
+
+$$
+ V_{storage} = \frac{\dot{m}_{total} \cdot T_{mission}}{\rho_{waste}} 
+\tag{15}
+$$
+
+### Notation
+
+- $\dot{m}_{total}$, the aggregate waste production rate
+- $N_{crew}$, the crew complement
+- $\dot{m}_{waste,i}$, the per-crew per-day production rate of waste stream $i$ in kilograms per crew per day
+- $C_{waste}$, the waste closure ratio
+- $V_{storage}$, the waste storage volume
+- $T_{disposition}$, the interval between disposition events in days
+- $\sigma$, the dimensionless safety factor, typically 1.5 to 2
+- $\rho_{waste}$, the storage density of treated waste in kilograms per cubic metre
+- $f_{residue}$, the incinerator residue mass fraction
+- $R_{compact}$, the compaction ratio
+- $M_{LiOH}$, the lithium hydroxide mass for the mission
+- $\dot{m}_{CO_2}$, the per-crew carbon dioxide production rate
+- $\eta_{LiOH}$, the lithium hydroxide utilisation efficiency
+- $T_{mission}$, the mission duration
+- $\eta_{filter}$, the filter removal efficiency
+- $C_{in}$, the particulate concentration at the filter inlet
+- $C_{out}$, the particulate concentration at the filter outlet
 
 ## References
 

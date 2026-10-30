@@ -1,0 +1,23 @@
+# Equation classification for A131. Read by `python3 _lib/equations.py`.
+
+caution = "Kinetic energy is in joules when mass is in kilograms and speed in metres per second, and regulatory impact thresholds stated in other units must be converted before comparison."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Kinetic Energy at Impact"
+gloss = "The kinetic energy of the aircraft, half the mass times the square of the speed, measures the severity of a ground impact."
+cite = ["ref_kinetic_energy"]
+digest = "3df654874737d52b"
+
+[[symbol]]
+tex = 'E_k'
+meaning = "the kinetic energy"
+
+[[symbol]]
+tex = 'm'
+meaning = "the aircraft mass"
+
+[[symbol]]
+tex = 'v'
+meaning = "the speed at impact"

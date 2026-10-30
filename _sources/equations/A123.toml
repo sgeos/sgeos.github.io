@@ -1,0 +1,35 @@
+# Equation classification for A123. Read by `python3 _lib/equations.py`.
+
+caution = "The natural frequency is in radians per second and the damping ratio is dimensionless, so the settling time comes out in seconds, and the factor of four corresponds to settling within about two percent of the final value."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Damped Harmonic Oscillator"
+gloss = "A single disturbed motion of the aircraft is modelled by the second-order equation of a damped harmonic oscillator written in natural frequency and damping ratio."
+cite = ["ref_harmonic_oscillator"]
+digest = "8956bfd62e87b766"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Settling Time of a Second-Order Mode"
+gloss = "The time for a lightly damped second-order mode to settle is about four divided by the product of damping ratio and natural frequency."
+cite = ["ref_settling_time"]
+digest = "613449da9c03cdb4"
+
+[[symbol]]
+tex = 'x'
+meaning = "the disturbed variable of the motion"
+
+[[symbol]]
+tex = '\omega_n'
+meaning = "the natural frequency"
+
+[[symbol]]
+tex = '\zeta'
+meaning = "the damping ratio"
+
+[[symbol]]
+tex = 't_s'
+meaning = "the settling time"

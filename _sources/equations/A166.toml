@@ -1,0 +1,91 @@
+# Equation classification for A166. Read by `python3 _lib/equations.py`.
+
+caution = "Damages, costs and patent values are in millions of dollars in the worked examples, and probabilities are dimensionless numbers between zero and one."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Expected Value of Asserting a Patent"
+gloss = "The article extends the probability-weighted damages less the cost of suing by a third term, the wider threat value of the patent across the market, which is lost if the patent is invalidated."
+cite = []
+digest = "2ccad4aa48a85146"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Gain from the Example Suit"
+gloss = "The gain from suing is evaluated for an illustrative patent with assumed survival and infringement probabilities of seven and eight tenths, damages of ten and a litigation cost of two."
+cite = []
+digest = "20337d8834f15a81"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Wager Against the Wider Value"
+gloss = "The expected loss of the wider threat value is the assumed three-tenths chance of invalidation times an assumed wider value of fifty."
+cite = []
+digest = "1512751915bc942f"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Expected Value of Asserting in the Example"
+gloss = "Subtracting the wager from the gain gives the example holder an expected loss of more than eleven million from asserting the patent."
+cite = []
+digest = "2641a35d6101021c"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Settlement Range"
+gloss = "Settlement is rational for any amount between the expected merits outcome less the plaintiff's litigation cost and the expected merits outcome plus the defendant's."
+cite = ["ref_settlement", "ref_expected_value"]
+digest = "ba8645c633f72ac6"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Nuisance Value of a Patent Suit"
+gloss = "When the merits probability approaches zero the defendant's walk-away payment falls to its own cost of defence, which is the nuisance value of the suit."
+cite = []
+digest = "398230933dd6b4d0"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Settlement Range in the Worked Instance"
+gloss = "For illustrative damages of ten, a merits probability of three tenths and equal litigation costs of two, the settlement range runs from one to five, centred on three."
+cite = []
+digest = "baf8a41240f141ec"
+
+[[symbol]]
+tex = 'p_v'
+meaning = "the probability the patent survives the validity challenge"
+
+[[symbol]]
+tex = 'p_i'
+meaning = "the probability infringement is found if the patent survives"
+
+[[symbol]]
+tex = 'D'
+meaning = "the damages from the defendant, or at stake if the plaintiff wins"
+
+[[symbol]]
+tex = 'C_p'
+meaning = "the plaintiff's cost of suing and litigating to the end"
+
+[[symbol]]
+tex = 'W'
+meaning = "the wider value of the patent as a credible threat against everyone other than the defendant"
+
+[[symbol]]
+tex = 'q'
+meaning = "the probability the patent is held valid and infringed"
+
+[[symbol]]
+tex = 'C_d'
+meaning = "the defendant's cost of litigating to the end"
+
+[[symbol]]
+tex = 'S_{\text{nuisance}}'
+meaning = "the nuisance value of a patent suit"

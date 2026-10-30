@@ -1,0 +1,103 @@
+# Equation classification for A172. Read by `python3 _lib/equations.py`.
+
+caution = "Profits and values are in a common monetary unit, millions of dollars in the worked example, time is in years, and the cost of capital, erosion rate, churn and disclosure hazard are all fractions per year, which is why they add in the denominators."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Exponential Erosion of Excess Return"
+gloss = "The article models the excess return of a business as eroding exponentially at a constant competitive rate."
+cite = []
+digest = "7e9c814bb9af9f68"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Present Value of an Eroding Profit Stream"
+gloss = "Discounting the exponentially eroding profit at the cost of capital gives the worth of the business as the initial profit over the sum of the discount and erosion rates."
+cite = ["ref_present_value"]
+digest = "b1a3b0ef7947a9d0"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Fraction of the Perfect-Moat Perpetuity Retained"
+gloss = "Under the erosion model a business realises the fraction of the cost of capital over the sum of the cost of capital and the erosion rate of the perpetuity a perfect moat would earn."
+cite = []
+digest = "f3491dcc19426b9f"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Common Form of Decaying Value Streams"
+gloss = "The article sets the customer, trade secret and business valuations of the series side by side as one construction, a stream discounted at a rate plus the hazard at which it decays."
+cite = ["related_post_trade_secret"]
+digest = "0ab6c96ac6e6da58"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Metcalfe's Law"
+gloss = "Metcalfe's law holds that the value of a network rises roughly with the square of its number of users."
+cite = ["ref_metcalfe"]
+digest = "b0fb046dd3f6b8b3"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Switching Condition"
+gloss = "A customer defects only when a rival is better by more than the cost of switching."
+cite = ["ref_switching"]
+digest = "8813946e450263fb"
+
+[[symbol]]
+tex = '\pi(t)'
+meaning = "the excess return at time $t$"
+
+[[symbol]]
+tex = '\pi_0'
+meaning = "the initial excess return"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the competitive erosion rate"
+
+[[symbol]]
+tex = 'r'
+meaning = "the cost of capital, or discount rate"
+
+[[symbol]]
+tex = 'V'
+meaning = "the worth of the business"
+
+[[symbol]]
+tex = 'm'
+meaning = "the contribution margin per period of a customer"
+
+[[symbol]]
+tex = 'c'
+meaning = "the customer churn rate"
+
+[[symbol]]
+tex = 'A'
+meaning = "the yearly advantage protected by a trade secret"
+
+[[symbol]]
+tex = 'h'
+meaning = "the hazard of disclosure of a trade secret"
+
+[[symbol]]
+tex = 'V_{\text{network}}'
+meaning = "the value of a network"
+
+[[symbol]]
+tex = 'n'
+meaning = "the number of users of the network"
+
+[[symbol]]
+tex = '\Delta v'
+meaning = "the margin by which a rival is better"
+
+[[symbol]]
+tex = 's'
+meaning = "the switching cost"

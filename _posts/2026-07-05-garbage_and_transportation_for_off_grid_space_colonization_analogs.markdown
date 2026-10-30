@@ -155,7 +155,10 @@ the cargo throughput on route $j$
 in kilograms per day.
 The total throughput is
 
-$$ \dot{m}_{total} = \sum_j \dot{m}_{cargo,j} $$
+$$
+ \dot{m}_{total} = \sum_j \dot{m}_{cargo,j} 
+\tag{1}
+$$
 
 across all routes the system operates.
 
@@ -175,7 +178,10 @@ of approximately three hundred kilograms per month
 or ten kilograms per day average
 operates an aggregate throughput of
 
-$$ \dot{m}_{total} = 20 + 20 + 10 = 50 \text{ kg/day} $$
+$$
+ \dot{m}_{total} = 20 + 20 + 10 = 50 \text{ kg/day} 
+\tag{2}
+$$
 
 across the three active routes.
 
@@ -192,7 +198,10 @@ the per-vehicle payload mass.
 The minimum vehicle count
 for a given route is
 
-$$ N_{vehicles} = \frac{\dot{m}_{cargo} \cdot t_{cycle}}{m_{payload}} $$
+$$
+ N_{vehicles} = \frac{\dot{m}_{cargo} \cdot t_{cycle}}{m_{payload}} 
+\tag{3}
+$$
 
 For a one-hundred-kilometre round-trip route
 through a route covered at twenty kilometres per hour average speed
@@ -202,7 +211,10 @@ at a fifty-kilogram cargo throughput
 on a two-hundred-kilogram-payload utility vehicle
 yields
 
-$$ N_{vehicles} = \frac{50 \cdot 0.21}{200} \approx 0.05 $$
+$$
+ N_{vehicles} = \frac{50 \cdot 0.21}{200} \approx 0.05 
+\tag{4}
+$$
 
 which rounds up
 to a single vehicle
@@ -225,7 +237,10 @@ across the route.
 The rolling resistance force
 follows
 
-$$ F_{roll} = \mu_r \cdot m \cdot g $$
+$$
+ F_{roll} = \mu_r \cdot m \cdot g 
+\tag{5}
+$$
 
 where $\mu_r$
 is the dimensionless rolling resistance coefficient,
@@ -235,7 +250,10 @@ $m$ is the total vehicle mass,
 and $g$ is the local gravitational acceleration.
 The aerodynamic drag force follows
 
-$$ F_{drag} = \frac{1}{2} \cdot \rho \cdot C_d \cdot A \cdot v^2 $$
+$$
+ F_{drag} = \frac{1}{2} \cdot \rho \cdot C_d \cdot A \cdot v^2 
+\tag{6}
+$$
 
 where $\rho$ is the atmospheric density,
 $C_d$ is the dimensionless drag coefficient,
@@ -244,20 +262,29 @@ and $v$ is the vehicle velocity relative to the surrounding air.
 The gravitational work
 across an elevation change $\Delta h$ is
 
-$$ W_{grav} = m \cdot g \cdot \Delta h $$
+$$
+ W_{grav} = m \cdot g \cdot \Delta h 
+\tag{7}
+$$
 
 The total work
 across a route of length $L$
 at constant velocity $v$
 on a level surface is approximately
 
-$$ W_{total} = (F_{roll} + F_{drag}) \cdot L $$
+$$
+ W_{total} = (F_{roll} + F_{drag}) \cdot L 
+\tag{8}
+$$
 
 The instantaneous propulsion power requirement
 to maintain the velocity $v$
 against the combined resistance is
 
-$$ P_{propulsion} = (F_{roll} + F_{drag}) \cdot v $$
+$$
+ P_{propulsion} = (F_{roll} + F_{drag}) \cdot v 
+\tag{9}
+$$
 
 which sets the motor or engine sizing
 that the vehicle must deliver
@@ -274,7 +301,10 @@ through a drivetrain
 at seventy-five percent efficiency,
 the energy budget per trip is approximately
 
-$$ W_{total} \approx \frac{0.15 \cdot 1{,}000 \cdot 9.81 \cdot 100{,}000}{0.75} \approx 1.96 \times 10^{8} \text{ J} \approx 54 \text{ kWh} $$
+$$
+ W_{total} \approx \frac{0.15 \cdot 1{,}000 \cdot 9.81 \cdot 100{,}000}{0.75} \approx 1.96 \times 10^{8} \text{ J} \approx 54 \text{ kWh} 
+\tag{10}
+$$
 
 which is the order-of-magnitude
 the electric utility vehicle fleet
@@ -287,7 +317,10 @@ the
 [Tsiolkovsky rocket equation][ref_tsiolkovsky]
 for the rolling-and-drag equations
 
-$$ \Delta v = v_e \cdot \ln\left( \frac{m_0}{m_f} \right) $$
+$$
+ \Delta v = v_e \cdot \ln\left( \frac{m_0}{m_f} \right) 
+\tag{11}
+$$
 
 where $\Delta v$
 is the change in velocity the mission requires,
@@ -301,7 +334,10 @@ The exhaust velocity
 relates to the specific impulse
 through
 
-$$ v_e = I_{sp} \cdot g_0 $$
+$$
+ v_e = I_{sp} \cdot g_0 
+\tag{12}
+$$
 
 where $g_0$
 is the standard gravitational acceleration of nine point eight one metres per second squared.
@@ -312,7 +348,10 @@ of approximately three point four kilometres per second.
 The propellant mass fraction
 follows from the rearranged Tsiolkovsky equation
 
-$$ \frac{m_p}{m_0} = 1 - e^{-\Delta v / v_e} $$
+$$
+ \frac{m_p}{m_0} = 1 - e^{-\Delta v / v_e} 
+\tag{13}
+$$
 
 where $m_p = m_0 - m_f$
 is the propellant mass.
@@ -322,7 +361,10 @@ delta-v from Earth surface to low Earth orbit
 at a three point four kilometre per second exhaust velocity,
 the required propellant mass fraction is
 
-$$ \frac{m_p}{m_0} = 1 - e^{-9.4 / 3.4} \approx 0.94 $$
+$$
+ \frac{m_p}{m_0} = 1 - e^{-9.4 / 3.4} \approx 0.94 
+\tag{14}
+$$
 
 which is the operational reason
 the chemical rocket
@@ -331,7 +373,10 @@ to achieve orbit
 with non-negligible payload mass.
 The multi-stage delta-v summation is
 
-$$ \Delta v_{total} = \sum_i v_{e,i} \cdot \ln\left( \frac{m_{0,i}}{m_{f,i}} \right) $$
+$$
+ \Delta v_{total} = \sum_i v_{e,i} \cdot \ln\left( \frac{m_{0,i}}{m_{f,i}} \right) 
+\tag{15}
+$$
 
 where each stage $i$
 contributes independently
@@ -475,7 +520,10 @@ through a smooth circular pipe
 under laminar flow conditions
 follows the Hagen-Poiseuille equation
 
-$$ Q = \frac{\pi D^4 \Delta P}{128 \mu L} $$
+$$
+ Q = \frac{\pi D^4 \Delta P}{128 \mu L} 
+\tag{16}
+$$
 
 where $D$ is the pipe inside diameter,
 $\Delta P$ is the pressure drop across the pipe length $L$,
@@ -484,7 +532,10 @@ The pumping power
 to maintain the flow against the pressure drop
 is
 
-$$ P_{pump} = \frac{Q \cdot \Delta P}{\eta_{pump}} $$
+$$
+ P_{pump} = \frac{Q \cdot \Delta P}{\eta_{pump}} 
+\tag{17}
+$$
 
 The pipeline operates
 at very high throughput per unit pipe diameter
@@ -747,7 +798,10 @@ follows from
 the waste generation rate
 and the available storage volume at the source
 
-$$ f_{pickup} = \frac{\dot{m}_{waste}}{V_{storage} \cdot \rho_{waste}} $$
+$$
+ f_{pickup} = \frac{\dot{m}_{waste}}{V_{storage} \cdot \rho_{waste}} 
+\tag{18}
+$$
 
 A four-crew habitat
 producing twenty kilograms per day of waste
@@ -755,7 +809,10 @@ with one cubic metre of source storage volume
 at three hundred kilograms per cubic metre compacted density
 requires pickup approximately
 
-$$ f_{pickup} = \frac{20}{1 \cdot 300} = 0.067 \text{ per day} $$
+$$
+ f_{pickup} = \frac{20}{1 \cdot 300} = 0.067 \text{ per day} 
+\tag{19}
+$$
 
 or approximately every fifteen days
 to prevent storage overflow.
@@ -1360,6 +1417,195 @@ of the buoyant and atmospheric platform analog
 that the survey opener identified
 as the most conspicuous gap
 in the analog tradition.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 19 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 19, 14 are established and 5 are bespoke.
+Cargo throughput is in kilograms per day and cycle time in days, forces are in newtons, work in joules and power in watts, the specific impulse is in seconds and is multiplied by standard gravity to give an exhaust velocity, and the worked rocket example takes velocities in kilometres per second.
+
+**Equation 1, Total Cargo Throughput.**
+The total throughput is the sum of the cargo throughput on every active route.
+
+$$
+ \dot{m}_{total} = \sum_j \dot{m}_{cargo,j} 
+\tag{1}
+$$
+
+*Equation 2, Bespoke Throughput of a Four-Crew Habitat.*
+The throughput is summed over three assumed routes, a daily greenhouse route and a weekly waste route at about twenty kilograms per day each and a monthly resupply route at about ten.
+
+$$
+ \dot{m}_{total} = 20 + 20 + 10 = 50 \text{ kg/day} 
+\tag{2}
+$$
+
+**Equation 3, Minimum Vehicle Count for a Route.**
+The minimum number of vehicles on a route is the cargo carried over one round-trip cycle divided by the payload of one vehicle.
+
+$$
+ N_{vehicles} = \frac{\dot{m}_{cargo} \cdot t_{cycle}}{m_{payload}} 
+\tag{3}
+$$
+
+*Equation 4, Bespoke Vehicle Count for the Example Route.*
+The vehicle count is evaluated for an assumed fifty kilograms per day over a one-hundred-kilometre round trip with an assumed five-hour cycle on a two-hundred-kilogram payload vehicle.
+
+$$
+ N_{vehicles} = \frac{50 \cdot 0.21}{200} \approx 0.05 
+\tag{4}
+$$
+
+**Equation 5, Rolling Resistance Force.**
+The rolling resistance is the rolling resistance coefficient times the vehicle weight.
+
+$$
+ F_{roll} = \mu_r \cdot m \cdot g 
+\tag{5}
+$$
+
+**Equation 6, Aerodynamic Drag Force.**
+The aerodynamic drag is the dynamic pressure times the drag coefficient and the frontal area.
+
+$$
+ F_{drag} = \frac{1}{2} \cdot \rho \cdot C_d \cdot A \cdot v^2 
+\tag{6}
+$$
+
+**Equation 7, Gravitational Work over an Elevation Change.**
+The work against gravity over an elevation change is the vehicle weight times that change.
+
+$$
+ W_{grav} = m \cdot g \cdot \Delta h 
+\tag{7}
+$$
+
+**Equation 8, Route Work on a Level Surface.**
+At constant velocity on a level surface the work over a route is the sum of rolling and drag forces times the route length.
+
+$$
+ W_{total} = (F_{roll} + F_{drag}) \cdot L 
+\tag{8}
+$$
+
+**Equation 9, Propulsion Power at Constant Velocity.**
+The power to hold a velocity is the sum of rolling and drag forces times that velocity.
+
+$$
+ P_{propulsion} = (F_{roll} + F_{drag}) \cdot v 
+\tag{9}
+$$
+
+*Equation 10, Bespoke Trip Energy of an Electric Utility Vehicle.*
+The trip energy is evaluated for an assumed one-thousand-kilogram vehicle on a one-hundred-kilometre route with an assumed combined resistance of fifteen percent of its weight and an assumed drivetrain efficiency of seventy-five percent.
+
+$$
+ W_{total} \approx \frac{0.15 \cdot 1{,}000 \cdot 9.81 \cdot 100{,}000}{0.75} \approx 1.96 \times 10^{8} \text{ J} \approx 54 \text{ kWh} 
+\tag{10}
+$$
+
+**Equation 11, Tsiolkovsky Rocket Equation.**
+The velocity change of a rocket is its effective exhaust velocity times the natural logarithm of the ratio of initial to final mass.
+[Tsiolkovsky rocket equation][ref_tsiolkovsky]
+
+$$
+ \Delta v = v_e \cdot \ln\left( \frac{m_0}{m_f} \right) 
+\tag{11}
+$$
+
+**Equation 12, Exhaust Velocity from Specific Impulse.**
+The effective exhaust velocity is the specific impulse times standard gravity.
+
+$$
+ v_e = I_{sp} \cdot g_0 
+\tag{12}
+$$
+
+**Equation 13, Propellant Mass Fraction.**
+Rearranging the rocket equation gives the propellant fraction of the initial mass as one less the exponential of minus the velocity change over the exhaust velocity.
+
+$$
+ \frac{m_p}{m_0} = 1 - e^{-\Delta v / v_e} 
+\tag{13}
+$$
+
+*Equation 14, Bespoke Propellant Fraction for a Single-Stage Ascent.*
+The propellant fraction is evaluated for an ascent of about 9.4 kilometres per second at an exhaust velocity of 3.4 kilometres per second, taken from a representative chemical specific impulse of three hundred and fifty seconds.
+
+$$
+ \frac{m_p}{m_0} = 1 - e^{-9.4 / 3.4} \approx 0.94 
+\tag{14}
+$$
+
+**Equation 15, Multi-Stage Delta-V Summation.**
+The total velocity change of a staged vehicle is the sum of the rocket equation applied to each stage with its own exhaust velocity and mass ratio.
+
+$$
+ \Delta v_{total} = \sum_i v_{e,i} \cdot \ln\left( \frac{m_{0,i}}{m_{f,i}} \right) 
+\tag{15}
+$$
+
+**Equation 16, Hagen-Poiseuille Equation.**
+The laminar volumetric flow through a smooth circular pipe grows with the fourth power of diameter and with the pressure drop, and falls with viscosity and length.
+
+$$
+ Q = \frac{\pi D^4 \Delta P}{128 \mu L} 
+\tag{16}
+$$
+
+**Equation 17, Pipeline Pumping Power.**
+The power to maintain the flow is the volumetric flow times the pressure drop divided by the pump efficiency.
+
+$$
+ P_{pump} = \frac{Q \cdot \Delta P}{\eta_{pump}} 
+\tag{17}
+$$
+
+**Equation 18, Garbage Pickup Frequency.**
+The pickup frequency is the waste generation rate divided by the mass the source storage holds.
+
+$$
+ f_{pickup} = \frac{\dot{m}_{waste}}{V_{storage} \cdot \rho_{waste}} 
+\tag{18}
+$$
+
+*Equation 19, Bespoke Pickup Frequency for a Four-Crew Habitat.*
+The pickup frequency is evaluated for an assumed twenty kilograms of waste per day, one cubic metre of source storage and an assumed compacted density of three hundred kilograms per cubic metre.
+
+$$
+ f_{pickup} = \frac{20}{1 \cdot 300} = 0.067 \text{ per day} 
+\tag{19}
+$$
+
+### Notation
+
+- $\dot{m}_{total}$, the total cargo throughput
+- $\dot{m}_{cargo,j}$, the cargo throughput on route $j$ in kilograms per day
+- $N_{vehicles}$, the minimum vehicle count for a route
+- $t_{cycle}$, the round-trip cycle time in days
+- $m_{payload}$, the per-vehicle payload mass
+- $\mu_r$, the rolling resistance coefficient, typically 0.01 to 0.02 for rubber tyres
+- $C_d$, the drag coefficient
+- $A$, the frontal area
+- $v$, the vehicle velocity relative to the surrounding air
+- $\Delta h$, the elevation change
+- $L$, the route length in Equation 8, the pipe length in Equation 16
+- $v_e$, the effective exhaust velocity
+- $m_0$, the initial vehicle mass
+- $m_f$, the final vehicle mass after propellant consumption
+- $m_p$, the propellant mass
+- $I_{sp}$, the specific impulse
+- $g_0$, standard gravity
+- $D$, the pipe inside diameter
+- $\Delta P$, the pressure drop across the pipe
+- $\mu$, the fluid dynamic viscosity
+- $f_{pickup}$, the garbage pickup frequency
+- $\rho_{waste}$, the compacted waste density
 
 ## References
 

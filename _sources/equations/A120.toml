@@ -1,0 +1,63 @@
+# Equation classification for A120. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, with energy in joules, altitude in metres and speed in metres per second, and the specific impulse is in seconds so that it is multiplied by standard gravity to give an exhaust velocity."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Mechanical Energy at Burnout"
+gloss = "The mechanical energy held at burnout is the sum of the gravitational potential energy and the kinetic energy of the vehicle."
+cite = ["ref_potential_energy", "ref_kinetic_energy"]
+digest = "9b2a2cab99ae2f76"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The velocity a boost delivers is the effective exhaust velocity multiplied by the natural logarithm of the ratio of initial to final mass."
+cite = ["ref_rocket_equation"]
+digest = "95ee8398752da735"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Boost-Glide Range from Energy Height"
+gloss = "The glide range is taken as the lift-to-drag ratio times the energy height, which assumes that the whole post-boost potential and kinetic energy is spent in a glide at one constant lift-to-drag ratio."
+cite = []
+digest = "d183ae4d34466161"
+
+[[symbol]]
+tex = 'E'
+meaning = "the mechanical energy at burnout"
+
+[[symbol]]
+tex = 'h'
+meaning = "the altitude"
+
+[[symbol]]
+tex = 'V'
+meaning = "the speed"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse in seconds"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity, 9.80665 metres per second squared"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the initial mass"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the final mass after the burn"
+
+[[symbol]]
+tex = 'R'
+meaning = "the glide range"
+
+[[symbol]]
+tex = '\frac{L}{D}'
+meaning = "the lift-to-drag ratio"

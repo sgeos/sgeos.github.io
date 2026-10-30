@@ -1,0 +1,191 @@
+# Equation classification for A154. Read by `python3 _lib/equations.py`.
+
+caution = "Water volumes are in litres and durations in days in the storage equations, while the hydraulic, thermal and membrane relations use SI units, and the letter $C$ is the closure ratio in Equations 3 and 4 but the disinfectant concentration in Equation 6."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Storage Volume for a Supply Gap"
+gloss = "The required storage is the daily demand multiplied by the worst expected supply gap and a safety factor that absorbs forecast uncertainty."
+cite = []
+digest = "54cf1d1dc6ddc157"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Storage Volume for a Four-Crew Habitat"
+gloss = "The storage volume is evaluated for an assumed crew of four at an assumed one hundred litres per crew per day over a fourteen-day dry period with a safety factor of one and a half."
+cite = []
+digest = "7ce9e5eb7fb24034"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Water Closure Ratio"
+gloss = "The closure ratio is the volume of water recovered as a fraction of the volume consumed."
+cite = []
+digest = "c24c6b9441b71523"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Makeup Water Demand"
+gloss = "The water that must be supplied from outside over a mission is the daily demand times the mission duration times the unrecovered fraction."
+cite = []
+digest = "159a802b603d5583"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Pumping Power"
+gloss = "The power to lift water is the product of density, gravity, volumetric flow and total head divided by the pump efficiency."
+cite = []
+digest = "ad1a4c54f6941955"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Chick-Watson Disinfection Model"
+gloss = "The logarithmic reduction of a pathogen population is proportional to the product of disinfectant concentration and contact time."
+cite = []
+digest = "5e7db63a73f1e868"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Hydrostatic Pressure"
+gloss = "The static pressure at a depth below the water surface is the product of water density, gravity and the elevation difference."
+cite = []
+digest = "be2e8d5ae39b718a"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Darcy-Weisbach Friction Head Loss"
+gloss = "The friction head loss in a pipe is the Darcy friction factor times the ratio of length to diameter times the velocity head."
+cite = []
+digest = "23478bd10c227c20"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Sensible Heating Energy"
+gloss = "The energy to raise a mass of water through a temperature rise is the mass times the specific heat capacity times the rise."
+cite = []
+digest = "c3f870c62e39f5ab"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Reverse Osmosis Membrane Flux"
+gloss = "The water flux across a reverse osmosis membrane is its permeability times the applied pressure in excess of the osmotic pressure difference."
+cite = []
+digest = "87ce309159f81d9a"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Gain Output Ratio"
+gloss = "The gain output ratio of a distillation plant is the latent heat carried by the distillate produced divided by the heat supplied."
+cite = []
+digest = "c9084ec0a5103767"
+
+[[symbol]]
+tex = 'V_{storage}'
+meaning = "the required storage volume"
+
+[[symbol]]
+tex = 'D_{daily}'
+meaning = "the daily water demand across all uses, in litres per day"
+
+[[symbol]]
+tex = 't_{gap}'
+meaning = "the duration of the worst expected supply gap, in days"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the dimensionless safety factor, typically 1.5 to 2"
+
+[[symbol]]
+tex = 'C'
+meaning = "the closure ratio in Equations 3 and 4, the disinfectant concentration in Equation 6"
+
+[[symbol]]
+tex = 'T_{mission}'
+meaning = "the mission duration"
+
+[[symbol]]
+tex = 'V_{makeup}'
+meaning = "the makeup water demand over the mission"
+
+[[symbol]]
+tex = 'P_{pump}'
+meaning = "the pumping power"
+
+[[symbol]]
+tex = 'Q'
+meaning = "the volumetric flow rate"
+
+[[symbol]]
+tex = 'h'
+meaning = "the total head in Equation 5, the elevation difference in Equation 7"
+
+[[symbol]]
+tex = '\eta_{pump}'
+meaning = "the pump efficiency, typically forty to seventy percent for submersible well pumps"
+
+[[symbol]]
+tex = 'N_t'
+meaning = "the surviving pathogen population at contact time $t$"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the initial pathogen population"
+
+[[symbol]]
+tex = 'k'
+meaning = "the pathogen-specific and condition-specific rate constant"
+
+[[symbol]]
+tex = 'h_f'
+meaning = "the friction head loss in metres"
+
+[[symbol]]
+tex = 'f'
+meaning = "the Darcy friction factor"
+
+[[symbol]]
+tex = 'D'
+meaning = "the inside pipe diameter"
+
+[[symbol]]
+tex = 'v'
+meaning = "the average flow velocity"
+
+[[symbol]]
+tex = 'c_p'
+meaning = "the specific heat capacity of water, about 4.18 kilojoules per kilogram per kelvin"
+
+[[symbol]]
+tex = 'J'
+meaning = "the membrane water flux"
+
+[[symbol]]
+tex = 'k_w'
+meaning = "the membrane water permeability"
+
+[[symbol]]
+tex = '\Delta \pi'
+meaning = "the osmotic pressure difference"
+
+[[symbol]]
+tex = 'GOR'
+meaning = "the gain output ratio"
+
+[[symbol]]
+tex = 'L_v'
+meaning = "the latent heat of vaporisation"
+
+[[symbol]]
+tex = 'Q_{heat}'
+meaning = "the input heat rate"

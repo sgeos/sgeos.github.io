@@ -1,0 +1,51 @@
+# Equation classification for A121. Read by `python3 _lib/equations.py`.
+
+caution = "Power is in watts and energy in joules or watt-hours as the section states, and the solar irradiance is in watts per square metre, so the collected power depends on the irradiance actually reaching the cells rather than on its value at the top of the atmosphere."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Power Balance of the Energy Store"
+gloss = "The rate of change of the stored energy is the power harvested or generated less the power drawn by flight, avionics and payload."
+cite = []
+digest = "e6074db5616d7c23"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Integrated Energy Budget"
+gloss = "Integrating the power balance over the mission gives the change in stored energy as the running sum of supply less demand."
+cite = []
+digest = "e9cb280cf7415c11"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Solar Array Power"
+gloss = "The power a solar array collects is the cell efficiency multiplied by the covered area and the incident irradiance."
+cite = ["ref_solar_cell_eff"]
+digest = "f71cfb0a87e1d8b3"
+
+[[symbol]]
+tex = 'E'
+meaning = "the energy in store"
+
+[[symbol]]
+tex = 'P_{\text{in}}'
+meaning = "the power harvested or generated"
+
+[[symbol]]
+tex = 'P_{\text{out}}'
+meaning = "the power required to fly plus the avionics and payload load"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the solar cell efficiency, around twenty to twenty-five percent"
+
+[[symbol]]
+tex = 'S_{\text{cell}}'
+meaning = "the area covered by cells"
+
+[[symbol]]
+tex = 'G'
+meaning = "the solar irradiance on the cells"

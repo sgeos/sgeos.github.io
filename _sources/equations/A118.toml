@@ -1,0 +1,107 @@
+# Equation classification for A118. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, with power in watts, thrust and weight in newtons and speed in metres per second, while battery energy is quoted in watt-hours and brake-specific fuel consumption in mass of fuel per unit of shaft energy, so units must be reconciled before the endurance and fuel-burn relations are evaluated."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Thrust Required in Level Flight"
+gloss = "In steady level flight thrust balances drag, which equals the weight divided by the lift-to-drag ratio."
+cite = ["ref_ld"]
+digest = "ed1c2094e050c812"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Power Required in Level Flight"
+gloss = "The power required to hold level flight is the thrust required multiplied by the airspeed."
+cite = []
+digest = "f7261f5897f7ca0c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Parabolic Drag Polar"
+gloss = "The drag coefficient is the sum of a parasite term independent of lift and a lift-induced term that grows with the square of the lift coefficient."
+cite = ["ref_drag_polar", "ref_induced_drag"]
+digest = "6d127dff232cce71"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Ideal Static Thrust from Momentum Theory"
+gloss = "Momentum theory models the propeller as an actuator disk and gives the ideal static thrust as rising with the cube root of disk area and the two-thirds power of shaft power."
+cite = ["ref_momentum_theory"]
+digest = "273cdd16a7fd8ca2"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Electric Endurance from Stored Energy"
+gloss = "Endurance is the usable battery energy, reduced by the product of propeller, motor and controller efficiencies, divided by the power required."
+cite = []
+digest = "2a28a945084cc7ab"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Fuel Burn Rate from Brake-Specific Fuel Consumption"
+gloss = "The fuel mass flow is the brake-specific fuel consumption multiplied by the shaft power."
+cite = ["ref_bsfc"]
+digest = "6c5f961cb39c936d"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = 'L/D'
+meaning = "the lift-to-drag ratio"
+
+[[symbol]]
+tex = 'P_{\text{req}}'
+meaning = "the power required for level flight"
+
+[[symbol]]
+tex = 'C_{D,0}'
+meaning = "the parasite drag coefficient"
+
+[[symbol]]
+tex = 'e'
+meaning = "the Oswald efficiency factor"
+
+[[symbol]]
+tex = 'A\!R'
+meaning = "the wing aspect ratio"
+
+[[symbol]]
+tex = 'A_{\text{disk}}'
+meaning = "the propeller disk area"
+
+[[symbol]]
+tex = 'P_{\text{shaft}}'
+meaning = "the shaft power"
+
+[[symbol]]
+tex = 'E_{\text{batt}}'
+meaning = "the battery energy"
+
+[[symbol]]
+tex = '\eta_{\text{total}}'
+meaning = "the product of the propeller, motor and controller efficiencies"
+
+[[symbol]]
+tex = '\dot m_f'
+meaning = "the fuel mass flow"
+
+[[symbol]]
+tex = 'c'
+meaning = "the brake-specific fuel consumption"

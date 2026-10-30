@@ -1,0 +1,59 @@
+# Equation classification for A167. Read by `python3 _lib/equations.py`.
+
+caution = "Time is in years and the hazard is a rate per year, and the probabilities and odds in the Bayesian equations are dimensionless."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Constant-Hazard Survival of Startups"
+gloss = "The article assumes a constant yearly hazard of failure, which gives an exponential survival function and, as the article shows, under-predicts survivors at ten years."
+cite = ["ref_survival_analysis", "ref_failure_rate"]
+digest = "7e51d14c5b01819e"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Bayes' Theorem for Success Given Confidence"
+gloss = "Bayes' theorem gives the probability of success for a confident founder from the base rate of success and the confidence rates among future successes and failures."
+cite = ["ref_bayes"]
+digest = "3739c8af917fdbcc"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Posterior Success for a Confident Founder"
+gloss = "The posterior is evaluated for an assumed base rate of success of one in ten and assumed confidence rates of ninety-five percent among successes and ninety percent among failures."
+cite = []
+digest = "d91f0092308d04f8"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Bayes' Theorem in Odds Form"
+gloss = "The posterior odds of success equal the prior odds multiplied by the Bayes factor, the ratio of the two confidence rates."
+cite = []
+digest = "bdf8c411e44d8e53"
+
+[[symbol]]
+tex = 'S(t)'
+meaning = "the fraction of startups surviving to year $t$"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the yearly hazard of failure"
+
+[[symbol]]
+tex = 'P(S \mid C)'
+meaning = "the probability of success for a confident founder"
+
+[[symbol]]
+tex = 'P(C \mid S)'
+meaning = "the chance a founder is confident among those who will succeed"
+
+[[symbol]]
+tex = 'P(C \mid F)'
+meaning = "the chance a founder is confident among those who will fail"
+
+[[symbol]]
+tex = 'p'
+meaning = "the base rate of success"

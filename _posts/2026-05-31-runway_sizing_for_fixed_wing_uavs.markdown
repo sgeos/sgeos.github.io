@@ -31,20 +31,29 @@ A companion article covers
 A wing flies when it can carry the aircraft's weight,
 and the slowest speed at which it can do so is the stall speed,
 
-$$ V_{\text{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L,\max}}}, $$
+$$
+ V_{\text{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L,\max}}}, 
+\tag{1}
+$$
 
 where $W$ is weight, $\rho$ is air density, $S$ is wing area,
 and $C_{L,\max}$ is the maximum [lift coefficient][ref_lift_coefficient].
 An aircraft lifts off a little above this, at roughly
 
-$$ V_{LO} \approx 1.1\,V_{\text{stall}}, $$
+$$
+ V_{LO} \approx 1.1\,V_{\text{stall}}, 
+\tag{2}
+$$
 
 and lands a little above it as well.
 Because a ground roll is the distance to accelerate to a speed,
 and that distance scales with the square of the speed,
 the runway length scales as
 
-$$ s \;\propto\; V_{LO}^2 \;\propto\; \frac{W/S}{\rho\,C_{L,\max}}. $$
+$$
+ s \;\propto\; V_{LO}^2 \;\propto\; \frac{W/S}{\rho\,C_{L,\max}}. 
+\tag{3}
+$$
 
 This single proportionality is the spine of the whole subject.
 Runway length rises with [wing loading][ref_wing_loading] $W/S$,
@@ -77,14 +86,20 @@ from rest to $V_{LO}$ under the net of thrust, drag, and rolling friction.
 A useful first cut neglects aerodynamic drag and lift during the roll,
 which partly cancel, and treats the acceleration as constant,
 
-$$ s_g \approx \frac{V_{LO}^2}{2\,\bar a}, \qquad
-   \bar a = g\left(\frac{T}{W} - \mu_r\right), $$
+$$
+ s_g \approx \frac{V_{LO}^2}{2\,\bar a}, \qquad
+   \bar a = g\left(\frac{T}{W} - \mu_r\right), 
+\tag{4}
+$$
 
 where $T/W$ is the thrust-to-weight ratio and $\mu_r$ is the
 rolling-friction coefficient.
 Substituting the liftoff speed gives the form to plug numbers into,
 
-$$ s_g \approx \frac{1.21\,(W/S)}{\rho\,C_{L,\max}\,g\,\left(\dfrac{T}{W} - \mu_r\right)}. $$
+$$
+ s_g \approx \frac{1.21\,(W/S)}{\rho\,C_{L,\max}\,g\,\left(\dfrac{T}{W} - \mu_r\right)}. 
+\tag{5}
+$$
 
 The [parameters that matter][research_erau_to] are exactly the three
 in that expression, wing loading, thrust-to-weight, and maximum lift
@@ -116,7 +131,10 @@ formula's paved figure, by a margin that grows with how soft it is.
 A sloped runway adds a component of gravity along the direction of travel.
 For a slope angle $\gamma$ the effective acceleration becomes
 
-$$ \bar a_{\text{eff}} = g\left(\frac{T}{W} - \mu_r\right) \mp g\sin\gamma, $$
+$$
+ \bar a_{\text{eff}} = g\left(\frac{T}{W} - \mu_r\right) \mp g\sin\gamma, 
+\tag{6}
+$$
 
 with the minus sign for an uphill takeoff and the plus for a downhill one.
 The practical consequences are firm.
@@ -136,7 +154,10 @@ and the two effects can be weighed in the same acceleration balance.
 A ski jump trades runway length for an upward launch.
 At the ramp exit the aircraft gains a vertical velocity of about
 
-$$ v_z \approx V_e \sin\theta, $$
+$$
+ v_z \approx V_e \sin\theta, 
+\tag{7}
+$$
 
 where $V_e$ is the speed leaving the ramp and $\theta$ is the ramp angle.
 That vertical velocity buys
@@ -160,7 +181,10 @@ An aircraft flies relative to the air, so a headwind $V_w$ means it only
 has to accelerate over the ground to $V_{LO} - V_w$,
 and the ground roll shrinks roughly as
 
-$$ s_g(V_w) \approx s_g(0)\left(1 - \frac{V_w}{V_{LO}}\right)^2. $$
+$$
+ s_g(V_w) \approx s_g(0)\left(1 - \frac{V_w}{V_{LO}}\right)^2. 
+\tag{8}
+$$
 
 A tailwind does the reverse and lengthens the roll sharply,
 which is why operations face into the wind whenever possible.
@@ -169,7 +193,10 @@ A runway should be aligned with the prevailing wind
 so that the usual condition is a headwind rather than a crosswind,
 and the [crosswind component][ref_crosswind] is
 
-$$ V_{\text{cross}} = V\sin\psi, \qquad V_{\text{head}} = V\cos\psi, $$
+$$
+ V_{\text{cross}} = V\sin\psi, \qquad V_{\text{head}} = V\cos\psi, 
+\tag{9}
+$$
 
 where $\psi$ is the angle between the wind and the runway.
 The crosswind component, not the total wind, is what bounds a safe launch,
@@ -227,7 +254,10 @@ and it cuts the thrust a propeller or a small turbine can make,
 which shrinks the acceleration.
 To first order the ground roll scales as
 
-$$ s_g \;\propto\; \frac{1}{\rho}, $$
+$$
+ s_g \;\propto\; \frac{1}{\rho}, 
+\tag{10}
+$$
 
 and the thrust loss makes the real penalty worse.
 The effect is large enough to plan around.
@@ -244,7 +274,10 @@ and the figure that governs sizing is the distance to lift off
 and climb to a screen height, conventionally fifty feet or about fifteen meters.
 The total takeoff distance is the ground roll plus an airborne segment,
 
-$$ s_{\text{total}} = s_g + \frac{h}{\tan\gamma_{\text{climb}}}, $$
+$$
+ s_{\text{total}} = s_g + \frac{h}{\tan\gamma_{\text{climb}}}, 
+\tag{11}
+$$
 
 where $h$ is the screen height and $\gamma_{\text{climb}}$ is the
 initial climb angle, itself set by excess thrust.
@@ -277,7 +310,10 @@ Landing reverses the problem and is often the longer of the two.
 The approach is flown near $1.3\,V_{\text{stall}}$ and the aircraft touches
 down a little slower, after which the landing roll is the distance to stop,
 
-$$ s_{\text{land}} \approx \frac{V_{TD}^2}{2\,\mu_b\,g}, $$
+$$
+ s_{\text{land}} \approx \frac{V_{TD}^2}{2\,\mu_b\,g}, 
+\tag{12}
+$$
 
 where $V_{TD}$ is the touchdown speed and $\mu_b$ is the braking
 coefficient, around 0.3 to 0.5 on dry pavement and less on grass or when wet.
@@ -488,6 +524,140 @@ a soft surface and thin air and a low-lift planform all spending it.
 Size for the longer of takeoff and landing, at the worst conditions,
 with a margin to clear the obstacle, and the result is a field length
 a builder can defend with numbers rather than guess at.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 12 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 12, 7 are established and 5 are bespoke.
+Quantities are in SI units, with speeds in metres per second, distances in metres and accelerations in metres per second squared, and the ground-roll formulas are first-order estimates under a constant acceleration rather than integrations of the speed-dependent forces.
+
+**Equation 1, Stall Speed.**
+Setting lift equal to weight at the maximum lift coefficient gives the slowest speed at which the wing can carry the aircraft.
+[lift coefficient][ref_lift_coefficient]
+
+$$
+ V_{\text{stall}} = \sqrt{\frac{2W}{\rho\,S\,C_{L,\max}}}, 
+\tag{1}
+$$
+
+**Equation 2, Liftoff Speed as a Multiple of Stall Speed.**
+The conventional liftoff speed is taken a tenth above the stall speed to leave a margin against stalling at rotation.
+
+$$
+ V_{LO} \approx 1.1\,V_{\text{stall}}, 
+\tag{2}
+$$
+
+**Equation 3, Runway Length Proportional to Wing Loading.**
+Because a distance to reach a speed scales with the square of that speed, runway length scales with wing loading and inversely with air density and maximum lift coefficient.
+[wing loading][ref_wing_loading]
+
+$$
+ s \;\propto\; V_{LO}^2 \;\propto\; \frac{W/S}{\rho\,C_{L,\max}}. 
+\tag{3}
+$$
+
+*Equation 4, Bespoke Constant-Acceleration Ground Roll.*
+The takeoff roll is estimated under the article's first cut, which neglects aerodynamic drag and lift during the roll and holds the acceleration constant at the thrust-to-weight ratio less the rolling friction.
+
+$$
+ s_g \approx \frac{V_{LO}^2}{2\,\bar a}, \qquad
+   \bar a = g\left(\frac{T}{W} - \mu_r\right), 
+\tag{4}
+$$
+
+*Equation 5, Bespoke Ground Roll in Design Parameters.*
+Substituting a liftoff speed of 1.1 times the stall speed into the constant-acceleration roll gives the ground roll in terms of wing loading, thrust-to-weight ratio, maximum lift coefficient and surface friction.
+[parameters that matter][research_erau_to]
+
+$$
+ s_g \approx \frac{1.21\,(W/S)}{\rho\,C_{L,\max}\,g\,\left(\dfrac{T}{W} - \mu_r\right)}. 
+\tag{5}
+$$
+
+*Equation 6, Bespoke Acceleration on a Sloped Runway.*
+The component of gravity along a slope is added to the article's constant-acceleration model, reducing the acceleration uphill and increasing it downhill.
+
+$$
+ \bar a_{\text{eff}} = g\left(\frac{T}{W} - \mu_r\right) \mp g\sin\gamma, 
+\tag{6}
+$$
+
+**Equation 7, Vertical Velocity at a Ski-Jump Exit.**
+Resolving the exit velocity along a ramp inclined at its ramp angle gives the vertical velocity the ski jump imparts.
+
+$$
+ v_z \approx V_e \sin\theta, 
+\tag{7}
+$$
+
+*Equation 8, Bespoke Headwind Reduction of the Ground Roll.*
+Under the constant-acceleration model the ground roll scales with the square of the groundspeed at liftoff, so a headwind shortens it by the square of one less the ratio of wind speed to liftoff speed.
+
+$$
+ s_g(V_w) \approx s_g(0)\left(1 - \frac{V_w}{V_{LO}}\right)^2. 
+\tag{8}
+$$
+
+**Equation 9, Crosswind and Headwind Components.**
+A wind at an angle to the runway resolves into a crosswind component by the sine of that angle and a headwind component by its cosine.
+[crosswind component][ref_crosswind]
+
+$$
+ V_{\text{cross}} = V\sin\psi, \qquad V_{\text{head}} = V\cos\psi, 
+\tag{9}
+$$
+
+**Equation 10, Ground Roll Inversely Proportional to Air Density.**
+To first order and before any loss of thrust, the ground roll scales inversely with air density because the true liftoff speed squared does.
+
+$$
+ s_g \;\propto\; \frac{1}{\rho}, 
+\tag{10}
+$$
+
+*Equation 11, Bespoke Takeoff Distance to a Screen Height.*
+The total takeoff distance adds to the ground roll an airborne segment flown as a straight climb at the initial climb angle, an approximation that neglects the transition arc after liftoff.
+
+$$
+ s_{\text{total}} = s_g + \frac{h}{\tan\gamma_{\text{climb}}}, 
+\tag{11}
+$$
+
+**Equation 12, Landing Roll Under Braking Friction.**
+The stopping distance from the touchdown speed under a constant friction deceleration equal to the braking coefficient times gravity gives the landing roll.
+
+$$
+ s_{\text{land}} \approx \frac{V_{TD}^2}{2\,\mu_b\,g}, 
+\tag{12}
+$$
+
+### Notation
+
+- $V_{\text{stall}}$, the stall speed
+- $V_{LO}$, the liftoff speed
+- $W$, the weight
+- $\rho$, the air density
+- $S$, the wing area
+- $C_{L,\max}$, the maximum lift coefficient
+- $s_g$, the ground roll
+- $\bar a$, the mean acceleration during the ground roll
+- $T$, the thrust, so that $T/W$ is the thrust-to-weight ratio
+- $\mu_r$, the rolling-friction coefficient
+- $\gamma$, the runway slope angle
+- $V_e$, the speed leaving the ski-jump ramp
+- $\theta$, the ski-jump ramp angle
+- $V_w$, the headwind speed
+- $\psi$, the angle between the wind and the runway
+- $h$, the screen height, conventionally about fifteen metres
+- $\gamma_{\text{climb}}$, the initial climb angle
+- $V_{TD}$, the touchdown speed
+- $\mu_b$, the braking coefficient, about 0.3 to 0.5 on dry pavement
 
 ## References
 

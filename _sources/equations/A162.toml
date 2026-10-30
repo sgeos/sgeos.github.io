@@ -1,0 +1,55 @@
+# Equation classification for A162. Read by `python3 _lib/equations.py`.
+
+caution = "The equations are set relations rather than quantities, so they carry no units, and they formalise legal tests only to the extent the prose states, since a court applies those tests to claims as construed rather than to literal sets."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Set Model of a Claim"
+gloss = "The article models a patent claim as the finite set of its discrete limitations, a simplification that sets aside claim construction and the relations between elements."
+cite = ["ref_subset"]
+digest = "7fc6b71991a14d35"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Anticipation as Containment in One Reference"
+gloss = "A single reference anticipates a claim exactly when every claimed element appears in that reference, the all-elements rule written as set containment."
+cite = ["ref_novelty"]
+digest = "f9811ec56589941c"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Containment in a Union of References"
+gloss = "Coverage of the claim by the union of several references does not anticipate, because novelty is judged one reference at a time."
+cite = ["ref_novelty"]
+digest = "356195d8bdb38e7e"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke First Approximation of the Obviousness Bar"
+gloss = "The article approximates obviousness as containment of the claim in a union of references together with a predicate that a person of ordinary skill would have had reason to combine them with a reasonable expectation of success."
+cite = []
+digest = "1f3617eb687d9eeb"
+
+[[symbol]]
+tex = 'C'
+meaning = "a claim, written as the set of its limitations"
+
+[[symbol]]
+tex = 'e_1'
+meaning = "the first of the $n$ discrete elements the claim requires"
+
+[[symbol]]
+tex = 'D_R'
+meaning = "the set of features a prior-art reference $R$ discloses"
+
+[[symbol]]
+tex = 'D_{R_i}'
+meaning = "the features disclosed by the $i$th reference"
+
+[[symbol]]
+tex = 'M'
+meaning = "the predicate that a person of ordinary skill would have had reason to combine the references with a reasonable expectation of success"

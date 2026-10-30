@@ -1,0 +1,63 @@
+# Equation classification for A126. Read by `python3 _lib/equations.py`.
+
+caution = "The link budget is written in decibels, with powers in decibels relative to a reference and gains in decibels, and the free-space path loss constant of 32.44 holds only with distance in kilometres and frequency in megahertz, while the radio horizon takes antenna heights in metres and returns kilometres."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Link Budget"
+gloss = "The received power in decibels is the transmitter power plus both antenna gains less the path loss."
+cite = ["ref_link_budget"]
+digest = "3d95dec06d4b32fa"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Free-Space Path Loss in Decibels"
+gloss = "The free-space path loss from the Friis transmission equation grows by twenty decibels per decade of distance and of frequency."
+cite = ["ref_fspl", "ref_friis"]
+digest = "bfbcd80f389fa16d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Radio Horizon"
+gloss = "The line-of-sight range between two antennas is the sum of their horizon distances, with a constant slightly larger than the geometric one to allow for atmospheric refraction."
+cite = ["ref_los"]
+digest = "0431e500386b0fc7"
+
+[[symbol]]
+tex = 'P_{rx}'
+meaning = "the received power"
+
+[[symbol]]
+tex = 'P_{tx}'
+meaning = "the transmitter power"
+
+[[symbol]]
+tex = 'G_{tx}'
+meaning = "the transmitting antenna gain"
+
+[[symbol]]
+tex = 'G_{rx}'
+meaning = "the receiving antenna gain"
+
+[[symbol]]
+tex = '\text{FSPL}'
+meaning = "the free-space path loss"
+
+[[symbol]]
+tex = 'd'
+meaning = "the distance in kilometres"
+
+[[symbol]]
+tex = 'f'
+meaning = "the frequency in megahertz"
+
+[[symbol]]
+tex = 'h_t'
+meaning = "the transmitting antenna height in metres"
+
+[[symbol]]
+tex = 'h_r'
+meaning = "the receiving antenna height in metres"

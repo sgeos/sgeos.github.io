@@ -1,0 +1,63 @@
+# Equation classification for A116. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, with mass in kilograms, speed in metres per second and stroke length in metres, and the acceleration load factor is a dimensionless multiple of standard gravity."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Kinetic Energy at the End of the Launch"
+gloss = "The energy a launcher must deliver is the kinetic energy of the aircraft at the launch end speed."
+cite = ["ref_kinetic_energy"]
+digest = "aacbeedf1ba034fc"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Average Acceleration and Load Factor over a Stroke"
+gloss = "By the work-energy theorem a stroke of given length that reaches the end speed implies an average acceleration, here also expressed as a multiple of gravity."
+cite = []
+digest = "fbc4bd11b575e84f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Terminal Descent Velocity Under a Canopy"
+gloss = "The descent settles at the speed where canopy drag from the drag equation balances the weight."
+cite = ["ref_drag_equation"]
+digest = "aa48c01ae3e7cd39"
+
+[[symbol]]
+tex = 'E'
+meaning = "the kinetic energy the launch must supply"
+
+[[symbol]]
+tex = 'm'
+meaning = "the aircraft mass"
+
+[[symbol]]
+tex = 'V_e'
+meaning = "the speed at the end of the launch"
+
+[[symbol]]
+tex = 'L'
+meaning = "the launch stroke length"
+
+[[symbol]]
+tex = 'n'
+meaning = "the acceleration expressed in multiples of gravity"
+
+[[symbol]]
+tex = 'V_d'
+meaning = "the terminal descent velocity under the canopy"
+
+[[symbol]]
+tex = 'C_D'
+meaning = "the canopy drag coefficient, near 1.5 for a round canopy"
+
+[[symbol]]
+tex = 'S'
+meaning = "the canopy area"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"

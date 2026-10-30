@@ -1,0 +1,27 @@
+# Equation classification for A124. Read by `python3 _lib/equations.py`.
+
+caution = "The sink rate is in metres per second and the stroke in metres, so the deceleration is in metres per second squared and the load factor is a dimensionless multiple of standard gravity, valid for a stroke that decelerates uniformly."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Touchdown Deceleration and Load Factor over a Stroke"
+gloss = "A sink rate arrested uniformly over a stroke gives a constant deceleration, which divided by standard gravity is the vertical load factor at touchdown."
+cite = []
+digest = "a4bd074ad0f24c94"
+
+[[symbol]]
+tex = 'v'
+meaning = "the sink rate at touchdown"
+
+[[symbol]]
+tex = 'd'
+meaning = "the stroke over which the sink rate is arrested"
+
+[[symbol]]
+tex = 'n'
+meaning = "the load in multiples of gravity"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"

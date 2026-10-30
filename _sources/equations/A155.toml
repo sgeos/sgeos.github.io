@@ -1,0 +1,239 @@
+# Equation classification for A155. Read by `python3 _lib/equations.py`.
+
+caution = "The link budget mixes linear and decibel forms, with powers in dBm, antenna gains in dBi and losses in dB in the decibel equations, and the engineering path loss constant of 32.45 holds only with distance in kilometres and frequency in megahertz."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Friis Transmission Equation"
+gloss = "The received power is the transmitted power multiplied by both antenna gains and the free-space spreading factor of wavelength over four pi times distance, squared."
+cite = []
+digest = "598b0b2d897f4790"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Link Budget in Decibels"
+gloss = "In decibel form the received power is the transmitted power plus the antenna gains less the free-space path loss and the other losses."
+cite = []
+digest = "af6b41e1be5fa37b"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Free-Space Path Loss"
+gloss = "The free-space path loss in decibels is twenty times the base-ten logarithm of four pi times distance over wavelength."
+cite = []
+digest = "28c0f41a4348ea30"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Free-Space Path Loss in Engineering Units"
+gloss = "With distance in kilometres and frequency in megahertz the path loss collapses to two logarithmic terms and a constant of 32.45 decibels."
+cite = []
+digest = "9b5aef719916b686"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Effective Isotropic Radiated Power"
+gloss = "The effective isotropic radiated power is the product of transmit power and transmit antenna gain."
+cite = []
+digest = "4e04383b31419bc7"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Effective Isotropic Radiated Power in Decibels"
+gloss = "In decibels the effective isotropic radiated power is the sum of the transmit power and the transmit antenna gain."
+cite = []
+digest = "b0cc8fe6189ebe7d"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Gain-over-Temperature Figure of Merit"
+gloss = "The receive figure of merit is the receive antenna gain in decibels less ten times the logarithm of the system noise temperature."
+cite = []
+digest = "55e273cd2211767e"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Parabolic Dish Gain"
+gloss = "A parabolic dish provides a gain equal to the square of pi times diameter over wavelength, reduced by the aperture efficiency."
+cite = []
+digest = "93ed18f76b934784"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Johnson-Nyquist Thermal Noise Power"
+gloss = "The receiver thermal noise floor is the Boltzmann constant times the system noise temperature times the noise bandwidth."
+cite = []
+digest = "34b2da3132a0f38a"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Shannon-Hartley Channel Capacity"
+gloss = "The upper bound on the error-free data rate is the bandwidth times the base-two logarithm of one plus the signal-to-noise ratio."
+cite = []
+digest = "bba795f4b3d8bf42"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Energy per Bit to Noise Spectral Density"
+gloss = "The ratio of energy per bit to noise spectral density is the signal-to-noise ratio scaled by the ratio of bandwidth to data rate."
+cite = []
+digest = "f2123134d801c53a"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Link Margin"
+gloss = "The link margin is the headroom between the received signal power and the receiver sensitivity threshold."
+cite = []
+digest = "ec5c0981945845d0"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Path Loss for a Geostationary Ku-Band Uplink"
+gloss = "The engineering path loss formula is evaluated for an example uplink at twelve gigahertz over a range taken as thirty-six thousand kilometres, the geostationary altitude rather than the slant range from a particular site."
+cite = []
+digest = "1bf58af3ea4c3740"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Received Power for the Example Uplink"
+gloss = "The received power is summed for an assumed one-watt transmitter, a forty-nine dBi transmit dish, a forty dBi receive dish and an assumed three decibels of other losses."
+cite = []
+digest = "5ac7da4a05389d78"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Half-Power Beamwidth of a Parabolic Dish"
+gloss = "The three-decibel beamwidth of a parabolic dish is approximately seventy degrees times the wavelength divided by the diameter."
+cite = []
+digest = "7feeccbf40f188c1"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Non-Relativistic Doppler Shift"
+gloss = "The fractional frequency shift of a carrier equals the radial velocity divided by the speed of light."
+cite = []
+digest = "bf81c48bd4bf1d6b"
+
+[[symbol]]
+tex = 'P_R'
+meaning = "the received power"
+
+[[symbol]]
+tex = 'P_T'
+meaning = "the transmitted power"
+
+[[symbol]]
+tex = 'G_T'
+meaning = "the transmit antenna gain"
+
+[[symbol]]
+tex = 'G_R'
+meaning = "the receive antenna gain"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the wavelength"
+
+[[symbol]]
+tex = 'd'
+meaning = "the distance"
+
+[[symbol]]
+tex = 'L_{FS}'
+meaning = "the free-space path loss"
+
+[[symbol]]
+tex = 'L_{other}'
+meaning = "the other losses, including atmospheric absorption, polarisation mismatch, pointing error and implementation loss"
+
+[[symbol]]
+tex = 'EIRP'
+meaning = "the effective isotropic radiated power"
+
+[[symbol]]
+tex = 'T_{sys}'
+meaning = "the system noise temperature"
+
+[[symbol]]
+tex = 'D'
+meaning = "the dish diameter"
+
+[[symbol]]
+tex = '\eta_{aperture}'
+meaning = "the aperture efficiency"
+
+[[symbol]]
+tex = 'N'
+meaning = "the thermal noise power"
+
+[[symbol]]
+tex = 'k'
+meaning = "the Boltzmann constant, $1.38 \\times 10^{-23}$ joules per kelvin"
+
+[[symbol]]
+tex = 'B'
+meaning = "the receiver noise bandwidth"
+
+[[symbol]]
+tex = 'C'
+meaning = "the channel capacity in bits per second"
+
+[[symbol]]
+tex = 'S'
+meaning = "the signal power, so that $S/N$ is the linear signal-to-noise ratio"
+
+[[symbol]]
+tex = 'E_b'
+meaning = "the energy per bit"
+
+[[symbol]]
+tex = 'N_0'
+meaning = "the noise spectral density, $k T_{sys}$"
+
+[[symbol]]
+tex = 'R_b'
+meaning = "the data rate in bits per second"
+
+[[symbol]]
+tex = 'M'
+meaning = "the link margin"
+
+[[symbol]]
+tex = 'S_{min}'
+meaning = "the receiver sensitivity threshold"
+
+[[symbol]]
+tex = '\theta_{3dB}'
+meaning = "the three-decibel beamwidth"
+
+[[symbol]]
+tex = 'f_0'
+meaning = "the transmitted carrier frequency"
+
+[[symbol]]
+tex = '\Delta f'
+meaning = "the observed Doppler shift"
+
+[[symbol]]
+tex = 'v_{radial}'
+meaning = "the radial velocity"
+
+[[symbol]]
+tex = 'c'
+meaning = "the speed of light"

@@ -1,0 +1,167 @@
+# Equation classification for A145. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, with power in watts, battery energy in joules, mass in kilograms and disk area in square metres, and the symbol $E$ denotes endurance in Equation 6 while $E_{batt}$ denotes stored energy, so the two must not be confused."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Lift Equation"
+gloss = "The lift of a wing is the product of the dynamic pressure, the wing area and the lift coefficient."
+cite = []
+digest = "fa3c067d06cb99aa"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Drag Equation"
+gloss = "The drag of a wing is the product of the dynamic pressure, the wing area and the drag coefficient."
+cite = []
+digest = "fb7256daab32d77d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Lift-to-Drag Ratio"
+gloss = "Because lift and drag share the dynamic pressure and the area, their ratio equals the ratio of the lift and drag coefficients."
+cite = []
+digest = "8767353eb50a924f"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number is the ratio of inertial to viscous forces, formed from the air density, the airspeed, a reference length and the dynamic viscosity."
+cite = ["ref_reynolds_number"]
+digest = "1fa14e47cc73a294"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Cruise Power Required"
+gloss = "The shaft power required in cruise is the drag times the airspeed divided by the propulsive efficiency."
+cite = []
+digest = "2bbb1347b42b6308"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Electric Breguet Endurance Equation"
+gloss = "The electric form of the Breguet endurance equation gives the endurance of a battery aircraft in steady level flight, favouring the operating point that maximises the ratio of the lift coefficient to the power three halves over the drag coefficient."
+cite = ["ref_breguet"]
+digest = "c22bc1b10d9ebce8"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Ideal Hover Power from Momentum Theory"
+gloss = "The Rankine and Froude momentum theory gives the ideal power to produce a thrust through a rotor disk at a given air density."
+cite = ["ref_actuator_disk"]
+digest = "e490185a3958f39b"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Actual Hover Power from the Figure of Merit"
+gloss = "The actual hover power exceeds the ideal by the reciprocal of the rotor figure of merit."
+cite = ["ref_figure_of_merit"]
+digest = "b59b838f0d39ac60"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Hover Thrust Equals Weight"
+gloss = "In steady hover the rotor thrust equals the vehicle weight."
+cite = []
+digest = "63ac3ad0993925cf"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Hover Power per Unit Mass"
+gloss = "Substituting the weight for thrust shows the hover power per unit mass scaling with the square root of disk loading."
+cite = []
+digest = "6f18c0078069f11b"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Hover Endurance"
+gloss = "The hover endurance of an electric multicopter is the usable battery energy divided by the hover power."
+cite = []
+digest = "814672887c438c6b"
+
+[[symbol]]
+tex = 'L'
+meaning = "the lift"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'V'
+meaning = "the airspeed"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing area"
+
+[[symbol]]
+tex = 'C_{L}'
+meaning = "the lift coefficient"
+
+[[symbol]]
+tex = 'C_{D}'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = 'Re'
+meaning = "the Reynolds number"
+
+[[symbol]]
+tex = 'c'
+meaning = "a reference length, typically the wing chord"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the dynamic viscosity of air"
+
+[[symbol]]
+tex = '\eta_{p}'
+meaning = "the propulsive efficiency"
+
+[[symbol]]
+tex = '\eta_{total}'
+meaning = "the cumulative efficiency of battery, motor and propeller"
+
+[[symbol]]
+tex = 'E_{batt}'
+meaning = "the energy stored in the battery"
+
+[[symbol]]
+tex = 'm'
+meaning = "the total mass"
+
+[[symbol]]
+tex = 'T'
+meaning = "the rotor thrust"
+
+[[symbol]]
+tex = 'A'
+meaning = "the rotor disk area"
+
+[[symbol]]
+tex = 'FM'
+meaning = "the rotor figure of merit"
+
+[[symbol]]
+tex = 'DL'
+meaning = "the disk loading, thrust per unit disk area"
+
+[[symbol]]
+tex = 'E_{hover}'
+meaning = "the hover endurance"

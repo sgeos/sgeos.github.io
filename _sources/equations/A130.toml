@@ -1,0 +1,59 @@
+# Equation classification for A130. Read by `python3 _lib/equations.py`.
+
+caution = "The payload fraction is a dimensionless ratio of masses, and the orbital relations use SI units, with the gravitational parameter in cubic metres per second squared and the radius and altitude in metres, so that the speeds are in metres per second."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Payload Fraction"
+gloss = "The payload fraction is the payload mass as a fraction of the takeoff mass."
+cite = []
+digest = "38bcb5bf2ddcb4bb"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Circular Orbital Speed"
+gloss = "The speed of a circular orbit at a given altitude is the square root of the gravitational parameter divided by the orbital radius."
+cite = ["ref_orbital_speed", "ref_circular_orbit"]
+digest = "7e235cddf46f3fb8"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Circularisation Delta-V at Apogee"
+gloss = "At apogee the velocity is purely horizontal, so the burn that closes the orbit supplies the difference between the circular speed and the horizontal speed."
+cite = ["ref_delta_v", "ref_orbital_maneuver"]
+digest = "a6439cfda0a82b09"
+
+[[symbol]]
+tex = 'f_{pl}'
+meaning = "the payload fraction"
+
+[[symbol]]
+tex = 'm_{payload}'
+meaning = "the payload mass"
+
+[[symbol]]
+tex = 'm_{takeoff}'
+meaning = "the takeoff mass"
+
+[[symbol]]
+tex = 'v_{circ}'
+meaning = "the circular orbital speed at the apogee altitude"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the Earth"
+
+[[symbol]]
+tex = 'R'
+meaning = "the radius of the Earth"
+
+[[symbol]]
+tex = 'h'
+meaning = "the altitude"
+
+[[symbol]]
+tex = 'v_h'
+meaning = "the horizontal velocity at apogee"

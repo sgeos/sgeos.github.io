@@ -1,0 +1,79 @@
+# Equation classification for A152. Read by `python3 _lib/equations.py`.
+
+caution = "The closure ratio and the density ratio are dimensionless, the light-time delay takes distance in metres and the speed of light in metres per second, and the synodic period takes both sidereal periods in days."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Closure Ratio"
+gloss = "The article defines closure as one less the mass crossing the analogue envelope from outside as a fraction of the total mass demand, so that a fully closed analogue scores one and a fully supplied analogue scores zero."
+cite = []
+digest = "3df259e14a20c697"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Density Ratio of Breathable Air in a Carbon Dioxide Atmosphere"
+gloss = "At equal temperature and pressure the density of an ideal gas scales with its mean molecular mass, so air at about twenty-nine grams per mole has about two thirds the density of carbon dioxide at about forty-four."
+cite = []
+digest = "8d0a62f3f5a61c7d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "One-Way Light-Time Delay"
+gloss = "The one-way delay of a signal between two points is their separation divided by the speed of light."
+cite = []
+digest = "4fd2c4603b83f3c9"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Synodic Period of Mars"
+gloss = "The synodic period follows from the difference of the reciprocal sidereal periods of the Earth and Mars and sets the interval between resupply windows at about seven hundred and eighty days."
+cite = []
+digest = "8f5da971232e6520"
+
+[[symbol]]
+tex = 'C'
+meaning = "the closure ratio"
+
+[[symbol]]
+tex = 'm_{ext}'
+meaning = "the total mass crossing the envelope from outside over a mission"
+
+[[symbol]]
+tex = 'm_{tot}'
+meaning = "the total mass demand the analogue satisfies over the mission"
+
+[[symbol]]
+tex = '\rho_{habitat}'
+meaning = "the density of the breathable habitat atmosphere"
+
+[[symbol]]
+tex = '\rho_{atmosphere}'
+meaning = "the density of the Venus carbon dioxide atmosphere"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the one-way light-time delay"
+
+[[symbol]]
+tex = 'd'
+meaning = "the distance between the two points"
+
+[[symbol]]
+tex = 'c'
+meaning = "the speed of light"
+
+[[symbol]]
+tex = 'T_{syn}'
+meaning = "the synodic period"
+
+[[symbol]]
+tex = 'T_E'
+meaning = "the Earth sidereal period, about 365.25 days"
+
+[[symbol]]
+tex = 'T_M'
+meaning = "the Mars sidereal period, about 686.97 days"

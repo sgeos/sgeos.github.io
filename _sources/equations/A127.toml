@@ -1,0 +1,67 @@
+# Equation classification for A127. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, with airspeed and gust velocity in metres per second and wing loading in newtons per square metre, the lift-curve slope is per radian, and load factors are dimensionless multiples of the weight."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Stall-Limited Load Factor"
+gloss = "The largest load factor available at a speed is the maximum lift at that speed divided by the weight, a parabola in airspeed."
+cite = ["ref_stall"]
+digest = "84aa315f27568d7a"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Manoeuvring Speed"
+gloss = "The corner of the flight envelope where the stall parabola meets the limit load factor lies at the stall speed multiplied by the square root of that limit."
+cite = ["ref_maneuvering_speed"]
+digest = "159191bbfa2df0e7"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Sharp-Edged Gust Load Increment"
+gloss = "A sharp-edged vertical gust changes the angle of attack and adds a load factor proportional to air density, gust velocity, lift-curve slope and airspeed over twice the wing loading."
+cite = []
+digest = "fc95bd702ca24fd6"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Margin of Safety"
+gloss = "The margin of safety is the allowable divided by the product of the factor of safety and the applied load, less one."
+cite = ["ref_margin_of_safety"]
+digest = "6bcdd4a4edfd23e9"
+
+[[symbol]]
+tex = 'n_{max}'
+meaning = "the largest load factor available at a speed"
+
+[[symbol]]
+tex = 'C_{L,max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 'W/S'
+meaning = "the wing loading"
+
+[[symbol]]
+tex = 'V_A'
+meaning = "the manoeuvring or corner speed"
+
+[[symbol]]
+tex = 'n_{limit}'
+meaning = "the structural limit load factor"
+
+[[symbol]]
+tex = 'U'
+meaning = "the gust velocity"
+
+[[symbol]]
+tex = 'a'
+meaning = "the lift-curve slope"
+
+[[symbol]]
+tex = 'MS'
+meaning = "the margin of safety"

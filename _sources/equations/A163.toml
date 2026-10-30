@@ -1,0 +1,103 @@
+# Equation classification for A163. Read by `python3 _lib/equations.py`.
+
+caution = "Values and costs are present values in millions of dollars in the worked examples, and probabilities are dimensionless numbers between zero and one, so the expected value is in the same monetary unit as the protected value and the cost."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Expected Value of a Patent Moat"
+gloss = "The article values a patent as the present value of exclusivity discounted by the product of the probabilities of surviving a validity challenge, detecting infringement and enforcing successfully, less the lifetime cost, a model that treats the three events as independent."
+cite = ["ref_expected_value"]
+digest = "323f589961fdd1cb"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Base-Case Moat Value"
+gloss = "The expected value is evaluated for an illustrative patent with assumed probabilities of 0.6, 0.7 and 0.5, a protected value of ten million and a cost of half a million."
+cite = []
+digest = "a2b4947225767dea"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Moat Value for a Hard-to-Detect Method"
+gloss = "The base case is repeated with the assumed detection probability lowered to two tenths, as for a process used inside a competitor's own factory."
+cite = []
+digest = "b243c976fde74a4c"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Protected Value Capped by Design-Around Cost"
+gloss = "The article caps the protectable value at the lesser of the market value and the design-around cost, on the assumption that a rational competitor will not pay more to be excluded than avoidance costs."
+cite = ["ref_design_around"]
+digest = "b798a4e3ebbb127c"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Moat Value with a One Million Design-Around"
+gloss = "The base-case probabilities are applied to an effective value of one million set by an assumed design-around cost, which drives the expected value below zero."
+cite = []
+digest = "61fdc400ab7902e2"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Blocking Probability of a Portfolio"
+gloss = "The probability that at least one patent blocks is the complement of all failing, which holds only under the assumption the article states that the patents hold or fail independently."
+cite = []
+digest = "6a2760c0d5ec39dc"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Blocking Probability of Five Weak Patents"
+gloss = "The portfolio probability is evaluated for an illustrative five patents each assumed to block with probability three tenths."
+cite = []
+digest = "b2be53332af218d7"
+
+[[symbol]]
+tex = 'E'
+meaning = "the expected value of the patent as a moat"
+
+[[symbol]]
+tex = 'p_v'
+meaning = "the probability the patent survives a validity challenge"
+
+[[symbol]]
+tex = 'p_d'
+meaning = "the probability that infringement, when it occurs, is detected"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the probability of successful enforcement once infringement is detected"
+
+[[symbol]]
+tex = 'V'
+meaning = "the present value of the exclusivity"
+
+[[symbol]]
+tex = 'C'
+meaning = "the total cost to obtain, maintain and enforce the patent"
+
+[[symbol]]
+tex = 'V_{\text{eff}}'
+meaning = "the value the patent can actually protect"
+
+[[symbol]]
+tex = 'V_{\text{market}}'
+meaning = "the market value of the exclusivity"
+
+[[symbol]]
+tex = 'A'
+meaning = "the cost to a competitor of designing around the claims"
+
+[[symbol]]
+tex = 'P_{\text{block}}'
+meaning = "the probability that the portfolio blocks a competitor"
+
+[[symbol]]
+tex = 'q_i'
+meaning = "the probability that patent $i$ alone would block"

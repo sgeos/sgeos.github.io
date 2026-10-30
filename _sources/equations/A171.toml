@@ -1,0 +1,91 @@
+# Equation classification for A171. Read by `python3 _lib/equations.py`.
+
+caution = "Margins and acquisition costs are in dollars, margins per period, and the churn and discount rates are fractions per period, so the payback time is in the same periods and the health ratio and viral coefficient are dimensionless."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Discounted Customer Lifetime Value"
+gloss = "A margin received each period from a customer who churns at a constant rate, discounted at a rate per period, has the present value of the margin divided by the sum of the churn and discount rates."
+cite = ["ref_present_value"]
+digest = "8ade840a307091f1"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Customer Worth Exceeds Acquisition Cost"
+gloss = "The first condition of a business is that a customer be worth more than the cost of acquiring them."
+cite = []
+digest = "b468c17c918a8321"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Ratio of Lifetime Value to Acquisition Cost"
+gloss = "A common standard of health asks for a customer to be worth at least three times the cost of acquisition."
+cite = []
+digest = "f72dac6161bd6935"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Payback Period"
+gloss = "The payback period is the acquisition cost divided by the margin per period."
+cite = []
+digest = "db092f60addf704b"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Geometric Series of Viral Recruits"
+gloss = "A customer, their recruits and the recruits of those recruits sum as a geometric series to one over one less the viral coefficient while that coefficient is below one."
+cite = ["ref_kfactor"]
+digest = "ff7f7d0393ee859a"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Effective Acquisition Cost with Virality"
+gloss = "Spreading the cost of one paid customer across all the customers that customer brings reduces the acquisition cost by the factor one less the viral coefficient."
+cite = ["ref_kfactor"]
+digest = "6e8278df27b2701a"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Health Ratio with Virality"
+gloss = "Dividing the customer worth by the effective acquisition cost multiplies the health ratio by one over one less the viral coefficient."
+cite = []
+digest = "bce80022bde9c904"
+
+[[symbol]]
+tex = 'V'
+meaning = "the present value of a customer"
+
+[[symbol]]
+tex = 'm'
+meaning = "the contribution margin per period"
+
+[[symbol]]
+tex = 'c'
+meaning = "the churn rate, written $\\lambda$ in the retention article"
+
+[[symbol]]
+tex = 'r'
+meaning = "the discount rate per period"
+
+[[symbol]]
+tex = 'A'
+meaning = "the acquisition cost per customer"
+
+[[symbol]]
+tex = 't_{\text{payback}}'
+meaning = "the payback period"
+
+[[symbol]]
+tex = 'k'
+meaning = "the viral coefficient, invitations sent times the fraction that convert"
+
+[[symbol]]
+tex = 'A_{\text{eff}}'
+meaning = "the effective acquisition cost with virality"

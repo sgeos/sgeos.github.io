@@ -1,0 +1,83 @@
+# Equation classification for A112. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, with airspeed in metres per second, wing area in square metres and air density in kilograms per cubic metre, except that the wing cube loading is quoted in the hobby units of ounces and square feet, so its numerical bands apply only in those units."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Reynolds Number of a Wing"
+gloss = "The Reynolds number is the ratio of inertial to viscous forces in the flow, formed from the airspeed, the wing chord and the kinematic viscosity of air."
+cite = ["ref_reynolds"]
+digest = "5fdd9d7209f63080"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Square-Cube Scaling of Mass, Area and Wing Loading"
+gloss = "For a fixed shape and construction, mass grows as the cube of a characteristic length and wing area as its square, so wing loading grows in proportion to the length."
+cite = ["ref_square_cube"]
+digest = "d21d73a681fb263a"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Lift Equation"
+gloss = "The lift of a wing is the product of the dynamic pressure, the wing area and the lift coefficient."
+cite = ["ref_lift_coefficient"]
+digest = "70f3e0ec65731ce8"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Stall Speed"
+gloss = "Setting lift equal to weight at the maximum lift coefficient gives the slowest speed at which the wing can support the aircraft in level flight."
+cite = []
+digest = "70f3a1e8e5c3d742"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Wing Cube Loading"
+gloss = "Wing cube loading divides the mass by the wing area raised to the power three halves, a hobby figure of merit that removes the dependence of wing loading on size."
+cite = ["ref_wcl"]
+digest = "6594b4ab035a38a3"
+
+[[symbol]]
+tex = 'Re'
+meaning = "the Reynolds number"
+
+[[symbol]]
+tex = 'V'
+meaning = "the airspeed"
+
+[[symbol]]
+tex = 'c'
+meaning = "the wing chord"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the kinematic viscosity of air, about $1.5 \\times 10^{-5}$ square metres per second"
+
+[[symbol]]
+tex = 'L'
+meaning = "a characteristic length in Equation 2 and the lift in Equation 3"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing area"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight, $W = m g$"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density, about 1.225 kilograms per cubic metre at sea level"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient, near 1.0 to 1.3 for a simple model wing"
+
+[[symbol]]
+tex = '\mathrm{WCL}'
+meaning = "the wing cube loading"

@@ -115,14 +115,20 @@ equal to the displaced atmospheric mass
 times the local gravitational acceleration.
 The buoyancy condition
 
-$$ m_{habitat,total} \cdot g_{Venus} = (\rho_{atm} - \rho_{internal}) \cdot V_{envelope} \cdot g_{Venus} $$
+$$
+ m_{habitat,total} \cdot g_{Venus} = (\rho_{atm} - \rho_{internal}) \cdot V_{envelope} \cdot g_{Venus} 
+\tag{1}
+$$
 
 simplifies
 under the equal gravitational acceleration
 on both sides
 to the mass balance
 
-$$ m_{habitat,total} = (\rho_{atm} - \rho_{internal}) \cdot V_{envelope} $$
+$$
+ m_{habitat,total} = (\rho_{atm} - \rho_{internal}) \cdot V_{envelope} 
+\tag{2}
+$$
 
 where $\rho_{atm}$
 is the Venus atmospheric density at the operating altitude,
@@ -147,7 +153,10 @@ between the internal and external atmospheres
 at the same temperature and pressure
 follows from the molar mass ratio
 
-$$ \frac{\rho_{internal}}{\rho_{atm}} = \frac{M_{internal}}{M_{atm}} $$
+$$
+ \frac{\rho_{internal}}{\rho_{atm}} = \frac{M_{internal}}{M_{atm}} 
+\tag{3}
+$$
 
 For Earth-equivalent breathing mix
 of nitrogen and oxygen
@@ -157,7 +166,10 @@ at mean molar mass approximately forty-three point five grams per mole
 under the dominant carbon dioxide,
 the density ratio is
 
-$$ \frac{\rho_{internal}}{\rho_{atm}} \approx \frac{29}{43.5} \approx 0.667 $$
+$$
+ \frac{\rho_{internal}}{\rho_{atm}} \approx \frac{29}{43.5} \approx 0.667 
+\tag{4}
+$$
 
 which means
 each cubic metre of envelope volume
@@ -180,7 +192,10 @@ The lift per cubic metre of envelope volume
 at thermal equilibrium with the external atmosphere
 is approximately
 
-$$ (\rho_{atm} - \rho_{internal}) \approx 1.5 - 1.0 = 0.5 \text{ kg/m}^3 $$
+$$
+ (\rho_{atm} - \rho_{internal}) \approx 1.5 - 1.0 = 0.5 \text{ kg/m}^3 
+\tag{5}
+$$
 
 so a habitat envelope
 of one thousand cubic metres
@@ -198,7 +213,10 @@ might require
 across the integrated subsystem buildout.
 The required envelope volume
 
-$$ V_{envelope} = \frac{m_{habitat,total}}{\rho_{atm} - \rho_{internal}} $$
+$$
+ V_{envelope} = \frac{m_{habitat,total}}{\rho_{atm} - \rho_{internal}} 
+\tag{6}
+$$
 
 scales linearly with the total mass budget
 at the chosen altitude.
@@ -223,7 +241,10 @@ The Venus atmospheric pressure
 falls approximately exponentially with altitude
 through
 
-$$ p(h) = p_0 \cdot e^{-h/H} $$
+$$
+ p(h) = p_0 \cdot e^{-h/H} 
+\tag{7}
+$$
 
 where $p_0$
 is the surface pressure of approximately ninety-two bar,
@@ -236,7 +257,10 @@ The atmospheric density
 follows a similar exponential decay
 under isothermal conditions
 
-$$ \rho(h) = \rho_0 \cdot e^{-h/H} $$
+$$
+ \rho(h) = \rho_0 \cdot e^{-h/H} 
+\tag{8}
+$$
 
 with surface density $\rho_0$
 of approximately
@@ -287,7 +311,10 @@ and let $m_{reserves}$ denote
 the operational consumables and reserves.
 The total habitat mass is
 
-$$ m_{habitat,total} = m_{structure} + m_{crew} + m_{subsystems} + m_{reserves} $$
+$$
+ m_{habitat,total} = m_{structure} + m_{crew} + m_{subsystems} + m_{reserves} 
+\tag{9}
+$$
 
 For a four-crew Venus cloudtop habitat
 at approximately
@@ -298,11 +325,17 @@ across the electrical, water, communications, food, waste, and transportation su
 and one tonne of operational reserves,
 the total habitat mass is approximately
 
-$$ m_{habitat,total} \approx 2{,}000 + 320 + 3{,}000 + 1{,}000 = 6{,}320 \text{ kg} $$
+$$
+ m_{habitat,total} \approx 2{,}000 + 320 + 3{,}000 + 1{,}000 = 6{,}320 \text{ kg} 
+\tag{10}
+$$
 
 which requires an envelope volume of approximately
 
-$$ V_{envelope} = \frac{6{,}320}{0.5} \approx 12{,}600 \text{ m}^3 $$
+$$
+ V_{envelope} = \frac{6{,}320}{0.5} \approx 12{,}600 \text{ m}^3 
+\tag{11}
+$$
 
 at fifty kilometres altitude.
 A spherical envelope of this volume
@@ -321,7 +354,10 @@ or composite envelope materials
 that resist sulfuric acid corrosion.
 The spherical envelope surface area is
 
-$$ A_{envelope} = 4 \pi r^2 $$
+$$
+ A_{envelope} = 4 \pi r^2 
+\tag{12}
+$$
 
 which for a fourteen-and-a-half-metre-radius sphere
 is approximately
@@ -348,7 +384,10 @@ at zero point seven two three astronomical units
 and the irradiance ratio
 follows the inverse square law
 
-$$ \frac{S_{Venus}}{S_{Earth}} = \left( \frac{d_{Earth}}{d_{Venus}} \right)^2 = \left( \frac{1}{0.723} \right)^2 \approx 1.92 $$
+$$
+ \frac{S_{Venus}}{S_{Earth}} = \left( \frac{d_{Earth}}{d_{Venus}} \right)^2 = \left( \frac{1}{0.723} \right)^2 \approx 1.92 
+\tag{13}
+$$
 
 The cloud albedo
 of approximately zero point seven five
@@ -364,7 +403,10 @@ under the
 photovoltaic conversion efficiency
 follows
 
-$$ P_{electric} = S_{Venus} \cdot \eta_{PV} \cdot CF $$
+$$
+ P_{electric} = S_{Venus} \cdot \eta_{PV} \cdot CF 
+\tag{14}
+$$
 
 where $S_{Venus} \approx 2{,}601$ watts per square metre
 is the Venus solar constant,
@@ -404,7 +446,10 @@ The Earth-Venus synodic period
 that sets the resupply window cadence
 follows
 
-$$ T_{syn,Venus} = \frac{1}{\left|\,\dfrac{1}{T_E} - \dfrac{1}{T_V}\,\right|} \approx 584 \text{ days} $$
+$$
+ T_{syn,Venus} = \frac{1}{\left|\,\dfrac{1}{T_E} - \dfrac{1}{T_V}\,\right|} \approx 584 \text{ days} 
+\tag{15}
+$$
 
 where $T_E \approx 365.25$ days
 is the Earth sidereal period
@@ -1365,6 +1410,163 @@ which is the operational reason
 the engineering content
 applies far beyond the space-colonization context
 that provided the framing.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 15 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 15, 10 are established and 5 are bespoke.
+Densities are in kilograms per cubic metre, masses in kilograms, volumes in cubic metres and irradiance in watts per square metre, molar masses are in grams per mole and enter only as a ratio, and the exponential atmosphere uses one scale height for the lower atmosphere, so it does not reproduce the stated conditions at the fifty-kilometre operating altitude.
+
+**Equation 1, Buoyancy Condition.**
+The weight of the habitat equals the weight of displaced atmosphere less the weight of the internal gas, by the principle of Archimedes.
+
+$$
+ m_{habitat,total} \cdot g_{Venus} = (\rho_{atm} - \rho_{internal}) \cdot V_{envelope} \cdot g_{Venus} 
+\tag{1}
+$$
+
+**Equation 2, Buoyant Mass Balance.**
+Cancelling the common gravitational acceleration leaves the supportable mass as the density difference times the envelope volume.
+
+$$
+ m_{habitat,total} = (\rho_{atm} - \rho_{internal}) \cdot V_{envelope} 
+\tag{2}
+$$
+
+**Equation 3, Density Ratio from Molar Masses.**
+At equal temperature and pressure the ratio of two ideal gas densities equals the ratio of their molar masses.
+
+$$
+ \frac{\rho_{internal}}{\rho_{atm}} = \frac{M_{internal}}{M_{atm}} 
+\tag{3}
+$$
+
+**Equation 4, Density Ratio of Breathing Mix to Venus Atmosphere.**
+A breathing mix at about twenty-nine grams per mole has about two thirds the density of the carbon dioxide atmosphere of Venus at about forty-three and a half.
+
+$$
+ \frac{\rho_{internal}}{\rho_{atm}} \approx \frac{29}{43.5} \approx 0.667 
+\tag{4}
+$$
+
+*Equation 5, Bespoke Lift Density at Fifty Kilometres.*
+The lift per cubic metre is evaluated at the fifty-kilometre operating altitude the article selects, where the external density is taken as about one and a half kilograms per cubic metre and the internal density at about one.
+
+$$
+ (\rho_{atm} - \rho_{internal}) \approx 1.5 - 1.0 = 0.5 \text{ kg/m}^3 
+\tag{5}
+$$
+
+**Equation 6, Required Envelope Volume.**
+Rearranging the buoyant mass balance gives the envelope volume as the total habitat mass divided by the density difference.
+
+$$
+ V_{envelope} = \frac{m_{habitat,total}}{\rho_{atm} - \rho_{internal}} 
+\tag{6}
+$$
+
+*Equation 7, Bespoke Exponential Pressure Profile of Venus.*
+The pressure is modelled as a single exponential from the surface value with one scale height of about 15.9 kilometres, an isothermal simplification of an atmosphere whose temperature falls steeply with altitude.
+
+$$
+ p(h) = p_0 \cdot e^{-h/H} 
+\tag{7}
+$$
+
+*Equation 8, Bespoke Exponential Density Profile of Venus.*
+The density is modelled with the same single scale height under the isothermal assumption, which the article qualifies by quoting the measured density at fifty kilometres separately.
+
+$$
+ \rho(h) = \rho_0 \cdot e^{-h/H} 
+\tag{8}
+$$
+
+**Equation 9, Total Habitat Mass.**
+The total habitat mass is the sum of the structural envelope, crew, subsystem hardware and reserves.
+
+$$
+ m_{habitat,total} = m_{structure} + m_{crew} + m_{subsystems} + m_{reserves} 
+\tag{9}
+$$
+
+*Equation 10, Bespoke Mass of a Four-Crew Cloudtop Habitat.*
+The total mass is summed from assumed allocations of two tonnes of envelope, eighty kilograms per crew member, three tonnes of subsystems and one tonne of reserves.
+
+$$
+ m_{habitat,total} \approx 2{,}000 + 320 + 3{,}000 + 1{,}000 = 6{,}320 \text{ kg} 
+\tag{10}
+$$
+
+*Equation 11, Bespoke Envelope Volume of the Example Habitat.*
+The envelope volume is evaluated from the assumed habitat mass of 6,320 kilograms and the lift density of half a kilogram per cubic metre taken at fifty kilometres.
+
+$$
+ V_{envelope} = \frac{6{,}320}{0.5} \approx 12{,}600 \text{ m}^3 
+\tag{11}
+$$
+
+**Equation 12, Surface Area of a Sphere.**
+The surface area of a spherical envelope is four pi times the square of its radius.
+
+$$
+ A_{envelope} = 4 \pi r^2 
+\tag{12}
+$$
+
+**Equation 13, Inverse-Square Solar Irradiance at Venus.**
+The solar irradiance scales with the inverse square of heliocentric distance, so at 0.723 astronomical units Venus receives about 1.92 times the irradiance at the Earth.
+
+$$
+ \frac{S_{Venus}}{S_{Earth}} = \left( \frac{d_{Earth}}{d_{Venus}} \right)^2 = \left( \frac{1}{0.723} \right)^2 \approx 1.92 
+\tag{13}
+$$
+
+**Equation 14, Photovoltaic Power per Unit Area.**
+The electrical power per square metre of panel is the incident irradiance times the cell efficiency times the combined capacity factor.
+[electricity and energy storage article][related_post_electricity]
+
+$$
+ P_{electric} = S_{Venus} \cdot \eta_{PV} \cdot CF 
+\tag{14}
+$$
+
+**Equation 15, Synodic Period of Venus.**
+The synodic period follows from the difference of the reciprocal sidereal periods of the Earth and Venus and sets the resupply window cadence at about five hundred and eighty-four days.
+
+$$
+ T_{syn,Venus} = \frac{1}{\left|\,\dfrac{1}{T_E} - \dfrac{1}{T_V}\,\right|} \approx 584 \text{ days} 
+\tag{15}
+$$
+
+### Notation
+
+- $m_{habitat,total}$, the total habitat mass
+- $g_{Venus}$, the gravitational acceleration at Venus
+- $\rho_{atm}$, the Venus atmospheric density at the operating altitude
+- $\rho_{internal}$, the density of the internal breathing mix
+- $V_{envelope}$, the envelope volume
+- $M_{internal}$, the mean molar mass of the internal breathing mix
+- $M_{atm}$, the mean molar mass of the Venus atmosphere
+- $p_0$, the Venus surface pressure, about 92 bar
+- $H$, the atmospheric scale height, about 15.9 kilometres in the lower atmosphere
+- $\rho_0$, the Venus surface density, about 65 kilograms per cubic metre
+- $m_{structure}$, the envelope structural mass
+- $m_{crew}$, the crew complement mass
+- $m_{subsystems}$, the integrated subsystem hardware mass
+- $m_{reserves}$, the operational consumables and reserves
+- $A_{envelope}$, the spherical envelope surface area
+- $S_{Venus}$, the solar irradiance at Venus, about 2,601 watts per square metre
+- $S_{Earth}$, the solar irradiance at the Earth
+- $\eta_{PV}$, the photovoltaic cell efficiency
+- $CF$, the combined capacity factor
+- $T_{syn,Venus}$, the Earth-Venus synodic period
+- $T_E$, the Earth sidereal period, about 365.25 days
+- $T_V$, the Venus sidereal period, about 224.7 days
 
 ## References
 

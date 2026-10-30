@@ -1,0 +1,199 @@
+# Equation classification for A156. Read by `python3 _lib/equations.py`.
+
+caution = "Food energy is in kilocalories, crop yields in kilocalories per square metre per day and light in moles of photons, while the lighting power equation needs the daily light integral in micromoles and the photoperiod in seconds, and $E_{cal}$ is the per-crew daily requirement in Equations 2, 4 and 5 but the caloric content of a food in Equation 3."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Food Closure Ratio"
+gloss = "The food closure ratio is the locally produced caloric flux as a fraction of the total crew caloric demand across the mission."
+cite = ["related_post_water"]
+digest = "38b8d6cae0ea8b10"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Makeup Caloric Demand"
+gloss = "The calories that must be imported over a mission are the crew size times the per-crew daily requirement times the mission duration times the unproduced fraction."
+cite = []
+digest = "03871c1798dfaec3"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Atwater Caloric Content"
+gloss = "The Atwater factor system assigns four kilocalories per gram to carbohydrate and protein and nine to fat."
+cite = []
+digest = "478c97f5a48320cf"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Cultivation Area"
+gloss = "The required cultivation area is the crew caloric demand, multiplied by a safety factor, divided by the achievable caloric yield per square metre per day."
+cite = []
+digest = "92fe669355df5d03"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Cultivation Area for a Four-Crew Habitat"
+gloss = "The cultivation area is evaluated for an assumed four crew at three thousand kilocalories per day, an assumed achievable yield of one hundred and fifty kilocalories per square metre per day and a safety factor of one and a half."
+cite = []
+digest = "e19f244d78e2cac0"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Daily Light Integral"
+gloss = "The daily light integral is the photosynthetic photon flux density integrated over the photoperiod."
+cite = []
+digest = "4243ef0929878fba"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Lighting Power per Unit Area"
+gloss = "The average electrical lighting power per square metre is the daily light integral divided by the lamp efficacy and the photoperiod."
+cite = []
+digest = "e71202b2bab619bc"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Food System Water Demand"
+gloss = "The water the food system draws is the cultivation area multiplied by the crop evapotranspiration rate."
+cite = []
+digest = "1fad7c8844fad710"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Net Photosynthesis Reaction"
+gloss = "Six moles of carbon dioxide and six of water yield one mole of hexose sugar and six moles of oxygen."
+cite = []
+digest = "899f2eaf0583cce3"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Carbon Dioxide Consumed per Unit Dry Biomass"
+gloss = "Treating dry biomass as carbohydrate, the stoichiometry fixes about one and a half kilograms of carbon dioxide per kilogram of dry biomass."
+cite = []
+digest = "7e4d4ed053c2e200"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Oxygen Produced per Unit Dry Biomass"
+gloss = "By the same stoichiometry the oxygen released is approximately equal in mass to the dry biomass produced."
+cite = []
+digest = "18828df3d37bd15f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Vertical Farm Yield per Unit Floor Area"
+gloss = "The yield per unit floor area of a vertical rack is the per-layer caloric yield multiplied by the number of stacked layers."
+cite = []
+digest = "773fbc88fc977268"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Photosynthetic Conversion Efficiency"
+gloss = "The photosynthetic conversion efficiency is the harvested biomass energy as a fraction of the absorbed photosynthetically active radiation."
+cite = []
+digest = "574f9b40b52d1723"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Biogas Yield from Volatile Solids"
+gloss = "The biogas volume is the mass of volatile solids in the input waste multiplied by the specific biogas yield of the substrate."
+cite = []
+digest = "0ae42a4b53e6dc04"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Feed Conversion Ratio"
+gloss = "The feed conversion ratio is the feed mass required per unit of animal mass produced."
+cite = []
+digest = "01fe0dc0f36560e4"
+
+[[symbol]]
+tex = 'C_{food}'
+meaning = "the food closure ratio"
+
+[[symbol]]
+tex = 'E_{cal,produced}'
+meaning = "the locally produced caloric flux"
+
+[[symbol]]
+tex = 'E_{cal,consumed}'
+meaning = "the total crew caloric demand across the mission"
+
+[[symbol]]
+tex = 'N_{crew}'
+meaning = "the crew complement"
+
+[[symbol]]
+tex = 'E_{cal}'
+meaning = "the per-crew daily caloric requirement in kilocalories, or in Equation 3 the caloric content of a food"
+
+[[symbol]]
+tex = 'T_{mission}'
+meaning = "the mission duration"
+
+[[symbol]]
+tex = 'A_{crop}'
+meaning = "the required cultivation area"
+
+[[symbol]]
+tex = 'Y'
+meaning = "the achievable caloric yield in kilocalories per square metre per day"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the dimensionless safety factor, typically 1.5 to 2"
+
+[[symbol]]
+tex = 'DLI'
+meaning = "the daily light integral"
+
+[[symbol]]
+tex = 'PPFD'
+meaning = "the photosynthetic photon flux density in micromoles per square metre per second"
+
+[[symbol]]
+tex = 't_{photoperiod}'
+meaning = "the photoperiod duration in seconds"
+
+[[symbol]]
+tex = '\eta_{LED}'
+meaning = "the lighting efficacy, about three micromoles per joule"
+
+[[symbol]]
+tex = 'ET_{crop}'
+meaning = "the crop evapotranspiration rate in litres per square metre per day"
+
+[[symbol]]
+tex = 'N_{layers}'
+meaning = "the number of stacked cultivation layers"
+
+[[symbol]]
+tex = '\eta_{photo}'
+meaning = "the photosynthetic conversion efficiency"
+
+[[symbol]]
+tex = 'm_{VS}'
+meaning = "the mass of volatile solids in the input waste"
+
+[[symbol]]
+tex = 'y_{biogas}'
+meaning = "the specific biogas yield, typically two hundred to five hundred litres per kilogram of volatile solids"
+
+[[symbol]]
+tex = 'FCR'
+meaning = "the feed conversion ratio"

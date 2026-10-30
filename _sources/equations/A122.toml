@@ -1,0 +1,51 @@
+# Equation classification for A122. Read by `python3 _lib/equations.py`.
+
+caution = "Both quantities are dimensionless, with lengths measured along the body axis and normalised by the mean aerodynamic chord, so a static margin of 0.12 means a distance of twelve percent of that chord."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Static Margin"
+gloss = "The static margin is the distance from the centre of gravity aft to the neutral point as a fraction of the mean aerodynamic chord."
+cite = ["ref_long_stability", "ref_chord"]
+digest = "a4bdd673cb97549f"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Horizontal Tail Volume Coefficient"
+gloss = "The horizontal tail volume coefficient is the product of tail arm and tail area divided by the product of mean aerodynamic chord and wing area."
+cite = []
+digest = "9b186e69264fdd19"
+
+[[symbol]]
+tex = 'K_n'
+meaning = "the static margin"
+
+[[symbol]]
+tex = 'x_{np}'
+meaning = "the position of the neutral point"
+
+[[symbol]]
+tex = 'x_{cg}'
+meaning = "the position of the centre of gravity"
+
+[[symbol]]
+tex = '\bar c'
+meaning = "the mean aerodynamic chord"
+
+[[symbol]]
+tex = 'V_H'
+meaning = "the horizontal tail volume coefficient"
+
+[[symbol]]
+tex = 'l_t'
+meaning = "the tail arm"
+
+[[symbol]]
+tex = 'S_t'
+meaning = "the horizontal tail area"
+
+[[symbol]]
+tex = 'S_w'
+meaning = "the wing area"

@@ -1,0 +1,91 @@
+# Equation classification for A169. Read by `python3 _lib/equations.py`.
+
+caution = "Time is counted in periods, months in the worked example, churn rates are fractions per period and retention is a dimensionless fraction of the starting cohort, so a lifetime comes out in the same periods as the rates."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Exponential Retention Without Fit"
+gloss = "The article represents the fate without fit as exponential decay at a constant churn rate, so every cohort eventually empties."
+cite = ["ref_exponential"]
+digest = "6805bcbd1c89560e"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Retention with a Loyal Core"
+gloss = "The article models a cohort as a loyal fraction that never leaves plus a remainder that churns at a constant rate."
+cite = ["ref_retention"]
+digest = "7afc9375ae8d3555"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Retention Plateau"
+gloss = "In the loyal-core model the retention curve tends to the loyal fraction, which the article takes as the signature of product-market fit."
+cite = []
+digest = "44add7facac89f84"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "User Base with Constant Arrivals and Proportional Churn"
+gloss = "In the simplest stock-and-flow account a user base grows by a constant arrival rate and loses a fixed fraction of its members each period."
+cite = []
+digest = "b4f396df42abb9bf"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Steady-State User Base"
+gloss = "The user base stops growing when arrivals balance departures, at the arrival rate divided by the churn rate."
+cite = ["ref_churn"]
+digest = "8abb0337d2a693a6"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Expected Lifetime as the Area Under the Retention Curve"
+gloss = "The expected lifetime of a user is the integral of the retention curve over all time, a standard fact of survival analysis."
+cite = ["ref_survival_analysis"]
+digest = "588f925fde4edc05"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Two-Rate Retention and Lifetime"
+gloss = "The article lets the loyal core churn at a small rate of its own, which makes retention a mixture of two exponentials and the lifetime the weighted sum of their reciprocal rates."
+cite = []
+digest = "f558f121c4005144"
+
+[[symbol]]
+tex = 'R(t)'
+meaning = "the fraction of a cohort still active $t$ periods after first use"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the churn rate of non-loyal users per period"
+
+[[symbol]]
+tex = 'f'
+meaning = "the loyal fraction of each cohort"
+
+[[symbol]]
+tex = 'N'
+meaning = "the user base"
+
+[[symbol]]
+tex = 'a'
+meaning = "the rate at which new users arrive"
+
+[[symbol]]
+tex = 'N^\ast'
+meaning = "the steady-state user base"
+
+[[symbol]]
+tex = 'L'
+meaning = "the expected lifetime of a user"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the small churn rate of the loyal core"

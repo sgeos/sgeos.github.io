@@ -1,0 +1,191 @@
+# Equation classification for A158. Read by `python3 _lib/equations.py`.
+
+caution = "Waste rates are in kilograms per day, intervals in days, storage density in kilograms per cubic metre and storage volume in cubic metres, while closure ratios, residue fractions, compaction ratios and efficiencies are dimensionless."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Aggregate Waste Production Rate"
+gloss = "The aggregate waste rate is the crew complement times the sum of the per-crew daily production rates of every waste stream."
+cite = []
+digest = "375ecc52e06d6630"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Waste Closure Ratio"
+gloss = "The waste closure ratio is the mass recovered back into the input streams as a fraction of the mass produced."
+cite = ["related_post_food"]
+digest = "cbd32d85a737ca77"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Waste Storage Volume"
+gloss = "The storage volume is the unrecovered waste mass accumulated over a disposition interval, multiplied by a safety factor and divided by the storage density of treated waste."
+cite = []
+digest = "d20bc86b70175fa7"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Storage Volume for a Four-Crew Habitat"
+gloss = "The storage volume is evaluated for an assumed habitat producing twenty kilograms of waste per day at an assumed fifty percent closure over a six-month cadence, with an assumed compacted density of five hundred kilograms per cubic metre and a safety factor of one and a half."
+cite = []
+digest = "11d140910a1feaa5"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Disposition Mass Flux"
+gloss = "The waste mass that must leave the envelope each day is the aggregate production rate times the unrecovered fraction."
+cite = []
+digest = "a9ca9e738a72d117"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Disposition Mass over a Six-Month Interval"
+gloss = "The disposition flux of the assumed example, ten kilograms per day, is integrated over an assumed one hundred and eighty day interval."
+cite = []
+digest = "7cebe68761ecdaf3"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Incinerator Residue Mass Fraction"
+gloss = "The residue fraction is the ash mass as a fraction of the input mass, about five to ten percent for dry organic input."
+cite = []
+digest = "bd19fb0de0045529"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Compaction Ratio"
+gloss = "The compaction ratio is the input volume divided by the compacted output volume."
+cite = []
+digest = "2e21ad59ecf5cffc"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Lithium Hydroxide Carbon Dioxide Absorption"
+gloss = "Two moles of lithium hydroxide absorb one mole of carbon dioxide irreversibly to form lithium carbonate and water."
+cite = []
+digest = "c3a5a893bc37c49a"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Stoichiometric Lithium Hydroxide to Carbon Dioxide Mass Ratio"
+gloss = "The molar masses fix about 1.09 kilograms of lithium hydroxide per kilogram of carbon dioxide under perfect utilisation."
+cite = []
+digest = "c3c744649f6aef0e"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Lithium Hydroxide Mass for a Mission"
+gloss = "The lithium hydroxide a mission requires is the stoichiometric ratio times the crew carbon dioxide output over the mission, divided by the utilisation efficiency."
+cite = []
+digest = "49b881d9b8846001"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Sabatier Reaction"
+gloss = "Carbon dioxide and four moles of hydrogen react over a catalyst to yield methane and two moles of water."
+cite = ["ref_sabatier"]
+digest = "23b618419c3bb278"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Bosch Reaction"
+gloss = "Carbon dioxide and two moles of hydrogen react over a catalyst to yield solid carbon and two moles of water."
+cite = []
+digest = "e590c31e0b9700f0"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Filter Removal Efficiency"
+gloss = "The removal efficiency of a filter is one less the ratio of outlet to inlet particulate concentration."
+cite = []
+digest = "e8f9db7c834fcf85"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Untreated Storage Volume over a Mission"
+gloss = "Without treatment or recovery the storage volume grows linearly with mission duration at the storage density of raw waste."
+cite = []
+digest = "f13e50667dcebbf1"
+
+[[symbol]]
+tex = '\dot{m}_{total}'
+meaning = "the aggregate waste production rate"
+
+[[symbol]]
+tex = 'N_{crew}'
+meaning = "the crew complement"
+
+[[symbol]]
+tex = '\dot{m}_{waste,i}'
+meaning = "the per-crew per-day production rate of waste stream $i$ in kilograms per crew per day"
+
+[[symbol]]
+tex = 'C_{waste}'
+meaning = "the waste closure ratio"
+
+[[symbol]]
+tex = 'V_{storage}'
+meaning = "the waste storage volume"
+
+[[symbol]]
+tex = 'T_{disposition}'
+meaning = "the interval between disposition events in days"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the dimensionless safety factor, typically 1.5 to 2"
+
+[[symbol]]
+tex = '\rho_{waste}'
+meaning = "the storage density of treated waste in kilograms per cubic metre"
+
+[[symbol]]
+tex = 'f_{residue}'
+meaning = "the incinerator residue mass fraction"
+
+[[symbol]]
+tex = 'R_{compact}'
+meaning = "the compaction ratio"
+
+[[symbol]]
+tex = 'M_{LiOH}'
+meaning = "the lithium hydroxide mass for the mission"
+
+[[symbol]]
+tex = '\dot{m}_{CO_2}'
+meaning = "the per-crew carbon dioxide production rate"
+
+[[symbol]]
+tex = '\eta_{LiOH}'
+meaning = "the lithium hydroxide utilisation efficiency"
+
+[[symbol]]
+tex = 'T_{mission}'
+meaning = "the mission duration"
+
+[[symbol]]
+tex = '\eta_{filter}'
+meaning = "the filter removal efficiency"
+
+[[symbol]]
+tex = 'C_{in}'
+meaning = "the particulate concentration at the filter inlet"
+
+[[symbol]]
+tex = 'C_{out}'
+meaning = "the particulate concentration at the filter outlet"

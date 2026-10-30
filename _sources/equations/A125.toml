@@ -1,0 +1,27 @@
+# Equation classification for A125. Read by `python3 _lib/equations.py`.
+
+caution = "Headings are angles in radians measured from a common reference, and the cross-track error and look-ahead distance share a unit of length, so only their ratio enters the command."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Look-Ahead Path-Following Heading Command"
+gloss = "The commanded heading is the path heading corrected by the arctangent of the cross-track error over a look-ahead distance, which steers toward a point a fixed distance ahead on the leg."
+cite = ["research_waypoint"]
+digest = "be0d20d3347b6b16"
+
+[[symbol]]
+tex = '\chi_{\text{cmd}}'
+meaning = "the commanded heading"
+
+[[symbol]]
+tex = '\chi_{\text{path}}'
+meaning = "the heading of the path leg"
+
+[[symbol]]
+tex = 'e_y'
+meaning = "the cross-track error"
+
+[[symbol]]
+tex = 'L_1'
+meaning = "the look-ahead distance"

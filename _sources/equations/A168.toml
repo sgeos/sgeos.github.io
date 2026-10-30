@@ -1,0 +1,83 @@
+# Equation classification for A168. Read by `python3 _lib/equations.py`.
+
+caution = "Every quantity is a dimensionless probability or a fraction of the entering cohort, and each stage probability is conditional on clearing every earlier stage, so the stage figures cannot be compared with unconditional failure rates."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Chain Rule of Probability"
+gloss = "The probability of clearing every stage is the product of the probability of clearing each stage conditional on clearing all earlier ones."
+cite = ["ref_chain_rule", "ref_conditional_probability"]
+digest = "e0b9e2c1190ffdde"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Survival as a Product of Stage Conditionals"
+gloss = "Writing each conditional as a stage probability makes survival the product of the stage probabilities, an identity that assumes nothing about independence."
+cite = ["ref_chain_rule"]
+digest = "8867783eae830947"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Survival with Uniform Stage Probabilities"
+gloss = "Under the simplifying assumption that every stage has the same probability, survival is that probability raised to the number of stages."
+cite = []
+digest = "38445c9b9d56f636"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Survival Through an Illustrative Six-Stage Funnel"
+gloss = "Survival is evaluated for an illustrative set of assumed conditionals for problem, solution, product-market fit, distribution, monetisation and durability, giving about one venture in twenty-eight."
+cite = []
+digest = "31934463ba9ba979"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Marginal and Relative Effect of One Stage"
+gloss = "Differentiating the product with the other stages held fixed shows that the relative gain from improving a stage is the reciprocal of its probability."
+cite = []
+digest = "6ccc6b8f50919b41"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Fraction Surviving to a Stage"
+gloss = "The fraction of the cohort that survives to the start of a stage is the partial product of the stage probabilities up to it."
+cite = []
+digest = "e38dc611e1027da7"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Fraction Lost at a Stage"
+gloss = "The fraction of the original cohort lost at a stage is the drop between successive survival levels, the surviving fraction times the stage failure probability."
+cite = []
+digest = "5fe1007783d1c29b"
+
+[[symbol]]
+tex = 'A_1'
+meaning = "the event that the venture clears the first stage, with $A_i$ for stage $i$"
+
+[[symbol]]
+tex = 'p_i'
+meaning = "the conditional probability of clearing stage $i$ given that every earlier stage was cleared"
+
+[[symbol]]
+tex = 'p^{\,n}'
+meaning = "the survival when each of the $n$ stages has the same probability $p$"
+
+[[symbol]]
+tex = 'P'
+meaning = "the probability of survival"
+
+[[symbol]]
+tex = 'S_k'
+meaning = "the fraction of entering ventures that survive to the start of stage $k$"
+
+[[symbol]]
+tex = 'L_k'
+meaning = "the fraction of the original cohort lost at stage $k$"

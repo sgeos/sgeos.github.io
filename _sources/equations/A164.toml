@@ -1,0 +1,79 @@
+# Equation classification for A164. Read by `python3 _lib/equations.py`.
+
+caution = "Durations and terms are in years, the hazard and the discount rate are annual rates written as fractions, and present values are in multiples of the annual protected value $A$, so a factor of 8.17 means 8.17 years of undiscounted protection."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Expected Life of a Trade Secret"
+gloss = "Under the constant annual hazard of loss that the article assumes, the surviving years follow a geometric distribution whose expected value is the reciprocal of the hazard."
+cite = ["ref_geometric_distribution", "ref_expected_value"]
+digest = "fa2613eaa511db23"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Duration Condition for Preferring Secrecy"
+gloss = "Under the constant hazard model, secrecy offers the longer expected protected life when the reciprocal of the hazard exceeds the patent term."
+cite = []
+digest = "364b678be981bb8f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Present Value of a Fixed-Term Stream"
+gloss = "A stream worth a fixed amount per year for a fixed term, discounted continuously, has the present value of a continuous annuity."
+cite = ["ref_present_value"]
+digest = "015654d81720c8d2"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Present Value of a Trade Secret"
+gloss = "Treating the loss hazard as a continuous constant rate, the article values the secret as a perpetuity in which the hazard adds to the discount rate."
+cite = ["ref_perpetuity"]
+digest = "96b64fa1de515f45"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Patent Present-Value Factor"
+gloss = "The annuity factor is evaluated at an assumed ten percent discount rate and an assumed effective patent term of seventeen years."
+cite = []
+digest = "a3dc90fa76d1346f"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Break-Even Hazard of a Trade Secret"
+gloss = "Equating the perpetuity factor of the secret to the patent factor at the assumed ten percent discount rate gives a break-even annual hazard of about two percent."
+cite = []
+digest = "e5a279c6d9038abb"
+
+[[symbol]]
+tex = 'h'
+meaning = "the annual probability, or continuous rate, at which the secret is lost"
+
+[[symbol]]
+tex = 'L'
+meaning = "the number of years the secret survives"
+
+[[symbol]]
+tex = 'T'
+meaning = "the patent term in years"
+
+[[symbol]]
+tex = 'A'
+meaning = "the annual value of the protected stream"
+
+[[symbol]]
+tex = 'r'
+meaning = "the discount rate"
+
+[[symbol]]
+tex = 'V_{\text{patent}}'
+meaning = "the present value of the patent"
+
+[[symbol]]
+tex = 'V_{\text{secret}}'
+meaning = "the present value of the trade secret"

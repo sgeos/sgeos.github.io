@@ -1,0 +1,243 @@
+# Equation classification for A159. Read by `python3 _lib/equations.py`.
+
+caution = "Cargo throughput is in kilograms per day and cycle time in days, forces are in newtons, work in joules and power in watts, the specific impulse is in seconds and is multiplied by standard gravity to give an exhaust velocity, and the worked rocket example takes velocities in kilometres per second."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Total Cargo Throughput"
+gloss = "The total throughput is the sum of the cargo throughput on every active route."
+cite = []
+digest = "49d9161b3476f427"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Throughput of a Four-Crew Habitat"
+gloss = "The throughput is summed over three assumed routes, a daily greenhouse route and a weekly waste route at about twenty kilograms per day each and a monthly resupply route at about ten."
+cite = []
+digest = "1f2788879bd5ef3d"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Minimum Vehicle Count for a Route"
+gloss = "The minimum number of vehicles on a route is the cargo carried over one round-trip cycle divided by the payload of one vehicle."
+cite = []
+digest = "156f8376c63a7d9b"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Vehicle Count for the Example Route"
+gloss = "The vehicle count is evaluated for an assumed fifty kilograms per day over a one-hundred-kilometre round trip with an assumed five-hour cycle on a two-hundred-kilogram payload vehicle."
+cite = []
+digest = "301a829ac4e67c4d"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Rolling Resistance Force"
+gloss = "The rolling resistance is the rolling resistance coefficient times the vehicle weight."
+cite = []
+digest = "c224ffa7364101d4"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Aerodynamic Drag Force"
+gloss = "The aerodynamic drag is the dynamic pressure times the drag coefficient and the frontal area."
+cite = []
+digest = "40f699ab1a90486b"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Gravitational Work over an Elevation Change"
+gloss = "The work against gravity over an elevation change is the vehicle weight times that change."
+cite = []
+digest = "40b9ca5260ec6aca"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Route Work on a Level Surface"
+gloss = "At constant velocity on a level surface the work over a route is the sum of rolling and drag forces times the route length."
+cite = []
+digest = "5411c52898e212b5"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Propulsion Power at Constant Velocity"
+gloss = "The power to hold a velocity is the sum of rolling and drag forces times that velocity."
+cite = []
+digest = "28df5025b16d5311"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Trip Energy of an Electric Utility Vehicle"
+gloss = "The trip energy is evaluated for an assumed one-thousand-kilogram vehicle on a one-hundred-kilometre route with an assumed combined resistance of fifteen percent of its weight and an assumed drivetrain efficiency of seventy-five percent."
+cite = []
+digest = "61c6988ebf750bce"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The velocity change of a rocket is its effective exhaust velocity times the natural logarithm of the ratio of initial to final mass."
+cite = ["ref_tsiolkovsky"]
+digest = "6767e4ccc5073e63"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Exhaust Velocity from Specific Impulse"
+gloss = "The effective exhaust velocity is the specific impulse times standard gravity."
+cite = []
+digest = "602e3ea99d8a62f8"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Propellant Mass Fraction"
+gloss = "Rearranging the rocket equation gives the propellant fraction of the initial mass as one less the exponential of minus the velocity change over the exhaust velocity."
+cite = []
+digest = "b670f7e819e89709"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Propellant Fraction for a Single-Stage Ascent"
+gloss = "The propellant fraction is evaluated for an ascent of about 9.4 kilometres per second at an exhaust velocity of 3.4 kilometres per second, taken from a representative chemical specific impulse of three hundred and fifty seconds."
+cite = []
+digest = "05e7ebef6d0a99f4"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Multi-Stage Delta-V Summation"
+gloss = "The total velocity change of a staged vehicle is the sum of the rocket equation applied to each stage with its own exhaust velocity and mass ratio."
+cite = []
+digest = "bd174df51d6948b5"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Hagen-Poiseuille Equation"
+gloss = "The laminar volumetric flow through a smooth circular pipe grows with the fourth power of diameter and with the pressure drop, and falls with viscosity and length."
+cite = []
+digest = "4f218fc60c9e9467"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Pipeline Pumping Power"
+gloss = "The power to maintain the flow is the volumetric flow times the pressure drop divided by the pump efficiency."
+cite = []
+digest = "260268ee9c4d8406"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Garbage Pickup Frequency"
+gloss = "The pickup frequency is the waste generation rate divided by the mass the source storage holds."
+cite = []
+digest = "8086f4b5be6efdd2"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Pickup Frequency for a Four-Crew Habitat"
+gloss = "The pickup frequency is evaluated for an assumed twenty kilograms of waste per day, one cubic metre of source storage and an assumed compacted density of three hundred kilograms per cubic metre."
+cite = []
+digest = "f52878d9ebea1c98"
+
+[[symbol]]
+tex = '\dot{m}_{total}'
+meaning = "the total cargo throughput"
+
+[[symbol]]
+tex = '\dot{m}_{cargo,j}'
+meaning = "the cargo throughput on route $j$ in kilograms per day"
+
+[[symbol]]
+tex = 'N_{vehicles}'
+meaning = "the minimum vehicle count for a route"
+
+[[symbol]]
+tex = 't_{cycle}'
+meaning = "the round-trip cycle time in days"
+
+[[symbol]]
+tex = 'm_{payload}'
+meaning = "the per-vehicle payload mass"
+
+[[symbol]]
+tex = '\mu_r'
+meaning = "the rolling resistance coefficient, typically 0.01 to 0.02 for rubber tyres"
+
+[[symbol]]
+tex = 'C_d'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = 'A'
+meaning = "the frontal area"
+
+[[symbol]]
+tex = 'v'
+meaning = "the vehicle velocity relative to the surrounding air"
+
+[[symbol]]
+tex = '\Delta h'
+meaning = "the elevation change"
+
+[[symbol]]
+tex = 'L'
+meaning = "the route length in Equation 8, the pipe length in Equation 16"
+
+[[symbol]]
+tex = 'v_e'
+meaning = "the effective exhaust velocity"
+
+[[symbol]]
+tex = 'm_0'
+meaning = "the initial vehicle mass"
+
+[[symbol]]
+tex = 'm_f'
+meaning = "the final vehicle mass after propellant consumption"
+
+[[symbol]]
+tex = 'm_p'
+meaning = "the propellant mass"
+
+[[symbol]]
+tex = 'I_{sp}'
+meaning = "the specific impulse"
+
+[[symbol]]
+tex = 'g_0'
+meaning = "standard gravity"
+
+[[symbol]]
+tex = 'D'
+meaning = "the pipe inside diameter"
+
+[[symbol]]
+tex = '\Delta P'
+meaning = "the pressure drop across the pipe"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the fluid dynamic viscosity"
+
+[[symbol]]
+tex = 'f_{pickup}'
+meaning = "the garbage pickup frequency"
+
+[[symbol]]
+tex = '\rho_{waste}'
+meaning = "the compacted waste density"

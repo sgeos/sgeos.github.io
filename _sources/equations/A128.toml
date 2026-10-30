@@ -1,0 +1,63 @@
+# Equation classification for A128. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, so energy height is in metres and specific excess power in metres per second, and the load factor is a dimensionless multiple of the weight."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Energy Height"
+gloss = "The energy height is the specific energy per unit weight, the altitude the aircraft would reach by trading all of its speed for height."
+cite = ["ref_specific_energy"]
+digest = "ff4e513aa07eec11"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Specific Excess Power"
+gloss = "Specific excess power, the core of energy-manoeuvrability theory, is the surplus of thrust over drag times the speed per unit weight and equals the rate of change of energy height."
+cite = ["ref_em_theory"]
+digest = "6728fd67e688df14"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Centripetal Load Factor of a Curved Path"
+gloss = "The load factor of a path of given radius is taken as the centripetal acceleration in multiples of gravity, which neglects the weight component and so approximates a tight, high load factor turn."
+cite = []
+digest = "781e29690dffee86"
+
+[[symbol]]
+tex = 'h_e'
+meaning = "the energy height"
+
+[[symbol]]
+tex = 'h'
+meaning = "the altitude"
+
+[[symbol]]
+tex = 'V'
+meaning = "the airspeed"
+
+[[symbol]]
+tex = 'P_s'
+meaning = "the specific excess power"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust"
+
+[[symbol]]
+tex = 'D'
+meaning = "the drag"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = 'n'
+meaning = "the load factor"
+
+[[symbol]]
+tex = 'R'
+meaning = "the radius of the turn"

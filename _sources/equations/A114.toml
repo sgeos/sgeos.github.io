@@ -1,0 +1,175 @@
+# Equation classification for A114. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, with speeds in metres per second, distances in metres and accelerations in metres per second squared, and the ground-roll formulas are first-order estimates under a constant acceleration rather than integrations of the speed-dependent forces."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Stall Speed"
+gloss = "Setting lift equal to weight at the maximum lift coefficient gives the slowest speed at which the wing can carry the aircraft."
+cite = ["ref_lift_coefficient"]
+digest = "0240244447d62ba8"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Liftoff Speed as a Multiple of Stall Speed"
+gloss = "The conventional liftoff speed is taken a tenth above the stall speed to leave a margin against stalling at rotation."
+cite = []
+digest = "de0a3583cc61f3a5"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Runway Length Proportional to Wing Loading"
+gloss = "Because a distance to reach a speed scales with the square of that speed, runway length scales with wing loading and inversely with air density and maximum lift coefficient."
+cite = ["ref_wing_loading"]
+digest = "752f5b6965ace386"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Constant-Acceleration Ground Roll"
+gloss = "The takeoff roll is estimated under the article's first cut, which neglects aerodynamic drag and lift during the roll and holds the acceleration constant at the thrust-to-weight ratio less the rolling friction."
+cite = []
+digest = "0e38ea6d33f5f254"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Ground Roll in Design Parameters"
+gloss = "Substituting a liftoff speed of 1.1 times the stall speed into the constant-acceleration roll gives the ground roll in terms of wing loading, thrust-to-weight ratio, maximum lift coefficient and surface friction."
+cite = ["research_erau_to"]
+digest = "835ad644f0c6dab6"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Acceleration on a Sloped Runway"
+gloss = "The component of gravity along a slope is added to the article's constant-acceleration model, reducing the acceleration uphill and increasing it downhill."
+cite = []
+digest = "cc802c3ba16687d3"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Vertical Velocity at a Ski-Jump Exit"
+gloss = "Resolving the exit velocity along a ramp inclined at its ramp angle gives the vertical velocity the ski jump imparts."
+cite = []
+digest = "6a49389a80f88796"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Headwind Reduction of the Ground Roll"
+gloss = "Under the constant-acceleration model the ground roll scales with the square of the groundspeed at liftoff, so a headwind shortens it by the square of one less the ratio of wind speed to liftoff speed."
+cite = []
+digest = "3674735e6a845277"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Crosswind and Headwind Components"
+gloss = "A wind at an angle to the runway resolves into a crosswind component by the sine of that angle and a headwind component by its cosine."
+cite = ["ref_crosswind"]
+digest = "9d3dfbb4a646fddf"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Ground Roll Inversely Proportional to Air Density"
+gloss = "To first order and before any loss of thrust, the ground roll scales inversely with air density because the true liftoff speed squared does."
+cite = []
+digest = "b5a5cd597bb008ed"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Takeoff Distance to a Screen Height"
+gloss = "The total takeoff distance adds to the ground roll an airborne segment flown as a straight climb at the initial climb angle, an approximation that neglects the transition arc after liftoff."
+cite = []
+digest = "3525a6826142e57f"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Landing Roll Under Braking Friction"
+gloss = "The stopping distance from the touchdown speed under a constant friction deceleration equal to the braking coefficient times gravity gives the landing roll."
+cite = []
+digest = "41af1b44f1813107"
+
+[[symbol]]
+tex = 'V_{\text{stall}}'
+meaning = "the stall speed"
+
+[[symbol]]
+tex = 'V_{LO}'
+meaning = "the liftoff speed"
+
+[[symbol]]
+tex = 'W'
+meaning = "the weight"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+
+[[symbol]]
+tex = 'S'
+meaning = "the wing area"
+
+[[symbol]]
+tex = 'C_{L,\max}'
+meaning = "the maximum lift coefficient"
+
+[[symbol]]
+tex = 's_g'
+meaning = "the ground roll"
+
+[[symbol]]
+tex = '\bar a'
+meaning = "the mean acceleration during the ground roll"
+
+[[symbol]]
+tex = 'T'
+meaning = "the thrust, so that $T/W$ is the thrust-to-weight ratio"
+
+[[symbol]]
+tex = '\mu_r'
+meaning = "the rolling-friction coefficient"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the runway slope angle"
+
+[[symbol]]
+tex = 'V_e'
+meaning = "the speed leaving the ski-jump ramp"
+
+[[symbol]]
+tex = '\theta'
+meaning = "the ski-jump ramp angle"
+
+[[symbol]]
+tex = 'V_w'
+meaning = "the headwind speed"
+
+[[symbol]]
+tex = '\psi'
+meaning = "the angle between the wind and the runway"
+
+[[symbol]]
+tex = 'h'
+meaning = "the screen height, conventionally about fifteen metres"
+
+[[symbol]]
+tex = '\gamma_{\text{climb}}'
+meaning = "the initial climb angle"
+
+[[symbol]]
+tex = 'V_{TD}'
+meaning = "the touchdown speed"
+
+[[symbol]]
+tex = '\mu_b'
+meaning = "the braking coefficient, about 0.3 to 0.5 on dry pavement"

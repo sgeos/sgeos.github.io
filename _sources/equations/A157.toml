@@ -1,0 +1,263 @@
+# Equation classification for A157. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in SI units, with pressure in pascals, stress in pascals, lengths in metres, heat flows in watts and areal density in kilograms per square metre, except that the imperial R-value is in hour square feet degrees Fahrenheit per British thermal unit and is converted by Equation 17."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Total Habitable Volume"
+gloss = "The total habitable volume is the crew complement multiplied by the per-crew volume allocation."
+cite = []
+digest = "1c16db1a0485e6a3"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Habitable Volume for a Four-Crew Habitat"
+gloss = "The habitable volume is evaluated for an assumed four crew at a representative fifty cubic metres per crew for a long-duration mission."
+cite = []
+digest = "a1854769c5eaf49f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Differential Pressure Across the Envelope"
+gloss = "The differential pressure is the internal atmospheric pressure less the external pressure."
+cite = []
+digest = "51025f80d83aa661"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Atmospheric Mass from the Ideal Gas Law"
+gloss = "The ideal gas law gives the mass of breathing atmosphere held in the habitable volume from its pressure, molar mass and absolute temperature."
+cite = []
+digest = "9c8eb93b6fc1472f"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Atmospheric Mass of a Two Hundred Cubic Metre Habitat"
+gloss = "The ideal gas law is evaluated for the assumed two hundred cubic metre habitat at one standard atmosphere and twenty degrees Celsius."
+cite = []
+digest = "ec3bf0a35b8fd09e"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Hoop Stress in a Thin-Walled Cylinder"
+gloss = "The circumferential stress in a thin-walled cylinder is the differential pressure times the radius divided by the wall thickness."
+cite = []
+digest = "8e0fe5df7b27f6d9"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Axial Stress in a Thin-Walled Cylinder"
+gloss = "The axial stress in a closed thin-walled cylinder is half the hoop stress."
+cite = []
+digest = "4e2c5a7c6787fada"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Membrane Stress in a Thin-Walled Sphere"
+gloss = "A thin-walled sphere carries a uniform membrane stress equal to half the cylindrical hoop stress at the same radius and thickness."
+cite = []
+digest = "45819bba4d2202f6"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Surface-Area-to-Volume Ratio of a Sphere"
+gloss = "The surface area of a sphere divided by its volume is three over the radius."
+cite = []
+digest = "ba70287318fe77b7"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Required Wall Thickness"
+gloss = "Solving the hoop stress for thickness, with the allowable stress reduced by a safety factor, gives the minimum wall thickness of a cylindrical vessel."
+cite = []
+digest = "2e04ed22ee3b520e"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Wall Thickness of an Aluminium Cylinder"
+gloss = "The wall thickness is evaluated for an assumed four-metre radius aluminium cylinder at one hundred and one kilopascals differential, an allowable stress of one hundred and forty megapascals and an assumed safety factor of three."
+cite = []
+digest = "3c56f7ac79fde32a"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Pressure Shell Mass"
+gloss = "The mass of a thin pressure shell is the material density times the wall thickness times the envelope surface area."
+cite = []
+digest = "af925194198be738"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Shell Mass of a Spherical Aluminium Habitat"
+gloss = "The shell mass is evaluated for an assumed four-metre radius aluminium sphere with an assumed five-millimetre wall."
+cite = []
+digest = "828cd11a533ae685"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Habitat Heat Balance"
+gloss = "The net heat flow into the habitat is the metabolic, electrical and solar gains less the heat lost through the envelope."
+cite = []
+digest = "680bc9bef5dae60b"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Conductive Envelope Heat Loss"
+gloss = "The heat lost through the envelope is the overall heat transfer coefficient times the surface area times the temperature differential."
+cite = []
+digest = "6d622ba0767cea92"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Overall Heat Transfer Coefficient"
+gloss = "The overall heat transfer coefficient is the reciprocal of the thermal resistance per unit area."
+cite = []
+digest = "501143cd00d0812c"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Conversion of Imperial to Metric R-Value"
+gloss = "An imperial R-value divided by 5.678 gives the metric R-value in square metres kelvin per watt."
+cite = []
+digest = "2cc45b874d139c82"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Heat Loss of a Spherical Mars Habitat"
+gloss = "The envelope heat loss is evaluated for an assumed four-metre radius sphere with an assumed overall coefficient of 0.2 watts per square metre per kelvin across an eighty kelvin differential taken from a representative Mars surface average."
+cite = []
+digest = "4b068bb0262ce87e"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Airlock Gas Loss per Cycle"
+gloss = "The gas lost in one airlock cycle without recovery is the air density times the airlock volume."
+cite = []
+digest = "be2dda75bc8c05bb"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Recovered Gas in a Two-Stage Airlock"
+gloss = "The article models the gas recovered by an intermediate stage as the lost mass scaled by the ratio of intermediate to atmospheric pressure and by the recovery pump efficiency."
+cite = []
+digest = "fd3679214cd81071"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Exponential Shielding Attenuation"
+gloss = "The shielded dose is approximated as an exponential decline with areal density over a characteristic attenuation depth, a simplification that does not capture the secondary radiation the article notes for heavy ions."
+cite = []
+digest = "997c5a1b030364d8"
+
+[[symbol]]
+tex = 'V_{habitable}'
+meaning = "the total habitable volume"
+
+[[symbol]]
+tex = 'N_{crew}'
+meaning = "the crew complement"
+
+[[symbol]]
+tex = 'V_{crew}'
+meaning = "the per-crew habitable volume allocation in cubic metres per crew"
+
+[[symbol]]
+tex = 'p_i'
+meaning = "the internal atmospheric pressure"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the external pressure"
+
+[[symbol]]
+tex = 'M_{air}'
+meaning = "the molar mass of the breathing mixture, about 29 grams per mole"
+
+[[symbol]]
+tex = 'R'
+meaning = "the universal gas constant, 8.314 joules per mole per kelvin"
+
+[[symbol]]
+tex = 'T'
+meaning = "the absolute temperature in kelvin"
+
+[[symbol]]
+tex = 'r'
+meaning = "the vessel radius"
+
+[[symbol]]
+tex = 't'
+meaning = "the wall thickness"
+
+[[symbol]]
+tex = '\sigma_h'
+meaning = "the hoop stress"
+
+[[symbol]]
+tex = '\sigma_a'
+meaning = "the axial stress"
+
+[[symbol]]
+tex = '\sigma_s'
+meaning = "the membrane stress in a sphere"
+
+[[symbol]]
+tex = 'FoS'
+meaning = "the dimensionless safety factor, typically 1.5 to 4"
+
+[[symbol]]
+tex = '\sigma_{allow}'
+meaning = "the allowable working stress of the material"
+
+[[symbol]]
+tex = 'A_{surface}'
+meaning = "the envelope surface area"
+
+[[symbol]]
+tex = 'U'
+meaning = "the overall heat transfer coefficient in watts per square metre per kelvin"
+
+[[symbol]]
+tex = 'R_{thermal}'
+meaning = "the thermal resistance per unit area, the metric R-value"
+
+[[symbol]]
+tex = 'V_{airlock}'
+meaning = "the airlock internal volume"
+
+[[symbol]]
+tex = 'p_{intermediate}'
+meaning = "the pressure the intermediate stage holds, typically thirty to fifty percent of atmospheric"
+
+[[symbol]]
+tex = '\eta_{pump}'
+meaning = "the recovery pump efficiency"
+
+[[symbol]]
+tex = 'X'
+meaning = "the shielding areal density in kilograms per square metre"
+
+[[symbol]]
+tex = 'X_{1/e}'
+meaning = "the characteristic attenuation areal density of the shielding material"

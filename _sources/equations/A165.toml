@@ -1,0 +1,99 @@
+# Equation classification for A165. Read by `python3 _lib/equations.py`.
+
+caution = "Values and costs are in a common monetary unit, thousands of dollars in the provisional example, and probabilities are dimensionless numbers between zero and one."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Expected Value of a Patent Moat"
+gloss = "The moat model of the series discounts the protected value by the product of the probabilities of validity, detection and enforcement and subtracts the cost, a construction that treats the three events as independent."
+cite = ["ref_expected_value"]
+digest = "ad864ca1d9ddb0a1"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Founder Expected Value with Signalling"
+gloss = "The article adds to the moat model a signalling and acquisition value that a patent provides to investors and acquirers independently of enforcement."
+cite = ["ref_signaling"]
+digest = "6dac8c9fc2c31114"
+
+[[equation]]
+tag = 3
+class = "bespoke"
+title = "Bespoke Founder Value Without Enforcement"
+gloss = "Taking the enforcement probability of an early-stage company as near zero removes the protective term and leaves the signalling value less the cost."
+cite = []
+digest = "ac7584dcf2ab7d82"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Value of Deciding Now"
+gloss = "A decision maker who must commit now invests only if the expected value exceeds the cost, so the value of deciding now is the larger of zero and that difference."
+cite = ["ref_real_options"]
+digest = "86978caae9bbadef"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Value of Waiting as a Real Option"
+gloss = "A decision maker who waits until the value is known converts only when it exceeds the cost, which by Jensen's inequality is worth at least as much as deciding now."
+cite = ["ref_jensen"]
+digest = "0f774987f2ecab74"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Value of Deciding Now in the Two-Outcome Example"
+gloss = "For an illustrative patent worth zero or forty with equal probability and a conversion cost of twenty, deciding now breaks even at zero."
+cite = []
+digest = "b3754d92263bde11"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Value of Waiting in the Two-Outcome Example"
+gloss = "The same illustrative patent is worth ten when the decision waits, because waiting keeps the upside and discards the loss."
+cite = []
+digest = "a11f25774b84d69c"
+
+[[symbol]]
+tex = 'E'
+meaning = "the expected value of the patent as a moat"
+
+[[symbol]]
+tex = 'p_v'
+meaning = "the probability the patent is valid"
+
+[[symbol]]
+tex = 'p_d'
+meaning = "the probability that infringement is detected"
+
+[[symbol]]
+tex = 'p_e'
+meaning = "the probability of successful enforcement"
+
+[[symbol]]
+tex = 'V'
+meaning = "the protected value"
+
+[[symbol]]
+tex = 'C'
+meaning = "the cost of the patent"
+
+[[symbol]]
+tex = 'S'
+meaning = "the signalling and acquisition value"
+
+[[symbol]]
+tex = 'E_{\text{founder}}'
+meaning = "the expected value of the patent to a founder"
+
+[[symbol]]
+tex = 'X'
+meaning = "the value the patent will turn out to have, unknown when the provisional is filed"
+
+[[symbol]]
+tex = 'K'
+meaning = "the cost of the non-provisional that converts the provisional"

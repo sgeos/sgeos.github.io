@@ -1,0 +1,211 @@
+# Equation classification for A160. Read by `python3 _lib/equations.py`.
+
+caution = "Densities are in kilograms per cubic metre, masses in kilograms, volumes in cubic metres and irradiance in watts per square metre, molar masses are in grams per mole and enter only as a ratio, and the exponential atmosphere uses one scale height for the lower atmosphere, so it does not reproduce the stated conditions at the fifty-kilometre operating altitude."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Buoyancy Condition"
+gloss = "The weight of the habitat equals the weight of displaced atmosphere less the weight of the internal gas, by the principle of Archimedes."
+cite = []
+digest = "e004b41310a0e487"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Buoyant Mass Balance"
+gloss = "Cancelling the common gravitational acceleration leaves the supportable mass as the density difference times the envelope volume."
+cite = []
+digest = "c8f2c66ef6660036"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Density Ratio from Molar Masses"
+gloss = "At equal temperature and pressure the ratio of two ideal gas densities equals the ratio of their molar masses."
+cite = []
+digest = "9fcaed8fa1e7d5fa"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Density Ratio of Breathing Mix to Venus Atmosphere"
+gloss = "A breathing mix at about twenty-nine grams per mole has about two thirds the density of the carbon dioxide atmosphere of Venus at about forty-three and a half."
+cite = []
+digest = "e03026c7c4c17a89"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Lift Density at Fifty Kilometres"
+gloss = "The lift per cubic metre is evaluated at the fifty-kilometre operating altitude the article selects, where the external density is taken as about one and a half kilograms per cubic metre and the internal density at about one."
+cite = []
+digest = "927ae8963ead0403"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Required Envelope Volume"
+gloss = "Rearranging the buoyant mass balance gives the envelope volume as the total habitat mass divided by the density difference."
+cite = []
+digest = "835b75e982829ea1"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Exponential Pressure Profile of Venus"
+gloss = "The pressure is modelled as a single exponential from the surface value with one scale height of about 15.9 kilometres, an isothermal simplification of an atmosphere whose temperature falls steeply with altitude."
+cite = []
+digest = "5d0e4f4a0584c62e"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Exponential Density Profile of Venus"
+gloss = "The density is modelled with the same single scale height under the isothermal assumption, which the article qualifies by quoting the measured density at fifty kilometres separately."
+cite = []
+digest = "0bc8e95e78c931cf"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Total Habitat Mass"
+gloss = "The total habitat mass is the sum of the structural envelope, crew, subsystem hardware and reserves."
+cite = []
+digest = "0570fd42f2b9e06e"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Mass of a Four-Crew Cloudtop Habitat"
+gloss = "The total mass is summed from assumed allocations of two tonnes of envelope, eighty kilograms per crew member, three tonnes of subsystems and one tonne of reserves."
+cite = []
+digest = "a61dfc20fe99691d"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Envelope Volume of the Example Habitat"
+gloss = "The envelope volume is evaluated from the assumed habitat mass of 6,320 kilograms and the lift density of half a kilogram per cubic metre taken at fifty kilometres."
+cite = []
+digest = "eef7ad6b9d4bc9eb"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Surface Area of a Sphere"
+gloss = "The surface area of a spherical envelope is four pi times the square of its radius."
+cite = []
+digest = "393ad4f1d8b10900"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Inverse-Square Solar Irradiance at Venus"
+gloss = "The solar irradiance scales with the inverse square of heliocentric distance, so at 0.723 astronomical units Venus receives about 1.92 times the irradiance at the Earth."
+cite = []
+digest = "12d475c55204a49d"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Photovoltaic Power per Unit Area"
+gloss = "The electrical power per square metre of panel is the incident irradiance times the cell efficiency times the combined capacity factor."
+cite = ["related_post_electricity"]
+digest = "6884cdd3e5587651"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Synodic Period of Venus"
+gloss = "The synodic period follows from the difference of the reciprocal sidereal periods of the Earth and Venus and sets the resupply window cadence at about five hundred and eighty-four days."
+cite = []
+digest = "7d7863051fb2e546"
+
+[[symbol]]
+tex = 'm_{habitat,total}'
+meaning = "the total habitat mass"
+
+[[symbol]]
+tex = 'g_{Venus}'
+meaning = "the gravitational acceleration at Venus"
+
+[[symbol]]
+tex = '\rho_{atm}'
+meaning = "the Venus atmospheric density at the operating altitude"
+
+[[symbol]]
+tex = '\rho_{internal}'
+meaning = "the density of the internal breathing mix"
+
+[[symbol]]
+tex = 'V_{envelope}'
+meaning = "the envelope volume"
+
+[[symbol]]
+tex = 'M_{internal}'
+meaning = "the mean molar mass of the internal breathing mix"
+
+[[symbol]]
+tex = 'M_{atm}'
+meaning = "the mean molar mass of the Venus atmosphere"
+
+[[symbol]]
+tex = 'p_0'
+meaning = "the Venus surface pressure, about 92 bar"
+
+[[symbol]]
+tex = 'H'
+meaning = "the atmospheric scale height, about 15.9 kilometres in the lower atmosphere"
+
+[[symbol]]
+tex = '\rho_0'
+meaning = "the Venus surface density, about 65 kilograms per cubic metre"
+
+[[symbol]]
+tex = 'm_{structure}'
+meaning = "the envelope structural mass"
+
+[[symbol]]
+tex = 'm_{crew}'
+meaning = "the crew complement mass"
+
+[[symbol]]
+tex = 'm_{subsystems}'
+meaning = "the integrated subsystem hardware mass"
+
+[[symbol]]
+tex = 'm_{reserves}'
+meaning = "the operational consumables and reserves"
+
+[[symbol]]
+tex = 'A_{envelope}'
+meaning = "the spherical envelope surface area"
+
+[[symbol]]
+tex = 'S_{Venus}'
+meaning = "the solar irradiance at Venus, about 2,601 watts per square metre"
+
+[[symbol]]
+tex = 'S_{Earth}'
+meaning = "the solar irradiance at the Earth"
+
+[[symbol]]
+tex = '\eta_{PV}'
+meaning = "the photovoltaic cell efficiency"
+
+[[symbol]]
+tex = 'CF'
+meaning = "the combined capacity factor"
+
+[[symbol]]
+tex = 'T_{syn,Venus}'
+meaning = "the Earth-Venus synodic period"
+
+[[symbol]]
+tex = 'T_E'
+meaning = "the Earth sidereal period, about 365.25 days"
+
+[[symbol]]
+tex = 'T_V'
+meaning = "the Venus sidereal period, about 224.7 days"

@@ -185,7 +185,10 @@ the per-crew habitable volume allocation
 in cubic metres per crew.
 The total habitable volume is
 
-$$ V_{habitable} = N_{crew} \cdot V_{crew} $$
+$$
+ V_{habitable} = N_{crew} \cdot V_{crew} 
+\tag{1}
+$$
 
 The
 [National Aeronautics and Space Administration Human Integration Design Handbook][ref_hidh]
@@ -203,7 +206,10 @@ on a long-duration mission
 at approximately fifty cubic metres per crew
 requires approximately
 
-$$ V_{habitable} = 4 \cdot 50 = 200 \text{ m}^3 $$
+$$
+ V_{habitable} = 4 \cdot 50 = 200 \text{ m}^3 
+\tag{2}
+$$
 
 of habitable volume,
 which is the order-of-magnitude
@@ -218,7 +224,10 @@ For an internal atmospheric pressure $p_i$
 and an external pressure $p_e$,
 the differential pressure is
 
-$$ \Delta p = p_i - p_e $$
+$$
+ \Delta p = p_i - p_e 
+\tag{3}
+$$
 
 A lunar or interplanetary habitat
 faces approximately
@@ -242,7 +251,10 @@ The atmospheric mass
 contained within the habitable volume
 follows from the ideal gas law
 
-$$ m_{atm} = \frac{p_i \cdot V_{habitable} \cdot M_{air}}{R \cdot T} $$
+$$
+ m_{atm} = \frac{p_i \cdot V_{habitable} \cdot M_{air}}{R \cdot T} 
+\tag{4}
+$$
 
 where $M_{air}$
 is the molar mass of the breathing mixture,
@@ -260,7 +272,10 @@ at one atmosphere internal pressure
 and twenty degrees Celsius,
 the atmospheric mass is approximately
 
-$$ m_{atm} = \frac{101{,}325 \cdot 200 \cdot 0.029}{8.314 \cdot 293} \approx 241 \text{ kg} $$
+$$
+ m_{atm} = \frac{101{,}325 \cdot 200 \cdot 0.029}{8.314 \cdot 293} \approx 241 \text{ kg} 
+\tag{5}
+$$
 
 which is the order-of-magnitude
 that the habitat atmospheric resupply
@@ -275,18 +290,27 @@ of radius $r$ and wall thickness $t$
 under internal pressure $\Delta p$
 sustains a hoop stress
 
-$$ \sigma_h = \frac{\Delta p \cdot r}{t} $$
+$$
+ \sigma_h = \frac{\Delta p \cdot r}{t} 
+\tag{6}
+$$
 
 and an axial stress
 
-$$ \sigma_a = \frac{\Delta p \cdot r}{2 t} $$
+$$
+ \sigma_a = \frac{\Delta p \cdot r}{2 t} 
+\tag{7}
+$$
 
 so the hoop stress
 is the limiting value.
 A spherical pressure vessel
 sustains a uniform stress
 
-$$ \sigma_s = \frac{\Delta p \cdot r}{2 t} $$
+$$
+ \sigma_s = \frac{\Delta p \cdot r}{2 t} 
+\tag{8}
+$$
 
 which is half the cylindrical hoop stress
 at the same radius and thickness.
@@ -298,7 +322,10 @@ has surface area $4 \pi r^2$
 and volume $\frac{4}{3} \pi r^3$
 yielding
 
-$$ \frac{A}{V}\bigg|_{sphere} = \frac{3}{r} $$
+$$
+ \frac{A}{V}\bigg|_{sphere} = \frac{3}{r} 
+\tag{9}
+$$
 
 A cylinder of radius $r$ and length $L$
 with hemispherical end caps
@@ -321,7 +348,10 @@ follows from the allowable stress
 of the chosen material
 and the safety factor
 
-$$ t = \frac{\Delta p \cdot r \cdot FoS}{\sigma_{allow}} $$
+$$
+ t = \frac{\Delta p \cdot r \cdot FoS}{\sigma_{allow}} 
+\tag{10}
+$$
 
 where $\sigma_{allow}$
 is the allowable working stress
@@ -340,7 +370,10 @@ at one hundred and forty megapascals allowable stress
 and a safety factor of three,
 the required hoop thickness is
 
-$$ t = \frac{101{,}000 \cdot 4 \cdot 3}{140{,}000{,}000} \approx 8.7 \text{ mm} $$
+$$
+ t = \frac{101{,}000 \cdot 4 \cdot 3}{140{,}000{,}000} \approx 8.7 \text{ mm} 
+\tag{11}
+$$
 
 which is the order-of-magnitude
 the
@@ -350,7 +383,10 @@ The structural mass of the pressure envelope
 follows from the envelope surface area
 and the wall material areal density
 
-$$ m_{shell} = \rho \cdot t \cdot A_{surface} $$
+$$
+ m_{shell} = \rho \cdot t \cdot A_{surface} 
+\tag{12}
+$$
 
 For a four-metre-radius spherical habitat
 under one hundred kilopascals differential
@@ -358,7 +394,10 @@ through aluminium at two thousand seven hundred kilograms per cubic metre densit
 with a five-millimetre wall thickness,
 the structural mass is approximately
 
-$$ m_{shell} = 2{,}700 \cdot 0.005 \cdot 4\pi \cdot 16 \approx 2{,}700 \text{ kg} $$
+$$
+ m_{shell} = 2{,}700 \cdot 0.005 \cdot 4\pi \cdot 16 \approx 2{,}700 \text{ kg} 
+\tag{13}
+$$
 
 The same volume in a cylindrical geometry
 of equivalent enclosed volume
@@ -375,7 +414,10 @@ incident solar heat through the envelope,
 and the radiative or conductive heat loss
 through the envelope
 
-$$ Q_{net} = Q_{metabolic} + Q_{electrical} + Q_{solar} - Q_{loss} $$
+$$
+ Q_{net} = Q_{metabolic} + Q_{electrical} + Q_{solar} - Q_{loss} 
+\tag{14}
+$$
 
 A four-crew habitat
 contributes approximately
@@ -402,12 +444,18 @@ the envelope surface area,
 the overall heat transfer coefficient,
 and the temperature differential
 
-$$ Q_{loss} = U \cdot A_{surface} \cdot \Delta T $$
+$$
+ Q_{loss} = U \cdot A_{surface} \cdot \Delta T 
+\tag{15}
+$$
 
 The overall heat transfer coefficient $U$
 is the reciprocal of the thermal resistance per unit area
 
-$$ U = \frac{1}{R_{thermal}} $$
+$$
+ U = \frac{1}{R_{thermal}} 
+\tag{16}
+$$
 
 where $R_{thermal}$
 in metric units is the R-value
@@ -421,7 +469,10 @@ The imperial R-value
 in hour square feet Fahrenheit per BTU
 relates to the metric R-value through
 
-$$ R_{metric} = \frac{R_{imperial}}{5.678} $$
+$$
+ R_{metric} = \frac{R_{imperial}}{5.678} 
+\tag{17}
+$$
 
 where $U$
 is the overall heat transfer coefficient
@@ -440,7 +491,10 @@ through a multi-layer insulated envelope
 at zero point two watts per square metre per kelvin
 loses approximately
 
-$$ Q_{loss} = 0.2 \cdot 4\pi \cdot 16 \cdot 80 \approx 3.2 \text{ kW} $$
+$$
+ Q_{loss} = 0.2 \cdot 4\pi \cdot 16 \cdot 80 \approx 3.2 \text{ kW} 
+\tag{18}
+$$
 
 of continuous heat
 that the habitat thermal control system
@@ -452,7 +506,10 @@ follows from
 the airlock internal volume
 and the atmosphere mass density at standard conditions
 
-$$ m_{lost} = \rho_{air} \cdot V_{airlock} $$
+$$
+ m_{lost} = \rho_{air} \cdot V_{airlock} 
+\tag{19}
+$$
 
 The
 [International Space Station Quest joint airlock][ref_iss_quest]
@@ -483,7 +540,10 @@ with intermediate gas recovery
 reduces the loss
 through the recoverable fraction
 
-$$ m_{recovered} = m_{lost} \cdot \frac{p_{intermediate}}{p_{atmosphere}} \cdot \eta_{pump} $$
+$$
+ m_{recovered} = m_{lost} \cdot \frac{p_{intermediate}}{p_{atmosphere}} \cdot \eta_{pump} 
+\tag{20}
+$$
 
 where $p_{intermediate}$
 is the pressure
@@ -508,7 +568,10 @@ of areal density $X$
 in kilograms per square metre
 follows approximately
 
-$$ D_{shielded} = D_{ambient} \cdot e^{-X / X_{1/e}} $$
+$$
+ D_{shielded} = D_{ambient} \cdot e^{-X / X_{1/e}} 
+\tag{21}
+$$
 
 where $X_{1/e}$
 is the characteristic attenuation areal density
@@ -1512,6 +1575,211 @@ will treat
 the remaining subsystems
 of the nine-subsystem stack
 that the survey opener identified.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 21 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 21, 14 are established and 7 are bespoke.
+Quantities are in SI units, with pressure in pascals, stress in pascals, lengths in metres, heat flows in watts and areal density in kilograms per square metre, except that the imperial R-value is in hour square feet degrees Fahrenheit per British thermal unit and is converted by Equation 17.
+
+**Equation 1, Total Habitable Volume.**
+The total habitable volume is the crew complement multiplied by the per-crew volume allocation.
+
+$$
+ V_{habitable} = N_{crew} \cdot V_{crew} 
+\tag{1}
+$$
+
+*Equation 2, Bespoke Habitable Volume for a Four-Crew Habitat.*
+The habitable volume is evaluated for an assumed four crew at a representative fifty cubic metres per crew for a long-duration mission.
+
+$$
+ V_{habitable} = 4 \cdot 50 = 200 \text{ m}^3 
+\tag{2}
+$$
+
+**Equation 3, Differential Pressure Across the Envelope.**
+The differential pressure is the internal atmospheric pressure less the external pressure.
+
+$$
+ \Delta p = p_i - p_e 
+\tag{3}
+$$
+
+**Equation 4, Atmospheric Mass from the Ideal Gas Law.**
+The ideal gas law gives the mass of breathing atmosphere held in the habitable volume from its pressure, molar mass and absolute temperature.
+
+$$
+ m_{atm} = \frac{p_i \cdot V_{habitable} \cdot M_{air}}{R \cdot T} 
+\tag{4}
+$$
+
+*Equation 5, Bespoke Atmospheric Mass of a Two Hundred Cubic Metre Habitat.*
+The ideal gas law is evaluated for the assumed two hundred cubic metre habitat at one standard atmosphere and twenty degrees Celsius.
+
+$$
+ m_{atm} = \frac{101{,}325 \cdot 200 \cdot 0.029}{8.314 \cdot 293} \approx 241 \text{ kg} 
+\tag{5}
+$$
+
+**Equation 6, Hoop Stress in a Thin-Walled Cylinder.**
+The circumferential stress in a thin-walled cylinder is the differential pressure times the radius divided by the wall thickness.
+
+$$
+ \sigma_h = \frac{\Delta p \cdot r}{t} 
+\tag{6}
+$$
+
+**Equation 7, Axial Stress in a Thin-Walled Cylinder.**
+The axial stress in a closed thin-walled cylinder is half the hoop stress.
+
+$$
+ \sigma_a = \frac{\Delta p \cdot r}{2 t} 
+\tag{7}
+$$
+
+**Equation 8, Membrane Stress in a Thin-Walled Sphere.**
+A thin-walled sphere carries a uniform membrane stress equal to half the cylindrical hoop stress at the same radius and thickness.
+
+$$
+ \sigma_s = \frac{\Delta p \cdot r}{2 t} 
+\tag{8}
+$$
+
+**Equation 9, Surface-Area-to-Volume Ratio of a Sphere.**
+The surface area of a sphere divided by its volume is three over the radius.
+
+$$
+ \frac{A}{V}\bigg|_{sphere} = \frac{3}{r} 
+\tag{9}
+$$
+
+**Equation 10, Required Wall Thickness.**
+Solving the hoop stress for thickness, with the allowable stress reduced by a safety factor, gives the minimum wall thickness of a cylindrical vessel.
+
+$$
+ t = \frac{\Delta p \cdot r \cdot FoS}{\sigma_{allow}} 
+\tag{10}
+$$
+
+*Equation 11, Bespoke Wall Thickness of an Aluminium Cylinder.*
+The wall thickness is evaluated for an assumed four-metre radius aluminium cylinder at one hundred and one kilopascals differential, an allowable stress of one hundred and forty megapascals and an assumed safety factor of three.
+
+$$
+ t = \frac{101{,}000 \cdot 4 \cdot 3}{140{,}000{,}000} \approx 8.7 \text{ mm} 
+\tag{11}
+$$
+
+**Equation 12, Pressure Shell Mass.**
+The mass of a thin pressure shell is the material density times the wall thickness times the envelope surface area.
+
+$$
+ m_{shell} = \rho \cdot t \cdot A_{surface} 
+\tag{12}
+$$
+
+*Equation 13, Bespoke Shell Mass of a Spherical Aluminium Habitat.*
+The shell mass is evaluated for an assumed four-metre radius aluminium sphere with an assumed five-millimetre wall.
+
+$$
+ m_{shell} = 2{,}700 \cdot 0.005 \cdot 4\pi \cdot 16 \approx 2{,}700 \text{ kg} 
+\tag{13}
+$$
+
+**Equation 14, Habitat Heat Balance.**
+The net heat flow into the habitat is the metabolic, electrical and solar gains less the heat lost through the envelope.
+
+$$
+ Q_{net} = Q_{metabolic} + Q_{electrical} + Q_{solar} - Q_{loss} 
+\tag{14}
+$$
+
+**Equation 15, Conductive Envelope Heat Loss.**
+The heat lost through the envelope is the overall heat transfer coefficient times the surface area times the temperature differential.
+
+$$
+ Q_{loss} = U \cdot A_{surface} \cdot \Delta T 
+\tag{15}
+$$
+
+**Equation 16, Overall Heat Transfer Coefficient.**
+The overall heat transfer coefficient is the reciprocal of the thermal resistance per unit area.
+
+$$
+ U = \frac{1}{R_{thermal}} 
+\tag{16}
+$$
+
+**Equation 17, Conversion of Imperial to Metric R-Value.**
+An imperial R-value divided by 5.678 gives the metric R-value in square metres kelvin per watt.
+
+$$
+ R_{metric} = \frac{R_{imperial}}{5.678} 
+\tag{17}
+$$
+
+*Equation 18, Bespoke Heat Loss of a Spherical Mars Habitat.*
+The envelope heat loss is evaluated for an assumed four-metre radius sphere with an assumed overall coefficient of 0.2 watts per square metre per kelvin across an eighty kelvin differential taken from a representative Mars surface average.
+
+$$
+ Q_{loss} = 0.2 \cdot 4\pi \cdot 16 \cdot 80 \approx 3.2 \text{ kW} 
+\tag{18}
+$$
+
+**Equation 19, Airlock Gas Loss per Cycle.**
+The gas lost in one airlock cycle without recovery is the air density times the airlock volume.
+
+$$
+ m_{lost} = \rho_{air} \cdot V_{airlock} 
+\tag{19}
+$$
+
+*Equation 20, Bespoke Recovered Gas in a Two-Stage Airlock.*
+The article models the gas recovered by an intermediate stage as the lost mass scaled by the ratio of intermediate to atmospheric pressure and by the recovery pump efficiency.
+
+$$
+ m_{recovered} = m_{lost} \cdot \frac{p_{intermediate}}{p_{atmosphere}} \cdot \eta_{pump} 
+\tag{20}
+$$
+
+*Equation 21, Bespoke Exponential Shielding Attenuation.*
+The shielded dose is approximated as an exponential decline with areal density over a characteristic attenuation depth, a simplification that does not capture the secondary radiation the article notes for heavy ions.
+
+$$
+ D_{shielded} = D_{ambient} \cdot e^{-X / X_{1/e}} 
+\tag{21}
+$$
+
+### Notation
+
+- $V_{habitable}$, the total habitable volume
+- $N_{crew}$, the crew complement
+- $V_{crew}$, the per-crew habitable volume allocation in cubic metres per crew
+- $p_i$, the internal atmospheric pressure
+- $p_e$, the external pressure
+- $M_{air}$, the molar mass of the breathing mixture, about 29 grams per mole
+- $R$, the universal gas constant, 8.314 joules per mole per kelvin
+- $T$, the absolute temperature in kelvin
+- $r$, the vessel radius
+- $t$, the wall thickness
+- $\sigma_h$, the hoop stress
+- $\sigma_a$, the axial stress
+- $\sigma_s$, the membrane stress in a sphere
+- $FoS$, the dimensionless safety factor, typically 1.5 to 4
+- $\sigma_{allow}$, the allowable working stress of the material
+- $A_{surface}$, the envelope surface area
+- $U$, the overall heat transfer coefficient in watts per square metre per kelvin
+- $R_{thermal}$, the thermal resistance per unit area, the metric R-value
+- $V_{airlock}$, the airlock internal volume
+- $p_{intermediate}$, the pressure the intermediate stage holds, typically thirty to fifty percent of atmospheric
+- $\eta_{pump}$, the recovery pump efficiency
+- $X$, the shielding areal density in kilograms per square metre
+- $X_{1/e}$, the characteristic attenuation areal density of the shielding material
 
 ## References
 

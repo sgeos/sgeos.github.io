@@ -1,0 +1,31 @@
+# Equation classification for A140. Read by `python3 _lib/equations.py`.
+
+caution = "Rates are dimensionless fractions of their allocation base and costs are in dollars, and because each company defines its own pools and bases the loaded cost depends on its accounting structure rather than on a universal formula."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Indirect Cost Rate"
+gloss = "An indirect rate is a pool of indirect cost divided by the base over which it is spread, such as direct labour for overhead or total cost for general and administrative expense."
+cite = ["ref_indirect"]
+digest = "e635cf108bdbfc9f"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Stacked Loading of Direct Labour"
+gloss = "Direct labour is loaded by fringe, overhead and general and administrative rates compounded in sequence, an illustrative chain whose exact form the article notes depends on the accounting structure of the company."
+cite = []
+digest = "0a3602ab543dc9b1"
+
+[[symbol]]
+tex = 'f'
+meaning = "the fringe rate"
+
+[[symbol]]
+tex = 'o'
+meaning = "the overhead rate"
+
+[[symbol]]
+tex = 'g'
+meaning = "the general and administrative rate"
