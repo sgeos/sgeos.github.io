@@ -11,6 +11,38 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `df89189`
+- **Written**: 2026-10-31, by the operator line of the PyDromon trial, after its third phase. This file's own commit
+  sits directly on top, so `git rev-parse HEAD~1` must print `df89189...` for this handoff to be valid.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `e150969`. `df89189` and this file's commit go through a `ci/<topic>` branch
+  next. They touch only `_docs/`, `_drafts/` and `_sources/`, so they change no published page.
+- **PUBLICATION STATE.** A1 to A384 are published. A385, *Access, Legible State and Recomputation in a Three-Model
+  Harness*, `_drafts/dromon_three_models_equations_sections.markdown`, dated 2026-08-21, is through all four passes
+  and unpublished. **The next free article number is A386.**
+- **WHAT HAPPENED.** `REVERSE_PROMPT.md`, third entry of 2026-10-31, and `_docs/process/dromon_trial_1/README.md`,
+  section Phase 3.
+- **LOCAL STATE.**
+  - The Dromon daemon runs from the blog directory at PyDromon `81f9153`. PyDromon main has moved on to `7723f77`
+    and beyond. Before any restart, check that no line works in or above another's worktree, as `Op55-pydromon`
+    advised, and leave ViewImage off for Grok.
+  - Grok cannot read mail. Dromon answers its `use_tool` `dromon__read_mail` permission requests as cancelled.
+    `Op55-pydromon` is changing that path on `fix/permission-no-option`.
+  - The worktrees `tmp/worktrees/{opus,luna,grok}` are at `e150969`. The opus worktree holds the draft as merged,
+    apart from the operator's two merge edits.
+  - The operator's mail watcher must compare the mailbox's total count. `dromon mail` lists oldest first.
+- **OPEN, FOR THE PILOT.**
+  1. Two defective source records cited by published posts, `research_knight_leveson_1986` and
+     `research_fagan_1976`. Fix them, or record them in Article Errata.
+  2. When A385 is published.
+  3. Stopping the daemon and removing the worktrees.
+  4. The ruleset change that makes `CI result` required, which remains the operator's.
+- **METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+  trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file.
+
+## Validity (superseded, written 2026-10-31 after Grok's admission, parent `a5f4e1e`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `a5f4e1e`
 - **Written**: 2026-10-31, by the operator line of the PyDromon trial, after Grok was admitted. This file's own commit
   sits directly on top, so `git rev-parse HEAD~1` must print `a5f4e1e...` for this handoff to be valid.
