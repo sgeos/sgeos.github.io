@@ -11,6 +11,38 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `c8e5bd6`
+- **Written**: 2026-10-30, by the operator line of the first PyDromon trial, after merging its results. This file's
+  own commit sits directly on top, so `git rev-parse HEAD~1` must print `c8e5bd6...` for this handoff to be valid.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/` and the untracked `vendor` links in the
+  worktrees.
+- **PUSH STATE.** `origin/master` is `c1b3b8a`. `c8e5bd6` and this file's commit go through a `ci/<topic>` branch
+  next. They change four published posts, so the Pages workflow deploys.
+- **PUBLICATION STATE.** A1 to A384 are published and **every one carries a generated Equations section.** A385 is
+  drafted as `_drafts/dromon_three_models_equations_sections.markdown`, dated `2026-08-21 09:00:00 +0000`, a first
+  draft not through the four passes. **The next free article number is A386.**
+- **WHAT HAPPENED.** `REVERSE_PROMPT.md`, third entry of 2026-10-30, and `_docs/process/dromon_trial_1/README.md`
+  have the detail. Opus classified A306, A308 and A309 and Luna classified A307, each reviewed by the other. Grok
+  never ran. Seven article errors were found and left, and are in `ARTICLE_ERRATA.md`.
+- **LOCAL STATE TO CLEAN UP, WITH THE PILOT'S AGREEMENT.**
+  - The Dromon daemon may still be running from the blog directory. Stop it with
+    `~/projects/python/pydromon/.venv/bin/dromon stop`, outside the sandbox.
+  - The worktrees `tmp/worktrees/{opus,luna,grok}` and branches `dromon/{opus,luna,grok}` hold only uncommitted
+    copies of what is now merged. Remove them with `git worktree remove` and `git branch -D`.
+  - `.dromon/` holds the trial's config, mailbox and event log. It is excluded by `.git/info/exclude`.
+  - `~/.grok/dromon-home/sandbox.toml` was edited for the trial, with a backup at `sandbox.toml.bak-20261030`.
+- **OPEN, FOR THE PILOT.**
+  1. Whether A385 goes through the four passes, and when it is published.
+  2. Whether to fix the five arithmetic errors the articles themselves settle, A306 line 448, A308 Eqs 17 and 29,
+     and A309 Eqs 65 and 122. A306 Eqs 4 and 105 need a choice of fix.
+  3. Reporting the Grok and Dromon defects upstream to PyDromon.
+  4. The ruleset change that makes `CI result` required, which remains the operator's.
+- **METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+  trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file.
+
+## Validity (superseded, written 2026-10-30 after the cleanup, parent `a313d77`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `a313d77`
 - **Written**: 2026-10-30, by the Equations section and CI line, after the open-items cleanup the pilot asked for.
   This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `a313d77...` for this handoff to
