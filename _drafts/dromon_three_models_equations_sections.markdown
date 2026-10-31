@@ -29,6 +29,7 @@ The three models worked inside a harness called Dromon.
 They were Claude Opus 5.5 from Anthropic,
 GPT-6-Luna from OpenAI
 and Grok 4.7 from xAI.
+The trial ran on 30 and 31 October 2026.
 
 The usual rule of this blog is that an article never reports how it was drafted.
 This article is the exception by the pilot's instruction,
@@ -206,7 +207,7 @@ Table 2. The phases of the trial and the commits that closed them.
 | First | Classify A306 to A309 and draft this article | Opus, Luna | `c8e5bd6` |
 | Second | Correct the seven errors the first phase found | Opus, Luna | `1014fb0` |
 | Release | Recompute the second phase's corrections independently | Grok | `a5f4e1e` |
-| Third | Restructure this article and put it through four passes | Opus, Luna, Grok | Not yet merged |
+| Third | Restructure this article and put it through four passes | Opus, Luna, Grok | `df89189` |
 
 The account of the general pass ended with a suggested next step.
 It proposed classifying A306 to A309 in a fresh session,
@@ -266,45 +267,27 @@ Table 3. The nine failures named by the hold questions for the Grok line.
 The repairs were made by a fourth agent,
 the Op55-pydromon session that maintains the harness.
 By the operator's chronology,
-each defect was found from a live turn on this blog
-and reported by the operator session to the Op55-pydromon session in a message between sessions.
-That session fixed and merged it,
+each defect was found from a live turn on this blog,
+reported by the operator session to the Op55-pydromon session in a message between sessions,
+fixed and merged there,
 and the harness was restarted onto the fix before the next Grok turn.
-Eight pull requests merged in just under eight hours,
-seven of them in the three hours from 05.01,
-as Table 4 shows.
-
-Table 4. The harness changes merged during the trial on 31 October 2026, by the operator's chronology.
-
-| Pull request | Merged | Defect or change |
-|---|---|---|
-| 95, `b0cd881` | 00.01 | Empty hook and plugin records the engine writes at every start were refused, so the Grok line had never run a turn |
-| 97, `4a0c95d` | 05.01 | The search tool and the calling tool were refused, so the Grok line could not reach its mail |
-| 98, `0e2f07a` | 05.21 | A message limit of one mebibyte, which an edit result carrying the whole original file exceeded |
-| 99, `bcd04d0` | 06.01 | The harness never requested the line's model, so the engine ran an older model and the turn was refused |
-| 101, `f60e91d` | 06.56 | The harness read tool calls from a field the engine does not send, so every call was refused |
-| 102, `814e8fd` | 07.27 | A directory listing reported a kind the harness did not accept, and a refused call that passed its input through a file named the wrong cause |
-| 103, `2a0ac25` | 07.39 | Refused calls by the Codex engine went uncounted, and the process listing ran on the harness's event loop |
-| 104, `81f9153` | 07.59 | Role commands, a new feature and not a repair |
-
-The harness serving this blog has run the last of these since 08.03.
-Later pull requests merged after the trial and the blog's harness does not run them.
+Eight pull requests merged on 31 October over just under eight hours,
+seven repairs and one new feature.
+All but the first came in a later burst of just under three hours.
 One refusal was kept by design,
 that of a call passing its input through a file.
 None of the three session lines watched the repairs land,
-and Table 4 is drawn from the operator's chronology,
+so this account is drawn from the operator's chronology,
 not from observation.
-The trial record had marked pull request 102 pending,
-and only the operator's answer settled it.
 
 The pattern recurred in the third phase,
-after the repairs in Table 4,
+after these repairs,
 in a hold that is not among the eleven questions or the nine failures of Table 3.
 A Grok turn was held during the fourth pass while it waited for the corpus verifier.
 By the operator's reading of the Grok session log,
 the engine gave its call for a command's output the kind `other`,
 and the harness permitted that call only with the kind `execute`.
-Pull request 102 had repaired the same kind of mismatch for the directory listing,
+One of the repairs had fixed the same kind of mismatch for the directory listing,
 but not for this tool.
 The harness records each tool's kind as a hypothesis until a live call confirms or contradicts it,
 so a wrong kind can stay hidden until the tool is first called.
@@ -320,16 +303,14 @@ a further defect cut the Grok line off from its mail at the end of the fourth pa
 so it could not review the last changes to this paragraph.
 
 The same opacity held the other two lines for shorter intervals,
-and two of the changes bear on them.
+and two of the repairs bear on them.
 The Opus engine died twice on the message limit of one mebibyte
 while editing the X-9 post of about 2.6 megabytes,
 and the failure named neither the limit nor the file.
-By the operator's chronology,
-pull request 98 raised that limit to 32 mebibytes.
+One of the repairs raised that limit to 32 mebibytes.
 The Luna line was held once because a process listing did not answer within ten seconds,
 and the stop policy must read that listing before a turn starts.
-By the same chronology,
-pull request 103 moved the listing off the harness's event loop.
+Another moved the listing off the harness's event loop.
 
 What the eleven questions show is that a refused call ended the turn
 and returned nothing the model could correct.
@@ -376,27 +357,13 @@ it disputed the account of what the Opus line had said because it had not read t
 In the second phase,
 proposals and acceptances crossed,
 and the split of the work changed twice before it was declared final.
+If a line can read new mail only when a turn starts,
+a message delivered during a turn waits unread until the next one begins.
 A delivered message was therefore not necessarily available to its recipient at the point of decision.
 Processes that communicate only by messages share no global order of events,
 only the partial order fixed by what each has received
 [Lamport 1978][research_lamport_1978],
 and the lines were such processes.
-
-Let $d$ be the time when a message is delivered,
-and let $b_k$ be the start times of the recipient's turns.
-If the line can read new mail only when a turn starts,
-the first read time $r$ and the waiting time $w$ are
-
-$$
-r = \min\{b_k : b_k \ge d\}, \qquad w = r - d.
-\tag{1}
-$$
-
-For example,
-if a message arrives two minutes into an eight-minute turn,
-this model gives six minutes of waiting if the next turn starts when this one ends.
-That duration is illustrative,
-not a measurement from this trial.
 
 The first phase also exposed a race over the deploy gate.
 The lines had agreed to announce a run by mail before starting it.
@@ -410,32 +377,29 @@ Only the Opus line's records show whether the builds overlapped.
 In the second phase the rule became to start only after reading that the other line had finished,
 and both runs followed it.
 
-Let $N_{\mathrm{holders}}(t)$ count the lines holding the gate lease at time $t$.
-Let $h_i(t)$ be one when line $i$ holds that lease,
-and zero otherwise.
-A lease enforces the invariant
-
-$$
-N_{\mathrm{holders}}(t) = \sum_i h_i(t) \le 1.
-\tag{2}
-$$
-
-If one line holds the lease,
-a second line cannot hold it at the same time.
-The first-phase mail agreement supplied no such invariant.
+A lease on the gate would have excluded a second run,
+since a second line cannot hold a lease while the first holds it.
+The first-phase mail agreement supplied no such exclusion.
 Mutual exclusion can be built from messages,
 but a participant may enter only after every other participant has replied
 [Ricart and Agrawala 1981][research_ricart_agrawala_1981],
 and an announcement that waits for no reply excludes no one.
 
-The operator's mail watcher failed during the Luna line's hold.
-By the operator's account,
-it requested more than the allowed fifty messages and failed without reporting an error.
-The Dromon hold question and the Opus line's completion report therefore went unseen for about an hour.
-The Opus line could see that the Luna line's files had stopped changing,
+The operator followed the lines' mail with a watcher,
+a script of its own and not part of Dromon,
+which twice missed new mail without reporting an error,
+first during a hold of the Luna line and again in the third phase.
+The second time the agreed outline for this restructure and eight other messages went unseen for about an hour and a quarter,
+because the watcher read only the first page of a mailbox that had outgrown it.
+The operator then reported to the pilot and ended its turn without replying to the lines,
+which added about eight hours and forty minutes before its next reply.
+
+During that hold of the Luna line,
+the Opus line could see that the Luna line's files had stopped changing,
 but its status tool did not show whether the Luna line was idle,
 working
-or held.
+or held,
+and the Opus line's completion report sat unseen by the operator.
 A held line and an unseen report looked like silence.
 The difficulty is a classic one.
 In an asynchronous system a slow process cannot be told from a crashed one,
@@ -448,40 +412,6 @@ were proposed to supply the missing information
 The harness is not a consensus protocol,
 and the comparison is an analogy,
 but the status tool lacked exactly that information.
-
-In the third phase the watcher missed mail again for a different reason,
-and the operator added a delay of its own.
-By the operator's account from the harness's event log,
-the mailbox lists the oldest messages first,
-and the watcher compared the identifiers on the first page of fifty.
-The mailbox already held more than fifty messages,
-so every new message landed on the second page,
-and the watcher never fired.
-It did not fail and reported no error.
-Nine messages from the three lines went unseen,
-among them the agreed outline,
-the request for the repair chronology,
-the message proposing twenty references,
-a question about pull request 102
-and both reports of the first pass.
-The operator found the second page by hand at about 09.27 Coordinated Universal Time,
-about 1 hour 15 minutes after the outline was sent at 08.13.
-It then reported to the pilot and ended its turn without replying to the lines,
-and its next reply came at 18.04,
-about 8 hours 40 minutes later.
-The outline therefore waited about 9 hours 50 minutes,
-of which the watcher accounts for the first part
-and the operator's own delay for the rest.
-The reference proposals waited from 08.29 until the verification at 18.06.
-The lines carried on meanwhile,
-and the reference pass waited.
-The watcher now compares the mailbox's total count of matching messages
-and reads from that offset.
-The operator's first estimate of the delay,
-about seven hours,
-was itself wrong,
-because it compared local file times with times in Coordinated Universal Time,
-and the event log gave the right figures.
 
 Reviews also crossed revisions.
 A reviewer sometimes assessed an earlier version while a later edit was already in progress.
@@ -535,7 +465,7 @@ the chance that both miss is
 
 $$
 P(M_1 \cap M_2) = p_1 p_2.
-\tag{3}
+\tag{1}
 $$
 
 With correlated misses,
@@ -544,7 +474,7 @@ Then
 
 $$
 P(M_1 \cap M_2) = p_1p_2 + \rho\sqrt{p_1(1-p_1)p_2(1-p_2)}.
-\tag{4}
+\tag{2}
 $$
 
 For two reviewers with an illustrative miss probability of $0.1$ each,
@@ -658,13 +588,13 @@ The instructions for the third phase confirmed the unfiltered observation as cor
 
 All four articles now carry an Equations section,
 and every display equation in them carries a tag.
-Table 5 gives the classifications.
+Table 4 gives the classifications.
 Each article was reviewed by a line other than its author,
 and each line's own run of the deploy gate passed with no errors,
 no warnings
 and no findings in the 551 rendered pages.
 
-Table 5. Classification of A306 to A309.
+Table 4. Classification of A306 to A309.
 
 | Article | Author | Reviewer | Equations | Standard | Bespoke |
 |---|---|---|---|---|---|
@@ -678,10 +608,10 @@ Reading each equation against its prose found seven errors in the published arti
 The first phase left them standing,
 since changing equations was outside its task.
 The second phase corrected each one together with every value derived from it,
-as Table 6 shows.
+as Table 5 shows.
 The operator approved the choice of fix for Equations 4 and 105 of the X-9 before any edit.
 
-Table 6. The seven errors and their corrections.
+Table 5. The seven errors and their corrections.
 
 | Article | Location | Published | Corrected | Corrected by | Recomputed by |
 |---|---|---|---|---|---|
@@ -788,10 +718,8 @@ A lease supplies the exclusion rule that mail cannot.
 **Make failures visible and bounded.**
 A refused tool call should state what blocked it and the approved next step,
 without inviting a workaround.
-A watcher that fails should report that it failed.
-A watcher should track the total count of messages and read from the last offset it saw,
-so that new mail beyond the first page is not missed in silence.
-A participant that finds waiting mail should answer it or say when it will.
+A watcher should report when it cannot read the whole mailbox,
+and a participant that finds waiting mail should answer it or say when it will.
 An edit to a large file should return a bounded difference and not the whole file.
 
 **Recompute values and repeat observations.**
@@ -822,14 +750,10 @@ and prohibited retries and workarounds.
 It did not identify the trigger.
 The operator's reading of the event log and the sent-mail listing show that the eleven hold questions carried the Grok line's sender label,
 while Dromon generated their bodies.
-The operator reported that during the Luna line's hold the mail watcher failed after requesting more than fifty messages.
-The operator's account from the event log states further that in the third phase the watcher did not fail but read only the first page,
-that nine messages went unseen,
-and the times of 08.13,
-about 09.27
-and 18.04 that separate the watcher's part of the delay from the operator's own.
-The operator reported further that pull request 102 merged as `814e8fd`,
-and that the Luna line was held after a process listing did not answer within ten seconds.
+The description of the operator's mail watcher,
+and the times that separate its part of the delay from the operator's own,
+come from the operator's account of the event log.
+The operator reported further that the Luna line was held after a process listing did not answer within ten seconds.
 The cause of the Grok line's hold in the third phase is taken from the Grok session log as the operator read it,
 which the Grok line confirmed against the operator's message to it.
 The operator also reported the recomputation of Equation 122 of the X-12
@@ -854,7 +778,7 @@ not an established cause.
 The trial is not a clean replication,
 for the reasons given under The Trial as a Test.
 The operator first inferred that the large-file failures came from an edit tool returning the whole file,
-and the chronology later gave that as the cause pull request 98 repaired.
+and the chronology later gave that as the cause of the repair that raised the limit.
 The comparisons with the confused deputy,
 with failure detectors
 and with automation bias are analogies,
@@ -879,13 +803,15 @@ not guarantees.
 Several claims changed when another line or the operator checked them,
 and the article states each in its corrected form.
 They are the length and causes of the delay before the operator answered the outline,
-the status of pull request 102 in the trial record,
+whether the repair for the directory listing had merged,
 the phase in which the mail watcher first failed,
-and the class of Equations 3 and 4 of this article,
+and the class of this article's two equations on correlated misses,
 which review changed to standard.
+A citation of Eckhardt and Lee for the second of them was removed,
+since their model gives the joint probability in a different form.
 A claim that one of the merged changes let the Grok line list a directory again was withdrawn,
 and so was a claim about the order of the stages in the general pass.
-The count of pull requests merged in the three hours from 05.01 was revised from six to seven
+The count of pull requests merged within three hours was revised from six to seven
 by recounting the operator's own listed times.
 A reader who holds the event log or the session transcripts may find a time or count that differs,
 and where the two differ that record governs.
@@ -923,55 +849,31 @@ which is the use a check can still be put to when it arrives late.
 
 <!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
 
-This section collects the 4 display equations of the article in the order they appear,
+This section collects the 2 display equations of the article in the order they appear,
 each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
-Of the 4, 2 are established and 2 are bespoke.
-The mail and lease equations state coordination assumptions, and the review probabilities are illustrative rather than measured in this trial.
+Of the 2, 2 are established and 0 are bespoke.
+The review probabilities are illustrative rather than measured in this trial.
 
-*Equation 1, Bespoke Turn-Boundary Mail Delay.*
-Assuming mail becomes readable only when a turn starts, the message waits until the first turn start at or after delivery.
-
-$$
-r = \min\{b_k : b_k \ge d\}, \qquad w = r - d.
-\tag{1}
-$$
-
-*Equation 2, Bespoke Gate Lease Exclusion.*
-A lease permits at most one line to hold the shared gate resource at a time.
-[Gray and Cheriton 1989][research_gray_cheriton_1989]
-
-$$
-N_{\mathrm{holders}}(t) = \sum_i h_i(t) \le 1.
-\tag{2}
-$$
-
-**Equation 3, Independent Event Product Rule.**
+**Equation 1, Independent Event Product Rule.**
 If two reviewers miss an error independently, their joint miss probability is the product of their individual probabilities.
 
 $$
 P(M_1 \cap M_2) = p_1 p_2.
-\tag{3}
+\tag{1}
 $$
 
-**Equation 4, Correlated Bernoulli Joint Probability.**
+**Equation 2, Correlated Bernoulli Joint Probability.**
 The correlation term adjusts the independent product to account for dependence between the reviewers' misses.
-[Eckhardt and Lee 1985][research_eckhardt_lee_1985]
 
 $$
 P(M_1 \cap M_2) = p_1p_2 + \rho\sqrt{p_1(1-p_1)p_2(1-p_2)}.
-\tag{4}
+\tag{2}
 $$
 
 ### Notation
 
-- $d$, the time a message is delivered
-- $b_k$, the start time of the recipient's turn k
-- $r$, the first read time at or after delivery
-- $w$, the wait from delivery until the first read time
-- $h_i(t)$, one if line i holds the lease at time t, and zero otherwise
-- $N_{\mathrm{holders}}(t)$, the number of lines holding the lease at time t
 - $M_1$, the event that reviewer 1 misses the same error
 - $M_2$, the event that reviewer 2 misses the same error
 - $p_1$, the probability that reviewer 1 misses the error
@@ -986,19 +888,20 @@ $$
 ### Primary Sources, Peer-Reviewed
 
 - Avizienis, A. 1985. "The N-Version Approach to Fault-Tolerant Software." *IEEE Transactions on Software Engineering* SE-11 (12): 1491–1501. [https://doi.org/10.1109/tse.1985.231893][research_avizienis_1985]
+- Cemri, Mert, Melissa Z. Pan, Shuyi Yang, et al. 2025. "Why Do Multi-Agent LLM Systems Fail?" In *Advances in Neural Information Processing Systems 38*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/085713-4082][research_cemri_et_al_2025]
+- Chandra, Tushar Deepak, and Sam Toueg. 1996. "Unreliable Failure Detectors for Reliable Distributed Systems." *Journal of the ACM* 43 (2): 225–67. [https://doi.org/10.1145/226643.226647][research_chandra_toueg_1996]
 - Eckhardt, D. E., and L. D. Lee. 1985. "A Theoretical Basis for the Analysis of Multiversion Software Subject to Coincident Errors." *IEEE Transactions on Software Engineering* SE-11 (12): 1511–17. [https://doi.org/10.1109/tse.1985.231895][research_eckhardt_lee_1985]
+- Fagan, M. E. 1976. "Design and Code Inspections to Reduce Errors in Program Development." *IBM Systems Journal* 15 (3): 182–211. [https://doi.org/10.1147/sj.153.0182][research_fagan_1976_inspections]
+- Fischer, Michael J., Nancy A. Lynch, and Michael S. Paterson. 1985. "Impossibility of Distributed Consensus with One Faulty Process." *Journal of the ACM* 32 (2): 374–82. [https://doi.org/10.1145/3149.214121][research_fischer_lynch_paterson_1985]
 - Knight, John C., and Nancy G. Leveson. 1986. "An Experimental Evaluation of the Assumption of Independence in Multiversion Programming." *IEEE Transactions on Software Engineering* SE-12 (1): 96–109. [https://doi.org/10.1109/tse.1986.6312924][research_knight_leveson_1986_independence]
 - Littlewood, B., and D. R. Miller. 1989. "Conceptual Modeling of Coincident Failures in Multiversion Software." *IEEE Transactions on Software Engineering* 15 (12): 1596–1614. [https://doi.org/10.1109/32.58771][research_littlewood_miller_1989]
+- Röttger, Paul, Hannah Kirk, Bertie Vidgen, Giuseppe Attanasio, Federico Bianchi, and Dirk Hovy. 2024. "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models." In *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)*. Association for Computational Linguistics. [https://doi.org/10.18653/v1/2024.naacl-long.301][research_rottger_et_al_2024]
 - Saltzer, J. H., and M. D. Schroeder. 1975. "The Protection of Information in Computer Systems." *Proceedings of the IEEE* 63 (9): 1278–1308. [https://doi.org/10.1109/proc.1975.9939][research_saltzer_schroeder_1975]
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- Cemri, Mert, Melissa Z. Pan, Shuyi Yang, et al. 2025. "Why Do Multi-Agent LLM Systems Fail?" In *Advances in Neural Information Processing Systems 38*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/085713-4082][research_cemri_et_al_2025]
-- Chandra, Tushar Deepak, and Sam Toueg. 1996. "Unreliable Failure Detectors for Reliable Distributed Systems." *Journal of the ACM* 43 (2): 225–67. [https://doi.org/10.1145/226643.226647][research_chandra_toueg_1996]
 - Du, Yilun, Shuang Li, Antonio B. Torralba, Joshua B. Tenenbaum, and Igor Mordatch. 2023. "Improving Factuality and Reasoning in Language Models through Multiagent Debate." Preprint, arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2305.14325][research_du_et_al_2023]
 - "Equations Section Convention." n.d. github.com. Accessed October 31, 2026. [https://github.com/sgeos/sgeos.github.io/blob/master/\_docs/writing/EQUATIONS\_SECTION.md][repo_equations_section]
-- Fagan, M. E. 1976. "Design and Code Inspections to Reduce Errors in Program Development." *IBM Systems Journal* 15 (3): 182–211. [https://doi.org/10.1147/sj.153.0182][research_fagan_1976_inspections]
-- Fischer, Michael J., Nancy A. Lynch, and Michael S. Paterson. 1985. "Impossibility of Distributed Consensus with One Faulty Process." *Journal of the ACM* 32 (2): 374–82. [https://doi.org/10.1145/3149.214121][research_fischer_lynch_paterson_1985]
 - Gray, C., and D. Cheriton. 1989. "Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency." In *Proceedings of the Twelfth ACM Symposium on Operating Systems Principles*. ACM. [https://doi.org/10.1145/74850.74870][research_gray_cheriton_1989]
 - Hardy, Norm. 1988. "The Confused Deputy, or Why Capabilities Might Have Been Invented." *ACM SIGOPS Operating Systems Review* 22 (4): 36–38. [https://doi.org/10.1145/54289.871709][research_hardy_1988]
 - Hong, Sirui, Mingchen Zhuge, Jiaqi Chen, et al. 2023. "MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework." Preprint, arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2308.00352][research_hong_et_al_2023]
@@ -1006,7 +909,6 @@ $$
 - Lampson, Butler W. 1973. "A Note on the Confinement Problem." *Communications of the ACM* 16 (10): 613–15. [https://doi.org/10.1145/362375.362389][research_lampson_1973]
 - Parasuraman, Raja, and Dietrich H. Manzey. 2010. "Complacency and Bias in Human Use of Automation: An Attentional Integration." *Human Factors: The Journal of the Human Factors and Ergonomics Society* 52 (3): 381–410. [https://doi.org/10.1177/0018720810376055][research_parasuraman_manzey_2010]
 - Ricart, Glenn, and Ashok K. Agrawala. 1981. "An Optimal Algorithm for Mutual Exclusion in Computer Networks." *Communications of the ACM* 24 (1): 9–17. [https://doi.org/10.1145/358527.358537][research_ricart_agrawala_1981]
-- Röttger, Paul, Hannah Kirk, Bertie Vidgen, Giuseppe Attanasio, Federico Bianchi, and Dirk Hovy. 2024. "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models." In *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)*. Association for Computational Linguistics. [https://doi.org/10.18653/v1/2024.naacl-long.301][research_rottger_et_al_2024]
 - Wu, Qingyun, Gagan Bansal, Jieyu Zhang, et al. 2023. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation." Preprint, arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2308.08155][research_wu_et_al_2023_autogen]
 
 ### Secondary Sources

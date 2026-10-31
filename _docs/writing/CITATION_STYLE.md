@@ -158,6 +158,20 @@ credited. A venue can also be credited through a source that speaks for it on a 
 *Science*, *Astronomy & Astrophysics* and *Space Science Reviews* remain uncredited, along with the AIAA
 predecessor journals of 1934 to 1962, for which no source describes the refereeing.
 
+**The A385 round, 2026-10-31.** ACM's Policy on Pre-Publication Evaluation makes every ACM title containing
+"Journal" or "Transactions on" a refereed journal reviewed by at least three qualified, independent reviewers. It
+now credits 30 ACM journals, among them the *Journal of the ACM*, through a name pattern confined to titles naming
+ACM. *ACM Computing Surveys*, the *IBM Systems Journal*, NeurIPS 2025's proceedings and NAACL 2024's are credited
+on their own pages. ACM's servers refused automated reading, so its pages were read through Internet Archive
+captures. These stay uncredited for want of an answer to by whom.
+- *Communications of the ACM*, which ACM's policy does not cover, since its title names neither a journal nor
+  transactions. It also mixes refereed papers with letters and invited commentary, which a venue credit cannot
+  tell apart.
+- *ACM SIGOPS Operating Systems Review*, a newsletter, which ACM's policy calls often unrefereed.
+- The 1989 SOSP proceedings, for which no source from that year describes the selection.
+- *Human Factors*, whose pages say only that review is single-anonymised.
+- ACM's proceedings and magazines generally, which the same policy says are often unrefereed.
+
 A family statement that does not name the journal does not count. ASME's page for its Transactions journals
 does not list the *Journal of Applied Mechanics*. A venue that publishes an unreviewed category is not credited
 at venue level when the cited paper's category is unknown, as with JSASS's *Aerospace Technology Japan*.

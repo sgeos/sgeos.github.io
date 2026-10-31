@@ -4,6 +4,47 @@
 
 ## Last Updated
 
+**Date**: 2026-10-31 (fourth entry)
+**Task**: **Your three decisions and the outside review of A385. Done and merged, A385 not published.**
+
+**Defective records, fixed.** `research_knight_leveson_1986` named an IEEE page titled "Call for Papers" and `research_fagan_1976` had no title. Each post's name now maps to the record verified for A385, so the 2026-07-13 and 2026-07-20 posts cite the real papers by DOI. Only their References changed.
+
+**A385 revised.** The session that ran the general pass reviewed A385, and its review is saved as `_docs/process/dromon_trial_1/general-pass-review.md`. Opus revised and Luna reviewed:
+- the repair table became one paragraph, and my watcher account three sentences;
+- Equations 1 and 2 were dropped, as restating the prose;
+- the Eckhardt and Lee citation came off the correlated-miss equation, which their paper does not state in that form;
+- the trial dates are stated.
+
+Author prose went from 6,508 to 6,064 words. I recorded the drafting-process exception in `STYLE_GUIDE.md`, limited to A385.
+
+**Venues, established as you ruled.** Every quote was read in a page I fetched, several through Internet Archive captures because ACM refuses automated reading.
+
+| Credited | Evidence |
+|---|---|
+| 30 ACM journals and transactions, including the *Journal of the ACM* | ACM's Policy on Pre-Publication Evaluation, at least three qualified, independent reviewers |
+| *ACM Computing Surveys* | Its author guidelines, referees selected by the associate editor |
+| *IBM Systems Journal* | Its 2005 instructions, three or more independent referees |
+| NeurIPS 2025 proceedings | Its call for papers and reviewer guidelines, reviewers checked for conflicts and expertise |
+| NAACL 2024 proceedings | Its call for papers and ARR's guidelines, assignments checked for expertise and conflicts |
+
+Not credited, for want of an answer to by whom:
+- *Communications of the ACM*, which ACM's policy does not cover and which mixes refereed papers with letters and invited commentary;
+- *Operating Systems Review*, a newsletter;
+- the 1989 SOSP proceedings;
+- *Human Factors*.
+
+So Lamport, Lampson, Ricart and Agrawala, Hardy, Gray and Cheriton, and Parasuraman and Manzey stay under Non-Peer-Reviewed in A385. The References sections of 21 published posts were regenerated, and every changed line is a list entry or a heading.
+
+**Verification.** `_verify.py` 0 and 0. `sources.py validate` clean. `./_check.sh` passed. See the commit.
+
+**Open, for you.**
+1. Publishing A385, with the date of the day it is published.
+2. Stopping the team once it is live.
+3. Whether to credit *Communications of the ACM* for its refereed sections, which would need a way to mark letters and commentaries per record.
+4. The ruleset change that makes `CI result` required, which remains the operator's.
+
+## Previous Report (2026-10-31, third entry)
+
 **Date**: 2026-10-31 (third entry)
 **Task**: **The trial's third phase. The three lines restructured A385 around a thesis and put it through the four passes. Done and merged, not published.**
 

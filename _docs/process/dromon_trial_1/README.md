@@ -19,6 +19,7 @@ the line.
 | [a385-luna.md](./a385-luna.md) | The Luna line's source notes for the A385 draft |
 | [notation_A305-A310.md](./notation_A305-A310.md) | The shared notation baseline built from A305 and A310 |
 | [general-pass-account.md](./general-pass-account.md) | The written account, verbatim, of the session that ran the general Equations section pass and met the A306 to A309 refusal |
+| [general-pass-review.md](./general-pass-review.md) | The review of A385 by the session that ran the general pass, which led to the revision round |
 | [a385-outline-v5.md](./a385-outline-v5.md) | The phase 3 outline all three lines agreed, after five versions |
 
 ## Outcome
@@ -96,6 +97,17 @@ The pilot asked the three lines to restructure A385 around a stated thesis and t
   paragraph.
 - **At merge** the operator removed one reference list entry the prose never cited, the repository root, and changed
   "an unmerged pull request" to "a later pull request" after PR 112 merged.
+
+## Revision After Review, 2026-10-31
+
+The session that ran the general pass, still read-only, reviewed A385 at `df89189`, and the pilot passed the review
+on. Opus revised and Luna reviewed. The repair table became one paragraph and the watcher account three sentences.
+Equations 1 and 2 were dropped as restating the prose. The Eckhardt and Lee citation came off the correlated-miss
+equation, since their model gives the joint probability as the square of the mean plus the variance of difficulty, a
+different form, and the body citation stays. The trial dates are stated. Author prose went from 6,508 to 6,064 words.
+The review's point about reference categories was the database's default deny, and the pilot ruled that the venues be
+established, which is recorded in [Citation Style](../../writing/CITATION_STYLE.md). Grok took no part, since it could
+not read mail.
 
 ## Operator-Side Changes and Failures
 

@@ -36,8 +36,12 @@ and reviewed by Grok, and added 4 equations, 2 standard and 2 bespoke. The refer
 by Luna, and added 20 sources that the operator verified against the registries and imported, with the References
 section generated from the source database. Opus led the readiness pass and Luna reviewed it. Grok led the diction
 pass and Opus reviewed it.
-Grok could not review the last two sentences of one paragraph, because a harness defect cut it off from its mail. 1,055
-lines. `_verify.py` 0 and 0. The pilot decides when it is published.
+Grok could not review the last two sentences of one paragraph, because a harness defect cut it off from its mail. A
+review by the session that ran the general pass then led to a revision round, led by Opus and reviewed by Luna. The
+repair table became one paragraph, the operator watcher account three sentences, Equations 1 and 2 were dropped, the
+Eckhardt and Lee citation came off the correlated-miss equation, and the trial dates are stated. Author prose went
+from 6,508 to 6,064 words. Its reference categories now follow the venues credited in the same round. On the pilot's
+instruction it publishes with the date of the day it is published. `_verify.py` 0 and 0.
 
 ## Orbital Manoeuvres in Terms of Delta-v A381 2026-08-17 PUBLISHED
 
