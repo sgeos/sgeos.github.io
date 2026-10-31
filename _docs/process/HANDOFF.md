@@ -11,6 +11,33 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `1014fb0`
+- **Written**: 2026-10-31, by the operator line of the PyDromon trial, after its second phase. This file's own commit
+  sits directly on top, so `git rev-parse HEAD~1` must print `1014fb0...` for this handoff to be valid.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `b5256b0`. `1014fb0` and this file's commit go through a `ci/<topic>` branch next,
+  and they deploy, since they change three published posts.
+- **PUBLICATION STATE.** A1 to A384 are published, each with a generated Equations section. A385 is drafted and
+  covers both phases, but is not through the four passes. **The next free article number is A386.**
+- **WHAT HAPPENED.** `REVERSE_PROMPT.md`, first entry of 2026-10-31, has the detail. All seven article errors are
+  fixed. Grok reached its model for the first time and is held on a refused `search_tool`, which the `Op55-pydromon`
+  session is fixing.
+- **LOCAL STATE.**
+  - The Dromon daemon runs from the blog directory at PyDromon `c020579`. When PyDromon says the Grok fixes have
+    merged, run `dromon restart` and answer `q-68f9413dc675` with `resume`. Grok's phase 2 kickoff waits in its mail.
+  - The worktrees `tmp/worktrees/{opus,luna,grok}` hold only copies of merged work.
+  - `.dromon/LINES.md` has the Phase 2 section, which is copied to `_docs/process/dromon_trial_1/LINES.md`.
+- **OPEN, FOR THE PILOT.**
+  1. Grok's admission and any work for it once the fix lands.
+  2. Whether A385 is restructured around its three findings, put through the passes, and published.
+  3. The ruleset change that makes `CI result` required, which remains the operator's.
+- **METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+  trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file. A Claude line must not
+  use Edit on a post over about 500 KB until PyDromon raises its 1 MiB message limit.
+
+## Validity (superseded, written 2026-10-30 after phase 1, parent `c8e5bd6`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `c8e5bd6`
 - **Written**: 2026-10-30, by the operator line of the first PyDromon trial, after merging its results. This file's
   own commit sits directly on top, so `git rev-parse HEAD~1` must print `c8e5bd6...` for this handoff to be valid.
