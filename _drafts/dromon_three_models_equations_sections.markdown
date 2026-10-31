@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Access, Legible State and Recomputation in a Three-Model Harness"
-date: 2026-08-21 09:00:00 +0000
+date: 2026-10-31 09:00:00 +0000
 categories: ai ai-tools development developer-productivity
 ---
 
@@ -894,7 +894,10 @@ $$
 - Fagan, M. E. 1976. "Design and Code Inspections to Reduce Errors in Program Development." *IBM Systems Journal* 15 (3): 182–211. [https://doi.org/10.1147/sj.153.0182][research_fagan_1976_inspections]
 - Fischer, Michael J., Nancy A. Lynch, and Michael S. Paterson. 1985. "Impossibility of Distributed Consensus with One Faulty Process." *Journal of the ACM* 32 (2): 374–82. [https://doi.org/10.1145/3149.214121][research_fischer_lynch_paterson_1985]
 - Knight, John C., and Nancy G. Leveson. 1986. "An Experimental Evaluation of the Assumption of Independence in Multiversion Programming." *IEEE Transactions on Software Engineering* SE-12 (1): 96–109. [https://doi.org/10.1109/tse.1986.6312924][research_knight_leveson_1986_independence]
+- Lamport, Leslie. 1978. "Time, Clocks, and the Ordering of Events in a Distributed System." *Communications of the ACM* 21 (7): 558–65. [https://doi.org/10.1145/359545.359563][research_lamport_1978]
+- Lampson, Butler W. 1973. "A Note on the Confinement Problem." *Communications of the ACM* 16 (10): 613–15. [https://doi.org/10.1145/362375.362389][research_lampson_1973]
 - Littlewood, B., and D. R. Miller. 1989. "Conceptual Modeling of Coincident Failures in Multiversion Software." *IEEE Transactions on Software Engineering* 15 (12): 1596–1614. [https://doi.org/10.1109/32.58771][research_littlewood_miller_1989]
+- Ricart, Glenn, and Ashok K. Agrawala. 1981. "An Optimal Algorithm for Mutual Exclusion in Computer Networks." *Communications of the ACM* 24 (1): 9–17. [https://doi.org/10.1145/358527.358537][research_ricart_agrawala_1981]
 - Röttger, Paul, Hannah Kirk, Bertie Vidgen, Giuseppe Attanasio, Federico Bianchi, and Dirk Hovy. 2024. "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models." In *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)*. Association for Computational Linguistics. [https://doi.org/10.18653/v1/2024.naacl-long.301][research_rottger_et_al_2024]
 - Saltzer, J. H., and M. D. Schroeder. 1975. "The Protection of Information in Computer Systems." *Proceedings of the IEEE* 63 (9): 1278–1308. [https://doi.org/10.1109/proc.1975.9939][research_saltzer_schroeder_1975]
 
@@ -905,10 +908,7 @@ $$
 - Gray, C., and D. Cheriton. 1989. "Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency." In *Proceedings of the Twelfth ACM Symposium on Operating Systems Principles*. ACM. [https://doi.org/10.1145/74850.74870][research_gray_cheriton_1989]
 - Hardy, Norm. 1988. "The Confused Deputy, or Why Capabilities Might Have Been Invented." *ACM SIGOPS Operating Systems Review* 22 (4): 36–38. [https://doi.org/10.1145/54289.871709][research_hardy_1988]
 - Hong, Sirui, Mingchen Zhuge, Jiaqi Chen, et al. 2023. "MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework." Preprint, arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2308.00352][research_hong_et_al_2023]
-- Lamport, Leslie. 1978. "Time, Clocks, and the Ordering of Events in a Distributed System." *Communications of the ACM* 21 (7): 558–65. [https://doi.org/10.1145/359545.359563][research_lamport_1978]
-- Lampson, Butler W. 1973. "A Note on the Confinement Problem." *Communications of the ACM* 16 (10): 613–15. [https://doi.org/10.1145/362375.362389][research_lampson_1973]
 - Parasuraman, Raja, and Dietrich H. Manzey. 2010. "Complacency and Bias in Human Use of Automation: An Attentional Integration." *Human Factors: The Journal of the Human Factors and Ergonomics Society* 52 (3): 381–410. [https://doi.org/10.1177/0018720810376055][research_parasuraman_manzey_2010]
-- Ricart, Glenn, and Ashok K. Agrawala. 1981. "An Optimal Algorithm for Mutual Exclusion in Computer Networks." *Communications of the ACM* 24 (1): 9–17. [https://doi.org/10.1145/358527.358537][research_ricart_agrawala_1981]
 - Wu, Qingyun, Gagan Bansal, Jieyu Zhang, et al. 2023. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation." Preprint, arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2308.08155][research_wu_et_al_2023_autogen]
 
 ### Secondary Sources

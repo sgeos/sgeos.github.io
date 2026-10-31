@@ -164,13 +164,17 @@ now credits 30 ACM journals, among them the *Journal of the ACM*, through a name
 ACM. *ACM Computing Surveys*, the *IBM Systems Journal*, NeurIPS 2025's proceedings and NAACL 2024's are credited
 on their own pages. ACM's servers refused automated reading, so its pages were read through Internet Archive
 captures. These stay uncredited for want of an answer to by whom.
-- *Communications of the ACM*, which ACM's policy does not cover, since its title names neither a journal nor
-  transactions. It also mixes refereed papers with letters and invited commentary, which a venue credit cannot
-  tell apart.
 - *ACM SIGOPS Operating Systems Review*, a newsletter, which ACM's policy calls often unrefereed.
 - The 1989 SOSP proceedings, for which no source from that year describes the selection.
 - *Human Factors*, whose pages say only that review is single-anonymised.
 - ACM's proceedings and magazines generally, which the same policy says are often unrefereed.
+
+*Communications of the ACM* is credited record by record, through `record_level`, because it prints refereed papers
+beside letters and invited commentary. Its 2016 author guidelines say its contributed articles are peer reviewed
+following the journal's roots and that authors name recognised experts as reviewers. Its 33 research papers of 1982
+and earlier are marked `refereed`, judged from title and length. Letters, committee reports, an award lecture, a
+comment and single-page items are not marked. Items from 1983 on are not judged, because the registry does not
+record which section printed them, so they stay under default deny.
 
 A family statement that does not name the journal does not count. ASME's page for its Transactions journals
 does not list the *Journal of Applied Mechanics*. A venue that publishes an unreviewed category is not credited
@@ -549,7 +553,9 @@ is a list of sources, each with the page's `url`, a verbatim `quote`, the date i
 `method`, either `fetched` for a page read directly or `snippet` for a search-engine summary kept as a lead.
 `since` is the first year the evidence covers, when it gives one. Validation refuses `peer_reviewed` true
 without `checked`, `reviewers` and at least one `fetched` source, so an unverified venue cannot be credited
-by a hand edit.
+by a hand edit. `record_level` marks a venue that referees only some of what it prints. Its credit then reaches
+only a record marked `refereed`, a human decision that must carry a `note` saying how the item was judged, and an
+unmarked item from that venue stays under default deny.
 
 **Storage.** The database lives in `_sources/`, which Jekyll does not copy. Its eventual size, roughly a quarter
 of a million records, rules out one file per source and a single file. Records are JSON Lines in

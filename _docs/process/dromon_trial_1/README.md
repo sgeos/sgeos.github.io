@@ -31,7 +31,7 @@ the line.
 - Seven article errors were found and left, since equations were out of scope. Phase 2 fixed them and removed
   them from [Article Errata](../ARTICLE_ERRATA.md). The A309 Equation 122 finding was first stated with the wrong reason
   and confirmed by the other line, and the operator's recomputation corrected it.
-- The A385 draft is `_drafts/dromon_three_models_equations_sections.markdown`, dated 2026-08-21, unpublished.
+- The A385 draft is `_drafts/dromon_three_models_equations_sections.markdown`, first dated 2026-08-21 and redated 2026-10-31 for publication, unpublished.
 - Phase 1 was merged at `c8e5bd6` and deployed at `b5256b0`.
 
 ## Phase 2, 2026-10-31

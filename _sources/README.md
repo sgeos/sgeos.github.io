@@ -121,7 +121,8 @@ after reading a source the venue speaks through that answers the question, recor
 `method` `fetched`. `validate` refuses anything less. A venue that an import meets for the first time is added as not
 established. See [Citation Style](../_docs/writing/CITATION_STYLE.md) under Default deny.
 
-**Human decisions live on the record.** `synthesis` marks a review rather than a report of the
+**Human decisions live on the record.** `refereed` marks an item a `record_level` venue refereed, with a `note`
+saying how it was judged. `synthesis` marks a review rather than a report of the
 authors' own work. `stake` marks a publisher with an interest in the subject. Corrections to registry
 data carry a `note` saying what was wrong and where the correct value came from. A record's `rule` and
 `section` must be what the classification rules give, so a reclassification is made by changing the

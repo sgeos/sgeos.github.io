@@ -4,6 +4,36 @@
 
 ## Last Updated
 
+**Date**: 2026-10-31 (fifth entry)
+**Task**: **Credit Communications of the ACM for its refereed sections, date A385 today, merge everything, and hold for the final publication pass. Done. A385 is not published.**
+
+**The mechanism.** The database could only credit a whole venue, and CACM prints refereed papers beside letters and invited commentary. Two fields now let a venue be credited record by record, keeping default deny:
+- `record_level` on a venue means its credit reaches only records marked `refereed`;
+- `refereed` on a record is a human decision, like `synthesis`, and validation refuses it without a `note` saying how the item was judged, or on a venue that is not `record_level`.
+
+Two new tests cover both, and the library suite is 96 of 96.
+
+**CACM.** Its 2016 author guidelines, read through an Internet Archive capture, say contributed articles are peer reviewed "following the roots of Communications", that all review articles are, and that authors name "three or more recognized experts" as reviewers. I marked its 33 research papers of 1982 and earlier, judged from title and length. I left unmarked:
+- the two ALGOL reports;
+- "Go to Statement Considered Harmful", a letter;
+- Backus's Turing Award lecture;
+- a comment and two single-page items;
+- everything from 1983 on, whose section the registry does not record.
+
+That last group is the gap. Some of its items are refereed review articles, but I could not establish which. In A385, Lamport, Lampson, and Ricart and Agrawala are now under Peer-Reviewed. The References sections of 15 published posts were regenerated, and every changed line is a list entry or a heading.
+
+**A385** is dated 2026-10-31 09:00 UTC, a slot no post or draft holds. It is still in `_drafts/`, held for the final publication pass, as you asked.
+
+**Verification.** `_verify.py` 0 and 0. `sources.py validate` clean. `./_check.sh` passed. See the commit.
+
+**Open, for you.**
+1. The final publication pass for A385.
+2. Stopping the team once it is live.
+3. Whether to judge CACM items from 1983 on, which needs each item's section, for example from ACM's own pages by hand.
+4. The ruleset change that makes `CI result` required, which remains the operator's.
+
+## Previous Report (2026-10-31, fourth entry)
+
 **Date**: 2026-10-31 (fourth entry)
 **Task**: **Your three decisions and the outside review of A385. Done and merged, A385 not published.**
 

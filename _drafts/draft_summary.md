@@ -17,9 +17,9 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Access, Legible State and Recomputation in a Three-Model Harness A385 2026-08-21 DRAFT
+## Access, Legible State and Recomputation in a Three-Model Harness A385 2026-10-31 DRAFT
 
-`_drafts/dromon_three_models_equations_sections.markdown`, A385, editorial date 2026-08-21, standalone essay, categories
+`_drafts/dromon_three_models_equations_sections.markdown`, A385, editorial date 2026-10-31, standalone essay, categories
 `ai ai-tools development developer-productivity`, no series. Drafted 2026-10-30 by the Opus line of the first PyDromon
 trial, from the Opus and Luna experience reports and their mail, and reviewed by the Luna line in several rounds. Its
 subject is its own making, so the rule that an article never reports its drafting process is waived for it by the
@@ -40,8 +40,8 @@ Grok could not review the last two sentences of one paragraph, because a harness
 review by the session that ran the general pass then led to a revision round, led by Opus and reviewed by Luna. The
 repair table became one paragraph, the operator watcher account three sentences, Equations 1 and 2 were dropped, the
 Eckhardt and Lee citation came off the correlated-miss equation, and the trial dates are stated. Author prose went
-from 6,508 to 6,064 words. Its reference categories now follow the venues credited in the same round. On the pilot's
-instruction it publishes with the date of the day it is published. `_verify.py` 0 and 0.
+from 6,508 to 6,064 words. Its reference categories now follow the venues credited in the same round. It is dated
+2026-10-31, the day it is to be published, and held for the final publication pass. `_verify.py` 0 and 0.
 
 ## Orbital Manoeuvres in Terms of Delta-v A381 2026-08-17 PUBLISHED
 
