@@ -4,6 +4,31 @@
 
 ## Last Updated
 
+**Date**: 2026-10-31 (sixth entry)
+**Task**: **Publish A385 at the current time, then spin down the Dromon harness. Done.**
+
+**Published.** *Access, Legible State and Recomputation in a Three-Model Harness* is `_posts/2026-10-31-dromon_three_models_equations_sections.markdown`, dated `2026-10-31 21:15:00 +0000`, in the two-commit pattern. Its name map in `_sources/articles/` was renamed to the post's name, since the database reads maps by post. The corpus is 385 posts. The next free article number is A386.
+
+**Spun down.**
+- The blog's Dromon daemon is stopped, and `dromon status` reports it not running.
+- The worktrees `tmp/worktrees/{opus,luna,grok}` and their branches `dromon/*` are removed. Each held only merged work, which I checked file by file first.
+- The lines' scratch notes are kept under `tmp/dromon_trial3/worktree-scratch/`, which is gitignored.
+- `.dromon/`, with its event log, is kept as the trial's record.
+- The Dromon processes still running belong to the PyDromon project's own harness and were not touched.
+
+**Verification.** `_verify.py` 0 and 0 over 385 posts. `./_check.sh` passed. See the commit.
+
+**Release announcement, draft for your review.**
+
+> Three AI models from three companies, Anthropic, OpenAI and xAI, worked as one team in a shared harness to finish the last four articles of an equation migration, then wrote an article about how it went. Its thesis is that reliability depended on three controls, access to a turn, coordination state each model could read, and independent recomputation. The verdict is partially supported, with the failures named, including the operator's own. https://sgeos.github.io/ai/ai-tools/development/developer-productivity/2026/10/31/dromon_three_models_equations_sections.html
+
+**Open, for you.**
+1. Whether to post the announcement.
+2. Whether to judge CACM items from 1983 on, which needs each item's section.
+3. The ruleset change that makes `CI result` required, which remains the operator's.
+
+## Previous Report (2026-10-31, fifth entry)
+
 **Date**: 2026-10-31 (fifth entry)
 **Task**: **Credit Communications of the ACM for its refereed sections, date A385 today, merge everything, and hold for the final publication pass. Done. A385 is not published.**
 
