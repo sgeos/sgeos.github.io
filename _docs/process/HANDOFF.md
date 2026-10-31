@@ -11,6 +11,29 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `f08c6fa`
+- **Written**: 2026-10-31, by the operator line of the PyDromon trial, after A385 was published and the harness spun
+  down. This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `f08c6fa...` for this
+  handoff to be valid.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `5c63bf6`. `6459f72`, `f08c6fa` and this file's commit go through a
+  `ci/<topic>` branch next, and they deploy A385.
+- **PUBLICATION STATE.** A1 to A385 are published. A385, *Access, Legible State and Recomputation in a Three-Model
+  Harness*, is `_posts/2026-10-31-dromon_three_models_equations_sections.markdown`, dated 2026-10-31 21:15 UTC. **The
+  next free article number is A386.**
+- **WHAT HAPPENED.** `REVERSE_PROMPT.md`, sixth entry of 2026-10-31, with a draft release announcement.
+- **LOCAL STATE.** The blog's Dromon daemon is stopped, and its worktrees and `dromon/*` branches are removed.
+  `.dromon/` keeps the trial's event log. The lines' scratch is under `tmp/dromon_trial3/worktree-scratch/`.
+- **OPEN, FOR THE PILOT.**
+  1. Whether to post the release announcement.
+  2. Whether to judge CACM items from 1983 on, which needs each item's section.
+  3. The ruleset change that makes `CI result` required, which remains the operator's.
+- **METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+  trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file.
+
+## Validity (superseded, written 2026-10-31 before the final publication pass, parent `55afeda`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `55afeda`
 - **Written**: 2026-10-31, by the operator line of the PyDromon trial, after the CACM credit and A385's redating.
   This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `55afeda...` for this handoff to
