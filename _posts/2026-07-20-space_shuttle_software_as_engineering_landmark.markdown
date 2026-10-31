@@ -286,6 +286,7 @@ $$
 
 ### Primary Sources, Non-Peer-Reviewed
 
+- Fagan, M. E. 1976. "Design and Code Inspections to Reduce Errors in Program Development." *IBM Systems Journal* 15 (3): 182–211. [https://doi.org/10.1147/sj.153.0182][research_fagan_1976]
 - *HAL/S Language Specification*. n.d. [https://ntrs.nasa.gov/citations/19790018664][ref_hals_spec]
 - Hanaway, John F., and Robert W. Moorehead. 1989. *Space Shuttle Avionics System*. NASA-SP-504. NASA. [https://ntrs.nasa.gov/citations/19900015844][book_hanaway_moorehead_shuttle_avionics]
 - Madden, William A., and Kyle Y. Rone. 1984. "Design, Development, Integration: Space Shuttle Primary Flight Software System." *Communications of the ACM* 27 (9): 914–25. [https://doi.org/10.1145/358234.358254][research_madden_rone_1984]
@@ -295,7 +296,6 @@ $$
 
 ### General Sources
 
-- Fagan. 1976. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/5388086][research_fagan_1976]
 - Fishman. 1996. "\[Title not identified\]." Accessed October 25, 2026. [https://www.fastcompany.com/28121/they-write-right-stuff][research_fishman_1996]
 - Garman. 1981. "\[Title not identified\]." Accessed October 25, 2026. [https://dl.acm.org/doi/10.1145/1005944.1005948][research_garman_1981]
 - Humphrey. 1988. "\[Title not identified\]." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/2014][research_humphrey_1988]
@@ -324,7 +324,7 @@ $$
 [related_post_a241_aerospace_simulation]: {% post_url 2026-07-17-aerospace_simulation_and_real_time_systems %}
 [related_post_a242_apollo_guidance_computer]: {% post_url 2026-07-18-apollo_guidance_computer %}
 [related_post_a243_arpanet_networking]: {% post_url 2026-07-19-arpanet_and_networking_origins %}
-[research_fagan_1976]: https://ieeexplore.ieee.org/document/5388086
+[research_fagan_1976]: https://doi.org/10.1147/sj.153.0182
 [research_fishman_1996]: https://www.fastcompany.com/28121/they-write-right-stuff
 [research_garman_1981]: https://dl.acm.org/doi/10.1145/1005944.1005948
 [research_humphrey_1988]: https://ieeexplore.ieee.org/document/2014

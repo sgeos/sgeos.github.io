@@ -467,6 +467,7 @@ $$
 
 ### Primary Sources, Peer-Reviewed
 
+- Knight, John C., and Nancy G. Leveson. 1986. "An Experimental Evaluation of the Assumption of Independence in Multiversion Programming." *IEEE Transactions on Software Engineering* SE-12 (1): 96–109. [https://doi.org/10.1109/tse.1986.6312924][research_knight_leveson_1986]
 - Lehman, M. M. 1980. "Programs, Life Cycles, and Laws of Software Evolution." *Proceedings of the IEEE* 68 (9): 1060–76. [https://doi.org/10.1109/proc.1980.11805][research_lehman_1980]
 - Wright, T. P. 1936. "Factors Affecting the Cost of Airplanes." *Journal of the Aeronautical Sciences* 3 (4): 122–28. [https://doi.org/10.2514/8.155][research_wright_1936]
 
@@ -519,7 +520,6 @@ $$
 - Everett Whirlwind. 1951. "\[Title not identified\]." Accessed October 25, 2026. [https://apps.dtic.mil/sti/citations/AD0625649][research_everett_whirlwind_1951]
 - Joseph and Pandya. 1986. "\[Title not identified\]." Accessed October 25, 2026. [https://academic.oup.com/comjnl/article/29/5/390/533018][research_joseph_pandya_1986]
 - Kleinrock. 1961. "\[Title not identified\]." Accessed October 25, 2026. [https://dspace.mit.edu/handle/1721.1/11562][research_kleinrock_1961]
-- Knight and Leveson. 1986. "Call for Papers." Accessed October 25, 2026. [https://ieeexplore.ieee.org/document/1702093][research_knight_leveson_1986]
 - Moore. 1965. "\[Title not identified\]." Accessed October 25, 2026. [https://www.computerhistory.org/collections/catalog/102770822][ref_moore_1965]
 - Moore and Shannon. 1956. "\[Title not identified\]." Accessed October 25, 2026. [https://www.sciencedirect.com/science/article/pii/0016003256905598][research_moore_shannon_1956]
 - "RTCA." n.d. Accessed October 25, 2026. [https://www.rtca.org/][ref_rtca]
@@ -585,7 +585,7 @@ $$
 [research_hopkins_alonso_adcock_1965]: https://ntrs.nasa.gov/citations/19660007349
 [research_joseph_pandya_1986]: https://academic.oup.com/comjnl/article/29/5/390/533018
 [research_kleinrock_1961]: https://dspace.mit.edu/handle/1721.1/11562
-[research_knight_leveson_1986]: https://ieeexplore.ieee.org/document/1702093
+[research_knight_leveson_1986]: https://doi.org/10.1109/tse.1986.6312924
 [research_lehman_1980]: https://doi.org/10.1109/proc.1980.11805
 [research_liu_layland_1973]: https://doi.org/10.1145/321738.321743
 [research_madden_rone_1984]: https://doi.org/10.1145/358234.358254
