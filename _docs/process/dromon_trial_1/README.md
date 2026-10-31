@@ -14,6 +14,8 @@ the line.
 | [LINES.md](./LINES.md) | The standing brief every line received at the start of each turn |
 | [harness-report-opus.md](./harness-report-opus.md) | Experience report of the Opus line |
 | [harness-report-luna.md](./harness-report-luna.md) | Experience report of the Luna line |
+| [harness-report-grok.md](./harness-report-grok.md) | Experience report of the Grok line, written after it was admitted |
+| [a385-grok.md](./a385-grok.md) | The Grok line's source notes for the A385 draft |
 | [a385-luna.md](./a385-luna.md) | The Luna line's source notes for the A385 draft |
 | [notation_A305-A310.md](./notation_A305-A310.md) | The shared notation baseline built from A305 and A310 |
 
@@ -43,6 +45,23 @@ the line.
   post. The likely trigger is the Edit tool's result, which carries the whole original file. Large posts were then
   edited through the shell. PyDromon has queued a fix that raises the limit.
 - **A385 records phase 2** in "The Second Phase", reviewed and signed off by Luna.
+
+## Grok Admitted, 2026-10-31
+
+Grok joined after four more PyDromon fixes, each found from a live Grok turn and reported to the `Op55-pydromon`
+session, which owns that checkout. Each fix was merged there before the blog daemon was restarted onto it.
+
+| PyDromon | Defect |
+|---|---|
+| PR 97, `4a0c95d` | `search_tool` and `use_tool` refused, so a Grok line could not reach Dromon's mail |
+| PR 99, `bcd04d0` | Dromon never requested the line's model, so Grok ran `grok-4.6` and the turn was refused |
+| PR 101, `f60e91d` | Grok calls named only in `_meta["x.ai/tool"]`, so every Grok tool call was refused |
+| PR 102, pending | `list_dir` reports kind `other`, and a refused file-backed `use_tool` named the wrong cause |
+
+The operator also gave the line `Read`, `Grep` and `Glob`, and told it to avoid `list_dir` and to pass `use_tool`
+arguments inline. Grok then recomputed every phase 2 value from the articles' own inputs, independently, and found no
+discrepancy, wrote its report, and sent notes for A385, which Opus added and Luna reviewed. The eleven questions recorded
+under Grok's name were Dromon's own hold questions, which the event log shows. Grok asked none of them.
 
 ## Operator-Side Changes and Failures
 

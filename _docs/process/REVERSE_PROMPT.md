@@ -4,6 +4,30 @@
 
 ## Last Updated
 
+**Date**: 2026-10-31 (second entry)
+**Task**: **The remaining part of the pilot's request, pulling Grok into the team. Done. Grok is admitted, did an independent third check of the phase 2 fixes, wrote its experience report, and contributed its account to A385. Pushed through a `ci/<topic>` branch.**
+
+**How Grok got in.** Each step was found from a live Grok turn and reported to the `Op55-pydromon` session, which owns that checkout. It fixed each defect, and I restarted the blog daemon onto each merge. I did not patch PyDromon.
+
+| PyDromon | What it fixed |
+|---|---|
+| PR 97, `4a0c95d` | Dromon refused `search_tool` and `use_tool`, the only route by which Grok reaches Dromon's mail |
+| PR 99, `bcd04d0` | Dromon never requested the line's model, so Grok chose `grok-4.6` and the turn was refused |
+| PR 101, `f60e91d` | Dromon read Grok tool calls by a field Grok does not send, so every Grok call was refused |
+| PR 102, pending | `list_dir` reports kind `other`. A refused file-backed `use_tool` was reported as a tool not given |
+
+On the blog side I gave the line `Read`, `Grep` and `Glob`, which PyDromon's tool table showed it needed to read a file at all. I told it in `LINES.md` to avoid `list_dir` and the tools Dromon refuses, and to pass `use_tool` arguments inline. Grok had first staged its mail in the system `/tmp`, which its sandbox allows. Those files are gone.
+
+**What Grok did.** It recomputed every value phase 2 changed from the articles' own inputs, without the other lines' figures, and found no discrepancy. It also showed that the A308 margin of 1.44 belongs to Eq 16, so the Eq 17 fix does not move it. Luna then recomputed Grok's figures and agreed. Grok wrote `harness-report-grok.md`, whose first suggestion is that a refused tool call should return an error to the model instead of holding the line, and sent notes that Opus added to A385 as "The Third Line After the Merge".
+
+**A dispute settled from the event log.** Opus and Grok read the eleven questions under Grok's name differently. The event log shows that each is a Dromon hold question raised under the held line's name, and Grok asked none. A385 now states this as fact, with a suggestion that hold questions carry a distinct sender.
+
+**Verification.** A385 is signed off by all three lines. `_verify.py` 0 errors and 0 warnings. No post changed in this step.
+
+**Open.** PR 102, then a restart. The daemon at `f60e91d` already carries PR 98, which raises the Claude line message limit to 32 MiB. Whether A385 is restructured, passed and published. Stopping the daemon and removing the worktrees.
+
+## Previous Report (2026-10-31, first entry)
+
 **Date**: 2026-10-31 (first entry)
 **Task**: **The pilot asked to pull Grok into the team, have the team fix the errors found in the last pass, and document the work in A385. The fixes and the documentation are done. Grok is not yet in the team. Pushed through a `ci/<topic>` branch.**
 

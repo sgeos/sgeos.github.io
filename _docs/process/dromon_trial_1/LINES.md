@@ -53,6 +53,14 @@ things.
 
 Changing a published post's categories or date moves its URL, so do not. The rules below still apply.
 
+**For the grok line.** Dromon permits only these Grok tools: `read_file`, `list_dir`, `grep`, `search_replace`,
+`write`, `run_terminal_command`, `get_command_or_subagent_output`, `kill_command_or_subagent`, `search_tool`, and
+`use_tool` for Dromon's own `dromon__` tools. Any other tool ends your turn and holds your line. That includes
+`todo_write`, `monitor`, `workflow`, `spawn_subagent`, the scheduler and plan-mode tools, `ask_user_question`,
+`send_feedback`, `web_fetch` and the image tools. Keep your plan in your reply text instead of `todo_write`, and ask the
+operator through Dromon's `ask_operator` tool. **Do not call `list_dir` for now.** Dromon refuses it on a defect, so
+list directories with `ls` through `run_terminal_command` instead.
+
 ## Read before classifying
 
 - `_docs/writing/EQUATIONS_SECTION.md`, the convention, especially "Standard and Bespoke".

@@ -46,7 +46,7 @@ and the reader should treat its judgements as those of one participant.
 
 The short account is as follows.
 Two of the three lines did the work.
-The third line never ran a turn that reached its model,
+The third line was held through the first phase and did no work in it,
 because of a defect in how its engine and the harness interact.
 The two remaining lines split its share,
 reviewed each other's classifications,
@@ -58,6 +58,10 @@ reviewed each other's corrections by recomputing them,
 and found two values that the first corrections had missed.
 The third line was still held by a different defect
 and took no part.
+After both phases had been merged it was released,
+and its first completed task was an independent recomputation
+of every value the second phase had changed,
+which found no discrepancy.
 
 ## The Task
 
@@ -173,7 +177,7 @@ The Grok engine writes empty entries for hook paths and installed plugins
 into its Dromon home directory each time it starts.
 Dromon refuses to run any turn while those entries exist.
 The Grok line therefore could not run two turns in a row,
-and its model never ran a turn that reached this task.
+and during the first phase it did no part of this task.
 A loop that would have removed the entries before each turn,
 and so got past the guard,
 was proposed and refused.
@@ -520,19 +524,118 @@ with a replacement that asserts exactly one match and prints only a count.
 Equation 105 was then changed that way, on its body line only,
 and the tools regenerated the Equations section from it.
 
+## The Third Line After the Merge
+
+After the second phase had been merged,
+the operator reported that the Grok line was unblocked by a fix to the harness.
+The operator asked it to introduce itself,
+to recompute the second phase's corrections independently as a third check,
+to write its own report on the harness
+and to send the Opus line notes for this article.
+It did all four.
+What follows rests on its report and its notes,
+read by the Opus line,
+except where the Opus line repeated the arithmetic.
+
+**The release took more than one fix.**
+By the Grok line's report,
+which quotes the operator,
+one turn after the meta-tool fix was held
+because the model called a directory-listing tool that the harness refuses,
+although the engine's general tool list still offers it.
+A later turn was held before its mail left,
+because the harness accepts a tool's input only inline
+and the model had passed it through a file,
+a form the tool's schema also still offers.
+In both cases the refused call ended the turn
+and was not returned to the model as an error it could correct.
+The Grok line ranks that as its first suggestion for the harness.
+
+**The line misread the harness's questions as its own.**
+When it could first read its mailbox,
+its first look at its sent mail asked only for messages still unanswered and found none,
+yet the mailbox held nine replies from the operator,
+each the single word resume and each answering a question whose text was not there.
+The Grok line inferred that its earlier turns had asked those questions
+and that its record of them had been lost.
+The operator settled the matter by reading the harness's event log.
+All eleven questions recorded under the Grok line's name,
+the first raised late on 30 October and the last early on 31 October,
+were the harness's own,
+each beginning with a statement that Dromon had held the line after a failed turn.
+The harness raises a hold question under the held line's name,
+and the operator's replies answered those.
+The Grok line asked none of them and lost no mail.
+Its later look at its sent mail without the filter listed all eleven as sent by itself,
+with bodies it had not written,
+and its first look had found nothing only because every one had been answered.
+The Grok line then withdrew its inference.
+By its reading of those bodies,
+the eleven name nine distinct failures,
+two of them raised twice.
+They were the empty hook and plugin entries,
+a sandbox profile that did not deny the harness's directory,
+an engine that closed its connection,
+project configuration the engine would have loaded from the worktree,
+a second harness's directory in the engine's home,
+the refused meta-tool for searching tools,
+a driver that refused the engine's model version,
+a tool call whose declared kind did not match the directory-listing tool
+and the refused tool for calling other tools.
+The operator drew a suggestion for the harness from this.
+A hold question should carry a sender distinct from the line it concerns,
+so that the line cannot mistake it for its own mail.
+
+**The third check found nothing to correct.**
+The Grok line recomputed every value the second phase changed
+from the inputs printed in the articles,
+without using the other lines' figures.
+It found 0.154 for Equation 4 of the X-9,
+0.223 for the fraction of launch mass
+and 18,616 newton metres for Equation 105.
+It found 1770.9 megapascals for Equation 17 of the X-11,
+a margin of 1.439 that still belongs to Equation 16,
+and 52.469 kilogrammes for Equation 29,
+with the ratio to the burnout mass at 102.8.
+For the X-12 it found 26,613 and 23,613 kilogrammes,
+4116.2 and 4473.6 metres per second in Equations 68 and 69,
+18,218 kilogrammes of propellant burning for 142.9 seconds in Equation 70,
+4.377 in Equation 76,
+the same 4474 metres per second in Equation 77 as in Equation 69,
+and plus 7.501 kilojoules per kilogramme per revolution in Equation 122.
+It also checked that the accelerations derived from the corrected mass still round to the printed values,
+which the two-kilogramme change does not move.
+Each printed value matches at the precision the article prints.
+These are the values the Opus line had found in its review,
+and the Opus line repeated the two it had not computed before,
+the relative standard error of 0.1543 for twenty-two flights
+and the 140 metres that twice that error implies for a measured 108.
+
+**The Grok line asked for one correction to this article.**
+An earlier version said without qualification that the Grok model never ran.
+The Grok line pointed out that this was true through the merge
+and false of the line after its release,
+and that only the line itself was placed to add the limit.
+The claim is now limited to the two phases.
+Its judgement on its own part is that the failure to answer during the phases was the harness's,
+and that a late independent check is the use a line in that position can still be put to,
+since two lines agreeing had already failed to be verification on Equation 122 of the X-12.
+
 ## Where the Team Failed
 
 The failures are stated plainly here,
 in the order in which they cost the most.
 
-**A third of the team never worked.**
+**A third of the team did not work in either phase.**
 The Grok line contributed no classification,
 no correction,
 no review
 and no report in either phase.
 The fault lay in the harness and the engine and not in the model,
-which never ran.
-The defect that held it in the second phase was not the one that held it in the first.
+which did no work in either phase.
+The defect that held it in the second phase was not the one that held it in the first,
+and its release after the merge met two more refusals before its mail could leave.
+Its independent check came after the corrections had already been published.
 The remaining lines absorbed its share,
 and the Opus line carried 360 of the 483 equations.
 
@@ -754,7 +857,15 @@ the cause of the Opus line's lost turns
 and the rule for editing large files
 are likewise the operator's statements.
 The recomputed values in the second phase are facts,
-since each line's arithmetic can be repeated from the article's inputs.
+since each line's arithmetic can be repeated from the article's inputs,
+and that includes the Grok line's third check.
+The causes of the Grok line's holds after the merge are the operator's statements as the Grok line's report relays them,
+That the questions answered with resume were the harness's own hold questions
+is a fact as the operator reported it from the harness's event log.
+What the Grok line's record of sent mail showed,
+and the nine failures the questions name,
+are facts of the Grok line's report,
+which the Opus line did not see directly.
 Neither active line could read the harness's configuration directory,
 so neither observed the Grok failure first hand.
 
@@ -800,7 +911,7 @@ so each link is believed correct but has not been checked.
 ## Out of Scope
 
 This article does not compare the three models' ability at the task.
-One model never ran,
+One model did no work in either phase,
 and two lines on one task are too few to support a comparison.
 It does not report the Luna line's cost,
 which the Opus line could not see.
@@ -824,9 +935,11 @@ and that review found two dependent values the corrections had missed.
 Both lines' deploy gates passed,
 one after the other.
 The largest failure was outside the models' control.
-The third line never ran in either phase,
+The third line did no work in either phase,
 held first by one defect and then by another,
 and in the first phase the team planned around it too slowly.
+When it was released after the merge,
+its independent recomputation of the second phase found no discrepancy.
 The smaller failures were in coordination,
 in mail that crossed,
 arrived late
