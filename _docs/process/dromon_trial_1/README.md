@@ -23,10 +23,26 @@ the line.
   Opus. 483 equations, 237 standard and 246 bespoke, all consistent, merged by the operator and gated once.
 - The disputed A307 Equation 6 was ruled bespoke by the operator, since it allocates the whole reported error
   growth to gyroscope drift, as its neighbours Equations 4, 5 and 7 do.
-- Seven article errors were found and left, since equations were out of scope. They are in
-  [Article Errata](../ARTICLE_ERRATA.md). The A309 Equation 122 finding was first stated with the wrong reason
+- Seven article errors were found and left, since equations were out of scope. Phase 2 fixed them and removed
+  them from [Article Errata](../ARTICLE_ERRATA.md). The A309 Equation 122 finding was first stated with the wrong reason
   and confirmed by the other line, and the operator's recomputation corrected it.
 - The A385 draft is `_drafts/dromon_three_models_equations_sections.markdown`, dated 2026-08-21, unpublished.
+- Phase 1 was merged at `c8e5bd6` and deployed at `b5256b0`.
+
+## Phase 2, 2026-10-31
+
+- **Grok again.** After the daemon was restarted onto PyDromon `c020579`, which admits Grok's empty home records, and
+  two leftovers of the operator's own tests were removed, Grok's model ran its first turns. Dromon then refused Grok's
+  `search_tool` meta-tool, through which Grok reaches every MCP tool, Dromon's mail included. The defect was reported
+  to the PyDromon session, which is fixing it on `fix/grok-tools`. Grok stayed held for the whole phase.
+- **The seven errors are fixed.** Opus fixed A306, reviewed by Luna. Luna fixed A308 and A309, reviewed by Opus. Each
+  review recomputed every value, and it found two stale dependents, A308's "fifty-three kilogrammes" and A309's
+  18,220 kg, which Luna then fixed. Luna also relabelled A309 Eqs 76 and 77, which used `m_1` for the mass after
+  jettison. The operator approved both A306 choices before any edit.
+- **The Opus engine died twice** on the 1 MiB message limit of Dromon's Claude reader while editing the 2.6 MB A306
+  post. The likely trigger is the Edit tool's result, which carries the whole original file. Large posts were then
+  edited through the shell. PyDromon has queued a fix that raises the limit.
+- **A385 records phase 2** in "The Second Phase", reviewed and signed off by Luna.
 
 ## Operator-Side Changes and Failures
 

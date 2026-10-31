@@ -136,7 +136,7 @@ class = "bespoke"
 title = "Bespoke Hoop Stress of the Light Gauge at Fuel-Tank Pressure"
 gloss = "The light gauge is placed under the fuel-tank pressure it never carries, a counterfactual that shows why the gauge must taper."
 cite = []
-digest = "595160d9a1938aa9"
+digest = "6dfa3ae7bea22948"
 
 [[equation]]
 tag = 18
@@ -232,7 +232,7 @@ class = "bespoke"
 title = "Bespoke Mass of Standing Nitrogen"
 gloss = "The ideal gas law is applied at five pounds per square inch and an assumed 290 kelvin to the volume of the assumed 18 metre tank."
 cite = []
-digest = "fee07d6e23d5065d"
+digest = "939a5091d43b589a"
 
 [[equation]]
 tag = 30

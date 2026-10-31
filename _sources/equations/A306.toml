@@ -838,9 +838,9 @@ digest = "4017d5135b82ee73"
 tag = 105
 class = "bespoke"
 title = "Bespoke Wing Root Bending Moment"
-gloss = "The article estimates the root bending moment as the load at four g acting at a quarter of the span $b$."
+gloss = "The article estimates the root bending moment from each half-wing carrying half the four g load, spread uniformly, so that its resultant acts a quarter of the span $b$ from the root."
 cite = []
-digest = "2610333b631eb270"
+digest = "5cc7b07e3560694f"
 
 [[equation]]
 tag = 106

@@ -33,6 +33,26 @@ classification is reviewed by another line, how notation is kept consistent acro
 and who holds the article draft and when. Then send the agreed plan to `@operator` in one message.
 Start writing once the operator replies, or after one hour with no reply.
 
+## Phase 2, from 2026-10-31, which supersedes the goal above
+
+Phase 1 is merged and live at `b5256b0`. Every worktree has been reset to it. The pilot now asks for three
+things.
+
+1. **Bring Grok into the team.** The operator is working on it. Dromon refuses Grok's `search_tool` meta-tool,
+   and Grok reaches every MCP tool, Dromon's mail included, only through it. Until a PyDromon fix lands, the
+   grok line stays held and cannot read mail. Plan for two lines, and give grok work only once it has answered.
+2. **Fix the seven article errors** that phase 1 found, listed in `_docs/process/ARTICLE_ERRATA.md` under A306,
+   A308 and A309. Fix each one together with every value, sentence, gloss and data-file entry in the same article
+   that derives from it. For A306 Eq 4 and Eq 105, which need a choice of fix, agree it by mail and send the
+   choice and the reasons to `@operator` before you edit. Remove each errata row you fix. Every equation you
+   change must leave `equations.py check` consistent, so regenerate through the tools and never by hand.
+   Another line reviews each fix, recomputing it rather than agreeing with it, since phase 1 showed that two
+   lines agreeing is not verification.
+3. **Document phase 2 in A385**, under the `article` lease. Cover the Grok attempt and its defects, the fixes
+   and their reviews, and anything that failed.
+
+Changing a published post's categories or date moves its URL, so do not. The rules below still apply.
+
 ## Read before classifying
 
 - `_docs/writing/EQUATIONS_SECTION.md`, the convention, especially "Standard and Bespoke".

@@ -52,7 +52,7 @@ $$
 
 The estimation of that quantity from a finite number of flights is a subject in its own right, since a programme of twenty-two launches, the lower of the two reported totals, cannot measure a fiftieth percentile precisely. [Moranda 1959][research_moranda_1959] compares the available estimators, [Moranda 1960][research_moranda_1960] treats the effect of a bias, and [Kamat 1962][research_kamat_1962] extends the comparison. **A programme with twenty-two flights and a requirement stated at the seventy-fifth percentile is measuring the tail of a distribution with two dozen samples**, and no acknowledgement of that difficulty appears in the record.
 
-The size of that difficulty is computable. The relative standard error of a variance estimate from $n$ samples of a normal population is
+The size of that difficulty is computable. The relative standard error of a standard deviation estimate from $n$ samples of a normal population is
 
 $$
 \frac{\sigma_{\hat{s}}}{s} \approx \frac{1}{\sqrt{2 \left( n-1 \right)}}
@@ -445,7 +445,7 @@ $$
 \tag{46}
 $$
 
-so avoiding 544 metres per second of increment saves a mass ratio factor of $\exp(544/2157) = 1.29$, or 29 percent of the launch mass for the same payload and burnout condition.
+so avoiding 544 metres per second of increment saves a mass ratio factor of $\exp(544/2157) = 1.29$, or about 22 percent of the launch mass for the same payload and burnout condition.
 
 An energy audit of the powered phase closes to the right order. Climbing from 12.2 to 20 kilometres and accelerating to Mach 2 at that altitude gives
 
@@ -950,7 +950,7 @@ comparable to the flight time, so the skin never reaches equilibrium. [Huston et
 The structural sizing is set by the manoeuvre load, not by temperature. At the four g limit computed above the wing bending moment at the root is of order
 
 $$
-M_{\text{root}} = n \, m g \, \frac{b}{4} = (4)(1588)(9.81) \frac{2.39}{4} = 3.7 \times 10^{4} \, \text{N} \cdot \text{m}
+M_{\text{root}} = n \, m g \, \frac{b}{8} = (4)(1588)(9.81) \frac{2.39}{8} = 1.86 \times 10^{4} \, \text{N} \cdot \text{m}
 \tag{105}
 $$
 
@@ -2221,10 +2221,10 @@ $$
 $$
 
 *Equation 105, Bespoke Wing Root Bending Moment.*
-The article estimates the root bending moment as the load at four g acting at a quarter of the span $b$.
+The article estimates the root bending moment from each half-wing carrying half the four g load, spread uniformly, so that its resultant acts a quarter of the span $b$ from the root.
 
 $$
-M_{\text{root}} = n \, m g \, \frac{b}{4} = (4)(1588)(9.81) \frac{2.39}{4} = 3.7 \times 10^{4} \, \text{N} \cdot \text{m}
+M_{\text{root}} = n \, m g \, \frac{b}{8} = (4)(1588)(9.81) \frac{2.39}{8} = 1.86 \times 10^{4} \, \text{N} \cdot \text{m}
 \tag{105}
 $$
 

@@ -648,7 +648,7 @@ $$
 for a combined 676.2 kilogrammes per second. Taking booster cutoff near 135 seconds, the remaining mass is
 
 $$
-m_{1} = m_{0} - (\dot{m}_{b} + \dot{m}_{s}) t = 117{,}900 - 676.2 \times 135 = 26{,}615 \, \text{kg}
+m_{1} = m_{0} - (\dot{m}_{b} + \dot{m}_{s}) t = 117{,}900 - 676.2 \times 135 = 26{,}613 \, \text{kg}
 \tag{65}
 $$
 
@@ -659,7 +659,7 @@ $$
 \tag{66}
 $$
 
-Jettisoning a booster package of about three tonnes leaves 23,615 kilogrammes under sustainer thrust alone, giving
+Jettisoning a booster package of about three tonnes leaves 23,613 kilogrammes under sustainer thrust alone, giving
 
 $$
 \frac{F_{s}}{m_{1} - m_{j}} = 16.4 \, \text{m/s}^{2} = 1.67 g
@@ -669,19 +669,19 @@ $$
 **Acceleration falls by a factor of 4.37 in the space of one event.** That discontinuity is the largest single transient the airframe sees after lift-off, it arrives while the guidance system is integrating, and it makes the staging event a guidance problem rather than a mechanical one. Reconstructing the ideal velocity in two phases gives
 
 $$
-\Delta v_{b} = 282 g \ln \frac{117{,}900}{26{,}615} = 4116 \, \text{m/s}
+\Delta v_{b} = 282 g \ln \frac{117{,}900}{26{,}613} = 4116 \, \text{m/s}
 \tag{68}
 $$
 
 $$
-\Delta v_{s} = 309 g \ln \frac{23{,}615}{5395} = 4474 \, \text{m/s}
+\Delta v_{s} = 309 g \ln \frac{23{,}613}{5395} = 4474 \, \text{m/s}
 \tag{69}
 $$
 
-for a total of 8590 metres per second against the 8530 the previous article obtained from a single-phase calculation at the booster specific impulse, an agreement of 0.7 percent from independent inputs. The sustainer propellant remaining is 18,220 kilogrammes, which at 127.5 kilogrammes per second is a burn of
+for a total of 8590 metres per second against the 8530 the previous article obtained from a single-phase calculation at the booster specific impulse, an agreement of 0.7 percent from independent inputs. The sustainer propellant remaining is 18,218 kilogrammes, which at 127.5 kilogrammes per second is a burn of
 
 $$
-t_{s} = \frac{18{,}220}{127.5} = 142.9 \, \text{s}
+t_{s} = \frac{18{,}218}{127.5} = 142.9 \, \text{s}
 \tag{70}
 $$
 
@@ -731,14 +731,14 @@ $$
 as the tanks empty. The ratio between the two is not an independent quantity,
 
 $$
-\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / m_{1}} = \frac{m_{1}}{m_{bo}} = \frac{23{,}615}{5395} = 4.38
+\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / (m_{1} - m_{j})} = \frac{m_{1} - m_{j}}{m_{bo}} = \frac{23{,}613}{5395} = 4.38
 \tag{76}
 $$
 
 **The factor by which the vehicle becomes harder to stop is exactly its sustainer mass ratio**, the same quantity the rocket equation rewards, since
 
 $$
-\Delta v_{s} = v_{e} \ln \frac{m_{1}}{m_{bo}} = 4474 \, \text{m/s}
+\Delta v_{s} = v_{e} \ln \frac{m_{1} - m_{j}}{m_{bo}} = 4474 \, \text{m/s}
 \tag{77}
 $$
 
@@ -1168,7 +1168,7 @@ $$
 That is heavy for a satellite and explains how an object with a 185 kilometre perigee survived as long as it did. The mean specific energy shed per revolution is
 
 $$
-\frac{\Delta \varepsilon}{N} = \frac{1}{483} \left( \frac{\mu}{2 a} - \frac{\mu}{2 R_{e}} \right) = 7.5 \, \text{kJ/kg}
+\frac{\Delta \varepsilon}{N} = \frac{1}{483} \left( \frac{\mu}{2 R_{e}} - \frac{\mu}{2 a} \right) = 7.5 \, \text{kJ/kg}
 \tag{122}
 $$
 
@@ -2264,7 +2264,7 @@ $$
 The mass remaining assumes booster cutoff near 135 seconds at constant vacuum mass flow from the Atlas D lift-off mass.
 
 $$
-m_{1} = m_{0} - (\dot{m}_{b} + \dot{m}_{s}) t = 117{,}900 - 676.2 \times 135 = 26{,}615 \, \text{kg}
+m_{1} = m_{0} - (\dot{m}_{b} + \dot{m}_{s}) t = 117{,}900 - 676.2 \times 135 = 26{,}613 \, \text{kg}
 \tag{65}
 $$
 
@@ -2288,7 +2288,7 @@ $$
 The rocket equation at a booster specific impulse of 282 seconds is applied from lift-off to the assumed booster cutoff mass.
 
 $$
-\Delta v_{b} = 282 g \ln \frac{117{,}900}{26{,}615} = 4116 \, \text{m/s}
+\Delta v_{b} = 282 g \ln \frac{117{,}900}{26{,}613} = 4116 \, \text{m/s}
 \tag{68}
 $$
 
@@ -2296,7 +2296,7 @@ $$
 The rocket equation at a sustainer specific impulse of 309 seconds is applied from the assumed post-staging mass to the Atlas D burnout mass.
 
 $$
-\Delta v_{s} = 309 g \ln \frac{23{,}615}{5395} = 4474 \, \text{m/s}
+\Delta v_{s} = 309 g \ln \frac{23{,}613}{5395} = 4474 \, \text{m/s}
 \tag{69}
 $$
 
@@ -2304,7 +2304,7 @@ $$
 The sustainer propellant left after the assumed staging, at 127.5 kilogrammes per second, lasts 142.9 seconds.
 
 $$
-t_{s} = \frac{18{,}220}{127.5} = 142.9 \, \text{s}
+t_{s} = \frac{18{,}218}{127.5} = 142.9 \, \text{s}
 \tag{70}
 $$
 
@@ -2352,7 +2352,7 @@ $$
 Under constant thrust the ratio of cutoff to post-staging acceleration equals the sustainer mass ratio, 4.38 with the assumed masses.
 
 $$
-\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / m_{1}} = \frac{m_{1}}{m_{bo}} = \frac{23{,}615}{5395} = 4.38
+\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / (m_{1} - m_{j})} = \frac{m_{1} - m_{j}}{m_{bo}} = \frac{23{,}613}{5395} = 4.38
 \tag{76}
 $$
 
@@ -2360,7 +2360,7 @@ $$
 The sustainer velocity increment is the exhaust velocity times the logarithm of the same assumed mass ratio.
 
 $$
-\Delta v_{s} = v_{e} \ln \frac{m_{1}}{m_{bo}} = 4474 \, \text{m/s}
+\Delta v_{s} = v_{e} \ln \frac{m_{1} - m_{j}}{m_{bo}} = 4474 \, \text{m/s}
 \tag{77}
 $$
 
@@ -2724,7 +2724,7 @@ $$
 The article spreads the energy difference between the SCORE orbit and an orbit at the Earth radius evenly over 483 revolutions.
 
 $$
-\frac{\Delta \varepsilon}{N} = \frac{1}{483} \left( \frac{\mu}{2 a} - \frac{\mu}{2 R_{e}} \right) = 7.5 \, \text{kJ/kg}
+\frac{\Delta \varepsilon}{N} = \frac{1}{483} \left( \frac{\mu}{2 R_{e}} - \frac{\mu}{2 a} \right) = 7.5 \, \text{kJ/kg}
 \tag{122}
 $$
 

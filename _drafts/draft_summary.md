@@ -27,7 +27,7 @@ pilot's instruction. It reports how two of three lines brought A306 to A309 to t
 Grok line never ran, the reviews and the disputes, the seven article errors found and left, and where the team and the
 operator failed. The trial's files are in [`_docs/process/dromon_trial_1/`](../_docs/process/dromon_trial_1/README.md).
 
-**Current status 2026-10-30. First draft complete, not through the four passes, not published.** 9 related-post and
+**Current status 2026-10-31. First draft complete with both phases of the trial, not through the four passes, not published.** Phase 2, the seven article fixes and the second Grok attempt, was added by the Opus line and signed off by the Luna line. 9 related-post and
 repository references, none fetched, because the lines had no network. The pilot decides whether it goes through the
 ordinary passes and when it is published. `_verify.py` 0 and 0 on the draft.
 

@@ -53,6 +53,11 @@ reviewed each other's classifications,
 found seven numerical or wording errors in the published articles,
 and left every one of them standing,
 because changing equations was outside the task.
+In a second phase the same two lines corrected all seven,
+reviewed each other's corrections by recomputing them,
+and found two values that the first corrections had missed.
+The third line was still held by a different defect
+and took no part.
 
 ## The Task
 
@@ -196,8 +201,11 @@ Opus took the X-11 in addition to its two articles,
 and Luna took over the reviews the Grok line would have done.
 The Opus line's review request to the Grok line,
 sent before the reassignment,
-is still recorded as waiting,
-meaning that it has not been delivered.
+was recorded as waiting,
+meaning undelivered,
+for the whole of the first phase.
+By the second phase the harness recorded it as delivered,
+and it was never answered.
 
 ## The Work
 
@@ -329,12 +337,14 @@ is the Opus line's recollection.
 Neither line checked it against a source,
 and the Luna line's notes say so.
 
-## Errors Found and Left Standing
+## Errors Found in the First Phase
 
 Classification requires reading each equation against its prose,
 and that reading found errors in the published articles.
-The task placed equations out of scope for change,
-so none of these errors was corrected.
+The first phase placed equations out of scope for change,
+so none of these errors was corrected then.
+The second phase corrected all seven,
+as the next section describes.
 
 - **X-9, Equation 4.** The prose calls the result the relative standard error of a variance,
   while the formula gives that of a standard deviation.
@@ -377,8 +387,138 @@ and every X-11 and X-12 item,
 and reported that all of them hold except the reasoning given for Equation 122 of the X-12,
 corrected above.
 The operator also reported that the X-9 items on Equations 4 and 105 hold.
-The list goes to the operator,
-who decides whether and when the articles are corrected.
+The list went to the operator,
+who decided that the articles should be corrected in a second phase.
+
+## The Second Phase
+
+The operator merged the first phase,
+reset each worktree to the merged commit,
+and set three tasks.
+The lines were to bring the Grok line into the team,
+correct the seven errors together with every value derived from them,
+and add the second phase to this article.
+
+**The Grok line was held again,
+by a different defect.**
+By the operator's statement in the task brief,
+Dromon refuses a meta-tool through which the Grok engine reaches every tool the harness provides,
+mail included.
+Until a fix to the harness lands,
+the Grok line cannot read its mail.
+The operator told the other two lines to plan for two
+and to give the Grok line work only once it had answered.
+It did not answer during the phase.
+
+**The plan crossed in the mail twice.**
+The Opus line proposed that it correct the X-9
+and that Luna correct the X-11 and the X-12.
+Luna proposed the reverse in a message that crossed it.
+Each line then accepted the other's proposal,
+and those two acceptances crossed as well,
+so for a short time each line had agreed to the split the other had abandoned.
+The Opus line ended it by declaring final the split Luna had already sent to the operator,
+under which the Opus line corrected the X-9 and Luna corrected the X-11 and the X-12.
+Both lines had chosen the same corrections for the X-9 independently,
+so the crossing cost time and not substance.
+
+**Two corrections needed a choice,
+and the operator approved both before any edit.**
+Equation 4 of the X-9 was corrected in its word and not its formula.
+The formula, its symbol,
+its entry in the data file
+and the fifteen percent that follows it all describe a standard deviation,
+and the circular error probable scales with the standard deviation,
+so the word variance was the error.
+Equation 105 was corrected to one eighth of the span,
+the uniformly loaded half-wing,
+which gives 18,616 newton metres in place of 3.7 times ten to the fourth.
+No other value in the article used the old figure,
+and the conclusion that a spar of modest depth carries the load became stronger.
+The Opus line also reported that, by its own reading,
+the fifteen percent is conservative by about the square root of two
+under the article's two-dimensional estimator.
+The operator ruled that out of scope
+and had it recorded in the errata file as an unchecked inference.
+
+**Each correction was reviewed by recomputation,
+and the review found what the first pass missed.**
+The rule came from the first phase,
+where two lines agreeing on Equation 122 of the X-12 had not been verification.
+Luna recomputed the three corrections to the X-9
+from the article's inputs and found every value correct,
+0.154 for the relative standard error of Equation 4,
+0.223 for the fraction of launch mass
+and 18,616 newton metres for Equation 105.
+The Opus line recomputed Luna's corrections to the X-11 and the X-12
+from the article's inputs.
+Equation 17 of the X-11 now gives 1771 megapascals,
+recomputed as 1770.9,
+and Equation 29 gives 52.5 kilogrammes,
+recomputed as 52.47.
+Equation 65 of the X-12 now gives 26,613 kilogrammes at booster cutoff,
+which the Opus line recomputed exactly,
+and 23,613 kilogrammes after the booster section is jettisoned.
+Equation 122 now subtracts the orbit term from the Earth-radius term,
+and recomputed with the article's Earth radius of 6371 kilometres
+and the orbit's semi-major axis of 7205.5 kilometres
+it gives plus 7.50 kilojoules per kilogramme per revolution,
+the 7.5 the article states.
+Every changed value held,
+including the masses Luna had carried from Equation 65 of the X-12 into Equations 68, 69, 76 and 77,
+and Luna's change of notation in Equations 76 and 77,
+which had used the symbol for the mass before jettison where the mass after jettison was meant.
+Two dependent values were stale.
+The X-11 still said fifty-three kilogrammes of gas
+where the corrected 52.47 rounds to fifty-two and a half,
+and Equation 70 of the X-12 still gave the sustainer propellant as 18,220 kilogrammes
+where the corrected masses give 18,218.
+At the sustainer's flow of 127.5 kilogrammes per second
+the burn time it gives stays at 142.9 seconds.
+Luna corrected both,
+and the Opus line checked them again before signing off.
+
+**The deploy gates ran one after the other.**
+The first phase's announce-and-start rule had failed,
+so the lines agreed that the second gate would start only after its line had read a message saying that the first had finished.
+Luna's gate passed,
+Luna sent that message,
+and the Opus line's gate then passed.
+Both reported no errors and no warnings,
+every library test passing,
+a clean production build
+and a rendered audit of 551 pages with no findings.
+
+**The Opus line's engine died twice on one large file.**
+The X-9 source is 2,560,543 bytes,
+about 2.6 megabytes,
+because its reference survey is long.
+Twice a turn of the Opus line ended in the middle of its edits,
+and the next turn resumed in a new engine process.
+In the first of those turns the editing tool changed the word in Equation 4 and reported success.
+The next edit,
+to the 22 percent,
+failed with a message that a permission request had failed because the stream was closed,
+and it did not apply.
+The turn then ended.
+In the second turn the edit to the 22 percent applied and reported success,
+and the next edit,
+to Equation 105,
+failed in the same way and did not apply,
+and that turn ended too.
+No edit applied without being reported,
+and none that reported success was missing,
+but each failure ended the turn with the work half done,
+and the new process had to learn from the version control summary which edits had applied.
+The operator reported that the harness's engine reader had refused a single message of more than one mebibyte,
+and inferred that the editing tool returns the whole original file in its result.
+The pattern the Opus line saw fits that inference,
+in which the successful edit's result is the oversized message
+and the failure surfaces on the call after it.
+The operator then ruled that posts above about 500 kilobytes be read and edited only through the shell,
+with a replacement that asserts exactly one match and prints only a count.
+Equation 105 was then changed that way, on its body line only,
+and the tools regenerated the Equations section from it.
 
 ## Where the Team Failed
 
@@ -387,10 +527,12 @@ in the order in which they cost the most.
 
 **A third of the team never worked.**
 The Grok line contributed no classification,
+no correction,
 no review
-and no report.
+and no report in either phase.
 The fault lay in the harness and the engine and not in the model,
 which never ran.
+The defect that held it in the second phase was not the one that held it in the first.
 The remaining lines absorbed its share,
 and the Opus line carried 360 of the 483 equations.
 
@@ -407,8 +549,7 @@ It requested more messages than the limit of fifty
 and failed without reporting an error.
 That question,
 and the Opus line's completion report,
-therefore went unseen for an unknown period,
-roughly an hour.
+therefore went unseen for roughly an hour.
 The operator states that this was an operator failure.
 From inside its own worktree the Opus line saw only its effect.
 The Luna line's files stopped changing,
@@ -443,6 +584,9 @@ although the harness later recorded both as delivered.
 The Opus line read Luna's answer in Luna's notes file before the mail arrived.
 The operator's approval of the plan reached the Opus line only at the start of its next turn,
 so for part of a turn it worked without knowing the plan had been approved.
+In the second phase the split proposals crossed,
+and then the two acceptances crossed,
+so the lines swapped places twice before one of them declared the split final.
 
 **A review answered the wrong question,
 and its correction was read late.**
@@ -497,11 +641,23 @@ since the correct figure gives the same sign error.
 Two lines agreeing was taken as verification,
 and the operator's recomputation found what neither line had.
 
-**The articles still carry the errors the team found.**
-That is the correct result under the task's scope,
-but a reader of the X-9,
-the X-11
-or the X-12 today still meets each of the seven errors listed above.
+**The first corrections missed two dependent values.**
+The task required every value derived from a corrected one to move with it.
+The first pass at the X-11 and the X-12 left fifty-three kilogrammes of gas
+and 18,220 kilogrammes of propellant standing,
+both of which followed from the uncorrected figures.
+Review by recomputation caught them before either gate ran,
+which is the rule working,
+but a reader would have met both if the review had only compared the changed lines.
+
+**The Opus line's engine was lost twice on one file.**
+Each loss ended a turn in the middle of a sequence of edits,
+and the failing edit reported a closed stream and a failed permission request,
+which named neither the size limit nor the file.
+The cause lay in the harness's message limit and in the editing tool's result,
+and not in the content of the edit.
+Nothing in the brief warned that a source file could be large enough to matter,
+and the line learned the cause only from the operator.
 
 **Context ran past the harness's threshold.**
 The Opus line's context reached about 223,500 tokens before its first automatic compaction,
@@ -525,12 +681,31 @@ was handled correctly.
 **Separation prevented conflict.**
 The lines wrote disjoint files in separate worktrees,
 leases were acquired and released as the plan described,
-and no two lines ever wrote the same file.
-The rule that lines warn one another before starting a deploy gate held on every run but one.
+and no two lines ever wrote the same file in the same worktree.
+In the second phase both lines edited their own copies of the errata file,
+each removing only its own rows,
+for the operator to merge.
+The first phase's rule that lines warn one another before starting a deploy gate held on every run but one.
 That one is the failure recorded above,
 where the Opus line stopped its run and whether two builds overlapped is uncertain.
 Apart from it,
 the lines' gate runs took place one after another.
+The second phase's rule,
+that a gate waits for a message saying the other has finished,
+held on both runs.
+
+**The tools handled changed equations.**
+When an equation changed in the second phase,
+the checker named it as changed since it was classified.
+Reviewing its entry,
+stamping the new digest
+and regenerating the section brought the article back to consistent,
+with no generated text edited by hand.
+
+**Recomputation found what agreement had missed.**
+In the first phase a second line's agreement let a wrong figure through.
+In the second phase each reviewer recomputed every changed value from the article's own inputs,
+and that found two stale values that a comparison of changed lines would not have shown.
 
 **Review by reading the other worktree was cheap.**
 A reviewer could open the author's scratch file directly
@@ -574,13 +749,23 @@ are facts as the operator reported them.
 The correction to Equation 122 of the X-12 and the operator's recomputation of the other errors
 are also the operator's,
 and they show that a finding two lines agreed on could still rest on a wrong figure.
+In the second phase the defect that held the Grok line,
+the cause of the Opus line's lost turns
+and the rule for editing large files
+are likewise the operator's statements.
+The recomputed values in the second phase are facts,
+since each line's arithmetic can be repeated from the article's inputs.
 Neither active line could read the harness's configuration directory,
-so neither observed the failure first hand.
+so neither observed the Grok failure first hand.
 
 **Inferences.**
 These include the claims that the harness checks its compaction threshold only at turn start,
 and that mail is delivered at turn boundaries.
 Both are inferred from timing the Opus line observed, not from documentation it read.
+The claim that the editing tool's result carried the whole file is the operator's inference,
+which the pattern of the Opus line's failures fits but does not prove.
+The claim that the fifteen percent in Equation 4 of the X-9 is conservative
+is the Opus line's inference and has not been checked.
 The claim that the 10,000 kilometre figure changes class between articles for a principled reason
 comes from reading each article's use of it.
 
@@ -602,6 +787,12 @@ and Luna,
 having then read it,
 accepted the reasoning for Equation 4 and kept its disagreement on Equation 6,
 which the operator then ruled in Luna's favour.
+For the second phase,
+Luna's first notes said its review had found three further errors in the X-9.
+Asked which,
+Luna withdrew the statement,
+saying that its review had confirmed the three corrections and found nothing further,
+and this draft follows the withdrawal.
 None of the external pages in the references was fetched while drafting,
 because the task forbade network access,
 so each link is believed correct but has not been checked.
@@ -613,7 +804,8 @@ One model never ran,
 and two lines on one task are too few to support a comparison.
 It does not report the Luna line's cost,
 which the Opus line could not see.
-It does not correct the errors it lists,
+It does not check the Opus line's inference about Equation 4 of the X-9,
+which the operator placed out of scope,
 and it does not describe how the Grok failure will be resolved,
 a decision that belongs to the pilot.
 
@@ -626,9 +818,15 @@ the reviews changed one title and one classification,
 the author of the X-10 changed three more on rereading the brief,
 one disagreement was settled by a shared rule and another by the operator,
 and the reading behind the classification found seven errors in the published articles.
+In a second phase the two lines corrected all seven,
+each reviewing the other's corrections by recomputing them,
+and that review found two dependent values the corrections had missed.
+Both lines' deploy gates passed,
+one after the other.
 The largest failure was outside the models' control.
-The third line never ran,
-and the team planned around it too slowly.
+The third line never ran in either phase,
+held first by one defect and then by another,
+and in the first phase the team planned around it too slowly.
 The smaller failures were in coordination,
 in mail that crossed,
 arrived late
@@ -637,7 +835,8 @@ a gate announcement that did not arrive in time,
 an operator mail watcher that failed silently,
 a review that answered the wrong question,
 a confirmation that repeated a wrong figure,
-and a disagreement settled in part on an unchecked memory.
+a disagreement settled in part on an unchecked memory,
+and an engine lost twice to a message limit on one large file.
 The harness's separation of worktrees,
 leases
 and mail kept two models from ever overwriting each other's work,

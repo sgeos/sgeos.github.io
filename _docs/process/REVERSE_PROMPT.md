@@ -4,6 +4,40 @@
 
 ## Last Updated
 
+**Date**: 2026-10-31 (first entry)
+**Task**: **The pilot asked to pull Grok into the team, have the team fix the errors found in the last pass, and document the work in A385. The fixes and the documentation are done. Grok is not yet in the team. Pushed through a `ci/<topic>` branch.**
+
+**Grok.** It got further, and it is still held.
+- **What worked.** The daemon was restarted onto PyDromon `c020579`, whose PR 95 admits the empty `hooks-paths` and `installed-plugins` records Grok writes. Two leftovers of my own were removed after inspection: an empty `.claude/.cc-writes` that my Claude Code session had created in the Grok worktree, and a `home/.grok` tree of empty config files left by my startup tests. Grok's model then ran its first turns.
+- **What blocks it now.** Dromon refuses Grok's `search_tool`, and Grok reaches every MCP tool, Dromon's mail included, only through `search_tool` and `use_tool`. A Grok line therefore cannot use mail at all.
+- **The fix.** It is a security check in PyDromon, whose checkout belongs to the `Op55-pydromon` session, so I reported it there and did not patch it. That session is fixing it on `fix/grok-tools`, with a further credential change on `fix/codex-confinement`, and will update the shared Grok profile and tell me when to restart. Grok's question `q-68f9413dc675` is unanswered and its kickoff mail waits.
+
+**Errors fixed.** All seven are corrected and gone from `ARTICLE_ERRATA.md`.
+
+| Article | Fix | Fixed by | Recomputed by |
+|---|---|---|---|
+| A306 Eq 4 | "variance" to "standard deviation", formula kept | Opus | Luna, 0.1543 |
+| A306 line 448 | 29 to about 22 percent | Opus | Luna, 0.2229 |
+| A306 Eq 105 | b/4 to b/8, 3.7e4 to 1.86e4 N m | Opus | Luna, 18,616 |
+| A308 Eq 17 | 1773 to 1771 MPa | Luna | Opus, 1770.9 |
+| A308 Eq 29 | 52.6 to 52.5 kg, and "fifty-three" to "fifty-two and a half" | Luna | Opus, 52.47 |
+| A309 Eq 65 | 26,615 to 26,613 kg, with 23,613 in Eqs 68, 69, 76 and 77 and 18,218 in Eq 70 | Luna | Opus |
+| A309 Eq 122 | terms reversed to mu/2R_e - mu/2a | Luna | Opus, +7.50 kJ/kg |
+
+The two A306 choices were proposed independently by both lines and approved by me before any edit. The reviews caught two stale dependents the first edit missed, the A308 "fifty-three kilogrammes" and the A309 18,220. Luna also relabelled A309 Eqs 76 and 77 from `m_1` to `m_1 - m_j`, since their 23,613 kg is the mass after jettison. That is a correct fix beyond the list. Opus's unchecked inference that Eq 4's 15 percent is conservative by about the square root of two under Eq 5's estimator is recorded under Noticed Outside the Claims and not acted on.
+
+**Failures this phase.**
+- The Opus engine died twice. Dromon's Claude reader refused one message over 1 MiB while Opus edited the 2,560,543-byte A306 post. The likely trigger is the Edit tool's result carrying the whole file. Large posts were then edited through the shell. Reported to PyDromon, which has queued a raised limit.
+- The plan crossed in the mail twice before it settled.
+
+**A385.** It has a new section, "The Second Phase", two new failure entries, and updated opening, What Worked, Epistemic State, Out of Scope and Conclusion. Luna reviewed it and signed off. My earlier judgement still stands: it is an accurate log, but its narrative would gain from a restructure around its three main findings, which the pilot has not yet asked for.
+
+**Verification.** `equations.py check` reports all 483 equations in A306 to A309 consistent. Both lines passed `./_check.sh` in their worktrees, and the merged checkout's run is recorded in the commit.
+
+**Open.** Grok's admission, once PyDromon's fix lands. Whether A385 is restructured, passed and published. Stopping the daemon and removing the worktrees.
+
+## Previous Report (2026-10-30, third entry)
+
 **Date**: 2026-10-30 (third entry)
 **Task**: **The pilot asked for a PyDromon team of Anthropic, OpenAI and xAI agents to bring A306 to A309 up to standard, to discuss how to work together, to write harness experience reports, and to draft A385 about how they managed or failed inside the harness. Done by two of the three lines. Pushed through a `ci/<topic>` branch.**
 

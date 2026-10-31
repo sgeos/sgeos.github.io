@@ -520,7 +520,7 @@ class = "bespoke"
 title = "Bespoke Mass at Booster Cutoff"
 gloss = "The mass remaining assumes booster cutoff near 135 seconds at constant vacuum mass flow from the Atlas D lift-off mass."
 cite = []
-digest = "a9688233dca09644"
+digest = "c39c558fb8dcc71c"
 
 [[equation]]
 tag = 66
@@ -544,7 +544,7 @@ class = "bespoke"
 title = "Bespoke Booster Phase Velocity"
 gloss = "The rocket equation at a booster specific impulse of 282 seconds is applied from lift-off to the assumed booster cutoff mass."
 cite = []
-digest = "7b892f0ae00f6a7e"
+digest = "4153d23888478690"
 
 [[equation]]
 tag = 69
@@ -552,7 +552,7 @@ class = "bespoke"
 title = "Bespoke Sustainer Phase Velocity"
 gloss = "The rocket equation at a sustainer specific impulse of 309 seconds is applied from the assumed post-staging mass to the Atlas D burnout mass."
 cite = []
-digest = "a44bfa651f44bfee"
+digest = "f582f71719d786cd"
 
 [[equation]]
 tag = 70
@@ -560,7 +560,7 @@ class = "bespoke"
 title = "Bespoke Sustainer Burn Time"
 gloss = "The sustainer propellant left after the assumed staging, at 127.5 kilogrammes per second, lasts 142.9 seconds."
 cite = []
-digest = "dbd772fd3e02c9fa"
+digest = "a72361ac4bfe4b06"
 
 [[equation]]
 tag = 71
@@ -608,7 +608,7 @@ class = "bespoke"
 title = "Bespoke Acceleration Ratio as Mass Ratio"
 gloss = "Under constant thrust the ratio of cutoff to post-staging acceleration equals the sustainer mass ratio, 4.38 with the assumed masses."
 cite = []
-digest = "9b226e9d591dbc4b"
+digest = "5fd59340d692bcf8"
 
 [[equation]]
 tag = 77
@@ -616,7 +616,7 @@ class = "bespoke"
 title = "Bespoke Sustainer Velocity as a Logarithm of the Same Ratio"
 gloss = "The sustainer velocity increment is the exhaust velocity times the logarithm of the same assumed mass ratio."
 cite = []
-digest = "7b7523e24bb89ffe"
+digest = "2a73265ed6ffe448"
 
 [[equation]]
 tag = 78
@@ -976,7 +976,7 @@ class = "bespoke"
 title = "Bespoke Energy Shed per Revolution"
 gloss = "The article spreads the energy difference between the SCORE orbit and an orbit at the Earth radius evenly over 483 revolutions."
 cite = []
-digest = "406be57208466ca0"
+digest = "5317d3c6fe9e3bb9"
 
 [[equation]]
 tag = 123

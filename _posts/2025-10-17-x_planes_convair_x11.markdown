@@ -203,7 +203,7 @@ $$
 against a yield taken as 965 megapascals for the material in its extra-full-hard condition, a margin of 1.44. At the light gauge the same pressure would give
 
 $$
-\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000356} = 1773 \, \text{MPa}
+\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000356} = 1771 \, \text{MPa}
 \tag{17}
 $$
 
@@ -297,11 +297,11 @@ so the volume, the skin mass and the nitrogen mass below are overstated by up to
 Against all of that, the mass of nitrogen needed to hold five pounds per square inch of gauge pressure through the tank volume is
 
 $$
-m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.6 \, \text{kg}
+m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.5 \, \text{kg}
 \tag{29}
 $$
 
-**Fifty-three kilogrammes of gas holds up five thousand three hundred and ninety-five kilogrammes of steel**, a ratio of 103 to one. That single comparison states the design in one line.
+**Fifty-two and a half kilogrammes of gas holds up five thousand three hundred and ninety-five kilogrammes of steel**, a ratio of 103 to one. That single comparison states the design in one line.
 
 Unlike the rest of the vehicle, the gas is recoverable and cheap, and that part of the bargain made it acceptable. Nitrogen at five pounds per square inch is nearly free and weighs too little to matter, and a structure that trades steel for nitrogen is trading an expensive mass for a free one.
 
@@ -1578,7 +1578,7 @@ $$
 The light gauge is placed under the fuel-tank pressure it never carries, a counterfactual that shows why the gauge must taper.
 
 $$
-\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000356} = 1773 \, \text{MPa}
+\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000356} = 1771 \, \text{MPa}
 \tag{17}
 $$
 
@@ -1675,7 +1675,7 @@ $$
 The ideal gas law is applied at five pounds per square inch and an assumed 290 kelvin to the volume of the assumed 18 metre tank.
 
 $$
-m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.6 \, \text{kg}
+m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.5 \, \text{kg}
 \tag{29}
 $$
 
