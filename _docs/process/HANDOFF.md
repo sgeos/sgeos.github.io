@@ -11,6 +11,32 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `a5f4e1e`
+- **Written**: 2026-10-31, by the operator line of the PyDromon trial, after Grok was admitted. This file's own commit
+  sits directly on top, so `git rev-parse HEAD~1` must print `a5f4e1e...` for this handoff to be valid.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `9ff3d6c`. `a5f4e1e` and this file's commit go through a `ci/<topic>` branch
+  next. They touch only `_docs/` and `_drafts/`, so they trigger CI and no deploy.
+- **PUBLICATION STATE.** A1 to A384 are published, each with a generated Equations section and with the seven trial
+  errors fixed. A385 is drafted, covers both phases and Grok's admission, and is signed off by all three lines, but is
+  not through the four passes. **The next free article number is A386.**
+- **WHAT HAPPENED.** `REVERSE_PROMPT.md`, second entry of 2026-10-31, and `_docs/process/dromon_trial_1/README.md`.
+- **LOCAL STATE.**
+  - The Dromon daemon runs from the blog directory at PyDromon `f60e91d`, with all three lines idle or finishing.
+    PR 102 is pending in PyDromon. Restart onto it when `Op55-pydromon` says it has merged.
+  - `.dromon/dromon.toml` gives the grok line `Read`, `Grep`, `Glob`, `Bash` and `Edit`. `.dromon/LINES.md` tells it
+    to avoid `list_dir` and the refused tools and to pass `use_tool` arguments inline.
+  - The worktrees `tmp/worktrees/{opus,luna,grok}` are at `9ff3d6c`, and only the opus draft differs, now merged.
+- **OPEN, FOR THE PILOT.**
+  1. Whether A385 is restructured around its findings, passed and published.
+  2. Stopping the daemon and removing the worktrees, or keeping the team for further work.
+  3. The ruleset change that makes `CI result` required, which remains the operator's.
+- **METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+  trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file.
+
+## Validity (superseded, written 2026-10-31 after phase 2, parent `1014fb0`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `1014fb0`
 - **Written**: 2026-10-31, by the operator line of the PyDromon trial, after its second phase. This file's own commit
   sits directly on top, so `git rev-parse HEAD~1` must print `1014fb0...` for this handoff to be valid.
