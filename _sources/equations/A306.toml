@@ -1,0 +1,1176 @@
+# Equation classification for A306. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in International System units, with the specification of 500 feet and 100 miles converted to metres, speeds at altitude taken from a speed of sound of 295 metres per second, and several symbols reused, so that $R$ is a radius, a range or a turn radius by section, $m$ is a mass except in Equations 59 to 61, where it is a miss distance, and $\\tau$ is a delay in the guidance sections and a thermal time constant in Equations 103 and 104."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Rayleigh Distribution of Radial Miss"
+gloss = "With independent normal errors of equal standard deviation $\\sigma$ in range and deflection, the probability of landing within a radius $R$ follows the Rayleigh cumulative distribution."
+cite = ["ref_rayleigh", "book_papoulis_2002"]
+digest = "0601322bd68167d7"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Axis Standard Deviation Required by the Specification"
+gloss = "Inverting the Rayleigh distribution for the 1945 requirement of 500 feet at 75 percent gives an axis standard deviation of 91.5 metres."
+cite = ["ref_rascal"]
+digest = "49e58597734c5d8f"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Circular Error Probable"
+gloss = "The circular error probable, the radius containing half the impacts, is $\\sqrt{2 \\ln 2}$ times the axis standard deviation, which gives 108 metres for the specification."
+cite = ["ref_cep"]
+digest = "a828a44a072092ec"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Relative Standard Error of a Sample Standard Deviation"
+gloss = "For $n$ samples from a normal population the standard error of the sample standard deviation, relative to the estimate, is approximately one over the square root of twice the degrees of freedom."
+cite = []
+digest = "9b7e1e8a00606d3a"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Maximum-Likelihood Axis Standard Deviation"
+gloss = "Under the circular normal assumption the maximum-likelihood estimate of the axis standard deviation is the root of the summed squared radial misses divided by twice the number of impacts."
+cite = []
+digest = "31e23f8b76725adf"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Root-Mean-Square Miss with a Bias"
+gloss = "A systematic offset $b$ adds in quadrature to the random radial miss, whose mean square is twice the axis variance."
+cite = []
+digest = "5554524f4fbb80d5"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Quadrature Sum of Independent Errors"
+gloss = "The variances of independent error sources add, so the total variance is the sum of the contributors' variances."
+cite = []
+digest = "d48d285ce9729835"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Equal Error Allocation"
+gloss = "Assuming that $n$ sources contribute equally, each is allotted the total standard deviation divided by the square root of $n$."
+cite = []
+digest = "d9d1000b3ced7762"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Antenna Beamwidth"
+gloss = "The angular beamwidth of an antenna is roughly the wavelength divided by the aperture."
+cite = ["ref_beamwidth", "book_skolnik_2008"]
+digest = "489669b802a68775"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Cross-Range Tracking Error"
+gloss = "The article models the cross-range error as the range times the beamwidth divided by a resolution factor $k$ that it treats as a constant of order twenty."
+cite = []
+digest = "7a54f2e6e9a1a176"
+
+[[equation]]
+tag = 11
+class = "bespoke"
+title = "Bespoke Tracking Error from the Launcher"
+gloss = "The cross-range error at 100 miles is evaluated for an assumed X-band wavelength of 0.03 metres, a one metre antenna and a resolution factor of twenty."
+cite = []
+digest = "b5aee8d7689e998b"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Maximum Command-Guidance Range"
+gloss = "Setting the cross-range error equal to the 91.5 metre budget gives the range limit of a launcher radar for the assumed antenna and resolution factor."
+cite = []
+digest = "89a6e8e58343f171"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Tracking Error of a Missile Seeker"
+gloss = "The same error model applied to an assumed 0.4 metre seeker antenna at two kilometres from the target gives 7.5 metres."
+cite = []
+digest = "251c51047675f66a"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Opposite Error Gradients"
+gloss = "Under the article's error model the error of a launcher-based sensor grows with the range from the launcher and that of a missile-borne sensor with the range to the target."
+cite = []
+digest = "80ea465996d66a03"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Monopulse Angle Error from Receiver Noise"
+gloss = "The angular error of a monopulse tracker from thermal noise is the beamwidth divided by the monopulse slope and the square root of twice the signal-to-noise ratio."
+cite = ["book_barton_2004"]
+digest = "113bad1f6c0f0446"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Radar Range Equation"
+gloss = "The power received from a target of cross-section $\\sigma_t$ by a monostatic radar falls as the fourth power of range."
+cite = ["book_skolnik_2008"]
+digest = "a02541436ecb38e2"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Signal-to-Noise Ratio of a Skin Return"
+gloss = "With fixed noise the signal-to-noise ratio of a reflecting target scales as the inverse fourth power of range."
+cite = []
+digest = "cb4dc0100ddf775a"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Received Power from a Beacon"
+gloss = "A beacon of power $P_b$ and gain $G_b$ on the missile is received over a one-way path, so its power falls only as the square of range."
+cite = []
+digest = "618e1a1a91a74e92"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Beacon to Skin Power Ratio"
+gloss = "Dividing the beacon equation by the radar equation gives the advantage of a beacon, which grows as the square of range."
+cite = []
+digest = "b4cde334fd391fd3"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Glint Angle Error"
+gloss = "The apparent position of a target with several scattering centres wanders by a fraction $c_g$ of its angular extent, so the glint error falls as one over range."
+cite = ["research_delano_1953"]
+digest = "05b623a86de4b3f8"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Beam-Rider Error"
+gloss = "The article models the lateral error of a beam rider as the beam width at the missile's range divided by a sensing factor $k_b$ of order ten."
+cite = []
+digest = "a1f1a22e1a108dd1"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Beam-Rider Error at Forty Kilometres"
+gloss = "The beam-rider model is evaluated at forty kilometres with the assumed 0.03 radian beam and a sensing factor of ten."
+cite = []
+digest = "ee219c71bacae196"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Crossover Model of Manual Control"
+gloss = "A trained operator adapts until the open loop near crossover behaves as an integrator with gain $\\omega_c$ and a pure time delay $\\tau$."
+cite = ["book_mcruer_krendel_1974"]
+digest = "1949d110e304ad95"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Crossover Frequency Limit for a Phase Margin"
+gloss = "The delay of the crossover model consumes phase in proportion to frequency, so a phase margin $\\phi_m$ bounds the crossover frequency."
+cite = ["book_mcruer_krendel_1974"]
+digest = "5a9018ed5ec93f4e"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Operator Crossover Frequency"
+gloss = "The bound is evaluated for a chosen 45 degree phase margin and an operator delay taken as 0.3 seconds, which gives 2.6 radians per second."
+cite = []
+digest = "fa6ec4e2ccf6345c"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Supersonic Normal-Force Slope"
+gloss = "Linearised supersonic theory gives a normal-force slope of four over the square root of $M^{2} - 1$, evaluated at the reported Mach 1.5."
+cite = ["book_nielsen_1960", "book_anderson_2002_modern_compressible"]
+digest = "9040a50c774fd364"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Dynamic Pressure at the Design Condition"
+gloss = "The dynamic pressure is evaluated at a flight condition the article chooses, Mach 1.5 at 12 kilometres."
+cite = []
+digest = "00180afa8ca34abe"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Pitch Moment of Inertia"
+gloss = "The pitch inertia treats the vehicle as a uniform slender rod of the reported length and launch mass."
+cite = []
+digest = "1de30f13477de165"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Aerodynamic Pitch Stiffness"
+gloss = "The restoring stiffness is the normal force per radian times an assumed static margin of half a metre at the chosen dynamic pressure."
+cite = []
+digest = "4abc40312a8bb402"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Short-Period Natural Frequency"
+gloss = "The natural frequency is the square root of stiffness over inertia, evaluated with the assumed static margin and the uniform-rod inertia."
+cite = ["book_etkin_reid_1996"]
+digest = "be56e8760284e8fa"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Total Impulse"
+gloss = "The total impulse is the propellant mass times an effective exhaust velocity of 2,157 metres per second, which the article takes as representative of a storable propellant of the period."
+cite = []
+digest = "45ca99be27638247"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Burn Time at Rated Thrust"
+gloss = "The burn time is the assumed total impulse divided by the rated thrust of 13.3 kilonewtons."
+cite = []
+digest = "dba2a646a4881942"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Ideal Velocity Increment"
+gloss = "The rocket equation is evaluated for the reported launch and empty masses with the assumed effective exhaust velocity."
+cite = ["book_sutton_biblarz_2016"]
+digest = "491318f3fd49d3b1"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Drag in Level Cruise"
+gloss = "In level cruise the thrust equals the drag of a parabolic polar, a zero-lift term plus induced drag set by aspect ratio $A$ and span efficiency $e$."
+cite = []
+digest = "9da57213cc25fcee"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Cruise Lift Coefficient"
+gloss = "The lift coefficient that supports the launch weight is evaluated at the dynamic pressure of the chosen Mach 1.5 and 12 kilometre condition."
+cite = []
+digest = "4e5af30a4f609dbc"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Skin-Friction Drag Coefficient"
+gloss = "Skin friction contributes the friction coefficient times the ratio of wetted area to reference area."
+cite = []
+digest = "14f40711fa6090bf"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Skin-Friction Estimate"
+gloss = "The friction drag is evaluated for an assumed turbulent flat-plate coefficient of 0.0025 and a wetted area the article estimates at 25.2 square metres."
+cite = []
+digest = "e9309808b97f6c80"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Cruise Drag"
+gloss = "The cruise drag uses an assumed zero-lift drag coefficient of 0.02 at the chosen dynamic pressure."
+cite = []
+digest = "31d40946146b5cc6"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Injector Orifice Flow"
+gloss = "The mass flow through an orifice of discharge coefficient $C_d$ and area $A_i$ grows as the square root of the pressure drop."
+cite = ["book_huzel_huang_1992"]
+digest = "f606db0cdc24ea1a"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Injector Stiffness Criterion"
+gloss = "The conventional rule for combustion stability keeps the injector pressure drop above about a fifth of the chamber pressure."
+cite = ["book_huzel_huang_1992"]
+digest = "95b563d994290c73"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Injector Drop at Half Flow"
+gloss = "An injector assumed to sit at the stiffness limit at full flow keeps only a quarter of its pressure drop when throttled to half flow."
+cite = []
+digest = "add349a2a6ec6450"
+
+[[equation]]
+tag = 42
+class = "standard"
+title = "Thrust-to-Weight Ratio at Launch"
+gloss = "The rated thrust over the weight at the reported launch mass is 0.85."
+cite = ["ref_parsch_x9"]
+digest = "331e61f4615552a9"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Specific Energy"
+gloss = "The specific energy of a vehicle is its potential energy per unit mass plus its kinetic energy per unit mass."
+cite = []
+digest = "3894e9e514f6e8fa"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Specific Energy at Release"
+gloss = "The specific energy is evaluated for release conditions the article assumes, 12.2 kilometres and Mach 0.8."
+cite = []
+digest = "8b97c0b8ceec5294"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke Velocity Equivalent of Air Launch"
+gloss = "The speed that carries the same specific energy as the assumed release condition is 544 metres per second."
+cite = []
+digest = "078b4e7a99b295ba"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Tsiolkovsky Mass Ratio"
+gloss = "The ratio of initial to final mass grows exponentially with the velocity increment over the effective exhaust velocity."
+cite = []
+digest = "7c55c6a79822860d"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Energy Audit of the Powered Phase"
+gloss = "The energy gained from the assumed release condition to Mach 2 at a 20 kilometre apex is summed with the burnout mass taken as the empty mass."
+cite = []
+digest = "c42790ab5dc96b4f"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Kinetic Energy of the Exhaust"
+gloss = "The kinetic energy carried by the propellant at the assumed effective exhaust velocity is $1.45 \\times 10^{9}$ joules."
+cite = []
+digest = "90b5c7f4bbcb1c99"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Glide Range"
+gloss = "A vehicle gliding at a constant lift-to-drag ratio covers that ratio times its height in horizontal distance."
+cite = []
+digest = "4058513d6fdca43c"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Powered Range"
+gloss = "The distance covered under power uses a mean speed during the burn that the article assumes to be 400 metres per second."
+cite = []
+digest = "316902c0e97564ee"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Effective Glide Ratio"
+gloss = "Attributing the 40 kilometres not flown under power to a glide from the 20 kilometre apex gives a lift-to-drag ratio of two."
+cite = []
+digest = "1c68723cea8fb499"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Dynamic Pressure at Release Altitude"
+gloss = "The dynamic pressure at Mach 2 is evaluated at the assumed release altitude of 12.2 kilometres."
+cite = []
+digest = "97780d76d5d05c59"
+
+[[equation]]
+tag = 53
+class = "standard"
+title = "Dynamic Pressure at the Ceiling"
+gloss = "The dynamic pressure at Mach 2 at the reported 20 kilometre ceiling uses the standard atmosphere density there."
+cite = []
+digest = "56186fde63491483"
+
+[[equation]]
+tag = 54
+class = "standard"
+title = "Supersonic Maximum Lift-to-Drag Estimate"
+gloss = "The classical estimate of the maximum lift-to-drag ratio of a supersonic configuration falls with Mach number toward four."
+cite = []
+digest = "8221a60339a27ebb"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Proportional Navigation"
+gloss = "The commanded lateral acceleration is the navigation constant times the closing velocity times the rotation rate of the line of sight."
+cite = ["book_zarchan_2012"]
+digest = "4abe74a7b8b6d480"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Small-Angle Line-of-Sight Rate"
+gloss = "For small angles the line-of-sight angle is the lateral separation over the range to go, and its rate is the time derivative of that ratio."
+cite = []
+digest = "b49ea5eabcbce052"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Proportional Navigation in Separation and Time to Go"
+gloss = "Substituting the line-of-sight rate into the guidance law expresses the command in the lateral separation, its rate and the time to go."
+cite = []
+digest = "ac896a46b1c10dc5"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Acceleration Ratio Against a Manoeuvring Target"
+gloss = "Under proportional navigation the missile's steady acceleration requirement is $N/(N-2)$ times the target's manoeuvre."
+cite = ["book_zarchan_2012"]
+digest = "b3186423203ba7b1"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Normalised Miss Distance"
+gloss = "The residual miss relative to the initial disturbance depends only on the time to go in guidance time constants and on the navigation constant."
+cite = []
+digest = "f6332728b1c05510"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Asymptotic Miss for a First-Order Loop"
+gloss = "For a guidance loop lumped into a single first-order lag and a step disturbance, the article takes the residual miss as a polynomial in the normalised time $x$ times $e^{-x}$."
+cite = []
+digest = "836edf3cf1f15dee"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Residual Miss at Eight Time Constants"
+gloss = "The asymptotic form evaluated at eight time constants with a navigation constant of four leaves three percent of the initial miss."
+cite = []
+digest = "694987d5c4f97881"
+
+[[equation]]
+tag = 62
+class = "bespoke"
+title = "Bespoke Ten Time Constant Criterion"
+gloss = "The article adopts ten guidance time constants of remaining flight as the time needed to null an error."
+cite = []
+digest = "0ba4b96b87333905"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Guidance Time Constant"
+gloss = "The guidance time constant is the sum of an operator delay of 0.3 seconds, an assumed autopilot rise time of 0.4 seconds and an airframe lag of 0.13 seconds."
+cite = []
+digest = "949f377eef2c8db6"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Range Needed to Null an Error"
+gloss = "Ten assumed guidance time constants at Mach 2 correspond to about five kilometres of flight."
+cite = []
+digest = "68d30729650f0eff"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Standoff Condition"
+gloss = "The article defines the launch aircraft as safe when the missile's range exceeds the defended radius plus the distance flown while turning away."
+cite = []
+digest = "769d2cbdabd043f8"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Centre of Pressure of Combined Surfaces"
+gloss = "The centre of pressure of a configuration is the mean of the surface positions weighted by their normal-force slopes."
+cite = []
+digest = "2e9abd3dda6c6369"
+
+[[equation]]
+tag = 67
+class = "standard"
+title = "Hinge Moment"
+gloss = "The hinge moment is the dynamic pressure times the surface area, the mean chord and the hinge-moment coefficient."
+cite = []
+digest = "7249455a0f4c77fd"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Hinge Moment of the Canard"
+gloss = "The hinge moment is evaluated for an assumed 0.35 square metre surface of half-metre chord at a coefficient of 0.05 and the chosen dynamic pressure."
+cite = []
+digest = "acf1b463d34aa3bc"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Actuator Power"
+gloss = "The actuator power is the assumed hinge moment times a surface rate of five radians per second that the article takes as the autopilot's demand."
+cite = []
+digest = "fce744785f968580"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Trim Lift of a Canard Configuration"
+gloss = "The trimmed lift is the sum of the wing lift and the canard lift."
+cite = []
+digest = "fce53a26bf0b019d"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Trim Angle of Attack"
+gloss = "A control deflection trims the vehicle at the angle of attack where the control moment cancels the static restoring moment."
+cite = []
+digest = "b28c82c715c67570"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Normal Load Factor"
+gloss = "The normal acceleration in units of gravity is the normal force at the trim angle divided by the weight."
+cite = []
+digest = "e8f0f1e971fca71d"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Load Factor per Degree"
+gloss = "One degree of trimmed angle of attack at the chosen dynamic pressure gives about 0.8 g."
+cite = []
+digest = "f553e6500218f740"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Roll Error Rotation of the Command"
+gloss = "An error $\\Delta\\phi$ in the assumed roll angle rotates the commanded acceleration vector by that angle."
+cite = []
+digest = "b1f2f5d38939aa54"
+
+[[equation]]
+tag = 75
+class = "standard"
+title = "Lateral Offset from a Heading Error"
+gloss = "An uncorrected heading error $\\varepsilon$ displaces the impact point laterally by the range times its sine."
+cite = []
+digest = "17414e5da6e3ae9f"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "Offset from One Degree at the Reported Range"
+gloss = "One degree of heading error over the reported 80 kilometre range displaces the impact by 1.4 kilometres."
+cite = ["ref_parsch_x9"]
+digest = "e3d36b7aedc4d913"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Correctable Offset"
+gloss = "The article bounds the correctable offset by assuming a constant normal acceleration held at constant speed over the remaining range."
+cite = []
+digest = "a19403ca3600308a"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Correctable Offset at Eighty Kilometres"
+gloss = "At the four g limit the article derives and at Mach 2 over 80 kilometres the correctable offset is 360 kilometres."
+cite = []
+digest = "3b8dd16cbc3a5e1e"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Free-Fall Time"
+gloss = "A body falling freely from rest clears a distance $d$ in the square root of $2d/g$."
+cite = []
+digest = "232c7745f2e3ffa6"
+
+[[equation]]
+tag = 80
+class = "bespoke"
+title = "Bespoke Aircraft Travel During Separation"
+gloss = "The distance flown by the launch aircraft uses an assumed three metres of clearance and the assumed release speed of Mach 0.8."
+cite = []
+digest = "9b6e5ed14678e224"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Tip-Off Angular Acceleration"
+gloss = "The article models tip-off as the weight acting at an offset $\\ell$ from the last support, with aerodynamic and aircraft loads neglected."
+cite = []
+digest = "c3ae921e376684cc"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Tip-Off at Half a Metre"
+gloss = "The tip-off model is evaluated for an assumed half-metre offset and the uniform-rod pitch inertia."
+cite = []
+digest = "61ed529c7e570beb"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Command Sampling Rate"
+gloss = "The article samples the command link at ten times the crossover frequency of the operator loop."
+cite = []
+digest = "3bc24842ca5e0a66"
+
+[[equation]]
+tag = 84
+class = "bespoke"
+title = "Bespoke Command Data Rate"
+gloss = "Two command axes at an assumed eight bits each and the chosen sampling rate require 66 bits per second."
+cite = []
+digest = "fba5564c17cf2068"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Signal-to-Jamming Ratio"
+gloss = "The ratio of command signal to jamming at the receiver depends on the transmitter powers and gains, the square of the range ratio and the jammer's bandwidth dilution."
+cite = []
+digest = "5386586fb673a00e"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Friis Transmission Equation"
+gloss = "The power received over a one-way radio path falls as the square of range."
+cite = []
+digest = "25ff3378545cd7fb"
+
+[[equation]]
+tag = 87
+class = "bespoke"
+title = "Bespoke Free-Space Loss of the Command Link"
+gloss = "The free-space term at 80 kilometres is evaluated for a command wavelength of one metre that the article assumes."
+cite = []
+digest = "24de655b1247cd78"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Radio Propagation Delay"
+gloss = "The one-way delay over 80 kilometres at the speed of light is 0.27 milliseconds."
+cite = []
+digest = "273bcc01c51cef2f"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "Characteristic Equation with Rate Feedback"
+gloss = "Rate feedback of gain $K$ through a control moment $M_{\\delta}$ adds to the damping term of the short-period characteristic equation and leaves its stiffness unchanged."
+cite = ["book_blakelock_1991"]
+digest = "5040f6064e4169b7"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Damping Ratio with Rate Feedback"
+gloss = "The closed-loop damping ratio is the aerodynamic damping plus the feedback term divided by twice the natural frequency."
+cite = ["book_blakelock_1991"]
+digest = "22f56283f8e9852d"
+
+[[equation]]
+tag = 91
+class = "bespoke"
+title = "Bespoke Required Rate-Loop Gain"
+gloss = "The gain needed for a chosen damping ratio of 0.7 assumes an aerodynamic damping of 0.05 and the article's natural frequency."
+cite = []
+digest = "a80244695dbb4c8f"
+
+[[equation]]
+tag = 92
+class = "standard"
+title = "Gain Stabilisation of the First Bending Mode"
+gloss = "The loop remains stable against structural coupling when its gain at the first bending frequency is below unity."
+cite = []
+digest = "8f4e0bf3f7a2e663"
+
+[[equation]]
+tag = 93
+class = "standard"
+title = "First Bending Mode of a Free-Free Beam"
+gloss = "A uniform free-free beam has its first elastic mode at $(4.730/L)^{2}$ times the square root of the bending stiffness over the mass per unit length."
+cite = []
+digest = "1adc431bb9027126"
+
+[[equation]]
+tag = 94
+class = "standard"
+title = "Second Moment of Area of a Thin-Walled Tube"
+gloss = "A thin-walled circular tube of radius $r$ and wall thickness $t$ has a second moment of area $\\pi r^{3} t$."
+cite = []
+digest = "cd4b079ee07018c4"
+
+[[equation]]
+tag = 95
+class = "bespoke"
+title = "Bespoke First Bending Frequency of the X-9"
+gloss = "The free-free beam is evaluated for an assumed three millimetre aluminium wall and the launch mass spread uniformly along the length."
+cite = []
+digest = "ade714f483a24924"
+
+[[equation]]
+tag = 96
+class = "bespoke"
+title = "Bespoke Missile Flight Time"
+gloss = "The flight time assumes that the whole 80 kilometres is flown at Mach 2."
+cite = []
+digest = "3795a8be11d4a048"
+
+[[equation]]
+tag = 97
+class = "bespoke"
+title = "Bespoke Launch Aircraft Travel"
+gloss = "The launch aircraft is assumed to continue at Mach 0.8 for the missile's flight time."
+cite = []
+digest = "99a7956efe7ab80f"
+
+[[equation]]
+tag = 98
+class = "standard"
+title = "Level Turn Radius"
+gloss = "The radius of a level banked turn is the square of speed over gravity times the square root of $n^{2} - 1$."
+cite = []
+digest = "8b78316c6b5ae35e"
+
+[[equation]]
+tag = 99
+class = "bespoke"
+title = "Bespoke Bomber Turn Radius"
+gloss = "The turn radius is evaluated for a bomber assumed limited to 1.5 g at the assumed release speed."
+cite = []
+digest = "9ab65402e02bba79"
+
+[[equation]]
+tag = 100
+class = "bespoke"
+title = "Bespoke Time for a Reversal"
+gloss = "A half circle at the assumed turn radius and speed takes 68 seconds."
+cite = []
+digest = "cc8f3a86ecabe5fb"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Recovery Temperature"
+gloss = "The recovery temperature at Mach 2 uses a turbulent recovery factor of 0.89 and the standard atmosphere temperature of 217 kelvin."
+cite = []
+digest = "9920dc4f7adaa050"
+
+[[equation]]
+tag = 102
+class = "standard"
+title = "Lumped Thin-Skin Heating"
+gloss = "A thin skin of density $\\rho_m$, specific heat $c_p$ and thickness $t$ heats at a rate set by convection from the recovery temperature."
+cite = ["book_incropera_heat_transfer"]
+digest = "a2507519f102e300"
+
+[[equation]]
+tag = 103
+class = "standard"
+title = "Thermal Time Constant of a Thin Skin"
+gloss = "The skin's thermal time constant is its heat capacity per unit area divided by the convective coefficient."
+cite = ["book_incropera_heat_transfer"]
+digest = "3962d9add156db29"
+
+[[equation]]
+tag = 104
+class = "bespoke"
+title = "Bespoke Skin Time Constant"
+gloss = "The time constant is evaluated for an assumed two millimetre aluminium skin and a convective coefficient of 150 watts per square metre kelvin."
+cite = []
+digest = "4017d5135b82ee73"
+
+[[equation]]
+tag = 105
+class = "bespoke"
+title = "Bespoke Wing Root Bending Moment"
+gloss = "The article estimates the root bending moment as the load at four g acting at a quarter of the span $b$."
+cite = []
+digest = "2610333b631eb270"
+
+[[equation]]
+tag = 106
+class = "standard"
+title = "Terminal Velocity Under a Canopy"
+gloss = "A body descends at the speed where drag on area $A$ with coefficient $C_D$ balances its weight."
+cite = ["book_knacke_1992"]
+digest = "97decf9d5556cede"
+
+[[equation]]
+tag = 107
+class = "bespoke"
+title = "Bespoke Canopy Area"
+gloss = "The canopy area is evaluated for an assumed 300 kilogramme package, an assumed descent rate of eight metres per second and a drag coefficient of 1.4."
+cite = []
+digest = "a9cf3778e575e28a"
+
+[[equation]]
+tag = 108
+class = "standard"
+title = "Likelihood of Four Failures Then a Success"
+gloss = "For independent flights of success probability $p$, the likelihood of four failures followed by a success is maximised at $p = 0.2$."
+cite = []
+digest = "73d7023098406d73"
+
+[[equation]]
+tag = 109
+class = "standard"
+title = "Zero-Failure Demonstration Test"
+gloss = "Demonstrating reliability $p$ at confidence $1 - \\alpha$ with no failures needs $\\ln \\alpha / \\ln p$ consecutive successes."
+cite = []
+digest = "2c2c40a7041e979c"
+
+[[equation]]
+tag = 110
+class = "standard"
+title = "Successes Needed for 90 Percent at 95 Percent"
+gloss = "Demonstrating 90 percent reliability at 95 percent confidence needs 29 consecutive successes."
+cite = []
+digest = "471ca721e66363e5"
+
+[[equation]]
+tag = 111
+class = "standard"
+title = "Single-Shot Kill Probability"
+gloss = "For a definite lethal radius $R_L$ and a circular normal miss, the kill probability is one minus one half raised to the squared ratio of lethal radius to circular error probable."
+cite = []
+digest = "6c399a12bd0b56ef"
+
+[[equation]]
+tag = 112
+class = "standard"
+title = "Circular Error Probable for a Kill Probability"
+gloss = "Inverting the kill probability gives the circular error probable that a lethal radius and a required kill probability permit."
+cite = []
+digest = "3d215b90ac39dc64"
+
+[[equation]]
+tag = 113
+class = "standard"
+title = "Cube-Root Blast Scaling"
+gloss = "The radius at which a given overpressure is reached scales as the cube root of yield $W$ from the one-kilotonne radius $R_1$."
+cite = ["book_glasstone_dolan_1977"]
+digest = "547e908c777292a4"
+
+[[equation]]
+tag = 114
+class = "bespoke"
+title = "Bespoke Lethal Radius at Twenty Kilotonnes"
+gloss = "Cube-root scaling from the 690 metre one-kilotonne radius for five pounds per square inch is evaluated for a yield of twenty kilotonnes that the article takes as representative."
+cite = ["book_glasstone_1962"]
+digest = "90f7f7af87960349"
+
+[[equation]]
+tag = 115
+class = "bespoke"
+title = "Bespoke Accuracy Needed for 90 Percent Kill"
+gloss = "The circular error probable is evaluated for an assumed lethal radius of 1,500 metres against a soft target and a 90 percent kill probability."
+cite = []
+digest = "d269aa0fb59a0676"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the axis standard deviation of the miss, and with a subscript the standard deviation of one error source or of an angle estimate"
+[[symbol]]
+tex = '\mathrm{CEP}'
+meaning = "the circular error probable, the radius containing half the impacts"
+[[symbol]]
+tex = 'R'
+meaning = "a radius about the aim point in Equations 1 and 2, a range from a radar or transmitter in the tracking and link sections, and a range to the target in Equations 75 and 96"
+[[symbol]]
+tex = 'P'
+meaning = "the probability of landing within a radius, and in Equation 69 the actuator power"
+[[symbol]]
+tex = 'n'
+meaning = "a number of samples, flights or error sources, and in Equations 72, 98 and 105 the load factor"
+[[symbol]]
+tex = 'b'
+meaning = "the systematic bias of the impact point in Equation 6 and the wing span in Equation 105"
+[[symbol]]
+tex = '\lambda'
+meaning = "the radar or radio wavelength, and in Equations 55 and 56 the line-of-sight angle"
+[[symbol]]
+tex = 'D'
+meaning = "the antenna aperture in the tracking equations and the drag in Equations 34 and 38"
+[[symbol]]
+tex = 'k'
+meaning = "the factor by which a tracker resolves an angle finer than the beamwidth"
+[[symbol]]
+tex = '\theta'
+meaning = "the angular beamwidth"
+[[symbol]]
+tex = '\varepsilon_{\perp}'
+meaning = "the cross-range position error of a tracker"
+[[symbol]]
+tex = 'k_m'
+meaning = "the monopulse slope"
+[[symbol]]
+tex = '\sigma_t'
+meaning = "the radar cross-section of the target"
+[[symbol]]
+tex = 'P_t'
+meaning = "the transmitter power"
+[[symbol]]
+tex = 'G'
+meaning = "the gain of the radar antenna"
+[[symbol]]
+tex = 'P_b'
+meaning = "the power of the beacon on the missile"
+[[symbol]]
+tex = 'c_g'
+meaning = "the glint factor, of order 0.3"
+[[symbol]]
+tex = 'L_t'
+meaning = "the dimension of the target"
+[[symbol]]
+tex = 'k_b'
+meaning = "the fraction of a beamwidth that a beam rider can sense, of order ten"
+[[symbol]]
+tex = '\omega_c'
+meaning = "the crossover frequency of the operator loop"
+[[symbol]]
+tex = '\tau'
+meaning = "the operator's effective delay, and in Equations 103 and 104 the thermal time constant of the skin"
+[[symbol]]
+tex = '\phi_m'
+meaning = "the phase margin"
+[[symbol]]
+tex = 'C_{N\alpha}'
+meaning = "the normal force curve slope per radian"
+[[symbol]]
+tex = 'M'
+meaning = "the Mach number"
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure in pascals"
+[[symbol]]
+tex = '\rho'
+meaning = "the air density"
+[[symbol]]
+tex = 'I_y'
+meaning = "the pitch moment of inertia"
+[[symbol]]
+tex = 'M_{\alpha}'
+meaning = "the aerodynamic restoring stiffness in pitch"
+[[symbol]]
+tex = '\omega_n'
+meaning = "the undamped natural frequency of the pitch motion"
+[[symbol]]
+tex = 'c'
+meaning = "the effective exhaust velocity of the rocket"
+[[symbol]]
+tex = 'm_p'
+meaning = "the propellant mass"
+[[symbol]]
+tex = 'm_0'
+meaning = "the launch mass, except in Equations 59 to 61, where it is the initial miss"
+[[symbol]]
+tex = 'm_f'
+meaning = "the mass at burnout"
+[[symbol]]
+tex = 'I_{\text{tot}}'
+meaning = "the total impulse"
+[[symbol]]
+tex = 't_b'
+meaning = "the burn time"
+[[symbol]]
+tex = 'F'
+meaning = "the rocket thrust"
+[[symbol]]
+tex = 'S'
+meaning = "the wing reference area"
+[[symbol]]
+tex = 'C_{D0}'
+meaning = "the zero-lift drag coefficient"
+[[symbol]]
+tex = 'C_L'
+meaning = "the lift coefficient"
+[[symbol]]
+tex = 'C_f'
+meaning = "the turbulent skin-friction coefficient"
+[[symbol]]
+tex = 'S_{\text{wet}}'
+meaning = "the wetted area"
+[[symbol]]
+tex = 'C_d'
+meaning = "the discharge coefficient of an injector orifice"
+[[symbol]]
+tex = 'A_i'
+meaning = "the injector orifice area"
+[[symbol]]
+tex = '\Delta p'
+meaning = "the injector pressure drop"
+[[symbol]]
+tex = 'p_c'
+meaning = "the chamber pressure"
+[[symbol]]
+tex = 'e_{\text{launch}}'
+meaning = "the specific energy at release"
+[[symbol]]
+tex = 'h'
+meaning = "the altitude, and in Equations 102 and 103 the convective heat transfer coefficient"
+[[symbol]]
+tex = '\frac{L}{D}'
+meaning = "the lift-to-drag ratio"
+[[symbol]]
+tex = 'N'
+meaning = "the navigation constant"
+[[symbol]]
+tex = 'V_c'
+meaning = "the closing velocity"
+[[symbol]]
+tex = 't_{go}'
+meaning = "the time remaining to intercept"
+[[symbol]]
+tex = 'n_t'
+meaning = "the manoeuvre acceleration of the target"
+[[symbol]]
+tex = '\tau_g'
+meaning = "the guidance time constant that lumps the operator, autopilot and airframe lags"
+[[symbol]]
+tex = 'x_{cp}'
+meaning = "the position of the centre of pressure"
+[[symbol]]
+tex = 'H'
+meaning = "the hinge moment of a control surface"
+[[symbol]]
+tex = 'C_h'
+meaning = "the hinge-moment coefficient"
+[[symbol]]
+tex = '\bar{c}'
+meaning = "the mean chord of the control surface"
+[[symbol]]
+tex = '\delta'
+meaning = "the control surface deflection"
+[[symbol]]
+tex = '\Delta\phi'
+meaning = "the error in the assumed roll angle"
+[[symbol]]
+tex = 'a_n'
+meaning = "the normal acceleration available for correction"
+[[symbol]]
+tex = '\ell'
+meaning = "the offset of the centre of gravity from the last remaining support"
+[[symbol]]
+tex = '\dot{q}'
+meaning = "the pitch angular acceleration at release"
+[[symbol]]
+tex = 'v_{\text{ac}}'
+meaning = "the speed of the launch aircraft"
+[[symbol]]
+tex = 'B_j'
+meaning = "the jammer bandwidth"
+[[symbol]]
+tex = 'B_s'
+meaning = "the signal bandwidth"
+[[symbol]]
+tex = 'c_0'
+meaning = "the speed of light"
+[[symbol]]
+tex = 'K'
+meaning = "the gain of the rate feedback loop"
+[[symbol]]
+tex = 'M_{\delta}'
+meaning = "the control moment per unit deflection"
+[[symbol]]
+tex = '\zeta'
+meaning = "the damping ratio of the pitch motion"
+[[symbol]]
+tex = '\zeta_a'
+meaning = "the aerodynamic damping ratio without feedback"
+[[symbol]]
+tex = '\omega_1'
+meaning = "the frequency of the first bending mode"
+[[symbol]]
+tex = 'EI'
+meaning = "the bending stiffness of the body"
+[[symbol]]
+tex = '\mu'
+meaning = "the mass per unit length of the body"
+[[symbol]]
+tex = 'R_t'
+meaning = "the turn radius of the launch aircraft"
+[[symbol]]
+tex = 'T_r'
+meaning = "the recovery temperature reached by the surface under the boundary layer"
+[[symbol]]
+tex = 'T_{\infty}'
+meaning = "the free-stream static temperature"
+[[symbol]]
+tex = '\gamma'
+meaning = "the ratio of specific heats of air"
+[[symbol]]
+tex = 'T_w'
+meaning = "the skin temperature"
+[[symbol]]
+tex = 'v_t'
+meaning = "the terminal descent velocity under the canopy"
+[[symbol]]
+tex = 'C_D'
+meaning = "the drag coefficient of the canopy"
+[[symbol]]
+tex = 'P_k'
+meaning = "the single-shot kill probability"
+[[symbol]]
+tex = 'R_L'
+meaning = "the lethal radius of the warhead in Equations 111 to 114, and in Equation 14 the range from the launcher"
+[[symbol]]
+tex = 'W'
+meaning = "the yield in kilotonnes"
+[[symbol]]
+tex = 'R_1'
+meaning = "the radius of the five pounds per square inch contour for one kilotonne"

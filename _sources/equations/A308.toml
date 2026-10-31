@@ -1,0 +1,1067 @@
+# Equation classification for A308. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in International System units on a spherical Earth of radius 6,371 kilometres with $g = 9.80665$ metres per second squared, pounds per square inch are converted at 6,894.76 pascals each, the masses are Atlas D figures and the skin gauges and tank pressures those of a later Atlas, all applied to the Atlas A, and symbols are reused, so that $t$ is the skin thickness except in Equations 52, 53 and 57, where it is time, $p$ is a pressure except in Equations 95 to 98, where it is a probability of success, $n$ is a load factor except in Equations 97 and 98, where it is a number of flights, $R$ is the range except in Equation 29, where it is the gas constant of nitrogen, $T$ is the thrust except in Equation 29, where it is the gas temperature, $V$ is a volume except in Equations 42 and 43, where it is the wind speed, $I$ is a second moment of area except in Equations 73 and 75, where it is the acoustic intensity, $c$ is a speed of sound except in Equation 70, where it is a specific heat, $h$ is a height or an altitude except in Equations 70 and 88, where it is a convective coefficient, and $v_{e}$ is the exhaust velocity except in Equation 85, where it is the entry speed."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The ideal velocity a rocket gains grows with the logarithm of the ratio of its gross mass to its burnout mass."
+cite = ["book_sutton_biblarz_2016"]
+digest = "f13cfcbad6085b51"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Structural Mass Fraction of the Atlas D"
+gloss = "The Atlas D burnout mass is 4.58 percent of its gross mass."
+cite = ["ref_sm65"]
+digest = "833c871695e6b641"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Mass Ratio of the Atlas D"
+gloss = "The Atlas D gross mass is 21.85 times its burnout mass."
+cite = ["ref_sm65"]
+digest = "ff0b54fbc848c6a7"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Ideal Velocity of the Atlas D"
+gloss = "The rocket equation at a specific impulse of 282 seconds and the Atlas D mass ratio gives 8,530 metres per second before gravity and drag losses."
+cite = []
+digest = "acbbb73f4c3bee8c"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Calibrated Ascent Loss"
+gloss = "The loss is defined as whatever separates the ideal velocity from the 7,193 metre per second burnout speed of a 10,000 kilometre minimum-energy arc, so it is a calibration and not a derived loss."
+cite = []
+digest = "959648a02bb7ae3c"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Burnout Speed Against Structural Mass"
+gloss = "The structural mass is scaled by a factor $k$ while the propellant load and the calibrated loss are held fixed."
+cite = []
+digest = "93e64633913a8a0b"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Ballistic Range Law"
+gloss = "On a spherical non-rotating Earth the central angle of a ballistic arc flown at the optimum flight path angle is fixed by the energy parameter $\\lambda$, the ratio of burnout kinetic energy to that of a grazing circular orbit."
+cite = []
+digest = "135306aac8ec912f"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Sizing Fraction of the Atlas Mission"
+gloss = "The 133 second burn is set against the 1,932 second flight time derived for a 10,000 kilometre arc, a figure of merit the article introduces."
+cite = []
+digest = "f996e70c4acf4a85"
+
+[[equation]]
+tag = 9
+class = "bespoke"
+title = "Bespoke Leg Fraction of the Navaho Mission"
+gloss = "A thousand-kilometre leg at top speed is set against the whole Navaho mission time, the comparison figure for the previous article's vehicle."
+cite = []
+digest = "b21ab4c5b9e9a224"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Tank Radius"
+gloss = "Half of the recorded ten foot diameter is 1.524 metres."
+cite = ["ref_cleary_1991"]
+digest = "1e0f56080aebca03"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Radius-to-Thickness Ratio of the Skin"
+gloss = "The tank radius over the light and heavy gauges of the later Atlas drawing gives ratios of 4,286 and 1,622."
+cite = ["research_lewis_1968"]
+digest = "82721539ab18eaec"
+
+[[equation]]
+tag = 12
+class = "bespoke"
+title = "Bespoke Radius-to-Thickness Ratio of a Drink Can"
+gloss = "The benchmark assumes a can wall of 0.1 millimetres on a radius of 33 millimetres."
+cite = []
+digest = "411826f35b10d1ee"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Thin-Walled Hoop Stress"
+gloss = "Internal pressure in a thin cylinder produces a circumferential membrane stress equal to pressure times radius over thickness."
+cite = []
+digest = "e16251864763f0d0"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Thin-Walled Axial Stress"
+gloss = "Pressure acting on the closed ends of a thin cylinder produces an axial membrane stress half the hoop stress."
+cite = []
+digest = "66b2f79d7a688fea"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Ratio of Hoop to Axial Stress"
+gloss = "In a closed thin cylinder under pressure the hoop stress is always twice the axial stress."
+cite = []
+digest = "9702c56f953154ce"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Hoop Stress at Fuel-Tank Pressure and Heavy Gauge"
+gloss = "The 60 pound per square inch fuel-tank pressure on the heavy gauge gives a hoop stress of 671 megapascals."
+cite = ["research_lewis_1968"]
+digest = "00c83893e566c7e2"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Hoop Stress of the Light Gauge at Fuel-Tank Pressure"
+gloss = "The light gauge is placed under the fuel-tank pressure it never carries, a counterfactual that shows why the gauge must taper."
+cite = []
+digest = "595160d9a1938aa9"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Hoop Stress of the Light Gauge at Oxidizer-Tank Pressure"
+gloss = "The recorded oxidizer-tank range of 28.5 to 31 pounds per square inch is reduced to a single 30 pounds on the light gauge."
+cite = []
+digest = "5858e6f76cc45b87"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Hydrostatic Head Under Acceleration"
+gloss = "A liquid column of height $h$ under a load factor $n$ adds a pressure equal to density times load factor times gravity times height."
+cite = []
+digest = "31795a0c3dc09169"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Liquid Oxygen Head Near Burnout"
+gloss = "The head assumes ten metres of liquid oxygen at six times gravity, a load factor chosen near the later Atlas's recorded 5.62."
+cite = []
+digest = "d2a18c300e85c35d"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Area of a Hemispherical Dome"
+gloss = "A hemisphere of the tank radius has an area of 14.6 square metres."
+cite = []
+digest = "af60f71a6eda66c4"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Intertank Barrel Area"
+gloss = "The barrel is assumed to be two radii long, enough to clear two hemispherical domes."
+cite = []
+digest = "377ea6a9c5d99ed8"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Mass Saved by the Common Bulkhead"
+gloss = "The saved dome and barrel area is taken at an average gauge of 0.648 millimetres and a steel density of 8,000 kilogrammes per cubic metre."
+cite = []
+digest = "0aa62ec52808878d"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Tank Volume"
+gloss = "The tank is treated as a cylinder of an assumed 18 metres, a length the record does not confirm."
+cite = []
+digest = "aad9dced0ccb57ff"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Liquid Oxygen Load"
+gloss = "The Atlas D propellant load is divided at a representative mixture ratio of 2.25."
+cite = []
+digest = "f552b13fb9187491"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Propellant Fill Fraction"
+gloss = "The propellant volume is set against the volume of the assumed 18 metre tank."
+cite = []
+digest = "73111d0664e2c433"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Tank Span From the Station Numbers"
+gloss = "The tank stations of the later Atlas, 570 to 1,198 inches, span 15.95 metres."
+cite = ["research_lewis_1968"]
+digest = "9b14af96595ceac3"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Volume and Fill Fraction of the Recorded Span"
+gloss = "The recorded span is treated as a full cylinder, domes included, which bounds the volume from above."
+cite = []
+digest = "4a66f6eebad05d84"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Mass of Standing Nitrogen"
+gloss = "The ideal gas law is applied at five pounds per square inch and an assumed 290 kelvin to the volume of the assumed 18 metre tank."
+cite = []
+digest = "fee07d6e23d5065d"
+
+[[equation]]
+tag = 30
+class = "bespoke"
+title = "Bespoke Tank Mass per Unit Volume"
+gloss = "A figure of merit the article introduces divides the bare skin mass of the assumed tank by its volume."
+cite = []
+digest = "52391eaf0f067e48"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Mean Propellant Density"
+gloss = "The propellant volume rests on the assumed mixture ratio of 2.25 and densities of 1,141 and 800 kilogrammes per cubic metre."
+cite = []
+digest = "42ed609a8179e0fa"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Classical Axial Buckling Stress of a Cylinder"
+gloss = "A perfect thin cylinder in axial compression buckles at a stress proportional to the modulus and to thickness over radius."
+cite = ["ref_nasa_sp8007"]
+digest = "a399c06a2281d2c9"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Classical Buckling Stress of the Heavy Gauge"
+gloss = "For stainless steel at 193 gigapascals and a Poisson ratio of 0.3 the heavy gauge has a classical buckling stress of 72.0 megapascals."
+cite = []
+digest = "eb1a1398b7fb137d"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Knocked-Down Buckling Allowable"
+gloss = "A knockdown factor of 0.2 is adopted, slightly above the 0.18 that NASA's criterion gives at a radius-to-thickness ratio of 1,500."
+cite = []
+digest = "119a7d36017ef85d"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Second Moment of Area of the Shell"
+gloss = "The thin-walled second moment of area is evaluated at an average gauge of 0.648 millimetres."
+cite = []
+digest = "a24e3de191ba70c0"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Euler Load of the Vehicle as a Column"
+gloss = "The vehicle is treated as a uniform cantilever at the average gauge with an effective length factor of two."
+cite = []
+digest = "609f7d84078c8a4c"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Axial Tension From the Standing Pressure"
+gloss = "Five pounds per square inch on the heavy gauge gives an axial tension of 27.9 megapascals."
+cite = []
+digest = "66aa1693bb452290"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Pressure Required to Offset Buckling"
+gloss = "The required pressure is defined by setting the pressure-induced axial tension equal to the knocked-down buckling allowable, a first-order criterion."
+cite = []
+digest = "ee150461b9096891"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Required Pressure at the Heavy Gauge"
+gloss = "The criterion at the adopted knockdown factor of 0.2 gives 2.58 pounds per square inch."
+cite = []
+digest = "00f4717468afd8fc"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Moment at Which Pressure Tension Is Cancelled"
+gloss = "Equating the extreme-fibre bending stress of a thin cylinder to its axial pressure stress gives a critical moment independent of the skin thickness."
+cite = []
+digest = "8179ce9d8303ad80"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Critical Moment at the Standing Pressure"
+gloss = "At five pounds per square inch and the tank radius the critical moment is 0.192 meganewton metres."
+cite = []
+digest = "eeaf92ad32576162"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Base Moment From a Uniform Wind"
+gloss = "The wind is assumed uniform with height, so its drag acts at mid-height of the vehicle."
+cite = []
+digest = "956240f965e64ca2"
+
+[[equation]]
+tag = 43
+class = "bespoke"
+title = "Bespoke Standing Wind Limit"
+gloss = "The critical moment is inverted for wind speed under the uniform-wind model at an assumed drag coefficient of 1.2."
+cite = []
+digest = "07a00c7da29e0414"
+
+[[equation]]
+tag = 44
+class = "bespoke"
+title = "Bespoke Bare Skin Mass"
+gloss = "The skin of the assumed 18 metre tank is taken at the average gauge and a steel density of 8,000 kilogrammes per cubic metre."
+cite = []
+digest = "19ac17fd0d616a86"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Wall Thickness Sized by Hoop Tension"
+gloss = "A pressure-stabilised wall must be thick enough that the hoop stress stays within the tensile allowable."
+cite = []
+digest = "e756e8a766a23da9"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Wall Thickness Sized by Compression"
+gloss = "A stiffened wall must be thick enough that its axial running load stays within its compressive allowable."
+cite = []
+digest = "a80d149be2cad78b"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Ratio of Tensile to Compressive Allowable"
+gloss = "An assumed yield of 965 megapascals is set against the allowable of the adopted knockdown factor."
+cite = []
+digest = "61459aa54513ebcf"
+
+[[equation]]
+tag = 48
+class = "standard"
+title = "Lift-Off Thrust-to-Weight of the Family"
+gloss = "The compilation's summary thrust over the Atlas D gross weight gives 1.31."
+cite = ["ref_x11"]
+digest = "ab7e39578a301947"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Lift-Off Thrust-to-Weight of the Atlas A"
+gloss = "Two early engines of 135,000 pounds against the 181,000 pound Series A missile give 1.49."
+cite = ["ref_cleary_1991"]
+digest = "356c0c024f33e805"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Propellant Mass Flow"
+gloss = "Thrust over effective exhaust velocity gives a flow of 549 kilogrammes per second."
+cite = []
+digest = "d4ea31a376ccfd9b"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Dynamic Pressure"
+gloss = "Dynamic pressure is half the air density times the square of the speed."
+cite = []
+digest = "2f067bff1f722114"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Dynamic Pressure of a Constant-Acceleration Vertical Ascent"
+gloss = "The model assumes a vertical rise from rest at constant acceleration through an exponential atmosphere."
+cite = []
+digest = "1a1ec8e49e407987"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Time of Maximum Dynamic Pressure"
+gloss = "Setting the derivative of the idealised dynamic pressure to zero places its peak at one scale height."
+cite = []
+digest = "6e820553a000a726"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Time of Maximum Dynamic Pressure Evaluated"
+gloss = "A scale height of 7,200 metres and an assumed net acceleration of three metres per second squared give 69 seconds."
+cite = []
+digest = "240571dae9eb4122"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Maximum Dynamic Pressure"
+gloss = "Substituting the peak time into the idealised ascent gives the peak in terms of sea-level density, acceleration and scale height."
+cite = []
+digest = "96edee66f5497e00"
+
+[[equation]]
+tag = 56
+class = "bespoke"
+title = "Bespoke Maximum Dynamic Pressure Evaluated"
+gloss = "The idealised ascent at the assumed acceleration peaks at 9,736 pascals, below the later Atlas's measured 800 pounds per square foot."
+cite = []
+digest = "7d225a9740d4a127"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Axial Load Factor Under Constant Thrust"
+gloss = "At constant thrust and mass flow the axial load factor rises as propellant burns away."
+cite = []
+digest = "c913ec36544fb750"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Axial Load Factor Near Booster Cutoff"
+gloss = "The family thrust on the Atlas D mass less 133 seconds of propellant flow gives 3.44."
+cite = []
+digest = "9fe2651365cbffc5"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Normal Force on a Slender Body"
+gloss = "At small incidence the normal force is dynamic pressure times reference area times normal-force slope times angle of attack."
+cite = []
+digest = "76e57f5f81771d1f"
+
+[[equation]]
+tag = 60
+class = "bespoke"
+title = "Bespoke Normal Force at Maximum Dynamic Pressure"
+gloss = "The force assumes a normal-force slope of two per radian and three degrees of incidence at the idealised dynamic pressure."
+cite = []
+digest = "3af754105946d06e"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Velocity Gain From Jettison"
+gloss = "Two applications of the rocket equation are differenced to give the velocity the sustainer gains by not carrying the jettisoned mass."
+cite = []
+digest = "3db4c00c52e22d6f"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Propellant Left for the Sustainer"
+gloss = "The Atlas D propellant load less 133 seconds of booster flow leaves 39,528 kilogrammes."
+cite = []
+digest = "a0538d0531090a65"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Sustainer Velocity After Jettison"
+gloss = "The rocket equation from the staging mass to the Atlas D burnout mass gives 5,861 metres per second."
+cite = []
+digest = "ee1bde4fea563be9"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Sustainer Velocity Without Jettison"
+gloss = "The booster package is assumed to weigh three tonnes and to be carried to burnout."
+cite = []
+digest = "31436c6fa9ff1d26"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Velocity Gain of the Half-Stage"
+gloss = "Dropping the assumed three tonne package gains 1,044 metres per second."
+cite = []
+digest = "5e61f58c01fcaa24"
+
+[[equation]]
+tag = 66
+class = "standard"
+title = "Proof Factor"
+gloss = "The proof factor is the ratio of the test pressure to the design pressure."
+cite = []
+digest = "82d378909a515c56"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Burst Factor"
+gloss = "The burst factor is taken as at least 1.5, a value the article chooses and does not source."
+cite = []
+digest = "2cf420d94334fdde"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Burst Hoop Stress"
+gloss = "The chosen burst factor of 1.5 applied to the heavy-gauge hoop stress gives 1,007 megapascals."
+cite = []
+digest = "e28dea6cb684785e"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Proof Hoop Stress"
+gloss = "A chosen proof factor of 1.25 applied to the heavy-gauge hoop stress gives 839 megapascals."
+cite = []
+digest = "3ecd41541c1e8182"
+
+[[equation]]
+tag = 70
+class = "standard"
+title = "Thermal Time Constant of a Thin Skin"
+gloss = "A thin skin heated by convection approaches equilibrium with a time constant of its heat capacity per unit area over the convective coefficient."
+cite = []
+digest = "0d3287429d713f15"
+
+[[equation]]
+tag = 71
+class = "bespoke"
+title = "Bespoke Skin Time Constant"
+gloss = "The time constant assumes a convective coefficient of 200 watts per square metre kelvin on the heavy gauge."
+cite = []
+digest = "afe3344d16d40db9"
+
+[[equation]]
+tag = 72
+class = "standard"
+title = "Mechanical Power in the Jet"
+gloss = "Half the mass flow times the square of the exhaust velocity gives 2.10 gigawatts."
+cite = []
+digest = "c5fc73f1476ed16e"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Acoustic Intensity at Thirty Metres"
+gloss = "Half of one percent of the jet power is assumed to radiate as sound, spread over a hemisphere of thirty metres radius."
+cite = []
+digest = "01d63751e600be97"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Sound Pressure Level"
+gloss = "The standard decibel scale applied to the assumed intensity gives 153 decibels."
+cite = []
+digest = "95d786faaef720ec"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Root-Mean-Square Pressure Fluctuation"
+gloss = "The plane-wave relation applied to the assumed intensity gives 883 pascals."
+cite = []
+digest = "9931a48d0dc959c6"
+
+[[equation]]
+tag = 76
+class = "standard"
+title = "First Lateral Slosh Frequency of a Cylindrical Tank"
+gloss = "The first antisymmetric sloshing mode of a liquid in an upright cylinder depends on the effective gravity, the radius and the fill depth."
+cite = []
+digest = "63a451a2519a65d3"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Slosh Frequency at Three Times Gravity"
+gloss = "The deep-tank limit is evaluated at an assumed load factor of three."
+cite = []
+digest = "08821672f76d3542"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Fixed-Free Axial Mode of a Solid Bar"
+gloss = "A solid steel bar of the vehicle length has a first axial mode at the bar wave speed over four lengths, 53 hertz."
+cite = []
+digest = "56ec682bb79324e6"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Ballistic Range Law in Terms of Burnout Speed"
+gloss = "The range relation of the previous article is restated with burnout speed $v$ so that it can be differentiated."
+cite = []
+digest = "6d95fdb24682785a"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Logarithmic Derivative of the Energy Parameter"
+gloss = "Since $\\lambda$ is proportional to the square of the speed, a fractional change in speed doubles in $\\lambda$."
+cite = []
+digest = "ccbefd87f4b71e5d"
+
+[[equation]]
+tag = 81
+class = "standard"
+title = "Derivative of the Range Angle"
+gloss = "Differentiating the range law gives the rate at which the range angle grows with the energy parameter."
+cite = []
+digest = "7f8713fce83b5ccb"
+
+[[equation]]
+tag = 82
+class = "standard"
+title = "Logarithmic Sensitivity of Range to Burnout Speed"
+gloss = "Chaining the two derivatives gives the fractional change in range per fractional change in burnout speed."
+cite = []
+digest = "cb6e7ff912f3851c"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Range Sensitivity at Intercontinental Range"
+gloss = "The sensitivity is evaluated for the representative 10,000 kilometre arc."
+cite = []
+digest = "83f439c952dd8840"
+
+[[equation]]
+tag = 84
+class = "bespoke"
+title = "Bespoke Required Velocity Accuracy"
+gloss = "The sensitivity is inverted for an 800 metre miss at the representative 10,000 kilometre range."
+cite = []
+digest = "bcb2bd6a1a3cce5c"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "Allen-Eggers Peak Ballistic Deceleration"
+gloss = "A ballistic body entering an exponential atmosphere on a straight path reaches a peak deceleration independent of its ballistic coefficient."
+cite = ["research_scherberg_rubin_1953"]
+digest = "4800e160e6fe4a69"
+
+[[equation]]
+tag = 86
+class = "bespoke"
+title = "Bespoke Peak Deceleration of a Representative Entry"
+gloss = "The entry is assumed at seven kilometres per second and thirty degrees."
+cite = []
+digest = "038b27035f74ecf7"
+
+[[equation]]
+tag = 87
+class = "bespoke"
+title = "Bespoke Wetted Tank Area"
+gloss = "The lateral area of the assumed 18 metre tank is 172 square metres."
+cite = []
+digest = "869ae6b9686f2c59"
+
+[[equation]]
+tag = 88
+class = "bespoke"
+title = "Bespoke Heat Leak Into an Uninsulated Tank"
+gloss = "The heat flow assumes a convective coefficient of ten watts per square metre kelvin across a two hundred kelvin difference."
+cite = []
+digest = "c35291d213b393ff"
+
+[[equation]]
+tag = 89
+class = "bespoke"
+title = "Bespoke Liquid Oxygen Boil-Off Rate"
+gloss = "The assumed heat leak divided by a latent heat of 213 kilojoules per kilogramme gives 1.62 kilogrammes per second."
+cite = []
+digest = "c314f9f903098b47"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Centripetal Acceleration at the Tip of a Tumbling Body"
+gloss = "A body of length $L$ rotating about its centre at rate $\\Omega$ loads its tip with the square of the rate times the half-length."
+cite = []
+digest = "5dbd1c8113ccf279"
+
+[[equation]]
+tag = 91
+class = "bespoke"
+title = "Bespoke Tip Acceleration of the First Flight"
+gloss = "The tumble is assumed at one revolution per second, since no source gives the rate."
+cite = []
+digest = "60a3e9099c53bae0"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Fraction of Intercontinental Range Flown"
+gloss = "Six hundred statute and nautical miles are set against the representative 10,000 kilometre range."
+cite = []
+digest = "1c947558740b5da0"
+
+[[equation]]
+tag = 93
+class = "standard"
+title = "Burnout Speed for Six Hundred Statute Miles"
+gloss = "Inverting the range law for a minimum-energy arc of 965.6 kilometres gives 2,966 metres per second."
+cite = []
+digest = "68d5aaf09794f28a"
+
+[[equation]]
+tag = 94
+class = "standard"
+title = "Burnout Speed for Six Hundred Nautical Miles"
+gloss = "Inverting the range law for a minimum-energy arc of 1,111.2 kilometres gives 3,164 metres per second."
+cite = []
+digest = "8dd022766f0f41c1"
+
+[[equation]]
+tag = 95
+class = "standard"
+title = "Binomial Standard Error of the Success Rate"
+gloss = "Three successes in eight independent flights give a success rate of 0.375 with a standard error of 0.171."
+cite = []
+digest = "49657e2336fe8377"
+
+[[equation]]
+tag = 96
+class = "bespoke"
+title = "Bespoke Standard Error of a Four-Flight Estimate"
+gloss = "The success rate of each half of the series is taken as one half, the value that maximises the error."
+cite = []
+digest = "cf20240108f629c5"
+
+[[equation]]
+tag = 97
+class = "standard"
+title = "Flights Needed for a Given Standard Error"
+gloss = "Inverting the binomial standard error gives the number of trials that achieve a chosen precision."
+cite = []
+digest = "60128a2c0342f51b"
+
+[[equation]]
+tag = 98
+class = "bespoke"
+title = "Bespoke Flights for Five-Point Precision"
+gloss = "A true reliability near one half and a target of five percentage points are assumed."
+cite = []
+digest = "51f3b1036fd5ab3b"
+
+[[equation]]
+tag = 99
+class = "bespoke"
+title = "Bespoke Band of Buckling Scatter"
+gloss = "The experimental scatter is assumed to run from fifteen to sixty percent of the classical value."
+cite = []
+digest = "8a796014277d793d"
+
+[[equation]]
+tag = 100
+class = "bespoke"
+title = "Bespoke Position of the Design Knockdown in the Band"
+gloss = "The adopted factor of 0.2 lies eleven percent of the way up the assumed band."
+cite = []
+digest = "cc2ad17e36c2fd59"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Circular Orbital Speed at Two Hundred Kilometres"
+gloss = "The square root of the gravitational parameter over the orbital radius gives 7,788 metres per second."
+cite = []
+digest = "b9192551662f8d77"
+
+[[equation]]
+tag = 102
+class = "bespoke"
+title = "Bespoke Speed Deficit to Low Orbit"
+gloss = "The orbital speed exceeds the burnout speed of the representative 10,000 kilometre arc by 595 metres per second."
+cite = []
+digest = "54538e96ce7f87ee"
+
+[[equation]]
+tag = 103
+class = "bespoke"
+title = "Bespoke Stage Structure of a Two-Stage Alternative"
+gloss = "The propellant is split equally between two stages, each with the same structural fraction $f$ of its own loaded mass."
+cite = []
+digest = "de915bf4e6e2af65"
+
+[[equation]]
+tag = 104
+class = "bespoke"
+title = "Bespoke Ideal Velocity of a Two-Stage Alternative"
+gloss = "The rocket equation is summed over the two equal-propellant stages of the alternative vehicle."
+cite = []
+digest = "edcfc9a0ad836dc3"
+
+[[equation]]
+tag = 105
+class = "standard"
+title = "Planned Series A Gross Mass Against Series C and D"
+gloss = "The 181,000 pound Series A missile is 0.745 of the 243,000 pound Series C and D figure in the same source."
+cite = ["ref_cleary_1991"]
+digest = "7a4d885e2b676bc4"
+
+[[symbol]]
+tex = '\Delta v'
+meaning = "the ideal velocity increment"
+
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the effective exhaust velocity, and in Equation 85 the entry speed"
+
+[[symbol]]
+tex = 'm_{0}'
+meaning = "the gross mass at lift-off"
+
+[[symbol]]
+tex = 'm_{f}'
+meaning = "the burnout mass"
+
+[[symbol]]
+tex = 'm_{s}'
+meaning = "the structural mass, and in Equation 103 the structure of one stage"
+
+[[symbol]]
+tex = 'm_{p}'
+meaning = "the propellant mass"
+
+[[symbol]]
+tex = 'v_{bo}'
+meaning = "the burnout speed"
+
+[[symbol]]
+tex = 'v_{\text{loss}}'
+meaning = "the calibrated gravity and drag loss"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the central range angle"
+
+[[symbol]]
+tex = '\lambda'
+meaning = "the ratio of burnout kinetic energy to that of a grazing circular orbit"
+
+[[symbol]]
+tex = 'R_{e}'
+meaning = "the radius of the Earth"
+
+[[symbol]]
+tex = 'g'
+meaning = "the standard gravitational acceleration"
+
+[[symbol]]
+tex = 'r'
+meaning = "the tank radius"
+
+[[symbol]]
+tex = 't'
+meaning = "the skin thickness, and in Equations 52, 53 and 57 the time since lift-off"
+
+[[symbol]]
+tex = 'p'
+meaning = "a pressure, and in Equations 95 to 98 the probability of a successful flight"
+
+[[symbol]]
+tex = '\sigma_{\theta}'
+meaning = "the hoop stress"
+
+[[symbol]]
+tex = '\sigma_{z}'
+meaning = "the axial stress"
+
+[[symbol]]
+tex = '\rho'
+meaning = "a density of propellant, air or steel by section"
+
+[[symbol]]
+tex = 'MR'
+meaning = "the oxidizer-to-fuel mixture ratio"
+
+[[symbol]]
+tex = 'm_{N_{2}}'
+meaning = "the mass of standing nitrogen"
+
+[[symbol]]
+tex = 'E'
+meaning = "the Young's modulus of the skin"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the Poisson ratio of the skin"
+
+[[symbol]]
+tex = '\sigma_{cr}'
+meaning = "the classical axial buckling stress"
+
+[[symbol]]
+tex = '\sigma_{\text{allow}}'
+meaning = "the knocked-down buckling allowable"
+
+[[symbol]]
+tex = 'P_{cr}'
+meaning = "the Euler critical load"
+
+[[symbol]]
+tex = 'K'
+meaning = "the effective length factor"
+
+[[symbol]]
+tex = 'p_{\text{req}}'
+meaning = "the pressure required to offset buckling"
+
+[[symbol]]
+tex = 'M_{\text{crit}}'
+meaning = "the bending moment at which pressure tension is cancelled"
+
+[[symbol]]
+tex = 'C_{D}'
+meaning = "the drag coefficient of the cylinder"
+
+[[symbol]]
+tex = 'D'
+meaning = "the vehicle diameter"
+
+[[symbol]]
+tex = 'L'
+meaning = "the vehicle or tank length"
+
+[[symbol]]
+tex = 'N_{x}'
+meaning = "the axial running load on a stiffened wall"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the propellant mass flow"
+
+[[symbol]]
+tex = 'H'
+meaning = "the atmospheric scale height"
+
+[[symbol]]
+tex = 't_{q}'
+meaning = "the time of maximum dynamic pressure"
+
+[[symbol]]
+tex = 'C_{N\alpha}'
+meaning = "the normal-force slope per radian"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the angle of attack"
+
+[[symbol]]
+tex = 'm_{1}'
+meaning = "the mass at staging after jettison"
+
+[[symbol]]
+tex = 'm_{j}'
+meaning = "the jettisoned booster mass"
+
+[[symbol]]
+tex = 't_{b}'
+meaning = "the booster burn time"
+
+[[symbol]]
+tex = 'k_{p}'
+meaning = "the proof factor"
+
+[[symbol]]
+tex = 'k_{b}'
+meaning = "the burst factor"
+
+[[symbol]]
+tex = '\tau_{\text{skin}}'
+meaning = "the thermal time constant of the skin"
+
+[[symbol]]
+tex = '\delta'
+meaning = "the skin thickness in the thermal relation"
+
+[[symbol]]
+tex = 'P_{\text{ac}}'
+meaning = "the radiated acoustic power"
+
+[[symbol]]
+tex = 'L_{p}'
+meaning = "the sound pressure level"
+
+[[symbol]]
+tex = '\omega_{s}'
+meaning = "the first lateral slosh frequency"
+
+[[symbol]]
+tex = 'g_{\text{eff}}'
+meaning = "the effective gravity under axial acceleration"
+
+[[symbol]]
+tex = 'f_{1}'
+meaning = "the first axial mode frequency of a solid bar"
+
+[[symbol]]
+tex = '\gamma'
+meaning = "the entry flight path angle"
+
+[[symbol]]
+tex = 'L_{v}'
+meaning = "the latent heat of vaporisation of liquid oxygen"
+
+[[symbol]]
+tex = '\Omega'
+meaning = "the tumble rate"
+
+[[symbol]]
+tex = '\sigma_{\hat{p}}'
+meaning = "the standard error of the estimated success rate"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the Earth"
+
+[[symbol]]
+tex = 'f'
+meaning = "the structural fraction of each stage of the two-stage alternative"
+
+[[symbol]]
+tex = 'm_{\text{all}}'
+meaning = "the gross mass of the two-stage alternative"

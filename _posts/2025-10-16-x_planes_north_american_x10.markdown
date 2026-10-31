@@ -27,11 +27,17 @@ Every previous vehicle in this series answered a question that could be asked in
 
 The Navaho mission is different in kind. At the ten-thousand-kilometre design range of the enlarged XSM-64A and its cruise Mach number of 3.25, which [Parsch 2002 SM-64][ref_parsch_sm64] gives for flight above twenty-four kilometres, and taking the cruise at twenty-four kilometres, where the speed of sound is
 
-$$a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05 \times 220.6} = 297.8 \, \text{m/s}$$
+$$
+a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05 \times 220.6} = 297.8 \, \text{m/s}
+\tag{1}
+$$
 
 the cruise speed is $v = 3.25 \times 297.8 = 967.8$ metres per second and the time of flight over ten thousand kilometres is
 
-$$t = \frac{R_{\text{mission}}}{v} = \frac{1.0 \times 10^{7}}{967.8} = 10{,}333 \, \text{s} = 2.87 \, \text{hours}$$
+$$
+t = \frac{R_{\text{mission}}}{v} = \frac{1.0 \times 10^{7}}{967.8} = 10{,}333 \, \text{s} = 2.87 \, \text{hours}
+\tag{2}
+$$
 
 **Nothing in the series so far has had to work for three hours.** That single fact reorganises the entire engineering problem, because the dominant error in a self-contained navigation system does not depend on how far the vehicle has flown or how fast. It depends on how long the system has been running. The mission-analysis framing of an intercontinental airbreathing weapon, set against its ballistic competitor, was being argued in the period by [Brooks 1961][research_brooks_1961] on the ballistic side and is collected for the airbreathing side in [Werrell 1985 The Evolution of the Cruise Missile][book_werrell_1985].
 
@@ -43,23 +49,38 @@ The circular error probable is not a self-evident measure and the period argued 
 
 An inertial navigator that has no external reference accumulates position error from the drift of its gyroscopes. For a platform held level by feedback from its own computed position, the secular part of that error is
 
-$$\delta x_{\text{secular}} = R_{e} \, \varepsilon \, t$$
+$$
+\delta x_{\text{secular}} = R_{e} \, \varepsilon \, t
+\tag{3}
+$$
 
 where $R_{e}$ is the Earth radius, $\varepsilon$ is the gyroscope drift rate in radians per second, and $t$ is elapsed time. The derivation is below. Inverting it against the requirement gives the drift rate the weapon needed,
 
-$$\varepsilon_{\text{req}} = \frac{\mathrm{CEP}}{R_{e} t} = \frac{800}{6.371 \times 10^{6} \times 10{,}333} = 1.215 \times 10^{-8} \, \text{rad/s}$$
+$$
+\varepsilon_{\text{req}} = \frac{\mathrm{CEP}}{R_{e} t} = \frac{800}{6.371 \times 10^{6} \times 10{,}333} = 1.215 \times 10^{-8} \, \text{rad/s}
+\tag{4}
+$$
 
 which in the units the gyroscope industry uses is
 
-$$\varepsilon_{\text{req}} = 1.215 \times 10^{-8} \times 206{,}265 = 0.0025 \, \text{deg/hr}$$
+$$
+\varepsilon_{\text{req}} = 1.215 \times 10^{-8} \times 206{,}265 = 0.0025 \, \text{deg/hr}
+\tag{5}
+$$
 
 and inverting the reported achievement the same way gives
 
-$$\varepsilon_{\text{ach}} = \frac{1600}{6.371 \times 10^{6} \times 3600} = 6.976 \times 10^{-8} \, \text{rad/s} = 0.0144 \, \text{deg/hr}$$
+$$
+\varepsilon_{\text{ach}} = \frac{1600}{6.371 \times 10^{6} \times 3600} = 6.976 \times 10^{-8} \, \text{rad/s} = 0.0144 \, \text{deg/hr}
+\tag{6}
+$$
 
 **The programme needed two and a half thousandths of a degree per hour and its first navigator delivered about fourteen thousandths.** The shortfall is a factor of
 
-$$\frac{\varepsilon_{\text{ach}}}{\varepsilon_{\text{req}}} = \frac{0.0144}{0.0025} = 5.74$$
+$$
+\frac{\varepsilon_{\text{ach}}}{\varepsilon_{\text{req}}} = \frac{0.0144}{0.0025} = 5.74
+\tag{7}
+$$
 
 and the same factor reappears if the achieved drift is propagated to full range, since $R_{e} \varepsilon_{\text{ach}} t = 4.59$ kilometres against a requirement of 800 metres, a ratio of 5.74. The two routes agree because they are the same relation read in opposite directions, which is a consistency check rather than an independent confirmation. **The X-10 exists because in 1950 nobody knew whether the smaller number was reachable**, and the programme did not reach it in time.
 
@@ -67,37 +88,64 @@ and the same factor reappears if the achieved drift is propagated to full range,
 
 The reason drift rather than accelerometer quality was the binding problem is not obvious, and it follows from the feedback structure that every inertial navigator of the period used. An accelerometer cannot distinguish acceleration from gravity, so a navigator must know which way is down, and it establishes that from the position it has computed. That closes a loop. Writing $\delta v$ for the velocity error and $\phi$ for the platform tilt, with $\nabla$ the accelerometer bias and $\varepsilon$ the gyroscope drift, the single-channel error equations are
 
-$$\dot{\delta v} = -g \phi + \nabla$$
+$$
+\dot{\delta v} = -g \phi + \nabla
+\tag{8}
+$$
 
-$$\dot{\phi} = \frac{\delta v}{R_{e}} + \varepsilon$$
+$$
+\dot{\phi} = \frac{\delta v}{R_{e}} + \varepsilon
+\tag{9}
+$$
 
 Differentiating the first and substituting the second eliminates the tilt and leaves a single second-order equation,
 
-$$\ddot{\delta v} + \frac{g}{R_{e}} \delta v = -g \varepsilon$$
+$$
+\ddot{\delta v} + \frac{g}{R_{e}} \delta v = -g \varepsilon
+\tag{10}
+$$
 
 The homogeneous solution is a pure oscillation, since the equation has no damping term at all,
 
-$$\delta v_{h}(t) = C_{1} \cos \omega_{s} t + C_{2} \sin \omega_{s} t$$
+$$
+\delta v_{h}(t) = C_{1} \cos \omega_{s} t + C_{2} \sin \omega_{s} t
+\tag{11}
+$$
 
 and the absence of damping follows from the mechanisation and is not an oversight. A damped loop would track gravity rather than the vehicle. This is an undamped oscillator at the [Schuler frequency][ref_schuler]
 
-$$\omega_{s} = \sqrt{\frac{g}{R_{e}}} = \sqrt{\frac{9.80665}{6.371 \times 10^{6}}} = 1.2407 \times 10^{-3} \, \text{rad/s}$$
+$$
+\omega_{s} = \sqrt{\frac{g}{R_{e}}} = \sqrt{\frac{9.80665}{6.371 \times 10^{6}}} = 1.2407 \times 10^{-3} \, \text{rad/s}
+\tag{12}
+$$
 
 with period
 
-$$T_{s} = \frac{2\pi}{\omega_{s}} = 5064 \, \text{s} = 84.4 \, \text{minutes}$$
+$$
+T_{s} = \frac{2\pi}{\omega_{s}} = 5064 \, \text{s} = 84.4 \, \text{minutes}
+\tag{13}
+$$
 
 The period depends on the planet and not on the instrument, and it matters here because the two error sources enter the same equation in structurally different places. The accelerometer bias enters as an initial condition on $\dot{\delta v}$ and produces
 
-$$\delta x_{\nabla}(t) = \frac{\nabla}{\omega_{s}^{2}} \left( 1 - \cos \omega_{s} t \right) = \frac{\nabla R_{e}}{g} \left( 1 - \cos \omega_{s} t \right)$$
+$$
+\delta x_{\nabla}(t) = \frac{\nabla}{\omega_{s}^{2}} \left( 1 - \cos \omega_{s} t \right) = \frac{\nabla R_{e}}{g} \left( 1 - \cos \omega_{s} t \right)
+\tag{14}
+$$
 
 which is **bounded for all time** at $2 \nabla R_{e} / g$. The gyroscope drift enters as a forcing term and produces
 
-$$\delta x_{\varepsilon}(t) = -R_{e} \varepsilon \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} \right)$$
+$$
+\delta x_{\varepsilon}(t) = -R_{e} \varepsilon \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} \right)
+\tag{15}
+$$
 
 which contains a ramp and therefore **grows without limit**. For an accelerometer bias of one ten-thousandth of a gravity, which is representative of good instruments of the period, the bounded excursion is
 
-$$\delta x_{\nabla,\max} = \frac{2 \times 9.807 \times 10^{-4} \times 6.371 \times 10^{6}}{9.80665} = 1274 \, \text{m}$$
+$$
+\delta x_{\nabla,\max} = \frac{2 \times 9.807 \times 10^{-4} \times 6.371 \times 10^{6}}{9.80665} = 1274 \, \text{m}
+\tag{16}
+$$
 
 **A navigator with a poor accelerometer misses by 1.3 kilometres no matter how long it flies, and a navigator with a poor gyroscope misses by more every minute it stays airborne.** This is why the Navaho programme and every programme like it fought over gyroscopes. [Staas and Philip C. 1963][research_staas_c_1963] sets out the Schuler mechanisation, the error equations in the form used here come from [Lange and Parkinson 1965][research_lange_parkinson_1965] and [Lange and Parkinson 1966][research_lange_parkinson_1966], the identification of which error source dominates was worked out by [Eisner and Goodman 1964][research_eisner_goodman_1964], and the original observation that a pendulum tuned to this period is insensitive to vehicle acceleration is available in translation as [Schuler and Slater 1967][research_schuler_slater_1967]. Period system descriptions are [Slater 1956b][research_slater_1956], [Statsinger 1959][research_statsinger_1959], [Prizevoits 1961][research_prizevoits_1961], [Whitcombe 1961][research_whitcombe_1961], and [Duncan 1968][research_duncan_1968]. [Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971] remains the standard treatment and [Titterton and Weston 2004 Strapdown Inertial Navigation Technology][book_titterton_weston_2004] the modern one.
 
@@ -105,11 +153,17 @@ $$\delta x_{\nabla,\max} = \frac{2 \times 9.807 \times 10^{-4} \times 6.371 \tim
 
 Setting the growing error equal to the bounded one gives the time at which drift takes over as the dominant term,
 
-$$R_{e} \varepsilon t_{\times} = \frac{2 \nabla R_{e}}{g} \quad \Longrightarrow \quad t_{\times} = \frac{2 \nabla}{g \varepsilon}$$
+$$
+R_{e} \varepsilon t_{\times} = \frac{2 \nabla R_{e}}{g} \quad \Longrightarrow \quad t_{\times} = \frac{2 \nabla}{g \varepsilon}
+\tag{17}
+$$
 
 and with the numbers above,
 
-$$t_{\times} = \frac{2 \times 9.807 \times 10^{-4}}{9.80665 \times 6.976 \times 10^{-8}} = 2867 \, \text{s} = 47.8 \, \text{minutes}$$
+$$
+t_{\times} = \frac{2 \times 9.807 \times 10^{-4}}{9.80665 \times 6.976 \times 10^{-8}} = 2867 \, \text{s} = 47.8 \, \text{minutes}
+\tag{18}
+$$
 
 **Before forty-eight minutes of flight the accelerometers dominate the error, and after it the gyroscopes do.** Hold that number. A flight shorter than the crossover cannot see the drift clearly, and the sections below set it against the X-10's reported flight durations, which do not fall where the vehicle's speed would suggest.
 
@@ -123,23 +177,38 @@ The X-10's error is dynamic. It does not care where the missile is. It cares onl
 
 A star tracker measures the platform attitude against inertial space, and a measurement of attitude bounds the tilt that the gyroscopes have been allowed to accumulate. A residual tilt $\phi_{0}$ acts on the loop exactly as an acceleration error $g \phi_{0}$ does, so its position consequence is bounded rather than secular, at
 
-$$\delta x_{\phi} = 2 R_{e} \phi_{0}$$
+$$
+\delta x_{\phi} = 2 R_{e} \phi_{0}
+\tag{19}
+$$
 
 The accuracy goal of the Navaho programme was that at least half of all missiles strike within 1500 feet of the target [Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991], a circular error probable of 457 metres. Cleary gives it as the goal of the weapon as a whole, and this article applies it to the stellar-inertial system the final design carried. Inverting through the bounded-error route gives a residual tilt of
 
-$$\phi_{0} = \frac{457}{2 \times 6.371 \times 10^{6}} = 3.588 \times 10^{-5} \, \text{rad} = 7.4 \, \text{arcsec}$$
+$$
+\phi_{0} = \frac{457}{2 \times 6.371 \times 10^{6}} = 3.588 \times 10^{-5} \, \text{rad} = 7.4 \, \text{arcsec}
+\tag{20}
+$$
 
 and inverting instead through the cross-track route, in which an azimuth error $\psi$ produces a miss of $\psi$ times the distance flown, gives
 
-$$\psi = \frac{457}{1.0 \times 10^{7}} = 4.572 \times 10^{-5} \, \text{rad} = 9.4 \, \text{arcsec}$$
+$$
+\psi = \frac{457}{1.0 \times 10^{7}} = 4.572 \times 10^{-5} \, \text{rad} = 9.4 \, \text{arcsec}
+\tag{21}
+$$
 
 **Two independent inversions of the same reported figure agree within a factor of 1.3**, which is weak evidence that the figure is self-consistent and that the instrument implied by it is a star tracker good to something under ten arcseconds in daylight. That was a demanding instrument in the middle 1950s, and of the whole Navaho guidance system it has aged best. Against the pure-inertial performance the improvement is
 
-$$\frac{R_{e} \varepsilon_{\text{ach}} t}{\mathrm{CEP}_{\text{stellar}}} = \frac{4592}{457} = 10.0$$
+$$
+\frac{R_{e} \varepsilon_{\text{ach}} t}{\mathrm{CEP}_{\text{stellar}}} = \frac{4592}{457} = 10.0
+\tag{22}
+$$
 
 a factor of ten. The tracker also sets its own schedule, because drift regrows the fixed error in
 
-$$t_{\text{fix}} = \frac{\mathrm{CEP}_{\text{stellar}}}{R_{e} \varepsilon_{\text{ach}}} = \frac{457}{6.371 \times 10^{6} \times 6.976 \times 10^{-8}} = 1029 \, \text{s} = 17.1 \, \text{minutes}$$
+$$
+t_{\text{fix}} = \frac{\mathrm{CEP}_{\text{stellar}}}{R_{e} \varepsilon_{\text{ach}}} = \frac{457}{6.371 \times 10^{6} \times 6.976 \times 10^{-8}} = 1029 \, \text{s} = 17.1 \, \text{minutes}
+\tag{23}
+$$
 
 so a mission of nearly three hours needs on the order of ten successful star fixes and cannot tolerate a long cloud deck or a tracker fault. [Horsfall 1958][research_horsfall_1958] describes stellar-inertial navigation in this period, [Blumhagen 1963][research_blumhagen_1963] applies it to cruise vehicles, [Bona and Hutchinson 1965][research_bona_hutchinson_1965] gives the optimal formulation, and [Stevens 1958][research_stevens_1958] makes the aiding argument in general. The celestial practice that the automatic tracker mechanised appears in [Herrick 1946][research_herrick_1946], [Franklin 1954][research_franklin_1954], [Shufeldt 1961][research_shufeldt_1961], and [Williams 1966][research_williams_1966], and the tracker engineering itself occupies [Klestadt 1971][research_klestadt_1971], [Ogletree et al. 1972b][research_ogletree_1972], and [Schenkel 1974][research_schenkel_1974].
 
@@ -147,19 +216,31 @@ so a mission of nearly three hours needs on the order of ten successful star fix
 
 The horizontal channels oscillate at the Schuler period and are therefore well behaved. The vertical channel is not, and the difference is qualitative. Gravity decreases with altitude, so a navigator that believes it is too high computes a gravity too small, under-corrects its measured acceleration, and concludes that it is higher still. Linearising the gravity gradient gives
 
-$$\ddot{\delta h} = \frac{2g}{R_{e}} \delta h$$
+$$
+\ddot{\delta h} = \frac{2g}{R_{e}} \delta h
+\tag{24}
+$$
 
 which has no oscillatory solution at all. It is a pure exponential with time constant
 
-$$\tau_{v} = \sqrt{\frac{R_{e}}{2g}} = \sqrt{\frac{6.371 \times 10^{6}}{19.613}} = 570 \, \text{s}$$
+$$
+\tau_{v} = \sqrt{\frac{R_{e}}{2g}} = \sqrt{\frac{6.371 \times 10^{6}}{19.613}} = 570 \, \text{s}
+\tag{25}
+$$
 
 and a doubling time of
 
-$$t_{2} = \tau_{v} \ln 2 = 395 \, \text{s} = 6.6 \, \text{minutes}$$
+$$
+t_{2} = \tau_{v} \ln 2 = 395 \, \text{s} = 6.6 \, \text{minutes}
+\tag{26}
+$$
 
 Over the Navaho's mission this is 18.1 e-foldings, a growth factor of
 
-$$e^{10{,}333 / 570} = 7.5 \times 10^{7}$$
+$$
+e^{10{,}333 / 570} = 7.5 \times 10^{7}
+\tag{27}
+$$
 
 **A purely inertial altitude is not merely poor over three hours, it is meaningless.** Any inertial navigator intended for sustained flight must therefore bound its vertical channel with an external measurement, which in this period meant a barometric altimeter, and the resulting hybrid is not a detail of implementation but a structural necessity. [Aschaffenburg 1962][research_aschaffenburg_1962] designs such a system, and [Grammatikos et al. 1967][research_grammatikos_1967] treats the damping of inertial systems generally. For aiding from other external references of the period see [Fegley and Weygandt 1963][research_fegley_weygandt_1963] on Doppler radar and [De Groot 1965][research_groot_1965] on Loran, both of which the Navaho rejected because both require transmissions the mission could not rely on.
 
@@ -167,11 +248,17 @@ $$e^{10{,}333 / 570} = 7.5 \times 10^{7}$$
 
 An accelerometer measures specific force and the navigator subtracts a modelled gravity to obtain acceleration. Where the real gravity vector is not where the model says, the residual enters exactly as a tilt does. A deflection of the vertical $\xi$ therefore produces a bounded position error of
 
-$$\delta x_{\xi} = 2 R_{e} \xi$$
+$$
+\delta x_{\xi} = 2 R_{e} \xi
+\tag{28}
+$$
 
 and deflections are typically under ten arcseconds over flat terrain and reach an arcminute over mountains [Vertical deflection][ref_vertical_deflection], giving
 
-$$\delta x_{\xi} = 2 \times 6.371 \times 10^{6} \times \frac{10}{206{,}265} = 618 \, \text{m}$$
+$$
+\delta x_{\xi} = 2 \times 6.371 \times 10^{6} \times \frac{10}{206{,}265} = 618 \, \text{m}
+\tag{29}
+$$
 
 for ten arcseconds. **That is seventy-seven percent of the entire eight-hundred-metre accuracy requirement, consumed by not knowing the shape of the Earth's gravity field along the flight path.** The error is deterministic rather than random, so it could in principle be compensated, but only by surveying gravity along a route that crosses the territory the weapon is aimed at. Of all the terms in the budget, it is the only one that no instrument improvement addresses, and accounts of the programme rarely mention it.
 
@@ -181,15 +268,24 @@ The geodetic side of the problem is [Hagiwara 1972][research_hagiwara_1972], whi
 
 Gyroscope drift is temperature dependent, and to first order the dependence is linear,
 
-$$\varepsilon(T) = \varepsilon_{0} + k_{T} \left( T - T_{0} \right)$$
+$$
+\varepsilon(T) = \varepsilon_{0} + k_{T} \left( T - T_{0} \right)
+\tag{30}
+$$
 
 with a representative sensitivity $k_{T}$ for instruments of the period on the order of a hundredth of a degree per hour for each kelvin. Requiring the drift specification of 0.0025 degrees per hour to be held against that sensitivity implies a platform temperature control of
 
-$$\Delta T = \frac{\varepsilon_{\text{req}}}{k_{T}} = \frac{0.0025}{0.01} = 0.25 \, \text{K}$$
+$$
+\Delta T = \frac{\varepsilon_{\text{req}}}{k_{T}} = \frac{0.0025}{0.01} = 0.25 \, \text{K}
+\tag{31}
+$$
 
 and letting the platform wander by a single kelvin would produce
 
-$$\varepsilon = 0.01 \times 1 = 0.01 \, \text{deg/hr}$$
+$$
+\varepsilon = 0.01 \times 1 = 0.01 \, \text{deg/hr}
+\tag{32}
+$$
 
 which is **four times the entire requirement from one degree of temperature error**.
 
@@ -199,19 +295,31 @@ which is **four times the entire requirement from one degree of temperature erro
 
 Independent contributions to a radial error combine in quadrature,
 
-$$\sigma_{\text{total}} = \sqrt{\sum_{i} \sigma_{i}^{2}}$$
+$$
+\sigma_{\text{total}} = \sqrt{\sum_{i} \sigma_{i}^{2}}
+\tag{33}
+$$
 
 which has the property that the largest term dominates far more strongly than a linear sum would suggest, since each term enters through its square. Collecting the terms at full range gives for the pure inertial case
 
-$$\sigma_{\text{total}} = \sqrt{4592^{2} + 1274^{2} + 2909^{2} + 618^{2}} = 5617 \, \text{m}$$
+$$
+\sigma_{\text{total}} = \sqrt{4592^{2} + 1274^{2} + 2909^{2} + 618^{2}} = 5617 \, \text{m}
+\tag{34}
+$$
 
 against an eight-hundred-metre requirement, a factor of 7.0. That is consistent with the reported failure to meet the requirement and requires no comment. What the quadrature form does add is a statement of where the error lives. The variance shares are
 
-$$\frac{\sigma_{i}^{2}}{\sigma_{\text{total}}^{2}} = 0.668, \; 0.268, \; 0.051, \; 0.012$$
+$$
+\frac{\sigma_{i}^{2}}{\sigma_{\text{total}}^{2}} = 0.668, \; 0.268, \; 0.051, \; 0.012
+\tag{35}
+$$
 
 for drift, azimuth alignment, accelerometer bias, and gravity deflection respectively. **Two terms carry ninety-four percent of the variance and both of them are attitude errors**, one accumulated in flight and one built in before the vehicle moved. These shares quantify the observation, made in the section Alignment on the Ground Is the Equal of Drift in the Air, that ground alignment and airborne drift are coequal partners. The stellar-inertial case is the uncomfortable one. Replacing the drift and alignment terms with the reported stellar residual and keeping the others gives
 
-$$\sigma_{\text{stellar}} = \sqrt{457^{2} + 1274^{2} + 618^{2}} = 1488 \, \text{m}$$
+$$
+\sigma_{\text{stellar}} = \sqrt{457^{2} + 1274^{2} + 618^{2}} = 1488 \, \text{m}
+\tag{36}
+$$
 
 **against the programme's accuracy goal of 457 metres, which the budget exceeds by a factor of 3.3.** Worse, the deflection-of-the-vertical term alone is 618 metres, so at the assumed values it exceeds the reported figure by itself and leaves no room for anything else.
 
@@ -223,11 +331,17 @@ Building such a budget was itself a subject of study in the period, not a routin
 
 A further inversion is useful because it constrains an operation and not a component. An azimuth misalignment at launch produces a cross-track error proportional to distance flown, so
 
-$$\delta y = \psi \, R_{\text{mission}}$$
+$$
+\delta y = \psi \, R_{\text{mission}}
+\tag{37}
+$$
 
 and at ten thousand kilometres a misalignment of one arcminute produces
 
-$$\delta y = 2.909 \times 10^{-4} \times 1.0 \times 10^{7} = 2909 \, \text{m}$$
+$$
+\delta y = 2.909 \times 10^{-4} \times 1.0 \times 10^{7} = 2909 \, \text{m}
+\tag{38}
+$$
 
 Running it the other way, the achieved drift error of 4.59 kilometres is equivalent to an azimuth misalignment of 1.58 arcminutes. **A minute and a half of arc in how the missile is pointed before it moves is worth as much as three hours of gyroscope drift**, which means the ground alignment procedure was not a preliminary to the guidance problem but a coequal part of it. Alignment and initialisation are treated in [Dasaro 1970][research_dasaro_1970] and [Sutherland et al. 1968][research_sutherland_1968], which [Maybeck 1973][research_maybeck_1973] and [Hellings 1973][research_hellings_1973] later extended.
 
@@ -235,11 +349,17 @@ Running it the other way, the achieved drift error of 4.59 kilometres is equival
 
 North American Aviation received the MX-770 contract in 1946 for a supersonic surface-to-surface missile, initially of modest range, and the requirement grew repeatedly until it became intercontinental, a history set out in [Landis 2020 Flashback, The Navaho Missile, Part 1][ref_landis_2020_part_1] and [Navaho][ref_navaho]. **The growth is the most important fact about the programme and it is usually reported as a footnote.** A weapon specified at a few hundred nautical miles and a weapon specified at five thousand five hundred are not the same weapon scaled, because the navigation error of a self-contained system grows with flight time while the target does not get larger. The proportionality is exact. Substituting the mission time $t = R_{m}/v$ into the drift inversion above gives
 
-$$\varepsilon_{\text{req}} = \frac{\mathrm{CEP}}{R_{e} t} = \frac{\mathrm{CEP} \, v}{R_{e} R_{m}}$$
+$$
+\varepsilon_{\text{req}} = \frac{\mathrm{CEP}}{R_{e} t} = \frac{\mathrm{CEP} \, v}{R_{e} R_{m}}
+\tag{39}
+$$
 
 so at fixed accuracy and fixed cruise speed the tolerable drift rate is **inversely proportional to the range requirement**. Growing the mission from five hundred miles to five thousand five hundred therefore tightens the gyroscope specification by
 
-$$\frac{\varepsilon_{1}}{\varepsilon_{2}} = \frac{R_{m,2}}{R_{m,1}} = \frac{5500}{500} = 11$$
+$$
+\frac{\varepsilon_{1}}{\varepsilon_{2}} = \frac{R_{m,2}}{R_{m,1}} = \frac{5500}{500} = 11
+\tag{40}
+$$
 
 and from the lower end of the original study range, which began at one hundred and seventy-five miles, the factor is 31.4. **Nobody ordering the X-10 in 1950 knew which of those factors the vehicle would have to demonstrate**, because the range requirement was still moving, and the vehicle that had to prove compliance was contracted before the number it was proving against had settled.
 
@@ -272,19 +392,31 @@ The X-10's recoverability is usually described as a cost measure, and cost was c
 
 For a normally distributed quantity the relative precision of an estimated standard deviation from $n$ samples is approximately
 
-$$\frac{\sigma_{s}}{s} \approx \frac{1}{\sqrt{2(n-1)}}$$
+$$
+\frac{\sigma_{s}}{s} \approx \frac{1}{\sqrt{2(n-1)}}
+\tag{41}
+$$
 
 so pinning a drift standard deviation to within twenty percent requires
 
-$$n = 1 + \frac{1}{2 (0.2)^{2}} = 13.5 \, \text{flights}$$
+$$
+n = 1 + \frac{1}{2 (0.2)^{2}} = 13.5 \, \text{flights}
+\tag{42}
+$$
 
 and to within thirty percent still requires between six and seven. The appendix of X-10 launchings in [Werrell 1985 The Evolution of the Cruise Missile][book_werrell_1985], compiled from the Air Force Systems Command index of missile launchings, lists five autonavigator tests, on 5 June, 18 July, 21 September, 24 October and 20 November 1956, and the flight chronology of [Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho] describes the first four as inertial navigation tests, so five flights give
 
-$$\frac{\sigma_{s}}{s} = \frac{1}{\sqrt{2 \times 4}} = 0.354$$
+$$
+\frac{\sigma_{s}}{s} = \frac{1}{\sqrt{2 \times 4}} = 0.354
+\tag{43}
+$$
 
 **a thirty-five percent uncertainty on the very quantity the programme was trying to establish.** The same chronology records the flights of 5 June and 18 July as aborted by computer failures, and if only the other three produced navigator data the uncertainty is
 
-$$\frac{\sigma_{s}}{s} = \frac{1}{\sqrt{2 \times 2}} = 0.50$$
+$$
+\frac{\sigma_{s}}{s} = \frac{1}{\sqrt{2 \times 2}} = 0.50
+\tag{44}
+$$
 
 or fifty percent. Reusability was the instrument that was supposed to fix this, and the flight test record below shows that it did not, because the fleet was consumed faster than it accumulated flights. The statistical background is in [Papoulis 2002 Probability, Random Variables and Stochastic Processes][book_papoulis_2002], and [Amacker 1967][research_amacker_1967] treats inertial system testing as a discipline.
 
@@ -298,17 +430,29 @@ The reported flight durations can be set against the crossover directly. The app
 
 A short window arises only for a flight made at top speed throughout. The X-10's longest reported flight at the Cape covered 627 miles, about a thousand kilometres [North American X-10][ref_x10]. Taking that distance as a single leg at its maximum Mach number of 2.05 and a service ceiling near 13,650 metres, both figures from [Parsch 2002 RTV-A-5 X-10][ref_parsch_x10], where the speed of sound is 295.1 metres per second, the speed is $v = 604.9$ metres per second and the leg takes
 
-$$t_{\text{X-10}} = \frac{1.0 \times 10^{6}}{604.9} = 1653 \, \text{s} = 27.6 \, \text{minutes}$$
+$$
+t_{\text{X-10}} = \frac{1.0 \times 10^{6}}{604.9} = 1653 \, \text{s} = 27.6 \, \text{minutes}
+\tag{45}
+$$
 
 Against the crossover time computed above this is
 
-$$\frac{t_{\text{X-10}}}{t_{\times}} = \frac{1653}{2867} = 0.58$$
+$$
+\frac{t_{\text{X-10}}}{t_{\times}} = \frac{1653}{2867} = 0.58
+\tag{46}
+$$
 
 **A maximum-speed leg of that length would last a little over half the time needed for gyroscope drift to become the dominant error.** The two contributions on such a leg are
 
-$$\delta x_{\varepsilon} = R_{e} \varepsilon_{\text{ach}} t_{\text{X-10}} = 735 \, \text{m}$$
+$$
+\delta x_{\varepsilon} = R_{e} \varepsilon_{\text{ach}} t_{\text{X-10}} = 735 \, \text{m}
+\tag{47}
+$$
 
-$$\delta x_{\nabla} = \frac{\nabla R_{e}}{g} \left( 1 - \cos \omega_{s} t_{\text{X-10}} \right) = 931 \, \text{m}$$
+$$
+\delta x_{\nabla} = \frac{\nabla R_{e}}{g} \left( 1 - \cos \omega_{s} t_{\text{X-10}} \right) = 931 \, \text{m}
+\tag{48}
+$$
 
 so on such a leg the accelerometer term would be the larger of the two. No reported X-10 navigation flight is known to have been that short. A sortie included take-off, climb, the turn and the return to the strip as well as its fastest portion, and the navigator integrated through all of it, so the dash at top speed sets a lower bound on the window and not its length.
 
@@ -316,19 +460,31 @@ so on such a leg the accelerometer term would be the larger of the two. No repor
 
 Being the smaller term is a nuisance. Being an indistinguishable term is fatal, and that was the situation. The measured position error over a flight is a sum of the two shapes,
 
-$$\delta x(t) = A \left( 1 - \cos \omega_{s} t \right) + B \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} \right)$$
+$$
+\delta x(t) = A \left( 1 - \cos \omega_{s} t \right) + B \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} \right)
+\tag{49}
+$$
 
 and recovering $B$, which carries the drift rate, means separating two functions of time. How well that can be done depends on how nearly parallel the two shapes are over the observation window. Over one full Schuler period the answer is remarkable. Removing means and integrating,
 
-$$\int_{0}^{T_{s}} \left( -\cos \omega_{s} t \right) \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} - \frac{T_{s}}{2} \right) dt = 0$$
+$$
+\int_{0}^{T_{s}} \left( -\cos \omega_{s} t \right) \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} - \frac{T_{s}}{2} \right) dt = 0
+\tag{50}
+$$
 
 because each of the three resulting integrals vanishes over a whole period. **The accelerometer and gyroscope error signatures are exactly orthogonal over one Schuler period**, which means a flight of eighty-four minutes separates them perfectly and a flight of any other length does not. Evaluating the correlation numerically over the three windows gives
 
-$$r(t_{\text{X-10}}) = 0.974 \qquad r(T_{s}) = 0.000 \qquad r(t_{\text{Navaho}}) = -0.042$$
+$$
+r(t_{\text{X-10}}) = 0.974 \qquad r(T_{s}) = 0.000 \qquad r(t_{\text{Navaho}}) = -0.042
+\tag{51}
+$$
 
 and the cost of that correlation in estimator variance is the usual inflation factor
 
-$$\mathrm{VIF} = \frac{1}{1 - r^{2}}$$
+$$
+\mathrm{VIF} = \frac{1}{1 - r^{2}}
+\tag{52}
+$$
 
 which evaluates to **19.7 on a maximum-speed X-10 leg** and 1.002 on a Navaho mission. Over the 79-minute navigation flight the correlation is 0.140 and the inflation 1.02.
 
@@ -352,11 +508,17 @@ The concept has a name and a literature, neither of which existed when the X-10 
 
 The result has a consequence that inverts ordinary intuition about testing. Because drift accumulates with time and the crossover is a time, covering the same ground more slowly puts the flight on the correct side of the threshold. Taking the same thousand-kilometre leg at Mach 0.9 at twelve kilometres, where
 
-$$v = M a = 0.9 \times 295.1 = 265.6 \, \text{m/s}$$
+$$
+v = M a = 0.9 \times 295.1 = 265.6 \, \text{m/s}
+\tag{53}
+$$
 
 the leg takes
 
-$$t_{\text{sub}} = \frac{1.0 \times 10^{6}}{265.6} = 3766 \, \text{s} = 62.8 \, \text{minutes}$$
+$$
+t_{\text{sub}} = \frac{1.0 \times 10^{6}}{265.6} = 3766 \, \text{s} = 62.8 \, \text{minutes}
+\tag{54}
+$$
 
 which is 1.31 times the crossover time, where the supersonic leg reached 0.58 times it. On such a flight the secular term is 1674 metres against a bounded term of 663 metres, the drift now dominating by a factor of 2.5, and the correlation falls to $r = 0.677$ for a variance inflation of 1.85, against 19.7 on the supersonic leg. **The subsonic flight is more than ten times more informative about the drift rate than the supersonic one.** The reported flights bear the arithmetic out from the other side. The 62-minute flight of 29 February 1956 lasted about as long as this subsonic leg, and the 79-minute navigation flight lasted longer still. Speed shortens a single leg, but a whole sortie need not be short, and the one X-10 navigation flight whose duration is reported was not.
 
@@ -364,7 +526,10 @@ which is 1.31 times the crossover time, where the supersonic leg reached 0.58 ti
 
 The X-10 was a canard delta with twin vertical tails and side-mounted inlets feeding two Westinghouse J40 turbojets. Its wing area of 425 square feet, from [North American X-10][ref_x10], is 39.48 square metres and its span of 8.59 metres, from [Parsch 2002 RTV-A-5 X-10][ref_parsch_x10], gives an aspect ratio of
 
-$$AR = \frac{b^{2}}{S} = \frac{8.59^{2}}{39.48} = 1.87$$
+$$
+AR = \frac{b^{2}}{S} = \frac{8.59^{2}}{39.48} = 1.87
+\tag{55}
+$$
 
 which is very low and is the signature of a configuration designed for supersonic cruise rather than for efficiency at any other condition. Two wind-tunnel and free-flight investigations of the X-10 configuration survive in the public record and they are the primary technical base for this article. [Pfyl 1952][research_pfyl_1952] reports tunnel measurements on a 0.07-scale model of the MX-770, and [Bond and Swanson 1953][research_bond_swanson_1953] reports a free-flight rocket-boosted 0.12-scale model tested by the Pilotless Aircraft Research Division from Mach 0.8 to 1.7.
 
@@ -372,25 +537,40 @@ The free-flight report states results that are quantitative enough to check agai
 
 Each of those findings concerns a relation. The aerodynamic centre travel bears on static margin, defined as
 
-$$h_{n} = \frac{x_{ac} - x_{cg}}{\bar{c}}$$
+$$
+h_{n} = \frac{x_{ac} - x_{cg}}{\bar{c}}
+\tag{56}
+$$
 
 which enters the pitch stiffness directly through
 
-$$C_{m\alpha} = -C_{L\alpha} h_{n}$$
+$$
+C_{m\alpha} = -C_{L\alpha} h_{n}
+\tag{57}
+$$
 
 so a seven percent chord movement of the aerodynamic centre, which is a modest transonic shift, changes the pitch stiffness by $-0.21$ per radian at a lift-curve slope of 3.0. **Against a small static margin of three percent, whose stiffness is $-0.09$ per radian, that shift is larger than the margin itself.** The vehicle does not merely become more or less stable through the transonic region. It changes stability by more than its quiescent value, and that condition makes an autopilot mandatory rather than convenient.
 
 The drag findings decompose the same way. Writing the minimum drag as friction plus wave plus base,
 
-$$C_{D,\min} = C_{D,f} + C_{D,w} + C_{D,b}$$
+$$
+C_{D,\min} = C_{D,f} + C_{D,w} + C_{D,b}
+\tag{58}
+$$
 
 the reported doubling from subsonic to supersonic makes the wave term equal to the entire subsonic minimum,
 
-$$C_{D,w} = C_{D,\min,\text{sup}} - C_{D,\min,\text{sub}} = 0.040 - 0.020 = 0.020$$
+$$
+C_{D,w} = C_{D,\min,\text{sup}} - C_{D,\min,\text{sub}} = 0.040 - 0.020 = 0.020
+\tag{59}
+$$
 
 and the reported base fraction then makes the base term
 
-$$C_{D,b} = 0.25 \times 0.040 = 0.010$$
+$$
+C_{D,b} = 0.25 \times 0.040 = 0.010
+\tag{60}
+$$
 
 which is **half of the wave drag and a quarter of the total**. Base drag of that size on a configuration with two engine exhausts in the afterbody is large but not anomalous, and a cleaner boat-tail would have attacked it first.
 
@@ -400,19 +580,31 @@ The configuration was not unusual for its moment, and the surrounding literature
 
 The most striking single measurement in the free-flight report is that duct total-pressure recovery fell with Mach number and was **somewhat less than normal-shock recovery**. That deserves a benchmark. Across a normal shock the total-pressure ratio is
 
-$$\frac{p_{02}}{p_{01}} = \left[ \frac{\frac{(\gamma+1) M^{2}}{2}}{1 + \frac{\gamma-1}{2} M^{2}} \right]^{\frac{\gamma}{\gamma-1}} \left[ \frac{\gamma+1}{2 \gamma M^{2} - (\gamma-1)} \right]^{\frac{1}{\gamma-1}}$$
+$$
+\frac{p_{02}}{p_{01}} = \left[ \frac{\frac{(\gamma+1) M^{2}}{2}}{1 + \frac{\gamma-1}{2} M^{2}} \right]^{\frac{\gamma}{\gamma-1}} \left[ \frac{\gamma+1}{2 \gamma M^{2} - (\gamma-1)} \right]^{\frac{1}{\gamma-1}}
+\tag{61}
+$$
 
 which at the top of the tested range gives
 
-$$\left. \frac{p_{02}}{p_{01}} \right|_{M = 1.70} = 0.856$$
+$$
+\left. \frac{p_{02}}{p_{01}} \right|_{M = 1.70} = 0.856
+\tag{62}
+$$
 
 A single normal shock is the crudest supersonic inlet there is, so recovering less than it means the duct was losing more to internal friction, spillage, and diffusion than the shock system was losing to the shock. For comparison, a two-shock inlet using one oblique shock from a sixteen-degree wedge followed by a normal shock, at the vehicle's maximum Mach number of 2.05, recovers
 
-$$\left. \frac{p_{02}}{p_{01}} \right|_{\text{two-shock}, M = 2.05} = 0.889$$
+$$
+\left. \frac{p_{02}}{p_{01}} \right|_{\text{two-shock}, M = 2.05} = 0.889
+\tag{63}
+$$
 
 against 0.698 for a single normal shock at the same condition, an improvement of
 
-$$\frac{0.889}{0.698} = 1.275$$
+$$
+\frac{0.889}{0.698} = 1.275
+\tag{64}
+$$
 
 or twenty-seven percent in delivered total pressure. **The measured configuration was leaving a large fraction of that on the table**, and since net thrust scales roughly with delivered total pressure at fixed geometry, the propulsive consequence is direct. The caution the abstract forces is that this was a 0.12-scale free-flight model, and small ducts at model Reynolds numbers lose more to friction than full-scale ones do, so the measurement bounds the model rather than the vehicle.
 
@@ -422,15 +614,24 @@ Recovery is in any case only half of the inlet problem. What the engine sees is 
 
 That caution can be turned into a quantitative constraint, because the full-scale article demonstrated Mach 2.05 and a machine that cannot balance its drag does not reach a speed. The static pressure at the service ceiling is 14,902 pascals and the isentropic ram total-pressure ratio at Mach 2.05 is
 
-$$\frac{p_{0}}{p_{\infty}} = \left( 1 + \frac{\gamma-1}{2} M^{2} \right)^{\frac{\gamma}{\gamma-1}} = 8.458$$
+$$
+\frac{p_{0}}{p_{\infty}} = \left( 1 + \frac{\gamma-1}{2} M^{2} \right)^{\frac{\gamma}{\gamma-1}} = 8.458
+\tag{65}
+$$
 
 so the total pressure delivered to the compressor face, for an inlet of recovery $\eta$, is $14{,}902 \times 8.458 \times \eta$. Scaling the sea-level static installed thrust of 96,971 newtons by the ratio of that quantity to sea-level total pressure, and requiring it to exceed the drag of 75,042 newtons computed above, gives a break-even recovery of
 
-$$\eta_{\min} = \frac{D \, p_{0,\text{SL}}}{T_{\text{static}} \, p_{\infty} \, (p_{0}/p_{\infty})} = 0.622$$
+$$
+\eta_{\min} = \frac{D \, p_{0,\text{SL}}}{T_{\text{static}} \, p_{\infty} \, (p_{0}/p_{\infty})} = 0.622
+\tag{66}
+$$
 
 which is
 
-$$\frac{\eta_{\min}}{\eta_{\text{normal shock}}} = \frac{0.622}{0.698} = 0.892$$
+$$
+\frac{\eta_{\min}}{\eta_{\text{normal shock}}} = \frac{0.622}{0.698} = 0.892
+\tag{67}
+$$
 
 **The full-scale inlet had to recover within about eleven percent of normal-shock values or the vehicle could not have reached the speed it is recorded as reaching.** Working the same relation forward, a two-shock inlet gives a thrust margin of 1.43 over drag, a plain normal shock gives 1.12, ninety percent of normal shock gives 1.01, and eighty-five percent gives 0.95 and therefore fails.
 
@@ -440,43 +641,73 @@ This is an inference rather than a measurement and it inherits every assumption 
 
 Taking the free-flight finding of a supersonic minimum drag coefficient about twice the subsonic value, and a subsonic value of 0.020 as representative for the class, the zero-lift drag at the ceiling and maximum Mach number follows from the dynamic pressure
 
-$$q = \tfrac{1}{2} \rho v^{2} = \tfrac{1}{2} \times 0.2397 \times 604.9^{2} = 43{,}838 \, \text{Pa}$$
+$$
+q = \tfrac{1}{2} \rho v^{2} = \tfrac{1}{2} \times 0.2397 \times 604.9^{2} = 43{,}838 \, \text{Pa}
+\tag{68}
+$$
 
 giving $D_{0} = 2 C_{D,\text{sub}} q S = 69{,}235$ newtons. The lift coefficient needed to hold level flight at the maximum take-off mass of 19,187 kilogrammes is
 
-$$C_{L} = \frac{W}{q S} = \frac{188{,}160}{43{,}838 \times 39.48} = 0.109$$
+$$
+C_{L} = \frac{W}{q S} = \frac{188{,}160}{43{,}838 \times 39.48} = 0.109
+\tag{69}
+$$
 
 and with an induced-drag factor $k = 1/(\pi AR e) = 0.284$ at an efficiency of 0.6 the induced drag is 5807 newtons, for a total of 75,042 newtons and a lift-to-drag ratio of
 
-$$\frac{L}{D} = \frac{188{,}160}{75{,}042} = 2.51$$
+$$
+\frac{L}{D} = \frac{188{,}160}{75{,}042} = 2.51
+\tag{70}
+$$
 
 That figure goes into the range equation. For a jet the Breguet form is
 
-$$R = \frac{v}{g \, c} \frac{L}{D} \ln \frac{W_{0}}{W_{1}}$$
+$$
+R = \frac{v}{g \, c} \frac{L}{D} \ln \frac{W_{0}}{W_{1}}
+\tag{71}
+$$
 
 and at a thrust specific fuel consumption of 1.0 per hour, which is generous for an early turbojet, a mass ratio of 1.8 gives
 
-$$R = \frac{604.9}{9.80665 \times (1/3600)} \times 2.51 \times \ln 1.8 = 327 \, \text{km}$$
+$$
+R = \frac{604.9}{9.80665 \times (1/3600)} \times 2.51 \times \ln 1.8 = 327 \, \text{km}
+\tag{72}
+$$
 
 The mass ratio does not have to be assumed, because the weights are reported in [North American X-10][ref_x10]. An empty weight of 25,800 pounds is 11,703 kilogrammes and a maximum take-off weight of 42,300 pounds is 19,187 kilogrammes, so the fuel available is 7484 kilogrammes, a fuel fraction of
 
-$$\frac{m_{f}}{m_{0}} = \frac{7484}{19{,}187} = 0.390$$
+$$
+\frac{m_{f}}{m_{0}} = \frac{7484}{19{,}187} = 0.390
+\tag{73}
+$$
 
 and the mass ratio is
 
-$$\frac{W_{0}}{W_{1}} = \frac{19{,}187}{11{,}703} = 1.640$$
+$$
+\frac{W_{0}}{W_{1}} = \frac{19{,}187}{11{,}703} = 1.640
+\tag{74}
+$$
 
 Substituting the reported mass ratio for the guessed one gives a maximum-Mach range of
 
-$$R = \frac{604.9}{9.80665 \times (1/3600)} \times 2.51 \times \ln 1.640 = 275 \, \text{km}$$
+$$
+R = \frac{604.9}{9.80665 \times (1/3600)} \times 2.51 \times \ln 1.640 = 275 \, \text{km}
+\tag{75}
+$$
 
 The reported ranges of [North American X-10][ref_x10] and [Parsch 2002 RTV-A-5 X-10][ref_parsch_x10] stand in ratio to that as
 
-$$\frac{1009}{275} = 3.67 \qquad \frac{1370}{275} = 4.98$$
+$$
+\frac{1009}{275} = 3.67 \qquad \frac{1370}{275} = 4.98
+\tag{76}
+$$
 
 **The reported ranges are 3.7 and 5.0 times the computed one.** Since the mass ratio now comes from data, the discrepancy has to be absorbed by the lift-to-drag ratio, by the specific fuel consumption, or by the cruise speed. Working the relation backwards for a subsonic cruise at Mach 0.9, the lift-to-drag ratio required to reach the smaller reported range is
 
-$$\frac{L}{D} = \frac{R g c}{v \ln (W_{0}/W_{1})} = \frac{1.009 \times 10^{6} \times 9.80665 \times (1/3600)}{265.6 \times 0.4944} = 20.9$$
+$$
+\frac{L}{D} = \frac{R g c}{v \ln (W_{0}/W_{1})} = \frac{1.009 \times 10^{6} \times 9.80665 \times (1/3600)}{265.6 \times 0.4944} = 20.9
+\tag{77}
+$$
 
 falling to 12.6 if the specific fuel consumption is a very optimistic 0.6 per hour, and rising to 28.4 for the larger reported range. **A wing of aspect ratio 1.87 does not achieve a lift-to-drag ratio of twelve, let alone twenty-one**, under any assumption about the rest of the aeroplane. The conclusion is therefore stronger than a caution about the maximum-Mach case. The reported ranges cannot be reconciled with the reported weights on any cruise condition the X-10 could fly. This matters beyond bookkeeping, because it means the operational X-10 sortie may well have spent enough time aloft to sit on the useful side of the crossover computed above, and the navigation question turns on the flight durations, not the range figures. [Whitcomb 1953][research_whitcomb_1953], [Margolis et al. 1958][research_margolis_1958], and [Nelson and Welsh 1960][research_nelson_welsh_1960] carry the contemporary wave-drag and area-rule work, while [Englert et al. 1954][research_englert_1954] and [Slocumb and Andrews 1961][research_slocumb_andrews_1961] take up base drag.
 
@@ -488,11 +719,17 @@ falling to 12.6 if the specific fuel consumption is a very optimistic 0.6 per ho
 
 The guidance system was North American's N-6 autonavigator, which [Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho] describes as stellar-inertial and the Air Force history [Landis 2020 Navaho Missile Program, Part 2][ref_landis_2020_part_2] as all-inertial, built from two NAVAN gyroscopes, accelerometers, and a transistorised digital computer called NATAN. The X-10 flew earlier radio-command equipment as well, which [Parsch 2002 RTV-A-5 X-10][ref_parsch_x10] gives as an AN/ARW-56 receiver against an AN/ARW-55 ground transmitter, and the later Cape Canaveral vehicles carried the autonavigator proper. **The programme therefore had two guidance systems aboard the same airframe for different purposes**, one to fly the X-10 where the range wanted it and one to be measured. That arrangement made recovery possible at all, since a test article guided only by the thing under test cannot be relied upon to come back. Treating the two as independent, the probability that at least one is available is
 
-$$P = 1 - (1 - p_{1})(1 - p_{2})$$
+$$
+P = 1 - (1 - p_{1})(1 - p_{2})
+\tag{78}
+$$
 
 so two systems each available with probability 0.95 give
 
-$$P = 1 - (0.05)^{2} = 0.9975$$
+$$
+P = 1 - (0.05)^{2} = 0.9975
+\tag{79}
+$$
 
 a twentyfold reduction in the chance of having no guidance at all. **The redundancy was not a hedge against the autonavigator being unreliable. It was the precondition for letting the autonavigator be unproven.** A precondition is a different and more useful thing than a hedge, since it allows a test article to fly an instrument nobody yet trusts. The analysis of redundancy mechanisms as such is [Lichter and Friedenreich 1962][research_lichter_friedenreich_1962], and error propagation through the astro-inertial arrangement the N-6 used is [Dusek 1964a][research_dusek_1964_2].
 
@@ -500,15 +737,24 @@ a twentyfold reduction in the chance of having no guidance at all. **The redunda
 
 An unmanned supersonic vehicle needs an autopilot before it needs guidance, because the guidance loop closes around a vehicle that is already stabilised. The canard configuration's aerodynamic centre travel reported by [Bond and Swanson 1953][research_bond_swanson_1953], moving rearward through the transonic region and forward again supersonically, is the behaviour that forces gain scheduling, since the static margin and therefore the short-period frequency change with Mach number along the flight path. The magnitude can be estimated. Approximating the short-period frequency by the pitch-stiffness term alone,
 
-$$\omega_{n} \approx \sqrt{-M_{\alpha}} = \sqrt{\frac{q S \bar{c} \, C_{L\alpha} \, h_{n}}{I_{yy}}}$$
+$$
+\omega_{n} \approx \sqrt{-M_{\alpha}} = \sqrt{\frac{q S \bar{c} \, C_{L\alpha} \, h_{n}}{I_{yy}}}
+\tag{80}
+$$
 
 where $h_{n}$ is the static margin, and evaluating at the two ends of the flight envelope with a mean chord of 4.60 metres and a pitch inertia near $5.8 \times 10^{5}$ kilogramme square metres, the frequency runs from
 
-$$\omega_{n} = 0.63 \, \text{rad/s} \quad \text{at Mach 0.95 with a 3 percent margin}$$
+$$
+\omega_{n} = 0.63 \, \text{rad/s} \quad \text{at Mach 0.95 with a 3 percent margin}
+\tag{81}
+$$
 
 to
 
-$$\omega_{n} = 2.03 \, \text{rad/s} \quad \text{at Mach 2.05 with a 10 percent margin}$$
+$$
+\omega_{n} = 2.03 \, \text{rad/s} \quad \text{at Mach 2.05 with a 10 percent margin}
+\tag{82}
+$$
 
 **a factor of 3.2 across conditions the X-10 passes through on every flight.** A fixed-gain pitch loop cannot hold consistent damping across that spread, so the autopilot had to schedule on dynamic pressure or Mach number, and it had to do so with analogue hardware. This is the sense in which the X-10's autopilot was a harder piece of engineering than its guidance. [Zarovsky 1951][research_zarovsky_1951] treats roll stabilisation of a supersonic pilotless aircraft in the same period, [Seaberg 1950][research_seaberg_1950] gives autopilot forms, and [Hart 1956][research_hart_1956] the system practice. Servomechanism engineering is the subject of [Lebell 1956][research_lebell_1956], [Evans 1957][research_evans_1957], [Kuba and Kazda 1958][research_kuba_kazda_1958], and [Etzweiler 1969][research_etzweiler_1969]. [Fagin et al. 1969][research_fagin_1969] and [Johnson 1971][research_johnson_1971] formulate it later, and [Gully and Skelley 1975][research_gully_skelley_1975] takes the cruise-missile case. The standard texts are [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991] and [Etkin and Reid 1996 Dynamics of Flight][book_etkin_reid_1996].
 
@@ -516,7 +762,10 @@ $$\omega_{n} = 2.03 \, \text{rad/s} \quad \text{at Mach 2.05 with a 10 percent m
 
 The X-10 flew on two Westinghouse J40 turbojets, an engine whose development difficulties were substantial and whose troubles, set out in [Westinghouse J40][ref_j40], are usually recorded against the naval aircraft that were obliged to use it. For the X-10 the relevant point is narrower and is best put as a relation. Net thrust at fixed geometry scales with the total pressure delivered to the compressor face, so
 
-$$\frac{T}{T_{\text{SL}}} \approx \eta \, \frac{p_{\infty}}{p_{\text{SL}}} \left( 1 + \frac{\gamma-1}{2} M^{2} \right)^{\frac{\gamma}{\gamma-1}}$$
+$$
+\frac{T}{T_{\text{SL}}} \approx \eta \, \frac{p_{\infty}}{p_{\text{SL}}} \left( 1 + \frac{\gamma-1}{2} M^{2} \right)^{\frac{\gamma}{\gamma-1}}
+\tag{83}
+$$
 
 in which the ram term rises steeply with Mach number while the ambient-pressure term falls with altitude, and the two very nearly cancel for this airframe at its ceiling. **The engine is being asked to make sea-level thrust out of about one seventh of sea-level pressure**, and it manages only because ram compression at Mach 2.05 supplies a factor of 8.46. A turbojet at Mach 2 operates far from the condition its compressor was designed for, and the design problem was being actively worked in the open literature at the time by [Hurley 1951b][research_hurley_1951], [Gabriel et al. 1953][research_gabriel_1953], [Alford and Auyer 1954][research_alford_auyer_1954], and [Palmer 1956][research_palmer_1956]. [Cesaro and Walker 1955][research_cesaro_walker_1955] takes the non-afterburning supersonic application and [Fleming et al. 1956][research_fleming_1956] the afterburner behaviour. Inlet and engine compatibility, which the thrust calculation above treats as a single recovery number, is a dynamic problem as well and appears as such in [Calogeras 1969b][research_calogeras_1969]. [Chun and Swanson 1964][research_chun_swanson_1964] simulates it dynamically and [Burris 1966][research_burris_1966] supplies a test method.
 
@@ -526,19 +775,31 @@ in which the ram term rises steeply with Mach number while the ambient-pressure 
 
 Aerodynamic heating sets what the airframe may be made of. The recovery temperature at a recovery factor of 0.89 is
 
-$$T_{r} = T_{\infty} \left( 1 + r \frac{\gamma - 1}{2} M^{2} \right)$$
+$$
+T_{r} = T_{\infty} \left( 1 + r \frac{\gamma - 1}{2} M^{2} \right)
+\tag{84}
+$$
 
 and at the X-10's maximum Mach number and ceiling this gives
 
-$$T_{r} = 216.65 \left( 1 + 0.89 \times 0.2 \times 2.05^{2} \right) = 378.7 \, \text{K} = 105.6 \, ^{\circ}\text{C}$$
+$$
+T_{r} = 216.65 \left( 1 + 0.89 \times 0.2 \times 2.05^{2} \right) = 378.7 \, \text{K} = 105.6 \, ^{\circ}\text{C}
+\tag{85}
+$$
 
 which sits comfortably inside the service range of aluminium alloys, conventionally taken near 423 kelvin. The same relation at the Navaho's cruise condition of Mach 3.25 at twenty-four kilometres gives
 
-$$T_{r} = 220.6 \left( 1 + 0.89 \times 0.2 \times 3.25^{2} \right) = 635.5 \, \text{K} = 362.4 \, ^{\circ}\text{C}$$
+$$
+T_{r} = 220.6 \left( 1 + 0.89 \times 0.2 \times 3.25^{2} \right) = 635.5 \, \text{K} = 362.4 \, ^{\circ}\text{C}
+\tag{86}
+$$
 
 which does not. Solving for the Mach number at which the recovery temperature reaches the aluminium limit in the 220.6 kelvin air at twenty-four kilometres,
 
-$$M_{\text{Al}} = \sqrt{\frac{2}{r (\gamma - 1)} \left( \frac{T_{\text{Al}}}{T_{\infty}} - 1 \right)} = 2.27$$
+$$
+M_{\text{Al}} = \sqrt{\frac{2}{r (\gamma - 1)} \left( \frac{T_{\text{Al}}}{T_{\infty}} - 1 \right)} = 2.27
+\tag{87}
+$$
 
 **The aluminium frontier lies at Mach 2.27 and the X-10's maximum was Mach 2.05.** The margin is neither a coincidence nor a near miss. The X-10 was built of aluminium, which [Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho] records as the plan for the phase it flew, so it could not be flown past the point where aluminium stops working, and the Navaho's structural problem therefore lay entirely outside the testbed's envelope. Contemporary work on heating and high-temperature structure includes [Luce 1949][research_luce_jr_1949], [Drakin 1963][research_drakin_1963], [Harri 1964][research_harri_1964], and [Heimerl and Hardrath 1965][research_heimerl_hardrath_1965], with later material in [Davis et al. 1972][research_davis_1972] and [Chou and Smith 1974][research_chou_smith_1974]. The design-criteria problem that a sustained supersonic vehicle poses, which is that the structure must be sized for a thermal state that persists rather than for a transient, receives its treatment in [Stauffer 1964][research_stauffer_1964]. [Fairbairn 1964][research_fairbairn_1964] selects the materials, and [Sakata et al. 1975][research_sakata_1975] carries a later structural concept study for a comparable configuration. [Rumsey and Lee 1961b][research_rumsey_lee_1961] performs the heat transfer and boundary-layer measurement that verifying any of it would have needed, and [Morito and Sidwell 1967][research_morito_sidwell_1967] covers unsteady loads and dynamic response.
 
@@ -546,11 +807,17 @@ $$M_{\text{Al}} = \sqrt{\frac{2}{r (\gamma - 1)} \left( \frac{T_{\text{Al}}}{T_{
 
 How fast the structure soaks decides whether the oven faces a ramp or a step. For a skin of thickness $\delta$ heated convectively, the lumped time constant is
 
-$$\tau_{\text{skin}} = \frac{\rho c \delta}{h}$$
+$$
+\tau_{\text{skin}} = \frac{\rho c \delta}{h}
+\tag{88}
+$$
 
 and for two millimetres of aluminium at a convective coefficient of 100 watts per square metre kelvin this is
 
-$$\tau_{\text{skin}} = \frac{2700 \times 900 \times 0.002}{100} = 48.6 \, \text{s}$$
+$$
+\tau_{\text{skin}} = \frac{2700 \times 900 \times 0.002}{100} = 48.6 \, \text{s}
+\tag{89}
+$$
 
 which is under three percent of an X-10 flight and half of one percent of a Navaho mission. **The skin arrives at its recovery temperature almost immediately and then stays there**, so the platform oven is not chasing a slowly rising boundary but holding against a step that is applied once and never removed. The article's two main threads share this coupling, which accounts of the programme do not usually draw.
 
@@ -560,11 +827,17 @@ Everything aboard the X-10 that moved or computed needed power, and unlike a pil
 
 **The reliability arithmetic of an unmanned vehicle is unforgiving in a way that is easy to state and was hard to act on in 1955.** If a mission requires $n$ subsystems all to work and each works with probability $p$, the mission succeeds with probability
 
-$$P_{\text{mission}} = p^{n}$$
+$$
+P_{\text{mission}} = p^{n}
+\tag{90}
+$$
 
 so ten subsystems at ninety-five percent each give
 
-$$P = 0.95^{10} = 0.599$$
+$$
+P = 0.95^{10} = 0.599
+\tag{91}
+$$
 
 a mission success rate of about sixty percent from components that would each individually be called reliable. **The X-10 completed twenty-seven development flights and lost twelve of thirteen airframes**, which is consistent with that arithmetic and requires no single villain. The counts are those of [Landis 2020 Flashback, The Navaho Missile, Part 1][ref_landis_2020_part_1]. [Blumenthal and Denton 1962][research_blumenthal_denton_1962] shows how the period estimated reliability, [Monroe 1963][research_monroe_1963] and [Howard and Kaufman 1964][research_howard_kaufman_1964] build availability models of a weapon system from the same components, and [Lichter and Friedenreich 1962][research_lichter_friedenreich_1962] analyses the redundancy mechanisms that would have been the remedy. **The analytical means of detecting a failed instrument in flight and reconfiguring around it did not arrive until the following decade**, in [Solov and Thibodeau 1973][research_solov_thibodeau_1973] and [Montgomery 1975][research_montgomery_1975]. The fault-detection discussion below names the same gap.
 
@@ -572,23 +845,38 @@ a mission success rate of about sixty percent from components that would each in
 
 The X-10 had to land itself, and [North American X-10][ref_x10] puts six of the nine airframes not expended deliberately down to landing accidents. Taking a landing mass of twelve tonnes after fuel burn, the wing loading is 2980 newtons per square metre and at a maximum lift coefficient of unity the stall speed at sea level is
 
-$$v_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 117{,}680}{1.225 \times 39.48 \times 1.0}} = 69.8 \, \text{m/s}$$
+$$
+v_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 117{,}680}{1.225 \times 39.48 \times 1.0}} = 69.8 \, \text{m/s}
+\tag{92}
+$$
 
 or 136 knots, with an approach at 1.2 times that giving 83.7 metres per second, which is 163 knots. The kinetic energy to be dissipated is
 
-$$E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 12{,}000 \times 83.7^{2} = 42.0 \, \text{MJ}$$
+$$
+E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 12{,}000 \times 83.7^{2} = 42.0 \, \text{MJ}
+\tag{93}
+$$
 
 and at a braking friction coefficient of 0.4 the ground roll is
 
-$$s = \frac{v^{2}}{2 \mu g} = \frac{7006}{2 \times 0.4 \times 9.80665} = 893 \, \text{m}$$
+$$
+s = \frac{v^{2}}{2 \mu g} = \frac{7006}{2 \times 0.4 \times 9.80665} = 893 \, \text{m}
+\tag{94}
+$$
 
 A landing strip 200 feet wide and 10,000 feet long was built at Cape Canaveral for the X-10 [Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991], and it survives as the Skid Strip. At 3048 metres the margin over the computed braking distance is
 
-$$\frac{3048}{893} = 3.41$$
+$$
+\frac{3048}{893} = 3.41
+\tag{95}
+$$
 
 which is the margin an unmanned vehicle with no pilot to correct a drift needs and did not always get. A drag chute helps because its force scales with the square of speed while braking force does not, so it does its work early. A chute matching the brakes at touchdown speed needs an area of
 
-$$S_{c} = \frac{\mu W}{\frac{1}{2} \rho v^{2} C_{D,c}} = \frac{47{,}072}{\frac{1}{2} \times 1.225 \times 7006 \times 1.4} = 7.83 \, \text{m}^{2}$$
+$$
+S_{c} = \frac{\mu W}{\frac{1}{2} \rho v^{2} C_{D,c}} = \frac{47{,}072}{\frac{1}{2} \times 1.225 \times 7006 \times 1.4} = 7.83 \, \text{m}^{2}
+\tag{96}
+$$
 
 which is a canopy of 3.16 metres diameter, and deploying it roughly halves the stopping distance. Work on landing dynamics and gear begins with [Stowell et al. 1948][research_stowell_1948], [Yntema and Milwitzky 1952][research_yntema_milwitzky_1952], [Horne and Leland 1962][research_horne_leland_1962], and [Kordes and McKay 1962][research_kordes_mc_kay_1962]. [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992] governs recovery-system design and [Currey 1988 Aircraft Landing Gear Design][book_currey_1988] the gear. [Kansas Univ Lawrence 1952b][research_lawrence_1952] covers barrier and arresting practice.
 
@@ -596,15 +884,24 @@ which is a canopy of 3.16 metres diameter, and deploying it roughly halves the s
 
 The hardest thing the X-10 did was the thing least remarked upon. Landing an aeroplane automatically was still an experimental capability in 1953, and the first automatic landing on a scheduled passenger flight was not made until 10 June 1965, by the British European Airways Trident whose development is traced in [Autoland][ref_autoland]. The period literature makes the gap visible. [Helliwell 1952][research_helliwell_1952] treats automatic control in the landing approach, [Walker 1960][research_walker_1960] and [Walker 1961][research_walker_1961] describe fully automatic approach, and the systems that entered service are [Schoenman and Doniger 1965][research_schoenman_doniger_1965] on the Boeing and Bendix 707 installation and [Templeman and Parker 1968][research_templeman_parker_1968] on the Boeing and Sperry 727. Design considerations are [Doniger 1967][research_doniger_1967], approach guidance concepts are [Maiuzzo 1970][research_maiuzzo_1970] and [Poritzky 1970][research_poritzky_1970], and the radio-inertial lateral control limits are [MACKlNNON and Madden 1972][research_macklnnon_madden_1972]. The geometry shows how little margin the task allows. On a glide slope of angle $\gamma$ the sink rate is
 
-$$\dot{h} = -v \sin \gamma$$
+$$
+\dot{h} = -v \sin \gamma
+\tag{97}
+$$
 
 which at the approach speed computed in the section Landing Gear, Brakes, and the Strip Built for a Machine and a three-degree slope is
 
-$$\dot{h} = -83.7 \times \sin 3^{\circ} = -4.38 \, \text{m/s}$$
+$$
+\dot{h} = -83.7 \times \sin 3^{\circ} = -4.38 \, \text{m/s}
+\tag{98}
+$$
 
 or 862 feet per minute, a rate that must be arrested to near zero in the last few metres. The flare that does it is conventionally an exponential,
 
-$$h(t) = h_{0} e^{-t / \tau_{f}}, \qquad \dot{h} = -\frac{h}{\tau_{f}}$$
+$$
+h(t) = h_{0} e^{-t / \tau_{f}}, \qquad \dot{h} = -\frac{h}{\tau_{f}}
+\tag{99}
+$$
 
 so a flare initiated at fifteen metres with a three-second time constant begins at five metres per second of sink and decays smoothly. **Three seconds at approach speed is 251 metres of runway**, and the aeroplane has to judge its own height above the ground to a metre or so throughout, with 1953 instrumentation and nobody aboard. The period's approach to the problem is [Payne 1968][research_payne_1968] on what a landing control law should optimise, [Lykken and Shah 1972][research_lykken_shah_1972] on using direct lift to improve the flare, [Patrick 1972][research_patrick_1972] on coupling automatic landing to microwave guidance, [Niessen 1973][research_niessen_1973] on smoothing approach guidance inertially, and [Crawford 1975][research_crawford_1975] on automatic guidance and control of a transport through the landing. Later formulations of the same control law are [Watson et al. 1983][research_watson_1983], with the terminal-area problem in [Pines 1982][research_pines_1982] and a digital integrated system in [Halyo and Hueschen 1981][research_halyo_hueschen_1981].
 
@@ -614,15 +911,24 @@ so a flare initiated at fifteen metres with a three-second time constant begins 
 
 The radio-command equipment is usually mentioned and never dimensioned, and dimensioning it produces a constraint that bears directly on the article's argument. A radio link between an aircraft at altitude $h$ and a station on the ground is limited by the horizon, which under standard atmospheric refraction is computed with an effective Earth radius four thirds of the true one,
 
-$$d_{\text{horizon}} = \sqrt{2 \, k \, R_{e} \, h}, \qquad k = \frac{4}{3}$$
+$$
+d_{\text{horizon}} = \sqrt{2 \, k \, R_{e} \, h}, \qquad k = \frac{4}{3}
+\tag{100}
+$$
 
 At the X-10's service ceiling this gives
 
-$$d_{\text{horizon}} = \sqrt{2 \times \tfrac{4}{3} \times 6.371 \times 10^{6} \times 13{,}650} = 482 \, \text{km}$$
+$$
+d_{\text{horizon}} = \sqrt{2 \times \tfrac{4}{3} \times 6.371 \times 10^{6} \times 13{,}650} = 482 \, \text{km}
+\tag{101}
+$$
 
 and adding a hundred-metre ground mast extends it only to 523 kilometres, because the transmitter's own altitude dominates. Against a one-way leg of a thousand kilometres this is
 
-$$\frac{1000}{482} = 2.08$$
+$$
+\frac{1000}{482} = 2.08
+\tag{102}
+$$
 
 **A one-way leg of that length is more than twice the radio horizon, so a single ground station cannot see the X-10 through it.** Either the range operated a chain of stations, which is what the Atlantic range in fact developed, with a station as far downrange as Mayaguez in [Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991], or the vehicle spent a substantial part of a long one-way sortie beyond command range. The reported distance is that of a whole flight, however, and an out-and-back sortie of that length need never go much beyond the horizon. Both readings support the same conclusion. Past the horizon the autonavigator is not being tested as a candidate subsystem but relied upon as the only one available, and the vehicle's recoverability makes that acceptable rather than reckless.
 
@@ -632,15 +938,24 @@ The propagation engineering behind the horizon calculation is [Blake 1968][resea
 
 A vehicle that must come home has to reverse course, and at Mach 2 that sounds expensive. The turn radius at load factor $n$ is
 
-$$r = \frac{v^{2}}{g \sqrt{n^{2} - 1}}$$
+$$
+r = \frac{v^{2}}{g \sqrt{n^{2} - 1}}
+\tag{103}
+$$
 
 which at the vehicle's maximum speed and a load factor of two, corresponding to a bank angle of sixty degrees, gives
 
-$$r = \frac{604.9^{2}}{9.80665 \times \sqrt{3}} = 21.5 \, \text{km}$$
+$$
+r = \frac{604.9^{2}}{9.80665 \times \sqrt{3}} = 21.5 \, \text{km}
+\tag{104}
+$$
 
 so a course reversal sweeps 43 kilometres of ground track and takes
 
-$$t_{\text{turn}} = \frac{\pi r}{v} = \frac{\pi \times 21{,}541}{604.9} = 112 \, \text{s}$$
+$$
+t_{\text{turn}} = \frac{\pi r}{v} = \frac{\pi \times 21{,}541}{604.9} = 112 \, \text{s}
+\tag{105}
+$$
 
 which is 4.3 percent of a thousand-kilometre leg. **The turn is not the problem.** The calculation matters because the intuition that supersonic vehicles cannot manoeuvre in useful distances is wrong at this scale, and because it removes one candidate explanation for the losses, which were concentrated on the ground.
 
@@ -668,15 +983,24 @@ None of it bears on why the record leaves the programme's question open. **A veh
 
 Three vehicles flown at the Cape were expended in planned dives against Grand Bahama Island, and these are usually listed alongside the accidental losses as though they were the same kind of event. They were not. The Navaho's terminal phase was a dive onto the target from cruise altitude, and the Air Force history [Landis 2020 Flashback, The Navaho Missile, Part 1][ref_landis_2020_part_1] lists dive technique among the things the Cape flights were to check. A dive from twenty-four kilometres at Mach three is a distinct flight condition, with its own structural loads, control problem, and contribution to the accuracy budget. **A vehicle that navigates perfectly and then misses the dive has still missed.** The sensitivity is easy to state. A dive from altitude $h$ at flight path angle $\gamma$ covers a ground range of
 
-$$x = \frac{h}{\tan \gamma}$$
+$$
+x = \frac{h}{\tan \gamma}
+\tag{106}
+$$
 
 so an error in the dive angle produces a range error of
 
-$$\frac{dx}{d\gamma} = -\frac{h}{\sin^{2} \gamma}$$
+$$
+\frac{dx}{d\gamma} = -\frac{h}{\sin^{2} \gamma}
+\tag{107}
+$$
 
 and from twenty-four kilometres at forty-five degrees this is
 
-$$\frac{dx}{d\gamma} = -\frac{24{,}000}{0.5} = -48{,}000 \, \text{m/rad}$$
+$$
+\frac{dx}{d\gamma} = -\frac{24{,}000}{0.5} = -48{,}000 \, \text{m/rad}
+\tag{108}
+$$
 
 or **48 metres of miss for every milliradian of dive-angle error**. Against an eight-hundred-metre requirement that is a demanding pointing accuracy, separate from knowing where the target is. Expending three airframes to fly that phase deliberately is therefore a test decision rather than a disposal, and is evidence that the programme understood the terminal phase as a distinct problem even though the X-10 could only approximate its conditions. [Wheeler 1946][research_wheeler_1946] treats the assessment of where a weapon landed, the measurement such a flight exists to produce. The terminal-guidance alternative of looking at the target on the way down is [Dunmire and Lopresti 1963][research_dunmire_lopresti_1963], the accuracy requirement that a re-entering body imposes on its guidance is [Broglio 1961][research_broglio_1961], and what happens on arrival is [Johnson and Mosely 1964][research_johnson_mosely_1964].
 
@@ -684,7 +1008,10 @@ or **48 metres of miss for every milliradian of dive-angle error**. Against an e
 
 Stated as a fraction, twelve of thirteen vehicles lost is
 
-$$\frac{12}{13} = 0.923$$
+$$
+\frac{12}{13} = 0.923
+\tag{109}
+$$
 
 and twenty-seven development flights across thirteen airframes is 2.08 flights per vehicle. **A design whose entire economic and statistical rationale was repeated use averaged two flights per article.** The causes named for the landing losses at the Cape are concentrated at the end of the mission rather than in it, with vehicles that veered off the strip, drag chutes that did not deploy, and barriers that were not engaged, as [Parsch 2002 RTV-A-5 X-10][ref_parsch_x10] lists them. The vehicle flew supersonically and navigated across a range, and then could not reliably stop.
 
@@ -694,19 +1021,31 @@ Three levels of evidence exist for this configuration and they can be set agains
 
 The pattern is familiar from the [X-7][related_post_a304_lockheed_x7]. Free flight extends the Reynolds number far beyond what the tunnels of the period could reach and removes support interference, at the cost of a single trajectory per model and no ability to repeat a condition. The Reynolds numbers make the point concrete. On mean aerodynamic chord,
 
-$$Re = \frac{\rho v \bar{c}}{\mu}$$
+$$
+Re = \frac{\rho v \bar{c}}{\mu}
+\tag{110}
+$$
 
 and evaluating it for the full-scale vehicle at its ceiling and maximum Mach number, with the viscosity from Sutherland's relation
 
-$$\mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4} = 1.42 \times 10^{-5} \, \text{Pa s}$$
+$$
+\mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4} = 1.42 \times 10^{-5} \, \text{Pa s}
+\tag{111}
+$$
 
 gives
 
-$$Re_{\text{full}} = \frac{0.2397 \times 604.9 \times 4.595}{1.42 \times 10^{-5}} = 4.68 \times 10^{7}$$
+$$
+Re_{\text{full}} = \frac{0.2397 \times 604.9 \times 4.595}{1.42 \times 10^{-5}} = 4.68 \times 10^{7}
+\tag{112}
+$$
 
 The free-flight models spanned nine to twenty-four million, so they reached
 
-$$\frac{Re_{\text{model}}}{Re_{\text{full}}} = 0.19 \; \text{to} \; 0.51$$
+$$
+\frac{Re_{\text{model}}}{Re_{\text{full}}} = 0.19 \; \text{to} \; 0.51
+\tag{113}
+$$
 
 **between a fifth and a half of full-scale Reynolds number**, against transonic tunnels of the period that typically delivered a few million on a model of comparable size. The free-flight technique therefore bought roughly an order of magnitude over the tunnels and still fell short of the vehicle by a factor of two. Stated that way the result is more defensible than a claim that the models reached flight conditions. The technique had already been applied to full-scale guided missiles by [Delsasso et al. 1948][research_delsasso_1948], five years before the X-10 flew, so the method was mature even where its Reynolds numbers were not.
 
@@ -722,27 +1061,45 @@ Air Force Headquarters terminated the Navaho by message dated 12 July 1957. The 
 
 The strategic argument is not primarily an engineering one, yet it can be derived rather than asserted. A ballistic missile covering the same ten thousand kilometres flies a minimum-energy ellipse. Writing the range angle as
 
-$$\Phi = \frac{R_{m}}{R_{e}} = \frac{1.0 \times 10^{7}}{6.371 \times 10^{6}} = 1.570 \, \text{rad}$$
+$$
+\Phi = \frac{R_{m}}{R_{e}} = \frac{1.0 \times 10^{7}}{6.371 \times 10^{6}} = 1.570 \, \text{rad}
+\tag{114}
+$$
 
 the minimum-energy condition fixes the burnout speed through
 
-$$\lambda = \frac{V^{2}}{g R_{e}} = \frac{2 \sin (\Phi/2)}{1 + \sin (\Phi/2)} = 0.828$$
+$$
+\lambda = \frac{V^{2}}{g R_{e}} = \frac{2 \sin (\Phi/2)}{1 + \sin (\Phi/2)} = 0.828
+\tag{115}
+$$
 
 giving
 
-$$V = \sqrt{0.828 \times 9.80665 \times 6.371 \times 10^{6}} = 7193 \, \text{m/s}$$
+$$
+V = \sqrt{0.828 \times 9.80665 \times 6.371 \times 10^{6}} = 7193 \, \text{m/s}
+\tag{116}
+$$
 
 and a semi-major axis from the vis-viva relation of
 
-$$a = \frac{R_{e}}{2 - \lambda} = 5.437 \times 10^{6} \, \text{m}$$
+$$
+a = \frac{R_{e}}{2 - \lambda} = 5.437 \times 10^{6} \, \text{m}
+\tag{117}
+$$
 
 with eccentricity 0.415 and an apogee 1319 kilometres above the surface. Converting the true anomalies at launch and impact to mean anomalies and differencing gives the free-flight time
 
-$$t_{\text{ballistic}} = \frac{\Delta M}{n} = 1932 \, \text{s} = 32.2 \, \text{minutes}$$
+$$
+t_{\text{ballistic}} = \frac{\Delta M}{n} = 1932 \, \text{s} = 32.2 \, \text{minutes}
+\tag{118}
+$$
 
 against the cruise mission's 172 minutes. The ratio is
 
-$$\frac{t_{\text{cruise}}}{t_{\text{ballistic}}} = \frac{172.2}{32.2} = 5.35$$
+$$
+\frac{t_{\text{cruise}}}{t_{\text{ballistic}}} = \frac{172.2}{32.2} = 5.35
+\tag{119}
+$$
 
 **The airbreathing weapon is exposed more than five times as long, and it is exposed inside the atmosphere at twenty-four kilometres where an interceptor can reach it, while its competitor spends most of its flight far above the atmosphere, reaching thirteen hundred kilometres at apogee, where in 1957 nothing could.** The cancellation argument is complete at that point. Once Atlas and Titan were credible, no accuracy improvement available at the time bought enough to pay for a factor of five in exposure against a threat that could not be engaged at all.
 
@@ -816,11 +1173,17 @@ Navigation-grade fibre-optic gyroscopes are [Shang et al. 2020][research_shang_2
 
 That last figure stands to the Navaho's requirement as
 
-$$\frac{0.003}{0.0025} = 1.20$$
+$$
+\frac{0.003}{0.0025} = 1.20
+\tag{120}
+$$
 
 and it is achieved by a micro-electromechanical device. The article's drift relation takes the comparison further than the ratio does. A gyroscope drifting at 0.003 degrees per hour is $1.454 \times 10^{-8}$ radians per second, so over the Navaho mission it would produce
 
-$$\delta x = R_{e} \varepsilon t = 6.371 \times 10^{6} \times 1.454 \times 10^{-8} \times 10{,}333 = 957 \, \text{m}$$
+$$
+\delta x = R_{e} \varepsilon t = 6.371 \times 10^{6} \times 1.454 \times 10^{-8} \times 10{,}333 = 957 \, \text{m}
+\tag{121}
+$$
 
 **which still does not meet the eight-hundred-metre requirement on drift alone**, seventy years later and before any of the other budget terms are added. The comparison shows not that the requirement has become easy but that a component, and no longer a national programme, can approach it. The mechanisms that set the floor are now themselves the subject of study, in [Hiller et al. 2019][research_hiller_2019] on the origins of bias instability, [Kuang et al. 2022][research_kuang_2022] on its temperature dependence, today's version of the platform-oven problem computed above, [Laita et al. 2024][research_laita_2024] on nonlinearity, and [Zhao et al. 2024d][research_zhao_2024] on installation-error propagation. Gyrocompassing, the alignment problem this article showed to be worth 2.9 kilometres per arcminute, is treated afresh in [Bénet and Guinamard 2026][research_benet_guinamard_2026], and the combination of star tracker with gyroscope that the N-6 pioneered is [Zhu et al. 2025a][research_zhu_2025].
 
@@ -1036,13 +1399,19 @@ Treating the X-10 through its navigation keystone illuminates the programme's ce
 
 **It could not test the propulsion.** The Navaho cruised on ramjets. A ramjet has no compressor, so its pressure ratio is the ram ratio
 
-$$\frac{p_{0}}{p_{\infty}} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}$$
+$$
+\frac{p_{0}}{p_{\infty}} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{122}
+$$
 
 which is exactly 1.000 at rest and therefore provides no cycle at all. **A ramjet cannot take off from a runway**, so a recoverable runway-operating testbed necessarily uses a different engine, and the X-10's two turbojets tested nothing about the Navaho's propulsion. Ramjet and turbojet cycle relations are in [Hill and Peterson 1991 Mechanics and Thermodynamics of Propulsion][book_hill_peterson_1991], and the engine the weapon needed was evaluated separately in [Reilly and Welna 1955][research_reilly_welna_1955].
 
 **It could not test the boost phase.** The Navaho reached ramjet takeover on a liquid rocket booster, and the specific energy that booster had to supply is
 
-$$e = \tfrac{1}{2} v^{2} + g h = \tfrac{1}{2} (818.9)^{2} + 9.80665 \times 24{,}000 = 0.571 \, \text{MJ/kg}$$
+$$
+e = \tfrac{1}{2} v^{2} + g h = \tfrac{1}{2} (818.9)^{2} + 9.80665 \times 24{,}000 = 0.571 \, \text{MJ/kg}
+\tag{123}
+$$
 
 equivalent to an ideal velocity increment of 1068 metres per second. The X-10 took off under its own power and had no booster, so the entire boost and staging sequence, during which the first XSM-64 flight failed [Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991], was outside its scope.
 
@@ -1150,6 +1519,1260 @@ The X-10 was built to find out whether a machine could still know where it was a
 The error a navigator accumulates from its accelerometers is bounded by the geometry of the planet at about 1.3 kilometres. The error it accumulates from its gyroscopes grows without limit. The two are equal at forty-eight minutes. A thousand-kilometre leg at the X-10's top speed would last twenty-eight, and over so short a window the two error signatures are ninety-seven percent correlated. The reported sorties were longer, however, and the one navigation flight whose duration is recorded lasted seventy-nine minutes, close to the eighty-four over which the two signatures are exactly uncorrelated. **For that flight the crossover argument does not hold**, and it holds only for the Edwards flights, which carried no navigator, and for a dash at top speed that no navigation flight is known to have been. What limited the measurement is that five autonavigator flights were made and two were aborted, which leaves the spread of the drift known to no better than about fifty percent, and that the longest of them lasted under half of the Navaho's three hours, over a surveyed test range.
 
 Three of the series' vehicles have now been things other than aircraft, and the X-10 is the one that shows why the distinction is hard. It had wings, wheels, a runway, and a flight test programme. What it did not have was a pilot, and the consequence of not having a pilot was that its entire reason for existing was a measurement rather than a demonstration. **A demonstration succeeds by being performed once. A measurement of a spread succeeds only if it is repeated**, and a recoverable vehicle that kept destroying itself on landing could not be repeated often enough.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 123 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 123, 72 are established and 51 are bespoke.
+The equations use SI units unless historical values are converted, gyro drift is also given in degrees per hour and angular errors in arcseconds, and symbols such as gamma, n, R, a, c, e, r, s, p, T and mu have different meanings between sections while Re denotes Reynolds number and R_e the Earth radius.
+
+**Equation 1, Speed of Sound at 24 Kilometres.**
+At 24 kilometres the ideal-gas speed of sound is 297.8 metres per second using the standard atmosphere temperature.
+[Parsch 2002 SM-64][ref_parsch_sm64]
+
+$$
+a = \sqrt{\gamma R T} = \sqrt{1.4 \times 287.05 \times 220.6} = 297.8 \, \text{m/s}
+\tag{1}
+$$
+
+**Equation 2, Cruise Time over the Mission Range.**
+The ten-million-metre mission range divided by the cruise speed gives a flight time of 10,333 seconds.
+[Parsch 2002 SM-64][ref_parsch_sm64]
+
+$$
+t = \frac{R_{\text{mission}}}{v} = \frac{1.0 \times 10^{7}}{967.8} = 10{,}333 \, \text{s} = 2.87 \, \text{hours}
+\tag{2}
+$$
+
+**Equation 3, Secular Inertial Position Error.**
+For a level platform the position error from constant gyroscope drift grows as Earth radius times drift rate times elapsed time.
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+[Titterton and Weston 2004 Strapdown Inertial Navigation Technology][book_titterton_weston_2004]
+
+$$
+\delta x_{\text{secular}} = R_{e} \, \varepsilon \, t
+\tag{3}
+$$
+
+*Equation 4, Bespoke Required Gyroscope Drift Rate from the Weapon Accuracy Goal.*
+The calculation treats the entire reported circular error probable as position error from gyroscope drift over the mission, yielding 1.215 times ten to the minus eight radians per second.
+[circular error probable][ref_cep]
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+\varepsilon_{\text{req}} = \frac{\mathrm{CEP}}{R_{e} t} = \frac{800}{6.371 \times 10^{6} \times 10{,}333} = 1.215 \times 10^{-8} \, \text{rad/s}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Required Drift Rate in Degrees per Hour.*
+Converting the rate derived by allocating the entire reported circular error probable to gyroscope drift from radians per second gives 0.0025 degrees per hour.
+
+$$
+\varepsilon_{\text{req}} = 1.215 \times 10^{-8} \times 206{,}265 = 0.0025 \, \text{deg/hr}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Achieved Drift Rate from Reported Position Error.*
+The calculation attributes all reported position error growth of 1.6 kilometres per hour to gyroscope drift, giving an equivalent drift of 0.0144 degrees per hour.
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+\varepsilon_{\text{ach}} = \frac{1600}{6.371 \times 10^{6} \times 3600} = 6.976 \times 10^{-8} \, \text{rad/s} = 0.0144 \, \text{deg/hr}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Drift Shortfall Factor.*
+The reported achieved drift is 5.74 times the required rate obtained by allocating the whole circular error probable to gyroscope drift.
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+\frac{\varepsilon_{\text{ach}}}{\varepsilon_{\text{req}}} = \frac{0.0144}{0.0025} = 5.74
+\tag{7}
+$$
+
+**Equation 8, Accelerometer Error Equation.**
+The velocity error changes with platform tilt under gravity and with accelerometer bias.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+\dot{\delta v} = -g \phi + \nabla
+\tag{8}
+$$
+
+**Equation 9, Platform Tilt Error Equation.**
+The platform tilt rate is the velocity error divided by Earth radius plus gyroscope drift.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+\dot{\phi} = \frac{\delta v}{R_{e}} + \varepsilon
+\tag{9}
+$$
+
+**Equation 10, Second-Order Schuler Error Equation.**
+Eliminating platform tilt from the inertial error equations gives a forced oscillator with gyroscope drift as its forcing.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+\ddot{\delta v} + \frac{g}{R_{e}} \delta v = -g \varepsilon
+\tag{10}
+$$
+
+**Equation 11, Undamped Velocity Error Solution.**
+The homogeneous Schuler error equation has a sine and cosine solution at its natural frequency.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+\delta v_{h}(t) = C_{1} \cos \omega_{s} t + C_{2} \sin \omega_{s} t
+\tag{11}
+$$
+
+**Equation 12, Schuler Frequency.**
+The Schuler frequency is the square root of gravity divided by Earth radius, evaluated here for Earth.
+[Schuler frequency][ref_schuler]
+
+$$
+\omega_{s} = \sqrt{\frac{g}{R_{e}}} = \sqrt{\frac{9.80665}{6.371 \times 10^{6}}} = 1.2407 \times 10^{-3} \, \text{rad/s}
+\tag{12}
+$$
+
+**Equation 13, Schuler Period.**
+The Schuler period is the period corresponding to the natural frequency of the inertial platform.
+[Schuler frequency][ref_schuler]
+
+$$
+T_{s} = \frac{2\pi}{\omega_{s}} = 5064 \, \text{s} = 84.4 \, \text{minutes}
+\tag{13}
+$$
+
+**Equation 14, Bounded Position Error from Accelerometer Bias.**
+A constant accelerometer bias produces a bounded Schuler position error with amplitude set by the bias and Earth radius.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+\delta x_{\nabla}(t) = \frac{\nabla}{\omega_{s}^{2}} \left( 1 - \cos \omega_{s} t \right) = \frac{\nabla R_{e}}{g} \left( 1 - \cos \omega_{s} t \right)
+\tag{14}
+$$
+
+**Equation 15, Secular Position Error from Gyroscope Drift.**
+Gyroscope drift forces the Schuler loop and produces a position error containing a secular ramp.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+\delta x_{\varepsilon}(t) = -R_{e} \varepsilon \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} \right)
+\tag{15}
+$$
+
+*Equation 16, Bespoke Error from a Representative Accelerometer Bias.*
+The bounded position error uses the representative bias of one ten-thousandth of gravity for a good instrument of the period.
+[Staas and Philip C. 1963][research_staas_c_1963]
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+
+$$
+\delta x_{\nabla,\max} = \frac{2 \times 9.807 \times 10^{-4} \times 6.371 \times 10^{6}}{9.80665} = 1274 \, \text{m}
+\tag{16}
+$$
+
+**Equation 17, Crossover Time Between the Error Sources.**
+Equating the growing drift error with the maximum bounded bias error gives the time when the two contributions are equal.
+[Whitcombe 1961][research_whitcombe_1961]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+R_{e} \varepsilon t_{\times} = \frac{2 \nabla R_{e}}{g} \quad \Longrightarrow \quad t_{\times} = \frac{2 \nabla}{g \varepsilon}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Crossover Time for the Reported Instruments.*
+The crossover time evaluates the equality using the representative accelerometer bias and the reported achieved gyro drift.
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+t_{\times} = \frac{2 \times 9.807 \times 10^{-4}}{9.80665 \times 6.976 \times 10^{-8}} = 2867 \, \text{s} = 47.8 \, \text{minutes}
+\tag{18}
+$$
+
+**Equation 19, Bounded Position Error from Platform Tilt.**
+A residual platform tilt produces a bounded position error equal to twice Earth radius times the tilt.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+\delta x_{\phi} = 2 R_{e} \phi_{0}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Residual Tilt at the Navaho Goal.*
+Applying the weapon-wide 457 metre accuracy goal to the stellar inertial system gives a residual tilt of 7.4 arcseconds.
+[Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991]
+
+$$
+\phi_{0} = \frac{457}{2 \times 6.371 \times 10^{6}} = 3.588 \times 10^{-5} \, \text{rad} = 7.4 \, \text{arcsec}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Azimuth Error at the Navaho Goal.*
+Applying the same 457 metre goal over the reported mission range gives an azimuth error of 9.4 arcseconds.
+[Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991]
+
+$$
+\psi = \frac{457}{1.0 \times 10^{7}} = 4.572 \times 10^{-5} \, \text{rad} = 9.4 \, \text{arcsec}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Drift Error Relative to Stellar Accuracy.*
+The reported gyro drift produces ten times the stellar system accuracy goal over the mission range.
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+[Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991]
+
+$$
+\frac{R_{e} \varepsilon_{\text{ach}} t}{\mathrm{CEP}_{\text{stellar}}} = \frac{4592}{457} = 10.0
+\tag{22}
+$$
+
+**Equation 23, Time Between Star Fixes.**
+The time for drift to regrow the stellar accuracy error is the error divided by Earth radius times drift rate.
+[Horsfall 1958][research_horsfall_1958]
+[Blumhagen 1963][research_blumhagen_1963]
+
+$$
+t_{\text{fix}} = \frac{\mathrm{CEP}_{\text{stellar}}}{R_{e} \varepsilon_{\text{ach}}} = \frac{457}{6.371 \times 10^{6} \times 6.976 \times 10^{-8}} = 1029 \, \text{s} = 17.1 \, \text{minutes}
+\tag{23}
+$$
+
+**Equation 24, Vertical Channel Error Equation.**
+Linearising the gravity gradient gives an unstable altitude error equation with a positive growth term.
+[Schenkel 1974][research_schenkel_1974]
+
+$$
+\ddot{\delta h} = \frac{2g}{R_{e}} \delta h
+\tag{24}
+$$
+
+**Equation 25, Vertical Error Time Constant.**
+The vertical error time constant is the square root of Earth radius divided by twice gravity.
+[Schenkel 1974][research_schenkel_1974]
+
+$$
+\tau_{v} = \sqrt{\frac{R_{e}}{2g}} = \sqrt{\frac{6.371 \times 10^{6}}{19.613}} = 570 \, \text{s}
+\tag{25}
+$$
+
+**Equation 26, Vertical Error Doubling Time.**
+An exponential vertical error with the stated time constant doubles after that time constant multiplied by the natural logarithm of two.
+[Schenkel 1974][research_schenkel_1974]
+
+$$
+t_{2} = \tau_{v} \ln 2 = 395 \, \text{s} = 6.6 \, \text{minutes}
+\tag{26}
+$$
+
+**Equation 27, Vertical Error Growth over the Mission.**
+The mission duration divided by the vertical error time constant gives an exponential growth factor of 7.5 times ten to the seventh.
+[Schenkel 1974][research_schenkel_1974]
+
+$$
+e^{10{,}333 / 570} = 7.5 \times 10^{7}
+\tag{27}
+$$
+
+**Equation 28, Bounded Error from Vertical Deflection.**
+A deflection of the vertical produces a bounded position error equal to twice Earth radius times the deflection.
+[Vertical deflection][ref_vertical_deflection]
+
+$$
+\delta x_{\xi} = 2 R_{e} \xi
+\tag{28}
+$$
+
+**Equation 29, Position Error from a Ten-Arcsecond Deflection.**
+A ten-arcsecond vertical deflection produces 618 metres of position error.
+[Vertical deflection][ref_vertical_deflection]
+
+$$
+\delta x_{\xi} = 2 \times 6.371 \times 10^{6} \times \frac{10}{206{,}265} = 618 \, \text{m}
+\tag{29}
+$$
+
+**Equation 30, Linear Temperature Dependence of Gyroscope Drift.**
+The first-order drift model changes linearly with temperature from its reference value.
+[Grubin 1975][research_grubin_1975]
+[Metzger and Jircitano 1975][research_metzger_jircitano_1975]
+[Gerber 1975][research_gerber_1975]
+
+$$
+\varepsilon(T) = \varepsilon_{0} + k_{T} \left( T - T_{0} \right)
+\tag{30}
+$$
+
+*Equation 31, Bespoke Platform Temperature Control.*
+The platform must remain within a quarter kelvin when the representative drift sensitivity is one hundredth of a degree per hour per kelvin.
+[Grubin 1975][research_grubin_1975]
+
+$$
+\Delta T = \frac{\varepsilon_{\text{req}}}{k_{T}} = \frac{0.0025}{0.01} = 0.25 \, \text{K}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Drift from a One-Kelvin Temperature Change.*
+A one-kelvin temperature change produces drift of 0.01 degrees per hour under the representative sensitivity.
+[Grubin 1975][research_grubin_1975]
+
+$$
+\varepsilon = 0.01 \times 1 = 0.01 \, \text{deg/hr}
+\tag{32}
+$$
+
+**Equation 33, Independent Error Combination.**
+Independent position error contributions combine as the square root of the sum of their variances.
+[Mahlmeister et al. 1955][research_mahlmeister_1955]
+[Chen 1958][research_chen_1958]
+[Kendall and Gonzalez 1965][research_kendall_gonzalez_1965]
+
+$$
+\sigma_{\text{total}} = \sqrt{\sum_{i} \sigma_{i}^{2}}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Pure-Inertial Error Budget.*
+The four article-selected inertial error contributions combine to a total position error of 5,617 metres.
+[Mahlmeister et al. 1955][research_mahlmeister_1955]
+[Chen 1958][research_chen_1958]
+[Kendall and Gonzalez 1965][research_kendall_gonzalez_1965]
+
+$$
+\sigma_{\text{total}} = \sqrt{4592^{2} + 1274^{2} + 2909^{2} + 618^{2}} = 5617 \, \text{m}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Shares of the Error Variance.*
+The article's four error sources contribute the listed fractions of the total variance.
+[Mahlmeister et al. 1955][research_mahlmeister_1955]
+[Chen 1958][research_chen_1958]
+[Kendall and Gonzalez 1965][research_kendall_gonzalez_1965]
+
+$$
+\frac{\sigma_{i}^{2}}{\sigma_{\text{total}}^{2}} = 0.668, \; 0.268, \; 0.051, \; 0.012
+\tag{35}
+$$
+
+*Equation 36, Bespoke Stellar-Inertial Error Budget.*
+Replacing the drift and alignment terms with the stellar residual gives a total error of 1,488 metres.
+[Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991]
+[Mahlmeister et al. 1955][research_mahlmeister_1955]
+
+$$
+\sigma_{\text{stellar}} = \sqrt{457^{2} + 1274^{2} + 618^{2}} = 1488 \, \text{m}
+\tag{36}
+$$
+
+**Equation 37, Cross-Track Error from Azimuth Misalignment.**
+A small azimuth error produces a cross-track error equal to the angle times the mission range.
+[Remmler and Theobald 1967][research_remmler_theobald_1967]
+[Dusek 1964a][research_dusek_1964_2]
+
+$$
+\delta y = \psi \, R_{\text{mission}}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Cross-Track Error from One Arcminute.*
+A chosen one-arcminute launch misalignment over ten thousand kilometres produces 2,909 metres of cross-track error.
+[Dasaro 1970][research_dasaro_1970]
+
+$$
+\delta y = 2.909 \times 10^{-4} \times 1.0 \times 10^{7} = 2909 \, \text{m}
+\tag{38}
+$$
+
+**Equation 39, Required Drift Rate in Terms of Mission Range.**
+Substituting mission time as range divided by speed makes the required drift rate inversely proportional to mission range.
+[Navaho][ref_navaho]
+
+$$
+\varepsilon_{\text{req}} = \frac{\mathrm{CEP}}{R_{e} t} = \frac{\mathrm{CEP} \, v}{R_{e} R_{m}}
+\tag{39}
+$$
+
+**Equation 40, Drift Requirement Across Two Mission Ranges.**
+At fixed accuracy and speed the required drift rates have the inverse ratio of the two reported mission ranges.
+[Navaho][ref_navaho]
+
+$$
+\frac{\varepsilon_{1}}{\varepsilon_{2}} = \frac{R_{m,2}}{R_{m,1}} = \frac{5500}{500} = 11
+\tag{40}
+$$
+
+**Equation 41, Relative Standard Error of a Sample Standard Deviation.**
+For normally distributed samples the relative standard error of the sample standard deviation is approximately one over the square root of twice the degrees of freedom.
+
+$$
+\frac{\sigma_{s}}{s} \approx \frac{1}{\sqrt{2(n-1)}}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Sample Count for Twenty-Percent Precision.*
+The selected twenty-percent precision target requires at least fourteen samples of a normal quantity.
+
+$$
+n = 1 + \frac{1}{2 (0.2)^{2}} = 13.5 \, \text{flights}
+\tag{42}
+$$
+
+**Equation 43, Standard-Deviation Error with Five Samples.**
+Five samples give an estimated standard deviation with relative standard error of about 35 percent.
+[Werrell 1985 The Evolution of the Cruise Missile][book_werrell_1985]
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+\frac{\sigma_{s}}{s} = \frac{1}{\sqrt{2 \times 4}} = 0.354
+\tag{43}
+$$
+
+**Equation 44, Standard-Deviation Error with Three Samples.**
+Three samples give an estimated standard deviation with relative standard error of 50 percent.
+[Werrell 1985 The Evolution of the Cruise Missile][book_werrell_1985]
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+\frac{\sigma_{s}}{s} = \frac{1}{\sqrt{2 \times 2}} = 0.50
+\tag{44}
+$$
+
+*Equation 45, Bespoke X-10 Leg Duration.*
+A selected thousand-kilometre leg at the X-10 maximum speed takes 1,653 seconds.
+[North American X-10][ref_x10]
+[Parsch 2002 RTV-A-5 X-10][ref_parsch_x10]
+
+$$
+t_{\text{X-10}} = \frac{1.0 \times 10^{6}}{604.9} = 1653 \, \text{s} = 27.6 \, \text{minutes}
+\tag{45}
+$$
+
+*Equation 46, Bespoke Leg Duration Relative to the Crossover.*
+The selected maximum-speed leg lasts 0.58 times the calculated crossover time.
+[North American X-10][ref_x10]
+[Parsch 2002 RTV-A-5 X-10][ref_parsch_x10]
+
+$$
+\frac{t_{\text{X-10}}}{t_{\times}} = \frac{1653}{2867} = 0.58
+\tag{46}
+$$
+
+*Equation 47, Bespoke Gyroscope Error on the X-10 Leg.*
+The reported achieved drift accumulates 735 metres of position error during the selected X-10 leg.
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+[North American X-10][ref_x10]
+
+$$
+\delta x_{\varepsilon} = R_{e} \varepsilon_{\text{ach}} t_{\text{X-10}} = 735 \, \text{m}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Accelerometer Error on the X-10 Leg.*
+The representative accelerometer bias produces 931 metres of bounded error over the selected leg.
+[Staas and Philip C. 1963][research_staas_c_1963]
+[North American X-10][ref_x10]
+
+$$
+\delta x_{\nabla} = \frac{\nabla R_{e}}{g} \left( 1 - \cos \omega_{s} t_{\text{X-10}} \right) = 931 \, \text{m}
+\tag{48}
+$$
+
+*Equation 49, Bespoke Combined Error Signatures.*
+The measured position error is modelled as a bounded Schuler term plus a secular drift term with article-specific coefficients.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+[Britting 1971 Inertial Navigation Systems Analysis][book_britting_1971]
+
+$$
+\delta x(t) = A \left( 1 - \cos \omega_{s} t \right) + B \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} \right)
+\tag{49}
+$$
+
+*Equation 50, Bespoke Orthogonality over One Schuler Period.*
+The article's centred accelerometer and gyroscope error signatures integrate to zero correlation over one full Schuler period.
+[Lange and Parkinson 1965][research_lange_parkinson_1965]
+
+$$
+\int_{0}^{T_{s}} \left( -\cos \omega_{s} t \right) \left( t - \frac{\sin \omega_{s} t}{\omega_{s}} - \frac{T_{s}}{2} \right) dt = 0
+\tag{50}
+$$
+
+*Equation 51, Bespoke Error-Signature Correlations.*
+The correlation of the two modelled error signatures is evaluated over the X-10 and Navaho flight durations.
+[North American X-10][ref_x10]
+[Navaho][ref_navaho]
+
+$$
+r(t_{\text{X-10}}) = 0.974 \qquad r(T_{s}) = 0.000 \qquad r(t_{\text{Navaho}}) = -0.042
+\tag{51}
+$$
+
+**Equation 52, Variance Inflation Factor.**
+The variance inflation factor for two correlated predictors is one over one minus their squared correlation.
+
+$$
+\mathrm{VIF} = \frac{1}{1 - r^{2}}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Subsonic X-10 Leg Speed.*
+Mach 0.9 at twelve kilometres gives a speed of 265.6 metres per second under the standard atmosphere.
+[North American X-10][ref_x10]
+
+$$
+v = M a = 0.9 \times 295.1 = 265.6 \, \text{m/s}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Subsonic X-10 Leg Duration.*
+The selected thousand-kilometre subsonic leg takes 3,766 seconds.
+[North American X-10][ref_x10]
+
+$$
+t_{\text{sub}} = \frac{1.0 \times 10^{6}}{265.6} = 3766 \, \text{s} = 62.8 \, \text{minutes}
+\tag{54}
+$$
+
+**Equation 55, Wing Aspect Ratio.**
+Wing span squared divided by reference area gives an aspect ratio of 1.87.
+[North American X-10][ref_x10]
+[Parsch 2002 RTV-A-5 X-10][ref_parsch_x10]
+
+$$
+AR = \frac{b^{2}}{S} = \frac{8.59^{2}}{39.48} = 1.87
+\tag{55}
+$$
+
+**Equation 56, Static Margin in Chord Units.**
+The static margin is the aerodynamic-centre to centre-of-gravity distance divided by mean chord.
+[Pfyl 1952][research_pfyl_1952]
+
+$$
+h_{n} = \frac{x_{ac} - x_{cg}}{\bar{c}}
+\tag{56}
+$$
+
+**Equation 57, Pitching-Moment Slope from Static Margin.**
+The pitching-moment slope is the negative lift-curve slope times the static margin in chord units.
+[Pfyl 1952][research_pfyl_1952]
+[Bond and Swanson 1953][research_bond_swanson_1953]
+
+$$
+C_{m\alpha} = -C_{L\alpha} h_{n}
+\tag{57}
+$$
+
+**Equation 58, Minimum Drag Components.**
+The minimum drag coefficient is the sum of friction, wave and base drag coefficients.
+
+$$
+C_{D,\min} = C_{D,f} + C_{D,w} + C_{D,b}
+\tag{58}
+$$
+
+*Equation 59, Bespoke Wave-Drag Difference.*
+The article infers wave drag by subtracting the reported subsonic minimum drag from the supersonic value.
+[North American X-10][ref_x10]
+
+$$
+C_{D,w} = C_{D,\min,\text{sup}} - C_{D,\min,\text{sub}} = 0.040 - 0.020 = 0.020
+\tag{59}
+$$
+
+**Equation 60, Base-Drag Fraction of Minimum Drag.**
+The reported base-drag fraction applied to the total minimum drag gives a coefficient of 0.010.
+[North American X-10][ref_x10]
+
+$$
+C_{D,b} = 0.25 \times 0.040 = 0.010
+\tag{60}
+$$
+
+**Equation 61, Normal-Shock Total-Pressure Recovery.**
+The normal-shock relation gives the downstream to upstream total-pressure ratio for a perfect gas.
+[Gillespie and Arbic 1951][research_gillespie_arbic_1951]
+
+$$
+\frac{p_{02}}{p_{01}} = \left[ \frac{\frac{(\gamma+1) M^{2}}{2}}{1 + \frac{\gamma-1}{2} M^{2}} \right]^{\frac{\gamma}{\gamma-1}} \left[ \frac{\gamma+1}{2 \gamma M^{2} - (\gamma-1)} \right]^{\frac{1}{\gamma-1}}
+\tag{61}
+$$
+
+**Equation 62, Normal-Shock Recovery at Mach 1.70.**
+The normal-shock total-pressure ratio at the tested Mach number 1.70 is 0.856.
+[Gillespie and Arbic 1951][research_gillespie_arbic_1951]
+
+$$
+\left. \frac{p_{02}}{p_{01}} \right|_{M = 1.70} = 0.856
+\tag{62}
+$$
+
+*Equation 63, Bespoke Two-Shock Inlet Recovery.*
+The article's sixteen-degree wedge and maximum Mach number give a two-shock total-pressure recovery of 0.889.
+[Gillespie and Arbic 1951][research_gillespie_arbic_1951]
+
+$$
+\left. \frac{p_{02}}{p_{01}} \right|_{\text{two-shock}, M = 2.05} = 0.889
+\tag{63}
+$$
+
+*Equation 64, Bespoke Recovery Gain over a Normal Shock.*
+The selected two-shock inlet recovers 1.275 times the total pressure of a normal shock at the same Mach number.
+[Gillespie and Arbic 1951][research_gillespie_arbic_1951]
+
+$$
+\frac{0.889}{0.698} = 1.275
+\tag{64}
+$$
+
+**Equation 65, Isentropic Ram Total-Pressure Ratio.**
+For a perfect gas the isentropic total-to-static pressure ratio depends on Mach number and specific-heat ratio.
+[Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible]
+
+$$
+\frac{p_{0}}{p_{\infty}} = \left( 1 + \frac{\gamma-1}{2} M^{2} \right)^{\frac{\gamma}{\gamma-1}} = 8.458
+\tag{65}
+$$
+
+*Equation 66, Bespoke Break-Even Inlet Recovery.*
+Equating the thrust available after inlet recovery with the article's drag gives the minimum recovery needed to sustain the recorded speed.
+[Westinghouse J40][ref_j40]
+
+$$
+\eta_{\min} = \frac{D \, p_{0,\text{SL}}}{T_{\text{static}} \, p_{\infty} \, (p_{0}/p_{\infty})} = 0.622
+\tag{66}
+$$
+
+*Equation 67, Bespoke Recovery Relative to a Normal Shock.*
+The break-even recovery is 0.892 times the normal-shock recovery at the X-10 maximum Mach number.
+[Westinghouse J40][ref_j40]
+
+$$
+\frac{\eta_{\min}}{\eta_{\text{normal shock}}} = \frac{0.622}{0.698} = 0.892
+\tag{67}
+$$
+
+**Equation 68, Dynamic Pressure at the X-10 Ceiling.**
+The standard-atmosphere density and reported maximum Mach number give a dynamic pressure of 43,838 pascals.
+[Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible]
+
+$$
+q = \tfrac{1}{2} \rho v^{2} = \tfrac{1}{2} \times 0.2397 \times 604.9^{2} = 43{,}838 \, \text{Pa}
+\tag{68}
+$$
+
+**Equation 69, Lift Coefficient at Maximum Take-Off Mass.**
+The coefficient needed to support the reported maximum take-off mass at the X-10 ceiling is 0.109.
+[North American X-10][ref_x10]
+
+$$
+C_{L} = \frac{W}{q S} = \frac{188{,}160}{43{,}838 \times 39.48} = 0.109
+\tag{69}
+$$
+
+*Equation 70, Bespoke Lift-to-Drag Ratio at the Ceiling.*
+The article's drag estimate uses an assumed induced-drag efficiency of 0.6 and gives a lift-to-drag ratio of 2.51.
+[North American X-10][ref_x10]
+
+$$
+\frac{L}{D} = \frac{188{,}160}{75{,}042} = 2.51
+\tag{70}
+$$
+
+**Equation 71, Breguet Jet-Range Equation.**
+The jet range equation relates speed, gravity, thrust-specific fuel consumption, lift-to-drag ratio and mass ratio.
+
+$$
+R = \frac{v}{g \, c} \frac{L}{D} \ln \frac{W_{0}}{W_{1}}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Range with a Generous Fuel Consumption.*
+A one-per-hour fuel consumption and an assumed mass ratio of 1.8 give 327 kilometres at the selected cruise condition.
+
+$$
+R = \frac{604.9}{9.80665 \times (1/3600)} \times 2.51 \times \ln 1.8 = 327 \, \text{km}
+\tag{72}
+$$
+
+**Equation 73, Fuel Fraction from Reported Masses.**
+The reported fuel load is 39 percent of the maximum take-off mass.
+[North American X-10][ref_x10]
+
+$$
+\frac{m_{f}}{m_{0}} = \frac{7484}{19{,}187} = 0.390
+\tag{73}
+$$
+
+**Equation 74, Mass Ratio from Reported Weights.**
+The reported maximum take-off and empty weights give a mass ratio of 1.64.
+[North American X-10][ref_x10]
+
+$$
+\frac{W_{0}}{W_{1}} = \frac{19{,}187}{11{,}703} = 1.640
+\tag{74}
+$$
+
+*Equation 75, Bespoke Range with the Reported Mass Ratio.*
+Substituting the reported mass ratio into the article's assumed cruise model gives 275 kilometres.
+[North American X-10][ref_x10]
+
+$$
+R = \frac{604.9}{9.80665 \times (1/3600)} \times 2.51 \times \ln 1.640 = 275 \, \text{km}
+\tag{75}
+$$
+
+*Equation 76, Bespoke Reported Ranges Relative to the Model.*
+The two reported ranges are 3.67 and 4.98 times the article's calculated maximum-Mach range.
+[North American X-10][ref_x10]
+[Parsch 2002 RTV-A-5 X-10][ref_parsch_x10]
+
+$$
+\frac{1009}{275} = 3.67 \qquad \frac{1370}{275} = 4.98
+\tag{76}
+$$
+
+*Equation 77, Bespoke Lift-to-Drag Ratio Required by the Reported Range.*
+At the selected subsonic speed and fuel consumption the smaller reported range requires a lift-to-drag ratio of 20.9.
+[North American X-10][ref_x10]
+[Parsch 2002 RTV-A-5 X-10][ref_parsch_x10]
+
+$$
+\frac{L}{D} = \frac{R g c}{v \ln (W_{0}/W_{1})} = \frac{1.009 \times 10^{6} \times 9.80665 \times (1/3600)}{265.6 \times 0.4944} = 20.9
+\tag{77}
+$$
+
+**Equation 78, Availability of at Least One Independent System.**
+For two independent systems the probability that at least one is available is one minus the probability that both fail.
+[Lichter and Friedenreich 1962][research_lichter_friedenreich_1962]
+
+$$
+P = 1 - (1 - p_{1})(1 - p_{2})
+\tag{78}
+$$
+
+*Equation 79, Bespoke Availability of Two Ninety-Five-Percent Systems.*
+Two systems each assigned 95 percent availability have a combined availability of 99.75 percent.
+[Lichter and Friedenreich 1962][research_lichter_friedenreich_1962]
+
+$$
+P = 1 - (0.05)^{2} = 0.9975
+\tag{79}
+$$
+
+**Equation 80, Short-Period Frequency Approximation.**
+A textbook approximation estimates natural frequency from pitch stiffness alone, omitting the other short-period terms.
+[Bond and Swanson 1953][research_bond_swanson_1953]
+
+$$
+\omega_{n} \approx \sqrt{-M_{\alpha}} = \sqrt{\frac{q S \bar{c} \, C_{L\alpha} \, h_{n}}{I_{yy}}}
+\tag{80}
+$$
+
+*Equation 81, Bespoke Pitch Frequency at Mach 0.95.*
+The selected static margin and three-percent allowance give a frequency of 0.63 radians per second at Mach 0.95.
+[Bond and Swanson 1953][research_bond_swanson_1953]
+
+$$
+\omega_{n} = 0.63 \, \text{rad/s} \quad \text{at Mach 0.95 with a 3 percent margin}
+\tag{81}
+$$
+
+*Equation 82, Bespoke Pitch Frequency at Mach 2.05.*
+The selected static margin and ten-percent allowance give a frequency of 2.03 radians per second at Mach 2.05.
+[Zarovsky 1951][research_zarovsky_1951]
+
+$$
+\omega_{n} = 2.03 \, \text{rad/s} \quad \text{at Mach 2.05 with a 10 percent margin}
+\tag{82}
+$$
+
+**Equation 83, Net Thrust Scaling with Total-Pressure Recovery.**
+At fixed engine geometry the net thrust scales approximately with inlet total-pressure recovery and the ram pressure ratio.
+[Westinghouse J40][ref_j40]
+
+$$
+\frac{T}{T_{\text{SL}}} \approx \eta \, \frac{p_{\infty}}{p_{\text{SL}}} \left( 1 + \frac{\gamma-1}{2} M^{2} \right)^{\frac{\gamma}{\gamma-1}}
+\tag{83}
+$$
+
+**Equation 84, Recovery Temperature.**
+The recovery temperature is the freestream temperature multiplied by the recovery-factor correction for Mach number.
+[Besserer 1952][research_besserer_1952]
+[De VAULT 1957][research_vault_1957]
+
+$$
+T_{r} = T_{\infty} \left( 1 + r \frac{\gamma - 1}{2} M^{2} \right)
+\tag{84}
+$$
+
+**Equation 85, X-10 Recovery Temperature at Maximum Mach.**
+The standard-atmosphere temperature and reported maximum Mach number give a recovery temperature of 378.7 kelvin.
+[Besserer 1952][research_besserer_1952]
+[De VAULT 1957][research_vault_1957]
+
+$$
+T_{r} = 216.65 \left( 1 + 0.89 \times 0.2 \times 2.05^{2} \right) = 378.7 \, \text{K} = 105.6 \, ^{\circ}\text{C}
+\tag{85}
+$$
+
+**Equation 86, Navaho Recovery Temperature at Cruise.**
+The standard-atmosphere temperature and reported cruise Mach number give a recovery temperature of 635.5 kelvin.
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+T_{r} = 220.6 \left( 1 + 0.89 \times 0.2 \times 3.25^{2} \right) = 635.5 \, \text{K} = 362.4 \, ^{\circ}\text{C}
+\tag{86}
+$$
+
+**Equation 87, Mach Number at the Aluminium Temperature Limit.**
+Solving the recovery-temperature relation for Mach gives 2.27 at the conventional aluminium limit and the reported cruise altitude.
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+M_{\text{Al}} = \sqrt{\frac{2}{r (\gamma - 1)} \left( \frac{T_{\text{Al}}}{T_{\infty}} - 1 \right)} = 2.27
+\tag{87}
+$$
+
+**Equation 88, Lumped Skin Thermal Time Constant.**
+A lumped skin model has a thermal time constant equal to density times heat capacity times thickness divided by the heat-transfer coefficient.
+
+$$
+\tau_{\text{skin}} = \frac{\rho c \delta}{h}
+\tag{88}
+$$
+
+*Equation 89, Bespoke Skin Thermal Time Constant.*
+The selected two-millimetre aluminium skin and convective coefficient of 100 watts per square metre kelvin give a time constant of 48.6 seconds.
+
+$$
+\tau_{\text{skin}} = \frac{2700 \times 900 \times 0.002}{100} = 48.6 \, \text{s}
+\tag{89}
+$$
+
+**Equation 90, Mission Reliability for Identical Subsystems.**
+If all n subsystems must work independently and each has reliability p the mission reliability is p raised to n.
+[Biernson 1965][research_biernson_1965]
+[Davies and Haines 1965][research_davies_haines_1965]
+[Marstrander and Lueg 1969][research_marstrander_lueg_1969]
+
+$$
+P_{\text{mission}} = p^{n}
+\tag{90}
+$$
+
+*Equation 91, Bespoke Mission Reliability for Ten Subsystems.*
+Ten subsystems at the selected 95 percent reliability each give a mission reliability of 59.9 percent.
+[Landis 2020 Flashback, The Navaho Missile, Part 1][ref_landis_2020_part_1]
+[Blumenthal and Denton 1962][research_blumenthal_denton_1962]
+
+$$
+P = 0.95^{10} = 0.599
+\tag{91}
+$$
+
+*Equation 92, Bespoke X-10 Stall Speed.*
+An assumed twelve-tonne landing mass and unit maximum lift coefficient give a sea-level stall speed of 69.8 metres per second.
+[North American X-10][ref_x10]
+[Montgomery 1975][research_montgomery_1975]
+
+$$
+v_{\text{stall}} = \sqrt{\frac{2W}{\rho S C_{L,\max}}} = \sqrt{\frac{2 \times 117{,}680}{1.225 \times 39.48 \times 1.0}} = 69.8 \, \text{m/s}
+\tag{92}
+$$
+
+*Equation 93, Bespoke Landing Energy.*
+The selected twelve-tonne landing mass and 83.7-metre-per-second approach speed give 42 megajoules of kinetic energy.
+[North American X-10][ref_x10]
+
+$$
+E = \tfrac{1}{2} m v^{2} = \tfrac{1}{2} \times 12{,}000 \times 83.7^{2} = 42.0 \, \text{MJ}
+\tag{93}
+$$
+
+*Equation 94, Bespoke Braking Distance.*
+At the selected friction coefficient of 0.4 the approach speed requires 893 metres to stop.
+
+$$
+s = \frac{v^{2}}{2 \mu g} = \frac{7006}{2 \times 0.4 \times 9.80665} = 893 \, \text{m}
+\tag{94}
+$$
+
+*Equation 95, Bespoke Runway Margin.*
+The reported 3,048-metre runway is 3.41 times the calculated braking distance.
+[Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991]
+
+$$
+\frac{3048}{893} = 3.41
+\tag{95}
+$$
+
+*Equation 96, Bespoke Drag-Chute Area.*
+The article sizes a chute to match the selected wheel-braking force at touchdown speed and obtains 7.83 square metres.
+[Stowell et al. 1948][research_stowell_1948]
+[Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992]
+
+$$
+S_{c} = \frac{\mu W}{\frac{1}{2} \rho v^{2} C_{D,c}} = \frac{47{,}072}{\frac{1}{2} \times 1.225 \times 7006 \times 1.4} = 7.83 \, \text{m}^{2}
+\tag{96}
+$$
+
+**Equation 97, Sink Rate on a Glide Slope.**
+The vertical speed on a straight glide slope is forward speed times the negative sine of the flight-path angle.
+[MACKlNNON and Madden 1972][research_macklnnon_madden_1972]
+
+$$
+\dot{h} = -v \sin \gamma
+\tag{97}
+$$
+
+*Equation 98, Bespoke Sink Rate at the Approach Condition.*
+The selected 83.7-metre-per-second approach speed and three-degree glide slope give a sink rate of 4.38 metres per second.
+[MACKlNNON and Madden 1972][research_macklnnon_madden_1972]
+
+$$
+\dot{h} = -83.7 \times \sin 3^{\circ} = -4.38 \, \text{m/s}
+\tag{98}
+$$
+
+**Equation 99, Exponential Flare Model.**
+The article represents flare height as an exponential decay with its derivative set by the flare time constant.
+[Payne 1968][research_payne_1968]
+
+$$
+h(t) = h_{0} e^{-t / \tau_{f}}, \qquad \dot{h} = -\frac{h}{\tau_{f}}
+\tag{99}
+$$
+
+**Equation 100, Radio Horizon with Standard Refraction.**
+The radio horizon uses an effective Earth radius four thirds of the true radius under standard atmospheric refraction.
+
+$$
+d_{\text{horizon}} = \sqrt{2 \, k \, R_{e} \, h}, \qquad k = \frac{4}{3}
+\tag{100}
+$$
+
+**Equation 101, Radio Horizon at the X-10 Service Ceiling.**
+At the reported service ceiling the effective-Earth-radius model gives a radio horizon of 482 kilometres.
+[Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991]
+
+$$
+d_{\text{horizon}} = \sqrt{2 \times \tfrac{4}{3} \times 6.371 \times 10^{6} \times 13{,}650} = 482 \, \text{km}
+\tag{101}
+$$
+
+*Equation 102, Bespoke Radio Horizon Relative to a Thousand-Kilometre Leg.*
+The selected one-way leg is 2.08 times the radio horizon at the X-10 service ceiling.
+[Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991]
+
+$$
+\frac{1000}{482} = 2.08
+\tag{102}
+$$
+
+**Equation 103, Level Turn Radius.**
+For a level coordinated turn the radius depends on speed and load factor through the square root of load factor squared minus one.
+[Muehlner 1962][research_muehlner_1962]
+[Rowlandson and Herlihy 1969][research_rowlandson_herlihy_1969]
+
+$$
+r = \frac{v^{2}}{g \sqrt{n^{2} - 1}}
+\tag{103}
+$$
+
+*Equation 104, Bespoke Turn Radius at Maximum Speed.*
+At the X-10 maximum speed and the selected two-g load factor the turn radius is 21.5 kilometres.
+[North American X-10][ref_x10]
+
+$$
+r = \frac{604.9^{2}}{9.80665 \times \sqrt{3}} = 21.5 \, \text{km}
+\tag{104}
+$$
+
+*Equation 105, Bespoke Course-Reversal Time.*
+A half-circle at the selected maximum speed and two-g turn radius takes 112 seconds.
+[North American X-10][ref_x10]
+
+$$
+t_{\text{turn}} = \frac{\pi r}{v} = \frac{\pi \times 21{,}541}{604.9} = 112 \, \text{s}
+\tag{105}
+$$
+
+**Equation 106, Dive Ground Range.**
+For a straight dive at flight-path angle gamma the ground range is altitude divided by the tangent of the angle.
+[Wheeler 1946][research_wheeler_1946]
+
+$$
+x = \frac{h}{\tan \gamma}
+\tag{106}
+$$
+
+**Equation 107, Sensitivity of Dive Range to Flight-Path Angle.**
+Differentiating the dive-range relation gives its sensitivity to flight-path angle.
+[Wheeler 1946][research_wheeler_1946]
+
+$$
+\frac{dx}{d\gamma} = -\frac{h}{\sin^{2} \gamma}
+\tag{107}
+$$
+
+*Equation 108, Bespoke Dive-Range Sensitivity at Forty-Five Degrees.*
+From 24 kilometres at a selected 45-degree dive angle the range changes by 48 kilometres per radian.
+[Wheeler 1946][research_wheeler_1946]
+
+$$
+\frac{dx}{d\gamma} = -\frac{24{,}000}{0.5} = -48{,}000 \, \text{m/rad}
+\tag{108}
+$$
+
+**Equation 109, Fraction of Vehicles Lost.**
+The reported loss of twelve among thirteen vehicles is 92.3 percent.
+[Dunmire and Lopresti 1963][research_dunmire_lopresti_1963]
+[Broglio 1961][research_broglio_1961]
+[Parsch 2002 RTV-A-5 X-10][ref_parsch_x10]
+
+$$
+\frac{12}{13} = 0.923
+\tag{109}
+$$
+
+**Equation 110, Reynolds Number.**
+The Reynolds number is density times speed times reference length divided by dynamic viscosity.
+
+$$
+Re = \frac{\rho v \bar{c}}{\mu}
+\tag{110}
+$$
+
+**Equation 111, Dynamic Viscosity from Sutherland Relation.**
+Sutherland's relation gives the dynamic viscosity of air from temperature.
+
+$$
+\mu = \frac{1.458 \times 10^{-6} \, T^{3/2}}{T + 110.4} = 1.42 \times 10^{-5} \, \text{Pa s}
+\tag{111}
+$$
+
+**Equation 112, Full-Scale Reynolds Number at the Ceiling.**
+The standard-atmosphere state and reported chord give a full-scale Reynolds number of 46.8 million.
+[X-7][related_post_a304_lockheed_x7]
+
+$$
+Re_{\text{full}} = \frac{0.2397 \times 604.9 \times 4.595}{1.42 \times 10^{-5}} = 4.68 \times 10^{7}
+\tag{112}
+$$
+
+**Equation 113, Model Reynolds Number Relative to Full Scale.**
+The reported model Reynolds-number range spans 19 to 51 percent of the full-scale value.
+[X-7][related_post_a304_lockheed_x7]
+
+$$
+\frac{Re_{\text{model}}}{Re_{\text{full}}} = 0.19 \; \text{to} \; 0.51
+\tag{113}
+$$
+
+**Equation 114, Mission Central Angle.**
+The ten-thousand-kilometre surface range is 1.570 radians at the Earth's radius.
+[Parsch 2002 SM-64][ref_parsch_sm64]
+
+$$
+\Phi = \frac{R_{m}}{R_{e}} = \frac{1.0 \times 10^{7}}{6.371 \times 10^{6}} = 1.570 \, \text{rad}
+\tag{114}
+$$
+
+**Equation 115, Minimum-Energy Ballistic Speed Parameter.**
+For the minimum-energy ballistic trajectory the nondimensional burnout speed follows from the mission central angle.
+[Parsch 2002 SM-64][ref_parsch_sm64]
+
+$$
+\lambda = \frac{V^{2}}{g R_{e}} = \frac{2 \sin (\Phi/2)}{1 + \sin (\Phi/2)} = 0.828
+\tag{115}
+$$
+
+**Equation 116, Minimum-Energy Ballistic Speed.**
+The speed parameter gives a burnout speed of 7,193 metres per second for the selected range.
+[Parsch 2002 SM-64][ref_parsch_sm64]
+
+$$
+V = \sqrt{0.828 \times 9.80665 \times 6.371 \times 10^{6}} = 7193 \, \text{m/s}
+\tag{116}
+$$
+
+**Equation 117, Ballistic Semi-Major Axis.**
+The vis-viva relation gives the ballistic trajectory's semi-major axis from the speed parameter.
+[Parsch 2002 SM-64][ref_parsch_sm64]
+
+$$
+a = \frac{R_{e}}{2 - \lambda} = 5.437 \times 10^{6} \, \text{m}
+\tag{117}
+$$
+
+**Equation 118, Minimum-Energy Ballistic Flight Time.**
+The difference in mean anomaly divided by mean motion gives the flight time on the minimum-energy trajectory.
+[Parsch 2002 SM-64][ref_parsch_sm64]
+
+$$
+t_{\text{ballistic}} = \frac{\Delta M}{n} = 1932 \, \text{s} = 32.2 \, \text{minutes}
+\tag{118}
+$$
+
+*Equation 119, Bespoke Cruise-to-Ballistic Time Ratio.*
+At the selected ten-thousand-kilometre range the cruise vehicle remains in flight 5.35 times longer than the minimum-energy ballistic trajectory.
+[Parsch 2002 SM-64][ref_parsch_sm64]
+
+$$
+\frac{t_{\text{cruise}}}{t_{\text{ballistic}}} = \frac{172.2}{32.2} = 5.35
+\tag{119}
+$$
+
+**Equation 120, Modern Gyroscope Drift Relative to the Navaho Requirement.**
+The reported 0.003-degree-per-hour gyroscope drift is 1.20 times the historical 0.0025-degree-per-hour requirement.
+[Chen et al. 2025a][research_chen_2025]
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+\frac{0.003}{0.0025} = 1.20
+\tag{120}
+$$
+
+**Equation 121, Modern Gyroscope Drift Error over the Mission.**
+A reported gyroscope drift of 0.003 degrees per hour produces 957 metres of secular error over the Navaho mission.
+[Chen et al. 2025a][research_chen_2025]
+[Wade, Navaho, Encyclopedia Astronautica][ref_astronautix_navaho]
+
+$$
+\delta x = R_{e} \varepsilon t = 6.371 \times 10^{6} \times 1.454 \times 10^{-8} \times 10{,}333 = 957 \, \text{m}
+\tag{121}
+$$
+
+**Equation 122, Isentropic Ram Pressure Ratio.**
+The ideal ram-pressure ratio at a given Mach number follows the perfect-gas isentropic relation.
+[Hill and Peterson 1991 Mechanics and Thermodynamics of Propulsion][book_hill_peterson_1991]
+
+$$
+\frac{p_{0}}{p_{\infty}} = \left( 1 + \frac{\gamma - 1}{2} M^{2} \right)^{\frac{\gamma}{\gamma - 1}}
+\tag{122}
+$$
+
+**Equation 123, Specific Energy of the Navaho Booster.**
+The booster speed and altitude give a specific mechanical energy of 0.571 megajoules per kilogram.
+[Hill and Peterson 1991 Mechanics and Thermodynamics of Propulsion][book_hill_peterson_1991]
+[Reilly and Welna 1955][research_reilly_welna_1955]
+[Cleary 1991 The 6555th, The NAVAHO Program][ref_cleary_1991]
+
+$$
+e = \tfrac{1}{2} v^{2} + g h = \tfrac{1}{2} (818.9)^{2} + 9.80665 \times 24{,}000 = 0.571 \, \text{MJ/kg}
+\tag{123}
+$$
+
+### Notation
+
+- $a$, the speed of sound and later the semi-major axis
+- $\gamma$, the ratio of specific heats and in the dive relation the flight-path angle
+- $R$, the universal gas constant and the range in the Breguet relation
+- $T$, the atmospheric temperature, the Schuler period and the engine thrust
+- $t$, elapsed time
+- $R_{\text{mission}}$, the Navaho mission range
+- $v$, vehicle speed
+- $\delta x_{\text{secular}}$, the secular position error from gyroscope drift
+- $R_{e}$, the radius of the Earth
+- $\varepsilon$, the gyroscope drift rate
+- $\mathrm{CEP}$, the circular error probable
+- $\delta v$, the inertial navigator velocity error
+- $g$, gravitational acceleration
+- $\phi$, the platform tilt from the vertical
+- $\nabla$, the accelerometer bias
+- $\omega_{s}$, the Schuler angular frequency
+- $C_{1}$, an initial-condition coefficient in the homogeneous Schuler solution
+- $C_{2}$, an initial-condition coefficient in the homogeneous Schuler solution
+- $T_{s}$, the Schuler period
+- $\delta x_{\nabla}$, the bounded position error from accelerometer bias
+- $\delta x_{\varepsilon}$, the position error from gyroscope drift
+- $t_{\times}$, the crossover time at which the two error contributions are equal
+- $\delta x_{\phi}$, the bounded position error from residual platform tilt
+- $\phi_{0}$, the residual platform tilt
+- $\psi$, the launch azimuth error
+- $\sigma_{s}$, the standard error of an estimated sample standard deviation
+- $s$, the sample standard deviation and later the braking distance
+- $n$, the sample count, number of subsystems, turn load factor and orbital mean motion
+- $A$, the coefficient of the bounded Schuler error signature
+- $B$, the coefficient of the secular drift error signature
+- $r$, the error-signature correlation, recovery factor and turn radius
+- $\mathrm{VIF}$, the variance inflation factor
+- $M$, Mach number
+- $AR$, the wing aspect ratio
+- $b$, wing span
+- $S$, wing reference area
+- $h_{n}$, the static margin in mean-chord units
+- $x_{ac}$, the aerodynamic-centre position
+- $x_{cg}$, the centre-of-gravity position
+- $\bar{c}$, the mean aerodynamic chord
+- $C_{m\alpha}$, the pitching-moment coefficient slope with angle of attack
+- $C_{L\alpha}$, the lift-coefficient slope with angle of attack
+- $C_{D,\min}$, the minimum drag coefficient
+- $p_{0}$, stagnation pressure
+- $p_{\infty}$, ambient static pressure
+- $\eta$, inlet total-pressure recovery
+- $D$, vehicle drag
+- $T_{\text{SL}}$, the installed static thrust at sea level
+- $q$, dynamic pressure
+- $W$, aircraft weight
+- $L$, aerodynamic lift
+- $c$, thrust-specific fuel consumption and later specific heat capacity
+- $W_{0}$, the initial aircraft weight
+- $W_{1}$, the final aircraft weight
+- $m_{f}$, fuel mass
+- $m_{0}$, initial vehicle mass
+- $P$, probability of at least one system being available
+- $p$, the reliability of one subsystem and pressure in the compressible-flow relations
+- $\omega_{n}$, the short-period natural frequency
+- $I_{yy}$, the pitch moment of inertia
+- $T_{r}$, the recovery temperature
+- $T_{\infty}$, freestream temperature
+- $\tau_{\text{skin}}$, the thermal time constant of the skin
+- $\rho$, air density
+- $\delta$, skin thickness
+- $h$, altitude and the convective heat-transfer coefficient
+- $v_{\text{stall}}$, stall speed
+- $C_{L,\max}$, maximum lift coefficient
+- $E$, kinetic energy
+- $m$, vehicle mass
+- $\mu$, braking friction coefficient and dynamic viscosity
+- $S_{c}$, drag-chute area
+- $C_{D,c}$, drag-chute drag coefficient
+- $\dot{h}$, vertical speed
+- $h_{0}$, initial flare height
+- $\tau_{f}$, flare time constant
+- $d_{\text{horizon}}$, radio horizon distance
+- $k$, effective-Earth-radius multiplier for atmospheric refraction
+- $t_{\text{turn}}$, time to complete a course reversal
+- $x$, ground range in the dive relation
+- $\Phi$, the central angle corresponding to the mission range
+- $R_{m}$, the mission range in the ballistic calculation
+- $\lambda$, the squared burnout-speed ratio to circular speed
+- $V$, ballistic burnout speed
+- $\Delta M$, the change in mean anomaly between launch and impact
+- $e$, orbital eccentricity and later specific mechanical energy
+- $Re$, the Reynolds number
+- $M_{\alpha}$, the aerodynamic pitching-moment stiffness
+- $p_{\text{SL}}$, sea-level static pressure
+- $M_{\text{Al}}$, the Mach number at the selected aluminium temperature limit
+- $T_{\text{Al}}$, the selected aluminium temperature limit
+- $C_{D,f}$, the friction drag coefficient
+- $C_{D,w}$, the wave drag coefficient
+- $C_{D,b}$, the base drag coefficient
+- $P_{\text{mission}}$, the probability that every required subsystem works
+- $p_{1}$, the probability that the first guidance system is available
+- $p_{2}$, the probability that the second guidance system is available
 
 ## References
 

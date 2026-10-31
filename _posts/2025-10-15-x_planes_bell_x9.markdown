@@ -29,15 +29,24 @@ The military characteristics the Army Air Forces published on 15 July 1945 asked
 
 A missile that misses by a random amount in two dimensions, with independent and equal-variance errors in range and in deflection, lands at a radius whose distribution is [Rayleigh][ref_rayleigh]. The statistic built on it is the [circular error probable][ref_cep], and the standard treatments are [Papoulis and Pillai 2002 Probability, Random Variables and Stochastic Processes][book_papoulis_2002] for the distribution and [Driels 2013 Weaponeering, Conventional Weapon System Effectiveness][book_driels_2013] and [Przemieniecki 2000 Mathematical Methods in Defense Analyses][book_przemieniecki_2000] for its use in weapon assessment. The probability of landing within a radius $R$ is
 
-$$P(R) = 1 - \exp\left( -\frac{R^{2}}{2\sigma^{2}} \right)$$
+$$
+P(R) = 1 - \exp\left( -\frac{R^{2}}{2\sigma^{2}} \right)
+\tag{1}
+$$
 
 with $\sigma$ the standard deviation along either axis. Inverting for the specification gives the variance the programme had to meet,
 
-$$\sigma = \frac{R}{\sqrt{-2 \ln \left( 1 - P \right)}} = \frac{500 \times 0.3048}{\sqrt{2 \ln 4}} = \frac{152.4}{1.665} = 91.5 \, \text{m}$$
+$$
+\sigma = \frac{R}{\sqrt{-2 \ln \left( 1 - P \right)}} = \frac{500 \times 0.3048}{\sqrt{2 \ln 4}} = \frac{152.4}{1.665} = 91.5 \, \text{m}
+\tag{2}
+$$
 
 which is 300 feet. The figure more usually quoted is the circular error probable, the radius containing half the impacts, which follows from the same distribution as
 
-$$\mathrm{CEP} = \sigma \sqrt{2 \ln 2} = 1.177 \, \sigma = 108 \, \text{m}$$
+$$
+\mathrm{CEP} = \sigma \sqrt{2 \ln 2} = 1.177 \, \sigma = 108 \, \text{m}
+\tag{3}
+$$
 
 **One hundred and eight metres at a hundred miles.** That number is the X-9's keystone, and the rest of this article is an account of what it costs.
 
@@ -45,15 +54,24 @@ The estimation of that quantity from a finite number of flights is a subject in 
 
 The size of that difficulty is computable. The relative standard error of a variance estimate from $n$ samples of a normal population is
 
-$$\frac{\sigma_{\hat{s}}}{s} \approx \frac{1}{\sqrt{2 \left( n-1 \right)}}$$
+$$
+\frac{\sigma_{\hat{s}}}{s} \approx \frac{1}{\sqrt{2 \left( n-1 \right)}}
+\tag{4}
+$$
 
 which for twenty-two flights is 15 percent, so a circular error probable estimated from every flight of the programme carries a confidence interval of roughly plus or minus thirty percent at two standard errors. **A vehicle that measured 108 metres could not have been distinguished from one that measured 140.** The estimator takes a simple form. From $n$ impacts at radial distances $r_i$ from the mean point, the maximum-likelihood estimate of the axis standard deviation under the circular normal assumption is
 
-$$\hat{\sigma} = \sqrt{\frac{1}{2n} \sum_{i=1}^{n} r_i^{2}}$$
+$$
+\hat{\sigma} = \sqrt{\frac{1}{2n} \sum_{i=1}^{n} r_i^{2}}
+\tag{5}
+$$
 
 and the circular error probable follows as $1.1774 \hat{\sigma}$. A bias changes the problem qualitatively rather than quantitatively, because a systematic offset $b$ is not reduced by more sampling. The total root-mean-square miss becomes
 
-$$m_{\text{rms}} = \sqrt{b^{2} + 2 \sigma^{2}}$$
+$$
+m_{\text{rms}} = \sqrt{b^{2} + 2 \sigma^{2}}
+\tag{6}
+$$
 
 so a 50 metre bias on a 91.5 metre axis standard deviation gives 139 metres against 129 for the unbiased case, an inflation of only 8 percent that **twenty-two flights would not detect**. [Student 1908][research_student_1908] treats the problem of estimating a mean from few samples, and [Shultz 1963][research_shultz_1963], [Schulte and Dickinson 1968][research_schulte_1968], and [Gallagher 1969][research_gallagher_1969] work out the two-dimensional case that a circular error probable requires, with the navigation-accuracy version in [Swanson 1963][research_swanson_1963]. A bias, as opposed to a random error, changes the statistic in a way [Moranda 1960][research_moranda_1960] and [McNolty 1962][research_mcnolty_1962] both analyse. It is the failure mode that a small sample hides best.
 
@@ -61,11 +79,17 @@ so a 50 metre bias on a 91.5 metre axis standard deviation gives 139 metres agai
 
 Independent error sources add in quadrature, so a total standard deviation of 91.5 metres decomposes as
 
-$$\sigma_{\text{total}}^{2} = \sum_{i} \sigma_{i}^{2}$$
+$$
+\sigma_{\text{total}}^{2} = \sum_{i} \sigma_{i}^{2}
+\tag{7}
+$$
 
 If $n$ sources contribute equally, each is permitted
 
-$$\sigma_i = \frac{\sigma_{\text{total}}}{\sqrt{n}}$$
+$$
+\sigma_i = \frac{\sigma_{\text{total}}}{\sqrt{n}}
+\tag{8}
+$$
 
 which for five contributors is 41 metres and for eight is 32 metres. **Every subsystem on the vehicle is therefore specified in metres of miss distance**, including subsystems that have no obvious geometric relationship to the impact point. A propulsion dispersion becomes a range error. An autopilot trim bias becomes a deflection error. A release transient becomes both.
 
@@ -79,33 +103,51 @@ The decisive question is where the sensor sits, and the answer follows from geom
 
 A radar of wavelength $\lambda$ and aperture $D$ has an angular beamwidth of roughly
 
-$$\theta \approx \frac{\lambda}{D}$$
+$$
+\theta \approx \frac{\lambda}{D}
+\tag{9}
+$$
 
 and a tracking system exploiting the beam shape, by comparing returns in adjacent channels, resolves an angle finer than the beamwidth by a factor $k$ that for a good [monopulse][ref_monopulse] arrangement is of order twenty. The [beamwidth][ref_beamwidth] relation and the tracking accuracy that follows are [Skolnik 2008 Radar Handbook][book_skolnik_2008], [Barton 2004 Radar System Analysis and Modeling][book_barton_2004], and, for the monopulse case, [Sherman and Barton 2011 Monopulse Principles and Techniques][book_sherman_2011]. The theoretical limit on an angle estimate from a noisy return is the Cramer and Rao bound of [Van Trees 2001 Detection, Estimation, and Modulation Theory][book_van_trees_2001], which makes the factor $k$ a function of signal-to-noise ratio rather than a constant. The resulting cross-range position error at a range $R$ is
 
-$$\varepsilon_{\perp} = \frac{R \, \theta}{k} = \frac{R \lambda}{k D}$$
+$$
+\varepsilon_{\perp} = \frac{R \, \theta}{k} = \frac{R \lambda}{k D}
+\tag{10}
+$$
 
 **The error is proportional to range.** That proportionality is the difficulty, and it cuts in opposite directions depending on which end of the engagement the radar is at.
 
 If the radar is in the launch aircraft, $R$ is the distance from the launcher to the missile, and the entire purpose of a standoff weapon is to make that distance large. For an X-band wavelength of 0.03 metres and a one metre antenna, the beamwidth is 0.030 radians, and at the specified hundred-mile range
 
-$$\varepsilon_{\perp} = \frac{(1.6 \times 10^{5})(0.030)}{20} = 240 \, \text{m}$$
+$$
+\varepsilon_{\perp} = \frac{(1.6 \times 10^{5})(0.030)}{20} = 240 \, \text{m}
+\tag{11}
+$$
 
 against a permitted total of 91.5 metres for every source combined. **The specification cannot be met from the launch aircraft at the specified range.** Setting the resolution equal to the total error budget gives the range at which it could just be met,
 
-$$R_{\max} = \frac{k \, \sigma_{\text{total}} D}{\lambda} = \frac{(20)(91.5)(1.0)}{0.03} = 61 \, \text{km}$$
+$$
+R_{\max} = \frac{k \, \sigma_{\text{total}} D}{\lambda} = \frac{(20)(91.5)(1.0)}{0.03} = 61 \, \text{km}
+\tag{12}
+$$
 
 and using the circular error probable rather than the axis standard deviation gives 72 kilometres. **The X-9's reported range was eighty kilometres** \[[Parsch 2002][ref_parsch_x9]\]. The correspondence is close enough to state plainly and loose enough that it should not be pressed. A vehicle guided by command from its launcher reaches about as far as its launcher's radar can resolve, and no further.
 
 If instead the radar is in the missile, $R$ is the distance from the missile to the target, and that distance goes to zero. The same relation then gives an error that **shrinks** throughout the terminal phase, so that a coarse seeker on a closing trajectory outperforms a fine sensor at standoff range. With a 0.4 metre antenna inside a 0.56 metre missile body the beamwidth is 0.075 radians, which is worse, and yet
 
-$$\varepsilon_{\perp}(2 \, \text{km}) = \frac{(2 \times 10^{3})(0.075)}{20} = 7.5 \, \text{m}$$
+$$
+\varepsilon_{\perp}(2 \, \text{km}) = \frac{(2 \times 10^{3})(0.075)}{20} = 7.5 \, \text{m}
+\tag{13}
+$$
 
 The subsequent history adopted this architecture. A modern seeker is strapped down rather than gimballed, which trades mechanical complexity for a computation and brings a look-angle constraint the guidance law must respect, and [Yang et al. 2022][research_yang_2022_2] describe the arrangement, with the constrained guidance in [Kim and Park 2022b][research_kim_2022] and [Tahk et al. 2024][research_tahk_2024]. [Hirwani et al. 2022][research_hirwani_2022] study the carriage of two seekers of different kinds, which removes the single-sensor failure the X-9's link represented.
 
 The consequence is clearer as a relation than as two numbers. Writing $R_L$ for the range from the launcher and $R_T$ for the range to the target, the two architectures give
 
-$$\varepsilon_{\text{launcher}} \propto R_L, \qquad \varepsilon_{\text{missile}} \propto R_T$$
+$$
+\varepsilon_{\text{launcher}} \propto R_L, \qquad \varepsilon_{\text{missile}} \propto R_T
+\tag{14}
+$$
 
 and along a trajectory those two quantities move in opposite directions, since $R_L$ grows monotonically from zero while $R_T$ falls monotonically to zero. **The two architectures have opposite error gradients**, and that fact explains the shape of the programme. It also explains why the operational weapon the X-9 served was named for its guidance link and not for its warhead or its airframe. The acronym of the [GAM-63 RASCAL][ref_rascal] stands for radar scanning link, and the link in question carried a radar picture from the missile back to an operator in the launch aircraft, who monitored or corrected the missile's course on it. The sensor rode the missile and the judgement stayed behind. The general form of that arrangement is [command guidance][ref_command_guidance], and its place among the alternatives is set out in [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980], [Siouris 2004 Missile Guidance and Control Systems][book_siouris_2004], and [Zarchan 2012 Tactical and Strategic Missile Guidance][book_zarchan_2012].
 
@@ -115,23 +157,38 @@ The beamwidth argument above treats the factor $k$ as belonging to the radar alo
 
 The first is thermal noise, which bounds the angle estimate from below. For a monopulse arrangement the angular error from receiver noise is
 
-$$\sigma_{\theta,\text{noise}} = \frac{\theta}{k_m \sqrt{2 \, (S/N)}}$$
+$$
+\sigma_{\theta,\text{noise}} = \frac{\theta}{k_m \sqrt{2 \, (S/N)}}
+\tag{15}
+$$
 
 with $k_m$ the monopulse slope, of order 1.5. At a signal-to-noise ratio of 100 this gives $\theta/21$, the origin of the factor of twenty assumed above, and at a signal-to-noise ratio of 10 it gives $\theta/6.7$. **The resolution factor is not a constant but a function of range through the radar equation.** For a target of cross-section $\sigma_t$ illuminated by a transmitter of power $P_t$ and gain $G$, the received power is
 
-$$P_r = \frac{P_t G^{2} \lambda^{2} \sigma_t}{\left( 4\pi \right)^{3} R^{4}}$$
+$$
+P_r = \frac{P_t G^{2} \lambda^{2} \sigma_t}{\left( 4\pi \right)^{3} R^{4}}
+\tag{16}
+$$
 
 so that received power, and with it the signal-to-noise ratio, falls as the fourth power of range for a reflecting target,
 
-$$\frac{S}{N} \propto \frac{1}{R^{4}}$$
+$$
+\frac{S}{N} \propto \frac{1}{R^{4}}
+\tag{17}
+$$
 
 so the angular error degrades as $R^{2}$ once noise dominates rather than as $R$. The maximum accuracy attainable from a pulsed radar against noise was established by [Swerling 1956][research_swerling_1956], with the phased-array case in [Brennan 1961][research_brennan_1961] and the off-boresight monopulse case in [Berger 1971][research_berger_1971]. A beacon on the missile replaces the fourth-power law with a second-power one,
 
-$$P_{r,\text{beacon}} = \frac{P_b G_b G \lambda^{2}}{\left( 4\pi R \right)^{2}}$$
+$$
+P_{r,\text{beacon}} = \frac{P_b G_b G \lambda^{2}}{\left( 4\pi R \right)^{2}}
+\tag{18}
+$$
 
 and this is why command systems track beacons instead of skin returns. The improvement is large. At eighty kilometres against a one square metre target, the ratio of the two received powers is
 
-$$\frac{P_{r,\text{beacon}}}{P_{r,\text{skin}}} = \frac{P_b G_b \left( 4\pi \right) R^{2}}{P_t G \sigma_t}$$
+$$
+\frac{P_{r,\text{beacon}}}{P_{r,\text{skin}}} = \frac{P_b G_b \left( 4\pi \right) R^{2}}{P_t G \sigma_t}
+\tag{19}
+$$
 
 which for a one watt beacon against a hundred kilowatt radar is $8 \times 10^{5}$ divided by the radar antenna gain $G$. For the one metre X-band antenna assumed earlier, whose gain $4\pi/\theta^{2}$ at the 0.030 radian beamwidth is about $1.4 \times 10^{4}$, that still leaves a factor of about 60 in the beacon's favour. **A one watt transmitter on the missile is worth more than a hundred kilowatts on the aircraft**, and the choice of a beacon is the most consequential design decision in a command-guidance system. [Feldman et al. 1962][research_feldman_1962] and [Philco Corp Palo Alto Ca 1963][research_philco_corp_palo_alto_ca_1963] treat the beacon as an engineered subsystem, including the decoder that lets the same link carry commands, and [Savage 1969][research_savage_1969] describes the later strapdown tracker that removes the launcher entirely.
 
@@ -139,7 +196,10 @@ The second is scintillation, the fluctuation of the return as the target's aspec
 
 The third is glint, the most interesting of the three because it does not average away. A target with more than one scattering centre presents an apparent centre that can lie **outside the target entirely**, because the phase front arriving at the antenna is not spherical. The apparent angular position wanders by an amount comparable to the target's angular extent, so the error is
 
-$$\sigma_{\theta,\text{glint}} \approx \frac{c_g \, L_t}{R}$$
+$$
+\sigma_{\theta,\text{glint}} \approx \frac{c_g \, L_t}{R}
+\tag{20}
+$$
 
 with $L_t$ the target's dimension and $c_g$ of order 0.3. **Glint error falls as one over range and noise error rises as range squared**, so there is a range at which the two are equal and the tracking is at its best, which for a five metre missile beacon at a signal-to-noise ratio scaling from the launcher is a few tens of kilometres. The theory originates with [Delano 1953][research_delano_1953], with the later development in [Lindsay 1968][research_lindsay_1968] and [Sims and Graf 1969][research_sims_1969], and the frequency-diversity remedy in [Jones et al. 1970][research_jones_1970].
 
@@ -155,11 +215,17 @@ The argument this article reconstructs from a beamwidth was, in its qualitative 
 
 The third architecture in that comparison fails for a different reason and can be dimensioned the same way. A beam rider flies down a beam projected from the launcher and senses its displacement from the beam centre, so its lateral error is the beam's width at the missile's range multiplied by the fraction of a beamwidth the missile can sense,
 
-$$\varepsilon_{\text{beam}} = \frac{R \, \theta}{k_b}$$
+$$
+\varepsilon_{\text{beam}} = \frac{R \, \theta}{k_b}
+\tag{21}
+$$
 
 with $k_b$ of order ten, against the twenty a monopulse tracker achieves, because the missile's receiver is small and its signal-to-noise ratio poor. At forty kilometres that is
 
-$$\varepsilon_{\text{beam}} = \frac{(4 \times 10^{4})(0.03)}{10} = 120 \, \text{m}$$
+$$
+\varepsilon_{\text{beam}} = \frac{(4 \times 10^{4})(0.03)}{10} = 120 \, \text{m}
+\tag{22}
+$$
 
 **Beam riding has the same range-proportional error as command guidance and a worse constant**, so its only gain is the removal of the command link, and the X-9, which was guided by radio commands from its launcher \[[Parsch 2002][ref_parsch_x9]\], did not use it.
 
@@ -169,7 +235,10 @@ $$\varepsilon_{\text{beam}} = \frac{(4 \times 10^{4})(0.03)}{10} = 120 \, \text{
 
 A loop closed through a human operator has a bandwidth the human sets. The crossover model of manual control holds that a trained operator adapts until the open loop behaves as an integrator with a pure time delay,
 
-$$Y_{\text{open}}(s) \approx \frac{\omega_c}{s} e^{-\tau s}$$
+$$
+Y_{\text{open}}(s) \approx \frac{\omega_c}{s} e^{-\tau s}
+\tag{23}
+$$
 
 in which $\tau$ is the operator's effective delay, of order 0.3 seconds including neuromuscular lag. [McRuer and Krendel 1974 Mathematical Models of Human Pilot Behavior][book_mcruer_krendel_1974] presents the model and the measurements behind it, with the broader treatment of the human as an element in a control loop in [Sheridan and Ferrell 1974 Man-Machine Systems][book_sheridan_ferrell_1974]. The experimental base was assembled through the 1960s by [Wilde and Westcott 1963][research_wilde_1963], [Young et al. 1964][research_young_1964], and [Gagne and Wierwille 1966b][research_gagne_1966], surveyed by [Mitchell 1964][research_mitchell_1964], and extended to the decision-making the crossover model omits by [Cohen and Ferrell 1969][research_cohen_1969]. The operator's information rate, which bounds how much of a display he can use, is the subject of [Baty 1970][research_baty_1970], with the optical-tracking case in [Smith 1971][research_smith_1971] and [Price 1970][research_price_1970]. **The display is a component of the loop and not a convenience**, since the operator can only close a loop around what he can see, and the period's console engineering is documented in [Fluhr 1963][research_fluhr_1963], [Mitchell and Kinney 1966][research_mitchell_1966_2], and [Drake 1967][research_drake_1967]. Radar presentation of a ground scene, the content of the RASCAL link, brings its own interpretation problem in the relief displacement and parallax of [Esten 1953][research_esten_1953].
 
@@ -177,29 +246,50 @@ in which $\tau$ is the operator's effective delay, of order 0.3 seconds includin
 
 The field it became is now about how much of the loop to give the human rather than how fast he can close it. [Liu and Kaber 2025][research_liu_2025_3] model the proportion of a task that should be automated, [An and Niu 2025][research_an_2025] allocate functions dynamically as workload changes, and [Tong et al. 2026a][research_tong_2026] measure how presentation speed cuts both ways. Situation awareness, the quantity the X-9's operator had least of, is studied by [Houweling et al. 2024][research_houweling_2024] and [Chen et al. 2021b][research_chen_2021_2], with the interface design problem in [Friedrich and Vollrath 2021][research_friedrich_2021]. **Whether the operator believes the automation has become its own subject**, in [Grindley et al. 2026][research_grindley_2026] and [Wang et al. 2024d][research_wang_2024_2]. The X-9's designers never had to ask that question, because there was nothing to believe. Stability with a phase margin $\phi_m$ then requires
 
-$$\omega_c \le \frac{\pi/2 - \phi_m}{\tau}$$
+$$
+\omega_c \le \frac{\pi/2 - \phi_m}{\tau}
+\tag{24}
+$$
 
 which for a 45 degree margin and a 0.3 second delay gives
 
-$$\omega_c \le \frac{1.571 - 0.785}{0.3} = 2.6 \, \text{rad/s}$$
+$$
+\omega_c \le \frac{1.571 - 0.785}{0.3} = 2.6 \, \text{rad/s}
+\tag{25}
+$$
 
 The missile's short-period motion is considerably faster than that. Taking a supersonic normal-force slope of
 
-$$C_{N\alpha} = \frac{4}{\sqrt{M^{2}-1}} = \frac{4}{\sqrt{1.25}} = 3.58 \ \text{per radian}$$
+$$
+C_{N\alpha} = \frac{4}{\sqrt{M^{2}-1}} = \frac{4}{\sqrt{1.25}} = 3.58 \ \text{per radian}
+\tag{26}
+$$
 
 on the 6.5 square metre wing area at Mach 1.5 and 12 kilometres, where the dynamic pressure is
 
-$$q = \tfrac{1}{2} \rho v^{2} = \tfrac{1}{2}(0.312)(443)^{2} = 3.06 \times 10^{4} \, \text{Pa}$$
+$$
+q = \tfrac{1}{2} \rho v^{2} = \tfrac{1}{2}(0.312)(443)^{2} = 3.06 \times 10^{4} \, \text{Pa}
+\tag{27}
+$$
 
 and a static margin of half a metre against a pitch inertia of
 
-$$I_y \approx \frac{m L^{2}}{12} = \frac{(1588)(6.93)^{2}}{12} = 6.4 \times 10^{3} \, \text{kg} \cdot \text{m}^{2}$$
+$$
+I_y \approx \frac{m L^{2}}{12} = \frac{(1588)(6.93)^{2}}{12} = 6.4 \times 10^{3} \, \text{kg} \cdot \text{m}^{2}
+\tag{28}
+$$
 
 the aerodynamic stiffness and natural frequency are
 
-$$M_{\alpha} = q S C_{N\alpha} \, \Delta x = (3.06 \times 10^{4})(6.5)(3.58)(0.5) = 3.6 \times 10^{5} \, \text{N} \cdot \text{m/rad}$$
+$$
+M_{\alpha} = q S C_{N\alpha} \, \Delta x = (3.06 \times 10^{4})(6.5)(3.58)(0.5) = 3.6 \times 10^{5} \, \text{N} \cdot \text{m/rad}
+\tag{29}
+$$
 
-$$\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{3.6 \times 10^{5}}{6.4 \times 10^{3}}} = 7.5 \, \text{rad/s}$$
+$$
+\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{3.6 \times 10^{5}}{6.4 \times 10^{3}}} = 7.5 \, \text{rad/s}
+\tag{30}
+$$
 
 The supersonic lift-slope relation used here is the linearised result of [Nielsen 1960 Missile Aerodynamics][book_nielsen_1960] and [Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible], and the rigid-body equations it feeds are [Etkin and Reid 1996 Dynamics of Flight, Stability and Control][book_etkin_reid_1996] and [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991]. **The missile is about three times faster than the man flying it.** A human cannot stabilise a vehicle whose natural motion outruns his own bandwidth, so the operator cannot be given the control surfaces. He must be given a slower quantity to command, with an automatic inner loop holding the fast motion. The X-9 needed an autopilot for this reason, a conclusion about architecture reached from two time constants and not from preference.
 
@@ -233,49 +323,82 @@ Reported parameters for the X-9, from [Parsch 2002][ref_parsch_x9] and the [Bell
 
 The propellant load follows from the two masses, at 624 kilogrammes. Taking an effective exhaust velocity of 2,157 metres per second, corresponding to a specific impulse of 220 seconds for a storable propellant of the period, the class surveyed in [Clark 1972 Ignition, An Informal History of Liquid Rocket Propellants][book_clark_1972] and treated in [Rocket Propellant Chemistry, A Design-Tradeoff Space][related_post_a217_rocket_propellant_chemistry], the total impulse is
 
-$$I_{\text{tot}} = m_p c = (624)(2157) = 1.35 \times 10^{6} \, \text{N} \cdot \text{s}$$
+$$
+I_{\text{tot}} = m_p c = (624)(2157) = 1.35 \times 10^{6} \, \text{N} \cdot \text{s}
+\tag{31}
+$$
 
 and at the rated thrust the burn time would be
 
-$$t_b = \frac{I_{\text{tot}}}{F} = \frac{1.35 \times 10^{6}}{1.33 \times 10^{4}} = 101 \, \text{s}$$
+$$
+t_b = \frac{I_{\text{tot}}}{F} = \frac{1.35 \times 10^{6}}{1.33 \times 10^{4}} = 101 \, \text{s}
+\tag{32}
+$$
 
 **A hundred seconds is a long burn for a rocket of this size**, and the first sign that the vehicle is not thrust-limited. The ideal velocity increment available is
 
-$$\Delta v = c \ln \frac{m_0}{m_f} = 2157 \ln \frac{1588}{964} = 1077 \, \text{m/s}$$
+$$
+\Delta v = c \ln \frac{m_0}{m_f} = 2157 \ln \frac{1588}{964} = 1077 \, \text{m/s}
+\tag{33}
+$$
 
 added to a launch speed of about 240 metres per second, which would give a burnout speed near Mach 4.5 at altitude if nothing resisted. The vehicle is reported to have reached between Mach 1.5 \[[Parsch 2002][ref_parsch_x9]\] and Mach 2 \[[Jenkins Landis and Miller 2003 American X-Vehicles, An Inventory X-1 to X-50][book_jenkins_landis_miller_2003]\]. **The difference is drag, and the consequence is that a rocket sized for the mission delivers far more impulse than the airframe can absorb at any one moment.**
 
 The case for dividing the thrust between two chambers follows. Running both gives the acceleration needed to reach cruise speed quickly, and shutting one down gives a sustainer thrust matched to the drag at that speed. The thrust required in level cruise is the drag,
 
-$$F_{\text{cruise}} = D = q S \left( C_{D0} + \frac{C_L^{2}}{\pi A e} \right)$$
+$$
+F_{\text{cruise}} = D = q S \left( C_{D0} + \frac{C_L^{2}}{\pi A e} \right)
+\tag{34}
+$$
 
 with the lift coefficient set by the weight,
 
-$$C_L = \frac{m g}{q S} = \frac{(1588)(9.81)}{(3.06 \times 10^{4})(6.5)} = 0.078$$
+$$
+C_L = \frac{m g}{q S} = \frac{(1588)(9.81)}{(3.06 \times 10^{4})(6.5)} = 0.078
+\tag{35}
+$$
 
 The zero-lift drag coefficient can be built up rather than assumed. Skin friction on a wetted area $S_{\text{wet}}$ contributes
 
-$$C_{D,f} = C_f \, \frac{S_{\text{wet}}}{S}$$
+$$
+C_{D,f} = C_f \, \frac{S_{\text{wet}}}{S}
+\tag{36}
+$$
 
 The coefficient is not arbitrary. Turbulent flat-plate friction at supersonic speeds was measured directly in the period by [Dhawan 1953][research_dhawan_1953] and analysed with the compressibility correction by [Rubesin et al. 1951][research_rubesin_1951], with the later direct measurements of [Dershin et al. 1967][research_dershin_1967], the roughness dependence of [Young 1965][research_young_1965] and [Thompson 1970][research_thompson_1970], and an engineering calculation method in [White and Christoph 1972][research_white_1972]. For a body of 0.56 metres diameter and 6.93 metres length plus two sides of the 6.5 square metre wing the wetted area is 25 square metres, so at a turbulent flat-plate coefficient of 0.0025
 
-$$C_{D,f} = (0.0025) \frac{25.2}{6.5} = 0.0097$$
+$$
+C_{D,f} = (0.0025) \frac{25.2}{6.5} = 0.0097
+\tag{37}
+$$
 
 Wave drag and base drag supply the remainder. **Half the drag is friction and half is compressibility**, the expected split for a slender supersonic body at Mach 1.5, so the assumed total of 0.02 is a buildup, not a guess. Both halves are still being computed rather than looked up, with the wave-drag side in [Abraham et al. 2024][research_abraham_2024] and the friction side in [Szajnecki et al. 2025][research_szajnecki_2025], [Manzoor Hasan et al. 2024][research_manzoor_hasan_2024], and the reduction techniques of [Zeng et al. 2024][research_zeng_2024], [Takahashi et al. 2019][research_takahashi_2019], and [Amico and Cafiero 2026][research_amico_2026]. [Zou et al. 2026][research_zou_2026] examine the leeward-side case that a manoeuvring body presents. The base drag that a rocket-powered body modifies with its own plume is [Kim et al. 2023a][research_kim_2023], [Kim and Kim 2026][research_kim_2026], and [Zhou et al. 2021][research_zhou_2021]. At a zero-lift drag coefficient of 0.02 on wing area the cruise drag is then of order
 
-$$D \approx (3.06 \times 10^{4})(6.5)(0.02) = 4.0 \times 10^{3} \, \text{N}$$
+$$
+D \approx (3.06 \times 10^{4})(6.5)(0.02) = 4.0 \times 10^{3} \, \text{N}
+\tag{38}
+$$
 
 which is 30 percent of the rated thrust. **A single chamber of a two-chamber engine is very nearly the right size for cruise**, a strong indication of the arrangement's purpose even without a direct statement in the record. The alternative of throttling a single chamber was not practical at the time and is difficult now, as the deep-throttling work of [Fiore et al. 2026][research_fiore_2026] and [Zhou et al. 2026a][research_zhou_2026] shows. Throttling a pressure-fed engine means changing the injector pressure drop. The flow through an injector orifice is
 
-$$\dot{m} = C_d A_i \sqrt{2 \rho \, \Delta p}$$
+$$
+\dot{m} = C_d A_i \sqrt{2 \rho \, \Delta p}
+\tag{39}
+$$
 
 so the pressure drop varies as the square of the flow, and halving the thrust quarters the drop. The stability criterion is conventionally that the drop remain above about a fifth of the chamber pressure,
 
-$$\frac{\Delta p}{p_c} \ge 0.2$$
+$$
+\frac{\Delta p}{p_c} \ge 0.2
+\tag{40}
+$$
 
 because a stiff injector decouples the chamber's pressure oscillation from the feed system's response. Starting at that limit and halving the flow gives
 
-$$\frac{\Delta p}{p_c} = \frac{0.2}{4} = 0.05$$
+$$
+\frac{\Delta p}{p_c} = \frac{0.2}{4} = 0.05
+\tag{41}
+$$
 
 **at which point the chamber and the feed system are coupled and the engine can oscillate**, the mechanism [Otto and Flage 1960][research_otto_1960] studied experimentally. Two chambers avoid the problem entirely, because each runs at its design point or not at all. The period's combustion instability literature includes [Princeton Univ Nj 1952][research_princeton_univ_nj_1952], [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959].
 
@@ -283,7 +406,10 @@ The chamber itself must survive the burn. [Coulbert 1963][research_coulbert_1963
 
 The thrust-to-weight ratio at launch is
 
-$$\frac{F}{m_0 g} = \frac{1.33 \times 10^{4}}{(1588)(9.81)} = 0.85$$
+$$
+\frac{F}{m_0 g} = \frac{1.33 \times 10^{4}}{(1588)(9.81)} = 0.85
+\tag{42}
+$$
 
 which is below unity and would matter enormously for a vehicle leaving the ground. For a vehicle released at altitude with wings already flying, it does not, and the freedom to use a thrust-to-weight ratio below one is the first benefit of air launch.
 
@@ -293,57 +419,93 @@ The launch aircraft supplies altitude and speed, and both are recoverable as ene
 
 The specific energy delivered at release is
 
-$$e_{\text{launch}} = g h + \tfrac{1}{2} v^{2}$$
+$$
+e_{\text{launch}} = g h + \tfrac{1}{2} v^{2}
+\tag{43}
+$$
 
 which at 12.2 kilometres and Mach 0.8, where the speed of sound is 295 metres per second, is
 
-$$e_{\text{launch}} = (9.81)(1.22 \times 10^{4}) + \tfrac{1}{2}(236)^{2} = 1.20 \times 10^{5} + 2.79 \times 10^{4} = 1.48 \times 10^{5} \, \text{J/kg}$$
+$$
+e_{\text{launch}} = (9.81)(1.22 \times 10^{4}) + \tfrac{1}{2}(236)^{2} = 1.20 \times 10^{5} + 2.79 \times 10^{4} = 1.48 \times 10^{5} \, \text{J/kg}
+\tag{44}
+$$
 
 The velocity increment that would be required to generate the same specific energy from rest is
 
-$$v_{\text{equiv}} = \sqrt{2 e_{\text{launch}}} = \sqrt{2.96 \times 10^{5}} = 544 \, \text{m/s}$$
+$$
+v_{\text{equiv}} = \sqrt{2 e_{\text{launch}}} = \sqrt{2.96 \times 10^{5}} = 544 \, \text{m/s}
+\tag{45}
+$$
 
 **Air launch is worth about 540 metres per second**, which against the 1,077 metres per second the propellant supplies is a third of the vehicle's total energy budget delivered by an aircraft that was going to be flying anyway. The mass ratio saved follows from the rocket relation,
 
-$$\frac{m_0}{m_f} = \exp \left( \frac{\Delta v}{c} \right)$$
+$$
+\frac{m_0}{m_f} = \exp \left( \frac{\Delta v}{c} \right)
+\tag{46}
+$$
 
 so avoiding 544 metres per second of increment saves a mass ratio factor of $\exp(544/2157) = 1.29$, or 29 percent of the launch mass for the same payload and burnout condition.
 
 An energy audit of the powered phase closes to the right order. Climbing from 12.2 to 20 kilometres and accelerating to Mach 2 at that altitude gives
 
-$$\Delta E = m g \Delta h + \tfrac{1}{2} m_f v_f^{2} - \tfrac{1}{2} m_0 v_0^{2} = 1.22 \times 10^{8} + 1.68 \times 10^{8} - 4.4 \times 10^{7} = 2.5 \times 10^{8} \, \text{J}$$
+$$
+\Delta E = m g \Delta h + \tfrac{1}{2} m_f v_f^{2} - \tfrac{1}{2} m_0 v_0^{2} = 1.22 \times 10^{8} + 1.68 \times 10^{8} - 4.4 \times 10^{7} = 2.5 \times 10^{8} \, \text{J}
+\tag{47}
+$$
 
 against a propellant kinetic energy of
 
-$$E_p = \tfrac{1}{2} m_p c^{2} = \tfrac{1}{2}(624)(2157)^{2} = 1.45 \times 10^{9} \, \text{J}$$
+$$
+E_p = \tfrac{1}{2} m_p c^{2} = \tfrac{1}{2}(624)(2157)^{2} = 1.45 \times 10^{9} \, \text{J}
+\tag{48}
+$$
 
 for an overall efficiency of 17 percent, the balance going to drag, to the residual kinetic energy of the exhaust, and to the difference between an ideal expansion and a real one.
 
 The unpowered range after burnout follows from the glide relation, in which a vehicle of lift-to-drag ratio $L/D$ trades altitude for distance at
 
-$$R_{\text{glide}} = h \, \frac{L}{D}$$
+$$
+R_{\text{glide}} = h \, \frac{L}{D}
+\tag{49}
+$$
 
 so the 80 kilometre range from a 20 kilometre apex implies an effective lift-to-drag ratio of four if all of it were glide. **Four is a plausible supersonic figure for a winged body of this shape**, and the fact that some of the range is powered means the true glide ratio is lower, and a lower ratio makes the number more believable, not less.
 
 The powered segment can be separated out. During the burn the vehicle covers, at a mean speed of about 400 metres per second over 101 seconds,
 
-$$R_{\text{powered}} = \bar{v} \, t_b = (400)(101) = 40 \, \text{km}$$
+$$
+R_{\text{powered}} = \bar{v} \, t_b = (400)(101) = 40 \, \text{km}
+\tag{50}
+$$
 
 leaving 40 kilometres of glide from the 20 kilometre apex, which implies
 
-$$\frac{L}{D} = \frac{R_{\text{glide}}}{h} = \frac{40}{20} = 2.0$$
+$$
+\frac{L}{D} = \frac{R_{\text{glide}}}{h} = \frac{40}{20} = 2.0
+\tag{51}
+$$
 
 The dynamic pressure the structure sees along that trajectory is bounded by the climb. At the 12.2 kilometre release altitude the density is 0.301 kilogrammes per cubic metre and reaching Mach 2 there would give
 
-$$q = \tfrac{1}{2}(0.301)(590)^{2} = 5.2 \times 10^{4} \, \text{Pa}$$
+$$
+q = \tfrac{1}{2}(0.301)(590)^{2} = 5.2 \times 10^{4} \, \text{Pa}
+\tag{52}
+$$
 
 whereas at the 20 kilometre apex the density has fallen to 0.089 and the same Mach number gives only
 
-$$q = \tfrac{1}{2}(0.089)(590)^{2} = 1.5 \times 10^{4} \, \text{Pa}$$
+$$
+q = \tfrac{1}{2}(0.089)(590)^{2} = 1.5 \times 10^{4} \, \text{Pa}
+\tag{53}
+$$
 
 **The vehicle climbs faster than it accelerates, so the maximum dynamic pressure occurs early and is modest.** This follows from air launch, since a vehicle starting at sea level would meet its peak dynamic pressure at high speed and low altitude, and it adds to the list of things the launch aircraft pays for. **A lift-to-drag ratio of two is a much more comfortable figure for a supersonic winged missile than four**, and the resolution of the two estimates is that roughly half the range is flown under power. The maximum lift-to-drag ratio available to a supersonic configuration is bounded by wave drag, and the classical estimate
 
-$$\left( \frac{L}{D} \right)_{\max} \approx \frac{4 \left( M + 3 \right)}{M}$$
+$$
+\left( \frac{L}{D} \right)_{\max} \approx \frac{4 \left( M + 3 \right)}{M}
+\tag{54}
+$$
 
 gives 10 at Mach 2 for a slender aerodynamically clean shape, against which a value of two for a body carrying cruciform wings, four control surfaces, and a blunt base is unsurprising.
 
@@ -355,51 +517,81 @@ The guidance loop's job is to drive the lateral separation between the missile a
 
 The article has named the law that does it for several sections, and it can now be written down properly. Proportional navigation commands a lateral acceleration proportional to the rate at which the line of sight to the target rotates,
 
-$$a_c = N \, V_c \, \dot{\lambda}$$
+$$
+a_c = N \, V_c \, \dot{\lambda}
+\tag{55}
+$$
 
 in which $\lambda$ is the line-of-sight angle, $V_c$ the closing velocity, and $N$ the navigation constant. **The rule encodes the condition for a collision.** Two bodies on a constant bearing with a decreasing range collide, so a line-of-sight rate of zero is the condition for an intercept, and a guidance law that drives $\dot{\lambda}$ to zero is driving the geometry toward a collision without ever computing where the collision will be.
 
 Writing $y$ for the lateral separation from the collision course and $t_{go}$ for the time remaining, the line-of-sight rate for small angles is
 
-$$\dot{\lambda} = \frac{\mathrm{d}}{\mathrm{d}t} \left( \frac{y}{V_c t_{go}} \right)$$
+$$
+\dot{\lambda} = \frac{\mathrm{d}}{\mathrm{d}t} \left( \frac{y}{V_c t_{go}} \right)
+\tag{56}
+$$
 
 and substituting into the guidance law recovers the form the rest of this section uses,
 
-$$a_c = N \, \frac{y}{t_{go}^{2}} + N \, \frac{\dot{y}}{t_{go}}$$
+$$
+a_c = N \, \frac{y}{t_{go}^{2}} + N \, \frac{\dot{y}}{t_{go}}
+\tag{57}
+$$
 
 with $N$ conventionally between three and five. The relation shows at once that **the commanded acceleration diverges as the time remaining goes to zero**. A correction attempted late cannot be made.
 
 The navigation constant also fixes how much acceleration the missile needs relative to whatever it is chasing. For a target manoeuvring at $n_t$, the missile's steady requirement is
 
-$$\frac{n_m}{n_t} = \frac{N}{N-2}$$
+$$
+\frac{n_m}{n_t} = \frac{N}{N-2}
+\tag{58}
+$$
 
 which for $N=3$ is three and for $N=4$ is two, so **a larger navigation constant demands less acceleration and more bandwidth**. The X-9's target does not manoeuvre at all. No other feature simplifies its guidance problem as much, and the absence of target manoeuvre lets a four g airframe suffice.
 
 The loop cannot respond instantly. Lumping the operator's delay, the autopilot's rise time, and the airframe's response into a single guidance time constant $\tau_g$, the classical result for the residual miss caused by that lag, driven by a disturbance the loop must remove, is
 
-$$\frac{m}{m_0} = f \left( \frac{t_{go}}{\tau_g}, N \right)$$
+$$
+\frac{m}{m_0} = f \left( \frac{t_{go}}{\tau_g}, N \right)
+\tag{59}
+$$
 
 which for a first-order loop and a step disturbance introduced at a normalised time $x = t_{go}/\tau_g$ has the asymptotic form
 
-$$\frac{m}{m_0} \sim \frac{x^{N-1}}{(N-1)!} \, e^{-x}$$
+$$
+\frac{m}{m_0} \sim \frac{x^{N-1}}{(N-1)!} \, e^{-x}
+\tag{60}
+$$
 
 so the residual miss decays exponentially in the number of time constants remaining and is multiplied by a polynomial that delays the decay. **The polynomial matters and it is easy to drop.** At eight time constants the exponential factor is $3.4 \times 10^{-4}$ but the polynomial factor is $8^{3}/3! = 85$, so the product is
 
-$$\left. \frac{m}{m_0} \right|_{x=8} = \frac{8^{3}}{6} \, e^{-8} = 2.9 \times 10^{-2}$$
+$$
+\left. \frac{m}{m_0} \right|_{x=8} = \frac{8^{3}}{6} \, e^{-8} = 2.9 \times 10^{-2}
+\tag{61}
+$$
 
 which is three percent, not the three parts in a thousand the exponential alone would suggest. Ten time constants give $7.6 \times 10^{-3}$ and twelve give $1.8 \times 10^{-3}$.
 
 **Eight time constants leave three percent of the error and three time constants leave twenty-two percent of it.** The practical criterion is therefore that the loop needs of order ten time constants of flight remaining to null an error,
 
-$$t_{go} \ge 10 \, \tau_g$$
+$$
+t_{go} \ge 10 \, \tau_g
+\tag{62}
+$$
 
 Taking the guidance time constant as the sum of the operator's 0.3 seconds, an autopilot rise time of about 0.4 seconds at the damping computed below, and an airframe lag of 0.13 seconds at the natural frequency computed above,
 
-$$\tau_g \approx 0.30 + 0.40 + 0.13 = 0.83 \, \text{s}$$
+$$
+\tau_g \approx 0.30 + 0.40 + 0.13 = 0.83 \, \text{s}
+\tag{63}
+$$
 
 so the loop needs about eight seconds of flight remaining to remove an error, which at Mach 2 is
 
-$$R_{\text{null}} = v \, t_{go} = (590)(8.3) = 4.9 \, \text{km}$$
+$$
+R_{\text{null}} = v \, t_{go} = (590)(8.3) = 4.9 \, \text{km}
+\tag{64}
+$$
 
 **Every error still present within five kilometres of the target arrives at the target.** That number reorganises the error budget, because it means the release transient, the propulsion dispersion, and the mid-course tracking errors are all correctable and only the terminal errors are not. The terminal error sources are the tracker's noise and glint, and the operator's residual. The accuracy of a command-guided weapon is therefore set almost entirely by what happens in its last few seconds.
 
@@ -407,7 +599,10 @@ $$R_{\text{null}} = v \, t_{go} = (590)(8.3) = 4.9 \, \text{km}$$
 
 The weapon exists to keep the bomber outside something. Writing $R_d$ for the radius of the defended zone and $R_m$ for the missile's range, the launch aircraft is safe if
 
-$$R_m \ge R_d + v_{\text{ac}} \, t_{\text{turn}}$$
+$$
+R_m \ge R_d + v_{\text{ac}} \, t_{\text{turn}}
+\tag{65}
+$$
 
 with the second term the distance flown while turning away. The 1945 requirement asked for a hundred miles, and the X-9's reported fifty miles \[[Parsch 2002][ref_parsch_x9]\] would have placed the bomber inside a defence of any depth.
 
@@ -419,43 +614,70 @@ The X-9 is a canard. Its control surfaces, being two all-moving forward vertical
 
 The arrangement's advantage is that a forward surface generates its control force in the direction the vehicle is asked to turn. It also contributes a **destabilising** moment, because a lifting surface ahead of the centre of gravity moves the centre of pressure forward. The vehicle's static margin is the normal-force-weighted mean position of everything, and adding a forward surface reduces it,
 
-$$x_{cp} = \frac{\sum_i C_{N\alpha,i} \, x_i}{\sum_i C_{N\alpha,i}}$$
+$$
+x_{cp} = \frac{\sum_i C_{N\alpha,i} \, x_i}{\sum_i C_{N\alpha,i}}
+\tag{66}
+$$
 
 so the aft wings must be large enough to hold the centre of pressure behind the centre of gravity in spite of the canards. The X-9's exposed wing area is large relative to its canards for this reason, and the configuration family was measured extensively in the same period by [Moul and Wineman 1952][research_moul_1952] at an exposed wing-to-canard area ratio of sixteen to one, by [Baber and Moul 1955][research_baber_1955] across Mach 0.7 to 1.8, and by [Brown 1957][research_brown_1957] from Mach 1.2 to 2.1. [Niewald and Moul 1950][research_niewald_1950] give the control effectiveness and hinge moments for the same class, and the hinge moment matters because it sizes the actuator. For a control surface of area $S_c$ and mean chord $\bar{c}$ at hinge-moment coefficient $C_h$, the moment the actuator must hold is
 
-$$H = q \, S_c \, \bar{c} \, C_h$$
+$$
+H = q \, S_c \, \bar{c} \, C_h
+\tag{67}
+$$
 
 which for a 0.35 square metre surface of half-metre chord at the dynamic pressure computed above and a coefficient of 0.05 is
 
-$$H = (3.06 \times 10^{4})(0.35)(0.5)(0.05) = 268 \, \text{N} \cdot \text{m}$$
+$$
+H = (3.06 \times 10^{4})(0.35)(0.5)(0.05) = 268 \, \text{N} \cdot \text{m}
+\tag{68}
+$$
 
 and the power required to move it at the rate the autopilot demands is
 
-$$P = H \, \dot{\delta} = (268)(5) = 1.3 \, \text{kW}$$
+$$
+P = H \, \dot{\delta} = (268)(5) = 1.3 \, \text{kW}
+\tag{69}
+$$
 
 **More than a kilowatt of actuator power is a substantial installation on a 1,588 kilogramme vehicle**, and it justifies the effort spent on aerodynamic balance of the surface, which reduces $C_h$ without reducing effectiveness. The technique goes back to [Harris 1935][research_harris_1935], and [Scott 1966][research_scott_1966] treats the actuator that must supply whatever balance does not remove. An all-moving surface also brings a flutter boundary that a fixed surface does not, measured for half-scale models by [Ruhlin and Tuovila 1961][research_ruhlin_1961]. [Kleckner 1946][research_kleckner_1946] and [Mungall 1948][research_mungall_1948] develop the point for all-moving surfaces, and [Pfenneberger 1966][research_pfenneberger_1966] measures it for this configuration class. The [canard][ref_canard] arrangement in its aircraft form is investigated at high subsonic speeds by [Sleeman 1957][research_sleeman_1957] and at Mach numbers of 1.41 and 2.01 by [Driver 1958][research_driver_1958] and [Spearman and Driver 1959][research_spearman_1959].
 
 The compensating advantage is that the trim penalty reverses sign. A tail-controlled vehicle deflects its tail downward to pitch up, losing lift, so the surface fights the manoeuvre before assisting it. A canard adds lift where it is wanted. The trim lift for a given manoeuvre is
 
-$$L_{\text{trim}} = L_{\text{wing}} + L_{\text{canard}}$$
+$$
+L_{\text{trim}} = L_{\text{wing}} + L_{\text{canard}}
+\tag{70}
+$$
 
 with both terms positive in a pull-up, against a tailed configuration in which the second term is negative. For a vehicle whose purpose is to change direction accurately at high dynamic pressure, that matters more than the static-margin penalty.
 
 The control effectiveness itself sets how hard the vehicle can manoeuvre. A canard deflection $\delta$ produces a pitching moment that trims the vehicle at an angle of attack
 
-$$\alpha_{\text{trim}} = -\frac{C_{m\delta}}{C_{m\alpha}} \, \delta$$
+$$
+\alpha_{\text{trim}} = -\frac{C_{m\delta}}{C_{m\alpha}} \, \delta
+\tag{71}
+$$
 
 and the resulting normal acceleration in units of gravity is
 
-$$n = \frac{q S C_{N\alpha} \alpha_{\text{trim}}}{m g}$$
+$$
+n = \frac{q S C_{N\alpha} \alpha_{\text{trim}}}{m g}
+\tag{72}
+$$
 
 At the dynamic pressure computed above, one degree of trimmed angle of attack gives
 
-$$n = \frac{(3.06 \times 10^{4})(6.5)(3.58)(0.01745)}{(1588)(9.81)} = 0.80$$
+$$
+n = \frac{(3.06 \times 10^{4})(6.5)(3.58)(0.01745)}{(1588)(9.81)} = 0.80
+\tag{73}
+$$
 
 so the vehicle pulls roughly 0.8 g per degree of angle of attack. The roll axis is governed by the same geometry, and [Adams 1951][research_adams_1951] gives the damping available from a cruciform arrangement. Roll matters here for a reason that does not arise on an unguided vehicle. A command in the inertial frame must be resolved into body axes before the control surfaces can act on it, and that resolution requires the roll angle. An error $\Delta\phi$ in the assumed roll angle turns a commanded pitch into a combination of pitch and yaw,
 
-$$\begin{bmatrix} a_y \\ a_z \end{bmatrix} = \begin{bmatrix} \cos \Delta\phi & -\sin \Delta\phi \\ \sin \Delta\phi & \cos \Delta\phi \end{bmatrix} \begin{bmatrix} a_{y,c} \\ a_{z,c} \end{bmatrix}$$
+$$
+\begin{bmatrix} a_y \\ a_z \end{bmatrix} = \begin{bmatrix} \cos \Delta\phi & -\sin \Delta\phi \\ \sin \Delta\phi & \cos \Delta\phi \end{bmatrix} \begin{bmatrix} a_{y,c} \\ a_{z,c} \end{bmatrix}
+\tag{74}
+$$
 
 so the cross-axis leakage is $\sin \Delta\phi$ of the commanded acceleration. **A ten degree roll error puts 17 percent of every correction into the wrong axis**, and a guided vehicle must therefore hold roll to a small angle instead of merely averaging it as the [X-8][related_post_a305_aerojet_x8] did. That requirement is a plausible reason the X-9 carries twin dorsal and ventral fins with rudders \[[Parsch 2002][ref_parsch_x9]\] rather than a symmetric cruciform tail. It is also the clearest difference in requirement between a guided vehicle and an unguided one. [Friedman 1951][research_friedman_1951] and [Eggers et al. 1957][research_eggers_1957] address the wave drag that the configuration pays for its wings, with the minimum-drag body shapes of [Parker 1955][research_parker_1955] and [Eggers 1965][research_eggers_1965] and the base drag that the tail surfaces modify in [Spahr and Dickey 1951][research_spahr_1951]. Slender-body theory for the forebody comes from [Jones and Margolis 1946][research_jones_1946] and [Brown and Parker 1945][research_brown_1945], the yawed-cone case from [Stone 1945][research_stone_1945], and the design synthesis of the period from [Jones 1959a][research_jones_1959]. Zero-lift drag at the relevant Mach numbers was measured in free flight by [Gillespie and Arbic 1951][research_gillespie_1951], the roll damping of a comparable configuration by [Scherrer and Dennis 1951][research_scherrer_1951], and the wing-tail interference that a cruciform layout cannot avoid by [Edwards and Hikido 1953][research_edwards_1953]. The effect of the plume on the aftbody, which matters for a vehicle that thrusts through most of its flight, is [Deep et al. 1971][research_deep_1971]. **A five degree limit is therefore a four g vehicle**, ample for course correction and far short of what an interceptor needs. The balance is correct for a weapon that must fly accurately rather than evasively.
 
@@ -467,37 +689,61 @@ The reason is that a bomb bay is full of separated, unsteady flow. A store relea
 
 The size of the error being avoided can be computed. A heading error $\varepsilon$ imparted at release and never corrected produces a lateral offset at the target of
 
-$$\Delta y = R \sin \varepsilon \approx R \varepsilon$$
+$$
+\Delta y = R \sin \varepsilon \approx R \varepsilon
+\tag{75}
+$$
 
 which over 80 kilometres gives
 
-$$\Delta y (1^{\circ}) = (8 \times 10^{4})(0.01745) = 1.4 \, \text{km}$$
+$$
+\Delta y (1^{\circ}) = (8 \times 10^{4})(0.01745) = 1.4 \, \text{km}
+\tag{76}
+$$
 
 **One degree of release error is fifteen times the entire error budget.** The guidance loop must therefore remove essentially all of it, and the loop's authority is finite. A vehicle correcting a lateral offset $\Delta y$ over a remaining range $R_r$ at a normal acceleration $a_n$ needs
 
-$$\Delta y \le \tfrac{1}{2} a_n \left( \frac{R_r}{v} \right)^{2}$$
+$$
+\Delta y \le \tfrac{1}{2} a_n \left( \frac{R_r}{v} \right)^{2}
+\tag{77}
+$$
 
 which at four g and eighty kilometres of remaining range gives a correctable offset of
 
-$$\Delta y_{\max} = \tfrac{1}{2}(39.2) \left( \frac{8 \times 10^{4}}{590} \right)^{2} = 3.6 \times 10^{5} \, \text{m}$$
+$$
+\Delta y_{\max} = \tfrac{1}{2}(39.2) \left( \frac{8 \times 10^{4}}{590} \right)^{2} = 3.6 \times 10^{5} \, \text{m}
+\tag{78}
+$$
 
 so manoeuvre authority is not the binding constraint at long range. **It becomes binding at short range**, where the same relation with two kilometres remaining gives 225 metres, the same order as the errors the guidance is trying to remove. That asymmetry is why terminal accuracy is hard and why a correction made late is worth far less than the same correction made early. The guidance loop exists to remove such errors, and it can, but only once it has acquired. The argument for the trapeze is that the loop should not have to spend its authority on an avoidable disturbance.
 
 The separation itself is a free-fall problem to first order. Clearing a vertical distance $d$ takes
 
-$$t = \sqrt{\frac{2 d}{g}}$$
+$$
+t = \sqrt{\frac{2 d}{g}}
+\tag{79}
+$$
 
 so three metres of clearance takes 0.78 seconds, during which the launch aircraft travels
 
-$$\Delta x = v_{\text{ac}} t = (236)(0.78) = 184 \, \text{m}$$
+$$
+\Delta x = v_{\text{ac}} t = (236)(0.78) = 184 \, \text{m}
+\tag{80}
+$$
 
 and the missile falls behind by the difference between its drag deceleration and the aircraft's. The tip-off rate, the angular rate imparted as the last constraint releases, follows from the moment acting over the interval between the forward and aft attachments letting go. For a vehicle whose centre of gravity is offset a distance $\ell$ from the last remaining support, the angular acceleration is
 
-$$\dot{q} = \frac{m g \ell}{I_y}$$
+$$
+\dot{q} = \frac{m g \ell}{I_y}
+\tag{81}
+$$
 
 which for a half-metre offset gives
 
-$$\dot{q} = \frac{(1588)(9.81)(0.5)}{6.4 \times 10^{3}} = 1.22 \, \text{rad/s}^{2}$$
+$$
+\dot{q} = \frac{(1588)(9.81)(0.5)}{6.4 \times 10^{3}} = 1.22 \, \text{rad/s}^{2}
+\tag{82}
+$$
 
 so an asymmetric release lasting 0.1 seconds imparts 0.12 radians per second, or 7 degrees per second. **Seven degrees per second is a large rate for a vehicle whose entire heading budget is a fraction of a degree**, so the release mechanism is a guidance component and not a piece of structure. [Paradise 1971][research_paradise_1971] treats redundancy in that mechanism.
 
@@ -511,31 +757,49 @@ The X-9 flew two guidance systems in succession. The first was a radio command s
 
 A command link carries very little information and must carry it very reliably. The required data rate follows from the number of channels and the rate at which corrections are useful, which is set by the loop bandwidth computed above. Sampling at ten times the crossover frequency,
 
-$$f_s = 10 \, \frac{\omega_c}{2\pi} = 10 \, \frac{2.6}{6.283} = 4.1 \, \text{Hz}$$
+$$
+f_s = 10 \, \frac{\omega_c}{2\pi} = 10 \, \frac{2.6}{6.283} = 4.1 \, \text{Hz}
+\tag{83}
+$$
 
 and with two command axes at eight bits of resolution the required rate is
 
-$$C_{\text{req}} = (2)(8)(4.1) = 66 \, \text{bit/s}$$
+$$
+C_{\text{req}} = (2)(8)(4.1) = 66 \, \text{bit/s}
+\tag{84}
+$$
 
 **Sixty-six bits per second is nothing**, and the entire difficulty of the command link is therefore not capacity but integrity.
 
 Integrity has an adversary. A jammer of power $P_j$ at range $R_j$ competes with a command transmitter of power $P_c$ at range $R_c$, and the ratio at the missile's receiver is
 
-$$\frac{S}{J} = \frac{P_c G_c}{P_j G_j} \left( \frac{R_j}{R_c} \right)^{2} \, \frac{B_j}{B_s}$$
+$$
+\frac{S}{J} = \frac{P_c G_c}{P_j G_j} \left( \frac{R_j}{R_c} \right)^{2} \, \frac{B_j}{B_s}
+\tag{85}
+$$
 
 in which the last factor is the jammer's dilution across a bandwidth wider than the signal's. **The command link's low data rate is therefore an asset rather than a limitation**, because a narrow signal bandwidth forces the jammer to concentrate its power precisely or waste most of it. The modern statement of the same trade is low probability of intercept, in which a waveform is spread and shaped so that an adversary cannot find it in the first place, treated by [Shi et al. 2025a][research_shi_2025], [Savci et al. 2021][research_savci_2021], and, at the antenna, [Pehlivan and Yegin 2021][research_pehlivan_2021]. [Xing et al. 2023][research_xing_2023] and [Chen et al. 2026e][research_chen_2026] analyse the countermeasure and counter-countermeasure exchange the X-9's link would now face. The relation also shows why a link from the launching aircraft is comparatively hard to jam and a link from a distant ground station is not, since the ratio of ranges enters squared. The capacity bound is Shannon's, developed in [Cover and Thomas 2006 Elements of Information Theory][book_cover_thomas_2006] and [Sklar 2001 Digital Communications, Fundamentals and Applications][book_sklar_2001], and because a command channel is limited by integrity and not by capacity, command links are built with margin rather than with coding. A link that fails intermittently is worse than one that fails completely, because the vehicle continues on its last command. The received power follows the same relation as any radio path,
 
-$$P_r = \frac{P_t G_t G_r \lambda^{2}}{\left( 4 \pi R \right)^{2}}$$
+$$
+P_r = \frac{P_t G_t G_r \lambda^{2}}{\left( 4 \pi R \right)^{2}}
+\tag{86}
+$$
 
 and at 80 kilometres and a wavelength of one metre the free-space term is
 
-$$\left( \frac{\lambda}{4 \pi R} \right)^{2} = \left( \frac{1}{4\pi \times 8 \times 10^{4}} \right)^{2} = 9.9 \times 10^{-13}$$
+$$
+\left( \frac{\lambda}{4 \pi R} \right)^{2} = \left( \frac{1}{4\pi \times 8 \times 10^{4}} \right)^{2} = 9.9 \times 10^{-13}
+\tag{87}
+$$
 
 which is $-120$ decibels, so a hundred watt transmitter with modest antennas closes the link with a very large margin at this data rate. The integrity comes from that margin. The situation mirrors the [X-8][related_post_a305_aerojet_x8]'s problem, where the link was bandwidth-starved carrying data downward, and the difference explains why the two vehicles reached opposite conclusions about what their radio had to do.
 
 The latency of the radio path is negligible at
 
-$$t_{\text{prop}} = \frac{R}{c_0} = \frac{8 \times 10^{4}}{3 \times 10^{8}} = 0.27 \, \text{ms}$$
+$$
+t_{\text{prop}} = \frac{R}{c_0} = \frac{8 \times 10^{4}}{3 \times 10^{8}} = 0.27 \, \text{ms}
+\tag{88}
+$$
 
 so the delay in the loop is entirely the operator and the airframe. That ceases to be true at longer ranges, and the general problem of closing a control loop across a transmission delay was studied directly by [Adams 1962][research_adams_1962], whose subject is remote control across distances long enough for the delay to dominate.
 
@@ -545,15 +809,24 @@ The operator commands a heading or a rate. Something else holds the attitude, an
 
 An attitude autopilot closes a rate loop around the airframe with gain $K$, giving a closed-loop characteristic equation
 
-$$s^{2} + \left( 2 \zeta_a \omega_n + K M_{\delta} \right) s + \omega_n^{2} = 0$$
+$$
+s^{2} + \left( 2 \zeta_a \omega_n + K M_{\delta} \right) s + \omega_n^{2} = 0
+\tag{89}
+$$
 
 in which $M_{\delta}$ is the control moment per unit deflection and $\zeta_a$ the small aerodynamic damping. The rate feedback appears only in the damping term, so the loop's function is to add damping rather than stiffness, and the damping ratio achieved is
 
-$$\zeta = \zeta_a + \frac{K M_{\delta}}{2 \omega_n}$$
+$$
+\zeta = \zeta_a + \frac{K M_{\delta}}{2 \omega_n}
+\tag{90}
+$$
 
 Reaching a well-damped response of $\zeta = 0.7$ at the 7.5 radian per second natural frequency requires an added damping term of
 
-$$K M_{\delta} = 2 \omega_n \left( \zeta - \zeta_a \right) = (2)(7.5)(0.7 - 0.05) = 9.8 \, \text{s}^{-1}$$
+$$
+K M_{\delta} = 2 \omega_n \left( \zeta - \zeta_a \right) = (2)(7.5)(0.7 - 0.05) = 9.8 \, \text{s}^{-1}
+\tag{91}
+$$
 
 **The autopilot is a damper, not a stabiliser**, because the airframe is already statically stable by design. Static stability was a design choice, not a necessity, and a statically unstable airframe with a faster autopilot would manoeuvre harder at the cost of requiring the loop to work. [Franklin Powell and Emami-Naeini 2019 Feedback Control of Dynamic Systems][book_franklin_2019] sets out the classical apparatus for the analysis, and [Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991] and [Garnell 1980 Guided Weapon Control Systems][book_garnell_1980] cover this application. The period's servomechanism literature includes [Hamer 1952][research_hamer_1952], [Merriam 1960][research_merriam_1960], and, later, [Etzweiler 1969][research_etzweiler_1969] and [Wilson 1970][research_wilson_1970], with [Atkinson 1968][research_atkinson_1968] on the angular-position servomechanism that an all-moving control surface is. [Fagin et al. 1969][research_fagin_1969] and [Van Winkle and Rossi 1966][research_van_winkle_1966] take the step from classical design to design against a stochastic input, the kind a noisy tracker demands.
 
@@ -563,19 +836,31 @@ Bias in the rate gyroscope is a distinct failure and it maps straight onto the e
 
 Structural flexibility sets the upper limit on the gain. A rate gyroscope mounted on a bending airframe measures the bending as well as the rigid-body rate, and if the loop gain is high enough at the bending frequency the two couple. The condition for stability is that the loop gain fall below unity before the first bending mode,
 
-$$\left| K \, G_{\text{bend}}(j\omega_1) \right| < 1$$
+$$
+\left| K \, G_{\text{bend}}(j\omega_1) \right| < 1
+\tag{92}
+$$
 
 which in practice forces a notch filter or a gain low enough to compromise the rigid-body response. The frequency in question can be estimated. A free-free beam of length $L$, bending stiffness $EI$, and mass per unit length $\mu$ has a first elastic mode at
 
-$$\omega_1 = \left( \frac{4.730}{L} \right)^{2} \sqrt{\frac{EI}{\mu}}$$
+$$
+\omega_1 = \left( \frac{4.730}{L} \right)^{2} \sqrt{\frac{EI}{\mu}}
+\tag{93}
+$$
 
 and for a thin-walled tube of radius $r$ and wall thickness $t$ the second moment of area is
 
-$$I = \pi r^{3} t$$
+$$
+I = \pi r^{3} t
+\tag{94}
+$$
 
 which for the X-9's 0.28 metre radius and a three millimetre wall gives $2.1 \times 10^{-4}$ metres to the fourth, so with an aluminium modulus of 70 gigapascals and a mass per unit length of 229 kilogrammes per metre,
 
-$$\omega_1 = \left( \frac{4.730}{6.93} \right)^{2} \sqrt{\frac{(70 \times 10^{9})(2.1 \times 10^{-4})}{229}} = 117 \, \text{rad/s}$$
+$$
+\omega_1 = \left( \frac{4.730}{6.93} \right)^{2} \sqrt{\frac{(70 \times 10^{9})(2.1 \times 10^{-4})}{229}} = 117 \, \text{rad/s}
+\tag{95}
+$$
 
 which is 19 hertz. **The bending mode sits about sixteen times above the rigid-body natural frequency**, a comfortable separation of the kind that makes a short, fat missile easier to control than a long thin one. The vehicles that made this hard were the boosters, which are long and slender and whose first mode falls close to the control bandwidth. The problem was treated for missiles of this generation by [Lukens et al. 1961][research_lukens_1961] and [Freed and Miller 1961][research_freed_1961], and it remains the reason missile autopilot bandwidth is bounded from above by structure rather than by actuators.
 
@@ -585,23 +870,38 @@ A standoff missile guided from its launcher does not release the launcher. The b
 
 The time involved follows from the range and the speed. At Mach 2 at altitude the missile covers eighty kilometres in
 
-$$t_f = \frac{R}{v} = \frac{8 \times 10^{4}}{590} = 136 \, \text{s}$$
+$$
+t_f = \frac{R}{v} = \frac{8 \times 10^{4}}{590} = 136 \, \text{s}
+\tag{96}
+$$
 
 and during that time the launch aircraft, continuing at Mach 0.8, covers
 
-$$\Delta x_{\text{ac}} = (236)(136) = 32 \, \text{km}$$
+$$
+\Delta x_{\text{ac}} = (236)(136) = 32 \, \text{km}
+\tag{97}
+$$
 
 Turning away is not free either. A bank at load factor $n$ gives a turn radius
 
-$$R_t = \frac{v^{2}}{g \sqrt{n^{2}-1}}$$
+$$
+R_t = \frac{v^{2}}{g \sqrt{n^{2}-1}}
+\tag{98}
+$$
 
 which for a heavy bomber limited to about 1.5 g is
 
-$$R_t = \frac{(236)^{2}}{(9.81)\sqrt{1.25}} = 5.1 \, \text{km}$$
+$$
+R_t = \frac{(236)^{2}}{(9.81)\sqrt{1.25}} = 5.1 \, \text{km}
+\tag{99}
+$$
 
 and a reversal takes
 
-$$t_{180} = \frac{\pi R_t}{v} = \frac{\pi (5.1 \times 10^{3})}{236} = 68 \, \text{s}$$
+$$
+t_{180} = \frac{\pi R_t}{v} = \frac{\pi (5.1 \times 10^{3})}{236} = 68 \, \text{s}
+\tag{100}
+$$
 
 during which the antenna sweeps through its full gimbal range and past it. [Wrestler and Clifton G. 1965][research_wrestler_1965] analyses the turn performance for this manoeuvre, in which an aircraft must reverse as quickly as its structure allows. **The bomber spends more than two minutes committed and closes two fifths of the standoff distance it just bought unless it turns away**, and turning away costs the antenna its look angle. The engagement geometry is therefore a constraint on the aircraft, not only on the missile, and a large part of why the operational concept eventually failed. The general form of the problem, in which a weapon's guidance requirement dictates the delivery aircraft's flight path, is treated by [Smyth 1972][research_smyth_1972], and [Waddell 1961][research_waddell_1961] and [Timenes 1964][research_timenes_1964], cited above for the standoff trade, apply to such an engagement as well.
 
@@ -619,25 +919,40 @@ A liquid-propellant missile carried inside an aircraft is a stowage hazard, and 
 
 At Mach 2 the vehicle is warm but not hot. The recovery temperature at the surface, with a turbulent recovery factor of 0.89, is
 
-$$T_r = T_{\infty} \left( 1 + r \, \frac{\gamma-1}{2} M^{2} \right) = 217 \left( 1 + (0.89)(0.2)(4) \right) = 372 \, \text{K}$$
+$$
+T_r = T_{\infty} \left( 1 + r \, \frac{\gamma-1}{2} M^{2} \right) = 217 \left( 1 + (0.89)(0.2)(4) \right) = 372 \, \text{K}
+\tag{101}
+$$
 
 which is 99 degrees Celsius and requires no exotic material at all. The transient behaviour of a thin skin, the quantity that matters for a flight lasting a few minutes, follows the lumped relation
 
-$$\rho_m c_p t \, \frac{\mathrm{d}T_w}{\mathrm{d}t} = h \left( T_r - T_w \right)$$
+$$
+\rho_m c_p t \, \frac{\mathrm{d}T_w}{\mathrm{d}t} = h \left( T_r - T_w \right)
+\tag{102}
+$$
 
 with a time constant
 
-$$\tau = \frac{\rho_m c_p t}{h}$$
+$$
+\tau = \frac{\rho_m c_p t}{h}
+\tag{103}
+$$
 
 that for a two millimetre aluminium skin at a convective coefficient of 150 watts per square metre kelvin is
 
-$$\tau = \frac{(2800)(900)(2 \times 10^{-3})}{150} = 34 \, \text{s}$$
+$$
+\tau = \frac{(2800)(900)(2 \times 10^{-3})}{150} = 34 \, \text{s}
+\tag{104}
+$$
 
 comparable to the flight time, so the skin never reaches equilibrium. [Huston et al. 1948][research_huston_1948] and [Lo 1948][research_lo_1948] analysed this transient in the period, both for conical bodies in short-duration high-speed flight, the X-9's case.
 
 The structural sizing is set by the manoeuvre load, not by temperature. At the four g limit computed above the wing bending moment at the root is of order
 
-$$M_{\text{root}} = n \, m g \, \frac{b}{4} = (4)(1588)(9.81) \frac{2.39}{4} = 3.7 \times 10^{4} \, \text{N} \cdot \text{m}$$
+$$
+M_{\text{root}} = n \, m g \, \frac{b}{4} = (4)(1588)(9.81) \frac{2.39}{4} = 3.7 \times 10^{4} \, \text{N} \cdot \text{m}
+\tag{105}
+$$
 
 which a spar of modest depth carries easily, and the general apparatus is [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973]. Thermal relations are [Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer]. **Heating is not a design driver here, and the negative result should be recorded**, because the X-9 is the first vehicle in this series for which the answer to the thermal question is that there is no thermal question. The X-1 needed the analysis and did not have it. The X-9 could have had it and did not need it.
 
@@ -649,11 +964,17 @@ That decision is the [X-8][related_post_a305_aerojet_x8]'s argument arriving at 
 
 The descent under canopy follows the same terminal-velocity relation as any recovery,
 
-$$v_t = \sqrt{\frac{2 m g}{\rho C_D A}}$$
+$$
+v_t = \sqrt{\frac{2 m g}{\rho C_D A}}
+\tag{106}
+$$
 
 so a 300 kilogramme package descending at 8 metres per second at sea level requires
 
-$$A = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{(2)(300)(9.81)}{(1.225)(1.4)(64)} = 53.6 \, \text{m}^{2}$$
+$$
+A = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{(2)(300)(9.81)}{(1.225)(1.4)(64)} = 53.6 \, \text{m}^{2}
+\tag{107}
+$$
 
 corresponding to a canopy of 8.3 metres diameter. The materials problem for a supersonic deployment of that size is the subject of [MacCarthy 1954][research_maccarthy_1954] and the canopy behaviour of [Meyer 1958][research_meyer_1958], with the design relations in [Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992]. [Muehlner 1962][research_muehlner_1962] covers missile telemetry of the period and its evolution.
 
@@ -681,17 +1002,26 @@ A guidance system cannot be tested until the vehicle it guides flies repeatably,
 
 The record also permits an inference about reliability. Four failures before the first full success, on a system whose per-flight success probability is $p$, has likelihood
 
-$$L(p) = \left( 1 - p \right)^{4} p$$
+$$
+L(p) = \left( 1 - p \right)^{4} p
+\tag{108}
+$$
 
 which is maximised at $p = 0.2$. **The best estimate from the opening of the programme is one flight in five**, and the fact that the programme then completed its objectives inside thirty-one vehicles implies that $p$ rose substantially, as a development programme is meant to achieve. The formal machinery for a test-to-failure programme of this kind arrived later, in [Blundell and Brashear 1962][research_blundell_1962].
 
 The number of flights required to demonstrate a reliability $p$ at confidence $1-\alpha$ with no failures is
 
-$$n = \frac{\ln \alpha}{\ln p}$$
+$$
+n = \frac{\ln \alpha}{\ln p}
+\tag{109}
+$$
 
 so demonstrating 90 percent reliability at 95 percent confidence needs
 
-$$n = \frac{\ln 0.05}{\ln 0.90} = 28.4, \ \text{so 29 consecutive successes}$$
+$$
+n = \frac{\ln 0.05}{\ln 0.90} = 28.4, \ \text{so 29 consecutive successes}
+\tag{110}
+$$
 
 against a programme total of thirty-one vehicles. **The X-9 could not have demonstrated its own reliability to any useful confidence even if every flight had succeeded**, which is a general property of small flight-test programmes and not a criticism of this one.
 
@@ -725,23 +1055,38 @@ Specifying a weapon by a circular error probable, decomposing that figure into a
 
 The argument as a whole leads to this relation, so it is set out in full. For a weapon with a lethal radius $R_L$ against a given target, delivered with circular error probable $\mathrm{CEP}$, the single-shot kill probability is
 
-$$P_k = 1 - \left( \tfrac{1}{2} \right)^{\left( R_L / \mathrm{CEP} \right)^{2}}$$
+$$
+P_k = 1 - \left( \tfrac{1}{2} \right)^{\left( R_L / \mathrm{CEP} \right)^{2}}
+\tag{111}
+$$
 
 which equals one half when the lethal radius equals the circular error probable, and rises steeply thereafter. The relation assumes a definite lethal radius, and neither the lethality nor the aim point is that clean in practice. [McNolty 1965][research_mcnolty_1965] treats the case where the lethal effect is itself a random variable, [Braithwaite 1962][research_braithwaite_1962] the extrapolation of sparse kill-probability data, and [Lilliefors 1957][research_lilliefors_1957] gives the hand computation the period used. **The shape of the damage function turns out to matter more than the accuracy fed into it**, as [Moon 2021][research_moon_2021] finds, and the structural-response side that determines that shape is now simulated in [Temsah et al. 2021][research_temsah_2021] and predicted by learned models in [Almustafa and Nehdi 2020][research_almustafa_2020]. Inverting for the accuracy required to reach a given kill probability,
 
-$$\mathrm{CEP} = \frac{R_L}{\sqrt{\log_2 \left( \dfrac{1}{1 - P_k} \right)}}$$
+$$
+\mathrm{CEP} = \frac{R_L}{\sqrt{\log_2 \left( \dfrac{1}{1 - P_k} \right)}}
+\tag{112}
+$$
 
 The weapon-effects relations behind the lethal radius are [Glasstone and Dolan 1977 The Effects of Nuclear Weapons][book_glasstone_dolan_1977], with [nuclear weapon yield][ref_nuclear_yield] scaling and [terminal ballistics][ref_terminal_ballistics] setting the conventional case. **And here the programme's founding irony becomes arithmetic.** The lethal radius is not free either, and it scales with yield in a way that makes the accuracy requirement collapse. Blast effects scale with the cube root of yield, so the radius at which a given overpressure is reached is
 
-$$R_L = R_1 \, W^{1/3}$$
+$$
+R_L = R_1 \, W^{1/3}
+\tag{113}
+$$
 
 with $W$ the yield in kilotonnes and $R_1$ the one-kilotonne radius, which for the five pounds per square inch contour that destroys ordinary structures is about 0.43 miles, or 690 metres, for an air burst \[[Glasstone 1962 The Effects of Nuclear Weapons, Revised Edition][book_glasstone_1962]\]. A twenty kilotonne weapon therefore gives
 
-$$R_L = 690 \, (20)^{1/3} = 1873 \, \text{m}$$
+$$
+R_L = 690 \, (20)^{1/3} = 1873 \, \text{m}
+\tag{114}
+$$
 
 and a larger warhead gives 3,200 metres at 100 kilotonnes and 6,900 metres at a megatonne. **Every factor of eight in yield doubles the tolerable circular error**, and this arithmetic underlies the observation that accuracy and yield are substitutes. [Morton 1966][research_morton_1966] covers the scaling and the target-dependence that make the choice of overpressure contour a judgement rather than a constant, with the vulnerability of a specific class of target in [Andon 1965][research_andon_1965]. For a warhead with a lethal radius of 1,500 metres against a soft target, corresponding to something near ten kilotonnes on this scaling, the accuracy needed for a 90 percent kill probability is
 
-$$\mathrm{CEP} = \frac{1500}{\sqrt{\log_2 10}} = \frac{1500}{1.82} = 823 \, \text{m}$$
+$$
+\mathrm{CEP} = \frac{1500}{\sqrt{\log_2 10}} = \frac{1500}{1.82} = 823 \, \text{m}
+\tag{115}
+$$
 
 against the 108 metres the 1945 specification demanded. **The requirement that dimensioned this vehicle was about eight times tighter than the weapon it carried needed.** It was written one day before Trinity, and the MX-767 project it produced was already to develop a nuclear-armed missile \[[GAM-63 RASCAL][ref_rascal]\], so the warhead changed almost at once and the accuracy figure in the record remains the 1945 one.
 
@@ -1006,6 +1351,1052 @@ Reading that specification as a variance makes the design legible. One hundred a
 The vehicle around that argument is unremarkable and is meant to be. A canard cruciform missile at Mach 2 needs no exotic material, its aerodynamics were being measured independently by NACA in the same years, and its rocket delivers more impulse than the airframe can use. What it needed was to fly the same way twice, and the record's shape, with eighteen months between the first drop and the first powered success and then a programme that stopped early because it was finished, is what a guidance programme looks like.
 
 **The founding irony is that the requirement was written one day before Trinity.** Five hundred feet at seventy-five percent was specified before any nuclear weapon had been demonstrated, and the weapon that flew carried a warhead for which eight times that error would have sufficed. The accuracy work was mostly surplus to the mission and mostly useful to everything afterwards, which is a fair description of a great deal of research and is not a criticism.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 115 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 115, 60 are established and 55 are bespoke.
+Quantities are in International System units, with the specification of 500 feet and 100 miles converted to metres, speeds at altitude taken from a speed of sound of 295 metres per second, and several symbols reused, so that $R$ is a radius, a range or a turn radius by section, $m$ is a mass except in Equations 59 to 61, where it is a miss distance, and $\tau$ is a delay in the guidance sections and a thermal time constant in Equations 103 and 104.
+
+**Equation 1, Rayleigh Distribution of Radial Miss.**
+With independent normal errors of equal standard deviation $\sigma$ in range and deflection, the probability of landing within a radius $R$ follows the Rayleigh cumulative distribution.
+[Rayleigh][ref_rayleigh]
+[Papoulis and Pillai 2002 Probability, Random Variables and Stochastic Processes][book_papoulis_2002]
+
+$$
+P(R) = 1 - \exp\left( -\frac{R^{2}}{2\sigma^{2}} \right)
+\tag{1}
+$$
+
+**Equation 2, Axis Standard Deviation Required by the Specification.**
+Inverting the Rayleigh distribution for the 1945 requirement of 500 feet at 75 percent gives an axis standard deviation of 91.5 metres.
+[GAM-63 RASCAL][ref_rascal]
+
+$$
+\sigma = \frac{R}{\sqrt{-2 \ln \left( 1 - P \right)}} = \frac{500 \times 0.3048}{\sqrt{2 \ln 4}} = \frac{152.4}{1.665} = 91.5 \, \text{m}
+\tag{2}
+$$
+
+**Equation 3, Circular Error Probable.**
+The circular error probable, the radius containing half the impacts, is $\sqrt{2 \ln 2}$ times the axis standard deviation, which gives 108 metres for the specification.
+[circular error probable][ref_cep]
+
+$$
+\mathrm{CEP} = \sigma \sqrt{2 \ln 2} = 1.177 \, \sigma = 108 \, \text{m}
+\tag{3}
+$$
+
+**Equation 4, Relative Standard Error of a Sample Standard Deviation.**
+For $n$ samples from a normal population the standard error of the sample standard deviation, relative to the estimate, is approximately one over the square root of twice the degrees of freedom.
+
+$$
+\frac{\sigma_{\hat{s}}}{s} \approx \frac{1}{\sqrt{2 \left( n-1 \right)}}
+\tag{4}
+$$
+
+**Equation 5, Maximum-Likelihood Axis Standard Deviation.**
+Under the circular normal assumption the maximum-likelihood estimate of the axis standard deviation is the root of the summed squared radial misses divided by twice the number of impacts.
+
+$$
+\hat{\sigma} = \sqrt{\frac{1}{2n} \sum_{i=1}^{n} r_i^{2}}
+\tag{5}
+$$
+
+**Equation 6, Root-Mean-Square Miss with a Bias.**
+A systematic offset $b$ adds in quadrature to the random radial miss, whose mean square is twice the axis variance.
+
+$$
+m_{\text{rms}} = \sqrt{b^{2} + 2 \sigma^{2}}
+\tag{6}
+$$
+
+**Equation 7, Quadrature Sum of Independent Errors.**
+The variances of independent error sources add, so the total variance is the sum of the contributors' variances.
+
+$$
+\sigma_{\text{total}}^{2} = \sum_{i} \sigma_{i}^{2}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Equal Error Allocation.*
+Assuming that $n$ sources contribute equally, each is allotted the total standard deviation divided by the square root of $n$.
+
+$$
+\sigma_i = \frac{\sigma_{\text{total}}}{\sqrt{n}}
+\tag{8}
+$$
+
+**Equation 9, Antenna Beamwidth.**
+The angular beamwidth of an antenna is roughly the wavelength divided by the aperture.
+[beamwidth][ref_beamwidth]
+[Skolnik 2008 Radar Handbook][book_skolnik_2008]
+
+$$
+\theta \approx \frac{\lambda}{D}
+\tag{9}
+$$
+
+*Equation 10, Bespoke Cross-Range Tracking Error.*
+The article models the cross-range error as the range times the beamwidth divided by a resolution factor $k$ that it treats as a constant of order twenty.
+
+$$
+\varepsilon_{\perp} = \frac{R \, \theta}{k} = \frac{R \lambda}{k D}
+\tag{10}
+$$
+
+*Equation 11, Bespoke Tracking Error from the Launcher.*
+The cross-range error at 100 miles is evaluated for an assumed X-band wavelength of 0.03 metres, a one metre antenna and a resolution factor of twenty.
+
+$$
+\varepsilon_{\perp} = \frac{(1.6 \times 10^{5})(0.030)}{20} = 240 \, \text{m}
+\tag{11}
+$$
+
+*Equation 12, Bespoke Maximum Command-Guidance Range.*
+Setting the cross-range error equal to the 91.5 metre budget gives the range limit of a launcher radar for the assumed antenna and resolution factor.
+
+$$
+R_{\max} = \frac{k \, \sigma_{\text{total}} D}{\lambda} = \frac{(20)(91.5)(1.0)}{0.03} = 61 \, \text{km}
+\tag{12}
+$$
+
+*Equation 13, Bespoke Tracking Error of a Missile Seeker.*
+The same error model applied to an assumed 0.4 metre seeker antenna at two kilometres from the target gives 7.5 metres.
+
+$$
+\varepsilon_{\perp}(2 \, \text{km}) = \frac{(2 \times 10^{3})(0.075)}{20} = 7.5 \, \text{m}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Opposite Error Gradients.*
+Under the article's error model the error of a launcher-based sensor grows with the range from the launcher and that of a missile-borne sensor with the range to the target.
+
+$$
+\varepsilon_{\text{launcher}} \propto R_L, \qquad \varepsilon_{\text{missile}} \propto R_T
+\tag{14}
+$$
+
+**Equation 15, Monopulse Angle Error from Receiver Noise.**
+The angular error of a monopulse tracker from thermal noise is the beamwidth divided by the monopulse slope and the square root of twice the signal-to-noise ratio.
+[Barton 2004 Radar System Analysis and Modeling][book_barton_2004]
+
+$$
+\sigma_{\theta,\text{noise}} = \frac{\theta}{k_m \sqrt{2 \, (S/N)}}
+\tag{15}
+$$
+
+**Equation 16, Radar Range Equation.**
+The power received from a target of cross-section $\sigma_t$ by a monostatic radar falls as the fourth power of range.
+[Skolnik 2008 Radar Handbook][book_skolnik_2008]
+
+$$
+P_r = \frac{P_t G^{2} \lambda^{2} \sigma_t}{\left( 4\pi \right)^{3} R^{4}}
+\tag{16}
+$$
+
+**Equation 17, Signal-to-Noise Ratio of a Skin Return.**
+With fixed noise the signal-to-noise ratio of a reflecting target scales as the inverse fourth power of range.
+
+$$
+\frac{S}{N} \propto \frac{1}{R^{4}}
+\tag{17}
+$$
+
+**Equation 18, Received Power from a Beacon.**
+A beacon of power $P_b$ and gain $G_b$ on the missile is received over a one-way path, so its power falls only as the square of range.
+
+$$
+P_{r,\text{beacon}} = \frac{P_b G_b G \lambda^{2}}{\left( 4\pi R \right)^{2}}
+\tag{18}
+$$
+
+**Equation 19, Beacon to Skin Power Ratio.**
+Dividing the beacon equation by the radar equation gives the advantage of a beacon, which grows as the square of range.
+
+$$
+\frac{P_{r,\text{beacon}}}{P_{r,\text{skin}}} = \frac{P_b G_b \left( 4\pi \right) R^{2}}{P_t G \sigma_t}
+\tag{19}
+$$
+
+**Equation 20, Glint Angle Error.**
+The apparent position of a target with several scattering centres wanders by a fraction $c_g$ of its angular extent, so the glint error falls as one over range.
+[Delano 1953][research_delano_1953]
+
+$$
+\sigma_{\theta,\text{glint}} \approx \frac{c_g \, L_t}{R}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Beam-Rider Error.*
+The article models the lateral error of a beam rider as the beam width at the missile's range divided by a sensing factor $k_b$ of order ten.
+
+$$
+\varepsilon_{\text{beam}} = \frac{R \, \theta}{k_b}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Beam-Rider Error at Forty Kilometres.*
+The beam-rider model is evaluated at forty kilometres with the assumed 0.03 radian beam and a sensing factor of ten.
+
+$$
+\varepsilon_{\text{beam}} = \frac{(4 \times 10^{4})(0.03)}{10} = 120 \, \text{m}
+\tag{22}
+$$
+
+**Equation 23, Crossover Model of Manual Control.**
+A trained operator adapts until the open loop near crossover behaves as an integrator with gain $\omega_c$ and a pure time delay $\tau$.
+[McRuer and Krendel 1974 Mathematical Models of Human Pilot Behavior][book_mcruer_krendel_1974]
+
+$$
+Y_{\text{open}}(s) \approx \frac{\omega_c}{s} e^{-\tau s}
+\tag{23}
+$$
+
+**Equation 24, Crossover Frequency Limit for a Phase Margin.**
+The delay of the crossover model consumes phase in proportion to frequency, so a phase margin $\phi_m$ bounds the crossover frequency.
+[McRuer and Krendel 1974 Mathematical Models of Human Pilot Behavior][book_mcruer_krendel_1974]
+
+$$
+\omega_c \le \frac{\pi/2 - \phi_m}{\tau}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Operator Crossover Frequency.*
+The bound is evaluated for a chosen 45 degree phase margin and an operator delay taken as 0.3 seconds, which gives 2.6 radians per second.
+
+$$
+\omega_c \le \frac{1.571 - 0.785}{0.3} = 2.6 \, \text{rad/s}
+\tag{25}
+$$
+
+**Equation 26, Supersonic Normal-Force Slope.**
+Linearised supersonic theory gives a normal-force slope of four over the square root of $M^{2} - 1$, evaluated at the reported Mach 1.5.
+[Nielsen 1960 Missile Aerodynamics][book_nielsen_1960]
+[Anderson 2002 Modern Compressible Flow][book_anderson_2002_modern_compressible]
+
+$$
+C_{N\alpha} = \frac{4}{\sqrt{M^{2}-1}} = \frac{4}{\sqrt{1.25}} = 3.58 \ \text{per radian}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Dynamic Pressure at the Design Condition.*
+The dynamic pressure is evaluated at a flight condition the article chooses, Mach 1.5 at 12 kilometres.
+
+$$
+q = \tfrac{1}{2} \rho v^{2} = \tfrac{1}{2}(0.312)(443)^{2} = 3.06 \times 10^{4} \, \text{Pa}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Pitch Moment of Inertia.*
+The pitch inertia treats the vehicle as a uniform slender rod of the reported length and launch mass.
+
+$$
+I_y \approx \frac{m L^{2}}{12} = \frac{(1588)(6.93)^{2}}{12} = 6.4 \times 10^{3} \, \text{kg} \cdot \text{m}^{2}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Aerodynamic Pitch Stiffness.*
+The restoring stiffness is the normal force per radian times an assumed static margin of half a metre at the chosen dynamic pressure.
+
+$$
+M_{\alpha} = q S C_{N\alpha} \, \Delta x = (3.06 \times 10^{4})(6.5)(3.58)(0.5) = 3.6 \times 10^{5} \, \text{N} \cdot \text{m/rad}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Short-Period Natural Frequency.*
+The natural frequency is the square root of stiffness over inertia, evaluated with the assumed static margin and the uniform-rod inertia.
+[Etkin and Reid 1996 Dynamics of Flight, Stability and Control][book_etkin_reid_1996]
+
+$$
+\omega_n = \sqrt{\frac{M_{\alpha}}{I_y}} = \sqrt{\frac{3.6 \times 10^{5}}{6.4 \times 10^{3}}} = 7.5 \, \text{rad/s}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Total Impulse.*
+The total impulse is the propellant mass times an effective exhaust velocity of 2,157 metres per second, which the article takes as representative of a storable propellant of the period.
+
+$$
+I_{\text{tot}} = m_p c = (624)(2157) = 1.35 \times 10^{6} \, \text{N} \cdot \text{s}
+\tag{31}
+$$
+
+*Equation 32, Bespoke Burn Time at Rated Thrust.*
+The burn time is the assumed total impulse divided by the rated thrust of 13.3 kilonewtons.
+
+$$
+t_b = \frac{I_{\text{tot}}}{F} = \frac{1.35 \times 10^{6}}{1.33 \times 10^{4}} = 101 \, \text{s}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Ideal Velocity Increment.*
+The rocket equation is evaluated for the reported launch and empty masses with the assumed effective exhaust velocity.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+\Delta v = c \ln \frac{m_0}{m_f} = 2157 \ln \frac{1588}{964} = 1077 \, \text{m/s}
+\tag{33}
+$$
+
+**Equation 34, Drag in Level Cruise.**
+In level cruise the thrust equals the drag of a parabolic polar, a zero-lift term plus induced drag set by aspect ratio $A$ and span efficiency $e$.
+
+$$
+F_{\text{cruise}} = D = q S \left( C_{D0} + \frac{C_L^{2}}{\pi A e} \right)
+\tag{34}
+$$
+
+*Equation 35, Bespoke Cruise Lift Coefficient.*
+The lift coefficient that supports the launch weight is evaluated at the dynamic pressure of the chosen Mach 1.5 and 12 kilometre condition.
+
+$$
+C_L = \frac{m g}{q S} = \frac{(1588)(9.81)}{(3.06 \times 10^{4})(6.5)} = 0.078
+\tag{35}
+$$
+
+**Equation 36, Skin-Friction Drag Coefficient.**
+Skin friction contributes the friction coefficient times the ratio of wetted area to reference area.
+
+$$
+C_{D,f} = C_f \, \frac{S_{\text{wet}}}{S}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Skin-Friction Estimate.*
+The friction drag is evaluated for an assumed turbulent flat-plate coefficient of 0.0025 and a wetted area the article estimates at 25.2 square metres.
+
+$$
+C_{D,f} = (0.0025) \frac{25.2}{6.5} = 0.0097
+\tag{37}
+$$
+
+*Equation 38, Bespoke Cruise Drag.*
+The cruise drag uses an assumed zero-lift drag coefficient of 0.02 at the chosen dynamic pressure.
+
+$$
+D \approx (3.06 \times 10^{4})(6.5)(0.02) = 4.0 \times 10^{3} \, \text{N}
+\tag{38}
+$$
+
+**Equation 39, Injector Orifice Flow.**
+The mass flow through an orifice of discharge coefficient $C_d$ and area $A_i$ grows as the square root of the pressure drop.
+[Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992]
+
+$$
+\dot{m} = C_d A_i \sqrt{2 \rho \, \Delta p}
+\tag{39}
+$$
+
+**Equation 40, Injector Stiffness Criterion.**
+The conventional rule for combustion stability keeps the injector pressure drop above about a fifth of the chamber pressure.
+[Huzel and Huang 1992 Design of Liquid Propellant Rocket Engines][book_huzel_huang_1992]
+
+$$
+\frac{\Delta p}{p_c} \ge 0.2
+\tag{40}
+$$
+
+*Equation 41, Bespoke Injector Drop at Half Flow.*
+An injector assumed to sit at the stiffness limit at full flow keeps only a quarter of its pressure drop when throttled to half flow.
+
+$$
+\frac{\Delta p}{p_c} = \frac{0.2}{4} = 0.05
+\tag{41}
+$$
+
+**Equation 42, Thrust-to-Weight Ratio at Launch.**
+The rated thrust over the weight at the reported launch mass is 0.85.
+[Parsch 2002][ref_parsch_x9]
+
+$$
+\frac{F}{m_0 g} = \frac{1.33 \times 10^{4}}{(1588)(9.81)} = 0.85
+\tag{42}
+$$
+
+**Equation 43, Specific Energy.**
+The specific energy of a vehicle is its potential energy per unit mass plus its kinetic energy per unit mass.
+
+$$
+e_{\text{launch}} = g h + \tfrac{1}{2} v^{2}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Specific Energy at Release.*
+The specific energy is evaluated for release conditions the article assumes, 12.2 kilometres and Mach 0.8.
+
+$$
+e_{\text{launch}} = (9.81)(1.22 \times 10^{4}) + \tfrac{1}{2}(236)^{2} = 1.20 \times 10^{5} + 2.79 \times 10^{4} = 1.48 \times 10^{5} \, \text{J/kg}
+\tag{44}
+$$
+
+*Equation 45, Bespoke Velocity Equivalent of Air Launch.*
+The speed that carries the same specific energy as the assumed release condition is 544 metres per second.
+
+$$
+v_{\text{equiv}} = \sqrt{2 e_{\text{launch}}} = \sqrt{2.96 \times 10^{5}} = 544 \, \text{m/s}
+\tag{45}
+$$
+
+**Equation 46, Tsiolkovsky Mass Ratio.**
+The ratio of initial to final mass grows exponentially with the velocity increment over the effective exhaust velocity.
+
+$$
+\frac{m_0}{m_f} = \exp \left( \frac{\Delta v}{c} \right)
+\tag{46}
+$$
+
+*Equation 47, Bespoke Energy Audit of the Powered Phase.*
+The energy gained from the assumed release condition to Mach 2 at a 20 kilometre apex is summed with the burnout mass taken as the empty mass.
+
+$$
+\Delta E = m g \Delta h + \tfrac{1}{2} m_f v_f^{2} - \tfrac{1}{2} m_0 v_0^{2} = 1.22 \times 10^{8} + 1.68 \times 10^{8} - 4.4 \times 10^{7} = 2.5 \times 10^{8} \, \text{J}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Kinetic Energy of the Exhaust.*
+The kinetic energy carried by the propellant at the assumed effective exhaust velocity is $1.45 \times 10^{9}$ joules.
+
+$$
+E_p = \tfrac{1}{2} m_p c^{2} = \tfrac{1}{2}(624)(2157)^{2} = 1.45 \times 10^{9} \, \text{J}
+\tag{48}
+$$
+
+**Equation 49, Glide Range.**
+A vehicle gliding at a constant lift-to-drag ratio covers that ratio times its height in horizontal distance.
+
+$$
+R_{\text{glide}} = h \, \frac{L}{D}
+\tag{49}
+$$
+
+*Equation 50, Bespoke Powered Range.*
+The distance covered under power uses a mean speed during the burn that the article assumes to be 400 metres per second.
+
+$$
+R_{\text{powered}} = \bar{v} \, t_b = (400)(101) = 40 \, \text{km}
+\tag{50}
+$$
+
+*Equation 51, Bespoke Effective Glide Ratio.*
+Attributing the 40 kilometres not flown under power to a glide from the 20 kilometre apex gives a lift-to-drag ratio of two.
+
+$$
+\frac{L}{D} = \frac{R_{\text{glide}}}{h} = \frac{40}{20} = 2.0
+\tag{51}
+$$
+
+*Equation 52, Bespoke Dynamic Pressure at Release Altitude.*
+The dynamic pressure at Mach 2 is evaluated at the assumed release altitude of 12.2 kilometres.
+
+$$
+q = \tfrac{1}{2}(0.301)(590)^{2} = 5.2 \times 10^{4} \, \text{Pa}
+\tag{52}
+$$
+
+**Equation 53, Dynamic Pressure at the Ceiling.**
+The dynamic pressure at Mach 2 at the reported 20 kilometre ceiling uses the standard atmosphere density there.
+
+$$
+q = \tfrac{1}{2}(0.089)(590)^{2} = 1.5 \times 10^{4} \, \text{Pa}
+\tag{53}
+$$
+
+**Equation 54, Supersonic Maximum Lift-to-Drag Estimate.**
+The classical estimate of the maximum lift-to-drag ratio of a supersonic configuration falls with Mach number toward four.
+
+$$
+\left( \frac{L}{D} \right)_{\max} \approx \frac{4 \left( M + 3 \right)}{M}
+\tag{54}
+$$
+
+**Equation 55, Proportional Navigation.**
+The commanded lateral acceleration is the navigation constant times the closing velocity times the rotation rate of the line of sight.
+[Zarchan 2012 Tactical and Strategic Missile Guidance][book_zarchan_2012]
+
+$$
+a_c = N \, V_c \, \dot{\lambda}
+\tag{55}
+$$
+
+**Equation 56, Small-Angle Line-of-Sight Rate.**
+For small angles the line-of-sight angle is the lateral separation over the range to go, and its rate is the time derivative of that ratio.
+
+$$
+\dot{\lambda} = \frac{\mathrm{d}}{\mathrm{d}t} \left( \frac{y}{V_c t_{go}} \right)
+\tag{56}
+$$
+
+**Equation 57, Proportional Navigation in Separation and Time to Go.**
+Substituting the line-of-sight rate into the guidance law expresses the command in the lateral separation, its rate and the time to go.
+
+$$
+a_c = N \, \frac{y}{t_{go}^{2}} + N \, \frac{\dot{y}}{t_{go}}
+\tag{57}
+$$
+
+**Equation 58, Acceleration Ratio Against a Manoeuvring Target.**
+Under proportional navigation the missile's steady acceleration requirement is $N/(N-2)$ times the target's manoeuvre.
+[Zarchan 2012 Tactical and Strategic Missile Guidance][book_zarchan_2012]
+
+$$
+\frac{n_m}{n_t} = \frac{N}{N-2}
+\tag{58}
+$$
+
+**Equation 59, Normalised Miss Distance.**
+The residual miss relative to the initial disturbance depends only on the time to go in guidance time constants and on the navigation constant.
+
+$$
+\frac{m}{m_0} = f \left( \frac{t_{go}}{\tau_g}, N \right)
+\tag{59}
+$$
+
+*Equation 60, Bespoke Asymptotic Miss for a First-Order Loop.*
+For a guidance loop lumped into a single first-order lag and a step disturbance, the article takes the residual miss as a polynomial in the normalised time $x$ times $e^{-x}$.
+
+$$
+\frac{m}{m_0} \sim \frac{x^{N-1}}{(N-1)!} \, e^{-x}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Residual Miss at Eight Time Constants.*
+The asymptotic form evaluated at eight time constants with a navigation constant of four leaves three percent of the initial miss.
+
+$$
+\left. \frac{m}{m_0} \right|_{x=8} = \frac{8^{3}}{6} \, e^{-8} = 2.9 \times 10^{-2}
+\tag{61}
+$$
+
+*Equation 62, Bespoke Ten Time Constant Criterion.*
+The article adopts ten guidance time constants of remaining flight as the time needed to null an error.
+
+$$
+t_{go} \ge 10 \, \tau_g
+\tag{62}
+$$
+
+*Equation 63, Bespoke Guidance Time Constant.*
+The guidance time constant is the sum of an operator delay of 0.3 seconds, an assumed autopilot rise time of 0.4 seconds and an airframe lag of 0.13 seconds.
+
+$$
+\tau_g \approx 0.30 + 0.40 + 0.13 = 0.83 \, \text{s}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Range Needed to Null an Error.*
+Ten assumed guidance time constants at Mach 2 correspond to about five kilometres of flight.
+
+$$
+R_{\text{null}} = v \, t_{go} = (590)(8.3) = 4.9 \, \text{km}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Standoff Condition.*
+The article defines the launch aircraft as safe when the missile's range exceeds the defended radius plus the distance flown while turning away.
+
+$$
+R_m \ge R_d + v_{\text{ac}} \, t_{\text{turn}}
+\tag{65}
+$$
+
+**Equation 66, Centre of Pressure of Combined Surfaces.**
+The centre of pressure of a configuration is the mean of the surface positions weighted by their normal-force slopes.
+
+$$
+x_{cp} = \frac{\sum_i C_{N\alpha,i} \, x_i}{\sum_i C_{N\alpha,i}}
+\tag{66}
+$$
+
+**Equation 67, Hinge Moment.**
+The hinge moment is the dynamic pressure times the surface area, the mean chord and the hinge-moment coefficient.
+
+$$
+H = q \, S_c \, \bar{c} \, C_h
+\tag{67}
+$$
+
+*Equation 68, Bespoke Hinge Moment of the Canard.*
+The hinge moment is evaluated for an assumed 0.35 square metre surface of half-metre chord at a coefficient of 0.05 and the chosen dynamic pressure.
+
+$$
+H = (3.06 \times 10^{4})(0.35)(0.5)(0.05) = 268 \, \text{N} \cdot \text{m}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Actuator Power.*
+The actuator power is the assumed hinge moment times a surface rate of five radians per second that the article takes as the autopilot's demand.
+
+$$
+P = H \, \dot{\delta} = (268)(5) = 1.3 \, \text{kW}
+\tag{69}
+$$
+
+**Equation 70, Trim Lift of a Canard Configuration.**
+The trimmed lift is the sum of the wing lift and the canard lift.
+
+$$
+L_{\text{trim}} = L_{\text{wing}} + L_{\text{canard}}
+\tag{70}
+$$
+
+**Equation 71, Trim Angle of Attack.**
+A control deflection trims the vehicle at the angle of attack where the control moment cancels the static restoring moment.
+
+$$
+\alpha_{\text{trim}} = -\frac{C_{m\delta}}{C_{m\alpha}} \, \delta
+\tag{71}
+$$
+
+**Equation 72, Normal Load Factor.**
+The normal acceleration in units of gravity is the normal force at the trim angle divided by the weight.
+
+$$
+n = \frac{q S C_{N\alpha} \alpha_{\text{trim}}}{m g}
+\tag{72}
+$$
+
+*Equation 73, Bespoke Load Factor per Degree.*
+One degree of trimmed angle of attack at the chosen dynamic pressure gives about 0.8 g.
+
+$$
+n = \frac{(3.06 \times 10^{4})(6.5)(3.58)(0.01745)}{(1588)(9.81)} = 0.80
+\tag{73}
+$$
+
+**Equation 74, Roll Error Rotation of the Command.**
+An error $\Delta\phi$ in the assumed roll angle rotates the commanded acceleration vector by that angle.
+
+$$
+\begin{bmatrix} a_y \\ a_z \end{bmatrix} = \begin{bmatrix} \cos \Delta\phi & -\sin \Delta\phi \\ \sin \Delta\phi & \cos \Delta\phi \end{bmatrix} \begin{bmatrix} a_{y,c} \\ a_{z,c} \end{bmatrix}
+\tag{74}
+$$
+
+**Equation 75, Lateral Offset from a Heading Error.**
+An uncorrected heading error $\varepsilon$ displaces the impact point laterally by the range times its sine.
+
+$$
+\Delta y = R \sin \varepsilon \approx R \varepsilon
+\tag{75}
+$$
+
+**Equation 76, Offset from One Degree at the Reported Range.**
+One degree of heading error over the reported 80 kilometre range displaces the impact by 1.4 kilometres.
+[Parsch 2002][ref_parsch_x9]
+
+$$
+\Delta y (1^{\circ}) = (8 \times 10^{4})(0.01745) = 1.4 \, \text{km}
+\tag{76}
+$$
+
+*Equation 77, Bespoke Correctable Offset.*
+The article bounds the correctable offset by assuming a constant normal acceleration held at constant speed over the remaining range.
+
+$$
+\Delta y \le \tfrac{1}{2} a_n \left( \frac{R_r}{v} \right)^{2}
+\tag{77}
+$$
+
+*Equation 78, Bespoke Correctable Offset at Eighty Kilometres.*
+At the four g limit the article derives and at Mach 2 over 80 kilometres the correctable offset is 360 kilometres.
+
+$$
+\Delta y_{\max} = \tfrac{1}{2}(39.2) \left( \frac{8 \times 10^{4}}{590} \right)^{2} = 3.6 \times 10^{5} \, \text{m}
+\tag{78}
+$$
+
+**Equation 79, Free-Fall Time.**
+A body falling freely from rest clears a distance $d$ in the square root of $2d/g$.
+
+$$
+t = \sqrt{\frac{2 d}{g}}
+\tag{79}
+$$
+
+*Equation 80, Bespoke Aircraft Travel During Separation.*
+The distance flown by the launch aircraft uses an assumed three metres of clearance and the assumed release speed of Mach 0.8.
+
+$$
+\Delta x = v_{\text{ac}} t = (236)(0.78) = 184 \, \text{m}
+\tag{80}
+$$
+
+*Equation 81, Bespoke Tip-Off Angular Acceleration.*
+The article models tip-off as the weight acting at an offset $\ell$ from the last support, with aerodynamic and aircraft loads neglected.
+
+$$
+\dot{q} = \frac{m g \ell}{I_y}
+\tag{81}
+$$
+
+*Equation 82, Bespoke Tip-Off at Half a Metre.*
+The tip-off model is evaluated for an assumed half-metre offset and the uniform-rod pitch inertia.
+
+$$
+\dot{q} = \frac{(1588)(9.81)(0.5)}{6.4 \times 10^{3}} = 1.22 \, \text{rad/s}^{2}
+\tag{82}
+$$
+
+*Equation 83, Bespoke Command Sampling Rate.*
+The article samples the command link at ten times the crossover frequency of the operator loop.
+
+$$
+f_s = 10 \, \frac{\omega_c}{2\pi} = 10 \, \frac{2.6}{6.283} = 4.1 \, \text{Hz}
+\tag{83}
+$$
+
+*Equation 84, Bespoke Command Data Rate.*
+Two command axes at an assumed eight bits each and the chosen sampling rate require 66 bits per second.
+
+$$
+C_{\text{req}} = (2)(8)(4.1) = 66 \, \text{bit/s}
+\tag{84}
+$$
+
+**Equation 85, Signal-to-Jamming Ratio.**
+The ratio of command signal to jamming at the receiver depends on the transmitter powers and gains, the square of the range ratio and the jammer's bandwidth dilution.
+
+$$
+\frac{S}{J} = \frac{P_c G_c}{P_j G_j} \left( \frac{R_j}{R_c} \right)^{2} \, \frac{B_j}{B_s}
+\tag{85}
+$$
+
+**Equation 86, Friis Transmission Equation.**
+The power received over a one-way radio path falls as the square of range.
+
+$$
+P_r = \frac{P_t G_t G_r \lambda^{2}}{\left( 4 \pi R \right)^{2}}
+\tag{86}
+$$
+
+*Equation 87, Bespoke Free-Space Loss of the Command Link.*
+The free-space term at 80 kilometres is evaluated for a command wavelength of one metre that the article assumes.
+
+$$
+\left( \frac{\lambda}{4 \pi R} \right)^{2} = \left( \frac{1}{4\pi \times 8 \times 10^{4}} \right)^{2} = 9.9 \times 10^{-13}
+\tag{87}
+$$
+
+**Equation 88, Radio Propagation Delay.**
+The one-way delay over 80 kilometres at the speed of light is 0.27 milliseconds.
+
+$$
+t_{\text{prop}} = \frac{R}{c_0} = \frac{8 \times 10^{4}}{3 \times 10^{8}} = 0.27 \, \text{ms}
+\tag{88}
+$$
+
+**Equation 89, Characteristic Equation with Rate Feedback.**
+Rate feedback of gain $K$ through a control moment $M_{\delta}$ adds to the damping term of the short-period characteristic equation and leaves its stiffness unchanged.
+[Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991]
+
+$$
+s^{2} + \left( 2 \zeta_a \omega_n + K M_{\delta} \right) s + \omega_n^{2} = 0
+\tag{89}
+$$
+
+**Equation 90, Damping Ratio with Rate Feedback.**
+The closed-loop damping ratio is the aerodynamic damping plus the feedback term divided by twice the natural frequency.
+[Blakelock 1991 Automatic Control of Aircraft and Missiles][book_blakelock_1991]
+
+$$
+\zeta = \zeta_a + \frac{K M_{\delta}}{2 \omega_n}
+\tag{90}
+$$
+
+*Equation 91, Bespoke Required Rate-Loop Gain.*
+The gain needed for a chosen damping ratio of 0.7 assumes an aerodynamic damping of 0.05 and the article's natural frequency.
+
+$$
+K M_{\delta} = 2 \omega_n \left( \zeta - \zeta_a \right) = (2)(7.5)(0.7 - 0.05) = 9.8 \, \text{s}^{-1}
+\tag{91}
+$$
+
+**Equation 92, Gain Stabilisation of the First Bending Mode.**
+The loop remains stable against structural coupling when its gain at the first bending frequency is below unity.
+
+$$
+\left| K \, G_{\text{bend}}(j\omega_1) \right| < 1
+\tag{92}
+$$
+
+**Equation 93, First Bending Mode of a Free-Free Beam.**
+A uniform free-free beam has its first elastic mode at $(4.730/L)^{2}$ times the square root of the bending stiffness over the mass per unit length.
+
+$$
+\omega_1 = \left( \frac{4.730}{L} \right)^{2} \sqrt{\frac{EI}{\mu}}
+\tag{93}
+$$
+
+**Equation 94, Second Moment of Area of a Thin-Walled Tube.**
+A thin-walled circular tube of radius $r$ and wall thickness $t$ has a second moment of area $\pi r^{3} t$.
+
+$$
+I = \pi r^{3} t
+\tag{94}
+$$
+
+*Equation 95, Bespoke First Bending Frequency of the X-9.*
+The free-free beam is evaluated for an assumed three millimetre aluminium wall and the launch mass spread uniformly along the length.
+
+$$
+\omega_1 = \left( \frac{4.730}{6.93} \right)^{2} \sqrt{\frac{(70 \times 10^{9})(2.1 \times 10^{-4})}{229}} = 117 \, \text{rad/s}
+\tag{95}
+$$
+
+*Equation 96, Bespoke Missile Flight Time.*
+The flight time assumes that the whole 80 kilometres is flown at Mach 2.
+
+$$
+t_f = \frac{R}{v} = \frac{8 \times 10^{4}}{590} = 136 \, \text{s}
+\tag{96}
+$$
+
+*Equation 97, Bespoke Launch Aircraft Travel.*
+The launch aircraft is assumed to continue at Mach 0.8 for the missile's flight time.
+
+$$
+\Delta x_{\text{ac}} = (236)(136) = 32 \, \text{km}
+\tag{97}
+$$
+
+**Equation 98, Level Turn Radius.**
+The radius of a level banked turn is the square of speed over gravity times the square root of $n^{2} - 1$.
+
+$$
+R_t = \frac{v^{2}}{g \sqrt{n^{2}-1}}
+\tag{98}
+$$
+
+*Equation 99, Bespoke Bomber Turn Radius.*
+The turn radius is evaluated for a bomber assumed limited to 1.5 g at the assumed release speed.
+
+$$
+R_t = \frac{(236)^{2}}{(9.81)\sqrt{1.25}} = 5.1 \, \text{km}
+\tag{99}
+$$
+
+*Equation 100, Bespoke Time for a Reversal.*
+A half circle at the assumed turn radius and speed takes 68 seconds.
+
+$$
+t_{180} = \frac{\pi R_t}{v} = \frac{\pi (5.1 \times 10^{3})}{236} = 68 \, \text{s}
+\tag{100}
+$$
+
+**Equation 101, Recovery Temperature.**
+The recovery temperature at Mach 2 uses a turbulent recovery factor of 0.89 and the standard atmosphere temperature of 217 kelvin.
+
+$$
+T_r = T_{\infty} \left( 1 + r \, \frac{\gamma-1}{2} M^{2} \right) = 217 \left( 1 + (0.89)(0.2)(4) \right) = 372 \, \text{K}
+\tag{101}
+$$
+
+**Equation 102, Lumped Thin-Skin Heating.**
+A thin skin of density $\rho_m$, specific heat $c_p$ and thickness $t$ heats at a rate set by convection from the recovery temperature.
+[Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer]
+
+$$
+\rho_m c_p t \, \frac{\mathrm{d}T_w}{\mathrm{d}t} = h \left( T_r - T_w \right)
+\tag{102}
+$$
+
+**Equation 103, Thermal Time Constant of a Thin Skin.**
+The skin's thermal time constant is its heat capacity per unit area divided by the convective coefficient.
+[Incropera and DeWitt, Fundamentals of Heat and Mass Transfer][book_incropera_heat_transfer]
+
+$$
+\tau = \frac{\rho_m c_p t}{h}
+\tag{103}
+$$
+
+*Equation 104, Bespoke Skin Time Constant.*
+The time constant is evaluated for an assumed two millimetre aluminium skin and a convective coefficient of 150 watts per square metre kelvin.
+
+$$
+\tau = \frac{(2800)(900)(2 \times 10^{-3})}{150} = 34 \, \text{s}
+\tag{104}
+$$
+
+*Equation 105, Bespoke Wing Root Bending Moment.*
+The article estimates the root bending moment as the load at four g acting at a quarter of the span $b$.
+
+$$
+M_{\text{root}} = n \, m g \, \frac{b}{4} = (4)(1588)(9.81) \frac{2.39}{4} = 3.7 \times 10^{4} \, \text{N} \cdot \text{m}
+\tag{105}
+$$
+
+**Equation 106, Terminal Velocity Under a Canopy.**
+A body descends at the speed where drag on area $A$ with coefficient $C_D$ balances its weight.
+[Knacke 1992 Parachute Recovery Systems Design Manual][book_knacke_1992]
+
+$$
+v_t = \sqrt{\frac{2 m g}{\rho C_D A}}
+\tag{106}
+$$
+
+*Equation 107, Bespoke Canopy Area.*
+The canopy area is evaluated for an assumed 300 kilogramme package, an assumed descent rate of eight metres per second and a drag coefficient of 1.4.
+
+$$
+A = \frac{2 m g}{\rho C_D v_t^{2}} = \frac{(2)(300)(9.81)}{(1.225)(1.4)(64)} = 53.6 \, \text{m}^{2}
+\tag{107}
+$$
+
+**Equation 108, Likelihood of Four Failures Then a Success.**
+For independent flights of success probability $p$, the likelihood of four failures followed by a success is maximised at $p = 0.2$.
+
+$$
+L(p) = \left( 1 - p \right)^{4} p
+\tag{108}
+$$
+
+**Equation 109, Zero-Failure Demonstration Test.**
+Demonstrating reliability $p$ at confidence $1 - \alpha$ with no failures needs $\ln \alpha / \ln p$ consecutive successes.
+
+$$
+n = \frac{\ln \alpha}{\ln p}
+\tag{109}
+$$
+
+**Equation 110, Successes Needed for 90 Percent at 95 Percent.**
+Demonstrating 90 percent reliability at 95 percent confidence needs 29 consecutive successes.
+
+$$
+n = \frac{\ln 0.05}{\ln 0.90} = 28.4, \ \text{so 29 consecutive successes}
+\tag{110}
+$$
+
+**Equation 111, Single-Shot Kill Probability.**
+For a definite lethal radius $R_L$ and a circular normal miss, the kill probability is one minus one half raised to the squared ratio of lethal radius to circular error probable.
+
+$$
+P_k = 1 - \left( \tfrac{1}{2} \right)^{\left( R_L / \mathrm{CEP} \right)^{2}}
+\tag{111}
+$$
+
+**Equation 112, Circular Error Probable for a Kill Probability.**
+Inverting the kill probability gives the circular error probable that a lethal radius and a required kill probability permit.
+
+$$
+\mathrm{CEP} = \frac{R_L}{\sqrt{\log_2 \left( \dfrac{1}{1 - P_k} \right)}}
+\tag{112}
+$$
+
+**Equation 113, Cube-Root Blast Scaling.**
+The radius at which a given overpressure is reached scales as the cube root of yield $W$ from the one-kilotonne radius $R_1$.
+[Glasstone and Dolan 1977 The Effects of Nuclear Weapons][book_glasstone_dolan_1977]
+
+$$
+R_L = R_1 \, W^{1/3}
+\tag{113}
+$$
+
+*Equation 114, Bespoke Lethal Radius at Twenty Kilotonnes.*
+Cube-root scaling from the 690 metre one-kilotonne radius for five pounds per square inch is evaluated for a yield of twenty kilotonnes that the article takes as representative.
+[Glasstone 1962 The Effects of Nuclear Weapons, Revised Edition][book_glasstone_1962]
+
+$$
+R_L = 690 \, (20)^{1/3} = 1873 \, \text{m}
+\tag{114}
+$$
+
+*Equation 115, Bespoke Accuracy Needed for 90 Percent Kill.*
+The circular error probable is evaluated for an assumed lethal radius of 1,500 metres against a soft target and a 90 percent kill probability.
+
+$$
+\mathrm{CEP} = \frac{1500}{\sqrt{\log_2 10}} = \frac{1500}{1.82} = 823 \, \text{m}
+\tag{115}
+$$
+
+### Notation
+
+- $\sigma$, the axis standard deviation of the miss, and with a subscript the standard deviation of one error source or of an angle estimate
+- $\mathrm{CEP}$, the circular error probable, the radius containing half the impacts
+- $R$, a radius about the aim point in Equations 1 and 2, a range from a radar or transmitter in the tracking and link sections, and a range to the target in Equations 75 and 96
+- $P$, the probability of landing within a radius, and in Equation 69 the actuator power
+- $n$, a number of samples, flights or error sources, and in Equations 72, 98 and 105 the load factor
+- $b$, the systematic bias of the impact point in Equation 6 and the wing span in Equation 105
+- $\lambda$, the radar or radio wavelength, and in Equations 55 and 56 the line-of-sight angle
+- $D$, the antenna aperture in the tracking equations and the drag in Equations 34 and 38
+- $k$, the factor by which a tracker resolves an angle finer than the beamwidth
+- $\theta$, the angular beamwidth
+- $\varepsilon_{\perp}$, the cross-range position error of a tracker
+- $k_m$, the monopulse slope
+- $\sigma_t$, the radar cross-section of the target
+- $P_t$, the transmitter power
+- $G$, the gain of the radar antenna
+- $P_b$, the power of the beacon on the missile
+- $c_g$, the glint factor, of order 0.3
+- $L_t$, the dimension of the target
+- $k_b$, the fraction of a beamwidth that a beam rider can sense, of order ten
+- $\omega_c$, the crossover frequency of the operator loop
+- $\tau$, the operator's effective delay, and in Equations 103 and 104 the thermal time constant of the skin
+- $\phi_m$, the phase margin
+- $C_{N\alpha}$, the normal force curve slope per radian
+- $M$, the Mach number
+- $q$, the dynamic pressure in pascals
+- $\rho$, the air density
+- $I_y$, the pitch moment of inertia
+- $M_{\alpha}$, the aerodynamic restoring stiffness in pitch
+- $\omega_n$, the undamped natural frequency of the pitch motion
+- $c$, the effective exhaust velocity of the rocket
+- $m_p$, the propellant mass
+- $m_0$, the launch mass, except in Equations 59 to 61, where it is the initial miss
+- $m_f$, the mass at burnout
+- $I_{\text{tot}}$, the total impulse
+- $t_b$, the burn time
+- $F$, the rocket thrust
+- $S$, the wing reference area
+- $C_{D0}$, the zero-lift drag coefficient
+- $C_L$, the lift coefficient
+- $C_f$, the turbulent skin-friction coefficient
+- $S_{\text{wet}}$, the wetted area
+- $C_d$, the discharge coefficient of an injector orifice
+- $A_i$, the injector orifice area
+- $\Delta p$, the injector pressure drop
+- $p_c$, the chamber pressure
+- $e_{\text{launch}}$, the specific energy at release
+- $h$, the altitude, and in Equations 102 and 103 the convective heat transfer coefficient
+- $\frac{L}{D}$, the lift-to-drag ratio
+- $N$, the navigation constant
+- $V_c$, the closing velocity
+- $t_{go}$, the time remaining to intercept
+- $n_t$, the manoeuvre acceleration of the target
+- $\tau_g$, the guidance time constant that lumps the operator, autopilot and airframe lags
+- $x_{cp}$, the position of the centre of pressure
+- $H$, the hinge moment of a control surface
+- $C_h$, the hinge-moment coefficient
+- $\bar{c}$, the mean chord of the control surface
+- $\delta$, the control surface deflection
+- $\Delta\phi$, the error in the assumed roll angle
+- $a_n$, the normal acceleration available for correction
+- $\ell$, the offset of the centre of gravity from the last remaining support
+- $\dot{q}$, the pitch angular acceleration at release
+- $v_{\text{ac}}$, the speed of the launch aircraft
+- $B_j$, the jammer bandwidth
+- $B_s$, the signal bandwidth
+- $c_0$, the speed of light
+- $K$, the gain of the rate feedback loop
+- $M_{\delta}$, the control moment per unit deflection
+- $\zeta$, the damping ratio of the pitch motion
+- $\zeta_a$, the aerodynamic damping ratio without feedback
+- $\omega_1$, the frequency of the first bending mode
+- $EI$, the bending stiffness of the body
+- $\mu$, the mass per unit length of the body
+- $R_t$, the turn radius of the launch aircraft
+- $T_r$, the recovery temperature reached by the surface under the boundary layer
+- $T_{\infty}$, the free-stream static temperature
+- $\gamma$, the ratio of specific heats of air
+- $T_w$, the skin temperature
+- $v_t$, the terminal descent velocity under the canopy
+- $C_D$, the drag coefficient of the canopy
+- $P_k$, the single-shot kill probability
+- $R_L$, the lethal radius of the warhead in Equations 111 to 114, and in Equation 14 the range from the launcher
+- $W$, the yield in kilotonnes
+- $R_1$, the radius of the five pounds per square inch contour for one kilotonne
 
 ## References
 

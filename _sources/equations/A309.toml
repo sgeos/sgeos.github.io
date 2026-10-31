@@ -1,0 +1,1298 @@
+# Equation classification for A309. Read by `python3 _lib/equations.py`.
+
+caution = "Quantities are in International System units on a spherical Earth of radius 6,371 kilometres with $g = 9.80665$ metres per second squared, pounds of thrust are converted at 4.4482 newtons each, several masses are Atlas D figures applied to the Atlas B, and symbols are reused, so that $v_{e}$ is the exhaust velocity except in Equations 101 to 105, where it is the entry speed, $L$ is a lethal radius, a vehicle length or a path loss by section, $e$ is an eccentricity except in Equations 101 and 105, $\\mu$ is the gravitational parameter except in Equation 136, and $N$ is a count of orbits except in Equation 119, where it is the noise power."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Ballistic Range Law"
+gloss = "On a spherical non-rotating Earth the central angle of a ballistic arc flown at the optimum flight path angle is fixed by the energy parameter $\\lambda$, the ratio of burnout kinetic energy to that of a grazing circular orbit."
+cite = []
+digest = "135306aac8ec912f"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Burnout Speed for Ten Thousand Kilometres"
+gloss = "The range law is evaluated for a range of 10,000 kilometres, which the article takes as representative of intercontinental flight."
+cite = []
+digest = "3248b66bece1d661"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Range Sensitivity to the Energy Parameter"
+gloss = "Differentiating the range law gives the rate at which range grows with the energy parameter."
+cite = []
+digest = "ec9847f2f6bb70c0"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Range Sensitivity to Burnout Speed"
+gloss = "Chaining the derivative through the energy parameter gives 6.04 kilometres of range per metre per second at the representative 10,000 kilometre range."
+cite = []
+digest = "dd0bfb5aaa0f7063"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Dimensionless Range Sensitivity"
+gloss = "At the representative range a fractional error in burnout speed produces a fractional range error 4.34 times larger."
+cite = []
+digest = "5de8313ac1cafe68"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Burnout Speed Budget"
+gloss = "Dividing a circular error probable of two nautical miles, assumed for an early Atlas, by the range sensitivity gives a speed budget of 0.613 metres per second."
+cite = []
+digest = "c97a16efd484b7a9"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Fractional Speed Budget"
+gloss = "The assumed speed budget is one part in about 11,700 of the representative burnout speed."
+cite = []
+digest = "30d164b1f6ac0103"
+
+[[equation]]
+tag = 8
+class = "bespoke"
+title = "Bespoke Speed Budget for a One Kilometre Miss"
+gloss = "A one kilometre miss at the representative range sensitivity corresponds to 0.166 metres per second."
+cite = []
+digest = "993c91160c97ceb1"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Circular Normal Hit Probability"
+gloss = "With impacts scattered as a circular normal distribution of axis standard deviation $\\sigma$, the probability of landing within a radius $r$ follows the Rayleigh cumulative distribution."
+cite = []
+digest = "25732d34a0d0adc2"
+
+[[equation]]
+tag = 10
+class = "bespoke"
+title = "Bespoke Axis Standard Deviation for the Assumed Accuracy"
+gloss = "The circular error probable is $\\sqrt{2 \\ln 2}$ times the axis standard deviation, which is 3.146 kilometres for the assumed two nautical miles."
+cite = []
+digest = "72fd9bedfcae1ccd"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Kill Probability Against a Lethal Radius"
+gloss = "For a definite lethal radius $L$ and a circular normal miss, the kill probability is one minus two raised to the negative squared ratio of lethal radius to circular error probable."
+cite = []
+digest = "81a2fe22aa945ee0"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Cube-Root Blast Scaling"
+gloss = "The lethal radius for a given blast effect scales as the cube root of yield."
+cite = []
+digest = "83f465989e144248"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Yield Equivalent of Accuracy"
+gloss = "Holding the kill probability fixed under cube-root scaling makes the yield required grow as the cube of the circular error probable."
+cite = []
+digest = "8ab89565425dd753"
+
+[[equation]]
+tag = 14
+class = "bespoke"
+title = "Bespoke Yield Equivalent of Cutoff Error"
+gloss = "Assuming that the circular error probable is set by the cutoff speed error alone, the yield required grows as the cube of that error."
+cite = []
+digest = "02834ccaf8bc5a67"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Range Law with Flight Path Angle"
+gloss = "Admitting the burnout flight path angle $\\gamma$ as a variable gives the general central angle of a ballistic arc on a spherical Earth."
+cite = []
+digest = "d7328a641b4e57ab"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Optimum Flight Path Angle"
+gloss = "The flight path angle that maximises range for a given energy parameter satisfies $\\cos 2\\gamma_{\\text{opt}} = \\lambda / (2 - \\lambda)$."
+cite = []
+digest = "d230733308a0960f"
+
+[[equation]]
+tag = 17
+class = "bespoke"
+title = "Bespoke Stationarity of Range in Angle"
+gloss = "At the optimum angle the first derivative of range vanishes, and the second derivative is evaluated at the representative 10,000 kilometre range."
+cite = []
+digest = "1f594466f74467b0"
+
+[[equation]]
+tag = 18
+class = "standard"
+title = "Second-Order Range Loss from an Angle Error"
+gloss = "Near a maximum the range lost to an angle error $\\delta \\gamma$ is half the magnitude of the second derivative times the square of the error."
+cite = []
+digest = "35898c4a51f1fbce"
+
+[[equation]]
+tag = 19
+class = "bespoke"
+title = "Bespoke Speed Equivalent of a Tenth of a Degree"
+gloss = "The 77 metres lost to a tenth of a degree of pointing error equal the range lost to 0.0128 metres per second at the representative sensitivity."
+cite = []
+digest = "2fac10acc7b3c78d"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Ratio of Speed Budget to Angle Equivalent"
+gloss = "The article compares the speed budget with the speed error equivalent to an angle error, a ratio that grows as the inverse square of the angle error."
+cite = []
+digest = "e039c47d66fbabf8"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Burnout Speed of the Longest Atlas A Flight"
+gloss = "Inverting the range law for the documented 600 nautical miles on the assumption of a minimum-energy arc gives a lower bound of 3,164 metres per second."
+cite = ["book_neufeld_1990"]
+digest = "cac16aa2352c2795"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Range Sensitivity of the Atlas A"
+gloss = "The sensitivity relation evaluated at the minimum-energy Atlas A burnout speed gives 0.766 kilometres per metre per second."
+cite = []
+digest = "e84c04571a29615b"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Sustainer Vacuum Thrust"
+gloss = "The sustainer's vacuum rating of 86,844 pounds is 386.3 kilonewtons."
+cite = ["ref_x12"]
+digest = "bb7b9af68f6c1851"
+
+[[equation]]
+tag = 24
+class = "bespoke"
+title = "Bespoke Acceleration at Sustainer Cutoff"
+gloss = "The sustainer thrust acting on a burnout mass of 5,395 kilogrammes, an Atlas D figure applied to the Atlas B, gives 7.30 g."
+cite = []
+digest = "063b83233d81cb29"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Cutoff Timing Window"
+gloss = "At the cutoff acceleration the assumed speed budget is consumed in 8.6 milliseconds."
+cite = []
+digest = "59a636e6e86ec422"
+
+[[equation]]
+tag = 26
+class = "bespoke"
+title = "Bespoke Tail-Off Speed Uncertainty"
+gloss = "An assumed five percent uncertainty in the impulse of an assumed 0.3 second tail-off at full sustainer thrust gives 1.07 metres per second."
+cite = []
+digest = "853ed253289b8005"
+
+[[equation]]
+tag = 27
+class = "bespoke"
+title = "Bespoke Vernier Thrust and Acceleration"
+gloss = "Two verniers of the documented 1,000 pounds each acting on the Atlas D burnout mass give 1.65 metres per second squared."
+cite = ["ref_gandy_hanson_1963"]
+digest = "bf917a174963e029"
+
+[[equation]]
+tag = 28
+class = "bespoke"
+title = "Bespoke Vernier Trim Time"
+gloss = "Trimming the assumed speed budget on the verniers alone takes 0.372 seconds."
+cite = []
+digest = "d718552ab14ef0e7"
+
+[[equation]]
+tag = 29
+class = "bespoke"
+title = "Bespoke Sustainer to Vernier Authority Ratio"
+gloss = "The sustainer accelerates the burnout mass 43.4 times faster than the two verniers do."
+cite = []
+digest = "2da3e2059111d004"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Root Sum Square of Independent Errors"
+gloss = "Independent contributions to the speed error combine as the square root of the sum of their squares."
+cite = []
+digest = "6e6100159184a34a"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Share of Variance"
+gloss = "Each contribution's share of the total is its square over the sum of the squares."
+cite = []
+digest = "956653758170d4e6"
+
+[[equation]]
+tag = 32
+class = "standard"
+title = "Effect of Improving One Contribution"
+gloss = "Reducing one contribution with variance share $s_{i}$ by a factor $k$ scales the total by the square root of one minus $s_{i}$ times $1 - 1/k^{2}$."
+cite = []
+digest = "726b3e25f51b54b9"
+
+[[equation]]
+tag = 33
+class = "bespoke"
+title = "Bespoke Ceiling on a Single Improvement"
+gloss = "Removing the largest term of the article's illustrative allocation, with a share of 0.261, improves the total by at most 14.0 percent."
+cite = []
+digest = "637d0cda79c242fb"
+
+[[equation]]
+tag = 34
+class = "standard"
+title = "Grazing Circular Orbital Speed"
+gloss = "The speed of a circular orbit at the surface of a spherical Earth is the square root of $g R_{e}$, 7,904 metres per second."
+cite = []
+digest = "55ebd79017627d25"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Orbital to Ballistic Speed Ratio"
+gloss = "The grazing orbital speed is 1.0989 times the burnout speed of the representative 10,000 kilometre arc."
+cite = []
+digest = "09013419bb7bf45a"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Surface Escape Speed"
+gloss = "The escape speed from the surface of a spherical Earth is the square root of $2 g R_{e}$."
+cite = []
+digest = "663530604b288821"
+
+[[equation]]
+tag = 37
+class = "bespoke"
+title = "Bespoke Speed Deficit to Orbit"
+gloss = "The representative ballistic burnout speed falls 711 metres per second short of grazing orbital speed."
+cite = []
+digest = "3ac3165eb0d22dbf"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Sustainer Exhaust Velocity"
+gloss = "A specific impulse of 309 seconds corresponds to an effective exhaust velocity of 3,030 metres per second."
+cite = []
+digest = "a4487df1619456b7"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Burnout Mass Ratio for Orbit"
+gloss = "The rocket equation gives the factor by which the burnout mass must shrink to supply the 711 metre per second deficit at fixed propellant load."
+cite = []
+digest = "3cca0c28144cb73c"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Orbital Burnout Mass"
+gloss = "Dividing the Atlas D burnout mass by the required ratio gives 4,266 kilogrammes."
+cite = []
+digest = "b71a3a3c30f47233"
+
+[[equation]]
+tag = 41
+class = "bespoke"
+title = "Bespoke Mass Surrendered for Orbit"
+gloss = "The difference between the Atlas D burnout mass and the orbital burnout mass is 1,129 kilogrammes."
+cite = []
+digest = "7683e9d6751fe2df"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Check Against the SCORE Mass"
+gloss = "The predicted orbital burnout mass exceeds the catalogued 3,980 kilogrammes on orbit by 7.2 percent."
+cite = ["ref_nssdc_score"]
+digest = "26380b6061a24dda"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Apsides and Semi-Major Axis of the SCORE Orbit"
+gloss = "Adding the Earth radius to the catalogued perigee and apogee altitudes gives the apsidal radii, whose mean is the semi-major axis."
+cite = ["ref_nssdc_score_orbit"]
+digest = "401630779fba40cd"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Eccentricity from the Apsides"
+gloss = "The eccentricity is the difference of the apsidal radii over their sum."
+cite = []
+digest = "9ea677da59b3df09"
+
+[[equation]]
+tag = 45
+class = "standard"
+title = "Kepler's Third Law"
+gloss = "The orbital period follows from the semi-major axis and the gravitational parameter $\\mu$ of the Earth."
+cite = ["ref_nssdc_score_orbit"]
+digest = "28a9569e6df1062d"
+
+[[equation]]
+tag = 46
+class = "standard"
+title = "Vis-Viva Equation at the Apsides"
+gloss = "The vis-viva equation gives the speeds at perigee and apogee of the SCORE orbit."
+cite = []
+digest = "2f338741e2903866"
+
+[[equation]]
+tag = 47
+class = "standard"
+title = "Specific Orbital Energy"
+gloss = "The specific orbital energy of a Keplerian orbit is $-\\mu / 2a$."
+cite = []
+digest = "1f15f26a5d6279e7"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Specific Energy of the Ballistic Arc"
+gloss = "The specific energy at burnout is evaluated for the representative 10,000 kilometre burnout speed at the Earth radius."
+cite = []
+digest = "dc2fd1a47a7d8298"
+
+[[equation]]
+tag = 49
+class = "standard"
+title = "Apogee Sensitivity to Perigee Speed"
+gloss = "Perturbing the perigee speed of the catalogued SCORE orbit raises the apogee by 4.24 kilometres per metre per second."
+cite = []
+digest = "fe52753e09bcd0cb"
+
+[[equation]]
+tag = 50
+class = "standard"
+title = "Statistical Velocity Reserve"
+gloss = "A reserve covering a dispersion of standard deviation $\\sigma_{v}$ at $k$ standard deviations must supply $k \\sigma_{v}$."
+cite = []
+digest = "fdc3463389f34397"
+
+[[equation]]
+tag = 51
+class = "standard"
+title = "Propellant Mass of a Velocity Reserve"
+gloss = "The rocket equation gives the propellant needed to add a velocity reserve to a given burnout mass."
+cite = []
+digest = "932515735448c936"
+
+[[equation]]
+tag = 52
+class = "bespoke"
+title = "Bespoke Semi-Major Axis of the Ballistic Arc"
+gloss = "The semi-major axis of the free-fall ellipse is evaluated at the energy parameter of the representative 10,000 kilometre arc."
+cite = []
+digest = "b67c84db1612307d"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Eccentricity of the Ballistic Arc"
+gloss = "The eccentricity of the free-fall ellipse is evaluated at the representative energy parameter and the optimum flight path angle."
+cite = []
+digest = "b9f510c29e19bf96"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Ballistic Time of Flight"
+gloss = "Kepler's equation solved between the ends of the representative arc gives 34.3 minutes of free fall."
+cite = []
+digest = "b620305d6322ea62"
+
+[[equation]]
+tag = 55
+class = "bespoke"
+title = "Bespoke Apogee Altitude of the Ballistic Arc"
+gloss = "The apogee of the representative free-fall ellipse lies 1,319 kilometres above the Earth radius."
+cite = []
+digest = "f834e3fd56559819"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Surface Rotation Speed at Cape Canaveral"
+gloss = "The Earth's rotation carries the surface at latitude 28.5 degrees at 408 metres per second."
+cite = []
+digest = "7de728dc555b6fa2"
+
+[[equation]]
+tag = 57
+class = "bespoke"
+title = "Bespoke First-Order Rotation Credit"
+gloss = "The article applies the linear range sensitivity to the component of the surface rotation speed along the launch azimuth $A$, an estimate it calls an upper bound."
+cite = []
+digest = "6023fe96aea58ab8"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Reference Ellipsoid"
+gloss = "The reference ellipsoid has an equatorial radius of 6,378.137 kilometres and a flattening $f$ of 1 in 298.257."
+cite = []
+digest = "18c2500ba1b885c2"
+
+[[equation]]
+tag = 59
+class = "standard"
+title = "Equatorial Minus Polar Radius"
+gloss = "The equatorial radius exceeds the polar radius by 21.4 kilometres."
+cite = []
+digest = "057790c8663f41b4"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Relative Perturbation from the Second Zonal Harmonic"
+gloss = "The leading zonal harmonic $J_{2}$ perturbs gravity at the surface by about $\\tfrac{3}{2} J_{2}$ of its value."
+cite = []
+digest = "01f0f21e281d8f53"
+
+[[equation]]
+tag = 61
+class = "bespoke"
+title = "Bespoke Impact Displacement from Oblateness"
+gloss = "Treating the oblateness perturbation as a constant acceleration over the representative 2,058 second arc bounds the impact displacement at 34 kilometres."
+cite = []
+digest = "0eff8f99cc106067"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Vacuum Thrust of the Atlas B Engines"
+gloss = "The booster and sustainer vacuum ratings convert to 1,517.4 and 386.3 kilonewtons, 1,903.7 in all."
+cite = ["ref_x12"]
+digest = "23fe162e774b8418"
+
+[[equation]]
+tag = 63
+class = "standard"
+title = "Lift-Off Thrust-to-Weight Ratio"
+gloss = "The documented sea-level ratings of the Atlas D against its lift-off mass give a thrust-to-weight ratio of 1.41."
+cite = ["ref_gandy_hanson_1963"]
+digest = "8c729e98cfc49ce7"
+
+[[equation]]
+tag = 64
+class = "standard"
+title = "Booster and Sustainer Mass Flows"
+gloss = "Each engine's mass flow is its vacuum thrust over its specific impulse times standard gravity."
+cite = []
+digest = "82b2e7c3c57e577c"
+
+[[equation]]
+tag = 65
+class = "bespoke"
+title = "Bespoke Mass at Booster Cutoff"
+gloss = "The mass remaining assumes booster cutoff near 135 seconds at constant vacuum mass flow from the Atlas D lift-off mass."
+cite = []
+digest = "a9688233dca09644"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Acceleration Before Staging"
+gloss = "The total vacuum thrust on the assumed booster cutoff mass gives 7.29 g."
+cite = []
+digest = "2257259193b010f9"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Acceleration After Staging"
+gloss = "Jettisoning a booster package of about three tonnes, a mass the article assumes, leaves the sustainer accelerating at 1.67 g."
+cite = []
+digest = "5985e8b7f943d1fb"
+
+[[equation]]
+tag = 68
+class = "bespoke"
+title = "Bespoke Booster Phase Velocity"
+gloss = "The rocket equation at a booster specific impulse of 282 seconds is applied from lift-off to the assumed booster cutoff mass."
+cite = []
+digest = "7b892f0ae00f6a7e"
+
+[[equation]]
+tag = 69
+class = "bespoke"
+title = "Bespoke Sustainer Phase Velocity"
+gloss = "The rocket equation at a sustainer specific impulse of 309 seconds is applied from the assumed post-staging mass to the Atlas D burnout mass."
+cite = []
+digest = "a44bfa651f44bfee"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Sustainer Burn Time"
+gloss = "The sustainer propellant left after the assumed staging, at 127.5 kilogrammes per second, lasts 142.9 seconds."
+cite = []
+digest = "dbd772fd3e02c9fa"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Skirt Reference Area"
+gloss = "A circular section of radius 1.524 metres has an area of 7.30 square metres."
+cite = []
+digest = "82f03d85e2e2a8e5"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Drag Deceleration of the Skirt"
+gloss = "The discarded skirt's drag deceleration assumes a dynamic pressure near 100 pascals, a drag coefficient of one and a mass of three tonnes."
+cite = []
+digest = "dc47c5b9ae5b897b"
+
+[[equation]]
+tag = 73
+class = "bespoke"
+title = "Bespoke Skirt Separation in One Second"
+gloss = "Drag alone opens a gap of 0.12 metres in the first second after jettison."
+cite = []
+digest = "dadece2d1b62c94c"
+
+[[equation]]
+tag = 74
+class = "bespoke"
+title = "Bespoke Sustainer Travel in One Second"
+gloss = "The sustainer at its post-staging acceleration moves 8.18 metres ahead in the same second."
+cite = []
+digest = "47dde56c55bb2368"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Sustainer Acceleration History"
+gloss = "Constant sustainer thrust on a falling mass raises the acceleration from the post-staging value to the cutoff value."
+cite = []
+digest = "4457b9dbe91ecb50"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Acceleration Ratio as Mass Ratio"
+gloss = "Under constant thrust the ratio of cutoff to post-staging acceleration equals the sustainer mass ratio, 4.38 with the assumed masses."
+cite = []
+digest = "9b226e9d591dbc4b"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Sustainer Velocity as a Logarithm of the Same Ratio"
+gloss = "The sustainer velocity increment is the exhaust velocity times the logarithm of the same assumed mass ratio."
+cite = []
+digest = "7b7523e24bb89ffe"
+
+[[equation]]
+tag = 78
+class = "bespoke"
+title = "Bespoke Residual from a Mixture Ratio Error"
+gloss = "The article approximates the propellant stranded by a mixture ratio error $\\delta r$ on a nominal ratio $r$ as a first-order fraction of the propellant load."
+cite = []
+digest = "65b2e3f8943d740f"
+
+[[equation]]
+tag = 79
+class = "standard"
+title = "Velocity Lost to a Residual"
+gloss = "The rocket equation gives the speed a stranded residual would have added to the burnout mass."
+cite = []
+digest = "a837c42e2482ea55"
+
+[[equation]]
+tag = 80
+class = "bespoke"
+title = "Bespoke Velocity Lost to Fifty Kilogrammes"
+gloss = "An assumed residual of fifty kilogrammes on the Atlas D burnout mass costs 28 metres per second."
+cite = []
+digest = "bb0db9306d89b115"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Pitch Inertia of the Atlas"
+gloss = "The pitch inertia treats the vehicle as a uniform rod of 23 metres at a representative mass of sixty tonnes."
+cite = []
+digest = "3cf6d1910f4cd863"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Divergence Rate in Pitch"
+gloss = "The divergence rate assumes a normal force slope near two, a centre of pressure four metres ahead of the centre of mass and a maximum dynamic pressure of 35 kilopascals."
+cite = []
+digest = "340cbb6c6d55daa8"
+
+[[equation]]
+tag = 83
+class = "bespoke"
+title = "Bespoke Divergence Time Constant"
+gloss = "An attitude disturbance grows by a factor of $e$ in the reciprocal of the assumed divergence rate."
+cite = []
+digest = "6f37eeebd2aa9438"
+
+[[equation]]
+tag = 84
+class = "bespoke"
+title = "Bespoke Gimbal Control Authority"
+gloss = "One degree of gimbal at an assumed lever arm gives an angular acceleration of 0.119 radians per second squared on the uniform-rod inertia."
+cite = []
+digest = "1839104154adec7a"
+
+[[equation]]
+tag = 85
+class = "bespoke"
+title = "Bespoke Second Moment of Area of the Shell"
+gloss = "The thin-shell formula $\\pi r^{3} t$ is evaluated for the 1.524 metre radius and a skin thickness the article does not state."
+cite = []
+digest = "91f016a609944382"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "First Bending Frequency of a Free-Free Beam"
+gloss = "A uniform free-free beam has its first mode at $\\beta_{1}^{2} / 2\\pi L^{2}$ times the square root of bending stiffness over mass per unit length, with $\\beta_{1} L = 4.730$."
+cite = []
+digest = "13c8525de6a4a2a8"
+
+[[equation]]
+tag = 87
+class = "bespoke"
+title = "Bespoke First Bending Frequency of the Atlas"
+gloss = "The beam formula evaluated with a fixed modulus and geometry, an assumption the article says a pressure-stabilised shell violates, gives 4.32 hertz."
+cite = []
+digest = "c65c6e8598ccfe13"
+
+[[equation]]
+tag = 88
+class = "bespoke"
+title = "Bespoke Autopilot Bandwidth Window"
+gloss = "The ratio of the estimated bending frequency to the estimated divergence rate is 31."
+cite = []
+digest = "f258f8f3b1cc8789"
+
+[[equation]]
+tag = 89
+class = "standard"
+title = "First Lateral Slosh Mode"
+gloss = "The first lateral slosh mode of a cylindrical tank of radius $r$ under axial acceleration $a$ has the frequency $\\sqrt{1.841 a / r} / 2\\pi$."
+cite = []
+digest = "62a20560c06d4156"
+
+[[equation]]
+tag = 90
+class = "bespoke"
+title = "Bespoke Slosh Frequencies Through the Sustainer Phase"
+gloss = "The slosh frequency is evaluated at the article's post-staging and cutoff accelerations of 1.67 g and 7.30 g."
+cite = []
+digest = "f75042481e7a5e72"
+
+[[equation]]
+tag = 91
+class = "standard"
+title = "Velocity Error from an Accelerometer Bias"
+gloss = "A constant accelerometer bias $\\varepsilon_{a}$ integrates into a velocity error that grows linearly with time."
+cite = []
+digest = "d7c8e7067cff8f34"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke Accelerometer Bias Allowance"
+gloss = "The assumed speed budget spread over a powered flight of about 280 seconds allows a bias of $2.2 \\times 10^{-4}$ g."
+cite = []
+digest = "47cee9af8fb4cec6"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Platform Tilt Allowance"
+gloss = "A static tilt $\\theta$ resolves gravity into the horizontal channel, and the assumed budget over 280 seconds allows 46 arcseconds."
+cite = []
+digest = "4bb780b48b0eb787"
+
+[[equation]]
+tag = 94
+class = "bespoke"
+title = "Bespoke Gyroscope Drift Allowance"
+gloss = "A constant drift integrates twice into a velocity error, so the assumed budget over 280 seconds allows $1.59 \\times 10^{-6}$ radians per second."
+cite = []
+digest = "3319abc23c585efe"
+
+[[equation]]
+tag = 95
+class = "bespoke"
+title = "Bespoke Gyroscope Drift in Degrees per Hour"
+gloss = "The drift allowance derived from the assumed budget is 0.329 degrees per hour."
+cite = []
+digest = "4c75b780b046c26b"
+
+[[equation]]
+tag = 96
+class = "standard"
+title = "Interferometer Fringe Spacing"
+gloss = "Two antennas on a baseline $B$ receiving wavelength $\\lambda_{r}$ produce fringes spaced $\\lambda_{r} / B$ in angle."
+cite = []
+digest = "29f899a3fa4a3731"
+
+[[equation]]
+tag = 97
+class = "standard"
+title = "Two-Way Doppler Range Rate"
+gloss = "A two-way Doppler shift $f_{d}$ corresponds to a range rate of half the shift times the wavelength."
+cite = []
+digest = "2e70ae0d433c8bdc"
+
+[[equation]]
+tag = 98
+class = "bespoke"
+title = "Bespoke Range-Rate Resolution at C-Band"
+gloss = "A one hertz frequency resolution at a wavelength of six centimetres, taken as representative of C-band, resolves 0.030 metres per second."
+cite = []
+digest = "4abee78422288bef"
+
+[[equation]]
+tag = 99
+class = "bespoke"
+title = "Bespoke Round-Trip Delay"
+gloss = "The round-trip propagation delay at an assumed slant range of 500 kilometres is 3.34 milliseconds."
+cite = []
+digest = "062af9a9e568aeb0"
+
+[[equation]]
+tag = 100
+class = "standard"
+title = "Speed Change Between Samples"
+gloss = "At acceleration $a$ the speed changes by $a / f$ between updates at rate $f$."
+cite = []
+digest = "7699c4a7139bf337"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Allen and Eggers Peak Deceleration"
+gloss = "For a ballistic entry into an exponential atmosphere of scale height $H$ the peak deceleration depends on the entry speed and angle and not on the ballistic coefficient."
+cite = []
+digest = "0b546870a54f0d74"
+
+[[equation]]
+tag = 102
+class = "bespoke"
+title = "Bespoke Peak Deceleration of the Nose Cone"
+gloss = "The peak deceleration is evaluated at the representative 7,193 metres per second, an entry angle of 22.5 degrees and a scale height of 7.2 kilometres."
+cite = []
+digest = "7a2682d1c1bfef97"
+
+[[equation]]
+tag = 103
+class = "standard"
+title = "Altitude of Peak Deceleration"
+gloss = "In the Allen and Eggers solution the ballistic coefficient $\\beta$ sets the altitude of peak deceleration."
+cite = []
+digest = "d4098e0af9ab1ec2"
+
+[[equation]]
+tag = 104
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient of the Nose Cone"
+gloss = "An assumed body of 1,400 kilogrammes on a one metre base at a drag coefficient of one gives 1,783 kilogrammes per square metre and peak deceleration at 18.4 kilometres."
+cite = []
+digest = "7978714d607e2c2a"
+
+[[equation]]
+tag = 105
+class = "bespoke"
+title = "Bespoke Speed at Peak Deceleration"
+gloss = "The Allen and Eggers result that speed at peak deceleration is $e^{-1/2}$ of the entry speed is evaluated at the representative entry speed."
+cite = []
+digest = "6b829e0ed867f3c3"
+
+[[equation]]
+tag = 106
+class = "bespoke"
+title = "Bespoke Stagnation-Point Heating"
+gloss = "The Sutton and Graves correlation is evaluated at the estimated peak-deceleration condition for a nose radius the article chooses."
+cite = []
+digest = "1a98436d65c5a6d2"
+
+[[equation]]
+tag = 107
+class = "standard"
+title = "Plasma Frequency"
+gloss = "An ionised sheath of electron density $n_{e}$ reflects radio waves below a plasma frequency of about $8.98 \\sqrt{n_{e}}$ hertz."
+cite = []
+digest = "08f7a897eb2e6d16"
+
+[[equation]]
+tag = 108
+class = "standard"
+title = "Critical Electron Density"
+gloss = "Inverting the plasma frequency gives the electron density at which a link of frequency $f$ fails."
+cite = []
+digest = "aa8e8ffb49e4f9f2"
+
+[[equation]]
+tag = 109
+class = "standard"
+title = "Critical Density Ratio of Two Links"
+gloss = "The critical densities of an S-band link at 2.2 gigahertz and a very high frequency link at 250 megahertz differ by the square of their frequency ratio, 77.4."
+cite = []
+digest = "3b1a870ad03a8e74"
+
+[[equation]]
+tag = 110
+class = "standard"
+title = "Range of the Full-Range Flight"
+gloss = "The 6,325 statute miles flown by missile 12B are 10,179 kilometres or 5,496 nautical miles."
+cite = []
+digest = "7ceee41b0954e25e"
+
+[[equation]]
+tag = 111
+class = "bespoke"
+title = "Bespoke Burnout Speed of the Full-Range Flight"
+gloss = "The burnout speed needed for 10,179 kilometres is 7,222 metres per second on the article's spherical range law."
+cite = []
+digest = "4bbc7190ed51f6f4"
+
+[[equation]]
+tag = 112
+class = "bespoke"
+title = "Bespoke Sensitivity Check on the Full-Range Flight"
+gloss = "The dimensionless sensitivity at the representative range reproduces the 1.79 percent range increment from the 29 metre per second speed increment."
+cite = []
+digest = "eebdb9d0f7774821"
+
+[[equation]]
+tag = 113
+class = "standard"
+title = "Revolutions in Orbit"
+gloss = "Thirty-four days at the SCORE period of 6,087 seconds is 483 revolutions."
+cite = ["ref_nssdc_score"]
+digest = "67525f55b43f5871"
+
+[[equation]]
+tag = 114
+class = "standard"
+title = "Revolutions on Battery Power"
+gloss = "The twelve days of battery life cover 170 revolutions."
+cite = ["ref_nssdc_score"]
+digest = "f60d90675a778646"
+
+[[equation]]
+tag = 115
+class = "standard"
+title = "Period to Recorder Capacity Ratio"
+gloss = "The orbital period is 25.4 times the four minute capacity of the recorder."
+cite = ["ref_nssdc_score"]
+digest = "991dc2a5bb3079f2"
+
+[[equation]]
+tag = 116
+class = "standard"
+title = "Nyquist Sample Count of the Recorder"
+gloss = "Four minutes of audio with an upper band edge of 1,500 hertz carry 720,000 samples at the Nyquist rate."
+cite = []
+digest = "d23c8e9855fb36d3"
+
+[[equation]]
+tag = 117
+class = "standard"
+title = "Free-Space Path Loss at Apogee"
+gloss = "The free-space loss at 132 megahertz over the 1,484 kilometre apogee distance is 138.3 decibels."
+cite = []
+digest = "e7ac4745280bbd14"
+
+[[equation]]
+tag = 118
+class = "bespoke"
+title = "Bespoke Received Power from SCORE"
+gloss = "The received power assumes a body-mounted antenna of unity gain and a ground antenna of ten decibels with the catalogued eight watt transmitter."
+cite = []
+digest = "054ffe197681e484"
+
+[[equation]]
+tag = 119
+class = "bespoke"
+title = "Bespoke Noise Floor"
+gloss = "The thermal noise power $k T_{\\text{sys}} B$ is evaluated for an assumed system temperature of 2,000 kelvin and an assumed bandwidth of six kilohertz."
+cite = []
+digest = "01bfd5b64e9ab42b"
+
+[[equation]]
+tag = 120
+class = "standard"
+title = "Area-to-Mass Ratio of the SCORE Stage"
+gloss = "A three metre circular section on the catalogued 3,980 kilogrammes gives $1.83 \\times 10^{-3}$ square metres per kilogramme."
+cite = ["ref_nssdc_score"]
+digest = "6bb55cfe5500f037"
+
+[[equation]]
+tag = 121
+class = "bespoke"
+title = "Bespoke Ballistic Coefficient of the SCORE Stage"
+gloss = "The ballistic coefficient uses an assumed drag coefficient of 2.2 on the catalogued mass and the stage cross-section."
+cite = []
+digest = "fb615871eeda39d2"
+
+[[equation]]
+tag = 122
+class = "bespoke"
+title = "Bespoke Energy Shed per Revolution"
+gloss = "The article spreads the energy difference between the SCORE orbit and an orbit at the Earth radius evenly over 483 revolutions."
+cite = []
+digest = "406be57208466ca0"
+
+[[equation]]
+tag = 123
+class = "standard"
+title = "Standard Error of a Success Rate"
+gloss = "Six successes in ten flights give a binomial success rate of 0.6 with a standard error of 0.155."
+cite = []
+digest = "8a03eb6f85e71420"
+
+[[equation]]
+tag = 124
+class = "standard"
+title = "Standard Error of a Difference in Proportions"
+gloss = "The pooled standard error of the difference between the Atlas A and Atlas B success rates is 0.236 on the previous article's count of four successes in eight."
+cite = []
+digest = "e804b135cd03b946"
+
+[[equation]]
+tag = 125
+class = "standard"
+title = "Test Statistic for the Improvement"
+gloss = "An improvement of 0.10 over a standard error of 0.236 gives a test statistic of 0.42."
+cite = []
+digest = "c4f8c428d0c7299e"
+
+[[equation]]
+tag = 126
+class = "standard"
+title = "Test Statistic on the Official Count"
+gloss = "On the official count of three Atlas A successes in eight the test statistic rises to 0.95."
+cite = ["book_neufeld_1990"]
+digest = "c1d9003208cdb161"
+
+[[equation]]
+tag = 127
+class = "bespoke"
+title = "Bespoke Flights for a Five Point Standard Error"
+gloss = "The sample size for a standard error of five percentage points at the pooled success rate, a target the article chooses, is 99 flights."
+cite = []
+digest = "4845f448dcfca013"
+
+[[equation]]
+tag = 128
+class = "bespoke"
+title = "Bespoke Mass at the First Failure"
+gloss = "The mass at 43 seconds assumes a constant vacuum mass flow from the Atlas D lift-off mass."
+cite = []
+digest = "e814b133caa036ee"
+
+[[equation]]
+tag = 129
+class = "bespoke"
+title = "Bespoke Propellant Consumed by the Turbopump Failure"
+gloss = "The propellant passed through the engines by 82 seconds assumes the same constant vacuum mass flow."
+cite = []
+digest = "d72a695885a1b648"
+
+[[equation]]
+tag = 130
+class = "bespoke"
+title = "Bespoke Mass and Thrust Ratio at the Thrust Loss"
+gloss = "At 121 seconds the constant mass flow model leaves 36,080 kilogrammes, and the vacuum thrust is 5.38 times the weight."
+cite = []
+digest = "9e87bd99c3ef822c"
+
+[[equation]]
+tag = 131
+class = "standard"
+title = "Measurement Variance in Quadrature"
+gloss = "An instrument's error adds in quadrature to the true scatter it measures."
+cite = []
+digest = "3aba96970c28d318"
+
+[[equation]]
+tag = 132
+class = "standard"
+title = "Instrument Accuracy for a Bounded Inflation"
+gloss = "Holding the apparent inflation of the scatter below a fraction $\\eta$ bounds the ratio of instrument to true error by $\\sqrt{(1 + \\eta)^{2} - 1}$."
+cite = []
+digest = "58ae85a97926811d"
+
+[[equation]]
+tag = 133
+class = "bespoke"
+title = "Bespoke Gyroscope Gap"
+gloss = "Period gyroscopes taken as drifting at about one degree per hour exceed the derived allowance by a factor of three."
+cite = []
+digest = "ceafdca93b2ef6e9"
+
+[[equation]]
+tag = 134
+class = "bespoke"
+title = "Bespoke Reaction Time over Flight Time"
+gloss = "The required fifteen minute reaction time is 44 percent of the 34.3 minute flight time computed for the representative arc."
+cite = ["book_neufeld_1990"]
+digest = "4157336e9e9073b8"
+
+[[equation]]
+tag = 135
+class = "bespoke"
+title = "Bespoke Fuel Loading Time over Flight Time"
+gloss = "Fuel loading from 12.25 minutes before launch is 36 percent of the computed flight time."
+cite = ["book_neufeld_1990"]
+digest = "dc343f1b8b96361b"
+
+[[equation]]
+tag = 136
+class = "standard"
+title = "Holding Time Against Boil-Off"
+gloss = "A propellant load with an ullage margin $\\mu$ losing a fraction $\\dot{m} / m$ per unit time can be held for the margin over the loss rate."
+cite = []
+digest = "2dea8d61ee3291cb"
+
+[[equation]]
+tag = 137
+class = "bespoke"
+title = "Bespoke Five Day Holding Time"
+gloss = "An assumed five percent margin against an assumed loss of one percent per day gives five days."
+cite = []
+digest = "d88cd9a5664e593f"
+
+[[equation]]
+tag = 138
+class = "bespoke"
+title = "Bespoke Accuracy Chain"
+gloss = "Assuming the whole circular error probable comes from cutoff speed, the article chains it through the range sensitivity to bounds on accelerometer bias and gyroscope drift."
+cite = []
+digest = "96b054f46e277dd6"
+
+[[equation]]
+tag = 139
+class = "bespoke"
+title = "Bespoke Yield Ratio for a Modern Accuracy"
+gloss = "Cube-root scaling between the assumed two nautical mile accuracy and an accuracy of 120 metres gives a yield ratio of $2.94 \\times 10^{4}$."
+cite = []
+digest = "55cf8a2f6a808464"
+
+[[equation]]
+tag = 140
+class = "bespoke"
+title = "Bespoke Speed Budget Scaling with the Assumed Accuracy"
+gloss = "The speed budget scales linearly with the assumed circular error probable at the representative range sensitivity."
+cite = ["book_neufeld_1990"]
+digest = "f89ab6ef8afd92ea"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the central angle of the ballistic arc"
+[[symbol]]
+tex = '\lambda'
+meaning = "the energy parameter, the ratio of burnout kinetic energy to that of a grazing circular orbit"
+[[symbol]]
+tex = 'v_{bo}'
+meaning = "the burnout speed"
+[[symbol]]
+tex = 'R_{e}'
+meaning = "the radius of the spherical Earth"
+[[symbol]]
+tex = 'R'
+meaning = "the ballistic range"
+[[symbol]]
+tex = 'S'
+meaning = "the dimensionless sensitivity of range to burnout speed"
+[[symbol]]
+tex = '\text{CEP}'
+meaning = "the circular error probable"
+[[symbol]]
+tex = '\sigma'
+meaning = "the axis standard deviation of the impact scatter, and in Equations 123 and 127 the standard error of a success rate"
+[[symbol]]
+tex = 'p_{k}'
+meaning = "the probability of destroying the target"
+[[symbol]]
+tex = 'Y'
+meaning = "the yield"
+[[symbol]]
+tex = '\gamma'
+meaning = "the flight path angle at burnout"
+[[symbol]]
+tex = '\gamma_{\text{opt}}'
+meaning = "the flight path angle that maximises range"
+[[symbol]]
+tex = '\delta v'
+meaning = "an error in burnout speed, or the speed budget"
+[[symbol]]
+tex = 'F_{s}'
+meaning = "the sustainer thrust"
+[[symbol]]
+tex = 'F_{b}'
+meaning = "the combined booster thrust"
+[[symbol]]
+tex = 'm_{bo}'
+meaning = "the burnout mass"
+[[symbol]]
+tex = 's_{i}'
+meaning = "the share of the total variance taken by one contribution"
+[[symbol]]
+tex = 'k'
+meaning = "the factor by which one contribution is improved, and in Equation 50 the number of standard deviations a reserve covers"
+[[symbol]]
+tex = 'v_{e}'
+meaning = "the effective exhaust velocity of the sustainer, and in Equations 101 to 105 the entry speed"
+[[symbol]]
+tex = 'r_{p}'
+meaning = "the perigee radius"
+[[symbol]]
+tex = 'r_{a}'
+meaning = "the apogee radius"
+[[symbol]]
+tex = '\mu'
+meaning = "the gravitational parameter of the Earth, the mass per unit length in Equation 86, and the ullage margin in Equation 136"
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the specific orbital energy, and in Equations 94 and 95 the gyroscope drift rate"
+[[symbol]]
+tex = 'h_{a}'
+meaning = "the apogee altitude"
+[[symbol]]
+tex = '\sigma_{v}'
+meaning = "the standard deviation of the velocity dispersion"
+[[symbol]]
+tex = 'm_{r}'
+meaning = "the propellant mass of the reserve"
+[[symbol]]
+tex = '\omega_{e}'
+meaning = "the rotation rate of the Earth"
+[[symbol]]
+tex = '\phi'
+meaning = "the latitude of the launch site"
+[[symbol]]
+tex = 'J_{2}'
+meaning = "the second zonal harmonic of the Earth's gravity field"
+[[symbol]]
+tex = 'm_{0}'
+meaning = "the lift-off mass"
+[[symbol]]
+tex = 'm_{1}'
+meaning = "the mass at booster cutoff"
+[[symbol]]
+tex = 'm_{j}'
+meaning = "the mass of the jettisoned booster section"
+[[symbol]]
+tex = 'C_{d}'
+meaning = "the drag coefficient"
+[[symbol]]
+tex = 'q'
+meaning = "the dynamic pressure in pascals"
+[[symbol]]
+tex = 'm_{\text{res}}'
+meaning = "the propellant residual stranded by a mixture ratio error"
+[[symbol]]
+tex = 'C_{N\alpha}'
+meaning = "the normal force curve slope per radian"
+[[symbol]]
+tex = '\ell'
+meaning = "the lever arm of the gimballed thrust about the centre of mass"
+[[symbol]]
+tex = 'I_{xx}'
+meaning = "the second moment of area of the thin shell"
+[[symbol]]
+tex = 'f_{1}'
+meaning = "the first bending frequency"
+[[symbol]]
+tex = 'f_{s}'
+meaning = "the frequency of the first lateral slosh mode"
+[[symbol]]
+tex = '\varepsilon_{a}'
+meaning = "the accelerometer bias"
+[[symbol]]
+tex = '\theta'
+meaning = "the tilt of the inertial platform"
+[[symbol]]
+tex = '\lambda_{r}'
+meaning = "the radio wavelength"
+[[symbol]]
+tex = 'f_{d}'
+meaning = "the Doppler shift"
+[[symbol]]
+tex = 'H'
+meaning = "the scale height of the atmosphere"
+[[symbol]]
+tex = '\gamma_{e}'
+meaning = "the flight path angle at entry"
+[[symbol]]
+tex = '\beta'
+meaning = "the ballistic coefficient"
+[[symbol]]
+tex = '\rho_{0}'
+meaning = "the sea-level air density"
+[[symbol]]
+tex = 'R_{n}'
+meaning = "the nose radius"
+[[symbol]]
+tex = 'f_{p}'
+meaning = "the electron plasma frequency"
+[[symbol]]
+tex = 'n_{e}'
+meaning = "the electron density"
+[[symbol]]
+tex = 't_{\text{tape}}'
+meaning = "the capacity of the onboard recorder"
+[[symbol]]
+tex = 'T_{\text{sys}}'
+meaning = "the system noise temperature"
+[[symbol]]
+tex = 'n_{A}'
+meaning = "the number of Atlas A flights"
+[[symbol]]
+tex = 'n_{B}'
+meaning = "the number of Atlas B flights"
+[[symbol]]
+tex = '\eta'
+meaning = "the permitted fractional inflation of the measured scatter"
+[[symbol]]
+tex = 't_{\text{hold}}'
+meaning = "the time a loaded vehicle can be held before a top-up"
+[[symbol]]
+tex = '\varepsilon_{g}'
+meaning = "the gyroscope drift allowance"

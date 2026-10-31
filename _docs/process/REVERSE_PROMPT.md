@@ -4,6 +4,34 @@
 
 ## Last Updated
 
+**Date**: 2026-10-30 (third entry)
+**Task**: **The pilot asked for a PyDromon team of Anthropic, OpenAI and xAI agents to bring A306 to A309 up to standard, to discuss how to work together, to write harness experience reports, and to draft A385 about how they managed or failed inside the harness. Done by two of the three lines. Pushed through a `ci/<topic>` branch.**
+
+**Result.** A306 to A309 carry generated Equations sections, so every article from A1 to A384 now does. 483 equations, 237 standard and 246 bespoke, and `equations.py check` reports all of them consistent. The operator merged the two branches and confirmed that the article bodies changed only by unfolding and tagging. A385 is drafted, unpublished.
+
+| Article | Author | Reviewer | Standard | Bespoke |
+|---|---|---|---|---|
+| A306 X-9 | Opus | Luna | 60 | 55 |
+| A307 X-10 | Luna | Opus | 72 | 51 |
+| A308 X-11 | Opus | Luna | 47 | 58 |
+| A309 X-12 | Opus | Luna | 58 | 82 |
+
+**The Grok line never ran.** Grok writes empty `hooks-paths` and `installed-plugins` entries into `~/.grok/dromon-home` on every start, and Dromon refuses a turn while they exist. A loop removing them before each turn was refused by the permission classifier and not worked around, and the pilot chose to proceed without Grok. Getting it to start at all needed `dromon-home/sandbox.toml` extended, with a backup at `sandbox.toml.bak-20261030`, and Dromon's suggested `read_only` entry for the worktree's `.git` file removed, because Grok refuses a file there. These are PyDromon defects to report upstream.
+
+**Disputes.** A308 Eqs 40 and 41 and A307 Eq 17 were settled as standard by one shared rule, partly on Opus's unchecked recollection that the inflated-beam wrinkling moment is established. A307 Eq 6 stayed disputed and the operator ruled it bespoke, since it allocates the whole reported error growth to gyroscope drift, as Eqs 4, 5 and 7 beside it do.
+
+**Article errors found and left**, because equations were out of scope. They are added to `ARTICLE_ERRATA.md`: A306 Eqs 4 and 105 and the 29 percent at line 448, A308 Eqs 17 and 29, and A309 Eqs 65 and 122. The operator recomputed all seven. The A309 Eq 122 finding was first stated with the wrong reason, the ballistic arc's semi-major axis in place of the orbit's, and Luna's confirmation of it was wrong. The real defect is a reversed subtraction with the right magnitude. Five are arithmetic fixes the article settles, and the pilot may want them made now.
+
+**Operator failures.** The mail watcher requested more than the fifty-message limit and failed silently, so a held Luna line, held because `ps` did not answer within ten seconds, and the Opus completion report went unseen for about an hour. The operator also briefly appended duplicate profiles to the user's own `~/.grok/sandbox.toml` and restored it from backup. A385 records both.
+
+**Files.** The experience reports, the standing brief, Luna's A385 notes and the notation baseline are in `_docs/process/dromon_trial_1/`. The worktrees `tmp/worktrees/{opus,luna,grok}` and the `dromon/*` branches are local and uncommitted.
+
+**Verification.** `./_check.sh` on the merged checkout passes: `_verify.py` 0 errors and 0 warnings with the A385 draft present, library tests 178/178 and 94/94, Ruby 14 runs with no failures, a production build, and no rendered findings on 551 pages, 253 with display math. Opus and Luna had each passed it in their own worktrees. The A385 draft itself is not built, since `--drafts` is never run.
+
+**Open.** Whether A385 goes through the four passes and when it is published. Whether to fix the five arithmetic errors. Reporting the Grok and Dromon defects upstream. Stopping the daemon and removing the worktrees.
+
+## Previous Report (2026-10-30, second entry)
+
 **Date**: 2026-10-30 (second entry)
 **Task**: **Every open item from the first entry is addressed, so that A306 to A309 can be taken up next. The pilot asked for the handoff to be in order before and after the work. It was restamped at `72019fc` as `7ccf4b1` and is restamped again by the commit after this report. Pushed through `ci/<topic>` branches as `GIT_STRATEGY.md` describes.**
 

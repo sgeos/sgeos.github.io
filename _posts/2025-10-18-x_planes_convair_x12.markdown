@@ -25,23 +25,38 @@ An intercontinental ballistic missile spends about thirty-four minutes in free f
 
 The [previous article][related_post_a308_convair_x11] established, correctly, that the Atlas is a mass-fraction problem, and mass fraction is the price of velocity. **What the velocity has to be worth is the subject here.** For a body on a ballistic arc over a spherical non-rotating Earth, the central angle covered is fixed by the burnout speed alone through
 
-$$\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v_{bo}^{2}}{g R_{e}}, \qquad R = R_{e} \Phi$$
+$$
+\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v_{bo}^{2}}{g R_{e}}, \qquad R = R_{e} \Phi
+\tag{1}
+$$
 
 where $\lambda$ is the ratio of kinetic energy at burnout to the energy of a grazing circular orbit, $R_e$ is the Earth radius, and $\Phi$ is the angle subtended at the centre. Ten thousand kilometres of range requires
 
-$$\lambda = 0.8281, \qquad v_{bo} = 7193 \, \text{m/s}$$
+$$
+\lambda = 0.8281, \qquad v_{bo} = 7193 \, \text{m/s}
+\tag{2}
+$$
 
 The central question is what happens when that number is slightly wrong. Differentiating the range law with respect to $\lambda$ gives
 
-$$\frac{dR}{d\lambda} = \frac{4 R_{e}}{(2 - \lambda)^{2} \sqrt{1 - u^{2}}}, \qquad u = \frac{\lambda}{2 - \lambda}$$
+$$
+\frac{dR}{d\lambda} = \frac{4 R_{e}}{(2 - \lambda)^{2} \sqrt{1 - u^{2}}}, \qquad u = \frac{\lambda}{2 - \lambda}
+\tag{3}
+$$
 
 and chaining through $d\lambda / dv = 2\lambda / v$ gives the sensitivity of range to burnout speed,
 
-$$\frac{dR}{dv_{bo}} = \frac{8 R_{e} \lambda}{v_{bo} (2 - \lambda)^{2} \sqrt{1 - u^{2}}} = 6.04 \, \text{km per m/s}$$
+$$
+\frac{dR}{dv_{bo}} = \frac{8 R_{e} \lambda}{v_{bo} (2 - \lambda)^{2} \sqrt{1 - u^{2}}} = 6.04 \, \text{km per m/s}
+\tag{4}
+$$
 
 In dimensionless form the same result is
 
-$$S = \frac{dR / R}{dv / v} = 4.34$$
+$$
+S = \frac{dR / R}{dv / v} = 4.34
+\tag{5}
+$$
 
 so **a fractional error in cutoff speed produces a range error four and a third times larger in fraction.** Nothing else in the flight has this property. The relation and its consequences for weapon design date from the period and are not a modern reconstruction, in [Kelly 1959][research_kelly_1959] on the effect of the thrust termination process on range dispersion, [Cooper 1961][research_cooper_1961] on measuring ballistic missile trajectories accurately enough to see it, and [Whitcombe 1961a][research_whitcombe_1961] as the tutorial introduction the period wrote for itself.
 
@@ -49,15 +64,24 @@ so **a fractional error in cutoff speed produces a range error four and a third 
 
 Turning the sensitivity into a requirement is a matter of dividing. A circular error probable of two nautical miles, assumed here for an early Atlas, is 3.704 kilometres, so the error budget in burnout speed is
 
-$$\delta v = \frac{3704}{6040} = 0.613 \, \text{m/s}$$
+$$
+\delta v = \frac{3704}{6040} = 0.613 \, \text{m/s}
+\tag{6}
+$$
 
 against a burnout speed of 7193, which is
 
-$$\frac{\delta v}{v_{bo}} = 8.53 \times 10^{-5}$$
+$$
+\frac{\delta v}{v_{bo}} = 8.53 \times 10^{-5}
+\tag{7}
+$$
 
 **One part in eleven thousand seven hundred.** That is the number the Atlas B existed to chase. Consider how strange it is. On the Atlas D figures carried forward from the [previous article][related_post_a308_convair_x11], the missile weighs a hundred and eighteen tonnes at lift-off, burns six hundred and seventy-six kilogrammes of propellant every second, and is required to stop with its speed correct to two thirds of a metre per second, a walking pace. A one-kilometre miss requires
 
-$$\delta v = 0.166 \, \text{m/s}$$
+$$
+\delta v = 0.166 \, \text{m/s}
+\tag{8}
+$$
 
 or one part in forty-three thousand. Error analysis at this level appears in [Slifka 1960][research_slifka_1960] on field testing a ballistic missile guidance system, [MacPherson 1963][research_macpherson_1963] on explicit guidance equations, [Russell 1964][research_russell_1964] on unifying guidance with flight control, and, sixty years later, [Arthur and Kemp 2025][research_arthur_kemp_2025] on where the accuracy of such systems has arrived.
 
@@ -67,15 +91,24 @@ A requirement of two thirds of a metre per second needs a justification, because
 
 Impact points scatter as a circular normal distribution, so the probability of landing within a radius $r$ of the aim point is
 
-$$P(r) = 1 - \exp\left( -\frac{r^{2}}{2 \sigma^{2}} \right)$$
+$$
+P(r) = 1 - \exp\left( -\frac{r^{2}}{2 \sigma^{2}} \right)
+\tag{9}
+$$
 
 The circular error probable is the median radius, defined by $P = 1/2$, which gives
 
-$$\text{CEP}^{2} = 2 \sigma^{2} \ln 2, \qquad \sigma = \frac{\text{CEP}}{\sqrt{2 \ln 2}} = 3.146 \, \text{km}$$
+$$
+\text{CEP}^{2} = 2 \sigma^{2} \ln 2, \qquad \sigma = \frac{\text{CEP}}{\sqrt{2 \ln 2}} = 3.146 \, \text{km}
+\tag{10}
+$$
 
 for a two nautical mile circular error probable. Substituting back, the probability of destroying a target with a lethal radius $L$ is
 
-$$p_{k} = 1 - 2^{-(L / \text{CEP})^{2}}$$
+$$
+p_{k} = 1 - 2^{-(L / \text{CEP})^{2}}
+\tag{11}
+$$
 
 The function is remarkably sharp in the ratio.
 
@@ -90,15 +123,24 @@ The function is remarkably sharp in the ratio.
 
 **Now the decisive step.** The lethal radius for a given effect scales as the cube root of yield,
 
-$$L \propto Y^{1/3}$$
+$$
+L \propto Y^{1/3}
+\tag{12}
+$$
 
 so holding the probability of destruction fixed while degrading the accuracy requires
 
-$$Y \propto \text{CEP}^{3}$$
+$$
+Y \propto \text{CEP}^{3}
+\tag{13}
+$$
 
 **Halving the circular error probable is worth a factor of eight in yield.** A factor of three in accuracy is worth twenty-seven, and a factor of four sixty-four. And since the circular error probable is proportional to the cutoff speed error through the sensitivity derived above, the chain closes,
 
-$$Y \propto (\delta v)^{3}$$
+$$
+Y \propto (\delta v)^{3}
+\tag{14}
+$$
 
 | Cutoff speed error | Circular error probable | Yield needed for the same effect |
 |---|---|---|
@@ -112,20 +154,32 @@ $$Y \propto (\delta v)^{3}$$
 
 The natural assumption is that pointing the vehicle correctly matters as much as stopping it correctly. It does not, because of a stationarity result that falls out of the range law once flight path angle is admitted as a free variable. For a burnout speed $v$ at flight path angle $\gamma$ the range is
 
-$$\tan \frac{\Phi}{2} = \frac{\lambda \sin \gamma \cos \gamma}{1 - \lambda \cos^{2} \gamma}$$
+$$
+\tan \frac{\Phi}{2} = \frac{\lambda \sin \gamma \cos \gamma}{1 - \lambda \cos^{2} \gamma}
+\tag{15}
+$$
 
 and the angle that maximises it satisfies
 
-$$\cos 2\gamma_{\text{opt}} = \frac{\lambda}{2 - \lambda}$$
+$$
+\cos 2\gamma_{\text{opt}} = \frac{\lambda}{2 - \lambda}
+\tag{16}
+$$
 
 which for $\lambda = 0.8281$ gives $\gamma_{\text{opt}} = 22.52$ degrees. **A maximum is stationary, so at that angle the first derivative of range with respect to angle is identically zero**,
 
-$$\left. \frac{\partial R}{\partial \gamma} \right|_{\gamma_{\text{opt}}} = 0, \qquad
-\left. \frac{\partial^{2} R}{\partial \gamma^{2}} \right|_{\gamma_{\text{opt}}} = -5.09 \times 10^{4} \, \text{km/rad}^{2}$$
+$$
+\left. \frac{\partial R}{\partial \gamma} \right|_{\gamma_{\text{opt}}} = 0, \qquad
+\left. \frac{\partial^{2} R}{\partial \gamma^{2}} \right|_{\gamma_{\text{opt}}} = -5.09 \times 10^{4} \, \text{km/rad}^{2}
+\tag{17}
+$$
 
 and errors in angle therefore enter the range only at second order,
 
-$$\Delta R \approx \tfrac{1}{2} \left| \frac{\partial^{2} R}{\partial \gamma^{2}} \right| (\delta \gamma)^{2}$$
+$$
+\Delta R \approx \tfrac{1}{2} \left| \frac{\partial^{2} R}{\partial \gamma^{2}} \right| (\delta \gamma)^{2}
+\tag{18}
+$$
 
 Evaluating it settles the design question completely.
 
@@ -137,11 +191,17 @@ Evaluating it settles the design question completely.
 
 A tenth of a degree of pointing error costs seventy-seven metres of range. The same miss would be produced by a speed error of
 
-$$\delta v = \frac{77}{6040} = 0.0128 \, \text{m/s}$$
+$$
+\delta v = \frac{77}{6040} = 0.0128 \, \text{m/s}
+\tag{19}
+$$
 
 or one part in five hundred and sixty thousand. The ratio of the two is not a constant. Setting the second-order angle loss against the first-order speed loss gives
 
-$$\frac{\delta v_{\text{budget}}}{\delta v_{\text{equiv}}(\delta \gamma)} = \frac{\delta v_{\text{budget}} \, (dR/dv)}{\tfrac{1}{2} \left| \partial^{2} R / \partial \gamma^{2} \right| (\delta \gamma)^{2}} \propto \frac{1}{(\delta \gamma)^{2}}$$
+$$
+\frac{\delta v_{\text{budget}}}{\delta v_{\text{equiv}}(\delta \gamma)} = \frac{\delta v_{\text{budget}} \, (dR/dv)}{\tfrac{1}{2} \left| \partial^{2} R / \partial \gamma^{2} \right| (\delta \gamma)^{2}} \propto \frac{1}{(\delta \gamma)^{2}}
+\tag{20}
+$$
 
 which evaluates to
 
@@ -157,11 +217,17 @@ which evaluates to
 
 The [X-11][related_post_a308_convair_x11] flew eight times, and the official history gives the series' maximum range and altitude as 600 and 57.5 nautical miles respectively, in [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990] at page 205. Inverting the range law above for 600 nautical miles, which is 1,111.2 kilometres, gives
 
-$$\Phi = \frac{1111.2}{6371}, \qquad \lambda = \frac{2 \sin (\Phi / 2)}{1 + \sin (\Phi / 2)} = 0.160, \qquad v_{bo} = \sqrt{\lambda g R_{e}} = 3164 \, \text{m/s}$$
+$$
+\Phi = \frac{1111.2}{6371}, \qquad \lambda = \frac{2 \sin (\Phi / 2)}{1 + \sin (\Phi / 2)} = 0.160, \qquad v_{bo} = \sqrt{\lambda g R_{e}} = 3164 \, \text{m/s}
+\tag{21}
+$$
 
 which is 44 percent of the intercontinental burnout speed. The minimum-energy arc is the least demanding way to reach a given range, so this is a lower bound on the speed the longest flight reached. At that value of $\lambda$ the sensitivity relation above gives
 
-$$\frac{dR}{dv_{bo}} = \frac{8 R_{e} \lambda}{v_{bo} (2 - \lambda)^{2} \sqrt{1 - u^{2}}} = 0.766 \, \text{km per m/s}$$
+$$
+\frac{dR}{dv_{bo}} = \frac{8 R_{e} \lambda}{v_{bo} (2 - \lambda)^{2} \sqrt{1 - u^{2}}} = 0.766 \, \text{km per m/s}
+\tag{22}
+$$
 
 against 6.04 at intercontinental range, a factor of 7.9 smaller. **The Atlas A could not have demonstrated cutoff accuracy even if it had carried the equipment, because there was no long lever arm for an error to act on.** It also carried no separable booster section, so the staging transient that perturbs the velocity vector did not exist to be measured, and no guidance in its flight programme, so there was nothing to measure it with. The previous article concluded that the A settled its structural question on flight one and spent seven more flights debugging. **The questions that decide whether the weapon works were first asked of the X-12.** [Rockefeller and Alfred 1960][research_rockefeller_alfred_1960] surrounds those questions at the programme level, with [General Dynamics/Astronautics San Diego Ca 1961][research_diegoca_1961] at the level of the individual missile.
 
@@ -187,19 +253,31 @@ The keystone is terminal velocity control, and it decomposes into three separate
 
 At sustainer cutoff the vehicle has a burnout mass near 5,395 kilogrammes and the sustainer produces 86,844 pounds of thrust, the vacuum rating the compilations give in [Convair X-12][ref_x12], or in newtons
 
-$$F_{s} = 86{,}844 \times 4.4482 = 386.3 \, \text{kN}$$
+$$
+F_{s} = 86{,}844 \times 4.4482 = 386.3 \, \text{kN}
+\tag{23}
+$$
 
 so the acceleration in the last instant of powered flight is
 
-$$a = \frac{F_{s}}{m_{bo}} = \frac{386{,}300}{5395} = 71.6 \, \text{m/s}^{2} = 7.30 g$$
+$$
+a = \frac{F_{s}}{m_{bo}} = \frac{386{,}300}{5395} = 71.6 \, \text{m/s}^{2} = 7.30 g
+\tag{24}
+$$
 
 The error budget of 0.613 metres per second is consumed in
 
-$$\Delta t = \frac{0.613}{71.6} = 8.6 \, \text{ms}$$
+$$
+\Delta t = \frac{0.613}{71.6} = 8.6 \, \text{ms}
+\tag{25}
+$$
 
 **The command must be issued to within about eight milliseconds, and that is the easy part.** The difficulty is what happens afterwards. A liquid engine does not stop when told. Valves close in finite time, the injector and the chamber hold propellant that continues to burn, and the resulting tail-off impulse is set by the hardware, whatever the command. Taking a tail-off lasting 0.3 seconds at declining thrust, an uncertainty of only five percent in the delivered impulse gives
 
-$$\delta v_{\text{tail}} = \frac{0.05 \times 0.3 \times 386{,}300}{5395} = 1.07 \, \text{m/s}$$
+$$
+\delta v_{\text{tail}} = \frac{0.05 \times 0.3 \times 386{,}300}{5395} = 1.07 \, \text{m/s}
+\tag{26}
+$$
 
 which is **1.8 times the error budget**. A missile that simply commands its sustainer to stop cannot meet the accuracy requirement no matter how good its guidance is, because the last thing it does is the least repeatable thing it does. [Kelly 1959][research_kelly_1959] addresses this problem directly, with the transient measured in [Rodean 1959][research_rodean_1959], and the model specification for the engine survives as [Scott 1963b][research_scott_1963] on the Rocketdyne YLR105-NA-7 sustainer. **The solid-motor literature shows that liquid engines are not alone in this**, since in a solid motor terminating thrust requires deliberately destroying the chamber pressure and the repeatability of doing so is the subject of [Jaroudi and McDonald 1964][research_jaroudi_mcdonald_1964] and [Coates and Horton 1970][research_coates_horton_1970]. Every propulsion system that must stop at a commanded velocity confronts the same last-instant uncertainty.
 
@@ -207,15 +285,24 @@ which is **1.8 times the error budget**. A missile that simply commands its sust
 
 The Atlas carries two small vernier engines of a thousand pounds of thrust each, the rating given in the Air Force's description of the Atlas D in [Mercury Project Summary Including 1963, Mercury-Atlas Launch-Vehicle Development and Performance, NASA SP-45][ref_gandy_hanson_1963] at page 88. They start on propellant from pressurised start tanks and then run from the sustainer turbopump. The same description assigns them roll control throughout flight, pitch and yaw control during staging, and all three axes during a vernier solo phase after sustainer cutoff on the flights that use one. The solo phase is the function the arithmetic shows to be decisive. Two verniers give
 
-$$F_{v} = 2 \times 1000 \times 4.4482 = 8.90 \, \text{kN}, \qquad a_{v} = \frac{8900}{5395} = 1.65 \, \text{m/s}^{2}$$
+$$
+F_{v} = 2 \times 1000 \times 4.4482 = 8.90 \, \text{kN}, \qquad a_{v} = \frac{8900}{5395} = 1.65 \, \text{m/s}^{2}
+\tag{27}
+$$
 
 so trimming the full error budget takes
 
-$$t = \frac{0.613}{1.65} = 0.372 \, \text{s}$$
+$$
+t = \frac{0.613}{1.65} = 0.372 \, \text{s}
+\tag{28}
+$$
 
 The authority ratio between the two systems is
 
-$$\frac{a_{s}}{a_{v}} = \frac{71.6}{1.65} = 43.4$$
+$$
+\frac{a_{s}}{a_{v}} = \frac{71.6}{1.65} = 43.4
+\tag{29}
+$$
 
 **The verniers convert an eight-millisecond timing problem into a four-hundred-millisecond timing problem, and a factor of forty-three in required precision is the difference between impossible and routine.** The sustainer is shut down early by design, deliberately leaving a velocity deficit, and the verniers then add the remainder under closed-loop control until the measured speed reaches the commanded value, at which point they are cut and their tail-off is forty-three times less consequential. The design pattern is general and appears wherever a large impulse must be terminated precisely, with [Blaszak and Fahrenholz 1960][research_blaszak_fahrenholz_1960] on thrust control by gas injection and [Platt et al. 1965][research_platt_hanner_1965] on the effective specific impulse of a pulsed engine as period treatments of the same idea.
 
@@ -223,7 +310,10 @@ $$\frac{a_{s}}{a_{v}} = \frac{71.6}{1.65} = 43.4$$
 
 The 0.613 metre per second figure is a total, and a total assembled from independent contributions combines in quadrature rather than by addition,
 
-$$\delta v_{\text{tot}} = \sqrt{\sum_{i} \delta v_{i}^{2}}$$
+$$
+\delta v_{\text{tot}} = \sqrt{\sum_{i} \delta v_{i}^{2}}
+\tag{30}
+$$
 
 An illustrative allocation makes the consequence visible. The values below are chosen to sum to something near the budget and are not taken from a document. They illustrate the arithmetic and are not the Atlas allocation.
 
@@ -239,15 +329,24 @@ An illustrative allocation makes the consequence visible. The values below are c
 
 The share each term takes of the total is its share of the variance rather than of the sum,
 
-$$s_{i} = \frac{\delta v_{i}^{2}}{\sum_{j} \delta v_{j}^{2}}$$
+$$
+s_{i} = \frac{\delta v_{i}^{2}}{\sum_{j} \delta v_{j}^{2}}
+\tag{31}
+$$
 
 and improving one term by a factor $k$ moves the total by
 
-$$\frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqrt{1 - s_{i} \left( 1 - \frac{1}{k^{2}} \right)}$$
+$$
+\frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqrt{1 - s_{i} \left( 1 - \frac{1}{k^{2}} \right)}
+\tag{32}
+$$
 
 **Quadrature is unforgiving of effort spent on the wrong term.** Halving the largest single contribution moves the total from 0.59 to 0.53, an improvement of 10.3 percent for what would be a major redesign. The relation also fixes a ceiling, because letting $k$ grow without bound gives
 
-$$\lim_{k \to \infty} \frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqrt{1 - s_{i}} = 0.860$$
+$$
+\lim_{k \to \infty} \frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqrt{1 - s_{i}} = 0.860
+\tag{33}
+$$
 
 so **removing the largest contribution entirely, at infinite cost, would improve the total by 14.0 percent.** Halving it already captures three quarters of the gain perfect elimination could achieve. Nothing short of improving several terms at once moves the answer. For that structural reason, accuracy programmes advance slowly and by increments across many subsystems, not by one decisive step.
 
@@ -259,19 +358,31 @@ The result at the centre of the article is a single division.
 
 The grazing circular orbital speed is the value of $\lambda = 1$,
 
-$$v_{\text{circ}} = \sqrt{g R_{e}} = \sqrt{9.80665 \times 6.371 \times 10^{6}} = 7904 \, \text{m/s}$$
+$$
+v_{\text{circ}} = \sqrt{g R_{e}} = \sqrt{9.80665 \times 6.371 \times 10^{6}} = 7904 \, \text{m/s}
+\tag{34}
+$$
 
 against the 7193 metres per second that a ten-thousand-kilometre ballistic arc requires. The ratio is
 
-$$\frac{v_{\text{circ}}}{v_{bo}} = 1.0989$$
+$$
+\frac{v_{\text{circ}}}{v_{bo}} = 1.0989
+\tag{35}
+$$
 
 **A weapon of intercontinental range is within ten percent of being a satellite launcher.** In terms of the energy parameter the statement is sharper still, because the maximum-range weapon sits at $\lambda = 0.828$ of the way to orbit and at $\lambda / 2 = 0.414$ of the way to escape, so
 
-$$v_{\text{esc}} = \sqrt{2 g R_{e}} = 11{,}178 \, \text{m/s}$$
+$$
+v_{\text{esc}} = \sqrt{2 g R_{e}} = 11{,}178 \, \text{m/s}
+\tag{36}
+$$
 
 and the span from the longest-ranged weapon anyone wanted to build to the ability to leave the Earth altogether is a factor of 1.55 in speed. The deficit to be made up is
 
-$$\Delta v = 7904 - 7193 = 711 \, \text{m/s}$$
+$$
+\Delta v = 7904 - 7193 = 711 \, \text{m/s}
+\tag{37}
+$$
 
 less than the 1337 metres per second of losses the ascent already absorbs, as the previous article calibrated them. **The Atlas B did not need a new vehicle to reach orbit. It needed to give something up.** [Geckler 1960][research_geckler_1960] carries the staging and performance arithmetic behind that statement on the ideal performance of multistage rockets, [Feldman 1953][research_feldman_1953] on competing power plant components for long-range vehicles, and [Lowrey 1962][research_lowrey_1962] on minimum weight stages, with the launch vehicle the Atlas eventually became specified in [Wolfe 1966][research_wolfe_1966].
 
@@ -279,19 +390,31 @@ less than the 1337 metres per second of losses the ascent already absorbs, as th
 
 What it had to give up follows from the rocket equation applied to the sustainer alone. The sustainer runs at a specific impulse of 309 seconds, so
 
-$$v_{e} = 309 \times 9.80665 = 3030 \, \text{m/s}$$
+$$
+v_{e} = 309 \times 9.80665 = 3030 \, \text{m/s}
+\tag{38}
+$$
 
 and closing a 711 metre per second gap at fixed propellant load requires the burnout mass to shrink by
 
-$$\frac{m_{bo}}{m_{bo}'} = \exp\left( \frac{711}{3030} \right) = 1.2645$$
+$$
+\frac{m_{bo}}{m_{bo}'} = \exp\left( \frac{711}{3030} \right) = 1.2645
+\tag{39}
+$$
 
 so
 
-$$m_{bo}' = \frac{5395}{1.2645} = 4266 \, \text{kg}$$
+$$
+m_{bo}' = \frac{5395}{1.2645} = 4266 \, \text{kg}
+\tag{40}
+$$
 
 The mass that must be surrendered is
 
-$$\Delta m = 5395 - 4266 = 1129 \, \text{kg}$$
+$$
+\Delta m = 5395 - 4266 = 1129 \, \text{kg}
+\tag{41}
+$$
 
 or **20.9 percent of the burnout mass**. That is approximately the mass of a period thermonuclear reentry body, and the trade is physical and exact, not rhetorical. An Atlas can carry a warhead to ten thousand kilometres or it can carry itself to orbit, and the difference between the two missions is about a tonne. Ascent and injection error sensitivities of the period are [Gretz 1962][research_gretz_1962] and [Beardslee 1964][research_beardslee_1964], and the staging arithmetic underneath comes from [Schurmann 1957][research_schurmann_1957], [Lubowe 1965][research_lubowe_1965], and [Geckler 1960][research_geckler_1960].
 
@@ -299,7 +422,10 @@ or **20.9 percent of the burnout mass**. That is approximately the mass of a per
 
 The prediction is testable against the flight, which is unusual for an argument of this kind. Project SCORE placed the entire Atlas B sustainer stage in orbit with an on-orbit mass of 3,980 kilogrammes in NASA's satellite catalogue, [NASA Space Science Data Coordinated Archive, SCORE][ref_nssdc_score], against the 4,266 kilogrammes the relation above allows,
 
-$$\frac{4266 - 3980}{3980} = +7.2 \, \text{percent}$$
+$$
+\frac{4266 - 3980}{3980} = +7.2 \, \text{percent}
+\tag{42}
+$$
 
 **A calculation carried out entirely from the range law, a published specific impulse, and a burnout mass taken from a different variant reproduces the mass of the first communications satellite to within seven percent.** The agreement should not be oversold, since the burnout mass is an Atlas D figure and the reported on-orbit mass appears elsewhere as 8,660 pounds, which is 3,928 kilogrammes, so the sources themselves disagree by 1.3 percent. The agreement does establish the article's central claim, that the orbital mission and the weapon mission are the same mission with the payload changed, and that no capability was added to make the second possible. Trajectory design for the launcher this vehicle became appears in [Frazier 1967][research_frazier_1967], and the flight performance evaluations that document the result are [Preliminary Launch Vehicle Flight 1967][research_naca_1967], [Atlas-Centaur Flight Performance 1968a][research_naca_1968], [Atlas-Centaur AC-12 Flight Performance 1968, Atlas-Centaur AC-12 flight performance][research_naca_1968_2], and [Flight Performance 1969, Atlas-Agena flight performance][research_naca_1969_2].
 
@@ -307,27 +433,45 @@ $$\frac{4266 - 3980}{3980} = +7.2 \, \text{percent}$$
 
 NASA's catalogue gives the orbit as 185 by 1,484 kilometres at 32.3 degrees inclination, with a period of 101.40 minutes and an eccentricity of 0.08999, in [NASA Space Science Data Coordinated Archive, SCORE Trajectory][ref_nssdc_score_orbit]. Taking the apsides as given,
 
-$$r_{p} = 6556 \, \text{km}, \qquad r_{a} = 7855 \, \text{km}, \qquad a = 7205.5 \, \text{km}$$
+$$
+r_{p} = 6556 \, \text{km}, \qquad r_{a} = 7855 \, \text{km}, \qquad a = 7205.5 \, \text{km}
+\tag{43}
+$$
 
 the eccentricity is
 
-$$e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}} = 0.0901$$
+$$
+e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}} = 0.0901
+\tag{44}
+$$
 
 and the period follows from Kepler's third law,
 
-$$T = 2\pi \sqrt{\frac{a^{3}}{\mu}} = 6087 \, \text{s} = 101.45 \, \text{min}$$
+$$
+T = 2\pi \sqrt{\frac{a^{3}}{\mu}} = 6087 \, \text{s} = 101.45 \, \text{min}
+\tag{45}
+$$
 
 against the reported 101.4 minutes, which agrees to better than a tenth of a percent and confirms the orbital elements are mutually consistent rather than separately rounded. The perigee and apogee speeds are
 
-$$v_{p} = \sqrt{\mu \left( \frac{2}{r_{p}} - \frac{1}{a} \right)} = 8141 \, \text{m/s}, \qquad v_{a} = 6795 \, \text{m/s}$$
+$$
+v_{p} = \sqrt{\mu \left( \frac{2}{r_{p}} - \frac{1}{a} \right)} = 8141 \, \text{m/s}, \qquad v_{a} = 6795 \, \text{m/s}
+\tag{46}
+$$
 
 and the specific orbital energy is
 
-$$\varepsilon = -\frac{\mu}{2a} = -27.66 \, \text{MJ/kg}$$
+$$
+\varepsilon = -\frac{\mu}{2a} = -27.66 \, \text{MJ/kg}
+\tag{47}
+$$
 
 against the ballistic case at
 
-$$\varepsilon_{\text{bal}} = \tfrac{1}{2} v_{bo}^{2} - \frac{\mu}{R_{e}} = -36.69 \, \text{MJ/kg}$$
+$$
+\varepsilon_{\text{bal}} = \tfrac{1}{2} v_{bo}^{2} - \frac{\mu}{R_{e}} = -36.69 \, \text{MJ/kg}
+\tag{48}
+$$
 
 a difference of 9.03 megajoules per kilogramme. Orbit determination for this class of object was being worked out by [Richards 1960][research_richards_1960] and [Richards 1961][research_richards_1961] using Doppler tracking, [Duke 1960][research_duke_1960] from optical tracking, [Siry 1960][research_siry_1960] on the state of the art, [Maxwell and Dorfman 1963][research_maxwell_dorfman_1963] on how accurate it could be made, and the seminar record in [Seminar Proceedings on Tracking 1960][research_naca_1960].
 
@@ -343,7 +487,10 @@ It would be reasonable to expect the orbital mission to be the easier one, and t
 
 so the apogee sensitivity is
 
-$$\frac{d h_{a}}{d v_{p}} = 4.24 \, \text{km per m/s}$$
+$$
+\frac{d h_{a}}{d v_{p}} = 4.24 \, \text{km per m/s}
+\tag{49}
+$$
 
 against 6.04 kilometres per metre per second for ballistic range. **The two problems have the same sensitivity to within a factor of one and a half**, so the guidance system built to hit a target ten thousand kilometres away is neither more nor less than what is needed to place a satellite in a specified orbit. That equivalence explains why every early space programme flew on a converted weapon. It is a quantitative statement, not a historical observation. [Beardslee 1964][research_beardslee_1964] gives the formal treatment on orbit injection error analysis and [Lange and Parkinson 1965][research_lange_parkinson_1965] on the error equations that connect inertial navigation to orbital determination.
 
@@ -353,11 +500,17 @@ A vehicle required to reach a specified velocity must carry propellant to cover 
 
 The arithmetic is short. A reserve covering a dispersion of standard deviation $\sigma_{v}$ at $k$ standard deviations must supply
 
-$$\Delta v_{r} = k \sigma_{v}$$
+$$
+\Delta v_{r} = k \sigma_{v}
+\tag{50}
+$$
 
 which at the sustainer exhaust velocity requires a propellant mass of
 
-$$m_{r} = m_{bo} \left( \exp \frac{\Delta v_{r}}{v_{e}} - 1 \right)$$
+$$
+m_{r} = m_{bo} \left( \exp \frac{\Delta v_{r}}{v_{e}} - 1 \right)
+\tag{51}
+$$
 
 | Dispersion, one standard deviation | Reserve at three standard deviations | Reserve mass | Range forgone |
 |---|---|---|---|
@@ -371,19 +524,31 @@ $$m_{r} = m_{bo} \left( \exp \frac{\Delta v_{r}}{v_{e}} - 1 \right)$$
 
 The free-fall arc is an ellipse with semi-major axis
 
-$$a_{\text{bal}} = \frac{R_{e}}{2 - \lambda} = 5437 \, \text{km}$$
+$$
+a_{\text{bal}} = \frac{R_{e}}{2 - \lambda} = 5437 \, \text{km}
+\tag{52}
+$$
 
 and eccentricity
 
-$$e_{\text{bal}} = \sqrt{1 - \lambda (2 - \lambda) \cos^{2} \gamma_{\text{opt}}} = 0.4146$$
+$$
+e_{\text{bal}} = \sqrt{1 - \lambda (2 - \lambda) \cos^{2} \gamma_{\text{opt}}} = 0.4146
+\tag{53}
+$$
 
 Solving Kepler's equation between the two ends of the arc gives a time of flight of
 
-$$t_{f} = 2058 \, \text{s} = 34.3 \, \text{min}$$
+$$
+t_{f} = 2058 \, \text{s} = 34.3 \, \text{min}
+\tag{54}
+$$
 
 with an apogee altitude of
 
-$$h_{\text{apo}} = a_{\text{bal}} (1 + e_{\text{bal}}) - R_{e} = 1319 \, \text{km}$$
+$$
+h_{\text{apo}} = a_{\text{bal}} (1 + e_{\text{bal}}) - R_{e} = 1319 \, \text{km}
+\tag{55}
+$$
 
 The [X-10 article][related_post_a307_north_american_x10] gave the ballistic case as about thirty-two minutes against a hundred and seventy-two for the airbreathing Navaho, and the two figures differ because that estimate used a slightly shorter arc. **The relevant point is that all thirty-four minutes are uncontrolled.** The weapon has no actuators, no communications, and no reason for either. Every outcome is fixed before the first second of it. That is the strongest statement of why cutoff is the keystone and why the [X-10's][related_post_a307_north_american_x10] problem, navigating accurately for nearly three hours, has no counterpart here. [Callaway 1963][research_callaway_1963] reduces trajectory computation to what a range could run for the Pacific Missile Range, with the general n-stage simulation in [Juarez 1961][research_juarez_1961] and modern reconstructions of the same problem in [Xu et al. 2020a][research_xu_2020] and [Dudush and Snovydovych 2026][research_dudush_snovydovych_2026].
 
@@ -391,11 +556,17 @@ The [X-10 article][related_post_a307_north_american_x10] gave the ballistic case
 
 One term that does not appear in the range law as written is the rotation of the Earth, and for a weapon fired between continents it is not small. The surface speed at the latitude of Cape Canaveral is
 
-$$v_{\text{rot}} = \omega_{e} R_{e} \cos \phi = 7.292 \times 10^{-5} \times 6.371 \times 10^{6} \times \cos 28.5^{\circ} = 408 \, \text{m/s}$$
+$$
+v_{\text{rot}} = \omega_{e} R_{e} \cos \phi = 7.292 \times 10^{-5} \times 6.371 \times 10^{6} \times \cos 28.5^{\circ} = 408 \, \text{m/s}
+\tag{56}
+$$
 
 which is 5.68 percent of the burnout speed. Adding and subtracting it as a bound on the azimuth effect gives a range credit of about 3,195 kilometres for a due-east launch and a penalty of about 2,065 kilometres for a due-west one, an east-to-west swing of some 5,260 kilometres on a nominal ten thousand. Only the component along the launch azimuth $A$ is captured, so to first order the credit is
 
-$$\delta R = \frac{dR}{dv} \, \omega_{e} R_{e} \cos \phi \cos A$$
+$$
+\delta R = \frac{dR}{dv} \, \omega_{e} R_{e} \cos \phi \cos A
+\tag{57}
+$$
 
 giving 2,466 kilometres due east, 1,744 at an azimuth of 45 degrees, and nothing due north or south. **The first-order estimate of 2,466 kilometres falls 23 percent short of the exact 3,195**, a useful warning, since a 408 metre per second perturbation is far outside the range over which the linear sensitivity that governs the article remains valid. **This is an upper bound rather than a computed range, because the launch site latitude changes along the arc**, but the order is right and it explains why a missile's stated range is meaningless without a direction. It also makes azimuth a geodetic quantity rather than a navigational one, since the launch heading must be referred to the same figure of the Earth as the target, and the astronomical determination of a geodetic azimuth is a separate discipline, in [Bhattacharji 1970][research_bhattacharji_1970]. Optimising the heading, as opposed to choosing it, is [Frazier 1967][research_frazier_1967] and [Brusch 1977][research_brusch_1977]. The same geometry explains the SCORE inclination of 32.3 degrees against a launch site latitude of 28.5, since an orbit cannot be less inclined than its launch latitude and the excess measures how far the azimuth was rotated away from due east.
 
@@ -403,21 +574,33 @@ giving 2,466 kilometres due east, 1,744 at an azimuth of 45 degrees, and nothing
 
 Every relation in this article has treated the Earth as a sphere of radius 6371 kilometres, and for a weapon required to land within 3.7 kilometres that approximation is not merely imprecise but disqualifying. The reference ellipsoid has
 
-$$R_{\text{eq}} = 6378.137 \, \text{km}, \qquad R_{\text{pol}} = R_{\text{eq}} (1 - f), \qquad f = \frac{1}{298.257}$$
+$$
+R_{\text{eq}} = 6378.137 \, \text{km}, \qquad R_{\text{pol}} = R_{\text{eq}} (1 - f), \qquad f = \frac{1}{298.257}
+\tag{58}
+$$
 
 so the polar radius is 6356.752 kilometres and the difference is
 
-$$\Delta R = 21.4 \, \text{km}$$
+$$
+\Delta R = 21.4 \, \text{km}
+\tag{59}
+$$
 
 against a miss budget of 3.704 kilometres. **The flattening of the Earth is 5.8 times the permitted miss.** Expressed as fractions, the flattening is one part in 298 while the accuracy requirement is one part in 2,700, so the figure of the Earth is nine times coarser than the tolerance.
 
 Two consequences follow and both are large. **The target's position must be known in the same coordinate frame as the launch site**, to a few hundred metres, across an intercontinental baseline, and in 1958 the geodetic connection between continents was itself uncertain at the kilometre level. **And the gravity field is not that of a point mass**, so the free-fall arc is not the ellipse computed above. The size of the departure follows from the same flattening. The leading zonal harmonic contributes a relative perturbing acceleration of
 
-$$\frac{\Delta a}{g} \approx \frac{3}{2} J_{2} \left( \frac{R_{e}}{r} \right)^{2} = 1.62 \times 10^{-3}, \qquad J_{2} = 1.083 \times 10^{-3}$$
+$$
+\frac{\Delta a}{g} \approx \frac{3}{2} J_{2} \left( \frac{R_{e}}{r} \right)^{2} = 1.62 \times 10^{-3}, \qquad J_{2} = 1.083 \times 10^{-3}
+\tag{60}
+$$
 
 which is 0.162 percent of gravity, and acting over a free-fall arc of 2,058 seconds it displaces the impact point by of order
 
-$$\Delta s \sim \tfrac{1}{2} \, \Delta a \, t_{f}^{2} = 34 \, \text{km}$$
+$$
+\Delta s \sim \tfrac{1}{2} \, \Delta a \, t_{f}^{2} = 34 \, \text{km}
+\tag{61}
+$$
 
 **Nine times the miss budget.** That figure is an upper bound, since the perturbation is not constant along the arc and part of it acts along-track where the range law absorbs it, but no plausible reduction brings it below the tolerance. A weapon aimed on a point-mass gravity field misses by tens of kilometres. The oblateness term that dominates it was being worked out in the same years, in [King-Hele 1958][research_king_hele_1958], [Blitzer 1959][research_blitzer_1959], [Message 1960][research_message_1960_2], [King-Hele 1962][research_king_hele_1962], and [Sarychev 1962][research_sarychev_1962], and the satellites that measured it were flying on vehicles like this one.
 
@@ -443,37 +626,64 @@ Each system below is dimensioned against the cutoff requirement, and the orderin
 
 The Atlas B carries two booster engines of 341,130 pounds combined thrust and one sustainer of 86,844 pounds, all ignited on the ground. These are the vacuum ratings the compilations give in [Convair X-12][ref_x12], consistent with the vacuum specific impulses used below. In newtons,
 
-$$F_{b} = 1517.4 \, \text{kN}, \qquad F_{s} = 386.3 \, \text{kN}, \qquad F_{\text{tot}} = 1903.7 \, \text{kN}$$
+$$
+F_{b} = 1517.4 \, \text{kN}, \qquad F_{s} = 386.3 \, \text{kN}, \qquad F_{\text{tot}} = 1903.7 \, \text{kN}
+\tag{62}
+$$
 
 At lift-off the engines deliver their sea-level ratings instead. The Air Force's description of the Atlas D rates the boosters at 154,000 pounds each, the sustainer at 57,000 and each vernier at 1,000, in [Mercury Project Summary Including 1963, Mercury-Atlas Launch-Vehicle Development and Performance, NASA SP-45][ref_gandy_hanson_1963] at pages 85 and 88, so with the Atlas D lift-off mass used throughout the lift-off thrust-to-weight ratio is
 
-$$\frac{F_{\text{SL}}}{m_{0} g} = \frac{(2 \times 154{,}000 + 57{,}000 + 2 \times 1000) \times 4.4482}{117{,}900 \times 9.80665} = \frac{1{,}632{,}500}{1{,}156{,}200} = 1.41$$
+$$
+\frac{F_{\text{SL}}}{m_{0} g} = \frac{(2 \times 154{,}000 + 57{,}000 + 2 \times 1000) \times 4.4482}{117{,}900 \times 9.80665} = \frac{1{,}632{,}500}{1{,}156{,}200} = 1.41
+\tag{63}
+$$
 
 against the 1.65 the vacuum ratings would give. In vacuum the booster provides 79.7 percent of the thrust. At the respective specific impulses of 282 and 309 seconds the mass flows are
 
-$$\dot{m}_{b} = \frac{F_{b}}{282 g} = 548.7 \, \text{kg/s}, \qquad \dot{m}_{s} = \frac{F_{s}}{309 g} = 127.5 \, \text{kg/s}$$
+$$
+\dot{m}_{b} = \frac{F_{b}}{282 g} = 548.7 \, \text{kg/s}, \qquad \dot{m}_{s} = \frac{F_{s}}{309 g} = 127.5 \, \text{kg/s}
+\tag{64}
+$$
 
 for a combined 676.2 kilogrammes per second. Taking booster cutoff near 135 seconds, the remaining mass is
 
-$$m_{1} = m_{0} - (\dot{m}_{b} + \dot{m}_{s}) t = 117{,}900 - 676.2 \times 135 = 26{,}615 \, \text{kg}$$
+$$
+m_{1} = m_{0} - (\dot{m}_{b} + \dot{m}_{s}) t = 117{,}900 - 676.2 \times 135 = 26{,}615 \, \text{kg}
+\tag{65}
+$$
 
 and the acceleration immediately before the event is
 
-$$\frac{F_{\text{tot}}}{m_{1}} = 71.5 \, \text{m/s}^{2} = 7.29 g$$
+$$
+\frac{F_{\text{tot}}}{m_{1}} = 71.5 \, \text{m/s}^{2} = 7.29 g
+\tag{66}
+$$
 
 Jettisoning a booster package of about three tonnes leaves 23,615 kilogrammes under sustainer thrust alone, giving
 
-$$\frac{F_{s}}{m_{1} - m_{j}} = 16.4 \, \text{m/s}^{2} = 1.67 g$$
+$$
+\frac{F_{s}}{m_{1} - m_{j}} = 16.4 \, \text{m/s}^{2} = 1.67 g
+\tag{67}
+$$
 
 **Acceleration falls by a factor of 4.37 in the space of one event.** That discontinuity is the largest single transient the airframe sees after lift-off, it arrives while the guidance system is integrating, and it makes the staging event a guidance problem rather than a mechanical one. Reconstructing the ideal velocity in two phases gives
 
-$$\Delta v_{b} = 282 g \ln \frac{117{,}900}{26{,}615} = 4116 \, \text{m/s}$$
+$$
+\Delta v_{b} = 282 g \ln \frac{117{,}900}{26{,}615} = 4116 \, \text{m/s}
+\tag{68}
+$$
 
-$$\Delta v_{s} = 309 g \ln \frac{23{,}615}{5395} = 4474 \, \text{m/s}$$
+$$
+\Delta v_{s} = 309 g \ln \frac{23{,}615}{5395} = 4474 \, \text{m/s}
+\tag{69}
+$$
 
 for a total of 8590 metres per second against the 8530 the previous article obtained from a single-phase calculation at the booster specific impulse, an agreement of 0.7 percent from independent inputs. The sustainer propellant remaining is 18,220 kilogrammes, which at 127.5 kilogrammes per second is a burn of
 
-$$t_{s} = \frac{18{,}220}{127.5} = 142.9 \, \text{s}$$
+$$
+t_{s} = \frac{18{,}220}{127.5} = 142.9 \, \text{s}
+\tag{70}
+$$
 
 so the sustainer phase is slightly longer than the booster phase and delivers slightly more of the velocity. **The half-stage is not a coda. It is more than half the job.** Staging optimisation of the period, which decides that split, is [Schurmann 1957][research_schurmann_1957], [Parkyn 1958a][research_parkyn_1958_2], [Geckler 1960][research_geckler_1960], [Lubowe 1965][research_lubowe_1965] by dynamic programming, [Gray and Alexander 1965][research_gray_alexander_1965] optimising cost against weight, [Martin 1973][research_martin_1973] on the optimum stage weight distribution, and [Burghes 1974][research_burghes_1974], with the effect of the choice on the resulting trajectory in [Randall 1970][research_randall_1970] and drag admitted in [Adkins 1970][research_adkins_1970].
 
@@ -481,19 +691,31 @@ so the sustainer phase is slightly longer than the booster phase and delivers sl
 
 The jettisoned skirt must clear a vehicle that is still accelerating, and the arithmetic shows what does the work. At booster cutoff the dynamic pressure is near a hundred pascals, so with a skirt reference area of
 
-$$A = \pi r^{2} = \pi (1.524)^{2} = 7.30 \, \text{m}^{2}$$
+$$
+A = \pi r^{2} = \pi (1.524)^{2} = 7.30 \, \text{m}^{2}
+\tag{71}
+$$
 
 the differential deceleration from drag on the discarded section is
 
-$$a_{d} = \frac{C_{d} q A}{m_{j}} = \frac{1.0 \times 100 \times 7.30}{3000} = 0.243 \, \text{m/s}^{2}$$
+$$
+a_{d} = \frac{C_{d} q A}{m_{j}} = \frac{1.0 \times 100 \times 7.30}{3000} = 0.243 \, \text{m/s}^{2}
+\tag{72}
+$$
 
 which separates the two bodies by only
 
-$$\tfrac{1}{2} a_{d} t^{2} = 0.12 \, \text{m}$$
+$$
+\tfrac{1}{2} a_{d} t^{2} = 0.12 \, \text{m}
+\tag{73}
+$$
 
 in a full second. The sustainer, meanwhile, is accelerating at 16.4 metres per second squared, so
 
-$$\tfrac{1}{2} a_{s} t^{2} = 8.18 \, \text{m}$$
+$$
+\tfrac{1}{2} a_{s} t^{2} = 8.18 \, \text{m}
+\tag{74}
+$$
 
 in the same second and about two metres in the first half second. **Separation is achieved by the sustainer flying away from the skirt rather than by the skirt falling behind**, so the sustainer must already be running before the booster section is released, and an arrangement that shut everything down and then restarted would have been far harder. The aerodynamic and jet-interference environment of the event occupies [Binion and Herron 1962][research_binion_1962] and [Binion 1964][research_binion_w_1964], and the Atlas record of separation dynamics on later configurations comes from [Heath et al. 1965][research_heath_1965] on the retarding rocket and [Heath et al. 1967][research_heath_1967] on Atlas-Centaur staging.
 
@@ -501,15 +723,24 @@ in the same second and about two metres in the first half second. **Separation i
 
 The sustainer is a single Rocketdyne chamber, and the model specification survives in the archive as [Scott 1963b][research_scott_1963]. Its function follows directly from the acceleration discontinuity above. Running at a fifth of the total thrust on a vehicle that has already shed three quarters of its mass, it delivers a long low-acceleration phase during which the velocity changes slowly enough for the guidance loop to converge. The instantaneous rate of change of speed in the last seconds of sustainer burn is
 
-$$\dot{v} = \frac{F_{s}}{m} \quad \text{rising from} \quad 16.4 \quad \text{to} \quad 71.6 \, \text{m/s}^{2}$$
+$$
+\dot{v} = \frac{F_{s}}{m} \quad \text{rising from} \quad 16.4 \quad \text{to} \quad 71.6 \, \text{m/s}^{2}
+\tag{75}
+$$
 
 as the tanks empty. The ratio between the two is not an independent quantity,
 
-$$\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / m_{1}} = \frac{m_{1}}{m_{bo}} = \frac{23{,}615}{5395} = 4.38$$
+$$
+\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / m_{1}} = \frac{m_{1}}{m_{bo}} = \frac{23{,}615}{5395} = 4.38
+\tag{76}
+$$
 
 **The factor by which the vehicle becomes harder to stop is exactly its sustainer mass ratio**, the same quantity the rocket equation rewards, since
 
-$$\Delta v_{s} = v_{e} \ln \frac{m_{1}}{m_{bo}} = 4474 \, \text{m/s}$$
+$$
+\Delta v_{s} = v_{e} \ln \frac{m_{1}}{m_{bo}} = 4474 \, \text{m/s}
+\tag{77}
+$$
 
 is a logarithm of the identical number. **The mass fraction that makes the Atlas an intercontinental weapon is the same mass fraction that makes it hard to stop**, and here the [previous article's][related_post_a308_convair_x11] keystone first conflicts with this one's. A heavier vehicle would be easier to terminate accurately and could not reach the target.
 
@@ -519,15 +750,24 @@ Locating the engine on that curve requires its specific impulse to better than t
 
 A cutoff commanded on measured velocity is only available if propellant remains when the velocity is reached. If the two tanks do not empty together the engine shuts down on depletion of whichever runs out first, at a velocity nobody chose. The propellant utilisation system exists to prevent that, by trimming the mixture ratio in flight so that both tanks reach depletion simultaneously. The residual mass stranded by a mixture ratio error $\delta r$ on a nominal ratio $r$ is approximately
 
-$$m_{\text{res}} \approx m_{p} \frac{|\delta r|}{(1 + r)^{2}} \cdot (1 + r)$$
+$$
+m_{\text{res}} \approx m_{p} \frac{|\delta r|}{(1 + r)^{2}} \cdot (1 + r)
+\tag{78}
+$$
 
 and the velocity that residual would have bought is
 
-$$\delta v = v_{e} \ln \left( 1 + \frac{m_{\text{res}}}{m_{bo}} \right)$$
+$$
+\delta v = v_{e} \ln \left( 1 + \frac{m_{\text{res}}}{m_{bo}} \right)
+\tag{79}
+$$
 
 so even a residual of fifty kilogrammes on a burnout mass of 5,395 costs
 
-$$\delta v = 3030 \ln (1.00927) = 28 \, \text{m/s}$$
+$$
+\delta v = 3030 \ln (1.00927) = 28 \, \text{m/s}
+\tag{80}
+$$
 
 or **forty-five times the error budget**. Propellant utilisation is therefore not an efficiency measure but an accuracy measure, and the period wrote about it in those terms in [Whitcombe 1961b][research_whitcombe_1961_2], with the Atlas programme's own difficulties recorded in [General Dynamics San Diego Ca Convair Div 1966a][research_div_1966] and the control dynamics of the equivalent Centaur system in [Ringland and Stubblefield 1965][research_ringland_stubblefield_1965], [Magrini 1967][research_magrini_1967], and [Berns et al. 1968a][research_berns_1968].
 
@@ -537,37 +777,61 @@ Before the guidance system can command a velocity, the vehicle has to be a rigid
 
 The instability has a rate. Taking a pitch inertia for a uniform rod of
 
-$$I = \frac{m L^{2}}{12} = 2.65 \times 10^{6} \, \text{kg m}^{2}$$
+$$
+I = \frac{m L^{2}}{12} = 2.65 \times 10^{6} \, \text{kg m}^{2}
+\tag{81}
+$$
 
 at a representative mass of sixty tonnes, with a normal force coefficient slope near two and the centre of pressure four metres ahead of the centre of mass, the divergence rate at a maximum dynamic pressure of 35 kilopascals is
 
-$$\omega = \sqrt{\frac{q A C_{N\alpha} \Delta x}{I}} = 0.879 \, \text{rad/s}$$
+$$
+\omega = \sqrt{\frac{q A C_{N\alpha} \Delta x}{I}} = 0.879 \, \text{rad/s}
+\tag{82}
+$$
 
 so an attitude disturbance grows by a factor of $e$ in
 
-$$\tau = \frac{1}{\omega} = 1.14 \, \text{s}$$
+$$
+\tau = \frac{1}{\omega} = 1.14 \, \text{s}
+\tag{83}
+$$
 
 The control authority available against it is one degree of gimbal producing
 
-$$\dot{\omega} = \frac{F \, \delta \, \ell}{I} = 0.119 \, \text{rad/s}^{2} = 6.84 \, \text{deg/s}^{2}$$
+$$
+\dot{\omega} = \frac{F \, \delta \, \ell}{I} = 0.119 \, \text{rad/s}^{2} = 6.84 \, \text{deg/s}^{2}
+\tag{84}
+$$
 
 which is ample. **The difficulty is not authority but bandwidth**, because the loop that stabilises the rigid body must be fast compared with 1.14 seconds and slow compared with the structure.
 
 The structure sets the upper limit. Treating the vehicle as a free-free beam with a thin-shell second moment of area
 
-$$I_{xx} = \pi r^{3} t = 5.6 \times 10^{-3} \, \text{m}^{4}$$
+$$
+I_{xx} = \pi r^{3} t = 5.6 \times 10^{-3} \, \text{m}^{4}
+\tag{85}
+$$
 
 the first bending frequency is
 
-$$f_{1} = \frac{\beta_{1}^{2}}{2 \pi L^{2}} \sqrt{\frac{E I_{xx}}{\mu}}, \qquad \beta_{1} L = 4.730$$
+$$
+f_{1} = \frac{\beta_{1}^{2}}{2 \pi L^{2}} \sqrt{\frac{E I_{xx}}{\mu}}, \qquad \beta_{1} L = 4.730
+\tag{86}
+$$
 
 which evaluates to
 
-$$f_{1} = 4.32 \, \text{Hz} = 27.2 \, \text{rad/s}$$
+$$
+f_{1} = 4.32 \, \text{Hz} = 27.2 \, \text{rad/s}
+\tag{87}
+$$
 
 The autopilot bandwidth must therefore live inside a window of
 
-$$\frac{2 \pi f_{1}}{\omega} = 31$$
+$$
+\frac{2 \pi f_{1}}{\omega} = 31
+\tag{88}
+$$
 
 between the rate the vehicle diverges and the rate its structure resonates. Thirty-one to one sounds generous and is not, because a loop must be several times faster than the divergence and several times slower than the mode to avoid exciting it, which consumes most of the interval.
 
@@ -577,11 +841,17 @@ between the rate the vehicle diverges and the rate its structure resonates. Thir
 
 The propellant is a free surface in a tank a little over three metres across, and its first lateral mode in a cylindrical tank under axial acceleration $a$ is
 
-$$f_{s} = \frac{1}{2\pi} \sqrt{\frac{1.841 \, a}{r}}$$
+$$
+f_{s} = \frac{1}{2\pi} \sqrt{\frac{1.841 \, a}{r}}
+\tag{89}
+$$
 
 The Atlas is unusual in that its axial acceleration varies by a factor of 4.4 during the sustainer phase alone, so
 
-$$f_{s} = 0.708 \, \text{Hz at } 1.67 g, \qquad f_{s} = 1.480 \, \text{Hz at } 7.30 g$$
+$$
+f_{s} = 0.708 \, \text{Hz at } 1.67 g, \qquad f_{s} = 1.480 \, \text{Hz at } 7.30 g
+\tag{90}
+$$
 
 **The slosh frequency rises by a factor of 2.09 through the phase in which cutoff accuracy is decided**, while the bending frequency falls as propellant leaves the tanks and the effective mass distribution changes. Two frequencies moving toward each other while the vehicle approaches the one instant that must be precise is an unattractive arrangement, and it makes propellant slosh on this vehicle a cutoff-accuracy problem as well as a stability problem. [Wilner et al. 1960][research_wilner_1960] built an instrument to see it, with baffle damping in [Stephens 1965][research_stephens_1965].
 
@@ -591,25 +861,40 @@ The Atlas B through D used radio guidance, the Mod 1 system on the B and radio-i
 
 The quantity that must be measured to one part in eleven thousand is speed, and speed relative to the ground is what a ground-based Doppler measurement produces directly. An inertial platform, by contrast, produces speed by integrating acceleration, so its velocity error accumulates as
 
-$$\delta v(t) = \int_{0}^{t} \varepsilon_{a} \, dt' = \varepsilon_{a} t$$
+$$
+\delta v(t) = \int_{0}^{t} \varepsilon_{a} \, dt' = \varepsilon_{a} t
+\tag{91}
+$$
 
 for an accelerometer bias $\varepsilon_a$, and over a powered flight of about 280 seconds a bias of only
 
-$$\varepsilon_{a} = \frac{0.613}{280} = 2.2 \times 10^{-3} \, \text{m/s}^{2} = 2.2 \times 10^{-4} g$$
+$$
+\varepsilon_{a} = \frac{0.613}{280} = 2.2 \times 10^{-3} \, \text{m/s}^{2} = 2.2 \times 10^{-4} g
+\tag{92}
+$$
 
 exhausts the budget. **Two hundred and twenty micro-g of accelerometer bias was not achievable in 1958 and is not trivial now.**
 
 The gyroscopes carry a companion requirement that is easier to state and harder to intuit. A platform that has tilted by an angle $\theta$ resolves a component of gravity into its horizontal accelerometers, so a static tilt gives a velocity error of $g \theta t$ and the allowance is
 
-$$\theta \leq \frac{\delta v}{g t} = 2.23 \times 10^{-4} \, \text{rad} = 46 \, \text{arcseconds}$$
+$$
+\theta \leq \frac{\delta v}{g t} = 2.23 \times 10^{-4} \, \text{rad} = 46 \, \text{arcseconds}
+\tag{93}
+$$
 
 If instead the tilt accumulates at a constant drift rate $\varepsilon$, then $\theta = \varepsilon t$ and the error integrates twice,
 
-$$\delta v = \tfrac{1}{2} g \varepsilon t^{2}, \qquad \varepsilon \leq \frac{2 \, \delta v}{g t^{2}} = 1.59 \times 10^{-6} \, \text{rad/s}$$
+$$
+\delta v = \tfrac{1}{2} g \varepsilon t^{2}, \qquad \varepsilon \leq \frac{2 \, \delta v}{g t^{2}} = 1.59 \times 10^{-6} \, \text{rad/s}
+\tag{94}
+$$
 
 which is
 
-$$\varepsilon \leq 0.329 \, \text{degrees per hour}$$
+$$
+\varepsilon \leq 0.329 \, \text{degrees per hour}
+\tag{95}
+$$
 
 **A third of a degree per hour, and gyroscopes of the period drifted at of order one degree per hour.** The gap between the available instrument and the required one is therefore a factor of about three, far short of the orders of magnitude the difficulty of the problem suggests, and the fair reading is that all-inertial guidance was close in 1958. What the ground link provided was a margin and not a capability that did not exist, and the margin mattered because the accelerometer and the gyroscope errors add in quadrature alongside everything else in the budget.
 
@@ -623,7 +908,10 @@ The tracking system that supported this was Azusa, which secondary accounts desc
 
 An interferometer measures a direction cosine from the phase difference between two antennas separated by a baseline $B$. For a signal of wavelength $\lambda_r$ the fringe spacing in angle is
 
-$$\Delta \theta_{\text{fringe}} = \frac{\lambda_{r}}{B}$$
+$$
+\Delta \theta_{\text{fringe}} = \frac{\lambda_{r}}{B}
+\tag{96}
+$$
 
 At C-band near five gigahertz the wavelength is 6.00 centimetres, so
 
@@ -635,11 +923,17 @@ At C-band near five gigahertz the wavelength is 6.00 centimetres, so
 
 where the one percent figure is an assumed phase-measurement fraction and not a published performance. It shows the scaling and does not characterise the instrument. The velocity measurement is the more important one and is easier. A Doppler shift $f_d$ corresponds to a range rate
 
-$$\dot{r} = \frac{f_{d} \lambda_{r}}{2}$$
+$$
+\dot{r} = \frac{f_{d} \lambda_{r}}{2}
+\tag{97}
+$$
 
 so at six centimetres a one-hertz frequency resolution resolves
 
-$$\dot{r} = 0.030 \, \text{m/s}$$
+$$
+\dot{r} = 0.030 \, \text{m/s}
+\tag{98}
+$$
 
 and the 0.613 metre per second budget corresponds to about twenty hertz, which is undemanding. **The physics favours the ground station, which explains quantitatively why radio guidance was good enough to build an operational weapon around.** The technique was borrowed, not invented. Radio interferometry was developed for astronomy, and the instrument that established it is [Ryle 1952][research_ryle_1952], with the tracking variant appearing in [Rowson 1962][research_rowson_1962] and the multiple-baseline arrangement that resolves the fringe ambiguity in [Gerharz 1963][research_gerharz_1963]. **A missile tracker and a radio telescope are the same instrument pointed at different things**, and the ambiguity problem is identical in both, since a single baseline gives a direction cosine only to within an integer number of fringes. [Vickers and Dyer 1971][research_vickers_dyer_1971] measures radio interferometer noise in this application, with Doppler position and velocity determination in [Hix 1968][research_hix_1968] and radar-derived velocity in [Saunders 1965][research_saunders_1965].
 
@@ -647,13 +941,19 @@ and the 0.613 metre per second budget corresponds to about twenty hertz, which i
 
 A ground-based guidance loop invites an obvious objection, which is that the signal has to travel. It does not survive arithmetic. At a slant range of five hundred kilometres the round trip is
 
-$$t_{\text{prop}} = \frac{2d}{c} = 3.34 \, \text{ms}$$
+$$
+t_{\text{prop}} = \frac{2d}{c} = 3.34 \, \text{ms}
+\tag{99}
+$$
 
 against a cutoff window of 8.6 milliseconds. Propagation is a third of the window, which is significant but not disqualifying, although it grows with range and is therefore largest near cutoff, when the vehicle is farthest from the station and accuracy matters most. **The binding latency was computation, not distance**, and the ground station accordingly carried a computer too large to have been flown.
 
 The sample rate matters more. At cutoff the vehicle gains speed at 71.6 metres per second squared, so between successive updates at rate $f$ the speed changes by
 
-$$\Delta v = \frac{a}{f}$$
+$$
+\Delta v = \frac{a}{f}
+\tag{100}
+$$
 
 giving 71.6 metres per second at one hertz, 7.16 at ten, and 1.43 at fifty. **Even a fifty hertz loop cannot resolve the error budget from samples alone**, so the cutoff command has to be predicted forward from a fitted trajectory instead of triggered on a measurement, and the guidance equations do their work in that prediction. [MacPherson 1963][research_macpherson_1963] formulates explicit guidance for this purpose, with the flight control integration in [Russell 1964][research_russell_1964] and the command guidance formulation in [Becker 1973][research_becker_1973].
 
@@ -661,27 +961,45 @@ giving 71.6 metres per second at one hertz, 7.16 at ten, and 1.43 at fifty. **Ev
 
 The Atlas B carried a detachable nose cone, which the Atlas A did not. The official history identifies it as the Mark 2, a heat-sink reentry vehicle, and records the ablative Mark 3 as first shown to be operationally sound on the Atlas D, in [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990] at pages 205 and 206. The heating estimate below therefore describes a problem the Mark 2 met by absorbing heat in its own mass and the Mark 3 later met by ablation. Its design problem is set by the reentry velocity, which for a minimum-energy intercontinental trajectory is the burnout velocity returned. Using the classical Allen and Eggers result for a ballistic entry into an exponential atmosphere of scale height $H$ at inertial flight path angle $\gamma_e$, the peak deceleration is
 
-$$a_{\max} = \frac{v_{e}^{2} \sin \gamma_{e}}{2 e H}$$
+$$
+a_{\max} = \frac{v_{e}^{2} \sin \gamma_{e}}{2 e H}
+\tag{101}
+$$
 
 which for 7193 metres per second at 22.5 degrees and a scale height of 7.2 kilometres gives
 
-$$a_{\max} = 506 \, \text{m/s}^{2} = 52 g$$
+$$
+a_{\max} = 506 \, \text{m/s}^{2} = 52 g
+\tag{102}
+$$
 
 and is **independent of the ballistic coefficient**, a result the [previous article][related_post_a308_convair_x11] also used. The ballistic coefficient sets where it happens rather than how large it is,
 
-$$h_{\max} = H \ln \frac{\rho_{0} H}{\beta \sin \gamma_{e}}, \qquad \beta = \frac{m}{C_{d} A}$$
+$$
+h_{\max} = H \ln \frac{\rho_{0} H}{\beta \sin \gamma_{e}}, \qquad \beta = \frac{m}{C_{d} A}
+\tag{103}
+$$
 
 so a body of 1,400 kilogrammes on a one-metre base has
 
-$$\beta = \frac{1400}{1.0 \times 0.785} = 1783 \, \text{kg/m}^{2}, \qquad h_{\max} = 18.4 \, \text{km}$$
+$$
+\beta = \frac{1400}{1.0 \times 0.785} = 1783 \, \text{kg/m}^{2}, \qquad h_{\max} = 18.4 \, \text{km}
+\tag{104}
+$$
 
 with the speed there reduced to
 
-$$v = v_{e} e^{-1/2} = 4363 \, \text{m/s}$$
+$$
+v = v_{e} e^{-1/2} = 4363 \, \text{m/s}
+\tag{105}
+$$
 
 The stagnation-point heating at that condition, from the Sutton and Graves correlation, is
 
-$$\dot{q} = 1.83 \times 10^{-4} \sqrt{\frac{\rho}{R_{n}}} \, v^{3} = 6.62 \times 10^{6} \, \text{W/m}^{2} = 662 \, \text{W/cm}^{2}$$
+$$
+\dot{q} = 1.83 \times 10^{-4} \sqrt{\frac{\rho}{R_{n}}} \, v^{3} = 6.62 \times 10^{6} \, \text{W/m}^{2} = 662 \, \text{W/cm}^{2}
+\tag{106}
+$$
 
 where the constant is the value in the International System of Units and the correlation returns watts per square metre, so the conversion is stated rather than folded in.
 
@@ -691,7 +1009,10 @@ where the constant is the value in the International System of Units and the cor
 
 A reentering body ionises the air ahead of it, and an ionised sheath reflects radio waves below its plasma frequency
 
-$$f_{p} = \frac{1}{2\pi} \sqrt{\frac{n_{e} e^{2}}{\varepsilon_{0} m_{e}}} \approx 8.98 \sqrt{n_{e}} \, \text{Hz}$$
+$$
+f_{p} = \frac{1}{2\pi} \sqrt{\frac{n_{e} e^{2}}{\varepsilon_{0} m_{e}}} \approx 8.98 \sqrt{n_{e}} \, \text{Hz}
+\tag{107}
+$$
 
 with the electron density in reciprocal cubic metres. Inverting it gives the density at which a given link fails.
 
@@ -703,11 +1024,17 @@ with the electron density in reciprocal cubic metres. Inverting it gives the den
 
 Inverting the plasma frequency relation gives the critical density directly,
 
-$$n_{e} = \left( \frac{f}{8.98} \right)^{2}$$
+$$
+n_{e} = \left( \frac{f}{8.98} \right)^{2}
+\tag{108}
+$$
 
 so the ratio between any two links is the square of their frequency ratio,
 
-$$\frac{n_{e,2}}{n_{e,1}} = \left( \frac{f_{2}}{f_{1}} \right)^{2} = \left( \frac{2200}{250} \right)^{2} = 77.4$$
+$$
+\frac{n_{e,2}}{n_{e,1}} = \left( \frac{f_{2}}{f_{1}} \right)^{2} = \left( \frac{2200}{250} \right)^{2} = 77.4
+\tag{109}
+$$
 
 **S-band tolerates seventy-seven times the ionisation that very high frequency does**, and that ratio is the reason telemetry moved up in frequency. The gain is a square-law consequence, far larger than an incremental improvement. The problem is not confined to reentry either, since the exhaust plume of a large liquid engine is conducting and can break down an antenna during powered flight, as [Poehler 1961][research_poehler_1961] examines. Reentry attenuation for S-band telemetry specifically was measured by [Golden 1969][research_golden_1969], the diagnostic instruments flown to measure the sheath are [Frankenthal 1964][research_frankenthal_1964] and [Fuhs et al. 1966][research_fuhs_1966], and telemetry hardware built to survive the environment comes from [Wright and Ruscus 1959][research_wright_ruscus_1959] and [Mermagen 1964][research_mermagen_1964].
 
@@ -740,17 +1067,26 @@ Two entries carry the weight of the programme and the rest are the programme ear
 
 On 28 or 29 November 1958, depending on the source, missile 12B flew 6,325 statute miles down the Atlantic Missile Range. Converting,
 
-$$6325 \times 1.609344 = 10{,}179 \, \text{km} = 5496 \, \text{nautical miles}$$
+$$
+6325 \times 1.609344 = 10{,}179 \, \text{km} = 5496 \, \text{nautical miles}
+\tag{110}
+$$
 
 which requires
 
-$$v_{bo} = 7222 \, \text{m/s}$$
+$$
+v_{bo} = 7222 \, \text{m/s}
+\tag{111}
+$$
 
 or 29 metres per second more than the ten-thousand-kilometre case used throughout this article. **With that flight the vehicle became an intercontinental ballistic missile in fact rather than in intention**, and the United States demonstrated a full-range delivery for the first time. The date disagreement between sources is minor and is recorded here, not resolved, since one account gives 28 November while the flight-by-flight compilation gives 29 November.
 
 Reaching 10,179 kilometres instead of 10,000 required four tenths of one percent more speed, and the sensitivity relation gives the same answer from the other direction,
 
-$$\frac{\delta R}{R} = S \frac{\delta v}{v} \quad \Rightarrow \quad \frac{179}{10000} = 4.34 \times \frac{29}{7193} = 0.0175$$
+$$
+\frac{\delta R}{R} = S \frac{\delta v}{v} \quad \Rightarrow \quad \frac{179}{10000} = 4.34 \times \frac{29}{7193} = 0.0175
+\tag{112}
+$$
 
 which reproduces the 1.79 percent range increment to within the rounding of the inputs. The relation that governs the weapon's accuracy is the same relation that governs its reach, and there is no way to have one without the other. Minimum-energy trajectory work of the period underlying both includes [Stancil 1963][research_stancil_1963] and [Ostner 1962][research_ostner_1962], with the closed-form treatment in [Punga and Campbell 1962][research_punga_campbell_1962].
 
@@ -760,19 +1096,31 @@ Three weeks later, on 18 December 1958, missile 10B did not shut down at a balli
 
 Converting the mission duration into revolutions,
 
-$$N = \frac{34 \times 86400}{6087} = 483 \, \text{orbits}$$
+$$
+N = \frac{34 \times 86400}{6087} = 483 \, \text{orbits}
+\tag{113}
+$$
 
 of which the batteries supported
 
-$$N_{\text{active}} = \frac{12 \times 86400}{6087} = 170$$
+$$
+N_{\text{active}} = \frac{12 \times 86400}{6087} = 170
+\tag{114}
+$$
 
 The ratio of the orbital period to the recorder capacity is
 
-$$\frac{T}{t_{\text{tape}}} = \frac{6087}{240} = 25.4$$
+$$
+\frac{T}{t_{\text{tape}}} = \frac{6087}{240} = 25.4
+\tag{115}
+$$
 
 so the satellite could store four minutes of the ninety-nine and a half it spent out of contact on each revolution. **SCORE was a store-and-forward relay with a duty cycle of four percent**, and the architecture of every later communications satellite is a response to that number. A four-minute tape with an upper band edge of 1,500 hertz carries, by the Nyquist criterion,
 
-$$n = 2 B t = 2 \times 1500 \times 240 = 7.20 \times 10^{5} \, \text{samples}$$
+$$
+n = 2 B t = 2 \times 1500 \times 240 = 7.20 \times 10^{5} \, \text{samples}
+\tag{116}
+$$
 
 which at an assumed six bits per sample is 4.32 megabits, or about half a megabyte, and all the information in the first voice broadcast from space fits comfortably in a modern text message attachment. The communications satellite literature being written around it includes [Handelsman 1959][research_handelsman_1959], [Hagan 1960][research_hagan_1960], [Jakes 1961][research_jakes_1961], [Haviland 1963][research_haviland_1963], [Karrenberg and Lueders 1963][research_karrenberg_lueders_1963], and [Gruenberg and Johnson 1964][research_gruenberg_johnson_1964], and the orbit determination that made a satellite findable comes from [Denham 1965][research_denham_1965] and [Townsend 1966][research_townsend_1966].
 
@@ -780,15 +1128,24 @@ which at an assumed six bits per sample is 4.32 megabits, or about half a megaby
 
 The record describes the broadcast as weak, a claim the physics can check. At 132 megahertz the wavelength is 2.27 metres, and the free-space loss at the 1,484 kilometre apogee is
 
-$$L = \left( \frac{4 \pi d}{\lambda_{r}} \right)^{2} = 138.3 \, \text{dB}$$
+$$
+L = \left( \frac{4 \pi d}{\lambda_{r}} \right)^{2} = 138.3 \, \text{dB}
+\tag{117}
+$$
 
 With the catalogued transmit power of eight watts, and assuming a body-mounted antenna of unity gain and a ground antenna of ten decibels, the received power is
 
-$$P_{r} = \frac{P_{t} G_{t} G_{r}}{L} = 1.19 \times 10^{-12} \, \text{W} = -89.3 \, \text{dBm}$$
+$$
+P_{r} = \frac{P_{t} G_{t} G_{r}}{L} = 1.19 \times 10^{-12} \, \text{W} = -89.3 \, \text{dBm}
+\tag{118}
+$$
 
 against a noise floor at a system temperature of 2,000 kelvin and a six kilohertz bandwidth of
 
-$$N = k T_{\text{sys}} B = -127.8 \, \text{dBm}$$
+$$
+N = k T_{\text{sys}} B = -127.8 \, \text{dBm}
+\tag{119}
+$$
 
 for a signal-to-noise ratio of 38.6 decibels. **The link was comfortable for a tracking station and unavailable to the public**, which resolves the apparent contradiction, since the reported weakness refers to what a listener without a directional antenna at 132 megahertz could receive and not to the link the project flew. That is also why the message reached most Americans as a rebroadcast on commercial news rather than directly. The antenna gains, the system temperature and the bandwidth are estimates and are flagged as such in the Epistemic State. Diversity reception and the error behaviour of links of this class are treated in [Daly 1967][research_daly_1967], with Doppler-based observer positioning from the same kind of signal in [Hix 1968][research_hix_1968].
 
@@ -796,15 +1153,24 @@ for a signal-to-noise ratio of 38.6 decibels. **The link was comfortable for a t
 
 The thirty-four day lifetime is consistent with the orbit and the vehicle. The area-to-mass ratio of a three-metre diameter stage at 3,980 kilogrammes is
 
-$$\frac{A}{m} = \frac{\pi (1.524)^{2}}{3980} = 1.83 \times 10^{-3} \, \text{m}^{2}/\text{kg}$$
+$$
+\frac{A}{m} = \frac{\pi (1.524)^{2}}{3980} = 1.83 \times 10^{-3} \, \text{m}^{2}/\text{kg}
+\tag{120}
+$$
 
 giving a ballistic coefficient of
 
-$$\beta = \frac{m}{C_{d} A} = \frac{3980}{2.2 \times 7.30} = 248 \, \text{kg/m}^{2}$$
+$$
+\beta = \frac{m}{C_{d} A} = \frac{3980}{2.2 \times 7.30} = 248 \, \text{kg/m}^{2}
+\tag{121}
+$$
 
 That is heavy for a satellite and explains how an object with a 185 kilometre perigee survived as long as it did. The mean specific energy shed per revolution is
 
-$$\frac{\Delta \varepsilon}{N} = \frac{1}{483} \left( \frac{\mu}{2 a} - \frac{\mu}{2 R_{e}} \right) = 7.5 \, \text{kJ/kg}$$
+$$
+\frac{\Delta \varepsilon}{N} = \frac{1}{483} \left( \frac{\mu}{2 a} - \frac{\mu}{2 R_{e}} \right) = 7.5 \, \text{kJ/kg}
+\tag{122}
+$$
 
 Atmospheric drag on satellites was under active study at the time, in [Jastrow and Pearse 1957][research_jastrow_pearse_1957], [Parkyn 1958b][research_parkyn_1958], [Wildhack 1958][research_wildhack_1958], [Brouwer and Hori 1961b][research_brouwer_hori_1961], [Westerman 1963][research_westerman_1963], and [Geyling 1964][research_geyling_1964], with the oblateness terms that dominate the orbit's other secular behaviour in [King-Hele 1958][research_king_hele_1958], [Blitzer 1959][research_blitzer_1959], and [Message 1960][research_message_1960_2]. **Oblateness and drag are not independent**, since the flattening changes the density a satellite meets at a given altitude and therefore its lifetime, which is [Johnston 1966][research_johnston_1966], and it torques the body as well, in [Schlegel 1966][research_schlegel_1966]. Locating an object of this kind remained hard enough to sustain a separate literature, in [Moriarty 1966][research_moriarty_1966] and [Lubowe 1969][research_lubowe_1969].
 
@@ -812,39 +1178,63 @@ Atmospheric drag on satellites was under active study at the time, in [Jastrow a
 
 Six of ten is a success rate of 0.6, and the standard error is
 
-$$\sigma = \sqrt{\frac{p(1-p)}{n}} = \sqrt{\frac{0.24}{10}} = 0.155$$
+$$
+\sigma = \sqrt{\frac{p(1-p)}{n}} = \sqrt{\frac{0.24}{10}} = 0.155
+\tag{123}
+$$
 
 against the Atlas A at 0.50 plus or minus 0.177, taking four successes in eight as the previous article does. The improvement is 0.10, and pooling the two programmes gives a pooled proportion of 0.556 and a standard error on the difference of
 
-$$\sigma_{\Delta} = \sqrt{p(1-p) \left( \frac{1}{n_{A}} + \frac{1}{n_{B}} \right)} = 0.236$$
+$$
+\sigma_{\Delta} = \sqrt{p(1-p) \left( \frac{1}{n_{A}} + \frac{1}{n_{B}} \right)} = 0.236
+\tag{124}
+$$
 
 so
 
-$$z = \frac{0.10}{0.236} = 0.42$$
+$$
+z = \frac{0.10}{0.236} = 0.42
+\tag{125}
+$$
 
 The official history credits the A series with three successes rather than four, in [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990] at page 205. On that count the Atlas A rate is 0.375, the improvement is 0.225, the pooled proportion is 0.500, and
 
-$$z = \frac{0.225}{\sqrt{0.25 \left( \frac{1}{8} + \frac{1}{10} \right)}} = \frac{0.225}{0.237} = 0.95$$
+$$
+z = \frac{0.225}{\sqrt{0.25 \left( \frac{1}{8} + \frac{1}{10} \right)}} = \frac{0.225}{0.237} = 0.95
+\tag{126}
+$$
 
 which is still short of any conventional threshold of significance.
 
 **The Atlas B is not measurably more reliable than the Atlas A even though it carried more systems and did far more.** That is not a criticism of either. The limit lies in what eighteen flights can support, and the previous article made the same point about eight. Reaching a five-percentage-point standard error would need
 
-$$n = \frac{p(1-p)}{\sigma^{2}} = 99 \, \text{flights}$$
+$$
+n = \frac{p(1-p)}{\sigma^{2}} = 99 \, \text{flights}
+\tag{127}
+$$
 
 which is not how a missile programme establishes reliability. The statistical machinery for doing better than counting successes arrived later and is [Taylor and Price 1974][research_taylor_price_1974], whose covariance analysis propagates component errors through a guidance loop without requiring flights at all. **A programme that cannot afford a hundred flights must substitute analysis for sampling**, and that substitution is the intellectual content of the reliability discipline that followed. Reliability came from the Difficulties Review process instead, and the five surviving volumes of [General Dynamics San Diego Ca Convair Div 1966a][research_div_1966], [General Dynamics San Diego Ca Convair Div 1966b][research_div_1966_2], [General Dynamics San Diego Ca Convair Div 1966e][research_div_1966_3], [General Dynamics San Diego Ca Convair Div 1966c][research_div_1966_4], and [General Dynamics San Diego Ca Convair Div 1966d][research_div_1966_5] are what that looked like written down. The flight test reports for individual missiles are [General Dynamics/Astronautics San Diego Ca 1961][research_diegoca_1961].
 
 Placing the failures on the mass and acceleration history makes the pattern sharper. At the combined mass flow of 676.2 kilogrammes per second computed above, the first failure at T plus 43 seconds occurred with
 
-$$m = 117{,}900 - 676.2 \times 43 = 88{,}823 \, \text{kg}$$
+$$
+m = 117{,}900 - 676.2 \times 43 = 88{,}823 \, \text{kg}
+\tag{128}
+$$
 
 still aboard, which is before maximum dynamic pressure and during the phase where the vehicle is least controllable, so a flight control failure there is the least surprising of the four. The turbopump failure at T plus 82 seconds came after
 
-$$676.2 \times 82 = 55{,}448 \, \text{kg}$$
+$$
+676.2 \times 82 = 55{,}448 \, \text{kg}
+\tag{129}
+$$
 
 or 49.3 percent of the propellant load had passed through the machinery, which is a plausible point for a wear or thermal failure rather than a start transient. The loss of thrust at T plus 121 seconds is the most informative, since nominal booster cutoff is near 135 seconds and the vehicle at that moment has
 
-$$m = 36{,}080 \, \text{kg}, \qquad \frac{F_{\text{tot}}}{mg} = 5.38$$
+$$
+m = 36{,}080 \, \text{kg}, \qquad \frac{F_{\text{tot}}}{mg} = 5.38
+\tag{130}
+$$
 
 so it failed fourteen seconds short of staging at more than five times its own weight. **Three of the four failures are in the booster phase and none is in a system the Atlas B introduced.**
 
@@ -866,11 +1256,17 @@ The engine could be tested, and was, on stands that ran full-duration burns. The
 
 **The accuracy could not be measured better than the range could measure it.** This deserves a relation rather than an assertion, because it sets a hard requirement on the ground segment. An imperfect instrument inflates the measured scatter in quadrature,
 
-$$\sigma_{\text{meas}}^{2} = \sigma_{\text{true}}^{2} + \sigma_{\text{inst}}^{2}$$
+$$
+\sigma_{\text{meas}}^{2} = \sigma_{\text{true}}^{2} + \sigma_{\text{inst}}^{2}
+\tag{131}
+$$
 
 so holding the apparent inflation below a fraction $\eta$ requires
 
-$$\frac{\sigma_{\text{inst}}}{\sigma_{\text{true}}} \leq \sqrt{(1 + \eta)^{2} - 1}$$
+$$
+\frac{\sigma_{\text{inst}}}{\sigma_{\text{true}}} \leq \sqrt{(1 + \eta)^{2} - 1}
+\tag{132}
+$$
 
 which for a five percent ceiling gives 0.320, or an instrument **3.1 times better than the missile it is certifying**. In the units used throughout that is 0.196 metres per second of range measurement error against a 0.613 metre per second budget. A ground station accurate to a few metres per second cannot certify a missile required to be accurate to two thirds of one, so the instrumentation had to be improved alongside the weapon. That is a recurring shape in this series and appeared already in the [X-7][related_post_a304_lockheed_x7] and [X-10][related_post_a307_north_american_x10] articles.
 
@@ -880,7 +1276,10 @@ which for a five percent ceiling gives 0.320, or an instrument **3.1 times bette
 
 The Atlas B fed directly into the C, D, E, and F variants and into the first American operational intercontinental ballistic missile force. The radio guidance the B flew stayed through the D and was replaced by all-inertial guidance in the E and F, as the force-structure chart in [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990] at page 214 records. The drift budget derived above says that transition was nearer than it looks, since the requirement is a third of a degree per hour against period instruments at of order one, so
 
-$$\frac{\varepsilon_{\text{period}}}{\varepsilon_{\text{required}}} \approx \frac{1.0}{0.329} = 3.0$$
+$$
+\frac{\varepsilon_{\text{period}}}{\varepsilon_{\text{required}}} \approx \frac{1.0}{0.329} = 3.0
+\tag{133}
+$$
 
 **A factor of three, not the orders of magnitude the gap between the B and the F might suggest.** What took the time was not the gyroscope but everything around it, namely the calibration, the alignment on the pad, the thermal control, and the confidence that a system with no external reference could be trusted with the mission, and none of those appears in the error budget. The Atlas force was short-lived as a weapon. After the November 1964 election Secretary McNamara announced the retirement of all first-generation missiles in 1965, and the last Atlas squadron came off alert on 12 April 1965, in [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990] at pages 233 to 235. The reason is that a cryogenic missile requiring lengthy fuelling was overtaken by storable and solid-fuelled weapons that could be launched in minutes. The inertial systems that replaced radio guidance in the E and F are treated in [Whitcombe 1961a][research_whitcombe_1961], [Broxmeyer 1962][research_broxmeyer_1962], [Larson 1965][research_larson_1965] for the contemporary Titan III, [Amacker and Graff 1965][research_amacker_graff_1965] on how such systems were tested, and [Widnall et al. 1974][research_widnall_1974] on improving the observability of their error sources, with the precise-timing dependency in [Ehrsam et al. 1978][research_ehrsam_1978]. The manned application the launcher inherited appears in [Boynton 1967][research_boynton_1967].
 
@@ -894,19 +1293,31 @@ This article has spent its length on accuracy, yet accuracy is not what decided 
 
 An intercontinental ballistic missile arrives in 34.3 minutes, as computed above from the range law. Warning of a launch arrives strictly later than the launch, so the time available to respond is less than that. The Atlas burns liquid oxygen, which cannot be stored aboard indefinitely, so a round held on alert must be fuelled before it can be fired. The Air Force required a reaction time of fifteen minutes, and the official history records that the caution needed in fuelling the missile immediately before launch prevented the Atlas from meeting it, in [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990] at page 214. Even the requirement it missed is a large fraction of the flight time,
 
-$$\frac{t_{\text{req}}}{t_{\text{flight}}} = \frac{15}{34.3} = 0.44$$
+$$
+\frac{t_{\text{req}}}{t_{\text{flight}}} = \frac{15}{34.3} = 0.44
+\tag{134}
+$$
 
 and the documented countdown loaded fuel from T minus 12 minutes 15 seconds and liquid oxygen until T minus 1 minute 10 seconds, at page 203 of the same history, so loading alone began
 
-$$\frac{t_{\text{load}}}{t_{\text{flight}}} = \frac{12.25}{34.3} = 0.36$$
+$$
+\frac{t_{\text{load}}}{t_{\text{flight}}} = \frac{12.25}{34.3} = 0.36
+\tag{135}
+$$
 
 of the adversary's flight time before launch. **A missile whose required reaction time is forty-four percent of the adversary's flight time, and which could not meet even that, is not a second-strike weapon, and no improvement in accuracy repairs that.** The problem is worse than the ratio suggests, because boil-off means a loaded vehicle cannot simply be held loaded. Against an ullage margin $\mu$ the holding time before a top-up is required is
 
-$$t_{\text{hold}} = \frac{\mu}{\dot{m} / m}$$
+$$
+t_{\text{hold}} = \frac{\mu}{\dot{m} / m}
+\tag{136}
+$$
 
 so a five percent margin against a one percent per day loss gives
 
-$$t_{\text{hold}} = \frac{0.05}{0.01} = 5 \, \text{days}$$
+$$
+t_{\text{hold}} = \frac{0.05}{0.01} = 5 \, \text{days}
+\tag{137}
+$$
 
 **Readiness therefore has a clock on it even when nothing is wrong**, which makes indefinite alert impossible in principle rather than merely inconvenient, and every top-up is a maintenance action on a fuelled weapon.
 
@@ -957,7 +1368,10 @@ The relations this article derives are settled, and the thin-subject counts in T
 
 The most useful way into the modern literature is to run this arithmetic forward. The range law has not changed, so the accuracy chain can be recomputed against a modern requirement by substituting a smaller circular error probable.
 
-$$\delta v = \frac{\text{CEP}}{dR/dv}, \qquad \varepsilon_{a} \leq \frac{\delta v}{t}, \qquad \varepsilon_{g} \leq \frac{2 \, \delta v}{g t^{2}}$$
+$$
+\delta v = \frac{\text{CEP}}{dR/dv}, \qquad \varepsilon_{a} \leq \frac{\delta v}{t}, \qquad \varepsilon_{g} \leq \frac{2 \, \delta v}{g t^{2}}
+\tag{138}
+$$
 
 | Circular error probable | Speed budget | Fractional | Accelerometer bias | Gyroscope drift |
 |---|---|---|---|---|
@@ -970,7 +1384,10 @@ $$\delta v = \frac{\text{CEP}}{dR/dv}, \qquad \varepsilon_{a} \leq \frac{\delta 
 
 The consequence for warhead design is what shaped the arsenals. Carrying the cube-root yield scaling through the same improvement,
 
-$$\frac{Y_{1}}{Y_{2}} = \left( \frac{\text{CEP}_{1}}{\text{CEP}_{2}} \right)^{3} = \left( \frac{3704}{120} \right)^{3} = 2.94 \times 10^{4}$$
+$$
+\frac{Y_{1}}{Y_{2}} = \left( \frac{\text{CEP}_{1}}{\text{CEP}_{2}} \right)^{3} = \left( \frac{3704}{120} \right)^{3} = 2.94 \times 10^{4}
+\tag{139}
+$$
 
 **A warhead delivered to a hundred and twenty metres does the work of one nearly thirty thousand times larger delivered to two nautical miles.** That single ratio is why megaton-class weapons gave way to sub-megaton ones, why accuracy rather than yield became the currency of the arsenals, and why the guidance engineering this article describes mattered more than any other line of work in the programme. **The trade was first posed quantitatively on the Atlas B**, and the subsections below follow what happened to each term in it. [Arthur and Kemp 2025][research_arthur_kemp_2025] assess where the accuracy of such systems now stands, and [Acton 2025][research_acton_2025] and [Ashraf and Haq 2023][research_ashraf_haq_2023] take up the strategic consequence of the yield ratio.
 
@@ -1186,7 +1603,10 @@ The Atlas was designed to minimise mass because mass was the binding constraint.
 
 **The error budget is reconstructed, not documented.** The two nautical mile circular error probable used throughout is an assumed figure for an early Atlas. The official history gives a different reference point, recording that the Atlas D flight tests showed accuracy considerably better than the one nautical mile circular error probable expected, in [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990] at page 206. The figure used here is therefore twice the expectation documented for the operational missile, and the one nautical mile row below is the documented case. Everything downstream of it, including the headline one part in eleven thousand seven hundred, scales inversely with that assumption. The scaling is linear and immediate,
 
-$$\delta v = \frac{\text{CEP}}{dR/dv}$$
+$$
+\delta v = \frac{\text{CEP}}{dR/dv}
+\tag{140}
+$$
 
 | Assumed circular error probable | Speed budget | Fractional requirement |
 |---|---|---|
@@ -1307,6 +1727,1215 @@ And then the same machinery did something else. Ten percent more speed than the 
 The phrase space launch vehicle names that fact, and with the X-12 it stops being a metaphor.
 
 The sensitivity that organises the article has not moved since. Running it forward to a hundred-and-twenty-metre weapon demands a burnout speed correct to one part in three hundred and sixty thousand, which is two centimetres per second, and instruments about thirty times better than the Atlas needed. **The reward for closing that gap is a factor of nearly thirty thousand in the yield required to do the same work**, which is why the arsenals grew more accurate rather than larger, and why the unglamorous engineering this article describes, the verniers and the propellant utilisation system and the ground station full of computers, turned out to be the part of the programme that mattered.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 140 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 140, 58 are established and 82 are bespoke.
+Quantities are in International System units on a spherical Earth of radius 6,371 kilometres with $g = 9.80665$ metres per second squared, pounds of thrust are converted at 4.4482 newtons each, several masses are Atlas D figures applied to the Atlas B, and symbols are reused, so that $v_{e}$ is the exhaust velocity except in Equations 101 to 105, where it is the entry speed, $L$ is a lethal radius, a vehicle length or a path loss by section, $e$ is an eccentricity except in Equations 101 and 105, $\mu$ is the gravitational parameter except in Equation 136, and $N$ is a count of orbits except in Equation 119, where it is the noise power.
+
+**Equation 1, Ballistic Range Law.**
+On a spherical non-rotating Earth the central angle of a ballistic arc flown at the optimum flight path angle is fixed by the energy parameter $\lambda$, the ratio of burnout kinetic energy to that of a grazing circular orbit.
+
+$$
+\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v_{bo}^{2}}{g R_{e}}, \qquad R = R_{e} \Phi
+\tag{1}
+$$
+
+*Equation 2, Bespoke Burnout Speed for Ten Thousand Kilometres.*
+The range law is evaluated for a range of 10,000 kilometres, which the article takes as representative of intercontinental flight.
+
+$$
+\lambda = 0.8281, \qquad v_{bo} = 7193 \, \text{m/s}
+\tag{2}
+$$
+
+**Equation 3, Range Sensitivity to the Energy Parameter.**
+Differentiating the range law gives the rate at which range grows with the energy parameter.
+
+$$
+\frac{dR}{d\lambda} = \frac{4 R_{e}}{(2 - \lambda)^{2} \sqrt{1 - u^{2}}}, \qquad u = \frac{\lambda}{2 - \lambda}
+\tag{3}
+$$
+
+*Equation 4, Bespoke Range Sensitivity to Burnout Speed.*
+Chaining the derivative through the energy parameter gives 6.04 kilometres of range per metre per second at the representative 10,000 kilometre range.
+
+$$
+\frac{dR}{dv_{bo}} = \frac{8 R_{e} \lambda}{v_{bo} (2 - \lambda)^{2} \sqrt{1 - u^{2}}} = 6.04 \, \text{km per m/s}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Dimensionless Range Sensitivity.*
+At the representative range a fractional error in burnout speed produces a fractional range error 4.34 times larger.
+
+$$
+S = \frac{dR / R}{dv / v} = 4.34
+\tag{5}
+$$
+
+*Equation 6, Bespoke Burnout Speed Budget.*
+Dividing a circular error probable of two nautical miles, assumed for an early Atlas, by the range sensitivity gives a speed budget of 0.613 metres per second.
+
+$$
+\delta v = \frac{3704}{6040} = 0.613 \, \text{m/s}
+\tag{6}
+$$
+
+*Equation 7, Bespoke Fractional Speed Budget.*
+The assumed speed budget is one part in about 11,700 of the representative burnout speed.
+
+$$
+\frac{\delta v}{v_{bo}} = 8.53 \times 10^{-5}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Speed Budget for a One Kilometre Miss.*
+A one kilometre miss at the representative range sensitivity corresponds to 0.166 metres per second.
+
+$$
+\delta v = 0.166 \, \text{m/s}
+\tag{8}
+$$
+
+**Equation 9, Circular Normal Hit Probability.**
+With impacts scattered as a circular normal distribution of axis standard deviation $\sigma$, the probability of landing within a radius $r$ follows the Rayleigh cumulative distribution.
+
+$$
+P(r) = 1 - \exp\left( -\frac{r^{2}}{2 \sigma^{2}} \right)
+\tag{9}
+$$
+
+*Equation 10, Bespoke Axis Standard Deviation for the Assumed Accuracy.*
+The circular error probable is $\sqrt{2 \ln 2}$ times the axis standard deviation, which is 3.146 kilometres for the assumed two nautical miles.
+
+$$
+\text{CEP}^{2} = 2 \sigma^{2} \ln 2, \qquad \sigma = \frac{\text{CEP}}{\sqrt{2 \ln 2}} = 3.146 \, \text{km}
+\tag{10}
+$$
+
+**Equation 11, Kill Probability Against a Lethal Radius.**
+For a definite lethal radius $L$ and a circular normal miss, the kill probability is one minus two raised to the negative squared ratio of lethal radius to circular error probable.
+
+$$
+p_{k} = 1 - 2^{-(L / \text{CEP})^{2}}
+\tag{11}
+$$
+
+**Equation 12, Cube-Root Blast Scaling.**
+The lethal radius for a given blast effect scales as the cube root of yield.
+
+$$
+L \propto Y^{1/3}
+\tag{12}
+$$
+
+**Equation 13, Yield Equivalent of Accuracy.**
+Holding the kill probability fixed under cube-root scaling makes the yield required grow as the cube of the circular error probable.
+
+$$
+Y \propto \text{CEP}^{3}
+\tag{13}
+$$
+
+*Equation 14, Bespoke Yield Equivalent of Cutoff Error.*
+Assuming that the circular error probable is set by the cutoff speed error alone, the yield required grows as the cube of that error.
+
+$$
+Y \propto (\delta v)^{3}
+\tag{14}
+$$
+
+**Equation 15, Range Law with Flight Path Angle.**
+Admitting the burnout flight path angle $\gamma$ as a variable gives the general central angle of a ballistic arc on a spherical Earth.
+
+$$
+\tan \frac{\Phi}{2} = \frac{\lambda \sin \gamma \cos \gamma}{1 - \lambda \cos^{2} \gamma}
+\tag{15}
+$$
+
+**Equation 16, Optimum Flight Path Angle.**
+The flight path angle that maximises range for a given energy parameter satisfies $\cos 2\gamma_{\text{opt}} = \lambda / (2 - \lambda)$.
+
+$$
+\cos 2\gamma_{\text{opt}} = \frac{\lambda}{2 - \lambda}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Stationarity of Range in Angle.*
+At the optimum angle the first derivative of range vanishes, and the second derivative is evaluated at the representative 10,000 kilometre range.
+
+$$
+\left. \frac{\partial R}{\partial \gamma} \right|_{\gamma_{\text{opt}}} = 0, \qquad
+\left. \frac{\partial^{2} R}{\partial \gamma^{2}} \right|_{\gamma_{\text{opt}}} = -5.09 \times 10^{4} \, \text{km/rad}^{2}
+\tag{17}
+$$
+
+**Equation 18, Second-Order Range Loss from an Angle Error.**
+Near a maximum the range lost to an angle error $\delta \gamma$ is half the magnitude of the second derivative times the square of the error.
+
+$$
+\Delta R \approx \tfrac{1}{2} \left| \frac{\partial^{2} R}{\partial \gamma^{2}} \right| (\delta \gamma)^{2}
+\tag{18}
+$$
+
+*Equation 19, Bespoke Speed Equivalent of a Tenth of a Degree.*
+The 77 metres lost to a tenth of a degree of pointing error equal the range lost to 0.0128 metres per second at the representative sensitivity.
+
+$$
+\delta v = \frac{77}{6040} = 0.0128 \, \text{m/s}
+\tag{19}
+$$
+
+*Equation 20, Bespoke Ratio of Speed Budget to Angle Equivalent.*
+The article compares the speed budget with the speed error equivalent to an angle error, a ratio that grows as the inverse square of the angle error.
+
+$$
+\frac{\delta v_{\text{budget}}}{\delta v_{\text{equiv}}(\delta \gamma)} = \frac{\delta v_{\text{budget}} \, (dR/dv)}{\tfrac{1}{2} \left| \partial^{2} R / \partial \gamma^{2} \right| (\delta \gamma)^{2}} \propto \frac{1}{(\delta \gamma)^{2}}
+\tag{20}
+$$
+
+*Equation 21, Bespoke Burnout Speed of the Longest Atlas A Flight.*
+Inverting the range law for the documented 600 nautical miles on the assumption of a minimum-energy arc gives a lower bound of 3,164 metres per second.
+[Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990]
+
+$$
+\Phi = \frac{1111.2}{6371}, \qquad \lambda = \frac{2 \sin (\Phi / 2)}{1 + \sin (\Phi / 2)} = 0.160, \qquad v_{bo} = \sqrt{\lambda g R_{e}} = 3164 \, \text{m/s}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Range Sensitivity of the Atlas A.*
+The sensitivity relation evaluated at the minimum-energy Atlas A burnout speed gives 0.766 kilometres per metre per second.
+
+$$
+\frac{dR}{dv_{bo}} = \frac{8 R_{e} \lambda}{v_{bo} (2 - \lambda)^{2} \sqrt{1 - u^{2}}} = 0.766 \, \text{km per m/s}
+\tag{22}
+$$
+
+**Equation 23, Sustainer Vacuum Thrust.**
+The sustainer's vacuum rating of 86,844 pounds is 386.3 kilonewtons.
+[Convair X-12][ref_x12]
+
+$$
+F_{s} = 86{,}844 \times 4.4482 = 386.3 \, \text{kN}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Acceleration at Sustainer Cutoff.*
+The sustainer thrust acting on a burnout mass of 5,395 kilogrammes, an Atlas D figure applied to the Atlas B, gives 7.30 g.
+
+$$
+a = \frac{F_{s}}{m_{bo}} = \frac{386{,}300}{5395} = 71.6 \, \text{m/s}^{2} = 7.30 g
+\tag{24}
+$$
+
+*Equation 25, Bespoke Cutoff Timing Window.*
+At the cutoff acceleration the assumed speed budget is consumed in 8.6 milliseconds.
+
+$$
+\Delta t = \frac{0.613}{71.6} = 8.6 \, \text{ms}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Tail-Off Speed Uncertainty.*
+An assumed five percent uncertainty in the impulse of an assumed 0.3 second tail-off at full sustainer thrust gives 1.07 metres per second.
+
+$$
+\delta v_{\text{tail}} = \frac{0.05 \times 0.3 \times 386{,}300}{5395} = 1.07 \, \text{m/s}
+\tag{26}
+$$
+
+*Equation 27, Bespoke Vernier Thrust and Acceleration.*
+Two verniers of the documented 1,000 pounds each acting on the Atlas D burnout mass give 1.65 metres per second squared.
+[Mercury Project Summary Including 1963, Mercury-Atlas Launch-Vehicle Development and Performance, NASA SP-45][ref_gandy_hanson_1963]
+
+$$
+F_{v} = 2 \times 1000 \times 4.4482 = 8.90 \, \text{kN}, \qquad a_{v} = \frac{8900}{5395} = 1.65 \, \text{m/s}^{2}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Vernier Trim Time.*
+Trimming the assumed speed budget on the verniers alone takes 0.372 seconds.
+
+$$
+t = \frac{0.613}{1.65} = 0.372 \, \text{s}
+\tag{28}
+$$
+
+*Equation 29, Bespoke Sustainer to Vernier Authority Ratio.*
+The sustainer accelerates the burnout mass 43.4 times faster than the two verniers do.
+
+$$
+\frac{a_{s}}{a_{v}} = \frac{71.6}{1.65} = 43.4
+\tag{29}
+$$
+
+**Equation 30, Root Sum Square of Independent Errors.**
+Independent contributions to the speed error combine as the square root of the sum of their squares.
+
+$$
+\delta v_{\text{tot}} = \sqrt{\sum_{i} \delta v_{i}^{2}}
+\tag{30}
+$$
+
+**Equation 31, Share of Variance.**
+Each contribution's share of the total is its square over the sum of the squares.
+
+$$
+s_{i} = \frac{\delta v_{i}^{2}}{\sum_{j} \delta v_{j}^{2}}
+\tag{31}
+$$
+
+**Equation 32, Effect of Improving One Contribution.**
+Reducing one contribution with variance share $s_{i}$ by a factor $k$ scales the total by the square root of one minus $s_{i}$ times $1 - 1/k^{2}$.
+
+$$
+\frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqrt{1 - s_{i} \left( 1 - \frac{1}{k^{2}} \right)}
+\tag{32}
+$$
+
+*Equation 33, Bespoke Ceiling on a Single Improvement.*
+Removing the largest term of the article's illustrative allocation, with a share of 0.261, improves the total by at most 14.0 percent.
+
+$$
+\lim_{k \to \infty} \frac{\delta v_{\text{new}}}{\delta v_{\text{old}}} = \sqrt{1 - s_{i}} = 0.860
+\tag{33}
+$$
+
+**Equation 34, Grazing Circular Orbital Speed.**
+The speed of a circular orbit at the surface of a spherical Earth is the square root of $g R_{e}$, 7,904 metres per second.
+
+$$
+v_{\text{circ}} = \sqrt{g R_{e}} = \sqrt{9.80665 \times 6.371 \times 10^{6}} = 7904 \, \text{m/s}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Orbital to Ballistic Speed Ratio.*
+The grazing orbital speed is 1.0989 times the burnout speed of the representative 10,000 kilometre arc.
+
+$$
+\frac{v_{\text{circ}}}{v_{bo}} = 1.0989
+\tag{35}
+$$
+
+**Equation 36, Surface Escape Speed.**
+The escape speed from the surface of a spherical Earth is the square root of $2 g R_{e}$.
+
+$$
+v_{\text{esc}} = \sqrt{2 g R_{e}} = 11{,}178 \, \text{m/s}
+\tag{36}
+$$
+
+*Equation 37, Bespoke Speed Deficit to Orbit.*
+The representative ballistic burnout speed falls 711 metres per second short of grazing orbital speed.
+
+$$
+\Delta v = 7904 - 7193 = 711 \, \text{m/s}
+\tag{37}
+$$
+
+**Equation 38, Sustainer Exhaust Velocity.**
+A specific impulse of 309 seconds corresponds to an effective exhaust velocity of 3,030 metres per second.
+
+$$
+v_{e} = 309 \times 9.80665 = 3030 \, \text{m/s}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Burnout Mass Ratio for Orbit.*
+The rocket equation gives the factor by which the burnout mass must shrink to supply the 711 metre per second deficit at fixed propellant load.
+
+$$
+\frac{m_{bo}}{m_{bo}'} = \exp\left( \frac{711}{3030} \right) = 1.2645
+\tag{39}
+$$
+
+*Equation 40, Bespoke Orbital Burnout Mass.*
+Dividing the Atlas D burnout mass by the required ratio gives 4,266 kilogrammes.
+
+$$
+m_{bo}' = \frac{5395}{1.2645} = 4266 \, \text{kg}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Mass Surrendered for Orbit.*
+The difference between the Atlas D burnout mass and the orbital burnout mass is 1,129 kilogrammes.
+
+$$
+\Delta m = 5395 - 4266 = 1129 \, \text{kg}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Check Against the SCORE Mass.*
+The predicted orbital burnout mass exceeds the catalogued 3,980 kilogrammes on orbit by 7.2 percent.
+[NASA Space Science Data Coordinated Archive, SCORE][ref_nssdc_score]
+
+$$
+\frac{4266 - 3980}{3980} = +7.2 \, \text{percent}
+\tag{42}
+$$
+
+**Equation 43, Apsides and Semi-Major Axis of the SCORE Orbit.**
+Adding the Earth radius to the catalogued perigee and apogee altitudes gives the apsidal radii, whose mean is the semi-major axis.
+[NASA Space Science Data Coordinated Archive, SCORE Trajectory][ref_nssdc_score_orbit]
+
+$$
+r_{p} = 6556 \, \text{km}, \qquad r_{a} = 7855 \, \text{km}, \qquad a = 7205.5 \, \text{km}
+\tag{43}
+$$
+
+**Equation 44, Eccentricity from the Apsides.**
+The eccentricity is the difference of the apsidal radii over their sum.
+
+$$
+e = \frac{r_{a} - r_{p}}{r_{a} + r_{p}} = 0.0901
+\tag{44}
+$$
+
+**Equation 45, Kepler's Third Law.**
+The orbital period follows from the semi-major axis and the gravitational parameter $\mu$ of the Earth.
+[NASA Space Science Data Coordinated Archive, SCORE Trajectory][ref_nssdc_score_orbit]
+
+$$
+T = 2\pi \sqrt{\frac{a^{3}}{\mu}} = 6087 \, \text{s} = 101.45 \, \text{min}
+\tag{45}
+$$
+
+**Equation 46, Vis-Viva Equation at the Apsides.**
+The vis-viva equation gives the speeds at perigee and apogee of the SCORE orbit.
+
+$$
+v_{p} = \sqrt{\mu \left( \frac{2}{r_{p}} - \frac{1}{a} \right)} = 8141 \, \text{m/s}, \qquad v_{a} = 6795 \, \text{m/s}
+\tag{46}
+$$
+
+**Equation 47, Specific Orbital Energy.**
+The specific orbital energy of a Keplerian orbit is $-\mu / 2a$.
+
+$$
+\varepsilon = -\frac{\mu}{2a} = -27.66 \, \text{MJ/kg}
+\tag{47}
+$$
+
+*Equation 48, Bespoke Specific Energy of the Ballistic Arc.*
+The specific energy at burnout is evaluated for the representative 10,000 kilometre burnout speed at the Earth radius.
+
+$$
+\varepsilon_{\text{bal}} = \tfrac{1}{2} v_{bo}^{2} - \frac{\mu}{R_{e}} = -36.69 \, \text{MJ/kg}
+\tag{48}
+$$
+
+**Equation 49, Apogee Sensitivity to Perigee Speed.**
+Perturbing the perigee speed of the catalogued SCORE orbit raises the apogee by 4.24 kilometres per metre per second.
+
+$$
+\frac{d h_{a}}{d v_{p}} = 4.24 \, \text{km per m/s}
+\tag{49}
+$$
+
+**Equation 50, Statistical Velocity Reserve.**
+A reserve covering a dispersion of standard deviation $\sigma_{v}$ at $k$ standard deviations must supply $k \sigma_{v}$.
+
+$$
+\Delta v_{r} = k \sigma_{v}
+\tag{50}
+$$
+
+**Equation 51, Propellant Mass of a Velocity Reserve.**
+The rocket equation gives the propellant needed to add a velocity reserve to a given burnout mass.
+
+$$
+m_{r} = m_{bo} \left( \exp \frac{\Delta v_{r}}{v_{e}} - 1 \right)
+\tag{51}
+$$
+
+*Equation 52, Bespoke Semi-Major Axis of the Ballistic Arc.*
+The semi-major axis of the free-fall ellipse is evaluated at the energy parameter of the representative 10,000 kilometre arc.
+
+$$
+a_{\text{bal}} = \frac{R_{e}}{2 - \lambda} = 5437 \, \text{km}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Eccentricity of the Ballistic Arc.*
+The eccentricity of the free-fall ellipse is evaluated at the representative energy parameter and the optimum flight path angle.
+
+$$
+e_{\text{bal}} = \sqrt{1 - \lambda (2 - \lambda) \cos^{2} \gamma_{\text{opt}}} = 0.4146
+\tag{53}
+$$
+
+*Equation 54, Bespoke Ballistic Time of Flight.*
+Kepler's equation solved between the ends of the representative arc gives 34.3 minutes of free fall.
+
+$$
+t_{f} = 2058 \, \text{s} = 34.3 \, \text{min}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Apogee Altitude of the Ballistic Arc.*
+The apogee of the representative free-fall ellipse lies 1,319 kilometres above the Earth radius.
+
+$$
+h_{\text{apo}} = a_{\text{bal}} (1 + e_{\text{bal}}) - R_{e} = 1319 \, \text{km}
+\tag{55}
+$$
+
+**Equation 56, Surface Rotation Speed at Cape Canaveral.**
+The Earth's rotation carries the surface at latitude 28.5 degrees at 408 metres per second.
+
+$$
+v_{\text{rot}} = \omega_{e} R_{e} \cos \phi = 7.292 \times 10^{-5} \times 6.371 \times 10^{6} \times \cos 28.5^{\circ} = 408 \, \text{m/s}
+\tag{56}
+$$
+
+*Equation 57, Bespoke First-Order Rotation Credit.*
+The article applies the linear range sensitivity to the component of the surface rotation speed along the launch azimuth $A$, an estimate it calls an upper bound.
+
+$$
+\delta R = \frac{dR}{dv} \, \omega_{e} R_{e} \cos \phi \cos A
+\tag{57}
+$$
+
+**Equation 58, Reference Ellipsoid.**
+The reference ellipsoid has an equatorial radius of 6,378.137 kilometres and a flattening $f$ of 1 in 298.257.
+
+$$
+R_{\text{eq}} = 6378.137 \, \text{km}, \qquad R_{\text{pol}} = R_{\text{eq}} (1 - f), \qquad f = \frac{1}{298.257}
+\tag{58}
+$$
+
+**Equation 59, Equatorial Minus Polar Radius.**
+The equatorial radius exceeds the polar radius by 21.4 kilometres.
+
+$$
+\Delta R = 21.4 \, \text{km}
+\tag{59}
+$$
+
+**Equation 60, Relative Perturbation from the Second Zonal Harmonic.**
+The leading zonal harmonic $J_{2}$ perturbs gravity at the surface by about $\tfrac{3}{2} J_{2}$ of its value.
+
+$$
+\frac{\Delta a}{g} \approx \frac{3}{2} J_{2} \left( \frac{R_{e}}{r} \right)^{2} = 1.62 \times 10^{-3}, \qquad J_{2} = 1.083 \times 10^{-3}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Impact Displacement from Oblateness.*
+Treating the oblateness perturbation as a constant acceleration over the representative 2,058 second arc bounds the impact displacement at 34 kilometres.
+
+$$
+\Delta s \sim \tfrac{1}{2} \, \Delta a \, t_{f}^{2} = 34 \, \text{km}
+\tag{61}
+$$
+
+**Equation 62, Vacuum Thrust of the Atlas B Engines.**
+The booster and sustainer vacuum ratings convert to 1,517.4 and 386.3 kilonewtons, 1,903.7 in all.
+[Convair X-12][ref_x12]
+
+$$
+F_{b} = 1517.4 \, \text{kN}, \qquad F_{s} = 386.3 \, \text{kN}, \qquad F_{\text{tot}} = 1903.7 \, \text{kN}
+\tag{62}
+$$
+
+**Equation 63, Lift-Off Thrust-to-Weight Ratio.**
+The documented sea-level ratings of the Atlas D against its lift-off mass give a thrust-to-weight ratio of 1.41.
+[Mercury Project Summary Including 1963, Mercury-Atlas Launch-Vehicle Development and Performance, NASA SP-45][ref_gandy_hanson_1963]
+
+$$
+\frac{F_{\text{SL}}}{m_{0} g} = \frac{(2 \times 154{,}000 + 57{,}000 + 2 \times 1000) \times 4.4482}{117{,}900 \times 9.80665} = \frac{1{,}632{,}500}{1{,}156{,}200} = 1.41
+\tag{63}
+$$
+
+**Equation 64, Booster and Sustainer Mass Flows.**
+Each engine's mass flow is its vacuum thrust over its specific impulse times standard gravity.
+
+$$
+\dot{m}_{b} = \frac{F_{b}}{282 g} = 548.7 \, \text{kg/s}, \qquad \dot{m}_{s} = \frac{F_{s}}{309 g} = 127.5 \, \text{kg/s}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Mass at Booster Cutoff.*
+The mass remaining assumes booster cutoff near 135 seconds at constant vacuum mass flow from the Atlas D lift-off mass.
+
+$$
+m_{1} = m_{0} - (\dot{m}_{b} + \dot{m}_{s}) t = 117{,}900 - 676.2 \times 135 = 26{,}615 \, \text{kg}
+\tag{65}
+$$
+
+*Equation 66, Bespoke Acceleration Before Staging.*
+The total vacuum thrust on the assumed booster cutoff mass gives 7.29 g.
+
+$$
+\frac{F_{\text{tot}}}{m_{1}} = 71.5 \, \text{m/s}^{2} = 7.29 g
+\tag{66}
+$$
+
+*Equation 67, Bespoke Acceleration After Staging.*
+Jettisoning a booster package of about three tonnes, a mass the article assumes, leaves the sustainer accelerating at 1.67 g.
+
+$$
+\frac{F_{s}}{m_{1} - m_{j}} = 16.4 \, \text{m/s}^{2} = 1.67 g
+\tag{67}
+$$
+
+*Equation 68, Bespoke Booster Phase Velocity.*
+The rocket equation at a booster specific impulse of 282 seconds is applied from lift-off to the assumed booster cutoff mass.
+
+$$
+\Delta v_{b} = 282 g \ln \frac{117{,}900}{26{,}615} = 4116 \, \text{m/s}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Sustainer Phase Velocity.*
+The rocket equation at a sustainer specific impulse of 309 seconds is applied from the assumed post-staging mass to the Atlas D burnout mass.
+
+$$
+\Delta v_{s} = 309 g \ln \frac{23{,}615}{5395} = 4474 \, \text{m/s}
+\tag{69}
+$$
+
+*Equation 70, Bespoke Sustainer Burn Time.*
+The sustainer propellant left after the assumed staging, at 127.5 kilogrammes per second, lasts 142.9 seconds.
+
+$$
+t_{s} = \frac{18{,}220}{127.5} = 142.9 \, \text{s}
+\tag{70}
+$$
+
+**Equation 71, Skirt Reference Area.**
+A circular section of radius 1.524 metres has an area of 7.30 square metres.
+
+$$
+A = \pi r^{2} = \pi (1.524)^{2} = 7.30 \, \text{m}^{2}
+\tag{71}
+$$
+
+*Equation 72, Bespoke Drag Deceleration of the Skirt.*
+The discarded skirt's drag deceleration assumes a dynamic pressure near 100 pascals, a drag coefficient of one and a mass of three tonnes.
+
+$$
+a_{d} = \frac{C_{d} q A}{m_{j}} = \frac{1.0 \times 100 \times 7.30}{3000} = 0.243 \, \text{m/s}^{2}
+\tag{72}
+$$
+
+*Equation 73, Bespoke Skirt Separation in One Second.*
+Drag alone opens a gap of 0.12 metres in the first second after jettison.
+
+$$
+\tfrac{1}{2} a_{d} t^{2} = 0.12 \, \text{m}
+\tag{73}
+$$
+
+*Equation 74, Bespoke Sustainer Travel in One Second.*
+The sustainer at its post-staging acceleration moves 8.18 metres ahead in the same second.
+
+$$
+\tfrac{1}{2} a_{s} t^{2} = 8.18 \, \text{m}
+\tag{74}
+$$
+
+*Equation 75, Bespoke Sustainer Acceleration History.*
+Constant sustainer thrust on a falling mass raises the acceleration from the post-staging value to the cutoff value.
+
+$$
+\dot{v} = \frac{F_{s}}{m} \quad \text{rising from} \quad 16.4 \quad \text{to} \quad 71.6 \, \text{m/s}^{2}
+\tag{75}
+$$
+
+*Equation 76, Bespoke Acceleration Ratio as Mass Ratio.*
+Under constant thrust the ratio of cutoff to post-staging acceleration equals the sustainer mass ratio, 4.38 with the assumed masses.
+
+$$
+\frac{a_{\text{end}}}{a_{\text{start}}} = \frac{F_{s} / m_{bo}}{F_{s} / m_{1}} = \frac{m_{1}}{m_{bo}} = \frac{23{,}615}{5395} = 4.38
+\tag{76}
+$$
+
+*Equation 77, Bespoke Sustainer Velocity as a Logarithm of the Same Ratio.*
+The sustainer velocity increment is the exhaust velocity times the logarithm of the same assumed mass ratio.
+
+$$
+\Delta v_{s} = v_{e} \ln \frac{m_{1}}{m_{bo}} = 4474 \, \text{m/s}
+\tag{77}
+$$
+
+*Equation 78, Bespoke Residual from a Mixture Ratio Error.*
+The article approximates the propellant stranded by a mixture ratio error $\delta r$ on a nominal ratio $r$ as a first-order fraction of the propellant load.
+
+$$
+m_{\text{res}} \approx m_{p} \frac{|\delta r|}{(1 + r)^{2}} \cdot (1 + r)
+\tag{78}
+$$
+
+**Equation 79, Velocity Lost to a Residual.**
+The rocket equation gives the speed a stranded residual would have added to the burnout mass.
+
+$$
+\delta v = v_{e} \ln \left( 1 + \frac{m_{\text{res}}}{m_{bo}} \right)
+\tag{79}
+$$
+
+*Equation 80, Bespoke Velocity Lost to Fifty Kilogrammes.*
+An assumed residual of fifty kilogrammes on the Atlas D burnout mass costs 28 metres per second.
+
+$$
+\delta v = 3030 \ln (1.00927) = 28 \, \text{m/s}
+\tag{80}
+$$
+
+*Equation 81, Bespoke Pitch Inertia of the Atlas.*
+The pitch inertia treats the vehicle as a uniform rod of 23 metres at a representative mass of sixty tonnes.
+
+$$
+I = \frac{m L^{2}}{12} = 2.65 \times 10^{6} \, \text{kg m}^{2}
+\tag{81}
+$$
+
+*Equation 82, Bespoke Divergence Rate in Pitch.*
+The divergence rate assumes a normal force slope near two, a centre of pressure four metres ahead of the centre of mass and a maximum dynamic pressure of 35 kilopascals.
+
+$$
+\omega = \sqrt{\frac{q A C_{N\alpha} \Delta x}{I}} = 0.879 \, \text{rad/s}
+\tag{82}
+$$
+
+*Equation 83, Bespoke Divergence Time Constant.*
+An attitude disturbance grows by a factor of $e$ in the reciprocal of the assumed divergence rate.
+
+$$
+\tau = \frac{1}{\omega} = 1.14 \, \text{s}
+\tag{83}
+$$
+
+*Equation 84, Bespoke Gimbal Control Authority.*
+One degree of gimbal at an assumed lever arm gives an angular acceleration of 0.119 radians per second squared on the uniform-rod inertia.
+
+$$
+\dot{\omega} = \frac{F \, \delta \, \ell}{I} = 0.119 \, \text{rad/s}^{2} = 6.84 \, \text{deg/s}^{2}
+\tag{84}
+$$
+
+*Equation 85, Bespoke Second Moment of Area of the Shell.*
+The thin-shell formula $\pi r^{3} t$ is evaluated for the 1.524 metre radius and a skin thickness the article does not state.
+
+$$
+I_{xx} = \pi r^{3} t = 5.6 \times 10^{-3} \, \text{m}^{4}
+\tag{85}
+$$
+
+**Equation 86, First Bending Frequency of a Free-Free Beam.**
+A uniform free-free beam has its first mode at $\beta_{1}^{2} / 2\pi L^{2}$ times the square root of bending stiffness over mass per unit length, with $\beta_{1} L = 4.730$.
+
+$$
+f_{1} = \frac{\beta_{1}^{2}}{2 \pi L^{2}} \sqrt{\frac{E I_{xx}}{\mu}}, \qquad \beta_{1} L = 4.730
+\tag{86}
+$$
+
+*Equation 87, Bespoke First Bending Frequency of the Atlas.*
+The beam formula evaluated with a fixed modulus and geometry, an assumption the article says a pressure-stabilised shell violates, gives 4.32 hertz.
+
+$$
+f_{1} = 4.32 \, \text{Hz} = 27.2 \, \text{rad/s}
+\tag{87}
+$$
+
+*Equation 88, Bespoke Autopilot Bandwidth Window.*
+The ratio of the estimated bending frequency to the estimated divergence rate is 31.
+
+$$
+\frac{2 \pi f_{1}}{\omega} = 31
+\tag{88}
+$$
+
+**Equation 89, First Lateral Slosh Mode.**
+The first lateral slosh mode of a cylindrical tank of radius $r$ under axial acceleration $a$ has the frequency $\sqrt{1.841 a / r} / 2\pi$.
+
+$$
+f_{s} = \frac{1}{2\pi} \sqrt{\frac{1.841 \, a}{r}}
+\tag{89}
+$$
+
+*Equation 90, Bespoke Slosh Frequencies Through the Sustainer Phase.*
+The slosh frequency is evaluated at the article's post-staging and cutoff accelerations of 1.67 g and 7.30 g.
+
+$$
+f_{s} = 0.708 \, \text{Hz at } 1.67 g, \qquad f_{s} = 1.480 \, \text{Hz at } 7.30 g
+\tag{90}
+$$
+
+**Equation 91, Velocity Error from an Accelerometer Bias.**
+A constant accelerometer bias $\varepsilon_{a}$ integrates into a velocity error that grows linearly with time.
+
+$$
+\delta v(t) = \int_{0}^{t} \varepsilon_{a} \, dt' = \varepsilon_{a} t
+\tag{91}
+$$
+
+*Equation 92, Bespoke Accelerometer Bias Allowance.*
+The assumed speed budget spread over a powered flight of about 280 seconds allows a bias of $2.2 \times 10^{-4}$ g.
+
+$$
+\varepsilon_{a} = \frac{0.613}{280} = 2.2 \times 10^{-3} \, \text{m/s}^{2} = 2.2 \times 10^{-4} g
+\tag{92}
+$$
+
+*Equation 93, Bespoke Platform Tilt Allowance.*
+A static tilt $\theta$ resolves gravity into the horizontal channel, and the assumed budget over 280 seconds allows 46 arcseconds.
+
+$$
+\theta \leq \frac{\delta v}{g t} = 2.23 \times 10^{-4} \, \text{rad} = 46 \, \text{arcseconds}
+\tag{93}
+$$
+
+*Equation 94, Bespoke Gyroscope Drift Allowance.*
+A constant drift integrates twice into a velocity error, so the assumed budget over 280 seconds allows $1.59 \times 10^{-6}$ radians per second.
+
+$$
+\delta v = \tfrac{1}{2} g \varepsilon t^{2}, \qquad \varepsilon \leq \frac{2 \, \delta v}{g t^{2}} = 1.59 \times 10^{-6} \, \text{rad/s}
+\tag{94}
+$$
+
+*Equation 95, Bespoke Gyroscope Drift in Degrees per Hour.*
+The drift allowance derived from the assumed budget is 0.329 degrees per hour.
+
+$$
+\varepsilon \leq 0.329 \, \text{degrees per hour}
+\tag{95}
+$$
+
+**Equation 96, Interferometer Fringe Spacing.**
+Two antennas on a baseline $B$ receiving wavelength $\lambda_{r}$ produce fringes spaced $\lambda_{r} / B$ in angle.
+
+$$
+\Delta \theta_{\text{fringe}} = \frac{\lambda_{r}}{B}
+\tag{96}
+$$
+
+**Equation 97, Two-Way Doppler Range Rate.**
+A two-way Doppler shift $f_{d}$ corresponds to a range rate of half the shift times the wavelength.
+
+$$
+\dot{r} = \frac{f_{d} \lambda_{r}}{2}
+\tag{97}
+$$
+
+*Equation 98, Bespoke Range-Rate Resolution at C-Band.*
+A one hertz frequency resolution at a wavelength of six centimetres, taken as representative of C-band, resolves 0.030 metres per second.
+
+$$
+\dot{r} = 0.030 \, \text{m/s}
+\tag{98}
+$$
+
+*Equation 99, Bespoke Round-Trip Delay.*
+The round-trip propagation delay at an assumed slant range of 500 kilometres is 3.34 milliseconds.
+
+$$
+t_{\text{prop}} = \frac{2d}{c} = 3.34 \, \text{ms}
+\tag{99}
+$$
+
+**Equation 100, Speed Change Between Samples.**
+At acceleration $a$ the speed changes by $a / f$ between updates at rate $f$.
+
+$$
+\Delta v = \frac{a}{f}
+\tag{100}
+$$
+
+**Equation 101, Allen and Eggers Peak Deceleration.**
+For a ballistic entry into an exponential atmosphere of scale height $H$ the peak deceleration depends on the entry speed and angle and not on the ballistic coefficient.
+
+$$
+a_{\max} = \frac{v_{e}^{2} \sin \gamma_{e}}{2 e H}
+\tag{101}
+$$
+
+*Equation 102, Bespoke Peak Deceleration of the Nose Cone.*
+The peak deceleration is evaluated at the representative 7,193 metres per second, an entry angle of 22.5 degrees and a scale height of 7.2 kilometres.
+
+$$
+a_{\max} = 506 \, \text{m/s}^{2} = 52 g
+\tag{102}
+$$
+
+**Equation 103, Altitude of Peak Deceleration.**
+In the Allen and Eggers solution the ballistic coefficient $\beta$ sets the altitude of peak deceleration.
+
+$$
+h_{\max} = H \ln \frac{\rho_{0} H}{\beta \sin \gamma_{e}}, \qquad \beta = \frac{m}{C_{d} A}
+\tag{103}
+$$
+
+*Equation 104, Bespoke Ballistic Coefficient of the Nose Cone.*
+An assumed body of 1,400 kilogrammes on a one metre base at a drag coefficient of one gives 1,783 kilogrammes per square metre and peak deceleration at 18.4 kilometres.
+
+$$
+\beta = \frac{1400}{1.0 \times 0.785} = 1783 \, \text{kg/m}^{2}, \qquad h_{\max} = 18.4 \, \text{km}
+\tag{104}
+$$
+
+*Equation 105, Bespoke Speed at Peak Deceleration.*
+The Allen and Eggers result that speed at peak deceleration is $e^{-1/2}$ of the entry speed is evaluated at the representative entry speed.
+
+$$
+v = v_{e} e^{-1/2} = 4363 \, \text{m/s}
+\tag{105}
+$$
+
+*Equation 106, Bespoke Stagnation-Point Heating.*
+The Sutton and Graves correlation is evaluated at the estimated peak-deceleration condition for a nose radius the article chooses.
+
+$$
+\dot{q} = 1.83 \times 10^{-4} \sqrt{\frac{\rho}{R_{n}}} \, v^{3} = 6.62 \times 10^{6} \, \text{W/m}^{2} = 662 \, \text{W/cm}^{2}
+\tag{106}
+$$
+
+**Equation 107, Plasma Frequency.**
+An ionised sheath of electron density $n_{e}$ reflects radio waves below a plasma frequency of about $8.98 \sqrt{n_{e}}$ hertz.
+
+$$
+f_{p} = \frac{1}{2\pi} \sqrt{\frac{n_{e} e^{2}}{\varepsilon_{0} m_{e}}} \approx 8.98 \sqrt{n_{e}} \, \text{Hz}
+\tag{107}
+$$
+
+**Equation 108, Critical Electron Density.**
+Inverting the plasma frequency gives the electron density at which a link of frequency $f$ fails.
+
+$$
+n_{e} = \left( \frac{f}{8.98} \right)^{2}
+\tag{108}
+$$
+
+**Equation 109, Critical Density Ratio of Two Links.**
+The critical densities of an S-band link at 2.2 gigahertz and a very high frequency link at 250 megahertz differ by the square of their frequency ratio, 77.4.
+
+$$
+\frac{n_{e,2}}{n_{e,1}} = \left( \frac{f_{2}}{f_{1}} \right)^{2} = \left( \frac{2200}{250} \right)^{2} = 77.4
+\tag{109}
+$$
+
+**Equation 110, Range of the Full-Range Flight.**
+The 6,325 statute miles flown by missile 12B are 10,179 kilometres or 5,496 nautical miles.
+
+$$
+6325 \times 1.609344 = 10{,}179 \, \text{km} = 5496 \, \text{nautical miles}
+\tag{110}
+$$
+
+*Equation 111, Bespoke Burnout Speed of the Full-Range Flight.*
+The burnout speed needed for 10,179 kilometres is 7,222 metres per second on the article's spherical range law.
+
+$$
+v_{bo} = 7222 \, \text{m/s}
+\tag{111}
+$$
+
+*Equation 112, Bespoke Sensitivity Check on the Full-Range Flight.*
+The dimensionless sensitivity at the representative range reproduces the 1.79 percent range increment from the 29 metre per second speed increment.
+
+$$
+\frac{\delta R}{R} = S \frac{\delta v}{v} \quad \Rightarrow \quad \frac{179}{10000} = 4.34 \times \frac{29}{7193} = 0.0175
+\tag{112}
+$$
+
+**Equation 113, Revolutions in Orbit.**
+Thirty-four days at the SCORE period of 6,087 seconds is 483 revolutions.
+[NASA Space Science Data Coordinated Archive, SCORE][ref_nssdc_score]
+
+$$
+N = \frac{34 \times 86400}{6087} = 483 \, \text{orbits}
+\tag{113}
+$$
+
+**Equation 114, Revolutions on Battery Power.**
+The twelve days of battery life cover 170 revolutions.
+[NASA Space Science Data Coordinated Archive, SCORE][ref_nssdc_score]
+
+$$
+N_{\text{active}} = \frac{12 \times 86400}{6087} = 170
+\tag{114}
+$$
+
+**Equation 115, Period to Recorder Capacity Ratio.**
+The orbital period is 25.4 times the four minute capacity of the recorder.
+[NASA Space Science Data Coordinated Archive, SCORE][ref_nssdc_score]
+
+$$
+\frac{T}{t_{\text{tape}}} = \frac{6087}{240} = 25.4
+\tag{115}
+$$
+
+**Equation 116, Nyquist Sample Count of the Recorder.**
+Four minutes of audio with an upper band edge of 1,500 hertz carry 720,000 samples at the Nyquist rate.
+
+$$
+n = 2 B t = 2 \times 1500 \times 240 = 7.20 \times 10^{5} \, \text{samples}
+\tag{116}
+$$
+
+**Equation 117, Free-Space Path Loss at Apogee.**
+The free-space loss at 132 megahertz over the 1,484 kilometre apogee distance is 138.3 decibels.
+
+$$
+L = \left( \frac{4 \pi d}{\lambda_{r}} \right)^{2} = 138.3 \, \text{dB}
+\tag{117}
+$$
+
+*Equation 118, Bespoke Received Power from SCORE.*
+The received power assumes a body-mounted antenna of unity gain and a ground antenna of ten decibels with the catalogued eight watt transmitter.
+
+$$
+P_{r} = \frac{P_{t} G_{t} G_{r}}{L} = 1.19 \times 10^{-12} \, \text{W} = -89.3 \, \text{dBm}
+\tag{118}
+$$
+
+*Equation 119, Bespoke Noise Floor.*
+The thermal noise power $k T_{\text{sys}} B$ is evaluated for an assumed system temperature of 2,000 kelvin and an assumed bandwidth of six kilohertz.
+
+$$
+N = k T_{\text{sys}} B = -127.8 \, \text{dBm}
+\tag{119}
+$$
+
+**Equation 120, Area-to-Mass Ratio of the SCORE Stage.**
+A three metre circular section on the catalogued 3,980 kilogrammes gives $1.83 \times 10^{-3}$ square metres per kilogramme.
+[NASA Space Science Data Coordinated Archive, SCORE][ref_nssdc_score]
+
+$$
+\frac{A}{m} = \frac{\pi (1.524)^{2}}{3980} = 1.83 \times 10^{-3} \, \text{m}^{2}/\text{kg}
+\tag{120}
+$$
+
+*Equation 121, Bespoke Ballistic Coefficient of the SCORE Stage.*
+The ballistic coefficient uses an assumed drag coefficient of 2.2 on the catalogued mass and the stage cross-section.
+
+$$
+\beta = \frac{m}{C_{d} A} = \frac{3980}{2.2 \times 7.30} = 248 \, \text{kg/m}^{2}
+\tag{121}
+$$
+
+*Equation 122, Bespoke Energy Shed per Revolution.*
+The article spreads the energy difference between the SCORE orbit and an orbit at the Earth radius evenly over 483 revolutions.
+
+$$
+\frac{\Delta \varepsilon}{N} = \frac{1}{483} \left( \frac{\mu}{2 a} - \frac{\mu}{2 R_{e}} \right) = 7.5 \, \text{kJ/kg}
+\tag{122}
+$$
+
+**Equation 123, Standard Error of a Success Rate.**
+Six successes in ten flights give a binomial success rate of 0.6 with a standard error of 0.155.
+
+$$
+\sigma = \sqrt{\frac{p(1-p)}{n}} = \sqrt{\frac{0.24}{10}} = 0.155
+\tag{123}
+$$
+
+**Equation 124, Standard Error of a Difference in Proportions.**
+The pooled standard error of the difference between the Atlas A and Atlas B success rates is 0.236 on the previous article's count of four successes in eight.
+
+$$
+\sigma_{\Delta} = \sqrt{p(1-p) \left( \frac{1}{n_{A}} + \frac{1}{n_{B}} \right)} = 0.236
+\tag{124}
+$$
+
+**Equation 125, Test Statistic for the Improvement.**
+An improvement of 0.10 over a standard error of 0.236 gives a test statistic of 0.42.
+
+$$
+z = \frac{0.10}{0.236} = 0.42
+\tag{125}
+$$
+
+**Equation 126, Test Statistic on the Official Count.**
+On the official count of three Atlas A successes in eight the test statistic rises to 0.95.
+[Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990]
+
+$$
+z = \frac{0.225}{\sqrt{0.25 \left( \frac{1}{8} + \frac{1}{10} \right)}} = \frac{0.225}{0.237} = 0.95
+\tag{126}
+$$
+
+*Equation 127, Bespoke Flights for a Five Point Standard Error.*
+The sample size for a standard error of five percentage points at the pooled success rate, a target the article chooses, is 99 flights.
+
+$$
+n = \frac{p(1-p)}{\sigma^{2}} = 99 \, \text{flights}
+\tag{127}
+$$
+
+*Equation 128, Bespoke Mass at the First Failure.*
+The mass at 43 seconds assumes a constant vacuum mass flow from the Atlas D lift-off mass.
+
+$$
+m = 117{,}900 - 676.2 \times 43 = 88{,}823 \, \text{kg}
+\tag{128}
+$$
+
+*Equation 129, Bespoke Propellant Consumed by the Turbopump Failure.*
+The propellant passed through the engines by 82 seconds assumes the same constant vacuum mass flow.
+
+$$
+676.2 \times 82 = 55{,}448 \, \text{kg}
+\tag{129}
+$$
+
+*Equation 130, Bespoke Mass and Thrust Ratio at the Thrust Loss.*
+At 121 seconds the constant mass flow model leaves 36,080 kilogrammes, and the vacuum thrust is 5.38 times the weight.
+
+$$
+m = 36{,}080 \, \text{kg}, \qquad \frac{F_{\text{tot}}}{mg} = 5.38
+\tag{130}
+$$
+
+**Equation 131, Measurement Variance in Quadrature.**
+An instrument's error adds in quadrature to the true scatter it measures.
+
+$$
+\sigma_{\text{meas}}^{2} = \sigma_{\text{true}}^{2} + \sigma_{\text{inst}}^{2}
+\tag{131}
+$$
+
+**Equation 132, Instrument Accuracy for a Bounded Inflation.**
+Holding the apparent inflation of the scatter below a fraction $\eta$ bounds the ratio of instrument to true error by $\sqrt{(1 + \eta)^{2} - 1}$.
+
+$$
+\frac{\sigma_{\text{inst}}}{\sigma_{\text{true}}} \leq \sqrt{(1 + \eta)^{2} - 1}
+\tag{132}
+$$
+
+*Equation 133, Bespoke Gyroscope Gap.*
+Period gyroscopes taken as drifting at about one degree per hour exceed the derived allowance by a factor of three.
+
+$$
+\frac{\varepsilon_{\text{period}}}{\varepsilon_{\text{required}}} \approx \frac{1.0}{0.329} = 3.0
+\tag{133}
+$$
+
+*Equation 134, Bespoke Reaction Time over Flight Time.*
+The required fifteen minute reaction time is 44 percent of the 34.3 minute flight time computed for the representative arc.
+[Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990]
+
+$$
+\frac{t_{\text{req}}}{t_{\text{flight}}} = \frac{15}{34.3} = 0.44
+\tag{134}
+$$
+
+*Equation 135, Bespoke Fuel Loading Time over Flight Time.*
+Fuel loading from 12.25 minutes before launch is 36 percent of the computed flight time.
+[Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990]
+
+$$
+\frac{t_{\text{load}}}{t_{\text{flight}}} = \frac{12.25}{34.3} = 0.36
+\tag{135}
+$$
+
+**Equation 136, Holding Time Against Boil-Off.**
+A propellant load with an ullage margin $\mu$ losing a fraction $\dot{m} / m$ per unit time can be held for the margin over the loss rate.
+
+$$
+t_{\text{hold}} = \frac{\mu}{\dot{m} / m}
+\tag{136}
+$$
+
+*Equation 137, Bespoke Five Day Holding Time.*
+An assumed five percent margin against an assumed loss of one percent per day gives five days.
+
+$$
+t_{\text{hold}} = \frac{0.05}{0.01} = 5 \, \text{days}
+\tag{137}
+$$
+
+*Equation 138, Bespoke Accuracy Chain.*
+Assuming the whole circular error probable comes from cutoff speed, the article chains it through the range sensitivity to bounds on accelerometer bias and gyroscope drift.
+
+$$
+\delta v = \frac{\text{CEP}}{dR/dv}, \qquad \varepsilon_{a} \leq \frac{\delta v}{t}, \qquad \varepsilon_{g} \leq \frac{2 \, \delta v}{g t^{2}}
+\tag{138}
+$$
+
+*Equation 139, Bespoke Yield Ratio for a Modern Accuracy.*
+Cube-root scaling between the assumed two nautical mile accuracy and an accuracy of 120 metres gives a yield ratio of $2.94 \times 10^{4}$.
+
+$$
+\frac{Y_{1}}{Y_{2}} = \left( \frac{\text{CEP}_{1}}{\text{CEP}_{2}} \right)^{3} = \left( \frac{3704}{120} \right)^{3} = 2.94 \times 10^{4}
+\tag{139}
+$$
+
+*Equation 140, Bespoke Speed Budget Scaling with the Assumed Accuracy.*
+The speed budget scales linearly with the assumed circular error probable at the representative range sensitivity.
+[Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force][book_neufeld_1990]
+
+$$
+\delta v = \frac{\text{CEP}}{dR/dv}
+\tag{140}
+$$
+
+### Notation
+
+- $\Phi$, the central angle of the ballistic arc
+- $\lambda$, the energy parameter, the ratio of burnout kinetic energy to that of a grazing circular orbit
+- $v_{bo}$, the burnout speed
+- $R_{e}$, the radius of the spherical Earth
+- $R$, the ballistic range
+- $S$, the dimensionless sensitivity of range to burnout speed
+- $\text{CEP}$, the circular error probable
+- $\sigma$, the axis standard deviation of the impact scatter, and in Equations 123 and 127 the standard error of a success rate
+- $p_{k}$, the probability of destroying the target
+- $Y$, the yield
+- $\gamma$, the flight path angle at burnout
+- $\gamma_{\text{opt}}$, the flight path angle that maximises range
+- $\delta v$, an error in burnout speed, or the speed budget
+- $F_{s}$, the sustainer thrust
+- $F_{b}$, the combined booster thrust
+- $m_{bo}$, the burnout mass
+- $s_{i}$, the share of the total variance taken by one contribution
+- $k$, the factor by which one contribution is improved, and in Equation 50 the number of standard deviations a reserve covers
+- $v_{e}$, the effective exhaust velocity of the sustainer, and in Equations 101 to 105 the entry speed
+- $r_{p}$, the perigee radius
+- $r_{a}$, the apogee radius
+- $\mu$, the gravitational parameter of the Earth, the mass per unit length in Equation 86, and the ullage margin in Equation 136
+- $\varepsilon$, the specific orbital energy, and in Equations 94 and 95 the gyroscope drift rate
+- $h_{a}$, the apogee altitude
+- $\sigma_{v}$, the standard deviation of the velocity dispersion
+- $m_{r}$, the propellant mass of the reserve
+- $\omega_{e}$, the rotation rate of the Earth
+- $\phi$, the latitude of the launch site
+- $J_{2}$, the second zonal harmonic of the Earth's gravity field
+- $m_{0}$, the lift-off mass
+- $m_{1}$, the mass at booster cutoff
+- $m_{j}$, the mass of the jettisoned booster section
+- $C_{d}$, the drag coefficient
+- $q$, the dynamic pressure in pascals
+- $m_{\text{res}}$, the propellant residual stranded by a mixture ratio error
+- $C_{N\alpha}$, the normal force curve slope per radian
+- $\ell$, the lever arm of the gimballed thrust about the centre of mass
+- $I_{xx}$, the second moment of area of the thin shell
+- $f_{1}$, the first bending frequency
+- $f_{s}$, the frequency of the first lateral slosh mode
+- $\varepsilon_{a}$, the accelerometer bias
+- $\theta$, the tilt of the inertial platform
+- $\lambda_{r}$, the radio wavelength
+- $f_{d}$, the Doppler shift
+- $H$, the scale height of the atmosphere
+- $\gamma_{e}$, the flight path angle at entry
+- $\beta$, the ballistic coefficient
+- $\rho_{0}$, the sea-level air density
+- $R_{n}$, the nose radius
+- $f_{p}$, the electron plasma frequency
+- $n_{e}$, the electron density
+- $t_{\text{tape}}$, the capacity of the onboard recorder
+- $T_{\text{sys}}$, the system noise temperature
+- $n_{A}$, the number of Atlas A flights
+- $n_{B}$, the number of Atlas B flights
+- $\eta$, the permitted fractional inflation of the measured scatter
+- $t_{\text{hold}}$, the time a loaded vehicle can be held before a top-up
+- $\varepsilon_{g}$, the gyroscope drift allowance
 
 ## References
 

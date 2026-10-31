@@ -25,21 +25,33 @@ An intercontinental ballistic missile is a mass-fraction problem before it is an
 
 The velocity a rocket can reach is
 
-$$\Delta v = v_{e} \ln \frac{m_{0}}{m_{f}}$$
+$$
+\Delta v = v_{e} \ln \frac{m_{0}}{m_{f}}
+\tag{1}
+$$
 
 where $v_e$ is the effective exhaust velocity and the mass ratio is gross mass over burnout mass. The burnout mass is structure plus payload, so **every kilogramme of structure is a kilogramme that must be accelerated to the full burnout velocity and then thrown at the target for no effect**. The logarithm is the difficulty. Improving the exhaust velocity gives a linear return, and improving the mass ratio gives a return that is only logarithmic, which means an intercontinental weapon must sit far out on a curve that is flattening under it.
 
 The Atlas achieved a burnout mass of 5,395 kilogrammes on a gross mass of 117,900, which are the Atlas D's 11,894 and 260,000 pounds in the [SM-65 Atlas][ref_sm65] compilation, so its structural mass fraction is
 
-$$\frac{m_{s}}{m_{0}} = \frac{5395}{117{,}900} = 0.0458$$
+$$
+\frac{m_{s}}{m_{0}} = \frac{5395}{117{,}900} = 0.0458
+\tag{2}
+$$
 
 and its propellant mass fraction is 95.4 percent. The mass ratio is therefore
 
-$$\frac{m_{0}}{m_{f}} = \frac{117{,}900}{5395} = 21.85$$
+$$
+\frac{m_{0}}{m_{f}} = \frac{117{,}900}{5395} = 21.85
+\tag{3}
+$$
 
 At a specific impulse of 282 seconds the effective exhaust velocity is $v_e = 282 \times 9.80665 = 2765$ metres per second, and the ideal velocity is
 
-$$\Delta v = 2765 \times \ln 21.85 = 8530 \, \text{m/s}$$
+$$
+\Delta v = 2765 \times \ln 21.85 = 8530 \, \text{m/s}
+\tag{4}
+$$
 
 **Four and a half percent is an extraordinary number for a structure that has to survive launch.** The Atlas is a fuel tank with an engine bolted underneath and almost nothing else, and the article's subject is what that costs and what it gains. The relation itself and the design practice built on it are [Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016], with the period treatment of the limiting mass ratio in [Wertheimer 1957][research_wertheimer_1957] and the gravitational correction that separates ideal from achieved velocity in [Sellers 1948][research_sellers_1948] and [Feodosiev and Siniarev 1959][research_feodosiev_siniarev_1959].
 
@@ -47,15 +59,24 @@ $$\Delta v = 2765 \times \ln 21.85 = 8530 \, \text{m/s}$$
 
 The [previous article][related_post_a307_north_american_x10] derived the burnout speed a minimum-energy ballistic trajectory needs to cover ten thousand kilometres, which is 7193 metres per second. Setting that against the ideal velocity above gives the losses the ascent must absorb,
 
-$$v_{\text{loss}} = \Delta v - v_{bo} = 8530 - 7193 = 1337 \, \text{m/s}$$
+$$
+v_{\text{loss}} = \Delta v - v_{bo} = 8530 - 7193 = 1337 \, \text{m/s}
+\tag{5}
+$$
 
 or 15.7 percent of the ideal velocity, a reasonable figure for gravity and drag losses on a vertical-rising ballistic ascent, adopted here as a calibration and not derived. With it fixed, the structural mass can be varied and carried all the way through to a range. Holding the propellant load constant and scaling only the structure,
 
-$$v_{bo}(k) = v_{e} \ln \frac{m_{p} + k m_{s}}{k m_{s}} - v_{\text{loss}}$$
+$$
+v_{bo}(k) = v_{e} \ln \frac{m_{p} + k m_{s}}{k m_{s}} - v_{\text{loss}}
+\tag{6}
+$$
 
 and feeding the result into the previous article's range relation,
 
-$$\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v_{bo}^{2}}{g R_{e}}, \qquad R = R_{e} \Phi$$
+$$
+\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v_{bo}^{2}}{g R_{e}}, \qquad R = R_{e} \Phi
+\tag{7}
+$$
 
 gives
 
@@ -78,11 +99,17 @@ The keystone quantity of the [X-10][related_post_a307_north_american_x10] was a 
 
 **The Atlas structure is fully loaded within the first two minutes of flight.** Maximum dynamic pressure occurs about a minute after lift-off, and the flight report of the National Aeronautics and Space Administration, NASA, on a later Atlas places its highest oxidizer-tank bending loads between 60 and 90 seconds [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968]. The highest axial acceleration occurs at booster cutoff, which the later Atlas reached at 5.62 times gravity [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968], and both fall inside the 133 second burn of the [Convair X-11][ref_x11] compilation. The two loads can be written as fractions of the mission and the comparison is stark. For the Atlas the structurally sizing events occur at
 
-$$\frac{t_{\text{sizing}}}{t_{\text{mission}}} = \frac{133}{1932} = 0.069$$
+$$
+\frac{t_{\text{sizing}}}{t_{\text{mission}}} = \frac{133}{1932} = 0.069
+\tag{8}
+$$
 
 taking the mission as the 1932 second ballistic flight time derived in the previous article, so **the structure is finished being tested seven percent of the way through the mission**. For the X-10 the corresponding ratio was
 
-$$\frac{t_{\text{leg}}}{t_{\text{mission}}} = \frac{1653}{10{,}333} = 0.16$$
+$$
+\frac{t_{\text{leg}}}{t_{\text{mission}}} = \frac{1653}{10{,}333} = 0.16
+\tag{9}
+$$
 
 for a thousand-kilometre leg at its top speed, and its one reported navigation flight of seventy-nine minutes reached 0.46, yet the keystone was still not settled, because a drift rate is a distribution to be estimated over many flights while a load is applied in full on each one. **The X-11 tested its keystone completely in seven percent of its mission, and the X-10 flew nearly half of its mission without completing enough navigation flights to settle its keystone**, and the comparison reduces to that sentence. That the structurally sizing events cluster early is no accident of this vehicle but holds for any rocket ascent, and the period literature establishing where they fall runs through [Wood 1961][research_wood_1961] on missile structural dynamics, [Gerald and Runyan 1962][research_gerald_runyan_1962] on the launch-vehicle case, and the ground-wind and ascent-load material cited below. **The general point that a test article need only span the sizing envelope, not the mission, is implicit in structural test practice** and is stated directly in [Abraham 1963][research_abraham_1963], a study of how to load a large article representatively and not exhaustively. A flight that goes no further than a hundred and twenty kilometres of apogee and about two fifths of the intercontinental burnout speed, as The Flight Test Record computes, still applies every structural load the mission will ever apply. **A keystone that is exercised early can be validated cheaply. A keystone that accumulates cannot.** The X-11 flew a fraction of the weapon's mission and tested its keystone completely, and the X-10 flew a fraction of its weapon's mission and tested its keystone hardly at all, and the difference is not programme competence but the mathematical character of the quantity each was built to establish.
 
@@ -120,15 +147,24 @@ That decision interacts directly with the keystone. A conventional two-stage veh
 
 The Atlas is a cylinder ten feet in diameter and seventy-five feet long, the dimensions [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991] gives for the missiles of all four test series, and the 75 feet 10 inches of the [SM-65 Atlas][ref_sm65] compilation, 23.11 metres, is the length used below. The tank radius is
 
-$$r = \frac{10 \times 0.3048}{2} = 1.524 \, \text{m}$$
+$$
+r = \frac{10 \times 0.3048}{2} = 1.524 \, \text{m}
+\tag{10}
+$$
 
 and the skin is 301 extra-full-hard stainless steel between 0.014 and 0.037 inches thick, which is 0.356 to 0.940 millimetres. Those gauges are the ones NASA's propellant-tank drawing of a later Atlas gives, station by station from the top of the oxidizer tank to the aft bulkhead [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968], and no drawing of the Atlas A's own gauges has been found. The ratio that governs a thin shell is radius over thickness,
 
-$$\frac{r}{t} = \frac{1.524}{0.000356} = 4286 \qquad \frac{r}{t} = \frac{1.524}{0.000940} = 1622$$
+$$
+\frac{r}{t} = \frac{1.524}{0.000356} = 4286 \qquad \frac{r}{t} = \frac{1.524}{0.000940} = 1622
+\tag{11}
+$$
 
 Those numbers are hard to feel, so here is a benchmark. An aluminium drink can has a radius near 33 millimetres, and its wall is taken here as 0.1 millimetres, giving
 
-$$\left. \frac{r}{t} \right|_{\text{can}} = \frac{0.033}{0.0001} = 330$$
+$$
+\left. \frac{r}{t} \right|_{\text{can}} = \frac{0.033}{0.0001} = 330
+\tag{12}
+$$
 
 **The Atlas skin is between five and thirteen times thinner in proportion than a drink can.**
 
@@ -136,37 +172,61 @@ $$\left. \frac{r}{t} \right|_{\text{can}} = \frac{0.033}{0.0001} = 330$$
 
 A pressurised thin cylinder carries its load in membrane tension. The hoop stress is
 
-$$\sigma_{\theta} = \frac{p r}{t}$$
+$$
+\sigma_{\theta} = \frac{p r}{t}
+\tag{13}
+$$
 
 and the axial stress from the same pressure acting on the ends is half of it,
 
-$$\sigma_{z} = \frac{p r}{2 t}$$
+$$
+\sigma_{z} = \frac{p r}{2 t}
+\tag{14}
+$$
 
 The ratio is fixed by geometry and not by design,
 
-$$\frac{\sigma_{\theta}}{\sigma_{z}} = 2$$
+$$
+\frac{\sigma_{\theta}}{\sigma_{z}} = 2
+\tag{15}
+$$
 
 which has a consequence every pressure vessel shares. **The hoop direction is always the first to yield, so a tank that bursts splits along its length and not around its circumference**, and the weld that runs longitudinally is therefore the one that decides the vehicle.
 
 The flight pressures are on record for that later Atlas. Its airborne regulators held the fuel tank between 57 and 60 pounds per square inch gauge and the oxidizer tank between 28.5 and 31 [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968], and the heaviest gauges lie in the fuel tank. At 60 pounds per square inch and the heavy gauge this gives
 
-$$\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000940} = 671 \, \text{MPa}$$
+$$
+\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000940} = 671 \, \text{MPa}
+\tag{16}
+$$
 
 against a yield taken as 965 megapascals for the material in its extra-full-hard condition, a margin of 1.44. At the light gauge the same pressure would give
 
-$$\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000356} = 1773 \, \text{MPa}$$
+$$
+\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000356} = 1773 \, \text{MPa}
+\tag{17}
+$$
 
 which exceeds the ultimate strength of the material. **The light gauge therefore cannot exist anywhere the pressure is high.** The result does not discredit the calculation. It demonstrates the design rule. The drawing bears it out, because the 0.014 inch gauge sits at the top of the oxidizer tank [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968], where the regulated pressure is about half the fuel tank's, and at 30 pounds per square inch it carries
 
-$$\sigma_{\theta} = \frac{206{,}843 \times 1.524}{0.000356} = 885 \, \text{MPa}$$
+$$
+\sigma_{\theta} = \frac{206{,}843 \times 1.524}{0.000356} = 885 \, \text{MPa}
+\tag{18}
+$$
 
 a margin of 1.09 on the yield. The gauge is tapered to the local stress, and the local stress is dominated not by ullage pressure but by the head of propellant above the station under acceleration,
 
-$$\Delta p = \rho \, n \, g \, h$$
+$$
+\Delta p = \rho \, n \, g \, h
+\tag{19}
+$$
 
 For liquid oxygen at 1141 kilogrammes per cubic metre, ten metres of head, and six times gravity near burnout, close to the 5.62 times gravity the later Atlas reached at booster cutoff [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968],
 
-$$\Delta p = 1141 \times 6 \times 9.80665 \times 10 = 671{,}000 \, \text{Pa} = 97 \, \text{psi}$$
+$$
+\Delta p = 1141 \times 6 \times 9.80665 \times 10 = 671{,}000 \, \text{Pa} = 97 \, \text{psi}
+\tag{20}
+$$
 
 which is **more than one and a half times the ullage pressure**. The bottom of the tank is the hardest-worked part of the vehicle and it is thickest there, and the taper is possible only because a membrane structure can be thinned where the load is small without any of the discontinuities that a stiffened structure would introduce. Period membrane analysis is in [Bahiman and Thole 1965][research_bahiman_thole_1965], with monocoque ring analysis in [Hoff 1942][research_hoff_1942] and material data in [Manning and Price 1961][research_manning_price_1961], [Johnson and Kelsen 1969][research_johnson_kelsen_1969], and [Kuentz 1969][research_kuentz_1969].
 
@@ -174,15 +234,24 @@ which is **more than one and a half times the ullage pressure**. The bottom of t
 
 The Atlas carries liquid oxygen and kerosene in one shell divided by a single dome, not in two tanks with structure between them [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968]. The saving is one pressure dome and the intertank barrel that would separate them, and for a shell of this diameter that is a large fraction of the dry mass. A hemispherical dome of radius $r$ has an area of
 
-$$A_{\text{dome}} = 2 \pi r^{2} = 2 \pi \times 1.524^{2} = 14.6 \, \text{m}^{2}$$
+$$
+A_{\text{dome}} = 2 \pi r^{2} = 2 \pi \times 1.524^{2} = 14.6 \, \text{m}^{2}
+\tag{21}
+$$
 
 and an intertank barrel long enough to clear two domes adds roughly
 
-$$A_{\text{barrel}} = 2 \pi r \times 2r = 4 \pi r^{2} = 29.2 \, \text{m}^{2}$$
+$$
+A_{\text{barrel}} = 2 \pi r \times 2r = 4 \pi r^{2} = 29.2 \, \text{m}^{2}
+\tag{22}
+$$
 
 so the common bulkhead removes on the order of forty square metres of shell, which at the average gauge is
 
-$$m_{\text{saved}} = 43.8 \times 0.000648 \times 8000 = 227 \, \text{kg}$$
+$$
+m_{\text{saved}} = 43.8 \times 0.000648 \times 8000 = 227 \, \text{kg}
+\tag{23}
+$$
 
 or **about four percent of the empty vehicle from one design decision**. The cost is that the bulkhead now separates a cryogen at 90 kelvin from a hydrocarbon at ambient temperature, so it must insulate as well as carry load, and a leak across it mixes the propellants inside the vehicle. **The common bulkhead is the other Atlas idea still in use**, and the Centaur upper stage separates its propellants with one [Centaur rocket stage][ref_centaur], for the reason computed here. [Weiss and Goodman 1960][research_weiss_goodman_1960] takes up the insulation problem it creates, and the vehicle that took the arrangement furthest in the period, and which kept the balloon tank as well, is described in [Chitwood 1962][research_chitwood_1962]. Membrane analysis of the domes themselves appears in [Bahiman and Thole 1965][research_bahiman_thole_1965] and [Adam and King 1965][research_adam_king_1965].
 
@@ -190,29 +259,47 @@ or **about four percent of the empty vehicle from one design decision**. The cos
 
 The tank volume follows from the geometry,
 
-$$V = \pi r^{2} L = \pi \times 1.524^{2} \times 18 = 131 \, \text{m}^{3}$$
+$$
+V = \pi r^{2} L = \pi \times 1.524^{2} \times 18 = 131 \, \text{m}^{3}
+\tag{24}
+$$
 
 and at a mixture ratio near 2.25 the propellant load divides into
 
-$$m_{\text{LOX}} = m_{p} \frac{MR}{1 + MR} = 112{,}505 \times \frac{2.25}{3.25} = 77{,}888 \, \text{kg}$$
+$$
+m_{\text{LOX}} = m_{p} \frac{MR}{1 + MR} = 112{,}505 \times \frac{2.25}{3.25} = 77{,}888 \, \text{kg}
+\tag{25}
+$$
 
 with the balance of 34,617 kilogrammes as kerosene. At densities of 1141 and 800 kilogrammes per cubic metre the volumes are 68.3 and 43.3 cubic metres, so the propellant occupies
 
-$$\frac{111.5}{131} = 0.85$$
+$$
+\frac{111.5}{131} = 0.85
+\tag{26}
+$$
 
 of the tank, leaving fifteen percent for ullage, insulation, and the domes. **The record does not confirm the assumed length.** The tank stations of the later Atlas in [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968] run from 570 to 1,198 inches, so the whole tank, domes included, spans
 
-$$\ell = (1198 - 570) \times 0.0254 = 15.95 \, \text{m}$$
+$$
+\ell = (1198 - 570) \times 0.0254 = 15.95 \, \text{m}
+\tag{27}
+$$
 
 and the 18 metres assumed here is long by a factor of 1.13. Treating even that span as a full cylinder gives
 
-$$V' = \pi \times 1.524^{2} \times 15.95 = 116.4 \, \text{m}^{3}, \qquad \frac{111.5}{116.4} = 0.958$$
+$$
+V' = \pi \times 1.524^{2} \times 15.95 = 116.4 \, \text{m}^{3}, \qquad \frac{111.5}{116.4} = 0.958
+\tag{28}
+$$
 
 so the volume, the skin mass and the nitrogen mass below are overstated by up to thirteen percent, and the fill fraction of 0.85 is not evidence for the assumed length.
 
 Against all of that, the mass of nitrogen needed to hold five pounds per square inch of gauge pressure through the tank volume is
 
-$$m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.6 \, \text{kg}$$
+$$
+m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.6 \, \text{kg}
+\tag{29}
+$$
 
 **Fifty-three kilogrammes of gas holds up five thousand three hundred and ninety-five kilogrammes of steel**, a ratio of 103 to one. That single comparison states the design in one line.
 
@@ -222,11 +309,17 @@ Getting the gas in and keeping it there is a separate discipline, and the period
 
 A useful figure of merit for a tank is its mass per unit of volume contained,
 
-$$\eta_{\text{tank}} = \frac{m_{\text{skin}}}{V} = \frac{893}{131} = 6.8 \, \text{kg/m}^{3}$$
+$$
+\eta_{\text{tank}} = \frac{m_{\text{skin}}}{V} = \frac{893}{131} = 6.8 \, \text{kg/m}^{3}
+\tag{30}
+$$
 
 which can be read as the penalty paid for carrying a cubic metre of propellant. Against a propellant density averaging
 
-$$\bar{\rho}_{p} = \frac{m_{p}}{V_{p}} = \frac{112{,}505}{111.5} = 1009 \, \text{kg/m}^{3}$$
+$$
+\bar{\rho}_{p} = \frac{m_{p}}{V_{p}} = \frac{112{,}505}{111.5} = 1009 \, \text{kg/m}^{3}
+\tag{31}
+$$
 
 the tank costs **about eight kilogrammes for every tonne of propellant it holds**, since 893 kilogrammes of skin hold 112.5 tonnes. That figure is what makes a mass ratio of twenty-two possible.
 
@@ -234,25 +327,40 @@ the tank costs **about eight kilogrammes for every tonne of propellant it holds*
 
 A thin cylinder in axial compression does not fail by crushing. It buckles, and the classical critical stress is
 
-$$\sigma_{cr} = \frac{E t}{r \sqrt{3 (1 - \nu^{2})}}$$
+$$
+\sigma_{cr} = \frac{E t}{r \sqrt{3 (1 - \nu^{2})}}
+\tag{32}
+$$
 
 which for the heavy gauge at a Young's modulus of 193 gigapascals gives
 
-$$\sigma_{cr} = \frac{193 \times 10^{9} \times 0.000940}{1.524 \times 1.652} = 72.0 \, \text{MPa}$$
+$$
+\sigma_{cr} = \frac{193 \times 10^{9} \times 0.000940}{1.524 \times 1.652} = 72.0 \, \text{MPa}
+\tag{33}
+$$
 
 and for the light gauge 27.3 megapascals. **That figure is not what a real shell achieves.** Thin cylinders buckle far below the classical value because the post-buckling equilibrium path falls away steeply and any small imperfection lets the shell find it, the result of [Von Karman and Tsien 1941][research_karman_tsien_1941] and the post-buckling behaviour of [Michielsen 1948][research_michielsen_1948]. Design practice applies a knockdown factor. NASA's design criterion gives about 0.18 at a radius-to-thickness ratio of 1,500, the limit of the test data behind it, and less beyond [NASA 1968 Buckling of Thin-Walled Circular Cylinders][ref_nasa_sp8007], so the factor of 0.2 adopted here is slightly unconservative, giving an allowable of
 
-$$\sigma_{\text{allow}} = 0.2 \times 72.0 = 14.4 \, \text{MPa}$$
+$$
+\sigma_{\text{allow}} = 0.2 \times 72.0 = 14.4 \, \text{MPa}
+\tag{34}
+$$
 
 for the heavy gauge and 5.5 megapascals for the light one. **A structure whose tensile capacity is 965 megapascals has a compressive capacity of five**, a ratio of nearly two hundred, and that asymmetry is the reason the design exists.
 
 The other buckling mode needs ruling out explicitly, because a twenty-three metre column is an obvious candidate for it. Treating the vehicle as a cantilever beam of thin-walled section, the second moment of area is
 
-$$I = \pi r^{3} t = \pi \times 1.524^{3} \times 0.000648 = 7.20 \times 10^{-3} \, \text{m}^{4}$$
+$$
+I = \pi r^{3} t = \pi \times 1.524^{3} \times 0.000648 = 7.20 \times 10^{-3} \, \text{m}^{4}
+\tag{35}
+$$
 
 and the Euler critical load with an effective length factor of two for a fixed base and free top is
 
-$$P_{cr} = \frac{\pi^{2} E I}{(K L)^{2}} = \frac{\pi^{2} \times 193 \times 10^{9} \times 7.20 \times 10^{-3}}{(2 \times 23.11)^{2}} = 6.42 \, \text{MN}$$
+$$
+P_{cr} = \frac{\pi^{2} E I}{(K L)^{2}} = \frac{\pi^{2} \times 193 \times 10^{9} \times 7.20 \times 10^{-3}}{(2 \times 23.11)^{2}} = 6.42 \, \text{MN}
+\tag{36}
+$$
 
 against an empty weight of 52.9 kilonewtons, a margin of 121. **It does not fold as a column. It crumples as a shell**, and the distinction matters because the two failure modes are separated by two orders of magnitude and only one of them is helped by pressure. Shell stability work of the period spans [Nickell 1961][research_nickell_1961], [Hausrath and Dittoe 1962][research_hausrath_dittoe_1962], [Hoff et al. 1962][research_hoff_1962], and [Bozich 1967][research_bozich_1967], with the external-pressure case in [Shaw et al. 1952][research_shaw_1952] and [Reynolds 1960][research_reynolds_1960], the conical case in [Mescall 1961][research_mescall_1961], torsional buckling in [Mow and Sadowsky 1962][research_mow_sadowsky_1962], and dynamic buckling in [Coppa and Nash 1962][research_coppa_nash_1962] and [Coppa and Nash 1964][research_coppa_nash_1964]. **The alternatives to a bare pressurised shell were being measured at the same time**, with stiffener sizing in [Nott 1963][research_nott_1963] and sandwich construction under combined loading in [Wang et al. 1953][research_wang_1953], and the Atlas decision is only intelligible against that comparison.
 
@@ -260,17 +368,26 @@ against an empty weight of 52.9 kilonewtons, a margin of 121. **It does not fold
 
 Internal pressure produces axial tension, and a fibre that is in tension cannot buckle. The tension from the standing nitrogen pressure alone is
 
-$$\sigma_{z} = \frac{34{,}474 \times 1.524}{2 \times 0.000940} = 27.9 \, \text{MPa}$$
+$$
+\sigma_{z} = \frac{34{,}474 \times 1.524}{2 \times 0.000940} = 27.9 \, \text{MPa}
+\tag{37}
+$$
 
 at the heavy gauge and 73.9 megapascals at the light one. Set those against the knocked-down buckling allowables of 14.4 and 5.5 megapascals respectively and the result is stark. **Five pounds per square inch of nitrogen roughly doubles the effective compressive capability of the heavy gauge and multiplies the light gauge by more than thirteen.** The pressure is not a convenience. It is the larger part of the structure.
 
 The relation can also be inverted, and inverting it explains where the number five came from. Requiring the axial tension from pressure to equal the knocked-down buckling allowable gives
 
-$$p_{\text{req}} = \frac{2 t \sigma_{\text{allow}}}{r}$$
+$$
+p_{\text{req}} = \frac{2 t \sigma_{\text{allow}}}{r}
+\tag{38}
+$$
 
 which at the heavy gauge is
 
-$$p_{\text{req}} = \frac{2 \times 0.000940 \times 14.4 \times 10^{6}}{1.524} = 17{,}768 \, \text{Pa} = 2.58 \, \text{psi}$$
+$$
+p_{\text{req}} = \frac{2 \times 0.000940 \times 14.4 \times 10^{6}}{1.524} = 17{,}768 \, \text{Pa} = 2.58 \, \text{psi}
+\tag{39}
+$$
 
 and at the light gauge only 0.37 pounds per square inch, because the buckling allowable falls faster with thickness than the pressure tension does. **The governing case is the heavy gauge and it needs 2.58 pounds per square inch, so the reported five-pound standing specification carries a margin of 1.94 on the calculation performed here.**
 
@@ -278,21 +395,33 @@ The relation used here is a first-order one and the period had a better one. [Pe
 
 The cleanest statement of the principle is in bending. For a thin-walled cylinder the second moment of area is $I = \pi r^{3} t$, so a bending moment produces an extreme-fibre stress of $M r / I$. Setting that equal to the axial tension from pressure gives the moment at which the most compressed fibre first reaches zero stress,
 
-$$\frac{M r}{\pi r^{3} t} = \frac{p r}{2 t} \quad \Longrightarrow \quad M_{\text{crit}} = \frac{\pi p r^{3}}{2}$$
+$$
+\frac{M r}{\pi r^{3} t} = \frac{p r}{2 t} \quad \Longrightarrow \quad M_{\text{crit}} = \frac{\pi p r^{3}}{2}
+\tag{40}
+$$
 
 **The thickness cancels.** The moment a pressure-stabilised cylinder can carry before any part of it goes into compression depends on the pressure and the radius and not at all on how thin the skin is. That independence is the mathematical form of the claim that the pressure is doing the work. At the standing pressure this is
 
-$$M_{\text{crit}} = \frac{\pi \times 34{,}474 \times 1.524^{3}}{2} = 0.192 \, \text{MN m}$$
+$$
+M_{\text{crit}} = \frac{\pi \times 34{,}474 \times 1.524^{3}}{2} = 0.192 \, \text{MN m}
+\tag{41}
+$$
 
 equivalent to a lateral force of 8.3 kilonewtons at the top of a 23 metre vehicle, and at flight pressure it is 2.30 meganewton metres, or 99.5 kilonewtons. **A missile standing on the pad in a wind is held up by a pressure a bicycle tyre would find low**, and the flight case is twelve times stiffer because the tanks are pressurised harder once loaded.
 
 That moment converts to a wind speed, the form an operations manual would want. Taking the wind as a uniform load on a cylinder of drag coefficient 1.2, the drag force is $F = \tfrac{1}{2} \rho V^{2} C_{D} D L$ acting at mid-height, so the moment at the base is
 
-$$M = \tfrac{1}{4} \rho V^{2} C_{D} D L^{2}$$
+$$
+M = \tfrac{1}{4} \rho V^{2} C_{D} D L^{2}
+\tag{42}
+$$
 
 and inverting it for the standing case gives
 
-$$V = \sqrt{\frac{4 M_{\text{crit}}}{\rho C_{D} D L^{2}}} = \sqrt{\frac{4 \times 1.917 \times 10^{5}}{1.225 \times 1.2 \times 3.048 \times 23.11^{2}}} = 17.9 \, \text{m/s}$$
+$$
+V = \sqrt{\frac{4 M_{\text{crit}}}{\rho C_{D} D L^{2}}} = \sqrt{\frac{4 \times 1.917 \times 10^{5}}{1.225 \times 1.2 \times 3.048 \times 23.11^{2}}} = 17.9 \, \text{m/s}
+\tag{43}
+$$
 
 or **thirty-five knots before any fibre of the standing vehicle goes into compression**, falling to about twenty-eight knots with a factor of 1.5 applied to the moment. At flight pressure the same relation gives 120 knots.
 
@@ -304,21 +433,33 @@ Pressure-stabilised beams under load are treated directly by [Steeves 1975a][res
 
 The bare skin of a tank eighteen metres long at the average gauge masses
 
-$$m_{\text{skin}} = 2 \pi r L t \rho = 2 \pi \times 1.524 \times 18 \times 0.000648 \times 8000 = 893 \, \text{kg}$$
+$$
+m_{\text{skin}} = 2 \pi r L t \rho = 2 \pi \times 1.524 \times 18 \times 0.000648 \times 8000 = 893 \, \text{kg}
+\tag{44}
+$$
 
 or 16.5 percent of the empty vehicle. A stiffened design carrying the same compression without pressure needs frames and stringers, taken here as adding forty to sixty percent above bare skin, which would take the tank alone to between 1250 and 1430 kilogrammes. **That increment is real but it is not by itself the factor of one and a half the range table above uses**, and the article does not claim it is. The sensitivity table is a sensitivity table. What the comparison does establish is the direction and the order, and the direction is the one the programme chose.
 
 The general form of the comparison shows where the advantage comes from. A pressure-stabilised wall is sized by tension,
 
-$$t_{\text{press}} = \frac{p r}{\sigma_{\text{allow,tension}}}$$
+$$
+t_{\text{press}} = \frac{p r}{\sigma_{\text{allow,tension}}}
+\tag{45}
+$$
 
 and a stiffened wall carrying the same vehicle is sized by an equivalent compressive allowable that includes its stiffening,
 
-$$t_{\text{stiff}} = \frac{N_{x}}{\sigma_{\text{allow,compression}}}$$
+$$
+t_{\text{stiff}} = \frac{N_{x}}{\sigma_{\text{allow,compression}}}
+\tag{46}
+$$
 
 so the ratio of the two depends on the ratio of the allowables, which for this material and this radius-to-thickness ratio is
 
-$$\frac{\sigma_{\text{tension}}}{\sigma_{\text{compression}}} = \frac{965}{14.4} = 67$$
+$$
+\frac{\sigma_{\text{tension}}}{\sigma_{\text{compression}}} = \frac{965}{14.4} = 67
+\tag{47}
+$$
 
 **The tensile allowable is sixty-seven times the compressive one.** That factor does not translate directly into a mass ratio, because the two walls carry different loads and the stiffened one adds material in a different place, but it is the reason the comparison comes out the way it does and it is the number a designer in 1951 would have been looking at. Stiffened-shell optimisation as the period practised it appears in [Nickell 1961][research_nickell_1961] and [Nott 1963][research_nott_1963], the structural design practice is codified in [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973], and the material behaviour that fixes the tensile allowable comes from [Manning and Price 1961][research_manning_price_1961], [Johnson and Kelsen 1969][research_johnson_kelsen_1969], and [Kuentz 1969][research_kuentz_1969].
 
@@ -328,15 +469,24 @@ $$\frac{\sigma_{\text{tension}}}{\sigma_{\text{compression}}} = \frac{965}{14.4}
 
 The Atlas A carried two booster engines whose initial thrust, by the official history, was raised during the series from 270,000 to 300,000 pounds [Neufeld 1990 The Development of Ballistic Missiles in the United States Air Force, 1945-1960][book_neufeld_1990]. The summary figure of the [Convair X-11][ref_x11] compilation, 341,128 pounds, which is 1.517 meganewtons, exceeds both, and the same compilation's narrative gives the early engines 135,000 pounds each and the improved engines from the fifth flight 150,000, which agree with the official figures. At the Atlas D gross mass this summary thrust gives a lift-off thrust-to-weight of
 
-$$\frac{T}{W} = \frac{1.517 \times 10^{6}}{117{,}900 \times 9.80665} = 1.31$$
+$$
+\frac{T}{W} = \frac{1.517 \times 10^{6}}{117{,}900 \times 9.80665} = 1.31
+\tag{48}
+$$
 
 a figure for the family and not for the Atlas A. Against the 181,000 pounds at which [Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991] gives the Series A test missiles, the early engines give
 
-$$\left. \frac{T}{W} \right|_{A} = \frac{2 \times 135{,}000}{181{,}000} = 1.49$$
+$$
+\left. \frac{T}{W} \right|_{A} = \frac{2 \times 135{,}000}{181{,}000} = 1.49
+\tag{49}
+$$
 
 so the Atlas A left the pad harder than the family figure suggests. For the family figure the propellant flow follows from the exhaust velocity,
 
-$$\dot{m} = \frac{T}{v_{e}} = \frac{1.517 \times 10^{6}}{2765} = 549 \, \text{kg/s}$$
+$$
+\dot{m} = \frac{T}{v_{e}} = \frac{1.517 \times 10^{6}}{2765} = 549 \, \text{kg/s}
+\tag{50}
+$$
 
 so a 133 second burn, the compilation's figure against the two full minutes of powered flight Neufeld gives for missile 12A, consumes 73.0 tonnes, or 65 percent of the full Atlas propellant load. [Summerfield 1960][research_summerfield_1960] sets out liquid engine practice of the period, with a released Rocketdyne specification for the sustainer engine, which the Atlas A did not carry, in [Scott 1963][research_scott_1963] and the specific-impulse bookkeeping in [Dafler 1962][research_dafler_1962]. Combustion instability, which was the era's most persistent liquid-engine problem, is [Grey 1953][research_grey_1953], [Matthews 1957][research_matthews_1957], and [Harrje 1959][research_harrje_1959]. [Hegg 1964][research_hegg_1964] designs the gimbal actuation for thrust vector control, and the turbopump that feeds the arrangement has a design-criteria treatment in [Design Criteria Monograph 1975][research_naca_1975], with propellant flow calibration in [Berg 1968][research_berg_1968].
 
@@ -344,35 +494,59 @@ so a 133 second burn, the compilation's figure against the two full minutes of p
 
 The structural case is set by the ascent, and within the ascent by two moments. Dynamic pressure rises as the vehicle accelerates and falls as the atmosphere thins, so it peaks,
 
-$$q = \tfrac{1}{2} \rho(h) v(h)^{2}$$
+$$
+q = \tfrac{1}{2} \rho(h) v(h)^{2}
+\tag{51}
+$$
 
 and for a vertically rising vehicle the peak can be located by differentiating. With an exponential atmosphere of scale height $H$ and a constant acceleration $a$, the dynamic pressure is
 
-$$q(t) = \tfrac{1}{2} \rho_{0} e^{-a t^{2} / (2H)} (a t)^{2}$$
+$$
+q(t) = \tfrac{1}{2} \rho_{0} e^{-a t^{2} / (2H)} (a t)^{2}
+\tag{52}
+$$
 
 and setting the derivative to zero gives
 
-$$\frac{dq}{dt} = 0 \quad \Longrightarrow \quad t_{q} = \sqrt{\frac{2H}{a}}$$
+$$
+\frac{dq}{dt} = 0 \quad \Longrightarrow \quad t_{q} = \sqrt{\frac{2H}{a}}
+\tag{53}
+$$
 
 For a scale height of 7200 metres and an acceleration of three metres per second squared net of gravity,
 
-$$t_{q} = \sqrt{\frac{2 \times 7200}{3}} = 69 \, \text{s}$$
+$$
+t_{q} = \sqrt{\frac{2 \times 7200}{3}} = 69 \, \text{s}
+\tag{54}
+$$
 
 at an altitude of $\tfrac{1}{2} a t_{q}^{2} = H = 7.2$ kilometres, the pleasing result that **a constant-acceleration vertical ascent reaches maximum dynamic pressure at exactly one scale height**, independent of the acceleration. The value at that point follows by substitution,
 
-$$q_{\max} = \tfrac{1}{2} \rho_{0} e^{-1} (a t_{q})^{2} = \tfrac{1}{2} \rho_{0} e^{-1} \times 2 a H$$
+$$
+q_{\max} = \tfrac{1}{2} \rho_{0} e^{-1} (a t_{q})^{2} = \tfrac{1}{2} \rho_{0} e^{-1} \times 2 a H
+\tag{55}
+$$
 
 which for the same numbers gives
 
-$$q_{\max} = \tfrac{1}{2} \times 1.225 \times 0.3679 \times 2 \times 3 \times 7200 = 9736 \, \text{Pa}$$
+$$
+q_{\max} = \tfrac{1}{2} \times 1.225 \times 0.3679 \times 2 \times 3 \times 7200 = 9736 \, \text{Pa}
+\tag{56}
+$$
 
 or about 1.4 pounds per square inch of dynamic pressure. **In this idealised ascent the aerodynamic pressure is two percent of the pressure the vehicle carries internally.** The later Atlas's flight report measured a peak near 800 pounds per square foot, about 5.6 pounds per square inch, between seventy and eighty seconds after lift-off [Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968], which is still under a tenth of the fuel-tank pressure, so the conclusion about where this structure's loads come from survives the idealisation. It is a pressure vessel that happens to fly, not an aeroplane that happens to hold propellant. The real trajectory is not vertical and the acceleration is not constant, so the time is a little over a minute, consistent with the 60 to 90 second window of highest bending loads in the later Atlas's flight report, but the structure of the answer is the structure of the real one. Axial acceleration does the opposite. It grows monotonically as propellant burns away,
 
-$$n(t) = \frac{T}{\left( m_{0} - \dot{m} t \right) g}$$
+$$
+n(t) = \frac{T}{\left( m_{0} - \dot{m} t \right) g}
+\tag{57}
+$$
 
 so at lift-off it is 1.31 and near booster cutoff, with two thirds of the propellant gone, it approaches
 
-$$n = \frac{1.517 \times 10^{6}}{\left( 117{,}900 - 72{,}977 \right) \times 9.80665} = 3.44$$
+$$
+n = \frac{1.517 \times 10^{6}}{\left( 117{,}900 - 72{,}977 \right) \times 9.80665} = 3.44
+\tag{58}
+$$
 
 **The worst bending load and the worst axial load therefore arrive at different times**, which is fortunate, because a pressure-stabilised structure that had to carry both at once would need a pressure it could not contain. Ascent load analysis of the period begins with [Wood 1961][research_wood_1961], with the aerodynamic side in [Binion and Herron 1962][research_binion_1962].
 
@@ -380,11 +554,17 @@ $$n = \frac{1.517 \times 10^{6}}{\left( 117{,}900 - 72{,}977 \right) \times 9.80
 
 Angle of attack is what turns dynamic pressure into a bending moment. The normal force on a slender body at small incidence is
 
-$$N = q S C_{N\alpha} \alpha$$
+$$
+N = q S C_{N\alpha} \alpha
+\tag{59}
+$$
 
 and taking the reference area as the cross-section, $S = \pi r^{2} = 7.30$ square metres, a normal-force slope of two per radian, and three degrees of incidence at maximum dynamic pressure,
 
-$$N = 9736 \times 7.30 \times 2 \times 0.0524 = 7447 \, \text{N}$$
+$$
+N = 9736 \times 7.30 \times 2 \times 0.0524 = 7447 \, \text{N}
+\tag{60}
+$$
 
 which acting at a lever arm of ten metres gives a bending moment of 74 kilonewton metres. Against the pressure-stabilised capacity of 2.30 meganewton metres at flight pressure this is **three percent**, so there is an enormous margin in bending while pressurised and essentially none while not. The incidence comes from wind. A vehicle rising through a shear layer sees a lateral relative wind and must either fly at an angle to it, which costs bending moment, or steer into it, which costs trajectory. Load-relief steering exists because of that trade, and its modern form is treated below.
 
@@ -392,25 +572,40 @@ which acting at a lever arm of ten metres gives a bending moment of 74 kilonewto
 
 Dropping two engines and a skirt at booster cutoff removes mass that the remaining propellant would otherwise have to accelerate. The benefit is the difference between finishing the burn with and without that mass,
 
-$$\Delta v_{\text{gain}} = v_{e} \left[ \ln \frac{m_{1}}{m_{f}} - \ln \frac{m_{1} + m_{j}}{m_{f} + m_{j}} \right]$$
+$$
+\Delta v_{\text{gain}} = v_{e} \left[ \ln \frac{m_{1}}{m_{f}} - \ln \frac{m_{1} + m_{j}}{m_{f} + m_{j}} \right]
+\tag{61}
+$$
 
 where $m_j$ is the jettisoned mass and $m_1$ is the mass at staging. Evaluated, that expression overturns the obvious reading.
 
 The booster phase consumes $\dot{m} t_b = 549 \times 133 = 72{,}977$ kilogrammes, leaving
 
-$$m_{\text{sust}} = m_{p} - \dot{m} t_{b} = 112{,}505 - 72{,}977 = 39{,}528 \, \text{kg}$$
+$$
+m_{\text{sust}} = m_{p} - \dot{m} t_{b} = 112{,}505 - 72{,}977 = 39{,}528 \, \text{kg}
+\tag{62}
+$$
 
 for the sustainer, so the mass at staging after jettison is $m_1 = 5395 + 39{,}528 = 44{,}923$ kilogrammes. Taking a jettisoned booster package of three tonnes, the sustainer phase delivers
 
-$$\Delta v_{\text{dropped}} = 2765 \ln \frac{44{,}923}{5395} = 5861 \, \text{m/s}$$
+$$
+\Delta v_{\text{dropped}} = 2765 \ln \frac{44{,}923}{5395} = 5861 \, \text{m/s}
+\tag{63}
+$$
 
 if the package is discarded and
 
-$$\Delta v_{\text{carried}} = 2765 \ln \frac{47{,}923}{8395} = 4817 \, \text{m/s}$$
+$$
+\Delta v_{\text{carried}} = 2765 \ln \frac{47{,}923}{8395} = 4817 \, \text{m/s}
+\tag{64}
+$$
 
 if it is not, so the gain is
 
-$$\Delta v_{\text{gain}} = 5861 - 4817 = 1044 \, \text{m/s}$$
+$$
+\Delta v_{\text{gain}} = 5861 - 4817 = 1044 \, \text{m/s}
+\tag{65}
+$$
 
 **That is twelve percent of the ideal velocity for the sake of dropping three tonnes of engine.** The intuition that a half-stage gives up most of the benefit of staging is wrong. The benefit of staging depends on the ratio of jettisoned mass to burnout mass, not to gross mass. Three tonnes against a burnout mass of five and a half is an enormous fraction, even though it is under three percent of the vehicle at lift-off.
 
@@ -422,19 +617,31 @@ A stiffened shell fails by buckling under compression, and applying a representa
 
 The proof factor relates the test pressure to the design pressure,
 
-$$k_{p} = \frac{p_{\text{proof}}}{p_{\text{design}}}$$
+$$
+k_{p} = \frac{p_{\text{proof}}}{p_{\text{design}}}
+\tag{66}
+$$
 
 and a factor between 1.1 and 1.25 is taken here, with the burst factor higher still,
 
-$$k_{b} = \frac{p_{\text{burst}}}{p_{\text{design}}} \geq 1.5$$
+$$
+k_{b} = \frac{p_{\text{burst}}}{p_{\text{design}}} \geq 1.5
+\tag{67}
+$$
 
 which at the flight pressure and heavy gauge implies a burst hoop stress of
 
-$$\sigma_{\text{burst}} = 1.5 \times 671 = 1007 \, \text{MPa}$$
+$$
+\sigma_{\text{burst}} = 1.5 \times 671 = 1007 \, \text{MPa}
+\tag{68}
+$$
 
 against an assumed ultimate of 1276, a margin of 1.27 on the material rather than on the design. Applying a proof factor of 1.25 to the 60 pound flight pressure gives a hoop stress at the heavy gauge of
 
-$$\sigma_{\theta} = 1.25 \times 671 = 839 \, \text{MPa}$$
+$$
+\sigma_{\theta} = 1.25 \times 671 = 839 \, \text{MPa}
+\tag{69}
+$$
 
 or 87 percent of the assumed yield, so the proof test is a genuine test and not a formality. [Abraham 1963][research_abraham_1963] shows how the period tested large articles structurally, with the combined static and dynamic loading problem in [Roberts and Wilhem 1964][research_roberts_wilhem_1964]. **The design's failure mode doubles as its acceptance test**, a real and rarely stated advantage of the balloon tank over a stiffened shell whose critical load can only be estimated.
 
@@ -442,11 +649,17 @@ or 87 percent of the assumed yield, so the proof test is a genuine test and not 
 
 The [X-10][related_post_a307_north_american_x10] article computed a recovery temperature of 636 kelvin for a vehicle cruising at Mach 3.25 for three hours, and concluded that aluminium would not serve. A ballistic booster has the opposite problem. It passes through the dense atmosphere quickly and is out of it before the skin can equilibrate,
 
-$$\tau_{\text{skin}} = \frac{\rho c \delta}{h}$$
+$$
+\tau_{\text{skin}} = \frac{\rho c \delta}{h}
+\tag{70}
+$$
 
 and for stainless steel at the Atlas gauge, taking a density of 8000 kilogrammes per cubic metre, a specific heat of 500 joules per kilogramme kelvin, and a convective coefficient of 200 watts per square metre kelvin,
 
-$$\tau_{\text{skin}} = \frac{8000 \times 500 \times 0.00094}{200} = 18.8 \, \text{s}$$
+$$
+\tau_{\text{skin}} = \frac{8000 \times 500 \times 0.00094}{200} = 18.8 \, \text{s}
+\tag{71}
+$$
 
 comparable to, and not short against, the time spent near maximum dynamic pressure. **The skin does partially equilibrate, but it does so against a recovery temperature that is only high for a few tens of seconds**, and the propellant behind it is a very large heat sink at cryogenic temperature. The structural problem is therefore mechanical rather than thermal. Aerodynamic heating of entry vehicles is treated in [Allen 1966][research_allen_1966] and [Murphy and Rubesin 1965][research_murphy_rubesin_1965], and [Winstead 1966][research_winstead_1966] handles the thermal control of a cryogenic vehicle, with propellant leakage effects in [Nast and Williams 1967][research_nast_williams_1967].
 
@@ -456,19 +669,31 @@ A rocket at lift-off sits in its own exhaust noise, and the overall sound pressu
 
 The level can be estimated. The mechanical power in the jet is
 
-$$P_{\text{jet}} = \tfrac{1}{2} \dot{m} v_{e}^{2} = \tfrac{1}{2} \times 549 \times 2765^{2} = 2.10 \, \text{GW}$$
+$$
+P_{\text{jet}} = \tfrac{1}{2} \dot{m} v_{e}^{2} = \tfrac{1}{2} \times 549 \times 2765^{2} = 2.10 \, \text{GW}
+\tag{72}
+$$
 
 of which half of one percent is assumed here to become sound, so the radiated acoustic power is about 10.5 megawatts. Spreading that over a hemisphere at thirty metres gives an intensity of
 
-$$I = \frac{P_{\text{ac}}}{2 \pi d^{2}} = \frac{1.05 \times 10^{7}}{2 \pi \times 900} = 1855 \, \text{W/m}^{2}$$
+$$
+I = \frac{P_{\text{ac}}}{2 \pi d^{2}} = \frac{1.05 \times 10^{7}}{2 \pi \times 900} = 1855 \, \text{W/m}^{2}
+\tag{73}
+$$
 
 and a sound pressure level of
 
-$$L_{p} = 10 \log_{10} \frac{I}{10^{-12}} = 153 \, \text{dB}$$
+$$
+L_{p} = 10 \log_{10} \frac{I}{10^{-12}} = 153 \, \text{dB}
+\tag{74}
+$$
 
 falling to 142 decibels at a hundred metres. The pressure fluctuation follows from the intensity directly, which avoids rounding the level,
 
-$$p_{\text{rms}} = \sqrt{I \rho c} = \sqrt{1855 \times 1.225 \times 343} = 883 \, \text{Pa}$$
+$$
+p_{\text{rms}} = \sqrt{I \rho c} = \sqrt{1855 \times 1.225 \times 343} = 883 \, \text{Pa}
+\tag{75}
+$$
 
 so **a hundred and fifty-three decibels is a pressure fluctuation of about 0.13 pounds per square inch**, which is small against the sixty inside the tank but is applied at hundreds of hertz for the duration of the lift-off transient, and fatigue does not care about the mean. The period studied the mechanism as a discipline under the name sonic fatigue. [Vreeland 1960][research_vreeland_1960] gives a test method, [Wang 1966][research_wang_1966] a prediction model, [Ballentine et al. 1966][research_ballentine_1966] the combined-environment case, and [Hines 1966][research_hines_1966] the specimen fabrication such tests require. The statistical machinery beneath it comes from [Crandall and Mark 1963a][research_crandall_mark_1963], with transmission in [Crandall and Mark 1963c][research_crandall_mark_1963_2] and failure in [Crandall and Mark 1963b][research_crandall_mark_1963_3]. [Boyd 1963][research_boyd_1963] measured the environment at the launch site itself for Cape Canaveral, with facility acoustics in [Tyzzer and Pernet 1964][research_tyzzer_pernet_1964], the launch-vehicle dynamics overview in [Hung and Hunt 1964b][research_hung_hunt_1964], and vibration environment specification and correlation in [Snyder et al. 1974][research_snyder_1974], with the acoustic measurement practice of the period in [Keast 1961][research_keast_1961_b].
 
@@ -478,11 +703,17 @@ A tank with no internal structure has nothing to break up the free surface of it
 
 The frequency that matters is the first lateral sloshing mode of a cylindrical tank, which for fill depths that are not shallow is
 
-$$\omega_{s} = \sqrt{\frac{1.841 \, g_{\text{eff}}}{r} \tanh \frac{1.841 h}{r}}$$
+$$
+\omega_{s} = \sqrt{\frac{1.841 \, g_{\text{eff}}}{r} \tanh \frac{1.841 h}{r}}
+\tag{76}
+$$
 
 and under acceleration the effective gravity is the axial load factor times $g$, so **the slosh frequency rises through the flight as the vehicle accelerates and falls as the tank drains**. At the Atlas radius and a load factor of three the deep-tank limit gives
 
-$$\omega_{s} = \sqrt{\frac{1.841 \times 3 \times 9.80665}{1.524}} = 5.96 \, \text{rad/s}$$
+$$
+\omega_{s} = \sqrt{\frac{1.841 \times 3 \times 9.80665}{1.524}} = 5.96 \, \text{rad/s}
+\tag{77}
+$$
 
 or 0.95 hertz, which sits uncomfortably close to the bandwidth of a thrust-vector control loop. [Stephens 1965][research_stephens_1965] damps slosh with flexible baffles, with measurement in [Wilner et al. 1960][research_wilner_1960] and the shell-vibration side in [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965].
 
@@ -492,7 +723,10 @@ A liquid rocket whose structure has a longitudinal mode near the frequency at wh
 
 The scale of the problem is set by how soft the vehicle is. A solid steel bar of the same length has a fixed-free axial mode at
 
-$$f_{1} = \frac{c}{4L} = \frac{1}{4L} \sqrt{\frac{E}{\rho}} = \frac{4912}{4 \times 23.11} = 53 \, \text{Hz}$$
+$$
+f_{1} = \frac{c}{4L} = \frac{1}{4L} \sqrt{\frac{E}{\rho}} = \frac{4912}{4 \times 23.11} = 53 \, \text{Hz}
+\tag{78}
+$$
 
 but a launch vehicle is not a solid bar. It is a thin shell containing a large mass of liquid, and its first axial mode sits far lower, uncomfortably close to the response of a feed system and turbopump. **The instability condition is that the structural mode and the propulsion response overlap in frequency with enough gain around the loop**, and both quantities move during the flight, the structure because the tanks drain and the propulsion because the inlet pressure falls. For missile structural dynamics in the period the sources are [Wood 1961][research_wood_1961], with clustered-vehicle bending in [Loewy 1965][research_loewy_1965], shell vibration in [DIGiovanii and Dugundji 1965][research_digiovanii_dugundji_1965], the ribbed-shell stability case in [Amiro 1962][research_amiro_1962], and the launch-vehicle overview in [Gerald and Runyan 1962][research_gerald_runyan_1962].
 
@@ -504,27 +738,45 @@ The Atlas A flew without an operational guidance system, since the set first car
 
 That relation gives the range angle through
 
-$$\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v^{2}}{g R_{e}}, \qquad R = R_{e} \Phi$$
+$$
+\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v^{2}}{g R_{e}}, \qquad R = R_{e} \Phi
+\tag{79}
+$$
 
 and the sensitivity of range to burnout speed follows by chaining the three derivatives. From the definition of $\lambda$,
 
-$$\frac{d \lambda}{\lambda} = 2 \frac{dv}{v}$$
+$$
+\frac{d \lambda}{\lambda} = 2 \frac{dv}{v}
+\tag{80}
+$$
 
 from the range-angle relation,
 
-$$\frac{d}{d\lambda} \sin \frac{\Phi}{2} = \frac{2}{(2 - \lambda)^{2}} \quad \Longrightarrow \quad \frac{d\Phi}{d\lambda} = \frac{4}{(2-\lambda)^{2} \cos (\Phi/2)}$$
+$$
+\frac{d}{d\lambda} \sin \frac{\Phi}{2} = \frac{2}{(2 - \lambda)^{2}} \quad \Longrightarrow \quad \frac{d\Phi}{d\lambda} = \frac{4}{(2-\lambda)^{2} \cos (\Phi/2)}
+\tag{81}
+$$
 
 and combining them gives the logarithmic sensitivity
 
-$$\frac{\partial \ln R}{\partial \ln v} = \frac{2 \lambda}{\Phi} \cdot \frac{4}{(2 - \lambda)^{2} \cos (\Phi/2)}$$
+$$
+\frac{\partial \ln R}{\partial \ln v} = \frac{2 \lambda}{\Phi} \cdot \frac{4}{(2 - \lambda)^{2} \cos (\Phi/2)}
+\tag{82}
+$$
 
 At the intercontinental condition of $\lambda = 0.828$ and $\Phi = 1.570$ radians this evaluates to
 
-$$\frac{\partial \ln R}{\partial \ln v} = 4.34$$
+$$
+\frac{\partial \ln R}{\partial \ln v} = 4.34
+\tag{83}
+$$
 
 **One part in a thousand of velocity error is therefore about four and a third parts in a thousand of range**, or forty-three kilometres at ten thousand. A weapon required to land within eight hundred metres, which is the figure the previous article inverted for the Navaho, needs a velocity accuracy of
 
-$$\frac{\delta v}{v} = \frac{1}{4.34} \times \frac{800}{10^{7}} = 1.84 \times 10^{-5}$$
+$$
+\frac{\delta v}{v} = \frac{1}{4.34} \times \frac{800}{10^{7}} = 1.84 \times 10^{-5}
+\tag{84}
+$$
 
 or **0.13 metres per second out of 7193**. Cutting the engines at the right instant to a tenth of a metre per second constitutes the ballistic accuracy problem, and the problem lasts for the two minutes of powered flight, not for the thirty-two of the trajectory. Hence the previous article's vehicle needed a navigator and this one needs a clock, the sharpest single difference between the two weapons.
 
@@ -534,11 +786,17 @@ The preceding sections concern a vehicle whose job ends at burnout. What arrives
 
 The governing result is unusually clean. For a ballistic body entering an exponential atmosphere on a straight path, the peak deceleration is
 
-$$a_{\max} = \frac{v_{e}^{2} \sin \gamma}{2 e H}$$
+$$
+a_{\max} = \frac{v_{e}^{2} \sin \gamma}{2 e H}
+\tag{85}
+$$
 
 where $\gamma$ is the entry flight path angle and $H$ the scale height, and the striking feature is that **the ballistic coefficient does not appear**. A heavy dense body and a light one decelerate equally hard, and differ only in the altitude at which they do it. For an entry speed of seven kilometres per second at thirty degrees,
 
-$$a_{\max} = \frac{7000^{2} \times 0.5}{2 \times 2.718 \times 7200} = 626 \, \text{m/s}^{2} = 64 g$$
+$$
+a_{\max} = \frac{7000^{2} \times 0.5}{2 \times 2.718 \times 7200} = 626 \, \text{m/s}^{2} = 64 g
+\tag{86}
+$$
 
 The result is period material and not a later reconstruction. [Scherberg and Rubin 1953][research_scherberg_rubin_1953] computes the decelerations of a ballistic missile on reentry in this form, four years before the X-11 flew, and the closed-form lifting extension is [Bell 1965][research_bell_1965]. The motion of the body about its axes while this is happening is [Murphy 1961][research_murphy_1961], the char-layer response of the heat shield is [Dolton and Reed 1966][research_dolton_reed_1966], and estimating where such a body is while it flies is [Schweppe 1964][research_schweppe_1964].
 
@@ -552,15 +810,24 @@ The propellant loading problem deserves a note, because a balloon tank couples l
 
 The boil-off that follows is a second coupling, and its rate explains why topping continues until moments before launch. With a wetted area of
 
-$$A = 2 \pi r L = 2 \pi \times 1.524 \times 18 = 172 \, \text{m}^{2}$$
+$$
+A = 2 \pi r L = 2 \pi \times 1.524 \times 18 = 172 \, \text{m}^{2}
+\tag{87}
+$$
 
 an uninsulated tank at a convective coefficient of ten watts per square metre kelvin against a two hundred kelvin difference admits
 
-$$\dot{Q} = h A \Delta T = 10 \times 172 \times 200 = 345 \, \text{kW}$$
+$$
+\dot{Q} = h A \Delta T = 10 \times 172 \times 200 = 345 \, \text{kW}
+\tag{88}
+$$
 
 and at a latent heat of 213 kilojoules per kilogramme the boil-off is
 
-$$\dot{m}_{\text{boil}} = \frac{\dot{Q}}{L_{v}} = \frac{3.45 \times 10^{5}}{2.13 \times 10^{5}} = 1.62 \, \text{kg/s}$$
+$$
+\dot{m}_{\text{boil}} = \frac{\dot{Q}}{L_{v}} = \frac{3.45 \times 10^{5}}{2.13 \times 10^{5}} = 1.62 \, \text{kg/s}
+\tag{89}
+$$
 
 or 5826 kilogrammes an hour, which is **seven and a half percent of the oxygen load every hour**. Liquid oxygen at 90 kelvin against an ambient near 290 therefore boils continuously, the tank must be topped until moments before launch, and the ullage pressure must be regulated throughout. The insulation that reduces the rate appears in [Weiss and Goodman 1960][research_weiss_goodman_1960], and the conditioning of the propellant before launch is [Greenfield 1960][research_greenfield_1960]. On this vehicle a pressure regulation failure is a structural failure, the recurring theme of the design. Two-phase pumping of cryogenic propellants is [Stinson and Gross 1972][research_stinson_gross_1972].
 
@@ -581,11 +848,17 @@ Eight Atlas A vehicles flew from Cape Canaveral between 11 June 1957 and 3 June 
 
 The first flight lost thrust about 24 seconds after lift-off, performed what Cleary calls a couple of loops, and was destroyed by the range safety officer less than a minute after lift-off. Neufeld puts its height at a few thousand feet, the compilation's table at two kilometres and its narrative at 9,800 feet, about three. The detail that matters for this article is that **the vehicle tumbled and the structure held**. By Neufeld's account the Atlas nonetheless demonstrated its structural integrity and the ability to gimbal its engines, and [Dawson and Bowles 2004][research_dawson_bowles_2004] that the tank did not break up under the lateral stresses of the tumble until the range safety officer destroyed it. A pressure-stabilised shell that survives a tumble at low altitude has demonstrated the property most in doubt. A tumbling body sees its bending moment applied at an arbitrary angle and reversed once per revolution, the worst possible use of a structure whose compressive capacity is two hundred times smaller than its tensile one. That it held is evidence that the pressure stabilisation was working as the relation above predicts, since the relation does not care about the direction of the moment. A tumbling vehicle at rotation rate $\Omega$ also loads itself centrifugally, and the transverse acceleration at the tip of a body of length $L$ rotating about its centre is
 
-$$a_{\text{tip}} = \Omega^{2} \frac{L}{2}$$
+$$
+a_{\text{tip}} = \Omega^{2} \frac{L}{2}
+\tag{90}
+$$
 
 so a tumble at the one revolution per second assumed here, since no source gives the rate, gives
 
-$$a_{\text{tip}} = (2 \pi)^{2} \times 11.6 = 458 \, \text{m/s}^{2} = 47 g$$
+$$
+a_{\text{tip}} = (2 \pi)^{2} \times 11.6 = 458 \, \text{m/s}^{2} = 47 g
+\tag{91}
+$$
 
 at the nose, applied as a bending load along the whole vehicle. **The structure that everyone expected to fold survived a load case nobody had designed for.**
 
@@ -599,13 +872,22 @@ The first two flights, in June and September 1957, reached two and three kilomet
 
 The third and fourth flights, in December 1957 and January 1958, reached 120 kilometres in the compilation's table and are recorded as successes in the launch history. Those are the flights that establish the vehicle as a vehicle. Neufeld has the third, missile 12A, burning its engines for two full minutes as programmed, flying "some 600 miles" down the Atlantic Missile Range, and being declared a complete success. **The unit is not settled by the record.** Neufeld's narrative of that flight writes miles without qualification, while his summary of the whole series gives its maximum range and altitude as 600 and 57.5 nautical miles. Both readings are carried here. As a fraction of the intercontinental range they are
 
-$$\frac{600 \times 1.609}{10{,}000} = 0.097, \qquad \frac{600 \times 1.852}{10{,}000} = 0.111$$
+$$
+\frac{600 \times 1.609}{10{,}000} = 0.097, \qquad \frac{600 \times 1.852}{10{,}000} = 0.111
+\tag{92}
+$$
 
 so the series flew about a tenth of the range either way, and by the range relation of the previous article a minimum-energy flight of 965.6 or 1,111.2 kilometres needs a burnout speed of
 
-$$\sin \frac{\Phi}{2} = \sin \frac{965.6}{2 \times 6371} = 0.0757, \qquad \lambda = \frac{2 \times 0.0757}{1 + 0.0757} = 0.1408, \qquad v_{bo} = \sqrt{0.1408 \times 9.80665 \times 6.371 \times 10^{6}} = 2966 \, \text{m/s}$$
+$$
+\sin \frac{\Phi}{2} = \sin \frac{965.6}{2 \times 6371} = 0.0757, \qquad \lambda = \frac{2 \times 0.0757}{1 + 0.0757} = 0.1408, \qquad v_{bo} = \sqrt{0.1408 \times 9.80665 \times 6.371 \times 10^{6}} = 2966 \, \text{m/s}
+\tag{93}
+$$
 
-$$\sin \frac{\Phi}{2} = \sin \frac{1111.2}{2 \times 6371} = 0.0871, \qquad \lambda = \frac{2 \times 0.0871}{1 + 0.0871} = 0.1602, \qquad v_{bo} = \sqrt{0.1602 \times 9.80665 \times 6.371 \times 10^{6}} = 3164 \, \text{m/s}$$
+$$
+\sin \frac{\Phi}{2} = \sin \frac{1111.2}{2 \times 6371} = 0.0871, \qquad \lambda = \frac{2 \times 0.0871}{1 + 0.0871} = 0.1602, \qquad v_{bo} = \sqrt{0.1602 \times 9.80665 \times 6.371 \times 10^{6}} = 3164 \, \text{m/s}
+\tag{94}
+$$
 
 which are 0.41 and 0.44 of the 7193 metres per second the full range needs. Any other path to the same range needs more speed than the minimum-energy one, so about two fifths is a floor under either reading. The summary altitude of 57.5 nautical miles is 106.5 kilometres, below the 120 kilometres the compilation's table gives for four of the flights. By the compilation, the fifth, sixth, and seventh failed at 120, 90, and 100 kilometres, a pattern of getting most of the way and then losing something, and the reported causes are consistent with that reading. The eighth, in June 1958, succeeded.
 
@@ -617,23 +899,35 @@ The failures were concentrated in propulsion and plumbing rather than in structu
 
 Three of eight is a success rate of 0.375, which sounds alarming and is normal for a first flight article. What the number supports is narrow. Treating the flights as independent Bernoulli trials, the standard error on the estimate is
 
-$$\sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}} = \sqrt{\frac{0.234}{8}} = 0.171$$
+$$
+\sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}} = \sqrt{\frac{0.234}{8}} = 0.171
+\tag{95}
+$$
 
 so the estimate is 0.375 plus or minus about 0.17, and any true reliability between roughly 0.03 and 0.72 is consistent with the observation. **Eight flights cannot distinguish a mediocre vehicle from a good one.**
 
 It is tempting to read a learning curve into the sequence and the data do not support one. The outcomes in order were failure, failure, success, success, failure, failure, failure, success, so the first four flights produced two successes and the last four produced one. The standard error on a four-flight estimate is
 
-$$\sigma = \sqrt{\frac{p(1-p)}{4}} = 0.25$$
+$$
+\sigma = \sqrt{\frac{p(1-p)}{4}} = 0.25
+\tag{96}
+$$
 
 which is one flight in four, so a difference of one success between the halves is exactly the size of the noise. **The programme neither demonstrably improved nor demonstrably worsened across its eight flights**, and any account that describes the record as a learning curve is reading a trend into a sequence too short to carry one.
 
 The width of that interval argues for flying often, and the relation makes it explicit. Halving the interval requires quadrupling the flights,
 
-$$n = \frac{p (1-p)}{\sigma_{\hat{p}}^{2}}$$
+$$
+n = \frac{p (1-p)}{\sigma_{\hat{p}}^{2}}
+\tag{97}
+$$
 
 so an estimate good to five percentage points at a true reliability near one half needs
 
-$$n = \frac{0.25}{0.05^{2}} = 100 \, \text{flights}$$
+$$
+n = \frac{0.25}{0.05^{2}} = 100 \, \text{flights}
+\tag{98}
+$$
 
 which is more than twelve times the eight development articles of this series. **Reliability for such a vehicle is therefore established by inference from ground test and by accumulating operational rounds, not by the flight test programme**, and the Difficulties Review volumes of [General Dynamics San Diego Ca Convair Div 1966a][research_div_1966] show that inference written down.
 
@@ -645,11 +939,17 @@ The gap between ground and flight is therefore not in the structure but in the c
 
 The scatter deserves a number, because it is the largest single uncertainty in the article. Test results for nominally identical cylinders scatter widely below the classical value, and the design lower bound of NASA's criterion is near eighteen percent at a radius-to-thickness ratio of 1,500 [NASA 1968 Buckling of Thin-Walled Circular Cylinders][ref_nasa_sp8007]. The band assumed here runs from fifteen to sixty percent of the classical value,
 
-$$0.15 \leq \frac{\sigma_{\exp}}{\sigma_{cr}} \leq 0.60 \qquad \frac{0.60}{0.15} = 4$$
+$$
+0.15 \leq \frac{\sigma_{\exp}}{\sigma_{cr}} \leq 0.60 \qquad \frac{0.60}{0.15} = 4
+\tag{99}
+$$
 
 a spread of four to one, and the design factor of 0.20 used above sits at
 
-$$\frac{0.20 - 0.15}{0.60 - 0.15} = 0.11$$
+$$
+\frac{0.20 - 0.15}{0.60 - 0.15} = 0.11
+\tag{100}
+$$
 
 or the eleventh percentile of the assumed band, which is to say very near its lower edge. **A structure designed against a four-to-one experimental scatter is being designed against ignorance rather than against a load**, and the pressure-stabilised solution sidesteps the difficulty by arranging that no fibre goes into compression at all. In that sense the balloon tank is not merely lighter but epistemically cleaner. Its failure mode is yield, which is predictable to a few percent, rather than buckling, which is not. The standard treatments are [Timoshenko and Gere 1961 Theory of Elastic Stability][book_timoshenko_gere_1961] and [Brush and Almroth 1975 Buckling of Bars, Plates and Shells][book_brush_almroth_1975], with vehicle structural practice in [Bruhn 1973 Analysis and Design of Flight Vehicle Structures][book_bruhn_1973].
 
@@ -671,11 +971,17 @@ The X-11 fed directly into the Atlas B, which is the [X-12][ref_series_close] an
 
 The reason it could is arithmetic rather than sentiment. Circular orbital speed at two hundred kilometres is
 
-$$v_{\text{orb}} = \sqrt{\frac{\mu}{R_{e} + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.571 \times 10^{6}}} = 7788 \, \text{m/s}$$
+$$
+v_{\text{orb}} = \sqrt{\frac{\mu}{R_{e} + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.571 \times 10^{6}}} = 7788 \, \text{m/s}
+\tag{101}
+$$
 
 against the 7193 metres per second an intercontinental trajectory needs, a difference of
 
-$$v_{\text{orb}} - v_{bo} = 595 \, \text{m/s}$$
+$$
+v_{\text{orb}} - v_{bo} = 595 \, \text{m/s}
+\tag{102}
+$$
 
 or seven percent of the ideal velocity. **An intercontinental ballistic missile is already ninety-two percent of the way to orbit**, and the remaining eight percent is a small upper stage. That margin is the deepest reason the Atlas outlived the Navaho by six decades.
 
@@ -942,11 +1248,17 @@ It has been argued throughout that the balloon tank was necessary, and the range
 
 Take a two-stage vehicle carrying the same total propellant, split equally between the stages, with each stage having a structural fraction $f$ of its own loaded mass. The stage structures are then
 
-$$m_{s} = \frac{f \, m_{p} / 2}{1 - f}$$
+$$
+m_{s} = \frac{f \, m_{p} / 2}{1 - f}
+\tag{103}
+$$
 
 and the total ideal velocity is the sum of two logarithms rather than one,
 
-$$\Delta v = v_{e} \left[ \ln \frac{m_{\text{all}}}{m_{\text{all}} - m_{p}/2} + \ln \frac{m_{2}}{m_{s}} \right]$$
+$$
+\Delta v = v_{e} \left[ \ln \frac{m_{\text{all}}}{m_{\text{all}} - m_{p}/2} + \ln \frac{m_{2}}{m_{s}} \right]
+\tag{104}
+$$
 
 Evaluating it across structural fractions from eight to twelve percent, and carrying each result through the same loss calibration and the same range relation, gives
 
@@ -1037,7 +1349,10 @@ The contrast with the previous article is sharp and it is worth stating as a con
 
 **The mass data is the specific gap.** No empty or propellant mass for the Atlas A itself has been found, so the article uses Atlas D figures throughout and says so wherever they appear. The only Atlas A mass on record is the planned 181,000 pounds of the Series A test missiles, which is
 
-$$\frac{181{,}000}{243{,}000} = 0.745$$
+$$
+\frac{181{,}000}{243{,}000} = 0.745
+\tag{105}
+$$
 
 of the Series C and D figure in the same source. A vehicle with the same shell and three quarters of the gross mass cannot have had a better structural fraction unless its dry mass fell in proportion, and nothing in the record suggests it did, so the structural fraction used here is probably better than the X-11 achieved and the range figures correspondingly optimistic. That direction is an inference and not a measurement, and its size is unknown.
 
@@ -1113,6 +1428,928 @@ What remains true after all the qualification is the shape of the problem rather
 There is a second result, and its subject is the series, not the vehicle. **The X-10 could not settle its keystone in five navigation flights and the X-11 tested its keystone completely in its first two minutes**, and the difference is that a structural load is applied in full early on every flight while a drift rate is a statistical quantity that needs many flights to estimate. The two vehicles are separated by one designation, the first Atlas A flew thirty-one days before the Navaho was terminated, they were built by rival contractors for the same mission, and the reason one testbed worked and the other did not has nothing to do with either company. It follows from the quantity being measured, and it becomes visible only when the vehicles are read in order.
 
 A last point concerns the tank, which has outlived every argument made about it here. Bossart's shell is still flying, on Centaur [Centaur rocket stage][ref_centaur], on the stage that has the strongest possible reason to care about mass and the weakest possible reason to care about being set down empty in a hangar. **An idea that was adopted because a weapon needed range, abandoned because a launcher needed convenience, and retained where neither consideration applies has been tested about as thoroughly as an engineering idea can be.** It turns out to be right in the conditions where the arithmetic above says it should be, which is not something one can say of many designs that are seventy years old.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 105 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 105, 47 are established and 58 are bespoke.
+Quantities are in International System units on a spherical Earth of radius 6,371 kilometres with $g = 9.80665$ metres per second squared, pounds per square inch are converted at 6,894.76 pascals each, the masses are Atlas D figures and the skin gauges and tank pressures those of a later Atlas, all applied to the Atlas A, and symbols are reused, so that $t$ is the skin thickness except in Equations 52, 53 and 57, where it is time, $p$ is a pressure except in Equations 95 to 98, where it is a probability of success, $n$ is a load factor except in Equations 97 and 98, where it is a number of flights, $R$ is the range except in Equation 29, where it is the gas constant of nitrogen, $T$ is the thrust except in Equation 29, where it is the gas temperature, $V$ is a volume except in Equations 42 and 43, where it is the wind speed, $I$ is a second moment of area except in Equations 73 and 75, where it is the acoustic intensity, $c$ is a speed of sound except in Equation 70, where it is a specific heat, $h$ is a height or an altitude except in Equations 70 and 88, where it is a convective coefficient, and $v_{e}$ is the exhaust velocity except in Equation 85, where it is the entry speed.
+
+**Equation 1, Tsiolkovsky Rocket Equation.**
+The ideal velocity a rocket gains grows with the logarithm of the ratio of its gross mass to its burnout mass.
+[Sutton and Biblarz 2016 Rocket Propulsion Elements][book_sutton_biblarz_2016]
+
+$$
+\Delta v = v_{e} \ln \frac{m_{0}}{m_{f}}
+\tag{1}
+$$
+
+**Equation 2, Structural Mass Fraction of the Atlas D.**
+The Atlas D burnout mass is 4.58 percent of its gross mass.
+[SM-65 Atlas][ref_sm65]
+
+$$
+\frac{m_{s}}{m_{0}} = \frac{5395}{117{,}900} = 0.0458
+\tag{2}
+$$
+
+**Equation 3, Mass Ratio of the Atlas D.**
+The Atlas D gross mass is 21.85 times its burnout mass.
+[SM-65 Atlas][ref_sm65]
+
+$$
+\frac{m_{0}}{m_{f}} = \frac{117{,}900}{5395} = 21.85
+\tag{3}
+$$
+
+**Equation 4, Ideal Velocity of the Atlas D.**
+The rocket equation at a specific impulse of 282 seconds and the Atlas D mass ratio gives 8,530 metres per second before gravity and drag losses.
+
+$$
+\Delta v = 2765 \times \ln 21.85 = 8530 \, \text{m/s}
+\tag{4}
+$$
+
+*Equation 5, Bespoke Calibrated Ascent Loss.*
+The loss is defined as whatever separates the ideal velocity from the 7,193 metre per second burnout speed of a 10,000 kilometre minimum-energy arc, so it is a calibration and not a derived loss.
+
+$$
+v_{\text{loss}} = \Delta v - v_{bo} = 8530 - 7193 = 1337 \, \text{m/s}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Burnout Speed Against Structural Mass.*
+The structural mass is scaled by a factor $k$ while the propellant load and the calibrated loss are held fixed.
+
+$$
+v_{bo}(k) = v_{e} \ln \frac{m_{p} + k m_{s}}{k m_{s}} - v_{\text{loss}}
+\tag{6}
+$$
+
+**Equation 7, Ballistic Range Law.**
+On a spherical non-rotating Earth the central angle of a ballistic arc flown at the optimum flight path angle is fixed by the energy parameter $\lambda$, the ratio of burnout kinetic energy to that of a grazing circular orbit.
+
+$$
+\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v_{bo}^{2}}{g R_{e}}, \qquad R = R_{e} \Phi
+\tag{7}
+$$
+
+*Equation 8, Bespoke Sizing Fraction of the Atlas Mission.*
+The 133 second burn is set against the 1,932 second flight time derived for a 10,000 kilometre arc, a figure of merit the article introduces.
+
+$$
+\frac{t_{\text{sizing}}}{t_{\text{mission}}} = \frac{133}{1932} = 0.069
+\tag{8}
+$$
+
+*Equation 9, Bespoke Leg Fraction of the Navaho Mission.*
+A thousand-kilometre leg at top speed is set against the whole Navaho mission time, the comparison figure for the previous article's vehicle.
+
+$$
+\frac{t_{\text{leg}}}{t_{\text{mission}}} = \frac{1653}{10{,}333} = 0.16
+\tag{9}
+$$
+
+**Equation 10, Tank Radius.**
+Half of the recorded ten foot diameter is 1.524 metres.
+[Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991]
+
+$$
+r = \frac{10 \times 0.3048}{2} = 1.524 \, \text{m}
+\tag{10}
+$$
+
+**Equation 11, Radius-to-Thickness Ratio of the Skin.**
+The tank radius over the light and heavy gauges of the later Atlas drawing gives ratios of 4,286 and 1,622.
+[Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968]
+
+$$
+\frac{r}{t} = \frac{1.524}{0.000356} = 4286 \qquad \frac{r}{t} = \frac{1.524}{0.000940} = 1622
+\tag{11}
+$$
+
+*Equation 12, Bespoke Radius-to-Thickness Ratio of a Drink Can.*
+The benchmark assumes a can wall of 0.1 millimetres on a radius of 33 millimetres.
+
+$$
+\left. \frac{r}{t} \right|_{\text{can}} = \frac{0.033}{0.0001} = 330
+\tag{12}
+$$
+
+**Equation 13, Thin-Walled Hoop Stress.**
+Internal pressure in a thin cylinder produces a circumferential membrane stress equal to pressure times radius over thickness.
+
+$$
+\sigma_{\theta} = \frac{p r}{t}
+\tag{13}
+$$
+
+**Equation 14, Thin-Walled Axial Stress.**
+Pressure acting on the closed ends of a thin cylinder produces an axial membrane stress half the hoop stress.
+
+$$
+\sigma_{z} = \frac{p r}{2 t}
+\tag{14}
+$$
+
+**Equation 15, Ratio of Hoop to Axial Stress.**
+In a closed thin cylinder under pressure the hoop stress is always twice the axial stress.
+
+$$
+\frac{\sigma_{\theta}}{\sigma_{z}} = 2
+\tag{15}
+$$
+
+**Equation 16, Hoop Stress at Fuel-Tank Pressure and Heavy Gauge.**
+The 60 pound per square inch fuel-tank pressure on the heavy gauge gives a hoop stress of 671 megapascals.
+[Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968]
+
+$$
+\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000940} = 671 \, \text{MPa}
+\tag{16}
+$$
+
+*Equation 17, Bespoke Hoop Stress of the Light Gauge at Fuel-Tank Pressure.*
+The light gauge is placed under the fuel-tank pressure it never carries, a counterfactual that shows why the gauge must taper.
+
+$$
+\sigma_{\theta} = \frac{413{,}685 \times 1.524}{0.000356} = 1773 \, \text{MPa}
+\tag{17}
+$$
+
+*Equation 18, Bespoke Hoop Stress of the Light Gauge at Oxidizer-Tank Pressure.*
+The recorded oxidizer-tank range of 28.5 to 31 pounds per square inch is reduced to a single 30 pounds on the light gauge.
+
+$$
+\sigma_{\theta} = \frac{206{,}843 \times 1.524}{0.000356} = 885 \, \text{MPa}
+\tag{18}
+$$
+
+**Equation 19, Hydrostatic Head Under Acceleration.**
+A liquid column of height $h$ under a load factor $n$ adds a pressure equal to density times load factor times gravity times height.
+
+$$
+\Delta p = \rho \, n \, g \, h
+\tag{19}
+$$
+
+*Equation 20, Bespoke Liquid Oxygen Head Near Burnout.*
+The head assumes ten metres of liquid oxygen at six times gravity, a load factor chosen near the later Atlas's recorded 5.62.
+
+$$
+\Delta p = 1141 \times 6 \times 9.80665 \times 10 = 671{,}000 \, \text{Pa} = 97 \, \text{psi}
+\tag{20}
+$$
+
+**Equation 21, Area of a Hemispherical Dome.**
+A hemisphere of the tank radius has an area of 14.6 square metres.
+
+$$
+A_{\text{dome}} = 2 \pi r^{2} = 2 \pi \times 1.524^{2} = 14.6 \, \text{m}^{2}
+\tag{21}
+$$
+
+*Equation 22, Bespoke Intertank Barrel Area.*
+The barrel is assumed to be two radii long, enough to clear two hemispherical domes.
+
+$$
+A_{\text{barrel}} = 2 \pi r \times 2r = 4 \pi r^{2} = 29.2 \, \text{m}^{2}
+\tag{22}
+$$
+
+*Equation 23, Bespoke Mass Saved by the Common Bulkhead.*
+The saved dome and barrel area is taken at an average gauge of 0.648 millimetres and a steel density of 8,000 kilogrammes per cubic metre.
+
+$$
+m_{\text{saved}} = 43.8 \times 0.000648 \times 8000 = 227 \, \text{kg}
+\tag{23}
+$$
+
+*Equation 24, Bespoke Tank Volume.*
+The tank is treated as a cylinder of an assumed 18 metres, a length the record does not confirm.
+
+$$
+V = \pi r^{2} L = \pi \times 1.524^{2} \times 18 = 131 \, \text{m}^{3}
+\tag{24}
+$$
+
+*Equation 25, Bespoke Liquid Oxygen Load.*
+The Atlas D propellant load is divided at a representative mixture ratio of 2.25.
+
+$$
+m_{\text{LOX}} = m_{p} \frac{MR}{1 + MR} = 112{,}505 \times \frac{2.25}{3.25} = 77{,}888 \, \text{kg}
+\tag{25}
+$$
+
+*Equation 26, Bespoke Propellant Fill Fraction.*
+The propellant volume is set against the volume of the assumed 18 metre tank.
+
+$$
+\frac{111.5}{131} = 0.85
+\tag{26}
+$$
+
+**Equation 27, Tank Span From the Station Numbers.**
+The tank stations of the later Atlas, 570 to 1,198 inches, span 15.95 metres.
+[Atlas-Centaur AC-12 Flight Performance 1968][research_lewis_1968]
+
+$$
+\ell = (1198 - 570) \times 0.0254 = 15.95 \, \text{m}
+\tag{27}
+$$
+
+*Equation 28, Bespoke Volume and Fill Fraction of the Recorded Span.*
+The recorded span is treated as a full cylinder, domes included, which bounds the volume from above.
+
+$$
+V' = \pi \times 1.524^{2} \times 15.95 = 116.4 \, \text{m}^{3}, \qquad \frac{111.5}{116.4} = 0.958
+\tag{28}
+$$
+
+*Equation 29, Bespoke Mass of Standing Nitrogen.*
+The ideal gas law is applied at five pounds per square inch and an assumed 290 kelvin to the volume of the assumed 18 metre tank.
+
+$$
+m_{N_{2}} = \frac{p V}{R T} = \frac{34{,}474 \times 131}{296.8 \times 290} = 52.6 \, \text{kg}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Tank Mass per Unit Volume.*
+A figure of merit the article introduces divides the bare skin mass of the assumed tank by its volume.
+
+$$
+\eta_{\text{tank}} = \frac{m_{\text{skin}}}{V} = \frac{893}{131} = 6.8 \, \text{kg/m}^{3}
+\tag{30}
+$$
+
+*Equation 31, Bespoke Mean Propellant Density.*
+The propellant volume rests on the assumed mixture ratio of 2.25 and densities of 1,141 and 800 kilogrammes per cubic metre.
+
+$$
+\bar{\rho}_{p} = \frac{m_{p}}{V_{p}} = \frac{112{,}505}{111.5} = 1009 \, \text{kg/m}^{3}
+\tag{31}
+$$
+
+**Equation 32, Classical Axial Buckling Stress of a Cylinder.**
+A perfect thin cylinder in axial compression buckles at a stress proportional to the modulus and to thickness over radius.
+[NASA 1968 Buckling of Thin-Walled Circular Cylinders][ref_nasa_sp8007]
+
+$$
+\sigma_{cr} = \frac{E t}{r \sqrt{3 (1 - \nu^{2})}}
+\tag{32}
+$$
+
+**Equation 33, Classical Buckling Stress of the Heavy Gauge.**
+For stainless steel at 193 gigapascals and a Poisson ratio of 0.3 the heavy gauge has a classical buckling stress of 72.0 megapascals.
+
+$$
+\sigma_{cr} = \frac{193 \times 10^{9} \times 0.000940}{1.524 \times 1.652} = 72.0 \, \text{MPa}
+\tag{33}
+$$
+
+*Equation 34, Bespoke Knocked-Down Buckling Allowable.*
+A knockdown factor of 0.2 is adopted, slightly above the 0.18 that NASA's criterion gives at a radius-to-thickness ratio of 1,500.
+
+$$
+\sigma_{\text{allow}} = 0.2 \times 72.0 = 14.4 \, \text{MPa}
+\tag{34}
+$$
+
+*Equation 35, Bespoke Second Moment of Area of the Shell.*
+The thin-walled second moment of area is evaluated at an average gauge of 0.648 millimetres.
+
+$$
+I = \pi r^{3} t = \pi \times 1.524^{3} \times 0.000648 = 7.20 \times 10^{-3} \, \text{m}^{4}
+\tag{35}
+$$
+
+*Equation 36, Bespoke Euler Load of the Vehicle as a Column.*
+The vehicle is treated as a uniform cantilever at the average gauge with an effective length factor of two.
+
+$$
+P_{cr} = \frac{\pi^{2} E I}{(K L)^{2}} = \frac{\pi^{2} \times 193 \times 10^{9} \times 7.20 \times 10^{-3}}{(2 \times 23.11)^{2}} = 6.42 \, \text{MN}
+\tag{36}
+$$
+
+**Equation 37, Axial Tension From the Standing Pressure.**
+Five pounds per square inch on the heavy gauge gives an axial tension of 27.9 megapascals.
+
+$$
+\sigma_{z} = \frac{34{,}474 \times 1.524}{2 \times 0.000940} = 27.9 \, \text{MPa}
+\tag{37}
+$$
+
+*Equation 38, Bespoke Pressure Required to Offset Buckling.*
+The required pressure is defined by setting the pressure-induced axial tension equal to the knocked-down buckling allowable, a first-order criterion.
+
+$$
+p_{\text{req}} = \frac{2 t \sigma_{\text{allow}}}{r}
+\tag{38}
+$$
+
+*Equation 39, Bespoke Required Pressure at the Heavy Gauge.*
+The criterion at the adopted knockdown factor of 0.2 gives 2.58 pounds per square inch.
+
+$$
+p_{\text{req}} = \frac{2 \times 0.000940 \times 14.4 \times 10^{6}}{1.524} = 17{,}768 \, \text{Pa} = 2.58 \, \text{psi}
+\tag{39}
+$$
+
+**Equation 40, Moment at Which Pressure Tension Is Cancelled.**
+Equating the extreme-fibre bending stress of a thin cylinder to its axial pressure stress gives a critical moment independent of the skin thickness.
+
+$$
+\frac{M r}{\pi r^{3} t} = \frac{p r}{2 t} \quad \Longrightarrow \quad M_{\text{crit}} = \frac{\pi p r^{3}}{2}
+\tag{40}
+$$
+
+**Equation 41, Critical Moment at the Standing Pressure.**
+At five pounds per square inch and the tank radius the critical moment is 0.192 meganewton metres.
+
+$$
+M_{\text{crit}} = \frac{\pi \times 34{,}474 \times 1.524^{3}}{2} = 0.192 \, \text{MN m}
+\tag{41}
+$$
+
+*Equation 42, Bespoke Base Moment From a Uniform Wind.*
+The wind is assumed uniform with height, so its drag acts at mid-height of the vehicle.
+
+$$
+M = \tfrac{1}{4} \rho V^{2} C_{D} D L^{2}
+\tag{42}
+$$
+
+*Equation 43, Bespoke Standing Wind Limit.*
+The critical moment is inverted for wind speed under the uniform-wind model at an assumed drag coefficient of 1.2.
+
+$$
+V = \sqrt{\frac{4 M_{\text{crit}}}{\rho C_{D} D L^{2}}} = \sqrt{\frac{4 \times 1.917 \times 10^{5}}{1.225 \times 1.2 \times 3.048 \times 23.11^{2}}} = 17.9 \, \text{m/s}
+\tag{43}
+$$
+
+*Equation 44, Bespoke Bare Skin Mass.*
+The skin of the assumed 18 metre tank is taken at the average gauge and a steel density of 8,000 kilogrammes per cubic metre.
+
+$$
+m_{\text{skin}} = 2 \pi r L t \rho = 2 \pi \times 1.524 \times 18 \times 0.000648 \times 8000 = 893 \, \text{kg}
+\tag{44}
+$$
+
+**Equation 45, Wall Thickness Sized by Hoop Tension.**
+A pressure-stabilised wall must be thick enough that the hoop stress stays within the tensile allowable.
+
+$$
+t_{\text{press}} = \frac{p r}{\sigma_{\text{allow,tension}}}
+\tag{45}
+$$
+
+**Equation 46, Wall Thickness Sized by Compression.**
+A stiffened wall must be thick enough that its axial running load stays within its compressive allowable.
+
+$$
+t_{\text{stiff}} = \frac{N_{x}}{\sigma_{\text{allow,compression}}}
+\tag{46}
+$$
+
+*Equation 47, Bespoke Ratio of Tensile to Compressive Allowable.*
+An assumed yield of 965 megapascals is set against the allowable of the adopted knockdown factor.
+
+$$
+\frac{\sigma_{\text{tension}}}{\sigma_{\text{compression}}} = \frac{965}{14.4} = 67
+\tag{47}
+$$
+
+**Equation 48, Lift-Off Thrust-to-Weight of the Family.**
+The compilation's summary thrust over the Atlas D gross weight gives 1.31.
+[Convair X-11][ref_x11]
+
+$$
+\frac{T}{W} = \frac{1.517 \times 10^{6}}{117{,}900 \times 9.80665} = 1.31
+\tag{48}
+$$
+
+**Equation 49, Lift-Off Thrust-to-Weight of the Atlas A.**
+Two early engines of 135,000 pounds against the 181,000 pound Series A missile give 1.49.
+[Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991]
+
+$$
+\left. \frac{T}{W} \right|_{A} = \frac{2 \times 135{,}000}{181{,}000} = 1.49
+\tag{49}
+$$
+
+**Equation 50, Propellant Mass Flow.**
+Thrust over effective exhaust velocity gives a flow of 549 kilogrammes per second.
+
+$$
+\dot{m} = \frac{T}{v_{e}} = \frac{1.517 \times 10^{6}}{2765} = 549 \, \text{kg/s}
+\tag{50}
+$$
+
+**Equation 51, Dynamic Pressure.**
+Dynamic pressure is half the air density times the square of the speed.
+
+$$
+q = \tfrac{1}{2} \rho(h) v(h)^{2}
+\tag{51}
+$$
+
+*Equation 52, Bespoke Dynamic Pressure of a Constant-Acceleration Vertical Ascent.*
+The model assumes a vertical rise from rest at constant acceleration through an exponential atmosphere.
+
+$$
+q(t) = \tfrac{1}{2} \rho_{0} e^{-a t^{2} / (2H)} (a t)^{2}
+\tag{52}
+$$
+
+*Equation 53, Bespoke Time of Maximum Dynamic Pressure.*
+Setting the derivative of the idealised dynamic pressure to zero places its peak at one scale height.
+
+$$
+\frac{dq}{dt} = 0 \quad \Longrightarrow \quad t_{q} = \sqrt{\frac{2H}{a}}
+\tag{53}
+$$
+
+*Equation 54, Bespoke Time of Maximum Dynamic Pressure Evaluated.*
+A scale height of 7,200 metres and an assumed net acceleration of three metres per second squared give 69 seconds.
+
+$$
+t_{q} = \sqrt{\frac{2 \times 7200}{3}} = 69 \, \text{s}
+\tag{54}
+$$
+
+*Equation 55, Bespoke Maximum Dynamic Pressure.*
+Substituting the peak time into the idealised ascent gives the peak in terms of sea-level density, acceleration and scale height.
+
+$$
+q_{\max} = \tfrac{1}{2} \rho_{0} e^{-1} (a t_{q})^{2} = \tfrac{1}{2} \rho_{0} e^{-1} \times 2 a H
+\tag{55}
+$$
+
+*Equation 56, Bespoke Maximum Dynamic Pressure Evaluated.*
+The idealised ascent at the assumed acceleration peaks at 9,736 pascals, below the later Atlas's measured 800 pounds per square foot.
+
+$$
+q_{\max} = \tfrac{1}{2} \times 1.225 \times 0.3679 \times 2 \times 3 \times 7200 = 9736 \, \text{Pa}
+\tag{56}
+$$
+
+**Equation 57, Axial Load Factor Under Constant Thrust.**
+At constant thrust and mass flow the axial load factor rises as propellant burns away.
+
+$$
+n(t) = \frac{T}{\left( m_{0} - \dot{m} t \right) g}
+\tag{57}
+$$
+
+**Equation 58, Axial Load Factor Near Booster Cutoff.**
+The family thrust on the Atlas D mass less 133 seconds of propellant flow gives 3.44.
+
+$$
+n = \frac{1.517 \times 10^{6}}{\left( 117{,}900 - 72{,}977 \right) \times 9.80665} = 3.44
+\tag{58}
+$$
+
+**Equation 59, Normal Force on a Slender Body.**
+At small incidence the normal force is dynamic pressure times reference area times normal-force slope times angle of attack.
+
+$$
+N = q S C_{N\alpha} \alpha
+\tag{59}
+$$
+
+*Equation 60, Bespoke Normal Force at Maximum Dynamic Pressure.*
+The force assumes a normal-force slope of two per radian and three degrees of incidence at the idealised dynamic pressure.
+
+$$
+N = 9736 \times 7.30 \times 2 \times 0.0524 = 7447 \, \text{N}
+\tag{60}
+$$
+
+*Equation 61, Bespoke Velocity Gain From Jettison.*
+Two applications of the rocket equation are differenced to give the velocity the sustainer gains by not carrying the jettisoned mass.
+
+$$
+\Delta v_{\text{gain}} = v_{e} \left[ \ln \frac{m_{1}}{m_{f}} - \ln \frac{m_{1} + m_{j}}{m_{f} + m_{j}} \right]
+\tag{61}
+$$
+
+**Equation 62, Propellant Left for the Sustainer.**
+The Atlas D propellant load less 133 seconds of booster flow leaves 39,528 kilogrammes.
+
+$$
+m_{\text{sust}} = m_{p} - \dot{m} t_{b} = 112{,}505 - 72{,}977 = 39{,}528 \, \text{kg}
+\tag{62}
+$$
+
+**Equation 63, Sustainer Velocity After Jettison.**
+The rocket equation from the staging mass to the Atlas D burnout mass gives 5,861 metres per second.
+
+$$
+\Delta v_{\text{dropped}} = 2765 \ln \frac{44{,}923}{5395} = 5861 \, \text{m/s}
+\tag{63}
+$$
+
+*Equation 64, Bespoke Sustainer Velocity Without Jettison.*
+The booster package is assumed to weigh three tonnes and to be carried to burnout.
+
+$$
+\Delta v_{\text{carried}} = 2765 \ln \frac{47{,}923}{8395} = 4817 \, \text{m/s}
+\tag{64}
+$$
+
+*Equation 65, Bespoke Velocity Gain of the Half-Stage.*
+Dropping the assumed three tonne package gains 1,044 metres per second.
+
+$$
+\Delta v_{\text{gain}} = 5861 - 4817 = 1044 \, \text{m/s}
+\tag{65}
+$$
+
+**Equation 66, Proof Factor.**
+The proof factor is the ratio of the test pressure to the design pressure.
+
+$$
+k_{p} = \frac{p_{\text{proof}}}{p_{\text{design}}}
+\tag{66}
+$$
+
+*Equation 67, Bespoke Burst Factor.*
+The burst factor is taken as at least 1.5, a value the article chooses and does not source.
+
+$$
+k_{b} = \frac{p_{\text{burst}}}{p_{\text{design}}} \geq 1.5
+\tag{67}
+$$
+
+*Equation 68, Bespoke Burst Hoop Stress.*
+The chosen burst factor of 1.5 applied to the heavy-gauge hoop stress gives 1,007 megapascals.
+
+$$
+\sigma_{\text{burst}} = 1.5 \times 671 = 1007 \, \text{MPa}
+\tag{68}
+$$
+
+*Equation 69, Bespoke Proof Hoop Stress.*
+A chosen proof factor of 1.25 applied to the heavy-gauge hoop stress gives 839 megapascals.
+
+$$
+\sigma_{\theta} = 1.25 \times 671 = 839 \, \text{MPa}
+\tag{69}
+$$
+
+**Equation 70, Thermal Time Constant of a Thin Skin.**
+A thin skin heated by convection approaches equilibrium with a time constant of its heat capacity per unit area over the convective coefficient.
+
+$$
+\tau_{\text{skin}} = \frac{\rho c \delta}{h}
+\tag{70}
+$$
+
+*Equation 71, Bespoke Skin Time Constant.*
+The time constant assumes a convective coefficient of 200 watts per square metre kelvin on the heavy gauge.
+
+$$
+\tau_{\text{skin}} = \frac{8000 \times 500 \times 0.00094}{200} = 18.8 \, \text{s}
+\tag{71}
+$$
+
+**Equation 72, Mechanical Power in the Jet.**
+Half the mass flow times the square of the exhaust velocity gives 2.10 gigawatts.
+
+$$
+P_{\text{jet}} = \tfrac{1}{2} \dot{m} v_{e}^{2} = \tfrac{1}{2} \times 549 \times 2765^{2} = 2.10 \, \text{GW}
+\tag{72}
+$$
+
+*Equation 73, Bespoke Acoustic Intensity at Thirty Metres.*
+Half of one percent of the jet power is assumed to radiate as sound, spread over a hemisphere of thirty metres radius.
+
+$$
+I = \frac{P_{\text{ac}}}{2 \pi d^{2}} = \frac{1.05 \times 10^{7}}{2 \pi \times 900} = 1855 \, \text{W/m}^{2}
+\tag{73}
+$$
+
+*Equation 74, Bespoke Sound Pressure Level.*
+The standard decibel scale applied to the assumed intensity gives 153 decibels.
+
+$$
+L_{p} = 10 \log_{10} \frac{I}{10^{-12}} = 153 \, \text{dB}
+\tag{74}
+$$
+
+*Equation 75, Bespoke Root-Mean-Square Pressure Fluctuation.*
+The plane-wave relation applied to the assumed intensity gives 883 pascals.
+
+$$
+p_{\text{rms}} = \sqrt{I \rho c} = \sqrt{1855 \times 1.225 \times 343} = 883 \, \text{Pa}
+\tag{75}
+$$
+
+**Equation 76, First Lateral Slosh Frequency of a Cylindrical Tank.**
+The first antisymmetric sloshing mode of a liquid in an upright cylinder depends on the effective gravity, the radius and the fill depth.
+
+$$
+\omega_{s} = \sqrt{\frac{1.841 \, g_{\text{eff}}}{r} \tanh \frac{1.841 h}{r}}
+\tag{76}
+$$
+
+*Equation 77, Bespoke Slosh Frequency at Three Times Gravity.*
+The deep-tank limit is evaluated at an assumed load factor of three.
+
+$$
+\omega_{s} = \sqrt{\frac{1.841 \times 3 \times 9.80665}{1.524}} = 5.96 \, \text{rad/s}
+\tag{77}
+$$
+
+**Equation 78, Fixed-Free Axial Mode of a Solid Bar.**
+A solid steel bar of the vehicle length has a first axial mode at the bar wave speed over four lengths, 53 hertz.
+
+$$
+f_{1} = \frac{c}{4L} = \frac{1}{4L} \sqrt{\frac{E}{\rho}} = \frac{4912}{4 \times 23.11} = 53 \, \text{Hz}
+\tag{78}
+$$
+
+**Equation 79, Ballistic Range Law in Terms of Burnout Speed.**
+The range relation of the previous article is restated with burnout speed $v$ so that it can be differentiated.
+
+$$
+\sin \frac{\Phi}{2} = \frac{\lambda}{2 - \lambda}, \qquad \lambda = \frac{v^{2}}{g R_{e}}, \qquad R = R_{e} \Phi
+\tag{79}
+$$
+
+**Equation 80, Logarithmic Derivative of the Energy Parameter.**
+Since $\lambda$ is proportional to the square of the speed, a fractional change in speed doubles in $\lambda$.
+
+$$
+\frac{d \lambda}{\lambda} = 2 \frac{dv}{v}
+\tag{80}
+$$
+
+**Equation 81, Derivative of the Range Angle.**
+Differentiating the range law gives the rate at which the range angle grows with the energy parameter.
+
+$$
+\frac{d}{d\lambda} \sin \frac{\Phi}{2} = \frac{2}{(2 - \lambda)^{2}} \quad \Longrightarrow \quad \frac{d\Phi}{d\lambda} = \frac{4}{(2-\lambda)^{2} \cos (\Phi/2)}
+\tag{81}
+$$
+
+**Equation 82, Logarithmic Sensitivity of Range to Burnout Speed.**
+Chaining the two derivatives gives the fractional change in range per fractional change in burnout speed.
+
+$$
+\frac{\partial \ln R}{\partial \ln v} = \frac{2 \lambda}{\Phi} \cdot \frac{4}{(2 - \lambda)^{2} \cos (\Phi/2)}
+\tag{82}
+$$
+
+*Equation 83, Bespoke Range Sensitivity at Intercontinental Range.*
+The sensitivity is evaluated for the representative 10,000 kilometre arc.
+
+$$
+\frac{\partial \ln R}{\partial \ln v} = 4.34
+\tag{83}
+$$
+
+*Equation 84, Bespoke Required Velocity Accuracy.*
+The sensitivity is inverted for an 800 metre miss at the representative 10,000 kilometre range.
+
+$$
+\frac{\delta v}{v} = \frac{1}{4.34} \times \frac{800}{10^{7}} = 1.84 \times 10^{-5}
+\tag{84}
+$$
+
+**Equation 85, Allen-Eggers Peak Ballistic Deceleration.**
+A ballistic body entering an exponential atmosphere on a straight path reaches a peak deceleration independent of its ballistic coefficient.
+[Scherberg and Rubin 1953][research_scherberg_rubin_1953]
+
+$$
+a_{\max} = \frac{v_{e}^{2} \sin \gamma}{2 e H}
+\tag{85}
+$$
+
+*Equation 86, Bespoke Peak Deceleration of a Representative Entry.*
+The entry is assumed at seven kilometres per second and thirty degrees.
+
+$$
+a_{\max} = \frac{7000^{2} \times 0.5}{2 \times 2.718 \times 7200} = 626 \, \text{m/s}^{2} = 64 g
+\tag{86}
+$$
+
+*Equation 87, Bespoke Wetted Tank Area.*
+The lateral area of the assumed 18 metre tank is 172 square metres.
+
+$$
+A = 2 \pi r L = 2 \pi \times 1.524 \times 18 = 172 \, \text{m}^{2}
+\tag{87}
+$$
+
+*Equation 88, Bespoke Heat Leak Into an Uninsulated Tank.*
+The heat flow assumes a convective coefficient of ten watts per square metre kelvin across a two hundred kelvin difference.
+
+$$
+\dot{Q} = h A \Delta T = 10 \times 172 \times 200 = 345 \, \text{kW}
+\tag{88}
+$$
+
+*Equation 89, Bespoke Liquid Oxygen Boil-Off Rate.*
+The assumed heat leak divided by a latent heat of 213 kilojoules per kilogramme gives 1.62 kilogrammes per second.
+
+$$
+\dot{m}_{\text{boil}} = \frac{\dot{Q}}{L_{v}} = \frac{3.45 \times 10^{5}}{2.13 \times 10^{5}} = 1.62 \, \text{kg/s}
+\tag{89}
+$$
+
+**Equation 90, Centripetal Acceleration at the Tip of a Tumbling Body.**
+A body of length $L$ rotating about its centre at rate $\Omega$ loads its tip with the square of the rate times the half-length.
+
+$$
+a_{\text{tip}} = \Omega^{2} \frac{L}{2}
+\tag{90}
+$$
+
+*Equation 91, Bespoke Tip Acceleration of the First Flight.*
+The tumble is assumed at one revolution per second, since no source gives the rate.
+
+$$
+a_{\text{tip}} = (2 \pi)^{2} \times 11.6 = 458 \, \text{m/s}^{2} = 47 g
+\tag{91}
+$$
+
+*Equation 92, Bespoke Fraction of Intercontinental Range Flown.*
+Six hundred statute and nautical miles are set against the representative 10,000 kilometre range.
+
+$$
+\frac{600 \times 1.609}{10{,}000} = 0.097, \qquad \frac{600 \times 1.852}{10{,}000} = 0.111
+\tag{92}
+$$
+
+**Equation 93, Burnout Speed for Six Hundred Statute Miles.**
+Inverting the range law for a minimum-energy arc of 965.6 kilometres gives 2,966 metres per second.
+
+$$
+\sin \frac{\Phi}{2} = \sin \frac{965.6}{2 \times 6371} = 0.0757, \qquad \lambda = \frac{2 \times 0.0757}{1 + 0.0757} = 0.1408, \qquad v_{bo} = \sqrt{0.1408 \times 9.80665 \times 6.371 \times 10^{6}} = 2966 \, \text{m/s}
+\tag{93}
+$$
+
+**Equation 94, Burnout Speed for Six Hundred Nautical Miles.**
+Inverting the range law for a minimum-energy arc of 1,111.2 kilometres gives 3,164 metres per second.
+
+$$
+\sin \frac{\Phi}{2} = \sin \frac{1111.2}{2 \times 6371} = 0.0871, \qquad \lambda = \frac{2 \times 0.0871}{1 + 0.0871} = 0.1602, \qquad v_{bo} = \sqrt{0.1602 \times 9.80665 \times 6.371 \times 10^{6}} = 3164 \, \text{m/s}
+\tag{94}
+$$
+
+**Equation 95, Binomial Standard Error of the Success Rate.**
+Three successes in eight independent flights give a success rate of 0.375 with a standard error of 0.171.
+
+$$
+\sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}} = \sqrt{\frac{0.234}{8}} = 0.171
+\tag{95}
+$$
+
+*Equation 96, Bespoke Standard Error of a Four-Flight Estimate.*
+The success rate of each half of the series is taken as one half, the value that maximises the error.
+
+$$
+\sigma = \sqrt{\frac{p(1-p)}{4}} = 0.25
+\tag{96}
+$$
+
+**Equation 97, Flights Needed for a Given Standard Error.**
+Inverting the binomial standard error gives the number of trials that achieve a chosen precision.
+
+$$
+n = \frac{p (1-p)}{\sigma_{\hat{p}}^{2}}
+\tag{97}
+$$
+
+*Equation 98, Bespoke Flights for Five-Point Precision.*
+A true reliability near one half and a target of five percentage points are assumed.
+
+$$
+n = \frac{0.25}{0.05^{2}} = 100 \, \text{flights}
+\tag{98}
+$$
+
+*Equation 99, Bespoke Band of Buckling Scatter.*
+The experimental scatter is assumed to run from fifteen to sixty percent of the classical value.
+
+$$
+0.15 \leq \frac{\sigma_{\exp}}{\sigma_{cr}} \leq 0.60 \qquad \frac{0.60}{0.15} = 4
+\tag{99}
+$$
+
+*Equation 100, Bespoke Position of the Design Knockdown in the Band.*
+The adopted factor of 0.2 lies eleven percent of the way up the assumed band.
+
+$$
+\frac{0.20 - 0.15}{0.60 - 0.15} = 0.11
+\tag{100}
+$$
+
+**Equation 101, Circular Orbital Speed at Two Hundred Kilometres.**
+The square root of the gravitational parameter over the orbital radius gives 7,788 metres per second.
+
+$$
+v_{\text{orb}} = \sqrt{\frac{\mu}{R_{e} + h}} = \sqrt{\frac{3.986 \times 10^{14}}{6.571 \times 10^{6}}} = 7788 \, \text{m/s}
+\tag{101}
+$$
+
+*Equation 102, Bespoke Speed Deficit to Low Orbit.*
+The orbital speed exceeds the burnout speed of the representative 10,000 kilometre arc by 595 metres per second.
+
+$$
+v_{\text{orb}} - v_{bo} = 595 \, \text{m/s}
+\tag{102}
+$$
+
+*Equation 103, Bespoke Stage Structure of a Two-Stage Alternative.*
+The propellant is split equally between two stages, each with the same structural fraction $f$ of its own loaded mass.
+
+$$
+m_{s} = \frac{f \, m_{p} / 2}{1 - f}
+\tag{103}
+$$
+
+*Equation 104, Bespoke Ideal Velocity of a Two-Stage Alternative.*
+The rocket equation is summed over the two equal-propellant stages of the alternative vehicle.
+
+$$
+\Delta v = v_{e} \left[ \ln \frac{m_{\text{all}}}{m_{\text{all}} - m_{p}/2} + \ln \frac{m_{2}}{m_{s}} \right]
+\tag{104}
+$$
+
+**Equation 105, Planned Series A Gross Mass Against Series C and D.**
+The 181,000 pound Series A missile is 0.745 of the 243,000 pound Series C and D figure in the same source.
+[Cleary 1991 The 6555th, Missile and Space Launches Through 1970][ref_cleary_1991]
+
+$$
+\frac{181{,}000}{243{,}000} = 0.745
+\tag{105}
+$$
+
+### Notation
+
+- $\Delta v$, the ideal velocity increment
+- $v_{e}$, the effective exhaust velocity, and in Equation 85 the entry speed
+- $m_{0}$, the gross mass at lift-off
+- $m_{f}$, the burnout mass
+- $m_{s}$, the structural mass, and in Equation 103 the structure of one stage
+- $m_{p}$, the propellant mass
+- $v_{bo}$, the burnout speed
+- $v_{\text{loss}}$, the calibrated gravity and drag loss
+- $\Phi$, the central range angle
+- $\lambda$, the ratio of burnout kinetic energy to that of a grazing circular orbit
+- $R_{e}$, the radius of the Earth
+- $g$, the standard gravitational acceleration
+- $r$, the tank radius
+- $t$, the skin thickness, and in Equations 52, 53 and 57 the time since lift-off
+- $p$, a pressure, and in Equations 95 to 98 the probability of a successful flight
+- $\sigma_{\theta}$, the hoop stress
+- $\sigma_{z}$, the axial stress
+- $\rho$, a density of propellant, air or steel by section
+- $MR$, the oxidizer-to-fuel mixture ratio
+- $m_{N_{2}}$, the mass of standing nitrogen
+- $E$, the Young's modulus of the skin
+- $\nu$, the Poisson ratio of the skin
+- $\sigma_{cr}$, the classical axial buckling stress
+- $\sigma_{\text{allow}}$, the knocked-down buckling allowable
+- $P_{cr}$, the Euler critical load
+- $K$, the effective length factor
+- $p_{\text{req}}$, the pressure required to offset buckling
+- $M_{\text{crit}}$, the bending moment at which pressure tension is cancelled
+- $C_{D}$, the drag coefficient of the cylinder
+- $D$, the vehicle diameter
+- $L$, the vehicle or tank length
+- $N_{x}$, the axial running load on a stiffened wall
+- $\dot{m}$, the propellant mass flow
+- $H$, the atmospheric scale height
+- $t_{q}$, the time of maximum dynamic pressure
+- $C_{N\alpha}$, the normal-force slope per radian
+- $\alpha$, the angle of attack
+- $m_{1}$, the mass at staging after jettison
+- $m_{j}$, the jettisoned booster mass
+- $t_{b}$, the booster burn time
+- $k_{p}$, the proof factor
+- $k_{b}$, the burst factor
+- $\tau_{\text{skin}}$, the thermal time constant of the skin
+- $\delta$, the skin thickness in the thermal relation
+- $P_{\text{ac}}$, the radiated acoustic power
+- $L_{p}$, the sound pressure level
+- $\omega_{s}$, the first lateral slosh frequency
+- $g_{\text{eff}}$, the effective gravity under axial acceleration
+- $f_{1}$, the first axial mode frequency of a solid bar
+- $\gamma$, the entry flight path angle
+- $L_{v}$, the latent heat of vaporisation of liquid oxygen
+- $\Omega$, the tumble rate
+- $\sigma_{\hat{p}}$, the standard error of the estimated success rate
+- $\mu$, the gravitational parameter of the Earth
+- $f$, the structural fraction of each stage of the two-stage alternative
+- $m_{\text{all}}$, the gross mass of the two-stage alternative
 
 ## References
 

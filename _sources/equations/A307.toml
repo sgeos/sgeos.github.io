@@ -1,0 +1,1291 @@
+# Equation classification for A307. Read by `python3 _lib/equations.py`.
+
+caution = "The equations use SI units unless historical values are converted, gyro drift is also given in degrees per hour and angular errors in arcseconds, and symbols such as gamma, n, R, a, c, e, r, s, p, T and mu have different meanings between sections while Re denotes Reynolds number and R_e the Earth radius."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Speed of Sound at 24 Kilometres"
+gloss = "At 24 kilometres the ideal-gas speed of sound is 297.8 metres per second using the standard atmosphere temperature."
+cite = ["ref_parsch_sm64"]
+digest = "88290330f49caf96"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Cruise Time over the Mission Range"
+gloss = "The ten-million-metre mission range divided by the cruise speed gives a flight time of 10,333 seconds."
+cite = ["ref_parsch_sm64"]
+digest = "0aa35765920f3f8e"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Secular Inertial Position Error"
+gloss = "For a level platform the position error from constant gyroscope drift grows as Earth radius times drift rate times elapsed time."
+cite = ["book_britting_1971", "book_titterton_weston_2004"]
+digest = "070826967fed3169"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Required Gyroscope Drift Rate from the Weapon Accuracy Goal"
+gloss = "The calculation treats the entire reported circular error probable as position error from gyroscope drift over the mission, yielding 1.215 times ten to the minus eight radians per second."
+cite = ["ref_cep", "ref_astronautix_navaho"]
+digest = "8b42b2919c55cf92"
+
+[[equation]]
+tag = 5
+class = "bespoke"
+title = "Bespoke Required Drift Rate in Degrees per Hour"
+gloss = "Converting the rate derived by allocating the entire reported circular error probable to gyroscope drift from radians per second gives 0.0025 degrees per hour."
+cite = []
+digest = "bd00095abfb030e1"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Achieved Drift Rate from Reported Position Error"
+gloss = "The calculation attributes all reported position error growth of 1.6 kilometres per hour to gyroscope drift, giving an equivalent drift of 0.0144 degrees per hour."
+cite = ["ref_astronautix_navaho"]
+digest = "39f09147b2d3b252"
+
+[[equation]]
+tag = 7
+class = "bespoke"
+title = "Bespoke Drift Shortfall Factor"
+gloss = "The reported achieved drift is 5.74 times the required rate obtained by allocating the whole circular error probable to gyroscope drift."
+cite = ["ref_astronautix_navaho"]
+digest = "0dd86bb230c17501"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Accelerometer Error Equation"
+gloss = "The velocity error changes with platform tilt under gravity and with accelerometer bias."
+cite = ["research_lange_parkinson_1965", "book_britting_1971"]
+digest = "0c9ec008d7a434f2"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Platform Tilt Error Equation"
+gloss = "The platform tilt rate is the velocity error divided by Earth radius plus gyroscope drift."
+cite = ["research_lange_parkinson_1965", "book_britting_1971"]
+digest = "a923d85cd9869c15"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Second-Order Schuler Error Equation"
+gloss = "Eliminating platform tilt from the inertial error equations gives a forced oscillator with gyroscope drift as its forcing."
+cite = ["research_lange_parkinson_1965", "book_britting_1971"]
+digest = "8ead9ef1d974e1ad"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Undamped Velocity Error Solution"
+gloss = "The homogeneous Schuler error equation has a sine and cosine solution at its natural frequency."
+cite = ["research_lange_parkinson_1965", "book_britting_1971"]
+digest = "b95e276f097d0e72"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Schuler Frequency"
+gloss = "The Schuler frequency is the square root of gravity divided by Earth radius, evaluated here for Earth."
+cite = ["ref_schuler"]
+digest = "2d7b2ca99636cee1"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "Schuler Period"
+gloss = "The Schuler period is the period corresponding to the natural frequency of the inertial platform."
+cite = ["ref_schuler"]
+digest = "d114e922bfeb3c91"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Bounded Position Error from Accelerometer Bias"
+gloss = "A constant accelerometer bias produces a bounded Schuler position error with amplitude set by the bias and Earth radius."
+cite = ["research_lange_parkinson_1965", "book_britting_1971"]
+digest = "a2230d296f8defcf"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "Secular Position Error from Gyroscope Drift"
+gloss = "Gyroscope drift forces the Schuler loop and produces a position error containing a secular ramp."
+cite = ["research_lange_parkinson_1965", "book_britting_1971"]
+digest = "a3d638597cc55184"
+
+[[equation]]
+tag = 16
+class = "bespoke"
+title = "Bespoke Error from a Representative Accelerometer Bias"
+gloss = "The bounded position error uses the representative bias of one ten-thousandth of gravity for a good instrument of the period."
+cite = ["research_staas_c_1963", "research_lange_parkinson_1965"]
+digest = "59175fbf40aaf4c8"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Crossover Time Between the Error Sources"
+gloss = "Equating the growing drift error with the maximum bounded bias error gives the time when the two contributions are equal."
+cite = ["research_whitcombe_1961", "book_britting_1971"]
+digest = "5c8507ef99e18a48"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Crossover Time for the Reported Instruments"
+gloss = "The crossover time evaluates the equality using the representative accelerometer bias and the reported achieved gyro drift."
+cite = ["ref_astronautix_navaho"]
+digest = "b92a13b2414940fe"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Bounded Position Error from Platform Tilt"
+gloss = "A residual platform tilt produces a bounded position error equal to twice Earth radius times the tilt."
+cite = ["research_lange_parkinson_1965", "book_britting_1971"]
+digest = "32da10a83ce3e8f7"
+
+[[equation]]
+tag = 20
+class = "bespoke"
+title = "Bespoke Residual Tilt at the Navaho Goal"
+gloss = "Applying the weapon-wide 457 metre accuracy goal to the stellar inertial system gives a residual tilt of 7.4 arcseconds."
+cite = ["ref_cleary_1991"]
+digest = "3420de7b5b3c0777"
+
+[[equation]]
+tag = 21
+class = "bespoke"
+title = "Bespoke Azimuth Error at the Navaho Goal"
+gloss = "Applying the same 457 metre goal over the reported mission range gives an azimuth error of 9.4 arcseconds."
+cite = ["ref_cleary_1991"]
+digest = "fba52fa9f988b1d0"
+
+[[equation]]
+tag = 22
+class = "bespoke"
+title = "Bespoke Drift Error Relative to Stellar Accuracy"
+gloss = "The reported gyro drift produces ten times the stellar system accuracy goal over the mission range."
+cite = ["ref_astronautix_navaho", "ref_cleary_1991"]
+digest = "88f483e6f8bddbe1"
+
+[[equation]]
+tag = 23
+class = "standard"
+title = "Time Between Star Fixes"
+gloss = "The time for drift to regrow the stellar accuracy error is the error divided by Earth radius times drift rate."
+cite = ["research_horsfall_1958", "research_blumhagen_1963"]
+digest = "43f97c8dea345d16"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Vertical Channel Error Equation"
+gloss = "Linearising the gravity gradient gives an unstable altitude error equation with a positive growth term."
+cite = ["research_schenkel_1974"]
+digest = "886b6a2174ff0461"
+
+[[equation]]
+tag = 25
+class = "standard"
+title = "Vertical Error Time Constant"
+gloss = "The vertical error time constant is the square root of Earth radius divided by twice gravity."
+cite = ["research_schenkel_1974"]
+digest = "df782ed63af3ccbc"
+
+[[equation]]
+tag = 26
+class = "standard"
+title = "Vertical Error Doubling Time"
+gloss = "An exponential vertical error with the stated time constant doubles after that time constant multiplied by the natural logarithm of two."
+cite = ["research_schenkel_1974"]
+digest = "a2e9532a557528d2"
+
+[[equation]]
+tag = 27
+class = "standard"
+title = "Vertical Error Growth over the Mission"
+gloss = "The mission duration divided by the vertical error time constant gives an exponential growth factor of 7.5 times ten to the seventh."
+cite = ["research_schenkel_1974"]
+digest = "93b34193d71e4e99"
+
+[[equation]]
+tag = 28
+class = "standard"
+title = "Bounded Error from Vertical Deflection"
+gloss = "A deflection of the vertical produces a bounded position error equal to twice Earth radius times the deflection."
+cite = ["ref_vertical_deflection"]
+digest = "4109c89fec944e8e"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "Position Error from a Ten-Arcsecond Deflection"
+gloss = "A ten-arcsecond vertical deflection produces 618 metres of position error."
+cite = ["ref_vertical_deflection"]
+digest = "624df96ee4062b45"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Linear Temperature Dependence of Gyroscope Drift"
+gloss = "The first-order drift model changes linearly with temperature from its reference value."
+cite = ["research_grubin_1975", "research_metzger_jircitano_1975", "research_gerber_1975"]
+digest = "d628f88ab46a4365"
+
+[[equation]]
+tag = 31
+class = "bespoke"
+title = "Bespoke Platform Temperature Control"
+gloss = "The platform must remain within a quarter kelvin when the representative drift sensitivity is one hundredth of a degree per hour per kelvin."
+cite = ["research_grubin_1975"]
+digest = "33887b80ecb2e82d"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Drift from a One-Kelvin Temperature Change"
+gloss = "A one-kelvin temperature change produces drift of 0.01 degrees per hour under the representative sensitivity."
+cite = ["research_grubin_1975"]
+digest = "a2b686924ca4483f"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Independent Error Combination"
+gloss = "Independent position error contributions combine as the square root of the sum of their variances."
+cite = ["research_mahlmeister_1955", "research_chen_1958", "research_kendall_gonzalez_1965"]
+digest = "7bd9c4c2b3606981"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Pure-Inertial Error Budget"
+gloss = "The four article-selected inertial error contributions combine to a total position error of 5,617 metres."
+cite = ["research_mahlmeister_1955", "research_chen_1958", "research_kendall_gonzalez_1965"]
+digest = "d127f5a56284d4d2"
+
+[[equation]]
+tag = 35
+class = "bespoke"
+title = "Bespoke Shares of the Error Variance"
+gloss = "The article's four error sources contribute the listed fractions of the total variance."
+cite = ["research_mahlmeister_1955", "research_chen_1958", "research_kendall_gonzalez_1965"]
+digest = "6a01dc6839d86b70"
+
+[[equation]]
+tag = 36
+class = "bespoke"
+title = "Bespoke Stellar-Inertial Error Budget"
+gloss = "Replacing the drift and alignment terms with the stellar residual gives a total error of 1,488 metres."
+cite = ["ref_cleary_1991", "research_mahlmeister_1955"]
+digest = "7c2575610273b80d"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Cross-Track Error from Azimuth Misalignment"
+gloss = "A small azimuth error produces a cross-track error equal to the angle times the mission range."
+cite = ["research_remmler_theobald_1967", "research_dusek_1964_2"]
+digest = "5fd61ab7c152ef93"
+
+[[equation]]
+tag = 38
+class = "bespoke"
+title = "Bespoke Cross-Track Error from One Arcminute"
+gloss = "A chosen one-arcminute launch misalignment over ten thousand kilometres produces 2,909 metres of cross-track error."
+cite = ["research_dasaro_1970"]
+digest = "c4d5cf9743fbf056"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Required Drift Rate in Terms of Mission Range"
+gloss = "Substituting mission time as range divided by speed makes the required drift rate inversely proportional to mission range."
+cite = ["ref_navaho"]
+digest = "4489b2d359cb7d47"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Drift Requirement Across Two Mission Ranges"
+gloss = "At fixed accuracy and speed the required drift rates have the inverse ratio of the two reported mission ranges."
+cite = ["ref_navaho"]
+digest = "4cb1adc869270e05"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Relative Standard Error of a Sample Standard Deviation"
+gloss = "For normally distributed samples the relative standard error of the sample standard deviation is approximately one over the square root of twice the degrees of freedom."
+cite = []
+digest = "e60ee443606fcd0a"
+
+[[equation]]
+tag = 42
+class = "bespoke"
+title = "Bespoke Sample Count for Twenty-Percent Precision"
+gloss = "The selected twenty-percent precision target requires at least fourteen samples of a normal quantity."
+cite = []
+digest = "4def8243d5c540af"
+
+[[equation]]
+tag = 43
+class = "standard"
+title = "Standard-Deviation Error with Five Samples"
+gloss = "Five samples give an estimated standard deviation with relative standard error of about 35 percent."
+cite = ["book_werrell_1985", "ref_astronautix_navaho"]
+digest = "711c99634cad2d84"
+
+[[equation]]
+tag = 44
+class = "standard"
+title = "Standard-Deviation Error with Three Samples"
+gloss = "Three samples give an estimated standard deviation with relative standard error of 50 percent."
+cite = ["book_werrell_1985", "ref_astronautix_navaho"]
+digest = "5fb2ca456e026989"
+
+[[equation]]
+tag = 45
+class = "bespoke"
+title = "Bespoke X-10 Leg Duration"
+gloss = "A selected thousand-kilometre leg at the X-10 maximum speed takes 1,653 seconds."
+cite = ["ref_x10", "ref_parsch_x10"]
+digest = "b3f96fb9c51cd67e"
+
+[[equation]]
+tag = 46
+class = "bespoke"
+title = "Bespoke Leg Duration Relative to the Crossover"
+gloss = "The selected maximum-speed leg lasts 0.58 times the calculated crossover time."
+cite = ["ref_x10", "ref_parsch_x10"]
+digest = "651b869d8019e07b"
+
+[[equation]]
+tag = 47
+class = "bespoke"
+title = "Bespoke Gyroscope Error on the X-10 Leg"
+gloss = "The reported achieved drift accumulates 735 metres of position error during the selected X-10 leg."
+cite = ["ref_astronautix_navaho", "ref_x10"]
+digest = "2d326d59080cc1cb"
+
+[[equation]]
+tag = 48
+class = "bespoke"
+title = "Bespoke Accelerometer Error on the X-10 Leg"
+gloss = "The representative accelerometer bias produces 931 metres of bounded error over the selected leg."
+cite = ["research_staas_c_1963", "ref_x10"]
+digest = "5e46b023856d8b5d"
+
+[[equation]]
+tag = 49
+class = "bespoke"
+title = "Bespoke Combined Error Signatures"
+gloss = "The measured position error is modelled as a bounded Schuler term plus a secular drift term with article-specific coefficients."
+cite = ["research_lange_parkinson_1965", "book_britting_1971"]
+digest = "6be053eec5e2a77d"
+
+[[equation]]
+tag = 50
+class = "bespoke"
+title = "Bespoke Orthogonality over One Schuler Period"
+gloss = "The article's centred accelerometer and gyroscope error signatures integrate to zero correlation over one full Schuler period."
+cite = ["research_lange_parkinson_1965"]
+digest = "7356117c8fc14f07"
+
+[[equation]]
+tag = 51
+class = "bespoke"
+title = "Bespoke Error-Signature Correlations"
+gloss = "The correlation of the two modelled error signatures is evaluated over the X-10 and Navaho flight durations."
+cite = ["ref_x10", "ref_navaho"]
+digest = "a405449d656c0d48"
+
+[[equation]]
+tag = 52
+class = "standard"
+title = "Variance Inflation Factor"
+gloss = "The variance inflation factor for two correlated predictors is one over one minus their squared correlation."
+cite = []
+digest = "5bbaf98c26ba6548"
+
+[[equation]]
+tag = 53
+class = "bespoke"
+title = "Bespoke Subsonic X-10 Leg Speed"
+gloss = "Mach 0.9 at twelve kilometres gives a speed of 265.6 metres per second under the standard atmosphere."
+cite = ["ref_x10"]
+digest = "66950f27245ecac5"
+
+[[equation]]
+tag = 54
+class = "bespoke"
+title = "Bespoke Subsonic X-10 Leg Duration"
+gloss = "The selected thousand-kilometre subsonic leg takes 3,766 seconds."
+cite = ["ref_x10"]
+digest = "6b3452d92dcd02ef"
+
+[[equation]]
+tag = 55
+class = "standard"
+title = "Wing Aspect Ratio"
+gloss = "Wing span squared divided by reference area gives an aspect ratio of 1.87."
+cite = ["ref_x10", "ref_parsch_x10"]
+digest = "acbcff8e25ac81d1"
+
+[[equation]]
+tag = 56
+class = "standard"
+title = "Static Margin in Chord Units"
+gloss = "The static margin is the aerodynamic-centre to centre-of-gravity distance divided by mean chord."
+cite = ["research_pfyl_1952"]
+digest = "f55a0188e98942a1"
+
+[[equation]]
+tag = 57
+class = "standard"
+title = "Pitching-Moment Slope from Static Margin"
+gloss = "The pitching-moment slope is the negative lift-curve slope times the static margin in chord units."
+cite = ["research_pfyl_1952", "research_bond_swanson_1953"]
+digest = "09d1e1df8396ae35"
+
+[[equation]]
+tag = 58
+class = "standard"
+title = "Minimum Drag Components"
+gloss = "The minimum drag coefficient is the sum of friction, wave and base drag coefficients."
+cite = []
+digest = "2b04f8f80f8265a9"
+
+[[equation]]
+tag = 59
+class = "bespoke"
+title = "Bespoke Wave-Drag Difference"
+gloss = "The article infers wave drag by subtracting the reported subsonic minimum drag from the supersonic value."
+cite = ["ref_x10"]
+digest = "731e57e32631fc2a"
+
+[[equation]]
+tag = 60
+class = "standard"
+title = "Base-Drag Fraction of Minimum Drag"
+gloss = "The reported base-drag fraction applied to the total minimum drag gives a coefficient of 0.010."
+cite = ["ref_x10"]
+digest = "ec5f618db29b5f68"
+
+[[equation]]
+tag = 61
+class = "standard"
+title = "Normal-Shock Total-Pressure Recovery"
+gloss = "The normal-shock relation gives the downstream to upstream total-pressure ratio for a perfect gas."
+cite = ["research_gillespie_arbic_1951"]
+digest = "d201bc8070aba267"
+
+[[equation]]
+tag = 62
+class = "standard"
+title = "Normal-Shock Recovery at Mach 1.70"
+gloss = "The normal-shock total-pressure ratio at the tested Mach number 1.70 is 0.856."
+cite = ["research_gillespie_arbic_1951"]
+digest = "dd13b43d45ae6d8d"
+
+[[equation]]
+tag = 63
+class = "bespoke"
+title = "Bespoke Two-Shock Inlet Recovery"
+gloss = "The article's sixteen-degree wedge and maximum Mach number give a two-shock total-pressure recovery of 0.889."
+cite = ["research_gillespie_arbic_1951"]
+digest = "95be5610025ad4c1"
+
+[[equation]]
+tag = 64
+class = "bespoke"
+title = "Bespoke Recovery Gain over a Normal Shock"
+gloss = "The selected two-shock inlet recovers 1.275 times the total pressure of a normal shock at the same Mach number."
+cite = ["research_gillespie_arbic_1951"]
+digest = "2a6dec5188b3babd"
+
+[[equation]]
+tag = 65
+class = "standard"
+title = "Isentropic Ram Total-Pressure Ratio"
+gloss = "For a perfect gas the isentropic total-to-static pressure ratio depends on Mach number and specific-heat ratio."
+cite = ["book_anderson_2002_modern_compressible"]
+digest = "976067ac92ef3ab3"
+
+[[equation]]
+tag = 66
+class = "bespoke"
+title = "Bespoke Break-Even Inlet Recovery"
+gloss = "Equating the thrust available after inlet recovery with the article's drag gives the minimum recovery needed to sustain the recorded speed."
+cite = ["ref_j40"]
+digest = "bc2f207b91f55de6"
+
+[[equation]]
+tag = 67
+class = "bespoke"
+title = "Bespoke Recovery Relative to a Normal Shock"
+gloss = "The break-even recovery is 0.892 times the normal-shock recovery at the X-10 maximum Mach number."
+cite = ["ref_j40"]
+digest = "1e65cc2122d1c091"
+
+[[equation]]
+tag = 68
+class = "standard"
+title = "Dynamic Pressure at the X-10 Ceiling"
+gloss = "The standard-atmosphere density and reported maximum Mach number give a dynamic pressure of 43,838 pascals."
+cite = ["book_anderson_2002_modern_compressible"]
+digest = "97b8d26308e9ff5a"
+
+[[equation]]
+tag = 69
+class = "standard"
+title = "Lift Coefficient at Maximum Take-Off Mass"
+gloss = "The coefficient needed to support the reported maximum take-off mass at the X-10 ceiling is 0.109."
+cite = ["ref_x10"]
+digest = "e19fd8dd5e75545c"
+
+[[equation]]
+tag = 70
+class = "bespoke"
+title = "Bespoke Lift-to-Drag Ratio at the Ceiling"
+gloss = "The article's drag estimate uses an assumed induced-drag efficiency of 0.6 and gives a lift-to-drag ratio of 2.51."
+cite = ["ref_x10"]
+digest = "6c7b03b1388ae65f"
+
+[[equation]]
+tag = 71
+class = "standard"
+title = "Breguet Jet-Range Equation"
+gloss = "The jet range equation relates speed, gravity, thrust-specific fuel consumption, lift-to-drag ratio and mass ratio."
+cite = []
+digest = "bc8834b1c427e712"
+
+[[equation]]
+tag = 72
+class = "bespoke"
+title = "Bespoke Range with a Generous Fuel Consumption"
+gloss = "A one-per-hour fuel consumption and an assumed mass ratio of 1.8 give 327 kilometres at the selected cruise condition."
+cite = []
+digest = "24809a7248f97c65"
+
+[[equation]]
+tag = 73
+class = "standard"
+title = "Fuel Fraction from Reported Masses"
+gloss = "The reported fuel load is 39 percent of the maximum take-off mass."
+cite = ["ref_x10"]
+digest = "f7d8b5288b1a2a5b"
+
+[[equation]]
+tag = 74
+class = "standard"
+title = "Mass Ratio from Reported Weights"
+gloss = "The reported maximum take-off and empty weights give a mass ratio of 1.64."
+cite = ["ref_x10"]
+digest = "d48161df858269a4"
+
+[[equation]]
+tag = 75
+class = "bespoke"
+title = "Bespoke Range with the Reported Mass Ratio"
+gloss = "Substituting the reported mass ratio into the article's assumed cruise model gives 275 kilometres."
+cite = ["ref_x10"]
+digest = "e5b0fc493607ee1d"
+
+[[equation]]
+tag = 76
+class = "bespoke"
+title = "Bespoke Reported Ranges Relative to the Model"
+gloss = "The two reported ranges are 3.67 and 4.98 times the article's calculated maximum-Mach range."
+cite = ["ref_x10", "ref_parsch_x10"]
+digest = "5fa7f0d95213497f"
+
+[[equation]]
+tag = 77
+class = "bespoke"
+title = "Bespoke Lift-to-Drag Ratio Required by the Reported Range"
+gloss = "At the selected subsonic speed and fuel consumption the smaller reported range requires a lift-to-drag ratio of 20.9."
+cite = ["ref_x10", "ref_parsch_x10"]
+digest = "30f140cda807e2a2"
+
+[[equation]]
+tag = 78
+class = "standard"
+title = "Availability of at Least One Independent System"
+gloss = "For two independent systems the probability that at least one is available is one minus the probability that both fail."
+cite = ["research_lichter_friedenreich_1962"]
+digest = "63bf9cc73317b034"
+
+[[equation]]
+tag = 79
+class = "bespoke"
+title = "Bespoke Availability of Two Ninety-Five-Percent Systems"
+gloss = "Two systems each assigned 95 percent availability have a combined availability of 99.75 percent."
+cite = ["research_lichter_friedenreich_1962"]
+digest = "1573290f3d84bbd2"
+
+[[equation]]
+tag = 80
+class = "standard"
+title = "Short-Period Frequency Approximation"
+gloss = "A textbook approximation estimates natural frequency from pitch stiffness alone, omitting the other short-period terms."
+cite = ["research_bond_swanson_1953"]
+digest = "74dc849953a1fead"
+
+[[equation]]
+tag = 81
+class = "bespoke"
+title = "Bespoke Pitch Frequency at Mach 0.95"
+gloss = "The selected static margin and three-percent allowance give a frequency of 0.63 radians per second at Mach 0.95."
+cite = ["research_bond_swanson_1953"]
+digest = "f0f2df7220385f7d"
+
+[[equation]]
+tag = 82
+class = "bespoke"
+title = "Bespoke Pitch Frequency at Mach 2.05"
+gloss = "The selected static margin and ten-percent allowance give a frequency of 2.03 radians per second at Mach 2.05."
+cite = ["research_zarovsky_1951"]
+digest = "6cb74b641a564804"
+
+[[equation]]
+tag = 83
+class = "standard"
+title = "Net Thrust Scaling with Total-Pressure Recovery"
+gloss = "At fixed engine geometry the net thrust scales approximately with inlet total-pressure recovery and the ram pressure ratio."
+cite = ["ref_j40"]
+digest = "d7c8c45f005784b9"
+
+[[equation]]
+tag = 84
+class = "standard"
+title = "Recovery Temperature"
+gloss = "The recovery temperature is the freestream temperature multiplied by the recovery-factor correction for Mach number."
+cite = ["research_besserer_1952", "research_vault_1957"]
+digest = "6a4049ca33933f3c"
+
+[[equation]]
+tag = 85
+class = "standard"
+title = "X-10 Recovery Temperature at Maximum Mach"
+gloss = "The standard-atmosphere temperature and reported maximum Mach number give a recovery temperature of 378.7 kelvin."
+cite = ["research_besserer_1952", "research_vault_1957"]
+digest = "40046a2c9e470b8d"
+
+[[equation]]
+tag = 86
+class = "standard"
+title = "Navaho Recovery Temperature at Cruise"
+gloss = "The standard-atmosphere temperature and reported cruise Mach number give a recovery temperature of 635.5 kelvin."
+cite = ["ref_astronautix_navaho"]
+digest = "0be5452f2022f254"
+
+[[equation]]
+tag = 87
+class = "standard"
+title = "Mach Number at the Aluminium Temperature Limit"
+gloss = "Solving the recovery-temperature relation for Mach gives 2.27 at the conventional aluminium limit and the reported cruise altitude."
+cite = ["ref_astronautix_navaho"]
+digest = "fc8afb591fcd585e"
+
+[[equation]]
+tag = 88
+class = "standard"
+title = "Lumped Skin Thermal Time Constant"
+gloss = "A lumped skin model has a thermal time constant equal to density times heat capacity times thickness divided by the heat-transfer coefficient."
+cite = []
+digest = "0d3287429d713f15"
+
+[[equation]]
+tag = 89
+class = "bespoke"
+title = "Bespoke Skin Thermal Time Constant"
+gloss = "The selected two-millimetre aluminium skin and convective coefficient of 100 watts per square metre kelvin give a time constant of 48.6 seconds."
+cite = []
+digest = "ef60a54bb1087b29"
+
+[[equation]]
+tag = 90
+class = "standard"
+title = "Mission Reliability for Identical Subsystems"
+gloss = "If all n subsystems must work independently and each has reliability p the mission reliability is p raised to n."
+cite = ["research_biernson_1965", "research_davies_haines_1965", "research_marstrander_lueg_1969"]
+digest = "74068991d5269d23"
+
+[[equation]]
+tag = 91
+class = "bespoke"
+title = "Bespoke Mission Reliability for Ten Subsystems"
+gloss = "Ten subsystems at the selected 95 percent reliability each give a mission reliability of 59.9 percent."
+cite = ["ref_landis_2020_part_1", "research_blumenthal_denton_1962"]
+digest = "32e6dda74fd71a4a"
+
+[[equation]]
+tag = 92
+class = "bespoke"
+title = "Bespoke X-10 Stall Speed"
+gloss = "An assumed twelve-tonne landing mass and unit maximum lift coefficient give a sea-level stall speed of 69.8 metres per second."
+cite = ["ref_x10", "research_montgomery_1975"]
+digest = "3112b9acd8cf826e"
+
+[[equation]]
+tag = 93
+class = "bespoke"
+title = "Bespoke Landing Energy"
+gloss = "The selected twelve-tonne landing mass and 83.7-metre-per-second approach speed give 42 megajoules of kinetic energy."
+cite = ["ref_x10"]
+digest = "ee931477052e4abf"
+
+[[equation]]
+tag = 94
+class = "bespoke"
+title = "Bespoke Braking Distance"
+gloss = "At the selected friction coefficient of 0.4 the approach speed requires 893 metres to stop."
+cite = []
+digest = "8c3a192279fb0745"
+
+[[equation]]
+tag = 95
+class = "bespoke"
+title = "Bespoke Runway Margin"
+gloss = "The reported 3,048-metre runway is 3.41 times the calculated braking distance."
+cite = ["ref_cleary_1991"]
+digest = "7636121eaa61323e"
+
+[[equation]]
+tag = 96
+class = "bespoke"
+title = "Bespoke Drag-Chute Area"
+gloss = "The article sizes a chute to match the selected wheel-braking force at touchdown speed and obtains 7.83 square metres."
+cite = ["research_stowell_1948", "book_knacke_1992"]
+digest = "310446bd6145b40b"
+
+[[equation]]
+tag = 97
+class = "standard"
+title = "Sink Rate on a Glide Slope"
+gloss = "The vertical speed on a straight glide slope is forward speed times the negative sine of the flight-path angle."
+cite = ["research_macklnnon_madden_1972"]
+digest = "5c314cb94d823fd4"
+
+[[equation]]
+tag = 98
+class = "bespoke"
+title = "Bespoke Sink Rate at the Approach Condition"
+gloss = "The selected 83.7-metre-per-second approach speed and three-degree glide slope give a sink rate of 4.38 metres per second."
+cite = ["research_macklnnon_madden_1972"]
+digest = "43269b924b0a5ef6"
+
+[[equation]]
+tag = 99
+class = "standard"
+title = "Exponential Flare Model"
+gloss = "The article represents flare height as an exponential decay with its derivative set by the flare time constant."
+cite = ["research_payne_1968"]
+digest = "7483aae6072c71c0"
+
+[[equation]]
+tag = 100
+class = "standard"
+title = "Radio Horizon with Standard Refraction"
+gloss = "The radio horizon uses an effective Earth radius four thirds of the true radius under standard atmospheric refraction."
+cite = []
+digest = "5ba9b3f7dccb10de"
+
+[[equation]]
+tag = 101
+class = "standard"
+title = "Radio Horizon at the X-10 Service Ceiling"
+gloss = "At the reported service ceiling the effective-Earth-radius model gives a radio horizon of 482 kilometres."
+cite = ["ref_cleary_1991"]
+digest = "e2894ce0f1b0fd5d"
+
+[[equation]]
+tag = 102
+class = "bespoke"
+title = "Bespoke Radio Horizon Relative to a Thousand-Kilometre Leg"
+gloss = "The selected one-way leg is 2.08 times the radio horizon at the X-10 service ceiling."
+cite = ["ref_cleary_1991"]
+digest = "18b916b070f98a87"
+
+[[equation]]
+tag = 103
+class = "standard"
+title = "Level Turn Radius"
+gloss = "For a level coordinated turn the radius depends on speed and load factor through the square root of load factor squared minus one."
+cite = ["research_muehlner_1962", "research_rowlandson_herlihy_1969"]
+digest = "71bf8f9453092645"
+
+[[equation]]
+tag = 104
+class = "bespoke"
+title = "Bespoke Turn Radius at Maximum Speed"
+gloss = "At the X-10 maximum speed and the selected two-g load factor the turn radius is 21.5 kilometres."
+cite = ["ref_x10"]
+digest = "81c69d3ec6e86b52"
+
+[[equation]]
+tag = 105
+class = "bespoke"
+title = "Bespoke Course-Reversal Time"
+gloss = "A half-circle at the selected maximum speed and two-g turn radius takes 112 seconds."
+cite = ["ref_x10"]
+digest = "2ddf638d17e337f5"
+
+[[equation]]
+tag = 106
+class = "standard"
+title = "Dive Ground Range"
+gloss = "For a straight dive at flight-path angle gamma the ground range is altitude divided by the tangent of the angle."
+cite = ["research_wheeler_1946"]
+digest = "211661912f8fa5fd"
+
+[[equation]]
+tag = 107
+class = "standard"
+title = "Sensitivity of Dive Range to Flight-Path Angle"
+gloss = "Differentiating the dive-range relation gives its sensitivity to flight-path angle."
+cite = ["research_wheeler_1946"]
+digest = "f2a7b85be21f2205"
+
+[[equation]]
+tag = 108
+class = "bespoke"
+title = "Bespoke Dive-Range Sensitivity at Forty-Five Degrees"
+gloss = "From 24 kilometres at a selected 45-degree dive angle the range changes by 48 kilometres per radian."
+cite = ["research_wheeler_1946"]
+digest = "e307de531738f4e2"
+
+[[equation]]
+tag = 109
+class = "standard"
+title = "Fraction of Vehicles Lost"
+gloss = "The reported loss of twelve among thirteen vehicles is 92.3 percent."
+cite = ["research_dunmire_lopresti_1963", "research_broglio_1961", "ref_parsch_x10"]
+digest = "625ee26b926ce2ae"
+
+[[equation]]
+tag = 110
+class = "standard"
+title = "Reynolds Number"
+gloss = "The Reynolds number is density times speed times reference length divided by dynamic viscosity."
+cite = []
+digest = "917c4e85c3d28b87"
+
+[[equation]]
+tag = 111
+class = "standard"
+title = "Dynamic Viscosity from Sutherland Relation"
+gloss = "Sutherland's relation gives the dynamic viscosity of air from temperature."
+cite = []
+digest = "7c430072ff6456c8"
+
+[[equation]]
+tag = 112
+class = "standard"
+title = "Full-Scale Reynolds Number at the Ceiling"
+gloss = "The standard-atmosphere state and reported chord give a full-scale Reynolds number of 46.8 million."
+cite = ["related_post_a304_lockheed_x7"]
+digest = "ffc6089716bb4df2"
+
+[[equation]]
+tag = 113
+class = "standard"
+title = "Model Reynolds Number Relative to Full Scale"
+gloss = "The reported model Reynolds-number range spans 19 to 51 percent of the full-scale value."
+cite = ["related_post_a304_lockheed_x7"]
+digest = "24f19dff9bd2a1c8"
+
+[[equation]]
+tag = 114
+class = "standard"
+title = "Mission Central Angle"
+gloss = "The ten-thousand-kilometre surface range is 1.570 radians at the Earth's radius."
+cite = ["ref_parsch_sm64"]
+digest = "45ed15877e3f9d2f"
+
+[[equation]]
+tag = 115
+class = "standard"
+title = "Minimum-Energy Ballistic Speed Parameter"
+gloss = "For the minimum-energy ballistic trajectory the nondimensional burnout speed follows from the mission central angle."
+cite = ["ref_parsch_sm64"]
+digest = "2ff1f2e57bc9292d"
+
+[[equation]]
+tag = 116
+class = "standard"
+title = "Minimum-Energy Ballistic Speed"
+gloss = "The speed parameter gives a burnout speed of 7,193 metres per second for the selected range."
+cite = ["ref_parsch_sm64"]
+digest = "83a3608286b12910"
+
+[[equation]]
+tag = 117
+class = "standard"
+title = "Ballistic Semi-Major Axis"
+gloss = "The vis-viva relation gives the ballistic trajectory's semi-major axis from the speed parameter."
+cite = ["ref_parsch_sm64"]
+digest = "375828a95f136bf5"
+
+[[equation]]
+tag = 118
+class = "standard"
+title = "Minimum-Energy Ballistic Flight Time"
+gloss = "The difference in mean anomaly divided by mean motion gives the flight time on the minimum-energy trajectory."
+cite = ["ref_parsch_sm64"]
+digest = "dc5ace101e0e4b28"
+
+[[equation]]
+tag = 119
+class = "bespoke"
+title = "Bespoke Cruise-to-Ballistic Time Ratio"
+gloss = "At the selected ten-thousand-kilometre range the cruise vehicle remains in flight 5.35 times longer than the minimum-energy ballistic trajectory."
+cite = ["ref_parsch_sm64"]
+digest = "bc25386c4a966908"
+
+[[equation]]
+tag = 120
+class = "standard"
+title = "Modern Gyroscope Drift Relative to the Navaho Requirement"
+gloss = "The reported 0.003-degree-per-hour gyroscope drift is 1.20 times the historical 0.0025-degree-per-hour requirement."
+cite = ["research_chen_2025", "ref_astronautix_navaho"]
+digest = "a6963651d34b5228"
+
+[[equation]]
+tag = 121
+class = "standard"
+title = "Modern Gyroscope Drift Error over the Mission"
+gloss = "A reported gyroscope drift of 0.003 degrees per hour produces 957 metres of secular error over the Navaho mission."
+cite = ["research_chen_2025", "ref_astronautix_navaho"]
+digest = "01ef184276485fce"
+
+[[equation]]
+tag = 122
+class = "standard"
+title = "Isentropic Ram Pressure Ratio"
+gloss = "The ideal ram-pressure ratio at a given Mach number follows the perfect-gas isentropic relation."
+cite = ["book_hill_peterson_1991"]
+digest = "076015401f1c8825"
+
+[[equation]]
+tag = 123
+class = "standard"
+title = "Specific Energy of the Navaho Booster"
+gloss = "The booster speed and altitude give a specific mechanical energy of 0.571 megajoules per kilogram."
+cite = ["book_hill_peterson_1991", "research_reilly_welna_1955", "ref_cleary_1991"]
+digest = "630855715b0bac12"
+
+
+[[symbol]]
+tex = "a"
+meaning = "the speed of sound and later the semi-major axis"
+[[symbol]]
+tex = "\\gamma"
+meaning = "the ratio of specific heats and in the dive relation the flight-path angle"
+[[symbol]]
+tex = "R"
+meaning = "the universal gas constant and the range in the Breguet relation"
+[[symbol]]
+tex = "T"
+meaning = "the atmospheric temperature, the Schuler period and the engine thrust"
+[[symbol]]
+tex = "t"
+meaning = "elapsed time"
+[[symbol]]
+tex = "R_{\\text{mission}}"
+meaning = "the Navaho mission range"
+[[symbol]]
+tex = "v"
+meaning = "vehicle speed"
+[[symbol]]
+tex = "\\delta x_{\\text{secular}}"
+meaning = "the secular position error from gyroscope drift"
+[[symbol]]
+tex = "R_{e}"
+meaning = "the radius of the Earth"
+[[symbol]]
+tex = "\\varepsilon"
+meaning = "the gyroscope drift rate"
+[[symbol]]
+tex = "\\mathrm{CEP}"
+meaning = "the circular error probable"
+[[symbol]]
+tex = "\\delta v"
+meaning = "the inertial navigator velocity error"
+[[symbol]]
+tex = "g"
+meaning = "gravitational acceleration"
+[[symbol]]
+tex = "\\phi"
+meaning = "the platform tilt from the vertical"
+[[symbol]]
+tex = "\\nabla"
+meaning = "the accelerometer bias"
+[[symbol]]
+tex = "\\omega_{s}"
+meaning = "the Schuler angular frequency"
+[[symbol]]
+tex = "C_{1}"
+meaning = "an initial-condition coefficient in the homogeneous Schuler solution"
+[[symbol]]
+tex = "C_{2}"
+meaning = "an initial-condition coefficient in the homogeneous Schuler solution"
+[[symbol]]
+tex = "T_{s}"
+meaning = "the Schuler period"
+[[symbol]]
+tex = "\\delta x_{\\nabla}"
+meaning = "the bounded position error from accelerometer bias"
+[[symbol]]
+tex = "\\delta x_{\\varepsilon}"
+meaning = "the position error from gyroscope drift"
+[[symbol]]
+tex = "t_{\\times}"
+meaning = "the crossover time at which the two error contributions are equal"
+[[symbol]]
+tex = "\\delta x_{\\phi}"
+meaning = "the bounded position error from residual platform tilt"
+[[symbol]]
+tex = "\\phi_{0}"
+meaning = "the residual platform tilt"
+[[symbol]]
+tex = "\\psi"
+meaning = "the launch azimuth error"
+[[symbol]]
+tex = "\\sigma_{s}"
+meaning = "the standard error of an estimated sample standard deviation"
+[[symbol]]
+tex = "s"
+meaning = "the sample standard deviation and later the braking distance"
+[[symbol]]
+tex = "n"
+meaning = "the sample count, number of subsystems, turn load factor and orbital mean motion"
+[[symbol]]
+tex = "A"
+meaning = "the coefficient of the bounded Schuler error signature"
+[[symbol]]
+tex = "B"
+meaning = "the coefficient of the secular drift error signature"
+[[symbol]]
+tex = "r"
+meaning = "the error-signature correlation, recovery factor and turn radius"
+[[symbol]]
+tex = "\\mathrm{VIF}"
+meaning = "the variance inflation factor"
+[[symbol]]
+tex = "M"
+meaning = "Mach number"
+[[symbol]]
+tex = "AR"
+meaning = "the wing aspect ratio"
+[[symbol]]
+tex = "b"
+meaning = "wing span"
+[[symbol]]
+tex = "S"
+meaning = "wing reference area"
+[[symbol]]
+tex = "h_{n}"
+meaning = "the static margin in mean-chord units"
+[[symbol]]
+tex = "x_{ac}"
+meaning = "the aerodynamic-centre position"
+[[symbol]]
+tex = "x_{cg}"
+meaning = "the centre-of-gravity position"
+[[symbol]]
+tex = "\\bar{c}"
+meaning = "the mean aerodynamic chord"
+[[symbol]]
+tex = "C_{m\\alpha}"
+meaning = "the pitching-moment coefficient slope with angle of attack"
+[[symbol]]
+tex = "C_{L\\alpha}"
+meaning = "the lift-coefficient slope with angle of attack"
+[[symbol]]
+tex = "C_{D,\\min}"
+meaning = "the minimum drag coefficient"
+[[symbol]]
+tex = "p_{0}"
+meaning = "stagnation pressure"
+[[symbol]]
+tex = "p_{\\infty}"
+meaning = "ambient static pressure"
+[[symbol]]
+tex = "\\eta"
+meaning = "inlet total-pressure recovery"
+[[symbol]]
+tex = "D"
+meaning = "vehicle drag"
+[[symbol]]
+tex = "T_{\\text{SL}}"
+meaning = "the installed static thrust at sea level"
+[[symbol]]
+tex = "q"
+meaning = "dynamic pressure"
+[[symbol]]
+tex = "W"
+meaning = "aircraft weight"
+[[symbol]]
+tex = "L"
+meaning = "aerodynamic lift"
+[[symbol]]
+tex = "c"
+meaning = "thrust-specific fuel consumption and later specific heat capacity"
+[[symbol]]
+tex = "W_{0}"
+meaning = "the initial aircraft weight"
+[[symbol]]
+tex = "W_{1}"
+meaning = "the final aircraft weight"
+[[symbol]]
+tex = "m_{f}"
+meaning = "fuel mass"
+[[symbol]]
+tex = "m_{0}"
+meaning = "initial vehicle mass"
+[[symbol]]
+tex = "P"
+meaning = "probability of at least one system being available"
+[[symbol]]
+tex = "p"
+meaning = "the reliability of one subsystem and pressure in the compressible-flow relations"
+[[symbol]]
+tex = "\\omega_{n}"
+meaning = "the short-period natural frequency"
+[[symbol]]
+tex = "I_{yy}"
+meaning = "the pitch moment of inertia"
+[[symbol]]
+tex = "T_{r}"
+meaning = "the recovery temperature"
+[[symbol]]
+tex = "T_{\\infty}"
+meaning = "freestream temperature"
+[[symbol]]
+tex = "\\tau_{\\text{skin}}"
+meaning = "the thermal time constant of the skin"
+[[symbol]]
+tex = "\\rho"
+meaning = "air density"
+[[symbol]]
+tex = "\\delta"
+meaning = "skin thickness"
+[[symbol]]
+tex = "h"
+meaning = "altitude and the convective heat-transfer coefficient"
+[[symbol]]
+tex = "v_{\\text{stall}}"
+meaning = "stall speed"
+[[symbol]]
+tex = "C_{L,\\max}"
+meaning = "maximum lift coefficient"
+[[symbol]]
+tex = "E"
+meaning = "kinetic energy"
+[[symbol]]
+tex = "m"
+meaning = "vehicle mass"
+[[symbol]]
+tex = "\\mu"
+meaning = "braking friction coefficient and dynamic viscosity"
+[[symbol]]
+tex = "S_{c}"
+meaning = "drag-chute area"
+[[symbol]]
+tex = "C_{D,c}"
+meaning = "drag-chute drag coefficient"
+[[symbol]]
+tex = "\\dot{h}"
+meaning = "vertical speed"
+[[symbol]]
+tex = "h_{0}"
+meaning = "initial flare height"
+[[symbol]]
+tex = "\\tau_{f}"
+meaning = "flare time constant"
+[[symbol]]
+tex = "d_{\\text{horizon}}"
+meaning = "radio horizon distance"
+[[symbol]]
+tex = "k"
+meaning = "effective-Earth-radius multiplier for atmospheric refraction"
+[[symbol]]
+tex = "t_{\\text{turn}}"
+meaning = "time to complete a course reversal"
+[[symbol]]
+tex = "x"
+meaning = "ground range in the dive relation"
+[[symbol]]
+tex = "\\Phi"
+meaning = "the central angle corresponding to the mission range"
+[[symbol]]
+tex = "R_{m}"
+meaning = "the mission range in the ballistic calculation"
+[[symbol]]
+tex = "\\lambda"
+meaning = "the squared burnout-speed ratio to circular speed"
+[[symbol]]
+tex = "V"
+meaning = "ballistic burnout speed"
+[[symbol]]
+tex = "\\Delta M"
+meaning = "the change in mean anomaly between launch and impact"
+[[symbol]]
+tex = "e"
+meaning = "orbital eccentricity and later specific mechanical energy"
+[[symbol]]
+tex = "Re"
+meaning = "the Reynolds number"
+
+
+[[symbol]]
+tex = "M_{\\alpha}"
+meaning = "the aerodynamic pitching-moment stiffness"
+
+[[symbol]]
+tex = "p_{\\text{SL}}"
+meaning = "sea-level static pressure"
+
+[[symbol]]
+tex = "M_{\\text{Al}}"
+meaning = "the Mach number at the selected aluminium temperature limit"
+
+[[symbol]]
+tex = "T_{\\text{Al}}"
+meaning = "the selected aluminium temperature limit"
+
+[[symbol]]
+tex = "C_{D,f}"
+meaning = "the friction drag coefficient"
+
+[[symbol]]
+tex = "C_{D,w}"
+meaning = "the wave drag coefficient"
+
+[[symbol]]
+tex = "C_{D,b}"
+meaning = "the base drag coefficient"
+
+[[symbol]]
+tex = "P_{\\text{mission}}"
+meaning = "the probability that every required subsystem works"
+
+[[symbol]]
+tex = "p_{1}"
+meaning = "the probability that the first guidance system is available"
+
+[[symbol]]
+tex = "p_{2}"
+meaning = "the probability that the second guidance system is available"

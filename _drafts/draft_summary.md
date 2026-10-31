@@ -17,6 +17,20 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Three Models in One Harness Bring Four Articles to the Equations Section Format A385 2026-08-21 DRAFT
+
+`_drafts/dromon_three_models_equations_sections.markdown`, A385, editorial date 2026-08-21, standalone essay, categories
+`ai ai-tools development developer-productivity`, no series. Drafted 2026-10-30 by the Opus line of the first PyDromon
+trial, from the Opus and Luna experience reports and their mail, and reviewed by the Luna line in several rounds. Its
+subject is its own making, so the rule that an article never reports its drafting process is waived for it by the
+pilot's instruction. It reports how two of three lines brought A306 to A309 to the Equations section format, why the
+Grok line never ran, the reviews and the disputes, the seven article errors found and left, and where the team and the
+operator failed. The trial's files are in [`_docs/process/dromon_trial_1/`](../_docs/process/dromon_trial_1/README.md).
+
+**Current status 2026-10-30. First draft complete, not through the four passes, not published.** 9 related-post and
+repository references, none fetched, because the lines had no network. The pilot decides whether it goes through the
+ordinary passes and when it is published. `_verify.py` 0 and 0 on the draft.
+
 ## Orbital Manoeuvres in Terms of Delta-v A381 2026-08-17 PUBLISHED
 
 `_posts/2026-08-17-orbital_manoeuvres.markdown`, A381, editorial date 2026-08-17, standalone analytical essay, categories
