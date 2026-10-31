@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Access, Legible State and Recomputation in a Three-Model Harness"
-date: 2026-10-31 09:00:00 +0000
+date: 2026-10-31 21:15:00 +0000
 categories: ai ai-tools development developer-productivity
 ---
 
