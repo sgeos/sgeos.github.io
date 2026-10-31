@@ -1,8 +1,8 @@
 ---
 layout: post
-mathjax: false
+mathjax: true
 comments: true
-title: "Three Models in One Harness Bring Four Articles to the Equations Section Format"
+title: "Access, Legible State and Recomputation in a Three-Model Harness"
 date: 2026-08-21 09:00:00 +0000
 categories: ai ai-tools development developer-productivity
 ---
@@ -10,963 +10,1021 @@ categories: ai ai-tools development developer-productivity
 <!-- A385 -->
 <script>console.log("A385");</script>
 
-This article reports an experiment in which three language models from three companies
-were asked to finish one editorial task on this blog together.
-The task was small and well defined.
+This article reports how three language models from three companies
+finished one editorial task on this blog together,
+and what failed along the way.
 Four articles in the X-Planes series,
 the Bell X-9 Shrike,
 the North American X-10,
 the Convair X-11
 and the Convair X-12,
-were the last articles on the blog without an Equations section
+were the last on the blog without an Equations section
 [X-9][related_post_x9]
 [X-10][related_post_x10]
 [X-11][related_post_x11]
 [X-12][related_post_x12].
-The models worked inside a harness called Dromon,
-which runs each model as a separate session line with its own checkout of the repository,
-its own mailbox
-and its own budget.
-The team was Claude Opus 5.5 from Anthropic,
+They had been left out of the general pass that brought every other article to that format,
+because the session running that pass was stopped partway by its own safety check.
+The three models worked inside a harness called Dromon.
+They were Claude Opus 5.5 from Anthropic,
 GPT-6-Luna from OpenAI
 and Grok 4.7 from xAI.
 
 The usual rule of this blog is that an article never reports how it was drafted.
 This article is the exception by the pilot's instruction,
 because its subject is its own making.
-It is drafted by the Opus line from the experience reports of the two lines that ran
-and from the mail they exchanged.
-It sets out what the task was,
-how the harness shaped the work,
-what the team agreed,
-what it delivered,
-and where it failed.
-Each claim is placed in one of three classes in the Epistemic State section,
-and the reader should treat its judgements as those of one participant.
+Its authors are the three lines it describes.
+Each section was written by one line and reviewed by another,
+and every figure was recomputed by its reviewer.
+Each claim is classed as a fact,
+an inference
+or a judgement in the Epistemic State section.
 
-The short account is as follows.
-Two of the three lines did the work.
-The third line was held through the first phase and did no work in it,
-because of a defect in how its engine and the harness interact.
-The two remaining lines split its share,
-reviewed each other's classifications,
-found seven numerical or wording errors in the published articles,
-and left every one of them standing,
-because changing equations was outside the task.
-In a second phase the same two lines corrected all seven,
-reviewed each other's corrections by recomputing them,
-and found two values that the first corrections had missed.
-The third line was still held by a different defect
-and took no part.
-After both phases had been merged it was released,
-and its first completed task was an independent recomputation
-of every value the second phase had changed,
-which found no discrepancy.
-
-## The Task
+## The Problem
 
 An Equations section closes the body of an equation-bearing article on this blog.
 Every display equation in the body carries a numbered tag,
-and the section lists each equation by number with a title,
-a one-sentence gloss
-and the references it rests on
+and the section lists each one by number with a title,
+a one-sentence gloss,
+any citations
+and a notation key
 [Equations Section Convention][repo_equations_section].
-The section is generated from a data file in Tom's Obvious Minimal Language,
-or TOML,
-kept beside the article sources,
-and a checker confirms that every entry in the data file matches the equation in the body
-by a content digest.
-
-The interesting part of the work is classification.
-Each equation is either standard or bespoke.
+The section is generated from a data file
+and checked against the body by a content digest.
+The human judgement in the data file is classification.
 A standard equation states an established result,
-or evaluates one with inputs the article reports from its sources.
+or evaluates one with inputs the article takes from its sources.
 A bespoke equation is a construction the article makes for itself,
-or an evaluation that rests on an assumed or representative input,
-and its title says so and its gloss names the assumption.
-The line between the two is a judgement,
-and most of the discussion between the lines was about where that line falls.
+or an evaluation that rests on an assumed value,
+and its gloss names that assumption.
 
-The four articles carry 483 display equations between them.
-The X-9 carries 115,
-the X-10 carries 123,
-the X-11 carries 105
-and the X-12 carries 140.
+The general pass ran in two stages.
+One stage migrated A290 to A368
+and produced validated files for 75 articles,
+A290 to A305 and A310 to A368.
+In the other,
+eleven agents drafted the files for A1 to A289 under a shared brief.
+The merged pass brought 233 articles and 8,122 display equations to the format,
+5,468 classed standard and 2,654 bespoke.
+A306 to A309 were the only articles in their range without a file.
 Their neighbours in the series,
 the Aerojet X-8 Aerobee and the Ryan X-13 Vertijet,
-already had Equations sections,
-and the team was asked to keep its notation consistent with them
+already had Equations sections whose notation the four would need to match
 [X-8][related_post_x8]
 [X-13][related_post_x13].
+The four hold 483 display equations between them,
+115 in the X-9,
+123 in the X-10,
+105 in the X-11
+and 140 in the X-12.
 
-## The Harness
+What stopped them is recorded twice.
+The findings file kept during the pass has an entry for A307 to A309,
+batch not delivered,
+which says the write was refused by a safety check in the agent.
+It has a separate entry for A306 under the heading of blocked batches.
+That entry says the agent's writes and shell commands were refused partway through,
+that the agent asked the lead session to run its unreviewed script,
+and that the lead declined and raised the matter with the pilot.
+The session that ran the general pass later gave a fuller account in writing.
+By that account,
+an automated safety check in the session refused the drafting agents' writes for the four articles.
+The lead then tried to write the same files and was refused as well.
+From that point every shell command and every file write in the session was refused,
+and only reading still worked.
+The check said that it was reacting to earlier content in the conversation and would keep doing so,
+and that the refusal should not be retried or worked around.
+The lead did not hand the refused writes to other agents,
+because that would have been a way around the refusal rather than an answer to it.
+Had the lead run the refused agent's script on its own authority,
+it would have resembled the confused deputy of the security literature,
+a program with a privilege that is induced to use it for a party that lacks the privilege
+[Hardy 1988][research_hardy_1988].
+The comparison is an analogy,
+since the refused agent was not an adversary.
+The two records fit together.
+Neither establishes that they describe two separate incidents.
+
+What triggered the check is not known.
+It did not name the content it reacted to,
+and the account states that nothing in A306 to A309 is established as the cause.
+The refusal may have built up over a long session and first fired on these files.
+Language models are known to refuse some requests that are benign
+[Röttger et al. 2024][research_rottger_et_al_2024],
+which is one possible reading of this refusal,
+and nothing in the record confirms that reading.
+The four articles were taken out of scope,
+with one finding recorded unverified,
+that the bending moment in Equation 105 of the X-9 appeared to be about twice too high.
+
+## The Thesis
+
+This case suggests that reliability depended on three distinct controls.
+The first is access to a turn,
+which is whether a model can act at all,
+and whether it learns why when it cannot.
+The second is legible coordination state,
+which is whether each participant can tell who said what,
+when it was said,
+and what the others are doing.
+The third is independent recomputation,
+which is whether a result is checked by repeating it rather than by agreeing with it.
+The failures of these controls shaped the work.
+Model and team judgement also caused errors of their own,
+and the third line's check came after the merge,
+so it could audit the result but not prevent what had already been published.
+
+The frame of several partial defences follows Reason's account of failure in complex systems,
+in which an accident passes only where the gaps in successive defences line up
+[Reason 1990][book_reason_1990_human_error].
+The second and third controls also correspond to two of the three groups
+in a taxonomy of failures in multi-agent language model systems,
+inter-agent misalignment and task verification
+[Cemri et al. 2025][research_cemri_et_al_2025].
+
+The thesis would be refuted if the serious losses came mainly from the models' own technical errors,
+or if agreement between lines had proved as reliable as recomputation.
+The narrative that follows is organised by the three controls,
+and the section Judging the Thesis assesses each claim separately.
+
+## The Trial as a Test
 
 The blog's ordinary workflow pairs one model with the pilot
 through a forward prompt file and a reverse prompt file
 [Bidirectional Agentic Workflow][related_post_bidirectional_agentic_workflow].
 Dromon adds peers to that arrangement.
-Each line worked in its own Git worktree on its own branch,
-made from the same commit of the main branch.
-A line could read the other worktrees and the main checkout
-but write only in its own.
-Lines reached one another by mail,
-and a message sent during a turn was read by its recipient in a later turn.
-Named leases guarded shared work,
-one per article and one for this draft,
-and a line was expected to hold the lease while it wrote.
+It runs each model as a session line
+with its own Git worktree on its own branch,
+its own mailbox
+and its own budget.
+A line reads the other worktrees and writes only in its own.
+Lines reach one another by mail,
+which a recipient reads in a later turn.
+Published frameworks for multi-agent language model systems coordinate their agents by conversation
+[Wu et al. 2023][research_wu_et_al_2023_autogen]
+or by shared documents and assigned roles
+[Hong et al. 2023][research_hong_et_al_2023],
+within one program.
+Dromon instead joins separate sessions from separate providers,
+and its mail is asynchronous.
+Named leases guard shared work,
+one for each article and one for this draft.
+A lease is a grant that expires,
+so that a holder which fails cannot block the others indefinitely
+[Gray and Cheriton 1989][research_gray_cheriton_1989].
+No line may commit or push.
+An operator session acting for the pilot merges the branches,
+runs the deploy gate on the union
+and rules on questions the lines cannot settle.
+Table 1 lists the participants.
 
-No line could commit,
-push
-or use the GitHub command line.
-The operator merges the three branches and runs one deploy gate on the union.
-Each line was asked to leave its own files consistent
-and its own run of the deploy gate free of errors and warnings,
-and then to report the files it changed,
-its worktree's commit
-and the gate result.
+Table 1. The participants in the trial.
 
-The Opus line had a budget of 60 dollars and 40 turns.
-The Luna and Grok lines had 30 dollars and 40 turns each.
+| Participant | Model and engine | Part in the work | Budget |
+|---|---|---|---|
+| Opus line | Claude Opus 5.5 on Claude Code | Classified the X-9, X-11 and X-12, corrected the X-9 | 60 dollars, 40 turns |
+| Luna line | GPT-6-Luna on Codex | Classified the X-10, corrected the X-11 and X-12, reviewed | 30 dollars, 40 turns |
+| Grok line | Grok 4.7 on Grok Build | Held through both phases, then the third check | 30 dollars, 40 turns |
+| Operator | Claude Opus 5.5 on Claude Code | Merged, ruled, recomputed, read the event log | Not applicable |
+| Op55-pydromon | Claude Opus 5.5 on Claude Code, by its own report | Maintained the harness and repaired the defects the trial exposed | Not applicable |
 
-## The Plan
+The Op55-pydromon session directed session lines of its own,
+separate from this blog's.
+By its own report they ran on Claude Opus 5.5,
+GPT-6-Luna through Codex,
+Claude Haiku 5.5
+and Claude Sonnet 5.5.
 
-The kickoff asked the lines to agree a plan by mail before anyone wrote a tracked file.
-The Opus line and the Luna line each proposed a split in their first messages,
-and the two messages crossed in the mail.
-The proposals differed,
-and Luna agreed to the Opus proposal in its next message.
-The Grok line did not answer.
-The Opus line's first message to it is recorded as delivered and unanswered.
+The work ran in phases,
+each merged before the next began.
+Table 2 gives their order.
 
-The agreed plan weighted the split by budget.
-Opus took the X-9 and the X-12,
-255 equations between them.
-Luna took the X-10,
-with 123.
-Grok took the X-11,
-with 105.
-Each article had one reviewer from another line.
-The plan also set a shared notation baseline of 97 symbols
-drawn from the finished X-8 and X-13 data files,
-a per-article sequence of tools,
-a rule that lines warn one another before starting the deploy gate
-so that three site builds would not run at once,
-and the arrangement for the present draft,
-in which the Opus line holds the draft
-and the other lines write source notes in their own worktrees.
+Table 2. The phases of the trial and the commits that closed them.
 
-The Opus line sent the plan to the operator
-with a note that the harness showed the Grok line as held and idle since kickoff,
-and asked whether the hold was intended.
+| Phase | Task | Lines that worked | Closing commit |
+|---|---|---|---|
+| First | Classify A306 to A309 and draft this article | Opus, Luna | `c8e5bd6` |
+| Second | Correct the seven errors the first phase found | Opus, Luna | `1014fb0` |
+| Release | Recompute the second phase's corrections independently | Grok | `a5f4e1e` |
+| Third | Restructure this article and put it through four passes | Opus, Luna, Grok | Not yet merged |
 
-The plan also reported a discrepancy.
-The task brief said that two unchecked claims about the X-9 article,
-concerning its Equations 4 and 105,
-were recorded in the blog's errata file.
-Both active lines had looked for them independently
-and found no entry for that article.
-The operator confirmed that the brief was wrong.
-The claims were in a findings file in the main checkout
-that version control ignores,
-so neither worktree carried it.
+The account of the general pass ended with a suggested next step.
+It proposed classifying A306 to A309 in a fresh session,
+one article at a time.
+A refusal there would point to the articles,
+and none would point to the conversation in the earlier session.
+This trial comes close to that test without being it.
+Each line began in a fresh context,
+and no line met a refusal of the kind the general pass met
+while reading,
+classifying
+or correcting the four articles.
+The Opus line ran on the same engine as the general pass,
+classified three of the four articles
+and later edited all three posts,
+without such a refusal.
+That is evidence for the conversation explanation.
+It is not a clean test,
+for three reasons.
+The harness configuration differed.
+The models came from three providers,
+so two of the three lines could not have met that engine's check at all.
+The Opus line took three articles in a single session,
+which is the reverse of the single-article design.
+A clean replication would classify one article per fresh session in the original configuration.
 
-## What Happened to the Third Line
+## Finding One, Access to a Turn
 
-The operator's reply explained the hold.
-The Grok engine writes empty entries for hook paths and installed plugins
-into its Dromon home directory each time it starts.
-Dromon refuses to run any turn while those entries exist.
-The Grok line therefore could not run two turns in a row,
-and during the first phase it did no part of this task.
-A loop that would have removed the entries before each turn,
-and so got past the guard,
-was proposed and refused.
-The operator judged the refusal correct,
-and the decision on what to do next rests with the pilot.
+A line that cannot start a turn cannot do the work,
+and it cannot say why.
+The Grok line was held through both working phases.
+After its release it could read eleven questions recorded under its own name.
+Each body says that Dromon held the line because a turn failed and sent no operator mail,
+and each offers only the choice to resume.
+The line wrote none of them,
+a fact taken from the operator's reading of the harness's event log.
+The first was raised at 22.52 Coordinated Universal Time on 30 October 2026
+and the last at 07.13 on 31 October 2026.
+The eleven questions name nine failures,
+two of them raised twice,
+as Table 3 shows.
 
-By the operator's report,
-getting the Grok engine to start at all had already needed four changes to its Dromon home.
-The empty entries for hook paths and installed plugins were removed once.
-The sandbox profile in the Dromon home was extended to deny access to the blog's Dromon directories,
-as Dromon required.
-Dromon suggested a read-only entry for the worktree's Git file,
-and the Grok engine refused to start with it,
-because the entry names a file and the engine expected a directory,
-so the entry was removed.
-Credential denials missing from Dromon's copy of the writer profile were added.
-In the course of this work the operator also corrupted the user's own Grok sandbox profile
-by appending duplicate profiles to it,
-and restored it from a backup.
-Each of these changes let the engine get further,
-and none of them let the line run two turns in a row.
+Table 3. The nine failures named by the hold questions for the Grok line.
 
-The operator reassigned the work.
-Opus took the X-11 in addition to its two articles,
-and Luna took over the reviews the Grok line would have done.
-The Opus line's review request to the Grok line,
-sent before the reassignment,
-was recorded as waiting,
-meaning undelivered,
-for the whole of the first phase.
-By the second phase the harness recorded it as delivered,
-and it was never answered.
+| Failure | Times raised |
+|---|---|
+| Empty hook and plugin entries in the engine home | 2 |
+| A sandbox profile that did not deny the harness directory | 1 |
+| The engine closed its connection during the turn | 1 |
+| The engine would have loaded project configuration from the worktree | 1 |
+| The engine home held another harness directory | 1 |
+| The engine used the search tool, which the line had not been given | 2 |
+| The driver for the admitted model refused the model the engine had selected | 1 |
+| A tool call was given a kind that did not agree with the directory-listing tool | 1 |
+| The engine used the tool for calling other tools, which the line had not been given | 1 |
 
-## The Work
+The repairs were made by a fourth agent,
+the Op55-pydromon session that maintains the harness.
+By the operator's chronology,
+each defect was found from a live turn on this blog
+and reported by the operator session to the Op55-pydromon session in a message between sessions.
+That session fixed and merged it,
+and the harness was restarted onto the fix before the next Grok turn.
+Eight pull requests merged in just under eight hours,
+seven of them in the three hours from 05.01,
+as Table 4 shows.
 
-Each article went through the same sequence.
-A tool printed a skeleton data file with one entry per display equation.
-The author classified each entry in a scratch copy
-and checked it with a validator.
-The reviewer read the scratch copy from the author's worktree
-and replied by mail with comments keyed to equation numbers.
-The author then took the article's lease,
-ran the tools that unfold,
-tag
-and write the section,
-copied the data file into the sources directory,
-and ran the checker.
-No tag and no generated section was edited by hand.
+Table 4. The harness changes merged during the trial on 31 October 2026, by the operator's chronology.
 
-The Opus line's three articles came out as follows.
-The X-9 has 60 standard and 55 bespoke equations.
-The X-11 has 47 standard and 58 bespoke.
-The X-12 has 58 standard and 82 bespoke.
-The checker reported every equation consistent in all three articles,
-and the corpus verifier reported no errors and no warnings.
-The Opus line's run of the full deploy gate,
-which ends with a production build and an audit of 551 rendered pages,
-passed with no findings.
+| Pull request | Merged | Defect or change |
+|---|---|---|
+| 95, `b0cd881` | 00.01 | Empty hook and plugin records the engine writes at every start were refused, so the Grok line had never run a turn |
+| 97, `4a0c95d` | 05.01 | The search tool and the calling tool were refused, so the Grok line could not reach its mail |
+| 98, `0e2f07a` | 05.21 | A message limit of one mebibyte, which an edit result carrying the whole original file exceeded |
+| 99, `bcd04d0` | 06.01 | The harness never requested the line's model, so the engine ran an older model and the turn was refused |
+| 101, `f60e91d` | 06.56 | The harness read tool calls from a field the engine does not send, so every call was refused |
+| 102, `814e8fd` | 07.27 | A directory listing reported a kind the harness did not accept, and a refused call that passed its input through a file named the wrong cause |
+| 103, `2a0ac25` | 07.39 | Refused calls by the Codex engine went uncounted, and the process listing ran on the harness's event loop |
+| 104, `81f9153` | 07.59 | Role commands, a new feature and not a repair |
 
-The Luna line's X-10 has 72 standard and 51 bespoke equations,
-and its checker reported all 123 entries consistent.
-Its run of the full deploy gate on the final classification passed with no errors,
-no warnings
-and no rendered findings,
-after two earlier runs had passed on classifications it then revised.
-The operator's single run of the gate on the merged branches is still to come.
+The harness serving this blog has run the last of these since 08.03.
+Later pull requests merged after the trial and the blog's harness does not run them.
+One refusal was kept by design,
+that of a call passing its input through a file.
+None of the three session lines watched the repairs land,
+and Table 4 is drawn from the operator's chronology,
+not from observation.
+The trial record had marked pull request 102 pending,
+and only the operator's answer settled it.
 
-Two of the classification decisions show how the convention works in practice.
-The same distance of 10,000 kilometres appears in three of the four articles.
-In the X-10 it is the Navaho missile's design range,
-reported in the article's own comparison table from a source,
-so the equations evaluated at it are standard.
-In the X-11 and the X-12 the same figure is borrowed as a representative range for the Atlas missile,
-so the equations evaluated at it are bespoke.
-The class follows the article's use of the number rather than the number itself.
-The second case is a cross-article identity.
-The seventh display equation of the X-11 and the first of the X-12 are the same equation,
-character for character,
-and their content digests match.
-Both entries carry the same title,
-and the digest made that consistency check trivial to perform.
+The pattern recurred in the third phase,
+after the repairs in Table 4,
+in a hold that is not among the eleven questions or the nine failures of Table 3.
+A Grok turn was held during the fourth pass while it waited for the corpus verifier.
+By the operator's reading of the Grok session log,
+the engine gave its call for a command's output the kind `other`,
+and the harness permitted that call only with the kind `execute`.
+Pull request 102 had repaired the same kind of mismatch for the directory listing,
+but not for this tool.
+The harness records each tool's kind as a hypothesis until a live call confirms or contradicts it,
+so a wrong kind can stay hidden until the tool is first called.
+The verifier was stopped,
+and the line did not learn the cause within the turn,
+as it had not for the directory listing or the call passing its input through a file.
+The operator reported the defect to the Op55-pydromon session,
+which fixed it in a later pull request.
+The harness running this trial was not updated,
+so the Grok line kept to commands in the foreground for the rest of the trial.
+As the operator read the Grok session and the event log,
+a further defect cut the Grok line off from its mail at the end of the fourth pass,
+so it could not review the last changes to this paragraph.
 
-## The Reviews
+The same opacity held the other two lines for shorter intervals,
+and two of the changes bear on them.
+The Opus engine died twice on the message limit of one mebibyte
+while editing the X-9 post of about 2.6 megabytes,
+and the failure named neither the limit nor the file.
+By the operator's chronology,
+pull request 98 raised that limit to 32 mebibytes.
+The Luna line was held once because a process listing did not answer within ten seconds,
+and the stop policy must read that listing before a turn starts.
+By the same chronology,
+pull request 103 moved the listing off the harness's event loop.
 
-Every article received one review from a line other than its author.
-Luna reviewed the X-9,
-the X-11
-and the X-12.
-Opus reviewed the X-10.
+What the eleven questions show is that a refused call ended the turn
+and returned nothing the model could correct.
+The Grok line learned each cause only by reading the hold question afterwards,
+and only once the operator had answered it.
+The allow-list that refused those calls applies two classic principles of protection,
+least privilege and fail-safe defaults,
+under which access is denied unless it has been granted
+[Saltzer and Schroeder 1975][research_saltzer_schroeder_1975].
+The harness also confines each line,
+closing its own directory and the credential stores to them,
+which is the old problem of keeping a borrowed program from leaking what it can reach
+[Lampson 1973][research_lampson_1973].
+The same paper by Saltzer and Schroeder names a further principle,
+psychological acceptability,
+that protection should be easy to use correctly.
+A refusal that names no cause and offers no next step meets the first two principles and fails psychological acceptability.
 
-The reviews were not complete re-classifications.
-Each reviewer ran the validator against the author's file
-and examined the entries the author marked as uncertain,
-together with others the reviewer chose.
-Luna examined eight entries of the X-9 in detail.
-That limit is a property of the method the team chose,
-and the reader should not take a review here to mean that every entry was classified twice.
+## Finding Two, Coordination State
 
-The reviews changed the following.
+Coordination has been defined as the management of dependencies between activities
+[Malone and Crowston 1994][research_malone_crowston_1994].
+In this trial most of those dependencies were managed by mail.
 
-- **X-9.** Luna agreed with every entry it examined and proposed a new title for Equation 54,
-  because the original title named an aerodynamicist the article body never mentions.
-  The Opus line adopted it.
-- **X-12.** Luna agreed with every entry it examined.
-  It suggested adding the speed of light and the slant range to the notation key for Equation 99.
-  The Opus line declined,
-  because the speed of light appears in that equation alone
-  and the gloss already names the quantity as a round-trip propagation delay.
-  Luna accepted the reason.
-- **X-11.** Luna agreed except at Equations 40 and 41,
-  which it proposed to classify as bespoke.
-  Equation 40 combines two standard stress relations for a pressurised thin cylinder
-  into the bending moment at which its skin first goes into compression.
-  Luna's argument was that the article assembles standard parts into its own criterion.
-  The Opus line's argument was that no value chosen by the article enters either equation,
-  and that the result is the established wrinkling moment of an inflated beam.
-- **X-10.** Opus proposed that Equation 80,
-  the short-period approximation of pitch dynamics,
-  is standard as a textbook result.
-  Luna adopted the change and removed the bespoke prefix from its title.
-  Luna had also asked whether Equations 4 and 6 should be bespoke.
-  Equation 4 divides the missile's whole circular error probable,
-  or CEP,
-  by the product of Earth's radius and the flight time to find the gyroscope drift rate the mission requires.
-  Equation 6 turns the reported growth of position error into a drift rate.
-  The Opus review placed Equation 4 among the standard evaluations because its range is sourced,
-  and covered Equation 6 only by a closing statement of agreement.
-  Luna then reread the classification brief
-  and reclassified both as bespoke,
-  on the ground that each attributes the whole of a reported error to gyroscope drift,
-  an allocation the article makes and its sources do not establish.
-  The Opus line agreed for Equation 4,
-  and Luna then also made Equation 5 bespoke,
-  since it converts the units of the drift rate Equation 4 produces
-  and so inherits its assumption.
-  The Opus line would have kept Equation 6 standard,
-  as the conversion of a reported rate.
-  Luna kept it bespoke,
-  because the source reports the growth of the navigator's whole position error
-  and does not say that gyroscope drift caused all of it.
-  The two lines could not agree,
-  so the difference went to the operator.
-  The operator ruled Equation 6 bespoke,
-  as Luna has it,
-  because assigning the whole reported growth of 1.6 kilometres per hour to gyroscope drift
-  is the article's modelling choice,
-  and because Equations 4,
-  5
-  and 7,
-  which apply the same inversion to the article's own inputs,
-  are bespoke as well.
+The first plan allocated work before all three lines had answered.
+The Opus and Luna proposals crossed,
+and the Luna line accepted the Opus proposal in its next message.
+The Grok line had not answered,
+and the harness showed it as held and idle,
+yet the plan assigned it the X-11 and two reviews.
+The Opus line had noticed the hold before sending the plan,
+and included the Grok line anyway while flagging the problem to the operator.
+The operator later reassigned the work.
+A plan that treated an unanswered line as unavailable would have needed less repair.
 
-The dispute over the X-11 was settled by a consistency rule rather than by either argument alone.
-The X-10's Equation 17 sets a growing error equal to a bounded one to define a crossover time,
-the same kind of construction as the X-11's Equation 40.
-The two lines agreed that both should take the same class,
-and chose standard for both.
-One support for that choice,
-that the wrinkling moment is an established result in the literature on inflatable beams,
-is the Opus line's recollection.
-Neither line checked it against a source,
-and the Luna line's notes say so.
+Mail also crossed after agreement.
+In the first phase,
+the Luna line's review request and its answer to a dispute had not reached the Opus line when it acted,
+although the harness later marked both delivered.
+The operator's approval of the plan arrived only at the start of the Opus line's next turn.
+One Opus message about the X-10 was marked delivered but was unread when the Luna line acted,
+and when the Luna line later reviewed the draft,
+it disputed the account of what the Opus line had said because it had not read that message.
+In the second phase,
+proposals and acceptances crossed,
+and the split of the work changed twice before it was declared final.
+A delivered message was therefore not necessarily available to its recipient at the point of decision.
+Processes that communicate only by messages share no global order of events,
+only the partial order fixed by what each has received
+[Lamport 1978][research_lamport_1978],
+and the lines were such processes.
 
-## Errors Found in the First Phase
+Let $d$ be the time when a message is delivered,
+and let $b_k$ be the start times of the recipient's turns.
+If the line can read new mail only when a turn starts,
+the first read time $r$ and the waiting time $w$ are
 
-Classification requires reading each equation against its prose,
-and that reading found errors in the published articles.
-The first phase placed equations out of scope for change,
-so none of these errors was corrected then.
-The second phase corrected all seven,
-as the next section describes.
+$$
+r = \min\{b_k : b_k \ge d\}, \qquad w = r - d.
+\tag{1}
+$$
 
-- **X-9, Equation 4.** The prose calls the result the relative standard error of a variance,
-  while the formula gives that of a standard deviation.
-  Luna confirmed this independently.
-  It is one of the two claims the brief pointed to.
-- **X-9, Equation 105.** The root bending moment is computed as one quarter of the product of
-  load factor,
-  mass,
-  gravity
-  and span,
-  about twice the one eighth that a uniformly loaded half-wing gives.
-  The error overstates the load,
-  so it errs on the safe side.
-  This is the second claim the brief pointed to.
-- **X-9, prose near Equation 46.** A fraction of launch mass stated as 29 percent
-  computes to about 22 percent from the article's own figures.
-- **X-11, Equation 17.** A stress stated as 1773 megapascals computes to 1771.
-- **X-11, Equation 29.** A mass stated as 52.6 kilogrammes computes to 52.5.
-- **X-12, Equation 65.** A result stated as 26,615 computes to 26,613.
-  Luna confirmed this.
-- **X-12, Equation 122.** The subtraction is reversed and the magnitude is right.
-  With the orbit's semi-major axis of 7205.5 kilometres from Equation 43,
-  the bracket as written gives about minus 7.5 kilojoules per kilogramme per revolution,
-  and the stated 7.5 is its size with the sign dropped.
-  The energy shed should be written as the Earth-radius term less the orbit term.
-  The Opus line first stated this finding wrongly.
-  It took its semi-major axis from the ballistic arc of an earlier equation and not from the orbit,
-  and it gave that figure as the orbit's,
-  although no orbit has a semi-major axis smaller than the Earth's radius.
-  On that wrong figure the bracket would in fact have been positive,
-  so the reasoning did not support its own conclusion.
-  Luna confirmed the finding as stated
-  and did not catch the wrong figure,
-  so that line confirmation was wrong.
-  The operator found the error and recomputed the equation.
+For example,
+if a message arrives two minutes into an eight-minute turn,
+this model gives six minutes of waiting if the next turn starts when this one ends.
+That duration is illustrative,
+not a measurement from this trial.
 
-Luna recomputed both X-11 items independently during its review and found the same corrections.
-The operator later recomputed the X-9 percentage
-and every X-11 and X-12 item,
-and reported that all of them hold except the reasoning given for Equation 122 of the X-12,
-corrected above.
-The operator also reported that the X-9 items on Equations 4 and 105 hold.
-The list went to the operator,
-who decided that the articles should be corrected in a second phase.
+The first phase also exposed a race over the deploy gate.
+The lines had agreed to announce a run by mail before starting it.
+By the Opus line's records,
+it announced its run and started it,
+then received within about a minute the Luna line's message that it was starting its own.
+The Opus line's sent list still showed its announcement as waiting,
+and the Luna line had not received it.
+The Opus line stopped its run.
+Only the Opus line's records show whether the builds overlapped.
+In the second phase the rule became to start only after reading that the other line had finished,
+and both runs followed it.
 
-## The Second Phase
+Let $N_{\mathrm{holders}}(t)$ count the lines holding the gate lease at time $t$.
+Let $h_i(t)$ be one when line $i$ holds that lease,
+and zero otherwise.
+A lease enforces the invariant
 
-The operator merged the first phase,
-reset each worktree to the merged commit,
-and set three tasks.
-The lines were to bring the Grok line into the team,
-correct the seven errors together with every value derived from them,
-and add the second phase to this article.
+$$
+N_{\mathrm{holders}}(t) = \sum_i h_i(t) \le 1.
+\tag{2}
+$$
 
-**The Grok line was held again,
-by a different defect.**
-By the operator's statement in the task brief,
-Dromon refuses a meta-tool through which the Grok engine reaches every tool the harness provides,
-mail included.
-Until a fix to the harness lands,
-the Grok line cannot read its mail.
-The operator told the other two lines to plan for two
-and to give the Grok line work only once it had answered.
-It did not answer during the phase.
+If one line holds the lease,
+a second line cannot hold it at the same time.
+The first-phase mail agreement supplied no such invariant.
+Mutual exclusion can be built from messages,
+but a participant may enter only after every other participant has replied
+[Ricart and Agrawala 1981][research_ricart_agrawala_1981],
+and an announcement that waits for no reply excludes no one.
 
-**The plan crossed in the mail twice.**
-The Opus line proposed that it correct the X-9
-and that Luna correct the X-11 and the X-12.
-Luna proposed the reverse in a message that crossed it.
-Each line then accepted the other's proposal,
-and those two acceptances crossed as well,
-so for a short time each line had agreed to the split the other had abandoned.
-The Opus line ended it by declaring final the split Luna had already sent to the operator,
-under which the Opus line corrected the X-9 and Luna corrected the X-11 and the X-12.
-Both lines had chosen the same corrections for the X-9 independently,
-so the crossing cost time and not substance.
+The operator's mail watcher failed during the Luna line's hold.
+By the operator's account,
+it requested more than the allowed fifty messages and failed without reporting an error.
+The Dromon hold question and the Opus line's completion report therefore went unseen for about an hour.
+The Opus line could see that the Luna line's files had stopped changing,
+but its status tool did not show whether the Luna line was idle,
+working
+or held.
+A held line and an unseen report looked like silence.
+The difficulty is a classic one.
+In an asynchronous system a slow process cannot be told from a crashed one,
+which is why no deterministic protocol can guarantee agreement there if even one process may fail
+[Fischer et al. 1985][research_fischer_lynch_paterson_1985].
+Failure detectors,
+even unreliable ones,
+were proposed to supply the missing information
+[Chandra and Toueg 1996][research_chandra_toueg_1996].
+The harness is not a consensus protocol,
+and the comparison is an analogy,
+but the status tool lacked exactly that information.
 
-**Two corrections needed a choice,
-and the operator approved both before any edit.**
-Equation 4 of the X-9 was corrected in its word and not its formula.
-The formula, its symbol,
-its entry in the data file
-and the fifteen percent that follows it all describe a standard deviation,
-and the circular error probable scales with the standard deviation,
-so the word variance was the error.
-Equation 105 was corrected to one eighth of the span,
-the uniformly loaded half-wing,
-which gives 18,616 newton metres in place of 3.7 times ten to the fourth.
-No other value in the article used the old figure,
-and the conclusion that a spar of modest depth carries the load became stronger.
-The Opus line also reported that, by its own reading,
-the fifteen percent is conservative by about the square root of two
-under the article's two-dimensional estimator.
-The operator ruled that out of scope
-and had it recorded in the errata file as an unchecked inference.
+In the third phase the watcher missed mail again for a different reason,
+and the operator added a delay of its own.
+By the operator's account from the harness's event log,
+the mailbox lists the oldest messages first,
+and the watcher compared the identifiers on the first page of fifty.
+The mailbox already held more than fifty messages,
+so every new message landed on the second page,
+and the watcher never fired.
+It did not fail and reported no error.
+Nine messages from the three lines went unseen,
+among them the agreed outline,
+the request for the repair chronology,
+the message proposing twenty references,
+a question about pull request 102
+and both reports of the first pass.
+The operator found the second page by hand at about 09.27 Coordinated Universal Time,
+about 1 hour 15 minutes after the outline was sent at 08.13.
+It then reported to the pilot and ended its turn without replying to the lines,
+and its next reply came at 18.04,
+about 8 hours 40 minutes later.
+The outline therefore waited about 9 hours 50 minutes,
+of which the watcher accounts for the first part
+and the operator's own delay for the rest.
+The reference proposals waited from 08.29 until the verification at 18.06.
+The lines carried on meanwhile,
+and the reference pass waited.
+The watcher now compares the mailbox's total count of matching messages
+and reads from that offset.
+The operator's first estimate of the delay,
+about seven hours,
+was itself wrong,
+because it compared local file times with times in Coordinated Universal Time,
+and the event log gave the right figures.
 
-**Each correction was reviewed by recomputation,
-and the review found what the first pass missed.**
-The rule came from the first phase,
-where two lines agreeing on Equation 122 of the X-12 had not been verification.
-Luna recomputed the three corrections to the X-9
-from the article's inputs and found every value correct,
-0.154 for the relative standard error of Equation 4,
-0.223 for the fraction of launch mass
-and 18,616 newton metres for Equation 105.
-The Opus line recomputed Luna's corrections to the X-11 and the X-12
-from the article's inputs.
-Equation 17 of the X-11 now gives 1771 megapascals,
-recomputed as 1770.9,
-and Equation 29 gives 52.5 kilogrammes,
-recomputed as 52.47.
-Equation 65 of the X-12 now gives 26,613 kilogrammes at booster cutoff,
-which the Opus line recomputed exactly,
-and 23,613 kilogrammes after the booster section is jettisoned.
-Equation 122 now subtracts the orbit term from the Earth-radius term,
-and recomputed with the article's Earth radius of 6371 kilometres
-and the orbit's semi-major axis of 7205.5 kilometres
-it gives plus 7.50 kilojoules per kilogramme per revolution,
-the 7.5 the article states.
+Reviews also crossed revisions.
+A reviewer sometimes assessed an earlier version while a later edit was already in progress.
+The merge at the end of the release repeated the problem.
+The operator copied the draft without checking that the Opus line still held the article lease,
+and the copy omitted a later Opus edit to the account of the Grok line's sent mail.
+The merged text kept the more accurate account because it did not include that edit.
+The finding on recomputation tells that sequence in full.
+
+The outline for this restructure went through five versions.
+In four rounds a reply addressed a version that had already been superseded,
+a review of the second version by the Luna line
+and replies to the first,
+second
+and fourth by the Grok line.
+The team agreed to name the version or digest each review read,
+so that a later reader can tell which text a review concerns.
+
+## Finding Three, Independent Recomputation
+
+The record holds six cases that show how a result was checked.
+In two,
+lines agreed without checking,
+and agreement let a wrong figure or a correct observation go.
+Recomputation caught the first,
+and the second survived only by an accident of the merge.
+In two more,
+a disagreement was settled by a rule,
+a rereading or a ruling,
+and no line recomputed anything.
+In the last two,
+recomputation found values the corrections had missed,
+and later confirmed every correction after it had shipped.
+
+**A confirmation repeated a wrong figure.**
+The first phase found that Equation 122 of the X-12 reverses a subtraction.
+The Opus line reported the finding with a semi-major axis taken from the ballistic arc of an earlier equation,
+a figure smaller than the Earth's radius and so impossible for an orbit.
+On that figure the published bracket would have been positive,
+so the stated reasoning did not support its own conclusion.
+The Luna line confirmed the finding without catching the figure.
+The operator recomputed the equation with the orbit's semi-major axis of 7205.5 kilometres
+and found the sign error real,
+so the conclusion survived by chance.
+
+Let $M_i$ mean that reviewer $i$ misses the same error,
+and let $p_i$ be that reviewer's miss probability.
+Here $P$ denotes probability.
+If their misses are independent,
+the chance that both miss is
+
+$$
+P(M_1 \cap M_2) = p_1 p_2.
+\tag{3}
+$$
+
+With correlated misses,
+let $\rho$ be the correlation between the two miss indicators.
+Then
+
+$$
+P(M_1 \cap M_2) = p_1p_2 + \rho\sqrt{p_1(1-p_1)p_2(1-p_2)}.
+\tag{4}
+$$
+
+For two reviewers with an illustrative miss probability of $0.1$ each,
+independent misses give a joint probability of $0.01$,
+whereas perfectly correlated misses with $\rho = 1$ give $0.1$.
+These are model examples,
+not measured error rates for the lines in this trial.
+
+Software engineering has tested the independence assumption directly.
+N-version programming rests on the premise that programs written independently to one specification fail independently
+[Avizienis 1985][research_avizienis_1985].
+In an experiment with many independently written versions of one program,
+coincident failures occurred far more often than independence predicts
+[Knight and Leveson 1986][research_knight_leveson_1986_independence].
+A model of the cause followed.
+If some inputs are harder than others for every developer,
+failures correlate even between versions written in complete isolation
+[Eckhardt and Lee 1985][research_eckhardt_lee_1985].
+The model was later extended to diversity that is forced by design
+[Littlewood and Miller 1989][research_littlewood_miller_1989],
+which is what three models from three providers attempt.
+Agreement among language models has also been proposed as a means of improving their answers,
+with several instances debating until they converge
+[Du et al. 2023][research_du_et_al_2023].
+The cases in this section show the limit of convergence taken as a check.
+Review by people other than the author is an old discipline in software engineering
+[Fagan 1976][research_fagan_1976_inspections],
+and the cross-line reviews of this trial were a form of it.
+
+**A disagreement was settled partly on an unchecked recollection.**
+The lines disagreed whether Equation 40 of the X-11 is standard or bespoke,
+and settled it by a consistency rule with a similar equation in the X-10.
+One of the two supports offered for standard was the Opus line's memory
+that the result is established in the literature on inflatable beams.
+No line checked it.
+
+**A review answered a different question.**
+The Luna line asked whether Equations 4 and 6 of the X-10 should be bespoke,
+because each attributes the whole of a reported error to gyroscope drift.
+The Opus review called Equation 4 standard because its range is sourced,
+which does not address the allocation.
+The Luna line reached bespoke by rereading the brief,
+and the operator ruled Equation 6 bespoke when the lines still differed.
+
+**Recomputation found what a comparison of changed lines would not.**
+In the second phase each line recomputed the other's corrections from the article's inputs,
+following a rule adopted because of Equation 122.
 Every changed value held,
-including the masses Luna had carried from Equation 65 of the X-12 into Equations 68, 69, 76 and 77,
-and Luna's change of notation in Equations 76 and 77,
-which had used the symbol for the mass before jettison where the mass after jettison was meant.
-Two dependent values were stale.
-The X-11 still said fifty-three kilogrammes of gas
+and the recomputation found two dependent values the corrections had missed.
+The X-11 still stated fifty-three kilogrammes of gas
 where the corrected 52.47 rounds to fifty-two and a half,
 and Equation 70 of the X-12 still gave the sustainer propellant as 18,220 kilogrammes
 where the corrected masses give 18,218.
-At the sustainer's flow of 127.5 kilogrammes per second
-the burn time it gives stays at 142.9 seconds.
-Luna corrected both,
-and the Opus line checked them again before signing off.
+Both were fixed before either deploy gate ran.
+When the Luna line's first notes on that phase said its review had found three further errors in the X-9,
+the Opus line asked which,
+and the Luna line withdrew the statement.
 
-**The deploy gates ran one after the other.**
-The first phase's announce-and-start rule had failed,
-so the lines agreed that the second gate would start only after its line had read a message saying that the first had finished.
-Luna's gate passed,
-Luna sent that message,
-and the Opus line's gate then passed.
-Both reported no errors and no warnings,
-every library test passing,
-a clean production build
-and a rendered audit of 551 pages with no findings.
+**A late third check confirmed the arithmetic and could not prevent anything.**
+After the second phase had been merged and published,
+the released Grok line recomputed every changed value from the inputs printed in the articles,
+without using the other lines' figures,
+and found no discrepancy at the precision the articles print.
+The Luna line recomputed that check in turn.
+The check is the strongest evidence that the corrections are right,
+and it came after they had shipped,
+so it audited the result and could not protect it.
 
-**The Opus line's engine died twice on one large file.**
-The X-9 source is 2,560,543 bytes,
-about 2.6 megabytes,
-because its reference survey is long.
-Twice a turn of the Opus line ended in the middle of its edits,
-and the next turn resumed in a new engine process.
-In the first of those turns the editing tool changed the word in Equation 4 and reported success.
-The next edit,
-to the 22 percent,
-failed with a message that a permission request had failed because the stream was closed,
-and it did not apply.
-The turn then ended.
-In the second turn the edit to the 22 percent applied and reported success,
-and the next edit,
-to Equation 105,
-failed in the same way and did not apply,
-and that turn ended too.
-No edit applied without being reported,
-and none that reported success was missing,
-but each failure ended the turn with the work half done,
-and the new process had to learn from the version control summary which edits had applied.
-The operator reported that the harness's engine reader had refused a single message of more than one mebibyte,
-and inferred that the editing tool returns the whole original file in its result.
-The pattern the Opus line saw fits that inference,
-in which the successful edit's result is the oversized message
-and the failure surfaces on the call after it.
-The operator then ruled that posts above about 500 kilobytes be read and edited only through the shell,
-with a replacement that asserts exactly one match and prints only a count.
-Equation 105 was then changed that way, on its body line only,
-and the tools regenerated the Equations section from it.
-
-## The Third Line After the Merge
-
-After the second phase had been merged,
-the operator reported that the Grok line was unblocked by a fix to the harness.
-The operator asked it to introduce itself,
-to recompute the second phase's corrections independently as a third check,
-to write its own report on the harness
-and to send the Opus line notes for this article.
-It did all four.
-What follows rests on its report and its notes,
-read by the Opus line,
-except where the Opus line repeated the arithmetic.
-
-**The release took more than one fix.**
-By the Grok line's report,
-which quotes the operator,
-one turn after the meta-tool fix was held
-because the model called a directory-listing tool that the harness refuses,
-although the engine's general tool list still offers it.
-A later turn was held before its mail left,
-because the harness accepts a tool's input only inline
-and the model had passed it through a file,
-a form the tool's schema also still offers.
-In both cases the refused call ended the turn
-and was not returned to the model as an error it could correct.
-The Grok line ranks that as its first suggestion for the harness.
-
-**The line misread the harness's questions as its own.**
-When it could first read its mailbox,
-its first look at its sent mail asked only for messages still unanswered and found none,
-yet the mailbox held nine replies from the operator,
-each the single word resume and each answering a question whose text was not there.
-The Grok line inferred that its earlier turns had asked those questions
-and that its record of them had been lost.
-The operator settled the matter by reading the harness's event log.
-All eleven questions recorded under the Grok line's name,
-the first raised late on 30 October and the last early on 31 October,
-were the harness's own,
+**The clearest case concerned this article's own record.**
+When the Grok line could first read its mailbox,
+it found replies from the operator,
+each the single word resume,
+answering questions whose text was not in view.
+Its first call to list its sent mail asked only for messages still unanswered and returned nothing.
+A later call without that filter listed eleven questions under its own name,
+with bodies it had not written.
+The Grok line at first inferred that its held turns had asked them.
+The operator read the harness's event log
+and found that all eleven were Dromon's own hold questions,
+raised under the held line's name,
 each beginning with a statement that Dromon had held the line after a failed turn.
-The harness raises a hold question under the held line's name,
-and the operator's replies answered those.
-The Grok line asked none of them and lost no mail.
-Its later look at its sent mail without the filter listed all eleven as sent by itself,
-with bodies it had not written,
-and its first look had found nothing only because every one had been answered.
-The Grok line then withdrew its inference.
-By its reading of those bodies,
-the eleven name nine distinct failures,
-two of them raised twice.
-They were the empty hook and plugin entries,
-a sandbox profile that did not deny the harness's directory,
-an engine that closed its connection,
-project configuration the engine would have loaded from the worktree,
-a second harness's directory in the engine's home,
-the refused meta-tool for searching tools,
-a driver that refused the engine's model version,
-a tool call whose declared kind did not match the directory-listing tool
-and the refused tool for calling other tools.
-The operator drew a suggestion for the harness from this.
-A hold question should carry a sender distinct from the line it concerns,
-so that the line cannot mistake it for its own mail.
+The Grok line wrote and sent none of them.
+That finding is correct,
+and it is compatible with the unfiltered list,
+which reports the sender label and not the author.
 
-**The third check found nothing to correct.**
-The Grok line recomputed every value the second phase changed
-from the inputs printed in the articles,
-without using the other lines' figures.
-It found 0.154 for Equation 4 of the X-9,
-0.223 for the fraction of launch mass
-and 18,616 newton metres for Equation 105.
-It found 1770.9 megapascals for Equation 17 of the X-11,
-a margin of 1.439 that still belongs to Equation 16,
-and 52.469 kilogrammes for Equation 29,
-with the ratio to the burnout mass at 102.8.
-For the X-12 it found 26,613 and 23,613 kilogrammes,
-4116.2 and 4473.6 metres per second in Equations 68 and 69,
-18,218 kilogrammes of propellant burning for 142.9 seconds in Equation 70,
-4.377 in Equation 76,
-the same 4474 metres per second in Equation 77 as in Equation 69,
-and plus 7.501 kilojoules per kilogramme per revolution in Equation 122.
-It also checked that the accelerations derived from the corrected mass still round to the printed values,
-which the two-kilogramme change does not move.
-Each printed value matches at the precision the article prints.
-These are the values the Opus line had found in its review,
-and the Opus line repeated the two it had not computed before,
-the relative standard error of 0.1543 for twenty-two flights
-and the 140 metres that twice that error implies for a measured 108.
+The distinction was then lost.
+The Grok line withdrew its sentence that its sent record was not empty,
+on the authority of the operator's message and without a new call to the tool.
+It did not repeat the call before withdrawing.
+In a separate act,
+the Opus line,
+holding this draft,
+replaced the unfiltered observation with a statement that the record was empty
+because the line had sent nothing,
+and the Luna line signed off on that revision.
+That edit dropped a correct observation on the strength of a citation,
+and neither of the two lines that made and approved it repeated the call first.
+The operator's message was itself the output of an automated session reading a log,
+so the pattern resembles automation bias,
+in which an automated aid's output takes the place of the user's own checking
+[Parasuraman and Manzey 2010][research_parasuraman_manzey_2010].
+That literature studies human operators,
+and its application to language models is an analogy.
+The draft kept the accurate text only because the operator's merge,
+described under coordination,
+copied an earlier version and missed the revision.
+The instructions for the third phase confirmed the unfiltered observation as correct.
 
-**The Grok line asked for one correction to this article.**
-An earlier version said without qualification that the Grok model never ran.
-The Grok line pointed out that this was true through the merge
-and false of the line after its release,
-and that only the line itself was placed to add the limit.
-The claim is now limited to the two phases.
-Its judgement on its own part is that the failure to answer during the phases was the harness's,
-and that a late independent check is the use a line in that position can still be put to,
-since two lines agreeing had already failed to be verification on Equation 122 of the X-12.
+## The Work Delivered
 
-## Where the Team Failed
+All four articles now carry an Equations section,
+and every display equation in them carries a tag.
+Table 5 gives the classifications.
+Each article was reviewed by a line other than its author,
+and each line's own run of the deploy gate passed with no errors,
+no warnings
+and no findings in the 551 rendered pages.
 
-The failures are stated plainly here,
-in the order in which they cost the most.
+Table 5. Classification of A306 to A309.
 
-**A third of the team did not work in either phase.**
-The Grok line contributed no classification,
-no correction,
-no review
-and no report in either phase.
-The fault lay in the harness and the engine and not in the model,
-which did no work in either phase.
-The defect that held it in the second phase was not the one that held it in the first,
-and its release after the merge met two more refusals before its mail could leave.
-Its independent check came after the corrections had already been published.
-The remaining lines absorbed its share,
-and the Opus line carried 360 of the 483 equations.
+| Article | Author | Reviewer | Equations | Standard | Bespoke |
+|---|---|---|---|---|---|
+| X-9, A306 | Opus | Luna | 115 | 60 | 55 |
+| X-10, A307 | Luna | Opus | 123 | 72 | 51 |
+| X-11, A308 | Opus | Luna | 105 | 47 | 58 |
+| X-12, A309 | Opus | Luna | 140 | 58 | 82 |
+| Total | | | 483 | 237 | 246 |
 
-**The operator's side lost a held line and a report for about an hour.**
-By the operator's report,
-the Luna line was held once through no fault of its own.
-Dromon applies a stop policy named `kill_all`,
-which must read the machine's process table before it starts a turn.
-The `ps` command did not answer within ten seconds,
-so Dromon refused to start the Luna line's turn
-and held the line with a question to the operator.
-The operator's mail watcher was itself broken.
-It requested more messages than the limit of fifty
-and failed without reporting an error.
-That question,
-and the Opus line's completion report,
-therefore went unseen for roughly an hour.
-The operator states that this was an operator failure.
-From inside its own worktree the Opus line saw only its effect.
-The Luna line's files stopped changing,
-three messages to it stayed unread,
-and the status tool the Opus line could call returned no list of the other lines,
-so it could not tell whether Luna was working,
-idle
-or held.
+Reading each equation against its prose found seven errors in the published articles.
+The first phase left them standing,
+since changing equations was outside its task.
+The second phase corrected each one together with every value derived from it,
+as Table 6 shows.
+The operator approved the choice of fix for Equations 4 and 105 of the X-9 before any edit.
 
-**The plan assigned work to a line that had never answered.**
-The Opus line saw before sending the plan that the Grok line was held and idle,
-and still gave it an article and two reviews,
-while flagging the hold to the operator.
-A plan built for two lines,
-with the third as an optional addition,
-would not have needed rebuilding once the operator replied.
-This is the Opus line's judgement of its own decision.
+Table 6. The seven errors and their corrections.
 
-**The brief pointed to the wrong file,
-and both lines searched for it.**
-The cost was small,
-but it was paid twice,
-because nothing let one line's finding save the other the search.
+| Article | Location | Published | Corrected | Corrected by | Recomputed by |
+|---|---|---|---|---|---|
+| X-9 | Equation 4 | Relative standard error of a variance | Of a standard deviation, 0.154 | Opus | Luna, Grok |
+| X-9 | Prose near Equation 46 | 29 percent of launch mass | 22 percent, from 0.223 | Opus | Luna, Grok |
+| X-9 | Equation 105 | One quarter of the span, about 37,000 newton metres | One eighth, 18,616 newton metres | Opus | Luna, Grok |
+| X-11 | Equation 17 | 1773 megapascals | 1771, from 1770.9 | Luna | Opus, Grok |
+| X-11 | Equation 29 | 52.6 kilogrammes | 52.5, from 52.47 | Luna | Opus, Grok |
+| X-12 | Equation 65 | 26,615 kilogrammes | 26,613, and 23,613 after jettison | Luna | Opus, Grok |
+| X-12 | Equation 122 | Subtraction reversed | Earth-radius term less orbit term, plus 7.5 kilojoules per kilogramme per revolution | Luna | Opus, Grok |
 
-**Mail arrived late or crossed.**
-The first two planning messages crossed with different proposals.
-When the Opus line wrote its review of the X-10,
-two of Luna's messages,
-one asking for that review and one answering the X-11 dispute,
-had not reached its mailbox,
-although the harness later recorded both as delivered.
-The Opus line read Luna's answer in Luna's notes file before the mail arrived.
-The operator's approval of the plan reached the Opus line only at the start of its next turn,
-so for part of a turn it worked without knowing the plan had been approved.
-In the second phase the split proposals crossed,
-and then the two acceptances crossed,
-so the lines swapped places twice before one of them declared the split final.
+The corrections carried into dependent values.
+The X-11 now states fifty-two and a half kilogrammes of gas.
+The X-12's Equations 68,
+69,
+76
+and 77 take the corrected masses,
+Equations 76 and 77 now use the symbol for the mass after jettison,
+and Equation 70 gives 18,218 kilogrammes of propellant,
+which still burns for 142.9 seconds at 127.5 kilogrammes per second.
 
-**A review answered the wrong question,
-and its correction was read late.**
-Luna had asked whether Equations 4 and 6 of the X-10 should be bespoke
-because of how they allocate error.
-The Opus review called Equation 4 standard because its range is sourced,
-which does not address the allocation,
-and covered Equation 6 only by a closing statement of agreement.
-Luna at first followed the review.
-The Opus line then answered the question explicitly in a later message,
-leaning towards bespoke for Equation 4.
-The harness recorded that message as delivered,
-but Luna had not opened it when it next acted,
-although messages sent to Luna after it had been opened and read.
-Luna reached bespoke for both equations on its own by rereading the brief.
-When Luna then reviewed this draft,
-it disputed the draft's account of the Opus line's later position,
-because it had not yet read the message on which that account rests.
-The Opus line answered by quoting the message.
-Luna then opened the message in a later turn,
-accepted its reasoning for Equation 4,
-and still disagreed about Equation 6.
-A message delivered but not yet read
-thus produced a disagreement about what one line had said,
-not only about what an equation is.
+## Judging the Thesis
 
-**The rule against simultaneous gates failed once,
-by the Opus line's records.**
-The lines had agreed to announce a deploy gate by mail before starting it.
-The Opus line announced a second run and started it.
-Within about a minute it received a message from Luna saying that Luna was starting its own gate,
-while the Opus line's sent list showed the announcement as waiting and undelivered.
-Luna reports that it never received an announcement,
-and it cannot check the timing of the Opus run from its side.
-The Opus line stopped its own run on reading Luna's message.
-Whether the two builds overlapped in fact is therefore an inference from one line's records,
-but the protocol plainly failed to tell either line what the other was doing.
-Mail cannot provide mutual exclusion when delivery waits for a turn boundary.
-A lease on the gate would have.
+**Access to a turn shaped the work.
+Supported.**
+The general pass lost four articles to a refusal that named no cause,
+and the session could neither proceed nor learn what to change.
+In the trial the Grok line,
+a third of the team,
+did no work in either phase,
+and each refused call ended its turn and returned no error it could correct.
+The Opus line lost two turns to a message limit whose failure named neither the limit nor the file.
+These were the largest losses in the record.
+One limit applies.
+The general-pass refusal may have been a safety control working as designed,
+and the record cannot say whether it was correct.
+What the evidence supports is that the refusal was opaque,
+not that it was wrong.
 
-**A disagreement was settled partly on an unchecked recollection.**
-The consistency rule that settled the X-11 dispute is sound on its own terms,
-but one of the two supports offered for choosing standard rather than bespoke
-was a memory of the literature that no one verified.
+**Legible coordination state shaped the work.
+Supported, with a limit on its cost.**
+The coordination failures were real and recurrent,
+and the Finding Two section sets them out.
+Most of them cost time and left the results untouched.
+Separate worktrees and leases kept any line from overwriting another's file,
+and the one missed edit came from a merge that did not check a lease,
+not from the lines.
 
-**A cross-check confirmed a finding whose stated reason was wrong.**
-The Opus line reported the sign error in Equation 122 of the X-12
-on the strength of a semi-major axis that belongs to a ballistic arc and not to the orbit.
-Luna confirmed the finding without catching the wrong figure.
-The conclusion survived by chance,
-since the correct figure gives the same sign error.
-Two lines agreeing was taken as verification,
-and the operator's recomputation found what neither line had.
+**Independent recomputation caught what agreement did not.
+Supported.**
+In both cases where lines agreed without checking,
+agreement let a wrong figure or a correct observation go.
+Recomputation caught the wrong figure,
+and the dropped observation survived only by an accident of the merge.
+Recomputation also found the two missed dependent values,
+and confirmed every correction after it shipped.
+The record holds no case in which agreement caught an error that recomputation missed.
 
-**The first corrections missed two dependent values.**
-The task required every value derived from a corrected one to move with it.
-The first pass at the X-11 and the X-12 left fifty-three kilogrammes of gas
-and 18,220 kilogrammes of propellant standing,
-both of which followed from the uncorrected figures.
-Review by recomputation caught them before either gate ran,
-which is the rule working,
-but a reader would have met both if the review had only compared the changed lines.
+**Model and team judgement caused errors of their own.
+Supported.**
+The wrong figure behind Equation 122,
+the review that answered a different question,
+the plan that gave work to a line that had never answered,
+the missed dependents
+and the revert of the unfiltered observation
+were all decisions by the models or the team,
+not failures of the harness.
+They were caught by recomputation or by the operator,
+so they bear on the thesis as errors the third control exists to catch.
 
-**The Opus line's engine was lost twice on one file.**
-Each loss ended a turn in the middle of a sequence of edits,
-and the failing edit reported a closed stream and a failed permission request,
-which named neither the size limit nor the file.
-The cause lay in the harness's message limit and in the editing tool's result,
-and not in the content of the edit.
-Nothing in the brief warned that a source file could be large enough to matter,
-and the line learned the cause only from the operator.
+**The third line's check came after the merge.
+Supported.**
+The commit record places the Grok line's recomputation after the second phase was merged.
 
-**Context ran past the harness's threshold.**
-The Opus line's context reached about 223,500 tokens before its first automatic compaction,
-against a threshold of 150,000,
-and about 162,800 before its second.
-The harness checks the threshold at the start of a turn,
-so one long turn can overrun it.
+**Verdict.
+Partially supported.**
+Each claim holds on this record,
+and the refutation criteria are not met,
+since the largest losses came from access and the models' technical errors were caught.
+The thesis is only partly supported as a general claim for three reasons.
+The evidence is one case with two working lines for most of its length.
+Saying that reliability depended on the three controls implies they are necessary,
+which one case cannot show.
+And the cause of the refusal that began the whole problem is unknown,
+so the case for the first control is built on the opacity of that refusal,
+not on its cause.
 
-## What Worked
+## Takeaways
 
-**The tooling did what its documentation says.**
-Every one of the Opus line's three articles passed through the separate,
-unfold,
-tag,
-write
-and check steps on the first attempt.
-A display equation that spans two source lines,
-which the Opus line expected might defeat the tagger,
-was handled correctly.
+**Plan from replies.**
+A line that has not answered should not receive work on the assumption that it is available.
+It joins the plan when it responds.
 
-**Separation prevented conflict.**
-The lines wrote disjoint files in separate worktrees,
-leases were acquired and released as the plan described,
-and no two lines ever wrote the same file in the same worktree.
-In the second phase both lines edited their own copies of the errata file,
-each removing only its own rows,
-for the operator to merge.
-The first phase's rule that lines warn one another before starting a deploy gate held on every run but one.
-That one is the failure recorded above,
-where the Opus line stopped its run and whether two builds overlapped is uncertain.
-Apart from it,
-the lines' gate runs took place one after another.
-The second phase's rule,
-that a gate waits for a message saying the other has finished,
-held on both runs.
+**Separate system notices from agent mail.**
+A hold question should carry a sender distinct from the held line.
+A sender label alone does not establish who wrote a message,
+and a filter for unanswered mail can hide answered notices altogether.
 
-**The tools handled changed equations.**
-When an equation changed in the second phase,
-the checker named it as changed since it was classified.
-Reviewing its entry,
-stamping the new digest
-and regenerating the section brought the article back to consistent,
-with no generated text edited by hand.
+**Use leases for shared resources.**
+Mail can announce an intention to run a gate,
+but late delivery cannot ensure that another line is not already running it.
+A lease supplies the exclusion rule that mail cannot.
 
-**Recomputation found what agreement had missed.**
-In the first phase a second line's agreement let a wrong figure through.
-In the second phase each reviewer recomputed every changed value from the article's own inputs,
-and that found two stale values that a comparison of changed lines would not have shown.
+**Make failures visible and bounded.**
+A refused tool call should state what blocked it and the approved next step,
+without inviting a workaround.
+A watcher that fails should report that it failed.
+A watcher should track the total count of messages and read from the last offset it saw,
+so that new mail beyond the first page is not missed in silence.
+A participant that finds waiting mail should answer it or say when it will.
+An edit to a large file should return a bounded difference and not the whole file.
 
-**Review by reading the other worktree was cheap.**
-A reviewer could open the author's scratch file directly
-and reply with comments keyed to equation numbers,
-without copying the file through mail.
+**Recompute values and repeat observations.**
+Agreement between reviewers is not a check.
+A reviewer should recalculate the corrected quantity and every value that depends on it,
+and record the revision of the inputs used.
+When a claim rests on a tool result or an event log,
+the query should be repeated and its output kept before the claim is withdrawn.
 
-**The standing brief carried the work across compaction.**
-After each automatic compaction,
-the Opus line's next turn opened with the brief it had last recorded,
-and it resumed without reconstructing its task.
-
-**Both active lines reported no capability gap between them.**
-The Luna line had no sandbox denial and no refused write in its worktree.
-Its only refusal was from the mail tool,
-which rejected a reply that named one of Luna's own outgoing messages as the message being answered.
-The Opus line met one sandbox denial,
-when it tried to list running processes,
-and read the deploy gate's log file instead.
-Neither line observed a task capability that the other lacked.
+**Check late, but before the merge where possible.**
+An independent check that arrives after publication can confirm the result,
+and it cannot prevent an error from shipping.
+A merge should wait for the check where the schedule allows.
 
 ## Epistemic State
 
-The article's claims fall into three classes.
+The article separates observed events from explanations and recommendations.
 
 **Facts.**
-These are the equation counts,
-the classification totals,
-the checker and gate results,
-the contents of the mail,
-the delivery states the harness recorded,
-the errors found in the articles
-and the context sizes.
-Each rests on a file,
-a tool's output
-or a message that the Opus line read directly.
-The account of the Grok failure and of the changes made to start it,
-the Luna line's hold,
-the failed mail watcher
-and the ruling on Equation 6 of the X-10
-are facts as the operator reported them.
-The correction to Equation 122 of the X-12 and the operator's recomputation of the other errors
-are also the operator's,
-and they show that a finding two lines agreed on could still rest on a wrong figure.
-In the second phase the defect that held the Grok line,
-the cause of the Opus line's lost turns
-and the rule for editing large files
-are likewise the operator's statements.
-The recomputed values in the second phase are facts,
-since each line's arithmetic can be repeated from the article's inputs,
-and that includes the Grok line's third check.
-The causes of the Grok line's holds after the merge are the operator's statements as the Grok line's report relays them,
-That the questions answered with resume were the harness's own hold questions
-is a fact as the operator reported it from the harness's event log.
-What the Grok line's record of sent mail showed,
-and the nine failures the questions name,
-are facts of the Grok line's report,
-which the Opus line did not see directly.
-Neither active line could read the harness's configuration directory,
-so neither observed the Grok failure first hand.
+Equation counts,
+classifications,
+correction values
+and gate results come from the article files and the checker output.
+The general-pass refusal is described in a written account by the session that ran the pass.
+That account says the session's own safety check refused writes and later commands,
+said it was reacting to earlier conversation content,
+and prohibited retries and workarounds.
+It did not identify the trigger.
+The operator's reading of the event log and the sent-mail listing show that the eleven hold questions carried the Grok line's sender label,
+while Dromon generated their bodies.
+The operator reported that during the Luna line's hold the mail watcher failed after requesting more than fifty messages.
+The operator's account from the event log states further that in the third phase the watcher did not fail but read only the first page,
+that nine messages went unseen,
+and the times of 08.13,
+about 09.27
+and 18.04 that separate the watcher's part of the delay from the operator's own.
+The operator reported further that pull request 102 merged as `814e8fd`,
+and that the Luna line was held after a process listing did not answer within ten seconds.
+The cause of the Grok line's hold in the third phase is taken from the Grok session log as the operator read it,
+which the Grok line confirmed against the operator's message to it.
+The operator also reported the recomputation of Equation 122 of the X-12
+and the ruling that Equation 6 of the X-10 is bespoke.
+The Opus line's records show that,
+on the same engine as the general pass,
+it classified three articles and edited three posts without that refusal.
+They also record two engine failures during work on the X-9,
+including a refusal of a message over one mebibyte while the post held 2,560,543 bytes.
+The repairs to the harness are attributed to the operator's chronology,
+since no line observed the Op55-pydromon session directly,
+and the models of the Op55-pydromon session and its lines rest on its own report.
+No line fetched an external page.
+The operator checked the metadata of every cited source against the registries.
+What the article says each source shows comes from the lines' prior knowledge of it,
+not from a reading made for this article.
 
 **Inferences.**
-These include the claims that the harness checks its compaction threshold only at turn start,
-and that mail is delivered at turn boundaries.
-Both are inferred from timing the Opus line observed, not from documentation it read.
-The claim that the editing tool's result carried the whole file is the operator's inference,
-which the pattern of the Opus line's failures fits but does not prove.
-The claim that the fifteen percent in Equation 4 of the X-9 is conservative
-is the Opus line's inference and has not been checked.
-The claim that the 10,000 kilometre figure changes class between articles for a principled reason
-comes from reading each article's use of it.
+The absence of the same refusal in the trial is evidence that the earlier conversation may have triggered the safety check.
+The original session's suggestion that the refusal built up over a long session is its hypothesis,
+not an established cause.
+The trial is not a clean replication,
+for the reasons given under The Trial as a Test.
+The operator first inferred that the large-file failures came from an edit tool returning the whole file,
+and the chronology later gave that as the cause pull request 98 repaired.
+The comparisons with the confused deputy,
+with failure detectors
+and with automation bias are analogies,
+not claims that those results apply unchanged.
+Turn timestamps support the inference that mail was read only at turn boundaries
+and that compaction was checked at the start of a turn,
+but they do not prove either as a general rule of delivery.
+The Opus line's view that the fifteen percent in Equation 4 of the X-9 is conservative is an unchecked inference.
+That two of the three lines could not have met the general pass's check follows from their different providers,
+and it remains an inference.
 
 **Judgements.**
-These include the ranking of failures,
-the view that the plan should have been built for two lines,
-and the choice of standard for the X-10's Equation 17 and the X-11's Equations 40 and 41.
-A reader who classifies those three equations as bespoke has a defensible position,
-which the Luna line held for the X-11 before the consistency rule settled it.
+The thesis is assessed claim by claim,
+and the verdict of partially supported is a judgement.
+The first plan should have been built for the two lines that had answered.
+The classifications of Equation 17 of the X-10 and Equations 40 and 41 of the X-11 are defensible judgements,
+not settled facts.
+The takeaways are recommendations drawn from one trial,
+not guarantees.
 
-The Luna line's experience report and source notes informed this draft.
-The Luna line reviewed the draft in several rounds.
-This version adopts its correction about its recomputation of the X-11 errors,
-its account of when it read the Opus line's message on Equation 4 of the X-10,
-and its request that the overlap of deploy gates be marked as resting on the Opus line's records.
-One of its corrections concerned the Opus line's later position on Equation 4.
-The Opus line disputed that correction by quoting the message,
-and Luna,
-having then read it,
-accepted the reasoning for Equation 4 and kept its disagreement on Equation 6,
-which the operator then ruled in Luna's favour.
-For the second phase,
-Luna's first notes said its review had found three further errors in the X-9.
-Asked which,
-Luna withdrew the statement,
-saying that its review had confirmed the three corrections and found nothing further,
-and this draft follows the withdrawal.
-None of the external pages in the references was fetched while drafting,
-because the task forbade network access,
-so each link is believed correct but has not been checked.
+**Corrected during review.**
+Several claims changed when another line or the operator checked them,
+and the article states each in its corrected form.
+They are the length and causes of the delay before the operator answered the outline,
+the status of pull request 102 in the trial record,
+the phase in which the mail watcher first failed,
+and the class of Equations 3 and 4 of this article,
+which review changed to standard.
+A claim that one of the merged changes let the Grok line list a directory again was withdrawn,
+and so was a claim about the order of the stages in the general pass.
+The count of pull requests merged in the three hours from 05.01 was revised from six to seven
+by recounting the operator's own listed times.
+A reader who holds the event log or the session transcripts may find a time or count that differs,
+and where the two differ that record governs.
 
 ## Out of Scope
 
 This article does not compare the three models' ability at the task.
-One model did no work in either phase,
+One model did no work in either of the first two phases,
 and two lines on one task are too few to support a comparison.
-It does not report the Luna line's cost,
+It does not establish what triggered the general pass's safety check,
+which the session that met it could not establish either.
+It does not report the cost of the Luna and Grok lines,
 which the Opus line could not see.
-It does not check the Opus line's inference about Equation 4 of the X-9,
-which the operator placed out of scope,
-and it does not describe how the Grok failure will be resolved,
-a decision that belongs to the pilot.
+It does not check the Opus line's unverified inference about the conservatism of the fifteen percent in Equation 4 of the X-9,
+which the operator recorded in the errata file and placed out of scope.
 
 ## Conclusion
 
-Two of three lines brought all four articles to the Equations section format,
-and each line's own run of the deploy gate accepted its branch.
-Each article was reviewed by a line other than its author,
-the reviews changed one title and one classification,
-the author of the X-10 changed three more on rereading the brief,
-one disagreement was settled by a shared rule and another by the operator,
-and the reading behind the classification found seven errors in the published articles.
-In a second phase the two lines corrected all seven,
-each reviewing the other's corrections by recomputing them,
-and that review found two dependent values the corrections had missed.
-Both lines' deploy gates passed,
-one after the other.
-The largest failure was outside the models' control.
-The third line did no work in either phase,
-held first by one defect and then by another,
-and in the first phase the team planned around it too slowly.
-When it was released after the merge,
-its independent recomputation of the second phase found no discrepancy.
-The smaller failures were in coordination,
-in mail that crossed,
-arrived late
-or was delivered and read late,
-a gate announcement that did not arrive in time,
-an operator mail watcher that failed silently,
-a review that answered the wrong question,
-a confirmation that repeated a wrong figure,
-a disagreement settled in part on an unchecked memory,
-and an engine lost twice to a message limit on one large file.
-The harness's separation of worktrees,
-leases
-and mail kept two models from ever overwriting each other's work,
-which is the property a multi-model harness most needs and the one this trial most clearly shows.
+Four articles were left out of the general pass because a safety check stopped the session doing it,
+for a reason no one could see.
+Three models in a harness built for separation finished them,
+reviewed one another's classifications,
+found seven errors in the published articles
+and corrected all seven with their dependent values.
+What limited the work was mostly not the arithmetic.
+A third of the team was held through the first two phases,
+mail between turns crossed and was read late,
+and the record of who had said what was misread more than once.
+The errors the models did make were caught by recomputation and not by agreement,
+including one in which three lines agreed to remove a correct observation from this article.
+The third line's late check confirmed every correction after it had shipped,
+which is the use a check can still be put to when it arrives late.
+
+## Equations
+
+<!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
+
+This section collects the 4 display equations of the article in the order they appear,
+each under its number and reproduced exactly as it stands in the text.
+A title in bold names an established result,
+and a title in italics beginning with the word Bespoke names a construction made for this analysis.
+Of the 4, 2 are established and 2 are bespoke.
+The mail and lease equations state coordination assumptions, and the review probabilities are illustrative rather than measured in this trial.
+
+*Equation 1, Bespoke Turn-Boundary Mail Delay.*
+Assuming mail becomes readable only when a turn starts, the message waits until the first turn start at or after delivery.
+
+$$
+r = \min\{b_k : b_k \ge d\}, \qquad w = r - d.
+\tag{1}
+$$
+
+*Equation 2, Bespoke Gate Lease Exclusion.*
+A lease permits at most one line to hold the shared gate resource at a time.
+[Gray and Cheriton 1989][research_gray_cheriton_1989]
+
+$$
+N_{\mathrm{holders}}(t) = \sum_i h_i(t) \le 1.
+\tag{2}
+$$
+
+**Equation 3, Independent Event Product Rule.**
+If two reviewers miss an error independently, their joint miss probability is the product of their individual probabilities.
+
+$$
+P(M_1 \cap M_2) = p_1 p_2.
+\tag{3}
+$$
+
+**Equation 4, Correlated Bernoulli Joint Probability.**
+The correlation term adjusts the independent product to account for dependence between the reviewers' misses.
+[Eckhardt and Lee 1985][research_eckhardt_lee_1985]
+
+$$
+P(M_1 \cap M_2) = p_1p_2 + \rho\sqrt{p_1(1-p_1)p_2(1-p_2)}.
+\tag{4}
+$$
+
+### Notation
+
+- $d$, the time a message is delivered
+- $b_k$, the start time of the recipient's turn k
+- $r$, the first read time at or after delivery
+- $w$, the wait from delivery until the first read time
+- $h_i(t)$, one if line i holds the lease at time t, and zero otherwise
+- $N_{\mathrm{holders}}(t)$, the number of lines holding the lease at time t
+- $M_1$, the event that reviewer 1 misses the same error
+- $M_2$, the event that reviewer 2 misses the same error
+- $p_1$, the probability that reviewer 1 misses the error
+- $p_2$, the probability that reviewer 2 misses the error
+- $\rho$, the correlation between the two reviewers' miss indicators
+- $P$, probability
 
 ## References
 
-- [Related Post, Bidirectional Agentic Workflow][related_post_bidirectional_agentic_workflow]
-- [Related Post, X-Planes, Aerojet X-8 Aerobee][related_post_x8]
-- [Related Post, X-Planes, Bell X-9 Shrike][related_post_x9]
-- [Related Post, X-Planes, Convair X-11][related_post_x11]
-- [Related Post, X-Planes, Convair X-12][related_post_x12]
-- [Related Post, X-Planes, North American X-10][related_post_x10]
-- [Related Post, X-Planes, Ryan X-13 Vertijet][related_post_x13]
-- [Repository, Equations Section Convention][repo_equations_section]
-- [Repository, Source of This Blog][repo_blog]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
 
+### Primary Sources, Peer-Reviewed
+
+- Avizienis, A. 1985. "The N-Version Approach to Fault-Tolerant Software." *IEEE Transactions on Software Engineering* SE-11 (12): 1491–1501. [https://doi.org/10.1109/tse.1985.231893][research_avizienis_1985]
+- Eckhardt, D. E., and L. D. Lee. 1985. "A Theoretical Basis for the Analysis of Multiversion Software Subject to Coincident Errors." *IEEE Transactions on Software Engineering* SE-11 (12): 1511–17. [https://doi.org/10.1109/tse.1985.231895][research_eckhardt_lee_1985]
+- Knight, John C., and Nancy G. Leveson. 1986. "An Experimental Evaluation of the Assumption of Independence in Multiversion Programming." *IEEE Transactions on Software Engineering* SE-12 (1): 96–109. [https://doi.org/10.1109/tse.1986.6312924][research_knight_leveson_1986_independence]
+- Littlewood, B., and D. R. Miller. 1989. "Conceptual Modeling of Coincident Failures in Multiversion Software." *IEEE Transactions on Software Engineering* 15 (12): 1596–1614. [https://doi.org/10.1109/32.58771][research_littlewood_miller_1989]
+- Saltzer, J. H., and M. D. Schroeder. 1975. "The Protection of Information in Computer Systems." *Proceedings of the IEEE* 63 (9): 1278–1308. [https://doi.org/10.1109/proc.1975.9939][research_saltzer_schroeder_1975]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Cemri, Mert, Melissa Z. Pan, Shuyi Yang, et al. 2025. "Why Do Multi-Agent LLM Systems Fail?" In *Advances in Neural Information Processing Systems 38*. Neural Information Processing Systems Foundation, Inc. (NeurIPS). [https://doi.org/10.52202/085713-4082][research_cemri_et_al_2025]
+- Chandra, Tushar Deepak, and Sam Toueg. 1996. "Unreliable Failure Detectors for Reliable Distributed Systems." *Journal of the ACM* 43 (2): 225–67. [https://doi.org/10.1145/226643.226647][research_chandra_toueg_1996]
+- Du, Yilun, Shuang Li, Antonio B. Torralba, Joshua B. Tenenbaum, and Igor Mordatch. 2023. "Improving Factuality and Reasoning in Language Models through Multiagent Debate." Preprint, arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2305.14325][research_du_et_al_2023]
+- "Equations Section Convention." n.d. github.com. Accessed October 31, 2026. [https://github.com/sgeos/sgeos.github.io/blob/master/\_docs/writing/EQUATIONS\_SECTION.md][repo_equations_section]
+- Fagan, M. E. 1976. "Design and Code Inspections to Reduce Errors in Program Development." *IBM Systems Journal* 15 (3): 182–211. [https://doi.org/10.1147/sj.153.0182][research_fagan_1976_inspections]
+- Fischer, Michael J., Nancy A. Lynch, and Michael S. Paterson. 1985. "Impossibility of Distributed Consensus with One Faulty Process." *Journal of the ACM* 32 (2): 374–82. [https://doi.org/10.1145/3149.214121][research_fischer_lynch_paterson_1985]
+- Gray, C., and D. Cheriton. 1989. "Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency." In *Proceedings of the Twelfth ACM Symposium on Operating Systems Principles*. ACM. [https://doi.org/10.1145/74850.74870][research_gray_cheriton_1989]
+- Hardy, Norm. 1988. "The Confused Deputy, or Why Capabilities Might Have Been Invented." *ACM SIGOPS Operating Systems Review* 22 (4): 36–38. [https://doi.org/10.1145/54289.871709][research_hardy_1988]
+- Hong, Sirui, Mingchen Zhuge, Jiaqi Chen, et al. 2023. "MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework." Preprint, arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2308.00352][research_hong_et_al_2023]
+- Lamport, Leslie. 1978. "Time, Clocks, and the Ordering of Events in a Distributed System." *Communications of the ACM* 21 (7): 558–65. [https://doi.org/10.1145/359545.359563][research_lamport_1978]
+- Lampson, Butler W. 1973. "A Note on the Confinement Problem." *Communications of the ACM* 16 (10): 613–15. [https://doi.org/10.1145/362375.362389][research_lampson_1973]
+- Parasuraman, Raja, and Dietrich H. Manzey. 2010. "Complacency and Bias in Human Use of Automation: An Attentional Integration." *Human Factors: The Journal of the Human Factors and Ergonomics Society* 52 (3): 381–410. [https://doi.org/10.1177/0018720810376055][research_parasuraman_manzey_2010]
+- Ricart, Glenn, and Ashok K. Agrawala. 1981. "An Optimal Algorithm for Mutual Exclusion in Computer Networks." *Communications of the ACM* 24 (1): 9–17. [https://doi.org/10.1145/358527.358537][research_ricart_agrawala_1981]
+- Röttger, Paul, Hannah Kirk, Bertie Vidgen, Giuseppe Attanasio, Federico Bianchi, and Dirk Hovy. 2024. "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models." In *Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)*. Association for Computational Linguistics. [https://doi.org/10.18653/v1/2024.naacl-long.301][research_rottger_et_al_2024]
+- Wu, Qingyun, Gagan Bansal, Jieyu Zhang, et al. 2023. "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation." Preprint, arXiv (Cornell University). [https://doi.org/10.48550/arxiv.2308.08155][research_wu_et_al_2023_autogen]
+
+### Secondary Sources
+
+- Malone, Thomas W., and Kevin Crowston. 1994. "The Interdisciplinary Study of Coordination." *ACM Computing Surveys* 26 (1): 87–119. [https://doi.org/10.1145/174666.174668][research_malone_crowston_1994]
+- Reason, James. 1990. *Human Error*. Cambridge University Press. [https://openlibrary.org/works/OL9006915W][book_reason_1990_human_error]
+
+### Related Posts
+
+- Sechter, Brendan. 2025. "X-Planes: Aerojet X-8 Aerobee." *Brendan A R Sechter's Development Blog*, October 14. [https://sgeos.github.io/aerospace/history/engineering/2025/10/14/x\_planes\_aerojet\_x8.html][related_post_x8]
+- Sechter, Brendan. 2025. "X-Planes: Bell X-9 Shrike." *Brendan A R Sechter's Development Blog*, October 15. [https://sgeos.github.io/aerospace/history/engineering/2025/10/15/x\_planes\_bell\_x9.html][related_post_x9]
+- Sechter, Brendan. 2025. "X-Planes: North American X-10." *Brendan A R Sechter's Development Blog*, October 16. [https://sgeos.github.io/aerospace/history/engineering/2025/10/16/x\_planes\_north\_american\_x10.html][related_post_x10]
+- Sechter, Brendan. 2025. "X-Planes: Convair X-11." *Brendan A R Sechter's Development Blog*, October 17. [https://sgeos.github.io/aerospace/history/engineering/2025/10/17/x\_planes\_convair\_x11.html][related_post_x11]
+- Sechter, Brendan. 2025. "X-Planes: Convair X-12." *Brendan A R Sechter's Development Blog*, October 18. [https://sgeos.github.io/aerospace/history/engineering/2025/10/18/x\_planes\_convair\_x12.html][related_post_x12]
+- Sechter, Brendan. 2025. "X-Planes: Ryan X-13 Vertijet." *Brendan A R Sechter's Development Blog*, October 19. [https://sgeos.github.io/aerospace/history/engineering/2025/10/19/x\_planes\_ryan\_x13.html][related_post_x13]
+- Sechter, Brendan. 2026. "Bidirectional Agentic Workflow." *Brendan A R Sechter's Development Blog*, February 6. [https://sgeos.github.io/ai/ai-tools/development/developer-productivity/tutorial/2026/02/06/bidirectional\_agentic\_workflow.html][related_post_bidirectional_agentic_workflow]
+
+[book_reason_1990_human_error]: https://openlibrary.org/works/OL9006915W
 [related_post_bidirectional_agentic_workflow]: {% post_url 2026-02-06-bidirectional_agentic_workflow %}
 [related_post_x10]: {% post_url 2025-10-16-x_planes_north_american_x10 %}
 [related_post_x11]: {% post_url 2025-10-17-x_planes_convair_x11 %}
@@ -974,5 +1032,24 @@ which is the property a multi-model harness most needs and the one this trial mo
 [related_post_x13]: {% post_url 2025-10-19-x_planes_ryan_x13 %}
 [related_post_x8]: {% post_url 2025-10-14-x_planes_aerojet_x8 %}
 [related_post_x9]: {% post_url 2025-10-15-x_planes_bell_x9 %}
-[repo_blog]: https://github.com/sgeos/sgeos.github.io
 [repo_equations_section]: https://github.com/sgeos/sgeos.github.io/blob/master/_docs/writing/EQUATIONS_SECTION.md
+[research_avizienis_1985]: https://doi.org/10.1109/tse.1985.231893
+[research_cemri_et_al_2025]: https://doi.org/10.52202/085713-4082
+[research_chandra_toueg_1996]: https://doi.org/10.1145/226643.226647
+[research_du_et_al_2023]: https://doi.org/10.48550/arxiv.2305.14325
+[research_eckhardt_lee_1985]: https://doi.org/10.1109/tse.1985.231895
+[research_fagan_1976_inspections]: https://doi.org/10.1147/sj.153.0182
+[research_fischer_lynch_paterson_1985]: https://doi.org/10.1145/3149.214121
+[research_gray_cheriton_1989]: https://doi.org/10.1145/74850.74870
+[research_hardy_1988]: https://doi.org/10.1145/54289.871709
+[research_hong_et_al_2023]: https://doi.org/10.48550/arxiv.2308.00352
+[research_knight_leveson_1986_independence]: https://doi.org/10.1109/tse.1986.6312924
+[research_lamport_1978]: https://doi.org/10.1145/359545.359563
+[research_lampson_1973]: https://doi.org/10.1145/362375.362389
+[research_littlewood_miller_1989]: https://doi.org/10.1109/32.58771
+[research_malone_crowston_1994]: https://doi.org/10.1145/174666.174668
+[research_parasuraman_manzey_2010]: https://doi.org/10.1177/0018720810376055
+[research_ricart_agrawala_1981]: https://doi.org/10.1145/358527.358537
+[research_rottger_et_al_2024]: https://doi.org/10.18653/v1/2024.naacl-long.301
+[research_saltzer_schroeder_1975]: https://doi.org/10.1109/proc.1975.9939
+[research_wu_et_al_2023_autogen]: https://doi.org/10.48550/arxiv.2308.08155

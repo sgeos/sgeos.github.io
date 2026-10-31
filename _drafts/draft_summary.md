@@ -17,7 +17,7 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
-## Three Models in One Harness Bring Four Articles to the Equations Section Format A385 2026-08-21 DRAFT
+## Access, Legible State and Recomputation in a Three-Model Harness A385 2026-08-21 DRAFT
 
 `_drafts/dromon_three_models_equations_sections.markdown`, A385, editorial date 2026-08-21, standalone essay, categories
 `ai ai-tools development developer-productivity`, no series. Drafted 2026-10-30 by the Opus line of the first PyDromon
@@ -27,9 +27,17 @@ pilot's instruction. It reports how two of three lines brought A306 to A309 to t
 Grok line never ran, the reviews and the disputes, the seven article errors found and left, and where the team and the
 operator failed. The trial's files are in [`_docs/process/dromon_trial_1/`](../_docs/process/dromon_trial_1/README.md).
 
-**Current status 2026-10-31. First draft complete with both phases of the trial, not through the four passes, not published.** Phase 2, the seven article fixes and the second Grok attempt, was added by the Opus line and signed off by the Luna line. The Grok line's account after its admission, with its independent recomputation, was added the same day and signed off by all three lines. 9 related-post and
-repository references, none fetched, because the lines had no network. The pilot decides whether it goes through the
-ordinary passes and when it is published. `_verify.py` 0 and 0 on the draft.
+**Current status 2026-10-31. All four passes complete, not published.** In the trial's third phase the three lines
+restructured the article around a stated thesis, that reliability depended on access to a turn, legible coordination
+state and independent recomputation, judged partially supported, and retitled it to name those controls. It now lays
+out what happened to A306 to A309 in the general pass, from that session's written account, and treats the trial as an
+approximate, confounded version of the fresh-session test the account proposed. The equation pass was led by Luna
+and reviewed by Grok, and added 4 equations, 2 standard and 2 bespoke. The reference pass was led by Opus and reviewed
+by Luna, and added 20 sources that the operator verified against the registries and imported, with the References
+section generated from the source database. Opus led the readiness pass and Luna reviewed it. Grok led the diction
+pass and Opus reviewed it.
+Grok could not review the last two sentences of one paragraph, because a harness defect cut it off from its mail. 1,055
+lines. `_verify.py` 0 and 0. The pilot decides when it is published.
 
 ## Orbital Manoeuvres in Terms of Delta-v A381 2026-08-17 PUBLISHED
 

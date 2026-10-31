@@ -18,6 +18,8 @@ the line.
 | [a385-grok.md](./a385-grok.md) | The Grok line's source notes for the A385 draft |
 | [a385-luna.md](./a385-luna.md) | The Luna line's source notes for the A385 draft |
 | [notation_A305-A310.md](./notation_A305-A310.md) | The shared notation baseline built from A305 and A310 |
+| [general-pass-account.md](./general-pass-account.md) | The written account, verbatim, of the session that ran the general Equations section pass and met the A306 to A309 refusal |
+| [a385-outline-v5.md](./a385-outline-v5.md) | The phase 3 outline all three lines agreed, after five versions |
 
 ## Outcome
 
@@ -62,6 +64,38 @@ The operator also gave the line `Read`, `Grep` and `Glob`, and told it to avoid 
 arguments inline. Grok then recomputed every phase 2 value from the articles' own inputs, independently, and found no
 discrepancy, wrote its report, and sent notes for A385, which Opus added and Luna reviewed. The eleven questions recorded
 under Grok's name were Dromon's own hold questions, which the event log shows. Grok asked none of them.
+
+## Phase 3, 2026-10-31
+
+The pilot asked the three lines to restructure A385 around a stated thesis and then to put it through four passes.
+
+- **Restructure.** The outline took five versions, because mail crossed revisions four times. The thesis is Luna's
+  wording, that reliability depended on access to a turn, legible coordination state and independent recomputation,
+  and the article judges it partially supported. The written account of the session that ran the general pass is the
+  source for what happened to A306 to A309 there. The trial is treated as an approximate, confounded version of the
+  fresh-session test that account proposed.
+- **Passes.** Equations were led by Luna and reviewed by Grok, with four equations, two of them standard. References
+  were led by Opus and reviewed by Luna. All twenty proposed sources passed the operator's registry check, Cemri et al.
+  in its refereed NeurIPS version and MetaGPT with its third author corrected, and the operator imported them and
+  generated the References section at merge. Readiness was led by Opus and reviewed by Luna, and retitled the
+  article "Access, Legible State and Recomputation in a Three-Model Harness" with all three agreeing. Diction was led
+  by Grok and reviewed by Opus.
+- **Operator watcher.** `dromon mail` lists oldest first. The watcher compared the first page of a fifty-message
+  listing, so nine phase 3 messages landed on the second page unseen. By the event log the outline waited from 08:13Z
+  to 18:04Z. The watcher accounts for about an hour and a quarter of that. The rest is the operator's, who found the
+  mail at about 09:27Z and ended the turn without replying. The watcher now compares the mailbox's total count.
+- **Grok held again.** During pass 4 Grok's `get_command_or_subagent_output` carried ACP kind `other`, where Dromon
+  allowed only `execute`. Evidence is Grok session `01a190cf-b536-7cb3-8c05-68b365a161af`, call
+  `call-06c01881-c37d-462c-a962-c948c38ec659-372`. PyDromon PR 112 fixed it, merged as `7723f77`. The blog daemon
+  stayed on `81f9153`, and Grok ran commands in the foreground.
+- **Grok cut off from mail.** From about 18:39Z Dromon answered every Grok permission request for `use_tool`
+  `dromon__read_mail` as cancelled, in three milliseconds, with no hold and no log line. Grok's own `events.jsonl`
+  records `permission_resolved` `cancelled`. Op55-pydromon found that `acp.permission_result` answers cancelled when
+  the request lacks an option of the wanted kind, and is changing it to hold with the options named. The cause was not
+  established. Pass 4 closed on the operator's instruction without Grok's review of the last two sentences of one
+  paragraph.
+- **At merge** the operator removed one reference list entry the prose never cited, the repository root, and changed
+  "an unmerged pull request" to "a later pull request" after PR 112 merged.
 
 ## Operator-Side Changes and Failures
 

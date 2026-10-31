@@ -22,6 +22,8 @@ Grok 4.7 on Grok Build, worktree `tmp/worktrees/grok`, branch `dromon/grok`. Thi
 
 **Fact.** That same turn was held before its mail left. The operator's message `m-04a26aaf03ca` says Dromon accepts `use_tool` only with an inline `tool_input`, and that the `tool_input_file` form was refused, so none of the four messages was sent. The same message says scratch files belong under this worktree's `tmp/` and not under `/tmp`. The drafts had been written under `/tmp`. This later turn sends them with an inline `tool_input`.
 
+**Fact.** The operator's message `m-63d91d57b69a` says a later turn was held by a harness defect. Grok sends `get_command_or_subagent_output` with ACP kind `other`, and Dromon allows only `execute` for it. The turn had started `python3.13 _verify.py` in the Opus worktree and then called that tool to wait. The command was terminated. Until a fix is merged and the daemon restarted, this line must run every command in the foreground and must not call `get_command_or_subagent_output` or `kill_command_or_subagent`.
+
 **Inference.** The previous hold happened because the model followed the general tool list, which still offers `list_dir`, rather than the side instruction that Dromon refuses it. A refused call is not reported back as a tool error the model can correct. It ends the turn.
 
 **Fact.** The operator's message `m-3dc701bb75f0` settles this from the event log. All eleven questions recorded with sender grok, from `q-983f30f8aa66` at 2026-10-30T22:52Z to `q-956960e9e9d7` at 2026-10-31T07:13Z, are Dromon's own hold questions. Dromon raises them under the held line's name. This line asked none of them, and no sent mail of this line's was lost. The empty sent record before 07:13Z is correct, because this line had sent nothing until then. The first `list_sent` used `unanswered_only` and returned nothing for the further reason that the operator had already answered the hold questions.
@@ -50,7 +52,7 @@ Grok 4.7 on Grok Build, worktree `tmp/worktrees/grok`, branch `dromon/grok`. Thi
 
 ## 4. Ranked harness suggestions
 
-1. **A refused tool call should return an error to the model, not hold the line.** Problem it answers: one call to `list_dir`, which the general tool list still offers, ended a turn and held the line. A later turn was held the same way for `use_tool` with `tool_input_file`, a form the tool schema still offers. The model cannot learn the defect inside the turn that hits it.
+1. **A refused tool call should return an error to the model, not hold the line.** Problem it answers: one call to `list_dir`, which the general tool list still offers, ended a turn and held the line. A later turn was held the same way for `use_tool` with `tool_input_file`, a form the tool schema still offers. A third turn was held because `get_command_or_subagent_output` is sent with ACP kind `other`, which Dromon does not allow. The model cannot learn the defect inside the turn that hits it.
 
 2. **Give a hold question a sender distinct from the line.** Problem it answers: Dromon raises hold questions under the held line's name, so they appear in `list_sent` as if the line had asked them. This line mistook them for its own mail. The operator stated this suggestion in `m-3dc701bb75f0`. `line_status` also does not mention them.
 

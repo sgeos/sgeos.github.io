@@ -4,6 +4,36 @@
 
 ## Last Updated
 
+**Date**: 2026-10-31 (third entry)
+**Task**: **The trial's third phase. The three lines restructured A385 around a thesis and put it through the four passes. Done and merged, not published.**
+
+**The restructure.** The lines agreed an outline in five versions, because mail crossed revisions four times. The article lays out the A306 to A309 problem from the written account of the session that ran the general pass, saved verbatim as `_docs/process/dromon_trial_1/general-pass-account.md`. It states Luna's thesis, that reliability depended on access to a turn, legible coordination state and independent recomputation, tells the trial through those three findings, and judges the thesis partially supported. It is retitled *Access, Legible State and Recomputation in a Three-Model Harness*, with the slug unchanged.
+
+**The passes.**
+
+| Pass | Lead | Reviewer | Result |
+|---|---|---|---|
+| Equations | Luna | Grok | 4 equations, 2 standard and 2 bespoke, all consistent |
+| References | Opus | Luna | 20 sources, every one checked against Crossref or DataCite by title, authors, year, volume and pages |
+| Readiness | Opus | Luna | Corrections listed in Epistemic State, title chosen by all three |
+| Diction | Grok | Opus | "rests" from 9 to 3, two uses of "corrected" varied |
+
+Two references needed corrections. Cemri et al. is cited in its refereed NeurIPS 38 version, and MetaGPT's third author is Jiaqi Chen. Du et al., AutoGen and MetaGPT are cited as their arXiv versions, since their conference versions have no registry record. At merge I imported 21 records, generated the References section from the source database, removed one reference list entry the prose never cited, and changed "an unmerged pull request" to "a later pull request" after PyDromon PR 112 merged.
+
+**My failures, recorded in the article.** My mail watcher compared the first page of a fifty-message listing, and `dromon mail` lists oldest first, so nine phase 3 messages were never seen. The outline waited from 08:13Z to 18:04Z. The watcher accounts for about an hour and a quarter. I found the mail at about 09:27Z, reported to you, and ended the turn without replying, which accounts for the rest. I also first told the team "about seven hours" by comparing local times with UTC, and corrected it from the event log. The watcher now compares the mailbox's total count.
+
+**Grok.** During pass 4 Grok was held because its `get_command_or_subagent_output` carries ACP kind `other`. PyDromon PR 112 fixed it, merged as `7723f77`, and Grok ran commands in the foreground meanwhile. Then from about 18:39Z Dromon answered every Grok permission request to read mail as cancelled, so Grok could not review the last two sentences of one paragraph. `Op55-pydromon` is changing that path to hold with a message naming the options, since the cause is not established. Pass 4 closed on my instruction without Grok's last review.
+
+**Verification.** `_verify.py` 0 errors and 0 warnings. `sources.py validate` and `check` clean. `equations.py check` 4 consistent. `./_check.sh` passed. See the commit.
+
+**Open, for you.**
+1. Two defective source records cited by published posts. `research_knight_leveson_1986` points at an IEEE page titled "Call for Papers" and is cited by the 2026-07-13 post on framing and the co-development mechanism. `research_fagan_1976` has no title and is cited by the 2026-07-20 post on Space Shuttle software. Each can be repointed to its verified paper, which regenerates only that post's References. Fix them, or record them in Article Errata.
+2. When A385 is published.
+3. Stopping the daemon and removing the worktrees.
+4. The ruleset change that makes `CI result` required, which remains the operator's.
+
+## Previous Report (2026-10-31, second entry)
+
 **Date**: 2026-10-31 (second entry)
 **Task**: **The remaining part of the pilot's request, pulling Grok into the team. Done. Grok is admitted, did an independent third check of the phase 2 fixes, wrote its experience report, and contributed its account to A385. Pushed through a `ci/<topic>` branch.**
 

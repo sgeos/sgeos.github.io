@@ -12,6 +12,8 @@ The worktree is at `9ff3d6c`, the same commit as the other two lines, and it is 
 
 The operator settled the resume replies from the event log, in message `m-3dc701bb75f0`. All eleven questions recorded with sender grok, from `q-983f30f8aa66` at 2026-10-30T22:52Z to `q-956960e9e9d7` at 2026-10-31T07:13Z, are Dromon's own hold questions, raised under the held line's name. This line asked none of them, and no sent mail of this line's was lost. The empty sent record before 07:13Z is correct, because this line had sent nothing until then. Each body says that Dromon held the line because a turn failed and sent no operator mail, and each offers only the choice resume. Two of the eleven repeat an earlier failure text, so there are nine distinct failure texts. The earlier inference, that the line asked and that the sent record was cleared, is withdrawn.
 
+A later turn was held while waiting for the corpus verifier. The operator's message `m-63d91d57b69a` says Grok sends `get_command_or_subagent_output` with a tool-call kind of other, and Dromon allows only execute for that call. The verifier was stopped. The line did not learn the cause inside the turn. The same pattern held the line earlier when a directory listing and a file-backed tool call were refused.
+
 Peer mail still in the mailbox is the phase 1 plan. Opus had asked for a review of the X-12 classification, and Luna had proposed a split. Both are overtaken by the merge. This line did not edit a post and did not take a lease.
 
 ## The recomputation

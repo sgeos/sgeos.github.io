@@ -1,0 +1,19 @@
+# Import decisions for A385, Access, Legible State and Recomputation in a Three-Model Harness.
+# Reviewed 2026-10-31. Read by `python3 _lib/sources_import.py import`.
+# The registry caches named below are scratch and are not tracked.
+
+article = "A385"
+crossref_cache = "tmp/a385/proto/crossref"
+wiki_pins = "tmp/a385/proto/wiki_pins.json"
+web_read = "2026-10-31"
+resolve_links = true
+
+[title]
+research_hardy_1988 = "The Confused Deputy, or Why Capabilities Might Have Been Invented"
+
+[synthesis]
+research_malone_crowston_1994 = "Survey synthesising coordination research across disciplines, judged from the abstract."
+
+[fix.research_gray_cheriton_1989]
+note = "Crossref gives the proceedings title in sentence case. Recased to the symposium's name."
+set = { container = "Proceedings of the Twelfth ACM Symposium on Operating Systems Principles" }

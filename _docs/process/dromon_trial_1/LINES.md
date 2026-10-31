@@ -33,7 +33,61 @@ classification is reviewed by another line, how notation is kept consistent acro
 and who holds the article draft and when. Then send the agreed plan to `@operator` in one message.
 Start writing once the operator replies, or after one hour with no reply.
 
-## Phase 2, from 2026-10-31, which supersedes the goal above
+## Phase 3, from 2026-10-31, which supersedes the goals above
+
+Phases 1 and 2 are merged and live at `e150969`, and every worktree is reset to it. All three lines are now in the
+team. **The pilot asks the three of you to restructure A385 together, then to put it through four passes.**
+
+**The restructure must do these things.**
+1. **Lay out the A306 to A309 problem**, including what happened to those four articles during the general pass that
+   brought every other article to the Equations section format. The record is in the main checkout's
+   `tmp/eq2/FINDINGS.md` under "Blocked batches", in `tmp/eq3/BRIEF.md`, and in `_docs/process/REVERSE_PROMPT.md`, the
+   2026-10-30 entries. That pass used eleven agents and covered 233 articles and 8,122 equations. The agent holding the
+   A306 batch had its writes and shell commands refused by a safety check partway through. It asked the lead session
+   to run its own unreviewed script, the lead declined, and the batch was never delivered, so A306 to A309 were
+   excluded.
+2. **State a thesis.**
+3. **Tell the narrative in the context of that thesis, and make it a meaningful read.** Condense unimportant details
+   into summary statements. Put long runs of figures in tables. Tell each event once.
+4. **Judge the thesis supported, partially supported or refuted**, with the reasons.
+5. **Summarise the takeaways.**
+
+The operator has suggested a frame, which you may adopt or argue against: three findings, each with its own failures.
+These are that the harness can lock a model out before it starts, that mail is a weak coordination primitive, and that
+agreement is not verification, with Grok's late independent check as the remedy. The operator also notes that the
+live repair of the harness by a fourth agent, the `Op55-pydromon` session, which fixed each defect a Grok turn
+exposed, is told only as "the operator reported a fix". It may deserve more.
+
+**Then four passes, in this order.** Each pass has a lead line and a reviewing line, which you agree.
+1. **Equation density.** Add every equation that is sensible for this article, for example models of independent
+   and correlated review error, of mail latency against turn boundaries, or of cost. Follow
+   `_docs/writing/MATHJAX_CONVENTIONS.md` and `EQUATIONS_SECTION.md`. An equation must earn its place.
+2. **Reference density.** Add every reference you identify, with a focus on primary references, so that the narrative
+   rests on existing literature. Relevant fields include distributed mutual exclusion and consensus, N-version
+   programming and correlated failure, least privilege and sandboxing, multi-agent language model systems, and team
+   coordination. **You have no network.** Propose each reference with full metadata, including authors, year, title,
+   venue and DOI or URL if you know it, and mark it unverified. The operator verifies each one against the registries
+   and adds it to the source database, then tells you which passed. Never cite a reference the operator has not
+   verified. Follow `_docs/writing/CITATION_STYLE.md`.
+3. **Publication readiness.** Follow `_docs/process/PUBLICATION_REVIEW.md` and `_docs/process/CONTENT_WORKFLOW.md`.
+4. **Pathological word usage.** Run `python3 _lib/blog.py diction all` on the draft. Find any word the article
+   overuses, as "specific" once was across the corpus, and reword it.
+
+**Working rules for phase 3.**
+- Agree an outline and a division of the writing by mail first, and send the outline to `@operator` before anyone
+  writes. One file has one writer. Hold the `article` lease while you edit the draft, or draft sections in your own
+  worktree's `tmp/` and have the lease holder assemble them.
+- Every section gets a review by another line. Every figure is recomputed by its reviewer.
+- The draft in your worktree, at `e150969`, is the base. `tmp/dromon_trial3/a385-opus-0027-unmerged.markdown` in the
+  main checkout holds a later opus edit that the operator's merge missed, because the operator copied the draft
+  without checking the lease. That miss is material for the article. Where the two differ on Grok's sent mail, the
+  merged text is correct. Grok's unfiltered list of sent mail showed all eleven hold questions, and its first look
+  found none only because it asked for unanswered mail.
+- The operator will not merge while anyone holds the `article` lease.
+- Report each pass to `@operator` when its review is done. Run `_verify.py`. `./_check.sh` is needed only at the end,
+  and it is coordinated as before.
+
+## Phase 2, from 2026-10-31, finished
 
 Phase 1 is merged and live at `b5256b0`. Every worktree has been reset to it. The pilot now asks for three
 things.
@@ -58,8 +112,8 @@ Changing a published post's categories or date moves its URL, so do not. The rul
 `use_tool` for Dromon's own `dromon__` tools. Any other tool ends your turn and holds your line. That includes
 `todo_write`, `monitor`, `workflow`, `spawn_subagent`, the scheduler and plan-mode tools, `ask_user_question`,
 `send_feedback`, `web_fetch` and the image tools. Keep your plan in your reply text instead of `todo_write`, and ask the
-operator through Dromon's `ask_operator` tool. **Do not call `list_dir` for now.** Dromon refuses it on a defect, so
-list directories with `ls` through `run_terminal_command` instead.
+operator through Dromon's `ask_operator` tool. `list_dir` is permitted again from PyDromon PR 102. Pass
+`use_tool` arguments inline as `tool_input`, never through `tool_input_file`.
 
 ## Read before classifying
 

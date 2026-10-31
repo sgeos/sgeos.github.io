@@ -1,0 +1,83 @@
+# Equation classification for A385. Read by `python3 _lib/equations.py`.
+
+caution = "The mail and lease equations state coordination assumptions, and the review probabilities are illustrative rather than measured in this trial."
+
+[[equation]]
+tag = 1
+class = "bespoke"
+title = "Bespoke Turn-Boundary Mail Delay"
+gloss = "Assuming mail becomes readable only when a turn starts, the message waits until the first turn start at or after delivery."
+cite = []
+digest = "e85bf9feaa7f6bfb"
+
+[[equation]]
+tag = 2
+class = "bespoke"
+title = "Bespoke Gate Lease Exclusion"
+gloss = "A lease permits at most one line to hold the shared gate resource at a time."
+cite = ["research_gray_cheriton_1989"]
+digest = "527ba3d171d4a5cb"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Independent Event Product Rule"
+gloss = "If two reviewers miss an error independently, their joint miss probability is the product of their individual probabilities."
+cite = []
+digest = "c828365b751ecef7"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Correlated Bernoulli Joint Probability"
+gloss = "The correlation term adjusts the independent product to account for dependence between the reviewers' misses."
+cite = ["research_eckhardt_lee_1985"]
+digest = "c35ab0b5719a9c55"
+
+[[symbol]]
+tex = 'd'
+meaning = "the time a message is delivered"
+
+[[symbol]]
+tex = 'b_k'
+meaning = "the start time of the recipient's turn k"
+
+[[symbol]]
+tex = 'r'
+meaning = "the first read time at or after delivery"
+
+[[symbol]]
+tex = 'w'
+meaning = "the wait from delivery until the first read time"
+
+[[symbol]]
+tex = 'h_i(t)'
+meaning = "one if line i holds the lease at time t, and zero otherwise"
+
+[[symbol]]
+tex = 'N_{\mathrm{holders}}(t)'
+meaning = "the number of lines holding the lease at time t"
+
+[[symbol]]
+tex = 'M_1'
+meaning = "the event that reviewer 1 misses the same error"
+
+[[symbol]]
+tex = 'M_2'
+meaning = "the event that reviewer 2 misses the same error"
+
+[[symbol]]
+tex = 'p_1'
+meaning = "the probability that reviewer 1 misses the error"
+
+[[symbol]]
+tex = 'p_2'
+meaning = "the probability that reviewer 2 misses the error"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the correlation between the two reviewers' miss indicators"
+
+[[symbol]]
+tex = 'P'
+meaning = "probability"
