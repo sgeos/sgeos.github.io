@@ -881,6 +881,7 @@ and worst-case execution time analysis.
 ### Primary Sources, Peer-Reviewed
 
 - Rutten, J. J. M. M. 2000. "Universal Coalgebra: A Theory of Systems." *Theoretical Computer Science* 249 (1): 3–80. [https://doi.org/10.1016/s0304-3975(00)00056-6][research_rutten]
+- Wilhelm, Reinhard, Jakob Engblom, Andreas Ermedahl, et al. 2008. "The Worst-Case Execution-Time Problem—Overview of Methods and Survey of Tools." *ACM Transactions on Embedded Computing Systems* 7 (3): 1–53. [https://doi.org/10.1145/1347375.1347389][research_wilhelm]
 
 ### Primary Sources, Non-Peer-Reviewed
 
@@ -894,7 +895,6 @@ and worst-case execution time analysis.
 - "rkyv Zero-Copy Serialization." n.d. crates.io. Accessed October 25, 2026. [https://crates.io/crates/rkyv][ref_rkyv]
 - "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma_github]
 - Turner, David A. 2004. "Total Functional Programming." Preprint, TUGraz OPEN Library (Graz University of Technology). [https://doi.org/10.3217/jucs-010-07-0751][future_turner]
-- Wilhelm, Reinhard, Jakob Engblom, Andreas Ermedahl, et al. 2008. "The Worst-Case Execution-Time Problem—Overview of Methods and Survey of Tools." *ACM Transactions on Embedded Computing Systems* 7 (3): 1–53. [https://doi.org/10.1145/1347375.1347389][research_wilhelm]
 
 ### General Sources
 

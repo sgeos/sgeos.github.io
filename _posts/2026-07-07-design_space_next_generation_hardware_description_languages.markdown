@@ -1527,6 +1527,7 @@ answer.
 - Bourgeat, Thomas, Clément Pit-Claudel, Adam Chlipala, and Arvind. 2020. "The Essence of Bluespec: A Core Language for Rule-Based Hardware Design." In *Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation*. ACM. [https://doi.org/10.1145/3385412.3385965][research_koika]
 - Choi, Joonwon, Muralidaran Vijayaraghavan, Benjamin Sherman, Adam Chlipala, and Arvind. 2017. "Kami: A Platform for High-Level Parametric Hardware Specification and Its Modular Verification." *Proceedings of the ACM on Programming Languages* 1 (ICFP): 1–30. [https://doi.org/10.1145/3110268][research_kami]
 - Rutten, J. J. M. M. 2000. "Universal Coalgebra: A Theory of Systems." *Theoretical Computer Science* 249 (1): 3–80. [https://doi.org/10.1016/s0304-3975(00)00056-6][research_rutten_universal_coalgebra]
+- Wilhelm, Reinhard, Jakob Engblom, Andreas Ermedahl, et al. 2008. "The Worst-Case Execution-Time Problem—Overview of Methods and Survey of Tools." *ACM Transactions on Embedded Computing Systems* 7 (3): 1–53. [https://doi.org/10.1145/1347375.1347389][research_wilhelm_wcet]
 
 ### Primary Sources, Non-Peer-Reviewed
 
@@ -1536,7 +1537,6 @@ answer.
 - "Sgeos/keleusma: Total Function Stream Processor for Deterministic Control Loops." n.d. GitHub. Accessed October 25, 2026. [https://github.com/sgeos/keleusma][ref_keleusma]
 - "Systems Modeling Language version two." n.d. github.com. Accessed October 25, 2026. [https://github.com/Systems-Modeling/SysML-v2-Release][ref_sysml_v2]
 - Turner, David A. 2004. "Total Functional Programming." Preprint, TUGraz OPEN Library (Graz University of Technology). [https://doi.org/10.3217/jucs-010-07-0751][research_turner_total]
-- Wilhelm, Reinhard, Jakob Engblom, Andreas Ermedahl, et al. 2008. "The Worst-Case Execution-Time Problem—Overview of Methods and Survey of Tools." *ACM Transactions on Embedded Computing Systems* 7 (3): 1–53. [https://doi.org/10.1145/1347375.1347389][research_wilhelm_wcet]
 - "YosysHQ/nextpnr: Nextpnr Portable FPGA Place and Route Tool." n.d. GitHub. Accessed October 25, 2026. [https://github.com/YosysHQ/nextpnr][ref_nextpnr]
 
 ### Commercial Sources

@@ -197,6 +197,7 @@ $$
 ### Primary Sources, Peer-Reviewed
 
 - Berners-Lee, Tim, James Hendler, and Ora Lassila. 2001. "The Semantic Web." *Scientific American* 284 (5): 34–43. [https://doi.org/10.1038/scientificamerican0501-34][research_berners_lee_semantic_web]
+- Nelson, Theodor Holm. 1999. "Xanalogical Structure, Needed Now More than Ever: Parallel Documents, Deep Links to Content, Deep Versioning, and Deep Re-Use." *ACM Computing Surveys* 31 (4es): 33. [https://doi.org/10.1145/345966.346033][research_nelson_xanalogical]
 
 ### Primary Sources, Non-Peer-Reviewed
 
@@ -209,7 +210,6 @@ $$
 - Klein, Martin, Herbert Van de Sompel, Robert Sanderson, et al. 2014. "Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot." *PLoS ONE* 9 (12): e115253. [https://doi.org/10.1371/journal.pone.0115253][research_klein_reference_rot]
 - Moulthrop, S. 1989. "Hypertext and “the Hyperreal”." In *Proceedings of the second annual ACM conference on Hypertext - HYPERTEXT '89*. ACM Press. [https://doi.org/10.1145/74224.74246][research_meyrowitz_missing_link]
 - Nelson, T. H. 1965. "Complex Information Processing: A File Structure for the Complex, the Changing and the Indeterminate." In *Proceedings of the 1965 20th national conference on -*. ACM Press. [https://doi.org/10.1145/800197.806036][research_nelson_1965]
-- Nelson, Theodor Holm. 1999. "Xanalogical Structure, Needed Now More than Ever: Parallel Documents, Deep Links to Content, Deep Versioning, and Deep Re-Use." *ACM Computing Surveys* 31 (4es): 33. [https://doi.org/10.1145/345966.346033][research_nelson_xanalogical]
 - Sakamura, Ken. 1987. "The Objectives of the TRON Project." In *TRON Project 1987 Open-Architecture Computer Systems*. Springer Japan. [https://doi.org/10.1007/978-4-431-68069-7\_1][ref_sakamura_tron]
 - *W3C, RDF 1.1 Concepts and Abstract Syntax*. n.d. [https://www.w3.org/TR/rdf11-concepts/][ref_w3c_rdf]
 - *Web Annotation Data Model*. n.d. [https://www.w3.org/TR/annotation-model/][ref_w3c_annotation]

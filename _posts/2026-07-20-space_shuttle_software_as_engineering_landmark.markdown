@@ -282,11 +282,11 @@ $$
 
 ### Primary Sources, Peer-Reviewed
 
+- Fagan, M. E. 1976. "Design and Code Inspections to Reduce Errors in Program Development." *IBM Systems Journal* 15 (3): 182–211. [https://doi.org/10.1147/sj.153.0182][research_fagan_1976]
 - Kolkhorst, B. G., and A. J. Macina. 1988. "Developing Error-Free Software." *IEEE Aerospace and Electronic Systems Magazine* 3 (11): 25–31. [https://doi.org/10.1109/62.17928][research_kolkhorst_macina_1988]
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- Fagan, M. E. 1976. "Design and Code Inspections to Reduce Errors in Program Development." *IBM Systems Journal* 15 (3): 182–211. [https://doi.org/10.1147/sj.153.0182][research_fagan_1976]
 - *HAL/S Language Specification*. n.d. [https://ntrs.nasa.gov/citations/19790018664][ref_hals_spec]
 - Hanaway, John F., and Robert W. Moorehead. 1989. *Space Shuttle Avionics System*. NASA-SP-504. NASA. [https://ntrs.nasa.gov/citations/19900015844][book_hanaway_moorehead_shuttle_avionics]
 - Madden, William A., and Kyle Y. Rone. 1984. "Design, Development, Integration: Space Shuttle Primary Flight Software System." *Communications of the ACM* 27 (9): 914–25. [https://doi.org/10.1145/358234.358254][research_madden_rone_1984]

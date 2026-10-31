@@ -206,3 +206,21 @@ url = "https://aiaa.org/publications/journals/Journal-Author/journal-acceptance-
 quote = "The Associate Editor may, however, at his or her discretion, accept the paper without review"
 read = "2026-10-24"
 method = "fetched"
+
+[[publisher]]
+name = "ACM journals and transactions"
+venue_pattern = '\bACM\b.*\b(Journal|Transactions)\b|\b(Journal|Transactions)\b.*\bACM\b'
+journals = true
+proceedings = false
+reviewers = "at least three qualified, independent reviewers, with the editor mediating between author and referee"
+basis = "ACM's Policy on Pre-Publication Evaluation makes every ACM title containing Journal or Transactions on a refereed journal, and requires refereed material to be reviewed by at least three qualified, independent reviewers. Read through an Internet Archive capture of 22 December 2025, because ACM's own servers refused automated reading. The same policy calls proceedings and newsletters often unrefereed and says some magazines do not formally review all articles, so ACM proceedings, newsletters and magazines such as Communications of the ACM and Operating Systems Review are not covered. The pattern matches by name, so it applies only to titles naming ACM."
+[[publisher.evidence]]
+url = "https://web.archive.org/web/20251222091719/https://www.acm.org/publications/policies/pre-publication-evaluation"
+quote = "All ACM Transactions and Journals, i.e., all titles published by ACM including the term \"Journal\" or \"Transactions on\", shall be refereed journals."
+read = "2026-10-31"
+method = "fetched"
+[[publisher.evidence]]
+url = "https://web.archive.org/web/20251222091719/https://www.acm.org/publications/policies/pre-publication-evaluation"
+quote = "Submitted papers shall be reviewed by at least three qualified, independent reviewers who are asked to assess the originality, correctness, novelty, importance, and clarity of exposition of the paper"
+read = "2026-10-31"
+method = "fetched"
