@@ -1156,12 +1156,9 @@ $$
 
 ### Primary Sources, Peer-Reviewed
 
+- Böhm, Corrado, and Giuseppe Jacopini. 1966. "Flow Diagrams, Turing Machines and Languages with Only Two Formation Rules." *Communications of the ACM* 9 (5): 366–71. [https://doi.org/10.1145/355592.365646][research_bohm_jacopini]
 - Haas, Andreas, Andreas Rossberg, Derek L. Schuff, et al. 2017. "Bringing the Web up to Speed with WebAssembly." In *Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation*. ACM. [https://doi.org/10.1145/3062341.3062363][research_haas_webassembly]
 - Watt, Conrad. 2018. "Mechanising and Verifying the WebAssembly Specification." In *Proceedings of the 7th ACM SIGPLAN International Conference on Certified Programs and Proofs*. ACM. [https://doi.org/10.1145/3167082][research_watt_wasm]
-
-### Primary Sources, Non-Peer-Reviewed
-
-- Böhm, Corrado, and Giuseppe Jacopini. 1966. "Flow Diagrams, Turing Machines and Languages with Only Two Formation Rules." *Communications of the ACM* 9 (5): 366–71. [https://doi.org/10.1145/355592.365646][research_bohm_jacopini]
 
 ### Secondary Sources
 

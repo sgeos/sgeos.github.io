@@ -470,6 +470,7 @@ $$
 - Knight, John C., and Nancy G. Leveson. 1986. "An Experimental Evaluation of the Assumption of Independence in Multiversion Programming." *IEEE Transactions on Software Engineering* SE-12 (1): 96–109. [https://doi.org/10.1109/tse.1986.6312924][research_knight_leveson_1986]
 - Lehman, M. M. 1980. "Programs, Life Cycles, and Laws of Software Evolution." *Proceedings of the IEEE* 68 (9): 1060–76. [https://doi.org/10.1109/proc.1980.11805][research_lehman_1980]
 - Liu, C. L., and James W. Layland. 1973. "Scheduling Algorithms for Multiprogramming in a Hard-Real-Time Environment." *Journal of the ACM* 20 (1): 46–61. [https://doi.org/10.1145/321738.321743][research_liu_layland_1973]
+- Parnas, D. L. 1972. "On the Criteria to Be Used in Decomposing Systems into Modules." *Communications of the ACM* 15 (12): 1053–58. [https://doi.org/10.1145/361598.361623][research_parnas_1972]
 - Wright, T. P. 1936. "Factors Affecting the Cost of Airplanes." *Journal of the Aeronautical Sciences* 3 (4): 122–28. [https://doi.org/10.2514/8.155][research_wright_1936]
 
 ### Primary Sources, Non-Peer-Reviewed
@@ -482,7 +483,6 @@ $$
 - Madden, William A., and Kyle Y. Rone. 1984. "Design, Development, Integration: Space Shuttle Primary Flight Software System." *Communications of the ACM* 27 (9): 914–25. [https://doi.org/10.1145/358234.358254][research_madden_rone_1984]
 - Nagy, Béla, J. Doyne Farmer, Quan M. Bui, and Jessika E. Trancik. 2013. "Statistical Basis for Predicting Technological Progress." *PLoS ONE* 8 (2): e52669. [https://doi.org/10.1371/journal.pone.0052669][research_nagy_farmer_bui_trancik_2013]
 - "Noyce Integrated Circuit Patent." n.d. Accessed October 25, 2026. [https://patents.google.com/patent/US2981877][ref_noyce_ic_patent]
-- Parnas, D. L. 1972. "On the Criteria to Be Used in Decomposing Systems into Modules." *Communications of the ACM* 15 (12): 1053–58. [https://doi.org/10.1145/361598.361623][research_parnas_1972]
 - Roberts, Lawrence G., and Barry D. Wessler. 1970. "Computer Network Development to Achieve Resource Sharing." In *Proceedings of the May 5-7, 1970, spring joint computer conference on - AFIPS '70 (Spring)*. ACM Press. [https://doi.org/10.1145/1476936.1477020][research_roberts_wessler_1970]
 - Tomayko, James E. 1987. *Computers in Spaceflight: The NASA Experience*. NASA-CR-182505. NASA. [https://ntrs.nasa.gov/citations/19880069935][book_tomayko_shuttle_software]
 

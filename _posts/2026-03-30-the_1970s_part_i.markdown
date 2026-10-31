@@ -1444,15 +1444,15 @@ the same decade.
 ### Primary Sources, Peer-Reviewed
 
 - Brinch Hansen, Per. 1975. "The Programming Language Concurrent Pascal." *IEEE Transactions on Software Engineering* 1. [https://scholar.google.com/scholar?q=The+Programming+Language+Concurrent+Pascal+Brinch+Hansen+1975][paper_brinch_hansen_concurrent_pascal]
+- Dijkstra, Edsger W. 1975. "Guarded Commands, Nondeterminacy and Formal Derivation of Programs." *Communications of the ACM* 18 (8): 453–57. [https://doi.org/10.1145/360933.360975][paper_dijkstra_guarded]
+- Hoare, C. A. R. 1974. "Monitors: An Operating System Structuring Concept." *Communications of the ACM* 17 (10): 549–57. [https://doi.org/10.1145/355620.361161][paper_hoare_monitors]
+- Wirth, Niklaus. 1971. "Program Development by Stepwise Refinement." *Communications of the ACM* 14 (4): 221–27. [https://doi.org/10.1145/362575.362577][paper_wirth_refinement]
 
 ### Primary Sources, Non-Peer-Reviewed
 
 - Backus, John. 1978. "Can Programming Be Liberated from the Von Neumann Style?: A Functional Style and Its Algebra of Programs." *Communications of the ACM* 21 (8): 613–41. [https://doi.org/10.1145/359576.359579][paper_backus_liberated]
 - Colmerauer, Alain, and Philippe Roussel. (1993) 1996. "The Birth of Prolog." In *History of programming languages---II*. ACM. [https://doi.org/10.1145/234286.1057820][paper_colmerauer_prolog]
-- Dijkstra, Edsger W. 1975. "Guarded Commands, Nondeterminacy and Formal Derivation of Programs." *Communications of the ACM* 18 (8): 453–57. [https://doi.org/10.1145/360933.360975][paper_dijkstra_guarded]
-- Hoare, C. A. R. 1974. "Monitors: An Operating System Structuring Concept." *Communications of the ACM* 17 (10): 549–57. [https://doi.org/10.1145/355620.361161][paper_hoare_monitors]
 - Kowalski, Robert A. 1974. "Predicate Logic as Programming Language." In *IFIP Congress*. [https://scholar.google.com/scholar?q=Predicate+Logic+as+Programming+Language+Kowalski+1974][paper_kowalski_predicate]
-- Wirth, Niklaus. 1971. "Program Development by Stepwise Refinement." *Communications of the ACM* 14 (4): 221–27. [https://doi.org/10.1145/362575.362577][paper_wirth_refinement]
 
 ### Secondary Sources
 

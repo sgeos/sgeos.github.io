@@ -1125,6 +1125,7 @@ the nineteen sixties.
 ### Primary Sources, Peer-Reviewed
 
 - Kleene, S. C. 1936. "General Recursive Functions of Natural Numbers." *Mathematische Annalen* 112 (1): 727–42. [https://doi.org/10.1007/bf01565439][paper_kleene_recursive]
+- McCarthy, John. 1960. "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I." *Communications of the ACM* 3 (4): 184–95. [https://doi.org/10.1145/367177.367199][paper_mccarthy_lisp]
 - Schönfinkel, M. 1924. "Über die Bausteine der mathematischen Logik." *Mathematische Annalen* 92 (3–4): 305–16. [https://doi.org/10.1007/bf01448013][paper_schonfinkel]
 - Turing, A. M. 1937. "On Computable Numbers, with an Application to the Entscheidungsproblem." *Proceedings of the London Mathematical Society* s2-42 (1): 230–65. [https://doi.org/10.1112/plms/s2-42.1.230][paper_turing_computable]
 
@@ -1135,7 +1136,6 @@ the nineteen sixties.
 - Church, Alonzo. 1936. "An Unsolvable Problem of Elementary Number Theory." *American Journal of Mathematics* 58 (2): 345. [https://doi.org/10.2307/2371045][paper_church_unsolvable]
 - Church, Alonzo. 1940. "A Formulation of the Simple Theory of Types." *Journal of Symbolic Logic* 5 (2): 56–68. [https://doi.org/10.2307/2266170][paper_church_simple_types]
 - Curry, H. B. 1930. "Grundlagen Der Kombinatorischen Logik." *American Journal of Mathematics* 52 (3): 509. [https://doi.org/10.2307/2370619][paper_curry_grundlagen]
-- McCarthy, John. 1960. "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I." *Communications of the ACM* 3 (4): 184–95. [https://doi.org/10.1145/367177.367199][paper_mccarthy_lisp]
 - Perlis, A. J., and K. Samelson. 1958. "Preliminary Report: International Algebraic Language." *Communications of the ACM* 1 (12): 8–22. [https://doi.org/10.1145/377924.594925][paper_algol58_preliminary]
 - "Report on the Algorithmic Language ALGOL 60." 1960. *Communications of the ACM* 3. [https://scholar.google.com/scholar?q=Report+on+the+Algorithmic+Language+ALGOL+60+Naur+1960][paper_naur_algol60]
 - Von Neumann, John. 1945. *First Draft of a Report on the EDVAC*. Moore School of Electrical Engineering, University of Pennsylvania. [https://openlibrary.org/works/OL15667265W][paper_vonneumann_edvac]

@@ -350,7 +350,7 @@ FIELDS = {
     "authors", "editors", "year", "title", "title_published", "container", "venue", "volume", "issue",
     "pages", "publisher", "number", "doi", "url", "revision", "accessed", "post", "evidence", "note",
     "short_title", "published", "periodical", "primary", "publisher_registry", "original_year",
-    "doi_primary",
+    "doi_primary", "refereed",
 }
 
 
@@ -363,9 +363,17 @@ def validate_record(r, venues):
     for date_field, pattern in (("published", r"^\d{4}(-\d{2}(-\d{2})?)?$"), ("accessed", r"^\d{4}-\d{2}-\d{2}$")):
         _require(date_field not in r or re.match(pattern, str(r[date_field])),
                  f"{a}: {date_field} must be ISO, got {r.get(date_field)!r}")
-    for flag in ("synthesis", "stake", "encyclopaedia", "periodical", "primary"):
+    for flag in ("synthesis", "stake", "encyclopaedia", "periodical", "primary", "refereed"):
         _require(flag not in r or isinstance(r[flag], bool), f"{a}: {flag} must be true or false")
     _require(isinstance(a, str) and ANCHOR_RE.match(a), f"{a}: anchor must match {ANCHOR_RE.pattern}")
+    # A PER-RECORD REFEREEING MARK is a human decision, like `synthesis`, so it
+    # carries a note saying how it was judged, and it means something only in a
+    # venue that credits review record by record.
+    if "refereed" in r:
+        _require(isinstance(r.get("note"), str) and r["note"].strip(),
+                 f"{a}: refereed needs a note saying how the item was judged")
+        _require(venues.get(r.get("venue"), {}).get("record_level") is True,
+                 f"{a}: refereed is set but its venue does not credit review record by record")
     kind = r.get("kind")
     _require(kind in KINDS, f"{a}: unknown kind {kind!r}")
     rule, section = r.get("rule"), r.get("section")
@@ -420,7 +428,7 @@ def validate_record(r, venues):
 
 
 VENUE_FIELDS = {"venue", "peer_reviewed", "checked", "basis", "evidence", "since", "reviewers", "magazine",
-                "publisher", "class", "via", "no_publisher_credit"}
+                "publisher", "class", "via", "no_publisher_credit", "record_level"}
 EVIDENCE_FIELDS = {"url", "quote", "read", "method"}
 
 
@@ -459,6 +467,8 @@ def validate_venue(v):
                  f"{name}: evidence needs exactly url, quote, read and method")
         _require(ev["method"] in ("fetched", "snippet"), f"{name}: evidence method must be fetched or snippet")
         _require(re.match(r"^\d{4}-\d{2}-\d{2}$", ev["read"]), f"{name}: evidence read must be YYYY-MM-DD")
+    if "record_level" in v:
+        _require(v["record_level"] is True, f"{name}: record_level is true or absent")
     if "since" in v:
         _require(isinstance(v["since"], int) and not isinstance(v["since"], bool), f"{name}: since must be a year")
     if "magazine" in v:
@@ -474,10 +484,18 @@ def validate_venue(v):
 
 
 def credits_review(r, venues):
-    """True only when the record's venue is verified as refereeing and covers its year."""
+    """True only when the record's venue is verified as refereeing and covers its year.
+
+    A venue marked `record_level` referees only some of what it prints, as
+    Communications of the ACM prints refereed papers beside letters and invited
+    commentary. Its credit then reaches only a record marked `refereed`, so an
+    unmarked item from it stays under default deny.
+    """
     venue = venues.get(r.get("venue"), {})
     if (venue.get("peer_reviewed") is not True or venue.get("checked") is not True
             or not venue.get("reviewers")):
+        return False
+    if venue.get("record_level") and r.get("refereed") is not True:
         return False
     since = venue.get("since")
     return since is None or (isinstance(r.get("year"), int) and r["year"] >= since)

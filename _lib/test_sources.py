@@ -162,6 +162,28 @@ def t_web_page_with_stake_is_commercial():
     assert S.classify({"kind": "web-page"}, VENUES) == (7, "General Sources")
 
 
+def t_record_level_venue_credits_only_marked_records():
+    """Communications of the ACM prints refereed papers beside letters and invited commentary."""
+    venues = dict(VENUES, Mixed=dict(VENUES["Icarus"], venue="Mixed", record_level=True))
+    paper = journal(venue="Mixed", container="Mixed")
+    assert S.classify(paper, venues) == (4, "Primary Sources, Non-Peer-Reviewed"), "an unmarked item was credited"
+    marked = dict(paper, refereed=True, note="A research paper, judged from its section.")
+    assert S.classify(marked, venues) == (3, "Primary Sources, Peer-Reviewed")
+    # The mark never credits a venue that is not itself established.
+    venues["Mixed"] = dict(VENUES["Meeting"], venue="Mixed", record_level=True)
+    assert S.classify(marked, venues)[1] == "Primary Sources, Non-Peer-Reviewed"
+
+
+def t_refereed_mark_needs_a_note_and_a_record_level_venue():
+    venues = dict(VENUES, Mixed=dict(VENUES["Icarus"], venue="Mixed", record_level=True))
+    bare = journal(venue="Mixed", container="Mixed", refereed=True)
+    bare["rule"], bare["section"] = S.classify(bare, venues)
+    raises(lambda: S.validate_record(bare, venues), "refereed needs a note")
+    elsewhere = journal(refereed=True, note="judged")
+    raises(lambda: S.validate_record(elsewhere, VENUES), "does not credit review record by record")
+    raises(lambda: S.validate_venue(dict(VENUES["Icarus"], record_level=False)), "record_level is true or absent")
+
+
 # -------------------------------------------------------------- validation
 
 def t_validation_rejects_unknown_field():

@@ -1318,10 +1318,10 @@ the nineteen eighties.
 ### Primary Sources, Peer-Reviewed
 
 - Damas, Luis, and Robin Milner. 1982. "Principal Type-Schemes for Functional Programs." In *Proceedings of the 9th ACM SIGPLAN-SIGACT symposium on Principles of programming languages - POPL '82*. ACM Press. [https://doi.org/10.1145/582153.582176][paper_damas_milner]
+- Denning, Dorothy E. 1976. "A Lattice Model of Secure Information Flow." *Communications of the ACM* 19 (5): 236–43. [https://doi.org/10.1145/360051.360056][paper_denning_lattice]
 
 ### Primary Sources, Non-Peer-Reviewed
 
-- Denning, Dorothy E. 1976. "A Lattice Model of Secure Information Flow." *Communications of the ACM* 19 (5): 236–43. [https://doi.org/10.1145/360051.360056][paper_denning_lattice]
 - Hindley, R. 1969. "The Principal Type-Scheme of an Object in Combinatory Logic." *Transactions of the American Mathematical Society* 146: 29. [https://doi.org/10.2307/1995158][paper_hindley]
 - Milner, Robin. 1972. *Logic for Computable Functions Description of a Machine Implementation*. Defense Technical Information Center. [https://doi.org/10.21236/ad0785072][paper_milner_lcf]
 - Robinson, J. A. 1965. "A Machine-Oriented Logic Based on the Resolution Principle." In *Automation of Reasoning*. Springer Berlin Heidelberg. [https://doi.org/10.1007/978-3-642-81952-0\_26][paper_robinson_resolution]
