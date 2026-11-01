@@ -3711,7 +3711,7 @@ $$
 - $\bar{L}$, the mean unit length over the corpus
 - $\hat{p}_{\text{upper}}$, the approximate ninety-five percent upper bound on a rate after zero observed events in $n$ trials
 - $L_{\max}$, the length of the longest unit, with $Q$ the number of missing instruction instances
-- $\mathcal{D}_{\text{corpus}}$, the empirical distribution over units of the corpus, with $\mathcal{D}_{\text{target}}$ the distribution of the eventual target population
+- $\mathcal{D}\_{\text{corpus}}$, the empirical distribution over units of the corpus, with $\mathcal{D}\_{\text{target}}$ the distribution of the eventual target population
 - $f/s$, in Amdahl's law, the fraction $f$ of the work an improvement touches and the factor $s$ by which that fraction becomes faster
 
 ## References

@@ -4,6 +4,34 @@
 
 ## Last Updated
 
+**Date**: 2026-10-31 (seventh entry)
+**Task**: **Review `tmp/` with a PyDromon team, promote what ought to be generalized, commit and merge it, and send the experience reports to the PyDromon implementation line. Done.**
+
+**The team.** Claude Opus 5.5 on Claude Code, GPT-6.1-Sol on Codex in place of Luna, and Grok 4.7 on Grok Build, a full member from the start, on PyDromon `main` at `f5f8da1`. Each inventoried one share of `tmp/`, the three agreed one plan, I approved it with conditions, and every item was implemented by one line and reviewed by another on a case the author had not used. The record is [Dromon Trial 2](./dromon_trial_2/README.md).
+
+**Promoted.**
+- `_lib/render.py` gates on `math-emphasis`, an emphasis tag inside inline mathematics. A block with an odd number of dollars is skipped, so a literal `$18.5 Bn` does not fire, and a real defect in such a block is missed.
+- `_lib/handoff.py` and `python3 _lib/blog.py handoff`, the startup validity check, with `--uncommitted` for the moment before the handoff's own commit.
+- `_lib/resolve.py --body` reads each HTTP 200 and reports a not-found page as `NOT-FOUND-BODY`, a page to read and not a verdict. It has not been run against the network.
+- `_lib/equations.py preview` and `audit`, with `_lib/test_equations.py`.
+- MathJax Conventions records the measured kramdown underscore rule, and URL Verification records the 200 whose body says not found.
+
+**A live defect fixed, on my approval.** A production build showed kramdown emphasis inside inline mathematics in 18 blocks on 13 published pages. Ten were written by the Equations generator, which is corrected. Only backslashes were added. Every changed post equals its `66bd073` text once backslashes are removed, which I checked, and the rendered diff of the whole site shows the 18 blocks fixed, ten repeated in five feeds, and nothing else. No URL, category, date or claim changed, so there is no erratum.
+
+**Left.** Most of `tmp/` is covered by `_lib` or is one-article scratch, and the inventories say which. `tmp/compiler_series_scrubbing_and_errata.md` holds unapplied instructions to change A188 to A199, and it stays unapplied. Nothing in `tmp/` was deleted.
+
+**Harness.** I found and worked around a resumed Grok session that kept its phase 2 rules, an `@operator` address that does not resolve, and `kill_all` holds on a `ps` that took up to 15.4 seconds under load. The three line reports and mine went to the `Op55-pydromon` session.
+
+**Verification.** `test_lib` 188 of 188, `test_sources` 96 of 96, `test_equations` passing, `_verify.py` 0 and 0 over 385 posts, and `./_check.sh` passing in the main checkout with the new check gating. See the commit.
+
+**Open, for you.**
+1. Whether to post the A385 announcement drafted in the previous entry.
+2. Whether to judge CACM items from 1983 on.
+3. The ruleset change that makes `CI result` required, which remains the operator's.
+4. Whether to delete any of `tmp/`, which is 24 GB. The inventories mark what is spent.
+
+## Previous Report (2026-10-31, sixth entry)
+
 **Date**: 2026-10-31 (sixth entry)
 **Task**: **Publish A385 at the current time, then spin down the Dromon harness. Done.**
 

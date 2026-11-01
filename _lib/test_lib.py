@@ -29,6 +29,7 @@ import edits
 import equations
 import fetch
 import gate
+import handoff
 import harvest
 import campaign
 import numcheck
@@ -1113,6 +1114,121 @@ def t_render_reports_unbalanced_display_math():
     assert render.audit_html(r"<p>text</p> \[x = 1\]") == []
 
 
+# The bodies below are kramdown's actual output for each source line, captured with the
+# site's settings by `Kramdown::Document.new(src, input: 'GFM', math_engine: 'mathjax')`.
+_MJ = '<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>'
+
+
+def _mj_page(body):
+    return f"<html><head><title>t</title></head><body>{body}{_MJ}</body></html>"
+
+
+def t_render_flags_emphasis_kramdown_put_inside_inline_math():
+    """THE `equations.py` NOTATION GENERATOR SHIPPED THIS ON EIGHT PAGES AND NOTHING SAW IT.
+
+    Kramdown leaves `$...$` for MathJax and reads the underscores inside as emphasis, so
+    `$\\dot{m}_{0}$, ..., with $\\dot{m}_{e}$` renders with an `<em>` opening in one span and
+    closing in the next. On 2026-10-31 a production build carried 18 such blocks on 13 pages.
+    """
+    notation = ("<ul><li>$\\dot{m}<em>{0}$, the captured air mass flow, with "
+                "$\\dot{m}</em>{e}$ the mass flow at the exit</li></ul>")
+    rows = [r for r in render.audit_html(_mj_page(notation)) if r[0] == "math-emphasis"]
+    assert rows and rows[0][1] == 1, rows
+    # the bare and braced A362 probe cases, both broken
+    bare = "<p>Let $\\dot{m}<em>j$ be the flow, $V_j$ the velocity, and $C</em>\\mu$ the coefficient.</p>"
+    braced = "<p>Let $\\dot{m}<em>{j}$ be the flow, $V</em>{j}$ the velocity, and $C_{\\mu}$ the coefficient.</p>"
+    assert len(render.math_emphasis(_mj_page(bare))) == 1
+    assert len(render.math_emphasis(_mj_page(braced))) == 1
+    # asterisks pair by count, the A363 case
+    star = "<ul><li>$I^{<em>}$, the first-best level, with $S^{</em>}$ the resulting surplus</li></ul>"
+    assert len(render.math_emphasis(_mj_page(star))) == 1
+
+
+def t_render_math_emphasis_passes_correct_pages():
+    """THE ESCAPE IS THE FIX AND A LITERAL DOLLAR IS NOT MATH.
+
+    `\\_` and `\\*` render as plain characters inside the span. A reference title carrying a
+    price, `$18.5 Bn`, followed by an italic journal name looks like an open span holding a
+    tag, and 37 correct blocks on the live site have that shape. A page without MathJax has
+    no math at all, and emphasis wrapping a whole span is legitimate.
+    """
+    escaped = ("<ul><li>$\\dot{m}_{0}$, the captured air mass flow, with "
+               "$\\dot{m}_{e}$ the mass flow at the exit</li></ul>")
+    assert render.math_emphasis(_mj_page(escaped)) == []
+    nobrace = "<p>Let $\\dot m_j$ be the flow, $V_j$ the velocity, and $C_\\mu$ the coefficient.</p>"
+    assert render.math_emphasis(_mj_page(nobrace)) == []
+    title = ("<p>Anon. 2019. “Market Poised to Touch $18.5 Bn by 2024.” "
+             "<em>Focus on Surfactants</em> 2019 (1): 4.</p>")
+    assert render.math_emphasis(_mj_page(title)) == []
+    whole = "<p><strong>With $x$ the reserve</strong> and $y$ the other.</p>"
+    assert render.math_emphasis(_mj_page(whole)) == []
+    shell = "<p><strong>$HOME/local</strong> and <strong>$HOME/bin</strong></p>"
+    assert render.math_emphasis(f"<html><body>{shell}</body></html>") == []
+    in_code = "<pre><code>$a<em>b$ and $c</em>d$</code></pre>"
+    assert render.math_emphasis(_mj_page(in_code)) == []
+
+
+_HANDOFF = """# Handoff
+
+## Validity
+
+- **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `f08c6fa`
+- **PUSH STATE.** `origin/master` is `5c63bf6`.
+
+## Next
+
+Text.
+
+## Validity (superseded, written earlier, parent `55afeda`)
+
+- **Parent commit** (the repository state this handoff describes): `55afeda`
+"""
+
+
+def t_handoff_reads_only_the_current_validity_block():
+    """A REFRESHED HANDOFF KEEPS ITS SUPERSEDED BLOCKS, EACH WITH ITS OWN PARENT."""
+    info = handoff.parse(_HANDOFF)
+    assert info["parent"] == "f08c6fa", info
+    assert info["branch"] == "master", info
+    assert info["commits"] == ["f08c6fa", "5c63bf6"], info
+    for bad in ("# Handoff\n\nno block\n",
+                "## Validity\n\n- **Branch**: `master`\n",
+                "## Validity (superseded, x)\n\n- **Parent commit**: `55afeda`\n"):
+        try:
+            handoff.parse(bad)
+        except handoff.HandoffError:
+            continue
+        raise AssertionError(f"parsed a handoff with no current parent: {bad!r}")
+
+
+def t_handoff_verdict_compares_resolved_commits():
+    """VALID ONLY WHEN THE PARENT AND THE REFERENCE ARE THE SAME COMMIT.
+
+    The comparison is on resolved hashes, so an abbreviation of any length matches. A parent
+    this clone never had is invalid rather than an error, since a handoff copied from another
+    checkout names exactly such a commit.
+    """
+    full = {"f08c6fa": "f08c6fa" + "0" * 33, "HEAD~1": "f08c6fa" + "0" * 33,
+            "HEAD": "66bd073" + "0" * 33, "5c63bf6": "5c63bf6" + "0" * 33}
+    info = handoff.parse(_HANDOFF)
+    ok, lines = handoff.verdict(info, full.get, "HEAD~1", "master")
+    assert ok and lines[0].startswith("VALID"), lines
+    ok, lines = handoff.verdict(info, full.get, "HEAD", "master")
+    assert not ok and "stale" in lines[0], lines
+    ok, lines = handoff.verdict(info, {**full, "f08c6fa": None}.get, "HEAD~1", "master")
+    assert not ok and "not a commit" in lines[0], lines
+    ok, lines = handoff.verdict(info, {**full, "5c63bf6": None}.get, "HEAD~1", "dromon/opus")
+    assert ok and any("5c63bf6" in x for x in lines) and any("branch" in x for x in lines), lines
+
+
+def t_handoff_parses_the_committed_handoff():
+    """THE REAL FILE MUST STAY READABLE BY THE CHECK THAT GUARDS IT."""
+    with open(handoff.PATH, encoding="utf-8") as fh:
+        info = handoff.parse(fh.read())
+    assert re.fullmatch(r"[0-9a-f]{7,40}", info["parent"]), info
+
+
 
 
 def t_resolve_treats_bot_mitigation_as_resolution():
@@ -1136,6 +1252,8 @@ def t_resolve_extracts_only_identifier_bearing_definitions():
             "[research_b_2021]: https://dx.doi.org/10.1000/xyz\n")
     got = resolve.identifiers(text)
     assert set(got) == {"research_a_2020", "research_b_2021"}, got
+    wide = resolve.identifiers(text + "[ref_mail]: mailto:editor@example.org\n", all_urls=True)
+    assert set(wide) == {"research_a_2020", "ref_spec", "research_b_2021"}, wide
 
 
 def t_resolve_sampling_requires_a_seed_and_is_reproducible():
@@ -1171,6 +1289,93 @@ def t_resolve_summarise_reports_the_registry_only_fraction():
     assert len(s["failed"]) == 1 and s["failed"][0]["anchor"] == "c", s
 
 
+def t_resolve_not_found_body_is_a_page_and_not_a_sentence():
+    """A 200 WHOSE BODY IS A NOT-FOUND PAGE IS NOT RESOLUTION.
+
+    urlcheck.py in A364 and A365 searched the first 4000 characters for a bare
+    "not found", which also matches ordinary prose. The marker that means the
+    page itself is missing is a page-level phrase, or those words in a short
+    title, heading or first line.
+    """
+    page = "<html><head><title>404 Not Found</title></head><body><h1>Page not found</h1></body></html>"
+    nginx = "404 Not Found\n"
+    maintenance = "<h1>Under maintenance</h1>\n<p>Back shortly.</p>\n"
+    prose = ("<title>Lift and drag of a tailless demonstrator</title>\n"
+             "<p>The coefficient was not found in the 1962 table, and the airframe "
+             "was under maintenance between flights.</p>\n")
+    assert resolve.not_found_body(page), page
+    assert resolve.not_found_body(nginx), nginx
+    assert resolve.not_found_body(maintenance), maintenance
+    assert not resolve.not_found_body(prose), prose
+    assert not resolve.not_found_body(""), "an empty body is not a not-found page"
+    # The phrase past the opening the scratch check read does not count.
+    late = ("x" * 4000) + "\npage not found\n"
+    assert not resolve.not_found_body(late), "the marker has to be in the opening"
+
+
+def t_resolve_body_sweep_includes_handwritten_urls():
+    """THE NOT-FOUND PAGES ARE HAND-WRITTEN ADDRESSES, NOT DOI LANDINGS.
+
+    urlcheck.py in A364 sweeps hand-written URLs and says the harvested research
+    addresses are identifiers rather than those URLs. A sweep that keeps only
+    DOI definitions never reaches the page that answered 200 and said it was not
+    found. `--body` is the wider sweep. The default stays DOI-only, and it does
+    not read a body.
+    """
+    text = ("[research_a_2020]: https://doi.org/10.1000/abc\n"
+            "[ref_agency]: https://example.org/factsheet.html\n"
+            "[ref_mail]: mailto:editor@example.org\n")
+    seen = []
+    real = resolve.check
+
+    def fake(url, timeout=25, *, read_body=False):
+        seen.append((url, read_body))
+        return True, "http", 200
+
+    resolve.check = fake
+    try:
+        rows = resolve.sweep(text, read_body=True)
+        body_calls = list(seen)
+        seen.clear()
+        plain = resolve.sweep(text, read_body=False)
+        plain_calls = list(seen)
+    finally:
+        resolve.check = real
+    assert {r["url"] for r in rows} == {
+        "https://doi.org/10.1000/abc", "https://example.org/factsheet.html"}, rows
+    assert body_calls and all(flag for _url, flag in body_calls), body_calls
+    assert {r["anchor"] for r in plain} == {"research_a_2020"}, plain
+    assert plain_calls and all(not flag for _url, flag in plain_calls), plain_calls
+
+
+def t_resolve_help_exits_zero():
+    """Help is a successful request. A missing path is not."""
+    import io
+    from contextlib import redirect_stdout
+    buf = io.StringIO()
+    with redirect_stdout(buf):
+        assert resolve.main(["resolve.py", "--help"]) == 0
+        assert resolve.main(["resolve.py", "-h"]) == 0
+        assert resolve.main(["resolve.py"]) == 2
+    assert "http(s)" in buf.getvalue() and "DOI-bearing" in buf.getvalue()
+
+
+def t_resolve_decide_rejects_only_a_not_found_200():
+    """THE BODY IS CONSULTED ONLY FOR A 200, AND ONLY WHEN IT WAS READ.
+
+    Bot mitigation stays resolution. A DOI the registry holds stays resolution
+    even when the landing page is a not-found page, because that is a different
+    route. Without a body, a 200 is resolution, which is the default sweep.
+    """
+    missing = "<title>Page not found</title>"
+    assert resolve.decide(200, None, False) == (True, "http")
+    assert resolve.decide(200, "<p>The record is online.</p>", False) == (True, "http")
+    assert resolve.decide(200, missing, False) == (False, "")
+    assert resolve.decide(200, missing, True) == (True, "registry")
+    assert resolve.decide(403, missing, False) == (True, "http")
+    assert resolve.decide(404, None, False) == (False, "")
+    assert resolve.decide(404, None, True) == (True, "registry")
+    assert resolve.decide("ERR TimeoutError", None, False) == (False, "")
 
 
 def t_clean_collapses_a_repeated_comma_from_a_registry_title():
@@ -3516,6 +3721,18 @@ def t_equations_gate_skips_posts_outside_the_convention_and_passes_a384():
     assert equations.check_article(plain) == []
     a384 = os.path.join(_ROOT, "_posts", "2026-08-20-mercury_as_colony_and_launch_site.markdown")
     assert equations.check_article(a384) == [], equations.check_article(a384)
+
+
+
+def t_equation_workflow_regressions():
+    """Candidate previews, layout guards and Notation escapes stay under the deploy gate."""
+    import io
+    import unittest
+    import test_equations
+    output = io.StringIO()
+    suite = unittest.defaultTestLoader.loadTestsFromModule(test_equations)
+    result = unittest.TextTestRunner(stream=output).run(suite)
+    assert result.wasSuccessful(), output.getvalue()
 
 
 for name, fn in sorted(list(globals().items())):

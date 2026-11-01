@@ -2992,7 +2992,7 @@ $$
 ### Notation
 
 - $\mu_i$, the payment attached to milestone $i$
-- $\mathcal{P}_{\mathrm{new}}$, a budget projection for one fiscal year in the later book, with $\mathcal{P}_{\mathrm{old}}$ that in the earlier book
+- $\mathcal{P}\_{\mathrm{new}}$, a budget projection for one fiscal year in the later book, with $\mathcal{P}\_{\mathrm{old}}$ that in the earlier book
 - $A$, the wing aspect ratio
 - $A^{*}$, the aspect ratio at which fuel burn is stationary
 - $b$, the wing span, tip to tip
@@ -3059,7 +3059,7 @@ $$
 - $M_{dd}$, the drag-divergence Mach number
 - $\kappa_A$, the Korn airfoil-technology constant
 - $s$, the secant of the wing sweep angle
-- $\mathcal{V}_{\mathrm{required}}$, the fuel volume required, with $\mathcal{V}_{\mathrm{available}}$ the volume available
+- $\mathcal{V}\_{\mathrm{required}}$, the fuel volume required, with $\mathcal{V}\_{\mathrm{available}}$ the volume available
 - $\Sigma$, the ground-effect group, span over twice the height
 - $r_i$, the fuel-burn reduction of configuration $i$ against the baseline
 - $\beta_i$, the block fuel per seat of configuration $i$

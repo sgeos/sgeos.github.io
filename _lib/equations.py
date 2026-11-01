@@ -6,6 +6,8 @@
     python3 _lib/equations.py tag POST [--write] # number the body equations with \\tag{n}
     python3 _lib/equations.py write POST         # regenerate the section from the data file
     python3 _lib/equations.py stamp POST         # record the current digest of every equation
+    python3 _lib/equations.py preview POST DATA [--show] # validate candidate data without writes
+    python3 _lib/equations.py audit BEFORE AFTER # layout guard, not proof of equivalence
     python3 _lib/equations.py skeleton POST      # print a data file to fill in, for a new post
 
 WHAT THE SECTION IS. A post with many display equations gets an `## Equations`
@@ -260,6 +262,43 @@ def body_labels(text):
     return out
 
 
+def notation_row(tex, meaning):
+    """Escape paired emphasis delimiters inside a Notation row's inline maths.
+
+    Only rows with a possible opening and closing delimiter need changing.
+    Code and prose outside dollar spans remain literal. This prevents escaping
+    every existing notation key and keeps regeneration limited to affected rows.
+    """
+    row = f"- ${tex}$, {meaning.strip()}"
+    token = re.compile(r"`[^`\n]*`|(?<![\\$])\$(?!\$)([^$\n]+)(?<!\\)\$")
+    maths = [m for m in token.finditer(row) if m.group(1) is not None]
+    risky = set()
+    for delimiter in "_*":
+        opened = False
+        for match in maths:
+            value = match.group(1)
+            for mark in re.finditer(r"(?<!\\)" + re.escape(delimiter), value):
+                i = mark.start()
+                previous = value[i - 1] if i else "$"
+                following = value[i + 1] if i + 1 < len(value) else "$"
+                # Kramdown protects an alphabetic prefix, optionally followed
+                # by a hyphen and underscores. A digit does not protect it.
+                prefix = value[:i].rstrip("_").removesuffix("-")
+                protected = bool(prefix) and prefix[-1].isalpha()
+                closes = not previous.isspace() and (delimiter == "*" or not following.isalnum())
+                opens = not following.isspace() and (delimiter == "*" or not protected)
+                if opened and closes:
+                    risky.add(delimiter)
+                if opens:
+                    opened = True
+    for match in reversed(maths):
+        value = match.group(1)
+        for delimiter in sorted(risky):
+            value = re.sub(r"(?<!\\)" + re.escape(delimiter), lambda m: "\\" + m.group(), value)
+        row = row[:match.start(1)] + value + row[match.end(1):]
+    return row
+
+
 def render(text, data):
     """The Equations section for a post, from its body and its data file."""
     eqs = blocks(text)
@@ -283,7 +322,7 @@ def render(text, data):
     symbols = data.get("symbol", [])
     if symbols:
         lines += ["### Notation", ""]
-        lines += [f"- ${s['tex']}$, {s['meaning'].strip()}" for s in symbols]
+        lines += [notation_row(s["tex"], s["meaning"]) for s in symbols]
         lines.append("")
     return "\n".join(lines).rstrip("\n") + "\n"
 
@@ -425,6 +464,48 @@ def skeleton(text):
     return "\n".join(rows)
 
 
+def preview(text, data):
+    """Validate and generate a candidate section in memory, without installing data."""
+    validate(data)
+    transformed = tagged(unfolded(text))
+    problems = check(transformed, data, section=False)
+    if problems:
+        raise EquationError("; ".join(problems))
+    result = written(transformed, data)
+    problems = check(result, data)
+    if problems:
+        raise EquationError("; ".join(problems))
+    return split_section(result)[1]
+
+
+def migration_body(text):
+    """Canonical layout for comparison, retaining prose, references and math content.
+
+    Unfold display delimiters, remove tags inside display blocks, and insert
+    missing separating blank lines. Existing blank lines remain significant.
+    """
+    text = unfolded(text)
+    before, _section, refs = split_section(text)
+    lines = before.split("\n")
+    for first, last, latex in reversed(spans(text)):
+        inner = untagged(latex).split("\n")
+        block = ["$$"] + inner + ["$$"]
+        if last + 1 < len(lines) and lines[last + 1].strip():
+            block.append("")
+        if first and lines[first - 1].strip():
+            block.insert(0, "")
+        lines[first:last + 1] = block
+    return "\n".join(lines) + refs
+
+
+def audit(before, after):
+    """Layout guard for section generation, not proof of mathematical equivalence."""
+    if not split_section(after)[1]:
+        raise EquationError("after file has no Equations section")
+    if migration_body(before) != migration_body(after):
+        raise EquationError("body or references differ beyond equation layout and tags")
+
+
 def _write(path, text):
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(text)
@@ -432,14 +513,30 @@ def _write(path, text):
 
 def main(argv):
     args = argv[1:]
-    usage = "usage: equations.py {check|unfold|tag|write|stamp|skeleton} POST [--write]"
-    if len(args) < 2 or args[0] not in ("check", "unfold", "tag", "write", "stamp", "skeleton"):
+    usage = ("usage: equations.py {check|unfold|tag|write|stamp|skeleton} POST [--write]\n"
+             "       equations.py preview POST DATA [--show]\n"
+             "       equations.py audit BEFORE AFTER")
+    if len(args) < 2 or args[0] not in ("check", "unfold", "tag", "write", "stamp", "skeleton", "preview", "audit"):
         print(usage)
         return 2
     cmd, path = args[0], args[1]
+    if cmd in ("preview", "audit"):
+        valid = len(args) == 3 or (cmd == "preview" and len(args) == 4 and args[3] == "--show")
+        if not valid or any(a.startswith("--") for a in args[1:3]):
+            print(usage)
+            return 2
     try:
         with open(path, encoding="utf-8") as fh:
             text = fh.read()
+        if cmd == "preview":
+            section = preview(text, load(args[2]))
+            print(section if "--show" in args else f"{path}: candidate equations consistent")
+            return 0
+        if cmd == "audit":
+            with open(args[2], encoding="utf-8") as fh:
+                audit(text, fh.read())
+            print("layout guard passed: only equation layout, tags and section may differ")
+            return 0
         if cmd == "skeleton":
             print(skeleton(text))
             return 0
@@ -478,7 +575,8 @@ def main(argv):
               else f"{path}: {len(data['equation'])} equations consistent")
         return 1 if problems else 0
     except (EquationError, OSError, tomllib.TOMLDecodeError) as e:
-        print(f"{path}: {e}")
+        subject = f"{path} -> {args[2]}" if cmd == "audit" else path
+        print(f"{subject}: {e}")
         return 1
 
 

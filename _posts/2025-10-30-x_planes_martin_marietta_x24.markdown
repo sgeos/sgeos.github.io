@@ -1702,7 +1702,7 @@ $$
 - $S$, the reference area
 - $C_{D_0}$, the parasite drag coefficient
 - $k_i$, the induced drag factor
-- $C_L^*$, the lift coefficient at best glide, with $V^*$ the best-glide speed
+- $C_L^\*$, the lift coefficient at best glide, with $V^\*$ the best-glide speed
 - $\gamma$, the flight path angle
 - $n$, the load factor
 - $R$, the instantaneous radius of the flare

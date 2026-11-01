@@ -2861,7 +2861,7 @@ $$
 
 ### Notation
 
-- $\dot{m}$, the mass flow, with $\dot{m}_{\text{fan}}$ the fan flow and $\dot{m}_{\text{core}}$ the engine core flow
+- $\dot{m}$, the mass flow, with $\dot{m}\_{\text{fan}}$ the fan flow and $\dot{m}\_{\text{core}}$ the engine core flow
 - $v_i$, the induced velocity at the disc
 - $P_{\text{shaft}}$, the shaft power absorbed by the fan, with $P_{\text{ideal}}$ the ideal power of the disc
 - $\mathrm{FM}$, the figure of merit of the fan

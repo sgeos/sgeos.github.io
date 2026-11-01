@@ -14,6 +14,25 @@ Set `mathjax: true` in the front matter whenever any mathematical notation appea
 - Display math uses `$$...$$` delimiters, either on a single line or in block form with the delimiters on separate lines.
 - Within math expressions, follow standard LaTeX conventions for symbols, subscripts, superscripts, fractions, and Greek letters.
 
+## Underscores and Asterisks in Inline Math
+
+**Kramdown does not recognise single-dollar math.** It passes `$...$` through to the page for MathJax to typeset in the browser, and before that it reads the underscores and asterisks inside the span as Markdown emphasis. Two spans in one paragraph or list item can therefore be joined by an `<em>` tag that opens in the first and closes in the second. MathJax matches delimiters within a single run of text and the tag breaks the run, so the reader sees raw LaTeX followed by stray italics.
+
+The rule was measured by probing kramdown directly during A362 for the underscore and A363 for the asterisk.
+
+- An underscore opens emphasis unless the character before it is a letter, so it opens after a digit or a brace, as in `x^2_i` or `\dot{m}_{0}`. It closes when the character after it is not a letter or digit, as in `_{` or `_\`.
+- An underscore between two letters, as in `V_j` or `u_e`, neither opens nor closes. A digit before the underscore does not protect it.
+- Bare asterisks inside inline math pair by count within the paragraph, so `$I^{*}$` and `$S^{*}$` in one sentence render as `$I^{<em>}$ ... $S^{</em>}$`.
+- Bracing a subscript does not help, because `}_` is an opening position and `_{` a closing one.
+- An escaped `\_` or `\*` is inert. Kramdown consumes the backslash and MathJax receives the plain character, so escaping costs nothing in the rendered math.
+- Display math in `$$` blocks is converted by kramdown itself and is not affected.
+
+**Escape the underscore or asterisk** whenever a paragraph or list item carries more than one of them inside inline math, whether in one span or in several. A single span can break on its own, since `$\dot{m}_{a} + \dot{m}_{b}$` renders as `$\dot{m}<em>{a} + \dot{m}</em>{b}$`. A lone subscript is safe until a second one is added nearby, which is how most occurrences arose. The defect is easy to write in a sentence of the form "$X_{a}$, the first quantity, with $X_{b}$ the second", which is also the shape of a generated Notation entry.
+
+**A repair that edits inline math must respect two boundaries.** It must skip posts that do not set `mathjax: true`, because MathJax never loads there and the character has no mathematical meaning, and it must mask fenced and inline code, because a shell command such as `GRANT ALL PRIVILEGES ON ${DB_NAME}.*` reads as an inline span to a naive dollar pattern. An early automatic repair escaped the asterisk in exactly that command in a 2016 post, and a comparison of builds before and after caught it.
+
+`_lib/render.py` reports this defect as `math-emphasis` on the built site, which is the only place it can be seen reliably. A source predictor using the rule above flagged 104 pairs where the rendered pages carried 18, so the rendered check is authoritative. It skips a block holding an odd number of dollar signs, because a literal dollar in a reference title such as `$18.5 Bn` followed by an italic journal name is correct text.
+
 ## Variable Definitions
 
 Define each symbol in prose immediately before its first display equation. State the variable name, its meaning, and its units. Then state the equation. Then explain the result.

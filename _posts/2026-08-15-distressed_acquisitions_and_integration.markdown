@@ -593,7 +593,7 @@ $$
 
 ### Notation
 
-- $I^{*}$, the first-best level of the supplier's specific investment, with $S^{*}$ the resulting surplus
+- $I^{\*}$, the first-best level of the supplier's specific investment, with $S^{\*}$ the resulting surplus
 - $I^{h}$, the investment under hold-up, with $S^{h}$ the resulting surplus
 - $k$, a positive constant that scales the value of the specific investment
 - $\eta$, the absolute price elasticity of demand

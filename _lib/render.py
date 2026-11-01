@@ -81,6 +81,55 @@ def delimiter_counts(html):
     return d_o, d_c, i_o, i_c
 
 
+_LOADS_MATHJAX = re.compile(r"<script[^>]+mathjax", re.I)
+_SCRIPT = re.compile(r"<script\b.*?</script>", re.S | re.I)
+_BLOCK = re.compile(r"</?(?:p|li|td|th|h[1-6]|blockquote|div|dd|dt)\b[^>]*>", re.I)
+# A single dollar not escaped and not half of `$$`. `processEscapes` makes `\$` a literal.
+_DOLLAR = re.compile(r"(?<![\\$])\$(?!\$)")
+_MATH_TOKEN = re.compile(r"(?<![\\$])\$(?!\$)|(?<!\\)(?:\\\\)*\\[()]|</?(?:em|strong)>")
+
+
+def math_emphasis(html):
+    """Blocks in which kramdown put an emphasis tag inside an inline maths span.
+
+    KRAMDOWN DOES NOT KNOW SINGLE-DOLLAR MATHS. It leaves `$...$` in the HTML for MathJax to
+    typeset in the browser, and before that it reads the underscores and asterisks inside as
+    emphasis. An underscore opens unless the character before it is a letter, and closes when
+    the character after it is not a letter or digit, so `$\\dot{m}_{0}$ ... $\\dot{m}_{e}$` renders as
+    `$\\dot{m}<em>{0}$ ... $\\dot{m}</em>{e}$`. MathJax matches delimiters within one text string
+    and the tag breaks it, so the reader sees raw LaTeX and stray italics. `\\_` and `\\*` are
+    inert. On 2026-10-31 this was live in 18 blocks on 13 pages, 10 of them written by the
+    `equations.py` Notation generator, and no check saw it. A362 to A368 each carried a private
+    detector for it.
+
+    A BLOCK WITH AN ODD NUMBER OF DOLLARS IS SKIPPED. A literal dollar in a reference title,
+    `$18.5 Bn`, followed by an italic journal name looks like an open span holding a tag, and
+    37 such blocks are correct pages. The cost is that a real defect in a block that also
+    carries a literal dollar is missed. Pages that do not load MathJax are skipped, since there
+    a dollar is only a dollar.
+    """
+    if not _LOADS_MATHJAX.search(html):
+        return []
+    # The MathJax configuration itself is a script holding `['$', '$']`.
+    text = _SCRIPT.sub(" ", _CODE.sub(" ", _HEAD.sub(" ", html)))
+    bad = []
+    for block in _BLOCK.split(text):
+        if "<" not in block or len(_DOLLAR.findall(block)) % 2:
+            continue
+        inside = False
+        for m in _MATH_TOKEN.finditer(block):
+            tok = m.group(0)
+            if tok.startswith("<"):
+                if inside:
+                    bad.append(" ".join(block.split())[:120])
+                    break
+            elif tok == "$":
+                inside = not inside
+            else:
+                inside = tok.endswith("(")
+    return bad
+
+
 def audit_html(html):
     """Findings for one rendered page, as a list of (check, count, example)."""
     body = _HEAD.sub(" ", html)
@@ -98,6 +147,9 @@ def audit_html(html):
         found.append(("math-display-unbalanced", abs(d_o - d_c), f"open {d_o} close {d_c}"))
     if i_o != i_c:
         found.append(("math-inline-unbalanced", abs(i_o - i_c), f"open {i_o} close {i_c}"))
+    emphasis = math_emphasis(html)
+    if emphasis:
+        found.append(("math-emphasis", len(emphasis), emphasis[0]))
     return found
 
 

@@ -696,8 +696,8 @@ m_{p}^{300} = 4{,}990 \left[ 1 - e^{-90.85 / (300 \times 9.80665)} \right] = 151
 \tag{32}
 $$
 
-kilograms, and the floor of 245.4 kilometres is the altitude $h^{*}$ at which the makeup requirement
-exhausts the budget, $\rho(h^{*}) \, v^{2} t / (2B) = 310.6$ metres per second.
+kilograms, and the floor of 245.4 kilometres is the altitude $h^{\*}$ at which the makeup requirement
+exhausts the budget, $\rho(h^{\*}) \, v^{2} t / (2B) = 310.6$ metres per second.
 
 **The duration and the altitude are therefore not independent facts, and the observed pair is consistent.**
 The six low-orbit missions are catalogued between 309 and 409 kilometres, from the fourth at 309 by 322 to

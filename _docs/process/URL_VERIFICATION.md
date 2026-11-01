@@ -131,6 +131,7 @@ Two distinct failure modes appeared, and both are invisible to a status check.
 
 - **Unregistered DOI.** `doi.org` returns no redirect. The identifier was fabricated. The containing URL may still return 200 because the publisher serves a generic page for unknown paths.
 - **Mismatched DOI.** The identifier resolves to a real paper that is not the cited one. This is the more dangerous case, because every automated check passes and only reading the target reveals it.
+- **A not-found page served with status 200.** The address answers, and the body is a page that says the document is not there. A status check records a hit. The default sweep of `python3 _lib/resolve.py` reads DOI-bearing definitions only, so it never sees these pages. They are hand-written publisher and agency addresses and carry no DOI. `python3 _lib/resolve.py --body` widens the sweep to every http(s) reference definition, reads the opening of each HTTP 200, and does not count a not-found page as resolution. A DOI the registry still holds resolves by the registry route, because a missing landing page is not a missing identifier. Without `--body` the sweep stays DOI-only and does not read bodies. A NOT-FOUND-BODY row is a page to read, not a verdict that the citation is wrong. A page whose title is about the status itself, such as a specification of HTTP 404, can match the same phrases. The marker is a page-level phrase, `page not found` or `404 not found` in the opening, or those words, or `under maintenance`, in a short title, `h1` or first line. A sentence that happens to contain "not found" is not a not-found page. The A364 check matched that sentence too, and the A362 copy of the same family had already flagged real pages with an unbounded proxy.
 
 Never introduce a citation whose target you have not confirmed names the work you are citing. When a source cannot be confirmed, drop it. A missing citation is a gap; a confident citation pointing at the wrong document is a fabrication, and it is worse than the gap it was added to fill.
 
@@ -161,7 +162,7 @@ Two different questions, two different tools, and neither subsumes the other.
 
 | Question | Tool | Cost |
 |---|---|---|
-| Does the identifier resolve at all from here? | `python3 _lib/resolve.py <post> [sample] [seed]` | seconds to minutes |
+| Does the identifier resolve at all from here? | `python3 _lib/resolve.py <post> [sample] [seed] [--body]` | seconds to minutes |
 | Does it resolve to **the work it is cited as**? | `python3 _verify_citations.py` | roughly one lookup per second, cached |
 
 **`_verify_citations.py` is network-dependent and deliberately outside the deploy path**, so nothing
@@ -176,7 +177,10 @@ worse.
 **An HTTP 200 does not verify a citation.** `_lib/resolve.py` answers only the weaker question, and it
 treats bot mitigation as resolution because publishers return 202 and 403 to robots and a Defense
 Technical Information Center deposit refuses the connection outright. On a 250-record sample, 8.8
-percent of identifiers resolved only through the issuing registry and every one was correct.
+percent of identifiers resolved only through the issuing registry and every one was correct. **A 200
+whose body is a not-found page is a third case of the same fact.** Pass `--body` to include
+hand-written http(s) addresses and read their openings. The default sweep stays DOI-only and does
+not read bodies. A NOT-FOUND-BODY row is a page to read, not a verdict.
 
 ### Run record
 

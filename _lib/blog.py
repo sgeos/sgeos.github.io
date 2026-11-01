@@ -36,6 +36,7 @@ DISPATCH = {
     "render": ("render", "audit a built site for defects a reader would see"),
     "resolve": ("resolve", "whether a post's cited identifiers resolve at all"),
     "equations": ("equations", "tag display equations and generate or check the classified Equations section"),
+    "handoff": ("handoff", "whether HANDOFF.md's recorded parent commit is HEAD~1, the startup validity check"),
 }
 
 LOCAL = {

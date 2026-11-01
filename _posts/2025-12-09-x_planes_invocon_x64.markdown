@@ -889,7 +889,7 @@ where $V$ is the volume written over a burn in byte.
 
 **The sample rate is not free to choose, because the engine sets it.** [The X-63A article][related_post_a360_abl_space_systems_x63] recovered a combustion instability at 4.5 kilohertz from the manufacturer's incident report \[[Flight 2 Static Fire Update][ref_abl_staticfire]\], and the first tangential mode of a thrust chamber is the kind of phenomenon a highly instrumented engine exists to observe. **Sampling theory puts the floor at nine kilohertz and practice puts it several times higher**, because a mode at the Nyquist limit is detectable and not characterisable. **So the ten kilohertz row is below what this engine's published instability requires**, and the twenty kilohertz row, at 320 megabits per second and 6.4 gigabytes, is nearer a realistic figure for the channels that matter.
 
-**The deficit is best expressed as a ratio.** Let $\mathcal{R}_\ell$ be the downlink capacity in bit per second and $\eta_\ell$ the deficit, dimensionless.
+**The deficit is best expressed as a ratio.** Let $\mathcal{R}\_\ell$ be the downlink capacity in bit per second and $\eta\_\ell$ the deficit, dimensionless.
 
 $$
  \eta_\ell = \frac{\mathcal{R}}{\mathcal{R}_\ell} = \frac{n_c f_s b}{\mathcal{R}_\ell} 
@@ -1822,7 +1822,7 @@ $$
 - $\vartheta$, the azimuthal angle around the annulus
 - $\mu$, the azimuthal harmonic index
 - $\mu_{\max}$, the highest azimuthal harmonic resolvable in both phases
-- $\hat{A}_\mu$, the estimate of the cosine coefficient from a finite ring of sensors, with $\hat{B}_\mu$ that of the sine coefficient
+- $\hat{A}\_\mu$, the estimate of the cosine coefficient from a finite ring of sensors, with $\hat{B}\_\mu$ that of the sine coefficient
 - $\mathcal{R}$, the aggregate data rate
 - $\mathcal{R}_\ell$, the downlink capacity
 - $\eta_\ell$, the ratio of aggregate data rate to downlink capacity

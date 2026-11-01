@@ -98,7 +98,7 @@ $$
 \tag{6}
 $$
 
-and the YSH-60F is assumed here to share the UH-60A rotor's published geometry and speed, since the X-49A's rotor dimensions go unstated in every source read. The sea-level speed of sound is 340.29 metres per second in the standard atmosphere \[[U.S. Standard Atmosphere 1976 1976][research_us_standard_atmosphere]\], being $\sqrt{\gamma R^{*} T_0 / M_0}$ with $\gamma = 1.4$, $R^{*} = 8.31432$ joules per mole per kelvin, $T_0 = 288.15$ kelvin and $M_0 = 0.0289644$ kilograms per mole, which is 340.294 metres per second or 1,116.45 feet per second. The tip speed and the hover tip Mach number at sea level are then
+and the YSH-60F is assumed here to share the UH-60A rotor's published geometry and speed, since the X-49A's rotor dimensions go unstated in every source read. The sea-level speed of sound is 340.29 metres per second in the standard atmosphere \[[U.S. Standard Atmosphere 1976 1976][research_us_standard_atmosphere]\], being $\sqrt{\gamma R^{\*} T_0 / M_0}$ with $\gamma = 1.4$, $R^{\*} = 8.31432$ joules per mole per kelvin, $T_0 = 288.15$ kelvin and $M_0 = 0.0289644$ kilograms per mole, which is 340.294 metres per second or 1,116.45 feet per second. The tip speed and the hover tip Mach number at sea level are then
 
 $$
 \Omega R = \frac{258 \times 2\pi}{60} \times 26.83 = 724.9\ \text{ft/s}

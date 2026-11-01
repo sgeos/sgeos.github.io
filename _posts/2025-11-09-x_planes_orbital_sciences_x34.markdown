@@ -173,7 +173,7 @@ fuel-rich in a separate chamber to drive the turbopump, and the exhaust from tha
 overboard rather than expanded through the main nozzle, where it would contribute thrust.
 **So the engine's specific impulse is lower than its chamber's.**
 
-Writing $\dot{m}_c$ for the chamber flow and $\dot{m}_{gg}$ for the gas generator flow, the schematic gives
+Writing $\dot{m}\_c$ for the chamber flow and $\dot{m}\_{gg}$ for the gas generator flow, the schematic gives
 the generator's share directly,
 
 $$
@@ -1791,7 +1791,7 @@ $$
 
 - $I_{sp}$, the specific impulse in seconds, with $I_{sp,c}$ the impulse of the chamber flow alone
 - $F$, the thrust, with $F_{vac}$ the vacuum thrust
-- $\dot{m}$, the total propellant mass flow, with $\dot{m}_c$ the chamber flow and $\dot{m}_{gg}$ the gas generator flow
+- $\dot{m}$, the total propellant mass flow, with $\dot{m}\_c$ the chamber flow and $\dot{m}\_{gg}$ the gas generator flow
 - $g_0$, standard gravity
 - $t_b$, the burn time, with $t_{\text{test}}$ the longest test duration
 - $v_e$, the effective exhaust velocity

@@ -2072,13 +2072,13 @@ $$
 - $F_{\text{net}}$, the net axial force
 - $F_{\text{thrust}}$, the uninstalled thrust
 - $D$, the drag
-- $\dot{m}_{0}$, the captured air mass flow, with $\dot{m}_{e}$ the mass flow at the exit
+- $\dot{m}\_{0}$, the captured air mass flow, with $\dot{m}\_{e}$ the mass flow at the exit
 - $V_{0}$, the flight velocity, with $V_{e}$ the exit velocity
 - $p_{e}$, the static pressure at the exit, with $p_{0}$ the ambient pressure in the thrust relation
 - $A_{c}$, the capture area, with $A_{e}$ the exit area
 - $f_{\text{st}}$, the stoichiometric fuel to air mass ratio
 - $x_{\mathrm{O_2}}$, the mole fraction of oxygen in air
-- $\mathcal{M}_{\text{air}}$, the mean molar mass of air, with $\mathcal{M}_{\mathrm{H_2}}$ the molar mass of hydrogen
+- $\mathcal{M}\_{\text{air}}$, the mean molar mass of air, with $\mathcal{M}\_{\mathrm{H\_2}}$ the molar mass of hydrogen
 - $\gamma$, the ratio of specific heats, taken as 1.4 for air
 - $M$, the Mach number, with $M_{2}$ the Mach number behind a normal shock in the starting criterion
 - $T_{0}$, the stagnation temperature, with $T$ the static temperature

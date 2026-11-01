@@ -599,9 +599,9 @@ so only a corrective burn makes the orbit safe.
 
 ### From the Launching Body to the Parent
 
-A payload released above escape speed leaves the launching body with a hyperbolic excess velocity $\vec{v}_{\infty}$.
+A payload released above escape speed leaves the launching body with a hyperbolic excess velocity $\vec{v}\_{\infty}$.
 In the patched conic approximation the release speed and the payload's velocity relative to the parent are the following,
-where $\vec{V}_{B}$ is the launching body's orbital velocity.
+where $\vec{V}\_{B}$ is the launching body's orbital velocity.
 
 $$
 v_{\mathrm{release}} = \sqrt{v_{\infty}^{2} + \frac{2\mu_{B}}{R_{B}}}, \qquad
@@ -609,7 +609,7 @@ v_{\mathrm{release}} = \sqrt{v_{\infty}^{2} + \frac{2\mu_{B}}{R_{B}}}, \qquad
 \tag{18}
 $$
 
-The direction of $\vec{v}_{\infty}$ relative to $\vec{V}_{B}$ shapes the new orbit.
+The direction of $\vec{v}\_{\infty}$ relative to $\vec{V}\_{B}$ shapes the new orbit.
 A prograde excess raises the far apsis of the payload's orbit around the parent,
 a retrograde excess lowers the near apsis,
 a radial excess rotates the line of apsides,

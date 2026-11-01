@@ -42,7 +42,7 @@ article-specific content alone.
 | `sources_import.py` | Draft source records from Crossref, pinned Wikipedia revisions and related posts, review them against the article's legacy labels with second opinions from OpenAlex and saved wikitext, and import a whole post from a TOML decision file, merging by source identity | hand-typed reference labels, the A384 prototype scripts |
 | `sources_resolve.py` | Resolution of links that are not DOIs, publisher pages, JSTOR, arXiv, PIIs, ISBNs, proceedings sites and searches, to registry records that agree with the article's label, with the label parser for every legacy form | per-batch page-reading agents, `tmp/web/meta*.json` |
 | `diction.py` | Word, phrase, sentence-opener, construction-shape and creep measurements against the published corpus, with collocation and keyword-in-context evidence | 4 `diction.py`, `wordcheck`, `phrases`, `corpus_tics`, `series_words`, `series_phrases`, `tics`, `ngram_diff`, `words_count` |
-| `equations.py` | Body equation tagging, the generated Equations section classified as standard or bespoke, and its drift check. See `_docs/writing/EQUATIONS_SECTION.md` | |
+| `equations.py` | Candidate classification previews, a migration layout guard, safe Notation maths, body equation tagging, the generated Equations section classified as standard or bespoke, and its drift check. See `_docs/writing/EQUATIONS_SECTION.md` | |
 | `audit.py` | Equation gaps, citation gaps, thin sections, primary count and fraction | 13 `ref_audit`, 8 `eqn_scan` |
 | `numcheck.py` | Harness for re-deriving stated values independently, and a claims runner that recomputes every number a claims file names, reads it from the prose and proves each check can fail | 18 `verify_numbers`, the print-only `numbers.py` of A378 to A384 |
 | `campaign.py` | The strategy of the corpus campaigns: targets, stages that propose changes, gates before and after, snapshots, a resumable ledger, seeded sampling with Wilson escalation, strict verdict files, quote relocation and mutation checks | the fix5, fix6, retrofit, audit, cite, word and decide passes |
@@ -50,10 +50,11 @@ article-specific content alone.
 | `citations.py` | Registry verification of recalled identifiers, sampling for retrieved ones | 13 `url_check`, 6 `verify_urls` |
 | `post.py` | What a post is made of. Document structure, defined once | 7 splits, 9 anchor patterns |
 | `gate.py` | Subject-anchor gating for a harvested corpus, with the two-sided random audit that is the only thing detecting a mis-tuned gate | 2 copied `select.py` |
-| `render.py` | Audit of BUILT HTML for defects a reader would see, including same-site links to a missing fragment, and page-weight reporting | 1 ad hoc `audit_html.py`, 1 `fragcheck.py` |
-| `resolve.py` | Whether a cited identifier resolves at all, with registry fallback and bot-mitigation handling | 3 rewritten `sweep.py` |
+| `render.py` | Audit of BUILT HTML for defects a reader would see, including same-site links to a missing fragment, emphasis tags kramdown put inside inline mathematics, and page-weight reporting | 1 ad hoc `audit_html.py`, 1 `fragcheck.py`, 7 `emrisk.py`, 6 `astrisk.py` and 7 `mathrot.py` in A362 to A368 |
+| `resolve.py` | Whether a cited identifier resolves at all, with registry fallback and bot-mitigation handling. The default sweep is DOI-only. `--body` includes every http(s) reference and rejects a not-found page served with status 200 | 3 rewritten `sweep.py`, and the body half of `urlcheck.py` in A364 and A365 |
 | `survey.py` | Recomputation of the statistics an article states about its own reference survey, since a presence check goes green precisely when a number goes stale | scratch `verify_survey.py` |
 | `progress.py` | Recomputation of the drafted count a resume channel states, against the drafts on disk | nothing, the count was maintained by hand |
+| `handoff.py` | Whether `HANDOFF.md`'s recorded parent commit is `HEAD~1`, the Session Startup Protocol's validity check, reading only the current Validity block | 7 `handoff_check.py` in A359 to A365 |
 | `registry.py` | Command line for Crossref and OpenAlex search, abstract lookup and grep, DOI metadata with handle status, and OpenAlex work types | 37 raw-HTTP query scripts in A375 to A384 |
 | `harvest.py` | The survey pipeline, harvest, select, master and assemble, driven by one TOML file per article | per-article `harvest`, `select`, `gen_master`, `assemble` |
 | `textscan.py` | Context search in saved source text and removal of references from wikitext | 4 `ctx.py`, 3 `clean.py` |
@@ -88,6 +89,11 @@ and `./_check.sh` at the repository root runs it the way CI does.
 
 **`resolve.py` and `citations.py` answer different questions and neither subsumes the other.**
 `resolve.py` asks whether an identifier resolves at all, which catches a dead landing page.
+Passed `--body`, it includes every http(s) reference definition, not only DOIs, and reads the
+opening of an HTTP 200. A not-found page does not count as resolution. Those pages are hand-written
+publisher and agency addresses and carry no DOI, so the default sweep never sees them. A DOI the
+registry holds still resolves by the registry route. Without the option the sweep stays DOI-only
+and does not read bodies. A NOT-FOUND-BODY row is a page to read, not a verdict.
 `_verify_citations.py` asks whether it resolves to **the work it is cited as**, which catches a wrong
 identifier. An HTTP 200 does not verify a citation.
 
@@ -126,7 +132,9 @@ own command line is the same command, so `python3 _lib/edits.py apply ...` also 
 | `python3 _lib/sources_resolve.py plan`, `fetch STEP`, `explain` and `normalise` | Posts; caches under `tmp/sources/` for PIIs, DataCite, ISBNs, searches, proceedings indexes and pages |
 | `python3 _lib/sources.py fix-labels POST` and `diff-labels PRE POST` | The article and its map in `_sources/articles/`, including link text that is not a label |
 | `python3 _lib/equations.py tag POST`, `skeleton`, `write`, `check` and `stamp` | The post and `_sources/equations/<article>.toml`, the titles, classes, glosses and digests |
+| `python3 _lib/blog.py handoff [--uncommitted]` | `_docs/process/HANDOFF.md`, whose Parent commit is compared with `HEAD~1`, or with `HEAD` before the handoff's own commit |
 | `python3 _lib/textscan.py ctx FILE REGEX` and `strip-wikitext` | A saved source file |
+| `python3 _lib/resolve.py POST [sample] [seed] [--body]` | The post. The default is DOI definitions only. `--body` reads every http(s) reference and rejects a not-found page served as 200 |
 | `python3 _lib/numcheck.py check CLAIMS.py [--inject]` | A claims file, one `Claim` per stated number, with its computation |
 | `python3 _lib/campaign.py status FILE` and `run FILE [--apply]` | A campaign file whose stages and gates are functions |
 | `python3 _lib/diction.py all POST` and fourteen other commands | The post, and the published corpus as peers |
@@ -195,6 +203,29 @@ A369's largest finding was `and not`. New instruments:
 - series-level overuse with smoothing;
 - keyword in context with line numbers;
 - section scoping.
+
+## Equation workflow checks
+
+`python3 _lib/blog.py equations preview POST DATA [--show]` checks an external candidate
+classification file without installing it in `_sources` or writing either input. It unfolds and
+tags the body in memory, validates the candidate and checks the generated section. `--show`
+prints that section only after validation succeeds. This replaces the identical `validate.py`
+wrappers in `tmp/eq`, `tmp/eq2` and `tmp/eq3`.
+
+`python3 _lib/blog.py equations audit BEFORE AFTER` is a layout guard, not proof of equivalence.
+Use saved files before and after adding the first generated Equations section to a new article,
+or after unfolding and retagging existing display equations. The after file must carry the section.
+The guard allows section replacement, unfolding display delimiters, changes to tag lines inside
+display equations and missing blank lines inserted immediately beside those equations. Existing
+blank lines, front matter, prose, equation contents, code and references remain significant.
+It does not verify the generated section, mathematical equivalence or classification judgements.
+Run `equations check` separately to check section consistency. This replaces `eq/audit_diff.py`
+and `eq2/audit.py` without depending on an implicit Git revision.
+
+Notation generation escapes paired underscore and asterisk delimiters inside inline mathematics
+when they could become Markdown emphasis across a row. Plain prose and inline code remain literal.
+The generator and affected stored sections must be updated together so the drift check agrees.
+Regression cases live in `test_equations.py` and run through `test_lib.py`.
 
 ## Usage
 
