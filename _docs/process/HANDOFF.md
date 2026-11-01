@@ -11,6 +11,31 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `708d7b0`
+- **Written**: 2026-10-31, by the operator session after the second PyDromon trial reviewed `tmp/`. This file's own
+  commit sits directly on top, so `git rev-parse HEAD~1` must print `708d7b0...` for this handoff to be valid.
+  `python3 _lib/blog.py handoff` makes that comparison.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `66bd073`. `708d7b0` and this file's commit go through a `ci/<topic>` branch
+  next. They change 13 published posts, adding only backslashes, so they deploy.
+- **PUBLICATION STATE.** A1 to A385 are published. **The next free article number is A386.**
+- **WHAT HAPPENED.** `REVERSE_PROMPT.md`, seventh entry of 2026-10-31, and
+  [Dromon Trial 2](./dromon_trial_2/README.md). Five library items and two documents were promoted from `tmp/`, and
+  an emphasis defect inside inline mathematics was fixed on 13 published pages.
+- **LOCAL STATE.** The blog's Dromon daemon may still be running with the lines `opus`, `sol` and `grok` idle, and
+  their worktrees under `tmp/worktrees/` hold work that is now merged. Check `dromon status` before acting. The
+  operator's scratch for the trial is `tmp/dromon_trial4/`.
+- **OPEN, FOR THE PILOT.**
+  1. Whether to post the A385 announcement drafted in `REVERSE_PROMPT.md`, sixth entry.
+  2. Whether to judge CACM items from 1983 on, which needs each item's section.
+  3. The ruleset change that makes `CI result` required, which remains the operator's.
+  4. Whether to delete any of `tmp/`, which is 24 GB. The trial's inventories mark what is spent.
+- **METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+  trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file.
+
+## Validity (superseded, written 2026-10-31 after publishing A385, parent `f08c6fa`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `f08c6fa`
 - **Written**: 2026-10-31, by the operator line of the PyDromon trial, after A385 was published and the harness spun
   down. This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `f08c6fa...` for this
