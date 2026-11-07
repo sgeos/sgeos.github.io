@@ -70,7 +70,7 @@ jobs:
       # The runner's own python3 runs the verifier and the library tests, as it does in
       # jekyll.yml, so the two workflows agree on the interpreter.
       - name: Setup Ruby
-        uses: ruby/setup-ruby@7f797815d8adceb1c412e7abefdd1ab4abc47a5f # v1.335.0
+        uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
         with:
           ruby-version: "3.3"
           bundler-cache: true
