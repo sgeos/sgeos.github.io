@@ -11,13 +11,13 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `72f95d7`
+- **Parent commit** (the repository state this handoff describes): `f77ea4d`
 - **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the third pass on A386. This
-  file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `72f95d7...` for this handoff to be
+  file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `f77ea4d...` for this handoff to be
   valid. `python3 _lib/blog.py handoff` makes that comparison.
 - **Tree at write**: clean apart from gitignored scratch under `tmp/`.
 - **PUSH STATE.** `origin/master` is `021cce5`. The A386 commits `7f4ff87`, `ec3052b`, `b743da4`, `51e303c`,
-  `6b93ba7` and `72f95d7`, their handoff restamps, and this file's commit are **local and unpushed**. Nothing is pushed or published
+  `6b93ba7`, `72f95d7` and `f77ea4d`, their handoff restamps, and this file's commit are **local and unpushed**. Nothing is pushed or published
   without the pilot's approval. A push goes through a `ci/<topic>` branch and a passing `CI result`. The draft is in
   `_drafts/`, so a push does not change the live site.
 - **PUBLICATION STATE.** A1 to A385 are published. **A386 is drafted, hardened three times and not published.** The next
@@ -48,7 +48,7 @@ A390, the pilot's standing rulings, and the items deferred to A388 and A389. The
   predictive value, the gravity optimisations, the treatment of long journeys, relativistic time dilation and the
   five principles of the blueprint are the pilot's or approved by the pilot. The series notes give each.
 
-**State.** 22,229 words of author prose, 34 display equations, 23 standard and 11 bespoke, and 190 reference
+**State.** 22,288 words of author prose, 34 display equations, 23 standard and 11 bespoke, and 190 reference
 definitions, all used and defined. `_verify.py` reports 0 and 0. `./_check.sh` passed on a scratch copy with the draft
 built as a post, 554 pages and no rendered findings, on the exact text committed.
 
@@ -61,8 +61,9 @@ blueprint's engineering claims. Each folder has a `quotes.tsv` of machine-checke
 **Open, for the pilot, on A386.**
 1. Herman, Frost and Kurz 2009, which the pilot read for a class on wargaming, is cited from its catalogue record
    and carries no quotation, since its text is not openly available. The article does not mention the class.
-2. The article now says that the reconstruction names incentives as a bound and that the author regards the
-   reasoning behind it as part of the thesis. It no longer says that the paper lacked it. The pilot should confirm.
+2. Nothing in the argument waits on the pilot. The pilot ruled that it does not matter whether the lost paper named
+   incentives as a bound, and does not want to be asked what the paper contained. Its books are out of reach, its
+   notes are lost, and the article says that most of its original sources go uncited.
 3. Clement 1982 and Lofgren and Fefferman 2007 are cited from abstracts alone, and the article says so.
 4. The second and third passes had no independent review. The first had one.
 
