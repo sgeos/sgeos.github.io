@@ -17,6 +17,24 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Multi-Agent Space Simulation: A Reconstructed Thesis A386 DRAFT
+
+`_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, A386, analytical essay, categories
+`space space-studies simulation`, first article of the series `multi_agent_space_simulation`. Its plan, rulings and
+open items are in [Multi-Agent Space Simulation Series](../_docs/process/multi_agent_space_simulation_series.md). It
+reconstructs from memory the thesis of the pilot's lost senior seminar paper, reviews Kerbal Space Program, Children
+of a Dead Earth, EVE Online and Star Citizen, catalogues soft science fiction conventions with remedies, and ends in a
+blueprint for a high-fidelity multi-agent predictive simulation with the equations an implementation needs.
+
+**Current status 2026-11-13. Drafted, four passes done, not published.** 11,101 words of author prose, 25 display
+equations, 20 standard and 5 bespoke, and 96 reference definitions. The equation pass added the Hohmann transfer time,
+the synodic period, the shared-clock wall time and an implementation subsection. The reference pass added Curtis,
+Battin, Yoshida, Wisdom and Holman, and Sutton and Graves. The readiness pass re-derived every worked number, spelled
+out acronyms and checked reference integrity. The diction pass cut the trailing appositive "which is" from 21 to 7.
+`_verify.py` reports 0 and 0, and `./_check.sh` passes on a scratch copy with the draft built as a post. **Before
+publication**, a hardening pass with Fable 5.2, the import into the source database, a full URL check, and a better
+locator for Glasstone 1964.
+
 ## Access, Legible State and Recomputation in a Three-Model Harness A385 2026-10-31 PUBLISHED
 
 `_posts/2026-10-31-dromon_three_models_equations_sections.markdown`, A385, published 2026-10-31 21:15 UTC, standalone essay, categories

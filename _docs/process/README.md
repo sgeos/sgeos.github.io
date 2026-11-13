@@ -23,6 +23,7 @@ Development process, content workflow, and human-AI communication protocol.
 | [Verification Traps](./VERIFICATION_TRAPS.md) | Mistakes the working method has actually made, and the observation that caught each one |
 | [Dromon Trial 1](./dromon_trial_1/README.md) | The first three-model PyDromon trial, which brought A306 to A309 to the Equations section format and drafted A385, with each line's experience report |
 | [Dromon Trial 2](./dromon_trial_2/README.md) | The second three-model PyDromon trial, which reviewed `tmp/`, promoted five library items and two documents, and fixed a live mathematics emphasis defect in 13 posts, with each line's report and the operator's |
+| [Multi-Agent Space Simulation Series](./multi_agent_space_simulation_series.md) | The arc, standing rulings and open items of the series that reconstructs the pilot's lost paper on space simulations, A386 onward |
 | [Article Errata](./ARTICLE_ERRATA.md) | Known defects in published articles not yet fixed, each confirmed or found to need a source, with what a fix involves |
 | [Work Durability](./WORK_DURABILITY.md) | Keeping a long turn's work when the turn does not survive to deliver it |
 | [Sister Session](./SISTER_SESSION.md) | Coordination when a second session drafts in parallel |

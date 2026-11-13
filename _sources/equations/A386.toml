@@ -1,0 +1,363 @@
+# Equation classification for A386. Read by `python3 _lib/equations.py`.
+
+caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and the letter a stands for a semi-major axis in Equations 2 and 3 and for an acceleration in Equation 24."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Bohr Energy Levels of Hydrogen"
+gloss = "The energy of each permitted level in Bohr's model, which predicts the hydrogen spectrum despite a wrong picture of the electron."
+cite = ["research_bohr_1913"]
+digest = "194dbd7436385cfc"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Laplace Sphere of Influence"
+gloss = "The radius within which the patched-conic method treats a smaller body's gravity as the only gravity."
+cite = ["book_curtis_2020_interplanetary"]
+digest = "eb8dddbc76ec6878"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Hill Radius"
+gloss = "The approximate distance of a body's first and second Lagrange points, which lie outside its sphere of influence."
+cite = []
+digest = "0ced3629673c63bd"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Engagement Time of a Straight Pass"
+gloss = "The time two craft spend within weapon range on a straight pass at constant relative speed, an order-of-magnitude model of the article's."
+cite = []
+digest = "80a72e488b038902"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "EVE Online Velocity Law"
+gloss = "The speed a ship reaches under full propulsion in EVE Online, the law of a body in a viscous fluid, as the community guide gives it."
+cite = ["community_eve_uni_acceleration"]
+digest = "08c0843527645204"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Tsiolkovsky Rocket Equation"
+gloss = "The delta-v a rocket gains as its mass falls from the initial to the final mass."
+cite = []
+digest = "8583abd9dcaf919f"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Hohmann Transfer Time"
+gloss = "Half the period of the transfer ellipse, the time the cheapest transfer between two circular orbits takes."
+cite = ["book_curtis_2020_interplanetary"]
+digest = "12667e767813425b"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Synodic Period"
+gloss = "The interval between repetitions of two planets' relative position, which spaces the windows for a transfer."
+cite = ["book_curtis_2020_interplanetary"]
+digest = "02da133e64d99e52"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Geostationary Orbit Radius"
+gloss = "The radius at which a circular orbit's period equals one sidereal day, the only place a satellite holds position over the ground."
+cite = ["agency_esa_geo_2020"]
+digest = "7095cfb9d832aace"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Circular Orbital Speed"
+gloss = "The speed of a circular orbit at a given radius, which is what makes reaching orbit hard."
+cite = []
+digest = "56a3141ed67bcb1c"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Gravity at Altitude"
+gloss = "The inverse-square fall of gravity with height, which leaves about nine-tenths of surface gravity at the space station."
+cite = ["agency_nasa_microgravity"]
+digest = "5db4a7ffccce12f3"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Centripetal Acceleration"
+gloss = "The acceleration felt at the rim of a rotating habitat, the physical basis of spin gravity."
+cite = ["agency_nasa_sp413_1977"]
+digest = "d6311f4ce4ff7347"
+
+[[equation]]
+tag = 13
+class = "bespoke"
+title = "Bespoke Radiator Power Without Absorbed Sunlight"
+gloss = "The Stefan-Boltzmann law applied to a radiator facing cold space with absorbed sunlight neglected, an assumption of the article's that lowers the area needed."
+cite = []
+digest = "728d547db14f8e3a"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "Light-Time Delay"
+gloss = "The one-way delay of any signal over a distance, which no message or sensor reading can beat."
+cite = ["agency_nasa_tm_2025_mars_comms"]
+digest = "04388ab403412985"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "N-Body Equation of Motion With Thrust"
+gloss = "The acceleration of a craft under the gravity of every massive body plus its own thrust, the equation the core integrates."
+cite = ["book_battin_1999"]
+digest = "dd43266a3bf43ac2"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "Propellant Mass Flow"
+gloss = "The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation."
+cite = []
+digest = "3601a1ad7671f001"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Kick-Drift-Kick Leapfrog Step"
+gloss = "The second-order symplectic step whose energy error stays bounded, the base of higher-order symplectic integrators."
+cite = ["research_yoshida_1990"]
+digest = "5a50976859cbc979"
+
+[[equation]]
+tag = 18
+class = "bespoke"
+title = "Bespoke Lockstep State Transition"
+gloss = "The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the lockstep requirement."
+cite = []
+digest = "c964e77e1890e040"
+
+[[equation]]
+tag = 19
+class = "standard"
+title = "Euler's Equations of Rigid-Body Rotation"
+gloss = "The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path."
+cite = []
+digest = "0bfbee91e09d9a1d"
+
+[[equation]]
+tag = 20
+class = "standard"
+title = "Aerodynamic Drag"
+gloss = "The drag force on a body moving through air, which governs launch and reentry."
+cite = []
+digest = "dff9c8059459e497"
+
+[[equation]]
+tag = 21
+class = "standard"
+title = "Isothermal Exponential Atmosphere"
+gloss = "The simple model of air density falling exponentially with height above sea level."
+cite = []
+digest = "02e4c3dbb6245db8"
+
+[[equation]]
+tag = 22
+class = "standard"
+title = "Sutton-Graves Stagnation-Point Heating"
+gloss = "The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter."
+cite = ["research_sutton_graves_1971"]
+digest = "10c5efa55072f942"
+
+[[equation]]
+tag = 23
+class = "bespoke"
+title = "Bespoke Lumped Thermal Balance"
+gloss = "A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature."
+cite = []
+digest = "2019f5bdd8d7517d"
+
+[[equation]]
+tag = 24
+class = "standard"
+title = "Pendulum Model of First-Mode Slosh"
+gloss = "The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration."
+cite = ["research_abramson_1966"]
+digest = "7ecdde474cf4bd38"
+
+[[equation]]
+tag = 25
+class = "bespoke"
+title = "Bespoke Wall-Clock Time Under a Shared Clock"
+gloss = "The real time an agent waits for a span of simulated time when one compression factor applies to every agent."
+cite = []
+digest = "3824e7f42b60d0c5"
+
+[[symbol]]
+tex = 'E_{n}'
+meaning = "the energy of hydrogen level $n$ in the Bohr model"
+
+[[symbol]]
+tex = 'r_{\mathrm{SOI}}'
+meaning = "the radius of the sphere of influence"
+
+[[symbol]]
+tex = 'r_{\mathrm{H}}'
+meaning = "the Hill radius"
+
+[[symbol]]
+tex = 'M'
+meaning = "the mass of the larger body, or a ship's mass in Equation 5"
+
+[[symbol]]
+tex = 't_{\mathrm{e}}'
+meaning = "the time two craft spend within range of each other"
+
+[[symbol]]
+tex = 'v_{\mathrm{rel}}'
+meaning = "the relative speed of two craft"
+
+[[symbol]]
+tex = 'v_{\max}'
+meaning = "a ship's top speed in EVE Online"
+
+[[symbol]]
+tex = '\tau'
+meaning = "the time constant of EVE Online's velocity law"
+
+[[symbol]]
+tex = 'I_{\mathrm{sp}}'
+meaning = "the specific impulse of a rocket engine"
+
+[[symbol]]
+tex = 'g_{0}'
+meaning = "standard gravity at the surface, 9.80665 metres per second squared"
+
+[[symbol]]
+tex = 't_{\mathrm{H}}'
+meaning = "the Hohmann transfer time"
+
+[[symbol]]
+tex = 'a_{\mathrm{t}}'
+meaning = "the semi-major axis of the transfer ellipse"
+
+[[symbol]]
+tex = '\mu_{\odot}'
+meaning = "the Sun's gravitational parameter"
+
+[[symbol]]
+tex = 'S'
+meaning = "the synodic period"
+
+[[symbol]]
+tex = 'r_{\mathrm{G}}'
+meaning = "the radius of the geostationary orbit"
+
+[[symbol]]
+tex = '\mu'
+meaning = "Earth's gravitational parameter"
+
+[[symbol]]
+tex = 'v_{\mathrm{c}}'
+meaning = "the speed of a circular orbit"
+
+[[symbol]]
+tex = 'a_{\mathrm{c}}'
+meaning = "the centripetal acceleration at a habitat's rim"
+
+[[symbol]]
+tex = '\omega'
+meaning = "the rate of rotation in radians per second"
+
+[[symbol]]
+tex = '\varepsilon'
+meaning = "the emissivity of a radiator"
+
+[[symbol]]
+tex = '\sigma'
+meaning = "the Stefan-Boltzmann constant"
+
+[[symbol]]
+tex = 't_{\mathrm{L}}'
+meaning = "the one-way light-time delay"
+
+[[symbol]]
+tex = '\mathbf{a}_{\mathrm{T},i}'
+meaning = "the acceleration of craft $i$ from its own thrust"
+
+[[symbol]]
+tex = '\dot{m}'
+meaning = "the rate of change of a craft's mass"
+
+[[symbol]]
+tex = '\Delta t'
+meaning = "the integration step"
+
+[[symbol]]
+tex = '\Phi_{\Delta t}'
+meaning = "the deterministic step function of the shared world"
+
+[[symbol]]
+tex = 'U_{n}'
+meaning = "the ordered set of agents' inputs committed for step $n$"
+
+[[symbol]]
+tex = '\mathbf{I}'
+meaning = "a craft's inertia tensor"
+
+[[symbol]]
+tex = '\boldsymbol{\tau}'
+meaning = "the torque of a craft's reaction control thrusters"
+
+[[symbol]]
+tex = 'F_{\mathrm{D}}'
+meaning = "the aerodynamic drag force"
+
+[[symbol]]
+tex = 'C_{\mathrm{D}}'
+meaning = "the drag coefficient"
+
+[[symbol]]
+tex = '\rho'
+meaning = "the density of the air"
+
+[[symbol]]
+tex = 'H'
+meaning = "the scale height of the atmosphere"
+
+[[symbol]]
+tex = '\dot{q}'
+meaning = "the stagnation-point heat flux"
+
+[[symbol]]
+tex = 'r_{\mathrm{n}}'
+meaning = "the radius of a vehicle's nose"
+
+[[symbol]]
+tex = 'P_{\mathrm{in}}'
+meaning = "the power a craft generates and absorbs"
+
+[[symbol]]
+tex = '\omega_{\mathrm{s}}'
+meaning = "the natural frequency of the first slosh mode"
+
+[[symbol]]
+tex = 't_{\mathrm{w}}'
+meaning = "the wall-clock time an agent waits"
+
+[[symbol]]
+tex = 't_{\mathrm{s}}'
+meaning = "the simulated time that passes"
+
+[[symbol]]
+tex = '\kappa'
+meaning = "the time compression factor shared by every agent"

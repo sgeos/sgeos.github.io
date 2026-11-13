@@ -4,6 +4,29 @@
 
 ## Last Updated
 
+**Date**: 2026-11-13
+**Task**: **Plan the multi-agent space simulation series, draft A386, run the four passes and commit the draft. Done, not published.**
+
+**The series.** The arc, the pilot's standing rulings and the open items are on disk in [Multi-Agent Space Simulation Series](./multi_agent_space_simulation_series.md). A386 reconstructs the pilot's lost senior seminar paper. A387 dates the work since the paper, A388 works the hard problems, A389 treats predictive value and market demand, and A390, the Keleusma demonstrator, is held until it exists.
+
+**A386.** `_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, with `_sources/equations/A386.toml`. It reviews Kerbal Space Program, Children of a Dead Earth, EVE Online and Star Citizen as of November 2026, catalogues soft science fiction conventions with remedies, and ends in a blueprint, a real-time multi-agent simulation built on the method of Children of a Dead Earth, with the equations an implementation needs.
+- **Equations.** 25, 20 standard and 5 bespoke, each worked number re-derived.
+- **References.** 96 definitions, from developer pages, NASA, ESA and peer-reviewed work, with quotations checked verbatim against saved copies under `tmp/a386/research/`.
+- **Readiness.** Acronyms spelled out at first use. The checker still flags NASA, DMP and OSIRIS-REx, each a heuristic miss next to a correct spell-out.
+- **Diction.** The trailing appositive "which is" cut from 21 to 7, and "the author's view" reduced to two uses, since the whole article is the author's position.
+
+**Verification.** `_verify.py` 0 and 0. `./_check.sh` passed on a scratch copy with the draft built as a post, 554 pages and no rendered findings. See the commit.
+
+**Not done, for you.**
+1. The hardening pass with Fable 5.2, which you plan next.
+2. A full URL check, refused by the permission classifier and not worked around.
+3. The import of the References into the source database, needed before publication.
+4. A better locator for Glasstone 1964, now cited through an archive.org item labelled 1957.
+5. The `tmp/` clean-up, still waiting for your approval of step 1.
+6. The open items of the previous entry.
+
+## Previous Report (2026-10-31, seventh entry)
+
 **Date**: 2026-10-31 (seventh entry)
 **Task**: **Review `tmp/` with a PyDromon team, promote what ought to be generalized, commit and merge it, and send the experience reports to the PyDromon implementation line. Done.**
 
