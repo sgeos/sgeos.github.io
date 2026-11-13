@@ -10,7 +10,7 @@ the series arc on disk. The per-draft status is in [`draft_summary.md`](../../_d
 
 | No. | Working title | State | Purpose |
 |---|---|---|---|
-| A386 | *Multi-Agent Space Simulation: A Reconstructed Thesis* | Drafted, four passes done, economy added, hardened three times on 2026-11-13, not published | The reconstructed paper. Thesis, what a model is, reviews of four products, soft science fiction conventions with remedies, and a blueprint for a high-fidelity multi-agent predictive simulation, with the equations an implementation needs |
+| A386 | *Multi-Agent Space Simulation: A Reconstructed Thesis* | Drafted, four passes done, economy added, seven publication passes done 2026-11-13, references in the source database, not published | The reconstructed paper. Thesis, what a model is, reviews of four products, soft science fiction conventions with remedies, and a blueprint for a high-fidelity multi-agent predictive simulation, with the equations an implementation needs |
 | A387 | *Since 2021: Research Harnesses and Agent Operators* | Planned | Dates and reviews work after the paper, and tests A386's third claim, that no such simulation is known |
 | A388 | *Why It Is Hard: Time, Fuel, Fidelity and Determinism* | Planned | Works the hard problems A386 only names |
 | A389 | *Predictive Value* | Planned | Predictive value under three bounds, and market demand tied to educating the public |
@@ -174,13 +174,18 @@ fails unless every replacement matches once, and the draft before them is `tmp/a
 
 ## Open Before A386 Publishes
 
-1. **Nothing waits on the pilot for the argument.** The pilot ruled on 2026-11-13 that it does not matter whether the
-   lost paper named incentives as a bound. The pilot expects the reconstruction to be the better presentation, with
-   some of the paper's detailed articles forgotten and its books uncited because they are out of reach.
-2. **Import into the source database.** The References section is hand-written and must be generated from
-   `_sources/` through a decision file in `_sources/decisions/A386.toml`.
-3. **A full URL check.** A bulk check was refused by the permission classifier on 2026-11-13 and was not worked
-   around. Most links were fetched successfully during research.
-4. **Two papers cited from abstracts.** Clement 1982 and Lofgren and Fefferman 2007 were read only as abstracts,
-   and the article says so. One equation is cited to a NASA specification read from page images.
-5. **The front matter date** is a placeholder, set to the publication time at publication.
+The seven passes the pilot ordered on 2026-11-13 are done: thesis hardening, equation density, reference density,
+publication readiness, pathological language usage, the import into the source database and the full URL check. The
+editorial date is 2026-11-12, and the front matter carries it.
+
+1. **The pilot's approval to publish.** Nothing is published, pushed or forward-dated without it.
+2. **At publication, rename the article's name map.** `_sources/articles/multi_agent_space_simulation_reconstructed_thesis.json`
+   must become `_sources/articles/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.json` in the same commit
+   that moves the draft to `_posts/`, or `_verify.py` fails with `sources-drift`. The scratch gate proved both halves.
+3. **Design additions awaiting the pilot's word.** The Scenarios subsection, which says that one persistent world is
+   one run of one scenario, that worlds can be opened more than once and that a world has a span. It follows from the
+   pilot's own statement that predictive value is largely a matter of formulating realistic scenarios.
+4. **Two papers cited from abstracts.** Clement 1982 and Lofgren and Fefferman 2007, and the article says so.
+5. **One shared record is inconsistent.** `nasa_ideal_rocket_equation`, stored from an earlier article, is filed under
+   General Sources, while this article's other NASA Glenn pages are Commercial Sources under the judgement added to
+   `_sources/domains.toml` on 2026-11-13. Correcting it means regenerating the published article that cites it.

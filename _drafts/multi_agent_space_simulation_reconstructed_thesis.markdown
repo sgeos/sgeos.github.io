@@ -334,7 +334,7 @@ SOI is the sphere of influence.
 
 The sphere of influence comes from Laplace's treatment of the three-body problem,
 and standard texts derive it
-[Curtis 2020a][book_curtis_2020_interplanetary]
+[Curtis 2020][book_curtis_2020_interplanetary]
 [Battin 1999][book_battin_1999].
 Let $r\_{\mathrm{SOI}}$ be the radius of the sphere,
 $a$ the semi-major axis of the smaller body's orbit,
@@ -697,7 +697,7 @@ In 2013 the developer reported that it
 "had surpassed the 500,000 subscriber mark worldwide for the first time,"
 and that its agents
 "compete for riches, power, glory and adventure in a single universe"
-[CCP 2013][dev_ccp_subscribers_2013].
+[CCP 2013b][dev_ccp_subscribers_2013].
 The developer calls its human agents capsuleers
 [Capsuleers][dev_ccp_capsuleers].
 
@@ -709,7 +709,7 @@ and in 2007 the developer appointed an economist,
 Eyjólfur Guðmundsson,
 who
 "will publish quarterly reports on the state of the EVE Online economy"
-[CCP 2007][dev_ccp_economist_2007].
+[CCP 2007b][dev_ccp_economist_2007].
 The developer still publishes monthly economic reports
 [CCP 2026][dev_ccp_mer_2026].
 A real economy of real agents,
@@ -723,7 +723,7 @@ Ships fly as submarines move through water.
 The developer's own account of warp gives every ship a
 "maximum speed"
 under its own engines
-[CCP 2013a][dev_ccp_warp_2013].
+[CCP 2013c][dev_ccp_warp_2013].
 A top speed under continuous thrust is already a departure from mechanics.
 In vacuum the acceleration from a given thrust does not fall as speed rises,
 and a ship gains speed for as long as it has propellant to burn.
@@ -770,7 +770,7 @@ with speed
 "measured in AU/s,"
 and that a ship must first reach
 "the alignment threshold of 75% of its maximum speed"
-[CCP 2013a][dev_ccp_warp_2013].
+[CCP 2013c][dev_ccp_warp_2013].
 Setting $v(t) = 0.75\,v\_{\max}$ in the velocity law gives the alignment time.
 With $t\_{\mathrm{a}}$ that time,
 
@@ -802,7 +802,7 @@ because the simulation does not simulate them at all.
 It only sets the rules of a sandbox around them,
 which the developer itself calls
 "sandbox-style gameplay"
-[CCP 2013][dev_ccp_subscribers_2013].
+[CCP 2013b][dev_ccp_subscribers_2013].
 **The sum is greater than the parts.**
 Poor individual models,
 joined by a real market and real people,
@@ -939,7 +939,7 @@ it defined it from
 "the number of job-hours of that activity type in that system over the last 28 days,
 divided by the number of job-hours of that activity type in the universe as a whole over the last 28 days,
 and then square-rooted"
-[CCP 2014][dev_ccp_industry_2014].
+[CCP 2014b][dev_ccp_industry_2014].
 With $h\_{\mathrm{sys}}$ and $h\_{\mathrm{all}}$ those two totals,
 the index in that form grows as
 
@@ -960,7 +960,7 @@ The same 2014 account states that
 that rounding now happens per job and not per run,
 and that
 "every run requires a minimum of one unit of every listed material"
-[CCP 2014][dev_ccp_industry_2014].
+[CCP 2014b][dev_ccp_industry_2014].
 With $n\_{\mathrm{mat}}$ the quantity of one material a job consumes,
 $r$ the number of runs,
 $n\_{0}$ the blueprint's base quantity per run,
@@ -984,7 +984,7 @@ and agents have built a real industry on it.
 Agents set prices in regional markets,
 and the developer's own economist has noted
 "the unrelenting dominance of Jita as a central hub"
-[CCP 2015][dev_ccp_economy_vegas_2015].
+[CCP 2015a][dev_ccp_economy_vegas_2015].
 Every sale pays a sales tax,
 raised in 2025
 "from 4% to 7.5%"
@@ -1025,7 +1025,7 @@ The developer's profile of one hauling corporation,
 Red Frog Freight,
 says that
 "It works a little bit like a real life logistics company, with around 600-700 contracts daily"
-[CCP 2013b][dev_ccp_red_frog_2013].
+[CCP 2013a][dev_ccp_red_frog_2013].
 Courier contracts carry collateral held in escrow,
 so a hauler who loses the cargo pays for it.
 
@@ -1039,7 +1039,7 @@ In 2012 it reported that bounties were the largest faucet,
 in one month,
 and that three of four price indices showed
 "considerable inflation"
-[CCP 2012][dev_ccp_price_indices_2012].
+[CCP 2012a][dev_ccp_price_indices_2012].
 
 **PLEX and real money.**
 In 2008 the developer let subscribers convert paid subscription time into an item,
@@ -1050,7 +1050,7 @@ which a subscriber could put
 [CCP 2008][dev_ccp_plex_2008].
 A PLEX
 "can be bought via the in-game market for ISK and then applied to add 30 days of game time"
-[CCP 2009][dev_ccp_plex_2009],
+[CCP 2009b][dev_ccp_plex_2009],
 and in 2017 the developer converted each
 "into 500 PLEX"
 [CCP 2017][dev_ccp_plex_2017].
@@ -1060,7 +1060,7 @@ The developer's own announcement said it
 [CCP 2008][dev_ccp_plex_2008],
 and its economist later called it
 "EVE's equivalent of the gold standard"
-[CCP 2015][dev_ccp_economy_vegas_2015].
+[CCP 2015a][dev_ccp_economy_vegas_2015].
 A press report of 2014 records the developer selling PLEX from a reserve
 to stop a price spike
 [Engadget 2014][news_engadget_plex_2014],
@@ -1118,7 +1118,7 @@ real economic behaviour appeared that nobody designed.
   caused,
   in the developer's words,
   "wealth transfers that are simply too large for the effort and risk involved"
-  [CCP 2012a][dev_ccp_technetium_2012],
+  [CCP 2012b][dev_ccp_technetium_2012],
   and one of the cartel's own organisers described it in the trade press as
   "a price-fixing cartel which controls the Technetium supply"
   [The Mittani 2012][news_ten_ton_hammer_otec_2012].
@@ -1138,7 +1138,7 @@ and the transfer runs both ways.
 A survey reported in an article presented by the developer
 found that
 "56% of players said that skills they learned through playing EVE had proven to be valuable in their lives outside of the game and in their careers"
-[Den of Geek 2020][news_den_of_geek_2020].
+[Yancy 2020][news_den_of_geek_2020].
 The developer sponsored the source,
 and the underlying study did not turn up,
 so the figure stands here as the developer's claim.
@@ -1220,7 +1220,7 @@ The developer's own description of the Carrack promises
 "Muiltiple seats with their own dedicated actions"
 and
 "a Pisces-class launch (design redacted) and an Ursa-class rover for ground exploration"
-[RSI 2014][dev_rsi_carrack_2014].
+[RSI 2014a][dev_rsi_carrack_2014].
 
 Its activities split broadly in two.
 **Ship-based** loops include bounty hunting and cargo,
@@ -1448,7 +1448,7 @@ that
 "Bugs and performance issues were major problems,"
 and that it
 "launched without features included in the original"
-[PC Gamer 2024][news_pcgamer_intercept_2024].
+[Chalk 2024][news_pcgamer_intercept_2024].
 The mode never arrived.
 In November 2026 the product's store page still lists
 "colonies, interstellar travel, and multiplayer"
@@ -1479,7 +1479,7 @@ The developer's terms state that
 "You do not purchase anything, you make a pledge towards the development of the Game"
 and that pledge funds
 "are a deposit to be used for the development and production cost of the Game"
-[RSI Terms of Service 2026][dev_rsi_tos_2026].
+[RSI 2026][dev_rsi_tos_2026].
 A pledge is nonetheless contractually binding.
 The same terms make any unearned portion non-refundable
 "until and unless RSI has ceased development and failed to deliver,"
@@ -1498,7 +1498,7 @@ and the developer has no incentive to acknowledge unhappiness publicly.
 The press records some of it.
 A backer who sued for a refund and lost said of the developer that
 "They figured out how to sell scope creep itself"
-[Kotaku 2018][news_kotaku_refund_2018],
+[Grayson 2018][news_kotaku_refund_2018],
 the developer told another that
 "Refunds are always discretionary and are considered on a case-by-case basis"
 [Polygon 2017][news_polygon_refund_2017],
@@ -1654,7 +1654,7 @@ On Babylon 5,
 J. Michael Straczynski credited Ron Thornton
 as the one who
 "first suggested we use CGI"
-[Straczynski 2013][news_slashdot_straczynski_2013].
+[Slashdot 2013][news_slashdot_straczynski_2013].
 The Expanse later showed that a large audience will accept spin gravity and thrust gravity.
 Its co-author Daniel Abraham described ships
 "having thrust gravity and spin gravity and ships that are built like towers,"
@@ -1669,7 +1669,7 @@ Science fiction inspires children to become scientists,
 and science inspires the writers of science fiction.
 Michio Kaku recalls that at about eight
 "I got hooked on the Saturday morning TV shows. In particular, Flash Gordon"
-[Kaku 2015][news_big_think_kaku_2015].
+[Big Think 2015][news_big_think_kaku_2015].
 Stephen Hawking co-wrote a series of children's adventure novels with his daughter Lucy,
 beginning with George's Secret Key to the Universe in 2007
 [Hawking and Hawking 2007][book_hawking_hawking_2007].
@@ -1799,7 +1799,7 @@ gives a delta-v of about 6.1 kilometres per second.
 Time is the other cost.
 The cheapest two-burn transfer between two circular orbits in the same plane is the Hohmann transfer,
 half an ellipse that touches both
-[Curtis 2020a][book_curtis_2020_interplanetary].
+[Curtis 2020][book_curtis_2020_interplanetary].
 With $t\_{\mathrm{H}}$ the transfer time,
 $a\_{\mathrm{t}}$ the semi-major axis of the transfer ellipse,
 the mean of the two orbital radii,
@@ -1827,7 +1827,7 @@ $$
 For Earth at 365.25 days and Mars at 686.98,
 the synodic period is about 780 days,
 so a window for the cheapest transfer to Mars opens about once every 26 months
-[Curtis 2020a][book_curtis_2020_interplanetary].
+[Curtis 2020][book_curtis_2020_interplanetary].
 
 **Remedy.**
 Track propellant and delta-v,
@@ -2249,7 +2249,7 @@ and EVE Online holds a large population in one persistent world.
 That second proof has a caveat.
 EVE Online's record is 65,303 agents connected at once,
 which the press reported in 2013
-[Engadget 2013][news_engadget_pcu_2013],
+[Drain 2013][news_engadget_pcu_2013],
 and those agents occupied a world divided into systems joined by gates.
 The developer balances its load by moving whole systems between server processes,
 and it has written of an overloaded system that
@@ -2259,7 +2259,7 @@ When a battle outgrows its process,
 the developer slows that process's clock,
 down to what it calls
 "the artificial 10% cap on the time dilation factor"
-[CCP 2014b][dev_ccp_hed_gp_2014].
+[CCP 2014c][dev_ccp_hed_gp_2014].
 Star Citizen's shards hold 500 agents each.
 Neither product shows that one continuous solar system can hold as many agents,
 and a world whose orbits all run on one clock
@@ -2956,7 +2956,7 @@ $$
 \tag{39}
 $$
 
-[Shapiro 1979][agency_nasa_shapiro_1979].
+[Shapiro 1978][agency_nasa_shapiro_1979].
 At a tenth of the speed of light a traveller's clock would lose about 1.8 days in every year,
 and at higher speeds a character in transit would live through less time than the world it left.
 Conclusions about colonisation,
@@ -2998,7 +2998,7 @@ It calls time zone safety
 "an absolutely critical part of any capture system in a worldwide game like EVE Online"
 and holds that
 "Nobody should feel the need to play the game 24/7 in order to be competitive"
-[CCP 2015a][dev_ccp_sov_status_2015].
+[CCP 2015b][dev_ccp_sov_status_2015].
 Any high-fidelity simulation that runs continuously
 may subject its agents to the same realities,
 inconvenient as they are.
@@ -3472,7 +3472,7 @@ The official report records that the free play of the opposing force
 [Joint Forces Command][ref_jfcom_mc02],
 and the general who led that force recalled that
 "A phrase I heard over and over was: 'That would never have happened,'"
-[The Guardian 2002][news_guardian_mc02_2002].
+[Borger 2002][news_guardian_mc02_2002].
 
 A simulation of the kind proposed here inherits both problems.
 Those with the most to learn from it,
@@ -3538,7 +3538,7 @@ as the review above recorded.
 Burnout is just as real.
 A press account of EVE Online's wars says that their pace
 "can cause massive stress on a player's life, and can lead to a lot of fatigue, and over time, quite a bit of burnout"
-[Kotaku 2017][news_kotaku_war_2017].
+[Yancy 2017][news_kotaku_war_2017].
 Obligations that run around the clock
 wear people down,
 and a simulation that depends on committed agents
@@ -3623,7 +3623,7 @@ and the reviewed products support the claim only indirectly.
 Kerbal Space Program sold more than five million units
 [Take-Two 2023][dev_take_two_ksp2_2023].
 EVE Online passed half a million subscribers in one shared world in 2013
-[CCP 2013][dev_ccp_subscribers_2013].
+[CCP 2013b][dev_ccp_subscribers_2013].
 Star Citizen's counter shows about a billion dollars raised before release,
 if its units are cents
 [RSI Crowdfund Statistics][dev_rsi_crowdfund_stats].
@@ -3911,7 +3911,7 @@ $$
 
 **Equation 2, Laplace Sphere of Influence.**
 The radius within which the patched-conic method treats a smaller body's gravity as the only gravity.
-[Curtis 2020a][book_curtis_2020_interplanetary]
+[Curtis 2020][book_curtis_2020_interplanetary]
 
 $$
 r_{\mathrm{SOI}} = a \left( \frac{m}{M} \right)^{2/5}
@@ -3983,7 +3983,7 @@ $$
 
 *Equation 10, Bespoke Proportional Form of the 2014 System Cost Index.*
 The square-root growth of EVE Online's cost index with a system's share of production, written from the developer's description of 2014 as a proportionality, since the exact current form is not published in text.
-[CCP 2014][dev_ccp_industry_2014]
+[CCP 2014b][dev_ccp_industry_2014]
 
 $$
 I_{\mathrm{SCI}} \propto \sqrt{\frac{h_{\mathrm{sys}}}{h_{\mathrm{all}}}}
@@ -3992,7 +3992,7 @@ $$
 
 *Equation 11, Bespoke Material Requirement from EVE Online's Stated Rules.*
 The quantity of one material a job consumes, assembled from the developer's stated rules on material efficiency, rounding per job and a minimum of one unit per run.
-[CCP 2014][dev_ccp_industry_2014]
+[CCP 2014b][dev_ccp_industry_2014]
 
 $$
 n_{\mathrm{mat}} = \max\!\left( r,\ \left\lceil r\, n_{0} \left( 1 - \frac{E}{100} \right) \gamma \right\rceil \right)
@@ -4027,7 +4027,7 @@ $$
 
 **Equation 15, Hohmann Transfer Time.**
 Half the period of the transfer ellipse, the time the cheapest two-burn transfer between two coplanar circular orbits takes.
-[Curtis 2020a][book_curtis_2020_interplanetary]
+[Curtis 2020][book_curtis_2020_interplanetary]
 
 $$
 t_{\mathrm{H}} = \pi \sqrt{\frac{a_{\mathrm{t}}^{3}}{\mu_{\odot}}}
@@ -4036,7 +4036,7 @@ $$
 
 **Equation 16, Synodic Period.**
 The interval between repetitions of two planets' relative position, which spaces the windows for a transfer.
-[Curtis 2020a][book_curtis_2020_interplanetary]
+[Curtis 2020][book_curtis_2020_interplanetary]
 
 $$
 \frac{1}{S} = \frac{1}{T_{1}} - \frac{1}{T_{2}}
@@ -4247,7 +4247,7 @@ $$
 
 **Equation 39, Special-Relativistic Clock Rate.**
 The exact rate of a moving clock against one at rest, which governs the time a traveller lives through at interstellar speeds.
-[Shapiro 1979][agency_nasa_shapiro_1979]
+[Shapiro 1978][agency_nasa_shapiro_1979]
 [Ashby 2003][research_ashby_2003]
 
 $$
@@ -4351,216 +4351,235 @@ $$
 
 ## References
 
-- [Agency, Blevins and Hohmann 1975, Description of the Space Shuttle Reaction Control System][agency_nasa_shuttle_rcs_1975]
-- [Agency, ESA 2020, Geostationary Orbit][agency_esa_geo_2020]
-- [Agency, Garcia-Llama 2007, Analytic Guidance for the First Entry in a Skip Atmospheric Entry][agency_nasa_garcia_llama_2007]
-- [Agency, Hughes 2007, General Mission Analysis Tool Mathematical Specifications][agency_nasa_gmat_2007]
-- [Agency, Johnson and Holbrow 1977, Space Settlements: A Design Study][agency_nasa_sp413_1977]
-- [Agency, JPL 2020, JPL Planetary and Lunar Ephemerides][agency_jpl_ephemerides_2020]
-- [Agency, Landon et al. 2025, Assessment of the State of Communication Delay Research][agency_nasa_tm_2025_mars_comms]
-- [Agency, Launius and Jenkins 2012, Coming Home: Reentry and Recovery from Space][agency_nasa_coming_home]
-- [Agency, Liles and Amundsen 2023, NASA Passive Thermal Control Engineering Guidebook][agency_nasa_thermal_guidebook_2023]
-- [Agency, Mesarch 2018, GDC Orbit Primer][agency_nasa_orbit_primer_2018]
-- [Agency, NASA 2001, Staying Cool on the ISS][agency_nasa_staying_cool_2001]
-- [Agency, NASA 2012, What Is Microgravity?][agency_nasa_microgravity]
-- [Agency, NASA 2016, Gamers Tackle Virtual Asteroid Sampling Mission][agency_nasa_gamers_osiris_2016]
-- [Agency, NASA 2017, Why Do We Really Need Pressure Suits?][agency_nasa_pressure_suits_2017]
-- [Agency, NASA 2019, Payload Operations Integration Center][agency_nasa_payload_ops_2019]
-- [Agency, NASA 2020, Space Communications: 7 Things You Need to Know][agency_nasa_space_comms_2020]
-- [Agency, NASA 2021, NASA Laser Communications Innovations: A Timeline][agency_nasa_laser_comm_timeline_2021]
-- [Agency, NASA 2024, 55 Years Ago: Star Trek Final Episode Airs][agency_nasa_star_trek_55_2024]
-- [Agency, NASA 2025, RS-25 Core Stage Engine][agency_nasa_rs25_2025]
-- [Agency, NASA Anatomy of an Electromagnetic Wave][agency_nasa_em_anatomy]
-- [Agency, NASA Basics of Spaceflight, Cruise][agency_nasa_bsf_cruise]
-- [Agency, NASA Basics of Spaceflight, Trajectories][agency_nasa_bsf_trajectories]
-- [Agency, NASA Black Holes][agency_nasa_black_holes]
-- [Agency, NASA Dawn FAQ][agency_nasa_dawn_faq]
-- [Agency, NASA Drag Equation][agency_nasa_drag_equation]
-- [Agency, NASA Earth Fact Sheet][agency_nasa_earth_fact_sheet]
-- [Agency, NASA Flight to Orbit][agency_nasa_flight_to_orbit]
-- [Agency, NASA Ideal Rocket Equation][agency_nasa_rocket_equation]
-- [Agency, NASA ISS Active Thermal Control System Overview][agency_nasa_iss_atcs]
-- [Agency, NASA Jupiter Fact Sheet][agency_nasa_jupiter_fact_sheet]
-- [Agency, NASA Moon Fact Sheet][agency_nasa_moon_fact_sheet]
-- [Agency, NASA Newton's Laws of Motion][agency_nasa_newton]
-- [Agency, NASA Rocket Principles][agency_nasa_rocket_principles]
-- [Agency, NASA Small Spacecraft Thermal Control][agency_nasa_smallsat_thermal]
-- [Agency, NASA Specific Impulse][agency_nasa_specific_impulse]
-- [Agency, NASA Sun Fact Sheet][agency_nasa_sun_fact_sheet]
-- [Agency, NASA Webb Orbit][agency_nasa_webb_orbit]
-- [Agency, NASA Whipple Shield Development][agency_nasa_whipple]
-- [Agency, Riebeek 2009, Catalog of Earth Satellite Orbits][agency_nasa_orbit_catalog_2009]
-- [Agency, Shapiro 1979, Down to Earth Relativity][agency_nasa_shapiro_1979]
-- [Agency, Stoneking 2007, Newton-Euler Dynamic Equations of Motion for a Multi-Body Spacecraft][agency_nasa_stoneking_2007]
-- [Agency, Stysley 2011, Laser-Based Optical Trap for Remote Sampling][agency_nasa_niac_stysley_2011]
-- [Agency, Westover et al. 2019, Magnet Architectures and Active Radiation Shielding Study][agency_nasa_maarss_2019]
-- [Agency, Winternitz 2017, Introduction to GPS and Other Global Navigation Satellite Systems][agency_nasa_winternitz_2017]
-- [Book, Battin 1999, An Introduction to the Mathematics and Methods of Astrodynamics][book_battin_1999]
-- [Book, Caffrey 2019, On Wargaming][book_caffrey_2019]
-- [Book, Conway Morris 2003, Life's Solution][book_conway_morris_2003]
-- [Book, Curtis 2020a, Interplanetary Trajectories][book_curtis_2020_interplanetary]
-- [Book, Friedman 2017, Winning a Future War: War Gaming and Victory in the Pacific War][book_friedman_2017]
-- [Book, Glasstone 1964, The Effects of Nuclear Weapons, Revised Edition Reprinted February 1964][book_glasstone_1964]
-- [Book, Hawking and Hawking 2007, George's Secret Key to the Universe][book_hawking_hawking_2007]
-- [Book, Herman et al. 2009, Wargaming for Leaders: Strategic Decision Making from the Battlefield to the Boardroom][book_herman_et_al_2009]
-- [Book, Whitfield and Roddenberry 1968, The Making of Star Trek][book_whitfield_roddenberry_1968]
-- [Community, EVE University, Acceleration][community_eve_uni_acceleration]
-- [Community, EVE University, Capacitor][community_eve_uni_capacitor]
-- [Community, EVE University, Industry][community_eve_uni_industry]
-- [Community, EVE University, Jump Drives][community_eve_uni_jump_drives]
-- [Community, EVE University, Trading][community_eve_uni_trading]
-- [Community, EVE University, Warp][community_eve_uni_warp]
-- [Community, KSP Wiki, Kerbin][community_ksp_wiki_kerbin]
-- [Community, KSP Wiki, Maneuver Node][community_ksp_wiki_maneuver_node]
-- [Community, KSP Wiki, Multiplayer][community_ksp_wiki_multiplayer]
-- [Community, KSP Wiki, Sphere of Influence][community_ksp_wiki_soi]
-- [Community, Star Citizen Wiki, Planet][community_sc_tools_planet]
-- [Community, The Star Trek Transcripts, Obsession][community_trek_obsession_transcript]
-- [Developer, Bettner and Terrano 2001, 1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond][dev_bettner_terrano_2001]
-- [Developer, CCP 2003, Highly Anticipated Massively Multiplayer Online Game][dev_ccp_launch_2003]
-- [Developer, CCP 2006, A Deal Is a Deal][dev_ccp_faucets_2006]
-- [Developer, CCP 2007, EVE Online Appoints In-World Economist][dev_ccp_economist_2007]
-- [Developer, CCP 2007a, Econ Dev Blog No. 3, Some Statistics on Corporations][dev_ccp_corporations_2007]
-- [Developer, CCP 2008, I Can Resist Anything but Temptation][dev_ccp_plex_2008]
-- [Developer, CCP 2009, The Way of the PLEX][dev_ccp_plex_2009]
-- [Developer, CCP 2009a, I Bring Gifts, by Gifts I Mean Taxes][dev_ccp_taxes_2009]
-- [Developer, CCP 2010, Fixing Lag: Character Nodes][dev_ccp_character_nodes_2010]
-- [Developer, CCP 2012, Price Indices, February 2012][dev_ccp_price_indices_2012]
-- [Developer, CCP 2012a, Tech Is Fine, L2P][dev_ccp_technetium_2012]
-- [Developer, CCP 2013, EVE Online Surpasses 500,000 Subscribers Worldwide][dev_ccp_subscribers_2013]
-- [Developer, CCP 2013a, Warp Drive Active][dev_ccp_warp_2013]
-- [Developer, CCP 2013b, Community Spotlight, Red Frog Freight][dev_ccp_red_frog_2013]
-- [Developer, CCP 2014, EVE Industry, All You Want to Know][dev_ccp_industry_2014]
-- [Developer, CCP 2014a, The Bloodbath of B-R5RB][dev_ccp_b_r5rb_2014]
-- [Developer, CCP 2014b, HED-GP Technical Retrospective][dev_ccp_hed_gp_2014]
-- [Developer, CCP 2015, EVE Economy Update, EVE Vegas 2015 Report][dev_ccp_economy_vegas_2015]
-- [Developer, CCP 2015a, Summer 2015 Nullsec and Sov Status Report][dev_ccp_sov_status_2015]
-- [Developer, CCP 2016, Overlays, ISK Buyer Amnesty and Account Security][dev_ccp_rmt_2016]
-- [Developer, CCP 2017, PLEX Changes on the Way][dev_ccp_plex_2017]
-- [Developer, CCP 2019, Updates to Sales Taxes and Brokers Fees][dev_ccp_taxes_2019]
-- [Developer, CCP 2020, Broker Relations][dev_ccp_broker_relations_2020]
-- [Developer, CCP 2022, Team Security 2021 in Review][dev_ccp_security_2021]
-- [Developer, CCP 2023, Viridian Expansion Notes][dev_ccp_viridian_2023]
-- [Developer, CCP 2025, Patch Notes, Version 22.02][dev_ccp_patch_22_02_2025]
-- [Developer, CCP 2026, Monthly Economic Report, August 2026][dev_ccp_mer_2026]
-- [Developer, CCP, Capsuleers][dev_ccp_capsuleers]
-- [Developer, CCP, EVE Swagger Interface Overview][dev_ccp_esi_overview]
-- [Developer, CCP, Tritanium Item Record][dev_ccp_esi_tritanium]
-- [Developer, CCP, Useful Formulae][dev_ccp_useful_formulae]
-- [Developer, Children of a Dead Earth, Steam Store Page][dev_code_steam]
-- [Developer, Cloud Imperium 2020, Cloud Imperium Financials for 2020][dev_cig_financials_2020]
-- [Developer, Cloud Imperium 2021, Cloud Imperium Financials for 2021][dev_cig_financials_2021]
-- [Developer, Cloud Imperium 2022, Cloud Imperium Financials for 2022][dev_cig_financials_2022]
-- [Developer, Cloud Imperium 2023, Cloud Imperium Financials for 2023][dev_cig_financials_2023]
-- [Developer, Cloud Imperium 2024, CFO Comment on the 2024 Accounting][dev_cig_financials_2024]
-- [Developer, Dark Multiplayer][dev_dark_multiplayer]
-- [Developer, Falanghe 2012, Patched Conics Trajectory from Initial Orbit State][dev_harvester_patched_conics_2012]
-- [Developer, Kerbal Space Program 2, Steam Store Page][dev_ksp2_steam]
-- [Developer, Kerbal Space Program, Steam Store Page][dev_ksp_steam]
-- [Developer, KerbalEdu 2016][dev_kerbaledu_2016]
-- [Developer, Luna Multiplayer][dev_luna_multiplayer]
-- [Developer, Principia][dev_principia]
-- [Developer, Principia, On the Dynamical Stability of Principia's Modified Jool System][dev_principia_jool]
-- [Developer, Q-Switched 2016, Burn Rockets Burn][dev_code_rockets_2016]
-- [Developer, Q-Switched 2016, Fun with Orbital Mechanics][dev_code_orbital_2016]
-- [Developer, Q-Switched 2016, How Realistic Is It Actually?][dev_code_realistic_2016]
-- [Developer, Q-Switched 2016, Raw Steel][dev_code_raw_steel_2016]
-- [Developer, Q-Switched 2016, Slosh Baffles][dev_code_slosh_2016]
-- [Developer, Q-Switched 2016, Space Guns][dev_code_space_guns_2016]
-- [Developer, Q-Switched 2016, Stealth in Space][dev_code_stealth_2016]
-- [Developer, Q-Switched 2016, The Essence of Space Warfare][dev_code_essence_2016]
-- [Developer, Q-Switched 2016, The Photon Lance][dev_code_photon_lance_2016]
-- [Developer, Real Solar System][dev_real_solar_system]
-- [Developer, Realism Overhaul][dev_realism_overhaul]
-- [Developer, Roberts 2018, Letter from the Chairman][dev_rsi_letter_2018]
-- [Developer, Roberts 2020, Letter from the Chairman][dev_rsi_letter_2020]
-- [Developer, RSI 2014, Into the Unknown, a Carrack and Her Crew][dev_rsi_carrack_2014]
-- [Developer, RSI 2014, Lore Builder Twenty][dev_rsi_lore_gravity_2014]
-- [Developer, RSI 2017, Star Citizen Alpha 3.0.0][dev_rsi_alpha_300_2017]
-- [Developer, RSI 2017a, Star Citizen Alpha 3.0.0 Patch Notes][dev_rsi_patch_300_2017]
-- [Developer, RSI 2018, The Shipyard: Fuel Mechanics][dev_rsi_fuel_2018]
-- [Developer, RSI 2018a, Star Citizen Alpha 3.2.0 Patch Notes][dev_rsi_patch_320_2018]
-- [Developer, RSI 2018b, Star Citizen Alpha 3.4.0 Patch Notes][dev_rsi_patch_340_2018]
-- [Developer, RSI 2020, Flight and Fight Upcoming Improvements][dev_rsi_flight_2020]
-- [Developer, RSI 2021, Deadly Consequences, Alpha 3.15][dev_rsi_alpha_315_2021]
-- [Developer, RSI 2025, Star Citizen Alpha 4.5.0][dev_rsi_patch_450_2025]
-- [Developer, RSI 2026, Terms of Service][dev_rsi_tos_2026]
-- [Developer, RSI, Crowdfund Statistics][dev_rsi_crowdfund_stats]
-- [Developer, RSI, Roadmap][dev_rsi_roadmap]
-- [Developer, RSI, Star Citizen Alpha 4.0][dev_rsi_alpha_40]
-- [Developer, Squad 2011, First Release Is Up][dev_squad_first_release_2011]
-- [Developer, Squad 2014, KSP: Asteroid Redirect Mission Is Officially Released][dev_squad_arm_2014]
-- [Developer, Take-Two 2017, Take-Two Acquires Kerbal Space Program][dev_take_two_ksp_2017]
-- [Developer, Take-Two 2023, Kerbal Space Program 2 Launches in Early Access][dev_take_two_ksp2_2023]
-- [News, Big Think 2015, Michio Kaku][news_big_think_kaku_2015]
-- [News, Den of Geek 2020, How EVE Online Players Say the Game Changed Their Lives][news_den_of_geek_2020]
-- [News, Engadget 2008, Making Money, the Origin of the Specie][news_engadget_tritanium_2008]
-- [News, Engadget 2009, New Perspective on EVE Online's Latest Bank Embezzlement][news_engadget_ebank_2009]
-- [News, Engadget 2013, EVE Online Smashes PCU Record During Anniversary Celebrations][news_engadget_pcu_2013]
-- [News, Engadget 2014, EVE Fanfest 2014 Economy Talk][news_engadget_plex_2014]
-- [News, GamersNexus 2016, Chris Roberts on Character Technology and Engine Architecture][news_gamersnexus_roberts_2016]
-- [News, GeekWire 2024, Take-Two Interactive Layoffs Hit Seattle Area][news_geekwire_intercept_2024]
-- [News, Gematsu 2026, CCP Games Rebrands to Fenris Creations][news_gematsu_fenris_2026]
-- [News, Gizmodo 2011, The First Draft of the Star Trek Pitch][news_gizmodo_trek_pitch_2011]
-- [News, IEEE Spectrum 2009, EVE Online Game Player Embezzles Virtual Money][news_ieee_ebank_2009]
-- [News, Kotaku 2017, War in EVE Online Is the Best, and Also the Worst][news_kotaku_war_2017]
-- [News, Kotaku 2018, Star Citizen Backer Sues to Get $4,500 Back, Loses][news_kotaku_refund_2018]
-- [News, Massively Overpowered 2016, Star Citizen Changes Refund Clause for New Backers][news_massively_refund_2016]
-- [News, PC Gamer 2021, Star Citizen Adds Disclaimer to Spaceship Preorders][news_pcgamer_asa_2021]
-- [News, PC Gamer 2024, Kerbal Space Program 2 Developer Intercept Games and Rollerdrome Studio Roll7 Are Reportedly Closing][news_pcgamer_intercept_2024]
-- [News, Polygon 2017, Star Citizen Backer's $25,000 Refund Has Taken Months][news_polygon_refund_2017]
-- [News, Reuters 2009, Gamer Steals Online Loot to Pay Real-World Debts][news_reuters_ebank_2009]
-- [News, Slashdot 2013, J. Michael Straczynski Answers Your Questions][news_slashdot_straczynski_2013]
-- [News, Space.com 2015, The Expanse][news_space_com_expanse_2015]
-- [News, The Guardian 2002, Wake-up Call][news_guardian_mc02_2002]
-- [News, The Mittani 2012, Sins of a Solar Spymaster 78, The Extortion of Empire][news_ten_ton_hammer_otec_2012]
-- [News, The Register 2009, Gamer Embezzles Virtual Cash to Settle Real Debts][news_register_ebank_2009]
-- [Reference, Brynen 2010, Review: Wargaming for Leaders][ref_brynen_2010]
-- [Reference, Edmund Optics, Can a Laser Beam Be Seen from the Side?][ref_edmund_laser]
-- [Reference, FAI 2018, Statement about the Karman Line][ref_fai_karman_2018]
-- [Reference, Hattendorf 2014, Saving Nimitz's Graybook][ref_hattendorf_2014]
-- [Reference, Nielsen 2006, Progressive Disclosure][ref_nielsen_2006]
-- [Reference, SIGGRAPH History, The Last Starfighter][ref_siggraph_last_starfighter]
-- [Reference, Traveller System Reference Document, Spacecraft Operations][ref_traveller_srd]
-- [Reference, U.S. Joint Forces Command, Millennium Challenge 2002 Experiment Report][ref_jfcom_mc02]
-- [Reference, UK Ministry of Defence 2017, Wargaming Handbook][ref_uk_mod_wargaming_2017]
-- [Reference, Washington Employment Security Department, WARN Notices][ref_wa_esd_warn]
-- [Related Post, Mass Drivers][related_post_mass_drivers]
-- [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
-- [Related Post, Published Wargames of War with China][related_post_published_wargames]
-- [Related Post, Solar Sailing][related_post_solar_sailing]
-- [Research, Abramson 1966, The Dynamic Behavior of Liquids in Moving Containers][research_abramson_1966]
-- [Research, Allen and Eggers 1958, A Study of the Motion and Aerodynamic Heating of Ballistic Missiles Entering the Earth's Atmosphere][research_allen_eggers_1958]
-- [Research, Armstrong 2001, Role Playing: A Method to Forecast Decisions][research_armstrong_2001]
-- [Research, Ashby 2003, Relativity in the Global Positioning System][research_ashby_2003]
-- [Research, Barnett et al. 2006, The Impact of Science Fiction Film on Student Understanding of Science][research_barnett_et_al_2006]
-- [Research, Berry and Coppola 2007, Correct Modeling of the Indirect Term for Third-Body Perturbations][research_berry_coppola_2007]
-- [Research, Bohr 1913, On the Constitution of Atoms and Molecules][research_bohr_1913]
-- [Research, Carroll and Carrithers 1984, Training Wheels in a User Interface][research_carroll_carrithers_1984]
-- [Research, Castronova et al. 2009, As Real as Real? Macroeconomic Behavior in a Large-Scale Virtual World][research_castronova_et_al_2009]
-- [Research, Clement 1982, Students' Preconceptions in Introductory Mechanics][research_clement_1982]
-- [Research, Green and Armstrong 2007, The Ombudsman: Value of Expertise for Forecasting Decisions in Conflicts][research_green_armstrong_2007]
-- [Research, Hairer and Söderlind 2005, Explicit, Time Reversible, Adaptive Step Size Control][research_hairer_soderlind_2005]
-- [Research, Hairer et al. 2003, Geometric Numerical Integration Illustrated by the Störmer-Verlet Method][research_hairer_et_al_2003]
-- [Research, Kane 2017, Worlds without Moons: Exomoon Constraints for Compact Planetary Systems][research_kane_2017]
-- [Research, Levin et al. 2017, Darwin's Aliens][research_levin_et_al_2017]
-- [Research, Li et al. 2017, Modeling and Research of a Space-Based Spacecraft Infrared Detection System][research_li_et_al_2017]
-- [Research, Lisk et al. 2011, Leadership in Multiplayer Online Gaming Environments][research_lisk_et_al_2011]
-- [Research, Lofgren and Fefferman 2007, The Untapped Potential of Virtual Game Worlds to Shed Light on Real World Epidemics][research_lofgren_fefferman_2007]
-- [Research, McDermott and Redish 1999, Resource Letter PER-1: Physics Education Research][research_mcdermott_redish_1999]
-- [Research, McKagan et al. 2008, Why We Should Teach the Bohr Model and How to Teach It Effectively][research_mckagan_et_al_2008]
-- [Research, Monniaux 2008, The Pitfalls of Verifying Floating-Point Computations][research_monniaux_2008]
-- [Research, Orthia 2019, How Does Science Fiction Television Shape Fans' Relationships to Science? Results from a Survey of 575 Doctor Who Viewers][research_orthia_2019]
-- [Research, Park et al. 2021, The JPL Planetary and Lunar Ephemerides DE440 and DE441][research_park_et_al_2021]
-- [Research, Perla and McGrady 2011, Why Wargaming Works][research_perla_mcgrady_2011]
-- [Research, Rubel 2006, The Epistemology of War Gaming][research_rubel_2006]
-- [Research, Sutton and Graves 1971, A General Stagnation-Point Convective Heating Equation for Arbitrary Gas Mixtures][research_sutton_graves_1971]
-- [Research, Tanikawa et al. 2013, Phantom-GRAPE: Numerical Software Library to Accelerate Collisionless N-Body Simulation][research_tanikawa_et_al_2013]
-- [Research, Whipple 1947, Meteorites and Space Travel][research_whipple_1947]
-- [Research, Williams 2010, The Mapping Principle, and a Research Framework for Virtual Worlds][research_williams_2010]
-- [Research, Wisdom and Holman 1991, Symplectic Maps for the N-Body Problem][research_wisdom_holman_1991]
-- [Research, Xanthopoulou and Papagiannidis 2012, Play Online, Work Better?][research_xanthopoulou_papagiannidis_2012]
-- [Research, Yoshida 1990, Construction of Higher Order Symplectic Integrators][research_yoshida_1990]
+<!-- References generated by _lib/sources.py from _sources/. Edit the database and regenerate. Do not edit this section by hand. -->
+
+### Primary Sources, Peer-Reviewed
+
+- Ashby, Neil. 2003. "Relativity in the Global Positioning System." *Living Reviews in Relativity* 6 (1): 1. [https://doi.org/10.12942/lrr-2003-1][research_ashby_2003]
+- Barnett, Michael, Heather Wagner, Anne Gatling, Janice Anderson, Meredith Houle, and Alan Kafka. 2006. "The Impact of Science Fiction Film on Student Understanding of Science." *Journal of Science Education and Technology* 15 (2): 179–91. [https://doi.org/10.1007/s10956-006-9001-y][research_barnett_et_al_2006]
+- Bohr, N. 1913. "On the Constitution of Atoms and Molecules." *London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science* 26 (151): 1–25. [https://doi.org/10.1080/14786441308634955][research_bohr_1913]
+- Kane, Stephen R. 2017. "Worlds without Moons: Exomoon Constraints for Compact Planetary Systems." *Astrophysical Journal Letters* 839 (2): L19. [https://doi.org/10.3847/2041-8213/aa6bf2][research_kane_2017]
+- Li, Wenhao, Zhaohui Liu, You Mu, Rui Yang, and Xing Zhang. 2017. "Modeling and Research of a Space-Based Spacecraft Infrared Detection System." *Applied Optics* 56 (9): 2428. [https://doi.org/10.1364/ao.56.002428][research_li_et_al_2017]
+- Lofgren, Eric T., and Nina H. Fefferman. 2007. "The Untapped Potential of Virtual Game Worlds to Shed Light on Real World Epidemics." *Lancet Infectious Diseases* 7 (9): 625–29. [https://doi.org/10.1016/s1473-3099(07)70212-8][research_lofgren_fefferman_2007]
+- Monniaux, David. 2008. "The Pitfalls of Verifying Floating-Point Computations." *ACM Transactions on Programming Languages and Systems* 30 (3): 1–41. [https://doi.org/10.1145/1353445.1353446][research_monniaux_2008]
+- Park, Ryan S., William M. Folkner, James G. Williams, and Dale H. Boggs. 2021. "The JPL Planetary and Lunar Ephemerides DE440 and DE441." *Astronomical Journal* 161 (3): 105. [https://doi.org/10.3847/1538-3881/abd414][research_park_et_al_2021]
+- Tanikawa, Ataru, Kohji Yoshikawa, Keigo Nitadori, and Takashi Okamoto. 2013. "Phantom-GRAPE: Numerical Software Library to Accelerate Collisionless N-Body Simulation with SIMD Instruction Set on x86 Architecture." *New Astronomy* 19: 74–88. [https://doi.org/10.1016/j.newast.2012.08.009][research_tanikawa_et_al_2013]
+- Whipple, F. L. 1947. "Meteorites and Space Travel." *Astronomical Journal* 52: 131. [https://doi.org/10.1086/106009][research_whipple_1947]
+- Wisdom, Jack, and Matthew Holman. 1991. "Symplectic Maps for the n-Body Problem." *Astronomical Journal* 102: 1528. [https://doi.org/10.1086/115978][research_wisdom_holman_1991]
+- Xanthopoulou, Despoina, and Savvas Papagiannidis. 2012. "Play Online, Work Better? Examining the Spillover of Active Learning and Transformational Leadership." *Technological Forecasting and Social Change* 79 (7): 1328–39. [https://doi.org/10.1016/j.techfore.2012.03.006][research_xanthopoulou_papagiannidis_2012]
+- Yoshida, Haruo. 1990. "Construction of Higher Order Symplectic Integrators." *Physics Letters A* 150 (5–7): 262–68. [https://doi.org/10.1016/0375-9601(90)90092-3][research_yoshida_1990]
+
+### Primary Sources, Non-Peer-Reviewed
+
+- Abramson, H. Norman. 1966. *The Dynamic Behavior of Liquids in Moving Containers, with Applications to Space Vehicle Technology*. NASA-SP-106. NASA. [https://ntrs.nasa.gov/citations/19670006555][research_abramson_1966]
+- Allen, H. Julian, and A. J. Eggers Jr. 1958. *A Study of the Motion and Aerodynamic Heating of Ballistic Missiles Entering the Earth's Atmosphere at High Supersonic Speeds*. NACA-TR-1381. NASA. [https://ntrs.nasa.gov/citations/19930091020][research_allen_eggers_1958]
+- Armstrong, J. Scott. 2001. "Role Playing: A Method to Forecast Decisions." In *Principles of Forecasting*. Springer US. [https://doi.org/10.1007/978-0-306-47630-3\_2][research_armstrong_2001]
+- Berry, Matthew M., and Vincent T. Coppola. 2007. *Correct Modeling of the Indirect Term for Third-Body Perturbations*. AAS 07-417. Analytical Graphics, Inc. [https://www.agi.com/getmedia/eff08466-52ad-4483-958a-2e3ceb922eab/Correct-Modeling-of-the-Indirect-Term-for-Third-Body-Perturbations.pdf][research_berry_coppola_2007]
+- Blevins, D. R., and C. W. Hohmann. 1975. "Description of the Space Shuttle Reaction Control System." In *Society of Automotive Engineers*. [https://ntrs.nasa.gov/citations/19750061613][agency_nasa_shuttle_rcs_1975]
+- Carroll, John M., and Caroline Carrithers. 1984. "Training Wheels in a User Interface." *Communications of the ACM* 27 (8): 800–806. [https://doi.org/10.1145/358198.358218][research_carroll_carrithers_1984]
+- Castronova, Edward, Dmitri Williams, Cuihua Shen, et al. 2009. "As Real as Real? Macroeconomic Behavior in a Large-Scale Virtual World." *New Media & Society* 11 (5): 685–707. [https://doi.org/10.1177/1461444809105346][research_castronova_et_al_2009]
+- CCP. n.d.-b. "EVE Swagger Interface Overview." developers.eveonline.com. Accessed November 13, 2026. [https://developers.eveonline.com/docs/services/esi/overview/][dev_ccp_esi_overview]
+- CCP. n.d.-c. "Tritanium Item Record." esi.evetech.net. Accessed November 13, 2026. [https://esi.evetech.net/latest/universe/types/34/?datasource=tranquility&language=en][dev_ccp_esi_tritanium]
+- Clement, John. 1982. "Students’ Preconceptions in Introductory Mechanics." *American Journal of Physics* 50 (1): 66–71. [https://doi.org/10.1119/1.12989][research_clement_1982]
+- Curtis, Howard D. 2020. "Interplanetary Trajectories." In *Orbital Mechanics for Engineering Students*. Elsevier. [https://doi.org/10.1016/b978-0-08-102133-0.00008-8][book_curtis_2020_interplanetary]
+- "DarkMultiPlayer." n.d. GitHub. Accessed November 13, 2026. [https://github.com/godarklight/DarkMultiPlayer][dev_dark_multiplayer]
+- "Earth Fact Sheet." n.d. Accessed November 13, 2026. [https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html][agency_nasa_earth_fact_sheet]
+- Garcia-Llama, Eduardo. 2007. "Analytic Guidance for the First Entry in a Skip Atmospheric Entry." In *American Inst. of Aeronautics and Astronautics*. [https://ntrs.nasa.gov/citations/20070025087][agency_nasa_garcia_llama_2007]
+- Glasstone, Samuel. 1964. *The Effects of Nuclear Weapons*. Office of Scientific and Technical Information (OSTI). [https://doi.org/10.2172/972902][book_glasstone_1964]
+- Green, Kesten C., and J. Scott Armstrong. 2007. "The Ombudsman: Value of Expertise for Forecasting Decisions in Conflicts." *Interfaces* 37 (3): 287–99. [https://doi.org/10.1287/inte.1060.0262][research_green_armstrong_2007]
+- Hairer, Ernst, Christian Lubich, and Gerhard Wanner. 2003. "Geometric Numerical Integration Illustrated by the Störmer–Verlet Method." *Acta Numerica* 12: 399–450. [https://doi.org/10.1017/s0962492902000144][research_hairer_et_al_2003]
+- Hairer, Ernst, and Gustaf Söderlind. 2005. "Explicit, Time Reversible, Adaptive Step Size Control." *SIAM Journal on Scientific Computing* 26 (6): 1838–51. [https://doi.org/10.1137/040606995][research_hairer_soderlind_2005]
+- Hughes, Steve. 2007. *General Mission Analysis Tool (GMAT) Mathematical Specifications*. NASA Goddard Space Flight Center. [https://ntrs.nasa.gov/citations/20080031744][agency_nasa_gmat_2007]
+- Johnson, Richard D., and Charles Holbrow. 1977. *Space Settlements: A Design Study*. NASA-SP-413. NASA. [https://ntrs.nasa.gov/citations/19770014162][agency_nasa_sp413_1977]
+- "Jupiter Fact Sheet." n.d. Accessed November 13, 2026. [https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html][agency_nasa_jupiter_fact_sheet]
+- Landon, Lauren B., John A. Karasinski, Linda G. Morissette, et al. 2025. *Assessment of the State of Communication Delay Research in Preparation for Missions beyond Low Earth Orbit*. NASA/TM-20250003885. NASA. [https://ntrs.nasa.gov/citations/20250003885][agency_nasa_tm_2025_mars_comms]
+- Levin, Samuel R., Thomas W. Scott, Helen S. Cooper, and Stuart A. West. 2017. "Darwin's Aliens." *International Journal of Astrobiology* 18 (1): 1–9. [https://doi.org/10.1017/s1473550417000362][research_levin_et_al_2017]
+- Liles, Kaitlin, and Ruth Amundsen. 2023. *NASA Passive Thermal Control Engineering Guidebook*. Langley Research Center. [https://ntrs.nasa.gov/citations/20230013900][agency_nasa_thermal_guidebook_2023]
+- Lisk, Timothy C., Ugur T. Kaplancali, and Ronald E. Riggio. 2011. "Leadership in Multiplayer Online Gaming Environments." *Simulation & Gaming* 43 (1): 133–49. [https://doi.org/10.1177/1046878110391975][research_lisk_et_al_2011]
+- "Luna Multiplayer." n.d. github.com. Accessed November 13, 2026. [https://github.com/LunaMultiplayer/LunaMultiplayer/wiki][dev_luna_multiplayer]
+- McDermott, Lillian C., and Edward F. Redish. 1999. "Resource Letter: PER-1: Physics Education Research." *American Journal of Physics* 67 (9): 755–67. [https://doi.org/10.1119/1.19122][research_mcdermott_redish_1999]
+- McKagan, S. B., K. K. Perkins, and C. E. Wieman. 2008. "Why We Should Teach the Bohr Model and How to Teach It Effectively." *Physical Review Special Topics - Physics Education Research* 4 (1): 010103. [https://doi.org/10.1103/physrevstper.4.010103][research_mckagan_et_al_2008]
+- "Moon Fact Sheet." n.d. Accessed November 13, 2026. [https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html][agency_nasa_moon_fact_sheet]
+- "On the Dynamical Stability of Principia's Modified Jool System." n.d. GitHub. Accessed November 13, 2026. [https://github.com/mockingbirdnest/Principia/wiki/On-the-dynamical-stability-of-Principia's-modified-Jool-system][dev_principia_jool]
+- Orthia, Lindy. 2019. "How Does Science Fiction Television Shape Fans' Relationships to Science? Results from a Survey of 575 ‘Doctor Who’ Viewers." *Journal of Science Communication* 18 (04): A08. [https://doi.org/10.22323/2.18040208][research_orthia_2019]
+- Perla, Peter P., and Ed McGrady. 2011. "Why Wargaming Works." *Naval War College Review*. [https://digital-commons.usnwc.edu/nwc-review/vol64/iss3/8/][research_perla_mcgrady_2011]
+- "Principia." n.d. GitHub. Accessed November 13, 2026. [https://github.com/mockingbirdnest/Principia][dev_principia]
+- "Real Solar System." n.d. GitHub. Accessed November 13, 2026. [https://github.com/KSP-RO/RealSolarSystem][dev_real_solar_system]
+- "Realism Overhaul." n.d. github.com. Accessed November 13, 2026. [https://github.com/KSP-RO/RealismOverhaul][dev_realism_overhaul]
+- Rubel, Robert C. 2006. "The Epistemology of War Gaming." *Naval War College Review* 59 (2). [https://digital-commons.usnwc.edu/nwc-review/vol59/iss2/8][research_rubel_2006]
+- Shapiro, I. I. 1978. "Down to Earth Relativity." In *Proceedings of the Tenth Annual Precise Time and Time Interval (PTTI) Applications and Planning Meeting*. [https://ntrs.nasa.gov/citations/19790016582][agency_nasa_shapiro_1979]
+- Stoneking, Eric. 2007. "Newton-Euler Dynamic Equations of Motion for a Multi-Body Spacecraft." In *AIAA Guidance, Navigation and Control Conference*. [https://ntrs.nasa.gov/citations/20080044854][agency_nasa_stoneking_2007]
+- "Sun Fact Sheet." n.d. Accessed November 13, 2026. [https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html][agency_nasa_sun_fact_sheet]
+- Sutton, K., and R. A. Graves Jr. 1971. *A General Stagnation-Point Convective Heating Equation for Arbitrary Gas Mixtures*. NASA-TR-R-376. NASA. [https://ntrs.nasa.gov/citations/19720003329][research_sutton_graves_1971]
+- U.S. Joint Forces Command. n.d. *Millennium Challenge 2002: Experiment Report*. [https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Joint\_Staff/12-F-0344-Millennium-Challenge-2002-Experiment-Report.pdf][ref_jfcom_mc02]
+- UK Ministry of Defence. 2017. *Wargaming Handbook*. Development, Concepts and Doctrine Centre. [https://www.gov.uk/government/publications/defence-wargaming-handbook][ref_uk_mod_wargaming_2017]
+- "Useful Formulae." n.d. EVE: Developers. Accessed November 13, 2026. [https://developers.eveonline.com/docs/guides/useful-formulae/][dev_ccp_useful_formulae]
+- Washington Employment Security Department. n.d. "WARN Notices." Accessed November 13, 2026. [https://fortress.wa.gov/esd/file/WARN/Public/SearchWARN.aspx][ref_wa_esd_warn]
+- Westover, Shayne C., Rainer Meinke, Shaun Nerolich, et al. 2019. *Magnet Architectures and Active Radiation Shielding Study (MAARSS)*. HQ-E-DAA-TN65001. NASA Johnson Space Center. [https://ntrs.nasa.gov/citations/20190002579][agency_nasa_maarss_2019]
+- Williams, Dmitri. 2010. "The Mapping Principle, and a Research Framework for Virtual Worlds." *Communication Theory* 20 (4): 451–70. [https://doi.org/10.1111/j.1468-2885.2010.01371.x][research_williams_2010]
+- Winternitz, Luke. 2017. "Introduction to GPS and Other Global Navigation Satellite Systems." In *Annual Time and Frequency Metrology Seminar*. [https://ntrs.nasa.gov/citations/20170004590][agency_nasa_winternitz_2017]
+
+### Secondary Sources
+
+- Battin, Richard H. 1999. *An Introduction to the Mathematics and Methods of Astrodynamics, Revised Edition*. American Institute of Aeronautics and Astronautics, Inc. [https://doi.org/10.2514/4.861543][book_battin_1999]
+- Caffrey, Matthew B., Jr. 2019. *On Wargaming*. Newport Paper 43. Naval War College Press. [https://digital-commons.usnwc.edu/newport-papers/43/][book_caffrey_2019]
+- Conway Morris, Simon. 2003. *Life's Solution: Inevitable Humans in a Lonely Universe*. Cambridge University Press. [https://doi.org/10.1017/cbo9780511535499][book_conway_morris_2003]
+- Friedman, Norman. 2017. *Winning a Future War: War Gaming and Victory in the Pacific War*. Naval History and Heritage Command. [https://www.history.navy.mil/research/publications/publications-by-subject/winning-a-future-war.html][book_friedman_2017]
+- Hawking, Stephen, and Lucy Hawking. 2007. *George's Secret Key to the Universe*. Simon & Schuster Children's Publishing. [https://openlibrary.org/books/OL9523149M][book_hawking_hawking_2007]
+- Herman, Mark, Mark Frost, and Robert Kurz. 2009. *Wargaming for Leaders: Strategic Decision Making from the Battlefield to the Boardroom*. McGraw-Hill. [https://openlibrary.org/isbn/9780071596886][book_herman_et_al_2009]
+- Whitfield, Stephen E., and Gene Roddenberry. 1968. *The Making of Star Trek*. Ballantine Books. [https://archive.org/details/makingofstartrek00whit][book_whitfield_roddenberry_1968]
+
+### Commercial Sources
+
+- "7.0 Thermal Control." n.d. Accessed November 13, 2026. [https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/][agency_nasa_smallsat_thermal]
+- "Active Thermal Control System (ATCS) Overview." n.d. Accessed November 13, 2026. [https://www.nasa.gov/wp-content/uploads/2021/02/473486main\_iss\_atcs\_overview.pdf][agency_nasa_iss_atcs]
+- "Anatomy of an Electromagnetic Wave." 2016. NASA Science, August 10. [https://science.nasa.gov/ems/02\_anatomy/][agency_nasa_em_anatomy]
+- "Black Holes." 2024. NASA Science, March 13. [https://science.nasa.gov/universe/black-holes/][agency_nasa_black_holes]
+- "Can a Laser Beam Be Seen from the Side?" n.d. Accessed November 13, 2026. [https://www.edmundoptics.com/knowledge-center/frequently-asked-questions/general-questions/lasers/can-a-laser-beam-be-seen-from-the-side][ref_edmund_laser]
+- CCP. n.d.-a. "Capsuleers." Accessed November 13, 2026. [https://universe.eveonline.com/lore/capsuleers][dev_ccp_capsuleers]
+- CCP. 2003. "Highly Anticipated Massively Multiplayer Online Game." EVE Community. [https://community.eveonline.com/news/news-channels/press-releases/highly-anticipated-massively-multiplayer-online-game-1][dev_ccp_launch_2003]
+- CCP. 2006. "A Deal Is a Deal..." EVE Online, August 14. [https://www.eveonline.com/news/view/a-deal-is-a-deal...][dev_ccp_faucets_2006]
+- CCP. 2007a. "Econ Dev Blog No. 3: Some Statistics on Corporations." EVE Online, December 1. [https://www.eveonline.com/news/view/econ-dev-blog-no.-3-some-statistics-on-corporations][dev_ccp_corporations_2007]
+- CCP. 2007b. "EVE Online Appoints in-World Economist." EVE Community. [https://community.eveonline.com/news/news-channels/press-releases/eve-online-appoints-in-world-economist-1][dev_ccp_economist_2007]
+- CCP. 2008. "I Can Resist Anything but Temptation." EVE Online, November 3. [https://www.eveonline.com/news/view/i-can-resist-anything-but-temptation][dev_ccp_plex_2008]
+- CCP. 2009a. "I Bring Gifts! (By Gifts I Mean Taxes, Sorry)." EVE Online, September 21. [https://www.eveonline.com/news/view/i-bring-gifts-by-gifts-i-mean-taxes-sorry][dev_ccp_taxes_2009]
+- CCP. 2009b. "The Way of the PLEX." EVE Online, August 11. [https://www.eveonline.com/news/view/the-way-of-the-plex][dev_ccp_plex_2009]
+- CCP. 2010. "Fixing Lag: Character Nodes." EVE Online, August 28. [https://www.eveonline.com/news/view/fixing-lag-character-nodes][dev_ccp_character_nodes_2010]
+- CCP. 2012a. "Price Indices, February 2012." EVE Online, March 16. [https://www.eveonline.com/news/view/price-indices-february-2012][dev_ccp_price_indices_2012]
+- CCP. 2012b. "Tech Is Fine, L2P." EVE Online, July 19. [https://www.eveonline.com/news/view/tech-is-fine-l2p][dev_ccp_technetium_2012]
+- CCP. 2013a. "Community Spotlight: Red Frog Freight." EVE Online, June 21. [https://www.eveonline.com/news/view/community-spotlight-red-frog-freight][dev_ccp_red_frog_2013]
+- CCP. 2013b. "EVE Online Surpasses 500,000 Subscribers Worldwide." EVE Community. [https://community.eveonline.com/news/news-channels/press-releases/eve-online-surpasses-500-000-subscribers-worldwide][dev_ccp_subscribers_2013]
+- CCP. 2013c. "Warp Drive Active." EVE Online, November 15. [https://www.eveonline.com/news/view/warp-drive-active][dev_ccp_warp_2013]
+- CCP. 2014a. "The Bloodbath of B-R5RB, Gaming’s Most Destructive Battle Ever." EVE Online, February 1. [https://www.eveonline.com/news/view/the-bloodbath-of-b-r5rb][dev_ccp_b_r5rb_2014]
+- CCP. 2014b. "EVE Industry: All You Want to Know." EVE Online, July 17. [https://www.eveonline.com/news/view/eve-industry-all-you-want-to-know][dev_ccp_industry_2014]
+- CCP. 2014c. "HED-GP Technical Retrospective: What a HED-Ache." EVE Online, January 24. [https://www.eveonline.com/news/view/what-a-hed-ache][dev_ccp_hed_gp_2014]
+- CCP. 2015a. "EVE Economy Update: EVE Vegas 2015 Report." EVE Online, November 5. [https://www.eveonline.com/news/view/eve-economy-update-eve-vegas-2015-report][dev_ccp_economy_vegas_2015]
+- CCP. 2015b. "Summer 2015 Nullsec and Sov Status Report." EVE Online, May 7. [https://www.eveonline.com/news/view/summer-2015-nullsec-and-sov-status-report][dev_ccp_sov_status_2015]
+- CCP. 2016. "Overlays, ISK Buyer Amnesty and Account Security." EVE Online, February 24. [https://www.eveonline.com/news/view/overlays-isk-buyer-amnesty-and-account-security][dev_ccp_rmt_2016]
+- CCP. 2017. "PLEX Changes on the Way!" EVE Online, March 16. [https://www.eveonline.com/news/view/plex-changes-on-the-way][dev_ccp_plex_2017]
+- CCP. 2019. "Updates to Sales Taxes & Brokers Fees." EVE Online, July 29. [https://www.eveonline.com/news/view/updates-to-sales-taxes-and-brokers-fees][dev_ccp_taxes_2019]
+- CCP. 2020. "Broker Relations." EVE Online, February 24. [https://www.eveonline.com/news/view/broker-relations][dev_ccp_broker_relations_2020]
+- CCP. 2022. "Team Security: 2021 in Review." EVE Online, July 12. [https://www.eveonline.com/news/view/team-security-2021-in-review][dev_ccp_security_2021]
+- CCP. 2023. "Viridian: Expansion Notes." EVE Online, June 9. [https://www.eveonline.com/news/view/viridian-expansion-notes][dev_ccp_viridian_2023]
+- CCP. 2025. "Patch Notes: Version 22.02." EVE Online, May 15. [https://www.eveonline.com/news/view/patch-notes-version-22-02][dev_ccp_patch_22_02_2025]
+- CCP. 2026. "Monthly Economic Report: August 2026." EVE Online, September 9. [https://www.eveonline.com/news/view/monthly-economic-report-august-2026][dev_ccp_mer_2026]
+- "Children of a Dead Earth on Steam." n.d. Accessed November 13, 2026. [https://store.steampowered.com/app/476530/][dev_code_steam]
+- Cloud Imperium. 2020. "Cloud Imperium Financials for 2020." [https://cloudimperiumgames.com/blog/corporate/cloud-imperium-financials-for-2020][dev_cig_financials_2020]
+- Cloud Imperium. 2021. "Cloud Imperium Financials for 2021." [https://cloudimperiumgames.com/blog/corporate/cloud-imperium-financials-for-2021][dev_cig_financials_2021]
+- Cloud Imperium. 2022. "Cloud Imperium Financials for 2022." [https://cloudimperiumgames.com/blog/corporate/cloud-imperium-financials-for-2022][dev_cig_financials_2022]
+- Cloud Imperium. 2023. "Cloud Imperium Financials for 2023." [https://cloudimperiumgames.com/blog/corporate/cloud-imperium-financials-for-2023][dev_cig_financials_2023]
+- Cloud Imperium. 2024. "CFO Comment on the 2024 Accounting." [https://cloudimperiumgames.com/blog/corporate/cfo-comment-on-the-2024-accounting][dev_cig_financials_2024]
+- "Drag Equation." n.d. Glenn Research Center \| NASA. Accessed November 13, 2026. [https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/][agency_nasa_drag_equation]
+- ESA. 2020. "Geostationary Orbit." [https://www.esa.int/ESA\_Multimedia/Images/2020/03/Geostationary\_orbit][agency_esa_geo_2020]
+- FAI. 2018. "Statement about the Karman Line." [https://www-2025.fai.org/news/statement-about-karman-line][ref_fai_karman_2018]
+- "FAQ." 2018. Dawn, NASA Science, October 18. [https://science.nasa.gov/mission/dawn/faq/][agency_nasa_dawn_faq]
+- "Flight to Orbit." n.d. Glenn Research Center \| NASA. Accessed November 13, 2026. [https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/flight-to-orbit/][agency_nasa_flight_to_orbit]
+- JPL. 2020. "JPL Planetary and Lunar Ephemerides." [https://ssd.jpl.nasa.gov/planets/eph\_export.html][agency_jpl_ephemerides_2020]
+- "Kerbal Space Program 2 on Steam." n.d. Accessed November 13, 2026. [https://store.steampowered.com/app/954850/][dev_ksp2_steam]
+- "Kerbal Space Program on Steam." n.d. Accessed November 13, 2026. [https://store.steampowered.com/app/220200/][dev_ksp_steam]
+- Launius, Roger D., and Dennis R. Jenkins. 2012. "Coming Home: Reentry and Recovery from Space." [https://www.nasa.gov/wp-content/uploads/2015/04/695726main\_cominghome-ebook.pdf][agency_nasa_coming_home]
+- Mesarch, Michael. 2018. "GDC Orbit Primer." [https://science.nasa.gov/wp-content/uploads/2023/05/GDC\_OrbitPrimer.pdf][agency_nasa_orbit_primer_2018]
+- NASA. n.d.-a. "Chapter 15: Cruise." Basics of Space Flight. Accessed November 13, 2026. [https://science.nasa.gov/learn/basics-of-space-flight/chapter15-1/][agency_nasa_bsf_cruise]
+- NASA. n.d.-b. "Chapter 4: Trajectories." Basics of Space Flight. Accessed November 13, 2026. [https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/][agency_nasa_bsf_trajectories]
+- NASA. 2001. "Staying Cool on the ISS." [https://web.archive.org/web/20191215040200/https://science.nasa.gov/science-news/science-at-nasa/2001/ast21mar\_1][agency_nasa_staying_cool_2001]
+- NASA. 2012. "What Is Microgravity?" [https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-5-8/][agency_nasa_microgravity]
+- NASA. 2016. "Gamers Tackle Virtual Asteroid Sampling Mission." NASA, June 13. [https://www.nasa.gov/centers-and-facilities/goddard/gamers-tackle-virtual-asteroid-sampling-mission/][agency_nasa_gamers_osiris_2016]
+- NASA. 2017. "Why Do We Really Need Pressure Suits?" [https://www.nasa.gov/wp-content/uploads/2023/05/dressing-for-altitude-nov-2017.pdf][agency_nasa_pressure_suits_2017]
+- NASA. 2019. "Payload Operations Integration Center." [https://www.nasa.gov/wp-content/uploads/2021/03/payload\_ops\_fact\_sheet\_190604a.pdf][agency_nasa_payload_ops_2019]
+- NASA. 2020. "Space Communications: 7 Things You Need to Know." NASA, October 6. [https://www.nasa.gov/missions/tech-demonstration/space-communications-7-things-you-need-to-know/][agency_nasa_space_comms_2020]
+- NASA. 2021. "NASA Laser Communications Innovations: A Timeline." NASA, May 26. [https://www.nasa.gov/centers-and-facilities/goddard/nasa-laser-communications-innovations-a-timeline/][agency_nasa_laser_comm_timeline_2021]
+- NASA. 2024. "55 Years Ago: Star Trek Final Episode Airs, Relationship with NASA Endures." NASA, June 4. [https://www.nasa.gov/history/55-years-ago-star-trek-final-episode-airs-relationship-with-nasa-endures/][agency_nasa_star_trek_55_2024]
+- NASA. 2025. "RS-25 Core Stage Engine." [https://www.nasa.gov/wp-content/uploads/2025/04/sls-4963-sls-rs-25-engine-fact-sheet-508.pdf][agency_nasa_rs25_2025]
+- "Newton’s Laws of Motion." n.d. Glenn Research Center \| NASA. Accessed November 13, 2026. [https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/][agency_nasa_newton]
+- Nielsen, Jakob. 2006. "Progressive Disclosure." Nielsen Norman Group. [https://www.nngroup.com/articles/progressive-disclosure/][ref_nielsen_2006]
+- "Orbit." 2022. James Webb Space Telescope, NASA Science, June 1. [https://science.nasa.gov/mission/webb/orbit/][agency_nasa_webb_orbit]
+- Q-Switched. 2016a. "Burn Rockets Burn." Children of a Dead Earth. [https://childrenofadeadearth.wordpress.com/2016/05/02/burn-rockets-burn/][dev_code_rockets_2016]
+- Q-Switched. 2016b. "The Essence of Space Warfare." Children of a Dead Earth. [https://childrenofadeadearth.wordpress.com/2016/04/20/the-essence-of-space-warfare/][dev_code_essence_2016]
+- Q-Switched. 2016c. "Fun with Orbital Mechanics." Children of a Dead Earth, May 17. [https://childrenofadeadearth.wordpress.com/2016/05/17/fun-with-orbital-mechanics/][dev_code_orbital_2016]
+- Q-Switched. 2016d. "How Realistic Is It Actually?" Children of a Dead Earth. [https://childrenofadeadearth.wordpress.com/2016/04/15/how-realistic-is-it-actually/][dev_code_realistic_2016]
+- Q-Switched. 2016e. "The Photon Lance." Children of a Dead Earth, July 2. [https://childrenofadeadearth.wordpress.com/2016/07/02/the-photon-lance/][dev_code_photon_lance_2016]
+- Q-Switched. 2016f. "Raw Steel." Children of a Dead Earth, August 4. [https://childrenofadeadearth.wordpress.com/2016/08/04/raw-steel/][dev_code_raw_steel_2016]
+- Q-Switched. 2016g. "Slosh Baffles." Children of a Dead Earth, May 24. [https://childrenofadeadearth.wordpress.com/2016/05/24/slosh-baffles/][dev_code_slosh_2016]
+- Q-Switched. 2016h. "Space Guns." Children of a Dead Earth, June 14. [https://childrenofadeadearth.wordpress.com/2016/06/14/space-guns/][dev_code_space_guns_2016]
+- Q-Switched. 2016i. "Stealth in Space." Children of a Dead Earth, July 12. [https://childrenofadeadearth.wordpress.com/2016/07/12/stealth-in-space/][dev_code_stealth_2016]
+- Riebeek, Holli. 2009. "Catalog of Earth Satellite Orbits." [https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/][agency_nasa_orbit_catalog_2009]
+- Roberts, Chris. 2018. "Letter from the Chairman." [https://robertsspaceindustries.com/en/comm-link/transmission/16700-Letter-From-The-Chairman][dev_rsi_letter_2018]
+- Roberts, Chris. 2020. "Letter from the Chairman." Roberts Space Industries. [https://robertsspaceindustries.com/en/comm-link/transmission/17805-Letter-From-The-Chairman][dev_rsi_letter_2020]
+- "Rocket Principles." n.d. Accessed November 13, 2026. [https://www.grc.nasa.gov/www/k-12/rocket/TRCRocket/rocket\_principles.html][agency_nasa_rocket_principles]
+- RSI. n.d.-a. "Crowdfund Statistics." Accessed November 13, 2026. [https://robertsspaceindustries.com/en/funding-goals][dev_rsi_crowdfund_stats]
+- RSI. n.d.-b. "Star Citizen Alpha 4.0." Accessed November 13, 2026. [https://robertsspaceindustries.com/en/comm-link/Patch-Notes/20360-Star-Citizen-Alpha-40][dev_rsi_alpha_40]
+- RSI. 2014a. "Into the Unknown: A Carrack & Her Crew." Roberts Space Industries. [https://robertsspaceindustries.com/en/comm-link/transmission/14323-Into-The-Unknown-A-Carrack-Her-Crew][dev_rsi_carrack_2014]
+- RSI. 2014b. "Lore Builder Twenty: Journeys & Generators." Roberts Space Industries. [https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/14262-LORE-BUILDER-TWENTY-Journeys-Generators][dev_rsi_lore_gravity_2014]
+- RSI. 2017a. "Star Citizen Alpha 3.0.0." Roberts Space Industries. [https://robertsspaceindustries.com/en/comm-link/transmission/16348-Star-Citizen-Alpha-300][dev_rsi_alpha_300_2017]
+- RSI. 2017b. "Star Citizen Alpha 3.0.0 Patch Notes." [https://robertsspaceindustries.com/en/comm-link/transmission/16349-Star-Citizen-Alpha-300][dev_rsi_patch_300_2017]
+- RSI. 2018a. "The Shipyard: Fuel Mechanics." [https://robertsspaceindustries.com/en/comm-link/engineering/16517-The-Shipyard-Fuel-Mechanics][dev_rsi_fuel_2018]
+- RSI. 2018b. "Star Citizen Alpha 3.2.0 Patch Notes." [https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-2-0-live-796019-patch-notes][dev_rsi_patch_320_2018]
+- RSI. 2018c. "Star Citizen Alpha 3.4.0 Patch Notes." [https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-4-0-live-1028053-patch-notes][dev_rsi_patch_340_2018]
+- RSI. 2020. "Flight & Fight: Upcoming Improvements." [https://robertsspaceindustries.com/en/comm-link/transmission/17647-Flight-Fight-Upcoming-Improvements][dev_rsi_flight_2020]
+- RSI. 2021. "Deadly Consequences: Alpha 3.15." [https://robertsspaceindustries.com/en/comm-link/transmission/18338-Deadly-Consequences-Alpha-315][dev_rsi_alpha_315_2021]
+- RSI. 2025. "Star Citizen Alpha 4.5.0." Roberts Space Industries. [https://robertsspaceindustries.com/en/comm-link/Patch-Notes/20934-Star-Citizen-Alpha-450][dev_rsi_patch_450_2025]
+- RSI. 2026. "Terms of Service." [https://robertsspaceindustries.com/tos][dev_rsi_tos_2026]
+- "Shield Development: Basic Concepts." n.d. Hypervelocity Impact Technology, NASA Johnson Space Center. Accessed November 13, 2026. [https://hvit.jsc.nasa.gov/shield-development/][agency_nasa_whipple]
+- "Specific Impulse." n.d. Glenn Research Center \| NASA. Accessed November 13, 2026. [https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/specific-impulse/][agency_nasa_specific_impulse]
+- Squad. 2011. "First Release Is Up." [https://web.archive.org/web/20111013113946/http://kerbalspace.tumblr.com/post/6872084213/first-release-is-up][dev_squad_first_release_2011]
+- Squad. 2014. "KSP: Asteroid Redirect Mission Is Officially Released." Steam Community, April 1. [https://steamcommunity.com/games/220200/announcements/detail/1315356550594321621][dev_squad_arm_2014]
+- "Star Citizen Roadmap." n.d. RSI Roadmap. Accessed November 13, 2026. [https://robertsspaceindustries.com/roadmap/release-view][dev_rsi_roadmap]
+- Stysley. 2011. "Laser-Based Optical Trap for Remote Sampling." [https://www.nasa.gov/wp-content/uploads/2017/07/niac\_2011\_phasei\_stysley\_laserbasedopticaltrap\_tagged.pdf][agency_nasa_niac_stysley_2011]
+- Take-Two. 2017. "Take-Two Acquires Kerbal Space Program." [https://ir.take2games.com/static-files/f86fae80-882c-4c68-b71c-07560c4b1183][dev_take_two_ksp_2017]
+- Take-Two. 2023. "Kerbal Space Program 2 Launches in Early Access." [https://ir.take2games.com/node/29461/pdf][dev_take_two_ksp2_2023]
+- "“The Last Starfighter (Preview)” by Digital Productions." n.d. Accessed November 13, 2026. [https://history.siggraph.org/?p=94037][ref_siggraph_last_starfighter]
+
+### General Sources
+
+- Bettner, Paul, and Mark Terrano. 2001. "1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond." *Game Developer*. [https://www.gamedeveloper.com/programming/1500-archers-on-a-28-8-network-programming-in-age-of-empires-and-beyond][dev_bettner_terrano_2001]
+- Big Think. 2015. "A Universe in a Nutshell: The Physics of Everything, with Michio Kaku." *Big Think*. [https://bigthink.com/videos/universe-in-a-nutshell-the-physics-of-everything-with-michio-kaku/][news_big_think_kaku_2015]
+- Borger, Julian. 2002. "Wake-up Call." *The Guardian*, September 6. [https://www.theguardian.com/world/2002/sep/06/usa.iraq][news_guardian_mc02_2002]
+- Brynen, Rex. 2010. "Review: Wargaming for Leaders." *PAXsims*, November 19. [https://paxsims.wordpress.com/2010/11/19/review-wargaming-for-leaders/][ref_brynen_2010]
+- Chalk, Andy. 2024. "Kerbal Space Program 2 Developer Intercept Games and Rollerdrome Studio Roll7 Are Reportedly Closing as Part of Take-Two's Big Layoff Plan." *PC Gamer*, May 1. [https://www.pcgamer.com/games/sim/kerbal-space-program-2-developer-intercept-games-may-be-closing-as-part-of-take-twos-big-layoff-plan/][news_pcgamer_intercept_2024]
+- Drain, Brendan. 2013. "EVE Online Smashes PCU Record During Anniversary Celebrations." *Engadget*. [https://www.engadget.com/2013-05-06-eve-online-smashes-pcu-record-during-anniversary-celebrations.html][news_engadget_pcu_2013]
+- Engadget. 2008. "Making/Money: The Origin of the Specie." *Engadget*. [https://www.engadget.com/2008-06-29-making-money-the-origin-of-the-specie.html][news_engadget_tritanium_2008]
+- Engadget. 2009. "New Perspective on EVE Online's Latest Bank Embezzlement." [https://www.engadget.com/2009-07-02-new-perspective-on-eve-onlines-latest-bank-embezzlement.html][news_engadget_ebank_2009]
+- Engadget. 2014. "EVE Fanfest 2014: Economy Talk Highlights PLEX Prices and Reveals Titan Production Statistics." *Engadget*, May 2. [https://www.engadget.com/2014-05-01-eve-fanfest-2014-economy-talk-highlights-plex-prices-and-reveal.html][news_engadget_plex_2014]
+- EVE University. n.d.-a. "Acceleration." Accessed November 13, 2026. [https://wiki.eveuniversity.org/Acceleration][community_eve_uni_acceleration]
+- EVE University. n.d.-b. "Capacitor." Accessed November 13, 2026. [https://wiki.eveuniversity.org/Capacitor][community_eve_uni_capacitor]
+- EVE University. n.d.-c. "Industry." Accessed November 13, 2026. [https://wiki.eveuniversity.org/Industry][community_eve_uni_industry]
+- EVE University. n.d.-d. "Jump Drives." Accessed November 13, 2026. [https://wiki.eveuniversity.org/Jump\_drives][community_eve_uni_jump_drives]
+- EVE University. n.d.-e. "Trading." Accessed November 13, 2026. [https://wiki.eveuniversity.org/Trading][community_eve_uni_trading]
+- EVE University. n.d.-f. "Warp." Accessed November 13, 2026. [https://wiki.eveuniversity.org/Warp][community_eve_uni_warp]
+- Falanghe, Felipe. 2012. "Patched Conics Trajectory from Initial Orbit State." Physics Forums. [https://www.physicsforums.com/threads/patched-conics-trajectory-from-initial-orbit-state.590896/][dev_harvester_patched_conics_2012]
+- GamersNexus. 2016. "Chris Roberts on Character Tech, Weather System, & Engine Architecture." [https://gamersnexus.net/gg/2617-chris-roberts-character-technology-weather-system-engine-arch][news_gamersnexus_roberts_2016]
+- GeekWire. 2024. "Take-Two Interactive Layoffs Hit Seattle Area." [https://www.geekwire.com/2024/take-two-layoffs-hit-seattle-area-70-workers-affected/][news_geekwire_intercept_2024]
+- Gematsu. 2026. "CCP Games Rebrands to Fenris Creations Following Split from Pearl Abyss." *Gematsu*, May 6. [https://www.gematsu.com/2026/05/ccp-games-rebrands-to-fenris-creations-following-split-from-pearl-abyss][news_gematsu_fenris_2026]
+- Gizmodo. 2011. "Read the First Draft of Gene Roddenberry's Star Trek Pitch, Starring 'Captain April' and the 'S.S. Yorktown'." *Gizmodo*, January 29. [https://gizmodo.com/read-the-first-draft-of-gene-roddenberrys-star-trek-pit-5746652][news_gizmodo_trek_pitch_2011]
+- Grayson, Nathan. 2018. "Star Citizen Backer Sues to Get \$4,500 Back, Loses." *Kotaku*, July 17. [https://kotaku.com/star-citizen-backer-sues-to-get-4-500-back-loses-1827666550][news_kotaku_refund_2018]
+- Hattendorf, John B. 2014. "Saving Nimitz's 'Graybook'." *Naval History Magazine*, May 1. [https://www.usni.org/magazines/naval-history-magazine/2014/june/saving-nimitzs-graybook][ref_hattendorf_2014]
+- "Ideal Rocket Equation." n.d. Glenn Research Center \| NASA. Accessed October 25, 2026. [https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ideal-rocket-equation/][agency_nasa_rocket_equation]
+- IEEE Spectrum. 2009. "Eve Online Game Player Embezzles Virtual Money, Creates Real Trouble." *IEEE Spectrum*, June 16. [https://spectrum.ieee.org/eve-online-game-player-embezzles-virtual-money-creates-real-trouble][news_ieee_ebank_2009]
+- "KerbalEdu." 2016. Accessed November 13, 2026. [https://web.archive.org/web/20160104215459/http://www.kerbaledu.com/][dev_kerbaledu_2016]
+- KSP Wiki. n.d.-a. "Kerbin." Accessed November 13, 2026. [https://wiki.kerbalspaceprogram.com/wiki/Kerbin][community_ksp_wiki_kerbin]
+- KSP Wiki. n.d.-b. "Maneuver Node." Accessed November 13, 2026. [https://wiki.kerbalspaceprogram.com/wiki/Maneuver\_node][community_ksp_wiki_maneuver_node]
+- KSP Wiki. n.d.-c. "Multiplayer." Accessed November 13, 2026. [https://wiki.kerbalspaceprogram.com/wiki/Multiplayer][community_ksp_wiki_multiplayer]
+- KSP Wiki. n.d.-d. "Sphere of Influence." Accessed November 13, 2026. [https://wiki.kerbalspaceprogram.com/wiki/Sphere\_of\_influence][community_ksp_wiki_soi]
+- Massively Overpowered. 2016. "Star Citizen Changes Refund Clause for New Backers, Plans Procedurally Generated Planets for 2.7." [https://massivelyop.com/2016/06/21/star-citizen-changes-refund-clause-for-new-backers-plans-procedurally-generated-planets-for-2-7/][news_massively_refund_2016]
+- PC Gamer. 2021. "Star Citizen Adds Disclaimer to Spaceship Preorders after Regulator Says They're Misleading." *PC Gamer*, September 8. [https://www.pcgamer.com/star-citizen-adds-disclaimer-to-spaceship-preorders-after-regulator-says-theyre-misleading/][news_pcgamer_asa_2021]
+- Polygon. 2017. "Star Citizen Backer’s \$25,000 Refund Has Taken Months, Still in Dispute (Update)." *Polygon*, December 14. [https://www.polygon.com/2017/12/13/16767590/star-citizen-refund/][news_polygon_refund_2017]
+- Reuters. 2009. "Gamer Steals Online Loot to Pay Real-World Debts." [https://www.eeworldonline.com/gamer-steals-online-loot-to-pay-real-world-debts/][news_reuters_ebank_2009]
+- Slashdot. 2013. "Interviews: J. Michael Straczynski Answers Your Questions." [https://entertainment.slashdot.org/story/13/04/15/1328251/interviews-j-michael-straczynski-answers-your-questions][news_slashdot_straczynski_2013]
+- Space.com. 2015. "'The Expanse' Authors Talk Space's Epic Size and Crazy Sci-Fi Tech." *Space.com*, December 23. [https://www.space.com/31437-the-expanse-crazy-sci-fi-tech.html][news_space_com_expanse_2015]
+- "Spacecraft Operations." n.d. Traveller SRD. Accessed November 13, 2026. [https://www.traveller-srd.com/core-rules/spacecraft-operations/][ref_traveller_srd]
+- Star Citizen Wiki. n.d. "Planet." Accessed November 13, 2026. [https://starcitizen.tools/Planet][community_sc_tools_planet]
+- "The Star Trek Transcripts: Obsession." n.d. Accessed November 13, 2026. [http://www.chakoteya.net/StarTrek/47.htm][community_trek_obsession_transcript]
+- The Mittani. 2012. "Sins of a Solar Spymaster \#78: The Extortion of Empire." [https://www.tentonhammer.com/columns/sins-of-a-solar-spymaster-78-the-extortion-of-empire][news_ten_ton_hammer_otec_2012]
+- The Register. 2009. "Gamer Embezzles Virtual Cash to Settle Real Debts." *The Register*, July 3. [https://www.theregister.com/security/2009/07/03/gamer-embezzles-virtual-cash-to-settle-real-debts/1491814][news_register_ebank_2009]
+- Yancy, Lee. 2017. "War in EVE Online Is the Best, and Also the Worst." *Kotaku*, August 18. [https://kotaku.com/war-in-eve-online-is-the-best-and-also-the-worst-1797982059][news_kotaku_war_2017]
+- Yancy, Lee. 2020. "How EVE Online Is Changing Players' Lives for the Better." *Den of Geek*, December 14. [https://www.denofgeek.com/games/eve-online-players-lives-better/][news_den_of_geek_2020]
+
+### Related Posts
+
+- Sechter, Brendan. 2026. "What Published Wargames Say About a War With China." *Brendan A R Sechter's Development Blog*, August 11. [https://sgeos.github.io/geopolitics/military/war-gaming/2026/08/11/published\_wargames\_of\_war\_with\_china.html][related_post_published_wargames]
+- Sechter, Brendan. 2026. "Orbital Manoeuvres in Terms of Delta-v." *Brendan A R Sechter's Development Blog*, August 17. [https://sgeos.github.io/space/space-studies/2026/08/17/orbital\_manoeuvres.html][related_post_orbital_manoeuvres]
+- Sechter, Brendan. 2026. "Solar Sailing." *Brendan A R Sechter's Development Blog*, August 18. [https://sgeos.github.io/space/space-studies/2026/08/18/solar\_sailing.html][related_post_solar_sailing]
+- Sechter, Brendan. 2026. "Mass Drivers." *Brendan A R Sechter's Development Blog*, August 19. [https://sgeos.github.io/space/space-studies/2026/08/19/mass\_drivers.html][related_post_mass_drivers]
 
 [agency_esa_geo_2020]: https://www.esa.int/ESA_Multimedia/Images/2020/03/Geostationary_orbit
 [agency_jpl_ephemerides_2020]: https://ssd.jpl.nasa.gov/planets/eph_export.html
@@ -4602,13 +4621,13 @@ $$
 [agency_nasa_stoneking_2007]: https://ntrs.nasa.gov/citations/20080044854
 [agency_nasa_sun_fact_sheet]: https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html
 [agency_nasa_thermal_guidebook_2023]: https://ntrs.nasa.gov/citations/20230013900
-[agency_nasa_tm_2025_mars_comms]: https://ntrs.nasa.gov/api/citations/20250003885/downloads/NASA%20TM20250003885.pdf
+[agency_nasa_tm_2025_mars_comms]: https://ntrs.nasa.gov/citations/20250003885
 [agency_nasa_webb_orbit]: https://science.nasa.gov/mission/webb/orbit/
 [agency_nasa_whipple]: https://hvit.jsc.nasa.gov/shield-development/
 [agency_nasa_winternitz_2017]: https://ntrs.nasa.gov/citations/20170004590
 [book_battin_1999]: https://doi.org/10.2514/4.861543
 [book_caffrey_2019]: https://digital-commons.usnwc.edu/newport-papers/43/
-[book_conway_morris_2003]: https://doi.org/10.1017/CBO9780511535499
+[book_conway_morris_2003]: https://doi.org/10.1017/cbo9780511535499
 [book_curtis_2020_interplanetary]: https://doi.org/10.1016/b978-0-08-102133-0.00008-8
 [book_friedman_2017]: https://www.history.navy.mil/research/publications/publications-by-subject/winning-a-future-war.html
 [book_glasstone_1964]: https://doi.org/10.2172/972902
@@ -4751,15 +4770,15 @@ $$
 [research_castronova_et_al_2009]: https://doi.org/10.1177/1461444809105346
 [research_clement_1982]: https://doi.org/10.1119/1.12989
 [research_green_armstrong_2007]: https://doi.org/10.1287/inte.1060.0262
-[research_hairer_et_al_2003]: https://doi.org/10.1017/S0962492902000144
+[research_hairer_et_al_2003]: https://doi.org/10.1017/s0962492902000144
 [research_hairer_soderlind_2005]: https://doi.org/10.1137/040606995
 [research_kane_2017]: https://doi.org/10.3847/2041-8213/aa6bf2
-[research_levin_et_al_2017]: https://doi.org/10.1017/S1473550417000362
-[research_li_et_al_2017]: https://doi.org/10.1364/AO.56.002428
+[research_levin_et_al_2017]: https://doi.org/10.1017/s1473550417000362
+[research_li_et_al_2017]: https://doi.org/10.1364/ao.56.002428
 [research_lisk_et_al_2011]: https://doi.org/10.1177/1046878110391975
-[research_lofgren_fefferman_2007]: https://doi.org/10.1016/S1473-3099(07)70212-8
+[research_lofgren_fefferman_2007]: https://doi.org/10.1016/s1473-3099(07)70212-8
 [research_mcdermott_redish_1999]: https://doi.org/10.1119/1.19122
-[research_mckagan_et_al_2008]: https://doi.org/10.1103/PhysRevSTPER.4.010103
+[research_mckagan_et_al_2008]: https://doi.org/10.1103/physrevstper.4.010103
 [research_monniaux_2008]: https://doi.org/10.1145/1353445.1353446
 [research_orthia_2019]: https://doi.org/10.22323/2.18040208
 [research_park_et_al_2021]: https://doi.org/10.3847/1538-3881/abd414

@@ -1,0 +1,263 @@
+# Import decisions for A386, Multi-Agent Space Simulation: A Reconstructed Thesis.
+# Reviewed 2026-11-13. Read by `python3 _lib/sources_import.py import`.
+# The registry caches named below are scratch and are not tracked.
+
+article = "A386"
+crossref_cache = "tmp/sources/crossref"
+wiki_pins = "tmp/a386/sources/wiki_pins.json"
+web_read = "2026-11-13"
+resolve_links = true
+
+# Titles and authors the pages or the registries give imperfectly. Each correction says what was
+# wrong and where the right value came from. Saved copies are under tmp/a386/research/.
+
+[fix.agency_nasa_bsf_cruise]
+note = "The label named the series as the author. Title from the page's own title, read from a saved copy on 2026-11-13."
+set = { title = "Chapter 15: Cruise", container = "Basics of Space Flight", authors = [{ family = "NASA" }] }
+
+[fix.agency_nasa_bsf_trajectories]
+note = "The label named the series as the author. Title from the page's own title, read from a saved copy on 2026-11-13."
+set = { title = "Chapter 4: Trajectories", container = "Basics of Space Flight", authors = [{ family = "NASA" }] }
+
+[fix.agency_nasa_iss_atcs]
+note = "The label described the document. Title from the document's own heading, read from a saved copy of the PDF."
+set = { title = "Active Thermal Control System (ATCS) Overview" }
+
+[fix.agency_nasa_smallsat_thermal]
+note = "The label described the page. Title from the page's own title, read from a saved copy."
+set = { title = "7.0 Thermal Control" }
+
+[fix.agency_nasa_sun_fact_sheet]
+note = "The label prefixed the agency. Title from the page's own title, read from a saved copy on 2026-11-13."
+set = { title = "Sun Fact Sheet" }
+
+[fix.agency_nasa_dawn_faq]
+note = "The page's title carries the site name and not the mission. The mission is named as the container."
+set = { title = "FAQ", container = "Dawn, NASA Science" }
+
+[fix.agency_nasa_webb_orbit]
+note = "The page's title carries the site name and not the mission. The mission is named as the container."
+set = { title = "Orbit", container = "James Webb Space Telescope, NASA Science" }
+
+[fix.agency_nasa_whipple]
+note = "The page's title is its navigation trail. Reduced to the page's own heading, with the group as the container."
+set = { title = "Shield Development: Basic Concepts", container = "Hypervelocity Impact Technology, NASA Johnson Space Center" }
+
+[fix.agency_nasa_shapiro_1979]
+note = "NTRS abbreviates the proceedings title. Spelled out. The year is the registry's 1978, the meeting's date."
+set = { container = "Proceedings of the Tenth Annual Precise Time and Time Interval (PTTI) Applications and Planning Meeting" }
+
+[fix.community_eve_uni_industry]
+note = "The page's title carries the site name. The site is given as the author, as for the wiki's other pages."
+set = { title = "Industry", authors = [{ family = "EVE University" }] }
+
+[fix.community_eve_uni_jump_drives]
+note = "The site is given as the author, as for the wiki's other pages."
+set = { authors = [{ family = "EVE University" }] }
+
+[fix.community_eve_uni_warp]
+note = "The page's title carries the site name. The site is given as the author, as for the wiki's other pages."
+set = { title = "Warp", authors = [{ family = "EVE University" }] }
+
+[fix.community_ksp_wiki_kerbin]
+note = "The page's title carries the site name. The site is given as the author, as for the wiki's other pages."
+set = { title = "Kerbin", authors = [{ family = "KSP Wiki" }] }
+
+[fix.dev_ccp_economist_2007]
+note = "The page names CCP Games, which the importer split into a given name and a family name."
+set = { authors = [{ family = "CCP" }] }
+
+[fix.dev_ccp_launch_2003]
+note = "The page names CCP Games, which the importer split into a given name and a family name."
+set = { authors = [{ family = "CCP" }] }
+
+[fix.dev_ccp_subscribers_2013]
+note = "The page names CCP Games, which the importer split into a given name and a family name."
+set = { authors = [{ family = "CCP" }] }
+
+[fix.dev_ccp_faucets_2006]
+note = "The page's title ends in an ellipsis, which the importer shortened."
+set = { title = "A Deal Is a Deal..." }
+
+[fix.dev_ccp_technetium_2012]
+note = "The page's title runs the abbreviation into the sentence in lower case. Set off and capitalised."
+set = { title = "Tech Is Fine, L2P" }
+
+[fix.dev_ccp_price_indices_2012]
+note = "The page's title uses a dash, written here as a comma."
+set = { title = "Price Indices, February 2012" }
+
+[fix.dev_code_essence_2016]
+note = "The page's title carries the site name, moved to the container."
+set = { title = "The Essence of Space Warfare", container = "Children of a Dead Earth" }
+
+[fix.dev_code_realistic_2016]
+note = "Container added to match the developer blog's other posts."
+set = { container = "Children of a Dead Earth" }
+
+[fix.dev_code_rockets_2016]
+note = "Container added to match the developer blog's other posts."
+set = { container = "Children of a Dead Earth" }
+
+[fix.dev_dark_multiplayer]
+note = "The page's title is the repository path and its description. Reduced to the project's name."
+set = { title = "DarkMultiPlayer" }
+
+[fix.dev_principia]
+note = "The page's title is the repository path and its description. Reduced to the project's name."
+set = { title = "Principia" }
+
+[fix.dev_real_solar_system]
+note = "The page's title is the repository path and its description. Reduced to the project's name."
+set = { title = "Real Solar System" }
+
+[fix.dev_kerbaledu_2016]
+note = "The Internet Archive capture's own title is the product's name, read from a saved copy. The label named the product as the author."
+set = { title = "KerbalEdu", authors = [] }
+
+[fix.dev_rsi_alpha_300_2017]
+note = "The page's title carries the site name and slogan, removed."
+set = { title = "Star Citizen Alpha 3.0.0" }
+
+[fix.dev_rsi_alpha_315_2021]
+note = "The importer split the page's title between title and container. Rejoined."
+set = { title = "Deadly Consequences: Alpha 3.15" }
+drop = ["container"]
+
+[fix.dev_rsi_carrack_2014]
+note = "The page's title carries the site name and slogan, removed."
+set = { title = "Into the Unknown: A Carrack & Her Crew" }
+
+[fix.dev_rsi_flight_2020]
+note = "The importer split the page's title between title and container. Rejoined."
+set = { title = "Flight & Fight: Upcoming Improvements" }
+drop = ["container"]
+
+[fix.dev_rsi_letter_2020]
+note = "The page's title carries the site name and slogan, removed. The chairman's given name, as the article gives it."
+set = { title = "Letter from the Chairman", authors = [{ family = "Roberts", given = "Chris" }] }
+
+[fix.dev_rsi_lore_gravity_2014]
+note = "The page's title carries the site name and slogan, removed, and its capitals are recased."
+set = { title = "Lore Builder Twenty: Journeys & Generators" }
+
+[fix.dev_squad_arm_2014]
+note = "The page's title repeats the product's name before the announcement's own title. The site is given as the container."
+set = { title = "KSP: Asteroid Redirect Mission Is Officially Released", container = "Steam Community" }
+
+[fix.news_guardian_mc02_2002]
+note = "Byline read from a saved copy of the page. The page's own metadata gives the newspaper's name in lower case."
+set = { authors = [{ family = "Borger", given = "Julian" }], container = "The Guardian" }
+
+[fix.news_pcgamer_intercept_2024]
+note = "Byline read from a saved copy of the page."
+set = { authors = [{ family = "Chalk", given = "Andy" }] }
+
+[fix.news_engadget_pcu_2013]
+note = "Byline read from a saved copy of the page. Periodical added to match the site's other articles."
+set = { authors = [{ family = "Drain", given = "Brendan" }], container = "Engadget" }
+
+[fix.ref_hattendorf_2014]
+note = "The page names the publisher as its site. The magazine, volume and issue are from the page, read from a saved Internet Archive capture."
+set = { authors = [{ family = "Hattendorf", given = "John B." }], container = "Naval History Magazine", volume = "28", issue = "3" }
+
+[fix.ref_uk_mod_wargaming_2017]
+note = "A doctrine handbook published as a document, not a web page. Issuing body and date from the PDF's own title page, read from a saved copy."
+set = { kind = "report", authors = [{ name = "UK Ministry of Defence" }], publisher = "Development, Concepts and Doctrine Centre" }
+drop = ["container"]
+
+[fix.ref_jfcom_mc02]
+note = "The report is undated. The importer took 2002 from the exercise's name in the title. Title punctuated as on the report's cover, read from a saved copy."
+set = { kind = "report", title = "Millennium Challenge 2002: Experiment Report" }
+drop = ["year"]
+
+[fix.ref_traveller_srd]
+note = "The label named the document as the author. It is given as the container."
+set = { authors = [], container = "Traveller SRD" }
+
+[fix.research_rubel_2006]
+note = "A journal article read from the journal's repository page. Journal, volume and issue from the PDF's cover sheet, read from a saved Internet Archive capture."
+set = { kind = "journal-article", container = "Naval War College Review", venue = "Naval War College Review", volume = "59", issue = "2" }
+
+[fix.research_berry_coppola_2007]
+note = "Paper number, the authors' given names and their company from the PDF's title page, read from a saved copy. The PDF names no meeting or year, and 2007 is read from the paper number."
+set = { number = "AAS 07-417", publisher = "Analytical Graphics, Inc.", authors = [{ family = "Berry", given = "Matthew M." }, { family = "Coppola", given = "Vincent T." }] }
+
+[fix.research_bohr_1913]
+note = "Crossref prefixes the part number I. to the title. Removed, since the article cites the first part by its title."
+set = { title = "On the Constitution of Atoms and Molecules" }
+
+[fix.research_castronova_et_al_2009]
+note = "Crossref gives three authors as undivided names. Divided as the paper's own byline gives them, read from a saved copy."
+set = { authors = [{ family = "Castronova", given = "Edward" }, { family = "Williams", given = "Dmitri" }, { family = "Shen", given = "Cuihua" }, { family = "Ratan", given = "Rabindra" }, { family = "Xiong", given = "Li" }, { family = "Huang", given = "Yun" }, { family = "Keegan", given = "Brian" }] }
+
+[fix.book_caffrey_2019]
+note = "Publisher and series number from the repository's landing page, read from a saved copy."
+set = { publisher = "Naval War College Press", number = "Newport Paper 43" }
+
+[fix.book_friedman_2017]
+note = "Publisher and the author's given name from the book's cataloguing data, read from a saved Internet Archive capture."
+set = { publisher = "Naval History and Heritage Command", authors = [{ family = "Friedman", given = "Norman" }] }
+
+[fix.book_herman_et_al_2009]
+note = "Open Library's work record lists the first author only. The edition record's statement of responsibility names three."
+set = { authors = [{ family = "Herman", given = "Mark" }, { family = "Frost", given = "Mark" }, { family = "Kurz", given = "Robert" }] }
+
+# Second round, after reading the generated list. Given names and periodical names the pages or
+# labels left out, each from the saved copy named in the article's research notes.
+
+[fix.book_whitfield_roddenberry_1968]
+note = "The registry record gives the second author's family name only."
+set = { authors = [{ family = "Whitfield", given = "Stephen E." }, { family = "Roddenberry", given = "Gene" }] }
+
+[fix.dev_bettner_terrano_2001]
+note = "Given names and the periodical from the page and from an Internet Archive capture of the original, both read from saved copies."
+set = { authors = [{ family = "Bettner", given = "Paul" }, { family = "Terrano", given = "Mark" }], container = "Game Developer" }
+
+[fix.ref_brynen_2010]
+note = "The reviewer's given name from the page, read from a saved copy."
+set = { authors = [{ family = "Brynen", given = "Rex" }] }
+
+[fix.ref_nielsen_2006]
+note = "The author's given name from the page, read from a saved copy."
+set = { authors = [{ family = "Nielsen", given = "Jakob" }] }
+
+[fix.agency_nasa_coming_home]
+note = "The authors' given names from the book's title page."
+set = { authors = [{ family = "Launius", given = "Roger D." }, { family = "Jenkins", given = "Dennis R." }] }
+
+[fix.agency_nasa_orbit_primer_2018]
+note = "The author's given name from the title slide, read from a saved copy."
+set = { authors = [{ family = "Mesarch", given = "Michael" }] }
+
+[fix.agency_nasa_orbit_catalog_2009]
+note = "The author's given name from the page's credit, read from a saved copy."
+set = { authors = [{ family = "Riebeek", given = "Holli" }] }
+
+[fix.dev_rsi_letter_2018]
+note = "The chairman's given name, as the article gives it."
+set = { authors = [{ family = "Roberts", given = "Chris" }] }
+
+[fix.dev_harvester_patched_conics_2012]
+note = "The developer's given name, as the article gives it."
+set = { authors = [{ family = "Falanghe", given = "Felipe" }] }
+
+[fix.news_register_ebank_2009]
+note = "The page's own metadata gives the periodical's name as its host."
+set = { container = "The Register" }
+
+[fix.news_space_com_expanse_2015]
+note = "The page's own metadata shortens the periodical's name."
+set = { container = "Space.com" }
+
+[fix.news_massively_refund_2016]
+note = "The page's title carries the site name, removed."
+set = { title = "Star Citizen Changes Refund Clause for New Backers, Plans Procedurally Generated Planets for 2.7" }
+
+[fix.agency_nasa_stoneking_2007]
+note = "NTRS names the publisher where the meeting belongs. Meeting from the NTRS record, read on 2026-11-13."
+set = { container = "AIAA Guidance, Navigation and Control Conference" }
+
+[fix.research_armstrong_2001]
+note = "Crossref gives the series as the container. The book is named, with the chapter's pages from the Crossref record."
+set = { container = "Principles of Forecasting", pages = "15-30" }

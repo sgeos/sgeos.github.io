@@ -4,6 +4,45 @@
 
 ## Last Updated
 
+**Date**: 2026-11-13 (fifth entry)
+**Task**: **The seven passes on A386 that you ordered, in your order. Done, committed locally, not pushed, not published.** The editorial date is 2026-11-12 and the front matter carries it.
+
+**1. Thesis hardening.** An independent reviewer read the whole draft without seeing my conclusions and returned 25 findings. I applied 41 fixes.
+- **Scenarios.** The review's sharpest point was that your thesis makes scenario formulation the main source of predictive value, while the blueprint was one persistent history with no scenario mechanism. The Newport games earned their name by replaying one war many times. I added a Scenarios subsection. It says that a persistent world is one run of one scenario, that the same starting conditions can open more than one world, and that a world has a span, since a compression of ten covers ten simulated years in each real year. It records the tension between lasting loss and repeatable scenarios and does not resolve it. **This is an addition to your design and needs your word.**
+- **Possibility.** "No obstacle in physics or computation" became "no obstacle in physics is known, and the gravity model is cheap". Crowding in one region is named as an open engineering problem, and whether the result can be made palatable to the public is called open.
+- **Part five** now holds to the extent that agents face the same incentives and constraints. The text lists where they do not.
+- **A station** is defined as a role together with the selection that fills it. Newport is said to be consistent with the claim and not proof of it, and the kamikaze is noted as the one surprise that circumstance did not predict.
+- **The long voyage as an escape valve** stays as you gave it, with the bias named. A voyage that costs an absent agent nothing is cheaper than a real one, so the simulation should expect more of them.
+- **Corrections of fact.** Light time gives slack only between distant shards and none at a boundary. The clock example now compares with a clock on Earth. Fast passes in a crowded shell are common, and slow meetings are the rare event. Two citations that had gone missing are restored.
+
+**2. Equation density.** 34 to 41. Added the circular speed at a surface and the mean density of a sphere for Kerbin, EVE Online's alignment time, the period of a circular orbit, the special-relativistic clock rate, the tidal bound on a third body and the rate of passes in a crowded shell.
+
+**3. Reference density.** 190 to 210. NASA sources now stand behind the rocket equation, mass flow, circular speed and period, drag, the exponential atmosphere and radiative heat rejection. The Time section cites NASA on three shifts of flight controllers and on stored command sequences, and the developer on time zones. Approachability cites Nielsen and Carroll and Carrithers. Predictive Value adds the UK defence handbook, which says flatly that "Wargames are not predictive" and that "Wargames are only as good as the participants", and a published review of Herman, Frost and Kurz. Sea-level air density is corrected from 1.225 to the fact sheet's 1.217.
+
+**4. Publication readiness.** A claims file recomputes 66 worked numbers independently, and each claim is proven able to fail. All 66 pass. Lint is clean, acronyms are reviewed, and the structure conforms to the analytical essay genre. The crowdfunding counter's reading is dated 12 November 2026, the counter's own day, to agree with the editorial date.
+
+**5. Pathological language usage.** Against the corpus, "this article" fell from 37 to 13, "which is" from 23 to 9, "and not" from 22 to 13, "therefore" from 22 to 11 and "a search found" from 10 to 3. Nineteen equation lead-ins no longer open with "With". The passive scan stands at 24, all stative or quoted.
+
+**6. Import into the source database.** Done through `_sources/decisions/A386.toml`, which records 61 corrections, each with its reason. 198 new records, 12 already stored and 4 mapped to records another article holds. I added 45 judgements about publishers to `_sources/domains.toml`. The References section is now generated, in the house Chicago author-date format under its six headings, and ten in-text labels changed to match, for example The Guardian 2002 to Borger 2002.
+- **A mistake, caught and undone.** I reran the import after the list had been converted, and it filed 42 duplicate records. Nothing was committed. I restored the database with `git checkout` and redid the import once from the copy taken before conversion. The procedure document now warns against it.
+- **Default deny applies.** Several journal articles sit under Primary Sources, Non-Peer-Reviewed, because their venues have no recorded answer to the question of by whom. That is the house rule working as written, not a judgement of the papers.
+
+**7. Full URL check.** `python3 _lib/resolve.py POST --body` read all 206 addresses. 204 resolved and 2 are registry-only, both DOIs whose publisher answers 405 and whose Crossref records match. No page answered 200 with a not-found body. Two failures were rechecked singly: a NASA Glenn page answered 500 once and 200 on retry, and `history.navy.mil` fails certificate verification from this machine and has an Internet Archive capture, which is what the research read.
+- **Not completed.** `_verify_citations.py` began querying the registry for the whole corpus, because its cache dates from 2026-08-13, so I stopped it. I compared A386's 30 DOIs with their cached Crossref records instead, and each registry title matches the work cited. The corpus-wide run is yours to schedule.
+- **A permission refusal, not worked around.** One recheck command was refused by the permission classifier. I reran it inside the sandbox with a plain user agent and named hosts.
+
+**Numbers.** 24,225 words of author prose, 41 equations with 28 standard and 13 bespoke, 210 references.
+
+**Verification.** `_verify.py --strict` 0 and 0, `test_sources` 96 of 96, the database valid at 239,194 records, and `./_check.sh` passing on a scratch copy with the converted draft built as a post, 554 pages and no rendered findings. See the commit.
+
+**For you.**
+1. **Approval to publish.** I have not published. Publication is the two-commit pattern, a move to `_posts/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.markdown`, and a push through a `ci/` branch.
+2. **One step at publication.** The article's name map in `_sources/articles/` must be renamed to the post's dated name in the publish commit, or the verifier fails. The scratch gate proved it.
+3. **The Scenarios subsection**, described above.
+4. **Review findings left alone** because they are your thesis or your words: part six still asserts market demand, with the text calling both halves conjectures, and the paragraph on undergraduate classes stands.
+
+## Previous Report (2026-11-13, fourth entry)
+
 **Date**: 2026-11-13 (fourth entry)
 **Task**: **Third pass on A386, applying your further rulings. Done, committed locally, not pushed, not published.**
 

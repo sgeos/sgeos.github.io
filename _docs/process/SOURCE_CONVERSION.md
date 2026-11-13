@@ -55,6 +55,9 @@ Each step is a command that reads data. Scratch goes under `tmp/<article>/source
      its pages are first-hand records, are made once per host in `_sources/domains.toml`.
    - Press releases count as Commercial by default, testimony counts as primary, and articles in a periodical
      have the periodical's name in italics.
+   **A label's category must be one the importer knows.** `LEGACY_KIND` in `_lib/sources_import.py` lists them. A
+   label that opens with any other word, such as A386's Agency, Community, Developer and News, has that word read as
+   part of the authors. A386's list was renamed to `Reference` before the import, since the list is regenerated.
 4. **Dry-run the import** with a decision file that holds only `article`, `crossref_cache` and `wiki_pins`.
    `python3 _lib/sources_import.py import POST _sources/decisions/AXXX.toml --drafts tmp/aNNN/sources/drafts.json`.
    It reports which records are new, which are already stored, which it extends, and every conflict.
@@ -74,6 +77,11 @@ Each step is a command that reads data. Scratch goes under `tmp/<article>/source
 7. **Write.** Add `--write` to the import. Decisions about a record already stored from another article amend
    it. A source stored under another name is mapped, and a name the store uses for a different source is
    renamed in the store and mapped, both in `_sources/articles/`.
+   **Never rerun the import on a converted article.** Once step 9 has rewritten the list and the labels, the
+   importer reads the generated entries as new labels and files duplicates under suffixed names. A386 gained 42
+   duplicate records this way on 2026-11-13, caught before any commit and undone with `git checkout` of
+   `_sources/records` and `_sources/venues.jsonl`. To add a decision after step 9, restore the copy taken before
+   conversion and run steps 7 to 10 again, or import that copy with `--as-post`.
 8. **Credit the venues.** New venues arrive as not established. `python3 _lib/sources_import.py credit-venues
    --write` credits those a publisher's statement in `_sources/publishers.toml` covers. A venue is credited only with a recorded answer
    to the question of by whom, read from a source the venue speaks through. See [Citation

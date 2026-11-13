@@ -76,6 +76,9 @@ is unavoidable in an aerospace article whose primary literature is the Joint Pro
 | Organisation for Economic Co-operation and Development | oecd.org | Bot-detection |
 | Justia | supreme.justia.com | Case-law host bot-detection |
 | ArianeGroup | arianegroup.com | Blocks curl outright with a connection failure |
+| Naval History and Heritage Command | history.navy.mil | The connection fails certificate verification from this machine, so no status is returned. Verification was not disabled. The page was read through an Internet Archive capture, observed 2026-11-13 |
+| U.S. Naval Institute | usni.org | Returns 403 to curl and to the fetcher. An Internet Archive capture supplied the text, observed 2026-11-13 |
+| U.S. Naval War College Digital Commons | digital-commons.usnwc.edu | Serves landing pages and puts PDF downloads behind a browser challenge. Internet Archive captures supplied the PDFs, observed 2026-11-13 |
 | European Corporate Governance Institute | ecgi.global | Returned 200 earlier in the same session and then refused connections; treat as intermittent bot-detection, observed 2026-08-04 |
 
 If a new 403 site appears during a publication, add it to this catalogue with one line of context.
@@ -187,3 +190,4 @@ not read bodies. A NOT-FOUND-BODY row is a page to read, not a verdict.
 | Date | Scope | Result |
 |---|---|---|
 | 2026-08-11 | Whole corpus, first run covering A369, A370 and the 37-draft publication queue | 77,593 citations, 61,483 distinct. After fixing `assess()` and repairing 632 labels: **43 mismatch, 89 label-name, 184 weak, 3 nonexistent, 5 DataCite**. See the TASKLOG entry for that date |
+| 2026-11-13 | A386 before publication, `python3 _lib/resolve.py POST --body` over all 206 http and https references | 204 resolved and 2 registry-only, both DOIs whose publisher answers 405 and whose Crossref records match. No not-found body. Two failures on the sweep were rechecked singly. A NASA Glenn page answered 500 once and 200 on retry. `history.navy.mil` fails certificate verification here and has an Internet Archive capture. **`_verify_citations.py` was started and stopped**, because its cache dates from 2026-08-13 and it began querying the registry for the whole corpus. A386's 30 DOIs were instead compared with their cached Crossref records, and each registry title matches the work cited |

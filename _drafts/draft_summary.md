@@ -26,8 +26,13 @@ reconstructs from memory the thesis of the pilot's lost senior seminar paper, re
 of a Dead Earth, EVE Online and Star Citizen, catalogues soft science fiction conventions with remedies, and ends in a
 blueprint for a high-fidelity multi-agent predictive simulation with the equations an implementation needs.
 
-**Current status 2026-11-13. Drafted, four passes done, hardened three times, not published.** 22,288 words of author
-prose, 34 display equations, 23 standard and 11 bespoke, and 190 reference definitions. **The third pass** of
+**Current status 2026-11-13. Seven publication passes done, references in the source database, not published.**
+Editorial date 2026-11-12. 24,225 words of author prose, 41 display equations, 28 standard and 13 bespoke, and 210
+references generated from `_sources/` through `_sources/decisions/A386.toml`. **The seven passes** of 2026-11-13
+were thesis hardening after an independent review of 25 findings, equation density, reference density, publication
+readiness with 66 recomputed number claims, pathological language usage, the import and the full URL check, with
+204 of 206 addresses resolving and the other two confirmed by registry. Before them the article stood at 22,288
+words, 34 equations and 190 definitions. **The third pass** of
 2026-11-13 applied a further round of the pilot's rulings. Participants are of average ability for their station,
 predictive value is largely a function of realistic scenarios that agents are willing to explore, travel in real
 time is an old idea with Traveller as the instance, attending to real life is an alternative to several characters,
@@ -60,7 +65,8 @@ the synodic period, the shared-clock wall time and an implementation subsection.
 Battin, Yoshida, Wisdom and Holman, and Sutton and Graves. The readiness pass re-derived every worked number, spelled
 out acronyms and checked reference integrity. The diction pass cut the trailing appositive "which is" from 21 to 7.
 `_verify.py` reports 0 and 0, and `./_check.sh` passes on a scratch copy with the draft built as a post. **Before
-publication**, the import into the source database, a full URL check, and the publication date.
+publication**, the pilot's approval, and the rename of the article's name map in `_sources/articles/` to the post's
+dated name in the publish commit.
 
 ## Access, Legible State and Recomputation in a Three-Model Harness A385 2026-10-31 PUBLISHED
 

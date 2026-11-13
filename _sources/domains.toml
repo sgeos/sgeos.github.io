@@ -2153,3 +2153,178 @@ why = "A periodical or news site reporting on subjects in which it has no stake,
 ["books.google.com"]
 kind = "book"
 why = "A library catalogue's record of a book, which identifies the book itself, so the entry is the book's."
+
+["www.eveonline.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["community.eveonline.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["universe.eveonline.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["robertsspaceindustries.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["cloudimperiumgames.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["store.steampowered.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["steamcommunity.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["ir.take2games.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.edmundoptics.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.nngroup.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["childrenofadeadearth.wordpress.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["www.kerbaledu.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["kerbalspace.tumblr.com"]
+stake = true
+why = "A company's own site or newsroom, promoting its products and programmes, which the rules place under Commercial Sources."
+
+["developers.eveonline.com"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["esi.evetech.net"]
+kind = "documentation"
+primary = true
+why = "The documentation or specification pages of a software project, which rule 4 places among the primary sources."
+
+["www.engadget.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.pcgamer.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["kotaku.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.theregister.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.theguardian.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.tentonhammer.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.polygon.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.gematsu.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.geekwire.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.gamedeveloper.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.eeworldonline.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www.denofgeek.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["spectrum.ieee.org"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["massivelyop.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["gamersnexus.net"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["entertainment.slashdot.org"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["bigthink.com"]
+periodical = true
+why = "A periodical or news site reporting on subjects in which it has no stake, General Sources under rule 7, its name in italics."
+
+["www1.grc.nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["hvit.jsc.nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["ssd.jpl.nasa.gov"]
+stake = true
+why = "A government agency's or service's own outreach, news or fact-sheet pages, which promote its own work and which the rules place under Commercial Sources. Its technical reports and data fall under rule 4 by their kind."
+
+["wiki.eveuniversity.org"]
+why = "A wiki that any member of a product's community may edit, with no stake of its own in the subject, General Sources under rule 7."
+
+["wiki.kerbalspaceprogram.com"]
+why = "A wiki that any member of a product's community may edit, with no stake of its own in the subject, General Sources under rule 7."
+
+["starcitizen.tools"]
+why = "A wiki that any member of a product's community may edit, with no stake of its own in the subject, General Sources under rule 7."
+
+["www.physicsforums.com"]
+why = "A community question-and-answer site, forum or mailing list, where any reader may post, with no stake in the subject, General Sources under rule 7."
+
+["paxsims.wordpress.com"]
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["www.chakoteya.net"]
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["www.traveller-srd.com"]
+why = "A blog reporting on a subject in which it has no stake, General Sources under rule 7, its name in italics as Chicago treats a blog."
+
+["fortress.wa.gov"]
+primary = true
+why = "A site publishing first-hand records, such as regulations, statutes, contract awards, budget justifications, filings or official documents, which rule 4 places under Primary Sources, Non-Peer-Reviewed."
+
+["history.siggraph.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
+
+["www-2025.fai.org"]
+stake = true
+why = "A company, trade association or advocacy body writing about its own field, products or members."
