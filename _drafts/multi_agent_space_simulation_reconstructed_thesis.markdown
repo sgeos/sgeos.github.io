@@ -365,6 +365,7 @@ r_{\mathrm{H}} \approx a \left( \frac{m}{3M} \right)^{1/3}
 \tag{3}
 $$
 
+[Kane 2017][research_kane_2017].
 For Earth the Hill radius is about 1.5 million kilometres.
 That is the distance of the second Lagrange point,
 where the James Webb Space Telescope
@@ -404,6 +405,7 @@ v_{\mathrm{s}} = \sqrt{g R}
 \tag{4}
 $$
 
+[NASA Flight to Orbit][agency_nasa_flight_to_orbit].
 The same wiki gives Kerbin a surface gravity of 9.81 metres per second squared,
 so the speed is about 2.4 kilometres per second,
 against about 7.9 for Earth.
@@ -1758,6 +1760,12 @@ NASA's educational pages address the question of
 and answer that
 "The answer to this question comes from the third law"
 [Rocket Principles][agency_nasa_rocket_principles].
+A rocket in fact does better without air.
+NASA lists the thrust of its RS-25 engine as
+"512,300 lbs. (vacuum)"
+against
+"418,000 lbs. (sea level)"
+[NASA 2025][agency_nasa_rs25_2025].
 
 **Remedy.**
 Show exhaust momentum as the source of thrust,
@@ -1781,6 +1789,7 @@ $$
 \tag{14}
 $$
 
+[NASA Ideal Rocket Equation][agency_nasa_rocket_equation].
 An engine with a specific impulse of 450 seconds and a mass ratio of four
 gives a delta-v of about 6.1 kilometres per second.
 
@@ -1866,6 +1875,7 @@ v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
 \tag{18}
 $$
 
+[NASA Flight to Orbit][agency_nasa_flight_to_orbit].
 At the height of the International Space Station,
 about 420 kilometres up,
 the radius is 6,791 kilometres
@@ -1978,6 +1988,7 @@ P = \varepsilon \sigma A T^{4}
 \tag{21}
 $$
 
+[Liles and Amundsen 2023][agency_nasa_thermal_guidebook_2023].
 A radiator at 275 kelvin with an emissivity of 0.9
 rejects about 292 watts per square metre,
 so 70 kilowatts needs about 240 square metres facing cold space,
@@ -2004,6 +2015,10 @@ as the thermal guidance above implies.
 A body in vacuum loses heat only by radiation,
 which is slow at ordinary temperatures,
 so nothing freezes instantly.
+Sunlight matters as much as shadow.
+NASA notes that without thermal controls the Sun-facing side of the space station
+"would soar to 250 degrees F (121 C), while thermometers on the dark side would plunge to minus 250 degrees F (-157 C)"
+[NASA 2001][agency_nasa_staying_cool_2001].
 
 **Remedy.**
 Model thermal balance,
@@ -2538,6 +2553,7 @@ $$
 \tag{25}
 $$
 
+[NASA Specific Impulse][agency_nasa_specific_impulse].
 An engine of 100 kilonewtons at a specific impulse of 450 seconds
 burns about 22.7 kilograms of propellant each second.
 Integrated over a burn,
@@ -2701,6 +2717,7 @@ $$
 \tag{30}
 $$
 
+[Stoneking 2007][agency_nasa_stoneking_2007].
 The torque changes where the craft points.
 It does not change where the craft goes.
 The remedy for banking turns now has its equation.
@@ -2718,11 +2735,13 @@ F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
 \tag{31}
 $$
 
-and a simple model of the density,
-with $\rho\_{0}$ its value at sea level,
-about 1.225 kilograms per cubic metre,
+[NASA Drag Equation][agency_nasa_drag_equation].
+A simple model of the density,
+with $\rho\_{0}$ its value at the surface,
+1.217 kilograms per cubic metre,
 and $H$ the scale height,
-about 8.5 kilometres,
+8.5 kilometres
+[NASA Earth Fact Sheet][agency_nasa_earth_fact_sheet],
 is
 
 $$
@@ -2730,6 +2749,7 @@ $$
 \tag{32}
 $$
 
+[Garcia-Llama 2007][agency_nasa_garcia_llama_2007].
 Heating at the nose follows the stagnation-point correlation of Sutton and Graves
 [Sutton and Graves 1971][research_sutton_graves_1971].
 With $\dot{q}$ the heat flux,
@@ -2859,6 +2879,7 @@ T_{\mathrm{o}} = 2 \pi \sqrt{\frac{r^{3}}{\mu}}
 \tag{38}
 $$
 
+[NASA Flight to Orbit][agency_nasa_flight_to_orbit].
 At a radius of 6,791 kilometres the period is about 93 minutes.
 
 | Duration | True | Compressed by 10 | Compressed by 100 |
@@ -2897,8 +2918,12 @@ The inference drawn here is that a shared world needs a shared clock,
 compressed by the same factor for everyone,
 and agents who plan and commit manoeuvres in advance
 and then do something else while the plan executes.
-That is how real spaceflight operates,
-and it is the tempo Children of a Dead Earth discovered,
+That is how real spaceflight operates.
+NASA's guide to the subject says that
+"Planned sequences of commands"
+"are typically less risky than real-time commands because they benefit from a long process of extensive debate and selection, testing and checking and simulation prior to uplink"
+[NASA Basics of Spaceflight, Cruise][agency_nasa_bsf_cruise].
+It is also the tempo Children of a Dead Earth discovered,
 long waits followed by short decisive exchanges.
 A private timeline of the kind the Kerbal Space Program multi-agent modifications use
 is a workable compromise when agents must act alone,
@@ -2926,6 +2951,7 @@ $$
 \tag{39}
 $$
 
+[Shapiro 1979][agency_nasa_shapiro_1979].
 At a tenth of the speed of light a traveller's clock would lose about 1.8 days in every year,
 and at higher speeds a character in transit would live through less time than the world it left.
 Conclusions about colonisation,
@@ -2962,6 +2988,12 @@ as a class,
 already work to taxing schedules across time zones
 when an event matters,
 even though no individual can attend every pivotal development.
+The developer designs around the problem.
+It calls time zone safety
+"an absolutely critical part of any capture system in a worldwide game like EVE Online"
+and holds that
+"Nobody should feel the need to play the game 24/7 in order to be competitive"
+[CCP 2015a][dev_ccp_sov_status_2015].
 Any high-fidelity simulation that runs continuously
 may subject its agents to the same realities,
 inconvenient as they are.
@@ -2977,6 +3009,9 @@ as an organisation with members in several time zones does.
 Run around the clock,
 a single simulated spaceship may need three shifts of real people,
 as a real ship at sea or a mission control room does.
+NASA's payload operations centre for the space station
+"is staffed 24 hours a day, 365 days a year, by three shifts of flight controllers"
+[NASA 2019][agency_nasa_payload_ops_2019].
 That sounds absurd to anyone who would never touch such a simulation,
 and it is exactly what its most committed agents would organise.
 Or the simulation may need a mechanism to resolve events from orders committed in advance.
@@ -3145,6 +3180,15 @@ or after the fact.
 ### Approachability Without Miseducation
 
 The design answer to Children of a Dead Earth's difficulty is layered disclosure.
+The idea is established in the design of interfaces.
+Nielsen describes progressive disclosure,
+which
+"defers advanced or rarely used features to a secondary screen, making applications easier to learn and less error-prone"
+[Nielsen 2006][ref_nielsen_2006].
+An early experiment blocked off the advanced functions of a word processor for beginners
+and found that the training version
+"afforded substantially faster learning coupled with better learning achievement"
+[Carroll and Carrithers 1984][research_carroll_carrithers_1984].
 The physics stays complete.
 What changes from one agent to the next is how much of it the agent must handle by hand.
 A beginner sets a destination,
@@ -3176,6 +3220,12 @@ A beginner who hands every burn to the tool may learn little physics from it.
 That such a simulation would teach is a hypothesis,
 the mirror of the one about miseducation,
 and no measurement found here supports or refutes it.
+Kerbal Space Program's own planning tool works in this spirit.
+Its wiki describes a manoeuvre node as
+"a planned velocity change along an orbit"
+that
+"shows the velocity change needed to reach the next new orbit"
+[Maneuver Node][community_ksp_wiki_maneuver_node].
 Kerbal Space Program's sales and its use in schools suggest
 that the public will take up planning tools of this kind,
 though a search found no measurement of what its users learn.
@@ -3296,8 +3346,13 @@ Frost
 and Kurz describe wargames designed and staged for the United States Army,
 for global corporations
 and for nonprofit groups
-[Herman et al. 2009][book_herman_et_al_2009],
-and the author's reading of such accounts is that a wargame is only as good as its scenario
+[Herman et al. 2009][book_herman_et_al_2009].
+A reviewer of the book notes that its authors
+"several times offer caveats about the predictive value of all this"
+while holding that such exercises
+"do allow plausible scenarios to be explored"
+[Brynen 2010][ref_brynen_2010].
+The author's reading of such accounts is that a wargame is only as good as its scenario
 and the willingness of the right people to come to it.
 
 The competence of the agents matters less than it might seem.
@@ -3312,6 +3367,14 @@ and their scarcity matters little,
 because circumstance and station drive a great many decisions whoever makes them.
 An agent needs only enough competence to do something reasonable,
 and a competent person of less than average ability asks for advice.
+The United Kingdom's defence handbook on wargaming sets that floor.
+By its account,
+"Wargames are only as good as the participants"
+and
+"An uninformed, unqualified or overconfident wargame team is unlikely to add value"
+[UK Ministry of Defence 2017][ref_uk_mod_wargaming_2017].
+Competence for the station is the floor,
+and nothing in the handbook asks for brilliance above it.
 A station here means a role together with the selection that fills it.
 The claim is not that anyone will do.
 It is that a simulated station filled by people chosen roughly as its real holders are,
@@ -3359,6 +3422,11 @@ and that what a game teaches,
 A history of the method from the college's own press concludes that
 "the large majority of games do not correlate to later events"
 [Caffrey 2019][book_caffrey_2019].
+The British handbook says flatly that
+"Wargames are not predictive"
+and that they
+"are good at showing when something is plausible (as opposed to probable)"
+[UK Ministry of Defence 2017][ref_uk_mod_wargaming_2017].
 The author's claim is the narrower one that this record supports.
 Participants of average ability for their station,
 placed under realistic incentives and constraints,
@@ -3459,6 +3527,9 @@ can hold its agents to wildly high expectations,
 and skills pass between it and real life in both directions,
 as the review above recorded.
 Burnout is just as real.
+A press account of EVE Online's wars says that their pace
+"can cause massive stress on a player's life, and can lead to a lot of fatigue, and over time, quite a bit of burnout"
+[Kotaku 2017][news_kotaku_war_2017].
 Obligations that run around the clock
 wear people down,
 and a simulation that depends on committed agents
@@ -3624,7 +3695,9 @@ and research on role playing by students,
 which is not wargaming.
 The account of Herman,
 Frost
-and Kurz rests on the catalogue record of their book and on the author's memory of reading it,
+and Kurz rests on the catalogue record of their book,
+on a published review
+and on the author's memory of reading it,
 since neither the author nor the research for this article had its text to hand.
 That people have run Traveller in real time rests on a remark the author overheard in person
 and recalls imperfectly,
@@ -3705,10 +3778,16 @@ This reconstruction names incentives as a third bound on predictive value.
 The author regards the reasoning behind it,
 that agents under the same incentives and constraints behave as real stakeholders would,
 as part of the thesis.
-The eleven equations that the Equations section marks as bespoke are constructions of this article,
+The thirteen equations that the Equations section marks as bespoke are constructions of this article,
 and the engagement-time,
-radiator
-and gravity-cost equations among them show orders of magnitude only.
+radiator,
+gravity-cost
+and pass-rate equations among them show orders of magnitude only.
+Three standard equations are cited to NASA documents
+whose scanned mathematics the research for this article read from page images,
+namely the period of an orbit,
+Euler's equations
+and the special-relativistic clock rate.
 What EVE Online has demonstrated is reproduction of known behaviour,
 not a prediction later confirmed,
 and the miseducation this article warns of is a hypothesis with indirect support.
@@ -3832,6 +3911,7 @@ $$
 
 **Equation 3, Hill Radius.**
 The approximate distance of a body's first and second Lagrange points, which lie outside its sphere of influence.
+[Kane 2017][research_kane_2017]
 
 $$
 r_{\mathrm{H}} \approx a \left( \frac{m}{3M} \right)^{1/3}
@@ -3840,6 +3920,7 @@ $$
 
 **Equation 4, Circular Orbital Speed at the Surface.**
 The speed of a circular orbit just above a body's surface in terms of its surface gravity and radius, which falls as the body shrinks at fixed gravity.
+[NASA Flight to Orbit][agency_nasa_flight_to_orbit]
 [Kerbin][community_ksp_wiki_kerbin]
 
 $$
@@ -3928,6 +4009,7 @@ $$
 
 **Equation 14, Tsiolkovsky Rocket Equation.**
 The delta-v a rocket gains as its mass falls from the initial to the final mass.
+[NASA Ideal Rocket Equation][agency_nasa_rocket_equation]
 
 $$
 \Delta v = I_{\mathrm{sp}}\, g_{0} \ln \frac{m_{0}}{m_{\mathrm{f}}}
@@ -3963,6 +4045,7 @@ $$
 
 **Equation 18, Circular Orbital Speed.**
 The speed of a circular orbit at a given radius, which is what makes reaching orbit hard.
+[NASA Flight to Orbit][agency_nasa_flight_to_orbit]
 
 $$
 v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
@@ -3989,6 +4072,7 @@ $$
 
 *Equation 21, Bespoke Radiator Power Without Absorbed Sunlight.*
 The Stefan-Boltzmann law applied to a radiator facing cold space with absorbed sunlight neglected, an assumption of the article's that lowers the area needed.
+[Liles and Amundsen 2023][agency_nasa_thermal_guidebook_2023]
 
 $$
 P = \varepsilon \sigma A T^{4}
@@ -4025,6 +4109,7 @@ $$
 
 **Equation 25, Propellant Mass Flow.**
 The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation.
+[NASA Specific Impulse][agency_nasa_specific_impulse]
 
 $$
 \dot{m} = -\frac{F}{I_{\mathrm{sp}}\, g_{0}}
@@ -4073,6 +4158,7 @@ $$
 
 **Equation 30, Euler's Equations of Rigid-Body Rotation.**
 The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path.
+[Stoneking 2007][agency_nasa_stoneking_2007]
 
 $$
 \mathbf{I}\, \dot{\boldsymbol{\omega}} + \boldsymbol{\omega} \times \left( \mathbf{I}\, \boldsymbol{\omega} \right) = \boldsymbol{\tau}
@@ -4081,6 +4167,7 @@ $$
 
 **Equation 31, Aerodynamic Drag.**
 The drag force on a body moving through air, which governs launch and reentry.
+[NASA Drag Equation][agency_nasa_drag_equation]
 
 $$
 F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
@@ -4089,6 +4176,8 @@ $$
 
 **Equation 32, Isothermal Exponential Atmosphere.**
 The simple model of air density falling exponentially with height above sea level.
+[Garcia-Llama 2007][agency_nasa_garcia_llama_2007]
+[NASA Earth Fact Sheet][agency_nasa_earth_fact_sheet]
 
 $$
 \rho(h) = \rho_{0}\, e^{-h/H}
@@ -4140,6 +4229,7 @@ $$
 
 **Equation 38, Period of a Circular Orbit.**
 The time one circular orbit takes at a given radius, Kepler's third law for a circle.
+[NASA Flight to Orbit][agency_nasa_flight_to_orbit]
 
 $$
 T_{\mathrm{o}} = 2 \pi \sqrt{\frac{r^{3}}{\mu}}
@@ -4148,6 +4238,7 @@ $$
 
 **Equation 39, Special-Relativistic Clock Rate.**
 The exact rate of a moving clock against one at rest, which governs the time a traveller lives through at interstellar speeds.
+[Shapiro 1979][agency_nasa_shapiro_1979]
 [Ashby 2003][research_ashby_2003]
 
 $$
@@ -4253,33 +4344,45 @@ $$
 
 - [Agency, Blevins and Hohmann 1975, Description of the Space Shuttle Reaction Control System][agency_nasa_shuttle_rcs_1975]
 - [Agency, ESA 2020, Geostationary Orbit][agency_esa_geo_2020]
+- [Agency, Garcia-Llama 2007, Analytic Guidance for the First Entry in a Skip Atmospheric Entry][agency_nasa_garcia_llama_2007]
 - [Agency, Hughes 2007, General Mission Analysis Tool Mathematical Specifications][agency_nasa_gmat_2007]
 - [Agency, Johnson and Holbrow 1977, Space Settlements: A Design Study][agency_nasa_sp413_1977]
 - [Agency, JPL 2020, JPL Planetary and Lunar Ephemerides][agency_jpl_ephemerides_2020]
 - [Agency, Landon et al. 2025, Assessment of the State of Communication Delay Research][agency_nasa_tm_2025_mars_comms]
 - [Agency, Launius and Jenkins 2012, Coming Home: Reentry and Recovery from Space][agency_nasa_coming_home]
+- [Agency, Liles and Amundsen 2023, NASA Passive Thermal Control Engineering Guidebook][agency_nasa_thermal_guidebook_2023]
 - [Agency, Mesarch 2018, GDC Orbit Primer][agency_nasa_orbit_primer_2018]
+- [Agency, NASA 2001, Staying Cool on the ISS][agency_nasa_staying_cool_2001]
 - [Agency, NASA 2012, What Is Microgravity?][agency_nasa_microgravity]
 - [Agency, NASA 2016, Gamers Tackle Virtual Asteroid Sampling Mission][agency_nasa_gamers_osiris_2016]
 - [Agency, NASA 2017, Why Do We Really Need Pressure Suits?][agency_nasa_pressure_suits_2017]
+- [Agency, NASA 2019, Payload Operations Integration Center][agency_nasa_payload_ops_2019]
 - [Agency, NASA 2020, Space Communications: 7 Things You Need to Know][agency_nasa_space_comms_2020]
 - [Agency, NASA 2021, NASA Laser Communications Innovations: A Timeline][agency_nasa_laser_comm_timeline_2021]
 - [Agency, NASA 2024, 55 Years Ago: Star Trek Final Episode Airs][agency_nasa_star_trek_55_2024]
+- [Agency, NASA 2025, RS-25 Core Stage Engine][agency_nasa_rs25_2025]
 - [Agency, NASA Anatomy of an Electromagnetic Wave][agency_nasa_em_anatomy]
+- [Agency, NASA Basics of Spaceflight, Cruise][agency_nasa_bsf_cruise]
 - [Agency, NASA Basics of Spaceflight, Trajectories][agency_nasa_bsf_trajectories]
 - [Agency, NASA Black Holes][agency_nasa_black_holes]
 - [Agency, NASA Dawn FAQ][agency_nasa_dawn_faq]
+- [Agency, NASA Drag Equation][agency_nasa_drag_equation]
 - [Agency, NASA Earth Fact Sheet][agency_nasa_earth_fact_sheet]
+- [Agency, NASA Flight to Orbit][agency_nasa_flight_to_orbit]
+- [Agency, NASA Ideal Rocket Equation][agency_nasa_rocket_equation]
 - [Agency, NASA ISS Active Thermal Control System Overview][agency_nasa_iss_atcs]
 - [Agency, NASA Jupiter Fact Sheet][agency_nasa_jupiter_fact_sheet]
 - [Agency, NASA Moon Fact Sheet][agency_nasa_moon_fact_sheet]
 - [Agency, NASA Newton's Laws of Motion][agency_nasa_newton]
 - [Agency, NASA Rocket Principles][agency_nasa_rocket_principles]
 - [Agency, NASA Small Spacecraft Thermal Control][agency_nasa_smallsat_thermal]
+- [Agency, NASA Specific Impulse][agency_nasa_specific_impulse]
 - [Agency, NASA Sun Fact Sheet][agency_nasa_sun_fact_sheet]
 - [Agency, NASA Webb Orbit][agency_nasa_webb_orbit]
 - [Agency, NASA Whipple Shield Development][agency_nasa_whipple]
 - [Agency, Riebeek 2009, Catalog of Earth Satellite Orbits][agency_nasa_orbit_catalog_2009]
+- [Agency, Shapiro 1979, Down to Earth Relativity][agency_nasa_shapiro_1979]
+- [Agency, Stoneking 2007, Newton-Euler Dynamic Equations of Motion for a Multi-Body Spacecraft][agency_nasa_stoneking_2007]
 - [Agency, Stysley 2011, Laser-Based Optical Trap for Remote Sampling][agency_nasa_niac_stysley_2011]
 - [Agency, Westover et al. 2019, Magnet Architectures and Active Radiation Shielding Study][agency_nasa_maarss_2019]
 - [Agency, Winternitz 2017, Introduction to GPS and Other Global Navigation Satellite Systems][agency_nasa_winternitz_2017]
@@ -4299,6 +4402,7 @@ $$
 - [Community, EVE University, Trading][community_eve_uni_trading]
 - [Community, EVE University, Warp][community_eve_uni_warp]
 - [Community, KSP Wiki, Kerbin][community_ksp_wiki_kerbin]
+- [Community, KSP Wiki, Maneuver Node][community_ksp_wiki_maneuver_node]
 - [Community, KSP Wiki, Multiplayer][community_ksp_wiki_multiplayer]
 - [Community, KSP Wiki, Sphere of Influence][community_ksp_wiki_soi]
 - [Community, Star Citizen Wiki, Planet][community_sc_tools_planet]
@@ -4321,6 +4425,7 @@ $$
 - [Developer, CCP 2014a, The Bloodbath of B-R5RB][dev_ccp_b_r5rb_2014]
 - [Developer, CCP 2014b, HED-GP Technical Retrospective][dev_ccp_hed_gp_2014]
 - [Developer, CCP 2015, EVE Economy Update, EVE Vegas 2015 Report][dev_ccp_economy_vegas_2015]
+- [Developer, CCP 2015a, Summer 2015 Nullsec and Sov Status Report][dev_ccp_sov_status_2015]
 - [Developer, CCP 2016, Overlays, ISK Buyer Amnesty and Account Security][dev_ccp_rmt_2016]
 - [Developer, CCP 2017, PLEX Changes on the Way][dev_ccp_plex_2017]
 - [Developer, CCP 2019, Updates to Sales Taxes and Brokers Fees][dev_ccp_taxes_2019]
@@ -4389,6 +4494,7 @@ $$
 - [News, Gematsu 2026, CCP Games Rebrands to Fenris Creations][news_gematsu_fenris_2026]
 - [News, Gizmodo 2011, The First Draft of the Star Trek Pitch][news_gizmodo_trek_pitch_2011]
 - [News, IEEE Spectrum 2009, EVE Online Game Player Embezzles Virtual Money][news_ieee_ebank_2009]
+- [News, Kotaku 2017, War in EVE Online Is the Best, and Also the Worst][news_kotaku_war_2017]
 - [News, Kotaku 2018, Star Citizen Backer Sues to Get $4,500 Back, Loses][news_kotaku_refund_2018]
 - [News, Massively Overpowered 2016, Star Citizen Changes Refund Clause for New Backers][news_massively_refund_2016]
 - [News, PC Gamer 2021, Star Citizen Adds Disclaimer to Spaceship Preorders][news_pcgamer_asa_2021]
@@ -4400,12 +4506,15 @@ $$
 - [News, The Guardian 2002, Wake-up Call][news_guardian_mc02_2002]
 - [News, The Mittani 2012, Sins of a Solar Spymaster 78, The Extortion of Empire][news_ten_ton_hammer_otec_2012]
 - [News, The Register 2009, Gamer Embezzles Virtual Cash to Settle Real Debts][news_register_ebank_2009]
+- [Reference, Brynen 2010, Review: Wargaming for Leaders][ref_brynen_2010]
 - [Reference, Edmund Optics, Can a Laser Beam Be Seen from the Side?][ref_edmund_laser]
 - [Reference, FAI 2018, Statement about the Karman Line][ref_fai_karman_2018]
 - [Reference, Hattendorf 2014, Saving Nimitz's Graybook][ref_hattendorf_2014]
+- [Reference, Nielsen 2006, Progressive Disclosure][ref_nielsen_2006]
 - [Reference, SIGGRAPH History, The Last Starfighter][ref_siggraph_last_starfighter]
 - [Reference, Traveller System Reference Document, Spacecraft Operations][ref_traveller_srd]
 - [Reference, U.S. Joint Forces Command, Millennium Challenge 2002 Experiment Report][ref_jfcom_mc02]
+- [Reference, UK Ministry of Defence 2017, Wargaming Handbook][ref_uk_mod_wargaming_2017]
 - [Reference, Washington Employment Security Department, WARN Notices][ref_wa_esd_warn]
 - [Related Post, Mass Drivers][related_post_mass_drivers]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
@@ -4418,11 +4527,13 @@ $$
 - [Research, Barnett et al. 2006, The Impact of Science Fiction Film on Student Understanding of Science][research_barnett_et_al_2006]
 - [Research, Berry and Coppola 2007, Correct Modeling of the Indirect Term for Third-Body Perturbations][research_berry_coppola_2007]
 - [Research, Bohr 1913, On the Constitution of Atoms and Molecules][research_bohr_1913]
+- [Research, Carroll and Carrithers 1984, Training Wheels in a User Interface][research_carroll_carrithers_1984]
 - [Research, Castronova et al. 2009, As Real as Real? Macroeconomic Behavior in a Large-Scale Virtual World][research_castronova_et_al_2009]
 - [Research, Clement 1982, Students' Preconceptions in Introductory Mechanics][research_clement_1982]
 - [Research, Green and Armstrong 2007, The Ombudsman: Value of Expertise for Forecasting Decisions in Conflicts][research_green_armstrong_2007]
 - [Research, Hairer and Söderlind 2005, Explicit, Time Reversible, Adaptive Step Size Control][research_hairer_soderlind_2005]
 - [Research, Hairer et al. 2003, Geometric Numerical Integration Illustrated by the Störmer-Verlet Method][research_hairer_et_al_2003]
+- [Research, Kane 2017, Worlds without Moons: Exomoon Constraints for Compact Planetary Systems][research_kane_2017]
 - [Research, Levin et al. 2017, Darwin's Aliens][research_levin_et_al_2017]
 - [Research, Li et al. 2017, Modeling and Research of a Space-Based Spacecraft Infrared Detection System][research_li_et_al_2017]
 - [Research, Lisk et al. 2011, Leadership in Multiplayer Online Gaming Environments][research_lisk_et_al_2011]
@@ -4445,12 +4556,16 @@ $$
 [agency_esa_geo_2020]: https://www.esa.int/ESA_Multimedia/Images/2020/03/Geostationary_orbit
 [agency_jpl_ephemerides_2020]: https://ssd.jpl.nasa.gov/planets/eph_export.html
 [agency_nasa_black_holes]: https://science.nasa.gov/universe/black-holes/
+[agency_nasa_bsf_cruise]: https://science.nasa.gov/learn/basics-of-space-flight/chapter15-1/
 [agency_nasa_bsf_trajectories]: https://science.nasa.gov/learn/basics-of-space-flight/chapter4-1/
 [agency_nasa_coming_home]: https://www.nasa.gov/wp-content/uploads/2015/04/695726main_cominghome-ebook.pdf
 [agency_nasa_dawn_faq]: https://science.nasa.gov/mission/dawn/faq/
+[agency_nasa_drag_equation]: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/
 [agency_nasa_earth_fact_sheet]: https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html
 [agency_nasa_em_anatomy]: https://science.nasa.gov/ems/02_anatomy/
+[agency_nasa_flight_to_orbit]: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/flight-to-orbit/
 [agency_nasa_gamers_osiris_2016]: https://www.nasa.gov/centers-and-facilities/goddard/gamers-tackle-virtual-asteroid-sampling-mission/
+[agency_nasa_garcia_llama_2007]: https://ntrs.nasa.gov/citations/20070025087
 [agency_nasa_gmat_2007]: https://ntrs.nasa.gov/citations/20080031744
 [agency_nasa_iss_atcs]: https://www.nasa.gov/wp-content/uploads/2021/02/473486main_iss_atcs_overview.pdf
 [agency_nasa_jupiter_fact_sheet]: https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html
@@ -4462,14 +4577,22 @@ $$
 [agency_nasa_niac_stysley_2011]: https://www.nasa.gov/wp-content/uploads/2017/07/niac_2011_phasei_stysley_laserbasedopticaltrap_tagged.pdf
 [agency_nasa_orbit_catalog_2009]: https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/
 [agency_nasa_orbit_primer_2018]: https://science.nasa.gov/wp-content/uploads/2023/05/GDC_OrbitPrimer.pdf
+[agency_nasa_payload_ops_2019]: https://www.nasa.gov/wp-content/uploads/2021/03/payload_ops_fact_sheet_190604a.pdf
 [agency_nasa_pressure_suits_2017]: https://www.nasa.gov/wp-content/uploads/2023/05/dressing-for-altitude-nov-2017.pdf
+[agency_nasa_rocket_equation]: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ideal-rocket-equation/
 [agency_nasa_rocket_principles]: https://www.grc.nasa.gov/www/k-12/rocket/TRCRocket/rocket_principles.html
+[agency_nasa_rs25_2025]: https://www.nasa.gov/wp-content/uploads/2025/04/sls-4963-sls-rs-25-engine-fact-sheet-508.pdf
+[agency_nasa_shapiro_1979]: https://ntrs.nasa.gov/citations/19790016582
 [agency_nasa_shuttle_rcs_1975]: https://ntrs.nasa.gov/citations/19750061613
 [agency_nasa_smallsat_thermal]: https://www.nasa.gov/smallsat-institute/sst-soa/thermal-control/
 [agency_nasa_sp413_1977]: https://ntrs.nasa.gov/citations/19770014162
 [agency_nasa_space_comms_2020]: https://www.nasa.gov/missions/tech-demonstration/space-communications-7-things-you-need-to-know/
+[agency_nasa_specific_impulse]: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/specific-impulse/
 [agency_nasa_star_trek_55_2024]: https://www.nasa.gov/history/55-years-ago-star-trek-final-episode-airs-relationship-with-nasa-endures/
+[agency_nasa_staying_cool_2001]: https://web.archive.org/web/20191215040200/https://science.nasa.gov/science-news/science-at-nasa/2001/ast21mar_1
+[agency_nasa_stoneking_2007]: https://ntrs.nasa.gov/citations/20080044854
 [agency_nasa_sun_fact_sheet]: https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html
+[agency_nasa_thermal_guidebook_2023]: https://ntrs.nasa.gov/citations/20230013900
 [agency_nasa_tm_2025_mars_comms]: https://ntrs.nasa.gov/api/citations/20250003885/downloads/NASA%20TM20250003885.pdf
 [agency_nasa_webb_orbit]: https://science.nasa.gov/mission/webb/orbit/
 [agency_nasa_whipple]: https://hvit.jsc.nasa.gov/shield-development/
@@ -4490,6 +4613,7 @@ $$
 [community_eve_uni_trading]: https://wiki.eveuniversity.org/Trading
 [community_eve_uni_warp]: https://wiki.eveuniversity.org/Warp
 [community_ksp_wiki_kerbin]: https://wiki.kerbalspaceprogram.com/wiki/Kerbin
+[community_ksp_wiki_maneuver_node]: https://wiki.kerbalspaceprogram.com/wiki/Maneuver_node
 [community_ksp_wiki_multiplayer]: https://wiki.kerbalspaceprogram.com/wiki/Multiplayer
 [community_ksp_wiki_soi]: https://wiki.kerbalspaceprogram.com/wiki/Sphere_of_influence
 [community_sc_tools_planet]: https://starcitizen.tools/Planet
@@ -4517,6 +4641,7 @@ $$
 [dev_ccp_red_frog_2013]: https://www.eveonline.com/news/view/community-spotlight-red-frog-freight
 [dev_ccp_rmt_2016]: https://www.eveonline.com/news/view/overlays-isk-buyer-amnesty-and-account-security
 [dev_ccp_security_2021]: https://www.eveonline.com/news/view/team-security-2021-in-review
+[dev_ccp_sov_status_2015]: https://www.eveonline.com/news/view/summer-2015-nullsec-and-sov-status-report
 [dev_ccp_subscribers_2013]: https://community.eveonline.com/news/news-channels/press-releases/eve-online-surpasses-500-000-subscribers-worldwide
 [dev_ccp_taxes_2009]: https://www.eveonline.com/news/view/i-bring-gifts-by-gifts-i-mean-taxes-sorry
 [dev_ccp_taxes_2019]: https://www.eveonline.com/news/view/updates-to-sales-taxes-and-brokers-fees
@@ -4582,6 +4707,7 @@ $$
 [news_guardian_mc02_2002]: https://www.theguardian.com/world/2002/sep/06/usa.iraq
 [news_ieee_ebank_2009]: https://spectrum.ieee.org/eve-online-game-player-embezzles-virtual-money-creates-real-trouble
 [news_kotaku_refund_2018]: https://kotaku.com/star-citizen-backer-sues-to-get-4-500-back-loses-1827666550
+[news_kotaku_war_2017]: https://kotaku.com/war-in-eve-online-is-the-best-and-also-the-worst-1797982059
 [news_massively_refund_2016]: https://massivelyop.com/2016/06/21/star-citizen-changes-refund-clause-for-new-backers-plans-procedurally-generated-planets-for-2-7/
 [news_pcgamer_asa_2021]: https://www.pcgamer.com/star-citizen-adds-disclaimer-to-spaceship-preorders-after-regulator-says-theyre-misleading/
 [news_pcgamer_intercept_2024]: https://www.pcgamer.com/games/sim/kerbal-space-program-2-developer-intercept-games-may-be-closing-as-part-of-take-twos-big-layoff-plan/
@@ -4591,12 +4717,15 @@ $$
 [news_slashdot_straczynski_2013]: https://entertainment.slashdot.org/story/13/04/15/1328251/interviews-j-michael-straczynski-answers-your-questions
 [news_space_com_expanse_2015]: https://www.space.com/31437-the-expanse-crazy-sci-fi-tech.html
 [news_ten_ton_hammer_otec_2012]: https://www.tentonhammer.com/columns/sins-of-a-solar-spymaster-78-the-extortion-of-empire
+[ref_brynen_2010]: https://paxsims.wordpress.com/2010/11/19/review-wargaming-for-leaders/
 [ref_edmund_laser]: https://www.edmundoptics.com/knowledge-center/frequently-asked-questions/general-questions/lasers/can-a-laser-beam-be-seen-from-the-side
 [ref_fai_karman_2018]: https://www-2025.fai.org/news/statement-about-karman-line
 [ref_hattendorf_2014]: https://www.usni.org/magazines/naval-history-magazine/2014/june/saving-nimitzs-graybook
 [ref_jfcom_mc02]: https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Joint_Staff/12-F-0344-Millennium-Challenge-2002-Experiment-Report.pdf
+[ref_nielsen_2006]: https://www.nngroup.com/articles/progressive-disclosure/
 [ref_siggraph_last_starfighter]: https://history.siggraph.org/?p=94037
 [ref_traveller_srd]: https://www.traveller-srd.com/core-rules/spacecraft-operations/
+[ref_uk_mod_wargaming_2017]: https://www.gov.uk/government/publications/defence-wargaming-handbook
 [ref_wa_esd_warn]: https://fortress.wa.gov/esd/file/WARN/Public/SearchWARN.aspx
 [related_post_mass_drivers]: {% post_url 2026-08-19-mass_drivers %}
 [related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
@@ -4609,11 +4738,13 @@ $$
 [research_barnett_et_al_2006]: https://doi.org/10.1007/s10956-006-9001-y
 [research_berry_coppola_2007]: https://www.agi.com/getmedia/eff08466-52ad-4483-958a-2e3ceb922eab/Correct-Modeling-of-the-Indirect-Term-for-Third-Body-Perturbations.pdf
 [research_bohr_1913]: https://doi.org/10.1080/14786441308634955
+[research_carroll_carrithers_1984]: https://doi.org/10.1145/358198.358218
 [research_castronova_et_al_2009]: https://doi.org/10.1177/1461444809105346
 [research_clement_1982]: https://doi.org/10.1119/1.12989
 [research_green_armstrong_2007]: https://doi.org/10.1287/inte.1060.0262
 [research_hairer_et_al_2003]: https://doi.org/10.1017/S0962492902000144
 [research_hairer_soderlind_2005]: https://doi.org/10.1137/040606995
+[research_kane_2017]: https://doi.org/10.3847/2041-8213/aa6bf2
 [research_levin_et_al_2017]: https://doi.org/10.1017/S1473550417000362
 [research_li_et_al_2017]: https://doi.org/10.1364/AO.56.002428
 [research_lisk_et_al_2011]: https://doi.org/10.1177/1046878110391975

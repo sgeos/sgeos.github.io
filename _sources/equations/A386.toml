@@ -23,7 +23,7 @@ tag = 3
 class = "standard"
 title = "Hill Radius"
 gloss = "The approximate distance of a body's first and second Lagrange points, which lie outside its sphere of influence."
-cite = []
+cite = ["research_kane_2017"]
 digest = "0ced3629673c63bd"
 
 [[equation]]
@@ -31,7 +31,7 @@ tag = 4
 class = "standard"
 title = "Circular Orbital Speed at the Surface"
 gloss = "The speed of a circular orbit just above a body's surface in terms of its surface gravity and radius, which falls as the body shrinks at fixed gravity."
-cite = ["community_ksp_wiki_kerbin"]
+cite = ["agency_nasa_flight_to_orbit", "community_ksp_wiki_kerbin"]
 digest = "beb73d12ec6708f0"
 
 [[equation]]
@@ -111,7 +111,7 @@ tag = 14
 class = "standard"
 title = "Tsiolkovsky Rocket Equation"
 gloss = "The delta-v a rocket gains as its mass falls from the initial to the final mass."
-cite = []
+cite = ["agency_nasa_rocket_equation"]
 digest = "8583abd9dcaf919f"
 
 [[equation]]
@@ -143,7 +143,7 @@ tag = 18
 class = "standard"
 title = "Circular Orbital Speed"
 gloss = "The speed of a circular orbit at a given radius, which is what makes reaching orbit hard."
-cite = []
+cite = ["agency_nasa_flight_to_orbit"]
 digest = "56a3141ed67bcb1c"
 
 [[equation]]
@@ -167,7 +167,7 @@ tag = 21
 class = "bespoke"
 title = "Bespoke Radiator Power Without Absorbed Sunlight"
 gloss = "The Stefan-Boltzmann law applied to a radiator facing cold space with absorbed sunlight neglected, an assumption of the article's that lowers the area needed."
-cite = []
+cite = ["agency_nasa_thermal_guidebook_2023"]
 digest = "728d547db14f8e3a"
 
 [[equation]]
@@ -199,7 +199,7 @@ tag = 25
 class = "standard"
 title = "Propellant Mass Flow"
 gloss = "The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation."
-cite = []
+cite = ["agency_nasa_specific_impulse"]
 digest = "3601a1ad7671f001"
 
 [[equation]]
@@ -239,7 +239,7 @@ tag = 30
 class = "standard"
 title = "Euler's Equations of Rigid-Body Rotation"
 gloss = "The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path."
-cite = []
+cite = ["agency_nasa_stoneking_2007"]
 digest = "0bfbee91e09d9a1d"
 
 [[equation]]
@@ -247,7 +247,7 @@ tag = 31
 class = "standard"
 title = "Aerodynamic Drag"
 gloss = "The drag force on a body moving through air, which governs launch and reentry."
-cite = []
+cite = ["agency_nasa_drag_equation"]
 digest = "dff9c8059459e497"
 
 [[equation]]
@@ -255,7 +255,7 @@ tag = 32
 class = "standard"
 title = "Isothermal Exponential Atmosphere"
 gloss = "The simple model of air density falling exponentially with height above sea level."
-cite = []
+cite = ["agency_nasa_garcia_llama_2007", "agency_nasa_earth_fact_sheet"]
 digest = "02e4c3dbb6245db8"
 
 [[equation]]
@@ -303,7 +303,7 @@ tag = 38
 class = "standard"
 title = "Period of a Circular Orbit"
 gloss = "The time one circular orbit takes at a given radius, Kepler's third law for a circle."
-cite = []
+cite = ["agency_nasa_flight_to_orbit"]
 digest = "8943f518f3b59c76"
 
 [[equation]]
@@ -311,7 +311,7 @@ tag = 39
 class = "standard"
 title = "Special-Relativistic Clock Rate"
 gloss = "The exact rate of a moving clock against one at rest, which governs the time a traveller lives through at interstellar speeds."
-cite = ["research_ashby_2003"]
+cite = ["agency_nasa_shapiro_1979", "research_ashby_2003"]
 digest = "35540a0b7b715006"
 
 [[equation]]
