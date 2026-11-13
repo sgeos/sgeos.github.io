@@ -115,7 +115,7 @@ The thesis has six parts.
    and the [Possibility](#possibility) section gives the argument.
    The open problems are problems of engineering and design,
    and the hardest of them is time.
-   Whether the result can be made palatable to the general public,
+   Whether a design can make the result palatable to the general public,
    which the definition requires,
    depends on them and is open.
 4. **The existing products have not failed.**
@@ -131,7 +131,7 @@ The thesis has six parts.
    to the extent that its agents are subject to the same incentives and constraints that reality imposes.
    That hinges on a scenario whose incentives and constraints
    are close enough to those of real prospective problems.
-   Predictive value is therefore largely a function of being able to formulate realistic scenarios
+   Predictive value is then largely a function of being able to formulate realistic scenarios
    that agents are willing to take part in exploring.
    The competence of the agents matters less.
    Most people are of average ability for their station,
@@ -152,7 +152,7 @@ The paper drew on several purchased texts on modelling and simulation,
 which covered subjects such as n-body simulation
 and the simulation of fluids and fuel tanks.
 The author no longer has those books to hand and no longer recalls their titles,
-so this article does not cite them.
+so they go uncited here.
 The author has also forgotten some of the detailed articles that the paper cited.
 The sources below are public ones,
 and the argument is a broad synthesis
@@ -188,8 +188,8 @@ Bohr himself wrote that
 "the ordinary mechanics cannot have an absolute validity,
 but will only hold in calculations of certain mean values of the motion of the electrons."
 The model gives the energy levels of hydrogen.
-With $E\_{n}$ the energy of level $n$ in electronvolts
-and $n$ a positive whole number,
+Let $E\_{n}$ be the energy of level $n$ in electronvolts
+and $n$ a positive whole number.
 
 $$
 E_{n} = -\frac{13.6\ \mathrm{eV}}{n^{2}}
@@ -227,12 +227,12 @@ or the reverse,
 depending on what it is for.
 
 This principle is the measuring stick for the reviews that follow.
-This article does not fault a product for simplifying,
+The review does not fault a product for simplifying,
 and it judges each product twice.
 It judges first against the product's own purpose,
 where the only fault is a simplification that defeats that purpose.
 It judges again against its own purpose,
-which is a simulation meant to educate the public and to predict behaviour in space.
+namely a simulation meant to educate the public and to predict behaviour in space.
 For that purpose a stricter rule follows from the same principle,
 and it turns on the distinction between **omission** and **contradiction**.
 A model that leaves a phenomenon out
@@ -336,10 +336,10 @@ The sphere of influence comes from Laplace's treatment of the three-body problem
 and standard texts derive it
 [Curtis 2020a][book_curtis_2020_interplanetary]
 [Battin 1999][book_battin_1999].
-With $r\_{\mathrm{SOI}}$ the radius of the sphere,
+Let $r\_{\mathrm{SOI}}$ be the radius of the sphere,
 $a$ the semi-major axis of the smaller body's orbit,
 $m$ the mass of the smaller body
-and $M$ the mass of the larger,
+and $M$ the mass of the larger.
 
 $$
 r_{\mathrm{SOI}} = a \left( \frac{m}{M} \right)^{2/5}
@@ -374,7 +374,7 @@ NASA,
 orbits the Sun
 [NASA Webb Orbit][agency_nasa_webb_orbit],
 and it lies outside the sphere of influence computed above.
-A patched-conic simulation therefore cannot host the orbit
+So a patched-conic simulation cannot host the orbit
 of one of the most important observatories ever flown.
 This is an **omission** and not a **contradiction**,
 since the program leaves the third body out
@@ -383,7 +383,7 @@ For an agent learning the Hohmann transfer,
 the omission is sound.
 For an agent who goes looking for that orbit,
 it defeats the purpose,
-which is the second ground for fault named above.
+the second ground for fault named above.
 
 **Scale and approachability.**
 The program's home planet,
@@ -396,9 +396,9 @@ The community wiki puts Kerbin at
 "approximately one-tenth the radius of Earth."
 A smaller planet with the same surface gravity needs a lower orbital speed,
 so a beginner reaches orbit with a small rocket.
-With $v\_{\mathrm{s}}$ the speed of a circular orbit just above the surface,
+Let $v\_{\mathrm{s}}$ be the speed of a circular orbit just above the surface,
 $g$ the surface gravity
-and $R$ the planet's radius,
+and $R$ the planet's radius.
 
 $$
 v_{\mathrm{s}} = \sqrt{g R}
@@ -727,7 +727,7 @@ under its own engines
 A top speed under continuous thrust is already a departure from mechanics.
 In vacuum the acceleration from a given thrust does not fall as speed rises,
 and a ship gains speed for as long as it has propellant to burn.
-A search found no velocity law published by the developer.
+The developer appears to have published no velocity law of its own.
 The community's own guide gives one.
 With $v(t)$ the speed after $t$ seconds of full propulsion,
 $v\_{\max}$ the ship's top speed,
@@ -759,7 +759,8 @@ The simulation's model is therefore not an **omission** of orbital mechanics
 but a **contradiction** of inertia.
 The community name for it,
 submarine physics,
-is the community's and not the developer's.
+belongs to the community,
+not to the developer.
 
 **Travel.**
 A ship crosses a solar system by warp.
@@ -796,7 +797,7 @@ and only capital jump drives burn fuel
 
 **The agents.**
 Every agent that matters is a person.
-The interactions between them therefore have full fidelity,
+The interactions between them have full fidelity,
 because the simulation does not simulate them at all.
 It only sets the rules of a sandbox around them,
 which the developer itself calls
@@ -820,10 +821,10 @@ and the other agents,
 and that difficulty is of the kind the simulation exists to offer.
 
 **The product thesis.**
-A search found no statement of aim by the developer beyond the descriptions quoted above,
+The developer's pages read for this review state no aim beyond the descriptions quoted above,
 a single universe in which agents compete,
 run as a sandbox.
-This article infers the thesis it attributes to the product from them
+The thesis attributed to the product here is an inference from them
 and from the product itself.
 It is one world whose content is the dealings of its agents with one another.
 
@@ -837,14 +838,14 @@ and the conclusions drawn from it do not depend on its being current.
 EVE Online is fascinatingly odd here.
 Its individual models are terrible,
 yet they interlock so comprehensively that the whole reproduces real economic behaviour,
-which is where its predictive value lies.
+and its predictive value lies there.
 The commodity market is the one place where the model is strong and accurate,
 because nothing simulates it.
 Real agents set every price,
 so the market behaves as markets do.
 
 This subsection is long,
-because the economy is the best evidence this article has
+because the economy is the best evidence available here
 that agents in a simulation behave as people do.
 It describes the supply chain and its rules,
 with the developer's formulas for readers who want them,
@@ -875,8 +876,8 @@ logistics included.
 
 **Right-sized fidelity.**
 EVE Online's wrong models have the right fidelity for the problem they actually serve,
-which is driving meaningful interaction between agents.
-By the sizing principle of this article,
+namely driving meaningful interaction between agents.
+By the sizing principle,
 that is a success.
 A supply chain that exists and works
 matters more to that problem than one that is accurate.
@@ -910,7 +911,7 @@ of technobabble pulled into the base of a supply chain.
 
 **Industry costs.**
 The developer publishes its formulas.
-This article quotes them to show what kind of model the parts are.
+They appear here to show what kind of model the parts are.
 Each is a rule of bookkeeping with no physics in it,
 and one of them is a sound piece of economic design.
 With $C\_{\mathrm{job}}$ the cost of installing an industry job,
@@ -1128,7 +1129,8 @@ sinks,
 inflation indices
 and sales of PLEX from reserve
 are monetary policy under other names,
-practised by the developer and not by the agents.
+practised by the developer,
+not by the agents.
 
 **Skills that transfer.**
 High-commitment simulations can hold their agents to very high expectations,
@@ -1138,8 +1140,8 @@ found that
 "56% of players said that skills they learned through playing EVE had proven to be valuable in their lives outside of the game and in their careers"
 [Den of Geek 2020][news_den_of_geek_2020].
 The developer sponsored the source,
-and a search did not find the underlying study,
-so this article reports the figure as the developer's claim.
+and the underlying study did not turn up,
+so the figure stands here as the developer's claim.
 Peer-reviewed work is more cautious but points the same way.
 One study examined leadership in online environments shared by many participants,
 EVE Online among them
@@ -1301,12 +1303,13 @@ In 2016 Chris Roberts said that day and night would come from a planet rotating 
 and that the system
 "will also be able to rotate the planet around the sun"
 [GamersNexus 2016][news_gamersnexus_roberts_2016].
-A search found no developer statement on whether that capability is in use.
+No developer statement read here says whether that capability is in use.
 The community wiki states that the planets
 "spin, have a day and night cycle, and are planned to eventually orbit"
 [Planet][community_sc_tools_planet].
 On that evidence,
-which on the present state is the community's and not the developer's,
+which for now comes from the community,
+not from the developer,
 the bodies rotate in place at fixed positions,
 and the simulation,
 though designed for orbits,
@@ -1334,8 +1337,8 @@ The developer states that
 and that
 "In atmosphere, thrusters now lose efficiency and become much weaker"
 [Flight and Fight Improvements][dev_rsi_flight_2020].
-A search found no source for reentry heating as a hazard
-or for any requirement to reach orbital speed in order to reach orbit.
+The developer's notes read here give no sign of reentry heating as a hazard
+or of any requirement to reach orbital speed in order to reach orbit.
 Agents fly through launch and reentry,
 but the simulation does not model them as the challenges they are.
 
@@ -1371,11 +1374,11 @@ under the constraints its makers faced,
 and this is the stance from which the review reads them.
 It is an interpretation as much as a finding.
 The four are prominent,
-so it describes products that succeeded
-and not every attempt,
-and where a product thesis is inferred from the product,
-as EVE Online's is,
-the product is bound to express it.
+so it describes products that succeeded,
+not every attempt.
+Where the review infers a product thesis from the product,
+as it does for EVE Online,
+the product cannot fail to express it.
 Star Citizen is the case that strains the stance,
 as the account below shows.
 Kerbal Space Program wanted approachable rocketry and got it.
@@ -1519,9 +1522,9 @@ For 2020 to 2022 the income is the sum of the stated pledges or sales,
 subscriptions
 and other income,
 and the cost is the sum of the stated costs and capital expenditure.
-With $\rho\_{y}$ the ratio of spending to income in year $y$,
+Let $\rho\_{y}$ be the ratio of spending to income in year $y$,
 $C\_{y}$ the costs including capital expenditure
-and $R\_{y}$ the income,
+and $R\_{y}$ the income.
 
 $$
 \rho_{y} = \frac{C_{y}}{R_{y}}
@@ -1548,7 +1551,7 @@ the perpetual alpha is the business model working as intended.
 The alpha label lowers expectations,
 selling ships ahead of what agents can do with them depends on nothing being final,
 and the terms keep pledges non-refundable for as long as development continues.
-That reading fits this article's own principle
+That reading fits the principle stated above
 that developers are generally competent and achieve their product thesis.
 Star Citizen has achieved product-market fit while still in alpha,
 which is highly irregular.
@@ -1563,10 +1566,10 @@ The figures sharpen rather than settle the question.
 A ratio near one is consistent with what the terms promise,
 since a pledge is a deposit towards development,
 and the figures show the company banking no profit.
-This article did not establish what covered the excess of spending over income
+The reports read here do not show what covered the excess of spending over income
 in the last two years.
 Income that recurs without a release imposes no deadline,
-which is how a project can grow for fourteen years without one.
+so a project can grow for fourteen years without one.
 What the figures cannot show is what the spending bought.
 The author's judgement is that spending of about 635 million dollars in five years,
 on top of the eight years before them,
@@ -1778,11 +1781,11 @@ Real travel takes time set by orbital mechanics,
 and the delta-v of a transfer sets what it costs
 [Orbital Manoeuvres][related_post_orbital_manoeuvres].
 The rocket equation connects delta-v to propellant.
-With $\Delta v$ the change in velocity,
+Let $\Delta v$ be the change in velocity,
 $I\_{\mathrm{sp}}$ the specific impulse in seconds,
 $g\_{0}$ standard gravity at 9.80665 metres per second squared,
 $m\_{0}$ the initial mass
-and $m\_{\mathrm{f}}$ the final mass,
+and $m\_{\mathrm{f}}$ the final mass.
 
 $$
 \Delta v = I_{\mathrm{sp}}\, g_{0} \ln \frac{m_{0}}{m_{\mathrm{f}}}
@@ -1813,8 +1816,8 @@ or $1.888 \times 10^{8}$ kilometres,
 and the transfer takes about 259 days.
 Nor can it begin at any moment.
 The planets return to the same relative position once each synodic period.
-With $S$ the synodic period
-and $T\_{1}$ and $T\_{2}$ the orbital periods of the inner and outer planets,
+Let $S$ be the synodic period
+and $T\_{1}$ and $T\_{2}$ the orbital periods of the inner and outer planets.
 
 $$
 \frac{1}{S} = \frac{1}{T_{1}} - \frac{1}{T_{2}}
@@ -1842,9 +1845,9 @@ as the European Space Agency,
 ESA,
 describes it
 [ESA 2020][agency_esa_geo_2020].
-With $r\_{\mathrm{G}}$ the radius of the orbit,
+Let $r\_{\mathrm{G}}$ be the radius of the orbit,
 $\mu$ Earth's gravitational parameter at 398,600 cubic kilometres per second squared
-and $T$ the sidereal day of 86,164 seconds,
+and $T$ the sidereal day of 86,164 seconds.
 
 $$
 r_{\mathrm{G}} = \left( \frac{\mu T^{2}}{4 \pi^{2}} \right)^{1/3}
@@ -1867,8 +1870,8 @@ The Fédération Aéronautique Internationale describes
 as the boundary of space
 [FAI 2018][ref_fai_karman_2018].
 What makes orbit hard is speed.
-With $v\_{\mathrm{c}}$ the speed of a circular orbit
-and $r$ its radius from Earth's centre,
+Let $v\_{\mathrm{c}}$ be the speed of a circular orbit
+and $r$ its radius from Earth's centre.
 
 $$
 v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
@@ -1893,9 +1896,9 @@ NASA's own explanation for students says that at the station's altitude
 and that microgravity
 "is sometimes called 'zero gravity,' but this is misleading"
 [NASA 2012][agency_nasa_microgravity].
-With $g(h)$ the acceleration of gravity at altitude $h$,
+Let $g(h)$ be the acceleration of gravity at altitude $h$,
 $g\_{0}$ its value at the surface
-and $R$ Earth's radius,
+and $R$ Earth's radius.
 
 $$
 g(h) = g_{0} \left( \frac{R}{R + h} \right)^{2}
@@ -1924,9 +1927,9 @@ that people living permanently in space
 and that rates
 "greater than 1 rpm should be avoided"
 [Johnson and Holbrow 1977][agency_nasa_sp413_1977].
-With $a\_{\mathrm{c}}$ the acceleration felt at the rim,
+Let $a\_{\mathrm{c}}$ be the acceleration felt at the rim,
 $\omega$ the rate of rotation in radians per second
-and $r$ the radius,
+and $r$ the radius.
 
 $$
 a_{\mathrm{c}} = \omega^{2} r
@@ -1977,11 +1980,11 @@ NASA's small spacecraft guidance states that
 and the International Space Station's external thermal system has
 "a total capability of 70 kW"
 [ISS Active Thermal Control][agency_nasa_iss_atcs].
-With $P$ the power radiated,
+Let $P$ be the power radiated,
 $\varepsilon$ the emissivity of the radiator,
 $\sigma$ the Stefan-Boltzmann constant at $5.670 \times 10^{-8}$ watts per square metre per kelvin to the fourth,
 $A$ the radiating area
-and $T$ its temperature in kelvin,
+and $T$ its temperature in kelvin.
 
 $$
 P = \varepsilon \sigma A T^{4}
@@ -2001,7 +2004,7 @@ The developer of Children of a Dead Earth goes further and argues that there is
 "no stealth in space"
 [The Essence of Space Warfare][dev_code_essence_2016].
 No agency or peer-reviewed source makes that claim in general,
-so this article treats it as the developer's argument.
+so it stands here as the developer's argument.
 
 **Remedy.**
 Model heat as a resource that a craft must reject,
@@ -2106,9 +2109,9 @@ NASA's Goddard communications staff note that
 and a NASA technical memorandum gives Mars an
 "up to 22-minute one-way (44-minute round-trip) delay at maximum distance from Earth"
 [Landon et al. 2025][agency_nasa_tm_2025_mars_comms].
-With $t\_{\mathrm{L}}$ the one-way delay,
+Let $t\_{\mathrm{L}}$ be the one-way delay,
 $d$ the distance
-and $c$ the speed of light,
+and $c$ the speed of light.
 
 $$
 t_{\mathrm{L}} = \frac{d}{c}
@@ -2189,7 +2192,7 @@ None is known.
 A NASA study of optical trapping reports that
 "tractor beams do exist but can only move a limited number of targets over micron-level distances"
 [Stysley 2011][agency_nasa_niac_stysley_2011].
-A search found no source of any kind for inertial dampeners.
+Inertial dampeners have no source of any kind.
 By Newton's second law a crew feels every acceleration of its ship,
 and that limit on a crewed craft's manoeuvres is part of the physics worth teaching.
 
@@ -2222,7 +2225,7 @@ It does not mean that the clock runs at the rate of a wall clock,
 which the [Time](#time) section treats.
 Near-term space means the solar system under known physics
 and engineering that can be specified from it,
-which is the standard Children of a Dead Earth set itself.
+the standard Children of a Dead Earth set itself.
 That simulation already has the physics,
 derived from engineering equations with no vision imposed on the result.
 What it lacks is the shared world.
@@ -2272,12 +2275,12 @@ One account of the standard method says that it ignores the forces of the spacec
 so that
 "the motion of the celestial bodies can be determined independently from the motion of the spacecraft"
 [Berry and Coppola 2007][research_berry_coppola_2007].
-The cost of the gravity model therefore grows in proportion to the number of craft
-and not to its square.
-With $t\_{\mathrm{step}}$ the time one processor core needs to advance every craft by one step,
+So the cost of the gravity model grows in proportion to the number of craft
+not to its square.
+Let $t\_{\mathrm{step}}$ be the time one processor core needs to advance every craft by one step,
 $N\_{\mathrm{c}}$ the number of craft,
 $\bar{n}$ the mean number of bodies each craft feels
-and $t\_{\mathrm{f}}$ the time of one evaluation of the inverse-square law,
+and $t\_{\mathrm{f}}$ the time of one evaluation of the inverse-square law.
 
 $$
 t_{\mathrm{step}} = N_{\mathrm{c}}\, \bar{n}\, t_{\mathrm{f}}
@@ -2288,9 +2291,9 @@ A published benchmark of gravitational force loops measured two billion evaluati
 on one processor core with vector instructions,
 twenty times the rate of plain code
 [Tanikawa et al. 2013][research_tanikawa_et_al_2013].
-Plain code therefore needs about 10 nanoseconds for each evaluation.
+Plain code then needs about 10 nanoseconds for each evaluation.
 The benchmark used single precision and a solar system needs double,
-so this article allows 20.
+so the estimate allows 20.
 One hundred thousand craft,
 each feeling thirty bodies,
 then need three million evaluations and about 0.06 seconds for each step.
@@ -2302,7 +2305,7 @@ and the step to between 6 and 20 milliseconds.
 At a step of ten simulated seconds and a compression of one hundred,
 both of them assumptions,
 the world needs ten steps in each second of real time,
-which is 0.6 seconds of one core's work at thirty bodies.
+or 0.6 seconds of one core's work at thirty bodies.
 The work divides cleanly among cores,
 because no craft waits on another.
 A craft in interplanetary cruise also needs far fewer steps than one in low orbit.
@@ -2314,7 +2317,7 @@ since each plan propagates a craft across months and each edit repeats the work.
 And the estimate leaves out collisions,
 sensors
 and everything else that happens when craft meet,
-which is where a real implementation would spend its effort.
+where a real implementation would spend its effort.
 
 The third is that the hardest problem is not the computation of orbits.
 It is time,
@@ -2323,7 +2326,7 @@ The claim of possibility is therefore conditional.
 No obstacle in physics is known,
 and the gravity model is cheap.
 What happens when many craft crowd one region is an open problem of engineering,
-which this article does not cost.
+and it goes uncosted here.
 Whether a design can make the result palatable to the general public
 depends on the problem of time,
 which this article names and does not solve.
@@ -2376,7 +2379,7 @@ which this article names and does not solve.
   Rescaling also lowers every delta-v budget and shortens every light time,
   so it changes the prices and the delays the simulation exists to study.
   Compression changes only how long those delays feel.
-  The design therefore prefers compression,
+  The design prefers compression for that reason,
   and the rate of time is the one parameter it changes.
   A reduced system at a lower compression is an alternative it has not weighed further.
 - **Gravity.**
@@ -2406,7 +2409,8 @@ which this article names and does not solve.
   atmospheric drag
   and corrections for general relativity among the forces on a spacecraft
   [Berry and Coppola 2007][research_berry_coppola_2007].
-  By this article's own test agents need those terms wherever they work in low orbit.
+  By the test applied to Kerbal Space Program above,
+  agents need those terms wherever they work in low orbit.
   An orbit that keeps pace with the Sun exists because
   "The Earth's equatorial bulge imparts an out-of-plane force on the orbit which causes a gyroscopic precession of the line of nodes"
   [Mesarch 2018][agency_nasa_orbit_primer_2018],
@@ -2499,7 +2503,7 @@ which this article names and does not solve.
   It cannot bind the people behind them,
   who talk to one another outside the simulation
   and may act through several characters at once.
-  The design therefore enforces light time on what it controls,
+  The design enforces light time on what it controls,
   namely what a craft senses,
   when an order reaches it
   and when a trade settles,
@@ -2545,8 +2549,8 @@ The sum runs over the planets and moons on their ephemerides,
 so a craft feels every body at once,
 and Lagrange points and perturbations appear unscripted.
 Thrust consumes propellant.
-With $\dot{m}$ the rate of change of the craft's mass
-and $F$ the thrust,
+Let $\dot{m}$ be the rate of change of the craft's mass
+and $F$ the thrust.
 
 $$
 \dot{m} = -\frac{F}{I_{\mathrm{sp}}\, g_{0}}
@@ -2603,17 +2607,17 @@ Those are about 1.4 parts in ten million of Earth's pull,
 0.6 parts in ten million
 and one part in a trillion.
 A simulation that keeps every perturbation above one part in a billion
-gives that craft three bodies to feel and not thirty,
+gives that craft three bodies to feel in place of thirty,
 and the threshold is a declared omission of known size.
-The tidal bound is this article's approximation,
+The tidal bound is an approximation made here,
 good to first order in the ratio of the two distances.
 
 **The step.**
 A symplectic method can advance the equations of motion of a coasting craft in fixed steps.
 The simplest is the leapfrog in its kick-drift-kick form.
-With $\Delta t$ the step,
+Let $\Delta t$ be the step,
 $\mathbf{v}$ the velocity
-and $\mathbf{a}(\mathbf{r})$ the acceleration at position $\mathbf{r}$,
+and $\mathbf{a}(\mathbf{r})$ the acceleration at position $\mathbf{r}$.
 
 $$
 \begin{aligned}
@@ -2640,7 +2644,7 @@ It holds for a constant step,
 and it bounds the error in energy,
 not the error in position along the orbit.
 Among moving planets a craft's energy is not constant even in exact physics,
-which is what a gravity assist exploits,
+a fact that a gravity assist exploits,
 so the result does not carry over unchanged.
 A close flyby needs a shorter step than a cruise,
 and a burn or a pass through air is not a conservative force.
@@ -2649,7 +2653,7 @@ since
 "Adaptive step size control is difficult to combine with geometric numerical integration"
 [Hairer and Söderlind 2005][research_hairer_soderlind_2005],
 though the same authors give a reversible rule that keeps the long-term behaviour.
-The choice of integrator is therefore open.
+The choice of integrator stays open.
 Whatever the choice,
 every machine must apply the same rule for choosing steps,
 and a later article in this series treats it.
@@ -2657,7 +2661,7 @@ and a later article in this series treats it.
 **Determinism.**
 A shared world does not strictly need a reproducible step.
 One authoritative server can compute the world and tell every client the answer,
-which is the simplest arrangement.
+and nothing is simpler.
 The blueprint asks for reproducibility anyway,
 for two reasons.
 A predictive simulation should be open to checking,
@@ -2724,11 +2728,11 @@ The remedy for banking turns now has its equation.
 
 **Atmosphere.**
 Launch and reentry need drag and heating.
-With $F\_{\mathrm{D}}$ the drag force,
+Let $F\_{\mathrm{D}}$ be the drag force,
 $\rho$ the density of the air,
 $v$ the speed,
 $C\_{\mathrm{D}}$ the drag coefficient
-and $A$ the reference area,
+and $A$ the reference area.
 
 $$
 F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
@@ -2790,9 +2794,9 @@ Where a subsystem needs slosh,
 the standard practice is an equivalent mechanical model,
 in which the moving liquid behaves as a pendulum attached to the tank
 [Abramson 1966][research_abramson_1966].
-With $\omega\_{\mathrm{s}}$ the natural frequency of the first slosh mode,
+Let $\omega\_{\mathrm{s}}$ be the natural frequency of the first slosh mode,
 $a$ the acceleration along the tank's axis
-and $L$ the length of the equivalent pendulum,
+and $L$ the length of the equivalent pendulum.
 
 $$
 \omega_{\mathrm{s}} = \sqrt{\frac{a}{L}}
@@ -2846,7 +2850,8 @@ The shared timeline of the world is the time $t$ of this equation,
 and each craft's own clock is $t\_{\mathrm{c}}$.
 Leaving the effect out would be an omission and not a contradiction,
 but the cost of including it is one line in the step.
-The clock binds the craft and not the person behind it,
+The clock binds the craft,
+not the person behind it,
 who lives by the wall clock,
 and that limit is of the same kind as the one on light time.
 
@@ -2858,9 +2863,9 @@ A time warp chosen by one agent cannot be imposed on thousands of others,
 since one agent's acceleration of time would move every other agent's world.
 A shared clock may still run fast,
 provided it runs fast for everyone.
-With $t\_{\mathrm{w}}$ the wall-clock time an agent waits,
+Let $t\_{\mathrm{w}}$ be the wall-clock time an agent waits,
 $t\_{\mathrm{s}}$ the simulated time that passes
-and $\kappa$ the compression factor shared by every agent,
+and $\kappa$ the compression factor shared by every agent.
 
 $$
 t_{\mathrm{w}} = \frac{t_{\mathrm{s}}}{\kappa}
@@ -2868,7 +2873,7 @@ t_{\mathrm{w}} = \frac{t_{\mathrm{s}}}{\kappa}
 $$
 
 The same factor shortens everything.
-The table applies it to four durations worked earlier in this article
+The table applies it to four durations worked earlier
 and to one more,
 a single orbit at the height of the space station.
 With $T\_{\mathrm{o}}$ the period of a circular orbit of radius $r$
@@ -3046,9 +3051,9 @@ A fast pass is not the rare event.
 In a crowded shell of low orbit,
 craft cross within range of one another often,
 at the closing speeds worked earlier.
-With $\nu$ the rate at which one craft passes within range $R$ of another,
+Let $\nu$ be the rate at which one craft passes within range $R$ of another,
 $N$ the number of craft in a shell of volume $V$
-and $v\_{\mathrm{rel}}$ their typical relative speed,
+and $v\_{\mathrm{rel}}$ their typical relative speed.
 
 $$
 \nu = \frac{N}{V}\, \pi R^{2}\, v_{\mathrm{rel}}
@@ -3151,7 +3156,7 @@ Prices inside the simulation would also travel at the speed of light.
 A quote from another planet is minutes old when it arrives,
 so a trader there acts on the past.
 That holds only for an agent with no channel outside the simulation,
-which is the leak the light-time rule already declares.
+the leak that the light-time rule already declares.
 The arbitrage condition above still governs every haul,
 with the propellant now part of its cost.
 Congestion pricing of the kind EVE Online applies to production
@@ -3168,19 +3173,19 @@ which the developer calls
 serves every region's market orders and price history,
 some of its routes needing no authentication at all
 [ESI Overview][dev_ccp_esi_overview].
-Anyone can therefore study the economy from outside.
+Anyone can study the economy from outside.
 A predictive simulation needs that openness,
 because evidence nobody can check is not evidence.
 Openness and light time pull against each other,
 since a public feed of every market would let agents see prices before the light arrives.
-The simulation must therefore publish its record late,
+So the simulation must publish its record late,
 by at least the longest light time in the world,
 or after the fact.
 
 ### Approachability Without Miseducation
 
 The design answer to Children of a Dead Earth's difficulty is layered disclosure.
-The idea is established in the design of interfaces.
+Interface designers know the idea well.
 Nielsen describes progressive disclosure,
 which
 "defers advanced or rarely used features to a secondary screen, making applications easier to learn and less error-prone"
@@ -3228,7 +3233,7 @@ that
 [Maneuver Node][community_ksp_wiki_maneuver_node].
 Kerbal Space Program's sales and its use in schools suggest
 that the public will take up planning tools of this kind,
-though a search found no measurement of what its users learn.
+though no measurement of what its users learn came to light.
 An autopilot that obeys physics is an approachability tool.
 A warp drive that disobeys it is miseducation.
 
@@ -3251,7 +3256,7 @@ The games at Newport earned their reputation by replaying one war many times ove
 and the research on role playing rests on many short sessions.
 A single persistent world yields a single path through its possibilities,
 however many agents walk it.
-The blueprint therefore treats a world as an instance of a scenario and not as the only one.
+The blueprint therefore treats a world as one instance of a scenario among several.
 The same starting conditions can open more than one world,
 at once or in succession,
 and a variant can change one condition and hold the rest.
@@ -3264,7 +3269,7 @@ At a compression of ten,
 a world that runs for one real year covers ten simulated years,
 and at one hundred it covers a century.
 A world that stood as long as EVE Online has,
-which is twenty-three years,
+some twenty-three years,
 would cover 230 simulated years at a compression of ten.
 Nobody can plausibly hold near-term technology fixed across such a span,
 so a world needs an end,
@@ -3316,7 +3321,7 @@ and warns that
 None of that work concerns spaceflight.
 It supports the general claim that behaviour in a simulated world can map to behaviour in the real one,
 and it insists that researchers show the mapping and not assume it.
-The three bounds that follow are this article's account of what the mapping depends on.
+The three bounds that follow give an account of what the mapping depends on.
 
 The mechanism deserves stating outright.
 A sufficiently high-fidelity multi-agent simulation should have significant predictive value
@@ -3337,7 +3342,7 @@ The claim hinges on the scenario.
 The incentives and constraints of the simulation must be close enough to those of real prospective problems.
 Where they are not,
 the agents adapt just as faithfully to the wrong conditions.
-Predictive value is therefore largely a function of two abilities,
+Predictive value is largely a function of two abilities,
 to formulate a realistic scenario
 and to find agents willing to take part in exploring it.
 The first is the work of fidelity and the second of approachability,
@@ -3390,7 +3395,7 @@ Their participants came from the body of officers that went on to command the fl
 The same historian records that
 "Of the flag officers commanding combat formations in the 1941 fleet, only one had not attended the War College"
 [Friedman 2017][book_friedman_2017].
-Newport therefore shows circumstance driving the decisions of selected professionals.
+Newport shows circumstance driving the decisions of selected professionals.
 It does not show that ability is unimportant,
 and the agents of a public simulation are volunteers,
 not selected officers.
@@ -3483,8 +3488,9 @@ will invite the verdict that the simulation is unrealistic,
 when the purpose of building it was to find out.
 
 The first of the three bounds is fidelity,
-because agents adapt to the model and not to reality,
-which is what Children of a Dead Earth's meta shows.
+because agents adapt to the model,
+not to reality,
+as Children of a Dead Earth's meta shows.
 Castronova and colleagues reached the same caution from the other side,
 suggesting that
 "macroeconomic outcomes in a virtual world may be explained largely by design structure."
@@ -3544,7 +3550,7 @@ and that voluntary commitment is the incentive feedback a predictive simulation 
 EVE Online adds a refinement.
 Its predictive value comes less from the fidelity of any component
 than from how comprehensively the components interlock,
-which is how terrible parts produce tax havens and embezzlement.
+so terrible parts produce tax havens and embezzlement.
 It is an inference that predictive value has two sources,
 the fidelity of the parts and the completeness of their interlock.
 Interlock is not a fourth bound.
@@ -3565,8 +3571,8 @@ The gap is widest exactly where the physics adds something.
 Behaviour under delta-v,
 light time
 and launch windows has no real counterpart yet to compare with,
-so the mapping that Williams says must be shown
-cannot be shown for it until people live under those conditions.
+so nobody can show the mapping that Williams requires
+until people live under those conditions.
 
 That raises an obvious question.
 If EVE Online reproduces real behaviour without honest physics,
@@ -3677,7 +3683,7 @@ Two facts rest on a community wiki and on the author's own observation together.
 The author has watched EVE Online's ships slow to rest,
 and recalls noting that Star Citizen's celestial bodies were not subject to celestial mechanics.
 Star Citizen's crowdfunding total comes from the developer's own counter,
-whose units this article infers to be cents.
+whose units the review takes to be cents.
 The Cloud Imperium incomes for 2020 to 2022 and all five spending ratios are sums and quotients of stated figures.
 The survey on transferable skills appeared in an article sponsored by the developer.
 The Star Trek line about tritanium is from the episode as aired,
@@ -3701,7 +3707,7 @@ Frost
 and Kurz rests on the catalogue record of their book,
 on a published review
 and on the author's memory of reading it,
-since neither the author nor the research for this article had its text to hand.
+since neither the author nor the research had its text to hand.
 That people have run Traveller in real time rests on a remark the author overheard in person
 and recalls imperfectly,
 which no source here supports.
@@ -3740,7 +3746,7 @@ the transfer of skills
 and burnout,
 the estimate of what the gravity model costs to compute,
 the tidal bound on a third body's perturbation,
-the treatment of a world as one instance of a scenario that can be opened more than once,
+the treatment of a world as one instance of a scenario that its builders can open more than once,
 the claim that ability average for a station suffices for agents,
 the view that predictive value is largely a matter of realistic scenarios and willing agents,
 and the blueprint.
@@ -3781,19 +3787,19 @@ This reconstruction names incentives as a third bound on predictive value.
 The author regards the reasoning behind it,
 that agents under the same incentives and constraints behave as real stakeholders would,
 as part of the thesis.
-The thirteen equations that the Equations section marks as bespoke are constructions of this article,
+The thirteen equations that the Equations section marks as bespoke are constructions made here,
 and the engagement-time,
 radiator,
 gravity-cost
 and pass-rate equations among them show orders of magnitude only.
-Three standard equations are cited to NASA documents
-whose scanned mathematics the research for this article read from page images,
+Three standard equations rest on NASA documents
+whose scanned mathematics the research read from page images,
 namely the period of an orbit,
 Euler's equations
 and the special-relativistic clock rate.
 What EVE Online has demonstrated is reproduction of known behaviour,
 not a prediction later confirmed,
-and the miseducation this article warns of is a hypothesis with indirect support.
+and the miseducation warned of above is a hypothesis with indirect support.
 
 **The reconstruction.**
 The author reconstructed the thesis from memory.
@@ -3802,7 +3808,7 @@ nobody can consult the paper to settle it.
 The books the paper drew on stand on a shelf the author cannot reach,
 and the notes went with the paper,
 so most of its original sources go uncited here.
-This article reviews the products as they stand in November 2026,
+The review takes the products as they stand in November 2026,
 not as they stood when the author wrote the paper,
 which,
 as far as the author recalls,
@@ -3821,11 +3827,11 @@ leaves the conclusions unchanged.
   and a later article works them.
 - **Other products.**
   The paper's list held other simulations that it never reviewed for lack of time.
-  This article does not review Orbiter,
+  Nor does the review cover Orbiter,
   Elite Dangerous,
   Space Engineers
-  or the others either,
-  so it states the third claim as none known.
+  or the others,
+  so the third claim reads none known.
 - **Hands-on testing.**
   The reviews rest on the developers' public statements,
   on first principles
@@ -3834,7 +3840,7 @@ leaves the conclusions unchanged.
   on the author's earlier experience of the products,
   not on new hands-on testing.
 - **Reverse engineering.**
-  This article reverse engineered no product,
+  The author reverse engineered no product,
   and the series will not.
 
 ## Conclusion
