@@ -11,6 +11,64 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `7a23eb1`
+- **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the reader's pass on A386. This file's own
+  commit sits directly on top, so `git rev-parse HEAD~1` must print `7a23eb1...` for this handoff to be valid.
+  `python3 _lib/blog.py handoff` makes that comparison.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `021cce5`. Every A386 commit from `7f4ff87` to `7a23eb1`, their handoff restamps
+  and this file's commit are **local and unpushed**. Nothing is pushed or published without the pilot's approval. A
+  push goes through a `ci/<topic>` branch and a passing `CI result`. The draft is in `_drafts/`, so a push does not
+  change the live site, though it does publish the new records in `_sources/`.
+- **PUBLICATION STATE.** A1 to A385 are published. **A386 is nominally ready, awaits the pilot's proofreading, and is
+  not published.** The next free article number is A387.
+
+## Resume Here
+
+**The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
+`_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
+`multi_agent_space_simulation`, editorial date 2026-11-12. The seven publication passes are done, and **a reader's
+pass followed on 2026-11-13** at the pilot's request, so that the article is nominally ready before the pilot's final
+proofreading. **The article waits for that proofreading and for the pilot's approval to publish.**
+
+**Read first.** [Multi-Agent Space Simulation Series](./multi_agent_space_simulation_series.md) for the arc, the
+standing rulings and the open items, then `REVERSE_PROMPT.md`, sixth entry of 2026-11-13. The rulings, the
+publication steps and the verification procedure in the superseded section directly below still hold, with the
+changes this section names.
+
+**What the reader's pass changed.**
+- The argument in brief opens the article. The lost paper is the second paragraph.
+- Thesis components are claims. Claims 3 and 5 are shortened to the claim with pointers, and the removed sentences
+  remain in Possibility and Predictive Value. The pilot may ask for them back.
+- The blueprint's order is Principles, The Physical Core, Possibility, Time, The Agents, An Economy Under Physics,
+  Approachability Without Miseducation, Predictive Value, Scenarios, Market Demand, Equations for an Implementation.
+- **Equations 24 to 41 were renumbered.** `tmp/a386/write_toml.py` carries the new order and the caution's numbers.
+- Epistemic State is five labelled lists. Ten terms carry glosses at first use, in the agent's wording.
+- The edits are `tmp/a386/reader1.py` to `reader3.py`, with `tmp/a386/epistemic_state.md`. The reader's report is
+  `tmp/a386/reader_report.txt`. The draft before the pass is `tmp/a386/draft_before_reader_pass.markdown`.
+
+**State.** 25,004 words of author prose, 41 display equations, 28 standard and 13 bespoke, and 210 references.
+`_verify.py --strict` reports 0 and 0, the equations check is consistent, and 66 of 66 worked numbers pass.
+`./_check.sh` passed on the scratch copy, 554 pages and no rendered findings, before one last phrase changed. The
+verifier, a production build and the rendered audit were rerun after it and passed. The library tests were not
+rerun, since no library file changed.
+
+**Rendered checks.** The scratch site is `tmp/a386/site`, built from `tmp/a386/build` with
+`BUNDLE_PATH=/Users/bsechter/projects/blog/vendor/bundle JEKYLL_ENV=production bundle3.3 exec jekyll build --baseurl ""
+-d /Users/bsechter/projects/blog/tmp/a386/site`, outside the sandbox. Screenshots at a width of 390 pixels are in
+`tmp/a386/shots/`. **No one has read the page on a real phone.** A server on port 4387 was started for the pilot's
+phone, and the macOS firewall dropped connections to the machine's network address. The firewall was left alone, and
+whether to allow Python through it is the pilot's decision. Background servers do not survive the session.
+
+**OPEN, FOR THE PILOT, on A386.**
+1. The pilot's proofreading.
+2. Thesis claims 3 and 5, shortened, and the glosses, above all that of soft science fiction.
+3. Approval to publish, by the steps in the section below.
+4. The items already listed below, which are unchanged.
+
+## Validity (superseded, written 2026-11-13 after the seven A386 publication passes, parent `9ebfd58`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `9ebfd58`
 - **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the seven publication passes on A386. This
   file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `9ebfd58...` for this handoff to be
@@ -23,7 +81,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 - **PUBLICATION STATE.** A1 to A385 are published. **A386 is ready and not published.** The next free article number
   is A387.
 
-## Resume Here
+## Resume Here (superseded, written 2026-11-13 after the seven A386 publication passes)
 
 **The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
 `_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
