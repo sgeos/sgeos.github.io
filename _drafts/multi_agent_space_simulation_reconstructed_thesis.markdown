@@ -220,7 +220,9 @@ Each product is reviewed against the same seven questions.
 ## Kerbal Space Program
 
 Kerbal Space Program is a single-agent spaceflight simulation
-by the studio Squad.
+by the studio Squad,
+and its store page lists it as single-player only
+[Kerbal Space Program][dev_ksp_steam].
 Its first public release,
 version 0.7.3,
 came in 2011
@@ -246,8 +248,14 @@ and such simplifications mean that trajectories
 "such as Lagrange points"
 do not exist in the program
 [Sphere of Influence][community_ksp_wiki_soi].
-That wiki is edited by the community and is not a statement by the developers.
-No developer statement was found.
+That wiki is edited by the community,
+but the developer said the same in 2012.
+Posting as TheHarvesteR,
+Felipe Falanghe wrote that
+"The planetarium only simulates two-body gravity,
+and switches gravity sources for spacecraft based on the SOI they are in"
+[Falanghe 2012][dev_harvester_patched_conics_2012].
+SOI is the sphere of influence.
 
 The sphere of influence comes from Laplace's treatment of the three-body problem,
 and standard texts derive it
@@ -377,6 +385,8 @@ and more than five million by 2023
 Kerbal Space Program set out to make rocketry approachable and fun,
 with a textbook physical model as its core.
 Its model expresses that thesis well.
+It is a great textbook sandbox for a single agent,
+and its fidelity is right-sized for what it teaches.
 **Takes.**
 The blueprint takes the textbook core,
 the planning tools that let an agent see a future orbit before committing to it,
@@ -387,9 +397,10 @@ and it refuses a fixed patched-conic model where the agents' purposes need more.
 
 ## Children of a Dead Earth
 
-Children of a Dead Earth is a space warfare simulation
+Children of a Dead Earth is a single-agent space warfare simulation
 by Q-Switched Productions,
 released on 23 September 2016
+and listed as single-player only
 [Children of a Dead Earth][dev_code_steam].
 Its developer kept a blog through 2016
 that explains the physics behind each system,
@@ -486,6 +497,7 @@ Anyone with a proper science degree can work out the parts
 that their own programme did not cover.
 But a simulation that needs a degree to begin with
 is not a simulation for the general public.
+It is simply too complex for most people.
 
 **The meta.**
 The simulation has a meta,
@@ -593,7 +605,9 @@ and that a ship must first reach
 [CCP 2013a][dev_ccp_warp_2013].
 Setting $v(t) = 0.75\,v\_{\max}$ in the velocity law
 gives an alignment time of $\tau \ln 4$,
-about $1.39\,\tau$.
+about $1.39\,\tau$,
+which agrees with the alignment time given in the developer-hosted documentation for third-party developers
+[Useful Formulae][dev_ccp_useful_formulae].
 Warp speeds run from about 1.5 to 8 astronomical units per second
 by the community's figures
 [Warp][community_eve_uni_warp],
@@ -624,6 +638,11 @@ and economic history
 that no single component could.
 
 ### The Economy
+
+EVE Online's mechanics change from one release to the next,
+so each figure below is dated by its source.
+A figure that is out of date still describes how agents played at the time,
+and the conclusions drawn from it do not depend on its being current.
 
 EVE Online is fascinatingly odd here.
 Its individual models are terrible,
@@ -779,8 +798,10 @@ p_{\mathrm{B}} \left( 1 - \lambda_{\mathrm{s}} - f_{\mathrm{b}} \right) - p_{\ma
 \tag{9}
 $$
 
-The community guide gives the sales tax as 7.5 percent reduced by 11 percent per level of the Accounting skill,
-and the broker's fee as 3 percent less 0.3 percent per level of Broker Relations
+The developer set the Accounting skill in 2019 to reduce the sales tax by 11 percent per level
+and Broker Relations to reduce the broker's fee by 0.3 percentage points per level
+[CCP 2019][dev_ccp_taxes_2019],
+and the community guide gives the base broker's fee at a non-player station as 3 percent
 [Trading][community_eve_uni_trading].
 At the fifth level of each,
 the rates are about 3.4 and 1.5 percent.
@@ -870,7 +891,10 @@ real economic behaviour appeared without being designed.
   embezzled
   "roughly 200 billion ISK, or 8.6% of EBANK's 2.3 trillion ISK in deposits"
   [Engadget 2009][news_engadget_ebank_2009],
-  and sold part of it for real money,
+  and,
+  as Reuters reported,
+  exchanged it for cash through the black market
+  [Reuters 2009][news_reuters_ebank_2009],
   about five thousand United States dollars
   [The Register 2009][news_register_ebank_2009].
   The developer's economist said the bank would have to solve the problem itself,
@@ -884,8 +908,9 @@ real economic behaviour appeared without being designed.
   in the developer's words,
   "wealth transfers that are simply too large for the effort and risk involved"
   [CCP 2012a][dev_ccp_technetium_2012],
-  and a community history describes the cartel that formed to manipulate its price
-  [EVE News24 2018][news_evenews24_otec_2018].
+  and one of the cartel's own organisers described it in the games press as
+  "a price-fixing cartel which controls the Technetium supply"
+  [The Mittani 2012][news_ten_ton_hammer_otec_2012].
 - **Central banking.**
   Faucets,
   sinks,
@@ -903,6 +928,12 @@ found that
 The source is sponsored,
 and the underlying study was not found,
 so the figure is reported as the developer's claim.
+Peer-reviewed work is more cautious but points the same way.
+One study examined leadership in multiplayer online environments,
+EVE Online among them
+[Lisk et al. 2011][research_lisk_et_al_2011],
+and another found evidence that leadership practised in online games spills over into work
+[Xanthopoulou and Papagiannidis 2012][research_xanthopoulou_papagiannidis_2012].
 
 **Education.**
 EVE Online largely simulates the science fiction of film and television,
@@ -924,10 +955,12 @@ and the absence of propellant.
 
 Star Citizen is a multi-agent space simulation by Cloud Imperium Games.
 It remains in alpha testing as of this writing.
-A secondary report states that its crowdfunding passed one billion dollars on 24 May 2026,
-from over 6.5 million registered contributors,
-with no release date
-[The FPS Review 2026][news_fps_review_sc_2026].
+The developer's own crowdfunding counter reported funds of 106,210,587,748
+and 6,757,438 contributors on 13 November 2026
+[RSI Crowdfund Statistics][dev_rsi_crowdfund_stats].
+The counter does not state its units.
+Read as cents,
+the funds come to about 1.06 billion United States dollars.
 Its Alpha 4.0 release introduced server meshing,
 with shards of up to 500 agents
 [Star Citizen Alpha 4.0][dev_rsi_alpha_40].
@@ -948,6 +981,73 @@ including
 "exploration, hauling, trading, mercenary, outlaw, bounty hunting and mining,"
 with more planned
 [Roberts 2020][dev_rsi_letter_2020].
+
+Star Citizen appears to be broadly aspiring to a higher-fidelity version of EVE Online's soft science fiction thesis,
+with its own spin.
+Where EVE Online's agents command ships from a capsule,
+Star Citizen's agents act at the tactical level of a human avatar,
+on ships,
+on stations
+and on the surfaces of planets and moons.
+That makes the two very different in practice.
+A large ship has several stations that do very different things,
+flown together by a crew,
+and a ship can carry smaller craft and ground vehicles in its hold.
+The developer's own description of the Carrack promises
+"Muiltiple seats with their own dedicated actions"
+and
+"a Pisces-class launch (design redacted) and an Ursa-class rover for ground exploration"
+[RSI 2014][dev_rsi_carrack_2014].
+
+Its activities split broadly in two.
+**Ship-based** loops include bounty hunting and cargo,
+present by Alpha 3.0.0 in December 2017
+[Star Citizen Alpha 3.0.0 Patch Notes][dev_rsi_patch_300_2017],
+mining by ship,
+added in Alpha 3.2.0 in June 2018 to
+"the moons of Crusader (Daymar, Yela, and Cellin)"
+[Alpha 3.2.0 Patch Notes][dev_rsi_patch_320_2018],
+and salvage,
+whose
+"first implementation"
+arrived in Alpha 3.18 in March 2023
+[RSI Roadmap][dev_rsi_roadmap].
+**Personnel-based** loops include first-person combat in bunkers,
+added as
+"Hurston underground bunker FPS AI missions"
+in Alpha 3.4.0 in December 2018
+[Alpha 3.4.0 Patch Notes][dev_rsi_patch_340_2018],
+hacking at terminals,
+exploring on foot,
+and driving ground vehicles.
+Many ships have several seats,
+so a pilot may fly with no gunners or several,
+depending on the ship's configuration and the people available.
+Engineering arrived as a station of its own in Alpha 4.5.0 in December 2025,
+when
+"Ships now feature an engineering terminal providing comprehensive oversight of all ship systems"
+[Star Citizen Alpha 4.5.0][dev_rsi_patch_450_2025].
+Medicine became a loop in Alpha 3.15 in 2021,
+in which
+"ambulances (such as the Cutlass Red) can treat minor wounds and stabilize patients in transit to hospital"
+[Deadly Consequences][dev_rsi_alpha_315_2021],
+so search and rescue is a nominal experience in the simulation.
+No dedicated search-and-rescue missions were found in the release notes.
+Other loops remain planned.
+Crafting arrived in a first tier for personal equipment in 2026,
+while base building,
+farming
+and data running are still announced and not delivered.
+Its characteristic scale of interaction is the crew and the landing party,
+where EVE Online's is the fleet and the market.
+The product has been a buggy mess in perpetual alpha,
+and it has been getting better.
+Its management and its controversies aside,
+the product as delivered is interesting enough to care about,
+perpetual alpha and all.
+It is directionally promising.
+EVE Online receives more attention in this article only because it is the more mature product,
+with two decades of a running economy to study.
 
 **Travel and propellant.**
 Ships cross a system by quantum travel,
@@ -975,14 +1075,21 @@ because a shifting mass of propellant moves the centre of mass and couples into 
 The developer's release notes for Alpha 3.0 state that
 "Planets and moons now rotate to give a day/night cycle"
 [Star Citizen Alpha 3.0.0][dev_rsi_alpha_300_2017].
-No developer statement was found on whether the bodies revolve about their star.
+Orbits were designed for.
+In 2016 Chris Roberts said that day and night would come from a planet rotating on its axis,
+and that the system
+"will also be able to rotate the planet around the sun"
+[GamersNexus 2016][news_gamersnexus_roberts_2016].
+No developer statement was found on whether that capability is in use.
 The community wiki states that the planets
 "spin, have a day and night cycle, and are planned to eventually orbit"
 [Planet][community_sc_tools_planet].
 On that evidence,
-which is the community's and not the developer's,
+which on the present state is the community's and not the developer's,
 the bodies rotate in place at fixed positions,
-and orbits are not simulated.
+and orbits,
+though designed for,
+are not simulated.
 That matches the understanding
 that a body sits at fixed coordinates that a ship warps to.
 
@@ -1062,17 +1169,120 @@ a sequel by a new studio,
 Intercept Games,
 entered early access in February 2023
 [Take-Two 2023][dev_take_two_ksp2_2023].
-In 2024 the press reported a state layoff notice for seventy employees
-that it tied to the studio,
-although the notice did not name it
-[PC Gamer 2024][news_pc_gamer_intercept_2024].
+In 2024 Take-Two filed a notice with Washington's Employment Security Department
+of a permanent closure in Seattle affecting seventy workers,
+which did not name the studio
+[Washington WARN Notices][ref_wa_esd_warn],
+and the press reported,
+citing Bloomberg,
+that Take-Two was shutting Intercept Games down
+[GeekWire 2024][news_geekwire_intercept_2024].
 The project was fatally mismanaged,
 and it is a development since the paper.
 Star Citizen is mismanaged in a different way.
 It has stayed in alpha for well over a decade,
 yet it has found an odd market equilibrium
-in which a nominally unfinished product earns large recurring revenue
-[The FPS Review 2026][news_fps_review_sc_2026].
+in which a nominally unfinished product earns large recurring revenue.
+
+Its revenue is collected as pledges,
+not purchases.
+The developer's terms state that
+"You do not purchase anything, you make a pledge towards the development of the Game"
+and that pledge funds
+"are a deposit to be used for the development and production cost of the Game"
+[RSI Terms of Service 2026][dev_rsi_tos_2026].
+A pledge is nonetheless contractually binding.
+The same terms make any unearned portion non-refundable
+"until and unless RSI has ceased development and failed to deliver,"
+with an arbitration clause
+and a withdrawal period of thirty days added in 2023.
+The refund condition has tightened over time.
+The original terms of 2012 allowed a refund twelve months after the estimated delivery date,
+and the change in 2016 to the condition of ceased development was reported at the time
+[Massively Overpowered 2016][news_massively_refund_2016].
+The sales model is grey,
+in the author's view,
+and the project is controversial.
+Most of that controversy is the sentiment of customers and spectators,
+which primary sources do not record,
+and the developer has no incentive to acknowledge unhappiness publicly.
+The press records some of it.
+A backer who sued for a refund and lost said of the developer that
+"They figured out how to sell scope creep itself"
+[Kotaku 2018][news_kotaku_refund_2018],
+the developer told another that
+"Refunds are always discretionary and are considered on a case-by-case basis"
+[Polygon 2017][news_polygon_refund_2017],
+and the developer added a disclaimer to its ship sales
+after the United Kingdom's advertising regulator called them misleading
+[PC Gamer 2021][news_pcgamer_asa_2021].
+
+Cloud Imperium publishes its annual financials,
+which let the equilibrium be measured.
+The reports for 2020 to 2024 state income
+and costs including capital expenditure,
+in millions of United States dollars,
+for the whole company,
+Star Citizen and Squadron 42 together
+[Cloud Imperium 2020][dev_cig_financials_2020]
+[Cloud Imperium 2021][dev_cig_financials_2021]
+[Cloud Imperium 2022][dev_cig_financials_2022]
+[Cloud Imperium 2023][dev_cig_financials_2023]
+[Cloud Imperium 2024][dev_cig_financials_2024].
+For 2020 to 2022 the income is the sum of the stated pledges or sales,
+subscriptions
+and other income,
+and the cost is the sum of the stated costs and capital expenditure.
+With $\rho\_{y}$ the ratio of spending to income in year $y$,
+$C\_{y}$ the costs including capital expenditure
+and $R\_{y}$ the income,
+
+$$
+\rho_{y} = \frac{C_{y}}{R_{y}}
+\tag{10}
+$$
+
+| Year | Income | Costs with capital expenditure | Ratio |
+|---|---|---|---|
+| 2020 | 88.2 | 80.9 | 0.92 |
+| 2021 | 100.4 | 100.5 | 1.00 |
+| 2022 | 130.7 | 129.4 | 0.99 |
+| 2023 | 143 | 163 | 1.14 |
+| 2024 | 146.6 | 161 | 1.10 |
+
+Over the five years the company took in about 609 million dollars and spent about 635 million,
+a ratio of 1.04.
+It spends what it raises,
+and in the last two years more.
+
+That supports two readings,
+and the article owes the reader both.
+On the first,
+the perpetual alpha is the business model working as intended.
+The alpha label lowers expectations,
+selling ships ahead of their gameplay depends on nothing being final,
+and the terms keep pledges non-refundable for as long as development continues.
+That reading fits this article's own principle
+that developers are generally competent and achieve their product thesis.
+Star Citizen has achieved product-market fit while still in alpha,
+which is highly irregular.
+Under those circumstances the author might stay in perpetual alpha too,
+since a release would trade a working market for a set of expectations the product would then have to meet.
+On the second,
+the project is mismanaged.
+The author is not unhappy with Star Citizen,
+but understands why some people are,
+and leans to the second reading from professional experience in the game industry.
+The figures sharpen rather than settle the question.
+A company that spends everything it raises has no deadline imposed by its funding,
+which is how a project can grow for fourteen years without a release.
+But a company that spent at or above its income in 2021 to 2024 is not banking the profits of a successful strategy either,
+and development spending of more than half a billion dollars in five years should have produced a version 1.0 release under any normal management.
+The author's judgement rests on that combination of cumulative expenditure and a perpetual alpha.
+When the author was following it,
+the developer was largely selling dreams,
+ships and features either not yet built or only partially implemented,
+and delivering at a pace sufficient to keep its backers engaged.
 Setting the ethics of that model aside,
 Star Citizen is plainly doing something right
 even as it does a number of other things wrong.
@@ -1234,7 +1444,7 @@ and $m\_{\mathrm{f}}$ the final mass,
 
 $$
 \Delta v = I_{\mathrm{sp}}\, g_{0} \ln \frac{m_{0}}{m_{\mathrm{f}}}
-\tag{10}
+\tag{11}
 $$
 
 An engine with a specific impulse of 450 seconds and a mass ratio of four
@@ -1251,7 +1461,7 @@ and $\mu\_{\odot}$ the Sun's gravitational parameter at $1.327 \times 10^{11}$ c
 
 $$
 t_{\mathrm{H}} = \pi \sqrt{\frac{a_{\mathrm{t}}^{3}}{\mu_{\odot}}}
-\tag{11}
+\tag{12}
 $$
 
 From Earth at 1.000 astronomical units to Mars at 1.524,
@@ -1265,7 +1475,7 @@ and $T\_{1}$ and $T\_{2}$ the orbital periods of the inner and outer planets,
 
 $$
 \frac{1}{S} = \frac{1}{T_{1}} - \frac{1}{T_{2}}
-\tag{12}
+\tag{13}
 $$
 
 For Earth at 365.25 days and Mars at 686.98,
@@ -1294,7 +1504,7 @@ and $T$ the sidereal day of 86,164 seconds,
 
 $$
 r_{\mathrm{G}} = \left( \frac{\mu T^{2}}{4 \pi^{2}} \right)^{1/3}
-\tag{13}
+\tag{14}
 $$
 
 The radius is 42,164 kilometres,
@@ -1317,7 +1527,7 @@ and $r$ its radius from Earth's centre,
 
 $$
 v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
-\tag{14}
+\tag{15}
 $$
 
 At the height of the International Space Station,
@@ -1342,7 +1552,7 @@ and $R$ Earth's radius,
 
 $$
 g(h) = g_{0} \left( \frac{R}{R + h} \right)^{2}
-\tag{15}
+\tag{16}
 $$
 
 At 420 kilometres the ratio is about 0.88.
@@ -1372,7 +1582,7 @@ and $r$ the radius,
 
 $$
 a_{\mathrm{c}} = \omega^{2} r
-\tag{16}
+\tag{17}
 $$
 
 At one revolution per minute,
@@ -1425,7 +1635,7 @@ and $T$ its temperature in kelvin,
 
 $$
 P = \varepsilon \sigma A T^{4}
-\tag{17}
+\tag{18}
 $$
 
 A radiator at 275 kelvin with an emissivity of 0.9
@@ -1538,7 +1748,7 @@ and $c$ the speed of light,
 
 $$
 t_{\mathrm{L}} = \frac{d}{c}
-\tag{18}
+\tag{19}
 $$
 
 At its closest,
@@ -1703,6 +1913,8 @@ and every system in it would be derived afresh from first principles.
 
 ### Equations for an Implementation
 
+This subsection is a reference for implementers,
+and a reader interested only in the argument can skip it.
 The core above needs a small set of equations,
 and an implementer needs them in one place.
 The manoeuvres an agent plans,
@@ -1722,7 +1934,7 @@ and $\mathbf{a}\_{\mathrm{T},i}$ the acceleration of its own thrust,
 
 $$
 \ddot{\mathbf{r}}_{i} = -G \sum_{j \neq i} m_{j} \frac{\mathbf{r}_{i} - \mathbf{r}_{j}}{\lvert \mathbf{r}_{i} - \mathbf{r}_{j} \rvert^{3}} + \mathbf{a}_{\mathrm{T},i}
-\tag{19}
+\tag{20}
 $$
 
 [Battin 1999][book_battin_1999].
@@ -1735,7 +1947,7 @@ and $F$ the thrust,
 
 $$
 \dot{m} = -\frac{F}{I_{\mathrm{sp}}\, g_{0}}
-\tag{20}
+\tag{21}
 $$
 
 An engine of 100 kilonewtons at a specific impulse of 450 seconds
@@ -1756,7 +1968,7 @@ $$
 \mathbf{r}_{n+1} &= \mathbf{r}_{n} + \Delta t\, \mathbf{v}_{n+1/2} \\
 \mathbf{v}_{n+1} &= \mathbf{v}_{n+1/2} + \tfrac{\Delta t}{2}\, \mathbf{a}(\mathbf{r}_{n+1})
 \end{aligned}
-\tag{21}
+\tag{22}
 $$
 
 This second-order method is the base from which Yoshida built higher orders
@@ -1772,7 +1984,7 @@ and $\Phi\_{\Delta t}$ the step function,
 
 $$
 \mathbf{x}_{n+1} = \Phi_{\Delta t}\!\left( \mathbf{x}_{n}, U_{n} \right)
-\tag{22}
+\tag{23}
 $$
 
 Every machine that starts from the same state
@@ -1797,7 +2009,7 @@ Euler's equations of rigid-body rotation give
 
 $$
 \mathbf{I}\, \dot{\boldsymbol{\omega}} + \boldsymbol{\omega} \times \left( \mathbf{I}\, \boldsymbol{\omega} \right) = \boldsymbol{\tau}
-\tag{23}
+\tag{24}
 $$
 
 The torque changes where the craft points.
@@ -1814,7 +2026,7 @@ and $A$ the reference area,
 
 $$
 F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
-\tag{24}
+\tag{25}
 $$
 
 and a simple model of the density,
@@ -1826,7 +2038,7 @@ is
 
 $$
 \rho(h) = \rho_{0}\, e^{-h/H}
-\tag{25}
+\tag{26}
 $$
 
 Heating at the nose follows the stagnation-point correlation of Sutton and Graves
@@ -1838,7 +2050,7 @@ about $1.74 \times 10^{-4}$ in units that give watts per square metre for Earth'
 
 $$
 \dot{q} = k \sqrt{\frac{\rho}{r_{\mathrm{n}}}}\, v^{3}
-\tag{26}
+\tag{27}
 $$
 
 At $10^{-4}$ kilograms per cubic metre,
@@ -1858,7 +2070,7 @@ and the radiator symbols as before,
 
 $$
 m c\, \frac{dT}{dt} = P_{\mathrm{in}} - \varepsilon \sigma A T^{4}
-\tag{27}
+\tag{28}
 $$
 
 A craft that generates more heat than its radiators reject grows hotter,
@@ -1875,7 +2087,7 @@ and $L$ the length of the equivalent pendulum,
 
 $$
 \omega_{\mathrm{s}} = \sqrt{\frac{a}{L}}
-\tag{28}
+\tag{29}
 $$
 
 Under a thrust of a tenth of standard gravity,
@@ -1901,7 +2113,7 @@ and $\kappa$ the compression factor shared by every agent,
 
 $$
 t_{\mathrm{w}} = \frac{t_{\mathrm{s}}}{\kappa}
-\tag{29}
+\tag{30}
 $$
 
 At a compression of ten,
@@ -2024,7 +2236,7 @@ and the other symbols as in the rocket equation,
 
 $$
 m_{\mathrm{p}} = \left( m_{\mathrm{pay}} + m_{\mathrm{s}} \right) \left( e^{\Delta v / \left( I_{\mathrm{sp}}\, g_{0} \right)} - 1 \right)
-\tag{30}
+\tag{31}
 $$
 
 At a specific impulse of 450 seconds,
@@ -2126,6 +2338,31 @@ the fidelity of the parts and the completeness of their interlock.
 EVE Online is strong in the second and weak in the first,
 and Children of a Dead Earth the reverse.
 
+That raises an obvious question.
+If EVE Online predicts real behaviour without honest physics,
+why does physics matter at all?
+The answer is that predictive value extends only to the conditions a simulation models.
+EVE Online models an economy,
+a polity
+and a society of real people,
+so it predicts economic,
+political
+and social behaviour,
+and it does so well.
+It models no delta-v,
+no light-time
+and no launch windows,
+so it cannot predict how people would behave under them.
+A blockade that physics makes impossible,
+a market that the synodic period opens and closes,
+an order that arrives twenty minutes late,
+and a war decided by who can afford the propellant to reach the battle
+lie outside its scope,
+however good its economy.
+A simulation for near-term space needs EVE Online's interlock
+and honest physics together,
+because the questions it exists to answer are the ones the physics shapes.
+
 A simulation that maximises one bound at the expense of the others
 predicts poorly.
 The blueprint's principles exist to raise all three together.
@@ -2141,8 +2378,8 @@ Kerbal Space Program sold more than five million units
 [Take-Two 2023][dev_take_two_ksp2_2023].
 EVE Online passed half a million subscribers in one shared world
 [CCP 2013][dev_ccp_subscribers_2013].
-Star Citizen is reported to have raised more than a billion dollars before release
-[The FPS Review 2026][news_fps_review_sc_2026].
+Star Citizen's counter shows about a billion dollars raised before release
+[RSI Crowdfund Statistics][dev_rsi_crowdfund_stats].
 The public pays for spaceflight,
 for shared worlds
 and for both together.
@@ -2177,10 +2414,15 @@ These are Kerbal Space Program's patched conics and scale,
 EVE Online's velocity law,
 warp speeds and capacitor,
 the fixed positions of Star Citizen's bodies,
-Star Citizen's crowdfunding total,
-EVE Online's market fee formulas,
-and the 2009 bank embezzlement and the technetium cartel,
-which rest on press reports and a community history.
+the base broker's fee in EVE Online,
+the current state of Star Citizen's planetary orbits,
+the 2009 bank embezzlement and the technetium cartel,
+which rest on press reports and a participant's account,
+and the controversy around Star Citizen,
+which rests on press reports of sentiment.
+Star Citizen's crowdfunding total comes from the developer's own counter,
+whose units are inferred as cents.
+The Cloud Imperium incomes for 2020 to 2022 and all five spending ratios are sums and quotients of stated figures.
 The survey on transferable skills appeared in an article sponsored by the developer.
 The Star Trek line about tritanium rests on a fan transcript.
 The physics of each remedy comes from NASA,
@@ -2204,6 +2446,8 @@ the observations about engagements and the meta in Children of a Dead Earth,
 the expectation that no reviewed product simulates propellant slosh,
 the understanding that Kerbal Space Program treats tanks as point masses,
 the two causes of the soft science fiction conventions,
+the judgement that Star Citizen aspires to a higher-fidelity version of EVE Online's thesis and is directionally promising,
+the judgement that its sales model is grey and that its project is mismanaged,
 the judgement that EVE Online's economy is the best multi-agent supply chain known,
 that its wrong models have the right fidelity for interaction,
 and that the developer lacked the people to distil more realistic models,
@@ -2226,6 +2470,7 @@ that layered disclosure resolves the conflict between fidelity and approachabili
 that several characters per agent would make long journeys playable,
 that resolution of events from committed orders would ease scheduling across time zones,
 that predictive value has two sources, the fidelity of the parts and the completeness of their interlock,
+that predictive value extends only to the conditions a simulation models,
 that an honest economy would have trading seasons,
 and that the public would pay for honest physics
 are inferences.
@@ -2308,12 +2553,12 @@ the children it taught would build the future it depicted.
 
 <!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
 
-This section collects the 30 display equations of the article in the order they appear,
+This section collects the 31 display equations of the article in the order they appear,
 each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
-Of the 30, 21 are established and 9 are bespoke.
-Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and the letter a stands for a semi-major axis in Equations 2 and 3 and for an acceleration in Equation 28.
+Of the 31, 21 are established and 10 are bespoke.
+Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and the letter a stands for a semi-major axis in Equations 2 and 3 and for an acceleration in Equation 29.
 
 **Equation 1, Bohr Energy Levels of Hydrogen.**
 The energy of each permitted level in Bohr's model, which predicts the hydrogen spectrum despite a wrong picture of the electron.
@@ -2393,102 +2638,111 @@ p_{\mathrm{B}} \left( 1 - \lambda_{\mathrm{s}} - f_{\mathrm{b}} \right) - p_{\ma
 \tag{9}
 $$
 
-**Equation 10, Tsiolkovsky Rocket Equation.**
+*Equation 10, Bespoke Ratio of Spending to Income.*
+The ratio of a company's costs including capital expenditure to its income in one year, used to test whether Cloud Imperium spends what it raises.
+[Cloud Imperium 2023][dev_cig_financials_2023]
+
+$$
+\rho_{y} = \frac{C_{y}}{R_{y}}
+\tag{10}
+$$
+
+**Equation 11, Tsiolkovsky Rocket Equation.**
 The delta-v a rocket gains as its mass falls from the initial to the final mass.
 
 $$
 \Delta v = I_{\mathrm{sp}}\, g_{0} \ln \frac{m_{0}}{m_{\mathrm{f}}}
-\tag{10}
+\tag{11}
 $$
 
-**Equation 11, Hohmann Transfer Time.**
+**Equation 12, Hohmann Transfer Time.**
 Half the period of the transfer ellipse, the time the cheapest transfer between two circular orbits takes.
 [Curtis 2020a][book_curtis_2020_interplanetary]
 
 $$
 t_{\mathrm{H}} = \pi \sqrt{\frac{a_{\mathrm{t}}^{3}}{\mu_{\odot}}}
-\tag{11}
+\tag{12}
 $$
 
-**Equation 12, Synodic Period.**
+**Equation 13, Synodic Period.**
 The interval between repetitions of two planets' relative position, which spaces the windows for a transfer.
 [Curtis 2020a][book_curtis_2020_interplanetary]
 
 $$
 \frac{1}{S} = \frac{1}{T_{1}} - \frac{1}{T_{2}}
-\tag{12}
+\tag{13}
 $$
 
-**Equation 13, Geostationary Orbit Radius.**
+**Equation 14, Geostationary Orbit Radius.**
 The radius at which a circular orbit's period equals one sidereal day, the only place a satellite holds position over the ground.
 [ESA 2020][agency_esa_geo_2020]
 
 $$
 r_{\mathrm{G}} = \left( \frac{\mu T^{2}}{4 \pi^{2}} \right)^{1/3}
-\tag{13}
+\tag{14}
 $$
 
-**Equation 14, Circular Orbital Speed.**
+**Equation 15, Circular Orbital Speed.**
 The speed of a circular orbit at a given radius, which is what makes reaching orbit hard.
 
 $$
 v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
-\tag{14}
+\tag{15}
 $$
 
-**Equation 15, Gravity at Altitude.**
+**Equation 16, Gravity at Altitude.**
 The inverse-square fall of gravity with height, which leaves about nine-tenths of surface gravity at the space station.
 [NASA 2012][agency_nasa_microgravity]
 
 $$
 g(h) = g_{0} \left( \frac{R}{R + h} \right)^{2}
-\tag{15}
+\tag{16}
 $$
 
-**Equation 16, Centripetal Acceleration.**
+**Equation 17, Centripetal Acceleration.**
 The acceleration felt at the rim of a rotating habitat, the physical basis of spin gravity.
 [Johnson and Holbrow 1977][agency_nasa_sp413_1977]
 
 $$
 a_{\mathrm{c}} = \omega^{2} r
-\tag{16}
+\tag{17}
 $$
 
-*Equation 17, Bespoke Radiator Power Without Absorbed Sunlight.*
+*Equation 18, Bespoke Radiator Power Without Absorbed Sunlight.*
 The Stefan-Boltzmann law applied to a radiator facing cold space with absorbed sunlight neglected, an assumption of the article's that lowers the area needed.
 
 $$
 P = \varepsilon \sigma A T^{4}
-\tag{17}
+\tag{18}
 $$
 
-**Equation 18, Light-Time Delay.**
+**Equation 19, Light-Time Delay.**
 The one-way delay of any signal over a distance, which no message or sensor reading can beat.
 [Landon et al. 2025][agency_nasa_tm_2025_mars_comms]
 
 $$
 t_{\mathrm{L}} = \frac{d}{c}
-\tag{18}
+\tag{19}
 $$
 
-**Equation 19, N-Body Equation of Motion With Thrust.**
+**Equation 20, N-Body Equation of Motion With Thrust.**
 The acceleration of a craft under the gravity of every massive body plus its own thrust, the equation the core integrates.
 [Battin 1999][book_battin_1999]
 
 $$
 \ddot{\mathbf{r}}_{i} = -G \sum_{j \neq i} m_{j} \frac{\mathbf{r}_{i} - \mathbf{r}_{j}}{\lvert \mathbf{r}_{i} - \mathbf{r}_{j} \rvert^{3}} + \mathbf{a}_{\mathrm{T},i}
-\tag{19}
+\tag{20}
 $$
 
-**Equation 20, Propellant Mass Flow.**
+**Equation 21, Propellant Mass Flow.**
 The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation.
 
 $$
 \dot{m} = -\frac{F}{I_{\mathrm{sp}}\, g_{0}}
-\tag{20}
+\tag{21}
 $$
 
-**Equation 21, Kick-Drift-Kick Leapfrog Step.**
+**Equation 22, Kick-Drift-Kick Leapfrog Step.**
 The second-order symplectic step whose energy error stays bounded, the base of higher-order symplectic integrators.
 [Yoshida 1990][research_yoshida_1990]
 
@@ -2498,81 +2752,81 @@ $$
 \mathbf{r}_{n+1} &= \mathbf{r}_{n} + \Delta t\, \mathbf{v}_{n+1/2} \\
 \mathbf{v}_{n+1} &= \mathbf{v}_{n+1/2} + \tfrac{\Delta t}{2}\, \mathbf{a}(\mathbf{r}_{n+1})
 \end{aligned}
-\tag{21}
+\tag{22}
 $$
 
-*Equation 22, Bespoke Lockstep State Transition.*
+*Equation 23, Bespoke Lockstep State Transition.*
 The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the lockstep requirement.
 
 $$
 \mathbf{x}_{n+1} = \Phi_{\Delta t}\!\left( \mathbf{x}_{n}, U_{n} \right)
-\tag{22}
+\tag{23}
 $$
 
-**Equation 23, Euler's Equations of Rigid-Body Rotation.**
+**Equation 24, Euler's Equations of Rigid-Body Rotation.**
 The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path.
 
 $$
 \mathbf{I}\, \dot{\boldsymbol{\omega}} + \boldsymbol{\omega} \times \left( \mathbf{I}\, \boldsymbol{\omega} \right) = \boldsymbol{\tau}
-\tag{23}
+\tag{24}
 $$
 
-**Equation 24, Aerodynamic Drag.**
+**Equation 25, Aerodynamic Drag.**
 The drag force on a body moving through air, which governs launch and reentry.
 
 $$
 F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
-\tag{24}
+\tag{25}
 $$
 
-**Equation 25, Isothermal Exponential Atmosphere.**
+**Equation 26, Isothermal Exponential Atmosphere.**
 The simple model of air density falling exponentially with height above sea level.
 
 $$
 \rho(h) = \rho_{0}\, e^{-h/H}
-\tag{25}
+\tag{26}
 $$
 
-**Equation 26, Sutton-Graves Stagnation-Point Heating.**
+**Equation 27, Sutton-Graves Stagnation-Point Heating.**
 The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter.
 [Sutton and Graves 1971][research_sutton_graves_1971]
 
 $$
 \dot{q} = k \sqrt{\frac{\rho}{r_{\mathrm{n}}}}\, v^{3}
-\tag{26}
+\tag{27}
 $$
 
-*Equation 27, Bespoke Lumped Thermal Balance.*
+*Equation 28, Bespoke Lumped Thermal Balance.*
 A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature.
 
 $$
 m c\, \frac{dT}{dt} = P_{\mathrm{in}} - \varepsilon \sigma A T^{4}
-\tag{27}
+\tag{28}
 $$
 
-**Equation 28, Pendulum Model of First-Mode Slosh.**
+**Equation 29, Pendulum Model of First-Mode Slosh.**
 The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration.
 [Abramson 1966][research_abramson_1966]
 
 $$
 \omega_{\mathrm{s}} = \sqrt{\frac{a}{L}}
-\tag{28}
+\tag{29}
 $$
 
-*Equation 29, Bespoke Wall-Clock Time Under a Shared Clock.*
+*Equation 30, Bespoke Wall-Clock Time Under a Shared Clock.*
 The real time an agent waits for a span of simulated time when one compression factor applies to every agent.
 
 $$
 t_{\mathrm{w}} = \frac{t_{\mathrm{s}}}{\kappa}
-\tag{29}
+\tag{30}
 $$
 
-*Equation 30, Bespoke Freight Propellant From the Rocket Equation.*
+*Equation 31, Bespoke Freight Propellant From the Rocket Equation.*
 The propellant a shipment needs for a given delta-v, the rocket equation rearranged to price freight by delta-v in the blueprint's economy.
 
 $$
 m_{\mathrm{p}} = \left( m_{\mathrm{pay}} + m_{\mathrm{s}} \right) \left( e^{\Delta v / \left( I_{\mathrm{sp}}\, g_{0} \right)} - 1 \right)
-\tag{30}
+\tag{31}
 $$
 
 ### Notation
@@ -2628,6 +2882,9 @@ $$
 - $\lambda_{\mathrm{s}}$, the sales tax rate
 - $f_{\mathrm{b}}$, the broker's fee rate
 - $c_{\mathrm{h}}$, the cost of hauling one unit
+- $\rho_{y}$, the ratio of spending to income in year $y$
+- $C_{y}$, the costs including capital expenditure in year $y$
+- $R_{y}$, the income in year $y$
 - $m_{\mathrm{p}}$, the propellant a shipment needs
 - $m_{\mathrm{pay}}$, the payload of a shipment
 - $m_{\mathrm{s}}$, the structure and engines that make the trip with the payload
@@ -2663,7 +2920,7 @@ $$
 - [Book, Battin 1999, An Introduction to the Mathematics and Methods of Astrodynamics][book_battin_1999]
 - [Book, Conway Morris 2003, Life's Solution][book_conway_morris_2003]
 - [Book, Curtis 2020a, Interplanetary Trajectories][book_curtis_2020_interplanetary]
-- [Book, Glasstone 1964, The Effects of Nuclear Weapons][book_glasstone_1964]
+- [Book, Glasstone 1964, The Effects of Nuclear Weapons, Revised Edition Reprinted February 1964][book_glasstone_1964]
 - [Book, Hawking and Hawking 2007, George's Secret Key to the Universe][book_hawking_hawking_2007]
 - [Book, Whitfield and Roddenberry 1968, The Making of Star Trek][book_whitfield_roddenberry_1968]
 - [Community, EVE University, Acceleration][community_eve_uni_acceleration]
@@ -2694,6 +2951,7 @@ $$
 - [Developer, CCP 2015, EVE Economy Update, EVE Vegas 2015 Report][dev_ccp_economy_vegas_2015]
 - [Developer, CCP 2016, Overlays, ISK Buyer Amnesty and Account Security][dev_ccp_rmt_2016]
 - [Developer, CCP 2017, PLEX Changes on the Way][dev_ccp_plex_2017]
+- [Developer, CCP 2019, Updates to Sales Taxes and Brokers Fees][dev_ccp_taxes_2019]
 - [Developer, CCP 2020, Broker Relations][dev_ccp_broker_relations_2020]
 - [Developer, CCP 2022, Team Security 2021 in Review][dev_ccp_security_2021]
 - [Developer, CCP 2023, Viridian Expansion Notes][dev_ccp_viridian_2023]
@@ -2702,8 +2960,15 @@ $$
 - [Developer, CCP, Capsuleers][dev_ccp_capsuleers]
 - [Developer, CCP, EVE Swagger Interface Overview][dev_ccp_esi_overview]
 - [Developer, CCP, Tritanium Item Record][dev_ccp_esi_tritanium]
+- [Developer, CCP, Useful Formulae][dev_ccp_useful_formulae]
 - [Developer, Children of a Dead Earth, Steam Store Page][dev_code_steam]
+- [Developer, Cloud Imperium 2020, Cloud Imperium Financials for 2020][dev_cig_financials_2020]
+- [Developer, Cloud Imperium 2021, Cloud Imperium Financials for 2021][dev_cig_financials_2021]
+- [Developer, Cloud Imperium 2022, Cloud Imperium Financials for 2022][dev_cig_financials_2022]
+- [Developer, Cloud Imperium 2023, Cloud Imperium Financials for 2023][dev_cig_financials_2023]
+- [Developer, Cloud Imperium 2024, CFO Comment on the 2024 Accounting][dev_cig_financials_2024]
 - [Developer, Dark Multiplayer][dev_dark_multiplayer]
+- [Developer, Falanghe 2012, Patched Conics Trajectory from Initial Orbit State][dev_harvester_patched_conics_2012]
 - [Developer, Kerbal Space Program, Steam Store Page][dev_ksp_steam]
 - [Developer, KerbalEdu 2016][dev_kerbaledu_2016]
 - [Developer, Luna Multiplayer][dev_luna_multiplayer]
@@ -2721,10 +2986,19 @@ $$
 - [Developer, Realism Overhaul][dev_realism_overhaul]
 - [Developer, Roberts 2018, Letter from the Chairman][dev_rsi_letter_2018]
 - [Developer, Roberts 2020, Letter from the Chairman][dev_rsi_letter_2020]
+- [Developer, RSI 2014, Into the Unknown, a Carrack and Her Crew][dev_rsi_carrack_2014]
 - [Developer, RSI 2014, Lore Builder Twenty][dev_rsi_lore_gravity_2014]
 - [Developer, RSI 2017, Star Citizen Alpha 3.0.0][dev_rsi_alpha_300_2017]
+- [Developer, RSI 2017a, Star Citizen Alpha 3.0.0 Patch Notes][dev_rsi_patch_300_2017]
 - [Developer, RSI 2018, The Shipyard: Fuel Mechanics][dev_rsi_fuel_2018]
+- [Developer, RSI 2018a, Star Citizen Alpha 3.2.0 Patch Notes][dev_rsi_patch_320_2018]
+- [Developer, RSI 2018b, Star Citizen Alpha 3.4.0 Patch Notes][dev_rsi_patch_340_2018]
 - [Developer, RSI 2020, Flight and Fight Upcoming Improvements][dev_rsi_flight_2020]
+- [Developer, RSI 2021, Deadly Consequences, Alpha 3.15][dev_rsi_alpha_315_2021]
+- [Developer, RSI 2025, Star Citizen Alpha 4.5.0][dev_rsi_patch_450_2025]
+- [Developer, RSI 2026, Terms of Service][dev_rsi_tos_2026]
+- [Developer, RSI, Crowdfund Statistics][dev_rsi_crowdfund_stats]
+- [Developer, RSI, Roadmap][dev_rsi_roadmap]
 - [Developer, RSI, Star Citizen Alpha 4.0][dev_rsi_alpha_40]
 - [Developer, Squad 2011, First Release Is Up][dev_squad_first_release_2011]
 - [Developer, Squad 2014, KSP: Asteroid Redirect Mission Is Officially Released][dev_squad_arm_2014]
@@ -2735,18 +3009,24 @@ $$
 - [News, Engadget 2008, Making Money, the Origin of the Specie][news_engadget_tritanium_2008]
 - [News, Engadget 2009, New Perspective on EVE Online's Latest Bank Embezzlement][news_engadget_ebank_2009]
 - [News, Engadget 2014, EVE Fanfest 2014 Economy Talk][news_engadget_plex_2014]
-- [News, EVE News24 2018, Moments in History, OTEC][news_evenews24_otec_2018]
+- [News, GamersNexus 2016, Chris Roberts on Character Technology and Engine Architecture][news_gamersnexus_roberts_2016]
+- [News, GeekWire 2024, Take-Two Interactive Layoffs Hit Seattle Area][news_geekwire_intercept_2024]
 - [News, Gematsu 2026, CCP Games Rebrands to Fenris Creations][news_gematsu_fenris_2026]
 - [News, Gizmodo 2011, The First Draft of the Star Trek Pitch][news_gizmodo_trek_pitch_2011]
 - [News, IEEE Spectrum 2009, EVE Online Game Player Embezzles Virtual Money][news_ieee_ebank_2009]
-- [News, PC Gamer 2024, Kerbal Space Program 2 Developer Intercept Games May Be Closing][news_pc_gamer_intercept_2024]
+- [News, Kotaku 2018, Star Citizen Backer Sues to Get $4,500 Back, Loses][news_kotaku_refund_2018]
+- [News, Massively Overpowered 2016, Star Citizen Changes Refund Clause for New Backers][news_massively_refund_2016]
+- [News, PC Gamer 2021, Star Citizen Adds Disclaimer to Spaceship Preorders][news_pcgamer_asa_2021]
+- [News, Polygon 2017, Star Citizen Backer's $25,000 Refund Has Taken Months][news_polygon_refund_2017]
+- [News, Reuters 2009, Gamer Steals Online Loot to Pay Real-World Debts][news_reuters_ebank_2009]
 - [News, Slashdot 2013, J. Michael Straczynski Answers Your Questions][news_slashdot_straczynski_2013]
 - [News, Space.com 2015, The Expanse][news_space_com_expanse_2015]
-- [News, The FPS Review 2026, Star Citizen Crosses $1 Billion][news_fps_review_sc_2026]
+- [News, The Mittani 2012, Sins of a Solar Spymaster 78, The Extortion of Empire][news_ten_ton_hammer_otec_2012]
 - [News, The Register 2009, Gamer Embezzles Virtual Cash to Settle Real Debts][news_register_ebank_2009]
 - [Reference, Edmund Optics, Can a Laser Beam Be Seen from the Side?][ref_edmund_laser]
 - [Reference, FAI 2018, Statement about the Karman Line][ref_fai_karman_2018]
 - [Reference, SIGGRAPH History, The Last Starfighter][ref_siggraph_last_starfighter]
+- [Reference, Washington Employment Security Department, WARN Notices][ref_wa_esd_warn]
 - [Related Post, Mass Drivers][related_post_mass_drivers]
 - [Related Post, Orbital Manoeuvres in Terms of Delta-v][related_post_orbital_manoeuvres]
 - [Related Post, Published Wargames of War with China][related_post_published_wargames]
@@ -2756,11 +3036,13 @@ $$
 - [Research, Bohr 1913, On the Constitution of Atoms and Molecules][research_bohr_1913]
 - [Research, Levin et al. 2017, Darwin's Aliens][research_levin_et_al_2017]
 - [Research, Li et al. 2017, Modeling and Research of a Space-Based Spacecraft Infrared Detection System][research_li_et_al_2017]
+- [Research, Lisk et al. 2011, Leadership in Multiplayer Online Gaming Environments][research_lisk_et_al_2011]
 - [Research, McKagan et al. 2008, Why We Should Teach the Bohr Model and How to Teach It Effectively][research_mckagan_et_al_2008]
 - [Research, Orthia 2019, How Does Science Fiction Television Shape Fans' Relationships to Science? Results from a Survey of 575 Doctor Who Viewers][research_orthia_2019]
 - [Research, Sutton and Graves 1971, A General Stagnation-Point Convective Heating Equation for Arbitrary Gas Mixtures][research_sutton_graves_1971]
 - [Research, Whipple 1947, Meteorites and Space Travel][research_whipple_1947]
 - [Research, Wisdom and Holman 1991, Symplectic Maps for the N-Body Problem][research_wisdom_holman_1991]
+- [Research, Xanthopoulou and Papagiannidis 2012, Play Online, Work Better?][research_xanthopoulou_papagiannidis_2012]
 - [Research, Yoshida 1990, Construction of Higher Order Symplectic Integrators][research_yoshida_1990]
 
 [agency_esa_geo_2020]: https://www.esa.int/ESA_Multimedia/Images/2020/03/Geostationary_orbit
@@ -2789,7 +3071,7 @@ $$
 [book_battin_1999]: https://doi.org/10.2514/4.861543
 [book_conway_morris_2003]: https://doi.org/10.1017/CBO9780511535499
 [book_curtis_2020_interplanetary]: https://doi.org/10.1016/b978-0-08-102133-0.00008-8
-[book_glasstone_1964]: https://archive.org/details/TheEffectsOfNuclearWeapons1957
+[book_glasstone_1964]: https://doi.org/10.2172/972902
 [book_hawking_hawking_2007]: https://openlibrary.org/books/OL9523149M
 [book_whitfield_roddenberry_1968]: https://archive.org/details/makingofstartrek00whit
 [community_eve_uni_acceleration]: https://wiki.eveuniversity.org/Acceleration
@@ -2825,9 +3107,16 @@ $$
 [dev_ccp_security_2021]: https://www.eveonline.com/news/view/team-security-2021-in-review
 [dev_ccp_subscribers_2013]: https://community.eveonline.com/news/news-channels/press-releases/eve-online-surpasses-500-000-subscribers-worldwide
 [dev_ccp_taxes_2009]: https://www.eveonline.com/news/view/i-bring-gifts-by-gifts-i-mean-taxes-sorry
+[dev_ccp_taxes_2019]: https://www.eveonline.com/news/view/updates-to-sales-taxes-and-brokers-fees
 [dev_ccp_technetium_2012]: https://www.eveonline.com/news/view/tech-is-fine-l2p
+[dev_ccp_useful_formulae]: https://developers.eveonline.com/docs/guides/useful-formulae/
 [dev_ccp_viridian_2023]: https://www.eveonline.com/news/view/viridian-expansion-notes
 [dev_ccp_warp_2013]: https://www.eveonline.com/news/view/warp-drive-active
+[dev_cig_financials_2020]: https://cloudimperiumgames.com/blog/corporate/cloud-imperium-financials-for-2020
+[dev_cig_financials_2021]: https://cloudimperiumgames.com/blog/corporate/cloud-imperium-financials-for-2021
+[dev_cig_financials_2022]: https://cloudimperiumgames.com/blog/corporate/cloud-imperium-financials-for-2022
+[dev_cig_financials_2023]: https://cloudimperiumgames.com/blog/corporate/cloud-imperium-financials-for-2023
+[dev_cig_financials_2024]: https://cloudimperiumgames.com/blog/corporate/cfo-comment-on-the-2024-accounting
 [dev_code_essence_2016]: https://childrenofadeadearth.wordpress.com/2016/04/20/the-essence-of-space-warfare/
 [dev_code_orbital_2016]: https://childrenofadeadearth.wordpress.com/2016/05/17/fun-with-orbital-mechanics/
 [dev_code_photon_lance_2016]: https://childrenofadeadearth.wordpress.com/2016/07/02/the-photon-lance/
@@ -2839,6 +3128,7 @@ $$
 [dev_code_stealth_2016]: https://childrenofadeadearth.wordpress.com/2016/07/12/stealth-in-space/
 [dev_code_steam]: https://store.steampowered.com/app/476530/
 [dev_dark_multiplayer]: https://github.com/godarklight/DarkMultiPlayer
+[dev_harvester_patched_conics_2012]: https://www.physicsforums.com/threads/patched-conics-trajectory-from-initial-orbit-state.590896/
 [dev_kerbaledu_2016]: https://web.archive.org/web/20160104215459/http://www.kerbaledu.com/
 [dev_ksp_steam]: https://store.steampowered.com/app/220200/
 [dev_luna_multiplayer]: https://github.com/LunaMultiplayer/LunaMultiplayer/wiki
@@ -2846,12 +3136,21 @@ $$
 [dev_real_solar_system]: https://github.com/KSP-RO/RealSolarSystem
 [dev_realism_overhaul]: https://github.com/KSP-RO/RealismOverhaul
 [dev_rsi_alpha_300_2017]: https://robertsspaceindustries.com/en/comm-link/transmission/16348-Star-Citizen-Alpha-300
+[dev_rsi_alpha_315_2021]: https://robertsspaceindustries.com/en/comm-link/transmission/18338-Deadly-Consequences-Alpha-315
 [dev_rsi_alpha_40]: https://robertsspaceindustries.com/en/comm-link/Patch-Notes/20360-Star-Citizen-Alpha-40
+[dev_rsi_carrack_2014]: https://robertsspaceindustries.com/en/comm-link/transmission/14323-Into-The-Unknown-A-Carrack-Her-Crew
+[dev_rsi_crowdfund_stats]: https://robertsspaceindustries.com/en/funding-goals
 [dev_rsi_flight_2020]: https://robertsspaceindustries.com/en/comm-link/transmission/17647-Flight-Fight-Upcoming-Improvements
 [dev_rsi_fuel_2018]: https://robertsspaceindustries.com/en/comm-link/engineering/16517-The-Shipyard-Fuel-Mechanics
 [dev_rsi_letter_2018]: https://robertsspaceindustries.com/en/comm-link/transmission/16700-Letter-From-The-Chairman
 [dev_rsi_letter_2020]: https://robertsspaceindustries.com/en/comm-link/transmission/17805-Letter-From-The-Chairman
 [dev_rsi_lore_gravity_2014]: https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/14262-LORE-BUILDER-TWENTY-Journeys-Generators
+[dev_rsi_patch_300_2017]: https://robertsspaceindustries.com/en/comm-link/transmission/16349-Star-Citizen-Alpha-300
+[dev_rsi_patch_320_2018]: https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-2-0-live-796019-patch-notes
+[dev_rsi_patch_340_2018]: https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-3-4-0-live-1028053-patch-notes
+[dev_rsi_patch_450_2025]: https://robertsspaceindustries.com/en/comm-link/Patch-Notes/20934-Star-Citizen-Alpha-450
+[dev_rsi_roadmap]: https://robertsspaceindustries.com/roadmap/release-view
+[dev_rsi_tos_2026]: https://robertsspaceindustries.com/tos
 [dev_squad_arm_2014]: https://steamcommunity.com/games/220200/announcements/detail/1315356550594321621
 [dev_squad_first_release_2011]: https://web.archive.org/web/20111013113946/http://kerbalspace.tumblr.com/post/6872084213/first-release-is-up
 [dev_take_two_ksp2_2023]: https://ir.take2games.com/node/29461/pdf
@@ -2861,18 +3160,24 @@ $$
 [news_engadget_ebank_2009]: https://www.engadget.com/2009-07-02-new-perspective-on-eve-onlines-latest-bank-embezzlement.html
 [news_engadget_plex_2014]: https://www.engadget.com/2014-05-01-eve-fanfest-2014-economy-talk-highlights-plex-prices-and-reveal.html
 [news_engadget_tritanium_2008]: https://www.engadget.com/2008-06-29-making-money-the-origin-of-the-specie.html
-[news_evenews24_otec_2018]: https://evenews24.com/2018/01/22/moments-in-history-otec/
-[news_fps_review_sc_2026]: https://www.thefpsreview.com/2026/05/26/star-citizen-crosses-1-billion-in-crowdfunding-after-14-years-still-has-no-release-date/
+[news_gamersnexus_roberts_2016]: https://gamersnexus.net/gg/2617-chris-roberts-character-technology-weather-system-engine-arch
+[news_geekwire_intercept_2024]: https://www.geekwire.com/2024/take-two-layoffs-hit-seattle-area-70-workers-affected/
 [news_gematsu_fenris_2026]: https://www.gematsu.com/2026/05/ccp-games-rebrands-to-fenris-creations-following-split-from-pearl-abyss
 [news_gizmodo_trek_pitch_2011]: https://gizmodo.com/read-the-first-draft-of-gene-roddenberrys-star-trek-pit-5746652
 [news_ieee_ebank_2009]: https://spectrum.ieee.org/eve-online-game-player-embezzles-virtual-money-creates-real-trouble
-[news_pc_gamer_intercept_2024]: https://www.pcgamer.com/games/sim/kerbal-space-program-2-developer-intercept-games-may-be-closing-as-part-of-take-twos-big-layoff-plan
+[news_kotaku_refund_2018]: https://kotaku.com/star-citizen-backer-sues-to-get-4-500-back-loses-1827666550
+[news_massively_refund_2016]: https://massivelyop.com/2016/06/21/star-citizen-changes-refund-clause-for-new-backers-plans-procedurally-generated-planets-for-2-7/
+[news_pcgamer_asa_2021]: https://www.pcgamer.com/star-citizen-adds-disclaimer-to-spaceship-preorders-after-regulator-says-theyre-misleading/
+[news_polygon_refund_2017]: https://www.polygon.com/2017/12/13/16767590/star-citizen-refund/
 [news_register_ebank_2009]: https://www.theregister.com/security/2009/07/03/gamer-embezzles-virtual-cash-to-settle-real-debts/1491814
+[news_reuters_ebank_2009]: https://www.eeworldonline.com/gamer-steals-online-loot-to-pay-real-world-debts/
 [news_slashdot_straczynski_2013]: https://entertainment.slashdot.org/story/13/04/15/1328251/interviews-j-michael-straczynski-answers-your-questions
 [news_space_com_expanse_2015]: https://www.space.com/31437-the-expanse-crazy-sci-fi-tech.html
+[news_ten_ton_hammer_otec_2012]: https://www.tentonhammer.com/columns/sins-of-a-solar-spymaster-78-the-extortion-of-empire
 [ref_edmund_laser]: https://www.edmundoptics.com/knowledge-center/frequently-asked-questions/general-questions/lasers/can-a-laser-beam-be-seen-from-the-side
 [ref_fai_karman_2018]: https://www-2025.fai.org/news/statement-about-karman-line
 [ref_siggraph_last_starfighter]: https://history.siggraph.org/?p=94037
+[ref_wa_esd_warn]: https://fortress.wa.gov/esd/file/WARN/Public/SearchWARN.aspx
 [related_post_mass_drivers]: {% post_url 2026-08-19-mass_drivers %}
 [related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
 [related_post_published_wargames]: {% post_url 2026-08-11-published_wargames_of_war_with_china %}
@@ -2882,9 +3187,11 @@ $$
 [research_bohr_1913]: https://doi.org/10.1080/14786441308634955
 [research_levin_et_al_2017]: https://doi.org/10.1017/S1473550417000362
 [research_li_et_al_2017]: https://doi.org/10.1364/AO.56.002428
+[research_lisk_et_al_2011]: https://doi.org/10.1177/1046878110391975
 [research_mckagan_et_al_2008]: https://doi.org/10.1103/PhysRevSTPER.4.010103
 [research_orthia_2019]: https://doi.org/10.22323/2.18040208
 [research_sutton_graves_1971]: https://ntrs.nasa.gov/citations/19720003329
 [research_whipple_1947]: https://doi.org/10.1086/106009
 [research_wisdom_holman_1991]: https://doi.org/10.1086/115978
+[research_xanthopoulou_papagiannidis_2012]: https://doi.org/10.1016/j.techfore.2012.03.006
 [research_yoshida_1990]: https://doi.org/10.1016/0375-9601(90)90092-3

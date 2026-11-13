@@ -1,6 +1,6 @@
 # Equation classification for A386. Read by `python3 _lib/equations.py`.
 
-caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and the letter a stands for a semi-major axis in Equations 2 and 3 and for an acceleration in Equation 28."
+caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and the letter a stands for a semi-major axis in Equations 2 and 3 and for an acceleration in Equation 29."
 
 [[equation]]
 tag = 1
@@ -76,6 +76,14 @@ digest = "c2b24f96cf7b091b"
 
 [[equation]]
 tag = 10
+class = "bespoke"
+title = "Bespoke Ratio of Spending to Income"
+gloss = "The ratio of a company's costs including capital expenditure to its income in one year, used to test whether Cloud Imperium spends what it raises."
+cite = ["dev_cig_financials_2023"]
+digest = "e98f68e9674fce6a"
+
+[[equation]]
+tag = 11
 class = "standard"
 title = "Tsiolkovsky Rocket Equation"
 gloss = "The delta-v a rocket gains as its mass falls from the initial to the final mass."
@@ -83,7 +91,7 @@ cite = []
 digest = "8583abd9dcaf919f"
 
 [[equation]]
-tag = 11
+tag = 12
 class = "standard"
 title = "Hohmann Transfer Time"
 gloss = "Half the period of the transfer ellipse, the time the cheapest transfer between two circular orbits takes."
@@ -91,7 +99,7 @@ cite = ["book_curtis_2020_interplanetary"]
 digest = "12667e767813425b"
 
 [[equation]]
-tag = 12
+tag = 13
 class = "standard"
 title = "Synodic Period"
 gloss = "The interval between repetitions of two planets' relative position, which spaces the windows for a transfer."
@@ -99,7 +107,7 @@ cite = ["book_curtis_2020_interplanetary"]
 digest = "02da133e64d99e52"
 
 [[equation]]
-tag = 13
+tag = 14
 class = "standard"
 title = "Geostationary Orbit Radius"
 gloss = "The radius at which a circular orbit's period equals one sidereal day, the only place a satellite holds position over the ground."
@@ -107,7 +115,7 @@ cite = ["agency_esa_geo_2020"]
 digest = "7095cfb9d832aace"
 
 [[equation]]
-tag = 14
+tag = 15
 class = "standard"
 title = "Circular Orbital Speed"
 gloss = "The speed of a circular orbit at a given radius, which is what makes reaching orbit hard."
@@ -115,7 +123,7 @@ cite = []
 digest = "56a3141ed67bcb1c"
 
 [[equation]]
-tag = 15
+tag = 16
 class = "standard"
 title = "Gravity at Altitude"
 gloss = "The inverse-square fall of gravity with height, which leaves about nine-tenths of surface gravity at the space station."
@@ -123,7 +131,7 @@ cite = ["agency_nasa_microgravity"]
 digest = "5db4a7ffccce12f3"
 
 [[equation]]
-tag = 16
+tag = 17
 class = "standard"
 title = "Centripetal Acceleration"
 gloss = "The acceleration felt at the rim of a rotating habitat, the physical basis of spin gravity."
@@ -131,7 +139,7 @@ cite = ["agency_nasa_sp413_1977"]
 digest = "d6311f4ce4ff7347"
 
 [[equation]]
-tag = 17
+tag = 18
 class = "bespoke"
 title = "Bespoke Radiator Power Without Absorbed Sunlight"
 gloss = "The Stefan-Boltzmann law applied to a radiator facing cold space with absorbed sunlight neglected, an assumption of the article's that lowers the area needed."
@@ -139,7 +147,7 @@ cite = []
 digest = "728d547db14f8e3a"
 
 [[equation]]
-tag = 18
+tag = 19
 class = "standard"
 title = "Light-Time Delay"
 gloss = "The one-way delay of any signal over a distance, which no message or sensor reading can beat."
@@ -147,7 +155,7 @@ cite = ["agency_nasa_tm_2025_mars_comms"]
 digest = "04388ab403412985"
 
 [[equation]]
-tag = 19
+tag = 20
 class = "standard"
 title = "N-Body Equation of Motion With Thrust"
 gloss = "The acceleration of a craft under the gravity of every massive body plus its own thrust, the equation the core integrates."
@@ -155,7 +163,7 @@ cite = ["book_battin_1999"]
 digest = "dd43266a3bf43ac2"
 
 [[equation]]
-tag = 20
+tag = 21
 class = "standard"
 title = "Propellant Mass Flow"
 gloss = "The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation."
@@ -163,7 +171,7 @@ cite = []
 digest = "3601a1ad7671f001"
 
 [[equation]]
-tag = 21
+tag = 22
 class = "standard"
 title = "Kick-Drift-Kick Leapfrog Step"
 gloss = "The second-order symplectic step whose energy error stays bounded, the base of higher-order symplectic integrators."
@@ -171,7 +179,7 @@ cite = ["research_yoshida_1990"]
 digest = "5a50976859cbc979"
 
 [[equation]]
-tag = 22
+tag = 23
 class = "bespoke"
 title = "Bespoke Lockstep State Transition"
 gloss = "The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the lockstep requirement."
@@ -179,7 +187,7 @@ cite = []
 digest = "c964e77e1890e040"
 
 [[equation]]
-tag = 23
+tag = 24
 class = "standard"
 title = "Euler's Equations of Rigid-Body Rotation"
 gloss = "The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path."
@@ -187,7 +195,7 @@ cite = []
 digest = "0bfbee91e09d9a1d"
 
 [[equation]]
-tag = 24
+tag = 25
 class = "standard"
 title = "Aerodynamic Drag"
 gloss = "The drag force on a body moving through air, which governs launch and reentry."
@@ -195,7 +203,7 @@ cite = []
 digest = "dff9c8059459e497"
 
 [[equation]]
-tag = 25
+tag = 26
 class = "standard"
 title = "Isothermal Exponential Atmosphere"
 gloss = "The simple model of air density falling exponentially with height above sea level."
@@ -203,7 +211,7 @@ cite = []
 digest = "02e4c3dbb6245db8"
 
 [[equation]]
-tag = 26
+tag = 27
 class = "standard"
 title = "Sutton-Graves Stagnation-Point Heating"
 gloss = "The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter."
@@ -211,7 +219,7 @@ cite = ["research_sutton_graves_1971"]
 digest = "10c5efa55072f942"
 
 [[equation]]
-tag = 27
+tag = 28
 class = "bespoke"
 title = "Bespoke Lumped Thermal Balance"
 gloss = "A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature."
@@ -219,7 +227,7 @@ cite = []
 digest = "2019f5bdd8d7517d"
 
 [[equation]]
-tag = 28
+tag = 29
 class = "standard"
 title = "Pendulum Model of First-Mode Slosh"
 gloss = "The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration."
@@ -227,7 +235,7 @@ cite = ["research_abramson_1966"]
 digest = "7ecdde474cf4bd38"
 
 [[equation]]
-tag = 29
+tag = 30
 class = "bespoke"
 title = "Bespoke Wall-Clock Time Under a Shared Clock"
 gloss = "The real time an agent waits for a span of simulated time when one compression factor applies to every agent."
@@ -235,7 +243,7 @@ cite = []
 digest = "3824e7f42b60d0c5"
 
 [[equation]]
-tag = 30
+tag = 31
 class = "bespoke"
 title = "Bespoke Freight Propellant From the Rocket Equation"
 gloss = "The propellant a shipment needs for a given delta-v, the rocket equation rearranged to price freight by delta-v in the blueprint's economy."
@@ -445,6 +453,18 @@ meaning = "the broker's fee rate"
 [[symbol]]
 tex = 'c_{\mathrm{h}}'
 meaning = "the cost of hauling one unit"
+
+[[symbol]]
+tex = '\rho_{y}'
+meaning = "the ratio of spending to income in year $y$"
+
+[[symbol]]
+tex = 'C_{y}'
+meaning = "the costs including capital expenditure in year $y$"
+
+[[symbol]]
+tex = 'R_{y}'
+meaning = "the income in year $y$"
 
 [[symbol]]
 tex = 'm_{\mathrm{p}}'

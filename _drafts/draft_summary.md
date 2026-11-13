@@ -26,8 +26,10 @@ reconstructs from memory the thesis of the pilot's lost senior seminar paper, re
 of a Dead Earth, EVE Online and Star Citizen, catalogues soft science fiction conventions with remedies, and ends in a
 blueprint for a high-fidelity multi-agent predictive simulation with the equations an implementation needs.
 
-**Current status 2026-11-13. Drafted, four passes done, not published.** 13,200 words of author prose, 30 display
-equations, 21 standard and 9 bespoke, and 125 reference definitions. An economy subsection on EVE Online
+**Current status 2026-11-13. Drafted, four passes done, not published.** 14,736 words of author prose, 31 display
+equations, 21 standard and 10 bespoke, and 150 reference definitions. A strengthening round then replaced weak
+sources with primary ones where they exist, expanded the Star Citizen review with its gameplay loops, pledge terms,
+published financials and a spending ratio, and added the predictive scope argument. An economy subsection on EVE Online
 was added after the four passes, with its supply chain, industry and market formulas, PLEX and real-money trade,
 emergent tax havens, bank failures and cartels, and a blueprint economy priced by delta-v. The equation pass added the Hohmann transfer time,
 the synodic period, the shared-clock wall time and an implementation subsection. The reference pass added Curtis,

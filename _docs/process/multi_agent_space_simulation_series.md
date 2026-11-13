@@ -75,6 +75,12 @@ fixed-step agents is a hypothesis for the demonstrator to test, not a finding.
   models interlock so comprehensively that the whole has predictive value, and its commodity market is its one strong,
   accurate model. Its wrong models have the right fidelity for driving interaction, which the blueprint must match
   while also being true.
+- **Dated mechanics.** EVE Online's mechanics change. Date each figure by its source. An outdated figure still
+  describes how agents played at the time, and it need not invalidate a conclusion.
+- **Star Citizen** broadly aspires to a higher-fidelity version of EVE Online's soft science fiction thesis, with its
+  own spin. It achieved product-market fit in alpha, which is irregular. Its pledges are not purchases, but the terms
+  make them binding. Its mismanagement is the author's judgement, set against the reading that perpetual alpha is
+  the business model working.
 - **Nothing is published, pushed or forward-dated** without the pilot's approval.
 
 ## Research Material
