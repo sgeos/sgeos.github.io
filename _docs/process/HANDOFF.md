@@ -11,6 +11,98 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `6b93ba7`
+- **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the second hardening pass on A386. This
+  file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `6b93ba7...` for this handoff to be
+  valid. `python3 _lib/blog.py handoff` makes that comparison.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `021cce5`. The A386 commits `7f4ff87`, `ec3052b`, `b743da4`, `51e303c` and
+  `6b93ba7`, their handoff restamps, and this file's commit are **local and unpushed**. Nothing is pushed or published
+  without the pilot's approval. A push goes through a `ci/<topic>` branch and a passing `CI result`. The draft is in
+  `_drafts/`, so a push does not change the live site.
+- **PUBLICATION STATE.** A1 to A385 are published. **A386 is drafted, hardened twice and not published.** The next
+  free article number is A387.
+
+## Resume Here
+
+**The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
+`_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
+`multi_agent_space_simulation`. **Two hardening passes are done**, the second on the pilot's rulings of 2026-11-13.
+The article waits for the pilot's reading and for the steps before publication.
+
+**Read first.** [Multi-Agent Space Simulation Series](./multi_agent_space_simulation_series.md) holds the arc of A386 to
+A390, the pilot's standing rulings, and the items deferred to A388 and A389. The rulings are binding. In brief:
+- The paper is lost. Never invent or quote it.
+- Say "an undergraduate space studies programme". Never publish the pilot's grade, GPA, university or course.
+- Say agents, never players, and simulations, never games, outside quotations. Prefer multi-agent to multiplayer,
+  keeping proper names and quoted labels. Wargames keep their name, and their people are participants.
+- **Voice.** Academic third person and the active voice unless inappropriate. `tmp/a386/passive.py POST` lists
+  passive constructions and first or second person. It is a heuristic.
+- **Length is not an issue.** Hardening references and equations is desired where appropriate and reasonably possible.
+- The whole article is the author's position. Mark sourced facts by citation and inferences by name.
+- Developers are generally competent.
+- Passages in the pilot's own words stay unless the pilot changes them. They include the paragraph on undergraduate
+  classes, "a buggy mess", "a proper science degree", "for the future benefit of humanity" and "a fairly tempered
+  participant".
+- The mechanism of predictive value, the gravity optimisations, relativistic time dilation and the five principles
+  of the blueprint are the pilot's or approved by the pilot. The series notes give each.
+
+**State.** 21,626 words of author prose, 34 display equations, 23 standard and 11 bespoke, and 187 reference
+definitions, all used and defined. `_verify.py` reports 0 and 0. `./_check.sh` passed on a scratch copy with the draft
+built as a post, 554 pages and no rendered findings, on the exact text committed.
+
+**What the passes did.** `REVERSE_PROMPT.md`, second and third entries of 2026-11-13. The edits are the scripts
+`tmp/a386/fable1.py` to `fable6.py`, each of which fails unless every replacement matches once. The draft before them
+is `tmp/a386/draft_before_fable.markdown`. The research reports are `tmp/a386/research/harden2/REPORT_A.md`, on
+wargaming, forecasting and the full texts of five studies, and `tmp/a386/research/harden3/REPORT_B.md`, on the
+blueprint's engineering claims. Each folder has a `quotes.tsv` of machine-checked quotations.
+
+**Open, for the pilot, on A386.**
+1. No source says that participants in wargames were of average ability. The article says so, rests the point on
+   Green and Armstrong 2007, and states the pilot's claim as the narrower one the record supports.
+2. The article now says that the reconstruction names incentives as a bound and that the author regards the
+   reasoning behind it as part of the thesis. It no longer says that the paper lacked it. The pilot should confirm.
+3. Clement 1982 and Lofgren and Fefferman 2007 are cited from abstracts alone, and the article says so.
+4. The second pass had no independent review. The first had one.
+
+**Before publication.**
+- Import the References into the source database through `_sources/decisions/A386.toml`, following
+  `_docs/writing/CITATION_STYLE.md`. There are 187 definitions.
+- A full URL check. A bulk check was refused by the permission classifier and must not be worked around. Several
+  sources were saved from Wayback captures because the live sites refused scripted requests, among them the Naval
+  War College, the Naval History and Heritage Command and the Naval Institute. The research reports list them.
+- Set the front matter date, a placeholder at 2026-11-12 09:00, to the publication time, never in the future.
+
+**How to verify a change.**
+- Equations: `python3 _lib/blog.py equations tag POST --write`, then regenerate `_sources/equations/A386.toml`. The
+  classification, the symbols and the caution live in `tmp/a386/write_toml.py`, run as `python3 tmp/a386/write_toml.py
+  POST _sources/equations/A386.toml`. Then run `equations write POST --write` and `equations check POST`. Adding an
+  equation renumbers those after it, and the caution names equations by number, so update it.
+- The gate: copy the draft into `tmp/a386/build/_posts/` under a past date, with `A386.toml` into
+  `tmp/a386/build/_sources/equations/`, and run `BUNDLE_PATH=/Users/bsechter/projects/blog/vendor/bundle ./_check.sh`
+  there, outside the sandbox. Never run `./_check.sh --drafts`. Gate the exact text that is committed.
+- Quotations: the saved sources are under `tmp/a386/research/`. Check a quotation with its punctuation, since two
+  were found carrying a comma the source lacks.
+- Run `machine-status` before heavy work, per `~/.local/share/machine-status/PLAYBOOK.md`.
+
+**LOCAL STATE.**
+- The blog's Dromon daemon is stopped.
+- The `tmp/` clean-up of 2026-11-08 waits for the pilot's approval of its step 1 list. Nothing there was moved or
+  deleted.
+
+**OPEN, FOR THE PILOT, beyond A386.**
+1. Whether to post the A385 announcement drafted in `REVERSE_PROMPT.md`.
+2. Whether to judge CACM items from 1983 on.
+3. The ruleset change that makes `CI result` required, which remains the operator's.
+4. The `tmp/` clean-up approvals.
+
+**METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file. Never publish the pilot's
+grade, GPA, university or course. Irreversible or outward-facing actions need the pilot's confirmation.
+
+## Validity (superseded, written 2026-11-13 after the first hardening pass on A386, parent `51e303c`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `51e303c`
 - **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the hardening pass on A386. This file's
   own commit sits directly on top, so `git rev-parse HEAD~1` must print `51e303c...` for this handoff to be valid.
@@ -23,7 +115,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 - **PUBLICATION STATE.** A1 to A385 are published. **A386 is drafted, hardened and not published.** The next free
   article number is A387.
 
-## Resume Here
+## Resume Here (superseded, written 2026-11-13 after the first hardening pass on A386)
 
 **The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
 `_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
