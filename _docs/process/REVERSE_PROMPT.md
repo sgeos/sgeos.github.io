@@ -4,6 +4,47 @@
 
 ## Last Updated
 
+**Date**: 2026-11-13 (third entry)
+**Task**: **Second hardening pass on A386, applying your rulings of 2026-11-13. Done, committed locally, not pushed, not published.**
+
+**Your rulings, applied.**
+- **The mechanism of predictive value** is now part five of the thesis and a passage in Predictive Value. Agents are subject to the same incentives and constraints as reality, the claim hinges on the scenario, and competence matters less because real stakeholders are of ordinary ability and make mistakes. The two practical problems, getting the stakeholders who would most benefit to take part and not waving away unexpected results, have their own paragraph with Midway and Millennium Challenge 2002 as the cases.
+- **Relativistic time dilation** is restored in the Time section and tied to several characters, with a clock equation in the implementation subsection. It is about a sixth of a second a year at 30 kilometres per second, 38 microseconds a day for GPS by NASA's figure, and about 1.8 days a year at a tenth of the speed of light.
+- **Your two observations** are in the text. You have watched EVE Online's ships slow to rest. You recall noting that Star Citizen's celestial bodies were not subject to celestial mechanics.
+- **Multi-agent** replaces multiplayer in the author's prose. Dark Multiplayer, Luna Multiplayer, reference titles and the store label "Single-player" stay, the last as a quotation.
+- **The additions to the design** stand as approved.
+- **Voice.** I listed 149 passive constructions with a scanner, `tmp/a386/passive.py`, and rewrote 111 in the active voice. The 23 that remain are stative, such as "the paper is lost" and "none is known", or sit inside quotations. The one first-person slip, "similar to our own", is gone. The scanner is a heuristic and will have missed some.
+- **Gravity can be optimised.** The Physical Core has a new item with your three techniques. Bodies on ephemerides cannot perturb one another into disorder. Each craft and small object is bound to a parent body and feels other bodies as perturbations above a declared threshold. The neighbourhood of each body is a shard, and light time gives the shards time to agree. The momentum a craft exchanges with the body it flies past, the effect on that body's rotation and the pull of craft on craft are declared omissions.
+
+**References hardened.** Thirty added, 157 to 187. Two research helpers saved every source and checked 232 quotations by machine. I rechecked the 50 I used against the saved files, punctuation included.
+- **Blueprint.** Sources now stand behind the ephemerides, the negligible effect of a gravity assist on a planet, the terms needed in low orbit, the frame of the equations of motion, symplectic integration and its conditions, lockstep and replay, floating-point disagreement between machines, the cost of a force evaluation, EVE Online's server architecture and its time dilation, and Kerbal Space Program 2's undelivered mode.
+- **Studies.** Castronova et al. 2009, Williams 2010 and Barnett et al. 2006 were read in full, and the article now reports their limits. Williams criticises the epidemic study the article also cites and says that virtual risks do not map to real ones. Castronova found the virtual economy less stable. Barnett studied 82 students of one teacher.
+
+**Equations hardened.** Three added, 31 to 34. They are the cost of one gravity step, the motion of a craft relative to its parent body with third-body terms, and the weak-field rate of a moving clock. For a craft at the height of the space station the Moon adds 1.4 parts in ten million of Earth's pull, the Sun 0.6, and Jupiter one part in a trillion, so three bodies suffice above one part in a billion.
+
+**Corrections the sources forced.**
+- Two quotations carried a comma that the source lacks. Fixed.
+- "Clement found a misconception about force and motion" became force and acceleration, with the label "motion implies a force" cited to a later review.
+- "Wisdom and Holman built maps for the n-body problem of the planets" became maps for problems with a dominant central mass, applied to the outer planets.
+- "Closed without delivering" became "its studio closed", since the product is still on sale.
+- The symplectic claim now carries its conditions, a constant step and a craft about one dominant body.
+
+**Numbers.** 18,894 to 21,626 words of author prose, 34 equations with 23 standard and 11 bespoke, 187 references.
+
+**Verification.** `_verify.py` 0 and 0, the equation and reference checks clean, and `./_check.sh` passing on a scratch copy built from the committed text. See the commit.
+
+**Two points where the evidence did not match the claim as you gave it.**
+1. **Average ability.** No source found says that the participants in wargames were of average ability. The interwar Newport participants were career officers. The article therefore says so, rests the point on Green and Armstrong 2007, in which role playing by students beat the unaided judgement of experts, and quotes the profession's own caution that "a war game can never be truly predictive". It then states your claim as the narrower one the record supports. If you know a source for average ability in wargames proper, the article can use it.
+2. **The third bound.** The article used to say that incentives were an addition of this reconstruction and were not in the paper as you recall it. Your note makes incentives and constraints the mechanism of the thesis, so I changed that sentence. It now says the reconstruction names incentives as a bound and that you regard the reasoning behind it as part of the thesis. Correct me if the paper did or did not contain it.
+
+**Still unverified or thin.**
+- Clement 1982 and Lofgren and Fefferman 2007 are cited from abstracts alone. The article says so.
+- The equation of motion relative to a parent body is cited to a NASA specification whose scan was read from page images. A second source with clean text agrees.
+- No independent review was run on this second pass. I recomputed the new numbers myself.
+- The steps before publication are unchanged, namely the import into the source database, the full URL check and the date.
+
+## Previous Report (2026-11-13, second entry)
+
 **Date**: 2026-11-13 (second entry)
 **Task**: **Hardening pass on A386 with Fable 5.2. Done, committed locally, not pushed, not published.**
 

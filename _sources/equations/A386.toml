@@ -1,6 +1,6 @@
 # Equation classification for A386. Read by `python3 _lib/equations.py`.
 
-caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 29, T is a sidereal day in Equation 14 and a temperature in Equations 18 and 28, R is a weapon range in Equation 4 and the radius of Earth in Equation 16, the Greek letter tau is a time constant in Equation 5 and a torque in Equation 24, and the Greek letter rho is a ratio of spending to income in Equation 10 and the density of air in Equations 25 to 27."
+caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 31, T is a sidereal day in Equation 14 and a temperature in Equations 18 and 30, R is a weapon range in Equation 4 and the radius of Earth in Equation 16, the Greek letter tau is a time constant in Equation 5 and a torque in Equation 26, the Greek letter rho is a ratio of spending to income in Equation 10 and the density of air in Equations 27 to 29, and the capital Greek letter phi is a step function in Equation 25 and a gravitational potential in Equation 32."
 
 [[equation]]
 tag = 1
@@ -156,14 +156,22 @@ digest = "04388ab403412985"
 
 [[equation]]
 tag = 20
-class = "standard"
-title = "N-Body Equation of Motion With Thrust"
-gloss = "The acceleration of a craft under the gravity of every massive body plus its own thrust, the equation the core integrates."
-cite = ["book_battin_1999"]
-digest = "d29f46bbbda54c44"
+class = "bespoke"
+title = "Bespoke Cost of One Gravity Step"
+gloss = "The time one processor core needs to advance every craft by one step, linear in the number of craft because craft do not attract one another, an order-of-magnitude estimate of the article's."
+cite = ["research_tanikawa_et_al_2013"]
+digest = "60ee6bc935af4ffd"
 
 [[equation]]
 tag = 21
+class = "standard"
+title = "N-Body Equation of Motion With Thrust"
+gloss = "The acceleration of a craft in an inertial frame under the gravity of every massive body plus its own thrust, the equation the core integrates."
+cite = ["book_battin_1999", "agency_nasa_gmat_2007"]
+digest = "d29f46bbbda54c44"
+
+[[equation]]
+tag = 22
 class = "standard"
 title = "Propellant Mass Flow"
 gloss = "The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation."
@@ -171,15 +179,23 @@ cite = []
 digest = "3601a1ad7671f001"
 
 [[equation]]
-tag = 22
+tag = 23
+class = "standard"
+title = "Motion Relative to a Parent Body With Third-Body Terms"
+gloss = "The acceleration of a craft in the frame of its parent body, where each other body enters as the difference between its pull on the craft and its pull on the parent."
+cite = ["agency_nasa_gmat_2007", "research_berry_coppola_2007"]
+digest = "75ae62f1639c1a76"
+
+[[equation]]
+tag = 24
 class = "standard"
 title = "Kick-Drift-Kick Leapfrog Step"
-gloss = "The second-order symplectic step whose energy error stays bounded, the base of higher-order symplectic integrators."
-cite = ["research_yoshida_1990"]
+gloss = "The second-order symplectic step whose energy error stays bounded for a coasting craft at a constant step, the base of higher-order symplectic integrators."
+cite = ["research_yoshida_1990", "research_hairer_et_al_2003"]
 digest = "5a50976859cbc979"
 
 [[equation]]
-tag = 23
+tag = 25
 class = "bespoke"
 title = "Bespoke Reproducible State Transition"
 gloss = "The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the requirement that the step be reproducible."
@@ -187,7 +203,7 @@ cite = []
 digest = "c964e77e1890e040"
 
 [[equation]]
-tag = 24
+tag = 26
 class = "standard"
 title = "Euler's Equations of Rigid-Body Rotation"
 gloss = "The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path."
@@ -195,7 +211,7 @@ cite = []
 digest = "0bfbee91e09d9a1d"
 
 [[equation]]
-tag = 25
+tag = 27
 class = "standard"
 title = "Aerodynamic Drag"
 gloss = "The drag force on a body moving through air, which governs launch and reentry."
@@ -203,7 +219,7 @@ cite = []
 digest = "dff9c8059459e497"
 
 [[equation]]
-tag = 26
+tag = 28
 class = "standard"
 title = "Isothermal Exponential Atmosphere"
 gloss = "The simple model of air density falling exponentially with height above sea level."
@@ -211,7 +227,7 @@ cite = []
 digest = "02e4c3dbb6245db8"
 
 [[equation]]
-tag = 27
+tag = 29
 class = "standard"
 title = "Sutton-Graves Stagnation-Point Heating"
 gloss = "The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter."
@@ -219,7 +235,7 @@ cite = ["research_sutton_graves_1971"]
 digest = "10c5efa55072f942"
 
 [[equation]]
-tag = 28
+tag = 30
 class = "bespoke"
 title = "Bespoke Lumped Thermal Balance"
 gloss = "A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature."
@@ -227,7 +243,7 @@ cite = []
 digest = "2019f5bdd8d7517d"
 
 [[equation]]
-tag = 29
+tag = 31
 class = "standard"
 title = "Pendulum Model of First-Mode Slosh"
 gloss = "The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration."
@@ -235,7 +251,15 @@ cite = ["research_abramson_1966"]
 digest = "7ecdde474cf4bd38"
 
 [[equation]]
-tag = 30
+tag = 32
+class = "standard"
+title = "Weak-Field Rate of a Moving Clock"
+gloss = "The rate of a craft's clock against a distant clock at rest, slowed by the gravitational potential and by speed, to first order."
+cite = ["research_ashby_2003"]
+digest = "22245eaf6de1e923"
+
+[[equation]]
+tag = 33
 class = "bespoke"
 title = "Bespoke Wall-Clock Time Under a Shared Clock"
 gloss = "The real time an agent waits for a span of simulated time when one compression factor applies to every agent."
@@ -243,7 +267,7 @@ cite = []
 digest = "3824e7f42b60d0c5"
 
 [[equation]]
-tag = 31
+tag = 34
 class = "bespoke"
 title = "Bespoke Freight Propellant From the Rocket Equation"
 gloss = "The propellant a shipment needs for a given delta-v, the rocket equation rearranged to price freight by delta-v in the blueprint's economy."
@@ -345,6 +369,42 @@ meaning = "the acceleration of craft $i$ from its own thrust"
 [[symbol]]
 tex = '\dot{m}'
 meaning = "the rate of change of a craft's mass"
+
+[[symbol]]
+tex = 't_{\mathrm{step}}'
+meaning = "the time one processor core needs to advance every craft by one step"
+
+[[symbol]]
+tex = 'N_{\mathrm{c}}'
+meaning = "the number of craft"
+
+[[symbol]]
+tex = '\bar{n}'
+meaning = "the mean number of bodies each craft feels"
+
+[[symbol]]
+tex = 't_{\mathrm{f}}'
+meaning = "the time of one evaluation of the inverse-square law"
+
+[[symbol]]
+tex = '\mu_{\mathrm{p}}'
+meaning = "the gravitational parameter of a craft's parent body"
+
+[[symbol]]
+tex = '\mu_{k}'
+meaning = "the gravitational parameter of another body $k$"
+
+[[symbol]]
+tex = 't_{\mathrm{c}}'
+meaning = "the time a craft's own clock shows"
+
+[[symbol]]
+tex = '\Phi'
+meaning = "the Newtonian gravitational potential at a craft"
+
+[[symbol]]
+tex = 'c'
+meaning = "the speed of light"
 
 [[symbol]]
 tex = '\Delta t'
