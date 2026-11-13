@@ -1175,7 +1175,7 @@ and the absence of propellant.
 Star Citizen is a multi-agent space simulation by Cloud Imperium Games.
 It remains in alpha testing as of this writing.
 The developer's own crowdfunding counter reported funds of 106,210,587,748
-and a head count of 6,757,438 on 13 November 2026
+and a head count of 6,757,438 on 12 November 2026
 [RSI Crowdfund Statistics][dev_rsi_crowdfund_stats].
 The counter's data labels the head count as fans,
 who need not all be paying backers,
@@ -3244,6 +3244,9 @@ The thesis makes the formulation of realistic scenarios the main source of predi
 so the blueprint must say where scenarios come from.
 
 One history is thin evidence.
+The British handbook warns of
+"a risk of false lessons being identified from a single run of a wargame"
+[UK Ministry of Defence 2017][ref_uk_mod_wargaming_2017].
 The games at Newport earned their reputation by replaying one war many times over,
 and the research on role playing rests on many short sessions.
 A single persistent world yields a single path through its possibilities,
