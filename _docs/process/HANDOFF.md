@@ -11,6 +11,95 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `51e303c`
+- **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the hardening pass on A386. This file's
+  own commit sits directly on top, so `git rev-parse HEAD~1` must print `51e303c...` for this handoff to be valid.
+  `python3 _lib/blog.py handoff` makes that comparison.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `021cce5`. The A386 commits `7f4ff87`, `ec3052b`, `b743da4` and `51e303c`, their
+  handoff restamps, and this file's commit are **local and unpushed**. Nothing is pushed or published without the
+  pilot's approval. A push goes through a `ci/<topic>` branch and a passing `CI result`. The draft is in `_drafts/`,
+  so a push does not change the live site.
+- **PUBLICATION STATE.** A1 to A385 are published. **A386 is drafted, hardened and not published.** The next free
+  article number is A387.
+
+## Resume Here
+
+**The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
+`_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
+`multi_agent_space_simulation`. **The hardening pass is done.** The article waits for the pilot's rulings on it, and
+then for the steps before publication.
+
+**Read first.** [Multi-Agent Space Simulation Series](./multi_agent_space_simulation_series.md) holds the arc of A386 to
+A390, the pilot's standing rulings, and the items the hardening pass deferred to A388 and A389. The rulings are
+binding. In brief:
+- The paper is lost. Never invent or quote it.
+- Say "an undergraduate space studies programme". Never publish the pilot's grade, GPA, university or course.
+- Say agents, never players, and simulations, never games, outside quotations. "Multiplayer" stays where it names the
+  feature as a developer names it.
+- The whole article is the author's position. Mark sourced facts by citation and inferences by name.
+- Developers are generally competent.
+- Passages in the pilot's own words stay unless the pilot changes them. They include the paragraph on undergraduate
+  classes, "a buggy mess", "a proper science degree", "for the future benefit of humanity" and "a fairly tempered
+  participant".
+
+**State.** 18,894 words of author prose, 31 display equations, 21 standard and 10 bespoke, and 157 reference
+definitions, all used and defined. `_verify.py` reports 0 and 0. `./_check.sh` passed on a scratch copy with the draft
+built as a post, 554 pages and no rendered findings, on the exact text committed.
+
+**What the hardening pass did.** `REVERSE_PROMPT.md`, second entry of 2026-11-13, lists it. The edits are the scripts
+`tmp/a386/fable1.py`, `fable2.py` and `fable3.py`, each of which fails unless every replacement matches once. The draft
+before the pass is `tmp/a386/draft_before_fable.markdown`. The seven new sources are saved under
+`tmp/a386/research/harden/pages/`, and five of them were read as abstracts only, which the article states.
+
+**NEXT, the pilot's rulings.** Seven items, set out in `REVERSE_PROMPT.md`:
+1. Whether the additions to the blueprint stand, namely two principles, make loss last and be open to checking, the
+   preference for true scale, the preference for the lowest compression agents will tolerate, and the crew as the unit
+   that flies a ship.
+2. Whether "time dilation" in the pilot's note meant the clock's compression. The sentence on relativistic dilation
+   was removed on that reading.
+3. Whether the pilot can attest at first hand that EVE Online's ships slow to rest and that Star Citizen's planets do
+   not orbit. Both rest on community wikis.
+4. Whether the passages in the pilot's own voice stay as they are.
+5. Whether an article of this length should be split at the Blueprint, which would change the series arc.
+6. The review findings not applied.
+7. The steps before publication.
+
+**Before publication.**
+- Import the References into the source database through `_sources/decisions/A386.toml`, following
+  `_docs/writing/CITATION_STYLE.md`.
+- A full URL check. A bulk check was refused by the permission classifier and must not be worked around.
+- Set the front matter date, a placeholder at 2026-11-12 09:00, to the publication time, never in the future.
+
+**How to verify a change.**
+- Equations: `python3 _lib/blog.py equations tag POST --write`, then regenerate `_sources/equations/A386.toml`. The
+  classification lives in `tmp/a386/write_toml.py`, run as `python3 tmp/a386/write_toml.py POST
+  _sources/equations/A386.toml`. Then run `equations write POST --write` and `equations check POST`.
+- The gate: copy the draft into `tmp/a386/build/_posts/` under a past date, with `A386.toml` into
+  `tmp/a386/build/_sources/equations/`, and run `BUNDLE_PATH=/Users/bsechter/projects/blog/vendor/bundle ./_check.sh`
+  there, outside the sandbox. Never run `./_check.sh --drafts`. Gate the exact text that is committed.
+- Quotations: the saved sources are under `tmp/a386/research/`, in `ksp_code/`, `eve_sc/`, `eve_econ/`, `scifi/`,
+  `stronger/` and `harden/`. Check them with `tmp/a386/quotecheck.py` or `grep -F` on the saved text.
+- Run `machine-status` before heavy work, per `~/.local/share/machine-status/PLAYBOOK.md`.
+
+**LOCAL STATE.**
+- The blog's Dromon daemon is stopped.
+- The `tmp/` clean-up of 2026-11-08 waits for the pilot's approval of its step 1 list. Nothing there was moved or
+  deleted.
+
+**OPEN, FOR THE PILOT, beyond A386.**
+1. Whether to post the A385 announcement drafted in `REVERSE_PROMPT.md`.
+2. Whether to judge CACM items from 1983 on.
+3. The ruleset change that makes `CI result` required, which remains the operator's.
+4. The `tmp/` clean-up approvals.
+
+**METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file. Never publish the pilot's
+grade, GPA, university or course. Irreversible or outward-facing actions need the pilot's confirmation.
+
+## Validity (superseded, written 2026-11-13 before the A386 hardening pass, parent `7e8331c`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `7e8331c`
 - **Written**: 2026-11-13, by the operator session, Claude Opus 5.5, to hand A386 to a hardening pass. This file's own
   commit sits directly on top, so `git rev-parse HEAD~1` must print `7e8331c...` for this handoff to be valid.
@@ -23,7 +112,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 - **PUBLICATION STATE.** A1 to A385 are published. **A386 is drafted and not published.** The next free article number
   is A387.
 
-## Resume Here
+## Resume Here (superseded, written 2026-11-13 before the A386 hardening pass)
 
 **The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
 `_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
