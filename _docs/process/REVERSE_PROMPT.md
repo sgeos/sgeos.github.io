@@ -4,6 +4,38 @@
 
 ## Last Updated
 
+**Date**: 2026-11-13 (second entry)
+**Task**: **Hardening pass on A386 with Fable 5.2. Done, committed locally, not pushed, not published.**
+
+**Method.** I read the whole draft, recomputed its worked numbers, checked its claims against the saved sources, edited it, then gave the edited draft to an independent reviewer with no view of my conclusions. The reviewer returned thirty findings. I applied those about logic, physics wording and consistency, and left the passages that are in your own words. The edits are `tmp/a386/fable1.py`, `fable2.py` and `fable3.py`, and the draft before them is `tmp/a386/draft_before_fable.markdown`.
+
+**What changed in the argument.**
+- **The thesis.** The third part now defines its target, many independent agents in one persistent world on one clock in a product for the public. The Kerbal Space Program multiplayer modifications are named as a proof of concept at small scale, and Kerbal Space Program 2 as the one known attempt, which announced multiplayer and closed. "Nothing prevents it" became "no obstacle in physics or computation is known, and the open problems are of design".
+- **The model section.** The Bohr model contradicts physics, so it could not found "omit, never contradict". Each product is now judged twice, against its own purpose and against this article's, and the rule is derived from the sizing principle for a simulation that teaches and predicts.
+- **EVE Online.** The drag law now rests first on the developer's own "maximum speed" and on the alignment formula in developer-hosted documentation, with the wiki as corroboration. What EVE Online has shown is restated as reproduction of known behaviour, the first test of a predictive model and not a confirmed prediction. The developer's monetary actions were moved out of the list of emergent behaviour.
+- **Star Citizen.** The ratio near one is read as consistent with the pledge terms and as showing no banked profit. Your judgement of mismanagement is stated as a judgement resting on cumulative spending and a perpetual alpha. The counter's head count is called fans, as the developer's data labels it, not contributors.
+- **Kerbal Space Program 2.** "Fatally mismanaged" is now your judgement, set beside what the record shows, with a press report of its reception.
+- **The blueprint.** A Possibility subsection argues that the gravity model costs in proportion to the number of craft. Determinism is a choice with two reasons, not a necessity. A table shows what compression does to five durations, and the text says that compression does not compress the agents, so light time all but vanishes at high compression. The light-time rule is said to bind craft and not people. Committed orders are split into two forms with their costs. The rarity of encounters is named. The conflict between layered disclosure and lasting loss is recorded as open.
+- **Predictive value.** Grounded in Castronova et al. 2009, Lofgren and Fefferman 2007 and Williams 2010. The limits now include the scenario, the volunteers and the institutions.
+- **Miseducation.** Grounded in Barnett et al. 2006 and Clement 1982, and called a hypothesis with indirect support.
+- **Market demand.** Two objections are stated and left standing.
+- **Presentation.** An argument in brief, a comparison table of the four reviews, each verdict and remedy in its own paragraph, and a signpost over the economy formulas.
+
+**Numbers.** 14,736 to 18,894 words of author prose, 150 to 157 references, 31 equations. Every new quotation was checked verbatim against a saved copy under `tmp/a386/research/`. The seven new references were verified against Crossref or a saved page.
+
+**Verification.** `_verify.py` 0 and 0, the equation and reference checks clean, and `./_check.sh` passing on a scratch copy with the draft built as a post, 554 pages and no rendered findings. See the commit.
+
+**For you to rule on.**
+1. **Additions to your design.** I added two principles, make loss last and be open to checking, a preference for true scale over rescaling, a preference for the lowest compression agents will tolerate, and a crew as the unit that flies a ship. Each follows from the article's own argument, but the design is yours.
+2. **"Time dilation".** I read your note as the clock's compression and removed the sentence on relativistic dilation, which is about a sixth of a second a year at interplanetary speeds. Say if you meant something else.
+3. **First-hand attestation.** Two weak sources would be firmer with a clause of yours. That EVE Online's ships slow to rest rests on a wiki, and that Star Citizen's planets do not orbit rests on a wiki against a 2016 statement of design. If you have seen either yourself, the article can say so.
+4. **Your own voice.** The reviewer called these quotable by a hostile reader, and I kept them because they are your words: the paragraph on undergraduate classes, "a buggy mess", "a proper science degree" and "for the future benefit of humanity".
+5. **Length.** The article is 18,894 words. It could be split at the Blueprint, which would change the series arc.
+6. **Not applied.** The five studies are cited from abstracts, and the article says so. The reviews do not use identical labels in identical order. Equations 6 to 8 stay, with a signpost. "Multiplayer" stays where it names the feature as the developers name it.
+7. **Still before publication.** The import into the source database, the full URL check, and the date.
+
+## Previous Report (2026-11-13, first entry)
+
 **Date**: 2026-11-13
 **Task**: **Plan the multi-agent space simulation series, draft A386, run the four passes and commit the draft. Done, not published.**
 

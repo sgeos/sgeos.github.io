@@ -1,6 +1,6 @@
 # Equation classification for A386. Read by `python3 _lib/equations.py`.
 
-caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and the letter a stands for a semi-major axis in Equations 2 and 3 and for an acceleration in Equation 29."
+caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 29, T is a sidereal day in Equation 14 and a temperature in Equations 18 and 28, R is a weapon range in Equation 4 and the radius of Earth in Equation 16, the Greek letter tau is a time constant in Equation 5 and a torque in Equation 24, and the Greek letter rho is a ratio of spending to income in Equation 10 and the density of air in Equations 25 to 27."
 
 [[equation]]
 tag = 1
@@ -94,7 +94,7 @@ digest = "8583abd9dcaf919f"
 tag = 12
 class = "standard"
 title = "Hohmann Transfer Time"
-gloss = "Half the period of the transfer ellipse, the time the cheapest transfer between two circular orbits takes."
+gloss = "Half the period of the transfer ellipse, the time the cheapest two-burn transfer between two coplanar circular orbits takes."
 cite = ["book_curtis_2020_interplanetary"]
 digest = "12667e767813425b"
 
@@ -160,7 +160,7 @@ class = "standard"
 title = "N-Body Equation of Motion With Thrust"
 gloss = "The acceleration of a craft under the gravity of every massive body plus its own thrust, the equation the core integrates."
 cite = ["book_battin_1999"]
-digest = "dd43266a3bf43ac2"
+digest = "d29f46bbbda54c44"
 
 [[equation]]
 tag = 21
@@ -181,8 +181,8 @@ digest = "5a50976859cbc979"
 [[equation]]
 tag = 23
 class = "bespoke"
-title = "Bespoke Lockstep State Transition"
-gloss = "The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the lockstep requirement."
+title = "Bespoke Reproducible State Transition"
+gloss = "The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the requirement that the step be reproducible."
 cite = []
 digest = "c964e77e1890e040"
 

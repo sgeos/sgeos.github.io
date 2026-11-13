@@ -26,8 +26,18 @@ reconstructs from memory the thesis of the pilot's lost senior seminar paper, re
 of a Dead Earth, EVE Online and Star Citizen, catalogues soft science fiction conventions with remedies, and ends in a
 blueprint for a high-fidelity multi-agent predictive simulation with the equations an implementation needs.
 
-**Current status 2026-11-13. Drafted, four passes done, not published.** 14,736 words of author prose, 31 display
-equations, 21 standard and 10 bespoke, and 150 reference definitions. A strengthening round then replaced weak
+**Current status 2026-11-13. Drafted, four passes done, hardened, not published.** 18,894 words of author prose, 31
+display equations, 21 standard and 10 bespoke, and 157 reference definitions. **The hardening pass** of 2026-11-13,
+with Fable 5.2 and an independent adversarial review, scoped the thesis's third part to many agents in one
+persistent world on one clock in a product for the public, named the Kerbal Space Program multiplayer modifications
+and Kerbal Space Program 2 as near misses, derived "omit, never contradict" from the sizing principle so that the
+Bohr model no longer contradicts it, moved the weight of EVE Online's drag law onto the developer's own statements,
+added a comparison table of the four reviews and a table of what time compression does, argued possibility from the
+linear cost of the gravity model, made determinism a choice with reasons, stated the cost of compression to the
+human element and the limits of the light-time rule, grounded predictive value in the virtual-worlds literature and
+miseducation in education research, restated EVE Online's evidence as reproduction and not prediction, and stated
+the objections to market demand. It added seven references. Before it, the article stood at 14,736 words and 150
+definitions. A strengthening round then replaced weak
 sources with primary ones where they exist, expanded the Star Citizen review with its gameplay loops, pledge terms,
 published financials and a spending ratio, and added the predictive scope argument. An economy subsection on EVE Online
 was added after the four passes, with its supply chain, industry and market formulas, PLEX and real-money trade,
@@ -36,8 +46,8 @@ the synodic period, the shared-clock wall time and an implementation subsection.
 Battin, Yoshida, Wisdom and Holman, and Sutton and Graves. The readiness pass re-derived every worked number, spelled
 out acronyms and checked reference integrity. The diction pass cut the trailing appositive "which is" from 21 to 7.
 `_verify.py` reports 0 and 0, and `./_check.sh` passes on a scratch copy with the draft built as a post. **Before
-publication**, a hardening pass with Fable 5.2, the import into the source database, a full URL check, and a better
-locator for Glasstone 1964.
+publication**, the pilot's rulings on the hardening pass, the import into the source database, a full URL check, and
+the publication date.
 
 ## Access, Legible State and Recomputation in a Three-Model Harness A385 2026-10-31 PUBLISHED
 
