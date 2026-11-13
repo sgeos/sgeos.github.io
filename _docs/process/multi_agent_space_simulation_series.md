@@ -10,7 +10,7 @@ the series arc on disk. The per-draft status is in [`draft_summary.md`](../../_d
 
 | No. | Working title | State | Purpose |
 |---|---|---|---|
-| A386 | *Multi-Agent Space Simulation: A Reconstructed Thesis* | Drafted, four passes done, not published | The reconstructed paper. Thesis, what a model is, reviews of four products, soft science fiction conventions with remedies, and a blueprint for a high-fidelity multi-agent predictive simulation, with the equations an implementation needs |
+| A386 | *Multi-Agent Space Simulation: A Reconstructed Thesis* | Drafted, four passes done, economy added, not published | The reconstructed paper. Thesis, what a model is, reviews of four products, soft science fiction conventions with remedies, and a blueprint for a high-fidelity multi-agent predictive simulation, with the equations an implementation needs |
 | A387 | *Since 2021: Research Harnesses and Agent Operators* | Planned | Dates and reviews work after the paper, and tests A386's third claim, that no such simulation is known |
 | A388 | *Why It Is Hard: Time, Fuel, Fidelity and Determinism* | Planned | Works the hard problems A386 only names |
 | A389 | *Predictive Value* | Planned | Predictive value under three bounds, and market demand tied to educating the public |
@@ -71,11 +71,15 @@ fixed-step agents is a hypothesis for the demonstrator to test, not a finding.
   or from other media, each with a remedy that becomes a design rule.
 - **The blueprint** is a real-time multi-agent simulation built on the method of Children of a Dead Earth. It takes a
   method, not a product.
+- **EVE Online's economy.** Science fantasy in its parts, the best known multi-agent supply chain as a system. Its poor
+  models interlock so comprehensively that the whole has predictive value, and its commodity market is its one strong,
+  accurate model. Its wrong models have the right fidelity for driving interaction, which the blueprint must match
+  while also being true.
 - **Nothing is published, pushed or forward-dated** without the pilot's approval.
 
 ## Research Material
 
-Gitignored scratch under `tmp/a386/`. `research/ksp_code/`, `research/eve_sc/` and `research/scifi/` hold the saved
+Gitignored scratch under `tmp/a386/`. `research/ksp_code/`, `research/eve_sc/`, `research/eve_econ/` and `research/scifi/` hold the saved
 pages and the research reports, with quotations checked verbatim by `tmp/a386/quotecheck.py`.
 
 ## Open Before A386 Publishes

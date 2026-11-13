@@ -10,8 +10,9 @@
 **The series.** The arc, the pilot's standing rulings and the open items are on disk in [Multi-Agent Space Simulation Series](./multi_agent_space_simulation_series.md). A386 reconstructs the pilot's lost senior seminar paper. A387 dates the work since the paper, A388 works the hard problems, A389 treats predictive value and market demand, and A390, the Keleusma demonstrator, is held until it exists.
 
 **A386.** `_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, with `_sources/equations/A386.toml`. It reviews Kerbal Space Program, Children of a Dead Earth, EVE Online and Star Citizen as of November 2026, catalogues soft science fiction conventions with remedies, and ends in a blueprint, a real-time multi-agent simulation built on the method of Children of a Dead Earth, with the equations an implementation needs.
-- **Equations.** 25, 20 standard and 5 bespoke, each worked number re-derived.
-- **References.** 96 definitions, from developer pages, NASA, ESA and peer-reviewed work, with quotations checked verbatim against saved copies under `tmp/a386/research/`.
+- **Equations.** 30, 21 standard and 9 bespoke, each worked number re-derived.
+- **Economy.** Added after the passes, on the pilot's instruction. EVE Online's supply chain is science fantasy in its parts and complete as a system. Its job cost, cost index, material and market formulas, PLEX as a legal exchange rate, the ban on real-money trade, the public market API, and the tax havens, bank failures and cartels that emerged. The blueprint prices freight by delta-v, which would give an honest economy trading seasons.
+- **References.** 125 definitions, from developer pages, NASA, ESA and peer-reviewed work, with quotations checked verbatim against saved copies under `tmp/a386/research/`.
 - **Readiness.** Acronyms spelled out at first use. The checker still flags NASA, DMP and OSIRIS-REx, each a heuristic miss next to a correct spell-out.
 - **Diction.** The trailing appositive "which is" cut from 21 to 7, and "the author's view" reduced to two uses, since the whole article is the author's position.
 

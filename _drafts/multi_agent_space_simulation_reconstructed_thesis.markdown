@@ -623,6 +623,287 @@ espionage
 and economic history
 that no single component could.
 
+### The Economy
+
+EVE Online is fascinatingly odd here.
+Its individual models are terrible,
+yet they interlock so comprehensively that the whole has real predictive value.
+The commodity market is the one place where the model is strong and accurate,
+because it is not simulated at all.
+Real agents set every price,
+so the market behaves as markets do.
+
+**The supply chain.**
+The community guide describes industry as
+"a catch-all term for all the industrial activities within EVE: mining, gas huffing, manufacturing, researching, invention, reprocessing, and reverse engineering"
+[Industry][community_eve_uni_industry].
+Agents mine ore,
+reprocess it into minerals,
+haul the minerals to a facility,
+manufacture ships and modules from blueprints,
+and sell them.
+Every ship destroyed in combat is gone,
+so destruction drives demand back down the chain.
+In the parts,
+this is complete science fantasy.
+The minerals have invented names,
+a blueprint turns them into a warship without any physics of manufacture,
+and nothing about the process resembles a real shipyard.
+As a system,
+it is the best multi-agent supply chain the author knows of,
+logistics included.
+
+**Right-sized fidelity.**
+EVE Online's wrong models have the right fidelity for the problem they actually serve,
+which is driving meaningful interaction between agents.
+By the sizing principle of this article,
+that is a success.
+A supply chain that is realised and workable
+matters more to that problem than one that is accurate.
+Being able to navigate at all,
+and to operate from and in different places,
+matters more than navigating realistically.
+EVE Online therefore passes the fidelity test for its own purpose
+and fails it for education.
+The blueprint below must pass both.
+The author's view is that more realistic simplified models could have worked in EVE Online,
+but that the developer lacked the right people to distil them for the product.
+In some cases the incorrectness serves the soft science fiction thesis itself.
+EVE's base mineral is Tritanium,
+which the developer describes as
+"The main building block in space structures"
+[Tritanium][dev_ccp_esi_tritanium].
+The word is Star Trek's.
+In the episode "Obsession" of 1967,
+Spock reports
+"Pure tritanium"
+and Kirk replies
+"20 times as hard as diamond"
+[Obsession Transcript][community_trek_obsession_transcript].
+A reporter noted in 2008 that EVE's tritanium
+"hearkens back to references made in Star Trek"
+[Engadget 2008][news_engadget_tritanium_2008].
+No statement by the developer on the name's origin was found,
+so the borrowing is the author's reading,
+of technobabble pulled into the base of a supply chain.
+
+**Industry costs.**
+The developer publishes its formulas.
+With $C\_{\mathrm{job}}$ the cost of installing an industry job,
+$V\_{\mathrm{EIV}}$ the estimated item value of its output,
+$I\_{\mathrm{SCI}}$ the cost index of the solar system,
+$\beta$ the product of the facility's bonuses,
+and $t\_{\mathrm{f}}$,
+$t\_{\mathrm{SCC}}$
+and $t\_{\alpha}$ the facility tax,
+a fixed surcharge
+and a surcharge on accounts without a subscription,
+the developer's own statement,
+"TIF = EIV * ((SCI * bonuses) + FacilityTax + SCC + AlphaClone),"
+reads
+
+$$
+C_{\mathrm{job}} = V_{\mathrm{EIV}} \left( I_{\mathrm{SCI}}\, \beta + t_{\mathrm{f}} + t_{\mathrm{SCC}} + t_{\alpha} \right)
+\tag{6}
+$$
+
+[CCP 2023][dev_ccp_viridian_2023].
+The cost index is congestion pricing.
+When it was introduced in 2014,
+the developer defined it from
+"the number of job-hours of that activity type in that system over the last 28 days,
+divided by the number of job-hours of that activity type in the universe as a whole over the last 28 days,
+and then square-rooted"
+[CCP 2014][dev_ccp_industry_2014].
+With $h\_{\mathrm{sys}}$ and $h\_{\mathrm{all}}$ those two totals,
+the index in that form grows as
+
+$$
+I_{\mathrm{SCI}} \propto \sqrt{\frac{h_{\mathrm{sys}}}{h_{\mathrm{all}}}}
+\tag{7}
+$$
+
+A system that hosts four times another's share of production
+pays twice the index,
+so production spreads out across the map instead of piling into one system.
+The community guide warns that a later patch changed the index
+and that the square-root form is probably no longer exact.
+
+Materials obey a rule of their own.
+The same 2014 account states that
+"Each step of ME reduces materials by 1% (always rounded up),"
+that rounding now happens per job and not per run,
+and that
+"every run requires a minimum of one unit of every listed material"
+[CCP 2014][dev_ccp_industry_2014].
+With $n\_{\mathrm{mat}}$ the quantity of one material a job consumes,
+$r$ the number of runs,
+$n\_{0}$ the blueprint's base quantity per run,
+$E$ its material efficiency level
+and $\gamma$ the facility's material modifier,
+those rules assemble into
+
+$$
+n_{\mathrm{mat}} = \max\!\left( r,\ \left\lceil r\, n_{0} \left( 1 - \frac{E}{100} \right) \gamma \right\rceil \right)
+\tag{8}
+$$
+
+A blueprint calling for 1,000 units per run at a material efficiency of 10,
+run 10 times with no facility bonus,
+consumes 9,000 units.
+
+**The market.**
+Prices are set by agents in regional markets,
+and the developer's own economist has noted
+"the unrelenting dominance of Jita as a central hub"
+[CCP 2015][dev_ccp_economy_vegas_2015].
+Every sale pays a sales tax,
+raised in 2025
+"from 4% to 7.5%"
+[CCP 2025][dev_ccp_patch_22_02_2025],
+and every order pays a broker's fee.
+Player structures set their own fees,
+and the developer observes that
+"It is not uncommon for structure owners to give themselves and their friends a 0% fee"
+[CCP 2020][dev_ccp_broker_relations_2020].
+A haul between two hubs is worth making only when the margin survives the fees.
+With $p\_{\mathrm{A}}$ the price paid at the source,
+$p\_{\mathrm{B}}$ the price received at the destination,
+$\lambda\_{\mathrm{s}}$ the sales tax rate,
+$f\_{\mathrm{b}}$ the broker's fee rate
+and $c\_{\mathrm{h}}$ the cost of hauling one unit,
+a trade pays when
+
+$$
+p_{\mathrm{B}} \left( 1 - \lambda_{\mathrm{s}} - f_{\mathrm{b}} \right) - p_{\mathrm{A}} \left( 1 + f_{\mathrm{b}} \right) - c_{\mathrm{h}} > 0
+\tag{9}
+$$
+
+The community guide gives the sales tax as 7.5 percent reduced by 11 percent per level of the Accounting skill,
+and the broker's fee as 3 percent less 0.3 percent per level of Broker Relations
+[Trading][community_eve_uni_trading].
+At the fifth level of each,
+the rates are about 3.4 and 1.5 percent.
+Buying at 100 and selling at 110 then leaves about 3.1 per unit,
+so a hauler earns its living on a margin near 3 percent.
+
+**Logistics.**
+Hauling is a profession.
+The developer's profile of one hauling corporation,
+Red Frog Freight,
+says that
+"It works a little bit like a real life logistics company, with around 600-700 contracts daily"
+[CCP 2013b][dev_ccp_red_frog_2013].
+Courier contracts carry collateral held in escrow,
+so a hauler who loses the cargo pays for it.
+
+**Money.**
+The developer described its money supply in 2006 in terms an economist would use.
+"We call anything that introduces money into the economy an ISK Faucet
+and anything that takes it out again an ISK Sink"
+[CCP 2006][dev_ccp_faucets_2006].
+In 2012 it reported that bounties were the largest faucet,
+"33 trillion ISK"
+in one month,
+and that three of four price indices showed
+"considerable inflation"
+[CCP 2012][dev_ccp_price_indices_2012].
+
+**PLEX and real money.**
+In 2008 the developer let subscribers convert paid game time into an item,
+the
+"30 Day Pilot's License Extension (PLEX),"
+which could be put
+"directly on to the market"
+[CCP 2008][dev_ccp_plex_2008].
+A PLEX
+"can be bought via the in-game market for ISK and then applied to add 30 days of game time"
+[CCP 2009][dev_ccp_plex_2009],
+and in 2017 each was converted
+"into 500 PLEX"
+[CCP 2017][dev_ccp_plex_2017].
+PLEX gave the economy a legal exchange rate with real money.
+The developer's own announcement said it
+"Opens up for a larger supply, lowering the ISK exchange rate in the long run"
+[CCP 2008][dev_ccp_plex_2008],
+and its economist later called it
+"EVE's equivalent of the gold standard"
+[CCP 2015][dev_ccp_economy_vegas_2015].
+A press report of 2014 records the developer selling PLEX from a reserve
+to stop a price spike
+[Engadget 2014][news_engadget_plex_2014],
+which is a central bank's open market operation.
+Trade outside that channel is forbidden.
+The licence the developer quotes says that agents may not
+"transfer, sell or auction, or buy or accept any offer to transfer, sell or auction"
+anything in the simulation,
+"including without limitation characters, character attributes, items, currency, and objects"
+[CCP 2016][dev_ccp_rmt_2016],
+and its security team reported banning 70,492 accounts in 2021 for all causes
+[CCP 2022][dev_ccp_security_2021].
+The exchange rate also prices destruction.
+Of the battle of B-R5RB in 2014,
+the developer reported losses of
+"11 TRILLION ISK"
+and that
+"According to some PLEX conversions that could equate to approximately $300,000-$330,000 USD"
+[CCP 2014a][dev_ccp_b_r5rb_2014].
+
+**Real phenomena that appeared unbidden.**
+Because the interlocking parts reproduce real incentives,
+real economic behaviour appeared without being designed.
+- **Tax havens.**
+  The simulation's starter corporations once offered
+  "war declaration immunity and 0% tax,"
+  which the developer said gave them
+  "an inherent advantage over player corporations which was never intended"
+  [CCP 2009a][dev_ccp_taxes_2009].
+  The developer responded in 2009 by taxing the starter corporations at 11 percent,
+  a rate it chose after researching the average taxes of player corporations.
+  Its economist had already measured corporate taxation,
+  finding that
+  "The average tax rate is 8.6% but the median is tax rate is 5%"
+  [CCP 2007a][dev_ccp_corporations_2007].
+- **Bank failures and embezzlement.**
+  In 2009 an agent who ran a player bank,
+  EBank,
+  embezzled
+  "roughly 200 billion ISK, or 8.6% of EBANK's 2.3 trillion ISK in deposits"
+  [Engadget 2009][news_engadget_ebank_2009],
+  and sold part of it for real money,
+  about five thousand United States dollars
+  [The Register 2009][news_register_ebank_2009].
+  The developer's economist said the bank would have to solve the problem itself,
+  since it was
+  "a player driven entity"
+  [IEEE Spectrum 2009][news_ieee_ebank_2009].
+- **Cartels.**
+  A scarce resource found
+  "completely in one distinct region"
+  caused,
+  in the developer's words,
+  "wealth transfers that are simply too large for the effort and risk involved"
+  [CCP 2012a][dev_ccp_technetium_2012],
+  and a community history describes the cartel that formed to manipulate its price
+  [EVE News24 2018][news_evenews24_otec_2018].
+- **Central banking.**
+  Faucets,
+  sinks,
+  inflation indices
+  and open market sales of PLEX
+  are monetary policy under other names.
+
+**Skills that transfer.**
+High-commitment simulations can hold their agents to very high expectations,
+and the transfer runs both ways.
+A survey reported in an article presented by the developer
+found that
+"56% of players said that skills they learned through playing EVE had proven to be valuable in their lives outside of the game and in their careers"
+[Den of Geek 2020][news_den_of_geek_2020].
+The source is sponsored,
+and the underlying study was not found,
+so the figure is reported as the developer's claim.
+
 **Education.**
 EVE Online largely simulates the science fiction of film and television,
 and its soft science fiction sandbox borders on miseducating the public,
@@ -953,7 +1234,7 @@ and $m\_{\mathrm{f}}$ the final mass,
 
 $$
 \Delta v = I_{\mathrm{sp}}\, g_{0} \ln \frac{m_{0}}{m_{\mathrm{f}}}
-\tag{6}
+\tag{10}
 $$
 
 An engine with a specific impulse of 450 seconds and a mass ratio of four
@@ -970,7 +1251,7 @@ and $\mu\_{\odot}$ the Sun's gravitational parameter at $1.327 \times 10^{11}$ c
 
 $$
 t_{\mathrm{H}} = \pi \sqrt{\frac{a_{\mathrm{t}}^{3}}{\mu_{\odot}}}
-\tag{7}
+\tag{11}
 $$
 
 From Earth at 1.000 astronomical units to Mars at 1.524,
@@ -984,7 +1265,7 @@ and $T\_{1}$ and $T\_{2}$ the orbital periods of the inner and outer planets,
 
 $$
 \frac{1}{S} = \frac{1}{T_{1}} - \frac{1}{T_{2}}
-\tag{8}
+\tag{12}
 $$
 
 For Earth at 365.25 days and Mars at 686.98,
@@ -1013,7 +1294,7 @@ and $T$ the sidereal day of 86,164 seconds,
 
 $$
 r_{\mathrm{G}} = \left( \frac{\mu T^{2}}{4 \pi^{2}} \right)^{1/3}
-\tag{9}
+\tag{13}
 $$
 
 The radius is 42,164 kilometres,
@@ -1036,7 +1317,7 @@ and $r$ its radius from Earth's centre,
 
 $$
 v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
-\tag{10}
+\tag{14}
 $$
 
 At the height of the International Space Station,
@@ -1061,7 +1342,7 @@ and $R$ Earth's radius,
 
 $$
 g(h) = g_{0} \left( \frac{R}{R + h} \right)^{2}
-\tag{11}
+\tag{15}
 $$
 
 At 420 kilometres the ratio is about 0.88.
@@ -1091,7 +1372,7 @@ and $r$ the radius,
 
 $$
 a_{\mathrm{c}} = \omega^{2} r
-\tag{12}
+\tag{16}
 $$
 
 At one revolution per minute,
@@ -1144,7 +1425,7 @@ and $T$ its temperature in kelvin,
 
 $$
 P = \varepsilon \sigma A T^{4}
-\tag{13}
+\tag{17}
 $$
 
 A radiator at 275 kelvin with an emissivity of 0.9
@@ -1257,7 +1538,7 @@ and $c$ the speed of light,
 
 $$
 t_{\mathrm{L}} = \frac{d}{c}
-\tag{14}
+\tag{18}
 $$
 
 At its closest,
@@ -1441,7 +1722,7 @@ and $\mathbf{a}\_{\mathrm{T},i}$ the acceleration of its own thrust,
 
 $$
 \ddot{\mathbf{r}}_{i} = -G \sum_{j \neq i} m_{j} \frac{\mathbf{r}_{i} - \mathbf{r}_{j}}{\lvert \mathbf{r}_{i} - \mathbf{r}_{j} \rvert^{3}} + \mathbf{a}_{\mathrm{T},i}
-\tag{15}
+\tag{19}
 $$
 
 [Battin 1999][book_battin_1999].
@@ -1454,7 +1735,7 @@ and $F$ the thrust,
 
 $$
 \dot{m} = -\frac{F}{I_{\mathrm{sp}}\, g_{0}}
-\tag{16}
+\tag{20}
 $$
 
 An engine of 100 kilonewtons at a specific impulse of 450 seconds
@@ -1475,7 +1756,7 @@ $$
 \mathbf{r}_{n+1} &= \mathbf{r}_{n} + \Delta t\, \mathbf{v}_{n+1/2} \\
 \mathbf{v}_{n+1} &= \mathbf{v}_{n+1/2} + \tfrac{\Delta t}{2}\, \mathbf{a}(\mathbf{r}_{n+1})
 \end{aligned}
-\tag{17}
+\tag{21}
 $$
 
 This second-order method is the base from which Yoshida built higher orders
@@ -1491,7 +1772,7 @@ and $\Phi\_{\Delta t}$ the step function,
 
 $$
 \mathbf{x}_{n+1} = \Phi_{\Delta t}\!\left( \mathbf{x}_{n}, U_{n} \right)
-\tag{18}
+\tag{22}
 $$
 
 Every machine that starts from the same state
@@ -1516,7 +1797,7 @@ Euler's equations of rigid-body rotation give
 
 $$
 \mathbf{I}\, \dot{\boldsymbol{\omega}} + \boldsymbol{\omega} \times \left( \mathbf{I}\, \boldsymbol{\omega} \right) = \boldsymbol{\tau}
-\tag{19}
+\tag{23}
 $$
 
 The torque changes where the craft points.
@@ -1533,7 +1814,7 @@ and $A$ the reference area,
 
 $$
 F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
-\tag{20}
+\tag{24}
 $$
 
 and a simple model of the density,
@@ -1545,7 +1826,7 @@ is
 
 $$
 \rho(h) = \rho_{0}\, e^{-h/H}
-\tag{21}
+\tag{25}
 $$
 
 Heating at the nose follows the stagnation-point correlation of Sutton and Graves
@@ -1557,7 +1838,7 @@ about $1.74 \times 10^{-4}$ in units that give watts per square metre for Earth'
 
 $$
 \dot{q} = k \sqrt{\frac{\rho}{r_{\mathrm{n}}}}\, v^{3}
-\tag{22}
+\tag{26}
 $$
 
 At $10^{-4}$ kilograms per cubic metre,
@@ -1577,7 +1858,7 @@ and the radiator symbols as before,
 
 $$
 m c\, \frac{dT}{dt} = P_{\mathrm{in}} - \varepsilon \sigma A T^{4}
-\tag{23}
+\tag{27}
 $$
 
 A craft that generates more heat than its radiators reject grows hotter,
@@ -1594,7 +1875,7 @@ and $L$ the length of the equivalent pendulum,
 
 $$
 \omega_{\mathrm{s}} = \sqrt{\frac{a}{L}}
-\tag{24}
+\tag{28}
 $$
 
 Under a thrust of a tenth of standard gravity,
@@ -1620,7 +1901,7 @@ and $\kappa$ the compression factor shared by every agent,
 
 $$
 t_{\mathrm{w}} = \frac{t_{\mathrm{s}}}{\kappa}
-\tag{25}
+\tag{29}
 $$
 
 At a compression of ten,
@@ -1731,6 +2012,49 @@ It is not a claim that building one would pay.
   so automated agents are tools of those people,
   not subjects of the experiment.
 
+### An Economy Under Physics
+
+EVE Online proves that agents will build and run a supply chain that spans a world.
+The blueprint keeps that and puts physics under it.
+Freight is priced by delta-v.
+With $m\_{\mathrm{p}}$ the propellant needed,
+$m\_{\mathrm{pay}}$ the payload,
+$m\_{\mathrm{s}}$ the structure and engines that make the trip with it,
+and the other symbols as in the rocket equation,
+
+$$
+m_{\mathrm{p}} = \left( m_{\mathrm{pay}} + m_{\mathrm{s}} \right) \left( e^{\Delta v / \left( I_{\mathrm{sp}}\, g_{0} \right)} - 1 \right)
+\tag{30}
+$$
+
+At a specific impulse of 450 seconds,
+a delta-v of 4 kilometres per second
+needs about 1.5 kilograms of propellant for every kilogram that makes the trip.
+Geography becomes orbital mechanics.
+A cheap route is a low delta-v route,
+and the synodic period above opens the cheapest route to Mars once every 26 months,
+so an honest economy would have trading seasons,
+with prices rising and falling as windows open and close.
+The arbitrage condition above still governs every haul,
+with the propellant now part of its cost.
+Congestion pricing of the kind EVE Online applies to production
+fits scarce real facilities too,
+such as docking ports and shipyards in a crowded orbit.
+
+The simulation should also publish its economy.
+EVE Online already does.
+Its economists report on the money supply every month
+[CCP 2026][dev_ccp_mer_2026],
+and its official interface for third parties,
+which the developer calls
+"the official RESTful API for EVE third-party development,"
+serves every region's market orders and price history,
+some of its routes needing no authentication at all
+[ESI Overview][dev_ccp_esi_overview].
+Anyone can therefore study the economy from outside.
+A predictive simulation needs that openness,
+because predictions nobody can check are not predictions.
+
 ### Approachability Without Miseducation
 
 The design answer to Children of a Dead Earth's difficulty is layered disclosure.
@@ -1793,6 +2117,15 @@ Yet a simulation compelling enough
 will still draw people to participate of their own volition,
 and that voluntary commitment is the incentive feedback a predictive simulation needs.
 
+EVE Online adds a refinement.
+Its predictive value comes less from the fidelity of any component
+than from how comprehensively the components interlock,
+which is how terrible parts produce tax havens and bank runs.
+It is an inference that predictive value has two sources,
+the fidelity of the parts and the completeness of their interlock.
+EVE Online is strong in the second and weak in the first,
+and Children of a Dead Earth the reverse.
+
 A simulation that maximises one bound at the expense of the others
 predicts poorly.
 The blueprint's principles exist to raise all three together.
@@ -1844,7 +2177,12 @@ These are Kerbal Space Program's patched conics and scale,
 EVE Online's velocity law,
 warp speeds and capacitor,
 the fixed positions of Star Citizen's bodies,
-and Star Citizen's crowdfunding total.
+Star Citizen's crowdfunding total,
+EVE Online's market fee formulas,
+and the 2009 bank embezzlement and the technetium cartel,
+which rest on press reports and a community history.
+The survey on transferable skills appeared in an article sponsored by the developer.
+The Star Trek line about tritanium rests on a fan transcript.
 The physics of each remedy comes from NASA,
 ESA,
 the Fédération Aéronautique Internationale
@@ -1866,6 +2204,9 @@ the observations about engagements and the meta in Children of a Dead Earth,
 the expectation that no reviewed product simulates propellant slosh,
 the understanding that Kerbal Space Program treats tanks as point masses,
 the two causes of the soft science fiction conventions,
+the judgement that EVE Online's economy is the best multi-agent supply chain known,
+that its wrong models have the right fidelity for interaction,
+and that the developer lacked the people to distil more realistic models,
 the characterisation of EVE Online's most committed agents,
 their scheduling across time zones,
 the transfer of skills
@@ -1884,6 +2225,8 @@ That a shared world needs a shared clock,
 that layered disclosure resolves the conflict between fidelity and approachability,
 that several characters per agent would make long journeys playable,
 that resolution of events from committed orders would ease scheduling across time zones,
+that predictive value has two sources, the fidelity of the parts and the completeness of their interlock,
+that an honest economy would have trading seasons,
 and that the public would pay for honest physics
 are inferences.
 The third bound on predictive value,
@@ -1965,12 +2308,12 @@ the children it taught would build the future it depicted.
 
 <!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
 
-This section collects the 25 display equations of the article in the order they appear,
+This section collects the 30 display equations of the article in the order they appear,
 each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
-Of the 25, 20 are established and 5 are bespoke.
-Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and the letter a stands for a semi-major axis in Equations 2 and 3 and for an acceleration in Equation 24.
+Of the 30, 21 are established and 9 are bespoke.
+Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and the letter a stands for a semi-major axis in Equations 2 and 3 and for an acceleration in Equation 28.
 
 **Equation 1, Bohr Energy Levels of Hydrogen.**
 The energy of each permitted level in Bohr's model, which predicts the hydrogen spectrum despite a wrong picture of the electron.
@@ -2015,102 +2358,137 @@ v(t) = v_{\max} \left( 1 - e^{-t/\tau} \right)
 \tag{5}
 $$
 
-**Equation 6, Tsiolkovsky Rocket Equation.**
+**Equation 6, EVE Online Industry Job Cost.**
+The cost of installing an industry job in EVE Online, as the developer states it, with the system cost index scaled by the facility's bonuses.
+[CCP 2023][dev_ccp_viridian_2023]
+
+$$
+C_{\mathrm{job}} = V_{\mathrm{EIV}} \left( I_{\mathrm{SCI}}\, \beta + t_{\mathrm{f}} + t_{\mathrm{SCC}} + t_{\alpha} \right)
+\tag{6}
+$$
+
+*Equation 7, Bespoke Proportional Form of the 2014 System Cost Index.*
+The square-root growth of EVE Online's cost index with a system's share of production, written from the developer's description of 2014 as a proportionality, since the exact current form is not published in text.
+[CCP 2014][dev_ccp_industry_2014]
+
+$$
+I_{\mathrm{SCI}} \propto \sqrt{\frac{h_{\mathrm{sys}}}{h_{\mathrm{all}}}}
+\tag{7}
+$$
+
+*Equation 8, Bespoke Material Requirement from EVE Online's Stated Rules.*
+The quantity of one material a job consumes, assembled from the developer's stated rules on material efficiency, rounding per job and a minimum of one unit per run.
+[CCP 2014][dev_ccp_industry_2014]
+
+$$
+n_{\mathrm{mat}} = \max\!\left( r,\ \left\lceil r\, n_{0} \left( 1 - \frac{E}{100} \right) \gamma \right\rceil \right)
+\tag{8}
+$$
+
+*Equation 9, Bespoke Arbitrage Condition Between Two Hubs.*
+The condition under which a haul between two markets pays after sales tax, broker's fees and hauling cost, a construction of the article's.
+
+$$
+p_{\mathrm{B}} \left( 1 - \lambda_{\mathrm{s}} - f_{\mathrm{b}} \right) - p_{\mathrm{A}} \left( 1 + f_{\mathrm{b}} \right) - c_{\mathrm{h}} > 0
+\tag{9}
+$$
+
+**Equation 10, Tsiolkovsky Rocket Equation.**
 The delta-v a rocket gains as its mass falls from the initial to the final mass.
 
 $$
 \Delta v = I_{\mathrm{sp}}\, g_{0} \ln \frac{m_{0}}{m_{\mathrm{f}}}
-\tag{6}
+\tag{10}
 $$
 
-**Equation 7, Hohmann Transfer Time.**
+**Equation 11, Hohmann Transfer Time.**
 Half the period of the transfer ellipse, the time the cheapest transfer between two circular orbits takes.
 [Curtis 2020a][book_curtis_2020_interplanetary]
 
 $$
 t_{\mathrm{H}} = \pi \sqrt{\frac{a_{\mathrm{t}}^{3}}{\mu_{\odot}}}
-\tag{7}
+\tag{11}
 $$
 
-**Equation 8, Synodic Period.**
+**Equation 12, Synodic Period.**
 The interval between repetitions of two planets' relative position, which spaces the windows for a transfer.
 [Curtis 2020a][book_curtis_2020_interplanetary]
 
 $$
 \frac{1}{S} = \frac{1}{T_{1}} - \frac{1}{T_{2}}
-\tag{8}
+\tag{12}
 $$
 
-**Equation 9, Geostationary Orbit Radius.**
+**Equation 13, Geostationary Orbit Radius.**
 The radius at which a circular orbit's period equals one sidereal day, the only place a satellite holds position over the ground.
 [ESA 2020][agency_esa_geo_2020]
 
 $$
 r_{\mathrm{G}} = \left( \frac{\mu T^{2}}{4 \pi^{2}} \right)^{1/3}
-\tag{9}
+\tag{13}
 $$
 
-**Equation 10, Circular Orbital Speed.**
+**Equation 14, Circular Orbital Speed.**
 The speed of a circular orbit at a given radius, which is what makes reaching orbit hard.
 
 $$
 v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
-\tag{10}
+\tag{14}
 $$
 
-**Equation 11, Gravity at Altitude.**
+**Equation 15, Gravity at Altitude.**
 The inverse-square fall of gravity with height, which leaves about nine-tenths of surface gravity at the space station.
 [NASA 2012][agency_nasa_microgravity]
 
 $$
 g(h) = g_{0} \left( \frac{R}{R + h} \right)^{2}
-\tag{11}
+\tag{15}
 $$
 
-**Equation 12, Centripetal Acceleration.**
+**Equation 16, Centripetal Acceleration.**
 The acceleration felt at the rim of a rotating habitat, the physical basis of spin gravity.
 [Johnson and Holbrow 1977][agency_nasa_sp413_1977]
 
 $$
 a_{\mathrm{c}} = \omega^{2} r
-\tag{12}
+\tag{16}
 $$
 
-*Equation 13, Bespoke Radiator Power Without Absorbed Sunlight.*
+*Equation 17, Bespoke Radiator Power Without Absorbed Sunlight.*
 The Stefan-Boltzmann law applied to a radiator facing cold space with absorbed sunlight neglected, an assumption of the article's that lowers the area needed.
 
 $$
 P = \varepsilon \sigma A T^{4}
-\tag{13}
+\tag{17}
 $$
 
-**Equation 14, Light-Time Delay.**
+**Equation 18, Light-Time Delay.**
 The one-way delay of any signal over a distance, which no message or sensor reading can beat.
 [Landon et al. 2025][agency_nasa_tm_2025_mars_comms]
 
 $$
 t_{\mathrm{L}} = \frac{d}{c}
-\tag{14}
+\tag{18}
 $$
 
-**Equation 15, N-Body Equation of Motion With Thrust.**
+**Equation 19, N-Body Equation of Motion With Thrust.**
 The acceleration of a craft under the gravity of every massive body plus its own thrust, the equation the core integrates.
 [Battin 1999][book_battin_1999]
 
 $$
 \ddot{\mathbf{r}}_{i} = -G \sum_{j \neq i} m_{j} \frac{\mathbf{r}_{i} - \mathbf{r}_{j}}{\lvert \mathbf{r}_{i} - \mathbf{r}_{j} \rvert^{3}} + \mathbf{a}_{\mathrm{T},i}
-\tag{15}
+\tag{19}
 $$
 
-**Equation 16, Propellant Mass Flow.**
+**Equation 20, Propellant Mass Flow.**
 The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation.
 
 $$
 \dot{m} = -\frac{F}{I_{\mathrm{sp}}\, g_{0}}
-\tag{16}
+\tag{20}
 $$
 
-**Equation 17, Kick-Drift-Kick Leapfrog Step.**
+**Equation 21, Kick-Drift-Kick Leapfrog Step.**
 The second-order symplectic step whose energy error stays bounded, the base of higher-order symplectic integrators.
 [Yoshida 1990][research_yoshida_1990]
 
@@ -2120,73 +2498,81 @@ $$
 \mathbf{r}_{n+1} &= \mathbf{r}_{n} + \Delta t\, \mathbf{v}_{n+1/2} \\
 \mathbf{v}_{n+1} &= \mathbf{v}_{n+1/2} + \tfrac{\Delta t}{2}\, \mathbf{a}(\mathbf{r}_{n+1})
 \end{aligned}
-\tag{17}
+\tag{21}
 $$
 
-*Equation 18, Bespoke Lockstep State Transition.*
+*Equation 22, Bespoke Lockstep State Transition.*
 The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the lockstep requirement.
 
 $$
 \mathbf{x}_{n+1} = \Phi_{\Delta t}\!\left( \mathbf{x}_{n}, U_{n} \right)
-\tag{18}
+\tag{22}
 $$
 
-**Equation 19, Euler's Equations of Rigid-Body Rotation.**
+**Equation 23, Euler's Equations of Rigid-Body Rotation.**
 The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path.
 
 $$
 \mathbf{I}\, \dot{\boldsymbol{\omega}} + \boldsymbol{\omega} \times \left( \mathbf{I}\, \boldsymbol{\omega} \right) = \boldsymbol{\tau}
-\tag{19}
+\tag{23}
 $$
 
-**Equation 20, Aerodynamic Drag.**
+**Equation 24, Aerodynamic Drag.**
 The drag force on a body moving through air, which governs launch and reentry.
 
 $$
 F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
-\tag{20}
+\tag{24}
 $$
 
-**Equation 21, Isothermal Exponential Atmosphere.**
+**Equation 25, Isothermal Exponential Atmosphere.**
 The simple model of air density falling exponentially with height above sea level.
 
 $$
 \rho(h) = \rho_{0}\, e^{-h/H}
-\tag{21}
+\tag{25}
 $$
 
-**Equation 22, Sutton-Graves Stagnation-Point Heating.**
+**Equation 26, Sutton-Graves Stagnation-Point Heating.**
 The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter.
 [Sutton and Graves 1971][research_sutton_graves_1971]
 
 $$
 \dot{q} = k \sqrt{\frac{\rho}{r_{\mathrm{n}}}}\, v^{3}
-\tag{22}
+\tag{26}
 $$
 
-*Equation 23, Bespoke Lumped Thermal Balance.*
+*Equation 27, Bespoke Lumped Thermal Balance.*
 A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature.
 
 $$
 m c\, \frac{dT}{dt} = P_{\mathrm{in}} - \varepsilon \sigma A T^{4}
-\tag{23}
+\tag{27}
 $$
 
-**Equation 24, Pendulum Model of First-Mode Slosh.**
+**Equation 28, Pendulum Model of First-Mode Slosh.**
 The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration.
 [Abramson 1966][research_abramson_1966]
 
 $$
 \omega_{\mathrm{s}} = \sqrt{\frac{a}{L}}
-\tag{24}
+\tag{28}
 $$
 
-*Equation 25, Bespoke Wall-Clock Time Under a Shared Clock.*
+*Equation 29, Bespoke Wall-Clock Time Under a Shared Clock.*
 The real time an agent waits for a span of simulated time when one compression factor applies to every agent.
 
 $$
 t_{\mathrm{w}} = \frac{t_{\mathrm{s}}}{\kappa}
-\tag{25}
+\tag{29}
+$$
+
+*Equation 30, Bespoke Freight Propellant From the Rocket Equation.*
+The propellant a shipment needs for a given delta-v, the rocket equation rearranged to price freight by delta-v in the blueprint's economy.
+
+$$
+m_{\mathrm{p}} = \left( m_{\mathrm{pay}} + m_{\mathrm{s}} \right) \left( e^{\Delta v / \left( I_{\mathrm{sp}}\, g_{0} \right)} - 1 \right)
+\tag{30}
 $$
 
 ### Notation
@@ -2228,6 +2614,23 @@ $$
 - $r_{\mathrm{n}}$, the radius of a vehicle's nose
 - $P_{\mathrm{in}}$, the power a craft generates and absorbs
 - $\omega_{\mathrm{s}}$, the natural frequency of the first slosh mode
+- $C_{\mathrm{job}}$, the cost of installing an industry job in EVE Online
+- $V_{\mathrm{EIV}}$, the estimated item value of a job's output
+- $I_{\mathrm{SCI}}$, the cost index of a solar system
+- $\beta$, the product of a facility's bonuses
+- $h_{\mathrm{sys}}$, the job-hours of an activity in one system over 28 days
+- $h_{\mathrm{all}}$, the job-hours of that activity in the whole universe over 28 days
+- $n_{\mathrm{mat}}$, the quantity of one material a job consumes
+- $n_{0}$, a blueprint's base quantity of a material per run
+- $\gamma$, a facility's material modifier
+- $p_{\mathrm{A}}$, the price paid at the source market
+- $p_{\mathrm{B}}$, the price received at the destination market
+- $\lambda_{\mathrm{s}}$, the sales tax rate
+- $f_{\mathrm{b}}$, the broker's fee rate
+- $c_{\mathrm{h}}$, the cost of hauling one unit
+- $m_{\mathrm{p}}$, the propellant a shipment needs
+- $m_{\mathrm{pay}}$, the payload of a shipment
+- $m_{\mathrm{s}}$, the structure and engines that make the trip with the payload
 - $t_{\mathrm{w}}$, the wall-clock time an agent waits
 - $t_{\mathrm{s}}$, the simulated time that passes
 - $\kappa$, the time compression factor shared by every agent
@@ -2265,18 +2668,40 @@ $$
 - [Book, Whitfield and Roddenberry 1968, The Making of Star Trek][book_whitfield_roddenberry_1968]
 - [Community, EVE University, Acceleration][community_eve_uni_acceleration]
 - [Community, EVE University, Capacitor][community_eve_uni_capacitor]
+- [Community, EVE University, Industry][community_eve_uni_industry]
 - [Community, EVE University, Jump Drives][community_eve_uni_jump_drives]
+- [Community, EVE University, Trading][community_eve_uni_trading]
 - [Community, EVE University, Warp][community_eve_uni_warp]
 - [Community, KSP Wiki, Kerbin][community_ksp_wiki_kerbin]
 - [Community, KSP Wiki, Multiplayer][community_ksp_wiki_multiplayer]
 - [Community, KSP Wiki, Sphere of Influence][community_ksp_wiki_soi]
 - [Community, Star Citizen Wiki, Planet][community_sc_tools_planet]
+- [Community, The Star Trek Transcripts, Obsession][community_trek_obsession_transcript]
 - [Developer, CCP 2003, Highly Anticipated Massively Multiplayer Online Game][dev_ccp_launch_2003]
+- [Developer, CCP 2006, A Deal Is a Deal][dev_ccp_faucets_2006]
 - [Developer, CCP 2007, EVE Online Appoints In-World Economist][dev_ccp_economist_2007]
+- [Developer, CCP 2007a, Econ Dev Blog No. 3, Some Statistics on Corporations][dev_ccp_corporations_2007]
+- [Developer, CCP 2008, I Can Resist Anything but Temptation][dev_ccp_plex_2008]
+- [Developer, CCP 2009, The Way of the PLEX][dev_ccp_plex_2009]
+- [Developer, CCP 2009a, I Bring Gifts, by Gifts I Mean Taxes][dev_ccp_taxes_2009]
+- [Developer, CCP 2012, Price Indices, February 2012][dev_ccp_price_indices_2012]
+- [Developer, CCP 2012a, Tech Is Fine, L2P][dev_ccp_technetium_2012]
 - [Developer, CCP 2013, EVE Online Surpasses 500,000 Subscribers Worldwide][dev_ccp_subscribers_2013]
 - [Developer, CCP 2013a, Warp Drive Active][dev_ccp_warp_2013]
+- [Developer, CCP 2013b, Community Spotlight, Red Frog Freight][dev_ccp_red_frog_2013]
+- [Developer, CCP 2014, EVE Industry, All You Want to Know][dev_ccp_industry_2014]
+- [Developer, CCP 2014a, The Bloodbath of B-R5RB][dev_ccp_b_r5rb_2014]
+- [Developer, CCP 2015, EVE Economy Update, EVE Vegas 2015 Report][dev_ccp_economy_vegas_2015]
+- [Developer, CCP 2016, Overlays, ISK Buyer Amnesty and Account Security][dev_ccp_rmt_2016]
+- [Developer, CCP 2017, PLEX Changes on the Way][dev_ccp_plex_2017]
+- [Developer, CCP 2020, Broker Relations][dev_ccp_broker_relations_2020]
+- [Developer, CCP 2022, Team Security 2021 in Review][dev_ccp_security_2021]
+- [Developer, CCP 2023, Viridian Expansion Notes][dev_ccp_viridian_2023]
+- [Developer, CCP 2025, Patch Notes, Version 22.02][dev_ccp_patch_22_02_2025]
 - [Developer, CCP 2026, Monthly Economic Report, August 2026][dev_ccp_mer_2026]
 - [Developer, CCP, Capsuleers][dev_ccp_capsuleers]
+- [Developer, CCP, EVE Swagger Interface Overview][dev_ccp_esi_overview]
+- [Developer, CCP, Tritanium Item Record][dev_ccp_esi_tritanium]
 - [Developer, Children of a Dead Earth, Steam Store Page][dev_code_steam]
 - [Developer, Dark Multiplayer][dev_dark_multiplayer]
 - [Developer, Kerbal Space Program, Steam Store Page][dev_ksp_steam]
@@ -2306,12 +2731,19 @@ $$
 - [Developer, Take-Two 2017, Take-Two Acquires Kerbal Space Program][dev_take_two_ksp_2017]
 - [Developer, Take-Two 2023, Kerbal Space Program 2 Launches in Early Access][dev_take_two_ksp2_2023]
 - [News, Big Think 2015, Michio Kaku][news_big_think_kaku_2015]
+- [News, Den of Geek 2020, How EVE Online Players Say the Game Changed Their Lives][news_den_of_geek_2020]
+- [News, Engadget 2008, Making Money, the Origin of the Specie][news_engadget_tritanium_2008]
+- [News, Engadget 2009, New Perspective on EVE Online's Latest Bank Embezzlement][news_engadget_ebank_2009]
+- [News, Engadget 2014, EVE Fanfest 2014 Economy Talk][news_engadget_plex_2014]
+- [News, EVE News24 2018, Moments in History, OTEC][news_evenews24_otec_2018]
 - [News, Gematsu 2026, CCP Games Rebrands to Fenris Creations][news_gematsu_fenris_2026]
 - [News, Gizmodo 2011, The First Draft of the Star Trek Pitch][news_gizmodo_trek_pitch_2011]
+- [News, IEEE Spectrum 2009, EVE Online Game Player Embezzles Virtual Money][news_ieee_ebank_2009]
 - [News, PC Gamer 2024, Kerbal Space Program 2 Developer Intercept Games May Be Closing][news_pc_gamer_intercept_2024]
 - [News, Slashdot 2013, J. Michael Straczynski Answers Your Questions][news_slashdot_straczynski_2013]
 - [News, Space.com 2015, The Expanse][news_space_com_expanse_2015]
 - [News, The FPS Review 2026, Star Citizen Crosses $1 Billion][news_fps_review_sc_2026]
+- [News, The Register 2009, Gamer Embezzles Virtual Cash to Settle Real Debts][news_register_ebank_2009]
 - [Reference, Edmund Optics, Can a Laser Beam Be Seen from the Side?][ref_edmund_laser]
 - [Reference, FAI 2018, Statement about the Karman Line][ref_fai_karman_2018]
 - [Reference, SIGGRAPH History, The Last Starfighter][ref_siggraph_last_starfighter]
@@ -2362,17 +2794,39 @@ $$
 [book_whitfield_roddenberry_1968]: https://archive.org/details/makingofstartrek00whit
 [community_eve_uni_acceleration]: https://wiki.eveuniversity.org/Acceleration
 [community_eve_uni_capacitor]: https://wiki.eveuniversity.org/Capacitor
+[community_eve_uni_industry]: https://wiki.eveuniversity.org/Industry
 [community_eve_uni_jump_drives]: https://wiki.eveuniversity.org/Jump_drives
+[community_eve_uni_trading]: https://wiki.eveuniversity.org/Trading
 [community_eve_uni_warp]: https://wiki.eveuniversity.org/Warp
 [community_ksp_wiki_kerbin]: https://wiki.kerbalspaceprogram.com/wiki/Kerbin
 [community_ksp_wiki_multiplayer]: https://wiki.kerbalspaceprogram.com/wiki/Multiplayer
 [community_ksp_wiki_soi]: https://wiki.kerbalspaceprogram.com/wiki/Sphere_of_influence
 [community_sc_tools_planet]: https://starcitizen.tools/Planet
+[community_trek_obsession_transcript]: http://www.chakoteya.net/StarTrek/47.htm
+[dev_ccp_b_r5rb_2014]: https://www.eveonline.com/news/view/the-bloodbath-of-b-r5rb
+[dev_ccp_broker_relations_2020]: https://www.eveonline.com/news/view/broker-relations
 [dev_ccp_capsuleers]: https://universe.eveonline.com/lore/capsuleers
+[dev_ccp_corporations_2007]: https://www.eveonline.com/news/view/econ-dev-blog-no.-3-some-statistics-on-corporations
 [dev_ccp_economist_2007]: https://community.eveonline.com/news/news-channels/press-releases/eve-online-appoints-in-world-economist-1
+[dev_ccp_economy_vegas_2015]: https://www.eveonline.com/news/view/eve-economy-update-eve-vegas-2015-report
+[dev_ccp_esi_overview]: https://developers.eveonline.com/docs/services/esi/overview/
+[dev_ccp_esi_tritanium]: https://esi.evetech.net/latest/universe/types/34/?datasource=tranquility&language=en
+[dev_ccp_faucets_2006]: https://www.eveonline.com/news/view/a-deal-is-a-deal...
+[dev_ccp_industry_2014]: https://www.eveonline.com/news/view/eve-industry-all-you-want-to-know
 [dev_ccp_launch_2003]: https://community.eveonline.com/news/news-channels/press-releases/highly-anticipated-massively-multiplayer-online-game-1
 [dev_ccp_mer_2026]: https://www.eveonline.com/news/view/monthly-economic-report-august-2026
+[dev_ccp_patch_22_02_2025]: https://www.eveonline.com/news/view/patch-notes-version-22-02
+[dev_ccp_plex_2008]: https://www.eveonline.com/news/view/i-can-resist-anything-but-temptation
+[dev_ccp_plex_2009]: https://www.eveonline.com/news/view/the-way-of-the-plex
+[dev_ccp_plex_2017]: https://www.eveonline.com/news/view/plex-changes-on-the-way
+[dev_ccp_price_indices_2012]: https://www.eveonline.com/news/view/price-indices-february-2012
+[dev_ccp_red_frog_2013]: https://www.eveonline.com/news/view/community-spotlight-red-frog-freight
+[dev_ccp_rmt_2016]: https://www.eveonline.com/news/view/overlays-isk-buyer-amnesty-and-account-security
+[dev_ccp_security_2021]: https://www.eveonline.com/news/view/team-security-2021-in-review
 [dev_ccp_subscribers_2013]: https://community.eveonline.com/news/news-channels/press-releases/eve-online-surpasses-500-000-subscribers-worldwide
+[dev_ccp_taxes_2009]: https://www.eveonline.com/news/view/i-bring-gifts-by-gifts-i-mean-taxes-sorry
+[dev_ccp_technetium_2012]: https://www.eveonline.com/news/view/tech-is-fine-l2p
+[dev_ccp_viridian_2023]: https://www.eveonline.com/news/view/viridian-expansion-notes
 [dev_ccp_warp_2013]: https://www.eveonline.com/news/view/warp-drive-active
 [dev_code_essence_2016]: https://childrenofadeadearth.wordpress.com/2016/04/20/the-essence-of-space-warfare/
 [dev_code_orbital_2016]: https://childrenofadeadearth.wordpress.com/2016/05/17/fun-with-orbital-mechanics/
@@ -2403,10 +2857,17 @@ $$
 [dev_take_two_ksp2_2023]: https://ir.take2games.com/node/29461/pdf
 [dev_take_two_ksp_2017]: https://ir.take2games.com/static-files/f86fae80-882c-4c68-b71c-07560c4b1183
 [news_big_think_kaku_2015]: https://bigthink.com/videos/universe-in-a-nutshell-the-physics-of-everything-with-michio-kaku/
+[news_den_of_geek_2020]: https://www.denofgeek.com/games/eve-online-players-lives-better/
+[news_engadget_ebank_2009]: https://www.engadget.com/2009-07-02-new-perspective-on-eve-onlines-latest-bank-embezzlement.html
+[news_engadget_plex_2014]: https://www.engadget.com/2014-05-01-eve-fanfest-2014-economy-talk-highlights-plex-prices-and-reveal.html
+[news_engadget_tritanium_2008]: https://www.engadget.com/2008-06-29-making-money-the-origin-of-the-specie.html
+[news_evenews24_otec_2018]: https://evenews24.com/2018/01/22/moments-in-history-otec/
 [news_fps_review_sc_2026]: https://www.thefpsreview.com/2026/05/26/star-citizen-crosses-1-billion-in-crowdfunding-after-14-years-still-has-no-release-date/
 [news_gematsu_fenris_2026]: https://www.gematsu.com/2026/05/ccp-games-rebrands-to-fenris-creations-following-split-from-pearl-abyss
 [news_gizmodo_trek_pitch_2011]: https://gizmodo.com/read-the-first-draft-of-gene-roddenberrys-star-trek-pit-5746652
+[news_ieee_ebank_2009]: https://spectrum.ieee.org/eve-online-game-player-embezzles-virtual-money-creates-real-trouble
 [news_pc_gamer_intercept_2024]: https://www.pcgamer.com/games/sim/kerbal-space-program-2-developer-intercept-games-may-be-closing-as-part-of-take-twos-big-layoff-plan
+[news_register_ebank_2009]: https://www.theregister.com/security/2009/07/03/gamer-embezzles-virtual-cash-to-settle-real-debts/1491814
 [news_slashdot_straczynski_2013]: https://entertainment.slashdot.org/story/13/04/15/1328251/interviews-j-michael-straczynski-answers-your-questions
 [news_space_com_expanse_2015]: https://www.space.com/31437-the-expanse-crazy-sci-fi-tech.html
 [ref_edmund_laser]: https://www.edmundoptics.com/knowledge-center/frequently-asked-questions/general-questions/lasers/can-a-laser-beam-be-seen-from-the-side
