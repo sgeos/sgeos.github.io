@@ -395,15 +395,35 @@ The community wiki puts Kerbin at
 "approximately one-tenth the radius of Earth."
 A smaller planet with the same surface gravity needs a lower orbital speed,
 so a beginner reaches orbit with a small rocket.
+With $v\_{\mathrm{s}}$ the speed of a circular orbit just above the surface,
+$g$ the surface gravity
+and $R$ the planet's radius,
+
+$$
+v_{\mathrm{s}} = \sqrt{g R}
+\tag{4}
+$$
+
+The same wiki gives Kerbin a surface gravity of 9.81 metres per second squared,
+so the speed is about 2.4 kilometres per second,
+against about 7.9 for Earth.
 This is an approachability choice,
 and a good one,
 because it changes a parameter and keeps every law.
 The change has a price.
 The same wiki gives Kerbin
 "1/113th the mass"
-of Earth,
-which at a radius of 600 kilometres against 6,371
-implies a density more than ten times Earth's,
+of Earth.
+With $\bar{\rho}$ the mean density of a body of mass $M$ and radius $R$,
+
+$$
+\bar{\rho} = \frac{3 M}{4 \pi R^{3}}
+\tag{5}
+$$
+
+A body with that share of Earth's mass,
+at a radius of 600 kilometres against 6,371,
+has about 10.6 times Earth's mean density,
 and no ordinary matter is so dense.
 The planet is impossible as matter and correct as mechanics,
 and the mechanics are what the program teaches.
@@ -603,7 +623,7 @@ a pass straight through gives
 
 $$
 t_{\mathrm{e}} = \frac{2R}{v_{\mathrm{rel}}}
-\tag{4}
+\tag{6}
 $$
 
 Two craft in opposite circular orbits at the height of the International Space Station
@@ -715,7 +735,7 @@ the time constant is $\tau = I M \times 10^{-6}$ seconds and
 
 $$
 v(t) = v_{\max} \left( 1 - e^{-t/\tau} \right)
-\tag{5}
+\tag{7}
 $$
 
 [Acceleration][community_eve_uni_acceleration].
@@ -748,10 +768,16 @@ with speed
 and that a ship must first reach
 "the alignment threshold of 75% of its maximum speed"
 [CCP 2013a][dev_ccp_warp_2013].
-Setting $v(t) = 0.75\,v\_{\max}$ in the velocity law
-gives an alignment time of $\tau \ln 4$,
-about $1.39\,\tau$,
-which agrees with the alignment time given in the developer-hosted documentation for third-party developers
+Setting $v(t) = 0.75\,v\_{\max}$ in the velocity law gives the alignment time.
+With $t\_{\mathrm{a}}$ that time,
+
+$$
+t_{\mathrm{a}} = \tau \ln 4
+\tag{8}
+$$
+
+That is about $1.39\,\tau$,
+and it agrees with the alignment time given in the developer-hosted documentation for third-party developers
 [Useful Formulae][dev_ccp_useful_formulae].
 Warp speeds run from about 1.5 to 8 astronomical units per second
 by the community's figures
@@ -900,7 +926,7 @@ reads
 
 $$
 C_{\mathrm{job}} = V_{\mathrm{EIV}} \left( I_{\mathrm{SCI}}\, \beta + t_{\mathrm{f}} + t_{\mathrm{SCC}} + t_{\alpha} \right)
-\tag{6}
+\tag{9}
 $$
 
 [CCP 2023][dev_ccp_viridian_2023].
@@ -916,7 +942,7 @@ the index in that form grows as
 
 $$
 I_{\mathrm{SCI}} \propto \sqrt{\frac{h_{\mathrm{sys}}}{h_{\mathrm{all}}}}
-\tag{7}
+\tag{10}
 $$
 
 A system that hosts four times another's share of production
@@ -941,7 +967,7 @@ those rules assemble into
 
 $$
 n_{\mathrm{mat}} = \max\!\left( r,\ \left\lceil r\, n_{0} \left( 1 - \frac{E}{100} \right) \gamma \right\rceil \right)
-\tag{8}
+\tag{11}
 $$
 
 A blueprint calling for 1,000 units per run at a material efficiency of 10,
@@ -975,7 +1001,7 @@ a trade placed as an order at each end pays when
 
 $$
 p_{\mathrm{B}} \left( 1 - \lambda_{\mathrm{s}} - f_{\mathrm{b}} \right) - p_{\mathrm{A}} \left( 1 + f_{\mathrm{b}} \right) - c_{\mathrm{h}} > 0
-\tag{9}
+\tag{12}
 $$
 
 The developer set the Accounting skill in 2019 to reduce the sales tax by 11 percent per level
@@ -1497,7 +1523,7 @@ and $R\_{y}$ the income,
 
 $$
 \rho_{y} = \frac{C_{y}}{R_{y}}
-\tag{10}
+\tag{13}
 $$
 
 | Year | Income | Costs with capital expenditure | Ratio |
@@ -1752,7 +1778,7 @@ and $m\_{\mathrm{f}}$ the final mass,
 
 $$
 \Delta v = I_{\mathrm{sp}}\, g_{0} \ln \frac{m_{0}}{m_{\mathrm{f}}}
-\tag{11}
+\tag{14}
 $$
 
 An engine with a specific impulse of 450 seconds and a mass ratio of four
@@ -1769,7 +1795,7 @@ and $\mu\_{\odot}$ the Sun's gravitational parameter at $1.327 \times 10^{11}$ c
 
 $$
 t_{\mathrm{H}} = \pi \sqrt{\frac{a_{\mathrm{t}}^{3}}{\mu_{\odot}}}
-\tag{12}
+\tag{15}
 $$
 
 From Earth at 1.000 astronomical units to Mars at 1.524,
@@ -1783,7 +1809,7 @@ and $T\_{1}$ and $T\_{2}$ the orbital periods of the inner and outer planets,
 
 $$
 \frac{1}{S} = \frac{1}{T_{1}} - \frac{1}{T_{2}}
-\tag{13}
+\tag{16}
 $$
 
 For Earth at 365.25 days and Mars at 686.98,
@@ -1813,7 +1839,7 @@ and $T$ the sidereal day of 86,164 seconds,
 
 $$
 r_{\mathrm{G}} = \left( \frac{\mu T^{2}}{4 \pi^{2}} \right)^{1/3}
-\tag{14}
+\tag{17}
 $$
 
 The radius is 42,164 kilometres,
@@ -1837,7 +1863,7 @@ and $r$ its radius from Earth's centre,
 
 $$
 v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
-\tag{15}
+\tag{18}
 $$
 
 At the height of the International Space Station,
@@ -1863,7 +1889,7 @@ and $R$ Earth's radius,
 
 $$
 g(h) = g_{0} \left( \frac{R}{R + h} \right)^{2}
-\tag{16}
+\tag{19}
 $$
 
 At 420 kilometres the ratio is about 0.88.
@@ -1894,7 +1920,7 @@ and $r$ the radius,
 
 $$
 a_{\mathrm{c}} = \omega^{2} r
-\tag{17}
+\tag{20}
 $$
 
 At one revolution per minute,
@@ -1949,7 +1975,7 @@ and $T$ its temperature in kelvin,
 
 $$
 P = \varepsilon \sigma A T^{4}
-\tag{18}
+\tag{21}
 $$
 
 A radiator at 275 kelvin with an emissivity of 0.9
@@ -2071,7 +2097,7 @@ and $c$ the speed of light,
 
 $$
 t_{\mathrm{L}} = \frac{d}{c}
-\tag{19}
+\tag{22}
 $$
 
 At its closest,
@@ -2240,7 +2266,7 @@ and $t\_{\mathrm{f}}$ the time of one evaluation of the inverse-square law,
 
 $$
 t_{\mathrm{step}} = N_{\mathrm{c}}\, \bar{n}\, t_{\mathrm{f}}
-\tag{20}
+\tag{23}
 $$
 
 A published benchmark of gravitational force loops measured two billion evaluations a second
@@ -2495,7 +2521,7 @@ and $\mathbf{a}\_{\mathrm{T},i}$ the acceleration of its own thrust,
 
 $$
 \ddot{\mathbf{r}}_{i} = -G \sum_{j} m_{j} \frac{\mathbf{r}_{i} - \mathbf{r}_{j}}{\lvert \mathbf{r}_{i} - \mathbf{r}_{j} \rvert^{3}} + \mathbf{a}_{\mathrm{T},i}
-\tag{21}
+\tag{24}
 $$
 
 [Battin 1999][book_battin_1999]
@@ -2509,7 +2535,7 @@ and $F$ the thrust,
 
 $$
 \dot{m} = -\frac{F}{I_{\mathrm{sp}}\, g_{0}}
-\tag{22}
+\tag{25}
 $$
 
 An engine of 100 kilonewtons at a specific impulse of 450 seconds
@@ -2528,7 +2554,7 @@ and $\mathbf{a}\_{\mathrm{T}}$ the acceleration of thrust,
 
 $$
 \ddot{\mathbf{r}} = -\frac{\mu_{\mathrm{p}}}{\lvert \mathbf{r} \rvert^{3}}\, \mathbf{r} + \sum_{k} \mu_{k} \left( \frac{\mathbf{r}_{k} - \mathbf{r}}{\lvert \mathbf{r}_{k} - \mathbf{r} \rvert^{3}} - \frac{\mathbf{r}_{k}}{\lvert \mathbf{r}_{k} \rvert^{3}} \right) + \mathbf{a}_{\mathrm{T}}
-\tag{23}
+\tag{26}
 $$
 
 [Hughes 2007][agency_nasa_gmat_2007].
@@ -2542,7 +2568,13 @@ The two terms nearly cancel,
 and what remains is a tide.
 For a craft at distance $r$ from its parent
 and a third body at the much greater distance $d$,
-the bracket is at most about $2 \mu\_{k} r / d^{3}$.
+the size $a\_{k}$ of the bracket has a bound.
+
+$$
+a_{k} \lesssim \frac{2 \mu_{k}\, r}{d^{3}}
+\tag{27}
+$$
+
 A craft at the height of the space station feels 8.64 metres per second squared from Earth.
 With NASA's values for the other bodies
 [NASA Moon Fact Sheet][agency_nasa_moon_fact_sheet]
@@ -2573,7 +2605,7 @@ $$
 \mathbf{r}_{n+1} &= \mathbf{r}_{n} + \Delta t\, \mathbf{v}_{n+1/2} \\
 \mathbf{v}_{n+1} &= \mathbf{v}_{n+1/2} + \tfrac{\Delta t}{2}\, \mathbf{a}(\mathbf{r}_{n+1})
 \end{aligned}
-\tag{24}
+\tag{28}
 $$
 
 This second-order method is the base from which Yoshida built higher orders
@@ -2628,7 +2660,7 @@ and $\Phi\_{\Delta t}$ the step function,
 
 $$
 \mathbf{x}_{n+1} = \Phi_{\Delta t}\!\left( \mathbf{x}_{n}, U_{n} \right)
-\tag{25}
+\tag{29}
 $$
 
 Every machine that starts from the same state
@@ -2666,7 +2698,7 @@ Euler's equations of rigid-body rotation give
 
 $$
 \mathbf{I}\, \dot{\boldsymbol{\omega}} + \boldsymbol{\omega} \times \left( \mathbf{I}\, \boldsymbol{\omega} \right) = \boldsymbol{\tau}
-\tag{26}
+\tag{30}
 $$
 
 The torque changes where the craft points.
@@ -2683,7 +2715,7 @@ and $A$ the reference area,
 
 $$
 F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
-\tag{27}
+\tag{31}
 $$
 
 and a simple model of the density,
@@ -2695,7 +2727,7 @@ is
 
 $$
 \rho(h) = \rho_{0}\, e^{-h/H}
-\tag{28}
+\tag{32}
 $$
 
 Heating at the nose follows the stagnation-point correlation of Sutton and Graves
@@ -2707,7 +2739,7 @@ about $1.74 \times 10^{-4}$ in units that give watts per square metre for Earth'
 
 $$
 \dot{q} = k \sqrt{\frac{\rho}{r_{\mathrm{n}}}}\, v^{3}
-\tag{29}
+\tag{33}
 $$
 
 At $10^{-4}$ kilograms per cubic metre,
@@ -2727,7 +2759,7 @@ and the radiator symbols as before,
 
 $$
 m c\, \frac{dT}{dt} = P_{\mathrm{in}} - \varepsilon \sigma A T^{4}
-\tag{30}
+\tag{34}
 $$
 
 A craft that generates more heat than its radiators reject grows hotter,
@@ -2744,7 +2776,7 @@ and $L$ the length of the equivalent pendulum,
 
 $$
 \omega_{\mathrm{s}} = \sqrt{\frac{a}{L}}
-\tag{31}
+\tag{35}
 $$
 
 Under a thrust of a tenth of standard gravity,
@@ -2768,7 +2800,7 @@ the weak-field result that satellite navigation relies on is
 
 $$
 \frac{d t_{\mathrm{c}}}{d t} = 1 + \frac{\Phi}{c^{2}} - \frac{v^{2}}{2 c^{2}}
-\tag{32}
+\tag{36}
 $$
 
 [Ashby 2003][research_ashby_2003].
@@ -2812,15 +2844,22 @@ and $\kappa$ the compression factor shared by every agent,
 
 $$
 t_{\mathrm{w}} = \frac{t_{\mathrm{s}}}{\kappa}
-\tag{33}
+\tag{37}
 $$
 
 The same factor shortens everything.
 The table applies it to four durations worked earlier in this article
 and to one more,
-a single orbit at the height of the space station,
-which at 7.66 kilometres per second around a circle of radius 6,791 kilometres
-takes about 93 minutes.
+a single orbit at the height of the space station.
+With $T\_{\mathrm{o}}$ the period of a circular orbit of radius $r$
+and $\mu$ Earth's gravitational parameter as before,
+
+$$
+T_{\mathrm{o}} = 2 \pi \sqrt{\frac{r^{3}}{\mu}}
+\tag{38}
+$$
+
+At a radius of 6,791 kilometres the period is about 93 minutes.
 
 | Duration | True | Compressed by 10 | Compressed by 100 |
 |---|---|---|---|
@@ -2880,6 +2919,13 @@ Relativistic time dilation is nominally relevant as well,
 though it is chiefly a concern of interstellar travel.
 At the speeds of near-term spaceflight it amounts to a fraction of a second in a year,
 as the clock equation above shows.
+At interstellar speeds the exact factor of special relativity replaces the first-order term for speed.
+
+$$
+\frac{d t_{\mathrm{c}}}{d t} = \sqrt{1 - \frac{v^{2}}{c^{2}}}
+\tag{39}
+$$
+
 At a tenth of the speed of light a traveller's clock would lose about 1.8 days in every year,
 and at higher speeds a character in transit would live through less time than the world it left.
 Conclusions about colonisation,
@@ -2965,6 +3011,21 @@ A fast pass is not the rare event.
 In a crowded shell of low orbit,
 craft cross within range of one another often,
 at the closing speeds worked earlier.
+With $\nu$ the rate at which one craft passes within range $R$ of another,
+$N$ the number of craft in a shell of volume $V$
+and $v\_{\mathrm{rel}}$ their typical relative speed,
+
+$$
+\nu = \frac{N}{V}\, \pi R^{2}\, v_{\mathrm{rel}}
+\tag{40}
+$$
+
+Ten thousand craft in a shell 200 kilometres thick at the height of the space station,
+with a range of 100 kilometres and a relative speed of 10 kilometres per second,
+give each craft a pass about every 37 seconds.
+The figures are illustrative,
+and the estimate treats the craft as moving at random,
+which craft in orbit do not.
 What honest delta-v budgets make rare is a meeting slow enough to trade,
 board
 or talk,
@@ -3040,7 +3101,7 @@ and the other symbols as in the rocket equation,
 
 $$
 m_{\mathrm{p}} = \left( m_{\mathrm{pay}} + m_{\mathrm{s}} \right) \left( e^{\Delta v / \left( I_{\mathrm{sp}}\, g_{0} \right)} - 1 \right)
-\tag{34}
+\tag{41}
 $$
 
 At a specific impulse of 450 seconds,
@@ -3744,12 +3805,12 @@ the children it taught might help to build the future it depicted.
 
 <!-- Equations generated by _lib/equations.py from _sources/equations/. Edit the data file and regenerate. Do not edit this section by hand. -->
 
-This section collects the 34 display equations of the article in the order they appear,
+This section collects the 41 display equations of the article in the order they appear,
 each under its number and reproduced exactly as it stands in the text.
 A title in bold names an established result,
 and a title in italics beginning with the word Bespoke names a construction made for this analysis.
-Of the 34, 23 are established and 11 are bespoke.
-Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 31, T is a sidereal day in Equation 14 and a temperature in Equations 18 and 30, R is a weapon range in Equation 4 and the radius of Earth in Equation 16, the Greek letter tau is a time constant in Equation 5 and a torque in Equation 26, the Greek letter rho is a ratio of spending to income in Equation 10 and the density of air in Equations 27 to 29, and the capital Greek letter phi is a step function in Equation 25 and a gravitational potential in Equation 32.
+Of the 41, 28 are established and 13 are bespoke.
+Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 35, R is the radius of a planet in Equations 4, 5 and 19 and a range in Equations 6 and 40, T is a sidereal day in Equation 17 and a temperature in Equations 21 and 34, the Greek letter tau is a time constant in Equations 7 and 8 and a torque in Equation 30, the Greek letter rho is a ratio of spending to income in Equation 13 and the density of air in Equations 31 to 33, and the capital Greek letter phi is a step function in Equation 29 and a gravitational potential in Equation 36.
 
 **Equation 1, Bohr Energy Levels of Hydrogen.**
 The energy of each permitted level in Bohr's model, which predicts the hydrogen spectrum despite a wrong picture of the electron.
@@ -3777,183 +3838,218 @@ r_{\mathrm{H}} \approx a \left( \frac{m}{3M} \right)^{1/3}
 \tag{3}
 $$
 
-*Equation 4, Bespoke Engagement Time of a Straight Pass.*
+**Equation 4, Circular Orbital Speed at the Surface.**
+The speed of a circular orbit just above a body's surface in terms of its surface gravity and radius, which falls as the body shrinks at fixed gravity.
+[Kerbin][community_ksp_wiki_kerbin]
+
+$$
+v_{\mathrm{s}} = \sqrt{g R}
+\tag{4}
+$$
+
+**Equation 5, Mean Density of a Sphere.**
+The mean density of a body from its mass and radius, which shows what a small planet with Earth-like gravity must be made of.
+[Kerbin][community_ksp_wiki_kerbin]
+
+$$
+\bar{\rho} = \frac{3 M}{4 \pi R^{3}}
+\tag{5}
+$$
+
+*Equation 6, Bespoke Engagement Time of a Straight Pass.*
 The time two craft spend within weapon range on a straight pass at constant relative speed, an order-of-magnitude model of the article's.
 
 $$
 t_{\mathrm{e}} = \frac{2R}{v_{\mathrm{rel}}}
-\tag{4}
+\tag{6}
 $$
 
-**Equation 5, EVE Online Velocity Law.**
+**Equation 7, EVE Online Velocity Law.**
 The speed a ship reaches under full propulsion in EVE Online, the law of a body in a viscous fluid, as the community guide gives it.
 [Acceleration][community_eve_uni_acceleration]
 
 $$
 v(t) = v_{\max} \left( 1 - e^{-t/\tau} \right)
-\tag{5}
+\tag{7}
 $$
 
-**Equation 6, EVE Online Industry Job Cost.**
+**Equation 8, EVE Online Alignment Time.**
+The time a ship takes to reach three quarters of its top speed under the velocity law, which the developer-hosted documentation also gives.
+[Useful Formulae][dev_ccp_useful_formulae]
+
+$$
+t_{\mathrm{a}} = \tau \ln 4
+\tag{8}
+$$
+
+**Equation 9, EVE Online Industry Job Cost.**
 The cost of installing an industry job in EVE Online, as the developer states it, with the system cost index scaled by the facility's bonuses.
 [CCP 2023][dev_ccp_viridian_2023]
 
 $$
 C_{\mathrm{job}} = V_{\mathrm{EIV}} \left( I_{\mathrm{SCI}}\, \beta + t_{\mathrm{f}} + t_{\mathrm{SCC}} + t_{\alpha} \right)
-\tag{6}
+\tag{9}
 $$
 
-*Equation 7, Bespoke Proportional Form of the 2014 System Cost Index.*
+*Equation 10, Bespoke Proportional Form of the 2014 System Cost Index.*
 The square-root growth of EVE Online's cost index with a system's share of production, written from the developer's description of 2014 as a proportionality, since the exact current form is not published in text.
 [CCP 2014][dev_ccp_industry_2014]
 
 $$
 I_{\mathrm{SCI}} \propto \sqrt{\frac{h_{\mathrm{sys}}}{h_{\mathrm{all}}}}
-\tag{7}
+\tag{10}
 $$
 
-*Equation 8, Bespoke Material Requirement from EVE Online's Stated Rules.*
+*Equation 11, Bespoke Material Requirement from EVE Online's Stated Rules.*
 The quantity of one material a job consumes, assembled from the developer's stated rules on material efficiency, rounding per job and a minimum of one unit per run.
 [CCP 2014][dev_ccp_industry_2014]
 
 $$
 n_{\mathrm{mat}} = \max\!\left( r,\ \left\lceil r\, n_{0} \left( 1 - \frac{E}{100} \right) \gamma \right\rceil \right)
-\tag{8}
+\tag{11}
 $$
 
-*Equation 9, Bespoke Arbitrage Condition Between Two Hubs.*
+*Equation 12, Bespoke Arbitrage Condition Between Two Hubs.*
 The condition under which a haul between two markets pays after sales tax, broker's fees and hauling cost, a construction of the article's.
 
 $$
 p_{\mathrm{B}} \left( 1 - \lambda_{\mathrm{s}} - f_{\mathrm{b}} \right) - p_{\mathrm{A}} \left( 1 + f_{\mathrm{b}} \right) - c_{\mathrm{h}} > 0
-\tag{9}
+\tag{12}
 $$
 
-*Equation 10, Bespoke Ratio of Spending to Income.*
+*Equation 13, Bespoke Ratio of Spending to Income.*
 The ratio of a company's costs including capital expenditure to its income in one year, used to test whether Cloud Imperium spends what it raises.
 [Cloud Imperium 2023][dev_cig_financials_2023]
 
 $$
 \rho_{y} = \frac{C_{y}}{R_{y}}
-\tag{10}
+\tag{13}
 $$
 
-**Equation 11, Tsiolkovsky Rocket Equation.**
+**Equation 14, Tsiolkovsky Rocket Equation.**
 The delta-v a rocket gains as its mass falls from the initial to the final mass.
 
 $$
 \Delta v = I_{\mathrm{sp}}\, g_{0} \ln \frac{m_{0}}{m_{\mathrm{f}}}
-\tag{11}
+\tag{14}
 $$
 
-**Equation 12, Hohmann Transfer Time.**
+**Equation 15, Hohmann Transfer Time.**
 Half the period of the transfer ellipse, the time the cheapest two-burn transfer between two coplanar circular orbits takes.
 [Curtis 2020a][book_curtis_2020_interplanetary]
 
 $$
 t_{\mathrm{H}} = \pi \sqrt{\frac{a_{\mathrm{t}}^{3}}{\mu_{\odot}}}
-\tag{12}
+\tag{15}
 $$
 
-**Equation 13, Synodic Period.**
+**Equation 16, Synodic Period.**
 The interval between repetitions of two planets' relative position, which spaces the windows for a transfer.
 [Curtis 2020a][book_curtis_2020_interplanetary]
 
 $$
 \frac{1}{S} = \frac{1}{T_{1}} - \frac{1}{T_{2}}
-\tag{13}
+\tag{16}
 $$
 
-**Equation 14, Geostationary Orbit Radius.**
+**Equation 17, Geostationary Orbit Radius.**
 The radius at which a circular orbit's period equals one sidereal day, the only place a satellite holds position over the ground.
 [ESA 2020][agency_esa_geo_2020]
 
 $$
 r_{\mathrm{G}} = \left( \frac{\mu T^{2}}{4 \pi^{2}} \right)^{1/3}
-\tag{14}
+\tag{17}
 $$
 
-**Equation 15, Circular Orbital Speed.**
+**Equation 18, Circular Orbital Speed.**
 The speed of a circular orbit at a given radius, which is what makes reaching orbit hard.
 
 $$
 v_{\mathrm{c}} = \sqrt{\frac{\mu}{r}}
-\tag{15}
+\tag{18}
 $$
 
-**Equation 16, Gravity at Altitude.**
+**Equation 19, Gravity at Altitude.**
 The inverse-square fall of gravity with height, which leaves about nine-tenths of surface gravity at the space station.
 [NASA 2012][agency_nasa_microgravity]
 
 $$
 g(h) = g_{0} \left( \frac{R}{R + h} \right)^{2}
-\tag{16}
+\tag{19}
 $$
 
-**Equation 17, Centripetal Acceleration.**
+**Equation 20, Centripetal Acceleration.**
 The acceleration felt at the rim of a rotating habitat, the physical basis of spin gravity.
 [Johnson and Holbrow 1977][agency_nasa_sp413_1977]
 
 $$
 a_{\mathrm{c}} = \omega^{2} r
-\tag{17}
+\tag{20}
 $$
 
-*Equation 18, Bespoke Radiator Power Without Absorbed Sunlight.*
+*Equation 21, Bespoke Radiator Power Without Absorbed Sunlight.*
 The Stefan-Boltzmann law applied to a radiator facing cold space with absorbed sunlight neglected, an assumption of the article's that lowers the area needed.
 
 $$
 P = \varepsilon \sigma A T^{4}
-\tag{18}
+\tag{21}
 $$
 
-**Equation 19, Light-Time Delay.**
+**Equation 22, Light-Time Delay.**
 The one-way delay of any signal over a distance, which no message or sensor reading can beat.
 [Landon et al. 2025][agency_nasa_tm_2025_mars_comms]
 
 $$
 t_{\mathrm{L}} = \frac{d}{c}
-\tag{19}
+\tag{22}
 $$
 
-*Equation 20, Bespoke Cost of One Gravity Step.*
+*Equation 23, Bespoke Cost of One Gravity Step.*
 The time one processor core needs to advance every craft by one step, linear in the number of craft because craft do not attract one another, an order-of-magnitude estimate of the article's.
 [Tanikawa et al. 2013][research_tanikawa_et_al_2013]
 
 $$
 t_{\mathrm{step}} = N_{\mathrm{c}}\, \bar{n}\, t_{\mathrm{f}}
-\tag{20}
+\tag{23}
 $$
 
-**Equation 21, N-Body Equation of Motion With Thrust.**
+**Equation 24, N-Body Equation of Motion With Thrust.**
 The acceleration of a craft in an inertial frame under the gravity of every massive body plus its own thrust, the equation the core integrates.
 [Battin 1999][book_battin_1999]
 [Hughes 2007][agency_nasa_gmat_2007]
 
 $$
 \ddot{\mathbf{r}}_{i} = -G \sum_{j} m_{j} \frac{\mathbf{r}_{i} - \mathbf{r}_{j}}{\lvert \mathbf{r}_{i} - \mathbf{r}_{j} \rvert^{3}} + \mathbf{a}_{\mathrm{T},i}
-\tag{21}
+\tag{24}
 $$
 
-**Equation 22, Propellant Mass Flow.**
+**Equation 25, Propellant Mass Flow.**
 The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation.
 
 $$
 \dot{m} = -\frac{F}{I_{\mathrm{sp}}\, g_{0}}
-\tag{22}
+\tag{25}
 $$
 
-**Equation 23, Motion Relative to a Parent Body With Third-Body Terms.**
+**Equation 26, Motion Relative to a Parent Body With Third-Body Terms.**
 The acceleration of a craft in the frame of its parent body, where each other body enters as the difference between its pull on the craft and its pull on the parent.
 [Hughes 2007][agency_nasa_gmat_2007]
 [Berry and Coppola 2007][research_berry_coppola_2007]
 
 $$
 \ddot{\mathbf{r}} = -\frac{\mu_{\mathrm{p}}}{\lvert \mathbf{r} \rvert^{3}}\, \mathbf{r} + \sum_{k} \mu_{k} \left( \frac{\mathbf{r}_{k} - \mathbf{r}}{\lvert \mathbf{r}_{k} - \mathbf{r} \rvert^{3}} - \frac{\mathbf{r}_{k}}{\lvert \mathbf{r}_{k} \rvert^{3}} \right) + \mathbf{a}_{\mathrm{T}}
-\tag{23}
+\tag{26}
 $$
 
-**Equation 24, Kick-Drift-Kick Leapfrog Step.**
+*Equation 27, Bespoke Tidal Bound on a Third Body's Perturbation.*
+The largest size of a third body's perturbing acceleration on a craft near its parent, to first order in the ratio of the two distances, an approximation of the article's.
+
+$$
+a_{k} \lesssim \frac{2 \mu_{k}\, r}{d^{3}}
+\tag{27}
+$$
+
+**Equation 28, Kick-Drift-Kick Leapfrog Step.**
 The second-order symplectic step whose energy error stays bounded for a coasting craft at a constant step, the base of higher-order symplectic integrators.
 [Yoshida 1990][research_yoshida_1990]
 [Hairer et al. 2003][research_hairer_et_al_2003]
@@ -3964,90 +4060,115 @@ $$
 \mathbf{r}_{n+1} &= \mathbf{r}_{n} + \Delta t\, \mathbf{v}_{n+1/2} \\
 \mathbf{v}_{n+1} &= \mathbf{v}_{n+1/2} + \tfrac{\Delta t}{2}\, \mathbf{a}(\mathbf{r}_{n+1})
 \end{aligned}
-\tag{24}
+\tag{28}
 $$
 
-*Equation 25, Bespoke Reproducible State Transition.*
+*Equation 29, Bespoke Reproducible State Transition.*
 The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the requirement that the step be reproducible.
 
 $$
 \mathbf{x}_{n+1} = \Phi_{\Delta t}\!\left( \mathbf{x}_{n}, U_{n} \right)
-\tag{25}
+\tag{29}
 $$
 
-**Equation 26, Euler's Equations of Rigid-Body Rotation.**
+**Equation 30, Euler's Equations of Rigid-Body Rotation.**
 The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path.
 
 $$
 \mathbf{I}\, \dot{\boldsymbol{\omega}} + \boldsymbol{\omega} \times \left( \mathbf{I}\, \boldsymbol{\omega} \right) = \boldsymbol{\tau}
-\tag{26}
+\tag{30}
 $$
 
-**Equation 27, Aerodynamic Drag.**
+**Equation 31, Aerodynamic Drag.**
 The drag force on a body moving through air, which governs launch and reentry.
 
 $$
 F_{\mathrm{D}} = \tfrac{1}{2}\, \rho v^{2} C_{\mathrm{D}} A
-\tag{27}
+\tag{31}
 $$
 
-**Equation 28, Isothermal Exponential Atmosphere.**
+**Equation 32, Isothermal Exponential Atmosphere.**
 The simple model of air density falling exponentially with height above sea level.
 
 $$
 \rho(h) = \rho_{0}\, e^{-h/H}
-\tag{28}
+\tag{32}
 $$
 
-**Equation 29, Sutton-Graves Stagnation-Point Heating.**
+**Equation 33, Sutton-Graves Stagnation-Point Heating.**
 The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter.
 [Sutton and Graves 1971][research_sutton_graves_1971]
 
 $$
 \dot{q} = k \sqrt{\frac{\rho}{r_{\mathrm{n}}}}\, v^{3}
-\tag{29}
+\tag{33}
 $$
 
-*Equation 30, Bespoke Lumped Thermal Balance.*
+*Equation 34, Bespoke Lumped Thermal Balance.*
 A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature.
 
 $$
 m c\, \frac{dT}{dt} = P_{\mathrm{in}} - \varepsilon \sigma A T^{4}
-\tag{30}
+\tag{34}
 $$
 
-**Equation 31, Pendulum Model of First-Mode Slosh.**
+**Equation 35, Pendulum Model of First-Mode Slosh.**
 The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration.
 [Abramson 1966][research_abramson_1966]
 
 $$
 \omega_{\mathrm{s}} = \sqrt{\frac{a}{L}}
-\tag{31}
+\tag{35}
 $$
 
-**Equation 32, Weak-Field Rate of a Moving Clock.**
+**Equation 36, Weak-Field Rate of a Moving Clock.**
 The rate of a craft's clock against a distant clock at rest, slowed by the gravitational potential and by speed, to first order.
 [Ashby 2003][research_ashby_2003]
 
 $$
 \frac{d t_{\mathrm{c}}}{d t} = 1 + \frac{\Phi}{c^{2}} - \frac{v^{2}}{2 c^{2}}
-\tag{32}
+\tag{36}
 $$
 
-*Equation 33, Bespoke Wall-Clock Time Under a Shared Clock.*
+*Equation 37, Bespoke Wall-Clock Time Under a Shared Clock.*
 The real time an agent waits for a span of simulated time when one compression factor applies to every agent.
 
 $$
 t_{\mathrm{w}} = \frac{t_{\mathrm{s}}}{\kappa}
-\tag{33}
+\tag{37}
 $$
 
-*Equation 34, Bespoke Freight Propellant From the Rocket Equation.*
+**Equation 38, Period of a Circular Orbit.**
+The time one circular orbit takes at a given radius, Kepler's third law for a circle.
+
+$$
+T_{\mathrm{o}} = 2 \pi \sqrt{\frac{r^{3}}{\mu}}
+\tag{38}
+$$
+
+**Equation 39, Special-Relativistic Clock Rate.**
+The exact rate of a moving clock against one at rest, which governs the time a traveller lives through at interstellar speeds.
+[Ashby 2003][research_ashby_2003]
+
+$$
+\frac{d t_{\mathrm{c}}}{d t} = \sqrt{1 - \frac{v^{2}}{c^{2}}}
+\tag{39}
+$$
+
+*Equation 40, Bespoke Rate of Passes in a Crowded Shell.*
+The rate at which one craft passes within range of another when craft fill a shell at random, an illustrative estimate of the article's.
+
+$$
+\nu = \frac{N}{V}\, \pi R^{2}\, v_{\mathrm{rel}}
+\tag{40}
+$$
+
+*Equation 41, Bespoke Freight Propellant From the Rocket Equation.*
 The propellant a shipment needs for a given delta-v, the rocket equation rearranged to price freight by delta-v in the blueprint's economy.
 
 $$
 m_{\mathrm{p}} = \left( m_{\mathrm{pay}} + m_{\mathrm{s}} \right) \left( e^{\Delta v / \left( I_{\mathrm{sp}}\, g_{0} \right)} - 1 \right)
-\tag{34}
+\tag{41}
 $$
 
 ### Notation
@@ -4055,7 +4176,7 @@ $$
 - $E_{n}$, the energy of hydrogen level $n$ in the Bohr model
 - $r_{\mathrm{SOI}}$, the radius of the sphere of influence
 - $r_{\mathrm{H}}$, the Hill radius
-- $M$, the mass of the larger body, or a ship's mass in Equation 5
+- $M$, the mass of the larger body, a ship's mass in Equation 7, or a body's mass in Equation 5
 - $t_{\mathrm{e}}$, the time two craft spend within range of each other
 - $v_{\mathrm{rel}}$, the relative speed of two craft
 - $v_{\max}$, a ship's top speed in EVE Online
@@ -4076,6 +4197,12 @@ $$
 - $t_{\mathrm{L}}$, the one-way light-time delay
 - $\mathbf{a}_{\mathrm{T},i}$, the acceleration of craft $i$ from its own thrust
 - $\dot{m}$, the rate of change of a craft's mass
+- $v_{\mathrm{s}}$, the speed of a circular orbit just above a body's surface
+- $\bar{\rho}$, the mean density of a body
+- $t_{\mathrm{a}}$, the alignment time of a ship in EVE Online
+- $a_{k}$, the size of the perturbing acceleration of a third body $k$
+- $T_{\mathrm{o}}$, the period of a circular orbit
+- $\nu$, the rate at which one craft passes within range of another
 - $t_{\mathrm{step}}$, the time one processor core needs to advance every craft by one step
 - $N_{\mathrm{c}}$, the number of craft
 - $\bar{n}$, the mean number of bodies each craft feels

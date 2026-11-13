@@ -1,6 +1,6 @@
 # Equation classification for A386. Read by `python3 _lib/equations.py`.
 
-caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 31, T is a sidereal day in Equation 14 and a temperature in Equations 18 and 30, R is a weapon range in Equation 4 and the radius of Earth in Equation 16, the Greek letter tau is a time constant in Equation 5 and a torque in Equation 26, the Greek letter rho is a ratio of spending to income in Equation 10 and the density of air in Equations 27 to 29, and the capital Greek letter phi is a step function in Equation 25 and a gravitational potential in Equation 32."
+caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 35, R is the radius of a planet in Equations 4, 5 and 19 and a range in Equations 6 and 40, T is a sidereal day in Equation 17 and a temperature in Equations 21 and 34, the Greek letter tau is a time constant in Equations 7 and 8 and a torque in Equation 30, the Greek letter rho is a ratio of spending to income in Equation 13 and the density of air in Equations 31 to 33, and the capital Greek letter phi is a step function in Equation 29 and a gravitational potential in Equation 36."
 
 [[equation]]
 tag = 1
@@ -28,6 +28,22 @@ digest = "0ced3629673c63bd"
 
 [[equation]]
 tag = 4
+class = "standard"
+title = "Circular Orbital Speed at the Surface"
+gloss = "The speed of a circular orbit just above a body's surface in terms of its surface gravity and radius, which falls as the body shrinks at fixed gravity."
+cite = ["community_ksp_wiki_kerbin"]
+digest = "beb73d12ec6708f0"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Mean Density of a Sphere"
+gloss = "The mean density of a body from its mass and radius, which shows what a small planet with Earth-like gravity must be made of."
+cite = ["community_ksp_wiki_kerbin"]
+digest = "dabcd00c7b80284b"
+
+[[equation]]
+tag = 6
 class = "bespoke"
 title = "Bespoke Engagement Time of a Straight Pass"
 gloss = "The time two craft spend within weapon range on a straight pass at constant relative speed, an order-of-magnitude model of the article's."
@@ -35,7 +51,7 @@ cite = []
 digest = "80a72e488b038902"
 
 [[equation]]
-tag = 5
+tag = 7
 class = "standard"
 title = "EVE Online Velocity Law"
 gloss = "The speed a ship reaches under full propulsion in EVE Online, the law of a body in a viscous fluid, as the community guide gives it."
@@ -43,7 +59,15 @@ cite = ["community_eve_uni_acceleration"]
 digest = "08c0843527645204"
 
 [[equation]]
-tag = 6
+tag = 8
+class = "standard"
+title = "EVE Online Alignment Time"
+gloss = "The time a ship takes to reach three quarters of its top speed under the velocity law, which the developer-hosted documentation also gives."
+cite = ["dev_ccp_useful_formulae"]
+digest = "e5ab67c66889b917"
+
+[[equation]]
+tag = 9
 class = "standard"
 title = "EVE Online Industry Job Cost"
 gloss = "The cost of installing an industry job in EVE Online, as the developer states it, with the system cost index scaled by the facility's bonuses."
@@ -51,7 +75,7 @@ cite = ["dev_ccp_viridian_2023"]
 digest = "fcda9b53c518ac59"
 
 [[equation]]
-tag = 7
+tag = 10
 class = "bespoke"
 title = "Bespoke Proportional Form of the 2014 System Cost Index"
 gloss = "The square-root growth of EVE Online's cost index with a system's share of production, written from the developer's description of 2014 as a proportionality, since the exact current form is not published in text."
@@ -59,7 +83,7 @@ cite = ["dev_ccp_industry_2014"]
 digest = "22b6cc4b1d9419bb"
 
 [[equation]]
-tag = 8
+tag = 11
 class = "bespoke"
 title = "Bespoke Material Requirement from EVE Online's Stated Rules"
 gloss = "The quantity of one material a job consumes, assembled from the developer's stated rules on material efficiency, rounding per job and a minimum of one unit per run."
@@ -67,7 +91,7 @@ cite = ["dev_ccp_industry_2014"]
 digest = "87387d118b0bb39c"
 
 [[equation]]
-tag = 9
+tag = 12
 class = "bespoke"
 title = "Bespoke Arbitrage Condition Between Two Hubs"
 gloss = "The condition under which a haul between two markets pays after sales tax, broker's fees and hauling cost, a construction of the article's."
@@ -75,7 +99,7 @@ cite = []
 digest = "c2b24f96cf7b091b"
 
 [[equation]]
-tag = 10
+tag = 13
 class = "bespoke"
 title = "Bespoke Ratio of Spending to Income"
 gloss = "The ratio of a company's costs including capital expenditure to its income in one year, used to test whether Cloud Imperium spends what it raises."
@@ -83,7 +107,7 @@ cite = ["dev_cig_financials_2023"]
 digest = "e98f68e9674fce6a"
 
 [[equation]]
-tag = 11
+tag = 14
 class = "standard"
 title = "Tsiolkovsky Rocket Equation"
 gloss = "The delta-v a rocket gains as its mass falls from the initial to the final mass."
@@ -91,7 +115,7 @@ cite = []
 digest = "8583abd9dcaf919f"
 
 [[equation]]
-tag = 12
+tag = 15
 class = "standard"
 title = "Hohmann Transfer Time"
 gloss = "Half the period of the transfer ellipse, the time the cheapest two-burn transfer between two coplanar circular orbits takes."
@@ -99,7 +123,7 @@ cite = ["book_curtis_2020_interplanetary"]
 digest = "12667e767813425b"
 
 [[equation]]
-tag = 13
+tag = 16
 class = "standard"
 title = "Synodic Period"
 gloss = "The interval between repetitions of two planets' relative position, which spaces the windows for a transfer."
@@ -107,7 +131,7 @@ cite = ["book_curtis_2020_interplanetary"]
 digest = "02da133e64d99e52"
 
 [[equation]]
-tag = 14
+tag = 17
 class = "standard"
 title = "Geostationary Orbit Radius"
 gloss = "The radius at which a circular orbit's period equals one sidereal day, the only place a satellite holds position over the ground."
@@ -115,7 +139,7 @@ cite = ["agency_esa_geo_2020"]
 digest = "7095cfb9d832aace"
 
 [[equation]]
-tag = 15
+tag = 18
 class = "standard"
 title = "Circular Orbital Speed"
 gloss = "The speed of a circular orbit at a given radius, which is what makes reaching orbit hard."
@@ -123,7 +147,7 @@ cite = []
 digest = "56a3141ed67bcb1c"
 
 [[equation]]
-tag = 16
+tag = 19
 class = "standard"
 title = "Gravity at Altitude"
 gloss = "The inverse-square fall of gravity with height, which leaves about nine-tenths of surface gravity at the space station."
@@ -131,7 +155,7 @@ cite = ["agency_nasa_microgravity"]
 digest = "5db4a7ffccce12f3"
 
 [[equation]]
-tag = 17
+tag = 20
 class = "standard"
 title = "Centripetal Acceleration"
 gloss = "The acceleration felt at the rim of a rotating habitat, the physical basis of spin gravity."
@@ -139,7 +163,7 @@ cite = ["agency_nasa_sp413_1977"]
 digest = "d6311f4ce4ff7347"
 
 [[equation]]
-tag = 18
+tag = 21
 class = "bespoke"
 title = "Bespoke Radiator Power Without Absorbed Sunlight"
 gloss = "The Stefan-Boltzmann law applied to a radiator facing cold space with absorbed sunlight neglected, an assumption of the article's that lowers the area needed."
@@ -147,7 +171,7 @@ cite = []
 digest = "728d547db14f8e3a"
 
 [[equation]]
-tag = 19
+tag = 22
 class = "standard"
 title = "Light-Time Delay"
 gloss = "The one-way delay of any signal over a distance, which no message or sensor reading can beat."
@@ -155,7 +179,7 @@ cite = ["agency_nasa_tm_2025_mars_comms"]
 digest = "04388ab403412985"
 
 [[equation]]
-tag = 20
+tag = 23
 class = "bespoke"
 title = "Bespoke Cost of One Gravity Step"
 gloss = "The time one processor core needs to advance every craft by one step, linear in the number of craft because craft do not attract one another, an order-of-magnitude estimate of the article's."
@@ -163,7 +187,7 @@ cite = ["research_tanikawa_et_al_2013"]
 digest = "60ee6bc935af4ffd"
 
 [[equation]]
-tag = 21
+tag = 24
 class = "standard"
 title = "N-Body Equation of Motion With Thrust"
 gloss = "The acceleration of a craft in an inertial frame under the gravity of every massive body plus its own thrust, the equation the core integrates."
@@ -171,7 +195,7 @@ cite = ["book_battin_1999", "agency_nasa_gmat_2007"]
 digest = "d29f46bbbda54c44"
 
 [[equation]]
-tag = 22
+tag = 25
 class = "standard"
 title = "Propellant Mass Flow"
 gloss = "The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation."
@@ -179,7 +203,7 @@ cite = []
 digest = "3601a1ad7671f001"
 
 [[equation]]
-tag = 23
+tag = 26
 class = "standard"
 title = "Motion Relative to a Parent Body With Third-Body Terms"
 gloss = "The acceleration of a craft in the frame of its parent body, where each other body enters as the difference between its pull on the craft and its pull on the parent."
@@ -187,7 +211,15 @@ cite = ["agency_nasa_gmat_2007", "research_berry_coppola_2007"]
 digest = "75ae62f1639c1a76"
 
 [[equation]]
-tag = 24
+tag = 27
+class = "bespoke"
+title = "Bespoke Tidal Bound on a Third Body's Perturbation"
+gloss = "The largest size of a third body's perturbing acceleration on a craft near its parent, to first order in the ratio of the two distances, an approximation of the article's."
+cite = []
+digest = "aa6e38a999e89512"
+
+[[equation]]
+tag = 28
 class = "standard"
 title = "Kick-Drift-Kick Leapfrog Step"
 gloss = "The second-order symplectic step whose energy error stays bounded for a coasting craft at a constant step, the base of higher-order symplectic integrators."
@@ -195,7 +227,7 @@ cite = ["research_yoshida_1990", "research_hairer_et_al_2003"]
 digest = "5a50976859cbc979"
 
 [[equation]]
-tag = 25
+tag = 29
 class = "bespoke"
 title = "Bespoke Reproducible State Transition"
 gloss = "The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the requirement that the step be reproducible."
@@ -203,7 +235,7 @@ cite = []
 digest = "c964e77e1890e040"
 
 [[equation]]
-tag = 26
+tag = 30
 class = "standard"
 title = "Euler's Equations of Rigid-Body Rotation"
 gloss = "The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path."
@@ -211,7 +243,7 @@ cite = []
 digest = "0bfbee91e09d9a1d"
 
 [[equation]]
-tag = 27
+tag = 31
 class = "standard"
 title = "Aerodynamic Drag"
 gloss = "The drag force on a body moving through air, which governs launch and reentry."
@@ -219,7 +251,7 @@ cite = []
 digest = "dff9c8059459e497"
 
 [[equation]]
-tag = 28
+tag = 32
 class = "standard"
 title = "Isothermal Exponential Atmosphere"
 gloss = "The simple model of air density falling exponentially with height above sea level."
@@ -227,7 +259,7 @@ cite = []
 digest = "02e4c3dbb6245db8"
 
 [[equation]]
-tag = 29
+tag = 33
 class = "standard"
 title = "Sutton-Graves Stagnation-Point Heating"
 gloss = "The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter."
@@ -235,7 +267,7 @@ cite = ["research_sutton_graves_1971"]
 digest = "10c5efa55072f942"
 
 [[equation]]
-tag = 30
+tag = 34
 class = "bespoke"
 title = "Bespoke Lumped Thermal Balance"
 gloss = "A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature."
@@ -243,7 +275,7 @@ cite = []
 digest = "2019f5bdd8d7517d"
 
 [[equation]]
-tag = 31
+tag = 35
 class = "standard"
 title = "Pendulum Model of First-Mode Slosh"
 gloss = "The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration."
@@ -251,7 +283,7 @@ cite = ["research_abramson_1966"]
 digest = "7ecdde474cf4bd38"
 
 [[equation]]
-tag = 32
+tag = 36
 class = "standard"
 title = "Weak-Field Rate of a Moving Clock"
 gloss = "The rate of a craft's clock against a distant clock at rest, slowed by the gravitational potential and by speed, to first order."
@@ -259,7 +291,7 @@ cite = ["research_ashby_2003"]
 digest = "22245eaf6de1e923"
 
 [[equation]]
-tag = 33
+tag = 37
 class = "bespoke"
 title = "Bespoke Wall-Clock Time Under a Shared Clock"
 gloss = "The real time an agent waits for a span of simulated time when one compression factor applies to every agent."
@@ -267,7 +299,31 @@ cite = []
 digest = "3824e7f42b60d0c5"
 
 [[equation]]
-tag = 34
+tag = 38
+class = "standard"
+title = "Period of a Circular Orbit"
+gloss = "The time one circular orbit takes at a given radius, Kepler's third law for a circle."
+cite = []
+digest = "8943f518f3b59c76"
+
+[[equation]]
+tag = 39
+class = "standard"
+title = "Special-Relativistic Clock Rate"
+gloss = "The exact rate of a moving clock against one at rest, which governs the time a traveller lives through at interstellar speeds."
+cite = ["research_ashby_2003"]
+digest = "35540a0b7b715006"
+
+[[equation]]
+tag = 40
+class = "bespoke"
+title = "Bespoke Rate of Passes in a Crowded Shell"
+gloss = "The rate at which one craft passes within range of another when craft fill a shell at random, an illustrative estimate of the article's."
+cite = []
+digest = "576d273f036a4350"
+
+[[equation]]
+tag = 41
 class = "bespoke"
 title = "Bespoke Freight Propellant From the Rocket Equation"
 gloss = "The propellant a shipment needs for a given delta-v, the rocket equation rearranged to price freight by delta-v in the blueprint's economy."
@@ -288,7 +344,7 @@ meaning = "the Hill radius"
 
 [[symbol]]
 tex = 'M'
-meaning = "the mass of the larger body, or a ship's mass in Equation 5"
+meaning = "the mass of the larger body, a ship's mass in Equation 7, or a body's mass in Equation 5"
 
 [[symbol]]
 tex = 't_{\mathrm{e}}'
@@ -369,6 +425,30 @@ meaning = "the acceleration of craft $i$ from its own thrust"
 [[symbol]]
 tex = '\dot{m}'
 meaning = "the rate of change of a craft's mass"
+
+[[symbol]]
+tex = 'v_{\mathrm{s}}'
+meaning = "the speed of a circular orbit just above a body's surface"
+
+[[symbol]]
+tex = '\bar{\rho}'
+meaning = "the mean density of a body"
+
+[[symbol]]
+tex = 't_{\mathrm{a}}'
+meaning = "the alignment time of a ship in EVE Online"
+
+[[symbol]]
+tex = 'a_{k}'
+meaning = "the size of the perturbing acceleration of a third body $k$"
+
+[[symbol]]
+tex = 'T_{\mathrm{o}}'
+meaning = "the period of a circular orbit"
+
+[[symbol]]
+tex = '\nu'
+meaning = "the rate at which one craft passes within range of another"
 
 [[symbol]]
 tex = 't_{\mathrm{step}}'
