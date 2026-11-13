@@ -11,6 +11,35 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `b743da4`
+- **Written**: 2026-11-13, by the operator session after strengthening the sources of A386. This file's own commit sits directly on top,
+  so `git rev-parse HEAD~1` must print `b743da4...` for this handoff to be valid. `python3 _lib/blog.py handoff` makes
+  that comparison.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `021cce5`. `7f4ff87`, `ec3052b`, `b743da4` and the handoff commits are **local and unpushed**. The pilot
+  asked for the draft to be committed, and the standing rule is that nothing is pushed or published without approval.
+  A push goes through a `ci/<topic>` branch. The draft is in `_drafts/`, so a push does not change the live site.
+- **PUBLICATION STATE.** A1 to A385 are published. **A386 is drafted and not published.** The next free article number
+  is A387.
+- **WHAT HAPPENED.** `REVERSE_PROMPT.md`, entry of 2026-11-13. The series arc and the pilot's standing rulings are in
+  [Multi-Agent Space Simulation Series](./multi_agent_space_simulation_series.md). Read it before touching A386.
+- **NEXT.** The pilot plans a hardening pass on A386 with Fable 5.2. Before publication the References need importing
+  into the source database, the URLs need a full check, and Glasstone 1964 needs a better locator.
+- **LOCAL STATE.** The research scratch for A386 is `tmp/a386/`, with saved pages and verbatim quotation checks. The
+  `tmp/` clean-up of 2026-11-08 waits for the pilot's approval of its step 1 list, and nothing there was moved or
+  deleted.
+- **OPEN, FOR THE PILOT.**
+  1. Whether to post the A385 announcement drafted in `REVERSE_PROMPT.md`.
+  2. Whether to judge CACM items from 1983 on.
+  3. The ruleset change that makes `CI result` required, which remains the operator's.
+  4. The `tmp/` clean-up approvals.
+- **METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+  trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file. Never publish the
+  pilot's grade, GPA, university or course.
+
+## Validity (superseded, written 2026-11-13 after adding the economy to A386, parent `ec3052b`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `ec3052b`
 - **Written**: 2026-11-13, by the operator session after adding the EVE Online economy to A386. This file's own commit sits directly on top,
   so `git rev-parse HEAD~1` must print `ec3052b...` for this handoff to be valid. `python3 _lib/blog.py handoff` makes
