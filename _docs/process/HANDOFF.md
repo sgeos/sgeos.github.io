@@ -11,6 +11,98 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `9ebfd58`
+- **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the seven publication passes on A386. This
+  file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `9ebfd58...` for this handoff to be
+  valid. `python3 _lib/blog.py handoff` makes that comparison.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `021cce5`. Every A386 commit from `7f4ff87` to `9ebfd58`, their handoff restamps
+  and this file's commit are **local and unpushed**. Nothing is pushed or published without the pilot's approval. A
+  push goes through a `ci/<topic>` branch and a passing `CI result`. The draft is in `_drafts/`, so a push does not
+  change the live site, though it does publish the new records in `_sources/`.
+- **PUBLICATION STATE.** A1 to A385 are published. **A386 is ready and not published.** The next free article number
+  is A387.
+
+## Resume Here
+
+**The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
+`_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
+`multi_agent_space_simulation`. **The seven passes the pilot ordered on 2026-11-13 are done**: thesis hardening,
+equation density, reference density, publication readiness, pathological language usage, the import into the source
+database and the full URL check. The editorial date is 2026-11-12 and the front matter carries it. **The article
+waits only for the pilot's approval to publish.**
+
+**Read first.** [Multi-Agent Space Simulation Series](./multi_agent_space_simulation_series.md) holds the arc of A386 to
+A390, the pilot's standing rulings, and the items deferred to A388 and A389. The rulings are binding. In brief:
+- The paper is lost. Never invent or quote it, and do not ask the pilot what it contained.
+- Say "an undergraduate space studies programme". Never publish the pilot's grade, GPA, university or course.
+- Say agents, never players, and simulations, never games, outside quotations. Prefer multi-agent to multiplayer.
+  Wargames and the tabletop game Traveller keep their names, and their people are participants.
+- Academic third person and the active voice unless inappropriate. `tmp/a386/passive.py POST` is a heuristic scan.
+- Length is not an issue. Hardening references and equations is desired where appropriate and reasonably possible.
+- Passages in the pilot's own words stay unless the pilot changes them.
+
+**State.** 24,225 words of author prose, 41 display equations, 28 standard and 13 bespoke, and 210 references
+generated from `_sources/` through `_sources/decisions/A386.toml`. `_verify.py --strict` reports 0 and 0,
+`test_sources` passes 96 of 96, and the database validates at 239,194 records. `./_check.sh` passed on a scratch copy
+with the converted draft built as a post, 554 pages and no rendered findings.
+
+**What the passes did.** `REVERSE_PROMPT.md`, fifth entry of 2026-11-13. The edits are `tmp/a386/fable1.py` to
+`fable10.py`. The draft before the seven passes is `tmp/a386/draft_before_pass1.markdown`, and the copy taken before
+the References were converted is `tmp/a386/sources/pre.markdown`.
+
+**TO PUBLISH, once the pilot approves.**
+1. Draft commit, already made. Then `git mv` the draft to
+   `_posts/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.markdown`.
+2. **In the same commit, `git mv _sources/articles/multi_agent_space_simulation_reconstructed_thesis.json
+   _sources/articles/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.json`.** The article's name map is
+   filed under its file's stem, and without the rename `_verify.py` fails with `sources-drift`. The scratch gate
+   proved both halves.
+3. Update `draft_summary.md`, `TASKLOG.md` and `REVERSE_PROMPT.md`, run `_verify.py --strict` and `./_check.sh` in the
+   main checkout, commit, and push through `ci/<topic>`.
+4. Draft the release announcement in `REVERSE_PROMPT.md`.
+
+**How to verify a change.**
+- **References.** Edit records, never the generated section. To add a decision, restore
+  `tmp/a386/sources/pre.markdown` over the draft and run the import, `sources.py write`, `fix-labels` and `check`
+  again. **Never rerun the import on the converted draft.** It filed 42 duplicates on 2026-11-13, undone before any
+  commit. `_docs/process/SOURCE_CONVERSION.md` has the procedure.
+- **Equations.** `python3 _lib/blog.py equations tag POST --write`, then `python3 tmp/a386/write_toml.py POST
+  _sources/equations/A386.toml`, then `equations write POST --write` and `equations check POST`. Adding an equation
+  renumbers those after it, and the caution in `write_toml.py` names equations by number.
+- **Numbers.** `python3 _lib/blog.py numbers check tmp/a386/claims.py --inject` recomputes 66 worked numbers.
+- **The gate.** Copy the draft into `tmp/a386/build/_posts/` under its dated name, with `A386.toml`, the record
+  shards, `venues.jsonl`, `domains.toml` and the name map under the dated name, and run
+  `BUNDLE_PATH=/Users/bsechter/projects/blog/vendor/bundle ./_check.sh` there, outside the sandbox. Never run
+  `./_check.sh --drafts`.
+- **Quotations.** Saved sources are under `tmp/a386/research/`, in `harden2/` to `harden6/` for the latest rounds.
+  Check a quotation with its punctuation.
+
+**OPEN, FOR THE PILOT, on A386.**
+1. Approval to publish.
+2. The Scenarios subsection, an addition to the design that follows from the pilot's statement on scenarios.
+3. `_verify_citations.py` has a cache from 2026-08-13 and would query the registry for the whole corpus. It was
+   started and stopped. The article's 30 DOIs were checked against cached Crossref records instead.
+4. Clement 1982 and Lofgren and Fefferman 2007 are cited from abstracts alone, and the article says so.
+
+**LOCAL STATE.**
+- The blog's Dromon daemon is stopped.
+- The `tmp/` clean-up of 2026-11-08 waits for the pilot's approval of its step 1 list. Nothing there was moved or
+  deleted.
+
+**OPEN, FOR THE PILOT, beyond A386.**
+1. Whether to post the A385 announcement drafted in `REVERSE_PROMPT.md`.
+2. Whether to judge CACM items from 1983 on.
+3. The ruleset change that makes `CI result` required, which remains the operator's.
+4. The `tmp/` clean-up approvals.
+
+**METHOD RULES.** Commits reach `master` only through `ci/<topic>` and a passing `CI result`. No `Co-Authored-By`
+trailer. Never run `./_check.sh --drafts`. Never put the pilot's email in a request or file. Never publish the pilot's
+grade, GPA, university or course. Irreversible or outward-facing actions need the pilot's confirmation.
+
+## Validity (superseded, written 2026-11-13 after the third A386 pass, parent `f77ea4d`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `f77ea4d`
 - **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the third pass on A386. This
   file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `f77ea4d...` for this handoff to be
@@ -23,7 +115,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 - **PUBLICATION STATE.** A1 to A385 are published. **A386 is drafted, hardened three times and not published.** The next
   free article number is A387.
 
-## Resume Here
+## Resume Here (superseded, written 2026-11-13 after the third A386 pass)
 
 **The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
 `_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
