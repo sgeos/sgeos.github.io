@@ -46,9 +46,9 @@ No known product does both.
 The reason is not incompetence.
 Each product serves its own purpose well,
 and honest travel times are hard to share among many people.
-A simulation that did both is possible.
-It would teach true physics to the people who used it,
-and how those people behaved in it would be evidence
+Nothing in physics forbids a simulation that did both.
+It could teach true physics to the people who used it,
+and how those people behaved in it would be indicative evidence
 of how people might behave in near-term space.
 Whether it would pay is the open question.
 
@@ -102,18 +102,22 @@ The thesis has six parts.
    A model that does not cheat may omit physics and may rescale it,
    but it never contradicts it,
    in the sense the next section defines.
-   A multi-agent simulation here means many independent agents
-   in one persistent world on one clock,
+   A multi-agent simulation here means many independent agents,
+   thousands and not a group of friends,
+   in one persistent world on one shared timeline,
    in a product built for the general public.
    None of the products the paper reviewed is such a simulation,
    and the author knows of none since.
    The paper's list held other simulations that it never reviewed for lack of time,
-   so the claim is that none is known,
+   so the claim is that none is known at that scale,
    not that none exists.
-   No obstacle in physics or computation is known,
+   No obstacle in physics is known,
    and the [Possibility](#possibility) section gives the argument.
-   The open problems are problems of design,
+   The open problems are problems of engineering and design,
    and the hardest of them is time.
+   Whether the result can be made palatable to the general public,
+   which the definition requires,
+   depends on them and is open.
 4. **The existing products have not failed.**
    Their developers are generally competent,
    and each one's model successfully expresses its own product thesis,
@@ -124,7 +128,7 @@ The thesis has six parts.
 5. **People adapt their behaviour to conditions.**
    A sufficiently high-fidelity multi-agent simulation should therefore have significant predictive value
    about how people would behave under the conditions it models,
-   because its agents are subject to the same incentives and constraints that reality imposes.
+   to the extent that its agents are subject to the same incentives and constraints that reality imposes.
    That hinges on a scenario whose incentives and constraints
    are close enough to those of real prospective problems.
    Predictive value is therefore largely a function of being able to formulate realistic scenarios
@@ -140,7 +144,8 @@ The thesis has six parts.
 6. **There is market demand for such a simulation**,
    and meeting it would educate the public.
    A simulation the public will not use teaches nobody.
-   This is the least supported of the six,
+   This is the least supported of the six.
+   Both halves are conjectures,
    and the [Market Demand](#market-demand) section says why.
 
 The paper drew on several purchased texts on modelling and simulation,
@@ -161,7 +166,7 @@ and the [Time](#time) and [Market Demand](#market-demand) sections below treat i
 
 Two near misses deserve naming at the outset,
 because a reader who knows the field will think of them.
-Community modifications let a few agents share Kerbal Space Program,
+Community modifications let small groups of agents share Kerbal Space Program,
 and its sequel announced the same for the general public,
 and the studio closed without delivering it.
 The first is a proof of concept at small scale,
@@ -227,7 +232,7 @@ and it judges each product twice.
 It judges first against the product's own purpose,
 where the only fault is a simplification that defeats that purpose.
 It judges again against its own purpose,
-which is a simulation that educates the public and predicts behaviour in space.
+which is a simulation meant to educate the public and to predict behaviour in space.
 For that purpose a stricter rule follows from the same principle,
 and it turns on the distinction between **omission** and **contradiction**.
 A model that leaves a phenomenon out
@@ -448,7 +453,7 @@ When one agent accelerates time,
 that agent leaves the shared present,
 and the others see the agent's craft as it was.
 The subspace is an honest answer to a hard problem,
-namely that a time warp chosen by one agent cannot be shared,
+namely that one agent's wish to skip ahead cannot be imposed on everyone else,
 and a later article in this series treats it in depth.
 
 These modifications are the nearest thing known to a counterexample
@@ -469,13 +474,14 @@ and the wiki calls that arrangement
 "great for small network games"
 [Multiplayer][community_ksp_wiki_multiplayer].
 That second mode is the blueprint's shared clock in miniature.
-What the modifications lack is the rest of the third part's definition,
-namely many agents,
-a persistent world
-and a product built for the general public.
+What the modifications lack is the scale in the third part's definition.
+They are community additions to a single-agent product,
+their own community describes shared time as suited to small groups,
+and no source found shows them holding thousands of agents in one persistent world.
 They are a proof of concept at small scale.
 The thesis concerns what happens at large scale,
-where one agent's wish to skip ahead meets thousands of others.
+where one agent's wish to skip ahead meets thousands of others,
+and it states its claim as none known at that scale.
 
 **Education.**
 Kerbal Space Program has a recorded place in public education.
@@ -802,7 +808,8 @@ and the conclusions drawn from it do not depend on its being current.
 
 EVE Online is fascinatingly odd here.
 Its individual models are terrible,
-yet they interlock so comprehensively that the whole has real predictive value.
+yet they interlock so comprehensively that the whole reproduces real economic behaviour,
+which is where its predictive value lies.
 The commodity market is the one place where the model is strong and accurate,
 because nothing simulates it.
 Real agents set every price,
@@ -1333,10 +1340,16 @@ and bodies that do not orbit.
 None of the four products has failed.
 Each model expresses its product's thesis
 under the constraints its makers faced,
-and this is the most important finding of the review.
+and this is the stance from which the review reads them.
+It is an interpretation as much as a finding.
 The four are prominent,
-so the finding is about products that succeeded
-and not about every attempt.
+so it describes products that succeeded
+and not every attempt,
+and where a product thesis is inferred from the product,
+as EVE Online's is,
+the product is bound to express it.
+Star Citizen is the case that strains the stance,
+as the account below shows.
 Kerbal Space Program wanted approachable rocketry and got it.
 Children of a Dead Earth wanted to discover space warfare and did.
 EVE Online wanted a single universe of real people with a real economy,
@@ -1392,7 +1405,8 @@ Its publisher's announcement listed a multi-agent mode among the features to com
 saying that
 "Players will be able to both cooperate and compete with friends to explore space together"
 [Take-Two 2023][dev_take_two_ksp2_2023].
-That made it the one known attempt at a multi-agent simulation on the textbook core
+The announcement speaks of friends and states no scale.
+It still made the sequel the one known attempt at a multi-agent simulation on the textbook core
 in a product for the general public,
 and it is a development since the paper.
 The press recorded that the sequel,
@@ -2241,8 +2255,13 @@ each feeling thirty bodies,
 then need three million evaluations and about 0.06 seconds for each step.
 Binding each craft to a parent body,
 as the [Physical Core](#the-physical-core) section describes,
-cuts the bodies a craft feels from thirty to about three
-and the step to about 6 milliseconds.
+cuts the bodies a craft feels from thirty to about three in low orbit
+and about ten in cruise between planets,
+and the step to between 6 and 20 milliseconds.
+At a step of ten simulated seconds and a compression of one hundred,
+both of them assumptions,
+the world needs ten steps in each second of real time,
+which is 0.6 seconds of one core's work at thirty bodies.
 The work divides cleanly among cores,
 because no craft waits on another.
 A craft in interplanetary cruise also needs far fewer steps than one in low orbit.
@@ -2256,11 +2275,14 @@ sensors
 and everything else that happens when craft meet,
 which is where a real implementation would spend its effort.
 
-The third is that the hardest problem is not computation.
+The third is that the hardest problem is not the computation of orbits.
 It is time,
 and the [Time](#time) section treats it.
 The claim of possibility is therefore conditional.
-No obstacle in physics or computation is known.
+No obstacle in physics is known,
+and the gravity model is cheap.
+What happens when many craft crowd one region is an open problem of engineering,
+which this article does not cost.
 Whether a design can make the result palatable to the general public
 depends on the problem of time,
 which this article names and does not solve.
@@ -2363,11 +2385,15 @@ which this article names and does not solve.
   Honest gravity need not be expensive gravity.
   Three practical techniques keep it affordable without contradicting it.
   The first is the ephemeris itself.
-  Bodies that follow precomputed positions cannot perturb one another into disorder,
-  and bodies integrated live can.
+  An ephemeris fitted to observation is more accurate than anything the simulation would integrate,
+  it costs a lookup,
+  and every machine reads the same values.
+  It also cannot go wrong in the way a system integrated live can.
   The makers of the Principia modification found that under n-body gravity
+  the fictional system of the stock program was not stable,
+  and that
   "the Jool system breaks down within 19 days,"
-  and they altered the stock system to keep its moons
+  so they altered it to keep its moons
   [Principia Jool Stability][dev_principia_jool].
   Kerbal Space Program avoids the problem as the blueprint does,
   and its wiki notes that
@@ -2389,12 +2415,19 @@ which this article names and does not solve.
   The neighbourhood of each body is a natural shard,
   a craft passes from one shard to the next at the sphere of influence,
   and the cruise between planets is a shard of its own.
-  Light time helps here.
-  Events in two shards cannot affect each other faster than light crosses the gap,
-  which takes 1.3 seconds from Earth to the Moon and minutes between planets,
-  so the machines that run the shards have that long,
+  Light time helps between distant shards.
+  Events at two planets cannot affect each other faster than light crosses the gap,
+  which takes minutes,
+  so the machines that run those shards have that long,
   divided by the compression of the clock,
   to agree.
+  It does not help at a boundary,
+  where two craft on either side may be metres apart
+  and the hand-off between machines must be exact.
+  Nor does the division relieve a crowded region,
+  since the busiest places,
+  low orbits and stations,
+  lie inside one shard.
   Each technique is an omission of stated size.
   The design leaves out the momentum a craft exchanges with the body it flies past,
   the slight effect of a flyby on that body's rotation
@@ -2429,14 +2462,15 @@ which this article names and does not solve.
   namely what a craft senses,
   when an order reaches it
   and when a trade settles,
-  so that knowing a thing early does not allow acting on it early.
+  so that knowing a thing early does not let an agent command a distant craft early.
+  It does not stop an agent who hears a distant price from trading where that agent already stands.
   What agents learn outside the simulation remains a leak,
   and it is a declared limit on what their behaviour shows.
 - **Slosh and structure.**
-  Modelled where docking,
+  The simulation models them where docking,
   landing
   or pointing need them,
-  and sized out elsewhere.
+  and sizes them out elsewhere.
 
 ### Equations for an Implementation
 
@@ -2613,6 +2647,7 @@ and that
 The Age of Empires developers met the same thing in practice,
 where
 "very subtle differences would multiply over time"
+[Bettner and Terrano 2001][dev_bettner_terrano_2001].
 An implementation therefore fixes the order of every operation,
 including those inside library functions and across processor cores,
 or uses fixed-point arithmetic for the state.
@@ -2722,7 +2757,7 @@ and the liquid wanders.
 Hence a small ullage thrust settles it before an engine starts.
 
 **Clocks.**
-A clock on a moving craft does not keep the time of a clock at home.
+A clock on a moving craft does not keep the time of a clock elsewhere.
 With $t\_{\mathrm{c}}$ the time a craft's own clock shows,
 $t$ the time of a clock at rest far from every mass,
 $\Phi$ the Newtonian gravitational potential at the craft,
@@ -2746,23 +2781,28 @@ NASA puts numbers on it.
 Uncorrected,
 "GPS satellite clocks would gain ~38 microseconds per day relative to clocks on the ground (~11 km range error)"
 [Winternitz 2017][agency_nasa_winternitz_2017].
-The speed term alone,
-at an interplanetary 30 kilometres per second,
-is five parts in a billion,
-about a sixth of a second in a year.
-A crew would never notice that,
-and a navigator cannot ignore it.
-The simulation therefore keeps a clock for each craft.
-The cost is one line in the step,
-and the alternative,
-clocks that all agree whatever their speed,
-is a small contradiction of the kind the first principle forbids.
+For a craft coasting at Earth's distance from the Sun at 30 kilometres per second,
+the speed term is five parts in a billion
+and the term for the Sun's potential is about ten,
+so its clock loses about half a second in a year against the distant clock.
+A clock on Earth loses nearly as much,
+and what a navigator must track is the difference between the two,
+which changes as the craft's speed and distance from the Sun change.
+A crew would never notice it.
+The simulation keeps a clock for each craft all the same.
+The shared timeline of the world is the time $t$ of this equation,
+and each craft's own clock is $t\_{\mathrm{c}}$.
+Leaving the effect out would be an omission and not a contradiction,
+but the cost of including it is one line in the step.
+The clock binds the craft and not the person behind it,
+who lives by the wall clock,
+and that limit is of the same kind as the one on light time.
 
 ### Time
 
 Travel takes its true time,
 and the simulation gives that time a job.
-A time warp chosen by one agent cannot be shared,
+A time warp chosen by one agent cannot be imposed on thousands of others,
 since one agent's acceleration of time would move every other agent's world.
 A shared clock may still run fast,
 provided it runs fast for everyone.
@@ -2802,7 +2842,7 @@ A person needs the same seconds to read a display and decide,
 whatever the clock does.
 At a compression of one hundred,
 the light time to Mars shrinks from a wait that reshapes command
-to a pause shorter than a sentence,
+to a pause of seconds,
 and the delay that the catalogue's remedy imposes
 all but disappears from the agents' experience.
 Compression is therefore a change of parameter that leaves the physics intact
@@ -2864,6 +2904,11 @@ the effect is a population of individuals who set out for distant places
 for reasons the simulation never sees.
 That is a fair model of people who travel far out of restlessness
 or for causes of their own.
+It is also a bias.
+In reality the time away is the largest cost of a long voyage,
+and here it can cost an absent agent nothing,
+so the simulation should expect more long voyages than reality would see.
+The incentives bound below must count that.
 
 A world that runs around the clock also imposes a schedule.
 EVE Online's agents,
@@ -2902,18 +2947,29 @@ In the second,
 the simulation computes the outcome early for craft whose agents have all committed,
 which locks those craft from that moment
 and is a private timeline of the kind the Kerbal Space Program modifications use.
+It has a further cost.
+The committed agents learn an outcome before the shared timeline reaches it,
+and they can act on that knowledge elsewhere.
 Neither form moves an event.
 What an agent can choose,
 at the time of planning,
 is a trajectory whose decisive moment falls within waking hours.
+An attacker has the opposite incentive
+and will choose the hours when the defender sleeps,
+as raiders always have.
 Committed orders suit the physics,
 since a transfer planned in advance is how real spaceflight already works.
 
 True scale brings one more difficulty that this article only names.
-Under honest delta-v budgets,
-two craft come within reach of each other
-only when one of them pays to cross the other's path at the right moment,
-so encounters are rare.
+A fast pass is not the rare event.
+In a crowded shell of low orbit,
+craft cross within range of one another often,
+at the closing speeds worked earlier.
+What honest delta-v budgets make rare is a meeting slow enough to trade,
+board
+or talk,
+since one craft must pay to match the other's orbit,
+and any meeting at all between craft in different regimes.
 The western's problem returns.
 Adventures need agents in the same place at the same time,
 and honest physics makes that expensive.
@@ -2998,6 +3054,8 @@ with prices rising and falling as windows open and close.
 Prices inside the simulation would also travel at the speed of light.
 A quote from another planet is minutes old when it arrives,
 so a trader there acts on the past.
+That holds only for an agent with no channel outside the simulation,
+which is the leak the light-time rule already declares.
 The arbitrage condition above still governs every haul,
 with the propellant now part of its cost.
 Congestion pricing of the kind EVE Online applies to production
@@ -3052,11 +3110,56 @@ The account of the meta above predicts who wins.
 The blueprint does not solve this.
 It records it as an open problem of design,
 in which approachability and lasting loss pull against each other.
+Layered disclosure also bears on teaching.
+A beginner who hands every burn to the tool may learn little physics from it.
+That such a simulation would teach is a hypothesis,
+the mirror of the one about miseducation,
+and no measurement found here supports or refutes it.
 Kerbal Space Program's sales and its use in schools suggest
 that the public will take up planning tools of this kind,
 though a search found no measurement of what its users learn.
 An autopilot that obeys physics is an approachability tool.
 A warp drive that disobeys it is miseducation.
+
+### Scenarios
+
+A persistent world is one run of one scenario.
+A scenario is a stated set of starting conditions,
+namely the technology agents may build,
+what each agent begins with,
+what the world beyond the simulation buys and sells,
+and what rules stand in for law.
+The thesis makes the formulation of realistic scenarios the main source of predictive value,
+so the blueprint must say where scenarios come from.
+
+One history is thin evidence.
+The games at Newport earned their reputation by replaying one war many times over,
+and the research on role playing rests on many short sessions.
+A single persistent world yields a single path through its possibilities,
+however many agents walk it.
+The blueprint therefore treats a world as an instance of a scenario and not as the only one.
+The same starting conditions can open more than one world,
+at once or in succession,
+and a variant can change one condition and hold the rest.
+The reproducible step and the published record make such worlds comparable,
+since the starting state of each is known exactly.
+What several worlds agree on is worth more than what one of them shows.
+
+A scenario also has a span.
+At a compression of ten,
+a world that runs for one real year covers ten simulated years,
+and at one hundred it covers a century.
+A world that stood as long as EVE Online has,
+which is twenty-three years,
+would cover 230 simulated years at a compression of ten.
+Nobody can plausibly hold near-term technology fixed across such a span,
+so a world needs an end,
+or a stated rule for how its technology advances.
+An end has its own cost.
+Loss that lasts only until the world closes is a weaker stake than loss that lasts for good,
+and agents who know when the end comes will behave differently as it nears.
+Lasting loss and repeatable scenarios pull against each other.
+The blueprint records that tension and does not resolve it.
 
 ### Predictive Value
 
@@ -3125,6 +3228,7 @@ to formulate a realistic scenario
 and to find agents willing to take part in exploring it.
 The first is the work of fidelity and the second of approachability,
 which is why the bounds below begin with those two.
+The [Scenarios](#scenarios) section above says how the blueprint supplies the first.
 The same demands hold outside the armed forces.
 Herman,
 Frost
@@ -3133,7 +3237,7 @@ for global corporations
 and for nonprofit groups
 [Herman et al. 2009][book_herman_et_al_2009],
 and the author's reading of such accounts is that a wargame is only as good as its scenario
-and the people who come to it.
+and the willingness of the right people to come to it.
 
 The competence of the agents matters less than it might seem.
 Most people are of average ability for their station.
@@ -3147,19 +3251,31 @@ and their scarcity matters little,
 because circumstance and station drive a great many decisions whoever makes them.
 An agent needs only enough competence to do something reasonable,
 and a competent person of less than average ability asks for advice.
-The games at Newport bear this out.
-Their participants were the officers who went on to hold the commands they had gamed.
+A station here means a role together with the selection that fills it.
+The claim is not that anyone will do.
+It is that a simulated station filled by people chosen roughly as its real holders are,
+or by people of ordinary competence,
+yields decisions like the real ones,
+because the station leaves less room for talent than it seems to.
+The games at Newport are consistent with this,
+and they do not prove it.
+Their participants came from the body of officers that went on to command the fleet.
 The same historian records that
 "Of the flag officers commanding combat formations in the 1941 fleet, only one had not attended the War College"
 [Friedman 2017][book_friedman_2017].
-They were average for their station in the plainest sense,
-since they were the people who filled it.
+Newport therefore shows circumstance driving the decisions of selected professionals.
+It does not show that ability is unimportant,
+and the agents of a public simulation are volunteers,
+not selected officers.
 Fleet Admiral Nimitz told the college in 1960 that
 "the war with Japan had been re-enacted in the game rooms here"
 "in so many different ways that nothing that happened during the war was a surprise"
 except the kamikaze
 [Hattendorf 2014][ref_hattendorf_2014].
-Research on forecasting points the same way.
+The exception is a limit of the argument from circumstance,
+since the one surprise was the behaviour that circumstance did not predict.
+Research on forecasting points the same way,
+on thinner evidence than the claim would like.
 Green and Armstrong compared forecasts of the decisions made in real conflicts and found that
 "The forecasts of experts who used their unaided judgment were little better than those of novices."
 A form of role playing did far better.
@@ -3185,8 +3301,10 @@ A history of the method from the college's own press concludes that
 The author's claim is the narrower one that this record supports.
 Participants of average ability for their station,
 placed under realistic incentives and constraints,
-have produced conclusions with surprising predictive potential,
-and the result depends on the scenario far more than on the talent in the room.
+have produced conclusions with surprising predictive potential.
+That the result depends on the scenario at least as much as on the talent in the room
+is the author's reading of limited evidence,
+and no source quoted here compares the two directly.
 
 Wargaming also names the two practical problems that such a simulation would face.
 The first is getting the stakeholders who would most benefit to take part.
@@ -3256,8 +3374,12 @@ An agent who risks nothing it values has no reason to behave as it would where t
 Wargamers know the effect,
 and Rubel notes that
 "players tend to be more aggressive than they would be in the real world with real lives at stake"
+[Rubel 2006][research_rubel_2006].
+The long voyage that costs an absent agent nothing,
+noted in the [Time](#time) section,
+is a bias of the same kind.
 
-EVE Online shows that a simulation can meet this bound.
+EVE Online shows that a simulation can approach this bound.
 Some of its agents take it more seriously than their real jobs,
 and a saying among them holds that internet spaceships are more fun than work.
 People who defend a ledger of fantasy wealth that fiercely
@@ -3304,6 +3426,12 @@ A model that reproduces known behaviour unprompted
 has passed the first test of a predictive model.
 It has not yet made a prediction that was later confirmed,
 and neither has anything proposed here.
+The gap is widest exactly where the physics adds something.
+Behaviour under delta-v,
+light time
+and launch windows has no real counterpart yet to compare with,
+so the mapping that Williams says must be shown
+cannot be shown for it until people live under those conditions.
 
 That raises an obvious question.
 If EVE Online reproduces real behaviour without honest physics,
@@ -3355,7 +3483,8 @@ Kerbal Space Program sold more than five million units
 [Take-Two 2023][dev_take_two_ksp2_2023].
 EVE Online passed half a million subscribers in one shared world in 2013
 [CCP 2013][dev_ccp_subscribers_2013].
-Star Citizen's counter shows about a billion dollars raised before release
+Star Citizen's counter shows about a billion dollars raised before release,
+if its units are cents
 [RSI Crowdfund Statistics][dev_rsi_crowdfund_stats].
 The public pays for spaceflight,
 for shared worlds
@@ -3474,6 +3603,7 @@ the transfer of skills
 and burnout,
 the estimate of what the gravity model costs to compute,
 the tidal bound on a third body's perturbation,
+the treatment of a world as one instance of a scenario that can be opened more than once,
 the claim that ability average for a station suffices for agents,
 the view that predictive value is largely a matter of realistic scenarios and willing agents,
 and the blueprint.
@@ -3495,7 +3625,7 @@ That an agent who flies for years under a model that contradicts inertia
 is practising a misconception,
 that time compression moves a simulation away from the conditions it means to predict,
 that a shared world needs a shared clock,
-that layered disclosure resolves the conflict between fidelity and approachability,
+that layered disclosure would ease the conflict between fidelity and approachability,
 that several characters per agent would make long journeys workable,
 that resolution of events from committed orders would ease scheduling across time zones,
 that predictive value has two sources, the fidelity of the parts and the completeness of their interlock,
@@ -3561,8 +3691,8 @@ leaves the conclusions unchanged.
   on the author's earlier experience of the products,
   not on new hands-on testing.
 - **Reverse engineering.**
-  No product was reverse engineered,
-  and none will be.
+  This article reverse engineered no product,
+  and the series will not.
 
 ## Conclusion
 
@@ -3589,15 +3719,15 @@ What no known product offers is the combination,
 a single shared world of many agents
 under physics that does not cheat,
 made approachable by tools rather than by fiction.
-No obstacle in physics or computation is known.
-The open problems are of design,
+No obstacle in physics is known.
+The open problems are of engineering and design,
 and true travel times are the hardest of them.
 Whether it would pay is another question.
 People adapt to the conditions they are given,
 and agents in such a simulation would face the incentives and constraints of real space,
 so it should yield evidence
 of how people would behave under the conditions it models,
-more a source of tested hypotheses than a forecast,
+more a source of hypotheses than a forecast,
 bounded by its fidelity,
 by how many people can use it,
 and by how much its agents care.
