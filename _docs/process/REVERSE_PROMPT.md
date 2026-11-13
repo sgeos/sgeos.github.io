@@ -4,6 +4,38 @@
 
 ## Last Updated
 
+**Date**: 2026-11-13 (sixth entry)
+**Task**: **A reader's pass on A386, so that the article is nominally ready before your proofreading. Done, committed locally, not pushed, not published.**
+
+**What was done.** A reader who had not seen my conclusions read the article straight through, in order, and returned 45 findings on seams, repetition, order, stacked caveats, places where attention failed, the opening and the headings. I also built the page and read it at phone width. I applied the findings that concern structure and wording. Your claims and your words stand.
+
+- **The opening.** The argument in brief is now the first paragraph. The account of the lost paper is second and the paragraph on undergraduate classes third, unchanged. One paragraph fixes four terms, namely agents, simulations, a multi-agent simulation and a model that does not cheat. The statement that the whole article is the author's position has its own paragraph. The opening names the three closing sections.
+- **The thesis.** Its components are claims throughout, and "part" now means only the four parts of the article. **Claims 3 and 5 are shorter, and this is the change most worth your eye.** Each keeps its claim and its conditions and points to Possibility and to Predictive Value. The sentences removed from claim 5, on the competence of agents, ability average for a station and the three bounds, remain in Predictive Value in the same words. The qualifications removed from claim 3 remain in Possibility.
+- **The order of the blueprint.** Possibility now follows The Physical Core, which it leans on. Scenarios follows Predictive Value, which introduces its sources. Equations for an Implementation is the last subsection, so 340 lines of reference no longer stand between the core and Time. A Reproducibility item in the core keeps the two reasons for a deterministic step in the main line. Equations 24 to 41 are renumbered to match.
+- **Predictive Value and Time.** Each runs under bold labels in one order and opens by saying what it settles and what it leaves open. The paragraph of 78 lines in Predictive Value is now several.
+- **The reviews.** The economy of EVE Online opens with its point, and a reader in a hurry is told which labels hold the formulas. Right-sized fidelity moved into the verdict on EVE Online. Star Citizen's activities lead with the crew and the landing party, and the finding that its bodies do not orbit leads its paragraph. The section on why the products look as they do states its purpose, and the passage on the two readings of Star Citizen puts its point first and runs in four paragraphs.
+- **The catalogue** states its grouping in one sentence. "Reentry by friction" lost "and launch without cost", since the entry never treats launch.
+- **Epistemic State** is recast as lists under five labels. "The research" no longer appears as an actor. The note on scanned NASA documents now says what a reader can do with it.
+- **Glosses at first use**, in my wording, for delta-v, n-body, Lagrange points, the Hohmann transfer, soft science fiction, near-term space, shard, server meshing, ISK and product-market fit. Relativistic time dilation is distinguished from the server slowdown to which EVE Online gives the same name. **Please check the gloss of soft science fiction**, "fiction that puts the story before the physics", since the term carries weight in your thesis.
+- **Distant pointers.** The backward pointers that the reader flagged as distant now name their sections.
+- **Rendering.** A table of five columns became two tables of three. Four equations wrap for a narrow screen. A pair of dollar signs that rendered as mathematics is escaped. One quotation now starts after its source's misprint.
+
+**Findings left alone.** The interlock of poor parts recurs four times, and I kept it as a refrain of the argument. The reviews keep labels that fit each product, and Review Criteria now says so in place of relabelling them. The four parts are marked by sentences, not by headings. No figures were added.
+
+**Numbers.** 25,004 words of author prose, from 24,225. 41 equations with 28 standard and 13 bespoke, and 210 references, both unchanged in count.
+
+**Verification.** `_verify.py --strict` 0 and 0, 41 equations consistent, 66 of 66 worked numbers, and the References check clean. `./_check.sh` passed on a scratch copy with the draft built as a post, 554 pages and no rendered findings. One phrase changed after that run. I then reran the verifier, a production build and the rendered audit, which passed, and did not rerun the library tests, since no library file changed. I read screenshots of twelve sections at a width of 390 pixels.
+
+**Not verified.** Nobody has read the page on a real phone. A preview server listens on port 4387 of this machine, and the macOS firewall drops connections that arrive at its network address, including my own test. I did not touch the firewall. If macOS asks whether Python may accept incoming connections, allowing it should make `http://192.168.0.130:4387/space/space-studies/simulation/2026/11/12/multi_agent_space_simulation_reconstructed_thesis.html` reachable from the phone. That expectation is an inference, not a test. The same page answers on this machine at `http://127.0.0.1:4386/`.
+
+**For you.**
+1. **Your proofreading.** The article is nominally ready.
+2. **Claims 3 and 5 of the thesis**, shortened as described. Say the word and the full text returns to the thesis.
+3. **The glosses**, and the gloss of soft science fiction above all.
+4. **Approval to publish**, which I have not assumed. The two steps at publication are unchanged, the move to `_posts/` and the rename of the name map in `_sources/articles/`.
+
+## Previous Report (2026-11-13, fifth entry)
+
 **Date**: 2026-11-13 (fifth entry)
 **Task**: **The seven passes on A386 that you ordered, in your order. Done, committed locally, not pushed, not published.** The editorial date is 2026-11-12 and the front matter carries it.
 

@@ -1,6 +1,6 @@
 # Equation classification for A386. Read by `python3 _lib/equations.py`.
 
-caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 35, R is the radius of a planet in Equations 4, 5 and 19 and a range in Equations 6 and 40, T is a sidereal day in Equation 17 and a temperature in Equations 21 and 34, the Greek letter tau is a time constant in Equations 7 and 8 and a torque in Equation 30, the Greek letter rho is a ratio of spending to income in Equation 13 and the density of air in Equations 31 to 33, and the capital Greek letter phi is a step function in Equation 29 and a gravitational potential in Equation 36."
+caution = "Each equation takes the units its section states. Distances are in kilometres unless the section says otherwise, the worked numbers are rounded to the precision of their inputs, and several letters are reused, each defined where it appears. The letter a is a semi-major axis in Equations 2 and 3 and an acceleration in Equation 40, R is the radius of a planet in Equations 4, 5 and 19 and a range in Equations 6 and 27, T is a sidereal day in Equation 17 and a temperature in Equations 21 and 39, the Greek letter tau is a time constant in Equations 7 and 8 and a torque in Equation 35, the Greek letter rho is a ratio of spending to income in Equation 13 and the density of air in Equations 36 to 38, and the capital Greek letter phi is a step function in Equation 34 and a gravitational potential in Equation 41."
 
 [[equation]]
 tag = 1
@@ -88,7 +88,7 @@ class = "bespoke"
 title = "Bespoke Material Requirement from EVE Online's Stated Rules"
 gloss = "The quantity of one material a job consumes, assembled from the developer's stated rules on material efficiency, rounding per job and a minimum of one unit per run."
 cite = ["dev_ccp_industry_2014"]
-digest = "87387d118b0bb39c"
+digest = "8577c97b65887a7a"
 
 [[equation]]
 tag = 12
@@ -96,7 +96,7 @@ class = "bespoke"
 title = "Bespoke Arbitrage Condition Between Two Hubs"
 gloss = "The condition under which a haul between two markets pays after sales tax, broker's fees and hauling cost, a construction of the article's."
 cite = []
-digest = "c2b24f96cf7b091b"
+digest = "02c9903094721c90"
 
 [[equation]]
 tag = 13
@@ -188,110 +188,6 @@ digest = "60ee6bc935af4ffd"
 
 [[equation]]
 tag = 24
-class = "standard"
-title = "N-Body Equation of Motion With Thrust"
-gloss = "The acceleration of a craft in an inertial frame under the gravity of every massive body plus its own thrust, the equation the core integrates."
-cite = ["book_battin_1999", "agency_nasa_gmat_2007"]
-digest = "d29f46bbbda54c44"
-
-[[equation]]
-tag = 25
-class = "standard"
-title = "Propellant Mass Flow"
-gloss = "The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation."
-cite = ["agency_nasa_specific_impulse"]
-digest = "3601a1ad7671f001"
-
-[[equation]]
-tag = 26
-class = "standard"
-title = "Motion Relative to a Parent Body With Third-Body Terms"
-gloss = "The acceleration of a craft in the frame of its parent body, where each other body enters as the difference between its pull on the craft and its pull on the parent."
-cite = ["agency_nasa_gmat_2007", "research_berry_coppola_2007"]
-digest = "75ae62f1639c1a76"
-
-[[equation]]
-tag = 27
-class = "bespoke"
-title = "Bespoke Tidal Bound on a Third Body's Perturbation"
-gloss = "The largest size of a third body's perturbing acceleration on a craft near its parent, to first order in the ratio of the two distances, an approximation of the article's."
-cite = []
-digest = "aa6e38a999e89512"
-
-[[equation]]
-tag = 28
-class = "standard"
-title = "Kick-Drift-Kick Leapfrog Step"
-gloss = "The second-order symplectic step whose energy error stays bounded for a coasting craft at a constant step, the base of higher-order symplectic integrators."
-cite = ["research_yoshida_1990", "research_hairer_et_al_2003"]
-digest = "5a50976859cbc979"
-
-[[equation]]
-tag = 29
-class = "bespoke"
-title = "Bespoke Reproducible State Transition"
-gloss = "The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the requirement that the step be reproducible."
-cite = []
-digest = "c964e77e1890e040"
-
-[[equation]]
-tag = 30
-class = "standard"
-title = "Euler's Equations of Rigid-Body Rotation"
-gloss = "The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path."
-cite = ["agency_nasa_stoneking_2007"]
-digest = "0bfbee91e09d9a1d"
-
-[[equation]]
-tag = 31
-class = "standard"
-title = "Aerodynamic Drag"
-gloss = "The drag force on a body moving through air, which governs launch and reentry."
-cite = ["agency_nasa_drag_equation"]
-digest = "dff9c8059459e497"
-
-[[equation]]
-tag = 32
-class = "standard"
-title = "Isothermal Exponential Atmosphere"
-gloss = "The simple model of air density falling exponentially with height above sea level."
-cite = ["agency_nasa_garcia_llama_2007", "agency_nasa_earth_fact_sheet"]
-digest = "02e4c3dbb6245db8"
-
-[[equation]]
-tag = 33
-class = "standard"
-title = "Sutton-Graves Stagnation-Point Heating"
-gloss = "The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter."
-cite = ["research_sutton_graves_1971"]
-digest = "10c5efa55072f942"
-
-[[equation]]
-tag = 34
-class = "bespoke"
-title = "Bespoke Lumped Thermal Balance"
-gloss = "A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature."
-cite = []
-digest = "2019f5bdd8d7517d"
-
-[[equation]]
-tag = 35
-class = "standard"
-title = "Pendulum Model of First-Mode Slosh"
-gloss = "The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration."
-cite = ["research_abramson_1966"]
-digest = "7ecdde474cf4bd38"
-
-[[equation]]
-tag = 36
-class = "standard"
-title = "Weak-Field Rate of a Moving Clock"
-gloss = "The rate of a craft's clock against a distant clock at rest, slowed by the gravitational potential and by speed, to first order."
-cite = ["research_ashby_2003"]
-digest = "22245eaf6de1e923"
-
-[[equation]]
-tag = 37
 class = "bespoke"
 title = "Bespoke Wall-Clock Time Under a Shared Clock"
 gloss = "The real time an agent waits for a span of simulated time when one compression factor applies to every agent."
@@ -299,7 +195,7 @@ cite = []
 digest = "3824e7f42b60d0c5"
 
 [[equation]]
-tag = 38
+tag = 25
 class = "standard"
 title = "Period of a Circular Orbit"
 gloss = "The time one circular orbit takes at a given radius, Kepler's third law for a circle."
@@ -307,7 +203,7 @@ cite = ["agency_nasa_flight_to_orbit"]
 digest = "8943f518f3b59c76"
 
 [[equation]]
-tag = 39
+tag = 26
 class = "standard"
 title = "Special-Relativistic Clock Rate"
 gloss = "The exact rate of a moving clock against one at rest, which governs the time a traveller lives through at interstellar speeds."
@@ -315,7 +211,7 @@ cite = ["agency_nasa_shapiro_1979", "research_ashby_2003"]
 digest = "35540a0b7b715006"
 
 [[equation]]
-tag = 40
+tag = 27
 class = "bespoke"
 title = "Bespoke Rate of Passes in a Crowded Shell"
 gloss = "The rate at which one craft passes within range of another when craft fill a shell at random, an illustrative estimate of the article's."
@@ -323,12 +219,116 @@ cite = []
 digest = "576d273f036a4350"
 
 [[equation]]
-tag = 41
+tag = 28
 class = "bespoke"
 title = "Bespoke Freight Propellant From the Rocket Equation"
 gloss = "The propellant a shipment needs for a given delta-v, the rocket equation rearranged to price freight by delta-v in the blueprint's economy."
 cite = []
-digest = "303c2b0820815748"
+digest = "afb6b13ee2156c28"
+
+[[equation]]
+tag = 29
+class = "standard"
+title = "N-Body Equation of Motion With Thrust"
+gloss = "The acceleration of a craft in an inertial frame under the gravity of every massive body plus its own thrust, the equation the core integrates."
+cite = ["book_battin_1999", "agency_nasa_gmat_2007"]
+digest = "d29f46bbbda54c44"
+
+[[equation]]
+tag = 30
+class = "standard"
+title = "Propellant Mass Flow"
+gloss = "The rate at which an engine of given thrust and specific impulse consumes propellant, which integrates to the rocket equation."
+cite = ["agency_nasa_specific_impulse"]
+digest = "3601a1ad7671f001"
+
+[[equation]]
+tag = 31
+class = "standard"
+title = "Motion Relative to a Parent Body With Third-Body Terms"
+gloss = "The acceleration of a craft in the frame of its parent body, where each other body enters as the difference between its pull on the craft and its pull on the parent."
+cite = ["agency_nasa_gmat_2007", "research_berry_coppola_2007"]
+digest = "ac65fa4c70572c47"
+
+[[equation]]
+tag = 32
+class = "bespoke"
+title = "Bespoke Tidal Bound on a Third Body's Perturbation"
+gloss = "The largest size of a third body's perturbing acceleration on a craft near its parent, to first order in the ratio of the two distances, an approximation of the article's."
+cite = []
+digest = "aa6e38a999e89512"
+
+[[equation]]
+tag = 33
+class = "standard"
+title = "Kick-Drift-Kick Leapfrog Step"
+gloss = "The second-order symplectic step whose energy error stays bounded for a coasting craft at a constant step, the base of higher-order symplectic integrators."
+cite = ["research_yoshida_1990", "research_hairer_et_al_2003"]
+digest = "5a50976859cbc979"
+
+[[equation]]
+tag = 34
+class = "bespoke"
+title = "Bespoke Reproducible State Transition"
+gloss = "The shared world's state advanced by one deterministic step from the agents' ordered inputs, the article's statement of the requirement that the step be reproducible."
+cite = []
+digest = "c964e77e1890e040"
+
+[[equation]]
+tag = 35
+class = "standard"
+title = "Euler's Equations of Rigid-Body Rotation"
+gloss = "The change in a craft's angular velocity under the torque of its thrusters, which turns the craft without changing its path."
+cite = ["agency_nasa_stoneking_2007"]
+digest = "0bfbee91e09d9a1d"
+
+[[equation]]
+tag = 36
+class = "standard"
+title = "Aerodynamic Drag"
+gloss = "The drag force on a body moving through air, which governs launch and reentry."
+cite = ["agency_nasa_drag_equation"]
+digest = "dff9c8059459e497"
+
+[[equation]]
+tag = 37
+class = "standard"
+title = "Isothermal Exponential Atmosphere"
+gloss = "The simple model of air density falling exponentially with height above sea level."
+cite = ["agency_nasa_garcia_llama_2007", "agency_nasa_earth_fact_sheet"]
+digest = "02e4c3dbb6245db8"
+
+[[equation]]
+tag = 38
+class = "standard"
+title = "Sutton-Graves Stagnation-Point Heating"
+gloss = "The convective heat flux at the nose of a vehicle entering an atmosphere, which falls as the nose grows blunter."
+cite = ["research_sutton_graves_1971"]
+digest = "10c5efa55072f942"
+
+[[equation]]
+tag = 39
+class = "bespoke"
+title = "Bespoke Lumped Thermal Balance"
+gloss = "A single-node energy balance in which a craft heats when the power it gains exceeds what its radiators reject, an assumption of uniform temperature."
+cite = []
+digest = "2019f5bdd8d7517d"
+
+[[equation]]
+tag = 40
+class = "standard"
+title = "Pendulum Model of First-Mode Slosh"
+gloss = "The natural frequency of the equivalent pendulum that represents a tank's first slosh mode under axial acceleration."
+cite = ["research_abramson_1966"]
+digest = "7ecdde474cf4bd38"
+
+[[equation]]
+tag = 41
+class = "standard"
+title = "Weak-Field Rate of a Moving Clock"
+gloss = "The rate of a craft's clock against a distant clock at rest, slowed by the gravitational potential and by speed, to first order."
+cite = ["research_ashby_2003"]
+digest = "22245eaf6de1e923"
 
 [[symbol]]
 tex = 'E_{n}'
@@ -569,6 +569,10 @@ meaning = "the quantity of one material a job consumes"
 [[symbol]]
 tex = 'n_{0}'
 meaning = "a blueprint's base quantity of a material per run"
+
+[[symbol]]
+tex = 'q'
+meaning = "a job's material requirement after rounding"
 
 [[symbol]]
 tex = '\gamma'

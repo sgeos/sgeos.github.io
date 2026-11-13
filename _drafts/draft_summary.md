@@ -26,9 +26,15 @@ reconstructs from memory the thesis of the pilot's lost senior seminar paper, re
 of a Dead Earth, EVE Online and Star Citizen, catalogues soft science fiction conventions with remedies, and ends in a
 blueprint for a high-fidelity multi-agent predictive simulation with the equations an implementation needs.
 
-**Current status 2026-11-13. Seven publication passes done, references in the source database, not published.**
-Editorial date 2026-11-12. 24,225 words of author prose, 41 display equations, 28 standard and 13 bespoke, and 210
-references generated from `_sources/` through `_sources/decisions/A386.toml`. **The seven passes** of 2026-11-13
+**Current status 2026-11-13. Seven publication passes and a reader's pass done, references in the source database,
+not published, awaiting the pilot's proofreading.**
+Editorial date 2026-11-12. 25,004 words of author prose, 41 display equations, 28 standard and 13 bespoke, and 210
+references generated from `_sources/` through `_sources/decisions/A386.toml`. **The reader's pass** of 2026-11-13
+applied an independent reader's 45 findings. It opened the article with the argument in brief, shortened thesis
+claims 3 and 5 to the claim with pointers, moved Possibility after The Physical Core, Scenarios after Predictive
+Value and the implementation equations to the end of the blueprint, put Predictive Value and Time under labels,
+recast Epistemic State as lists, glossed ten terms at first use and fixed four rendering defects found at phone
+width. It took the article from 24,225 words. **The seven passes** of 2026-11-13
 were thesis hardening after an independent review of 25 findings, equation density, reference density, publication
 readiness with 66 recomputed number claims, pathological language usage, the import and the full URL check, with
 204 of 206 addresses resolving and the other two confirmed by registry. Before them the article stood at 22,288

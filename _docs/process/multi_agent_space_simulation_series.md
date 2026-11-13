@@ -178,7 +178,15 @@ The seven passes the pilot ordered on 2026-11-13 are done: thesis hardening, equ
 publication readiness, pathological language usage, the import into the source database and the full URL check. The
 editorial date is 2026-11-12, and the front matter carries it.
 
-1. **The pilot's approval to publish.** Nothing is published, pushed or forward-dated without it.
+A reader's pass followed on 2026-11-13 at the pilot's request, so that the article is nominally ready before the
+pilot's proofreading. It applied an independent reader's 45 findings on structure and wording, reordered the blueprint
+so that Possibility follows The Physical Core, Scenarios follows Predictive Value and the implementation equations come
+last, and shortened thesis claims 3 and 5 to the claim with pointers.
+
+1. **The pilot's proofreading, then approval to publish.** Nothing is published, pushed or forward-dated without it.
+   Thesis claims 3 and 5 were shortened in the reader's pass, and the removed sentences remain in Possibility and
+   Predictive Value. The pilot may restore them to the thesis. The glosses added at first use are the agent's wording,
+   and the gloss of soft science fiction, "fiction that puts the story before the physics", needs the pilot's eye.
 2. **At publication, rename the article's name map.** `_sources/articles/multi_agent_space_simulation_reconstructed_thesis.json`
    must become `_sources/articles/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.json` in the same commit
    that moves the draft to `_posts/`, or `_verify.py` fails with `sources-drift`. The scratch gate proved both halves.
