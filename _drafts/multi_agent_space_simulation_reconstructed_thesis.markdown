@@ -146,8 +146,9 @@ The thesis has six parts.
 The paper drew on several purchased texts on modelling and simulation,
 which covered subjects such as n-body simulation
 and the simulation of fluids and fuel tanks.
-The author no longer recalls their titles,
+The author no longer has those books to hand and no longer recalls their titles,
 so this article does not cite them.
+The author has also forgotten some of the detailed articles that the paper cited.
 The sources below are public ones,
 and the argument is a broad synthesis
 that leans on space agency sources wherever one exists.
@@ -2829,7 +2830,7 @@ In the tabletop role-playing game Traveller,
 a starship that jumps between stars
 "always stays in Jump Space for roughly one week"
 [Traveller System Reference Document][ref_traveller_srd],
-and the author has heard the notion of running that game in real time,
+and the author recalls overhearing the notion of running that game in real time,
 so that a journey from one world to the next takes a week of the participants' lives.
 
 Long journeys change what an agent is.
@@ -3433,10 +3434,11 @@ and research on role playing by students,
 which is not wargaming.
 The account of Herman,
 Frost
-and Kurz rests on the catalogue record of their book and on the author's own reading of it,
-since the research for this article could not consult its text.
-That people have run Traveller in real time is a notion the author has heard
-and has not traced to a source.
+and Kurz rests on the catalogue record of their book and on the author's memory of reading it,
+since neither the author nor the research for this article had its text to hand.
+That people have run Traveller in real time rests on a remark the author overheard in person
+and recalls imperfectly,
+which no source here supports.
 The physics of each remedy comes from NASA,
 ESA,
 the Fédération Aéronautique Internationale,
@@ -3524,6 +3526,9 @@ and the miseducation this article warns of is a hypothesis with indirect support
 The author reconstructed the thesis from memory.
 Where this article's wording differs from the paper's,
 nobody can consult the paper to settle it.
+The books the paper drew on stand on a shelf the author cannot reach,
+and the notes went with the paper,
+so most of its original sources go uncited here.
 This article reviews the products as they stand in November 2026,
 not as they stood when the author wrote the paper,
 which,

@@ -15,7 +15,7 @@
 - **Time dilation** is now called chiefly a concern of interstellar travel, in the Time section and in the Clocks item.
 - **Herman, Frost and Kurz 2009** is cited where the article says that the same demands hold outside the armed forces.
 
-**Numbers.** 21,626 to 22,229 words of author prose, 187 to 190 references, 34 equations.
+**Numbers.** 21,626 to 22,229 words of author prose, 187 to 190 references, 34 equations, before your answers below.
 
 **Verification.** `_verify.py` 0 and 0, the equation and reference checks clean, the three new quotations checked against saved copies, and `./_check.sh` passing on a scratch copy built from the committed text. See the commit.
 
@@ -24,6 +24,14 @@
 2. **The class.** The article does not mention that you read the book for a class on wargaming, since the standing rule keeps your courses out of print. Say so if you want it mentioned in general terms.
 3. **Traveller.** The one-week jump is sourced to the game's system reference document. That people have run it in real time rests on what you heard, and the article says so.
 4. **The third bound**, from the previous entry, still wants your word. The article says the reconstruction names incentives as a bound and that you regard the reasoning behind it as part of the thesis.
+
+**Your answers, applied afterwards.**
+1. **Herman.** The citation stays as it is, from the catalogue record. The Epistemic State now says that neither you nor the research had the text to hand.
+2. **The class.** Not mentioned, as before.
+3. **Traveller.** The text now says that you recall overhearing the notion, and the Epistemic State says that the remark was overheard in person, is recalled imperfectly and has no source here.
+4. **The third bound.** Left as written. The article now says, where it first mentions the paper's sources and again under The Reconstruction, that the books stand on a shelf you cannot reach, that the notes went with the paper, that some of the detailed articles are forgotten, and that most of the paper's original sources therefore go uncited.
+
+The article is 22,288 words after those four changes. Nothing in the argument now waits on you.
 
 **Unchanged.** The steps before publication are the import into the source database, the full URL check and the date.
 

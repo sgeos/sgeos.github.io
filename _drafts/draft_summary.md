@@ -26,13 +26,14 @@ reconstructs from memory the thesis of the pilot's lost senior seminar paper, re
 of a Dead Earth, EVE Online and Star Citizen, catalogues soft science fiction conventions with remedies, and ends in a
 blueprint for a high-fidelity multi-agent predictive simulation with the equations an implementation needs.
 
-**Current status 2026-11-13. Drafted, four passes done, hardened three times, not published.** 22,229 words of author
+**Current status 2026-11-13. Drafted, four passes done, hardened three times, not published.** 22,288 words of author
 prose, 34 display equations, 23 standard and 11 bespoke, and 190 reference definitions. **The third pass** of
 2026-11-13 applied a further round of the pilot's rulings. Participants are of average ability for their station,
 predictive value is largely a function of realistic scenarios that agents are willing to explore, travel in real
 time is an old idea with Traveller as the instance, attending to real life is an alternative to several characters,
 a long voyage begun before an absence is an escape valve, and time dilation is chiefly an interstellar concern. It
-added three references and took the article from 21,626 words. **The second hardening pass**
+added three references and took the article from 21,626 words. A short follow-up recorded that the paper's books are
+out of the pilot's reach, that some of its articles are forgotten, and that the Traveller remark was overheard. **The second hardening pass**
 of 2026-11-13 applied the pilot's rulings. It stated the mechanism of predictive value, that agents face the same
 incentives and constraints as reality, with the wargaming record and the profession's own caution beside it. It
 added the gravity optimisations, bodies on ephemerides, craft bound to parent bodies and shards by parent body, with

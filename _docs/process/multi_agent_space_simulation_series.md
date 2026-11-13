@@ -74,8 +74,8 @@ Items the A386 hardening passes deferred to this article:
   Armstrong 2007 and Armstrong 2001. The primary studies, Green 2002 and Green 2005 in the International Journal of
   Forecasting, were not obtained. A389 should read them.
 - **Herman, Frost and Kurz 2009**, *Wargaming for Leaders*, which the pilot read for a class on wargaming. A386 cites
-  it from its catalogue record, since its text could not be consulted. A389 should cite it properly if the pilot can
-  supply passages. The article does not mention the class.
+  it from its catalogue record. The pilot has no access to the book for now and ruled on 2026-11-13 to make do. A389
+  should cite it properly once the pilot has the book again. The article does not mention the class, and need not.
 - **The profession's caution.** Rubel 2006 and Caffrey 2019 say plainly that wargames do not predict. A386 quotes
   both and states the narrower claim. Downes-Martin 2014, on stakeholders who corrupt a game from inside, was found
   and not cited. It is the counterpoint to getting stakeholders to take part.
@@ -152,6 +152,10 @@ fixed-step agents is a hypothesis for the demonstrator to test, not a finding.
   Traveller that way. Attending to real life is an alternative to several characters. A long voyage begun before an
   absence is an escape valve, and it models individuals who travel far for private reasons. Relativistic time dilation
   is chiefly a concern of interstellar travel. Pilot, 2026-11-13.
+- **The lost sources.** The books the paper drew on are on a shelf the pilot cannot reach, the notes went with the
+  paper, and some of the detailed articles it cited are forgotten. The article says so and cites none of them. A
+  remark the pilot overheard, such as Traveller run in real time, is stated as overheard and is not cited. Pilot,
+  2026-11-13.
 - **Voice.** Academic third person and the active voice unless inappropriate. Prefer multi-agent to multiplayer,
   keeping proper names and quoted labels. Length is not an issue. Hardening references and equations is desired.
 - **First-hand observation.** The pilot has seen EVE Online's ships slow to rest, and recalls noting that Star
@@ -170,9 +174,9 @@ fails unless every replacement matches once, and the draft before them is `tmp/a
 
 ## Open Before A386 Publishes
 
-1. **One point for the pilot**, listed in `REVERSE_PROMPT.md`. The article calls incentives a bound that the
-   reconstruction names, with the reasoning behind it part of the thesis, in place of the earlier statement that the
-   paper lacked it. The pilot has not yet confirmed which the paper held.
+1. **Nothing waits on the pilot for the argument.** The pilot ruled on 2026-11-13 that it does not matter whether the
+   lost paper named incentives as a bound. The pilot expects the reconstruction to be the better presentation, with
+   some of the paper's detailed articles forgotten and its books uncited because they are out of reach.
 2. **Import into the source database.** The References section is hand-written and must be generated from
    `_sources/` through a decision file in `_sources/decisions/A386.toml`.
 3. **A full URL check.** A bulk check was refused by the permission classifier on 2026-11-13 and was not worked
