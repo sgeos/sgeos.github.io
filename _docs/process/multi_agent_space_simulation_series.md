@@ -10,7 +10,7 @@ the series arc on disk. The per-draft status is in [`draft_summary.md`](../../_d
 
 | No. | Working title | State | Purpose |
 |---|---|---|---|
-| A386 | *Multi-Agent Space Simulation: A Reconstructed Thesis* | Drafted, four passes done, economy added, hardened twice on 2026-11-13, not published | The reconstructed paper. Thesis, what a model is, reviews of four products, soft science fiction conventions with remedies, and a blueprint for a high-fidelity multi-agent predictive simulation, with the equations an implementation needs |
+| A386 | *Multi-Agent Space Simulation: A Reconstructed Thesis* | Drafted, four passes done, economy added, hardened three times on 2026-11-13, not published | The reconstructed paper. Thesis, what a model is, reviews of four products, soft science fiction conventions with remedies, and a blueprint for a high-fidelity multi-agent predictive simulation, with the equations an implementation needs |
 | A387 | *Since 2021: Research Harnesses and Agent Operators* | Planned | Dates and reviews work after the paper, and tests A386's third claim, that no such simulation is known |
 | A388 | *Why It Is Hard: Time, Fuel, Fidelity and Determinism* | Planned | Works the hard problems A386 only names |
 | A389 | *Predictive Value* | Planned | Predictive value under three bounds, and market demand tied to educating the public |
@@ -69,9 +69,13 @@ Items the A386 hardening passes deferred to this article:
 - **The mapping literature.** Castronova et al. 2009, Williams 2010 and Barnett et al. 2006 were read in full. Clement
   1982 and Lofgren and Fefferman 2007 were read as abstracts only, and A386 says so. Castronova 2006, *On the Research
   Value of Large Games*, doi 10.1177/1555412006286686, was verified and not cited.
-- **Ordinary ability.** No source found says that wargame participants were of average ability. A386 rests that part
-  of the argument on Green and Armstrong 2007, role playing by students. The primary studies, Green 2002 and Green
-  2005 in the International Journal of Forecasting, and Armstrong 2001 were found and not cited. A389 should read them.
+- **Ability average for a station.** The pilot's claim, clarified 2026-11-13, is that participants are average for
+  their station, as are the people who hold the real stations. A386 supports it with the Newport record, Green and
+  Armstrong 2007 and Armstrong 2001. The primary studies, Green 2002 and Green 2005 in the International Journal of
+  Forecasting, were not obtained. A389 should read them.
+- **Herman, Frost and Kurz 2009**, *Wargaming for Leaders*, which the pilot read for a class on wargaming. A386 cites
+  it from its catalogue record, since its text could not be consulted. A389 should cite it properly if the pilot can
+  supply passages. The article does not mention the class.
 - **The profession's caution.** Rubel 2006 and Caffrey 2019 say plainly that wargames do not predict. A386 quotes
   both and states the narrower claim. Downes-Martin 2014, on stakeholders who corrupt a game from inside, was found
   and not cited. It is the counterpoint to getting stakeholders to take part.
@@ -138,6 +142,16 @@ fixed-step agents is a hypothesis for the demonstrator to test, not a finding.
   bodies, and shards by parent body. Details such as a flyby's exchange with the parent body need not be modelled.
 - **Relativistic time dilation** is what the pilot meant by time dilation. It is nominally relevant to conclusions
   about colonisation, exploration and exploitation.
+- **Ability.** Participants in wargames are of average ability for their station, and so are the people who hold the
+  real stations simulated. Brilliant people are few, and that matters little, because circumstance and station drive
+  a great many decisions. An agent needs only enough competence to do something reasonable, and a competent person of
+  less than average ability asks for advice. Pilot, 2026-11-13.
+- **Scenarios.** A large part of the thesis is that predictive value is largely a function of being able to formulate
+  realistic scenarios that agents are willing to take part in exploring. Pilot, 2026-11-13.
+- **Time.** Travel in real time is not a new idea, and the pilot has heard of running the tabletop role-playing game
+  Traveller that way. Attending to real life is an alternative to several characters. A long voyage begun before an
+  absence is an escape valve, and it models individuals who travel far for private reasons. Relativistic time dilation
+  is chiefly a concern of interstellar travel. Pilot, 2026-11-13.
 - **Voice.** Academic third person and the active voice unless inappropriate. Prefer multi-agent to multiplayer,
   keeping proper names and quoted labels. Length is not an issue. Hardening references and equations is desired.
 - **First-hand observation.** The pilot has seen EVE Online's ships slow to rest, and recalls noting that Star
@@ -156,10 +170,9 @@ fails unless every replacement matches once, and the draft before them is `tmp/a
 
 ## Open Before A386 Publishes
 
-1. **Two points for the pilot from the second hardening pass**, listed in `REVERSE_PROMPT.md`. No source says that
-   wargame participants were of average ability, so the article states the narrower claim and says what supports it.
-   And the article now calls incentives a bound that the reconstruction names, with the reasoning behind it part of
-   the thesis, in place of the earlier statement that the paper lacked it.
+1. **One point for the pilot**, listed in `REVERSE_PROMPT.md`. The article calls incentives a bound that the
+   reconstruction names, with the reasoning behind it part of the thesis, in place of the earlier statement that the
+   paper lacked it. The pilot has not yet confirmed which the paper held.
 2. **Import into the source database.** The References section is hand-written and must be generated from
    `_sources/` through a decision file in `_sources/decisions/A386.toml`.
 3. **A full URL check.** A bulk check was refused by the permission classifier on 2026-11-13 and was not worked

@@ -127,8 +127,12 @@ The thesis has six parts.
    because its agents are subject to the same incentives and constraints that reality imposes.
    That hinges on a scenario whose incentives and constraints
    are close enough to those of real prospective problems.
-   The competence of the agents matters less,
-   since most real stakeholders are of ordinary ability and make mistakes.
+   Predictive value is therefore largely a function of being able to formulate realistic scenarios
+   that agents are willing to take part in exploring.
+   The competence of the agents matters less.
+   Most people are of average ability for their station,
+   in a simulation as in the world,
+   and circumstance and station drive a great many of their decisions.
    Three things bound the value,
    the fidelity of the model,
    how approachable it is
@@ -2404,6 +2408,8 @@ which this article names and does not solve.
 - **Clocks.**
   Each craft keeps its own clock,
   which runs at the rate that relativity gives it.
+  The difference is slight within the solar system
+  and becomes decisive only in interstellar travel.
 - **Propellant and delta-v.**
   Every manoeuvre costs propellant by the rocket equation,
   and the interface shows each agent the delta-v remaining.
@@ -2818,22 +2824,45 @@ A private timeline of the kind the Kerbal Space Program multi-agent modification
 is a workable compromise when agents must act alone,
 and a later article in this series compares the two.
 
+Travel that takes its true time in the lives of the participants is not a new idea.
+In the tabletop role-playing game Traveller,
+a starship that jumps between stars
+"always stays in Jump Space for roughly one week"
+[Traveller System Reference Document][ref_traveller_srd],
+and the author has heard the notion of running that game in real time,
+so that a journey from one world to the next takes a week of the participants' lives.
+
 Long journeys change what an agent is.
 Under any compression a design can afford,
 a transfer to Mars still takes days or weeks of an agent's real time.
 Relativistic time dilation is nominally relevant as well,
-and conclusions about colonisation,
-exploration
-and exploitation that reach beyond near-term speeds must reckon with it.
+though it is chiefly a concern of interstellar travel.
 At the speeds of near-term spaceflight it amounts to a fraction of a second in a year,
 as the clock equation above shows.
 At a tenth of the speed of light a traveller's clock would lose about 1.8 days in every year,
 and at higher speeds a character in transit would live through less time than the world it left.
-An agent may therefore need to act through several characters,
+Conclusions about colonisation,
+exploration
+and exploitation that reach to the stars must reckon with it.
+
+An agent has two ways to live with a long journey.
+One is to act through several characters,
 one in transit while another works at the destination.
 A character can leave earlier
 and arrive shortly before the role it is to fill begins,
 much as a real programme sends a crew ahead of a mission.
+The other is simply to attend to real life while the journey runs.
+Balancing life against a high-commitment simulation is a problem its dedicated agents already face,
+and some welcome an escape valve built into the design.
+An agent who expects to be away has good reason to begin a long voyage first,
+so that the absence costs nothing.
+That is a matter of the agent's own management of time,
+outside the simulation.
+Inside it,
+the effect is a population of individuals who set out for distant places
+for reasons the simulation never sees.
+That is a fair model of people who travel far out of restlessness
+or for causes of their own.
 
 A world that runs around the clock also imposes a schedule.
 EVE Online's agents,
@@ -3090,11 +3119,45 @@ The claim hinges on the scenario.
 The incentives and constraints of the simulation must be close enough to those of real prospective problems.
 Where they are not,
 the agents adapt just as faithfully to the wrong conditions.
+Predictive value is therefore largely a function of two abilities,
+to formulate a realistic scenario
+and to find agents willing to take part in exploring it.
+The first is the work of fidelity and the second of approachability,
+which is why the bounds below begin with those two.
+The same demands hold outside the armed forces.
+Herman,
+Frost
+and Kurz describe wargames designed and staged for the United States Army,
+for global corporations
+and for nonprofit groups
+[Herman et al. 2009][book_herman_et_al_2009],
+and the author's reading of such accounts is that a wargame is only as good as its scenario
+and the people who come to it.
 
 The competence of the agents matters less than it might seem.
-Most real stakeholders are of ordinary ability,
-and they make mistakes,
-so a simulation peopled by ordinary agents who make mistakes is closer to reality for it.
+Most people are of average ability for their station.
+That holds for the participants in a wargame,
+and it holds for the people who occupy the real stations that the wargame simulates.
+People of clearly less than average ability take part in simulations too,
+and such people also hold real stations.
+Brilliant people are few,
+in a simulation as in the world,
+and their scarcity matters little,
+because circumstance and station drive a great many decisions whoever makes them.
+An agent needs only enough competence to do something reasonable,
+and a competent person of less than average ability asks for advice.
+The games at Newport bear this out.
+Their participants were the officers who went on to hold the commands they had gamed.
+The same historian records that
+"Of the flag officers commanding combat formations in the 1941 fleet, only one had not attended the War College"
+[Friedman 2017][book_friedman_2017].
+They were average for their station in the plainest sense,
+since they were the people who filled it.
+Fleet Admiral Nimitz told the college in 1960 that
+"the war with Japan had been re-enacted in the game rooms here"
+"in so many different ways that nothing that happened during the war was a surprise"
+except the kamikaze
+[Hattendorf 2014][ref_hattendorf_2014].
 Research on forecasting points the same way.
 Green and Armstrong compared forecasts of the decisions made in real conflicts and found that
 "The forecasts of experts who used their unaided judgment were little better than those of novices."
@@ -3103,18 +3166,13 @@ It reduced error by 47 percent against the forecasts of game-theory experts,
 and its participants
 "were mostly undergraduate students"
 [Green and Armstrong 2007][research_green_armstrong_2007].
+Armstrong's review of role playing drew the same lesson about who takes each role,
+that
+"the little evidence available suggests that casting is not critical"
+[Armstrong 2001][research_armstrong_2001].
 That research concerns small groups acting out a single decision,
 not a wargame,
-and the record of wargames proper is more guarded.
-The games at Newport are the famous success.
-Fleet Admiral Nimitz told the college in 1960 that
-"the war with Japan had been re-enacted in the game rooms here"
-"in so many different ways that nothing that happened during the war was a surprise"
-except the kamikaze
-[Hattendorf 2014][ref_hattendorf_2014].
-The participants in those games were career officers,
-not people of average ability,
-and the profession itself warns against the word predict.
+and the profession of wargaming itself warns against the word predict.
 An article in the college's own review holds that
 "a war game can never be truly predictive"
 and that what a game teaches,
@@ -3124,10 +3182,10 @@ A history of the method from the college's own press concludes that
 "the large majority of games do not correlate to later events"
 [Caffrey 2019][book_caffrey_2019].
 The author's claim is the narrower one that this record supports.
-Groups of ordinary ability,
+Participants of average ability for their station,
 placed under realistic incentives and constraints,
 have produced conclusions with surprising predictive potential,
-and the result does not depend on expertise.
+and the result depends on the scenario far more than on the talent in the room.
 
 Wargaming also names the two practical problems that such a simulation would face.
 The first is getting the stakeholders who would most benefit to take part.
@@ -3369,9 +3427,16 @@ that motion implies a force,
 comes from a later review.
 The equation of motion relative to a parent body comes from a NASA specification
 whose scanned text the research for this article read from page images.
-No source found says that the participants in wargames were of average ability.
-The support for that part of the argument is research on role playing by students,
+That participants in wargames are of average ability for their station is the author's argument.
+Its support here is the record that the Newport participants went on to hold the commands they had gamed,
+and research on role playing by students,
 which is not wargaming.
+The account of Herman,
+Frost
+and Kurz rests on the catalogue record of their book and on the author's own reading of it,
+since the research for this article could not consult its text.
+That people have run Traveller in real time is a notion the author has heard
+and has not traced to a source.
 The physics of each remedy comes from NASA,
 ESA,
 the Fédération Aéronautique Internationale,
@@ -3407,7 +3472,8 @@ the transfer of skills
 and burnout,
 the estimate of what the gravity model costs to compute,
 the tidal bound on a third body's perturbation,
-the claim that ordinary ability suffices for agents,
+the claim that ability average for a station suffices for agents,
+the view that predictive value is largely a matter of realistic scenarios and willing agents,
 and the blueprint.
 The author offers these as judgements,
 open to disagreement on the evidence.
@@ -3439,7 +3505,9 @@ are inferences.
 The last is the weakest,
 and no product has tested it.
 That research on role playing by small groups carries over to a simulation of thousands
-is an inference.
+is an inference,
+and so is the reading of voyages begun before an absence
+as a model of individuals who travel for private reasons.
 This reconstruction names incentives as a third bound on predictive value.
 The author regards the reasoning behind it,
 that agents under the same incentives and constraints behave as real stakeholders would,
@@ -3528,6 +3596,8 @@ more a source of tested hypotheses than a forecast,
 bounded by its fidelity,
 by how many people can use it,
 and by how much its agents care.
+How much it yields depends chiefly on whether its builders can formulate realistic scenarios
+and whether agents are willing to explore them.
 The public has shown that it will pay for spaceflight and for shared worlds.
 A simulation that gave it both,
 truthfully,
@@ -3958,6 +4028,7 @@ $$
 - [Book, Friedman 2017, Winning a Future War: War Gaming and Victory in the Pacific War][book_friedman_2017]
 - [Book, Glasstone 1964, The Effects of Nuclear Weapons, Revised Edition Reprinted February 1964][book_glasstone_1964]
 - [Book, Hawking and Hawking 2007, George's Secret Key to the Universe][book_hawking_hawking_2007]
+- [Book, Herman et al. 2009, Wargaming for Leaders: Strategic Decision Making from the Battlefield to the Boardroom][book_herman_et_al_2009]
 - [Book, Whitfield and Roddenberry 1968, The Making of Star Trek][book_whitfield_roddenberry_1968]
 - [Community, EVE University, Acceleration][community_eve_uni_acceleration]
 - [Community, EVE University, Capacitor][community_eve_uni_capacitor]
@@ -4071,6 +4142,7 @@ $$
 - [Reference, FAI 2018, Statement about the Karman Line][ref_fai_karman_2018]
 - [Reference, Hattendorf 2014, Saving Nimitz's Graybook][ref_hattendorf_2014]
 - [Reference, SIGGRAPH History, The Last Starfighter][ref_siggraph_last_starfighter]
+- [Reference, Traveller System Reference Document, Spacecraft Operations][ref_traveller_srd]
 - [Reference, U.S. Joint Forces Command, Millennium Challenge 2002 Experiment Report][ref_jfcom_mc02]
 - [Reference, Washington Employment Security Department, WARN Notices][ref_wa_esd_warn]
 - [Related Post, Mass Drivers][related_post_mass_drivers]
@@ -4079,6 +4151,7 @@ $$
 - [Related Post, Solar Sailing][related_post_solar_sailing]
 - [Research, Abramson 1966, The Dynamic Behavior of Liquids in Moving Containers][research_abramson_1966]
 - [Research, Allen and Eggers 1958, A Study of the Motion and Aerodynamic Heating of Ballistic Missiles Entering the Earth's Atmosphere][research_allen_eggers_1958]
+- [Research, Armstrong 2001, Role Playing: A Method to Forecast Decisions][research_armstrong_2001]
 - [Research, Ashby 2003, Relativity in the Global Positioning System][research_ashby_2003]
 - [Research, Barnett et al. 2006, The Impact of Science Fiction Film on Student Understanding of Science][research_barnett_et_al_2006]
 - [Research, Berry and Coppola 2007, Correct Modeling of the Indirect Term for Third-Body Perturbations][research_berry_coppola_2007]
@@ -4146,6 +4219,7 @@ $$
 [book_friedman_2017]: https://www.history.navy.mil/research/publications/publications-by-subject/winning-a-future-war.html
 [book_glasstone_1964]: https://doi.org/10.2172/972902
 [book_hawking_hawking_2007]: https://openlibrary.org/books/OL9523149M
+[book_herman_et_al_2009]: https://openlibrary.org/isbn/9780071596886
 [book_whitfield_roddenberry_1968]: https://archive.org/details/makingofstartrek00whit
 [community_eve_uni_acceleration]: https://wiki.eveuniversity.org/Acceleration
 [community_eve_uni_capacitor]: https://wiki.eveuniversity.org/Capacitor
@@ -4260,6 +4334,7 @@ $$
 [ref_hattendorf_2014]: https://www.usni.org/magazines/naval-history-magazine/2014/june/saving-nimitzs-graybook
 [ref_jfcom_mc02]: https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Joint_Staff/12-F-0344-Millennium-Challenge-2002-Experiment-Report.pdf
 [ref_siggraph_last_starfighter]: https://history.siggraph.org/?p=94037
+[ref_traveller_srd]: https://www.traveller-srd.com/core-rules/spacecraft-operations/
 [ref_wa_esd_warn]: https://fortress.wa.gov/esd/file/WARN/Public/SearchWARN.aspx
 [related_post_mass_drivers]: {% post_url 2026-08-19-mass_drivers %}
 [related_post_orbital_manoeuvres]: {% post_url 2026-08-17-orbital_manoeuvres %}
@@ -4267,6 +4342,7 @@ $$
 [related_post_solar_sailing]: {% post_url 2026-08-18-solar_sailing %}
 [research_abramson_1966]: https://ntrs.nasa.gov/citations/19670006555
 [research_allen_eggers_1958]: https://ntrs.nasa.gov/citations/19930091020
+[research_armstrong_2001]: https://doi.org/10.1007/978-0-306-47630-3_2
 [research_ashby_2003]: https://doi.org/10.12942/lrr-2003-1
 [research_barnett_et_al_2006]: https://doi.org/10.1007/s10956-006-9001-y
 [research_berry_coppola_2007]: https://www.agi.com/getmedia/eff08466-52ad-4483-958a-2e3ceb922eab/Correct-Modeling-of-the-Indirect-Term-for-Third-Body-Perturbations.pdf

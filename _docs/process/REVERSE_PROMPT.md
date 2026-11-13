@@ -4,6 +4,31 @@
 
 ## Last Updated
 
+**Date**: 2026-11-13 (fourth entry)
+**Task**: **Third pass on A386, applying your further rulings. Done, committed locally, not pushed, not published.**
+
+**Applied.**
+- **Ability average for a station.** The competence paragraph is rewritten on your terms. Most people are of average ability for their station, in a wargame and in the real stations it simulates. People of less than average ability take part too and hold real stations. Brilliant people are few and that matters little, because circumstance and station drive a great many decisions. An agent needs only enough competence to do something reasonable, and a competent person of less than average ability asks for advice. The evidence is now on your side of the claim. Friedman records that of the flag officers commanding combat formations in the fleet of 1941, only one had not attended the War College, so the Newport participants were the people who filled the stations. Armstrong 2001 adds that casting is not critical in role playing. The earlier sentence that no source supports average ability is gone, since it answered a claim you did not make.
+- **Scenarios.** Part five of the thesis, the Predictive Value section and the Conclusion now say that predictive value is largely a function of being able to formulate realistic scenarios that agents are willing to take part in exploring. The text ties the first to fidelity and the second to approachability.
+- **Travel in real time is an old idea.** The Time section opens its treatment of long journeys with Traveller, where a jump "always stays in Jump Space for roughly one week", and says that the author has heard the notion of running it in real time.
+- **Real life as the alternative.** An agent has two ways to live with a long journey, several characters or simply attending to real life. A long voyage begun before an absence is an escape valve. The text calls that the agent's own management of time, and says that inside the simulation it yields individuals who set out for distant places for reasons the simulation never sees.
+- **Time dilation** is now called chiefly a concern of interstellar travel, in the Time section and in the Clocks item.
+- **Herman, Frost and Kurz 2009** is cited where the article says that the same demands hold outside the armed forces.
+
+**Numbers.** 21,626 to 22,229 words of author prose, 187 to 190 references, 34 equations.
+
+**Verification.** `_verify.py` 0 and 0, the equation and reference checks clean, the three new quotations checked against saved copies, and `./_check.sh` passing on a scratch copy built from the committed text. See the commit.
+
+**For you.**
+1. **Herman.** The book's text is not openly available, and I did not work around that. The article cites it from its catalogue record, which says it covers wargames designed and staged for the United States Army, global corporations and nonprofit groups. It carries no quotation. If you can supply a passage or two, on scenario design or on who should be in the room, the citation can do real work.
+2. **The class.** The article does not mention that you read the book for a class on wargaming, since the standing rule keeps your courses out of print. Say so if you want it mentioned in general terms.
+3. **Traveller.** The one-week jump is sourced to the game's system reference document. That people have run it in real time rests on what you heard, and the article says so.
+4. **The third bound**, from the previous entry, still wants your word. The article says the reconstruction names incentives as a bound and that you regard the reasoning behind it as part of the thesis.
+
+**Unchanged.** The steps before publication are the import into the source database, the full URL check and the date.
+
+## Previous Report (2026-11-13, third entry)
+
 **Date**: 2026-11-13 (third entry)
 **Task**: **Second hardening pass on A386, applying your rulings of 2026-11-13. Done, committed locally, not pushed, not published.**
 
