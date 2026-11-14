@@ -11,12 +11,12 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
-- **Parent commit** (the repository state this handoff describes): `81a3c92`
-- **Written**: 2026-11-14, by the operator session, Claude Fable 5.2, after drafting A391. This file's own commit sits
-  directly on top, so `git rev-parse HEAD~1` must print `81a3c92...` for this handoff to be valid.
+- **Parent commit** (the repository state this handoff describes): `34f3166`
+- **Written**: 2026-11-14, by the operator session, Claude Fable 5.2, after drafting and redating A391. This file's own commit sits
+  directly on top, so `git rev-parse HEAD~1` must print `34f3166...` for this handoff to be valid.
   `python3 _lib/blog.py handoff` makes that comparison.
 - **Tree at write**: clean apart from gitignored scratch under `tmp/`.
-- **PUSH STATE.** `origin/master` is `021cce5`. Every commit from `7f4ff87` to `81a3c92`, their handoff restamps and this
+- **PUSH STATE.** `origin/master` is `021cce5`. Every commit from `7f4ff87` to `34f3166`, their handoff restamps and this
   file's commit are **local and unpushed**. Nothing is pushed or published without the pilot's approval. A push goes
   through a `ci/<topic>` branch and a passing `CI result`.
 - **PUBLICATION STATE.** A1 to A385 are published. **A386 is nominally ready and awaits the pilot's proofreading.
@@ -31,13 +31,14 @@ the pilot's proofreading and approval to publish. The superseded section directl
 
 **A391**, *Incident Reporting Standards in Space Agencies and Aerospace*,
 `_drafts/incident_reporting_standards_space_aerospace.markdown`, was drafted on 2026-11-14 at the request of the Ikria
-line, session Op55hi-ikria, in a cross-session message that relayed the pilot's words. **The pilot has not yet
-confirmed the request, the number, the date or the scope.** `REVERSE_PROMPT.md`, first entry of 2026-11-14, lists the
-six decisions that are the pilot's.
+line, session Op55hi-ikria, in a cross-session message that relayed the pilot's words. **The pilot then set its
+editorial date to 2026-11-11 09:00 UTC, the day before A386, and has not yet confirmed the number or the scope.**
+`REVERSE_PROMPT.md`, first and second entries of 2026-11-14, list the decisions that are the pilot's.
 
 **A391 state.** 12,710 words of author prose, 6 display equations, all standard, and 61 references in the legacy
 format. `_verify.py --strict` reports 0 and 0, and `./_check.sh` passed on the scratch copy with the draft built as a
-post. **No publication passes have run.** The front matter date of 2026-11-14 09:00 UTC is a placeholder.
+post under its real date. **No publication passes have run.** At publication the file becomes
+`_posts/2026-11-11-incident_reporting_standards_space_aerospace.markdown`.
 
 **A391 working files, all under `tmp/a391/`.**
 - `research/nasa/`, `research/aviation/`, `research/launch_defense/` and `research/industry/` each hold `NOTES.md`,
@@ -60,7 +61,7 @@ post. **No publication passes have run.** The front matter date of 2026-11-14 09
 
 **OPEN, FOR THE PILOT.**
 1. A386: the proofreading, the shortened thesis claims 3 and 5, the glosses, and approval to publish.
-2. A391: whether the request stands, the number, the date and categories, the two additions in its last section,
+2. A391: whether the request stands, the number, the categories, the two additions in its last section,
    whether to run the publication passes, and the Annex 13 extraction.
 3. The items listed in the superseded sections below, which are unchanged.
 
