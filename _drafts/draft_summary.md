@@ -35,7 +35,8 @@ legacy format. Research is saved under `tmp/a391/research/` in four families, ea
 recomputes four worked numbers. `_verify.py --strict` reports 0 and 0, and `./_check.sh` passed on a scratch copy.
 **Not done.** No independent review, no reference density pass, no import into the source database and no URL check.
 The Annex 13 quotations are hand transcriptions from a view-only copy, and three sold standards were not read in full.
-The front matter date of 2026-11-14 09:00 UTC is a placeholder.
+The pilot set the editorial date on 2026-11-14 as immediately before A386, and the front matter carries 2026-11-11
+09:00 UTC, the day before A386's 2026-11-12.
 
 ## Multi-Agent Space Simulation: A Reconstructed Thesis A386 DRAFT
 

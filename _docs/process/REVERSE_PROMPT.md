@@ -4,6 +4,23 @@
 
 ## Last Updated
 
+**Date**: 2026-11-14 (second entry)
+**Task**: **A391 redated on your instruction, so that its editorial date falls immediately before the thesis reconstruction article. Done, committed locally, not pushed, not published.**
+
+**What changed.** The front matter of `_drafts/incident_reporting_standards_space_aerospace.markdown` now reads 2026-11-11 09:00 UTC. A386 is dated 2026-11-12 09:00 UTC, so A391 takes the daily slot before it. No post or draft holds 2026-11-11. **I read "immediately before" as the preceding day at the same hour.** If you meant the same day at an earlier hour, say so and I will set that.
+
+**Consequences.**
+- At publication the file becomes `_posts/2026-11-11-incident_reporting_standards_space_aerospace.markdown`, and its address will carry `/2026/11/11/`.
+- The date is now in the past, so the site builds the article without any change to the scratch copy.
+- The article's text names no date later than 2026-11-11. Its Epistemic State says that the author read the documents in November 2026.
+- The article number stays A391. The order of numbers and the order of dates now differ, as they do for the miniseries A293 and A294.
+
+**Verification.** `_verify.py --strict` 0 and 0. `./_check.sh` passed on the scratch copy with the article built under its real date, 555 pages and no rendered findings.
+
+**Still yours to decide on A391.** Whether the request stands as relayed, the number, the categories, the two additions in its last section, whether to run the publication passes, and the Annex 13 extraction. The first entry of today, below, describes each.
+
+## Previous Report (2026-11-14, first entry)
+
 **Date**: 2026-11-14 (first entry)
 **Task**: **A391 drafted, *Incident Reporting Standards in Space Agencies and Aerospace*, at the request of the Ikria line. Committed locally, not pushed, not published. A386 is unchanged and still awaits your proofreading.**
 
