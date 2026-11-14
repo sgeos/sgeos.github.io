@@ -11,6 +11,62 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `81a3c92`
+- **Written**: 2026-11-14, by the operator session, Claude Fable 5.2, after drafting A391. This file's own commit sits
+  directly on top, so `git rev-parse HEAD~1` must print `81a3c92...` for this handoff to be valid.
+  `python3 _lib/blog.py handoff` makes that comparison.
+- **Tree at write**: clean apart from gitignored scratch under `tmp/`.
+- **PUSH STATE.** `origin/master` is `021cce5`. Every commit from `7f4ff87` to `81a3c92`, their handoff restamps and this
+  file's commit are **local and unpushed**. Nothing is pushed or published without the pilot's approval. A push goes
+  through a `ci/<topic>` branch and a passing `CI result`.
+- **PUBLICATION STATE.** A1 to A385 are published. **A386 is nominally ready and awaits the pilot's proofreading.
+  A391 is a first complete draft under a provisional number.** A387 to A390 are reserved for the multi-agent series.
+
+## Resume Here
+
+**Two drafts are open.**
+
+**A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*, is unchanged since the reader's pass. It waits for
+the pilot's proofreading and approval to publish. The superseded section directly below is still the guide to it.
+
+**A391**, *Incident Reporting Standards in Space Agencies and Aerospace*,
+`_drafts/incident_reporting_standards_space_aerospace.markdown`, was drafted on 2026-11-14 at the request of the Ikria
+line, session Op55hi-ikria, in a cross-session message that relayed the pilot's words. **The pilot has not yet
+confirmed the request, the number, the date or the scope.** `REVERSE_PROMPT.md`, first entry of 2026-11-14, lists the
+six decisions that are the pilot's.
+
+**A391 state.** 12,710 words of author prose, 6 display equations, all standard, and 61 references in the legacy
+format. `_verify.py --strict` reports 0 and 0, and `./_check.sh` passed on the scratch copy with the draft built as a
+post. **No publication passes have run.** The front matter date of 2026-11-14 09:00 UTC is a placeholder.
+
+**A391 working files, all under `tmp/a391/`.**
+- `research/nasa/`, `research/aviation/`, `research/launch_defense/` and `research/industry/` each hold `NOTES.md`,
+  saved sources and a quotation check. The notes list what could not be fetched or verified.
+- `quotecheck.py DRAFT` matches every quotation in the draft against the saved copies. Five quotations from the
+  scanned MIL-HDBK-2155 fail the script and were read against `research/industry/src/hdbk2155_pages/`. The title line
+  also reports as not found and is not a quotation.
+- `claims.py` recomputes four worked numbers. `write_toml.py` holds the equation classification.
+- `draft/` holds the section files from which `assemble.py` first built the draft. **They are stale.** The draft in
+  `_drafts/` has since been edited directly and is the source of truth. Do not run `assemble.py` again.
+
+**A391 cautions.**
+- **A future-dated post is not built.** The scratch gate passed once without rendering the article, because its date
+  was still ahead of the clock. Date the scratch copy in the past to test it, and check that the page count rises.
+- **Annex 13 is sold by ICAO.** The saved copy under `research/aviation/src/` is view-only with copying disabled. Its
+  quotations are hand transcriptions. Extracting its text is the pilot's decision and has not been done. The file must
+  never be committed or published.
+- **Tables wider than three columns overflow a phone.** Two were replaced on that ground.
+- The article does not name Ikria or its unpushed campaign plan. It speaks of a campaign of simulated flights.
+
+**OPEN, FOR THE PILOT.**
+1. A386: the proofreading, the shortened thesis claims 3 and 5, the glosses, and approval to publish.
+2. A391: whether the request stands, the number, the date and categories, the two additions in its last section,
+   whether to run the publication passes, and the Annex 13 extraction.
+3. The items listed in the superseded sections below, which are unchanged.
+
+## Validity (superseded, written 2026-11-13 after the A386 reader's pass, parent `7a23eb1`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `7a23eb1`
 - **Written**: 2026-11-13, by the operator session, Claude Fable 5.2, after the reader's pass on A386. This file's own
   commit sits directly on top, so `git rev-parse HEAD~1` must print `7a23eb1...` for this handoff to be valid.
@@ -23,7 +79,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 - **PUBLICATION STATE.** A1 to A385 are published. **A386 is nominally ready, awaits the pilot's proofreading, and is
   not published.** The next free article number is A387.
 
-## Resume Here
+## Resume Here (superseded, written 2026-11-13 after the A386 reader's pass)
 
 **The active article is A386**, *Multi-Agent Space Simulation: A Reconstructed Thesis*,
 `_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, the first article of the series
