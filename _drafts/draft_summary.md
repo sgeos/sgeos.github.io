@@ -17,6 +17,26 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Incident Reporting Standards in Space Agencies and Aerospace A391 DRAFT
+
+`_drafts/incident_reporting_standards_space_aerospace.markdown`, A391, analytical essay, categories
+`aerospace engineering safety`, standalone. The number is provisional, since A387 to A390 are reserved for the
+multi-agent series, and the pilot has not confirmed it. The Ikria line requested the article in a cross-session message
+of 2026-11-14 that relayed the pilot's words, so that its incident report template can rest on agency and industry
+practice. It surveys NASA's mishap directive, Annex 13 with the United States and European Union rules, FAA commercial
+launch, United States defence practice, the European and Japanese space standards and industry failure reporting. It
+then describes the methods of cause analysis and the confidential reporting channels, draws out eleven shared
+elements, and ends with a report structure for a small programme.
+
+**Current status 2026-11-14. First complete draft, not published, awaiting the pilot's confirmation of the request,
+the number and the date.** 12,710 words of author prose, 6 display equations, all standard, and 61 references in the
+legacy format. Research is saved under `tmp/a391/research/` in four families, each with notes and a quotation check.
+`tmp/a391/quotecheck.py` matches the draft's quotations against the saved copies, and `tmp/a391/claims.py`
+recomputes four worked numbers. `_verify.py --strict` reports 0 and 0, and `./_check.sh` passed on a scratch copy.
+**Not done.** No independent review, no reference density pass, no import into the source database and no URL check.
+The Annex 13 quotations are hand transcriptions from a view-only copy, and three sold standards were not read in full.
+The front matter date of 2026-11-14 09:00 UTC is a placeholder.
+
 ## Multi-Agent Space Simulation: A Reconstructed Thesis A386 DRAFT
 
 `_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, A386, analytical essay, categories

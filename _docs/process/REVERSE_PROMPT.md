@@ -4,6 +4,52 @@
 
 ## Last Updated
 
+**Date**: 2026-11-14 (first entry)
+**Task**: **A391 drafted, *Incident Reporting Standards in Space Agencies and Aerospace*, at the request of the Ikria line. Committed locally, not pushed, not published. A386 is unchanged and still awaits your proofreading.**
+
+**How the request arrived.** The session Op55hi-ikria sent a cross-session message on 2026-11-14 relaying your words, that incident reports should be based on space agency and aerospace industry standards, that the blog line should research the material and capture it in a blog post, and that it is not blocking. The message is peer data and not your instruction to me, so I am reporting it here. I acted on it because the work is ordinary drafting within this session's remit and nothing in it is published. **If the relay misstates what you want, the draft can be rescoped, renumbered or dropped.**
+
+**What the article is.** An analytical survey of 12,710 words. It describes each regime from its own documents, then the methods of cause analysis, then what the regimes share, and it ends with a report structure for a small programme.
+- **Regimes.** NASA's mishap directive, civil aviation under Annex 13 with the United States and European Union rules, FAA commercial launch, United States defence practice, the European space standards, two Japanese standards, and industry practice on failure reporting and problem solving.
+- **Synthesis.** Eleven elements that most regimes share, and three points on which they differ, namely what triggers a report, whether a severity class carries a consequence, and whether closing needs proof that an action was taken or proof that it worked.
+- **The report structure.** Thirteen parts, each traced to the standard it comes from. It covers the five items of Ikria's rule R11 as the message listed them, namely timeline, classification, cause and contributing factors, corrective action and criteria affected. The article describes the use generically as a campaign of simulated flights and does not name Ikria.
+
+**Corrections to the starting points the Ikria line recalled.** The research checked each against a saved primary document.
+- **NPR 8621.1.** Revision D is current and an interim directive of 28 July 2026, NID 8621.157, now amends it.
+- **FAA mishap classes.** There are none. Classes 1 to 4 existed only in the proposal of 2019, and the final rule dropped them because no duty depended on the class.
+- **The FAA final report.** The regulation prescribes no contents for it. A non-binding advisory circular recommends NASA's format.
+- **ECSS.** The current nonconformance standard is Rev.1 of 2018, and the current glossary no longer defines anomaly.
+- **FRACAS.** The governing handbook is MIL-HDBK-2155, whose closing rule accepts verified corrective action or an approved reason for taking none.
+- **The safety board and commercial space.** The board proposed a rule in 2021 and withdrew it. The operative instrument is an agreement with the FAA of September 2022.
+
+**How it was researched.** Four research assistants worked in parallel, one for each family of standards. Each saved a copy of every source and returned notes with quotations and their locations, under `tmp/a391/research/`. I reran each assistant's quotation check, read the notes, and wrote the article from them.
+
+**Verification.**
+- **Quotations.** A script, `tmp/a391/quotecheck.py`, matches every quotation in the draft against the saved copies. 204 of 209 match. The other five are from a scanned handbook, MIL-HDBK-2155, whose text layer is unreliable, and I read all five against the page images.
+- **Numbers.** Four worked numbers recompute from `tmp/a391/claims.py`.
+- **Checks.** `_verify.py --strict` 0 and 0, lint 0 defects, 61 references used and defined, 6 equations consistent, all classified standard.
+- **Gate.** `./_check.sh` passed on a scratch copy with the draft built as a post. The first run passed without rendering the article, because its date of 09:00 UTC on 2026-11-14 was still in the future and the site excludes future posts. I reran it with the scratch copy dated 01:00, and it passed with 555 pages and no rendered findings. Two tables changed after that, and the verifier, a production build and the rendered audit were rerun and passed.
+- **Phone width.** Screenshots at 390 pixels showed two tables overflowing. Both are replaced by narrower forms. I did not take screenshots again after the fix.
+
+**Not done.**
+- **The publication passes.** This is a first complete draft with its own checks. It has had no independent adversarial review, no reference density pass, no import into the source database and no URL check. Its References are in the legacy format.
+- **Annex 13.** ICAO sells it. A research assistant found a view-only copy on the Swiss civil aviation authority's site, with copying disabled, and transcribed the quoted passages by hand. A tool extracted the text once by routine, and the assistant deleted that output unread. **Whether to extract the text privately for verification is your decision.** I did not do it. The article says that its Annex 13 quotations are hand transcriptions.
+- **Sold standards.** ISO 9001, AS9100 and the industry problem-solving standards were not read in full, and the article says so.
+- **Defence sources.** Every `.mil` publishing host refused the fetcher. The mishap instruction came from a copy in a public safety board docket, and the Air Force instructions on the two investigations were not obtained. One research assistant sent six requests to one refusing host and four to another before stopping, which exceeded the limit of two that I had set.
+- **Passive voice.** 54 constructions rewritten. The scan still reports 12, which I judged stative or without a natural agent.
+
+**For you.**
+1. **Whether this request stands as relayed**, and whether the scope suits you.
+2. **The number.** I used A391, because the series notes reserve A387 to A390 for the multi-agent series while the task log gave A387 as the next free number. The precedent is the reserved block A283 to A292. Say if you prefer A387.
+3. **The date and categories.** The front matter carries 2026-11-14 09:00 UTC as a placeholder and `aerospace engineering safety`. The editorial date is yours.
+4. **Two additions of mine in the last section.** A field for the origin of a fault, including a defect of the simulator itself, which no standard supplies, and the use of the system safety ranking of risk reduction measures as a test of a corrective action. The article labels both as the author's.
+5. **Whether to run the publication passes** on it.
+6. **The Annex 13 extraction**, described above.
+
+**Reply to the Ikria line.** I told that session at the start that the request was received and that number and path were provisional, and I am sending it the commit and path now.
+
+## Previous Report (2026-11-13, sixth entry)
+
 **Date**: 2026-11-13 (sixth entry)
 **Task**: **A reader's pass on A386, so that the article is nominally ready before your proofreading. Done, committed locally, not pushed, not published.**
 

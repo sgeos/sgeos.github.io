@@ -1,0 +1,107 @@
+# Equation classification for A391. Read by `python3 _lib/equations.py`.
+
+caution = "The reliability equations take test time in hours and failure rates in failures per hour. The fault tree equations take dimensionless probabilities, and the two gate equations hold only for independent input events."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Duane Cumulative Failure Rate"
+gloss = "The cumulative failure rate of a system under development falls as a power of total test time when fixes are incorporated."
+cite = ["mil_hdbk_338b"]
+digest = "43684ae292c4d0e0"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Instantaneous Failure Rate Under the Duane Model"
+gloss = "The failure rate the system shows now, found by differentiating the number of failures with respect to test time."
+cite = ["mil_hdbk_338b"]
+digest = "55e38a7b0ef2d322"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Instantaneous Mean Time Between Failures"
+gloss = "The current mean time between failures exceeds the cumulative value by a factor set by the growth rate."
+cite = ["mil_hdbk_338b"]
+digest = "433b52281bec8e4f"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Probability of an OR Gate With Independent Inputs"
+gloss = "The probability that at least one of two independent input events occurs."
+cite = ["agency_nasa_fault_tree_handbook_2002"]
+digest = "e03b44397998f5b2"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Probability of an AND Gate With Independent Inputs"
+gloss = "The probability that two independent input events both occur."
+cite = ["agency_nasa_fault_tree_handbook_2002"]
+digest = "1bff81efed1788b8"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Rare Event Approximation for the Top Event"
+gloss = "The probability of the top event as the sum over minimal cut sets of the product of their basic event probabilities, accurate when those probabilities are small."
+cite = ["agency_nasa_fault_tree_handbook_2002"]
+digest = "b860249453db213b"
+
+[[symbol]]
+tex = '\lambda_{\Sigma}'
+meaning = "the cumulative failure rate"
+
+[[symbol]]
+tex = 'F'
+meaning = "the number of failures during the test time"
+
+[[symbol]]
+tex = 'H'
+meaning = "the total test hours"
+
+[[symbol]]
+tex = 'K'
+meaning = "a constant determined by circumstances"
+
+[[symbol]]
+tex = '\alpha'
+meaning = "the growth rate"
+
+[[symbol]]
+tex = '\lambda_{\mathrm{I}}'
+meaning = "the instantaneous failure rate"
+
+[[symbol]]
+tex = 'M_{\mathrm{C}}'
+meaning = "the cumulative mean time between failures"
+
+[[symbol]]
+tex = 'M_{\mathrm{I}}'
+meaning = "the instantaneous mean time between failures"
+
+[[symbol]]
+tex = 'P(A)'
+meaning = "the probability of input event $A$"
+
+[[symbol]]
+tex = 'P(B)'
+meaning = "the probability of input event $B$"
+
+[[symbol]]
+tex = 'P(Q)'
+meaning = "the probability of the output event of a gate"
+
+[[symbol]]
+tex = 'P(T)'
+meaning = "the probability of the top event"
+
+[[symbol]]
+tex = 'C_{i}'
+meaning = "minimal cut set $i$"
+
+[[symbol]]
+tex = 'P(b_{j})'
+meaning = "the probability of basic event $j$"
