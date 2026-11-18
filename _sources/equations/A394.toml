@@ -1,0 +1,279 @@
+# Equation classification for A394. Read by `python3 _lib/equations.py`.
+
+caution = "The earned value equations take every quantity in one unit of account, money or hours, at one status date, and their subscripts restore what the sources print. The price variation equation takes dimensionless weights and indices."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Cost Variance"
+gloss = "The budget of the work done less what that work cost, so that a negative value is an overspend."
+cite = ["agency_nasa_evm_handbook_2021", "doe_evms_gold_card_2019"]
+digest = "c35a5ee259bbd034"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Schedule Variance"
+gloss = "The budget of the work done less the budget of the work planned to date, in units of money and not of time."
+cite = ["agency_nasa_evm_handbook_2021", "doe_evms_gold_card_2019"]
+digest = "e3febf21edbbdfc6"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Cost Performance Index"
+gloss = "The budget of the work done divided by its actual cost, favourable above one."
+cite = ["agency_nasa_evm_handbook_2021", "gao_20_195g", "doe_evms_gold_card_2019"]
+digest = "fb11100479f90048"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Schedule Performance Index"
+gloss = "The budget of the work done divided by the budget of the work planned to date, favourable above one."
+cite = ["agency_nasa_evm_handbook_2021", "gao_20_195g", "doe_evms_gold_card_2019"]
+digest = "5ea9c38a04e713e5"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Work Remaining"
+gloss = "The budget at completion less the cumulative earned value."
+cite = ["doe_evms_gold_card_2019"]
+digest = "26ab6577821f7ebd"
+
+[[equation]]
+tag = 6
+class = "standard"
+title = "Estimate at Completion, General Form"
+gloss = "The budget at completion divided by the cumulative cost performance index."
+cite = ["doe_evms_gold_card_2019"]
+digest = "f576b7c69418a5e8"
+
+[[equation]]
+tag = 7
+class = "standard"
+title = "Estimate at Completion by the Cumulative Cost Index"
+gloss = "The actual cost to date plus the work remaining at the cumulative cost efficiency."
+cite = ["doe_evms_gold_card_2019"]
+digest = "43155b375d1e37ae"
+
+[[equation]]
+tag = 8
+class = "standard"
+title = "Estimate at Completion, Composite Form"
+gloss = "The actual cost to date plus the work remaining at the product of the cumulative cost and schedule indices."
+cite = ["doe_evms_gold_card_2019"]
+digest = "2219813b820b0bed"
+
+[[equation]]
+tag = 9
+class = "standard"
+title = "Estimate at Completion by the Three-Month Cost Index"
+gloss = "The actual cost to date plus the work remaining at the cost efficiency of the three most recent periods."
+cite = ["doe_evms_gold_card_2019"]
+digest = "d39b1c3d043b7bef"
+
+[[equation]]
+tag = 10
+class = "standard"
+title = "Estimate at Completion With a Chosen Efficiency Index"
+gloss = "The general form of the auditor's guide, in which the estimator chooses the index that divides the remaining budgeted work."
+cite = ["gao_20_195g"]
+digest = "7895d254ce021844"
+
+[[equation]]
+tag = 11
+class = "standard"
+title = "Estimate at Completion From an Estimate to Complete"
+gloss = "The actual cost to date plus a fresh estimate of the cost of the remaining work."
+cite = ["doe_evms_gold_card_2019"]
+digest = "c8973c3367b5386d"
+
+[[equation]]
+tag = 12
+class = "standard"
+title = "Variance at Completion"
+gloss = "The budget at completion less the estimate at completion, so that a negative value forecasts an overrun."
+cite = ["doe_evms_gold_card_2019", "mil_evmig_2019"]
+digest = "7806264fe0cf73e7"
+
+[[equation]]
+tag = 13
+class = "standard"
+title = "To-Complete Performance Index Against the Estimate, Energy Card Form"
+gloss = "The work remaining divided by the money remaining under the estimate at completion."
+cite = ["doe_evms_gold_card_2019"]
+digest = "54b200fb82fb3383"
+
+[[equation]]
+tag = 14
+class = "standard"
+title = "To-Complete Performance Index, Auditor's Form"
+gloss = "The budgeted cost of work remaining divided by the estimate at completion less the actual cost."
+cite = ["gao_20_195g"]
+digest = "904f85376c70163d"
+
+[[equation]]
+tag = 15
+class = "standard"
+title = "To-Complete Performance Index Against the Budget"
+gloss = "The cost efficiency needed on the remaining work to finish at the budget at completion."
+cite = ["agency_nasa_evm_handbook_2021"]
+digest = "e471b80d5772cf38"
+
+[[equation]]
+tag = 16
+class = "standard"
+title = "To-Complete Performance Index Against the Estimate, NASA Form"
+gloss = "The cost efficiency needed on the remaining work to finish at the estimate at completion."
+cite = ["agency_nasa_evm_handbook_2021"]
+digest = "8f9b7dc79364669f"
+
+[[equation]]
+tag = 17
+class = "standard"
+title = "Price Variation Formula"
+gloss = "A basis amount restated from reference to current economic conditions by weighted agreed indices."
+cite = ["ecss_m_st_60c"]
+digest = "8fe6ad97d7f86b32"
+
+[[symbol]]
+tex = '\mathrm{CV}'
+meaning = "the cost variance"
+
+[[symbol]]
+tex = '\mathrm{SV}'
+meaning = "the schedule variance"
+
+[[symbol]]
+tex = '\mathrm{BCWP}'
+meaning = "the budgeted cost for work performed, also called the earned value"
+
+[[symbol]]
+tex = '\mathrm{ACWP}'
+meaning = "the actual cost of work performed, also called the actual cost"
+
+[[symbol]]
+tex = '\mathrm{BCWS}'
+meaning = "the budgeted cost for work scheduled, also called the planned value"
+
+[[symbol]]
+tex = '\mathrm{CPI}'
+meaning = "the cost performance index"
+
+[[symbol]]
+tex = '\mathrm{SPI}'
+meaning = "the schedule performance index"
+
+[[symbol]]
+tex = '\mathrm{WR}'
+meaning = "the work remaining"
+
+[[symbol]]
+tex = '\mathrm{BAC}'
+meaning = "the budget at completion"
+
+[[symbol]]
+tex = '\mathrm{EV}_{\mathrm{cum}}'
+meaning = "the cumulative earned value"
+
+[[symbol]]
+tex = '\mathrm{EAC}'
+meaning = "the estimate at completion"
+
+[[symbol]]
+tex = '\mathrm{AC}_{\mathrm{cum}}'
+meaning = "the cumulative actual cost"
+
+[[symbol]]
+tex = '\mathrm{CPI}_{\mathrm{cum}}'
+meaning = "the cost performance index computed from cumulative values"
+
+[[symbol]]
+tex = '\mathrm{SPI}_{\mathrm{cum}}'
+meaning = "the schedule performance index computed from cumulative values"
+
+[[symbol]]
+tex = '\mathrm{CPI}_{\mathrm{3mo}}'
+meaning = "the cost performance index of the three most recent reporting periods"
+
+[[symbol]]
+tex = '\mathrm{EAC}_{\mathrm{CPIcum}}'
+meaning = "the estimate at completion by the cumulative cost index"
+
+[[symbol]]
+tex = '\mathrm{EAC}_{\mathrm{composite}}'
+meaning = "the estimate at completion by the product of both indices"
+
+[[symbol]]
+tex = '\mathrm{EAC}_{\mathrm{CPI3mo}}'
+meaning = "the estimate at completion by the three-month cost index"
+
+[[symbol]]
+tex = '\mathrm{ETC}'
+meaning = "the estimate to complete"
+
+[[symbol]]
+tex = '\mathrm{VAC}'
+meaning = "the variance at completion"
+
+[[symbol]]
+tex = '\mathrm{TCPI}_{\mathrm{EAC}}'
+meaning = "the to-complete performance index against the estimate at completion"
+
+[[symbol]]
+tex = '\mathrm{BCWR}'
+meaning = "the budgeted cost of work remaining"
+
+[[symbol]]
+tex = '\mathrm{TCPI}'
+meaning = "the to-complete performance index"
+
+[[symbol]]
+tex = '\mathrm{TCPI}_{\mathrm{BAC}}'
+meaning = "the to-complete performance index against the budget at completion"
+
+[[symbol]]
+tex = '\mathrm{BCWP}_{\mathrm{cum}}'
+meaning = "the cumulative budgeted cost for work performed"
+
+[[symbol]]
+tex = '\mathrm{ACWP}_{\mathrm{cum}}'
+meaning = "the cumulative actual cost of work performed"
+
+[[symbol]]
+tex = 'P'
+meaning = "the revised amount at current economic conditions"
+
+[[symbol]]
+tex = 'P_{0}'
+meaning = "the basis amount at the reference economic conditions"
+
+[[symbol]]
+tex = 'a'
+meaning = "a weighting factor, with $a + b + c = 1$"
+
+[[symbol]]
+tex = 'b'
+meaning = "the weighting factor of the index $S$"
+
+[[symbol]]
+tex = 'c'
+meaning = "the weighting factor of the index $M$"
+
+[[symbol]]
+tex = 'S'
+meaning = "an agreed index at current economic conditions"
+
+[[symbol]]
+tex = 'M'
+meaning = "a second agreed index at current economic conditions"
+
+[[symbol]]
+tex = 'S_{0}'
+meaning = "the value of $S$ at the reference economic conditions"
+
+[[symbol]]
+tex = 'M_{0}'
+meaning = "the value of $M$ at the reference economic conditions"
