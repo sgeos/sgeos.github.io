@@ -73,7 +73,7 @@ The words for the events vary by regime.
 
 | Term | Used by | Sense |
 |---|---|---|
-| Mishap | NASA, defence, commercial launch | An unplanned event with harm or loss |
+| Mishap | NASA, defence, commercial launch | An unplanned event with harm or loss, which commercial launch widens to listed failures and to high risk without harm |
 | Accident, serious incident, incident | Civil aviation | Three classes graded by result and by potential |
 | Close call, near miss | NASA, defence | An event that could have been a mishap |
 | Occurrence | European Union aviation | Any safety-related event that endangers or could endanger |
@@ -117,18 +117,30 @@ a failure to achieve the minimum mission success criteria
 that the project had not declared as a contingency and accepted as a risk beforehand.
 A close call is
 "an event requiring first aid treatment or less, or property damage or mission failure with a direct cost of less than \\$20,000, based on a worst case estimate by the responsible organization, but has NASA mishap potential."
-The interim directive also rules that in human spaceflight
-any anomaly or activation of a safety-critical system that affects the safety of the crew or the spacecraft
-is a mishap or a close call whether or not anyone was hurt.
+The interim directive also rules that in human spaceflight missions involving NASA personnel
+any off-nominal event,
+anomaly
+or activation of a safety-critical system that affects the safety of the crew or the spacecraft
+is a mishap or a close call whether or not injury or damage occurred.
 
 The same directive says what does not count.
-Damage in a test is not a mishap when it
+Damage in a test is not a mishap when three conditions hold together.
+The damage caused no injury,
+illness
+or fatality,
+harmed no public,
+private
+or other agency property,
+and sent no hazardous debris beyond the test area.
+The facility and the test equipment functioned properly.
+And the damage
 "is limited to test articles or test facilities, and the risk of damage was formally documented and accepted by signature before the test."
 The exemption rewards a programme for stating in advance what it expects to break.
-Where it applies,
-the directive still expects
+An appendix extends the idea to risk-tolerant missions and technology demonstrations in orbit,
+and for those the directive still expects
 "a proper failure review"
 to find the causes and the corrective actions.
+The interim directive withholds that extension from any event that affects the safety of the crew or the spacecraft in human spaceflight.
 
 ### Classification
 
@@ -189,7 +201,7 @@ and the outcome of the event,
 the classification,
 the date and time
 and the location.
-The why field arrives last,
+The why field arrives later,
 within two workdays of the signing of the report,
 and holds the findings,
 each supported by facts,
@@ -206,7 +218,9 @@ The members need not all be strangers to the work.
 The rule is that
 "The majority of IA members are to be independent from or have no responsibility for the operation or activity associated with the mishap or close call,"
 where IA stands for investigating authority.
-The chairperson must ensure that
+A non-voting member,
+the ex officio,
+must ensure that
 "the investigation process is impartial, independent, and non-punitive."
 The preface gives the reason for the last word.
 "The investigation and resulting products outlined in this NPR will not be used to direct or justify disciplinary action."
@@ -293,6 +307,11 @@ The test is counterfactual in each case.
 A cause is something whose removal would have prevented the next step up the ladder.
 A contributing factor fails that test and still mattered.
 An observation lies outside the chain altogether.
+The directive's general definition of a cause sits uneasily beside this ladder,
+since it requires that a cause
+"precede and be necessary and sufficient on its own to bring about the undesired outcome of a mishap,"
+while the definition of a root cause states that
+"Typically, multiple causes contribute to an undesired outcome."
 The appendix on data entry shows the difference between a fact and a finding with an example.
 The fact is that the coefficient of friction was 0.3.
 The finding is that the floor was too slippery for the employee to walk upon safely.
@@ -339,7 +358,8 @@ Before anyone adopts the actions,
 the appointing official must
 "Assess recommendations according to their effectiveness in reducing likelihood and consequence of causal factor reoccurrence."
 Afterwards the directive asks for proof that the responsible manager implemented each action.
-It does not ask for proof that the action worked,
+On the author's reading,
+it does not ask for proof that the action worked,
 a point on which the Japanese and the industry standards below go further.
 
 Lessons learned are the last product.
@@ -352,7 +372,9 @@ The policy that governs that system prescribes no format for a lesson
 ### Three Reports in Practice
 
 Three public reports show the form at work.
-The Genesis report follows the vocabulary section by section.
+The Genesis report follows the vocabulary of the revision then in force,
+revision A,
+section by section.
 Its numbered sections run from a summary of the project
 through
 the mishap description with sequence of events and timeline,
@@ -566,15 +588,17 @@ And it notes a practice that suits a small organization.
 
 ### Causes and Contributing Factors
 
-The Annex defines its two causal terms differently from NASA.
+The Annex defines its two causal terms differently from NASA,
+and ICAO's manual restates the definitions in these words.
 "Causes are defined as actions, omissions, events, conditions, or a combination thereof, which led to the accident or incident."
-"Contributing factors are actions, omissions, events, conditions, or a combination thereof, which, if eliminated, avoided or absent, would have reduced the probability of the accident or incident occurring, or mitigated the severity of the consequences of the accident or incident."
+"Contributing factors are actions, omissions, events, conditions, or a combination thereof, which, if eliminated, avoided or absent, would have reduced the probability of the accident or incident occurring, or mitigated the severity of the consequences of the accident or incident"
+[ICAO 2024b][icao_doc_9756_part_iv].
 The Annex lets a state use either term or both.
 Its contributing factor is a matter of probability and of severity.
 NASA's contributing factor is one whose removal
 "would not on its own have prevented the occurrence."
 The two definitions overlap without coinciding,
-and a factor that mitigated nothing but made the event more likely
+and a factor that made the consequences worse without making the event more likely
 is a contributing factor in the Annex's sense alone.
 That comparison is an inference from the two texts.
 
@@ -712,7 +736,9 @@ The regulation also defines the tier below a mishap.
 "Anomaly means any condition during licensed or permitted activity that deviates from what is standard, normal, or expected, during the verification or operation of a system, subsystem, process, facility, or support equipment."
 And it has its own version of the exemption for expected damage.
 Test-induced damage is not a mishap when the operator agreed its scope with the agency beforehand
-and the damage harmed nobody outside the activity
+and the damage caused no serious injury or fatality,
+no damage to property unconnected with the licensed activity
+and no hazardous debris outside the predefined hazard area
 [FAA 2026c][reg_14cfr_450_175].
 
 ### What the Operator Owes
@@ -730,7 +756,8 @@ and the rule lists its contents.
   reentry
   or landing.
 - Impact points of hazardous debris.
-- Identification of the vehicle and of any payload.
+- Identification of the vehicle.
+- Identification of any payload.
 - "Number and general description of any fatalities or injuries."
 - "Description and estimated costs of any property damage."
 - Hazardous materials involved.
@@ -762,7 +789,7 @@ asks that the plan provide for
 "the recording of any dissenting opinions,"
 and adds that
 "Corrective actions should not only address technical root causes, but also any organizational root causes."
-It also asks for a step that NASA's directive leaves out,
+It also asks for a step that NASA's directive leaves out on the author's reading,
 saying that
 "an operator's plan should include a process for following up to verify the implementation and effectiveness of preventative measures."
 
@@ -789,13 +816,16 @@ Of the seventh flight test of the Starship vehicle it wrote in March 2025 that
 "The final mishap report cites the probable root cause for the loss of the Starship vehicle was stronger than anticipated vibrations during flight led to increased stress on, and failure of, the hardware in the propulsion system. SpaceX identified 11 corrective actions to prevent a reoccurrence of the event. The FAA verified that SpaceX implemented corrective actions prior to Flight 8."
 Of the first flight of the New Glenn vehicle it wrote that
 "The final mishap report identified the proximate cause of the mishap as an inability of New Glenn's first stage to restart the engines, preventing a reentry burn from occurring, and resulting in the loss of the stage. Blue Origin identified seven corrective actions to prevent reoccurrence of the event."
-Each statement carries the same items,
+The closure statements typically carry the same items,
 namely the event,
 who led and who accepted the investigation,
 one sentence of cause,
 a count of corrective actions,
 how the agency verifies their implementation,
 and the determination on flight.
+That pattern is the author's inference from five statements,
+and not every closure fits it,
+since the statement that closed the ninth Starship flight gives no count of corrective actions.
 The label on the cause varies from one statement to the next,
 from probable root cause to proximate cause to direct cause,
 and the statements do not explain the choice.
@@ -908,7 +938,8 @@ Eliminated.
 The standard reserves the last level for a hazard that no longer exists,
 and it warns that
 "No amount of doctrine, training, warning, caution, or Personal Protective Equipment (PPE) can move a mishap probability to level F."
-A matrix then assigns one of four risk levels to each pair.
+A matrix then assigns one of four risk levels to each pair at levels A to E
+and marks every pair at level F as eliminated.
 The standard writes a pair as a code of one digit and one letter.
 "For example, a RAC of 1A is the combination of a Catastrophic severity category and a Frequent probability level,"
 where RAC stands for risk assessment code.
@@ -1149,13 +1180,16 @@ Its severity scale has three steps and grades an anomaly by its effect on the mi
 
 One output of the European system has no close counterpart in NASA's mishap directive.
 An alert is a
-"formal notification to users, informing them of failures or problems that can affect more than one user, or can recur in other projects or circumstances, if no preventive actions are taken."
+"formal notification to users, informing them of failures or problems that can affect more than one user, or can recur in other projects or circumstances, if no preventive actions are taken"
+[ECSS 2023][ecss_s_st_00_01c_rev1].
 The board that handles a major nonconformance must
-"Assess the need for raising an alert to other users of similar nonconforming items."
+"Assess the need for raising an alert to other users of similar nonconforming items"
+[ECSS 2018][ecss_q_st_10_09c_rev1],
+and the product assurance standard requires the supplier to tell its customer of problems that can result in an alert
+[ECSS 2016][ecss_q_st_10c_rev1].
 The alert carries the question of read-across,
 namely who else has this problem,
-out of the single report and into a channel of its own
-[ECSS 2016][ecss_q_st_10c_rev1].
+out of the single report and into a channel of its own.
 
 ### Inquiries
 
@@ -1227,17 +1261,23 @@ and that action must reach the similar items that already exist.
 The United States defence handbook on failure reporting gives the closed loop its classic definition
 [DoD 1995][mil_hdbk_2155].
 "Closed loop failure reporting system. A controlled system assuring that all failures and faults are reported, analyzed (engineering or laboratory analysis), positive corrective actions are identified to prevent recurrence, and that the adequacy of implemented corrective actions is verified by test."
+The handbook is a former military standard that the department redesignated in 1995
+with no change but a new cover,
+and the cover restricts it to use as guidance.
+Its text therefore still says shall
+where it now offers guidance and not a requirement.
 Its steps are failure reporting,
 failure analysis,
 failure verification,
-corrective action
-and close-out.
+corrective action,
+close-out,
+and the identification and control of failed items.
 Verification means confirming that the reported failure was real,
 since
 "All reported failures shall be verified as actual or an explanation provided for lack of verification."
 
 The handbook prescribes no form.
-It requires that a failure report identify the failed item,
+It asks that a failure report identify the failed item,
 the symptoms,
 the test conditions
 and the operating time at failure,
@@ -1321,7 +1361,10 @@ The International Organization for Standardization,
 ISO,
 and SAE International sell ISO 9001 and its aerospace derivative AS9100,
 and the author did not read their text.
-The free guidance of their owners shows what the clause demands as records,
+ISO withdrew the 2015 editions of ISO 9001 and ISO 9000 in 2026
+in favour of new editions,
+which the author also did not read.
+The free guidance of their owners shows what the clause of the 2015 edition demanded as records,
 namely
 "Evidence of the nature of the nonconformities and any subsequent actions taken"
 and
@@ -1572,9 +1615,13 @@ A contractor stands between the reporter and the agency,
 so that the agency never learns the name.
 The two designs answer the same problem.
 A confidential system knows the reporter and removes the identity.
-An anonymous system never holds it.
-The first can ask the reporter a follow-up question,
-and the second cannot.
+An anonymous system keeps the identity from the agency altogether.
+A reporter to NASA's system may still leave contact details with the contractor,
+which can then ask for more information,
+and the identity still never reaches NASA personnel.
+The anonymous system can therefore ask a follow-up question
+only through its intermediary
+and only of a reporter who chose to be reachable.
 
 The European regulation on occurrence reporting takes a third course and makes the protection a legal duty of the employer,
 as the section on civil aviation described.
@@ -1594,9 +1641,10 @@ and each item names the sources behind it.
    NASA and the FAA both exempt damage that a programme declared in advance as a risk of the test.
 2. **Classify by consequence, and count what nearly happened.**
    NASA's close call,
-   the defence near miss,
    the serious incident of Annex 13
    and the FAA's high risk outcome all grade an event by its potential.
+   The defence instruction defines a near miss
+   but assigns it no class.
    ECSS resolves doubt upward.
    NASA and the defence instruction both allow the class to change as the facts arrive.
 3. **Give the class a consequence.**
@@ -1618,9 +1666,9 @@ and each item names the sources behind it.
    and leaves why for later.
 6. **Investigate to prevent, not to blame, and keep the investigator independent.**
    Annex 13,
-   the two European regulations,
-   NASA's directive
-   and the safety board's regulation all say so in terms.
+   the two European regulations
+   and NASA's directive say both in terms.
+   The safety board's regulation says the first.
    The defence system separates the investigations to protect the candour of one of them.
 7. **Write the report in a fixed order, with facts before analysis.**
    Annex 13 and NASA both run from facts through analysis and findings to recommendations.
@@ -1630,11 +1678,12 @@ and each item names the sources behind it.
    NASA's ladder,
    the apparent and root causes of the industry standard
    and the four levels of the human factors system all layer the cause.
-   NASA's overview and the five whys guide both test a cause by asking whether its removal would have prevented the outcome.
+   NASA's overview tests a cause by asking whether its removal would have prevented the outcome,
+   and the five whys guide asks whether the problem would still be likely to recur if someone corrected the latest answer.
+   ICAO's manual and NASA's overview both provide for a probable cause.
    ICAO's manual,
-   NASA's overview
-   and NASA's handbook all provide for a probable cause
-   and for a cause that remains undetermined or unexplained.
+   NASA's directive
+   and NASA's handbook provide for a cause that remains undetermined or unexplained.
 9. **Trace every recommendation to a finding and every action to a recommendation.**
    NASA requires both,
    the second by a matrix.
@@ -1664,9 +1713,9 @@ The regimes differ on three points that a designer of a report must decide.
 | NASA mishap directive, the mishap or close call | Types A to D and close call | Actions implemented, verified by the safety office, closed by the appointing official |
 | FAA commercial launch, the mishap | None | Final report accepted, then actions implemented before flight |
 | Annex 13 and the safety board, the accident or incident | Three classes | Each recommendation answered within 90 days and tracked by status |
-| ECSS, the nonconformance or anomaly | Major and minor | Actions verified, tests done, waivers approved |
-| Japanese reliability standard, the anomaly or failure | Not examined | Change proven by test and preventive action proven effective |
-| Defence failure reporting, the failure | None | Corrective action verified, or an approved reason for none |
+| ECSS, the nonconformance | Major and minor | Actions verified, tests done, waivers approved |
+| Japanese reliability standard, the anomaly or failure | A major anomaly or failure reported at once, otherwise not examined | Change proven by test and preventive action proven effective |
+| Defence failure reporting, the failure | Not examined | Corrective action verified, or an approved reason for none |
 
 The deepest difference is in the last column.
 Some regimes close when the record shows that someone took the action.
@@ -1714,7 +1763,7 @@ Each element names the standard it comes from.
 
 | Part | Content | After |
 |---|---|---|
-| Identification | A unique number and revision, a title, the class, the date and time of the event with the time reference, the date of the report, the author and the status | ECSS, NASA |
+| Identification | A unique number and revision, a title, the class, the date and time of the event with the time reference, the date of the report, the author and the status | ECSS, NASA, ICAO |
 | Summary | What happened, what was found and what was done, in a few sentences | NASA, the safety board |
 | Sequence of events | A timeline from recorded data, separating events from conditions | NASA, Annex 13 |
 | Configuration | The vehicle, the software version and the procedure in execution | ECSS |
@@ -1785,6 +1834,26 @@ The main exceptions follow.
   The defence handbook on failure reporting and the Ariane 5 inquiry report are scans.
   The author read their quotations from the page images
   and also matched the Ariane quotations against an unofficial transcription.
+  The author likewise read the equations of the reliability design handbook
+  and the endorsement form of the N-Prime report from page images.
+- **Copies from other hosts.**
+  The defence handbooks on failure reporting,
+  reliability growth
+  and reliability design come from the everyspec.com archive,
+  the defence human factors guide from SKYbrary,
+  the Air Force board report from the site of a magazine,
+  and NASA's 2003 overview of root cause analysis from the Internet Archive.
+  The author quoted the two European regulations on investigation and occurrence reporting from consolidated versions,
+  which state that they have no legal effect and that the text in the Official Journal is authentic.
+- **NASA's own texts.**
+  Section 1.1.2 of the interim directive bases a close call on a worst case estimate,
+  while its appendix of definitions admits either a most likely or a worst case estimate.
+  The interim directive left the appendix's definition of a mishap without the fifth outcome,
+  and the article follows the amended section.
+  In the saved copy of the interim directive a page break cuts the Type A injury cell,
+  so the table above takes that cell from revision D and the appendix.
+  The cover of NASA's handbook on problems prints an expiry date in 2013,
+  while the agency's record of standards still lists the handbook as active.
 - **Sold standards.**
   The author did not read ISO 9001,
   AS9100
@@ -1812,8 +1881,9 @@ and several are in motion.
 NASA's interim directive expires in July 2027.
 Amendment 20 to Annex 13 becomes applicable in November 2028,
 and the author did not read its text.
-New editions of ISO 9000 and ISO 9001 appeared in 2026,
-and the author did not read them.
+ISO withdrew the 2015 editions of ISO 9000 and ISO 9001 in 2026
+in favour of new editions,
+and the author did not read the new editions.
 A reader who relies on a particular clause should check the current issue.
 
 **Inferences.**
@@ -1827,6 +1897,12 @@ and the text names each as one where it appears.
   A search of its text for the word effective finds a duty to assess recommendations before their adoption
   and none to verify an action afterwards.
 - That a fishbone diagram collects candidate causes without testing them.
+- That the FAA's closure statements typically carry the same items.
+
+**Unresolved.**
+NASA's directive requires a cause to be necessary and sufficient on its own
+and also states that multiple causes typically contribute to an outcome.
+The article reports that tension and does not resolve it.
 
 **The author's view.**
 The list of eleven shared elements,
@@ -1881,14 +1957,14 @@ The European standards record nonconformances and anomalies and bring each befor
 The reliability tradition records failures in a closed loop.
 
 Beneath the vocabularies the regimes share a structure.
-Each regime decides whether an event is reportable,
-grades it by consequence,
-makes a first record quickly,
-investigates in order to prevent,
-writes its facts before its analysis,
-layers its causes,
-ties its actions to its findings
-and closes on stated conditions.
+Most regimes decide whether an event is reportable,
+grade it by consequence,
+make a first record quickly,
+investigate in order to prevent,
+write their facts before their analysis,
+layer their causes,
+tie their actions to their findings
+and close on stated conditions.
 The differences that remain are real choices.
 A severity class is worth having only where something depends on it.
 A cause is worth naming only with its evidence and its degree of certainty.
