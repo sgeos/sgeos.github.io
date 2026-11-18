@@ -11,6 +11,41 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `2b1e3ab`
+- **Written**: 2026-11-18, by the master blog session on Claude Opus 5.5, after the review passes on A391 to A394.
+  This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `2b1e3ab...` for this handoff to be
+  valid. `python3 _lib/blog.py handoff` makes that comparison.
+- **Tree at write**: clean for the master session. The untracked `multi_agent_space_simulation_*` drafts other than the
+  reconstructed thesis, and `_sources/equations/A387.toml` and `A388.toml`, belong to two sister sessions. **Do not
+  edit, stage, commit, move, number or date them.** Committing sister work waits for the operator's word.
+- **PUSH STATE.** `origin/master` is `021cce5`. Every later commit is local and unpushed.
+- **PUBLICATION STATE.** A1 to A385 are published. A386 awaits the operator's proofreading. A391 to A394 are reviewed
+  drafts awaiting the operator.
+- **LOAD.** On 2026-11-18 the operator forbade any build because the workstation was overloaded. Ask before building.
+
+## Resume Here
+
+**The operator's instruction of 2026-11-18 is complete.** All four review passes are applied and committed:
+A394 `aeae40b`, A393 `497733f`, A392 `19b3c81`, A391 `23eb9d5`, and the report `2b1e3ab`. The report is the first entry
+of 2026-11-18 in `REVERSE_PROMPT.md` and lists the decisions that are the operator's.
+
+**Nothing is in flight.** Wait for the operator. Open items, all the operator's:
+1. A386 proofreading and approval to publish.
+2. Confirmation of the relayed requests behind A392 to A394, and of their numbers and dates.
+3. The wording "in November 2026" for reading dates after the back-dated editorial dates.
+4. Quotations from ESA files marked For Official Use, in A392 and A393.
+5. A deploy gate on A391 to A394 when a build is allowed. None has run on A392 to A394.
+6. The items listed in the superseded sections below.
+
+**Per-article material**, all under `tmp/`: research in `tmp/a39N/research/`, reviews and dispositions in
+`tmp/a39N/review/FINDINGS.md`, apply scripts in `tmp/a39N/review/`, worked numbers in `tmp/a39N/claims.py`, and the
+quotation checker `tmp/quotecheck.py RESEARCH_DIR DRAFT`. The drafting and review briefs are `tmp/DRAFTING_BRIEF.md`
+and `tmp/REVIEW_BRIEF.md`. The section files in `tmp/a391/draft/`, `tmp/a392/draft/` and `tmp/a393/draft/` are stale;
+edit the drafts in `_drafts/` directly.
+
+## Validity (superseded, written 2026-11-18 during the review passes, parent `19b3c81`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `19b3c81`
 - **Written**: 2026-11-18, by the master blog session, now on Claude Opus 5.5, during the review passes on A391 to A394.
   This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `19b3c81...` for this handoff to be
@@ -24,7 +59,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 - **LOAD.** The workstation is overloaded. The operator forbade any site build or other build. Run `python3 _verify.py`
   only, and ignore its findings on the sister drafts.
 
-## Resume Here
+## Resume Here (superseded, written 2026-11-18 during the review passes)
 
 **The operator's instruction of 2026-11-18**, in order: apply the twenty A394 findings, give A392 and A393 an
 independent review and apply its findings, bring A391 to the same standard, commit after each article's pass, keep
