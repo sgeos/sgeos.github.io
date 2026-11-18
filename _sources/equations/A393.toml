@@ -1,0 +1,135 @@
+# Equation classification for A393. Read by `python3 _lib/equations.py`.
+
+caution = "The mass equations take masses in one unit throughout and give the margin in percent. The propellant equation takes delta-v and exhaust velocity in the same unit of velocity. The Froude number and the stand-in ratio are dimensionless, and the ratio requires both values in the same unit."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Predicted Mass"
+gloss = "The predicted mass of a flight system is its basic mass plus the mass growth allowance."
+cite = ["agency_nasa_gsfc_std_1000i"]
+digest = "6776db59e28f310a"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Mass Margin as a Percentage of Basic Mass"
+gloss = "The mass margin is the allowable mass less the predicted mass, stated as a percentage of the basic mass."
+cite = ["agency_nasa_gsfc_std_1000i"]
+digest = "1bf11db7af811574"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Propellant for the End of Life Manoeuvres"
+gloss = "The propellant that the end of life manoeuvres consume, given the mass that remains after them and the ratio of their delta-v to the exhaust velocity."
+cite = ["esa_delta_v_guidelines_2019"]
+digest = "1336b224748d98f7"
+
+[[equation]]
+tag = 4
+class = "standard"
+title = "Exhaust Velocity"
+gloss = "The exhaust velocity as the product of the average specific impulse, the thruster efficiency and the standard gravitational acceleration."
+cite = ["esa_delta_v_guidelines_2019"]
+digest = "b051494de0131b9d"
+
+[[equation]]
+tag = 5
+class = "standard"
+title = "Froude Number"
+gloss = "The dimensionless group that a model and a full-scale vehicle must share for inertial and gravitational effects to be similar."
+cite = ["agency_nasa_tp_1435"]
+digest = "0168d00e821918d5"
+
+[[equation]]
+tag = 6
+class = "bespoke"
+title = "Bespoke Ratio of a Stand-In Quantity to the Real Quantity"
+gloss = "The article states each difference between a stand-in and the real system as the value of a quantity in the stand-in divided by its value in the real system."
+cite = []
+digest = "9458d16580898af7"
+
+[[symbol]]
+tex = 'M_{\mathrm{P}}'
+meaning = "the predicted mass"
+
+[[symbol]]
+tex = 'M_{\mathrm{B}}'
+meaning = "the basic mass"
+
+[[symbol]]
+tex = 'M_{\mathrm{G}}'
+meaning = "the mass growth allowance"
+
+[[symbol]]
+tex = 'M_{\mathrm{A}}'
+meaning = "the allowable mass"
+
+[[symbol]]
+tex = 'm'
+meaning = "the mass margin in percent"
+
+[[symbol]]
+tex = 'P_{\mathrm{EOL}}'
+meaning = "the propellant for the end of life manoeuvres"
+
+[[symbol]]
+tex = 'm_{\mathrm{dry}}'
+meaning = "the dry mass of the satellite"
+
+[[symbol]]
+tex = 'P_{\mathrm{RES}}'
+meaning = "the propellant residuals"
+
+[[symbol]]
+tex = 'P_{\mathrm{UNC}}'
+meaning = "the allowance for gauging uncertainty"
+
+[[symbol]]
+tex = '\Delta V_{\mathrm{EOL}}'
+meaning = "the delta-v of the end of life manoeuvres"
+
+[[symbol]]
+tex = 'V_{\mathrm{e}}'
+meaning = "the exhaust velocity"
+
+[[symbol]]
+tex = 'I_{\mathrm{sp}}'
+meaning = "the average specific impulse"
+
+[[symbol]]
+tex = '\eta'
+meaning = "the thruster efficiency"
+
+[[symbol]]
+tex = 'g_{0}'
+meaning = "the standard gravitational acceleration"
+
+[[symbol]]
+tex = 'N_{\mathrm{Fr}}'
+meaning = "the Froude number"
+
+[[symbol]]
+tex = 'V'
+meaning = "the velocity"
+
+[[symbol]]
+tex = 'l'
+meaning = "the characteristic dimension"
+
+[[symbol]]
+tex = 'g'
+meaning = "the acceleration of gravity"
+
+[[symbol]]
+tex = 'k'
+meaning = "the ratio of a quantity in the stand-in to the same quantity in the real system"
+
+[[symbol]]
+tex = 'q_{\mathrm{S}}'
+meaning = "the value of a quantity in the stand-in"
+
+[[symbol]]
+tex = 'q_{\mathrm{R}}'
+meaning = "the value of the same quantity in the real system"
