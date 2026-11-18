@@ -11,6 +11,51 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `19b3c81`
+- **Written**: 2026-11-18, by the master blog session, now on Claude Opus 5.5, during the review passes on A391 to A394.
+  This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `19b3c81...` for this handoff to be
+  valid. `python3 _lib/blog.py handoff` makes that comparison.
+- **Tree at write**: `_drafts/incident_reporting_standards_space_aerospace.markdown` is modified and uncommitted,
+  because an agent is applying its review findings. The three `multi_agent_space_simulation_*` drafts other than the
+  reconstructed thesis, and `_sources/equations/A387.toml` and `A388.toml`, belong to two sister sessions. **Do not
+  edit, stage, commit, move, number or date them.** Committing sister work waits for the operator's word.
+- **PUSH STATE.** `origin/master` is `021cce5`. Every later commit is local and unpushed.
+- **PUBLICATION STATE.** A1 to A385 are published. A386 awaits the operator's proofreading. A391 to A394 are drafts.
+- **LOAD.** The workstation is overloaded. The operator forbade any site build or other build. Run `python3 _verify.py`
+  only, and ignore its findings on the sister drafts.
+
+## Resume Here
+
+**The operator's instruction of 2026-11-18**, in order: apply the twenty A394 findings, give A392 and A393 an
+independent review and apply its findings, bring A391 to the same standard, commit after each article's pass, keep
+this file current, and report when the A391 to A394 passes are done or earlier if a finding needs a ruling.
+
+**State.**
+- **A394**, `_drafts/program_financial_management_space_agencies.markdown`, dated 2026-11-08. All twenty findings in
+  `tmp/a394/review/FINDINGS.md` verified and applied, script `tmp/a394/review/apply_findings.py`. Committed `aeae40b`.
+- **A393**, `_drafts/mission_planning_reporting_space_aerospace.markdown`, dated 2026-11-09. Nineteen findings in
+  `tmp/a393/review/FINDINGS.md`, with the disposition recorded at its foot. All applied except the extension of
+  finding 1 to three true sentences that say "in November 2026". Committed `497733f`.
+- **A392**, `_drafts/vehicle_specification_documents_space_aerospace.markdown`, dated 2026-11-10. Twenty-one findings
+  in `tmp/a392/review/FINDINGS.md`. Twenty applied. Finding 21, on reading dates, left as worded. Committed `19b3c81`.
+- **A391**, `_drafts/incident_reporting_standards_space_aerospace.markdown`, dated 2026-11-11. Twenty-five findings in
+  `tmp/a391/review/FINDINGS.md`. An agent is applying them with the same rule, verify first and record any rejection.
+  Finding 25, on reading dates, is to be left as worded. **If the agent did not finish, check its edits against the
+  findings, run the checks below, and commit.**
+
+**Checks for each of the four drafts**, all of which must pass: `python3 _lib/blog.py lint DRAFT`, `refs DRAFT`,
+`python3 tmp/quotecheck.py tmp/aNNN/research DRAFT`, `python3 tmp/a386/passive.py DRAFT`,
+`python3 _lib/blog.py numbers check tmp/aNNN/claims.py --inject` and `equations check DRAFT`. The A391 quotation
+check reports five known NOT FOUND from the scanned MIL-HDBK-2155, read against page images, and three Annex 13
+passages that match only the hand transcription. Both are disclosed.
+
+**After A391.** Update `TASKLOG.md`, `draft_summary.md` and `REVERSE_PROMPT.md` for A391 to A394, which do not yet
+carry A392 to A394, restamp this file, and report to the operator. Decisions still open for the operator are listed in
+`REVERSE_PROMPT.md` and in the entries of 2026-11-14 below.
+
+## Validity (superseded, written 2026-11-14 after redating A391, parent `34f3166`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `34f3166`
 - **Written**: 2026-11-14, by the operator session, Claude Fable 5.2, after drafting and redating A391. This file's own commit sits
   directly on top, so `git rev-parse HEAD~1` must print `34f3166...` for this handoff to be valid.
@@ -22,7 +67,7 @@ resuming agent. Read it first, validate it, then read the live channels.
 - **PUBLICATION STATE.** A1 to A385 are published. **A386 is nominally ready and awaits the pilot's proofreading.
   A391 is a first complete draft under a provisional number.** A387 to A390 are reserved for the multi-agent series.
 
-## Resume Here
+## Resume Here (superseded, written 2026-11-14 after redating A391)
 
 **Two drafts are open.**
 
