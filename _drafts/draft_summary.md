@@ -17,6 +17,26 @@ Missing sections and prose will need to be drafted.
 Stubs and largely incomplete drafts are assessed for topicality and publication merit.
 
 
+## Standards Survey Series A392 to A394 DRAFT
+
+Three analytical surveys requested by the Ikria line in cross-session messages that relayed the pilot's words, so that
+a programme run in a simulation can model its records on agency and industry practice. Numbers and dates are the
+master session's and provisional. Research is under `tmp/a392/`, `tmp/a393/` and `tmp/a394/`, three families each.
+
+- **A392**, `_drafts/vehicle_specification_documents_space_aerospace.markdown`, *Vehicle Specification Documents in
+  Space Agencies and Aerospace*, dated 2026-11-10, categories `aerospace engineering space`. About 17,800 words, 63
+  references, 4 equations. Ends with a one-vehicle specification sheet.
+- **A393**, `_drafts/mission_planning_reporting_space_aerospace.markdown`, *Mission Planning and Reporting Standards
+  in Space Agencies*, dated 2026-11-09, categories `aerospace engineering space`. About 21,500 words, 62 references, 6
+  equations. Covers documenting a mission flown in a stand-in, with a worked comparison of Venus and Eve.
+- **A394**, `_drafts/program_financial_management_space_agencies.markdown`, *Programme and Financial Management
+  Standards in Space Agencies*, dated 2026-11-08, categories `aerospace engineering management`. About 18,700 words, 48
+  references, 17 equations. Ends with a programme status report and a set of financial records.
+
+**Current status 2026-11-18. Drafted, independently reviewed, findings applied, committed locally, not published.**
+Each article's review findings and their dispositions are in `tmp/a39N/review/FINDINGS.md`. No build has run on them,
+and no URL check, source-database import or reference density pass has run.
+
 ## Incident Reporting Standards in Space Agencies and Aerospace A391 DRAFT
 
 `_drafts/incident_reporting_standards_space_aerospace.markdown`, A391, analytical essay, categories
@@ -28,7 +48,7 @@ launch, United States defence practice, the European and Japanese space standard
 then describes the methods of cause analysis and the confidential reporting channels, draws out eleven shared
 elements, and ends with a report structure for a small programme.
 
-**Current status 2026-11-14. First complete draft, not published, awaiting the pilot's confirmation of the request,
+**Current status 2026-11-18. Independently reviewed, 24 of 25 findings applied at `23eb9d5`. Earlier status 2026-11-14. First complete draft, not published, awaiting the pilot's confirmation of the request,
 the number and the date.** 12,710 words of author prose, 6 display equations, all standard, and 61 references in the
 legacy format. Research is saved under `tmp/a391/research/` in four families, each with notes and a quotation check.
 `tmp/a391/quotecheck.py` matches the draft's quotations against the saved copies, and `tmp/a391/claims.py`

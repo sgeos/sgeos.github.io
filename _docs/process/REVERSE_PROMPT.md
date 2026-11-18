@@ -4,6 +4,42 @@
 
 ## Last Updated
 
+**Date**: 2026-11-18 (first entry)
+**Task**: **Independent review passes on A391 to A394, the space-agency standards series. Done, each committed locally, not pushed, not published.**
+
+**Summary.** Four articles, four independent reviews, 85 findings. I verified each finding against its source before applying it. 82 are applied. The 3 not applied are all one point, the wording "in November 2026" for when the author read the documents, which is true and which I left for you.
+
+| Article | Editorial date | Findings | Applied | Commit |
+|---|---|---|---|---|
+| A391, incident reporting | 2026-11-11 | 25 | 24 | `23eb9d5` |
+| A392, vehicle specification documents | 2026-11-10 | 21 | 20 | `19b3c81` |
+| A393, mission planning and reporting | 2026-11-09 | 19 | 18 in full, 1 in part | `497733f` |
+| A394, programme and financial management | 2026-11-08 | 20 | 20 | `aeae40b` |
+
+**How.** Each reviewer read one draft line by line against the research notes and the saved sources, looking for overstatement, misattribution, unsupported claims and missing disclosures. Scripts had already matched every quotation to a saved copy. The reviewers checked what scripts cannot: paraphrase, counts, attribution and inference presented as fact. Their reports and my dispositions are in `tmp/a39N/review/FINDINGS.md`. Two reviewers were refused permission to write their own files, so I saved those two reports.
+
+**Kinds of error found, across all four.**
+- **Recommendations reported as requirements.** Examples are NASA's risk statement form, the Goddard heritage rule, and MIL-HDBK-2155, which is guidance only.
+- **Misattribution.** A duty in NASA's mishap directive belongs to the ex officio, not the chairperson. The Annex 13 definitions quoted are the wording of ICAO's manual. A software category table sat under the wrong ECSS standard.
+- **Errors of fact.** A393 called Venus's and Eve's air "denser" by factors that are ratios of surface pressure. A391 said NASA's anonymous reporting channel cannot ask follow-up questions, when it can through its contractor.
+- **Scope too wide.** For example, "the European standards contain no earned value", when only three of five were read.
+- **Missing disclosures.** Mirror and archive copies, hand transcriptions, conflicts inside a source, and editions withdrawn in 2026.
+- **Dates after the editorial date.** Seven sentences in A393 and A394 said the author read a page "on 14 November 2026". They now say "in November 2026".
+
+**Verification.** Every draft passes lint, the reference check, the quotation check, its worked numbers and the equation check. A391's quotation check still reports its five known passages from a scanned handbook, read against page images, and three Annex 13 passages that match only a hand transcription. Both are disclosed in the article. The corpus verifier reports 0 errors. Its one warning is in a sister draft, `multi_agent_space_simulation_predictive_value.markdown`, which carries an Equations section without its article comment. I did not touch it. **No build was run**, on your instruction, so no deploy gate has been run on A392 to A394, and A391's last gate predates these edits.
+
+**For you.**
+1. **Reading dates.** The articles are back-dated to 8 to 11 November. The research was read on 13 and 14 November. They say "in November 2026", which is true but loose against the dateline. Say if you want different wording.
+2. **The relayed requests.** A392 to A394 came from the Ikria session relaying your words, and A394 from a relayed approval. You have not confirmed them to me directly.
+3. **Numbers and dates** of A392 to A394 are mine and provisional.
+4. **For Official Use.** A393 quotes briefly from five ESA files that carry that marking although ESA serves them publicly. A392 quotes one sentence from one such file.
+5. **The deploy gate**, when the load allows a build.
+6. **The decisions still open from 14 November**, listed below.
+
+**Sister sessions.** Their drafts and equation files in `_drafts/` and `_sources/equations/` are untouched and unstaged.
+
+## Previous Report (2026-11-14, second entry)
+
 **Date**: 2026-11-14 (second entry)
 **Task**: **A391 redated on your instruction, so that its editorial date falls immediately before the thesis reconstruction article. Done, committed locally, not pushed, not published.**
 
