@@ -1,0 +1,75 @@
+# Equation classification for A392. Read by `python3 _lib/equations.py`.
+
+caution = "All four equations take masses in one consistent unit. The first three apply to dry mass only, and the percentage margin of the second is defined with the basic mass in the denominator. The fourth applies to the early study phases that its source governs."
+
+[[equation]]
+tag = 1
+class = "standard"
+title = "Predicted Mass"
+gloss = "The predicted mass of an item is its basic mass plus its mass growth allowance."
+cite = ["agency_nasa_gsfc_std_1000i"]
+digest = "f1a5a412c490fef2"
+
+[[equation]]
+tag = 2
+class = "standard"
+title = "Mass Margin in Percent of Basic Mass"
+gloss = "The margin between the allowable mass and the predicted mass, expressed as a percentage of the basic mass."
+cite = ["agency_nasa_gsfc_std_1000i"]
+digest = "047fb78a4f2feabf"
+
+[[equation]]
+tag = 3
+class = "standard"
+title = "Fractional Growth Allowance"
+gloss = "The growth allowance as a fraction of the basic value, found from the predicted and basic values."
+cite = ["agency_nasa_seh_expanded_vol2"]
+digest = "93b2ddf446c6b5c3"
+
+[[equation]]
+tag = 4
+class = "bespoke"
+title = "Bespoke Total Dry Mass Under Two Layers of Margin"
+gloss = "The author's expression of the ESA rules, in which a system margin applies to the sum of the equipment masses after each has received its own maturity margin."
+cite = []
+digest = "6ea606e52e0576a3"
+
+[[symbol]]
+tex = 'M_{\mathrm{B}}'
+meaning = "the basic mass"
+
+[[symbol]]
+tex = 'G'
+meaning = "the mass growth allowance"
+
+[[symbol]]
+tex = 'M_{\mathrm{P}}'
+meaning = "the predicted mass"
+
+[[symbol]]
+tex = 'M_{\mathrm{A}}'
+meaning = "the allowable mass"
+
+[[symbol]]
+tex = '\mu'
+meaning = "the mass margin in percent of the basic mass"
+
+[[symbol]]
+tex = 'g'
+meaning = "the growth allowance as a fraction of the basic mass"
+
+[[symbol]]
+tex = 'M_{\mathrm{D}}'
+meaning = "the total dry mass at launch"
+
+[[symbol]]
+tex = 's'
+meaning = "the system level mass margin as a fraction"
+
+[[symbol]]
+tex = 'm_{i}'
+meaning = "the estimated mass of equipment $i$ before any margin"
+
+[[symbol]]
+tex = 'k_{i}'
+meaning = "the design maturity margin of equipment $i$ as a fraction"
