@@ -11,6 +11,29 @@ resuming agent. Read it first, validate it, then read the live channels.
 ## Validity
 
 - **Branch**: `master`
+- **Parent commit** (the repository state this handoff describes): `a4cd12e`
+- **Written**: 2026-11-21, by the master blog session on Claude Opus 5.5, after publishing A386. This file's own commit
+  sits directly on top, so `git rev-parse HEAD~1` must print `a4cd12e...` for this handoff to be valid.
+  `python3 _lib/blog.py handoff` makes that comparison. The local commits were rebased on 2026-11-21 onto
+  `origin/master` `83563ab`, so commit hashes in the superseded sections below predate the rebase.
+- **Tree at write**: clean for the master session. The untracked `multi_agent_space_simulation_*` drafts and
+  `_sources/equations/A387.toml` and `A388.toml` belong to two sister sessions. **Do not edit, stage, commit, move,
+  number or date them.**
+- **PUSH STATE.** This commit is pushed to `ci/a386-publication`. When `CI result` passes, `master` is fast-forwarded to
+  it and the branch is deleted. If `origin/master` is behind `HEAD` on resume, check that branch's CI run and finish
+  the fast-forward, or report a failure.
+- **PUBLICATION STATE.** A1 to A386 are published, A386 as
+  `_posts/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.markdown`. A391 to A394 are reviewed drafts.
+
+## Resume Here
+
+**A386 is published** on the operator's instruction of 2026-11-21. The release announcement is in `REVERSE_PROMPT.md`,
+first entry of 2026-11-21, for the operator to post. **Nothing else is in flight.** Wait for the operator. Open items,
+all the operator's, are in that entry and in the entry of 2026-11-18.
+
+## Validity (superseded, written 2026-11-18 after the review passes, pre-rebase parent `2b1e3ab`)
+
+- **Branch**: `master`
 - **Parent commit** (the repository state this handoff describes): `2b1e3ab`
 - **Written**: 2026-11-18, by the master blog session on Claude Opus 5.5, after the review passes on A391 to A394.
   This file's own commit sits directly on top, so `git rev-parse HEAD~1` must print `2b1e3ab...` for this handoff to be
@@ -23,7 +46,7 @@ resuming agent. Read it first, validate it, then read the live channels.
   drafts awaiting the operator.
 - **LOAD.** On 2026-11-18 the operator forbade any build because the workstation was overloaded. Ask before building.
 
-## Resume Here
+## Resume Here (superseded, written 2026-11-18 after the review passes)
 
 **The operator's instruction of 2026-11-18 is complete.** All four review passes are applied and committed:
 A394 `aeae40b`, A393 `497733f`, A392 `19b3c81`, A391 `23eb9d5`, and the report `2b1e3ab`. The report is the first entry
