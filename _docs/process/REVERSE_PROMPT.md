@@ -4,6 +4,44 @@
 
 ## Last Updated
 
+**Date**: 2026-11-21 (first entry)
+**Task**: **A386 published on your instruction**, *Multi-Agent Space Simulation: A Reconstructed Thesis*, at editorial date 2026-11-12 09:00 UTC, in the two-commit pattern.
+
+**What was done.**
+- **Rebase.** `origin/master` had moved to `83563ab`, a Dependabot bump of one action in `.github/workflows/ci.yml`. I rebased the local commits onto it to keep the history linear. No conflict.
+- **Move.** The draft moved to `_posts/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.markdown`. In the same commit its name map moved to `_sources/articles/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.json`.
+- **Checks before the move.** Lint 0 defects, 41 equations consistent, 66 of 66 worked numbers, references against the source database clean, and all 312 quotations matched to saved sources.
+- **Gate.** `./_check.sh` passed in the main checkout with the article in place: 386 posts, the library tests, the build, and a rendered audit of 554 pages with no findings. The verifier's one warning is in a sister draft, which the push does not carry.
+- **Two open content points.** Your instruction to publish settles the shortened thesis claims 3 and 5 and the gloss of soft science fiction as they stand.
+
+**What the push carries.** Every local commit since `021cce5`. That includes the A391 to A394 drafts, their equation files and the process files. The drafts become visible in the repository but are not built on the site.
+
+**URL.** https://sgeos.github.io/space/space-studies/simulation/2026/11/12/multi_agent_space_simulation_reconstructed_thesis.html
+
+**Release announcement, for you to review before posting.**
+
+```
+New Blog Post: Multi-Agent Space Simulation: A Reconstructed Thesis
+
+Why does no space simulation give thousands of people one shared solar system under physics that does not cheat? This article reconstructs a lost undergraduate thesis that asked that question, reviews four products, and sets out a blueprint for such a simulation.
+
+Key takeaways:
+- Strong single-agent spaceflight models exist, and the multi-agent worlds simplify or replace the physics. No known product does both.
+- Nothing in physics forbids the combination. The hardest open problem is sharing honest travel times among many people.
+- Such a simulation could teach true physics, and how people behaved in it would be indicative evidence of how they might trade, move cargo and fight in near-term space.
+
+You can read the full article here:
+https://sgeos.github.io/space/space-studies/simulation/2026/11/12/multi_agent_space_simulation_reconstructed_thesis.html
+
+Let me know your thoughts. I would love to hear how you would handle shared time in a world where a voyage takes months!
+
+hashtag#Space hashtag#Simulation hashtag#Spaceflight hashtag#GameDesign hashtag#OrbitalMechanics hashtag#MultiAgent
+```
+
+**Still open.** Confirmation of A392 to A394 and their numbers and dates, the reading-date wording in A391 to A394, the For Official Use quotations in A392 and A393, and a deploy gate on A391 to A394. All are listed in the entry of 2026-11-18 below.
+
+## Previous Report (2026-11-18, first entry)
+
 **Date**: 2026-11-18 (first entry)
 **Task**: **Independent review passes on A391 to A394, the space-agency standards series. Done, each committed locally, not pushed, not published.**
 

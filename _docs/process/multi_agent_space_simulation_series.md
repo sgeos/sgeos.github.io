@@ -10,7 +10,7 @@ the series arc on disk. The per-draft status is in [`draft_summary.md`](../../_d
 
 | No. | Working title | State | Purpose |
 |---|---|---|---|
-| A386 | *Multi-Agent Space Simulation: A Reconstructed Thesis* | Drafted, four passes done, economy added, seven publication passes done 2026-11-13, references in the source database, not published | The reconstructed paper. Thesis, what a model is, reviews of four products, soft science fiction conventions with remedies, and a blueprint for a high-fidelity multi-agent predictive simulation, with the equations an implementation needs |
+| A386 | *Multi-Agent Space Simulation: A Reconstructed Thesis* | Published 2026-11-21 at editorial date 2026-11-12, as `_posts/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.markdown` | The reconstructed paper. Thesis, what a model is, reviews of four products, soft science fiction conventions with remedies, and a blueprint for a high-fidelity multi-agent predictive simulation, with the equations an implementation needs |
 | A387 | *Since 2021: Research Harnesses and Agent Operators* | Planned | Dates and reviews work after the paper, and tests A386's third claim, that no such simulation is known |
 | A388 | *Why It Is Hard: Time, Fuel, Fidelity and Determinism* | Planned | Works the hard problems A386 only names |
 | A389 | *Predictive Value* | Planned | Predictive value under three bounds, and market demand tied to educating the public |

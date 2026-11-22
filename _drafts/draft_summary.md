@@ -58,9 +58,9 @@ The Annex 13 quotations are hand transcriptions from a view-only copy, and three
 The pilot set the editorial date on 2026-11-14 as immediately before A386, and the front matter carries 2026-11-11
 09:00 UTC, the day before A386's 2026-11-12.
 
-## Multi-Agent Space Simulation: A Reconstructed Thesis A386 DRAFT
+## Multi-Agent Space Simulation: A Reconstructed Thesis A386 PUBLISHED
 
-`_drafts/multi_agent_space_simulation_reconstructed_thesis.markdown`, A386, analytical essay, categories
+`_posts/2026-11-12-multi_agent_space_simulation_reconstructed_thesis.markdown`, A386, **published 2026-11-21 at editorial date 2026-11-12**, analytical essay, categories
 `space space-studies simulation`, first article of the series `multi_agent_space_simulation`. Its plan, rulings and
 open items are in [Multi-Agent Space Simulation Series](../_docs/process/multi_agent_space_simulation_series.md). It
 reconstructs from memory the thesis of the pilot's lost senior seminar paper, reviews Kerbal Space Program, Children
